@@ -188,6 +188,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
       case 'social_studies':
         return Icons.public_rounded;
       case 'ict':
+      case 'stem':
         return Icons.memory_rounded;
       case 'art':
         return Icons.palette_rounded;

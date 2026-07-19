@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../features/lessons/nursery_kg_activity_bank.dart';
+import '../../features/lessons/primary_curriculum_bank.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../models/user_model.dart';
@@ -86,7 +87,11 @@ class SeedSummary {
 Future<SeedSummary> seedDatabase(FirebaseFirestore db) async {
   final users = mockSeedUsers();
   final children = mockSeedChildren();
-  final modules = [...mockSeedLearningModules(), ...mockSeedNurseryKgModules()];
+  final modules = [
+    ...mockSeedLearningModules(),
+    ...mockSeedNurseryKgModules(),
+    ...mockSeedPrimaryCurriculumModules(),
+  ];
 
   final batch = db.batch();
 
@@ -307,6 +312,29 @@ List<LearningModuleModel> mockSeedLearningModules() {
 List<LearningModuleModel> mockSeedNurseryKgModules() {
   return [
     for (final activity in nurseryKgActivityBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
+  ];
+}
+
+/// The Year 1-6 `LearningModules` documents [seedDatabase] writes, derived
+/// from [primaryCurriculumBank] -- the actual quiz questions
+/// ([PrimaryActivityDef.questions]) are intentionally dropped here and
+/// never written to Firestore (same "content lives in Dart, not
+/// Firestore" design note as [mockSeedNurseryKgModules]); only catalog
+/// metadata is persisted.
+List<LearningModuleModel> mockSeedPrimaryCurriculumModules() {
+  return [
+    for (final activity in primaryCurriculumBank)
       LearningModuleModel(
         id: activity.id,
         subject: activity.subject,
