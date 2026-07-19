@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('primaryCurriculumBank', () {
-    test('contains exactly 72 modules', () {
-      expect(primaryCurriculumBank.length, 72);
+    test('contains exactly 76 modules', () {
+      expect(primaryCurriculumBank.length, 76);
     });
 
     test('every module id is unique', () {
@@ -63,51 +63,63 @@ void main() {
       }
     });
 
-    test('has 18 modules per subject', () {
+    test('has 18 modules per subject, except stem which has 22', () {
+      // year5-stem and year6-stem each carry 2 extra real-Python-syntax
+      // modules on top of the baseline 3 per grade, adding 4 to the stem
+      // subject total (18 -> 22); every other subject stays at 18.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
       }
       expect(counts.length, 4, reason: 'expected 4 subjects');
       for (final entry in counts.entries) {
+        final expected = entry.key == 'stem' ? 22 : 18;
         expect(
           entry.value,
-          18,
-          reason: '${entry.key} has ${entry.value} modules, expected 18',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });
 
-    test('has 12 modules per grade', () {
+    test('has 12 modules per grade, except year5/year6 which have 14', () {
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
       }
       expect(counts.length, 6, reason: 'expected 6 grades');
+      const expectedOverrides = {'year5': 14, 'year6': 14};
       for (final entry in counts.entries) {
+        final expected = expectedOverrides[entry.key] ?? 12;
         expect(
           entry.value,
-          12,
-          reason: '${entry.key} has ${entry.value} modules, expected 12',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });
 
-    test('has 3 modules per grade+subject combination', () {
-      final counts = <String, int>{};
-      for (final module in primaryCurriculumBank) {
-        final key = '${module.grade.name}-${module.subject}';
-        counts[key] = (counts[key] ?? 0) + 1;
-      }
-      expect(counts.length, 24, reason: 'expected 24 grade+subject combos');
-      for (final entry in counts.entries) {
-        expect(
-          entry.value,
-          3,
-          reason: '${entry.key} has ${entry.value} modules, expected 3',
-        );
-      }
-    });
+    test(
+      'has 3 modules per grade+subject combination, except year5-stem/year6-stem',
+      () {
+        const expectedOverrides = {'year5-stem': 5, 'year6-stem': 5};
+        final counts = <String, int>{};
+        for (final module in primaryCurriculumBank) {
+          final key = '${module.grade.name}-${module.subject}';
+          counts[key] = (counts[key] ?? 0) + 1;
+        }
+        expect(counts.length, 24, reason: 'expected 24 grade+subject combos');
+        for (final entry in counts.entries) {
+          final expected = expectedOverrides[entry.key] ?? 3;
+          expect(
+            entry.value,
+            expected,
+            reason:
+                '${entry.key} has ${entry.value} modules, expected $expected',
+          );
+        }
+      },
+    );
 
     test(
       'every module has non-empty, non-equal bilingual title/description',

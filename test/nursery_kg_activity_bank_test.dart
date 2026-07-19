@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('nurseryKgActivityBank', () {
-    test('contains exactly 24 modules', () {
-      expect(nurseryKgActivityBank.length, 24);
+    test('contains exactly 28 modules', () {
+      expect(nurseryKgActivityBank.length, 28);
     });
 
     test('every module id is unique', () {
@@ -44,7 +44,11 @@ void main() {
       }
     });
 
-    test('has 3 modules per grade+subject combination', () {
+    test('has 3 modules per grade+subject combination, except stem', () {
+      // nursery-stem and kg-stem each carry 2 extra pre-coding
+      // (directions/sequencing) modules on top of the baseline 3, so they
+      // total 5 instead of 3 -- every other combo stays at 3.
+      const expectedOverrides = {'nursery-stem': 5, 'kg-stem': 5};
       final counts = <String, int>{};
       for (final module in nurseryKgActivityBank) {
         final key = '${module.grade.name}-${module.subject}';
@@ -52,10 +56,11 @@ void main() {
       }
       expect(counts.length, 8, reason: 'expected 8 grade+subject combos');
       for (final entry in counts.entries) {
+        final expected = expectedOverrides[entry.key] ?? 3;
         expect(
           entry.value,
-          3,
-          reason: '${entry.key} has ${entry.value} modules, expected 3',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });

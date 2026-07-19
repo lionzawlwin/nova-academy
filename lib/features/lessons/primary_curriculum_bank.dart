@@ -4244,6 +4244,130 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
     ],
   ),
 
+  PrimaryActivityDef(
+    id: 'mock-year5-stem-4',
+    subject: 'stem',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Python Variables & Data Types',
+    titleMy: 'Python ကိန်းရှင်များနှင့် ဒေတာအမျိုးအစားများ',
+    descriptionEn:
+        'Take the first step from block logic into real Python syntax: variables, strings, and integers.',
+    descriptionMy:
+        'ဘလော့ခ်ယုတ္တိမှ အစစ်အမှန် Python syntax သို့ ပထမခြေလှမ်းလှမ်းပါ- ကိန်းရှင်၊ string နှင့် integer များ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which line correctly creates a variable named age with the value 10?',
+        questionMy:
+            'age ကိန်းရှင်တွင် 10 တန်ဖိုးကို မှန်ကန်စွာသိမ်းဆည်းသော ကုဒ်ကို ရွေးပါ။',
+        optionsEn: ['age = 10', 'age == 10', '10 = age', 'age := 10'],
+        optionsMy: ['age = 10', 'age == 10', '10 = age', 'age := 10'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What data type is the value "Hello" in Python?',
+        questionMy: 'Python တွင် "Hello" တန်ဖိုး၏ ဒေတာအမျိုးအစားမှာ အဘယ်နည်း။',
+        optionsEn: ['String', 'Integer', 'Boolean', 'List'],
+        optionsMy: ['String', 'Integer', 'Boolean', 'List'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What data type is the value 7 in Python?',
+        questionMy: 'Python တွင် 7 တန်ဖိုး၏ ဒေတာအမျိုးအစားမှာ အဘယ်နည်း။',
+        optionsEn: ['Integer', 'String', 'Boolean', 'List'],
+        optionsMy: ['Integer', 'String', 'Boolean', 'List'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a valid Python variable name?',
+        questionMy: 'မှန်ကန်သော Python ကိန်းရှင်အမည်ကို ရွေးပါ။',
+        optionsEn: ['student_name', '2ndPlace', 'my-score', 'class'],
+        optionsMy: ['student_name', '2ndPlace', 'my-score', 'class'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What will print(5 + 3) output in Python?',
+        questionMy: 'Python တွင် print(5 + 3) သည် အဘယ်အရာကို ပြသမည်နည်း။',
+        optionsEn: ['8', '53', '5 + 3', 'Error'],
+        optionsMy: ['8', '53', '5 + 3', 'Error'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-stem-5',
+    subject: 'stem',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Python Code Completion',
+    titleMy: 'Python ကုဒ် ဖြည့်စွက်ခြင်း',
+    descriptionEn: 'Practice completing short Python code snippets correctly.',
+    descriptionMy:
+        'တိုတောင်းသော Python ကုဒ်များကို မှန်ကန်စွာ ဖြည့်စွက်လေ့ကျင့်ပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            "Which code correctly stores the text 'Aye' in a variable called name?",
+        questionMy:
+            "'Aye' ဆိုသောစာသားကို name ကိန်းရှင်တွင် မှန်ကန်စွာသိမ်းဆည်းသော ကုဒ်ကို ရွေးပါ။",
+        optionsEn: [
+          "name = 'Aye'",
+          "name == 'Aye'",
+          "'Aye' = name",
+          "name := 'Aye'",
+        ],
+        optionsMy: [
+          "name = 'Aye'",
+          "name == 'Aye'",
+          "'Aye' = name",
+          "name := 'Aye'",
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Fill in the blank to add the numbers: total = 5 ___ 3',
+        questionMy: 'ဂဏန်းများကိုပေါင်းရန် ကွက်လပ်ကိုဖြည့်ပါ- total = 5 ___ 3',
+        optionsEn: ['+', '-', '*', '/'],
+        optionsMy: ['+', '-', '*', '/'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which symbol is used to write a comment in Python?',
+        questionMy: 'Python တွင် comment ရေးရန် မည်သည့်သင်္ကေတကို သုံးသနည်း။',
+        optionsEn: ['#', '//', '<!-- -->', '**'],
+        optionsMy: ['#', '//', '<!-- -->', '**'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What does print("Hi") do in Python?',
+        questionMy: 'Python တွင် print("Hi") သည် ဘာလုပ်သနည်း။',
+        optionsEn: [
+          'Displays the text Hi',
+          'Deletes the text Hi',
+          'Stores Hi in a file',
+          'Nothing happens',
+        ],
+        optionsMy: [
+          'Hi ဟူသောစာသားကိုပြသသည်',
+          'Hi ဟူသောစာသားကိုဖျက်သည်',
+          'Hi ကို ဖိုင်တွင်သိမ်းဆည်းသည်',
+          'ဘာမျှမဖြစ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which code correctly checks if x is equal to 10?',
+        questionMy: 'x သည် 10 နှင့်ညီမညီ မှန်ကန်စွာစစ်ဆေးသော ကုဒ်ကို ရွေးပါ။',
+        optionsEn: ['x == 10', 'x = 10', 'x != 10', 'x < 10'],
+        optionsMy: ['x == 10', 'x = 10', 'x != 10', 'x < 10'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
   // ============================== YEAR 6 ==============================
   PrimaryActivityDef(
     id: 'mock-year6-math-1',
@@ -5277,6 +5401,159 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
         questionMy: 'binary ဂဏန်း 10 သည် ဒဿမ (base 10) တွင် မည်မျှညီမျှသနည်း။',
         optionsEn: ['2', '10', '1', '20'],
         optionsMy: ['2', '10', '1', '20'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-stem-4',
+    subject: 'stem',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Spotting Syntax Errors',
+    titleMy: 'Syntax အမှားများ ရှာဖွေခြင်း',
+    descriptionEn:
+        'Practice identifying common syntax mistakes in short Python code snippets.',
+    descriptionMy:
+        'တိုတောင်းသော Python ကုဒ်များရှိ ဖြစ်လေ့ဖြစ်ထရှိသော syntax အမှားများကို ရှာဖွေလေ့ကျင့်ပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Which line of code has a syntax error?',
+        questionMy: 'Syntax အမှားပါသော ကုဒ်တစ်ကြောင်းကို ရွေးပါ။',
+        optionsEn: [
+          'print(Hello)',
+          'print("Hello")',
+          'x = 5',
+          '# This is a comment',
+        ],
+        optionsMy: [
+          'print(Hello)',
+          'print("Hello")',
+          'x = 5',
+          '# This is a comment',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is wrong with this code: if x = 5:',
+        questionMy: 'ဤကုဒ်တွင် ဘာမှားနေသနည်း- if x = 5:',
+        optionsEn: [
+          'It should use == not =',
+          'Nothing is wrong',
+          'It needs a semicolon',
+          'It needs a capital IF',
+        ],
+        optionsMy: [
+          '== ကိုသုံးသင့်ပြီး = မဟုတ်ပါ',
+          'ဘာမှမှားမနေပါ',
+          'semicolon လိုအပ်သည်',
+          'စာလုံးကြီး IF လိုအပ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which code snippet is missing a closing quotation mark?',
+        questionMy:
+            'ပိတ်ကိုးများ (closing quote) ချို့ယွင်းနေသော ကုဒ်ကို ရွေးပါ။',
+        optionsEn: [
+          'name = "Ko Ko',
+          'name = "Ko Ko"',
+          'age = 10',
+          'print(name)',
+        ],
+        optionsMy: [
+          'name = "Ko Ko',
+          'name = "Ko Ko"',
+          'age = 10',
+          'print(name)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why does the code print(5 + ) cause an error?',
+        questionMy: 'print(5 + ) ကုဒ်သည် အဘယ်ကြောင့် error ဖြစ်စေသနည်း။',
+        optionsEn: [
+          'It is missing a second number',
+          'It has too many numbers',
+          'It uses the wrong symbol for print',
+          'Nothing is wrong',
+        ],
+        optionsMy: [
+          'ဒုတိယဂဏန်းချို့ယွင်းနေသောကြောင့်',
+          'ဂဏန်းများလွန်းသောကြောင့်',
+          'print အတွက် သင်္ကေတမှားနေသောကြောင့်',
+          'ဘာမှမမှားပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these correctly starts a for loop in Python?',
+        questionMy:
+            'Python တွင် for loop ကို မှန်ကန်စွာစတင်သော ကုဒ်ကို ရွေးပါ။',
+        optionsEn: [
+          'for i in range(5):',
+          'for i in range(5)',
+          'for (i=0; i<5; i++)',
+          'loop i in 5',
+        ],
+        optionsMy: [
+          'for i in range(5):',
+          'for i in range(5)',
+          'for (i=0; i<5; i++)',
+          'loop i in 5',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-stem-5',
+    subject: 'stem',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Predicting Code Output',
+    titleMy: 'ကုဒ်ရလဒ် ခန့်မှန်းခြင်း',
+    descriptionEn:
+        'Read short Python snippets and predict exactly what they print.',
+    descriptionMy:
+        'တိုတောင်းသော Python ကုဒ်များကို ဖတ်ပြီး ၎င်းတို့ ဘာပြသမည်ကို အတိအကျခန့်မှန်းပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What will this code print? print(2 * 3)',
+        questionMy: 'ဤကုဒ်သည် ဘာပြသမည်နည်း- print(2 * 3)',
+        optionsEn: ['6', '5', '23', '32'],
+        optionsMy: ['6', '5', '23', '32'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What will this code print? x = 4, y = 2, print(x - y)',
+        questionMy: 'ဤကုဒ်သည် ဘာပြသမည်နည်း- x = 4, y = 2, print(x - y)',
+        optionsEn: ['2', '4', '6', '8'],
+        optionsMy: ['2', '4', '6', '8'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "What will this code print? print('Nova' + 'Academy')",
+        questionMy: "ဤကုဒ်သည် ဘာပြသမည်နည်း- print('Nova' + 'Academy')",
+        optionsEn: ['NovaAcademy', 'Nova Academy', 'Nova + Academy', 'Error'],
+        optionsMy: ['NovaAcademy', 'Nova Academy', 'Nova + Academy', 'Error'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'If x = 10 and we run x = x + 1, what is x now?',
+        questionMy:
+            'x = 10 ဖြစ်ပြီး x = x + 1 ကို run လုပ်လျှင် x ၏တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['11', '10', '1', 'Error'],
+        optionsMy: ['11', '10', '1', 'Error'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What will print(10 / 2) output in Python?',
+        questionMy: 'Python တွင် print(10 / 2) သည် ဘာပြသမည်နည်း။',
+        optionsEn: ['5.0', '5', '10/2', 'Error'],
+        optionsMy: ['5.0', '5', '10/2', 'Error'],
         correctIndex: 0,
       ),
     ],
