@@ -121,10 +121,12 @@ is called, what path it belongs to, what grade/subject it targets. The
 actual **quiz question content** (question text, answer choices, correct
 answer, per-question explanations) is intentionally **not** stored as
 Firestore documents. It ships as compiled Dart data bundled into the app
-binary: see `lib/features/lessons/mock_quiz_data.dart` (Primary quiz
-content) and `lib/features/lessons/nursery_kg_activity_bank.dart`
-(Nursery/KG match-pair content), which together establish the pattern
-later grade-band curricula will follow.
+binary: see `lib/features/lessons/mock_quiz_data.dart` (legacy/fallback
+Primary quiz content), `lib/features/lessons/nursery_kg_activity_bank.dart`
+(Nursery/KG match-pair content), and
+`lib/features/lessons/primary_curriculum_bank.dart` (Year 1-6 grade-keyed
+MCQ content, looked up per-module via `quizQuestionsForModule`), which
+together establish the pattern later grade-band curricula will follow.
 
 This is a deliberate Spark free-tier tradeoff, not an oversight. A
 curriculum-scale question bank (potentially thousands of questions across

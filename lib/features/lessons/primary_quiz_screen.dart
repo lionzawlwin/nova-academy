@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_theme.dart';
 import '../home/home_shared_widgets.dart';
 import 'mock_quiz_data.dart';
+import 'primary_curriculum_bank.dart';
 
 /// Bilingual UI-chrome copy for [PrimaryQuizScreen], following the same
 /// `*En`/`*My` paired-field convention as [LearningModuleModel] content.
@@ -22,11 +23,13 @@ String _t(BuildContext context, String en, String my) =>
 ///   `LearningModuleModel.titleEn`/`titleMy`).
 /// * [subject] -- lowercase subject key (matches
 ///   `primary_home_screen.dart`'s `_iconForSubject`/`LearningModuleModel.subject`
-///   convention, e.g. `'math'`, `'fractions'`, `'science'`), used to look up
-///   the mock question bank via [quizQuestionsForSubject].
+///   convention, e.g. `'math'`, `'fractions'`, `'science'`), used as the
+///   fallback question bank when [moduleId] doesn't resolve to a specific
+///   module via [quizQuestionsForModule].
 /// * [stars] -- the max number of stars obtainable from a perfect run.
-/// * [moduleId] -- optional id of the originating `LearningModuleModel`, for
-///   a future phase that persists quiz results back to Firestore.
+/// * [moduleId] -- optional id of the originating `LearningModuleModel`,
+///   used by [quizQuestionsForModule] to look up that module's own
+///   question set (see `primary_curriculum_bank.dart`).
 class PrimaryQuizArgs {
   const PrimaryQuizArgs({
     required this.title,
@@ -72,7 +75,10 @@ class _PrimaryQuizScreenState extends ConsumerState<PrimaryQuizScreen> {
   @override
   void initState() {
     super.initState();
-    _questions = quizQuestionsForSubject(widget.args.subject);
+    _questions = quizQuestionsForModule(
+      widget.args.moduleId,
+      widget.args.subject,
+    );
   }
 
   @override
