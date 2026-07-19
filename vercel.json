@@ -1,0 +1,5 @@
+{
+  "installCommand": "echo 'no npm deps — Flutter SDK is fetched in buildCommand'",
+  "buildCommand": "git clone --depth 1 -b stable https://github.com/flutter/flutter.git _flutter && ./_flutter/bin/flutter config --enable-web --no-analytics && ./_flutter/bin/flutter pub get && ./_flutter/bin/flutter build web --release",
+  "outputDirectory": "build/web"
+}
