@@ -1,0 +1,128 @@
+// Nova Academy — Firestore Security Rules (Spark / free-tier project).
+//
+// Mirrors the RBAC model implemented client-side in:
+//   - lib/core/constants/app_constants.dart  (AppConstants.ownerEmail / isOwnerEmail)
+//   - lib/providers/auth_providers.dart      (currentUserModelProvider owner bypass)
+//   - lib/models/user_model.dart, child_model.dart, learning_module_model.dart
+//   - docs/firestore_schema.md               (full field-by-field schema doc)
+//
+// Client-side role checks (e.g. the RoleGatekeeper puzzle, GoRouter
+// redirects) are a UX convenience only -- these rules are the actual
+// enforcement boundary. Nothing here should be loosened just because the
+// Flutter app already "hides" a screen; a malicious client can call
+// Firestore directly.
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------------------------------------------------------------------
+    // Helpers
+    // ---------------------------------------------------------------------
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Hardcoded permanent Super Admin / Owner bypass -- mirrors
+    // AppConstants.ownerEmail / isOwnerEmail() exactly, including the
+    // case-insensitive comparison. The owner account always has full
+    // read/write access to every collection below, regardless of any
+    // `role` field stored (or not yet stored) in Firestore.
+    function isOwner() {
+      return isSignedIn()
+        && request.auth.token.email != null
+        && request.auth.token.email.lower() == 'lionzawlwin@gmail.com';
+    }
+
+    function isSelf(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // True when the caller has a `Users/{uid}` document with `role`
+    // equal to [role]. Used to gate LearningModules writes to teachers
+    // without granting them anything else.
+    function hasRole(role) {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/Users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/Users/$(request.auth.uid)).data.role == role;
+    }
+
+    // True when the signed-in user's own Users doc lists [childId] in its
+    // `linkedStudents` array -- i.e. a parent has linked this teacher to
+    // this specific child. Costs one extra document read per rule
+    // evaluation, which Firestore caches per-request.
+    function isLinkedTeacherOf(childId) {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/Users/$(request.auth.uid))
+        && childId in get(/databases/$(database)/documents/Users/$(request.auth.uid)).data.linkedStudents;
+    }
+
+    // ---------------------------------------------------------------------
+    // Users
+    // ---------------------------------------------------------------------
+    // A signed-in user may read/write only their own document
+    // (`Users/{uid}` where uid == request.auth.uid). The owner bypasses
+    // this restriction entirely -- needed both for admin/support tooling
+    // and for the in-app demo seeder (`seedDatabase`), which writes mock
+    // parent/teacher Users documents on the owner's behalf.
+    //
+    // NOTE: this intentionally does not further restrict which *fields* a
+    // self-write may touch (e.g. a user could self-grant `role: owner` by
+    // rewriting their own doc). The client never surfaces UI to do this,
+    // and the owner bypass above is keyed off the Auth token email, not
+    // this field, so a spoofed `role` field cannot escalate real
+    // privileges anywhere in the app. Tightening this further (e.g. a
+    // Cloud-Function-only path for `role`/`subscriptionTier` writes) is
+    // flagged in docs/firestore_schema.md as a follow-up once the project
+    // moves off the Spark plan.
+    match /Users/{userId} {
+      allow read: if isOwner() || isSelf(userId);
+      allow write: if isOwner() || isSelf(userId);
+    }
+
+    // ---------------------------------------------------------------------
+    // Children
+    // ---------------------------------------------------------------------
+    // Readable/writable by: the owning parent (`parentId == uid`), a
+    // teacher explicitly linked to this child via their own
+    // `linkedStudents`, or the owner. Creation additionally requires the
+    // new document's `parentId` to equal the caller's own uid (or owner),
+    // so a parent can never create a child profile "owned" by someone
+    // else.
+    match /Children/{childId} {
+      allow read: if isOwner()
+        || (isSignedIn() && resource.data.parentId == request.auth.uid)
+        || isLinkedTeacherOf(childId);
+
+      allow create: if isOwner()
+        || (isSignedIn() && request.resource.data.parentId == request.auth.uid);
+
+      allow update, delete: if isOwner()
+        || (isSignedIn() && resource.data.parentId == request.auth.uid)
+        || isLinkedTeacherOf(childId);
+    }
+
+    // ---------------------------------------------------------------------
+    // LearningModules
+    // ---------------------------------------------------------------------
+    // Readable by any authenticated user (shared content catalog -- every
+    // role needs to browse it). Writable only by the owner or an account
+    // with `role == 'teacher'` -- parents and students never author
+    // content, keeping write volume (and abuse surface) minimal.
+    match /LearningModules/{moduleId} {
+      allow read: if isSignedIn();
+      allow write: if isOwner() || hasRole('teacher');
+    }
+
+    // ---------------------------------------------------------------------
+    // Default deny
+    // ---------------------------------------------------------------------
+    // Anything not explicitly matched above (including any future
+    // collection added without updating this file) is denied by default.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

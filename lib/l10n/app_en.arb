@@ -1,0 +1,227 @@
+{
+  "@@locale": "en",
+
+  "appName": "Nova Academy",
+  "appTagline": "Learning made brilliant",
+
+  "actionContinue": "Continue",
+  "actionCancel": "Cancel",
+  "actionSave": "Save",
+  "actionBack": "Back",
+  "actionNext": "Next",
+  "actionDone": "Done",
+  "actionOk": "OK",
+  "actionYes": "Yes",
+  "actionNo": "No",
+  "actionRetry": "Retry",
+  "actionLoading": "Loading...",
+  "actionError": "Something went wrong",
+  "actionSubmit": "Submit",
+  "actionClose": "Close",
+  "actionEdit": "Edit",
+  "actionDelete": "Delete",
+  "actionConfirm": "Confirm",
+  "actionSkip": "Skip",
+  "actionGetStarted": "Get Started",
+
+  "authLogin": "Log In",
+  "authLogout": "Log Out",
+  "authEmail": "Email",
+  "authPassword": "Password",
+  "authConfirmPassword": "Confirm Password",
+  "authSignIn": "Sign In",
+  "authSignUp": "Sign Up",
+  "authForgotPassword": "Forgot Password?",
+  "authCreateAccount": "Create Account",
+  "authFullName": "Full Name",
+  "authDontHaveAccount": "Don't have an account?",
+  "authAlreadyHaveAccount": "Already have an account?",
+  "authWelcomeBack": "Welcome Back",
+  "authJoinNovaAcademy": "Join Nova Academy",
+  "authInvalidEmail": "Please enter a valid email address",
+  "authPasswordTooShort": "Password must be at least 6 characters",
+  "authPasswordsDoNotMatch": "Passwords do not match",
+
+  "profileSelectTitle": "Who's Learning?",
+  "profileSelectSubtitle": "Select a profile to continue",
+  "profileAdd": "Add Profile",
+  "profileAddChild": "Add Child",
+  "profileSwitch": "Switch Profile",
+  "profileManage": "Manage Profiles",
+  "profileAliasName": "Child's Nickname",
+  "profileChooseAvatar": "Choose an Avatar",
+  "profileChooseGrade": "Choose a Grade",
+  "profileCreated": "Profile created successfully",
+  "profileEmptyState": "No profiles yet. Add your first child to get started.",
+
+  "roleOwner": "Owner",
+  "roleParent": "Parent",
+  "roleTeacher": "Teacher",
+  "roleStudent": "Student",
+  "roleOwnerDescription": "Platform Super Admin",
+  "roleParentDescription": "Manage your children's learning journey",
+  "roleTeacherDescription": "Guide and track student progress",
+  "roleStudentDescription": "Learn and earn stars",
+
+  "dashboardParentTitle": "Parent Dashboard",
+  "dashboardTeacherTitle": "Teacher Dashboard",
+  "dashboardOwnerTitle": "Owner Dashboard",
+  "dashboardStudentTitle": "My Learning",
+  "dashboardMyChildren": "My Children",
+  "dashboardMyStudents": "My Students",
+  "dashboardOverview": "Overview",
+  "dashboardProgress": "Progress",
+  "dashboardAnalytics": "Platform Analytics",
+  "dashboardTotalStars": "Total Stars",
+  "dashboardRecentActivity": "Recent Activity",
+  "dashboardInviteTeacher": "Invite Teacher",
+  "dashboardWelcomeMessage": "Welcome back, {name}!",
+  "@dashboardWelcomeMessage": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "subscriptionSubscribe": "Subscribe",
+  "subscriptionUpgradeToPremium": "Upgrade to Premium",
+  "subscriptionFreePlan": "Free Plan",
+  "subscriptionPremiumPlan": "Premium Plan",
+  "subscriptionRequired": "Subscription Required",
+  "subscriptionUnlockPremium": "Unlock Premium Features",
+  "subscriptionMonthlyPlan": "Monthly Plan",
+  "subscriptionYearlyPlan": "Yearly Plan",
+  "subscriptionRestorePurchase": "Restore Purchase",
+  "subscriptionPaywallTitle": "Unlock Full Access",
+  "subscriptionPaywallMessage": "Subscribe to unlock every subject, grade, and premium learning module for your children.",
+  "subscriptionCurrentPlan": "Current Plan",
+  "subscriptionManage": "Manage Subscription",
+
+  "gradeNursery": "Nursery",
+  "gradeKg": "Kindergarten",
+  "gradeYear1": "Year 1",
+  "gradeYear2": "Year 2",
+  "gradeYear3": "Year 3",
+  "gradeYear4": "Year 4",
+  "gradeYear5": "Year 5",
+  "gradeYear6": "Year 6",
+  "gradeSecondary1": "Secondary 1",
+  "gradeSecondary2": "Secondary 2",
+  "gradeSecondary3": "Secondary 3",
+  "gradeIgcse": "IGCSE",
+
+  "subjectMath": "Math",
+  "subjectScience": "Science",
+  "subjectEnglish": "English",
+  "subjectPhonics": "Phonics",
+  "subjectPhysics": "Physics",
+  "subjectChemistry": "Chemistry",
+  "subjectBiology": "Biology",
+  "subjectFractions": "Fractions",
+  "subjectGeometry": "Geometry",
+  "subjectAlgebra": "Algebra",
+  "subjectReading": "Reading",
+  "subjectWriting": "Writing",
+  "subjectMyanmar": "Myanmar Language",
+  "subjectSocialStudies": "Social Studies",
+  "subjectIct": "ICT",
+  "subjectArt": "Art",
+  "subjectGeneralKnowledge": "General Knowledge",
+
+  "gatekeeperTitle": "Grown-Ups Only",
+  "gatekeeperInstruction": "Solve this to continue",
+  "gatekeeperSolveToProceed": "Solve the puzzle to access this area",
+  "gatekeeperWrongAnswer": "Not quite right, try again!",
+  "gatekeeperCorrectAnswer": "Correct! Unlocking...",
+  "gatekeeperTryAgain": "Try Again",
+  "gatekeeperParentTeacherOnly": "This area is for parents and teachers only",
+  "gatekeeperEnterAnswer": "Enter your answer",
+  "gatekeeperEnterArea": "Parent & Teacher Area",
+
+  "actionComingSoon": "Coming soon",
+  "actionInvite": "Invite",
+  "actionAssign": "Assign",
+
+  "profileContinueAs": "Continue as {role}",
+  "@profileContinueAs": {
+    "placeholders": { "role": { "type": "String" } }
+  },
+  "profileUpdated": "Profile updated successfully",
+  "profileDeleted": "Profile removed",
+
+  "childDeleteConfirmMessage": "Remove {name}'s profile? This can't be undone.",
+  "@childDeleteConfirmMessage": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "subscriptionOwnerAllAccess": "Owner — All Access",
+  "paywallFeatureAllSubjects": "All subjects & every grade",
+  "paywallFeatureUnlimitedChildren": "Unlimited child profiles",
+  "paywallFeatureProgressAnalytics": "Detailed progress analytics",
+  "paywallFeaturePrioritySupport": "Priority support",
+
+  "inviteTeacherHint": "Teacher's email address",
+  "inviteStatusPending": "Pending",
+  "inviteEmptyState": "No teachers invited yet.",
+  "inviteSentMessage": "Invitation sent to {email}",
+  "@inviteSentMessage": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+
+  "dashboardAssignModule": "Assign Module",
+  "dashboardAssignModuleTo": "Assign a module to {name}",
+  "@dashboardAssignModuleTo": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "dashboardModuleAssigned": "Assigned \"{module}\" to {name}",
+  "@dashboardModuleAssigned": {
+    "placeholders": {
+      "module": { "type": "String" },
+      "name": { "type": "String" }
+    }
+  },
+  "dashboardNoStudentsYet": "No students assigned yet. Ask a parent to link you as their child's teacher.",
+  "dashboardChooseModule": "Choose a module",
+
+  "ownerTotalUsers": "Total Active Users",
+  "ownerTotalRevenue": "Monthly Revenue (Mock)",
+  "ownerPremiumSubscribers": "Premium Subscribers",
+  "ownerMockDataNotice": "Static demo data — not connected to live billing yet.",
+
+  "settingsTitle": "Settings",
+  "settingsAccount": "Account",
+  "settingsLanguage": "Language",
+
+  "localeEnglish": "English",
+  "localeMyanmar": "မြန်မာ",
+
+  "actionStart": "Start",
+  "actionExplore": "Explore",
+
+  "homeYourLearningPath": "Your Learning Path",
+  "homeSubjectsTitle": "Subjects",
+  "homeUpcomingModulesTitle": "Upcoming Modules",
+  "homeProgressSummaryTitle": "Progress Summary",
+  "homeNoModulesYet": "No modules yet — check back soon!",
+  "homeStarsProgress": "{current} / {goal} stars",
+  "@homeStarsProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "goal": { "type": "int" }
+    }
+  },
+  "homeModulesAvailable": "{count} modules available",
+  "@homeModulesAvailable": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "ownerSeedDemoDataTitle": "Seed Demo Data",
+  "ownerSeedDemoDataDescription": "Creates a mock parent, two mock teachers, four demo students (one per grade band), and their learning modules. Safe to run more than once.",
+  "ownerSeedDemoDataConfirmTitle": "Seed demo data?",
+  "ownerSeedDemoDataConfirmMessage": "This writes demo Users, Children, and LearningModules documents to your live Firestore database. Existing demo documents are overwritten, not duplicated.",
+  "ownerSeedDemoDataSuccess": "Seeded {count} demo documents successfully.",
+  "@ownerSeedDemoDataSuccess": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "ownerSeedDemoDataError": "Seeding failed: {error}",
+  "@ownerSeedDemoDataError": {
+    "placeholders": { "error": { "type": "String" } }
+  }
+}
