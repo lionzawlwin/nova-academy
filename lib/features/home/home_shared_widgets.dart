@@ -17,11 +17,17 @@ class SubjectVisual {
     required this.label,
     required this.icon,
     required this.color,
+    required this.subjectKey,
   });
 
   final String label;
   final IconData icon;
   final Color color;
+
+  /// Lowercase key matching [LearningModuleModel.subject]'s convention
+  /// (e.g. `'phonics'`, `'math'`, `'stem'`) -- used to look up the real
+  /// seeded module for this tile, independent of display [label].
+  final String subjectKey;
 }
 
 /// Clears the active profile, sending the session back to

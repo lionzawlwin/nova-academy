@@ -10,6 +10,7 @@ import '../features/dashboard/parent_settings_screen.dart';
 import '../features/dashboard/teacher_dashboard_screen.dart';
 import '../features/home/grade_home_screen.dart';
 import '../features/home/home_shared_widgets.dart';
+import '../features/lessons/nursery_kg_activity_bank.dart';
 import '../features/lessons/nursery_lesson_screen.dart';
 import '../features/lessons/primary_quiz_screen.dart';
 import '../features/profiles/profile_selection_screen.dart';
@@ -128,13 +129,16 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.lessonNursery,
         builder: (context, state) {
-          final visual = state.extra;
-          return visual is SubjectVisual
-              ? NurseryLessonScreen(
-                  subjectLabel: visual.label,
-                  themeColor: visual.color,
-                )
-              : const NurseryLessonScreen();
+          final extra = state.extra;
+          if (extra is (SubjectVisual, List<MatchPairItem>?)) {
+            final (subject, pairs) = extra;
+            return NurseryLessonScreen(
+              subjectLabel: subject.label,
+              themeColor: subject.color,
+              pairs: pairs,
+            );
+          }
+          return const NurseryLessonScreen();
         },
       ),
       GoRoute(

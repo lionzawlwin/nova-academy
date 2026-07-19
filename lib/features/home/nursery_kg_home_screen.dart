@@ -7,8 +7,11 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../models/child_model.dart';
 import '../../providers/active_profile_provider.dart';
+import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
+import '../lessons/nursery_kg_activity_bank.dart';
 import 'home_shared_widgets.dart';
 
 /// The Nursery/KG student home: as close to zero reading as a bilingual
@@ -23,21 +26,31 @@ class NurseryKgHomeScreen extends ConsumerWidget {
       label: l10n.subjectPhonics,
       icon: Icons.abc_rounded,
       color: AppColors.nurseryPalette[0],
+      subjectKey: 'phonics',
     ),
     SubjectVisual(
       label: l10n.subjectMath,
       icon: Icons.filter_2_rounded,
       color: AppColors.nurseryPalette[1],
+      subjectKey: 'math',
     ),
     SubjectVisual(
       label: l10n.subjectArt,
       icon: Icons.palette_rounded,
       color: AppColors.nurseryPalette[2],
+      subjectKey: 'art',
     ),
     SubjectVisual(
       label: l10n.subjectGeneralKnowledge,
       icon: Icons.emoji_objects_rounded,
       color: AppColors.nurseryPalette[3],
+      subjectKey: 'generalknowledge',
+    ),
+    SubjectVisual(
+      label: l10n.subjectStem,
+      icon: Icons.science_rounded,
+      color: AppColors.nurseryPalette[4],
+      subjectKey: 'stem',
     ),
   ];
 
@@ -87,9 +100,11 @@ class NurseryKgHomeScreen extends ConsumerWidget {
                             for (final subject in subjects)
                               _NurseryTile(
                                 visual: subject,
-                                onTap: () => context.push(
-                                  AppRoutes.lessonNursery,
-                                  extra: subject,
+                                onTap: () => _openLesson(
+                                  context,
+                                  ref,
+                                  child?.currentGrade,
+                                  subject,
                                 ),
                               ),
                           ],
@@ -105,6 +120,28 @@ class NurseryKgHomeScreen extends ConsumerWidget {
         ),
       ),
     );
+  }
+
+  /// Looks up the real seeded module for [grade]/[subject.subjectKey] (see
+  /// `nursery_kg_activity_bank.dart`) and launches [NurseryLessonScreen]
+  /// with its content. Falls back to `null` pairs (the lesson screen's own
+  /// hardcoded fallback set) whenever no matching module has been seeded
+  /// yet -- e.g. no connected Firebase project, or "Seed Demo Data" hasn't
+  /// been run -- so a tile never shows a dead end.
+  void _openLesson(
+    BuildContext context,
+    WidgetRef ref,
+    Grade? grade,
+    SubjectVisual subject,
+  ) {
+    final allModules =
+        ref.read(learningModulesProvider).valueOrNull ?? const [];
+    final match = allModules
+        .where((m) => m.grade == grade && m.subject == subject.subjectKey)
+        .toList();
+    final pairs = match.isEmpty ? null : matchPairsForModule(match.first.id);
+
+    context.push(AppRoutes.lessonNursery, extra: (subject, pairs));
   }
 }
 
