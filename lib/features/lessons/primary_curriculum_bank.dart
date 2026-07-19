@@ -5,7 +5,7 @@ import 'mock_quiz_data.dart';
 /// plus its own fixed set of MCQ [QuizQuestion]s. Structurally mirrors
 /// [NurseryActivityDef] in `nursery_kg_activity_bank.dart`, but carries
 /// quiz questions instead of match-pairs items since Primary content plays
-/// back through [PrimaryQuizScreen] rather than a drag-and-drop activity.
+/// back through [McqQuizScreen] rather than a drag-and-drop activity.
 class PrimaryActivityDef {
   const PrimaryActivityDef({
     required this.id,

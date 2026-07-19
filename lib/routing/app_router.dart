@@ -12,7 +12,7 @@ import '../features/home/grade_home_screen.dart';
 import '../features/home/home_shared_widgets.dart';
 import '../features/lessons/nursery_kg_activity_bank.dart';
 import '../features/lessons/nursery_lesson_screen.dart';
-import '../features/lessons/primary_quiz_screen.dart';
+import '../features/lessons/mcq_quiz_screen.dart';
 import '../features/profiles/profile_selection_screen.dart';
 import '../features/splash/splash_screen.dart';
 import '../models/child_model.dart';
@@ -145,10 +145,10 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         path: AppRoutes.lessonPrimaryQuiz,
         builder: (context, state) {
           final args = state.extra;
-          return PrimaryQuizScreen(
-            args: args is PrimaryQuizArgs
+          return McqQuizScreen(
+            args: args is McqQuizArgs
                 ? args
-                : const PrimaryQuizArgs(title: '', subject: 'generalknowledge'),
+                : const McqQuizArgs(title: '', subject: 'generalknowledge'),
           );
         },
       ),

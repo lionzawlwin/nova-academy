@@ -11,7 +11,7 @@ import '../../models/learning_module_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
-import '../lessons/primary_quiz_screen.dart';
+import '../lessons/mcq_quiz_screen.dart';
 import 'home_shared_widgets.dart';
 
 /// One stop on the Primary (Year 1-6) learning path.
@@ -275,7 +275,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
                     Navigator.of(sheetContext).pop();
                     context.push(
                       AppRoutes.lessonPrimaryQuiz,
-                      extra: PrimaryQuizArgs(
+                      extra: McqQuizArgs(
                         title: node.title,
                         subject: node.subjectKey,
                         stars: node.stars > 0 ? node.stars : 10,

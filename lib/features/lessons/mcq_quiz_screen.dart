@@ -8,7 +8,7 @@ import '../home/home_shared_widgets.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
 
-/// Bilingual UI-chrome copy for [PrimaryQuizScreen], following the same
+/// Bilingual UI-chrome copy for [McqQuizScreen], following the same
 /// `*En`/`*My` paired-field convention as [LearningModuleModel] content.
 /// Deliberately kept local to this file instead of the ARB files -- this
 /// screen ships in parallel with other work touching the shared ARB/router
@@ -16,7 +16,7 @@ import 'primary_curriculum_bank.dart';
 String _t(BuildContext context, String en, String my) =>
     Localizations.localeOf(context).languageCode == 'my' ? my : en;
 
-/// Arguments the router should pass when pushing [PrimaryQuizScreen].
+/// Arguments the router should pass when pushing [McqQuizScreen].
 ///
 /// * [title] -- the lesson/module title to show as the quiz header (already
 ///   localized by the caller, e.g. picked from
@@ -30,8 +30,8 @@ String _t(BuildContext context, String en, String my) =>
 /// * [moduleId] -- optional id of the originating `LearningModuleModel`,
 ///   used by [quizQuestionsForModule] to look up that module's own
 ///   question set (see `primary_curriculum_bank.dart`).
-class PrimaryQuizArgs {
-  const PrimaryQuizArgs({
+class McqQuizArgs {
+  const McqQuizArgs({
     required this.title,
     required this.subject,
     this.stars = 10,
@@ -44,25 +44,26 @@ class PrimaryQuizArgs {
   final String? moduleId;
 }
 
-/// The Primary (Year 1-6) interactive multiple-choice quiz flow: a
-/// progress bar, one question at a time with large tappable option cards
-/// that immediately reveal correct/incorrect, auto-advance, and a final
-/// results summary with stars earned.
+/// The shared interactive multiple-choice quiz flow, used by both Primary
+/// (Year 1-6) and Secondary/IGCSE grade tiers: a progress bar, one
+/// question at a time with large tappable option cards that immediately
+/// reveal correct/incorrect, auto-advance, and a final results summary
+/// with stars earned.
 ///
 /// Pushed by the "Start" action on a Primary learning-path node (see
 /// `primary_home_screen.dart`'s `_showNodeSheet`). Pops itself via
 /// `Navigator.of(context).pop()` when the learner taps the finish button,
 /// returning control to whatever pushed it.
-class PrimaryQuizScreen extends ConsumerStatefulWidget {
-  const PrimaryQuizScreen({super.key, required this.args});
+class McqQuizScreen extends ConsumerStatefulWidget {
+  const McqQuizScreen({super.key, required this.args});
 
-  final PrimaryQuizArgs args;
+  final McqQuizArgs args;
 
   @override
-  ConsumerState<PrimaryQuizScreen> createState() => _PrimaryQuizScreenState();
+  ConsumerState<McqQuizScreen> createState() => _McqQuizScreenState();
 }
 
-class _PrimaryQuizScreenState extends ConsumerState<PrimaryQuizScreen> {
+class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   late final List<QuizQuestion> _questions;
 
   int _currentIndex = 0;

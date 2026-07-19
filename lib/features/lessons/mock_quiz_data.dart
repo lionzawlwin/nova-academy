@@ -1,5 +1,5 @@
 /// Hand-written (non-Freezed, no build_runner needed) mock quiz content for
-/// the Primary (Year 1-6) interactive quiz screen ([PrimaryQuizScreen]).
+/// the Primary (Year 1-6) interactive quiz screen ([McqQuizScreen]).
 ///
 /// Follows the same bilingual `*En`/`*My` field convention as
 /// `LearningModuleModel` -- one plain Dart object per question, with the
