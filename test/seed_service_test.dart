@@ -183,4 +183,55 @@ void main() {
       },
     );
   });
+
+  group('mockSeedNurseryKgModules', () {
+    final modules = mockSeedNurseryKgModules();
+    final legacyModules = mockSeedLearningModules();
+
+    test('has exactly 24 modules', () {
+      expect(modules.length, 24);
+    });
+
+    test('every module id is unique, including against legacy modules', () {
+      final allIds = [...modules, ...legacyModules].map((m) => m.id).toList();
+      expect(allIds.toSet().length, allIds.length);
+    });
+
+    test('every module grade is nursery or kg', () {
+      for (final module in modules) {
+        expect(
+          module.grade == Grade.nursery || module.grade == Grade.kg,
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test(
+      'every module subject is one of the four expected Nursery/KG keys',
+      () {
+        const expected = {'phonics', 'math', 'generalknowledge', 'stem'};
+        for (final module in modules) {
+          expect(expected.contains(module.subject), isTrue, reason: module.id);
+        }
+      },
+    );
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+  });
 }

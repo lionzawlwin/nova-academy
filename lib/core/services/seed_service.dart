@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import '../../features/lessons/nursery_kg_activity_bank.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../models/user_model.dart';
@@ -85,7 +86,7 @@ class SeedSummary {
 Future<SeedSummary> seedDatabase(FirebaseFirestore db) async {
   final users = mockSeedUsers();
   final children = mockSeedChildren();
-  final modules = mockSeedLearningModules();
+  final modules = [...mockSeedLearningModules(), ...mockSeedNurseryKgModules()];
 
   final batch = db.batch();
 
@@ -294,5 +295,28 @@ List<LearningModuleModel> mockSeedLearningModules() {
           'လက်တွေ့ဖြစ်ပျက်နေသော ရွေ့လျားမှု ပြဿနာများမှတစ်ဆင့် အလျင်၊ ဝေဂနှင့် အရှိန်မြှင့်မှုကို လေ့လာပါ။',
       starsReward: 20,
     ),
+  ];
+}
+
+/// The Nursery + KG `LearningModules` documents [seedDatabase] writes,
+/// derived from [nurseryKgActivityBank] -- the actual playable content
+/// ([NurseryActivityDef.items]) is intentionally dropped here and never
+/// written to Firestore (see `docs/firestore_schema.md`'s "quiz question
+/// content lives in Dart, not Firestore" design note); only catalog
+/// metadata is persisted.
+List<LearningModuleModel> mockSeedNurseryKgModules() {
+  return [
+    for (final activity in nurseryKgActivityBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
   ];
 }
