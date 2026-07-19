@@ -9,3 +9,10 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# Firebase native config -- not a hard secret (ships inside every built
+# APK regardless), but kept out of this public repo's git history as
+# defense in depth. Restored in CI from the GOOGLE_SERVICES_JSON_BASE64
+# secret; required locally for `flutter build`/`flutter run` on Android
+# (get it from Firebase Console > Project Settings > your Android app).
+google-services.json
