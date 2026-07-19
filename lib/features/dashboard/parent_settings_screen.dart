@@ -75,8 +75,9 @@ class ParentSettingsScreen extends ConsumerWidget {
             child: RadioGroup<String>(
               groupValue: Localizations.localeOf(context).languageCode,
               onChanged: (code) {
-                if (code != null)
+                if (code != null) {
                   ref.read(localeProvider.notifier).setLocale(Locale(code));
+                }
               },
               child: Column(
                 children: [

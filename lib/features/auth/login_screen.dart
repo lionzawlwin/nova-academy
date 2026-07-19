@@ -134,8 +134,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                               final validEmail = RegExp(
                                 r'^[^@\s]+@[^@\s]+\.[^@\s]+$',
                               );
-                              if (!validEmail.hasMatch(v))
+                              if (!validEmail.hasMatch(v)) {
                                 return l10n.authInvalidEmail;
+                              }
                               return null;
                             },
                           ),
@@ -149,8 +150,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                               border: const OutlineInputBorder(),
                             ),
                             validator: (value) {
-                              if ((value ?? '').length < 6)
+                              if ((value ?? '').length < 6) {
                                 return l10n.authPasswordTooShort;
+                              }
                               return null;
                             },
                           ),

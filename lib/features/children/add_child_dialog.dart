@@ -87,8 +87,9 @@ Future<void> showAddChildDialog(
                 onPressed: isSaving
                     ? null
                     : () async {
-                        if (!(formKey.currentState?.validate() ?? false))
+                        if (!(formKey.currentState?.validate() ?? false)) {
                           return;
+                        }
                         setState(() {
                           isSaving = true;
                           errorMessage = null;
@@ -100,8 +101,9 @@ Future<void> showAddChildDialog(
                             aliasName: aliasController.text.trim(),
                             grade: selectedGrade,
                           );
-                          if (dialogContext.mounted)
+                          if (dialogContext.mounted) {
                             Navigator.of(dialogContext).pop(true);
+                          }
                         } catch (_) {
                           setState(() {
                             isSaving = false;
