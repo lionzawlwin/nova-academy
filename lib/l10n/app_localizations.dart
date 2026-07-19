@@ -770,6 +770,12 @@ abstract class AppLocalizations {
   /// **'General Knowledge'**
   String get subjectGeneralKnowledge;
 
+  /// No description provided for @subjectStem.
+  ///
+  /// In en, this message translates to:
+  /// **'STEM'**
+  String get subjectStem;
+
   /// No description provided for @gatekeeperTitle.
   ///
   /// In en, this message translates to:
