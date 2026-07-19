@@ -43,7 +43,10 @@ android {
     signingConfigs {
         if (hasReleaseSigning) {
             create("release") {
-                storeFile = file(keystoreProperties["storeFile"] as String)
+                // Resolved relative to android/ (rootProject here), matching where
+                // key.properties itself lives and where CI decodes the keystore to --
+                // NOT project.file(), which would resolve relative to android/app/.
+                storeFile = rootProject.file(keystoreProperties["storeFile"] as String)
                 storePassword = keystoreProperties["storePassword"] as String
                 keyAlias = keystoreProperties["keyAlias"] as String
                 keyPassword = keystoreProperties["keyPassword"] as String
