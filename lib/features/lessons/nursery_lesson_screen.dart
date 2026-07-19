@@ -4,29 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../home/home_shared_widgets.dart';
-
-/// A single drag-and-drop matching pair: one draggable "item" (a big emoji)
-/// and one colored "basket" target it belongs in. Content lives directly in
-/// this file as paired *En/*My fields -- matching the bilingual-content
-/// convention used by [LearningModuleModel] -- since this is fixed lesson
-/// content, not app chrome that belongs in the ARB files.
-class _MatchPair {
-  const _MatchPair({
-    required this.id,
-    required this.emoji,
-    required this.color,
-    required this.labelEn,
-    required this.labelMy,
-  });
-
-  final String id;
-  final String emoji;
-  final Color color;
-  final String labelEn;
-  final String labelMy;
-
-  String label(String languageCode) => languageCode == 'my' ? labelMy : labelEn;
-}
+import 'nursery_kg_activity_bank.dart';
 
 /// Small bilingual UI copy for this lesson, picked at render time via
 /// `Localizations.localeOf(context).languageCode` -- kept local rather than
@@ -48,44 +26,6 @@ class _Strings {
   static String doneButton(String lc) => lc == 'my' ? 'ပြီးပါပြီ' : 'Done';
 }
 
-List<_MatchPair> _buildPairs() => const [
-  _MatchPair(
-    id: 'apple',
-    emoji: '🍎',
-    color: Color(0xFFE64545),
-    labelEn: 'Apple',
-    labelMy: 'ပန်းသီး',
-  ),
-  _MatchPair(
-    id: 'banana',
-    emoji: '🍌',
-    color: Color(0xFFFFC93C),
-    labelEn: 'Banana',
-    labelMy: 'ငှက်ပျောသီး',
-  ),
-  _MatchPair(
-    id: 'grapes',
-    emoji: '🍇',
-    color: Color(0xFF9C6ADE),
-    labelEn: 'Grapes',
-    labelMy: 'စပျစ်သီး',
-  ),
-  _MatchPair(
-    id: 'orange',
-    emoji: '🍊',
-    color: Color(0xFFFF8A3D),
-    labelEn: 'Orange',
-    labelMy: 'လိမ္မော်သီး',
-  ),
-  _MatchPair(
-    id: 'watermelon',
-    emoji: '🍉',
-    color: Color(0xFF4CB963),
-    labelEn: 'Watermelon',
-    labelMy: 'ဖရဲသီး',
-  ),
-];
-
 /// A full-screen drag-and-drop matching game for Nursery/KG students: drag
 /// each fruit "item" onto its matching colored "basket" target. Correct
 /// drops bounce, glow, and burst into confetti before locking in place;
@@ -98,7 +38,12 @@ List<_MatchPair> _buildPairs() => const [
 /// button both call `Navigator.of(context).pop()`, which correctly returns
 /// to whatever pushed this screen either way.
 class NurseryLessonScreen extends StatefulWidget {
-  const NurseryLessonScreen({super.key, this.subjectLabel, this.themeColor});
+  const NurseryLessonScreen({
+    super.key,
+    this.subjectLabel,
+    this.themeColor,
+    this.pairs,
+  });
 
   /// Optional short label shown in the top bar (e.g. "Fruits"). Already
   /// expected to be localized by the caller, same as [SubjectVisual.label].
@@ -108,13 +53,22 @@ class NurseryLessonScreen extends StatefulWidget {
   /// pips). Defaults to a friendly nursery-palette blue when omitted.
   final Color? themeColor;
 
+  /// Seeded content for this lesson, from
+  /// `nursery_kg_activity_bank.dart`'s `matchPairsForModule`. When null or
+  /// empty, falls back to the original hardcoded fruit-matching set so
+  /// this screen still works for any caller that doesn't pass content.
+  final List<MatchPairItem>? pairs;
+
   @override
   State<NurseryLessonScreen> createState() => _NurseryLessonScreenState();
 }
 
 class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
-  late final List<_MatchPair> _pairs = _buildPairs();
-  late final List<_MatchPair> _shuffledItems = List.of(_pairs)
+  late final List<MatchPairItem> _pairs =
+      (widget.pairs == null || widget.pairs!.isEmpty)
+      ? matchPairsForModule('does-not-exist') // resolves to the fallback set
+      : widget.pairs!;
+  late final List<MatchPairItem> _shuffledItems = List.of(_pairs)
     ..shuffle(Random());
 
   final Set<String> _matchedIds = {};
@@ -124,7 +78,7 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
 
   bool get _allMatched => _matchedIds.length == _pairs.length;
 
-  void _handleCorrectDrop(_MatchPair pair) {
+  void _handleCorrectDrop(MatchPairItem pair) {
     if (_matchedIds.contains(pair.id)) return;
     setState(() {
       _matchedIds.add(pair.id);
@@ -133,7 +87,7 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
     });
   }
 
-  void _handleMiss(_MatchPair pair) {
+  void _handleMiss(MatchPairItem pair) {
     setState(() {
       _missShakeSeed[pair.id] = (_missShakeSeed[pair.id] ?? 0) + 1;
     });
@@ -358,31 +312,34 @@ class _DraggableItem extends StatelessWidget {
     required this.onMiss,
   });
 
-  final _MatchPair pair;
+  final MatchPairItem pair;
   final bool matched;
   final int shakeSeed;
   final VoidCallback onMiss;
 
   static const double _size = 110;
 
-  Widget _tile({required bool dimmed}) => Container(
-    width: _size,
-    height: _size,
-    decoration: BoxDecoration(
-      gradient: LinearGradient(
-        begin: Alignment.topLeft,
-        end: Alignment.bottomRight,
-        colors: [pair.color, pair.color.withValues(alpha: 0.7)],
+  Widget _tile({required bool dimmed}) {
+    final color = Color(pair.colorValue);
+    return Container(
+      width: _size,
+      height: _size,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [color, color.withValues(alpha: 0.7)],
+        ),
+        borderRadius: BorderRadius.circular(30),
+        boxShadow: dimmed ? null : AppShadows.floating(color),
       ),
-      borderRadius: BorderRadius.circular(30),
-      boxShadow: dimmed ? null : AppShadows.floating(pair.color),
-    ),
-    alignment: Alignment.center,
-    child: Opacity(
-      opacity: dimmed ? 0.3 : 1,
-      child: Text(pair.emoji, style: const TextStyle(fontSize: 56)),
-    ),
-  );
+      alignment: Alignment.center,
+      child: Opacity(
+        opacity: dimmed ? 0.3 : 1,
+        child: Text(pair.emoji, style: const TextStyle(fontSize: 56)),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -433,7 +390,7 @@ class _BasketTarget extends StatelessWidget {
     required this.onAcceptItem,
   });
 
-  final _MatchPair pair;
+  final MatchPairItem pair;
   final bool matched;
   final bool playConfetti;
   final int bounceSeed;
@@ -444,6 +401,7 @@ class _BasketTarget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final color = Color(pair.colorValue);
     return _Bouncer(
       trigger: bounceSeed,
       child: SizedBox(
@@ -469,7 +427,7 @@ class _BasketTarget extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: matched
                             ? Colors.grey.shade300
-                            : pair.color.withValues(
+                            : color.withValues(
                                 alpha: hovering
                                     ? 0.55
                                     : (rejecting ? 0.45 : 0.3),
@@ -486,7 +444,7 @@ class _BasketTarget extends StatelessWidget {
                         boxShadow: matched
                             ? AppShadows.floating(AppColors.secondary)
                             : (hovering
-                                  ? AppShadows.floating(pair.color)
+                                  ? AppShadows.floating(color)
                                   : AppShadows.card(Brightness.light)),
                       ),
                       alignment: Alignment.center,
@@ -510,11 +468,7 @@ class _BasketTarget extends StatelessWidget {
                           width: _size,
                           height: _size,
                           child: _ConfettiBurst(
-                            colors: [
-                              pair.color,
-                              AppColors.accent,
-                              Colors.white,
-                            ],
+                            colors: [color, AppColors.accent, Colors.white],
                           ),
                         ),
                       ),
@@ -675,11 +629,7 @@ class _ConfettiParticle {
 /// [AnimationController] -- no external confetti package. Plays once on
 /// mount.
 class _ConfettiBurst extends StatefulWidget {
-  const _ConfettiBurst({
-    super.key,
-    this.particleCount = 14,
-    required this.colors,
-  });
+  const _ConfettiBurst({this.particleCount = 14, required this.colors});
 
   final int particleCount;
   final List<Color> colors;
