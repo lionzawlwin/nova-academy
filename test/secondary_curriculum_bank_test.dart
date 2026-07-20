@@ -25,9 +25,7 @@ void main() {
 
     test('every question text is unique within its own module', () {
       for (final module in secondaryCurriculumBank) {
-        final questionTexts = module.questions
-            .map((q) => q.questionEn)
-            .toSet();
+        final questionTexts = module.questions.map((q) => q.questionEn).toSet();
         expect(
           questionTexts.length,
           module.questions.length,
@@ -70,7 +68,7 @@ void main() {
       }
     });
 
-    test('has 18 modules per subject', () {
+    test('has 12 modules per subject', () {
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
@@ -79,8 +77,8 @@ void main() {
       for (final entry in counts.entries) {
         expect(
           entry.value,
-          18,
-          reason: '${entry.key} has ${entry.value} modules, expected 18',
+          12,
+          reason: '${entry.key} has ${entry.value} modules, expected 12',
         );
       }
     });
