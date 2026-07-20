@@ -393,7 +393,17 @@ class _HeroHeader extends StatelessWidget {
             ),
             child: AnimatedStarBadge(
               stars: stars,
-              textColor: Colors.white,
+              // Candy Core's `AnimatedStarBadge` now renders the digit count
+              // centered *inside* the `GlossyBadge`'s Gold Medal face
+              // (previously it sat beside a small star icon on this header's
+              // own indigo gradient, where white text was fine) -- white on
+              // Gold Medal measures ~1.5:1 contrast, badly failing WCAG AA
+              // (the exact risk flagged in the Mission 6 design spec's
+              // "Known risks" section). Dark ink text matches every other
+              // gold-badge digit count restyled this mission (see
+              // `_PathNode`'s node badge below and `mcq_quiz_screen.dart`'s
+              // results badge) and measures ~10.5:1.
+              textColor: AppColors.charcoalNavy,
               iconSize: 26,
             ),
           ),

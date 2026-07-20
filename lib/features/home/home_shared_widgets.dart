@@ -135,7 +135,13 @@ class GatekeeperEntryIconButton extends ConsumerWidget {
     return Tooltip(
       message: l10n.gatekeeperEnterArea,
       child: CandyBevelSurface(
-        faceColor: Colors.white.withValues(alpha: 0.26),
+        // A light/white translucent chip (this button's pre-Candy-Core
+        // shape had no chip at all) leaves a white lock icon on a light
+        // pastel sky-gradient blend measuring well under 2:1 contrast --
+        // this dark scrim keeps the "liftable chip" read while giving the
+        // icon a background it can actually stand out against (~4.9-5.4:1
+        // against the nursery sky gradient's range).
+        faceColor: Colors.black.withValues(alpha: 0.45),
         bevelDepth: CandyBevelDepth.secondary,
         borderRadius: 999,
         padding: const EdgeInsets.all(10),

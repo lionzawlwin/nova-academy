@@ -452,7 +452,12 @@ class _OptionCardState extends State<_OptionCard>
     final foregroundColor = switch (widget.state) {
       _OptionState.idle => scheme.onSurface,
       _OptionState.correct => AppColors.charcoalNavy,
-      _OptionState.incorrect => Colors.white,
+      // White-on-Cherry-Crush measures ~3.2:1 -- passes the 3:1 large-text
+      // threshold but fails the 4.5:1 normal-text one this option label
+      // actually needs (titleMedium/16sp doesn't qualify as "large text"
+      // even at w700). Charcoal Navy matches the correct-state ink-on-candy
+      // treatment above and measures ~5.0:1, comfortably passing AA.
+      _OptionState.incorrect => AppColors.charcoalNavy,
       _OptionState.disabled => scheme.onSurfaceVariant.withValues(alpha: 0.6),
     };
     final bevelState = switch (widget.state) {
@@ -501,9 +506,12 @@ class _OptionCardState extends State<_OptionCard>
                       color: AppColors.charcoalNavy,
                       size: 24,
                     ),
+                    // Matches `foregroundColor`'s Charcoal Navy ink above --
+                    // see that pairing's comment for the contrast-audit
+                    // rationale (white-on-Cherry-Crush fails 4.5:1).
                     incorrectIcon: const Icon(
                       Icons.cancel_rounded,
-                      color: Colors.white,
+                      color: AppColors.charcoalNavy,
                       size: 24,
                     ),
                     border: Border.all(color: borderColor, width: 2),
