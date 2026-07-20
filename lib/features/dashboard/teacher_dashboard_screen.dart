@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/utils/grade_localization.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
@@ -27,7 +28,10 @@ class TeacherDashboardScreen extends ConsumerWidget {
     final studentsAsync = ref.watch(childrenForCurrentUserProvider);
 
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.dashboardTeacherTitle)),
+      appBar: AppBar(
+        title: Text(l10n.dashboardTeacherTitle),
+        actions: const [LanguageToggleButton()],
+      ),
       body: studentsAsync.when(
         data: (students) {
           if (students.isEmpty) {

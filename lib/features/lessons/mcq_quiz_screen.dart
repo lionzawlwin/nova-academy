@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../home/home_shared_widgets.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
@@ -125,7 +126,10 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text(widget.args.title)),
+      appBar: AppBar(
+        title: Text(widget.args.title),
+        actions: const [LanguageToggleButton()],
+      ),
       body: SafeArea(
         child: _finished || _questions.isEmpty
             ? _QuizResults(

@@ -72,6 +72,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionGetStarted => 'Get Started';
 
   @override
+  String get actionSwitchLanguage => 'Switch language';
+
+  @override
   String get authLogin => 'Log In';
 
   @override

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
@@ -236,6 +237,7 @@ class _Header extends StatelessWidget {
               ],
             ),
           ),
+          const LanguageToggleButton(color: Colors.white),
           const SwitchProfileButton(color: Colors.white),
         ],
       ),

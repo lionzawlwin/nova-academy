@@ -72,6 +72,9 @@ class AppLocalizationsMy extends AppLocalizations {
   String get actionGetStarted => 'စတင်လိုက်ရအောင်';
 
   @override
+  String get actionSwitchLanguage => 'ဘာသာစကား ပြောင်းရန်';
+
+  @override
   String get authLogin => 'အကောင့်ဝင်ရန်';
 
   @override

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/constants/app_constants.dart';
 import '../../core/utils/grade_localization.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/user_model.dart';
@@ -28,6 +29,7 @@ class ParentDashboardScreen extends ConsumerWidget {
       appBar: AppBar(
         title: Text(l10n.dashboardParentTitle),
         actions: [
+          const LanguageToggleButton(),
           IconButton(
             tooltip: l10n.profileSwitch,
             icon: const Icon(Icons.settings_outlined),

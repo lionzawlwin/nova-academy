@@ -23,6 +23,7 @@
   "actionConfirm": "Confirm",
   "actionSkip": "Skip",
   "actionGetStarted": "Get Started",
+  "actionSwitchLanguage": "Switch language",
 
   "authLogin": "Log In",
   "authLogout": "Log Out",

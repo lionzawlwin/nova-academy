@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
@@ -319,7 +320,13 @@ class _HeroHeader extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
-                const SwitchProfileButton(color: Colors.white),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: const [
+                    SwitchProfileButton(color: Colors.white),
+                    LanguageToggleButton(color: Colors.white),
+                  ],
+                ),
                 const SizedBox(height: 4),
                 Flexible(
                   child: Text(

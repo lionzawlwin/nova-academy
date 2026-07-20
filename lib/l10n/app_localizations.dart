@@ -224,6 +224,12 @@ abstract class AppLocalizations {
   /// **'Get Started'**
   String get actionGetStarted;
 
+  /// No description provided for @actionSwitchLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch language'**
+  String get actionSwitchLanguage;
+
   /// No description provided for @authLogin.
   ///
   /// In en, this message translates to:

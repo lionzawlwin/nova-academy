@@ -5,6 +5,7 @@ import 'package:intl/intl.dart';
 
 import '../../core/constants/app_constants.dart';
 import '../../core/services/seed_service.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/user_model.dart';
 import '../../providers/auth_providers.dart';
@@ -47,7 +48,10 @@ class OwnerAdminScreen extends ConsumerWidget {
       // Defense in depth: the router should never let a non-owner land
       // here, but never render owner-only figures if it somehow happens.
       return Scaffold(
-        appBar: AppBar(title: Text(l10n.dashboardOwnerTitle)),
+        appBar: AppBar(
+          title: Text(l10n.dashboardOwnerTitle),
+          actions: const [LanguageToggleButton()],
+        ),
         body: Center(child: Text(l10n.gatekeeperParentTeacherOnly)),
       );
     }
@@ -58,7 +62,10 @@ class OwnerAdminScreen extends ConsumerWidget {
     final currencyFormat = NumberFormat.simpleCurrency(locale: 'en_US');
 
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.dashboardOwnerTitle)),
+      appBar: AppBar(
+        title: Text(l10n.dashboardOwnerTitle),
+        actions: const [LanguageToggleButton()],
+      ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [

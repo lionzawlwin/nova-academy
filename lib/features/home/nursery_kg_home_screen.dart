@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../providers/active_profile_provider.dart';
@@ -73,6 +74,7 @@ class NurseryKgHomeScreen extends ConsumerWidget {
                   children: [
                     const SwitchProfileButton(color: Colors.white),
                     const Spacer(),
+                    const LanguageToggleButton(color: Colors.white),
                     const GatekeeperEntryIconButton(color: Colors.white),
                   ],
                 ),
