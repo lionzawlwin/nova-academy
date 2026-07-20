@@ -855,4 +855,175 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
       ),
     ],
   ),
+
+  // New `computing`/`history`/`geography` subjects: one drag-to-match
+  // module each, woven into the rotation at a different Secondary/IGCSE
+  // grade for variety.
+  DragMatchModuleDef(
+    id: 'mock-secondary1-computing-dragmatch-1',
+    subject: 'computing',
+    grade: Grade.secondary1,
+    contentType: 'dragMatch',
+    titleEn: 'Computer Systems Words',
+    titleMy: 'ကွန်ပျူတာစနစ် စကားလုံးများ',
+    descriptionEn: 'Drag each computing term to its matching definition.',
+    descriptionMy:
+        'ကွန်ပျူတာဆိုင်ရာ စကားလုံးတစ်ခုစီကို ၎င်း၏အဓိပ္ပာယ်နှင့် ဆွဲယူတွဲစပ်ပါ။',
+    starsReward: 22,
+    pairs: [
+      DragMatchPair(
+        id: 's1-computing-cpu',
+        termEn: 'CPU',
+        termMy: 'CPU',
+        matchEn: 'The part of a computer that carries out instructions',
+        matchMy: 'ညွှန်ကြားချက်များကို လုပ်ဆောင်ပေးသော ကွန်ပျူတာ၏အစိတ်အပိုင်း',
+        colorValue: 0xFF94BDFF,
+      ),
+      DragMatchPair(
+        id: 's1-computing-binary',
+        termEn: 'Binary',
+        termMy: 'Binary',
+        matchEn: 'A number system using only 0 and 1',
+        matchMy: '0 နှင့် 1 ကိုသာအသုံးပြုသော ဂဏန်းစနစ်',
+        colorValue: 0xFFFF6A65,
+      ),
+      DragMatchPair(
+        id: 's1-computing-variable',
+        termEn: 'Variable',
+        termMy: 'Variable',
+        matchEn: 'A named storage location that can hold a changing value',
+        matchMy:
+            'ပြောင်းလဲနိုင်သောတန်ဖိုးကို သိမ်းဆည်းနိုင်သော အမည်ပေးထားသောနေရာ',
+        colorValue: 0xFFFF7F91,
+      ),
+      DragMatchPair(
+        id: 's1-computing-loop',
+        termEn: 'Loop',
+        termMy: 'Loop',
+        matchEn: 'A structure that repeats a set of instructions',
+        matchMy: 'ညွှန်ကြားချက်များကို ထပ်ခါထပ်ခါလုပ်ဆောင်စေသော ဖွဲ့စည်းပုံ',
+        colorValue: 0xFF7271F7,
+      ),
+      DragMatchPair(
+        id: 's1-computing-byte',
+        termEn: 'Byte',
+        termMy: 'Byte',
+        matchEn: 'A unit of data made of 8 bits',
+        matchMy: 'Bit ၈ ခုဖြင့် ဖွဲ့စည်းထားသော ဒေတာယူနစ်',
+        colorValue: 0xFFFFBF3C,
+      ),
+    ],
+  ),
+  DragMatchModuleDef(
+    id: 'mock-secondary3-history-dragmatch-1',
+    subject: 'history',
+    grade: Grade.secondary3,
+    contentType: 'dragMatch',
+    titleEn: '20th Century History Words',
+    titleMy: '၂၀ ရာစု သမိုင်းဝေါဟာရများ',
+    descriptionEn: 'Drag each history term to its matching definition.',
+    descriptionMy: 'သမိုင်းဝေါဟာရတစ်ခုစီကို ၎င်း၏အဓိပ္ပာယ်နှင့် ဆွဲယူတွဲစပ်ပါ။',
+    starsReward: 26,
+    pairs: [
+      DragMatchPair(
+        id: 's3-history-alliance',
+        termEn: 'Alliance',
+        termMy: 'မဟာမိတ်',
+        matchEn: 'An agreement between countries to support each other',
+        matchMy: 'နိုင်ငံများအချင်းချင်း ကူညီရန် သဘောတူထားသော သဘောတူညီချက်',
+        colorValue: 0xFF94BDFF,
+      ),
+      DragMatchPair(
+        id: 's3-history-independence',
+        termEn: 'Independence',
+        termMy: 'လွတ်လပ်ရေး',
+        matchEn: 'Freedom from control by another country',
+        matchMy: 'အခြားနိုင်ငံတစ်ခု၏ ထိန်းချုပ်မှုမှ လွတ်မြောက်ခြင်း',
+        colorValue: 0xFFFF6A65,
+      ),
+      DragMatchPair(
+        id: 's3-history-decolonization',
+        termEn: 'Decolonization',
+        termMy: 'ကိုလိုနီခြင်း လွတ်မြောက်မှု',
+        matchEn: 'The process of former colonies gaining independence',
+        matchMy: 'ယခင်ကိုလိုနီများ လွတ်လပ်ရေးရရှိလာသော လုပ်ငန်းစဉ်',
+        colorValue: 0xFFFF7F91,
+      ),
+      DragMatchPair(
+        id: 's3-history-treaty',
+        termEn: 'Treaty',
+        termMy: 'စာချုပ်',
+        matchEn: 'A formal written agreement between countries',
+        matchMy: 'နိုင်ငံများအကြား တရားဝင်ရေးသားထားသော သဘောတူညီချက်',
+        colorValue: 0xFF7271F7,
+      ),
+      DragMatchPair(
+        id: 's3-history-armistice',
+        termEn: 'Armistice',
+        termMy: 'အပစ်ရပ်စာချုပ်',
+        matchEn: 'An agreement to stop fighting',
+        matchMy: 'တိုက်ခိုက်မှုကို ရပ်တန့်ရန် သဘောတူညီချက်',
+        colorValue: 0xFFFFBF3C,
+      ),
+    ],
+  ),
+  DragMatchModuleDef(
+    id: 'mock-igcse-geography-dragmatch-1',
+    subject: 'geography',
+    grade: Grade.igcse,
+    contentType: 'dragMatch',
+    titleEn: 'Development & Climate Words',
+    titleMy: 'ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ရာသီဥတု စကားလုံးများ',
+    descriptionEn: 'Drag each geography term to its matching definition.',
+    descriptionMy: 'ပထဝီဝေါဟာရတစ်ခုစီကို ၎င်း၏အဓိပ္ပာယ်နှင့် ဆွဲယူတွဲစပ်ပါ။',
+    starsReward: 28,
+    pairs: [
+      DragMatchPair(
+        id: 'igcse-geography-hdi',
+        termEn: 'HDI',
+        termMy: 'HDI',
+        matchEn: 'An index combining income, education, and life expectancy',
+        matchMy:
+            'ဝင်ငွေ၊ ပညာရေးနှင့် ခန့်မှန်းသက်တမ်းတို့ကို ပေါင်းစပ်ထားသော အညွှန်းကိန်း',
+        colorValue: 0xFF94BDFF,
+      ),
+      DragMatchPair(
+        id: 'igcse-geography-globalization',
+        termEn: 'Globalization',
+        termMy: 'ကမ္ဘာလုံးဆိုင်ရာ ချိတ်ဆက်မှု',
+        matchEn: 'Growing economic and cultural connection between countries',
+        matchMy:
+            'နိုင်ငံများအကြား စီးပွားရေးနှင့် ယဉ်ကျေးမှုဆက်စပ်မှု တိုးများလာခြင်း',
+        colorValue: 0xFFFF6A65,
+      ),
+      DragMatchPair(
+        id: 'igcse-geography-sustainability',
+        termEn: 'Sustainability',
+        termMy: 'ရေရှည်တည်တံ့မှု',
+        matchEn: "Meeting today's needs without harming future generations",
+        matchMy:
+            'အနာဂတ်မျိုးဆက်များကို မထိခိုက်စေဘဲ ယနေ့လိုအပ်ချက်များကို ဖြည့်ဆည်းခြင်း',
+        colorValue: 0xFFFF7F91,
+      ),
+      DragMatchPair(
+        id: 'igcse-geography-renewable',
+        termEn: 'Renewable energy',
+        termMy: 'ပြန်လည်ပြည့်ဖြိုးနိုင်သော စွမ်းအင်',
+        matchEn:
+            'Energy from sources that naturally replenish, like sun or wind',
+        matchMy:
+            'နေ၊ လေကဲ့သို့ သဘာဝအလိုလျောက် ပြန်လည်ဖြည့်တင်းနိုင်သော စွမ်းအင်ရင်းမြစ်',
+        colorValue: 0xFF7271F7,
+      ),
+      DragMatchPair(
+        id: 'igcse-geography-emissions',
+        termEn: 'Greenhouse gas emissions',
+        termMy: 'ဖန်လုံအိမ်ဓာတ်ငွေ့ ထုတ်လွှတ်မှု',
+        matchEn: 'Gases released that trap heat and warm the planet',
+        matchMy:
+            'အပူကို ထိန်းသိမ်းပြီး ကမ္ဘာမြေကို ပူနွေးစေသော ထုတ်လွှတ်ဓာတ်ငွေ့များ',
+        colorValue: 0xFFFFBF3C,
+      ),
+    ],
+  ),
 ];

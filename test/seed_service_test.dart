@@ -332,8 +332,8 @@ void main() {
     final nurseryModules = mockSeedNurseryKgModules();
     final primaryModules = mockSeedPrimaryCurriculumModules();
 
-    test('has exactly 80 modules', () {
-      expect(modules.length, 80);
+    test('has exactly 92 modules', () {
+      expect(modules.length, 92);
     });
 
     test(
@@ -377,6 +377,9 @@ void main() {
           'socialstudies',
           'coding',
           'engineering',
+          'history',
+          'geography',
+          'computing',
         };
         for (final module in modules) {
           expect(expected.contains(module.subject), isTrue, reason: module.id);
@@ -497,8 +500,8 @@ void main() {
     final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
     final primaryFillBlankModules = mockSeedPrimaryFillBlankModules();
 
-    test('has exactly 4 modules', () {
-      expect(modules.length, 4);
+    test('has exactly 7 modules', () {
+      expect(modules.length, 7);
     });
 
     test(
@@ -657,8 +660,8 @@ void main() {
     final secondaryFillBlankModules = mockSeedSecondaryFillBlankModules();
     final primaryDragMatchModules = mockSeedPrimaryDragMatchModules();
 
-    test('has exactly 4 modules', () {
-      expect(modules.length, 4);
+    test('has exactly 7 modules', () {
+      expect(modules.length, 7);
     });
 
     test(

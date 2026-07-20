@@ -873,4 +873,197 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
       ),
     ],
   ),
+
+  // New `computing`/`history`/`geography` subjects: one fill-in-the-blank
+  // module each, woven into the rotation at a different Secondary/IGCSE
+  // grade for variety.
+  FillBlankModuleDef(
+    id: 'mock-secondary1-history-fillblank-1',
+    subject: 'history',
+    grade: Grade.secondary1,
+    contentType: 'fillBlank',
+    titleEn: 'The Age of Exploration',
+    titleMy: 'ရှာဖွေတွေ့ရှိမှုခေတ်ကာလ',
+    descriptionEn: 'Fill in the blank with the correct exploration-era word.',
+    descriptionMy:
+        'ရှာဖွေတွေ့ရှိမှုခေတ်ဆိုင်ရာ စကားလုံးမှန်ကန်ဖြင့် အလွတ်နေရာကို ဖြည့်ပါ။',
+    starsReward: 22,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn:
+            'European explorers sailed overseas mainly to find new ___ routes for spices and goods.',
+        sentenceMy:
+            'ဥရောပ ရှာဖွေရေးသမားများသည် ဟင်းခတ်အမွှေးအကြိုင်နှင့် ကုန်စည်များအတွက် ___ လမ်းကြောင်းအသစ်များ ရှာဖွေရန် ပင်လယ်ရပ်ခြားသို့ ရွက်လွှင့်ခဲ့ကြသည်။',
+        optionsEn: ['trade', 'sleep', 'sports', 'music'],
+        optionsMy: ['ကုန်သွယ်ရေး', 'အိပ်စက်ခြင်း', 'အားကစား', 'ဂီတ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'A territory settled and controlled by another country is called a ___.',
+        sentenceMy:
+            'အခြားနိုင်ငံတစ်ခုမှ အခြေချထိန်းချုပ်ထားသော နယ်မြေကို ___ ဟုခေါ်သည်။',
+        optionsEn: ['colony', 'festival', 'ocean', 'language'],
+        optionsMy: ['ကိုလိုနီ', 'ပွဲတော်', 'သမုဒ္ဒရာ', 'ဘာသာစကား'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Contact between explorers and native peoples often spread new ___ that devastated local populations.',
+        sentenceMy:
+            'ရှာဖွေရေးသမားများနှင့် ဒေသခံလူမျိုးများ ထိတွေ့မှုသည် ဒေသခံလူဦးရေအား ပျက်စီးစေသော ___ အသစ်များ ပျံ့နှံ့စေခဲ့လေ့ရှိသည်။',
+        optionsEn: ['diseases', 'songs', 'coins', 'maps'],
+        optionsMy: ['ရောဂါများ', 'သီချင်းများ', 'ဒင်္ဂါးများ', 'မြေပုံများ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Tools like the compass and astrolabe helped sailors ___ across the open ocean more accurately.',
+        sentenceMy:
+            'သံလိုက်အိမ်နှင့် Astrolabe ကဲ့သို့ ကိရိယာများသည် လှေသားများအား ပင်လယ်ကျယ်ကို ပို၍တိကျစွာ ___ ရန် ကူညီခဲ့သည်။',
+        optionsEn: ['navigate', 'cook', 'sing', 'sleep'],
+        optionsMy: ['လမ်းကြောင်းသွား', 'ချက်ပြုတ်', 'သီချင်းဆို', 'အိပ်စက်'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Historians describe the Age of Exploration as having both positive and ___ consequences.',
+        sentenceMy:
+            'သမိုင်းပညာရှင်များသည် ရှာဖွေတွေ့ရှိမှုခေတ်ကို အပြုသဘောနှင့် ___ အကျိုးဆက်များ နှစ်ခုစလုံးရှိသည်ဟု ဖော်ပြကြသည်။',
+        optionsEn: ['negative', 'imaginary', 'musical', 'colorful'],
+        optionsMy: ['အနုတ်လက္ခဏာ', 'စိတ်ကူးယဉ်', 'ဂီတဆိုင်ရာ', 'အရောင်စုံ'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== SECONDARY 2 ==============================
+  FillBlankModuleDef(
+    id: 'mock-secondary2-geography-fillblank-1',
+    subject: 'geography',
+    grade: Grade.secondary2,
+    contentType: 'fillBlank',
+    titleEn: 'Tectonic Hazards',
+    titleMy: 'သဘာဝဘေးအန္တရာယ်များ',
+    descriptionEn: 'Fill in the blank with the correct tectonic-hazard word.',
+    descriptionMy:
+        'သဘာဝဘေးအန္တရာယ်ဆိုင်ရာ စကားလုံးမှန်ကန်ဖြင့် အလွတ်နေရာကို ဖြည့်ပါ။',
+    starsReward: 24,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn:
+            'Earthquakes and volcanoes most commonly occur along tectonic plate ___.',
+        sentenceMy:
+            'ငလျင်နှင့် မီးတောင်များသည် တက်တွန်းနစ်ပလိတ် ___ တစ်လျှောက်တွင် အများဆုံးဖြစ်ပေါ်လေ့ရှိသည်။',
+        optionsEn: ['boundaries', 'colors', 'names', 'songs'],
+        optionsMy: ['နယ်နိမိတ်များ', 'အရောင်များ', 'အမည်များ', 'သီချင်းများ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'When two plates move apart, this is called a ___ boundary.',
+        sentenceMy:
+            'ပလိတ်နှစ်ခု တစ်ခုနှင့်တစ်ခု ကွာဝေးစွာ ရွေ့လျားသောအခါ ၎င်းကို ___ boundary ဟုခေါ်သည်။',
+        optionsEn: ['divergent', 'musical', 'friendly', 'colorful'],
+        optionsMy: ['divergent', 'ဂီတဆိုင်ရာ', 'ဖော်ရွေသော', 'အရောင်စုံ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Near a river\'s source, erosion typically creates ___-shaped valleys.',
+        sentenceMy:
+            "မြစ်၏ ရေမူလအနီးတွင် ရေတိုက်စားမှုသည် ___ ပုံသဏ္ဌာန်ချိုင့်ဝှမ်းများကို အများအားဖြင့် ဖန်တီးလေ့ရှိသည်။",
+        optionsEn: ['V', 'circle', 'star', 'square'],
+        optionsMy: ['V', 'စက်ဝိုင်း', 'ကြယ်', 'စတုရန်း'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'A river drops (deposits) the material it carries mainly when it ___ down.',
+        sentenceMy:
+            'မြစ်ရေသည် ___ ချောင်လာသောအခါ ၎င်းသယ်ဆောင်လာသောပစ္စည်းများကို အများဆုံးချထားလေ့ရှိသည်။',
+        optionsEn: ['slows', 'speeds', 'freezes', 'sings'],
+        optionsMy: ['နှေးလာ', 'မြန်လာ', 'ရေခဲ', 'သီချင်းဆို'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'People often continue to live near volcanoes because the ___ is very fertile.',
+        sentenceMy:
+            'လူများသည် ___ အလွန်ကောင်းမွန်သောကြောင့် မီးတောင်များအနီးတွင် ဆက်လက်နေထိုင်လေ့ရှိကြသည်။',
+        optionsEn: ['soil', 'ocean', 'moon', 'wind'],
+        optionsMy: ['မြေဆီလွှာ', 'သမုဒ္ဒရာ', 'လ', 'လေ'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== IGCSE ==============================
+  FillBlankModuleDef(
+    id: 'mock-igcse-computing-fillblank-1',
+    subject: 'computing',
+    grade: Grade.igcse,
+    contentType: 'fillBlank',
+    titleEn: 'Algorithms & Ethics',
+    titleMy: 'အယ်လဂိုရီသမ်များနှင့် ကျင့်ဝတ်',
+    descriptionEn: 'Fill in the blank with the correct computer science word.',
+    descriptionMy:
+        'ကွန်ပျူတာသိပ္ပံဆိုင်ရာ စကားလုံးမှန်ကန်ဖြင့် အလွတ်နေရာကို ဖြည့်ပါ။',
+    starsReward: 28,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn:
+            'When comparing two algorithms, ___ mainly refers to how much time and memory each one uses.',
+        sentenceMy:
+            'algorithm နှစ်ခုကို နှိုင်းယှဉ်သောအခါ ___ သည် အဓိကအားဖြင့် တစ်ခုစီအသုံးပြုသော အချိန်နှင့် memory ပမာဏကို ရည်ညွှန်းသည်။',
+        optionsEn: ['efficiency', 'color', 'font', 'volume'],
+        optionsMy: ['efficiency', 'အရောင်', 'font', 'အသံအတိုးအကျယ်'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Using someone else\'s code without permission or credit raises a ___ issue.',
+        sentenceMy:
+            "သူတစ်ပါး၏ ကုဒ်ကို ခွင့်ပြုချက်မရှိဘဲ အသုံးပြုခြင်းသည် ___ ပြဿနာကို ဖြစ်ပေါ်စေသည်။",
+        optionsEn: ['ethical', 'musical', 'weather', 'sporting'],
+        optionsMy: [
+          'ကျင့်ဝတ်ဆိုင်ရာ',
+          'ဂီတဆိုင်ရာ',
+          'ရာသီဥတုဆိုင်ရာ',
+          'အားကစားဆိုင်ရာ',
+        ],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'A ___ symbol shaped like a rectangle usually represents a process step.',
+        sentenceMy:
+            'ထောင့်မှန်စတုဂံပုံသဏ္ဌာန်ရှိသော ___ သင်္ကေတသည် များသောအားဖြင့် လုပ်ငန်းစဉ်အဆင့်ကို ကိုယ်စားပြုသည်။',
+        optionsEn: ['flowchart', 'database', 'network', 'keyboard'],
+        optionsMy: ['flowchart', 'database', 'network', 'ကီးဘုတ်'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'The fetch-decode-___ cycle describes how a computer retrieves and carries out instructions.',
+        sentenceMy:
+            'fetch-decode-___ cycle သည် ကွန်ပျူတာက ညွှန်ကြားချက်များကို ရယူပြီး လုပ်ဆောင်ပုံကို ဖော်ပြသည်။',
+        optionsEn: ['execute', 'delete', 'paint', 'sleep'],
+        optionsMy: ['execute', 'ဖျက်ပစ်', 'ဆေးဆွဲ', 'အိပ်စက်'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Widespread facial recognition raises ___ concerns about surveillance without consent.',
+        sentenceMy:
+            'ကျယ်ပြန့်စွာအသုံးပြုနေသော မျက်နှာမှတ်သားနည်းပညာသည် သဘောတူညီချက်မရှိဘဲ စောင့်ကြည့်ခြင်းနှင့်ပတ်သက်၍ ___ ဆိုင်ရာ စိုးရိမ်မှုများကို ဖြစ်ပေါ်စေသည်။',
+        optionsEn: ['privacy', 'weather', 'sporting', 'musical'],
+        optionsMy: [
+          'ကိုယ်ရေးကိုယ်တာ လုံခြုံရေး',
+          'ရာသီဥတုဆိုင်ရာ',
+          'အားကစားဆိုင်ရာ',
+          'ဂီတဆိုင်ရာ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];

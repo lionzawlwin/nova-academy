@@ -7417,4 +7417,1208 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // New `computing`/`history`/`geography` subjects: original bilingual
+  // content covering IGCSE-aligned computer science, world history, and
+  // geography topics, one quiz module per subject per grade (mirrors the
+  // `coding`/`engineering` STEAM rollout's cadence and starsReward scaling).
+  // ============================== SECONDARY 1 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary1-computing-1',
+    subject: 'computing',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Data Representation & Programming Basics',
+    titleMy: 'ဒေတာကိုယ်စားပြုမှုနှင့် ပရိုဂရမ်းမင်းအခြေခံများ',
+    descriptionEn:
+        'Learn how computers store data as binary, and the core building blocks of a program.',
+    descriptionMy:
+        'ကွန်ပျူတာများသည် ဒေတာကို binary အဖြစ် မည်သို့သိမ်းဆည်းသည်နှင့် ပရိုဂရမ်တစ်ခု၏ အခြေခံအစိတ်အပိုင်းများကို လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A single binary digit (0 or 1) is called a...',
+        questionMy: 'Binary ဂဏန်းတစ်လုံး (0 သို့မဟုတ် 1) ကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Bit', 'Byte', 'Pixel', 'Variable'],
+        optionsMy: ['Bit', 'Byte', 'Pixel', 'Variable'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the denary (base-10) value of the binary number 1011?',
+        questionMy: 'Binary ဂဏန်း 1011 ၏ denary (base-10) တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['9', '11', '13', '8'],
+        optionsMy: ['9', '11', '13', '8'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a program, a named storage location that can hold a changing value is called a...',
+        questionMy:
+            'ပရိုဂရမ်တစ်ခုတွင် ပြောင်းလဲနေသောတန်ဖိုးတစ်ခုကို သိမ်းဆည်းနိုင်သော အမည်ပေးထားသော နေရာကို ဘာခေါ်သနည်း။',
+        optionsEn: ['A variable', 'A byte', 'A pixel', 'A protocol'],
+        optionsMy: ['Variable', 'Byte', 'Pixel', 'Protocol'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "selection" structure (IF...ELSE) in a program is used to...',
+        questionMy:
+            'ပရိုဂရမ်တစ်ခုရှိ "selection" ဖွဲ့စည်းပုံ (IF...ELSE) ကို ဘာအတွက်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Make a decision and choose between different paths',
+          'Repeat a block of code forever',
+          'Store a fixed value',
+          'Convert binary to denary',
+        ],
+        optionsMy: [
+          'ဆုံးဖြတ်ချက်ချပြီး လမ်းကြောင်းကွဲများအကြား ရွေးချယ်ရန်',
+          'ကုဒ်တစ်ပိုင်းကို အမြဲထပ်ခါထပ်ခါလုပ်ရန်',
+          'ပုံသေတန်ဖိုးတစ်ခု သိမ်းဆည်းရန်',
+          'Binary မှ denary သို့ ပြောင်းရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How many different values can a single byte (8 bits) represent?',
+        questionMy:
+            'Byte တစ်ခု (bit ၈ ခု) သည် မတူညီသောတန်ဖိုး မည်မျှကို ကိုယ်စားပြုနိုင်သနည်း။',
+        optionsEn: ['8', '16', '256', '64'],
+        optionsMy: ['8', '16', '256', '64'],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary1-history-1',
+    subject: 'history',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'The Age of Exploration',
+    titleMy: 'ရှာဖွေတွေ့ရှိမှု ခေတ်ကာလ',
+    descriptionEn:
+        'Examine why European powers explored overseas, and the consequences of contact between civilizations.',
+    descriptionMy:
+        'ဥရောပနိုင်ငံများ ပင်လယ်ရပ်ခြားသို့ အဘယ်ကြောင့် ရှာဖွေထွက်ခဲ့ကြသည်နှင့် ယဉ်ကျေးမှုများ ထိတွေ့ရာမှ ဖြစ်ပေါ်ခဲ့သော အကျိုးဆက်များကို လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these was a major motivation for European exploration in the 15th-16th centuries?',
+        questionMy:
+            'ဥရောပ လူမျိုးများ ၁၅-၁၆ ရာစုများတွင် ရှာဖွေရေးလုပ်ငန်းများ လုပ်ဆောင်ရသည့် အဓိကရည်ရွယ်ချက်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Finding new trade routes for spices and goods',
+          'Escaping cold weather',
+          'Learning new languages only',
+          'Avoiding all contact with other peoples',
+        ],
+        optionsMy: [
+          'ဟင်းခတ်အမွှေးအကြိုင်နှင့် ကုန်စည်များအတွက် ကုန်သွယ်ရေးလမ်းကြောင်းအသစ်များ ရှာဖွေရန်',
+          'အအေးဓာတ်ရာသီဥတုမှ ရှောင်ရှားရန်',
+          'ဘာသာစကားအသစ်များကိုသာ သင်ယူရန်',
+          'အခြားလူမျိုးများနှင့် ထိတွေ့မှုအားလုံးကို ရှောင်ရှားရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What was one major consequence of contact between European explorers and the Americas?',
+        questionMy:
+            'ဥရောပ ရှာဖွေရေးသမားများနှင့် အမေရိကတိုက် ထိတွေ့မှုမှ ဖြစ်ပေါ်ခဲ့သော အဓိကအကျိုးဆက်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The spread of new diseases that devastated native populations',
+          'No change to either continent',
+          'Immediate equal partnership between all peoples',
+          'The end of all trade worldwide',
+        ],
+        optionsMy: [
+          'ဒေသခံလူဦးရေအား ပျက်စီးစေခဲ့သော ရောဂါအသစ်များ ပျံ့နှံ့ခြင်း',
+          'ကျွန်းတိုက်နှစ်ခုစလုံးတွင် ပြောင်းလဲမှုမရှိခြင်း',
+          'လူမျိုးအားလုံးအကြား ချက်ချင်းညီမျှသော ပူးပေါင်းဆောင်ရွက်မှု',
+          'ကမ္ဘာတစ်ဝှမ်း ကုန်သွယ်မှုအားလုံး ရပ်တန့်သွားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A "colony" is best described as...',
+        questionMy: '"ကိုလိုနီ" ဆိုသည်မှာ အဓိပ္ပာယ်ဖွင့်ဆိုရလျှင် အဘယ်နည်း။',
+        optionsEn: [
+          'A territory controlled by and settled from another country',
+          'A type of sailing ship',
+          'A trade agreement between equals',
+          'A religious festival',
+        ],
+        optionsMy: [
+          'အခြားနိုင်ငံတစ်ခုမှ ထိန်းချုပ်ပြီး အခြေချနေထိုင်သော နယ်မြေ',
+          'ရွက်လှေအမျိုးအစားတစ်ခု',
+          'တန်းတူညီမျှသော ကုန်သွယ်ရေးသဘောတူညီချက်',
+          'ဘာသာရေးပွဲတော်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Improved navigation tools like the compass and astrolabe mainly helped explorers by...',
+        questionMy:
+            'သံလိုက်အိမ်နှင့် Astrolabe ကဲ့သို့ တိုးတက်သော ရေကြောင်းလမ်းညွှန်ကိရိယာများသည် ရှာဖွေရေးသမားများကို အဓိကအားဖြင့် မည်သို့ကူညီခဲ့သနည်း။',
+        optionsEn: [
+          'Letting them navigate open ocean far from land more accurately',
+          'Making ships fly',
+          'Translating foreign languages',
+          'Growing crops faster',
+        ],
+        optionsMy: [
+          'ကုန်းမြေမှ ဝေးလံသော သမုဒ္ဒရာကျယ်ပြန့်ကို ပိုတိကျစွာ ခရီးသွားနိုင်စေခြင်း',
+          'သင်္ဘောများကို ပျံသန်းစေခြင်း',
+          'နိုင်ငံခြားဘာသာစကားများ ဘာသာပြန်ပေးခြင်း',
+          'သီးနှံများ ပိုမြန်စွာ စိုက်ပျိုးစေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do historians describe the Age of Exploration as having both positive and negative consequences?',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် ရှာဖွေတွေ့ရှိမှု ခေတ်ကာလကို အကောင်းအဆိုးနှစ်ဖက်စလုံး ရှိသည်ဟု ဖော်ပြကြသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'It expanded global trade and knowledge but also caused conquest, disease, and enslavement',
+          'It had no effect on any society',
+          'It only benefited the places being explored',
+          'It stopped all future world trade',
+        ],
+        optionsMy: [
+          'ကမ္ဘာလုံးဆိုင်ရာ ကုန်သွယ်မှုနှင့် အသိပညာကို တိုးချဲ့ပေးသော်လည်း အောင်နိုင်စစ်ပွဲများ၊ ရောဂါများနှင့် ကျွန်ပြုမှုများကိုလည်း ဖြစ်ပေါ်စေခဲ့သောကြောင့်',
+          'မည်သည့်လူ့အဖွဲ့အစည်းကိုမျှ သက်ရောက်မှုမရှိသောကြောင့်',
+          'ရှာဖွေတွေ့ရှိခံရသောနေရာများကိုသာ အကျိုးပြုသောကြောင့်',
+          'အနာဂတ် ကမ္ဘာ့ကုန်သွယ်မှုအားလုံးကို ရပ်တန့်စေခဲ့သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary1-geography-1',
+    subject: 'geography',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Population and Settlement',
+    titleMy: 'လူဦးရေနှင့် နေထိုင်မှုပုံစံများ',
+    descriptionEn:
+        'Explore how and why population is distributed unevenly, and the factors behind migration and settlement patterns.',
+    descriptionMy:
+        'လူဦးရေ မညီမျှစွာ ဖြန့်ဝေနေရသည့် အကြောင်းရင်းနှင့် ရွှေ့ပြောင်းနေထိုင်မှု၊ နေထိုင်မှုပုံစံများနောက်ကွယ်ရှိ အချက်များကို လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which factor most explains why river valleys often have dense population?',
+        questionMy:
+            'မြစ်ချိုင့်ဝှမ်းများတွင် လူဦးရေထူထပ်လေ့ရှိသည်ကို အကောင်းဆုံးရှင်းပြနိုင်သော အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Access to fresh water, fertile soil, and transport',
+          'Very cold temperatures year-round',
+          'Extremely high altitude',
+          'Lack of any natural resources',
+        ],
+        optionsMy: [
+          'သန့်ရှင်းသောရေ၊ မြေဆီလွှာကောင်းနှင့် သယ်ယူပို့ဆောင်ရေး ရရှိနိုင်ခြင်း',
+          'တစ်နှစ်ပတ်လုံး အလွန်အေးမြသောအပူချိန်',
+          'အလွန်မြင့်မားသော အမြင့်အနိမ့်',
+          'သဘာဝသယံဇာတလုံးဝမရှိခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "push factor" that causes people to migrate away from a place is best described as...',
+        questionMy:
+            'လူများ နေရာတစ်ခုမှ ရွှေ့ပြောင်းသွားစေသော "push factor" ဆိုသည်မှာ အဓိပ္ပာယ်ဖွင့်ဆိုရလျှင် အဘယ်နည်း။',
+        optionsEn: [
+          'A negative condition in the origin place, like conflict or lack of jobs',
+          'A positive reason attracting people to a new place',
+          'A type of ocean current',
+          'A government tax on farmland',
+        ],
+        optionsMy: [
+          'ထိုနေရာရှိ ပဋိပက္ခ သို့မဟုတ် အလုပ်အကိုင်ချို့တဲ့မှုကဲ့သို့ အနုတ်လက္ခဏာအခြေအနေ',
+          'နေရာအသစ်တစ်ခုသို့ ဆွဲဆောင်စေသော အပြုသဘောအကြောင်းရင်း',
+          'သမုဒ္ဒရာရေစီးကြောင်းအမျိုးအစားတစ်ခု',
+          'လယ်ယာမြေအပေါ် အစိုးရအခွန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "nucleated" settlement pattern refers to homes and buildings that are...',
+        questionMy:
+            '"Nucleated" နေထိုင်မှုပုံစံသည် အိမ်များနှင့် အဆောက်အအုံများကို မည်သို့ဖော်ပြသနည်း။',
+        optionsEn: [
+          'Clustered closely together around a central point',
+          'Spread far apart from each other',
+          'Built only underground',
+          'Found only on mountaintops',
+        ],
+        optionsMy: [
+          'ဗဟိုနေရာတစ်ခုပတ်လည်တွင် နီးကပ်စွာ စုစည်းထားခြင်း',
+          'တစ်ခုနှင့်တစ်ခု ဝေးကွာစွာ ပျံ့နှံ့နေခြင်း',
+          'မြေအောက်တွင်သာ ဆောက်လုပ်ထားခြင်း',
+          'တောင်ထိပ်များတွင်သာ တွေ့ရှိရခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these regions typically has the lowest population density?',
+        questionMy:
+            'အောက်ပါဒေသများအနက် အများအားဖြင့် လူဦးရေသိပ်သည်းဆ အနည်းဆုံးရှိသည်မှာ အဘယ်ဒေသနည်း။',
+        optionsEn: [
+          'A hot, dry desert',
+          'A fertile river delta',
+          'A coastal port city',
+          'A temperate farming plain',
+        ],
+        optionsMy: [
+          'ပူပြင်း ခြောက်သွေ့သော သဲကန္တာရ',
+          'မြေဆီလွှာကောင်းသော မြစ်ဝကျွန်းပေါ်',
+          'ကမ်းရိုးတန်း ဆိပ်ကမ်းမြို့',
+          'သမပိုင်းစိုက်ပျိုးရေးလွင်ပြင်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Rapid urbanization in developing countries most often leads to which challenge?',
+        questionMy:
+            'ဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် လျင်မြန်သောမြို့ပြဖြစ်ထွန်းမှုသည် များသောအားဖြင့် မည်သည့်စိန်ခေါ်မှုကို ဖြစ်ပေါ်စေသနည်း။',
+        optionsEn: [
+          'Overcrowded housing and strained infrastructure',
+          'Too few people living in cities',
+          'A sudden decrease in traffic',
+          'No demand for jobs',
+        ],
+        optionsMy: [
+          'အိမ်ရာသိပ်သည်းလွန်းခြင်းနှင့် အခြေခံအဆောက်အအုံအပေါ် ဖိအားများခြင်း',
+          'မြို့ပြများတွင် နေထိုင်သူ အလွန်နည်းပါးခြင်း',
+          'ယာဉ်ကြောကျပ်တည်းမှု ရုတ်တရက်လျော့ကျခြင်း',
+          'အလုပ်အကိုင်လိုအပ်ချက် လုံးဝမရှိခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ============================== SECONDARY 2 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary2-computing-1',
+    subject: 'computing',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Networks and Program Design',
+    titleMy: 'ကွန်ရက်များနှင့် ပရိုဂရမ် ဒီဇိုင်း',
+    descriptionEn:
+        'Learn how devices connect over networks, and build programs using functions and arrays.',
+    descriptionMy:
+        'စက်ပစ္စည်းများ ကွန်ရက်များမှတဆင့် မည်သို့ ချိတ်ဆက်ကြသည်နှင့် Function နှင့် Array များအသုံးပြု၍ ပရိုဂရမ်များ တည်ဆောက်ပုံကို လေ့လာပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A network that connects devices within a single building or campus is called a...',
+        questionMy:
+            'အဆောက်အအုံတစ်ခု (သို့) ကျောင်းဝင်းတစ်ခုတည်းအတွင်း စက်ပစ္စည်းများကို ချိတ်ဆက်ပေးသော ကွန်ရက်ကို ဘာခေါ်သနည်း။',
+        optionsEn: [
+          'LAN (Local Area Network)',
+          'WAN (Wide Area Network)',
+          'A byte',
+          'A database',
+        ],
+        optionsMy: ['LAN', 'WAN', 'Byte', 'Database'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Each device connected to the internet is identified by a unique...',
+        questionMy:
+            'အင်တာနက်နှင့် ချိတ်ဆက်ထားသော စက်ပစ္စည်းတစ်ခုစီကို ထူးခြားသော ဘာဖြင့် ခွဲခြားသတ်မှတ်သနည်း။',
+        optionsEn: [
+          'IP address',
+          'Font size',
+          'Screen color',
+          'File extension',
+        ],
+        optionsMy: [
+          'IP address',
+          'Font size',
+          'Screen color',
+          'File extension',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A reusable named block of code that performs a specific task is called a...',
+        questionMy:
+            'တိကျသောလုပ်ငန်းတစ်ခုကို လုပ်ဆောင်ပေးသော ထပ်ခါထပ်ခါအသုံးပြုနိုင်သည့် အမည်ရှိကုဒ်ပိုင်းကို ဘာခေါ်သနည်း။',
+        optionsEn: ['A function', 'A router', 'A byte', 'A pixel'],
+        optionsMy: ['Function', 'Router', 'Byte', 'Pixel'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An array with values [10, 20, 30, 40] -- what is the value at index 2?',
+        questionMy:
+            '[10, 20, 30, 40] တန်ဖိုးများပါသော Array တစ်ခု -- Index 2 တွင် တန်ဖိုးမည်မျှရှိသနည်း။',
+        optionsEn: ['10', '20', '30', '40'],
+        optionsMy: ['10', '20', '30', '40'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'A "protocol" in networking refers to...',
+        questionMy:
+            'ကွန်ရက်ချိတ်ဆက်ရာတွင် "protocol" ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။',
+        optionsEn: [
+          'An agreed set of rules for how devices communicate',
+          'A type of physical cable',
+          'A picture file format',
+          'The speed of a CPU',
+        ],
+        optionsMy: [
+          'စက်ပစ္စည်းများ ဆက်သွယ်ပုံအတွက် သဘောတူထားသော စည်းမျဉ်းများ',
+          'ရုပ်ပိုင်းဆိုင်ရာကြိုးအမျိုးအစားတစ်ခု',
+          'ပုံဖိုင်ပုံစံတစ်ခု',
+          'CPU ၏ အလုပ်လုပ်နှုန်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-history-1',
+    subject: 'history',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'The Industrial Revolution',
+    titleMy: 'စက်မှုတော်လှန်ရေး',
+    descriptionEn:
+        'Investigate the causes of the Industrial Revolution and how it transformed work, cities, and daily life.',
+    descriptionMy:
+        'စက်မှုတော်လှန်ရေး၏ အကြောင်းရင်းများနှင့် ၎င်းသည် အလုပ်၊ မြို့ပြများနှင့် နေ့စဉ်ဘဝကို မည်သို့ပြောင်းလဲစေခဲ့သည်ကို လေ့လာစူးစမ်းပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn: 'The Industrial Revolution began first in which country?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေးသည် မည်သည့်နိုင်ငံတွင် ပထမဆုံး စတင်ခဲ့သနည်း။',
+        optionsEn: ['Great Britain', 'Japan', 'Brazil', 'Egypt'],
+        optionsMy: ['ဗြိတိန်', 'ဂျပန်', 'ဘရာဇီး', 'အီဂျစ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which invention is most closely associated with powering early factories?',
+        questionMy:
+            'အစောပိုင်းစက်ရုံများကို စွမ်းအင်ပေးရာတွင် အနီးကပ်ဆုံး ဆက်စပ်နေသော တီထွင်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The steam engine',
+          'The telephone',
+          'The airplane',
+          'The automobile',
+        ],
+        optionsMy: ['အငွေ့စက်', 'တယ်လီဖုန်း', 'လေယာဉ်ပျံ', 'ကား'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A major social effect of the Industrial Revolution was...',
+        questionMy:
+            'စက်မှုတော်လှန်ရေး၏ အဓိက လူမှုရေးအကျိုးသက်ရောက်မှုတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Mass migration from rural farms to growing cities for factory work',
+          'The complete disappearance of all cities',
+          'No change to how people worked',
+          'A sudden decrease in population',
+        ],
+        optionsMy: [
+          'စက်ရုံအလုပ်အတွက် ကျေးလက်လယ်ယာမှ ကြီးထွားလာသောမြို့ပြများသို့ လူထုအစုလိုက် ရွှေ့ပြောင်းမှု',
+          'မြို့ပြများ အားလုံး လုံးဝပျောက်ကွယ်သွားခြင်း',
+          'လူများ အလုပ်လုပ်ပုံအပေါ် ပြောင်းလဲမှုမရှိခြင်း',
+          'လူဦးရေ ရုတ်တရက်ကျဆင်းသွားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Working conditions in early factories were often criticized because...',
+        questionMy:
+            'အစောပိုင်းစက်ရုံများ၏ အလုပ်လုပ်ကိုင်မှု အခြေအနေများကို များသောအားဖြင့် ဝေဖန်ခံရသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'Workers, including children, faced long hours and unsafe conditions',
+          'Everyone worked only one hour per day',
+          'Factories were always empty',
+          'Wages were always extremely high',
+        ],
+        optionsMy: [
+          'ကလေးများပါဝင်သော အလုပ်သမားများသည် နာရီများစွာ အလုပ်ချိန်နှင့် မလုံခြုံသောအခြေအနေများကို ရင်ဆိုင်ခဲ့ရသောကြောင့်',
+          'လူတိုင်း တစ်နေ့လျှင် တစ်နာရီသာ အလုပ်လုပ်ခဲ့ကြသောကြောင့်',
+          'စက်ရုံများ အမြဲတမ်း ဗလာဖြစ်နေသောကြောင့်',
+          'လုပ်ခလစာများ အမြဲတမ်း အလွန်မြင့်မားသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do historians consider the Industrial Revolution a turning point in world history?',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် စက်မှုတော်လှန်ရေးကို ကမ္ဘာ့သမိုင်း၏ အသွင်ကူးပြောင်းချက်တစ်ခုအဖြစ် သတ်မှတ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'It fundamentally changed how goods were produced and how societies were organized',
+          'It had no lasting effect on any society',
+          'It only affected fashion trends',
+          'It ended all forms of agriculture permanently',
+        ],
+        optionsMy: [
+          'ကုန်ပစ္စည်းများ ထုတ်လုပ်ပုံနှင့် လူ့အဖွဲ့အစည်းများ စုစည်းပုံကို အခြေခံကျကျ ပြောင်းလဲစေခဲ့သောကြောင့်',
+          'မည်သည့်လူ့အဖွဲ့အစည်းကိုမျှ ရေရှည်သက်ရောက်မှုမရှိသောကြောင့်',
+          'ဖက်ရှင်ခေတ်ရေစီးကြောင်းကိုသာ သက်ရောက်စေသောကြောင့်',
+          'လယ်ယာစိုက်ပျိုးရေး အားလုံးကို အပြီးတိုင် ရပ်တန့်စေခဲ့သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-geography-1',
+    subject: 'geography',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Tectonic Hazards and River Landscapes',
+    titleMy: 'သဘာဝဘေးအန္တရာယ်များနှင့် မြစ်ရှိရာလှမ်းမြေပြင်ပုံစံများ',
+    descriptionEn:
+        'Study how plate movement causes earthquakes and volcanoes, and how rivers shape the land.',
+    descriptionMy:
+        'ကမ္ဘာမြေခွက်ရွေ့လျားမှုသည် ငလျင်နှင့် မီးတောင်များကို မည်သို့ဖြစ်ပေါ်စေသည်နှင့် မြစ်များသည် မြေပြင်ကို မည်သို့ပုံဖော်သည်ကို လေ့လာပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Earthquakes and volcanoes most commonly occur along...',
+        questionMy:
+            'ငလျင်နှင့် မီးတောင်များသည် များသောအားဖြင့် မည်သည့်နေရာတစ်လျှောက်တွင် ဖြစ်ပေါ်လေ့ရှိသနည်း။',
+        optionsEn: [
+          'Tectonic plate boundaries',
+          'The centre of large continents only',
+          'The middle of every ocean equally',
+          'Areas with the coldest climate',
+        ],
+        optionsMy: [
+          'တက်တွန်းနစ်ပလိတ်နယ်နိမိတ်များ',
+          'ကျွန်းတိုက်ကြီးများ၏ အလယ်ပိုင်းတွင်သာ',
+          'သမုဒ္ဒရာတိုင်း၏ အလယ်ပိုင်းတွင် အညီအမျှ',
+          'အအေးဆုံးရာသီဥတုရှိသောနေရာများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When two tectonic plates move apart from each other, this is called a...',
+        questionMy:
+            'တက်တွန်းနစ်ပလိတ်နှစ်ခု တစ်ခုနှင့်တစ်ခု ကွာဝေးစွာ ရွေ့လျားသောအခါ ၎င်းကို ဘာခေါ်သနည်း။',
+        optionsEn: [
+          'Divergent boundary',
+          'Convergent boundary',
+          'A river delta',
+          'A settlement',
+        ],
+        optionsMy: [
+          'Divergent boundary',
+          'Convergent boundary',
+          'မြစ်ဝကျွန်းပေါ်',
+          'နေထိုင်မှုဒေသ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Near a river\'s source (upper course), erosion typically creates...',
+        questionMy:
+            "မြစ်၏ ရေမူလ (အထက်ပိုင်းလမ်းကြောင်း) အနီးတွင် ရေတိုက်စားမှုသည် အများအားဖြင့် ဘာကိုဖန်တီးလေ့ရှိသနည်း။",
+        optionsEn: [
+          'V-shaped valleys',
+          'Wide flat deltas',
+          'Sand dunes',
+          'Coral reefs',
+        ],
+        optionsMy: [
+          'V ပုံသဏ္ဌာန်ချိုင့်ဝှမ်းများ',
+          'ကျယ်ပြန့်ညီညာသော မြစ်ဝကျွန်းပေါ်များ',
+          'သဲကုန်းများ',
+          'သန္ဓေကျောက်တန်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Deposition (where a river drops the material it carries) mostly happens when the river...',
+        questionMy:
+            'ရေထုအနီးကျ ဖုံးအုပ်ခြင်း (မြစ်ရေက သယ်ဆောင်လာသောပစ္စည်းများကို ချထားခြင်း) သည် များသောအားဖြင့် မည်သည့်အခါ ဖြစ်ပေါ်သနည်း။',
+        optionsEn: [
+          'Slows down, such as near its mouth',
+          'Speeds up suddenly',
+          'Freezes completely',
+          'Flows uphill',
+        ],
+        optionsMy: [
+          'ရေဝင်ဝအနီးကဲ့သို့ ရေစီးနှေးလာသောအခါ',
+          'ရေစီး ရုတ်တရက် မြန်ဆန်လာသောအခါ',
+          'လုံးဝ ရေခဲသွားသောအခါ',
+          'တောင်ကုန်းသို့ တက်၍စီးသောအခါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do many people continue to live in areas at risk of earthquakes and volcanic eruptions?',
+        questionMy:
+            'ငလျင်နှင့် မီးတောင်ပေါက်ကွဲမှု အန္တရာယ်ရှိသောဒေသများတွင် လူများစွာ ဆက်လက်နေထိုင်နေကြသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'Volcanic soil is often very fertile and the areas may offer jobs, resources, or family ties',
+          'They are unaware that any risk exists anywhere',
+          'It is impossible to live anywhere else on Earth',
+          'Governments require everyone to live there',
+        ],
+        optionsMy: [
+          'မီးတောင်မြေဆီလွှာသည် များသောအားဖြင့် အလွန်ကောင်းမွန်ပြီး ထိုဒေသများတွင် အလုပ်အကိုင်၊ သယံဇာတ (သို့) မိသားစုဆက်စပ်မှုများ ရှိတတ်ကြသောကြောင့်',
+          'မည်သည့်အန္တရာယ်မျှ ရှိကြောင်း လုံးဝမသိကြသောကြောင့်',
+          'ကမ္ဘာပေါ်တွင် အခြားနေရာတွင် နေထိုင်ရန် မဖြစ်နိုင်သောကြောင့်',
+          'အစိုးရများက လူတိုင်းကို ထိုနေရာများတွင် နေထိုင်ရန် တောင်းဆိုသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ============================== SECONDARY 3 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary3-computing-1',
+    subject: 'computing',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Databases and Cybersecurity',
+    titleMy: 'ဒေတာဘေ့စ်များနှင့် ဆိုက်ဘာလုံခြုံရေး',
+    descriptionEn:
+        'Understand how databases organize information, and how to recognize common cybersecurity threats.',
+    descriptionMy:
+        'ဒေတာဘေ့စ်များသည် အချက်အလက်များကို မည်သို့စုစည်းသည်နှင့် သာမန်ဆိုက်ဘာလုံခြုံရေးအန္တရာယ်များကို မည်သို့ခွဲခြားသိရှိရမည်ကို နားလည်ပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'In a database, a single row of related data (e.g. one student\'s details) is called a...',
+        questionMy:
+            "ဒေတာဘေ့စ်တစ်ခုတွင် ဆက်စပ်ဒေတာတစ်တန်း (ဥပမာ - ကျောင်းသားတစ်ဦး၏ အသေးစိတ်) ကို ဘာခေါ်သနည်း။",
+        optionsEn: ['A record', 'A byte', 'A protocol', 'A pixel'],
+        optionsMy: ['Record', 'Byte', 'Protocol', 'Pixel'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Malicious software designed to damage or gain unauthorized access to a system is called...',
+        questionMy:
+            'စနစ်တစ်ခုကို ပျက်စီးစေရန် (သို့) ခွင့်ပြုချက်မရှိဘဲ ဝင်ရောက်ရန် ဒီဇိုင်းဆွဲထားသော လက်ဆိုးဆောင်ဆော့ဖ်ဝဲကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Malware', 'A database', 'A function', 'A protocol'],
+        optionsMy: ['Malware', 'Database', 'Function', 'Protocol'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "phishing" attack typically tries to trick someone into...',
+        questionMy:
+            '"Phishing" တိုက်ခိုက်မှုသည် များသောအားဖြင့် တစ်စုံတစ်ဦးအား မည်သို့လှည့်ဖြားရန် ကြိုးစားလေ့ရှိသနည်း။',
+        optionsEn: [
+          'Revealing personal information like passwords through a fake message',
+          'Buying a faster computer',
+          'Deleting all their files immediately',
+          'Turning off their Wi-Fi',
+        ],
+        optionsMy: [
+          'အတုဆောက်ထားသောစာတစ်စောင်မှတဆင့် စကားဝှက်ကဲ့သို့ ကိုယ်ရေးအချက်အလက် ဖော်ထုတ်စေခြင်း',
+          'ပိုမြန်သော ကွန်ပျူတာတစ်လုံး ဝယ်ယူစေခြင်း',
+          'သူတို့၏ ဖိုင်အားလုံးကို ချက်ချင်းဖျက်စေခြင်း',
+          'သူတို့၏ Wi-Fi ကို ပိတ်ခိုင်းခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The part of a computer that carries out instructions and performs calculations is the...',
+        questionMy:
+            'ညွှန်ကြားချက်များကို လုပ်ဆောင်ပြီး တွက်ချက်မှုများပြုလုပ်ပေးသော ကွန်ပျူတာ၏ အစိတ်အပိုင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'CPU (Central Processing Unit)',
+          'A router',
+          'A database',
+          'A monitor',
+        ],
+        optionsMy: ['CPU', 'Router', 'Database', 'Monitor'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a good cybersecurity practice?',
+        questionMy:
+            'အောက်ပါတို့အနက် ကောင်းမွန်သော ဆိုက်ဘာလုံခြုံရေးအလေ့အကျင့်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Using a strong, unique password for each account',
+          'Sharing your password with strangers online',
+          'Clicking every link in unexpected emails',
+          'Using the same simple password everywhere',
+        ],
+        optionsMy: [
+          'အကောင့်တစ်ခုစီအတွက် ခိုင်မာသော ထူးခြားစကားဝှက်များ အသုံးပြုခြင်း',
+          'အွန်လိုင်းတွင် အမျှမသိသူများနှင့် စကားဝှက်ကို မျှဝေခြင်း',
+          'မမျှော်လင့်ထားသော အီးမေးလ်များရှိ လင့်ခ်တိုင်းကို နှိပ်ခြင်း',
+          'နေရာတိုင်းတွင် ရိုးရှင်းသော စကားဝှက်တစ်ခုတည်း သုံးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-history-1',
+    subject: 'history',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: '20th Century Conflict and Decolonization',
+    titleMy: '၂၀ ရာစု ပဋိပက္ခနှင့် ကိုလိုနီခြင်း လွတ်မြောက်မှု',
+    descriptionEn:
+        'Study the causes of the 20th century world wars and the movements for independence that followed.',
+    descriptionMy:
+        '၂၀ ရာစု ကမ္ဘာစစ်ပွဲများ၏ အကြောင်းရင်းများနှင့် ၎င်းနောက်ပိုင်းလွတ်လပ်ရေးလှုပ်ရှားမှုများကို လေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is commonly cited as a major cause of World War I?',
+        questionMy:
+            'ပထမကမ္ဘာစစ်၏ အဓိကအကြောင်းရင်းတစ်ခုအဖြစ် အများအားဖြင့် ကိုးကားလေ့ရှိသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A complex system of military alliances between nations',
+          'A single trade agreement',
+          'A worldwide sports competition',
+          'A shortage of paper',
+        ],
+        optionsMy: [
+          'နိုင်ငံများအကြား ရှုပ်ထွေးသော စစ်ရေးမဟာမိတ်စနစ်',
+          'ကုန်သွယ်ရေးသဘောတူညီချက် တစ်ခုတည်း',
+          'ကမ္ဘာလုံးဆိုင်ရာ အားကစားပြိုင်ပွဲ',
+          'စက္ကူတောင်းတမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: '"Decolonization" refers to the process by which...',
+        questionMy:
+            '"ကိုလိုနီခြင်း လွတ်မြောက်မှု" ဆိုသည်မှာ မည်သည့်လုပ်ငန်းစဉ်ကို ရည်ညွှန်းသနည်း။',
+        optionsEn: [
+          'Former colonies gained independence from ruling powers',
+          'New colonies were established for the first time',
+          'All trade between countries stopped',
+          'Countries merged into one single empire',
+        ],
+        optionsMy: [
+          'ယခင်ကိုလိုနီများသည် အုပ်ချုပ်သောအာဏာများထံမှ လွတ်လပ်ရေးရရှိခြင်း',
+          'ကိုလိုနီအသစ်များ ပထမဆုံးအကြိမ် တည်ထောင်ခဲ့ခြင်း',
+          'နိုင်ငံများအကြား ကုန်သွယ်မှုအားလုံး ရပ်တန့်သွားခြင်း',
+          'နိုင်ငံများ တစ်ခုတည်းသော အင်ပါယာအဖြစ် ပေါင်းစည်းသွားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these was a common factor in many Asian and African independence movements after World War II?',
+        questionMy:
+            'ဒုတိယကမ္ဘာစစ်ပြီးနောက် အာရှနှင့် အာဖရိက လွတ်လပ်ရေးလှုပ်ရှားမှုများစွာတွင် တွေ့ရသော အများအားဖြင့် အကြောင်းရင်းတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A growing desire for self-rule and rejection of colonial control',
+          'A wish to be colonized by more countries',
+          'No interest in political change',
+          'A global decrease in population',
+        ],
+        optionsMy: [
+          'မိမိကိုယ်ကို အုပ်ချုပ်လိုမှု တိုးများလာခြင်းနှင့် ကိုလိုနီထိန်းချုပ်မှုကို ငြင်းပယ်ခြင်း',
+          'ကိုလိုနီနိုင်ငံများ ပိုများလာစေလိုသောဆန္ဒ',
+          'နိုင်ငံရေးပြောင်းလဲမှုအပေါ် စိတ်ဝင်စားမှုမရှိခြင်း',
+          'ကမ္ဘာလုံးဆိုင်ရာ လူဦးရေကျဆင်းမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Myanmar gained independence from British colonial rule in which year?',
+        questionMy:
+            'မြန်မာနိုင်ငံသည် မည်သည့်နှစ်တွင် ဗြိတိသျှကိုလိုနီအုပ်ချုပ်မှုမှ လွတ်လပ်ရေးရရှိခဲ့သနည်း။',
+        optionsEn: ['1948', '1900', '1975', '1962'],
+        optionsMy: ['၁၉၄၈', '၁၉၀၀', '၁၉၇၅', '၁၉၆၂'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do historians study both the causes and long-term effects of 20th century conflicts?',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် ၂၀ ရာစု ပဋိပက္ခများ၏ အကြောင်းရင်းများနှင့် ရေရှည်အကျိုးသက်ရောက်မှုများ နှစ်ခုစလုံးကို လေ့လာကြသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'To understand how past decisions continue to shape today\'s political borders and relationships',
+          'Because only the dates matter, not the reasons',
+          'Because effects never connect to causes',
+          'To memorize battle locations only',
+        ],
+        optionsMy: [
+          'အတိတ်ကဆုံးဖြတ်ချက်များသည် ယနေ့ နိုင်ငံရေးနယ်နိမိတ်များနှင့် ဆက်ဆံရေးများကို မည်သို့ဆက်လက်ပုံဖော်နေသည်ကို နားလည်ရန်',
+          'ရက်စွဲများသာ အရေးကြီးပြီး အကြောင်းရင်းများ အရေးမကြီးသောကြောင့်',
+          'အကျိုးဆက်များသည် အကြောင်းရင်းများနှင့် ဘယ်တော့မှ မဆက်စပ်သောကြောင့်',
+          'တိုက်ပွဲနေရာများကိုသာ အလွတ်ကျက်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-geography-1',
+    subject: 'geography',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Development and Globalization',
+    titleMy: 'ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ကမ္ဘာလုံးဆိုင်ရာ ချိတ်ဆက်မှု',
+    descriptionEn:
+        'Compare how countries measure development, and examine the effects of globalization and trade.',
+    descriptionMy:
+        'နိုင်ငံများသည် ဖွံ့ဖြိုးတိုးတက်မှုကို မည်သို့တိုင်းတာသည်နှင့် ကမ္ဘာလုံးဆိုင်ရာ ချိတ်ဆက်မှုနှင့် ကုန်သွယ်ရေး၏ အကျိုးသက်ရောက်မှုများကို လေ့လာစူးစမ်းပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'The Human Development Index (HDI) combines measures of income, education, and...',
+        questionMy:
+            'Human Development Index (HDI) သည် ဝင်ငွေ၊ ပညာရေးနှင့် ဘာတို့ကို ပေါင်းစပ်တိုင်းတာသနည်း။',
+        optionsEn: [
+          'Life expectancy',
+          'Average rainfall',
+          'Number of mountains',
+          'Distance to the equator',
+        ],
+        optionsMy: [
+          'ခန့်မှန်းသက်တမ်း',
+          'ပျမ်းမျှမိုးရေချိန်',
+          'တောင်အရေအတွက်',
+          'အီကွေတာသို့အကွာအဝေး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A country with a high GNI (Gross National Income) per person is generally considered...',
+        questionMy:
+            'တစ်ဦးချင်းအလိုက် GNI (Gross National Income) မြင့်မားသောနိုင်ငံကို ယေဘုယျအားဖြင့် မည်သို့သတ်မှတ်လေ့ရှိသနည်း။',
+        optionsEn: [
+          'More economically developed',
+          'Less populated always',
+          'Located only near the equator',
+          'Without any cities',
+        ],
+        optionsMy: [
+          'စီးပွားရေးအရ ပိုမိုဖွံ့ဖြိုးသည်',
+          'လူဦးရေအမြဲနည်းသည်',
+          'အီကွေတာအနီးတွင်သာ တည်ရှိသည်',
+          'မြို့များ လုံးဝမရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: '"Globalization" is best described as...',
+        questionMy:
+            '"ကမ္ဘာလုံးဆိုင်ရာ ချိတ်ဆက်မှု (Globalization)" ဆိုသည်မှာ အဓိပ္ပာယ်ဖွင့်ဆိုရလျှင် အဘယ်နည်း။',
+        optionsEn: [
+          'The growing economic, cultural, and technological connection between countries',
+          'A single country becoming completely isolated',
+          'A type of weather pattern',
+          'A tax placed only on farmers',
+        ],
+        optionsMy: [
+          'နိုင်ငံများအကြား စီးပွားရေး၊ ယဉ်ကျေးမှုနှင့် နည်းပညာဆက်စပ်မှု တိုးများလာခြင်း',
+          'နိုင်ငံတစ်နိုင်ငံ လုံးဝတစ်ကွဲတစ်ပြားဖြစ်သွားခြင်း',
+          'ရာသီဥတုပုံစံတစ်ခု',
+          'တောင်သူများအပေါ်တွင်သာ ချထားသောအခွန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a common criticism of globalization?',
+        questionMy:
+            'အောက်ပါတို့အနက် ကမ္ဘာလုံးဆိုင်ရာချိတ်ဆက်မှုကို အများအားဖြင့် ဝေဖန်ကြသည့် အချက်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It can widen the wealth gap between richer and poorer countries',
+          'It stops all countries from trading with each other',
+          'It has no economic effects at all',
+          'It only benefits agriculture',
+        ],
+        optionsMy: [
+          'ချမ်းသာသောနိုင်ငံများနှင့် ဆင်းရဲသောနိုင်ငံများအကြား ပိုက်ဆံခြားနားချက်ကို ကျယ်ပြန့်စေနိုင်ခြင်း',
+          'နိုင်ငံများအားလုံး အချင်းချင်း ကုန်သွယ်မှု ရပ်တန့်စေခြင်း',
+          'စီးပွားရေးအပေါ် သက်ရောက်မှု လုံးဝမရှိခြင်း',
+          'လယ်ယာစိုက်ပျိုးရေးကိုသာ အကျိုးပြုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A country moving from mostly farming-based jobs to mostly factory and service jobs is undergoing...',
+        questionMy:
+            'အများအားဖြင့် လယ်ယာအလုပ်များမှ အများအားဖြင့် စက်ရုံနှင့် ဝန်ဆောင်မှုအလုပ်များသို့ ပြောင်းလဲသွားသောနိုင်ငံသည် မည်သည့်အခြေအနေကို ဖြတ်သန်းနေခြင်းဖြစ်သနည်း။',
+        optionsEn: [
+          'Economic development',
+          'A population decline',
+          'A drought',
+          'A currency change only',
+        ],
+        optionsMy: [
+          'စီးပွားရေးဖွံ့ဖြိုးတိုးတက်မှု',
+          'လူဦးရေကျဆင်းမှု',
+          'မိုးခေါင်မှု',
+          'ငွေကြေးပြောင်းလဲမှုတစ်ခုတည်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ============================== IGCSE ==============================
+  SecondaryActivityDef(
+    id: 'mock-igcse-computing-1',
+    subject: 'computing',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Algorithms, Ethics, and Computer Systems',
+    titleMy: 'အယ်လဂိုရီသမ်များ၊ ကျင့်ဝတ်နှင့် ကွန်ပျူတာစနစ်များ',
+    descriptionEn:
+        'Evaluate algorithm efficiency, weigh the ethical/legal issues of computing, and review core system concepts.',
+    descriptionMy:
+        'အယ်လဂိုရီသမ်ထိရောက်မှုကို အကဲဖြတ်ပြီး ကွန်ပျူတာဆိုင်ရာ ကျင့်ဝတ်/ဥပဒေရေးရာ ပြဿနာများကို ချိန်ညှိကာ အခြေခံစနစ်အယူအဆများကို ပြန်လည်လေ့ကျင့်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'When comparing two algorithms that solve the same problem, "efficiency" mainly refers to...',
+        questionMy:
+            'ပြဿနာတူတစ်ခုကို ဖြေရှင်းသော algorithm နှစ်ခုကို နှိုင်းယှဉ်သောအခါ "efficiency" သည် အဓိကအားဖြင့် ဘာကို ရည်ညွှန်းသနည်း။',
+        optionsEn: [
+          'How much time and memory the algorithm uses',
+          'How colorful the output looks',
+          'How long the code is written',
+          'How many comments are in the code',
+        ],
+        optionsMy: [
+          'Algorithm က အသုံးပြုသော အချိန်နှင့် memory ပမာဏ',
+          'ရလဒ်၏ အရောင်စုံမှု',
+          'ကုဒ်ရေးထားသည့် အရှည်',
+          'ကုဒ်ထဲရှိ မှတ်ချက်အရေအတွက်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Using someone else\'s code or written work without permission or credit raises which issue?',
+        questionMy:
+            'သူတစ်ပါး၏ ကုဒ် (သို့) ရေးသားထားသောလက်ရာကို ခွင့်ပြုချက် (သို့) credit မပေးဘဲ အသုံးပြုခြင်းသည် မည်သည့်ပြဿနာကို ဖြစ်ပေါ်စေသနည်း။',
+        optionsEn: [
+          'An ethical and legal (plagiarism/copyright) issue',
+          'A hardware failure',
+          'A network protocol error',
+          'A binary conversion error',
+        ],
+        optionsMy: [
+          'ကျင့်ဝတ်နှင့် ဥပဒေရေးရာ (ကူးယူမှု/မူပိုင်ခွင့်) ပြဿနာ',
+          'Hardware ချို့ယွင်းမှု',
+          'Network protocol အမှား',
+          'Binary ပြောင်းလဲမှု အမှား',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A flowchart symbol shaped like a rectangle usually represents...',
+        questionMy:
+            'ထောင့်မှန်စတုဂံပုံသဏ္ဌာန်ရှိသော flowchart သင်္ကေတသည် များသောအားဖြင့် အဘယ်ကိုကိုယ်စားပြုသနည်း။',
+        optionsEn: [
+          'A process or action step',
+          'The start/end point only',
+          'A decision',
+          'Input from a keyboard',
+        ],
+        optionsMy: [
+          'လုပ်ငန်းစဉ် သို့မဟုတ် လုပ်ဆောင်ချက်အဆင့်',
+          'အစ/အဆုံးအမှတ်သာ',
+          'ဆုံးဖြတ်ချက်',
+          'ကီးဘုတ်မှ input',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is a legitimate ethical concern about widespread facial recognition technology?',
+        questionMy:
+            'ကျယ်ပြန့်စွာအသုံးပြုနေသော မျက်နှာမှတ်သားနည်းပညာနှင့် ပတ်သက်၍ တရားဝင် ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်မှုတစ်ခုမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'Privacy risks from mass surveillance without consent',
+          'It uses no electricity at all',
+          'It cannot be used by any government',
+          'It has existed since before computers',
+        ],
+        optionsMy: [
+          'သဘောတူညီချက်မရှိဘဲ လူထုစောင့်ကြည့်ခြင်းမှ ကိုယ်ရေးကိုယ်တာ လုံခြုံရေးအန္တရာယ်',
+          'လျှပ်စစ်စွမ်းအင် လုံးဝမသုံးခြင်း',
+          'မည်သည့်အစိုးရကမျှ အသုံးမပြုနိုင်ခြင်း',
+          'ကွန်ပျူတာမတိုင်မီကတည်းက ရှိနေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The "fetch-decode-execute" cycle describes how a computer...',
+        questionMy:
+            '"fetch-decode-execute" cycle သည် ကွန်ပျူတာ၏ မည်သည့်လုပ်ငန်းစဉ်ကို ဖော်ပြသနည်း။',
+        optionsEn: [
+          'Retrieves, interprets, and carries out program instructions',
+          'Connects to Wi-Fi',
+          'Displays colors on a screen',
+          'Charges its battery',
+        ],
+        optionsMy: [
+          'ပရိုဂရမ်ညွှန်ကြားချက်များကို ရယူ၊ အဓိပ္ပာယ်ဖော်ပြီး လုပ်ဆောင်ခြင်း',
+          'Wi-Fi ချိတ်ဆက်ခြင်း',
+          'မျက်နှာပြင်ပေါ်တွင် အရောင်များ ပြသခြင်း',
+          'ဘက်ထရီအားသွင်းခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-history-1',
+    subject: 'history',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Historical Enquiry: Sources and Interpretations',
+    titleMy:
+        'သမိုင်းစူးစမ်းလေ့လာမှု - သက်သေအထောက်အထားများနှင့် အနက်ဖွင့်ဆိုမှုများ',
+    descriptionEn:
+        'Practice IGCSE-level source evaluation, weighing causation, consequence, and differing historical interpretations.',
+    descriptionMy:
+        'IGCSE အဆင့် သက်သေအထောက်အထားအကဲဖြတ်ခြင်း၊ အကြောင်းရင်း၊ အကျိုးဆက်နှင့် ကွဲပြားသော သမိုင်းအနက်ဖွင့်ဆိုမှုများကို ချိန်ညှိတွက်ချက်ခြင်း လေ့ကျင့်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'When evaluating a historical source, which question is most important to ask about its reliability?',
+        questionMy:
+            'သမိုင်းသက်သေအထောက်အထားတစ်ခုကို အကဲဖြတ်သောအခါ ၎င်း၏ ယုံကြည်စိတ်ချရမှုနှင့်ပတ်သက်၍ မေးရန် အရေးအကြီးဆုံးမေးခွန်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Who created it, when, and for what purpose?',
+          'What color ink was used to write it?',
+          'How many pages does it have?',
+          'What font was it typed in?',
+        ],
+        optionsMy: [
+          'ဘယ်သူက၊ ဘယ်အချိန်၊ ဘာရည်ရွယ်ချက်ဖြင့် ဖန်တီးခဲ့သနည်း',
+          'ဘယ်အရောင်မှင်နှင့် ရေးထားသနည်း',
+          'စာမျက်နှာ မည်မျှရှိသနည်း',
+          'ဘယ် font ဖြင့် ရိုက်ထားသနည်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "primary source" and a "secondary source" differ mainly in that...',
+        questionMy:
+            '"မူလသက်သေအထောက်အထား" နှင့် "ဒုတိယသက်သေအထောက်အထား" တို့သည် အဓိကအားဖြင့် ဘာကွာခြားချက်ရှိသနည်း။',
+        optionsEn: [
+          'A primary source comes from the time being studied; a secondary source is written about it later',
+          'A primary source is always fictional',
+          'A secondary source is always more accurate',
+          'There is no real difference between them',
+        ],
+        optionsMy: [
+          'မူလသက်သေအထောက်အထားသည် လေ့လာနေသောခေတ်ကာလမှ ဖြစ်ပြီး ဒုတိယသက်သေအထောက်အထားသည် ၎င်းအကြောင်း နောက်မှရေးထားခြင်းဖြစ်သည်',
+          'မူလသက်သေအထောက်အထားသည် အမြဲတမ်း စိတ်ကူးယဉ်ဖြစ်သည်',
+          'ဒုတိယသက်သေအထောက်အထားသည် အမြဲတမ်း ပိုတိကျသည်',
+          'နှစ်ခုအကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Two historians can reach different conclusions about the same event mainly because...',
+        questionMy:
+            'သမိုင်းပညာရှင်နှစ်ဦးသည် တူညီသောအဖြစ်အပျက်တစ်ခုအကြောင်း ကွဲပြားသောနိဂုံးချက်များသို့ ရောက်ရှိနိုင်သည်မှာ အဓိကအားဖြင့် အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'They may use different sources, ask different questions, or hold different perspectives',
+          'One of them must always be lying',
+          'History has only one single correct answer',
+          'Historians never disagree with each other',
+        ],
+        optionsMy: [
+          'သူတို့သည် မတူညီသောသက်သေအထောက်အထားများ အသုံးပြုနိုင်ခြင်း၊ မတူညီသောမေးခွန်းများ မေးနိုင်ခြင်း (သို့) မတူညီသောရှုထောင့်များ ရှိနိုင်ခြင်း',
+          'တစ်ဦးဦးသည် လိမ်ညာနေခြင်းသာဖြစ်ရမည်',
+          'သမိုင်းတွင် မှန်ကန်သောအဖြေတစ်ခုတည်းသာ ရှိသည်',
+          'သမိုင်းပညာရှင်များ တစ်ဦးနှင့်တစ်ဦး ဘယ်တော့မှ သဘောကွဲလွဲမှု မရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Explaining "why" an event happened focuses on...',
+        questionMy:
+            'အဖြစ်အပျက်တစ်ခု "ဘာကြောင့်" ဖြစ်ပျက်ခဲ့သည်ကို ရှင်းပြခြင်းသည် အဘယ်အပေါ် အာရုံစိုက်သနည်း။',
+        optionsEn: [
+          'Causation',
+          'The color of historical photographs',
+          'The length of a document',
+          'The alphabet order of names',
+        ],
+        optionsMy: [
+          'အကြောင်းရင်းချက် (Causation)',
+          'သမိုင်းဓာတ်ပုံများ၏ အရောင်',
+          'စာရွက်စာတမ်း၏ အရှည်',
+          'အမည်များ၏ အက္ခရာစဉ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A textbook written 50 years after an event, based on many earlier sources, is best classified as a...',
+        questionMy:
+            'အဖြစ်အပျက်တစ်ခုပြီးနောက် နှစ်ပေါင်း ၅၀ ကြာမှ အစောပိုင်းသက်သေအထောက်အထားများစွာအပေါ် အခြေခံ၍ ရေးသားထားသော သင်ရိုးစာအုပ်ကို မည်သို့ခွဲခြားသတ်မှတ်သင့်သနည်း။',
+        optionsEn: [
+          'A secondary source',
+          'A primary source',
+          'Not a historical source at all',
+          'A type of artifact only',
+        ],
+        optionsMy: [
+          'ဒုတိယသက်သေအထောက်အထား',
+          'မူလသက်သေအထောက်အထား',
+          'သမိုင်းသက်သေအထောက်အထား လုံးဝမဟုတ်ပါ',
+          'ရှေးဟောင်းပစ္စည်းအမျိုးအစားတစ်ခုသာ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-geography-1',
+    subject: 'geography',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Climate Change and Sustainable Development',
+    titleMy: 'ရာသီဥတုပြောင်းလဲမှုနှင့် ရေရှည်တည်တံ့သော ဖွံ့ဖြိုးတိုးတက်မှု',
+    descriptionEn:
+        'Analyze the causes and effects of climate change and evaluate strategies for sustainable development.',
+    descriptionMy:
+        'ရာသီဥတုပြောင်းလဲမှု၏ အကြောင်းရင်းနှင့် အကျိုးသက်ရောက်မှုများကို ခွဲခြမ်းစိတ်ဖြာပြီး ရေရှည်တည်တံ့သော ဖွံ့ဖြိုးတိုးတက်ရေး နည်းဗျူဟာများကို အကဲဖြတ်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'The main scientific consensus is that recent global warming is primarily caused by...',
+        questionMy:
+            'မကြာသေးမီက ကမ္ဘာကြီးပူနွေးလာမှုသည် အဓိကအားဖြင့် ဘာကြောင့်ဖြစ်ကြောင်း သိပ္ပံပညာရှင်အများစု သဘောတူကြသနည်း။',
+        optionsEn: [
+          'Increased greenhouse gas emissions from human activity',
+          'A decrease in the number of volcanoes',
+          'Less sunlight reaching Earth',
+          'A reduction in ocean size',
+        ],
+        optionsMy: [
+          'လူသားများ၏ လှုပ်ရှားမှုမှ ဖန်လုံအိမ်ဓာတ်ငွေ့ ထုတ်လွှတ်မှု တိုးများလာခြင်း',
+          'မီးတောင်အရေအတွက် လျော့ကျလာခြင်း',
+          'ကမ္ဘာမြေသို့ ရောက်ရှိသောနေရောင်ခြည် လျော့ကျလာခြင်း',
+          'သမုဒ္ဒရာအရွယ်အစား လျော့ကျလာခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Rising global temperatures contribute to sea level rise mainly through...',
+        questionMy:
+            'ကမ္ဘာလုံးဆိုင်ရာ အပူချိန်မြင့်တက်မှုသည် ပင်လယ်ရေမျက်နှာပြင် မြင့်တက်မှုကို အဓိကအားဖြင့် မည်သို့ဖြစ်ပေါ်စေသနည်း။',
+        optionsEn: [
+          'Melting glaciers and ice sheets, plus thermal expansion of water',
+          'More people swimming in the ocean',
+          'Increased fishing activity',
+          'A decrease in rainfall everywhere',
+        ],
+        optionsMy: [
+          'ရေခဲမြစ်များနှင့် ရေခဲပြင်များ အရည်ပျော်ခြင်းနှင့် ရေ၏ အပူချိန်ကြောင့် ကျယ်ပြန့်လာခြင်း',
+          'ပင်လယ်ထဲတွင် ရေကူးသူများသည် ပိုများလာခြင်း',
+          'ငါးဖမ်းလုပ်ငန်း တိုးများလာခြင်း',
+          'နေရာတိုင်းတွင် မိုးရေချိန် လျော့ကျခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Sustainable development aims to balance economic growth, social wellbeing, and...',
+        questionMy:
+            'ရေရှည်တည်တံ့သော ဖွံ့ဖြိုးတိုးတက်မှုသည် စီးပွားရေးဖွံ့ဖြိုးတိုးတက်မှု၊ လူမှုရေးကောင်းစားမှုနှင့် ဘာအား ဟန်ချက်ညီစေရန် ရည်ရွယ်သနည်း။',
+        optionsEn: [
+          'Environmental protection',
+          'Maximum resource extraction only',
+          'Population reduction only',
+          'Currency exchange rates',
+        ],
+        optionsMy: [
+          'ပတ်ဝန်းကျင်ထိန်းသိမ်းရေး',
+          'သယံဇာတထုတ်ယူမှု အများဆုံးသာ',
+          'လူဦးရေလျှော့ချမှုသာ',
+          'ငွေကြေးလဲလှယ်နှုန်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is an example of a renewable energy strategy that supports sustainability?',
+        questionMy:
+            'ရေရှည်တည်တံ့ရေးကို ထောက်ကူပေးသော ပြန်လည်ပြည့်ဖြိုးနိုင်သောစွမ်းအင် နည်းဗျူဟာတစ်ခု ဥပမာမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'Investing in solar and wind power generation',
+          'Increasing coal mining without limits',
+          'Burning more fossil fuels',
+          'Clearing forests for short-term profit',
+        ],
+        optionsMy: [
+          'ဆိုလာနှင့် လေအားလျှပ်စစ်ထုတ်လုပ်မှုတွင် ရင်းနှီးမြှုပ်နှံခြင်း',
+          'ကျောက်မီးသွေးတူးဖော်မှု ကန့်သတ်ချက်မရှိ တိုးမြှင့်ခြင်း',
+          'ရုပ်ကြွင်းလောင်စာ ပိုမိုလောင်ကျွမ်းစေခြင်း',
+          'ရေတိုအမြတ်အစွန်းအတွက် သစ်တောများ ခုတ်ထွင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When interpreting a climate data graph showing temperature over 100 years, the most important skill is...',
+        questionMy:
+            'နှစ်ပေါင်း ၁၀၀ အတွင်းရှိ အပူချိန်ပြသော ရာသီဥတုဒေတာဂရပ်ကို အနက်ဖွင့်ဆိုသောအခါ အရေးအကြီးဆုံးကျွမ်းကျင်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Identifying the overall trend rather than reacting to single-year fluctuations',
+          'Only looking at the very first data point',
+          'Ignoring the axis labels',
+          'Assuming all graphs show the same information',
+        ],
+        optionsMy: [
+          'တစ်နှစ်တည်းလှုပ်ခါမှုအပေါ် တုံ့ပြန်မည့်အစား အလုံးစုံလားရာကို ဖော်ထုတ်ခြင်း',
+          'ပထမဆုံးဒေတာအမှတ်ကိုသာ ကြည့်ခြင်း',
+          'ဝင်ရိုးအမှတ်အသားများကို လျစ်လျူရှုခြင်း',
+          'ဂရပ်အားလုံး တူညီသောအချက်အလက်ကို ပြသသည်ဟု ယူဆခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];

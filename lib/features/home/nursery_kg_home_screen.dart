@@ -176,8 +176,10 @@ class NurseryKgHomeScreen extends ConsumerWidget {
     Grade? grade,
     SubjectVisual subject,
   ) {
-    final allModules =
-        ref.read(learningModulesProvider).valueOrNull ?? const [];
+    final allModules = grade != null
+        ? ref.read(learningModulesForGradeProvider(grade)).valueOrNull ??
+              const []
+        : ref.read(learningModulesProvider).valueOrNull ?? const [];
     final match = allModules
         .where((m) => m.grade == grade && m.subject == subject.subjectKey)
         .toList();

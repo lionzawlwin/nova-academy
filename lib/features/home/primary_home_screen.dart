@@ -83,7 +83,10 @@ class PrimaryHomeScreen extends ConsumerWidget {
     final l10n = AppLocalizations.of(context);
     final activeProfile = ref.watch(activeProfileProvider);
     final child = activeProfile is StudentProfile ? activeProfile.child : null;
-    final modulesAsync = ref.watch(learningModulesProvider);
+    final grade = child?.currentGrade;
+    final modulesAsync = grade != null
+        ? ref.watch(learningModulesForGradeProvider(grade))
+        : ref.watch(learningModulesProvider);
     final locale = Localizations.localeOf(context).languageCode;
 
     final nodes = _buildNodes(

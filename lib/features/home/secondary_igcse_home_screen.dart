@@ -33,6 +33,9 @@ const List<_SubjectDef> _secondarySubjects = [
   _SubjectDef(key: 'socialstudies', icon: Icons.public_rounded),
   _SubjectDef(key: 'coding', icon: Icons.code_rounded),
   _SubjectDef(key: 'engineering', icon: Icons.precision_manufacturing_rounded),
+  _SubjectDef(key: 'computing', icon: Icons.computer_rounded),
+  _SubjectDef(key: 'history', icon: Icons.history_edu_rounded),
+  _SubjectDef(key: 'geography', icon: Icons.public_rounded),
 ];
 
 String _labelFor(AppLocalizations l10n, String key) {
@@ -53,6 +56,12 @@ String _labelFor(AppLocalizations l10n, String key) {
       return l10n.subjectCoding;
     case 'engineering':
       return l10n.subjectEngineering;
+    case 'computing':
+      return l10n.subjectComputing;
+    case 'history':
+      return l10n.subjectHistory;
+    case 'geography':
+      return l10n.subjectGeography;
     default:
       return key;
   }
@@ -80,10 +89,13 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
     final activeProfile = ref.watch(activeProfileProvider);
     final child = activeProfile is StudentProfile ? activeProfile.child : null;
     final locale = Localizations.localeOf(context).languageCode;
-    final modulesAsync = ref.watch(learningModulesProvider);
+    final grade = child?.currentGrade;
+    final modulesAsync = grade != null
+        ? ref.watch(learningModulesForGradeProvider(grade))
+        : ref.watch(learningModulesProvider);
     final gradeModules =
         (modulesAsync.valueOrNull ?? const <LearningModuleModel>[])
-            .where((m) => child == null || m.grade == child.currentGrade)
+            .where((m) => grade == null || m.grade == grade)
             .toList();
 
     return Scaffold(

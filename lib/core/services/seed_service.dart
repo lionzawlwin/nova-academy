@@ -22,7 +22,7 @@ import '../constants/app_constants.dart';
 /// is simpler and more predictable than a runtime content hash (e.g. a
 /// Burmese typo fix doesn't silently trigger a resync of everyone's next
 /// login).
-const String seedContentVersion = 'v4';
+const String seedContentVersion = 'v5';
 
 /// Fixed (not auto-generated) document ids for every demo/mock document
 /// [seedDatabase] writes.
