@@ -4780,4 +4780,1926 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // ============================== IGCSE ==============================
+  SecondaryActivityDef(
+    id: 'mock-igcse-algebra-1',
+    subject: 'algebra',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Functions and Graphs',
+    titleMy: 'ဖန်ရှင်များနှင့် ဂရပ်များ',
+    descriptionEn:
+        'Work with function notation, composite and inverse functions, and key features of quadratic graphs.',
+    descriptionMy:
+        'ဖန်ရှင်သင်္ကေတ၊ ပေါင်းစပ်ဖန်ရှင်နှင့် ပြောင်းပြန်ဖန်ရှင်များအပြင် စတုရန်းဂရပ်များ၏ အဓိကအချက်များကို လေ့ကျင့်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn: 'If f(x) = 3x - 2, find f(4).',
+        questionMy: 'f(x) = 3x - 2 ဖြစ်လျှင် f(4) ၏ တန်ဖိုးကို ရှာပါ။',
+        optionsEn: ['10', '14', '8', '12'],
+        optionsMy: ['၁၀', '၁၄', '၈', '၁၂'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'If f(x) = 2x + 1 and g(x) = x², find fg(3).',
+        questionMy: 'f(x) = 2x + 1 နှင့် g(x) = x² ဖြစ်လျှင် fg(3) ကို ရှာပါ။',
+        optionsEn: ['19', '49', '7', '21'],
+        optionsMy: ['၁၉', '၄၉', '၇', '၂၁'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Find the inverse function of f(x) = (x - 5) / 2.',
+        questionMy: 'f(x) = (x - 5) / 2 ၏ ပြောင်းပြန်ဖန်ရှင် f⁻¹(x) ကို ရှာပါ။',
+        optionsEn: [
+          'f⁻¹(x) = 2x + 5',
+          'f⁻¹(x) = 2x - 5',
+          'f⁻¹(x) = (x + 5) / 2',
+          'f⁻¹(x) = 2x + 10',
+        ],
+        optionsMy: [
+          'f⁻¹(x) = 2x + ၅',
+          'f⁻¹(x) = 2x - ၅',
+          'f⁻¹(x) = (x + ၅) / ၂',
+          'f⁻¹(x) = 2x + ၁၀',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The graph of y = x² - 4x + 1 has a minimum turning point at:',
+        questionMy:
+            'y = x² - 4x + 1 ၏ ဂရပ်တွင် အနိမ့်ဆုံးအချက် (minimum turning point) သည် မည်သည့်နေရာတွင်ရှိသနည်း။',
+        optionsEn: ['(2, -3)', '(-2, -3)', '(2, 3)', '(4, 1)'],
+        optionsMy: ['(၂, -၃)', '(-၂, -၃)', '(၂, ၃)', '(၄, ၁)'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Find the gradient of the line joining the points (1, 2) and (4, 11).',
+        questionMy:
+            'အမှတ် (1, 2) နှင့် (4, 11) တို့ကို ဆက်သွယ်သည့် မျဉ်း၏ စောင်းကိန်း (gradient) ကို ရှာပါ။',
+        optionsEn: ['3', '9', '1/3', '-3'],
+        optionsMy: ['၃', '၉', '၁/၃', '-၃'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-algebra-2',
+    subject: 'algebra',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Algebraic Fractions',
+    titleMy: 'အက္ခရာသင်္ချာ အပိုင်းကိန်းများ',
+    descriptionEn:
+        'Simplify, combine, and solve equations involving algebraic fractions.',
+    descriptionMy:
+        'အက္ခရာသင်္ချာ အပိုင်းကိန်းများပါဝင်သော ဖော်ပြချက်များကို ရိုးရှင်းအောင်ပြုလုပ်ခြင်း၊ ပေါင်းစည်းခြင်းနှင့် ညီမျှခြင်းများကို ဖြေရှင်းပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Simplify: (x² - 9) / (x + 3)',
+        questionMy: 'ရိုးရှင်းအောင်ပြုလုပ်ပါ- (x² - 9) / (x + 3)',
+        optionsEn: ['x - 3', 'x + 3', 'x² - 3', 'x - 9'],
+        optionsMy: ['x - ၃', 'x + ၃', 'x² - ၃', 'x - ၉'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Write as a single fraction: 3/x + 2/(x + 1)',
+        questionMy: 'တစ်ခုတည်းသော အပိုင်းကိန်းအဖြစ် ရေးပါ- 3/x + 2/(x + 1)',
+        optionsEn: [
+          '(5x + 3) / (x² + x)',
+          '(5x + 3) / (2x + 1)',
+          '5 / (2x + 1)',
+          '(3x + 2) / (x² + x)',
+        ],
+        optionsMy: [
+          '(5x + ၃) / (x² + x)',
+          '(5x + ၃) / (2x + ၁)',
+          '5 / (2x + ၁)',
+          '(3x + ၂) / (x² + x)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Simplify: (x² + 5x + 6) / (x² - 4)',
+        questionMy: 'ရိုးရှင်းအောင်ပြုလုပ်ပါ- (x² + 5x + 6) / (x² - 4)',
+        optionsEn: [
+          '(x + 3) / (x - 2)',
+          '(x + 2) / (x - 2)',
+          '(x + 3) / (x + 2)',
+          '(x - 3) / (x - 2)',
+        ],
+        optionsMy: [
+          '(x + ၃) / (x - ၂)',
+          '(x + ၂) / (x - ၂)',
+          '(x + ၃) / (x + ၂)',
+          '(x - ၃) / (x - ၂)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Solve: 2/x = 3/(x + 1)',
+        questionMy: 'ဖြေရှင်းပါ- 2/x = 3/(x + 1)',
+        optionsEn: ['x = 2', 'x = -2', 'x = 1', 'x = 3'],
+        optionsMy: ['x = ၂', 'x = -၂', 'x = ၁', 'x = ၃'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Simplify: 4x / (2x²)',
+        questionMy: 'ရိုးရှင်းအောင်ပြုလုပ်ပါ- 4x / (2x²)',
+        optionsEn: ['2 / x', '2x', '2 / x²', '4 / x'],
+        optionsMy: ['၂ / x', '၂x', '၂ / x²', '၄ / x'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-algebra-3',
+    subject: 'algebra',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Further Quadratics',
+    titleMy: 'အဆင့်မြင့် စတုရန်းညီမျှခြင်းများ',
+    descriptionEn:
+        'Complete the square, apply the quadratic formula, and analyse roots and inequalities.',
+    descriptionMy:
+        'စတုရန်းကိန်းပြည့်ပုံစံသို့ ပြောင်းလဲခြင်း၊ စတုရန်းပုံသေနည်းကို အသုံးချခြင်းနှင့် အမြစ်များ၊ မညီမျှခြင်းများကို ဆန်းစစ်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Write x² + 6x + 2 in the form (x + a)² + b.',
+        questionMy: 'x² + 6x + 2 ကို (x + a)² + b ပုံစံဖြင့် ရေးပါ။',
+        optionsEn: [
+          '(x + 3)² - 7',
+          '(x + 3)² + 7',
+          '(x + 6)² - 7',
+          '(x + 3)² - 2',
+        ],
+        optionsMy: [
+          '(x + ၃)² - ၇',
+          '(x + ၃)² + ၇',
+          '(x + ၆)² - ၇',
+          '(x + ၃)² - ၂',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Use the quadratic formula to solve: 2x² - 3x - 5 = 0',
+        questionMy: 'စတုရန်းပုံသေနည်းသုံး၍ ဖြေရှင်းပါ- 2x² - 3x - 5 = 0',
+        optionsEn: [
+          'x = 2.5 or x = -1',
+          'x = -2.5 or x = 1',
+          'x = 5 or x = -1',
+          'x = 2.5 or x = 1',
+        ],
+        optionsMy: [
+          'x = ၂.၅ သို့မဟုတ် x = -၁',
+          'x = -၂.၅ သို့မဟုတ် x = ၁',
+          'x = ၅ သို့မဟုတ် x = -၁',
+          'x = ၂.၅ သို့မဟုတ် x = ၁',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What does the discriminant tell us about the roots of x² - 4x + 5 = 0?',
+        questionMy:
+            'x² - 4x + 5 = 0 ၏ ခွဲခြားကိန်း (discriminant) က အမြစ်များအကြောင်း မည်သို့ဖော်ပြသနည်း။',
+        optionsEn: [
+          'No real roots (discriminant is negative)',
+          'Two equal real roots',
+          'Two distinct real roots',
+          'Three real roots',
+        ],
+        optionsMy: [
+          'အမှန်အမြစ် လုံးဝမရှိပါ (ခွဲခြားကိန်း အနှုတ်ဖြစ်သည်)',
+          'ညီမျှသော အမြစ်နှစ်ခု',
+          'ကွဲပြားသော အမြစ်နှစ်ခု',
+          'အမြစ်သုံးခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The quadratic equation x² - 7x + 12 = 0 has roots α and β. Find α + β and αβ.',
+        questionMy:
+            'စတုရန်းညီမျှခြင်း x² - 7x + 12 = 0 ၏ အမြစ်များမှာ α နှင့် β ဖြစ်သည်။ α + β နှင့် αβ ကို ရှာပါ။',
+        optionsEn: [
+          'α + β = 7, αβ = 12',
+          'α + β = -7, αβ = 12',
+          'α + β = 7, αβ = -12',
+          'α + β = 12, αβ = 7',
+        ],
+        optionsMy: [
+          'α + β = ၇, αβ = ၁၂',
+          'α + β = -၇, αβ = ၁၂',
+          'α + β = ၇, αβ = -၁၂',
+          'α + β = ၁၂, αβ = ၇',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Solve the inequality: x² - 5x + 6 > 0',
+        questionMy: 'မညီမျှခြင်းကို ဖြေရှင်းပါ- x² - 5x + 6 > 0',
+        optionsEn: [
+          'x < 2 or x > 3',
+          '2 < x < 3',
+          'x < 2 or x > 6',
+          'x > 3 only',
+        ],
+        optionsMy: [
+          'x < ၂ သို့မဟုတ် x > ၃',
+          '၂ < x < ၃',
+          'x < ၂ သို့မဟုတ် x > ၆',
+          'x > ၃ သာ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-igcse-physics-1',
+    subject: 'physics',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Motion Graphs and Momentum',
+    titleMy: 'ရွေ့လျားမှုဂရပ်များနှင့် ရွေ့လျားအား (momentum)',
+    descriptionEn:
+        'Interpret speed-time and distance-time graphs, and apply conservation of momentum and impulse to solve problems.',
+    descriptionMy:
+        'အလျင်-အချိန် ဂရပ်နှင့် အကွာအဝေး-အချိန် ဂရပ်များကို အဓိပ္ပာယ်ဖွင့်ဆိုပြီး ရွေ့လျားအား ထိန်းသိမ်းမှုဥပဒေနှင့် အားထိန်းချက် (impulse) ကို အသုံးပြု၍ ပြဿနာများကို ဖြေရှင်းပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'On a speed-time graph, what physical quantity does the gradient (slope) of the line represent?',
+        questionMy:
+            'အလျင်-အချိန်ဂရပ်တစ်ခုတွင် မျဉ်း၏ စောင်း (gradient) သည် မည်သည့်ရူပဗေဒဆိုင်ရာ ပမာဏကို ကိုယ်စားပြုသနည်း။',
+        optionsEn: [
+          'Acceleration',
+          'Distance travelled',
+          'Average speed',
+          'Momentum',
+        ],
+        optionsMy: [
+          'အရှိန်တိုးမှု (acceleration)',
+          'ဖြတ်သန်းသွားသောအကွာအဝေး',
+          'ပျမ်းမျှအလျင်',
+          'ရွေ့လျားအား (momentum)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'On a speed-time graph, what does the area enclosed between the line and the time-axis represent?',
+        questionMy:
+            'အလျင်-အချိန်ဂရပ်တစ်ခုတွင် မျဉ်းနှင့် အချိန်ဝင်ရိုးကြားရှိ ဧရိယာသည် မည်သည့်အရာကို ကိုယ်စားပြုသနည်း။',
+        optionsEn: [
+          'Distance travelled',
+          'Acceleration',
+          'Average speed',
+          'Change in momentum',
+        ],
+        optionsMy: [
+          'ဖြတ်သန်းသွားသောအကွာအဝေး',
+          'အရှိန်တိုးမှု',
+          'ပျမ်းမျှအလျင်',
+          'ရွေ့လျားအားပြောင်းလဲမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A distance-time graph for a moving object curves so that it becomes progressively steeper over time. What does this indicate about the object\'s motion?',
+        questionMy:
+            'ရွေ့လျားနေသောအရာဝတ္ထုတစ်ခု၏ အကွာအဝေး-အချိန်ဂရပ်သည် အချိန်ကြာလာသည်နှင့်အမျှ ပိုမိုစောင်းလာသည်။ ၎င်းသည် အရာဝတ္ထု၏ ရွေ့လျားမှုအကြောင်း မည်သို့ဖော်ပြသနည်း။',
+        optionsEn: [
+          'The object is accelerating (speeding up)',
+          'The object is moving at constant speed',
+          'The object is decelerating',
+          'The object is stationary',
+        ],
+        optionsMy: [
+          'အရာဝတ္ထုသည် အရှိန်တိုးနေသည် (မြန်နှုန်းတိုးနေသည်)',
+          'အရာဝတ္ထုသည် အလျင်ညီညာစွာ ရွေ့လျားနေသည်',
+          'အရာဝတ္ထုသည် အရှိန်လျော့နေသည်',
+          'အရာဝတ္ထုသည် ငြိမ်နေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A 2 kg trolley moving at 3 m/s collides with and sticks to a stationary 1 kg trolley. Assuming momentum is conserved, what is their common velocity immediately after the collision?',
+        questionMy:
+            '၂ kg အလေးချိန်ရှိသော လှည်းငယ်တစ်စီးသည် 3 m/s နှုန်းဖြင့် ရွေ့လျားရာမှ ငြိမ်နေသော ၁ kg လှည်းငယ်တစ်စီးနှင့် တိုက်ဆိုင်ပြီး ကပ်ငြိသွားသည်။ ရွေ့လျားအားထိန်းသိမ်းမှုဥပဒေအရ တိုက်ဆိုင်ပြီးချက်ချင်း ၎င်းတို့၏ ဘုံအလျင်မှာ မည်မျှနည်း။',
+        optionsEn: ['2 m/s', '3 m/s', '1 m/s', '6 m/s'],
+        optionsMy: ['၂ m/s', '၃ m/s', '၁ m/s', '၆ m/s'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A resultant force of 5 N acts on a 2 kg object, initially at rest, for 4 seconds. Using impulse = change in momentum, what is the object\'s momentum at the end of the 4 seconds?',
+        questionMy:
+            '2 kg အလေးချိန်ရှိသော အရာဝတ္ထုတစ်ခုသည် ရပ်တန့်နေရာမှ ရလဒ်အင်အား 5 N ကို 4 စက္ကန့်ကြာ ခံယူရသည်။ အားထိန်းချက် (impulse) သည် ရွေ့လျားအားပြောင်းလဲမှုနှင့်ညီသည်ဆိုသော် 4 စက္ကန့်အကုန်တွင် အရာဝတ္ထု၏ ရွေ့လျားအားမှာ မည်မျှနည်း။',
+        optionsEn: ['20 kg·m/s', '10 kg·m/s', '2.5 kg·m/s', '40 kg·m/s'],
+        optionsMy: ['၂၀ kg·m/s', '၁၀ kg·m/s', '၂.၅ kg·m/s', '၄၀ kg·m/s'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-physics-2',
+    subject: 'physics',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Thermal Physics',
+    titleMy: 'အပူရူပဗေဒ',
+    descriptionEn:
+        'Apply specific heat capacity, latent heat, kinetic theory and the gas laws to thermal physics problems.',
+    descriptionMy:
+        'အပူဆိုင်ရာ ပြဿနာများကို ဖြေရှင်းရန် သီးခြားအပူပမာဏ (specific heat capacity)၊ ဝှက်ကွယ်အပူ (latent heat)၊ ဂက်စ်အနုမြူသီအိုရီနှင့် ဓာတ်ငွေ့ဥပဒေများကို အသုံးချပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'How much thermal energy is required to raise the temperature of 2 kg of water by 10°C? (Specific heat capacity of water = 4200 J/kg°C)',
+        questionMy:
+            'ရေ 2 kg ၏ အပူချိန်ကို 10°C မြှင့်တင်ရန် လိုအပ်သော အပူစွမ်းအားမှာ မည်မျှနည်း။ (ရေ၏ သီးခြားအပူပမာဏ = 4200 J/kg°C)',
+        optionsEn: ['84,000 J', '8,400 J', '42,000 J', '840,000 J'],
+        optionsMy: ['၈၄,၀၀၀ J', '၈,၄၀၀ J', '၄၂,၀၀၀ J', '၈၄၀,၀၀၀ J'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is meant by the specific latent heat of fusion of a substance?',
+        questionMy:
+            'ဒြပ်ပစ္စည်းတစ်ခု၏ အရည်ပျော်ခြင်းဆိုင်ရာ သီးခြားဝှက်ကွယ်အပူ (specific latent heat of fusion) ဆိုသည်မှာ အဘယ်အနက်ရှိသနည်း။',
+        optionsEn: [
+          'The energy required to change 1 kg of a substance from solid to liquid without any change in temperature',
+          'The energy required to raise the temperature of 1 kg of a substance by 1°C',
+          'The energy released when 1 kg of a substance freezes and its temperature drops by 1°C',
+          'The energy required to change 1 kg of a substance from liquid to gas at its boiling point',
+        ],
+        optionsMy: [
+          'အပူချိန် မပြောင်းလဲဘဲ ဒြပ်ပစ္စည်း ၁ kg ကို အစိုင်အခဲအခြေအနေမှ အရည်အခြေအနေသို့ ပြောင်းလဲရန် လိုအပ်သော စွမ်းအား',
+          'ဒြပ်ပစ္စည်း ၁ kg ၏ အပူချိန်ကို ၁°C မြှင့်တင်ရန် လိုအပ်သော စွမ်းအား',
+          'ဒြပ်ပစ္စည်း ၁ kg အခဲဖြစ်လာပြီး အပူချိန် ၁°C ကျဆင်းသွားစဉ် ထွက်လာသော စွမ်းအား',
+          'ဒြပ်ပစ္စည်း ၁ kg ကို အရည်ဆူနှုတ်ချိန်တွင် အရည်အခြေအနေမှ ဓာတ်ငွေ့အခြေအနေသို့ ပြောင်းလဲရန် လိုအပ်သော စွမ်းအား',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'According to the kinetic theory of matter, what happens to the average kinetic energy of gas particles as the absolute (kelvin) temperature increases?',
+        questionMy:
+            'ဒြပ်ပစ္စည်း၏ အနုမြူ ရွေ့လျားမှုသီအိုရီ (kinetic theory) အရ အကြွင်းမဲ့အပူချိန် (kelvin) မြင့်တက်လာသည်နှင့်အမျှ ဓာတ်ငွေ့အနုမြူများ၏ ပျမ်းမျှရွေ့လျားစွမ်းအား (kinetic energy) မှာ မည်သို့ဖြစ်လာသနည်း။',
+        optionsEn: [
+          'It increases proportionally with the absolute temperature',
+          'It decreases as the temperature increases',
+          'It stays exactly the same regardless of temperature',
+          'It drops to zero at any temperature above 0°C',
+        ],
+        optionsMy: [
+          'အကြွင်းမဲ့အပူချိန်နှင့် အချိုးကျ မြင့်တက်လာသည်',
+          'အပူချိန်မြင့်တက်လာသည်နှင့်အမျှ လျော့ကျသွားသည်',
+          'အပူချိန်မည်သို့ပင်ရှိစေ လုံးဝမပြောင်းလဲဘဲ ရှိနေသည်',
+          'အပူချိန် 0°C အထက်တွင် မည်သည့်အချိန်မဆို သုညအထိ ကျဆင်းသွားသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A fixed mass of gas at constant volume has an initial pressure of 2 atm at 300 K. If the temperature is increased to 600 K, what is the new pressure?',
+        questionMy:
+            'ပမာဏတည်ငြိမ်သော ဓာတ်ငွေ့အလေးချိန်တစ်ခုသည် 300 K တွင် အစပြု ဖိအား 2 atm ရှိသည်။ အပူချိန်ကို 600 K အထိ မြှင့်တင်လိုက်ပါက ဖိအားအသစ်မှာ မည်မျှနည်း။',
+        optionsEn: ['4 atm', '2 atm', '1 atm', '8 atm'],
+        optionsMy: ['၄ atm', '၂ atm', '၁ atm', '၈ atm'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which method of thermal energy transfer can occur through a vacuum, without needing any particles of matter?',
+        questionMy:
+            'အရာဝတ္ထု၏ အနုမြူများ မလိုဘဲ ဗဟိုဟင်းလင်း (vacuum) ကနေတဆင့် ဖြစ်ပေါ်နိုင်သော အပူစွမ်းအားလွှဲပြောင်းမှုနည်းလမ်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Radiation',
+          'Conduction',
+          'Convection',
+          'Both conduction and convection',
+        ],
+        optionsMy: [
+          'ဓာတ်ရောင်ခြည်ဖြင့်ပျံ့နှံ့မှု (radiation)',
+          'အပူစီးဆင်းမှု (conduction)',
+          'အပူလှိုင်းတက်မှု (convection)',
+          'conduction နှင့် convection နှစ်ခုလုံး',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-physics-3',
+    subject: 'physics',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Atomic Physics',
+    titleMy: 'အက်တမ်ရူပဗေဒ',
+    descriptionEn:
+        'Explore atomic structure, isotopes, radioactive decay and half-life calculations at IGCSE depth.',
+    descriptionMy:
+        'အက်တမ်ဖွဲ့စည်းပုံ၊ အိုက်ဆိုတုပ်များ၊ ရေဒီယိုသတ္တိကြွဆုတ်ယုတ်မှုနှင့် တစ်ဝက်သက်တမ်း တွက်ချက်နည်းများကို IGCSE အဆင့်ဖြင့် လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What defines isotopes of the same element?',
+        questionMy:
+            'ဒြပ်စင်တစ်ခုတည်း၏ အိုက်ဆိုတုပ်များ (isotopes) ကို မည်သို့သတ်မှတ်သနည်း။',
+        optionsEn: [
+          'Atoms with the same number of protons but a different number of neutrons',
+          'Atoms with the same number of neutrons but a different number of protons',
+          'Atoms with the same number of protons and neutrons but different numbers of electrons',
+          'Atoms of different elements that happen to share the same mass number',
+        ],
+        optionsMy: [
+          'ပရိုတွန်အရေအတွက်တူညီသော်လည်း နျူထရွန်အရေအတွက် ကွာခြားသော အက်တမ်များ',
+          'နျူထရွန်အရေအတွက်တူညီသော်လည်း ပရိုတွန်အရေအတွက် ကွာခြားသော အက်တမ်များ',
+          'ပရိုတွန်နှင့် နျူထရွန်အရေအတွက် တူညီသော်လည်း အီလက်ထရွန်အရေအတွက် ကွာခြားသော အက်တမ်များ',
+          'အလေးချိန်ဂဏန်း (mass number) တူညီနေသော ဒြပ်စင်မတူသည့် အက်တမ်များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which type of radioactive decay involves the emission of a helium nucleus (2 protons and 2 neutrons)?',
+        questionMy:
+            'ဟီလီယမ်နျူကလိယပ် (ပရိုတွန် ၂ လုံးနှင့် နျူထရွန် ၂ လုံး) ကို ထုတ်လွှတ်သော ရေဒီယိုသတ္တိကြွ ဆုတ်ယုတ်မှုအမျိုးအစားမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Alpha decay',
+          'Beta decay',
+          'Gamma decay',
+          'Neutron emission',
+        ],
+        optionsMy: [
+          'အယ်လ်ဖာဆုတ်ယုတ်မှု (alpha decay)',
+          'ဘီတာဆုတ်ယုတ်မှု (beta decay)',
+          'ဂါမာဆုတ်ယုတ်မှု (gamma decay)',
+          'နျူထရွန်ထုတ်လွှတ်မှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A radioactive isotope has a half-life of 5 days. Starting with a sample of activity 80 Bq, what will the activity be after 15 days?',
+        questionMy:
+            'ရေဒီယိုသတ္တိကြွ အိုက်ဆိုတုပ်တစ်ခု၏ တစ်ဝက်သက်တမ်းမှာ ၅ ရက်ဖြစ်သည်။ စတင်လှုပ်ရှားမှု (activity) 80 Bq ရှိသော နမူနာတစ်ခုသည် ၁၅ ရက်ကြာပြီးနောက် လှုပ်ရှားမှုမှာ မည်မျှကျန်ရှိမည်နည်း။',
+        optionsEn: ['10 Bq', '20 Bq', '40 Bq', '5 Bq'],
+        optionsMy: ['၁၀ Bq', '၂၀ Bq', '၄၀ Bq', '၅ Bq'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In beta-minus (β⁻) decay, a neutron changes into a proton and an electron is emitted. What happens to the atomic (proton) number of the nucleus?',
+        questionMy:
+            'ဘီတာမိုင်းနတ် (β⁻) ဆုတ်ယုတ်မှုတွင် နျူထရွန်တစ်လုံးသည် ပရိုတွန်အဖြစ်သို့ ပြောင်းလဲပြီး အီလက်ထရွန်တစ်လုံး ထုတ်လွှတ်လိုက်သည်။ နျူကလိယပ်၏ အက်တမ်ဂဏန်း (ပရိုတွန်ဂဏန်း) မှာ မည်သို့ဖြစ်လာသနည်း။',
+        optionsEn: [
+          'It increases by 1',
+          'It decreases by 1',
+          'It stays the same',
+          'It increases by 2',
+        ],
+        optionsMy: [
+          '၁ တိုးလာသည်',
+          '၁ လျော့နည်းသွားသည်',
+          'မပြောင်းလဲဘဲ ရှိနေသည်',
+          '၂ တိုးလာသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When a nucleus undergoes alpha decay, how do its mass number and atomic number change?',
+        questionMy:
+            'နျူကလိယပ်တစ်ခုသည် အယ်လ်ဖာဆုတ်ယုတ်မှုကို ခံယူသောအခါ ၎င်း၏ အလေးချိန်ဂဏန်း (mass number) နှင့် အက်တမ်ဂဏန်း (atomic number) တို့ မည်သို့ပြောင်းလဲသွားသနည်း။',
+        optionsEn: [
+          'Mass number decreases by 4 and atomic number decreases by 2',
+          'Mass number decreases by 2 and atomic number decreases by 4',
+          'Mass number stays the same and atomic number decreases by 2',
+          'Mass number decreases by 4 and atomic number increases by 2',
+        ],
+        optionsMy: [
+          'အလေးချိန်ဂဏန်း ၄ လျော့ပြီး အက်တမ်ဂဏန်း ၂ လျော့သည်',
+          'အလေးချိန်ဂဏန်း ၂ လျော့ပြီး အက်တမ်ဂဏန်း ၄ လျော့သည်',
+          'အလေးချိန်ဂဏန်း မပြောင်းလဲဘဲ အက်တမ်ဂဏန်းသာ ၂ လျော့သည်',
+          'အလေးချိန်ဂဏန်း ၄ လျော့ပြီး အက်တမ်ဂဏန်း ၂ တိုးသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-igcse-chemistry-1',
+    subject: 'chemistry',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Stoichiometry: Moles and Chemical Calculations',
+    titleMy: 'စတွိကီယိုမက်ထရီ - မိုလ်နှင့် ဓာတုတွက်ချက်မှုများ',
+    descriptionEn:
+        'Master mole calculations, molar mass, empirical formulas, and using '
+        'balanced equations to find reacting masses.',
+    descriptionMy:
+        'မိုလ်တွက်ချက်မှုများ၊ မိုလာမာစ်၊ အင်ပိုင်ရီကယ်ဖော်မြူလာနှင့် '
+        'မျှတသောညီမျှခြင်းများကို အသုံးပြု၍ တုံ့ပြန်ပစ္စည်းအလေးချိန်များ '
+        'ရှာဖွေတွက်ချက်နည်းများကို ကျွမ်းကျင်စွာ လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the formula used to calculate the number of moles of a '
+            'substance?',
+        questionMy:
+            'ပစ္စည်းတစ်ခု၏ မိုလ်အရေအတွက်ကို တွက်ချက်ရန် အသုံးပြုသော '
+            'ညီမျှခြင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'moles = mass ÷ molar mass',
+          'moles = mass × molar mass',
+          'moles = molar mass ÷ mass',
+          'moles = mass ÷ volume',
+        ],
+        optionsMy: [
+          'မိုလ် = အလေးချိန် ÷ မိုလာမာစ်',
+          'မိုလ် = အလေးချိန် × မိုလာမာစ်',
+          'မိုလ် = မိုလာမာစ် ÷ အလေးချိန်',
+          'မိုလ် = အလေးချိန် ÷ ပမာဏ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How many moles of magnesium oxide (MgO, Mr = 40) are there in '
+            '10 g of MgO?',
+        questionMy:
+            'မဂ္ဂနီစီယမ်အောက်ဆိုဒ် (MgO, Mr = 40) ၁၀ ဂရမ်တွင် မိုလ်မည်မျှ '
+            'ပါဝင်သနည်း။',
+        optionsEn: ['0.25 mol', '4 mol', '0.4 mol', '400 mol'],
+        optionsMy: ['0.25 မိုလ်', '4 မိုလ်', '0.4 မိုလ်', '400 မိုလ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            "Avogadro's constant is used to convert between moles and "
+            'number of particles. What is its approximate value?',
+        questionMy:
+            'အက်ဗိုဂက်ဒရိုကိန်းသေကို မိုလ်နှင့် အနုမြူအရေအတွက်အကြား '
+            'ပြောင်းလဲရန် အသုံးပြုသည်။ ၎င်း၏ခန့်မှန်းတန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: [
+          '6.02 × 10²³ per mole',
+          '3.14 × 10²³ per mole',
+          '1.00 × 10²³ per mole',
+          '6.02 × 10⁻²³ per mole',
+        ],
+        optionsMy: [
+          'တစ်မိုလ်လျှင် 6.02 × 10²³',
+          'တစ်မိုလ်လျှင် 3.14 × 10²³',
+          'တစ်မိုလ်လျှင် 1.00 × 10²³',
+          'တစ်မိုလ်လျှင် 6.02 × 10⁻²³',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A compound contains 40% carbon, 6.7% hydrogen, and 53.3% '
+            'oxygen by mass. What is its empirical formula? '
+            '(Ar: C = 12, H = 1, O = 16)',
+        questionMy:
+            'ဒြပ်ပေါင်းတစ်ခုတွင် ကာဗွန် ၄၀%၊ ဟိုက်ဒရိုဂျင် ၆.၇%၊ အောက်ဆီဂျင် '
+            '၅၃.၃% အလေးချိန်အလိုက် ပါဝင်သည်။ (Ar: C = 12, H = 1, O = 16) '
+            '၎င်း၏ အင်ပိုင်ရီကယ်ဖော်မြူလာမှာ အဘယ်နည်း။',
+        optionsEn: ['CH2O', 'C2H4O2', 'CH4O', 'C3H6O3'],
+        optionsMy: [
+          'CH2O ဖော်မြူလာ',
+          'C2H4O2 ဖော်မြူလာ',
+          'CH4O ဖော်မြူလာ',
+          'C3H6O3 ဖော်မြူလာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the reaction N2 + 3H2 → 2NH3, what mass of ammonia '
+            '(Mr = 17) is produced from 6 g of hydrogen gas (Mr = 2), '
+            'assuming complete reaction?',
+        questionMy:
+            'N2 + 3H2 → 2NH3 ဓာတုညီမျှခြင်းတွင် ဟိုက်ဒရိုဂျင်ဓာတ်ငွေ့ ၆ '
+            'ဂရမ် (Mr = 2) အပြည့်အဝတုံ့ပြန်ပါက အမိုးနီးယား (Mr = 17) '
+            'မည်မျှ ထုတ်လုပ်နိုင်သနည်း။',
+        optionsEn: ['34 g', '17 g', '51 g', '6 g'],
+        optionsMy: ['34 ဂရမ်', '17 ဂရမ်', '51 ဂရမ်', '6 ဂရမ်'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-chemistry-2',
+    subject: 'chemistry',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Organic Chemistry Basics: Hydrocarbons and Functional Groups',
+    titleMy:
+        'အော်ဂဲနစ်ဓာတုဗေဒ အခြေခံ - ဟိုက်ဒရိုကာဗွန်များနှင့် '
+        'လုပ်ဆောင်ချက်အုပ်စုများ',
+    descriptionEn:
+        'Learn about alkanes, alkenes, homologous series, and how '
+        'functional groups determine chemical properties.',
+    descriptionMy:
+        'အယ်ကိန်းများ၊ အယ်ကင်းများ၊ တူညီအမျိုးအစားစီးရီးနှင့် '
+        'လုပ်ဆောင်ချက်အုပ်စုများသည် ဓာတုဂုဏ်သတ္တိများကို မည်သို့ '
+        'ဆုံးဖြတ်သည်ကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is a homologous series?',
+        questionMy:
+            'တူညီအမျိုးအစားစီးရီး (Homologous series) ဆိုသည်မှာ '
+            'အဘယ်နည်း။',
+        optionsEn: [
+          'A family of compounds with the same general formula and '
+              'similar chemical properties, differing by CH2 between '
+              'successive members',
+          'A group of elements with the same number of protons',
+          'A set of isotopes of the same element',
+          'A collection of unrelated compounds with random formulas',
+        ],
+        optionsMy: [
+          'ယေဘုယျ ညီမျှခြင်းတူညီပြီး ဆင်တူသောဓာတုဂုဏ်သတ္တိများရှိကာ '
+              'အဆက်တစ်ခုနှင့်တစ်ခုအကြား CH2 ဖြင့် ကွာခြားသော '
+              'ဒြပ်ပေါင်းမိသားစု',
+          'ပရိုတွန်အရေအတွက်တူညီသော ဒြပ်စင်အုပ်စု',
+          'ဒြပ်စင်တစ်ခုတည်း၏ အိုင်ဆိုတုပ်များစုစည်းမှု',
+          'ကျပန်းညီမျှခြင်းရှိသော မသက်ဆိုင်သည့် ဒြပ်ပေါင်းများစုစည်းမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which functional group is present in all alkenes and makes '
+            'them react by addition reactions?',
+        questionMy:
+            'အယ်ကင်းအားလုံးတွင် ပါဝင်ပြီး ပေါင်းစပ်တုံ့ပြန်မှု (addition '
+            'reaction) ဖြင့် တုံ့ပြန်စေသော လုပ်ဆောင်ချက်အုပ်စုမှာ '
+            'အဘယ်နည်း။',
+        optionsEn: [
+          'A carbon-carbon double bond (C=C)',
+          'A single carbon-carbon bond (C-C)',
+          'A hydroxyl group (-OH)',
+          'A carboxylic acid group (-COOH)',
+        ],
+        optionsMy: [
+          'ကာဗွန်-ကာဗွန် နှစ်ထပ်ချည်နှောင်မှု (C=C)',
+          'ကာဗွန်-ကာဗွန် တစ်ထပ်ချည်နှောင်မှု (C-C)',
+          'ဟိုက်ဒရောက်ဆီးအုပ်စု (-OH)',
+          'ကာဗောက်ဆီလစ်အက်ဆစ်အုပ်စု (-COOH)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How can you use bromine water to distinguish between an '
+            'alkane and an alkene?',
+        questionMy:
+            'အယ်ကိန်းနှင့် အယ်ကင်းကို ဗရိုမင်းရေဖြင့် မည်သို့ '
+            'ခွဲခြားနိုင်သနည်း။',
+        optionsEn: [
+          'Bromine water is decolorized rapidly by an alkene but stays '
+              'orange with an alkane',
+          'Bromine water turns blue with an alkane but stays orange with '
+              'an alkene',
+          'Bromine water has no reaction with either alkanes or alkenes',
+          'Bromine water produces a white precipitate with both alkanes '
+              'and alkenes',
+        ],
+        optionsMy: [
+          'အယ်ကင်းသည် ဗရိုမင်းရေ၏ အရောင်ကို လျင်မြန်စွာ ပျောက်ကွယ်စေပြီး '
+              'အယ်ကိန်းနှင့်မူ လိမ္မော်ရောင်အတိုင်း ရှိနေသည်',
+          'အယ်ကိန်းသည် ဗရိုမင်းရေကို ပြာရောင်ပြောင်းစေပြီး အယ်ကင်းနှင့်မူ '
+              'လိမ္မော်ရောင်အတိုင်း ရှိနေသည်',
+          'ဗရိုမင်းရေသည် အယ်ကိန်းနှင့်အယ်ကင်း နှစ်မျိုးစလုံးနှင့် '
+              'မည်သည့်တုံ့ပြန်မှုမျှ မရှိချေ',
+          'ဗရိုမင်းရေသည် အယ်ကိန်းနှင့်အယ်ကင်း နှစ်မျိုးစလုံးနှင့် '
+              'အဖြူရောင်အနည်ကျ ဖြစ်ပေါ်စေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What type of reaction converts an alkene into an alcohol '
+            'using steam and a catalyst?',
+        questionMy:
+            'အယ်ကင်းတစ်ခုကို ရေငွေ့နှင့် ကက်တလစ်သုံး၍ '
+            'အယ်လ်ကိုဟောအဖြစ် ပြောင်းလဲစေသော တုံ့ပြန်မှုအမျိုးအစားမှာ '
+            'အဘယ်နည်း။',
+        optionsEn: [
+          'Catalytic hydration, where steam adds across the double bond '
+              'in the presence of a catalyst',
+          'Combustion, where the alkene burns completely in oxygen',
+          'Polymerization, where many alkene molecules join into a long '
+              'chain',
+          'Fermentation, where sugar is converted by yeast',
+        ],
+        optionsMy: [
+          'ကက်တလစ်တစ်မျိုးရှေ့မှောက်တွင် ရေငွေ့သည် '
+              'နှစ်ထပ်ချည်နှောင်မှုပေါ်တွင် ပေါင်းစပ်ဝင်ရောက်သော '
+              'ကက်တလစ်ရေဓာတ်ပေါင်းမှု (catalytic hydration)',
+          'အယ်ကင်းကို အောက်ဆီဂျင်ထဲတွင် အပြည့်အဝလောင်ကျွမ်းစေသော '
+              'လောင်ကျွမ်းမှု',
+          'အယ်ကင်းမော်လီကျူးများစွာ ရှည်လျားသောကွင်းဆက်ဖြစ်အောင် '
+              'ပေါင်းစည်းသော ပေါလီမာဖြစ်မှု',
+          'တည်ဆေးသုံး၍ သကြားကို ပြောင်းလဲစေသော ပေါင်ခေါက်ဖော်မှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which statement correctly describes addition polymerization '
+            'of ethene to form poly(ethene)?',
+        questionMy:
+            'အီသင်း (ethene) အနုမြူများပေါင်းစည်း၍ ပေါလီအီသင်း ဖြစ်စေသော '
+            'ပေါင်းစပ်ပေါလီမာဖြစ်မှု (addition polymerization) ကို '
+            'မှန်ကန်စွာ ဖော်ပြသည့် ဖော်ပြချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Many ethene monomers join together through their double '
+              'bonds, with no other product formed',
+          'Ethene molecules react with water to release oxygen gas',
+          'Ethene monomers join together releasing a small molecule such '
+              'as water at each link',
+          'Ethene decomposes into carbon and hydrogen gas',
+        ],
+        optionsMy: [
+          'အီသင်းမိုနိုမာများစွာသည် ၎င်းတို့၏ '
+              'နှစ်ထပ်ချည်နှောင်မှုများမှတစ်ဆင့် ပေါင်းစည်းကြပြီး '
+              'အခြားထုတ်ကုန် မည်သည့်ပစ္စည်းမျှ မဖြစ်ပေါ်ချေ',
+          'အီသင်းမော်လီကျူးများသည် ရေနှင့်တုံ့ပြန်ကာ '
+              'အောက်ဆီဂျင်ဓာတ်ငွေ့ ထွက်ရှိစေသည်',
+          'အီသင်းမိုနိုမာများသည် ချိတ်ဆက်တိုင်း ရေကဲ့သို့သော '
+              'အနုမြူငယ်တစ်ခုကို ထုတ်လွှတ်ပြီး ပေါင်းစည်းကြသည်',
+          'အီသင်းသည် ကာဗွန်နှင့် ဟိုက်ဒရိုဂျင်ဓာတ်ငွေ့အဖြစ်သို့ '
+              'ပြိုကွဲသွားသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-chemistry-3',
+    subject: 'chemistry',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Electrolysis: Principles and Applications',
+    titleMy: 'လျှပ်စစ်ဓာတ်ခွဲမှု - မူများနှင့် အသုံးချမှုများ',
+    descriptionEn:
+        'Understand how electrolysis breaks down ionic compounds and '
+        'predict the products formed at each electrode.',
+    descriptionMy:
+        'လျှပ်စစ်ဓာတ်ခွဲမှုသည် အိုင်းယွန်းဒြပ်ပေါင်းများကို မည်သို့ '
+        'ခွဲထုတ်သည်ကို နားလည်ပြီး လျှပ်ကူးတိုင်တစ်ခုစီတွင် '
+        'ဖြစ်ပေါ်လာမည့် ရလဒ်ပစ္စည်းများကို ခန့်မှန်းနိုင်စေရန် '
+        'လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What must be true of an ionic compound for it to undergo '
+            'electrolysis?',
+        questionMy:
+            'အိုင်းယွန်းဒြပ်ပေါင်းတစ်ခု လျှပ်စစ်ဓာတ်ခွဲမှုခံယူနိုင်ရန် '
+            'မည်သည့်အခြေအနေရှိရမည်နည်း။',
+        optionsEn: [
+          'It must be molten or dissolved in water so that its ions are '
+              'free to move',
+          'It must be a solid at room temperature',
+          'It must contain only covalent bonds',
+          'It must be insoluble in every solvent',
+        ],
+        optionsMy: [
+          'အိုင်းယွန်းများ လွတ်လပ်စွာ ရွေ့လျားနိုင်ရန် အရည်ပျော်ထားသော '
+              '(သို့) ရေတွင်ပျော်ဝင်ထားသော အခြေအနေရှိရမည်',
+          'အခန်းအပူချိန်တွင် အစိုင်အခဲအခြေအနေ ရှိရမည်',
+          'ကိုဗာလင့်ဆက်များသာ ပါဝင်ရမည်',
+          'ဖျော်ရည်တိုင်းတွင် မပျော်ဝင်ရ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'During the electrolysis of molten lead(II) bromide, at which '
+            'electrode is lead metal produced, and why?',
+        questionMy:
+            'အရည်ပျော် ခဲ(II)ဘရိုမိုက် (lead(II) bromide) ကို '
+            'လျှပ်စစ်ဓာတ်ခွဲစဉ် ခဲသတ္တု မည်သည့်လျှပ်ကူးတိုင်တွင် '
+            'ထွက်ရှိပြီး အဘယ့်ကြောင့်နည်း။',
+        optionsEn: [
+          'At the cathode (negative electrode), because positive lead '
+              'ions gain electrons there',
+          'At the anode (positive electrode), because positive lead ions '
+              'lose electrons there',
+          'At the cathode, because bromide ions lose electrons there',
+          'At the anode, because bromide ions gain electrons there',
+        ],
+        optionsMy: [
+          'ကက်သုတ် (အနှုတ်လျှပ်ကူးတိုင်) တွင် ထွက်ရှိသည်၊ '
+              'အဘယ်ကြောင့်ဆိုသော် အားသုံးခဲအိုင်းယွန်းများသည် '
+              'ထို့နေရာတွင် အီလက်ထရွန်များရရှိသောကြောင့်ဖြစ်သည်',
+          'အနုဒ် (အပေါင်းလျှပ်ကူးတိုင်) တွင် ထွက်ရှိသည်၊ '
+              'အဘယ်ကြောင့်ဆိုသော် အားသုံးခဲအိုင်းယွန်းများသည် '
+              'ထို့နေရာတွင် အီလက်ထရွန်များ ဆုံးရှုံးသောကြောင့်ဖြစ်သည်',
+          'ကက်သုတ်တွင် ထွက်ရှိသည်၊ အဘယ်ကြောင့်ဆိုသော် '
+              'ဘရိုမိုက်အိုင်းယွန်းများသည် အီလက်ထရွန်များ '
+              'ဆုံးရှုံးသောကြောင့်ဖြစ်သည်',
+          'အနုဒ်တွင် ထွက်ရှိသည်၊ အဘယ်ကြောင့်ဆိုသော် '
+              'ဘရိုမိုက်အိုင်းယွန်းများသည် အီလက်ထရွန်များ '
+              'ရရှိသောကြောင့်ဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the electrolysis of aqueous copper(II) sulfate using '
+            'inert (carbon) electrodes, what is produced at the anode?',
+        questionMy:
+            'ကိုပါ(II)ဆာလဖိတ် ရေဖျော်ရည်ကို မတုံ့ပြန်တတ်သော (inert) '
+            'ကာဗွန်လျှပ်ကူးတိုင်များဖြင့် လျှပ်စစ်ဓာတ်ခွဲစဉ် '
+            'အနုဒ်တွင် မည်သည့်ရလဒ်ပစ္စည်း ထွက်ရှိသနည်း။',
+        optionsEn: [
+          'Oxygen gas, because hydroxide ions are discharged in '
+              'preference to sulfate ions',
+          'Hydrogen gas, because hydrogen ions are discharged in '
+              'preference to copper ions',
+          'Copper metal, because copper ions are discharged in '
+              'preference to hydrogen ions',
+          'Sulfur dioxide gas, because sulfate ions decompose directly',
+        ],
+        optionsMy: [
+          'အောက်ဆီဂျင်ဓာတ်ငွေ့ ထွက်ရှိသည်၊ အဘယ်ကြောင့်ဆိုသော် '
+              'ဟိုက်ဒရောက်ဆိုက်အိုင်းယွန်းများသည် ဆာလဖိတ်အိုင်းယွန်းများထက် '
+              'ဦးစားပေး လွှတ်ထုတ်ခံရသောကြောင့်ဖြစ်သည်',
+          'ဟိုက်ဒရိုဂျင်ဓာတ်ငွေ့ ထွက်ရှိသည်၊ အဘယ်ကြောင့်ဆိုသော် '
+              'ဟိုက်ဒရိုဂျင်အိုင်းယွန်းများသည် ကိုပါအိုင်းယွန်းများထက် '
+              'ဦးစားပေး လွှတ်ထုတ်ခံရသောကြောင့်ဖြစ်သည်',
+          'ကိုပါသတ္တု ထွက်ရှိသည်၊ အဘယ်ကြောင့်ဆိုသော် '
+              'ကိုပါအိုင်းယွန်းများသည် ဟိုက်ဒရိုဂျင်အိုင်းယွန်းများထက် '
+              'ဦးစားပေး လွှတ်ထုတ်ခံရသောကြောင့်ဖြစ်သည်',
+          'ဆာလဖာဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့ ထွက်ရှိသည်၊ '
+              'အဘယ်ကြောင့်ဆိုသော် ဆာလဖိတ်အိုင်းယွန်းများ '
+              'တိုက်ရိုက်ပြိုကွဲသောကြောင့်ဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is electrolysis used to extract reactive metals such as '
+            'aluminium from their ores, rather than reduction with '
+            'carbon?',
+        questionMy:
+            'အလူမီနီယမ်ကဲ့သို့ ပြင်းထန်စွာအားသုံးသော သတ္တုများကို '
+            '၎င်းတို့၏ သတ္တုသတ္တိုက်များမှ ကာဗွန်ဖြင့် လျှော့ချမှု အစား '
+            'လျှပ်စစ်ဓာတ်ခွဲမှုဖြင့် ထုတ်ယူရသည်မှာ အဘယ့်ကြောင့်နည်း။',
+        optionsEn: [
+          'Aluminium is too reactive to be displaced by carbon, so '
+              'electrolysis is needed to separate it from its ore',
+          'Aluminium ore does not contain any metal ions',
+          'Carbon reduction always produces purer aluminium than '
+              'electrolysis',
+          'Electrolysis is used only because it is cheaper than any '
+              'other method',
+        ],
+        optionsMy: [
+          'အလူမီနီယမ်သည် ကာဗွန်ဖြင့် ဖယ်ရှားနိုင်ရန် အလွန်ပြင်းထန်စွာ '
+              'အားသုံးသောကြောင့် လျှပ်စစ်ဓာတ်ခွဲမှုဖြင့်သာ '
+              '၎င်း၏သတ္တိုက်မှ ခွဲထုတ်ရန် လိုအပ်သည်',
+          'အလူမီနီယမ်သတ္တိုက်တွင် သတ္တုအိုင်းယွန်းများ '
+              'လုံးဝမပါဝင်ချေ',
+          'ကာဗွန်ဖြင့် လျှော့ချမှုသည် လျှပ်စစ်ဓာတ်ခွဲမှုထက် '
+              'စင်ကြယ်သော အလူမီနီယမ်ကို အမြဲထုတ်ပေးသည်',
+          'လျှပ်စစ်ဓာတ်ခွဲမှုကို အခြားနည်းလမ်းများထက် '
+              'ဈေးသက်သာသောကြောင့်သာ အသုံးပြုခြင်းဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What happens at the electrodes during the electrolysis of '
+            'concentrated aqueous sodium chloride (brine), a process '
+            'used industrially to manufacture chlorine, hydrogen, and '
+            'sodium hydroxide?',
+        questionMy:
+            'ကလိုရင်း၊ ဟိုက်ဒရိုဂျင်နှင့် ဆိုဒီယမ်ဟိုက်ဒရောက်ဆိုဒ် '
+            'စက်မှုထုတ်လုပ်ရာတွင် အသုံးပြုသော အနှောင်း(ဆားရေအနှောင်း) '
+            'ဆိုဒီယမ်ကလိုရိုက် ဖျော်ရည်ကို လျှပ်စစ်ဓာတ်ခွဲစဉ် '
+            'လျှပ်ကူးတိုင်များတွင် မည်သို့ဖြစ်ပျက်သနည်း။',
+        optionsEn: [
+          'Chlorine gas forms at the anode and hydrogen gas forms at the '
+              'cathode, leaving sodium hydroxide solution behind',
+          'Sodium metal forms at the cathode and oxygen gas forms at the '
+              'anode',
+          'Chlorine gas forms at the cathode and hydrogen gas forms at '
+              'the anode',
+          'Sodium chloride crystals reform at both electrodes',
+        ],
+        optionsMy: [
+          'အနုဒ်တွင် ကလိုရင်းဓာတ်ငွေ့ ဖြစ်ပေါ်ပြီး ကက်သုတ်တွင် '
+              'ဟိုက်ဒရိုဂျင်ဓာတ်ငွေ့ ဖြစ်ပေါ်ကာ ဆိုဒီယမ်ဟိုက်ဒရောက်ဆိုဒ် '
+              'ဖျော်ရည် ကျန်ရှိသည်',
+          'ကက်သုတ်တွင် ဆိုဒီယမ်သတ္တု ဖြစ်ပေါ်ပြီး အနုဒ်တွင် '
+              'အောက်ဆီဂျင်ဓာတ်ငွေ့ ဖြစ်ပေါ်သည်',
+          'ကက်သုတ်တွင် ကလိုရင်းဓာတ်ငွေ့ ဖြစ်ပေါ်ပြီး အနုဒ်တွင် '
+              'ဟိုက်ဒရိုဂျင်ဓာတ်ငွေ့ ဖြစ်ပေါ်သည်',
+          'ဆိုဒီယမ်ကလိုရိုက် ပုံဆောင်ခဲများ '
+              'လျှပ်ကူးတိုင်နှစ်ခုစလုံးတွင် ပြန်လည်ဖြစ်ပေါ်လာသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-igcse-biology-1',
+    subject: 'biology',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Cell Biology and Membrane Transport',
+    titleMy: 'ဆဲလ်ဇီဝဗေဒနှင့် အမြှေးပါး ပို့ဆောင်မှု',
+    descriptionEn:
+        'Examine cell ultrastructure and the mechanisms of diffusion, osmosis, and active transport across membranes.',
+    descriptionMy:
+        'ဆဲလ်၏ အသေးစိတ်ဖွဲ့စည်းပုံနှင့် အမြှေးပါးများကို ဖြတ်၍ ဒစ်ဖျူးရှင်း၊ ဩစမိုးစစ်နှင့် အက်တစ်ဗ် ပို့ဆောင်မှုတို့၏ လုပ်ဆောင်ပုံများကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which structure controls the movement of substances into and out of a cell?',
+        questionMy:
+            'ဆဲလ်တစ်ခုအတွင်းသို့ဝင်ရောက်ခြင်းနှင့် အထွက်ခြင်းကို ထိန်းချုပ်ပေးသော ဖွဲ့စည်းပုံမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The partially permeable cell surface membrane',
+          'The cell wall',
+          'The nucleolus',
+          'The Golgi apparatus',
+        ],
+        optionsMy: [
+          'တစ်ပိုင်းတစ်စ ထိုးဖောက်ဝင်ရောက်နိုင်သော ဆဲလ်မျက်နှာပြင်အမြှေးပါး',
+          'ဆဲလ်နံရံ',
+          'နျူကလီယိုလပ်စ်',
+          'ဂေါ့ဂျီ ကိရိယာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A cell placed in a hypertonic solution will lose water by osmosis. What is the best definition of osmosis?',
+        questionMy:
+            'ဟိုက်ပါတွန်းနစ် ဖျော်ရည်တွင်ထားရှိသော ဆဲလ်တစ်ခုသည် ဩစမိုးစစ်ဖြင့် ရေဆုံးရှုံးမည်ဖြစ်သည်။ ဩစမိုးစစ်၏ အနက်ဖွင့်ဆိုချက် အကောင်းဆုံးမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The net movement of water molecules from a region of higher water potential to a region of lower water potential through a partially permeable membrane',
+          'The movement of solute particles from a high to a low concentration',
+          'The movement of any particle against a concentration gradient using ATP',
+          'The bulk movement of large molecules by vesicles',
+        ],
+        optionsMy: [
+          'ရေခွက်အလားအလာ မြင့်သည့်ဒေသမှ နိမ့်သည့်ဒေသသို့ တစ်ပိုင်းတစ်စ ထိုးဖောက်ဝင်ရောက်နိုင်သော အမြှေးပါးကိုဖြတ်၍ ရေမော်လီကျူးများ၏ အသားတင်ရွေ့လျားမှု',
+          'ဖျော်ရည်ပါဝင်ပစ္စည်းအမှုန်များ ပြင်းအားများသည့်နေရာမှ နည်းသည့်နေရာသို့ ရွေ့လျားမှု',
+          'ATP အသုံးပြု၍ အမှုန်တစ်ခုခုကို ပြောင်းလဲမှုလမ်းကြောင်းနှင့် ဆန့်ကျင်၍ ရွေ့လျားမှု',
+          'ဗက်စီကယ်များဖြင့် ကြီးမားသောမော်လီကျူးများ အစုလိုက်ရွေ့လျားမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Root hair cells absorb mineral ions from the soil even when the ion concentration in the soil is lower than inside the cell. Which process explains this?',
+        questionMy:
+            'အမြစ်မွှေးဆဲလ်များသည် မြေဆီလွှာအတွင်းရှိ သတ္တုဓာတ်အိုင်းယွန်းများ၏ ပြင်းအားသည် ဆဲလ်အတွင်းထက် နည်းနေသော်လည်း ၎င်းတို့ကို စုပ်ယူနိုင်သည်။ ဤအခြင်းအရာကို မည်သည့်လုပ်ငန်းစဉ်ဖြင့် ရှင်းပြနိုင်သနည်း။',
+        optionsEn: [
+          'Active transport, which uses ATP to move ions against their concentration gradient',
+          'Diffusion, because ions always move down a concentration gradient',
+          'Osmosis, because water carries the ions passively',
+          'Filtration through the cell wall pores',
+        ],
+        optionsMy: [
+          'အက်တစ်ဗ် ပို့ဆောင်မှု၊ ATP ကိုအသုံးပြု၍ အိုင်းယွန်းများကို ၎င်းတို့၏ ပြောင်းလဲမှုလမ်းကြောင်းနှင့် ဆန့်ကျင်ရွေ့လျားစေခြင်း',
+          'ဒစ်ဖျူးရှင်း၊ အိုင်းယွန်းများသည် အမြဲတမ်း ပြင်းအားများရာမှ နည်းရာသို့ ရွေ့လျားသောကြောင့်',
+          'ဩစမိုးစစ်၊ ရေက အိုင်းယွန်းများကို သက်ဝင်စွာသယ်ဆောင်ပေးသောကြောင့်',
+          'ဆဲလ်နံရံအပေါက်ငယ်များမှတစ်ဆင့် စစ်ထုတ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which pair correctly identifies a structure found in plant cells but not in animal cells, and its main function?',
+        questionMy:
+            'တိရစ္ဆာန်ဆဲလ်တွင်မတွေ့ရဘဲ အပင်ဆဲလ်တွင်သာတွေ့ရသော ဖွဲ့စည်းပုံနှင့် ၎င်း၏ အဓိကလုပ်ဆောင်ချက်ကို မှန်ကန်စွာဖော်ပြသည့် အတွဲမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Chloroplast — absorbs light energy for photosynthesis',
+          'Mitochondrion — releases energy through aerobic respiration',
+          'Ribosome — synthesises proteins',
+          'Nucleus — controls the activities of the cell',
+        ],
+        optionsMy: [
+          'ကလိုရိုပလပ်စ် — ဓာတ်တိုးဖြစ်စဉ်အတွက် အလင်းစွမ်းအင်ကို စုပ်ယူသည်',
+          'မိုက်တိုကွန်ဒရီးယား — အောက်ဆီဂျင်ရှိသက်ရှူခြင်းမှ စွမ်းအင်ထုတ်ပေးသည်',
+          'ရိုက်ဘိုဆုမ်း — ပရိုတိန်းများကို ပေါင်းစပ်ဖန်တီးသည်',
+          'နျူကလိယပ်စ် — ဆဲလ်၏ လုပ်ငန်းဆောင်တာများကို ထိန်းချုပ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A student increases the temperature of a diffusion experiment. Which explanation correctly accounts for the resulting increase in diffusion rate?',
+        questionMy:
+            'ကျောင်းသားတစ်ဦးသည် ဒစ်ဖျူးရှင်းစမ်းသပ်မှုတစ်ခု၏ အပူချိန်ကို မြှင့်တင်လိုက်သည်။ ဒစ်ဖျူးရှင်းနှုန်း တိုးလာခြင်း၏ အကြောင်းရင်းကို မှန်ကန်စွာရှင်းပြသည့်အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Particles gain more kinetic energy and move faster, increasing collisions and net movement',
+          'The concentration gradient becomes steeper automatically',
+          'The membrane becomes more permeable regardless of particle size',
+          'ATP production increases, powering the particles across the membrane',
+        ],
+        optionsMy: [
+          'အမှုန်များသည် ကိုင်နက်တစ်စွမ်းအင်ပိုမိုရရှိပြီး ပိုမိုမြန်ဆန်စွာရွေ့လျားသဖြင့် တိုက်မိမှုနှင့် အသားတင်ရွေ့လျားမှု တိုးလာသည်',
+          'ပြင်းအားပြောင်းလဲမှုလမ်းကြောင်းသည် အလိုအလျောက် ပိုမိုနက်ရှိုင်းလာသည်',
+          'အမှုန်အရွယ်အစားနှင့်မသက်ဆိုင်ဘဲ အမြှေးပါးသည် ပိုမိုထိုးဖောက်ဝင်ရောက်နိုင်လာသည်',
+          'ATP ထုတ်လုပ်မှု တိုးလာပြီး အမှုန်များကို အမြှေးပါးဖြတ်ကျော်စေရန် စွမ်းအင်ပေးသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-biology-2',
+    subject: 'biology',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Coordination and Response',
+    titleMy: 'ညှိနှိုင်းမှုနှင့် တုံ့ပြန်မှု',
+    descriptionEn:
+        'Investigate how the nervous system and hormonal system coordinate rapid and long-term responses in the body.',
+    descriptionMy:
+        'အာရုံကြောစနစ်နှင့် ဟော်မုန်းစနစ်တို့သည် ခန္ဓာကိုယ်အတွင်း လျင်မြန်သောနှင့် ရေရှည်တုံ့ပြန်မှုများကို မည်သို့ညှိနှိုင်းသည်ကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the correct sequence of a simple reflex arc, from stimulus to response?',
+        questionMy:
+            'ရိုးရှင်းသော ရီဖလက်ခ်ဆ် အာခ် (reflex arc) ၏ လှုံ့ဆော်မှုမှ တုံ့ပြန်မှုအထိ မှန်ကန်သောအစီအစဉ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Receptor → sensory neurone → relay neurone → motor neurone → effector',
+          'Effector → motor neurone → relay neurone → sensory neurone → receptor',
+          'Receptor → motor neurone → sensory neurone → effector',
+          'Sensory neurone → receptor → effector → motor neurone',
+        ],
+        optionsMy: [
+          'အာရုံခံကိရိယာ → အာရုံပို့ ကြောဆဲလ် → ဆက်သွယ်ပေးကြောဆဲလ် → လှုပ်ရှားစေကြောဆဲလ် → တုံ့ပြန်အင်္ဂါ',
+          'တုံ့ပြန်အင်္ဂါ → လှုပ်ရှားစေကြောဆဲလ် → ဆက်သွယ်ပေးကြောဆဲလ် → အာရုံပို့ကြောဆဲလ် → အာရုံခံကိရိယာ',
+          'အာရုံခံကိရိယာ → လှုပ်ရှားစေကြောဆဲလ် → အာရုံပို့ကြောဆဲလ် → တုံ့ပြန်အင်္ဂါ',
+          'အာရုံပို့ကြောဆဲလ် → အာရုံခံကိရိယာ → တုံ့ပြန်အင်္ဂါ → လှုပ်ရှားစေကြောဆဲလ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why are reflex actions important for survival?',
+        questionMy:
+            'ရီဖလက်ခ်ဆ် လှုပ်ရှားမှုများသည် အသက်ရှင်ကျန်ရစ်ခြင်းအတွက် အရေးကြီးရသည့်အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'They are automatic and very fast, protecting the body from harm before conscious thought occurs',
+          'They require conscious decision-making, allowing careful responses',
+          'They only occur in plants, not animals',
+          'They are controlled entirely by hormones rather than neurones',
+        ],
+        optionsMy: [
+          '၎င်းတို့သည် အလိုအလျောက်ဖြစ်ပြီး အလွန်မြန်ဆန်သဖြင့် သတိထားဆင်ခြင်မှုမတိုင်မီ ခန္ဓာကိုယ်ကို အန္တရာယ်မှကာကွယ်ပေးသည်',
+          '၎င်းတို့သည် သတိထားဆင်ခြင်ဆုံးဖြတ်မှုကို လိုအပ်ပြီး သေချာသောတုံ့ပြန်မှုများကို ခွင့်ပြုသည်',
+          '၎င်းတို့သည် တိရစ္ဆာန်များတွင်မဟုတ်ဘဲ အပင်များတွင်သာ ဖြစ်ပေါ်သည်',
+          '၎င်းတို့ကို ကြောဆဲလ်များမဟုတ်ဘဲ ဟော်မုန်းများကသာ လုံးဝထိန်းချုပ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How does the hormonal (endocrine) system typically differ from the nervous system in the way it coordinates responses?',
+        questionMy:
+            'ဟော်မုန်းစနစ် (အန်ဒိုကရင်း) သည် တုံ့ပြန်မှုများကို ညှိနှိုင်းသည့်နည်းလမ်းအရ အာရုံကြောစနစ်နှင့် မည်သို့ကွဲပြားသနည်း။',
+        optionsEn: [
+          'It sends chemical messages via the bloodstream, acting more slowly but for a longer duration',
+          'It sends electrical impulses along neurones, acting more slowly but for a shorter duration',
+          'It only affects a single, precisely targeted cell at a time',
+          'It cannot coordinate any long-term changes in the body',
+        ],
+        optionsMy: [
+          'သွေးလွှတ်ကြောများမှတစ်ဆင့် ဓာတုတုတ်ချက်များ ပေးပို့ပြီး ပိုမိုနှေးကွေး၍ ကာလပိုရှည်စွာ လုပ်ဆောင်သည်',
+          'ကြောဆဲလ်များတစ်လျှောက် လျှပ်စစ်လှုံ့ဆော်မှုများ ပေးပို့ပြီး ပိုမိုနှေးကွေး၍ ကာလတိုတိုသာ လုပ်ဆောင်သည်',
+          'တိကျစွာ ရည်ရွယ်ထားသော ဆဲလ်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် သက်ရောက်စေသည်',
+          'ခန္ဓာကိုယ်အတွင်း ရေရှည်ပြောင်းလဲမှုများကို လုံးဝညှိနှိုင်းနိုင်ခြင်းမရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The pupil of the eye becomes smaller in bright light. Which mechanism describes how this response is achieved?',
+        questionMy:
+            'မျက်လုံး၏ မျက်ကလေးသည် အလင်းတောက်ပသောအခါ ပိုသေးငယ်လာသည်။ ဤတုံ့ပြန်မှုကို မည်သည့်လုပ်ငန်းစဉ်ဖြင့် ရှင်းပြနိုင်သနည်း။',
+        optionsEn: [
+          'Circular muscles in the iris contract while radial muscles relax, narrowing the pupil',
+          'The lens changes shape to block excess light from entering',
+          'The retina physically shrinks to reduce the light-sensitive area',
+          'The optic nerve stops transmitting signals temporarily',
+        ],
+        optionsMy: [
+          'အိုင်းရစ်ရှိ စက်ဝိုင်းကြွက်သားများ တွန့်ကျုံပြီး ရေဒီယယ်ကြွက်သားများ ပြေလျော့သွားသဖြင့် မျက်ကလေးကျဉ်းသွားသည်',
+          'လင်းစ်၏ပုံသဏ္ဍာန် ပြောင်းလဲသွားပြီး အလင်းအလွန်အကျွံဝင်ရောက်ခြင်းကို ပိတ်ဆို့သည်',
+          'ရက်တီနာသည် ရုပ်ပိုင်းဆိုင်ရာ ကျုံ့သွားပြီး အလင်းခံနိုင်သောနေရာကို လျှော့ချသည်',
+          'အော်ပတစ်ခ်ကြောသည် ခေတ္တစိတ်ရိုက်ချက် ပေးပို့မှုရပ်တန့်သွားသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which statement correctly explains negative feedback in maintaining a stable internal environment?',
+        questionMy:
+            'တည်ငြိမ်သော အတွင်းပိုင်းပတ်ဝန်းကျင်ကို ထိန်းသိမ်းရာတွင် အနုတ်လက္ခဏာ တုံ့ပြန်မှု (negative feedback) ကို မှန်ကန်စွာရှင်းပြသည့် ဖော်ပြချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A change away from the normal level triggers a response that reverses the change back towards normal',
+          'A change away from the normal level triggers a response that pushes the level even further away',
+          'It only operates during exercise and not at rest',
+          'It requires conscious control by the brain at all times',
+        ],
+        optionsMy: [
+          'ပုံမှန်အဆင့်မှ ပြောင်းလဲမှုတစ်ခုသည် ထိုပြောင်းလဲမှုကို ပုံမှန်အဆင့်သို့ ပြန်ပြောင်းပေးသည့် တုံ့ပြန်မှုတစ်ခုကို လှုံ့ဆော်ပေးသည်',
+          'ပုံမှန်အဆင့်မှ ပြောင်းလဲမှုတစ်ခုသည် ထိုအဆင့်ကို ပို၍ဝေးအောင် တွန်းပို့ပေးသည့် တုံ့ပြန်မှုကို လှုံ့ဆော်ပေးသည်',
+          '၎င်းသည် လေ့ကျင့်ခန်းလုပ်နေစဉ်တွင်သာ လုပ်ဆောင်ပြီး နားနေချိန်တွင် မလုပ်ဆောင်ပါ',
+          '၎င်းအတွက် ဦးနှောက်၏ သတိထားထိန်းချုပ်မှု အမြဲတမ်းလိုအပ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-biology-3',
+    subject: 'biology',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Human Reproduction and Genetics',
+    titleMy: 'လူသား မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ',
+    descriptionEn:
+        'Study the human reproductive system, the menstrual cycle, and how genetic crosses predict inheritance patterns.',
+    descriptionMy:
+        'လူသား မျိုးပွားစနစ်၊ ရာသီစက်ဝန်းနှင့် မျိုးရိုးဗီဇ ကူးစက်မှုပုံစံများကို မျိုးရိုးဗီဇ ဖြတ်ခြင်းများဖြင့် မည်သို့ခန့်မှန်းသည်ကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Where does fertilisation normally occur in the human female reproductive system?',
+        questionMy:
+            'လူသားမိန်းမ မျိုးပွားစနစ်တွင် သန္ဓေအောင်ခြင်းသည် ပုံမှန်အားဖြင့် မည်သည့်နေရာတွင် ဖြစ်ပျက်သနည်း။',
+        optionsEn: [
+          'In the oviduct (fallopian tube)',
+          'In the uterus',
+          'In the ovary',
+          'In the vagina',
+        ],
+        optionsMy: [
+          'သားနှင့်ဥအိမ်ချိတ်ကြော (fallopian tube)',
+          'သားအိမ်',
+          'ဥအိမ်',
+          'အင်ဒေါ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the main function of the placenta during pregnancy?',
+        questionMy:
+            'ကိုယ်ဝန်ဆောင်စဉ် အချင်းအရေး (placenta) ၏ အဓိကလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It allows exchange of nutrients, oxygen, and waste between mother and foetus while keeping their blood separate',
+          'It produces the eggs that will be fertilised',
+          'It directly mixes the blood of mother and foetus for faster nutrient transfer',
+          'It stores the foetus until birth without any exchange of substances',
+        ],
+        optionsMy: [
+          'မိခင်နှင့် သန္ဓေသားတို့၏ သွေးများကို သီးခြားစီထားရှိစေရင်း အာဟာရ၊ အောက်ဆီဂျင်နှင့် စွန့်ပစ်ပစ္စည်းများ ဖလှယ်ပေးသည်',
+          'သန္ဓေအောင်ခံရမည့် ဥများကို ထုတ်လုပ်ပေးသည်',
+          'အာဟာရ ပိုမိုမြန်ဆန်စွာ ပို့ဆောင်နိုင်ရန် မိခင်နှင့်သန္ဓေသား၏ သွေးများကို တိုက်ရိုက်ရောစပ်ပေးသည်',
+          'မည်သည့်ပစ္စည်းဖလှယ်မှုမျှမရှိဘဲ မွေးဖွားချိန်အထိ သန္ဓေသားကို သိမ်းဆည်းထားပေးသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In humans, cystic fibrosis is caused by a recessive allele (f). If both parents are heterozygous carriers (Ff x Ff), what is the probability that a child will have cystic fibrosis?',
+        questionMy:
+            'လူသားများတွင် ဆစ်စတစ်ဖိုက်ဘရိုးဆစ်ရောဂါသည် ဝှက်လျှိုးအယ်လီး (f) ကြောင့်ဖြစ်သည်။ မိဘနှစ်ဦးစလုံးသည် ဟီတရိုဇိုင်းဂတ် ဆောင်ရွက်သူများ (Ff x Ff) ဖြစ်ပါက သားသမီးတစ်ဦး ဆစ်စတစ်ဖိုက်ဘရိုးဆစ်ရောဂါ ခံစားရမည့် ဖြစ်နိုင်ခြေမှာ အဘယ်နည်း။',
+        optionsEn: ['1 in 4', '1 in 2', '3 in 4', '1 in 1'],
+        optionsMy: [
+          '၄ ဦးတွင် ၁ ဦး',
+          '၂ ဦးတွင် ၁ ဦး',
+          '၄ ဦးတွင် ၃ ဦး',
+          '၁ ဦးတွင် ၁ ဦး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the key genetic difference between identical (monozygotic) twins and non-identical (dizygotic) twins?',
+        questionMy:
+            'အနှစ်တူအမြွှာ (monozygotic) နှင့် အနှစ်မတူအမြွှာ (dizygotic) တို့၏ အဓိက မျိုးရိုးဗီဇကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Identical twins develop from one fertilised egg that splits and share identical genes, while non-identical twins develop from two separately fertilised eggs',
+          'Identical twins always develop from two separate eggs, while non-identical twins develop from one egg',
+          'Non-identical twins always share exactly the same genes, unlike identical twins',
+          'There is no genetic difference between the two types of twins',
+        ],
+        optionsMy: [
+          'အနှစ်တူအမြွှာများသည် သန္ဓေအောင်ပြီးသောဥတစ်လုံးကွဲထွက်ခြင်းမှ ဖွံ့ဖြိုးလာပြီး တူညီသောဗီဇများ ရရှိကြသည်၊ အနှစ်မတူအမြွှာများမူ သီးခြားသန္ဓေအောင်သောဥနှစ်လုံးမှ ဖွံ့ဖြိုးလာသည်',
+          'အနှစ်တူအမြွှာများသည် သီးခြားဥနှစ်လုံးမှ အမြဲဖွံ့ဖြိုးလာပြီး အနှစ်မတူအမြွှာများမူ ဥတစ်လုံးမှ ဖွံ့ဖြိုးလာသည်',
+          'အနှစ်မတူအမြွှာများသည် အနှစ်တူအမြွှာများနှင့်မတူဘဲ တူညီသောဗီဇများကို အမြဲရရှိကြသည်',
+          'အမြွှာအမျိုးအစားနှစ်ခုကြား မျိုးရိုးဗီဇ ကွာခြားချက် လုံးဝမရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A colour-blind man (XᵇY) has children with a woman who is homozygous normal (XᴮXᴮ). What proportion of their sons will be colour-blind?',
+        questionMy:
+            'အရောင်ကန်းသော အမျိုးသား (XᵇY) သည် ဟိုမိုဇိုင်းဂတ် ပုံမှန်အမျိုးသမီး (XᴮXᴮ) နှင့် သားသမီးများ ရှိသည်။ ၎င်းတို့၏သားများအနက် အရောင်ကန်းမည့်အချိုးမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'None of the sons will be colour-blind',
+          'All of the sons will be colour-blind',
+          'Half of the sons will be colour-blind',
+          'A quarter of the sons will be colour-blind',
+        ],
+        optionsMy: [
+          'သားများထဲမှ မည်သူမျှ အရောင်ကန်းမည်မဟုတ်ပါ',
+          'သားအားလုံး အရောင်ကန်းကြမည်ဖြစ်သည်',
+          'သားများ၏ ထက်ဝက်သည် အရောင်ကန်းကြမည်ဖြစ်သည်',
+          'သားများ၏ လေးပုံတစ်ပုံသည် အရောင်ကန်းကြမည်ဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-ict-1',
+    subject: 'ict',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Computer System Architecture',
+    titleMy: 'ကွန်ပျူတာစနစ် ဗိသုကာပုံစံ',
+    descriptionEn:
+        'Explore CPU components, the fetch-execute cycle, cache memory, and how von Neumann architecture differs from embedded systems.',
+    descriptionMy:
+        'CPU အစိတ်အပိုင်းများ၊ fetch-execute cycle၊ cache memory နှင့် von Neumann ဗိသုကာပုံစံသည် embedded system များနှင့် မည်သို့ကွာခြားသည်ကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the primary function of the Control Unit (CU) inside the CPU?',
+        questionMy:
+            'CPU အတွင်းရှိ Control Unit (CU) ၏ အဓိကလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It directs and coordinates the fetching, decoding, and execution of instructions',
+          'It performs all arithmetic and logical calculations on data',
+          'It permanently stores the operating system files',
+          'It converts alternating current into direct current for the CPU',
+        ],
+        optionsMy: [
+          'ညွှန်ကြားချက်များကို fetch လုပ်ခြင်း၊ decode လုပ်ခြင်းနှင့် execute လုပ်ခြင်းတို့ကို ညွှန်ကြားညှိနှိုင်းပေးသည်',
+          'ဒေတာများအပေါ် ဂဏန်းသင်္ချာနှင့် ယုတ္တိဗေဒ တွက်ချက်မှုအားလုံးကို ပြုလုပ်သည် (ALU ၏အလုပ်)',
+          'operating system ဖိုင်များကို အမြဲတမ်း သိမ်းဆည်းပေးသည်',
+          'CPU အတွက် AC လျှပ်စစ်ကို DC အဖြစ် ပြောင်းလဲပေးသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the fetch-execute cycle, what is stored in the Program Counter (PC)?',
+        questionMy:
+            'fetch-execute cycle တွင် Program Counter (PC) က အဘယ်အရာကို သိမ်းဆည်းထားသနည်း။',
+        optionsEn: [
+          'The memory address of the next instruction to be fetched',
+          'The actual instruction currently being decoded',
+          'The final result of the last arithmetic calculation',
+          'The name of the currently logged-in user',
+        ],
+        optionsMy: [
+          'နောက်ထပ် fetch လုပ်ရမည့် ညွှန်ကြားချက်၏ memory address',
+          'လက်ရှိ decode လုပ်နေသော ညွှန်ကြားချက်ကိုယ်တိုင်',
+          'နောက်ဆုံးဂဏန်းတွက်ချက်မှု၏ ရလဒ်',
+          'လက်ရှိအကောင့်ဝင်ထားသူ၏ အမည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do modern CPUs include a small amount of cache memory between the CPU and main memory (RAM)?',
+        questionMy:
+            'ခေတ်မီ CPU များတွင် CPU နှင့် main memory (RAM) စပ်ကြားတွင် cache memory အနည်းငယ်ထည့်သွင်းထားသည့်အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To store frequently used instructions and data closer to the CPU so they can be accessed much faster than from RAM',
+          'To permanently back up the entire hard drive',
+          'To increase the CPU clock speed automatically',
+          'To reduce the electricity consumed by the monitor',
+        ],
+        optionsMy: [
+          'CPU နှင့်နီးကပ်စွာ မကြာခဏအသုံးပြုသော ညွှန်ကြားချက်များနှင့် ဒေတာများကို သိမ်းဆည်းထားခြင်းဖြင့် RAM ထက် များစွာပိုမိုမြန်ဆန်စွာ ရယူနိုင်စေရန်',
+          'hard drive တစ်ခုလုံးကို အမြဲတမ်း backup လုပ်ရန်',
+          'CPU clock speed ကို အလိုအလျောက် မြင့်တက်စေရန်',
+          'မော်နီတာသုံးလျှပ်စစ်ကို လျှော့ချရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What key feature defines the classic von Neumann architecture used in most general-purpose computers?',
+        questionMy:
+            'ယေဘုယျအသုံးပြုကွန်ပျူတာအများစုတွင် သုံးသော classic von Neumann ဗိသုကာပုံစံ၏ အဓိကလက္ခဏာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Instructions and data share the same memory and the same bus, so only one can be fetched at a time',
+          'Instructions and data are stored in two completely separate memories with separate buses',
+          'It has no central processing unit at all',
+          'It can only be used inside embedded devices such as washing machines',
+        ],
+        optionsMy: [
+          'ညွှန်ကြားချက်များနှင့် ဒေတာများသည် memory နှင့် bus တစ်ခုတည်းကို မျှဝေအသုံးပြုကြရသောကြောင့် တစ်ကြိမ်လျှင် တစ်ခုသာ fetch လုပ်နိုင်သည်',
+          'ညွှန်ကြားချက်များနှင့် ဒေတာများကို memory နှင့် bus လုံးဝသီးခြားနှစ်ခုတွင် သိမ်းဆည်းထားသည် (Harvard ပုံစံ)',
+          'ဗဟို processing unit လုံးဝမပါဝင်ပါ',
+          'အဝတ်လျှော်စက်ကဲ့သို့သော embedded device များတွင်သာ အသုံးပြုနိုင်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which statement best describes an embedded system?',
+        questionMy:
+            'embedded system တစ်ခုကို အကောင်းဆုံးဖော်ပြသော ဖော်ပြချက်မှာ မည်သည်နည်း။',
+        optionsEn: [
+          'A dedicated computer system built into a larger device to perform one or a few specific tasks, such as a washing machine controller',
+          'A general-purpose desktop computer used for many different tasks by one person',
+          'A cloud data centre shared by thousands of users at once',
+          'A supercomputer used purely for scientific weather simulation',
+        ],
+        optionsMy: [
+          'အဝတ်လျှော်စက်ထိန်းချုပ်ကိရိယာကဲ့သို့ အထူးလုပ်ငန်းတစ်ခု သို့မဟုတ် အနည်းငယ်သာ ဆောင်ရွက်ရန် ကိရိယာကြီးတစ်ခုအတွင်း တပ်ဆင်ထားသော အထူးကွန်ပျူတာစနစ်',
+          'တစ်ဦးတည်းက အလုပ်များစွာအတွက် အသုံးပြုသော ယေဘုယျဒက်စ်တော့ကွန်ပျူတာ',
+          'အသုံးပြုသူထောင်ပေါင်းများစွာ တစ်ပြိုင်နက် မျှဝေအသုံးပြုသော cloud data centre',
+          'ရာသီဥတုသရုပ်ဖော်တွက်ချက်မှုအတွက်သာ အသုံးပြုသော supercomputer',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-ict-2',
+    subject: 'ict',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Advanced Data Representation',
+    titleMy: 'အဆင့်မြင့် ဒေတာဖော်ပြမှု',
+    descriptionEn:
+        'Study two\'s complement negative numbers, floating-point representation, hexadecimal shorthand, and binary overflow at IGCSE depth.',
+    descriptionMy:
+        'IGCSE အဆင့်တွင် two\'s complement အနုတ်ဂဏန်းများ၊ floating-point ဖော်ပြမှု၊ hexadecimal အတိုကောက်နှင့် binary overflow တို့ကို နက်နက်ရှိုင်းရှိုင်း လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Why do modern computers use two\'s complement rather than sign-and-magnitude to represent negative integers?',
+        questionMy:
+            'ခေတ်မီကွန်ပျူတာများသည် အနုတ်ကိန်းပြည့်များကိုဖော်ပြရန် sign-and-magnitude အစား two\'s complement ကို အသုံးပြုသည့်အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It allows the same addition circuitry to correctly add both positive and negative numbers without special-case subtraction logic',
+          'It uses fewer bits than any other method to store a number',
+          'It is the only method that can represent the number zero',
+          'It allows numbers to be stored in decimal form directly',
+        ],
+        optionsMy: [
+          'အနုတ်ကွက်ချက်အတွက် အထူးထူးလုပ်ဆောင်ချက်မလိုဘဲ ဂဏန်းအပေါင်း-အနုတ်နှစ်မျိုးလုံးကို ပေါင်းစက်ရိုင်းတစ်ခုတည်းဖြင့် မှန်ကန်စွာတွက်ချက်နိုင်စေသည်',
+          'အခြားနည်းလမ်းများထက် ဂဏန်းသိမ်းရန် bit အနည်းဆုံးကိုသာ သုံးသည်',
+          'သုညကိုဖော်ပြနိုင်သော တစ်ခုတည်းသောနည်းလမ်းဖြစ်သည်',
+          'ဂဏန်းများကို ဒဿမပုံစံဖြင့် တိုက်ရိုက်သိမ်းဆည်းနိုင်စေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Using 8-bit two\'s complement, what is -5 represented as?',
+        questionMy:
+            '8-bit two\'s complement စနစ်တွင် -5 ကို မည်သို့ဖော်ပြသနည်း။',
+        optionsEn: ['11111011', '00000101', '11111010', '10000101'],
+        optionsMy: [
+          '11111011 (invert ပြီး 1 ပေါင်းထားသောပုံစံ)',
+          '00000101 (+5 ၏ပုံစံအတိုင်း၊ invert မလုပ်ရသေး)',
+          '11111010 (invert ပြီးသောပုံစံ၊ 1 မပေါင်းရသေး)',
+          '10000101 (sign-and-magnitude ပုံစံ)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In floating-point representation, what roles do the mantissa and the exponent play?',
+        questionMy:
+            'floating-point ဖော်ပြမှုတွင် mantissa နှင့် exponent တို့၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The mantissa holds the significant digits of the number, while the exponent scales it by shifting the binary point, allowing very large or very small numbers to be stored',
+          'The mantissa stores only the sign of the number, while the exponent stores an error-checking code',
+          'The exponent stores the character encoding, while the mantissa stores the colour value',
+          'Both the mantissa and exponent store identical copies of the same value for safety',
+        ],
+        optionsMy: [
+          'mantissa သည် ဂဏန်း၏အရေးကြီးဂဏန်းအညွှန်းများကို သိမ်းထားပြီး exponent သည် binary point ကို ရွှေ့ခြင်းဖြင့် အတိုင်းအတာချိန်ညှိပေးသောကြောင့် အလွန်ကြီးမား သို့မဟုတ် အလွန်သေးငယ်သောဂဏန်းများကို သိမ်းဆည်းနိုင်စေသည်',
+          'mantissa သည် ဂဏန်း၏ sign ကိုသာ သိမ်းထားပြီး exponent သည် error-checking code ကို သိမ်းထားသည်',
+          'exponent သည် character encoding ကို သိမ်းထားပြီး mantissa သည် အရောင်တန်ဖိုးကို သိမ်းထားသည်',
+          'mantissa နှင့် exponent နှစ်ခုစလုံးသည် ဘေးကင်းရေးအတွက် တန်ဖိုးတူညီသောကူးယူချက်များကို သိမ်းထားသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do programmers commonly use hexadecimal notation to represent binary values such as MAC addresses or colour codes?',
+        questionMy:
+            'ပရိုဂရမ်မာများသည် MAC address သို့မဟုတ် အရောင်ကုဒ်များကဲ့သို့သော binary တန်ဖိုးများကို ဖော်ပြရန် hexadecimal ကို အဘယ့်ကြောင့် ဘုံအသုံးများသနည်း။',
+        optionsEn: [
+          'Because each hexadecimal digit represents exactly 4 binary bits, giving a short, human-readable shorthand for long binary strings',
+          'Because computers can only process hexadecimal numbers directly and cannot understand binary',
+          'Because hexadecimal numbers take up less storage space in memory than binary numbers',
+          'Because every keyboard is physically required to type only in hexadecimal',
+        ],
+        optionsMy: [
+          'hexadecimal ဂဏန်းတစ်လုံးစီသည် binary bit ၄ ခုအတိအကျ ကိုယ်စားပြုသောကြောင့် ရှည်လျားသော binary string များအတွက် တိုတောင်း၍ လူဖတ်လွယ်သော အတိုကောက်ဖြစ်စေသည်',
+          'ကွန်ပျူတာများသည် hexadecimal ဂဏန်းများကိုသာ တိုက်ရိုက်ကိုင်တွယ်နိုင်ပြီး binary ကို နားမလည်ကြောင်း',
+          'hexadecimal ဂဏန်းများသည် binary ဂဏန်းများထက် memory တွင် နေရာနည်းနည်းသာ ယူသောကြောင့်',
+          'ကီးဘုတ်တိုင်းသည် hexadecimal ဖြင့်သာ ရိုက်ရန် ရုပ်ပိုင်းဆိုင်ရာလိုအပ်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What happens when the result of an arithmetic operation is too large to fit into the fixed number of bits in a register?',
+        questionMy:
+            'ဂဏန်းသင်္ချာလုပ်ဆောင်ချက်တစ်ခု၏ရလဒ်သည် register ၏ သတ်မှတ် bit အရေအတွက်ထက် ကြီးမားနေလျှင် အဘယ်အရာဖြစ်ပေါ်လာမည်နည်း။',
+        optionsEn: [
+          'Overflow occurs, and the result is truncated or wrapped incorrectly unless the system detects and handles it',
+          'The register automatically doubles in size to fit the new result',
+          'The extra digits are silently saved to the hard drive without error',
+          'The CPU clock speed automatically slows down to compensate',
+        ],
+        optionsMy: [
+          'overflow ဖြစ်ပေါ်ကာ စနစ်က ရှာဖွေထောက်ပြပြီး ကိုင်တွယ်မှုမပြုလုပ်ပါက ရလဒ်ကို လွဲမှားစွာဖြတ်တောက် သို့မဟုတ် ပတ်လည်ရေးသားလိုက်မည်',
+          'register သည် ရလဒ်အသစ်နှင့်ကိုက်ညီရန် အလိုအလျောက် အရွယ်နှစ်ဆတိုးလာသည်',
+          'ပိုလျှံဂဏန်းများကို error မတက်ဘဲ hard drive ပေါ်သို့ တိတ်တဆိတ် သိမ်းဆည်းလိုက်သည်',
+          'CPU clock speed သည် ချိန်ညှိရန် အလိုအလျောက် နှေးလာသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-ict-3',
+    subject: 'ict',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Algorithm Design and Efficiency',
+    titleMy: 'Algorithm ဒီဇိုင်းနှင့် ထိရောက်မှု',
+    descriptionEn:
+        'Design and compare algorithms using decomposition, pseudocode loops, binary search, and sorting, while reasoning about efficiency.',
+    descriptionMy:
+        'decomposition၊ pseudocode loop များ၊ binary search နှင့် sorting တို့ကို အသုံးပြု၍ algorithm များကို ဒီဇိုင်းရေးဆွဲကာ ထိရောက်မှုကို ဆင်ခြင်တွက်ချက်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Why must a list of data be sorted before a binary search algorithm can be applied correctly?',
+        questionMy:
+            'binary search algorithm ကို မှန်ကန်စွာအသုံးပြုနိုင်ရန် ဒေတာစာရင်းတစ်ခုကို အဘယ့်ကြောင့် အရင်ဆုံးစီစဉ်ထားရမည်နည်း။',
+        optionsEn: [
+          'Binary search repeatedly checks the middle value and eliminates one half of the remaining list, which only gives a correct result if the data is already in order',
+          'Unsorted data cannot legally be stored anywhere in computer memory',
+          'Binary search can only operate on text data, never on numbers',
+          'Sorting the list first increases the computer\'s processor clock speed',
+        ],
+        optionsMy: [
+          'binary search သည် အလယ်ဗဟိုတန်ဖိုးကို ထပ်ခါထပ်ခါစစ်ဆေးကာ ကျန်စာရင်း၏ တစ်ဝက်ကို ဖယ်ရှားပစ်သောကြောင့် ဒေတာများသည် စီစဉ်ပြီးသားဖြစ်မှသာ မှန်ကန်သောရလဒ်ရရှိမည်',
+          'စီစဉ်မထားသော ဒေတာများကို ကွန်ပျူတာ memory တွင် မည်သည့်နေရာမျှ တရားဝင်သိမ်းဆည်း၍မရပါ',
+          'binary search သည် စာသားဒေတာနှင့်သာ အလုပ်လုပ်နိုင်ပြီး ဂဏန်းများနှင့် လုံးဝအလုပ်မလုပ်ပါ',
+          'စာရင်းကို အရင်စီစဉ်ခြင်းက ကွန်ပျူတာ၏ processor clock speed ကို မြင့်တက်စေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the main advantage of binary search over linear search when searching a large, sorted dataset?',
+        questionMy:
+            'ကြီးမားပြီး စီစဉ်ပြီးသား dataset တစ်ခုကို ရှာဖွေရာတွင် linear search ထက် binary search ၏ အဓိကအားသာချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It finds the target value using far fewer comparisons because it discards half of the remaining data at every step',
+          'It works correctly even when the dataset is completely unsorted',
+          'It requires the computer to use noticeably less memory to store the list',
+          'It can only be applied to lists of text, never to lists of numbers',
+        ],
+        optionsMy: [
+          'ရှာဖွေမှုတိုင်းတွင် ကျန်ဒေတာ၏တစ်ဝက်ကို ပယ်ချသောကြောင့် နှိုင်းယှဉ်မှု အလွန်နည်းသောနည်းလမ်းဖြင့် ရှာဖွေလိုသောတန်ဖိုးကို ရှာတွေ့သည်',
+          'dataset တစ်ခုလုံး လုံးဝမစီစဉ်ရသေးသော်လည်း မှန်ကန်စွာလုပ်ဆောင်နိုင်သည်',
+          'စာရင်းသိမ်းဆည်းရန် ကွန်ပျူတာ memory ကို သိသိသာသာ ပိုနည်းစွာအသုံးပြုရသည်',
+          'စာသားစာရင်းများတွင်သာ အသုံးပြုနိုင်ပြီး ဂဏန်းစာရင်းများတွင် လုံးဝသုံး၍မရပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A bubble sort is run on the list [5, 2, 8, 1], comparing and swapping adjacent elements from left to right. What does the list look like after exactly one full pass?',
+        questionMy:
+            '[5, 2, 8, 1] စာရင်းအပေါ် bubble sort ကို ဘယ်မှညာသို့ အနီးဆုံးအစိတ်အပိုင်းများကို နှိုင်းယှဉ်ကာ swap လုပ်စေသည်။ ပထမပတ်လှည့်တစ်ခါ အပြည့်အဝပြီးဆုံးပြီးနောက် စာရင်းသည် မည်သို့ဖြစ်နေမည်နည်း။',
+        optionsEn: [
+          '[2, 5, 1, 8]',
+          '[1, 2, 5, 8]',
+          '[5, 2, 8, 1]',
+          '[2, 8, 1, 5]',
+        ],
+        optionsMy: [
+          '[2, 5, 1, 8] (ပထမပတ်လှည့်တစ်ခုတည်းပြီးနောက်ရလဒ်)',
+          '[1, 2, 5, 8] (ပတ်လှည့်အားလုံးပြီးမှသာရနိုင်သော အပြီးသတ်ရလဒ်)',
+          '[5, 2, 8, 1] (မူလစာရင်း၊ ပြောင်းလဲမှုမရှိသေး)',
+          '[2, 8, 1, 5] (မှားယွင်းသော swap အစီအစဉ်ဖြင့်ရလာသောရလဒ်)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What does "decomposition" mean in computational thinking?',
+        questionMy:
+            'computational thinking တွင် "decomposition" ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။',
+        optionsEn: [
+          'Breaking a large, complex problem down into smaller, more manageable sub-problems that are easier to solve individually',
+          'Combining many separate small programs into one single large program',
+          'Deleting comments and unnecessary whitespace from finished source code',
+          'Translating a finished algorithm directly into machine code',
+        ],
+        optionsMy: [
+          'ကြီးမားနက်နဲသော ပြဿနာတစ်ခုကို သီးခြားစီဖြေရှင်းရန် ပိုမိုလွယ်ကူသော ပြဿနာသေးငယ်များအဖြစ် ခွဲထုတ်ခြင်း',
+          'သီးခြားစီရေးထားသော ပရိုဂရမ်ငယ်များစွာကို ပရိုဂရမ်ကြီးတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း',
+          'ပြီးစီးပြီးသော source code မှ comment နှင့် မလိုအပ်သော whitespace များကို ဖျက်ပစ်ခြင်း',
+          'ပြီးစီးပြီးသော algorithm ကို machine code အဖြစ်သို့ တိုက်ရိုက်ပြောင်းလဲခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In pseudocode, what does a "WHILE" loop typically represent?',
+        questionMy:
+            'pseudocode တွင် "WHILE" loop သည် ယေဘုယျအားဖြင့် အဘယ်အရာကို ကိုယ်စားပြုသနည်း။',
+        optionsEn: [
+          'A block of instructions that repeats for as long as a specified condition remains true',
+          'A single decision that is checked and executed only once',
+          'A permanent, unconditional halt of the entire program',
+          'A statement used only to declare a new variable\'s data type',
+        ],
+        optionsMy: [
+          'သတ်မှတ်ထားသော condition မှန်နေသရွေ့ ထပ်ခါထပ်ခါလုပ်ဆောင်နေသော ညွှန်ကြားချက်အုပ်စု',
+          'တစ်ကြိမ်သာ စစ်ဆေးပြီး လုပ်ဆောင်သော ဆုံးဖြတ်ချက်တစ်ခုတည်း',
+          'ပရိုဂရမ်တစ်ခုလုံးကို အခြေအနေမရွေး အပြီးတိုင်ရပ်တန့်ခြင်း',
+          'variable အသစ်တစ်ခု၏ data type ကို ကြေညာရန်သာ အသုံးပြုသော statement',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-igcse-socialstudies-1',
+    subject: 'socialstudies',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Comparative Government',
+    titleMy: 'နိုင်ငံရေးအုပ်ချုပ်မှုစနစ်များ နှိုင်းယှဉ်လေ့လာခြင်း',
+    descriptionEn:
+        'Compare how presidential, parliamentary, and federal systems distribute and check political power.',
+    descriptionMy:
+        'သမ္မတစနစ်၊ ပါလီမန်စနစ်နှင့် ဖက်ဒရယ်စနစ်တို့သည် နိုင်ငံရေးအာဏာကို မည်သို့ခွဲဝေထိန်းညှိကြောင်း နှိုင်းယှဉ်လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'In a parliamentary system such as the United Kingdom, how does the head of government typically come to power?',
+        questionMy:
+            'ဗြိတိန်ကဲ့သို့သော ပါလီမန်စနစ်တွင် အစိုးရအကြီးအကဲသည် ပုံမှန်အားဖြင့် မည်သို့ အာဏာရရှိသနည်း။',
+        optionsEn: [
+          'By leading the party or coalition that holds a majority of seats in the legislature',
+          'By winning a separate nationwide popular vote for the executive alone',
+          'By being appointed for life by the head of state',
+          'By being selected through a random lottery among sitting legislators',
+        ],
+        optionsMy: [
+          'လွှတ်တော်တွင် နေရာအများစုရရှိသော ပါတီ သို့မဟုတ် ညွန့်ပေါင်းအစိုးရကို ဦးဆောင်ခြင်းဖြင့်',
+          'အုပ်ချုပ်ရေးအာဏာအတွက်သာ သီးခြားနိုင်ငံတစ်ဝှမ်းမဲပေးမှုတွင် အနိုင်ရရှိခြင်းဖြင့်',
+          'နိုင်ငံ့ဦးစီးမှ တစ်သက်တာအတွက် ခန့်အပ်ခြင်းခံရခြင်းဖြင့်',
+          'လက်ရှိလွှတ်တော်အမတ်များအထဲမှ မဲစနစ်ဖြင့် ကျပန်းရွေးချယ်ခံရခြင်းဖြင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the defining feature of a presidential system, such as that of the United States, compared with a parliamentary system?',
+        questionMy:
+            'အမေရိကန်ကဲ့သို့သော သမ္မတစနစ်ကို ပါလီမန်စနစ်နှင့် နှိုင်းယှဉ်လျှင် အဓိကထူးခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The executive and legislature are elected separately and each can survive without the other\'s continued confidence',
+          'The head of state has no political power of any kind',
+          'Judges are elected directly by the legislature every year',
+          'The executive branch can dissolve itself and call new elections at will',
+        ],
+        optionsMy: [
+          'အုပ်ချုပ်ရေးနှင့် ဥပဒေပြုရေးကို သီးခြားစီရွေးကောက်ပြီး တစ်ခုချင်းစီသည် အခြားတစ်ခု၏ ယုံကြည်မှုမရှိလည်း ရပ်တည်နိုင်ခြင်း',
+          'နိုင်ငံ့ဦးစီးတွင် မည်သည့်နိုင်ငံရေးအာဏာမျှ လုံးဝမရှိခြင်း',
+          'တရားသူကြီးများကို လွှတ်တော်က နှစ်စဉ်တိုက်ရိုက်ရွေးကောက်ခြင်း',
+          'အုပ်ချုပ်ရေးအဖွဲ့ကိုယ်တိုင် မိမိဆန္ဒအလျောက် ဖျက်သိမ်းပြီး ရွေးကောက်ပွဲသစ်ခေါ်နိုင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a federal system of government, what is the key relationship between national and regional levels of authority?',
+        questionMy:
+            'ဖက်ဒရယ်အစိုးရစနစ်တွင် အမျိုးသားအဆင့်နှင့် ဒေသန္တရအဆင့် အာဏာများကြား အဓိကဆက်နွယ်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Power is constitutionally divided between a central government and regional units, each with its own areas of authority',
+          'All decision-making power rests solely with regional governments, with no central authority at all',
+          'Regional governments exist only to carry out orders and have no legal powers of their own',
+          'The central government can abolish regional governments at any time without any legal process',
+        ],
+        optionsMy: [
+          'ဗဟိုအစိုးရနှင့် ဒေသန္တရယူနစ်များကြား ဖွဲ့စည်းပုံအခြေခံဥပဒေအရ အာဏာခွဲဝေထားပြီး တစ်ခုချင်းစီတွင် မိမိပိုင်နက်ရှိခြင်း',
+          'ဆုံးဖြတ်ချက်ချအာဏာအားလုံးကို ဒေသန္တရအစိုးရများသာ ကိုင်ဆောင်ပြီး ဗဟိုအာဏာလုံးဝမရှိခြင်း',
+          'ဒေသန္တရအစိုးရများသည် အမိန့်လိုက်နာရုံသာ ရှိပြီး မိမိပိုင်ဥပဒေအာဏာလုံးဝမရှိခြင်း',
+          'ဗဟိုအစိုးရသည် ဥပဒေလုပ်ထုံးလုပ်နည်းမရှိဘဲ ဒေသန္တရအစိုးရများကို အချိန်မရွေး ဖျက်သိမ်းနိုင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the primary purpose of a system of checks and balances, as found in the United States Constitution?',
+        questionMy:
+            'အမေရိကန်ဖွဲ့စည်းပုံအခြေခံဥပဒေတွင် တွေ့ရသော အချင်းချင်းထိန်းညှိမှုစနစ် (checks and balances) ၏ အဓိကရည်ရွယ်ချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To prevent any single branch of government from accumulating excessive power by allowing each branch to limit the others',
+          'To ensure that only one branch of government ever makes any decisions',
+          'To guarantee that the judiciary always agrees with the executive',
+          'To allow the legislature to appoint itself without any elections',
+        ],
+        optionsMy: [
+          'တစ်ခုချင်းစီသည် အခြားအစိတ်အပိုင်းများကို ထိန်းညှိနိုင်စေခြင်းဖြင့် အစိုးရအစိတ်အပိုင်းတစ်ခုတည်းတွင် အာဏာအလွန်အကျွံ စုပုံမနေစေရန်',
+          'အစိုးရ၏ အစိတ်အပိုင်းတစ်ခုတည်းကသာ ဆုံးဖြတ်ချက်များချမှတ်စေရန်',
+          'တရားစီရင်ရေးအဖွဲ့သည် အုပ်ချုပ်ရေးနှင့် အမြဲသဘောတူစေရန်',
+          'လွှတ်တော်ကို ရွေးကောက်ပွဲမရှိဘဲ မိမိကိုယ်ကို ခန့်အပ်ခွင့်ပြုရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How does a unitary system of government, such as that of France, differ fundamentally from a federal system?',
+        questionMy:
+            'ပြင်သစ်ကဲ့သို့သော ဒြပ်စည်းအစိုးရစနစ် (unitary system) သည် ဖက်ဒရယ်စနစ်နှင့် အခြေခံအားဖြင့် မည်သို့ကွာခြားသနည်း။',
+        optionsEn: [
+          'Supreme political authority is held by the central government, which can create, alter, or abolish local governments',
+          'Local governments hold constitutionally guaranteed powers that the central government cannot remove',
+          'There is no central government at all, only independent local authorities',
+          'Regional governments and the central government are always led by different political parties',
+        ],
+        optionsMy: [
+          'အထွတ်အထိပ်နိုင်ငံရေးအာဏာကို ဗဟိုအစိုးရကသာ ကိုင်ဆောင်ပြီး ဒေသန္တရအစိုးရများကို ဖန်တီး၊ ပြောင်းလဲ၊ ဖျက်သိမ်းနိုင်ခြင်း',
+          'ဒေသန္တရအစိုးရများတွင် ဗဟိုအစိုးရမဖယ်ရှားနိုင်သော ဖွဲ့စည်းပုံအာမခံအာဏာများ ရှိနေခြင်း',
+          'ဗဟိုအစိုးရဟူ၍ လုံးဝမရှိဘဲ လွတ်လပ်သော ဒေသန္တရအာဏာပိုင်များသာရှိခြင်း',
+          'ဒေသန္တရအစိုးရနှင့် ဗဟိုအစိုးရကို အမြဲတမ်း မတူညီသောပါတီများက ဦးဆောင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-socialstudies-2',
+    subject: 'socialstudies',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Global Economics',
+    titleMy: 'ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေးပညာ',
+    descriptionEn:
+        'Analyze trade, exchange rates, and the roles of major international economic institutions.',
+    descriptionMy:
+        'ကုန်သွယ်ရေး၊ ငွေလဲနှုန်းနှင့် အဓိကနိုင်ငံတကာစီးပွားရေးအဖွဲ့အစည်းများ၏ အခန်းကဏ္ဍများကို ခွဲခြမ်းစိတ်ဖြာလေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'According to the theory of comparative advantage, why do countries benefit from specializing and trading with each other?',
+        questionMy:
+            'နှိုင်းယှဉ်အားသာချက် (comparative advantage) သီအိုရီအရ နိုင်ငံများသည် အထူးပြုကုန်ထုတ်လုပ်ပြီး အချင်းချင်းကုန်သွယ်ခြင်းဖြင့် အဘယ်ကြောင့် အကျိုးရရှိကြသနည်း။',
+        optionsEn: [
+          'Each country can produce goods it makes relatively more efficiently and trade for goods others produce more efficiently, raising total output for both',
+          'Trading always guarantees that every country ends up with an identical income level',
+          'Specialization eliminates the need for any country to import goods at all',
+          'Comparative advantage requires that only wealthy countries participate in trade',
+        ],
+        optionsMy: [
+          'နိုင်ငံတစ်ခုစီသည် မိမိအထိရောက်ဆုံးထုတ်လုပ်နိုင်သောကုန်ပစ္စည်းကို ထုတ်လုပ်ပြီး အခြားနိုင်ငံများ ပိုအထိရောက်စွာထုတ်လုပ်သောပစ္စည်းများနှင့် လဲလှယ်ခြင်းဖြင့် နှစ်ဖက်စလုံး၏ စုစုပေါင်းထုတ်လုပ်မှုတိုးလာခြင်း',
+          'ကုန်သွယ်မှုသည် နိုင်ငံအားလုံး၏ ဝင်ငွေအဆင့် တူညီစေရန် အာမခံနိုင်ခြင်း',
+          'အထူးပြုမှုသည် မည်သည့်နိုင်ငံမျှ ကုန်ပစ္စည်းတင်သွင်းရန် မလိုအပ်စေခြင်း',
+          'နှိုင်းယှဉ်အားသာချက်သည် ချမ်းသာသောနိုင်ငံများသာ ကုန်သွယ်ရေးတွင် ပါဝင်ခွင့်ရှိစေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a country\'s currency depreciates against other currencies, what is the most likely effect on its exports?',
+        questionMy:
+            'နိုင်ငံတစ်ခု၏ ငွေကြေးတန်ဖိုးသည် အခြားငွေကြေးများနှင့်နှိုင်းယှဉ်၍ ကျဆင်းသွားပါက ထိုနိုင်ငံ၏ ပို့ကုန်ပေါ်တွင် အဖြစ်များဆုံးသက်ရောက်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Exports generally become cheaper for foreign buyers, which tends to increase demand for them',
+          'Exports automatically become more expensive for every foreign buyer',
+          'The volume of exports is entirely unaffected by exchange rate changes',
+          'Import prices fall while export prices remain completely fixed',
+        ],
+        optionsMy: [
+          'ပို့ကုန်များသည် နိုင်ငံခြားဝယ်ယူသူများအတွက် ယေဘုယျအားဖြင့် ပိုစျေးသက်သာလာပြီး ဝယ်လိုအားမြင့်တက်တတ်ခြင်း',
+          'ပို့ကုန်များသည် နိုင်ငံခြားဝယ်ယူသူတိုင်းအတွက် အလိုအလျောက် ပိုစျေးကြီးလာခြင်း',
+          'ပို့ကုန်ပမာဏသည် ငွေလဲနှုန်းပြောင်းလဲမှုကြောင့် လုံးဝမထိခိုက်ခြင်း',
+          'တင်သွင်းကုန်စျေးနှုန်း ကျဆင်းပြီး ပို့ကုန်စျေးနှုန်း လုံးဝပြောင်းလဲမနေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the main role of the World Trade Organization (WTO) in the global economy?',
+        questionMy:
+            'ကမ္ဘာလုံးဆိုင်ရာစီးပွားရေးတွင် ကမ္ဘာ့ကုန်သွယ်ရေးအဖွဲ့ (WTO) ၏ အဓိကအခန်းကဏ္ဍမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To set rules for international trade and provide a forum for negotiating and resolving trade disputes between member countries',
+          'To lend money directly to individual consumers for personal spending',
+          'To set the interest rates used by every central bank in the world',
+          'To print a single global currency for use by all member states',
+        ],
+        optionsMy: [
+          'နိုင်ငံတကာကုန်သွယ်ရေးအတွက် စည်းမျဉ်းများသတ်မှတ်ပေးပြီး အဖွဲ့ဝင်နိုင်ငံများကြား ကုန်သွယ်ရေးအငြင်းပွားမှုများကို ညှိနှိုင်း၊ ဖြေရှင်းရန် စင်ပွဲတစ်ခု ဖြစ်စေခြင်း',
+          'တစ်ဦးချင်းစားသုံးသူများထံသို့ ကိုယ်ရေးကိုယ်တာသုံးစွဲရန် တိုက်ရိုက်ချေးငွေထုတ်ပေးခြင်း',
+          'ကမ္ဘာပေါ်ရှိ ဗဟိုဘဏ်တိုင်းအသုံးပြုမည့် အတိုးနှုန်းများကို သတ်မှတ်ပေးခြင်း',
+          'အဖွဲ့ဝင်နိုင်ငံအားလုံးအသုံးပြုရန် ကမ္ဘာလုံးဆိုင်ရာငွေကြေးတစ်မျိုးတည်း ပုံနှိပ်ထုတ်ပေးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A country imposes a tariff on imported steel. What is the most likely direct effect on the domestic market?',
+        questionMy:
+            'နိုင်ငံတစ်ခုသည် တင်သွင်းသံမဏိပေါ်တွင် အကောက်ခွန်တစ်ရပ် ချမှတ်လိုက်သည်။ ပြည်တွင်းဈေးကွက်ပေါ် တိုက်ရိုက်သက်ရောက်မှု အဖြစ်များဆုံးမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The price of imported steel rises, which can protect domestic steel producers but raise costs for domestic buyers of steel',
+          'The price of imported steel falls immediately for domestic consumers',
+          'Domestic steel producers are forced to lower their own prices to zero',
+          'Tariffs have no effect whatsoever on the price of any imported good',
+        ],
+        optionsMy: [
+          'တင်သွင်းသံမဏိစျေးနှုန်း မြင့်တက်လာပြီး ပြည်တွင်းသံမဏိထုတ်လုပ်သူများကို ကာကွယ်ပေးနိုင်သော်လည်း ပြည်တွင်းဝယ်ယူသူများအတွက် ကုန်ကျစရိတ်မြင့်တက်စေခြင်း',
+          'တင်သွင်းသံမဏိစျေးနှုန်း ပြည်တွင်းစားသုံးသူများအတွက် ချက်ချင်း ကျဆင်းသွားခြင်း',
+          'ပြည်တွင်းသံမဏိထုတ်လုပ်သူများသည် မိမိတို့စျေးနှုန်းများကို သုညအထိ လျှော့ချရခြင်း',
+          'အကောက်ခွန်သည် တင်သွင်းကုန်ပစ္စည်းမည်သည့်တစ်ခု၏ စျေးနှုန်းကိုမျှ လုံးဝမထိခိုက်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What distinguishes a developing economy from a developed economy in terms typically used by international bodies such as the World Bank?',
+        questionMy:
+            'ကမ္ဘာ့ဘဏ်ကဲ့သို့သော နိုင်ငံတကာအဖွဲ့အစည်းများ ပုံမှန်အသုံးပြုသည့်အနေအထားအရ ဖွံ့ဖြိုးဆဲနိုင်ငံနှင့် ဖွံ့ဖြိုးပြီးနိုင်ငံတို့ကို မည်သို့ခွဲခြားသနည်း။',
+        optionsEn: [
+          'Developed economies typically have higher income per person, more industrialized production, and stronger institutions than developing economies',
+          'Developing economies always have a larger total population than developed economies',
+          'Developed economies are defined solely by having a coastline',
+          'The distinction is based only on which hemisphere a country is located in',
+        ],
+        optionsMy: [
+          'ဖွံ့ဖြိုးပြီးနိုင်ငံများသည် ဖွံ့ဖြိုးဆဲနိုင်ငံများထက် တစ်ဦးချင်းဝင်ငွေပိုမိုမြင့်မား၊ စက်မှုထုတ်လုပ်မှုပိုမိုအားကောင်းပြီး အဖွဲ့အစည်းများ ပိုမိုအားကောင်းလေ့ရှိခြင်း',
+          'ဖွံ့ဖြိုးဆဲနိုင်ငံများသည် ဖွံ့ဖြိုးပြီးနိုင်ငံများထက် လူဦးရေ စုစုပေါင်း အမြဲပိုများနေခြင်း',
+          'ဖွံ့ဖြိုးပြီးနိုင်ငံများကို ပင်လယ်ကမ်းရိုးတန်းရှိခြင်းအားဖြင့်သာ သတ်မှတ်ခြင်း',
+          'ခွဲခြားမှုသည် နိုင်ငံတည်ရှိရာ လက်ဝဲလက်ယာ ကမ္ဘာ့ဝက်ခြမ်းအပေါ်သာ မူတည်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-socialstudies-3',
+    subject: 'socialstudies',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Contemporary Global Issues',
+    titleMy: 'ခေတ်ပြိုင်ကမ္ဘာလုံးဆိုင်ရာပြဿနာများ',
+    descriptionEn:
+        'Critically examine migration, global health, and digital-age challenges facing the modern world.',
+    descriptionMy:
+        'ခေတ်သစ်ကမ္ဘာကြုံတွေ့နေရသော ရွှေ့ပြောင်းအခြေချမှု၊ ကမ္ဘာလုံးဆိုင်ရာကျန်းမာရေးနှင့် ဒစ်ဂျစ်တယ်ခေတ်စိန်ခေါ်မှုများကို ပြင်းပြင်းထန်ထန် လေ့လာဆန်းစစ်ပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the key legal distinction between a "refugee" and an "economic migrant" under international law?',
+        questionMy:
+            'နိုင်ငံတကာဥပဒေအရ "ဒုက္ခသည်" နှင့် "စီးပွားရေးရွှေ့ပြောင်းနေထိုင်သူ" ကြား အဓိကဥပဒေရေးရာကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A refugee flees persecution, war, or a well-founded fear of harm, while an economic migrant moves primarily to seek better economic opportunity',
+          'A refugee is any person who crosses a border for any reason whatsoever',
+          'An economic migrant is legally guaranteed automatic citizenship in the destination country',
+          'There is no legal distinction; the two terms are officially interchangeable',
+        ],
+        optionsMy: [
+          'ဒုက္ခသည်ဆိုသည်မှာ ညှဉ်းပန်းနှိပ်စက်မှု၊ စစ်ပွဲ သို့မဟုတ် ခိုင်လုံသောအန္တရာယ်စိုးရိမ်မှုကြောင့် ထွက်ပြေးရသူဖြစ်ပြီး စီးပွားရေးရွှေ့ပြောင်းနေထိုင်သူမူ အဓိကအားဖြင့် ပိုကောင်းသောစီးပွားရေးအခွင့်အလမ်းရှာဖွေရန် ရွှေ့ပြောင်းသူဖြစ်ခြင်း',
+          'ဒုက္ခသည်ဆိုသည်မှာ မည်သည့်အကြောင်းရင်းနှင့်မဆို နယ်စပ်ဖြတ်ကျော်သူတိုင်းကို ခေါ်ခြင်း',
+          'စီးပွားရေးရွှေ့ပြောင်းနေထိုင်သူသည် ရောက်ရှိရာနိုင်ငံ၏ နိုင်ငံသားအဖြစ် အလိုအလျောက် အာမခံရရှိခြင်း',
+          'ဥပဒေရေးရာ ကွာခြားချက်ဟူ၍ လုံးဝမရှိဘဲ ဝေါဟာရနှစ်ခုကို တရားဝင်အစားထိုးသုံးနိုင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What did the World Health Organization\'s declaration of COVID-19 as a "pandemic" in 2020 signify?',
+        questionMy:
+            'ကမ္ဘာ့ကျန်းမာရေးအဖွဲ့ (WHO) က ၂၀၂၀ တွင် COVID-19 ကို "ကမ္ဘာလုံးဆိုင်ရာကူးစက်ရောဂါ (pandemic)" ဟု ကြေညာခြင်း၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'That the disease was spreading across multiple continents and affecting a large number of people worldwide',
+          'That the disease had been completely eradicated from every country',
+          'That only one single country was affected by the outbreak',
+          'That the disease could no longer be transmitted between humans',
+        ],
+        optionsMy: [
+          'ထိုရောဂါသည် ကျွန်းတိုက်များစွာတစ်လျှောက် ကူးစက်ပျံ့နှံ့ပြီး ကမ္ဘာတစ်ဝှမ်းရှိလူအများအပြားကို ထိခိုက်စေနေကြောင်း',
+          'ထိုရောဂါကို နိုင်ငံအားလုံးမှ လုံးဝပပျောက်အောင် ဖျက်သိမ်းပြီးဖြစ်ကြောင်း',
+          'ထိုကူးစက်ရောဂါဖြစ်ပွားမှုသည် နိုင်ငံတစ်ခုတည်းတွင်သာ ရှိကြောင်း',
+          'ထိုရောဂါသည် လူချင်းကူးစက်နိုင်တော့ခြင်း မရှိတော့ကြောင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the "digital divide" as a contemporary global issue?',
+        questionMy:
+            'ခေတ်ပြိုင်ကမ္ဘာလုံးဆိုင်ရာပြဿနာတစ်ခုအနေဖြင့် "ဒစ်ဂျစ်တယ်ကွာဟမှု (digital divide)" ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The gap between people or regions with reliable access to the internet and digital technology and those without it',
+          'A law requiring every country to use the same mobile phone brand',
+          'The physical distance between two internet data centers',
+          'A measure of how fast a single website loads on one device',
+        ],
+        optionsMy: [
+          'ယုံကြည်စိတ်ချရသော အင်တာနက်နှင့် ဒစ်ဂျစ်တယ်နည်းပညာ ရရှိသူများနှင့် မရရှိသူများကြား ကွာဟနေသောအခြေအနေ',
+          'နိုင်ငံအားလုံးတစ်သားတည်း မိုဘိုင်းဖုန်းအမှတ်တံဆိပ်တစ်ခုတည်း သုံးရမည့်ဥပဒေတစ်ရပ်',
+          'အင်တာနက်ဒေတာဗဟိုစခန်းနှစ်ခုကြား ရုပ်ပိုင်းဆိုင်ရာအကွာအဝေး',
+          'ဝက်ဘ်ဆိုက်တစ်ခုတည်းကို စက်ကိရိယာတစ်ခုတည်းပေါ်တွင် တင်ချိန်တိုင်းတာမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do international bodies treat antimicrobial resistance (AMR) as a growing global health threat?',
+        questionMy:
+            'ပိုးမွှားနှိမ်နှင်းဆေးများအား ခုခံနိုင်စွမ်း (antimicrobial resistance, AMR) ကို နိုင်ငံတကာအဖွဲ့အစည်းများက ကမ္ဘာလုံးဆိုင်ရာ ကျန်းမာရေးခြိမ်းခြောက်မှုတစ်ရပ်အဖြစ် အဘယ့်ကြောင့် သတ်မှတ်ကြသနည်း။',
+        optionsEn: [
+          'Overuse and misuse of antibiotics is causing bacteria to evolve resistance, making once-treatable infections harder or impossible to cure',
+          'It refers to computer viruses becoming resistant to antivirus software',
+          'It describes plants becoming resistant to sunlight in tropical climates',
+          'It means vaccines are becoming less effective against seasonal allergies',
+        ],
+        optionsMy: [
+          'ပဋိဇီဝဆေးများကို လွန်ကဲစွာသုံးစွဲခြင်းနှင့် မှားယွင်းစွာသုံးစွဲခြင်းကြောင့် ဘက်တီးရီးယားများ ခုခံနိုင်စွမ်းဖြစ်ပေါ်လာပြီး ယခင်ကကုသနိုင်ခဲ့သည့် ကူးစက်ရောဂါများကို ကုသရခက်ခဲ သို့မဟုတ် မကုသနိုင်တော့ခြင်း',
+          'ကွန်ပျူတာဗိုင်းရပ်စ်များ ဗိုင်းရပ်စ်ကာကွယ်ရေးဆော့ဖ်ဝဲကို ခုခံနိုင်စွမ်းဖြစ်လာခြင်းကို ရည်ညွှန်းခြင်း',
+          'အပူပိုင်းရာသီဥတုရှိ အပင်များ နေရောင်ခြည်ကို ခုခံနိုင်စွမ်းဖြစ်လာခြင်းကို ဖော်ပြခြင်း',
+          'ကာကွယ်ဆေးများသည် ရာသီအလိုက်ဓာတ်မတည့်မှုများကို ဒေါင်းလျော့ ထိရောက်မှုနည်းလာခြင်းကို ဆိုလိုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What best defines "food security" as discussed by global development organizations?',
+        questionMy:
+            'ကမ္ဘာလုံးဆိုင်ရာဖွံ့ဖြိုးရေးအဖွဲ့အစည်းများ ဆွေးနွေးလေ့ရှိသော "အစားအစာဖူလုံမှု (food security)" ကို အကောင်းဆုံးဖော်ပြသော အနက်ဖွင့်ဆိုချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A state in which all people, at all times, have physical and economic access to sufficient, safe, and nutritious food',
+          'A country\'s ability to export more food than it imports every year',
+          'A guarantee that food prices never change in any market',
+          'A military policy for protecting farmland from foreign invasion',
+        ],
+        optionsMy: [
+          'လူတိုင်းသည် အချိန်တိုင်းတွင် လုံလောက်၊ ဘေးကင်း၍ အာဟာရပြည့်ဝသော အစားအစာကို ရုပ်ပိုင်းဆိုင်ရာနှင့် စီးပွားရေးအရ ရယူနိုင်သောအခြေအနေ',
+          'နိုင်ငံတစ်ခုသည် နှစ်စဉ် တင်သွင်းသည်ထက် အစားအစာပိုမိုတင်ပို့နိုင်သော စွမ်းရည်',
+          'ဈေးကွက်မည်သည့်နေရာတွင်မဆို အစားအစာစျေးနှုန်း ဘယ်တော့မှ မပြောင်းလဲကြောင်း အာမခံချက်',
+          'လယ်ယာမြေများကို နိုင်ငံခြားကျူးကျော်မှုမှ ကာကွယ်ရန် စစ်ရေးမူဝါဒတစ်ရပ်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
