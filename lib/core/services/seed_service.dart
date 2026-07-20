@@ -1,5 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import '../../features/lessons/drag_match_bank.dart';
+import '../../features/lessons/fill_in_blank_bank.dart';
 import '../../features/lessons/nursery_kg_activity_bank.dart';
 import '../../features/lessons/primary_curriculum_bank.dart';
 import '../../features/lessons/secondary_curriculum_bank.dart';
@@ -20,7 +22,7 @@ import '../constants/app_constants.dart';
 /// is simpler and more predictable than a runtime content hash (e.g. a
 /// Burmese typo fix doesn't silently trigger a resync of everyone's next
 /// login).
-const String seedContentVersion = 'v2';
+const String seedContentVersion = 'v3';
 
 /// Fixed (not auto-generated) document ids for every demo/mock document
 /// [seedDatabase] writes.
@@ -107,6 +109,10 @@ Future<SeedSummary> seedDatabase(FirebaseFirestore db) async {
     ...mockSeedNurseryKgModules(),
     ...mockSeedPrimaryCurriculumModules(),
     ...mockSeedSecondaryCurriculumModules(),
+    ...mockSeedPrimaryFillBlankModules(),
+    ...mockSeedSecondaryFillBlankModules(),
+    ...mockSeedPrimaryDragMatchModules(),
+    ...mockSeedSecondaryDragMatchModules(),
   ];
 
   final batch = db.batch();
@@ -375,6 +381,98 @@ List<LearningModuleModel> mockSeedPrimaryCurriculumModules() {
 List<LearningModuleModel> mockSeedSecondaryCurriculumModules() {
   return [
     for (final activity in secondaryCurriculumBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
+  ];
+}
+
+/// The Primary (Year 1-6) `LearningModules` documents [seedDatabase]
+/// writes, derived from [primaryFillBlankBank] -- the actual fill-in-the-
+/// blank questions ([FillBlankModuleDef.questions]) are intentionally
+/// dropped here and never written to Firestore (same "content lives in
+/// Dart, not Firestore" design note as [mockSeedPrimaryCurriculumModules]);
+/// only catalog metadata is persisted.
+List<LearningModuleModel> mockSeedPrimaryFillBlankModules() {
+  return [
+    for (final activity in primaryFillBlankBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
+  ];
+}
+
+/// The Secondary/IGCSE `LearningModules` documents [seedDatabase] writes,
+/// derived from [secondaryFillBlankBank] -- the actual fill-in-the-blank
+/// questions ([FillBlankModuleDef.questions]) are intentionally dropped
+/// here and never written to Firestore (same "content lives in Dart, not
+/// Firestore" design note as [mockSeedPrimaryFillBlankModules]); only
+/// catalog metadata is persisted.
+List<LearningModuleModel> mockSeedSecondaryFillBlankModules() {
+  return [
+    for (final activity in secondaryFillBlankBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
+  ];
+}
+
+/// The Primary (Year 1-6) `LearningModules` documents [seedDatabase]
+/// writes, derived from [primaryDragMatchBank] -- the actual drag-match
+/// pairs ([DragMatchModuleDef.pairs]) are intentionally dropped here and
+/// never written to Firestore (same "content lives in Dart, not Firestore"
+/// design note as [mockSeedPrimaryCurriculumModules]); only catalog
+/// metadata is persisted.
+List<LearningModuleModel> mockSeedPrimaryDragMatchModules() {
+  return [
+    for (final activity in primaryDragMatchBank)
+      LearningModuleModel(
+        id: activity.id,
+        subject: activity.subject,
+        grade: activity.grade,
+        contentType: activity.contentType,
+        titleEn: activity.titleEn,
+        titleMy: activity.titleMy,
+        descriptionEn: activity.descriptionEn,
+        descriptionMy: activity.descriptionMy,
+        starsReward: activity.starsReward,
+      ),
+  ];
+}
+
+/// The Secondary/IGCSE `LearningModules` documents [seedDatabase] writes,
+/// derived from [secondaryDragMatchBank] -- the actual drag-match pairs
+/// ([DragMatchModuleDef.pairs]) are intentionally dropped here and never
+/// written to Firestore (same "content lives in Dart, not Firestore"
+/// design note as [mockSeedPrimaryDragMatchModules]); only catalog metadata
+/// is persisted.
+List<LearningModuleModel> mockSeedSecondaryDragMatchModules() {
+  return [
+    for (final activity in secondaryDragMatchBank)
       LearningModuleModel(
         id: activity.id,
         subject: activity.subject,

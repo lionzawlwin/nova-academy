@@ -214,5 +214,6 @@
   "homeModulesAvailable": "{count} modules available",
   "@homeModulesAvailable": {
     "placeholders": { "count": { "type": "int" } }
-  }
+  },
+  "homeLessonLocked": "Complete the previous lesson first!"
 }

@@ -44,6 +44,7 @@ class ChildModel with _$ChildModel {
     @Default('') String avatarUrl,
     @Default(Grade.nursery) Grade currentGrade,
     @Default(0) int totalStars,
+    @Default(<String>[]) List<String> completedModuleIds,
   }) = _ChildModel;
 
   factory ChildModel.fromJson(Map<String, dynamic> json) =>

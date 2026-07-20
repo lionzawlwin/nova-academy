@@ -520,4 +520,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String homeModulesAvailable(int count) {
     return '$count modules available';
   }
+
+  @override
+  String get homeLessonLocked => 'Complete the previous lesson first!';
 }

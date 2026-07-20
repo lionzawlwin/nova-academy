@@ -84,3 +84,22 @@ Future<void> deleteChild(FirebaseFirestore firestore, String childId) async {
       .doc(childId)
       .delete();
 }
+
+/// Records a completed module for [childId] and credits the stars earned.
+///
+/// Uses [FieldValue.arrayUnion]/[FieldValue.increment] instead of a
+/// read-modify-write so concurrent completions (e.g. two devices, or a retry
+/// after a dropped connection) can't clobber each other's writes, and
+/// replaying the same completion is safe -- arrayUnion won't duplicate an
+/// already-present moduleId.
+Future<void> markModuleCompleted(
+  FirebaseFirestore firestore, {
+  required String childId,
+  required String moduleId,
+  required int starsEarned,
+}) async {
+  await firestore.collection(AppConstants.childrenCollection).doc(childId).update({
+    'completedModuleIds': FieldValue.arrayUnion([moduleId]),
+    'totalStars': FieldValue.increment(starsEarned),
+  });
+}

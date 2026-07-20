@@ -1081,6 +1081,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{count} modules available'**
   String homeModulesAvailable(int count);
+
+  /// No description provided for @homeLessonLocked.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete the previous lesson first!'**
+  String get homeLessonLocked;
 }
 
 class _AppLocalizationsDelegate

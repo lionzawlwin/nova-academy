@@ -27,6 +27,7 @@ mixin _$ChildModel {
   String get avatarUrl => throw _privateConstructorUsedError;
   Grade get currentGrade => throw _privateConstructorUsedError;
   int get totalStars => throw _privateConstructorUsedError;
+  List<String> get completedModuleIds => throw _privateConstructorUsedError;
 
   /// Serializes this ChildModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -52,6 +53,7 @@ abstract class $ChildModelCopyWith<$Res> {
     String avatarUrl,
     Grade currentGrade,
     int totalStars,
+    List<String> completedModuleIds,
   });
 }
 
@@ -76,6 +78,7 @@ class _$ChildModelCopyWithImpl<$Res, $Val extends ChildModel>
     Object? avatarUrl = null,
     Object? currentGrade = null,
     Object? totalStars = null,
+    Object? completedModuleIds = null,
   }) {
     return _then(
       _value.copyWith(
@@ -103,6 +106,10 @@ class _$ChildModelCopyWithImpl<$Res, $Val extends ChildModel>
                 ? _value.totalStars
                 : totalStars // ignore: cast_nullable_to_non_nullable
                       as int,
+            completedModuleIds: null == completedModuleIds
+                ? _value.completedModuleIds
+                : completedModuleIds // ignore: cast_nullable_to_non_nullable
+                      as List<String>,
           )
           as $Val,
     );
@@ -125,6 +132,7 @@ abstract class _$$ChildModelImplCopyWith<$Res>
     String avatarUrl,
     Grade currentGrade,
     int totalStars,
+    List<String> completedModuleIds,
   });
 }
 
@@ -148,6 +156,7 @@ class __$$ChildModelImplCopyWithImpl<$Res>
     Object? avatarUrl = null,
     Object? currentGrade = null,
     Object? totalStars = null,
+    Object? completedModuleIds = null,
   }) {
     return _then(
       _$ChildModelImpl(
@@ -175,6 +184,10 @@ class __$$ChildModelImplCopyWithImpl<$Res>
             ? _value.totalStars
             : totalStars // ignore: cast_nullable_to_non_nullable
                   as int,
+        completedModuleIds: null == completedModuleIds
+            ? _value._completedModuleIds
+            : completedModuleIds // ignore: cast_nullable_to_non_nullable
+                  as List<String>,
       ),
     );
   }
@@ -190,7 +203,8 @@ class _$ChildModelImpl implements _ChildModel {
     this.avatarUrl = '',
     this.currentGrade = Grade.nursery,
     this.totalStars = 0,
-  });
+    final List<String> completedModuleIds = const <String>[],
+  }) : _completedModuleIds = completedModuleIds;
 
   factory _$ChildModelImpl.fromJson(Map<String, dynamic> json) =>
       _$$ChildModelImplFromJson(json);
@@ -210,10 +224,19 @@ class _$ChildModelImpl implements _ChildModel {
   @override
   @JsonKey()
   final int totalStars;
+  final List<String> _completedModuleIds;
+  @override
+  @JsonKey()
+  List<String> get completedModuleIds {
+    if (_completedModuleIds is EqualUnmodifiableListView)
+      return _completedModuleIds;
+    // ignore: implicit_dynamic_type
+    return EqualUnmodifiableListView(_completedModuleIds);
+  }
 
   @override
   String toString() {
-    return 'ChildModel(id: $id, parentId: $parentId, aliasName: $aliasName, avatarUrl: $avatarUrl, currentGrade: $currentGrade, totalStars: $totalStars)';
+    return 'ChildModel(id: $id, parentId: $parentId, aliasName: $aliasName, avatarUrl: $avatarUrl, currentGrade: $currentGrade, totalStars: $totalStars, completedModuleIds: $completedModuleIds)';
   }
 
   @override
@@ -231,7 +254,11 @@ class _$ChildModelImpl implements _ChildModel {
             (identical(other.currentGrade, currentGrade) ||
                 other.currentGrade == currentGrade) &&
             (identical(other.totalStars, totalStars) ||
-                other.totalStars == totalStars));
+                other.totalStars == totalStars) &&
+            const DeepCollectionEquality().equals(
+              other._completedModuleIds,
+              _completedModuleIds,
+            ));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -244,6 +271,7 @@ class _$ChildModelImpl implements _ChildModel {
     avatarUrl,
     currentGrade,
     totalStars,
+    const DeepCollectionEquality().hash(_completedModuleIds),
   );
 
   /// Create a copy of ChildModel
@@ -268,6 +296,7 @@ abstract class _ChildModel implements ChildModel {
     final String avatarUrl,
     final Grade currentGrade,
     final int totalStars,
+    final List<String> completedModuleIds,
   }) = _$ChildModelImpl;
 
   factory _ChildModel.fromJson(Map<String, dynamic> json) =
@@ -285,6 +314,8 @@ abstract class _ChildModel implements ChildModel {
   Grade get currentGrade;
   @override
   int get totalStars;
+  @override
+  List<String> get completedModuleIds;
 
   /// Create a copy of ChildModel
   /// with the given fields replaced by the non-null parameter values.

@@ -405,4 +405,320 @@ void main() {
       }
     });
   });
+
+  group('mockSeedPrimaryFillBlankModules', () {
+    final modules = mockSeedPrimaryFillBlankModules();
+    final legacyModules = mockSeedLearningModules();
+    final nurseryModules = mockSeedNurseryKgModules();
+    final primaryQuizModules = mockSeedPrimaryCurriculumModules();
+    final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
+
+    test('has exactly 6 modules', () {
+      expect(modules.length, 6);
+    });
+
+    test(
+      'every module id is unique, including against other module groups',
+      () {
+        final allIds = [
+          ...modules,
+          ...legacyModules,
+          ...nurseryModules,
+          ...primaryQuizModules,
+          ...secondaryQuizModules,
+        ].map((m) => m.id).toList();
+        expect(allIds.toSet().length, allIds.length);
+      },
+    );
+
+    test('every module grade is year1 through year6', () {
+      const expectedGrades = {
+        Grade.year1,
+        Grade.year2,
+        Grade.year3,
+        Grade.year4,
+        Grade.year5,
+        Grade.year6,
+      };
+      for (final module in modules) {
+        expect(
+          expectedGrades.contains(module.grade),
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test('every module has content type fillBlank', () {
+      for (final module in modules) {
+        expect(module.contentType, 'fillBlank', reason: module.id);
+      }
+    });
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+
+    test('every module grants a positive star reward', () {
+      for (final module in modules) {
+        expect(
+          module.starsReward,
+          greaterThan(0),
+          reason: '${module.id} has no star reward',
+        );
+      }
+    });
+  });
+
+  group('mockSeedSecondaryFillBlankModules', () {
+    final modules = mockSeedSecondaryFillBlankModules();
+    final legacyModules = mockSeedLearningModules();
+    final nurseryModules = mockSeedNurseryKgModules();
+    final primaryQuizModules = mockSeedPrimaryCurriculumModules();
+    final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
+    final primaryFillBlankModules = mockSeedPrimaryFillBlankModules();
+
+    test('has exactly 4 modules', () {
+      expect(modules.length, 4);
+    });
+
+    test(
+      'every module id is unique, including against other module groups',
+      () {
+        final allIds = [
+          ...modules,
+          ...legacyModules,
+          ...nurseryModules,
+          ...primaryQuizModules,
+          ...secondaryQuizModules,
+          ...primaryFillBlankModules,
+        ].map((m) => m.id).toList();
+        expect(allIds.toSet().length, allIds.length);
+      },
+    );
+
+    test('every module grade is secondary1 through igcse', () {
+      const expectedGrades = {
+        Grade.secondary1,
+        Grade.secondary2,
+        Grade.secondary3,
+        Grade.igcse,
+      };
+      for (final module in modules) {
+        expect(
+          expectedGrades.contains(module.grade),
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test('every module has content type fillBlank', () {
+      for (final module in modules) {
+        expect(module.contentType, 'fillBlank', reason: module.id);
+      }
+    });
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+
+    test('every module grants a positive star reward', () {
+      for (final module in modules) {
+        expect(
+          module.starsReward,
+          greaterThan(0),
+          reason: '${module.id} has no star reward',
+        );
+      }
+    });
+  });
+
+  group('mockSeedPrimaryDragMatchModules', () {
+    final modules = mockSeedPrimaryDragMatchModules();
+    final legacyModules = mockSeedLearningModules();
+    final nurseryModules = mockSeedNurseryKgModules();
+    final primaryQuizModules = mockSeedPrimaryCurriculumModules();
+    final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
+    final primaryFillBlankModules = mockSeedPrimaryFillBlankModules();
+    final secondaryFillBlankModules = mockSeedSecondaryFillBlankModules();
+
+    test('has exactly 6 modules', () {
+      expect(modules.length, 6);
+    });
+
+    test(
+      'every module id is unique, including against other module groups',
+      () {
+        final allIds = [
+          ...modules,
+          ...legacyModules,
+          ...nurseryModules,
+          ...primaryQuizModules,
+          ...secondaryQuizModules,
+          ...primaryFillBlankModules,
+          ...secondaryFillBlankModules,
+        ].map((m) => m.id).toList();
+        expect(allIds.toSet().length, allIds.length);
+      },
+    );
+
+    test('every module grade is year1 through year6', () {
+      const expectedGrades = {
+        Grade.year1,
+        Grade.year2,
+        Grade.year3,
+        Grade.year4,
+        Grade.year5,
+        Grade.year6,
+      };
+      for (final module in modules) {
+        expect(
+          expectedGrades.contains(module.grade),
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test('every module has content type dragMatch', () {
+      for (final module in modules) {
+        expect(module.contentType, 'dragMatch', reason: module.id);
+      }
+    });
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+
+    test('every module grants a positive star reward', () {
+      for (final module in modules) {
+        expect(
+          module.starsReward,
+          greaterThan(0),
+          reason: '${module.id} has no star reward',
+        );
+      }
+    });
+  });
+
+  group('mockSeedSecondaryDragMatchModules', () {
+    final modules = mockSeedSecondaryDragMatchModules();
+    final legacyModules = mockSeedLearningModules();
+    final nurseryModules = mockSeedNurseryKgModules();
+    final primaryQuizModules = mockSeedPrimaryCurriculumModules();
+    final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
+    final primaryFillBlankModules = mockSeedPrimaryFillBlankModules();
+    final secondaryFillBlankModules = mockSeedSecondaryFillBlankModules();
+    final primaryDragMatchModules = mockSeedPrimaryDragMatchModules();
+
+    test('has exactly 4 modules', () {
+      expect(modules.length, 4);
+    });
+
+    test(
+      'every module id is unique, including against other module groups',
+      () {
+        final allIds = [
+          ...modules,
+          ...legacyModules,
+          ...nurseryModules,
+          ...primaryQuizModules,
+          ...secondaryQuizModules,
+          ...primaryFillBlankModules,
+          ...secondaryFillBlankModules,
+          ...primaryDragMatchModules,
+        ].map((m) => m.id).toList();
+        expect(allIds.toSet().length, allIds.length);
+      },
+    );
+
+    test('every module grade is secondary1 through igcse', () {
+      const expectedGrades = {
+        Grade.secondary1,
+        Grade.secondary2,
+        Grade.secondary3,
+        Grade.igcse,
+      };
+      for (final module in modules) {
+        expect(
+          expectedGrades.contains(module.grade),
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test('every module has content type dragMatch', () {
+      for (final module in modules) {
+        expect(module.contentType, 'dragMatch', reason: module.id);
+      }
+    });
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+
+    test('every module grants a positive star reward', () {
+      for (final module in modules) {
+        expect(
+          module.starsReward,
+          greaterThan(0),
+          reason: '${module.id} has no star reward',
+        );
+      }
+    });
+  });
 }

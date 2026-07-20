@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
@@ -11,8 +10,7 @@ import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/learning_module_providers.dart';
-import '../../routing/app_router.dart';
-import '../lessons/mcq_quiz_screen.dart';
+import '../lessons/lesson_navigation.dart';
 import 'home_shared_widgets.dart';
 
 /// A reasonable "full stars" goal used purely to give the progress summary
@@ -58,6 +56,14 @@ String _labelFor(AppLocalizations l10n, String key) {
     default:
       return key;
   }
+}
+
+/// Whether [module] is one [child] has already finished, per
+/// [ChildModel.completedModuleIds]. A `null` child (no active student
+/// profile, e.g. an owner/parent/teacher viewing this screen directly)
+/// never counts anything as completed.
+bool _isModuleCompleted(ChildModel? child, LearningModuleModel module) {
+  return child?.completedModuleIds.contains(module.id) ?? false;
 }
 
 /// The Secondary/IGCSE student home: a mature, information-dense dashboard
@@ -160,7 +166,14 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               Column(
                 children: [
                   for (var i = 0; i < gradeModules.length; i++)
-                    _ModuleListTile(module: gradeModules[i], locale: locale),
+                    _ModuleListTile(
+                      module: gradeModules[i],
+                      locale: locale,
+                      isCompleted: _isModuleCompleted(child, gradeModules[i]),
+                      isLocked: i > 0 &&
+                          !_isModuleCompleted(child, gradeModules[i]) &&
+                          !_isModuleCompleted(child, gradeModules[i - 1]),
+                    ),
                 ],
               ),
             const SizedBox(height: 24),
@@ -537,19 +550,133 @@ class _SubjectCardState extends State<_SubjectCard>
 /// spec's Deep Cobalt jewel accent instead of the old per-index
 /// [AppColors.secondaryPalette] rotation; the star count uses
 /// [AppColors.goldMedal] per the spec's success/star token.
+///
+/// Also carries the progression/unlock system: a row is locked when
+/// neither it nor the row directly before it has been completed (index 0
+/// is never locked) -- it renders muted with a lock glyph swapped in for
+/// the book icon, and tapping surfaces a hint instead of opening the
+/// detail dialog. A completed row stays at full styling, gains a small
+/// gold checkmark badge on its icon chip, and remains fully tappable for
+/// replay -- completion never re-locks content.
 class _ModuleListTile extends StatelessWidget {
-  const _ModuleListTile({required this.module, required this.locale});
+  const _ModuleListTile({
+    required this.module,
+    required this.locale,
+    required this.isCompleted,
+    required this.isLocked,
+  });
 
   final LearningModuleModel module;
   final String locale;
 
+  /// True once [module.id] is in the active child's
+  /// [ChildModel.completedModuleIds] -- stays fully tappable for replay,
+  /// never locked, per product spec.
+  final bool isCompleted;
+
+  /// True when this row sits after index 0 and neither it nor the row
+  /// immediately before it has been completed yet -- computed by the
+  /// caller from [ChildModel.completedModuleIds] order in `gradeModules`.
+  final bool isLocked;
+
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
     final title = locale == 'my' ? module.titleMy : module.titleEn;
     final description = locale == 'my'
         ? module.descriptionMy
         : module.descriptionEn;
+
+    // Locked rows render visually muted (via reduced opacity on the whole
+    // face content) but stay tappable -- unlike `CandyBevelState.disabled`,
+    // which would swallow the tap entirely, a locked row still needs its
+    // `onTap` to fire so it can surface the "complete the previous module
+    // first" hint below.
+    final row = Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Stack(
+          clipBehavior: Clip.none,
+          children: [
+            Container(
+              width: 44,
+              height: 44,
+              decoration: BoxDecoration(
+                color: isLocked
+                    ? theme.colorScheme.outline.withValues(alpha: 0.35)
+                    : AppColors.deepCobalt,
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Icon(
+                isLocked ? Icons.lock_rounded : Icons.menu_book_rounded,
+                color: Colors.white,
+                size: 22,
+              ),
+            ),
+            if (isCompleted)
+              Positioned(
+                right: -4,
+                bottom: -4,
+                child: Container(
+                  padding: const EdgeInsets.all(2),
+                  decoration: BoxDecoration(
+                    color: AppColors.goldMedal,
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: theme.colorScheme.surfaceContainerHigh,
+                      width: 2,
+                    ),
+                  ),
+                  child: const Icon(
+                    Icons.check_rounded,
+                    size: 12,
+                    color: AppColors.charcoalNavy,
+                  ),
+                ),
+              ),
+          ],
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                title,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: theme.textTheme.titleSmall?.copyWith(
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              if (description.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 2),
+                  child: Text(
+                    description,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.outline,
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+        const SizedBox(width: 8),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.star_rounded, color: AppColors.goldMedal, size: 16),
+            const SizedBox(width: 2),
+            Text('${module.starsReward}', style: theme.textTheme.bodySmall),
+          ],
+        ),
+      ],
+    );
 
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
@@ -558,67 +685,16 @@ class _ModuleListTile extends StatelessWidget {
         bevelDepth: CandyBevelDepth.secondary,
         borderRadius: AppTheme.radiusMedium,
         padding: const EdgeInsets.all(14),
-        onTap: () => _showDetail(context, title, description),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              width: 44,
-              height: 44,
-              decoration: BoxDecoration(
-                color: AppColors.deepCobalt,
-                borderRadius: BorderRadius.circular(14),
-              ),
-              child: const Icon(
-                Icons.menu_book_rounded,
-                color: Colors.white,
-                size: 22,
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    title,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: theme.textTheme.titleSmall?.copyWith(
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                  if (description.isNotEmpty)
-                    Padding(
-                      padding: const EdgeInsets.only(top: 2),
-                      child: Text(
-                        description,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.outline,
-                        ),
-                      ),
-                    ),
-                ],
-              ),
-            ),
-            const SizedBox(width: 8),
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Icon(
-                  Icons.star_rounded,
-                  color: AppColors.goldMedal,
-                  size: 16,
-                ),
-                const SizedBox(width: 2),
-                Text('${module.starsReward}', style: theme.textTheme.bodySmall),
-              ],
-            ),
-          ],
-        ),
+        onTap: () {
+          if (isLocked) {
+            ScaffoldMessenger.of(context)
+              ..hideCurrentSnackBar()
+              ..showSnackBar(SnackBar(content: Text(l10n.homeLessonLocked)));
+            return;
+          }
+          _showDetail(context, title, description);
+        },
+        child: isLocked ? Opacity(opacity: 0.5, child: row) : row,
       ),
     );
   }
@@ -627,9 +703,11 @@ class _ModuleListTile extends StatelessWidget {
   /// theme convention -- "chrome stays calm"), but its actionable Close/
   /// Explore buttons get the shallow [CandyBevelSurface] treatment per the
   /// spec's "every actionable element inside [a dialog] still gets the
-  /// two-layer bevel treatment" rule. The Explore button's navigation
-  /// logic (`Navigator.pop` then `context.push` to the shared quiz screen)
-  /// is untouched -- restyled visually only.
+  /// two-layer bevel treatment" rule. The Explore button now dispatches
+  /// through [pushLessonForModule] rather than hardcoding the MCQ quiz
+  /// route, so fill-in-blank/drag-match modules land on their own lesson
+  /// screens while existing quiz modules keep working exactly as before
+  /// (the function's fallback path).
   void _showDetail(BuildContext context, String title, String description) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
@@ -664,14 +742,12 @@ class _ModuleListTile extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
             onTap: () {
               Navigator.of(dialogContext).pop();
-              context.push(
-                AppRoutes.lessonPrimaryQuiz,
-                extra: McqQuizArgs(
-                  title: title,
-                  subject: module.subject,
-                  stars: module.starsReward,
-                  moduleId: module.id,
-                ),
+              pushLessonForModule(
+                context,
+                module: module,
+                title: title,
+                subjectKey: module.subject,
+                stars: module.starsReward,
               );
             },
             child: FittedBox(

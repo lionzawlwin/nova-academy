@@ -1,8 +1,8 @@
 import 'dart:math';
 
+import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
@@ -13,8 +13,7 @@ import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/learning_module_providers.dart';
-import '../../routing/app_router.dart';
-import '../lessons/mcq_quiz_screen.dart';
+import '../lessons/lesson_navigation.dart';
 import 'home_shared_widgets.dart';
 
 /// Candy Core pushes the shared [AppColors.primaryPalette] 15-20% more
@@ -43,6 +42,8 @@ class _PathNodeData {
     required this.stars,
     required this.module,
     required this.subjectKey,
+    required this.isCompleted,
+    required this.isLocked,
   });
 
   final String title;
@@ -57,6 +58,18 @@ class _PathNodeData {
   /// [LearningModuleModel.subject], or a reasonable placeholder key when no
   /// module has been seeded yet for this grade (see [_buildNodes]).
   final String subjectKey;
+
+  /// Whether the active child's [ChildModel.completedModuleIds] already
+  /// contains [module]'s id. Completed nodes stay fully unlocked/tappable
+  /// (explicit product spec -- replaying a finished lesson is allowed) and
+  /// get a checkmark badge instead of/alongside the stars badge.
+  final bool isCompleted;
+
+  /// True only for a real (non-placeholder) module node the child hasn't
+  /// completed yet whose immediately preceding node also isn't completed.
+  /// The placeholder/empty-catalog fallback path never sets this -- there's
+  /// nothing to gate when there's no real per-module progress to track.
+  final bool isLocked;
 }
 
 /// The Year 1-6 student home: a scrollable, gamified path of module
@@ -78,6 +91,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
       locale,
       child?.currentGrade,
       modulesAsync.valueOrNull,
+      child?.completedModuleIds.toSet() ?? const <String>{},
     );
 
     return Scaffold(
@@ -106,7 +120,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
               sliver: SliverToBoxAdapter(
                 child: _LearningPath(
                   nodes: nodes,
-                  onTapNode: (node) => _showNodeSheet(context, node),
+                  onTapNode: (node) => _handleNodeTap(context, node),
                 ),
               ),
             ),
@@ -127,6 +141,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
     String locale,
     Grade? grade,
     List<LearningModuleModel>? allModules,
+    Set<String> completedModuleIds,
   ) {
     final gradeModules = (allModules ?? const <LearningModuleModel>[])
         .where((m) => grade == null || m.grade == grade)
@@ -147,6 +162,15 @@ class PrimaryHomeScreen extends ConsumerWidget {
             stars: gradeModules[i].starsReward,
             module: gradeModules[i],
             subjectKey: gradeModules[i].subject.toLowerCase(),
+            isCompleted: completedModuleIds.contains(gradeModules[i].id),
+            // Node 0 is never locked; every other node unlocks the moment
+            // the immediately preceding node is completed (a completed
+            // node is always considered unlocked too, so this never
+            // re-locks a node the child has already finished).
+            isLocked:
+                i > 0 &&
+                !completedModuleIds.contains(gradeModules[i].id) &&
+                !completedModuleIds.contains(gradeModules[i - 1].id),
           ),
       ];
     }
@@ -176,6 +200,8 @@ class PrimaryHomeScreen extends ConsumerWidget {
           stars: 0,
           module: null,
           subjectKey: placeholders[i].$3,
+          isCompleted: false,
+          isLocked: false,
         ),
     ];
   }
@@ -219,6 +245,22 @@ class PrimaryHomeScreen extends ConsumerWidget {
       default:
         return Icons.auto_stories_rounded;
     }
+  }
+
+  /// Gate for tapping a path node: a locked node never opens the start
+  /// sheet -- it just surfaces a brief hint so a curious tap doesn't feel
+  /// like a dead/broken button. Completed and unlocked-but-not-yet-started
+  /// nodes both open the sheet as normal (completed nodes stay fully
+  /// replayable, per product spec).
+  void _handleNodeTap(BuildContext context, _PathNodeData node) {
+    if (node.isLocked) {
+      final l10n = AppLocalizations.of(context);
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(l10n.homeLessonLocked)));
+      return;
+    }
+    _showNodeSheet(context, node);
   }
 
   Future<void> _showNodeSheet(BuildContext context, _PathNodeData node) async {
@@ -303,14 +345,12 @@ class PrimaryHomeScreen extends ConsumerWidget {
                   padding: const EdgeInsets.symmetric(vertical: 16),
                   onTap: () {
                     Navigator.of(sheetContext).pop();
-                    context.push(
-                      AppRoutes.lessonPrimaryQuiz,
-                      extra: McqQuizArgs(
-                        title: node.title,
-                        subject: node.subjectKey,
-                        stars: node.stars > 0 ? node.stars : 10,
-                        moduleId: node.module?.id,
-                      ),
+                    pushLessonForModule(
+                      context,
+                      module: node.module,
+                      title: node.title,
+                      subjectKey: node.subjectKey,
+                      stars: node.stars > 0 ? node.stars : 10,
                     );
                   },
                   child: Row(
@@ -428,12 +468,26 @@ class _LearningPath extends StatelessWidget {
 
   static const double _rowHeight = 148;
 
-  double _xFor(int index) => sin(index * 1.3) * 0.62;
+  /// Must match `_PathNodeState`'s outer `SizedBox(width: ...)` -- the
+  /// painter needs this to resolve each node's *actual* rendered center-x
+  /// from the same `Align(alignment: Alignment(x, 0))` math the nodes
+  /// themselves are positioned with (an `Align` centers its child within
+  /// `(box size - child size)`, not the full box, so the painter has to
+  /// account for the child's width to land on the same pixel).
+  static const double _nodeWidth = 128;
+
+  /// Per-node horizontal weave offset, in `Alignment` units (-1..1). Bumped
+  /// from the original 0.62 now that the dashed line actually follows this
+  /// curve (see `_DashedPathPainter`) -- 0.62 read as too subtle once the
+  /// line threads through the real node positions instead of running
+  /// straight down the center.
+  double _xFor(int index) => sin(index * 1.3) * 0.78;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final totalHeight = nodes.length * _rowHeight;
+    final xFractions = [for (var i = 0; i < nodes.length; i++) _xFor(i)];
 
     return SizedBox(
       height: totalHeight,
@@ -443,6 +497,9 @@ class _LearningPath extends StatelessWidget {
             child: CustomPaint(
               painter: _DashedPathPainter(
                 color: theme.colorScheme.outlineVariant,
+                xFractions: xFractions,
+                rowHeight: _rowHeight,
+                nodeWidth: _nodeWidth,
               ),
             ),
           ),
@@ -453,7 +510,7 @@ class _LearningPath extends StatelessWidget {
               right: 0,
               height: _rowHeight,
               child: Align(
-                alignment: Alignment(_xFor(i), 0),
+                alignment: Alignment(xFractions[i], 0),
                 child: _PathNode(
                   data: nodes[i],
                   index: i,
@@ -467,30 +524,89 @@ class _LearningPath extends StatelessWidget {
   }
 }
 
+/// Draws the dashed trail connecting every path node's real screen-space
+/// center point in order, in one smooth winding curve -- rather than the
+/// old single straight line down the canvas's horizontal center, which
+/// ignored where the (already sine-weaved) nodes actually sat.
 class _DashedPathPainter extends CustomPainter {
-  const _DashedPathPainter({required this.color});
+  const _DashedPathPainter({
+    required this.color,
+    required this.xFractions,
+    required this.rowHeight,
+    required this.nodeWidth,
+  });
 
   final Color color;
 
+  /// Each node's `Alignment` x-fraction (-1..1), one per node, same order
+  /// as the path.
+  final List<double> xFractions;
+  final double rowHeight;
+  final double nodeWidth;
+
+  /// Resolves every node's actual rendered center point for this canvas
+  /// [size], mirroring `Align(alignment: Alignment(x, 0))`'s own math: the
+  /// child's center sits at `boxCenter + x * (boxSize - childSize) / 2`
+  /// horizontally, and at the vertical center of its `rowHeight`-tall row.
+  List<Offset> _nodeCenters(Size size) {
+    final halfSpan = (size.width - nodeWidth) / 2;
+    return [
+      for (var i = 0; i < xFractions.length; i++)
+        Offset(
+          size.width / 2 + xFractions[i] * halfSpan,
+          i * rowHeight + rowHeight / 2,
+        ),
+    ];
+  }
+
+  /// Builds a single smooth curve threading through every point in
+  /// [points], in order, via a Catmull-Rom-to-cubic-Bezier conversion
+  /// (uniform, tension 1/6) -- unlike a straight polyline, this reads as a
+  /// genuinely playful winding S-curve rather than sharp zig-zags between
+  /// nodes.
+  Path _smoothPathThrough(List<Offset> points) {
+    final path = Path()..moveTo(points.first.dx, points.first.dy);
+    for (var i = 0; i < points.length - 1; i++) {
+      final p0 = i == 0 ? points[i] : points[i - 1];
+      final p1 = points[i];
+      final p2 = points[i + 1];
+      final p3 = i + 2 < points.length ? points[i + 2] : points[i + 1];
+      final c1 = p1 + (p2 - p0) / 6;
+      final c2 = p2 - (p3 - p1) / 6;
+      path.cubicTo(c1.dx, c1.dy, c2.dx, c2.dy, p2.dx, p2.dy);
+    }
+    return path;
+  }
+
   @override
   void paint(Canvas canvas, Size size) {
+    if (xFractions.length < 2) return;
+
     final paint = Paint()
       ..color = color
+      ..style = PaintingStyle.stroke
       ..strokeWidth = 4
       ..strokeCap = StrokeCap.round;
-    const dashHeight = 10.0;
+    const dashLength = 10.0;
     const gap = 8.0;
-    final x = size.width / 2;
-    var y = 0.0;
-    while (y < size.height) {
-      canvas.drawLine(Offset(x, y), Offset(x, y + dashHeight), paint);
-      y += dashHeight + gap;
+
+    final path = _smoothPathThrough(_nodeCenters(size));
+    for (final metric in path.computeMetrics()) {
+      var distance = 0.0;
+      while (distance < metric.length) {
+        final end = min(distance + dashLength, metric.length);
+        canvas.drawPath(metric.extractPath(distance, end), paint);
+        distance += dashLength + gap;
+      }
     }
   }
 
   @override
   bool shouldRepaint(covariant _DashedPathPainter oldDelegate) =>
-      oldDelegate.color != color;
+      oldDelegate.color != color ||
+      oldDelegate.rowHeight != rowHeight ||
+      oldDelegate.nodeWidth != nodeWidth ||
+      !listEquals(oldDelegate.xFractions, xFractions);
 }
 
 /// One winding-path stop, rebuilt on [CandyBevelSurface] per the design
@@ -501,11 +617,15 @@ class _DashedPathPainter extends CustomPainter {
 /// only this node's own surface changes.
 ///
 /// Also wires the spec's "newly-unlocked path nodes ... 'drop and bounce'
-/// entrance" motion: since this build has no unlock/lock state to key off
-/// of yet (out of scope for this visual-only mission, see the spec's
-/// Non-goals), every node plays the entrance once on first load, staggered
-/// 60ms apart by [index] -- the literal "on first load" case the spec
-/// describes.
+/// entrance" motion: every node plays the entrance once on first load,
+/// staggered 60ms apart by [index] -- the literal "on first load" case the
+/// spec describes. [_PathNodeData.isLocked] renders the face desaturated
+/// with a small lock badge and keeps `onTap` wired (the parent screen's tap
+/// handler shows a friendly hint instead of opening the start sheet for a
+/// locked node, rather than the tap simply doing nothing).
+/// [_PathNodeData.isCompleted] nodes stay full color and fully tappable --
+/// replaying a finished lesson is allowed -- and get a small checkmark
+/// badge alongside the stars badge.
 class _PathNode extends StatefulWidget {
   const _PathNode({
     required this.data,
@@ -596,7 +716,14 @@ class _PathNodeState extends State<_PathNode>
               clipBehavior: Clip.none,
               children: [
                 CandyBevelSurface(
-                  faceColor: data.color,
+                  // Locked nodes desaturate to a neutral grey face (the
+                  // same `outlineVariant` token the path line itself uses)
+                  // rather than a dimmed copy of their subject color, so
+                  // "locked" reads unambiguously at a glance instead of
+                  // just looking like a duller version of the same hue.
+                  faceColor: data.isLocked
+                      ? theme.colorScheme.outlineVariant
+                      : data.color,
                   bevelDepth: CandyBevelDepth.primary,
                   borderRadius: _faceSize / 2,
                   width: _faceSize,
@@ -606,9 +733,21 @@ class _PathNodeState extends State<_PathNode>
                     color: theme.colorScheme.surface,
                     width: 4,
                   ),
+                  // Stays wired (not null) even while locked -- the parent
+                  // screen's tap handler is the one that decides whether to
+                  // open the start sheet or show a "complete the previous
+                  // lesson first" hint, so a locked node's tap still gives
+                  // the child feedback instead of behaving like a dead
+                  // button.
                   onTap: widget.onTap,
                   child: Center(
-                    child: Icon(data.icon, color: Colors.white, size: 36),
+                    child: Icon(
+                      data.icon,
+                      color: Colors.white.withValues(
+                        alpha: data.isLocked ? 0.75 : 1,
+                      ),
+                      size: 36,
+                    ),
                   ),
                 ),
                 // Per the spec's Primary per-tier note: "star-count badges
@@ -635,6 +774,42 @@ class _PathNodeState extends State<_PathNode>
                             fontWeight: FontWeight.w800,
                           ),
                         ),
+                      ),
+                    ),
+                  ),
+                // Completed nodes keep full color and stay tappable (so a
+                // child can replay any lesson) -- this checkmark badge is
+                // the "still completed" affordance, sitting in the opposite
+                // top-right corner so it never collides with the star badge
+                // below it.
+                if (data.isCompleted)
+                  Positioned(
+                    right: -4,
+                    top: -4,
+                    child: GlossyBadge(
+                      size: 26,
+                      faceColor: AppColors.secondary,
+                      value: const Icon(
+                        Icons.check_rounded,
+                        size: 15,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                // Small lock overlay -- pairs with the desaturated face
+                // above to make "not yet unlocked" unambiguous even before
+                // a child reads/taps anything.
+                if (data.isLocked)
+                  Positioned(
+                    left: -4,
+                    top: -4,
+                    child: GlossyBadge(
+                      size: 26,
+                      faceColor: theme.colorScheme.outline,
+                      value: const Icon(
+                        Icons.lock_rounded,
+                        size: 14,
+                        color: Colors.white,
                       ),
                     ),
                   ),

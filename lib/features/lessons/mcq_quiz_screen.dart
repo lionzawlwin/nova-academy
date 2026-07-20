@@ -9,6 +9,9 @@ import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/glossy_badge.dart';
 import '../../core/widgets/language_toggle_button.dart';
+import '../../providers/active_profile_provider.dart';
+import '../../providers/children_providers.dart';
+import '../../providers/firebase_providers.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
 
@@ -83,6 +86,26 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     _questions = quizQuestionsForModule(
       widget.args.moduleId,
       widget.args.subject,
+    ).map(_shuffled).toList();
+  }
+
+  /// Returns a copy of [q] with its options shuffled into a random order
+  /// (English/Burmese kept in lockstep, per the bilingual convention) and
+  /// [QuizQuestion.correctIndex] remapped to match.
+  ///
+  /// Almost every authored question in the curriculum banks happens to list
+  /// the correct answer first (an authoring artifact, not by design), which
+  /// made "always tap option A" a winning strategy. Shuffling once per
+  /// question load -- not per rebuild -- fixes that regardless of how the
+  /// underlying mock data is ordered.
+  static QuizQuestion _shuffled(QuizQuestion q) {
+    final order = List<int>.generate(q.optionsEn.length, (i) => i)..shuffle();
+    return QuizQuestion(
+      questionEn: q.questionEn,
+      questionMy: q.questionMy,
+      optionsEn: [for (final i in order) q.optionsEn[i]],
+      optionsMy: [for (final i in order) q.optionsMy[i]],
+      correctIndex: order.indexOf(q.correctIndex),
     );
   }
 
@@ -110,6 +133,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     if (!mounted) return;
     if (_currentIndex >= _questions.length - 1) {
       setState(() => _finished = true);
+      unawaited(_recordCompletion());
       return;
     }
     setState(() {
@@ -122,6 +146,37 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   int get _starsEarned {
     if (_questions.isEmpty) return 0;
     return (_score / _questions.length * widget.args.stars).round();
+  }
+
+  /// Persists this quiz completion to the active student's `Children` doc
+  /// (stars earned + completed-module id, via [markModuleCompleted]).
+  ///
+  /// Skipped entirely -- not just a no-op write -- when there's no real
+  /// student/module to record against: a parent/teacher/owner previewing
+  /// content in [SelfProfile] mode has no child to credit, and placeholder
+  /// content with no seeded [McqQuizArgs.moduleId] has nothing to mark
+  /// complete. Fire-and-forget from [_advance] (via `unawaited`) so the
+  /// results-screen transition never blocks on a network write; failures
+  /// are still logged rather than silently swallowed, matching
+  /// `curriculum_sync_provider.dart`'s `curriculumAutoSyncProvider` style.
+  Future<void> _recordCompletion() async {
+    final moduleId = widget.args.moduleId;
+    if (moduleId == null) return;
+
+    final activeProfile = ref.read(activeProfileProvider);
+    if (activeProfile is! StudentProfile) return;
+
+    try {
+      await markModuleCompleted(
+        ref.read(firestoreProvider),
+        childId: activeProfile.child.id,
+        moduleId: moduleId,
+        starsEarned: _starsEarned,
+      );
+    } catch (e, st) {
+      debugPrint('[McqQuizScreen] markModuleCompleted FAILED: $e');
+      debugPrint('[McqQuizScreen] stack trace:\n$st');
+    }
   }
 
   @override

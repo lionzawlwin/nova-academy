@@ -184,5 +184,6 @@
   "homeProgressSummaryTitle": "တိုးတက်မှု အနှစ်ချုပ်",
   "homeNoModulesYet": "မော်ဂျူးများ မရှိသေးပါ — မကြာမီ ပြန်စစ်ပါ။",
   "homeStarsProgress": "ကြယ် {current} / {goal}",
-  "homeModulesAvailable": "မော်ဂျူး {count} ခု ရရှိနိုင်သည်"
+  "homeModulesAvailable": "မော်ဂျူး {count} ခု ရရှိနိုင်သည်",
+  "homeLessonLocked": "ယခင်သင်ခန်းစာကို အရင်ပြီးအောင်လုပ်ပါ။"
 }

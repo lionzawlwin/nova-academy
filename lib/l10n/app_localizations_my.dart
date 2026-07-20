@@ -524,4 +524,7 @@ class AppLocalizationsMy extends AppLocalizations {
   String homeModulesAvailable(int count) {
     return 'မော်ဂျူး $count ခု ရရှိနိုင်သည်';
   }
+
+  @override
+  String get homeLessonLocked => 'ယခင်သင်ခန်းစာကို အရင်ပြီးအောင်လုပ်ပါ။';
 }
