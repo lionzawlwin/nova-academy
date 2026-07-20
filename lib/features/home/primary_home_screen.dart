@@ -5,6 +5,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
+import '../../core/widgets/glossy_badge.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
@@ -14,6 +16,22 @@ import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
 import '../lessons/mcq_quiz_screen.dart';
 import 'home_shared_widgets.dart';
+
+/// Candy Core pushes the shared [AppColors.primaryPalette] 15-20% more
+/// saturated for the Year 1-6 learning path, per the design spec's
+/// "Primary-tier accent" palette row. `primaryPalette` has no other call
+/// sites today (see the grep-before-touching check in the Mission 6 plan's
+/// Task 5), but this file boosts its own copy at load time rather than
+/// mutating the shared token in place, so a future second call site never
+/// silently inherits this tier's saturation bump.
+final List<Color> _candyPrimaryPalette = AppColors.primaryPalette
+    .map((color) {
+      final hsl = HSLColor.fromColor(color);
+      return hsl
+          .withSaturation((hsl.saturation + 0.18).clamp(0.0, 1.0))
+          .toColor();
+    })
+    .toList(growable: false);
 
 /// One stop on the Primary (Year 1-6) learning path.
 class _PathNodeData {
@@ -125,8 +143,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
                 ? gradeModules[i].descriptionMy
                 : gradeModules[i].descriptionEn,
             icon: _iconForSubject(gradeModules[i].subject),
-            color:
-                AppColors.primaryPalette[i % AppColors.primaryPalette.length],
+            color: _candyPrimaryPalette[i % _candyPrimaryPalette.length],
             stars: gradeModules[i].starsReward,
             module: gradeModules[i],
             subjectKey: gradeModules[i].subject.toLowerCase(),
@@ -155,7 +172,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
           title: placeholders[i].$1,
           description: null,
           icon: placeholders[i].$2,
-          color: AppColors.primaryPalette[i % AppColors.primaryPalette.length],
+          color: _candyPrimaryPalette[i % _candyPrimaryPalette.length],
           stars: 0,
           module: null,
           subjectKey: placeholders[i].$3,
@@ -267,12 +284,20 @@ class PrimaryHomeScreen extends ConsumerWidget {
                 ],
               ),
               const SizedBox(height: 20),
+              // The learning path's "hero" call-to-action -- the same
+              // press-and-spring `CandyBevelSurface` treatment as the path
+              // nodes above it, at the shared `CandyBevelDepth.primary`
+              // preset (its doc comment names this exact CTA). Restyle-only:
+              // the `onTap` body below is byte-for-byte the same
+              // navigation/pop logic the old `FilledButton.icon` ran.
               SizedBox(
                 width: double.infinity,
-                child: FilledButton.icon(
-                  icon: const Icon(Icons.play_arrow_rounded),
-                  label: Text(l10n.actionStart),
-                  onPressed: () {
+                child: CandyBevelSurface(
+                  faceColor: AppColors.candyPrimary,
+                  bevelDepth: CandyBevelDepth.primary,
+                  borderRadius: AppTheme.radiusLarge,
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  onTap: () {
                     Navigator.of(sheetContext).pop();
                     context.push(
                       AppRoutes.lessonPrimaryQuiz,
@@ -284,6 +309,26 @@ class PrimaryHomeScreen extends ConsumerWidget {
                       ),
                     );
                   },
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.play_arrow_rounded, color: Colors.white),
+                      const SizedBox(width: 8),
+                      Flexible(
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            l10n.actionStart,
+                            style: theme.textTheme.titleMedium?.copyWith(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
@@ -434,7 +479,20 @@ class _DashedPathPainter extends CustomPainter {
       oldDelegate.color != color;
 }
 
-class _PathNode extends StatelessWidget {
+/// One winding-path stop, rebuilt on [CandyBevelSurface] per the design
+/// spec's Primary per-tier note ("every path node becomes a true 3D button
+/// ... rather than a flat circular icon avatar"): the sine-wave *position*
+/// this node is placed at (owned by [_LearningPath]) and the dashed
+/// connector line underneath it (`_DashedPathPainter`) are untouched --
+/// only this node's own surface changes.
+///
+/// Also wires the spec's "newly-unlocked path nodes ... 'drop and bounce'
+/// entrance" motion: since this build has no unlock/lock state to key off
+/// of yet (out of scope for this visual-only mission, see the spec's
+/// Non-goals), every node plays the entrance once on first load, staggered
+/// 60ms apart by [index] -- the literal "on first load" case the spec
+/// describes.
+class _PathNode extends StatefulWidget {
   const _PathNode({
     required this.data,
     required this.index,
@@ -446,12 +504,75 @@ class _PathNode extends StatelessWidget {
   final VoidCallback onTap;
 
   @override
+  State<_PathNode> createState() => _PathNodeState();
+}
+
+class _PathNodeState extends State<_PathNode>
+    with SingleTickerProviderStateMixin {
+  static const double _faceSize = 84;
+  static const _entranceDuration = Duration(milliseconds: 600);
+  static const _staggerStep = Duration(milliseconds: 60);
+
+  late final AnimationController _entranceController = AnimationController(
+    vsync: this,
+    duration: _entranceDuration,
+  );
+  late final Animation<double> _drop = CurvedAnimation(
+    parent: _entranceController,
+    curve: Curves.elasticOut,
+  );
+
+  // The spec's "1.0 -> 1.1 -> 1.0 scale pop" -- a plain linear split of the
+  // same controller drives this (independent of `_drop`'s elastic overshoot
+  // curve, which only governs the translateY "drop").
+  static final Animatable<double> _scalePop = TweenSequence<double>([
+    TweenSequenceItem(
+      weight: 50,
+      tween: Tween(
+        begin: 1.0,
+        end: 1.1,
+      ).chain(CurveTween(curve: Curves.easeOut)),
+    ),
+    TweenSequenceItem(
+      weight: 50,
+      tween: Tween(
+        begin: 1.1,
+        end: 1.0,
+      ).chain(CurveTween(curve: Curves.easeIn)),
+    ),
+  ]);
+
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(_staggerStep * widget.index, () {
+      if (mounted) _entranceController.forward();
+    });
+  }
+
+  @override
+  void dispose() {
+    _entranceController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final data = widget.data;
 
-    return InkWell(
-      borderRadius: BorderRadius.circular(999),
-      onTap: onTap,
+    return AnimatedBuilder(
+      animation: _entranceController,
+      builder: (context, child) {
+        final dropOffset = -20 * (1 - _drop.value);
+        return Transform.translate(
+          offset: Offset(0, dropOffset),
+          child: Transform.scale(
+            scale: _scalePop.evaluate(_entranceController),
+            child: child,
+          ),
+        );
+      },
       child: SizedBox(
         width: 128,
         child: Column(
@@ -460,68 +581,67 @@ class _PathNode extends StatelessWidget {
             Stack(
               clipBehavior: Clip.none,
               children: [
-                Container(
-                  width: 84,
-                  height: 84,
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [data.color, data.color.withValues(alpha: 0.7)],
-                    ),
-                    shape: BoxShape.circle,
-                    border: Border.all(
-                      color: theme.colorScheme.surface,
-                      width: 4,
-                    ),
-                    boxShadow: AppShadows.floating(
-                      data.color,
-                      brightness: theme.brightness,
-                    ),
+                CandyBevelSurface(
+                  faceColor: data.color,
+                  bevelDepth: CandyBevelDepth.primary,
+                  borderRadius: _faceSize / 2,
+                  width: _faceSize,
+                  height: _faceSize,
+                  padding: EdgeInsets.zero,
+                  border: Border.all(
+                    color: theme.colorScheme.surface,
+                    width: 4,
                   ),
-                  child: Icon(data.icon, color: Colors.white, size: 36),
+                  onTap: widget.onTap,
+                  child: Center(
+                    child: Icon(data.icon, color: Colors.white, size: 36),
+                  ),
                 ),
+                // Per the spec's Primary per-tier note: "star-count badges
+                // on nodes use the full GlossyBadge treatment". Positioned
+                // off the *face* layer's bottom-right corner -- the face
+                // sits `CandyBevelDepth.primary` above this surface's own
+                // bottom edge at rest (the bevel-depth's worth of shadow
+                // peeking out below it), so the badge's `bottom` offset
+                // accounts for that gap to land in the same visual spot the
+                // old flat-avatar badge sat in.
                 if (data.stars > 0)
                   Positioned(
                     right: -4,
-                    bottom: -4,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 6,
-                        vertical: 3,
-                      ),
-                      decoration: BoxDecoration(
-                        color: theme.colorScheme.surface,
-                        borderRadius: BorderRadius.circular(999),
-                        boxShadow: AppShadows.card(theme.brightness),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(
-                            Icons.star_rounded,
-                            color: Colors.amber,
-                            size: 14,
+                    bottom: CandyBevelDepth.primary + 4,
+                    child: GlossyBadge(
+                      size: 30,
+                      faceColor: AppColors.goldMedal,
+                      value: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          '${data.stars}',
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: AppColors.charcoalNavy,
+                            fontWeight: FontWeight.w800,
                           ),
-                          const SizedBox(width: 2),
-                          Text(
-                            '${data.stars}',
-                            style: theme.textTheme.labelSmall,
-                          ),
-                        ],
+                        ),
                       ),
                     ),
                   ),
               ],
             ),
             const SizedBox(height: 6),
-            FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                data.title,
-                maxLines: 1,
-                style: theme.textTheme.labelLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
+            // A separate tap target for the label -- `CandyBevelSurface`
+            // above already handles taps (and its press animation) on the
+            // node itself; this just keeps the whole column tappable like
+            // the original single `InkWell` did.
+            GestureDetector(
+              onTap: widget.onTap,
+              behavior: HitTestBehavior.opaque,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  data.title,
+                  maxLines: 1,
+                  style: theme.textTheme.labelLarge?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             ),
