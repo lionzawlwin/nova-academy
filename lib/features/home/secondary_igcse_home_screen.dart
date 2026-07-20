@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
@@ -104,17 +105,14 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               ),
               itemBuilder: (context, index) {
                 final subject = _secondarySubjects[index];
-                final color =
-                    AppColors.secondaryPalette[index %
-                        AppColors.secondaryPalette.length];
                 final count = gradeModules
                     .where((m) => m.subject.toLowerCase() == subject.key)
                     .length;
                 return _SubjectCard(
                   label: _labelFor(l10n, subject.key),
                   icon: subject.icon,
-                  color: color,
                   moduleCount: count,
+                  index: index,
                 );
               },
             ),
@@ -156,13 +154,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               Column(
                 children: [
                   for (var i = 0; i < gradeModules.length; i++)
-                    _ModuleListTile(
-                      module: gradeModules[i],
-                      locale: locale,
-                      color:
-                          AppColors.secondaryPalette[i %
-                              AppColors.secondaryPalette.length],
-                    ),
+                    _ModuleListTile(module: gradeModules[i], locale: locale),
                 ],
               ),
             const SizedBox(height: 24),
@@ -188,7 +180,14 @@ class _Header extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        gradient: AppGradients.secondaryMuted,
+        // Deep Cobalt on Charcoal Navy jewel-tone pairing (design spec's
+        // Secondary/IGCSE accent), replacing the old flat-muted
+        // `AppGradients.secondaryMuted` gradient.
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [AppColors.charcoalNavy, AppColors.deepCobalt],
+        ),
         borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
         boxShadow: AppShadows.card(theme.brightness),
       ),
@@ -277,17 +276,7 @@ class _ProgressSummary extends StatelessWidget {
           const SizedBox(height: 14),
           Row(
             children: [
-              Expanded(
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(999),
-                  child: LinearProgressIndicator(
-                    value: fraction,
-                    minHeight: 10,
-                    backgroundColor: theme.colorScheme.surfaceContainerHighest,
-                    color: AppColors.secondaryPalette[1],
-                  ),
-                ),
-              ),
+              Expanded(child: _InsetProgressBar(fraction: fraction)),
               const SizedBox(width: 12),
               Text(
                 l10n.homeStarsProgress(stars, _starsGoal),
@@ -310,49 +299,199 @@ class _ProgressSummary extends StatelessWidget {
   }
 }
 
-class _SubjectCard extends StatelessWidget {
+/// The design spec's "progress bars" component for this tier: a chunky
+/// *inset* (carved-in) track -- the bevel technique in reverse, so it never
+/// competes visually with the popped-out subject/module bevel surfaces
+/// elsewhere on this screen -- filled by a glossy rounded-cap bar in the
+/// tier's Deep Cobalt accent with a subtle top-edge highlight line. Visual
+/// technique shared with `mcq_quiz_screen.dart`'s `_SegmentedProgressBar`
+/// (same carved-track/glossy-fill construction), kept as a separate widget
+/// here since this bar is a single continuous fraction rather than
+/// per-question segments.
+class _InsetProgressBar extends StatelessWidget {
+  const _InsetProgressBar({required this.fraction});
+
+  final double fraction;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final carvedTrack = theme.brightness == Brightness.light
+        ? AppColors.charcoalNavy.withValues(alpha: 0.1)
+        : Colors.black.withValues(alpha: 0.35);
+    final clamped = fraction.clamp(0.0, 1.0);
+
+    return Container(
+      height: 12,
+      clipBehavior: Clip.antiAlias,
+      decoration: BoxDecoration(
+        color: carvedTrack,
+        borderRadius: BorderRadius.circular(999),
+        // Carved-in look: a soft inner shadow hugging the top edge reads
+        // as "dug in" rather than "popped out".
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.22),
+            blurRadius: 3,
+            offset: const Offset(0, 1.5),
+          ),
+        ],
+      ),
+      child: Align(
+        alignment: Alignment.centerLeft,
+        child: FractionallySizedBox(
+          widthFactor: clamped,
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(999),
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  AppColors.deepCobalt.withValues(alpha: 0.85),
+                  AppColors.deepCobalt,
+                ],
+              ),
+            ),
+            child: Align(
+              alignment: Alignment.topCenter,
+              child: Container(
+                margin: const EdgeInsets.only(top: 1.5),
+                height: 2,
+                decoration: BoxDecoration(
+                  color: Colors.white.withValues(alpha: 0.55),
+                  borderRadius: BorderRadius.circular(999),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// A subject tile on the Secondary/IGCSE grid, rebuilt on
+/// [CandyBevelSurface] at the design spec's shallowest bevel preset (3-4dp
+/// -- "dense lists don't feel as toy-like") and recolored onto the spec's
+/// Deep Cobalt on Charcoal Navy jewel-tone pairing, replacing the old
+/// per-subject [AppColors.secondaryPalette] rotation with one consistent
+/// "confident productivity dashboard" accent -- subjects stay
+/// distinguishable by their (already-unique) icon alone.
+///
+/// Also plays the spec's "newly-unlocked ... subject cards (Secondary):
+/// 'drop and bounce' entrance" motion once on first load, staggered 60ms
+/// apart by [index] -- the same construction as Primary's `_PathNode`
+/// entrance, since neither tier has real unlock/lock state to key off of
+/// yet (out of scope for this visual-only mission). Deliberately no
+/// confetti/wobble here, per the spec's per-tier note dropping that motion
+/// vocabulary for this tier in favor of the quieter drop-and-bounce entrance
+/// only.
+class _SubjectCard extends StatefulWidget {
   const _SubjectCard({
     required this.label,
     required this.icon,
-    required this.color,
     required this.moduleCount,
+    required this.index,
   });
 
   final String label;
   final IconData icon;
-  final Color color;
   final int moduleCount;
+  final int index;
+
+  @override
+  State<_SubjectCard> createState() => _SubjectCardState();
+}
+
+class _SubjectCardState extends State<_SubjectCard>
+    with SingleTickerProviderStateMixin {
+  static const _entranceDuration = Duration(milliseconds: 600);
+  static const _staggerStep = Duration(milliseconds: 60);
+
+  late final AnimationController _entranceController = AnimationController(
+    vsync: this,
+    duration: _entranceDuration,
+  );
+  late final Animation<double> _drop = CurvedAnimation(
+    parent: _entranceController,
+    curve: Curves.elasticOut,
+  );
+
+  // The spec's "1.0 -> 1.1 -> 1.0 scale pop" -- a plain split of the same
+  // controller drives this, independent of `_drop`'s elastic overshoot
+  // curve (which only governs the translateY "drop").
+  static final Animatable<double> _scalePop = TweenSequence<double>([
+    TweenSequenceItem(
+      weight: 50,
+      tween: Tween(
+        begin: 1.0,
+        end: 1.1,
+      ).chain(CurveTween(curve: Curves.easeOut)),
+    ),
+    TweenSequenceItem(
+      weight: 50,
+      tween: Tween(
+        begin: 1.1,
+        end: 1.0,
+      ).chain(CurveTween(curve: Curves.easeIn)),
+    ),
+  ]);
+
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(_staggerStep * widget.index, () {
+      if (mounted) _entranceController.forward();
+    });
+  }
+
+  @override
+  void dispose() {
+    _entranceController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
-    return InkWell(
-      borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-      onTap: () {
-        ScaffoldMessenger.of(context)
-          ..hideCurrentSnackBar()
-          ..showSnackBar(SnackBar(content: Text(l10n.actionComingSoon)));
+    return AnimatedBuilder(
+      animation: _entranceController,
+      builder: (context, child) {
+        final dropOffset = -20 * (1 - _drop.value);
+        return Transform.translate(
+          offset: Offset(0, dropOffset),
+          child: Transform.scale(
+            scale: _scalePop.evaluate(_entranceController),
+            child: child,
+          ),
+        );
       },
-      child: Container(
+      child: CandyBevelSurface(
+        faceColor: AppColors.charcoalNavy,
+        bevelDepth: CandyBevelDepth.secondary,
+        borderRadius: AppTheme.radiusMedium,
         padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: color.withValues(alpha: 0.14),
-          borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-          border: Border.all(color: color.withValues(alpha: 0.3)),
-        ),
+        border: Border.all(color: AppColors.deepCobalt.withValues(alpha: 0.35)),
+        onTap: () {
+          ScaffoldMessenger.of(context)
+            ..hideCurrentSnackBar()
+            ..showSnackBar(SnackBar(content: Text(l10n.actionComingSoon)));
+        },
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Icon(icon, color: color, size: 30),
+            Icon(widget.icon, color: AppColors.deepCobalt, size: 30),
             Flexible(
               child: Text(
-                label,
+                widget.label,
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 style: theme.textTheme.titleSmall?.copyWith(
+                  color: Colors.white,
                   fontWeight: FontWeight.w700,
                 ),
               ),
@@ -361,15 +500,19 @@ class _SubjectCard extends StatelessWidget {
               children: [
                 Expanded(
                   child: Text(
-                    l10n.homeModulesAvailable(moduleCount),
+                    l10n.homeModulesAvailable(widget.moduleCount),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.outline,
+                      color: Colors.white70,
                     ),
                   ),
                 ),
-                Icon(Icons.arrow_forward_rounded, size: 16, color: color),
+                const Icon(
+                  Icons.arrow_forward_rounded,
+                  size: 16,
+                  color: AppColors.deepCobalt,
+                ),
               ],
             ),
           ],
@@ -379,16 +522,20 @@ class _SubjectCard extends StatelessWidget {
   }
 }
 
+/// One module row on the Secondary/IGCSE "upcoming modules" list, rebuilt
+/// on [CandyBevelSurface] at the same shallow 3-4dp bevel preset as
+/// [_SubjectCard] -- resolving the survey's pre-existing inconsistency
+/// where this tile previously had *no* shadow at all, unlike
+/// [_ProgressSummary]'s `AppShadows.card`, by applying the same bevel
+/// treatment consistently to both. The leading icon chip now uses the
+/// spec's Deep Cobalt jewel accent instead of the old per-index
+/// [AppColors.secondaryPalette] rotation; the star count uses
+/// [AppColors.goldMedal] per the spec's success/star token.
 class _ModuleListTile extends StatelessWidget {
-  const _ModuleListTile({
-    required this.module,
-    required this.locale,
-    required this.color,
-  });
+  const _ModuleListTile({required this.module, required this.locale});
 
   final LearningModuleModel module;
   final String locale;
-  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -398,15 +545,13 @@ class _ModuleListTile extends StatelessWidget {
         ? module.descriptionMy
         : module.descriptionEn;
 
-    return Container(
-      margin: const EdgeInsets.only(bottom: 10),
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: CandyBevelSurface(
+        faceColor: theme.colorScheme.surfaceContainerHigh,
+        bevelDepth: CandyBevelDepth.secondary,
+        borderRadius: AppTheme.radiusMedium,
+        padding: const EdgeInsets.all(14),
         onTap: () => _showDetail(context, title, description),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -415,7 +560,7 @@ class _ModuleListTile extends StatelessWidget {
               width: 44,
               height: 44,
               decoration: BoxDecoration(
-                color: color,
+                color: AppColors.deepCobalt,
                 borderRadius: BorderRadius.circular(14),
               ),
               child: const Icon(
@@ -457,7 +602,11 @@ class _ModuleListTile extends StatelessWidget {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Icon(Icons.star_rounded, color: Colors.amber, size: 16),
+                const Icon(
+                  Icons.star_rounded,
+                  color: AppColors.goldMedal,
+                  size: 16,
+                ),
                 const SizedBox(width: 2),
                 Text('${module.starsReward}', style: theme.textTheme.bodySmall),
               ],
@@ -468,20 +617,46 @@ class _ModuleListTile extends StatelessWidget {
     );
   }
 
+  /// The module-detail dialog itself stays flat/elevation-0 (unchanged
+  /// theme convention -- "chrome stays calm"), but its actionable Close/
+  /// Explore buttons get the shallow [CandyBevelSurface] treatment per the
+  /// spec's "every actionable element inside [a dialog] still gets the
+  /// two-layer bevel treatment" rule. The Explore button's navigation
+  /// logic (`Navigator.pop` then `context.push` to the shared quiz screen)
+  /// is untouched -- restyled visually only.
   void _showDetail(BuildContext context, String title, String description) {
     final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
     showDialog<void>(
       context: context,
       builder: (dialogContext) => AlertDialog(
         title: Text(title),
         content: description.isEmpty ? null : Text(description),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(),
-            child: Text(l10n.actionClose),
+          CandyBevelSurface(
+            faceColor: theme.colorScheme.surfaceContainerHighest,
+            bevelDepth: CandyBevelDepth.secondary,
+            borderRadius: AppTheme.radiusSmall,
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+            onTap: () => Navigator.of(dialogContext).pop(),
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                l10n.actionClose,
+                style: theme.textTheme.labelLarge?.copyWith(
+                  fontWeight: FontWeight.w700,
+                  color: theme.colorScheme.onSurface,
+                ),
+              ),
+            ),
           ),
-          FilledButton(
-            onPressed: () {
+          const SizedBox(width: 10),
+          CandyBevelSurface(
+            faceColor: AppColors.deepCobalt,
+            bevelDepth: CandyBevelDepth.secondary,
+            borderRadius: AppTheme.radiusSmall,
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+            onTap: () {
               Navigator.of(dialogContext).pop();
               context.push(
                 AppRoutes.lessonPrimaryQuiz,
@@ -493,7 +668,16 @@ class _ModuleListTile extends StatelessWidget {
                 ),
               );
             },
-            child: Text(l10n.actionExplore),
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                l10n.actionExplore,
+                style: theme.textTheme.labelLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  color: Colors.white,
+                ),
+              ),
+            ),
           ),
         ],
       ),
