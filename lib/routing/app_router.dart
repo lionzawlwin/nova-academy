@@ -10,11 +10,15 @@ import '../features/dashboard/parent_settings_screen.dart';
 import '../features/dashboard/teacher_dashboard_screen.dart';
 import '../features/home/grade_home_screen.dart';
 import '../features/home/home_shared_widgets.dart';
+import '../features/lessons/course_pathway_bank.dart';
+import '../features/lessons/course_pathway_week_screen.dart';
 import '../features/lessons/drag_match_screen.dart';
 import '../features/lessons/fill_in_blank_screen.dart';
 import '../features/lessons/nursery_kg_activity_bank.dart';
 import '../features/lessons/nursery_lesson_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
+import '../features/lessons/reading_screen.dart';
+import '../features/lessons/sorting_screen.dart';
 import '../features/profiles/profile_selection_screen.dart';
 import '../features/splash/splash_screen.dart';
 import '../models/child_model.dart';
@@ -39,6 +43,14 @@ class AppRoutes {
   static const lessonPrimaryQuiz = '/lesson/primary-quiz';
   static const lessonFillBlank = '/lesson/fill-blank';
   static const lessonDragMatch = '/lesson/drag-match';
+  static const lessonSorting = '/lesson/sorting';
+  static const lessonReading = '/lesson/reading';
+
+  /// Vertical-slice "Academic Year" course-pathway week view -- see
+  /// `course_pathway_bank.dart`'s doc comment. Expects a [CourseWeekDef]
+  /// via `extra`; falls back to Secondary 1 Computing's Week 1 (the only
+  /// week authored so far) when pushed without one.
+  static const coursePathwayWeek = '/course-pathway/week';
 
   static const parentDashboard = '/parent/dashboard';
   static const parentSettings = '/parent/settings';
@@ -187,6 +199,38 @@ final goRouterProvider = Provider<GoRouter>((ref) {
                 ? args
                 : const DragMatchArgs(title: '', subject: 'generalknowledge'),
           );
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonSorting,
+        builder: (context, state) {
+          final args = state.extra;
+          return SortingScreen(
+            args: args is SortingArgs
+                ? args
+                : const SortingArgs(title: '', moduleId: ''),
+          );
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonReading,
+        builder: (context, state) {
+          final args = state.extra;
+          return ReadingScreen(
+            args: args is ReadingArgs
+                ? args
+                : const ReadingArgs(title: '', moduleId: ''),
+          );
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.coursePathwayWeek,
+        builder: (context, state) {
+          final extra = state.extra;
+          final week = extra is CourseWeekDef
+              ? extra
+              : secondary1ComputingPathway.terms.first.weeks.first;
+          return CoursePathwayWeekScreen(week: week);
         },
       ),
       GoRoute(

@@ -1,4 +1,5 @@
 import '../../models/child_model.dart';
+import 'course_pathway_bank.dart';
 import 'interactive_content_models.dart';
 
 /// One "drag to match" curriculum module: bilingual catalog metadata plus
@@ -36,11 +37,12 @@ class DragMatchModuleDef {
 }
 
 /// Looks up the drag-match pair bank for a specific module by [moduleId]
-/// (e.g. `mock-year4-coding-dragmatch-1`). Falls back to the subject-only
+/// (e.g. `mock-year4-coding-dragmatch-1`, or a course-pathway daily lesson
+/// id like `course-s1-computing-w1-d2`). Falls back to the subject-only
 /// [dragMatchPairsForSubject] lookup when [moduleId] is null or not found in
-/// [primaryDragMatchBank] or [secondaryDragMatchBank] -- mirrors
-/// [quizQuestionsForModule]'s exact pattern (`mock_quiz_data.dart` /
-/// `primary_curriculum_bank.dart`).
+/// [primaryDragMatchBank], [secondaryDragMatchBank], or
+/// [courseDailyLessonById] -- mirrors [quizQuestionsForModule]'s exact
+/// pattern (`mock_quiz_data.dart` / `primary_curriculum_bank.dart`).
 List<DragMatchPair> dragMatchPairsForModule(String? moduleId, String subject) {
   if (moduleId != null) {
     for (final activity in primaryDragMatchBank) {
@@ -48,6 +50,10 @@ List<DragMatchPair> dragMatchPairsForModule(String? moduleId, String subject) {
     }
     for (final activity in secondaryDragMatchBank) {
       if (activity.id == moduleId) return activity.pairs;
+    }
+    final courseLesson = courseDailyLessonById(moduleId);
+    if (courseLesson != null && courseLesson.dragMatchPairs.isNotEmpty) {
+      return courseLesson.dragMatchPairs;
     }
   }
   return dragMatchPairsForSubject(subject);

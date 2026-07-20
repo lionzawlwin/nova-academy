@@ -1,4 +1,5 @@
 import '../../models/child_model.dart';
+import 'course_pathway_bank.dart';
 import 'mock_quiz_data.dart';
 import 'secondary_curriculum_bank.dart';
 
@@ -34,10 +35,11 @@ class PrimaryActivityDef {
 }
 
 /// Looks up the question bank for a specific module by [moduleId] (e.g.
-/// `mock-year3-science-2` or `mock-secondary1-algebra-2`). Falls back to
-/// the legacy subject-only [quizQuestionsForSubject] lookup when
-/// [moduleId] is null or not found in [primaryCurriculumBank] or
-/// [secondaryCurriculumBank] -- covers placeholder nodes shown before any
+/// `mock-year3-science-2`, `mock-secondary1-algebra-2`, or a course-pathway
+/// daily lesson id like `course-s1-computing-w1-d1`). Falls back to the
+/// legacy subject-only [quizQuestionsForSubject] lookup when [moduleId] is
+/// null or not found in [primaryCurriculumBank], [secondaryCurriculumBank],
+/// or [courseDailyLessonById] -- covers placeholder nodes shown before any
 /// module is seeded, and the pre-existing legacy modules from
 /// `mockSeedLearningModules` that predate this registry.
 List<QuizQuestion> quizQuestionsForModule(String? moduleId, String subject) {
@@ -47,6 +49,10 @@ List<QuizQuestion> quizQuestionsForModule(String? moduleId, String subject) {
     }
     for (final activity in secondaryCurriculumBank) {
       if (activity.id == moduleId) return activity.questions;
+    }
+    final courseLesson = courseDailyLessonById(moduleId);
+    if (courseLesson != null && courseLesson.quizQuestions.isNotEmpty) {
+      return courseLesson.quizQuestions;
     }
   }
   return quizQuestionsForSubject(subject);

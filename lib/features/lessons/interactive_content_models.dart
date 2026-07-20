@@ -5,6 +5,8 @@
 /// (`nursery_kg_activity_bank.dart`) already use.
 library;
 
+import 'mock_quiz_data.dart' show QuizQuestion;
+
 /// One fill-in-the-blank question for [FillInTheBlankScreen]
 /// (`fill_in_blank_screen.dart`).
 ///
@@ -65,4 +67,74 @@ class DragMatchPair {
 
   String term(String languageCode) => languageCode == 'my' ? termMy : termEn;
   String match(String languageCode) => languageCode == 'my' ? matchMy : matchEn;
+}
+
+/// One item to be dragged into its correct labeled bucket for
+/// [SortingScreen] (`sorting_screen.dart`) -- e.g. "Mouse" sorted into the
+/// "Input" bucket. Unlike [DragMatchPair] (one draggable term : one unique
+/// drop-target tile), a sorting activity has a small fixed set of shared
+/// buckets that many items sort into, so [correctBucketEn]/[correctBucketMy]
+/// name the bucket rather than pointing at a per-item target.
+class SortingItem {
+  const SortingItem({
+    required this.id,
+    required this.labelEn,
+    required this.labelMy,
+    required this.correctBucketEn,
+    required this.correctBucketMy,
+  });
+
+  final String id;
+  final String labelEn;
+  final String labelMy;
+
+  /// Must exactly match one entry in the owning [SortingActivity.bucketsEn]
+  /// (respectively [SortingActivity.bucketsMy]) by convention.
+  final String correctBucketEn;
+  final String correctBucketMy;
+
+  String label(String languageCode) => languageCode == 'my' ? labelMy : labelEn;
+  String correctBucket(String languageCode) =>
+      languageCode == 'my' ? correctBucketMy : correctBucketEn;
+}
+
+/// A full "sort these into buckets" activity: a fixed, ordered set of
+/// bucket labels plus the items to be sorted among them, for
+/// [SortingScreen].
+class SortingActivity {
+  const SortingActivity({
+    required this.bucketsEn,
+    required this.bucketsMy,
+    required this.items,
+  });
+
+  /// Bucket labels, same order/length as [bucketsMy] -- every
+  /// [SortingItem.correctBucketEn] in [items] must match one of these.
+  final List<String> bucketsEn;
+  final List<String> bucketsMy;
+  final List<SortingItem> items;
+
+  String bucket(int index, String languageCode) =>
+      languageCode == 'my' ? bucketsMy[index] : bucketsEn[index];
+}
+
+/// A short interactive reading passage plus a comprehension check for
+/// [ReadingScreen] (`reading_screen.dart`) -- the "Oxford Reading
+/// Buddy"-style interaction type: read a passage, then answer questions
+/// about it. Reuses [QuizQuestion] for the comprehension check rather than
+/// inventing a new question shape.
+class ReadingPassageModel {
+  const ReadingPassageModel({
+    required this.titleEn,
+    required this.titleMy,
+    required this.passageEn,
+    required this.passageMy,
+    required this.comprehensionQuestions,
+  });
+
+  final String titleEn;
+  final String titleMy;
+  final String passageEn;
+  final String passageMy;
+  final List<QuizQuestion> comprehensionQuestions;
 }
