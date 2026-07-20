@@ -1,11 +1,14 @@
 import 'dart:async';
+import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
+import '../../core/widgets/glossy_badge.dart';
 import '../../core/widgets/language_toggle_button.dart';
-import '../home/home_shared_widgets.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
 
@@ -175,8 +178,12 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   }
 }
 
-/// A row of rounded segments showing quiz progress -- filled solid for
-/// completed questions, tinted for the current one, and muted for the rest.
+/// A row of rounded segments showing quiz progress, restyled per the
+/// design spec's "progress bars" component: a chunky *inset* (carved-in)
+/// track for the not-yet-reached segments -- the bevel technique in
+/// reverse, so it never competes visually with the popped-out quiz option
+/// tiles below it -- filled by a glossy rounded-cap bar with a subtle
+/// top-edge highlight line for completed/current segments.
 class _SegmentedProgressBar extends StatelessWidget {
   const _SegmentedProgressBar({required this.total, required this.current});
 
@@ -188,6 +195,11 @@ class _SegmentedProgressBar extends StatelessWidget {
     final theme = Theme.of(context);
     if (total == 0) return const SizedBox.shrink();
 
+    final fillColor = theme.colorScheme.primary;
+    final carvedTrack = theme.brightness == Brightness.light
+        ? AppColors.charcoalNavy.withValues(alpha: 0.1)
+        : Colors.black.withValues(alpha: 0.35);
+
     return Row(
       children: [
         for (var i = 0; i < total; i++)
@@ -196,13 +208,47 @@ class _SegmentedProgressBar extends StatelessWidget {
               padding: EdgeInsets.only(right: i == total - 1 ? 0 : 6),
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 300),
-                height: 10,
+                height: 12,
+                clipBehavior: Clip.antiAlias,
                 decoration: BoxDecoration(
-                  color: i <= current
-                      ? theme.colorScheme.primary
-                      : theme.colorScheme.surfaceContainerHighest,
+                  color: i <= current ? null : carvedTrack,
+                  gradient: i <= current
+                      ? LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            fillColor.withValues(alpha: 0.85),
+                            fillColor,
+                          ],
+                        )
+                      : null,
                   borderRadius: BorderRadius.circular(999),
+                  // Carved-in look for the un-reached track: a soft inner
+                  // shadow hugging the top edge reads as "dug in" rather
+                  // than "popped out".
+                  boxShadow: i <= current
+                      ? null
+                      : [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.22),
+                            blurRadius: 3,
+                            offset: const Offset(0, 1.5),
+                          ),
+                        ],
                 ),
+                child: i <= current
+                    ? Align(
+                        alignment: Alignment.topCenter,
+                        child: Container(
+                          margin: const EdgeInsets.only(top: 1.5),
+                          height: 2,
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.55),
+                            borderRadius: BorderRadius.circular(999),
+                          ),
+                        ),
+                      )
+                    : null,
               ),
             ),
           ),
@@ -259,6 +305,7 @@ class _QuestionView extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(bottom: 12),
             child: _OptionCard(
+              index: i,
               label: options[i],
               state: _optionState(i),
               onTap: () => onSelect(i),
@@ -278,88 +325,284 @@ class _QuestionView extends StatelessWidget {
 
 enum _OptionState { idle, correct, incorrect, disabled }
 
-class _OptionCard extends StatelessWidget {
+/// The quiz answer tile -- the design spec's fully-specified "sample
+/// component" (see the spec's "Sample component: quiz answer tile"
+/// section). Full-width pill-shaped [CandyBevelSurface] at the spec's
+/// fixed 6dp `CandyBevelDepth.quiz` bevel (shared unchanged across Primary
+/// and Secondary, since `McqQuizScreen` is one tier-neutral component).
+///
+/// This widget owns only the extra *feedback* motion the spec calls for on
+/// top of [CandyBevelSurface]'s built-in press/spring mechanics -- the
+/// correct-answer scale-pop + glossy sweep, and the incorrect-answer
+/// horizontal shake -- plus the hover lift/gap-grow treatment and the
+/// leading letter (A/B/C/D) badge. The idle/correct/incorrect/disabled
+/// *state machine* itself (which option is selected, when answers lock)
+/// still lives entirely in `_QuestionView`/`McqQuizScreen` -- unchanged
+/// from before this restyle.
+class _OptionCard extends StatefulWidget {
   const _OptionCard({
+    required this.index,
     required this.label,
     required this.state,
     required this.onTap,
   });
 
+  final int index;
   final String label;
   final _OptionState state;
   final VoidCallback onTap;
 
   @override
+  State<_OptionCard> createState() => _OptionCardState();
+}
+
+class _OptionCardState extends State<_OptionCard>
+    with TickerProviderStateMixin {
+  static const _feedbackDuration = Duration(milliseconds: 300);
+  static const _shakeDuration = Duration(milliseconds: 250);
+
+  static final Animatable<double> _scalePop = TweenSequence<double>([
+    TweenSequenceItem(
+      weight: 40,
+      tween: Tween(
+        begin: 1.0,
+        end: 1.06,
+      ).chain(CurveTween(curve: Curves.easeOut)),
+    ),
+    TweenSequenceItem(
+      weight: 60,
+      tween: Tween(
+        begin: 1.06,
+        end: 1.0,
+      ).chain(CurveTween(curve: Curves.elasticOut)),
+    ),
+  ]);
+
+  late final AnimationController _feedbackController = AnimationController(
+    vsync: this,
+    duration: _feedbackDuration,
+  );
+  late final AnimationController _shakeController = AnimationController(
+    vsync: this,
+    duration: _shakeDuration,
+  );
+
+  bool _hovering = false;
+
+  String get _letter => String.fromCharCode(0x41 + widget.index);
+
+  @override
+  void didUpdateWidget(covariant _OptionCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.state == widget.state) return;
+    if (widget.state == _OptionState.correct) {
+      _feedbackController.forward(from: 0);
+      HapticFeedback.lightImpact();
+    } else if (widget.state == _OptionState.incorrect) {
+      _shakeController.forward(from: 0);
+    }
+  }
+
+  @override
+  void dispose() {
+    _feedbackController.dispose();
+    _shakeController.dispose();
+    super.dispose();
+  }
+
+  Widget _letterBadge(Color textColor) {
+    final theme = Theme.of(context);
+    final isIdle = widget.state == _OptionState.idle;
+    final background = switch (widget.state) {
+      _OptionState.idle => AppColors.candyPrimary.withValues(alpha: 0.12),
+      _OptionState.disabled => textColor.withValues(alpha: 0.1),
+      _OptionState.correct ||
+      _OptionState.incorrect => Colors.white.withValues(alpha: 0.3),
+    };
+    return Container(
+      width: 30,
+      height: 30,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(color: background, shape: BoxShape.circle),
+      child: Text(
+        _letter,
+        style: theme.textTheme.labelLarge?.copyWith(
+          color: isIdle ? AppColors.candyPrimary : textColor,
+          fontWeight: FontWeight.w800,
+        ),
+      ),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
+    const radius = 20.0;
 
-    Color background;
-    Color border;
-    Color foreground;
-    Widget? trailing;
+    final borderColor = switch (widget.state) {
+      _OptionState.idle =>
+        _hovering
+            ? AppColors.candyPrimary.withValues(alpha: 0.4)
+            : scheme.outlineVariant,
+      _OptionState.correct => AppColors.bevelShadowFor(AppColors.goldMedal),
+      _OptionState.incorrect => AppColors.cherryCrush,
+      _OptionState.disabled => Colors.transparent,
+    };
+    final foregroundColor = switch (widget.state) {
+      _OptionState.idle => scheme.onSurface,
+      _OptionState.correct => AppColors.charcoalNavy,
+      _OptionState.incorrect => Colors.white,
+      _OptionState.disabled => scheme.onSurfaceVariant.withValues(alpha: 0.6),
+    };
+    final bevelState = switch (widget.state) {
+      _OptionState.idle => CandyBevelState.idle,
+      _OptionState.correct => CandyBevelState.correct,
+      _OptionState.incorrect => CandyBevelState.incorrect,
+      _OptionState.disabled => CandyBevelState.disabled,
+    };
+    // Hover/focus (desktop/web): face lifts slightly and the shadow gap
+    // grows to 7dp, signalling "liftable" before the mechanical press.
+    final isHoverLift = widget.state == _OptionState.idle && _hovering;
+    final bevelDepth = isHoverLift
+        ? CandyBevelDepth.quiz + 1
+        : CandyBevelDepth.quiz;
+    final liftY = isHoverLift ? -1.0 : 0.0;
 
-    switch (state) {
-      case _OptionState.idle:
-        background = scheme.surfaceContainerHigh;
-        border = scheme.outlineVariant;
-        foreground = scheme.onSurface;
-      case _OptionState.correct:
-        background = AppColors.secondary.withValues(alpha: 0.16);
-        border = AppColors.secondary;
-        foreground = AppColors.secondary;
-        trailing = const Icon(
-          Icons.check_circle_rounded,
-          color: AppColors.secondary,
-        );
-      case _OptionState.incorrect:
-        background = scheme.error.withValues(alpha: 0.14);
-        border = scheme.error;
-        foreground = scheme.error;
-        trailing = Icon(Icons.cancel_rounded, color: scheme.error);
-      case _OptionState.disabled:
-        background = scheme.surfaceContainerHighest.withValues(alpha: 0.5);
-        border = Colors.transparent;
-        foreground = scheme.onSurfaceVariant;
-    }
+    return MouseRegion(
+      onEnter: (_) => setState(() => _hovering = true),
+      onExit: (_) => setState(() => _hovering = false),
+      child: AnimatedBuilder(
+        animation: Listenable.merge([_feedbackController, _shakeController]),
+        builder: (context, _) {
+          final scale = widget.state == _OptionState.correct
+              ? _scalePop.evaluate(_feedbackController)
+              : 1.0;
+          final shakeT = _shakeController.value;
+          final shakeDx = widget.state == _OptionState.incorrect
+              ? math.sin(shakeT * math.pi * 6) * 6 * (1 - shakeT)
+              : 0.0;
 
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 250),
-      decoration: BoxDecoration(
-        color: background,
-        borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-        border: Border.all(color: border, width: 2),
-        boxShadow: state == _OptionState.idle
-            ? AppShadows.card(theme.brightness)
-            : null,
-      ),
-      child: Material(
-        color: Colors.transparent,
-        borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-          onTap: state == _OptionState.idle ? onTap : null,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
-            child: Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    label,
-                    style: theme.textTheme.titleMedium?.copyWith(
-                      color: foreground,
-                      fontWeight: FontWeight.w700,
+          return Transform.translate(
+            offset: Offset(shakeDx, liftY),
+            child: Transform.scale(
+              scale: scale,
+              child: Stack(
+                children: [
+                  CandyBevelSurface(
+                    faceColor: scheme.surfaceContainerHigh,
+                    bevelDepth: bevelDepth,
+                    borderRadius: radius,
+                    state: bevelState,
+                    correctColor: AppColors.goldMedal,
+                    incorrectColor: AppColors.cherryCrush,
+                    correctIcon: const Icon(
+                      Icons.check_circle_rounded,
+                      color: AppColors.charcoalNavy,
+                      size: 24,
+                    ),
+                    incorrectIcon: const Icon(
+                      Icons.cancel_rounded,
+                      color: Colors.white,
+                      size: 24,
+                    ),
+                    border: Border.all(color: borderColor, width: 2),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 18,
+                      vertical: 16,
+                    ),
+                    onTap: widget.state == _OptionState.idle
+                        ? widget.onTap
+                        : null,
+                    child: Row(
+                      children: [
+                        _letterBadge(foregroundColor),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              widget.label,
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                color: foregroundColor,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
+                  if (widget.state == _OptionState.correct)
+                    Positioned.fill(
+                      child: IgnorePointer(
+                        child: _GlossySweep(
+                          progress: _feedbackController.value,
+                          borderRadius: radius,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+/// The correct-answer "glossy sweep": a fixed 45-degree diagonal
+/// white-to-transparent gradient clipped to the top-left third, per the
+/// spec's badge/medal treatment reused here for the correct-answer flash.
+/// [progress] drives it sliding in from off-screen-left to its resting
+/// position over the same 300ms window the scale-pop uses.
+class _GlossySweep extends StatelessWidget {
+  const _GlossySweep({required this.progress, required this.borderRadius});
+
+  final double progress;
+  final double borderRadius;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = progress.clamp(0.0, 1.0);
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(borderRadius),
+      child: Opacity(
+        opacity: t,
+        child: Transform.translate(
+          offset: Offset(-24 * (1 - t), 0),
+          child: ClipPath(
+            clipper: _SheenTriangleClipper(),
+            child: const DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Color(0x99FFFFFF), Color(0x00FFFFFF)],
                 ),
-                ?trailing,
-              ],
+              ),
             ),
           ),
         ),
       ),
     );
   }
+}
+
+class _SheenTriangleClipper extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    return Path()
+      ..moveTo(0, 0)
+      ..lineTo(size.width * 0.55, 0)
+      ..lineTo(0, size.height * 0.9)
+      ..close();
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
 }
 
 /// The end-of-quiz results summary: score, stars earned, and a primary
@@ -426,22 +669,201 @@ class _QuizResults extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
             decoration: BoxDecoration(
               color: theme.colorScheme.surfaceContainerHigh,
               borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
               boxShadow: AppShadows.card(theme.brightness),
             ),
-            child: AnimatedStarBadge(stars: starsEarned, iconSize: 30),
+            child: _ResultsStarBadge(stars: starsEarned),
           ),
           const SizedBox(height: 36),
           SizedBox(
             width: double.infinity,
-            child: FilledButton(
-              onPressed: onFinish,
-              child: Text(_t(context, 'Finish', 'ပြီးပါပြီ')),
+            child: CandyBevelSurface(
+              faceColor: AppColors.candyPrimary,
+              bevelDepth: CandyBevelDepth.primary,
+              borderRadius: AppTheme.radiusLarge,
+              padding: const EdgeInsets.symmetric(vertical: 16),
+              onTap: onFinish,
+              child: Center(
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    _t(context, 'Finish', 'ပြီးပါပြီ'),
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                ),
+              ),
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+/// The end-of-quiz stars-earned badge: a [GlossyBadge] face that counts up
+/// digit-by-digit, bounce-overshoots on the final digit landing, then fires
+/// a small confetti burst -- per the spec's "Star/XP counters" motion
+/// section. Purely decorative/celebratory; owns no quiz state itself.
+class _ResultsStarBadge extends StatefulWidget {
+  const _ResultsStarBadge({required this.stars});
+
+  final int stars;
+
+  @override
+  State<_ResultsStarBadge> createState() => _ResultsStarBadgeState();
+}
+
+class _ResultsStarBadgeState extends State<_ResultsStarBadge>
+    with TickerProviderStateMixin {
+  late final AnimationController _countController = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 900),
+  );
+  late final AnimationController _bounceController = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 250),
+  );
+  late final AnimationController _confettiController = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 600),
+  );
+  late final Animation<int> _countAnim = IntTween(begin: 0, end: widget.stars)
+      .animate(
+        CurvedAnimation(parent: _countController, curve: Curves.easeOutCubic),
+      );
+  static final Animatable<double> _bouncePop = TweenSequence<double>([
+    TweenSequenceItem(
+      weight: 40,
+      tween: Tween(
+        begin: 1.0,
+        end: 1.25,
+      ).chain(CurveTween(curve: Curves.easeOut)),
+    ),
+    TweenSequenceItem(
+      weight: 60,
+      tween: Tween(
+        begin: 1.25,
+        end: 1.0,
+      ).chain(CurveTween(curve: Curves.elasticOut)),
+    ),
+  ]);
+
+  @override
+  void initState() {
+    super.initState();
+    _countController.addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        _bounceController.forward(from: 0);
+        _confettiController.forward(from: 0);
+      }
+    });
+    _countController.forward();
+  }
+
+  @override
+  void dispose() {
+    _countController.dispose();
+    _bounceController.dispose();
+    _confettiController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return AnimatedBuilder(
+      animation: Listenable.merge([
+        _countAnim,
+        _bounceController,
+        _confettiController,
+      ]),
+      builder: (context, _) {
+        return SizedBox(
+          width: 96,
+          height: 96,
+          child: Stack(
+            alignment: Alignment.center,
+            clipBehavior: Clip.none,
+            children: [
+              _ConfettiBurst(progress: _confettiController.value),
+              Transform.scale(
+                scale: _bouncePop.evaluate(_bounceController),
+                child: GlossyBadge(
+                  size: 64,
+                  faceColor: AppColors.goldMedal,
+                  value: Text(
+                    '${_countAnim.value}',
+                    style: theme.textTheme.headlineSmall?.copyWith(
+                      color: AppColors.charcoalNavy,
+                      fontWeight: FontWeight.w900,
+                      fontFeatures: const [FontFeature.tabularFigures()],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+/// A small celebratory confetti burst -- 8 colored squares radiating from
+/// the badge's center, falling + fading out over [progress] `0 -> 1`, per
+/// the spec's "Star/XP counters" motion section.
+class _ConfettiBurst extends StatelessWidget {
+  const _ConfettiBurst({required this.progress});
+
+  final double progress;
+
+  static const _colors = [
+    AppColors.goldMedal,
+    AppColors.cherryCrush,
+    AppColors.candyPrimary,
+    AppColors.deepCobalt,
+    AppColors.pathOrange,
+    Color(0xFF4ED87A),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    if (progress <= 0) return const SizedBox.shrink();
+    final t = progress.clamp(0.0, 1.0);
+    final opacity = (1 - t).clamp(0.0, 1.0);
+
+    return IgnorePointer(
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          for (var i = 0; i < 8; i++)
+            Builder(
+              builder: (context) {
+                final angle = (i / 8) * 2 * math.pi;
+                final dx = math.cos(angle) * 48 * t;
+                final dy = math.sin(angle) * 20 * t + 46 * t * t;
+                return Transform.translate(
+                  offset: Offset(dx, dy),
+                  child: Opacity(
+                    opacity: opacity,
+                    child: Transform.rotate(
+                      angle: angle * t * 2,
+                      child: Container(
+                        width: 7,
+                        height: 7,
+                        color: _colors[i % _colors.length],
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
         ],
       ),
     );
