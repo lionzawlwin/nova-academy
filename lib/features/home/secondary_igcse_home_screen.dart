@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
@@ -8,6 +9,8 @@ import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/learning_module_providers.dart';
+import '../../routing/app_router.dart';
+import '../lessons/mcq_quiz_screen.dart';
 import 'home_shared_widgets.dart';
 
 /// A reasonable "full stars" goal used purely to give the progress summary
@@ -478,9 +481,15 @@ class _ModuleListTile extends StatelessWidget {
           FilledButton(
             onPressed: () {
               Navigator.of(dialogContext).pop();
-              ScaffoldMessenger.of(context)
-                ..hideCurrentSnackBar()
-                ..showSnackBar(SnackBar(content: Text(l10n.actionComingSoon)));
+              context.push(
+                AppRoutes.lessonPrimaryQuiz,
+                extra: McqQuizArgs(
+                  title: title,
+                  subject: module.subject,
+                  stars: module.starsReward,
+                  moduleId: module.id,
+                ),
+              );
             },
             child: Text(l10n.actionExplore),
           ),
