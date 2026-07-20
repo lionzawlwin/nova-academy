@@ -183,9 +183,9 @@
   "dashboardChooseModule": "Choose a module",
 
   "ownerTotalUsers": "Total Active Users",
-  "ownerTotalRevenue": "Monthly Revenue (Mock)",
+  "ownerTotalChildren": "Total Children",
+  "ownerTotalModules": "Total Modules",
   "ownerPremiumSubscribers": "Premium Subscribers",
-  "ownerMockDataNotice": "Static demo data — not connected to live billing yet.",
 
   "settingsTitle": "Settings",
   "settingsAccount": "Account",

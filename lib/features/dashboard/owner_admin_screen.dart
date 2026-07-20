@@ -1,4 +1,3 @@
-import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
@@ -10,25 +9,7 @@ import '../../l10n/app_localizations.dart';
 import '../../models/user_model.dart';
 import '../../providers/auth_providers.dart';
 import '../../providers/firebase_providers.dart';
-
-/// Static mock figures for the platform overview. Clearly labelled as
-/// demo data (see [AppLocalizations.ownerMockDataNotice]) -- there is no
-/// billing backend on the Spark free tier yet.
-class _MockPlatformStats {
-  const _MockPlatformStats._();
-
-  static const int totalActiveUsers = 12480;
-  static const double monthlyRevenueUsd = 4280;
-  static const int premiumSubscribers = 3150;
-  static const List<double> monthlyRevenueTrend = [
-    1200,
-    1850,
-    2400,
-    3100,
-    3650,
-    4280,
-  ];
-}
+import '../../providers/platform_stats_provider.dart';
 
 /// Owner-only platform snapshot. Reachable only when [isOwnerEmail] is true
 /// for the signed-in account -- guarded both by the router redirect (see
@@ -59,7 +40,7 @@ class OwnerAdminScreen extends ConsumerWidget {
     final theme = Theme.of(context);
     final locale = Localizations.localeOf(context).toString();
     final numberFormat = NumberFormat.decimalPattern(locale);
-    final currencyFormat = NumberFormat.simpleCurrency(locale: 'en_US');
+    final platformStats = ref.watch(platformStatsProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -108,29 +89,38 @@ class OwnerAdminScreen extends ConsumerWidget {
           LayoutBuilder(
             builder: (context, constraints) {
               final isNarrow = constraints.maxWidth < 520;
+
+              String valueFor(int Function(PlatformStats stats) selector) {
+                return platformStats.when(
+                  data: (stats) => numberFormat.format(selector(stats)),
+                  loading: () => '…',
+                  error: (_, _) => '—',
+                );
+              }
+
               final cards = [
                 _StatCard(
                   icon: Icons.people_alt_rounded,
                   label: l10n.ownerTotalUsers,
-                  value: numberFormat.format(
-                    _MockPlatformStats.totalActiveUsers,
-                  ),
+                  value: valueFor((stats) => stats.totalUsers),
                   color: Colors.indigo,
                 ),
                 _StatCard(
-                  icon: Icons.payments_rounded,
-                  label: l10n.ownerTotalRevenue,
-                  value: currencyFormat.format(
-                    _MockPlatformStats.monthlyRevenueUsd,
-                  ),
+                  icon: Icons.child_care_rounded,
+                  label: l10n.ownerTotalChildren,
+                  value: valueFor((stats) => stats.totalChildren),
                   color: Colors.teal,
+                ),
+                _StatCard(
+                  icon: Icons.menu_book_rounded,
+                  label: l10n.ownerTotalModules,
+                  value: valueFor((stats) => stats.totalModules),
+                  color: Colors.deepOrange,
                 ),
                 _StatCard(
                   icon: Icons.workspace_premium_rounded,
                   label: l10n.ownerPremiumSubscribers,
-                  value: numberFormat.format(
-                    _MockPlatformStats.premiumSubscribers,
-                  ),
+                  value: valueFor((stats) => stats.premiumSubscribers),
                   color: Colors.orange,
                 ),
               ];
@@ -145,108 +135,21 @@ class OwnerAdminScreen extends ConsumerWidget {
                           )
                           .toList(),
                     )
-                  : Row(
+                  : Wrap(
+                      spacing: 12,
+                      runSpacing: 12,
                       children: cards
                           .map(
-                            (c) => Expanded(
-                              child: Padding(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 6,
-                                ),
-                                child: c,
-                              ),
+                            (c) => SizedBox(
+                              width:
+                                  (constraints.maxWidth - 36) /
+                                  2, // 2 columns, 12px gaps
+                              child: c,
                             ),
                           )
                           .toList(),
                     );
             },
-          ),
-          const SizedBox(height: 20),
-          Card(
-            elevation: 2,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(20, 20, 24, 12),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    l10n.ownerTotalRevenue,
-                    style: theme.textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  SizedBox(
-                    height: 160,
-                    child: LineChart(
-                      LineChartData(
-                        gridData: const FlGridData(show: false),
-                        titlesData: const FlTitlesData(show: false),
-                        borderData: FlBorderData(show: false),
-                        lineTouchData: const LineTouchData(enabled: false),
-                        lineBarsData: [
-                          LineChartBarData(
-                            spots: [
-                              for (
-                                var i = 0;
-                                i <
-                                    _MockPlatformStats
-                                        .monthlyRevenueTrend
-                                        .length;
-                                i++
-                              )
-                                FlSpot(
-                                  i.toDouble(),
-                                  _MockPlatformStats.monthlyRevenueTrend[i],
-                                ),
-                            ],
-                            isCurved: true,
-                            color: theme.colorScheme.primary,
-                            barWidth: 3,
-                            dotData: const FlDotData(show: false),
-                            belowBarData: BarAreaData(
-                              show: true,
-                              color: theme.colorScheme.primary.withValues(
-                                alpha: 0.15,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          Container(
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-              color: theme.colorScheme.surfaceContainerHighest,
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.info_outline_rounded,
-                  size: 18,
-                  color: theme.colorScheme.outline,
-                ),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Text(
-                    l10n.ownerMockDataNotice,
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.outline,
-                    ),
-                  ),
-                ),
-              ],
-            ),
           ),
         ],
       ),

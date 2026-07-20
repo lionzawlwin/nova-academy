@@ -162,9 +162,9 @@
   "dashboardChooseModule": "မော်ဂျူး တစ်ခု ရွေးချယ်ပါ",
 
   "ownerTotalUsers": "စုစုပေါင်း အသုံးပြုနေသူများ",
-  "ownerTotalRevenue": "လစဉ်ဝင်ငွေ (နမူနာ)",
+  "ownerTotalChildren": "စုစုပေါင်း ကလေးများ",
+  "ownerTotalModules": "စုစုပေါင်း မော်ဂျူးများ",
   "ownerPremiumSubscribers": "Premium အသုံးပြုသူများ",
-  "ownerMockDataNotice": "သရုပ်ပြ ဒေတာသာဖြစ်သည် — အသက်ဝင် ငွေပေးချေမှုစနစ်နှင့် မချိတ်ဆက်ရသေးပါ။",
 
   "settingsTitle": "ဆက်တင်များ",
   "settingsAccount": "အကောင့်",

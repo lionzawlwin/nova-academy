@@ -465,14 +465,13 @@ class AppLocalizationsMy extends AppLocalizations {
   String get ownerTotalUsers => 'စုစုပေါင်း အသုံးပြုနေသူများ';
 
   @override
-  String get ownerTotalRevenue => 'လစဉ်ဝင်ငွေ (နမူနာ)';
+  String get ownerTotalChildren => 'စုစုပေါင်း ကလေးများ';
+
+  @override
+  String get ownerTotalModules => 'စုစုပေါင်း မော်ဂျူးများ';
 
   @override
   String get ownerPremiumSubscribers => 'Premium အသုံးပြုသူများ';
-
-  @override
-  String get ownerMockDataNotice =>
-      'သရုပ်ပြ ဒေတာသာဖြစ်သည် — အသက်ဝင် ငွေပေးချေမှုစနစ်နှင့် မချိတ်ဆက်ရသေးပါ။';
 
   @override
   String get settingsTitle => 'ဆက်တင်များ';

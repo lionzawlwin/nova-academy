@@ -968,23 +968,23 @@ abstract class AppLocalizations {
   /// **'Total Active Users'**
   String get ownerTotalUsers;
 
-  /// No description provided for @ownerTotalRevenue.
+  /// No description provided for @ownerTotalChildren.
   ///
   /// In en, this message translates to:
-  /// **'Monthly Revenue (Mock)'**
-  String get ownerTotalRevenue;
+  /// **'Total Children'**
+  String get ownerTotalChildren;
+
+  /// No description provided for @ownerTotalModules.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Modules'**
+  String get ownerTotalModules;
 
   /// No description provided for @ownerPremiumSubscribers.
   ///
   /// In en, this message translates to:
   /// **'Premium Subscribers'**
   String get ownerPremiumSubscribers;
-
-  /// No description provided for @ownerMockDataNotice.
-  ///
-  /// In en, this message translates to:
-  /// **'Static demo data — not connected to live billing yet.'**
-  String get ownerMockDataNotice;
 
   /// No description provided for @settingsTitle.
   ///

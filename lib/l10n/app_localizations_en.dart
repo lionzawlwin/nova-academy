@@ -461,14 +461,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ownerTotalUsers => 'Total Active Users';
 
   @override
-  String get ownerTotalRevenue => 'Monthly Revenue (Mock)';
+  String get ownerTotalChildren => 'Total Children';
+
+  @override
+  String get ownerTotalModules => 'Total Modules';
 
   @override
   String get ownerPremiumSubscribers => 'Premium Subscribers';
-
-  @override
-  String get ownerMockDataNotice =>
-      'Static demo data — not connected to live billing yet.';
 
   @override
   String get settingsTitle => 'Settings';
