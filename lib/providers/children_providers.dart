@@ -98,8 +98,11 @@ Future<void> markModuleCompleted(
   required String moduleId,
   required int starsEarned,
 }) async {
-  await firestore.collection(AppConstants.childrenCollection).doc(childId).update({
-    'completedModuleIds': FieldValue.arrayUnion([moduleId]),
-    'totalStars': FieldValue.increment(starsEarned),
-  });
+  await firestore
+      .collection(AppConstants.childrenCollection)
+      .doc(childId)
+      .update({
+        'completedModuleIds': FieldValue.arrayUnion([moduleId]),
+        'totalStars': FieldValue.increment(starsEarned),
+      });
 }

@@ -238,6 +238,12 @@ class PrimaryHomeScreen extends ConsumerWidget {
         return Icons.code_rounded;
       case 'engineering':
         return Icons.precision_manufacturing_rounded;
+      case 'history':
+        return Icons.history_edu_rounded;
+      case 'geography':
+        return Icons.public_rounded;
+      case 'computing':
+        return Icons.computer_rounded;
       case 'art':
         return Icons.palette_rounded;
       case 'phonics':

@@ -447,6 +447,186 @@ const List<DragMatchModuleDef> primaryDragMatchBank = [
       ),
     ],
   ),
+
+  // New `history`/`geography`/`computing` subjects: one drag-to-match
+  // module each, woven into the rotation at a different grade so this
+  // content isn't repetitive across grades or with the coding/engineering
+  // rollout above.
+  DragMatchModuleDef(
+    id: 'mock-year3-history-dragmatch-1',
+    subject: 'history',
+    grade: Grade.year3,
+    contentType: 'dragMatch',
+    titleEn: 'Match History Words',
+    titleMy: 'သမိုင်းဝေါဟာရများ တွဲချိတ်ခြင်း',
+    descriptionEn: 'Match each history word with its correct meaning.',
+    descriptionMy:
+        'သမိုင်းဝေါဟာရတစ်ခုစီကို မှန်ကန်သောအဓိပ္ပာယ်နှင့် တွဲချိတ်ပါ။',
+    starsReward: 14,
+    pairs: [
+      DragMatchPair(
+        id: 'y3-history-timeline',
+        termEn: 'Timeline',
+        termMy: 'အချိန်ဇယား',
+        matchEn: 'A line showing events in order from earliest to latest',
+        matchMy:
+            'အစောဆုံးမှ နောက်ဆုံးအထိ အဖြစ်အပျက်များကို အစဉ်လိုက်ပြသည့် မျဉ်း',
+        colorValue: 0xFF29C4F5,
+      ),
+      DragMatchPair(
+        id: 'y3-history-independence-day',
+        termEn: 'Independence Day',
+        termMy: 'လွတ်လပ်ရေးနေ့',
+        matchEn: 'The day a country celebrates becoming free from foreign rule',
+        matchMy:
+            'နိုင်ငံတစ်ခု နိုင်ငံခြားအုပ်ချုပ်မှုမှ လွတ်မြောက်ခြင်းကို ကျင်းပသောနေ့',
+        colorValue: 0xFFE64545,
+      ),
+      DragMatchPair(
+        id: 'y3-history-king-anawrahta',
+        termEn: 'King Anawrahta',
+        termMy: 'အနော်ရထာမင်း',
+        matchEn: 'A king who founded the Bagan Empire and spread Buddhism',
+        matchMy:
+            'ပုဂံနိုင်ငံတော်ကို တည်ထောင်ပြီး ဗုဒ္ဓဘာသာကို ပျံ့နှံ့စေသော ဘုရင်',
+        colorValue: 0xFFFFC93C,
+      ),
+      DragMatchPair(
+        id: 'y3-history-national-hero',
+        termEn: 'National Hero',
+        termMy: 'အမျိုးသားသူရဲကောင်း',
+        matchEn:
+            'A person remembered and respected for important actions for their country',
+        matchMy:
+            'နိုင်ငံအတွက် အရေးပါသောလုပ်ဆောင်ချက်များကြောင့် သတိရလေးစားခံရသူ',
+        colorValue: 0xFF4CB963,
+      ),
+      DragMatchPair(
+        id: 'y3-history-event',
+        termEn: 'Historical Event',
+        termMy: 'သမိုင်းဝင်အဖြစ်အပျက်',
+        matchEn:
+            'Something important that happened in the past and is remembered',
+        matchMy:
+            'အတိတ်တွင်ဖြစ်ပျက်ခဲ့ပြီး ယနေ့တိုင် မှတ်တမ်းတင် သတိရနေကြသော အရေးကြီးအရာ',
+        colorValue: 0xFFFF8A3D,
+      ),
+    ],
+  ),
+  DragMatchModuleDef(
+    id: 'mock-year4-geography-dragmatch-1',
+    subject: 'geography',
+    grade: Grade.year4,
+    contentType: 'dragMatch',
+    titleEn: 'Climate and Environment Words',
+    titleMy: 'ရာသီဥတုနှင့် ပတ်ဝန်းကျင်ဆိုင်ရာ စကားလုံးများ',
+    descriptionEn: 'Match each geography term to its correct meaning.',
+    descriptionMy: 'ပထဝီဝေါဟာရတစ်ခုစီကို မှန်ကန်သောအဓိပ္ပာယ်နှင့် တွဲကြည့်ပါ။',
+    starsReward: 16,
+    pairs: [
+      DragMatchPair(
+        id: 'y4-geography-climate',
+        termEn: 'Climate',
+        termMy: 'ရာသီဥတု',
+        matchEn: 'The usual weather pattern of a place over many years',
+        matchMy:
+            'နေရာတစ်ခု၏ နှစ်ပေါင်းများစွာအတွင်း ပုံမှန်ဖြစ်ပေါ်လေ့ရှိသော ရာသီဥတုပုံစံ',
+        colorValue: 0xFF29C4F5,
+      ),
+      DragMatchPair(
+        id: 'y4-geography-equator',
+        termEn: 'Equator',
+        termMy: 'အီကွေတာလိုင်း',
+        matchEn: 'An imaginary line around the middle of the Earth',
+        matchMy:
+            'ကမ္ဘာဂြိုဟ်၏ အလယ်ပိုင်းကို ပတ်လျက်ရှိသော စိတ်ကူးဖြင့်ဆွဲထားသော မျဉ်းကြောင်း',
+        colorValue: 0xFFFFC93C,
+      ),
+      DragMatchPair(
+        id: 'y4-geography-adaptation',
+        termEn: 'Adaptation',
+        termMy: 'လိုက်လျောညီထွေဖြစ်မှု',
+        matchEn:
+            'The way people change their lifestyle to suit their environment',
+        matchMy:
+            'လူတို့သည် မိမိတို့ပတ်ဝန်းကျင်နှင့် ကိုက်ညီအောင် နေထိုင်မှုပုံစံကို ပြောင်းလဲခြင်း',
+        colorValue: 0xFF4CB963,
+      ),
+      DragMatchPair(
+        id: 'y4-geography-desert',
+        termEn: 'Desert',
+        termMy: 'သဲကန္တာရ',
+        matchEn: 'A dry area that receives very little rainfall',
+        matchMy: 'မိုးရေ အလွန်နည်းစွာသာ ရရှိသော ခြောက်သွေ့သည့်ဒေသ',
+        colorValue: 0xFFFF8A3D,
+      ),
+      DragMatchPair(
+        id: 'y4-geography-rainforest',
+        termEn: 'Rainforest',
+        termMy: 'မိုးအုပ်စိပ်တော',
+        matchEn:
+            'A thick, green forest found in hot, wet regions with heavy rainfall',
+        matchMy:
+            'မိုးရေများစွာ ရွာသွန်းသော ပူပြင်း၍ စိုစွတ်သည့်ဒေသများတွင် တွေ့ရသော စိမ်းလန်းထူထပ်သောသစ်တော',
+        colorValue: 0xFF9C6ADE,
+      ),
+    ],
+  ),
+  DragMatchModuleDef(
+    id: 'mock-year6-computing-dragmatch-1',
+    subject: 'computing',
+    grade: Grade.year6,
+    contentType: 'dragMatch',
+    titleEn: 'Match Computing Words to Their Meanings',
+    titleMy: 'ကွန်ပျူတာဆိုင်ရာ စကားလုံးများကို အဓိပ္ပာယ်များနှင့် တွဲကြည့်ပါ',
+    descriptionEn: 'Drag each computing term to match its correct meaning.',
+    descriptionMy:
+        'ကွန်ပျူတာဆိုင်ရာ ဝေါဟာရတစ်ခုစီကို မှန်ကန်သော အဓိပ္ပာယ်နှင့် ဆွဲယူတွဲကြည့်ပါ။',
+    starsReward: 20,
+    pairs: [
+      DragMatchPair(
+        id: 'y6-computing-loop',
+        termEn: 'Loop',
+        termMy: 'ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း (Loop)',
+        matchEn: 'Repeating a set of steps a number of times',
+        matchMy: 'အဆင့်တစ်စုကို အကြိမ်ကြိမ် ထပ်လုပ်ခြင်း',
+        colorValue: 0xFFE64545,
+      ),
+      DragMatchPair(
+        id: 'y6-computing-algorithm',
+        termEn: 'Algorithm',
+        termMy: 'အယ်လဂိုရစ်သမ် (Algorithm)',
+        matchEn: 'A clear set of steps to solve a problem or complete a task',
+        matchMy: 'ပြဿနာတစ်ခုကို ဖြေရှင်းရန် ရှင်းလင်းသော အဆင့်များစဉ်',
+        colorValue: 0xFFFFC93C,
+      ),
+      DragMatchPair(
+        id: 'y6-computing-network',
+        termEn: 'Network',
+        termMy: 'ကွန်ရက် (Network)',
+        matchEn: 'A group of connected devices that share information',
+        matchMy:
+            'အချက်အလက်များ ဖလှယ်နိုင်သော ချိတ်ဆက်ထားသည့် စက်ပစ္စည်းများအစု',
+        colorValue: 0xFF9C6ADE,
+      ),
+      DragMatchPair(
+        id: 'y6-computing-internet',
+        termEn: 'Internet',
+        termMy: 'အင်တာနက်',
+        matchEn: 'A huge worldwide network connecting computers together',
+        matchMy: 'ကမ္ဘာတစ်ဝှမ်းရှိ ကွန်ပျူတာများကို ဆက်သွယ်ပေးသော ကွန်ရက်ကြီး',
+        colorValue: 0xFF4CB963,
+      ),
+      DragMatchPair(
+        id: 'y6-computing-digital-citizenship',
+        termEn: 'Digital citizenship',
+        termMy: 'ဒစ်ဂျစ်တယ် နိုင်ငံသားကောင်းမှု',
+        matchEn: 'Using technology safely, kindly, and responsibly',
+        matchMy: 'နည်းပညာကို ဘေးကင်း၊ ကြင်နာစွာနှင့် တာဝန်သိစွာ အသုံးပြုခြင်း',
+        colorValue: 0xFF29C4F5,
+      ),
+    ],
+  ),
 ];
 
 /// One drag-to-match module per Secondary/IGCSE grade, each covering a

@@ -364,6 +364,15 @@ class AppLocalizationsMy extends AppLocalizations {
   String get subjectEngineering => 'အင်ဂျင်နီယာဗေဒ';
 
   @override
+  String get subjectHistory => 'သမိုင်း';
+
+  @override
+  String get subjectGeography => 'မြေပုံဗေဒ';
+
+  @override
+  String get subjectComputing => 'ကွန်ပျူတာသုံးတတ်ခြင်း';
+
+  @override
   String get gatekeeperTitle => 'လူကြီးများသာ';
 
   @override

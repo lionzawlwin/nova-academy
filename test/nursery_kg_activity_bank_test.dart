@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('nurseryKgActivityBank', () {
-    test('contains exactly 32 modules', () {
-      expect(nurseryKgActivityBank.length, 32);
+    test('contains exactly 38 modules', () {
+      expect(nurseryKgActivityBank.length, 38);
     });
 
     test('every module id is unique', () {
@@ -33,7 +33,7 @@ void main() {
       }
     });
 
-    test('every module subject is one of the six expected keys', () {
+    test('every module subject is one of the nine expected keys', () {
       const expected = {
         'phonics',
         'math',
@@ -41,6 +41,9 @@ void main() {
         'stem',
         'coding',
         'engineering',
+        'history',
+        'geography',
+        'computing',
       };
       for (final module in nurseryKgActivityBank) {
         expect(
@@ -52,13 +55,16 @@ void main() {
     });
 
     test('has 3 modules per grade+subject combination, except stem (5) and '
-        'the new coding/engineering STEAM-expansion combos (1 each)', () {
+        'the new coding/engineering/history/geography/computing '
+        'STEAM-expansion combos (1 each)', () {
       // nursery-stem and kg-stem each carry 2 extra pre-coding
       // (directions/sequencing) modules on top of the baseline 3, so they
       // total 5 instead of 3. The STEAM expansion added exactly one new
       // `coding` and one new `engineering` module per grade (nursery and
       // kg), each reachable via their own fixed subject button on
-      // NurseryKgHomeScreen -- every other combo stays at 3.
+      // NurseryKgHomeScreen. The history/geography/computing rollout
+      // followed the same one-per-grade cadence -- every other combo stays
+      // at 3.
       const expectedOverrides = {
         'nursery-stem': 5,
         'kg-stem': 5,
@@ -66,13 +72,19 @@ void main() {
         'nursery-engineering': 1,
         'kg-coding': 1,
         'kg-engineering': 1,
+        'nursery-history': 1,
+        'nursery-geography': 1,
+        'nursery-computing': 1,
+        'kg-history': 1,
+        'kg-geography': 1,
+        'kg-computing': 1,
       };
       final counts = <String, int>{};
       for (final module in nurseryKgActivityBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
-      expect(counts.length, 12, reason: 'expected 12 grade+subject combos');
+      expect(counts.length, 18, reason: 'expected 18 grade+subject combos');
       for (final entry in counts.entries) {
         final expected = expectedOverrides[entry.key] ?? 3;
         expect(

@@ -170,7 +170,8 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
                       module: gradeModules[i],
                       locale: locale,
                       isCompleted: _isModuleCompleted(child, gradeModules[i]),
-                      isLocked: i > 0 &&
+                      isLocked:
+                          i > 0 &&
                           !_isModuleCompleted(child, gradeModules[i]) &&
                           !_isModuleCompleted(child, gradeModules[i - 1]),
                     ),
@@ -670,7 +671,11 @@ class _ModuleListTile extends StatelessWidget {
         Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Icon(Icons.star_rounded, color: AppColors.goldMedal, size: 16),
+            const Icon(
+              Icons.star_rounded,
+              color: AppColors.goldMedal,
+              size: 16,
+            ),
             const SizedBox(width: 2),
             Text('${module.starsReward}', style: theme.textTheme.bodySmall),
           ],

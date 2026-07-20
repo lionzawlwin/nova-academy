@@ -439,6 +439,204 @@ const List<FillBlankModuleDef> primaryFillBlankBank = [
       ),
     ],
   ),
+
+  // New `history`/`geography`/`computing` subjects: one fill-in-the-blank
+  // module each, woven into the rotation at a different grade so this
+  // content isn't repetitive across grades or with the coding/engineering
+  // rollout above.
+  FillBlankModuleDef(
+    id: 'mock-year2-geography-fillblank-1',
+    subject: 'geography',
+    grade: Grade.year2,
+    contentType: 'fillBlank',
+    titleEn: 'Complete the Geography Sentences',
+    titleMy: 'ပထဝီဝင်ဝါကျများကို ဖြည့်စွက်ပါ',
+    descriptionEn: 'Fill in each blank with the correct geography word.',
+    descriptionMy:
+        'ဝါကျတစ်ခုစီရှိ အကွက်လွတ်ကို မှန်ကန်သောပထဝီဝေါဟာရဖြင့် ဖြည့်ပါ။',
+    starsReward: 12,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn: 'The sun rises in the ___ and sets in the west.',
+        sentenceMy: 'နေသည် ___ ဘက်တွင် ထွက်ပြီး အနောက်ဘက်တွင် ဝင်တတ်သည်။',
+        optionsEn: ['North', 'East', 'South', 'Down'],
+        optionsMy: ['မြောက်', 'အရှေ့', 'တောင်', 'အောက်'],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'A place where we buy food and daily goods in our local area is called a ___.',
+        sentenceMy:
+            'ကျွန်တော်တို့ဒေသအတွင်း စားစရာနှင့် နေ့စဉ်လိုအပ်သောပစ္စည်းများ ဝယ်ယူရာနေရာကို ___ ဟုခေါ်သည်။',
+        optionsEn: ['market', 'mountain', 'ocean', 'desert'],
+        optionsMy: ['စျေး', 'တောင်', 'သမုဒ္ဒရာ', 'သဲကန္တာရ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'On a simple map, a green colour often shows an area of ___.',
+        sentenceMy:
+            'ရိုးရှင်းသောမြေပုံတွင် အစိမ်းရောင်သည် များသောအားဖြင့် ___ ရှိသောနေရာကို ပြသည်။',
+        optionsEn: [
+          'fields or grass',
+          'deep ocean water',
+          'hot desert sand',
+          'city roads',
+        ],
+        optionsMy: [
+          'လယ်ကွက်သို့မဟုတ် မြက်ခင်း',
+          'သမုဒ္ဒရာအနက်ရှိုင်းရေ',
+          'ပူပြင်းသောသဲကန္တာရသဲ',
+          'မြို့တွင်းလမ်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'If you are facing East and turn all the way around to the opposite side, you will now face ___.',
+        sentenceMy:
+            'အရှေ့ဘက်ကို မျက်နှာမူထားရင်း ဆန့်ကျင်ဘက်သို့ လှည့်လိုက်လျှင် ___ ဘက်ကို မျက်နှာမူသွားမည်။',
+        optionsEn: ['North', 'South', 'East', 'West'],
+        optionsMy: ['မြောက်', 'တောင်', 'အရှေ့', 'အနောက်'],
+        correctIndex: 3,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'A small picture used on a map to represent something real, like a tree or a school, is called a map ___.',
+        sentenceMy:
+            'မြေပုံပေါ်တွင် သစ်ပင် (သို့) ကျောင်းကဲ့သို့သော တကယ့်အရာဝတ္ထုများကို ကိုယ်စားပြုရန် အသုံးပြုသော ပုံသေးလေးများကို မြေပုံ ___ ဟုခေါ်သည်။',
+        optionsEn: ['symbol', 'shadow', 'story', 'song'],
+        optionsMy: ['သင်္ကေတ', 'အရိပ်', 'ပုံပြင်', 'သီချင်း'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  FillBlankModuleDef(
+    id: 'mock-year5-history-fillblank-1',
+    subject: 'history',
+    grade: Grade.year5,
+    contentType: 'fillBlank',
+    titleEn: 'Fill in the Blanks: Ancient Egypt',
+    titleMy: 'အကွက်လွတ်ဖြည့်ပါ — ရှေးဟောင်းအီဂျစ်',
+    descriptionEn:
+        'Complete each sentence about Ancient Egypt and historical evidence with the correct word.',
+    descriptionMy:
+        'ရှေးဟောင်းအီဂျစ်နှင့် သမိုင်းသက်သေအထောက်အထားများအကြောင်း ဝါကျတစ်ခုစီကို မှန်ကန်သောစကားလုံးဖြင့် ဖြည့်စွက်ပါ။',
+    starsReward: 18,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn:
+            'Ancient Egyptian civilization grew along the banks of the ___ River.',
+        sentenceMy:
+            'ရှေးဟောင်းအီဂျစ်ယဉ်ကျေးမှုသည် ___ မြစ်ကမ်းတစ်လျှောက်တွင် ဖွံ့ဖြိုးတိုးတက်ခဲ့သည်။',
+        optionsEn: ['Nile', 'Amazon', 'Ayeyarwady', 'Mississippi'],
+        optionsMy: ['နိုင်း', 'အမေဇုံ', 'ဧရာဝတီ', 'မစ်ဆစ်ဆီပီ'],
+        correctIndex: 0,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'The Egyptian pyramids were built mainly to serve as ___ for pharaohs.',
+        sentenceMy:
+            'အီဂျစ်ပိရမစ်များကို ဘုရင်များအတွက် ___ အဖြစ် အဓိကဆောက်လုပ်ခဲ့ကြသည်။',
+        optionsEn: ['marketplaces', 'tombs', 'schools', 'farms'],
+        optionsMy: [
+          'စျေးရောင်းစခန်းများ',
+          'သင်္ချိုင်းများ',
+          'ကျောင်းများ',
+          'လယ်ယာများ',
+        ],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Historians call an original object or record from the past, such as a tool or letter, a ___ source.',
+        sentenceMy:
+            'ကိရိယာ သို့မဟုတ် စာစောင်ကဲ့သို့ အတိတ်ကာလမှ မူရင်းအရာဝတ္ထုကို သမိုင်းပညာရှင်များက ___ သက်သေအထောက်အထားဟု ခေါ်သည်။',
+        optionsEn: ['secondary', 'primary', 'fictional', 'modern'],
+        optionsMy: ['ဒုတိယ', 'မူလ', 'စိတ်ကူးယဉ်', 'ခေတ်သစ်'],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'The picture writing used by ancient Egyptians on tomb walls is called ___.',
+        sentenceMy:
+            'ရှေးဟောင်းအီဂျစ်လူတို့ သင်္ချိုင်းနံရံများပေါ်တွင် အသုံးပြုခဲ့သော ပုံစာရေးနည်းကို ___ ဟုခေါ်သည်။',
+        optionsEn: ['calligraphy', 'hieroglyphics', 'alphabet', 'braille'],
+        optionsMy: [
+          'လက်ရေးလှပညာ',
+          'ဟိရိုဂလစ်ဖ်ပုံစာ',
+          'အက္ခရာစဉ်',
+          'မျက်မမြင်စာ',
+        ],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn:
+            'Museums keep and display ancient ___ so people today can learn about the past.',
+        sentenceMy:
+            'ပြတိုက်များသည် ယနေ့လူများ အတိတ်ကာလအကြောင်းကို လေ့လာနိုင်ရန် ရှေးဟောင်း ___ များကို ထိန်းသိမ်းပြသကြသည်။',
+        optionsEn: ['artifacts', 'smartphones', 'televisions', 'cars'],
+        optionsMy: [
+          'ရှေးဟောင်းပစ္စည်းများ',
+          'စမတ်ဖုန်းများ',
+          'တီဗီများ',
+          'ကားများ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  FillBlankModuleDef(
+    id: 'mock-year1-computing-fillblank-1',
+    subject: 'computing',
+    grade: Grade.year1,
+    contentType: 'fillBlank',
+    titleEn: 'Fill in the Computer Words',
+    titleMy: 'ကွန်ပျူတာ စကားလုံးများ ဖြည့်ကြစို့',
+    descriptionEn: 'Complete each sentence with the correct computer word.',
+    descriptionMy:
+        'စာကြောင်းတစ်ခုစီကို မှန်ကန်သော ကွန်ပျူတာ စကားလုံးဖြင့် ဖြည့်စွက်ပါ။',
+    starsReward: 10,
+    questions: [
+      FillBlankQuestion(
+        sentenceEn: 'The ___ shows pictures and words on the computer.',
+        sentenceMy:
+            '___ သည် ကွန်ပျူတာပေါ်ရှိ ပုံများနှင့် စာလုံးများကို ပြသပေးသည်။',
+        optionsEn: ['Keyboard', 'Screen', 'Mouse', 'Speaker'],
+        optionsMy: ['ကီးဘုတ်', 'မျက်နှာပြင်', 'မောက်စ်', 'စပီကာ'],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn: 'We type letters using the ___.',
+        sentenceMy:
+            'ကျွန်ုပ်တို့သည် ___ ကိုသုံးပြီး အက္ခရာများ ရိုက်ထည့်ကြသည်။',
+        optionsEn: ['Mouse', 'Screen', 'Keyboard', 'Printer'],
+        optionsMy: ['မောက်စ်', 'မျက်နှာပြင်', 'ကီးဘုတ်', 'ပရင်တာ'],
+        correctIndex: 2,
+      ),
+      FillBlankQuestion(
+        sentenceEn: 'We click and point at things using the ___.',
+        sentenceMy: 'ကျွန်ုပ်တို့သည် ___ ကို သုံးပြီး နှိပ်ကာ ညွှန်ပြကြသည်။',
+        optionsEn: ['Keyboard', 'Mouse', 'Screen', 'Monitor'],
+        optionsMy: ['ကီးဘုတ်', 'မောက်စ်', 'မျက်နှာပြင်', 'မော်နီတာ'],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn: 'Before going on the internet, we should ask a ___.',
+        sentenceMy: 'အင်တာနက်ကို မသုံးမီ ကျွန်ုပ်တို့ ___ ကို မေးသင့်သည်။',
+        optionsEn: ['Stranger', 'Grown-up', 'Cat', 'Toy'],
+        optionsMy: ['အမျှမသိသူ', 'လူကြီး', 'ကြောင်', 'အရုပ်'],
+        correctIndex: 1,
+      ),
+      FillBlankQuestion(
+        sentenceEn: 'We listen to sounds from the computer using the ___.',
+        sentenceMy: 'ကွန်ပျူတာမှ အသံများကို ___ ဖြင့် နားထောင်ကြသည်။',
+        optionsEn: ['Speaker', 'Keyboard', 'Mouse', 'Screen'],
+        optionsMy: ['စပီကာ', 'ကီးဘုတ်', 'မောက်စ်', 'မျက်နှာပြင်'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
 
 /// One fill-in-the-blank module per Secondary/IGCSE grade, each covering a

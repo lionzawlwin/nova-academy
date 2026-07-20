@@ -362,6 +362,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get subjectEngineering => 'Engineering';
 
   @override
+  String get subjectHistory => 'History';
+
+  @override
+  String get subjectGeography => 'Geography';
+
+  @override
+  String get subjectComputing => 'Computing';
+
+  @override
   String get gatekeeperTitle => 'Grown-Ups Only';
 
   @override

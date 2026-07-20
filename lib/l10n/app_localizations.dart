@@ -794,6 +794,24 @@ abstract class AppLocalizations {
   /// **'Engineering'**
   String get subjectEngineering;
 
+  /// No description provided for @subjectHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get subjectHistory;
+
+  /// No description provided for @subjectGeography.
+  ///
+  /// In en, this message translates to:
+  /// **'Geography'**
+  String get subjectGeography;
+
+  /// No description provided for @subjectComputing.
+  ///
+  /// In en, this message translates to:
+  /// **'Computing'**
+  String get subjectComputing;
+
   /// No description provided for @gatekeeperTitle.
   ///
   /// In en, this message translates to:

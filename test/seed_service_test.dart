@@ -188,8 +188,8 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 32 modules', () {
-      expect(modules.length, 32);
+    test('has exactly 38 modules', () {
+      expect(modules.length, 38);
     });
 
     test('every module id is unique, including against legacy modules', () {
@@ -215,6 +215,9 @@ void main() {
         'stem',
         'coding',
         'engineering',
+        'history',
+        'geography',
+        'computing',
       };
       for (final module in modules) {
         expect(expected.contains(module.subject), isTrue, reason: module.id);
@@ -245,7 +248,7 @@ void main() {
     final nurseryModules = mockSeedNurseryKgModules();
 
     test('has exactly 88 modules', () {
-      expect(modules.length, 88);
+      expect(modules.length, 106);
     });
 
     test(
@@ -286,6 +289,9 @@ void main() {
         'stem',
         'coding',
         'engineering',
+        'history',
+        'geography',
+        'computing',
       };
       for (final module in modules) {
         expect(expected.contains(module.subject), isTrue, reason: module.id);
@@ -413,8 +419,8 @@ void main() {
     final primaryQuizModules = mockSeedPrimaryCurriculumModules();
     final secondaryQuizModules = mockSeedSecondaryCurriculumModules();
 
-    test('has exactly 6 modules', () {
-      expect(modules.length, 6);
+    test('has exactly 9 modules', () {
+      expect(modules.length, 9);
     });
 
     test(
@@ -569,8 +575,8 @@ void main() {
     final primaryFillBlankModules = mockSeedPrimaryFillBlankModules();
     final secondaryFillBlankModules = mockSeedSecondaryFillBlankModules();
 
-    test('has exactly 6 modules', () {
-      expect(modules.length, 6);
+    test('has exactly 9 modules', () {
+      expect(modules.length, 9);
     });
 
     test(

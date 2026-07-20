@@ -6653,4 +6653,1739 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // New `history`/`geography`/`computing` subjects: original bilingual
+  // content covering then-vs-now history, world geography, and digital
+  // literacy/e-safety, one quiz module per subject per grade (mirrors the
+  // `coding`/`engineering` STEAM rollout's cadence and starsReward scaling).
+  // ------------------------------ YEAR 1 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year1-history-1',
+    subject: 'history',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Then and Now',
+    titleMy: 'ရှေးနှင့် ယနေ့',
+    descriptionEn:
+        'Learn simple facts about how life was different long ago and how we understand family history.',
+    descriptionMy:
+        'ရှေးကဘဝနှင့် ယနေ့ဘဝ ဘယ်လိုကွာခြားသလဲ၊ မိသားစုသမိုင်းကို ဘယ်လိုနားလည်နိုင်သလဲ လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Long ago, people used candles for light. What do we mostly use today?',
+        questionMy:
+            'ရှေးတုန်းက အလင်းရရှိရန် ဖယောင်းတိုင်များကို သုံးခဲ့ကြသည်။ ယနေ့ ဘာကို အများဆုံးသုံးကြသလဲ။',
+        optionsEn: ['Electric lights', 'Candles', 'Wooden torches', 'Nothing'],
+        optionsMy: [
+          'လျှပ်စစ်မီးများ',
+          'ဖယောင်းတိုင်များ',
+          'သစ်သားတန်ဆောင်းမီး',
+          'ဘာမှမသုံးပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "A family tree shows...",
+        questionMy: 'မိသားစုဆွေစဉ်မျိုးဆက်ပုံသည် ဘာကိုပြသလဲ။',
+        optionsEn: [
+          'Your family members and how they are related',
+          'The weather today',
+          'Math sums',
+          'A shopping list',
+        ],
+        optionsMy: [
+          'မိသားစုဝင်များနှင့် သူတို့ဆွေမျိုးတော်စပ်ပုံ',
+          'ယနေ့ရာသီဥတု',
+          'သင်္ချာအရေတွက်',
+          'စျေးဝယ်စာရင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "Which of these is an 'old' object from the past?",
+        questionMy:
+            "အောက်ပါအရာများထဲမှ ဘယ်ဟာက အတိတ်ကာလမှ 'ဟောင်း' ပစ္စည်းဖြစ်သလဲ။",
+        optionsEn: [
+          'A smartphone',
+          'A gramophone (old record player)',
+          'A tablet computer',
+          'A laptop',
+        ],
+        optionsMy: [
+          'စမတ်ဖုန်း',
+          'ဂရမ်မိုဖုန်း (တေးသံဖမ်းစက်ဟောင်း)',
+          'တက်ဘလက်ကွန်ပျူတာ',
+          'လက်ပ်တော့',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: "Grandparents are...",
+        questionMy: 'အဖိုးအဖွားများသည် ဘယ်သူတွေဖြစ်ကြသလဲ။',
+        optionsEn: [
+          "Your parents' parents",
+          'Your friends',
+          'Your teachers',
+          'Your neighbors',
+        ],
+        optionsMy: [
+          'မိဘများ၏ မိဘများ',
+          'သူငယ်ချင်းများ',
+          'ဆရာဆရာမများ',
+          'အိမ်နီးချင်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "A timeline helps us understand...",
+        questionMy: 'အချိန်ဇယားသည် ဘာကိုနားလည်ရန် ကူညီပေးသလဲ။',
+        optionsEn: [
+          'The order of events over time',
+          'How to cook food',
+          'How to swim',
+          'The alphabet',
+        ],
+        optionsMy: [
+          'အချိန်ကာလအလိုက် အဖြစ်အပျက်များ၏ အစဉ်လိုက်',
+          'အစားအစာချက်နည်း',
+          'ရေကူးနည်း',
+          'အက္ခရာစဉ်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year1-geography-1',
+    subject: 'geography',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Weather, Seasons and Simple Maps',
+    titleMy: 'ရာသီဥတု၊ ရာသီများနှင့် ရိုးရှင်းသောမြေပုံများ',
+    descriptionEn:
+        'Learn about hot, rainy and cool seasons, and how we draw simple plans of a room.',
+    descriptionMy:
+        'နွေ၊ မိုးနှင့် ဆောင်းရာသီများအကြောင်းနှင့် အခန်းတစ်ခန်း၏ ရိုးရှင်းသောစီမံကိန်းပုံကို မည်သို့ရေးဆွဲရသည်ကို လေ့လာကြရအောင်။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Which season has the most rain?',
+        questionMy: 'မည်သည့်ရာသီတွင် မိုးအများဆုံးရွာသနည်း။',
+        optionsEn: [
+          'Hot season',
+          'Rainy season',
+          'Cool season',
+          'Harvest season',
+        ],
+        optionsMy: ['နွေရာသီ', 'မိုးရာသီ', 'ဆောင်းရာသီ', 'စပါးရိတ်သိမ်းရာသီ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'What do we usually wear when the weather is hot?',
+        questionMy:
+            'ရာသီဥတုပူပြင်းသောအခါ ကျွန်တော်တို့ ပုံမှန်ဝတ်ဆင်လေ့ရှိသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A thick jacket',
+          'Light cotton clothes',
+          'A thick winter coat',
+          'Rain boots only',
+        ],
+        optionsMy: [
+          'ထူထဲသောဂျာကင်',
+          'ပါးလွှာသော ချည်ထည်အဝတ်အစား',
+          'ထူထဲသောဆောင်းရာသီအင်္ကျီ',
+          'မိုးဖိနပ်တစ်ခုတည်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which season is the coolest (chilliest) season?',
+        questionMy: 'မည်သည့်ရာသီသည် အအေးဆုံးရာသီဖြစ်သနည်း။',
+        optionsEn: [
+          'Hot season',
+          'Rainy season',
+          'Cool season',
+          'Flood season',
+        ],
+        optionsMy: ['နွေရာသီ', 'မိုးရာသီ', 'ဆောင်းရာသီ', 'ရေကြီးရာသီ'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When we draw a room as if looking down from above, what do we call this drawing?',
+        questionMy:
+            'အခန်းတစ်ခန်းကို အထက်စီကနေကြည့်ပြီး ရေးဆွဲသောပုံကို ဘာခေါ်သနည်း။',
+        optionsEn: [
+          'A photograph',
+          'A map (plan)',
+          'A painting of the sky',
+          'A story book',
+        ],
+        optionsMy: [
+          'ဓာတ်ပုံ',
+          'မြေပုံ (အစီအစဉ်ပုံ)',
+          'ကောင်းကင်ပန်းချီပုံ',
+          'ပုံပြင်စာအုပ်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a simple classroom plan, which object would you expect to see drawn near the front wall, close to the teacher?',
+        questionMy:
+            'ရိုးရှင်းသောစာသင်ခန်းမြေပုံတွင် ဆရာ/ဆရာမနှင့်နီးသော အရှေ့နံရံအနီးတွင် တွေ့ရလိမ့်မည့် အရာဝတ္ထုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The blackboard',
+          'The dustbin',
+          'The window curtain only',
+          'The ceiling fan only',
+        ],
+        optionsMy: [
+          'ကျောက်သင်ပုန်း',
+          'အမှိုက်ပုံး',
+          'ပြတင်းပေါက်ကန့်လန့်ကာသာ',
+          'မိုးခင်းပန်ကာသာ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year1-computing-1',
+    subject: 'computing',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Parts of a Computer & Staying Safe',
+    titleMy: 'ကွန်ပျူတာ၏ အစိတ်အပိုင်းများနှင့် ဘေးကင်းရေး',
+    descriptionEn:
+        'Learn what each computer part does and simple internet safety rules.',
+    descriptionMy:
+        'ကွန်ပျူတာ၏ အစိတ်အပိုင်းများ၏ လုပ်ဆောင်ချက်များနှင့် အင်တာနက် ဘေးကင်းရေး စည်းမျဉ်းရိုးရှင်းများကို လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which part of the computer shows pictures and words for us to see?',
+        questionMy:
+            'ကွန်ပျူတာ၏ မည်သည့်အစိတ်အပိုင်းက ပုံများနှင့် စာလုံးများကို ပြသပေးသနည်း။',
+        optionsEn: ['Keyboard', 'Screen', 'Mouse', 'Speaker'],
+        optionsMy: ['ကီးဘုတ်', 'မျက်နှာပြင်', 'မောက်စ်', 'စပီကာ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which part has keys with letters and numbers that we press to type?',
+        questionMy:
+            'မည်သည့်အစိတ်အပိုင်းတွင် အက္ခရာများနှင့် ဂဏန်းများပါသော ခလုတ်များရှိပြီး ရိုက်ထည့်ရန် နှိပ်ရသနည်း။',
+        optionsEn: ['Screen', 'Mouse', 'Keyboard', 'Printer'],
+        optionsMy: ['မျက်နှာပြင်', 'မောက်စ်', 'ကီးဘုတ်', 'ပရင်တာ'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which part do we hold and move to point at things on the screen?',
+        questionMy:
+            'မည်သည့်အစိတ်အပိုင်းကို ကိုင်ပြီး ရွှေ့ကာ မျက်နှာပြင်ပေါ်ရှိအရာများကို ညွှန်ပြသနည်း။',
+        optionsEn: ['Mouse', 'Keyboard', 'Monitor', 'Speaker'],
+        optionsMy: ['မောက်စ်', 'ကီးဘုတ်', 'မော်နီတာ', 'စပီကာ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a message online asks you for your home address, what should you do?',
+        questionMy:
+            'အွန်လိုင်းမှ မက်ဆေ့ချ်တစ်ခုက သင့်နေအိမ်လိပ်စာကို မေးလာလျှင် သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Type it in right away',
+          'Tell a trusted grown-up',
+          'Ignore it and keep clicking',
+          'Share it with friends',
+        ],
+        optionsMy: [
+          'ချက်ချင်း ရိုက်ထည့်ပေးသည်',
+          'ယုံကြည်ရသော လူကြီးတစ်ဦးကို ပြောပြသည်',
+          'လျစ်လျူရှုပြီး ဆက်နှိပ်နေသည်',
+          'သူငယ်ချင်းများကို မျှဝေသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Before you click on a new game or website, what is the safest thing to do?',
+        questionMy:
+            'ဂိမ်းအသစ် (သို့) ဝက်ဘ်ဆိုက်တစ်ခုကို မနှိပ်မီ အဘေးကင်းဆုံးလုပ်ရမည့်အရာက ဘာဖြစ်သနည်း။',
+        optionsEn: [
+          'Click it quickly',
+          'Ask a grown-up first',
+          'Share your password',
+          'Turn off the screen',
+        ],
+        optionsMy: [
+          'အမြန်နှိပ်လိုက်သည်',
+          'ပထမဆုံး လူကြီးကို မေးကြည့်သည်',
+          'စကားဝှက်ကို မျှဝေသည်',
+          'မျက်နှာပြင်ကို ပိတ်လိုက်သည်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 2 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year2-history-1',
+    subject: 'history',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Daily Life Long Ago',
+    titleMy: 'ရှေးက နေ့စဉ်ဘဝ',
+    descriptionEn:
+        'Explore how homes, transport, clothes, and toys were different in the past compared to today.',
+    descriptionMy:
+        'အိမ်၊ သယ်ယူပို့ဆောင်ရေး၊ အဝတ်အစားနှင့် ကစားစရာများ ရှေးကနှင့် ယနေ့ ဘယ်လိုကွာခြားသလဲ လေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Long ago, most people traveled using...',
+        questionMy: 'ရှေးတုန်းက လူအများစုသည် ဘာဖြင့် ခရီးသွားခဲ့ကြသလဲ။',
+        optionsEn: [
+          'Horses and carts',
+          'Cars and buses',
+          'Airplanes',
+          'Motorbikes',
+        ],
+        optionsMy: [
+          'မြင်းနှင့် လှည်းများ',
+          'ကားနှင့် ဘတ်စ်ကားများ',
+          'လေယာဉ်ပျံများ',
+          'မော်တော်ဆိုင်ကယ်များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these was a common toy for children long ago?',
+        questionMy:
+            'အောက်ပါအထဲမှ ဘယ်ဟာက ရှေးက ကလေးများ ရိုးရိုးသာသုံးခဲ့သော ကစားစရာဖြစ်သလဲ။',
+        optionsEn: [
+          'A video game console',
+          'A wooden spinning top',
+          'A tablet',
+          'A smartphone',
+        ],
+        optionsMy: [
+          'ဗီဒီယိုဂိမ်းစက်',
+          'သစ်သားလှည့်ကစားစရာ',
+          'တက်ဘလက်',
+          'စမတ်ဖုန်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Long ago, people sent messages to each other mainly by...',
+        questionMy:
+            'ရှေးတုန်းက လူများသည် အချင်းချင်း သတင်းစကားများကို အဓိကအားဖြင့် ဘယ်လိုပို့ခဲ့ကြသလဲ။',
+        optionsEn: [
+          'Email',
+          'Letters carried by post',
+          'Text message',
+          'Video call',
+        ],
+        optionsMy: [
+          'အီးမေးလ်',
+          'စာတိုက်မှတစ်ဆင့် ပို့သောစာများ',
+          'စာတိုပို့ခြင်း',
+          'ဗီဒီယိုခေါ်ဆိုမှု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which type of home did many villagers live in long ago?',
+        questionMy:
+            'ရှေးတုန်းက ကျေးလက်လူများစွာ နေထိုင်ခဲ့သည့် အိမ်အမျိုးအစားက ဘယ်ဟာလဲ။',
+        optionsEn: [
+          'Houses made of bamboo and wood with thatched roofs',
+          'Skyscrapers',
+          'Houses with electric lights and air conditioners',
+          'Apartment buildings with elevators',
+        ],
+        optionsMy: [
+          'ဝါးနှင့် သစ်သားဖြင့်ဆောက်ထားသော သက်ကယ်မိုးအိမ်များ',
+          'အထပ်မြင့်တိုက်များ',
+          'လျှပ်စစ်မီးနှင့် အဲကွန်းပါသော အိမ်များ',
+          'လှေကားရုပ်ပါသော တိုက်ခန်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'How are clothes today different from long ago?',
+        questionMy: 'ယနေ့အဝတ်အစားများသည် ရှေးကနှင့် ဘယ်လိုကွာခြားသလဲ။',
+        optionsEn: [
+          "Today's clothes are made only from banana leaves",
+          'Today we have many factory-made fabrics and styles',
+          'People no longer wear clothes',
+          'Clothes have not changed at all',
+        ],
+        optionsMy: [
+          'ယနေ့အဝတ်အစားများကို ငှက်ပျောရွက်ဖြင့်သာ ပြုလုပ်ကြသည်',
+          'ယနေ့ စက်ရုံထုတ် အထည်နှင့် ဒီဇိုင်းများစွာ ရှိသည်',
+          'လူများ အဝတ်အစား ဝတ်ဆင်တော့မည်မဟုတ်ချေ',
+          'အဝတ်အစားများ လုံးဝမပြောင်းလဲပါ',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-geography-1',
+    subject: 'geography',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'My Local Area and Directions',
+    titleMy: 'ကျွန်တော့်ဒေသနှင့် အရပ်မျက်နှာများ',
+    descriptionEn:
+        'Explore features of our local area, compass directions and simple map symbols.',
+    descriptionMy:
+        'ကျွန်တော်တို့ဒေသရှိ အင်္ဂါရပ်များ၊ အရပ်မျက်နှာများနှင့် ရိုးရှင်းသောမြေပုံသင်္ကေတများကို လေ့လာကြရအောင်။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Which direction does the sun rise from?',
+        questionMy: 'နေရောင်ခြည်သည် မည်သည့်အရပ်မှ ထွက်ပေါ်သနည်း။',
+        optionsEn: ['North', 'South', 'East', 'West'],
+        optionsMy: ['မြောက်', 'တောင်', 'အရှေ့', 'အနောက်'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'On a map, a blue wavy line usually shows a ___.',
+        questionMy:
+            'မြေပုံပေါ်တွင် အပြာရောင်လှိုင်းကြောင်းသည် များသောအားဖြင့် ဘာကို ဖော်ပြသနည်း။',
+        optionsEn: ['Road', 'River', 'Mountain', 'Forest'],
+        optionsMy: ['လမ်း', 'မြစ်', 'တောင်', 'တောအုပ်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a feature found in most local areas?',
+        questionMy:
+            'အောက်ပါတို့အနက် ကျွန်တော်တို့ဒေသတွင် များသောအားဖြင့် တွေ့ရလေ့ရှိသောနေရာမှာ အဘယ်နည်း။',
+        optionsEn: ['Market', 'Ocean floor', 'Volcano', 'Desert dune'],
+        optionsMy: ['စျေး', 'သမုဒ္ဒရာအောက်ခံ', 'မီးတောင်', 'သဲကန္တာရသဲကုန်း'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If you are facing North and turn to your right, which direction do you now face?',
+        questionMy:
+            'မြောက်ဘက်ကို မျက်နှာမူထားပြီး ညာဘက်သို့ လှည့်လိုက်လျှင် မည်သည့်အရပ်ကို မျက်နှာမူသွားမည်နည်း။',
+        optionsEn: ['West', 'East', 'South', 'North'],
+        optionsMy: ['အနောက်', 'အရှေ့', 'တောင်', 'မြောက်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'A map key (legend) is used to ___.',
+        questionMy:
+            'မြေပုံသင်္ကေတဇယားကို အသုံးပြုသည့်ရည်ရွယ်ချက်မှာ ___ ဖြစ်သည်။',
+        optionsEn: [
+          'Show what the symbols on a map mean',
+          'Tell the time of day',
+          'Show the price of land',
+          "List students' names",
+        ],
+        optionsMy: [
+          'မြေပုံပေါ်ရှိ သင်္ကေတများ၏ အဓိပ္ပာယ်ကို ပြသရန်',
+          'နေ့အချိန်ကို ပြောပြရန်',
+          'မြေဈေးနှုန်းကို ပြရန်',
+          'ကျောင်းသားစာရင်းကို ဖော်ပြရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-computing-1',
+    subject: 'computing',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Step-by-Step Instructions & Online Safety',
+    titleMy: 'အဆင့်ဆင့် ညွှန်ကြားချက်များနှင့် အွန်လိုင်းဘေးကင်းရေး',
+    descriptionEn:
+        'Practice ordering simple steps and learn basic online safety habits.',
+    descriptionMy:
+        'ရိုးရှင်းသော အဆင့်များကို စဉ်ဆက်မပြတ် စီစဉ်တတ်ခြင်းနှင့် အခြေခံ အွန်လိုင်း ဘေးကင်းရေး အလေ့အကျင့်များကို လေ့ကျင့်ပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Anu puts on shoes in this order: 1) Put on socks 2) Put on shoes 3) Tie laces. Is this order correct?',
+        questionMy:
+            'အနုက ဖိနပ်စီးသည့်အစီအစဉ်မှာ- ၁) ခြေအိတ်စီးသည် ၂) ဖိနပ်စီးသည် ၃) ကြိုးများချည်သည်။ ဒီအစီအစဉ်သည် မှန်ကန်ပါသလား။',
+        optionsEn: [
+          'Yes, it is correct',
+          'No, the laces should be tied before wearing shoes',
+          'No, socks should go on after shoes',
+          'No, we should skip wearing socks',
+        ],
+        optionsMy: [
+          'ဟုတ်ကဲ့၊ မှန်ကန်ပါသည်',
+          'မှားပါသည်၊ ကြိုးများကို ဖိနပ်မစီးမီ ချည်ရမည်',
+          'မှားပါသည်၊ ခြေအိတ်ကို ဖိနပ်စီးပြီးမှ စီးရမည်',
+          'မှားပါသည်၊ ခြေအိတ်စီးရန် မလိုပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A set of steps followed in order to complete a task is called a(n) ___.',
+        questionMy:
+            'လုပ်ငန်းတစ်ခုပြီးမြောက်ရန် အစဉ်လိုက်လိုက်နာရသော အဆင့်များစုကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Password', 'Algorithm', 'Folder', 'Keyboard'],
+        optionsMy: ['စကားဝှက်', 'အယ်လဂိုရစ်သမ်', 'ဖိုင်တွဲ', 'ကီးဘုတ်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Why should you keep your password secret?',
+        questionMy: 'အဘယ်ကြောင့် သင့်စကားဝှက်ကို လျှို့ဝှက်ထားသင့်သနည်း။',
+        optionsEn: [
+          'So it looks nice',
+          'So only you can use your account',
+          'Because it is short',
+          "Because grown-ups don't need passwords",
+        ],
+        optionsMy: [
+          'လှပအောင်ထားခြင်းဖြစ်သည်',
+          'မိမိအကောင့်ကို မိမိတစ်ဦးတည်း အသုံးပြုနိုင်ရန်ဖြစ်သည်',
+          'အတိုစကားလုံးဖြစ်၍ဖြစ်သည်',
+          'လူကြီးများ စကားဝှက်မလိုအပ်သောကြောင့်ဖြစ်သည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A strange pop-up appears while you are playing a game online. What should you do?',
+        questionMy:
+            'အွန်လိုင်းဂိမ်းကစားနေစဉ် ထူးဆန်းသော ပေါ့အပ်ပ်ဝင်းဒိုးတစ်ခု ပေါ်လာသည်။ သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Click it quickly',
+          'Close it and tell a grown-up',
+          'Type your name into it',
+          'Share it with friends',
+        ],
+        optionsMy: [
+          'အမြန်နှိပ်လိုက်သည်',
+          'ပိတ်လိုက်ပြီး လူကြီးကို ပြောပြသည်',
+          'မိမိနာမည်ကို ရိုက်ထည့်သည်',
+          'သူငယ်ချင်းများကို မျှဝေသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'To make a cup of tea, which step should come first: pour the water into a cup, boil the water, or put a tea bag in the cup?',
+        questionMy:
+            'လက်ဖက်ရည်တစ်ခွက်ဖျော်ရန် ရေကို ခွက်ထဲသွန်ခြင်း၊ ရေကို ပွက်ပွက်ဆူအောင်ပြုတ်ခြင်း၊ လက်ဖက်ရည်အိတ်ကို ခွက်ထဲထည့်ခြင်း တို့အနက် မည်သည့်အဆင့်က ပထမဆုံးဖြစ်သင့်သနည်း။',
+        optionsEn: [
+          'Pour the water into a cup',
+          'Put a tea bag in the cup',
+          'Boil the water',
+          'Drink the tea',
+        ],
+        optionsMy: [
+          'ရေကို ခွက်ထဲသွန်သည်',
+          'လက်ဖက်ရည်အိတ်ကို ခွက်ထဲထည့်သည်',
+          'ရေကို ပွက်ပွက်ဆူအောင်ပြုတ်သည်',
+          'လက်ဖက်ရည်ကို သောက်သည်',
+        ],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 3 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year3-history-1',
+    subject: 'history',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'People, Events, and Timelines',
+    titleMy: 'လူပုဂ္ဂိုလ်များ၊ အဖြစ်အပျက်များနှင့် အချိန်ဇယားများ',
+    descriptionEn:
+        'Discover important people and events in our history and learn to read a simple timeline.',
+    descriptionMy:
+        'ကျွန်ုပ်တို့သမိုင်းရှိ အရေးကြီးသောလူပုဂ္ဂိုလ်များနှင့် အဖြစ်အပျက်များကို လေ့လာပြီး ရိုးရှင်းသောအချိန်ဇယားကို ဖတ်တတ်အောင် လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Myanmar celebrates Independence Day on which date?',
+        questionMy:
+            'မြန်မာနိုင်ငံသည် လွတ်လပ်ရေးနေ့ကို ဘယ်ရက်စွဲတွင် ကျင်းပသလဲ။',
+        optionsEn: ['4 January', '1 January', '4 July', '12 December'],
+        optionsMy: [
+          'ဇန်နဝါရီ ၄ ရက်',
+          'ဇန်နဝါရီ ၁ ရက်',
+          'ဇူလိုင် ၄ ရက်',
+          'ဒီဇင်ဘာ ၁၂ ရက်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A timeline is used to show events in what order?',
+        questionMy:
+            'အချိန်ဇယားကို အဖြစ်အပျက်များ ဘယ်လိုအစဉ်အတိုင်း ပြသရန်အသုံးပြုသလဲ။',
+        optionsEn: [
+          'Alphabetical order',
+          'The order in which they happened, from earliest to latest',
+          'Order of importance',
+          'Random order',
+        ],
+        optionsMy: [
+          'အက္ခရာစဉ်အလိုက်',
+          'အစောဆုံးမှ နောက်ဆုံးအထိ ဖြစ်ပျက်ခဲ့သည့်အစဉ်အတိုင်း',
+          'အရေးပါမှု အစဉ်အလိုက်',
+          'ကျပန်းအစဉ်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'King Anawrahta is remembered in Myanmar history mainly for...',
+        questionMy:
+            'အနော်ရထာမင်းကို မြန်မာသမိုင်းတွင် အဓိကအားဖြင့် ဘာကြောင့် သတိရကြသလဲ။',
+        optionsEn: [
+          'Building modern railways',
+          'Founding the Bagan Empire and spreading Buddhism',
+          'Inventing the printing press',
+          'Discovering electricity',
+        ],
+        optionsMy: [
+          'ခေတ်မီရထားလမ်းများ တည်ဆောက်ခြင်း',
+          'ပုဂံနိုင်ငံတော်ကို တည်ထောင်ပြီး ဗုဒ္ဓဘာသာကို ပျံ့နှံ့စေခြင်း',
+          'စာပုံနှိပ်စက် တီထွင်ခြင်း',
+          'လျှပ်စစ်ကို ရှာဖွေတွေ့ရှိခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of a national event?',
+        questionMy:
+            'အောက်ပါအထဲမှ ဘယ်ဟာက အမျိုးသားအဆင့် အဖြစ်အပျက်တစ်ခု ဥပမာဖြစ်သလဲ။',
+        optionsEn: [
+          'A birthday party at home',
+          'Independence Day celebrations',
+          'A family dinner',
+          'A school picnic',
+        ],
+        optionsMy: [
+          'အိမ်တွင်ကျင်းပသော မွေးနေ့ပွဲ',
+          'လွတ်လပ်ရေးနေ့ ကျင်းပပွဲများ',
+          'မိသားစု ညစာစားပွဲ',
+          'ကျောင်းသင်ရိုးပြင်ပ ခရီးစဉ်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'On a timeline drawn from left to right by date, which event happened first?',
+        questionMy:
+            'ရက်စွဲအလိုက် ဘယ်မှညာသို့ ရေးဆွဲထားသော အချိန်ဇယားတွင် ဘယ်အဖြစ်အပျက်က ပထမဆုံး ဖြစ်ပျက်ခဲ့သလဲ။',
+        optionsEn: [
+          'The event on the right end',
+          'The event on the left end (earliest date)',
+          'The event in the middle',
+          'You cannot tell',
+        ],
+        optionsMy: [
+          'ညာဘက်စွန်းရှိ အဖြစ်အပျက်',
+          'ဘယ်ဘက်စွန်းရှိ အဖြစ်အပျက် (အစောဆုံးရက်စွဲ)',
+          'အလယ်ရှိ အဖြစ်အပျက်',
+          'ခွဲခြားသိနိုင်မည်မဟုတ်ပါ',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-geography-1',
+    subject: 'geography',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: "Continents, Oceans and Earth's Features",
+    titleMy: 'ကျွန်းတိုက်များ၊ သမုဒ္ဒရာများနှင့် ကမ္ဘာမြေ၏ အင်္ဂါရပ်များ',
+    descriptionEn:
+        'Discover the continents and oceans of the world, and the difference between physical and human features.',
+    descriptionMy:
+        'ကမ္ဘာပေါ်ရှိ ကျွန်းတိုက်များနှင့် သမုဒ္ဒရာများကို လေ့လာပြီး သဘာဝနှင့် လူလုပ်အင်္ဂါရပ်များ ကွာခြားပုံကို လေ့လာကြရအောင်။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'How many continents are there on Earth?',
+        questionMy: 'ကမ္ဘာပေါ်တွင် ကျွန်းတိုက်စုစုပေါင်း မည်မျှရှိသနည်း။',
+        optionsEn: ['5', '6', '7', '8'],
+        optionsMy: ['၅ ခု', '၆ ခု', '၇ ခု', '၈ ခု'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is the largest ocean in the world?',
+        questionMy:
+            'အောက်ပါတို့အနက် ကမ္ဘာပေါ်တွင် အကြီးဆုံးသမုဒ္ဒရာမှာ အဘယ်ဖြစ်သနည်း။',
+        optionsEn: [
+          'Atlantic Ocean',
+          'Indian Ocean',
+          'Arctic Ocean',
+          'Pacific Ocean',
+        ],
+        optionsMy: [
+          'အတ္လန္တစ်သမုဒ္ဒရာ',
+          'အိန္ဒိယသမုဒ္ဒရာ',
+          'အာတိတ်သမုဒ္ဒရာ',
+          'ပစိဖိတ်သမုဒ္ဒရာ',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of the following is a physical feature, not a human-made feature?',
+        questionMy:
+            'အောက်ပါတို့အနက် လူလုပ်ဖန်တီးထားခြင်းမဟုတ်ဘဲ သဘာဝအလိုလျောက် ပေါ်ပေါက်သောအင်္ဂါရပ်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: ['A bridge', 'A mountain', 'A road', 'A city'],
+        optionsMy: ['တံတား', 'တောင်', 'လမ်း', 'မြို့'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which continent is Myanmar located in?',
+        questionMy: 'မြန်မာနိုင်ငံသည် မည်သည့်ကျွန်းတိုက်တွင် တည်ရှိသနည်း။',
+        optionsEn: ['Africa', 'Asia', 'Europe', 'South America'],
+        optionsMy: ['အာဖရိက', 'အာရှ', 'ဥရောပ', 'တောင်အမေရိက'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'A farm and a city are both examples of ___ features.',
+        questionMy:
+            'လယ်ယာမြေနှင့် မြို့တစ်မြို့တို့သည် ___ အင်္ဂါရပ်များ၏ ဥပမာများဖြစ်ကြသည်။',
+        optionsEn: ['physical', 'human', 'ocean', 'weather'],
+        optionsMy: ['သဘာဝ', 'လူလုပ်', 'သမုဒ္ဒရာ', 'ရာသီဥတု'],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-computing-1',
+    subject: 'computing',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Everyday Algorithms & Files',
+    titleMy: 'နေ့စဉ်သုံး အယ်လဂိုရစ်သမ်များနှင့် ဖိုင်တွဲများ',
+    descriptionEn:
+        'Sequence everyday tasks correctly and learn how files and folders work.',
+    descriptionMy:
+        'နေ့စဉ်လုပ်ငန်းများကို မှန်ကန်စွာ အစီအစဉ်ချပြီး ဖိုင်နှင့် ဖိုင်တွဲများ အလုပ်လုပ်ပုံကို လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these correctly orders the steps for brushing teeth?',
+        questionMy:
+            'အောက်ပါတို့အနက် သွားတိုက်ခြင်း အဆင့်များကို မှန်ကန်စွာ စီစဉ်ထားသည့်အရာက မည်သည့်အရာနည်း။',
+        optionsEn: [
+          'Wet the brush, put on toothpaste, brush teeth',
+          'Brush teeth, put on toothpaste, wet the brush',
+          'Put on toothpaste, brush teeth, wet the brush',
+          'Brush teeth, wet the brush, put on toothpaste',
+        ],
+        optionsMy: [
+          'တိုက်တံကို ရေစိုစေသည်၊ သွားတိုက်ဆေး ထည့်သည်၊ သွားတိုက်သည်',
+          'သွားတိုက်သည်၊ သွားတိုက်ဆေး ထည့်သည်၊ တိုက်တံကို ရေစိုစေသည်',
+          'သွားတိုက်ဆေး ထည့်သည်၊ သွားတိုက်သည်၊ တိုက်တံကို ရေစိုစေသည်',
+          'သွားတိုက်သည်၊ တိုက်တံကို ရေစိုစေသည်၊ သွားတိုက်ဆေး ထည့်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'In a computer, where do we keep related files together?',
+        questionMy:
+            'ကွန်ပျူတာတွင် ဆက်စပ်ဖိုင်များကို အတူတကွ မည်သည့်နေရာတွင် သိမ်းဆည်းလေ့ရှိသနည်း။',
+        optionsEn: ['A folder', 'A password', 'A speaker', 'A screen'],
+        optionsMy: [
+          'ဖိုင်တွဲတစ်ခုတွင်',
+          'စကားဝှက်တွင်',
+          'စပီကာတွင်',
+          'မျက်နှာပြင်တွင်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What word describes a list of steps followed in a fixed order to complete a task?',
+        questionMy:
+            'လုပ်ငန်းတစ်ခု ပြီးမြောက်ရန် ပုံသေအစီအစဉ်ဖြင့် လိုက်နာရသော အဆင့်များစာရင်းကို ဘယ်စကားလုံးက ဖော်ပြသနည်း။',
+        optionsEn: ['Password', 'Sequence', 'Folder', 'Icon'],
+        optionsMy: ['စကားဝှက်', 'အစီအစဉ် (Sequence)', 'ဖိုင်တွဲ', 'အိုင်ကွန်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If you want to find a photo saved on a computer, where would you most likely look first?',
+        questionMy:
+            'ကွန်ပျူတာထဲသိမ်းထားသော ဓာတ်ပုံတစ်ပုံကို ရှာလိုလျှင် ဦးစွာ မည်သည့်နေရာတွင် ရှာကြည့်ရမည်နည်း။',
+        optionsEn: [
+          'Inside the keyboard',
+          'Inside a folder',
+          'Inside the mouse',
+          'Inside the speaker',
+        ],
+        optionsMy: [
+          'ကီးဘုတ်ထဲတွင်',
+          'ဖိုင်တွဲထဲတွင်',
+          'မောက်စ်ထဲတွင်',
+          'စပီကာထဲတွင်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which step should come first when getting ready for school: eating breakfast, waking up, or wearing your uniform?',
+        questionMy:
+            'ကျောင်းသွားရန် အသင့်ဖြစ်ရာတွင် နံနက်စာစားခြင်း၊ အိပ်ရာနိုးခြင်း၊ ယူနီဖောင်းဝတ်ခြင်း တို့အနက် မည်သည့်အဆင့်က ပထမဆုံးဖြစ်သင့်သနည်း။',
+        optionsEn: [
+          'Wearing the uniform',
+          'Eating breakfast',
+          'Waking up',
+          'Going to bed',
+        ],
+        optionsMy: [
+          'ယူနီဖောင်းဝတ်ခြင်း',
+          'နံနက်စာစားခြင်း',
+          'အိပ်ရာနိုးခြင်း',
+          'အိပ်ရာဝင်ခြင်း',
+        ],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 4 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year4-history-1',
+    subject: 'history',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'How Transport and Communication Changed',
+    titleMy: 'သယ်ယူပို့ဆောင်ရေးနှင့် ဆက်သွယ်ရေး ပြောင်းလဲပုံ',
+    descriptionEn:
+        'Compare how transport, communication, and technology changed across the decades.',
+    descriptionMy:
+        'ဆယ်စုနှစ်များအတွင်း သယ်ယူပို့ဆောင်ရေး၊ ဆက်သွယ်ရေးနှင့် နည်းပညာများ မည်သို့ပြောင်းလဲခဲ့သည်ကို နှိုင်းယှဉ်လေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these shows the correct order of communication tools, from oldest to newest?',
+        questionMy:
+            'ဆက်သွယ်ရေးကိရိယာများကို အဟောင်းဆုံးမှ အသစ်ဆုံးအထိ မှန်ကန်စွာစီထားသည့် အစဉ်က ဘယ်ဟာလဲ။',
+        optionsEn: [
+          'Letters → Telephone → Mobile phone → Video call',
+          'Mobile phone → Letters → Video call → Telephone',
+          'Video call → Mobile phone → Telephone → Letters',
+          'Telephone → Video call → Letters → Mobile phone',
+        ],
+        optionsMy: [
+          'စာများ → တယ်လီဖုန်း → မိုဘိုင်းဖုန်း → ဗီဒီယိုခေါ်ဆိုမှု',
+          'မိုဘိုင်းဖုန်း → စာများ → ဗီဒီယိုခေါ်ဆိုမှု → တယ်လီဖုန်း',
+          'ဗီဒီယိုခေါ်ဆိုမှု → မိုဘိုင်းဖုန်း → တယ်လီဖုန်း → စာများ',
+          'တယ်လီဖုန်း → ဗီဒီယိုခေါ်ဆိုမှု → စာများ → မိုဘိုင်းဖုန်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why did trains change how people traveled in the past?',
+        questionMy:
+            'ရထားများသည် ရှေးက လူများ၏ ခရီးသွားနည်းကို ဘာကြောင့် ပြောင်းလဲစေခဲ့သလဲ။',
+        optionsEn: [
+          'They allowed people to travel faster and further than by walking or horse',
+          'They made travel impossible',
+          'They were slower than walking',
+          'They only carried mail',
+        ],
+        optionsMy: [
+          'လမ်းလျှောက်ခြင်း သို့မဟုတ် မြင်းစီးခြင်းထက် ပိုမြန်ပြီး ပိုဝေးသည်အထိ ခရီးသွားနိုင်စေခဲ့သည်',
+          'ခရီးသွားခြင်းကို မဖြစ်နိုင်တော့စေခဲ့သည်',
+          'လမ်းလျှောက်ခြင်းထက် နှေးခဲ့သည်',
+          'စာများကိုသာ သယ်ဆောင်ခဲ့သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which invention most changed how quickly news could travel across long distances?',
+        questionMy:
+            'အောက်ပါတီထွင်မှုများထဲမှ ဘယ်ဟာက ဝေးလံသောနေရာများသို့ သတင်းရောက်ရှိနှုန်းကို အများဆုံးပြောင်းလဲစေခဲ့သလဲ။',
+        optionsEn: [
+          'The bicycle',
+          'The telephone',
+          'The wooden cart',
+          'The candle',
+        ],
+        optionsMy: ['စက်ဘီး', 'တယ်လီဖုန်း', 'သစ်သားလှည်း', 'ဖယောင်းတိုင်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Comparing 50 years ago to today, which statement is true?',
+        questionMy:
+            'နှစ်ပေါင်း ၅၀ ခန့်ကနှင့် ယနေ့ကို နှိုင်းယှဉ်ကြည့်လျှင် ဘယ်ဖော်ပြချက်က မှန်ကန်သလဲ။',
+        optionsEn: [
+          'Fewer people had televisions in their homes 50 years ago',
+          'Everyone had smartphones 50 years ago',
+          'Cars did not exist 50 years ago',
+          'Nothing has changed in transport',
+        ],
+        optionsMy: [
+          'နှစ်ပေါင်း ၅၀ ခန့်က အိမ်တွင် တီဗီရှိသူ ပိုနည်းခဲ့သည်',
+          'နှစ်ပေါင်း ၅၀ ခန့်က လူတိုင်းတွင် စမတ်ဖုန်းရှိခဲ့သည်',
+          'နှစ်ပေါင်း ၅၀ ခန့်က ကားများ လုံးဝမရှိခဲ့ပါ',
+          'သယ်ယူပို့ဆောင်ရေးတွင် ဘာမှမပြောင်းလဲပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do historians compare old photographs with modern photographs?',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် ဓာတ်ပုံဟောင်းများနှင့် ခေတ်သစ်ဓာတ်ပုံများကို ဘာကြောင့် နှိုင်းယှဉ်ကြသလဲ။',
+        optionsEn: [
+          'To see how clothing, technology, and daily life have changed over time',
+          'To find out who took the best photo',
+          'To decide which photo is prettier',
+          'Photographs cannot show any change',
+        ],
+        optionsMy: [
+          'အဝတ်အစား၊ နည်းပညာနှင့် နေ့စဉ်ဘဝ အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ပြောင်းလဲခဲ့သည်ကို ကြည့်ရန်',
+          'ဘယ်သူ့ဓာတ်ပုံက အကောင်းဆုံးလဲဆိုသည်ကို ရှာဖွေရန်',
+          'ဘယ်ဓာတ်ပုံက ပိုလှသလဲ ဆုံးဖြတ်ရန်',
+          'ဓာတ်ပုံများသည် ပြောင်းလဲမှုကို ပြသနိုင်မည်မဟုတ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-geography-1',
+    subject: 'geography',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Climate Around the World',
+    titleMy: 'ကမ္ဘာတစ်ဝှမ်းရှိ ရာသီဥတု',
+    descriptionEn:
+        'Learn how climate differs around the world and how people adapt to their environment.',
+    descriptionMy:
+        'ကမ္ဘာတစ်ဝှမ်း ရာသီဥတု မတူညီပုံနှင့် လူများသည် သူတို့ပတ်ဝန်းကျင်နှင့်အညီ မည်သို့လိုက်လျောညီထွေနေထိုင်ကြသည်ကို လေ့လာကြရအောင်။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'People who live in very cold, snowy regions often build homes with ___ to keep warm.',
+        questionMy:
+            'အလွန်အေးမြပြီး နှင်းကျသောဒေသများတွင် နေထိုင်ကြသောလူများသည် ပူနွေးမှုထိန်းသိမ်းနိုင်ရန် ___ ပါသောအိမ်များကို ဆောက်လုပ်လေ့ရှိသည်။',
+        optionsEn: [
+          'thin walls and large windows',
+          'thick insulated walls and small windows',
+          'no roof at all',
+          'walls made only of glass',
+        ],
+        optionsMy: [
+          'ပါးလွှာသောနံရံနှင့် ပြတင်းပေါက်ကြီးများ',
+          'အပူလွှတ်မထွက်စေသော နံရံထူများနှင့် ပြတင်းပေါက်သေးများ',
+          'အမိုးလုံးဝမရှိခြင်း',
+          'မှန်သားနံရံများသာ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do people living near the equator often build homes with wide roofs and open walls?',
+        questionMy:
+            'အီကွေတာလိုင်းအနီးတွင် နေထိုင်ကြသောလူများက အကျယ်ကျယ်မိုးထိုးနှင့် အလေဝင်လွယ်သောနံရံပါသောအိမ်များကို အဘယ်ကြောင့် ဆောက်လုပ်ကြသနည်း။',
+        optionsEn: [
+          'To keep out the cold',
+          'To stay cool and let air flow in hot, humid weather',
+          'To collect snow',
+          'To block sunlight completely',
+        ],
+        optionsMy: [
+          'အအေးဓာတ်ကို ကာကွယ်ရန်',
+          'ပူပြင်းစိုစွတ်သောရာသီဥတုတွင် လေဝင်လေထွက်ကောင်းစေပြီး အေးမြစေရန်',
+          'နှင်းများကို စုဆောင်းရန်',
+          'နေရောင်ခြည်ကို လုံးဝပိတ်ဆို့ရန်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A place with hot weather all year and very little rain is called a ___ climate.',
+        questionMy:
+            'တစ်နှစ်ပတ်လုံးပူပြင်းပြီး မိုးရေအလွန်နည်းသောနေရာကို ___ ရာသီဥတုဟု ခေါ်သည်။',
+        optionsEn: ['polar', 'desert', 'tropical rainforest', 'temperate'],
+        optionsMy: [
+          'ဝင်ရိုးစွန်းရာသီဥတု',
+          'သဲကန္တာရရာသီဥတု',
+          'အပူပိုင်းမိုးအုပ်စိပ်တောရာသီဥတု',
+          'သမပိုင်းရာသီဥတု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which factor most affects the climate of a place?',
+        questionMy:
+            'နေရာတစ်ခု၏ ရာသီဥတုကို အများဆုံးသက်ရောက်စေသောအချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The color of the soil',
+          'The distance from the equator',
+          'The number of people living there',
+          'The type of currency used',
+        ],
+        optionsMy: [
+          'မြေဆီလွှာအရောင်',
+          'အီကွေတာနှင့် ဝေးကွာမှု',
+          'နေထိုင်သူ ဦးရေအရေအတွက်',
+          'အသုံးပြုသော ငွေကြေးအမျိုးအစား',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In mountain regions with cold weather, farmers often adapt by ___.',
+        questionMy:
+            'အအေးဓာတ်များသော တောင်ပေါ်ဒေသများတွင် တောင်သူများသည် ___ ဖြင့် လိုက်လျောညီထွေဖြစ်အောင် နေထိုင်လေ့ရှိကြသည်။',
+        optionsEn: [
+          'growing crops that need very hot weather',
+          'growing hardy crops suited to cool temperatures and building terraced fields',
+          'refusing to farm at all',
+          'only fishing in the ocean',
+        ],
+        optionsMy: [
+          'ပူပြင်းသောရာသီဥတုကို လိုအပ်သောသီးနှံများ စိုက်ပျိုးခြင်း',
+          'အေးမြသောရာသီဥတုနှင့် ကိုက်ညီသောသီးနှံများ စိုက်ပျိုးပြီး လှေကားထစ်ခင်းများ ပြုလုပ်ခြင်း',
+          'လုံးဝ လယ်ယာစိုက်ပျိုးမှု မပြုလုပ်ခြင်း',
+          'သမုဒ္ဒရာတွင်သာ ငါးဖမ်းခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-computing-1',
+    subject: 'computing',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Debugging Steps & Being Kind Online',
+    titleMy: 'အမှားရှာဖွေခြင်းနှင့် အွန်လိုင်းတွင် ကြင်နာစွာ ပြုမူခြင်း',
+    descriptionEn:
+        'Spot mistakes in a sequence and practice good digital citizenship.',
+    descriptionMy:
+        'အဆင့်လုပ်ငန်းစဉ်များထဲမှ အမှားများကို ရှာဖွေပြီး ကောင်းမွန်သော ဒစ်ဂျစ်တယ် အမူအကျင့်များကို လေ့ကျင့်ပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A sequence for making a sandwich says: Step 1) Take two slices of bread, Step 2) Eat the sandwich, Step 3) Put filling between the slices, Step 4) Put the slices together. Which step is in the wrong place?',
+        questionMy:
+            'အသားညှပ်ပေါင်မုန့် ပြုလုပ်ရန် အဆင့်များမှာ- အဆင့် ၁) ပေါင်မုန့်နှစ်ချပ် ယူသည်၊ အဆင့် ၂) အသားညှပ်ပေါင်မုန့်ကို စားသည်၊ အဆင့် ၃) အသားညှပ်ပစ္စည်းကို ပေါင်မုန့်ကြားညှပ်သည်၊ အဆင့် ၄) ပေါင်မုန့်ချပ်များကို ပေါင်းထည့်သည်။ မည်သည့်အဆင့်သည် နေရာမှားနေသနည်း။',
+        optionsEn: ['Step 1', 'Step 2', 'Step 3', 'Step 4'],
+        optionsMy: ['အဆင့် ၁', 'အဆင့် ၂', 'အဆင့် ၃', 'အဆင့် ၄'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            "In the steps for planting a seed (dig a hole, water it, put the seed in the hole, cover it with soil), which step happens right after 'dig a hole'?",
+        questionMy:
+            "မျိုးစေ့တစ်စေ့ကို စိုက်ပျိုးခြင်း အဆင့်များ (တွင်းတူးသည်၊ ရေလောင်းသည်၊ မျိုးစေ့ကို တွင်းထဲထည့်သည်၊ မြေသားနှင့် ဖုံးအုပ်သည်) တွင် 'တွင်းတူးသည်' ပြီးနောက် လိုက်ရမည့်အဆင့်က ဘာနည်း။",
+        optionsEn: [
+          'Water it',
+          'Put the seed in the hole',
+          'Dig another hole',
+          'Eat the seed',
+        ],
+        optionsMy: [
+          'ရေလောင်းသည်',
+          'မျိုးစေ့ကို တွင်းထဲထည့်သည်',
+          'နောက်ထပ် တွင်းတူးသည်',
+          'မျိုးစေ့ကို စားသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: "What does it mean to 'debug' a set of instructions?",
+        questionMy:
+            "ညွှန်ကြားချက် အစုတစ်ခုကို 'debug' လုပ်သည်ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+        optionsEn: [
+          'Delete all the steps',
+          'Find and fix the mistake',
+          'Add more pictures',
+          'Make the instructions longer',
+        ],
+        optionsMy: [
+          'အဆင့်အားလုံးကို ဖျက်ပစ်ခြင်း',
+          'အမှားကို ရှာဖွေပြီး ပြင်ဆင်ခြင်း',
+          'ပုံများ ထပ်ထည့်ခြင်း',
+          'ညွှန်ကြားချက်ကို ပိုရှည်အောင်လုပ်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of being kind online?',
+        questionMy:
+            'အောက်ပါတို့အနက် အွန်လိုင်းတွင် ကြင်နာစွာ ပြုမူခြင်း၏ ဥပမာမှာ မည်သည့်အရာနည်း။',
+        optionsEn: [
+          'Sending unkind comments',
+          "Sharing someone's password without asking",
+          "Encouraging a friend's post kindly",
+          "Copying someone's project without permission",
+        ],
+        optionsMy: [
+          'ကြမ်းတမ်းသော မှတ်ချက်များ ပို့ခြင်း',
+          'တစ်ဦးတစ်ယောက်၏ စကားဝှက်ကို ခွင့်မတောင်းဘဲ မျှဝေခြင်း',
+          'သူငယ်ချင်း၏ပို့စ်ကို ကြင်နာစွာ အားပေးခြင်း',
+          'တစ်ဦးတစ်ယောက်၏ စီမံကိန်းကို ခွင့်ပြုချက်မရှိဘဲ ကူးယူခြင်း',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A stranger online asks for your home address and school name. What should you do?',
+        questionMy:
+            'အွန်လိုင်းတွင် အမျှမသိသူတစ်ဦးက သင့်နေအိမ်လိပ်စာနှင့် ကျောင်းအမည်ကို မေးလာသည်။ သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Tell them everything they ask',
+          'Never share personal information and tell a trusted adult',
+          'Share only your school name',
+          'Ask them why they want it before answering',
+        ],
+        optionsMy: [
+          'သူတို့မေးသမျှကို အကုန်ပြောပြသည်',
+          'ကိုယ်ရေးကိုယ်တာအချက်အလက်ကို လုံးဝမမျှဝေဘဲ ယုံကြည်ရသော လူကြီးကို ပြောပြသည်',
+          'ကျောင်းအမည်ကိုသာ ပြောပြသည်',
+          'အဖြေမပေးမီ အဘယ်ကြောင့်မေးသနည်းဟု ပြန်မေးသည်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 5 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year5-history-1',
+    subject: 'history',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Ancient Egypt and How We Know the Past',
+    titleMy: 'ရှေးဟောင်းအီဂျစ်နှင့် အတိတ်ကို ဘယ်လိုသိရှိကြသလဲ',
+    descriptionEn:
+        'Learn about Ancient Egyptian civilization and how historians use evidence to understand the past.',
+    descriptionMy:
+        'ရှေးဟောင်းအီဂျစ်ယဉ်ကျေးမှုအကြောင်းနှင့် သမိုင်းပညာရှင်များ အတိတ်ကိုနားလည်ရန် သက်သေအထောက်အထားများ ဘယ်လိုအသုံးပြုကြသလဲ လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which river was central to the growth of Ancient Egyptian civilization?',
+        questionMy:
+            'ရှေးဟောင်းအီဂျစ်ယဉ်ကျေးမှု ဖွံ့ဖြိုးတိုးတက်ရာတွင် ဘယ်မြစ်က အဓိကကျခဲ့သလဲ။',
+        optionsEn: [
+          'The Nile River',
+          'The Amazon River',
+          'The Ayeyarwady River',
+          'The Yellow River',
+        ],
+        optionsMy: ['နိုင်းမြစ်', 'အမေဇုံမြစ်', 'ဧရာဝတီမြစ်', 'မြစ်ဝါ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Ancient Egyptians built pyramids mainly as...',
+        questionMy:
+            'ရှေးဟောင်းအီဂျစ်လူမျိုးများသည် ပိရမစ်များကို အဓိကအားဖြင့် ဘာအဖြစ် ဆောက်လုပ်ခဲ့ကြသလဲ။',
+        optionsEn: [
+          'Marketplaces for trading goods',
+          'Tombs for pharaohs and their treasures',
+          'Schools for children',
+          'Ordinary family homes',
+        ],
+        optionsMy: [
+          'ကုန်စည်ရောင်းဝယ်ရန် စျေးရောင်းစခန်းများ',
+          'ဘုရင်များနှင့် ၎င်းတို့၏ ဘဏ္ဍာများအတွက် သင်္ချိုင်းများ',
+          'ကလေးများအတွက် ကျောင်းများ',
+          'ရိုးရိုးမိသားစုနေအိမ်များ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Historians learn about Ancient Egypt today mostly through...',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် ယနေ့ ရှေးဟောင်းအီဂျစ်အကြောင်းကို အဓိကအားဖြင့် ဘာမှတဆင့် လေ့လာကြသလဲ။',
+        optionsEn: [
+          'Video recordings',
+          'Artifacts, hieroglyphic writing, and tomb paintings',
+          'Internet articles written at the time',
+          'Photographs taken by ancient Egyptians',
+        ],
+        optionsMy: [
+          'ဗီဒီယိုသွင်းဆွဲမှုများ',
+          'ရှေးဟောင်းပစ္စည်းများ၊ ဟိရိုဂလစ်ဖ်ပုံစာနှင့် သင်္ချိုင်းရုပ်ပုံများ',
+          'ထိုခေတ်က ရေးသားခဲ့သော အင်တာနက်ဆောင်းပါးများ',
+          'ရှေးဟောင်းအီဂျစ်လူများ ရိုက်ကူးထားသော ဓာတ်ပုံများ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: "What is a 'primary source' when studying history?",
+        questionMy:
+            "သမိုင်းလေ့လာရာတွင် 'မူလသက်သေအထောက်အထား' ဆိုသည်မှာ အဘယ်နည်း။",
+        optionsEn: [
+          'A modern textbook that summarizes events',
+          'An original object or record from the time being studied, such as a letter or artifact',
+          'A movie made recently about the past',
+          'A guess about what happened',
+        ],
+        optionsMy: [
+          'အဖြစ်အပျက်များကို အနှစ်ချုပ်ဖော်ပြထားသော ခေတ်သစ်စာအုပ်',
+          'လေ့လာနေသောခေတ်ကာလမှ မူရင်းအရာဝတ္ထု သို့မဟုတ် မှတ်တမ်း ဥပမာ - စာစောင် သို့မဟုတ် ရှေးဟောင်းပစ္စည်း',
+          'အတိတ်အကြောင်း လတ်တလောရိုက်ကူးထားသော ရုပ်ရှင်',
+          'ဘာဖြစ်ခဲ့သလဲဆိုသည်ကို ခန့်မှန်းချက်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why are the writings on Egyptian tomb walls considered valuable evidence?',
+        questionMy:
+            'အီဂျစ်သင်္ချိုင်းနံရံများပေါ်ရှိ စာများကို အဘယ်ကြောင့် တန်ဖိုးရှိသော သက်သေအထောက်အထားအဖြစ် သတ်မှတ်ကြသလဲ။',
+        optionsEn: [
+          'They are painted in bright colors',
+          'They were created at the time and describe the beliefs and lives of ancient people',
+          'They are very large',
+          'They are written in English',
+        ],
+        optionsMy: [
+          'တောက်ပသောအရောင်များဖြင့် ခြယ်မှုန်းထားသောကြောင့်',
+          'ထိုခေတ်ကာလကတည်းက ဖန်တီးခဲ့ပြီး ရှေးလူများ၏ ယုံကြည်မှုနှင့် ဘဝများကို ဖော်ပြထားသောကြောင့်',
+          'အလွန်ကြီးမားသောကြောင့်',
+          'အင်္ဂလိပ်ဘာသာဖြင့် ရေးထားသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-geography-1',
+    subject: 'geography',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Natural Resources and Map Skills',
+    titleMy: 'သဘာဝသယံဇာတများနှင့် မြေပုံအသုံးချစွမ်းရည်',
+    descriptionEn:
+        'Learn about natural resources and practise map skills such as scale and grid references.',
+    descriptionMy:
+        'သဘာဝသယံဇာတများအကြောင်း လေ့လာပြီး မြေပုံစကေးနှင့် ကွက်လပ်ညွှန်း ကဲ့သို့သော မြေပုံအသုံးချစွမ်းရည်များကို လေ့ကျင့်ကြရအောင်။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is a natural resource taken directly from the Earth?',
+        questionMy:
+            'အောက်ပါတို့အနက် ကမ္ဘာမြေမှ တိုက်ရိုက်ရရှိသော သဘာဝသယံဇာတတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: ['Plastic toy', 'Coal', 'Smartphone', 'Concrete building'],
+        optionsMy: [
+          'ပလတ်စတစ်ကစားစရာ',
+          'ကျောက်မီးသွေး',
+          'စမတ်ဖုန်း',
+          'ကွန်ကရစ်အဆောက်အဦ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'On a map with a scale of 1cm : 5km, a distance of 3cm on the map represents ___ in real life.',
+        questionMy:
+            '1cm : 5km စကေးပါသောမြေပုံတွင် မြေပုံပေါ်ရှိ 3cm အကွာအဝေးသည် တကယ့်ဘဝတွင် ___ ကိုကိုယ်စားပြုသည်။',
+        optionsEn: ['3km', '8km', '15km', '5km'],
+        optionsMy: ['3km', '8km', '15km', '5km'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'A grid reference on a map is used to ___.',
+        questionMy:
+            'မြေပုံပေါ်ရှိ ကွက်လပ်ညွှန်းကို အသုံးပြုသည့်ရည်ရွယ်ချက်မှာ ___ ဖြစ်သည်။',
+        optionsEn: [
+          'find the exact location of a place',
+          'tell you the population of a city',
+          'show the age of a map',
+          'measure temperature',
+        ],
+        optionsMy: [
+          'နေရာတစ်ခု၏ တိကျသောတည်နေရာကို ရှာဖွေရန်',
+          'မြို့တစ်မြို့၏ လူဦးရေကို ပြောပြရန်',
+          'မြေပုံ၏ သက်တမ်းကို ဖော်ပြရန်',
+          'အပူချိန်ကို တိုင်းတာရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Water, forests, and minerals are all examples of ___.',
+        questionMy:
+            'ရေ၊ သစ်တောနှင့် သတ္တုတွင်းများသည် ___ များ၏ ဥပမာများဖြစ်ကြသည်။',
+        optionsEn: [
+          'man-made products',
+          'natural resources',
+          'imaginary items',
+          'weather types',
+        ],
+        optionsMy: [
+          'လူလုပ်ထုတ်ကုန်များ',
+          'သဘာဝသယံဇာတများ',
+          'စိတ်ကူးယဉ်ပစ္စည်းများ',
+          'ရာသီဥတုအမျိုးအစားများ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is it important to use natural resources like forests wisely?',
+        questionMy:
+            'သစ်တောကဲ့သို့ သဘာဝသယံဇာတများကို ဉာဏ်ပညာရှိရှိ အသုံးချရန် အဘယ်ကြောင့် အရေးကြီးသနည်း။',
+        optionsEn: [
+          'Because they can never run out no matter how much we use',
+          'Because some resources can run out or take a very long time to renew',
+          'Because they have no effect on daily life',
+          'Because they are only found in cold countries',
+        ],
+        optionsMy: [
+          'မည်မျှပင်သုံးစွဲပါစေ ဘယ်တော့မှမကုန်ခန်းနိုင်သောကြောင့်',
+          'အချို့သယံဇာတများသည် ကုန်ခန်းနိုင်ပြီး ပြန်လည်ဖြစ်ပေါ်ရန် အလွန်ကြာနိုင်သောကြောင့်',
+          'နေ့စဉ်ဘဝနှင့် လုံးဝမသက်ဆိုင်သောကြောင့်',
+          'အအေးဒေသနိုင်ငံများတွင်သာ တွေ့ရှိရသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-computing-1',
+    subject: 'computing',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Organizing Data & Trusting Online Information',
+    titleMy:
+        'အချက်အလက်များ စုစည်းခြင်းနှင့် အွန်လိုင်းသတင်းအား ယုံကြည်စိတ်ချနိုင်မှု',
+    descriptionEn:
+        'Learn to organize information with tally charts and pictograms, and judge trustworthy sources.',
+    descriptionMy:
+        'တဲလီဇယားနှင့် ပုံပြရေဆွဲပုံများဖြင့် အချက်အလက်များ စုစည်းတတ်ခြင်းနှင့် ယုံကြည်စိတ်ချရသော အရင်းအမြစ်များကို ခွဲခြားတတ်ရန် လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A tally chart uses small marks to show what?',
+        questionMy:
+            'တဲလီဇယားသည် ဘာကို ပြသရန် အမှတ်အသားသေးသေးလေးများကို အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Colors used in a picture',
+          'How many times something happens',
+          'Passwords for an account',
+          'Names of folders',
+        ],
+        optionsMy: [
+          'ပုံတွင်သုံးသော အရောင်များ',
+          'တစ်ခုခုဖြစ်ပျက်သည့် အကြိမ်အရေအတွက်',
+          'အကောင့်၏ စကားဝှက်များ',
+          'ဖိုင်တွဲများ၏အမည်များ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a pictogram, one picture (symbol) usually stands for ___?',
+        questionMy:
+            'ပုံပြရေဆွဲပုံ (pictogram) တစ်ခုတွင် ပုံတစ်ပုံ (သင်္ကေတ) သည် များသောအားဖြင့် မည်သည့်အရာကို ကိုယ်စားပြုလေ့ရှိသနည်း။',
+        optionsEn: [
+          'Only one item, always',
+          'A certain number of items',
+          'Nothing at all',
+          'A password',
+        ],
+        optionsMy: [
+          'အမြဲတမ်း တစ်ခုတည်း',
+          'အရေအတွက် အသိသတ်မှတ်ထားသော ပစ္စည်းအရေအတွက်',
+          'ဘာမျှမကိုယ်စားပြု',
+          'စကားဝှက်တစ်ခု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            "If you wanted to find out your classmates' favourite fruit, which tool would help you organize the answers?",
+        questionMy:
+            'အတန်းဖော်များ၏ အကြိုက်ဆုံးအသီးကို သိလိုလျှင် အဖြေများကို စုစည်းရန် မည်သည့်ကိရိယာက ကူညီနိုင်မည်နည်း။',
+        optionsEn: ['A keyboard', 'A tally chart', 'A mouse', 'A printer'],
+        optionsMy: ['ကီးဘုတ်', 'တဲလီဇယား', 'မောက်စ်', 'ပရင်တာ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which website is more likely to give trustworthy information?',
+        questionMy:
+            'မည်သည့်ဝက်ဘ်ဆိုက်က ပို၍ ယုံကြည်စိတ်ချရသော အချက်အလက်ပေးနိုင်ဖွယ်ရှိသနည်း။',
+        optionsEn: [
+          'A page with no author and facts that seem wrong',
+          'A well-known reliable source that other trusted sites also reference',
+          'A pop-up advertisement',
+          'A random anonymous comment online',
+        ],
+        optionsMy: [
+          'စာရေးသူအမည်မပါဘဲ မှားယွင်းနေဟန်ရှိသော စာမျက်နှာ',
+          'အခြားယုံကြည်ရသော ဝက်ဘ်ဆိုက်များကလည်း ကိုးကားထားသော လူသိများ ယုံကြည်ရသော အရင်းအမြစ်',
+          'ပေါ့အပ်ပ်ကြော်ငြာတစ်ခု',
+          'အမည်မဖော်သော ကျပန်းမှတ်ချက်တစ်ခု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Before believing information you find online, what should you do?',
+        questionMy:
+            'အွန်လိုင်းတွင်တွေ့ရသော အချက်အလက်ကို မယုံကြည်မီ သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Believe it immediately',
+          'Check it against another trusted source',
+          'Share it with everyone right away',
+          'Ignore where the information came from',
+        ],
+        optionsMy: [
+          'ချက်ချင်း ယုံကြည်လိုက်သည်',
+          'အခြားယုံကြည်ရသော အရင်းအမြစ်တစ်ခုနှင့် နှိုင်းယှဉ်စစ်ဆေးသည်',
+          'လူတိုင်းကို ချက်ချင်းမျှဝေသည်',
+          'အချက်အလက်၏ ဇစ်မြစ်ကို လျစ်လျူရှုသည်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 6 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year6-history-1',
+    subject: 'history',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Causes, Effects, and Historical Sources',
+    titleMy: 'အကြောင်းရင်း၊ အကျိုးဆက်နှင့် သမိုင်းသက်သေများ',
+    descriptionEn:
+        'Analyze the causes and effects of major historical changes and compare different historical sources.',
+    descriptionMy:
+        'သမိုင်းဆိုင်ရာ အရေးကြီးပြောင်းလဲမှုများ၏ အကြောင်းရင်းနှင့် အကျိုးဆက်များကို ခွဲခြမ်းစိတ်ဖြာပြီး သမိုင်းသက်သေအထောက်အထား အမျိုးမျိုးကို နှိုင်းယှဉ်ပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'When historians compare two different accounts of the same event, why might the accounts differ?',
+        questionMy:
+            'သမိုင်းပညာရှင်များသည် တူညီသောအဖြစ်အပျက်တစ်ခုအကြောင်း ကွဲပြားသောမှတ်တမ်းနှစ်ခုကို နှိုင်းယှဉ်သောအခါ ၎င်းတို့ ဘာကြောင့် ကွဲပြားနိုင်သလဲ။',
+        optionsEn: [
+          'Because history never changes',
+          'Because the writers may have had different viewpoints, information, or purposes',
+          'Because one writer is always lying',
+          'Because dates cannot be recorded accurately',
+        ],
+        optionsMy: [
+          'သမိုင်းသည် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်',
+          'ရေးသားသူများတွင် ရှုထောင့်၊ အချက်အလက် သို့မဟုတ် ရည်ရွယ်ချက် ကွဲပြားနိုင်သောကြောင့်',
+          'ရေးသားသူတစ်ဦးက အမြဲလိမ်ညာနေသောကြောင့်',
+          'ရက်စွဲများကို တိကျစွာ မှတ်တမ်းတင်၍မရသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The invention of the printing press caused which of the following effects?',
+        questionMy:
+            'စာပုံနှိပ်စက် တီထွင်မှုသည် အောက်ပါအကျိုးဆက်များထဲမှ ဘယ်ဟာကို ဖြစ်ပေါ်စေခဲ့သလဲ။',
+        optionsEn: [
+          'Fewer people could access books and information',
+          'Books could be produced faster and reached more people, spreading knowledge',
+          'Books disappeared entirely',
+          'People stopped writing',
+        ],
+        optionsMy: [
+          'စာအုပ်နှင့် သတင်းအချက်အလက်များကို ရရှိသူ ပိုနည်းသွားခဲ့သည်',
+          'စာအုပ်များကို ပိုမြန်ဆန်စွာ ထုတ်လုပ်နိုင်ပြီး ပိုများသောလူများထံသို့ ရောက်ရှိကာ အသိပညာပျံ့နှံ့စေခဲ့သည်',
+          'စာအုပ်များ လုံးဝပျောက်ကွယ်သွားခဲ့သည်',
+          'လူများ စာရေးခြင်းကို ရပ်တန့်လိုက်ကြသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of the following best shows a cause-and-effect relationship in history?',
+        questionMy:
+            'အောက်ပါအထဲမှ ဘယ်ဟာက သမိုင်းတွင် အကြောင်းရင်းနှင့် အကျိုးဆက် ဆက်နွှယ်မှုကို အကောင်းဆုံးဖော်ပြသလဲ။',
+        optionsEn: [
+          'A drought caused crops to fail, leading people to migrate in search of food',
+          'A king wore a golden crown, so people liked gold',
+          'A river is long, so ships are made of wood',
+          'A season ended, so a new artifact was created',
+        ],
+        optionsMy: [
+          'မိုးခေါင်မှုကြောင့် သီးနှံများပျက်စီးကာ လူများ အစားအစာရှာရန် ရွှေ့ပြောင်းနေထိုင်ခဲ့ရသည်',
+          'ဘုရင်တစ်ပါးက ရွှေသရဖူဆောင်းသောကြောင့် လူများ ရွှေကို နှစ်သက်ခဲ့ကြသည်',
+          'မြစ်တစ်ခုက ရှည်လျားသောကြောင့် သင်္ဘောများကို သစ်သားဖြင့် ပြုလုပ်ခဲ့ကြသည်',
+          'ရာသီတစ်ခု ကုန်ဆုံးသွားသောကြောင့် ရှေးဟောင်းပစ္စည်းအသစ် ပေါ်ပေါက်လာခဲ့သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A historian reading two letters written about the same battle, one from each side, should...',
+        questionMy:
+            'တိုက်ပွဲတစ်ခုအကြောင်း ဘက်နှစ်ဘက်စီမှ ရေးသားထားသော စာစောင်နှစ်စောင်ကို ဖတ်ရှုသည့် သမိုင်းပညာရှင်တစ်ဦးသည် မည်သို့ပြုလုပ်သင့်သလဲ။',
+        optionsEn: [
+          'Only believe the letter written first',
+          'Compare both accounts carefully to understand different perspectives before drawing conclusions',
+          'Ignore both letters',
+          'Assume both letters say exactly the same thing',
+        ],
+        optionsMy: [
+          'ပထမဆုံးရေးထားသော စာစောင်ကိုသာ ယုံကြည်ရမည်',
+          'နိဂုံးမချမီ ရှုထောင့်ကွဲပြားမှုများကို နားလည်ရန် စာစောင်နှစ်စောင်စလုံးကို ဂရုတစိုက် နှိုင်းယှဉ်ရမည်',
+          'စာစောင်နှစ်စောင်လုံးကို လျစ်လျူရှုရမည်',
+          'စာစောင်နှစ်စောင်လုံး အတိအကျ တူညီစွာဆိုထားသည်ဟု ယူဆရမည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why might a historian consider a diary written during a war more reliable than a movie made about the same war 100 years later?',
+        questionMy:
+            'စစ်ပွဲကာလအတွင်း ရေးထားသော မှတ်တမ်းစာအုပ်တစ်အုပ်ကို တူညီသောစစ်ပွဲအကြောင်း နှစ်ပေါင်း ၁၀၀ ကြာမှ ရိုက်ကူးခဲ့သော ရုပ်ရှင်ထက် သမိုင်းပညာရှင်များက ဘာကြောင့် ပိုယုံကြည်ရသော သက်သေအထောက်အထားအဖြစ် သတ်မှတ်နိုင်သလဲ။',
+        optionsEn: [
+          'Because the diary was written by someone who directly experienced the events at that time',
+          'Because movies are always false',
+          'Because diaries are longer than movies',
+          'Because the movie would be written in a different language',
+        ],
+        optionsMy: [
+          'မှတ်တမ်းစာအုပ်ကို ထိုအချိန်က အဖြစ်အပျက်များကို တိုက်ရိုက်ကြုံတွေ့ခဲ့သူက ရေးသားခဲ့သောကြောင့်',
+          'ရုပ်ရှင်များသည် အမြဲတမ်း မမှန်သောကြောင့်',
+          'မှတ်တမ်းစာအုပ်များသည် ရုပ်ရှင်ထက် ပိုရှည်လျားသောကြောင့်',
+          'ရုပ်ရှင်ကို ဘာသာစကားကွဲပြားစွာ ရေးသားထားသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-geography-1',
+    subject: 'geography',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Human Impact and Sustainable Living',
+    titleMy: 'လူသားများ၏ သက်ရောက်မှုနှင့် ရေရှည်တည်တံ့သောနေထိုင်မှု',
+    descriptionEn:
+        'Explore how human activity affects the environment and how we can live more sustainably.',
+    descriptionMy:
+        'လူသားများ၏လုပ်ဆောင်ချက်များသည် ပတ်ဝန်းကျင်ကို မည်သို့သက်ရောက်စေသည်နှင့် ရေရှည်တည်တံ့အောင် မည်သို့နေထိုင်နိုင်သည်ကို လေ့လာကြရအောင်။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which human activity is most likely to lead to deforestation?',
+        questionMy:
+            'အောက်ပါ လူ့လုပ်ရပ်များအနက် သစ်တောပြုန်းတီးမှုကို အများဆုံးဖြစ်စေနိုင်သည့်လုပ်ရပ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Planting new trees in a park',
+          'Clearing large areas of forest for farmland',
+          'Recycling paper products',
+          'Walking in a nature reserve',
+        ],
+        optionsMy: [
+          'ပန်းခြံတွင် သစ်ပင်အသစ်များစိုက်ပျိုးခြင်း',
+          'လယ်ယာမြေအတွက် သစ်တောကျယ်ကျယ်ပြင်ကို ခုတ်ထွင်ခြင်း',
+          'စက္ကူထုတ်ကုန်များ ပြန်လည်အသုံးချခြင်း',
+          'သဘာဝထိန်းသိမ်းရေးဒေသတွင် လမ်းလျှောက်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Sustainability means using resources in a way that ___.',
+        questionMy:
+            'ရေရှည်တည်တံ့ခိုင်မြဲမှု ဆိုသည်မှာ ___ ပုံစံဖြင့် သယံဇာတများကို အသုံးချခြင်းကို ဆိုလိုသည်။',
+        optionsEn: [
+          'uses up everything as quickly as possible',
+          "meets today's needs without harming future generations' ability to meet theirs",
+          'only benefits one country',
+          'ignores the environment completely',
+        ],
+        optionsMy: [
+          'ဖြစ်နိုင်သမျှမြန်မြန် အားလုံးကုန်ခမ်းအောင်သုံးစွဲခြင်း',
+          'ယနေ့လိုအပ်ချက်များကို ဖြည့်ဆည်းရင်း အနာဂတ်မျိုးဆက်များ၏ လိုအပ်ချက်ဖြည့်ဆည်းနိုင်မှုကို မထိခိုက်စေခြင်း',
+          'တစ်နိုင်ငံတည်းကိုသာ အကျိုးပြုခြင်း',
+          'ပတ်ဝန်းကျင်ကို လုံးဝဂရုမစိုက်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Comparing a map of a rural region to a map of an urban region, you would most likely see ___.',
+        questionMy:
+            'ကျေးလက်ဒေသနှင့် မြို့ပြဒေသ၏ မြေပုံများကို နှိုင်းယှဉ်ကြည့်လျှင် များသောအားဖြင့် ___ တွေ့ရလိမ့်မည်။',
+        optionsEn: [
+          'more farmland and fewer buildings in the urban region',
+          'more buildings and roads and less farmland in the urban region',
+          'no difference between the two',
+          'more oceans in the rural region',
+        ],
+        optionsMy: [
+          'မြို့ပြဒေသတွင် လယ်ယာမြေပိုများပြီး အဆောက်အဦနည်းခြင်း',
+          'မြို့ပြဒေသတွင် အဆောက်အဦနှင့်လမ်းများ ပိုများပြီး လယ်ယာမြေနည်းခြင်း',
+          'နှစ်ခုစလုံးတွင် ကွာခြားချက်လုံးဝမရှိခြင်း',
+          'ကျေးလက်ဒေသတွင် သမုဒ္ဒရာပိုများခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of a sustainable practice?',
+        questionMy:
+            'အောက်ပါတို့အနက် ရေရှည်တည်တံ့ခိုင်မြဲသော နည်းလမ်းတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Overfishing until fish populations disappear',
+          'Rotating crops and replanting trees after harvesting',
+          'Burning large areas of forest for quick farmland',
+          'Dumping waste directly into rivers',
+        ],
+        optionsMy: [
+          'ငါးမျိုးစိတ် ကုန်ခမ်းသည်အထိ အလွန်အကျွံဖမ်းခြင်း',
+          'သီးနှံလှည့်ကျင့်စိုက်ပျိုးပြီး ရိတ်သိမ်းပြီးနောက် သစ်ပင်များပြန်စိုက်ခြင်း',
+          'လျင်မြန်စွာ လယ်ယာမြေရရှိရန် သစ်တောကျယ်ကျယ်ကို မီးရှို့ခြင်း',
+          'စွန့်ပစ်ပစ္စည်းများကို မြစ်ချောင်းများထဲသို့ တိုက်ရိုက်စွန့်ပစ်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A country with advanced map reading might use contour lines to show ___.',
+        questionMy:
+            'မြေပုံဖတ်ခြင်း အဆင့်မြင့်နေရာများတွင် အမြင့်တူမျဉ်းကြောင်းများကို ___ ပြသရန် အသုံးပြုလေ့ရှိသည်။',
+        optionsEn: [
+          'the political borders of a country only',
+          'changes in height and the shape of land such as hills and valleys',
+          'the population of each city',
+          'the languages spoken in each region',
+        ],
+        optionsMy: [
+          'နိုင်ငံ၏နိုင်ငံရေးနယ်နိမိတ်များကိုသာ',
+          'တောင်ကုန်းနှင့်ချိုင့်ဝှမ်းကဲ့သို့ မြေပြင်၏ ပုံသဏ္ဌာန်နှင့် အမြင့်အနိမ့်ပြောင်းလဲမှုများ',
+          'မြို့တစ်မြို့ချင်းစီ၏ လူဦးရေ',
+          'ဒေသတစ်ခုစီတွင် ပြောဆိုသောဘာသာစကားများ',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-computing-1',
+    subject: 'computing',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Loops, the Internet & Responsible Technology Use',
+    titleMy:
+        'ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း၊ အင်တာနက်နှင့် တာဝန်သိသော နည်းပညာအသုံးပြုမှု',
+    descriptionEn:
+        'Explore repetition in algorithms, how the internet connects devices, and ethical technology use.',
+    descriptionMy:
+        'အယ်လဂိုရစ်သမ်များအတွင်း ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း၊ အင်တာနက်က စက်ပစ္စည်းများကို ဆက်သွယ်ပေးပုံနှင့် တာဝန်သိစွာ နည်းပညာသုံးစွဲပုံတို့ကို လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            "A set of instructions says: 'Repeat 3 times: jump once, clap once.' How many jumps happen in total?",
+        questionMy:
+            "ညွှန်ကြားချက်တစ်ခုက 'အကြိမ် ၃ ကြိမ် ထပ်လုပ်ပါ- ခုန်တစ်ကြိမ်၊ လက်ခုပ်တီးတစ်ကြိမ်' ဟုဆိုသည်။ စုစုပေါင်း ခုန်သည့်အကြိမ်အရေအတွက် မည်မျှရှိမည်နည်း။",
+        optionsEn: ['1', '3', '6', '9'],
+        optionsMy: ['၁ ကြိမ်', '၃ ကြိမ်', '၆ ကြိမ်', '၉ ကြိမ်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is the huge network that connects computers around the world so they can send information to each other?',
+        questionMy:
+            'ကမ္ဘာတစ်ဝှမ်းရှိ ကွန်ပျူတာများကို အချင်းချင်း အချက်အလက်ပို့နိုင်ရန် ဆက်သွယ်ပေးသော ကွန်ရက်ကြီးကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: [
+          'A single cable only',
+          'The internet',
+          'A single folder',
+          'A password',
+        ],
+        optionsMy: [
+          'ကြိုးတစ်ချောင်းတည်း',
+          'အင်တာနက်',
+          'ဖိုင်တွဲတစ်ခုတည်း',
+          'စကားဝှက်တစ်ခု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            "Which best describes 'repetition' (a loop) in an algorithm?",
+        questionMy:
+            "အယ်လဂိုရစ်သမ်တစ်ခုအတွင်းရှိ 'ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း' (loop) ကို အသင့်တော်ဆုံး ဖော်ပြသောစာကြောင်းက မည်သည့်အရာနည်း။",
+        optionsEn: [
+          'Doing a step only once',
+          'Repeating a set of steps a certain number of times',
+          'Skipping some steps',
+          'Deleting all the steps',
+        ],
+        optionsMy: [
+          'အဆင့်တစ်ခုကို တစ်ကြိမ်တည်း လုပ်ခြင်း',
+          'အဆင့်တစ်စုကို သတ်မှတ်အကြိမ်အရေအတွက်အထိ ထပ်ခါထပ်ခါ လုပ်ခြင်း',
+          'အဆင့်အချို့ကို ကျော်သွားခြင်း',
+          'အဆင့်အားလုံးကို ဖျက်ပစ်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            "You want to greet each of your 5 friends with the word 'Hello'. Which instruction uses repetition most efficiently?",
+        questionMy:
+            "သင့်သူငယ်ချင်း ၅ ဦးကို 'Hello' ဟူသော စကားဖြင့် နှုတ်ဆက်လိုသည်။ မည်သည့်ညွှန်ကြားချက်က ထပ်ခါထပ်ခါလုပ်ဆောင်ခြင်းကို အထိရောက်ဆုံး အသုံးပြုသနည်း။",
+        optionsEn: [
+          "Write 'Hello' just once",
+          "Write 'Repeat 5 times: say Hello'",
+          "Write 'Hello' 20 separate times",
+          'Say nothing at all',
+        ],
+        optionsMy: [
+          "'Hello' ကို တစ်ကြိမ်တည်း ရေးသည်",
+          "'အကြိမ် ၅ ကြိမ် ထပ်ပါ- Hello ဟု ပြောပါ' ဟု ရေးသည်",
+          "'Hello' ကို သီးခြား ၂၀ ကြိမ် ရေးသည်",
+          'ဘာမျှ မပြောဘဲနေသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these shows responsible and ethical use of technology?',
+        questionMy:
+            'အောက်ပါတို့အနက် တာဝန်သိပြီး ကျင့်ဝတ်နှင့်ညီညွတ်သော နည်းပညာအသုံးပြုမှုကို ပြသည့်အရာက မည်သည့်အရာနည်း။',
+        optionsEn: [
+          'Downloading someone else\'s project and claiming it as your own',
+          'Giving credit when using someone else\'s work and respecting others\' privacy online',
+          "Sharing a friend's private photos without asking",
+          'Using loops to try to hack into accounts',
+        ],
+        optionsMy: [
+          'တစ်ဦးတစ်ယောက်၏ စီမံကိန်းကို ဒေါင်းလုဒ်ဆွဲပြီး ကိုယ့်ကိုယ်ပိုင်ဟု ပြောခြင်း',
+          'သူများ၏အလုပ်ကို အသုံးပြုလျှင် ဂုဏ်ပြုကျေးဇူးတင်ခြင်းနှင့် သူများ၏ကိုယ်ရေးလုံခြုံမှုကို လေးစားခြင်း',
+          'သူငယ်ချင်း၏ ကိုယ်ရေးဓာတ်ပုံများကို ခွင့်မတောင်းဘဲ မျှဝေခြင်း',
+          'အကောင့်များကို ခိုးဝင်ရန် loop များကို သုံးခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
 ];

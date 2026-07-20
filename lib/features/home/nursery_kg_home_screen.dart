@@ -72,6 +72,27 @@ class NurseryKgHomeScreen extends ConsumerWidget {
           .nurseryCandyPalette[6 % AppColors.nurseryCandyPalette.length],
       subjectKey: 'engineering',
     ),
+    SubjectVisual(
+      label: l10n.subjectHistory,
+      icon: Icons.history_edu_rounded,
+      color: AppColors
+          .nurseryCandyPalette[7 % AppColors.nurseryCandyPalette.length],
+      subjectKey: 'history',
+    ),
+    SubjectVisual(
+      label: l10n.subjectGeography,
+      icon: Icons.public_rounded,
+      color: AppColors
+          .nurseryCandyPalette[8 % AppColors.nurseryCandyPalette.length],
+      subjectKey: 'geography',
+    ),
+    SubjectVisual(
+      label: l10n.subjectComputing,
+      icon: Icons.computer_rounded,
+      color: AppColors
+          .nurseryCandyPalette[9 % AppColors.nurseryCandyPalette.length],
+      subjectKey: 'computing',
+    ),
   ];
 
   @override

@@ -125,6 +125,9 @@
   "subjectStem": "STEM (သိပ္ပံ လေ့လာမှု)",
   "subjectCoding": "ကွန်ပျူတာ ပရိုဂရမ်းမင်း",
   "subjectEngineering": "အင်ဂျင်နီယာဗေဒ",
+  "subjectHistory": "သမိုင်း",
+  "subjectGeography": "မြေပုံဗေဒ",
+  "subjectComputing": "ကွန်ပျူတာသုံးတတ်ခြင်း",
 
   "gatekeeperTitle": "လူကြီးများသာ",
   "gatekeeperInstruction": "ဆက်လက်ရန် ဒါကို ဖြေရှင်းပါ",
