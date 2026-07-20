@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../core/constants/app_constants.dart';
 import '../models/child_model.dart';
 import '../models/user_model.dart';
+import 'active_profile_provider.dart';
 import 'auth_providers.dart';
 import 'firebase_providers.dart';
 
@@ -41,6 +42,37 @@ final childrenForCurrentUserProvider = StreamProvider<List<ChildModel>>((ref) {
   }
 
   return Stream.value(const <ChildModel>[]);
+});
+
+/// The live, reactive [ChildModel] for the active student profile.
+///
+/// [activeProfileProvider] is a plain `StateProvider` set exactly once, at
+/// profile-selection time -- its [StudentProfile.child] is a frozen
+/// snapshot that [markModuleCompleted] never touches when it writes a new
+/// completion to Firestore. Reading that frozen copy directly (as the
+/// Nursery/KG, Primary, and Secondary/IGCSE home screens used to) is why
+/// the winding path required a manual reload to show a newly unlocked
+/// node: the local state had no way to learn a write had happened.
+///
+/// This provider re-derives the current child from
+/// [childrenForCurrentUserProvider]'s live `.snapshots()` stream on every
+/// emission instead -- the same stream the parent/teacher dashboards
+/// already rely on to stay live -- so a completion recorded in Firestore
+/// propagates to the UI the moment that snapshot listener fires, no reload
+/// needed. Falls back to the cached [ActiveProfile] snapshot only while the
+/// live stream hasn't emitted yet (e.g. right after profile selection) or
+/// if the child is momentarily missing from it.
+final activeChildProvider = Provider<ChildModel?>((ref) {
+  final activeProfile = ref.watch(activeProfileProvider);
+  if (activeProfile is! StudentProfile) return null;
+
+  final liveChildren = ref.watch(childrenForCurrentUserProvider).valueOrNull;
+  if (liveChildren == null) return activeProfile.child;
+
+  for (final child in liveChildren) {
+    if (child.id == activeProfile.child.id) return child;
+  }
+  return activeProfile.child;
 });
 
 List<ChildModel> _childrenFromSnapshot(

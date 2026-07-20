@@ -10,7 +10,7 @@ import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
-import '../../providers/active_profile_provider.dart';
+import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
 import '../lessons/nursery_kg_activity_bank.dart';
@@ -98,8 +98,7 @@ class NurseryKgHomeScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
-    final activeProfile = ref.watch(activeProfileProvider);
-    final child = activeProfile is StudentProfile ? activeProfile.child : null;
+    final child = ref.watch(activeChildProvider);
     final subjects = _subjects(l10n);
 
     return Scaffold(

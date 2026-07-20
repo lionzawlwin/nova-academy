@@ -8,7 +8,7 @@ import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
-import '../../providers/active_profile_provider.dart';
+import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../lessons/lesson_navigation.dart';
 import 'home_shared_widgets.dart';
@@ -86,8 +86,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
-    final activeProfile = ref.watch(activeProfileProvider);
-    final child = activeProfile is StudentProfile ? activeProfile.child : null;
+    final child = ref.watch(activeChildProvider);
     final locale = Localizations.localeOf(context).languageCode;
     final grade = child?.currentGrade;
     final modulesAsync = grade != null
