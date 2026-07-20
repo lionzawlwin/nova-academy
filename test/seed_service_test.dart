@@ -308,4 +308,88 @@ void main() {
       }
     });
   });
+
+  group('mockSeedSecondaryCurriculumModules', () {
+    final modules = mockSeedSecondaryCurriculumModules();
+    final legacyModules = mockSeedLearningModules();
+    final nurseryModules = mockSeedNurseryKgModules();
+    final primaryModules = mockSeedPrimaryCurriculumModules();
+
+    test('has exactly 72 modules', () {
+      expect(modules.length, 72);
+    });
+
+    test(
+      'every module id is unique, including against other module groups',
+      () {
+        final allIds = [
+          ...modules,
+          ...legacyModules,
+          ...nurseryModules,
+          ...primaryModules,
+        ].map((m) => m.id).toList();
+        expect(allIds.toSet().length, allIds.length);
+      },
+    );
+
+    test('every module grade is secondary1 through igcse', () {
+      const expectedGrades = {
+        Grade.secondary1,
+        Grade.secondary2,
+        Grade.secondary3,
+        Grade.igcse,
+      };
+      for (final module in modules) {
+        expect(
+          expectedGrades.contains(module.grade),
+          isTrue,
+          reason: '${module.id} has an unexpected grade',
+        );
+      }
+    });
+
+    test(
+      'every module subject is one of the six expected Secondary/IGCSE keys',
+      () {
+        const expected = {
+          'algebra',
+          'physics',
+          'chemistry',
+          'biology',
+          'ict',
+          'socialstudies',
+        };
+        for (final module in modules) {
+          expect(expected.contains(module.subject), isTrue, reason: module.id);
+        }
+      },
+    );
+
+    test('every module has non-empty bilingual title and description', () {
+      for (final module in modules) {
+        expect(module.titleEn, isNotEmpty, reason: '${module.id} titleEn');
+        expect(module.titleMy, isNotEmpty, reason: '${module.id} titleMy');
+        expect(
+          module.descriptionEn,
+          isNotEmpty,
+          reason: '${module.id} descriptionEn',
+        );
+        expect(
+          module.descriptionMy,
+          isNotEmpty,
+          reason: '${module.id} descriptionMy',
+        );
+      }
+    });
+
+    test('every module grants a positive star reward', () {
+      for (final module in modules) {
+        expect(
+          module.starsReward,
+          greaterThan(0),
+          reason: '${module.id} has no star reward',
+        );
+      }
+    });
+  });
 }
