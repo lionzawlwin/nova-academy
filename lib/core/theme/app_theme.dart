@@ -53,6 +53,73 @@ class AppColors {
     Color(0xFF37474F),
     Color(0xFF00838F),
   ];
+
+  // --- Candy Core design system tokens (Mission 6) -------------------------
+  //
+  // Additive-only: the tokens above stay untouched and in use until later
+  // Mission 6 tasks retarget individual call sites one screen at a time.
+  // See docs/superpowers/specs/2026-07-20-mission6-candy-core-design.md.
+
+  /// Candy Core's primary brand hue -- Grape Punch. A deeper, more saturated
+  /// indigo-violet than [primary]; re-seeds `ColorScheme.fromSeed` once
+  /// later tasks cut the app over. Top face of primary 3D buttons and
+  /// dominant chrome accents app-wide.
+  static const Color candyPrimary = Color(0xFF6C4CFF);
+
+  /// Tightened 4-color Nursery/KG candy-box rotation -- Bubblegum Pop, Sky
+  /// Fizz, Sun Burst, Grass Bounce. Replaces [nurseryPalette]'s softer
+  /// 6-color set for the youngest tier's giant 3D tiles (Task 6 retargets
+  /// call sites; both palettes coexist until then).
+  static const List<Color> nurseryCandyPalette = [
+    Color(0xFFFF5CA8), // Bubblegum Pop
+    Color(0xFF29C4F5), // Sky Fizz
+    Color(0xFFFFD23F), // Sun Burst
+    Color(0xFF4ED87A), // Grass Bounce
+  ];
+
+  /// Marks the active/current node on the Primary (Year 1-6) winding path
+  /// so it pops against the indigo path line.
+  static const Color pathOrange = Color(0xFFFF7A29);
+
+  /// Secondary/IGCSE jewel-tone accent -- paired with [charcoalNavy] for a
+  /// glossier "grown up" dashboard feel that still uses the same
+  /// bevel-and-shine button language as the rest of the app.
+  static const Color deepCobalt = Color(0xFF3B4CFF);
+
+  /// Secondary/IGCSE jewel-tone base -- paired with [deepCobalt].
+  static const Color charcoalNavy = Color(0xFF1C2035);
+
+  /// Candy Core light-mode base scaffold background, deliberately quiet so
+  /// saturated buttons/badges stay the visual event, not the backdrop.
+  static const Color cloudWhite = Color(0xFFFDFBFF);
+
+  /// Candy Core dark-mode base scaffold background -- the dark counterpart
+  /// to [cloudWhite].
+  static const Color inkWell = Color(0xFF16182B);
+
+  /// Star badges, streak flames, and correct-answer states.
+  static const Color goldMedal = Color(0xFFFFC93C);
+
+  /// Fixed-angle diagonal gradient sheen baked into every medal/badge shape
+  /// alongside [goldMedal], not just a shadow.
+  static const Color goldMedalHighlight = Color(0xFFFFF3C4);
+
+  /// Incorrect quiz answer state and destructive actions -- kept as
+  /// saturated as the positive palette rather than desaturated, so feedback
+  /// reads instantly to young kids.
+  static const Color cherryCrush = Color(0xFFFF4D5E);
+
+  /// Derives a 3D button's bottom bevel-shadow color from its own top
+  /// ("face") color, darkened and desaturated by ~25%, rather than using a
+  /// single global shadow gray -- so every button's bevel always reads as
+  /// belonging to that button, per Candy Core's two-layer bevel
+  /// construction (see the design spec's "Depth/bevel shadow" palette row).
+  static Color bevelShadowFor(Color face) {
+    final hsl = HSLColor.fromColor(face);
+    final darkened = (hsl.lightness - 0.25).clamp(0.0, 1.0);
+    final desaturated = (hsl.saturation - 0.25).clamp(0.0, 1.0);
+    return hsl.withLightness(darkened).withSaturation(desaturated).toColor();
+  }
 }
 
 /// Reusable gradients so hero headers/cards across the app share one
