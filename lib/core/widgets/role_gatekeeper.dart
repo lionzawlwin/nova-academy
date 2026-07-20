@@ -63,7 +63,7 @@ Future<void> requestGatedNavigation({
   final prefix = protectedPrefixOf(targetPath);
   ref.read(gatekeeperUnlockProvider.notifier).state = prefix;
 
-  if (context.mounted) context.go(targetPath);
+  if (context.mounted) context.push(targetPath);
 }
 
 class _RoleGatekeeperDialog extends StatefulWidget {
