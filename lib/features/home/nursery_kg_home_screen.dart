@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
@@ -26,31 +27,34 @@ class NurseryKgHomeScreen extends ConsumerWidget {
     SubjectVisual(
       label: l10n.subjectPhonics,
       icon: Icons.abc_rounded,
-      color: AppColors.nurseryPalette[0],
+      color: AppColors.nurseryCandyPalette[0],
       subjectKey: 'phonics',
     ),
     SubjectVisual(
       label: l10n.subjectMath,
       icon: Icons.filter_2_rounded,
-      color: AppColors.nurseryPalette[1],
+      color: AppColors.nurseryCandyPalette[1],
       subjectKey: 'math',
     ),
     SubjectVisual(
       label: l10n.subjectArt,
       icon: Icons.palette_rounded,
-      color: AppColors.nurseryPalette[2],
+      color: AppColors.nurseryCandyPalette[2],
       subjectKey: 'art',
     ),
     SubjectVisual(
       label: l10n.subjectGeneralKnowledge,
       icon: Icons.emoji_objects_rounded,
-      color: AppColors.nurseryPalette[3],
+      color: AppColors.nurseryCandyPalette[3],
       subjectKey: 'generalknowledge',
     ),
     SubjectVisual(
       label: l10n.subjectStem,
       icon: Icons.science_rounded,
-      color: AppColors.nurseryPalette[4],
+      // The tightened Candy Core rotation has only 4 hues for 5 subjects --
+      // rotate back to the first ("rotates with" per the design spec).
+      color: AppColors
+          .nurseryCandyPalette[4 % AppColors.nurseryCandyPalette.length],
       subjectKey: 'stem',
     ),
   ];
@@ -210,9 +214,12 @@ class _Header extends StatelessWidget {
 }
 
 /// One giant, bouncy subject button. Idles with a gentle rhythmic "breathe"
-/// (implemented purely with [AnimatedScale] reacting to a periodically
-/// flipped boolean -- no [AnimationController] needed) and snaps down on
-/// press for tactile, game-like feedback.
+/// -- Candy Core exaggerates this into a subtle 3D "wobble": the same
+/// scale pulse plus a small alternating rotation, both still driven by
+/// [AnimatedScale]/[AnimatedRotation] reacting to a single periodically
+/// flipped boolean, no [AnimationController] needed -- and hands press
+/// feedback off to [CandyBevelSurface]'s own two-layer bevel sink/spring
+/// animation instead of the old flat scale-down-on-press treatment.
 class _NurseryTile extends StatefulWidget {
   const _NurseryTile({required this.visual, required this.onTap});
 
@@ -224,7 +231,12 @@ class _NurseryTile extends StatefulWidget {
 }
 
 class _NurseryTileState extends State<_NurseryTile> {
-  bool _pressed = false;
+  static const _breatheDuration = Duration(milliseconds: 650);
+
+  /// ±1.5° expressed as a fraction of a full turn, per the design spec's
+  /// "scale 1.0→1.04 AND ±1.5° rotation" wobble motion.
+  static const _wobbleTurns = 1.5 / 360;
+
   bool _breatheUp = false;
   Timer? _timer;
 
@@ -252,60 +264,55 @@ class _NurseryTileState extends State<_NurseryTile> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final scale = _pressed ? 0.85 : (_breatheUp ? 1.06 : 1.0);
     final visual = widget.visual;
+    final scale = _breatheUp ? 1.04 : 1.0;
+    final wobbleTurns = _breatheUp ? _wobbleTurns : -_wobbleTurns;
 
-    return GestureDetector(
-      onTapDown: (_) => setState(() => _pressed = true),
-      onTapUp: (_) => setState(() => _pressed = false),
-      onTapCancel: () => setState(() => _pressed = false),
-      onTap: widget.onTap,
-      child: AnimatedScale(
-        scale: scale,
-        duration: Duration(milliseconds: _pressed ? 90 : 650),
-        curve: _pressed ? Curves.easeOut : Curves.easeInOutSine,
-        child: SizedBox(
-          width: 152,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              AnimatedContainer(
-                duration: const Duration(milliseconds: 200),
+    return SizedBox(
+      width: 152,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          AnimatedScale(
+            scale: scale,
+            duration: _breatheDuration,
+            curve: Curves.easeInOutSine,
+            child: AnimatedRotation(
+              turns: wobbleTurns,
+              duration: _breatheDuration,
+              curve: Curves.easeInOutSine,
+              child: CandyBevelSurface(
+                faceColor: visual.color,
+                bevelDepth: CandyBevelDepth.nursery,
+                borderRadius: 40,
                 width: 140,
                 height: 140,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [visual.color, visual.color.withValues(alpha: 0.7)],
-                  ),
-                  borderRadius: BorderRadius.circular(40),
-                  boxShadow: AppShadows.floating(visual.color),
-                ),
+                padding: EdgeInsets.zero,
+                onTap: widget.onTap,
                 child: Icon(visual.icon, color: Colors.white, size: 68),
               ),
-              const SizedBox(height: 8),
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                child: Text(
-                  visual.label,
-                  maxLines: 1,
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                    shadows: const [
-                      Shadow(
-                        color: Colors.black26,
-                        blurRadius: 4,
-                        offset: Offset(0, 1),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
+            ),
           ),
-        ),
+          const SizedBox(height: 8),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              visual.label,
+              maxLines: 1,
+              style: theme.textTheme.titleMedium?.copyWith(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+                shadows: const [
+                  Shadow(
+                    color: Colors.black26,
+                    blurRadius: 4,
+                    offset: Offset(0, 1),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
