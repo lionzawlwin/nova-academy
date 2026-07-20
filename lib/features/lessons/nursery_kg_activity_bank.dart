@@ -1492,4 +1492,212 @@ const List<NurseryActivityDef> nurseryKgActivityBank = [
       ),
     ],
   ),
+
+  // ===================== STEAM EXPANSION: CODING =====================
+  // New `coding`/`engineering` subject keys, each with their own fixed
+  // button on the Nursery/KG home screen (see `_subjects()` in
+  // `nursery_kg_home_screen.dart`) -- "Sensory STEM & Pre-Computational
+  // Thinking": command vocabulary and simple-machine matching, taught
+  // through the same emoji-to-label matching mechanic as every other
+  // module here.
+  NurseryActivityDef(
+    id: 'mock-nursery-coding-1',
+    subject: 'coding',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Robot Commands',
+    titleMy: 'ရိုဘော့ အမိန့်များ',
+    descriptionEn:
+        'Match each command word to its action -- the first step to thinking like a programmer!',
+    descriptionMy:
+        'ပရိုဂရမ်မာတစ်ဦးလို တွေးခေါ်ရန် ပထမဆင့်အနေဖြင့် အမိန့်စာလုံးတစ်ခုစီကို ၎င်း၏လုပ်ဆောင်ချက်နှင့် ကိုက်ညှိပါ။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'cmd-forward',
+        emoji: '⬆️',
+        colorValue: 0xFF29C4F5,
+        labelEn: 'Forward',
+        labelMy: 'ရှေ့သို့',
+      ),
+      MatchPairItem(
+        id: 'cmd-turn-right',
+        emoji: '➡️',
+        colorValue: 0xFFFF7A29,
+        labelEn: 'Turn Right',
+        labelMy: 'ညာသို့ လှည့်ပါ',
+      ),
+      MatchPairItem(
+        id: 'cmd-turn-left',
+        emoji: '⬅️',
+        colorValue: 0xFF4ED87A,
+        labelEn: 'Turn Left',
+        labelMy: 'ဘယ်သို့ လှည့်ပါ',
+      ),
+      MatchPairItem(
+        id: 'cmd-stop',
+        emoji: '🛑',
+        colorValue: 0xFFFF4D5E,
+        labelEn: 'Stop',
+        labelMy: 'ရပ်ပါ',
+      ),
+      MatchPairItem(
+        id: 'cmd-repeat',
+        emoji: '🔁',
+        colorValue: 0xFFFFD23F,
+        labelEn: 'Repeat',
+        labelMy: 'ထပ်လုပ်ပါ',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-nursery-engineering-1',
+    subject: 'engineering',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Simple Machines',
+    titleMy: 'ရိုးရှင်းသော စက်များ',
+    descriptionEn:
+        'Match each simple machine to its name and discover how they help us work.',
+    descriptionMy:
+        'ရိုးရှင်းသောစက်တစ်ခုစီကို ၎င်း၏အမည်နှင့် ကိုက်ညှိပြီး ၎င်းတို့သည် ကျွန်ုပ်တို့ကို မည်သို့ကူညီကြောင်း ရှာဖွေပါ။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'machine-gear',
+        emoji: '⚙️',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Gear',
+        labelMy: 'ဂီယာ',
+      ),
+      MatchPairItem(
+        id: 'machine-wheel',
+        emoji: '🛞',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Wheel',
+        labelMy: 'ဘီး',
+      ),
+      MatchPairItem(
+        id: 'machine-lever',
+        emoji: '⚖️',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Lever',
+        labelMy: 'ချိန်ခွင်',
+      ),
+      MatchPairItem(
+        id: 'machine-magnet',
+        emoji: '🧲',
+        colorValue: 0xFFE64545,
+        labelEn: 'Magnet',
+        labelMy: 'သံလိုက်',
+      ),
+      MatchPairItem(
+        id: 'machine-tool',
+        emoji: '🔧',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Tool',
+        labelMy: 'ကိရိယာ',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-coding-1',
+    subject: 'coding',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'What Comes Next?',
+    titleMy: 'နောက်ဘာလုပ်မလဲ',
+    descriptionEn:
+        'Match each step word to its picture to build simple step-by-step sequences.',
+    descriptionMy:
+        'ရိုးရှင်းသော အဆင့်ဆင့်လုပ်ဆောင်ချက်များ တည်ဆောက်ရန် အဆင့်စာလုံးတစ်ခုစီကို ၎င်း၏ပုံနှင့် ကိုက်ညှိပါ။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'seq-start',
+        emoji: '▶️',
+        colorValue: 0xFF4ED87A,
+        labelEn: 'Start',
+        labelMy: 'စတင်ပါ',
+      ),
+      MatchPairItem(
+        id: 'seq-move',
+        emoji: '🚶',
+        colorValue: 0xFF29C4F5,
+        labelEn: 'Move',
+        labelMy: 'ရွေ့ပါ',
+      ),
+      MatchPairItem(
+        id: 'seq-turn',
+        emoji: '🔄',
+        colorValue: 0xFFFF7A29,
+        labelEn: 'Turn',
+        labelMy: 'လှည့်ပါ',
+      ),
+      MatchPairItem(
+        id: 'seq-repeat',
+        emoji: '🔁',
+        colorValue: 0xFFFFD23F,
+        labelEn: 'Repeat',
+        labelMy: 'ထပ်လုပ်ပါ',
+      ),
+      MatchPairItem(
+        id: 'seq-finish',
+        emoji: '🏁',
+        colorValue: 0xFFFF4D5E,
+        labelEn: 'Finish',
+        labelMy: 'ပြီးဆုံး',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-engineering-1',
+    subject: 'engineering',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'Build It Strong',
+    titleMy: 'ခိုင်ခံ့အောင် တည်ဆောက်ပါ',
+    descriptionEn:
+        'Match building shapes and tools to their names -- young engineers start here!',
+    descriptionMy:
+        'အသက်ငယ်ရွယ်သော အင်ဂျင်နီယာများ ဤနေရာမှ စတင်ကြသည် -- အဆောက်အအုံပုံသဏ္ဌာန်နှင့် ကိရိယာများကို ၎င်းတို့၏အမည်နှင့် ကိုက်ညှိပါ။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'build-triangle',
+        emoji: '🔺',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Triangle',
+        labelMy: 'တြိဂံ',
+      ),
+      MatchPairItem(
+        id: 'build-block',
+        emoji: '🧱',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Block',
+        labelMy: 'အုတ်ခဲ',
+      ),
+      MatchPairItem(
+        id: 'build-ruler',
+        emoji: '📏',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Ruler',
+        labelMy: 'ပေတံ',
+      ),
+      MatchPairItem(
+        id: 'build-hammer',
+        emoji: '🔨',
+        colorValue: 0xFFE64545,
+        labelEn: 'Hammer',
+        labelMy: 'သံမှုတ်',
+      ),
+      MatchPairItem(
+        id: 'build-bridge',
+        emoji: '🌉',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Bridge',
+        labelMy: 'တံတား',
+      ),
+    ],
+  ),
 ];

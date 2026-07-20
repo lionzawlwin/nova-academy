@@ -782,6 +782,18 @@ abstract class AppLocalizations {
   /// **'STEM'**
   String get subjectStem;
 
+  /// No description provided for @subjectCoding.
+  ///
+  /// In en, this message translates to:
+  /// **'Coding'**
+  String get subjectCoding;
+
+  /// No description provided for @subjectEngineering.
+  ///
+  /// In en, this message translates to:
+  /// **'Engineering'**
+  String get subjectEngineering;
+
   /// No description provided for @gatekeeperTitle.
   ///
   /// In en, this message translates to:

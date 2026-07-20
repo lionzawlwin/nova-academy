@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('nurseryKgActivityBank', () {
-    test('contains exactly 28 modules', () {
-      expect(nurseryKgActivityBank.length, 28);
+    test('contains exactly 32 modules', () {
+      expect(nurseryKgActivityBank.length, 32);
     });
 
     test('every module id is unique', () {
@@ -33,8 +33,15 @@ void main() {
       }
     });
 
-    test('every module subject is one of the four expected keys', () {
-      const expected = {'phonics', 'math', 'generalknowledge', 'stem'};
+    test('every module subject is one of the six expected keys', () {
+      const expected = {
+        'phonics',
+        'math',
+        'generalknowledge',
+        'stem',
+        'coding',
+        'engineering',
+      };
       for (final module in nurseryKgActivityBank) {
         expect(
           expected.contains(module.subject),
@@ -44,17 +51,28 @@ void main() {
       }
     });
 
-    test('has 3 modules per grade+subject combination, except stem', () {
+    test('has 3 modules per grade+subject combination, except stem (5) and '
+        'the new coding/engineering STEAM-expansion combos (1 each)', () {
       // nursery-stem and kg-stem each carry 2 extra pre-coding
       // (directions/sequencing) modules on top of the baseline 3, so they
-      // total 5 instead of 3 -- every other combo stays at 3.
-      const expectedOverrides = {'nursery-stem': 5, 'kg-stem': 5};
+      // total 5 instead of 3. The STEAM expansion added exactly one new
+      // `coding` and one new `engineering` module per grade (nursery and
+      // kg), each reachable via their own fixed subject button on
+      // NurseryKgHomeScreen -- every other combo stays at 3.
+      const expectedOverrides = {
+        'nursery-stem': 5,
+        'kg-stem': 5,
+        'nursery-coding': 1,
+        'nursery-engineering': 1,
+        'kg-coding': 1,
+        'kg-engineering': 1,
+      };
       final counts = <String, int>{};
       for (final module in nurseryKgActivityBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
-      expect(counts.length, 8, reason: 'expected 8 grade+subject combos');
+      expect(counts.length, 12, reason: 'expected 12 grade+subject combos');
       for (final entry in counts.entries) {
         final expected = expectedOverrides[entry.key] ?? 3;
         expect(

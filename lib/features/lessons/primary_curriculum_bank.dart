@@ -5563,4 +5563,1094 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // ================= STEAM EXPANSION: CODING & ENGINEERING =================
+  // New `coding`/`engineering` subject keys threaded through every Primary
+  // grade -- Year 1-3 stays block/sequencing-level ("Interactive STEAM &
+  // Block Logic"), Year 4-6 transitions into text-based Python-style
+  // syntax reasoning ("Applied STEAM & Intro to Syntax"), matching the
+  // pedagogical progression these two new subjects were added for. Shows
+  // up automatically as new path nodes on `PrimaryHomeScreen` (module list
+  // is grade-filtered and rendered dynamically, no fixed subject grid to
+  // extend here unlike Nursery/KG or Secondary/IGCSE).
+
+  // ------------------------------ YEAR 1 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year1-coding-1',
+    subject: 'coding',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Follow the Steps',
+    titleMy: 'အဆင့်ဆင့် လိုက်နာပါ',
+    descriptionEn:
+        'Learn to give step-by-step instructions, just like a computer program.',
+    descriptionMy:
+        'ကွန်ပျူတာ ပရိုဂရမ်းတစ်ခုကဲ့သို့ အဆင့်ဆင့် ညွှန်ကြားချက်များ ပေးနည်းကို လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which comes first when you brush your teeth: wet the brush, or put on toothpaste?',
+        questionMy:
+            'သွားတိုက်ချိန်တွင် အဘယ်အရာက အရင်လုပ်ရမည်နည်း- ဘရတ်ကို ရေအရင်စိုစေခြင်း၊ သို့မဟုတ် သွားတိုက်ဆေးအရင်တင်ခြင်း။',
+        optionsEn: [
+          'Wet the brush first',
+          'Put on toothpaste first',
+          'Order does not matter',
+          'Neither is needed',
+        ],
+        optionsMy: [
+          'ဘရတ်ကို ရေအရင်စိုစေပါ',
+          'သွားတိုက်ဆေးအရင်တင်ပါ',
+          'အစီအစဉ်က အရေးမကြီးပါ',
+          'ဘာမှမလိုပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A set of step-by-step instructions is called a...',
+        questionMy: 'အဆင့်ဆင့် ညွှန်ကြားချက်များစုကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Sequence', 'Color', 'Number', 'Shape'],
+        optionsMy: ['အစီအစဉ် (Sequence)', 'အရောင်', 'ဂဏန်း', 'ပုံသဏ္ဌာန်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a robot follows: "move forward, move forward, turn right" -- how many steps does it take before turning?',
+        questionMy:
+            'ရိုဘော့တစ်ခုသည် "ရှေ့သို့သွားပါ၊ ရှေ့သို့သွားပါ၊ ညာသို့လှည့်ပါ" ကိုလိုက်နာပါက မလှည့်မီ အဆင့်မည်မျှလုပ်ဆောင်သနည်း။',
+        optionsEn: ['1', '2', '3', '4'],
+        optionsMy: ['၁', '၂', '၃', '၄'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'What should you do if a set of steps does not work?',
+        questionMy: 'အဆင့်များသည် အလုပ်မဖြစ်ပါက သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Check each step and fix the mistake',
+          'Give up',
+          'Ignore it',
+          'Start a different activity',
+        ],
+        optionsMy: [
+          'အဆင့်တစ်ခုစီကို စစ်ဆေးပြီး အမှားကို ပြင်ပါ',
+          'လက်လျှော့ပါ',
+          'လျစ်လျူရှုပါ',
+          'အခြားလုပ်ဆောင်ချက်ကို စလုပ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a command a robot can follow?',
+        questionMy:
+            'အောက်ပါတို့ထဲမှ ရိုဘော့တစ်ခုလိုက်နာနိုင်သော အမိန့်စကားလုံးမှာ အဘယ်နည်း။',
+        optionsEn: ['Move forward', 'Purple', 'Seven', 'Tuesday'],
+        optionsMy: ['ရှေ့သို့သွားပါ', 'ခရမ်းရောင်', 'ခုနစ်', 'အင်္ဂါနေ့'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year1-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Simple Machines Around Us',
+    titleMy: 'ကျွန်ုပ်တို့ ပတ်ဝန်းကျင်ရှိ ရိုးရှင်းသောစက်များ',
+    descriptionEn: 'Discover levers, wheels, and ramps that make work easier.',
+    descriptionMy:
+        'အလုပ်ကို ပိုမိုလွယ်ကူစေသည့် ချိန်ခွင်၊ ဘီးနှင့် စောင်းကုန်းလမ်းများကို ရှာဖွေလေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A seesaw is an example of which simple machine?',
+        questionMy:
+            'ခုန်တက်ခုန်ဆင်း (seesaw) သည် မည်သည့်ရိုးရှင်းသောစက် ဥပမာဖြစ်သနည်း။',
+        optionsEn: ['Lever', 'Wheel', 'Screw', 'Pulley'],
+        optionsMy: ['ချိန်ခွင် (Lever)', 'ဘီး', 'ဝက်အူ', 'ကြိုးဆွဲစနစ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do trucks and cars use wheels?',
+        questionMy:
+            'ထရပ်ကားနှင့် ကားများသည် ဘာကြောင့် ဘီးများကို အသုံးပြုသနည်း။',
+        optionsEn: [
+          'To move more easily',
+          'To look nice',
+          'To make noise',
+          'To become heavier',
+        ],
+        optionsMy: [
+          'ပိုမိုလွယ်ကူစွာ ရွေ့လျားနိုင်ရန်',
+          'လှပစေရန်',
+          'အသံမြည်စေရန်',
+          'ပိုလေးလံစေရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A ramp helps you move a heavy box because it...',
+        questionMy:
+            'စောင်းကုန်းလမ်းသည် လေးလံသောသေတ္တာကို ရွှေ့ရန် အထောက်အကူဖြစ်သည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'Spreads the effort over a longer, gentler path',
+          'Makes the box lighter',
+          'Makes the box smaller',
+          'Removes the need to push',
+        ],
+        optionsMy: [
+          'ကြိုးစားအားကို ရှည်လျားပြီး ညင်သာသောလမ်းကြောင်းတစ်လျှောက် ဖြန့်ကျက်ပေးသည်',
+          'သေတ္တာကို ပေါ့သွားစေသည်',
+          'သေတ္တာကို သေးသွားစေသည်',
+          'တွန်းရန်လိုအပ်ချက်ကို ဖယ်ရှားပေးသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which tool is a simple machine used to lift or pry things?',
+        questionMy:
+            'အရာဝတ္ထုများကို ချီမြှောက်ရန် (သို့) ဖောက်ရန် အသုံးပြုသော ရိုးရှင်းသောစက်ကိရိယာမှာ အဘယ်နည်း။',
+        optionsEn: ['Crowbar (lever)', 'Spoon', 'Pillow', 'Umbrella'],
+        optionsMy: ['သံလုံးကျင်း (Lever)', 'ဇွန်း', 'ခေါင်းအုံး', 'ထီး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A screw is a simple machine shaped like a spiral ramp. What is it mainly used for?',
+        questionMy:
+            'ဝက်အူသည် စောင်းကုန်းလှည့်ပတ်ပုံသဏ္ဌာန်ရှိသော ရိုးရှင်းသောစက်တစ်ခုဖြစ်သည်။ ၎င်းကို အဓိကအားဖြင့် ဘာအတွက်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Holding things together',
+          'Making light',
+          'Cooking food',
+          'Playing music',
+        ],
+        optionsMy: [
+          'အရာများကို ပေါင်းစည်းထိန်းသိမ်းရန်',
+          'အလင်းရောင်ပြုလုပ်ရန်',
+          'အစားအစာချက်ပြုတ်ရန်',
+          'ဂီတဖွင့်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 2 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year2-coding-1',
+    subject: 'coding',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Loops and Repeats',
+    titleMy: 'ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း (Loop)',
+    descriptionEn:
+        'Discover how a loop lets a computer repeat steps without writing them over and over.',
+    descriptionMy:
+        'ကွန်ပျူတာသည် အဆင့်များကို အထပ်ထပ်မရေးဘဲ ထပ်ခါထပ်ခါ ပြုလုပ်စေရန် Loop တစ်ခုက မည်သို့ကူညီကြောင်း ရှာဖွေလေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A block that repeats the same steps is called a...',
+        questionMy:
+            'တူညီသောအဆင့်များကို ထပ်ခါထပ်ခါလုပ်ဆောင်စေသော ဘလောက်ကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Loop', 'Color', 'Sound', 'Picture'],
+        optionsMy: ['Loop', 'အရောင်', 'အသံ', 'ပုံ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If "move forward" is repeated 3 times inside a loop, how many times does the robot move?',
+        questionMy:
+            '"ရှေ့သို့သွားပါ" ကို Loop တစ်ခုအတွင်း ၃ ကြိမ်ထပ်လုပ်ပါက ရိုဘော့သည် အကြိမ်မည်မျှ ရွှေ့သနည်း။',
+        optionsEn: ['1', '2', '3', '4'],
+        optionsMy: ['၁', '၂', '၃', '၄'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Using a loop instead of copying the same block many times is useful because it...',
+        questionMy:
+            'တူညီသောဘလောက်ကို အကြိမ်ကြိမ်ကူးမည့်အစား Loop ကိုအသုံးပြုခြင်းသည် အသုံးဝင်သည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'Makes the instructions shorter and easier to change',
+          'Makes the program slower',
+          'Adds more colors',
+          'Deletes the program',
+        ],
+        optionsMy: [
+          'ညွှန်ကြားချက်များကို ပိုတိုစေပြီး ပြင်ဆင်ရလွယ်ကူစေသည်',
+          'ပရိုဂရမ်ကို ပိုနှေးစေသည်',
+          'အရောင်ပိုများစေသည်',
+          'ပရိုဂရမ်ကို ဖျက်ပစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A dance sequence is: clap, spin, clap, spin, clap, spin. What is being repeated?',
+        questionMy:
+            'ကလေးက ကလိန်း စီစဉ်ချက်မှာ လက်ခုပ်၊ လှည့်၊ လက်ခုပ်၊ လှည့်၊ လက်ခုပ်၊ လှည့် ဖြစ်သည်။ ဘာက ထပ်ခါထပ်ခါဖြစ်နေသနည်း။',
+        optionsEn: [
+          'Clap then spin',
+          'Just clap',
+          'Just spin',
+          'Nothing repeats',
+        ],
+        optionsMy: [
+          'လက်ခုပ်ပြီးလှည့်ခြင်း',
+          'လက်ခုပ်သာ',
+          'လှည့်ခြင်းသာ',
+          'ဘာမှမထပ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which block would you use to make a character jump 3 times without writing "jump" three separate times?',
+        questionMy:
+            '"ခုန်ပါ" ကို သီးခြားသုံးကြိမ်မရေးဘဲ ဇာတ်ကောင်ကို ၃ ကြိမ်ခုန်စေရန် မည်သည့်ဘလောက်ကို အသုံးပြုမည်နည်း။',
+        optionsEn: [
+          'A loop (repeat) block',
+          'A color block',
+          'A sound block',
+          'A delete block',
+        ],
+        optionsMy: [
+          'Loop (ထပ်လုပ်) ဘလောက်',
+          'အရောင်ဘလောက်',
+          'အသံဘလောက်',
+          'ဖျက်ဘလောက်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Building Strong Structures',
+    titleMy: 'ခိုင်မာသော အဆောက်အအုံများ တည်ဆောက်ခြင်း',
+    descriptionEn:
+        'Explore why some shapes and foundations make buildings and bridges stronger.',
+    descriptionMy:
+        'အဘယ်ကြောင့် ပုံသဏ္ဌာန်အချို့နှင့် အခြေခံအုတ်မြစ်များသည် အဆောက်အအုံနှင့် တံတားများကို ပိုမိုခိုင်မာစေကြောင်း ရှာဖွေလေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which shape is known to be the strongest for building bridges?',
+        questionMy:
+            'တံတားများ တည်ဆောက်ရန်အတွက် အခိုင်မာဆုံးဟု လူသိများသောပုံသဏ္ဌာန်မှာ အဘယ်နည်း။',
+        optionsEn: ['Triangle', 'Circle', 'Star', 'Oval'],
+        optionsMy: ['တြိဂံ', 'စက်ဝိုင်း', 'ကြယ်', 'ဥပုံ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do tall buildings need a strong foundation?',
+        questionMy:
+            'အဆောက်အအုံမြင့်များသည် အဘယ့်ကြောင့် ခိုင်မာသော အခြေခံအုတ်မြစ်လိုအပ်သနည်း။',
+        optionsEn: [
+          'To hold up the weight of the building safely',
+          'To make the building taller',
+          'To make it colorful',
+          'It is not needed',
+        ],
+        optionsMy: [
+          'အဆောက်အအုံ၏အလေးချိန်ကို ဘေးကင်းစွာ ထမ်းဆောင်ရန်',
+          'အဆောက်အအုံကို ပိုမြင့်စေရန်',
+          'ပန်းရောင်ဖြစ်စေရန်',
+          'မလိုအပ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which material would be best for building a strong tower with blocks?',
+        questionMy:
+            'ဘလောက်များဖြင့် ခိုင်မာသောတာဝါကို တည်ဆောက်ရန် ကောင်းမွန်ဆုံးပစ္စည်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Sturdy wooden blocks',
+          'Wet paper',
+          'Soft pillows',
+          'Water',
+        ],
+        optionsMy: [
+          'ခိုင်ခံ့သော သစ်သားဘလောက်များ',
+          'စိုစွတ်သောစက္ကူ',
+          'နူးညံ့သောခေါင်းအုံး',
+          'ရေ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An engineer tests a bridge model before building the real one so that they can...',
+        questionMy:
+            'အင်ဂျင်နီယာတစ်ဦးသည် အစစ်အမှန်တံတားကို မတည်ဆောက်မီ ပုံစံငယ်ကို စမ်းသပ်ခြင်းမှာ ဘာအတွက်နည်း။',
+        optionsEn: [
+          'Find problems and fix them early',
+          'Waste materials',
+          'Make it look pretty',
+          'Skip planning',
+        ],
+        optionsMy: [
+          'ပြဿနာများကို အစောပိုင်းတွင်ရှာဖွေပြီး ပြင်ဆင်ရန်',
+          'ပစ္စည်းများ ဖြုန်းတီးရန်',
+          'လှပအောင်ပြုလုပ်ရန်',
+          'အစီအစဉ်ချမှတ်ခြင်းကို ကျော်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do engineers test a bridge model with small weights before adding heavy ones?',
+        questionMy:
+            'အင်ဂျင်နီယာများသည် လေးလံသောအလေးများမတင်မီ ပုံစံငယ်တံတားကို အလေးချိန်အနည်းငယ်ဖြင့် အရင်စမ်းသပ်ကြသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'To find the safe limit step by step',
+          'To make it break quickly',
+          'To waste materials',
+          'It is not necessary',
+        ],
+        optionsMy: [
+          'ဘေးကင်းသောကန့်သတ်ချက်ကို အဆင့်ဆင့်ရှာဖွေရန်',
+          'မြန်မြန်ပြိုကျစေရန်',
+          'ပစ္စည်းများဖြုန်းတီးရန်',
+          'မလိုအပ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 3 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year3-coding-1',
+    subject: 'coding',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'If This, Then That',
+    titleMy: 'ဒါဆိုရင် ဒါလုပ်မယ် (If-Then)',
+    descriptionEn:
+        'Learn how programs make decisions using "if" and "then" logic.',
+    descriptionMy:
+        '"If" နှင့် "Then" ယုတ္တိကို အသုံးပြု၍ ပရိုဂရမ်များ ဆုံးဖြတ်ချက်ချပုံကို လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'If it is raining, then you should...',
+        questionMy: 'မိုးရွာနေလျှင် သင်ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Take an umbrella',
+          'Wear sunglasses',
+          'Go swimming outside',
+          'Do nothing different',
+        ],
+        optionsMy: [
+          'ထီးယူသွားပါ',
+          'နေကာမျက်မှန်တပ်ပါ',
+          'ပြင်ပတွင် ရေကူးသွားပါ',
+          'ဘာမှမပြောင်းလဲပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'In "if-then" logic, the "if" part is called the...',
+        questionMy: '"if-then" ယုတ္တိတွင် "if" အပိုင်းကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Condition', 'Answer', 'Color', 'Loop'],
+        optionsMy: ['အခြေအနေ (Condition)', 'အဖြေ', 'အရောင်', 'Loop'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A robot follows: "if the light is red, stop; else, go." The light is green. What does the robot do?',
+        questionMy:
+            'ရိုဘော့တစ်ခုက "မီးနီဖြစ်လျှင် ရပ်ပါ၊ မဟုတ်လျှင် သွားပါ" ကိုလိုက်နာသည်။ မီးစိမ်းဖြစ်နေသည်။ ရိုဘော့သည် ဘာလုပ်မည်နည်း။',
+        optionsEn: ['Go', 'Stop', 'Turn around', 'Nothing'],
+        optionsMy: ['သွားသည်', 'ရပ်သည်', 'ပြန်လှည့်သည်', 'ဘာမှမလုပ်ပါ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A sequence of blocks is not working correctly. What should you do first?',
+        questionMy:
+            'ဘလောက်စီစဉ်ချက်သည် မှန်ကန်စွာအလုပ်မလုပ်ပါ။ သင်ဘာအရင်လုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Trace through each step to find the mistake',
+          'Delete everything and give up',
+          'Ignore the error',
+          'Add random new blocks',
+        ],
+        optionsMy: [
+          'အမှားကိုရှာဖွေရန် အဆင့်တစ်ခုစီကို လိုက်စစ်ပါ',
+          'အားလုံးဖျက်ပြီး လက်လျှော့ပါ',
+          'အမှားကို လျစ်လျူရှုပါ',
+          'ကျပန်းဘလောက်အသစ်များထည့်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is a "bug" in a computer program?',
+        questionMy: 'ကွန်ပျူတာပရိုဂရမ်တစ်ခုရှိ "Bug" ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A mistake that makes it not work correctly',
+          'A real insect',
+          'A type of loop',
+          'A new feature',
+        ],
+        optionsMy: [
+          'မှန်ကန်စွာအလုပ်မလုပ်စေသော အမှားတစ်ခု',
+          'အစစ်အမှန် အင်းဆက်ပိုးမွှား',
+          'Loop အမျိုးအစားတစ်ခု',
+          'လုပ်ဆောင်ချက်အသစ်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'The Engineering Design Process',
+    titleMy: 'အင်ဂျင်နီယာ ဒီဇိုင်း လုပ်ငန်းစဉ်',
+    descriptionEn:
+        'Follow the steps engineers use to solve problems: ask, imagine, plan, create, improve.',
+    descriptionMy:
+        'အင်ဂျင်နီယာများ ပြဿနာဖြေရှင်းရန် အသုံးပြုသောအဆင့်များ- မေးမြန်းခြင်း၊ စိတ်ကူးထုတ်ခြင်း၊ စီစဉ်ခြင်း၊ ဖန်တီးခြင်း၊ တိုးတက်အောင်ပြုလုပ်ခြင်းတို့ကို လိုက်နာလေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the first step of the engineering design process?',
+        questionMy: 'အင်ဂျင်နီယာဒီဇိုင်း လုပ်ငန်းစဉ်၏ ပထမအဆင့်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Ask: what is the problem?',
+          'Build the final product',
+          'Sell the product',
+          'Forget the idea',
+        ],
+        optionsMy: [
+          'မေးမြန်းခြင်း- ပြဿနာက ဘာလဲ',
+          'နောက်ဆုံးထုတ်ကုန်ကို တည်ဆောက်ခြင်း',
+          'ထုတ်ကုန်ကို ရောင်းချခြင်း',
+          'အကြံဉာဏ်ကို မေ့ပစ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'After building a first version, an engineer should...',
+        questionMy:
+            'ပထမဆုံးပုံစံကို တည်ဆောက်ပြီးနောက် အင်ဂျင်နီယာတစ်ဦး ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Test it and improve it',
+          'Never look at it again',
+          'Sell it immediately',
+          'Hide it',
+        ],
+        optionsMy: [
+          'စမ်းသပ်ပြီး တိုးတက်အောင်ပြုလုပ်ပါ',
+          'နောက်ထပ် ဘယ်တော့မှ မကြည့်တော့ပါ',
+          'ချက်ချင်းရောင်းချပါ',
+          'ဖျောက်ထားပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do engineers make a plan before building?',
+        questionMy:
+            'အင်ဂျင်နီယာများသည် မတည်ဆောက်မီ အဘယ့်ကြောင့် အစီအစဉ်ဆွဲကြသနည်း။',
+        optionsEn: [
+          'To save time and materials by thinking ahead',
+          'Because it is required by law only',
+          'To make the project take longer',
+          'Plans are not actually useful',
+        ],
+        optionsMy: [
+          'ကြိုတင်တွေးခေါ်ခြင်းဖြင့် အချိန်နှင့်ပစ္စည်းများ ချွေတာရန်',
+          'ဥပဒေအရလိုအပ်၍ သာဖြစ်သည်',
+          'ပရောဂျက်ကို ပိုကြာစေရန်',
+          'အစီအစဉ်များသည် အမှန်တကယ် အသုံးမဝင်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a paper bridge collapses under a small weight, what should an engineer do?',
+        questionMy:
+            'စက္ကူတံတားသည် အလေးချိန်အနည်းငယ်အောက်တွင် ပြိုကျပါက အင်ဂျင်နီယာတစ်ဦးသည် ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Redesign it to be stronger and test again',
+          'Give up on bridges forever',
+          'Ignore the collapse',
+          'Blame the weight',
+        ],
+        optionsMy: [
+          'ပိုမိုခိုင်မာအောင် ပြန်လည်ဒီဇိုင်းဆွဲပြီး ထပ်စမ်းသပ်ပါ',
+          'တံတားများကို ထာဝစဉ် လက်လျှော့ပါ',
+          'ပြိုကျမှုကို လျစ်လျူရှုပါ',
+          'အလေးချိန်ကို အပြစ်တင်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the design process (ask, imagine, plan, create, improve), what comes right before "create"?',
+        questionMy:
+            'ဒီဇိုင်းလုပ်ငန်းစဉ် (မေးမြန်း၊ စိတ်ကူးထုတ်၊ စီစဉ်၊ ဖန်တီး၊ တိုးတက်အောင်ပြုလုပ်) တွင် "ဖန်တီးခြင်း" မတိုင်မီ တိုက်ရိုက်လာသည့်အဆင့်မှာ အဘယ်နည်း။',
+        optionsEn: ['Plan', 'Sell', 'Forget', 'Test only'],
+        optionsMy: [
+          'စီစဉ်ခြင်း',
+          'ရောင်းချခြင်း',
+          'မေ့ပစ်ခြင်း',
+          'စမ်းသပ်ခြင်းသာ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 4 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year4-coding-1',
+    subject: 'coding',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'What Is a Variable?',
+    titleMy: 'Variable ဆိုတာ ဘာလဲ',
+    descriptionEn:
+        'Take your first step from block-based logic into text-based code by learning what a variable stores.',
+    descriptionMy:
+        'Variable တစ်ခုက ဘာကို သိမ်းဆည်းထားကြောင်း လေ့လာခြင်းဖြင့် Block-based logic မှ စာသားအခြေခံကုဒ်သို့ ပထမဆုံးခြေလှမ်းကို လှမ်းပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A variable is best described as a...',
+        questionMy: 'Variable တစ်ခုကို အကောင်းဆုံးဖော်ပြရလျှင် ဘာဖြစ်သနည်း။',
+        optionsEn: [
+          'Labeled box that stores a value',
+          'A picture on the screen',
+          'A type of loop',
+          'An error message',
+        ],
+        optionsMy: [
+          'တန်ဖိုးတစ်ခုကို သိမ်းထားသော အမည်တပ်ထားသည့် သေတ္တာ',
+          'မျက်နှာပြင်ပေါ်ရှိပုံ',
+          'Loop အမျိုးအစားတစ်ခု',
+          'အမှားစာတန်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'If x = 5, what does print(x) show?',
+        questionMy: 'x = 5 ဖြစ်ပါက print(x) သည် ဘာပြသမည်နည်း။',
+        optionsEn: ['5', 'x', 'print', 'Nothing'],
+        optionsMy: ['5', 'x', 'print', 'ဘာမှမပြပါ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What happens after we run: score = 3, then score = score + 2?',
+        questionMy:
+            'score = 3 ဟု သတ်မှတ်ပြီး score = score + 2 ကို run လုပ်ပါက ဘာဖြစ်မည်နည်း။',
+        optionsEn: [
+          'score becomes 5',
+          'score stays 3',
+          'score becomes 2',
+          'An error occurs',
+        ],
+        optionsMy: [
+          'score သည် 5 ဖြစ်သွားသည်',
+          'score သည် 3 အတိုင်းရှိနေသည်',
+          'score သည် 2 ဖြစ်သွားသည်',
+          'အမှားတစ်ခုဖြစ်ပေါ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do programmers use variables instead of typing the same number everywhere?',
+        questionMy:
+            'ပရိုဂရမ်မာများသည် နေရာတိုင်းတွင် ဂဏန်းတူတူ ရိုက်မည့်အစား Variable ကို အသုံးပြုသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'The value can be changed easily in one place',
+          'It makes the code longer',
+          'It is required by the computer to be slow',
+          'Numbers cannot be typed directly',
+        ],
+        optionsMy: [
+          'တန်ဖိုးကို တစ်နေရာတည်းတွင် လွယ်ကူစွာပြောင်းလဲနိုင်ရန်',
+          'ကုဒ်ကို ပိုရှည်စေသည်',
+          'ကွန်ပျူတာကို နှေးအောင်လုပ်ရန် လိုအပ်သည်',
+          'ဂဏန်းများကို တိုက်ရိုက်ရိုက်၍မရပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            "Which of these is a valid variable name for storing a player's score?",
+        questionMy:
+            'ကစားသမား၏ Score ကို သိမ်းဆည်းရန် အောက်ပါတို့ထဲမှ မှန်ကန်သော Variable အမည်မှာ အဘယ်နည်း။',
+        optionsEn: ['score', '5', '+', 'empty text'],
+        optionsMy: ['score', '5', '+', 'အလွတ်စာသား'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Gears and Motion',
+    titleMy: 'ဂီယာများနှင့် လှုပ်ရှားမှု',
+    descriptionEn:
+        'Explore how gears transfer force and change speed and direction.',
+    descriptionMy:
+        'ဂီယာများသည် အားကို မည်သို့လွှဲပြောင်းပေးပြီး အလျင်နှင့်ဦးတည်ချက်ကို မည်သို့ပြောင်းလဲပေးကြောင်း ရှာဖွေလေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the main job of a gear in a machine?',
+        questionMy: 'စက်ယန္တရားတစ်ခုအတွင်း ဂီယာ၏ အဓိကတာဝန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To transfer motion and force between parts',
+          'To make the machine colorful',
+          'To store electricity',
+          'To make noise only',
+        ],
+        optionsMy: [
+          'အစိတ်အပိုင်းများကြား လှုပ်ရှားမှုနှင့်အားကို လွှဲပြောင်းပေးရန်',
+          'စက်ယန္တရားကို ရောင်စုံဖြစ်စေရန်',
+          'လျှပ်စစ်သိုလှောင်ရန်',
+          'အသံသာမြည်စေရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A small gear turning a much larger gear will make the large gear move...',
+        questionMy:
+            'ဂီယာသေးငယ်တစ်ခုက ဂီယာကြီးများစွာကို လှည့်ပေးလျှင် ဂီယာကြီးသည် မည်သို့ ရွေ့လျားမည်နည်း။',
+        optionsEn: ['Slower', 'Faster', 'Not at all', 'Sideways only'],
+        optionsMy: ['ပိုနှေးစွာ', 'ပိုမြန်စွာ', 'လုံးဝမရွေ့ပါ', 'ဘေးတိုက်သာ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Bicycles use gears mainly to help riders...',
+        questionMy:
+            'စက်ဘီးများသည် ဂီယာများကို အဓိကအားဖြင့် စီးနင်းသူများကို ဘာအတွက် ကူညီရန် အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Pedal more easily on hills and flat ground',
+          'Make the bicycle heavier',
+          'Change the color of the bicycle',
+          'Stop the bicycle instantly',
+        ],
+        optionsMy: [
+          'တောင်ကုန်းနှင့် ညီညာမြေပြင်တွင် ပိုမိုလွယ်ကူစွာ ဖိနင်းနိုင်ရန်',
+          'စက်ဘီးကို ပိုလေးလံစေရန်',
+          'စက်ဘီး၏အရောင်ကို ပြောင်းလဲရန်',
+          'စက်ဘီးကို ချက်ချင်းရပ်တန့်စေရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A clock uses gears to...',
+        questionMy: 'နာရီတစ်လုံးသည် ဂီယာများကို ဘာအတွက်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Move the hands at controlled, different speeds',
+          'Make the clock louder',
+          'Change the clock face color',
+          'Charge the battery',
+        ],
+        optionsMy: [
+          'လက်တံများကို ထိန်းချုပ်ထားသော အလျင်ကွဲပြားစွာဖြင့် ရွေ့စေရန်',
+          'နာရီကို ပိုကျယ်လောင်စေရန်',
+          'နာရီမျက်နှာပြင်အရောင်ကို ပြောင်းရန်',
+          'ဘက်ထရီအားသွင်းရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A gear train made of several connected gears is mainly used to...',
+        questionMy:
+            'ဆက်စပ်ဂီယာများစွာဖြင့်ပြုလုပ်ထားသော Gear Train ကို အဓိကအားဖြင့် ဘာအတွက်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Change speed and direction across multiple parts',
+          'Make the machine invisible',
+          'Store water',
+          'Create sound only',
+        ],
+        optionsMy: [
+          'အစိတ်အပိုင်းများစွာတွင် အလျင်နှင့်ဦးတည်ချက်ကို ပြောင်းလဲပေးရန်',
+          'စက်ယန္တရားကို မမြင်ရအောင်ပြုလုပ်ရန်',
+          'ရေကို သိုလှောင်ရန်',
+          'အသံကိုသာ ဖန်တီးရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 5 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year5-coding-1',
+    subject: 'coding',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Conditional Statements in Code',
+    titleMy: 'ကုဒ်ထဲက Conditional Statement များ',
+    descriptionEn:
+        'Practice reading simple if/else code and predicting what it will do.',
+    descriptionMy:
+        'ရိုးရှင်းသော if/else ကုဒ်များကို ဖတ်ပြီး ၎င်းက ဘာလုပ်ဆောင်မည်ကို ခန့်မှန်းလေ့ကျင့်ပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'age = 12. Code: if age >= 13: print("Teen") else: print("Kid"). What prints?',
+        questionMy:
+            'age = 12 ။ ကုဒ်- if age >= 13- print("Teen") else- print("Kid") ။ ဘာပြသမည်နည်း။',
+        optionsEn: ['Kid', 'Teen', 'age', '12'],
+        optionsMy: ['Kid', 'Teen', 'age', '12'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'score = 85. Code: if score >= 90: print("A") else: print("B"). What prints?',
+        questionMy:
+            'score = 85 ။ ကုဒ်- if score >= 90- print("A") else- print("B") ။ ဘာပြသမည်နည်း။',
+        optionsEn: ['B', 'A', 'score', 'Error'],
+        optionsMy: ['B', 'A', 'score', 'Error'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What does "else" mean in an if/else statement?',
+        questionMy:
+            'if/else statement တွင် "else" ဆိုသည်မှာ ဘာအဓိပ္ပာယ်ရှိသနည်း။',
+        optionsEn: [
+          'What happens when the condition is false',
+          'What happens when the condition is true',
+          'A type of loop',
+          'A variable name',
+        ],
+        optionsMy: [
+          'အခြေအနေမှားနေချိန် ဖြစ်ပေါ်မည့်အရာ',
+          'အခြေအနေမှန်နေချိန် ဖြစ်ပေါ်မည့်အရာ',
+          'Loop အမျိုးအစားတစ်ခု',
+          'Variable အမည်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'temp = 30. Code: if temp > 35: print("Hot") elif temp > 20: print("Warm") else: print("Cool"). What prints?',
+        questionMy:
+            'temp = 30 ။ ကုဒ်- if temp > 35- print("Hot") elif temp > 20- print("Warm") else- print("Cool") ။ ဘာပြသမည်နည်း။',
+        optionsEn: ['Warm', 'Hot', 'Cool', 'temp'],
+        optionsMy: ['Warm', 'Hot', 'Cool', 'temp'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A condition such as "score > 100" always evaluates to either...',
+        questionMy:
+            '"score > 100" ကဲ့သို့သော Condition တစ်ခုသည် အမြဲတမ်း မည်သည့်အဖြေနှစ်ခုအနက်တစ်ခုအဖြစ် အဖြေထွက်သနည်း။',
+        optionsEn: ['True or False', 'A color', 'A loop', 'A picture'],
+        optionsMy: ['True သို့မဟုတ် False', 'အရောင်', 'Loop', 'ပုံ'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Engineering for a Better World',
+    titleMy: 'ကမ္ဘာကြီးအတွက် အင်ဂျင်နီယာပညာ',
+    descriptionEn:
+        'Learn how engineers design solutions like solar panels and wind turbines to help the planet.',
+    descriptionMy:
+        'အင်ဂျင်နီယာများသည် ကမ္ဘာမြေအတွက် နေရောင်ခြည်ဓာတ်အားခွက်နှင့် လေတာဘိုင်းကဲ့သို့သော ဖြေရှင်းချက်များကို မည်သို့ဒီဇိုင်းဆွဲကြောင်း လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Solar panels generate electricity from...',
+        questionMy:
+            'နေရောင်ခြည်ဓာတ်အားခွက်များသည် လျှပ်စစ်ကို မှမည်သည့်အရာမှ ထုတ်လုပ်သနည်း။',
+        optionsEn: ['Sunlight', 'Wind', 'Water', 'Coal'],
+        optionsMy: ['နေရောင်ခြည်', 'လေ', 'ရေ', 'ကျောက်မီးသွေး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A wind turbine converts wind energy into...',
+        questionMy:
+            'လေတာဘိုင်းတစ်ခုသည် လေစွမ်းအင်ကို မည်သည့်အရာအဖြစ် ပြောင်းလဲပေးသနည်း။',
+        optionsEn: ['Electricity', 'Sound only', 'Heat only', 'Nothing'],
+        optionsMy: ['လျှပ်စစ်ဓာတ်အား', 'အသံသာ', 'အပူသာ', 'ဘာမှမဟုတ်ပါ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why might an engineer design a water filter for a village?',
+        questionMy:
+            'အင်ဂျင်နီယာတစ်ဦးသည် ရွာတစ်ရွာအတွက် ရေစစ်ကိရိယာကို ဒီဇိုင်းဆွဲရသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'To help people get clean, safe drinking water',
+          'To make the village noisier',
+          'Because it is the cheapest possible project',
+          'To use up spare materials',
+        ],
+        optionsMy: [
+          'လူများအား သန့်ရှင်းလုံခြုံသောသောက်ရေရရှိစေရန်',
+          'ရွာကို ပိုကျယ်လောင်စေရန်',
+          'ရနိုင်ဆုံးစျေးသက်သာသောပရောဂျက်ဖြစ်၍',
+          'ပစ္စည်းပိုများကို သုံးဖြုန်းရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Recycling old plastic into new products is an example of engineers thinking about...',
+        questionMy:
+            'အဟောင်းပလတ်စတစ်ကို ထုတ်ကုန်အသစ်များအဖြစ် ပြန်လည်အသုံးချခြင်းသည် အင်ဂျင်နီယာများ မည်သည့်အရာအကြောင်း တွေးခေါ်ကြောင်း ဥပမာဖြစ်သနည်း။',
+        optionsEn: [
+          'Sustainability -- protecting resources for the future',
+          'Making things more expensive',
+          'Using more electricity',
+          'Ignoring the environment',
+        ],
+        optionsMy: [
+          'ရေရှည်တည်တံ့ခိုင်မြဲမှု -- အနာဂတ်အတွက် အရင်းအမြစ်များကို ကာကွယ်ခြင်း',
+          'အရာများကို ပိုစျေးကြီးစေခြင်း',
+          'လျှပ်စစ်ဓာတ်အားပိုသုံးခြင်း',
+          'ပတ်ဝန်းကျင်ကို လျစ်လျူရှုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Engineers who design buildings that use less electricity are practicing...',
+        questionMy:
+            'လျှပ်စစ်ဓာတ်အားနည်းနည်းသုံးသော အဆောက်အအုံများကို ဒီဇိုင်းဆွဲသော အင်ဂျင်နီယာများသည် မည်သည့်အလေ့အကျင့်ကို ကျင့်သုံးနေခြင်းဖြစ်သနည်း။',
+        optionsEn: [
+          'Sustainable engineering',
+          'Ignoring the environment',
+          'Wasting resources',
+          'Avoiding technology',
+        ],
+        optionsMy: [
+          'ရေရှည်တည်တံ့ခိုင်မြဲသော အင်ဂျင်နီယာပညာ',
+          'ပတ်ဝန်းကျင်ကို လျစ်လျူရှုခြင်း',
+          'အရင်းအမြစ်ဖြုန်းတီးခြင်း',
+          'နည်းပညာကို ရှောင်ရှားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  // ------------------------------ YEAR 6 ------------------------------
+  PrimaryActivityDef(
+    id: 'mock-year6-coding-1',
+    subject: 'coding',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Algorithms and Functions',
+    titleMy: 'Algorithm နှင့် Function အခြေခံများ',
+    descriptionEn:
+        'Learn what an algorithm is and how functions let programmers reuse code.',
+    descriptionMy:
+        'Algorithm ဆိုသည်မှာ အဘယ်နည်းနှင့် Function များသည် ပရိုဂရမ်မာများအား ကုဒ်ကို ပြန်လည်အသုံးချစေနိုင်ပုံကို လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn: 'An algorithm is best described as...',
+        questionMy: 'Algorithm ကို အကောင်းဆုံးဖော်ပြရလျှင် ဘာဖြစ်သနည်း။',
+        optionsEn: [
+          'A clear set of steps to solve a problem',
+          'A picture of a robot',
+          'A type of computer',
+          'A color scheme',
+        ],
+        optionsMy: [
+          'ပြဿနာတစ်ခုကို ဖြေရှင်းရန် ရှင်းလင်းသောအဆင့်များစု',
+          'ရိုဘော့ပုံတစ်ပုံ',
+          'ကွန်ပျူတာအမျိုးအစားတစ်ခု',
+          'အရောင်အစီအစဉ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A function named "greet" prints "Hello!". Every time we call greet(), what happens?',
+        questionMy:
+            '"greet" ဟုနာမည်ပေးထားသော Function သည် "Hello!" ဟုပြသသည်။ greet() ကို ခေါ်တိုင်း ဘာဖြစ်မည်နည်း။',
+        optionsEn: [
+          '"Hello!" is printed',
+          'Nothing happens',
+          'An error occurs',
+          'The program stops',
+        ],
+        optionsMy: [
+          '"Hello!" ကို ပြသသည်',
+          'ဘာမှမဖြစ်ပါ',
+          'အမှားတစ်ခုဖြစ်ပေါ်သည်',
+          'ပရိုဂရမ်ရပ်တန့်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do programmers put repeated code inside a function?',
+        questionMy:
+            'ပရိုဂရမ်မာများသည် ထပ်ခါထပ်ခါဖြစ်နေသော ကုဒ်ကို Function အတွင်း ထည့်ကြသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'So they can reuse it easily without retyping it',
+          'To make the program crash',
+          'To hide the code forever',
+          'It is not actually useful',
+        ],
+        optionsMy: [
+          'ပြန်ရိုက်စရာမလိုဘဲ လွယ်ကူစွာ ပြန်အသုံးချနိုင်ရန်',
+          'ပရိုဂရမ်ကို ချို့ယွင်းစေရန်',
+          'ကုဒ်ကို ထာဝစဉ်ဖျောက်ထားရန်',
+          'အမှန်တကယ် အသုံးမဝင်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A recipe for baking a cake is a real-life example of a/an...',
+        questionMy:
+            'ကိတ်မုန့်ဖုတ်ရန် ချက်ပြုတ်နည်းသည် လက်တွေ့ဘဝတွင် မည်သည့်အရာ၏ဥပမာဖြစ်သနည်း။',
+        optionsEn: ['Algorithm', 'Variable', 'Loop error', 'Sensor'],
+        optionsMy: ['Algorithm', 'Variable', 'Loop error', 'Sensor'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A function "square" is defined as: return x * x. What does square(4) return?',
+        questionMy:
+            '"square" Function ကို return x * x ဟု သတ်မှတ်ထားသည်။ square(4) ၏ ရလဒ်မှာ အဘယ်နည်း။',
+        optionsEn: ['16', '8', '4', 'Error'],
+        optionsMy: ['16', '8', '4', 'Error'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-engineering-1',
+    subject: 'engineering',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Engineering Design Challenge',
+    titleMy: 'အင်ဂျင်နီယာ ဒီဇိုင်း စိန်ခေါ်မှု',
+    descriptionEn:
+        'Test your understanding of testing, iterating, and teamwork in real engineering projects.',
+    descriptionMy:
+        'လက်တွေ့အင်ဂျင်နီယာပရောဂျက်များတွင် စမ်းသပ်ခြင်း၊ ပြန်လည်ပြင်ဆင်ခြင်းနှင့် အဖွဲ့လိုက်လုပ်ဆောင်ခြင်းအကြောင်း သင့်နားလည်မှုကို စမ်းသပ်ကြည့်ပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A prototype is best described as...',
+        questionMy:
+            'Prototype (နမူနာပုံစံ) ကို အကောင်းဆုံးဖော်ပြရလျှင် ဘာဖြစ်သနည်း။',
+        optionsEn: [
+          'An early test version of a design',
+          'The final product sold to customers',
+          'A broken machine',
+          'A type of raw material',
+        ],
+        optionsMy: [
+          'ဒီဇိုင်း၏ အစောပိုင်းစမ်းသပ်ပုံစံတစ်ခု',
+          'ဖောက်သည်များထံရောင်းချသော အဆုံးသတ်ထုတ်ကုန်',
+          'ပျက်စီးနေသောစက်ယန္တရား',
+          'ကုန်ကြမ်းအမျိုးအစားတစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A tower made of straws collapses when tested. What is the best next step?',
+        questionMy:
+            'ကောက်ရိုးများဖြင့်လုပ်ထားသော တာဝါသည် စမ်းသပ်ချိန်တွင် ပြိုကျသည်။ နောက်ထပ်ဆောင်ရွက်သင့်သည့်အကောင်းဆုံးအဆင့်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Study why it failed and redesign it',
+          'Throw away all the straws',
+          'Never build towers again',
+          'Blame a teammate',
+        ],
+        optionsMy: [
+          'အဘယ်ကြောင့်ကျရှုံးကြောင်း လေ့လာပြီး ပြန်လည်ဒီဇိုင်းဆွဲပါ',
+          'ကောက်ရိုးအားလုံးကို စွန့်ပစ်ပါ',
+          'တာဝါများကို နောက်နောင် ဘယ်တော့မှ မဆောက်တော့ပါ',
+          'အဖွဲ့ဝင်တစ်ဦးကို အပြစ်တင်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do engineering teams usually include people with different skills?',
+        questionMy:
+            'အင်ဂျင်နီယာအဖွဲ့များသည် ကျွမ်းကျင်မှုအမျိုးမျိုးရှိသူများ ပါဝင်လေ့ရှိသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'Different skills help solve different parts of a problem',
+          'To make meetings longer',
+          'It is not actually helpful',
+          'To spend more money',
+        ],
+        optionsMy: [
+          'ကျွမ်းကျင်မှုကွဲပြားခြင်းသည် ပြဿနာ၏ အစိတ်အပိုင်းအမျိုးမျိုးကို ဖြေရှင်းရာတွင် ကူညီပေးသည်',
+          'အစည်းအဝေးများကို ပိုကြာစေရန်',
+          'အမှန်တကယ် အထောက်အကူမဖြစ်ပါ',
+          'ငွေကို ပိုသုံးစေရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A load test on a bridge model checks how much weight it can hold before...',
+        questionMy:
+            'တံတားပုံစံ၏ Load Test သည် မဖြစ်ပေါ်မီ မည်မျှလေးလံသောအလေးချိန်ကို ထမ်းဆောင်နိုင်ကြောင်း စစ်ဆေးသနည်း -- မည်သည့်အရာဖြစ်ပေါ်ခင်။',
+        optionsEn: [
+          'Bending or breaking',
+          'Changing color',
+          'Getting lighter',
+          'Moving location',
+        ],
+        optionsMy: [
+          'ကွေးခြင်း (သို့) ကျိုးပဲ့ခြင်း',
+          'အရောင်ပြောင်းခြင်း',
+          'ပေါ့သွားခြင်း',
+          'နေရာပြောင်းခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do engineering teams write down what they learned after a design fails?',
+        questionMy:
+            'အင်ဂျင်နီယာအဖွဲ့များသည် ဒီဇိုင်းတစ်ခု ကျရှုံးပြီးနောက် သင်ယူရရှိသည်များကို ရေးမှတ်ထားကြသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'So they can improve future designs',
+          'To forget about it faster',
+          'It is required for no real reason',
+          'To blame someone',
+        ],
+        optionsMy: [
+          'အနာဂတ်ဒီဇိုင်းများကို တိုးတက်အောင်ပြုလုပ်နိုင်ရန်',
+          'ပိုမြန်မြန်မေ့ပျောက်ရန်',
+          'အကြောင်းမဲ့ လိုအပ်ချက်ဖြစ်၍',
+          'တစ်စုံတစ်ဦးကို အပြစ်တင်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];

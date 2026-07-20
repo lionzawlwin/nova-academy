@@ -5,8 +5,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('secondaryCurriculumBank', () {
-    test('contains exactly 72 modules', () {
-      expect(secondaryCurriculumBank.length, 72);
+    test('contains exactly 80 modules', () {
+      expect(secondaryCurriculumBank.length, 80);
     });
 
     test('every module id is unique', () {
@@ -51,7 +51,7 @@ void main() {
       }
     });
 
-    test('every module subject is one of the six expected keys', () {
+    test('every module subject is one of the eight expected keys', () {
       const expected = {
         'algebra',
         'physics',
@@ -59,6 +59,8 @@ void main() {
         'biology',
         'ict',
         'socialstudies',
+        'coding',
+        'engineering',
       };
       for (final module in secondaryCurriculumBank) {
         expect(
@@ -69,22 +71,31 @@ void main() {
       }
     });
 
-    test('has 12 modules per subject', () {
+    test('has 12 modules per subject, except the new coding/engineering '
+        'STEAM-expansion subjects (4 each)', () {
+      // The STEAM expansion added exactly one `coding` and one
+      // `engineering` module per Secondary/IGCSE grade (secondary1-3,
+      // igcse), so those two subjects total 4 modules each; every other
+      // subject stays at 12.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
       }
-      expect(counts.length, 6, reason: 'expected 6 subjects');
+      expect(counts.length, 8, reason: 'expected 8 subjects');
+      const expectedOverrides = {'coding': 4, 'engineering': 4};
       for (final entry in counts.entries) {
+        final expected = expectedOverrides[entry.key] ?? 12;
         expect(
           entry.value,
-          12,
-          reason: '${entry.key} has ${entry.value} modules, expected 12',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });
 
-    test('has 18 modules per grade', () {
+    test('has 20 modules per grade', () {
+      // Baseline 18 (6 subjects x 3 modules) plus 2 from the STEAM
+      // expansion (1 coding + 1 engineering) per grade.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
@@ -93,24 +104,28 @@ void main() {
       for (final entry in counts.entries) {
         expect(
           entry.value,
-          18,
-          reason: '${entry.key} has ${entry.value} modules, expected 18',
+          20,
+          reason: '${entry.key} has ${entry.value} modules, expected 20',
         );
       }
     });
 
-    test('has 3 modules per grade+subject combination', () {
+    test('has 3 modules per grade+subject combination, except every coding/'
+        'engineering combo (1)', () {
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
-      expect(counts.length, 24, reason: 'expected 24 grade+subject combos');
+      expect(counts.length, 32, reason: 'expected 32 grade+subject combos');
       for (final entry in counts.entries) {
+        final isCodingOrEngineering =
+            entry.key.endsWith('-coding') || entry.key.endsWith('-engineering');
+        final expected = isCodingOrEngineering ? 1 : 3;
         expect(
           entry.value,
-          3,
-          reason: '${entry.key} has ${entry.value} modules, expected 3',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });

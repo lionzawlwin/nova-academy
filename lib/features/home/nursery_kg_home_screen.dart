@@ -51,11 +51,26 @@ class NurseryKgHomeScreen extends ConsumerWidget {
     SubjectVisual(
       label: l10n.subjectStem,
       icon: Icons.science_rounded,
-      // The tightened Candy Core rotation has only 4 hues for 5 subjects --
-      // rotate back to the first ("rotates with" per the design spec).
+      // The tightened Candy Core rotation has only 4 hues for 5+ subjects --
+      // rotate back through the palette ("rotates with" per the design
+      // spec).
       color: AppColors
           .nurseryCandyPalette[4 % AppColors.nurseryCandyPalette.length],
       subjectKey: 'stem',
+    ),
+    SubjectVisual(
+      label: l10n.subjectCoding,
+      icon: Icons.code_rounded,
+      color: AppColors
+          .nurseryCandyPalette[5 % AppColors.nurseryCandyPalette.length],
+      subjectKey: 'coding',
+    ),
+    SubjectVisual(
+      label: l10n.subjectEngineering,
+      icon: Icons.precision_manufacturing_rounded,
+      color: AppColors
+          .nurseryCandyPalette[6 % AppColors.nurseryCandyPalette.length],
+      subjectKey: 'engineering',
     ),
   ];
 

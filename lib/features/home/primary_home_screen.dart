@@ -208,6 +208,10 @@ class PrimaryHomeScreen extends ConsumerWidget {
       case 'ict':
       case 'stem':
         return Icons.memory_rounded;
+      case 'coding':
+        return Icons.code_rounded;
+      case 'engineering':
+        return Icons.precision_manufacturing_rounded;
       case 'art':
         return Icons.palette_rounded;
       case 'phonics':

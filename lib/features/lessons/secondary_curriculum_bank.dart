@@ -6702,4 +6702,719 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // ================= STEAM EXPANSION: CODING & ENGINEERING =================
+  // New `coding`/`engineering` subject keys across Secondary1-3 and IGCSE --
+  // "Professional STEM & Programming Foundations": algorithmic thinking,
+  // functions/loops, data structures, and applied engineering design.
+  // Shows up automatically in `_ModuleListTile`'s per-grade module list on
+  // `SecondaryIgcseHomeScreen`; also added as two new entries in that
+  // screen's fixed `_subjectDefs` summary-card grid.
+  SecondaryActivityDef(
+    id: 'mock-secondary1-coding-1',
+    subject: 'coding',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Algorithmic Thinking',
+    titleMy: 'Algorithm ဆိုင်ရာ တွေးခေါ်မှု',
+    descriptionEn:
+        'Learn to break problems into clear, ordered steps using flowcharts and pseudocode.',
+    descriptionMy:
+        'Flowchart နှင့် Pseudocode များကိုအသုံးပြု၍ ပြဿနာများကို ရှင်းလင်း၍အစီအစဉ်ကျသောအဆင့်များအဖြစ် ခွဲခြမ်းနည်းကို လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn: 'In a flowchart, a diamond shape usually represents...',
+        questionMy:
+            'Flowchart တစ်ခုတွင် စိန်ပုံသဏ္ဌာန်သည် များသောအားဖြင့် ဘာကိုကိုယ်စားပြုသနည်း။',
+        optionsEn: [
+          'A decision/condition',
+          'The start of the program',
+          'A stored variable',
+          'The end of the program',
+        ],
+        optionsMy: [
+          'ဆုံးဖြတ်ချက်/အခြေအနေ',
+          'ပရိုဂရမ်၏အစ',
+          'သိမ်းထားသောVariable',
+          'ပရိုဂရမ်၏အဆုံး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Pseudocode: "IF temperature > 30 THEN print HOT ELSE print COOL". If temperature = 25, what is printed?',
+        questionMy:
+            'Pseudocode- "IF temperature > 30 THEN print HOT ELSE print COOL" ။ temperature = 25 ဖြစ်ပါက ဘာပြသမည်နည်း။',
+        optionsEn: ['COOL', 'HOT', 'temperature', 'Nothing'],
+        optionsMy: ['COOL', 'HOT', 'temperature', 'ဘာမှမပြပါ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'An algorithm that is "efficient" mainly means it...',
+        questionMy:
+            '"ထိရောက်သော" Algorithm တစ်ခုဆိုသည်မှာ အဓိကအားဖြင့် ဘာအဓိပ္ပာယ်ရှိသနည်း။',
+        optionsEn: [
+          'Solves the problem using fewer steps/resources',
+          'Uses the most colorful interface',
+          'Is written in the longest possible code',
+          'Never needs to be tested',
+        ],
+        optionsMy: [
+          'ပြဿနာကို အဆင့်/အရင်းအမြစ် ပိုနည်းသောအသုံးပြု၍ ဖြေရှင်းသည်',
+          'အရောင်စုံဆုံးသော Interface ကိုအသုံးပြုသည်',
+          'အရှည်ဆုံးဖြစ်နိုင်သော ကုဒ်ဖြင့်ရေးထားသည်',
+          'ဘယ်တော့မှ စမ်းသပ်ရန်မလိုပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is the correct order for solving a problem with an algorithm?',
+        questionMy:
+            'Algorithm တစ်ခုဖြင့် ပြဿနာတစ်ခုကို ဖြေရှင်းရန် အောက်ပါတို့ထဲမှ မှန်ကန်သောအစီအစဉ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Understand the problem, design steps, write code, test',
+          'Write code, understand the problem, delete it, test',
+          'Test first, then think about the problem',
+          'Guess randomly until it works',
+        ],
+        optionsMy: [
+          'ပြဿနာကိုနားလည်ပါ၊ အဆင့်များဒီဇိုင်းဆွဲပါ၊ ကုဒ်ရေးပါ၊ စမ်းသပ်ပါ',
+          'ကုဒ်ရေးပါ၊ ပြဿနာကိုနားလည်ပါ၊ ၎င်းကိုဖျက်ပါ၊ စမ်းသပ်ပါ',
+          'အရင်ဆုံးစမ်းသပ်ပြီးမှ ပြဿနာအကြောင်းစဉ်းစားပါ',
+          'အလုပ်ဖြစ်တဲ့အထိ ကျပန်းယူဆကြည့်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A step-by-step written plan for solving a problem, using plain language instead of real code, is called...',
+        questionMy:
+            'ပြဿနာတစ်ခုဖြေရှင်းရန် အစစ်အမှန်ကုဒ်အစား ရိုးရှင်းသောစာသားဖြင့်ရေးထားသော အဆင့်ဆင့်စီစဉ်ချက်ကို ဘာခေါ်သနည်း။',
+        optionsEn: ['Pseudocode', 'A compiler', 'A database', 'A firewall'],
+        optionsMy: ['Pseudocode', 'Compiler', 'Database', 'Firewall'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary1-engineering-1',
+    subject: 'engineering',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Introduction to Engineering Disciplines',
+    titleMy: 'အင်ဂျင်နီယာဘာသာရပ်များ နိဒါန်း',
+    descriptionEn:
+        'Survey the major engineering fields -- civil, mechanical, electrical, and software -- and how each applies the design process.',
+    descriptionMy:
+        'အဓိကအင်ဂျင်နီယာဘာသာရပ်များ -- အင်ဂျင်နီယာဆောက်လုပ်ရေး၊ စက်မှုအင်ဂျင်နီယာ၊ လျှပ်စစ်အင်ဂျင်နီယာနှင့် ဆော့ဖ်ဝဲအင်ဂျင်နီယာ -- တို့ကို ခြုံငုံလေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which type of engineer would most likely design a highway bridge?',
+        questionMy:
+            'အမျိုးအစားမည်သည့်အင်ဂျင်နီယာသည် လမ်းမကြီးတံတားကို ဒီဇိုင်းဆွဲနိုင်ဆုံးဖြစ်သနည်း။',
+        optionsEn: [
+          'Civil engineer',
+          'Software engineer',
+          'Chemical engineer',
+          'Audio engineer',
+        ],
+        optionsMy: [
+          'အင်ဂျင်နီယာဆောက်လုပ်ရေး',
+          'ဆော့ဖ်ဝဲအင်ဂျင်နီယာ',
+          'ဓာတုအင်ဂျင်နီယာ',
+          'အသံအင်ဂျင်နီယာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A mechanical engineer is most likely to work on...',
+        questionMy:
+            'စက်မှုအင်ဂျင်နီယာတစ်ဦးသည် ဘယ်အလုပ်ကို လုပ်ဆောင်နိုင်ဆုံးနည်း။',
+        optionsEn: [
+          'Engines and moving machine parts',
+          'Website design',
+          'Legal contracts',
+          'Marketing plans',
+        ],
+        optionsMy: [
+          'အင်ဂျင်နှင့် လှုပ်ရှားနေသောစက်အစိတ်အပိုင်းများ',
+          'Websiteဒီဇိုင်း',
+          'ဥပဒေစာချုပ်များ',
+          'ဈေးကွက်ရေးအစီအစဉ်များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What do all engineering disciplines have in common?',
+        questionMy: 'အင်ဂျင်နီယာဘာသာရပ်အားလုံး၏ ဘုံအချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'They use science and math to solve real problems',
+          'They only work with computers',
+          'They never test their ideas',
+          'They avoid teamwork',
+        ],
+        optionsMy: [
+          'သူတို့သည် သိပ္ပံနှင့်သင်္ချာကိုအသုံးပြု၍ လက်တွေ့ပြဿနာများကိုဖြေရှင်းကြသည်',
+          'သူတို့သည် ကွန်ပျူတာများနှင့်သာ အလုပ်လုပ်ကြသည်',
+          'သူတို့သည် အကြံဉာဏ်များကို ဘယ်တော့မှ စမ်းသပ်ကြသည်မဟုတ်ပါ',
+          'သူတို့သည် အဖွဲ့လိုက်လုပ်ဆောင်ခြင်းကို ရှောင်ကြဉ်ကြသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Software engineers primarily design and build...',
+        questionMy:
+            'ဆော့ဖ်ဝဲအင်ဂျင်နီယာများသည် အဓိကအားဖြင့် ဘာကို ဒီဇိုင်းဆွဲပြီး တည်ဆောက်ကြသနည်း။',
+        optionsEn: [
+          'Computer programs and apps',
+          'Bridges and roads',
+          'Electrical power grids',
+          'Medicine',
+        ],
+        optionsMy: [
+          'ကွန်ပျူတာပရိုဂရမ်များနှင့် Appများ',
+          'တံတားနှင့်လမ်းများ',
+          'လျှပ်စစ်ဓာတ်အားပေးကွန်ရက်',
+          'ဆေးဝါးများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An electrical engineer would most likely work on designing...',
+        questionMy:
+            'လျှပ်စစ်အင်ဂျင်နီယာတစ်ဦးသည် အများဆုံးအားဖြင့် ဘာကို ဒီဇိုင်းဆွဲနိုင်ဆုံးနည်း။',
+        optionsEn: [
+          'Power grids and circuits',
+          'Websites',
+          'Legal documents',
+          'Recipes',
+        ],
+        optionsMy: [
+          'ဓာတ်အားပေးကွန်ရက်နှင့် ဆားကစ်များ',
+          'Websiteများ',
+          'ဥပဒေစာရွက်စာတမ်းများ',
+          'ချက်ပြုတ်နည်းများ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-secondary2-coding-1',
+    subject: 'coding',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Functions and Loops in Python',
+    titleMy: 'Python ရှိ Function နှင့် Loop များ',
+    descriptionEn:
+        'Trace through simple Python-style functions and for/while loops to predict their output.',
+    descriptionMy:
+        'ရိုးရှင်းသော Python ပုံစံ Function များနှင့် for/while Loop များ၏ ရလဒ်ကိုခန့်မှန်းရန် လိုက်စစ်ဆေးပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn: 'for i in range(3): print(i). What does this print?',
+        questionMy: 'for i in range(3)- print(i) ။ ၎င်းသည် ဘာကိုပြသမည်နည်း။',
+        optionsEn: ['0, 1, 2', '1, 2, 3', '0, 1, 2, 3', '3'],
+        optionsMy: ['0, 1, 2', '1, 2, 3', '0, 1, 2, 3', '3'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'def add(a, b): return a + b. What does add(4, 5) return?',
+        questionMy:
+            'def add(a, b)- return a + b ။ add(4, 5) ၏ ရလဒ်ကတန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['9', '45', '4', '5'],
+        optionsMy: ['9', '45', '4', '5'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'x = 0. while x < 3: x = x + 1. After the loop finishes, what is x?',
+        questionMy:
+            'x = 0 ။ while x < 3- x = x + 1 ။ Loop ပြီးဆုံးပြီးနောက် x ၏တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['3', '0', '2', 'Infinite loop'],
+        optionsMy: ['3', '0', '2', 'အဆုံးမရှိLoop'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A "while" loop keeps repeating as long as its condition is...',
+        questionMy:
+            '"while" loop သည် ၎င်း၏အခြေအနေသည် မည်သို့ရှိနေသရွေ့ ဆက်လက်ထပ်ခါထပ်ခါလုပ်ဆောင်နေမည်နည်း။',
+        optionsEn: ['True', 'False', 'A number', 'A string'],
+        optionsMy: ['True', 'False', 'ဂဏန်း', 'String'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do programmers write functions instead of repeating the same code block?',
+        questionMy:
+            'ပရိုဂရမ်မာများသည် ကုဒ်ဘလောက်တူတူကို ထပ်ခါထပ်ခါမရေးဘဲ Function များရေးကြသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'To keep code organized, reusable, and easier to fix',
+          'To make the program run slower on purpose',
+          'Functions are required by every keyboard',
+          'To hide bugs permanently',
+        ],
+        optionsMy: [
+          'ကုဒ်ကို စနစ်တကျ၊ ပြန်လည်အသုံးချနိုင်ပြီး ပြင်ဆင်ရလွယ်ကူစေရန်',
+          'ပရိုဂရမ်ကို တမင်နှေးကွေးစေရန်',
+          'Function များသည် ကီးဘုတ်တိုင်းအတွက် လိုအပ်သည်',
+          'Bug များကို ထာဝစဉ်ဖုံးကွယ်ထားရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-engineering-1',
+    subject: 'engineering',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Forces in Structures',
+    titleMy: 'အဆောက်အအုံများရှိ အားများ',
+    descriptionEn:
+        'Understand tension, compression, and how load is distributed through a structure.',
+    descriptionMy:
+        'တင်းအား (Tension)၊ ဖိအား (Compression) နှင့် အဆောက်အအုံတစ်ခုတွင် ဝန်ထုပ်ဝန်ပိုးကို မည်သို့ဖြန့်ဝေထားကြောင်း နားလည်ပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'When a material is being stretched or pulled apart, it is under...',
+        questionMy:
+            'ပစ္စည်းတစ်ခုကို ဆွဲဆန့်ခံနေရသည့်အခါ ၎င်းသည် ဘာအောက်တွင် ရှိနေသနည်း။',
+        optionsEn: ['Tension', 'Compression', 'Rotation', 'Freezing'],
+        optionsMy: [
+          'တင်းအား (Tension)',
+          'ဖိအား (Compression)',
+          'လည့်ပတ်မှု',
+          'အေးခဲမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When a material is being squeezed or pushed together, it is under...',
+        questionMy:
+            'ပစ္စည်းတစ်ခုကို ဖိညှစ် (သို့) ရိုက်တွန်းနေရသည့်အခါ ၎င်းသည် ဘာအောက်တွင် ရှိနေသနည်း။',
+        optionsEn: ['Compression', 'Tension', 'Evaporation', 'Reflection'],
+        optionsMy: [
+          'ဖိအား (Compression)',
+          'တင်းအား (Tension)',
+          'အငွေ့ပျံမှု',
+          'ရောင်ပြန်ဟပ်မှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A triangular truss is used in bridges and roofs mainly because triangles...',
+        questionMy:
+            'တံတားနှင့် အမိုးများတွင် တြိဂံပုံ Truss ကို အဓိကအသုံးပြုသည်မှာ တြိဂံများသည် ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'Do not change shape easily under load',
+          'Are the cheapest shape to paint',
+          'Look more modern',
+          'Are easiest to draw',
+        ],
+        optionsMy: [
+          'ဝန်ထုပ်ဝန်ပိုးအောက်တွင် ပုံသဏ္ဌာန်လွယ်ကူစွာမပြောင်းလဲပါ',
+          'ဆေးသုတ်ရန်အသက်သာဆုံးပုံသဏ္ဌာန်ဖြစ်သည်',
+          'ပိုခေတ်မှီပုံပေါ်သည်',
+          'ရေးဆွဲရလွယ်ကူဆုံးဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a beam bends too much under a load, an engineer would most likely...',
+        questionMy:
+            'တန်တားချောင်းတစ်ခုသည် ဝန်ထုပ်ဝန်ပိုးအောက်တွင် လွန်စွာကွေးလျှင် အင်ဂျင်နီယာတစ်ဦးသည် အများဆုံးဘာလုပ်နိုင်ဆုံးနည်း။',
+        optionsEn: [
+          'Use a thicker or stronger material',
+          'Remove the beam entirely',
+          'Paint it a different color',
+          'Ignore the bending',
+        ],
+        optionsMy: [
+          'ပိုထူသော (သို့) ပိုခိုင်မာသောပစ္စည်းကိုအသုံးပြုသည်',
+          'ချောင်းကို လုံးဝဖယ်ရှားသည်',
+          'အခြားအရောင်တစ်ခုသုတ်သည်',
+          'ကွေးနေခြင်းကို လျစ်လျူရှုသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A structure that spreads a heavy load evenly across many supports is generally...',
+        questionMy:
+            'လေးလံသောဝန်ကို အထောက်များစွာအတွင်း ညီညာစွာဖြန့်ကျက်ပေးသော အဆောက်အအုံတစ်ခုသည် ယေဘုယျအားဖြင့်...',
+        optionsEn: [
+          'More stable and less likely to fail',
+          'Weaker',
+          'More expensive to paint',
+          'Slower to build only',
+        ],
+        optionsMy: [
+          'ပိုတည်ငြိမ်ပြီး ချို့ယွင်းနိုင်ခြေနည်းသည်',
+          'ပိုအားနည်းသည်',
+          'ဆေးသုတ်ရန် ပိုကုန်ကျသည်',
+          'တည်ဆောက်ရန်သာ ပိုနှေးသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-secondary3-coding-1',
+    subject: 'coding',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Data Structures: Lists and Arrays',
+    titleMy: 'Data Structure- List နှင့် Array',
+    descriptionEn:
+        'Learn how lists/arrays store ordered data and how indexing lets you access each item.',
+    descriptionMy:
+        'List/Array များသည် အစီအစဉ်ကျသောဒေတာများကို မည်သို့သိမ်းဆည်းထားကြောင်းနှင့် Indexing ဖြင့် အရာတစ်ခုစီကို မည်သို့ရယူနိုင်ကြောင်း လေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'fruits = ["apple", "banana", "cherry"]. What is fruits[0]?',
+        questionMy:
+            'fruits = ["apple", "banana", "cherry"] ။ fruits[0] ၏တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['"apple"', '"banana"', '"cherry"', '0'],
+        optionsMy: ['"apple"', '"banana"', '"cherry"', '0'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'fruits = ["apple", "banana", "cherry"]. What is len(fruits)?',
+        questionMy:
+            'fruits = ["apple", "banana", "cherry"] ။ len(fruits) ၏တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['3', '2', '0', 'Error'],
+        optionsMy: ['3', '2', '0', 'Error'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In most programming languages, array indexing starts counting from...',
+        questionMy:
+            'Programming language အများစုတွင် Array indexing သည် ဘယ်ကနေစပြီး ရေတွက်သနည်း။',
+        optionsEn: ['0', '1', '-1', '100'],
+        optionsMy: ['0', '1', '-1', '100'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why use a list/array instead of many separate variables for related data?',
+        questionMy:
+            'ဆက်စပ်ဒေတာအတွက် Variable အများကြီးအသီးသီးအစား List/Array တစ်ခုကိုအသုံးပြုသည်မှာ ဘာကြောင့်နည်း။',
+        optionsEn: [
+          'It groups related data and makes it easier to loop through',
+          'It automatically makes the code slower',
+          'Arrays cannot hold more than one item',
+          'It is required for every program to have one',
+        ],
+        optionsMy: [
+          'ဆက်စပ်ဒေတာများကိုစုစည်းပြီး Loop ဖြင့်လိုက်စစ်ရလွယ်ကူစေသည်',
+          'ကုဒ်ကို အလိုအလျောက် ပိုနှေးအောင်လုပ်သည်',
+          'Array များသည် တစ်ခုထက်ပို၍ မသိမ်းနိုင်ပါ',
+          'ပရိုဂရမ်တိုင်းအတွက် လိုအပ်ချက်ဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'fruits = ["apple", "banana", "cherry"]. What is fruits[2]?',
+        questionMy:
+            'fruits = ["apple", "banana", "cherry"] ။ fruits[2] ၏တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['"cherry"', '"apple"', '"banana"', '2'],
+        optionsMy: ['"cherry"', '"apple"', '"banana"', '2'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-engineering-1',
+    subject: 'engineering',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Basic Electrical Circuits',
+    titleMy: 'လျှပ်စစ်ဆားကစ်များ အခြေခံ',
+    descriptionEn:
+        'Explore series and parallel circuits and the basic relationship between voltage, current, and resistance.',
+    descriptionMy:
+        'Series နှင့် Parallel ဆားကစ်များနှင့် ဗို့အား၊ လျှပ်စီးနှင့် ခုခံအား တို့ကြားရှိ အခြေခံဆက်စပ်မှုကို ရှာဖွေလေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'In a series circuit, if one bulb burns out, what happens to the others?',
+        questionMy:
+            'Series ဆားကစ်တွင် ဓာတ်မီးလုံးတစ်လုံးပျက်သွားလျှင် ကျန်တာတွေမှာ ဘာဖြစ်မည်နည်း။',
+        optionsEn: [
+          'They all turn off too',
+          'They stay lit',
+          'They get brighter',
+          'Nothing changes',
+        ],
+        optionsMy: [
+          'သူတို့အားလုံးပါ ပိတ်သွားသည်',
+          'ထွန်းလင်းနေဆဲဖြစ်သည်',
+          'ပိုတောက်ပလာသည်',
+          'ဘာမှမပြောင်းလဲပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a parallel circuit, if one bulb burns out, the other bulbs usually...',
+        questionMy:
+            'Parallel ဆားကစ်တွင် ဓာတ်မီးလုံးတစ်လုံးပျက်သွားလျှင် ကျန်ဓာတ်မီးလုံးများသည် များသောအားဖြင့်...',
+        optionsEn: ['Stay lit', 'Turn off too', 'Explode', 'Disappear'],
+        optionsMy: [
+          'ထွန်းလင်းနေဆဲဖြစ်သည်',
+          'သူတို့အားလုံးပါ ပိတ်သွားသည်',
+          'ပေါက်ကွဲသည်',
+          'ပျောက်ကွယ်သွားသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Ohm\'s Law states that Voltage = Current x Resistance. If Current = 2A and Resistance = 5 ohms, what is Voltage?',
+        questionMy:
+            'Ohm ၏ ဥပဒေအရ ဗို့အား = လျှပ်စီး x ခုခံအား ဖြစ်သည်။ လျှပ်စီး = 2A နှင့် ခုခံအား = 5 ohm ဖြစ်ပါက ဗို့အားမှာ အဘယ်နည်း။',
+        optionsEn: ['10V', '2.5V', '7V', '3V'],
+        optionsMy: ['10V', '2.5V', '7V', '3V'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A resistor is used in a circuit mainly to...',
+        questionMy:
+            'Resistor တစ်ခုကို ဆားကစ်တစ်ခုတွင် အဓိကအားဖြင့် ဘာအတွက်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Limit or control the flow of current',
+          'Store large amounts of water',
+          'Change the color of the wire',
+          'Make the circuit louder',
+        ],
+        optionsMy: [
+          'လျှပ်စီးစီးဆင်းမှုကို ကန့်သတ် (သို့) ထိန်းချုပ်ရန်',
+          'ရေအမြောက်အများ သိုလှောင်ရန်',
+          'ကြိုး၏အရောင်ပြောင်းလဲရန်',
+          'ဆားကစ်ကို ပိုကျယ်လောင်စေရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Ohm\'s Law states Voltage = Current x Resistance. If Voltage = 12V and Resistance = 4 ohms, what is Current?',
+        questionMy:
+            'Ohm ၏ ဥပဒေအရ ဗို့အား = လျှပ်စီး x ခုခံအား ဖြစ်သည်။ ဗို့အား = 12V နှင့် ခုခံအား = 4 ohm ဖြစ်ပါက လျှပ်စီးမှာ အဘယ်နည်း။',
+        optionsEn: ['3A', '48A', '8A', '16A'],
+        optionsMy: ['3A', '48A', '8A', '16A'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
+  SecondaryActivityDef(
+    id: 'mock-igcse-coding-1',
+    subject: 'coding',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Programming Foundations: Algorithms and the Web',
+    titleMy: 'ပရိုဂရမ်းမင်း အခြေခံ- Algorithm နှင့် Web',
+    descriptionEn:
+        'Compare algorithm efficiency and learn the basic building blocks of a web page.',
+    descriptionMy:
+        'Algorithm ထိရောက်မှုကို နှိုင်းယှဉ်ပြီး Web Page တစ်ခု၏ အခြေခံဖွဲ့စည်းအင်ဖက်များကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Searching for a name in a sorted phone book by checking the middle each time is called...',
+        questionMy:
+            'စာရင်းစီထားသော ဖုန်းစာအုပ်တွင် အမည်တစ်ခုကို အလယ်ကနေစပြီးရှာသည့်နည်းလမ်းကို ဘာခေါ်သနည်း။',
+        optionsEn: [
+          'Binary search',
+          'Random search',
+          'Bubble sort',
+          'Linear scan only',
+        ],
+        optionsMy: [
+          'Binary Search',
+          'ကျပန်းရှာဖွေမှု',
+          'Bubble Sort',
+          'Linear Scan သာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which HTML tag is used to define the main heading of a web page?',
+        questionMy:
+            'Web Page တစ်ခု၏ အဓိကခေါင်းစဉ်ကို သတ်မှတ်ရန် HTML Tag မည်သည်ကို အသုံးပြုသနည်း။',
+        optionsEn: ['<h1>', '<p>', '<div>', '<img>'],
+        optionsMy: ['<h1>', '<p>', '<div>', '<img>'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An algorithm that checks every item one by one, from the start, is called a...',
+        questionMy:
+            'အရာတစ်ခုစီကို အစကနေတစ်ခုချင်းစီစစ်ဆေးသော Algorithm ကို ဘာခေါ်သနည်း။',
+        optionsEn: [
+          'Linear search',
+          'Binary search',
+          'Recursive loop',
+          'Compiler',
+        ],
+        optionsMy: [
+          'Linear Search',
+          'Binary Search',
+          'Recursive Loop',
+          'Compiler',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Between two algorithms that solve the same problem, the one usually preferred is the one that is...',
+        questionMy:
+            'ပြဿနာတူတူကို ဖြေရှင်းသော Algorithm နှစ်ခုအနက် များသောအားဖြင့် ဦးစားပေးရွေးချယ်လေ့ရှိသည်မှာ...',
+        optionsEn: [
+          'Faster and uses fewer resources',
+          'Longer to write',
+          'Harder to understand',
+          'Never tested',
+        ],
+        optionsMy: [
+          'ပိုမြန်ပြီး အရင်းအမြစ်ပိုနည်းအသုံးပြုသော Algorithm',
+          'ရေးရန်ပိုကြာသော Algorithm',
+          'နားလည်ရ ပိုခက်သော Algorithm',
+          'ဘယ်တော့မှ Test မလုပ်ရသေးသော Algorithm',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'CSS is mainly used on a website to control...',
+        questionMy:
+            'CSS ကို Website တစ်ခုတွင် အဓိကအားဖြင့် ဘာကို ထိန်းချုပ်ရန်အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Visual style and layout',
+          'Server database storage',
+          'Network security only',
+          'Domain name registration',
+        ],
+        optionsMy: [
+          'အမြင်ဆိုင်ရာပုံစံနှင့်အပြင်အဆင်',
+          'Server ဒေတာဘေ့စ်သိုလှောင်မှု',
+          'Networkလုံခြုံရေးသာ',
+          'Domain Name မှတ်ပုံတင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-engineering-1',
+    subject: 'engineering',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Applied Engineering: Motion and Design',
+    titleMy: 'လက်တွေ့အင်ဂျင်နီယာပညာ- ရွေ့လျားမှုနှင့် ဒီဇိုင်း',
+    descriptionEn:
+        'Apply kinematics and force calculations to real engineering design trade-offs.',
+    descriptionMy:
+        'Kinematics နှင့် အားတွက်ချက်မှုများကို လက်တွေ့အင်ဂျင်နီယာဒီဇိုင်း ဖလှယ်ချက်များတွင် အသုံးချပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Using Newton\'s second law (F = ma), what force is needed to accelerate a 10 kg object at 4 m/s²?',
+        questionMy:
+            'Newton ၏ ဒုတိယနိယာမ (F = ma) ကိုအသုံးပြု၍ 10 kg ရှိအရာဝတ္ထုကို 4 m/s² ဖြင့် အရှိန်မြှင့်ရန် မည်မျှအားလိုအပ်သနည်း။',
+        optionsEn: ['40 N', '14 N', '2.5 N', '6 N'],
+        optionsMy: ['40 N', '14 N', '2.5 N', '6 N'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A car brakes and decelerates from 20 m/s to 0 m/s in 5 seconds. What is its deceleration?',
+        questionMy:
+            'ကားတစ်စီးသည် 20 m/s မှ 0 m/s သို့ 5 စက္ကန့်အတွင်း ဘရိတ်ကိုက်၍ အရှိန်လျော့သည်။ ၎င်း၏အရှိန်လျော့နှုန်းမှာ အဘယ်နည်း။',
+        optionsEn: ['4 m/s²', '20 m/s²', '5 m/s²', '100 m/s²'],
+        optionsMy: ['4 m/s²', '20 m/s²', '5 m/s²', '100 m/s²'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An engineer choosing between a cheaper, weaker material and an expensive, stronger one is facing a...',
+        questionMy:
+            'ပိုစျေးသက်သာသော်လည်း အားနည်းသောပစ္စည်းနှင့် ပိုစျေးကြီးသော်လည်း ပိုခိုင်မာသောပစ္စည်းအကြား ရွေးချယ်ရသော အင်ဂျင်နီယာတစ်ဦးသည် ဘာမျိုးနှင့် ရင်ဆိုင်နေသနည်း။',
+        optionsEn: [
+          'A design trade-off',
+          'A grammar error',
+          'A weather forecast',
+          'A marketing decision only',
+        ],
+        optionsMy: [
+          'ဒီဇိုင်း ဖလှယ်ချက် (Trade-off)',
+          'သဒ္ဒါအမှား',
+          'ရာသီဥတုခန့်မှန်းချက်',
+          'ဈေးကွက်ရေးဆုံးဖြတ်ချက်သာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why might an engineer add a safety factor when designing a bridge to hold 10 tonnes?',
+        questionMy:
+            '10 တန်ခန့်ထမ်းဆောင်နိုင်သော တံတားကို ဒီဇိုင်းဆွဲရာတွင် အင်ဂျင်နီယာတစ်ဦးသည် ဘေးကင်းရေးအချက်ကို အဘယ့်ကြောင့် ထည့်သွင်းနိုင်သနည်း။',
+        optionsEn: [
+          'To handle unexpected loads and material weaknesses safely',
+          'To make the bridge look bigger',
+          'Because it is cheaper to overbuild',
+          'Safety factors are not actually used',
+        ],
+        optionsMy: [
+          'မမျှော်လင့်ထားသောဝန်ထုပ်ဝန်ပိုးနှင့် ပစ္စည်းအားနည်းချက်များကို ဘေးကင်းစွာ ကိုင်တွယ်ရန်',
+          'တံတားကို ပိုကြီးအောင်ပြပြီးကြည့်ရန်',
+          'ပိုအားကောင်းအောင်တည်ဆောက်ရန် ပိုဈေးသက်သာ၍',
+          'ဘေးကင်းရေးအချက်များကို အမှန်တကယ်အသုံးမပြုပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A projectile launched horizontally from a height falls due to gravity while also moving forward -- this combination of motions is studied in...',
+        questionMy:
+            'အမြင့်တစ်ခုမှ အလျားလိုက်ပစ်လွှတ်လိုက်သော အရာဝတ္ထုသည် ဆွဲငင်အားကြောင့် ကျဆင်းရင်း ရှေ့သို့လည်းရွေ့လျားနေသည် -- ဤလှုပ်ရှားမှုပေါင်းစပ်မှုကို မည်သည့်ဘာသာရပ်တွင် လေ့လာကြသနည်း။',
+        optionsEn: [
+          'Kinematics',
+          'Thermodynamics',
+          'Chemistry bonding',
+          'Statistics',
+        ],
+        optionsMy: [
+          'Kinematics',
+          'Thermodynamics',
+          'ဓာတုဆက်စပ်မှု',
+          'စာရင်းအင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];

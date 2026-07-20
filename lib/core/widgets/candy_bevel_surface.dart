@@ -160,7 +160,11 @@ class _CandyBevelSurfaceState extends State<CandyBevelSurface>
     // option is tapped) must snap the face back up -- it "never sinks"
     // while disabled, per the spec.
     if (!_isInteractive && _controller.value != 0) {
-      _controller.animateTo(0, duration: _releaseDuration, curve: Curves.elasticOut);
+      _controller.animateTo(
+        0,
+        duration: _releaseDuration,
+        curve: Curves.elasticOut,
+      );
     }
   }
 
@@ -177,13 +181,21 @@ class _CandyBevelSurfaceState extends State<CandyBevelSurface>
 
   void _handleTapUp(TapUpDetails details) {
     if (!_isInteractive) return;
-    _controller.animateTo(0, duration: _releaseDuration, curve: Curves.elasticOut);
+    _controller.animateTo(
+      0,
+      duration: _releaseDuration,
+      curve: Curves.elasticOut,
+    );
     widget.onTap?.call();
   }
 
   void _handleTapCancel() {
     if (!_isInteractive) return;
-    _controller.animateTo(0, duration: _releaseDuration, curve: Curves.elasticOut);
+    _controller.animateTo(
+      0,
+      duration: _releaseDuration,
+      curve: Curves.elasticOut,
+    );
   }
 
   ({Color face, Widget? icon}) _resolveState() {
@@ -216,7 +228,10 @@ class _CandyBevelSurfaceState extends State<CandyBevelSurface>
         ? widget.child
         : Stack(
             alignment: Alignment.center,
-            children: [widget.child, Positioned(right: 4, child: resolved.icon!)],
+            children: [
+              widget.child,
+              Positioned(right: 4, child: resolved.icon!),
+            ],
           );
 
     return GestureDetector(

@@ -14,8 +14,9 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:nova_academy/core/widgets/candy_bevel_surface.dart';
 
-Widget _wrap(Widget child) =>
-    MaterialApp(home: Scaffold(body: Center(child: child)));
+Widget _wrap(Widget child) => MaterialApp(
+  home: Scaffold(body: Center(child: child)),
+);
 
 void main() {
   testWidgets('tap-down sinks the face toward bevelDepth, then springs back', (
@@ -121,9 +122,7 @@ void main() {
     tester,
   ) async {
     await tester.pumpWidget(
-      _wrap(
-        const CandyBevelSurface(faceColor: Colors.blue, child: Text('Go')),
-      ),
+      _wrap(const CandyBevelSurface(faceColor: Colors.blue, child: Text('Go'))),
     );
 
     await tester.tap(find.byType(CandyBevelSurface));
@@ -132,9 +131,7 @@ void main() {
     expect(find.text('Go'), findsOneWidget);
   });
 
-  testWidgets('correct/incorrect states show their icon slot', (
-    tester,
-  ) async {
+  testWidgets('correct/incorrect states show their icon slot', (tester) async {
     await tester.pumpWidget(
       _wrap(
         CandyBevelSurface(

@@ -358,6 +358,12 @@ class AppLocalizationsMy extends AppLocalizations {
   String get subjectStem => 'STEM (သိပ္ပံ လေ့လာမှု)';
 
   @override
+  String get subjectCoding => 'ကွန်ပျူတာ ပရိုဂရမ်းမင်း';
+
+  @override
+  String get subjectEngineering => 'အင်ဂျင်နီယာဗေဒ';
+
+  @override
   String get gatekeeperTitle => 'လူကြီးများသာ';
 
   @override

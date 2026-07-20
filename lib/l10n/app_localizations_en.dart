@@ -356,6 +356,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get subjectStem => 'STEM';
 
   @override
+  String get subjectCoding => 'Coding';
+
+  @override
+  String get subjectEngineering => 'Engineering';
+
+  @override
   String get gatekeeperTitle => 'Grown-Ups Only';
 
   @override

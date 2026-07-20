@@ -188,8 +188,8 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 28 modules', () {
-      expect(modules.length, 28);
+    test('has exactly 32 modules', () {
+      expect(modules.length, 32);
     });
 
     test('every module id is unique, including against legacy modules', () {
@@ -207,15 +207,19 @@ void main() {
       }
     });
 
-    test(
-      'every module subject is one of the four expected Nursery/KG keys',
-      () {
-        const expected = {'phonics', 'math', 'generalknowledge', 'stem'};
-        for (final module in modules) {
-          expect(expected.contains(module.subject), isTrue, reason: module.id);
-        }
-      },
-    );
+    test('every module subject is one of the six expected Nursery/KG keys', () {
+      const expected = {
+        'phonics',
+        'math',
+        'generalknowledge',
+        'stem',
+        'coding',
+        'engineering',
+      };
+      for (final module in modules) {
+        expect(expected.contains(module.subject), isTrue, reason: module.id);
+      }
+    });
 
     test('every module has non-empty bilingual title and description', () {
       for (final module in modules) {
@@ -240,8 +244,8 @@ void main() {
     final legacyModules = mockSeedLearningModules();
     final nurseryModules = mockSeedNurseryKgModules();
 
-    test('has exactly 76 modules', () {
-      expect(modules.length, 76);
+    test('has exactly 88 modules', () {
+      expect(modules.length, 88);
     });
 
     test(
@@ -274,8 +278,15 @@ void main() {
       }
     });
 
-    test('every module subject is one of the four expected Primary keys', () {
-      const expected = {'math', 'english', 'science', 'stem'};
+    test('every module subject is one of the six expected Primary keys', () {
+      const expected = {
+        'math',
+        'english',
+        'science',
+        'stem',
+        'coding',
+        'engineering',
+      };
       for (final module in modules) {
         expect(expected.contains(module.subject), isTrue, reason: module.id);
       }
@@ -315,8 +326,8 @@ void main() {
     final nurseryModules = mockSeedNurseryKgModules();
     final primaryModules = mockSeedPrimaryCurriculumModules();
 
-    test('has exactly 72 modules', () {
-      expect(modules.length, 72);
+    test('has exactly 80 modules', () {
+      expect(modules.length, 80);
     });
 
     test(
@@ -349,7 +360,7 @@ void main() {
     });
 
     test(
-      'every module subject is one of the six expected Secondary/IGCSE keys',
+      'every module subject is one of the eight expected Secondary/IGCSE keys',
       () {
         const expected = {
           'algebra',
@@ -358,6 +369,8 @@ void main() {
           'biology',
           'ict',
           'socialstudies',
+          'coding',
+          'engineering',
         };
         for (final module in modules) {
           expect(expected.contains(module.subject), isTrue, reason: module.id);

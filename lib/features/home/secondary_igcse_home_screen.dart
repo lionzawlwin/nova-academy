@@ -33,6 +33,8 @@ const List<_SubjectDef> _secondarySubjects = [
   _SubjectDef(key: 'biology', icon: Icons.eco_rounded),
   _SubjectDef(key: 'ict', icon: Icons.memory_rounded),
   _SubjectDef(key: 'socialstudies', icon: Icons.public_rounded),
+  _SubjectDef(key: 'coding', icon: Icons.code_rounded),
+  _SubjectDef(key: 'engineering', icon: Icons.precision_manufacturing_rounded),
 ];
 
 String _labelFor(AppLocalizations l10n, String key) {
@@ -49,6 +51,10 @@ String _labelFor(AppLocalizations l10n, String key) {
       return l10n.subjectIct;
     case 'socialstudies':
       return l10n.subjectSocialStudies;
+    case 'coding':
+      return l10n.subjectCoding;
+    case 'engineering':
+      return l10n.subjectEngineering;
     default:
       return key;
   }

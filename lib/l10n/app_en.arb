@@ -126,6 +126,8 @@
   "subjectArt": "Art",
   "subjectGeneralKnowledge": "General Knowledge",
   "subjectStem": "STEM",
+  "subjectCoding": "Coding",
+  "subjectEngineering": "Engineering",
 
   "gatekeeperTitle": "Grown-Ups Only",
   "gatekeeperInstruction": "Solve this to continue",
