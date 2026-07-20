@@ -37,6 +37,21 @@ jobs:
           EOF
       - run: flutter build apk --release
       - run: flutter build appbundle --release
+      - name: Distribute to Firebase App Distribution
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          DISTRIBUTION_TESTERS: ${{ secrets.FIREBASE_APP_DISTRIBUTION_TESTERS }}
+          # Passed via env (not interpolated straight into the script) since
+          # a commit message is attacker-controllable input -- inlining it
+          # into `run:` would be a shell-injection vector.
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          npx firebase-tools@latest appdistribution:distribute \
+            build/app/outputs/flutter-apk/app-release.apk \
+            --app 1:1037354312933:android:481477e6d4721e3128200c \
+            --release-notes "$COMMIT_SHA: $COMMIT_MESSAGE" \
+            --testers "$DISTRIBUTION_TESTERS"
       - uses: actions/upload-artifact@v4
         with:
           name: release-build-${{ github.sha }}
