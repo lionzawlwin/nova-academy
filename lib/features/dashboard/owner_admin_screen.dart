@@ -3,12 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 
 import '../../core/constants/app_constants.dart';
-import '../../core/services/seed_service.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/user_model.dart';
 import '../../providers/auth_providers.dart';
-import '../../providers/firebase_providers.dart';
+import '../../providers/curriculum_sync_provider.dart';
 import '../../providers/platform_stats_provider.dart';
 
 /// Owner-only platform snapshot. Reachable only when [isOwnerEmail] is true
@@ -41,6 +40,11 @@ class OwnerAdminScreen extends ConsumerWidget {
     final locale = Localizations.localeOf(context).toString();
     final numberFormat = NumberFormat.decimalPattern(locale);
     final platformStats = ref.watch(platformStatsProvider);
+    // Value intentionally ignored: watching triggers the provider's
+    // one-time-per-session background curriculum sync side effect (see
+    // lib/providers/curriculum_sync_provider.dart). Replaces the old
+    // manual "Seed Demo Data" button.
+    ref.watch(curriculumAutoSyncProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -76,8 +80,6 @@ class OwnerAdminScreen extends ConsumerWidget {
               ],
             ),
           ),
-          const SizedBox(height: 20),
-          const _SeedDemoDataCard(),
           const SizedBox(height: 20),
           Text(
             l10n.dashboardAnalytics,
@@ -202,129 +204,6 @@ class _StatCard extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-/// Owner-only control that runs [seedDatabase] against the live Firestore
-/// instance. Only ever rendered from [OwnerAdminScreen], which already
-/// gates its entire body on [isOwnerEmail] -- so by construction this
-/// button is only ever visible/usable for the owner account.
-class _SeedDemoDataCard extends ConsumerStatefulWidget {
-  const _SeedDemoDataCard();
-
-  @override
-  ConsumerState<_SeedDemoDataCard> createState() => _SeedDemoDataCardState();
-}
-
-class _SeedDemoDataCardState extends ConsumerState<_SeedDemoDataCard> {
-  bool _isSeeding = false;
-
-  Future<void> _confirmAndSeed() async {
-    final l10n = AppLocalizations.of(context);
-    final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: Text(l10n.ownerSeedDemoDataConfirmTitle),
-        content: Text(l10n.ownerSeedDemoDataConfirmMessage),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: Text(l10n.actionCancel),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: Text(l10n.actionConfirm),
-          ),
-        ],
-      ),
-    );
-    if (confirmed != true || !mounted) return;
-
-    setState(() => _isSeeding = true);
-    final messenger = ScaffoldMessenger.of(context);
-    final theme = Theme.of(context);
-    try {
-      final firestore = ref.read(firestoreProvider);
-      final summary = await seedDatabase(firestore);
-      if (!mounted) return;
-      messenger
-        ..hideCurrentSnackBar()
-        ..showSnackBar(
-          SnackBar(
-            content: Text(l10n.ownerSeedDemoDataSuccess(summary.totalWritten)),
-          ),
-        );
-    } catch (e) {
-      if (!mounted) return;
-      messenger
-        ..hideCurrentSnackBar()
-        ..showSnackBar(
-          SnackBar(
-            content: Text(l10n.ownerSeedDemoDataError('$e')),
-            backgroundColor: theme.colorScheme.error,
-          ),
-        );
-    } finally {
-      if (mounted) setState(() => _isSeeding = false);
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    final theme = Theme.of(context);
-
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
-      child: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Icon(Icons.dataset_rounded, color: theme.colorScheme.primary),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Text(
-                    l10n.ownerSeedDemoDataTitle,
-                    style: theme.textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 8),
-            Text(
-              l10n.ownerSeedDemoDataDescription,
-              style: theme.textTheme.bodySmall?.copyWith(
-                color: theme.colorScheme.outline,
-              ),
-            ),
-            const SizedBox(height: 14),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                onPressed: _isSeeding ? null : _confirmAndSeed,
-                icon: _isSeeding
-                    ? const SizedBox(
-                        width: 18,
-                        height: 18,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2,
-                          color: Colors.white,
-                        ),
-                      )
-                    : const Icon(Icons.cloud_upload_rounded),
-                label: Text(l10n.ownerSeedDemoDataTitle),
-              ),
-            ),
-          ],
-        ),
       ),
     );
   }

@@ -1069,42 +1069,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{count} modules available'**
   String homeModulesAvailable(int count);
-
-  /// No description provided for @ownerSeedDemoDataTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Seed Demo Data'**
-  String get ownerSeedDemoDataTitle;
-
-  /// No description provided for @ownerSeedDemoDataDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Creates a mock parent, two mock teachers, four demo students (one per grade band), and their learning modules. Safe to run more than once.'**
-  String get ownerSeedDemoDataDescription;
-
-  /// No description provided for @ownerSeedDemoDataConfirmTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Seed demo data?'**
-  String get ownerSeedDemoDataConfirmTitle;
-
-  /// No description provided for @ownerSeedDemoDataConfirmMessage.
-  ///
-  /// In en, this message translates to:
-  /// **'This writes demo Users, Children, and LearningModules documents to your live Firestore database. Existing demo documents are overwritten, not duplicated.'**
-  String get ownerSeedDemoDataConfirmMessage;
-
-  /// No description provided for @ownerSeedDemoDataSuccess.
-  ///
-  /// In en, this message translates to:
-  /// **'Seeded {count} demo documents successfully.'**
-  String ownerSeedDemoDataSuccess(int count);
-
-  /// No description provided for @ownerSeedDemoDataError.
-  ///
-  /// In en, this message translates to:
-  /// **'Seeding failed: {error}'**
-  String ownerSeedDemoDataError(String error);
 }
 
 class _AppLocalizationsDelegate

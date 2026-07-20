@@ -8,6 +8,20 @@ import '../../models/learning_module_model.dart';
 import '../../models/user_model.dart';
 import '../constants/app_constants.dart';
 
+/// Hand-bumped content version for the seed/curriculum data [seedDatabase]
+/// writes.
+///
+/// Whoever meaningfully changes the seed data -- new curriculum bank
+/// content, changed mock users/children/modules -- bumps this string as
+/// part of that change. `curriculumAutoSyncProvider`
+/// (`lib/providers/curriculum_sync_provider.dart`) compares this against
+/// the version last persisted to `SharedPreferences` on the owner's device
+/// to decide whether a background re-sync is needed; a plain string bump
+/// is simpler and more predictable than a runtime content hash (e.g. a
+/// Burmese typo fix doesn't silently trigger a resync of everyone's next
+/// login).
+const String seedContentVersion = 'v1';
+
 /// Fixed (not auto-generated) document ids for every demo/mock document
 /// [seedDatabase] writes.
 ///

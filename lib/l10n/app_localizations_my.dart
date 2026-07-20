@@ -518,28 +518,4 @@ class AppLocalizationsMy extends AppLocalizations {
   String homeModulesAvailable(int count) {
     return 'မော်ဂျူး $count ခု ရရှိနိုင်သည်';
   }
-
-  @override
-  String get ownerSeedDemoDataTitle => 'သရုပ်ပြ ဒေတာ ထည့်သွင်းရန်';
-
-  @override
-  String get ownerSeedDemoDataDescription =>
-      'မိဘသရုပ်ပြတစ်ဦး၊ ဆရာ/ဆရာမ သရုပ်ပြနှစ်ဦး၊ အတန်းအလိုက် သရုပ်ပြကျောင်းသားလေးဦးနှင့် သူတို့၏ သင်ယူမှု မော်ဂျူးများကို ဖန်တီးပေးမည်။ တစ်ကြိမ်ထက်ပို၍ လုပ်ဆောင်နိုင်ပါသည်။';
-
-  @override
-  String get ownerSeedDemoDataConfirmTitle => 'သရုပ်ပြ ဒေတာ ထည့်သွင်းမည်လား။';
-
-  @override
-  String get ownerSeedDemoDataConfirmMessage =>
-      'ဤလုပ်ဆောင်ချက်သည် သရုပ်ပြ Users၊ Children နှင့် LearningModules စာရွက်စာတမ်းများကို သင့်လက်ရှိ Firestore ဒေတာဘေ့စ်သို့ ရေးသွင်းပါမည်။ ရှိပြီးသား သရုပ်ပြစာရွက်စာတမ်းများကို ထပ်ဆင့်ဖန်တီးမည့်အစား ပြန်လည်ရေးသားပါမည်။';
-
-  @override
-  String ownerSeedDemoDataSuccess(int count) {
-    return 'သရုပ်ပြစာရွက်စာတမ်း $count ခုကို အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ။';
-  }
-
-  @override
-  String ownerSeedDemoDataError(String error) {
-    return 'ထည့်သွင်းခြင်း မအောင်မြင်ပါ − $error';
-  }
 }

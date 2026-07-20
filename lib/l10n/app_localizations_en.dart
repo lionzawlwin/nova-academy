@@ -514,28 +514,4 @@ class AppLocalizationsEn extends AppLocalizations {
   String homeModulesAvailable(int count) {
     return '$count modules available';
   }
-
-  @override
-  String get ownerSeedDemoDataTitle => 'Seed Demo Data';
-
-  @override
-  String get ownerSeedDemoDataDescription =>
-      'Creates a mock parent, two mock teachers, four demo students (one per grade band), and their learning modules. Safe to run more than once.';
-
-  @override
-  String get ownerSeedDemoDataConfirmTitle => 'Seed demo data?';
-
-  @override
-  String get ownerSeedDemoDataConfirmMessage =>
-      'This writes demo Users, Children, and LearningModules documents to your live Firestore database. Existing demo documents are overwritten, not duplicated.';
-
-  @override
-  String ownerSeedDemoDataSuccess(int count) {
-    return 'Seeded $count demo documents successfully.';
-  }
-
-  @override
-  String ownerSeedDemoDataError(String error) {
-    return 'Seeding failed: $error';
-  }
 }

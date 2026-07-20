@@ -212,18 +212,5 @@
   "homeModulesAvailable": "{count} modules available",
   "@homeModulesAvailable": {
     "placeholders": { "count": { "type": "int" } }
-  },
-
-  "ownerSeedDemoDataTitle": "Seed Demo Data",
-  "ownerSeedDemoDataDescription": "Creates a mock parent, two mock teachers, four demo students (one per grade band), and their learning modules. Safe to run more than once.",
-  "ownerSeedDemoDataConfirmTitle": "Seed demo data?",
-  "ownerSeedDemoDataConfirmMessage": "This writes demo Users, Children, and LearningModules documents to your live Firestore database. Existing demo documents are overwritten, not duplicated.",
-  "ownerSeedDemoDataSuccess": "Seeded {count} demo documents successfully.",
-  "@ownerSeedDemoDataSuccess": {
-    "placeholders": { "count": { "type": "int" } }
-  },
-  "ownerSeedDemoDataError": "Seeding failed: {error}",
-  "@ownerSeedDemoDataError": {
-    "placeholders": { "error": { "type": "String" } }
   }
 }
