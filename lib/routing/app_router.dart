@@ -87,17 +87,28 @@ class _RouterRefreshNotifier extends ChangeNotifier {
   }
 }
 
+/// Tracks the last matched location `_redirect` actually settled on, so the
+/// StudentProfile branch can tell a genuine navigation (the matched path
+/// changed) apart from a reactive re-evaluation of the SAME still-current
+/// path -- which happens whenever `gatekeeperUnlockProvider` changes, since
+/// that's one of `_RouterRefreshNotifier`'s listened providers. See the
+/// stale-unlock-clear guard below for why that distinction matters.
+class _StudentGateState {
+  String? lastPath;
+}
+
 /// The app's single [GoRouter] instance, rebuilt only when its provider
 /// dependencies actually change (see [_RouterRefreshNotifier]).
 final goRouterProvider = Provider<GoRouter>((ref) {
   final refresh = _RouterRefreshNotifier(ref);
   ref.onDispose(refresh.dispose);
+  final gateState = _StudentGateState();
 
   return GoRouter(
     initialLocation: AppRoutes.splash,
     debugLogDiagnostics: false,
     refreshListenable: refresh,
-    redirect: (context, state) => _redirect(ref, state),
+    redirect: (context, state) => _redirect(ref, state, gateState),
     routes: [
       GoRoute(
         path: AppRoutes.splash,
@@ -172,7 +183,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
   );
 });
 
-String? _redirect(Ref ref, GoRouterState state) {
+String? _redirect(Ref ref, GoRouterState state, _StudentGateState gateState) {
   final path = state.matchedLocation;
 
   // --- 1. Resolve Firebase Auth state. ---------------------------------
@@ -217,6 +228,14 @@ String? _redirect(Ref ref, GoRouterState state) {
     final gradeHome = homeRouteForGrade(activeProfile.child.currentGrade);
     final protectedPrefix = protectedPrefixOf(path);
 
+    // Did the matched location actually change since the last time we
+    // evaluated it, or is this a reactive re-run of the redirect for the
+    // SAME location (triggered by e.g. gatekeeperUnlockProvider itself
+    // changing, which is one of _RouterRefreshNotifier's listened
+    // providers)? See the guard below for why this matters.
+    final settledOnNewPath = path != gateState.lastPath;
+    gateState.lastPath = path;
+
     if (protectedPrefix != null) {
       final unlockedPrefix = ref.read(gatekeeperUnlockProvider);
       // Only granted for the duration of this visit -- see
@@ -226,7 +245,18 @@ String? _redirect(Ref ref, GoRouterState state) {
 
     // Left every protected area (or never entered one) -- drop any stale
     // unlock so re-entry always demands a fresh puzzle.
-    if (ref.read(gatekeeperUnlockProvider) != null) {
+    //
+    // Guarded by `settledOnNewPath`: requestGatedNavigation writes
+    // gatekeeperUnlockProvider *before* calling context.go(targetPath), so
+    // that write reactively re-runs this redirect once for the location we
+    // were ALREADY sitting on (still non-protected, since navigation to the
+    // protected target hasn't happened yet). Without this guard, that pass
+    // would schedule this exact clear, which then fires (its microtask)
+    // just after the navigation to the protected route lands -- wiping the
+    // unlock and bouncing the user straight back out. Only clear when the
+    // matched path actually changed, i.e. the user genuinely navigated to a
+    // non-protected route (including a real exit from a protected one).
+    if (settledOnNewPath && ref.read(gatekeeperUnlockProvider) != null) {
       Future.microtask(() {
         ref.read(gatekeeperUnlockProvider.notifier).state = null;
       });
