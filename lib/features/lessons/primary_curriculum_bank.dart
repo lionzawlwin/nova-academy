@@ -1,5 +1,6 @@
 import '../../models/child_model.dart';
 import 'mock_quiz_data.dart';
+import 'secondary_curriculum_bank.dart';
 
 /// One Primary (Year 1-6) curriculum module: bilingual catalog metadata
 /// plus its own fixed set of MCQ [QuizQuestion]s. Structurally mirrors
@@ -33,14 +34,18 @@ class PrimaryActivityDef {
 }
 
 /// Looks up the question bank for a specific module by [moduleId] (e.g.
-/// `mock-year3-science-2`). Falls back to the legacy subject-only
-/// [quizQuestionsForSubject] lookup when [moduleId] is null or not found
-/// in [primaryCurriculumBank] -- covers placeholder nodes shown before any
+/// `mock-year3-science-2` or `mock-secondary1-algebra-2`). Falls back to
+/// the legacy subject-only [quizQuestionsForSubject] lookup when
+/// [moduleId] is null or not found in [primaryCurriculumBank] or
+/// [secondaryCurriculumBank] -- covers placeholder nodes shown before any
 /// module is seeded, and the pre-existing legacy modules from
 /// `mockSeedLearningModules` that predate this registry.
 List<QuizQuestion> quizQuestionsForModule(String? moduleId, String subject) {
   if (moduleId != null) {
     for (final activity in primaryCurriculumBank) {
+      if (activity.id == moduleId) return activity.questions;
+    }
+    for (final activity in secondaryCurriculumBank) {
       if (activity.id == moduleId) return activity.questions;
     }
   }

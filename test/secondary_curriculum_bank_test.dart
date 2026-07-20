@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:nova_academy/features/lessons/primary_curriculum_bank.dart';
 import 'package:nova_academy/features/lessons/secondary_curriculum_bank.dart';
 import 'package:nova_academy/models/child_model.dart';
 
@@ -220,5 +221,24 @@ void main() {
         );
       }
     });
+  });
+
+  group('quizQuestionsForModule (secondary lookup)', () {
+    test('returns the seeded questions for a known secondary module id', () {
+      final module = secondaryCurriculumBank.first;
+      final questions = quizQuestionsForModule(module.id, module.subject);
+      expect(questions, module.questions);
+    });
+
+    test(
+      'falls back to the subject bank for an unknown secondary-shaped id',
+      () {
+        final questions = quizQuestionsForModule(
+          'mock-secondary1-algebra-does-not-exist',
+          'algebra',
+        );
+        expect(questions, isNotEmpty);
+      },
+    );
   });
 }
