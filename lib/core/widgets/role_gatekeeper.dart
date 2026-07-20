@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../l10n/app_localizations.dart';
 import '../../providers/active_profile_provider.dart';
+import 'candy_bevel_surface.dart';
 
 /// A simple arithmetic problem the RoleGatekeeper dialog asks a
 /// student-mode profile to solve before it lets them into a
@@ -146,21 +147,27 @@ class _RoleGatekeeperDialogState extends State<_RoleGatekeeperDialog> {
                 ),
               )
             else ...[
-              Container(
+              // Candy Core: the dialog's own chrome (icon/title/body copy)
+              // stays flat per the spec's "dialogs keep flat elevation-0
+              // backgrounds" rule -- only this non-interactive display pill
+              // picks up the shallow two-layer bevel treatment, matching
+              // the depth used for the Submit/Cancel buttons below it.
+              CandyBevelSurface(
+                faceColor: theme.colorScheme.primaryContainer,
+                bevelDepth: CandyBevelDepth.secondary,
+                borderRadius: 16,
                 padding: const EdgeInsets.symmetric(
                   vertical: 14,
                   horizontal: 20,
                 ),
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.primaryContainer.withValues(
-                    alpha: 0.4,
-                  ),
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: Text(
-                  '${_puzzle.question} = ?',
-                  style: theme.textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    '${_puzzle.question} = ?',
+                    style: theme.textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: theme.colorScheme.onPrimaryContainer,
+                    ),
                   ),
                 ),
               ),
@@ -186,11 +193,57 @@ class _RoleGatekeeperDialogState extends State<_RoleGatekeeperDialog> {
       actions: _justSolved
           ? const []
           : [
-              TextButton(
-                onPressed: () => Navigator.of(context).pop(false),
-                child: Text(l10n.actionCancel),
+              // Candy Core: Submit/Cancel are the dialog's only actionable
+              // elements, so per the spec's "dialogs stay flat, only
+              // actionable elements bevel" rule they become shallow-bevel
+              // CandyBevelSurface buttons. `onTap` below wires to the exact
+              // same `_submit()`/`Navigator.of(context).pop(false)` calls
+              // the plain buttons made -- restyle-only, no logic change.
+              CandyBevelSurface(
+                faceColor: theme.colorScheme.surfaceContainerHighest,
+                bevelDepth: CandyBevelDepth.secondary,
+                borderRadius: 14,
+                border: Border.all(
+                  color: theme.colorScheme.outline.withValues(alpha: 0.35),
+                  width: 1.5,
+                ),
+                padding: const EdgeInsets.symmetric(
+                  vertical: 12,
+                  horizontal: 18,
+                ),
+                onTap: () => Navigator.of(context).pop(false),
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    l10n.actionCancel,
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ),
               ),
-              FilledButton(onPressed: _submit, child: Text(l10n.actionSubmit)),
+              const SizedBox(width: 8),
+              CandyBevelSurface(
+                faceColor: theme.colorScheme.primary,
+                bevelDepth: CandyBevelDepth.secondary,
+                borderRadius: 14,
+                padding: const EdgeInsets.symmetric(
+                  vertical: 12,
+                  horizontal: 18,
+                ),
+                onTap: _submit,
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    l10n.actionSubmit,
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                      color: theme.colorScheme.onPrimary,
+                    ),
+                  ),
+                ),
+              ),
             ],
     );
   }
