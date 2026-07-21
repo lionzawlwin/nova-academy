@@ -50995,16 +50995,2003 @@ const CourseTermDef _year1MathematicsTerm2 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// Year 1 Mathematics -- Term 3, Week 9: "2D Shapes and Their Properties"
+// =====================================================================
+
+const CourseWeekDef _year1MathematicsWeek9 = CourseWeekDef(
+  id: "course-year1-mathematics-w9",
+  weekNumber: 9,
+  titleEn: "2D Shapes and Their Properties",
+  titleMy: "2D ပုံသဏ္ဍာန်များနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w9-d1",
+      dayNumber: 1,
+      titleEn: "2D Shapes and Their Properties Quiz",
+      titleMy: "2D ပုံသဏ္ဍာန်များနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Kaung Htet is looking at a wooden shape tile with 3 straight sides and 3 corners. Which shape is it?",
+          questionMy:
+              "ကောင်းထက်သည် ဖြောင့်သောအနား 3 ခုနှင့် ထောင့် 3 ခု ရှိသော သစ်သားပုံသဏ္ဍာန်ပြားတစ်ချပ်ကို ကြည့်နေသည်။ ၎င်းသည် မည်သည့်ပုံသဏ္ဍာန် ဖြစ်သနည်း။",
+          optionsEn: ["Circle", "Triangle", "Square", "Rectangle"],
+          optionsMy: ["စက်ဝိုင်း", "တြိဂံ", "စတုရန်း", "ထောင့်မှန်စတုဂံ"],
+          correctIndex: 1,
+          hintsEn: [
+            "In Week 1 you counted objects one by one, like mangoes and stars -- count this shape's sides the very same way, one at a time.",
+            "A shape with exactly 3 straight sides always has exactly 3 corners too -- which shape name matches that?",
+          ],
+          hintsMy: [
+            "Week 1 တွင် သရက်သီးနှင့် ကြယ်များကို တစ်ခုချင်းစီ ရေတွက်ခဲ့သကဲ့သို့ -- ဤပုံသဏ္ဍာန်၏ အနားများကိုလည်း တစ်ခုချင်းစီ အတိုင်းတိုင်း ရေတွက်ကြည့်ပါ။",
+            "ဖြောင့်သောအနား အတိအကျ 3 ခု ရှိသောပုံသဏ္ဍာန်တွင် ထောင့် အတိအကျ 3 ခုလည်း အမြဲရှိသည် -- မည်သည့်ပုံသဏ္ဍာန်အမည်က ကိုက်ညီသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "How many straight sides does a circle have?",
+          questionMy: "စက်ဝိုင်းတစ်ခုတွင် ဖြောင့်သောအနား မည်မျှ ရှိသနည်း။",
+          optionsEn: ["1", "0", "3", "4"],
+          optionsMy: ["1", "0", "3", "4"],
+          correctIndex: 1,
+          hintsEn: [
+            "Trace all the way around a circle with your finger -- do you ever feel a straight, flat edge, or is it curved the whole way round?",
+            "Unlike a square or rectangle (which you'll match on Day 2 this week), a circle has no straight edges at all -- so the count of straight sides is zero.",
+          ],
+          hintsMy: [
+            "စက်ဝိုင်းတစ်ခု၏ အနားကို လက်ချောင်းဖြင့် တစ်ပတ်လုံး လိုက်ကြည့်ပါ -- ဖြောင့်ပြီး ညီညာသော အစွန်းကို တစ်ခါမှ ခံစားရပါသလား၊ သို့မဟုတ် တစ်ပတ်လုံး ကွေးနေပါသလား။",
+            "ဤအပတ်တွင် Day 2 တွင် တွဲချိတ်မည့် စတုရန်း (သို့) ထောင့်မှန်စတုဂံနှင့် မတူဘဲ၊ စက်ဝိုင်းတွင် ဖြောင့်သောအနား လုံးဝ မရှိပါ -- ထို့ကြောင့် ဖြောင့်သောအနား အရေအတွက်မှာ သုည ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A square and a rectangle both have how many corners?",
+          questionMy:
+              "စတုရန်းနှင့် ထောင့်မှန်စတုဂံ နှစ်ခုစလုံးတွင် ထောင့် မည်မျှစီ ရှိသနည်း။",
+          optionsEn: ["3", "4", "5", "6"],
+          optionsMy: ["3", "4", "5", "6"],
+          correctIndex: 1,
+          hintsEn: [
+            "Just like counting mangoes in Week 1, count each corner of the square one at a time, touching it as you go.",
+            "Both shapes have the same special kind of corner at every point -- count all four of them on each shape.",
+          ],
+          hintsMy: [
+            "Week 1 တွင် သရက်သီးများကို ရေတွက်ခဲ့သကဲ့သို့ပင်၊ စတုရန်း၏ ထောင့်တစ်ခုစီကို ထိကာ တစ်ခုချင်းစီ ရေတွက်ကြည့်ပါ။",
+            "ပုံသဏ္ဍာန်နှစ်ခုစလုံးတွင် အထူးထောင့်တစ်မျိုးတည်းသော ထောင့်များ ရှိသည် -- ပုံသဏ္ဍာန်တစ်ခုစီရှိ ထောင့်လေးခုလုံးကို ရေတွက်ကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which shape has no corners at all, because it is curved all the way round?",
+          questionMy:
+              "မည်သည့်ပုံသဏ္ဍာန်တွင် တစ်ပတ်လုံး ကွေးနေသောကြောင့် ထောင့်တစ်ခုမျှ လုံးဝ မရှိသနည်း။",
+          optionsEn: ["Square", "Triangle", "Rectangle", "Circle"],
+          optionsMy: ["စတုရန်း", "တြိဂံ", "ထောင့်မှန်စတုဂံ", "စက်ဝိုင်း"],
+          correctIndex: 3,
+          hintsEn: [
+            "Think of a clock face or a wheel -- can you find even one corner on it?",
+            "Recall Q2 in this same quiz -- the shape with zero straight sides is the same shape with zero corners.",
+          ],
+          hintsMy: [
+            "နာရီမျက်နှာပြင် (သို့) ဘီးတစ်ခုကို စဉ်းစားကြည့်ပါ -- ၎င်းတွင် ထောင့်တစ်ခုမျှ တွေ့ရပါသလား။",
+            "ဤပဟေဋ္ဌိ၏ မေးခွန်း 2 ကို သတိရပါ -- ဖြောင့်သောအနား သုညရှိသော ပုံသဏ္ဍာန်သည် ထောင့်သုညရှိသော ပုံသဏ္ဍာန်နှင့် အတူတူပင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match Shapes to Their Properties",
+      titleMy:
+          "ပုံသဏ္ဍာန်များကို ၎င်းတို့၏ ဂုဏ်သတ္တိများနှင့် ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w9-dm-1",
+          termEn: "Circle",
+          termMy: "စက်ဝိုင်း (Circle)",
+          matchEn:
+              "Curved all the way round -- 0 straight sides and 0 corners.",
+          matchMy:
+              "အနားစောင်းတစ်ပတ်လုံး ကွေးနေသည် -- ဖြောင့်သောအနား 0 ခုနှင့် ထောင့် 0 ခုသာ ရှိသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w9-dm-2",
+          termEn: "Triangle",
+          termMy: "တြိဂံ (Triangle)",
+          matchEn: "3 straight sides and 3 corners.",
+          matchMy: "ဖြောင့်သောအနား 3 ခုနှင့် ထောင့် 3 ခု ရှိသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w9-dm-3",
+          termEn: "Square",
+          termMy: "စတုရန်း (Square)",
+          matchEn:
+              "4 equal straight sides and 4 corners that are all square corners.",
+          matchMy:
+              "အညီအမျှ ဖြောင့်သောအနား 4 ခုနှင့် စတုရန်းထောင့် (square corner) 4 ခု ရှိသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w9-dm-4",
+          termEn: "Rectangle",
+          termMy: "ထောင့်မှန်စတုဂံ (Rectangle)",
+          matchEn:
+              "4 straight sides, with opposite sides equal, and 4 corners that are all square corners.",
+          matchMy:
+              "ဖြောင့်သောအနား 4 ခု (တွဲဖက်အနားချင်း ညီမျှသည်) နှင့် စတုရန်းထောင့် 4 ခု ရှိသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w9-dm-5",
+          termEn: "Side",
+          termMy: "အနား (Side)",
+          matchEn:
+              "A straight edge you can run your finger along, from one corner to the next.",
+          matchMy:
+              "ထောင့်တစ်ခုမှ နောက်ထောင့်တစ်ခုအထိ လက်ချောင်းဖြင့် လိုက်နှင်နိုင်သော ဖြောင့်သောအစွန်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w9-dm-6",
+          termEn: "Corner",
+          termMy: "ထောင့် (Corner)",
+          matchEn: "The point where two sides meet.",
+          matchMy: "အနားနှစ်ခု ဆုံသည့် အမှတ်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: 3 Corners or 4 Corners?",
+      titleMy: "စီစစ်ကြမည် - ထောင့် 3 ခုလား၊ ထောင့် 4 ခုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["3 Corners", "4 Corners"],
+        bucketsMy: ["ထောင့် 3 ခု", "ထောင့် 4 ခု"],
+        items: [
+          SortingItem(
+            id: "y1math-w9-sort-1",
+            labelEn: "A triangular sandwich",
+            labelMy: "တြိဂံပုံ ပေါင်မုန့်တစ်ချပ်",
+            correctBucketEn: "3 Corners",
+            correctBucketMy: "ထောင့် 3 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-2",
+            labelEn: "A square picture frame",
+            labelMy: "စတုရန်းပုံ ရုပ်ပုံဘောင်တစ်ခု",
+            correctBucketEn: "4 Corners",
+            correctBucketMy: "ထောင့် 4 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-3",
+            labelEn: "A triangular party hat",
+            labelMy: "တြိဂံပုံ ပါတီဦးထုပ်တစ်ခု",
+            correctBucketEn: "3 Corners",
+            correctBucketMy: "ထောင့် 3 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-4",
+            labelEn: "A rectangular door",
+            labelMy: "ထောင့်မှန်စတုဂံပုံ တံခါးတစ်ခု",
+            correctBucketEn: "4 Corners",
+            correctBucketMy: "ထောင့် 4 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-5",
+            labelEn: "A triangular road sign",
+            labelMy: "တြိဂံပုံ လမ်းညွှန်ဆိုင်းဘုတ်တစ်ခု",
+            correctBucketEn: "3 Corners",
+            correctBucketMy: "ထောင့် 3 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-6",
+            labelEn: "A square chessboard tile",
+            labelMy: "စတုရန်းပုံ စစ်တုရင်ခုံပြားတစ်ချပ်",
+            correctBucketEn: "4 Corners",
+            correctBucketMy: "ထောင့် 4 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-7",
+            labelEn: "A triangular slice of watermelon",
+            labelMy: "တြိဂံပုံ ဖရဲသီးအချပ်တစ်ချပ်",
+            correctBucketEn: "3 Corners",
+            correctBucketMy: "ထောင့် 3 ခု",
+          ),
+          SortingItem(
+            id: "y1math-w9-sort-8",
+            labelEn: "A rectangular book cover",
+            labelMy: "ထောင့်မှန်စတုဂံပုံ စာအုပ်မျက်နှာဖုံးတစ်ခု",
+            correctBucketEn: "4 Corners",
+            correctBucketMy: "ထောင့် 4 ခု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Htet's Shape Hunt",
+      titleMy: "စာဖတ်ခြင်း - ကောင်းထက်၏ ပုံသဏ္ဍာန်ရှာဖွေရေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Htet's Shape Hunt",
+        titleMy: "ကောင်းထက်၏ ပုံသဏ္ဍာန်ရှာဖွေရေး",
+        passageEn:
+            "Kaung Htet loved Fridays, because Friday was Shape Hunt day in his classroom. His teacher, Saya Ma, gave him a clipboard and asked him to walk around the room, touching things and counting their sides and corners.\n\nFirst, Kaung Htet stopped at the classroom clock on the wall. He ran his finger all the way around its edge, but he never found a single straight side or a single corner -- it was curved the whole way round. \"This is a circle,\" Kaung Htet wrote on his clipboard. \"0 sides, 0 corners.\"\n\nNext, he walked to the classroom door. He touched each straight edge one at a time: one, two, three, four sides. Then he touched each corner: one, two, three, four corners, and every single one of them looked just like the neat corner of a piece of paper. \"This is a rectangle,\" he wrote. \"4 sides, 4 corners, and all square corners.\"\n\nAfter that, Kaung Htet folded a spare piece of paper in half and then in half again on the diagonal, making a small triangle. He counted its sides: one, two, three. Then he counted its corners: one, two, three. \"A triangle always has 3 sides and 3 corners,\" he said to himself, remembering what he had matched on Day 2.\n\nLast of all, Kaung Htet looked at a square tile on the classroom floor. All four of its sides were exactly the same length, and just like the door, every corner looked like the corner of a piece of paper. \"A square and a rectangle both have 4 sides and 4 corners,\" Kaung Htet told Saya Ma proudly. \"The only difference is a square's sides are all the same length!\" Saya Ma smiled and gave him a gold star for finishing his shape hunt without a single mistake.",
+        passageMy:
+            "ကောင်းထက်သည် သောကြာနေ့များကို အလွန်နှစ်သက်သည်၊ အကြောင်းမှာ သောကြာနေ့သည် သူ့စာသင်ခန်းတွင် ပုံသဏ္ဍာန်ရှာဖွေရေးနေ့ ဖြစ်သောကြောင့်ဖြစ်သည်။ သူ၏ဆရာမ ဆရာမက သူ့အား ချစ်ပ်ဘုတ်တစ်ခုပေးပြီး၊ အခန်းထဲ လှည့်လည်ကာ အရာဝတ္ထုများကို ထိကာ ၎င်းတို့၏ အနားနှင့် ထောင့်များကို ရေတွက်ခိုင်းခဲ့သည်။\n\nပထမဆုံးအနေဖြင့် ကောင်းထက်သည် နံရံပေါ်ရှိ စာသင်ခန်းနာရီထံတွင် ရပ်ခဲ့သည်။ သူသည် ၎င်း၏အနားကို လက်ချောင်းဖြင့် တစ်ပတ်လုံး လိုက်ကြည့်သော်လည်း၊ ဖြောင့်သောအနားတစ်ခုမျှ (သို့) ထောင့်တစ်ခုမျှ တွေ့မခဲ့ချေ -- ၎င်းသည် တစ်ပတ်လုံး ကွေးနေခဲ့သည်။ \"ဒါက စက်ဝိုင်းပါ\" ဟု ကောင်းထက်က သူ၏ချစ်ပ်ဘုတ်ပေါ်တွင် ရေးမှတ်ခဲ့သည်။ \"အနား 0၊ ထောင့် 0။\"\n\nထို့နောက် သူသည် စာသင်ခန်းတံခါးထံ လျှောက်သွားခဲ့သည်။ သူသည် ဖြောင့်သောအနားတစ်ခုစီကို တစ်ခုချင်းစီ ထိကြည့်ခဲ့သည် - တစ်၊ နှစ်၊ သုံး၊ လေး အနားများ။ ထို့နောက် ထောင့်တစ်ခုစီကို ထိကြည့်ခဲ့သည် - တစ်၊ နှစ်၊ သုံး၊ လေး ထောင့်များ၊ ၎င်းတို့အားလုံးသည် စက္ကူတစ်ရွက်၏ သပ်ရပ်သောထောင့်နှင့် အတူတူပင် ဖြစ်နေခဲ့သည်။ \"ဒါက ထောင့်မှန်စတုဂံပါ\" ဟု သူ ရေးမှတ်ခဲ့သည်။ \"အနား 4၊ ထောင့် 4၊ ထောင့်အားလုံးသည် စတုရန်းထောင့်များပါ။\"\n\nထို့နောက် ကောင်းထက်သည် အပိုစက္ကူတစ်ရွက်ကို တစ်ခေါက် ခေါက်ပြီး ထပ်၍ ထောင့်ဖြတ် တစ်ခေါက်ထပ်ခေါက်ကာ တြိဂံပုံငယ်တစ်ခု ပြုလုပ်ခဲ့သည်။ သူသည် ၎င်း၏အနားများကို ရေတွက်ခဲ့သည် - တစ်၊ နှစ်၊ သုံး။ ထို့နောက် ၎င်း၏ ထောင့်များကို ရေတွက်ခဲ့သည် - တစ်၊ နှစ်၊ သုံး။ \"တြိဂံတစ်ခုတွင် အမြဲတမ်း အနား 3 ခုနှင့် ထောင့် 3 ခု ရှိသည်\" ဟု Day 2 တွင် သူတွဲချိတ်ခဲ့သည်များကို သတိရလျက် သူ့ကိုယ်သူ ပြောခဲ့သည်။\n\nနောက်ဆုံးအနေဖြင့် ကောင်းထက်သည် စာသင်ခန်းကြမ်းပြင်ပေါ်ရှိ စတုရန်းပုံ ကြမ်းပြားတစ်ချပ်ကို ကြည့်ခဲ့သည်။ ၎င်း၏ အနားလေးခုစလုံးသည် အရှည်တူညီပြီး၊ တံခါးနှင့် အတူတူပင် ထောင့်တိုင်းသည် စက္ကူတစ်ရွက်၏ ထောင့်နှင့် တူနေခဲ့သည်။ \"စတုရန်းနှင့် ထောင့်မှန်စတုဂံ နှစ်ခုစလုံးတွင် အနား 4 ခုနှင့် ထောင့် 4 ခုစီ ရှိကြပါတယ်\" ဟု ကောင်းထက်က ဆရာမ ဆရာမအား ဂုဏ်ယူစွာ ပြောပြခဲ့သည်။ \"ကွာခြားချက်ကတော့ စတုရန်း၏ အနားများ အားလုံး အရှည်တူညီတယ်ဆိုတာပါပဲ!\" ဆရာမ ဆရာမက ပြုံးရင်း၊ ပုံသဏ္ဍာန်ရှာဖွေရေးကို အမှားတစ်ခုမှ မပါဘဲ ပြီးမြောက်အောင် လုပ်ဆောင်နိုင်ခဲ့သည့်အတွက် ရွှေကြယ်တစ်လုံး ပေးအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Kaung Htet find when he ran his finger around the classroom clock?",
+            questionMy:
+                "စာသင်ခန်းနာရီပတ်လည်ကို လက်ချောင်းဖြင့် လိုက်ကြည့်စဉ် ကောင်းထက် မည်သို့ တွေ့ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "No straight sides and no corners, because it was curved all the way round.",
+              "4 sides and 4 corners.",
+              "3 sides and 3 corners.",
+              "1 side and 1 corner.",
+            ],
+            optionsMy: [
+              "ဖြောင့်သောအနား တစ်ခုမျှ မရှိပါ၊ ထောင့်တစ်ခုမျှလည်း မရှိပါ၊ အကြောင်းမှာ တစ်ပတ်လုံး ကွေးနေသောကြောင့် ဖြစ်သည်။",
+              "အနား 4 ခုနှင့် ထောင့် 4 ခု။",
+              "အနား 3 ခုနှင့် ထောင့် 3 ခု။",
+              "အနား 1 ခုနှင့် ထောင့် 1 ခု။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it describes exactly what Kaung Htet felt when he traced the clock's edge.",
+              "Recall Day 1's quiz question about circles -- a circle has zero straight sides and zero corners, just like the clock.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက် နာရီ၏အနားကို လက်ချောင်းဖြင့် လိုက်ကြည့်စဉ် ခံစားရသည့်အရာကို အတိအကျ ဖော်ပြထားသည်။",
+              "Day 1 ပဟေဋ္ဌိရှိ စက်ဝိုင်းနှင့်ပတ်သက်သော မေးခွန်းကို သတိရပါ -- စက်ဝိုင်းတွင် နာရီကဲ့သို့ပင် ဖြောင့်သောအနား သုညနှင့် ထောင့် သုည ရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many sides and corners did Kaung Htet count on the classroom door?",
+            questionMy:
+                "စာသင်ခန်းတံခါးတွင် ကောင်းထက်သည် အနားနှင့် ထောင့် မည်မျှ ရေတွက်ခဲ့သနည်း။",
+            optionsEn: [
+              "4 sides and 4 corners",
+              "3 sides and 3 corners",
+              "0 sides and 0 corners",
+              "6 sides and 6 corners",
+            ],
+            optionsMy: [
+              "အနား 4 ခုနှင့် ထောင့် 4 ခု",
+              "အနား 3 ခုနှင့် ထောင့် 3 ခု",
+              "အနား 0 ခုနှင့် ထောင့် 0 ခု",
+              "အနား 6 ခုနှင့် ထောင့် 6 ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Kaung Htet touches each side and corner of the door one at a time and counts them out loud.",
+              "Recall Day 2's drag-match pairing for rectangle -- it has the same number of sides and corners as the door.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက်သည် တံခါး၏ အနားနှင့် ထောင့်တစ်ခုစီကို ထိကာ အသံထွက်ရေတွက်ခဲ့သည်။",
+              "Day 2 ၏ ထောင့်မှန်စတုဂံအတွက် တွဲချိတ်မှုကို သတိရပါ -- တံခါးနှင့် အနားနှင့် ထောင့် အရေအတွက် တူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What shape did Kaung Htet make by folding paper twice, and how many sides did it have?",
+            questionMy:
+                "စက္ကူကို နှစ်ကြိမ် ခေါက်ခြင်းဖြင့် ကောင်းထက် မည်သည့်ပုံသဏ္ဍာန် ပြုလုပ်ခဲ့ပြီး ၎င်းတွင် အနား မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "A triangle, with 3 sides",
+              "A circle, with 0 sides",
+              "A square, with 4 sides",
+              "A rectangle, with 4 sides",
+            ],
+            optionsMy: [
+              "တြိဂံ၊ အနား 3 ခုနှင့်",
+              "စက်ဝိုင်း၊ အနား 0 ခုနှင့်",
+              "စတုရန်း၊ အနား 4 ခုနှင့်",
+              "ထောင့်မှန်စတုဂံ၊ အနား 4 ခုနှင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the fourth paragraph -- Kaung Htet folds the paper into a small shape and counts its sides and corners.",
+              "Recall Day 3's sorting activity -- this shape always belongs in the 3 Corners bucket.",
+            ],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက်သည် စက္ကူကို ပုံသဏ္ဍာန်ငယ်တစ်ခု ဖြစ်အောင် ခေါက်ပြီး ၎င်း၏ အနားနှင့် ထောင့်များကို ရေတွက်ခဲ့သည်။",
+              "Day 3 ၏ စီစစ်ရေးလှုပ်ရှားမှုကို သတိရပါ -- ဤပုံသဏ္ဍာန်သည် အမြဲတမ်း \"ထောင့် 3 ခု\" ဗူးထဲတွင် ပါဝင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kaung Htet say was the only difference between a square and a rectangle?",
+            questionMy:
+                "စတုရန်းနှင့် ထောင့်မှန်စတုဂံအကြား တစ်ခုတည်းသော ကွာခြားချက်ကို ကောင်းထက်က မည်သို့ ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "A square's sides are all the same length.",
+              "A square has more corners than a rectangle.",
+              "A square is curved and a rectangle is not.",
+              "A rectangle has no square corners.",
+            ],
+            optionsMy: [
+              "စတုရန်း၏ အနားများ အားလုံး အရှည်တူညီသည်။",
+              "စတုရန်းတွင် ထောင့်မှန်စတုဂံထက် ထောင့် ပိုများသည်။",
+              "စတုရန်းသည် ကွေးပြီး ထောင့်မှန်စတုဂံသည် မကွေးပါ။",
+              "ထောင့်မှန်စတုဂံတွင် စတုရန်းထောင့် မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Kaung Htet explains this directly to Saya Ma after comparing the tile and the door.",
+              "Recall Day 2's drag-match pairs for square and rectangle -- both have 4 sides and 4 square corners, but only one has all sides equal.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက်သည် ကြမ်းပြားနှင့် တံခါးကို နှိုင်းယှဉ်ပြီးနောက် ဆရာမအား ဤသို့ တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "Day 2 ၏ စတုရန်းနှင့် ထောင့်မှန်စတုဂံအတွက် တွဲချိတ်မှုများကို သတိရပါ -- နှစ်ခုစလုံးတွင် အနား 4 ခုနှင့် စတုရန်းထောင့် 4 ခုစီ ရှိသော်လည်း တစ်ခုတည်းက အနားအားလုံး ညီမျှသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: 2D Shapes and Their Properties",
+      titleMy:
+          "အပတ်စဉ် ၉ ပြန်လည်သုံးသပ်ခြင်း - 2D ပုံသဏ္ဍာန်များနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which shape has 0 straight sides and 0 corners?",
+          questionMy:
+              "မည်သည့်ပုံသဏ္ဍာန်တွင် ဖြောင့်သောအနား 0 ခုနှင့် ထောင့် 0 ခု ရှိသနည်း။",
+          optionsEn: ["Triangle", "Square", "Circle", "Rectangle"],
+          optionsMy: ["တြိဂံ", "စတုရန်း", "စက်ဝိုင်း", "ထောင့်မှန်စတုဂံ"],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Day 1's quiz and Kaung Htet's clock in Day 4's reading passage -- both describe the same curved shape.",
+            "A shape that is curved the whole way round never has a straight edge to count.",
+          ],
+          hintsMy: [
+            "Day 1 ပဟေဋ္ဌိနှင့် Day 4 စာဖတ်ခြင်းအပိုဒ်ရှိ ကောင်းထက်၏ နာရီကို သတိရပါ -- နှစ်ခုစလုံးသည် ကွေးနေသော ပုံသဏ္ဍာန်တစ်ခုတည်းကို ဖော်ပြထားသည်။",
+            "တစ်ပတ်လုံး ကွေးနေသော ပုံသဏ္ဍာန်တွင် ရေတွက်ရန် ဖြောင့်သောအစွန်း လုံးဝ မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A shape has 3 straight sides. How many corners must it have?",
+          questionMy:
+              "ပုံသဏ္ဍာန်တစ်ခုတွင် ဖြောင့်သောအနား 3 ခု ရှိသည်။ ၎င်းတွင် ထောင့် မည်မျှ ရှိရမည်နည်း။",
+          optionsEn: ["2", "3", "4", "0"],
+          optionsMy: ["2", "3", "4", "0"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 1 Q1 and Day 4's paper-folding triangle -- a straight side always ends in a corner where it meets the next side.",
+            "Count sides and corners together, one pair at a time: side, corner, side, corner, side, corner.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ မေးခွန်း 1 နှင့် Day 4 ၏ စက္ကူခေါက်တြိဂံကို သတိရပါ -- ဖြောင့်သောအနားတစ်ခုသည် နောက်အနားနှင့် ဆုံသောနေရာတွင် အမြဲ ထောင့်တစ်ခု ဖြစ်လာသည်။",
+            "အနားနှင့် ထောင့်ကို အတွဲလိုက် ရေတွက်ကြည့်ပါ - အနား၊ ထောင့်၊ အနား၊ ထောင့်၊ အနား၊ ထောင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How can you tell a square apart from a triangle without just looking at the picture?",
+          questionMy:
+              "ပုံရိပ်ကိုသာ ကြည့်ခြင်းမပြုဘဲ စတုရန်းနှင့် တြိဂံကို မည်သို့ ခွဲခြားနိုင်မည်နည်း။",
+          optionsEn: [
+            "Count the sides -- a square has 4, a triangle has 3.",
+            "Squares are always bigger than triangles.",
+            "Triangles are always red and squares are always blue.",
+            "You cannot tell them apart at all.",
+          ],
+          optionsMy: [
+            "အနားများကို ရေတွက်ပါ -- စတုရန်းတွင် 4 ခု၊ တြိဂံတွင် 3 ခု ရှိသည်။",
+            "စတုရန်းများသည် တြိဂံများထက် အမြဲ ကြီးသည်။",
+            "တြိဂံများသည် အမြဲ အနီရောင်ဖြစ်ပြီး စတုရန်းများသည် အမြဲ အပြာရောင် ဖြစ်သည်။",
+            "၎င်းတို့ကို လုံးဝ ခွဲခြား၍ မရပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match activity, where you matched each shape to its exact number of sides and corners.",
+            "Colour and size can change, but the number of sides a shape has never does -- that is the reliable way to tell shapes apart.",
+          ],
+          hintsMy: [
+            "Day 2 ၏ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ပုံသဏ္ဍာန်တစ်ခုစီကို ၎င်း၏ အနားနှင့် ထောင့် အတိအကျ အရေအတွက်နှင့် တွဲချိတ်ခဲ့သည်။",
+            "အရောင်နှင့် အရွယ်အစားသည် ပြောင်းလဲနိုင်သော်လည်း ပုံသဏ္ဍာန်တစ်ခု၏ အနားအရေအတွက်မှာ ဘယ်တော့မှ မပြောင်းလဲပါ -- ၎င်းသည် ပုံသဏ္ဍာန်များကို ခွဲခြားရန် အယုံကြည်ရဆုံးနည်းလမ်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A square and a rectangle both have 4 corners. What do all four of those corners look like?",
+          questionMy:
+              "စတုရန်းနှင့် ထောင့်မှန်စတုဂံ နှစ်ခုစလုံးတွင် ထောင့် 4 ခုစီ ရှိသည်။ ထိုထောင့်လေးခုလုံးသည် မည်ကဲ့သို့ ရှိသနည်း။",
+          optionsEn: [
+            "Like the neat corner of a piece of paper -- a square corner.",
+            "Curved, like part of a circle.",
+            "Pointed and very thin, like a needle.",
+            "They look different on every corner.",
+          ],
+          optionsMy: [
+            "စက္ကူတစ်ရွက်၏ သပ်ရပ်သောထောင့်နှင့်တူသည် -- စတုရန်းထောင့်။",
+            "စက်ဝိုင်း တစ်စိတ်တစ်ပိုင်းကဲ့သို့ ကွေးနေသည်။",
+            "အပ်တစ်ချောင်းကဲ့သို့ ချွန်ပြီး အလွန်ပါးလွှာသည်။",
+            "ထောင့်တိုင်းသည် မတူညီဘဲ ကွဲပြားနေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage, where Kaung Htet compares the door and the tile's corners to a piece of paper.",
+            "This is the same special corner shape mentioned in Day 2's drag-match for both square and rectangle.",
+          ],
+          hintsMy: [
+            "Day 4 စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ကောင်းထက်က တံခါးနှင့် ကြမ်းပြား၏ ထောင့်များကို စက္ကူတစ်ရွက်နှင့် နှိုင်းယှဉ်ခဲ့သည်။",
+            "ဤသည်မှာ Day 2 တွဲချိတ်လေ့ကျင့်ခန်းတွင် စတုရန်းနှင့် ထောင့်မှန်စတုဂံ နှစ်ခုစလုံးအတွက် ဖော်ပြထားသော အထူးထောင့်ပုံစံတစ်ခုတည်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "This week you learned to tell shapes apart in a new way. What is that way?",
+          questionMy:
+              "ဤအပတ်တွင် ပုံသဏ္ဍာန်များကို ခွဲခြားသိရှိရန် နည်းလမ်းအသစ်တစ်ခု သင်ယူခဲ့ပါသည်။ ထိုနည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "By counting their sides and corners, not just looking at the picture.",
+            "By counting how many colours the shape has.",
+            "By measuring exactly how heavy the shape is.",
+            "By counting how many friends like the shape best.",
+          ],
+          optionsMy: [
+            "ပုံရိပ်ကိုသာ ကြည့်ခြင်းမပြုဘဲ ၎င်းတို့၏ အနားနှင့် ထောင့်များကို ရေတွက်ခြင်းဖြင့်။",
+            "ပုံသဏ္ဍာန်တွင် အရောင် မည်မျှ ပါသည်ကို ရေတွက်ခြင်းဖြင့်။",
+            "ပုံသဏ္ဍာန်၏ အလေးချိန် အတိအကျကို တိုင်းတာခြင်းဖြင့်။",
+            "ပုံသဏ္ဍာန်ကို အကြိုက်ဆုံးဆိုသည့် သူငယ်ချင်း မည်မျှ ရှိသည်ကို ရေတွက်ခြင်းဖြင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back over every lesson this week -- Day 1's quiz, Day 2's matching, Day 3's sorting, and Day 4's shape hunt all used the same skill.",
+            "Recall Week 1's counting skills -- this week you used counting for a brand-new purpose: telling shapes apart by their properties.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ သင်ခန်းစာတိုင်းကို ပြန်စဉ်းစားကြည့်ပါ -- Day 1 ပဟေဋ္ဌိ၊ Day 2 တွဲချိတ်ခြင်း၊ Day 3 စီစစ်ခြင်းနှင့် Day 4 ပုံသဏ္ဍာန်ရှာဖွေရေးတို့သည် အားလုံး ကျွမ်းကျင်မှုတစ်ခုတည်းကို အသုံးပြုခဲ့ကြသည်။",
+            "Week 1 ၏ ရေတွက်ခြင်း ကျွမ်းကျင်မှုကို သတိရပါ -- ဤအပတ်တွင် ရေတွက်ခြင်းကို ရည်ရွယ်ချက်အသစ်တစ်ခုအတွက် အသုံးပြုခဲ့ပါသည် - ပုံသဏ္ဍာန်များကို ၎င်းတို့၏ ဂုဏ်သတ္တိများဖြင့် ခွဲခြားခြင်း။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek10 = CourseWeekDef(
+  id: "course-year1-mathematics-w10",
+  weekNumber: 10,
+  titleEn: "3D Shapes and Their Properties",
+  titleMy: "3D ပုံသဏ္ဍာန်များနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w10-d1",
+      dayNumber: 1,
+      titleEn: "3D Shapes and Their Properties Quiz",
+      titleMy: "3D ပုံသဏ္ဍာန်များ ဂုဏ်သတ္တိ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What do we call a flat or curved surface of a 3D shape?",
+          questionMy:
+              "3D ပုံသဏ္ဍာန်တစ်ခု၏ ပြားချပ်သော (သို့) ကွေးညွှတ်သော မျက်နှာပြင်ကို မည်သို့ ခေါ်သနည်း။",
+          optionsEn: ["Face", "Edge", "Corner", "Circle"],
+          optionsMy: [
+            "Face (မျက်နှာပြင်)",
+            "Edge (အနား)",
+            "Corner (ထောင့်)",
+            "Circle (စက်ဝိုင်း)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In Week 9 you learned to name flat 2D shapes like squares and circles -- a 3D shape's flat or curved surface has a new name of its own: a face.",
+            "Think of a cube like a dice -- each flat side you can see and touch with your finger is one face.",
+          ],
+          hintsMy: [
+            "Week 9 တွင် စတုရမ်းနှင့် စက်ဝိုင်းကဲ့သို့ ပြားချပ်သော 2D ပုံသဏ္ဍာန်များကို အမည်တပ်ရန် သင်ယူခဲ့ပါသည် -- 3D ပုံသဏ္ဍာန်တစ်ခု၏ ပြားချပ်သော (သို့) ကွေးညွှတ်သော မျက်နှာပြင်တွင် မျက်နှာပြင် (face) ဟူသော အမည်သစ်တစ်ခု ရှိပါသည်။",
+            "စာတုံးဆော့ (dice) တစ်ခုကို ကြည့်ပါ -- လက်ချောင်းဖြင့် ထိတွေ့မြင်နိုင်သော ပြားချပ်သည့်ဘက်တစ်ဘက်စီသည် မျက်နှာပြင်တစ်ခုစီ ဖြစ်ပါသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cube looks like a box with flat sides shaped like squares. How many faces does a cube have in total?",
+          questionMy:
+              "ကုဗ (cube) တစ်ခုသည် စတုရမ်းပုံ ပြားချပ်သော ဘက်များပါသော ဘူးတစ်ခုနှင့် တူသည်။ ကုဗတစ်ခုတွင် မျက်နှာပြင် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["4", "6", "8", "12"],
+          optionsMy: ["4", "6", "8", "12"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall this quiz's first question about the word 'face' -- now count them: a cube's flat faces are all squares, just like Week 9's square shape.",
+            "Picture a dice: top, bottom, front, back, left, right -- count each flat square side one at a time.",
+          ],
+          hintsMy: [
+            "ဤပဟေဋ္ဌိ၏ ပထမမေးခွန်းရှိ 'မျက်နှာပြင်' ဟူသော စကားလုံးကို သတိရပါ -- ယခု ရေတွက်ကြည့်ပါ - ကုဗ၏ ပြားချပ်သော မျက်နှာပြင်များအားလုံးသည် Week 9 ၏ စတုရမ်းပုံသဏ္ဍာန်ကဲ့သို့ စတုရမ်းများ ဖြစ်ကြသည်။",
+            "စာတုံးဆော့ (dice) တစ်ခုကို စိတ်ကူးကြည့်ပါ - အပေါ်၊ အောက်၊ ရှေ့၊ နောက်၊ ဘယ်၊ ညာ -- ပြားချပ်သော စတုရမ်းဘက်တစ်ခုစီကို တစ်ခုချင်း ရေတွက်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ball is an example of which 3D shape, and how many corners (pointy points) does it have?",
+          questionMy:
+              "ဘောလုံးတစ်လုံးသည် မည်သည့် 3D ပုံသဏ္ဍာန်၏ ဥပမာဖြစ်ပြီး ၎င်းတွင် ထောင့်ချွန် (corner) မည်မျှ ရှိသနည်း။",
+          optionsEn: [
+            "A sphere, with 0 corners",
+            "A cube, with 8 corners",
+            "A cone, with 1 corner",
+            "A cylinder, with 0 corners",
+          ],
+          optionsMy: [
+            "အလုံးပုံ (Sphere) ဖြစ်ပြီး ထောင့် ၀ ခု ရှိသည်",
+            "ကုဗ (Cube) ဖြစ်ပြီး ထောင့် ၈ ခု ရှိသည်",
+            "ဦးထုပ်ပုံ (Cone) ဖြစ်ပြီး ထောင့် ၁ ခု ရှိသည်",
+            "လုံးဝိုင်းတိုင်ပုံ (Cylinder) ဖြစ်ပြီး ထောင့် ၀ ခု ရှိသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about rolling a ball on the ground -- does it ever stop at a pointy corner, or does it just keep rolling smoothly all around?",
+            "Recall this quiz's first question about the new word 'corner' -- a sphere's whole surface is one smooth curved face with no pointed points anywhere, so it has zero corners.",
+          ],
+          hintsMy: [
+            "ဘောလုံးကို မြေပြင်ပေါ်တွင် လိမ့်ကြည့်ပါ -- ၎င်းသည် ထောင့်ချွန်တစ်ခုခုတွင် ရပ်တန့်ပါသလား၊ (သို့) ဘက်တိုင်းသို့ ချောမွေ့စွာ ဆက်လိမ့်နေပါသလား။",
+            "ဤပဟေဋ္ဌိ၏ ပထမမေးခွန်းရှိ 'ထောင့်' ဟူသော စကားလုံးသစ်ကို သတိရပါ -- အလုံးပုံ (sphere) ၏ မျက်နှာပြင်တစ်ခုလုံးသည် ကွေးညွှတ်သော မျက်နှာပြင်တစ်ခုတည်း ဖြစ်ပြီး ထောင့်ချွန် တစ်ခုမှ မရှိသောကြောင့် ထောင့် ၀ ခု ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cuboid, like a rectangular tissue box, has flat faces shaped like rectangles. How many corners (vertices) does a cuboid have?",
+          questionMy:
+              "အကျပ်ပုံ (Cuboid) တစ်ခုဖြစ်သည့် ထောင့်မှန်စတုဂံပုံ တစ်ရှူးဘူးသည် ထောင့်မှန်စတုဂံပုံ ပြားချပ်သော မျက်နှာပြင်များ ရှိသည်။ အကျပ်ပုံတစ်ခုတွင် ထောင့် (vertex) မည်မျှ ရှိသနည်း။",
+          optionsEn: ["6", "8", "4", "12"],
+          optionsMy: ["6", "8", "4", "12"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall this quiz's second question about the cube -- a cuboid is built the same way as a cube, just with rectangle faces instead of squares, so count its pointed corners the same way.",
+            "Look at a tissue box: 4 corners around the top and 4 corners around the bottom -- add them together.",
+          ],
+          hintsMy: [
+            "ဤပဟေဋ္ဌိ၏ ဒုတိယမေးခွန်းရှိ ကုဗကို သတိရပါ -- အကျပ်ပုံသည် ကုဗနှင့် တည်ဆောက်ပုံတူသော်လည်း စတုရမ်းအစား ထောင့်မှန်စတုဂံ မျက်နှာပြင်များ ရှိသည်ဖြစ်ရာ ထောင့်များကို နည်းလမ်းတူ ရေတွက်ပါ။",
+            "တစ်ရှူးဘူးကို ကြည့်ပါ - အပေါ်ဘက်တွင် ထောင့် ၄ ခုနှင့် အောက်ဘက်တွင် ထောင့် ၄ ခု ရှိသည် -- ပေါင်းကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match the 3D Shapes to Their Properties",
+      titleMy:
+          "3D ပုံသဏ္ဍာန်များကို ၎င်းတို့၏ ဂုဏ်သတ္တိများနှင့် ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w10-dm-1",
+          termEn: "Cube",
+          termMy: "ကုဗ (Cube)",
+          matchEn:
+              "Has 6 flat faces that are all squares (like Week 9's square shape), 12 edges, and 8 corners -- like a dice or a sugar cube.",
+          matchMy:
+              "Week 9 ၏ စတုရမ်းပုံသဏ္ဍာန်ကဲ့သို့ စတုရမ်းပုံ ညီညာသော မျက်နှာပြင် ၆ ခု၊ အနား ၁၂ နား၊ ထောင့် ၈ ထောင့် ရှိသည် -- စာတုံးဆော့ (dice) သို့မဟုတ် သကြားတုံးလေးတစ်တုံးကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w10-dm-2",
+          termEn: "Cuboid",
+          termMy: "အကျပ်ပုံ (Cuboid)",
+          matchEn:
+              "Has 6 flat faces that are rectangles (like Week 9's rectangle shape), 12 edges, and 8 corners -- like a tissue box or a storybook.",
+          matchMy:
+              "Week 9 ၏ ထောင့်မှန်စတုဂံ ပုံသဏ္ဍာန်ကဲ့သို့ ထောင့်မှန်စတုဂံပုံ မျက်နှာပြင် ၆ ခု၊ အနား ၁၂ နား၊ ထောင့် ၈ ထောင့် ရှိသည် -- တစ်ရှူးဘူး သို့မဟုတ် ပုံပြင်စာအုပ်တစ်အုပ်ကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w10-dm-3",
+          termEn: "Sphere",
+          termMy: "အလုံးပုံ (Sphere)",
+          matchEn:
+              "Has just 1 curved face all the way around, 0 edges, and 0 corners -- like a football or an orange, it rolls smoothly in every direction.",
+          matchMy:
+              "ဝိုင်းဝန်းနေသော မျက်နှာပြင် ၁ ခုတည်း ရှိပြီး အနားနှင့် ထောင့် လုံးဝ မရှိပါ -- ဘောလုံး သို့မဟုတ် လိမ္မော်သီးတစ်လုံးကဲ့သို့ ဖြစ်ပြီး ဦးတည်ရာတိုင်းသို့ ချောမွေ့စွာ လိမ့်နိုင်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w10-dm-4",
+          termEn: "Cylinder",
+          termMy: "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+          matchEn:
+              "Has 2 flat circle faces (like Week 9's circle shape) at each end plus 1 curved face round the side -- 3 faces in total, 2 curved edges, and 0 corners -- like a can of drink.",
+          matchMy:
+              "Week 9 ၏ စက်ဝိုင်းပုံသဏ္ဍာန်ကဲ့သို့ ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၂ ခု ထိပ်နှစ်ဖက်တွင် ရှိပြီး ဘေးဘက်တစ်ဝိုက် ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု ထပ်ရှိသည် -- စုစုပေါင်း မျက်နှာပြင် ၃ ခု၊ ကွေးညွှတ်သော အနား ၂ နား၊ ထောင့် ၀ ထောင့် ရှိသည် -- အချိုရည်ဗူးတစ်ဗူးကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w10-dm-5",
+          termEn: "Cone",
+          termMy: "ဦးထုပ်ပုံ (Cone)",
+          matchEn:
+              "Has 1 flat circle face at the bottom plus 1 curved face -- 2 faces in total, 1 curved edge, and 1 pointed corner at the very tip -- like a party hat or an ice-cream cone.",
+          matchMy:
+              "အောက်ခြေတွင် ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၁ ခုနှင့် ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု ရှိသည် -- စုစုပေါင်း မျက်နှာပြင် ၂ ခု၊ ကွေးညွှတ်သော အနား ၁ နား၊ ထိပ်ဖျားတွင် ထောင့် ၁ ထောင့် ရှိသည် -- ပါတီဦးထုပ် သို့မဟုတ် ရေခဲမုန့်ဂှက်တစ်ခုကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w10-dm-6",
+          termEn: "Corner",
+          termMy: "ထောင့် (Corner)",
+          matchEn:
+              "The pointed point where edges meet on a 3D shape -- a cube has 8 of these, but a sphere has none at all.",
+          matchMy:
+              "3D ပုံသဏ္ဍာန်တစ်ခုတွင် အနားများ တွေ့ဆုံရာ ထောင့်ချွန်နေသော အမှတ် ဖြစ်သည် -- ကုဗတွင် ၈ ထောင့် ရှိသော်လည်း အလုံးပုံ (sphere) တွင် တစ်ထောင့်မှ လုံးဝ မရှိပါ။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which 3D Shape Does It Match?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် 3D ပုံသဏ္ဍာန်နှင့် ကိုက်ညီသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cube", "Sphere", "Cylinder", "Cone"],
+        bucketsMy: [
+          "ကုဗ (Cube)",
+          "အလုံးပုံ (Sphere)",
+          "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+          "ဦးထုပ်ပုံ (Cone)",
+        ],
+        items: [
+          SortingItem(
+            id: "y1math-w10-sort-1",
+            labelEn:
+                "A dice used in a board game -- flat square faces and 8 corners",
+            labelMy:
+                "ဘုတ်အားကစားတွင် သုံးသော စာတုံးဆော့ (dice) တစ်ခု -- စတုရမ်းပုံ မျက်နှာပြင်များနှင့် ထောင့် ၈ ခု",
+            correctBucketEn: "Cube",
+            correctBucketMy: "ကုဗ (Cube)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-2",
+            labelEn: "A small square gift box -- 6 flat square faces",
+            labelMy:
+                "စတုရမ်းပုံ လက်ဆောင်ဘူးလေးတစ်ခု -- စတုရမ်းပုံ မျက်နှာပြင် ၆ ခု",
+            correctBucketEn: "Cube",
+            correctBucketMy: "ကုဗ (Cube)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-3",
+            labelEn: "A round football -- 1 curved face, 0 corners",
+            labelMy:
+                "ဘောလုံးတစ်လုံး -- ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု၊ ထောင့် ၀ ခု",
+            correctBucketEn: "Sphere",
+            correctBucketMy: "အလုံးပုံ (Sphere)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-4",
+            labelEn: "An orange fruit -- smooth and round with no corners",
+            labelMy:
+                "လိမ္မော်သီးတစ်လုံး -- ထောင့်ချွန်လုံးဝ မရှိဘဲ ချောမွေ့ဝိုင်းနေသည်",
+            correctBucketEn: "Sphere",
+            correctBucketMy: "အလုံးပုံ (Sphere)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-5",
+            labelEn: "A can of drink -- flat circle ends and a curved side",
+            labelMy:
+                "အချိုရည်ဗူးတစ်ဗူး -- ပြားချပ်သော စက်ဝိုင်းပုံ ထိပ်နှစ်ဖက်နှင့် ကွေးညွှတ်သော ဘေးဘက်",
+            correctBucketEn: "Cylinder",
+            correctBucketMy: "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-6",
+            labelEn: "A rolled-up sleeping mat -- flat circle ends, no corners",
+            labelMy:
+                "လိပ်ထားသော အိပ်ရာဖျာတစ်ထည် -- ပြားချပ်သော စက်ဝိုင်းပုံ ထိပ်နှစ်ဖက်၊ ထောင့် မရှိပါ",
+            correctBucketEn: "Cylinder",
+            correctBucketMy: "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-7",
+            labelEn: "A paper party hat -- one pointed corner at the tip",
+            labelMy:
+                "စက္ကူပါတီဦးထုပ်တစ်ခု -- ထိပ်ဖျားတွင် ထောင့်ချွန် တစ်ခုတည်း ရှိသည်",
+            correctBucketEn: "Cone",
+            correctBucketMy: "ဦးထုပ်ပုံ (Cone)",
+          ),
+          SortingItem(
+            id: "y1math-w10-sort-8",
+            labelEn: "An ice-cream cone -- flat circle base and a pointed tip",
+            labelMy:
+                "ရေခဲမုန့်ဂှက်တစ်ခု -- ပြားချပ်သော စက်ဝိုင်းပုံ အခြေခံနှင့် ထောင့်ချွန်ထိပ်ဖျား",
+            correctBucketEn: "Cone",
+            correctBucketMy: "ဦးထုပ်ပုံ (Cone)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Htet Packs Her School Bag",
+      titleMy: "စာဖတ်ခြင်း - ထက်ထက်၏ ကျောင်းအိတ် ထုပ်ပိုးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Htet Packs Her School Bag",
+        titleMy: "ထက်ထက်၏ ကျောင်းအိတ် ထုပ်ပိုးခြင်း",
+        passageEn:
+            "On Sunday evening, Htet Htet spread all her belongings out on the bed to pack her school bag for tomorrow's class trip. First she picked up her pencil case, a small cuboid box with flat faces shaped like rectangles. She counted its corners carefully, touching each pointed point one by one: four corners around the top, and four more around the bottom -- eight corners in total, just like the cube-shaped wooden block she had used in class earlier that week.\n\nNext, Htet Htet reached for her favorite bouncy ball. She turned it over and over in her hands, looking for a flat face or a pointed corner, but there was only one smooth, curved face wrapped all the way around it. \"A sphere has zero edges and zero corners -- it just keeps rolling and rolling,\" she said to herself, remembering what she had learned about faces and corners earlier in the week.\n\nThen she picked up her small drinking-water can to check whether it would fit in the side pocket. She noticed the two flat circle faces at either end of the can -- shaped just like the circles she had learned to name back in Week 9 -- plus one curved face wrapped around the middle. \"Two flat faces and one curved face makes three faces altogether, and there are two curved edges but not a single corner,\" Htet Htet counted proudly.\n\nFinally, tucked at the bottom of the toy box, she found the paper party hat left over from her cousin's birthday. It had one flat circle face at the base and one curved face rising up to a single pointed tip. \"A cone has just one corner, right at the very top,\" Htet Htet said, and she carefully packed the hat in beside her cuboid pencil case, her round ball, and her cylinder-shaped can -- her school bag was now full of 3D shapes, ready for the trip tomorrow.",
+        passageMy:
+            "တနင်္ဂနွေနေ့ ညနေခင်း၊ ထက်ထက်သည် မနက်ဖြန် အတန်းခရီးစဉ်အတွက် ကျောင်းအိတ် ထုပ်ပိုးရန် သူမ၏ ပစ္စည်းအားလုံးကို ကုတင်ပေါ်တွင် ဖြန့်ကျင်းထားခဲ့သည်။ ပထမဆုံး သူမသည် ထောင့်မှန်စတုဂံပုံ ပြားချပ်သော မျက်နှာပြင်များပါသည့် ခဲတံအိတ်ငယ်လေးကို ကောက်ယူခဲ့သည်။ ၎င်း၏ ထောင့်များကို တစ်ခုချင်းစီ ထိကာ ဂရုတစိုက် ရေတွက်ခဲ့သည် - အပေါ်ဘက်တွင် ထောင့်လေးခုနှင့် အောက်ဘက်တွင် နောက်ထပ် ထောင့်လေးခု -- စုစုပေါင်း ထောင့် ရှစ်ခု ရှိပြီး၊ ထိုအပတ်အစောပိုင်းက အတန်းတွင် သုံးခဲ့သော ကုဗပုံ သစ်သားတုံးလေးနှင့် အတူတူပင် ဖြစ်သည်။\n\nထို့နောက် ထက်ထက်သည် သူမ အနှစ်ဆုံးဘောလုံးလေးကို ကောက်ယူခဲ့သည်။ ပြားချပ်သော မျက်နှာပြင် (သို့) ထောင့်ချွန်တစ်ခုခုကို ရှာရန် လက်ဖြင့် လှည့်ပတ်ကြည့်ခဲ့သော်လည်း ၎င်း၏ ပတ်လည်တွင် ချောမွေ့ကွေးညွှတ်သော မျက်နှာပြင် တစ်ခုတည်းသာ ရှိခဲ့သည်။ \"အလုံးပုံ (sphere) တွင် အနားနှင့် ထောင့် လုံးဝ မရှိပါ -- ၎င်းသည် ဆက်တိုက် လိမ့်နေရုံသာ ဖြစ်သည်\" ဟု ထို့အပတ် အစောပိုင်းက မျက်နှာပြင်နှင့် ထောင့်များအကြောင်း သင်ခဲ့ရသည်များကို သတိရလျက် သူမ ကိုယ့်ကိုယ်ကို ပြောလိုက်သည်။\n\nထို့နောက် သူမသည် အိတ်ဘေးအိတ်ကပ်ထဲ ဝင်မဝင် စစ်ဆေးရန် ငယ်ငယ်လေး သောက်ရေဗူးကို ကောက်ယူခဲ့သည်။ ဗူး၏ ထိပ်နှစ်ဖက်တွင် ရှိသော ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင်နှစ်ခုကို သတိထားမိခဲ့သည် -- Week 9 က အမည်တပ်ရန် သင်ယူခဲ့သော စက်ဝိုင်းများနှင့် အတိအကျ ပုံသဏ္ဍာန်တူသည် -- ထို့ပြင် အလယ်ပတ်လည်တွင် ကွေးညွှတ်သော မျက်နှာပြင် တစ်ခု ထပ်ရှိသည်။ \"ပြားချပ်သော မျက်နှာပြင် နှစ်ခုနှင့် ကွေးညွှတ်သော မျက်နှာပြင် တစ်ခုပေါင်းလိုက်လျှင် စုစုပေါင်း မျက်နှာပြင် သုံးခု ရှိပြီး၊ ကွေးညွှတ်သော အနား နှစ်နားရှိသော်လည်း ထောင့် တစ်ခုမှ လုံးဝ မရှိပါ\" ဟု ထက်ထက် ဂုဏ်ယူစွာ ရေတွက်ခဲ့သည်။\n\nနောက်ဆုံးတွင် ကစားစရာသေတ္တာ၏ အောက်ခြေတွင် ထွေးထွေးလျက်ရှိနေသော သူ့ရဲ့ ဝမ်းချင်းစာ၏ မွေးနေ့ပွဲမှ ကျန်ရစ်ခဲ့သော စက္ကူပါတီဦးထုပ်ကို တွေ့ခဲ့သည်။ ၎င်း၏ အောက်ခြေတွင် ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် တစ်ခုရှိပြီး ထောင့်ချွန်တစ်ခုတည်း ဆီသို့ မြင့်တက်သွားသော ကွေးညွှတ်သော မျက်နှာပြင် တစ်ခု ရှိသည်။ \"ဦးထုပ်ပုံ (cone) တွင် အထိပ်ဆုံးတွင် ထောင့် တစ်ခုတည်းသာ ရှိသည်\" ဟု ထက်ထက် ပြောခဲ့ပြီး ထိုဦးထုပ်ကို သူမ၏ ထောင့်မှန်စတုဂံပုံ ခဲတံအိတ်၊ ဝိုင်းဝန်းသောဘောလုံးနှင့် လုံးဝိုင်းတိုင်ပုံ ဗူးတို့၏ အနီးတွင် သေချာစွာ ထည့်သွင်းခဲ့သည် -- သူမ၏ ကျောင်းအိတ်သည် ယခုအခါ 3D ပုံသဏ္ဍာန်များနှင့် ပြည့်နှက်နေပြီး မနက်ဖြန်ခရီးစဉ်အတွက် အသင့်ဖြစ်နေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What shape is Htet Htet's pencil case, and how many corners does it have?",
+            questionMy:
+                "ထက်ထက်၏ ခဲတံအိတ်သည် မည်သည့်ပုံသဏ္ဍာန်ဖြစ်ပြီး ၎င်းတွင် ထောင့် မည်မျှ ရှိသနည်း။",
+            optionsEn: [
+              "A cuboid, with 8 corners",
+              "A cube, with 8 corners",
+              "A sphere, with 0 corners",
+              "A cone, with 1 corner",
+            ],
+            optionsMy: [
+              "အကျပ်ပုံ (Cuboid) ဖြစ်ပြီး ထောင့် ၈ ခု ရှိသည်",
+              "ကုဗ (Cube) ဖြစ်ပြီး ထောင့် ၈ ခု ရှိသည်",
+              "အလုံးပုံ (Sphere) ဖြစ်ပြီး ထောင့် ၀ ခု ရှိသည်",
+              "ဦးထုပ်ပုံ (Cone) ဖြစ်ပြီး ထောင့် ၁ ခု ရှိသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Day 1's fourth quiz question about the cuboid tissue box -- count the four top corners plus the four bottom corners the same way here.",
+              "Recall Day 2's drag-match pair for Cuboid -- rectangle faces, 12 edges, and 8 corners, just like the pencil case in this story.",
+            ],
+            hintsMy: [
+              "ပထမနေ့ စတုတ္ထမေးခွန်းရှိ အကျပ်ပုံတစ်ရှူးဘူးကို သတိရပါ -- ဤနေရာတွင်လည်း အပေါ်ဘက်ထောင့် ၄ ခုနှင့် အောက်ဘက်ထောင့် ၄ ခုကို ပေါင်းရေတွက်ကြည့်ပါ။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ အကျပ်ပုံ (Cuboid) အတွဲကို သတိရပါ -- ထောင့်မှန်စတုဂံမျက်နှာပြင်၊ အနား ၁၂ နား၊ ထောင့် ၈ ထောင့် ရှိပြီး ဤဇာတ်လမ်းရှိ ခဲတံအိတ်နှင့် အတူတူပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "Why does Htet Htet's bouncy ball have zero corners?",
+            questionMy:
+                "ထက်ထက်၏ ဘောလုံးလေးတွင် ထောင့် ၀ ခု ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Because it has only one smooth curved face wrapping all the way around, with no pointed points anywhere",
+              "Because it has 8 flat faces",
+              "Because it has 2 flat circle faces",
+              "Because it has 1 pointed tip",
+            ],
+            optionsMy: [
+              "ပတ်လည်တစ်ခုလုံးကို ဝန်းရံထားသော ချောမွေ့ကွေးညွှတ်သော မျက်နှာပြင် တစ်ခုတည်းသာ ရှိပြီး ထောင့်ချွန် တစ်နေရာမျှ မရှိသောကြောင့်",
+              "ပြားချပ်သော မျက်နှာပြင် ၈ ခု ရှိသောကြောင့်",
+              "ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၂ ခု ရှိသောကြောင့်",
+              "ထောင့်ချွန်ထိပ် ၁ ခု ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Day 1's third quiz question about a ball being a sphere -- re-read the second paragraph of the story for how Htet Htet described it.",
+              "Recall Day 2's drag-match pair for Sphere -- 1 curved face, 0 edges, and 0 corners.",
+            ],
+            hintsMy: [
+              "ပထမနေ့ တတိယမေးခွန်းရှိ ဘောလုံးသည် အလုံးပုံဖြစ်ကြောင်းကို သတိရပါ -- ထက်ထက် မည်သို့ ဖော်ပြခဲ့သည်ကို ဇာတ်လမ်း ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ အလုံးပုံ (Sphere) အတွဲကို သတိရပါ -- ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု၊ အနား ၀ နား၊ ထောင့် ၀ ထောင့်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many faces does the drinking-water can have in total, according to the story?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သောက်ရေဗူး၏ မျက်နှာပြင် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+            optionsEn: ["3", "2", "6", "1"],
+            optionsMy: ["3", "2", "6", "1"],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Day 2's drag-match pair for Cylinder -- 2 flat circle faces plus 1 curved face round the side makes 3 faces in total.",
+              "Re-read the third paragraph -- Htet Htet counts the flat circle ends and the curved side face out loud herself.",
+            ],
+            hintsMy: [
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ လုံးဝိုင်းတိုင်ပုံ (Cylinder) အတွဲကို သတိရပါ -- ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၂ ခုနှင့် ဘေးဘက်ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခုပေါင်းလျှင် စုစုပေါင်း မျက်နှာပြင် ၃ ခု ဖြစ်သည်။",
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ထက်ထက်ကိုယ်တိုင် ပြားချပ်သော စက်ဝိုင်းပုံ ထိပ်များနှင့် ကွေးညွှတ်သော ဘေးဘက်မျက်နှာပြင်ကို အသံထွက် ရေတွက်ပြခဲ့သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many corners does the paper party hat have, and where is it?",
+            questionMy:
+                "စက္ကူပါတီဦးထုပ်တွင် ထောင့် မည်မျှ ရှိပြီး မည်သည့်နေရာတွင် ရှိသနည်း။",
+            optionsEn: [
+              "1 corner, at the very top point",
+              "0 corners, it has none",
+              "8 corners, at the base",
+              "2 corners, one at each end",
+            ],
+            optionsMy: [
+              "ထောင့် ၁ ခု၊ အထိပ်ဆုံးအမှတ်တွင် ရှိသည်",
+              "ထောင့် ၀ ခု၊ လုံးဝ မရှိပါ",
+              "ထောင့် ၈ ခု၊ အခြေခံတွင် ရှိသည်",
+              "ထောင့် ၂ ခု၊ တစ်ဖက်စီတွင် ရှိသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Day 2's drag-match pair for Cone -- 1 flat circle face plus 1 curved face, with exactly 1 pointed corner at the tip.",
+              "Re-read the final paragraph -- Htet Htet says this out loud in almost these exact words when she finds the hat.",
+            ],
+            hintsMy: [
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ ဦးထုပ်ပုံ (Cone) အတွဲကို သတိရပါ -- ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၁ ခုနှင့် ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု ရှိပြီး ထိပ်ဖျားတွင် ထောင့် ၁ ခုတည်း အတိအကျ ရှိသည်။",
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဦးထုပ်ကို တွေ့သောအခါ ထက်ထက်က ဤစကားလုံးများအတိုင်းနီးပါး တိုက်ရိုက် ပြောခဲ့သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: 3D Shapes and Their Properties",
+      titleMy:
+          "အပတ်စဉ် ၁၀ ပြန်လည်သုံးသပ်ခြင်း - 3D ပုံသဏ္ဍာန်များနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the word for a flat or curved surface of a 3D shape?",
+          questionMy:
+              "3D ပုံသဏ္ဍာန်တစ်ခု၏ ပြားချပ်သော (သို့) ကွေးညွှတ်သော မျက်နှာပြင်ကို ဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: ["Face", "Edge", "Corner", "Side"],
+          optionsMy: [
+            "Face (မျက်နှာပြင်)",
+            "Edge (အနား)",
+            "Corner (ထောင့်)",
+            "Side (ဘက်)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first quiz question -- this new word was introduced right at the start of the week.",
+            "Recall Day 2's drag-match for the word Corner -- it explained that faces are separate from edges and corners.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- ဤစကားလုံးသစ်ကို ဤအပတ်၏ အစတွင် မိတ်ဆက်ပေးခဲ့သည်။",
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 'ထောင့် (Corner)' အတွဲကို သတိရပါ -- မျက်နှာပြင်သည် အနားနှင့် ထောင့်တို့နှင့် ကွဲပြားကြောင်း ရှင်းပြထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "How many faces, edges and corners does a cube have?",
+          questionMy:
+              "ကုဗတစ်ခုတွင် မျက်နှာပြင်၊ အနား၊ ထောင့် မည်မျှစီ ရှိသနည်း။",
+          optionsEn: [
+            "6 faces, 12 edges, 8 corners",
+            "4 faces, 4 edges, 4 corners",
+            "1 face, 0 edges, 0 corners",
+            "3 faces, 2 edges, 0 corners",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင် ၆ ခု၊ အနား ၁၂ နား၊ ထောင့် ၈ ထောင့်",
+            "မျက်နှာပြင် ၄ ခု၊ အနား ၄ နား၊ ထောင့် ၄ ထောင့်",
+            "မျက်နှာပြင် ၁ ခု၊ အနား ၀ နား၊ ထောင့် ၀ ထောင့်",
+            "မျက်နှာပြင် ၃ ခု၊ အနား ၂ နား၊ ထောင့် ၀ ထောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second quiz question and Day 2's drag-match for Cube -- its faces are all squares, like Week 9's square shape.",
+            "Recall Day 4's reading passage -- Htet Htet counted this exact set of numbers on her cube-shaped block.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ ကုဗ (Cube) အတွဲကို သတိရပါ -- ၎င်း၏ မျက်နှာပြင်များအားလုံးသည် Week 9 ၏ စတုရမ်းပုံသဏ္ဍာန်ကဲ့သို့ စတုရမ်းများ ဖြစ်ကြသည်။",
+            "စာဖတ်ခြင်းနေ့၏ ဇာတ်လမ်းကို သတိရပါ -- ထက်ထက်သည် သူ၏ ကုဗပုံ တုံးလေးတွင် ဤဂဏန်းအစုအတိအကျကို ရေတွက်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which 3D shape has 0 edges and 0 corners, and can roll smoothly in every direction?",
+          questionMy:
+              "မည်သည့် 3D ပုံသဏ္ဍာန်သည် အနား ၀ နားနှင့် ထောင့် ၀ ထောင့် ရှိပြီး ဦးတည်ရာတိုင်းသို့ ချောမွေ့စွာ လိမ့်နိုင်သနည်း။",
+          optionsEn: ["Sphere", "Cube", "Cuboid", "Cone"],
+          optionsMy: [
+            "အလုံးပုံ (Sphere)",
+            "ကုဗ (Cube)",
+            "အကျပ်ပုံ (Cuboid)",
+            "ဦးထုပ်ပုံ (Cone)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third quiz question about the ball, and Day 4's reading passage about Htet Htet's bouncy ball.",
+            "Recall Day 2's drag-match for Sphere -- 1 curved face, 0 edges, 0 corners.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းရှိ ဘောလုံးနှင့် စာဖတ်ခြင်းနေ့၏ ထက်ထက်၏ ဘောလုံးလေးအကြောင်းကို သတိရပါ။",
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ အလုံးပုံ (Sphere) အတွဲကို သတိရပါ -- ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု၊ အနား ၀ နား၊ ထောင့် ၀ ထောင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cylinder, like a can of drink, has how many faces in total?",
+          questionMy:
+              "အချိုရည်ဗူးကဲ့သို့သော လုံးဝိုင်းတိုင်ပုံ (Cylinder) တစ်ခုတွင် မျက်နှာပြင် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["3", "2", "6", "12"],
+          optionsMy: ["3", "2", "6", "12"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match for Cylinder and Day 3's sorting activity's can-of-drink item -- 2 flat circle faces plus 1 curved face.",
+            "Recall Day 4's reading passage -- Htet Htet counted the two flat ends and the curved middle of her drinking-water can.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် တတိယနေ့ စီစစ်ရေးလေ့ကျင့်ခန်း၏ အချိုရည်ဗူးအကြောင်းကို သတိရပါ -- ပြားချပ်သော စက်ဝိုင်းပုံ မျက်နှာပြင် ၂ ခုနှင့် ကွေးညွှတ်သော မျက်နှာပြင် ၁ ခု။",
+            "စာဖတ်ခြင်းနေ့၏ ဇာတ်လမ်းကို သတိရပါ -- ထက်ထက်သည် သူမ၏ သောက်ရေဗူး၏ ပြားချပ်သော ထိပ်နှစ်ဖက်နှင့် ကွေးညွှတ်သော အလယ်ပိုင်းကို ရေတွက်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence best explains how this week's 3D shapes connect to Week 9's 2D shapes?",
+          questionMy:
+              "ဤအပတ်၏ 3D ပုံသဏ္ဍာန်များသည် Week 9 ၏ 2D ပုံသဏ္ဍာန်များနှင့် မည်သို့ ဆက်စပ်နေသည်ကို အကောင်းဆုံး ရှင်းပြသော စာကြောင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "3D shapes are partly built from flat 2D shapes -- a cube's faces are squares, a cuboid's faces are rectangles, and a cylinder's flat ends are circles",
+            "3D shapes have nothing to do with 2D shapes at all",
+            "2D shapes are built from 3D shapes",
+            "Only spheres are related to any 2D shape",
+          ],
+          optionsMy: [
+            "3D ပုံသဏ္ဍာန်များသည် ပြားချပ်သော 2D ပုံသဏ္ဍာန်များမှ တစ်စိတ်တစ်ပိုင်း တည်ဆောက်ထားသည် -- ကုဗ၏ မျက်နှာပြင်များသည် စတုရမ်းများ၊ အကျပ်ပုံ၏ မျက်နှာပြင်များသည် ထောင့်မှန်စတုဂံများ၊ လုံးဝိုင်းတိုင်ပုံ၏ ပြားချပ်သောထိပ်များသည် စက်ဝိုင်းများ ဖြစ်ကြသည်",
+            "3D ပုံသဏ္ဍာန်များသည် 2D ပုံသဏ္ဍာန်များနှင့် လုံးဝ ဆက်စပ်မှု မရှိပါ",
+            "2D ပုံသဏ္ဍာန်များသည် 3D ပုံသဏ္ဍာန်များမှ တည်ဆောက်ထားသည်",
+            "အလုံးပုံ (sphere) သာလျှင် 2D ပုံသဏ္ဍာန်တစ်ခုခုနှင့် ဆက်စပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- every entry for Cube, Cuboid and Cylinder mentioned a matching Week 9 2D shape by name.",
+            "Recall Day 4's reading passage -- Htet Htet noticed the can's flat ends were shaped exactly like the circles she named in Week 9.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ကုဗ၊ အကျပ်ပုံနှင့် လုံးဝိုင်းတိုင်ပုံ တစ်ခုစီတွင် ကိုက်ညီသော Week 9 ၏ 2D ပုံသဏ္ဍာန်ကို အမည်တပ်ဖော်ပြထားသည်။",
+            "စာဖတ်ခြင်းနေ့၏ ဇာတ်လမ်းကို သတိရပါ -- ထက်ထက်သည် ဗူး၏ ပြားချပ်သောထိပ်များသည် Week 9 တွင် အမည်တပ်ခဲ့သော စက်ဝိုင်းများနှင့် ပုံသဏ္ဍာန်တူကြောင်း သတိထားမိခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek11 = CourseWeekDef(
+  id: "course-year1-mathematics-w11",
+  weekNumber: 11,
+  titleEn: "Position and Direction",
+  titleMy: "တည်နေရာနှင့် ဦးတည်ချက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w11-d1",
+      dayNumber: 1,
+      titleEn: "Position Words: Above, Below, Between",
+      titleMy: "နေရာအညွှန်းစကားလုံးများ - အပေါ်၊ အောက်၊ အကြား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Khin Zarni put her storybook on the top shelf. Her school shoes are sitting on the floor, right underneath that same shelf. Which word best describes where her school shoes are, compared to the shelf?",
+          questionMy:
+              "ခင်ဇာနည်သည် သူမ၏ ပုံပြင်စာအုပ်ကို စင်အပေါ်ဆုံးထပ်တွင် တင်ထားသည်။ သူမ၏ ကျောင်းဖိနပ်များမှာ ထိုစင်၏ အောက်ခြေတွင် ကြမ်းပြင်ပေါ်တွင် ရှိနေသည်။ စင်နှင့်နှိုင်းယှဉ်လျှင် ကျောင်းဖိနပ်များ ရှိနေရာကို အကောင်းဆုံးဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Above the shelf",
+            "Below the shelf",
+            "Next to the shelf",
+            "Far from the shelf",
+          ],
+          optionsMy: [
+            "စင်၏ အပေါ်တွင်",
+            "စင်၏ အောက်တွင်",
+            "စင်၏ ဘေးတွင်",
+            "စင်နှင့် ဝေးသောနေရာတွင်",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "The shoes are on the floor and the shelf is up above them -- so are the shoes higher up than the shelf, or lower down?",
+            "This week's very first idea is that 'below' means lower down -- the exact opposite of 'above'.",
+          ],
+          hintsMy: [
+            "ဖိနပ်များသည် ကြမ်းပြင်ပေါ်တွင်ရှိပြီး စင်ကမူ ၎င်းတို့၏ အပေါ်တွင် ရှိသည် -- ထို့ကြောင့် ဖိနပ်များသည် စင်ထက် မြင့်သလား၊ နိမ့်သလား။",
+            "ဤအပတ်၏ ပထမဆုံးအယူအဆမှာ 'အောက်' ဆိုသည်မှာ ပိုနိမ့်သည်ဟု ဆိုလိုပြီး 'အပေါ်' ၏ လုံးဝဆန့်ကျင်ဘက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the playground line for the slide, Khin Zarni lets her friend Thura go first and stands right behind him. Compared to Thura, where is Khin Zarni standing?",
+          questionMy:
+              "ကစားကွင်း၌ လျှောစင်စီးရန် တန်းစီနေစဉ် ခင်ဇာနည်သည် သူငယ်ချင်း သူရာကို ရှေ့ဦးစွာ သွားစေပြီး သူ့နောက်တွင် ရပ်နေသည်။ သူရာနှင့် နှိုင်းယှဉ်လျှင် ခင်ဇာနည် ရပ်နေရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "In front of Thura",
+            "Behind Thura",
+            "Between two friends",
+            "Above Thura",
+          ],
+          optionsMy: [
+            "သူရာ၏ ရှေ့တွင်",
+            "သူရာ၏ နောက်တွင်",
+            "သူငယ်ချင်း နှစ်ဦးကြားတွင်",
+            "သူရာ၏ အပေါ်တွင်",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "The question already tells you the exact word used -- read the sentence again and look for it.",
+            "If Thura is at the front and Khin Zarni is right after him in the line, she is behind him, not in front of him.",
+          ],
+          hintsMy: [
+            "မေးခွန်းထဲတွင် အသုံးပြုထားသော စကားလုံးအတိအကျကို ဖော်ပြထားပြီးသားဖြစ်သည် -- စာကြောင်းကို ပြန်ဖတ်ပြီး ရှာကြည့်ပါ။",
+            "သူရာသည် ရှေ့ဆုံးတွင်ရှိပြီး ခင်ဇာနည်သည် သူ့နောက်ချက်ချင်း တန်းစီနေလျှင် သူသည် သူရာ၏ ရှေ့တွင်မဟုတ်ဘဲ နောက်တွင် ရှိနေခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The school gate is only a short walk from Khin Zarni's classroom, but the market is a long walk away, past the playground and down the road. Compared to the classroom, which word describes the market?",
+          questionMy:
+              "ကျောင်းဂိတ်သည် ခင်ဇာနည်၏ စာသင်ခန်းမှ လမ်းလျှောက်ရန် အနည်းငယ်သာ ကြာသော်လည်း၊ ဈေးသည် ကစားကွင်းကို ဖြတ်၍ လမ်းအတိုင်း ဝေးဝေးလျှောက်ရမည့် နေရာဖြစ်သည်။ စာသင်ခန်းနှင့် နှိုင်းယှဉ်လျှင် ဈေး ရှိနေရာကို ဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: ["Near", "Far", "Between", "Next to"],
+          optionsMy: ["အနီးတွင်", "အဝေးတွင်", "အကြားတွင်", "ဘေးတွင်"],
+          correctIndex: 1,
+          hintsEn: [
+            "A 'short walk' means two places are close together, but a walk 'past the playground and down the road' means they are a long distance apart.",
+            "Remember Day 1's first question about 'above' and 'below' being opposites -- 'far' is the opposite of 'near' in the very same way.",
+          ],
+          hintsMy: [
+            "'အနည်းငယ်သာ လျှောက်ရသည်' ဆိုသည်မှာ နေရာနှစ်ခု အနီးကပ် ရှိနေခြင်းကို ဆိုလိုပြီး 'ကစားကွင်းကို ဖြတ်၍ လမ်းအတိုင်း ဝေးဝေးလျှောက်ရသည်' ဆိုသည်မှာ အလွန်ဝေးကွာသည်ကို ဆိုလိုသည်။",
+            "ဤအပတ် ပထမနေ့ ပထမမေးခွန်းတွင် 'အပေါ်' နှင့် 'အောက်' တို့သည် ဆန့်ကျင်ဘက်ဖြစ်ကြောင်း သတိရပါ -- 'အဝေး' သည်လည်း 'အနီး' ၏ ဆန့်ကျင်ဘက် အတိအတူပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At snack time, Khin Zarni's cup sits on the table with a plate of biscuits on one side and a small jug of water on the other side. Which word describes where the cup is?",
+          questionMy:
+              "မုန့်စားချိန်တွင် ခင်ဇာနည်၏ ခွက်သည် စားပွဲပေါ်တွင် တစ်ဖက်၌ မုန့်ပန်းကန်တစ်ချပ်၊ အခြားတစ်ဖက်၌ ရေအိုးလေးတစ်လုံးနှင့်အတူ တင်ထားသည်။ ခွက် ရှိနေရာကို ဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Above both",
+            "Behind both",
+            "Between the plate and the jug",
+            "Far from both",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံး၏ အပေါ်တွင်",
+            "နှစ်ခုစလုံး၏ နောက်တွင်",
+            "ပန်းကန်နှင့် ရေအိုး၏ အကြားတွင်",
+            "နှစ်ခုစလုံးနှင့် ဝေးသောနေရာတွင်",
+          ],
+          correctIndex: 2,
+          hintsEn: [
+            "The cup has one thing on one side and a different thing on the other side -- which word means 'with one thing on each side, in the middle'?",
+            "This is just like a ball resting between a box and a chair -- one object right in the middle of two others.",
+          ],
+          hintsMy: [
+            "ခွက်၏ တစ်ဖက်တွင် တစ်ခု၊ အခြားတစ်ဖက်တွင် နောက်ထပ်တစ်ခု ရှိနေသည် -- 'ဘေးတစ်ဖက်စီတွင် တစ်ခုစီရှိပြီး အလယ်ဗဟိုတွင်ရှိခြင်း' ကို ဆိုလိုသော စကားလုံးမှာ အဘယ်နည်း။",
+            "၎င်းသည် ဘောလုံးတစ်လုံးကို ဘူးတစ်လုံးနှင့် ကုလားထိုင်တစ်လုံးကြား တင်ထားသည်နှင့် အတူတူပင်ဖြစ်ပြီး၊ အရာဝတ္ထုတစ်ခုကို အခြားနှစ်ခု၏ အလယ်တွင် ထားခြင်းပင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match the Position Words",
+      titleMy: "နေရာညွှန်းစကားလုံးများကို ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w11-dm-1",
+          termEn: "In Front Of",
+          termMy: "ရှေ့တွင် (In Front Of)",
+          matchEn:
+              "Being close to something and facing it directly -- like standing in front of the board so everyone can see it clearly.",
+          matchMy:
+              "တစ်စုံတစ်ခုအား မျက်နှာမူ၍ အနီးတွင်ရှိနေခြင်း -- ဥပမာ လူတိုင်း ရှင်းရှင်းလင်းလင်း မြင်နိုင်ရန် သင်ပုန်းကြီး၏ ရှေ့တွင် ရပ်နေခြင်းကဲ့သို့။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w11-dm-2",
+          termEn: "Behind",
+          termMy: "နောက်တွင် (Behind)",
+          matchEn:
+              "Being on the far side of something, out of its direct view -- like Khin Zarni standing behind Thura in the playground line (Day 1).",
+          matchMy:
+              "တစ်စုံတစ်ခု၏ တစ်ဖက်တွင် ရှိနေပြီး တိုက်ရိုက်မမြင်နိုင်သောနေရာ -- ပထမနေ့တွင် ခင်ဇာနည် ကစားကွင်းတန်းစီရာ၌ သူရာ၏ နောက်တွင် ရပ်နေခြင်းကဲ့သို့။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w11-dm-3",
+          termEn: "Next To (Beside)",
+          termMy: "ဘေးတွင် (Next To)",
+          matchEn:
+              "Right alongside something, with nothing else in between -- like a cup sitting right next to a plate.",
+          matchMy:
+              "တစ်စုံတစ်ခု၏ ဘေးတွင် တိုက်ရိုက်ကပ်လျက် ရှိနေခြင်း၊ အကြားတွင် အခြားဘာမျှ မရှိခြင်း -- ခွက်တစ်လုံးကို ပန်းကန်တစ်ချပ်၏ ဘေးတွင် ချထားသကဲ့သို့။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w11-dm-4",
+          termEn: "Between",
+          termMy: "အကြားတွင် (Between)",
+          matchEn:
+              "In the middle of two things, with one on each side -- like Khin Zarni's cup sitting between the plate and the jug (Day 1).",
+          matchMy:
+              "အရာဝတ္ထုနှစ်ခု၏ အလယ်တွင် ရှိပြီး ဘေးတစ်ဖက်စီတွင် တစ်ခုစီရှိခြင်း -- ပထမနေ့တွင် ခင်ဇာနည်၏ ခွက်ကို ပန်းကန်နှင့် ရေအိုး၏ အကြားတွင် ချထားသကဲ့သို့။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w11-dm-5",
+          termEn: "Near",
+          termMy: "အနီးတွင် (Near)",
+          matchEn:
+              "Close by, only a short distance away -- like the school gate being near Khin Zarni's classroom (Day 1).",
+          matchMy:
+              "အနီးကပ်ရှိပြီး အနည်းငယ်သာ ဝေးကွာသောနေရာ -- ပထမနေ့တွင် ကျောင်းဂိတ်သည် ခင်ဇာနည်၏ စာသင်ခန်းနှင့် အနီးတွင် ရှိသကဲ့သို့။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w11-dm-6",
+          termEn: "Far",
+          termMy: "အဝေးတွင် (Far)",
+          matchEn:
+              "A long distance away, not close at all -- like the market being far from Khin Zarni's classroom (Day 1).",
+          matchMy:
+              "အလွန်ဝေးကွာပြီး လုံးဝ မနီးသောနေရာ -- ပထမနေ့တွင် ဈေးသည် ခင်ဇာနည်၏ စာသင်ခန်းနှင့် အဝေးတွင် ရှိသကဲ့သို့။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Left or Right?",
+      titleMy: "စီစစ်ကြမည် - ဘယ်ဘက်လား၊ ညာဘက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Left", "Right"],
+        bucketsMy: ["ဘယ်ဘက်", "ညာဘက်"],
+        items: [
+          SortingItem(
+            id: "y1math-w11-sort-1",
+            labelEn: "Raise your left hand to answer the teacher's question.",
+            labelMy: "ဆရာမ၏ မေးခွန်းကို ဖြေရန် ဘယ်ဘက်လက်ကို မြှောက်ပါ။",
+            correctBucketEn: "Left",
+            correctBucketMy: "ဘယ်ဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-2",
+            labelEn:
+                "The teacher writes on the whiteboard with her right hand.",
+            labelMy: "ဆရာမသည် ညာဘက်လက်ဖြင့် သင်ပုန်းကြီးပေါ်တွင် ရေးသည်။",
+            correctBucketEn: "Right",
+            correctBucketMy: "ညာဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-3",
+            labelEn: "Khin Zarni's left shoelace came undone.",
+            labelMy: "ခင်ဇာနည်၏ ဘယ်ဘက်ဖိနပ်ကြိုး ပြေလွင့်သွားသည်။",
+            correctBucketEn: "Left",
+            correctBucketMy: "ဘယ်ဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-4",
+            labelEn: "Thura kicked the ball with his right foot.",
+            labelMy: "သူရာသည် ညာဘက်ခြေဖြင့် ဘောလုံးကို ကန်လိုက်သည်။",
+            correctBucketEn: "Right",
+            correctBucketMy: "ညာဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-5",
+            labelEn: "Turn to your left to see the playground gate.",
+            labelMy: "ကစားကွင်းဂိတ်ကို မြင်ရန် ဘယ်ဘက်သို့ လှည့်ကြည့်ပါ။",
+            correctBucketEn: "Left",
+            correctBucketMy: "ဘယ်ဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-6",
+            labelEn: "The library door is just past the corner, on your right.",
+            labelMy:
+                "စာကြည့်တိုက်တံခါးသည် ထောင့်ကျော်ပြီးလျှင် ညာဘက်တွင် ရှိသည်။",
+            correctBucketEn: "Right",
+            correctBucketMy: "ညာဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-7",
+            labelEn: "Khin Zarni wears her watch on her left wrist.",
+            labelMy: "ခင်ဇာနည်သည် သူမ၏ ဘယ်ဘက်လက်ကောက်ဝတ်တွင် နာရီစွပ်ထားသည်။",
+            correctBucketEn: "Left",
+            correctBucketMy: "ဘယ်ဘက်",
+          ),
+          SortingItem(
+            id: "y1math-w11-sort-8",
+            labelEn: "Wave hello with your right hand to greet a friend.",
+            labelMy:
+                "သူငယ်ချင်းတစ်ဦးကို နှုတ်ဆက်ရန် ညာဘက်လက်ဖြင့် ဟိုင်းလုပ်ပါ။",
+            correctBucketEn: "Right",
+            correctBucketMy: "ညာဘက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Khin Zarni's Playground Treasure Hunt",
+      titleMy: "စာဖတ်ခြင်း - ခင်ဇာနည်၏ ကစားကွင်း ဘဏ္ဍာရှာဖွေရေးဂိမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Khin Zarni's Playground Treasure Hunt",
+        titleMy: "ခင်ဇာနည်၏ ကစားကွင်း ဘဏ္ဍာရှာဖွေရေးဂိမ်း",
+        passageEn:
+            "On Friday afternoon, Khin Zarni's teacher, Daw Hla Hla, set up a treasure hunt game in the playground. She hid a small box of stickers somewhere near the big tree, and each child had to follow her spoken directions exactly to find it. Khin Zarni and Thura stood together at the starting line, right in front of the slide and between the two swings, ready to listen carefully.\n\nDaw Hla Hla called out the first direction: 'Walk forward three steps, then turn left.' Khin Zarni counted her steps out loud -- one, two, three -- and then turned to face her left side, just like she had practiced raising her left hand in class. Now she was standing near the sandpit, with the football goal behind her and the tree still far ahead.\n\n'Now walk forward five more steps,' called Daw Hla Hla. Thura got excited and, just for fun, spun all the way around in a silly whole turn before walking. Khin Zarni giggled and reminded him, 'A whole turn brings you all the way back around -- you're facing the exact same way as before, so you haven't really turned at all!' Thura laughed and walked forward properly this time, ending up right next to the big tree, between the tree and the flowerbed.\n\nBut when Khin Zarni looked down, the sticker box wasn't there -- Daw Hla Hla's last clue said it was actually behind them, not in front. 'We must have walked straight past it,' said Khin Zarni. 'A half turn will make us face the exact opposite way, so we can walk straight back to it.' She and Thura did a half turn together, walked back the way they came, and there, sitting near the flowerbed, was the little box of stickers at last.",
+        passageMy:
+            "သောကြာနေ့ နေ့လည်ပိုင်းတွင် ခင်ဇာနည်၏ ဆရာမ ဒေါ်လှလှသည် ကစားကွင်းတွင် ဘဏ္ဍာရှာဖွေရေးဂိမ်းတစ်ခု စီစဉ်ပေးခဲ့သည်။ သူမသည် သစ်ပင်ကြီးအနီးရှိ တစ်နေရာနေရာတွင် စတစ်ကာအိတ်ငယ်တစ်ခုကို ဝှက်ထားပြီး ကလေးတိုင်းသည် သူမ၏ အသံထွက် ညွှန်ကြားချက်များကို အတိအကျ လိုက်နာကာ ရှာဖွေရမည် ဖြစ်သည်။ ခင်ဇာနည်နှင့် သူရာတို့သည် လျှောစင်၏ ရှေ့တွင်၊ တွန်းစီးနှစ်ခု၏ အကြားတွင် အတူတကွ အစပြုမျဉ်း၌ ရပ်လျက် သေချာစွာ နားထောင်ရန် အသင့်ရှိနေကြသည်။\n\nဒေါ်လှလှသည် ပထမညွှန်ကြားချက်ကို အော်ပြောလိုက်သည် - 'ရှေ့သို့ သုံးလှမ်း လျှောက်ပြီးမှ ဘယ်ဘက်သို့ လှည့်ပါ။' ခင်ဇာနည်သည် သူမ၏ခြေလှမ်းများကို အသံထွက်ရေတွက်သည် -- တစ်၊ နှစ်၊ သုံး -- ထို့နောက် စာသင်ခန်းတွင် ဘယ်ဘက်လက်မြှောက်ခဲ့သည့်အတိုင်း ဘယ်ဘက်ကို မျက်နှာမူ၍ လှည့်လိုက်သည်။ ယခုအခါ သူမသည် သဲကွင်းအနီးတွင် ရပ်နေပြီး၊ ဘောလုံးဂိုးကွင်းသည် သူမ၏ နောက်တွင်၊ သစ်ပင်ကြီးမှာမူ ဝေးဝေးတွင် ရှေ့ဆက်လျက် ရှိနေသေးသည်။\n\n'ယခု နောက်ထပ် ငါးလှမ်း ရှေ့သို့ လျှောက်ပါ' ဟု ဒေါ်လှလှက အော်ပြောလိုက်သည်။ သူရာသည် စိတ်လှုပ်ရှားလျက် ဟာသအနေဖြင့် မလျှောက်မီ တစ်ခွင်လုံး ကွေ့လိမ့်ခဲ့သည်။ ခင်ဇာနည်သည် ရယ်မောလျက် သတိပေးခဲ့သည် - 'တစ်ခွင်လုံး လှည့်ခြင်းဆိုတာ အပတ်တစ်ပတ်လုံး ပြန်လှည့်ကာ မူလ မျက်နှာမူရာအတိုင်းပင် ပြန်ဖြစ်သွားတာပါ -- ဒါကြောင့် မင်း အမှန်တကယ် လှည့်ထားတာ မဟုတ်သလိုပါပဲ!' ဟု ပြောခဲ့သည်။ သူရာသည် ရယ်မောလျက် ဒီတစ်ကြိမ် မှန်ကန်စွာ ရှေ့သို့ လျှောက်လိုက်ပြီး၊ သစ်ပင်ကြီးနှင့် ပန်းကြာခြံ၏ အကြားတွင်၊ သစ်ပင်ကြီးအနီးသို့ ရောက်ရှိသွားသည်။\n\nသို့သော် ခင်ဇာနည်သည် အောက်သို့ ငုံ့ကြည့်သောအခါ စတစ်ကာအိတ်ကို မတွေ့ရပေ -- ဒေါ်လှလှ၏ နောက်ဆုံးအကြံပြုချက်က ၎င်းသည် ရှေ့တွင်မဟုတ်ဘဲ သူတို့၏ နောက်တွင် အမှန်တကယ် ရှိနေကြောင်း ပြောသည်။ 'ငါတို့ တည့်တည့် ဖြတ်လျှောက်မိတယ်ထင်တယ်' ဟု ခင်ဇာနည်က ပြောသည်။ 'တစ်ဝက်လှည့်ခြင်းက ငါတို့ကို လုံးဝဆန့်ကျင်ဘက် မျက်နှာမူစေမှာမို့ ငါတို့ တည့်တည့် ပြန်လျှောက်နိုင်မယ်။' သူမနှင့် သူရာတို့သည် အတူတကွ တစ်ဝက်လှည့်ခြင်းကို ပြုလုပ်ကာ လာခဲ့သည့်လမ်းအတိုင်း ပြန်လျှောက်ခဲ့ကြရာ၊ ပန်းကြာခြံအနီးတွင် စတစ်ကာအိတ်လေးသည် နောက်ဆုံး၌ ရှိနေသည်ကို တွေ့ခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the first direction Daw Hla Hla gave to the children?",
+            questionMy:
+                "ဒေါ်လှလှသည် ကလေးများအား ပေးခဲ့သော ပထမညွှန်ကြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Walk forward three steps, then turn left.",
+              "Walk forward five steps, then turn right.",
+              "Spin all the way around.",
+              "Walk backward three steps.",
+            ],
+            optionsMy: [
+              "ရှေ့သို့ သုံးလှမ်း လျှောက်ပြီးမှ ဘယ်ဘက်သို့ လှည့်ပါ။",
+              "ရှေ့သို့ ငါးလှမ်း လျှောက်ပြီးမှ ညာဘက်သို့ လှည့်ပါ။",
+              "တစ်ပတ်လုံး ကွေ့လိမ့်ပါ။",
+              "နောက်သို့ သုံးလှမ်း လျှောက်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Daw Hla Hla's exact words are given in quotation marks.",
+              "This direction combines a number of steps with a turn, just like Day 1 and Day 2 taught you to combine position words with real actions.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဒေါ်လှလှ၏ စကားအတိအကျကို ကိုးကားပုဒ်ဖြင့် ဖော်ပြထားသည်။",
+              "ဤညွှန်ကြားချက်သည် ခြေလှမ်းအရေအတွက်နှင့် လှည့်ခြင်းကို ပေါင်းစပ်ထားပြီး၊ ပထမနှင့် ဒုတိယနေ့က နေရာညွှန်းစကားလုံးများကို လက်တွေ့လုပ်ဆောင်မှုနှင့် ပေါင်းစပ်သင်ပေးခဲ့သည်နှင့် တူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What did Khin Zarni tell Thura about a whole turn?",
+            questionMy:
+                "တစ်ခွင်လုံး လှည့်ခြင်းနှင့်ပတ်သက်၍ ခင်ဇာနည်က သူရာအား မည်သို့ ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "It brings you all the way back to face the same way as before.",
+              "It makes you face the exact opposite way.",
+              "It only turns you to your left side.",
+              "It makes you walk five steps forward.",
+            ],
+            optionsMy: [
+              "၎င်းသည် သင့်အား မူလ မျက်နှာမူရာအတိုင်း ပြန်ရောက်စေသည်။",
+              "၎င်းသည် သင့်အား လုံးဝဆန့်ကျင်ဘက် မျက်နှာမူစေသည်။",
+              "၎င်းသည် သင့်အား ဘယ်ဘက်သို့သာ လှည့်စေသည်။",
+              "၎င်းသည် သင့်အား ငါးလှမ်း ရှေ့သို့ လျှောက်စေသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Khin Zarni explains this right after Thura's silly spin.",
+              "Recall that a whole turn is a full trip all the way around, ending up facing the exact same direction you started -- no progress made at all.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သူရာ၏ ဟာသကွေ့လိမ့်မှုပြီးနောက်ချက်ချင်း ခင်ဇာနည်က ရှင်းပြခဲ့သည်။",
+              "တစ်ခွင်လုံး လှည့်ခြင်းဆိုသည်မှာ အပတ်တစ်ပတ်လုံး ပြန်ပတ်လှည့်ကာ မူလ မျက်နှာမူရာအတိုင်းပင် ပြန်ရောက်ခြင်းဖြစ်ပြီး ရှေ့တိုးမှု လုံးဝ မရှိကြောင်း သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Where did Thura end up standing after walking forward properly?",
+            questionMy:
+                "မှန်ကန်စွာ ရှေ့သို့ လျှောက်ပြီးနောက် သူရာသည် မည်သည့်နေရာတွင် ရောက်ရှိသွားသနည်း။",
+            optionsEn: [
+              "Right next to the big tree, between the tree and the flowerbed.",
+              "Behind the football goal.",
+              "Inside the sandpit.",
+              "Far from the flowerbed.",
+            ],
+            optionsMy: [
+              "သစ်ပင်ကြီးအနီးတွင်၊ သစ်ပင်ကြီးနှင့် ပန်းကြာခြံ၏ အကြားတွင်။",
+              "ဘောလုံးဂိုးကွင်း၏ နောက်တွင်။",
+              "သဲကွင်းအတွင်း၌။",
+              "ပန်းကြာခြံနှင့် ဝေးသောနေရာတွင်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the end of the third paragraph -- it names exactly where Thura ended up, using the word 'between'.",
+              "Recall Day 1's cup question and Day 2's drag-match pair for 'between' -- it always means one thing in the middle of two others.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ် အဆုံးပိုင်းကို ပြန်ဖတ်ပါ -- သူရာ ရောက်ရှိသွားသောနေရာကို 'အကြား' ဟူသော စကားလုံးဖြင့် တိတိကျကျ ဖော်ပြထားသည်။",
+              "ပထမနေ့၏ ခွက်နှင့်ပတ်သက်သော မေးခွန်းနှင့် ဒုတိယနေ့၏ 'အကြား' တွဲချိတ်အတွဲကို သတိရပါ -- ၎င်းသည် အမြဲတမ်း အခြားနှစ်ခု၏ အလယ်တွင် တစ်ခုရှိခြင်းကို ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Khin Zarni and Thura do a half turn near the end of the story?",
+            questionMy:
+                "ဇာတ်လမ်းအဆုံးပိုင်းတွင် ခင်ဇာနည်နှင့် သူရာတို့သည် အဘယ်ကြောင့် တစ်ဝက်လှည့်ခြင်းကို ပြုလုပ်ခဲ့ကြသနည်း။",
+            optionsEn: [
+              "Because the sticker box was actually behind them, so they needed to face the opposite way.",
+              "Because they wanted to do a silly spin for fun.",
+              "Because Daw Hla Hla told them to turn left again.",
+              "Because they were counting their steps.",
+            ],
+            optionsMy: [
+              "စတစ်ကာအိတ်သည် သူတို့၏ နောက်တွင် အမှန်တကယ် ရှိနေသဖြင့် ဆန့်ကျင်ဘက် မျက်နှာမူရန် လိုအပ်ခဲ့သောကြောင့်။",
+              "ဟာသကစားလိုသောကြောင့်။",
+              "ဒေါ်လှလှက ဘယ်ဘက်သို့ ထပ်လှည့်ရန် ပြောသောကြောင့်။",
+              "ခြေလှမ်းများကို ရေတွက်နေသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- it explains exactly why they needed to turn all the way around to the opposite direction.",
+              "Recall this week's idea that 'behind' means the opposite side from 'in front of' -- a half turn is what lets you face that opposite side.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းတို့ အဘယ်ကြောင့် ဆန့်ကျင်ဘက်သို့ လုံးဝ လှည့်ရန် လိုအပ်ခဲ့ကြောင်း ရှင်းပြထားသည်။",
+              "'နောက်' ဆိုသည်မှာ 'ရှေ့' ၏ ဆန့်ကျင်ဘက်ဖြစ်ကြောင်း ဤအပတ်၏ အယူအဆကို သတိရပါ -- တစ်ဝက်လှည့်ခြင်းသည် ထိုဆန့်ကျင်ဘက်ကို မျက်နှာမူစေသည့် နည်းလမ်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Position and Direction",
+      titleMy: "အပတ်စဉ် ၁၁ ပြန်လည်သုံးသပ်ခြင်း - တည်နေရာနှင့် ဦးတည်ချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A kite is flying high in the sky, above the treetops. Which word describes where the kite is, compared to the trees?",
+          questionMy:
+              "ဂစ်တစ်လုံးသည် မိုးကောင်းကင်တွင် သစ်ပင်ထိပ်များ၏ အပေါ်တွင် မြင့်စွာ ပျံသန်းနေသည်။ သစ်ပင်များနှင့် နှိုင်းယှဉ်လျှင် ဂစ် ရှိနေရာကို ဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: ["Above", "Below", "Between", "Behind"],
+          optionsMy: ["အပေါ်တွင်", "အောက်တွင်", "အကြားတွင်", "နောက်တွင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question about the shelf and the shoes -- 'above' means higher up, just like the kite is higher than the treetops.",
+            "The kite is flying high, and the trees are lower down beneath it -- so the kite is above them.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်း စင်နှင့် ဖိနပ်များအကြောင်းကို သတိရပါ -- 'အပေါ်' ဆိုသည်မှာ ပိုမြင့်သည်ကို ဆိုလိုပြီး ဂစ်သည် သစ်ပင်ထိပ်ထက် ပိုမြင့်နေသည်နှင့် တူသည်။",
+            "ဂစ်သည် မြင့်စွာ ပျံနေပြီး သစ်ပင်များမှာ ၎င်း၏ အောက်တွင် နိမ့်စွာ ရှိနေသည် -- ထို့ကြောင့် ဂစ်သည် သစ်ပင်များ၏ အပေါ်တွင် ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the lunch line, Khin Zarni lets Thura go first and stands right after him, just like on Day 1. Compared to Thura, where is Khin Zarni?",
+          questionMy:
+              "နေ့လည်စာစားရန် တန်းစီရာတွင် ပထမနေ့ကကဲ့သို့ပင် ခင်ဇာနည်သည် သူရာကို ရှေ့ဦးစွာ သွားစေပြီး သူ့နောက်ချက်ချင်း ရပ်နေသည်။ သူရာနှင့် နှိုင်းယှဉ်လျှင် ခင်ဇာနည် ရှိနေရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "In front of Thura",
+            "Behind Thura",
+            "Above Thura",
+            "Far from Thura",
+          ],
+          optionsMy: [
+            "သူရာ၏ ရှေ့တွင်",
+            "သူရာ၏ နောက်တွင်",
+            "သူရာ၏ အပေါ်တွင်",
+            "သူရာနှင့် ဝေးသောနေရာတွင်",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "This is the exact same idea as Day 1's slide-line question -- whoever stands right after someone else is behind them.",
+            "Recall the reading passage's ending, too -- a half turn is what makes you face behind you, the opposite of in front.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ပထမနေ့ လျှောစင်တန်းစီမေးခွန်းနှင့် အတူတူပင် အယူအဆဖြစ်သည် -- တစ်စုံတစ်ဦး၏ ချက်ချင်းနောက်တွင် ရပ်သူသည် ထိုသူ၏ နောက်တွင် ရှိသည်။",
+            "စာဖတ်ခြင်းအပိုဒ်၏ အဆုံးသတ်ကိုလည်း သတိရပါ -- တစ်ဝက်လှည့်ခြင်းသည် သင့်အား ရှေ့၏ ဆန့်ကျင်ဘက်ဖြစ်သော နောက်ဘက်ကို မျက်နှာမူစေသည့် အရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At the picnic, a basket of food sits on the blanket with a water bottle on one side and a bag of fruit on the other side. Which word describes where the basket is?",
+          questionMy:
+              "အပန်းဖြေထွက်ရာတွင် အစားအစာခြင်းတောင်းသည် ကုလားထိုင်ခင်းပေါ်တွင် တစ်ဖက်၌ ရေဗူးတစ်လုံး၊ အခြားတစ်ဖက်၌ အသီးအနှံအိတ်တစ်ခုနှင့်အတူ ရှိနေသည်။ ခြင်းတောင်း ရှိနေရာကို ဖော်ပြသည့် စကားလုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Above both",
+            "Between the bottle and the bag",
+            "Behind both",
+            "Far from both",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံး၏ အပေါ်တွင်",
+            "ရေဗူးနှင့် အသီးအနှံအိတ်၏ အကြားတွင်",
+            "နှစ်ခုစလုံး၏ နောက်တွင်",
+            "နှစ်ခုစလုံးနှင့် ဝေးသောနေရာတွင်",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 1's cup question and Day 2's drag-match pair for 'between' -- one thing with something on each side is always 'between'.",
+            "The basket has the bottle on one side and the fruit bag on the other -- exactly the same pattern as the cup between the plate and the jug.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ခွက်မေးခွန်းနှင့် ဒုတိယနေ့ 'အကြား' တွဲချိတ်အတွဲကို သတိရပါ -- ဘေးတစ်ဖက်စီတွင် တစ်ခုစီရှိသော အရာသည် အမြဲတမ်း 'အကြား' ဖြစ်သည်။",
+            "ခြင်းတောင်း၏ တစ်ဖက်တွင် ရေဗူးရှိပြီး အခြားတစ်ဖက်တွင် အသီးအနှံအိတ်ရှိသည် -- ပန်းကန်နှင့် ရေအိုးကြား ခွက်ရှိသော ပုံစံအတိအကျပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Just like in Day 3's sorting activity, the library door is just past the corner from the classroom. Which side is it on?",
+          questionMy:
+              "တတိယနေ့ စီစစ်ခြင်း လှုပ်ရှားမှုကကဲ့သို့ပင် စာကြည့်တိုက်တံခါးသည် စာသင်ခန်းမှ ထောင့်ကျော်ပြီးလျှင် ရှိသည်။ ၎င်းသည် မည်သည့်ဘက်တွင် ရှိသနည်း။",
+          optionsEn: ["Left", "Right", "Above", "Behind"],
+          optionsMy: ["ဘယ်ဘက်", "ညာဘက်", "အပေါ်", "နောက်ဘက်"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 3's sorting activity -- the library door was sorted into the 'Right' bucket, alongside writing with your right hand, kicking with your right foot, and waving hello.",
+            "Raising your left hand, your left shoelace, turning left to see the gate, and wearing a watch on your left wrist were all sorted into 'Left' -- the library door belongs with the other group.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်ခြင်း လှုပ်ရှားမှုကို သတိရပါ -- စာကြည့်တိုက်တံခါးကို 'ညာဘက်' အုပ်စုတွင် ထားခဲ့ပြီး၊ ညာဘက်လက်ဖြင့် ရေးခြင်း၊ ညာဘက်ခြေဖြင့် ကန်ခြင်းနှင့် ဟိုင်းလုပ်ခြင်းတို့နှင့်အတူ ရှိခဲ့သည်။",
+            "ဘယ်ဘက်လက်မြှောက်ခြင်း၊ ဘယ်ဘက်ဖိနပ်ကြိုး၊ ဂိတ်ကိုမြင်ရန် ဘယ်ဘက်သို့ လှည့်ခြင်းနှင့် ဘယ်ဘက်လက်ကောက်ဝတ်တွင် နာရီစွပ်ထားခြင်းတို့ကို 'ဘယ်ဘက်' အုပ်စုတွင် စီစစ်ခဲ့ကြောင်း -- စာကြည့်တိုက်တံခါးမှာ အခြားအုပ်စုနှင့် သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After walking forward and turning left near the sandpit, just like in the reading passage, Thura did a silly whole turn just for fun before continuing. Which way was he facing after that whole turn?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်ကကဲ့သို့ပင် ရှေ့သို့လျှောက်ပြီး သဲကွင်းအနီးတွင် ဘယ်ဘက်သို့ လှည့်ပြီးနောက် သူရာသည် ဆက်မလျှောက်မီ ဟာသအနေဖြင့် တစ်ခွင်လုံး လှည့်ခဲ့သည်။ ထိုတစ်ခွင်လုံး လှည့်ပြီးနောက် သူသည် မည်သည့်ဘက်ကို မျက်နှာမူနေသနည်း။",
+          optionsEn: [
+            "The exact same way he was facing before the whole turn.",
+            "The exact opposite way.",
+            "Toward his left side only.",
+            "Toward the ground.",
+          ],
+          optionsMy: [
+            "တစ်ခွင်လုံးမလှည့်မီ မျက်နှာမူထားသည့် ဘက်အတိအတူပင်။",
+            "လုံးဝဆန့်ကျင်ဘက်။",
+            "ဘယ်ဘက်သို့သာ။",
+            "မြေကြီးဘက်သို့။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage, where Khin Zarni explained exactly what a whole turn does -- it brings you all the way back around.",
+            "This ties the whole week together: position words (Days 1-3) tell you where something is, while a whole turn and a half turn (Day 4) tell you which way you end up facing after moving.",
+          ],
+          hintsMy: [
+            "တစ်ခွင်လုံး လှည့်ခြင်းသည် အဘယ်ကို ဆောင်ရွက်ကြောင်း ခင်ဇာနည်က တိတိကျကျ ရှင်းပြခဲ့သည့် စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ၎င်းသည် အပတ်တစ်ပတ်လုံး ပြန်လှည့်ပေးခြင်း ဖြစ်သည်။",
+            "ဤအရာက ဤအပတ်တစ်ခုလုံးကို ချိတ်ဆက်ပေးသည် - နေရာညွှန်းစကားလုံးများ (ပထမမှ တတိယနေ့) က တစ်စုံတစ်ခု ရှိရာနေရာကို ပြောပြပြီး၊ တစ်ခွင်လုံးလှည့်ခြင်းနှင့် တစ်ဝက်လှည့်ခြင်း (စတုတ္ထနေ့) တို့ကမူ ရွေ့လျားပြီးနောက် မည်သည့်ဘက်ကို မျက်နှာမူနေမည်ကို ပြောပြသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek12 = CourseWeekDef(
+  id: "course-year1-mathematics-w12",
+  weekNumber: 12,
+  titleEn: "Putting It Together: Shape and Space",
+  titleMy: "အားလုံးကို ပေါင်းစပ်ကြည့်ကြမည် - ပုံသဏ္ဌာန်နှင့် နေရာအနေအထား",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w12-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Shape and Space Quiz",
+      titleMy: "ပုံသဏ္ဌာန်နှင့် နေရာအနေအထား ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Kaung Htet cut out a paper flag shaped like a triangle for the school building in his model town. How many straight sides does a triangle have?",
+          questionMy:
+              "ကောင်းထက်သည် သူ၏ စံနမူနာမြို့ရှိ ကျောင်းအဆောက်အအုံအတွက် တြိဂံပုံသဏ္ဌာန် အလံစက္ကူတစ်ချပ်ကို လှီးဖြတ်ခဲ့သည်။ တြိဂံတွင် ဖြောင့်သောဘေး မည်မျှ ရှိသနည်း။",
+          optionsEn: ["3", "4", "2", "0"],
+          optionsMy: ["3", "4", "2", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 9's lesson on 2D shapes -- count each straight side of a triangle one by one, the same way you counted a square's sides.",
+            "A triangle is named for its three straight sides and its three pointed corners -- that is exactly why it is called a tri-angle.",
+          ],
+          hintsMy: [
+            "Week 9 ၏ 2D ပုံသဏ္ဌာန် သင်ခန်းစာကို သတိရပါ -- စတုရန်း၏ ဘေးများကို ရေတွက်သကဲ့သို့ တြိဂံ၏ ဖြောင့်သောဘေးတစ်ဘက်စီကို ရေတွက်ကြည့်ပါ။",
+            "တြိဂံသည် ဖြောင့်သောဘေး သုံးဘက်နှင့် ချွန်သောထောင့် သုံးခု ရှိသောကြောင့် အမည်တွင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the town's water tower, Kaung Htet chose a block shaped like a cube. How many flat faces does a cube have in total?",
+          questionMy:
+              "မြို့၏ ရေတိုင်ကီအတွက် ကောင်းထက်သည် ကုဗပုံ အုတ်ခဲကို ရွေးချယ်ခဲ့သည်။ ကုဗပုံတွင် ပြားသောမျက်နှာပြင် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["6", "4", "8", "12"],
+          optionsMy: ["6", "4", "8", "12"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 10's lesson on 3D shapes -- a cube has a face on every side: top, bottom, front, back, left and right.",
+            "Count the flat surfaces one by one, the same way Week 10 taught you to count a 3D shape's faces -- there are six of them on a cube.",
+          ],
+          hintsMy: [
+            "Week 10 ၏ 3D ပုံသဏ္ဌာန် သင်ခန်းစာကို သတိရပါ -- ကုဗပုံတွင် ဘက်တိုင်းတွင် မျက်နှာပြင်ရှိသည် - အပေါ်၊ အောက်၊ ရှေ့၊ နောက်၊ ဘယ်နှင့် ညာ။",
+            "Week 10 က သင်ပေးခဲ့သည့်အတိုင်း ပြားသောမျက်နှာပြင်တစ်ခုချင်းစီကို ရေတွက်ကြည့်ပါ -- ကုဗပုံတွင် ခြောက်ခု ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every one of the cube-shaped water tower's 6 faces is the exact same flat shape. Which 2D shape is that?",
+          questionMy:
+              "ရေတိုင်ကီ ကုဗပုံ၏ မျက်နှာပြင် ၆ ခုစလုံးသည် အတိအကျ တူညီသော ပြားသောပုံသဏ္ဌာန် ဖြစ်သည်။ ထိုပုံသဏ္ဌာန်မှာ မည်သည့် 2D ပုံသဏ္ဌာန် ဖြစ်သနည်း။",
+          optionsEn: [
+            "Square",
+            "Circle",
+            "Triangle",
+            "A rectangle that is not a square",
+          ],
+          optionsMy: [
+            "စတုရန်း",
+            "စက်ဝိုင်း",
+            "တြိဂံ",
+            "စတုရန်းမဟုတ်သော ထောင့်မှန်စတုဂံ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 9's lesson on naming flat shapes by counting sides and corners -- the shape with 4 equal straight sides and 4 corners is a square.",
+            "Recall this quiz's second question about the cube's 6 faces -- Week 10 taught that every face of a cube is flat and shaped exactly like Week 9's square.",
+          ],
+          hintsMy: [
+            "Week 9 ၏ ဘေးနှင့် ထောင့်ရေတွက်ခြင်းဖြင့် ပြားသောပုံသဏ္ဌာန် အမည်တွင်ခြင်း သင်ခန်းစာကို သတိရပါ -- တူညီသော ဖြောင့်သောဘေး ၄ ဘက်နှင့် ထောင့် ၄ ခု ရှိသောပုံသဏ္ဌာန်မှာ စတုရန်း ဖြစ်သည်။",
+            "ဤပဟေဋ္ဌိ၏ ဒုတိယမေးခွန်းရှိ ကုဗပုံ၏ မျက်နှာပြင် ၆ ခုကို သတိရပါ -- Week 10 က ကုဗပုံ၏ မျက်နှာပြင်တိုင်းသည် ပြားပြီး Week 9 ၏ စတုရန်းပုံနှင့် အတိအကျ တူညီကြောင်း သင်ပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Kaung Htet's toy car is parked facing the school. It turns all the way around and ends up facing the school again, the exact same way it started. What kind of turn is that called?",
+          questionMy:
+              "ကောင်းထက်၏ ကစားစရာကားသည် ကျောင်းကို မျက်နှာမူ၍ ရပ်နားထားသည်။ ၎င်းသည် အလုံးစုံ ပတ်လှည့်ပြီး မူလ မျက်နှာမူထားသည့်အတိုင်း ကျောင်းကို ပြန်၍ မျက်နှာမူသွားသည်။ ထိုလှည့်ခြင်းအမျိုးအစားကို မည်သို့ ခေါ်သနည်း။",
+          optionsEn: [
+            "A whole turn",
+            "A half turn",
+            "No turn at all",
+            "Turning backward without stopping",
+          ],
+          optionsMy: [
+            "အလှည့်တစ်ပတ်",
+            "တစ်ဝက်လှည့်ခြင်း",
+            "လုံးဝ မလှည့်ခြင်း",
+            "မရပ်ဘဲ နောက်ပြန်လှည့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 11's lesson on turns -- a turn that brings you all the way back around to face exactly the same way you started is called a whole turn.",
+            "This is different from a half turn, which would leave the car facing the exact opposite direction instead of facing the school again.",
+          ],
+          hintsMy: [
+            "Week 11 ၏ လှည့်ခြင်း သင်ခန်းစာကို သတိရပါ -- မူလ မျက်နှာမူထားသည့်အတိုင်း အပြည့်အဝ ပတ်လှည့်ပြန်ရောက်စေသော လှည့်ခြင်းကို အလှည့်တစ်ပတ် ဟု ခေါ်သည်။",
+            "၎င်းသည် တစ်ဝက်လှည့်ခြင်းနှင့် မတူပါ -- တစ်ဝက်လှည့်ခြင်းဆိုလျှင် ကားသည် ကျောင်းကို ပြန်မျက်နှာမူမည့်အစား လုံးဝဆန့်ကျင်ဘက်သို့သာ မျက်နှာမူသွားမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match the Shape and Space Terms",
+      titleMy:
+          "ပုံသဏ္ဌာန်နှင့် နေရာအနေအထား ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w12-dm-1",
+          termEn: "Face",
+          termMy: "မျက်နှာပြင် (Face)",
+          matchEn:
+              "A flat or curved surface on a 3D shape -- a cube has 6 flat square faces, while a cylinder has 2 flat circular faces plus 1 curved face.",
+          matchMy:
+              "3D ပုံသဏ္ဌာန်တစ်ခု၏ ပြားသော (သို့) ကွေးသော မျက်နှာပြင် -- ကုဗပုံတွင် ပြားသော စတုရန်းမျက်နှာပြင် ၆ ခု ရှိပြီး၊ စီလင်ဒါပုံတွင် ပြားသော စက်ဝိုင်းမျက်နှာပြင် ၂ ခုနှင့် ကွေးသောမျက်နှာပြင် ၁ ခု ရှိသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w12-dm-2",
+          termEn: "Edge",
+          termMy: "အနား (Edge)",
+          matchEn:
+              "The straight or curved line where two faces of a 3D shape meet -- a cube has 12 straight edges, while a cylinder has 2 curved edges.",
+          matchMy:
+              "3D ပုံသဏ္ဌာန်တစ်ခု၏ မျက်နှာပြင်နှစ်ခု ဆုံရာတွင် ရှိသော ဖြောင့်သော (သို့) ကွေးသော မျဉ်း -- ကုဗပုံတွင် ဖြောင့်သောအနား ၁၂ ခု ရှိပြီး၊ စီလင်ဒါပုံတွင် ကွေးသောအနား ၂ ခု ရှိသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w12-dm-3",
+          termEn: "Corner",
+          termMy: "ထောင့် (Corner)",
+          matchEn:
+              "The pointed spot where edges meet on a shape -- a square has 4 corners, and a cube has 8 corners, also called vertices.",
+          matchMy:
+              "ပုံသဏ္ဌာန်တစ်ခု၏ အနားများ ဆုံရာ ချွန်သောနေရာ -- စတုရန်းပုံတွင် ထောင့် ၄ ခု ရှိပြီး၊ ကုဗပုံတွင် ထောင့် ၈ ခု ရှိသည်၊ vertex (vertices) ဟုလည်း ခေါ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w12-dm-4",
+          termEn: "Between",
+          termMy: "အကြား (Between)",
+          matchEn:
+              "In the middle of two other things, with one on each side -- like the school sitting between the park and the market in Kaung Htet's model town.",
+          matchMy:
+              "အခြားအရာနှစ်ခု၏ အလယ်တွင် တစ်ဖက်စီရှိစွာ တည်ရှိခြင်း -- ကောင်းထက်၏ စံနမူနာမြို့ထဲရှိ ကျောင်းသည် ပန်းခြံနှင့် စျေးကြားတွင် ရှိသကဲ့သို့။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w12-dm-5",
+          termEn: "Whole Turn",
+          termMy: "အလှည့်တစ်ပတ် (Whole Turn)",
+          matchEn:
+              "A full turn all the way around that brings you back to face exactly the same way you started.",
+          matchMy:
+              "အစီးအားလုံးကို ပတ်လှည့်ပြီး မူလ မျက်နှာမူထားသည့် ဦးတည်ရာအတိုင်း ပြန်ရောက်စေသော အပြည့်အဝ လှည့်ခြင်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w12-dm-6",
+          termEn: "Half Turn",
+          termMy: "တစ်ဝက်လှည့်ခြင်း (Half Turn)",
+          matchEn:
+              "A turn that is only halfway around, so you end up facing the exact opposite direction from where you started.",
+          matchMy:
+              "တစ်ဝက်သာ ပတ်လှည့်ခြင်းဖြစ်ပြီး မူလဦးတည်ရာနှင့် လုံးဝဆန့်ကျင်ဘက် မျက်နှာမူသွားစေသော လှည့်ခြင်း။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: 2D Shape or 3D Shape?",
+      titleMy: "စီစစ်ကြမည် - 2D ပုံသဏ္ဌာန်လား၊ 3D ပုံသဏ္ဌာန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["2D Shape", "3D Shape"],
+        bucketsMy: ["2D ပုံသဏ္ဌာန်", "3D ပုံသဏ္ဌာန်"],
+        items: [
+          SortingItem(
+            id: "y1math-w12-sort-1",
+            labelEn: "Square",
+            labelMy: "စတုရန်း",
+            correctBucketEn: "2D Shape",
+            correctBucketMy: "2D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-2",
+            labelEn: "Cube",
+            labelMy: "ကုဗပုံ",
+            correctBucketEn: "3D Shape",
+            correctBucketMy: "3D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-3",
+            labelEn: "Triangle",
+            labelMy: "တြိဂံ",
+            correctBucketEn: "2D Shape",
+            correctBucketMy: "2D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-4",
+            labelEn: "Sphere",
+            labelMy: "စက်လုံး",
+            correctBucketEn: "3D Shape",
+            correctBucketMy: "3D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-5",
+            labelEn: "Circle",
+            labelMy: "စက်ဝိုင်း",
+            correctBucketEn: "2D Shape",
+            correctBucketMy: "2D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-6",
+            labelEn: "Cylinder",
+            labelMy: "စီလင်ဒါ",
+            correctBucketEn: "3D Shape",
+            correctBucketMy: "3D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-7",
+            labelEn: "Rectangle",
+            labelMy: "ထောင့်မှန်စတုဂံ",
+            correctBucketEn: "2D Shape",
+            correctBucketMy: "2D ပုံသဏ္ဌာန်",
+          ),
+          SortingItem(
+            id: "y1math-w12-sort-8",
+            labelEn: "Cone",
+            labelMy: "ကူပုံ",
+            correctBucketEn: "3D Shape",
+            correctBucketMy: "3D ပုံသဏ္ဌာန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Htet's Model Town",
+      titleMy: "စာဖတ်ခြင်း - ကောင်းထက်၏ စံနမူနာမြို့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Htet's Model Town",
+        titleMy: "ကောင်းထက်၏ စံနမူနာမြို့",
+        passageEn:
+            "Kaung Htet's class was building a model town out of building blocks and paper shapes for their end-of-term project, and his job was to make the flags and signs for each building. For the school, he cut out a paper flag shaped like a triangle, and counted its straight sides one by one -- one, two, three -- just as Week 9 had taught him, a triangle has 3 straight sides and 3 pointed corners. For the market's sign, he cut out a circle instead, and remembered that a circle has no straight sides at all -- it is one smooth, curved edge running all the way around, with 0 corners.\n\nNext, Kaung Htet began stacking the real building blocks. For the water tower, he chose a block shaped like a cube, and ran his finger along it, counting 6 flat faces in total -- and every single one of those faces was the exact same shape, a square, just like Week 9's flat shapes. Counting further, the cube also had 12 straight edges and 8 pointed corners. For the town's grain silo, he picked a cylinder-shaped block instead: it had 2 flat circular faces, one on top and one on the bottom, plus 1 curved face wrapping around the middle -- and no pointed corners at all, because a curved face never comes to a point. To finish the little church, he topped its roof with a cone-shaped block, which had 1 flat circular face at the bottom, 1 curved face leading up the sides, and exactly 1 pointed corner at the very top.\n\nOnce the buildings were finished, Kaung Htet's teacher asked him to describe the layout of his town to the class. He explained that the school sat between the park and the market, with the park on the left and the market on the right, and that the library was near the school, while the farm was far away at the back of the table. To show how a toy car could drive from the school all the way to the farm, Kaung Htet said the car needed to turn until it faced the exact opposite direction from where it started -- a half turn -- and then drive straight ahead. When his friend asked how the car could turn all the way around and end up facing the school again, Kaung Htet said that was a whole turn, because it brings you back to face exactly the same way you started.\n\nBy the end of the project, Kaung Htet realized that building his model town needed two kinds of thinking working together. Knowing each shape's properties -- how many sides, corners, faces, edges and vertices it had -- helped him choose and build the right pieces. Knowing position and direction words -- between, near, far, and turns -- helped him arrange those pieces and explain how to move around them. Shape and space, he now understood, were really two halves of describing the very same model town.",
+        passageMy:
+            "ကောင်းထက်၏ အတန်းသည် နှစ်ဆုံးပိုင်း စီမံကိန်းအတွက် အုတ်ခဲများနှင့် စက္ကူပုံသဏ္ဌာန်များဖြင့် စံနမူနာမြို့တစ်မြို့ကို တည်ဆောက်နေကြသည်။ သူ၏ တာဝန်မှာ အဆောက်အအုံတစ်ခုစီအတွက် အလံနှင့် ဆိုင်းဘုတ်များ ပြုလုပ်ရန် ဖြစ်သည်။ ကျောင်းအဆောက်အအုံအတွက် သူသည် တြိဂံပုံသဏ္ဌာန် အလံစက္ကူတစ်ချပ်ကို လှီးဖြတ်ပြီး ၎င်း၏ ဖြောင့်သောဘေးများကို တစ်ခုချင်း ရေတွက်ခဲ့သည် -- တစ်၊ နှစ်၊ သုံး -- Week 9 က သင်ပေးခဲ့သည့်အတိုင်း၊ တြိဂံတွင် ဖြောင့်သောဘေး ၃ ဘက်နှင့် ချွန်သောထောင့် ၃ ခု ရှိသည်။ စျေး၏ ဆိုင်းဘုတ်အတွက်မူ သူသည် စက်ဝိုင်းပုံကို လှီးဖြတ်ခဲ့ပြီး၊ စက်ဝိုင်းတွင် ဖြောင့်သောဘေး လုံးဝ မရှိကြောင်း သတိရခဲ့သည် -- ၎င်းသည် ပတ်လည်ဝိုင်းနေသော ချောမွေ့သည့် ကွေးသောအနား တစ်ခုတည်းသာ ဖြစ်ပြီး ထောင့် ၀ ခုသာ ရှိသည်။\n\nထို့နောက် ကောင်းထက်သည် အမှန်တကယ် အဆောက်အအုံ အုတ်ခဲများကို စတင် စီထားခဲ့သည်။ ရေတိုင်ကီအတွက် သူသည် ကုဗပုံ အုတ်ခဲကို ရွေးချယ်ပြီး ၎င်း၏ အနား တစ်လျှောက် လက်ချောင်းဖြင့် ထိကာ ပြားသောမျက်နှာပြင် ၆ ခုကို ရေတွက်ခဲ့သည် -- ထိုမျက်နှာပြင်တစ်ခုချင်းစီသည် Week 9 ၏ ပြားသောပုံသဏ္ဌာန်များကဲ့သို့ အတိအကျ တူညီသော စတုရန်းပုံ ဖြစ်ခဲ့သည်။ ဆက်လက်ရေတွက်ကြည့်ရာ ကုဗပုံတွင် ဖြောင့်သောအနား ၁၂ ခုနှင့် ချွန်သောထောင့် ၈ ခုလည်း ရှိခဲ့သည်။ မြို့၏ ဆန်စပါးလှောင်ရုံအတွက် သူသည် စီလင်ဒါပုံ အုတ်ခဲကို ရွေးချယ်ခဲ့သည် - ၎င်းတွင် အပေါ်တစ်ခုနှင့် အောက်တစ်ခု ပြားသော စက်ဝိုင်းမျက်နှာပြင် ၂ ခုနှင့် အလယ်ပတ်လည် ကွေးနေသော မျက်နှာပြင် ၁ ခု ရှိပြီး၊ ကွေးသောမျက်နှာပြင်သည် ထောင့်တစ်ခုမျှ မဖြစ်စေသောကြောင့် ချွန်သောထောင့် လုံးဝ မရှိပါ။ ဘုရားကျောင်းငယ်ကို ပြီးမြောက်စေရန် သူသည် ၎င်း၏ခေါင်မိုးအပေါ် ကူပုံ အုတ်ခဲကို တင်ခဲ့ပြီး ၎င်းတွင် အောက်ခြေ ပြားသော စက်ဝိုင်းမျက်နှာပြင် ၁ ခု၊ ဘေးဘက်များတက်သော ကွေးသောမျက်နှာပြင် ၁ ခုနှင့် အထိပ်ဆုံးတွင် ချွန်သောထောင့် ၁ ခု အတိအကျ ရှိခဲ့သည်။\n\nအဆောက်အအုံများ ပြီးစီးသောအခါ ကောင်းထက်၏ ဆရာမသည် သူ့အား မြို့၏ အနေအထားကို အတန်းသားများအား ရှင်းပြရန် တောင်းဆိုခဲ့သည်။ သူသည် ကျောင်းသည် ပန်းခြံနှင့် စျေးကြားတွင် ရှိပြီး ပန်းခြံသည် ဘယ်ဘက်တွင်၊ စျေးသည် ညာဘက်တွင် ရှိကြောင်း၊ စာကြည့်တိုက်သည် ကျောင်းအနီးတွင် ရှိပြီး လယ်ယာသည် စားပွဲ၏ နောက်ဘက်တွင် ဝေးကွာစွာ ရှိကြောင်း ရှင်းပြခဲ့သည်။ ကစားစရာကားတစ်စီးသည် ကျောင်းမှ လယ်ယာသို့ မည်သို့ မောင်းနှင်နိုင်သည်ကို ပြသရန် ကောင်းထက်က ကားသည် မူလဦးတည်ရာနှင့် လုံးဝဆန့်ကျင်ဘက်ကို မျက်နှာမူသည်အထိ လှည့်ရမည် -- တစ်ဝက်လှည့်ခြင်း -- ပြီးမှ ရှေ့သို့ ဖြောင့်တန်း မောင်းရမည်ဟု ပြောခဲ့သည်။ သူငယ်ချင်းက ကားသည် အလုံးစုံ ပတ်လှည့်ပြီး ကျောင်းကို ပြန်၍ မည်သို့ မျက်နှာမူနိုင်သနည်းဟု မေးသောအခါ ကောင်းထက်က ၎င်းသည် အလှည့်တစ်ပတ် ဖြစ်ကြောင်း၊ အဘယ်ကြောင့်ဆိုသော် မူလ မျက်နှာမူထားသည့်အတိုင်း ပြန်ရောက်စေသောကြောင့်ဖြစ်ကြောင်း ပြောခဲ့သည်။\n\nစီမံကိန်း အဆုံးသတ်တွင် ကောင်းထက်သည် သူ၏ စံနမူနာမြို့ကို တည်ဆောက်ရန် အတွေးအခေါ်နှစ်မျိုး အတူတကွ လိုအပ်ကြောင်း သဘောပေါက်လာခဲ့သည်။ ပုံသဏ္ဌာန်တစ်ခုစီ၏ ဂုဏ်သတ္တိများ -- ဘေး၊ ထောင့်၊ မျက်နှာပြင်၊ အနားနှင့် ဒေါင့်များ မည်မျှရှိသည်ကို သိရှိခြင်း -- က မှန်ကန်သော အစိတ်အပိုင်းများကို ရွေးချယ်ပြီး တည်ဆောက်ရန် ကူညီပေးခဲ့သည်။ နေရာနှင့် ဦးတည်ရာ ဝေါဟာရများ -- အကြား၊ အနီး၊ အဝေးနှင့် လှည့်ခြင်းများ -- ကို သိရှိခြင်းက ထိုအစိတ်အပိုင်းများကို စီစဉ်ပြီး ၎င်းတို့ပတ်လည် မည်သို့ ရွေ့လျားရမည်ကို ရှင်းပြရန် ကူညီပေးခဲ့သည်။ ပုံသဏ္ဌာန်နှင့် နေရာအနေအထားတို့သည် တစ်ခုတည်းသော စံနမူနာမြို့ကို ဖော်ပြသည့် အစိတ်အပိုင်းနှစ်ပိုင်းသာ ဖြစ်ကြောင်း ယခုအခါ နားလည်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many straight sides does the triangle flag Kaung Htet cut out for the school have?",
+            questionMy:
+                "ကောင်းထက် ကျောင်းအတွက် လှီးဖြတ်ခဲ့သော တြိဂံအလံတွင် ဖြောင့်သောဘေး မည်မျှ ရှိသနည်း။",
+            optionsEn: ["3", "4", "2", "0"],
+            optionsMy: ["3", "4", "2", "0"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- Kaung Htet counts the triangle's straight sides one by one, just like Week 9 taught.",
+              "Recall Day 1's first quiz question about the same triangle flag -- a triangle always has exactly 3 straight sides.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက်သည် Week 9 က သင်ပေးခဲ့သည့်အတိုင်း တြိဂံ၏ ဖြောင့်သောဘေးများကို တစ်ခုချင်း ရေတွက်ခဲ့သည်။",
+              "Day 1 ပထမမေးခွန်းရှိ တူညီသော တြိဂံအလံကို သတိရပါ -- တြိဂံတွင် ဖြောင့်သောဘေး ၃ ဘက် အမြဲရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What 2D shape are all 6 faces of Kaung Htet's cube-shaped water tower?",
+            questionMy:
+                "ကောင်းထက်၏ ကုဗပုံ ရေတိုင်ကီ၏ မျက်နှာပြင် ၆ ခုစလုံးသည် မည်သည့် 2D ပုံသဏ္ဌာန် ဖြစ်သနည်း။",
+            optionsEn: [
+              "Square",
+              "Circle",
+              "Triangle",
+              "Rectangle that is not a square",
+            ],
+            optionsMy: [
+              "စတုရန်း",
+              "စက်ဝိုင်း",
+              "တြိဂံ",
+              "စတုရန်းမဟုတ်သော ထောင့်မှန်စတုဂံ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- every one of the cube's 6 faces is described as the exact same flat shape.",
+              "Recall Day 1's third quiz question about the same cube -- Week 9's square is the flat shape with 4 equal sides and 4 corners.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကုဗ၏ မျက်နှာပြင် ၆ ခုစလုံးသည် အတိအကျ တူညီသော ပြားသောပုံသဏ္ဌာန် ဟု ဖော်ပြထားသည်။",
+              "Day 1 တတိယမေးခွန်းရှိ တူညီသော ကုဗပုံကို သတိရပါ -- Week 9 ၏ စတုရန်းသည် တူညီသောဘေး ၄ ဘက်နှင့် ထောင့် ၄ ခု ရှိသော ပြားသောပုံသဏ္ဌာန် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Kaung Htet, what kind of turn does the toy car make to go from facing the school to facing the exact opposite direction?",
+            questionMy:
+                "ကောင်းထက်၏ ပြောပြချက်အရ ကားသည် ကျောင်းကို မျက်နှာမူသည့်အခြေအနေမှ လုံးဝဆန့်ကျင်ဘက်ကို မျက်နှာမူရန် မည်သည့်အမျိုးအစား လှည့်ခြင်းကို ပြုလုပ်သနည်း။",
+            optionsEn: [
+              "A half turn",
+              "A whole turn",
+              "No turn at all",
+              "Two whole turns",
+            ],
+            optionsMy: [
+              "တစ်ဝက်လှည့်ခြင်း",
+              "အလှည့်တစ်ပတ်",
+              "လုံးဝ မလှည့်ခြင်း",
+              "အလှည့်နှစ်ပတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Kaung Htet says the car turns until it faces the exact opposite direction, then drives toward the farm.",
+              "Recall Day 2's drag-match term -- a turn that ends up facing the exact opposite way from where you started is a half turn, not a whole turn.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကားသည် လုံးဝဆန့်ကျင်ဘက်ကို မျက်နှာမူသည်အထိ လှည့်ပြီးမှ လယ်ယာဘက်သို့ မောင်းသွားသည်ဟု ကောင်းထက် ပြောထားသည်။",
+              "Day 2 ၏ ဝေါဟာရ ကိုက်ညီစွာ တွဲချိတ်ခြင်းရှိ အသုံးအနှုန်းကို သတိရပါ -- မူလဦးတည်ရာနှင့် လုံးဝဆန့်ကျင်ဘက်ကို မျက်နှာမူသွားစေသော လှည့်ခြင်းသည် တစ်ဝက်လှည့်ခြင်း ဖြစ်ပြီး အလှည့်တစ်ပတ် မဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kaung Htet realize about shape and space by the end of his model town project?",
+            questionMy:
+                "စံနမူနာမြို့ စီမံကိန်း အဆုံးတွင် ပုံသဏ္ဌာန်နှင့် နေရာအနေအထားနှင့်ပတ်သက်၍ ကောင်းထက် မည်သို့ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Shape and space are two halves of describing the same model town -- shape properties help you build it, and position and direction words help you arrange and explain it.",
+              "Only shapes matter, and knowing where things are placed makes no difference.",
+              "3D shapes have no connection to 2D shapes, even though a cube's faces are flat squares.",
+              "Turning and counting corners mean exactly the same thing.",
+            ],
+            optionsMy: [
+              "ပုံသဏ္ဌာန်နှင့် နေရာအနေအထားတို့သည် တစ်ခုတည်းသော စံနမူနာမြို့ကို ဖော်ပြသည့် အစိတ်အပိုင်းနှစ်ပိုင်း ဖြစ်သည် -- ပုံသဏ္ဌာန်၏ ဂုဏ်သတ္တိများက တည်ဆောက်ရန် ကူညီပြီး၊ နေရာနှင့် ဦးတည်ရာ ဝေါဟာရများက စီစဉ်ရှင်းပြရန် ကူညီသည်။",
+              "ပုံသဏ္ဌာန်များသာ အရေးကြီးပြီး အရာများ မည်သည့်နေရာတွင် ရှိသည်ကို သိရှိခြင်းသည် ခြားနားချက် မရှိပါ။",
+              "ကုဗ၏ မျက်နှာပြင်များသည် ပြားသော စတုရန်းများ ဖြစ်နေသော်လည်း 3D ပုံသဏ္ဌာန်များသည် 2D ပုံသဏ္ဌာန်များနှင့် လုံးဝ ဆက်စပ်မှု မရှိပါ။",
+              "လှည့်ခြင်းနှင့် ထောင့်ရေတွက်ခြင်းတို့သည် အတိအကျ တူညီသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Kaung Htet names this exact idea himself, right after describing his model town.",
+              "This is the same big idea as Week 9's shape properties, Week 10's 3D-to-2D face connection, and Week 11's position and direction words -- three ways of looking at the same model town, not separate topics.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကောင်းထက်သည် သူ၏ စံနမူနာမြို့ကို ရှင်းပြပြီးနောက် ဤအတွေးအခေါ်အတိအကျကို ကိုယ်တိုင် အမည်တွင်ခဲ့သည်။",
+              "၎င်းသည် Week 9 ၏ ပုံသဏ္ဌာန်ဂုဏ်သတ္တိများ၊ Week 10 ၏ 3D မှ 2D မျက်နှာပြင်ဆက်စပ်မှုနှင့် Week 11 ၏ နေရာနှင့် ဦးတည်ရာ ဝေါဟာရများနှင့် တူညီသော အဓိကအတွေးအခေါ်ဖြစ်သည် -- ၎င်းတို့သည် သီးခြားခေါင်းစဉ်များမဟုတ်ဘဲ တူညီသော စံနမူနာမြို့ကို ကြည့်ရှုသည့် နည်းလမ်းသုံးမျိုး ဖြစ်ကြသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Shape and Space",
+      titleMy: "အပတ်စဉ် ၁၂ ပြန်လည်သုံးသပ်ခြင်း - ပုံသဏ္ဌာန်နှင့် နေရာအနေအထား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Kaung Htet cut out a circle for the market's sign. How many straight sides does a circle have?",
+          questionMy:
+              "ကောင်းထက်သည် စျေး၏ ဆိုင်းဘုတ်အတွက် စက်ဝိုင်းပုံကို လှီးဖြတ်ခဲ့သည်။ စက်ဝိုင်းတွင် ဖြောင့်သောဘေး မည်မျှ ရှိသနည်း။",
+          optionsEn: ["0", "1", "2", "4"],
+          optionsMy: ["0", "1", "2", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 9's lesson and Day 4's reading passage -- a circle is one smooth, curved edge running all the way around, with no straight sides at all.",
+            "Don't count the curved edge itself as one straight side -- a circle has zero straight sides and zero corners.",
+          ],
+          hintsMy: [
+            "Week 9 ၏ သင်ခန်းစာနှင့် Day 4 ၏ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- စက်ဝိုင်းသည် ပတ်လည်ဝိုင်းနေသော ချောမွေ့သည့် ကွေးသောအနား တစ်ခုတည်းသာ ဖြစ်ပြီး ဖြောင့်သောဘေး လုံးဝ မရှိပါ။",
+            "ကွေးသောအနားကိုပင် ဖြောင့်သောဘေးတစ်ဘက်အဖြစ် မရေတွက်ပါနှင့် -- စက်ဝိုင်းတွင် ဖြောင့်သောဘေး ၀ ဘက်နှင့် ထောင့် ၀ ခုသာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many straight edges does Kaung Htet's cube-shaped water tower block have?",
+          questionMy:
+              "ကောင်းထက်၏ ကုဗပုံ ရေတိုင်ကီ အုတ်ခဲတွင် ဖြောင့်သောအနား မည်မျှ ရှိသနည်း။",
+          optionsEn: ["12", "6", "8", "4"],
+          optionsMy: ["12", "6", "8", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question about the same cube's 6 faces, and Week 10's lesson -- a cube also has edges where those faces meet.",
+            "Recall the second paragraph of Day 4's reading passage -- after counting 6 faces, Kaung Htet counted 12 straight edges.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယမေးခွန်းရှိ တူညီသော ကုဗ၏ မျက်နှာပြင် ၆ ခုနှင့် Week 10 ၏ သင်ခန်းစာကို သတိရပါ -- ကုဗတွင် ထိုမျက်နှာပြင်များ ဆုံရာ အနားများလည်း ရှိသည်။",
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် ဒုတိယစာပိုဒ်ကို သတိရပါ -- မျက်နှာပြင် ၆ ခု ရေတွက်ပြီးနောက် ကောင်းထက်သည် ဖြောင့်သောအနား ၁၂ ခုကို ရေတွက်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many faces in total (flat and curved) does the cylinder-shaped grain silo block have?",
+          questionMy:
+              "စီလင်ဒါပုံ ဆန်စပါးလှောင်ရုံ အုတ်ခဲတွင် (ပြားသောနှင့် ကွေးသော) မျက်နှာပြင် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["3", "2", "1", "4"],
+          optionsMy: ["3", "2", "1", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage second paragraph -- the silo has 2 flat circular faces (top and bottom) plus 1 curved face wrapping around the middle.",
+            "Recall Day 2's drag-match term Face -- a cylinder's faces are counted the same way this term's example described.",
+          ],
+          hintsMy: [
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် ဒုတိယစာပိုဒ်ကို သတိရပါ -- ဆန်စပါးလှောင်ရုံတွင် ပြားသော စက်ဝိုင်းမျက်နှာပြင် ၂ ခု (အပေါ်နှင့် အောက်) နှင့် အလယ်ကွေးသောမျက်နှာပြင် ၁ ခု ရှိသည်။",
+            "Day 2 ၏ ဝေါဟာရ Face ကို သတိရပါ -- စီလင်ဒါ၏ မျက်နှာပြင်များကို ထိုအသုံးအနှုန်း ဥပမာနှင့် အတူတူ ရေတွက်ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Kaung Htet's model town, which building sits directly between the park and the market?",
+          questionMy:
+              "ကောင်းထက်၏ စံနမူနာမြို့တွင် ပန်းခြံနှင့် စျေးကြားတွင် တိုက်ရိုက် တည်ရှိသော အဆောက်အအုံမှာ အဘယ်နည်း။",
+          optionsEn: ["The school", "The library", "The farm", "The church"],
+          optionsMy: ["ကျောင်း", "စာကြည့်တိုက်", "လယ်ယာ", "ဘုရားကျောင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage third paragraph and Day 2's drag-match term Between -- the school sits in the middle with one place on each side.",
+            "Between means in the middle of two things with one on each side -- re-read which two places have the school in the middle.",
+          ],
+          hintsMy: [
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် တတိယစာပိုဒ်နှင့် Day 2 ၏ ဝေါဟာရ Between ကို သတိရပါ -- ကျောင်းသည် တစ်ဖက်စီရှိသော နေရာနှစ်ခု၏ အလယ်တွင် ရှိသည်။",
+            "Between ဆိုသည်မှာ အခြားအရာနှစ်ခု၏ အလယ်တွင် တစ်ဖက်စီရှိစွာ ရှိခြင်း ဖြစ်သည် -- မည်သည့်နေရာနှစ်ခု အလယ်တွင် ကျောင်းရှိသည်ကို ပြန်ဖတ်ကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Counting sides and corners for 2D shapes, counting faces and edges for 3D shapes, and using words like between and turns to describe position -- what one idea ties Weeks 9, 10 and 11 together?",
+          questionMy:
+              "2D ပုံသဏ္ဌာန်များအတွက် ဘေးနှင့် ထောင့်ရေတွက်ခြင်း၊ 3D ပုံသဏ္ဌာန်များအတွက် မျက်နှာပြင်နှင့် အနားရေတွက်ခြင်းနှင့် နေရာအနေအထားကို ဖော်ပြရန် between နှင့် လှည့်ခြင်း ဝေါဟာရများ အသုံးပြုခြင်း -- ဤသုံးခုစလုံးကို ဆက်စပ်ပေးသည့် တစ်ခုတည်းသော အတွေးအခေါ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Shape and space work together -- knowing a shape's properties helps you build and identify it, and knowing position and direction words helps you arrange and describe where it goes.",
+            "Only counting sides and corners matters, and knowing where things are placed makes no difference.",
+            "3D shapes have no connection to 2D shapes, even though a cube's faces are flat squares.",
+            "Turning and counting corners mean exactly the same thing.",
+          ],
+          optionsMy: [
+            "ပုံသဏ္ဌာန်နှင့် နေရာအနေအထားတို့သည် အတူတကွ လုပ်ဆောင်ကြသည် -- ပုံသဏ္ဌာန်၏ ဂုဏ်သတ္တိများကို သိရှိခြင်းက တည်ဆောက်ပြီး ခွဲခြားသိမြင်ရန် ကူညီပြီး၊ နေရာနှင့် ဦးတည်ရာ ဝေါဟာရများကို သိရှိခြင်းက စီစဉ်ပြီး ရှင်းပြရန် ကူညီသည်။",
+            "ဘေးနှင့် ထောင့်ရေတွက်ခြင်းသာ အရေးကြီးပြီး အရာများ မည်သည့်နေရာတွင် ရှိသည်ကို သိရှိခြင်းသည် ခြားနားချက် မရှိပါ။",
+            "ကုဗ၏ မျက်နှာပြင်များသည် ပြားသော စတုရန်းများ ဖြစ်နေသော်လည်း 3D ပုံသဏ္ဌာန်များသည် 2D ပုံသဏ္ဌာန်များနှင့် လုံးဝ ဆက်စပ်မှု မရှိပါ။",
+            "လှည့်ခြင်းနှင့် ထောင့်ရေတွက်ခြင်းတို့သည် အတိအကျ တူညီသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kaung Htet's realization at the end of Day 4's reading passage -- he named this exact idea himself, right after describing his model town.",
+            "This ties together Week 9's 2D shape properties, Week 10's 3D shape properties and their flat 2D faces, and Week 11's position and direction words -- all in a single model town.",
+          ],
+          hintsMy: [
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် အဆုံးရှိ ကောင်းထက်၏ သဘောပေါက်မှုကို သတိရပါ -- သူ ကိုယ်တိုင် ဤအတွေးအခေါ်အတိအကျကို အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် Week 9 ၏ 2D ပုံသဏ္ဌာန်ဂုဏ်သတ္တိများ၊ Week 10 ၏ 3D ပုံသဏ္ဌာန်ဂုဏ်သတ္တိများနှင့် ၎င်းတို့၏ ပြားသော 2D မျက်နှာပြင်များ၊ Week 11 ၏ နေရာနှင့် ဦးတည်ရာ ဝေါဟာရများကို စံနမူနာမြို့ တစ်ခုတည်းတွင် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 3: "Shape and Space" (Weeks 9-12) continues Year 1
+/// Mathematics's pathway, deliberately escalating past the Nursery
+/// legacy content's "Fun with Shapes" (mere shape-naming): Week 9
+/// analyzes 2D shape properties (sides/corners) rather than just naming
+/// pictures; Week 10 does the same for 3D shapes (faces/edges/corners),
+/// explicitly connecting each 3D shape's flat faces back to Week 9's 2D
+/// shapes; Week 11 introduces position/direction vocabulary and
+/// intuitive whole/half turns (no degrees); Week 12 is the capstone,
+/// combining all three into one real-world scenario. No formal
+/// angle/degree measurement, coordinate geometry, or clockwise/
+/// counterclockwise terminology is used this term, matching this
+/// pathway's age-appropriate-methods discipline.
+const CourseTermDef _year1MathematicsTerm3 = CourseTermDef(
+  id: "course-year1-mathematics-t3",
+  termNumber: 3,
+  titleEn: "Shape and Space",
+  titleMy: "ပုံသဏ္ဍာန်နှင့် နေရာဆိုင်ရာ",
+  certificateTitleEn: "Shape and Space",
+  certificateTitleMy: "ပုံသဏ္ဍာန်နှင့် နေရာဆိုင်ရာ",
+  weeks: [
+    _year1MathematicsWeek9,
+    _year1MathematicsWeek10,
+    _year1MathematicsWeek11,
+    _year1MathematicsWeek12,
+  ],
+);
+
 /// Year 1 Mathematics's pathway (Grade [Grade.year1]) -- the first
 /// Primary-tier "Academic Year" pathway authored, proving the same
 /// 36-week/term/daily-lesson/Socratic-hint template used by the
 /// Secondary pathways works for a much younger (age ~5-6) audience. Term
-/// 1 ("Numbers to 20", Weeks 1-4) and Term 2 ("Addition and Subtraction
-/// within 20", Weeks 5-8) are authored so far; see
-/// [_year1MathematicsTerm1]'s and [_year1MathematicsTerm2]'s own doc
-/// comments for the week-by-week spiral. [totalWeeks] stays 36 for the
-/// same "honest progress bar" reason the Secondary pathways' docs give
-/// while only a handful of weeks exist.
+/// 1 ("Numbers to 20", Weeks 1-4), Term 2 ("Addition and Subtraction
+/// within 20", Weeks 5-8) and Term 3 ("Shape and Space", Weeks 9-12) are
+/// authored so far; see [_year1MathematicsTerm1]'s, [_year1MathematicsTerm2]'s
+/// and [_year1MathematicsTerm3]'s own doc comments for the week-by-week
+/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
+/// reason the Secondary pathways' docs give while only a handful of
+/// weeks exist.
 const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   id: "course-year1-mathematics",
   subject: "mathematics",
@@ -51012,9 +52999,13 @@ const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမတန်း သင်တန်း",
   descriptionEn:
-      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario, before Term 2 builds addition and subtraction within 20 through counting on, counting back, and bridging through 10, ties them together as fact families and number bonds, and closes with a capstone combining addition and subtraction in one real-world scenario.",
+      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario, before Term 2 builds addition and subtraction within 20 through counting on, counting back, and bridging through 10, ties them together as fact families and number bonds, and closes with a capstone combining addition and subtraction in one real-world scenario, and Term 3 opens a shape and space strand -- analyzing 2D shape properties, 3D shape properties, and position/direction/turns -- closing with a capstone combining all three.",
   descriptionMy:
-      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဆက်ရေတွက်ခြင်း၊ ပြန်ရေတွက်ခြင်းနှင့် 10 ပြည့်အောင် ကူးပြောင်းခြင်းတို့ဖြင့် 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို တည်ဆောက်ပြီး၊ ၎င်းတို့ကို ဂဏန်းချည်နှောင်မှုနှင့် အချက်မိသားစုများအဖြစ် ပေါင်းစပ်ကာ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
+      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဆက်ရေတွက်ခြင်း၊ ပြန်ရေတွက်ခြင်းနှင့် 10 ပြည့်အောင် ကူးပြောင်းခြင်းတို့ဖြင့် 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို တည်ဆောက်ပြီး၊ ၎င်းတို့ကို ဂဏန်းချည်နှောင်မှုနှင့် အချက်မိသားစုများအဖြစ် ပေါင်းစပ်ကာ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် 2D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများ၊ 3D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများနှင့် နေရာ/ဦးတည်ရာ/လှည့်ခြင်းတို့ကို ဖွင့်လှစ်သင်ကြားပြီး ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_year1MathematicsTerm1, _year1MathematicsTerm2],
+  terms: [
+    _year1MathematicsTerm1,
+    _year1MathematicsTerm2,
+    _year1MathematicsTerm3,
+  ],
 );
