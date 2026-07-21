@@ -33934,6 +33934,19 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
 /// principle explicitly; Week 8 is Term 2's capstone, tying chemical
 /// reactions (new substances forming, unlike Week 2's physical changes)
 /// to Week 7's energy transfers via exothermic/endothermic reactions.
+/// Term 3, "Reactions, Electricity and Magnetism" (see
+/// [_secondary1ScienceTerm3]), continues the spiral: Week 9 deepens
+/// Week 8's chemical-reaction strand with word equations, the
+/// conservation of mass, and naming combustion/oxidation as reaction
+/// types with very different rates; Week 10 opens a third physics
+/// strand, simple series circuits and electrical conductors/insulators,
+/// explicitly compared to (but distinguished from) Week 4's thermal
+/// conductors/insulators; Week 11 opens magnetism as its own strand
+/// (poles, attraction/repulsion, magnetic materials, compasses); Week 12
+/// is Term 3's capstone, combining Week 10's circuits and Week 11's
+/// magnetism into electromagnets, and tracing the energy transfer chain
+/// (chemical -> electrical -> magnetic, with some loss to thermal
+/// energy) back to Week 7's conservation principle.
 const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
   id: "course-secondary1-science-w1",
   weekNumber: 1,
@@ -38454,6 +38467,2268 @@ const CourseWeekDef _secondary1ScienceWeek8 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 1 Science -- Term 3, Week 9: "Word Equations and the
+// Conservation of Mass"
+// =====================================================================
+
+/// Week 9 opens Term 3 by deepening Week 8's chemical-reaction strand:
+/// word equations (reactants -> products), the law of conservation of
+/// mass, and naming combustion/oxidation as reaction types with very
+/// different rates. Deliberately no chemical formulas or numeric mass
+/// calculations -- word equations only, matching Week 6/8's "no
+/// unearned precision" caution.
+const CourseWeekDef _secondary1ScienceWeek9 = CourseWeekDef(
+  id: "course-secondary1-science-w9",
+  weekNumber: 9,
+  titleEn: "Word Equations and the Conservation of Mass",
+  titleMy: "စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w9-d1",
+      dayNumber: 1,
+      titleEn: "Word Equations and Conservation of Mass Quiz",
+      titleMy: "စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှု ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is a word equation, and what does the arrow (->) inside it mean?",
+          questionMy:
+              "စကားလုံးညီမျှခြင်း (Word Equation) ဆိုသည်မှာ အဘယ်နည်း၊ ၎င်းအတွင်းရှိ မြားပြ (->) က အဘယ်အဓိပ္ပာယ်ရှိသနည်း။",
+          optionsEn: [
+            "A way of describing a chemical reaction using words -- reactants on the left, an arrow meaning \"reacts to form,\" then products on the right.",
+            "A math equation that only uses numbers, never words.",
+            "A way of measuring temperature using words instead of a thermometer.",
+            "A list of ingredients with no connection to chemistry at all.",
+          ],
+          optionsMy: [
+            "စကားလုံးများကို အသုံးပြု၍ ဓာတုတုန့်ပြန်မှုတစ်ခုကို ဖော်ပြသည့်နည်းလမ်း -- ဘယ်ဘက်တွင် တုန့်ပြန်ပစ္စည်းများ၊ \"တုန့်ပြန်ကာ ဖြစ်ပေါ်စေသည်\" ဟု အဓိပ္ပာယ်ရှိသော မြားပြ၊ ထို့နောက် ညာဘက်တွင် ရလဒ်ပစ္စည်းများ။",
+            "ဂဏန်းများကိုသာ အသုံးပြုသော သင်္ချာညီမျှခြင်းဖြစ်ပြီး စကားလုံးများ လုံးဝ မပါဝင်ပါ။",
+            "အပူချိန်တိုင်းကိရိယာအစား စကားလုံးများဖြင့် အပူချိန်ကို တိုင်းတာသည့်နည်းလမ်း။",
+            "ဓာတုဗေဒနှင့် လုံးဝ မသက်ဆိုင်သော ပါဝင်ပစ္စည်းစာရင်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 8's reactants and products -- a word equation is just a compact way of writing them in order, connected by an arrow.",
+            "The arrow always points from what you start with (reactants) toward what you end up with (products), never the other way around.",
+          ],
+          hintsMy: [
+            "Week 8 ၏ တုန့်ပြန်ပစ္စည်းနှင့် ရလဒ်ပစ္စည်းများကို သတိရပါ -- စကားလုံးညီမျှခြင်းဆိုသည်မှာ ၎င်းတို့ကို အစဉ်လိုက် မြားပြဖြင့် ချိတ်ဆက်ရေးသားသည့် နည်းလမ်းတစ်ခုမျှသာ ဖြစ်သည်။",
+            "မြားပြသည် အစပြုသောအရာ (တုန့်ပြန်ပစ္စည်းများ) မှ အဆုံးသတ်ရလဒ် (ရလဒ်ပစ္စည်းများ) သို့ အမြဲညွှန်ပြပြီး ပြောင်းပြန် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the word equation \"wood + oxygen -> carbon dioxide + water,\" which substances are the reactants?",
+          questionMy:
+              "\"သစ်သား + အောက်ဆီဂျင် -> ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ\" ဟူသော စကားလုံးညီမျှခြင်းတွင် မည်သည့်ပစ္စည်းများသည် တုန့်ပြန်ပစ္စည်းများ ဖြစ်ကြသနည်း။",
+          optionsEn: [
+            "Wood and oxygen",
+            "Carbon dioxide and water",
+            "Only wood, nothing else",
+            "Only carbon dioxide, nothing else",
+          ],
+          optionsMy: [
+            "သစ်သားနှင့် အောက်ဆီဂျင်",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေ",
+            "သစ်သားတစ်ခုတည်းသာ၊ အခြားမပါ",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်တစ်ခုတည်းသာ၊ အခြားမပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Reactants always sit on the left side of the arrow, before the reaction happens.",
+            "Carbon dioxide and water are what's left afterward -- the products, on the right side of the arrow.",
+          ],
+          hintsMy: [
+            "တုန့်ပြန်ပစ္စည်းများသည် မြားပြ၏ ဘယ်ဘက်တွင် တုန့်ပြန်မှု မဖြစ်ပွားမီ အမြဲရှိသည်။",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေသည် တုန့်ပြန်ပြီးနောက် ကျန်ရှိသောအရာဖြစ်ပြီး -- မြားပြ၏ ညာဘက်ရှိ ရလဒ်ပစ္စည်းများ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If magnesium reacts completely with oxygen to form magnesium oxide, what does the law of conservation of mass tell you about the total mass of reactants compared to the total mass of products?",
+          questionMy:
+              "မဂ္ဂနီဆီယမ်သည် အောက်ဆီဂျင်နှင့် အပြည့်အဝတုန့်ပြန်ကာ မဂ္ဂနီဆီယမ်အောက်ဆိုဒ် ဖြစ်ပေါ်လာပါက၊ တုန့်ပြန်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းသည် ရလဒ်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းနှင့် ယှဉ်လျှင် အလေးချိန်ထိန်းသိမ်းမှု ဥပဒေက အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "The total mass of reactants always equals the total mass of products -- no mass is lost or gained, atoms are just rearranged.",
+            "The mass of products is always less, because atoms simply vanish.",
+            "The mass of products only counts the magnesium, ignoring the oxygen completely.",
+            "Mass has nothing to do with chemical reactions.",
+          ],
+          optionsMy: [
+            "တုန့်ပြန်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းသည် ရလဒ်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းနှင့် အမြဲညီမျှသည် -- အလေးချိန် ဆုံးရှုံးခြင်း (သို့) တိုးလာခြင်း လုံးဝမရှိဘဲ အက်တမ်များ ပြန်လည်စီစဉ်ခံရခြင်းသာ ဖြစ်သည်။",
+            "ရလဒ်ပစ္စည်းများ၏ အလေးချိန်သည် အက်တမ်များ ရိုးရိုးရှင်းရှင်း ပျောက်ကွယ်သွားသောကြောင့် အမြဲနည်းသည်။",
+            "ရလဒ်ပစ္စည်းများ၏ အလေးချိန်တွင် မဂ္ဂနီဆီယမ်ကိုသာ ရေတွက်ပြီး အောက်ဆီဂျင်ကို လုံးဝ လျစ်လျူရှုသည်။",
+            "အလေးချိန်သည် ဓာတုတုန့်ပြန်မှုနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's atoms -- a chemical reaction rearranges atoms into new combinations, it never creates or destroys them.",
+            "This is the same conservation idea as Week 7's energy -- just applied to mass instead of energy this time.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ အက်တမ်များကို သတိရပါ -- ဓာတုတုန့်ပြန်မှုတစ်ခုသည် အက်တမ်များကို ပေါင်းစပ်မှုအသစ်များအဖြစ် ပြန်လည်စီစဉ်ပေးသည်၊ ၎င်းတို့ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ပါ။",
+            "၎င်းသည် Week 7 ၏ စွမ်းအင်ထိန်းသိမ်းမှုအယူအဆတည်းဖြစ်ပြီး -- ယခုတစ်ကြိမ်တွင် စွမ်းအင်အစား အလေးချိန်ပေါ်တွင် အသုံးချထားခြင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rusting (iron reacting with oxygen) and burning wood (wood reacting with oxygen) are both the same broad reaction type. What is it called, and how do their rates differ?",
+          questionMy:
+              "သံချေးတက်ခြင်း (သံသည် အောက်ဆီဂျင်နှင့် တုန့်ပြန်ခြင်း) နှင့် သစ်သားလောင်ကျွမ်းခြင်း (သစ်သားသည် အောက်ဆီဂျင်နှင့် တုန့်ပြန်ခြင်း) နှစ်မျိုးလုံးသည် ကျယ်ပြန့်သော တုန့်ပြန်မှုအမျိုးအစားတစ်ခုတည်း ဖြစ်သည်။ ၎င်းကို အဘယ်ဟုခေါ်ပြီး ၎င်းတို့၏ နှုန်းများသည် မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "Oxidation; rusting is a slow reaction while burning is a fast reaction, even though both involve a substance reacting with oxygen.",
+            "Both happen at exactly the same speed.",
+            "Rusting is faster than burning.",
+            "Neither reaction involves oxygen at all.",
+          ],
+          optionsMy: [
+            "အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု (Oxidation); နှစ်ခုစလုံးသည် ပစ္စည်းတစ်ခု အောက်ဆီဂျင်နှင့် တုန့်ပြန်ခြင်းဖြစ်သော်လည်း သံချေးတက်ခြင်းသည် နှေးကွေးသော တုန့်ပြန်မှုဖြစ်ပြီး လောင်ကျွမ်းခြင်းသည် လျင်မြန်သော တုန့်ပြန်မှု ဖြစ်သည်။",
+            "နှစ်ခုစလုံးသည် အတိအကျ တူညီသောအမြန်နှုန်းဖြင့် ဖြစ်ပျက်ကြသည်။",
+            "သံချေးတက်ခြင်းသည် လောင်ကျွမ်းခြင်းထက် ပိုမြန်သည်။",
+            "နှစ်မျိုးလုံးတွင် အောက်ဆီဂျင် လုံးဝ မပါဝင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Both reactions combine a substance with oxygen -- that shared feature has one name, even though they happen at very different speeds.",
+            "Think about how long each takes in real life -- rust appears over days or weeks, while a fire consumes wood in minutes.",
+          ],
+          hintsMy: [
+            "တုန့်ပြန်မှုနှစ်မျိုးလုံးသည် ပစ္စည်းတစ်ခုကို အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ပေးသည် -- ဤဘုံအချက်တွင် နာမည်တစ်ခုတည်းသာရှိသော်လည်း အမြန်နှုန်း များစွာ ကွာခြားသည်။",
+            "တကယ့်ဘဝတွင် တစ်ခုစီ မည်မျှကြာမြင့်သည်ကို စဉ်းစားပါ -- သံချေးသည် ရက်များ (သို့) ရက်သတ္တပတ်များအတွင်း ပေါ်လာပြီး၊ မီးသည် သစ်သားကို မိနစ်အနည်းငယ်အတွင်း လောင်ကျွမ်းစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match the Reaction Terms",
+      titleMy: "တုန့်ပြန်မှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w9-dm-1",
+          termEn: "Word Equation",
+          termMy: "စကားလုံးညီမျှခြင်း (Word Equation)",
+          matchEn:
+              "A way of describing a chemical reaction using words: reactants on the left, an arrow, then products on the right.",
+          matchMy:
+              "ဓာတုတုန့်ပြန်မှုတစ်ခုကို စကားလုံးများဖြင့် ဖော်ပြသည့်နည်းလမ်း - ဘယ်ဘက်တွင် တုန့်ပြန်ပစ္စည်းများ၊ မြားပြ၊ ထို့နောက် ညာဘက်တွင် ရလဒ်ပစ္စည်းများ။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w9-dm-2",
+          termEn: "Law of Conservation of Mass",
+          termMy: "အလေးချိန်ထိန်းသိမ်းမှု ဥပဒေ (Law of Conservation of Mass)",
+          matchEn:
+              "The rule that the total mass of reactants always equals the total mass of products in a chemical reaction -- atoms are rearranged, never created or destroyed.",
+          matchMy:
+              "ဓာတုတုန့်ပြန်မှုတစ်ခုတွင် တုန့်ပြန်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းသည် ရလဒ်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းနှင့် အမြဲညီမျှသည်ဆိုသော စည်းမျဉ်း -- အက်တမ်များ ပြန်လည်စီစဉ်ခံရခြင်းသာ ဖြစ်ပြီး ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ပါ။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w9-dm-3",
+          termEn: "Combustion",
+          termMy: "လောင်ကျွမ်းမှုတုန့်ပြန်ခြင်း (Combustion)",
+          matchEn:
+              "A fast, exothermic reaction between a fuel and oxygen, producing carbon dioxide, water and energy -- as seen in Week 8's burning wood.",
+          matchMy:
+              "လောင်စာနှင့် အောက်ဆီဂျင်ကြား လျင်မြန်ပြီး အပူထုတ်သော တုန့်ပြန်မှုဖြစ်ပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ်၊ ရေနှင့် စွမ်းအင်ကို ထုတ်ပေးသည် -- Week 8 ၏ သစ်သားလောင်ကျွမ်းခြင်းတွင် တွေ့ရသည့်အတိုင်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w9-dm-4",
+          termEn: "Oxidation",
+          termMy: "အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု (Oxidation)",
+          matchEn:
+              "A reaction in which a substance combines with oxygen, forming a new compound -- rusting iron is a slow example.",
+          matchMy:
+              "ပစ္စည်းတစ်ခုသည် အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ကာ ဒြပ်ပေါင်းအသစ် ဖြစ်ပေါ်စေသော တုန့်ပြန်မှု -- သံချေးတက်ခြင်းသည် နှေးကွေးသော ဥပမာတစ်ခု ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w9-dm-5",
+          termEn: "Rate of Reaction",
+          termMy: "တုန့်ပြန်မှုနှုန်း (Rate of Reaction)",
+          matchEn:
+              "How quickly a chemical reaction happens -- rusting is slow, while burning and explosions are fast.",
+          matchMy:
+              "ဓာတုတုန့်ပြန်မှုတစ်ခု မည်မျှလျင်မြန်စွာ ဖြစ်ပျက်သည်ဆိုသည့်အချက် -- သံချေးတက်ခြင်းသည် နှေးကွေးပြီး၊ လောင်ကျွမ်းခြင်းနှင့် ပေါက်ကွဲခြင်းများမူ လျင်မြန်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w9-dm-6",
+          termEn: "Fuel",
+          termMy: "လောင်စာ (Fuel)",
+          matchEn:
+              "A substance, like wood, petrol or gas, that reacts with oxygen in combustion to release energy.",
+          matchMy:
+              "သစ်သား၊ ဓာတ်ဆီ (သို့) ဓာတ်ငွေ့ကဲ့သို့ လောင်ကျွမ်းမှုတွင် အောက်ဆီဂျင်နှင့် တုန့်ပြန်ကာ စွမ်းအင် ထုတ်ပေးသော ပစ္စည်း။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fast Reaction or Slow Reaction?",
+      titleMy:
+          "စီစစ်ကြမည် - လျင်မြန်သောတုန့်ပြန်မှုလား၊ နှေးကွေးသောတုန့်ပြန်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fast Reaction", "Slow Reaction"],
+        bucketsMy: ["လျင်မြန်သောတုန့်ပြန်မှု", "နှေးကွေးသောတုန့်ပြန်မှု"],
+        items: [
+          SortingItem(
+            id: "s1sci-w9-sort-1",
+            labelEn: "A firework exploding",
+            labelMy: "မီးရှူးမီးပန်း ပေါက်ကွဲခြင်း",
+            correctBucketEn: "Fast Reaction",
+            correctBucketMy: "လျင်မြန်သောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-2",
+            labelEn: "An iron gate rusting over several years",
+            labelMy: "သံတံခါးတစ်ခု နှစ်ပေါင်းများစွာ သံချေးတက်ခြင်း",
+            correctBucketEn: "Slow Reaction",
+            correctBucketMy: "နှေးကွေးသောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-3",
+            labelEn: "A campfire burning",
+            labelMy: "စခန်းမီး လောင်ကျွမ်းခြင်း",
+            correctBucketEn: "Fast Reaction",
+            correctBucketMy: "လျင်မြန်သောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-4",
+            labelEn: "A bicycle chain slowly rusting in the rain",
+            labelMy: "စက်ဘီးကွင်းဆက် မိုးထဲတွင် ဖြည်းညှင်းစွာ သံချေးတက်ခြင်း",
+            correctBucketEn: "Slow Reaction",
+            correctBucketMy: "နှေးကွေးသောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-5",
+            labelEn: "A match being struck and lighting",
+            labelMy: "မီးခြစ်တစ်ချောင်း တိုက်၍ မီးလောင်ခြင်း",
+            correctBucketEn: "Fast Reaction",
+            correctBucketMy: "လျင်မြန်သောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-6",
+            labelEn: "A copper roof slowly changing color over many years",
+            labelMy:
+                "ကြေးနီအမိုးတစ်ခု နှစ်ပေါင်းများစွာအတွင်း အရောင်ဖြည်းညှင်းစွာ ပြောင်းလဲခြင်း",
+            correctBucketEn: "Slow Reaction",
+            correctBucketMy: "နှေးကွေးသောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-7",
+            labelEn: "A birthday candle's flame burning",
+            labelMy: "မွေးနေ့ဖယောင်းတိုင်၏ မီးလျှံ လောင်ကျွမ်းခြင်း",
+            correctBucketEn: "Fast Reaction",
+            correctBucketMy: "လျင်မြန်သောတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w9-sort-8",
+            labelEn: "A silver spoon slowly darkening over months",
+            labelMy:
+                "ငွေဇွန်းတစ်ချောင်း လများစွာအတွင်း ဖြည်းညှင်းစွာ ပိန်းမှောင်လာခြင်း",
+            correctBucketEn: "Slow Reaction",
+            correctBucketMy: "နှေးကွေးသောတုန့်ပြန်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Compares Two Reactions",
+      titleMy: "စာဖတ်ခြင်း - ဇင်၏ တုန့်ပြန်မှုနှစ်ခု နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Compares Two Reactions",
+        titleMy: "ဇင်၏ တုန့်ပြန်မှုနှစ်ခု နှိုင်းယှဉ်ခြင်း",
+        passageEn:
+            "Zin noticed that the chain on his old bicycle had turned a dull orange-brown after being left out in the rain for a week. At the same time, his father was lighting a small charcoal fire in the yard to cook dinner. Zin realized both changes were the same broad type of reaction: oxidation, a substance combining with oxygen. The bicycle chain's iron was slowly reacting with oxygen in the damp air to form rust, while the charcoal was reacting quickly with oxygen in the fire, releasing heat and light -- combustion.\n\nCurious about the difference, Zin wrote out word equations for both, remembering this week's lesson: iron + oxygen -> iron oxide for the rusting chain, and carbon (in the charcoal) + oxygen -> carbon dioxide for the fire. Both reactions involved oxygen combining with a substance, but the rusting chain took days to change noticeably, while the fire's combustion happened in seconds -- a huge difference in rate of reaction.\n\nAfter the fire had burned down, Zin weighed the leftover ash on a kitchen scale, remembering the measuring tools from Week 1. He was surprised to find the ash weighed much less than the original charcoal. His father explained that this didn't break the law of conservation of mass: most of the carbon in the charcoal had combined with oxygen from the air and escaped as invisible carbon dioxide gas, drifting away before Zin could weigh it. If Zin had been able to weigh all the gas along with the ash, the total mass of everything produced would exactly equal the total mass of the charcoal and oxygen that reacted.\n\nZin's father reminded him that the bicycle chain's rust, meanwhile, stayed attached to the metal instead of escaping as a gas -- which is why a rusted object often feels like it weighs slightly more than before, as the oxygen it absorbed from the air adds to its mass. Both examples, Zin realized, followed the exact same rule: mass is never created or destroyed in a chemical reaction, only rearranged.",
+        passageMy:
+            "ဇင်သည် သူ၏ စက်ဘီးအဟောင်း၏ ကွင်းဆက်သည် မိုးထဲတွင် တစ်ပတ်ခန့် ချန်ထားခဲ့ရာမှ မှိန်မှိန်လိမ္မော်-အညိုရောင်သို့ ပြောင်းလဲသွားသည်ကို သတိထားမိသည်။ ထိုအချိန်တွင် သူ့ဖခင်သည် ညစာချက်ရန် ဝင်းထဲတွင် မီးသွေးမီးငယ်တစ်ခု ညှိနေခဲ့သည်။ ဇင်သည် ပြောင်းလဲမှုနှစ်ခုစလုံးသည် ကျယ်ပြန့်သော တုန့်ပြန်မှုအမျိုးအစားတစ်ခုတည်းဖြစ်ကြောင်း သိရှိလိုက်သည် - အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု၊ ပစ္စည်းတစ်ခုသည် အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ခြင်း။ စက်ဘီးကွင်းဆက်၏ သံသည် စိုစွတ်သောလေထဲက အောက်ဆီဂျင်နှင့် ဖြည်းညှင်းစွာ တုန့်ပြန်ကာ သံချေးဖြစ်ပေါ်စေခဲ့ပြီး၊ မီးသွေးမူ မီးထဲရှိ အောက်ဆီဂျင်နှင့် လျင်မြန်စွာ တုန့်ပြန်ကာ အပူနှင့် အလင်းကို ထုတ်လွှတ်ခဲ့သည် -- လောင်ကျွမ်းမှုတုန့်ပြန်ခြင်း။\n\nကွာခြားချက်ကို စိတ်ဝင်စားသဖြင့် ဇင်သည် ဤအပတ်၏ သင်ခန်းစာကို သတိရလျက် နှစ်ခုစလုံးအတွက် စကားလုံးညီမျှခြင်းများကို ရေးခဲ့သည် - သံချေးတက်နေသောကွင်းဆက်အတွက် သံ + အောက်ဆီဂျင် -> သံအောက်ဆိုဒ်၊ မီးအတွက် ကာဗွန် (မီးသွေးထဲရှိ) + အောက်ဆီဂျင် -> ကာဗွန်ဒိုင်အောက်ဆိုဒ်။ တုန့်ပြန်မှုနှစ်ခုစလုံးတွင် အောက်ဆီဂျင်သည် ပစ္စည်းတစ်ခုနှင့် ပေါင်းစပ်ခဲ့သော်လည်း၊ သံချေးတက်နေသောကွင်းဆက်သည် သိသိသာသာ ပြောင်းလဲရန် ရက်များစွာ ကြာခဲ့ပြီး၊ မီး၏ လောင်ကျွမ်းမှုမူ စက္ကန့်အနည်းငယ်အတွင်း ဖြစ်ပျက်ခဲ့သည် -- တုန့်ပြန်မှုနှုန်း တွင် ကြီးမားသော ကွာခြားချက်။\n\nမီးငြိမ်းသွားပြီးနောက် ဇင်သည် Week 1 ၏ တိုင်းတာရေးကိရိယာများကို သတိရလျက် ကျန်ရှိသော ပြာကို မီးဖိုချောင်စက္ကားပေါ်တွင် ချိန်ကြည့်ခဲ့သည်။ ပြာသည် မူလမီးသွေးထက် များစွာပေါ့သွားသည်ကို တွေ့ရသဖြင့် အံ့သြသွားခဲ့သည်။ သူ့ဖခင်က ၎င်းသည် အလေးချိန်ထိန်းသိမ်းမှု ဥပဒေကို ချိုးဖောက်ခြင်း မဟုတ်ကြောင်း ရှင်းပြခဲ့သည် - မီးသွေးထဲရှိ ကာဗွန်အများစုသည် လေထဲရှိ အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ကာ မမြင်ရသော ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့အဖြစ် ဇင်ချိန်ခွင်တင်နိုင်မီ ပျံ့သွားခဲ့သည်။ ဇင်သည် ဓာတ်ငွေ့အားလုံးကို ပြာနှင့်အတူ ချိန်နိုင်ခဲ့ပါက ထွက်ရှိလာသော ရလဒ်ပစ္စည်းအားလုံး၏ အလေးချိန်စုစုပေါင်းသည် တုန့်ပြန်ခဲ့သော မီးသွေးနှင့် အောက်ဆီဂျင်၏ အလေးချိန်စုစုပေါင်းနှင့် အတိအကျ ညီမျှလိမ့်မည် ဖြစ်သည်။\n\nဇင်၏ ဖခင်က စက်ဘီးကွင်းဆက်၏ သံချေးမူ ဓာတ်ငွေ့အဖြစ် မပျံ့ဘဲ သတ္တုပေါ်တွင် ဆက်လက်ကပ်နေသည်ကို သတိပေးခဲ့သည် -- ၎င်းကြောင့် သံချေးတက်နေသော ပစ္စည်းတစ်ခုသည် ယခင်ထက် အနည်းငယ် ပိုလေးသည်ဟု မကြာခဏ ခံစားရခြင်းဖြစ်ပြီး၊ လေမှ စုပ်ယူထားသော အောက်ဆီဂျင်သည် ၎င်း၏ အလေးချိန်ကို ထပ်ပေါင်းပေးနေခြင်း ဖြစ်သည်။ ဥပမာနှစ်ခုစလုံးသည် အတိအကျ တူညီသောစည်းမျဉ်းကို လိုက်နာနေကြောင်း ဇင် သိရှိလိုက်သည် - ဓာတုတုန့်ပြန်မှုတစ်ခုအတွင်း အလေးချိန်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ဘဲ ပြန်လည်စီစဉ်ခံရခြင်းသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What type of reaction do both the rusting bicycle chain and the charcoal fire have in common?",
+            questionMy:
+                "သံချေးတက်နေသော စက်ဘီးကွင်းဆက်နှင့် မီးသွေးမီး နှစ်ခုစလုံးတွင် ဘုံတူညီသော တုန့်ပြန်မှုအမျိုးအစားမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Oxidation -- both involve a substance combining with oxygen.",
+              "Only the fire involves oxygen; the chain does not.",
+              "Both are physical changes, not chemical reactions.",
+              "Neither involves any chemical reaction.",
+            ],
+            optionsMy: [
+              "အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု (Oxidation) -- နှစ်ခုစလုံးတွင် ပစ္စည်းတစ်ခု အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ခြင်း ပါဝင်သည်။",
+              "မီးတွင်သာ အောက်ဆီဂျင် ပါဝင်ပြီး ကွင်းဆက်တွင် မပါဝင်ပါ။",
+              "နှစ်ခုစလုံးသည် ရူပနည်းပြောင်းလဲမှုများသာဖြစ်ပြီး ဓာတုတုန့်ပြန်မှုများ မဟုတ်ပါ။",
+              "နှစ်ခုစလုံးတွင် ဓာတုတုန့်ပြန်မှု လုံးဝ မပါဝင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- what single word does Zin use to describe both changes?",
+              "Both the chain's iron and the charcoal's carbon are combining with the same gas from the air.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပြောင်းလဲမှုနှစ်ခုစလုံးကို ဖော်ပြရန် ဇင်က မည်သည့်စကားလုံးတစ်လုံးတည်း သုံးခဲ့သနည်း။",
+              "ကွင်းဆက်၏ သံနှင့် မီးသွေး၏ ကာဗွန် နှစ်ခုစလုံးသည် လေထဲမှ ဓာတ်ငွေ့တစ်မျိုးတည်းနှင့် ပေါင်းစပ်နေခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did the leftover ash weigh less than the original charcoal, even though mass is conserved?",
+            questionMy:
+                "စာပိုဒ်အရ၊ အလေးချိန် ထိန်းသိမ်းခံထားရသော်လည်း ကျန်ရှိသောပြာသည် မူလမီးသွေးထက် အဘယ့်ကြောင့် ပေါ့နေသနည်း။",
+            optionsEn: [
+              "Much of the carbon combined with oxygen and escaped as invisible carbon dioxide gas, which wasn't weighed with the ash.",
+              "Mass is not actually conserved in real reactions.",
+              "The charcoal disappeared completely into nothing.",
+              "The kitchen scale was broken.",
+            ],
+            optionsMy: [
+              "ကာဗွန်အများစုသည် အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ကာ မမြင်ရသော ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့အဖြစ် ပျံ့သွားခဲ့ပြီး ပြာနှင့်အတူ မချိန်ခဲ့ပါ။",
+              "အမှန်တကယ် တုန့်ပြန်မှုများတွင် အလေးချိန် ထိန်းသိမ်းမှု မရှိချေ။",
+              "မီးသွေးသည် လုံးဝ ကင်းမဲ့သွားခဲ့သည်။",
+              "မီးဖိုချောင်စက္ကားသည် ပျက်နေခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- what does Zin's father say happened to most of the carbon?",
+              "Recall Week 9's word equation for the fire -- carbon dioxide is a gas, and gases can drift away unweighed.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကာဗွန်အများစုတွင် အဘယ်အရာ ဖြစ်ပျက်ခဲ့ကြောင်း ဇင်၏ ဖခင်က ပြောခဲ့သနည်း။",
+              "မီးအတွက် ဤအပတ်၏ စကားလုံးညီမျှခြင်းကို သတိရပါ -- ကာဗွန်ဒိုင်အောက်ဆိုဒ်သည် ဓာတ်ငွေ့ဖြစ်ပြီး ဓာတ်ငွေ့များသည် မချိန်ခင် ပျံ့သွားနိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does a rusted metal object often weigh slightly MORE than before it rusted?",
+            questionMy:
+                "သံချေးတက်ထားသော သတ္တုပစ္စည်းတစ်ခုသည် သံချေးမတက်မီထက် အဘယ့်ကြောင့် အနည်းငယ် ပိုလေးလေ့ရှိသနည်း။",
+            optionsEn: [
+              "It absorbs oxygen from the air, which adds to its mass, and (unlike the fire's gas) that oxygen stays attached as solid rust.",
+              "Rust always removes mass from metal.",
+              "Rust has no relationship to mass at all.",
+              "The metal shrinks in size, making it feel heavier.",
+            ],
+            optionsMy: [
+              "ဤသည်မှာ လေမှ အောက်ဆီဂျင်ကို စုပ်ယူထားပြီး ၎င်းသည် ၎င်း၏ အလေးချိန်ကို ထပ်ပေါင်းပေးသည်၊ (မီး၏ ဓာတ်ငွေ့နှင့် မတူဘဲ) ထိုအောက်ဆီဂျင်သည် အစိုင်အခဲသံချေးအဖြစ် ဆက်လက် ကပ်နေသောကြောင့်။",
+              "သံချေးသည် သတ္တုမှ အလေးချိန်ကို အမြဲဖယ်ရှားသည်။",
+              "သံချေးသည် အလေးချိန်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+              "သတ္တုသည် ပမာဏ ကျဉ်းသွားသဖြင့် ပိုလေးသကဲ့သို့ ခံစားရသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- what does Zin's father say happens to the oxygen the metal absorbs?",
+              "Unlike the fire's carbon dioxide, rust doesn't escape as a gas -- it stays solid and attached, adding to the object's mass.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သတ္တုစုပ်ယူထားသော အောက်ဆီဂျင်တွင် အဘယ်အရာ ဖြစ်ပျက်သည်ဟု ဇင်၏ ဖခင်က ပြောခဲ့သနည်း။",
+              "မီး၏ ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် မတူဘဲ၊ သံချေးသည် ဓာတ်ငွေ့အဖြစ် မပျံ့ဘဲ အစိုင်အခဲအဖြစ် ဆက်ကပ်နေကာ ပစ္စည်း၏ အလေးချိန်ကို ထပ်ပေါင်းပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the key difference between the rusting chain and the charcoal fire, according to Zin?",
+            questionMy:
+                "ဇင်အလိုအရ သံချေးတက်နေသောကွင်းဆက်နှင့် မီးသွေးမီးအကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The rate of reaction -- rusting took days, while combustion took seconds.",
+              "The chain didn't involve any chemical change at all.",
+              "The fire didn't involve oxygen.",
+              "There was no difference between them at all.",
+            ],
+            optionsMy: [
+              "တုန့်ပြန်မှုနှုန်း -- သံချေးတက်ခြင်းသည် ရက်များစွာ ကြာပြီး လောင်ကျွမ်းမှုမူ စက္ကန့်အနည်းငယ်သာ ကြာသည်။",
+              "ကွင်းဆက်တွင် ဓာတုနည်းပြောင်းလဲမှု လုံးဝ မပါဝင်ခဲ့ပါ။",
+              "မီးတွင် အောက်ဆီဂျင် မပါဝင်ခဲ့ပါ။",
+              "နှစ်ခုစလုံးကြား ကွာခြားချက် လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph's final sentence, which names this exact difference directly.",
+              "This is Day 1's rate-of-reaction concept, applied to the two events Zin observed at home.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းသည် ဤကွာခြားချက်အတိအကျကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ တုန့်ပြန်မှုနှုန်းအယူအဆကို ဇင် အိမ်တွင် တွေ့ကြုံခဲ့သော အဖြစ်အပျက်နှစ်ခုတွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Word Equations and Conservation of Mass",
+      titleMy:
+          "အပတ်စဉ် ၉ ပြန်လည်သုံးသပ်ခြင်း - စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a word equation, what sits on the left of the arrow?",
+          questionMy:
+              "စကားလုံးညီမျှခြင်းတစ်ခုတွင် မြားပြ၏ ဘယ်ဘက်တွင် အဘယ်အရာ ရှိသနည်း။",
+          optionsEn: ["Reactants", "Products", "Energy only", "Nothing at all"],
+          optionsMy: [
+            "တုန့်ပြန်ပစ္စည်းများ",
+            "ရလဒ်ပစ္စည်းများ",
+            "စွမ်းအင်တစ်ခုတည်း",
+            "ဘာမျှမရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's wood + oxygen example -- those two starting substances sat on which side?",
+            "The arrow always points away from the reactants, toward the products.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ သစ်သား + အောက်ဆီဂျင် ဥပမာကို သတိရပါ -- ထိုအစပြုပစ္စည်းနှစ်ခုသည် မည်သည့်ဘက်တွင် ရှိခဲ့သနည်း။",
+            "မြားပြသည် တုန့်ပြန်ပစ္စည်းများမှ ရလဒ်ပစ္စည်းများဘက်သို့ အမြဲညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does the law of conservation of mass state?",
+          questionMy: "အလေးချိန်ထိန်းသိမ်းမှု ဥပဒေက အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Total mass of reactants equals total mass of products.",
+            "Mass always increases in a reaction.",
+            "Mass always disappears in a reaction.",
+            "Mass has nothing to do with chemistry.",
+          ],
+          optionsMy: [
+            "တုန့်ပြန်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းသည် ရလဒ်ပစ္စည်းများ၏ အလေးချိန်စုစုပေါင်းနှင့် ညီမျှသည်။",
+            "တုန့်ပြန်မှုတစ်ခုတွင် အလေးချိန် အမြဲတိုးလာသည်။",
+            "တုန့်ပြန်မှုတစ်ခုတွင် အလေးချိန် အမြဲပျောက်ကွယ်သွားသည်။",
+            "အလေးချိန်သည် ဓာတုဗေဒနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the magnesium and oxygen question from Day 1 -- what stayed equal on both sides?",
+            "This mirrors Week 7's energy conservation, applied to mass instead.",
+          ],
+          hintsMy: [
+            "ပထမနေ့မှ မဂ္ဂနီဆီယမ်နှင့် အောက်ဆီဂျင် မေးခွန်းကို သတိရပါ -- နှစ်ဘက်စလုံးတွင် အဘယ်အရာ ညီမျှစွာ ဆက်ရှိခဲ့သနည်း။",
+            "၎င်းသည် Week 7 ၏ စွမ်းအင်ထိန်းသိမ်းမှုကို အလေးချိန်ပေါ်တွင် အသုံးချထားခြင်းနှင့် တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combustion is a reaction between a fuel and what other substance?",
+          questionMy:
+              "လောင်ကျွမ်းမှုတုန့်ပြန်ခြင်းသည် လောင်စာနှင့် မည်သည့် အခြားပစ္စည်းအကြား ဖြစ်ပွားသော တုန့်ပြန်မှုနည်း။",
+          optionsEn: ["Oxygen", "Water", "Nitrogen only", "Nothing else"],
+          optionsMy: [
+            "အောက်ဆီဂျင်",
+            "ရေ",
+            "နိုက်ထရိုဂျင်တစ်ခုတည်း",
+            "အခြားဘာမျှမရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Zin's word equation for the fire -- carbon plus what produced carbon dioxide?",
+            "This is the same gas that rusting also needs -- the shared ingredient in both oxidation examples.",
+          ],
+          hintsMy: [
+            "မီးအတွက် ဇင်၏ စကားလုံးညီမျှခြင်းကို သတိရပါ -- ကာဗွန်ပေါင်းထည့်၍ ကာဗွန်ဒိုင်အောက်ဆိုဒ် ဖြစ်ပေါ်စေသည့်အရာမှာ အဘယ်နည်း။",
+            "၎င်းသည် သံချေးတက်ခြင်းအတွက်လည်း လိုအပ်သော ဓာတ်ငွေ့တစ်ခုတည်းဖြစ်ပြီး၊ အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု ဥပမာနှစ်ခုစလုံး၏ ဘုံပါဝင်ပစ္စည်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these reactions is the fastest?",
+          questionMy: "အောက်ပါတို့အနက် အမြန်ဆုံးတုန့်ပြန်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A firework exploding",
+            "An iron gate rusting",
+            "A copper roof changing color",
+            "A silver spoon darkening",
+          ],
+          optionsMy: [
+            "မီးရှူးမီးပန်း ပေါက်ကွဲခြင်း",
+            "သံတံခါး သံချေးတက်ခြင်း",
+            "ကြေးနီအမိုး အရောင်ပြောင်းလဲခြင်း",
+            "ငွေဇွန်း ပိန်းမှောင်လာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Slow Reaction bucket.",
+            "An explosion happens in a fraction of a second -- the fastest reaction on this list by far.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် နှေးကွေးသောတုန့်ပြန်မှုကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "ပေါက်ကွဲမှုတစ်ခုသည် စက္ကန့်ပိုင်းအတွင်း ဖြစ်ပျက်သည် -- ဤစာရင်းတွင် အမြန်ဆုံး တုန့်ပြန်မှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the ash from Zin's fire weigh less than the original charcoal?",
+          questionMy: "ဇင်၏ မီးမှ ပြာသည် မူလမီးသွေးထက် အဘယ့်ကြောင့် ပေါ့သနည်း။",
+          optionsEn: [
+            "Carbon dioxide gas escaped into the air without being weighed.",
+            "Mass was destroyed during burning.",
+            "The kitchen scale was inaccurate.",
+            "Charcoal always weighs nothing to begin with.",
+          ],
+          optionsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့သည် မချိန်ဘဲ လေထဲသို့ ပျံ့သွားခဲ့သောကြောင့်။",
+            "လောင်ကျွမ်းနေစဉ် အလေးချိန် ဖျက်ဆီးခံခဲ့ရသောကြောင့်။",
+            "မီးဖိုချောင်စက္ကားသည် တိကျမှု မရှိသောကြောင့်။",
+            "မီးသွေးသည် အစကတည်းက အလေးချိန် လုံးဝ မရှိသောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage -- Zin's father explained where the missing mass had actually gone.",
+            "It didn't disappear -- it just left as an invisible gas that wasn't weighed with the solid ash.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းကို သတိရပါ -- ပျောက်ဆုံးနေသော အလေးချိန်သည် တကယ်တမ်း အဘယ်သို့ ရောက်သွားသည်ကို ဇင်၏ ဖခင်က ရှင်းပြခဲ့သည်။",
+            "၎င်းသည် ပျောက်ကွယ်သွားခြင်း မဟုတ်ဘဲ -- အစိုင်အခဲပြာနှင့်အတူ မချိန်ခံရသော မမြင်ရသောဓာတ်ငွေ့အဖြစ် ထွက်ခွာသွားခြင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What single word describes both rusting and burning, even though their rates differ hugely?",
+          questionMy:
+              "သံချေးတက်ခြင်းနှင့် လောင်ကျွမ်းခြင်း နှစ်ခုလုံး၏ နှုန်းသည် များစွာ ကွာခြားသော်လည်း၊ နှစ်ခုစလုံးကို ဖော်ပြသော စကားလုံးတစ်လုံးတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Oxidation",
+            "Evaporation",
+            "Neutralization",
+            "Sublimation",
+          ],
+          optionsMy: [
+            "အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု",
+            "အငွေ့ပျံခြင်း",
+            "အက်ဆစ်ဓာတ်ပျက်ခြင်း",
+            "အငွေ့ပျံပုံစံပြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's final question -- both reactions share this one broad name, differing only in speed.",
+            "Both involve a substance combining with oxygen -- that combining-with-oxygen idea is this term's meaning.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ နောက်ဆုံးမေးခွန်းကို သတိရပါ -- တုန့်ပြန်မှုနှစ်ခုစလုံးသည် ဤကျယ်ပြန့်သောအမည်တစ်ခုတည်းကို မျှဝေထားပြီး အမြန်နှုန်းသာ ကွာခြားသည်။",
+            "နှစ်ခုစလုံးတွင် ပစ္စည်းတစ်ခု အောက်ဆီဂျင်နှင့် ပေါင်းစပ်ခြင်း ပါဝင်သည် -- ထိုအောက်ဆီဂျင်နှင့် ပေါင်းစပ်ခြင်းအယူအဆသည် ဤဝေါဟာရ၏ အဓိပ္ပာယ် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 3, Week 10: "Electricity Basics"
+// =====================================================================
+
+/// Week 10 opens a second physics strand of Term 3: simple series
+/// circuits, the components/symbols that build them, and electrical
+/// conductors/insulators -- explicitly distinguished from (but compared
+/// to) Week 4's thermal conductors/insulators, since metals are
+/// typically good at both. Builds on Week 7's electrical energy store,
+/// now explaining how that current actually flows through a circuit.
+const CourseWeekDef _secondary1ScienceWeek10 = CourseWeekDef(
+  id: "course-secondary1-science-w10",
+  weekNumber: 10,
+  titleEn: "Electricity Basics",
+  titleMy: "လျှပ်စစ် အခြေခံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w10-d1",
+      dayNumber: 1,
+      titleEn: "Electricity Basics Quiz",
+      titleMy: "လျှပ်စစ် အခြေခံ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is needed for an electric current to flow through a circuit?",
+          questionMy:
+              "လျှပ်စစ်ရေစီးတစ်ခု ပတ်လမ်းတစ်ခုတစ်လျှောက် စီးဆင်းနိုင်ရန် အဘယ်အရာ လိုအပ်သနည်း။",
+          optionsEn: [
+            "A complete, unbroken loop from a power source, through wires and a component, and back to the power source.",
+            "Only a battery on its own, with nothing else connected.",
+            "Only a switch, with no battery at all.",
+            "A bulb sitting completely alone, unconnected to anything.",
+          ],
+          optionsMy: [
+            "စွမ်းအင်ရင်းမြစ်တစ်ခုမှ ဝါယာကြိုးများနှင့် အစိတ်အပိုင်းတစ်ခုကို ဖြတ်၍ စွမ်းအင်ရင်းမြစ်ထံသို့ ပြန်ရောက်သော ပြတ်တောက်ခြင်းမရှိသည့် ပတ်လမ်းလုံးဝ ပြည့်စုံမှု။",
+            "ဘက်ထရီတစ်ခုတည်း၊ အခြားဘာမှ မချိတ်ဆက်ထားခြင်း။",
+            "ခလုတ်တစ်ခုတည်း၊ ဘက်ထရီ လုံးဝ မပါဘဲ။",
+            "လုံးဝ တစ်ကောင်တည်း ရှိနေသော၊ ဘာနှင့်မျှ မချိတ်ဆက်ထားသော မီးလုံး။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about Week 7's torch example -- the battery alone, without a complete path back to it, couldn't light the bulb.",
+            "\"Circuit\" literally means a loop -- if the loop is broken anywhere, current cannot flow at all.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ လက်ပြဥပမာကို စဉ်းစားပါ -- ဘက်ထရီတစ်ခုတည်းသည် ၎င်းထံ ပြန်ရောက်သော ပြည့်စုံသောလမ်းကြောင်းမပါဘဲ မီးလုံးကို မလင်းစေနိုင်ပါ။",
+            "\"ပတ်လမ်း\" ဆိုသည်မှာ စက်ဝိုင်းတစ်ခုကို အဓိပ္ပာယ်ရသည် -- စက်ဝိုင်းသည် နေရာတစ်ခုတွင် ပြတ်တောက်နေပါက ရေစီး လုံးဝ မစီးနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the job of a switch in a circuit?",
+          questionMy: "ပတ်လမ်းတစ်ခုအတွင်း ခလုတ်၏ တာဝန်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To open or close the circuit, controlling whether current can flow.",
+            "To increase the battery's chemical energy store.",
+            "To change a bulb's color permanently.",
+            "To measure the circuit's temperature.",
+          ],
+          optionsMy: [
+            "ပတ်လမ်းကို ဖွင့် (သို့) ပိတ်ကာ ရေစီးစီးနိုင်မနိုင် ထိန်းချုပ်ရန်။",
+            "ဘက်ထရီ၏ ဓာတုစွမ်းအင်သိုလှောင်မှုကို တိုးပွားစေရန်။",
+            "မီးလုံးအရောင်ကို အမြဲထာဝရ ပြောင်းလဲရန်။",
+            "ပတ်လမ်း၏ အပူချိန်ကို တိုင်းတာရန်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A switch physically makes or breaks the loop at one point -- what does that do to the whole circuit?",
+            "\"On\" closes the gap so the loop is complete; \"off\" opens the gap, breaking the loop.",
+          ],
+          hintsMy: [
+            "ခလုတ်တစ်ခုသည် နေရာတစ်ခုတွင် စက်ဝိုင်းကို ရုပ်ပိုင်းဆိုင်ရာ ဆက်စပ် (သို့) ဖြတ်တောက်ပေးသည် -- ၎င်းသည် ပတ်လမ်းတစ်ခုလုံးကို မည်သို့ ဖြစ်စေသနည်း။",
+            "\"ဖွင့်\" သည် ကွက်လပ်ကို ပိတ်ပေး၍ စက်ဝိုင်း ပြည့်စုံသွားစေပြီး၊ \"ပိတ်\" သည် ကွက်လပ်ကို ဖွင့်ပေး၍ စက်ဝိုင်း ပြတ်သွားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these materials is the best electrical conductor?",
+          questionMy:
+              "အောက်ပါတို့အနက် အကောင်းဆုံး လျှပ်စစ်ကူးပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Copper wire", "Plastic", "Rubber", "Wood"],
+          optionsMy: ["ကြေးနီဝါယာကြိုး", "ပလတ်စတစ်", "ရာဘာ", "သစ်သား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 4 -- metals were also good thermal conductors; many good electrical conductors are metals too.",
+            "The other three options are used to coat or handle wires safely precisely because they do NOT conduct electricity well.",
+          ],
+          hintsMy: [
+            "Week 4 ကို သတိရပါ -- သတ္တုများသည် အပူကူးကောင်းသော ပစ္စည်းများလည်း ဖြစ်ခဲ့ကြသည် -- လျှပ်စစ်ကူးကောင်းသော ပစ္စည်းများစွာသည် သတ္တုများ ဖြစ်ကြသည်။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် လျှပ်စစ်ကို ကောင်းစွာ မကူးနိုင်သောကြောင့်ပင် ဝါယာကြိုးများကို ဘေးကင်းစွာ ဖုံးအုပ် (သို့) ကိုင်တွယ်ရန် အသုံးပြုကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it dangerous to touch electrical switches or wires with wet hands?",
+          questionMy:
+              "လက်စိုနှင့် လျှပ်စစ်ခလုတ် (သို့) ဝါယာကြိုးများကို ထိတွေ့ခြင်းသည် အဘယ့်ကြောင့် အန္တရာယ်ရှိသနည်း။",
+          optionsEn: [
+            "Water can conduct electricity, creating a path for dangerous current to flow through your body.",
+            "Water always insulates electricity completely.",
+            "Wet hands make circuits break automatically and safely.",
+            "Electricity cannot travel through water at all.",
+          ],
+          optionsMy: [
+            "ရေသည် လျှပ်စစ်ကို ကူးနိုင်ပြီး ခန္ဓာကိုယ်တစ်လျှောက် အန္တရာယ်ရှိသော ရေစီးစီးနိုင်သည့်လမ်းကြောင်းတစ်ခု ဖြစ်ပေါ်စေနိုင်သောကြောင့်။",
+            "ရေသည် လျှပ်စစ်ကို အမြဲအပြည့်အဝ ကာကွယ်ပေးသောကြောင့်။",
+            "လက်စိုသည် ပတ်လမ်းများကို အလိုအလျောက်နှင့် ဘေးကင်းစွာ ဖြတ်တောက်ပေးသောကြောင့်။",
+            "လျှပ်စစ်သည် ရေကို လုံးဝ ဖြတ်၍ မသွားနိုင်သောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why electricians warn against mixing water and electricity -- what property of water makes it risky here?",
+            "Rule out the options claiming water insulates or blocks electricity -- it's the opposite that makes it dangerous.",
+          ],
+          hintsMy: [
+            "၎င်းသည် လျှပ်စစ်ပညာရှင်များက ရေနှင့် လျှပ်စစ်ကို ရောနှောခြင်းအား သတိပေးရသည့်အကြောင်းရင်းပင် ဖြစ်သည် -- ရေ၏ မည်သည့်ဂုဏ်သတ္တိက ဤနေရာတွင် အန္တရာယ်ဖြစ်စေသနည်း။",
+            "ရေသည် လျှပ်စစ်ကို ကာကွယ် (သို့) ပိတ်ဆို့ပေးသည်ဟု ဆိုသော ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- ဆန့်ကျင်ဘက် အချက်ကပင် အန္တရာယ်ဖြစ်စေခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match the Circuit Terms",
+      titleMy: "ပတ်လမ်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w10-dm-1",
+          termEn: "Circuit",
+          termMy: "လျှပ်စစ်ပတ်လမ်း (Circuit)",
+          matchEn:
+              "A complete loop of components (like a battery, wires and a bulb) that lets electric current flow all the way around.",
+          matchMy:
+              "ဘက်ထရီ၊ ဝါယာကြိုးများနှင့် မီးလုံးကဲ့သို့ အစိတ်အပိုင်းများ၏ ပြည့်စုံသောစက်ဝိုင်းဖြစ်ပြီး လျှပ်စစ်ရေစီးကို တစ်ဝိုက်လုံး စီးဆင်းနိုင်စေသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w10-dm-2",
+          termEn: "Cell (Battery)",
+          termMy: "ဘက်ထရီ (Cell / Battery)",
+          matchEn:
+              "A power source that pushes electric current around a circuit, using its stored chemical energy (Week 7).",
+          matchMy:
+              "Week 7 ၏ သိုလှောင်ထားသော ဓာတုစွမ်းအင်ကို အသုံးပြု၍ ပတ်လမ်းတစ်လျှောက် လျှပ်စစ်ရေစီးကို တွန်းအားပေးသော စွမ်းအင်ရင်းမြစ်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w10-dm-3",
+          termEn: "Switch",
+          termMy: "ခလုတ် (Switch)",
+          matchEn:
+              "A component that opens or closes a circuit, turning the current on or off.",
+          matchMy:
+              "ပတ်လမ်းကို ဖွင့် (သို့) ပိတ်ကာ ရေစီးကို အဖွင့်/အပိတ် ပြုလုပ်ပေးသော အစိတ်အပိုင်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w10-dm-4",
+          termEn: "Electrical Conductor",
+          termMy: "လျှပ်စစ်ကူးပစ္စည်း (Electrical Conductor)",
+          matchEn:
+              "A material, usually a metal like copper, that lets electric current flow through it easily.",
+          matchMy:
+              "ကြေးနီကဲ့သို့ သတ္တုတစ်မျိုးဖြစ်လေ့ရှိပြီး လျှပ်စစ်ရေစီးကို အလွယ်တကူ ဖြတ်သန်းစေသော ပစ္စည်း။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w10-dm-5",
+          termEn: "Electrical Insulator",
+          termMy: "လျှပ်စစ်ကာပစ္စည်း (Electrical Insulator)",
+          matchEn:
+              "A material, like plastic or rubber, that does not let electric current flow through it -- often used to safely coat wires.",
+          matchMy:
+              "ပလတ်စတစ် (သို့) ရာဘာကဲ့သို့ လျှပ်စစ်ရေစီးကို ဖြတ်သန်းခွင့် မပြုသော ပစ္စည်းဖြစ်ပြီး ဝါယာကြိုးများကို ဘေးကင်းစွာ ဖုံးအုပ်ရန် မကြာခဏ အသုံးပြုသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w10-dm-6",
+          termEn: "Series Circuit",
+          termMy: "အတန်းလိုက်ပတ်လမ်း (Series Circuit)",
+          matchEn:
+              "A circuit with only one loop, so the same current flows through every component one after another.",
+          matchMy:
+              "စက်ဝိုင်းတစ်ခုတည်းသာ ရှိသော ပတ်လမ်းဖြစ်ပြီး အစိတ်အပိုင်းတိုင်းကို တူညီသော ရေစီးက အဆက်မပြတ် ဖြတ်သန်းသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Electrical Conductor or Insulator?",
+      titleMy: "စီစစ်ကြမည် - လျှပ်စစ်ကူးပစ္စည်းလား၊ ကာပစ္စည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Electrical Conductor", "Electrical Insulator"],
+        bucketsMy: ["လျှပ်စစ်ကူးပစ္စည်း", "လျှပ်စစ်ကာပစ္စည်း"],
+        items: [
+          SortingItem(
+            id: "s1sci-w10-sort-1",
+            labelEn: "Copper wire",
+            labelMy: "ကြေးနီဝါယာကြိုး",
+            correctBucketEn: "Electrical Conductor",
+            correctBucketMy: "လျှပ်စစ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-2",
+            labelEn: "Plastic ruler",
+            labelMy: "ပလတ်စတစ်ပေတံ",
+            correctBucketEn: "Electrical Insulator",
+            correctBucketMy: "လျှပ်စစ်ကာပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-3",
+            labelEn: "Iron nail",
+            labelMy: "သံချွန်",
+            correctBucketEn: "Electrical Conductor",
+            correctBucketMy: "လျှပ်စစ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-4",
+            labelEn: "Rubber glove",
+            labelMy: "ရာဘာလက်အိတ်",
+            correctBucketEn: "Electrical Insulator",
+            correctBucketMy: "လျှပ်စစ်ကာပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-5",
+            labelEn: "Aluminum foil",
+            labelMy: "အလူမီနီယံပါဝါ",
+            correctBucketEn: "Electrical Conductor",
+            correctBucketMy: "လျှပ်စစ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-6",
+            labelEn: "Wooden spoon",
+            labelMy: "သစ်သားဇွန်း",
+            correctBucketEn: "Electrical Insulator",
+            correctBucketMy: "လျှပ်စစ်ကာပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-7",
+            labelEn: "Silver spoon",
+            labelMy: "ငွေဇွန်း",
+            correctBucketEn: "Electrical Conductor",
+            correctBucketMy: "လျှပ်စစ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w10-sort-8",
+            labelEn: "Glass rod",
+            labelMy: "ဖန်လုံးချောင်း",
+            correctBucketEn: "Electrical Insulator",
+            correctBucketMy: "လျှပ်စစ်ကာပစ္စည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thida's Torch Repair",
+      titleMy: "စာဖတ်ခြင်း - သီတာ၏ လက်ပြပြုပြင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thida's Torch Repair",
+        titleMy: "သီတာ၏ လက်ပြပြုပြင်ခြင်း",
+        passageEn:
+            "Thida's torch stopped working, so she asked her uncle, an electrician, to help her understand why. He explained that a torch is a simple series circuit: a battery, connected by metal wires, to a switch, and then to a small bulb, all forming one complete loop. When Thida slid the switch to \"on,\" it closed the gap in the circuit, letting current flow all the way around from the battery, through the bulb, and back -- lighting it up. When the switch was \"off,\" it broke the loop, and no current could flow.\n\nHer uncle opened the torch and pointed out that the wires inside were coated in a layer of colorful plastic, an electrical insulator, wrapped around a core of thin copper wire, an excellent electrical conductor. \"The copper carries the current,\" he explained, \"and the plastic stops that current from escaping and giving you a shock, or from short-circuiting against another wire.\" Thida remembered Week 4's thermal conductors and insulators, and noticed that copper, a good electrical conductor, was also a good thermal conductor -- while the plastic coating was a poor conductor of both heat and electricity.\n\nTesting each part, Thida's uncle discovered that the bulb's thin wire filament, hidden inside the glass, had snapped -- breaking the circuit's loop even with the switch on. Once he replaced the bulb with a working one, the loop was complete again, and pressing the switch made the torch light up brightly.\n\nThida thanked her uncle, and he reminded her never to touch bare wires or open circuits with wet hands, since water can conduct electricity and create a dangerous path for current to flow through a person's body.",
+        passageMy:
+            "သီတာ၏ လက်ပြသည် အလုပ်မလုပ်တော့သဖြင့် လျှပ်စစ်ပညာရှင်ဖြစ်သော ဦးလေးထံမှ အကြောင်းရင်း သိရှိရန် အကူအညီတောင်းခဲ့သည်။ လက်ပြတစ်ခုသည် ရိုးရှင်းသော အတန်းလိုက်ပတ်လမ်းတစ်ခုဖြစ်ကြောင်း ၎င်းက ရှင်းပြခဲ့သည် - ဘက်ထရီတစ်ခုကို သတ္တုဝါယာကြိုးများဖြင့် ခလုတ်တစ်ခုသို့၊ ထို့နောက် မီးလုံးငယ်တစ်ခုသို့ ချိတ်ဆက်ထားပြီး အားလုံး ပြည့်စုံသောစက်ဝိုင်းတစ်ခု ဖြစ်ပေါ်စေသည်။ သီတာက ခလုတ်ကို \"ဖွင့်\" ဘက်သို့ တွန်းလိုက်ချိန်၊ ၎င်းသည် ပတ်လမ်းရှိ ကွက်လပ်ကို ပိတ်ပေးလိုက်ပြီး ရေစီးကို ဘက်ထရီမှ မီးလုံးကို ဖြတ်၍ ပြန်လည်ရောက်ရှိသည်အထိ တစ်ဝိုက်လုံး စီးဆင်းနိုင်စေခဲ့သည် -- မီးလင်းသွားခဲ့သည်။ ခလုတ်ကို \"ပိတ်\" ချိန်တွင်မူ ၎င်းသည် စက်ဝိုင်းကို ဖြတ်တောက်ပေးလိုက်ပြီး ရေစီးလုံးဝ မစီးနိုင်တော့ပါ။\n\nဦးလေးသည် လက်ပြကို ဖွင့်ကြည့်ပြီး အတွင်းရှိ ဝါယာကြိုးများသည် ပါးလွှာသော ကြေးနီဝါယာကြိုးအလယ်ပတ်ပတ်လည်တွင် အရောင်စုံ ပလတ်စတစ်အလွှာ၊ လျှပ်စစ်ကာပစ္စည်းတစ်ခု ဖုံးအုပ်ထားကြောင်း ညွှန်ပြခဲ့သည်။ \"ကြေးနီက ရေစီးကို ဆောင်သွားပေးပြီး\" ဟု ရှင်းပြရာ \"ပလတ်စတစ်က ထိုရေစီးကို ထွက်ပြေးခြင်း (သို့) ဒဏ်ရာဖြစ်စေခြင်း၊ (သို့) အခြားဝါယာကြိုးတစ်ခုနှင့် ရေစီးတိုက်ရိုက်ချိတ်ဆက်ခြင်း မဖြစ်စေရန် တားဆီးပေးသည်\" ဟု ဆိုသည်။ သီတာသည် Week 4 ၏ အပူကူးပစ္စည်းနှင့် ကာပစ္စည်းများကို သတိရလျက် ကြေးနီသည် လျှပ်စစ်ကူးကောင်းသည့်အပြင် အပူကူးကောင်းသောပစ္စည်းလည်း ဖြစ်ကြောင်း၊ ပလတ်စတစ်အလွှာမူ အပူနှင့် လျှပ်စစ် နှစ်မျိုးလုံးကို ညံ့ဖျင်းစွာသာ ကူးနိုင်ကြောင်း သတိထားမိသည်။\n\nအစိတ်အပိုင်းတစ်ခုစီကို စမ်းသပ်ရာတွင် ဦးလေးသည် ဖန်ဘူးအတွင်းရှိ မီးလုံး၏ ပါးလွှာသောဝါယာကြိုးသည် ပြတ်တောက်နေသည်ကို တွေ့ခဲ့သည် -- ခလုတ်ဖွင့်ထားသော်လည်း ပတ်လမ်း၏ စက်ဝိုင်းကို ဖြတ်တောက်ပေးလိုက်ခြင်း ဖြစ်သည်။ အလုပ်လုပ်သော မီးလုံးအသစ်ဖြင့် အစားထိုးလိုက်သောအခါ စက်ဝိုင်း ပြန်လည်ပြည့်စုံသွားပြီး ခလုတ်ကို နှိပ်လိုက်သောအခါ လက်ပြသည် တောက်ပစွာ လင်းလာခဲ့သည်။\n\nသီတာသည် ဦးလေးကို ကျေးဇူးတင်ကြောင်း ပြောခဲ့ပြီး ဦးလေးက ရေစီး ခန္ဓာကိုယ်တစ်လျှောက် အန္တရာယ်ရှိစွာ စီးဆင်းနိုင်သည့်လမ်းကြောင်း ဖြစ်ပေါ်စေနိုင်သောကြောင့် လက်စိုနှင့် ဝါယာကြိုးဗလာ (သို့) ဖွင့်ထားသောပတ်လမ်းများကို လက်ဝင်မထိရန် သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happened inside the circuit when Thida slid the switch to \"on\"?",
+            questionMy:
+                "သီတာ ခလုတ်ကို \"ဖွင့်\" ဘက်သို့ တွန်းလိုက်ချိန် ပတ်လမ်းအတွင်း အဘယ်အရာ ဖြစ်ပျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "The switch closed the gap in the circuit, letting current flow all the way around and light the bulb.",
+              "The switch disconnected the battery completely.",
+              "The switch changed the bulb's color.",
+              "Nothing happened at all.",
+            ],
+            optionsMy: [
+              "ခလုတ်သည် ပတ်လမ်းရှိ ကွက်လပ်ကို ပိတ်ပေးလိုက်ပြီး ရေစီးကို တစ်ဝိုက်လုံး စီးဆင်းနိုင်စေကာ မီးလုံးကို လင်းစေခဲ့သည်။",
+              "ခလုတ်သည် ဘက်ထရီကို လုံးဝ ဖြတ်တောက်ပေးလိုက်သည်။",
+              "ခလုတ်သည် မီးလုံးအရောင်ကို ပြောင်းလဲပေးလိုက်သည်။",
+              "ဘာမှ မဖြစ်ပျက်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- what does the passage say \"on\" does to the gap in the circuit?",
+              "This is Day 1's switch definition, applied directly to Thida's torch.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပတ်လမ်းရှိ ကွက်လပ်ကို \"ဖွင့်\" က မည်သို့ ပြုလုပ်ပေးကြောင်း စာပိုဒ်က ဖော်ပြထားသနည်း။",
+              "ဤသည်မှာ ပထမနေ့၏ ခလုတ်အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သီတာ၏ လက်ပြတွင် တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the wire have a copper core wrapped in plastic, rather than being made entirely of plastic or entirely of copper?",
+            questionMy:
+                "ဝါယာကြိုးသည် လုံးဝ ပလတ်စတစ် (သို့) လုံးဝ ကြေးနီဖြင့် ပြုလုပ်မထားဘဲ ကြေးနီအလယ်ဗဟိုကို ပလတ်စတစ်ဖြင့် ဖုံးအုပ်ထားသည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "Copper conducts current well to carry it, while plastic insulates to stop it escaping and causing a shock.",
+              "Plastic conducts electricity better than copper.",
+              "Copper is used only for decoration, with no electrical purpose.",
+              "Both materials do exactly the same job.",
+            ],
+            optionsMy: [
+              "ကြေးနီသည် ရေစီးကို ကောင်းစွာ ကူးနိုင်ပြီး ဆောင်သွားပေးပြီး ပလတ်စတစ်ကမူ ရေစီးထွက်ပြေးခြင်းနှင့် ဒဏ်ရာမဖြစ်စေရန် ကာကွယ်ပေးသည်။",
+              "ပလတ်စတစ်သည် ကြေးနီထက် လျှပ်စစ်ကို ပိုကောင်းစွာ ကူးနိုင်သည်။",
+              "ကြေးနီကို အလှဆင်ရန်သာ အသုံးပြုပြီး လျှပ်စစ်ဆိုင်ရာ ရည်ရွယ်ချက် လုံးဝ မရှိပါ။",
+              "ပစ္စည်းနှစ်ခုစလုံးသည် အလုပ်အတိအကျ တူညီပါသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- the uncle explains exactly what each material's job is, one carries and one blocks.",
+              "This is Day 1's conductor-versus-insulator idea, applied to why real wires are built with two materials, not one.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဦးလေးက ပစ္စည်းတစ်ခုစီ၏ တာဝန်ကို အတိအကျ ရှင်းပြထားသည်၊ တစ်ခုက ဆောင်သွားပြီး တစ်ခုက ပိတ်ဆို့သည်။",
+              "ဤသည်မှာ ပထမနေ့၏ ကူးပစ္စည်းနှင့် ကာပစ္စည်း အယူအဆကို ဝါယာကြိုးအမှန်များ ပစ္စည်းနှစ်မျိုးဖြင့် အဘယ့်ကြောင့် ပြုလုပ်ရသည်ဟု အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the torch stay dark even though the switch was on, before the bulb was replaced?",
+            questionMy:
+                "မီးလုံးကို မအစားထိုးမီ ခလုတ်ဖွင့်ထားသော်လည်း လက်ပြသည် အဘယ့်ကြောင့် မှောင်နေခဲ့သနည်း။",
+            optionsEn: [
+              "The bulb's thin filament had snapped, breaking the circuit's loop even with the switch closed.",
+              "The battery had too much chemical energy.",
+              "The copper wire had turned into plastic.",
+              "The switch was actually broken, not the bulb.",
+            ],
+            optionsMy: [
+              "မီးလုံး၏ ပါးလွှာသောဝါယာကြိုးသည် ပြတ်တောက်နေပြီး ခလုတ်ပိတ်ထားသော်လည်း ပတ်လမ်း၏ စက်ဝိုင်းကို ဖြတ်တောက်ပေးလိုက်ခြင်း ဖြစ်သည်။",
+              "ဘက်ထရီတွင် ဓာတုစွမ်းအင် များလွန်းနေခဲ့သည်။",
+              "ကြေးနီဝါယာကြိုးသည် ပလတ်စတစ်အဖြစ် ပြောင်းလဲသွားခဲ့သည်။",
+              "ခလုတ်သည် အမှန်တကယ် ပျက်နေခဲ့ခြင်း ဖြစ်ပြီး မီးလုံး မဟုတ်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- what specifically had snapped inside the bulb?",
+              "Even with the switch closed, a break anywhere else in the loop (like the bulb's filament) still stops all current.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မီးလုံးအတွင်း အတိအကျ အဘယ်အရာ ပြတ်တောက်နေခဲ့သနည်း။",
+              "ခလုတ်ပိတ်ထားသော်လည်း စက်ဝိုင်း၏ အခြားနေရာတစ်ခု (မီးလုံး၏ဝါယာကြိုးကဲ့သို့) ပြတ်နေပါက ရေစီးအားလုံး ရပ်တန့်သွားနိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Thida's uncle warn her never to touch bare wires with wet hands?",
+            questionMy:
+                "ဦးလေးက လက်စိုနှင့် ဝါယာကြိုးဗလာကို မထိရန် သီတာအား အဘယ့်ကြောင့် သတိပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Water can conduct electricity, creating a dangerous path for current through a person's body.",
+              "Wet hands make circuits stronger and safer.",
+              "Water always blocks electricity completely.",
+              "There is no real danger involved at all.",
+            ],
+            optionsMy: [
+              "ရေသည် လျှပ်စစ်ကို ကူးနိုင်ပြီး ခန္ဓာကိုယ်တစ်လျှောက် အန္တရာယ်ရှိသော ရေစီးလမ်းကြောင်းကို ဖြစ်ပေါ်စေနိုင်သောကြောင့်။",
+              "လက်စိုသည် ပတ်လမ်းများကို ပိုမိုအားကောင်းစေပြီး ဘေးကင်းစေသည်။",
+              "ရေသည် လျှပ်စစ်ကို အမြဲ လုံးဝ ပိတ်ဆို့ပေးသည်။",
+              "အမှန်တကယ့် အန္တရာယ် လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which restates Day 1's water-and-electricity safety point directly.",
+              "This is exactly Day 1's fourth quiz question, applied to Thida's own situation.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် ပထမနေ့၏ ရေနှင့်လျှပ်စစ် ဘေးကင်းရေးအချက်ကို တိုက်ရိုက် ထပ်ဆင့်ဖော်ပြသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ စတုတ္ထမေးခွန်းကို သီတာ၏ ကိုယ်ပိုင်အခြေအနေတွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Electricity Basics",
+      titleMy: "အပတ်စဉ် ၁၀ ပြန်လည်သုံးသပ်ခြင်း - လျှပ်စစ် အခြေခံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What breaks a circuit's loop, stopping current from flowing?",
+          questionMy:
+              "ပတ်လမ်း၏ စက်ဝိုင်းကို ဖြတ်တောက်ပေးပြီး ရေစီးရပ်တန့်စေသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A switch turned off, or any gap in the loop",
+            "A fully charged battery",
+            "A thick copper wire",
+            "Closing the switch",
+          ],
+          optionsMy: [
+            "ပိတ်ထားသောခလုတ် (သို့) စက်ဝိုင်းရှိ မည်သည့်ကွက်လပ်မဆို",
+            "အပြည့်အဝ အားသွင်းထားသော ဘက်ထရီ",
+            "ထူသော ကြေးနီဝါယာကြိုး",
+            "ခလုတ်ကို ပိတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thida's torch -- what happened when the bulb's filament snapped, even with the switch on?",
+            "Any gap anywhere in the loop, not just at the switch, stops all current.",
+          ],
+          hintsMy: [
+            "သီတာ၏ လက်ပြကို သတိရပါ -- ခလုတ်ဖွင့်ထားသော်လည်း မီးလုံး၏ဝါယာကြိုး ပြတ်တောက်ချိန် အဘယ်အရာ ဖြစ်ခဲ့သနည်း။",
+            "ခလုတ်တွင်သာမက စက်ဝိုင်း၏ မည်သည့်နေရာတွင်မဆို ကွက်လပ်ရှိပါက ရေစီးအားလုံး ရပ်တန့်သွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is the power source in a simple circuit?",
+          questionMy:
+              "ရိုးရှင်းသော ပတ်လမ်းတစ်ခုအတွင်း စွမ်းအင်ရင်းမြစ်မှာ မည်သည့်တစ်ခုနည်း။",
+          optionsEn: [
+            "Battery (cell)",
+            "Switch",
+            "Plastic coating",
+            "Wooden spoon",
+          ],
+          optionsMy: ["ဘက်ထရီ (Cell)", "ခလုတ်", "ပလတ်စတစ်အလွှာ", "သစ်သားဇွန်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's chemical energy -- which component stores that energy and pushes current around the loop?",
+            "The switch, plastic and spoon all play other roles -- none of them supply energy.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ဓာတုစွမ်းအင်ကို သတိရပါ -- မည်သည့်အစိတ်အပိုင်းက ထိုစွမ်းအင်ကို သိုလှောင်ပြီး စက်ဝိုင်းတစ်လျှောက် ရေစီးကို တွန်းအားပေးသနည်း။",
+            "ခလုတ်၊ ပလတ်စတစ်နှင့် ဇွန်းတို့သည် အခြားတာဝန်များ ထမ်းဆောင်ကြပြီး တစ်ခုမျှ စွမ်းအင် ထောက်ပံ့ခြင်း မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a good electrical insulator?",
+          questionMy:
+              "အောက်ပါတို့အနက် ကောင်းမွန်သော လျှပ်စစ်ကာပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Rubber", "Copper", "Iron", "Silver"],
+          optionsMy: ["ရာဘာ", "ကြေးနီ", "သံ", "ငွေ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Electrical Conductor bucket.",
+            "Rubber gloves are worn by electricians specifically because rubber blocks current.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် လျှပ်စစ်ကူးပစ္စည်းကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "လျှပ်စစ်ပညာရှင်များသည် ရာဘာက ရေစီးကို ပိတ်ဆို့ပေးသောကြောင့် ရာဘာလက်အိတ် ဝတ်ဆင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What kind of circuit has only one loop, with current flowing through every component in turn?",
+          questionMy:
+              "စက်ဝိုင်းတစ်ခုတည်းသာ ရှိပြီး ရေစီးသည် အစိတ်အပိုင်းတိုင်းကို အလှည့်ကျ ဖြတ်သန်းသော ပတ်လမ်းအမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A series circuit",
+            "A magnetic field",
+            "A word equation",
+            "An energy store",
+          ],
+          optionsMy: [
+            "အတန်းလိုက်ပတ်လမ်း",
+            "သံလိုက်စက်ကွင်း",
+            "စကားလုံးညီမျှခြင်း",
+            "စွမ်းအင်သိုလှောင်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- this exact term described Thida's torch's one-loop circuit.",
+            "The other three options come from different weeks entirely, unrelated to circuit structure.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤဝေါဟာရအတိအကျပင် သီတာ၏ လက်ပြ၏ စက်ဝိုင်းတစ်ခုတည်းပတ်လမ်းကို ဖော်ပြသည်။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် လုံးဝ မတူညီသော အပတ်များမှ ဖြစ်ပြီး ပတ်လမ်းဖွဲ့စည်းပုံနှင့် မသက်ဆိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why is copper often used to make electrical wires?",
+          questionMy:
+              "လျှပ်စစ်ဝါယာကြိုးများ ပြုလုပ်ရာတွင် ကြေးနီကို မကြာခဏ အသုံးပြုရသည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "It is an excellent electrical conductor, letting current flow through it easily.",
+            "It is a poor electrical conductor, blocking current safely.",
+            "It has no useful electrical properties at all.",
+            "It is the cheapest possible plastic.",
+          ],
+          optionsMy: [
+            "၎င်းသည် ကောင်းမွန်သော လျှပ်စစ်ကူးပစ္စည်းဖြစ်ပြီး ရေစီးကို အလွယ်တကူ ဖြတ်သန်းစေသည်။",
+            "၎င်းသည် ညံ့ဖျင်းသော လျှပ်စစ်ကူးပစ္စည်းဖြစ်ပြီး ရေစီးကို ဘေးကင်းစွာ ပိတ်ဆို့ပေးသည်။",
+            "၎င်းတွင် အသုံးဝင်သော လျှပ်စစ်ဂုဏ်သတ္တိ လုံးဝ မရှိပါ။",
+            "၎င်းသည် အစျေးအသက်သာဆုံး ပလတ်စတစ် ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thida's torch wire -- copper was chosen specifically to carry the current, not block it.",
+            "This is Day 1's conductor question, restated -- copper is a metal, and most metals conduct electricity well.",
+          ],
+          hintsMy: [
+            "သီတာ၏ လက်ပြဝါယာကြိုးကို သတိရပါ -- ကြေးနီကို ရေစီးဆောင်သွားရန်အတွက် အထူးရွေးချယ်ခဲ့ပြီး ပိတ်ဆို့ရန် မဟုတ်ပါ။",
+            "ဤသည်မှာ ပထမနေ့၏ ကူးပစ္စည်းမေးခွန်းကို ထပ်ဆင့်ဖော်ပြခြင်းဖြစ်ပြီး -- ကြေးနီသည် သတ္တုတစ်မျိုးဖြစ်ပြီး သတ္တုအများစုသည် လျှပ်စစ်ကို ကောင်းစွာ ကူးနိုင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to this week's safety lesson, what should you never mix?",
+          questionMy:
+              "ဤအပတ်၏ ဘေးကင်းရေးသင်ခန်းစာအရ မည်သည့်အရာနှစ်ခုကို လုံးဝ မရောနှောသင့်သနည်း။",
+          optionsEn: [
+            "Water and electricity",
+            "Copper and plastic",
+            "Batteries and switches",
+            "Wires and bulbs",
+          ],
+          optionsMy: [
+            "ရေနှင့် လျှပ်စစ်",
+            "ကြေးနီနှင့် ပလတ်စတစ်",
+            "ဘက်ထရီနှင့် ခလုတ်",
+            "ဝါယာကြိုးနှင့် မီးလုံး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thida's uncle's final warning -- what did he tell her never to touch with wet hands?",
+            "The other three pairs are meant to work together inside a normal, safe circuit.",
+          ],
+          hintsMy: [
+            "သီတာ၏ ဦးလေး၏ နောက်ဆုံးသတိပေးချက်ကို သတိရပါ -- လက်စိုနှင့် မည်သည့်အရာကို လုံးဝ မထိရန် ပြောခဲ့သနည်း။",
+            "အခြားအတွဲသုံးခုသည် ပုံမှန် ဘေးကင်းသောပတ်လမ်းတစ်ခုအတွင်း အတူတကွ အလုပ်လုပ်ရန် ရည်ရွယ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 3, Week 11: "Magnetism"
+// =====================================================================
+
+/// Week 11 introduces magnetism as its own strand: poles, attraction
+/// and repulsion, magnetic vs. non-magnetic materials, magnetic fields,
+/// and compasses (Earth as a giant magnet). Deliberately kept
+/// independent of Week 10's circuits within the week itself -- the
+/// electricity/magnetism link (electromagnets) is saved for Week 12's
+/// capstone, so each idea is solid on its own before combining them.
+const CourseWeekDef _secondary1ScienceWeek11 = CourseWeekDef(
+  id: "course-secondary1-science-w11",
+  weekNumber: 11,
+  titleEn: "Magnetism",
+  titleMy: "သံလိုက်ဗေဒ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w11-d1",
+      dayNumber: 1,
+      titleEn: "Magnetism Quiz",
+      titleMy: "သံလိုက်ဗေဒ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What happens when you bring two magnets together with their north poles facing each other?",
+          questionMy:
+              "သံလိုက်နှစ်ခု၏ မြောက်ဝင်ရိုးများကို မျက်နှာချင်းဆိုင်ဖြစ်အောင် ယူဆောင်လာပါက အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "They repel (push apart).",
+            "They always attract.",
+            "Nothing happens at all.",
+            "They instantly fuse together permanently.",
+          ],
+          optionsMy: [
+            "ထို့သံလိုက်များသည် တွန်းဖယ် (ကွာသွား) ကြသည်။",
+            "ထို့သံလိုက်များသည် အမြဲ ဆွဲဆောင်ကြသည်။",
+            "ဘာမျှ မဖြစ်ပျက်ပါ။",
+            "ချက်ချင်း ထာဝရ ပေါင်းစည်းသွားကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the general rule for magnetic poles -- like poles (the same kind) don't get along.",
+            "Two north poles are the same kind of pole -- \"like poles repel\" is the rule that applies here.",
+          ],
+          hintsMy: [
+            "သံလိုက်ဝင်ရိုးများအတွက် ယေဘုယျစည်းမျဉ်းကို သတိရပါ -- တူညီသောဝင်ရိုးများ (အမျိုးအစားတူ) သည် အတူတကွ မနေနိုင်ကြပါ။",
+            "မြောက်ဝင်ရိုးနှစ်ခုသည် ဝင်ရိုးအမျိုးအစားတူညီကြသည် -- \"တူညီသောဝင်ရိုးများ တွန်းဖယ်ကြသည်\" ဆိုသောစည်းမျဉ်းက ဤနေရာတွင် သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these materials would be attracted to a magnet?",
+          questionMy:
+              "အောက်ပါတို့အနက် သံလိုက်ဆွဲဆောင်ခံရမည့်ပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An iron nail",
+            "A wooden spoon",
+            "A plastic ruler",
+            "A sheet of paper",
+          ],
+          optionsMy: [
+            "သံချွန်",
+            "သစ်သားဇွန်း",
+            "ပလတ်စတစ်ပေတံ",
+            "စာရွက်တစ်ရွက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Only a small group of materials, like iron, steel, nickel and cobalt, are attracted to magnets -- what does the nail's material have in common with those?",
+            "Wood, plastic and paper are all non-magnetic materials, no matter how close a magnet gets.",
+          ],
+          hintsMy: [
+            "သံ၊ သံမဏိ၊ နီကယ်နှင့် ကိုဘော့ကဲ့သို့ ပစ္စည်းအုပ်စုငယ်တစ်ခုသာ သံလိုက်ဆွဲဆောင်ခံရသည် -- သံချွန်၏ ပစ္စည်းသည် ထိုအရာများနှင့် အဘယ်အရာ ဘုံတူညီသနည်း။",
+            "သစ်သား၊ ပလတ်စတစ်နှင့် စာရွက်တို့သည် သံလိုက်ကို မည်မျှနီးကပ်စွာ ယူဆောင်လာစေ သံလိုက်မဆွဲနိုင်သောပစ္စည်းများ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a compass needle always point toward Earth's magnetic north?",
+          questionMy:
+              "အရပ်ညွှန်ဆိုင်း၏ အမြွှာသည် ကမ္ဘာ၏ သံလိုက်မြောက်ဘက်ကို အဘယ့်ကြောင့် အမြဲညွှန်ပြသနည်း။",
+          optionsEn: [
+            "The compass needle is itself a small magnet that aligns with Earth's own magnetic field, since Earth behaves like a giant magnet.",
+            "The needle is attracted to the light of the North Star.",
+            "The needle always points toward the nearest iron object, wherever that is.",
+            "Compasses work randomly, with no scientific reason at all.",
+          ],
+          optionsMy: [
+            "အရပ်ညွှန်အမြွှာသည် ကိုယ်တိုင် သံလိုက်ငယ်တစ်ခုဖြစ်ပြီး ကမ္ဘာသည် သံလိုက်ကြီးတစ်ခုကဲ့သို့ ကျင့်ဆောင်နေသဖြင့် ကမ္ဘာ၏ သံလိုက်စက်ကွင်းနှင့် တန်းစီနေခြင်း ဖြစ်သည်။",
+            "အမြွှာသည် မြောက်တာရာ၏ အလင်းအား ဆွဲဆောင်ခံရသည်။",
+            "အမြွှာသည် အနီးဆုံးသံပစ္စည်းဘက်သို့ အမြဲညွှန်ပြသည်၊ ထိုပစ္စည်းသည် မည်သည့်နေရာမဆို။",
+            "အရပ်ညွှန်များသည် သိပ္ပံနည်းကျ အကြောင်းရင်း လုံးဝမရှိဘဲ ကျပန်း အလုပ်လုပ်ကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall that a compass needle is a small magnet, free to rotate -- what would any free-spinning magnet line up with, if Earth itself acts like a giant magnet?",
+            "Rule out the options about starlight, nearby iron objects, or randomness -- Earth's own magnetic field is the real reason.",
+          ],
+          hintsMy: [
+            "အရပ်ညွှန်အမြွှာသည် လွတ်လပ်စွာ လည်ပတ်နိုင်သော သံလိုက်ငယ်တစ်ခုဖြစ်ကြောင်း သတိရပါ -- ကမ္ဘာကိုယ်တိုင် သံလိုက်ကြီးတစ်ခုကဲ့သို့ ကျင့်ဆောင်ပါက လွတ်လပ်စွာ လည်ပတ်နိုင်သော သံလိုက်တစ်ခုသည် အဘယ်အရာနှင့် တန်းစီမည်နည်း။",
+            "ကြယ်အလင်း၊ အနီးရှိသံပစ္စည်း (သို့) ကျပန်းဖြစ်မှုဆိုင်ရာ ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- ကမ္ဘာ၏ ကိုယ်ပိုင်သံလိုက်စက်ကွင်းသည် စစ်မှန်သောအကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the invisible area around a magnet, where its magnetic force can act on other magnetic materials, called?",
+          questionMy:
+              "သံလိုက်တစ်ခုပတ်ဝန်းကျင်ရှိ ၎င်း၏ သံလိုက်အားက အခြားသံလိုက်ဆွဲနိုင်သောပစ္စည်းများအပေါ် သက်ရောက်နိုင်သော မမြင်ရသောနယ်ပယ်ကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "A magnetic field",
+            "A magnetic wave",
+            "A gravitational field",
+            "An electric field",
+          ],
+          optionsMy: [
+            "သံလိုက်စက်ကွင်း (Magnetic Field)",
+            "သံလိုက်လှိုင်း",
+            "ဆွဲငင်အားစက်ကွင်း (Gravitational Field)",
+            "လျှပ်စစ်စက်ကွင်း (Electric Field)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a completely new term for this week -- not the gravitational store from Week 7, and not the electricity strand from Week 10.",
+            "\"Magnetic\" is the giveaway word -- this field belongs to magnets specifically, distinct from Week 7's gravity or Week 10's electric current.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ဤအပတ်အတွက် လုံးဝ ဝေါဟာရအသစ်ဖြစ်ပြီး -- Week 7 ၏ ဆွဲငင်အားသိုလှောင်မှု (သို့) Week 10 ၏ လျှပ်စစ်သင်ခန်းစာ မဟုတ်ပါ။",
+            "\"သံလိုက်\" ဆိုသောစကားလုံးက အဖြေကို ညွှန်ပြသည် -- ဤစက်ကွင်းသည် သံလိုက်များနှင့်သာ သီးသန့်သက်ဆိုင်ပြီး Week 7 ၏ ဆွဲငင်အား (သို့) Week 10 ၏ လျှပ်စစ်ရေစီးနှင့် ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match the Magnetism Terms",
+      titleMy: "သံလိုက်ဗေဒ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w11-dm-1",
+          termEn: "Magnetic Pole",
+          termMy: "သံလိုက်ဝင်ရိုး (Magnetic Pole)",
+          matchEn:
+              "One of the two ends of a magnet (north or south), where its magnetic force is strongest.",
+          matchMy:
+              "သံလိုက်တစ်ခု၏ အဆုံးနှစ်ခု (မြောက် (သို့) တောင်) အနက် တစ်ခုဖြစ်ပြီး ၎င်း၏ သံလိုက်အား အားအကောင်းဆုံးနေရာ ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w11-dm-2",
+          termEn: "Repulsion",
+          termMy: "တွန်းဖယ်မှု (Repulsion)",
+          matchEn:
+              "The pushing-apart force between two like magnetic poles (north-north or south-south).",
+          matchMy:
+              "တူညီသော သံလိုက်ဝင်ရိုးနှစ်ခု (မြောက်-မြောက် သို့) တောင်-တောင်) ကြားရှိ တွန်းဖယ်အား။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w11-dm-3",
+          termEn: "Magnetic Material",
+          termMy: "သံလိုက်ဆွဲနိုင်သောပစ္စည်း (Magnetic Material)",
+          matchEn:
+              "A substance, like iron, steel, nickel or cobalt, that is attracted to a magnet.",
+          matchMy:
+              "သံ၊ သံမဏိ၊ နီကယ် (သို့) ကိုဘော့ကဲ့သို့ သံလိုက်ဆွဲဆောင်ခံရသော ပစ္စည်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w11-dm-4",
+          termEn: "Non-Magnetic Material",
+          termMy: "သံလိုက်မဆွဲနိုင်သောပစ္စည်း (Non-Magnetic Material)",
+          matchEn:
+              "A substance, like wood, plastic, aluminum or paper, that is not attracted to a magnet at all.",
+          matchMy:
+              "သစ်သား၊ ပလတ်စတစ်၊ အလူမီနီယံ (သို့) စာရွက်ကဲ့သို့ သံလိုက်လုံးဝ မဆွဲဆောင်နိုင်သော ပစ္စည်း။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w11-dm-5",
+          termEn: "Magnetic Field",
+          termMy: "သံလိုက်စက်ကွင်း (Magnetic Field)",
+          matchEn:
+              "The invisible area around a magnet where its magnetic force can act on other magnetic materials.",
+          matchMy:
+              "သံလိုက်တစ်ခုပတ်ဝန်းကျင်ရှိ ၎င်း၏ သံလိုက်အားက အခြားသံလိုက်ဆွဲနိုင်သောပစ္စည်းများအပေါ် သက်ရောက်နိုင်သော မမြင်ရသောနယ်ပယ်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w11-dm-6",
+          termEn: "Compass",
+          termMy: "အရပ်ညွှန် (Compass)",
+          matchEn:
+              "A small magnetized needle, free to rotate, that lines up with Earth's magnetic field to point toward magnetic north.",
+          matchMy:
+              "လွတ်လပ်စွာ လည်ပတ်နိုင်သော သံလိုက်ခံအမြွှာငယ်ဖြစ်ပြီး ကမ္ဘာ၏ သံလိုက်စက်ကွင်းနှင့် တန်းစီကာ သံလိုက်မြောက်ဘက်ကို ညွှန်ပြသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Magnetic or Non-Magnetic Material?",
+      titleMy:
+          "စီစစ်ကြမည် - သံလိုက်ဆွဲနိုင်သောပစ္စည်းလား၊ မဆွဲနိုင်သောပစ္စည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Magnetic Material", "Non-Magnetic Material"],
+        bucketsMy: ["သံလိုက်ဆွဲနိုင်သောပစ္စည်း", "သံလိုက်မဆွဲနိုင်သောပစ္စည်း"],
+        items: [
+          SortingItem(
+            id: "s1sci-w11-sort-1",
+            labelEn: "Iron nail",
+            labelMy: "သံချွန်",
+            correctBucketEn: "Magnetic Material",
+            correctBucketMy: "သံလိုက်ဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-2",
+            labelEn: "Steel paperclip",
+            labelMy: "သံမဏိစာချိတ်",
+            correctBucketEn: "Magnetic Material",
+            correctBucketMy: "သံလိုက်ဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-3",
+            labelEn: "Wooden pencil",
+            labelMy: "သစ်သားခဲတံ",
+            correctBucketEn: "Non-Magnetic Material",
+            correctBucketMy: "သံလိုက်မဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-4",
+            labelEn: "Plastic comb",
+            labelMy: "ပလတ်စတစ်ဘီး",
+            correctBucketEn: "Non-Magnetic Material",
+            correctBucketMy: "သံလိုက်မဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-5",
+            labelEn: "Aluminum drink can",
+            labelMy: "အလူမီနီယံ သောက်စရာဗူး",
+            correctBucketEn: "Non-Magnetic Material",
+            correctBucketMy: "သံလိုက်မဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-6",
+            labelEn: "Nickel coin",
+            labelMy: "နီကယ်အကြေး",
+            correctBucketEn: "Magnetic Material",
+            correctBucketMy: "သံလိုက်ဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-7",
+            labelEn: "Cotton cloth",
+            labelMy: "ချည်ထည်",
+            correctBucketEn: "Non-Magnetic Material",
+            correctBucketMy: "သံလိုက်မဆွဲနိုင်သောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w11-sort-8",
+            labelEn: "Steel kitchen knife",
+            labelMy: "မီးဖိုချောင်သံမဏိဓား",
+            correctBucketEn: "Magnetic Material",
+            correctBucketMy: "သံလိုက်ဆွဲနိုင်သောပစ္စည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Magnet Treasure Hunt",
+      titleMy: "စာဖတ်ခြင်း - နီလာ၏ သံလိုက်ရှာဖွေရေးဂိမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Magnet Treasure Hunt",
+        titleMy: "နီလာ၏ သံလိုက်ရှာဖွေရေးဂိမ်း",
+        passageEn:
+            "Nilar found an old bar magnet in a kitchen drawer and decided to test which objects in the house it would attract. She started with a small pile of coins, paperclips, and other odds and ends on the table. When she brought the magnet near an iron nail, it snapped onto the magnet's south pole instantly. She then reached for a wooden pencil and a plastic comb -- neither was attracted at all, no matter how close she held the magnet.\n\nCurious, Nilar tried touching the magnet's north pole against a second bar magnet she found in a toy set. When she lined up the two north poles facing each other, they pushed apart, refusing to touch. But when she flipped the second magnet around so its south pole faced the first magnet's north pole, they snapped together immediately.\n\nRemembering a lesson about compasses, Nilar balanced a small magnetized needle on a cork floating in a bowl of water. Slowly, the needle turned until it settled in one direction and stopped moving. She realized the needle itself was acting like a tiny magnet, lining up with Earth's own magnetic field -- just like a real compass -- with one end always pointing toward magnetic north.\n\nFinally, Nilar tested an aluminum drink can and a cotton cloth with the magnet. Neither stuck, confirming they were non-magnetic materials, just like the wooden pencil and plastic comb. She wrote in her notebook: iron and steel objects are attracted to a magnet, but wood, plastic, aluminum and cotton are not.",
+        passageMy:
+            "နီလာသည် မီးဖိုချောင်အံဆွဲထဲတွင် သံလိုက်တန်းအဟောင်းတစ်ခုကို တွေ့ခဲ့ပြီး အိမ်ထဲရှိ မည်သည့်ပစ္စည်းများကို ဆွဲဆောင်နိုင်သည်ကို စမ်းသပ်ရန် ဆုံးဖြတ်ခဲ့သည်။ သူမသည် စားပွဲပေါ်ရှိ အကြေးငွေများ၊ စာချိတ်များနှင့် အခြားပစ္စည်းငယ်များစုစည်းထားသည့်အစုနှင့် စတင်ခဲ့သည်။ သံလိုက်ကို သံချွန်တစ်ချောင်းအနီးသို့ ယူဆောင်လာချိန် ၎င်းသည် သံလိုက်၏ တောင်ဝင်ရိုးပေါ်သို့ ချက်ချင်း ကပ်သွားခဲ့သည်။ ထို့နောက် သူမသည် သစ်သားခဲတံနှင့် ပလတ်စတစ်ဘီးတစ်ခုကို ကိုင်ကြည့်ခဲ့သော်လည်း -- သံလိုက်ကို မည်မျှနီးကပ်စွာ ကိုင်ထားစေ နှစ်ခုစလုံး လုံးဝ မကပ်ခဲ့ပါ။\n\nစိတ်ဝင်စားသဖြင့် နီလာသည် ကစားစရာအတွဲထဲမှ တွေ့ခဲ့သော ဒုတိယသံလိုက်တန်း၏ မြောက်ဝင်ရိုးကို ပထမသံလိုက်၏ မြောက်ဝင်ရိုးနှင့် ထိကြည့်ခဲ့သည်။ မြောက်ဝင်ရိုးနှစ်ခုကို မျက်နှာချင်းဆိုင် တန်းစီလိုက်ချိန် ၎င်းတို့သည် ထိမကပ်ဘဲ တွန်းဖယ်ခဲ့ကြသည်။ သို့သော် ဒုတိယသံလိုက်ကို ပြောင်းပြန်လှည့်၍ ၎င်း၏ တောင်ဝင်ရိုးကို ပထမသံလိုက်၏ မြောက်ဝင်ရိုးနှင့် ရင်ဆိုင်စေချိန် ၎င်းတို့သည် ချက်ချင်း ကပ်ညိတ်သွားခဲ့ကြသည်။\n\nအရပ်ညွှန်နှင့်ပတ်သက်သော သင်ခန်းစာတစ်ခုကို သတိရသဖြင့် နီလာသည် ရေခွက်ထဲတွင် ချောလိမ့်နေသော ပလပ်စာပေါ်တွင် သံလိုက်ခံအမြွှာငယ်တစ်ခုကို ချိန်ညှိထားခဲ့သည်။ ဖြည်းညှင်းစွာ အမြွှာသည် တစ်ရပ်တည်း ရပ်တန့်သည်အထိ လည်ပတ်ခဲ့သည်။ ထိုအမြွှာသည် ကိုယ်တိုင် သံလိုက်ငယ်တစ်ခုကဲ့သို့ ကျင့်ဆောင်နေပြီး ကမ္ဘာ၏ ကိုယ်ပိုင်သံလိုက်စက်ကွင်းနှင့် တန်းစီနေခြင်းဖြစ်ကြောင်း -- စစ်မှန်သော အရပ်ညွှန်တစ်ခုကဲ့သို့ -- အမြွှာတစ်ဖက်စွန်းသည် သံလိုက်မြောက်ဘက်ကို အမြဲညွှန်ပြနေကြောင်း သူမ သဘောပေါက်လိုက်သည်။\n\nနောက်ဆုံးတွင် နီလာသည် အလူမီနီယံသောက်စရာဗူးတစ်ခုနှင့် ချည်ထည်တစ်ခုကို သံလိုက်ဖြင့် စမ်းသပ်ခဲ့သည်။ နှစ်ခုစလုံး လုံးဝ မကပ်ခဲ့ပါ၊ ၎င်းတို့သည် သစ်သားခဲတံနှင့် ပလတ်စတစ်ဘီးကဲ့သို့ပင် သံလိုက်မဆွဲနိုင်သောပစ္စည်းများ ဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။ သူမသည် သူမ၏ မှတ်စုစာအုပ်ထဲတွင် ရေးမှတ်ခဲ့သည် - သံနှင့် သံမဏိပစ္စည်းများသည် သံလိုက်ဆွဲဆောင်ခြင်းခံရသော်လည်း သစ်သား၊ ပလတ်စတစ်၊ အလူမီနီယံနှင့် ချည်သားတို့ကမူ မခံရပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happened when Nilar lined up the two magnets' north poles facing each other?",
+            questionMy:
+                "နီလာသည် သံလိုက်နှစ်ခု၏ မြောက်ဝင်ရိုးများကို မျက်နှာချင်းဆိုင် တန်းစီလိုက်ချိန် အဘယ်အရာ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "They pushed apart, refusing to touch, because like poles repel.",
+              "They snapped together immediately, because like poles attract.",
+              "Nothing happened at all.",
+              "They both lost their magnetism instantly.",
+            ],
+            optionsMy: [
+              "တူညီသောဝင်ရိုးများ တွန်းဖယ်ကြသောကြောင့် ၎င်းတို့သည် ထိမကပ်ဘဲ တွန်းဖယ်သွားခဲ့ကြသည်။",
+              "တူညီသောဝင်ရိုးများ ဆွဲဆောင်ကြသောကြောင့် ၎င်းတို့သည် ချက်ချင်း ကပ်ညိတ်သွားခဲ့ကြသည်။",
+              "ဘာမှ မဖြစ်ပျက်ခဲ့ပါ။",
+              "နှစ်ခုစလုံးသည် သံလိုက်ဓာတ် ချက်ချင်း ဆုံးရှုံးသွားခဲ့ကြသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- did the two north poles attract or push apart?",
+              "This is Day 1's first quiz question, applied directly to Nilar's own experiment.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မြောက်ဝင်ရိုးနှစ်ခုသည် ဆွဲဆောင်ခဲ့ကြသလား၊ တွန်းဖယ်ခဲ့ကြသလား။",
+              "ဤသည်မှာ ပထမနေ့၏ ပထမမေးခွန်းကို နီလာ၏ ကိုယ်ပိုင်စမ်းသပ်မှုတွင် တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the compass needle settle in one direction and stop moving?",
+            questionMy:
+                "အရပ်ညွှန်အမြွှာသည် အဘယ့်ကြောင့် တစ်ရပ်တည်း ရပ်တန့်ခဲ့သနည်း။",
+            optionsEn: [
+              "The needle is a small magnet that lined up with Earth's own magnetic field.",
+              "The needle was simply too heavy to keep spinning.",
+              "The water in the bowl pushed it into place.",
+              "The needle lost all of its magnetism.",
+            ],
+            optionsMy: [
+              "အမြွှာသည် ကမ္ဘာ၏ ကိုယ်ပိုင်သံလိုက်စက်ကွင်းနှင့် တန်းစီနေသော သံလိုက်ငယ်တစ်ခု ဖြစ်သောကြောင့်။",
+              "အမြွှာသည် ရိုးရိုးရှင်းရှင်း အလွန်လေးလွန်းသဖြင့် ဆက်လည်ပတ်၍ မရသောကြောင့်။",
+              "ခွက်ထဲရှိ ရေက ၎င်းကို နေရာကျအောင် တွန်းပေးခဲ့သောကြောင့်။",
+              "အမြွှာသည် ၎င်း၏ သံလိုက်ဓာတ် အားလုံး ဆုံးရှုံးသွားခဲ့သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- what does Nilar realize the needle was acting like?",
+              "This is Day 1's compass question, demonstrated directly through Nilar's own floating-needle experiment.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အမြွှာသည် အဘယ်အရာကဲ့သို့ ကျင့်ဆောင်နေကြောင်း နီလာ သဘောပေါက်သနည်း။",
+              "ဤသည်မှာ ပထမနေ့၏ အရပ်ညွှန်မေးခွန်းကို နီလာ၏ ကိုယ်ပိုင် ချောလိမ့်အမြွှာစမ်းသပ်မှုဖြင့် တိုက်ရိုက် သရုပ်ပြထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which pair of objects did Nilar confirm were both non-magnetic in the final paragraph?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်တွင် နီလာသည် မည်သည့်ပစ္စည်းအတွဲနှစ်ခုလုံး သံလိုက်မဆွဲနိုင်ကြောင်း အတည်ပြုခဲ့သနည်း။",
+            optionsEn: [
+              "The aluminum drink can and the cotton cloth",
+              "The iron nail and the steel paperclip",
+              "The two bar magnets",
+              "The compass needle and the cork",
+            ],
+            optionsMy: [
+              "အလူမီနီယံသောက်စရာဗူးနှင့် ချည်ထည်",
+              "သံချွန်နှင့် သံမဏိစာချိတ်",
+              "သံလိုက်တန်းနှစ်ခု",
+              "အရပ်ညွှန်အမြွှာနှင့် ပလပ်စာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- which two items did Nilar test right before writing in her notebook?",
+              "The iron nail and paperclip were magnetic (from earlier paragraphs) -- this question asks about the final pair tested.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နီလာသည် သူမ၏ မှတ်စုစာအုပ်တွင် မရေးမီ မည်သည့်ပစ္စည်းနှစ်ခုကို စမ်းသပ်ခဲ့သနည်း။",
+              "သံချွန်နှင့် စာချိတ်တို့သည် သံလိုက်ဆွဲဆောင်ခံရသည် (ယခင်စာပိုဒ်များမှ) -- ဤမေးခွန်းက နောက်ဆုံးစမ်းသပ်ခဲ့သော အတွဲအကြောင်း မေးထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Nilar's notebook summary, which group of materials is attracted to a magnet?",
+            questionMy:
+                "နီလာ၏ မှတ်စုစာအုပ်အနှစ်ချုပ်အရ မည်သည့်ပစ္စည်းအုပ်စုသည် သံလိုက်ဆွဲဆောင်ခံရသနည်း။",
+            optionsEn: [
+              "Iron and steel objects",
+              "Wood and plastic objects",
+              "Aluminum and cotton objects",
+              "None of them are ever attracted",
+            ],
+            optionsMy: [
+              "သံနှင့် သံမဏိပစ္စည်းများ",
+              "သစ်သားနှင့် ပလတ်စတစ်ပစ္စည်းများ",
+              "အလူမီနီယံနှင့် ချည်သားပစ္စည်းများ",
+              "မည်သည့်တစ်ခုမျှ လုံးဝ ဆွဲဆောင်ခံရခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the passage's final sentence, which lists both groups directly, side by side.",
+              "This matches Day 1's magnetic-materials question and the Day 3 sorting activity exactly.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းသည် အုပ်စုနှစ်ခုစလုံးကို ဘေးချင်းယှဉ်၍ တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ သံလိုက်ဆွဲနိုင်သောပစ္စည်း မေးခွန်းနှင့် တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းနှင့် အတိအကျ ကိုက်ညီသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Magnetism",
+      titleMy: "အပတ်စဉ် ၁၁ ပြန်လည်သုံးသပ်ခြင်း - သံလိုက်ဗေဒ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What happens when two unlike magnetic poles (north and south) meet?",
+          questionMy:
+              "သံလိုက်ဝင်ရိုးမတူညီသောနှစ်ခု (မြောက်နှင့် တောင်) တွေ့ဆုံချိန် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "They attract",
+            "They repel",
+            "Nothing happens",
+            "They both disappear",
+          ],
+          optionsMy: [
+            "ဆွဲဆောင်ကြသည်",
+            "တွန်းဖယ်ကြသည်",
+            "ဘာမျှမဖြစ်ပျက်ပါ",
+            "နှစ်ခုစလုံး ပျောက်ကွယ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Nilar's second magnet -- what happened once she flipped it so a south pole faced the first magnet's north pole?",
+            "\"Unlike poles attract, like poles repel\" -- the exact opposite of Day 1's first question.",
+          ],
+          hintsMy: [
+            "နီလာ၏ ဒုတိယသံလိုက်ကို သတိရပါ -- တောင်ဝင်ရိုးကို ပထမသံလိုက်၏ မြောက်ဝင်ရိုးနှင့် ရင်ဆိုင်အောင် လှည့်လိုက်ချိန် အဘယ်အရာ ဖြစ်ခဲ့သနည်း။",
+            "\"မတူညီသောဝင်ရိုးများ ဆွဲဆောင်ကြပြီး တူညီသောဝင်ရိုးများ တွန်းဖယ်ကြသည်\" -- ပထမနေ့၏ ပထမမေးခွန်းနှင့် အတိအကျ ဆန့်ကျင်ဘက်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a non-magnetic material?",
+          questionMy: "အောက်ပါတို့အနက် သံလိုက်မဆွဲနိုင်သောပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Aluminum can",
+            "Iron nail",
+            "Steel paperclip",
+            "Steel kitchen knife",
+          ],
+          optionsMy: [
+            "အလူမီနီယံဗူး",
+            "သံချွန်",
+            "သံမဏိစာချိတ်",
+            "သံမဏိမီးဖိုချောင်ဓား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Magnetic Material bucket.",
+            "Aluminum, unlike iron and steel, is not attracted to a magnet at all.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် သံလိုက်ဆွဲနိုင်သောပစ္စည်းကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "အလူမီနီယံသည် သံနှင့် သံမဏိနှင့်မတူဘဲ သံလိုက်လုံးဝ မဆွဲနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What acts like Earth's own giant magnet, causing compasses to work?",
+          questionMy:
+              "ကမ္ဘာကိုယ်တိုင်သည် သံလိုက်ကြီးတစ်ခုကဲ့သို့ ကျင့်ဆောင်ကာ အရပ်ညွှန်များ အလုပ်လုပ်စေသည်ဆိုသည်ကို ဖော်ပြခြင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "Earth's own magnetic field",
+            "The North Star's gravity",
+            "Ordinary sunlight",
+            "Nothing at all -- compasses work randomly",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ၏ ကိုယ်ပိုင်သံလိုက်စက်ကွင်း",
+            "မြောက်တာရာ၏ ဆွဲငင်အား",
+            "ရိုးရိုးနေရောင်ခြည်",
+            "ဘာမျှမရှိပါ -- အရပ်ညွှန်များသည် ကျပန်း အလုပ်လုပ်ကြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's compass question -- Earth behaves like what, causing a free-spinning needle to line up with it?",
+            "This is the exact same idea from the reading passage's floating-needle experiment.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ အရပ်ညွှန်မေးခွန်းကို သတိရပါ -- ကမ္ဘာသည် အဘယ်အရာကဲ့သို့ ကျင့်ဆောင်ကာ လွတ်လပ်စွာ လည်ပတ်နိုင်သော အမြွှာတစ်ခုကို တန်းစီစေသနည်း။",
+            "ဤသည်မှာ စာဖတ်ခန်း၏ ချောလိမ့်အမြွှာစမ်းသပ်မှုမှ အယူအဆတစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The invisible area where a magnet's force can act is called what?",
+          questionMy:
+              "သံလိုက်တစ်ခု၏ အားက သက်ရောက်နိုင်သော မမြင်ရသောနယ်ပယ်ကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "A magnetic field",
+            "A gravitational store",
+            "A word equation",
+            "A circuit",
+          ],
+          optionsMy: [
+            "သံလိုက်စက်ကွင်း",
+            "ဆွဲငင်အားသိုလှောင်မှု",
+            "စကားလုံးညီမျှခြင်း",
+            "လျှပ်စစ်ပတ်လမ်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the exact term from Day 1's fourth question and the Day 2 drag-match.",
+            "Rule out the gravitational store (Week 7), word equation (Week 9), and circuit (Week 10) -- those all belong to other weeks.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ စတုတ္ထမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ ဝေါဟာရအတိအကျကို သတိရပါ။",
+            "ဆွဲငင်အားသိုလှောင်မှု (Week 7)၊ စကားလုံးညီမျှခြင်း (Week 9)၊ ပတ်လမ်း (Week 10) တို့ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် အခြားအပတ်များနှင့် သက်ဆိုင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which group below contains only magnetic materials?",
+          questionMy:
+              "အောက်ပါအုပ်စုတို့တွင် သံလိုက်ဆွဲနိုင်သောပစ္စည်းများသာ ပါဝင်သည့်အုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Iron, steel and nickel",
+            "Wood, plastic and paper",
+            "Aluminum, cotton and glass",
+            "Water, air and oil",
+          ],
+          optionsMy: [
+            "သံ၊ သံမဏိနှင့် နီကယ်",
+            "သစ်သား၊ ပလတ်စတစ်နှင့် စာရွက်",
+            "အလူမီနီယံ၊ ချည်သားနှင့် ဖန်",
+            "ရေ၊ လေနှင့် ဆီ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match definition of magnetic material -- which named metals belong on this list?",
+            "The other three groups are all made entirely of non-magnetic materials.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ သံလိုက်ဆွဲနိုင်သောပစ္စည်း အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ဤစာရင်းတွင် မည်သည့် အမည်တွင်ထားသောသတ္တုများ ပါဝင်သနည်း။",
+            "အခြားအုပ်စုသုံးစုသည် သံလိုက်မဆွဲနိုင်သောပစ္စည်းများဖြင့်သာ ဖွဲ့စည်းထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Iron and steel are attracted to a magnet. What about aluminum?",
+          questionMy:
+              "သံနှင့် သံမဏိသည် သံလိုက်ဆွဲဆောင်ခံရသည်။ အလူမီနီယံမှာမူ အဘယ်သို့နည်း။",
+          optionsEn: [
+            "Aluminum is not attracted to a magnet at all.",
+            "Aluminum is attracted even more strongly than iron.",
+            "Aluminum and iron behave in exactly the same way.",
+            "Aluminum turns into a magnet itself.",
+          ],
+          optionsMy: [
+            "အလူမီနီယံသည် သံလိုက်လုံးဝ မဆွဲဆောင်ခံရပါ။",
+            "အလူမီနီယံသည် သံထက်ပင် ပိုမိုအားကောင်းစွာ ဆွဲဆောင်ခံရသည်။",
+            "အလူမီနီယံနှင့် သံသည် အတိအကျ တူညီသောအပြုအမူကို ပြသကြသည်။",
+            "အလူမီနီယံသည် ကိုယ်တိုင် သံလိုက်တစ်ခုသို့ ပြောင်းလဲသွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Nilar's aluminum drink can test -- did it stick to the magnet?",
+            "This is the sorting activity's key distinction: some metals (iron, steel, nickel) are magnetic, but not all metals are.",
+          ],
+          hintsMy: [
+            "နီလာ၏ အလူမီနီယံသောက်စရာဗူးစမ်းသပ်မှုကို သတိရပါ -- ၎င်းသည် သံလိုက်ပေါ်တွင် ကပ်ခဲ့ပါသလား။",
+            "ဤသည်မှာ စီစစ်လေ့ကျင့်ခန်း၏ အဓိကခွဲခြားချက်ဖြစ်သည် -- သတ္တုအချို့ (သံ၊ သံမဏိ၊ နီကယ်) သည် သံလိုက်ဆွဲသော်လည်း သတ္တုအားလုံး မဆွဲနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 3, Week 12 (capstone): "Electromagnets:
+// Electricity Meets Magnetism"
+// =====================================================================
+
+/// Week 12 is Term 3's capstone, combining Week 10's circuits and
+/// Week 11's magnetism: a current-carrying wire creates a weak magnetic
+/// field, and coiling that wire around an iron core concentrates it
+/// into a much stronger, switchable electromagnet -- unlike Week 11's
+/// permanent magnet. Also closes the loop on Week 7's energy-transfer
+/// chain (chemical -> electrical -> magnetic effect, with some loss to
+/// thermal energy, echoing Week 4's brake pads) and Week 9's fuel/
+/// combustion strand is set aside this week in favor of tying
+/// electricity and magnetism together instead.
+const CourseWeekDef _secondary1ScienceWeek12 = CourseWeekDef(
+  id: "course-secondary1-science-w12",
+  weekNumber: 12,
+  titleEn: "Electromagnets: Electricity Meets Magnetism",
+  titleMy: "လျှပ်စစ်သံလိုက်များ - လျှပ်စစ်နှင့် သံလိုက်ဗေဒ ဆုံစည်းခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w12-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Electromagnets Quiz",
+      titleMy: "လျှပ်စစ်သံလိုက် ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What happens to the space around a wire when an electric current flows through it?",
+          questionMy:
+              "ဝါယာကြိုးတစ်ခုတွင် လျှပ်စစ်ရေစီးတစ်ခု စီးဆင်းနေချိန် ၎င်းပတ်ဝန်းကျင်ရှိနေရာတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "A weak magnetic field is created around the wire.",
+            "The wire becomes completely non-magnetic, no matter what.",
+            "Nothing at all happens around the wire.",
+            "The wire instantly becomes a permanent magnet forever.",
+          ],
+          optionsMy: [
+            "ဝါယာကြိုးပတ်ဝန်းကျင်တွင် အားနည်းသော သံလိုက်စက်ကွင်းတစ်ခု ဖြစ်ပေါ်လာသည်။",
+            "ဝါယာကြိုးသည် မည်သို့ပင်ဖြစ်စေ လုံးဝ သံလိုက်မဆွဲနိုင်သောအရာအဖြစ် ပြောင်းလဲသွားသည်။",
+            "ဝါယာကြိုးပတ်ဝန်းကျင်တွင် ဘာမျှ လုံးဝ မဖြစ်ပျက်ပါ။",
+            "ဝါယာကြိုးသည် ချက်ချင်း ထာဝရ သံလိုက်တစ်ခုအဖြစ် ပြောင်းလဲသွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 10's circuits and Week 11's magnetic fields -- current flowing is an electrical event, but it turns out to have a magnetic side effect too.",
+            "This weak field is only present while current flows -- it's the very first step toward building an electromagnet.",
+          ],
+          hintsMy: [
+            "Week 10 ၏ ပတ်လမ်းများနှင့် Week 11 ၏ သံလိုက်စက်ကွင်းများကို သတိရပါ -- ရေစီးစီးနေခြင်းသည် လျှပ်စစ်ဆိုင်ရာ ဖြစ်ရပ်ဖြစ်သော်လည်း သံလိုက်ဆိုင်ရာ ဘေးထွက်အကျိုးသက်ရောက်မှုလည်း ရှိသည်ဟု သိရှိရသည်။",
+            "ဤအားနည်းသောစက်ကွင်းသည် ရေစီးစီးနေချိန်တွင်သာ ရှိနေပြီး -- လျှပ်စစ်သံလိုက်တစ်ခု တည်ဆောက်ရန် ပထမဆုံးအဆင့်ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How can you make the magnetic field from a current-carrying wire much stronger, turning it into a useful electromagnet?",
+          questionMy:
+              "ရေစီးစီးနေသောဝါယာကြိုး၏ သံလိုက်စက်ကွင်းကို မည်သို့ ပိုမိုအားကောင်းစေနိုင်ပြီး အသုံးဝင်သော လျှပ်စစ်သံလိုက်တစ်ခု ဖြစ်လာစေနိုင်သနည်း။",
+          optionsEn: [
+            "Wrap the wire into a coil around an iron core.",
+            "Disconnect the battery completely.",
+            "Use a plastic core instead of iron.",
+            "Use a shorter, straight, uncoiled wire.",
+          ],
+          optionsMy: [
+            "ဝါယာကြိုးကို သံအတွင်းအစိတ်အပိုင်းတစ်ခုပတ်လည် ကွင်းလိပ်အဖြစ် ပတ်ထားပါ။",
+            "ဘက်ထရီကို လုံးဝ ဖြတ်တောက်လိုက်ပါ။",
+            "သံအစား ပလတ်စတစ်ကို အတွင်းအစိတ်အပိုင်းအဖြစ် အသုံးပြုပါ။",
+            "ပိုတိုပြီး တည့်တည့်၊ ကွင်းလိပ်မထားသောဝါယာကြိုးကို အသုံးပြုပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 11's magnetic materials -- iron is attracted to magnets, and it also helps concentrate a magnetic field.",
+            "Coiling the wire packs many loops of magnetic field close together, and the iron core focuses that field even further.",
+          ],
+          hintsMy: [
+            "Week 11 ၏ သံလိုက်ဆွဲနိုင်သောပစ္စည်းများကို သတိရပါ -- သံသည် သံလိုက်ဆွဲဆောင်ခံရပြီး သံလိုက်စက်ကွင်းကို စုစည်းပေးရာတွင်လည်း အထောက်အကူပြုသည်။",
+            "ဝါယာကြိုးကို ကွင်းလိပ်ပတ်ခြင်းက သံလိုက်စက်ကွင်းများစွာကို နီးကပ်စွာ စုစည်းပေးပြီး သံအတွင်းအစိတ်အပိုင်းက ထိုစက်ကွင်းကို ပိုမို စုစည်းပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between an electromagnet and a permanent bar magnet like the one Nilar used in Week 11?",
+          questionMy:
+              "လျှပ်စစ်သံလိုက်တစ်ခုနှင့် Week 11 တွင် နီလာအသုံးပြုခဲ့သော ထာဝရသံလိုက်တန်းတစ်ခုကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An electromagnet is only magnetic while current flows through it and can be switched on or off; a permanent magnet stays magnetic all the time.",
+            "Electromagnets are always weaker and never useful for anything.",
+            "Permanent magnets can be switched on and off, but electromagnets cannot.",
+            "There is no real difference between them at all.",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်သံလိုက်သည် ရေစီးစီးနေချိန်တွင်သာ သံလိုက်ဆွဲနိုင်ပြီး ဖွင့်/ပိတ် ပြုလုပ်နိုင်သည်၊ ထာဝရသံလိုက်မူ အချိန်တိုင်း သံလိုက်ဓာတ် ဆက်ရှိနေသည်။",
+            "လျှပ်စစ်သံလိုက်များသည် အမြဲအားနည်းပြီး မည်သည့်အရာအတွက်မျှ လုံးဝ အသုံးမဝင်ပါ။",
+            "ထာဝရသံလိုက်များကို ဖွင့်/ပိတ် ပြုလုပ်နိုင်သော်လည်း လျှပ်စစ်သံလိုက်များကို မပြုလုပ်နိုင်ပါ။",
+            "နှစ်ခုကြား ကွာခြားချက် လုံးဝမရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 11's bar magnet -- did it ever need a battery or a switch to stay magnetic?",
+            "An electromagnet's magnetism depends entirely on current flowing -- disconnect the battery, and it loses its magnetism instantly.",
+          ],
+          hintsMy: [
+            "Week 11 ၏ သံလိုက်တန်းကို သတိရပါ -- ၎င်းသည် သံလိုက်ဆက်ဆွဲနိုင်ရန် ဘက်ထရီ (သို့) ခလုတ် တစ်ခါမျှ လိုအပ်ခဲ့ပါသလား။",
+            "လျှပ်စစ်သံလိုက်၏ သံလိုက်ဓာတ်သည် ရေစီးစီးဆင်းနေမှုအပေါ်တွင် လုံးဝ မူတည်သည် -- ဘက်ထရီကို ဖြတ်လိုက်လျှင် သံလိုက်ဓာတ် ချက်ချင်း ဆုံးရှုံးသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Tracing the energy in a battery-powered electromagnet lifting a paperclip, which sequence of energy transfers is correct?",
+          questionMy:
+              "ဘက်ထရီအားဖြင့် လည်ပတ်နေသော လျှပ်စစ်သံလိုက်တစ်ခု စာချိတ်တစ်ခုကို ချီမြှင့်ချိန် မည်သည့် စွမ်းအင်လွှဲပြောင်းမှုအစဉ်လိုက်သည် မှန်ကန်သနည်း။",
+          optionsEn: [
+            "Chemical energy (battery) -> electrical energy (wire) -> magnetic effect that lifts the paperclip, with some energy also transferring into thermal energy warming the wire.",
+            "Light energy -> sound energy, with nothing else happening.",
+            "The paperclip creates its own energy independently, unrelated to the battery.",
+            "Energy is created from nothing inside the coil.",
+          ],
+          optionsMy: [
+            "ဓာတုစွမ်းအင် (ဘက်ထရီ) -> လျှပ်စစ်စွမ်းအင် (ဝါယာကြိုး) -> စာချိတ်ကို ချီမြှင့်ပေးသော သံလိုက်အကျိုးသက်ရောက်မှု၊ စွမ်းအင်အချို့သည် ဝါယာကြိုးကို ပူစေသော အပူစွမ်းအင်အဖြစ်သို့လည်း လွှဲပြောင်းသည်။",
+            "အလင်းစွမ်းအင် -> အသံစွမ်းအင်၊ အခြားမည်သည့်အရာမျှ မဖြစ်ပျက်ပါ။",
+            "စာချိတ်သည် ဘက်ထရီနှင့် မသက်ဆိုင်ဘဲ သူ့ဘာသာ စွမ်းအင်ကို ဖန်တီးသည်။",
+            "ကွင်းလိပ်အတွင်းတွင် ဘာမှမဲ့ကနေ စွမ်းအင်အသစ် ဖန်တီးခံရသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's energy stores and Week 4's brake-pad example -- energy transfers are never a single clean step, some always leaks into thermal energy.",
+            "This is the exact same conservation idea from Week 7, extended through Week 10's circuit and Week 11's magnetism.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ စွမ်းအင်သိုလှောင်မှုများနှင့် Week 4 ၏ ဘရိတ်ပက်ဥပမာကို သတိရပါ -- စွမ်းအင်လွှဲပြောင်းမှုများသည် ရိုးရှင်းသောအဆင့်တစ်ခုတည်း ဘယ်တော့မှ မဟုတ်ဘဲ၊ အချို့သည် အမြဲ အပူစွမ်းအင်အဖြစ်သို့ ယိုဖိတ်နေတတ်သည်။",
+            "၎င်းသည် Week 7 ၏ ထိန်းသိမ်းမှုအယူအဆတည်းဖြစ်ပြီး Week 10 ၏ ပတ်လမ်းနှင့် Week 11 ၏ သံလိုက်ဗေဒတို့ကို ဖြတ်၍ ဆက်လက် တိုးချဲ့ထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match the Electromagnet Terms",
+      titleMy: "လျှပ်စစ်သံလိုက် ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w12-dm-1",
+          termEn: "Electromagnet",
+          termMy: "လျှပ်စစ်သံလိုက် (Electromagnet)",
+          matchEn:
+              "A temporary magnet created by an electric current flowing through a coiled wire, usually wrapped around an iron core.",
+          matchMy:
+              "ကွင်းလိပ်ပတ်ထားသော ဝါယာကြိုးတစ်လျှောက် လျှပ်စစ်ရေစီးက စီးဆင်းခြင်းဖြင့် ဖြစ်ပေါ်လာသော ယာယီသံလိုက်ဖြစ်ပြီး များသောအားဖြင့် သံအတွင်းအစိတ်အပိုင်းတစ်ခုပတ်လည် ပတ်ထားသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w12-dm-2",
+          termEn: "Coil",
+          termMy: "ကွင်းလိပ် (Coil)",
+          matchEn:
+              "Wire wound around in circular loops, concentrating the magnetic field created by the current flowing through it.",
+          matchMy:
+              "စက်ဝိုင်းပုံ ကွင်းများအဖြစ် ပတ်ထားသော ဝါယာကြိုးဖြစ်ပြီး ၎င်းတစ်လျှောက် စီးဆင်းသောရေစီးက ဖြစ်ပေါ်စေသည့် သံလိုက်စက်ကွင်းကို စုစည်းပေးသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w12-dm-3",
+          termEn: "Iron Core",
+          termMy: "သံအတွင်းအစိတ်အပိုင်း (Iron Core)",
+          matchEn:
+              "A piece of iron placed inside a coil to make an electromagnet's magnetic field much stronger.",
+          matchMy:
+              "လျှပ်စစ်သံလိုက်တစ်ခု၏ သံလိုက်စက်ကွင်းကို ပိုမိုအားကောင်းစေရန် ကွင်းလိပ်အတွင်းသို့ ထည့်ထားသော သံတစ်ချောင်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w12-dm-4",
+          termEn: "Current-Carrying Wire",
+          termMy: "ရေစီးဆောင်ဝါယာကြိုး (Current-Carrying Wire)",
+          matchEn:
+              "A wire with electric current flowing through it, which creates a weak magnetic field in the space around it.",
+          matchMy:
+              "လျှပ်စစ်ရေစီးစီးဆင်းနေသော ဝါယာကြိုးဖြစ်ပြီး ၎င်းပတ်ဝန်းကျင်တွင် အားနည်းသောသံလိုက်စက်ကွင်းတစ်ခု ဖြစ်ပေါ်စေသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w12-dm-5",
+          termEn: "Permanent Magnet",
+          termMy: "ထာဝရသံလိုက် (Permanent Magnet)",
+          matchEn:
+              "A magnet, like the bar magnet from Week 11, that stays magnetic all the time, without needing any electric current.",
+          matchMy:
+              "Week 11 ၏ သံလိုက်တန်းကဲ့သို့ လျှပ်စစ်ရေစီးလုံးဝ မလိုအပ်ဘဲ အချိန်တိုင်း သံလိုက်ဓာတ်ဆက်ရှိနေသော သံလိုက်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w12-dm-6",
+          termEn: "Scrapyard Crane Magnet",
+          termMy:
+              "အမှိုက်လှောင်ကွက် ချိတ်တွန်းသံလိုက် (Scrapyard Crane Magnet)",
+          matchEn:
+              "A powerful electromagnet used to lift and drop heavy scrap metal, switched on to grab metal and off to release it.",
+          matchMy:
+              "လေးလံသော သတ္တုအမှိုက်များကို ချီမြှင့်ရန်နှင့် ချထားရန် အသုံးပြုသော အားကောင်းသောလျှပ်စစ်သံလိုက်ဖြစ်ပြီး ဖွင့်ကာ သတ္တုကို ဆွဲယူပြီး ပိတ်ကာ လွှတ်ချသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Electromagnet or Permanent Magnet?",
+      titleMy: "စီစစ်ကြမည် - လျှပ်စစ်သံလိုက်လား၊ ထာဝရသံလိုက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Electromagnet", "Permanent Magnet"],
+        bucketsMy: ["လျှပ်စစ်သံလိုက်", "ထာဝရသံလိုက်"],
+        items: [
+          SortingItem(
+            id: "s1sci-w12-sort-1",
+            labelEn: "A bar magnet stuck to a fridge door",
+            labelMy: "ရေခဲသေတ္တာတံခါးပေါ်တွင် ကပ်နေသော သံလိုက်တန်း",
+            correctBucketEn: "Permanent Magnet",
+            correctBucketMy: "ထာဝရသံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-2",
+            labelEn:
+                "A coil of wire wrapped around a nail, connected to a battery",
+            labelMy:
+                "သံချွန်တစ်ချောင်းပတ်လည် ပတ်ထားပြီး ဘက်ထရီနှင့် ချိတ်ဆက်ထားသော ဝါယာကြိုးကွင်းလိပ်",
+            correctBucketEn: "Electromagnet",
+            correctBucketMy: "လျှပ်စစ်သံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-3",
+            labelEn: "A compass needle",
+            labelMy: "အရပ်ညွှန်အမြွှာ",
+            correctBucketEn: "Permanent Magnet",
+            correctBucketMy: "ထာဝရသံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-4",
+            labelEn: "A scrapyard crane's lifting magnet, switched on and off",
+            labelMy:
+                "အဖွင့်အပိတ် ပြုလုပ်နိုင်သော အမှိုက်လှောင်ကွက် ချီမြှင့်သံလိုက်",
+            correctBucketEn: "Electromagnet",
+            correctBucketMy: "လျှပ်စစ်သံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-5",
+            labelEn: "A toy magnet that always stays magnetic",
+            labelMy: "အမြဲသံလိုက်ဆက်ဆွဲနေသော ကစားစရာသံလိုက်",
+            correctBucketEn: "Permanent Magnet",
+            correctBucketMy: "ထာဝရသံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-6",
+            labelEn: "An electric doorbell's buzzer coil",
+            labelMy: "လျှပ်စစ်တံခါးခေါင်းလောင်း၏ တွန်တွန်မြည်ကွင်းလိပ်",
+            correctBucketEn: "Electromagnet",
+            correctBucketMy: "လျှပ်စစ်သံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-7",
+            labelEn: "A horseshoe magnet from a science kit",
+            labelMy: "သိပ္ပံအထုပ်ထဲမှ မြင်းခွာပုံသံလိုက်",
+            correctBucketEn: "Permanent Magnet",
+            correctBucketMy: "ထာဝရသံလိုက်",
+          ),
+          SortingItem(
+            id: "s1sci-w12-sort-8",
+            labelEn: "A hospital MRI machine's powerful switchable magnet",
+            labelMy:
+                "ဆေးရုံ MRI စက်၏ အားကောင်းသော အဖွင့်အပိတ်ပြုလုပ်နိုင်သည့်သံလိုက်",
+            correctBucketEn: "Electromagnet",
+            correctBucketMy: "လျှပ်စစ်သံလိုက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung's Homemade Electromagnet",
+      titleMy: "စာဖတ်ခြင်း - ကောင်း၏ အိမ်တွင်းလျှပ်စစ်သံလိုက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung's Homemade Electromagnet",
+        titleMy: "ကောင်း၏ အိမ်တွင်းလျှပ်စစ်သံလိုက်",
+        passageEn:
+            "For his science fair project, Kaung decided to build his own electromagnet, following the same coil-and-core idea his teacher had described in class. He wrapped a long length of insulated copper wire (Week 10) tightly around an iron nail, leaving the two bare ends free, then connected those ends to a battery, completing a simple circuit.\n\nThe moment Kaung closed the circuit, the nail became magnetic, pulling a handful of paperclips toward it. He remembered Week 11's permanent bar magnet, which stayed magnetic all the time -- but this electromagnet only worked while the circuit was closed. The instant Kaung disconnected one wire from the battery, breaking the loop, the paperclips fell away. The nail's magnetism had switched off completely.\n\nKaung thought carefully about the chain of energy transfers happening inside his electromagnet, applying Week 7's lesson: the battery's chemical energy transferred into electrical energy flowing through the coiled wire, which created the magnetic field that lifted the paperclips. After a few minutes of the circuit staying closed, Kaung noticed the wire had grown slightly warm to the touch -- a reminder that some of that electrical energy was also transferring into thermal energy, just like Week 4's brake pads, rather than all of it going into the magnetic effect.\n\nKaung's teacher explained that real electromagnets work exactly the same way, just built bigger and more powerfully -- scrapyard cranes use giant electromagnets to lift and drop heavy scrap metal, switching the current on to grab a load and off to release it, something a permanent magnet could never do on its own.",
+        passageMy:
+            "ကောင်းသည် သူ၏ သိပ္ပံပြပွဲစီမံကိန်းအတွက် ဆရာမက အတန်းတွင် ရှင်းပြခဲ့သော ကွင်းလိပ်-အတွင်းအစိတ်အပိုင်း အယူအဆတစ်ခုတည်းကို လိုက်နာလျက် သူ့ကိုယ်ပိုင် လျှပ်စစ်သံလိုက်တစ်ခု တည်ဆောက်ရန် ဆုံးဖြတ်ခဲ့သည်။ သူသည် Week 10 ၏ ကာထားသော ကြေးနီဝါယာကြိုးရှည်ရှည်တစ်ချောင်းကို သံချွန်တစ်ချောင်းပတ်လည် တင်းကျပ်စွာ ပတ်လိုက်ပြီး၊ ဗလာအစွန်းနှစ်ဖက်ကို လွတ်လပ်စွာ ချန်ထားခဲ့ကာ ထိုအစွန်းများကို ဘက်ထရီနှင့် ချိတ်ဆက်လိုက်ကာ ရိုးရှင်းသောပတ်လမ်းတစ်ခု ပြီးစီးစေခဲ့သည်။\n\nကောင်း ပတ်လမ်းကို ပိတ်လိုက်ချိန်၊ သံချွန်သည် သံလိုက်ဓာတ် ရရှိလာပြီး စာချိတ်တစ်လက်ဆုပ်ကို ၎င်းဘက်သို့ ဆွဲယူလိုက်သည်။ သူသည် Week 11 ၏ အချိန်တိုင်း သံလိုက်ဓာတ်ဆက်ရှိနေသော ထာဝရသံလိုက်တန်းကို သတိရမိသည် -- သို့သော် ဤလျှပ်စစ်သံလိုက်သည် ပတ်လမ်းပိတ်နေချိန်တွင်သာ အလုပ်လုပ်ခဲ့သည်။ ကောင်း ဝါယာကြိုးတစ်ချောင်းကို ဘက်ထရီမှ ဖြုတ်လိုက်ပြီး စက်ဝိုင်းကို ဖြတ်တောက်ချက်ချင်းတွင်ပင် စာချိတ်များ ကျွတ်ကျသွားခဲ့သည်။ သံချွန်၏ သံလိုက်ဓာတ်သည် လုံးဝ ပိတ်သွားခဲ့သည်။\n\nကောင်းသည် Week 7 ၏ သင်ခန်းစာကို အသုံးချလျက် သူ၏ လျှပ်စစ်သံလိုက်အတွင်း ဖြစ်ပျက်နေသော စွမ်းအင်လွှဲပြောင်းမှုအစဉ်ကို ဂရုတစိုက် တွေးမိသည် - ဘက်ထရီ၏ ဓာတုစွမ်းအင်သည် ကွင်းလိပ်ပတ်ထားသောဝါယာကြိုးတစ်လျှောက် စီးဆင်းနေသော လျှပ်စစ်စွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပြီး၊ ၎င်းက စာချိတ်များကို ချီမြှင့်ပေးသော သံလိုက်စက်ကွင်းကို ဖြစ်ပေါ်စေခဲ့သည်။ ပတ်လမ်း မိနစ်အနည်းငယ်ကြာ ပိတ်ထားပြီးနောက် ကောင်းသည် ဝါယာကြိုးသည် ကိုင်လျှင် အနည်းငယ် ပူလာသည်ကို သတိထားမိသည် -- Week 4 ၏ ဘရိတ်ပက်များကဲ့သို့ပင် ထိုလျှပ်စစ်စွမ်းအင်အချို့သည် သံလိုက်အကျိုးသက်ရောက်မှုတစ်ခုတည်းသို့ လုံးလုံးမသွားဘဲ အပူစွမ်းအင်အဖြစ်သို့လည်း လွှဲပြောင်းနေကြောင်း သတိပေးသကဲ့သို့ ဖြစ်သည်။\n\nကောင်း၏ ဆရာမက စစ်မှန်သော လျှပ်စစ်သံလိုက်များသည် ပုံစံအတိအကျတူညီစွာ အလုပ်လုပ်ကြောင်း၊ ပိုမိုကြီးမားပြီး ပိုမိုအားကောင်းအောင် တည်ဆောက်ထားခြင်းသာ ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် -- အမှိုက်လှောင်ကွက်ချီတွန်းစက်များသည် လေးလံသောသတ္တုအမှိုက်များကို ချီမြှင့်ရန်နှင့် ချထားရန် ကြီးမားသောလျှပ်စစ်သံလိုက်များကို အသုံးပြုကြပြီး၊ ဝန်ကို ဆွဲယူရန် ရေစီးကို ဖွင့်ကာ လွှတ်ချရန် ပိတ်ကြသည်၊ ၎င်းသည် ထာဝရသံလိုက်တစ်ခုတည်း မည်သည့်အခါမျှ မပြုလုပ်နိုင်သည့်အရာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happened to the paperclips when Kaung disconnected one wire from the battery?",
+            questionMy:
+                "ကောင်း ဝါယာကြိုးတစ်ချောင်းကို ဘက်ထရီမှ ဖြုတ်လိုက်ချိန် စာချိတ်များတွင် အဘယ်အရာ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "They fell away, because the nail's magnetism switched off completely once the loop was broken.",
+              "They stayed stuck, because the nail kept its magnetism forever.",
+              "They turned into iron themselves.",
+              "Nothing happened to them at all.",
+            ],
+            optionsMy: [
+              "စက်ဝိုင်း ပြတ်တောက်သွားသောကြောင့် သံချွန်၏ သံလိုက်ဓာတ် လုံးဝ ပိတ်သွားပြီး ၎င်းတို့ ကျွတ်ကျသွားခဲ့သည်။",
+              "သံချွန်သည် ၎င်း၏ သံလိုက်ဓာတ်ကို ထာဝရ ထိန်းထားခဲ့သောကြောင့် ဆက်ကပ်နေခဲ့သည်။",
+              "၎င်းတို့ကိုယ်တိုင် သံအဖြစ် ပြောင်းလဲသွားခဲ့သည်။",
+              "၎င်းတို့တွင် ဘာမျှ လုံးဝ မဖြစ်ပျက်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- what does the passage say happened the instant the loop broke?",
+              "This is Day 1's key electromagnet-versus-permanent-magnet difference, shown directly in Kaung's own experiment.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စက်ဝိုင်း ပြတ်တောက်ချက်ချင်းတွင် အဘယ်အရာ ဖြစ်ခဲ့ကြောင်း စာပိုဒ်က ဖော်ပြထားသနည်း။",
+              "ဤသည်မှာ ပထမနေ့၏ လျှပ်စစ်သံလိုက်နှင့် ထာဝရသံလိုက် အဓိကကွာခြားချက်ကို ကောင်း၏ ကိုယ်ပိုင်စမ်းသပ်မှုတွင် တိုက်ရိုက် ပြသထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the first step in the energy transfer chain inside Kaung's electromagnet?",
+            questionMy:
+                "စာပိုဒ်အရ ကောင်း၏ လျှပ်စစ်သံလိုက်အတွင်း စွမ်းအင်လွှဲပြောင်းမှုအစဉ်၏ ပထမအဆင့်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The battery's chemical energy transferred into electrical energy.",
+              "Light energy transferred into sound energy.",
+              "The nail created energy from nothing.",
+              "Thermal energy transferred into chemical energy first.",
+            ],
+            optionsMy: [
+              "ဘက်ထရီ၏ ဓာတုစွမ်းအင်သည် လျှပ်စစ်စွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းသွားခဲ့သည်။",
+              "အလင်းစွမ်းအင်သည် အသံစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းသွားခဲ့သည်။",
+              "သံချွန်သည် ဘာမှမဲ့ကနေ စွမ်းအင်ကို ဖန်တီးခဲ့သည်။",
+              "အပူစွမ်းအင်သည် ဓာတုစွမ်းအင်အဖြစ်သို့ ပထမဦးဆုံး လွှဲပြောင်းသွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's first sentence, which names the exact starting point of the chain.",
+              "This is the same starting point as Week 7's torch and Day 1's fourth quiz question.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ ပထမဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက ဤအစဉ်၏ အတိအကျအစအချက်ကို အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ Week 7 ၏ လက်ပြနှင့် ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် အတူတူပင် အစပြုသည့်နေရာ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the wire feel slightly warm after the circuit had stayed closed for a few minutes?",
+            questionMy:
+                "ပတ်လမ်း မိနစ်အနည်းငယ်ကြာ ပိတ်ထားပြီးနောက် ဝါယာကြိုးသည် အဘယ့်ကြောင့် အနည်းငယ် ပူသွားခဲ့သနည်း။",
+            optionsEn: [
+              "Some of the electrical energy was also transferring into thermal energy, not all of it going into the magnetic effect.",
+              "The battery had leaked chemical energy directly onto the wire.",
+              "The nail's magnetism produced sound energy instead of heat.",
+              "This never actually happens in a real electromagnet.",
+            ],
+            optionsMy: [
+              "လျှပ်စစ်စွမ်းအင်အချို့သည် သံလိုက်အကျိုးသက်ရောက်မှုတစ်ခုတည်းသို့ လုံးလုံးမသွားဘဲ အပူစွမ်းအင်အဖြစ်သို့လည်း လွှဲပြောင်းနေခဲ့သောကြောင့်။",
+              "ဘက်ထရီသည် ဓာတုစွမ်းအင်ကို ဝါယာကြိုးပေါ်သို့ တိုက်ရိုက် ယိုစိမ့်ခဲ့သောကြောင့်။",
+              "သံချွန်၏ သံလိုက်ဓာတ်သည် အပူအစား အသံစွမ်းအင် ထုတ်ပေးခဲ့သောကြောင့်။",
+              "၎င်းသည် စစ်မှန်သော လျှပ်စစ်သံလိုက်တစ်ခုတွင် အမှန်တကယ် ဘယ်တော့မှ မဖြစ်ပေါ်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's final sentence, which names Week 4's brake pads directly as a comparison.",
+              "This is Day 1's energy-transfer question again, applied to Kaung's real electromagnet warming up.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက Week 4 ၏ ဘရိတ်ပက်များကို နှိုင်းယှဉ်ချက်အဖြစ် တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ စွမ်းအင်လွှဲပြောင်းမှုမေးခွန်းကို ကောင်း၏ လျှပ်စစ်သံလိုက်ကိစစ်ရင် ပူလာချိန်တွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Kaung's teacher, how do real scrapyard crane electromagnets do something a permanent magnet cannot?",
+            questionMy:
+                "ကောင်း၏ ဆရာမအလိုအရ စစ်မှန်သော အမှိုက်လှောင်ကွက် လျှပ်စစ်သံလိုက်များသည် ထာဝရသံလိုက်တစ်ခု မပြုလုပ်နိုင်သောအရာကို မည်သို့ ပြုလုပ်နိုင်သနည်း။",
+            optionsEn: [
+              "They can be switched on to grab a load of metal and off to release it.",
+              "They are always weaker than a permanent magnet.",
+              "They never actually lift anything at all.",
+              "They work without any electric current whatsoever.",
+            ],
+            optionsMy: [
+              "ဝန်ကို ဆွဲယူရန် ဖွင့်ကာ လွှတ်ချရန် ပိတ်နိုင်ကြသည်။",
+              "ထာဝရသံလိုက်တစ်ခုထက် အမြဲ အားနည်းကြသည်။",
+              "မည်သည့်အရာကိုမျှ အမှန်တကယ် လုံးဝ ချီမြှင့်ခြင်း မရှိပါ။",
+              "လျှပ်စစ်ရေစီးလုံးဝ မလိုအပ်ဘဲ အလုပ်လုပ်ကြသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- what does switching the current on and off let a crane magnet do?",
+              "This is the exact same switchable property from Day 1's third quiz question, applied to a real-world machine.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရေစီးကို ဖွင့်/ပိတ် ပြုလုပ်ခြင်းက ချီတွန်းစက်သံလိုက်ကို အဘယ်အရာ ပြုလုပ်နိုင်စေသနည်း။",
+              "ဤသည်မှာ ပထမနေ့ တတိယမေးခွန်းမှ အဖွင့်/အပိတ်ပြုလုပ်နိုင်သည့် ဂုဏ်သတ္တိအတိအကျပင် လက်တွေ့စက်ကိရိယာတွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Electromagnets -- Term 3 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၁၂ ပြန်လည်သုံးသပ်ခြင်း - လျှပ်စစ်သံလိုက် -- တတိယနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What creates the magnetic field in an electromagnet?",
+          questionMy:
+              "လျှပ်စစ်သံလိုက်တစ်ခုအတွင်း သံလိုက်စက်ကွင်းကို အဘယ်အရာက ဖြစ်ပေါ်စေသနည်း။",
+          optionsEn: [
+            "Electric current flowing through the coiled wire",
+            "Sunlight shining on the wire",
+            "The wire's color",
+            "A permanent magnet placed nearby, unconnected",
+          ],
+          optionsMy: [
+            "ကွင်းလိပ်ပတ်ထားသောဝါယာကြိုးတစ်လျှောက် စီးဆင်းနေသော လျှပ်စစ်ရေစီး",
+            "ဝါယာကြိုးပေါ်သို့ ထိုးရောက်နေသော နေရောင်ခြည်",
+            "ဝါယာကြိုး၏ အရောင်",
+            "အနီးတွင် ချိတ်ဆက်မထားဘဲ ထားရှိသော ထာဝရသံလိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- what flows through the wire to create the magnetic effect in the first place?",
+            "No current, no magnetic field -- that's exactly why disconnecting the battery switched Kaung's electromagnet off.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ ပထမမေးခွန်းကို သတိရပါ -- သံလိုက်အကျိုးသက်ရောက်မှုကို ဖြစ်ပေါ်စေရန် ဝါယာကြိုးတစ်လျှောက် အဘယ်အရာ စီးဆင်းရသနည်း။",
+            "ရေစီးမရှိပါက သံလိုက်စက်ကွင်း လုံးဝ မရှိနိုင်ပါ -- ၎င်းကြောင့်ပင် ဘက်ထရီကို ဖြုတ်လိုက်ချိန် ကောင်း၏ လျှပ်စစ်သံလိုက် ပိတ်သွားခဲ့ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What material is typically used as an electromagnet's core?",
+          questionMy:
+              "လျှပ်စစ်သံလိုက်တစ်ခု၏ အတွင်းအစိတ်အပိုင်းအဖြစ် များသောအားဖြင့် မည်သည့်ပစ္စည်းကို အသုံးပြုကြသနည်း။",
+          optionsEn: ["Iron", "Plastic", "Rubber", "Glass"],
+          optionsMy: ["သံ", "ပလတ်စတစ်", "ရာဘာ", "ဖန်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question -- which magnetic material concentrates the coil's field the most?",
+            "Plastic, rubber and glass are all non-magnetic (Week 11) -- none of them could strengthen a magnetic field this way.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ ဒုတိယမေးခွန်းကို သတိရပါ -- မည်သည့်သံလိုက်ဆွဲနိုင်သောပစ္စည်းက ကွင်းလိပ်၏ စက်ကွင်းကို အများဆုံး စုစည်းပေးသနည်း။",
+            "ပလတ်စတစ်၊ ရာဘာနှင့် ဖန်တို့သည် (Week 11) သံလိုက်လုံးဝ မဆွဲနိုင်ကြပါ -- ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ ဤနည်းဖြင့် သံလိုက်စက်ကွင်းကို ပိုမိုအားကောင်းစေနိုင်မည် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Unlike a permanent magnet, an electromagnet can be...",
+          questionMy: "ထာဝရသံလိုက်တစ်ခုနှင့်မတူဘဲ လျှပ်စစ်သံလိုက်တစ်ခုကို...",
+          optionsEn: [
+            "Switched on and off",
+            "Never turned off, ever",
+            "Made only from plastic",
+            "Used without any current at all",
+          ],
+          optionsMy: [
+            "ဖွင့်/ပိတ် ပြုလုပ်နိုင်သည်",
+            "ဘယ်တော့မှ ပိတ်၍ မရပါ",
+            "ပလတ်စတစ်ဖြင့်သာ ပြုလုပ်ရသည်",
+            "လျှပ်စစ်ရေစီး လုံးဝ မလိုအပ်ဘဲ အသုံးပြုနိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kaung's experiment -- disconnecting the battery switched the electromagnet off instantly, something Week 11's bar magnet could never do.",
+            "This switchability is exactly why cranes use electromagnets instead of permanent magnets to lift and drop scrap metal.",
+          ],
+          hintsMy: [
+            "ကောင်း၏ စမ်းသပ်မှုကို သတိရပါ -- ဘက်ထရီကို ဖြုတ်လိုက်ချက်ချင်းတွင် လျှပ်စစ်သံလိုက် ပိတ်သွားခဲ့ပြီး ၎င်းသည် Week 11 ၏ သံလိုက်တန်း ဘယ်တော့မှ မပြုလုပ်နိုင်သည့်အရာ ဖြစ်သည်။",
+            "ဤအဖွင့်/အပိတ်ပြုလုပ်နိုင်ခြင်းကြောင့်ပင် ချီတွန်းစက်များသည် သတ္တုအမှိုက်များကို ချီမြှင့်ရန်နှင့် ချထားရန် ထာဝရသံလိုက်အစား လျှပ်စစ်သံလိုက်ကို အသုံးပြုကြခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What starts the whole energy transfer chain in a battery-powered electromagnet?",
+          questionMy:
+              "ဘက်ထရီအားဖြင့် လည်ပတ်နေသော လျှပ်စစ်သံလိုက်တစ်ခု၏ စွမ်းအင်လွှဲပြောင်းမှုအစဉ်တစ်ခုလုံးကို အဘယ်အရာက အစပြုသနည်း။",
+          optionsEn: [
+            "The battery's chemical energy",
+            "The paperclip's kinetic energy",
+            "Sound energy from the room",
+            "Nothing starts it -- it happens spontaneously",
+          ],
+          optionsMy: [
+            "ဘက်ထရီ၏ ဓာတုစွမ်းအင်",
+            "စာချိတ်၏ ရွေ့လျားစွမ်းအင်",
+            "အခန်းမှ အသံစွမ်းအင်",
+            "ဘာမျှ အစမပြုပါ -- ၎င်းကိုယ်တိုင် ဖြစ်ပေါ်လာခြင်းသာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and the reading passage's third paragraph -- both name the exact same starting point.",
+            "This is the same chemical-energy starting point Week 7's torch used too.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် စာဖတ်ခန်း၏ တတိယစာပိုဒ်ကို သတိရပါ -- နှစ်ခုစလုံးက အတိအကျအစအချက်တစ်ခုတည်းကို အမည်တွင်ထားသည်။",
+            "ဤသည်မှာ Week 7 ၏ လက်ပြသုံးခဲ့သော ဓာတုစွမ်းအင် အစပြုနေရာတစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is an example of an electromagnet, not a permanent magnet?",
+          questionMy:
+              "အောက်ပါတို့အနက် ထာဝရသံလိုက်မဟုတ်ဘဲ လျှပ်စစ်သံလိုက်ဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A scrapyard crane's lifting magnet",
+            "A compass needle",
+            "A bar magnet on a fridge",
+            "A horseshoe magnet from a science kit",
+          ],
+          optionsMy: [
+            "အမှိုက်လှောင်ကွက် ချီမြှင့်သံလိုက်",
+            "အရပ်ညွှန်အမြွှာ",
+            "ရေခဲသေတ္တာပေါ်ရှိ သံလိုက်တန်း",
+            "သိပ္ပံအထုပ်ထဲမှ မြင်းခွာပုံသံလိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 3's sorting activity -- three of these options went into the Permanent Magnet bucket.",
+            "A crane magnet needs to be switched off to release its load -- only an electromagnet can do that.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် ထာဝရသံလိုက်ကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "ချီတွန်းစက်သံလိုက်သည် ၎င်း၏ ဝန်ကို လွှတ်ချရန် ပိတ်ရန် လိုအပ်သည် -- လျှပ်စစ်သံလိုက်တစ်ခုသာ ထိုသို့ ပြုလုပ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single idea connects Week 9's fire, Week 10's circuit, Week 11's magnet, and Week 12's electromagnet?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 9 ၏ မီး၊ Week 10 ၏ ပတ်လမ်း၊ Week 11 ၏ သံလိုက်နှင့် Week 12 ၏ လျှပ်စစ်သံလိုက်တို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Energy is never created or destroyed, only transferred between stores -- chemical, electrical, thermal, and the magnetic effect it can produce.",
+            "All four topics are completely unrelated to each other.",
+            "Only Week 9's fire involves any energy at all.",
+            "Magnets and circuits have nothing to do with energy.",
+          ],
+          optionsMy: [
+            "စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ဘဲ သိုလှောင်မှုများ -- ဓာတု၊ လျှပ်စစ်၊ အပူနှင့် ၎င်းဖြစ်ပေါ်စေနိုင်သော သံလိုက်အကျိုးသက်ရောက်မှု -- များအကြား လွှဲပြောင်းခြင်းသာ ဖြစ်သည်။",
+            "ဘာသာရပ်လေးခုစလုံးသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်ပါ။",
+            "Week 9 ၏ မီးတွင်သာ စွမ်းအင် ပါဝင်သည်။",
+            "သံလိုက်များနှင့် ပတ်လမ်းများသည် စွမ်းအင်နှင့် မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's conservation principle -- it applies to combustion's heat, a circuit's current, and an electromagnet's chain of transfers all alike.",
+            "Every week this term involved energy moving between stores in a new context -- that's the thread tying the whole term together.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ထိန်းသိမ်းမှုအယူအဆကို သတိရပါ -- ၎င်းသည် လောင်ကျွမ်းမှု၏ အပူ၊ ပတ်လမ်း၏ ရေစီးနှင့် လျှပ်စစ်သံလိုက်၏ လွှဲပြောင်းမှုအစဉ်တို့တွင် အလားတူ အသုံးချနိုင်သည်။",
+            "ဤနှစ်ဝက်၏ အပတ်တိုင်းသည် အခြေအနေအသစ်တစ်ခုတွင် သိုလှောင်မှုများအကြား စွမ်းအင်ရွေ့လျားနေမှုပါဝင်ခဲ့သည် -- ၎င်းသည် ဤနှစ်ဝက်တစ်ခုလုံးကို ချိတ်ဆက်ပေးသော အကြောင်းတရား ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary1ScienceTerm2 = CourseTermDef(
   id: "course-secondary1-science-t2",
   termNumber: 2,
@@ -38484,13 +40759,37 @@ const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
   ],
 );
 
+/// Term 3: "Reactions, Electricity and Magnetism" (Weeks 9-12) deepens
+/// Week 8's chemical-reaction strand with word equations and the
+/// conservation of mass (Week 9), opens circuits and electrical
+/// conductors/insulators (Week 10, distinguished from but compared to
+/// Week 4's thermal conductors/insulators), opens magnetism as its own
+/// strand (Week 11), and closes with a capstone that combines Weeks 10
+/// and 11 into electromagnets, tying the whole term's energy transfers
+/// back to Week 7's conservation principle (Week 12).
+const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
+  id: "course-secondary1-science-t3",
+  termNumber: 3,
+  titleEn: "Reactions, Electricity and Magnetism",
+  titleMy: "တုန့်ပြန်မှုများ၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒ",
+  certificateTitleEn: "Reactions, Electricity and Magnetism",
+  certificateTitleMy: "တုန့်ပြန်မှုများ၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒ",
+  weeks: [
+    _secondary1ScienceWeek9,
+    _secondary1ScienceWeek10,
+    _secondary1ScienceWeek11,
+    _secondary1ScienceWeek12,
+  ],
+);
+
 /// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
-/// & Chemistry", Weeks 1-4) and Term 2 ("Chemistry and Energy", Weeks 5-8)
-/// are authored so far; see [_secondary1ScienceTerm1]'s and
-/// [_secondary1ScienceTerm2]'s own doc comments for the week-by-week
+/// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8)
+/// and Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12) are
+/// authored so far; see [_secondary1ScienceTerm1]'s, [_secondary1ScienceTerm2]'s
+/// and [_secondary1ScienceTerm3]'s own doc comments for the week-by-week
 /// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
 /// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
@@ -38500,9 +40799,13 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, and Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary1ScienceTerm1, _secondary1ScienceTerm2],
+  terms: [
+    _secondary1ScienceTerm1,
+    _secondary1ScienceTerm2,
+    _secondary1ScienceTerm3,
+  ],
 );
