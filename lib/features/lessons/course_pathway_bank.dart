@@ -26144,6 +26144,1727 @@ const CourseWeekDef _secondary2ComputingWeek28 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 8, Week 29: "Opening and Reading a File"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek29 = CourseWeekDef(
+  id: "course-secondary2-computing-w29",
+  weekNumber: 29,
+  titleEn: "Opening and Reading a File",
+  titleMy: "File တစ်ခု ဖွင့်ခြင်းနှင့် ဖတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w29-d1",
+      dayNumber: 1,
+      titleEn: "open() and Reading",
+      titleMy: "open() နှင့် ဖတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does open(\"data.txt\", \"r\") do?",
+          questionMy: "open(\"data.txt\", \"r\") က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Opens data.txt in read mode, ready to read its contents",
+            "Deletes data.txt permanently",
+            "Creates a brand-new empty file called data.txt every time",
+            "Prints the contents of data.txt immediately",
+          ],
+          optionsMy: [
+            "data.txt ကို read mode ဖြင့် ဖွင့်ပြီး ၎င်း၏ content ကို ဖတ်ရန် အသင့်ဖြစ်စေသည်",
+            "data.txt ကို အပြီးတိုင် ဖျက်ပစ်သည်",
+            "အခါတိုင်း data.txt ဟုအမည်ရှိ ဗလာ file အသစ်တစ်ခု ဖန်တီးသည်",
+            "data.txt ၏ content ကို ချက်ချင်း print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.read() return?",
+          questionMy: "file.read() က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The entire contents of the file as one single string",
+            "Only the first character of the file",
+            "The number of lines in the file",
+            "Nothing -- read() only works on lists",
+          ],
+          optionsMy: [
+            "File ၏ content အားလုံးကို string တစ်ခုတည်းအဖြစ်",
+            "File ၏ ပထမ character တစ်ခုတည်းသာ",
+            "File ရှိ line အရေအတွက်",
+            "ဘာမျှမရှိ -- read() သည် list များအတွက်သာ အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.readline() return?",
+          questionMy: "file.readline() က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "Just the next single line of the file, as a string",
+            "The entire file at once",
+            "Only the file's name",
+            "The total number of characters in the file",
+          ],
+          optionsMy: [
+            "File ၏ နောက်ထပ် line တစ်ကြောင်းတည်းကို string အဖြစ်",
+            "File တစ်ခုလုံးကို တစ်ပြိုင်တည်း",
+            "File ၏ နာမည်တစ်ခုတည်း",
+            "File ရှိ character စုစုပေါင်း အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to call file.close() after finishing with a file?",
+          questionMy:
+              "File တစ်ခုကို အသုံးပြု၍ ပြီးဆုံးပြီးနောက် file.close() ကို ခေါ်ရန် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "To properly close the file and free it up once the program is done with it",
+            "To delete the file's contents",
+            "To make the file open faster next time",
+            "It is not actually necessary at all",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်က file ကို အသုံးပြု၍ ပြီးဆုံးသောအခါ file ကို မှန်ကန်စွာ ပိတ်ကာ ပြန်ဖယ်ရှားပေးရန်",
+            "File ၏ content များကို ဖျက်ပစ်ရန်",
+            "နောက်တစ်ကြိမ် file ကို ပိုမြန်စွာ ဖွင့်နိုင်ရန်",
+            "လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does the \"r\" in open(\"data.txt\", \"r\") mean?",
+          questionMy:
+              "open(\"data.txt\", \"r\") ရှိ \"r\" က ဘာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Read mode -- the file is opened for reading only",
+            "Remove mode -- the file will be deleted",
+            "Random mode -- lines are read in a random order",
+            "Rename mode -- the file will be renamed",
+          ],
+          optionsMy: [
+            "Read mode -- file ကို ဖတ်ရန်အတွက်သာ ဖွင့်ခြင်း",
+            "Remove mode -- file ကို ဖျက်ပစ်မည်",
+            "Random mode -- line များကို ကျပန်းအစဉ်ဖြင့် ဖတ်မည်",
+            "Rename mode -- file ကို အမည်ပြောင်းမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w29-d2",
+      dayNumber: 2,
+      titleEn: "File Reading Vocabulary",
+      titleMy: "File ဖတ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w29-file-open",
+          termEn: "open()",
+          termMy: "open()",
+          matchEn:
+              "A function that opens a file so a program can read from or write to it",
+          matchMy:
+              "ပရိုဂရမ်က file ကို ဖတ် (သို့) ရေးနိုင်ရန် ဖွင့်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w29-file-readmode",
+          termEn: "Read Mode (\"r\")",
+          termMy: "Read Mode (\"r\")",
+          matchEn:
+              "Opens a file for reading only; the mode passed as open()'s second argument",
+          matchMy:
+              "File ကို ဖတ်ရန်အတွက်သာ ဖွင့်သည်; open() ၏ ဒုတိယ argument အဖြစ် ပေးထားသော mode",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w29-file-read",
+          termEn: ".read()",
+          termMy: ".read()",
+          matchEn:
+              "Returns the entire contents of an opened file as one single string",
+          matchMy:
+              "ဖွင့်ထားသော file ၏ content အားလုံးကို string တစ်ခုတည်းအဖြစ် ပြန်ပေးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w29-file-readline",
+          termEn: ".readline()",
+          termMy: ".readline()",
+          matchEn:
+              "Returns just the next single line of an opened file, as a string",
+          matchMy:
+              "ဖွင့်ထားသော file ၏ နောက်ထပ် line တစ်ကြောင်းတည်းကို string အဖြစ် ပြန်ပေးသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w29-file-close",
+          termEn: ".close()",
+          termMy: ".close()",
+          matchEn:
+              "Closes an opened file once a program is finished using it, freeing it up",
+          matchMy:
+              "ပရိုဂရမ်က file ကို အသုံးပြု၍ ပြီးဆုံးသောအခါ ပိတ်ကာ ပြန်ဖယ်ရှားပေးသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w29-d3",
+      dayNumber: 3,
+      titleEn: "Whole File or One Line?",
+      titleMy: "File တစ်ခုလုံးလား Line တစ်ကြောင်းတည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reading the Whole File", "Reading One Line at a Time"],
+        bucketsMy: [
+          "File တစ်ခုလုံးကို ဖတ်ခြင်း",
+          "တစ်ကြိမ်လျှင် Line တစ်ကြောင်းစီ ဖတ်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "w29-sort-fileread",
+            labelEn: "file.read()",
+            labelMy: "file.read()",
+            correctBucketEn: "Reading the Whole File",
+            correctBucketMy: "File တစ်ခုလုံးကို ဖတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w29-sort-filereadline",
+            labelEn: "file.readline()",
+            labelMy: "file.readline()",
+            correctBucketEn: "Reading One Line at a Time",
+            correctBucketMy: "တစ်ကြိမ်လျှင် Line တစ်ကြောင်းစီ ဖတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w29-sort-forlineinfile",
+            labelEn: "for line in file:",
+            labelMy: "for line in file:",
+            correctBucketEn: "Reading One Line at a Time",
+            correctBucketMy: "တစ်ကြိမ်လျှင် Line တစ်ကြောင်းစီ ဖတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w29-sort-onestring",
+            labelEn: "Getting one single string containing everything",
+            labelMy: "အားလုံးပါဝင်သော string တစ်ခုတည်းကို ရယူခြင်း",
+            correctBucketEn: "Reading the Whole File",
+            correctBucketMy: "File တစ်ခုလုံးကို ဖတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w29-sort-onelineonecall",
+            labelEn: "Getting just the next line, one call at a time",
+            labelMy:
+                "Call တစ်ကြိမ်လျှင် နောက်ထပ် line တစ်ကြောင်းတည်းကိုသာ ရယူခြင်း",
+            correctBucketEn: "Reading One Line at a Time",
+            correctBucketMy: "တစ်ကြိမ်လျှင် Line တစ်ကြောင်းစီ ဖတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w29-sort-loopinglinebyline",
+            labelEn: "Looping through a file line by line",
+            labelMy: "File တစ်ခုကို line တစ်ကြောင်းချင်းစီ loop လုပ်ခြင်း",
+            correctBucketEn: "Reading One Line at a Time",
+            correctBucketMy: "တစ်ကြိမ်လျှင် Line တစ်ကြောင်းစီ ဖတ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w29-d4",
+      dayNumber: 4,
+      titleEn: "Kyaw Swar's Attendance File",
+      titleMy: "ကျော်ဆွာ၏ Attendance File",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Swar's Attendance File",
+        titleMy: "ကျော်ဆွာ၏ Attendance File",
+        passageEn:
+            "Kyaw Swar's class kept its daily attendance in a plain text file called attendance.txt, one student name per line. To read it, he first wrote file = open(\"attendance.txt\", \"r\"), opening the file in read mode so his program could look at its contents without changing anything. He tried file.read() first, which gave him the entire file back as one single long string, with every name run together and separated only by newline characters -- useful for a quick preview, but hard to work with one name at a time. He tried a fresh open() again and used file.readline() instead, which gave him just the first name and nothing more; calling it again would have given him the second name, and so on, one line per call. For most programs, Kyaw Swar's teacher explained, a for line in file: loop was more convenient than calling readline() repeatedly, since it automatically visited every line in order until the file ended. Whichever method he used, Kyaw Swar's teacher reminded him to always call file.close() once he was done, the same way you would put a book back on the shelf after reading it -- leaving files open unnecessarily could waste memory or even stop other programs from being able to use the same file.",
+        passageMy:
+            "ကျော်ဆွာ၏ class သည် နေ့စဉ် attendance ကို attendance.txt ဟုအမည်ရှိ text file တစ်ခုတွင် ကျောင်းသားအမည် တစ်ခုစီ line တစ်ကြောင်းစီဖြင့် သိမ်းဆည်းခဲ့သည်။ ၎င်းကို ဖတ်ရန် သူသည် ဦးစွာ file = open(\"attendance.txt\", \"r\") ဟု ရေးခဲ့ပြီး file ကို read mode ဖြင့် ဖွင့်ကာ ပရိုဂရမ်က ၎င်း၏ content ကို ဘာမျှ မပြောင်းလဲဘဲ ကြည့်နိုင်စေခဲ့သည်။ သူသည် ဦးစွာ file.read() ကို စမ်းကြည့်ခဲ့ပြီး file တစ်ခုလုံးကို string ရှည်တစ်ခုတည်းအဖြစ် ပြန်ရရှိခဲ့ကာ နာမည်တိုင်းသည် newline character များဖြင့်သာ ကွဲနေပြီး ပေါင်းတွဲနေခဲ့သည် -- အမြန် preview ကြည့်ရန် အသုံးဝင်သော်လည်း နာမည်တစ်ခုချင်းစီအလိုက် အလုပ်လုပ်ရန် ခက်ခဲသည်။ သူသည် open() ကို ထပ်စမ်းပြီး file.readline() ကို သုံးကြည့်ရာ ပထမနာမည်တစ်ခုတည်းသာ ရရှိခဲ့ပြီး ထပ်ခေါ်လျှင် ဒုတိယနာမည်ကို ရရှိမည်ဖြစ်သည် -- call တစ်ကြိမ်လျှင် line တစ်ကြောင်းစီ ဖြစ်သည်။ ပရိုဂရမ်အများစုအတွက် for line in file: loop သည် readline() ကို ထပ်ခါထပ်ခါ ခေါ်ခြင်းထက် ပိုအဆင်ပြေကြောင်း ကျော်ဆွာ၏ ဆရာက ရှင်းပြခဲ့သည်၊ အဘယ်ကြောင့်ဆိုသော် ၎င်းသည် file ပြီးဆုံးသည်အထိ line တိုင်းကို အလိုအလျောက် အစဉ်လိုက် လည်ပတ်ပေးသောကြောင့်ဖြစ်သည်။ မည်သည့်နည်းကို သုံးသည်ဖြစ်စေ ကျော်ဆွာ၏ ဆရာက ပြီးဆုံးသောအခါ file.close() ကို အမြဲ ခေါ်ရန် သတိပေးခဲ့သည် -- စာအုပ်တစ်အုပ်ကို ဖတ်ပြီးနောက် စင်ပေါ်သို့ ပြန်ထားသကဲ့သို့ပင်ဖြစ်ပြီး file များကို မလိုအပ်ဘဲ ဖွင့်ထားခြင်းသည် memory ဖြုန်းစေနိုင်သည်၊ (သို့) ပရိုဂရမ်အခြားများ ထို file တူတူကို အသုံးမပြုနိုင်အောင် တားဆီးနိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Kyaw Swar's file = open(\"attendance.txt\", \"r\") do?",
+            questionMy:
+                "ကျော်ဆွာ၏ file = open(\"attendance.txt\", \"r\") က ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Opened attendance.txt in read mode, so his program could look at its contents",
+              "Deleted attendance.txt",
+              "Immediately printed every name in the file",
+              "Created a brand-new empty file",
+            ],
+            optionsMy: [
+              "attendance.txt ကို read mode ဖြင့် ဖွင့်ပြီး ပရိုဂရမ်က ၎င်း၏ content ကို ကြည့်နိုင်စေခဲ့သည်",
+              "attendance.txt ကို ဖျက်ပစ်ခဲ့သည်",
+              "File ရှိ နာမည်တိုင်းကို ချက်ချင်း print ထုတ်ခဲ့သည်",
+              "ဗလာ file အသစ်တစ်ခု ဖန်တီးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did file.read() give Kyaw Swar?",
+            questionMy: "file.read() က ကျော်ဆွာအား ဘာပေးခဲ့သနည်း။",
+            optionsEn: [
+              "The entire file back as one single long string",
+              "Just the first name only",
+              "The total number of students",
+              "An error, since read() cannot be used on text files",
+            ],
+            optionsMy: [
+              "File တစ်ခုလုံးကို string ရှည်တစ်ခုတည်းအဖြစ်",
+              "ပထမနာမည်တစ်ခုတည်းသာ",
+              "ကျောင်းသား စုစုပေါင်းအရေအတွက်",
+              "Error ဖြစ်ခဲ့သည်၊ read() ကို text file များအတွက် သုံး၍မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did his teacher say a for line in file: loop was more convenient than repeated readline() calls?",
+            questionMy:
+                "for line in file: loop သည် readline() ကို ထပ်ခါထပ်ခါ ခေါ်ခြင်းထက် ပိုအဆင်ပြေကြောင်း ဆရာက အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "It automatically visits every line in order until the file ends, without calling readline() repeatedly by hand",
+              "Because readline() does not actually work at all",
+              "Because it reads the file in reverse order",
+              "There was no real reason given",
+            ],
+            optionsMy: [
+              "readline() ကို လက်ဖြင့် ထပ်ခါထပ်ခါ ခေါ်စရာမလိုဘဲ file ပြီးဆုံးသည်အထိ line တိုင်းကို အလိုအလျောက် အစဉ်လိုက် လည်ပတ်ပေးသောကြောင့်",
+              "readline() သည် လုံးဝ အလုပ်မလုပ်သောကြောင့်",
+              "File ကို ပြောင်းပြန်အစဉ်ဖြင့် ဖတ်သောကြောင့်",
+              "အကြောင်းပြချက် တကယ်ပေးမထားပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kyaw Swar's teacher remind him to always do once he was done with a file?",
+            questionMy:
+                "File တစ်ခုကို အသုံးပြု၍ ပြီးဆုံးသောအခါ ကျော်ဆွာ၏ ဆရာက ဘာလုပ်ရန် အမြဲ သတိပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Call file.close()",
+              "Call file.read() a second time",
+              "Delete the file entirely",
+              "Rename the file",
+            ],
+            optionsMy: [
+              "file.close() ကို ခေါ်ရန်",
+              "file.read() ကို ဒုတိယအကြိမ် ခေါ်ရန်",
+              "File ကို လုံးဝ ဖျက်ပစ်ရန်",
+              "File ကို အမည်ပြောင်းရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what analogy did the teacher use to explain closing a file?",
+            questionMy:
+                "ဇာတ်လမ်းအရ file ပိတ်ခြင်းကို ရှင်းပြရန် ဆရာက မည်သည့် ဥပမာကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Putting a book back on the shelf after reading it",
+              "Turning off a light switch",
+              "Locking a door",
+              "Watering a plant",
+            ],
+            optionsMy: [
+              "စာအုပ်တစ်အုပ်ကို ဖတ်ပြီးနောက် စင်ပေါ်သို့ ပြန်ထားခြင်း",
+              "မီးခလုတ်ကို ပိတ်ခြင်း",
+              "တံခါးကို သော့ခတ်ခြင်း",
+              "အပင်ကို ရေလောင်းခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap Quiz",
+      titleMy: "Week 29 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does open(\"notes.txt\", \"r\") open the file for?",
+          questionMy:
+              "open(\"notes.txt\", \"r\") က file ကို ဘာအတွက် ဖွင့်သနည်း။",
+          optionsEn: ["Reading", "Writing", "Deleting", "Renaming"],
+          optionsMy: ["ဖတ်ရန်", "ရေးရန်", "ဖျက်ရန်", "အမည်ပြောင်းရန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.read() return?",
+          questionMy: "file.read() က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The entire file as one string",
+            "Only the last line",
+            "The file's name only",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "File တစ်ခုလုံးကို string တစ်ခုတည်းအဖြစ်",
+            "နောက်ဆုံး line တစ်ကြောင်းတည်းသာ",
+            "File ၏ နာမည်တစ်ခုတည်း",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.readline() return?",
+          questionMy: "file.readline() က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The next single line",
+            "The entire file",
+            "The total number of lines",
+            "A Boolean value",
+          ],
+          optionsMy: [
+            "နောက်ထပ် line တစ်ကြောင်းတည်း",
+            "File တစ်ခုလုံး",
+            "Line အရေအတွက် စုစုပေါင်း",
+            "Boolean value တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should you call file.close() once you are done with a file?",
+          questionMy:
+              "File တစ်ခုကို အသုံးပြု၍ ပြီးဆုံးသောအခါ file.close() ကို အဘယ့်ကြောင့် ခေါ်သင့်သနည်း။",
+          optionsEn: [
+            "To properly close it and free it up",
+            "To delete its contents",
+            "To make it open faster",
+            "It is never necessary",
+          ],
+          optionsMy: [
+            "မှန်ကန်စွာ ပိတ်ကာ ပြန်ဖယ်ရှားပေးရန်",
+            "၎င်း၏ content များကို ဖျက်ပစ်ရန်",
+            "ပိုမြန်စွာ ဖွင့်နိုင်ရန်",
+            "ဘယ်တော့မှ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which loop visits every line of a file in order automatically?",
+          questionMy:
+              "File တစ်ခု၏ line တိုင်းကို အစဉ်လိုက် အလိုအလျောက် လည်ပတ်သော loop က မည်သည်နည်း။",
+          optionsEn: [
+            "for line in file:",
+            "if line in file:",
+            "while file:",
+            "return file:",
+          ],
+          optionsMy: [
+            "for line in file:",
+            "if line in file:",
+            "while file:",
+            "return file:",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 8, Week 30: "Writing and Appending to a
+// File"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek30 = CourseWeekDef(
+  id: "course-secondary2-computing-w30",
+  weekNumber: 30,
+  titleEn: "Writing and Appending to a File",
+  titleMy: "File တစ်ခုသို့ ရေးခြင်းနှင့် ထပ်ဖြည့်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w30-d1",
+      dayNumber: 1,
+      titleEn: "Write Mode and Append Mode",
+      titleMy: "Write Mode နှင့် Append Mode",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does open(\"notes.txt\", \"w\") do if notes.txt already has content?",
+          questionMy:
+              "notes.txt တွင် content ရှိပြီးသားဖြစ်ပါက open(\"notes.txt\", \"w\") က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Opens the file for writing, erasing the existing content first",
+            "Opens the file for writing, keeping the existing content",
+            "Refuses to open the file at all",
+            "Only reads the existing content, without writing anything",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား content ကို ဦးစွာ ဖျက်ပြီး file ကို ရေးရန် ဖွင့်သည်",
+            "ရှိပြီးသား content ကို ထားရှိကာ file ကို ရေးရန် ဖွင့်သည်",
+            "File ကို လုံးဝ မဖွင့်ပါ",
+            "ရေးခြင်း မလုပ်ဘဲ ရှိပြီးသား content ကိုသာ ဖတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does open(\"notes.txt\", \"a\") do if notes.txt already has content?",
+          questionMy:
+              "notes.txt တွင် content ရှိပြီးသားဖြစ်ပါက open(\"notes.txt\", \"a\") က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Opens the file for appending, adding new content to the end without erasing what's there",
+            "Opens the file for appending, erasing all existing content first",
+            "Deletes the file entirely",
+            "Only reads the file",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား content ကို မဖျက်ဘဲ အဆုံးတွင် content အသစ် ထပ်ထည့်ရန် file ကို ဖွင့်သည်",
+            "ရှိပြီးသား content အားလုံးကို ဦးစွာဖျက်ပြီး file ကို ထပ်ဖြည့်ရန် ဖွင့်သည်",
+            "File ကို လုံးဝ ဖျက်ပစ်သည်",
+            "File ကို ဖတ်ရုံသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.write(\"Hello\") do?",
+          questionMy: "file.write(\"Hello\") က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Writes the text \"Hello\" into the file",
+            "Prints \"Hello\" to the screen only",
+            "Deletes the text \"Hello\" from the file",
+            "Reads the text \"Hello\" from the file",
+          ],
+          optionsMy: [
+            "\"Hello\" ဟူသော text ကို file ထဲသို့ ရေးသွင်းသည်",
+            "\"Hello\" ကို screen ပေါ်တွင်သာ print ထုတ်သည်",
+            "\"Hello\" ဟူသော text ကို file မှ ဖျက်ပစ်သည်",
+            "\"Hello\" ဟူသော text ကို file မှ ဖတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If you want each file.write() call to appear on its own line, what must you add?",
+          questionMy:
+              "file.write() call တစ်ခုစီကို line သီးခြားစီတွင် ပေါ်စေလိုပါက ဘာကို ထပ်ထည့်ရမည်နည်း။",
+          optionsEn: [
+            "A newline character \"\\n\" at the end of the text yourself",
+            "Nothing -- write() always adds a newline automatically",
+            "A comma at the end",
+            "The word \"newline\" as plain text",
+          ],
+          optionsMy: [
+            "Text ၏ အဆုံးတွင် newline character \"\\n\" ကို ကိုယ်တိုင် ထည့်ရမည်",
+            "ဘာမျှ မလိုပါ -- write() သည် newline ကို အမြဲ အလိုအလျောက် ထည့်သည်",
+            "အဆုံးတွင် comma တစ်ခု",
+            "\"newline\" ဟူသော စာလုံးကို plain text အဖြစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between \"w\" mode and \"a\" mode?",
+          questionMy:
+              "\"w\" mode နှင့် \"a\" mode ၏ အဓိက ကွာခြားချက်က အဘယ်နည်း။",
+          optionsEn: [
+            "\"w\" erases existing content first; \"a\" keeps existing content and adds to the end",
+            "\"w\" and \"a\" behave in exactly the same way",
+            "\"w\" is for reading; \"a\" is for writing",
+            "\"a\" always erases the file; \"w\" never does",
+          ],
+          optionsMy: [
+            "\"w\" သည် ရှိပြီးသား content ကို ဦးစွာဖျက်သည်; \"a\" သည် ရှိပြီးသား content ကို ထားရှိကာ အဆုံးတွင် ထပ်ထည့်သည်",
+            "\"w\" နှင့် \"a\" နှစ်ခုစလုံး အတူတူပင် ပြုမူသည်",
+            "\"w\" သည် ဖတ်ရန်အတွက်; \"a\" သည် ရေးရန်အတွက်",
+            "\"a\" သည် file ကို အမြဲ ဖျက်သည်; \"w\" ကတော့ ဘယ်တော့မှ မဖျက်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w30-d2",
+      dayNumber: 2,
+      titleEn: "Writing and Appending Vocabulary",
+      titleMy: "ရေးခြင်းနှင့် ထပ်ဖြည့်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w30-file-writemode",
+          termEn: "Write Mode (\"w\")",
+          termMy: "Write Mode (\"w\")",
+          matchEn:
+              "Opens a file for writing; if the file already has content, it is erased first",
+          matchMy:
+              "File ကို ရေးရန်အတွက် ဖွင့်သည်; file တွင် content ရှိပြီးသားဆိုပါက ဦးစွာ ဖျက်ပစ်သည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w30-file-appendmode",
+          termEn: "Append Mode (\"a\")",
+          termMy: "Append Mode (\"a\")",
+          matchEn:
+              "Opens a file for writing that adds new content to the end, keeping what was already there",
+          matchMy:
+              "ရှိပြီးသား content ကို ထားရှိကာ အဆုံးတွင် content အသစ် ထပ်ထည့်ရန် file ကို ဖွင့်သည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w30-file-write",
+          termEn: ".write()",
+          termMy: ".write()",
+          matchEn:
+              "Writes text into an opened file; unlike print(), it does not add a newline automatically",
+          matchMy:
+              "ဖွင့်ထားသော file ထဲသို့ text ကို ရေးသွင်းသည်; print() နှင့်မတူဘဲ newline ကို အလိုအလျောက် မထည့်ပါ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w30-file-newlinechar",
+          termEn: "Newline Character (\"\\n\")",
+          termMy: "Newline Character (\"\\n\")",
+          matchEn:
+              "The character you must add yourself to make separate .write() calls appear on separate lines",
+          matchMy:
+              ".write() call သီးခြားစီကို line သီးခြားစီတွင် ပေါ်စေရန် ကိုယ်တိုင် ထည့်ရမည့် character",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w30-file-overwrite",
+          termEn: "Overwrite (File)",
+          termMy: "Overwrite (File)",
+          matchEn:
+              "What happens to a file's old content when it is opened in \"w\" mode",
+          matchMy:
+              "\"w\" mode ဖြင့် ဖွင့်သောအခါ file ၏ content ဟောင်းကို ဖြစ်ပျက်စေသောအရာ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w30-d3",
+      dayNumber: 3,
+      titleEn: "Erases Content or Keeps It?",
+      titleMy: "Content ဖျက်သလား ထားရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Erases Existing Content First", "Keeps Existing Content"],
+        bucketsMy: [
+          "ရှိပြီးသား Content ကို ဦးစွာ ဖျက်သည်",
+          "ရှိပြီးသား Content ကို ထားရှိသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "w30-sort-openw",
+            labelEn: "open(\"log.txt\", \"w\")",
+            labelMy: "open(\"log.txt\", \"w\")",
+            correctBucketEn: "Erases Existing Content First",
+            correctBucketMy: "ရှိပြီးသား Content ကို ဦးစွာ ဖျက်သည်",
+          ),
+          SortingItem(
+            id: "w30-sort-opena",
+            labelEn: "open(\"log.txt\", \"a\")",
+            labelMy: "open(\"log.txt\", \"a\")",
+            correctBucketEn: "Keeps Existing Content",
+            correctBucketMy: "ရှိပြီးသား Content ကို ထားရှိသည်",
+          ),
+          SortingItem(
+            id: "w30-sort-writeafterw",
+            labelEn: "Writing after opening in \"w\" mode replaces everything",
+            labelMy:
+                "\"w\" mode ဖြင့် ဖွင့်ပြီးနောက် ရေးသွင်းခြင်းသည် အားလုံးကို အစားထိုးသည်",
+            correctBucketEn: "Erases Existing Content First",
+            correctBucketMy: "ရှိပြီးသား Content ကို ဦးစွာ ဖျက်သည်",
+          ),
+          SortingItem(
+            id: "w30-sort-writeaftera",
+            labelEn: "Writing after opening in \"a\" mode adds to the end",
+            labelMy:
+                "\"a\" mode ဖြင့် ဖွင့်ပြီးနောက် ရေးသွင်းခြင်းသည် အဆုံးတွင် ထပ်ထည့်သည်",
+            correctBucketEn: "Keeps Existing Content",
+            correctBucketMy: "ရှိပြီးသား Content ကို ထားရှိသည်",
+          ),
+          SortingItem(
+            id: "w30-sort-openwtwice",
+            labelEn: "open(\"log.txt\", \"w\") a second time on the same file",
+            labelMy: "File တူတူအပေါ် open(\"log.txt\", \"w\") ကို ဒုတိယအကြိမ်",
+            correctBucketEn: "Erases Existing Content First",
+            correctBucketMy: "ရှိပြီးသား Content ကို ဦးစွာ ဖျက်သည်",
+          ),
+          SortingItem(
+            id: "w30-sort-openatwice",
+            labelEn: "open(\"log.txt\", \"a\") a second time on the same file",
+            labelMy: "File တူတူအပေါ် open(\"log.txt\", \"a\") ကို ဒုတိယအကြိမ်",
+            correctBucketEn: "Keeps Existing Content",
+            correctBucketMy: "ရှိပြီးသား Content ကို ထားရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w30-d4",
+      dayNumber: 4,
+      titleEn: "Moe Thiri's Logging Mistake",
+      titleMy: "မိုးသီရိ၏ Logging မှားယွင်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Thiri's Logging Mistake",
+        titleMy: "မိုးသီရိ၏ Logging မှားယွင်းမှု",
+        passageEn:
+            "Moe Thiri was building a simple logging program that recorded a short message every time her weather station took a reading, saving each one to log.txt. On her first attempt, she wrote file = open(\"log.txt\", \"w\") inside the function that ran every time a new reading came in, then used file.write(message + \"\\n\") to save it, remembering to add \"\\n\" herself since write() does not add a newline automatically. When she checked log.txt the next day, she was confused to find only the very last reading saved -- all her earlier readings were gone. Her teacher explained the problem: opening a file in \"w\" mode erases its existing content first, every single time, so each new reading had been wiping out everything recorded before it. Moe Thiri fixed her program by changing just one character, from \"w\" to \"a\": file = open(\"log.txt\", \"a\"). Now each time a new reading came in, the file was opened in append mode, which kept everything already there and simply added the new message to the end. She tested it with three readings in a row, and this time log.txt ended up with all three messages, each on its own line, in the order they had been recorded. Moe Thiri realized \"w\" mode was the right choice only when she genuinely wanted to start a file fresh each time, while \"a\" mode was what she needed whenever a program was meant to keep adding to a file over time, like a log.",
+        passageMy:
+            "မိုးသီရိသည် weather station က ဖတ်ရှုမှုတစ်ခု ရသည့်အခါတိုင်း message တိုတစ်ခုစီကို log.txt တွင် သိမ်းဆည်းမည့် logging ပရိုဂရမ်ရိုးရှင်းတစ်ခု တည်ဆောက်နေသည်။ သူမ၏ ပထမ ကြိုးစားမှုတွင် ဖတ်ရှုမှုအသစ် ဝင်လာတိုင်း run သော function အတွင်း file = open(\"log.txt\", \"w\") ဟု ရေးခဲ့ပြီး ၎င်းကို သိမ်းရန် file.write(message + \"\\n\") ကို သုံးခဲ့သည်၊ write() သည် newline ကို အလိုအလျောက် မထည့်သောကြောင့် \"\\n\" ကို ကိုယ်တိုင် ထည့်ရန် မှတ်ထားခဲ့သည်။ နောက်နေ့တွင် log.txt ကို စစ်ဆေးရာ နောက်ဆုံးဖတ်ရှုမှု တစ်ခုတည်းသာ သိမ်းဆည်းထားကြောင်း တွေ့ရှိ၍ ရှုပ်ထွေးသွားခဲ့သည် -- ယခင် ဖတ်ရှုမှုများ အားလုံး ပျောက်သွားခဲ့သည်။ သူမ၏ ဆရာက ပြဿနာကို ရှင်းပြခဲ့သည် - \"w\" mode ဖြင့် file ကို ဖွင့်ခြင်းသည် ၎င်း၏ ရှိပြီးသား content ကို အကြိမ်တိုင်း ဦးစွာ ဖျက်ပစ်သောကြောင့် ဖတ်ရှုမှုအသစ် တစ်ခုစီသည် ယခင်က မှတ်တမ်းတင်ထားသမျှ အားလုံးကို ရှင်းလင်းပစ်ခဲ့ခြင်းဖြစ်သည်။ မိုးသီရိသည် character တစ်လုံးတည်း \"w\" မှ \"a\" သို့ ပြောင်းလိုက်ခြင်းဖြင့် သူမ၏ ပရိုဂရမ်ကို ပြင်ဆင်ခဲ့သည် - file = open(\"log.txt\", \"a\")။ ယခုတွင် ဖတ်ရှုမှုအသစ် ဝင်လာတိုင်း file ကို append mode ဖြင့် ဖွင့်ခဲ့ပြီး ရှိပြီးသား အားလုံးကို ထားရှိကာ message အသစ်ကို အဆုံးတွင်သာ ထပ်ထည့်ခဲ့သည်။ သူမသည် ဖတ်ရှုမှု သုံးခုကို အစဉ်တစ်ကြောင်းစီ စမ်းသပ်ခဲ့ရာ ဤအကြိမ်တွင် log.txt ၌ message သုံးခု အားလုံး line သီးခြားစီဖြင့် မှတ်တမ်းတင်ခဲ့သော အစီအစဉ်အတိုင်း ရှိနေခဲ့သည်။ File တစ်ခုကို ခေါက်လိုက်ချင်း ပြန်စတင်လိုသည့်အခါမှသာ \"w\" mode သည် မှန်ကန်သော ရွေးချယ်မှုဖြစ်ကြောင်း၊ ပရိုဂရမ်တစ်ခုသည် log တစ်ခုကဲ့သို့ file ကို အချိန်ကြာလာသည်နှင့်အမျှ ဆက်လက်ထပ်ဖြည့်ရမည်ဆိုပါက \"a\" mode ကသာ လိုအပ်ကြောင်း မိုးသီရိ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What mistake did Moe Thiri make in her first attempt?",
+            questionMy: "မိုးသီရိ၏ ပထမ ကြိုးစားမှုတွင် ဘာ အမှားပြုခဲ့သနည်း။",
+            optionsEn: [
+              "She opened the file in \"w\" mode every time, which erased earlier readings",
+              "She forgot to call open() at all",
+              "She used \"a\" mode when she should have used \"w\" mode",
+              "She never wrote anything to the file at all",
+            ],
+            optionsMy: [
+              "File ကို \"w\" mode ဖြင့် အကြိမ်တိုင်း ဖွင့်ခဲ့ပြီး ယခင် ဖတ်ရှုမှုများကို ဖျက်ပစ်ခဲ့သည်",
+              "open() ကို လုံးဝ ခေါ်ရန် မေ့သွားခဲ့သည်",
+              "\"w\" mode သုံးသင့်ချိန်တွင် \"a\" mode ကို သုံးခဲ့သည်",
+              "File သို့ ဘာမျှ တစ်ခါမှ ရေး၍မထားခဲ့ပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did checking log.txt the next day reveal?",
+            questionMy:
+                "နောက်နေ့တွင် log.txt ကို စစ်ဆေးရာ ဘာကို တွေ့ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Only the very last reading was saved; earlier readings were gone",
+              "All readings were saved correctly",
+              "The file was completely empty",
+              "The file contained an error message instead of data",
+            ],
+            optionsMy: [
+              "နောက်ဆုံးဖတ်ရှုမှု တစ်ခုတည်းသာ သိမ်းဆည်းထားပြီး ယခင်ဖတ်ရှုမှုများ ပျောက်သွားခဲ့သည်",
+              "ဖတ်ရှုမှု အားလုံး မှန်ကန်စွာ သိမ်းဆည်းထားခဲ့သည်",
+              "File သည် လုံးဝ ဗလာ ဖြစ်နေခဲ့သည်",
+              "File တွင် data အစား error message ပါဝင်နေခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Moe Thiri fix her program?",
+            questionMy: "မိုးသီရိသည် သူမ၏ ပရိုဂရမ်ကို မည်သို့ ပြင်ဆင်ခဲ့သနည်း။",
+            optionsEn: [
+              "By changing the file mode from \"w\" to \"a\"",
+              "By deleting log.txt entirely",
+              "By calling file.write() twice for every message",
+              "By removing file.close() from her program",
+            ],
+            optionsMy: [
+              "File mode ကို \"w\" မှ \"a\" သို့ ပြောင်းလဲခြင်းဖြင့်",
+              "log.txt ကို လုံးဝ ဖျက်ပစ်ခြင်းဖြင့်",
+              "Message တစ်ခုစီအတွက် file.write() ကို နှစ်ကြိမ် ခေါ်ခြင်းဖြင့်",
+              "သူမ၏ ပရိုဂရမ်မှ file.close() ကို ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "After the fix, what did log.txt contain after three readings in a row?",
+            questionMy:
+                "ပြင်ဆင်ပြီးနောက် ဖတ်ရှုမှု သုံးခု အစဉ်တစ်ကြောင်းစီပြီးနောက် log.txt တွင် ဘာပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "All three messages, each on its own line, in recorded order",
+              "Only the third message",
+              "Only the first message",
+              "An empty file",
+            ],
+            optionsMy: [
+              "Message သုံးခု အားလုံး line သီးခြားစီဖြင့် မှတ်တမ်းတင်ခဲ့သော အစီအစဉ်အတိုင်း",
+              "တတိယ message တစ်ခုတည်းသာ",
+              "ပထမ message တစ်ခုတည်းသာ",
+              "ဗလာ file",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, when is \"w\" mode the right choice?",
+            questionMy:
+                "ဇာတ်လမ်းအရ \"w\" mode သည် မည်သည့်အခါ မှန်ကန်သော ရွေးချယ်မှု ဖြစ်သနည်း။",
+            optionsEn: [
+              "Only when you genuinely want to start a file fresh each time",
+              "Whenever you want to keep adding to a file over time",
+              "It is never the right choice",
+              "Only when reading a file, not writing to it",
+            ],
+            optionsMy: [
+              "File တစ်ခုကို ခေါက်လိုက်ချင်း ပြန်စတင်လိုသည့်အခါမှသာ",
+              "File ကို အချိန်ကြာလာသည်နှင့်အမျှ ဆက်လက်ထပ်ဖြည့်လိုသည့်အခါတိုင်း",
+              "ဘယ်တော့မှ မှန်ကန်သော ရွေးချယ်မှု မဖြစ်ပါ",
+              "File ကို ဖတ်သည့်အခါသာ၊ ရေးသည့်အခါတွင် မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap Quiz",
+      titleMy: "Week 30 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which mode erases a file's existing content first?",
+          questionMy:
+              "File ၏ ရှိပြီးသား content ကို ဦးစွာ ဖျက်ပစ်သော mode က မည်သည်နည်း။",
+          optionsEn: ["\"w\"", "\"a\"", "\"r\"", "None of them"],
+          optionsMy: ["\"w\"", "\"a\"", "\"r\"", "မည်သည့် mode မှ မဖျက်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which mode keeps existing content and adds to the end?",
+          questionMy:
+              "ရှိပြီးသား content ကို ထားရှိကာ အဆုံးတွင် ထပ်ထည့်ပေးသော mode က မည်သည်နည်း။",
+          optionsEn: ["\"a\"", "\"w\"", "\"r\"", "None of them"],
+          optionsMy: ["\"a\"", "\"w\"", "\"r\"", "မည်သည့် mode မှ မဖြည့်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Does file.write() add a newline automatically?",
+          questionMy: "file.write() သည် newline ကို အလိုအလျောက် ထည့်ပေးသလား။",
+          optionsEn: [
+            "No -- you must add \"\\n\" yourself",
+            "Yes -- always",
+            "Only in \"a\" mode",
+            "Only in \"r\" mode",
+          ],
+          optionsMy: [
+            "မထည့်ပါ -- \"\\n\" ကို ကိုယ်တိုင် ထည့်ရမည်",
+            "ထည့်ပေးသည် -- အမြဲ",
+            "\"a\" mode တွင်သာ",
+            "\"r\" mode တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does file.write(\"Hi\") do?",
+          questionMy: "file.write(\"Hi\") က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Writes \"Hi\" into the file",
+            "Reads \"Hi\" from the file",
+            "Deletes the file",
+            "Prints \"Hi\" to the screen only",
+          ],
+          optionsMy: [
+            "\"Hi\" ကို file ထဲသို့ ရေးသွင်းသည်",
+            "\"Hi\" ကို file မှ ဖတ်သည်",
+            "File ကို ဖျက်ပစ်သည်",
+            "\"Hi\" ကို screen ပေါ်တွင်သာ print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a program logs a message every time it runs and must not lose earlier messages, which mode should it use?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် run တိုင်း message ကို log ချရန်လိုပြီး ယခင် message များ မပျောက်စေရလျှင် မည်သည့် mode ကို သုံးသင့်သနည်း။",
+          optionsEn: ["\"a\"", "\"w\"", "\"r\"", "It does not matter"],
+          optionsMy: ["\"a\"", "\"w\"", "\"r\"", "ကွာခြားချက် မရှိပါ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 8, Week 31: "Reading a File Into a List"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek31 = CourseWeekDef(
+  id: "course-secondary2-computing-w31",
+  weekNumber: 31,
+  titleEn: "Reading a File Into a List",
+  titleMy: "File တစ်ခုကို List သို့ ဖတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w31-d1",
+      dayNumber: 1,
+      titleEn: "Cleaning Up Lines with .strip()",
+      titleMy: ".strip() ဖြင့် Line များကို သန့်စင်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does \"for line in file:\" do?",
+          questionMy: "\"for line in file:\" က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Loops through the file one line at a time, just like looping through a list",
+            "Reads the whole file as a single number",
+            "Deletes each line as it is visited",
+            "Only runs once, no matter how many lines exist",
+          ],
+          optionsMy: [
+            "List တစ်ခုကို loop လုပ်သကဲ့သို့ file ကို line တစ်ကြောင်းချင်းစီ loop လုပ်သည်",
+            "File တစ်ခုလုံးကို ဂဏန်းတစ်ခုတည်းအဖြစ် ဖတ်သည်",
+            "Line တစ်ခုစီကို လည်ပတ်ချိန် ဖျက်ပစ်သည်",
+            "Line မည်မျှ ရှိသည်မဆို တစ်ကြိမ်တည်းသာ run သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Each line read with \"for line in file:\" normally includes what extra character at the end?",
+          questionMy:
+              "\"for line in file:\" ဖြင့် ဖတ်သော line တစ်ခုစီတွင် ပုံမှန်အားဖြင့် အဆုံးတွင် ပါဝင်သော character အပိုက အဘယ်နည်း။",
+          optionsEn: [
+            "A trailing newline character, \"\\n\"",
+            "An extra space at the beginning only",
+            "A dollar sign, \"\$\"",
+            "Nothing extra is ever included",
+          ],
+          optionsMy: [
+            "Trailing newline character, \"\\n\"",
+            "အစတွင် space အပို",
+            "Dollar sign, \"\$\"",
+            "အပိုမပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does .strip() do to a line like \"85\\n\"?",
+          questionMy:
+              "\"85\\n\" ကဲ့သို့ line တစ်ခုအပေါ် .strip() က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Removes the newline (and other leading/trailing whitespace), leaving \"85\"",
+            "Converts \"85\" into the number 85",
+            "Deletes the whole line entirely",
+            "Adds an extra newline character",
+          ],
+          optionsMy: [
+            "Newline (နှင့် အခြား leading/trailing whitespace) ကို ဖယ်ရှားပြီး \"85\" ကို ချန်ထားသည်",
+            "\"85\" ကို ဂဏန်း 85 အဖြစ် ပြောင်းလဲသည်",
+            "Line တစ်ခုလုံးကို လုံးဝ ဖျက်ပစ်သည်",
+            "Newline character အပိုတစ်ခု ထည့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How would you build a list of every line in a file?",
+          questionMy:
+              "File တစ်ခု၏ line တိုင်းပါသော list တစ်ခုကို မည်သို့ တည်ဆောက်နိုင်သနည်း။",
+          optionsEn: [
+            "Start with an empty list, then use .append() inside a for line in file: loop",
+            "Just write lines = file automatically",
+            "It cannot be done -- files and lists are unrelated",
+            "Use .upper() on the whole file",
+          ],
+          optionsMy: [
+            "ဗလာ list ဖြင့် စတင်ပြီး for line in file: loop အတွင်း .append() ကို သုံးခြင်းဖြင့်",
+            "lines = file ဟု အလိုအလျောက်ရေးရုံသာ",
+            "မလုပ်ဆောင်နိုင်ပါ -- file နှင့် list သည် မသက်ဆိုင်ပါ",
+            "File တစ်ခုလုံးအပေါ် .upper() ကို သုံးခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might you convert a line to a number with int(line.strip()) instead of just using line.strip()?",
+          questionMy:
+              "line.strip() တစ်ခုတည်းအစား int(line.strip()) ဖြင့် line ကို ဂဏန်းအဖြစ် အဘယ့်ကြောင့် ပြောင်းလဲသင့်သနည်း။",
+          optionsEn: [
+            "Because file lines are always read as text, even if they represent numbers, so int() converts the text into a usable number",
+            "Because .strip() already converts text into a number",
+            "Because int() removes the newline character instead of .strip()",
+            "There is never a reason to do this",
+          ],
+          optionsMy: [
+            "File line များသည် ဂဏန်းများကို ကိုယ်စားပြုသော်လည်း အမြဲ text အဖြစ် ဖတ်ရသောကြောင့် int() က text ကို အသုံးပြုနိုင်သော ဂဏန်းအဖြစ် ပြောင်းလဲပေးသည်",
+            ".strip() က text ကို ဂဏန်းအဖြစ် ပြောင်းလဲပြီးသားဖြစ်သောကြောင့်",
+            "int() က .strip() အစား newline character ကို ဖယ်ရှားပေးသောကြောင့်",
+            "ဤသို့ ပြုလုပ်ရန် အကြောင်းပြချက် ဘယ်တော့မှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w31-d2",
+      dayNumber: 2,
+      titleEn: "Reading Into a List Vocabulary",
+      titleMy: "List သို့ ဖတ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w31-file-forlineinfile",
+          termEn: "for line in file:",
+          termMy: "for line in file:",
+          matchEn:
+              "A loop that visits each line in an opened file one at a time, just like Term 1's for loop visits each list item",
+          matchMy:
+              "Term 1 ၏ for loop က list item တိုင်းကို လည်ပတ်သကဲ့သို့ ဖွင့်ထားသော file ၏ line တစ်ခုချင်းစီကို လည်ပတ်သော loop",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w31-file-trailingnewline",
+          termEn: "Trailing Newline",
+          termMy: "Trailing Newline",
+          matchEn:
+              "The \"\\n\" character usually found at the end of each line read from a file",
+          matchMy:
+              "File မှ ဖတ်သော line တစ်ခုစီ၏ အဆုံးတွင် ပုံမှန်တွေ့ရသော \"\\n\" character",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w31-file-strip",
+          termEn: ".strip()",
+          termMy: ".strip()",
+          matchEn:
+              "A string method that removes leading and trailing whitespace, including the newline character, from a string",
+          matchMy:
+              "String တစ်ခု၏ leading/trailing whitespace (newline character အပါအဝင်) ကို ဖယ်ရှားသော string method",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w31-file-buildinglistfromfile",
+          termEn: "Building a List from a File",
+          termMy: "Building a List from a File",
+          matchEn:
+              "Starting with an empty list and using .append() inside a for line in file: loop to collect every line",
+          matchMy:
+              "ဗလာ list ဖြင့် စတင်ပြီး line တိုင်းကို စုစည်းရန် for line in file: loop အတွင်း .append() ကို သုံးခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w31-file-intlinestrip",
+          termEn: "int(line.strip())",
+          termMy: "int(line.strip())",
+          matchEn:
+              "Cleans the newline off a line of text, then converts the remaining text into a usable whole number",
+          matchMy:
+              "Text line တစ်ခု၏ newline ကို ရှင်းလင်းပြီး ကျန်ရှိသော text ကို အသုံးပြုနိုင်သော ဂဏန်းအဖြစ် ပြောင်းလဲသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w31-d3",
+      dayNumber: 3,
+      titleEn: "Still Has the Newline or Cleaned Up?",
+      titleMy: "Newline ပါသေးသလား သန့်စင်ပြီးသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Still Contains the Newline", "Newline Removed"],
+        bucketsMy: ["Newline ပါဝင်သေးသည်", "Newline ဖယ်ရှားပြီး"],
+        items: [
+          SortingItem(
+            id: "w31-sort-rawline",
+            labelEn: "line (straight from for line in file:, before .strip())",
+            labelMy: "line (for line in file: မှ တိုက်ရိုက်၊ .strip() မလုပ်မီ)",
+            correctBucketEn: "Still Contains the Newline",
+            correctBucketMy: "Newline ပါဝင်သေးသည်",
+          ),
+          SortingItem(
+            id: "w31-sort-linestrip",
+            labelEn: "line.strip()",
+            labelMy: "line.strip()",
+            correctBucketEn: "Newline Removed",
+            correctBucketMy: "Newline ဖယ်ရှားပြီး",
+          ),
+          SortingItem(
+            id: "w31-sort-rawstring85",
+            labelEn: "\"85\\n\"",
+            labelMy: "\"85\\n\"",
+            correctBucketEn: "Still Contains the Newline",
+            correctBucketMy: "Newline ပါဝင်သေးသည်",
+          ),
+          SortingItem(
+            id: "w31-sort-stripped85",
+            labelEn: "\"85\" (after .strip())",
+            labelMy: "\"85\" (.strip() ပြီးနောက်)",
+            correctBucketEn: "Newline Removed",
+            correctBucketMy: "Newline ဖယ်ရှားပြီး",
+          ),
+          SortingItem(
+            id: "w31-sort-rawreadline",
+            labelEn: "file.readline() result, unprocessed",
+            labelMy: "file.readline() ရလဒ်၊ မစီမံရသေးသော",
+            correctBucketEn: "Still Contains the Newline",
+            correctBucketMy: "Newline ပါဝင်သေးသည်",
+          ),
+          SortingItem(
+            id: "w31-sort-intlinestrip",
+            labelEn: "int(line.strip())",
+            labelMy: "int(line.strip())",
+            correctBucketEn: "Newline Removed",
+            correctBucketMy: "Newline ဖယ်ရှားပြီး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w31-d4",
+      dayNumber: 4,
+      titleEn: "Yin Mon's Class Roster",
+      titleMy: "ရင်မွန်၏ Class Roster",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Yin Mon's Class Roster",
+        titleMy: "ရင်မွန်၏ Class Roster",
+        passageEn:
+            "Yin Mon needed to load a class roster from names.txt, one student name per line, into a list she could use in the rest of her program. She started with roster = [], an empty list from Term 1, and opened the file with file = open(\"names.txt\", \"r\"). Then she used for line in file: to visit each line one at a time -- but she quickly noticed that printing line directly showed \"Htet\\n\" instead of just \"Htet\", with a visible newline character tacked onto the end. She fixed this by calling line.strip() before using it, which removed the trailing newline and left a clean name. Inside the loop, she added roster.append(line.strip()), reusing Week 23's .append() pattern to grow her list one name at a time. After the loop finished and she called file.close(), roster held exactly what she wanted: [\"Htet\", \"Su Su\", \"Aung Kyaw\"], a clean list of plain strings with no leftover newline characters anywhere. Yin Mon noticed she had not needed int() this time, unlike a file of numbers -- names were meant to stay as text, so .strip() alone was enough to clean them up before appending.",
+        passageMy:
+            "ရင်မွန်သည် names.txt မှ class roster ကို ကျောင်းသားအမည် တစ်ခုစီ line တစ်ကြောင်းစီဖြင့် သူမ၏ ပရိုဂရမ်တွင် သုံးနိုင်မည့် list တစ်ခုအဖြစ် load လုပ်ရန် လိုအပ်ခဲ့သည်။ သူမသည် Term 1 မှ ဗလာ list roster = [] ဖြင့် စတင်ပြီး file = open(\"names.txt\", \"r\") ဖြင့် file ကို ဖွင့်ခဲ့သည်။ ထို့နောက် for line in file: ကို သုံး၍ line တစ်ခုစီကို လည်ပတ်ခဲ့သော်လည်း line ကို တိုက်ရိုက် print ထုတ်လိုက်သောအခါ \"Htet\" မဟုတ်ဘဲ \"Htet\\n\" ဟု ပေါ်နေကြောင်း သတိထားမိခဲ့သည် -- အဆုံးတွင် ပေါ်နေသော newline character နှင့်တကွ။ ၎င်းကို အသုံးမပြုမီ line.strip() ကို ခေါ်ခြင်းဖြင့် ပြင်ဆင်ခဲ့ပြီး trailing newline ကို ဖယ်ရှားကာ သန့်စင်သော နာမည်တစ်ခု ချန်ထားခဲ့သည်။ Loop အတွင်း roster.append(line.strip()) ကို ထည့်ခဲ့ပြီး Week 23 ၏ .append() pattern ကို ပြန်လည်အသုံးချကာ သူမ၏ list ကို နာမည်တစ်ခုချင်းစီ ကြီးထွားစေခဲ့သည်။ Loop ပြီးဆုံးပြီး file.close() ကို ခေါ်ပြီးနောက် roster တွင် သူမ လိုချင်သောအရာအတိအကျ ရှိခဲ့သည် - [\"Htet\", \"Su Su\", \"Aung Kyaw\"]၊ newline character မကျန်တော့သော သန့်ရှင်းသော string list တစ်ခု။ ဂဏန်း file တစ်ခုနှင့်မတူဘဲ ဤအကြိမ်တွင် int() ကို မလိုအပ်ခဲ့ကြောင်း ရင်မွန် သတိထားမိခဲ့သည် -- နာမည်များသည် text အဖြစ် ဆက်ရှိသင့်သောကြောင့် append မလုပ်မီ .strip() တစ်ခုတည်းက လုံလောက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did printing line directly reveal, before .strip()?",
+            questionMy:
+                ".strip() မလုပ်မီ line ကို တိုက်ရိုက် print ထုတ်ရာ ဘာကို ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "A visible newline character, \"\\n\", tacked onto the end of the name",
+              "The name in all uppercase letters",
+              "An error message",
+              "The name repeated twice",
+            ],
+            optionsMy: [
+              "နာမည်၏ အဆုံးတွင် ပေါ်နေသော newline character \"\\n\"",
+              "နာမည်ကို uppercase letter များဖြင့်",
+              "Error message",
+              "နာမည်ကို နှစ်ကြိမ် ထပ်ခါထပ်ခါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did roster.append(line.strip()) do inside the loop?",
+            questionMy:
+                "Loop အတွင်း roster.append(line.strip()) က ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Added the cleaned-up name to the growing roster list",
+              "Deleted the name from the file",
+              "Converted the name into a number",
+              "Printed the name to the screen only",
+            ],
+            optionsMy: [
+              "သန့်စင်ပြီးသား နာမည်ကို ကြီးထွားနေသော roster list သို့ ထည့်ခဲ့သည်",
+              "နာမည်ကို file မှ ဖျက်ပစ်ခဲ့သည်",
+              "နာမည်ကို ဂဏန်းအဖြစ် ပြောင်းလဲခဲ့သည်",
+              "နာမည်ကို screen ပေါ်တွင်သာ print ထုတ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the final value of roster after the loop finished?",
+            questionMy:
+                "Loop ပြီးဆုံးပြီးနောက် roster ၏ နောက်ဆုံးတန်ဖိုးက အဘယ်နည်း။",
+            optionsEn: [
+              "[\"Htet\", \"Su Su\", \"Aung Kyaw\"]",
+              "[\"Htet\\n\", \"Su Su\\n\", \"Aung Kyaw\\n\"]",
+              "\"Htet Su Su Aung Kyaw\"",
+              "An empty list",
+            ],
+            optionsMy: [
+              "[\"Htet\", \"Su Su\", \"Aung Kyaw\"]",
+              "[\"Htet\\n\", \"Su Su\\n\", \"Aung Kyaw\\n\"]",
+              "\"Htet Su Su Aung Kyaw\"",
+              "ဗလာ list",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why didn't Yin Mon need to use int() when building the roster list?",
+            questionMy:
+                "Roster list တည်ဆောက်ရာတွင် ရင်မွန်သည် int() ကို အဘယ့်ကြောင့် အသုံးပြုရန် မလိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because names were meant to stay as text, unlike a file of numbers",
+              "Because int() does not exist in Python",
+              "Because .strip() automatically converts text into numbers",
+              "Because roster was never actually a list",
+            ],
+            optionsMy: [
+              "ဂဏန်း file တစ်ခုနှင့်မတူဘဲ နာမည်များသည် text အဖြစ် ဆက်ရှိသင့်သောကြောင့်",
+              "Python တွင် int() ဟူ၍ မရှိသောကြောင့်",
+              ".strip() က text ကို ဂဏန်းအဖြစ် အလိုအလျောက် ပြောင်းလဲပေးသောကြောင့်",
+              "roster သည် list တကယ် မဟုတ်ခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What pattern from Week 23 did Yin Mon reuse to grow her roster list?",
+            questionMy:
+                "ရင်မွန်သည် roster list ကို ကြီးထွားစေရန် Week 23 ၏ မည်သည့် pattern ကို ပြန်လည်အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              ".append()",
+              "Nested loops",
+              "grid[row][col] = value",
+              "Binary search",
+            ],
+            optionsMy: [
+              ".append()",
+              "Nested loop",
+              "grid[row][col] = value",
+              "Binary search",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap Quiz",
+      titleMy: "Week 31 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does .strip() remove from a string?",
+          questionMy: ".strip() က string တစ်ခုမှ ဘာကို ဖယ်ရှားသနည်း။",
+          optionsEn: [
+            "Leading and trailing whitespace, including newlines",
+            "Every space anywhere in the string",
+            "All the digits in the string",
+            "Nothing -- it does not change the string",
+          ],
+          optionsMy: [
+            "Leading/trailing whitespace (newline အပါအဝင်)",
+            "String အတွင်းရှိ space အားလုံး",
+            "String ရှိ ဂဏန်း (digit) အားလုံး",
+            "ဘာမျှ -- string ကို မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What extra character usually sits at the end of a line read from a file?",
+          questionMy:
+              "File မှ ဖတ်သော line တစ်ခု၏ အဆုံးတွင် ပုံမှန်ရှိသော character အပိုက အဘယ်နည်း။",
+          optionsEn: [
+            "\"\\n\" (newline)",
+            "\"\$\"",
+            "A space only",
+            "Nothing extra",
+          ],
+          optionsMy: [
+            "\"\\n\" (newline)",
+            "\"\$\"",
+            "Space တစ်ခုတည်း",
+            "အပိုမရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which pattern builds a list from every line of a file?",
+          questionMy:
+              "File တစ်ခု၏ line တိုင်းမှ list တစ်ခု တည်ဆောက်သော pattern က အဘယ်နည်း။",
+          optionsEn: [
+            "An empty list plus .append() inside a for line in file: loop",
+            "Binary search",
+            "A truth table",
+            "grid[row][col] = value",
+          ],
+          optionsMy: [
+            "for line in file: loop အတွင်း ဗလာ list ပေါင်း .append()",
+            "Binary search",
+            "Truth table",
+            "grid[row][col] = value",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does int(line.strip()) do to a line like \"90\\n\"?",
+          questionMy:
+              "\"90\\n\" ကဲ့သို့ line တစ်ခုအပေါ် int(line.strip()) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Removes the newline, then converts \"90\" into the number 90",
+            "Only removes the newline, leaving \"90\" as text",
+            "Deletes the line entirely",
+            "Doubles the number to 180",
+          ],
+          optionsMy: [
+            "Newline ကို ဖယ်ရှားပြီး \"90\" ကို ဂဏန်း 90 အဖြစ် ပြောင်းလဲသည်",
+            "Newline ကိုသာ ဖယ်ရှားပြီး \"90\" ကို text အဖြစ် ချန်ထားသည်",
+            "Line တစ်ခုလုံးကို လုံးဝ ဖျက်ပစ်သည်",
+            "ဂဏန်းကို 180 အဖြစ် နှစ်ဆတိုးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looping through a file with for line in file: most resembles which Term 1 idea?",
+          questionMy:
+              "for line in file: ဖြင့် file ကို loop လုပ်ခြင်းသည် Term 1 ၏ မည်သည့် idea နှင့် အနီးစပ်ဆုံးနည်း။",
+          optionsEn: [
+            "for item in list:",
+            "Binary search",
+            "A truth table",
+            "String immutability",
+          ],
+          optionsMy: [
+            "for item in list:",
+            "Binary search",
+            "Truth table",
+            "String immutability",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 8, Week 32: "Putting It Together:
+// Reading Scores from a File"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek32 = CourseWeekDef(
+  id: "course-secondary2-computing-w32",
+  weekNumber: 32,
+  titleEn: "Putting It Together: Reading Scores from a File",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း — File မှ Score များ ဖတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w32-d1",
+      dayNumber: 1,
+      titleEn: "Planning a File-Reading Function",
+      titleMy: "File ဖတ်မည့် Function ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program needs to read every line of a scores file as a number and return them as a list. Which function signature fits?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် scores file ၏ line တိုင်းကို ဂဏန်းအဖြစ် ဖတ်ပြီး list အဖြစ် return ပြန်ပေးရမည်ဆိုပါက မည်သည့် function signature က ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "def read_scores(filename): ... return scores",
+            "def read_scores(): ... return scores",
+            "read_scores(filename): return",
+            "def read_scores(filename) return scores:",
+          ],
+          optionsMy: [
+            "def read_scores(filename): ... return scores",
+            "def read_scores(): ... return scores",
+            "read_scores(filename): return",
+            "def read_scores(filename) return scores:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which mode should the file be opened in to read it?",
+          questionMy: "File ကို ဖတ်ရန် မည်သည့် mode ဖြင့် ဖွင့်သင့်သနည်း။",
+          optionsEn: ["\"r\"", "\"w\"", "\"a\"", "\"x\""],
+          optionsMy: ["\"r\"", "\"w\"", "\"a\"", "\"x\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which loop pattern is used to visit each line of the opened file?",
+          questionMy:
+              "ဖွင့်ထားသော file ၏ line တိုင်းကို လည်ပတ်ရန် မည်သည့် loop pattern ကို သုံးသနည်း။",
+          optionsEn: [
+            "for line in file:",
+            "if line in file:",
+            "while file:",
+            "binary_search(file, target)",
+          ],
+          optionsMy: [
+            "for line in file:",
+            "if line in file:",
+            "while file:",
+            "binary_search(file, target)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What two things must happen to each line before adding it to the scores list?",
+          questionMy:
+              "Line တစ်ခုစီကို scores list သို့ မထည့်မီ ဘာနှစ်ခု ဖြစ်ပျက်ရမည်နည်း။",
+          optionsEn: [
+            "It must be stripped of its newline with .strip(), then converted to a number with int()",
+            "It must be printed twice",
+            "It must be converted to uppercase only",
+            "Nothing needs to happen -- lines can be appended directly",
+          ],
+          optionsMy: [
+            ".strip() ဖြင့် newline ကို ဖယ်ရှားပြီး int() ဖြင့် ဂဏန်းအဖြစ် ပြောင်းလဲရမည်",
+            "နှစ်ကြိမ် print ထုတ်ရမည်",
+            "Uppercase အဖြစ်သာ ပြောင်းလဲရမည်",
+            "ဘာမျှ ဖြစ်ပျက်စရာ မလိုပါ -- line ကို တိုက်ရိုက် append လုပ်နိုင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should happen to the file once every line has been read?",
+          questionMy: "Line တိုင်းကို ဖတ်ပြီးသည့်အခါ file ကို ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "It should be closed with file.close()",
+            "It should be reopened in \"w\" mode",
+            "It should be deleted",
+            "Nothing -- it should stay open forever",
+          ],
+          optionsMy: [
+            "file.close() ဖြင့် ပိတ်သင့်သည်",
+            "\"w\" mode ဖြင့် ပြန်ဖွင့်သင့်သည်",
+            "ဖျက်သင့်သည်",
+            "ဘာမျှ မလုပ်ပါ -- အမြဲ ဖွင့်ထားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w32-d2",
+      dayNumber: 2,
+      titleEn: "File-Reading Function Vocabulary",
+      titleMy: "File ဖတ်သော Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w32-cap-readscoresfn",
+          termEn: "read_scores(filename)",
+          termMy: "read_scores(filename)",
+          matchEn:
+              "A function that takes a filename as a parameter, reads every line as a number, and returns them as a list",
+          matchMy:
+              "Filename ကို parameter အဖြစ်ယူပြီး line တိုင်းကို ဂဏန်းအဖြစ် ဖတ်ကာ list တစ်ခုအဖြစ် ပြန်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w32-cap-openreadmode",
+          termEn: "open(filename, \"r\")",
+          termMy: "open(filename, \"r\")",
+          matchEn:
+              "Opens the given file in read mode, ready for the loop to read its lines",
+          matchMy:
+              "Line များကို loop ဖတ်ရန် အသင့်ဖြစ်စေရန် ပေးထားသော file ကို read mode ဖြင့် ဖွင့်သည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w32-cap-forlineinfile",
+          termEn: "for line in file:",
+          termMy: "for line in file:",
+          matchEn:
+              "Visits each line of the opened file one at a time, reusing Term 1's list-loop pattern applied to a file",
+          matchMy:
+              "Term 1 ၏ list-loop pattern ကို file တစ်ခုအပေါ် အသုံးချကာ ဖွင့်ထားသော file ၏ line တစ်ခုစီကို လည်ပတ်သည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w32-cap-intlinestrip",
+          termEn: "int(line.strip())",
+          termMy: "int(line.strip())",
+          matchEn:
+              "Removes the newline from a line of text, then converts what remains into a usable number",
+          matchMy:
+              "Text line တစ်ခု၏ newline ကို ဖယ်ရှားပြီး ကျန်ရှိသည်ကို အသုံးပြုနိုင်သော ဂဏန်းအဖြစ် ပြောင်းလဲသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w32-cap-closethenreturn",
+          termEn: "file.close() then return scores",
+          termMy: "file.close() then return scores",
+          matchEn:
+              "Closes the file once every line has been read, then hands the finished list back to whoever called the function",
+          matchMy:
+              "Line တိုင်းကို ဖတ်ပြီးနောက် file ကို ပိတ်ပြီး ပြီးစီးထားသော list ကို function ကို call ခေါ်သူထံ ပြန်ပေးသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w32-d3",
+      dayNumber: 3,
+      titleEn: "Opening/Reading the File, or Building the List?",
+      titleMy: "File ဖွင့်/ဖတ်ခြင်းလား List တည်ဆောက်ခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Part of Opening/Reading the File",
+          "Part of Building the List",
+        ],
+        bucketsMy: [
+          "File ဖွင့်/ဖတ်ခြင်း၏ အစိတ်အပိုင်း",
+          "List တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "w32-sort-openfilename",
+            labelEn: "open(filename, \"r\")",
+            labelMy: "open(filename, \"r\")",
+            correctBucketEn: "Part of Opening/Reading the File",
+            correctBucketMy: "File ဖွင့်/ဖတ်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w32-sort-forlineinfile",
+            labelEn: "for line in file:",
+            labelMy: "for line in file:",
+            correctBucketEn: "Part of Opening/Reading the File",
+            correctBucketMy: "File ဖွင့်/ဖတ်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w32-sort-fileclose",
+            labelEn: "file.close()",
+            labelMy: "file.close()",
+            correctBucketEn: "Part of Opening/Reading the File",
+            correctBucketMy: "File ဖွင့်/ဖတ်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w32-sort-scoresempty",
+            labelEn: "scores = []",
+            labelMy: "scores = []",
+            correctBucketEn: "Part of Building the List",
+            correctBucketMy: "List တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w32-sort-intlinestrip",
+            labelEn: "int(line.strip())",
+            labelMy: "int(line.strip())",
+            correctBucketEn: "Part of Building the List",
+            correctBucketMy: "List တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w32-sort-scoresappend",
+            labelEn: "scores.append(int(line.strip()))",
+            labelMy: "scores.append(int(line.strip()))",
+            correctBucketEn: "Part of Building the List",
+            correctBucketMy: "List တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w32-d4",
+      dayNumber: 4,
+      titleEn: "Thiha Zaw's Score Report",
+      titleMy: "သီဟဇော်၏ Score Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Zaw's Score Report",
+        titleMy: "သီဟဇော်၏ Score Report",
+        passageEn:
+            "For his end-of-term project, Thiha Zaw combined everything he had learned about files into a single function. He had a file called scores.txt containing three lines: \"85\", \"90\", and \"78\", each a score on its own line. He wrote a function called read_scores(filename) that took the filename as a parameter. Inside, he opened the file with file = open(filename, \"r\"), then created scores = [], an empty list from Term 1. He reused Week 31's pattern: for line in file: visited each line one at a time, and inside the loop, scores.append(int(line.strip())) cleaned the newline off each line with .strip(), converted the result into a real number with int(), and added it onto the growing list with .append(). Once the loop had visited all three lines, he called file.close() and then returned scores, reusing the return pattern from every function since Term 2. Calling read_scores(\"scores.txt\") gave back exactly [85, 90, 78] -- a real list of numbers, not text. Thiha Zaw then used this list the same way he had used lists all year: total = 0, then a loop with total = total + score for each score in the list, giving a running total of 85 + 90 + 78, or 253, and an average of 253 divided by 3, about 84.3. He realized his one small function had reused nearly the entire year: opening and reading a file from this term, Term 1's empty-list-plus-append pattern, Term 5's string methods extended into .strip(), and Term 2's function with a parameter and a return value -- proof that reading real data from a file was just another place to apply everything he had already learned.",
+        passageMy:
+            "နှစ်ကုန်စီမံကိန်းအတွက် သီဟဇော်သည် file များအကြောင်း သင်ယူခဲ့သမျှအားလုံးကို function တစ်ခုတည်းအတွင်း ပေါင်းစပ်ခဲ့သည်။ သူတွင် line သုံးကြောင်းပါသော scores.txt ဟူသော file တစ်ခုရှိသည် - \"85\"၊ \"90\"၊ \"78\" - တစ်ခုစီသည် line သီးခြားစီရှိ score ဖြစ်သည်။ သူသည် filename ကို parameter အဖြစ်ယူသော read_scores(filename) ဟူသော function တစ်ခု ရေးခဲ့သည်။ အတွင်း၌ file = open(filename, \"r\") ဖြင့် file ကို ဖွင့်ခဲ့ပြီး Term 1 မှ ဗလာ list scores = [] ကို ဖန်တီးခဲ့သည်။ သူသည် Week 31 ၏ pattern ကို ပြန်လည်အသုံးချခဲ့သည် - for line in file: က line တစ်ခုစီကို လည်ပတ်ခဲ့ပြီး loop အတွင်း scores.append(int(line.strip())) က line တစ်ခုစီ၏ newline ကို .strip() ဖြင့် ရှင်းလင်းကာ int() ဖြင့် ဂဏန်းအစစ်အမှန်အဖြစ် ပြောင်းလဲပြီး .append() ဖြင့် ကြီးထွားနေသော list ပေါ်သို့ ထည့်ခဲ့သည်။ Line သုံးကြောင်းလုံးကို လည်ပတ်ပြီးနောက် သူသည် file.close() ကို ခေါ်ပြီး Term 2 မှစ၍ function တိုင်း အသုံးပြုခဲ့သော return pattern အတိုင်း scores ကို return ပြန်ပေးခဲ့သည်။ read_scores(\"scores.txt\") ကို call ခေါ်ခြင်းက [85, 90, 78] ကို အတိအကျ ပြန်ပေးခဲ့သည် -- text မဟုတ်ဘဲ ဂဏန်း list အစစ်အမှန်ဖြစ်သည်။ သီဟဇော်သည် ဤ list ကို တစ်နှစ်လုံး list များကို သုံးခဲ့သလိုပင် ဆက်လက်သုံးခဲ့သည် - total = 0၊ ထို့နောက် list ထဲရှိ score တစ်ခုစီအတွက် total = total + score ပါသော loop ဖြင့် 85 + 90 + 78 ဖြစ်သော 253 running total ကို ရရှိကာ 253 ကို 3 ဖြင့် စား၍ ပျမ်းမျှ 84.3 ခန့် ရရှိခဲ့သည်။ Function ငယ်တစ်ခုသည် နှစ်တစ်နှစ်လုံးကို တိတ်တဆိတ် ပြန်လည်အသုံးချထားကြောင်း သီဟဇော် သဘောပေါက်လိုက်သည် - ဤ Term မှ file ဖွင့်ခြင်းနှင့် ဖတ်ခြင်း၊ Term 1 ၏ ဗလာ-list-ပေါင်း-append pattern၊ .strip() အဖြစ် ချဲ့ထွင်ထားသော Term 5 ၏ string method များ၊ ထို့ပြင် Term 2 ၏ parameter နှင့် return value ပါသော function -- file မှ data အစစ်အမှန် ဖတ်ခြင်းသည် သူ သင်ခဲ့သမျှအားလုံးကို အသုံးချရန် နေရာအသစ်တစ်ခုသာဖြစ်ကြောင်း သက်သေပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did read_scores(filename) take as a parameter, and what did it return?",
+            questionMy:
+                "read_scores(filename) က ဘာကို parameter အဖြစ်ယူပြီး ဘာ return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A filename; it returned a list of numbers read from that file",
+              "A list of numbers directly; it returned their sum",
+              "A single score; it returned True or False",
+              "Nothing; it always returned an empty list",
+            ],
+            optionsMy: [
+              "Filename; ထို file မှ ဖတ်ရသော ဂဏန်း list ကို return ပြန်ပေးခဲ့သည်",
+              "ဂဏန်း list တိုက်ရိုက်; ၎င်းတို့၏ ပေါင်းလဒ်ကို return ပြန်ပေးခဲ့သည်",
+              "Score တစ်ခုတည်း; True (သို့) False ကို return ပြန်ပေးခဲ့သည်",
+              "ဘာမျှမပါ; အမြဲ ဗလာ list ကို return ပြန်ပေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did scores.append(int(line.strip())) do inside the loop?",
+            questionMy:
+                "Loop အတွင်း scores.append(int(line.strip())) က ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Cleaned the newline off, converted the text to a number, and added it to the list",
+              "Only printed the line to the screen",
+              "Deleted the line from the file",
+              "Converted the number back into text",
+            ],
+            optionsMy: [
+              "Newline ကို ရှင်းလင်းပြီး text ကို ဂဏန်းအဖြစ် ပြောင်းလဲကာ list သို့ ထည့်ခဲ့သည်",
+              "Line ကို screen ပေါ်တွင်သာ print ထုတ်ခဲ့သည်",
+              "Line ကို file မှ ဖျက်ပစ်ခဲ့သည်",
+              "ဂဏန်းကို text အဖြစ် ပြန်ပြောင်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did read_scores(\"scores.txt\") return?",
+            questionMy:
+                "read_scores(\"scores.txt\") က ဘာ return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "[85, 90, 78]",
+              "[\"85\", \"90\", \"78\"]",
+              "253",
+              "An empty list",
+            ],
+            optionsMy: [
+              "[85, 90, 78]",
+              "[\"85\", \"90\", \"78\"]",
+              "253",
+              "ဗလာ list",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the final average Thiha Zaw calculated?",
+            questionMy:
+                "သီဟဇော် တွက်ချက်ခဲ့သော နောက်ဆုံး ပျမ်းမျှ တန်ဖိုးက အဘယ်နည်း။",
+            optionsEn: ["About 84.3", "253", "85", "About 90.0"],
+            optionsMy: ["84.3 ခန့်", "253", "85", "90.0 ခန့်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Thiha Zaw realize his function had reused?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သူ၏ function သည် ဘာများကို ပြန်လည်အသုံးချထားကြောင်း သီဟဇော် သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "File opening/reading, Term 1's list-append pattern, .strip() from string methods, and a function with parameter/return value",
+              "Only ideas from this single term, nothing earlier",
+              "Nothing -- it was a completely new idea",
+              "Only Boolean logic from Term 4",
+            ],
+            optionsMy: [
+              "File ဖွင့်/ဖတ်ခြင်း၊ Term 1 ၏ list-append pattern၊ string method များမှ .strip()၊ ထို့ပြင် parameter/return value ပါသော function",
+              "ဤ Term တစ်ခုတည်းမှ idea များသာ၊ ယခင်ကမှ မပါ",
+              "ဘာမှမပါ -- လုံးဝ idea အသစ်ဖြစ်သည်",
+              "Term 4 မှ Boolean logic သာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap Quiz",
+      titleMy: "Week 32 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In read_scores(filename), which mode is the file opened in?",
+          questionMy:
+              "read_scores(filename) တွင် file ကို မည်သည့် mode ဖြင့် ဖွင့်သနည်း။",
+          optionsEn: ["\"r\"", "\"w\"", "\"a\"", "\"x\""],
+          optionsMy: ["\"r\"", "\"w\"", "\"a\"", "\"x\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does int(line.strip()) do to a raw line from the file?",
+          questionMy:
+              "File မှ raw line တစ်ခုအပေါ် int(line.strip()) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Removes the newline, then converts the text into a number",
+            "Only removes the newline",
+            "Only converts the text into a number, keeping the newline",
+            "Deletes the line",
+          ],
+          optionsMy: [
+            "Newline ကို ဖယ်ရှားပြီး text ကို ဂဏန်းအဖြစ် ပြောင်းလဲသည်",
+            "Newline ကိုသာ ဖယ်ရှားသည်",
+            "Text ကို ဂဏန်းအဖြစ်သာ ပြောင်းလဲပြီး newline ကို ချန်ထားသည်",
+            "Line ကို ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does scores.append(...) do inside the loop?",
+          questionMy: "Loop အတွင်း scores.append(...) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds the converted number onto the growing scores list",
+            "Removes a number from scores",
+            "Sorts the scores list",
+            "Prints scores to the screen",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲပြီးသား ဂဏန်းကို ကြီးထွားနေသော scores list သို့ ထည့်သည်",
+            "scores မှ ဂဏန်းတစ်ခု ဖယ်ရှားသည်",
+            "scores list ကို sort လုပ်သည်",
+            "scores ကို screen ပေါ်တွင် print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a file containing \"10\", \"20\", \"30\" on three lines, what does read_scores(filename) return?",
+          questionMy:
+              "Line သုံးကြောင်းတွင် \"10\"၊ \"20\"၊ \"30\" ပါသော file အတွက် read_scores(filename) က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "[10, 20, 30]",
+            "[\"10\", \"20\", \"30\"]",
+            "60",
+            "An empty list",
+          ],
+          optionsMy: [
+            "[10, 20, 30]",
+            "[\"10\", \"20\", \"30\"]",
+            "60",
+            "ဗလာ list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the function do right before returning scores?",
+          questionMy: "scores ကို return မပြန်မီ function က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Closes the file with file.close()",
+            "Opens the file a second time",
+            "Deletes the file",
+            "Converts scores back into a string",
+          ],
+          optionsMy: [
+            "file.close() ဖြင့် file ကို ပိတ်သည်",
+            "File ကို ဒုတိယအကြိမ် ဖွင့်သည်",
+            "File ကို ဖျက်ပစ်သည်",
+            "scores ကို string အဖြစ် ပြန်ပြောင်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -26258,6 +27979,22 @@ const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
   // alongside Term 1's lists
 );
 
+const CourseTermDef _secondary2ComputingTerm8 = CourseTermDef(
+  id: "course-secondary2-computing-t8",
+  termNumber: 8,
+  titleEn: "File Handling: Reading and Writing Data",
+  titleMy: "File Handling — Data ဖတ်ခြင်းနှင့် ရေးခြင်း",
+  certificateTitleEn: "File Handling: Reading and Writing Data",
+  certificateTitleMy: "File Handling — Data ဖတ်ခြင်းနှင့် ရေးခြင်း",
+  weeks: [
+    _secondary2ComputingWeek29,
+    _secondary2ComputingWeek30,
+    _secondary2ComputingWeek31,
+    _secondary2ComputingWeek32,
+  ], // Term 8 complete (Weeks 29-32) -- eighth term of the Secondary 2
+  // pathway, extending list/string skills to real files on disk
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
@@ -26266,10 +28003,11 @@ const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
 /// 9-12, Searching and Sorting Algorithms), Term 4 (Weeks 13-16, Boolean
 /// Logic and Truth Tables), Term 5 (Weeks 17-20, Working with Text:
 /// String Manipulation), Term 6 (Weeks 21-24, Nested Lists: Working with
-/// 2D Data), and Term 7 (Weeks 25-28, Dictionaries: Working with
-/// Key-Value Data) are now authored; [totalWeeks] stays 36 for the same
-/// "honest progress bar" reason Secondary 1's did while only a handful
-/// of weeks exist. Term 1 picks up directly where
+/// 2D Data), Term 7 (Weeks 25-28, Dictionaries: Working with Key-Value
+/// Data), and Term 8 (Weeks 29-32, File Handling: Reading and Writing
+/// Data) are now authored; [totalWeeks] stays 36 for the same "honest
+/// progress bar" reason Secondary 1's did while only a handful of weeks
+/// exist. Term 1 picks up directly where
 /// Secondary 1 Term 9 left off: its Week 36 capstone program used single
 /// variables, selection, and loops, and Term 1's four weeks extend that
 /// straight into lists (storing many values, adding/removing/updating
@@ -26341,7 +28079,18 @@ const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
 /// that reuses Term 1's list-loop pattern, Term 5/Week 26's in operator
 /// to decide whether to add a new key or update an existing one, and
 /// Term 2's return-value pattern, building up a dictionary accumulator
-/// instead of a single running total.
+/// instead of a single running total. Term 8 extends list/string skills
+/// to real files on disk: Week 29 introduces open()/.read()/.readline()/
+/// .close() for reading a file; Week 30 adds .write() and contrasts "w"
+/// mode (erases existing content first) with "a" mode (keeps it and
+/// appends); Week 31 combines for line in file: with .strip() to clean
+/// each line's trailing newline, and Week 23's .append() pattern to
+/// collect lines into a list; Week 32 closes the term with a capstone
+/// function, read_scores(filename), that opens a file, loops through its
+/// lines (Term 1's list-loop pattern applied to a file), cleans and
+/// converts each one with int(line.strip()), builds up a list with
+/// .append(), closes the file, and returns the list (Term 2's
+/// return-value pattern).
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -26349,9 +28098,9 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, nested (2D) lists, and dictionaries.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, nested (2D) lists, dictionaries, and file handling.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list နှင့် dictionary ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list၊ dictionary နှင့် file handling ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary2ComputingTerm1,
@@ -26361,5 +28110,6 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
     _secondary2ComputingTerm5,
     _secondary2ComputingTerm6,
     _secondary2ComputingTerm7,
+    _secondary2ComputingTerm8,
   ],
 );
