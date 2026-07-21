@@ -33920,6 +33920,20 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
 /// force-meter measurement; Week 4 is the term's capstone, combining all
 /// three -- particle theory and heat (Week 2) with forces and friction
 /// (Week 3), measured throughout with Week 1's instruments and units.
+/// Term 2, "Chemistry and Energy" (see [_secondary1ScienceTerm2]),
+/// continues the spiral: Week 5 opens a second chemistry strand
+/// (elements, compounds and mixtures), explicitly calling back to Week
+/// 2's particle model to explain why a compound behaves as one new
+/// substance but a mixture can be pulled apart again; Week 6 narrows to
+/// acids, bases and indicators, building on Week 5's mixture/compound
+/// framing (many household acids and bases are a compound dissolved in
+/// water); Week 7 opens a second physics strand, formally naming the
+/// energy stores that Week 4's capstone already used informally
+/// (kinetic, thermal) and adding the rest (gravitational potential,
+/// elastic potential, chemical, electrical), stating the conservation
+/// principle explicitly; Week 8 is Term 2's capstone, tying chemical
+/// reactions (new substances forming, unlike Week 2's physical changes)
+/// to Week 7's energy transfers via exothermic/endothermic reactions.
 const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
   id: "course-secondary1-science-w1",
   weekNumber: 1,
@@ -33952,6 +33966,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "ရူပဗေဒသည် သမိုင်းကို လေ့လာပြီး ဓာတုဗေဒသည် ပထဝီဝင်ကို လေ့လာသည်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Physics and chemistry are two different branches of science -- think about what each one focuses on: energy and matter's behaviour, versus the substances matter is made of.",
+            "Rule out any option that treats the two subjects as identical, or swaps them for unrelated subjects like History or Geography -- the correct answer gives each subject its own distinct focus.",
+          ],
+          hintsMy: [
+            "ရူပဗေဒနှင့် ဓာတုဗေဒသည် သိပ္ပံပညာ၏ သီးခြားနယ်ပယ်နှစ်ခု ဖြစ်ကြောင်း စဉ်းစားပါ။ တစ်ခုသည် စွမ်းအင်နှင့် ရူပဝတ္ထု၏ အပြုအမူကို၊ အခြားတစ်ခုကမူ ရူပဝတ္ထုကို ဖွဲ့စည်းထားသော ပစ္စည်းများကို လေ့လာသည်။",
+            "ဘာသာရပ်နှစ်ခုကို အတူတူဟု ယူဆထားသော ရွေးချယ်စရာများ (သို့) သမိုင်း/ပထဝီဝင်ကဲ့သို့ မသက်ဆိုင်သော ဘာသာရပ်များနှင့် လဲထားသော ရွေးချယ်စရာများကို ဖယ်ရှားပါ။ မှန်ကန်သောအဖြေက ဘာသာရပ်နှစ်ခုစလုံးကို သီးခြားနယ်ပယ်အသီးသီးဖြင့် ဖော်ပြထားသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -33971,6 +33993,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "မှတ်တမ်းတင်ခြင်း၊ ခန့်မှန်းချက်ချခြင်း၊ မေးခွန်းမေးခြင်း၊ စမ်းသပ်ခြင်း၊ ကောက်ချက်ချခြင်း အစဉ်လိုက်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "You can't make a prediction about something before you've asked a clear question about it -- so a question must come before a prediction.",
+            "After testing/measuring, what has to happen before you can draw a conclusion? Your results need to be written down (recorded) first.",
+          ],
+          hintsMy: [
+            "မည်သည့်အရာနှင့်ပတ်သက်၍ ခန့်မှန်းချက်မချမီ ဦးစွာ ရှင်းလင်းသောမေးခွန်းတစ်ခု မေးထားရမည်ဖြစ်သည် -- ထို့ကြောင့် မေးခွန်းသည် ခန့်မှန်းချက်ထက် ရှေ့ဆုံးမှ ဖြစ်ရမည်။",
+            "စမ်းသပ်/တိုင်းတာပြီးနောက် ကောက်ချက်မချမီ မည်သည့်အရာ ဖြစ်ရမည်နည်း။ ရလဒ်များကို ဦးစွာ မှတ်တမ်းတင်ရမည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -33990,6 +34020,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "သိပ္ပံပညာရှင်သည် စမ်းသပ်မှု မစတင်မီပင် ရလဒ်ကို ခန့်မှန်းနိုင်ရန်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think about what happens if two people measure the same thing sloppily and get different numbers -- could their results be trusted or compared with each other?",
+            "The correct option connects careful measurement to results you can trust and compare fairly, not to finishing quickly or guessing beforehand.",
+          ],
+          hintsMy: [
+            "လူနှစ်ဦးက အရာတစ်ခုတည်းကို မသေချာဘဲ တိုင်းတာလိုက်ပြီး ကွဲပြားသောဂဏန်းများ ရလာလျှင် ၎င်းတို့၏ ရလဒ်များကို ယုံကြည်နိုင်မလား၊ တစ်ခုနှင့်တစ်ခု နှိုင်းယှဉ်နိုင်မလားဆိုသည်ကို စဉ်းစားပါ။",
+            "မှန်ကန်သောရွေးချယ်စရာက သေချာသောတိုင်းတာမှုကို ယုံကြည်စိတ်ချရပြီး တရားမျှတစွာ နှိုင်းယှဉ်နိုင်သော ရလဒ်များနှင့် ဆက်စပ်ထားသည်၊ မြန်ဆန်စွာ ပြီးမြောက်ရေး (သို့) ကြိုတင်ခန့်မှန်းရေးနှင့် မသက်ဆိုင်ပါ။",
+          ],
         ),
         QuizQuestion(
           questionEn: "Which of these is a correct laboratory safety rule?",
@@ -34008,6 +34046,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "စမ်းသပ်မှုပြုလုပ်နေစဉ် ဓာတ်ခွဲခန်းစားပွဲတွင် စားသောက်ခြင်း။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think about what you should put on and check before you start handling chemicals or heating equipment, not what happens after or for convenience.",
+            "The safe option involves protective equipment and preparation beforehand -- the other options describe tasting, running, or eating, which you should never do in a lab.",
+          ],
+          hintsMy: [
+            "ဓာတုပစ္စည်းများကို ကိုင်တွယ် (သို့) ကိရိယာများကို မအပူမပေးမီ သင် မည်သည့်အရာကို ဝတ်ဆင်၍ စစ်ဆေးထားသင့်သည်ကို စဉ်းစားပါ၊ နောက်ပိုင်းတွင် ဖြစ်ပျက်မည့်အရာ (သို့) အဆင်ပြေမှုအတွက် မဟုတ်ပါ။",
+            "ဘေးကင်းသောရွေးချယ်စရာသည် ကြိုတင်ပြင်ဆင်ထားသော ကာကွယ်ရေးကိရိယာများနှင့် သက်ဆိုင်သည် -- အခြားရွေးချယ်စရာများက မြည်းစမ်းခြင်း၊ ပြေးလွှားခြင်း (သို့) စားသောက်ခြင်းတို့ကို ဖော်ပြထားပြီး ၎င်းတို့သည် ဓာတ်ခွဲခန်းအတွင်း လုံးဝ မပြုလုပ်သင့်သောအရာများ ဖြစ်ကြသည်။",
+          ],
         ),
       ],
     ),
@@ -34192,6 +34238,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
               "တိုင်းတာစီလင်ဒါ",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Go back to the passage -- what tool did Su Su use every morning to measure how tall the seedlings had grown, in centimetres?",
+              "It's the same instrument used for measuring length, not temperature, time, or volume.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်ကို ပြန်ကြည့်ပါ -- ဆုဆုသည် နေ့စဉ်မနက် အပင်များ မည်မျှမြင့်ထွားသည်ကို စင်တီမီတာဖြင့် တိုင်းတာရန် မည်သည့်ကိရိယာကို သုံးခဲ့သနည်း။",
+              "ဤကိရိယာမှာ အလျားတိုင်းတာသည့် ကိရိယာတစ်ခုဖြစ်ပြီး၊ အပူချိန်၊ အချိန် (သို့) ထုထည် တိုင်းသည့်ကိရိယာ မဟုတ်ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn: "What was Su Su's prediction before she began testing?",
@@ -34210,6 +34264,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
               "အပူချိန်သည် အပင်များအပေါ် လုံးဝ သက်ရောက်မှု ရှိမည်မဟုတ်ပါ။",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "A prediction is a guess made before testing, based on the question being asked -- re-read the second paragraph where Su Su writes her prediction.",
+              "Her question was whether more sunlight makes the seedling grow taller -- her prediction should match that idea directly.",
+            ],
+            hintsMy: [
+              "ခန့်မှန်းချက်ဆိုသည်မှာ မေးထားသောမေးခွန်းအပေါ် အခြေခံ၍ စမ်းသပ်မှုမပြုမီ ခန့်မှန်းထားသောအရာဖြစ်သည် -- ဆုဆု ၎င်း၏ ခန့်မှန်းချက်ကို ရေးသားသည့် ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "သူ၏ မေးခွန်းမှာ ပိုမိုများပြားသော နေရောင်ခြည်က အပင်ငယ်ကို ပိုမြင့်စေမလားဆိုသည် ဖြစ်ပြီး ၎င်း၏ ခန့်မှန်းချက်သည် ထိုအတွေးနှင့် တိုက်ရိုက်ကိုက်ညီသင့်သည်။",
+            ],
           ),
           QuizQuestion(
             questionEn: "What did Su Su do to make her test fair?",
@@ -34228,6 +34290,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
               "သူသည် နေ့စဉ် ရေပမာဏကို ပြောင်းလဲပေးခဲ့သည်။",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "A fair test keeps everything the same except the one thing you're testing (sunlight vs. shade) -- what did Su Su make sure stayed identical for both seedlings?",
+              "Look at the part of the passage about watering -- she didn't change how much water each seedling got.",
+            ],
+            hintsMy: [
+              "တရားမျှတသောစမ်းသပ်မှုတစ်ခုတွင် စမ်းသပ်နေသော အချက်တစ်ခု (နေရောင်ခြည်နှင့် အရိပ်) မှလွဲ၍ အခြားအရာအားလုံးကို တူညီအောင် ထားရသည် -- ဆုဆုသည် အပင်နှစ်ပင်စလုံးအတွက် မည်သည့်အရာကို တူညီအောင် ထိန်းထားခဲ့သနည်း။",
+              "ရေဖြန်းခြင်းနှင့်ပတ်သက်သော စာပိုဒ်ကို ကြည့်ပါ -- သူသည် အပင်တစ်ပင်စီအတွက် ရေပမာဏကို ပြောင်းလဲခြင်း မပြုခဲ့ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -34247,6 +34317,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
               "ဒီဂရီစင်တီဂရိတ် အနှုတ် ၁၀ ခန့်",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Look near the end of the passage, where Su Su records her results after seven days -- the balcony temperature is mentioned right alongside the height difference.",
+              "This number is a normal warm-day temperature, much closer to body temperature than to freezing (0°C) or boiling (100°C).",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးပိုင်းအနီး၊ ဆုဆုသည် ခုနစ်ရက်ကြာပြီးနောက် ရလဒ်များကို မှတ်တမ်းတင်သည့်နေရာကို ကြည့်ပါ -- ဗရန်ဒါ၏ အပူချိန်ကို အမြင့်ကွာခြားချက်နှင့်အတူ ဖော်ပြထားသည်။",
+              "ဤဂဏန်းသည် ပုံမှန်နွေးထွေးသောနေ့တစ်ရက်၏ အပူချိန်ဖြစ်ပြီး၊ ရေခဲမှတ် (၀ ဒီဂရီ) (သို့) ရေဆူမှတ် (၁၀၀ ဒီဂရီ) ထက် ကိုယ်ခန္ဓာအပူချိန်နှင့် ပိုနီးစပ်သည်။",
+            ],
           ),
         ],
       ),
@@ -34277,6 +34355,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "နယူတန် (N)",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Recall the instrument used to weigh things in Week 1's matching activity -- a balance. This question asks for the unit that goes with it.",
+            "Metres measure length, seconds measure time, and newtons measure force -- mass has its own separate unit.",
+          ],
+          hintsMy: [
+            "ပထမပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းတွင် အရာဝတ္ထုများကို ချိန်ရန်သုံးသော ကိရိယာ (ချိန်ခွင်) ကို သတိရပါ။ ဤမေးခွန်းက ၎င်းနှင့်တွဲသော ယူနစ်ကို မေးနေသည်။",
+            "မီတာသည် အလျားကို၊ စက္ကန့်သည် အချိန်ကို၊ နယူတန်သည် အားကို တိုင်းတာသည် -- အလေးချိန်တွင် ၎င်း၏ ကိုယ်ပိုင်ယူနစ် သီးခြားရှိသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34295,6 +34381,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "ချိန်ခွင်",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think about the unit cm3/ml that Week 1 paired with volume -- which piece of lab equipment is marked with those units for liquids?",
+            "It's not the tool for length, temperature, or mass -- it's the tall marked container used just for liquids.",
+          ],
+          hintsMy: [
+            "ပထမပတ်တွင် ထုထည်နှင့်တွဲထားသော ယူနစ် cm3/ml ကို စဉ်းစားပါ -- ထိုယူနစ်များ အမှတ်အသားပါသော ဓာတ်ခွဲခန်းကိရိယာမှာ မည်သည့်ကိရိယာနည်း။",
+            "ဤကိရိယာသည် အလျား၊ အပူချိန် (သို့) အလေးချိန် တိုင်းသည့်ကိရိယာ မဟုတ်ဘဲ -- အရည်များအတွက်သာ အမှတ်အသားပါသော အမြင့်ရှည်သောခွက်ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34314,6 +34408,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "ကိရိယာများကို ကျပန်းစမ်းသပ်ခြင်း",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Before you can predict, test, or record anything, what must you have first, according to Week 1's steps?",
+            "It's not the last steps (recording or concluding) -- it's what starts the whole investigation off.",
+          ],
+          hintsMy: [
+            "ပထမပတ်၏ အဆင့်များအရ ခန့်မှန်း၊ စမ်းသပ် (သို့) မှတ်တမ်းတင်ခြင်း မပြုမီ ဦးစွာ မည်သည့်အရာ ရှိထားရမည်နည်း။",
+            "ဤအဆင့်သည် နောက်ဆုံးအဆင့်များ (မှတ်တမ်းတင်ခြင်း (သို့) ကောက်ချက်ချခြင်း) မဟုတ်ပါ -- စမ်းသပ်မှုတစ်ခုလုံးကို စတင်စေသောအဆင့် ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34328,6 +34430,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
           ],
           optionsMy: ["နယူတန် (N)", "မီတာ (m)", "ဂရမ် (g)", "စက္ကန့် (s)"],
           correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's matching activity -- one unit was flagged as something you'd see again later, paired with a force meter.",
+            "It's not the unit for length, mass, or time -- it's the one used specifically for force.",
+          ],
+          hintsMy: [
+            "ပထမပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ယူနစ်တစ်ခုကို နောက်ပိုင်းတွင် ထပ်တွေ့ရမည်ဟု ဖော်ပြထားပြီး နယူတန်မီတာနှင့် တွဲထားသည်။",
+            "ဤယူနစ်သည် အလျား၊ အလေးချိန် (သို့) အချိန်ဆိုင်ရာ ယူနစ် မဟုတ်ပါ -- အားအတွက်သာ အသုံးပြုသော ယူနစ်ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn: "Which of these is a safe laboratory practice?",
@@ -34346,6 +34456,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "အလုပ်ခုံများကြားတွင် ပြေးလွှားခြင်း",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think about which of these four options involves protective equipment used before a risky task, rather than something dangerous or careless.",
+            "Three of the options describe unsafe behaviour (tasting, eating, running) -- the safe one is about wearing something protective.",
+          ],
+          hintsMy: [
+            "ဤရွေးချယ်စရာလေးခုအနက် အန္တရာယ်ရှိသောအလုပ် မပြုမီ ကာကွယ်ရေးကိရိယာ ဝတ်ဆင်ခြင်းနှင့် သက်ဆိုင်သည့် ရွေးချယ်စရာကို စဉ်းစားပါ။",
+            "ရွေးချယ်စရာသုံးခုက ဘေးကင်းမှုမရှိသောအပြုအမူများ (မြည်းစမ်းခြင်း၊ စားသောက်ခြင်း၊ ပြေးလွှားခြင်း) ကို ဖော်ပြထားပြီး ဘေးကင်းသောရွေးချယ်စရာက ကာကွယ်ရေးပစ္စည်း ဝတ်ဆင်ခြင်းနှင့် သက်ဆိုင်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34365,6 +34483,14 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
             "ဆရာ/ဆရာမများ တောင်းဆိုသောကြောင့်သာ၊ သိပ္ပံနည်းအကြောင်းပြချက် မရှိပါ။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "If you changed two things at once, how would you know which change actually caused the result you saw?",
+            "The correct answer is about being able to trust that the result truly comes from the one thing you tested, not about speed or making things look interesting.",
+          ],
+          hintsMy: [
+            "အချက်နှစ်ခုကို တစ်ပြိုင်နက်တည်း ပြောင်းလဲလိုက်ပါက ရလဒ်ကို မည်သည့်အချက်က အမှန်တကယ် ဖြစ်စေသည်ကို မည်သို့ သိနိုင်မည်နည်း။",
+            "မှန်ကန်သောအဖြေက ရလဒ်သည် စမ်းသပ်နေသည့် အချက်တစ်ခုတည်းမှ အမှန်တကယ် ဖြစ်ပေါ်လာကြောင်း ယုံကြည်နိုင်ခြင်းနှင့် သက်ဆိုင်ပြီး၊ မြန်ဆန်မှု (သို့) စိတ်ဝင်စားဖွယ်ဖြစ်မှုနှင့် မသက်ဆိုင်ပါ။",
+          ],
         ),
       ],
     ),
@@ -34408,6 +34534,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အခြေအနေသုံးမျိုးလုံးသည် ပုံသဏ္ဌာန်အသေနှင့် ထုထည်အသေ ရှိကြသည်",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think about which state's particles are packed tightly in a fixed pattern, only vibrating in place rather than moving around freely.",
+            "It's not liquid (fixed volume but no fixed shape) or gas (neither fixed) -- it's the state that keeps both its shape and its size.",
+          ],
+          hintsMy: [
+            "မည်သည့်အခြေအနေ၏ အနုမြူများသည် ပုံသေပုံစံဖြင့် ကျစ်လျစ်စွာ စုပုံနေပြီး လွတ်လပ်စွာ မရွေ့လျားဘဲ နေရာတွင်သာ တုန်ခါနေသည်ကို စဉ်းစားပါ။",
+            "ဤအခြေအနေသည် အရည် (ထုထည်အသေရှိသော်လည်း ပုံသဏ္ဌာန်အသေမရှိ) (သို့) ဓာတ်ငွေ့ (နှစ်ခုစလုံး အသေမရှိ) မဟုတ်ဘဲ -- ပုံသဏ္ဌာန်နှင့် အရွယ်အစား နှစ်ခုစလုံးကို ထိန်းထားသောအခြေအနေ ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34417,6 +34551,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
           optionsEn: ["Solid", "Liquid", "Gas", "Plasma"],
           optionsMy: ["အစိုင်အခဲ", "အရည်", "ဓာတ်ငွေ့", "ပလာစမာ"],
           correctIndex: 1,
+          hintsEn: [
+            "This description matches particles that stay close and keep a fixed volume, yet aren't locked in place like a solid's are.",
+            "It's not a solid (particles locked in a fixed pattern) or a gas (particles far apart) -- it's the state you can pour.",
+          ],
+          hintsMy: [
+            "ဤဖော်ပြချက်သည် နီးကပ်စွာနေသော်လည်း အစိုင်အခဲကဲ့သို့ ပုံသေနေရာတွင် မထားသော အနုမြူများနှင့် ထုထည်အသေရှိသော အခြေအနေနှင့် ကိုက်ညီသည်။",
+            "ဤအခြေအနေသည် အစိုင်အခဲ (အနုမြူများ ပုံသေနေရာတွင်ရှိ) (သို့) ဓာတ်ငွေ့ (အနုမြူများ ဝေးကွာစွာနေ) မဟုတ်ပါ -- သွန်းလောင်းနိုင်သော အခြေအနေဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn: "Why does a gas not have a fixed volume?",
@@ -34435,6 +34577,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "၎င်း၏ အနုမြူများ လုံးဝ ရွေ့လျားမှုရပ်တန့်နေခြင်းကြောင့်",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "Think about how gas particles move compared to a solid's, which only vibrate in place -- gas particles move very differently.",
+            "The correct answer describes particles moving freely and quickly, spreading out until they fill whatever container holds them.",
+          ],
+          hintsMy: [
+            "ဓာတ်ငွေ့အနုမြူများသည် နေရာတွင်သာ တုန်ခါနေသော အစိုင်အခဲအနုမြူများနှင့် နှိုင်းယှဉ်ပါက မည်သို့ ကွာခြားစွာ ရွေ့လျားသည်ကို စဉ်းစားပါ။",
+            "မှန်ကန်သောအဖြေက အနုမြူများသည် လွတ်လပ်စွာ၊ မြန်ဆန်စွာ ရွေ့လျားပြီး ၎င်းတို့ ထားရှိသည့် အိုးအိတ်တိုင်းကို ပြည့်နှက်အောင် ဖြန့်ကျက်ကြောင်း ဖော်ပြသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34454,6 +34604,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အနုမြူများသည် ပုံသေအစီအစဉ်မရှိဘဲ အချင်းချင်း ဆွဲအားလည်း မရှိခြင်း",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "Solids keep a fixed shape -- what must the particles be doing (or not doing) to make that possible?",
+            "The particles are packed in an ordered pattern and can only vibrate in place, not slide or spread far apart.",
+          ],
+          hintsMy: [
+            "အစိုင်အခဲများသည် ပုံသဏ္ဌာန်အသေကို ထိန်းထားသည် -- ဤသို့ဖြစ်နိုင်ရန် အနုမြူများသည် မည်သို့ ရွေ့လျား (သို့) မရွေ့လျားရမည်နည်း။",
+            "အနုမြူများသည် စီစဉ်ထားသော ပုံစံဖြင့် ကျစ်လျစ်စွာ စုပုံနေပြီး နေရာတွင်သာ တုန်ခါနိုင်ကာ၊ ရွေ့လျားဖြတ်သန်း (သို့) ဝေးကွာစွာ ဖြန့်ကျက်၍ မရနိုင်ပါ။",
+          ],
         ),
       ],
     ),
@@ -34629,6 +34787,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
               "ဟင်းချက်ဆီခွက်တစ်ခွက်",
             ],
             correctIndex: 1,
+            hintsEn: [
+              "Re-read the very first sentence of the passage -- what object is described as hard, cold, and holding its shape perfectly?",
+              "It's a solid, frozen form of water, not something already liquid or an oily/milky substance.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ ပထမဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ -- မာကျောပြီး အေးစက်လျက် ပုံသဏ္ဌာန်ကို အတိအကျ ထိန်းထားနိုင်သောအရာမှာ အဘယ်နည်း။",
+              "၎င်းသည် ရေ၏ အစိုင်အခဲပုံစံဖြစ်ပြီး၊ အရည်ဖြစ်နေပြီးသားအရာ (သို့) ဆီ/နို့ကဲ့သို့ ပစ္စည်း မဟုတ်ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -34647,6 +34813,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
               "ဒီဂရီစင်တီဂရိတ် -၁၀",
             ],
             correctIndex: 2,
+            hintsEn: [
+              "Look at the paragraph where Thiri recalls what she learned in Week 1 about the freezer's temperature.",
+              "This is the same freezing/melting point used throughout Week 1 and 2's temperature convention -- much colder than boiling, but not below zero.",
+            ],
+            hintsMy: [
+              "သီရိသည် ပထမအပတ်တွင် သင်ယူခဲ့သော ရေခဲသေတ္တာ၏ အပူချိန်ကို သတိရသည့် စာပိုဒ်ကို ကြည့်ပါ။",
+              "ဤအပူချိန်သည် ပထမနှင့် ဒုတိယအပတ်တစ်လျှောက် အသုံးပြုထားသော ရေခဲပျော်မှတ်ဖြစ်ပြီး၊ ရေဆူမှတ်ထက် များစွာအေးသော်လည်း သုညအောက် မဟုတ်ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -34666,6 +34840,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
               "လေပြင်းက ရေခဲတုံးကို ပြိုကွဲအောင် တိုက်ခတ်ခဲ့ခြင်းကြောင့်",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Think about what the warm kitchen air gives to the tightly packed particles inside the ice -- energy that makes them move differently.",
+              "The particles vibrate faster and faster until they break free of their fixed positions -- that's what melting is, according to the particle model.",
+            ],
+            hintsMy: [
+              "မီးဖိုချောင်ရှိ နွေးထွေးသောလေသည် ရေခဲအတွင်းရှိ ကျစ်လျစ်စွာ စုပုံနေသော အနုမြူများကို မည်သည့်အရာ (စွမ်းအင်) ပေးသဖြင့် ၎င်းတို့ ကွဲပြားစွာ ရွေ့လျားလာသည်ကို စဉ်းစားပါ။",
+              "အနုမြူများသည် ပိုမိုမြန်ဆန်စွာ တုန်ခါလာပြီး နောက်ဆုံးတွင် ၎င်းတို့၏ ပုံသေနေရာများမှ လွတ်မြောက်သွားသည် -- ၎င်းသည် အနုမြူပုံစံအရ အရည်ပျော်ခြင်း ဖြစ်သည်။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -34685,6 +34867,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
               "အနုမြူများ လုံးဝ ကွယ်ပျောက်သွားခြင်း",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Thiri's mother explains this directly -- think about how fast the particles in boiling water must be moving to escape into the air.",
+              "It's the opposite of particles freezing into a fixed pattern -- they're moving so fast they leave the liquid entirely, as a gas.",
+            ],
+            hintsMy: [
+              "သီရိ၏ အမေက ၎င်းကို တိုက်ရိုက်ရှင်းပြထားသည် -- ဆူပွက်နေသော ရေထဲက အနုမြူများသည် လေထဲသို့ ထွက်ပြေးနိုင်ရန် မည်မျှမြန်ဆန်စွာ ရွေ့လျားရမည်ကို စဉ်းစားပါ။",
+              "၎င်းသည် အနုမြူများ ပုံသေပုံစံသို့ အခဲဖြစ်ခြင်း၏ ဆန့်ကျင်ဘက် ဖြစ်သည် -- ၎င်းတို့သည် ဓာတ်ငွေ့အဖြစ် အရည်မှ လုံးဝ ထွက်သွားရန် လွန်စွာမြန်ဆန်စွာ ရွေ့လျားနေခြင်း ဖြစ်သည်။",
+            ],
           ),
         ],
       ),
@@ -34716,6 +34906,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အခြေအနေသုံးမျိုးထဲမှ မည်သည့်အခြေအနေမျှ ဤသို့မဟုတ်ပါ",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "This is the opposite extreme of a solid, whose particles are locked in a fixed pattern -- think about which state's particles move freely enough to spread everywhere.",
+            "It's not solid (fixed shape and volume) or liquid (fixed volume only) -- it's the state that expands to fill any space.",
+          ],
+          hintsMy: [
+            "ဤအခြေအနေသည် အနုမြူများ ပုံသေပုံစံတွင် ထားရှိသော အစိုင်အခဲ၏ ဆန့်ကျင်ဘက်စွန်းဖြစ်သည် -- မည်သည့်အခြေအနေ၏ အနုမြူများသည် နေရာအနှံ့ ဖြန့်ကျက်နိုင်လောက်အောင် လွတ်လပ်စွာ ရွေ့လျားသည်ကို စဉ်းစားပါ။",
+            "ဤအခြေအနေသည် အစိုင်အခဲ (ပုံသဏ္ဌာန်နှင့် ထုထည်အသေရှိ) (သို့) အရည် (ထုထည်အသေသာရှိ) မဟုတ်ပါ -- နေရာလွတ်တိုင်းကို ပြည့်နှက်အောင် ကျယ်ပြန့်နိုင်သော အခြေအနေဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34730,6 +34928,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အငွေ့ရည်ဖြစ်ခြင်း",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "This is the reverse process of melting -- think about which direction the change of state is going here (liquid to solid).",
+            "It's not evaporation or condensation, which involve a gas -- this term is about a liquid becoming hard.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ အရည်ပျော်ခြင်း၏ ပြန်လှန်လုပ်ငန်းစဉ်ဖြစ်သည် -- ဤနေရာတွင် ဒြပ်ထုအခြေအနေ ပြောင်းလဲမှုသည် မည်သည့်ဘက်သို့ (အရည်မှ အစိုင်အခဲသို့) သွားနေသည်ကို စဉ်းစားပါ။",
+            "၎င်းသည် ဓာတ်ငွေ့နှင့် သက်ဆိုင်သော အငွေ့ပျံခြင်း (သို့) အငွေ့ရည်ဖြစ်ခြင်း မဟုတ်ပါ -- ဤအသုံးအနှုန်းသည် အရည်တစ်ခု ခဲမာလာခြင်းအကြောင်း ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34744,6 +34950,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "ဆူပွက်ခြင်း",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "This is different from melting or boiling, because there's no liquid stage at all -- the solid skips straight to the gas state.",
+            "Week 2's matching activity gave this exact process its own special name, distinct from melting, freezing, or condensation.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ အရည်ပျော်ခြင်း (သို့) ဆူပွက်ခြင်းနှင့် ကွာခြားသည် -- အဘယ်ကြောင့်ဆိုသော် အရည်အဆင့် လုံးဝမရှိသောကြောင့်ဖြစ်သည်။ အစိုင်အခဲသည် ဓာတ်ငွေ့အခြေအနေသို့ တိုက်ရိုက်ကျော်သွားသည်။",
+            "ဒုတိယပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းက ဤလုပ်ငန်းစဉ် တိကျစွာအတွက် အရည်ပျော်ခြင်း၊ အခဲဖြစ်ခြင်း (သို့) အငွေ့ရည်ဖြစ်ခြင်းနှင့် ကွဲပြားသော အထူးအမည်တစ်ခု ပေးထားသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34763,6 +34977,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အရည်တွင် အနုမြူများ လုံးဝမရှိခြင်း",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "Liquids can be poured and take the shape of their container, but they still have a fixed volume -- what must the particles be doing to allow that?",
+            "It's not the tightly locked arrangement of a solid, nor the far-apart free movement of a gas -- it's something in between.",
+          ],
+          hintsMy: [
+            "အရည်များသည် သွန်းလောင်းနိုင်ပြီး ၎င်းထည့်ထားသည့် အိုးအိတ်၏ ပုံသဏ္ဌာန်ကို ယူနိုင်သော်လည်း ထုထည်အသေ ရှိနေဆဲဖြစ်သည် -- ဤသို့ဖြစ်ရန် အနုမြူများသည် မည်သို့ ရွေ့လျားရမည်နည်း။",
+            "ဤအခြေအနေသည် အစိုင်အခဲ၏ ကျစ်လျစ်စွာပုံသေတွဲထားမှု (သို့) ဓာတ်ငွေ့၏ ဝေးကွာစွာလွတ်လပ်စွာရွေ့လျားမှု မဟုတ်ဘဲ ၎င်းတို့ကြားက အနေအထားဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34777,6 +34999,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "ဆပ်ဘလိမေးရှင်း",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "This is the reverse of evaporation/boiling -- think about which direction this change of state goes (gas to liquid).",
+            "It's not freezing or melting, which involve solids -- Thiri's mother named this term when the steam met a cold plate.",
+          ],
+          hintsMy: [
+            "၎င်းသည် အငွေ့ပျံခြင်း/ဆူပွက်ခြင်း၏ ပြန်လှန်လုပ်ငန်းစဉ်ဖြစ်သည် -- ဤအခြေအနေပြောင်းလဲမှုသည် မည်သည့်ဘက်သို့ (ဓာတ်ငွေ့မှ အရည်သို့) သွားသည်ကို စဉ်းစားပါ။",
+            "၎င်းသည် အစိုင်အခဲနှင့် သက်ဆိုင်သော အခဲဖြစ်ခြင်း (သို့) အရည်ပျော်ခြင်း မဟုတ်ပါ -- ရေငွေ့သည် အေးစက်သောပန်းကန်ပြားနှင့် ထိတွေ့သောအခါ သီရိ၏ အမေက ဤအသုံးအနှုန်းကို အမည်ပေးထားသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34796,6 +35026,14 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
             "အချိန်တိုင်းစက် (စတော့ပ်ဝပ်ချ်)၊ စက္ကန့်ဖြင့် တိုင်းတာသည်",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "Kyaw is measuring temperature, not length, mass, or time -- which Week 1 instrument matches that?",
+            "The unit that goes with this instrument is the same one used throughout Weeks 1 and 2 for melting/boiling points.",
+          ],
+          hintsMy: [
+            "ကျော်သည် အလျား၊ အလေးချိန် (သို့) အချိန် မဟုတ်ဘဲ အပူချိန်ကို တိုင်းတာနေသည် -- ပထမပတ်မှ မည်သည့်ကိရိယာက ၎င်းနှင့် ကိုက်ညီသနည်း။",
+            "ဤကိရိယာနှင့် တွဲသော ယူနစ်သည် ပထမနှင့်ဒုတိယအပတ်တစ်လျှောက် အရည်ပျော်/ဆူမှတ်များအတွက် အသုံးပြုခဲ့သော ယူနစ်တည်းဖြစ်သည်။",
+          ],
         ),
       ],
     ),
@@ -34837,6 +35075,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "စီးဆင်းနိုင်သော ပစ္စည်းတစ်မျိုး",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "Think about the two simple actions you use every day to move things -- pushing something away, or pulling it toward you.",
+            "It's not energy, temperature, or a flowing substance -- it's about changing an object's motion or shape.",
+          ],
+          hintsMy: [
+            "အရာဝတ္ထုများကို ရွေ့လျားစေရန် နေ့စဉ် သင် အသုံးပြုနေသော ရိုးရှင်းသောလုပ်ဆောင်ချက်နှစ်ခုကို စဉ်းစားပါ -- တစ်ခုခုကို တွန်းထုတ်ခြင်း (သို့) ဆွဲခြင်း။",
+            "ဤအရာသည် စွမ်းအင်၊ အပူချိန် (သို့) စီးဆင်းနိုင်သောပစ္စည်း မဟုတ်ပါ -- အရာဝတ္ထုတစ်ခု၏ လှုပ်ရှားမှု (သို့) ပုံသဏ္ဌာန်ကို ပြောင်းလဲစေခြင်းအကြောင်း ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn: "What is the SI unit used to measure force?",
@@ -34844,6 +35090,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
           optionsEn: ["Kilogram (kg)", "Newton (N)", "Metre (m)", "Joule (J)"],
           optionsMy: ["ကီလိုဂရမ် (kg)", "နယူတန် (N)", "မီတာ (m)", "ဂျူး (J)"],
           correctIndex: 1,
+          hintsEn: [
+            "Recall Week 1's matching activity, which paired a force meter with a specific unit -- the same one flagged to reappear here in Week 3.",
+            "It's not the unit for mass, length, or energy -- it's the one this whole week's topic is named after in Week 1's preview.",
+          ],
+          hintsMy: [
+            "ပထမပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းတွင် အားမီတာနှင့် တွဲထားသော ယူနစ်တစ်ခုကို သတိရပါ -- ဤတတိယပတ်တွင် ထပ်မံပေါ်လာမည်ဟု ဖော်ပြထားသော ယူနစ်ပင် ဖြစ်သည်။",
+            "၎င်းသည် အလေးချိန်၊ အလျား (သို့) စွမ်းအင်ဆိုင်ရာ ယူနစ် မဟုတ်ပါ -- ပထမပတ်က ကြိုတင်ဖော်ပြထားသည့်အတိုင်း ဤအပတ်တစ်ခုလုံး၏ အကြောင်းအရာအမည်ကို ရယူထားသော ယူနစ်ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34863,6 +35117,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "ပုံမှန်ထိတွေ့အား",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "The table's rough surface rubbing against the book is the key detail -- which force opposes motion between two surfaces in contact?",
+            "It's not gravity (pulling down) or upthrust (from a liquid) -- it's the force described in the matching activity as opposing motion where surfaces touch.",
+          ],
+          hintsMy: [
+            "စားပွဲ၏ ကြမ်းတမ်းသောမျက်နှာပြင်က စာအုပ်ကို ပွတ်တိုက်ခြင်းသည် အဓိကအချက်ဖြစ်သည် -- မျက်နှာပြင်နှစ်ခု ထိတွေ့နေစဉ် လှုပ်ရှားမှုကို ဆန့်ကျင်သောအားမှာ အဘယ်နည်း။",
+            "၎င်းသည် ဆွဲငင်အား (အောက်သို့ဆွဲသည့်) (သို့) အထက်တွန်းအား (အရည်မှ) မဟုတ်ပါ -- တွဲချိတ်လေ့ကျင့်ခန်းတွင် မျက်နှာပြင်များ ထိတွေ့ရာတွင် လှုပ်ရှားမှုကို ဆန့်ကျင်သည်ဟု ဖော်ပြထားသောအားဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -34882,6 +35144,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "၎င်း၏ ဦးတည်ရာကို ပြောင်းလဲစေခြင်း",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "Three of these options are the classic effects of a force taught this week: starting motion, changing shape, changing direction -- one option is about something else entirely.",
+            "Temperature is linked to particles' energy (Week 2), not directly to a push or pull -- that's the odd one out.",
+          ],
+          hintsMy: [
+            "ဤရွေးချယ်စရာသုံးခုသည် ဤအပတ်တွင် သင်ခဲ့သော အားများ၏ ရိုးရာသက်ရောက်မှုများ ဖြစ်ကြသည် -- လှုပ်ရှားမှုစတင်ခြင်း၊ ပုံသဏ္ဌာန်ပြောင်းလဲခြင်း၊ ဦးတည်ရာပြောင်းလဲခြင်း -- ရွေးချယ်စရာတစ်ခုကမူ လုံးဝ မတူညီသောအရာအကြောင်း ဖြစ်သည်။",
+            "အပူချိန်သည် အနုမြူများ၏ စွမ်းအင် (ဒုတိယပတ်) နှင့် ဆက်စပ်ပြီး၊ တွန်းအား (သို့) ဆွဲအားနှင့် တိုက်ရိုက် မသက်ဆိုင်ပါ -- ၎င်းသည် ကွဲထွက်နေသောအဖြေဖြစ်သည်။",
+          ],
         ),
       ],
     ),
@@ -35056,6 +35326,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
               "လေလိုက်ဆန့်ကျင်အား",
             ],
             correctIndex: 1,
+            hintsEn: [
+              "Re-read the first paragraph -- what force is described as 'always pulling Kyaw Kyaw and his bicycle downward'?",
+              "It's not friction, upthrust, or air resistance -- it's the force that pulls everything toward the centre of the Earth.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ -- 'ကျော်ကျော်နှင့် ၎င်း၏ စက်ဘီးကို အမြဲတမ်း အောက်သို့ ဆွဲငင်နေသည်' ဟု ဖော်ပြထားသောအားမှာ အဘယ်နည်း။",
+              "၎င်းသည် ပွတ်တိုက်အား၊ အထက်တွန်းအား (သို့) လေလိုက်ဆန့်ကျင်အား မဟုတ်ပါ -- အရာအားလုံးကို ကမ္ဘာ့ဗဟိုချက်ဘက်သို့ ဆွဲငင်သောအားဖြစ်သည်။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -35075,6 +35353,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
               "၎င်းအပေါ် သက်ရောက်နေသော အားများ ဟန်ချက်ညီနေသောကြောင့်",
             ],
             correctIndex: 3,
+            hintsEn: [
+              "The passage says the forward push exactly matches the backward pull -- what do we call it when opposing forces are equal like this?",
+              "It's not that friction or gravity have disappeared -- all the forces are still there, they're just equal and opposite.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်က ရှေ့သို့တွန်းအားသည် နောက်ပြန်တွန်းအားနှင့် အတိအကျ ညီမျှသည်ဟု ဖော်ပြထားသည် -- ဆန့်ကျင်ဘက်အားများ ဤသို့ ညီမျှနေသည်ကို အဘယ်ဟုခေါ်သနည်း။",
+              "ပွတ်တိုက်အား (သို့) ဆွဲငင်အား ပျောက်ကွယ်သွားခြင်း မဟုတ်ပါ -- အားအားလုံး ဆက်လက်ရှိနေသေးပြီး ၎င်းတို့သည် ညီမျှကာ ဆန့်ကျင်ဘက်ဖြစ်နေခြင်းသာ ဖြစ်သည်။",
+            ],
           ),
           QuizQuestion(
             questionEn: "What happens when Kyaw Kyaw squeezes the brakes?",
@@ -35093,6 +35379,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
               "ဆွဲငင်အားလျော့ကျပြီး စက်ဘီးမျောနေခြင်း",
             ],
             correctIndex: 2,
+            hintsEn: [
+              "The brakes press against the wheels -- which force between two surfaces does this action increase?",
+              "Once that force grows much bigger than the forward push, the forces are no longer equal -- what happens to the bicycle's speed then?",
+            ],
+            hintsMy: [
+              "ဘရိတ်များသည် ဘီးများကို ဖိထားသည် -- ဤလုပ်ဆောင်ချက်က မျက်နှာပြင်နှစ်ခုကြား မည်သည့်အားကို ပိုမိုကြီးမားစေသနည်း။",
+              "ထိုအားသည် ရှေ့တွန်းအားထက် များစွာကြီးလာသောအခါ အားများသည် မညီမျှတော့ပါ -- ထိုအခါ စက်ဘီး၏ အမြန်နှုန်းတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -35112,6 +35406,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
               "တာယာနှင့် လမ်းကြား ရှိနေပြီး စက်ဘီး၏ ရှေ့သို့ ရွေ့လျားမှုကို ဆန့်ကျင်သည့် နောက်ပြန်အား",
             ],
             correctIndex: 3,
+            hintsEn: [
+              "Friction always opposes motion -- look for the option describing a backward force between two surfaces in contact (the tyres and the road).",
+              "It's not the upward push from the road, the downward pull of gravity, or air resistance (which acts on the whole bicycle, not just where tyres touch road).",
+            ],
+            hintsMy: [
+              "ပွတ်တိုက်အားသည် လှုပ်ရှားမှုကို အမြဲဆန့်ကျင်သည် -- မျက်နှာပြင်နှစ်ခု (တာယာနှင့် လမ်း) ထိတွေ့ရာတွင် ဖြစ်ပေါ်သော နောက်ပြန်အားကို ဖော်ပြထားသည့် ရွေးချယ်စရာကို ရှာပါ။",
+              "၎င်းသည် လမ်းမှ အပေါ်သို့တွန်းအား၊ ဆွဲငင်အား (သို့) လေလိုက်ဆန့်ကျင်အား (စက်ဘီးတစ်ခုလုံးအပေါ် သက်ရောက်ပြီး တာယာ-လမ်းထိတွေ့ရာတွင်သာ မဟုတ်) မဟုတ်ပါ။",
+            ],
           ),
         ],
       ),
@@ -35142,6 +35444,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "အပူချိန် တိုင်းတာမှု",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "This is the same simple definition from Day 1 of this week -- think about the two basic actions a force represents.",
+            "It's not stored energy, the amount of matter, or a temperature measurement -- it's the simplest possible description.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ဤအပတ်၏ ပထမနေ့မှ အတူတူဖြစ်သော အရိုးရှင်းဆုံးအဓိပ္ပာယ်ဖွင့်ဆိုချက်ဖြစ်သည် -- အားကို ကိုယ်စားပြုသော အခြေခံလုပ်ဆောင်ချက်နှစ်ခုကို စဉ်းစားပါ။",
+            "၎င်းသည် သိမ်းဆည်းထားသော စွမ်းအင်၊ ရေဒြပ်ပမာဏ (သို့) အပူချိန်တိုင်းတာမှု မဟုတ်ပါ -- ဖြစ်နိုင်သမျှ အရိုးရှင်းဆုံးဖော်ပြချက်ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35161,6 +35471,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "ပုံမှန်ထိတွေ့အား",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "This is the same force from Week 3's matching activity, described as pulling objects toward the centre of the Earth.",
+            "It's not friction, upthrust, or normal contact force -- those act between surfaces or from liquids, not from the Earth itself.",
+          ],
+          hintsMy: [
+            "၎င်းသည် တတိယပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းမှ အားတည်းဖြစ်ပြီး အရာဝတ္ထုများကို ကမ္ဘာ့ဗဟိုချက်ဘက်သို့ ဆွဲငင်သည်ဟု ဖော်ပြထားသည်။",
+            "၎င်းသည် ပွတ်တိုက်အား၊ အထက်တွန်းအား (သို့) ပုံမှန်ထိတွေ့အား မဟုတ်ပါ -- ထိုအားများသည် မျက်နှာပြင်များကြား (သို့) အရည်မှ ဖြစ်ပေါ်ကြပြီး ကမ္ဘာကိုယ်တိုင်မှ မဟုတ်ပါ။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35180,6 +35498,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "အားကို တိုင်းတာသည့် ယူနစ်",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Re-read the definition -- upthrust pushes upward on a boat from the water it floats in. What kind of substance is water?",
+            "It's not air resistance, not a force between two solids, and not a unit -- it comes from a liquid.",
+          ],
+          hintsMy: [
+            "အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို ပြန်ဖတ်ပါ -- အထက်တွန်းအားသည် လှေမျောနေသည့် ရေမှ လှေကို အပေါ်သို့ တွန်းပေးသည်။ ရေသည် မည်သည့်ပစ္စည်းအမျိုးအစားနည်း။",
+            "၎င်းသည် လေလိုက်ဆန့်ကျင်အား၊ အခဲနှစ်ခုကြားအား (သို့) ယူနစ်တစ်ခု မဟုတ်ပါ -- ၎င်းသည် အရည်တစ်ခုမှ ဖြစ်ပေါ်လာသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35199,6 +35525,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "အမြဲတမ်း လှုပ်ရှားမှု ရပ်သွားသည်",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Think back to Kyaw Kyaw's bicycle at steady speed -- when forward and backward forces matched exactly, did his speed or direction change?",
+            "Balanced forces don't add any net push in either direction -- so the object's current motion (moving or still) simply continues.",
+          ],
+          hintsMy: [
+            "ကျော်ကျော်၏ စက်ဘီး တည်ငြိမ်သောအမြန်နှုန်းဖြင့် သွားနေချိန်ကို ပြန်စဉ်းစားပါ -- ရှေ့တွန်းအားနှင့် နောက်ပြန်တွန်းအား အတိအကျ ညီမျှနေချိန်တွင် သူ၏ အမြန်နှုန်း (သို့) ဦးတည်ရာ ပြောင်းလဲသလား။",
+            "ဟန်ချက်ညီသောအားများသည် ဘက်တစ်ဘက်သို့မျှ စုစုပေါင်းတွန်းအား ထပ်ထည့်ပေးခြင်း မရှိပါ -- ထို့ကြောင့် အရာဝတ္ထု၏ လက်ရှိလှုပ်ရှားမှု (ရွေ့လျားနေ (သို့) ငြိမ်နေ) သည် ဆက်လက်ဖြစ်ပေါ်နေမည်သာ ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35218,6 +35552,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "ပုံမှန်ထိတွေ့အားတစ်ခုတည်း",
           ],
           correctIndex: 2,
+          hintsEn: [
+            "The car's motion is changing (speeding up) -- recall from Week 3's sorting activity, does motion change when forces are balanced or unbalanced?",
+            "It's not just upthrust or normal contact force alone -- speeding up needs a net force in one direction, i.e. forces that aren't equal.",
+          ],
+          hintsMy: [
+            "ကား၏ လှုပ်ရှားမှု ပြောင်းလဲနေသည် (အရှိန်မြှင့်နေသည်) -- တတိယပတ်၏ စီစစ်ခြင်းလေ့ကျင့်ခန်းအရ လှုပ်ရှားမှုသည် အားများ ဟန်ချက်ညီနေသောအခါ (သို့) မညီနေသောအခါ ပြောင်းလဲသလား။",
+            "၎င်းသည် အထက်တွန်းအား (သို့) ပုံမှန်ထိတွေ့အားတစ်ခုတည်း မဟုတ်ပါ -- အရှိန်မြှင့်ရန် ဘက်တစ်ဘက်သို့ စုစုပေါင်းအား လိုအပ်သည်၊ ဆိုလိုသည်မှာ အားများ မညီမျှခြင်းပင်ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35237,6 +35579,14 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
             "နယူတန်မီတာ (စပရိန်ချိန်ခွင်)",
           ],
           correctIndex: 3,
+          hintsEn: [
+            "Recall Week 1's matching activity, which paired the newton unit with a specific spring-based tool.",
+            "It's not the thermometer, measuring cylinder, or ruler -- those measure temperature, volume, and length, not force.",
+          ],
+          hintsMy: [
+            "ပထမပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းတွင် နယူတန်ယူနစ်နှင့် တွဲထားသော စပရိန်အခြေခံကိရိယာကို သတိရပါ။",
+            "၎င်းသည် အပူချိန်တိုင်းကိရိယာ၊ ခြင်တွယ်စက်ခွက် (သို့) ချိန်တံ မဟုတ်ပါ -- ထိုကိရိယာများသည် အပူချိန်၊ ထုထည်နှင့် အလျားကို တိုင်းပြီး အားကို မတိုင်းပါ။",
+          ],
         ),
       ],
     ),
@@ -35282,6 +35632,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "အလေးချိန်တိုင်းစက္ကား (Balance)",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "She needs to track temperature, not length, time, or mass -- which Week 1 tool is built for that job?",
+            "It's the same instrument Su Su and Thiri both used earlier in this course, giving readings in degrees Celsius.",
+          ],
+          hintsMy: [
+            "သူသည် အလျား၊ အချိန် (သို့) အလေးချိန် မဟုတ်ဘဲ အပူချိန်ကို ခြေရာခံနေသည် -- ပထမပတ်မှ မည်သည့်ကိရိယာက ထိုအလုပ်အတွက် ဖန်တီးထားခြင်းဖြစ်သနည်း။",
+            "၎င်းသည် ဆုဆုနှင့် သီရိတို့ ဤသင်တန်း အစောပိုင်းတွင် အသုံးပြုခဲ့သော ကိရိယာတည်းဖြစ်ပြီး ဒီဂရီစင်တီဂရိတ်ဖြင့် ဖတ်ချက်ပေးသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35296,6 +35654,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "ပလာစမာ (Plasma)",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Even though it's hot, the handle keeps a fixed shape -- which Week 2 state of matter does that describe?",
+            "It's not liquid or gas, which don't hold a fixed shape -- heat alone doesn't change what state something is in.",
+          ],
+          hintsMy: [
+            "ပူနေသော်လည်း လက်ကိုင်သည် ပုံသဏ္ဌာန်အသေကို ထိန်းထားသည် -- ဒုတိယပတ်၏ မည်သည့်ဒြပ်ထုအခြေအနေက ၎င်းကို ဖော်ပြသနည်း။",
+            "၎င်းသည် ပုံသဏ္ဌာန်အသေ မထိန်းနိုင်သော အရည် (သို့) ဓာတ်ငွေ့ မဟုတ်ပါ -- အပူတစ်ခုတည်းက ဒြပ်ထု၏ အခြေအနေကို ချက်ချင်း မပြောင်းလဲစေပါ။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35315,6 +35681,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "ခွက် A ရှိ အနုမြူများသည် လုံးဝ ရွေ့လျားမှု ရပ်တန့်သွားပြီဖြစ်သည်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's particle model -- hotter substances have particles with more of what kind of energy?",
+            "Higher temperature means faster-moving particles with more kinetic energy -- which cup is hotter, A or B?",
+          ],
+          hintsMy: [
+            "ဒုတိယပတ်၏ အနုမြူပုံစံကို သတိရပါ -- ပိုပူသောပစ္စည်းများ၏ အနုမြူများသည် မည်သည့်စွမ်းအင်အမျိုးအစား ပိုများသနည်း။",
+            "အပူချိန်ပိုမြင့်ခြင်းသည် အနုမြူများ ပိုမြန်ရွေ့လျားပြီး ရွေ့လျားစွမ်းအင် ပိုများခြင်းကို ဆိုလိုသည် -- ခွက် A နှင့် B တို့တွင် မည်သည့်ခွက်က ပိုပူသနည်း။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35334,6 +35708,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "ပွတ်တိုက်အားက ဘရိတ်ပက်မှ အပူစွမ်းအင်ကို ဖယ်ရှားပေးသဖြင့် အနုမြူများ ပိုနှေးကွေးစွာ ရွေ့လျားလာသည်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Friction (Week 3) is a force, and the pads getting warmer is a Week 2 particle-model clue -- what does that force do to the particles' energy?",
+            "The bicycle's motion energy doesn't just vanish -- it converts into thermal energy, making particles vibrate and move faster.",
+          ],
+          hintsMy: [
+            "ပွတ်တိုက်အား (တတိယပတ်) သည် အားတစ်မျိုးဖြစ်ပြီး၊ ဘရိတ်ပက်များ ပူလာခြင်းသည် ဒုတိယပတ်၏ အနုမြူပုံစံအချက်ပြသဖြစ်သည် -- ထိုအားက အနုမြူများ၏ စွမ်းအင်ကို မည်သို့ ပြုလုပ်ပေးသနည်း။",
+            "စက်ဘီး၏ ရွေ့လျားစွမ်းအင်သည် ရိုးရိုးရိုး ပျောက်ကွယ်သွားခြင်း မဟုတ်ဘဲ -- အပူစွမ်းအင်အဖြစ် ပြောင်းလဲသွားပြီး အနုမြူများကို ပိုမိုမြန်ဆန်စွာ တုန်ခါရွေ့လျားစေသည်။",
+          ],
         ),
       ],
     ),
@@ -35514,6 +35896,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
               "၎င်းတို့သည် လုံးဝ ပျောက်ကွယ်သွားပြီး ရှိနေခြင်း မရှိတော့ပါ။",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Recall Week 2's particle theory -- as a substance gets hotter, what happens to its particles' speed and energy?",
+              "Hnin remembered this from Week 2 -- the particles gain energy and move faster and faster, eventually escaping as steam.",
+            ],
+            hintsMy: [
+              "ဒုတိယပတ်၏ အနုမြူသီအိုရီကို သတိရပါ -- ပစ္စည်းတစ်ခု ပိုပူလာသည်နှင့်အမျှ ၎င်း၏ အနုမြူများ၏ အမြန်နှုန်းနှင့် စွမ်းအင်တွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+              "နှင်းသည် ဒုတိယပတ်မှ ဤအကြောင်းကို သတိရသည် -- အနုမြူများသည် စွမ်းအင်ရရှိပြီး ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာကာ နောက်ဆုံးတွင် ရေငွေ့အဖြစ် ထွက်ပြေးသွားသည်။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -35528,6 +35918,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
               "၂၁၂ ဒီဂရီစင်တီဂရိတ်",
             ],
             correctIndex: 2,
+            hintsEn: [
+              "This is the same boiling point used consistently since Week 2's kitchen science passage -- much hotter than melting ice.",
+              "Look at the sentence describing the reading climbing steadily until it reached the boiling point of water.",
+            ],
+            hintsMy: [
+              "၎င်းသည် ဒုတိယပတ်၏ မီးဖိုချောင်သိပ္ပံစာပိုဒ်မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော ရေဆူမှတ်တည်းဖြစ်ပြီး၊ ရေခဲပျော်ချိန်ထက် များစွာပူသည်။",
+              "ညွှန်းကိန်းသည် ရေ၏ ဆူမှတ်သို့ တဖြည်းဖြည်း တက်လာသည်ကို ဖော်ပြသောဝါကျကို ကြည့်ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -35547,6 +35945,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
               "သစ်သားသည် သတ္တုထက် အပူကူးနိုင်စွမ်း ပိုကောင်းသောကြောင့် ဇွန်းသည် အမြန်ပူသွားခဲ့သည်။",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Metals are described as excellent at letting heat pass through them -- what is that property called?",
+              "Heat travelled up the metal by conduction, because metal is a good thermal conductor -- not because of wood, or the spoon making its own heat.",
+            ],
+            hintsMy: [
+              "သတ္တုများကို အပူများ ဖြတ်သန်းစေရာတွင် အလွန်ကောင်းမွန်သည်ဟု ဖော်ပြထားသည် -- ထိုဂုဏ်သတ္တိကို အဘယ်ဟုခေါ်သနည်း။",
+              "အပူသည် သတ္တုတစ်လျှောက် အပူကူးခြင်းနည်းလမ်းဖြင့် ခရီးဆက်သွားသည်၊ အဘယ်ကြောင့်ဆိုသော် သတ္တုသည် အပူကူးကောင်းသောပစ္စည်း ဖြစ်သောကြောင့် ဖြစ်သည် -- သစ်သားကြောင့် (သို့) ဇွန်းက ကိုယ်တိုင် အပူထုတ်လုပ်ခြင်းကြောင့် မဟုတ်ပါ။",
+            ],
           ),
           QuizQuestion(
             questionEn:
@@ -35566,6 +35972,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
               "ခွက်၏ အပူချိန်ကြောင့် သူ့ဘာသာ ရွေ့လျားသွားခဲ့သည်။",
             ],
             correctIndex: 0,
+            hintsEn: [
+              "Recall Week 3 -- moving an object like this always requires something applied to it, working against gravity.",
+              "It's a push and lift, moving the cup through a distance -- that's the simple definition of a force from Week 3's Day 1.",
+            ],
+            hintsMy: [
+              "တတိယပတ်ကို သတိရပါ -- ဤကဲ့သို့ အရာဝတ္ထုတစ်ခုကို ရွှေ့ရန် ဆွဲငင်အားကို ဆန့်ကျင်၍ တစ်စုံတစ်ခု အမြဲလိုအပ်သည်။",
+              "၎င်းသည် ခွက်ကို အကွာအဝေးတစ်ခုအထိ ရွှေ့ပြောင်းသော တွန်းအားနှင့် ချီမြှောက်အားဖြစ်သည် -- ၎င်းသည် တတိယပတ် ပထမနေ့မှ အား၏ ရိုးရှင်းသောအဓိပ္ပာယ်ဖွင့်ဆိုချက်ပင် ဖြစ်သည်။",
+            ],
           ),
         ],
       ),
@@ -35598,6 +36012,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "အချိန်တိုင်းကိရိယာ (Stopwatch)",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "This is a straight recall from Week 1's matching activity -- which tool is paired with degrees Celsius?",
+            "It's not the ruler, balance, or stopwatch -- those measure length, mass, and time.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ပထမပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းမှ တိုက်ရိုက် သတိရနိုင်သည့် မေးခွန်းဖြစ်သည် -- ဒီဂရီစင်တီဂရိတ်နှင့် မည်သည့်ကိရိယာ တွဲထားသနည်း။",
+            "၎င်းသည် ပေတံ၊ ချိန်ခွင် (သို့) စတော့ဝပ်ချ် မဟုတ်ပါ -- ထိုကိရိယာများသည် အလျား၊ အလေးချိန်နှင့် အချိန်ကို တိုင်းသည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35612,6 +36034,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "ပလာစမာ (Plasma)",
           ],
           correctIndex: 1,
+          hintsEn: [
+            "This is the same description used in Week 2's Day 1 quiz -- particles that stay close, but aren't locked in place like a solid.",
+            "It's the state that has a fixed volume but no fixed shape -- you can pour it.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ဒုတိယပတ် ပထမနေ့ ပဟေဋ္ဌိတွင် အသုံးပြုခဲ့သော ဖော်ပြချက်တည်းဖြစ်ပြီး -- နီးကပ်စွာနေသော်လည်း အစိုင်အခဲကဲ့သို့ ပုံသေနေရာတွင် မထားသော အနုမြူများ ဖြစ်သည်။",
+            "၎င်းသည် ထုထည်အသေရှိသော်လည်း ပုံသဏ္ဌာန်အသေမရှိသော အခြေအနေဖြစ်သည် -- သွန်းလောင်းနိုင်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35626,6 +36056,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "အရောင်",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "This is Week 3's simplest definition again -- think about the two basic actions that change motion.",
+            "Temperature, mass, and colour are properties of an object -- a force is something you do to an object.",
+          ],
+          hintsMy: [
+            "၎င်းသည် တတိယပတ်၏ အရိုးရှင်းဆုံးအဓိပ္ပာယ်ဖွင့်ဆိုချက်ပင် ဖြစ်ပြီး -- လှုပ်ရှားမှုကို ပြောင်းလဲစေသော အခြေခံလုပ်ဆောင်ချက်နှစ်ခုကို စဉ်းစားပါ။",
+            "အပူချိန်၊ အလေးချိန်နှင့် အရောင်တို့သည် အရာဝတ္ထုတစ်ခု၏ ဂုဏ်သတ္တိများဖြစ်ကြသည် -- အားသည် အရာဝတ္ထုတစ်ခုအပေါ် သင် ပြုလုပ်သည့်အရာဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35645,6 +36083,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "အစိုင်အခဲအဖြစ် ပြောင်းလဲသွားသည်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "As temperature rises, think about what Week 2's particle theory says happens to particle speed and energy.",
+            "It's the same relationship as Hnin's tea -- more heat means the particles gain energy and move faster, not slower or not at all.",
+          ],
+          hintsMy: [
+            "အပူချိန်မြင့်တက်လာသည်နှင့်အမျှ ဒုတိယပတ်၏ အနုမြူသီအိုရီက အနုမြူများ၏ အမြန်နှုန်းနှင့် စွမ်းအင်ကို မည်သို့ ဆိုထားသည်ကို စဉ်းစားပါ။",
+            "၎င်းသည် နှင်း၏ လက်ဖက်ရည်ဥပမာနှင့် တူညီသောဆက်စပ်မှုပင်ဖြစ်သည် -- အပူပိုများခြင်းသည် အနုမြူများ စွမ်းအင်ရရှိပြီး ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာခြင်းကို ဆိုလိုသည်၊ ပိုနှေးလာခြင်း (သို့) လုံးဝမရွေ့လျားခြင်း မဟုတ်ပါ။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35664,6 +36110,14 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "ပွတ်တိုက်အားသည် အနုမြူများအပေါ် ဘာမျှ သက်ရောက်မှု မရှိပါ။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "Friction (Week 3) is the force at work here -- what does that force do to the motion energy of your hands' particles (Week 2)?",
+            "The rubbing motion transfers energy into the skin's particles, making them vibrate faster -- that's exactly what raises thermal energy.",
+          ],
+          hintsMy: [
+            "ပွတ်တိုက်အား (တတိယပတ်) သည် ဤနေရာတွင် အလုပ်လုပ်နေသောအားဖြစ်သည် -- ထိုအားက လက်များ၏ အနုမြူများ (ဒုတိယပတ်) ၏ ရွေ့လျားစွမ်းအင်ကို မည်သို့ ပြုလုပ်ပေးသနည်း။",
+            "ပွတ်တိုက်ခြင်းလှုပ်ရှားမှုက အရေပြားရှိ အနုမြူများထဲသို့ စွမ်းအင် လွှဲပြောင်းပေးသဖြင့် ၎င်းတို့ ပိုမိုမြန်ဆန်စွာ တုန်ခါလာသည် -- ၎င်းသည် အပူစွမ်းအင်ကို မြှင့်တင်ပေးသည့်အချက် အတိအကျပင် ဖြစ်သည်။",
+          ],
         ),
         QuizQuestion(
           questionEn:
@@ -35683,9 +36137,2335 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
             "၎င်းသည် နောင်တွင် အသုံးပြုရန် အနာဂတ်ထဲသို့ ရွှေ့ပြောင်းသွားသည်။",
           ],
           correctIndex: 0,
+          hintsEn: [
+            "The car's motion energy (kinetic energy) doesn't just vanish -- Week 3's friction and Week 2's particle model together explain where it goes.",
+            "It converts into a small, spread-out amount of thermal energy in the car, wheels, and floor -- not into new mass, and not into the future.",
+          ],
+          hintsMy: [
+            "ကားလေး၏ ရွေ့လျားစွမ်းအင် (kinetic energy) သည် ရိုးရိုးရိုး ပျောက်ကွယ်သွားခြင်း မဟုတ်ပါ -- တတိယပတ်၏ ပွတ်တိုက်အားနှင့် ဒုတိယပတ်၏ အနုမြူပုံစံတို့ ပေါင်းစပ်ကာ ၎င်း မည်သည့်နေရာသို့ ရောက်ရှိသွားသည်ကို ရှင်းပြသည်။",
+            "၎င်းသည် ကား၊ ဘီးများနှင့် ကြမ်းပြင်တစ်လျှောက် ပျံ့နှံ့နေသော အနည်းငယ်သာရှိသည့် အပူစွမ်းအင်အဖြစ် ပြောင်းလဲသွားခြင်းဖြစ်ပြီး -- ဒြပ်ထုအသစ်အဖြစ် (သို့) အနာဂတ်ထဲသို့ ပြောင်းလဲသွားခြင်း မဟုတ်ပါ။",
+          ],
         ),
       ],
     ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 2, Week 5: "Elements, Compounds and Mixtures"
+// =====================================================================
+
+/// Week 5 opens Term 2 with a second chemistry strand: classifying pure
+/// substances.
+/// Explicitly calls back to Week 2's particle model -- a compound's atoms
+/// are chemically bonded into one new, uniform kind of particle throughout,
+/// while a mixture's particles stay as their own separate, unbonded types
+/// simply placed side by side -- to explain *why* a compound behaves as a
+/// single new substance but a mixture can be pulled apart again by
+/// physical means (evaporation, filtering, a magnet).
+const CourseWeekDef _secondary1ScienceWeek5 = CourseWeekDef(
+  id: "course-secondary1-science-w5",
+  weekNumber: 5,
+  titleEn: "Elements, Compounds and Mixtures",
+  titleMy: "ဒြပ်စင်များ၊ ဒြပ်ပေါင်းများနှင့် ရောစပ်ပစ္စည်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w5-d1",
+      dayNumber: 1,
+      titleEn: "Elements, Compounds and Mixtures Quiz",
+      titleMy: "ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is an element?",
+          questionMy: "ဒြပ်စင် (Element) ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A pure substance made of only one type of atom, which cannot be broken down into anything simpler by chemical means.",
+            "Any substance that contains more than one type of atom chemically joined together.",
+            "Two or more substances physically combined that each keep their own separate properties.",
+            "Any liquid that is able to dissolve other substances.",
+          ],
+          optionsMy: [
+            "အက်တမ် (atom) တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားပြီး ဓာတုနည်းဖြင့် ၎င်းထက် ရိုးရှင်းသောအရာအဖြစ် ခွဲထုတ်၍မရသော သန့်စင်ပစ္စည်း။",
+            "အက်တမ်တစ်မျိုးထက်ပို၍ ဓာတုနည်းအရ ချိတ်ဆက်ပေါင်းစပ်ထားသော မည်သည့်ပစ္စည်းမဆို။",
+            "ရူပနည်းအရ ပေါင်းစပ်ထားပြီး ၎င်းတို့၏ မူလဂုဏ်သတ္တိများကို သီးခြားစီ ဆက်လက်ထိန်းသိမ်းထားသော ပစ္စည်းနှစ်ခု (သို့) ထို့ထက်ပို၍။",
+            "အခြားပစ္စည်းများကို ပျော်ဝင်စေနိုင်သော မည်သည့်အရည်မဆို။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what makes something the simplest possible 'building block' substance -- chemistry can't break it down any further.",
+            "Rule out anything describing two substances chemically joined (that's a compound) or just physically mixed (that's a mixture) -- an element is neither of those.",
+          ],
+          hintsMy: [
+            "အရာဝတ္ထုတစ်ခုကို အရိုးရှင်းဆုံး 'အုတ်ခဲအခြေခံ' ပစ္စည်းဖြစ်စေသည့်အချက်ကို စဉ်းစားပါ -- ဓာတုနည်းအရ ၎င်းကို ထပ်မံခွဲထုတ်၍ မရနိုင်ပါ။",
+            "ပစ္စည်းနှစ်ခု ဓာတုနည်းအရ ဆက်စပ်နေသည့်အရာ (ဒြပ်ပေါင်းဖြစ်သည်) (သို့) ရူပနည်းအရ ရောနှောထားသည့်အရာ (ရောစပ်ပစ္စည်းဖြစ်သည်) ကို ဖယ်ရှားပါ -- ဒြပ်စင်သည် ထိုနှစ်မျိုးလုံး မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a compound, and why does it count as one?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဒြပ်ပေါင်း (Compound) ဖြစ်သည်မှာ အဘယ်နည်း၊ အဘယ့်ကြောင့် ဒြပ်ပေါင်းအဖြစ် သတ်မှတ်သနည်း။",
+          optionsEn: [
+            "Water (H2O), because it is made of hydrogen and oxygen atoms chemically bonded together into a completely new substance.",
+            "Oxygen gas, because it is made of only one type of atom.",
+            "Salt water, because the salt inside it can be separated out again by evaporation.",
+            "Air, because it contains several different gases mixed together.",
+          ],
+          optionsMy: [
+            "ရေ (H2O)၊ အကြောင်းမှာ ၎င်းသည် ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များ ဓာတုနည်းအရ ဆက်စပ်ပေါင်းစည်းထားသဖြင့် လုံးဝ အသစ်တစ်ခုသော ပစ္စည်းဖြစ်လာခြင်းကြောင့်။",
+            "အောက်ဆီဂျင်ဓာတ်ငွေ့၊ အကြောင်းမှာ ၎င်းသည် အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားသောကြောင့်။",
+            "ဆားရေ၊ အကြောင်းမှာ ၎င်းအတွင်းရှိ ဆားကို အငွေ့ပျံစေခြင်းဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သောကြောင့်။",
+            "လေ၊ အကြောင်းမှာ ၎င်းတွင် မတူညီသော ဓာတ်ငွေ့များစွာ ရောနှောပါဝင်နေသောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A compound must have at least two different elements chemically joined into something new -- which option describes exactly that?",
+            "The other three options either describe a single element, or a mixture that can still be separated back into its original parts by physical means -- water cannot be split back into hydrogen and oxygen that way.",
+          ],
+          hintsMy: [
+            "ဒြပ်ပေါင်းတစ်ခုတွင် ဒြပ်စင်ကွဲပြားနှစ်မျိုးအနည်းဆုံး ဓာတုနည်းအရ ချိတ်ဆက်ကာ အသစ်တစ်ခုသောအရာအဖြစ် ဖြစ်ပေါ်လာရမည် -- မည်သည့်ရွေးချယ်စရာက ထိုအတိုင်း အတိအကျ ဖော်ပြသနည်း။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် ဒြပ်စင်တစ်ခုတည်းကို ဖော်ပြခြင်း (သို့) ရူပနည်းဖြင့် မူလအစိတ်အပိုင်းများအဖြစ် ပြန်လည်ခွဲထုတ်နိုင်သေးသော ရောစပ်ပစ္စည်းကို ဖော်ပြခြင်း ဖြစ်ကြသည် -- ရေကိုမူ ထိုနည်းဖြင့် ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်အဖြစ် ပြန်ခွဲ၍ မရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's particle model, how does the arrangement of particles in a compound like water differ from a mixture like salt water?",
+          questionMy:
+              "ဒုတိယပတ်၏ အနုမြူပုံစံကို သုံး၍ ရေကဲ့သို့ ဒြပ်ပေါင်းတစ်ခုအတွင်း အနုမြူများ၏ အစီအစဉ်သည် ဆားရေကဲ့သို့ ရောစပ်ပစ္စည်းတစ်ခုနှင့် မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "In a compound, atoms of different elements are chemically bonded into one new, identical kind of particle throughout; in a mixture, the particles of each substance stay separate and are only physically mixed together.",
+            "In a compound, particles never touch each other; in a mixture they are always chemically bonded.",
+            "There is no difference -- compounds and mixtures always have identical particle arrangements.",
+            "In a mixture, brand-new molecules always form; in a compound, no bonding of any kind ever occurs.",
+          ],
+          optionsMy: [
+            "ဒြပ်ပေါင်းတစ်ခုတွင် ဒြပ်စင်ကွဲပြားများ၏ အက်တမ်များသည် ဓာတုနည်းအရ ချိတ်ဆက်ပြီး တစ်ခုတည်းသော အနုမြူအမျိုးအစားအသစ်အဖြစ် တစ်ညီတည်း ဖြစ်ပေါ်နေသည်။ ရောစပ်ပစ္စည်းတွင်မူ ပစ္စည်းအသီးသီး၏ အနုမြူများသည် သီးခြားစီ ရှိနေဆဲဖြစ်ပြီး ရူပနည်းအရသာ ရောနှောထားခြင်း ဖြစ်သည်။",
+            "ဒြပ်ပေါင်းတွင် အနုမြူများသည် တစ်ခုနှင့်တစ်ခု လုံးဝ ထိတွေ့မှုမရှိပါ။ ရောစပ်ပစ္စည်းတွင်မူ အမြဲတမ်း ဓာတုနည်းအရ ဆက်စပ်နေသည်။",
+            "ကွာခြားချက် လုံးဝမရှိပါ -- ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းတို့သည် အမြဲတမ်း အနုမြူအစီအစဉ် တူညီကြသည်။",
+            "ရောစပ်ပစ္စည်းတွင် မော်လီကျူးအသစ်များ အမြဲဖြစ်ပေါ်သည်။ ဒြပ်ပေါင်းတွင်မူ မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မဖြစ်ပေါ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's particle model -- a chemical bond joins different atoms into a genuinely new kind of particle, while mixing just places different particles side by side.",
+            "The correct option keeps a compound's particles bonded into one new, uniform molecule type, while a mixture's particles stay as their own separate, unbonded types.",
+          ],
+          hintsMy: [
+            "ဒုတိယပတ်၏ အနုမြူပုံစံကို သတိရပါ -- ဓာတုနည်းအရ ချိတ်ဆက်မှုက အက်တမ်ကွဲပြားများကို အနုမြူအမျိုးအစားအသစ်တစ်ခုအဖြစ် အမှန်တကယ် ဖြစ်ပေါ်စေသော်လည်း ရောနှောခြင်းကမူ အနုမြူကွဲပြားများကို ဘေးချင်းယှဉ်တင်ထားခြင်းသာ ဖြစ်သည်။",
+            "မှန်ကန်သောရွေးချယ်စရာက ဒြပ်ပေါင်း၏ အနုမြူများကို မော်လီကျူးအမျိုးအစားအသစ် တစ်ခုတည်းအဖြစ် ဆက်စပ်ထားပြီး ရောစပ်ပစ္စည်း၏ အနုမြူများကိုမူ ၎င်းတို့၏ သီးခြားဆက်စပ်မှုမရှိသောအမျိုးအစားများအဖြစ် ဆက်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a mixture rather than an element or a compound, and why can it be separated again by physical means?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဒြပ်စင် (သို့) ဒြပ်ပေါင်းမဟုတ်ဘဲ ရောစပ်ပစ္စည်းဖြစ်သည်မှာ အဘယ်နည်း၊ အဘယ့်ကြောင့် ၎င်းကို ရူပနည်းဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သနည်း။",
+          optionsEn: [
+            "Salt water, because the salt is only dissolved in the water, not chemically bonded to it, so evaporation can separate them again.",
+            "Carbon dioxide, because it is made of two elements chemically bonded together in a fixed ratio.",
+            "Iron, because it contains only one type of atom.",
+            "Water, because hydrogen and oxygen are chemically joined inside it.",
+          ],
+          optionsMy: [
+            "ဆားရေ၊ အကြောင်းမှာ ဆားသည် ရေထဲတွင် ပျော်ဝင်နေခြင်းသာဖြစ်ပြီး ရေနှင့် ဓာတုနည်းအရ ဆက်စပ်မထားသောကြောင့် အငွေ့ပျံစေခြင်းဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သောကြောင့်။",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်၊ အကြောင်းမှာ ၎င်းသည် ဒြပ်စင်နှစ်ခု ဓာတုနည်းအရ ဆက်စပ်ပေါင်းစည်းထားခြင်း ဖြစ်သောကြောင့်။",
+            "သံ၊ အကြောင်းမှာ ၎င်းတွင် အက်တမ်တစ်မျိုးတည်းသာ ပါဝင်သောကြောင့်။",
+            "ရေ၊ အကြောင်းမှာ ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်တို့ ၎င်း၏အတွင်း ဓာတုနည်းအရ ဆက်စပ်ထားသောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A mixture is only a physical combination -- its parts keep their own properties and can usually be separated using physical methods like evaporation, filtering, or a magnet.",
+            "The other three options are either a compound (two elements chemically bonded) or an element (only one type of atom) -- neither of those can be separated by simple physical methods.",
+          ],
+          hintsMy: [
+            "ရောစပ်ပစ္စည်းသည် ရူပနည်းအရ ပေါင်းစပ်ထားခြင်းသာ ဖြစ်သည် -- ၎င်း၏ အစိတ်အပိုင်းများသည် မိမိတို့၏ မူလဂုဏ်သတ္တိကို ဆက်ထိန်းထားပြီး အငွေ့ပျံခြင်း၊ စစ်ထုတ်ခြင်း (သို့) သံလိုက်ကဲ့သို့ ရူပနည်းများဖြင့် ပုံမှန်အားဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သည်။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် ဒြပ်ပေါင်း (ဒြပ်စင်နှစ်ခု ဓာတုနည်းအရ ဆက်စပ်ထားသည်) (သို့) ဒြပ်စင် (အက်တမ်တစ်မျိုးတည်းသာ ပါ၀င်သည်) ဖြစ်ကြသည် -- ထိုနှစ်မျိုးလုံးကို ရိုးရှင်းသောရူပနည်းများဖြင့် ခွဲထုတ်၍ မရနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match the Chemistry Terms",
+      titleMy: "ဓာတုဗေဒ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w5-dm-1",
+          termEn: "Element",
+          termMy: "ဒြပ်စင် (Element)",
+          matchEn:
+              "A pure substance made of only one type of atom -- oxygen, iron and carbon are all elements.",
+          matchMy:
+              "အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားသော သန့်စင်ပစ္စည်း -- အောက်ဆီဂျင်၊ သံနှင့် ကာဗွန်တို့သည် ဒြပ်စင်များ ဖြစ်ကြသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w5-dm-2",
+          termEn: "Compound",
+          termMy: "ဒြပ်ပေါင်း (Compound)",
+          matchEn:
+              "Two or more elements chemically bonded together in a fixed ratio, forming a new substance with its own properties -- water (H2O) is a compound of hydrogen and oxygen.",
+          matchMy:
+              "ဒြပ်စင်နှစ်ခု (သို့) ထို့ထက်ပို၍ ပုံသေအချိုးဖြင့် ဓာတုနည်းအရ ဆက်စပ်ပေါင်းစည်းထားပြီး ၎င်း၏ကိုယ်ပိုင်ဂုဏ်သတ္တိရှိသော ပစ္စည်းအသစ်တစ်ခု ဖြစ်ပေါ်လာသည် -- ရေ (H2O) သည် ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်၏ ဒြပ်ပေါင်းဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w5-dm-3",
+          termEn: "Mixture",
+          termMy: "ရောစပ်ပစ္စည်း (Mixture)",
+          matchEn:
+              "A physical combination of two or more substances that keep their own original properties and can be separated by physical means -- air, salt water, and sand mixed with iron filings are all mixtures.",
+          matchMy:
+              "ပစ္စည်းနှစ်ခု (သို့) ထို့ထက်ပို၍ ၎င်းတို့၏ မူလဂုဏ်သတ္တိများကို ဆက်ထိန်းထားလျက် ရူပနည်းအရသာ ပေါင်းစပ်ထားသည့်ပစ္စည်းဖြစ်ပြီး ရူပနည်းများဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သည် -- လေ၊ ဆားရေနှင့် သဲနှင့်သံမှုန့်ရောထားသောပစ္စည်းတို့သည် ရောစပ်ပစ္စည်းများ ဖြစ်ကြသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w5-dm-4",
+          termEn: "Chemical Symbol",
+          termMy: "ဓာတုသင်္ကေတ (Chemical Symbol)",
+          matchEn:
+              "A one- or two-letter code representing one element -- O for oxygen, Fe for iron, C for carbon.",
+          matchMy:
+              "ဒြပ်စင်တစ်ခုကို ကိုယ်စားပြုသော အက္ခရာတစ်လုံး (သို့) နှစ်လုံးပါ သင်္ကေတ -- O သည် အောက်ဆီဂျင်၊ Fe သည် သံ၊ C သည် ကာဗွန်ကို ကိုယ်စားပြုသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w5-dm-5",
+          termEn: "Solution",
+          termMy: "ဒြပ်ရည် (Solution)",
+          matchEn:
+              "A mixture formed when one substance (like salt) dissolves completely and evenly into another (like water).",
+          matchMy:
+              "ပစ္စည်းတစ်ခု (ဆားကဲ့သို့) သည် အခြားပစ္စည်းတစ်ခု (ရေကဲ့သို့) ထဲသို့ အပြည့်အဝနှင့် အညီအမျှ ပျော်ဝင်သောအခါ ဖြစ်ပေါ်လာသော ရောစပ်ပစ္စည်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w5-dm-6",
+          termEn: "Alloy",
+          termMy: "ရောစပ်သတ္တု (Alloy)",
+          matchEn:
+              "A mixture of two or more metals (or a metal and another element) combined for extra strength or usefulness -- steel is an alloy of iron and carbon.",
+          matchMy:
+              "သတ္တုနှစ်မျိုး (သို့) သတ္တုတစ်မျိုးနှင့် အခြားဒြပ်စင်တစ်ခုကို ပိုမိုခိုင်မာအောင် (သို့) အသုံးဝင်စေရန် ပေါင်းစပ်ထားသော ရောစပ်ပစ္စည်း -- သံမဏိ (steel) သည် သံနှင့် ကာဗွန်၏ ရောစပ်သတ္တု ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Element, Compound or Mixture?",
+      titleMy: "စီစစ်ကြမည် - ဒြပ်စင်လား၊ ဒြပ်ပေါင်းလား၊ ရောစပ်ပစ္စည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Element", "Compound", "Mixture"],
+        bucketsMy: ["ဒြပ်စင်", "ဒြပ်ပေါင်း", "ရောစပ်ပစ္စည်း"],
+        items: [
+          SortingItem(
+            id: "s1sci-w5-sort-1",
+            labelEn: "Water (H2O)",
+            labelMy: "ရေ (H2O)",
+            correctBucketEn: "Compound",
+            correctBucketMy: "ဒြပ်ပေါင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-2",
+            labelEn: "Oxygen gas",
+            labelMy: "အောက်ဆီဂျင်ဓာတ်ငွေ့",
+            correctBucketEn: "Element",
+            correctBucketMy: "ဒြပ်စင်",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-3",
+            labelEn: "Salt water",
+            labelMy: "ဆားရေ",
+            correctBucketEn: "Mixture",
+            correctBucketMy: "ရောစပ်ပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-4",
+            labelEn: "Iron (Fe)",
+            labelMy: "သံ (Fe)",
+            correctBucketEn: "Element",
+            correctBucketMy: "ဒြပ်စင်",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-5",
+            labelEn: "Air",
+            labelMy: "လေ",
+            correctBucketEn: "Mixture",
+            correctBucketMy: "ရောစပ်ပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-6",
+            labelEn: "Carbon dioxide (CO2)",
+            labelMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ် (CO2)",
+            correctBucketEn: "Compound",
+            correctBucketMy: "ဒြပ်ပေါင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-7",
+            labelEn: "Sand mixed with iron filings",
+            labelMy: "သဲနှင့် သံမှုန့် ရောထားသောပစ္စည်း",
+            correctBucketEn: "Mixture",
+            correctBucketMy: "ရောစပ်ပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w5-sort-8",
+            labelEn: "Carbon (C)",
+            labelMy: "ကာဗွန် (C)",
+            correctBucketEn: "Element",
+            correctBucketMy: "ဒြပ်စင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nandar's Science Fair Project",
+      titleMy: "စာဖတ်ခြင်း - နန္ဒာ၏ သိပ္ပံပြပွဲ စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar's Science Fair Project",
+        titleMy: "နန္ဒာ၏ သိပ္ပံပြပွဲ စီမံကိန်း",
+        passageEn:
+            "Nandar was preparing a table for the school science fair, sorting kitchen items into three labeled boxes: \"Elements,\" \"Compounds,\" and \"Mixtures.\" She started with a spoonful of table salt dissolving into a glass of water. Once it was fully dissolved, the mixture looked completely clear, but Nandar knew the salt particles were still there, simply spread evenly among the water particles rather than chemically bonded to them. She placed a label reading \"salt water\" into the Mixtures box, remembering that if she let the water evaporate, the salt would be left behind, unchanged.\n\nNext, Nandar looked at the glass of water itself. She remembered Week 2's particle model: inside every water molecule, hydrogen and oxygen atoms are chemically bonded together into one new, identical kind of particle, repeated over and over. That was very different from the salt water mixture, where two separate kinds of particles were simply sitting side by side. Water clearly belonged in the Compounds box.\n\nFor her Elements box, Nandar wrote down oxygen, the gas that living things breathe in, and iron, the metal used to make nails and pans -- both made of just one type of atom, unable to be broken down into anything simpler by chemical means.\n\nFinally, Nandar thought about the air in the room around her. It was a mixture too -- mostly nitrogen and oxygen gases, simply mixed together, each keeping its own separate properties. She smiled, proud that her science fair table now clearly showed the difference between the three groups.",
+        passageMy:
+            "နန္ဒာသည် ကျောင်းသိပ္ပံပြပွဲအတွက် စားပွဲတစ်ခု ပြင်ဆင်နေရာ၊ မီးဖိုချောင်ပစ္စည်းများကို \"ဒြပ်စင်များ\"၊ \"ဒြပ်ပေါင်းများ\" နှင့် \"ရောစပ်ပစ္စည်းများ\" ဟု အမှတ်တံဆိပ်တပ်ထားသော သေတ္တာသုံးလုံးထဲသို့ ခွဲခြားထည့်နေခဲ့သည်။ သူသည် စားပွဲပေါ်ဆားတစ်ဇွန်းကို ရေခွက်တစ်ခုထဲသို့ ပျော်ဝင်စေခြင်းဖြင့် စတင်ခဲ့သည်။ အပြည့်အဝ ပျော်ဝင်သွားသောအခါ ရောစပ်ပစ္စည်းသည် လုံးဝ ကြည်လင်လှသော်လည်း၊ ဆားအနုမြူများသည် ရေအနုမြူများနှင့် ဓာတုနည်းအရ ဆက်စပ်မထားဘဲ အညီအမျှ ပျံ့နှံ့နေဆဲသာဖြစ်ကြောင်း နန္ဒာသိထားသည်။ သူသည် \"ဆားရေ\" ဟူသော အမှတ်တံဆိပ်ကို ရောစပ်ပစ္စည်းသေတ္တာထဲသို့ ထည့်လိုက်ပြီး၊ ရေကို အငွေ့ပျံစေလိုက်ပါက ဆားသည် မပြောင်းလဲဘဲ ကျန်ရစ်လိမ့်မည်ကို သတိရမိသည်။\n\nထို့နောက် နန္ဒာသည် ရေခွက်ကိုယ်တိုင်ကို ကြည့်ခဲ့သည်။ သူသည် ဒုတိယပတ်၏ အနုမြူပုံစံကို သတိရမိသည် - ရေမော်လီကျူးတိုင်းအတွင်းတွင် ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များသည် ဓာတုနည်းအရ ဆက်စပ်ကာ တစ်ညီတည်းသော အနုမြူအမျိုးအစားအသစ်တစ်ခုအဖြစ် ထပ်ခါထပ်ခါ ဖြစ်ပေါ်နေသည်။ ၎င်းသည် အနုမြူကွဲပြားနှစ်မျိုး ဘေးချင်းယှဉ်တင်ထားသည့် ဆားရေရောစပ်ပစ္စည်းနှင့် လုံးဝ ကွာခြားနေသည်။ ရေသည် ဒြပ်ပေါင်းသေတ္တာထဲသို့ ရှင်းရှင်းလင်းလင်း ဝင်ရမည်ဖြစ်သည်။\n\nဒြပ်စင်သေတ္တာအတွက် နန္ဒာသည် သက်ရှိများ ရှူသွင်းသော ဓာတ်ငွေ့ဖြစ်သော အောက်ဆီဂျင်နှင့် သံမှုနှင့်ဒယ်အိုးများပြုလုပ်ရာတွင် အသုံးပြုသော သတ္တုဖြစ်သော သံကို ရေးမှတ်ခဲ့သည် -- နှစ်ခုစလုံးသည် အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားပြီး ဓာတုနည်းဖြင့် ၎င်းထက် ရိုးရှင်းသောအရာအဖြစ် ခွဲထုတ်၍ မရနိုင်ပါ။\n\nနောက်ဆုံးတွင် နန္ဒာသည် အခန်းအတွင်းရှိ လေအကြောင်း စဉ်းစားမိသည်။ ၎င်းသည်လည်း ရောစပ်ပစ္စည်းတစ်ခု ဖြစ်သည် -- အများစုမှာ နိုက်ထရိုဂျင်နှင့် အောက်ဆီဂျင်ဓာတ်ငွေ့များ ရောနှောထားခြင်းဖြစ်ပြီး၊ တစ်ခုစီသည် ၎င်း၏ သီးခြားဂုဏ်သတ္တိကို ဆက်ထိန်းထားသည်။ သူသည် သူ့သိပ္ပံပြပွဲစားပွဲသည် ယခုအခါ အုပ်စုသုံးစု၏ ကွာခြားချက်ကို ရှင်းလင်းစွာ ပြသနေပြီဖြစ်၍ ပြုံးမိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Nandar place salt water into the Mixtures box instead of the Compounds box?",
+            questionMy:
+                "နန္ဒာသည် ဆားရေကို ဒြပ်ပေါင်းသေတ္တာအစား ရောစပ်ပစ္စည်းသေတ္တာထဲသို့ အဘယ့်ကြောင့် ထည့်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because the salt particles are only spread evenly among the water, not chemically bonded to it, and can be separated again by evaporation.",
+              "Because salt water cannot be separated by any method.",
+              "Because salt is a compound and water is an element.",
+              "Because salt water is actually a single new element.",
+            ],
+            optionsMy: [
+              "ဆားအနုမြူများသည် ရေထဲတွင် အညီအမျှ ပျံ့နှံ့နေသည်သာ ဖြစ်ပြီး ဓာတုနည်းအရ ဆက်စပ်မထားဘဲ အငွေ့ပျံစေခြင်းဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သောကြောင့်။",
+              "ဆားရေကို မည်သည့်နည်းလမ်းဖြင့်မျှ ခွဲထုတ်၍ မရသောကြောင့်။",
+              "ဆားသည် ဒြပ်ပေါင်းဖြစ်ပြီး ရေသည် ဒြပ်စင်ဖြစ်သောကြောင့်။",
+              "ဆားရေသည် အမှန်တကယ် ဒြပ်စင်အသစ်တစ်ခုတည်း ဖြစ်သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- what does Nandar notice happens to the salt particles once they dissolve, and what would happen if the water evaporated?",
+              "A mixture's parts stay separate and can be pulled apart by physical means like evaporation -- that's exactly what the passage describes for salt water.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆားအနုမြူများ ပျော်ဝင်ပြီးနောက် မည်သို့ ဖြစ်သွားကြောင်း၊ ရေကို အငွေ့ပျံစေလျှင် မည်သို့ ဖြစ်လိမ့်မည်ကို နန္ဒာ မည်သို့ သတိရသနည်း။",
+              "ရောစပ်ပစ္စည်း၏ အစိတ်အပိုင်းများသည် သီးခြားစီ ရှိနေပြီး အငွေ့ပျံခြင်းကဲ့သို့ ရူပနည်းများဖြင့် ပြန်လည်ခွဲထုတ်နိုင်သည် -- ဤသည်မှာ ဆားရေအတွက် စာပိုဒ်တွင် အတိအကျ ဖော်ပြထားသည့်အချက်ပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Week 2's particle model mentioned in the passage, what is special about the particles inside a water molecule?",
+            questionMy:
+                "စာပိုဒ်တွင် ဖော်ပြထားသော ဒုတိယပတ်၏ အနုမြူပုံစံအရ ရေမော်လီကျူးတစ်ခုအတွင်းရှိ အနုမြူများ၏ အထူးအချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Hydrogen and oxygen atoms are chemically bonded together into one new, identical kind of particle, repeated throughout the water.",
+              "The particles are completely unrelated to each other and float freely without any bonding.",
+              "The particles are exactly the same as salt particles in salt water.",
+              "There are no particles at all inside water.",
+            ],
+            optionsMy: [
+              "ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များသည် ဓာတုနည်းအရ ဆက်စပ်ကာ တစ်ညီတည်းသော အနုမြူအမျိုးအစားအသစ်တစ်ခုအဖြစ် ရေတစ်ခုလုံးတွင် ထပ်ခါထပ်ခါ ဖြစ်ပေါ်နေသည်။",
+              "အနုမြူများသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်ဘဲ ဆက်စပ်မှုမရှိဘဲ လွတ်လပ်စွာ ပေါ်လွင်နေသည်။",
+              "အနုမြူများသည် ဆားရေထဲရှိ ဆားအနုမြူများနှင့် အတိအကျ တူညီသည်။",
+              "ရေအတွင်းတွင် အနုမြူဟူ၍ လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Look at the second paragraph, where Nandar recalls Week 2's particle model applied to water -- how does it describe hydrogen and oxygen atoms combining?",
+              "The key idea is chemical bonding into one repeated new particle type, not free-floating unrelated particles or a resemblance to salt particles.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ကြည့်ပါ -- ရေတွင်အသုံးချထားသော ဒုတိယပတ်၏ အနုမြူပုံစံကို နန္ဒာ မည်သို့ သတိရသနည်း -- ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များ ပေါင်းစပ်ပုံကို မည်သို့ ဖော်ပြထားသနည်း။",
+              "အဓိကအချက်မှာ ဓာတုနည်းအရ ဆက်စပ်ကာ ထပ်ခါထပ်ခါဖြစ်ပေါ်သော အနုမြူအမျိုးအစားအသစ်တစ်ခုသို့ ရောက်ရှိခြင်းဖြစ်ပြီး၊ လွတ်လပ်စွာ ပေါ်လွင်နေသည့် မသက်ဆိုင်သောအနုမြူများ (သို့) ဆားအနုမြူနှင့် တူညီခြင်း မဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Nandar place both oxygen and iron into the Elements box?",
+            questionMy:
+                "နန္ဒာသည် အောက်ဆီဂျင်နှင့် သံ နှစ်မျိုးလုံးကို ဒြပ်စင်သေတ္တာထဲသို့ အဘယ့်ကြောင့် ထည့်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because both are made of just one type of atom and cannot be broken down into anything simpler by chemical means.",
+              "Because both are mixtures of several gases.",
+              "Because both are dissolved in water.",
+              "Because both are compounds made of two elements.",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားပြီး ဓာတုနည်းဖြင့် ၎င်းထက် ရိုးရှင်းသောအရာအဖြစ် ခွဲထုတ်၍ မရသောကြောင့်။",
+              "နှစ်ခုစလုံးသည် ဓာတ်ငွေ့များစွာ၏ ရောစပ်ပစ္စည်းများ ဖြစ်သောကြောင့်။",
+              "နှစ်ခုစလုံးသည် ရေထဲတွင် ပျော်ဝင်နေသောကြောင့်။",
+              "နှစ်ခုစလုံးသည် ဒြပ်စင်နှစ်ခုဖြင့် ဖွဲ့စည်းထားသော ဒြပ်ပေါင်းများ ဖြစ်သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- what single feature does the passage say both oxygen and iron share?",
+              "It's the same definition of element from Day 1's quiz: only one type of atom, not further breakable by chemical means.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အောက်ဆီဂျင်နှင့် သံ နှစ်ခုလုံးတွင် ဘုံတူညီသောအချက် တစ်ခုကို စာပိုဒ်က မည်သို့ ဖော်ပြထားသနည်း။",
+              "၎င်းသည် ပထမနေ့ ပဟေဋ္ဌိမှ ဒြပ်စင်၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ပင် ဖြစ်သည် - အက်တမ်တစ်မျိုးတည်းသာ ရှိပြီး ဓာတုနည်းဖြင့် ထပ်မံခွဲ၍ မရနိုင်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What did Nandar conclude about the air in the room?",
+            questionMy:
+                "အခန်းအတွင်းရှိ လေနှင့်ပတ်သက်၍ နန္ဒာ မည်သို့ ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "It is a mixture, mostly of nitrogen and oxygen gases, each keeping its own separate properties.",
+              "It is a single element made of only one type of atom.",
+              "It is a compound formed by nitrogen and oxygen chemically bonding together.",
+              "It contains no gases at all.",
+            ],
+            optionsMy: [
+              "၎င်းသည် ရောစပ်ပစ္စည်းတစ်ခုဖြစ်ပြီး၊ အများစုမှာ နိုက်ထရိုဂျင်နှင့် အောက်ဆီဂျင်ဓာတ်ငွေ့များ ဖြစ်ကာ တစ်ခုစီသည် ၎င်း၏သီးခြားဂုဏ်သတ္တိကို ဆက်ထိန်းထားသည်။",
+              "၎င်းသည် အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားသော ဒြပ်စင်တစ်ခုတည်း ဖြစ်သည်။",
+              "၎င်းသည် နိုက်ထရိုဂျင်နှင့် အောက်ဆီဂျင် ဓာတုနည်းအရ ဆက်စပ်ပေါင်းစည်းထားသော ဒြပ်ပေါင်းတစ်ခု ဖြစ်သည်။",
+              "၎င်းတွင် ဓာတ်ငွေ့ဟူ၍ လုံးဝ မပါဝင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Look at the final paragraph -- does the passage describe the gases in air as chemically bonded together, or simply mixed while keeping their own properties?",
+              "Air is described the same way as salt water and sand-with-iron-filings earlier in the week -- substances mixed but not bonded.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ကြည့်ပါ -- လေထဲရှိ ဓာတ်ငွေ့များကို ဓာတုနည်းအရ ဆက်စပ်ထားသည်ဟု ဖော်ပြထားပါသလား၊ သို့မဟုတ် ၎င်းတို့၏ ဂုဏ်သတ္တိများကို ဆက်ထိန်းထားလျက် ရောနှောထားသည်ဟု ဖော်ပြထားပါသလား။",
+              "လေကို ဤအပတ်အစောပိုင်းက ဆားရေနှင့် သဲ-သံမှုန့်ရောထားသောပစ္စည်းကဲ့သို့ ရောနှောထားသော်လည်း ဆက်စပ်မထားသည့်ပစ္စည်းအဖြစ် ဖော်ပြထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Elements, Compounds and Mixtures",
+      titleMy:
+          "အပတ်စဉ် ၅ ပြန်လည်သုံးသပ်ခြင်း - ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of these is an element?",
+          questionMy: "အောက်ပါတို့အနက် ဒြပ်စင်ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["Iron", "Water", "Salt water", "Air"],
+          optionsMy: ["သံ", "ရေ", "ဆားရေ", "လေ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Three of these options are either a compound or a mixture -- one is a substance made of only one type of atom.",
+            "Recall the sorting activity: iron went into the Element bucket, alongside oxygen and carbon.",
+          ],
+          hintsMy: [
+            "ဤရွေးချယ်စရာသုံးခုသည် ဒြပ်ပေါင်း (သို့) ရောစပ်ပစ္စည်း ဖြစ်ကြသည် -- တစ်ခုကမူ အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားသော ပစ္စည်းဖြစ်သည်။",
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ - သံသည် အောက်ဆီဂျင်နှင့် ကာဗွန်တို့နှင့်အတူ ဒြပ်စင်ကန်ထဲသို့ ဝင်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why is water classified as a compound?",
+          questionMy: "ရေကို အဘယ့်ကြောင့် ဒြပ်ပေါင်းအဖြစ် သတ်မှတ်သနည်း။",
+          optionsEn: [
+            "Because hydrogen and oxygen atoms are chemically bonded together into a new substance.",
+            "Because it is made of only one type of atom.",
+            "Because it is a physical mixture of two gases.",
+            "Because it can be separated by evaporation back into hydrogen and oxygen.",
+          ],
+          optionsMy: [
+            "ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များ ဓာတုနည်းအရ ဆက်စပ်ကာ ပစ္စည်းအသစ်တစ်ခု ဖြစ်ပေါ်လာသောကြောင့်။",
+            "အက်တမ်တစ်မျိုးတည်းဖြင့်သာ ဖွဲ့စည်းထားသောကြောင့်။",
+            "ဓာတ်ငွေ့နှစ်မျိုး၏ ရူပနည်းအရ ရောစပ်ပစ္စည်းဖြစ်သောကြောင့်။",
+            "အငွေ့ပျံစေခြင်းဖြင့် ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်အဖြစ် ပြန်လည်ခွဲထုတ်နိုင်သောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A compound requires a chemical bond between two or more different elements -- which option describes that?",
+            "Evaporation only separates mixtures, not compounds -- water cannot be un-bonded that easily.",
+          ],
+          hintsMy: [
+            "ဒြပ်ပေါင်းတစ်ခုတွင် ဒြပ်စင်ကွဲပြားနှစ်ခုကြား ဓာတုနည်းအရ ဆက်စပ်မှု လိုအပ်သည် -- မည်သည့်ရွေးချယ်စရာက ထိုအချက်ကို ဖော်ပြသနည်း။",
+            "အငွေ့ပျံခြင်းသည် ရောစပ်ပစ္စည်းများကိုသာ ခွဲထုတ်နိုင်ပြီး ဒြပ်ပေါင်းများကို ခွဲထုတ်၍ မရပါ -- ရေကို ထိုသို့လွယ်ကူစွာ ဆက်စပ်မှုမှ ခွဲ၍မရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a mixture and a compound in terms of separation?",
+          questionMy:
+              "ခွဲထုတ်ခြင်းအရ ရောစပ်ပစ္စည်းနှင့် ဒြပ်ပေါင်းကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A mixture can be separated back into its original substances by physical means; a compound requires a chemical reaction to break its bonds.",
+            "A compound can be separated by physical means, but a mixture cannot be separated at all.",
+            "Both can be separated equally easily by evaporation.",
+            "Neither can ever be separated, once formed.",
+          ],
+          optionsMy: [
+            "ရောစပ်ပစ္စည်းကို ရူပနည်းများဖြင့် မူလပစ္စည်းများအဖြစ် ပြန်လည်ခွဲထုတ်နိုင်သော်လည်း ဒြပ်ပေါင်းကိုမူ ၎င်း၏ဆက်စပ်မှုများကို ဖြိုခွဲရန် ဓာတုတုန့်ပြန်မှု လိုအပ်သည်။",
+            "ဒြပ်ပေါင်းကို ရူပနည်းများဖြင့် ခွဲထုတ်နိုင်သော်လည်း ရောစပ်ပစ္စည်းကိုမူ လုံးဝ ခွဲထုတ်၍ မရပါ။",
+            "နှစ်ခုစလုံးကို အငွေ့ပျံခြင်းဖြင့် အလွယ်တကူ ခွဲထုတ်နိုင်သည်။",
+            "ဖြစ်ပေါ်လာပြီးနောက် နှစ်ခုစလုံးကို လုံးဝ ပြန်ခွဲ၍ မရနိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back to salt water (a mixture) versus water itself (a compound) -- which one just needed evaporation, and which one would need a chemical reaction?",
+            "Physical separation (evaporation, filtering, a magnet) works on mixtures; breaking a compound's chemical bonds is a much bigger job.",
+          ],
+          hintsMy: [
+            "ဆားရေ (ရောစပ်ပစ္စည်း) နှင့် ရေကိုယ်တိုင် (ဒြပ်ပေါင်း) ကို ပြန်စဉ်းစားပါ -- မည်သည့်တစ်ခုက အငွေ့ပျံခြင်းသာ လိုအပ်ပြီး မည်သည့်တစ်ခုက ဓာတုတုန့်ပြန်မှု လိုအပ်မည်နည်း။",
+            "ရူပနည်းခွဲထုတ်ခြင်း (အငွေ့ပျံခြင်း၊ စစ်ထုတ်ခြင်း၊ သံလိုက်) သည် ရောစပ်ပစ္စည်းများအတွက် အသုံးဝင်ပြီး ဒြပ်ပေါင်း၏ ဓာတုနည်းဆက်စပ်မှုများကို ဖြိုခွဲခြင်းမှာ ပိုမိုကြီးမားသော အလုပ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a mixture?",
+          questionMy: "အောက်ပါတို့အနက် ရောစပ်ပစ္စည်းဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Sand mixed with iron filings",
+            "Carbon dioxide",
+            "Oxygen gas",
+            "Iron",
+          ],
+          optionsMy: [
+            "သဲနှင့် သံမှုန့် ရောထားသောပစ္စည်း",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+            "အောက်ဆီဂျင်ဓာတ်ငွေ့",
+            "သံ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Two of these options are elements (single type of atom) and one is a compound (two elements chemically bonded) -- which one is left over as a mixture?",
+            "A magnet can separate sand from iron filings -- that only works because they were never chemically bonded together.",
+          ],
+          hintsMy: [
+            "ရွေးချယ်စရာနှစ်ခုသည် ဒြပ်စင်များ (အက်တမ်တစ်မျိုးတည်း) ဖြစ်ပြီး တစ်ခုသည် ဒြပ်ပေါင်း (ဒြပ်စင်နှစ်ခု ဓာတုနည်းအရ ဆက်စပ်ထားသည်) ဖြစ်သည် -- ကျန်တစ်ခုက ရောစပ်ပစ္စည်း ဖြစ်သည်။",
+            "သံလိုက်ဖြင့် သံမှုန့်ကို သဲမှ ခွဲထုတ်နိုင်သည် -- ၎င်းတို့ ဓာတုနည်းအရ လုံးဝ ဆက်စပ်မထားသောကြောင့်သာ ထိုသို့ဖြစ်နိုင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a compound's chemical symbol or formula, such as H2O, tell us?",
+          questionMy:
+              "H2O ကဲ့သို့ ဒြပ်ပေါင်းတစ်ခု၏ ဓာတုသင်္ကေတ (သို့) ဖော်မြူလာသည် ငါတို့အား မည်သည့်အချက်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Which elements are chemically bonded together, and in what fixed ratio, to form that compound.",
+            "The exact temperature at which the compound was formed.",
+            "How much the compound weighs in kilograms.",
+            "Whether the compound is a mixture or not.",
+          ],
+          optionsMy: [
+            "မည်သည့်ဒြပ်စင်များ မည်သည့်ပုံသေအချိုးဖြင့် ဓာတုနည်းအရ ဆက်စပ်ကာ ထိုဒြပ်ပေါင်းကို ဖြစ်ပေါ်စေသည်ဆိုသည့်အချက်။",
+            "ဒြပ်ပေါင်းဖြစ်ပေါ်ခဲ့သော အတိအကျအပူချိန်။",
+            "ဒြပ်ပေါင်း၏ ကီလိုဂရမ်ဖြင့် အလေးချိန်။",
+            "ဒြပ်ပေါင်းသည် ရောစပ်ပစ္စည်းဟုတ်၊ မဟုတ်ဆိုသည့်အချက်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "H2O tells you exactly which two elements are present (hydrogen and oxygen) and their fixed ratio -- two hydrogen atoms for every one oxygen atom.",
+            "It's not about temperature, weight, or whether it's a mixture -- a formula is purely about which elements and how many of each.",
+          ],
+          hintsMy: [
+            "H2O သည် မည်သည့်ဒြပ်စင်နှစ်ခု ပါဝင်သည် (ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်) နှင့် ၎င်းတို့၏ ပုံသေအချိုး -- ဟိုက်ဒရိုဂျင်အက်တမ်နှစ်ခုလျှင် အောက်ဆီဂျင်တစ်ခုစီ ရှိကြောင်း ပြသသည်။",
+            "၎င်းသည် အပူချိန်၊ အလေးချိန် (သို့) ရောစပ်ပစ္စည်းဟုတ်မဟုတ်နှင့် မသက်ဆိုင်ပါ -- ဖော်မြူလာတစ်ခုသည် မည်သည့်ဒြပ်စင်များ မည်မျှစီ ပါဝင်သည်ဆိုသည့်အချက်အတွက်သာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student mixes sand and iron filings together, then separates them again using a magnet. What does this show about their combination?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် သဲနှင့် သံမှုန့်ကို ရောထားပြီး သံလိုက်ဖြင့် ပြန်လည်ခွဲထုတ်ခဲ့သည်။ ၎င်းတို့၏ ပေါင်းစပ်မှုအကြောင်း ဤအချက်က မည်သို့ ပြသနေသနည်း။",
+          optionsEn: [
+            "It was a mixture -- the sand and iron were never chemically bonded, so a physical method (a magnet) could pull them apart again.",
+            "It was a compound -- sand and iron chemically bonded into a new substance.",
+            "It was a single element made of one type of atom.",
+            "It cannot be separated at all, so this experiment is impossible.",
+          ],
+          optionsMy: [
+            "ဤသည်မှာ ရောစပ်ပစ္စည်းတစ်ခု ဖြစ်သည် -- သဲနှင့် သံသည် ဓာတုနည်းအရ လုံးဝ ဆက်စပ်မထားသောကြောင့် ရူပနည်း (သံလိုက်) ဖြင့် ပြန်လည်ခွဲထုတ်နိုင်ခဲ့ခြင်း ဖြစ်သည်။",
+            "ဤသည်မှာ ဒြပ်ပေါင်းတစ်ခု ဖြစ်သည် -- သဲနှင့် သံသည် ဓာတုနည်းအရ ဆက်စပ်ကာ ပစ္စည်းအသစ်တစ်ခု ဖြစ်ပေါ်လာခြင်း ဖြစ်သည်။",
+            "ဤသည်မှာ အက်တမ်တစ်မျိုးတည်းဖြင့် ဖွဲ့စည်းထားသော ဒြပ်စင်တစ်ခုတည်း ဖြစ်သည်။",
+            "၎င်းကို လုံးဝ ခွဲထုတ်၍ မရနိုင်သောကြောင့် ဤစမ်းသပ်မှုသည် မဖြစ်နိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Day 3's exact sorting example -- what bucket did sand mixed with iron filings go into, and why could it be pulled apart with a magnet?",
+            "Only substances that are only physically combined (not chemically bonded) can be separated by a simple tool like a magnet.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ တတိယနေ့၏ စီစစ်ဥပမာအတိအကျပင် ဖြစ်သည် -- သဲနှင့် သံမှုန့် ရောထားသောပစ္စည်းသည် မည်သည့်ကန်ထဲသို့ ဝင်ခဲ့ပြီး သံလိုက်ဖြင့် အဘယ့်ကြောင့် ခွဲထုတ်နိုင်ခဲ့သနည်း။",
+            "ရူပနည်းအရသာ ပေါင်းစပ်ထား (ဓာတုနည်းအရ ဆက်စပ်မထား) သော ပစ္စည်းများကိုသာ သံလိုက်ကဲ့သို့ ရိုးရှင်းသောကိရိယာဖြင့် ခွဲထုတ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 2, Week 6: "Acids, Bases and Indicators"
+// =====================================================================
+
+/// Week 6 closes the term's chemistry strand with acids, bases (alkalis)
+/// and the pH scale, explicitly calling back to Week 5's mixtures/compounds
+/// framing -- many everyday acids (like vinegar) and bases (like baking
+/// soda solution) are a compound dissolved in water, i.e. a mixture whose
+/// dissolved compound can, in principle, be recovered by evaporation, even
+/// though the compound itself is what gives the solution its acidic or
+/// basic behaviour. No exact pH values are asserted for real-world
+/// examples beyond the well-established scale bounds (0-14) and the
+/// neutral point (7) -- household examples are described only
+/// qualitatively (e.g. "strongly acidic," "mildly basic").
+const CourseWeekDef _secondary1ScienceWeek6 = CourseWeekDef(
+  id: "course-secondary1-science-w6",
+  weekNumber: 6,
+  titleEn: "Acids, Bases and Indicators",
+  titleMy: "အက်ဆစ်များ၊ ဘေ့စ်များနှင့် အညွှန်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w6-d1",
+      dayNumber: 1,
+      titleEn: "Acids, Bases and pH Quiz",
+      titleMy: "အက်ဆစ်၊ ဘေ့စ်နှင့် pH ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does the pH scale measure, and what are its bounds?",
+          questionMy:
+              "pH စကေးသည် အဘယ်အရာကို တိုင်းတာပြီး ၎င်း၏ အနားသတ်များမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "How acidic, neutral, or basic (alkaline) a substance is, on a scale from 0 to 14, with 7 being neutral.",
+            "The exact temperature of a substance, on a scale from 0°C to 100°C.",
+            "The mass of a substance, on a scale from 0 to 14 kilograms.",
+            "How much a substance weighs compared to water, from 0 to 14 newtons.",
+          ],
+          optionsMy: [
+            "ပစ္စည်းတစ်ခု မည်မျှ အက်ဆစ်ဓာတ်ရှိ၊ ကြားနေ၊ (သို့) ဘေ့စ်ဓာတ်ရှိသည်ကို ၀ မှ ၁၄ အထိ စကေးဖြင့် ဖော်ပြခြင်းဖြစ်ပြီး ၇ သည် ကြားနေဖြစ်သည်။",
+            "ပစ္စည်းတစ်ခု၏ အတိအကျအပူချိန်ကို ဒီဂရီစင်တီဂရိတ် ၀ မှ ၁၀၀ အထိ စကေးဖြင့် ဖော်ပြခြင်း။",
+            "ပစ္စည်းတစ်ခု၏ အလေးချိန်ကို ၀ မှ ၁၄ ကီလိုဂရမ်အထိ စကေးဖြင့် ဖော်ပြခြင်း။",
+            "ပစ္စည်းတစ်ခု ရေနှင့်နှိုင်းယှဉ်လျှင် မည်မျှလေးသည်ကို နယူတန် ၀ မှ ၁၄ အထိ ဖော်ပြခြင်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This scale is specifically about acids and bases, not about temperature or mass -- which option fits that description?",
+            "Recall that the middle of the scale represents neither acidic nor basic -- what number sits exactly in the middle of 0 and 14?",
+          ],
+          hintsMy: [
+            "ဤစကေးသည် အပူချိန် (သို့) အလေးချိန်နှင့် မသက်ဆိုင်ဘဲ အက်ဆစ်နှင့် ဘေ့စ်များအကြောင်းသာ ဖြစ်သည် -- မည်သည့်ရွေးချယ်စရာက ထိုဖော်ပြချက်နှင့် ကိုက်ညီသနည်း။",
+            "စကေး၏ အလယ်ဗဟိုသည် အက်ဆစ်မှုတ်၊ ဘေ့စ်မဟုတ်သည့်အချက်ကို ကိုယ်စားပြုကြောင်း သတိရပါ -- ၀ နှင့် ၁၄ ၏ အလယ်တွင် တည်ရှိသောဂဏန်းမှာ အဘယ်နည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which statement correctly compares acids and bases (alkalis)?",
+          questionMy:
+              "အက်ဆစ်များနှင့် ဘေ့စ်များ (အယ်လကာလီများ) ကို မှန်ကန်စွာ နှိုင်းယှဉ်ထားသည့်ဖော်ပြချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Acids have a pH below 7 and turn blue litmus paper red; bases have a pH above 7 and turn red litmus paper blue.",
+            "Acids have a pH above 7; bases have a pH below 7.",
+            "Both acids and bases always have a pH of exactly 7.",
+            "Acids and bases cannot be told apart using litmus paper.",
+          ],
+          optionsMy: [
+            "အက်ဆစ်များသည် pH ၇ ထက်နည်းပြီး ပြာသောလစ်မတ်စ်စက္ကူကို အနီရောင်ပြောင်းစေသည်။ ဘေ့စ်များသည် pH ၇ ထက်များပြီး နီသောလစ်မတ်စ်စက္ကူကို အပြာရောင်ပြောင်းစေသည်။",
+            "အက်ဆစ်များသည် pH ၇ ထက်များပြီး ဘေ့စ်များသည် pH ၇ ထက်နည်းသည်။",
+            "အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးလုံးသည် pH အတိအကျ ၇ ရှိသည်။",
+            "လစ်မတ်စ်စက္ကူကို အသုံးပြု၍ အက်ဆစ်နှင့် ဘေ့စ်ကို ခွဲခြားနိုင်ခြင်း လုံးဝမရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall which side of the pH scale (below or above 7) belongs to acids, and which belongs to bases.",
+            "Litmus paper changes color differently for each -- one color change signals acid, the opposite change signals base.",
+          ],
+          hintsMy: [
+            "pH စကေး၏ မည်သည့်ဘက် (၇ ထက်နည်း (သို့) ၇ ထက်များ) သည် အက်ဆစ်များအတွက်ဖြစ်ပြီး မည်သည့်ဘက်က ဘေ့စ်များအတွက်ဖြစ်သည်ကို သတိရပါ။",
+            "လစ်မတ်စ်စက္ကူသည် တစ်ခုစီအတွက် မတူညီသော အရောင်ပြောင်းလဲမှုကို ပြသည် -- အရောင်ပြောင်းလဲမှုတစ်ခုက အက်ဆစ်ကို၊ ဆန့်ကျင်ဘက် ပြောင်းလဲမှုက ဘေ့စ်ကို ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is the best example of a substance that is roughly neutral?",
+          questionMy:
+              "အောက်ပါတို့အနက် ခန့်မှန်းခြေ ကြားနေဖြစ်သော ပစ္စည်း၏ အကောင်းဆုံးဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Pure water",
+            "Lemon juice",
+            "Soap",
+            "Baking soda dissolved in water",
+          ],
+          optionsMy: [
+            "သန့်စင်ရေ",
+            "ရှောက်သီးရည်",
+            "ဆပ်ပြာ",
+            "ရေတွင် ပျော်ဝင်ထားသော အဆိုက်မီးဖုတ်ဆား (baking soda)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Neutral means neither acidic nor basic -- which of these four is famously used as the reference point right in the middle of the pH scale?",
+            "The other three options are commonly known to be acidic or basic, not neutral.",
+          ],
+          hintsMy: [
+            "ကြားနေဆိုသည်မှာ အက်ဆစ်မဟုတ်၊ ဘေ့စ်မဟုတ်ဆိုသည့်အနက်ဖြစ်သည် -- ဤလေးမျိုးအနက် မည်သည့်တစ်ခုကို pH စကေး၏ အလယ်တွင် ကိုးကားစံနှုန်းအဖြစ် ကျော်ကြားစွာ အသုံးပြုသနည်း။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် အက်ဆစ် (သို့) ဘေ့စ်ဖြစ်ကြောင်း အများသိကြသော ပစ္စည်းများဖြစ်ပြီး ကြားနေ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the difference between litmus paper and universal indicator as tools for testing pH?",
+          questionMy:
+              "pH စမ်းသပ်ရန် ကိရိယာများအဖြစ် လစ်မတ်စ်စက္ကူနှင့် ယူနီဗာဆယ်လ်အညွှန်း (universal indicator) ကြား ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Litmus paper only shows whether a substance is acidic or basic through a color change; universal indicator shows a range of colors that can estimate an approximate pH value across the whole scale.",
+            "Litmus paper measures temperature, while universal indicator measures mass.",
+            "They are exactly the same tool with different names.",
+            "Universal indicator only works on solids, while litmus paper only works on liquids.",
+          ],
+          optionsMy: [
+            "လစ်မတ်စ်စက္ကူသည် အရောင်ပြောင်းလဲမှုတစ်ခုတည်းဖြင့် ပစ္စည်းတစ်ခု အက်ဆစ်ဟုတ်မဟုတ် (သို့) ဘေ့စ်ဟုတ်မဟုတ်သာ ပြသနိုင်ပြီး၊ ယူနီဗာဆယ်လ်အညွှန်းသည် pH တန်ဖိုးခန့်မှန်းနိုင်သည့် အရောင်အမျိုးမျိုးကို စကေးတစ်ခုလုံးတစ်လျှောက် ပြသနိုင်သည်။",
+            "လစ်မတ်စ်စက္ကူသည် အပူချိန်ကို တိုင်းပြီး ယူနီဗာဆယ်လ်အညွှန်းက အလေးချိန်ကို တိုင်းသည်။",
+            "၎င်းတို့သည် အမည်သာ ကွဲပြားသော ကိရိယာတူတူပင် ဖြစ်ကြသည်။",
+            "ယူနီဗာဆယ်လ်အညွှန်းသည် အစိုင်အခဲများတွင်သာ အလုပ်လုပ်ပြီး လစ်မတ်စ်စက္ကူသည် အရည်များတွင်သာ အလုပ်လုပ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about how much detail each tool gives you -- one just tells you acid-or-base, the other gives a fuller color range across the scale.",
+            "Rule out the options describing temperature, mass, or solid/liquid-only tools -- both are really about testing acidity/basicity, just with different levels of detail.",
+          ],
+          hintsMy: [
+            "ကိရိယာတစ်ခုစီက မည်မျှအသေးစိတ် အချက်အလက်ပေးသည်ကို စဉ်းစားပါ -- တစ်ခုက အက်ဆစ်ဟုတ်၊ ဘေ့စ်ဟုတ်ကိုသာ ပြောပြီး အခြားတစ်ခုက စကေးတစ်လျှောက် ပိုမိုပြည့်စုံသော အရောင်များ ပြသသည်။",
+            "အပူချိန်၊ အလေးချိန် (သို့) အစိုင်အခဲ/အရည် တစ်ခုတည်းအတွက်သာ ဆိုသည့် ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- နှစ်ခုစလုံးသည် အက်ဆစ်ဓာတ်/ဘေ့စ်ဓာတ်ကို စမ်းသပ်ခြင်းနှင့်သာ သက်ဆိုင်ပြီး အသေးစိတ်ဆင့်ခံမှသာ ကွာခြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match the Acid/Base Substances",
+      titleMy: "အက်ဆစ်/ဘေ့စ် ပစ္စည်းများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w6-dm-1",
+          termEn: "Lemon Juice",
+          termMy: "ရှောက်သီးရည်",
+          matchEn:
+              "A strongly acidic substance -- turns blue litmus paper red.",
+          matchMy:
+              "အလွန်အက်ဆစ်ဓာတ်ရှိသော ပစ္စည်း -- ပြာသောလစ်မတ်စ်စက္ကူကို အနီရောင် ပြောင်းစေသည်။",
+          colorValue: 0xFFF2C94C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w6-dm-2",
+          termEn: "Vinegar",
+          termMy: "ရှာလကာရည်",
+          matchEn:
+              "An acidic mixture -- the compound acetic acid dissolved in water, also turning blue litmus red.",
+          matchMy:
+              "အက်ဆစ်ဓာတ်ရှိသော ရောစပ်ပစ္စည်း -- ရေတွင် ပျော်ဝင်ထားသော ဒြပ်ပေါင်းဖြစ်သည့် အသက်တစ် အက်ဆစ် (acetic acid) ဖြစ်ပြီး ပြာသောလစ်မတ်စ်စက္ကူကိုလည်း အနီရောင် ပြောင်းစေသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w6-dm-3",
+          termEn: "Soap",
+          termMy: "ဆပ်ပြာ",
+          matchEn:
+              "A basic (alkaline) substance -- turns red litmus paper blue.",
+          matchMy:
+              "ဘေ့စ်ဓာတ် (အယ်လကာလီ) ရှိသော ပစ္စည်း -- နီသောလစ်မတ်စ်စက္ကူကို အပြာရောင် ပြောင်းစေသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w6-dm-4",
+          termEn: "Baking Soda Solution",
+          termMy: "အဆိုက်မီးဖုတ်ဆား ရေပျော်ရည်",
+          matchEn:
+              "A mildly basic mixture, made by dissolving the compound sodium bicarbonate in water.",
+          matchMy:
+              "ဒြပ်ပေါင်းဖြစ်သည့် ဆိုဒီယမ်ဘိုင်ကာဗွန်နိတ် (sodium bicarbonate) ကို ရေတွင် ပျော်ဝင်စေခြင်းဖြင့် ဖြစ်ပေါ်လာသော အနည်းငယ် ဘေ့စ်ဓာတ်ရှိသည့် ရောစပ်ပစ္စည်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w6-dm-5",
+          termEn: "Pure Water",
+          termMy: "သန့်စင်ရေ",
+          matchEn:
+              "A neutral substance, right in the middle of the pH scale -- neither acidic nor basic.",
+          matchMy:
+              "pH စကေး၏ အလယ်ဗဟိုတွင် တည်ရှိသော ကြားနေပစ္စည်း -- အက်ဆစ်မဟုတ်၊ ဘေ့စ်မဟုတ်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w6-dm-6",
+          termEn: "Universal Indicator",
+          termMy: "ယူနီဗာဆယ်လ်အညွှန်း (Universal Indicator)",
+          matchEn:
+              "A tool that turns a range of colors across the whole pH scale, letting you estimate how strongly acidic or basic a substance is.",
+          matchMy:
+              "pH စကေးတစ်ခုလုံးတစ်လျှောက် အရောင်အမျိုးမျိုး ပြောင်းလဲပြသသော ကိရိယာဖြစ်ပြီး ပစ္စည်းတစ်ခု မည်မျှ အားကောင်းသော အက်ဆစ် (သို့) ဘေ့စ်ဖြစ်သည်ကို ခန့်မှန်းနိုင်စေသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acidic, Neutral or Basic?",
+      titleMy: "စီစစ်ကြမည် - အက်ဆစ်ဓာတ်လား၊ ကြားနေလား၊ ဘေ့စ်ဓာတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Acidic", "Neutral", "Basic (Alkaline)"],
+        bucketsMy: ["အက်ဆစ်ဓာတ်ရှိ", "ကြားနေ", "ဘေ့စ်ဓာတ်ရှိ (အယ်လကာလီ)"],
+        items: [
+          SortingItem(
+            id: "s1sci-w6-sort-1",
+            labelEn: "Lemon juice",
+            labelMy: "ရှောက်သီးရည်",
+            correctBucketEn: "Acidic",
+            correctBucketMy: "အက်ဆစ်ဓာတ်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-2",
+            labelEn: "Vinegar",
+            labelMy: "ရှာလကာရည်",
+            correctBucketEn: "Acidic",
+            correctBucketMy: "အက်ဆစ်ဓာတ်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-3",
+            labelEn: "Orange juice",
+            labelMy: "လိမ္မော်သီးရည်",
+            correctBucketEn: "Acidic",
+            correctBucketMy: "အက်ဆစ်ဓာတ်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-4",
+            labelEn: "Pure water",
+            labelMy: "သန့်စင်ရေ",
+            correctBucketEn: "Neutral",
+            correctBucketMy: "ကြားနေ",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-5",
+            labelEn: "Table salt solution",
+            labelMy: "ဆားရေပျော်ရည်",
+            correctBucketEn: "Neutral",
+            correctBucketMy: "ကြားနေ",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-6",
+            labelEn: "Soap",
+            labelMy: "ဆပ်ပြာ",
+            correctBucketEn: "Basic (Alkaline)",
+            correctBucketMy: "ဘေ့စ်ဓာတ်ရှိ (အယ်လကာလီ)",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-7",
+            labelEn: "Baking soda solution",
+            labelMy: "အဆိုက်မီးဖုတ်ဆား ရေပျော်ရည်",
+            correctBucketEn: "Basic (Alkaline)",
+            correctBucketMy: "ဘေ့စ်ဓာတ်ရှိ (အယ်လကာလီ)",
+          ),
+          SortingItem(
+            id: "s1sci-w6-sort-8",
+            labelEn: "Toothpaste",
+            labelMy: "သွားတိုက်ဆေး",
+            correctBucketEn: "Basic (Alkaline)",
+            correctBucketMy: "ဘေ့စ်ဓာတ်ရှိ (အယ်လကာလီ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Kyaw's Indicator Experiment",
+      titleMy: "စာဖတ်ခြင်း - ကျော်ကျော်၏ အညွှန်း စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Kyaw's Indicator Experiment",
+        titleMy: "ကျော်ကျော်၏ အညွှန်း စမ်းသပ်မှု",
+        passageEn:
+            "For his science homework, Kyaw Kyaw collected six household liquids to test: lemon juice, vinegar, pure water, soapy water, a baking soda solution, and orange juice. He dipped a strip of blue litmus paper and a strip of red litmus paper into each one, watching carefully for any color change.\n\nThe lemon juice turned the blue litmus paper red immediately, and so did the vinegar. Kyaw Kyaw remembered Week 5's lesson: vinegar isn't a single pure substance -- it's a mixture, because the compound acetic acid is simply dissolved in water rather than chemically bonded to it. Even so, that dissolved acetic acid was clearly acidic, just like the lemon juice.\n\nThe pure water changed neither strip of litmus paper at all, confirming it was neutral -- right in the middle of the pH scale, neither acidic nor basic. The soapy water and the baking soda solution both turned the red litmus paper blue, showing they were basic, or alkaline.\n\nCurious for more detail, Kyaw Kyaw then dipped strips of universal indicator paper into each liquid instead. Unlike the simple litmus paper, the universal indicator showed a whole range of colors -- a warm red-orange for the strongly acidic lemon juice and vinegar, green for the neutral pure water, and blue-purple for the more strongly basic baking soda solution. Kyaw Kyaw wrote in his notebook that universal indicator was more useful when he wanted to compare how strongly acidic or basic different liquids were, not just whether they were acidic or basic at all.",
+        passageMy:
+            "ကျော်ကျော်သည် သိပ္ပံအိမ်စာအတွက် အိမ်သုံးအရည်ခြောက်မျိုးကို စုဆောင်း၍ စမ်းသပ်ခဲ့သည် - ရှောက်သီးရည်၊ ရှာလကာရည်၊ သန့်စင်ရေ၊ ဆပ်ပြာရေ၊ အဆိုက်မီးဖုတ်ဆားရေပျော်ရည်နှင့် လိမ္မော်သီးရည်။ သူသည် ပြာသောလစ်မတ်စ်စက္ကူနှင့် နီသောလစ်မတ်စ်စက္ကူတစ်ချပ်စီကို အရည်တစ်ခုစီထဲသို့ နှစ်ထည့်ကာ အရောင်ပြောင်းလဲမှုကို ဂရုတစိုက် ကြည့်ရှုခဲ့သည်။\n\nရှောက်သီးရည်သည် ပြာသောလစ်မတ်စ်စက္ကူကို ချက်ချင်း အနီရောင် ပြောင်းစေခဲ့ပြီး ရှာလကာရည်ကလည်း ထိုနည်းတူပင် ဖြစ်ခဲ့သည်။ ကျော်ကျော်သည် ပဉ္စမပတ်၏ သင်ခန်းစာကို သတိရမိသည် - ရှာလကာရည်သည် သန့်စင်ပစ္စည်းတစ်ခုတည်း မဟုတ်ပါ -- ၎င်းသည် ရောစပ်ပစ္စည်းတစ်ခု ဖြစ်သည်၊ အကြောင်းမှာ ဒြပ်ပေါင်းဖြစ်သည့် အသက်တစ်အက်ဆစ်သည် ရေနှင့် ဓာတုနည်းအရ ဆက်စပ်မထားဘဲ ရေထဲတွင် ပျော်ဝင်နေသည်သာ ဖြစ်သောကြောင့်ဖြစ်သည်။ သို့သော် ထိုပျော်ဝင်နေသော အသက်တစ်အက်ဆစ်သည် ရှောက်သီးရည်ကဲ့သို့ပင် ရှင်းလင်းစွာ အက်ဆစ်ဓာတ်ရှိခဲ့သည်။\n\nသန့်စင်ရေသည် လစ်မတ်စ်စက္ကူ နှစ်ချပ်စလုံးကို လုံးဝ မပြောင်းလဲစေခဲ့သဖြင့် ၎င်းသည် ကြားနေဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည် -- pH စကေး၏ အလယ်ဗဟိုတွင် တည်ရှိပြီး အက်ဆစ်မဟုတ်၊ ဘေ့စ်မဟုတ်ပါ။ ဆပ်ပြာရေနှင့် အဆိုက်မီးဖုတ်ဆားရေပျော်ရည် နှစ်မျိုးစလုံးသည် နီသောလစ်မတ်စ်စက္ကူကို အပြာရောင် ပြောင်းစေခဲ့ပြီး ၎င်းတို့ ဘေ့စ်ဓာတ် (အယ်လကာလီ) ရှိကြောင်း ပြသခဲ့သည်။\n\nပိုမိုအသေးစိတ် သိလိုသဖြင့် ကျော်ကျော်သည် ယူနီဗာဆယ်လ်အညွှန်းစက္ကူများကို အရည်တစ်ခုစီထဲသို့ ထပ်မံနှစ်ထည့်ခဲ့သည်။ ရိုးရှင်းသောလစ်မတ်စ်စက္ကူနှင့် မတူဘဲ၊ ယူနီဗာဆယ်လ်အညွှန်းသည် အရောင်အမျိုးမျိုးကို ပြသခဲ့သည် -- အလွန်အက်ဆစ်ဓာတ်ရှိသော ရှောက်သီးရည်နှင့် ရှာလကာရည်အတွက် နွေးထွေးသော အနီ-လိမ္မော်ရောင်၊ ကြားနေဖြစ်သော သန့်စင်ရေအတွက် အစိမ်းရောင်၊ ပိုမိုအားကောင်းသော ဘေ့စ်ဓာတ်ရှိသည့် အဆိုက်မီးဖုတ်ဆားရေပျော်ရည်အတွက် အပြာ-ခရမ်းရောင်။ ကျော်ကျော်သည် သူ့မှတ်စုစာအုပ်ထဲတွင် ယူနီဗာဆယ်လ်အညွှန်းသည် အရည်များ မည်မျှအားကောင်းသော အက်ဆစ် (သို့) ဘေ့စ်ဖြစ်သည်ကို နှိုင်းယှဉ်လိုသောအခါတွင် ပိုမို အသုံးဝင်ကြောင်း ရေးမှတ်ခဲ့သည်၊ အက်ဆစ်ဟုတ်၊ ဘေ့စ်ဟုတ်ဟူသည်ကိုသာ သိလိုသည့်အခါ မဟုတ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Kyaw Kyaw call vinegar a mixture rather than a single pure substance?",
+            questionMy:
+                "ကျော်ကျော်သည် ရှာလကာရည်ကို သန့်စင်ပစ္စည်းတစ်ခုတည်းအစား ရောစပ်ပစ္စည်းဟု အဘယ့်ကြောင့် ခေါ်ဆိုခဲ့သနည်း။",
+            optionsEn: [
+              "Because the compound acetic acid is dissolved in water, not chemically bonded to it.",
+              "Because vinegar is actually a single element.",
+              "Because vinegar contains no water at all.",
+              "Because vinegar cannot change the color of litmus paper.",
+            ],
+            optionsMy: [
+              "ဒြပ်ပေါင်းဖြစ်သည့် အသက်တစ်အက်ဆစ်သည် ရေနှင့် ဓာတုနည်းအရ ဆက်စပ်မထားဘဲ ရေထဲတွင် ပျော်ဝင်နေသောကြောင့်။",
+              "ရှာလကာရည်သည် အမှန်တကယ် ဒြပ်စင်တစ်ခုတည်း ဖြစ်သောကြောင့်။",
+              "ရှာလကာရည်တွင် ရေ လုံးဝ မပါဝင်သောကြောင့်။",
+              "ရှာလကာရည်သည် လစ်မတ်စ်စက္ကူ၏ အရောင်ကို ပြောင်းလဲနိုင်ခြင်း မရှိသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- what does the passage say about how acetic acid and water are combined in vinegar?",
+              "This is Week 5's mixture-versus-compound idea applied to vinegar -- dissolved, not chemically bonded.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရှာလကာရည်ထဲတွင် အသက်တစ်အက်ဆစ်နှင့် ရေတို့ မည်သို့ ပေါင်းစပ်ထားကြောင်း စာပိုဒ်က မည်သို့ ဖော်ပြသနည်း။",
+              "ဤသည်မှာ ပဉ္စမပတ်၏ ရောစပ်ပစ္စည်းနှင့် ဒြပ်ပေါင်း ကွာခြားချက်အယူအဆကို ရှာလကာရည်တွင် အသုံးချထားခြင်း ဖြစ်သည် -- ပျော်ဝင်ထားခြင်းသာ ဖြစ်ပြီး ဓာတုနည်းအရ ဆက်စပ်ထားခြင်း မဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happened when Kyaw Kyaw dipped litmus paper into the pure water?",
+            questionMy:
+                "ကျော်ကျော်သည် လစ်မတ်စ်စက္ကူကို သန့်စင်ရေထဲသို့ နှစ်ချလိုက်ချိန် မည်သို့ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Neither strip of litmus paper changed color, confirming the water was neutral.",
+              "Both strips turned red, showing the water was strongly acidic.",
+              "Both strips turned blue, showing the water was strongly basic.",
+              "The litmus paper dissolved completely in the water.",
+            ],
+            optionsMy: [
+              "လစ်မတ်စ်စက္ကူ နှစ်ချပ်စလုံး အရောင် လုံးဝ မပြောင်းလဲခဲ့ဘဲ ရေသည် ကြားနေဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+              "စက္ကူနှစ်ချပ်စလုံး အနီရောင် ပြောင်းလဲသွားပြီး ရေသည် အလွန်အက်ဆစ်ဓာတ်ရှိကြောင်း ပြသသည်။",
+              "စက္ကူနှစ်ချပ်စလုံး အပြာရောင် ပြောင်းလဲသွားပြီး ရေသည် အလွန်ဘေ့စ်ဓာတ်ရှိကြောင်း ပြသသည်။",
+              "လစ်မတ်စ်စက္ကူသည် ရေထဲတွင် လုံးဝ ပျော်ဝင်သွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- did either litmus strip change color when dipped in the pure water?",
+              "No color change on either strip is exactly what you'd expect from something sitting right in the middle of the pH scale.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သန့်စင်ရေထဲသို့ နှစ်ချလိုက်ချိန် လစ်မတ်စ်စက္ကူ တစ်ချပ်ချပ် အရောင် ပြောင်းလဲခဲ့ပါသလား။",
+              "စက္ကူနှစ်ချပ်စလုံး အရောင်မပြောင်းခြင်းသည် pH စကေး၏ အလယ်ဗဟိုတွင်ရှိသောအရာတစ်ခုထံမှ မျှော်မှန်းရမည့်အတိုင်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What extra information did universal indicator give Kyaw Kyaw that plain litmus paper could not?",
+            questionMy:
+                "ရိုးရှင်းသောလစ်မတ်စ်စက္ကူ ပြသနိုင်ခဲ့ခြင်းမရှိသော အပိုအချက်အလက်ကို ယူနီဗာဆယ်လ်အညွှန်းက ကျော်ကျော်အား မည်သို့ ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A range of colors letting him compare how strongly acidic or basic different liquids were, not just whether they were acidic or basic.",
+              "The exact mass of each liquid in grams.",
+              "The exact temperature of each liquid.",
+              "Nothing -- it gave exactly the same information as litmus paper.",
+            ],
+            optionsMy: [
+              "အရည်များ မည်မျှအားကောင်းသော အက်ဆစ် (သို့) ဘေ့စ်ဖြစ်သည်ကို နှိုင်းယှဉ်နိုင်စေသော အရောင်အမျိုးမျိုး -- အက်ဆစ်ဟုတ်၊ ဘေ့စ်ဟုတ်ဟူသည်ကိုသာ ပြသခြင်း မဟုတ်ပါ။",
+              "အရည်တစ်ခုစီ၏ အတိအကျအလေးချိန်ကို ဂရမ်ဖြင့်။",
+              "အရည်တစ်ခုစီ၏ အတိအကျအပူချိန်။",
+              "ဘာမျှ မပေးပါ -- လစ်မတ်စ်စက္ကူနှင့် အတိအကျ အချက်အလက်တူတူသာ ပေးခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- what did Kyaw Kyaw write in his notebook about why universal indicator was more useful?",
+              "It's not about mass or temperature -- it's about comparing the strength of acidity or basicity across different liquids.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ယူနီဗာဆယ်လ်အညွှန်း ပိုမိုအသုံးဝင်သည့်အကြောင်းရင်းကို ကျော်ကျော် သူ့မှတ်စုစာအုပ်တွင် မည်သို့ ရေးမှတ်ခဲ့သနည်း။",
+              "၎င်းသည် အလေးချိန် (သို့) အပူချိန်နှင့် မသက်ဆိုင်ပါ -- အရည်အမျိုးမျိုးအကြား အက်ဆစ်ဓာတ် (သို့) ဘေ့စ်ဓာတ် အားကောင်းမှုကို နှိုင်းယှဉ်ခြင်းနှင့် သက်ဆိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which color did universal indicator show for the strongly acidic liquids?",
+            questionMy:
+                "စာပိုဒ်အရ အလွန်အက်ဆစ်ဓာတ်ရှိသော အရည်များအတွက် ယူနီဗာဆယ်လ်အညွှန်းက မည်သည့်အရောင်ကို ပြသခဲ့သနည်း။",
+            optionsEn: [
+              "A warm red-orange color",
+              "Green",
+              "Blue-purple",
+              "It stayed completely colorless",
+            ],
+            optionsMy: [
+              "နွေးထွေးသော အနီ-လိမ္မော်ရောင်",
+              "အစိမ်းရောင်",
+              "အပြာ-ခရမ်းရောင်",
+              "လုံးဝ အရောင်ကင်းမဲ့နေခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Look at the fourth paragraph, where the passage lists a different color for each type of liquid -- which color belongs to the lemon juice and vinegar?",
+              "Green was for the neutral water, and blue-purple was for the basic solution -- the acidic liquids got a different color entirely.",
+            ],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ကို ကြည့်ပါ -- စာပိုဒ်က အရည်အမျိုးအစားတစ်ခုစီအတွက် မတူညီသောအရောင်ကို ဖော်ပြထားသည် -- ရှောက်သီးရည်နှင့် ရှာလကာရည်အတွက် မည်သည့်အရောင် သက်ဆိုင်သနည်း။",
+              "အစိမ်းရောင်သည် ကြားနေရေအတွက်ဖြစ်ပြီး အပြာ-ခရမ်းရောင်သည် ဘေ့စ်ရောပျော်ရည်အတွက် ဖြစ်သည် -- အက်ဆစ်ဓာတ်ရှိသော အရည်များက လုံးဝ မတူသောအရောင်ကို ရရှိခဲ့သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Acids, Bases and Indicators",
+      titleMy: "အပတ်စဉ် ၆ ပြန်လည်သုံးသပ်ခြင်း - အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What pH value represents a neutral substance?",
+          questionMy:
+              "ကြားနေပစ္စည်းတစ်ခုကို ကိုယ်စားပြုသော pH တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["7", "0", "14", "100"],
+          optionsMy: ["၇", "၀", "၁၄", "၁၀၀"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the pH scale runs from 0 to 14 -- neutral sits exactly halfway between those two bounds.",
+            "0 is the most acidic end, 14 is the most basic end, and 100 isn't even on this scale at all.",
+          ],
+          hintsMy: [
+            "pH စကေးသည် ၀ မှ ၁၄ အထိ ရှိကြောင်း သတိရပါ -- ကြားနေသည် ထိုအနားသတ်နှစ်ခု၏ အတိအကျအလယ်တွင် ရှိသည်။",
+            "၀ သည် အက်ဆစ်ဓာတ် အားအကြီးဆုံးအစွန်းဖြစ်ပြီး ၁၄ သည် ဘေ့စ်ဓာတ် အားအကြီးဆုံးအစွန်းဖြစ်ကာ ၁၀၀ မှာမူ ဤစကေးပေါ်တွင် လုံးဝ မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which color change on blue litmus paper indicates an acidic substance?",
+          questionMy:
+              "ပြာသောလစ်မတ်စ်စက္ကူတွင် မည်သည့်အရောင်ပြောင်းလဲမှုက အက်ဆစ်ဓာတ်ရှိသော ပစ္စည်းကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "It turns red",
+            "It turns blue (stays the same)",
+            "It turns green",
+            "It turns colorless",
+          ],
+          optionsMy: [
+            "အနီရောင် ပြောင်းလဲသည်",
+            "အပြာရောင် ဆက်နေသည် (မပြောင်းလဲပါ)",
+            "အစိမ်းရောင် ပြောင်းလဲသည်",
+            "အရောင်ကင်းမဲ့သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kyaw Kyaw's experiment -- what happened to blue litmus paper when he dipped it in lemon juice and vinegar?",
+            "An acid turns blue litmus red; if it stayed blue, that would suggest a basic or neutral substance instead.",
+          ],
+          hintsMy: [
+            "ကျော်ကျော်၏ စမ်းသပ်မှုကို သတိရပါ -- ရှောက်သီးရည်နှင့် ရှာလကာရည်ထဲသို့ ပြာသောလစ်မတ်စ်စက္ကူကို နှစ်ချလိုက်ချိန် မည်သို့ ဖြစ်ခဲ့သနည်း။",
+            "အက်ဆစ်သည် ပြာသောလစ်မတ်စ်ကို အနီရောင်ပြောင်းစေသည် -- အပြာရောင်ဆက်ရှိနေလျှင် ဘေ့စ် (သို့) ကြားနေပစ္စည်းဖြစ်နိုင်ကြောင်း ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is vinegar considered acidic even though it is a mixture, not a single pure substance?",
+          questionMy:
+              "ရှာလကာရည်သည် သန့်စင်ပစ္စည်းတစ်ခုတည်း မဟုတ်ဘဲ ရောစပ်ပစ္စည်းတစ်ခုဖြစ်သော်လည်း အဘယ့်ကြောင့် အက်ဆစ်ဓာတ်ရှိသည်ဟု ယူဆသနည်း။",
+          optionsEn: [
+            "The compound acetic acid dissolved inside it is what gives the mixture its acidic properties.",
+            "Mixtures can never be acidic or basic, only elements can.",
+            "Vinegar contains no compounds at all.",
+            "Vinegar is actually a single element, not a mixture.",
+          ],
+          optionsMy: [
+            "၎င်း၏အတွင်းတွင် ပျော်ဝင်နေသော ဒြပ်ပေါင်းဖြစ်သည့် အသက်တစ်အက်ဆစ်သည် ရောစပ်ပစ္စည်းအား အက်ဆစ်ဂုဏ်သတ္တိ ရရှိစေသည့်အရာဖြစ်သည်။",
+            "ရောစပ်ပစ္စည်းများသည် အက်ဆစ် (သို့) ဘေ့စ်ဓာတ် လုံးဝ မရှိနိုင်ပါ၊ ဒြပ်စင်များသာ ရှိနိုင်သည်။",
+            "ရှာလကာရည်တွင် ဒြပ်ပေါင်း လုံးဝ မပါဝင်ပါ။",
+            "ရှာလကာရည်သည် အမှန်တကယ် ဒြပ်စင်တစ်ခုတည်း ဖြစ်ပြီး ရောစပ်ပစ္စည်း မဟုတ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's framing -- a mixture can still show the acidic behaviour of a compound dissolved inside it, even though the mixture itself can be separated back into its parts.",
+            "Vinegar's acidity comes from the dissolved acetic acid, not from the water it's dissolved in.",
+          ],
+          hintsMy: [
+            "ပဉ္စမပတ်၏ ဖော်ပြချက်ကို သတိရပါ -- ရောစပ်ပစ္စည်းတစ်ခုသည် ၎င်း၏အတွင်းရှိ ပျော်ဝင်နေသော ဒြပ်ပေါင်း၏ အက်ဆစ်ဂုဏ်သတ္တိကို ဆက်လက်ပြသနိုင်သည်၊ ရောစပ်ပစ္စည်းကိုယ်တိုင်ကို မူလအစိတ်အပိုင်းများအဖြစ် ပြန်လည်ခွဲထုတ်နိုင်သော်လည်း။",
+            "ရှာလကာရည်၏ အက်ဆစ်ဂုဏ်သတ္တိသည် ပျော်ဝင်နေသော အသက်တစ်အက်ဆစ်မှ ဖြစ်ပေါ်လာခြင်းဖြစ်ပြီး ၎င်းပျော်ဝင်နေသောရေမှ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is best described as basic (alkaline)?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဘေ့စ်ဓာတ်ရှိသည် (အယ်လကာလီ) ဟု အကောင်းဆုံးဖော်ပြနိုင်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Baking soda solution",
+            "Lemon juice",
+            "Vinegar",
+            "Orange juice",
+          ],
+          optionsMy: [
+            "အဆိုက်မီးဖုတ်ဆား ရေပျော်ရည်",
+            "ရှောက်သီးရည်",
+            "ရှာလကာရည်",
+            "လိမ္မော်သီးရည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Three of these options are acidic, well known for their sour taste -- one of them turns red litmus paper blue instead.",
+            "Recall the sorting activity -- baking soda solution went into the Basic (Alkaline) bucket.",
+          ],
+          hintsMy: [
+            "ရွေးချယ်စရာသုံးခုသည် ချဉ်သောအရသာဖြင့် ကျော်ကြားသော အက်ဆစ်ဓာတ်ရှိသည့်ပစ္စည်းများ ဖြစ်ကြသည် -- တစ်ခုကမူ နီသောလစ်မတ်စ်စက္ကူကို အပြာရောင် ပြောင်းစေသည်။",
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- အဆိုက်မီးဖုတ်ဆားရေပျော်ရည်သည် ဘေ့စ်ဓာတ်ရှိ (အယ်လကာလီ) ကန်ထဲသို့ ဝင်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student tests an unknown liquid with universal indicator and sees it turn green. What does this tell them?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် အမည်မသိအရည်တစ်ခုကို ယူနီဗာဆယ်လ်အညွှန်းဖြင့် စမ်းသပ်ရာ အစိမ်းရောင် ပြောင်းလဲသွားသည်ကို တွေ့ရသည်။ ၎င်းက ၎င်းတို့အား မည်သို့ ညွှန်ပြနေသနည်း။",
+          optionsEn: [
+            "The liquid is roughly neutral, close to pH 7.",
+            "The liquid is a strong acid, close to pH 0.",
+            "The liquid is a strong base, close to pH 14.",
+            "The liquid contains no water at all.",
+          ],
+          optionsMy: [
+            "အရည်သည် ခန့်မှန်းခြေ ကြားနေဖြစ်ပြီး pH ၇ နှင့် နီးစပ်သည်။",
+            "အရည်သည် အားကောင်းသောအက်ဆစ်ဖြစ်ပြီး pH ၀ နှင့် နီးစပ်သည်။",
+            "အရည်သည် အားကောင်းသောဘေ့စ်ဖြစ်ပြီး pH ၁၄ နှင့် နီးစပ်သည်။",
+            "အရည်တွင် ရေ လုံးဝ မပါဝင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kyaw Kyaw's experiment -- which color did universal indicator show for his neutral pure water?",
+            "Green sat between the red-orange of strong acids and the blue-purple of strong bases -- right around the neutral middle of the scale.",
+          ],
+          hintsMy: [
+            "ကျော်ကျော်၏ စမ်းသပ်မှုကို သတိရပါ -- ၎င်း၏ ကြားနေဖြစ်သော သန့်စင်ရေအတွက် ယူနီဗာဆယ်လ်အညွှန်းက မည်သည့်အရောင်ကို ပြသခဲ့သနည်း။",
+            "အစိမ်းရောင်သည် အားကောင်းသောအက်ဆစ်များ၏ အနီ-လိမ္မော်ရောင်နှင့် အားကောင်းသောဘေ့စ်များ၏ အပြာ-ခရမ်းရောင်တို့ကြား၊ စကေး၏ ကြားနေအလယ်ဗဟိုနီးပါးတွင် ရှိနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which pair correctly matches the litmus paper color and the type of substance?",
+          questionMy:
+              "လစ်မတ်စ်စက္ကူ၏ အရောင်နှင့် ပစ္စည်းအမျိုးအစားကို မှန်ကန်စွာ တွဲထားသည့် အတွဲမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Blue litmus turning red means acidic; red litmus turning blue means basic.",
+            "Blue litmus turning red means basic; red litmus turning blue means acidic.",
+            "Litmus paper turns the same color for both acids and bases.",
+            "Litmus paper only works on solids, never on liquids.",
+          ],
+          optionsMy: [
+            "ပြာသောလစ်မတ်စ် အနီရောင်ပြောင်းလျှင် အက်ဆစ်ဓာတ်ရှိသည်ဟု ဆိုလိုသည်။ နီသောလစ်မတ်စ် အပြာရောင်ပြောင်းလျှင် ဘေ့စ်ဓာတ်ရှိသည်ဟု ဆိုလိုသည်။",
+            "ပြာသောလစ်မတ်စ် အနီရောင်ပြောင်းလျှင် ဘေ့စ်ဓာတ်ရှိသည်ဟု ဆိုလိုသည်။ နီသောလစ်မတ်စ် အပြာရောင်ပြောင်းလျှင် အက်ဆစ်ဓာတ်ရှိသည်ဟု ဆိုလိုသည်။",
+            "လစ်မတ်စ်စက္ကူသည် အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးစလုံးအတွက် တူညီသောအရောင်ကို ပြောင်းလဲသည်။",
+            "လစ်မတ်စ်စက္ကူသည် အစိုင်အခဲများတွင်သာ အလုပ်လုပ်ပြီး အရည်များတွင် လုံးဝ အလုပ်မလုပ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Day 1's core fact -- pair each litmus color with acid or base carefully, they are opposite pairings, not the same.",
+            "Rule out any option claiming litmus paper behaves identically for both, or only works on one physical state -- it clearly distinguishes acid from base by color.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ပထမနေ့၏ အဓိကအချက်ပင် ဖြစ်သည် -- လစ်မတ်စ်အရောင်တစ်ခုစီကို အက်ဆစ် (သို့) ဘေ့စ်နှင့် ဂရုတစိုက် တွဲစဉ်းစားပါ၊ ၎င်းတို့သည် ဆန့်ကျင်ဘက် တွဲဖက်မှုများ ဖြစ်ပြီး တူညီသော တွဲဖက်မှု မဟုတ်ပါ။",
+            "လစ်မတ်စ်စက္ကူသည် နှစ်မျိုးစလုံးအတွက် တူညီစွာ အရောင်ပြောင်းသည်ဟု (သို့) အခြေအနေတစ်ခုတည်းတွင်သာ အလုပ်လုပ်သည်ဟု ဆိုသော ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- ၎င်းသည် အရောင်ဖြင့် အက်ဆစ်နှင့် ဘေ့စ်ကို ရှင်းရှင်းလင်းလင်း ခွဲခြားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 2, Week 7: "Energy Stores and Transfers"
+// =====================================================================
+
+/// Week 7 opens a second physics strand, formally naming the energy
+/// stores that Week 4's capstone already used informally -- kinetic and
+/// thermal energy, and friction transferring one into the other. This
+/// week adds the remaining stores (gravitational potential, elastic
+/// potential, chemical, electrical) and states the conservation
+/// principle explicitly: energy is never created or destroyed, only
+/// transferred from one store to another. No numeric energy
+/// calculations (e.g. work done = force x distance) are introduced --
+/// energy stores and transfers stay qualitative at this level, matching
+/// Week 6's own "no unearned precision" caution.
+const CourseWeekDef _secondary1ScienceWeek7 = CourseWeekDef(
+  id: "course-secondary1-science-w7",
+  weekNumber: 7,
+  titleEn: "Energy Stores and Transfers",
+  titleMy: "စွမ်းအင်သိုလှောင်မှုများနှင့် စွမ်းအင်လွှဲပြောင်းမှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w7-d1",
+      dayNumber: 1,
+      titleEn: "Energy Stores and Transfers Quiz",
+      titleMy: "စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှု ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does it mean to say that something \"has energy\"?",
+          questionMy:
+              "တစ်စုံတစ်ခုတွင် \"စွမ်းအင်ရှိသည်\" ဟုဆိုရာတွင် အဘယ်အဓိပ္ပာယ်ရှိသနည်း။",
+          optionsEn: [
+            "It has the ability to make something happen -- move an object, heat something up, or produce light or sound.",
+            "It is always hot to the touch.",
+            "It is always moving very fast.",
+            "It always weighs more than similar objects without energy.",
+          ],
+          optionsMy: [
+            "၎င်းသည် တစ်ခုခု ဖြစ်ပေါ်စေနိုင်သော စွမ်းရည်ရှိသည် -- ပစ္စည်းတစ်ခုကို ရွှေ့ပြောင်းခြင်း၊ တစ်ခုခုကို ပူစေခြင်း၊ (သို့) အလင်း (သို့) အသံ ထုတ်ပေးခြင်း။",
+            "၎င်းသည် အမြဲတမ်း ကိုင်လျှင်ပူသည်။",
+            "၎င်းသည် အမြဲတမ်း အလွန်မြန်စွာ ရွေ့လျားနေသည်။",
+            "၎င်းသည် စွမ်းအင်မရှိသော အလားတူပစ္စည်းများထက် အမြဲတမ်း ပိုလေးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think broadly -- energy isn't only about heat or only about motion. Recall Week 4, where both thermal AND kinetic energy showed up as two different things.",
+            "Rule out the heat-only, motion-only, or weight-related options -- energy is the general capacity to cause any of these kinds of change.",
+          ],
+          hintsMy: [
+            "ကျယ်ပြန့်စွာ စဉ်းစားပါ -- စွမ်းအင်သည် အပူတစ်ခုတည်း (သို့) ရွေ့လျားမှုတစ်ခုတည်းနှင့်သာ မသက်ဆိုင်ပါ။ Week 4 တွင် အပူစွမ်းအင်နှင့် ရွေ့လျားစွမ်းအင် နှစ်မျိုးလုံး မတူညီသောအရာများအဖြစ် ပေါ်လာခဲ့ကြောင်း သတိရပါ။",
+            "အပူတစ်ခုတည်း၊ ရွေ့လျားမှုတစ်ခုတည်း (သို့) အလေးချိန်နှင့်ဆိုင်သော ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- စွမ်းအင်ဆိုသည်မှာ ဤပြောင်းလဲမှုအမျိုးအစားများအနက် မည်သည့်တစ်ခုကိုမဆို ဖြစ်ပေါ်စေနိုင်သော ယေဘုယျစွမ်းရည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stretched elastic band and a compressed spring both have extra energy because their shape has been deformed. What is this energy store called?",
+          questionMy:
+              "ဆန့်ထားသော ရာဘာကြိုးတစ်ချောင်းနှင့် ညှစ်ထားသော စပရင်တစ်ခုသည် ၎င်းတို့၏ပုံသဏ္ဌာန် ပြောင်းလဲထားသောကြောင့် စွမ်းအင်ပို ရှိကြသည်။ ဤစွမ်းအင်သိုလှောင်မှုကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "Elastic potential energy",
+            "Kinetic energy",
+            "Thermal energy",
+            "Chemical energy",
+          ],
+          optionsMy: [
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင် (Elastic Potential Energy)",
+            "ရွေ့လျားစွမ်းအင် (Kinetic Energy)",
+            "အပူစွမ်းအင် (Thermal Energy)",
+            "ဓာတုစွမ်းအင် (Chemical Energy)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Week 4's kinetic energy was about movement -- but a stretched band held still isn't moving, it's just held in a deformed shape.",
+            "\"Elastic\" describes something that springs back to its original shape -- this store comes from being stretched or squashed, not from moving or being hot.",
+          ],
+          hintsMy: [
+            "Week 4 ၏ ရွေ့လျားစွမ်းအင်သည် ရွေ့လျားမှုနှင့် သက်ဆိုင်သည် -- သို့သော် ရပ်ငြိမ်ဆန့်ထားသော ကြိုးသည် ရွေ့လျားနေခြင်း မဟုတ်ဘဲ ပုံပြောင်းလဲထားခြင်းသာ ဖြစ်သည်။",
+            "\"ဆန့်တန်းမှု\" ဆိုသည်မှာ မူလပုံသဏ္ဌာန်သို့ ပြန်လည်ဆုတ်ငင်နိုင်သော အရာကို ဖော်ပြသည် -- ဤသိုလှောင်မှုသည် ဆန့်ထား/ညှစ်ထားခြင်းမှ ဖြစ်ပေါ်လာခြင်းဖြစ်ပြီး ရွေ့လျားမှု (သို့) ပူနွေးမှုမှ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A book resting on a high shelf has more of which energy store than the same book on the floor, because of its height above the ground?",
+          questionMy:
+              "စင်မြင့်ပေါ်တွင် တင်ထားသော စာအုပ်တစ်အုပ်သည် ကြမ်းပြင်ပေါ်ရှိ စာအုပ်တူတစ်အုပ်ထက် ၎င်း၏မြင့်မားသောအမြင့်ကြောင့် မည်သည့်စွမ်းအင်သိုလှောင်မှု ပိုများသနည်း။",
+          optionsEn: [
+            "Gravitational potential energy",
+            "Sound energy",
+            "Elastic potential energy",
+            "Chemical energy",
+          ],
+          optionsMy: [
+            "ဆွဲငင်အား အလားအလာစွမ်းအင် (Gravitational Potential Energy)",
+            "အသံစွမ်းအင် (Sound Energy)",
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင် (Elastic Potential Energy)",
+            "ဓာတုစွမ်းအင် (Chemical Energy)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what would happen if the book fell off the shelf -- where does its falling energy come from?",
+            "This store depends on an object's height and the pull of gravity (Week 4's \"ဆွဲငင်အား\") -- it's separate from a stretched spring's store.",
+          ],
+          hintsMy: [
+            "စာအုပ်သည် စင်မြင့်မှ ကျဆင်းသွားပါက အဘယ်အရာ ဖြစ်လာမည်ကို စဉ်းစားပါ -- ၎င်း၏ ကျဆင်းစွမ်းအင်သည် အဘယ်မှ လာသနည်း။",
+            "ဤသိုလှောင်မှုသည် ပစ္စည်း၏ အမြင့်နှင့် ဆွဲငင်အား (Week 4) ပေါ်တွင် မူတည်သည် -- ၎င်းသည် ဆန့်ထားသော စပရင်၏ သိုလှောင်မှုနှင့် သီးခြားစီ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A torch uses a chemical battery to light its bulb. Which statement correctly describes what happens to energy as the torch is switched on?",
+          questionMy:
+              "လက်ပြတစ်ခုသည် မီးလင်းရန် ဓာတုဘက်ထရီကို အသုံးပြုသည်။ လက်ပြကို ဖွင့်လိုက်ချိန် စွမ်းအင်တွင် အဘယ်အရာ ဖြစ်ပျက်သည်ကို မှန်ကန်စွာ ဖော်ပြထားသည့်ဖော်ပြချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The battery's chemical energy transfers into electrical energy, then into light and thermal energy -- the total amount of energy stays the same throughout.",
+            "Energy is created inside the bulb from nothing.",
+            "The battery's chemical energy disappears completely and is destroyed.",
+            "Only light energy exists in this system, nothing else.",
+          ],
+          optionsMy: [
+            "ဘက်ထရီ၏ ဓာတုစွမ်းအင်သည် လျှပ်စစ်စွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပြီး ထို့နောက် အလင်းစွမ်းအင်နှင့် အပူစွမ်းအင်အဖြစ် ဆက်လွှဲပြောင်းသည် -- စွမ်းအင်စုစုပေါင်းပမာဏသည် တစ်လျှောက်လုံး တူညီစွာ ဆက်ရှိနေသည်။",
+            "ဘူးအတွင်းတွင် ဘာမှမဲ့ကနေ စွမ်းအင်အသစ် ဖန်တီးခံရသည်။",
+            "ဘက်ထရီ၏ ဓာတုစွမ်းအင်သည် လုံးဝ ပျောက်ကွယ်ပြီး ဖျက်ဆီးခံရသည်။",
+            "ဤစနစ်တွင် အလင်းစွမ်းအင်တစ်ခုတည်းသာ ရှိပြီး အခြားမရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 4 -- friction transferred kinetic energy into thermal energy, not creating or destroying energy, just moving it between stores.",
+            "Energy is never created or destroyed, only transferred from one store to another -- track the battery's chemical energy all the way through the torch.",
+          ],
+          hintsMy: [
+            "Week 4 ကို သတိရပါ -- ပွတ်တိုက်အားသည် ရွေ့လျားစွမ်းအင်ကို အပူစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပေးခဲ့ပြီး၊ စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း မဟုတ်ဘဲ သိုလှောင်မှုအချင်းချင်း ရွှေ့ပြောင်းခြင်းသာ ဖြစ်သည်။",
+            "စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ပါ၊ သိုလှောင်မှုတစ်ခုမှ တစ်ခုသို့ လွှဲပြောင်းခြင်းသာ ဖြစ်သည် -- ဘက်ထရီ၏ ဓာတုစွမ်းအင်ကို လက်ပြတစ်လျှောက်လုံး ခြေရာခံကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match the Energy Stores",
+      titleMy: "စွမ်းအင်သိုလှောင်မှုများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w7-dm-1",
+          termEn: "Kinetic Energy",
+          termMy: "ရွေ့လျားစွမ်းအင် (Kinetic Energy)",
+          matchEn:
+              "The energy store of anything that is moving -- a running dog or a rolling ball, first named back in Week 4.",
+          matchMy:
+              "ရွေ့လျားနေသော မည်သည့်အရာမဆို၏ စွမ်းအင်သိုလှောင်မှု -- ပြေးနေသော ခွေးတစ်ကောင် (သို့) လိမ့်နေသော ဘောလုံးတစ်လုံး၊ Week 4 တွင် ပထမဆုံး အမည်တွင်ခဲ့သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w7-dm-2",
+          termEn: "Thermal Energy",
+          termMy: "အပူစွမ်းအင် (Thermal Energy)",
+          matchEn:
+              "The energy store linked to how hot something is -- the hotter it is, the more of this energy its particles have, as Week 2 and Week 4 explored.",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခု မည်မျှပူသည်နှင့် ဆက်စပ်နေသော စွမ်းအင်သိုလှောင်မှု -- ပိုပူလေ ၎င်း၏ အနုမြူများ ဤစွမ်းအင် ပိုများလေဖြစ်ပြီး Week 2 နှင့် Week 4 တွင် လေ့လာခဲ့သည့်အတိုင်းပင်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w7-dm-3",
+          termEn: "Gravitational Potential Energy",
+          termMy: "ဆွဲငင်အား အလားအလာစွမ်းအင် (Gravitational Potential Energy)",
+          matchEn:
+              "Stored energy due to an object's height above the ground -- the higher up, the more of this energy it has.",
+          matchMy:
+              "ပစ္စည်းတစ်ခု၏ ကြမ်းပြင်အထက် အမြင့်ကြောင့် သိုလှောင်ထားသော စွမ်းအင် -- ပိုမြင့်လေ ဤစွမ်းအင် ပိုများလေ ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w7-dm-4",
+          termEn: "Elastic Potential Energy",
+          termMy: "ဆန့်တန်းမှု အလားအလာစွမ်းအင် (Elastic Potential Energy)",
+          matchEn:
+              "Stored energy in something stretched or squashed out of its natural shape, like a spring, elastic band, or bow.",
+          matchMy:
+              "စပရင်၊ ရာဘာကြိုး (သို့) လေးကဲ့သို့ မူလပုံသဏ္ဌာန်မှ ဆန့်ထား (သို့) ညှစ်ထားသော အရာတစ်ခုအတွင်း သိုလှောင်ထားသော စွမ်းအင်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w7-dm-5",
+          termEn: "Chemical Energy",
+          termMy: "ဓာတုစွမ်းအင် (Chemical Energy)",
+          matchEn:
+              "Energy stored inside a substance's chemical bonds, released by a chemical reaction -- found in food, fuel and batteries.",
+          matchMy:
+              "ပစ္စည်းတစ်ခု၏ ဓာတုနည်းဆက်စပ်မှုများအတွင်း သိုလှောင်ထားပြီး ဓာတုတုန့်ပြန်မှုတစ်ခုဖြင့် ထုတ်လွှတ်နိုင်သော စွမ်းအင် -- အစားအစာ၊ လောင်စာနှင့် ဘက်ထရီများတွင် တွေ့ရသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w7-dm-6",
+          termEn: "Electrical Energy",
+          termMy: "လျှပ်စစ်စွမ်းအင် (Electrical Energy)",
+          matchEn:
+              "Energy carried by an electric current flowing through a wire, powering devices like torches and phones.",
+          matchMy:
+              "ဝါယာကြိုးတစ်လျှောက် စီးဆင်းသော လျှပ်စစ်ရေစီးဖြင့် သယ်ဆောင်ထားသော စွမ်းအင်ဖြစ်ပြီး လက်ပြနှင့် ဖုန်းကဲ့သို့ ကိရိယာများကို အားပေးသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Energy Store?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့်စွမ်းအင်သိုလှောင်မှုနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Kinetic Energy",
+          "Gravitational Potential Energy",
+          "Chemical Energy",
+        ],
+        bucketsMy: [
+          "ရွေ့လျားစွမ်းအင်",
+          "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+          "ဓာတုစွမ်းအင်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w7-sort-1",
+            labelEn: "A cyclist pedaling down the road",
+            labelMy: "လမ်းပေါ်တွင် ဖိနင်းစီးနင်းနေသော စက်ဘီးစီးသူ",
+            correctBucketEn: "Kinetic Energy",
+            correctBucketMy: "ရွေ့လျားစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-2",
+            labelEn: "A book resting on a high shelf",
+            labelMy: "စင်မြင့်ပေါ်တွင် ထားရှိသော စာအုပ်",
+            correctBucketEn: "Gravitational Potential Energy",
+            correctBucketMy: "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-3",
+            labelEn: "Petrol inside a car's fuel tank",
+            labelMy: "ကားလောင်စာတိုင်ကီအတွင်းရှိ ဓာတ်ဆီ",
+            correctBucketEn: "Chemical Energy",
+            correctBucketMy: "ဓာတုစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-4",
+            labelEn: "A river flowing downhill",
+            labelMy: "တောင်ကုန်းအောက်သို့ စီးဆင်းနေသော မြစ်ရေ",
+            correctBucketEn: "Kinetic Energy",
+            correctBucketMy: "ရွေ့လျားစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-5",
+            labelEn: "An apple, before it is eaten",
+            labelMy: "မစားရသေးသော ပန်းသီးတစ်လုံး",
+            correctBucketEn: "Chemical Energy",
+            correctBucketMy: "ဓာတုစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-6",
+            labelEn: "A coconut still hanging high in a tree",
+            labelMy: "အပင်ပေါ်တွင် မြင့်မားစွာ ဆက်လက်ဆွဲငင်နေသေးသော အုန်းသီး",
+            correctBucketEn: "Gravitational Potential Energy",
+            correctBucketMy: "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-7",
+            labelEn: "A fully charged phone battery",
+            labelMy: "အပြည့်အဝ အားသွင်းထားသော ဖုန်းဘက်ထရီ",
+            correctBucketEn: "Chemical Energy",
+            correctBucketMy: "ဓာတုစွမ်းအင်",
+          ),
+          SortingItem(
+            id: "s1sci-w7-sort-8",
+            labelEn: "A fan blade spinning around",
+            labelMy: "လည်ပတ်နေသော ပန်ကာလက်တံ",
+            correctBucketEn: "Kinetic Energy",
+            correctBucketMy: "ရွေ့လျားစွမ်းအင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha's Bicycle Ride Uphill",
+      titleMy: "စာဖတ်ခြင်း - သီဟ၏ တောင်ကုန်းတက် စက်ဘီးစီးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha's Bicycle Ride Uphill",
+        titleMy: "သီဟ၏ တောင်ကုန်းတက် စက်ဘီးစီးခြင်း",
+        passageEn:
+            "Thiha packed a banana in his bag before setting off on his bicycle to visit his cousin, who lived at the top of a long, steep hill. As he began pedaling, he thought about the chemical energy stored in his muscles, energy that had originally come from the food he had eaten earlier that day. With every push of the pedals, that chemical energy transferred into kinetic energy, the energy of his bicycle's motion, just like the moving objects from Week 4.\n\nHalfway up the hill, Thiha felt tired and stopped to eat his banana, refilling his own chemical energy store for the climb ahead. As he kept climbing, some of his kinetic energy was also being transferred into a new store: gravitational potential energy, stored because of his increasing height above the ground. The higher he climbed, the more gravitational potential energy he gained.\n\nAt the top of the hill, Thiha rested for a moment before beginning the ride back down. This time, gravity did the work: his gravitational potential energy transferred back into kinetic energy, and the bicycle sped up without him needing to pedal at all. Remembering Week 3's lesson on forces, Thiha gently squeezed the brakes as he approached his cousin's gate, and just like the brake pads in Week 4's example, friction between the brake pads and the wheel transferred some of that kinetic energy into thermal energy, slowing the bicycle down and warming the brakes.\n\nBy the time Thiha reached the gate, he was moving slowly and safely. No energy had been created or destroyed along the entire ride -- it had simply transferred again and again, from the chemical energy in his food, into kinetic energy, into gravitational potential energy, back into kinetic energy, and finally into thermal energy at the brakes.",
+        passageMy:
+            "သီဟသည် တောင်ကုန်းရှည်ရှည်၊ ချွန်ချွန်တစ်ခု၏ထိပ်တွင် နေထိုင်သော သူ့ရွေးရင်းကို လည်ပတ်ရန် စက်ဘီးစီးထွက်ခွာမီ ငှက်ပျောသီးတစ်လုံးကို အိတ်ထဲသို့ ထည့်ခဲ့သည်။ ဖိနင်းစတင်ချိန်တွင် သူသည် သူ့ကြွက်သားများအတွင်း သိုလှောင်ထားသော ဓာတုစွမ်းအင်ကို တွေးမိသည်၊ ထိုစွမ်းအင်သည် ထိုနေ့အစောပိုင်းက စားခဲ့သော အစားအစာမှ မူလ ရရှိလာခြင်း ဖြစ်သည်။ ဖိနင်းတိုင်း ဖိနင်းတိုင်း၊ ထိုဓာတုစွမ်းအင်သည် Week 4 ၏ ရွေ့လျားနေသော အရာဝတ္ထုများကဲ့သို့ပင် သူ့စက်ဘီး၏ ရွေ့လျားမှုစွမ်းအင်ဖြစ်သော ရွေ့လျားစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းခဲ့သည်။\n\nတောင်ကုန်း တစ်ဝက်ခန့်တွင် သီဟသည် ပင်ပန်းလာသဖြင့် ရပ်တန့်၍ ငှက်ပျောသီးကို စားလိုက်ကာ ရှေ့ဆက်တက်ရန်အတွက် သူ့ဓာတုစွမ်းအင်သိုလှောင်မှုကို ပြန်ဖြည့်ခဲ့သည်။ ဆက်တက်နေစဉ် သူ၏ ရွေ့လျားစွမ်းအင်အချို့သည် သိုလှောင်မှုအသစ်တစ်ခုဖြစ်သော ဆွဲငင်အား အလားအလာစွမ်းအင်အဖြစ်သို့လည်း လွှဲပြောင်းနေခဲ့သည်၊ ၎င်းသည် ၎င်း၏ တိုးမြင့်လာသော ကြမ်းပြင်အထက်အမြင့်ကြောင့် သိုလှောင်ထားခြင်း ဖြစ်သည်။ ပိုမြင့်တက်လေ ဆွဲငင်အား အလားအလာစွမ်းအင် ပိုရရှိလေ ဖြစ်သည်။\n\nတောင်ကုန်းထိပ်တွင် သီဟသည် ခဏနားပြီး ပြန်ဆင်းရန် စတင်ခဲ့သည်။ ဤတစ်ကြိမ်တွင် ဆွဲငင်အားက အလုပ်လုပ်ပေးခဲ့သည် - သူ၏ ဆွဲငင်အား အလားအလာစွမ်းအင်သည် ရွေ့လျားစွမ်းအင်အဖြစ်သို့ ပြန်လွှဲပြောင်းခဲ့ပြီး၊ စက်ဘီးသည် ဖိနင်းရန် လိုအပ်ခြင်းမရှိဘဲ အရှိန်မြန်လာခဲ့သည်။ Week 3 ၏ အားများ သင်ခန်းစာကို သတိရသဖြင့်၊ သီဟသည် ၎င်း၏ ရွေးရင်း၏ဂိတ်အနီးရောက်ချိန် ဘရိတ်ကို ညင်သာစွာ ဆွဲကိုင်ခဲ့ပြီး၊ Week 4 ၏ ဥပမာရှိ ဘရိတ်ပက်များကဲ့သို့ပင်၊ ဘရိတ်ပက်နှင့် ဘီးအကြား ပွတ်တိုက်အားက ရွေ့လျားစွမ်းအင်အချို့ကို အပူစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပေးကာ စက်ဘီးကို နှေးကွေးစေပြီး ဘရိတ်ပက်များကို ပူစေခဲ့သည်။\n\nသီဟ ဂိတ်ဆီရောက်ချိန်တွင် သူသည် နှေးကွေးစွာနှင့် ဘေးကင်းစွာ ရွေ့လျားနေခဲ့သည်။ ခရီးတစ်လျှောက်လုံးတွင် စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိခဲ့ပါ -- ၎င်းသည် သူ့အစားအစာရှိ ဓာတုစွမ်းအင်မှ ရွေ့လျားစွမ်းအင်သို့၊ ဆွဲငင်အား အလားအလာစွမ်းအင်သို့၊ ရွေ့လျားစွမ်းအင်သို့ ပြန်လည်၊ နောက်ဆုံးတွင် ဘရိတ်ပက်ရှိ အပူစွမ်းအင်သို့ အထပ်ထပ် လွှဲပြောင်းသွားခဲ့ခြင်းသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the original source of the chemical energy Thiha used to pedal up the hill?",
+            questionMy:
+                "သီဟ တောင်ကုန်းတက်ရန် ဖိနင်းရာတွင် အသုံးပြုခဲ့သော ဓာတုစွမ်းအင်၏ မူလရင်းမြစ်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Food he had eaten earlier that day",
+              "Sunlight shining directly on his legs",
+              "The bicycle's metal frame",
+              "The hill's height alone",
+            ],
+            optionsMy: [
+              "ထိုနေ့အစောပိုင်းက စားခဲ့သော အစားအစာ",
+              "သူ့ခြေထောက်ပေါ်သို့ တိုက်ရိုက်ထိုးရောက်နေသော နေရောင်ခြည်",
+              "စက်ဘီး၏ သတ္တုဘောင်",
+              "တောင်ကုန်း၏ အမြင့်တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- where does the passage say the chemical energy in his muscles originally came from?",
+              "It's the same energy store named earlier this week: chemical energy, found in food.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သူ့ကြွက်သားများရှိ ဓာတုစွမ်းအင်သည် မူလအဘယ်မှ ရရှိလာသည်ဟု စာပိုဒ်က ဖော်ပြထားသနည်း။",
+              "၎င်းသည် ဤအပတ်အစောပိုင်းက အမည်တွင်ခဲ့သော ဓာတုစွမ်းအင်တည်းဖြစ်ပြီး အစားအစာတွင် တွေ့ရသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "As Thiha climbed higher up the hill, which energy store increased along with his height?",
+            questionMy:
+                "သီဟ တောင်ကုန်းကို ပိုမြင့်စွာ တက်လာသည်နှင့်အမျှ သူ၏ အမြင့်နှင့်အတူ မည်သည့်စွမ်းအင်သိုလှောင်မှု တိုးလာသနည်း။",
+            optionsEn: [
+              "Gravitational potential energy",
+              "Elastic potential energy",
+              "Electrical energy",
+              "Sound energy",
+            ],
+            optionsMy: [
+              "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+              "ဆန့်တန်းမှု အလားအလာစွမ်းအင်",
+              "လျှပ်စစ်စွမ်းအင်",
+              "အသံစွမ်းအင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the Day 3 sorting activity -- which energy store pairs with an object's height above the ground?",
+              "Re-read the second paragraph -- the passage names this store directly right after mentioning his increasing height.",
+            ],
+            hintsMy: [
+              "တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ပစ္စည်းတစ်ခု၏ ကြမ်းပြင်အထက်အမြင့်နှင့် မည်သည့်စွမ်းအင်သိုလှောင်မှု တွဲဖက်သနည်း။",
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သူ့အမြင့် တိုးလာခြင်းကို ဖော်ပြပြီးနောက် ချက်ချင်း ဤသိုလှောင်မှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "On the way down the hill, what transfer happened to Thiha's gravitational potential energy?",
+            questionMy:
+                "တောင်ကုန်းအောက်သို့ ဆင်းစဉ် သီဟ၏ ဆွဲငင်အား အလားအလာစွမ်းအင်သည် မည်သို့ လွှဲပြောင်းခဲ့သနည်း။",
+            optionsEn: [
+              "It transferred back into kinetic energy as the bicycle sped up.",
+              "It disappeared completely and was destroyed.",
+              "It transferred into chemical energy in his muscles.",
+              "It stayed exactly the same the whole way down.",
+            ],
+            optionsMy: [
+              "စက်ဘီး အရှိန်မြန်လာချိန် ၎င်းသည် ရွေ့လျားစွမ်းအင်အဖြစ်သို့ ပြန်လွှဲပြောင်းခဲ့သည်။",
+              "၎င်းသည် လုံးဝ ပျောက်ကွယ်ပြီး ဖျက်ဆီးခံခဲ့ရသည်။",
+              "၎င်းသည် သူ့ကြွက်သားများရှိ ဓာတုစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းခဲ့သည်။",
+              "၎င်းသည် တောင်ကုန်းတစ်လျှောက်လုံး လုံးဝ မပြောင်းလဲခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall energy is never destroyed, just transferred between stores -- the same idea as the torch question from Day 1.",
+              "Re-read the third paragraph -- what happened to the bicycle's speed once gravity started doing the work?",
+            ],
+            hintsMy: [
+              "စွမ်းအင်သည် ဖျက်ဆီးခံရခြင်း လုံးဝ မရှိနိုင်ဘဲ သိုလှောင်မှုများအကြား လွှဲပြောင်းခြင်းသာ ဖြစ်ကြောင်း သတိရပါ -- ပထမနေ့ လက်ပြမေးခွန်းနှင့် အတူတူပင် ဖြစ်သည်။",
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆွဲငင်အားက အလုပ်လုပ်ပေးစချိန်တွင် စက်ဘီး၏အမြန်နှုန်းတွင် အဘယ်အရာ ဖြစ်ပျက်ခဲ့သနည်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the brake pads grow warm as Thiha slowed down near his cousin's gate?",
+            questionMy:
+                "သီဟသည် ၎င်း၏ ရွေးရင်း၏ဂိတ်အနီးတွင် အရှိန်လျှော့ချချိန် ဘရိတ်ပက်များ အဘယ့်ကြောင့် ပူလာခဲ့သနည်း။",
+            optionsEn: [
+              "Friction between the pads and wheel transferred kinetic energy into thermal energy.",
+              "The pads created new energy out of nothing.",
+              "Gravitational potential energy directly heated the pads without any force involved.",
+              "The bicycle's chemical energy store heated the pads.",
+            ],
+            optionsMy: [
+              "ပက်များနှင့် ဘီးအကြား ပွတ်တိုက်အားက ရွေ့လျားစွမ်းအင်ကို အပူစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပေးခဲ့သည်။",
+              "ပက်များက ဘာမှမဲ့ကနေ စွမ်းအင်အသစ် ဖန်တီးခဲ့သည်။",
+              "ဆွဲငင်အား အလားအလာစွမ်းအင်က အားမပါဘဲ ပက်များကို တိုက်ရိုက် ပူစေခဲ့သည်။",
+              "စက်ဘီး၏ ဓာတုစွမ်းအင်သိုလှောင်မှုက ပက်များကို ပူစေခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is the same idea as Week 4's cyclist brake-pad example -- what force was at work, and what did it transfer kinetic energy into?",
+              "Re-read the third paragraph's final sentence, which names the force and the exact energy transfer directly.",
+            ],
+            hintsMy: [
+              "၎င်းသည် Week 4 ၏ စက်ဘီးစီးသူ ဘရိတ်ပက်ဥပမာနှင့် အတူတူပင် ဖြစ်သည် -- မည်သည့်အားက အလုပ်လုပ်ပြီး ရွေ့လျားစွမ်းအင်ကို အဘယ်သို့ လွှဲပြောင်းပေးခဲ့သနည်း။",
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- အားနှင့် တိကျသောစွမ်းအင်လွှဲပြောင်းမှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Energy Stores and Transfers",
+      titleMy:
+          "အပတ်စဉ် ၇ ပြန်လည်သုံးသပ်ခြင်း - စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which energy store does a moving car have?",
+          questionMy:
+              "ရွေ့လျားနေသော ကားတစ်စီးတွင် မည်သည့်စွမ်းအင်သိုလှောင်မှု ရှိသနည်း။",
+          optionsEn: [
+            "Kinetic energy",
+            "Gravitational potential energy",
+            "Elastic potential energy",
+            "Chemical energy only, never any other kind",
+          ],
+          optionsMy: [
+            "ရွေ့လျားစွမ်းအင်",
+            "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင်",
+            "ဓာတုစွမ်းအင်တစ်ခုတည်းသာ၊ အခြားမရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same store named for the cyclist and the river in the Day 3 sorting activity.",
+            "Anything moving has this store -- the car's fuel is a separate chemical energy store that gets transferred into it.",
+          ],
+          hintsMy: [
+            "၎င်းသည် တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းရှိ စက်ဘီးစီးသူနှင့် မြစ်ရေအတွက် အမည်တွင်ခဲ့သော သိုလှောင်မှုတည်းဖြစ်သည်။",
+            "ရွေ့လျားနေသော မည်သည့်အရာမဆို ဤသိုလှောင်မှု ရှိသည် -- ကား၏ လောင်စာသည် ၎င်းအထဲသို့ လွှဲပြောင်းပေးသော သီးခြားဓာတုစွမ်းအင်သိုလှောင်မှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which energy store does food or fuel have, before it is used?",
+          questionMy:
+              "အသုံးမပြုရသေးသော အစားအစာ (သို့) လောင်စာတွင် မည်သည့်စွမ်းအင်သိုလှောင်မှု ရှိသနည်း။",
+          optionsEn: [
+            "Chemical energy",
+            "Sound energy",
+            "Elastic potential energy",
+            "Electrical energy",
+          ],
+          optionsMy: [
+            "ဓာတုစွမ်းအင်",
+            "အသံစွမ်းအင်",
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင်",
+            "လျှပ်စစ်စွမ်းအင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- petrol, an apple, and a charged battery all went into this same bucket.",
+            "This store is released by a chemical reaction -- exactly the concept next week's capstone builds on.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဓာတ်ဆီ၊ ပန်းသီးနှင့် အားသွင်းထားသောဘက်ထရီတို့သည် ဤကန်တစ်ခုတည်းထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "ဤသိုလှောင်မှုသည် ဓာတုတုန့်ပြန်မှုတစ်ခုဖြင့် ထုတ်လွှတ်နိုင်သည် -- နောက်အပတ်၏ အနှစ်ချုပ်သင်ခန်းစာက တည်ဆောက်မည့် အတွေးအခေါ်အတိအကျပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When energy transfers from one store to another, what happens to the total amount of energy?",
+          questionMy:
+              "စွမ်းအင်သည် သိုလှောင်မှုတစ်ခုမှ တစ်ခုသို့ လွှဲပြောင်းချိန် စွမ်းအင်စုစုပေါင်းပမာဏတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It stays the same -- energy is never created or destroyed, only transferred.",
+            "It always increases.",
+            "It always decreases to zero.",
+            "It disappears completely.",
+          ],
+          optionsMy: [
+            "၎င်းသည် တူညီစွာ ဆက်ရှိနေသည် -- စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ဘဲ လွှဲပြောင်းခြင်းသာ ဖြစ်သည်။",
+            "၎င်းသည် အမြဲတမ်း တိုးလာသည်။",
+            "၎င်းသည် အမြဲတမ်း သုညအထိ လျော့ကျသွားသည်။",
+            "၎င်းသည် လုံးဝ ပျောက်ကွယ်သွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiha's bicycle ride -- his energy kept transferring between stores, but was any of it ever created or destroyed?",
+            "This is the torch question's key idea from Day 1, restated -- conservation of energy.",
+          ],
+          hintsMy: [
+            "သီဟ၏ စက်ဘီးစီးခြင်းကို သတိရပါ -- သူ့စွမ်းအင်သည် သိုလှောင်မှုများအကြား ဆက်လွှဲပြောင်းခဲ့သော်လည်း ၎င်းအနက် တစ်စိတ်တစ်ပိုင်းမျှ ဖန်တီးခံ (သို့) ဖျက်ဆီးခံခဲ့ရဖူးပါသလား။",
+            "၎င်းသည် ပထမနေ့ လက်ပြမေးခွန်း၏ အဓိကအတွေးအခေါ်ဖြစ်သော စွမ်းအင် ထိန်းသိမ်းမှုကို ထပ်ဆင့်ဖော်ပြခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ball held above the ground has energy due to its height. What is this store called?",
+          questionMy:
+              "ကြမ်းပြင်အထက်တွင် ကိုင်ထားသော ဘောလုံးတစ်လုံးသည် ၎င်း၏အမြင့်ကြောင့် စွမ်းအင်ရှိသည်။ ဤသိုလှောင်မှုကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "Gravitational potential energy",
+            "Kinetic energy",
+            "Thermal energy",
+            "Sound energy",
+          ],
+          optionsMy: [
+            "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+            "ရွေ့လျားစွမ်းအင်",
+            "အပူစွမ်းအင်",
+            "အသံစွမ်းအင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "It's the same store the book on the high shelf had -- height above the ground, not motion or heat.",
+            "Once released, this store will transfer into kinetic energy as the ball falls -- but held still, it only has this one for now.",
+          ],
+          hintsMy: [
+            "၎င်းသည် စင်မြင့်ပေါ်ရှိ စာအုပ်တွင် ရှိခဲ့သော သိုလှောင်မှုတည်းဖြစ်သည် -- ကြမ်းပြင်အထက်အမြင့်ဖြစ်ပြီး ရွေ့လျားမှု (သို့) အပူ မဟုတ်ပါ။",
+            "လွှတ်လိုက်သောအခါ ဤသိုလှောင်မှုသည် ဘောလုံးကျဆင်းလာသည်နှင့်အမျှ ရွေ့လျားစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းမည်ဖြစ်သည် -- သို့သော် ရပ်ငြိမ်ကိုင်ထားစဉ် ဤတစ်ခုတည်းသာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a stretched spring's energy store called?",
+          questionMy:
+              "ဆန့်ထားသော စပရင်တစ်ခု၏ စွမ်းအင်သိုလှောင်မှုကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "Elastic potential energy",
+            "Gravitational potential energy",
+            "Chemical energy",
+            "Electrical energy",
+          ],
+          optionsMy: [
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင်",
+            "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+            "ဓာတုစွမ်းအင်",
+            "လျှပ်စစ်စွမ်းအင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's elastic band and spring question -- deformed shape, not height, gives this store.",
+            "\"Elastic\" is the giveaway word -- it's the same store type as the stretched elastic band from Day 1.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ရာဘာကြိုးနှင့် စပရင်မေးခွန်းကို သတိရပါ -- ပုံသဏ္ဌာန်ပြောင်းလဲမှုက ဤသိုလှောင်မှုကို ပေးသည်၊ အမြင့်မဟုတ်ပါ။",
+            "\"ဆန့်တန်းမှု\" ဆိုသောစကားလုံးက အဖြေကို ညွှန်ပြသည် -- ၎င်းသည် ပထမနေ့ ရာဘာကြိုးနှင့် တူညီသောသိုလှောင်မှုအမျိုးအစားပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the story, what did friction transfer Thiha's kinetic energy into at the brakes?",
+          questionMy:
+              "ဇာတ်လမ်းထဲတွင် ဘရိတ်များတွင် ပွတ်တိုက်အားက သီဟ၏ ရွေ့လျားစွမ်းအင်ကို မည်သည့်စွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းပေးခဲ့သနည်း။",
+          optionsEn: [
+            "Thermal energy",
+            "Chemical energy",
+            "Gravitational potential energy",
+            "Elastic potential energy",
+          ],
+          optionsMy: [
+            "အပူစွမ်းအင်",
+            "ဓာတုစွမ်းအင်",
+            "ဆွဲငင်အား အလားအလာစွမ်းအင်",
+            "ဆန့်တန်းမှု အလားအလာစွမ်းအင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the passage's final sentence -- the brakes grew warm, which is a direct clue about which energy store they gained.",
+            "This is the exact same transfer as Week 4's brake-pad example: friction turns kinetic energy into this store.",
+          ],
+          hintsMy: [
+            "စာပိုဒ်၏ နောက်ဆုံးဝါကျကို သတိရပါ -- ဘရိတ်များ ပူလာခြင်းသည် ၎င်းတို့ရရှိသောစွမ်းအင်သိုလှောင်မှုအကြောင်း တိုက်ရိုက်ညွှန်းချက်ဖြစ်သည်။",
+            "၎င်းသည် Week 4 ၏ ဘရိတ်ပက်ဥပမာနှင့် အတိအကျ တူညီသော လွှဲပြောင်းမှုဖြစ်သည် -- ပွတ်တိုက်အားက ရွေ့လျားစွမ်းအင်ကို ဤသိုလှောင်မှုအဖြစ်သို့ ပြောင်းလဲပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 2, Week 8 (capstone): "Chemical Reactions:
+// New Substances and Energy Changes"
+// =====================================================================
+
+/// Week 8 is Term 2's capstone, tying chemistry (Week 5's compounds,
+/// Week 6's acids/bases) to energy (Week 7's stores/transfers) and back
+/// to Week 2's physical-change/state-of-matter framing. The key new
+/// idea, unique to a chemical reaction rather than a physical change, is
+/// that at least one brand-new substance forms; exothermic/endothermic
+/// are introduced purely qualitatively (does the surroundings feel
+/// hotter or colder?), with the vinegar + baking soda reaction from
+/// Week 6 (endothermic) contrasted against burning (exothermic) --
+/// deliberately stopping short of word equations with specific
+/// products/formulas, which stays out of scope at this level.
+const CourseWeekDef _secondary1ScienceWeek8 = CourseWeekDef(
+  id: "course-secondary1-science-w8",
+  weekNumber: 8,
+  titleEn: "Chemical Reactions: New Substances and Energy Changes",
+  titleMy:
+      "ဓာတုတုန့်ပြန်မှုများ - ပစ္စည်းအသစ်များနှင့် စွမ်းအင်ပြောင်းလဲမှုများ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w8-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Chemical Reactions Quiz",
+      titleMy: "ဓာတုတုန့်ပြန်မှု ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a physical change (like Week 2's melting ice) and a chemical reaction?",
+          questionMy:
+              "ရူပနည်းပြောင်းလဲမှု (Week 2 ၏ ရေခဲပျော်ခြင်းကဲ့သို့) နှင့် ဓာတုတုန့်ပြန်မှုကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A physical change doesn't form a new substance (melted ice is still H2O); a chemical reaction always forms at least one brand-new substance with different properties.",
+            "A physical change always involves gas bubbles.",
+            "A chemical reaction never changes temperature.",
+            "There is no real difference between the two.",
+          ],
+          optionsMy: [
+            "ရူပနည်းပြောင်းလဲမှုသည် ပစ္စည်းအသစ် မဖြစ်ပေါ်ပါ (ပျော်သွားသော ရေခဲသည် ဆက်လက် H2O ဖြစ်နေသည်)၊ ဓာတုတုန့်ပြန်မှုသည် ဂုဏ်သတ္တိကွဲပြားသော ပစ္စည်းအသစ် အနည်းဆုံးတစ်ခု အမြဲဖြစ်ပေါ်စေသည်။",
+            "ရူပနည်းပြောင်းလဲမှုတွင် ဓာတ်ငွေ့ပူဖောင်း အမြဲပါဝင်သည်။",
+            "ဓာတုတုန့်ပြန်မှုသည် အပူချိန် လုံးဝ မပြောင်းလဲပါ။",
+            "ထိုနှစ်ခုကြား ကွာခြားချက် လုံးဝမရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2 -- melting ice is still water (H2O), just a different state of matter -- no new substance forms.",
+            "A chemical reaction's products are chemically different substances from what you started with, not just a different state of the same substance.",
+          ],
+          hintsMy: [
+            "Week 2 ကို သတိရပါ -- ပျော်သွားသော ရေခဲသည် ဆက်လက် ရေ (H2O) ဖြစ်နေပြီး ဒြပ်ထုအခြေအနေ ကွဲပြားခြင်းသာ ဖြစ်သည် -- ပစ္စည်းအသစ် မဖြစ်ပေါ်ပါ။",
+            "ဓာတုတုန့်ပြန်မှု၏ ရလဒ်ပစ္စည်းများသည် အစပြုသော ပစ္စည်းများနှင့် ဓာတုနည်းအရ ကွဲပြားသော ပစ္စည်းများဖြစ်ပြီး၊ တူညီသောပစ္စည်း၏ ဒြပ်ထုအခြေအနေ ကွဲပြားခြင်းသာ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Baking soda (Week 6) reacts with vinegar (Week 6), producing gas bubbles, and the container feels slightly cooler afterward. What kind of energy change is this?",
+          questionMy:
+              "အဆိုက်မီးဖုတ်ဆား (Week 6) သည် ရှာလကာရည် (Week 6) နှင့် တုန့်ပြန်ကာ ဓာတ်ငွေ့ပူဖောင်းများ ထုတ်ပေးပြီး ထို့နောက် ဘူးသည် အနည်းငယ် အေးလာသည်ကို ခံစားရသည်။ ဤသည်မှာ မည်သည့်စွမ်းအင်ပြောင်းလဲမှု အမျိုးအစားနည်း။",
+          optionsEn: [
+            "Endothermic -- the reaction absorbs thermal energy from its surroundings.",
+            "Exothermic -- the reaction releases thermal energy to its surroundings.",
+            "No energy change happens at all, only gas is produced.",
+            "Energy is being created from nothing.",
+          ],
+          optionsMy: [
+            "အပူစုပ်တုန့်ပြန်မှု (Endothermic) -- ဤတုန့်ပြန်မှုသည် ၎င်း၏ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်ကို စုပ်ယူသည်။",
+            "အပူထုတ်တုန့်ပြန်မှု (Exothermic) -- ဤတုန့်ပြန်မှုသည် ပတ်ဝန်းကျင်သို့ အပူစွမ်းအင် ထုတ်လွှတ်သည်။",
+            "စွမ်းအင်ပြောင်းလဲမှု လုံးဝ မဖြစ်ပေါ်ပါ၊ ဓာတ်ငွေ့သာ ထွက်ရှိသည်။",
+            "စွမ်းအင်သည် ဘာမှမဲ့ကနေ ဖန်တီးခံရသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's energy transfers -- if the container's surroundings feel cooler, where did thermal energy go? It moved INTO the reaction, not out of it.",
+            "\"Endo-\" means \"in\" or \"into\" -- this reaction takes in (absorbs) thermal energy from its surroundings, cooling them slightly.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ စွမ်းအင်လွှဲပြောင်းမှုများကို သတိရပါ -- ဘူး၏ ပတ်ဝန်းကျင် ပိုအေးလာလျှင် အပူစွမ်းအင်သည် အဘယ်သို့ ရွေ့လျားသွားခဲ့သနည်း။ ၎င်းသည် ပတ်ဝန်းကျင်မှ တုန့်ပြန်မှုအထဲသို့ ဝင်ရောက်သွားခဲ့ခြင်းဖြစ်ပြီး ပြင်ပသို့ မထွက်ခဲ့ပါ။",
+            "\"Endo-\" ဆိုသည်မှာ \"အထဲသို့\" ဟု အဓိပ္ပာယ်ရှိသည် -- ဤတုန့်ပြန်မှုသည် ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်ကို စုပ်ယူထားသဖြင့် ပတ်ဝန်းကျင်ကို အနည်းငယ် အေးစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Burning wood in a fire releases both heat and light. What kind of energy change is this, and which store is being emptied?",
+          questionMy:
+              "မီးဖြင့် သစ်သားကို လောင်ကျွမ်းစေခြင်းသည် အပူနှင့် အလင်း နှစ်မျိုးလုံး ထုတ်လွှတ်သည်။ ဤသည်မှာ မည်သည့်စွမ်းအင်ပြောင်းလဲမှု အမျိုးအစားဖြစ်ပြီး မည်သည့်သိုလှောင်မှု ကုန်ခန်းသွားသနည်း။",
+          optionsEn: [
+            "Exothermic -- releases thermal and light energy; the wood's chemical energy store is transferred out.",
+            "Endothermic -- absorbs energy; the wood's gravitational potential energy is transferred out.",
+            "No energy is involved in burning at all.",
+            "Exothermic, but the wood had no energy store to begin with.",
+          ],
+          optionsMy: [
+            "အပူထုတ်တုန့်ပြန်မှု (Exothermic) -- အပူနှင့် အလင်းစွမ်းအင် ထုတ်လွှတ်သည်၊ သစ်သား၏ ဓာတုစွမ်းအင်သိုလှောင်မှု ပြင်ပသို့ လွှဲပြောင်းသွားသည်။",
+            "အပူစုပ်တုန့်ပြန်မှု (Endothermic) -- စွမ်းအင် စုပ်ယူသည်၊ သစ်သား၏ ဆွဲငင်အား အလားအလာစွမ်းအင် ပြင်ပသို့ လွှဲပြောင်းသွားသည်။",
+            "လောင်ကျွမ်းခြင်းတွင် စွမ်းအင် လုံးဝ မပါဝင်ပါ။",
+            "အပူထုတ်တုန့်ပြန်မှု ဖြစ်သော်လည်း သစ်သားတွင် မူလ စွမ်းအင်သိုလှောင်မှု လုံးဝ မရှိခဲ့ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's chemical energy store (in fuels like wood) -- burning releases it as heat and light, similar to a torch's chemical energy from its battery.",
+            "\"Exo-\" means \"out\" -- this reaction releases (gives out) energy to its surroundings, the opposite of the previous question's endothermic reaction.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ဓာတုစွမ်းအင်သိုလှောင်မှု (သစ်သားကဲ့သို့ လောင်စာများတွင်) ကို သတိရပါ -- လောင်ကျွမ်းခြင်းက ၎င်းကို အပူနှင့် အလင်းအဖြစ် ထုတ်လွှတ်ပေးပြီး ဘက်ထရီမှ ဓာတုစွမ်းအင်ရှိသော လက်ပြနှင့် ဆင်တူသည်။",
+            "\"Exo-\" ဆိုသည်မှာ \"ပြင်ပသို့\" ဟု အဓိပ္ပာယ်ရှိသည် -- ဤတုန့်ပြန်မှုသည် ပတ်ဝန်းကျင်သို့ စွမ်းအင် ထုတ်လွှတ်ပေးပြီး၊ ယခင်မေးခွန်း၏ အပူစုပ်တုန့်ပြန်မှုနှင့် ဆန့်ကျင်ဘက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When an acid reacts with a base, what do chemists call this type of reaction, and what does it typically produce?",
+          questionMy:
+              "အက်ဆစ်တစ်ခုသည် ဘေ့စ်တစ်ခုနှင့် တုန့်ပြန်သောအခါ ဓာတုပညာရှင်များက ဤတုန့်ပြန်မှုအမျိုးအစားကို အဘယ်ဟုခေါ်ပြီး ပုံမှန်အားဖြင့် အဘယ်ကို ထုတ်ပေးသနည်း။",
+          optionsEn: [
+            "Neutralization; it produces a new substance called a salt, plus water.",
+            "Sublimation; it produces only gas.",
+            "Evaporation; it produces only heat.",
+            "Filtration; it produces only a solid.",
+          ],
+          optionsMy: [
+            "အက်ဆစ်ဓာတ်ပျက်ခြင်း (Neutralization); ၎င်းသည် ဆား (salt) ဟုခေါ်သော ပစ္စည်းအသစ်နှင့် ရေကို ထုတ်ပေးသည်။",
+            "အငွေ့ပျံပုံစံပြောင်း (Sublimation); ဓာတ်ငွေ့တစ်ခုတည်းသာ ထုတ်ပေးသည်။",
+            "အငွေ့ပျံခြင်း (Evaporation); အပူတစ်ခုတည်းသာ ထုတ်ပေးသည်။",
+            "စစ်ထုတ်ခြင်း (Filtration); အစိုင်အခဲတစ်ခုတည်းသာ ထုတ်ပေးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 6's acids and bases (alkalis) -- when they meet, they \"cancel out\" each other's acidic/basic properties.",
+            "The reaction's name describes exactly what happens: the acid and base neutralize each other's pH, forming a salt and water.",
+          ],
+          hintsMy: [
+            "Week 6 ၏ အက်ဆစ်နှင့် ဘေ့စ် (အယ်လကာလီ) များကို သတိရပါ -- ၎င်းတို့ ဆုံတွေ့ချိန် တစ်ခုနှင့်တစ်ခု၏ အက်ဆစ်/ဘေ့စ်ဂုဏ်သတ္တိကို \"ဖျက်\" ပစ်ကြသည်။",
+            "ဤတုန့်ပြန်မှု၏ အမည်သည် ဖြစ်ပျက်သည့်အရာကို အတိအကျ ဖော်ပြသည် -- အက်ဆစ်နှင့် ဘေ့စ်တို့ တစ်ခုနှင့်တစ်ခု၏ pH ကို ပယ်ဖျက်ကာ ဆားနှင့် ရေကို ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match the Chemical Reaction Terms",
+      titleMy: "ဓာတုတုန့်ပြန်မှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w8-dm-1",
+          termEn: "Reactant",
+          termMy: "တုန့်ပြန်ပစ္စည်း (Reactant)",
+          matchEn:
+              "A starting substance that goes into a chemical reaction, before it changes into something new.",
+          matchMy:
+              "ပစ္စည်းအသစ်အဖြစ်သို့ မပြောင်းလဲမီ ဓာတုတုန့်ပြန်မှုတစ်ခုသို့ ဝင်ရောက်သော အစပြုပစ္စည်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w8-dm-2",
+          termEn: "Product",
+          termMy: "ရလဒ်ပစ္စည်း (Product)",
+          matchEn:
+              "A new substance formed by a chemical reaction, different from the reactants that made it.",
+          matchMy:
+              "ဓာတုတုန့်ပြန်မှုတစ်ခုဖြင့် ဖြစ်ပေါ်လာသော ပစ္စည်းအသစ်ဖြစ်ပြီး ၎င်းကို ဖြစ်ပေါ်စေသော တုန့်ပြန်ပစ္စည်းများနှင့် ကွဲပြားသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w8-dm-3",
+          termEn: "Exothermic Reaction",
+          termMy: "အပူထုတ်တုန့်ပြန်မှု (Exothermic Reaction)",
+          matchEn:
+              "A chemical reaction that releases thermal energy to its surroundings, like wood burning in a fire.",
+          matchMy:
+              "မီးထဲတွင် သစ်သားလောင်ကျွမ်းခြင်းကဲ့သို့ ပတ်ဝန်းကျင်သို့ အပူစွမ်းအင် ထုတ်လွှတ်ပေးသော ဓာတုတုန့်ပြန်မှု။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w8-dm-4",
+          termEn: "Endothermic Reaction",
+          termMy: "အပူစုပ်တုန့်ပြန်မှု (Endothermic Reaction)",
+          matchEn:
+              "A chemical reaction that absorbs thermal energy from its surroundings, like baking soda reacting with vinegar.",
+          matchMy:
+              "အဆိုက်မီးဖုတ်ဆားနှင့် ရှာလကာရည် တုန့်ပြန်ခြင်းကဲ့သို့ ပတ်ဝန်းကျင်မှ အပူစွမ်းအင် စုပ်ယူသော ဓာတုတုန့်ပြန်မှု။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w8-dm-5",
+          termEn: "Neutralization",
+          termMy: "အက်ဆစ်ဓာတ်ပျက်ခြင်း (Neutralization)",
+          matchEn:
+              "The reaction between an acid and a base, producing a new salt and water.",
+          matchMy:
+              "အက်ဆစ်နှင့် ဘေ့စ်ကြား ဖြစ်ပွားသော တုန့်ပြန်မှုဖြစ်ပြီး ဆားအသစ်နှင့် ရေကို ထုတ်ပေးသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w8-dm-6",
+          termEn: "Physical Change",
+          termMy: "ရူပနည်းပြောင်းလဲမှု (Physical Change)",
+          matchEn:
+              "A change like melting or dissolving where no new substance forms -- unlike a chemical reaction.",
+          matchMy:
+              "ပစ္စည်းအသစ် မဖြစ်ပေါ်သော ပျော်ခြင်း (သို့) ပျော်ဝင်ခြင်းကဲ့သို့ ပြောင်းလဲမှု -- ဓာတုတုန့်ပြန်မှုနှင့် မတူ။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Physical Change or Chemical Reaction?",
+      titleMy: "စီစစ်ကြမည် - ရူပနည်းပြောင်းလဲမှုလား၊ ဓာတုတုန့်ပြန်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Physical Change", "Chemical Reaction"],
+        bucketsMy: ["ရူပနည်းပြောင်းလဲမှု", "ဓာတုတုန့်ပြန်မှု"],
+        items: [
+          SortingItem(
+            id: "s1sci-w8-sort-1",
+            labelEn: "Ice melting into liquid water",
+            labelMy: "ရေခဲ ရေအရည်အဖြစ်ပျော်ခြင်း",
+            correctBucketEn: "Physical Change",
+            correctBucketMy: "ရူပနည်းပြောင်းလဲမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-2",
+            labelEn: "Wood burning in a campfire",
+            labelMy: "စခန်းမီးထဲတွင် သစ်သားလောင်ကျွမ်းခြင်း",
+            correctBucketEn: "Chemical Reaction",
+            correctBucketMy: "ဓာတုတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-3",
+            labelEn: "Water boiling into steam",
+            labelMy: "ရေ ရေငွေ့အဖြစ် ဆူပွက်ခြင်း",
+            correctBucketEn: "Physical Change",
+            correctBucketMy: "ရူပနည်းပြောင်းလဲမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-4",
+            labelEn: "Vinegar fizzing when mixed with baking soda",
+            labelMy:
+                "ရှာလကာရည်ကို အဆိုက်မီးဖုတ်ဆားနှင့် ရောသောအခါ ပူဖောင်းထခြင်း",
+            correctBucketEn: "Chemical Reaction",
+            correctBucketMy: "ဓာတုတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-5",
+            labelEn: "Tearing a sheet of paper in half",
+            labelMy: "စာရွက်တစ်ရွက်ကို နှစ်ပိုင်း ဆွဲဆုတ်ခြင်း",
+            correctBucketEn: "Physical Change",
+            correctBucketMy: "ရူပနည်းပြောင်းလဲမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-6",
+            labelEn: "An iron nail rusting slowly over months",
+            labelMy:
+                "သံချွန်တစ်ချောင်း လများစွာကြာ ဖြည်းညှင်းစွာ သံချေးတက်ခြင်း",
+            correctBucketEn: "Chemical Reaction",
+            correctBucketMy: "ဓာတုတုန့်ပြန်မှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-7",
+            labelEn: "Sugar dissolving completely in a cup of tea",
+            labelMy: "သကြားကို လက်ဖက်ရည်ခွက်ထဲတွင် အပြည့်အဝ ပျော်ဝင်စေခြင်း",
+            correctBucketEn: "Physical Change",
+            correctBucketMy: "ရူပနည်းပြောင်းလဲမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w8-sort-8",
+            labelEn: "A firework exploding with sparks and colored light",
+            labelMy:
+                "မီးရှူးမီးပန်း စတွေးမီးပွားနှင့် အရောင်စုံအလင်းဖြင့် ပေါက်ကွဲခြင်း",
+            correctBucketEn: "Chemical Reaction",
+            correctBucketMy: "ဓာတုတုန့်ပြန်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin's Baking Soda Volcano",
+      titleMy: "စာဖတ်ခြင်း - နှင်း၏ အဆိုက်မီးဖုတ်ဆားမီးတောင်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin's Baking Soda Volcano",
+        titleMy: "နှင်း၏ အဆိုက်မီးဖုတ်ဆားမီးတောင်",
+        passageEn:
+            "For the school science fair, Hnin decided to build a model volcano using a plastic bottle, some baking soda, and vinegar -- the same two substances she remembered from Week 6's indicator experiment. She spooned baking soda into the bottle, then carefully measured out a cup of vinegar using the tools from Week 1.\n\nThe moment Hnin poured the vinegar in, the mixture erupted into a foamy stream of bubbles that spilled over the bottle's neck like real lava. Hnin knew this wasn't simply mixing, like the salt water from Week 5 -- a genuine chemical reaction was taking place. The vinegar (an acid) and the baking soda were reacting to form new substances, including a gas that made the bubbles. The original baking soda and vinegar were being used up, replaced by these products.\n\nCurious, Hnin touched the side of the bottle and noticed it felt slightly cooler than before. She remembered Week 7's lesson on energy transfers: this reaction was absorbing thermal energy from its surroundings rather than releasing it, making it an endothermic reaction -- the opposite of the exothermic reaction happening in a candle flame nearby, where burning wax released heat and light instead.\n\nHnin's teacher explained that this was different from a physical change, like the ice cubes melting in a cup of water on the next table. The melting ice was still just water, whichever state it was in, while Hnin's volcano had produced substances that had never existed in the bottle before. Hnin proudly labeled her project \"A Real Chemical Reaction\" and looked forward to explaining the endothermic energy change to the judges.",
+        passageMy:
+            "ကျောင်းသိပ္ပံပြပွဲအတွက် နှင်းသည် ပလတ်စတစ်ပုလင်း၊ အဆိုက်မီးဖုတ်ဆားအနည်းငယ်နှင့် ရှာလကာရည်ကို အသုံးပြု၍ မီးတောင်ပုံစံတစ်ခု တည်ဆောက်ရန် ဆုံးဖြတ်ခဲ့သည် -- Week 6 ၏ အညွှန်းစမ်းသပ်မှုမှ သတိရနေသေးသော ပစ္စည်းနှစ်ခုတည်းပင် ဖြစ်သည်။ သူမသည် အဆိုက်မီးဖုတ်ဆားကို ပုလင်းထဲသို့ ဇွန်းဖြင့် ထည့်ပြီးနောက် Week 1 မှ ကိရိယာများကို အသုံးပြု၍ ရှာလကာရည်တစ်ခွက်ကို ဂရုတစိုက် တိုင်းတာခဲ့သည်။\n\nနှင်းသည် ရှာလကာရည်ကို လောင်းထည့်လိုက်သည်နှင့်တစ်ပြိုင်နက်၊ ရောစပ်ပစ္စည်းသည် ပုလင်းလည်ပင်းမှ လက်ရှိအမှန်တကယ်လာဗာကဲ့သို့ ယိုစီးထွက်လာသော ပူဖောင်းရောစီးမှုအဖြစ် ပေါက်ကွဲထွက်လာခဲ့သည်။ ၎င်းသည် Week 5 ၏ ဆားရေကဲ့သို့ ရိုးရှင်းသောရောနှောမှုသာ မဟုတ်ကြောင်း နှင်း သိထားသည် -- စစ်မှန်သော ဓာတုတုန့်ပြန်မှုတစ်ခု ဖြစ်ပျက်နေခြင်း ဖြစ်သည်။ ရှာလကာရည် (အက်ဆစ်တစ်ခု) နှင့် အဆိုက်မီးဖုတ်ဆားတို့သည် ပူဖောင်းများ ဖြစ်ပေါ်စေသည့် ဓာတ်ငွေ့တစ်ခုအပါအဝင် ပစ္စည်းအသစ်များ ဖြစ်ပေါ်စေရန် တုန့်ပြန်နေခဲ့ကြသည်။ မူလ အဆိုက်မီးဖုတ်ဆားနှင့် ရှာလကာရည်တို့သည် ထိုရလဒ်ပစ္စည်းများဖြင့် အစားထိုးခံရလျက် ကုန်ဆုံးသွားခဲ့ကြသည်။\n\nစိတ်ဝင်စားသဖြင့် နှင်းသည် ပုလင်း၏ ဘေးဘက်ကို ထိကြည့်ရာ ယခင်ထက် အနည်းငယ် အေးလာသည်ကို သတိထားမိသည်။ သူမသည် Week 7 ၏ စွမ်းအင်လွှဲပြောင်းမှု သင်ခန်းစာကို သတိရသည် - ဤတုန့်ပြန်မှုသည် စွမ်းအင် ထုတ်လွှတ်မည့်အစား ၎င်း၏ ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်ကို စုပ်ယူနေခြင်းဖြစ်ပြီး၊ အပူစုပ်တုန့်ပြန်မှု (endothermic) ဖြစ်စေသည် -- အနီးတွင်ရှိသော ဖယောင်းတိုင်မီးလျှံ၏ အပူထုတ်တုန့်ပြန်မှု (exothermic) နှင့် ဆန့်ကျင်ဘက်ဖြစ်ပြီး ထို့နေရာတွင် ဖယောင်းလောင်ကျွမ်းခြင်းက အပူနှင့် အလင်းကို ထုတ်လွှတ်ခဲ့သည်။\n\nနှင်း၏ ဆရာမက ဤသည်မှာ ဘေးစားပွဲရှိ ရေခွက်ထဲက ရေခဲတုံးများ ပျော်ခြင်းကဲ့သို့ ရူပနည်းပြောင်းလဲမှုနှင့် ကွာခြားကြောင်း ရှင်းပြခဲ့သည်။ ပျော်နေသော ရေခဲသည် မည်သည့်ဒြပ်ထုအခြေအနေတွင်ရှိစေ ဆက်လက် ရေသက်သက်ပင် ဖြစ်နေဆဲဖြစ်ပြီး၊ နှင်း၏ မီးတောင်ကမူ ပုလင်းအတွင်း ယခင်က လုံးဝ မရှိခဲ့ဖူးသော ပစ္စည်းများကို ဖြစ်ပေါ်စေခဲ့သည်။ နှင်းသည် ၎င်း၏ စီမံကိန်းကို \"စစ်မှန်သော ဓာတုတုန့်ပြန်မှု\" ဟု ဂုဏ်ယူစွာ တံဆိပ်ကပ်ခဲ့ပြီး အပူစုပ်စွမ်းအင်ပြောင်းလဲမှုကို တရားသူကြီးများအား ရှင်းပြရန် စောင့်မျှော်နေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Hnin's teacher say the baking soda volcano was a chemical reaction and not simply mixing?",
+            questionMy:
+                "နှင်း၏ ဆရာမသည် အဆိုက်မီးဖုတ်ဆားမီးတောင်ကို ရိုးရှင်းသောရောနှောမှုမဟုတ်ဘဲ ဓာတုတုန့်ပြန်မှုတစ်ခုဟု အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Because new substances formed, including a gas, that had never existed in the bottle before.",
+              "Because it made bubbles.",
+              "Because it was colorful.",
+              "Because vinegar and baking soda solution are both liquids.",
+            ],
+            optionsMy: [
+              "ပုလင်းအတွင်း ယခင်က လုံးဝ မရှိခဲ့ဖူးသော ဓာတ်ငွေ့အပါအဝင် ပစ္စည်းအသစ်များ ဖြစ်ပေါ်လာသောကြောင့်။",
+              "ပူဖောင်းများ ဖြစ်ပေါ်စေသောကြောင့်။",
+              "အရောင်စုံသောကြောင့်။",
+              "ရှာလကာရည်နှင့် အဆိုက်မီးဖုတ်ဆားရေပျော်ရည် နှစ်မျိုးစလုံးသည် အရည်ဖြစ်ကြသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- what does the passage say formed that had never existed in the bottle before?",
+              "This is Day 1's core definition -- a chemical reaction forms brand-new substances, unlike a physical change or simple mixing.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပုလင်းအတွင်း ယခင်က လုံးဝ မရှိခဲ့ဖူးသော အဘယ်အရာ ဖြစ်ပေါ်လာကြောင်း စာပိုဒ်က ဖော်ပြထားသနည်း။",
+              "ဤသည်မှာ ပထမနေ့၏ အဓိကအဓိပ္ပာယ်ဖွင့်ဆိုချက်ပင် ဖြစ်သည် -- ဓာတုတုန့်ပြန်မှုသည် ရူပနည်းပြောင်းလဲမှု (သို့) ရိုးရှင်းသောရောနှောမှုနှင့်မတူဘဲ ပစ္စည်းအသစ်များ ဖြစ်ပေါ်စေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the bottle feel slightly cooler after the reaction?",
+            questionMy:
+                "တုန့်ပြန်မှုပြီးနောက် ပုလင်းသည် အဘယ့်ကြောင့် အနည်းငယ် အေးလာခဲ့သနည်း။",
+            optionsEn: [
+              "The reaction was endothermic, absorbing thermal energy from its surroundings.",
+              "The reaction was exothermic, releasing thermal energy.",
+              "The bottle was placed in a refrigerator.",
+              "Baking soda is always cold to the touch.",
+            ],
+            optionsMy: [
+              "ဤတုန့်ပြန်မှုသည် အပူစုပ်တုန့်ပြန်မှု (endothermic) ဖြစ်ပြီး ၎င်း၏ ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်ကို စုပ်ယူသည်။",
+              "ဤတုန့်ပြန်မှုသည် အပူထုတ်တုန့်ပြန်မှု (exothermic) ဖြစ်ပြီး အပူစွမ်းအင် ထုတ်လွှတ်သည်။",
+              "ပုလင်းကို ရေခဲသေတ္တာထဲတွင် ထားခဲ့သောကြောင့်။",
+              "အဆိုက်မီးဖုတ်ဆားသည် ကိုင်လျှင် အမြဲအေးသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- which word does the passage use directly for this kind of energy change?",
+              "This is the exact same reaction and energy change discussed in Day 1's quiz question about baking soda and vinegar.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဤစွမ်းအင်ပြောင်းလဲမှုအမျိုးအစားအတွက် စာပိုဒ်က မည်သည့်စကားလုံးကို တိုက်ရိုက် အသုံးပြုထားသနည်း။",
+              "၎င်းသည် ပထမနေ့ ပဟေဋ္ဌိမေးခွန်းတွင် ဆွေးနွေးထားသော အဆိုက်မီးဖုတ်ဆားနှင့် ရှာလကာရည် တုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှု အတိအကျတည်းဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How is the ice melting on the next table different from Hnin's volcano reaction?",
+            questionMy:
+                "အနီးစားပွဲပေါ်ရှိ ရေခဲပျော်ခြင်းသည် နှင်း၏ မီးတောင်တုန့်ပြန်မှုနှင့် မည်သို့ ကွာခြားသနည်း။",
+            optionsEn: [
+              "Melting ice is a physical change (still water, just a different state) with no new substance formed, while the volcano produced substances that hadn't existed before.",
+              "Both are exactly the same kind of change.",
+              "Melting ice also produces a gas the same way the volcano does.",
+              "Melting ice is exothermic and the volcano is not.",
+            ],
+            optionsMy: [
+              "ရေခဲပျော်ခြင်းသည် ရူပနည်းပြောင်းလဲမှု (ဆက်လက် ရေသက်သက် ဖြစ်ပြီး ဒြပ်ထုအခြေအနေသာ ကွဲပြားသည်) ဖြစ်ပြီး ပစ္စည်းအသစ် မဖြစ်ပေါ်ပါ၊ မီးတောင်ကမူ ယခင်က မရှိခဲ့သော ပစ္စည်းများကို ဖြစ်ပေါ်စေသည်။",
+              "နှစ်ခုစလုံးသည် လုံးဝ တူညီသော ပြောင်းလဲမှုအမျိုးအစားပင် ဖြစ်သည်။",
+              "ရေခဲပျော်ခြင်းသည်လည်း မီးတောင်ကဲ့သို့ပင် ဓာတ်ငွေ့ ထုတ်ပေးသည်။",
+              "ရေခဲပျော်ခြင်းသည် အပူထုတ်တုန့်ပြန်မှု ဖြစ်ပြီး မီးတောင်ကမူ မဟုတ်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the fourth paragraph -- what does the passage say the melting ice still is, versus what the volcano produced?",
+              "This is Day 1's physical-change-versus-chemical-reaction question, applied directly to the two events happening side by side in the classroom.",
+            ],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပျော်နေသော ရေခဲသည် ဆက်လက် အဘယ်အရာဖြစ်နေသည်ဟု၊ မီးတောင်ကမူ အဘယ်အရာ ဖြစ်ပေါ်စေခဲ့သည်ဟု စာပိုဒ်က ဖော်ပြထားသနည်း။",
+              "ဤသည်မှာ ပထမနေ့၏ ရူပနည်းပြောင်းလဲမှုနှင့် ဓာတုတုန့်ပြန်မှု နှိုင်းယှဉ်မေးခွန်းအား စာသင်ခန်းအတွင်း တွဲဖြစ်နေသော အဖြစ်အပျက်နှစ်ခုတွင် တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What kind of energy change happens in a candle flame, according to the passage, and how does it compare to the volcano reaction?",
+            questionMy:
+                "စာပိုဒ်အရ ဖယောင်းတိုင်မီးလျှံတွင် မည်သည့်စွမ်းအင်ပြောင်းလဲမှု ဖြစ်ပျက်ပြီး မီးတောင်တုန့်ပြန်မှုနှင့် မည်သို့ ယှဉ်ကိုက်သနည်း။",
+            optionsEn: [
+              "The candle flame is exothermic (releasing heat and light), the opposite of the volcano's endothermic reaction.",
+              "The candle flame is also endothermic, just like the volcano.",
+              "The candle flame involves no energy change at all.",
+              "The candle flame is a physical change like melting ice.",
+            ],
+            optionsMy: [
+              "ဖယောင်းတိုင်မီးလျှံသည် အပူထုတ်တုန့်ပြန်မှု (exothermic) ဖြစ်ပြီး (အပူနှင့်အလင်း ထုတ်လွှတ်ပေး) မီးတောင်၏ အပူစုပ်တုန့်ပြန်မှုနှင့် ဆန့်ကျင်ဘက် ဖြစ်သည်။",
+              "ဖယောင်းတိုင်မီးလျှံသည်လည်း မီးတောင်ကဲ့သို့ပင် အပူစုပ်တုန့်ပြန်မှု ဖြစ်သည်။",
+              "ဖယောင်းတိုင်မီးလျှံတွင် စွမ်းအင်ပြောင်းလဲမှု လုံးဝ မပါဝင်ပါ။",
+              "ဖယောင်းတိုင်မီးလျှံသည် ရေခဲပျော်ခြင်းကဲ့သို့ ရူပနည်းပြောင်းလဲမှု ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- the passage directly contrasts the volcano's energy change with the candle flame's, naming both types.",
+              "Burning wax releasing heat and light is Day 1's exothermic example -- the direct opposite of the volcano's endothermic cooling.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စာပိုဒ်က မီးတောင်၏ စွမ်းအင်ပြောင်းလဲမှုကို ဖယောင်းတိုင်မီးလျှံနှင့် တိုက်ရိုက် နှိုင်းယှဉ်ကာ နှစ်မျိုးလုံးကို အမည်တွင်ထားသည်။",
+              "ဖယောင်းလောင်ကျွမ်းပြီး အပူနှင့်အလင်း ထုတ်ပေးခြင်းသည် ပထမနေ့၏ အပူထုတ်တုန့်ပြန်မှု ဥပမာဖြစ်ပြီး၊ မီးတောင်၏ အပူစုပ်တုန့်ပြန်မှု အအေးဖြစ်မှုနှင့် တိုက်ရိုက် ဆန့်ကျင်ဘက် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Chemical Reactions and Energy Changes",
+      titleMy:
+          "အပတ်စဉ် ၈ ပြန်လည်သုံးသပ်ခြင်း - ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What forms during a chemical reaction that doesn't form during a physical change?",
+          questionMy:
+              "ရူပနည်းပြောင်းလဲမှုအတွင်း မဖြစ်ပေါ်ဘဲ ဓာတုတုန့်ပြန်မှုအတွင်းမှသာ ဖြစ်ပေါ်လာသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "At least one brand-new substance",
+            "Heat, always",
+            "A different color, always",
+            "Nothing new forms in either case",
+          ],
+          optionsMy: [
+            "ပစ္စည်းအသစ် အနည်းဆုံးတစ်ခု",
+            "အမြဲတမ်း အပူ",
+            "အမြဲတမ်း အရောင်ကွဲပြားမှု",
+            "နှစ်မျိုးလုံးတွင် ပစ္စည်းအသစ် လုံးဝ မဖြစ်ပေါ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's core definition -- what does a physical change lack that a chemical reaction always has?",
+            "Heat or color change can be signs of a reaction, but they aren't always present -- a new substance always is.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ အဓိကအဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ဓာတုတုန့်ပြန်မှုတွင် အမြဲတမ်းရှိပြီး ရူပနည်းပြောင်းလဲမှုတွင် မရှိသောအရာမှာ အဘယ်နည်း။",
+            "အပူ (သို့) အရောင်ပြောင်းလဲမှုသည် တုန့်ပြန်မှု၏ အချက်ပြမှုများ ဖြစ်နိုင်သော်လည်း အမြဲတမ်း မရှိချေ -- ပစ္စည်းအသစ်မူ အမြဲရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Vinegar reacting with baking soda is which type of energy change?",
+          questionMy:
+              "ရှာလကာရည်သည် အဆိုက်မီးဖုတ်ဆားနှင့် တုန့်ပြန်ခြင်းသည် မည်သည့်စွမ်းအင်ပြောင်းလဲမှု အမျိုးအစားနည်း။",
+          optionsEn: [
+            "Endothermic",
+            "Exothermic",
+            "No energy change happens",
+            "Nuclear",
+          ],
+          optionsMy: [
+            "အပူစုပ်တုန့်ပြန်မှု",
+            "အပူထုတ်တုန့်ပြန်မှု",
+            "စွမ်းအင်ပြောင်းလဲမှု လုံးဝမရှိပါ",
+            "နျူကလီးယား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Hnin's volcano -- did the bottle feel warmer or cooler afterward?",
+            "The container cooling down means thermal energy was absorbed from the surroundings -- that's the endothermic case.",
+          ],
+          hintsMy: [
+            "နှင်း၏ မီးတောင်ကို သတိရပါ -- ထို့နောက် ပုလင်းသည် ပိုပူလာသလား၊ ပိုအေးလာသလား။",
+            "ဘူးအေးလာခြင်းသည် ပတ်ဝန်းကျင်မှ အပူစွမ်းအင် စုပ်ယူခြင်းကို ဆိုလိုသည် -- ၎င်းသည် အပူစုပ်တုန့်ပြန်မှုပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Wood burning in a fire is which type of energy change?",
+          questionMy:
+              "မီးထဲတွင် သစ်သားလောင်ကျွမ်းခြင်းသည် မည်သည့်စွမ်းအင်ပြောင်းလဲမှု အမျိုးအစားနည်း။",
+          optionsEn: [
+            "Exothermic",
+            "Endothermic",
+            "No energy change happens",
+            "Nuclear",
+          ],
+          optionsMy: [
+            "အပူထုတ်တုန့်ပြန်မှု",
+            "အပူစုပ်တုန့်ပြန်မှု",
+            "စွမ်းအင်ပြောင်းလဲမှု လုံးဝမရှိပါ",
+            "နျူကလီးယား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the candle flame and campfire examples -- do they release or absorb heat and light?",
+            "\"Exo-\" means \"out\" -- burning releases energy outward to the surroundings, the opposite of the vinegar-and-baking-soda reaction.",
+          ],
+          hintsMy: [
+            "ဖယောင်းတိုင်မီးလျှံနှင့် စခန်းမီးဥပမာများကို သတိရပါ -- ၎င်းတို့သည် အပူနှင့်အလင်းကို ထုတ်လွှတ်ကြသလား၊ စုပ်ယူကြသလား။",
+            "\"Exo-\" ဆိုသည်မှာ \"ပြင်ပသို့\" ဟု အဓိပ္ပာယ်ရှိသည် -- လောင်ကျွမ်းခြင်းက စွမ်းအင်ကို ပတ်ဝန်းကျင်သို့ ထုတ်လွှတ်ပေးပြီး ရှာလကာရည်နှင့် အဆိုက်မီးဖုတ်ဆား တုန့်ပြန်မှုနှင့် ဆန့်ကျင်ဘက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An acid reacting with a base produces a salt and what else?",
+          questionMy:
+              "အက်ဆစ်တစ်ခုသည် ဘေ့စ်တစ်ခုနှင့် တုန့်ပြန်ခြင်းက ဆားနှင့်အတူ အခြားအဘယ်အရာကို ထုတ်ပေးသနည်း။",
+          optionsEn: [
+            "Water",
+            "Only gas",
+            "Only heat, no substance",
+            "Nothing else at all",
+          ],
+          optionsMy: [
+            "ရေ",
+            "ဓာတ်ငွေ့တစ်ခုတည်း",
+            "အပူတစ်ခုတည်း၊ ပစ္စည်းမပါ",
+            "အခြားဘာမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's neutralization question -- what two things did that question name as the products of an acid-base reaction?",
+            "This is the exact same pairing from the Day 2 drag-match: Neutralization produces a salt and this other, very common substance.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ အက်ဆစ်ဓာတ်ပျက်ခြင်း မေးခွန်းကို သတိရပါ -- ထိုမေးခွန်းက အက်ဆစ်-ဘေ့စ်တုန့်ပြန်မှု၏ ရလဒ်ပစ္စည်းအဖြစ် အဘယ်နှစ်ခုကို အမည်တွင်ထားသနည်း။",
+            "၎င်းသည် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ အတွဲအတိအကျပင် ဖြစ်သည် -- အက်ဆစ်ဓာတ်ပျက်ခြင်းသည် ဆားနှင့် ဤအလွန်အသုံးများသော ပစ္စည်းအခြားတစ်ခုကို ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a chemical reaction rather than a physical change?",
+          questionMy:
+              "အောက်ပါတို့အနက် ရူပနည်းပြောင်းလဲမှုအစား ဓာတုတုန့်ပြန်မှု ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An iron nail rusting",
+            "Ice melting into water",
+            "Sugar dissolving in tea",
+            "Paper being torn in half",
+          ],
+          optionsMy: [
+            "သံသံချွန် သံချေးတက်ခြင်း",
+            "ရေခဲ ရေအဖြစ်ပျော်ခြင်း",
+            "သကြား လက်ဖက်ရည်ထဲတွင် ပျော်ဝင်ခြင်း",
+            "စာရွက်ကို နှစ်ပိုင်း ဆွဲဆုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the Day 3 sorting activity -- three of these options went into the Physical Change bucket.",
+            "Rusting forms a new substance (iron oxide) on the nail's surface, unlike melting, dissolving, or tearing, which don't create anything chemically new.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် ရူပနည်းပြောင်းလဲမှုကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "သံချေးတက်ခြင်းသည် သံချွန်၏ မျက်နှာပြင်ပေါ်တွင် ပစ္စည်းအသစ် (သံအောက်ဆိုဒ်) ကို ဖြစ်ပေါ်စေသည်၊ ပျော်ခြင်း၊ ပျော်ဝင်ခြင်း (သို့) ဆွဲဆုတ်ခြင်းတို့ကား ဓာတုနည်းအရ အသစ်တစ်ခုမျှ ဖန်တီးခြင်း မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When the chemical energy in wood is released as heat and light while burning, has energy been created, destroyed, or transferred?",
+          questionMy:
+              "သစ်သားရှိ ဓာတုစွမ်းအင်ကို လောင်ကျွမ်းနေစဉ် အပူနှင့်အလင်းအဖြစ် ထုတ်လွှတ်ချိန်၊ စွမ်းအင်သည် ဖန်တီးခံရသလား၊ ဖျက်ဆီးခံရသလား၊ (သို့) လွှဲပြောင်းခံရသလား။",
+          optionsEn: [
+            "Transferred -- the wood's chemical energy store transfers into thermal and light energy; the total amount stays the same.",
+            "Created -- new energy appears from nothing as the wood burns.",
+            "Destroyed -- the wood's energy vanishes completely and permanently.",
+            "None of the above -- burning does not involve energy at all.",
+          ],
+          optionsMy: [
+            "လွှဲပြောင်းခံရသည် -- သစ်သား၏ ဓာတုစွမ်းအင်သိုလှောင်မှုသည် အပူစွမ်းအင်နှင့် အလင်းစွမ်းအင်အဖြစ်သို့ လွှဲပြောင်းသည်၊ စုစုပေါင်းပမာဏမူ တူညီစွာ ဆက်ရှိနေသည်။",
+            "ဖန်တီးခံရသည် -- သစ်သားလောင်ကျွမ်းစဉ် ဘာမှမဲ့ကနေ စွမ်းအင်အသစ် ပေါ်လာသည်။",
+            "ဖျက်ဆီးခံရသည် -- သစ်သား၏ စွမ်းအင်သည် အပြီးအပိုင် ပျောက်ကွယ်သွားသည်။",
+            "အထက်ပါ မည်သည့်တစ်ခုမျှ မဟုတ်ပါ -- လောင်ကျွမ်းခြင်းတွင် စွမ်းအင် လုံးဝ မပါဝင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's conservation principle -- energy is never created or destroyed, only transferred between stores, no matter what process is happening.",
+            "This ties the whole term together: burning is just another example of Week 7's transfer idea, applied to a chemical reaction's energy change.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ စွမ်းအင်ထိန်းသိမ်းမှု ဥပဒေကို သတိရပါ -- မည်သည့်လုပ်ငန်းစဉ် ဖြစ်ပျက်နေစေ စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ဘဲ သိုလှောင်မှုများအကြား လွှဲပြောင်းခြင်းသာ ဖြစ်သည်။",
+            "၎င်းသည် ဤတစ်နှစ်တာသင်ခန်းစာတစ်ခုလုံးကို ပေါင်းစည်းပေးသည် -- လောင်ကျွမ်းခြင်းသည် Week 7 ၏ လွှဲပြောင်းမှုအယူအဆအား ဓာတုတုန့်ပြန်မှု၏ စွမ်းအင်ပြောင်းလဲမှုတွင် အသုံးချထားသည့် ဥပမာတစ်ခုမျှသာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ScienceTerm2 = CourseTermDef(
+  id: "course-secondary1-science-t2",
+  termNumber: 2,
+  titleEn: "Chemistry and Energy",
+  titleMy: "ဓာတုဗေဒနှင့် စွမ်းအင်",
+  certificateTitleEn: "Chemistry and Energy",
+  certificateTitleMy: "ဓာတုဗေဒနှင့် စွမ်းအင်",
+  weeks: [
+    _secondary1ScienceWeek5,
+    _secondary1ScienceWeek6,
+    _secondary1ScienceWeek7,
+    _secondary1ScienceWeek8,
   ],
 );
 
@@ -35708,9 +38488,10 @@ const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
-/// & Chemistry", Weeks 1-4) is authored so far; see
-/// [_secondary1ScienceTerm1]'s own doc comment for the week-by-week spiral.
-/// [totalWeeks] stays 36 for the same "honest progress bar" reason
+/// & Chemistry", Weeks 1-4) and Term 2 ("Chemistry and Energy", Weeks 5-8)
+/// are authored so far; see [_secondary1ScienceTerm1]'s and
+/// [_secondary1ScienceTerm2]'s own doc comments for the week-by-week
+/// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
 /// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   id: "course-secondary1-science",
@@ -35719,9 +38500,9 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary1ScienceTerm1],
+  terms: [_secondary1ScienceTerm1, _secondary1ScienceTerm2],
 );
