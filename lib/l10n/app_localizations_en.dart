@@ -485,6 +485,21 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ownerPremiumSubscribers => 'Premium Subscribers';
 
   @override
+  String get ownerCurriculumIngestionTitle => 'Publish Curriculum Modules';
+
+  @override
+  String get ownerCurriculumIngestionHint =>
+      'Paste a JSON array of learning module objects here (subject, grade, contentType, titleEn, titleMy, descriptionEn, descriptionMy, ...)';
+
+  @override
+  String get ownerCurriculumIngestionButton => 'Publish to Firestore';
+
+  @override
+  String ownerCurriculumIngestionSuccess(int count) {
+    return 'Published $count modules to Firestore.';
+  }
+
+  @override
   String get settingsTitle => 'Settings';
 
   @override

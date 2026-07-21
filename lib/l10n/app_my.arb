@@ -170,6 +170,10 @@
   "ownerTotalChildren": "စုစုပေါင်း ကလေးများ",
   "ownerTotalModules": "စုစုပေါင်း မော်ဂျူးများ",
   "ownerPremiumSubscribers": "Premium အသုံးပြုသူများ",
+  "ownerCurriculumIngestionTitle": "သင်ရိုးမာတိကာ မော်ဂျူးများ ထုတ်ပြန်ရန်",
+  "ownerCurriculumIngestionHint": "သင်ခန်းစာမော်ဂျူးများ၏ JSON array ကို ဤနေရာတွင် ကူးထည့်ပါ (subject, grade, contentType, titleEn, titleMy, descriptionEn, descriptionMy, ...)",
+  "ownerCurriculumIngestionButton": "Firestore သို့ ထုတ်ပြန်ရန်",
+  "ownerCurriculumIngestionSuccess": "မော်ဂျူး {count} ခုကို Firestore သို့ ထုတ်ပြန်ပြီးပါပြီ။",
 
   "settingsTitle": "ဆက်တင်များ",
   "settingsAccount": "အကောင့်",

@@ -489,6 +489,22 @@ class AppLocalizationsMy extends AppLocalizations {
   String get ownerPremiumSubscribers => 'Premium အသုံးပြုသူများ';
 
   @override
+  String get ownerCurriculumIngestionTitle =>
+      'သင်ရိုးမာတိကာ မော်ဂျူးများ ထုတ်ပြန်ရန်';
+
+  @override
+  String get ownerCurriculumIngestionHint =>
+      'သင်ခန်းစာမော်ဂျူးများ၏ JSON array ကို ဤနေရာတွင် ကူးထည့်ပါ (subject, grade, contentType, titleEn, titleMy, descriptionEn, descriptionMy, ...)';
+
+  @override
+  String get ownerCurriculumIngestionButton => 'Firestore သို့ ထုတ်ပြန်ရန်';
+
+  @override
+  String ownerCurriculumIngestionSuccess(int count) {
+    return 'မော်ဂျူး $count ခုကို Firestore သို့ ထုတ်ပြန်ပြီးပါပြီ။';
+  }
+
+  @override
   String get settingsTitle => 'ဆက်တင်များ';
 
   @override

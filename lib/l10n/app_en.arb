@@ -191,6 +191,13 @@
   "ownerTotalChildren": "Total Children",
   "ownerTotalModules": "Total Modules",
   "ownerPremiumSubscribers": "Premium Subscribers",
+  "ownerCurriculumIngestionTitle": "Publish Curriculum Modules",
+  "ownerCurriculumIngestionHint": "Paste a JSON array of learning module objects here (subject, grade, contentType, titleEn, titleMy, descriptionEn, descriptionMy, ...)",
+  "ownerCurriculumIngestionButton": "Publish to Firestore",
+  "ownerCurriculumIngestionSuccess": "Published {count} modules to Firestore.",
+  "@ownerCurriculumIngestionSuccess": {
+    "placeholders": { "count": { "type": "int" } }
+  },
 
   "settingsTitle": "Settings",
   "settingsAccount": "Account",

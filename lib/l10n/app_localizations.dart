@@ -1016,6 +1016,30 @@ abstract class AppLocalizations {
   /// **'Premium Subscribers'**
   String get ownerPremiumSubscribers;
 
+  /// No description provided for @ownerCurriculumIngestionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish Curriculum Modules'**
+  String get ownerCurriculumIngestionTitle;
+
+  /// No description provided for @ownerCurriculumIngestionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste a JSON array of learning module objects here (subject, grade, contentType, titleEn, titleMy, descriptionEn, descriptionMy, ...)'**
+  String get ownerCurriculumIngestionHint;
+
+  /// No description provided for @ownerCurriculumIngestionButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish to Firestore'**
+  String get ownerCurriculumIngestionButton;
+
+  /// No description provided for @ownerCurriculumIngestionSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Published {count} modules to Firestore.'**
+  String ownerCurriculumIngestionSuccess(int count);
+
   /// No description provided for @settingsTitle.
   ///
   /// In en, this message translates to:

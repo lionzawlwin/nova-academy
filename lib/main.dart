@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -17,6 +18,21 @@ import 'routing/app_router.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+  // Single highest-leverage FinOps/caching lever available on the Spark
+  // (free) plan: enable Firestore's built-in local persistence cache on
+  // every platform (IndexedDB on web via cloud_firestore_web's
+  // persistentLocalCache, on-disk LevelDB/SQLite on mobile/desktop).
+  // Repeat reads of unchanged curriculum content across app sessions are
+  // then served straight from local cache -- these cached reads do not
+  // hit the network and do not count against the daily read quota at
+  // all -- at zero cost and with zero new dependencies (cloud_firestore
+  // ships this built in).
+  FirebaseFirestore.instance.settings = const Settings(
+    persistenceEnabled: true,
+    cacheSizeBytes: Settings.CACHE_SIZE_UNLIMITED,
+  );
+
   runApp(const ProviderScope(child: NovaAcademyApp()));
 }
 
