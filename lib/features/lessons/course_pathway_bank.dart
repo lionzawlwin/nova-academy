@@ -14853,6 +14853,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
 const List<CoursePathwayDef> allCoursePathways = [
   secondary1ComputingPathway,
   secondary2ComputingPathway,
+  secondary1MathematicsPathway,
 ];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or
@@ -29895,4 +29896,1365 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
     _secondary2ComputingTerm8,
     _secondary2ComputingTerm9,
   ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 1, Week 1: "Directed Numbers"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek1 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w1",
+  weekNumber: 1,
+  titleEn: "Directed Numbers",
+  titleMy: "ဦးတည်ဂဏန်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w1-d1",
+      dayNumber: 1,
+      titleEn: "Positive and Negative Numbers",
+      titleMy: "အပေါင်းနှင့် အနုတ်ဂဏန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of the following is a negative number?",
+          questionMy:
+              "အောက်ပါနံပါတ်များအနက် အနုတ်ဂဏန်း (negative number) ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["-5", "3", "0", "10"],
+          optionsMy: ["-5", "3", "0", "10"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The temperature is 3 degrees below zero. How do we write this as a number?",
+          questionMy:
+              "အပူချိန်သည် သုညအောက် ဒီဂရီ ၃ ခု ဖြစ်ပါက ၎င်းကို ဂဏန်းဖြင့် မည်သို့ရေးသားရမည်နည်း။",
+          optionsEn: ["-3", "3", "0", "30"],
+          optionsMy: ["-3", "3", "0", "30"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which symbol correctly completes: -4 ___ 2 ?",
+          questionMy: "-4 ___ 2 ဖြစ်စေရန် မှန်ကန်သော သင်္ကေတမှာ အဘယ်နည်း။",
+          optionsEn: [">", "<", "=", "≥"],
+          optionsMy: [">", "<", "=", "≥"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A submarine is 50 metres below sea level. How is this written as a directed number?",
+          questionMy:
+              "သင်္ဘောငုပ်တစ်စင်းသည် ပင်လယ်ရေမျက်နှာပြင်အောက် ၅၀ မီတာတွင်ရှိနေပါသည်။ ၎င်းအား ဦးတည်ဂဏန်းဖြင့် မည်သို့ဖော်ပြမည်နည်း။",
+          optionsEn: ["50", "-50", "0", "-5"],
+          optionsMy: ["50", "-50", "0", "-5"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which list of numbers is ordered from smallest to largest?",
+          questionMy:
+              "အသေးဆုံးမှ အကြီးဆုံးသို့ စနစ်တကျ စီစဉ်ထားသော ဂဏန်းစဉ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "-5, -2, 0, 3",
+            "3, 0, -2, -5",
+            "-2, -5, 0, 3",
+            "0, -5, -2, 3",
+          ],
+          optionsMy: [
+            "-5, -2, 0, 3",
+            "3, 0, -2, -5",
+            "-2, -5, 0, 3",
+            "0, -5, -2, 3",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match the Directed Number Terms",
+      titleMy: "ဦးတည်ဂဏန်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w1-dm-1",
+          termEn: "Positive Number",
+          termMy: "အပေါင်းဂဏန်း",
+          matchEn: "A number greater than zero, e.g. +7",
+          matchMy: "သုညထက်ကြီးသောဂဏန်း၊ ဥပမာ +7",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w1-dm-2",
+          termEn: "Negative Number",
+          termMy: "အနုတ်ဂဏန်း",
+          matchEn: "A number less than zero, e.g. -7",
+          matchMy: "သုညထက်နည်းသောဂဏန်း၊ ဥပမာ -7",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w1-dm-3",
+          termEn: "Integer",
+          termMy: "ကိန်းပြည့်",
+          matchEn: "A whole number that can be positive, negative, or zero",
+          matchMy: "အပေါင်း၊ အနုတ် သို့မဟုတ် သုည ဖြစ်နိုင်သော ကိန်းပြည့်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w1-dm-4",
+          termEn: "Number Line",
+          termMy: "ဂဏန်းမျဉ်း",
+          matchEn:
+              "A line showing numbers in order, with negative numbers on the left and positive numbers on the right",
+          matchMy:
+              "ဂဏန်းများကို အစဉ်လိုက်ပြသည့် မျဉ်းတစ်ကြောင်း၊ အနုတ်ဂဏန်းများကို ဘယ်ဘက်တွင်၊ အပေါင်းဂဏန်းများကို ညာဘက်တွင်ထား",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w1-dm-5",
+          termEn: "Zero",
+          termMy: "သုည",
+          matchEn:
+              "The number that separates positive numbers from negative numbers",
+          matchMy: "အပေါင်းဂဏန်းနှင့် အနုတ်ဂဏန်းများကို ပိုင်းခြားပေးသောဂဏန်း",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Positive or Negative?",
+      titleMy: "စီစစ်ကြမည် - အပေါင်းလား အနုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Positive (Above Zero)", "Negative (Below Zero)"],
+        bucketsMy: ["အပေါင်း (သုညအထက်)", "အနုတ် (သုညအောက်)"],
+        items: [
+          SortingItem(
+            id: "s1math-w1-sort-1",
+            labelEn: "+10°C on a warm day",
+            labelMy: "နွေးထွေးသောနေ့၏ အပူချိန် +10°C",
+            correctBucketEn: "Positive (Above Zero)",
+            correctBucketMy: "အပေါင်း (သုညအထက်)",
+          ),
+          SortingItem(
+            id: "s1math-w1-sort-2",
+            labelEn: "Owing 20,000 kyats (a debt)",
+            labelMy: "ကျပ် ၂၀,၀၀၀ ကြွေးတင်နေခြင်း",
+            correctBucketEn: "Negative (Below Zero)",
+            correctBucketMy: "အနုတ် (သုညအောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w1-sort-3",
+            labelEn: "The 5th floor, above the ground floor",
+            labelMy: "မြေညီထပ်အထက် ၅ ထပ်မြောက်ခန်း",
+            correctBucketEn: "Positive (Above Zero)",
+            correctBucketMy: "အပေါင်း (သုညအထက်)",
+          ),
+          SortingItem(
+            id: "s1math-w1-sort-4",
+            labelEn: "3 floors below ground in a car park",
+            labelMy: "မြေညီထပ်အောက် ကားပါကင် ၃ ထပ်",
+            correctBucketEn: "Negative (Below Zero)",
+            correctBucketMy: "အနုတ် (သုညအောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w1-sort-5",
+            labelEn: "Climbing to 200m above sea level",
+            labelMy: "ပင်လယ်ရေမျက်နှာပြင်အထက် ၂၀၀ မီတာအထိ တက်ခြင်း",
+            correctBucketEn: "Positive (Above Zero)",
+            correctBucketMy: "အပေါင်း (သုညအထက်)",
+          ),
+          SortingItem(
+            id: "s1math-w1-sort-6",
+            labelEn: "-8°C on a freezing winter morning",
+            labelMy: "အေးမြသော ဆောင်းရာသီမနက်ခင်း၏ အပူချိန် -8°C",
+            correctBucketEn: "Negative (Below Zero)",
+            correctBucketMy: "အနုတ် (သုညအောက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Numbers Above and Below Zero",
+      titleMy: "စာဖတ်ခြင်း - သုညအထက်နှင့် သုညအောက်ရှိ ဂဏန်းများ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Numbers Above and Below Zero",
+        titleMy: "သုညအထက်နှင့် သုညအောက်ရှိ ဂဏန်းများ",
+        passageEn:
+            "Su Su lives in Yangon, but her uncle lives in a cold country where winter temperatures often drop below zero. One morning, her uncle sent a photo showing the thermometer at -5°C. Su Su was confused — how can a temperature be less than zero?\n\nNumbers like -5 are called negative numbers. They are less than zero and are used whenever something is \"below,\" \"owed,\" or in the \"opposite direction\" from a starting point. Numbers like 5 are called positive numbers — they are greater than zero. We can picture both types of numbers on a number line, with negative numbers on the left of zero and positive numbers on the right. The further left a number is, the smaller its value.\n\nTo compare directed numbers, always think about their position on the number line. Since -5 is to the left of -2, we write -5 < -2, even though 5 is bigger than 2 without the negative sign!\n\nAdding and subtracting directed numbers follows the number line too. If the temperature is -5°C and it rises by 3 degrees, we calculate -5 + 3 = -2°C. Subtracting a negative number is the same as adding, so -5 - (-3) = -5 + 3 = -2. Understanding directed numbers helps us make sense of temperatures, money, and heights every day.",
+        passageMy:
+            "သုသုသည် ရန်ကုန်တွင်နေထိုင်သော်လည်း သူမ၏ဦးလေးမှာ ဆောင်းရာသီတွင် အပူချိန် သုညအောက်သို့ မကြာခဏကျဆင်းတတ်သော အအေးပိုင်းနိုင်ငံတစ်နိုင်ငံတွင် နေထိုင်ပါသည်။ တစ်နေ့တွင် ဦးလေးက အပူချိန်တိုင်းကိရိယာတွင် -5°C ဟုပြနေသော ဓာတ်ပုံတစ်ပုံကို ပို့ပေးလိုက်ပါသည်။ သုသုအံ့သြသွားပါသည် — အပူချိန်သည် သုညထက်နည်းနိုင်ပါသလား။\n\n-5 ကဲ့သို့သောဂဏန်းများကို အနုတ်ဂဏန်း (negative numbers) ဟုခေါ်ပါသည်။ ၎င်းတို့သည် သုညထက်နည်းပြီး \"အောက်\" သို့မဟုတ် \"ကြွေးတင်\" သို့မဟုတ် အစပြုနေရာမှ \"ဆန့်ကျင်ဘက်ဦးတည်ချက်\" ကိုဖော်ပြရာတွင် အသုံးပြုပါသည်။ 5 ကဲ့သို့သောဂဏန်းများကို အပေါင်းဂဏန်း (positive numbers) ဟုခေါ်ပြီး သုညထက်ကြီးပါသည်။ ဂဏန်းနှစ်မျိုးလုံးကို ဂဏန်းမျဉ်းပေါ်တွင် ပုံဖော်နိုင်ပြီး အနုတ်ဂဏန်းများကို သုည၏ဘယ်ဘက်၊ အပေါင်းဂဏန်းများကို ညာဘက်တွင်ထားရှိပါသည်။ ဂဏန်းတစ်ခုသည် ဘယ်ဘက်သို့ ဝေးလေလေ ၎င်း၏တန်ဖိုးငယ်လေလေဖြစ်ပါသည်။\n\nဦးတည်ဂဏန်း (directed numbers) များကို နှိုင်းယှဉ်ရန် ဂဏန်းမျဉ်းပေါ်ရှိ ၎င်းတို့၏တည်နေရာကို အမြဲစဉ်းစားပါ။ -5 သည် -2 ၏ဘယ်ဘက်တွင်ရှိသောကြောင့် -5 < -2 ဟုရေးသားရပါမည်၊ အနုတ်လက္ခဏာမပါလျှင် 5 သည် 2 ထက်ကြီးနေသော်လည်းပင်။\n\nဦးတည်ဂဏန်းများကို ပေါင်းခြင်းနှင့် နုတ်ခြင်းသည်လည်း ဂဏန်းမျဉ်းကိုအခြေခံပါသည်။ အပူချိန်သည် -5°C ရှိပြီး ဒီဂရီ ၃ ခုတက်လာလျှင် -5 + 3 = -2°C ဟုတွက်ချက်ပါသည်။ အနုတ်ဂဏန်းတစ်ခုကို နုတ်ခြင်းသည် ပေါင်းခြင်းနှင့်အတူတူဖြစ်ပါသည်၊ ထို့ကြောင့် -5 - (-3) = -5 + 3 = -2 ဖြစ်ပါသည်။ ဦးတည်ဂဏန်းများကို နားလည်ခြင်းသည် နေ့စဉ်ဘဝတွင် အပူချိန်၊ ငွေကြေးနှင့် အမြင့်များကို နားလည်ရန် ကူညီပေးပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was unusual about the temperature in Su Su's uncle's country?",
+            questionMy:
+                "သုသု၏ဦးလေးနေထိုင်ရာနိုင်ငံ၏ အပူချိန်သည် အဘယ်ကြောင့် သုသုအား အံ့သြစေခဲ့သနည်း။",
+            optionsEn: [
+              "It was 5 degrees above zero",
+              "It was 5 degrees below zero",
+              "It was the same as Yangon",
+              "The thermometer was broken",
+            ],
+            optionsMy: [
+              "သုညထက် ဒီဂရီ ၅ ခု မြင့်နေသောကြောင့်",
+              "သုညထက် ဒီဂရီ ၅ ခု နိမ့်နေသောကြောင့်",
+              "ရန်ကုန်ကဲ့သို့ တူညီနေသောကြောင့်",
+              "အပူချိန်တိုင်းကိရိယာ ပျက်နေသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "Where are negative numbers placed on a number line?",
+            questionMy:
+                "ဂဏန်းမျဉ်းပေါ်တွင် အနုတ်ဂဏန်းများကို မည်သည့်နေရာတွင် ထားရှိသနည်း။",
+            optionsEn: [
+              "To the right of zero",
+              "To the left of zero",
+              "Above zero",
+              "They are not on the number line",
+            ],
+            optionsMy: [
+              "သုည၏ညာဘက်တွင်",
+              "သုည၏ဘယ်ဘက်တွင်",
+              "သုည၏အပေါ်တွင်",
+              "ဂဏန်းမျဉ်းပေါ်တွင် မရှိပါ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, which statement is true?",
+            questionMy:
+                "စာပိုဒ်အရ အောက်ပါတို့တွင် မှန်ကန်သောဖော်ပြချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "-5 > -2",
+              "-5 < -2",
+              "-5 = -2",
+              "-5 cannot be compared to -2",
+            ],
+            optionsMy: [
+              "-5 > -2",
+              "-5 < -2",
+              "-5 = -2",
+              "-5 ကို -2 နှင့် နှိုင်းယှဉ်၍မရပါ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "If the temperature is -5°C and it rises by 3 degrees, what is the new temperature?",
+            questionMy:
+                "အပူချိန်သည် -5°C ရှိပြီး ဒီဂရီ ၃ ခု တက်လာပါက အပူချိန်အသစ်မှာ အဘယ်မျှနည်း။",
+            optionsEn: ["-8°C", "-2°C", "2°C", "8°C"],
+            optionsMy: ["-8°C", "-2°C", "2°C", "8°C"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, subtracting a negative number is the same as ___.",
+            questionMy:
+                "စာပိုဒ်အရ အနုတ်ဂဏန်းတစ်ခုကို နုတ်ခြင်းသည် ___ နှင့်အတူတူဖြစ်သည်။",
+            optionsEn: [
+              "subtracting a positive number",
+              "adding a positive number",
+              "multiplying by zero",
+              "doing nothing",
+            ],
+            optionsMy: [
+              "အပေါင်းဂဏန်းတစ်ခုကို နုတ်ခြင်း",
+              "အပေါင်းဂဏန်းတစ်ခုကို ပေါင်းခြင်း",
+              "သုညဖြင့် မြှောက်ခြင်း",
+              "ဘာမျှမပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Directed Numbers",
+      titleMy: "အပတ်စဉ် ၁ ပြန်လည်သုံးသပ်ခြင်း - ဦးတည်ဂဏန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of the following is a negative number?",
+          questionMy: "အောက်ပါတို့တွင် အနုတ်ဂဏန်းဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["-8", "8", "0", "80"],
+          optionsMy: ["-8", "8", "0", "80"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A debt of 15,000 kyats is best represented as which number?",
+          questionMy:
+              "ကျပ် ၁၅,၀၀၀ ကြွေးတင်နေခြင်းကို ဂဏန်းဖြင့် အကောင်းဆုံးဖော်ပြရလျှင် အဘယ်သို့ရေးသင့်သနည်း။",
+          optionsEn: ["15000", "-15000", "0", "-1500"],
+          optionsMy: ["15000", "-15000", "0", "-1500"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which symbol correctly completes: -7 ___ -3 ?",
+          questionMy: "-7 ___ -3 ဖြစ်စေရန် မှန်ကန်သောသင်္ကေတမှာ အဘယ်နည်း။",
+          optionsEn: [">", "<", "=", "≥"],
+          optionsMy: [">", "<", "=", "≥"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Calculate: -6 + 4 = ?",
+          questionMy: "တွက်ချက်ပါ - -6 + 4 = ?",
+          optionsEn: ["-10", "-2", "2", "10"],
+          optionsMy: ["-10", "-2", "2", "10"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Calculate: -3 - (-5) = ?",
+          questionMy: "တွက်ချက်ပါ - -3 - (-5) = ?",
+          optionsEn: ["-8", "-2", "2", "8"],
+          optionsMy: ["-8", "-2", "2", "8"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 1, Week 2: "Factors, Multiples and Primes"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek2 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w2",
+  weekNumber: 2,
+  titleEn: "Factors, Multiples and Primes",
+  titleMy: "ပါဝင်ကိန်းများ၊ ဗဟုကိန်းများနှင့် ပင်ရင်းကိန်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w2-d1",
+      dayNumber: 1,
+      titleEn: "Finding Factors and Multiples",
+      titleMy: "ပါဝင်ကိန်းနှင့် ဗဟုကိန်းများ ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What are the factors of 12?",
+          questionMy: "၁၂ ၏ ပါဝင်ကိန်းများမှာ မည်သည့်ကိန်းများနည်း။",
+          optionsEn: [
+            "1, 2, 3, 4, 6, 12",
+            "1, 2, 3, 4, 6, 10",
+            "1, 2, 4, 6, 8, 12",
+            "1, 3, 5, 6, 12",
+          ],
+          optionsMy: [
+            "1, 2, 3, 4, 6, 12",
+            "1, 2, 3, 4, 6, 10",
+            "1, 2, 4, 6, 8, 12",
+            "1, 3, 5, 6, 12",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the smallest multiple of 8 that is greater than 50?",
+          questionMy: "၅၀ ထက်ကြီးသော ၈ ၏ အသေးဆုံးဗဟုကိန်းမှာ မည်သည့်ကိန်းနည်း။",
+          optionsEn: ["48", "52", "56", "64"],
+          optionsMy: ["48", "52", "56", "64"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these numbers is a factor of 45?",
+          questionMy:
+              "အောက်ပါကိန်းများအနက် အဘယ်ကိန်းသည် ၄၅ ၏ ပါဝင်ကိန်းဖြစ်သနည်း။",
+          optionsEn: ["6", "9", "10", "12"],
+          optionsMy: ["6", "9", "10", "12"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "How many factors does the number 24 have?",
+          questionMy: "၂၄ တွင် ပါဝင်ကိန်း စုစုပေါင်း မည်မျှရှိသနည်း။",
+          optionsEn: ["6", "7", "8", "9"],
+          optionsMy: ["6", "7", "8", "9"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the smallest common multiple of 4 and 6 (other than 0)?",
+          questionMy:
+              "၄ နှင့် ၆ တို့၏ (သုညမှလွဲ၍) အသေးဆုံး ဘုံဗဟုကိန်းမှာ မည်သည့်ကိန်းနည်း။",
+          optionsEn: ["6", "12", "18", "24"],
+          optionsMy: ["6", "12", "18", "24"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match the Number Words",
+      titleMy: "ကိန်းဆိုင်ရာ စကားလုံးများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w2-dm-1",
+          termEn: "Factor",
+          termMy: "ပါဝင်ကိန်း",
+          matchEn:
+              "A number that divides exactly into another number, with no remainder",
+          matchMy:
+              "အခြားကိန်းတစ်ခုကို ပိုင်းစားလိုက်သောအခါ အကြွင်းမကျန်ဘဲ အပြည့်အစုံ စားနိုင်သောကိန်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w2-dm-2",
+          termEn: "Multiple",
+          termMy: "ဗဟုကိန်း",
+          matchEn:
+              "The answer you get when you multiply a number by a whole number, e.g. 5, 10, 15, 20 …",
+          matchMy:
+              "ကိန်းတစ်ခုကို ကိန်းပြည့်တစ်ခုနှင့် မြှောက်လိုက်သောအခါ ရရှိသောအဖြေ၊ ဥပမာ- ၅၊ ၁၀၊ ၁၅၊ ၂၀ …",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w2-dm-3",
+          termEn: "Prime number",
+          termMy: "ပင်ရင်းကိန်း",
+          matchEn:
+              "A number greater than 1 with exactly two factors: 1 and itself, e.g. 7",
+          matchMy:
+              "၁ ထက်ကြီးပြီး ပါဝင်ကိန်း နှစ်ခုတည်း (၁ နှင့် မိမိကိုယ်တိုင်) ရှိသောကိန်း၊ ဥပမာ- ၇",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w2-dm-4",
+          termEn: "Composite number",
+          termMy: "ရောနှောကိန်း",
+          matchEn: "A number greater than 1 with more than two factors, e.g. 9",
+          matchMy: "၁ ထက်ကြီးပြီး ပါဝင်ကိန်း နှစ်ခုထက် ပိုရှိသောကိန်း၊ ဥပမာ- ၉",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w2-dm-5",
+          termEn: "Prime factorization",
+          termMy: "ပင်ရင်းကိန်းခွဲခြမ်းခြင်း",
+          matchEn:
+              "Writing a number as a product of its prime factors, e.g. 12 = 2 × 2 × 3",
+          matchMy:
+              "ကိန်းတစ်ခုကို ၎င်း၏ ပင်ရင်းကိန်းများ မြှောက်လဒ်အဖြစ် ရေးသားခြင်း၊ ဥပမာ- ၁၂ = ၂ × ၂ × ၃",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w2-d3",
+      dayNumber: 3,
+      titleEn: "Prime or Composite?",
+      titleMy: "ပင်ရင်းကိန်း ဟုတ်၊ မဟုတ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Prime", "Composite"],
+        bucketsMy: ["ပင်ရင်းကိန်း", "ရောနှောကိန်း"],
+        items: [
+          SortingItem(
+            id: "s1math-w2-sort-1",
+            labelEn: "17",
+            labelMy: "17",
+            correctBucketEn: "Prime",
+            correctBucketMy: "ပင်ရင်းကိန်း",
+          ),
+          SortingItem(
+            id: "s1math-w2-sort-2",
+            labelEn: "21",
+            labelMy: "21",
+            correctBucketEn: "Composite",
+            correctBucketMy: "ရောနှောကိန်း",
+          ),
+          SortingItem(
+            id: "s1math-w2-sort-3",
+            labelEn: "29",
+            labelMy: "29",
+            correctBucketEn: "Prime",
+            correctBucketMy: "ပင်ရင်းကိန်း",
+          ),
+          SortingItem(
+            id: "s1math-w2-sort-4",
+            labelEn: "33",
+            labelMy: "33",
+            correctBucketEn: "Composite",
+            correctBucketMy: "ရောနှောကိန်း",
+          ),
+          SortingItem(
+            id: "s1math-w2-sort-5",
+            labelEn: "41",
+            labelMy: "41",
+            correctBucketEn: "Prime",
+            correctBucketMy: "ပင်ရင်းကိန်း",
+          ),
+          SortingItem(
+            id: "s1math-w2-sort-6",
+            labelEn: "45",
+            labelMy: "45",
+            correctBucketEn: "Composite",
+            correctBucketMy: "ရောနှောကိန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Factor Trees and Number Rules",
+      titleMy: "စာဖတ်ခြင်း - ပင်ရင်းကိန်း သစ်ပင်ပုံနှင့် ကိန်းစည်းမျဉ်းများ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Number Tree",
+        titleMy: "သူရ၏ ကိန်းသစ်ပင်ပုံ",
+        passageEn:
+            "Thura loves organizing his stamp collection into neat groups. One day, his teacher asked him to organize numbers instead. She explained that every whole number is built from smaller building blocks called factors. A factor is a number that divides exactly into another number, leaving no remainder. For example, 1, 2, 3, 4, 6 and 12 are all factors of 12.\n\nMultiples work the opposite way — you find them by multiplying. The multiples of 5 are 5, 10, 15, 20, 25, and so on, forever.\n\nNext, the teacher introduced prime numbers — special numbers greater than 1 that have exactly two factors, 1 and themselves. Examples are 2, 3, 5, 7, 11 and 13. Numbers with more than two factors, such as 4, 6, 8 and 9, are called composite numbers.\n\nTo break a composite number into its prime building blocks, Thura drew a factor tree. Starting with 60, he split it into 6 × 10, then split 6 into 2 × 3, and 10 into 2 × 5. This gave him 60 = 2 × 2 × 3 × 5, the prime factorization of 60.\n\nFinally, his teacher taught him quick divisibility rules: a number is divisible by 2 if it ends in 0, 2, 4, 6 or 8; by 5 if it ends in 0 or 5; by 10 if it ends in 0; and by 3 if the sum of its digits divides evenly by 3. These tricks help Thura check numbers quickly, without long division every time.",
+        passageMy:
+            "သူရသည် မိမိစုဆောင်းထားသော တံဆိပ်ခေါင်းများကို အုပ်စုလိုက် သပ်ရပ်စွာ စီစဉ်ရသည်ကို နှစ်သက်သည်။ တစ်နေ့သ၌ ဆရာမက သူ့အား ကိန်းဂဏန်းများကိုလည်း ထိုနည်းတူ စီစဉ်ခိုင်းလိုက်သည်။ ဆရာမက ကိန်းပြည့်တိုင်းသည် ပါဝင်ကိန်းဟုခေါ်သော ပိုသေးငယ်သည့် အစိတ်အပိုင်းများဖြင့် ဖွဲ့စည်းထားသည်ဟု ရှင်းပြသည်။ ပါဝင်ကိန်းဆိုသည်မှာ အခြားကိန်းတစ်ခုကို အကြွင်းမကျန် အပြည့်အစုံ ပိုင်းစားနိုင်သောကိန်းဖြစ်သည်။ ဥပမာအားဖြင့် ၁၊ ၂၊ ၃၊ ၄၊ ၆ နှင့် ၁၂ တို့သည် ၁၂ ၏ ပါဝင်ကိန်းများ ဖြစ်ကြသည်။\n\nဗဟုကိန်းများကမူ ဆန့်ကျင်ဘက်လမ်းကြောင်းဖြင့် ရှာရသည် — ကိန်းတစ်ခုကို မြှောက်ခြင်းဖြင့် ရရှိသည်။ ၅ ၏ ဗဟုကိန်းများမှာ ၅၊ ၁၀၊ ၁၅၊ ၂၀၊ ၂၅ ဟူ၍ အဆုံးမရှိ ဆက်လက်တိုးလာမည် ဖြစ်သည်။\n\nထို့နောက် ဆရာမက ပင်ရင်းကိန်းများကို မိတ်ဆက်ပေးသည် — ၎င်းတို့မှာ ၁ ထက်ကြီးပြီး ပါဝင်ကိန်း နှစ်ခုတည်း (၁ နှင့် မိမိကိုယ်တိုင်) သာရှိသော အထူးကိန်းများ ဖြစ်ကြသည်။ ဥပမာများမှာ ၂၊ ၃၊ ၅၊ ၇၊ ၁၁ နှင့် ၁၃ တို့ဖြစ်သည်။ ပါဝင်ကိန်း နှစ်ခုထက် ပိုရှိသော ၄၊ ၆၊ ၈ နှင့် ၉ ကဲ့သို့သော ကိန်းများကို ရောနှောကိန်းဟု ခေါ်သည်။\n\nရောနှောကိန်းတစ်ခုကို ၎င်း၏ ပင်ရင်းကိန်း အစိတ်အပိုင်းများအဖြစ် ခွဲခြမ်းရန် သူရသည် ကိန်းသစ်ပင်ပုံကို ရေးဆွဲသည်။ ၆၀ မှစတင်၍ ၎င်းကို ၆ × ၁၀ အဖြစ် ခွဲပြီး ၆ ကို ၂ × ၃ အဖြစ်လည်းကောင်း၊ ၁၀ ကို ၂ × ၅ အဖြစ်လည်းကောင်း ဆက်လက်ခွဲထုတ်လိုက်သည်။ ဤသို့ဖြင့် ၆၀ = ၂ × ၂ × ၃ × ၅ ဟူသော ၆၀ ၏ ပင်ရင်းကိန်းခွဲခြမ်းချက်ကို ရရှိလာသည်။\n\nနောက်ဆုံးတွင် ဆရာမက ကိန်းများကို အမြန်စစ်ဆေးနိုင်သော စားနိုင်မှုစည်းမျဉ်းများကို သင်ပေးသည် — ကိန်းတစ်ခုသည် ၀၊ ၂၊ ၄၊ ၆ သို့မဟုတ် ၈ ဖြင့်အဆုံးသတ်လျှင် ၂ ဖြင့်စားနိုင်ပြီး၊ ၀ သို့မဟုတ် ၅ ဖြင့်အဆုံးသတ်လျှင် ၅ ဖြင့်စားနိုင်ပြီး၊ ၀ ဖြင့်အဆုံးသတ်လျှင် ၁၀ ဖြင့်စားနိုင်ပြီး၊ ဂဏန်းတစ်လုံးစီ၏ ပေါင်းလဒ်သည် ၃ နှင့် အညီအညွတ်စားနိုင်လျှင် ၃ ဖြင့်စားနိုင်သည်။ ဤနည်းများသည် သူရအား ရှည်လျားသော စားဆက်တွက်ချက်မှုမပြုဘဲ ကိန်းများကို လျင်မြန်စွာ စစ်ဆေးနိုင်ရန် အထောက်အကူပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What is a factor, according to the passage?",
+            questionMy: "စာပိုဒ်အရ ပါဝင်ကိန်းဆိုသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A number you add to get another number",
+              "A number that divides exactly into another number, with no remainder",
+              "A number that is always bigger than the other number",
+              "A decimal part of a number",
+            ],
+            optionsMy: [
+              "အခြားကိန်းတစ်ခု ရရှိရန် ပေါင်းရသောကိန်း",
+              "အခြားကိန်းတစ်ခုကို အကြွင်းမကျန် အပြည့်အစုံ ပိုင်းစားနိုင်သောကိန်း",
+              "အခြားကိန်းထက် အမြဲကြီးမားသောကိန်း",
+              "ကိန်းတစ်ခု၏ ဒသမကိန်းအပိုင်းအစ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the multiples of 5?",
+            questionMy: "စာပိုဒ်အရ ၅ ၏ ဗဟုကိန်းများမှာ မည်သည့်ကိန်းများနည်း။",
+            optionsEn: [
+              "5, 10, 15, 20, 25",
+              "5, 10, 20, 25, 30",
+              "1, 5, 10, 15",
+              "5, 15, 25, 35",
+            ],
+            optionsMy: [
+              "5, 10, 15, 20, 25",
+              "5, 10, 20, 25, 30",
+              "1, 5, 10, 15",
+              "5, 15, 25, 35",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many factors does a prime number have?",
+            questionMy: "ပင်ရင်းကိန်းတစ်ခုတွင် ပါဝင်ကိန်း မည်မျှရှိသနည်း။",
+            optionsEn: ["1", "2", "3", "More than 3"],
+            optionsMy: ["1", "2", "3", "3 ထက်ပို၍"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the prime factorization of 60, according to the passage?",
+            questionMy: "စာပိုဒ်အရ ၆၀ ၏ ပင်ရင်းကိန်းခွဲခြမ်းချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "2 × 3 × 5 × 5",
+              "2 × 2 × 3 × 5",
+              "2 × 3 × 3 × 5",
+              "2 × 2 × 5 × 5",
+            ],
+            optionsMy: [
+              "2 × 3 × 5 × 5",
+              "2 × 2 × 3 × 5",
+              "2 × 3 × 3 × 5",
+              "2 × 2 × 5 × 5",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which divisibility rule did the passage give for the number 3?",
+            questionMy:
+                "၃ ဖြင့်စားနိုင်ခြင်းအတွက် စာပိုဒ်တွင် ဖော်ပြထားသော စည်းမျဉ်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The number ends in 0 or 5",
+              "The number ends in an even digit",
+              "The sum of its digits divides evenly by 3",
+              "The number must be bigger than 3",
+            ],
+            optionsMy: [
+              "ကိန်းသည် ၀ သို့မဟုတ် ၅ ဖြင့် အဆုံးသတ်ခြင်း",
+              "ကိန်းသည် စုံဂဏန်းဖြင့် အဆုံးသတ်ခြင်း",
+              "ဂဏန်းတစ်လုံးစီ၏ ပေါင်းလဒ်သည် ၃ နှင့် အညီအညွတ်စားနိုင်ခြင်း",
+              "ကိန်းသည် ၃ ထက် ကြီးရမည်ဖြစ်ခြင်း",
+            ],
+            correctIndex: 2,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Factors, Multiples and Primes",
+      titleMy:
+          "၂ ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - ပါဝင်ကိန်း၊ ဗဟုကိန်းနှင့် ပင်ရင်းကိန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What are the factors of 18?",
+          questionMy: "၁၈ ၏ ပါဝင်ကိန်းများမှာ မည်သည့်ကိန်းများနည်း။",
+          optionsEn: [
+            "1, 2, 3, 6, 9, 18",
+            "1, 2, 3, 6, 9, 12",
+            "1, 2, 4, 6, 9, 18",
+            "1, 3, 6, 9, 12, 18",
+          ],
+          optionsMy: [
+            "1, 2, 3, 6, 9, 18",
+            "1, 2, 3, 6, 9, 12",
+            "1, 2, 4, 6, 9, 18",
+            "1, 3, 6, 9, 12, 18",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these numbers is prime?",
+          questionMy:
+              "အောက်ပါကိန်းများအနက် အဘယ်ကိန်းသည် ပင်ရင်းကိန်း ဖြစ်သနည်း။",
+          optionsEn: ["21", "23", "25", "27"],
+          optionsMy: ["21", "23", "25", "27"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What is the prime factorization of 36?",
+          questionMy: "၃၆ ၏ ပင်ရင်းကိန်းခွဲခြမ်းချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "2 × 2 × 3 × 3",
+            "2 × 3 × 3 × 3",
+            "2 × 2 × 2 × 3",
+            "2 × 2 × 9",
+          ],
+          optionsMy: [
+            "2 × 2 × 3 × 3",
+            "2 × 3 × 3 × 3",
+            "2 × 2 × 2 × 3",
+            "2 × 2 × 9",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these numbers is divisible by both 3 and 5?",
+          questionMy:
+              "အောက်ပါကိန်းများအနက် အဘယ်ကိန်းသည် ၃ နှင့် ၅ နှစ်ခုစလုံးဖြင့် စားနိုင်သနည်း။",
+          optionsEn: ["40", "45", "51", "52"],
+          optionsMy: ["40", "45", "51", "52"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Is 51 a prime number or a composite number?",
+          questionMy: "၅၁ သည် ပင်ရင်းကိန်း ဖြစ်သလား၊ ရောနှောကိန်း ဖြစ်သလား။",
+          optionsEn: [
+            "Prime, because it is an odd number",
+            "Composite, because 51 = 3 × 17",
+            "Prime, because it ends in 1",
+            "Composite, because it is greater than 50",
+          ],
+          optionsMy: [
+            "ပင်ရင်းကိန်း ဖြစ်သည်၊ အဘယ်ကြောင့်ဆိုသော် ၎င်းသည် ဂဏန်းမကိန်း ဖြစ်သောကြောင့်",
+            "ရောနှောကိန်း ဖြစ်သည်၊ အဘယ်ကြောင့်ဆိုသော် ၅၁ = ၃ × ၁၇ ဖြစ်သောကြောင့်",
+            "ပင်ရင်းကိန်း ဖြစ်သည်၊ အဘယ်ကြောင့်ဆိုသော် ၁ ဖြင့် အဆုံးသတ်သောကြောင့်",
+            "ရောနှောကိန်း ဖြစ်သည်၊ အဘယ်ကြောင့်ဆိုသော် ၅၀ ထက်ကြီးသောကြောင့်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 1, Week 3: "Powers, Roots and Order of
+// Operations"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek3 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w3",
+  weekNumber: 3,
+  titleEn: "Powers, Roots and Order of Operations",
+  titleMy: "ထပ်ကိန်း၊ မူလများနှင့် လုပ်ဆောင်ချက်အစီအစဉ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w3-d1",
+      dayNumber: 1,
+      titleEn: "Squares, Cubes and BODMAS Quiz",
+      titleMy: "စတုရန်း၊ ကုဗနှင့် BODMAS ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is 7²?",
+          questionMy: "7² သည် မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["14", "49", "21", "36"],
+          optionsMy: ["14", "49", "21", "36"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What is the cube root of 27 (³√27)?",
+          questionMy: "27 ၏ ကုဗမူလ (³√27) သည် မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["2", "3", "9", "27"],
+          optionsMy: ["2", "3", "9", "27"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using order of operations and your Week 1 directed-number skills, work out: −3 + 4 × 2",
+          questionMy:
+              "လုပ်ဆောင်ချက် အစီအစဉ် (order of operations) နှင့် Week 1 က သင်ယူခဲ့သော ဂဏန်းအပေါင်းအနုတ် (directed numbers) ကျွမ်းကျင်မှုကို သုံးပြီး ဖြေရှင်းပါ - −3 + 4 × 2",
+          optionsEn: ["5", "2", "−14", "8"],
+          optionsMy: ["5", "2", "−14", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combine squaring with a negative number (like in Week 1) to solve: (−2)² − 5",
+          questionMy:
+              "Week 1 ကလို အနုတ်ဂဏန်းတစ်ခုကို စတုရန်းပြုပြီး ဖြေရှင်းပါ - (−2)² − 5",
+          optionsEn: ["−1", "9", "−9", "1"],
+          optionsMy: ["−1", "9", "−9", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Work out: 10 − (2 + 3) × 2",
+          questionMy: "ဖြေရှင်းပါ - 10 − (2 + 3) × 2",
+          optionsEn: ["0", "7", "20", "15"],
+          optionsMy: ["0", "7", "20", "15"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match the Powers and Roots",
+      titleMy: "ထပ်ကိန်းနှင့် မူလများ ကိုက်ညှိပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w3-dm-1",
+          termEn: "5²",
+          termMy: "5²",
+          matchEn: "25 (5 × 5)",
+          matchMy: "25 (5 × 5)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w3-dm-2",
+          termEn: "√81",
+          termMy: "√81",
+          matchEn: "9 (because 9 × 9 = 81)",
+          matchMy: "9 (9 × 9 = 81 ဖြစ်လို့)",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w3-dm-3",
+          termEn: "4³",
+          termMy: "4³",
+          matchEn: "64 (4 × 4 × 4)",
+          matchMy: "64 (4 × 4 × 4)",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w3-dm-4",
+          termEn: "³√125",
+          termMy: "³√125",
+          matchEn: "5 (because 5 × 5 × 5 = 125)",
+          matchMy: "5 (5 × 5 × 5 = 125 ဖြစ်လို့)",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w3-dm-5",
+          termEn: "BODMAS",
+          termMy: "BODMAS",
+          matchEn:
+              "Brackets, Orders, Division/Multiplication, Addition/Subtraction",
+          matchMy:
+              "ကွင်း၊ ထပ်ကိန်း/မူလ၊ စား/မြှောက် (ဘယ်မှညာ)၊ ပေါင်း/နုတ် (ဘယ်မှညာ)",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Perfect Square or Perfect Cube?",
+      titleMy: "စိစစ်ခွဲခြားပါ - ပြည့်စုံစတုရန်း (သို့) ပြည့်စုံကုဗ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Perfect Square", "Perfect Cube"],
+        bucketsMy: ["ပြည့်စုံစတုရန်းဂဏန်း", "ပြည့်စုံကုဗဂဏန်း"],
+        items: [
+          SortingItem(
+            id: "s1math-w3-sort-1",
+            labelEn: "25",
+            labelMy: "25",
+            correctBucketEn: "Perfect Square",
+            correctBucketMy: "ပြည့်စုံစတုရန်းဂဏန်း",
+          ),
+          SortingItem(
+            id: "s1math-w3-sort-2",
+            labelEn: "49",
+            labelMy: "49",
+            correctBucketEn: "Perfect Square",
+            correctBucketMy: "ပြည့်စုံစတုရန်းဂဏန်း",
+          ),
+          SortingItem(
+            id: "s1math-w3-sort-3",
+            labelEn: "100",
+            labelMy: "100",
+            correctBucketEn: "Perfect Square",
+            correctBucketMy: "ပြည့်စုံစတုရန်းဂဏန်း",
+          ),
+          SortingItem(
+            id: "s1math-w3-sort-4",
+            labelEn: "8",
+            labelMy: "8",
+            correctBucketEn: "Perfect Cube",
+            correctBucketMy: "ပြည့်စုံကုဗဂဏန်း",
+          ),
+          SortingItem(
+            id: "s1math-w3-sort-5",
+            labelEn: "27",
+            labelMy: "27",
+            correctBucketEn: "Perfect Cube",
+            correctBucketMy: "ပြည့်စုံကုဗဂဏန်း",
+          ),
+          SortingItem(
+            id: "s1math-w3-sort-6",
+            labelEn: "125",
+            labelMy: "125",
+            correctBucketEn: "Perfect Cube",
+            correctBucketMy: "ပြည့်စုံကုဗဂဏန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w3-d4",
+      dayNumber: 4,
+      titleEn: "Powers, Roots, and the Order of Operations",
+      titleMy: "ထပ်ကိန်း၊ မူလများနှင့် လုပ်ဆောင်ချက်အစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Powers, Roots, and the Order of Operations",
+        titleMy: "ထပ်ကိန်း၊ မူလများနှင့် လုပ်ဆောင်ချက်အစီအစဉ်",
+        passageEn:
+            "This week, Kaung Myat is learning about powers and roots. A square number comes from multiplying a number by itself: 6² means 6 × 6 = 36. A cube number multiplies a number by itself three times: 4³ means 4 × 4 × 4 = 64. The opposite of squaring is finding a square root (√), and the opposite of cubing is finding a cube root (³√). For example, √49 = 7 because 7 × 7 = 49, and ³√8 = 2 because 2 × 2 × 2 = 8.\n\nBut what happens when a problem has several operations mixed together? That's where BODMAS helps: solve Brackets first, then Orders (powers and roots), then Division and Multiplication from left to right, and finally Addition and Subtraction from left to right.\n\nKaung Myat's teacher gave him a tricky problem that combines BODMAS with the directed-number skills from Week 1: (−4)² + 6 ÷ 2. First he solves the Order: (−4)² = (−4) × (−4) = 16. Remember from Week 1 that a negative times a negative gives a positive! Next, Division: 6 ÷ 2 = 3. Finally, Addition: 16 + 3 = 19.\n\nBy combining powers, roots, and BODMAS with directed numbers, Kaung Myat can solve even the trickiest expressions step by step.",
+        passageMy:
+            "ဒီအပတ်မှာ ကောင်းမြတ် သည် ထပ်ကိန်း (powers) နှင့် မူလ (roots) များအကြောင်း လေ့လာနေပါသည်။ စတုရန်းဂဏန်း (square number) ဆိုသည်မှာ ဂဏန်းတစ်ခုကို ကိုယ်နှင့်ကိုယ် မြှောက်လိုက်သည့် အဖြေဖြစ်သည် - 6² ဆိုသည်မှာ 6 × 6 = 36 ကို ဆိုလိုပါသည်။ ကုဗဂဏန်း (cube number) ကား ဂဏန်းတစ်ခုကို သုံးကြိမ် မြှောက်လိုက်ခြင်းဖြစ်သည် - 4³ ဆိုသည်မှာ 4 × 4 × 4 = 64 ဖြစ်သည်။ စတုရန်းပြုခြင်း၏ ဆန့်ကျင်ဘက်မှာ စတုရန်းမူလ (√) ရှာခြင်းဖြစ်ပြီး၊ ကုဗပြုခြင်း၏ ဆန့်ကျင်ဘက်မှာ ကုဗမူလ (³√) ရှာခြင်း ဖြစ်ပါသည်။ ဥပမာ - √49 = 7 ဖြစ်သည်၊ အကြောင်းမှာ 7 × 7 = 49 ဖြစ်သောကြောင့်ဖြစ်သည်။ ³√8 = 2 ဖြစ်သည်၊ အကြောင်းမှာ 2 × 2 × 2 = 8 ဖြစ်သောကြောင့်ဖြစ်သည်။\n\nဒါပေမယ့် လုပ်ဆောင်ချက် များစွာ ရောနှောပါလာလျှင် မည်သို့ ဖြေရှင်းမည်နည်း။ ဤနေရာတွင် BODMAS က ကူညီပေးသည် - ကွင်း (Brackets) ကို အရင်ဆုံး ဖြေရှင်းပါ၊ ထို့နောက် ထပ်ကိန်းနှင့် မူလ (Orders) ကို ဖြေရှင်းပါ၊ ထို့နောက် စား/မြှောက် ကို ဘယ်မှညာ အစဉ်လိုက် ဖြေရှင်းပါ၊ နောက်ဆုံးတွင် ပေါင်း/နုတ် ကို ဘယ်မှညာ အစဉ်လိုက် ဖြေရှင်းပါ။\n\nကောင်းမြတ် ၏ဆရာက Week 1 က ဂဏန်းအပေါင်းအနုတ် (directed numbers) ကျွမ်းကျင်မှုနှင့် BODMAS ကို ပေါင်းစပ်ထားသည့် ခက်ခဲသော ပုစ္ဆာတစ်ပုဒ်ကို ပေးလိုက်ပါသည် - (−4)² + 6 ÷ 2။ အရင်ဆုံး Order ကို ဖြေရှင်းသည် - (−4)² = (−4) × (−4) = 16 ။ Week 1 က မှတ်မိပါသလား - အနုတ်နှင့် အနုတ် မြှောက်ပါက အပေါင်းရလဒ် ရမည်ဆိုသည်ကို! နောက်တစ်ဆင့်တွင် စားခြင်း - 6 ÷ 2 = 3 ။ နောက်ဆုံးတွင် ပေါင်းခြင်း - 16 + 3 = 19 ။\n\nထပ်ကိန်း၊ မူလ နှင့် BODMAS ကို ဂဏန်းအပေါင်းအနုတ်တို့နှင့် ပေါင်းစပ်ခြင်းဖြင့် ကောင်းမြတ် သည် အခက်ခဲဆုံး ဖော်ပြချက်များကိုပင် အဆင့်ဆင့် ဖြေရှင်းနိုင်ပါပြီ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is 6²?",
+            questionMy: "စာပိုဒ်အရ 6² သည် မည်မျှ ဖြစ်သနည်း။",
+            optionsEn: ["36", "12", "18", "66"],
+            optionsMy: ["36", "12", "18", "66"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is 4³?",
+            questionMy: "စာပိုဒ်အရ 4³ သည် မည်မျှ ဖြစ်သနည်း။",
+            optionsEn: ["64", "12", "16", "24"],
+            optionsMy: ["64", "12", "16", "24"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is √49?",
+            questionMy: "စာပိုဒ်အရ √49 သည် မည်မျှ ဖြစ်သနည်း။",
+            optionsEn: ["7", "24.5", "49", "14"],
+            optionsMy: ["7", "24.5", "49", "14"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "In BODMAS, which operation should be solved first?",
+            questionMy:
+                "BODMAS တွင် မည်သည့် လုပ်ဆောင်ချက်ကို အရင်ဆုံး ဖြေရှင်းသင့်သနည်း။",
+            optionsEn: ["Brackets", "Addition", "Division", "Orders"],
+            optionsMy: [
+              "ကွင်း (Brackets)",
+              "ပေါင်းခြင်း",
+              "စားခြင်း",
+              "ထပ်ကိန်း/မူလ (Orders)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "In the worked example (−4)² + 6 ÷ 2, what does (−4)² equal, using the Week 1 rule that a negative times a negative is positive?",
+            questionMy:
+                "ပုစ္ဆာနမူနာ (−4)² + 6 ÷ 2 တွင်၊ Week 1 ၏ စည်းမျဉ်း (အနုတ် × အနုတ် = အပေါင်း) ကို သုံးပါက (−4)² သည် မည်မျှ ဖြစ်သနည်း။",
+            optionsEn: ["16", "−16", "8", "−8"],
+            optionsMy: ["16", "−16", "8", "−8"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Powers, Roots and BODMAS",
+      titleMy: "Week 3 ပြန်လည်သုံးသပ်ခြင်း - ထပ်ကိန်း၊ မူလနှင့် BODMAS",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is 9²?",
+          questionMy: "9² သည် မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["81", "18", "72", "99"],
+          optionsMy: ["81", "18", "72", "99"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is ³√64?",
+          questionMy: "³√64 သည် မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["4", "8", "16", "2"],
+          optionsMy: ["4", "8", "16", "2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these numbers is a perfect cube?",
+          questionMy:
+              "အောက်ပါဂဏန်းများအနက် မည်သည်က ပြည့်စုံကုဗဂဏန်း ဖြစ်သနည်း။",
+          optionsEn: ["27", "20", "50", "90"],
+          optionsMy: ["27", "20", "50", "90"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Solve using BODMAS and your Week 1 directed-number skills: 5 − 2 × (−3)",
+          questionMy:
+              "BODMAS နှင့် Week 1 က ဂဏန်းအပေါင်းအနုတ် ကျွမ်းကျင်မှုကို သုံးပြီး ဖြေရှင်းပါ - 5 − 2 × (−3)",
+          optionsEn: ["11", "−1", "9", "1"],
+          optionsMy: ["11", "−1", "9", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve: (−3)² − 4 × 2",
+          questionMy: "ဖြေရှင်းပါ - (−3)² − 4 × 2",
+          optionsEn: ["1", "−1", "17", "−17"],
+          optionsMy: ["1", "−1", "17", "−17"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 1, Week 4 (Capstone): "Putting It All
+// Together: Number Skills Challenge"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek4 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w4",
+  weekNumber: 4,
+  titleEn: "Putting It All Together: Number Skills Challenge",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း - ဂဏန်းကျွမ်းကျင်မှု စိန်ခေါ်မှု",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w4-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Step Expressions Quiz",
+      titleMy: "အဆင့်ဆင့်တွက်ချက်မှု ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Just like in Week 1, remember the rules for directed numbers. Combine that with Week 3's order of operations to evaluate: −3 + 4 × (−2)",
+          questionMy:
+              "၁ပတ်မြောက်လိုပဲ အလားအလားဂဏန်းစည်းမျဉ်းတွေကို သတိရပါ။ ၃ပတ်မြောက်ရဲ့ တွက်ချက်မှုအစီအစဉ်နဲ့ ပေါင်းစပ်ပြီး −3 + 4 × (−2) ကို ဖြေရှင်းပါ။",
+          optionsEn: ["−11", "−14", "5", "11"],
+          optionsMy: ["−11", "−14", "5", "11"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Remember Week 1's negative number rules and Week 3's brackets-first rule. Evaluate: (−5 + 2) × (−3) − 4",
+          questionMy:
+              "၁ပတ်မြောက်ရဲ့ အနုတ်ကိန်းစည်းမျဉ်းများနှင့် ၃ပတ်မြောက်ရဲ့ ကွင်းစကွက်ကို အရင်ဖြေရမည့်စည်းမျဉ်းကို သတိရပါ။ (−5 + 2) × (−3) − 4 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["5", "−5", "13", "−13"],
+          optionsMy: ["5", "−5", "13", "−13"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's prime factorization method, find the HCF of 24 and 36.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ ပင်ရင်းကိန်းချေနည်းလမ်းကိုသုံးပြီး ၂၄ နှင့် ၃၆ ၏ HCF ကို ရှာပါ။",
+          optionsEn: ["12", "6", "72", "4"],
+          optionsMy: ["12", "6", "72", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's prime factorization method, find the LCM of 8 and 12.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ ပင်ရင်းကိန်းချေနည်းလမ်းကိုသုံးပြီး ၈ နှင့် ၁၂ ၏ LCM ကို ရှာပါ။",
+          optionsEn: ["24", "96", "4", "48"],
+          optionsMy: ["24", "96", "4", "48"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combine skills from Weeks 1–3: First find the LCM of 6 and 9 (Week 2), then evaluate LCM − 3 × (−4) using order of operations (Week 3) and directed number rules (Week 1).",
+          questionMy:
+              "၁ပတ်မြောက်မှ ၃ပတ်မြောက်အထိ ကျွမ်းကျင်မှုများကို ပေါင်းစပ်ပါ − ပထမဦးစွာ ၆ နှင့် ၉ ၏ LCM ကို ရှာပါ (၂ပတ်မြောက်)၊ ပြီးရင် တွက်ချက်မှုအစီအစဉ် (၃ပတ်မြောက်) နှင့် အလားအလားဂဏန်းစည်းမျဉ်း (၁ပတ်မြောက်) သုံးပြီး LCM − 3 × (−4) ကို ဖြေရှင်းပါ။",
+          optionsEn: ["30", "−30", "6", "42"],
+          optionsMy: ["30", "−30", "6", "42"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match the Number Skills",
+      titleMy: "ဂဏန်းကျွမ်းကျင်မှုများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w4-dm-1",
+          termEn:
+              "Week 2 skill: Find the HCF of 18 and 24 using prime factorization",
+          termMy:
+              "၂ပတ်မြောက် ကျွမ်းကျင်မှု - ပင်ရင်းကိန်းချေဖြင့် ၁၈ နှင့် ၂၄ ၏ HCF ကို ရှာပါ",
+          matchEn: "6",
+          matchMy: "6",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w4-dm-2",
+          termEn:
+              "Week 2 skill: Find the LCM of 4 and 10 using prime factorization",
+          termMy:
+              "၂ပတ်မြောက် ကျွမ်းကျင်မှု - ပင်ရင်းကိန်းချေဖြင့် ၄ နှင့် ၁၀ ၏ LCM ကို ရှာပါ",
+          matchEn: "20",
+          matchMy: "20",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w4-dm-3",
+          termEn: "Week 1 + Week 3: Evaluate (−6) × 3 + 2",
+          termMy: "၁ပတ်မြောက် + ၃ပတ်မြောက် - (−6) × 3 + 2 ကို တွက်ပါ",
+          matchEn: "−16",
+          matchMy: "−16",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w4-dm-4",
+          termEn: "Week 1 + Week 3: Evaluate 20 ÷ (−4) − (−5)",
+          termMy: "၁ပတ်မြောက် + ၃ပတ်မြောက် - 20 ÷ (−4) − (−5) ကို တွက်ပါ",
+          matchEn: "0",
+          matchMy: "0",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w4-dm-5",
+          termEn: "Week 1 + Week 3: Evaluate −15 + (−9) ÷ 3",
+          termMy: "၁ပတ်မြောက် + ၃ပတ်မြောက် - −15 + (−9) ÷ 3 ကို တွက်ပါ",
+          matchEn: "−18",
+          matchMy: "−18",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w4-d3",
+      dayNumber: 3,
+      titleEn: "HCF or LCM? Sort It Out",
+      titleMy: "HCF လား LCM လား? ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "HCF (Highest Common Factor)",
+          "LCM (Lowest Common Multiple)",
+        ],
+        bucketsMy: [
+          "HCF (အများဆုံးဘုံကိန်းချေ)",
+          "LCM (အနည်းဆုံးဘုံပွားကိန်း)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w4-sort-1",
+            labelEn:
+                "Week 1 + Week 2: Largest number dividing both −30 and 45 exactly (use absolute values first)",
+            labelMy:
+                "၁ပတ်မြောက် + ၂ပတ်မြောက် - −30 နှင့် 45 နှစ်လုံးစလုံးကို အကြွင်းမဲ့စားနိုင်သည့် အကြီးဆုံးကိန်း (ပထမဦးစွာ အကြွင်းတန်ဖိုးယူပါ)",
+            correctBucketEn: "HCF (Highest Common Factor)",
+            correctBucketMy: "HCF (အများဆုံးဘုံကိန်းချေ)",
+          ),
+          SortingItem(
+            id: "s1math-w4-sort-2",
+            labelEn:
+                "Week 1 + Week 2: Smallest positive number that both −8 and 12 divide into exactly (use absolute values first)",
+            labelMy:
+                "၁ပတ်မြောက် + ၂ပတ်မြောက် - −8 နှင့် 12 နှစ်လုံးစလုံးက အကြွင်းမဲ့စားနိုင်သည့် အငယ်ဆုံးအပေါင်းကိန်း (ပထမဦးစွာ အကြွင်းတန်ဖိုးယူပါ)",
+            correctBucketEn: "LCM (Lowest Common Multiple)",
+            correctBucketMy: "LCM (အနည်းဆုံးဘုံပွားကိန်း)",
+          ),
+          SortingItem(
+            id: "s1math-w4-sort-3",
+            labelEn:
+                "Week 2 method: Multiply only the lowest powers of the primes common to both numbers",
+            labelMy:
+                "၂ပတ်မြောက်နည်းလမ်း - ကိန်းနှစ်လုံးလုံးတွင် ဘုံဖြစ်သော ပင်ရင်းကိန်းများ၏ အနိမ့်ဆုံးထပ်ကိန်းများကိုသာ မြှောက်ပါ",
+            correctBucketEn: "HCF (Highest Common Factor)",
+            correctBucketMy: "HCF (အများဆုံးဘုံကိန်းချေ)",
+          ),
+          SortingItem(
+            id: "s1math-w4-sort-4",
+            labelEn:
+                "Week 2 method: Multiply the highest powers of every prime that appears in either number",
+            labelMy:
+                "၂ပတ်မြောက်နည်းလမ်း - ကိန်းနှစ်လုံးထဲမှ တစ်လုံးလုံးတွင် ပါဝင်သော ပင်ရင်းကိန်းတိုင်း၏ အမြင့်ဆုံးထပ်ကိန်းများကို မြှောက်ပါ",
+            correctBucketEn: "LCM (Lowest Common Multiple)",
+            correctBucketMy: "LCM (အနည်းဆုံးဘုံပွားကိန်း)",
+          ),
+          SortingItem(
+            id: "s1math-w4-sort-5",
+            labelEn:
+                "Real-life problem: Two bells ring every 4 seconds and every 6 seconds — when will they next ring together?",
+            labelMy:
+                "လက်တွေ့ဘဝပြဿနာ - ခေါင်းလောင်းနှစ်လုံးသည် ၄စက္ကန့်တိုင်းနှင့် ၆စက္ကန့်တိုင်း မြည်နေသည်၊ နောက်တစ်ကြိမ် အတူတူမြည်မည့်အချိန်ကို ရှာပါ",
+            correctBucketEn: "LCM (Lowest Common Multiple)",
+            correctBucketMy: "LCM (အနည်းဆုံးဘုံပွားကိန်း)",
+          ),
+          SortingItem(
+            id: "s1math-w4-sort-6",
+            labelEn:
+                "Real-life problem: Ropes of 18 m and 24 m are cut into equal pieces as long as possible",
+            labelMy:
+                "လက်တွေ့ဘဝပြဿနာ - ၁၈မီတာနှင့် ၂၄မီတာရှည်သော ကြိုးများကို အရှည်ဆုံးဖြစ်အောင် အညီအမျှဖြတ်ပါ",
+            correctBucketEn: "HCF (Highest Common Factor)",
+            correctBucketMy: "HCF (အများဆုံးဘုံကိန်းချေ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w4-d4",
+      dayNumber: 4,
+      titleEn: "Thiri's Balloon Bags",
+      titleMy: "သီရိရဲ့ လေပူဖောင်းအိတ်များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Balloon Bags",
+        titleMy: "သီရိရဲ့ လေပူဖောင်းအိတ်များ",
+        passageEn:
+            "This week, we bring together everything you learned in Weeks 1 to 3! In Week 1, you mastered adding, subtracting, multiplying, and dividing directed numbers — both positive and negative. In Week 2, you learned how to break numbers into their prime factors to find the HCF (Highest Common Factor) and LCM (Lowest Common Multiple). In Week 3, you learned the order of operations — brackets first, then multiplication and division, then addition and subtraction.\n\nNow, Thiri is planning a school event. She has 18 red balloons and 24 blue balloons and wants to make identical gift bags using all the balloons with no leftovers. To find the largest number of bags she can make, Thiri uses Week 2's skill: she writes 18 = 2 × 3² and 24 = 2³ × 3, then finds the HCF = 2 × 3 = 6. She can make 6 identical bags!\n\nLater, Thiri checks her bag budget using this expression: −20 + 3 × (−6) ÷ 2. Following Week 3's order of operations, she first multiplies and divides: 3 × (−6) ÷ 2 = −9. Then she adds using Week 1's directed number rules: −20 + (−9) = −29.\n\nBy combining skills from every earlier week, Thiri solved both a real-life sharing problem and a tricky multi-step expression!",
+        passageMy:
+            "ဒီပတ်မှာ ၁ပတ်မြောက်ကနေ ၃ပတ်မြောက်အထိ သင်ခဲ့တဲ့ ဗဟုသုတအားလုံးကို ပေါင်းစပ်လိုက်ကြရအောင်! ၁ပတ်မြောက်မှာ အလားအလားဂဏန်း (directed numbers) တွေရဲ့ အပေါင်း၊ အနုတ်၊ အမြှောက်၊ အစား လုပ်နည်းတွေကို ကျွမ်းကျင်အောင်သင်ခဲ့ကြပါတယ် — အပေါင်းကိန်းနဲ့ အနုတ်ကိန်းနှစ်မျိုးလုံးပါဝင်ပါတယ်။ ၂ပတ်မြောက်မှာတော့ ကိန်းများကို ပင်ရင်းကိန်းချေများအဖြစ် ဖြန့်ခွဲခြင်းအားဖြင့် HCF (အများဆုံးဘုံကိန်းချေ) နှင့် LCM (အနည်းဆုံးဘုံပွားကိန်း) တွေကို ရှာနည်းသင်ယူခဲ့ကြပါတယ်။ ၃ပတ်မြောက်မှာတော့ တွက်ချက်မှုအစီအစဉ် (order of operations) — ကွင်းစကွက်ကို အရင်ဖြေ၊ ပြီးရင် မြှောက်/စား၊ နောက်ဆုံးမှ ပေါင်း/နုတ် — ကို သင်ယူခဲ့ကြပါတယ်။\n\nအခု သီရိက ကျောင်းပွဲတစ်ခုကို စီစဉ်နေပါတယ်။ သူမမှာ အနီရောင်လေပူဖောင်း ၁၈လုံးနဲ့ အပြာရောင်လေပူဖောင်း ၂၄လုံး ရှိပြီး၊ လေပူဖောင်းအားလုံးကို အကြွင်းအကျန်မရှိအောင် တူညီတဲ့လက်ဆောင်အိတ်တွေ လုပ်ချင်ပါတယ်။ လုပ်နိုင်မယ့် အများဆုံးအိတ်အရေအတွက်ကို ရှာဖို့ သီရိက ၂ပတ်မြောက်ရဲ့ ကျွမ်းကျင်မှုကို သုံးပါတယ် — 18 = 2 × 3² ၊ 24 = 2³ × 3 လို့ ရေးပြီး HCF = 2 × 3 = 6 လို့ ရှာတွေ့ပါတယ်။ သူမ တူညီတဲ့အိတ် ၆လုံး လုပ်နိုင်ပါတယ်!\n\nနောက်ပိုင်း သီရိက သူမရဲ့ အိတ်ဘတ်ဂျက်ကို ဒီအသုံးအနှုန်းနဲ့ စစ်ဆေးပါတယ် − −20 + 3 × (−6) ÷ 2။ ၃ပတ်မြောက်ရဲ့ တွက်ချက်မှုအစီအစဉ်အတိုင်း သူမ အရင်ဆုံး မြှောက်/စား လုပ်ပါတယ် − 3 × (−6) ÷ 2 = −9။ ပြီးရင် ၁ပတ်မြောက်ရဲ့ အလားအလားဂဏန်းစည်းမျဉ်းသုံးပြီး ပေါင်းပါတယ် − −20 + (−9) = −29။\n\nယခင်ပတ်တိုင်းက ကျွမ်းကျင်မှုတွေကို ပေါင်းစပ်အသုံးချခြင်းဖြင့် သီရိသည် လက်တွေ့ခွဲဝေရေးပြဿနာတစ်ခုနှင့် အဆင့်ဆင့်တွက်ချက်ရတဲ့ အသုံးအနှုန်းခက်ခက်တစ်ခုကို ဖြေရှင်းနိုင်ခဲ့ပါတယ်!",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What is the HCF of 18 and 24, as found by Thiri?",
+            questionMy: "သီရိရှာတွေ့တဲ့ ၁၈ နှင့် ၂၄ ၏ HCF က ဘယ်လောက်လဲ။",
+            optionsEn: ["6", "12", "3", "9"],
+            optionsMy: ["6", "12", "3", "9"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many identical gift bags could Thiri make using all 18 red and 24 blue balloons?",
+            questionMy:
+                "အနီရောင် ၁၈လုံးနှင့် အပြာရောင် ၂၄လုံးလေပူဖောင်းအားလုံးသုံးပြီး သီရိ တူညီတဲ့လက်ဆောင်အိတ် ဘယ်နှလုံးလုပ်နိုင်မလဲ။",
+            optionsEn: ["6", "4", "8", "3"],
+            optionsMy: ["6", "4", "8", "3"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Following Week 3's order of operations, what should Thiri calculate first in −20 + 3 × (−6) ÷ 2?",
+            questionMy:
+                "၃ပတ်မြောက်ရဲ့ တွက်ချက်မှုအစီအစဉ်အတိုင်း −20 + 3 × (−6) ÷ 2 မှာ သီရိ ဘာကို အရင်ဆုံးတွက်သင့်သလဲ။",
+            optionsEn: [
+              "3 × (−6) ÷ 2",
+              "−20 + 3",
+              "(−6) ÷ 2 only",
+              "Addition first",
+            ],
+            optionsMy: [
+              "3 × (−6) ÷ 2",
+              "−20 + 3",
+              "(−6) ÷ 2 တစ်ခုတည်း",
+              "အပေါင်းကို အရင်လုပ်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the value of −20 + 3 × (−6) ÷ 2?",
+            questionMy: "−20 + 3 × (−6) ÷ 2 ၏ တန်ဖိုးက ဘယ်လောက်လဲ။",
+            optionsEn: ["−29", "−9", "29", "−38"],
+            optionsMy: ["−29", "−9", "29", "−38"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which two skills did Thiri combine to solve the multi-step expression?",
+            questionMy:
+                "အဆင့်ဆင့်တွက်ချက်ရတဲ့ အသုံးအနှုန်းကို ဖြေရှင်းဖို့ သီရိ ဘယ်ကျွမ်းကျင်မှုနှစ်ခုကို ပေါင်းစပ်အသုံးချခဲ့သလဲ။",
+            optionsEn: [
+              "Order of operations (Week 3) and directed numbers (Week 1)",
+              "HCF and LCM only",
+              "Addition tables and multiplication tables",
+              "Fractions and decimals",
+            ],
+            optionsMy: [
+              "တွက်ချက်မှုအစီအစဉ် (၃ပတ်မြောက်) နှင့် အလားအလားဂဏန်း (၁ပတ်မြောက်)",
+              "HCF နှင့် LCM သာ",
+              "ပေါင်းဇယားနှင့် မြှောက်ဇယားများ",
+              "အပိုင်းကိန်းနှင့် ဒဿမကိန်းများ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Number Foundations Capstone",
+      titleMy: "၄ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - ဂဏန်းအခြေခံ အကျဉ်းချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Evaluate: −4 × (−3) + 5 (Week 1 directed numbers + Week 3 order of operations)",
+          questionMy:
+              "−4 × (−3) + 5 ကို ဖြေရှင်းပါ (၁ပတ်မြောက် အလားအလားဂဏန်း + ၃ပတ်မြောက် တွက်ချက်မှုအစီအစဉ်)",
+          optionsEn: ["17", "−17", "7", "−7"],
+          optionsMy: ["17", "−17", "7", "−7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's prime factorization method, find the HCF of 16 and 40.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ ပင်ရင်းကိန်းချေနည်းလမ်းကိုသုံးပြီး ၁၆ နှင့် ၄၀ ၏ HCF ကို ရှာပါ။",
+          optionsEn: ["8", "4", "16", "40"],
+          optionsMy: ["8", "4", "16", "40"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's prime factorization method, find the LCM of 5 and 6.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ ပင်ရင်းကိန်းချေနည်းလမ်းကိုသုံးပြီး ၅ နှင့် ၆ ၏ LCM ကို ရှာပါ။",
+          optionsEn: ["30", "11", "60", "15"],
+          optionsMy: ["30", "11", "60", "15"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 1 and Week 3 skills, evaluate: (8 − 12) ÷ (−2) + 3",
+          questionMy:
+              "၁ပတ်မြောက်နှင့် ၃ပတ်မြောက် ကျွမ်းကျင်မှုများကို ပေါင်းစပ်ပြီး (8 − 12) ÷ (−2) + 3 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["5", "−5", "1", "−1"],
+          optionsMy: ["5", "−5", "1", "−1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 2's LCM skill with real-life reasoning: Two joggers start together — one completes a lap every 8 minutes, the other every 12 minutes. After how many minutes will they next start a lap together?",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ LCM ကျွမ်းကျင်မှုကို လက်တွေ့ဘဝဆင်ခြင်တွေးခေါ်မှုနှင့် ပေါင်းစပ်ပြီး − ပြေးလမ်းသမား နှစ်ဦးသည် အတူတူ စတင်ပြေးကြပြီး၊ တစ်ဦးက ၈မိနစ်တိုင်း၊ နောက်တစ်ဦးက ၁၂မိနစ်တိုင်း လက်တစ်ပတ် ပြီးမြောက်ကြသည်။ နောက်တစ်ကြိမ် အတူတူ စတင်ပြေးကြမည့်အချိန်ကို ရှာပါ။",
+          optionsEn: ["24", "20", "4", "96"],
+          optionsMy: ["24", "20", "4", "96"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 1: "Number Foundations" -- the first
+/// milestone of a brand-new, independent subject pathway (see
+/// [secondary1MathematicsPathway]). Week 1 introduces directed numbers
+/// from scratch (positive/negative integers, ordering, add/subtract);
+/// Week 2 opens a separate positive-whole-number strand (factors,
+/// multiples, primes, prime factorization via factor trees); Week 3
+/// introduces powers, roots and order of operations (BODMAS), explicitly
+/// folding Week 1's directed-number skill into multi-operation
+/// expressions; Week 4 closes the term with a capstone that combines all
+/// three -- multi-step expressions applying order of operations (Week 3)
+/// to directed numbers (Week 1), and finding the HCF/LCM of two numbers
+/// via prime factorization (Week 2).
+const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
+  id: "course-secondary1-mathematics-t1",
+  termNumber: 1,
+  titleEn: "Number Foundations",
+  titleMy: "ဂဏန်းအခြေခံ",
+  certificateTitleEn: "Number Foundations",
+  certificateTitleMy: "ဂဏန်းအခြေခံ",
+  weeks: [
+    _secondary1MathematicsWeek1,
+    _secondary1MathematicsWeek2,
+    _secondary1MathematicsWeek3,
+    _secondary1MathematicsWeek4,
+  ],
+);
+
+/// Secondary 1 Mathematics's pathway (Grade [Grade.secondary1]) -- a new,
+/// independent subject pathway alongside [secondary1ComputingPathway]
+/// rather than more terms grafted onto it: same grade, different subject.
+/// Term 1 ("Number Foundations", Weeks 1-4) is authored so far; see
+/// [_secondary1MathematicsTerm1]'s own doc comment for the week-by-week
+/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
+/// reason [secondary1ComputingPathway]'s did while only a handful of
+/// weeks exist.
+const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
+  id: "course-secondary1-mathematics",
+  subject: "mathematics",
+  grade: Grade.secondary1,
+  titleEn: "Mathematics — Year 1 Course",
+  titleMy: "သင်္ချာ — ပထမနှစ် သင်တန်း",
+  descriptionEn:
+      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations.",
+  descriptionMy:
+      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများကို တည်ဆောက်ပေးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+  totalWeeks: 36,
+  terms: [_secondary1MathematicsTerm1],
 );
