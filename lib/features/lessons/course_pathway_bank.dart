@@ -49271,15 +49271,1740 @@ const CourseTermDef _year1MathematicsTerm1 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// Year 1 Mathematics -- Term 2, Week 5: "Addition within 20"
+// =====================================================================
+
+const CourseWeekDef _year1MathematicsWeek5 = CourseWeekDef(
+  id: "course-year1-mathematics-w5",
+  weekNumber: 5,
+  titleEn: "Addition within 20",
+  titleMy: "20 အထိ ပေါင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w5-d1",
+      dayNumber: 1,
+      titleEn: "Counting On to Add",
+      titleMy: "ပေါင်းရန် ဆက်ရေတွက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Su Myat has 13 marbles. Her friend gives her 1 more marble. Week 3 taught you that adding 1 is the same as finding \"one more than\" a number. How many marbles does Su Myat have now?",
+          questionMy:
+              "စုမြတ်တွင် ကျောက်စေ့ 13 လုံး ရှိသည်။ သူငယ်ချင်းက ကျောက်စေ့ 1 လုံး ထပ်ပေးသည်။ Week 3 တွင် 1 ပေါင်းခြင်းသည် ဂဏန်းတစ်ခု၏ \"တစ်ခုပို\" ကို ရှာခြင်းနှင့် အတူတူဖြစ်ကြောင်း သင်ယူခဲ့ပြီးဖြစ်သည်။ ယခု စုမြတ်တွင် ကျောက်စေ့ စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["14", "12", "13", "15"],
+          optionsMy: ["14", "12", "13", "15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3: one more than a number is simply the next number you say when counting forward -- one more than 13 is...",
+            "Count forward one step from 13: 13, 14 -- what number did you just say?",
+          ],
+          hintsMy: [
+            "Week 3 ကို သတိရပါ -- ဂဏန်းတစ်ခုထက် တစ်ခုပိုဆိုသည်မှာ အရှေ့ရေတွက်သည့်အခါ ဆက်ပြောရမည့် နံပါတ်ပင် ဖြစ်သည် -- 13 ထက် တစ်ခုပိုသည်...",
+            "13 မှ တစ်လှမ်းသာ အရှေ့ရေတွက်ကြည့်ပါ - 13၊ 14 -- အခုပြောလိုက်တဲ့ ဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Myat's brother Ye Htut has 8 toy cars. He gets 2 more toy cars as a gift. Adding 2 means doing Week 3's \"one more\" idea twice in a row: one more than 8, then one more again. How many toy cars does Ye Htut have now?",
+          questionMy:
+              "စုမြတ်၏ ညီ ရဲထွဋ်တွင် ကစားစရာ ကားလေး 8 စီး ရှိသည်။ လက်ဆောင်အဖြစ် ကားလေး 2 စီး ထပ်ရရှိသည်။ 2 ပေါင်းခြင်းဆိုသည်မှာ Week 3 ၏ \"တစ်ခုပို\" အယူအဆကို နှစ်ကြိမ်ဆက်တိုက် ပြုလုပ်ခြင်းဖြစ်သည် - 8 ထက်တစ်ခုပို၊ ထို့နောက် ထပ်တစ်ခုပို။ ယခု ရဲထွဋ်တွင် ကစားစရာ ကားလေး စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["10", "9", "11", "12"],
+          optionsMy: ["10", "9", "11", "12"],
+          correctIndex: 0,
+          hintsEn: [
+            "Adding 2 means using Week 3's \"one more\" idea twice: one more than 8 is 9, then one more than 9 is...",
+            "Count on two steps from 8: 8, 9, 10 -- what is the last number you say?",
+          ],
+          hintsMy: [
+            "2 ပေါင်းခြင်းဆိုသည်မှာ Week 3 ၏ \"တစ်ခုပို\" အယူအဆကို နှစ်ကြိမ် အသုံးပြုခြင်းဖြစ်သည် - 8 ထက်တစ်ခုပိုလျှင် 9၊ 9 ထက်တစ်ခုပိုလျှင်...",
+            "8 မှ နှစ်လှမ်း ဆက်ရေတွက်ကြည့်ပါ - 8၊ 9၊ 10 -- နောက်ဆုံးပြောလိုက်တဲ့ ဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Myat is putting together 9 red beads and 4 blue beads to make a bracelet. To add them quickly, she starts at the bigger number, 9, and counts on: 10, 11, 12, 13. How many beads are there altogether?",
+          questionMy:
+              "စုမြတ်သည် လက်ကောက်တစ်ကွင်း ပြုလုပ်ရန် အနီရောင်ကျောက်စေ့ 9 လုံးနှင့် အပြာရောင်ကျောက်စေ့ 4 လုံးကို ပေါင်းနေသည်။ မြန်ဆန်စွာ ပေါင်းရန် သူမသည် ပိုကြီးသောဂဏန်း 9 မှ အစပြု၍ ဆက်ရေတွက်သည် - 10၊ 11၊ 12၊ 13။ ကျောက်စေ့ စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["13", "12", "14", "5"],
+          optionsMy: ["13", "12", "14", "5"],
+          correctIndex: 0,
+          hintsEn: [
+            "Start at the bigger number, 9, and count on the smaller number, 4, one step at a time: 10, 11, 12, 13.",
+            "This is the same counting-on strategy as Question 1 and Question 2 above -- just counting on a bit further than one or two steps.",
+          ],
+          hintsMy: [
+            "ပိုကြီးသောဂဏန်း 9 မှ အစပြု၍ ပိုငယ်သောဂဏန်း 4 ကို တစ်ဆင့်ချင်း ဆက်ရေတွက်ပါ - 10၊ 11၊ 12၊ 13။",
+            "၎င်းသည် အထက်ပါ မေးခွန်း 1 နှင့် မေးခွန်း 2 တို့တွင် အသုံးပြုခဲ့သော ဆက်ရေတွက်ခြင်း နည်းလမ်းတူပင် ဖြစ်ပြီး တစ်ဆင့် (သို့) နှစ်ဆင့်ထက် ပိုမိုဝေးအောင် ဆက်ရေတွက်ရုံသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Myat's class has 7 boys and 8 girls. To find the total quickly, she bridges through 10: 8 needs 2 more to make 10, so she splits 7 into 2 and 5, giving 10 + 5. How many children are there in total?",
+          questionMy:
+              "စုမြတ်၏ အတန်းတွင် ယောက်ျားလေး 7 ယောက်နှင့် မိန်းကလေး 8 ယောက် ရှိသည်။ စုစုပေါင်းကို မြန်ဆန်စွာ ရှာရန် သူမသည် 10 ပြည့်အောင်လုပ်ပြီး ဆက်ပေါင်းသည် - 8 သည် 10 ပြည့်ရန် 2 လိုသဖြင့် 7 ကို 2 နှင့် 5 ဟု ခွဲပြီး 10 + 5 ရသည်။ ကလေးများ စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["15", "14", "16", "13"],
+          optionsMy: ["15", "14", "16", "13"],
+          correctIndex: 0,
+          hintsEn: [
+            "8 + 2 makes a full 10 (a number bond to 10), and 7 splits into 2 + 5, so 10 + 5 is the total.",
+            "You can also count on from the bigger number, just like Question 3's beads -- start at 8 and count on 7: 9, 10, 11, 12, 13, 14, 15.",
+          ],
+          hintsMy: [
+            "8 + 2 သည် 10 ပြည့်စေသည် (10 အတွက် ဂဏန်းချည်နှောင်မှု တစ်ခု) ဖြစ်ပြီး 7 ကို 2 + 5 ဟု ခွဲသဖြင့် 10 + 5 သည် စုစုပေါင်းဖြစ်သည်။",
+            "မေးခွန်း 3 ၏ ကျောက်စေ့များကဲ့သို့ ပိုကြီးသောဂဏန်းမှလည်း ဆက်ရေတွက်နိုင်သည် -- 8 မှ အစပြု၍ 7 ခု ဆက်ရေတွက်ပါ - 9၊ 10၊ 11၊ 12၊ 13၊ 14၊ 15။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Addition Facts to 20",
+      titleMy: "ကိုက်ညီစွာ တွဲချိတ်ခြင်း - 20 အထိ ပေါင်းခြင်း အချက်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w5-dm-1",
+          termEn: "9 + 1",
+          termMy: "9 + 1",
+          matchEn:
+              "10 -- adding 1 is Week 3's \"one more\" idea: one more than 9 is 10.",
+          matchMy:
+              "10 -- 1 ပေါင်းခြင်းသည် Week 3 ၏ \"တစ်ခုပို\" အယူအဆပင် ဖြစ်သည် - 9 ထက် တစ်ခုပိုလျှင် 10 ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w5-dm-2",
+          termEn: "6 + 2",
+          termMy: "6 + 2",
+          matchEn:
+              "8 -- adding 2 is one more, then one more again: one more than 6 is 7, one more than 7 is 8.",
+          matchMy:
+              "8 -- 2 ပေါင်းခြင်းသည် တစ်ခုပိုကို နှစ်ကြိမ်ဆက်တိုက် ပြုလုပ်ခြင်းဖြစ်သည် - 6 ထက်တစ်ခုပိုလျှင် 7၊ 7 ထက်တစ်ခုပိုလျှင် 8 ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w5-dm-3",
+          termEn: "8 + 5",
+          termMy: "8 + 5",
+          matchEn:
+              "13 -- bridge through 10: 8 needs 2 more to make 10, so split 5 into 2 + 3, giving 10 + 3.",
+          matchMy:
+              "13 -- 10 ပြည့်အောင်လုပ်ပြီး ဆက်ပေါင်းပါ - 8 သည် 10 ပြည့်ရန် 2 လိုသဖြင့် 5 ကို 2 + 3 ဟု ခွဲပြီး 10 + 3 ရသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w5-dm-4",
+          termEn: "7 + 8",
+          termMy: "7 + 8",
+          matchEn:
+              "15 -- start at the bigger number, 8, and count on 7 more: 9, 10, 11, 12, 13, 14, 15.",
+          matchMy:
+              "15 -- ပိုကြီးသောဂဏန်း 8 မှ အစပြု၍ 7 ခု ဆက်ရေတွက်ပါ - 9၊ 10၊ 11၊ 12၊ 13၊ 14၊ 15။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w5-dm-5",
+          termEn: "12 + 6",
+          termMy: "12 + 6",
+          matchEn:
+              "18 -- start at 12, the bigger number, and count on 6 more: 13, 14, 15, 16, 17, 18.",
+          matchMy:
+              "18 -- ပိုကြီးသောဂဏန်း 12 မှ အစပြု၍ 6 ခု ဆက်ရေတွက်ပါ - 13၊ 14၊ 15၊ 16၊ 17၊ 18။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w5-dm-6",
+          termEn: "14 + 5",
+          termMy: "14 + 5",
+          matchEn: "19 -- start at 14 and count on 5 more: 15, 16, 17, 18, 19.",
+          matchMy: "19 -- 14 မှ အစပြု၍ 5 ခု ဆက်ရေတွက်ပါ - 15၊ 16၊ 17၊ 18၊ 19။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bridge Through 10 or Not?",
+      titleMy: "စီစစ်ကြမည် - 10 ကိုကျော်ဖြတ်ရသလား၊ မလိုဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Bridges Through 10", "No Bridge Needed"],
+        bucketsMy: ["10 ပြည့်အောင် ဆက်ပေါင်းရသည်", "ဆက်ပေါင်းရန် မလိုပါ"],
+        items: [
+          SortingItem(
+            id: "y1math-w5-sort-1",
+            labelEn: "8 + 5",
+            labelMy: "8 + 5",
+            correctBucketEn: "Bridges Through 10",
+            correctBucketMy: "10 ပြည့်အောင် ဆက်ပေါင်းရသည်",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-2",
+            labelEn: "3 + 4",
+            labelMy: "3 + 4",
+            correctBucketEn: "No Bridge Needed",
+            correctBucketMy: "ဆက်ပေါင်းရန် မလိုပါ",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-3",
+            labelEn: "9 + 4",
+            labelMy: "9 + 4",
+            correctBucketEn: "Bridges Through 10",
+            correctBucketMy: "10 ပြည့်အောင် ဆက်ပေါင်းရသည်",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-4",
+            labelEn: "12 + 5",
+            labelMy: "12 + 5",
+            correctBucketEn: "No Bridge Needed",
+            correctBucketMy: "ဆက်ပေါင်းရန် မလိုပါ",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-5",
+            labelEn: "7 + 6",
+            labelMy: "7 + 6",
+            correctBucketEn: "Bridges Through 10",
+            correctBucketMy: "10 ပြည့်အောင် ဆက်ပေါင်းရသည်",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-6",
+            labelEn: "2 + 5",
+            labelMy: "2 + 5",
+            correctBucketEn: "No Bridge Needed",
+            correctBucketMy: "ဆက်ပေါင်းရန် မလိုပါ",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-7",
+            labelEn: "9 + 3",
+            labelMy: "9 + 3",
+            correctBucketEn: "Bridges Through 10",
+            correctBucketMy: "10 ပြည့်အောင် ဆက်ပေါင်းရသည်",
+          ),
+          SortingItem(
+            id: "y1math-w5-sort-8",
+            labelEn: "15 + 3",
+            labelMy: "15 + 3",
+            correctBucketEn: "No Bridge Needed",
+            correctBucketMy: "ဆက်ပေါင်းရန် မလိုပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat's Snack Stall",
+      titleMy: "စာဖတ်ခြင်း - စုမြတ်၏ သရေစာဆိုင်လေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat's Snack Stall",
+        titleMy: "စုမြတ်၏ သရေစာဆိုင်လေး",
+        passageEn:
+            "Su Myat loved helping her mother at their small snack stall after school. One afternoon, there were already 7 boiled corns sitting on the tray. Su Myat's mother came out from the kitchen carrying 5 more corns and asked Su Myat to add them to the tray. Su Myat started at the bigger number, 7, and counted on: 8, 9, 10, 11, 12. \"There are 12 corns now!\" she announced happily.\n\nSoon her younger brother, Ye Htut, ran up with a small plate of fried tofu skewers. He had already made 9 skewers earlier that morning, and their visiting aunt added just 1 more skewer from her own plate. Su Myat remembered what she had learned about \"one more\" -- one more than 9 is simply the very next number when counting forward. \"That makes 10 skewers altogether!\" Su Myat said.\n\nA little later, a customer walked up and pointed at the boiled eggs. There were 8 eggs left in the basket, and the customer wanted 5 more cooked, since her family loved eggs. Su Myat thought carefully: 8 needs just 2 more to make a full 10, so she split the 5 into 2 and 3. Ten plus 3 more made 13. \"We will have 13 eggs ready,\" Su Myat told her mother, proud of her bridge-through-10 trick.\n\nBy the end of the afternoon, Su Myat wanted to know how many snacks she had prepared across her two busiest trays: one tray held 8 snacks, and another held 9 snacks. She started at the bigger number, 9, and counted on eight more: 10, 11, 12, 13, 14, 15, 16, 17. \"17 snacks altogether,\" she smiled, tired but happy. Su Myat had used counting on, one more, and bridging through 10 all in a single afternoon -- and every single sum was exactly right.",
+        passageMy:
+            "စုမြတ်သည် ကျောင်းပြီးလျှင် သူ့မိခင်၏ သရေစာဆိုင်လေးတွင် ကူညီရသည်ကို အလွန်နှစ်သက်သည်။ တစ်နေ့သောနေ့လည်ခင်းတွင် ဗန်းပေါ်၌ ပြုတ်ပြီးသား ပြောင်းဖူး 7 ဖူး ရှိနှင့်ပြီးဖြစ်သည်။ စုမြတ်၏ မိခင်သည် မီးဖိုချောင်မှ ပြောင်းဖူး 5 ဖူး ထပ်ယူဆောင်လာပြီး ဗန်းပေါ်တင်ရန် စုမြတ်ကို ခိုင်းသည်။ စုမြတ်သည် ပိုကြီးသောဂဏန်း 7 မှ အစပြု၍ ဆက်ရေတွက်လေသည် - 8၊ 9၊ 10၊ 11၊ 12။ \"အခု ပြောင်းဖူး 12 ဖူး ရှိသွားပြီ!\" ဟု သူမ ဝမ်းသာအားရ ကြွေးကြော်လိုက်သည်။\n\nခဏကြာသောအခါ သူမ၏ ညီ ရဲထွဋ်သည် ကြော်ထားသော တို့ဟူးကြော် ပန်းကန်လေးတစ်ခုကို ကိုင်ပြီး ပြေးလာသည်။ သူသည် မနက်ကတည်းက တို့ဟူးကြော် 9 ချောင်း ကြော်ထားပြီးဖြစ်ပြီး၊ လာလည်နေသော အန်တီက သူ့ပန်းကန်ထဲမှ 1 ချောင်းသာ ထပ်ထည့်ပေးသည်။ စုမြတ်သည် \"တစ်ခုပို\" အကြောင်း သင်ခဲ့ရသည်ကို သတိရသည် -- 9 ထက်တစ်ခုပိုဆိုသည်မှာ အရှေ့ရေတွက်သည့်အခါ ဆက်လာသော ဂဏန်းပင် ဖြစ်သည်။ \"ဒါဆို တို့ဟူးကြော် စုစုပေါင်း 10 ချောင်း ရှိသွားပြီ!\" ဟု စုမြတ်က ပြောလိုက်သည်။\n\nခဏအကြာတွင် ဖောက်သည်တစ်ဦး လာရောက်ပြီး ကြက်ဥပြုတ်များကို လက်ညှိုးထိုးသည်။ တောင်းထဲတွင် ကြက်ဥ 8 လုံး ကျန်ရှိပြီး ဖောက်သည်က သူ့မိသားစုက ကြက်ဥကြိုက်သဖြင့် နောက်ထပ် 5 လုံး ပြုတ်ပေးရန် တောင်းဆိုသည်။ စုမြတ်သည် သေချာစွာ တွက်ချက်လိုက်သည် - 8 သည် 10 ပြည့်ရန် 2 လုံးသာ လိုသေးသဖြင့် 5 ကို 2 နှင့် 3 ဟု ခွဲလိုက်သည်။ ဆယ်ပေါင်း သုံးထပ်လျှင် 13 ရသည်။ \"ကြက်ဥ 13 လုံး အသင့်ဖြစ်တော့မယ်\" ဟု စုမြတ်က သူ့မိခင်အား ပြောပြီး 10 ပြည့်အောင်ပေါင်းသည့် လက်ကွက်ကို ဂုဏ်ယူစွာ ပြောပြခဲ့သည်။\n\nနေ့လည်ခင်း အဆုံးသတ်ချိန်တွင် စုမြတ်သည် အလုပ်အများဆုံး ဗန်းနှစ်ခုတွင် သူပြင်ဆင်ခဲ့သော သရေစာစုစုပေါင်း မည်မျှ ရှိသည်ကို သိလိုသည် - ဗန်းတစ်ခုတွင် သရေစာ 8 ခု၊ နောက်တစ်ခုတွင် 9 ခု ရှိသည်။ သူမသည် ပိုကြီးသောဂဏန်း 9 မှ အစပြု၍ ရှစ်ခု ဆက်ရေတွက်လေသည် - 10၊ 11၊ 12၊ 13၊ 14၊ 15၊ 16၊ 17။ \"စုစုပေါင်း 17 ခု ရှိတယ်\" ဟု သူမ ပင်ပန်းသော်လည်း ပျော်ရွှင်စွာ ပြုံးလိုက်သည်။ စုမြတ်သည် ထိုနေ့လည်ခင်းတစ်ခုတည်းတွင် ဆက်ရေတွက်ခြင်း၊ တစ်ခုပိုခြင်းနှင့် 10 ပြည့်အောင်ပေါင်းခြင်းများကို အသုံးပြုခဲ့ပြီး ပေါင်းလဒ်တိုင်းသည်လည်း အတိအကျ မှန်ကန်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many boiled corns did Su Myat have after her mother added 5 more to the 7 already on the tray?",
+            questionMy:
+                "ဗန်းပေါ်ရှိ ပြောင်းဖူး 7 ဖူးအပေါ် စုမြတ်၏ မိခင်က 5 ဖူး ထပ်ထည့်ပြီးနောက် ပြောင်းဖူး စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["12", "11", "13", "17"],
+            optionsMy: ["12", "11", "13", "17"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- Su Myat counted on from the bigger number, 7: 8, 9, 10, 11, 12.",
+              "This is the same counting-on strategy as Day 1's bead question -- start at the bigger number and count on the smaller one.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စုမြတ်သည် ပိုကြီးသောဂဏန်း 7 မှ ဆက်ရေတွက်ခဲ့သည် - 8၊ 9၊ 10၊ 11၊ 12။",
+              "၎င်းသည် ပထမနေ့ ကျောက်စေ့မေးခွန်းကဲ့သို့ ဆက်ရေတွက်ခြင်း နည်းလမ်းတူပင် ဖြစ်သည် -- ပိုကြီးသောဂဏန်းမှ အစပြု၍ ပိုငယ်သောဂဏန်းကို ဆက်ရေတွက်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Ye Htut already had 9 tofu skewers, and their aunt added 1 more. How many skewers were there altogether?",
+            questionMy:
+                "ရဲထွဋ်တွင် တို့ဟူးကြော် 9 ချောင်း ရှိနှင့်ပြီး အန်တီက 1 ချောင်း ထပ်ထည့်ပေးသည်။ တို့ဟူးကြော် စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["10", "9", "11", "19"],
+            optionsMy: ["10", "9", "11", "19"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- this uses Week 3's \"one more\" idea: one more than 9 is...",
+              "Recall Day 1's marble question -- adding 1 is exactly the same as finding one more than a number.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 3 ၏ \"တစ်ခုပို\" အယူအဆကို အသုံးပြုသည် - 9 ထက်တစ်ခုပိုလျှင်...",
+              "ပထမနေ့ ကျောက်စေ့မေးခွန်းကို သတိရပါ -- 1 ပေါင်းခြင်းသည် ဂဏန်းတစ်ခု၏ တစ်ခုပိုကို ရှာခြင်းနှင့် အတူတူပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "There were 8 boiled eggs, and a customer asked for 5 more. Using the bridge-through-10 strategy, how many eggs were there in total?",
+            questionMy:
+                "ကြက်ဥပြုတ် 8 လုံး ရှိပြီး ဖောက်သည်က 5 လုံး ထပ်တောင်းသည်။ 10 ပြည့်အောင်ပေါင်းသည့် နည်းလမ်းကို သုံးလျှင် ကြက်ဥ စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["13", "12", "14", "15"],
+            optionsMy: ["13", "12", "14", "15"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- recall Day 2's drag-match pairing for 8 + 5: it needs the same bridge-through-10 split.",
+              "8 needs 2 more to make 10, so 5 splits into 2 + 3 -- what is 10 + 3?",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 8 + 5 ကို သတိရပါ - ၎င်းတွင်လည်း 10 ပြည့်အောင်ပေါင်းသည့် ခွဲမှုတူညီစွာ လိုအပ်သည်။",
+              "8 သည် 10 ပြည့်ရန် 2 လိုသဖြင့် 5 ကို 2 + 3 ဟု ခွဲပါ -- 10 + 3 က ဘယ်လောက်လဲ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Su Myat combined one tray of 8 snacks with another tray of 9 snacks, counting on from the bigger number. How many snacks were there in total?",
+            questionMy:
+                "စုမြတ်သည် သရေစာ 8 ခုပါသောဗန်းတစ်ခုနှင့် 9 ခုပါသောဗန်းတစ်ခုကို ပိုကြီးသောဂဏန်းမှ ဆက်ရေတွက်ကာ ပေါင်းလိုက်သည်။ သရေစာ စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["17", "16", "18", "15"],
+            optionsMy: ["17", "16", "18", "15"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Su Myat started at 9, the bigger number, and counted on 8 more: 10, 11, 12, 13, 14, 15, 16, 17.",
+              "This is the same counting-on-from-the-bigger-number strategy as Day 1's bead question and Day 2's drag-match pairs.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စုမြတ်သည် ပိုကြီးသောဂဏန်း 9 မှ အစပြု၍ 8 ခု ဆက်ရေတွက်ခဲ့သည် - 10၊ 11၊ 12၊ 13၊ 14၊ 15၊ 16၊ 17။",
+              "၎င်းသည် ပထမနေ့ ကျောက်စေ့မေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းများ၏ ပိုကြီးသောဂဏန်းမှ ဆက်ရေတွက်ခြင်း နည်းလမ်းတူပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Addition within 20",
+      titleMy: "အပတ်စဉ် ၅ ပြန်လည်သုံးသပ်ခြင်း - 20 အထိ ပေါင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is 16 + 1? Remember, adding 1 is Week 3's \"one more\" idea.",
+          questionMy:
+              "16 + 1 ဆိုလျှင် ဘယ်လောက်ဖြစ်မလဲ။ 1 ပေါင်းခြင်းသည် Week 3 ၏ \"တစ်ခုပို\" အယူအဆပင် ဖြစ်ကြောင်း သတိရပါ။",
+          optionsEn: ["17", "16", "18", "15"],
+          optionsMy: ["17", "16", "18", "15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3: one more than a number is just the next number when counting forward -- one more than 16 is...",
+            "Count forward one step from 16: 16, 17 -- what number did you just say?",
+          ],
+          hintsMy: [
+            "Week 3 ကို သတိရပါ -- ဂဏန်းတစ်ခုထက် တစ်ခုပိုဆိုသည်မှာ အရှေ့ရေတွက်ချိန် ဆက်ပြောရမည့် နံပါတ်ပင် ဖြစ်သည် -- 16 ထက် တစ်ခုပိုသည်...",
+            "16 မှ တစ်လှမ်းသာ အရှေ့ရေတွက်ကြည့်ပါ - 16၊ 17 -- အခုပြောလိုက်တဲ့ ဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 11 + 2? Recall Day 1's toy car question -- adding 2 means doing \"one more\" twice.",
+          questionMy:
+              "11 + 2 ဆိုလျှင် ဘယ်လောက်ဖြစ်မလဲ။ ပထမနေ့ ကားလေးမေးခွန်းကို သတိရပါ -- 2 ပေါင်းခြင်းဆိုသည်မှာ \"တစ်ခုပို\" ကို နှစ်ကြိမ်ပြုလုပ်ခြင်း ဖြစ်သည်။",
+          optionsEn: ["13", "12", "14", "10"],
+          optionsMy: ["13", "12", "14", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1: adding 2 is one more than 11, then one more again -- one more than 11 is 12, one more than 12 is...",
+            "Count on two steps from 11: 11, 12, 13 -- what is the last number?",
+          ],
+          hintsMy: [
+            "ပထမနေ့ကို သတိရပါ -- 2 ပေါင်းခြင်းသည် 11 ထက်တစ်ခုပိုပြီး ထပ်တစ်ခုပို ဖြစ်သည် - 11 ထက်တစ်ခုပိုလျှင် 12၊ 12 ထက်တစ်ခုပိုလျှင်...",
+            "11 မှ နှစ်လှမ်း ဆက်ရေတွက်ကြည့်ပါ - 11၊ 12၊ 13 -- နောက်ဆုံးဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 6 + 9? Start at the bigger number and count on, like Day 1's bead question.",
+          questionMy:
+              "6 + 9 ဆိုလျှင် ဘယ်လောက်ဖြစ်မလဲ။ ပထမနေ့ ကျောက်စေ့မေးခွန်းကဲ့သို့ ပိုကြီးသောဂဏန်းမှ အစပြု၍ ဆက်ရေတွက်ပါ။",
+          optionsEn: ["15", "14", "16", "13"],
+          optionsMy: ["15", "14", "16", "13"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's bead question -- start at the bigger number, 9, and count on 6 more: 10, 11, 12, 13, 14, 15.",
+            "Counting on from the bigger number is faster than starting from the smaller one -- try it: 9, then six more counts.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ကျောက်စေ့မေးခွန်းကို သတိရပါ -- ပိုကြီးသောဂဏန်း 9 မှ အစပြု၍ 6 ခု ဆက်ရေတွက်ပါ - 10၊ 11၊ 12၊ 13၊ 14၊ 15။",
+            "ပိုကြီးသောဂဏန်းမှ ဆက်ရေတွက်ခြင်းသည် ပိုငယ်သောဂဏန်းမှ အစပြုသည်ထက် ပိုမြန်သည် -- စမ်းကြည့်ပါ - 9၊ ထို့နောက် နောက်ထပ် ခြောက်ကြိမ် ရေတွက်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 9 + 5, bridging through 10 like Day 2 and Day 3's activities?",
+          questionMy:
+              "ဒုတိယနေ့နှင့် တတိယနေ့ လေ့ကျင့်ခန်းများကဲ့သို့ 10 ပြည့်အောင်ပေါင်းလျှင် 9 + 5 က ဘယ်လောက်ဖြစ်မလဲ။",
+          optionsEn: ["14", "13", "15", "19"],
+          optionsMy: ["14", "13", "15", "19"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match and Day 3's sorting -- 9 needs 1 more to make 10, so split 5 into 1 + 4, giving 10 + 4.",
+            "First make 10 (9 + 1 = 10), then add what is left of 5 (which is 4) -- 10 + 4 is...",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် တတိယနေ့ စီစစ်ခန်းကို သတိရပါ -- 9 သည် 10 ပြည့်ရန် 1 လိုသဖြင့် 5 ကို 1 + 4 ဟု ခွဲပြီး 10 + 4 ရသည်။",
+            "ဦးစွာ 10 ပြည့်အောင် ပြုလုပ်ပါ (9 + 1 = 10)၊ ထို့နောက် ကျန်နေသေးသော 5 ၏ အစိတ်အပိုင်း 4 ကို ပေါင်းပါ -- 10 + 4 က...",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, Su Myat's tray had 7 boiled corns, and her mother added 5 more. How many corns were there in total?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်တွင် စုမြတ်၏ ဗန်းတွင် ပြောင်းဖူးပြုတ် 7 ဖူး ရှိပြီး သူမ၏ မိခင်က 5 ဖူး ထပ်ထည့်သည်။ ပြောင်းဖူး စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+          optionsEn: ["12", "11", "13", "17"],
+          optionsMy: ["12", "11", "13", "17"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage -- Su Myat started at the bigger number, 7, and counted on: 8, 9, 10, 11, 12.",
+            "This is the same counting-on strategy practiced all week -- count on 5 steps from 7: 8, 9, 10, 11, 12.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- စုမြတ်သည် ပိုကြီးသောဂဏန်း 7 မှ အစပြု၍ ဆက်ရေတွက်ခဲ့သည် - 8၊ 9၊ 10၊ 11၊ 12။",
+            "၎င်းသည် ဤအပတ်တစ်လျှောက် လေ့ကျင့်ခဲ့သော ဆက်ရေတွက်ခြင်း နည်းလမ်းတူပင် ဖြစ်သည် -- 7 မှ 5 လှမ်း ဆက်ရေတွက်ပါ - 8၊ 9၊ 10၊ 11၊ 12။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek6 = CourseWeekDef(
+  id: "course-year1-mathematics-w6",
+  weekNumber: 6,
+  titleEn: "Subtraction within 20",
+  titleMy: "20 အတွင်း နုတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w6-d1",
+      dayNumber: 1,
+      titleEn: "Take Away and Count Back Quiz",
+      titleMy: "ယူသွား၍ နောက်ကြောင်းပြန်ရေတွက်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Su Myat has 15 marbles. She gives 4 away to her friend. Counting back from 15 -- 14, 13, 12, 11 -- how many marbles does she have left?",
+          questionMy:
+              "စုမြတ်တွင် ကျောက်လုံး 15 လုံး ရှိသည်။ သူငယ်ချင်းအား 4 လုံး ပေးလိုက်သည်။ 15 မှ နောက်ကြောင်းပြန်ရေတွက်ပါက -- 14၊ 13၊ 12၊ 11 -- ကျန်ရှိသော ကျောက်လုံးမှာ မည်မျှနည်း။",
+          optionsEn: ["11", "12", "19", "10"],
+          optionsMy: ["11", "12", "19", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Start at 15 and count back one step for each marble given away: 14 is one step back, 13 is two steps back...",
+            "Recall Week 3's 'one less than' idea -- counting back by 4 is just like counting back by 1, done four times in a row.",
+          ],
+          hintsMy: [
+            "15 မှ အစပြု၍ ပေးလိုက်သော ကျောက်လုံးတစ်လုံးစီအတွက် တစ်ဆင့်စီ နောက်ကြောင်းပြန်ရေတွက်ပါ - 14 သည် တစ်ဆင့်၊ 13 သည် နှစ်ဆင့်...",
+            "Week 3 ၏ 'တစ်ခုလျော့' အယူအဆကို သတိရပါ -- 4 နောက်ကြောင်းပြန်ရေတွက်ခြင်းသည် 1 ကို လေးကြိမ်ဆက်တိုက် နောက်ကြောင်းပြန်ရေတွက်ခြင်းနှင့် အတူတူပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is 9 - 1?",
+          questionMy: "9 - 1 ၏ အဖြေမှာ အဘယ်နည်း။",
+          optionsEn: ["10", "8", "7", "9"],
+          optionsMy: ["10", "8", "7", "9"],
+          correctIndex: 1,
+          hintsEn: [
+            "This is exactly Week 3's 'one less than 9' -- the number that comes right before 9 when counting backward.",
+            "Count back just one step from 9: nine... eight. That's your answer.",
+          ],
+          hintsMy: [
+            "၎င်းသည် Week 3 ၏ '9 ထက် တစ်ခုလျော့' အတိအကျပင် ဖြစ်သည် -- နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 9 ၏ ရှေ့တွင်ရှိသော ဂဏန်းပင် ဖြစ်သည်။",
+            "9 မှ တစ်ဆင့်သာ နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ - ကိုး... ရှစ်။ ဒါက အဖြေပါပဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "There are 12 balloons. 3 of them pop. Counting back from 12 -- 11, 10, 9 -- how many balloons are left?",
+          questionMy:
+              "ဘေလွန်း 12 လုံး ရှိသည်။ ၎င်းအနက် 3 လုံး ပေါက်သွားသည်။ 12 မှ နောက်ကြောင်းပြန်ရေတွက်ပါက -- 11၊ 10၊ 9 -- ကျန်ရှိသော ဘေလွန်းမှာ မည်မျှနည်း။",
+          optionsEn: ["9", "10", "15", "8"],
+          optionsMy: ["9", "10", "15", "8"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's counting practice with balloons -- this time you count backward instead of forward, one step for each balloon that pops.",
+            "Start at 12 and take three steps back: 11 (one step), 10 (two steps), 9 (three steps).",
+          ],
+          hintsMy: [
+            "Week 1 ၏ ဘေလွန်းရေတွက်ခြင်း အလေ့အကျင့်ကို သတိရပါ -- ယခုတစ်ကြိမ်တွင် အရှေ့မဟုတ်ဘဲ နောက်ကြောင်းပြန်ရေတွက်ရမည်၊ ပေါက်သွားသော ဘေလွန်းတစ်လုံးစီအတွက် တစ်ဆင့်စီ ဖြစ်သည်။",
+            "12 မှ အစပြု၍ သုံးဆင့် နောက်ပြန်လှမ်းပါ - 11 (တစ်ဆင့်)၊ 10 (နှစ်ဆင့်)၊ 9 (သုံးဆင့်)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Start at 17 and count back 5. Where do you land?",
+          questionMy:
+              "17 မှ အစပြု၍ 5 ဆင့် နောက်ကြောင်းပြန် ရေတွက်ပါက မည်သည့်ဂဏန်းတွင် ရောက်မည်နည်း။",
+          optionsEn: ["12", "13", "11", "22"],
+          optionsMy: ["12", "13", "11", "22"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same counting-back strategy from question 1 and question 3 above -- just take one step back for each number being subtracted.",
+            "Count back five steps from 17: 16, 15, 14, 13, 12 -- the fifth step is your answer.",
+          ],
+          hintsMy: [
+            "၎င်းသည် အထက်ပါ မေးခွန်း 1 နှင့် မေးခွန်း 3 မှ နောက်ကြောင်းပြန်ရေတွက်ခြင်း နည်းလမ်းအတူတူပင် ဖြစ်သည် -- နုတ်နေသော ဂဏန်းတစ်ခုစီအတွက် တစ်ဆင့်စီ နောက်ပြန်လှမ်းရုံသာ ဖြစ်သည်။",
+            "17 မှ ငါးဆင့် နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ - 16၊ 15၊ 14၊ 13၊ 12 -- ပဉ္စမမြောက်ဆင့်သည် သင့်အဖြေဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Subtraction Facts to 20",
+      titleMy: "ကိုက်ညီစွာ တွဲချိတ်ခြင်း - 20 အတွင်း နုတ်ခြင်း အချက်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w6-dm-1",
+          termEn: "9 - 1",
+          termMy: "9 - 1",
+          matchEn:
+              "8 -- one less than 9, the number right before it when counting back (just like Week 3's one less than idea).",
+          matchMy:
+              "8 -- 9 ထက် တစ်ခုလျော့ဖြစ်ပြီး နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 9 ၏ ရှေ့တွင်ရှိသော ဂဏန်းဖြစ်သည် (Week 3 ၏ တစ်ခုလျော့ အယူအဆအတိုင်းပင်)။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w6-dm-2",
+          termEn: "15 - 4",
+          termMy: "15 - 4",
+          matchEn:
+              "11 -- start at 15 and count back four times: 14, 13, 12, 11.",
+          matchMy:
+              "11 -- 15 မှ အစပြု၍ 4 ကြိမ် နောက်ကြောင်းပြန်ရေတွက်ပါ - 14၊ 13၊ 12၊ 11။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w6-dm-3",
+          termEn: "17 - 9",
+          termMy: "17 - 9",
+          matchEn:
+              "8 -- start at 17 and count back nine times, ending at 8; a teen number minus a single digit can still land on a single-digit answer.",
+          matchMy:
+              "8 -- 17 မှ အစပြု၍ 9 ကြိမ် နောက်ကြောင်းပြန်ရေတွက်ပါက 8 တွင် ရောက်သည်။ ဆယ့်ကျော်ဂဏန်းမှ တစ်လုံးတည်းသောဂဏန်းကို နုတ်လျှင်လည်း အဖြေသည် တစ်လုံးတည်း ဖြစ်နိုင်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w6-dm-4",
+          termEn: "15 - 12",
+          termMy: "15 - 12",
+          matchEn:
+              "3 -- 12 and 15 are close together, so count on from 12 to 15 instead: 13, 14, 15 -- that's 3 steps, so the difference is 3.",
+          matchMy:
+              "3 -- 12 နှင့် 15 သည် အနီးကပ် ကွာခြားနေသဖြင့် 12 မှ 15 သို့ ရှေ့ဆက်ရေတွက်ခြင်းက ပိုမြန်သည် - 13၊ 14၊ 15 -- 3 ဆင့်ရှိသဖြင့် ခြားနားချက်မှာ 3 ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w6-dm-5",
+          termEn: "20 - 3",
+          termMy: "20 - 3",
+          matchEn: "17 -- start at 20 and count back three times: 19, 18, 17.",
+          matchMy:
+              "17 -- 20 မှ အစပြု၍ 3 ကြိမ် နောက်ကြောင်းပြန်ရေတွက်ပါ - 19၊ 18၊ 17။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w6-dm-6",
+          termEn: "13 - 6",
+          termMy: "13 - 6",
+          matchEn:
+              "7 -- start at 13 and count back six times: 12, 11, 10, 9, 8, 7.",
+          matchMy:
+              "7 -- 13 မှ အစပြု၍ 6 ကြိမ် နောက်ကြောင်းပြန်ရေတွက်ပါ - 12၊ 11၊ 10၊ 9၊ 8၊ 7။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Count Back or Count On?",
+      titleMy: "စီစစ်ကြမည် - နောက်ကြောင်းပြန်ရေတွက်မလား၊ ရှေ့ဆက်ရေတွက်မလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Count Back (subtract a small amount)",
+          "Count On (numbers close together)",
+        ],
+        bucketsMy: [
+          "နောက်ကြောင်းပြန်ရေတွက်ရန် (အနည်းငယ်သာ နုတ်ရသည်)",
+          "ရှေ့ဆက်ရေတွက်ရန် (ဂဏန်းများ အနီးကပ်ရှိသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "y1math-w6-sort-1",
+            labelEn: "16 - 3",
+            labelMy: "16 - 3",
+            correctBucketEn: "Count Back (subtract a small amount)",
+            correctBucketMy: "နောက်ကြောင်းပြန်ရေတွက်ရန် (အနည်းငယ်သာ နုတ်ရသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-2",
+            labelEn: "14 - 12",
+            labelMy: "14 - 12",
+            correctBucketEn: "Count On (numbers close together)",
+            correctBucketMy: "ရှေ့ဆက်ရေတွက်ရန် (ဂဏန်းများ အနီးကပ်ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-3",
+            labelEn: "11 - 2",
+            labelMy: "11 - 2",
+            correctBucketEn: "Count Back (subtract a small amount)",
+            correctBucketMy: "နောက်ကြောင်းပြန်ရေတွက်ရန် (အနည်းငယ်သာ နုတ်ရသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-4",
+            labelEn: "18 - 16",
+            labelMy: "18 - 16",
+            correctBucketEn: "Count On (numbers close together)",
+            correctBucketMy: "ရှေ့ဆက်ရေတွက်ရန် (ဂဏန်းများ အနီးကပ်ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-5",
+            labelEn: "19 - 4",
+            labelMy: "19 - 4",
+            correctBucketEn: "Count Back (subtract a small amount)",
+            correctBucketMy: "နောက်ကြောင်းပြန်ရေတွက်ရန် (အနည်းငယ်သာ နုတ်ရသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-6",
+            labelEn: "13 - 10",
+            labelMy: "13 - 10",
+            correctBucketEn: "Count On (numbers close together)",
+            correctBucketMy: "ရှေ့ဆက်ရေတွက်ရန် (ဂဏန်းများ အနီးကပ်ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-7",
+            labelEn: "8 - 1",
+            labelMy: "8 - 1",
+            correctBucketEn: "Count Back (subtract a small amount)",
+            correctBucketMy: "နောက်ကြောင်းပြန်ရေတွက်ရန် (အနည်းငယ်သာ နုတ်ရသည်)",
+          ),
+          SortingItem(
+            id: "y1math-w6-sort-8",
+            labelEn: "20 - 18",
+            labelMy: "20 - 18",
+            correctBucketEn: "Count On (numbers close together)",
+            correctBucketMy: "ရှေ့ဆက်ရေတွက်ရန် (ဂဏန်းများ အနီးကပ်ရှိသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat's Snack Jar",
+      titleMy: "စာဖတ်ခြင်း - စုမြတ်၏ သရေစာဗူး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat's Snack Jar",
+        titleMy: "စုမြတ်၏ သရေစာဗူး",
+        passageEn:
+            "Su Myat helps her mother sell snacks at their small shop after school. One afternoon, her jar had 18 pieces of tamarind candy inside. Her little brother Kyaw Htet reached in and took just one piece to taste before she could stop him. Su Myat remembered Week 3's one-less idea: one less than 18 is 17, so 18 - 1 = 17, and now there were 17 candies left in the jar.\n\nA little later, a customer walked up and bought 4 pieces of candy. Su Myat counted back from 17 to find out how many were left: sixteen, fifteen, fourteen, thirteen. So 17 - 4 = 13, and there were 13 candies remaining in the jar.\n\nWhile she waited for more customers, Su Myat compared sticker collections with her friend Ei Ei. Su Myat had 15 stickers, and Ei Ei had 12 stickers. Since 12 and 15 are close together, Su Myat counted on from 12 instead of counting all the way back: thirteen, fourteen, fifteen -- that was 3 steps. So 15 - 12 = 3, and Su Myat said, \"I have 3 more stickers than you!\"\n\nJust before closing time, Su Myat found 16 paper stars she had saved from a school project. She gave 8 of them to her classmates to decorate their own projects. Counting back from 16 -- fifteen, fourteen, thirteen, twelve, eleven, ten, nine, eight -- Su Myat found that 16 - 8 = 8. \"A big teen number can still leave a small answer,\" she said, proud that counting back worked just as well for bigger numbers as it did for small ones.",
+        passageMy:
+            "စုမြတ်သည် ကျောင်းပြီးနောက် မိသားစု၏ ဆိုင်လေးတွင် မိခင်အား သရေစာများ ရောင်းရန် ကူညီလေ့ရှိသည်။ တစ်နေ့သားပိုင်း ၎င်း၏ ဗူးထဲတွင် မန်ကျည်းလုံး 18 လုံး ရှိခဲ့သည်။ သူ့ညီလေး ကျော်ထက်သည် တားမမီမီ လက်ဖြင့် ထိုးသွင်းပြီး တစ်လုံး ခံစားကြည့်ခဲ့သည်။ စုမြတ်သည် Week 3 ၏ တစ်ခုလျော့ အယူအဆကို သတိရလေသည် - 18 ထက် တစ်ခုလျော့သည် 17 ဖြစ်သဖြင့် 18 - 1 = 17 ဖြစ်ပြီး ယခုအခါ ဗူးထဲတွင် ကျန်ရှိသော မန်ကျည်းလုံးမှာ 17 လုံး ဖြစ်သည်။\n\nခဏကြာသောအခါ ဖောက်သည်တစ်ဦး လာရောက်ပြီး မန်ကျည်းလုံး 4 လုံး ဝယ်ယူသွားသည်။ စုမြတ်သည် ကျန်ရှိမည့်အရေအတွက်ကို သိရှိရန် 17 မှ နောက်ကြောင်းပြန်ရေတွက်ခဲ့သည် - ဆယ့်ခြောက်၊ ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး။ သို့ဖြင့် 17 - 4 = 13 ဖြစ်ပြီး ဗူးထဲတွင် မန်ကျည်းလုံး 13 လုံး ကျန်ရှိတော့သည်။\n\nဖောက်သည်ထပ်မံ စောင့်ဆိုင်းနေစဉ် စုမြတ်သည် သူငယ်ချင်း အိအိနှင့် စတစ်ကာစုဆောင်းမှုကို နှိုင်းယှဉ်ကြည့်ခဲ့သည်။ စုမြတ်တွင် စတစ်ကာ 15 ပွင့် ရှိပြီး အိအိတွင် 12 ပွင့် ရှိသည်။ 12 နှင့် 15 တို့သည် အနီးကပ် ကွာခြားနေသဖြင့် စုမြတ်သည် အစအဆုံး နောက်ကြောင်းပြန်ရေတွက်မည့်အစား 12 မှ ရှေ့ဆက်ရေတွက်ခဲ့သည် - ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး -- ၎င်းသည် 3 ဆင့်သာ ဖြစ်သည်။ သို့ဖြင့် 15 - 12 = 3 ဖြစ်ပြီး \"ငါ့မှာ မင်းထက် စတစ်ကာ 3 ပွင့် ပိုတယ်!\" ဟု စုမြတ်က ပြုံးရွှင်စွာ ပြောခဲ့သည်။\n\nဆိုင်ပိတ်ချိန် မတိုင်မီ စုမြတ်သည် ကျောင်းစီမံကိန်းတစ်ခုမှ စုဆောင်းထားသော စက္ကူကြယ် 16 ကြယ်ကို တွေ့ခဲ့သည်။ ၎င်းအနက် 8 ကြယ်ကို အတန်းဖော်များအား ၎င်းတို့၏ စီမံကိန်းများ အလှဆင်ရန် ပေးလိုက်သည်။ 16 မှ နောက်ကြောင်းပြန်ရေတွက်ပါက -- ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး၊ ဆယ့်နှစ်၊ ဆယ့်တစ်၊ ဆယ်၊ ကိုး၊ ရှစ် -- စုမြတ်သည် 16 - 8 = 8 ဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ \"ဆယ့်ကျော်ကြီးမားသော ဂဏန်းကနေ အသေးလေးအဖြေထွက်လာနိုင်ပါတယ်\" ဟု ငယ်ငယ်လေးများအတွက်ရော ကြီးကြီးလေးများအတွက်ပါ နောက်ကြောင်းပြန်ရေတွက်ခြင်းသည် အလုပ်ဖြစ်ကြောင်းကို ဂုဏ်ယူစွာ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many tamarind candies were left in the jar after Kyaw Htet tasted one?",
+            questionMy:
+                "ကျော်ထက် တစ်လုံး ခံစားပြီးနောက် ဗူးထဲတွင် မန်ကျည်းလုံး မည်မျှ ကျန်ရှိခဲ့သနည်း။",
+            optionsEn: ["17", "16", "18", "19"],
+            optionsMy: ["17", "16", "18", "19"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- recall Week 3's one-less idea: one less than 18.",
+              "This is the same idea as Day 1 Question 2 (9 - 1) -- just apply it to 18 instead.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- Week 3 ၏ တစ်ခုလျော့ အယူအဆကို သတိရပါ - 18 ထက် တစ်ခုလျော့။",
+              "၎င်းသည် ပထမနေ့ မေးခွန်း 2 (9 - 1) ၏ အယူအဆတူညီပါသည် -- 18 တွင်သာ အသုံးချလိုက်ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "After the customer bought 4 candies from the 17 remaining, how many were left?",
+            questionMy:
+                "ကျန်ရှိသည့် မန်ကျည်းလုံး 17 လုံးမှ ဖောက်သည်က 4 လုံး ဝယ်ယူသွားပြီးနောက် မည်မျှ ကျန်ရှိသနည်း။",
+            optionsEn: ["13", "14", "12", "21"],
+            optionsMy: ["13", "14", "12", "21"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- follow Su Myat's counting-back sequence from 17: sixteen, fifteen, fourteen, thirteen.",
+              "This is the same counting-back strategy as Day 1's marble and balloon questions -- take one step back for each candy sold.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စုမြတ်၏ 17 မှ နောက်ကြောင်းပြန်ရေတွက်မှု အစီအစဉ်ကို လိုက်ကြည့်ပါ - ဆယ့်ခြောက်၊ ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး။",
+              "၎င်းသည် ပထမနေ့၏ ကျောက်လုံးနှင့် ဘေလွန်းမေးခွန်းများ၏ နောက်ကြောင်းပြန်ရေတွက်ခြင်း နည်းလမ်းအတူတူပင် ဖြစ်သည် -- ရောင်းသွားသော မန်ကျည်းလုံးတစ်လုံးစီအတွက် တစ်ဆင့်စီ နောက်ပြန်လှမ်းပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Su Myat has 15 stickers and Ei Ei has 12. How many more stickers does Su Myat have?",
+            questionMy:
+                "စုမြတ်တွင် စတစ်ကာ 15 ပွင့်ရှိပြီး အိအိတွင် 12 ပွင့် ရှိသည်။ စုမြတ်တွင် စတစ်ကာ မည်မျှ ပိုမိုရှိသနည်း။",
+            optionsEn: ["3", "2", "4", "27"],
+            optionsMy: ["3", "2", "4", "27"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- since 12 and 15 are close together, Su Myat counted on from 12 instead of counting all the way back, just like Day 2's drag-match pair for 15 - 12.",
+              "Count on from 12 to 15: thirteen, fourteen, fifteen -- how many steps did you take?",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- 12 နှင့် 15 သည် အနီးကပ်ရှိနေသဖြင့် စုမြတ်သည် အစအဆုံး နောက်ကြောင်းပြန်ရေတွက်မည့်အစား 12 မှ ရှေ့ဆက်ရေတွက်ခဲ့သည်၊ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 15 - 12 ကဲ့သို့ပင် ဖြစ်သည်။",
+              "12 မှ 15 သို့ ရှေ့ဆက်ရေတွက်ကြည့်ပါ - ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး -- ဘယ်နှစ်ဆင့် လှမ်းခဲ့သနည်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Su Myat had 16 paper stars and gave 8 to her classmates. How many stars did she have left?",
+            questionMy:
+                "စုမြတ်တွင် စက္ကူကြယ် 16 ကြယ်ရှိပြီး အတန်းဖော်များအား 8 ကြယ် ပေးလိုက်သည်။ ကျန်ရှိသော ကြယ် မည်မျှ ရှိသနည်း။",
+            optionsEn: ["8", "9", "24", "7"],
+            optionsMy: ["8", "9", "24", "7"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the last paragraph -- count back eight steps from 16, one step at a time.",
+              "Recall Day 2's drag-match pair for 17 - 9 -- a teen number minus a number close to it in size can still leave a small single-digit answer, just like here.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- 16 မှ ရှစ်ဆင့် နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ၊ တစ်ဆင့်ချင်းစီ။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 17 - 9 ကို သတိရပါ -- ဆယ့်ကျော်ဂဏန်းတစ်ခုမှ အရွယ်အစားနီးစပ်သော ဂဏန်းတစ်ခုကို နုတ်လျှင်လည်း ဤနေရာကဲ့သို့ပင် သေးငယ်သော တစ်လုံးတည်းသောအဖြေ ရနိုင်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Subtraction within 20",
+      titleMy: "အပတ်စဉ် ၆ ပြန်လည်သုံးသပ်ခြင်း - 20 အတွင်း နုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "There are 14 kites. 3 fly away. Counting back from 14 -- 13, 12, 11 -- how many kites are left?",
+          questionMy:
+              "ကလေးတွန်း 14 ခု ရှိသည်။ 3 ခု ပျံသွားသည်။ 14 မှ နောက်ကြောင်းပြန်ရေတွက်ပါက -- 13၊ 12၊ 11 -- ကျန်ရှိသော ကလေးတွန်းမှာ မည်မျှနည်း။",
+          optionsEn: ["11", "12", "17", "10"],
+          optionsMy: ["11", "12", "17", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's counting-back questions with marbles and balloons -- take one step back for each kite that flies away.",
+            "Count back three steps from 14: thirteen, twelve, eleven.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ ကျောက်လုံးနှင့် ဘေလွန်းအတွက် နောက်ကြောင်းပြန်ရေတွက်ခြင်း မေးခွန်းများကို သတိရပါ -- ပျံသွားသော ကလေးတွန်းတစ်ခုစီအတွက် တစ်ဆင့်စီ နောက်ပြန်လှမ်းပါ။",
+            "14 မှ သုံးဆင့် နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ - ဆယ့်သုံး၊ ဆယ့်နှစ်၊ ဆယ့်တစ်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is 20 - 1?",
+          questionMy: "20 - 1 ၏ အဖြေမှာ အဘယ်နည်း။",
+          optionsEn: ["19", "21", "18", "20"],
+          optionsMy: ["19", "21", "18", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's 'one less than 20' -- and Day 1 Question 2's 'one less than 9' works the very same way.",
+            "Count back just one step from 20: twenty... nineteen.",
+          ],
+          hintsMy: [
+            "Week 3 ၏ '20 ထက် တစ်ခုလျော့' ကို သတိရပါ -- ပထမနေ့ မေးခွန်း 2 ၏ '9 ထက် တစ်ခုလျော့' နည်းတူ အလုပ်လုပ်ပါသည်။",
+            "20 မှ တစ်ဆင့်သာ နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ - နှစ်ဆယ်... ဆယ့်ကိုး။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "16 and 13 are close together. How many more is 16 than 13?",
+          questionMy:
+              "16 နှင့် 13 တို့သည် အနီးကပ် ကွာခြားနေသည်။ 16 သည် 13 ထက် မည်မျှ ပိုသနည်း။",
+          optionsEn: ["3", "4", "2", "29"],
+          optionsMy: ["3", "4", "2", "29"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match pair for 15 - 12, and Day 4's sticker comparison -- when two numbers are close together, count on instead of counting all the way back.",
+            "Count on from 13 to 16: fourteen, fifteen, sixteen -- how many steps did you take?",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 15 - 12 နှင့် စတုတ္ထနေ့ စတစ်ကာနှိုင်းယှဉ်မှုကို သတိရပါ -- ဂဏန်းနှစ်ခု အနီးကပ်ရှိနေလျှင် အစအဆုံး နောက်ကြောင်းပြန်ရေတွက်မည့်အစား ရှေ့ဆက်ရေတွက်ပါ။",
+            "13 မှ 16 သို့ ရှေ့ဆက်ရေတွက်ကြည့်ပါ - ဆယ့်လေး၊ ဆယ့်ငါး၊ ဆယ့်ခြောက် -- ဘယ်နှစ်ဆင့် လှမ်းခဲ့သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Start at 15 and count back 7. Where do you land?",
+          questionMy:
+              "15 မှ အစပြု၍ 7 ဆင့် နောက်ကြောင်းပြန်ရေတွက်ပါက မည်သည့်ဂဏန်းတွင် ရောက်မည်နည်း။",
+          optionsEn: ["8", "9", "7", "22"],
+          optionsMy: ["8", "9", "7", "22"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1 Question 4's counting-back-five-steps example, and Day 4's stars example where 16 - 8 = 8 -- a teen number can still leave a small single-digit answer.",
+            "Count back seven steps from 15: 14, 13, 12, 11, 10, 9, 8 -- the seventh step is your answer.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ မေးခွန်း 4 ၏ ငါးဆင့်နောက်ကြောင်းပြန်ရေတွက်ခြင်း ဥပမာနှင့် စတုတ္ထနေ့ ၏ 16 - 8 = 8 ကြယ်ဥပမာကို သတိရပါ -- ဆယ့်ကျော်ဂဏန်းတစ်ခုမှလည်း သေးငယ်သော တစ်လုံးတည်းသောအဖြေ ရနိုင်သည်။",
+            "15 မှ ခုနစ်ဆင့် နောက်ကြောင်းပြန်ရေတွက်ကြည့်ပါ - 14၊ 13၊ 12၊ 11၊ 10၊ 9၊ 8 -- သတ္တမမြောက်ဆင့်သည် သင့်အဖြေဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For 18 - 15, which strategy is fastest, since the numbers are so close together?",
+          questionMy:
+              "18 - 15 အတွက် ဂဏန်းနှစ်ခုသည် အနီးကပ်ရှိနေသဖြင့် မည်သည့်နည်းလမ်းက ပိုမြန်သနည်း။",
+          optionsEn: [
+            "Counting on from 15 to 18",
+            "Counting back all the way from 18 to 0",
+            "Adding 15 and 18 together",
+            "Counting back twenty steps",
+          ],
+          optionsMy: [
+            "15 မှ 18 သို့ ရှေ့ဆက်ရေတွက်ခြင်း",
+            "18 မှ 0 အထိ အစအဆုံး နောက်ကြောင်းပြန်ရေတွက်ခြင်း",
+            "15 နှင့် 18 ကို အတူပေါင်းခြင်း",
+            "နှစ်ဆယ်ဆင့် နောက်ကြောင်းပြန်ရေတွက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 3's sorting activity -- problems where the two numbers are close together, like 15 - 12 and 20 - 18, sort into the 'Count On' bucket.",
+            "Counting on from 15 -- sixteen, seventeen, eighteen -- takes only 3 steps, much faster than counting all the way back from 18.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်ခြင်း လှုပ်ရှားမှုကို သတိရပါ -- 15 - 12 နှင့် 20 - 18 ကဲ့သို့ ဂဏန်းနှစ်ခု အနီးကပ်ရှိသော ပြဿနာများသည် 'ရှေ့ဆက်ရေတွက်ရန်' ခြင်းထဲသို့ စီစစ်ရသည်။",
+            "15 မှ ရှေ့ဆက်ရေတွက်ခြင်း -- ဆယ့်ခြောက်၊ ဆယ့်ခုနစ်၊ ဆယ့်ရှစ် -- 3 ဆင့်သာ ကြာပြီး 18 မှ အစအဆုံး နောက်ကြောင်းပြန်ရေတွက်ခြင်းထက် ပိုမြန်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek7 = CourseWeekDef(
+  id: "course-year1-mathematics-w7",
+  weekNumber: 7,
+  titleEn: "Fact Families and Number Bonds",
+  titleMy: "အချက်အလက်မိသားစုများနှင့် ဂဏန်းစုံဖက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w7-d1",
+      dayNumber: 1,
+      titleEn: "Fact Families Quiz",
+      titleMy: "အချက်အလက်မိသားစု ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Htet Aung knows that 7 + 8 = 15. This is one sentence in a \"fact family\" (အချက်အလက်မိသားစု) -- a group of related number sentences that all use the same three numbers: 7, 8 and 15. Which of these is also true, using those same three numbers?",
+          questionMy:
+              "ထက်အောင်သည် 7 + 8 = 15 ဖြစ်ကြောင်း သိသည်။ ၎င်းသည် \"အချက်အလက်မိသားစု\" (fact family) ၏ စာကြောင်းတစ်ကြောင်းဖြစ်ပြီး -- ဂဏန်းသုံးလုံး 7၊ 8 နှင့် 15 ကို အသုံးပြုသော ဆက်စပ်စာကြောင်းများ အုပ်စုတစ်ခု ဖြစ်သည်။ ထိုဂဏန်းသုံးလုံးတည်းကို အသုံးပြု၍ ဘယ်စာကြောင်းက မှန်ကန်သနည်း။",
+          optionsEn: ["15 - 8 = 7", "15 - 8 = 9", "8 - 7 = 15", "7 - 15 = 8"],
+          optionsMy: ["15 - 8 = 7", "15 - 8 = 9", "8 - 7 = 15", "7 - 15 = 8"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 6's subtraction practice: subtracting one addend from the total (the sum) always gives you back the other addend.",
+            "In this fact family the three numbers are 7, 8 and 15. Start from 15 (the total) and take away 8 -- what is left over?",
+          ],
+          hintsMy: [
+            "Week 6 ၏ နုတ်ခြင်းလေ့ကျင့်မှုကို သတိရပါ - ပေါင်းလဒ် (စုစုပေါင်း) မှ အဆင့်တစ်ခု (addend) ကို နုတ်လိုက်လျှင် အမြဲတမ်း ကျန်တစ်ခုကို ပြန်ရရှိသည်။",
+            "ဤအချက်အလက်မိသားစုတွင် ဂဏန်းသုံးလုံးမှာ 7၊ 8 နှင့် 15 ဖြစ်သည်။ 15 (စုစုပေါင်း) မှစပြီး 8 ကို နုတ်ကြည့်ပါ -- ဘာကျန်သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "You already know that 9 + 6 = 15. Using that same fact family, what is 15 - 9, without counting all over again?",
+          questionMy:
+              "9 + 6 = 15 ဖြစ်ကြောင်း သင် သိပြီးဖြစ်သည်။ ထိုအချက်အလက်မိသားစုကိုပင် အသုံးပြု၍ 15 - 9 သည် ပြန်မရေတွက်ဘဲ ဘယ်လောက်ဖြစ်မည်နည်း။",
+          optionsEn: ["6", "9", "24", "5"],
+          optionsMy: ["6", "9", "24", "5"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question above -- the same three numbers appear in all four sentences of one fact family.",
+            "Since 9 + 6 = 15, taking 9 away from 15 must leave the other addend behind: 6.",
+          ],
+          hintsMy: [
+            "ဒီနေ့ ပထမမေးခွန်းကို သတိရပါ -- ဂဏန်းသုံးလုံးသည် တစ်ခုတည်းသောအချက်အလက်မိသားစု၏ စာကြောင်းလေးကြောင်းလုံးတွင် ပါဝင်သည်။",
+            "9 + 6 = 15 ဖြစ်သောကြောင့် 15 မှ 9 ကို နုတ်လျှင် အခြားအဆင့်ဖြစ်သော 6 ကို ကျန်ရစ်စေရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Number bonds to 12 are all the pairs of numbers that add up to 12. If one partner in a number bond to 12 is 5, what is the other partner?",
+          questionMy:
+              "12 ဂဏန်းစုံဖက်မှုများသည် ပေါင်းလိုက်လျှင် 12 ဖြစ်စေသော ဂဏန်းတွဲများ အားလုံးဖြစ်သည်။ 12 ဂဏန်းစုံဖက်မှုတစ်ခု၏ တွဲဖက်တစ်ခုမှာ 5 ဖြစ်ပါက အခြားတွဲဖက်မှာ အဘယ်နည်း။",
+          optionsEn: ["7", "6", "8", "17"],
+          optionsMy: ["7", "6", "8", "17"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's number bonds to 10 -- this week the target number is bigger, 12 instead of 10, but the idea is exactly the same.",
+            "Count on from 5 one step at a time: 6, 7, 8, 9, 10, 11, 12 -- how many numbers did you just count? That total is the missing partner.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ 10 ဂဏန်းစုံဖက်မှုကို သတိရပါ -- ဒီအပတ်တွင် ပစ်မှတ်ဂဏန်းသည် 10 အစား 12 ဖြစ်ပြီး ကြီးလာသော်လည်း အယူအဆချင်း အတူတူပင် ဖြစ်သည်။",
+            "5 မှ တစ်ဆင့်ချင်း ရေတွက်ကြည့်ပါ - 6၊ 7၊ 8၊ 9၊ 10၊ 11၊ 12 -- ဘယ်နှစ်ခု ရေတွက်လိုက်သနည်း။ ထိုစုစုပေါင်းအရေအတွက်သည် ပျောက်နေသော တွဲဖက်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Zin Mar wrote 12 - 4 = 8 on her paper. Which addition fact belongs to the very same fact family?",
+          questionMy:
+              "ဇင်မာသည် 12 - 4 = 8 ကို သူမ၏စက္ကူပေါ်တွင် ရေးချခဲ့သည်။ မည်သည့် ပေါင်းခြင်းအချက်အလက်က တူညီသောအချက်အလက်မိသားစုတွင် ပါဝင်သနည်း။",
+          optionsEn: ["8 + 4 = 12", "8 + 5 = 13", "4 + 9 = 13", "12 + 4 = 16"],
+          optionsMy: ["8 + 4 = 12", "8 + 5 = 13", "4 + 9 = 13", "12 + 4 = 16"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's one-more/one-less idea -- here the same three numbers 4, 8 and 12 must appear in the addition sentence too, just rearranged.",
+            "If 12 - 4 = 8, then adding the two smaller numbers back together should give you the total again: 8 + 4 = ?",
+          ],
+          hintsMy: [
+            "Week 3 ၏ တစ်ခုပို/တစ်ခုနည်း အယူအဆကို သတိရပါ -- ဤနေရာတွင်လည်း ဂဏန်းသုံးလုံး 4၊ 8 နှင့် 12 တို့သည် ပေါင်းချက်စာကြောင်းတွင် ပါဝင်ရမည်၊ နေရာသာ ပြောင်းသွားခြင်း ဖြစ်သည်။",
+            "12 - 4 = 8 ဖြစ်ပါက ဂဏန်းငယ်နှစ်လုံးကို ပြန်ပေါင်းလိုက်လျှင် စုစုပေါင်းကို ပြန်ရမည် - 8 + 4 = ?",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match Addition and Subtraction Facts",
+      titleMy:
+          "ပေါင်းခြင်းနှင့် နုတ်ခြင်း အချက်အလက်များ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w7-dm-1",
+          termEn: "8 + 5 = 13",
+          termMy: "8 + 5 = 13",
+          matchEn:
+              "The matching subtraction fact from the same fact family (fact family): 13 - 5 = 8.",
+          matchMy:
+              "တူညီသော အချက်အလက်မိသားစု (fact family) မှ ကိုက်ညီသည့် နုတ်ခြင်း အချက်အလက် -- 13 - 5 = 8။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w7-dm-2",
+          termEn: "9 + 7 = 16",
+          termMy: "9 + 7 = 16",
+          matchEn:
+              "The matching subtraction fact from the same fact family: 16 - 7 = 9.",
+          matchMy:
+              "တူညီသောအချက်အလက်မိသားစုမှ ကိုက်ညီသည့် နုတ်ခြင်းအချက်အလက် -- 16 - 7 = 9။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w7-dm-3",
+          termEn: "6 + 8 = 14",
+          termMy: "6 + 8 = 14",
+          matchEn:
+              "The matching subtraction fact from the same fact family: 14 - 8 = 6.",
+          matchMy:
+              "တူညီသောအချက်အလက်မိသားစုမှ ကိုက်ညီသည့် နုတ်ခြင်းအချက်အလက် -- 14 - 8 = 6။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w7-dm-4",
+          termEn: "9 + 8 = 17",
+          termMy: "9 + 8 = 17",
+          matchEn:
+              "The matching subtraction fact from the same fact family: 17 - 8 = 9.",
+          matchMy:
+              "တူညီသောအချက်အလက်မိသားစုမှ ကိုက်ညီသည့် နုတ်ခြင်းအချက်အလက် -- 17 - 8 = 9။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w7-dm-5",
+          termEn: "7 + 5 = 12",
+          termMy: "7 + 5 = 12",
+          matchEn:
+              "The matching subtraction fact from the same fact family: 12 - 5 = 7.",
+          matchMy:
+              "တူညီသောအချက်အလက်မိသားစုမှ ကိုက်ညီသည့် နုတ်ခြင်းအချက်အလက် -- 12 - 5 = 7။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w7-dm-6",
+          termEn: "9 + 10 = 19",
+          termMy: "9 + 10 = 19",
+          matchEn:
+              "The matching subtraction fact from the same fact family: 19 - 10 = 9.",
+          matchMy:
+              "တူညီသောအချက်အလက်မိသားစုမှ ကိုက်ညီသည့် နုတ်ခြင်းအချက်အလက် -- 19 - 10 = 9။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Same Fact Family or Not?",
+      titleMy: "စီစစ်ကြမည် - တူညီသောအချက်အလက်မိသားစုလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Same Fact Family as 9, 6, 15", "Not This Fact Family"],
+        bucketsMy: [
+          "9၊ 6၊ 15 နှင့် တူညီသောအချက်အလက်မိသားစု",
+          "ဤအချက်အလက်မိသားစု မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y1math-w7-sort-1",
+            labelEn: "9 + 6 = 15",
+            labelMy: "9 + 6 = 15",
+            correctBucketEn: "Same Fact Family as 9, 6, 15",
+            correctBucketMy: "9၊ 6၊ 15 နှင့် တူညီသောအချက်အလက်မိသားစု",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-2",
+            labelEn: "6 + 9 = 15",
+            labelMy: "6 + 9 = 15",
+            correctBucketEn: "Same Fact Family as 9, 6, 15",
+            correctBucketMy: "9၊ 6၊ 15 နှင့် တူညီသောအချက်အလက်မိသားစု",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-3",
+            labelEn: "15 - 9 = 6",
+            labelMy: "15 - 9 = 6",
+            correctBucketEn: "Same Fact Family as 9, 6, 15",
+            correctBucketMy: "9၊ 6၊ 15 နှင့် တူညီသောအချက်အလက်မိသားစု",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-4",
+            labelEn: "15 - 6 = 9",
+            labelMy: "15 - 6 = 9",
+            correctBucketEn: "Same Fact Family as 9, 6, 15",
+            correctBucketMy: "9၊ 6၊ 15 နှင့် တူညီသောအချက်အလက်မိသားစု",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-5",
+            labelEn: "8 + 6 = 14",
+            labelMy: "8 + 6 = 14",
+            correctBucketEn: "Not This Fact Family",
+            correctBucketMy: "ဤအချက်အလက်မိသားစု မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-6",
+            labelEn: "15 - 5 = 10",
+            labelMy: "15 - 5 = 10",
+            correctBucketEn: "Not This Fact Family",
+            correctBucketMy: "ဤအချက်အလက်မိသားစု မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-7",
+            labelEn: "7 + 9 = 16",
+            labelMy: "7 + 9 = 16",
+            correctBucketEn: "Not This Fact Family",
+            correctBucketMy: "ဤအချက်အလက်မိသားစု မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1math-w7-sort-8",
+            labelEn: "6 + 8 = 14",
+            labelMy: "6 + 8 = 14",
+            correctBucketEn: "Not This Fact Family",
+            correctBucketMy: "ဤအချက်အလက်မိသားစု မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Aung's Snack Stall",
+      titleMy: "စာဖတ်ခြင်း - ထက်အောင်၏ မုန့်ဆိုင်လေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Aung's Snack Stall",
+        titleMy: "ထက်အောင်၏ မုန့်ဆိုင်လေး",
+        passageEn:
+            "Htet Aung's family ran a small snack stall near their house, selling sweets and biscuits to the neighborhood children. One afternoon, Htet Aung's mother asked him to count the toffees in two jars before opening the stall. The red jar held 6 toffees, and the blue jar held 8 toffees. Htet Aung poured them all onto one plate and counted every toffee one at a time: there were 14 toffees altogether. \"6 + 8 = 14, and 8 + 6 = 14,\" Htet Aung said, writing both sentences on a scrap of paper. Then he remembered something his teacher had taught him: since 6, 8 and 14 belong to the same fact family, two subtraction sentences must also be true -- 14 - 6 = 8, and 14 - 8 = 6. He checked by taking 6 toffees away from the plate, and sure enough, 8 were left.\n\nLater that day, his younger sister Zin Mar was in charge of the biscuit tin. It started with 15 biscuits. After the morning rush, she had sold some biscuits and now needed to know how many, but she already knew that 9 + 6 = 15 from an earlier game they had played with number cards. \"If 9 + 6 = 15,\" Zin Mar said, \"then 15 - 9 must be 6, without me recounting a single biscuit!\" She checked the tin, and there really were 6 biscuits left, meaning 9 had been sold.\n\nBefore closing the stall for the day, Htet Aung and Zin Mar played a number bonds game with 12 pencils, splitting them between two cups in every way they could think of: 0 and 12, 1 and 11, 2 and 10, 3 and 9, 4 and 8, 5 and 7, and finally 6 and 6. \"Every one of those pairs makes 12 when you add them together,\" Htet Aung explained, \"just like 7 and 5 make 12, or 6 and 6 make 12.\"\n\nAs they packed up, their mother asked one last question: \"If 6 + 6 = 12, what is 12 - 6?\" Htet Aung answered right away, without doing any new counting: \"12 - 6 = 6, because 6, 6 and 12 are all part of the same fact family!\" Zin Mar clapped, and the two of them closed the stall for the night, proud of how quickly they could find new number facts from ones they already knew.",
+        passageMy:
+            "ထက်အောင်၏ မိသားစုသည် အိမ်အနီးတွင် ကလေးများအား သကြားလုံးနှင့် ဘီစကွတ်များ ရောင်းချသည့် မုန့်ဆိုင်လေးတစ်ခုကို လုပ်ကိုင်ကြသည်။ တစ်နေ့ ညနေခင်းတွင် ထက်အောင်၏ မိခင်က ဆိုင်မဖွင့်မီ အိုးနှစ်လုံးထဲရှိ တော်ဖီများကို ရေတွက်ခိုင်းခဲ့သည်။ အနီရောင်အိုးတွင် တော်ဖီ 6 လုံးရှိပြီး၊ အပြာရောင်အိုးတွင် တော်ဖီ 8 လုံး ရှိခဲ့သည်။ ထက်အောင်သည် ၎င်းတို့အားလုံးကို ပန်းကန်တစ်ချပ်ပေါ် ဖြည်ချကာ တော်ဖီတစ်လုံးချင်းစီကို ရေတွက်ခဲ့သည် - စုစုပေါင်း တော်ဖီ 14 လုံး ရှိခဲ့သည်။ \"6 + 8 = 14၊ 8 + 6 = 14 ပါ\" ဟု ထက်အောင်က စာကြောင်းနှစ်ကြောင်းလုံးကို စက္ကူစနှင့်ပေါ်တွင် ရေးချခဲ့သည်။ ထို့နောက် ဆရာမက သင်ပေးခဲ့ဖူးသည့်အရာကို သတိရလိုက်သည် - 6၊ 8 နှင့် 14 တို့သည် တူညီသောအချက်အလက်မိသားစု (fact family) တွင် ပါဝင်သောကြောင့် နုတ်ခြင်းစာကြောင်းနှစ်ကြောင်းလည်း မှန်ကန်ရမည် -- 14 - 6 = 8 နှင့် 14 - 8 = 6။ ၎င်းသည် ပန်းကန်ပေါ်မှ တော်ဖီ 6 လုံးကို ထုတ်ယူကာ စစ်ဆေးကြည့်ရာ 8 လုံး ကျန်ရှိနေသည်ကို တွေ့ရသည်။\n\nထိုနေ့ နောက်ပိုင်းတွင် ညီမလေး ဇင်မာသည် ဘီစကွတ်စည်ကို တာဝန်ယူထားသည်။ မနက်ခင်းတွင် ဘီစကွတ် 15 ချပ်ဖြင့် စတင်ခဲ့ပြီး၊ မနက်ခင်း ကုန်သွယ်မှုအပြီးတွင် ဘီစကွတ်အချို့ ရောင်းသွားခဲ့ရာ ရောင်းသွားသောအရေအတွက် သိလိုသော်လည်း၊ သူမသည် အစောပိုင်းက ဂဏန်းကတ်များနှင့် ကစားစဉ်က 9 + 6 = 15 ဖြစ်ကြောင်း သိထားပြီးဖြစ်သည်။ \"9 + 6 = 15 ဖြစ်ရင်\" ဟု ဇင်မာက ပြောသည်၊ \"15 - 9 ဆိုတာ ဘီစကွတ်တစ်ချပ်မှ ပြန်မရေတွက်ဘဲနဲ့ 6 ဖြစ်ရမှာပါ!\" သူမက စည်ကို စစ်ဆေးကြည့်ရာ အမှန်ပင် ဘီစကွတ် 6 ချပ် ကျန်ရှိနေသဖြင့် 9 ချပ် ရောင်းသွားကြောင်း သိရသည်။\n\nဆိုင်ကို မပိတ်မီ ထက်အောင်နှင့် ဇင်မာတို့သည် ခဲတံ 12 ချောင်းဖြင့် ဂဏန်းစုံဖက်မှု ဂိမ်းတစ်ခုကို ကစားခဲ့ကြသည်၊ ခွက်နှစ်ခုအတွင်း တွေးနိုင်သမျှ နည်းလမ်းအားလုံးဖြင့် ခွဲဝေခဲ့ကြသည် - 0 နှင့် 12၊ 1 နှင့် 11၊ 2 နှင့် 10၊ 3 နှင့် 9၊ 4 နှင့် 8၊ 5 နှင့် 7၊ နောက်ဆုံး 6 နှင့် 6။ \"အဲဒီအတွဲတိုင်းကို ပေါင်းလိုက်ရင် 12 ရမှာပါ\" ဟု ထက်အောင်က ရှင်းပြခဲ့သည်၊ \"7 နဲ့ 5 ကလည်း 12 ဖြစ်သလို 6 နဲ့ 6 ကလည်း 12 ဖြစ်တယ်။\"\n\nပစ္စည်းများ ပြန်စုသိမ်းနေစဉ် သူတို့မိခင်က နောက်ဆုံးမေးခွန်းတစ်ခု မေးခဲ့သည် - \"6 + 6 = 12 ဆိုရင် 12 - 6 က ဘာဖြစ်မလဲ။\" ထက်အောင်က ဘာမှ အသစ်ထပ်ရေတွက်စရာမလိုဘဲ ချက်ချင်း ဖြေခဲ့သည် - \"12 - 6 = 6 ပါ၊ ဘာဖြစ်လို့လဲဆိုတော့ 6၊ 6 နှင့် 12 တို့သည် တူညီသောအချက်အလက်မိသားစုထဲမှာ ပါဝင်နေလို့ပါ!\" ဇင်မာက လက်ခုပ်တီးခဲ့ပြီး နှစ်ယောက်စလုံးက မိမိတို့ သိပြီးသား ဂဏန်းအချက်အလက်များမှ ဂဏန်းအသစ်များကို လျင်မြန်စွာ ရှာတွေ့နိုင်ခြင်းအတွက် ဂုဏ်ယူစွာနှင့် ထိုည ဆိုင်ကို ပိတ်ခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many toffees did Htet Aung count in total, combining the red jar and the blue jar?",
+            questionMy:
+                "ထက်အောင်သည် အနီရောင်အိုးနှင့် အပြာရောင်အိုးကို ပေါင်းစပ်ပြီး တော်ဖီ စုစုပေါင်း မည်မျှ ရေတွက်ခဲ့သနည်း။",
+            optionsEn: ["14", "20", "6", "8"],
+            optionsMy: ["14", "20", "6", "8"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- add the 6 toffees from the red jar to the 8 toffees from the blue jar.",
+              "This is the same kind of addition within 20 practiced in Week 5 -- combine both amounts into one total.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အနီရောင်အိုးမှ တော်ဖီ 6 လုံးကို အပြာရောင်အိုးမှ တော်ဖီ 8 လုံးနှင့် ပေါင်းကြည့်ပါ။",
+              "၎င်းသည် Week 5 တွင် လေ့ကျင့်ခဲ့သော 20 အတွင်း ပေါင်းခြင်းအမျိုးအစားပင် ဖြစ်သည် -- ပမာဏနှစ်ခုကို တစ်ခုတည်းသော စုစုပေါင်းအဖြစ် ပေါင်းလိုက်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which subtraction sentence did Htet Aung say belongs to the same fact family as 6, 8 and 14?",
+            questionMy:
+                "ထက်အောင်က 6၊ 8 နှင့် 14 တို့နှင့် တူညီသောအချက်အလက်မိသားစုဖြစ်သည်ဟု မည်သည့် နုတ်ခြင်းစာကြောင်းကို ပြောခဲ့သနည်း။",
+            optionsEn: ["14 - 8 = 6", "14 - 8 = 9", "8 - 6 = 14", "6 - 14 = 8"],
+            optionsMy: ["14 - 8 = 6", "14 - 8 = 9", "8 - 6 = 14", "6 - 14 = 8"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- Htet Aung names two subtraction sentences using the same three numbers 6, 8 and 14.",
+              "Recall Day 1's first quiz question -- start from the total (14) and take away one of the smaller numbers (8) to find the other.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ထက်အောင်သည် ဂဏန်းသုံးလုံး 6၊ 8 နှင့် 14 တို့ကို အသုံးပြု၍ နုတ်ခြင်းစာကြောင်း နှစ်ကြောင်းကို အမည်ပေးခဲ့သည်။",
+              "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- စုစုပေါင်း (14) မှစပြီး ငယ်သောဂဏန်းတစ်ခု (8) ကို နုတ်ပြီး အခြားတစ်ခုကို ရှာပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Zin Mar already knew 9 + 6 = 15. How did she instantly work out 15 - 9 without recounting the biscuits?",
+            questionMy:
+                "ဇင်မာသည် 9 + 6 = 15 ဖြစ်ကြောင်း သိပြီးသားဖြစ်သည်။ ဘီစကွတ်များကို ပြန်မရေတွက်ဘဲ 15 - 9 ကို သူမ မည်သို့ ချက်ချင်း ရှာတွေ့ခဲ့သနည်း။",
+            optionsEn: [
+              "She used the same three numbers from the addition fact she already knew, in the related subtraction fact",
+              "She counted every biscuit in the tin again from the start",
+              "She guessed a number and checked if it felt right",
+              "She asked her mother for the answer",
+            ],
+            optionsMy: [
+              "သူမ သိပြီးသား ပေါင်းခြင်းအချက်အလက်မှ ဂဏန်းသုံးလုံးတည်းကို ဆက်စပ်နုတ်ခြင်းအချက်အလက်တွင် ပြန်သုံးခဲ့ခြင်း",
+              "စည်ထဲက ဘီစကွတ်တိုင်းကို အစကနေ ပြန်ရေတွက်ခဲ့ခြင်း",
+              "ဂဏန်းတစ်ခုကို ခန့်မှန်းပြီး မှန်မမှန် စစ်ကြည့်ခြင်း",
+              "အဖြေကို မိခင်ထံမှ မေးမြန်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Zin Mar says '15 - 9 must be 6' right after mentioning the addition fact she already knew.",
+              "Recall Day 1's second quiz question -- this is the same fact-family shortcut: reuse the numbers from a known addition fact instead of recounting.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဇင်မာသည် သူမ သိပြီးသား ပေါင်းခြင်းအချက်အလက်ကို ပြောပြီးနောက် '15 - 9 ဆိုတာ 6 ဖြစ်ရမယ်' ဟု ပြောခဲ့သည်။",
+              "ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- ၎င်းသည် အချက်အလက်မိသားစု၏ ဖြတ်လမ်းနည်းလမ်းတစ်ခုတည်း ဖြစ်သည် - ပြန်မရေတွက်ဘဲ သိပြီးသား ပေါင်းခြင်းအချက်အလက်မှ ဂဏန်းများကို ပြန်သုံးခြင်းသာ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Htet Aung's mother asked: if 6 + 6 = 12, what is 12 - 6? What did Htet Aung answer?",
+            questionMy:
+                "ထက်အောင်၏ မိခင်က မေးခဲ့သည် - 6 + 6 = 12 ဆိုရင် 12 - 6 က ဘာဖြစ်မလဲ။ ထက်အောင်က ဘာဖြေခဲ့သနည်း။",
+            optionsEn: ["6", "12", "18", "0"],
+            optionsMy: ["6", "12", "18", "0"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Htet Aung answers right away using the same three numbers 6, 6 and 12.",
+              "Recall Day 1's third quiz question about number bonds to 12 -- 6 and 6 is one of the pairs that makes 12, and the fact family works both ways.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ထက်အောင်သည် ဂဏန်းသုံးလုံး 6၊ 6 နှင့် 12 တို့ကို အသုံးပြု၍ ချက်ချင်း ဖြေခဲ့သည်။",
+              "ပထမနေ့ တတိယမေးခွန်း 12 ဂဏန်းစုံဖက်မှုကို သတိရပါ -- 6 နှင့် 6 သည် 12 ဖြစ်စေသော တွဲဖက်တစ်ခုဖြစ်ပြီး အချက်အလက်မိသားစုသည် ဘက်နှစ်ဖက်လုံး အလုပ်လုပ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Fact Families and Number Bonds",
+      titleMy:
+          "အပတ်စဉ် ၇ ပြန်လည်သုံးသပ်ခြင်း - အချက်အလက်မိသားစုများနှင့် ဂဏန်းစုံဖက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Recall the fact family for 9, 8 and 17. Which sentence correctly completes it: 9 + 8 = 17, 8 + 9 = 17, 17 - 9 = 8, and ____?",
+          questionMy:
+              "9၊ 8 နှင့် 17 ၏ အချက်အလက်မိသားစုကို သတိရပါ။ ၎င်းကို မှန်ကန်စွာ ပြည့်စုံစေသည့် စာကြောင်းမှာ - 9 + 8 = 17၊ 8 + 9 = 17၊ 17 - 9 = 8၊ နှင့် ____?",
+          optionsEn: ["17 - 8 = 9", "17 - 8 = 10", "9 - 8 = 17", "8 - 17 = 9"],
+          optionsMy: ["17 - 8 = 9", "17 - 8 = 10", "9 - 8 = 17", "8 - 17 = 9"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match pair for 9 + 8 = 17 and its matching subtraction fact.",
+            "Start from the total 17 and take away the addend 8 that hasn't been used yet -- what number is left?",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 9 + 8 = 17 နှင့် ၎င်း၏ ကိုက်ညီသော နုတ်ခြင်းအချက်အလက်ကို သတိရပါ။",
+            "စုစုပေါင်း 17 မှစပြီး မသုံးရသေးသော အဆင့် 8 ကို နုတ်ကြည့်ပါ -- ဘယ်ဂဏန်း ကျန်သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "You know that 7 + 5 = 12. Without recounting, what is 12 - 5?",
+          questionMy:
+              "7 + 5 = 12 ဖြစ်ကြောင်း သင် သိသည်။ ပြန်မရေတွက်ဘဲ 12 - 5 သည် ဘယ်လောက်ဖြစ်မည်နည်း။",
+          optionsEn: ["7", "5", "17", "2"],
+          optionsMy: ["7", "5", "17", "2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match pair for 7 + 5 = 12, and Day 4's reading passage where Zin Mar used the very same shortcut with 9 + 6 = 15.",
+            "12, 5 and 7 are the three numbers in this fact family -- 12 minus one addend always leaves the other addend behind.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ 7 + 5 = 12 နှင့် စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်တွင် ဇင်မာ 9 + 6 = 15 ဖြင့် အသုံးပြုခဲ့သော ဖြတ်လမ်းနည်းလမ်း အတူတူကို သတိရပါ။",
+            "12၊ 5 နှင့် 7 သည် ဤအချက်အလက်မိသားစု၏ ဂဏန်းသုံးလုံး ဖြစ်သည် -- 12 မှ အဆင့်တစ်ခုကို နုတ်လျှင် အမြဲတမ်း အခြားအဆင့်တစ်ခု ကျန်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Number bonds to 16 are pairs of numbers that add up to 16. If one partner is 9, what is the other partner?",
+          questionMy:
+              "16 ဂဏန်းစုံဖက်မှုများသည် ပေါင်းလိုက်လျှင် 16 ဖြစ်စေသော ဂဏန်းတွဲများဖြစ်သည်။ တွဲဖက်တစ်ခုမှာ 9 ဖြစ်ပါက အခြားတွဲဖက်မှာ အဘယ်နည်း။",
+          optionsEn: ["7", "6", "8", "25"],
+          optionsMy: ["7", "6", "8", "25"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's number bonds to 12 question, and Week 5's number bonds to 10 -- the same idea works for any target number, including 16.",
+            "Count on from 9 until you reach 16: 10, 11, 12, 13, 14, 15, 16 -- how many numbers did you just count?",
+          ],
+          hintsMy: [
+            "ပထမနေ့ 12 ဂဏန်းစုံဖက်မှုမေးခွန်းနှင့် Week 5 ၏ 10 ဂဏန်းစုံဖက်မှုကို သတိရပါ -- ပစ်မှတ်ဂဏန်း မည်သည်ဖြစ်စေ 16 အပါအဝင် အယူအဆချင်း အတူတူပင် အလုပ်လုပ်သည်။",
+            "9 မှ 16 အထိ ရေတွက်ကြည့်ပါ - 10၊ 11၊ 12၊ 13၊ 14၊ 15၊ 16 -- ဘယ်နှစ်ခု ရေတွက်လိုက်သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, Htet Aung said that 6, 8 and 14 belong to the same fact family. Which of these is NOT one of the four related sentences?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်တွင် ထက်အောင်က 6၊ 8 နှင့် 14 တို့သည် တူညီသောအချက်အလက်မိသားစုတွင် ပါဝင်သည်ဟု ပြောခဲ့သည်။ ဤတို့အနက် ဆက်စပ်စာကြောင်းလေးကြောင်း၏ တစ်ခုအဖြစ် မဟုတ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["14 - 6 = 9", "6 + 8 = 14", "14 - 8 = 6", "8 + 6 = 14"],
+          optionsMy: ["14 - 6 = 9", "6 + 8 = 14", "14 - 8 = 6", "8 + 6 = 14"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage and its second comprehension question -- three of these four options are true sentences from that fact family.",
+            "Check each one against 6, 8 and 14: 14 - 6 should equal 8, not 9 -- find the option with the wrong answer.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်နှင့် ၎င်း၏ ဒုတိယနားလည်မှုမေးခွန်းကို သတိရပါ -- ဤရွေးချယ်စရာလေးခုအနက် သုံးခုသည် ထိုအချက်အလက်မိသားစုမှ မှန်ကန်သော စာကြောင်းများ ဖြစ်ကြသည်။",
+            "တစ်ခုစီကို 6၊ 8 နှင့် 14 တို့နှင့် စစ်ဆေးပါ - 14 - 6 သည် 9 မဟုတ်ဘဲ 8 ဖြစ်ရမည် -- မှားနေသော ဖြေကို ရှာပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "This week you learned that addition and subtraction facts using the same three numbers are all connected in a \"fact family\" (အချက်အလက်မိသားစု). Which idea best explains why this is useful?",
+          questionMy:
+              "ဒီအပတ်တွင် ဂဏန်းသုံးလုံးတည်းကို အသုံးပြုသော ပေါင်းခြင်းနှင့် နုတ်ခြင်းအချက်အလက်များသည် \"အချက်အလက်မိသားစု\" (fact family) တစ်ခုတည်းတွင် ဆက်စပ်နေကြောင်း သင်ယူခဲ့သည်။ ၎င်းသည် အဘယ်ကြောင့် အသုံးဝင်သနည်းဆိုသည်ကို မည်သည့်အယူအဆက အကောင်းဆုံး ရှင်းပြသနည်း။",
+          optionsEn: [
+            "If you already know one addition fact, you can find its related subtraction facts instantly, without recalculating from scratch",
+            "Fact families only work for numbers smaller than 5",
+            "Addition and subtraction facts are never related to each other",
+            "You must always recount from the beginning, even if you already know a related fact",
+          ],
+          optionsMy: [
+            "ပေါင်းခြင်းအချက်အလက်တစ်ခု သိပြီးသားဖြစ်ပါက ဆက်စပ်နုတ်ခြင်းအချက်အလက်များကို အစကနေ ပြန်တွက်စရာမလိုဘဲ ချက်ချင်း ရှာတွေ့နိုင်ခြင်း",
+            "အချက်အလက်မိသားစုများသည် 5 ထက်ငယ်သော ဂဏန်းများအတွက်သာ အလုပ်လုပ်ခြင်း",
+            "ပေါင်းခြင်းနှင့် နုတ်ခြင်းအချက်အလက်များသည် တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ ဆက်စပ်မှု မရှိခြင်း",
+            "ဆက်စပ်အချက်အလက်တစ်ခုကို သိပြီးသားဖြစ်နေသော်လည်း အမြဲတမ်း အစကနေ ပြန်ရေတွက်ရမည် ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this whole week -- Day 1's questions, Day 2's drag-match pairs, and Day 4's reading passage all showed the same shortcut used again and again.",
+            "Think back to Week 5's addition and Week 6's subtraction -- this week showed that those two skills are really two sides of the very same fact.",
+          ],
+          hintsMy: [
+            "ဒီအပတ်တစ်ခုလုံးကို သတိရပါ -- ပထမနေ့ မေးခွန်းများ၊ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းများနှင့် စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ် အားလုံးက ထပ်ခါတလဲလဲ ဖြတ်လမ်းနည်းလမ်း အတူတူကိုပင် ပြသခဲ့ကြသည်။",
+            "Week 5 ၏ ပေါင်းခြင်းနှင့် Week 6 ၏ နုတ်ခြင်းကို ပြန်တွေးကြည့်ပါ -- ဒီအပတ်က ထိုကျွမ်းကျင်မှုနှစ်ခုသည် တစ်ခုတည်းသော အချက်အလက်၏ ဘက်နှစ်ဖက်ပင် ဖြစ်ကြောင်း ပြသခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek8 = CourseWeekDef(
+  id: "course-year1-mathematics-w8",
+  weekNumber: 8,
+  titleEn: "Putting It Together: Addition and Subtraction to 20",
+  titleMy: "အားလုံးကို ပေါင်းစပ်ကြည့်ကြမည် - 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w8-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Addition and Subtraction to 20 Quiz",
+      titleMy: "ပေါင်းခြင်းနှင့် နုတ်ခြင်း ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Yadanar's snack corner already had 7 cups of roasted corn on the table. She counted on and added 8 more cups. How many cups are there now?",
+          questionMy:
+              "ရတနာ၏ သရေစာဆိုင်ငယ်တွင် ပြောင်းဖူးကြော်ခွက် ၇ ခွက် စားပွဲပေါ်တွင် ရှိပြီးသားဖြစ်သည်။ သူမသည် ရှေ့ဆက်ရေတွက်ပြီး နောက်ထပ် ၈ ခွက် ထပ်ထည့်ခဲ့သည်။ ယခုအခါ ခွက်စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["15", "14", "16", "13"],
+          optionsMy: ["15", "14", "16", "13"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's counting-on strategy: start at the bigger number, seven, and count forward the amount you're adding -- eight more steps.",
+            "Count on from seven: seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen -- that's eight counts forward.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ ရှေ့ဆက်ရေတွက်ခြင်း (counting on) နည်းလမ်းကို သတိရပါ - ပိုကြီးသောဂဏန်း ခုနစ်မှ အစပြု၍ ပေါင်းမည့်ပမာဏ ရှစ်ဆင့်ကို ရှေ့ဆက်ရေတွက်ပါ။",
+            "ခုနစ်မှ ရှေ့ဆက်ရေတွက်ကြည့်ပါ - ခုနစ်၊ ရှစ်၊ ကိုး၊ ဆယ်၊ ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး -- ၎င်းသည် ရှေ့ဆက် ရှစ်ဆင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "There were 16 straws in a cup for stirring drinks. During the break, 9 straws were used and taken away. Counting back from sixteen, how many straws are left?",
+          questionMy:
+              "အချိုရည်နှော်ရန် ကောက်ရိုး ၁၆ ချောင်း ခွက်တစ်ခွက်တွင် ရှိသည်။ အနားချိန်အတွင်း ကောက်ရိုး ၉ ချောင်းကို သုံးပြီး ထုတ်ယူခဲ့ကြသည်။ ဆယ့်ခြောက်မှ နောက်ပြန်ရေတွက်လျှင် ကောက်ရိုး မည်မျှ ကျန်ရှိသနည်း။",
+          optionsEn: ["7", "8", "6", "9"],
+          optionsMy: ["7", "8", "6", "9"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 6's counting-back strategy, and Term 1 Week 3's one-less idea -- taking away means counting backward one step for every straw used.",
+            "Count back nine steps from sixteen: sixteen, fifteen, fourteen, thirteen, twelve, eleven, ten, nine, eight, seven.",
+          ],
+          hintsMy: [
+            "Week 6 ၏ နောက်ပြန်ရေတွက်ခြင်း (counting back) နည်းလမ်းနှင့် Term 1 Week 3 ၏ \"တစ်လုံးလျော့နည်းခြင်း\" အယူအဆကို သတိရပါ -- ယူသွားခြင်းဆိုသည်မှာ သုံးသောအကြိမ်တိုင်းအတွက် တစ်ဆင့်စီ နောက်ပြန်ရေတွက်ခြင်း ဖြစ်သည်။",
+            "ဆယ့်ခြောက်မှ ကိုးဆင့် နောက်ပြန်ရေတွက်ကြည့်ပါ - ဆယ့်ခြောက်၊ ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး၊ ဆယ့်နှစ်၊ ဆယ့်တစ်၊ ဆယ်၊ ကိုး၊ ရှစ်၊ ခုနစ်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "We already know that 8 + 7 = 15. Using that same fact family, what is 15 - 7?",
+          questionMy:
+              "ကျွန်ုပ်တို့ ၈ + ၇ = ၁၅ ဖြစ်ကြောင်း သိပြီးသားဖြစ်သည်။ ထိုဂဏန်းမိသားစုအတိုင်း 15 - 7 မှာ မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["8", "7", "15", "1"],
+          optionsMy: ["8", "7", "15", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's fact family lesson -- 8, 7 and 15 all belong to the same fact family, so the addition fact tells you the subtraction fact for free.",
+            "If 8 + 7 = 15, then taking 7 back away from 15 must undo exactly what adding 7 did -- so the answer is the other number in the fact, 8.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ဂဏန်းမိသားစု (fact family) သင်ခန်းစာကို သတိရပါ -- ၈၊ ၇ နှင့် ၁၅ တို့သည် ဂဏန်းမိသားစုတစ်ခုတည်းတွင် ပါဝင်ကြသောကြောင့် ပေါင်းခြင်းအချက်က နုတ်ခြင်းအချက်ကို အလိုအလျောက် ပြောပြနေသည်။",
+            "8 + 7 = 15 ဖြစ်ပါက 15 မှ 7 ကို ပြန်နုတ်လျှင် 7 ကို ပေါင်းခြင်း၏ ပြန်ပြင်မှုပင် ဖြစ်ရမည် -- ထို့ကြောင့် အဖြေမှာ အချက်ထဲရှိ အခြားဂဏန်းဖြစ်သော 8 ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The number sentence 6 + 9 = 15 is true. Which of these number sentences belongs to the very same fact family?",
+          questionMy:
+              "6 + 9 = 15 ဟူသော ဂဏန်းစကားစုသည် မှန်ကန်သည်။ အောက်ပါ ဂဏန်းစကားစုများအနက် မည်သည့်အရာသည် ထိုဂဏန်းမိသားစုတစ်ခုတည်းတွင် ပါဝင်သနည်း။",
+          optionsEn: ["15 - 6 = 9", "15 - 9 = 5", "6 + 15 = 9", "9 - 6 = 15"],
+          optionsMy: ["15 - 6 = 9", "15 - 9 = 5", "6 + 15 = 9", "9 - 6 = 15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's fact family lesson and this quiz's third question -- a fact family for 6, 9 and 15 only has four true number sentences: 6+9=15, 9+6=15, 15-6=9 and 15-9=6.",
+            "Check each option against the real fact family for 6, 9 and 15 -- only one option uses the correct numbers in a way that is actually true.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ဂဏန်းမိသားစု သင်ခန်းစာနှင့် ဤပဟေဋ္ဌိ၏ တတိယမေးခွန်းကို သတိရပါ -- 6၊ 9 နှင့် 15 အတွက် ဂဏန်းမိသားစုတွင် မှန်ကန်သော ဂဏန်းစကားလုံးလေးခုသာ ရှိသည် - 6+9=15၊ 9+6=15၊ 15-6=9 နှင့် 15-9=6။",
+            "ရွေးချယ်စရာတစ်ခုစီကို 6၊ 9 နှင့် 15 ၏ အမှန်ဂဏန်းမိသားစုနှင့် နှိုင်းယှဉ်စစ်ဆေးပါ -- တစ်ခုတည်းသောရွေးချယ်စရာသာ မှန်ကန်သောဂဏန်းများကို အမှန်ဖြစ်အောင် အသုံးပြုထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match the Addition and Subtraction Terms",
+      titleMy: "ပေါင်းခြင်းနှင့် နုတ်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w8-dm-1",
+          termEn: "Counting On",
+          termMy: "ရှေ့ဆက်ရေတွက်ခြင်း (Counting On)",
+          matchEn:
+              "An addition strategy: start at the bigger number and count forward by the amount you are adding, instead of starting over from one -- like counting on from 9 to add 6 more.",
+          matchMy:
+              "ပေါင်းခြင်း နည်းဗျူဟာတစ်ခု - တစ်မှ ပြန်မစဘဲ ပိုကြီးသောဂဏန်းမှ အစပြု၍ ပေါင်းမည့်ပမာဏအတိုင်း ရှေ့ဆက်ရေတွက်ခြင်း -- ဥပမာ ၉ မှ ၆ ကို ပေါင်းရန် ရှေ့ဆက်ရေတွက်ခြင်းကဲ့သို့။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w8-dm-2",
+          termEn: "Counting Back",
+          termMy: "နောက်ပြန်ရေတွက်ခြင်း (Counting Back)",
+          matchEn:
+              "A subtraction strategy: start at the bigger number and count backward by the amount being taken away, to find what is left.",
+          matchMy:
+              "နုတ်ခြင်း နည်းဗျူဟာတစ်ခု - ပိုကြီးသောဂဏန်းမှ အစပြု၍ ယူသွားသောပမာဏအတိုင်း နောက်ပြန်ရေတွက်ခြင်းဖြင့် ကျန်ရှိသည်ကို ရှာဖွေခြင်း။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w8-dm-3",
+          termEn: "Number Bond",
+          termMy: "ဂဏန်းအတွဲ (Number Bond)",
+          matchEn:
+              "Two numbers that combine to make a target number -- for example, 8 and 5 are a number bond for 13, because 8 + 5 = 13.",
+          matchMy:
+              "ပစ်မှတ်ဂဏန်းတစ်ခုကို ဖွဲ့စည်းရန် ပေါင်းစပ်ထားသော ဂဏန်းနှစ်ခု -- ဥပမာ 8 နှင့် 5 သည် 13 အတွက် ဂဏန်းအတွဲဖြစ်သည်၊ အဘယ်ကြောင့်ဆိုသော် 8 + 5 = 13 ဖြစ်သောကြောင့်တည်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w8-dm-4",
+          termEn: "Fact Family",
+          termMy: "ဂဏန်းမိသားစု (Fact Family)",
+          matchEn:
+              "A group of related addition and subtraction sentences that use the very same three numbers -- for example, 8+5=13, 5+8=13, 13-5=8 and 13-8=5.",
+          matchMy:
+              "ဂဏန်းသုံးလုံးတည်းကို အသုံးပြုသော ဆက်စပ် ပေါင်းခြင်းနှင့် နုတ်ခြင်း ဂဏန်းစကားစုများ အုပ်စု -- ဥပမာ 8+5=13၊ 5+8=13၊ 13-5=8 နှင့် 13-8=5။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w8-dm-5",
+          termEn: "Difference",
+          termMy: "ကွာခြားချက် (Difference)",
+          matchEn:
+              "The answer to a subtraction problem -- how many more one number is than another, or how many are left after some are taken away.",
+          matchMy:
+              "နုတ်ခြင်းပြဿနာ၏ အဖြေ -- ဂဏန်းတစ်ခုသည် အခြားတစ်ခုထက် မည်မျှ ပိုသည်၊ (သို့) အချို့ကို ယူသွားပြီးနောက် မည်မျှ ကျန်ရှိသည်ကို ဖော်ပြခြင်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w8-dm-6",
+          termEn: "Sum",
+          termMy: "ပေါင်းလဒ် (Sum)",
+          matchEn:
+              "The answer to an addition problem -- the total you get when two or more numbers are combined together.",
+          matchMy:
+              "ပေါင်းခြင်းပြဿနာ၏ အဖြေ -- ဂဏန်းနှစ်ခု (သို့) ထို့ထက်ပိုသော ဂဏန်းများကို ပေါင်းစည်းလိုက်သောအခါ ရရှိသော စုစုပေါင်း။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Addition Fact or Subtraction Fact?",
+      titleMy: "စီစစ်ကြမည် - ပေါင်းခြင်းအချက်လား၊ နုတ်ခြင်းအချက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Addition Fact", "Subtraction Fact"],
+        bucketsMy: ["ပေါင်းခြင်းအချက်", "နုတ်ခြင်းအချက်"],
+        items: [
+          SortingItem(
+            id: "y1math-w8-sort-1",
+            labelEn: "7 + 6 = 13",
+            labelMy: "7 + 6 = 13",
+            correctBucketEn: "Addition Fact",
+            correctBucketMy: "ပေါင်းခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-2",
+            labelEn: "15 - 7 = 8",
+            labelMy: "15 - 7 = 8",
+            correctBucketEn: "Subtraction Fact",
+            correctBucketMy: "နုတ်ခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-3",
+            labelEn: "9 + 8 = 17",
+            labelMy: "9 + 8 = 17",
+            correctBucketEn: "Addition Fact",
+            correctBucketMy: "ပေါင်းခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-4",
+            labelEn: "16 - 9 = 7",
+            labelMy: "16 - 9 = 7",
+            correctBucketEn: "Subtraction Fact",
+            correctBucketMy: "နုတ်ခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-5",
+            labelEn: "5 + 9 = 14",
+            labelMy: "5 + 9 = 14",
+            correctBucketEn: "Addition Fact",
+            correctBucketMy: "ပေါင်းခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-6",
+            labelEn: "14 - 6 = 8",
+            labelMy: "14 - 6 = 8",
+            correctBucketEn: "Subtraction Fact",
+            correctBucketMy: "နုတ်ခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-7",
+            labelEn: "8 + 8 = 16",
+            labelMy: "8 + 8 = 16",
+            correctBucketEn: "Addition Fact",
+            correctBucketMy: "ပေါင်းခြင်းအချက်",
+          ),
+          SortingItem(
+            id: "y1math-w8-sort-8",
+            labelEn: "18 - 8 = 10",
+            labelMy: "18 - 8 = 10",
+            correctBucketEn: "Subtraction Fact",
+            correctBucketMy: "နုတ်ခြင်းအချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Yadanar's Snack Corner",
+      titleMy: "စာဖတ်ခြင်း - ရတနာ၏ သရေစာဆိုင်ငယ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Yadanar's Snack Corner",
+        titleMy: "ရတနာ၏ သရေစာဆိုင်ငယ်",
+        passageEn:
+            "It was Fun Fair day at school, and Yadanar was in charge of the snack corner, selling cups of roasted corn to her classmates during the break. Before the fair began, nine cups were already lined up on the table from the morning batch. Yadanar's teacher helped her make six more cups, and instead of starting to count from one all over again, Yadanar remembered Week 5's counting-on trick: she started at nine and counted on -- ten, eleven, twelve, thirteen, fourteen, fifteen. There were fifteen cups of roasted corn ready for the fair.\n\nOnce the fair began, five friends came to the snack corner one after another, and each of them bought exactly one cup. Yadanar watched the cups disappear from the table and used Week 6's counting-back trick to keep track without recounting everything: fifteen, fourteen, thirteen, twelve, eleven, ten. Ten cups of roasted corn were left on the table.\n\nA little later, Yadanar's teacher asked a tricky question just to test her: \"We already know that nine plus six equals fifteen. If instead of selling five cups, you had given away the six cups you made this morning, how many would be left?\" Yadanar didn't need to start counting all over again from the beginning. She remembered Week 7's lesson on fact families -- nine, six and fifteen were all part of the very same fact family, so if nine plus six is fifteen, then fifteen minus six must be nine. \"Nine!\" Yadanar answered proudly, without recounting a single cup.\n\nBy the end of the fair, Yadanar realized something important: counting on to find a sum, counting back to find a difference, and using a fact family to answer a related question quickly were really just three different ways of looking at the very same three numbers. Addition and subtraction, she now understood, were never two separate ideas -- they were always connected.",
+        passageMy:
+            "ယနေ့သည် ကျောင်း၏ ပျော်ရွှင်ဖွယ်ပွဲတော်နေ့ ဖြစ်ပြီး၊ ရတနာသည် အနားချိန်တွင် အတန်းဖော်များအား ပြောင်းဖူးကြော်ခွက်များ ရောင်းချရန် သရေစာဆိုင်ငယ်ကို တာဝန်ယူထားသည်။ ပွဲတော် မစတင်မီ မနက်ပိုင်းက ပြင်ဆင်ထားသော ခွက်ကိုးခွက်ကို စားပွဲပေါ်တွင် စီထားပြီးသားဖြစ်သည်။ ရတနာ၏ ဆရာမက နောက်ထပ် ခွက်ခြောက်ခွက် ပြုလုပ်ရန် ကူညီပေးခဲ့ပြီး၊ တစ်မှ ပြန်ရေတွက်မည့်အစား ရတနာသည် Week 5 ၏ ရှေ့ဆက်ရေတွက်ခြင်း (counting on) နည်းလမ်းကို သတိရခဲ့သည် - ကိုးမှ အစပြု၍ ရှေ့ဆက်ရေတွက်ခဲ့သည် -- ဆယ်၊ ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး။ ပွဲတော်အတွက် ပြောင်းဖူးကြော်ခွက် ဆယ့်ငါးခွက် အသင့်ရှိခဲ့သည်။\n\nပွဲတော် စတင်သောအခါ သူငယ်ချင်းငါးဦးသည် သရေစာဆိုင်ငယ်သို့ တစ်ဦးပြီးတစ်ဦး လာရောက်ကြပြီး၊ တစ်ဦးစီက ခွက်တစ်ခွက်စီ ဝယ်ယူခဲ့ကြသည်။ ရတနာသည် ခွက်များ စားပွဲပေါ်မှ လျှော့နည်းသွားသည်ကို ကြည့်ရှုပြီး၊ အားလုံးကို ပြန်ရေမည့်အစား Week 6 ၏ နောက်ပြန်ရေတွက်ခြင်း (counting back) နည်းလမ်းကို သုံးခဲ့သည် - ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး၊ ဆယ့်နှစ်၊ ဆယ့်တစ်၊ ဆယ်။ စားပွဲပေါ်တွင် ပြောင်းဖူးကြော်ခွက် ဆယ်ခွက် ကျန်ရှိခဲ့သည်။\n\nခဏကြာသောအခါ ရတနာ၏ ဆရာမသည် သူမကို စမ်းသပ်ရန် ခက်ခဲသော မေးခွန်းတစ်ခု မေးခဲ့သည် - \"ကျွန်မတို့ ကိုးနှင့် ခြောက်ပေါင်းလျှင် ဆယ့်ငါး ဖြစ်ကြောင်း သိပြီးသားပါ။ ခွက်ငါးခွက် ရောင်းချမည့်အစား မနက်က ပြုလုပ်ခဲ့သော ခွက်ခြောက်ခွက်ကို ပေးလိုက်မယ်ဆိုရင် ဘယ်နှခွက် ကျန်ရှိမလဲ။\" ရတနာသည် အစကနေ ပြန်၍ ရေတွက်ရန် မလိုအပ်ခဲ့ပါ။ သူမသည် Week 7 ၏ ဂဏန်းမိသားစု (fact family) သင်ခန်းစာကို သတိရခဲ့သည် -- ကိုး၊ ခြောက်နှင့် ဆယ့်ငါးတို့သည် ဂဏန်းမိသားစုတစ်ခုတည်း၏ အစိတ်အပိုင်းများ ဖြစ်ကြသောကြောင့် ကိုးနှင့် ခြောက်ပေါင်းလျှင် ဆယ့်ငါး ဖြစ်ပါက ဆယ့်ငါးမှ ခြောက်နုတ်လျှင် ကိုး ဖြစ်ရမည်ဖြစ်သည်။ \"ကိုးခွက်ပါ!\" ဟု ရတနာသည် ခွက်တစ်ခွက်မျှ ပြန်မရေတွက်ဘဲ ဂုဏ်ယူစွာ ဖြေခဲ့သည်။\n\nပွဲတော် အဆုံးသတ်ချိန်တွင် ရတနာသည် အရေးကြီးသော အချက်တစ်ခုကို သဘောပေါက်လာခဲ့သည် - ပေါင်းလဒ် (sum) ရှာရန် ရှေ့ဆက်ရေတွက်ခြင်း၊ ကွာခြားချက် (difference) ရှာရန် နောက်ပြန်ရေတွက်ခြင်းနှင့် ဆက်စပ်မေးခွန်းကို လျင်မြန်စွာ ဖြေရန် ဂဏန်းမိသားစုကို အသုံးပြုခြင်းတို့သည် အမှန်တကယ်တွင် ဂဏန်းသုံးလုံးတည်းကို ကြည့်ရှုသည့် မတူညီသော နည်းလမ်းသုံးမျိုးသာ ဖြစ်ကြောင်း သိရှိလာခဲ့သည်။ ပေါင်းခြင်းနှင့် နုတ်ခြင်းတို့သည် သီးခြားစိတ်ကူးနှစ်ခု မဟုတ်ဘဲ အမြဲတမ်း ဆက်စပ်နေကြောင်းကိုလည်း ယခုအခါ နားလည်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many cups of roasted corn were ready for the fair after Yadanar counted on from nine?",
+            questionMy:
+                "ကိုးမှ ရှေ့ဆက်ရေတွက်ပြီးနောက် ပွဲတော်အတွက် ပြောင်းဖူးကြော်ခွက် မည်မျှ အသင့်ရှိခဲ့သနည်း။",
+            optionsEn: ["15", "14", "13", "16"],
+            optionsMy: ["15", "14", "13", "16"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- follow the counting-on sequence starting from nine all the way to the final number.",
+              "This is the same kind of counting-on question as Day 1's first quiz question.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကိုးမှ အစပြု၍ ရှေ့ဆက်ရေတွက်မှုအစီအစဉ်ကို နောက်ဆုံးဂဏန်းအထိ လိုက်ကြည့်ပါ။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်း၏ ရှေ့ဆက်ရေတွက်ခြင်းအမျိုးအစား တူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "After five friends each bought one cup, how many cups of roasted corn were left on the table?",
+            questionMy:
+                "သူငယ်ချင်းငါးဦး ခွက်တစ်ခွက်စီ ဝယ်ယူပြီးနောက် စားပွဲပေါ်တွင် ပြောင်းဖူးကြော်ခွက် မည်မျှ ကျန်ရှိခဲ့သနည်း။",
+            optionsEn: ["10", "9", "11", "8"],
+            optionsMy: ["10", "9", "11", "8"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- follow the counting-back sequence starting from fifteen.",
+              "Recall Day 1's second quiz question about counting back -- the same idea, told in the story.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆယ့်ငါးမှ အစပြု၍ နောက်ပြန်ရေတွက်မှုအစီအစဉ်ကို လိုက်ကြည့်ပါ။",
+              "ပထမနေ့ ဒုတိယမေးခွန်း၏ နောက်ပြန်ရေတွက်ခြင်းကို သတိရပါ -- ဇာတ်လမ်းထဲတွင် ပြောထားသော အတူတူသောအယူအဆပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the teacher's tricky question, if the six cups Yadanar made that morning had been given away instead of the five sold, how many cups would be left?",
+            questionMy:
+                "ဆရာမ၏ ခက်ခဲသောမေးခွန်းအရ ရောင်းချခဲ့သော ခွက်ငါးခွက်အစား ရတနာ မနက်ကပြုလုပ်ခဲ့သော ခွက်ခြောက်ခွက်ကို ပေးလိုက်ခဲ့လျှင် ခွက် မည်မျှ ကျန်ရှိမည်နည်း။",
+            optionsEn: ["9", "6", "15", "10"],
+            optionsMy: ["9", "6", "15", "10"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Yadanar uses the fact family for nine, six and fifteen to answer without recounting.",
+              "Recall Day 1's third and fourth quiz questions about fact families -- the same shortcut is used here in the story.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရတနာသည် ကိုး၊ ခြောက်နှင့် ဆယ့်ငါးအတွက် ဂဏန်းမိသားစုကို အသုံးပြု၍ ပြန်မရေတွက်ဘဲ ဖြေခဲ့သည်။",
+              "ပထမနေ့ တတိယနှင့် စတုတ္ထမေးခွန်းများ၏ ဂဏန်းမိသားစုကို သတိရပါ -- ဤဇာတ်လမ်းတွင်လည်း တူညီသောနည်းလမ်းကို အသုံးပြုထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Yadanar realize about addition and subtraction by the end of the fair?",
+            questionMy:
+                "ပွဲတော်အဆုံးတွင် ပေါင်းခြင်းနှင့် နုတ်ခြင်းတို့နှင့်ပတ်သက်၍ ရတနာ မည်သို့ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "They are always connected -- the same three numbers can make both an addition fact and a subtraction fact.",
+              "They are two completely separate ideas that never relate to each other.",
+              "Subtraction is only useful for numbers bigger than twenty.",
+              "Counting on and counting back mean exactly the same thing.",
+            ],
+            optionsMy: [
+              "၎င်းတို့သည် အမြဲတမ်း ဆက်စပ်နေကြသည် -- ဂဏန်းသုံးလုံးတည်းဖြင့် ပေါင်းခြင်းအချက်နှင့် နုတ်ခြင်းအချက် နှစ်မျိုးလုံးကို ဖန်တီးနိုင်သည်။",
+              "၎င်းတို့သည် တစ်ခုနှင့်တစ်ခု လုံးဝမဆက်စပ်သော သီးခြားစိတ်ကူးနှစ်ခု ဖြစ်သည်။",
+              "နုတ်ခြင်းသည် နှစ်ဆယ်ထက်ကြီးသော ဂဏန်းများအတွက်သာ အသုံးဝင်သည်။",
+              "ရှေ့ဆက်ရေတွက်ခြင်းနှင့် နောက်ပြန်ရေတွက်ခြင်းတို့သည် အတိအကျ တူညီသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Yadanar names this exact idea herself, right after answering the teacher's tricky question.",
+              "This is the same big idea as Week 5's addition, Week 6's subtraction and Week 7's fact families -- they are three ways of looking at the same numbers, not separate topics.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆရာမ၏ ခက်ခဲသောမေးခွန်းကို ဖြေပြီးနောက် ရတနာ ကိုယ်တိုင် ဤအတွေးအခေါ်အတိအကျကို အမည်တွင်ခဲ့သည်။",
+              "၎င်းသည် Week 5 ၏ ပေါင်းခြင်း၊ Week 6 ၏ နုတ်ခြင်းနှင့် Week 7 ၏ ဂဏန်းမိသားစုတို့နှင့် တူညီသော အဓိကအတွေးအခေါ်ဖြစ်သည် -- ၎င်းတို့သည် သီးခြားခေါင်းစဉ်များမဟုတ်ဘဲ ဂဏန်းတူများကို ကြည့်ရှုသည့် နည်းလမ်းသုံးမျိုး ဖြစ်ကြသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Addition and Subtraction to 20",
+      titleMy:
+          "အပတ်စဉ် ၈ ပြန်လည်သုံးသပ်ခြင်း - 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "There were 7 sticker packs on the table, and a friend brought 9 more. Counting on from seven, how many sticker packs are there in total?",
+          questionMy:
+              "စားပွဲပေါ်တွင် စတစ်ကာထုပ် ၇ ထုပ် ရှိပြီး၊ သူငယ်ချင်းတစ်ဦးက နောက်ထပ် ၉ ထုပ် ယူဆောင်လာခဲ့သည်။ ခုနစ်မှ ရှေ့ဆက်ရေတွက်လျှင် စတစ်ကာထုပ် စုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["16", "15", "17", "14"],
+          optionsMy: ["16", "15", "17", "14"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Yadanar's reading passage -- counting on means starting at the bigger number and counting forward the amount being added.",
+            "Count on from seven: seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen -- that's nine counts forward.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ရတနာ၏ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ရှေ့ဆက်ရေတွက်ခြင်းဆိုသည်မှာ ပိုကြီးသောဂဏန်းမှ အစပြု၍ ပေါင်းမည့်ပမာဏအတိုင်း ရှေ့ဆက်ရေတွက်ခြင်း ဖြစ်သည်။",
+            "ခုနစ်မှ ရှေ့ဆက်ရေတွက်ကြည့်ပါ - ခုနစ်၊ ရှစ်၊ ကိုး၊ ဆယ်၊ ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး၊ ဆယ့်ခြောက် -- ၎င်းသည် ရှေ့ဆက် ကိုးဆင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "There were 16 straws in a jar. During art class, 7 straws were used and taken out. Counting back from sixteen, how many straws are left?",
+          questionMy:
+              "အိုးထဲတွင် ကောက်ရိုး ၁၆ ချောင်း ရှိသည်။ အနုပညာအချိန်အတွင်း ကောက်ရိုး ၇ ချောင်းကို သုံးပြီး ထုတ်ယူခဲ့ကြသည်။ ဆယ့်ခြောက်မှ နောက်ပြန်ရေတွက်လျှင် ကောက်ရိုး မည်မျှ ကျန်ရှိသနည်း။",
+          optionsEn: ["9", "10", "8", "7"],
+          optionsMy: ["9", "10", "8", "7"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and the reading passage's counting-back scene -- taking away means counting backward one step at a time.",
+            "Count back seven steps from sixteen: sixteen, fifteen, fourteen, thirteen, twelve, eleven, ten, nine.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် စာဖတ်ခြင်းအပိုဒ်ရှိ နောက်ပြန်ရေတွက်ခြင်းမြင်ကွင်းကို သတိရပါ -- ယူသွားခြင်းဆိုသည်မှာ တစ်ဆင့်စီ နောက်ပြန်ရေတွက်ခြင်းဖြစ်သည်။",
+            "ဆယ့်ခြောက်မှ ခုနစ်ဆင့် နောက်ပြန်ရေတွက်ကြည့်ပါ - ဆယ့်ခြောက်၊ ဆယ့်ငါး၊ ဆယ့်လေး၊ ဆယ့်သုံး၊ ဆယ့်နှစ်၊ ဆယ့်တစ်၊ ဆယ်၊ ကိုး။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "We know that 8 + 9 = 17. Using that same fact family, what is 17 - 9?",
+          questionMy:
+              "8 + 9 = 17 ဖြစ်ကြောင်း ကျွန်ုပ်တို့ သိပြီးသားဖြစ်သည်။ ထိုဂဏန်းမိသားစုအတိုင်း 17 - 9 မှာ မည်မျှ ဖြစ်သနည်း။",
+          optionsEn: ["8", "9", "17", "1"],
+          optionsMy: ["8", "9", "17", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fact-family questions and Week 7's lesson -- 8, 9 and 17 all belong to the same fact family.",
+            "If 8 + 9 = 17, then 17 - 9 must give back the other number in that same fact -- 8.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဂဏန်းမိသားစု မေးခွန်းများနှင့် Week 7 ၏ သင်ခန်းစာကို သတိရပါ -- 8၊ 9 နှင့် 17 တို့သည် ဂဏန်းမိသားစုတစ်ခုတည်းတွင် ပါဝင်ကြသည်။",
+            "8 + 9 = 17 ဖြစ်ပါက 17 - 9 သည် ထိုအချက်ထဲရှိ အခြားဂဏန်းဖြစ်သော 8 ကို ပြန်ရရှိရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, Yadanar used the fact 9 + 6 = 15 to answer a tricky question without recounting. What number did she answer?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်တွင် ရတနာသည် 9 + 6 = 15 ဂဏန်းမိသားစုကို အသုံးပြု၍ ပြန်မရေတွက်ဘဲ ခက်ခဲသောမေးခွန်းကို ဖြေခဲ့သည်။ သူမ မည်သည့်ဂဏန်းဖြင့် ဖြေခဲ့သနည်း။",
+          optionsEn: ["9", "6", "15", "10"],
+          optionsMy: ["9", "6", "15", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage -- the teacher's tricky question was about giving away the six cups Yadanar made that morning, not the five cups sold.",
+            "Nine, six and fifteen are a fact family -- since nine plus six equals fifteen, fifteen minus six must equal the other number in the fact, nine.",
+          ],
+          hintsMy: [
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ဆရာမ၏ ခက်ခဲသောမေးခွန်းသည် ရောင်းချခဲ့သော ခွက်ငါးခွက်ထက် ရတနာ မနက်ကပြုလုပ်ခဲ့သော ခွက်ခြောက်ခွက်ကို ပေးလိုက်ခြင်းအကြောင်း ဖြစ်သည်။",
+            "ကိုး၊ ခြောက်နှင့် ဆယ့်ငါးသည် ဂဏန်းမိသားစုတစ်ခု ဖြစ်သည် -- ကိုးနှင့် ခြောက်ပေါင်းလျှင် ဆယ့်ငါး ဖြစ်သောကြောင့် ဆယ့်ငါးမှ ခြောက်နုတ်လျှင် အချက်ထဲရှိ အခြားဂဏန်းဖြစ်သော ကိုး ဖြစ်ရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Counting on to find a sum, counting back to find a difference, and using a fact family to answer a related question quickly -- what one idea ties Weeks 5, 6 and 7 together?",
+          questionMy:
+              "ပေါင်းလဒ်ရှာရန် ရှေ့ဆက်ရေတွက်ခြင်း၊ ကွာခြားချက်ရှာရန် နောက်ပြန်ရေတွက်ခြင်းနှင့် ဆက်စပ်မေးခွန်းကို လျင်မြန်စွာ ဖြေရန် ဂဏန်းမိသားစုကို အသုံးပြုခြင်း -- ဤသုံးခုစလုံးကို ဆက်စပ်ပေးသည့် တစ်ခုတည်းသော အတွေးအခေါ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Addition and subtraction are connected -- the same three numbers can make both an addition fact and a subtraction fact.",
+            "Only counting matters, and addition and subtraction are unrelated to each other.",
+            "Subtraction always makes numbers bigger than they started.",
+            "Fact families only work for numbers smaller than ten.",
+          ],
+          optionsMy: [
+            "ပေါင်းခြင်းနှင့် နုတ်ခြင်းတို့သည် ဆက်စပ်နေကြသည် -- ဂဏန်းသုံးလုံးတည်းဖြင့် ပေါင်းခြင်းအချက်နှင့် နုတ်ခြင်းအချက် နှစ်မျိုးလုံးကို ဖန်တီးနိုင်သည်။",
+            "ရေတွက်ခြင်းသာ အရေးကြီးပြီး ပေါင်းခြင်းနှင့် နုတ်ခြင်းတို့သည် အချင်းချင်း ဆက်စပ်မှု မရှိပါ။",
+            "နုတ်ခြင်းသည် အမြဲတမ်း ဂဏန်းများကို မူလထက် ပိုကြီးလာစေသည်။",
+            "ဂဏန်းမိသားစုများသည် ဆယ်ထက်ငယ်သော ဂဏန်းများအတွက်သာ အသုံးဝင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Yadanar's realization at the end of the reading passage -- she named this exact idea herself, right before the fair ended.",
+            "This ties together Week 5's counting on to add, Week 6's counting back to subtract, and Week 7's fact families connecting addition and subtraction -- all in a single snack corner.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခြင်းအပိုဒ် အဆုံးရှိ ရတနာ၏ သဘောပေါက်မှုကို သတိရပါ -- ပွဲတော် မပြီးဆုံးမီ သူမ ကိုယ်တိုင် ဤအတွေးအခေါ်အတိအကျကို အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် Week 5 ၏ ပေါင်းရန်ရှေ့ဆက်ရေတွက်ခြင်း၊ Week 6 ၏ နုတ်ရန်နောက်ပြန်ရေတွက်ခြင်းနှင့် Week 7 ၏ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ဆက်စပ်ပေးသော ဂဏန်းမိသားစုတို့ကို သရေစာဆိုင်ငယ် တစ်ခုတည်းတွင် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 2: "Addition and Subtraction within 20" (Weeks 5-8) continues
+/// Year 1 Mathematics's pathway, deliberately escalating past the KG
+/// legacy content's "Simple Addition to 5": Week 5 introduces addition
+/// as counting on (reusing Term 1 Week 3's "one more" idea, generalized)
+/// with bridging through 10 as a stepping stone; Week 6 introduces
+/// subtraction as counting back (reusing Week 3's "one less" idea) and
+/// as finding a difference; Week 7 ties both together as fact families
+/// and number bonds -- the same three numbers, four related sentences;
+/// Week 8 is the capstone, combining all three into one real-world
+/// counting scenario. No column addition/subtraction with carrying or
+/// borrowing is taught this term -- only mental strategies, matching
+/// this pathway's age-appropriate-methods discipline.
+const CourseTermDef _year1MathematicsTerm2 = CourseTermDef(
+  id: "course-year1-mathematics-t2",
+  termNumber: 2,
+  titleEn: "Addition and Subtraction within 20",
+  titleMy: "20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်း",
+  certificateTitleEn: "Addition and Subtraction within 20",
+  certificateTitleMy: "20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်း",
+  weeks: [
+    _year1MathematicsWeek5,
+    _year1MathematicsWeek6,
+    _year1MathematicsWeek7,
+    _year1MathematicsWeek8,
+  ],
+);
+
 /// Year 1 Mathematics's pathway (Grade [Grade.year1]) -- the first
 /// Primary-tier "Academic Year" pathway authored, proving the same
 /// 36-week/term/daily-lesson/Socratic-hint template used by the
 /// Secondary pathways works for a much younger (age ~5-6) audience. Term
-/// 1 ("Numbers to 20", Weeks 1-4) is authored so far; see
-/// [_year1MathematicsTerm1]'s own doc comment for the week-by-week
-/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
-/// reason the Secondary pathways' docs give while only a handful of
-/// weeks exist.
+/// 1 ("Numbers to 20", Weeks 1-4) and Term 2 ("Addition and Subtraction
+/// within 20", Weeks 5-8) are authored so far; see
+/// [_year1MathematicsTerm1]'s and [_year1MathematicsTerm2]'s own doc
+/// comments for the week-by-week spiral. [totalWeeks] stays 36 for the
+/// same "honest progress bar" reason the Secondary pathways' docs give
+/// while only a handful of weeks exist.
 const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   id: "course-year1-mathematics",
   subject: "mathematics",
@@ -49287,9 +51012,9 @@ const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမတန်း သင်တန်း",
   descriptionEn:
-      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario.",
+      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario, before Term 2 builds addition and subtraction within 20 through counting on, counting back, and bridging through 10, ties them together as fact families and number bonds, and closes with a capstone combining addition and subtraction in one real-world scenario.",
   descriptionMy:
-      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးစေသည်။",
+      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဆက်ရေတွက်ခြင်း၊ ပြန်ရေတွက်ခြင်းနှင့် 10 ပြည့်အောင် ကူးပြောင်းခြင်းတို့ဖြင့် 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို တည်ဆောက်ပြီး၊ ၎င်းတို့ကို ဂဏန်းချည်နှောင်မှုနှင့် အချက်မိသားစုများအဖြစ် ပေါင်းစပ်ကာ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_year1MathematicsTerm1],
+  terms: [_year1MathematicsTerm1, _year1MathematicsTerm2],
 );
