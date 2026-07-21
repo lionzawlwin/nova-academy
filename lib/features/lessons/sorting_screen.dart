@@ -90,6 +90,7 @@ class _SortingScreenState extends ConsumerState<SortingScreen> {
         childId: activeProfile.child.id,
         moduleId: widget.args.moduleId,
         starsEarned: widget.args.stars,
+        currentChild: activeProfile.child,
       );
     } catch (e, st) {
       debugPrint('[SortingScreen] markModuleCompleted FAILED: $e');

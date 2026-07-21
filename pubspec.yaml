@@ -63,6 +63,9 @@ dependencies:
   # Local persistence (locale preference)
   shared_preferences: ^2.3.3
 
+  # Growth / sharing
+  share_plus: ^11.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

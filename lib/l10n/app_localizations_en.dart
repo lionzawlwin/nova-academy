@@ -439,6 +439,33 @@ class AppLocalizationsEn extends AppLocalizations {
   String get paywallFeaturePrioritySupport => 'Priority support';
 
   @override
+  String get subscriptionPaywallHeadlineA => 'Unlock Every Subject & Grade';
+
+  @override
+  String subscriptionPaywallHeadlineB(int stars) {
+    return '$stars Stars Earned So Far — Keep the Momentum Going!';
+  }
+
+  @override
+  String get subscriptionPaywallCtaLabelA => 'Unlock Premium';
+
+  @override
+  String get subscriptionPaywallCtaLabelB => 'Keep Their Streak Alive';
+
+  @override
+  String dashboardCurrentStreak(int days) {
+    return '$days-day streak';
+  }
+
+  @override
+  String get dashboardStreakStartPrompt => 'Start a streak today!';
+
+  @override
+  String dashboardSiblingRankTooltip(int rank) {
+    return 'Rank #$rank among your children';
+  }
+
+  @override
   String get inviteTeacherHint => 'Teacher\'s email address';
 
   @override

@@ -3,12 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/constants/app_constants.dart';
+import '../../core/services/ab_variant_service.dart';
 import '../../core/utils/grade_localization.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/user_model.dart';
 import '../../providers/auth_providers.dart';
+import '../../providers/billing_providers.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
 import '../../providers/mock_state_providers.dart';
@@ -24,6 +26,13 @@ class ParentDashboardScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     final userModel = ref.watch(currentUserModelProvider).valueOrNull;
+    final isPremiumEntitled = ref.watch(isPremiumEntitledProvider);
+    final totalChildrenStars =
+        ref.watch(childrenForCurrentUserProvider).valueOrNull?.fold<int>(
+          0,
+          (sum, child) => sum + child.totalStars,
+        ) ??
+        0;
 
     return Scaffold(
       appBar: AppBar(
@@ -42,7 +51,11 @@ class ParentDashboardScreen extends ConsumerWidget {
           : ListView(
               padding: const EdgeInsets.all(16),
               children: [
-                _PaywallCard(userModel: userModel),
+                _PaywallCard(
+                  userModel: userModel,
+                  isPremiumEntitled: isPremiumEntitled,
+                  totalChildrenStars: totalChildrenStars,
+                ),
                 const SizedBox(height: 24),
                 _ChildrenSection(parentId: userModel.id),
                 const SizedBox(height: 24),
@@ -55,9 +68,15 @@ class ParentDashboardScreen extends ConsumerWidget {
 }
 
 class _PaywallCard extends StatelessWidget {
-  const _PaywallCard({required this.userModel});
+  const _PaywallCard({
+    required this.userModel,
+    required this.isPremiumEntitled,
+    this.totalChildrenStars = 0,
+  });
 
   final UserModel userModel;
+  final bool isPremiumEntitled;
+  final int totalChildrenStars;
 
   @override
   Widget build(BuildContext context) {
@@ -96,14 +115,24 @@ class _PaywallCard extends StatelessWidget {
       );
     }
 
-    return _PaywallComparisonCard(currentTier: userModel.subscriptionTier);
+    return _PaywallComparisonCard(
+      isPremiumEntitled: isPremiumEntitled,
+      uid: userModel.id,
+      totalChildrenStars: totalChildrenStars,
+    );
   }
 }
 
 class _PaywallComparisonCard extends StatelessWidget {
-  const _PaywallComparisonCard({required this.currentTier});
+  const _PaywallComparisonCard({
+    required this.isPremiumEntitled,
+    required this.uid,
+    this.totalChildrenStars = 0,
+  });
 
-  final SubscriptionTier currentTier;
+  final bool isPremiumEntitled;
+  final String uid;
+  final int totalChildrenStars;
 
   @override
   Widget build(BuildContext context) {
@@ -116,6 +145,18 @@ class _PaywallComparisonCard extends StatelessWidget {
       l10n.paywallFeaturePrioritySupport,
     ];
 
+    // Free, client-side-only A/B test on paywall copy -- see
+    // ab_variant_service.dart's doc comment. Purely a display-copy
+    // experiment; the onPressed behavior below is identical for both
+    // variants and grants nothing.
+    final ctaVariant = abVariantFor(uid, 'paywall_cta_v1');
+    final headline = ctaVariant == 'b'
+        ? l10n.subscriptionPaywallHeadlineB(totalChildrenStars)
+        : l10n.subscriptionPaywallHeadlineA;
+    final ctaLabel = ctaVariant == 'b'
+        ? l10n.subscriptionPaywallCtaLabelB
+        : l10n.subscriptionPaywallCtaLabelA;
+
     return Card(
       elevation: 3,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -125,7 +166,7 @@ class _PaywallComparisonCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              l10n.subscriptionPaywallTitle,
+              headline,
               style: theme.textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
@@ -142,7 +183,7 @@ class _PaywallComparisonCard extends StatelessWidget {
                 Expanded(
                   child: _PlanColumn(
                     title: l10n.subscriptionFreePlan,
-                    isCurrent: currentTier == SubscriptionTier.free,
+                    isCurrent: !isPremiumEntitled,
                     featureIncluded: const [true, false, false, false],
                     features: features,
                     color: theme.colorScheme.outline,
@@ -152,7 +193,7 @@ class _PaywallComparisonCard extends StatelessWidget {
                 Expanded(
                   child: _PlanColumn(
                     title: l10n.subscriptionPremiumPlan,
-                    isCurrent: currentTier == SubscriptionTier.premium,
+                    isCurrent: isPremiumEntitled,
                     featureIncluded: const [true, true, true, true],
                     features: features,
                     color: theme.colorScheme.primary,
@@ -164,12 +205,17 @@ class _PaywallComparisonCard extends StatelessWidget {
             const SizedBox(height: 20),
             FilledButton.icon(
               icon: const Icon(Icons.rocket_launch_rounded),
-              label: Text(l10n.subscriptionUpgradeToPremium),
+              label: Text(ctaLabel),
               style: FilledButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 minimumSize: const Size.fromHeight(48),
               ),
               onPressed: () {
+                // NOTE: still a stub -- no real checkout/entitlement backend
+                // exists yet. This intentionally does NOT flip
+                // subscriptionTier via a client-side self-write (that would
+                // let anyone self-grant premium for free); it only measures
+                // which copy variant earns more taps.
                 ScaffoldMessenger.of(context)
                   ..hideCurrentSnackBar()
                   ..showSnackBar(
@@ -318,9 +364,26 @@ class _ChildrenSection extends ConsumerWidget {
                 ),
               );
             }
+            // Client-side-only rank among *this parent's own children* by
+            // totalStars, descending -- zero new reads (reuses the already
+            // -fetched list) and no cross-family leaderboard (that would
+            // need a security-rule change or Cloud Functions, out of scope
+            // here).
+            final rankedByStars = [...children]
+              ..sort((a, b) => b.totalStars.compareTo(a.totalStars));
+            final rankByChildId = <String, int>{
+              for (var i = 0; i < rankedByStars.length; i++)
+                rankedByStars[i].id: i + 1,
+            };
             return Column(
               children: children
-                  .map((child) => _ChildTile(child: child))
+                  .map(
+                    (child) => _ChildTile(
+                      child: child,
+                      rank: rankByChildId[child.id] ?? 1,
+                      totalSiblings: children.length,
+                    ),
+                  )
                   .toList(),
             );
           },
@@ -339,9 +402,15 @@ class _ChildrenSection extends ConsumerWidget {
 }
 
 class _ChildTile extends ConsumerWidget {
-  const _ChildTile({required this.child});
+  const _ChildTile({
+    required this.child,
+    this.rank = 1,
+    this.totalSiblings = 1,
+  });
 
   final ChildModel child;
+  final int rank;
+  final int totalSiblings;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -362,10 +431,65 @@ class _ChildTile extends ConsumerWidget {
             ),
           ),
         ),
-        title: Text(child.aliasName, overflow: TextOverflow.ellipsis),
-        subtitle: Text(
-          '${gradeLabel(l10n, child.currentGrade)}  •  ${child.totalStars} ${l10n.dashboardTotalStars}',
-          overflow: TextOverflow.ellipsis,
+        title: Row(
+          children: [
+            Flexible(
+              child: Text(child.aliasName, overflow: TextOverflow.ellipsis),
+            ),
+            if (totalSiblings > 1) ...[
+              const SizedBox(width: 6),
+              Tooltip(
+                message: l10n.dashboardSiblingRankTooltip(rank),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 6,
+                    vertical: 2,
+                  ),
+                  decoration: BoxDecoration(
+                    color: theme.colorScheme.primaryContainer,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    '#$rank',
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: theme.colorScheme.onPrimaryContainer,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ],
+        ),
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              '${gradeLabel(l10n, child.currentGrade)}  •  ${child.totalStars} ${l10n.dashboardTotalStars}',
+              overflow: TextOverflow.ellipsis,
+            ),
+            const SizedBox(height: 2),
+            Row(
+              children: [
+                Icon(
+                  Icons.local_fire_department_rounded,
+                  size: 14,
+                  color: Colors.orange.shade700,
+                ),
+                const SizedBox(width: 4),
+                Flexible(
+                  child: Text(
+                    child.currentStreakDays > 0
+                        ? l10n.dashboardCurrentStreak(child.currentStreakDays)
+                        : l10n.dashboardStreakStartPrompt,
+                    style: theme.textTheme.bodySmall,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+              ],
+            ),
+          ],
         ),
         trailing: Row(
           mainAxisSize: MainAxisSize.min,

@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/constants/app_constants.dart';
+import '../core/services/streak_service.dart';
 import '../models/child_model.dart';
 import '../models/user_model.dart';
 import 'active_profile_provider.dart';
@@ -124,17 +125,36 @@ Future<void> deleteChild(FirebaseFirestore firestore, String childId) async {
 /// after a dropped connection) can't clobber each other's writes, and
 /// replaying the same completion is safe -- arrayUnion won't duplicate an
 /// already-present moduleId.
+///
+/// Also recomputes and writes the child's daily-streak fields
+/// (`currentStreakDays`/`longestStreakDays`/`lastActiveDateYyyymmdd`) in this
+/// same update -- see [updateStreakForCompletion]
+/// (lib/core/services/streak_service.dart) for the pure calculation. These
+/// are written as literal values, not `FieldValue.increment`, since (unlike
+/// `totalStars`) each new value fully replaces the prior one rather than
+/// accumulating.
 Future<void> markModuleCompleted(
   FirebaseFirestore firestore, {
   required String childId,
   required String moduleId,
   required int starsEarned,
+  required ChildModel currentChild,
 }) async {
+  final streak = updateStreakForCompletion(
+    currentStreakDays: currentChild.currentStreakDays,
+    longestStreakDays: currentChild.longestStreakDays,
+    lastActiveDateYyyymmdd: currentChild.lastActiveDateYyyymmdd,
+    completedAt: DateTime.now(),
+  );
+
   await firestore
       .collection(AppConstants.childrenCollection)
       .doc(childId)
       .update({
         'completedModuleIds': FieldValue.arrayUnion([moduleId]),
         'totalStars': FieldValue.increment(starsEarned),
+        'currentStreakDays': streak.currentStreakDays,
+        'longestStreakDays': streak.longestStreakDays,
+        'lastActiveDateYyyymmdd': streak.lastActiveDateYyyymmdd,
       });
 }

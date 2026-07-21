@@ -938,6 +938,48 @@ abstract class AppLocalizations {
   /// **'Priority support'**
   String get paywallFeaturePrioritySupport;
 
+  /// No description provided for @subscriptionPaywallHeadlineA.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock Every Subject & Grade'**
+  String get subscriptionPaywallHeadlineA;
+
+  /// No description provided for @subscriptionPaywallHeadlineB.
+  ///
+  /// In en, this message translates to:
+  /// **'{stars} Stars Earned So Far — Keep the Momentum Going!'**
+  String subscriptionPaywallHeadlineB(int stars);
+
+  /// No description provided for @subscriptionPaywallCtaLabelA.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock Premium'**
+  String get subscriptionPaywallCtaLabelA;
+
+  /// No description provided for @subscriptionPaywallCtaLabelB.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep Their Streak Alive'**
+  String get subscriptionPaywallCtaLabelB;
+
+  /// No description provided for @dashboardCurrentStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'{days}-day streak'**
+  String dashboardCurrentStreak(int days);
+
+  /// No description provided for @dashboardStreakStartPrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Start a streak today!'**
+  String get dashboardStreakStartPrompt;
+
+  /// No description provided for @dashboardSiblingRankTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Rank #{rank} among your children'**
+  String dashboardSiblingRankTooltip(int rank);
+
   /// No description provided for @inviteTeacherHint.
   ///
   /// In en, this message translates to:

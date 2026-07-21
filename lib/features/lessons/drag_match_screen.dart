@@ -114,6 +114,7 @@ class _DragMatchScreenState extends ConsumerState<DragMatchScreen> {
         childId: activeProfile.child.id,
         moduleId: moduleId,
         starsEarned: widget.args.stars,
+        currentChild: activeProfile.child,
       );
     } catch (e, st) {
       debugPrint('[DragMatchScreen] markModuleCompleted FAILED: $e');

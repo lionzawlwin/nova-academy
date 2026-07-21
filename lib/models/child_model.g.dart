@@ -21,6 +21,9 @@ _$ChildModelImpl _$$ChildModelImplFromJson(Map<String, dynamic> json) =>
               ?.map((e) => e as String)
               .toList() ??
           const <String>[],
+      currentStreakDays: (json['currentStreakDays'] as num?)?.toInt() ?? 0,
+      longestStreakDays: (json['longestStreakDays'] as num?)?.toInt() ?? 0,
+      lastActiveDateYyyymmdd: json['lastActiveDateYyyymmdd'] as String? ?? '',
     );
 
 Map<String, dynamic> _$$ChildModelImplToJson(_$ChildModelImpl instance) =>
@@ -32,6 +35,9 @@ Map<String, dynamic> _$$ChildModelImplToJson(_$ChildModelImpl instance) =>
       'currentGrade': _$GradeEnumMap[instance.currentGrade]!,
       'totalStars': instance.totalStars,
       'completedModuleIds': instance.completedModuleIds,
+      'currentStreakDays': instance.currentStreakDays,
+      'longestStreakDays': instance.longestStreakDays,
+      'lastActiveDateYyyymmdd': instance.lastActiveDateYyyymmdd,
     };
 
 const _$GradeEnumMap = {

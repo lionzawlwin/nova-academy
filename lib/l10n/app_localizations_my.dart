@@ -443,6 +443,35 @@ class AppLocalizationsMy extends AppLocalizations {
   String get paywallFeaturePrioritySupport => 'ဦးစားပေး အကူအညီ';
 
   @override
+  String get subscriptionPaywallHeadlineA =>
+      'ဘာသာရပ်နှင့် အတန်းအားလုံးကို ဖွင့်လိုက်ပါ';
+
+  @override
+  String subscriptionPaywallHeadlineB(int stars) {
+    return 'ယခုအထိ ကြယ် $stars လုံး ရရှိထားပါပြီ — အရှိန်ကို ဆက်လက်ထိန်းသိမ်းပါ!';
+  }
+
+  @override
+  String get subscriptionPaywallCtaLabelA => 'ပရီမီယံ ဖွင့်မည်';
+
+  @override
+  String get subscriptionPaywallCtaLabelB =>
+      'သူတို့၏ ဆက်တိုက် အောင်မြင်မှုကို ဆက်ထိန်းပါ';
+
+  @override
+  String dashboardCurrentStreak(int days) {
+    return '$days ရက် ဆက်တိုက်';
+  }
+
+  @override
+  String get dashboardStreakStartPrompt => 'ယနေ့ပင် ဆက်တိုက်စတင်ပါ!';
+
+  @override
+  String dashboardSiblingRankTooltip(int rank) {
+    return 'သင့်ကလေးများအနက် အဆင့် #$rank';
+  }
+
+  @override
   String get inviteTeacherHint => 'ဆရာ/ဆရာမ၏ အီးမေးလ်လိပ်စာ';
 
   @override

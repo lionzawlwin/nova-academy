@@ -45,6 +45,14 @@ class ChildModel with _$ChildModel {
     @Default(Grade.nursery) Grade currentGrade,
     @Default(0) int totalStars,
     @Default(<String>[]) List<String> completedModuleIds,
+    // The three fields below are updated by `updateStreakForCompletion`
+    // (`lib/core/services/streak_service.dart`) inside the same Firestore
+    // write `markModuleCompleted` already performs when a lesson finishes --
+    // there is no dedicated streak collection, and no extra read or write is
+    // introduced to maintain them.
+    @Default(0) int currentStreakDays,
+    @Default(0) int longestStreakDays,
+    @Default('') String lastActiveDateYyyymmdd,
   }) = _ChildModel;
 
   factory ChildModel.fromJson(Map<String, dynamic> json) =>

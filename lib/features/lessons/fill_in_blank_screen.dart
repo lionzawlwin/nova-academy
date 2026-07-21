@@ -8,10 +8,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
+import '../../models/child_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
 import '../home/home_shared_widgets.dart';
+import 'achievement_share_card.dart';
 import 'fill_in_blank_bank.dart';
 import 'interactive_content_models.dart';
 
@@ -82,6 +84,21 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
   /// How many of the current question's `hintsEn`/`hintsMy` have been
   /// revealed so far -- one per wrong tap, capped at `hintsEn.length`.
   int _hintsRevealed = 0;
+
+  /// The active student, captured by [_recordCompletion] once it confirms a
+  /// real [StudentProfile] is active -- `null` for a self-profile preview
+  /// (no child to credit) or before that lookup has happened yet. Threaded
+  /// down to [_FillBlankResults] purely to populate
+  /// [AchievementShareCard]'s alias-name/streak fields; nothing else reads
+  /// it -- same rationale as `McqQuizScreen._resultChild`
+  /// (`mcq_quiz_screen.dart`).
+  ChildModel? _resultChild;
+
+  /// Identifies the [AchievementShareCard]'s `RepaintBoundary` so
+  /// [shareAchievementCard] can capture it -- lives on this State (not
+  /// `_FillBlankResults`) purely so it survives `_FillBlankResults`
+  /// rebuilds.
+  final GlobalKey _shareCardKey = GlobalKey();
 
   @override
   void initState() {
@@ -204,6 +221,7 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
 
     final activeProfile = ref.read(activeProfileProvider);
     if (activeProfile is! StudentProfile) return;
+    if (mounted) setState(() => _resultChild = activeProfile.child);
 
     try {
       await markModuleCompleted(
@@ -211,6 +229,7 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
         childId: activeProfile.child.id,
         moduleId: moduleId,
         starsEarned: _starsEarned,
+        currentChild: activeProfile.child,
       );
     } catch (e, st) {
       debugPrint('[FillInTheBlankScreen] markModuleCompleted FAILED: $e');
@@ -234,6 +253,9 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
                 total: _questions.length,
                 starsEarned: _starsEarned,
                 onFinish: () => Navigator.of(context).pop(),
+                shareCardKey: _shareCardKey,
+                childAliasName: _resultChild?.aliasName,
+                currentStreakDays: _resultChild?.currentStreakDays ?? 0,
               )
             : Padding(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
@@ -778,12 +800,28 @@ class _FillBlankResults extends StatelessWidget {
     required this.total,
     required this.starsEarned,
     required this.onFinish,
+    required this.shareCardKey,
+    this.childAliasName,
+    this.currentStreakDays = 0,
   });
 
   final int score;
   final int total;
   final int starsEarned;
   final VoidCallback onFinish;
+
+  /// Identifies the [AchievementShareCard]'s `RepaintBoundary` -- owned by
+  /// `_FillInTheBlankScreenState` (not this stateless widget) so it survives
+  /// rebuilds; see that field's doc comment.
+  final GlobalKey shareCardKey;
+
+  /// The active student's alias name (`ChildModel.aliasName`), threaded down
+  /// for [AchievementShareCard] -- `null` for a self-profile preview.
+  final String? childAliasName;
+
+  /// The active student's current streak (`ChildModel.currentStreakDays`),
+  /// threaded down for [AchievementShareCard].
+  final int currentStreakDays;
 
   @override
   Widget build(BuildContext context) {
@@ -842,7 +880,33 @@ class _FillBlankResults extends StatelessWidget {
             ),
             child: AnimatedStarBadge(stars: starsEarned),
           ),
-          const SizedBox(height: 36),
+          if (isPerfect) ...[
+            const SizedBox(height: 24),
+            AchievementShareCard(
+              repaintKey: shareCardKey,
+              starsEarned: starsEarned,
+              childAliasName: childAliasName,
+              currentStreakDays: currentStreakDays,
+            ),
+            const SizedBox(height: 12),
+            TextButton.icon(
+              onPressed: () => shareAchievementCard(
+                shareCardKey,
+                shareText: _t(
+                  context,
+                  'I just aced a lesson on Nova Academy! '
+                      'https://nova-academy-alpha.vercel.app',
+                  'ကျွန်တော်/ကျွန်မ Nova Academy မှာ သင်ခန်းစာတစ်ခုကို '
+                      'အမှတ်အပြည့်ရခဲ့ပါတယ်! '
+                      'https://nova-academy-alpha.vercel.app',
+                ),
+              ),
+              icon: const Icon(Icons.ios_share_rounded),
+              label: Text(_t(context, 'Share', 'မျှဝေရန်')),
+            ),
+            const SizedBox(height: 12),
+          ] else
+            const SizedBox(height: 36),
           SizedBox(
             width: double.infinity,
             child: CandyBevelSurface(

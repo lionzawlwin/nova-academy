@@ -27,7 +27,15 @@ mixin _$ChildModel {
   String get avatarUrl => throw _privateConstructorUsedError;
   Grade get currentGrade => throw _privateConstructorUsedError;
   int get totalStars => throw _privateConstructorUsedError;
-  List<String> get completedModuleIds => throw _privateConstructorUsedError;
+  List<String> get completedModuleIds =>
+      throw _privateConstructorUsedError; // The three fields below are updated by `updateStreakForCompletion`
+  // (`lib/core/services/streak_service.dart`) inside the same Firestore
+  // write `markModuleCompleted` already performs when a lesson finishes --
+  // there is no dedicated streak collection, and no extra read or write is
+  // introduced to maintain them.
+  int get currentStreakDays => throw _privateConstructorUsedError;
+  int get longestStreakDays => throw _privateConstructorUsedError;
+  String get lastActiveDateYyyymmdd => throw _privateConstructorUsedError;
 
   /// Serializes this ChildModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -54,6 +62,9 @@ abstract class $ChildModelCopyWith<$Res> {
     Grade currentGrade,
     int totalStars,
     List<String> completedModuleIds,
+    int currentStreakDays,
+    int longestStreakDays,
+    String lastActiveDateYyyymmdd,
   });
 }
 
@@ -79,6 +90,9 @@ class _$ChildModelCopyWithImpl<$Res, $Val extends ChildModel>
     Object? currentGrade = null,
     Object? totalStars = null,
     Object? completedModuleIds = null,
+    Object? currentStreakDays = null,
+    Object? longestStreakDays = null,
+    Object? lastActiveDateYyyymmdd = null,
   }) {
     return _then(
       _value.copyWith(
@@ -110,6 +124,18 @@ class _$ChildModelCopyWithImpl<$Res, $Val extends ChildModel>
                 ? _value.completedModuleIds
                 : completedModuleIds // ignore: cast_nullable_to_non_nullable
                       as List<String>,
+            currentStreakDays: null == currentStreakDays
+                ? _value.currentStreakDays
+                : currentStreakDays // ignore: cast_nullable_to_non_nullable
+                      as int,
+            longestStreakDays: null == longestStreakDays
+                ? _value.longestStreakDays
+                : longestStreakDays // ignore: cast_nullable_to_non_nullable
+                      as int,
+            lastActiveDateYyyymmdd: null == lastActiveDateYyyymmdd
+                ? _value.lastActiveDateYyyymmdd
+                : lastActiveDateYyyymmdd // ignore: cast_nullable_to_non_nullable
+                      as String,
           )
           as $Val,
     );
@@ -133,6 +159,9 @@ abstract class _$$ChildModelImplCopyWith<$Res>
     Grade currentGrade,
     int totalStars,
     List<String> completedModuleIds,
+    int currentStreakDays,
+    int longestStreakDays,
+    String lastActiveDateYyyymmdd,
   });
 }
 
@@ -157,6 +186,9 @@ class __$$ChildModelImplCopyWithImpl<$Res>
     Object? currentGrade = null,
     Object? totalStars = null,
     Object? completedModuleIds = null,
+    Object? currentStreakDays = null,
+    Object? longestStreakDays = null,
+    Object? lastActiveDateYyyymmdd = null,
   }) {
     return _then(
       _$ChildModelImpl(
@@ -188,6 +220,18 @@ class __$$ChildModelImplCopyWithImpl<$Res>
             ? _value._completedModuleIds
             : completedModuleIds // ignore: cast_nullable_to_non_nullable
                   as List<String>,
+        currentStreakDays: null == currentStreakDays
+            ? _value.currentStreakDays
+            : currentStreakDays // ignore: cast_nullable_to_non_nullable
+                  as int,
+        longestStreakDays: null == longestStreakDays
+            ? _value.longestStreakDays
+            : longestStreakDays // ignore: cast_nullable_to_non_nullable
+                  as int,
+        lastActiveDateYyyymmdd: null == lastActiveDateYyyymmdd
+            ? _value.lastActiveDateYyyymmdd
+            : lastActiveDateYyyymmdd // ignore: cast_nullable_to_non_nullable
+                  as String,
       ),
     );
   }
@@ -204,6 +248,9 @@ class _$ChildModelImpl implements _ChildModel {
     this.currentGrade = Grade.nursery,
     this.totalStars = 0,
     final List<String> completedModuleIds = const <String>[],
+    this.currentStreakDays = 0,
+    this.longestStreakDays = 0,
+    this.lastActiveDateYyyymmdd = '',
   }) : _completedModuleIds = completedModuleIds;
 
   factory _$ChildModelImpl.fromJson(Map<String, dynamic> json) =>
@@ -234,9 +281,24 @@ class _$ChildModelImpl implements _ChildModel {
     return EqualUnmodifiableListView(_completedModuleIds);
   }
 
+  // The three fields below are updated by `updateStreakForCompletion`
+  // (`lib/core/services/streak_service.dart`) inside the same Firestore
+  // write `markModuleCompleted` already performs when a lesson finishes --
+  // there is no dedicated streak collection, and no extra read or write is
+  // introduced to maintain them.
+  @override
+  @JsonKey()
+  final int currentStreakDays;
+  @override
+  @JsonKey()
+  final int longestStreakDays;
+  @override
+  @JsonKey()
+  final String lastActiveDateYyyymmdd;
+
   @override
   String toString() {
-    return 'ChildModel(id: $id, parentId: $parentId, aliasName: $aliasName, avatarUrl: $avatarUrl, currentGrade: $currentGrade, totalStars: $totalStars, completedModuleIds: $completedModuleIds)';
+    return 'ChildModel(id: $id, parentId: $parentId, aliasName: $aliasName, avatarUrl: $avatarUrl, currentGrade: $currentGrade, totalStars: $totalStars, completedModuleIds: $completedModuleIds, currentStreakDays: $currentStreakDays, longestStreakDays: $longestStreakDays, lastActiveDateYyyymmdd: $lastActiveDateYyyymmdd)';
   }
 
   @override
@@ -258,7 +320,13 @@ class _$ChildModelImpl implements _ChildModel {
             const DeepCollectionEquality().equals(
               other._completedModuleIds,
               _completedModuleIds,
-            ));
+            ) &&
+            (identical(other.currentStreakDays, currentStreakDays) ||
+                other.currentStreakDays == currentStreakDays) &&
+            (identical(other.longestStreakDays, longestStreakDays) ||
+                other.longestStreakDays == longestStreakDays) &&
+            (identical(other.lastActiveDateYyyymmdd, lastActiveDateYyyymmdd) ||
+                other.lastActiveDateYyyymmdd == lastActiveDateYyyymmdd));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -272,6 +340,9 @@ class _$ChildModelImpl implements _ChildModel {
     currentGrade,
     totalStars,
     const DeepCollectionEquality().hash(_completedModuleIds),
+    currentStreakDays,
+    longestStreakDays,
+    lastActiveDateYyyymmdd,
   );
 
   /// Create a copy of ChildModel
@@ -297,6 +368,9 @@ abstract class _ChildModel implements ChildModel {
     final Grade currentGrade,
     final int totalStars,
     final List<String> completedModuleIds,
+    final int currentStreakDays,
+    final int longestStreakDays,
+    final String lastActiveDateYyyymmdd,
   }) = _$ChildModelImpl;
 
   factory _ChildModel.fromJson(Map<String, dynamic> json) =
@@ -315,7 +389,17 @@ abstract class _ChildModel implements ChildModel {
   @override
   int get totalStars;
   @override
-  List<String> get completedModuleIds;
+  List<String> get completedModuleIds; // The three fields below are updated by `updateStreakForCompletion`
+  // (`lib/core/services/streak_service.dart`) inside the same Firestore
+  // write `markModuleCompleted` already performs when a lesson finishes --
+  // there is no dedicated streak collection, and no extra read or write is
+  // introduced to maintain them.
+  @override
+  int get currentStreakDays;
+  @override
+  int get longestStreakDays;
+  @override
+  String get lastActiveDateYyyymmdd;
 
   /// Create a copy of ChildModel
   /// with the given fields replaced by the non-null parameter values.

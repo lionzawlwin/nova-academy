@@ -164,6 +164,24 @@
   "paywallFeatureProgressAnalytics": "Detailed progress analytics",
   "paywallFeaturePrioritySupport": "Priority support",
 
+  "subscriptionPaywallHeadlineA": "Unlock Every Subject & Grade",
+  "subscriptionPaywallHeadlineB": "{stars} Stars Earned So Far — Keep the Momentum Going!",
+  "@subscriptionPaywallHeadlineB": {
+    "placeholders": { "stars": { "type": "int" } }
+  },
+  "subscriptionPaywallCtaLabelA": "Unlock Premium",
+  "subscriptionPaywallCtaLabelB": "Keep Their Streak Alive",
+
+  "dashboardCurrentStreak": "{days}-day streak",
+  "@dashboardCurrentStreak": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "dashboardStreakStartPrompt": "Start a streak today!",
+  "dashboardSiblingRankTooltip": "Rank #{rank} among your children",
+  "@dashboardSiblingRankTooltip": {
+    "placeholders": { "rank": { "type": "int" } }
+  },
+
   "inviteTeacherHint": "Teacher's email address",
   "inviteStatusPending": "Pending",
   "inviteEmptyState": "No teachers invited yet.",

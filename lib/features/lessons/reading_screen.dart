@@ -115,6 +115,7 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
         childId: activeProfile.child.id,
         moduleId: widget.args.moduleId,
         starsEarned: _starsEarned,
+        currentChild: activeProfile.child,
       );
     } catch (e, st) {
       debugPrint('[ReadingScreen] markModuleCompleted FAILED: $e');
