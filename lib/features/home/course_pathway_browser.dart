@@ -17,6 +17,8 @@ IconData _iconForPathwaySubject(String subject) {
       return Icons.computer_rounded;
     case 'mathematics':
       return Icons.calculate_rounded;
+    case 'science':
+      return Icons.science_rounded;
     default:
       return Icons.school_rounded;
   }
@@ -113,9 +115,8 @@ class _PathwayCardState extends State<_PathwayCard>
     final l10n = AppLocalizations.of(context);
     final lc = Localizations.localeOf(context).languageCode;
     final pathway = widget.pathway;
-    final accent =
-        AppColors.secondaryPalette[widget.index %
-            AppColors.secondaryPalette.length];
+    final accent = AppColors
+        .secondaryPalette[widget.index % AppColors.secondaryPalette.length];
     final authored = _authoredWeeks(pathway);
 
     return AnimatedBuilder(

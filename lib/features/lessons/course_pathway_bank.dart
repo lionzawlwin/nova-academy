@@ -14854,6 +14854,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   secondary1ComputingPathway,
   secondary2ComputingPathway,
   secondary1MathematicsPathway,
+  secondary1SciencePathway,
 ];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or
@@ -33896,4 +33897,1831 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
     _secondary1MathematicsWeek11,
     _secondary1MathematicsWeek12,
   ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 1, Week 1: "The Scientific Method and Measurement"
+// =====================================================================
+
+/// Secondary 1 Science's Term 1: "Introduction to Physics & Chemistry" -- a
+/// brand-new, independent subject pathway (see [secondary1SciencePathway]),
+/// drafted and independently fact-verified per week via the same
+/// draft-agent + skeptical-recompute-agent workflow used for
+/// [secondary1MathematicsPathway], then hand-transcribed into Dart. Week 1
+/// introduces working scientifically from scratch (the steps of a fair
+/// investigation, lab safety, SI units and the matching measuring
+/// instrument for length/mass/volume/temperature/time/force -- explicitly
+/// flagging that the force/newton pairing will resurface in Week 3); Week 2
+/// opens a chemistry strand (states of matter and the particle model,
+/// melting/freezing/evaporation/condensation/sublimation), explicitly
+/// calling back to Week 1's thermometer/Celsius convention; Week 3 opens a
+/// physics strand (forces as pushes/pulls, the newton, common force types,
+/// balanced vs. unbalanced forces), explicitly calling back to Week 1's
+/// force-meter measurement; Week 4 is the term's capstone, combining all
+/// three -- particle theory and heat (Week 2) with forces and friction
+/// (Week 3), measured throughout with Week 1's instruments and units.
+const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
+  id: "course-secondary1-science-w1",
+  weekNumber: 1,
+  titleEn: "The Scientific Method and Measurement",
+  titleMy: "သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်နှင့် တိုင်းတာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w1-d1",
+      dayNumber: 1,
+      titleEn: "What Is Science? A Fair Test Quiz",
+      titleMy: "သိပ္ပံပညာဆိုသည်မှာ? တရားမျှတသော စမ်းသပ်မှု ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which best describes what physics and chemistry study?",
+          questionMy:
+              "ရူပဗေဒနှင့် ဓာတုဗေဒတို့ ဘာများကို လေ့လာသနည်းဆိုသည့်အချက်အနက် အသင့်လျော်ဆုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Physics studies matter and energy and how they interact; chemistry studies the substances that make up matter and how they change.",
+            "Physics studies only living things; chemistry studies only rocks and minerals.",
+            "Physics and chemistry both study exactly the same thing, with no difference at all.",
+            "Physics studies History; chemistry studies Geography.",
+          ],
+          optionsMy: [
+            "ရူပဗေဒသည် ရူပဝတ္ထုနှင့် စွမ်းအင်တို့၏ အပြန်အလှန်သက်ရောက်မှုများကို လေ့လာပြီး၊ ဓာတုဗေဒသည် ရူပဝတ္ထုကို ဖွဲ့စည်းထားသော ပစ္စည်းများနှင့် ၎င်းတို့၏ ပြောင်းလဲမှုများကို လေ့လာသည်။",
+            "ရူပဗေဒသည် သက်ရှိများကိုသာ လေ့လာပြီး၊ ဓာတုဗေဒသည် ကျောက်နှင့် သတ္တုများကိုသာ လေ့လာသည်။",
+            "ရူပဗေဒနှင့် ဓာတုဗေဒ နှစ်ခုလုံးသည် အတိအကျ တူညီသောအရာကိုသာ လေ့လာပြီး ကွာခြားချက် လုံးဝမရှိချေ။",
+            "ရူပဗေဒသည် သမိုင်းကို လေ့လာပြီး ဓာတုဗေဒသည် ပထဝီဝင်ကို လေ့လာသည်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the correct order of steps in a fair scientific investigation?",
+          questionMy:
+              "တရားမျှတသော သိပ္ပံနည်းကျစမ်းသပ်မှုတစ်ခု၏ အဆင့်များကို မှန်ကန်သောအစဉ်လိုက် ဖော်ပြထားသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Question, then prediction, then test/measure, then record, then conclude.",
+            "Conclude, then question, then test, then record, then predict.",
+            "Test, then question, then predict, then conclude, then record.",
+            "Record, then predict, then question, then test, then conclude.",
+          ],
+          optionsMy: [
+            "မေးခွန်းမေးခြင်း၊ ခန့်မှန်းချက်ချခြင်း၊ စမ်းသပ်/တိုင်းတာခြင်း၊ မှတ်တမ်းတင်ခြင်း၊ ကောက်ချက်ချခြင်း အစဉ်လိုက်။",
+            "ကောက်ချက်ချခြင်း၊ မေးခွန်းမေးခြင်း၊ စမ်းသပ်ခြင်း၊ မှတ်တမ်းတင်ခြင်း၊ ခန့်မှန်းချက်ချခြင်း အစဉ်လိုက်။",
+            "စမ်းသပ်ခြင်း၊ မေးခွန်းမေးခြင်း၊ ခန့်မှန်းချက်ချခြင်း၊ ကောက်ချက်ချခြင်း၊ မှတ်တမ်းတင်ခြင်း အစဉ်လိုက်။",
+            "မှတ်တမ်းတင်ခြင်း၊ ခန့်မှန်းချက်ချခြင်း၊ မေးခွန်းမေးခြင်း၊ စမ်းသပ်ခြင်း၊ ကောက်ချက်ချခြင်း အစဉ်လိုက်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to measure carefully using the correct units and instruments during an investigation?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုအတွင်း မှန်ကန်သောယူနစ်နှင့် ကိရိယာများကို အသုံးပြု၍ သေချာစွာတိုင်းတာရန် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "So results are accurate and can be compared fairly with other measurements or repeated tests.",
+            "So the experiment finishes faster, regardless of how accurate it is.",
+            "Because careful measurement is only needed in chemistry, not in physics.",
+            "So the scientist can guess the results before the investigation even starts.",
+          ],
+          optionsMy: [
+            "ရလဒ်များ တိကျမှန်ကန်ပြီး အခြားတိုင်းတာမှုများ (သို့) ထပ်ခါထပ်ခါစမ်းသပ်မှုများနှင့် တရားမျှတစွာ နှိုင်းယှဉ်နိုင်ရန်။",
+            "တိကျမှုရှိမရှိကို မထောက်ဘဲ စမ်းသပ်မှုကို ပိုမြန်စွာ ပြီးမြောက်စေနိုင်ရန်။",
+            "သေချာသောတိုင်းတာမှုသည် ဓာတုဗေဒတွင်သာ လိုအပ်ပြီး ရူပဗေဒတွင် မလိုအပ်သောကြောင့်။",
+            "သိပ္ပံပညာရှင်သည် စမ်းသပ်မှု မစတင်မီပင် ရလဒ်ကို ခန့်မှန်းနိုင်ရန်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a correct laboratory safety rule?",
+          questionMy:
+              "အောက်ပါတို့အနက် မှန်ကန်သော ဓာတ်ခွဲခန်းဘေးကင်းရေးစည်းမျဉ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Always wear safety goggles and tie back long hair before handling chemicals or heating equipment.",
+            "Taste an unknown chemical to help identify what it is.",
+            "Run around the laboratory to save time between experiments.",
+            "Eat and drink at the lab bench while performing experiments.",
+          ],
+          optionsMy: [
+            "ဓာတုပစ္စည်းများကို ကိုင်တွယ်ခြင်း (သို့) ကိရိယာများကို အပူပေးခြင်းမပြုမီ ဘေးကင်းရေးမျက်မှန်တပ်ဆင်၍ ဆံပင်ရှည်ရှည်ကို နောက်သို့ချည်နှောင်ရန် အမြဲလိုအပ်သည်။",
+            "အမည်မသိဓာတုပစ္စည်းကို ဘာဖြစ်သည်ကို သိရှိရန် မြည်းစမ်းကြည့်ခြင်း။",
+            "စမ်းသပ်မှုများကြား အချိန်ကုန်သက်သာစေရန် ဓာတ်ခွဲခန်းအတွင်း ပြေးလွှားခြင်း။",
+            "စမ်းသပ်မှုပြုလုပ်နေစဉ် ဓာတ်ခွဲခန်းစားပွဲတွင် စားသောက်ခြင်း။",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match the Measurement Units",
+      titleMy: "တိုင်းတာမှု ယူနစ်များ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w1-dm-1",
+          termEn: "Length",
+          termMy: "အလျား",
+          matchEn: "Measured in metres (m) using a ruler or measuring tape.",
+          matchMy:
+              "ပေတံ သို့မဟုတ် တိုင်းတာတိပ်ကို အသုံးပြု၍ မီတာ (m) ဖြင့် တိုင်းတာသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w1-dm-2",
+          termEn: "Mass",
+          termMy: "အလေးချိန်",
+          matchEn: "Measured in kilograms or grams (kg/g) using a balance.",
+          matchMy:
+              "ချိန်ခွင်ကို အသုံးပြု၍ ကီလိုဂရမ် သို့မဟုတ် ဂရမ် (kg/g) ဖြင့် တိုင်းတာသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w1-dm-3",
+          termEn: "Volume",
+          termMy: "ထုထည်",
+          matchEn:
+              "Measured in cubic centimetres or millilitres (cm3/ml) using a measuring cylinder.",
+          matchMy:
+              "တိုင်းတာစီလင်ဒါ (measuring cylinder) ကို အသုံးပြု၍ ကုဗစင်တီမီတာ သို့မဟုတ် မီလီလီတာ (cm3/ml) ဖြင့် တိုင်းတာသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w1-dm-4",
+          termEn: "Temperature",
+          termMy: "အပူချိန်",
+          matchEn: "Measured in degrees Celsius (°C) using a thermometer.",
+          matchMy:
+              "အပူတိုင်းကိရိယာ (thermometer) ကို အသုံးပြု၍ ဒီဂရီစင်တီဂရိတ် (°C) ဖြင့် တိုင်းတာသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w1-dm-5",
+          termEn: "Time",
+          termMy: "အချိန်",
+          matchEn: "Measured in seconds (s) using a stopwatch.",
+          matchMy:
+              "စတော့ဝပ်ချ် (stopwatch) ကို အသုံးပြု၍ စက္ကန့် (s) ဖြင့် တိုင်းတာသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w1-dm-6",
+          termEn: "Force",
+          termMy: "အား",
+          matchEn:
+              "Measured in newtons (N) using a force meter — you'll meet this again in Week 3!",
+          matchMy:
+              "နယူတန်မီတာ (force meter) ကို အသုံးပြု၍ နယူတန် (N) ဖြင့် တိုင်းတာသည် — ၃ ပတ်မြောက်တွင် ဤအကြောင်းအရာကို ထပ်မံတွေ့ရမည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Safe or Unsafe Lab Practice?",
+      titleMy: "စီစစ်ကြမည် - ဓာတ်ခွဲခန်း ဘေးကင်းလား၊ ဘေးကင်းမှုမရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Safe Lab Practice", "Unsafe Lab Practice"],
+        bucketsMy: [
+          "ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်",
+          "ဓာတ်ခွဲခန်း ဘေးကင်းမှုမရှိသောအလေ့အကျင့်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w1-sort-1",
+            labelEn:
+                "Wearing safety goggles when heating a liquid in a test tube.",
+            labelMy:
+                "ပြွန်ငယ်ထဲက အရည်ကို အပူပေးနေစဉ် ဘေးကင်းရေးမျက်မှန်တပ်ဆင်ခြင်း။",
+            correctBucketEn: "Safe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-2",
+            labelEn: "Tying back long hair before lighting a Bunsen burner.",
+            labelMy:
+                "ဘန်ဇင်ဘာနာမီးဖို (Bunsen burner) ကို မမီးမညှိမီ ဆံပင်ရှည်ရှည်ကို နောက်သို့ချည်နှောင်ခြင်း။",
+            correctBucketEn: "Safe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-3",
+            labelEn: "Washing hands after handling chemicals.",
+            labelMy: "ဓာတုပစ္စည်းများကို ကိုင်တွယ်ပြီးနောက် လက်ဆေးခြင်း။",
+            correctBucketEn: "Safe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-4",
+            labelEn: "Reporting a spilled chemical to the teacher immediately.",
+            labelMy:
+                "ဓာတုပစ္စည်း ယိုစိမ့်ကျန်ရှိနေမှုကို ဆရာ/ဆရာမအား ချက်ချင်းအစီရင်ခံခြင်း။",
+            correctBucketEn: "Safe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-5",
+            labelEn: "Tasting a chemical to find out what it is.",
+            labelMy:
+                "မည်သည့်ဓာတုပစ္စည်းမှန်း သိရှိရန် ၎င်းကို မြည်းစမ်းကြည့်ခြင်း။",
+            correctBucketEn: "Unsafe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းမှုမရှိသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-6",
+            labelEn:
+                "Pointing a test tube's opening towards another student while heating it.",
+            labelMy:
+                "ပြွန်ငယ်ကို အပူပေးနေစဉ် ၎င်း၏ဝကို အခြားကျောင်းသားတစ်ဦးဘက်သို့ လှည့်ထားခြင်း။",
+            correctBucketEn: "Unsafe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းမှုမရှိသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-7",
+            labelEn: "Running between benches while carrying hot equipment.",
+            labelMy:
+                "မီးပူနေသော ကိရိယာများကို ကိုင်ဆောင်လျက် စားပွဲများကြားတွင် ပြေးလွှားခြင်း။",
+            correctBucketEn: "Unsafe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းမှုမရှိသောအလေ့အကျင့်",
+          ),
+          SortingItem(
+            id: "s1sci-w1-sort-8",
+            labelEn: "Eating a snack at the lab bench during an experiment.",
+            labelMy:
+                "စမ်းသပ်မှုတစ်ခု ပြုလုပ်နေစဉ် ဓာတ်ခွဲခန်းစားပွဲတွင် သရေစာစားနေခြင်း။",
+            correctBucketEn: "Unsafe Lab Practice",
+            correctBucketMy: "ဓာတ်ခွဲခန်း ဘေးကင်းမှုမရှိသောအလေ့အကျင့်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Fair Test",
+      titleMy: "စာဖတ်ခြင်း - ဆုဆု၏ တရားမျှတသော စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Fair Test",
+        titleMy: "ဆုဆု၏ တရားမျှတသော စမ်းသပ်မှု",
+        passageEn:
+            "Su Su was a Secondary 1 student who loved growing plants on her balcony. One week, she wondered whether her tomato seedling grew faster in full sunlight than in the shade. To find out, she decided to test it like a real scientist.\n\nFirst, she wrote her question: \"Does more sunlight make my tomato seedling grow taller?\" Then she made a prediction: the seedling in full sunlight would grow taller than the one in the shade.\n\nEvery morning at 8 o'clock, Su Su measured the height of both seedlings using a ruler, recording each height in centimetres in her notebook. She also measured the temperature of the balcony air each day using a thermometer, noting it in degrees Celsius, because she knew temperature could affect plant growth too. To keep the test fair, she watered both seedlings with exactly the same amount of water every day.\n\nAfter seven days, Su Su looked at her records. The seedling in full sunlight had grown 4 cm taller than the shaded one, while the balcony temperature had stayed steady at about 30°C. Su Su concluded that more sunlight had helped her seedling grow taller, and she was proud that her careful, fair measurements had given her a real answer instead of just a guess.",
+        passageMy:
+            "ဆုဆုသည် အထက်တန်းပထမနှစ် (Secondary 1) ကျောင်းသူတစ်ဦးဖြစ်ပြီး သူ့အိမ်ရဲ့ ဗရန်ဒါပေါ်တွင် အပင်များစိုက်ပျိုးရတာကို အလွန်ကြိုက်နှစ်သက်သည်။ တစ်ပတ်တွင် သူသည် နေရောင်ခြည်ကို ပိုမိုရရှိသော ခရမ်းချဉ်သီးအပင်ငယ်သည် အရိပ်တွင်ရှိသော အပင်ငယ်ထက် ပိုမြန်စွာ ကြီးထွားမလားဆိုသည်ကို သိချင်လာသည်။ ၎င်းကို သိရှိရန် သူသည် စစ်မှန်သော သိပ္ပံပညာရှင်တစ်ဦးကဲ့သို့ စမ်းသပ်ကြည့်ရန် ဆုံးဖြတ်လိုက်သည်။\n\nပထမဦးစွာ သူသည် မိမိ၏ မေးခွန်းကို ရေးချခဲ့သည် - \"ပိုမိုများပြားသော နေရောင်ခြည်သည် ကျွန်မ၏ ခရမ်းချဉ်သီးအပင်ငယ်ကို ပိုမိုမြင့်မားစွာ ကြီးထွားစေမလား။\" ထို့နောက် သူသည် ခန့်မှန်းချက်တစ်ခု ပြုလုပ်ခဲ့သည် - နေရောင်ခြည်အပြည့်ရသော အပင်ငယ်သည် အရိပ်ရှိအပင်ငယ်ထက် ပိုမြင့်လာလိမ့်မည်။\n\nဆုဆုသည် နေ့စဉ် မနက် ၈ နာရီတိုင်း ပေတံကို အသုံးပြု၍ အပင်နှစ်ပင်၏ အမြင့်ကို တိုင်းတာပြီး စင်တီမီတာအနေဖြင့် သူ့မှတ်စုစာအုပ်ထဲ မှတ်တမ်းတင်ခဲ့သည်။ အပူချိန်သည်လည်း အပင်ကြီးထွားမှုကို သက်ရောက်နိုင်ကြောင်း သူသိသောကြောင့် ဗရန်ဒါ၏ လေထုအပူချိန်ကို အပူတိုင်းကိရိယာဖြင့် နေ့စဉ်တိုင်းတာ၍ ဒီဂရီစင်တီဂရိတ်ဖြင့် မှတ်သားခဲ့သည်။ စမ်းသပ်မှုကို တရားမျှတစေရန် သူသည် အပင်နှစ်ပင်စလုံးကို နေ့စဉ် ရေအတိုင်းအတာ အတိအကျ တစ်ညီတည်း ဖြန်းပေးခဲ့သည်။\n\nခုနစ်ရက်ကြာပြီးနောက် ဆုဆုသည် မိမိ၏ မှတ်တမ်းများကို ပြန်လည်ကြည့်ရှုခဲ့သည်။ နေရောင်ခြည်အပြည့်ရသော အပင်ငယ်သည် အရိပ်ရှိအပင်ထက် ၄ စင်တီမီတာ ပိုမြင့်လာခဲ့ပြီး၊ ဗရန်ဒါ၏ အပူချိန်မှာ ၃၀ ဒီဂရီစင်တီဂရိတ်ခန့်တွင် တည်ငြိမ်နေခဲ့သည်။ ဆုဆုသည် ပိုမိုများပြားသော နေရောင်ခြည်က သူ့အပင်ငယ်ကို ပိုမြင့်အောင် ကူညီပေးခဲ့ကြောင်း ကောက်ချက်ချခဲ့ပြီး၊ သူ၏ သေချာပြီး တရားမျှတသော တိုင်းတာမှုများက ခန့်မှန်းချက်သက်သက်မဟုတ်ဘဲ စစ်မှန်သောအဖြေတစ်ခုကို ရရှိစေခဲ့သောကြောင့် ဂုဏ်ယူမိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Which instrument did Su Su use to measure the height of her seedlings?",
+            questionMy:
+                "ဆုဆုသည် သူ့အပင်ငယ်များ၏ အမြင့်ကို တိုင်းတာရန် မည်သည့်ကိရိယာကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A ruler",
+              "A thermometer",
+              "A stopwatch",
+              "A measuring cylinder",
+            ],
+            optionsMy: [
+              "ပေတံ",
+              "အပူတိုင်းကိရိယာ",
+              "စတော့ဝပ်ချ်",
+              "တိုင်းတာစီလင်ဒါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was Su Su's prediction before she began testing?",
+            questionMy:
+                "ဆုဆု စမ်းသပ်မှု မစတင်မီ ၎င်း၏ ခန့်မှန်းချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The seedling in full sunlight would grow taller than the one in the shade.",
+              "The seedling in the shade would grow taller than the one in sunlight.",
+              "Both seedlings would die within a week.",
+              "Temperature would not affect the seedlings at all.",
+            ],
+            optionsMy: [
+              "နေရောင်ခြည်အပြည့်ရသော အပင်ငယ်သည် အရိပ်ရှိအပင်ထက် ပိုမြင့်လာလိမ့်မည်။",
+              "အရိပ်ရှိအပင်ငယ်သည် နေရောင်ခြည်ရအပင်ထက် ပိုမြင့်လာလိမ့်မည်။",
+              "အပင်နှစ်ပင်စလုံး တစ်ပတ်အတွင်း သေဆုံးသွားလိမ့်မည်။",
+              "အပူချိန်သည် အပင်များအပေါ် လုံးဝ သက်ရောက်မှု ရှိမည်မဟုတ်ပါ။",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Su Su do to make her test fair?",
+            questionMy:
+                "ဆုဆုသည် သူ၏ စမ်းသပ်မှုကို တရားမျှတအောင် မည်သို့ပြုလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She watered both seedlings with exactly the same amount every day.",
+              "She gave one seedling more water than the other.",
+              "She only watered the seedling in the sunlight.",
+              "She changed the amount of water each day.",
+            ],
+            optionsMy: [
+              "သူသည် အပင်နှစ်ပင်စလုံးကို နေ့စဉ် ရေပမာဏ အတိအကျ တစ်ညီတည်း ဖြန်းပေးခဲ့သည်။",
+              "သူသည် အပင်တစ်ပင်ကို ကျန်တစ်ပင်ထက် ရေပိုပေးခဲ့သည်။",
+              "သူသည် နေရောင်ခြည်ရအပင်ကိုသာ ရေဖြန်းပေးခဲ့သည်။",
+              "သူသည် နေ့စဉ် ရေပမာဏကို ပြောင်းလဲပေးခဲ့သည်။",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the approximate temperature on the balcony during the investigation?",
+            questionMy:
+                "စမ်းသပ်မှုအတွင်း ဗရန်ဒါ၏ အပူချိန်မှာ ခန့်မှန်းခြေ မည်မျှရှိခဲ့သနည်း။",
+            optionsEn: [
+              "About 30°C",
+              "About 0°C",
+              "About 100°C",
+              "About -10°C",
+            ],
+            optionsMy: [
+              "ဒီဂရီစင်တီဂရိတ် ၃၀ ခန့်",
+              "ဒီဂရီစင်တီဂရိတ် ၀ ခန့်",
+              "ဒီဂရီစင်တီဂရိတ် ၁၀၀ ခန့်",
+              "ဒီဂရီစင်တီဂရိတ် အနှုတ် ၁၀ ခန့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Scientific Method and Measurement",
+      titleMy:
+          "အပတ်စဉ် ၁ ပြန်လည်သုံးသပ်ခြင်း - သိပ္ပံနည်းကျ လေ့လာမှုနှင့် တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which unit is used to measure mass?",
+          questionMy: "အလေးချိန်ကို မည်သည့်ယူနစ်ဖြင့် တိုင်းတာသနည်း။",
+          optionsEn: [
+            "Kilograms (kg)",
+            "Metres (m)",
+            "Seconds (s)",
+            "Newtons (N)",
+          ],
+          optionsMy: [
+            "ကီလိုဂရမ် (kg)",
+            "မီတာ (m)",
+            "စက္ကန့် (s)",
+            "နယူတန် (N)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which instrument is used to measure the volume of a liquid?",
+          questionMy: "အရည်တစ်ခု၏ ထုထည်ကို မည်သည့်ကိရိယာဖြင့် တိုင်းတာသနည်း။",
+          optionsEn: [
+            "A measuring cylinder",
+            "A ruler",
+            "A thermometer",
+            "A balance",
+          ],
+          optionsMy: [
+            "တိုင်းတာစီလင်ဒါ",
+            "ပေတံ",
+            "အပူတိုင်းကိရိယာ",
+            "ချိန်ခွင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the first step in a fair scientific investigation?",
+          questionMy:
+              "တရားမျှတသော သိပ္ပံနည်းကျစမ်းသပ်မှုတွင် ပထမဆုံးအဆင့်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Asking a clear question",
+            "Recording results",
+            "Concluding the results",
+            "Testing the equipment randomly",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသောမေးခွန်းတစ်ခု မေးခြင်း",
+            "ရလဒ်များကို မှတ်တမ်းတင်ခြင်း",
+            "ရလဒ်များကို ကောက်ချက်ချခြင်း",
+            "ကိရိယာများကို ကျပန်းစမ်းသပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which unit will you meet again when studying force in Week 3?",
+          questionMy:
+              "၃ ပတ်မြောက်တွင် အားကို လေ့လာစဉ် ပြန်လည်တွေ့ရမည့် ယူနစ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The newton (N)",
+            "The metre (m)",
+            "The gram (g)",
+            "The second (s)",
+          ],
+          optionsMy: ["နယူတန် (N)", "မီတာ (m)", "ဂရမ် (g)", "စက္ကန့် (s)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a safe laboratory practice?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဓာတ်ခွဲခန်း ဘေးကင်းသောအလေ့အကျင့်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Wearing safety goggles when heating chemicals",
+            "Tasting unknown substances",
+            "Eating at the lab bench",
+            "Running between workstations",
+          ],
+          optionsMy: [
+            "ဓာတုပစ္စည်းများကို အပူပေးနေစဉ် ဘေးကင်းရေးမျက်မှန်တပ်ဆင်ခြင်း",
+            "အမည်မသိပစ္စည်းများကို မြည်းစမ်းကြည့်ခြင်း",
+            "ဓာတ်ခွဲခန်းစားပွဲတွင် စားသောက်ခြင်း",
+            "အလုပ်ခုံများကြားတွင် ပြေးလွှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must an investigation be 'fair' by only changing one variable at a time?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုသည် အချိန်တစ်ချိန်တွင် ပြောင်းလဲသောအချက်တစ်ခုကိုသာ ပြောင်းလဲစမ်းသပ်ခြင်း (တရားမျှတမှု) ရှိရန် အဘယ့်ကြောင့် လိုအပ်သနည်း။",
+          optionsEn: [
+            "So the results truly show the effect of the one thing being tested.",
+            "So the experiment can be finished more quickly.",
+            "Because it makes the results look more interesting.",
+            "Because teachers require it, with no scientific reason.",
+          ],
+          optionsMy: [
+            "ရလဒ်များသည် စမ်းသပ်နေသည့် အချက်တစ်ခုတည်း၏ သက်ရောက်မှုကို အမှန်တကယ် ပြသနိုင်ရန်။",
+            "စမ်းသပ်မှုကို ပိုမြန်စွာ ပြီးမြောက်စေရန်။",
+            "ရလဒ်များကို ပိုစိတ်ဝင်စားဖွယ်ဖြစ်အောင် ပြုလုပ်ရန်။",
+            "ဆရာ/ဆရာမများ တောင်းဆိုသောကြောင့်သာ၊ သိပ္ပံနည်းအကြောင်းပြချက် မရှိပါ။",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 1, Week 2: "States of Matter and the Particle Model"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
+  id: "course-secondary1-science-w2",
+  weekNumber: 2,
+  titleEn: "States of Matter and the Particle Model",
+  titleMy: "ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w2-d1",
+      dayNumber: 1,
+      titleEn: "States of Matter Quiz",
+      titleMy: "ဒြပ်ထု အခြေအနေများ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which state of matter has both a fixed shape and a fixed volume?",
+          questionMy:
+              "ပုံသဏ္ဌာန်အသေနှင့် ထုထည်အသေ နှစ်ခုစလုံးရှိသော ဒြပ်ထုအခြေအနေမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "All three states have a fixed shape and volume",
+          ],
+          optionsMy: [
+            "အစိုင်အခဲ",
+            "အရည်",
+            "ဓာတ်ငွေ့",
+            "အခြေအနေသုံးမျိုးလုံးသည် ပုံသဏ္ဌာန်အသေနှင့် ထုထည်အသေ ရှိကြသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which state of matter has particles that are close together but can slide past one another, giving it no fixed shape but a fixed volume?",
+          questionMy:
+              "အနုမြူများသည် တစ်ခုနှင့်တစ်ခု နီးကပ်စွာရှိသော်လည်း အချင်းချင်း ရွေ့လျားဖြတ်သန်းနိုင်သဖြင့် ပုံသဏ္ဌာန်အသေမရှိသော်လည်း ထုထည်အသေရှိသည့် ဒြပ်ထုအခြေအနေမှာ အဘယ်နည်း။",
+          optionsEn: ["Solid", "Liquid", "Gas", "Plasma"],
+          optionsMy: ["အစိုင်အခဲ", "အရည်", "ဓာတ်ငွေ့", "ပလာစမာ"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Why does a gas not have a fixed volume?",
+          questionMy:
+              "ဓာတ်ငွေ့တွင် ထုထည်အသေ မရှိရခြင်း အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Its particles are packed tightly together and only vibrate in place",
+            "Its particles move freely, quickly and spread out to fill any container",
+            "Its particles stay close together and slide past one another",
+            "Its particles have completely stopped moving",
+          ],
+          optionsMy: [
+            "၎င်း၏ အနုမြူများသည် ကျစ်လျစ်စွာ စုပုံနေပြီး နေရာတွင်သာ တုန်ခါနေခြင်းကြောင့်",
+            "၎င်း၏ အနုမြူများသည် လွတ်လပ်စွာ၊ မြန်ဆန်စွာ ရွေ့လျားပြီး ထည့်ထားသည့် အိုးအိတ်တိုင်းကို ပြည့်နှက်အောင်ဖြန့်ကျက်ခြင်းကြောင့်",
+            "၎င်း၏ အနုမြူများသည် နီးကပ်စွာနေထိုင်ကာ အချင်းချင်း ရွေ့လျားဖြတ်သန်းနေခြင်းကြောင့်",
+            "၎င်း၏ အနုမြူများ လုံးဝ ရွေ့လျားမှုရပ်တန့်နေခြင်းကြောင့်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly describes the particle arrangement in a solid?",
+          questionMy:
+              "အောက်ပါတို့အနက် အစိုင်အခဲတစ်ခုအတွင်းရှိ အနုမြူများ၏ အစီအစဉ်ကို မှန်ကန်စွာ ဖော်ပြထားသည်မှာ အဘယ်ရွေးချယ်စရာနည်း။",
+          optionsEn: [
+            "Particles are far apart and move randomly at high speed",
+            "Particles are closely packed in a fixed pattern and only vibrate in place",
+            "Particles are close together but can flow and slide past each other",
+            "Particles have no fixed arrangement and no forces between them",
+          ],
+          optionsMy: [
+            "အနုမြူများသည် ဝေးကွာစွာနေပြီး မြန်ဆန်စွာ ပရမ်းပတာ ရွေ့လျားနေခြင်း",
+            "အနုမြူများသည် ပုံသေပုံစံဖြင့် ကျစ်လျစ်စွာ စုပုံနေပြီး နေရာတွင်သာ တုန်ခါနေခြင်း",
+            "အနုမြူများသည် နီးကပ်စွာရှိသော်လည်း စီးဆင်းကာ အချင်းချင်း ရွေ့လျားဖြတ်သန်းနိုင်ခြင်း",
+            "အနုမြူများသည် ပုံသေအစီအစဉ်မရှိဘဲ အချင်းချင်း ဆွဲအားလည်း မရှိခြင်း",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match the Changes of State",
+      titleMy: "အခြေအနေပြောင်းလဲမှုများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w2-dm-1",
+          termEn: "Melting",
+          termMy: "အရည်ပျော်ခြင်း",
+          matchEn:
+              "The change of state when a solid turns into a liquid as it is heated.",
+          matchMy:
+              "အပူပေးသောအခါ အစိုင်အခဲပစ္စည်းသည် အရည်အဖြစ်သို့ ပြောင်းလဲသွားခြင်း။",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "s1sci-w2-dm-2",
+          termEn: "Freezing",
+          termMy: "အခဲဖြစ်ခြင်း",
+          matchEn:
+              "The change of state when a liquid turns into a solid as it cools.",
+          matchMy:
+              "အအေးခံသောအခါ အရည်ပစ္စည်းသည် အစိုင်အခဲအဖြစ်သို့ ပြောင်းလဲသွားခြင်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w2-dm-3",
+          termEn: "Evaporation/Boiling",
+          termMy: "အငွေ့ပျံခြင်း/ဆူပွက်ခြင်း",
+          matchEn:
+              "The change of state when a liquid turns into a gas as it is heated.",
+          matchMy:
+              "အပူပေးသောအခါ အရည်ပစ္စည်းသည် ဓာတ်ငွေ့အဖြစ်သို့ ပြောင်းလဲသွားခြင်း။",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "s1sci-w2-dm-4",
+          termEn: "Condensation",
+          termMy: "အငွေ့ရည်ဖြစ်ခြင်း",
+          matchEn:
+              "The change of state when a gas turns into a liquid as it cools.",
+          matchMy: "အအေးခံသောအခါ ဓာတ်ငွေ့သည် အရည်အဖြစ်သို့ ပြောင်းလဲသွားခြင်း။",
+          colorValue: 0xFFF2C94C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w2-dm-5",
+          termEn: "Sublimation",
+          termMy: "ဆပ်ဘလိမေးရှင်း (တိုက်ရိုက်အငွေ့ပျံခြင်း)",
+          matchEn:
+              "The change of state when a solid turns directly into a gas without becoming a liquid first.",
+          matchMy:
+              "အစိုင်အခဲပစ္စည်းသည် အရည်အဖြစ်ကို မဖြတ်သန်းဘဲ ဓာတ်ငွေ့အဖြစ်သို့ တိုက်ရိုက်ပြောင်းလဲသွားခြင်း။",
+          colorValue: 0xFFBB6BD9,
+        ),
+        DragMatchPair(
+          id: "s1sci-w2-dm-6",
+          termEn: "Particle",
+          termMy: "အနုမြူ",
+          matchEn:
+              "A tiny piece of matter, too small to see, that all substances are made of.",
+          matchMy:
+              "ပစ္စည်းအားလုံးကို ဖွဲ့စည်းထားသည့် မျက်စိဖြင့်မမြင်နိုင်လောက်အောင် သေးငယ်သော အစိတ်အပိုင်းအသေးလေး။",
+          colorValue: 0xFFF2994A,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Solid, Liquid or Gas?",
+      titleMy: "စီစစ်ကြမည် - အစိုင်အခဲလား၊ အရည်လား၊ ဓာတ်ငွေ့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solid", "Liquid", "Gas"],
+        bucketsMy: ["အစိုင်အခဲ", "အရည်", "ဓာတ်ငွေ့"],
+        items: [
+          SortingItem(
+            id: "s1sci-w2-sort-1",
+            labelEn: "A rock",
+            labelMy: "ကျောက်တုံး",
+            correctBucketEn: "Solid",
+            correctBucketMy: "အစိုင်အခဲ",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-2",
+            labelEn: "A wooden block",
+            labelMy: "သစ်သားတုံး",
+            correctBucketEn: "Solid",
+            correctBucketMy: "အစိုင်အခဲ",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-3",
+            labelEn: "An ice cube",
+            labelMy: "ရေခဲတုံး",
+            correctBucketEn: "Solid",
+            correctBucketMy: "အစိုင်အခဲ",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-4",
+            labelEn: "Drinking water",
+            labelMy: "သောက်ရေ",
+            correctBucketEn: "Liquid",
+            correctBucketMy: "အရည်",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-5",
+            labelEn: "Cooking oil",
+            labelMy: "ဟင်းချက်ဆီ",
+            correctBucketEn: "Liquid",
+            correctBucketMy: "အရည်",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-6",
+            labelEn: "Milk",
+            labelMy: "နို့ရည်",
+            correctBucketEn: "Liquid",
+            correctBucketMy: "အရည်",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-7",
+            labelEn: "Oxygen in the air",
+            labelMy: "လေထဲရှိ အောက်ဆီဂျင်ဓာတ်ငွေ့",
+            correctBucketEn: "Gas",
+            correctBucketMy: "ဓာတ်ငွေ့",
+          ),
+          SortingItem(
+            id: "s1sci-w2-sort-8",
+            labelEn: "Steam from a boiling kettle",
+            labelMy: "ဖန်ကရားမှ ရေဆူချိန် ထွက်လာသော ရေငွေ့",
+            correctBucketEn: "Gas",
+            correctBucketMy: "ဓာတ်ငွေ့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Kitchen Science",
+      titleMy: "စာဖတ်ခြင်း - သီရိ၏ မီးဖိုချောင် သိပ္ပံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Kitchen Science: Ice, Water, and Steam",
+        titleMy: "သီရိ၏ မီးဖိုချောင် သိပ္ပံ - ရေခဲ၊ ရေနှင့် ရေငွေ့",
+        passageEn:
+            "Thiri loved doing little experiments in her kitchen at home. One afternoon, she took an ice cube from the freezer and placed it in a bowl on the table. At first, the ice was hard and cold, holding its shape perfectly. Thiri remembered what she had learned in Week 1: the thermometer showed that the freezer was colder than 0 degrees Celsius, the temperature at which ice melts.\n\nAs the minutes passed, the ice cube slowly grew smaller. Thiri knew that the warm air in the kitchen was giving energy to the tightly packed particles inside the ice, making them vibrate faster and faster until they broke free of their fixed positions. Soon, the ice cube had melted completely into a puddle of liquid water.\n\nLater that evening, with her mother watching closely beside her, Thiri poured some of the water into a pot on the stove. As the water heated up, tiny bubbles began to form, and soon the water was boiling at 100 degrees Celsius. Wisps of steam rose into the air above the pot.\n\n\"Where does the steam go, Mom?\" Thiri asked.\n\nHer mother smiled. \"The particles in the boiling water are moving so fast now that they escape into the air as gas. That is called evaporation, or boiling. If you held a cold plate above the steam, you would see it turn back into water droplets — that is condensation.\"\n\nThiri nodded, watching the particles at work all around her kitchen.",
+        passageMy:
+            "သီရိသည် အိမ်မှာ မီးဖိုချောင်ထဲမှာ သေးသေးလေးစမ်းသပ်မှုလေးများ ပြုလုပ်ရတာကို အရမ်းကြိုက်တယ်။ တစ်နေ့မွန်းလွဲပိုင်း၊ သူသည် ရေခဲသေတ္တာထဲက ရေခဲတုံးတစ်တုံးကို ထုတ်ပြီး စားပွဲပေါ်ရှိ ခွက်ထဲသို့ ထည့်လိုက်တယ်။ ဦးဆုံးတော့ ရေခဲသည် မာကျောပြီး အေးစက်လျက် သူ့ပုံသဏ္ဌာန်ကို အတိအကျ ဆက်ထိန်းထားနိုင်ခဲ့တယ်။ သီရိသည် ပထမအပတ်တွင် သင်ယူခဲ့သော အချက်ကို သတိရမိတယ် — အပူချိန်တိုင်းစက်က ရေခဲသေတ္တာအတွင်းရှိ အပူချိန်သည် ရေခဲပျော်ချိန်ဖြစ်သော ဒီဂရီစင်တီဂရိတ် ၀ ဒီဂရီထက် အေးကြောင်း ပြသခဲ့တယ်။\n\nမိနစ်များ ကုန်လွန်လာသည်နှင့်အမျှ ရေခဲတုံးသည် တဖြည်းဖြည်း သေးငယ်လာခဲ့တယ်။ မီးဖိုချောင်ထဲရှိ နွေးထွေးသောလေသည် ရေခဲအတွင်းက စည်းလုံးစွာ စုပုံနေသော အနုမြူများကို စွမ်းအင်ပေးလိုက်သဖြင့် ၎င်းတို့ ပိုမိုမြန်ဆန်စွာ တုန်ခါလာပြီး နောက်ဆုံးတွင် သူတို့ နေရာအသီးသီးမှ လွတ်မြောက်သွားကြောင်း သီရိသိထားတယ်။ မကြာမီပင် ရေခဲတုံးသည် အရည်ရေအဖြစ်သို့ လုံးဝ ပျော်ဝင်သွားခဲ့တယ်။\n\nထိုနေ့ ညနေခင်း၊ သူ့အမေက အနီးကပ် စောင့်ကြည့်နေစဉ်၊ သီရိသည် ရေအချို့ကို မီးဖိုပေါ်ရှိ အိုးထဲသို့ လောင်းထည့်ခဲ့တယ်။ ရေပူလာသည်နှင့်အမျှ ပူဖောင်းသေးလေးများ စတင်ပေါ်လာပြီး မကြာမီ ရေသည် ဒီဂရီစင်တီဂရိတ် ၁၀၀ တွင် ဆူပွက်လာခဲ့တယ်။ အိုးအပေါ်မှ ရေငွေ့တွေ လိပ်ပတ်တက်လာတယ်။\n\n\"ရေငွေ့တွေ ဘယ်ကိုသွားကြသလဲ အမေ\" သီရိမေးလိုက်တယ်။\n\nသူ့အမေ ပြုံးပြီး ဖြေတယ်— \"ဆူပွက်နေတဲ့ ရေထဲက အနုမြူတွေဟာ အခုအရမ်းမြန်နေတဲ့အတွက် လေထဲကို ဓာတ်ငွေ့အဖြစ် လွတ်ထွက်သွားကြတာပါ။ ဒါကို အငွေ့ပျံခြင်း (သို့) ဆူပွက်ခြင်း လို့ခေါ်တယ်။ ရေငွေ့အပေါ်မှာ အေးစက်တဲ့ ပန်းကန်ပြားလေးကို ကိုင်ထားရင် ရေစက်လေးတွေ ပြန်ဖြစ်လာတာကို မြင်ရမှာပါ — ဒါကတော့ အငွေ့ရည်ဖြစ်ခြင်း ပဲ။\"\n\nသီရိသည် ခေါင်းညိတ်လိုက်ပြီး သူ့မီးဖိုချောင်ထဲမှာ လှုပ်ရှားနေကြတဲ့ အနုမြူများကို ကြည့်နေမိတယ်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Thiri take out of the freezer at the start of the story?",
+            questionMy:
+                "ဇာတ်လမ်း အစပိုင်းတွင် သီရိသည် ရေခဲသေတ္တာထဲမှ အဘယ်အရာကို ထုတ်ယူခဲ့သနည်း။",
+            optionsEn: [
+              "A pot of hot water",
+              "An ice cube",
+              "A cup of milk",
+              "A bowl of cooking oil",
+            ],
+            optionsMy: [
+              "ရေပူအိုးတစ်လုံး",
+              "ရေခဲတုံးတစ်တုံး",
+              "နို့ခွက်တစ်ခွက်",
+              "ဟင်းချက်ဆီခွက်တစ်ခွက်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, at what temperature does the ice melt?",
+            questionMy: "စာပိုဒ်အရ ရေခဲသည် မည်သည့်အပူချိန်တွင် အရည်ပျော်သနည်း။",
+            optionsEn: [
+              "100 degrees Celsius",
+              "50 degrees Celsius",
+              "0 degrees Celsius",
+              "-10 degrees Celsius",
+            ],
+            optionsMy: [
+              "ဒီဂရီစင်တီဂရိတ် ၁၀၀",
+              "ဒီဂရီစင်တီဂရိတ် ၅၀",
+              "ဒီဂရီစင်တီဂရိတ် ၀",
+              "ဒီဂရီစင်တီဂရိတ် -၁၀",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the ice cube get smaller and slowly turn into water, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ ရေခဲတုံးသည် အဘယ့်ကြောင့် သေးငယ်လာပြီး ရေအဖြစ်သို့ တဖြည်းဖြည်း ပြောင်းလဲသွားခဲ့သနည်း။",
+            optionsEn: [
+              "The warm air gave energy to the particles, making them vibrate faster until they broke free of their fixed positions",
+              "The particles inside the ice stopped moving completely",
+              "The particles moved far apart and shot off into the air as gas",
+              "A strong wind blew the ice cube apart",
+            ],
+            optionsMy: [
+              "နွေးထွေးသောလေက အနုမြူများကို စွမ်းအင်ပေးသဖြင့် ၎င်းတို့ ပိုမိုမြန်ဆန်စွာ တုန်ခါလာပြီး နေရာအသီးသီးမှ လွတ်မြောက်သွားခြင်းကြောင့်",
+              "ရေခဲအတွင်းရှိ အနုမြူများ လုံးဝ ရွေ့လျားမှုရပ်တန့်သွားခြင်းကြောင့်",
+              "အနုမြူများ ဝေးကွာစွာ ရွေ့လျားကာ လေထဲသို့ ဓာတ်ငွေ့အဖြစ် ပျံသန်းသွားခြင်းကြောင့်",
+              "လေပြင်းက ရေခဲတုံးကို ပြိုကွဲအောင် တိုက်ခတ်ခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Thiri's mother, what is happening to the particles in the water when it boils and turns into steam?",
+            questionMy:
+                "သီရိ၏အမေ ပြောပြသည့်အတိုင်း ရေဆူပြီး ရေငွေ့အဖြစ်ပြောင်းလဲချိန်တွင် ရေအနုမြူများ၌ အဘယ်အရာဖြစ်ပျက်နေသနည်း။",
+            optionsEn: [
+              "The particles are moving so fast that they escape into the air as gas",
+              "The particles are freezing into a solid shape",
+              "The particles are packing closely together in a fixed pattern",
+              "The particles are completely disappearing",
+            ],
+            optionsMy: [
+              "အနုမြူများသည် အလွန်မြန်ဆန်စွာ ရွေ့လျားနေသဖြင့် လေထဲသို့ ဓာတ်ငွေ့အဖြစ် လွတ်ထွက်သွားခြင်း",
+              "အနုမြူများသည် အစိုင်အခဲပုံသဏ္ဌာန်အဖြစ် ခဲမာသွားခြင်း",
+              "အနုမြူများသည် ပုံသေပုံစံဖြင့် နီးကပ်စွာ စုပုံလာခြင်း",
+              "အနုမြူများ လုံးဝ ကွယ်ပျောက်သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: States of Matter",
+      titleMy: "အပတ်စဉ် ၂ ပြန်လည်သုံးသပ်ခြင်း - ဒြပ်ထု၏ အခြေအနေများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which state of matter has no fixed shape and no fixed volume, spreading out to completely fill its container?",
+          questionMy:
+              "ပုံသဏ္ဌာန်အသေမရှိ၊ ထုထည်အသေလည်းမရှိဘဲ ၎င်းထည့်ထားသည့် အိုးအိတ်တစ်ခုလုံးကို ပြည့်နှက်အောင် ဖြန့်ကျက်နိုင်သည့် ဒြပ်ထုအခြေအနေမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "None of the three states behave this way",
+          ],
+          optionsMy: [
+            "အစိုင်အခဲ",
+            "အရည်",
+            "ဓာတ်ငွေ့",
+            "အခြေအနေသုံးမျိုးထဲမှ မည်သည့်အခြေအနေမျှ ဤသို့မဟုတ်ပါ",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the term for a liquid changing into a solid as it cools?",
+          questionMy:
+              "အရည်တစ်ခုသည် အအေးခံသောအခါ အစိုင်အခဲအဖြစ်သို့ ပြောင်းလဲခြင်းကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["Melting", "Freezing", "Evaporation", "Condensation"],
+          optionsMy: [
+            "အရည်ပျော်ခြင်း",
+            "အခဲဖြစ်ခြင်း",
+            "အငွေ့ပျံခြင်း",
+            "အငွေ့ရည်ဖြစ်ခြင်း",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the term for a solid changing directly into a gas without becoming a liquid first, as dry ice does?",
+          questionMy:
+              "အစိုင်အခဲတစ်ခုသည် အရည်အဖြစ်ကို မဖြတ်သန်းဘဲ ဓာတ်ငွေ့အဖြစ်သို့ တိုက်ရိုက်ပြောင်းလဲခြင်း (ရေခဲမြောက်ကဲ့သို့) ကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["Melting", "Sublimation", "Condensation", "Boiling"],
+          optionsMy: [
+            "အရည်ပျော်ခြင်း",
+            "ဆပ်ဘလိမေးရှင်း (တိုက်ရိုက်အငွေ့ပျံခြင်း)",
+            "အငွေ့ရည်ဖြစ်ခြင်း",
+            "ဆူပွက်ခြင်း",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these best describes the particles in a liquid?",
+          questionMy:
+              "အောက်ပါတို့အနက် အရည်တစ်ခုအတွင်းရှိ အနုမြူများကို အကောင်းဆုံးဖော်ပြထားသည်မှာ အဘယ်ရွေးချယ်စရာနည်း။",
+          optionsEn: [
+            "Far apart, moving quickly and randomly in all directions",
+            "Closely packed in a fixed pattern, only vibrating in place",
+            "Close together, but able to slide and move past one another",
+            "There are no particles in a liquid",
+          ],
+          optionsMy: [
+            "ဝေးကွာစွာနေပြီး မြန်ဆန်စွာ ပရမ်းပတာ ရွေ့လျားနေခြင်း",
+            "ပုံသေပုံစံဖြင့် ကျစ်လျစ်စွာ စုပုံနေပြီး နေရာတွင်သာ တုန်ခါနေခြင်း",
+            "နီးကပ်စွာရှိသော်လည်း အချင်းချင်း ရွေ့လျားဖြတ်သန်းနိုင်ခြင်း",
+            "အရည်တွင် အနုမြူများ လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the term for a gas changing into a liquid as it cools?",
+          questionMy:
+              "ဓာတ်ငွေ့တစ်ခုသည် အအေးခံသောအခါ အရည်အဖြစ်သို့ ပြောင်းလဲခြင်းကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["Freezing", "Melting", "Condensation", "Sublimation"],
+          optionsMy: [
+            "အခဲဖြစ်ခြင်း",
+            "အရည်ပျော်ခြင်း",
+            "အငွေ့ရည်ဖြစ်ခြင်း",
+            "ဆပ်ဘလိမေးရှင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Kyaw wants to find the exact temperature at which a block of ice starts to melt. Which instrument should he use, and in which unit would the result usually be recorded?",
+          questionMy:
+              "ကျော်သည် ရေခဲတုံးတစ်တုံး အရည်ပျော်စတင်သည့် အတိအကျ အပူချိန်ကို သိလိုသည်။ သူသည် မည်သည့်ကိရိယာကို အသုံးပြုသင့်ပြီး ရလဒ်ကို မည်သည့်ယူနစ်ဖြင့် မှတ်တမ်းတင်လေ့ရှိသနည်း။",
+          optionsEn: [
+            "A ruler, measured in centimetres",
+            "A thermometer, measured in degrees Celsius",
+            "A weighing scale, measured in kilograms",
+            "A stopwatch, measured in seconds",
+          ],
+          optionsMy: [
+            "ပေတံ၊ စင်တီမီတာဖြင့် တိုင်းတာသည်",
+            "အပူချိန်တိုင်းစက်၊ ဒီဂရီစင်တီဂရိတ်ဖြင့် တိုင်းတာသည်",
+            "အလေးချိန်ခွင်၊ ကီလိုဂရမ်ဖြင့် တိုင်းတာသည်",
+            "အချိန်တိုင်းစက် (စတော့ပ်ဝပ်ချ်)၊ စက္ကန့်ဖြင့် တိုင်းတာသည်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 1, Week 3: "Forces and Their Effects"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
+  id: "course-secondary1-science-w3",
+  weekNumber: 3,
+  titleEn: "Forces and Their Effects",
+  titleMy: "အားနှင့် ၎င်း၏ သက်ရောက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w3-d1",
+      dayNumber: 1,
+      titleEn: "Forces and Their Effects Quiz",
+      titleMy: "အားနှင့် ၎င်း၏ သက်ရောက်မှုများ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a force?",
+          questionMy: "အားဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A type of energy stored in an object",
+            "A measure of how hot something is",
+            "A push or a pull that can change an object's motion or shape",
+            "A substance that flows",
+          ],
+          optionsMy: [
+            "အရာဝတ္ထုတစ်ခုအတွင်း သိမ်းဆည်းထားသော စွမ်းအင်အမျိုးအစားတစ်ခု",
+            "တစ်စုံတစ်ခု မည်မျှပူနွေးမှုကို တိုင်းတာခြင်း",
+            "အရာဝတ္ထုတစ်ခု၏ လှုပ်ရှားမှု (သို့) ပုံသဏ္ဌာန်ကို ပြောင်းလဲစေနိုင်သည့် တွန်းအား သို့မဟုတ် ဆွဲအား",
+            "စီးဆင်းနိုင်သော ပစ္စည်းတစ်မျိုး",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is the SI unit used to measure force?",
+          questionMy: "အားကို တိုင်းတာရန် အသုံးပြုသည့် SI ယူနစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Kilogram (kg)", "Newton (N)", "Metre (m)", "Joule (J)"],
+          optionsMy: ["ကီလိုဂရမ် (kg)", "နယူတန် (N)", "မီတာ (m)", "ဂျူး (J)"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A book slides across a rough table and slows down because the table surface rubs against it. Which force is mainly responsible?",
+          questionMy:
+              "စာအုပ်တစ်အုပ်သည် ကြမ်းတမ်းသောစားပွဲမျက်နှာပြင်ပေါ်တွင် ရွေ့လျားနေစဉ် မျက်နှာပြင်နှင့် ပွတ်တိုက်မိသောကြောင့် နှေးလာသည်။ မည်သည့်အားက အဓိကတာဝန်ရှိသနည်း။",
+          optionsEn: [
+            "Upthrust",
+            "Friction",
+            "Gravity",
+            "Normal contact force",
+          ],
+          optionsMy: [
+            "အထက်တွန်းအား",
+            "ပွတ်တိုက်အား",
+            "ဆွဲငင်အား",
+            "ပုံမှန်ထိတွေ့အား",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following is NOT one of the effects a force can have on an object?",
+          questionMy:
+              "အောက်ပါတို့အနက် အားတစ်ခုက အရာဝတ္ထုတစ်ခုအပေါ် ဖြစ်ပေါ်စေနိုင်သည့် သက်ရောက်မှု မဟုတ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Start it moving",
+            "Change its shape",
+            "Increase its temperature directly",
+            "Change its direction",
+          ],
+          optionsMy: [
+            "၎င်းကို ရပ်နေရာမှ လှုပ်ရှားစေခြင်း",
+            "၎င်း၏ပုံသဏ္ဌာန်ကို ပြောင်းလဲစေခြင်း",
+            "၎င်း၏ အပူချိန်ကို တိုက်ရိုက်မြှင့်တင်ခြင်း",
+            "၎င်း၏ ဦးတည်ရာကို ပြောင်းလဲစေခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match the Force Types",
+      titleMy: "အားအမျိုးအစားများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w3-dm-1",
+          termEn: "Gravity",
+          termMy: "ဆွဲငင်အား",
+          matchEn:
+              "The force that pulls objects toward the centre of the Earth",
+          matchMy: "အရာဝတ္ထုများကို ကမ္ဘာ့ဗဟိုချက်ဘက်သို့ ဆွဲငင်သည့်အား",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w3-dm-2",
+          termEn: "Friction",
+          termMy: "ပွတ်တိုက်အား",
+          matchEn:
+              "A force that opposes motion between two surfaces in contact",
+          matchMy:
+              "မျက်နှာပြင်နှစ်ခု ထိတွေ့လျက်ရှိစဉ် လှုပ်ရှားမှုကို ဆန့်ကျင်သည့်အား",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w3-dm-3",
+          termEn: "Air Resistance",
+          termMy: "လေလိုက်ဆန့်ကျင်အား",
+          matchEn:
+              "A type of friction that acts on an object moving through air",
+          matchMy:
+              "လေထဲတွင် ရွေ့လျားနေသော အရာဝတ္ထုအပေါ် သက်ရောက်သည့် ပွတ်တိုက်အားတစ်မျိုး",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w3-dm-4",
+          termEn: "Upthrust",
+          termMy: "အထက်တွန်းအား",
+          matchEn: "An upward push from a liquid on an object placed in it",
+          matchMy:
+              "အရည်ထဲသို့ ချထားသော အရာဝတ္ထုကို အရည်က အပေါ်သို့ တွန်းပေးသည့်အား",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w3-dm-5",
+          termEn: "Normal Contact Force",
+          termMy: "ပုံမှန်ထိတွေ့အား",
+          matchEn:
+              "The support force a surface exerts on an object resting on it, acting at right angles to the surface",
+          matchMy:
+              "မျက်နှာပြင်ပေါ်တွင် နားနေသော အရာဝတ္ထုကို မျက်နှာပြင်က ဒေါင်လိုက်ရစ်ရစ်ဖြင့် ထောက်ပံ့ပေးသည့်အား",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w3-dm-6",
+          termEn: "Newton (N)",
+          termMy: "နယူတန် (N)",
+          matchEn: "The SI unit used to measure the size of a force",
+          matchMy: "အား၏ အရွယ်အစားကို တိုင်းတာသည့် SI ယူနစ်",
+          colorValue: 0xFF6FCF97,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Balanced or Unbalanced Forces?",
+      titleMy: "စီစစ်ကြမည် - ဟန်ချက်ညီလား၊ ဟန်ချက်မညီလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Balanced Forces", "Unbalanced Forces"],
+        bucketsMy: ["ဟန်ချက်ညီသောအားများ", "ဟန်ချက်မညီသောအားများ"],
+        items: [
+          SortingItem(
+            id: "s1sci-w3-sort-1",
+            labelEn: "A book resting still on a table",
+            labelMy: "စားပွဲပေါ်တွင် စာအုပ်တစ်အုပ် တိတ်ဆိတ်စွာ နားနေခြင်း",
+            correctBucketEn: "Balanced Forces",
+            correctBucketMy: "ဟန်ချက်ညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-2",
+            labelEn: "A parachutist falling at a steady, constant speed",
+            labelMy:
+                "လေထီးစီးသူတစ်ဦး တည်ငြိမ်သောအမြန်နှုန်းဖြင့် ကျဆင်းနေခြင်း",
+            correctBucketEn: "Balanced Forces",
+            correctBucketMy: "ဟန်ချက်ညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-3",
+            labelEn: "A picture frame hanging still on a wall",
+            labelMy:
+                "ပန်းချီဘောင်တစ်ခု နံရံပေါ်တွင် တိတ်ဆိတ်စွာ ချိတ်ဆွဲထားခြင်း",
+            correctBucketEn: "Balanced Forces",
+            correctBucketMy: "ဟန်ချက်ညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-4",
+            labelEn:
+                "Two teams pulling equally hard in a tug-of-war, so the rope does not move",
+            labelMy:
+                "ကြိုးဆွဲပြိုင်ပွဲတွင် အသင်းနှစ်သင်း အားတူညီစွာ ဆွဲနေသဖြင့် ကြိုးမလှုပ်ဘဲ ရှိနေခြင်း",
+            correctBucketEn: "Balanced Forces",
+            correctBucketMy: "ဟန်ချက်ညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-5",
+            labelEn: "A car accelerating away from a stop sign",
+            labelMy: "ကားတစ်စီး ရပ်တန့်ရာမှ အရှိန်မြှင့်၍ ထွက်ခွာသွားခြင်း",
+            correctBucketEn: "Unbalanced Forces",
+            correctBucketMy: "ဟန်ချက်မညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-6",
+            labelEn:
+                "A ball rolling and gradually slowing down due to friction",
+            labelMy:
+                "ဘောလုံးတစ်လုံး လိမ့်ဝဲနေရာမှ ပွတ်တိုက်အားကြောင့် တဖြည်းဖြည်း နှေးလာခြင်း",
+            correctBucketEn: "Unbalanced Forces",
+            correctBucketMy: "ဟန်ချက်မညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-7",
+            labelEn: "An apple falling from a tree and speeding up as it falls",
+            labelMy:
+                "ပန်းသီးတစ်လုံး သစ်ပင်မှ ကျဆင်းလာစဉ် အရှိန်တဖြည်းဖြည်း မြင့်တက်လာခြင်း",
+            correctBucketEn: "Unbalanced Forces",
+            correctBucketMy: "ဟန်ချက်မညီသောအားများ",
+          ),
+          SortingItem(
+            id: "s1sci-w3-sort-8",
+            labelEn: "A cyclist braking and slowing down to stop at a junction",
+            labelMy:
+                "စက်ဘီးစီးသူတစ်ဦး လမ်းဆုံတွင် ရပ်ရန် ဘရိတ်နှိပ်၍ နှေးလာခြင်း",
+            correctBucketEn: "Unbalanced Forces",
+            correctBucketMy: "ဟန်ချက်မညီသောအားများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Kyaw's Ride to School",
+      titleMy: "စာဖတ်ခြင်း - ကျော်ကျော်၏ ကျောင်းသွား စက်ဘီးစီးခရီး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Kyaw's Ride to School",
+        titleMy: "ကျော်ကျော်၏ ကျောင်းသွား စက်ဘီးစီးခရီး",
+        passageEn:
+            "Every morning before school, Kyaw Kyaw rides his bicycle along the flat road beside the market in Mandalay. As soon as he pushes down on the pedals, the bicycle starts to move. Gravity is always pulling Kyaw Kyaw and his bicycle downward, but the road pushes back up with a normal contact force, so he stays balanced on the seat instead of sinking through it.\n\nOnce Kyaw Kyaw reaches a steady speed on the flat road, something interesting happens: the forward push from his pedalling exactly balances the backward pull of friction between his tyres and the road, together with the air resistance pushing against him as he moves. Because these forces are balanced, Kyaw Kyaw's bicycle keeps moving at the same speed in a straight line, without speeding up or slowing down.\n\nNear the school gate, Kyaw Kyaw sees his friend Thandar waving and squeezes the brakes. The brakes press hard against the wheels, creating a much bigger friction force than before. Now the backward forces are far greater than his forward push, so the forces become unbalanced, and the bicycle quickly slows down until it stops. Kyaw Kyaw smiles, hops off, and locks his bicycle, ready for another day of learning about the forces all around him.",
+        passageMy:
+            "နေ့တိုင်း ကျောင်းမသွားခင် မနက်တိုင်း ကျော်ကျော်သည် မန္တလေးမြို့ ဈေးအနီးက ညီညာသောလမ်းအတိုင်း စက်ဘီးစီးလေ့ရှိသည်။ ခြေနင်းများကို နှိပ်လိုက်သည်နှင့် စက်ဘီးသည် ချက်ချင်းပင် ရွေ့လျားစတင်သွားသည်။ ဆွဲငင်အားသည် ကျော်ကျော်နှင့် ၎င်း၏ စက်ဘီးကို အမြဲတမ်း အောက်သို့ ဆွဲငင်နေသော်လည်း လမ်းက ပုံမှန်ထိတွေ့အားဖြင့် အပေါ်သို့ ပြန်တွန်းပေးသောကြောင့် သူသည် ထိုင်ခုံပေါ်တွင် ကျဆင်းမသွားဘဲ ဟန်ချက်ညီညီ ထိုင်နေနိုင်သည်။\n\nကျော်ကျော် လမ်းညီညီပေါ်တွင် တည်ငြိမ်သော အမြန်နှုန်းရောက်သွားသောအခါ စိတ်ဝင်စားစရာ အရာတစ်ခု ဖြစ်ပေါ်လာသည်။ သူ့ ခြေနင်းနှိပ်ခြင်းမှ ဖြစ်ပေါ်လာသော ရှေ့သို့တွန်းအားသည် သူ့ တာယာနှင့် လမ်းကြားက ပွတ်တိုက်အားနှင့် သူ ရွေ့လျားနေစဉ် သူ့ကို ဆန့်ကျင်နေသော လေလိုက်ဆန့်ကျင်အားတို့ ပေါင်းစပ်ထားသော နောက်ပြန်တွန်းအားနှင့် အတိအကျ ဟန်ချက်ညီနေသည်။ ဤအားများ ဟန်ချက်ညီနေသောကြောင့် ကျော်ကျော်၏ စက်ဘီးသည် အမြန်နှုန်းမမြင့်တက်ဘဲ၊ မနှေးလာဘဲ တည်ငြိမ်သောအမြန်နှုန်းဖြင့် တည့်တည့်ရွေ့လျားနေသည်။\n\nကျောင်းဂိတ်အနီးရောက်သောအခါ ကျော်ကျော်သည် သူငယ်ချင်း သန္တာက လက်ခါနှုတ်ဆက်နေသည်ကို မြင်၍ ဘရိတ်ကို နှိပ်လိုက်သည်။ ဘရိတ်များသည် ဘီးများကို အားကောင်းစွာ ဖိထားလိုက်သဖြင့် ယခင်ကထက် ပွတ်တိုက်အား များစွာ ပိုမိုကြီးမားလာသည်။ ယခုအခါ နောက်ပြန်တွန်းအားများသည် သူ့ ရှေ့တွန်းအားထက် များစွာ ပိုကြီးသွားသဖြင့် အားများသည် ဟန်ချက်မညီတော့ဘဲ စက်ဘီးသည် မရပ်မချင်း လျင်မြန်စွာ နှေးသွားသည်။ ကျော်ကျော် အပြုံးနှင့် စက်ဘီးမှ ဆင်း၍ သော့ခတ်ထားပြီး သူ့ပတ်ဝန်းကျင်ရှိ အားများအကြောင်း ထပ်မံသင်ယူရန် ကျောင်းသို့ ဝင်သွားလေတော့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Which force pulls Kyaw Kyaw and his bicycle downward?",
+            questionMy:
+                "ကျော်ကျော်နှင့် သူ့စက်ဘီးကို အောက်သို့ ဆွဲငင်နေသည့်အားမှာ အဘယ်နည်း။",
+            optionsEn: ["Friction", "Gravity", "Upthrust", "Air resistance"],
+            optionsMy: [
+              "ပွတ်တိုက်အား",
+              "ဆွဲငင်အား",
+              "အထက်တွန်းအား",
+              "လေလိုက်ဆန့်ကျင်အား",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "While cycling at a steady speed on the flat road, why does the bicycle not speed up or slow down?",
+            questionMy:
+                "လမ်းညီညီပေါ်တွင် တည်ငြိမ်သောအမြန်နှုန်းဖြင့် စက်ဘီးစီးနေစဉ် စက်ဘီးသည် အဘယ်ကြောင့် အရှိန်မမြင့်တက်ဘဲ၊ မနှေးလာသနည်း။",
+            optionsEn: [
+              "Because there is no friction acting on the tyres",
+              "Because gravity has stopped acting on the bicycle",
+              "Because the air resistance is pushing the bicycle forward",
+              "Because the forces acting on it are balanced",
+            ],
+            optionsMy: [
+              "တာယာများပေါ်တွင် ပွတ်တိုက်အား လုံးဝမရှိသောကြောင့်",
+              "ဆွဲငင်အားသည် စက်ဘီးအပေါ် သက်ရောက်ခြင်း ရပ်သွားသောကြောင့်",
+              "လေလိုက်ဆန့်ကျင်အားသည် စက်ဘီးကို ရှေ့သို့ တွန်းပေးနေသောကြောင့်",
+              "၎င်းအပေါ် သက်ရောက်နေသော အားများ ဟန်ချက်ညီနေသောကြောင့်",
+            ],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "What happens when Kyaw Kyaw squeezes the brakes?",
+            questionMy:
+                "ကျော်ကျော် ဘရိတ်နှိပ်လိုက်သောအခါ အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "The normal contact force disappears",
+              "Air resistance becomes a forward force",
+              "Friction between the brakes and wheels increases, making the forces unbalanced and the bicycle slow down",
+              "Gravity decreases and the bicycle floats",
+            ],
+            optionsMy: [
+              "ပုံမှန်ထိတွေ့အား ပျောက်ကွယ်သွားခြင်း",
+              "လေလိုက်ဆန့်ကျင်အားသည် ရှေ့သို့တွန်းအား ဖြစ်သွားခြင်း",
+              "ဘရိတ်နှင့် ဘီးကြားရှိ ပွတ်တိုက်အား ပိုမိုကြီးမားလာပြီး အားများ ဟန်ချက်မညီတော့ဘဲ စက်ဘီး နှေးသွားခြင်း",
+              "ဆွဲငင်အားလျော့ကျပြီး စက်ဘီးမျောနေခြင်း",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which force from the story is an example of friction between the tyres and the road?",
+            questionMy:
+                "ဇာတ်လမ်းထဲမှ တာယာနှင့် လမ်းကြား ပွတ်တိုက်အားကို ဖော်ပြသည့် ဥပမာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The road pushing upward on the bicycle",
+              "The Earth pulling the bicycle downward",
+              "The air resistance pushing against Kyaw Kyaw as he moves",
+              "The backward force between the tyres and the road that opposes the bicycle's forward motion",
+            ],
+            optionsMy: [
+              "လမ်းက စက်ဘီးအပေါ် အပေါ်သို့ တွန်းပေးသည့်အား",
+              "ကမ္ဘာက စက်ဘီးကို အောက်သို့ ဆွဲငင်သည့်အား",
+              "ကျော်ကျော် ရွေ့လျားနေစဉ် သူ့ကို ဆန့်ကျင်နေသော လေလိုက်ဆန့်ကျင်အား",
+              "တာယာနှင့် လမ်းကြား ရှိနေပြီး စက်ဘီး၏ ရှေ့သို့ ရွေ့လျားမှုကို ဆန့်ကျင်သည့် နောက်ပြန်အား",
+            ],
+            correctIndex: 3,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Forces and Their Effects",
+      titleMy: "အပတ်စဉ် ၃ ပြန်လည်သုံးသပ်ခြင်း - အားနှင့် ၎င်း၏ သက်ရောက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A force can be described simply as...",
+          questionMy:
+              "အားကို ရိုးရှင်းစွာ ဖော်ပြရလျှင် အဘယ်သို့ ဆိုနိုင်သနည်း။",
+          optionsEn: [
+            "A form of stored energy",
+            "A push or a pull",
+            "The amount of matter in an object",
+            "A measurement of temperature",
+          ],
+          optionsMy: [
+            "သိမ်းဆည်းထားသော စွမ်းအင်တစ်မျိုး",
+            "တွန်းအား သို့မဟုတ် ဆွဲအား",
+            "အရာဝတ္ထုတစ်ခုအတွင်းရှိ ရေဒြပ်ပမာဏ",
+            "အပူချိန် တိုင်းတာမှု",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which force causes objects to be pulled toward the Earth?",
+          questionMy:
+              "အရာဝတ္ထုများကို ကမ္ဘာဘက်သို့ ဆွဲငင်စေသည့်အားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Friction",
+            "Upthrust",
+            "Gravity",
+            "Normal contact force",
+          ],
+          optionsMy: [
+            "ပွတ်တိုက်အား",
+            "အထက်တွန်းအား",
+            "ဆွဲငင်အား",
+            "ပုံမှန်ထိတွေ့အား",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A boat floats because upthrust from the water pushes upward on it. What is upthrust an example of?",
+          questionMy:
+              "လှေတစ်စင်း ရေပေါ်တွင် မျောနေနိုင်သည်မှာ ရေမှ အထက်တွန်းအားက လှေကို အပေါ်သို့ တွန်းပေးနေသောကြောင့် ဖြစ်သည်။ အထက်တွန်းအားသည် အဘယ်သို့သော အားတစ်မျိုးလဲ။",
+          optionsEn: [
+            "A force from a liquid pushing upward on an object",
+            "A force from air resisting motion",
+            "A force between two solid surfaces",
+            "The unit used to measure force",
+          ],
+          optionsMy: [
+            "အရည်မှ အရာဝတ္ထုကို အပေါ်သို့ တွန်းပေးသည့်အား",
+            "လေမှ လှုပ်ရှားမှုကို ဆန့်ကျင်သည့်အား",
+            "အခဲပစ္စည်းနှစ်ခုကြား ဖြစ်ပေါ်သည့်အား",
+            "အားကို တိုင်းတာသည့် ယူနစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When the forces acting on an object are balanced, what happens to its motion?",
+          questionMy:
+              "အရာဝတ္ထုတစ်ခုအပေါ် သက်ရောက်နေသော အားများ ဟန်ချက်ညီနေသောအခါ ၎င်း၏ လှုပ်ရှားမှုတွင် အဘယ်သို့ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "There is no change in its motion",
+            "It always speeds up",
+            "It always changes direction",
+            "It always stops moving",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှုတွင် ပြောင်းလဲမှု မရှိပါ",
+            "အမြဲတမ်း အရှိန်မြှင့်သွားသည်",
+            "အမြဲတမ်း ဦးတည်ရာ ပြောင်းသွားသည်",
+            "အမြဲတမ်း လှုပ်ရှားမှု ရပ်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A car speeds up as the driver presses the accelerator. This is an example of...",
+          questionMy:
+              "ယာဉ်မောင်းသူ အရှိန်မြှင့်ခလုတ်ကို နှိပ်သောကြောင့် ကားတစ်စီး အရှိန်မြှင့်သွားသည်။ ၎င်းသည် အဘယ်အရာ၏ ဥပမာ ဖြစ်သနည်း။",
+          optionsEn: [
+            "Balanced forces",
+            "Upthrust only",
+            "Unbalanced forces",
+            "Normal contact force only",
+          ],
+          optionsMy: [
+            "ဟန်ချက်ညီသောအားများ",
+            "အထက်တွန်းအားတစ်ခုတည်း",
+            "ဟန်ချက်မညီသောအားများ",
+            "ပုံမှန်ထိတွေ့အားတစ်ခုတည်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Week 1, you learned how to measure quantities using instruments. Which instrument, marked in newtons, is used to measure the size of a force?",
+          questionMy:
+              "ပထမပတ်လည်ချိန်း (Week 1) တွင် ကိရိယာများသုံး၍ ပမာဏများကို မည်သို့တိုင်းတာရမည်ကို သင်ယူခဲ့ပါသည်။ နယူတန်ယူနစ်ဖြင့် အားကို တိုင်းတာရန် အသုံးပြုသည့်ကိရိယာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A thermometer",
+            "A measuring cylinder",
+            "A ruler",
+            "A newton meter (spring scale)",
+          ],
+          optionsMy: [
+            "အပူချိန်တိုင်းကိရိယာ",
+            "ခြင်တွယ်စက်ခွက် (measuring cylinder)",
+            "ချိန်တံ (ruler)",
+            "နယူတန်မီတာ (စပရိန်ချိန်ခွင်)",
+          ],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 1, Week 4 (capstone): "Putting It All Together:
+// Energy, Heat and Forces in Action"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
+  id: "course-secondary1-science-w4",
+  weekNumber: 4,
+  titleEn: "Putting It All Together: Energy, Heat and Forces in Action",
+  titleMy:
+      "အားလုံးကို ပေါင်းစပ်ခြင်း - စွမ်းအင်၊ အပူနှင့် အားများ လက်တွေ့တွင် အသုံးချခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w4-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Energy and Forces Quiz",
+      titleMy: "စွမ်းအင်နှင့် အားများ ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Thida wants to find out which material lets ice melt fastest, an experiment linked to Week 2's particle theory of heat. Which measuring instrument from Week 1 should she use to accurately track the temperature change?",
+          questionMy:
+              "သီတာသည် ရေခဲကို အမြန်ဆုံးအရည်ပျော်စေမည့် ပစ္စည်းကို စစ်ဆေးလိုသည်။ ဤစမ်းသပ်မှုသည် Week 2 ၏ အပူဆိုင်ရာ အနုမြူသီအိုရီနှင့် ဆက်စပ်နေသည်။ အပူချိန်ပြောင်းလဲမှုကို တိကျစွာ ခြေရာခံနိုင်ရန် Week 1 မှ မည်သည့်တိုင်းတာရေးကိရိယာကို အသုံးပြုသင့်သနည်း။",
+          optionsEn: [
+            "Thermometer",
+            "Ruler",
+            "Stopwatch",
+            "Balance (mass scale)",
+          ],
+          optionsMy: [
+            "အပူချိန်တိုင်းကိရိယာ (Thermometer)",
+            "အလျားတိုင်းကိရိယာ (Ruler)",
+            "အချိန်တိုင်းကိရိယာ (Stopwatch)",
+            "အလေးချိန်တိုင်းစက္ကား (Balance)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A metal spoon presses hard against a hot frying pan while stirring, and friction (Week 3) between the spoon and the pan generates extra heat. If the pan's handle stays rigid and keeps a fixed shape even though it feels hot, which state of matter (Week 2) is the handle in?",
+          questionMy:
+              "ဇွန်းတစ်ချောင်းသည် အပူပူသောဒယ်အိုးကို အားပြင်းစွာ ဖိကာ လှော်နေချိန်၊ ဇွန်းနှင့်ဒယ်အိုးကြား ပွတ်တိုက်အား (Week 3) က အပိုအပူများ ဖြစ်ပေါ်စေသည်။ ဒယ်အိုးလက်ကိုင်သည် ပူနေသော်လည်း ပုံသေပုံသဏ္ဌာန်ကို ခိုင်မာစွာ ဆက်လက်ထိန်းထားပါက Week 2 အရ ၎င်း၏ ဒြပ်ဖြစ်အခြေအနေမှာ မည်သည့်ဒြပ်ဖြစ်တွင် ရှိသနည်း။",
+          optionsEn: ["Solid", "Liquid", "Gas", "Plasma"],
+          optionsMy: [
+            "အစိုင်အခဲဒြပ်ဖြစ် (Solid)",
+            "အရည်ဒြပ်ဖြစ် (Liquid)",
+            "ဓာတ်ငွေ့ဒြပ်ဖြစ် (Gas)",
+            "ပလာစမာ (Plasma)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using a thermometer (Week 1), a student measures Cup A at 80°C and Cup B at 20°C. According to the particle model of matter (Week 2), which statement correctly compares the two cups?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Week 1 ၏ အပူချိန်တိုင်းကိရိယာဖြင့် ခွက် A ကို ၈၀ ဒီဂရီစင်တီဂရိတ်နှင့် ခွက် B ကို ၂၀ ဒီဂရီစင်တီဂရိတ်ဟု တိုင်းတာရရှိခဲ့သည်။ Week 2 ၏ အနုမြူပုံစံအရ ခွက်နှစ်လုံးကို ယှဉ်ပြပါက မည်သည့်ဖော်ပြချက်မှာ မှန်ကန်သနည်း။",
+          optionsEn: [
+            "The water particles in Cup A move faster and have more kinetic energy than those in Cup B.",
+            "The water particles in Cup B move faster and have more kinetic energy than those in Cup A.",
+            "The particles in both cups move at exactly the same speed.",
+            "The particles in Cup A have stopped moving completely.",
+          ],
+          optionsMy: [
+            "ခွက် A ရှိ ရေအနုမြူများသည် ခွက် B ထက် ပိုမိုမြန်ဆန်စွာ ရွေ့လျားပြီး ရွေ့လျားစွမ်းအင် ပိုများသည်။",
+            "ခွက် B ရှိ ရေအနုမြူများသည် ခွက် A ထက် ပိုမိုမြန်ဆန်စွာ ရွေ့လျားပြီး ရွေ့လျားစွမ်းအင် ပိုများသည်။",
+            "ခွက်နှစ်လုံးစလုံးရှိ အနုမြူများသည် လုံးဝတူညီသောနှုန်းဖြင့် ရွေ့လျားနေသည်။",
+            "ခွက် A ရှိ အနုမြူများသည် လုံးဝ ရွေ့လျားမှု ရပ်တန့်သွားပြီဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cyclist squeezes the brakes hard, and friction (Week 3) between the brake pads and the wheel slows the bicycle down. Afterwards, the brake pads feel noticeably warmer. Using the particle model (Week 2), what has happened to the particles in the brake pads?",
+          questionMy:
+              "စက်ဘီးစီးသူတစ်ဦးသည် ဘရိတ်ကို အားပြင်းစွာ ဆုပ်ကိုင်လိုက်ရာ ဘရိတ်ပက်နှင့် ဘီးအကြား ပွတ်တိုက်အား (Week 3) က စက်ဘီးကို အရှိန်လျှော့ချစေသည်။ ထို့နောက် ဘရိတ်ပက်များသည် သိသိသာသာ ပူသွားသည်ကို တွေ့ရသည်။ Week 2 ၏ အနုမြူပုံစံကို သုံး၍ ဘရိတ်ပက်များရှိ အနုမြူများတွင် မည်သို့ ဖြစ်ပျက်ခဲ့သနည်း။",
+          optionsEn: [
+            "The force of friction converted kinetic energy of motion into thermal energy, making the particles in the pads vibrate and move faster.",
+            "The particles in the pads have multiplied in number.",
+            "The particles in the pads have turned into a gas.",
+            "The force of friction removed thermal energy from the pads, making the particles move slower.",
+          ],
+          optionsMy: [
+            "ပွတ်တိုက်အားက ရွေ့လျားစွမ်းအင်ကို အပူစွမ်းအင်အဖြစ် ပြောင်းလဲပေးသဖြင့် ဘရိတ်ပက်ရှိ အနုမြူများ ပိုမိုမြန်ဆန်စွာ တုန်ခါရွေ့လျားလာသည်။",
+            "ဘရိတ်ပက်ရှိ အနုမြူအရေအတွက် တိုးများလာသည်။",
+            "ဘရိတ်ပက်ရှိ အနုမြူများသည် ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲသွားသည်။",
+            "ပွတ်တိုက်အားက ဘရိတ်ပက်မှ အပူစွမ်းအင်ကို ဖယ်ရှားပေးသဖြင့် အနုမြူများ ပိုနှေးကွေးစွာ ရွေ့လျားလာသည်။",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match the Energy and Heat Terms",
+      titleMy: "စွမ်းအင်နှင့် အပူဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w4-dm-1",
+          termEn: "Kinetic Energy",
+          termMy: "ရွေ့လျားစွမ်းအင် (Kinetic Energy)",
+          matchEn:
+              "The energy an object has because it is moving; according to Week 2's particle model, faster-moving particles have more of this energy.",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခု ရွေ့လျားနေခြင်းကြောင့် ရရှိသော စွမ်းအင်ဖြစ်ပြီး၊ Week 2 ၏ အနုမြူပုံစံအရ ပိုမိုမြန်ဆန်စွာ ရွေ့လျားသော အနုမြူများသည် ဤစွမ်းအင် ပိုများသည်။",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "s1sci-w4-dm-2",
+          termEn: "Thermal Energy",
+          termMy: "အပူစွမ်းအင် (Thermal Energy)",
+          matchEn:
+              "The total kinetic energy of all the moving particles inside a substance, as described by Week 2's particle theory.",
+          matchMy:
+              "Week 2 ၏ အနုမြူသီအိုရီအရ ဖော်ပြထားသည့်အတိုင်း၊ ပစ္စည်းတစ်ခုအတွင်းရှိ ရွေ့လျားနေသော အနုမြူအားလုံး၏ ရွေ့လျားစွမ်းအင် စုစုပေါင်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w4-dm-3",
+          termEn: "Heat Transfer",
+          termMy: "အပူလွှဲပြောင်းမှု (Heat Transfer)",
+          matchEn:
+              "The movement of thermal energy from a hotter object to a cooler one until both reach the same temperature.",
+          matchMy:
+              "အပူချိန် တူညီသည်အထိ ပိုပူသောအရာဝတ္ထုမှ ပိုအေးသောအရာဝတ္ထုသို့ အပူစွမ်းအင် ရွေ့လျားသွားခြင်း။",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "s1sci-w4-dm-4",
+          termEn: "Work Done",
+          termMy: "အလုပ်လုပ်ဆောင်ချက် (Work Done)",
+          matchEn:
+              "The energy transferred when a force, like the forces from Week 3, moves an object through a distance.",
+          matchMy:
+              "Week 3 က သင်ခဲ့သော အားများကဲ့သို့ပင်၊ အားတစ်ခုက အရာဝတ္ထုတစ်ခုကို အကွာအဝေးတစ်ခုအထိ ရွှေ့ပြောင်းလိုက်သောအခါ လွှဲပြောင်းရသော စွမ်းအင်။",
+          colorValue: 0xFFF2C94C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w4-dm-5",
+          termEn: "Thermal Conductor",
+          termMy: "အပူကူးပစ္စည်း (Thermal Conductor)",
+          matchEn:
+              "A material, such as metal, that allows thermal energy to pass through it quickly.",
+          matchMy:
+              "သတ္တုကဲ့သို့သော၊ အပူစွမ်းအင်ကို လျင်မြန်စွာ ဖြတ်သန်းသွားစေနိုင်သည့် ပစ္စည်း။",
+          colorValue: 0xFFBB6BD9,
+        ),
+        DragMatchPair(
+          id: "s1sci-w4-dm-6",
+          termEn: "Thermal Insulator",
+          termMy: "အပူကာပစ္စည်း (Thermal Insulator)",
+          matchEn:
+              "A material, such as wood, plastic or air, that allows thermal energy to pass through it only slowly.",
+          matchMy:
+              "သစ်သား၊ ပလပ်စတစ် သို့မဟုတ် လေကဲ့သို့သော၊ အပူစွမ်းအင်ကို နှေးကွေးစွာသာ ဖြတ်သန်းစေသည့် ပစ္စည်း။",
+          colorValue: 0xFFF2994A,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Conductor or Insulator?",
+      titleMy: "စီစစ်ကြမည် - အပူကူးကောင်းလား၊ အပူကာကောင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Heat Conductor", "Good Heat Insulator"],
+        bucketsMy: ["အပူကူးကောင်းသောပစ္စည်း", "အပူကာကောင်းသောပစ္စည်း"],
+        items: [
+          SortingItem(
+            id: "s1sci-w4-sort-1",
+            labelEn:
+                "Metal spoon — like Week 3's friction idea, it heats up fast when it rubs against a hot pan",
+            labelMy:
+                "သတ္တုဇွန်း — Week 3 ၏ ပွတ်တိုက်အားသဘောတရားအတိုင်း၊ ပူသောဒယ်အိုးနှင့် ပွတ်တိုက်မိပါက လျင်မြန်စွာ ပူလာသည်",
+            correctBucketEn: "Good Heat Conductor",
+            correctBucketMy: "အပူကူးကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-2",
+            labelEn: "Iron frying pan",
+            labelMy: "သံဒယ်အိုး",
+            correctBucketEn: "Good Heat Conductor",
+            correctBucketMy: "အပူကူးကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-3",
+            labelEn: "Copper wire",
+            labelMy: "ကြေးနီကြိုး",
+            correctBucketEn: "Good Heat Conductor",
+            correctBucketMy: "အပူကူးကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-4",
+            labelEn: "Aluminium foil",
+            labelMy: "အလူမီနီယံဖွိုင်",
+            correctBucketEn: "Good Heat Conductor",
+            correctBucketMy: "အပူကူးကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-5",
+            labelEn: "Wooden spoon",
+            labelMy: "သစ်သားဇွန်း",
+            correctBucketEn: "Good Heat Insulator",
+            correctBucketMy: "အပူကာကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-6",
+            labelEn: "Plastic ruler",
+            labelMy: "ပလပ်စတစ်ပေတံ",
+            correctBucketEn: "Good Heat Insulator",
+            correctBucketMy: "အပူကာကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-7",
+            labelEn:
+                "Wool blanket — like Week 2's particle model, it traps pockets of air whose spread-out particles carry heat poorly",
+            labelMy:
+                "သိုးမွှေးစောင် — Week 2 ၏ အနုမြူပုံစံအတိုင်း၊ လေအိတ်ငယ်များကို ထိန်းသိမ်းထားပြီး ကွဲကွာနေသော လေအနုမြူများက အပူကို ညံ့ဖျင်းစွာသာ ပို့ဆောင်နိုင်သည်",
+            correctBucketEn: "Good Heat Insulator",
+            correctBucketMy: "အပူကာကောင်းသောပစ္စည်း",
+          ),
+          SortingItem(
+            id: "s1sci-w4-sort-8",
+            labelEn: "Bubble wrap",
+            labelMy: "ပူဖောင်းစာအိတ် (Bubble Wrap)",
+            correctBucketEn: "Good Heat Insulator",
+            correctBucketMy: "အပူကာကောင်းသောပစ္စည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin's Tea Time",
+      titleMy: "စာဖတ်ခြင်း - နှင်း၏ လက်ဖက်ရည်အချိန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin's Tea Time: Energy in a Cup",
+        titleMy: "နှင်း၏ လက်ဖက်ရည်အချိန် - ခွက်တစ်လုံးထဲက စွမ်းအင်",
+        passageEn:
+            "Hnin loved making tea for her grandmother every evening. She filled a small pot with water and placed it on the stove. As the water heated up, Hnin remembered Week 2's lesson: the water particles were gaining more energy and moving faster and faster, until they had enough energy to escape as steam. She dipped a thermometer, the same tool she had used in Week 1 to measure temperature in degrees Celsius, into the pot and watched the reading climb steadily until it reached 100°C, the boiling point of water.\n\nOnce the water boiled, Hnin poured it carefully into a cup already holding tea leaves and a spoonful of sugar. She picked up a metal spoon to stir the mixture. Within seconds, the end of the spoon resting in the hot tea began to feel warm in her hand, even though she wasn't touching the tea itself. Heat energy had travelled up through the metal spoon by conduction, because metals are excellent thermal conductors.\n\nFinally, Hnin carried the full cup to her grandmother. To move it from the kitchen counter to the table, she had to apply a force, just like the forces from Week 3, pushing the cup forward and lifting it against gravity. Her grandmother smiled, took a careful sip, and thanked Hnin for the perfectly warm cup of tea.",
+        passageMy:
+            "နှင်းသည် ညနေတိုင်း အဖွားအတွက် လက်ဖက်ရည်ဖျော်ပေးရတာကို နှစ်သက်သည်။ သူမသည် အိုးသေးလေးတစ်လုံးတွင် ရေထည့်ပြီး မီးဖိုပေါ်တင်လိုက်သည်။ ရေပူလာသည်နှင့်အမျှ၊ နှင်းသည် Week 2 က သင်ခဲ့သည့် သင်ခန်းစာကို သတိရသည် - ရေအနုမြူများသည် စွမ်းအင်ပိုများလာပြီး ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာကာ၊ နောက်ဆုံးတွင် ရေငွေ့အဖြစ် ထွက်ပြေးနိုင်လောက်အောင် စွမ်းအင်ရရှိလာသည်။ သူမသည် Week 1 တွင် အပူချိန်ကို ဒီဂရီစင်တီဂရိတ်ဖြင့် တိုင်းတာရာတွင် အသုံးပြုခဲ့သည့် ကိရိယာတည်းဖြစ်သော အပူချိန်တိုင်းကိရိယာကို အိုးထဲသို့ နှစ်ချလိုက်ပြီး၊ ညွှန်းကိန်းသည် ၁၀၀ ဒီဂရီစင်တီဂရိတ် ရေဆူမှတ်သို့ တဖြည်းဖြည်း တက်လာသည်ကို ကြည့်နေသည်။\n\nရေဆူသွားသောအခါ၊ နှင်းသည် လက်ဖက်ခြောက်နှင့် သကြားတစ်ဇွန်းထည့်ထားသော ခွက်ထဲသို့ သတိနှင့် လောင်းထည့်လိုက်သည်။ သူမသည် ရောနှောမှုကို လှော်ရန် သတ္တုဇွန်းတစ်ချောင်းကို ကောက်ယူသည်။ စက္ကန့်အနည်းငယ်အတွင်း၊ ပူသောလက်ဖက်ရည်ထဲတွင် နစ်နေသော ဇွန်း၏အစွန်းသည် လက်ဖက်ရည်ကို တိုက်ရိုက်ထိထားခြင်း မရှိသော်လည်း သူမလက်ထဲတွင် ပူလာသည်ကို ခံစားရသည်။ သတ္တုများသည် အပူကူးကောင်းသောပစ္စည်းများ ဖြစ်သောကြောင့်၊ အပူစွမ်းအင်သည် ဇွန်းတစ်လျှောက် အပူကူးခြင်းနည်းလမ်းဖြင့် အပေါ်သို့ ခရီးဆက်သွားခဲ့ခြင်း ဖြစ်သည်။\n\nနောက်ဆုံးတွင် နှင်းသည် အပြည့်ပါခွက်ကို အဖွားထံသို့ ယူဆောင်သွားသည်။ ၎င်းကို မီးဖိုချောင်စားပွဲမှ စားပွဲပေါ်သို့ ရွှေ့ရန်၊ Week 3 က သင်ခဲ့သော အားများကဲ့သို့ပင်၊ ခွက်ကို ရှေ့သို့တွန်းအားပေးရန်နှင့် ဆွဲငင်အားကို ဆန့်ကျင်၍ ချီမြှင့်ရန် အားတစ်ခု ပေးအားချရသည်။ အဖွားက ပြုံးပြီး သေချာစွာ တစ်ငုံသောက်ကာ၊ အပူချိန်အကောင်းဆုံး လက်ဖက်ရည်အတွက် နှင်းကို ကျေးဇူးတင်ကြောင်း ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to the water particles as the water heats up on the stove (linking Week 2's particle theory to the boiling process)?",
+            questionMy:
+                "စာပိုဒ်အရ၊ ရေကို မီးဖိုပေါ်တွင် ပူလာစေချိန်၌ ရေအနုမြူများတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း (Week 2 ၏ အနုမြူသီအိုရီနှင့် ရေဆူသည့်လုပ်ငန်းစဉ်ကို ဆက်စပ်ကြည့်ပါ)။",
+            optionsEn: [
+              "They gain energy and move faster until some escape as steam.",
+              "They lose energy and slow down until they freeze.",
+              "They stay perfectly still the whole time.",
+              "They disappear completely and stop existing.",
+            ],
+            optionsMy: [
+              "၎င်းတို့သည် စွမ်းအင်ရရှိပြီး ရေငွေ့အဖြစ် အချို့ထွက်ပြေးနိုင်သည်အထိ ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာသည်။",
+              "၎င်းတို့သည် စွမ်းအင်ဆုံးရှုံးပြီး ရေခဲအဖြစ် အေးခဲသည်အထိ နှေးကွေးလာသည်။",
+              "၎င်းတို့သည် အချိန်တစ်လျှောက်လုံး လုံးဝ ငြိမ်နေသည်။",
+              "၎င်းတို့သည် လုံးဝ ပျောက်ကွယ်သွားပြီး ရှိနေခြင်း မရှိတော့ပါ။",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What temperature did the thermometer show when the water reached its boiling point in the story?",
+            questionMy:
+                "ဇာတ်လမ်းထဲတွင် ရေသည် ဆူနေသောအပူချိန်သို့ ရောက်ချိန်တွင် အပူချိန်တိုင်းကိရိယာက မည်သည့်အပူချိန်ကို ပြသခဲ့သနည်း။",
+            optionsEn: ["0°C", "37°C", "100°C", "212°C"],
+            optionsMy: [
+              "၀ ဒီဂရီစင်တီဂရိတ်",
+              "၃၇ ဒီဂရီစင်တီဂရိတ်",
+              "၁၀၀ ဒီဂရီစင်တီဂရိတ်",
+              "၂၁၂ ဒီဂရီစင်တီဂရိတ်",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the end of the metal spoon feel warm in Hnin's hand, even though it wasn't touching the tea directly? (Combine the ideas of thermal conductors and heat transfer.)",
+            questionMy:
+                "သတ္တုဇွန်း၏အစွန်းသည် လက်ဖက်ရည်ကို တိုက်ရိုက်ထိထားခြင်း မရှိသော်လည်း အဘယ်ကြောင့် နှင်း၏လက်ထဲတွင် ပူလာသနည်း (အပူကူးပစ္စည်းနှင့် အပူလွှဲပြောင်းမှု၏ သဘောတရားများကို ပေါင်းစပ်ကြည့်ပါ)။",
+            optionsEn: [
+              "Heat energy travelled along the metal spoon by conduction, because metals are good thermal conductors.",
+              "The spoon created its own heat by magic, unrelated to the tea.",
+              "The spoon absorbed coldness from Hnin's hand.",
+              "Wood conducts heat better than metal, so the spoon warmed up quickly.",
+            ],
+            optionsMy: [
+              "အပူစွမ်းအင်သည် အပူကူးခြင်းနည်းလမ်းဖြင့် သတ္တုဇွန်းတစ်လျှောက် ခရီးဆက်သွားခဲ့သောကြောင့်၊ သတ္တုများသည် အပူကူးကောင်းသောပစ္စည်းများ ဖြစ်သည်။",
+              "ဇွန်းသည် လက်ဖက်ရည်နှင့် မသက်ဆိုင်ဘဲ သူ့ဘာသာ အပူထုတ်လုပ်နိုင်သည်။",
+              "ဇွန်းသည် နှင်း၏လက်မှ အအေးဓာတ်ကို စုပ်ယူခဲ့သည်။",
+              "သစ်သားသည် သတ္တုထက် အပူကူးနိုင်စွမ်း ပိုကောင်းသောကြောင့် ဇွန်းသည် အမြန်ပူသွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "When Hnin carried the cup of tea from the counter to the table, what physics idea from Week 3 explains how the cup moved?",
+            questionMy:
+                "နှင်းသည် လက်ဖက်ရည်ခွက်ကို စားပွဲချောင်မှ စားပွဲသို့ ယူဆောင်သွားချိန်တွင် Week 3 မှ ရူပဗေဒသဘောတရားတစ်ခုက ခွက်၏ ရွေ့လျားမှုကို မည်သို့ ရှင်းပြနိုင်သနည်း။",
+            optionsEn: [
+              "She applied a force to push and lift the cup, moving it through a distance.",
+              "The cup moved on its own without any force.",
+              "Friction alone made the cup fly across the room.",
+              "The cup's temperature caused it to move by itself.",
+            ],
+            optionsMy: [
+              "သူမသည် ခွက်ကို အကွာအဝေးတစ်ခုအထိ ရွှေ့ပြောင်းရန် တွန်းအားနှင့် ချီမြှောက်အား ပေးအားချခဲ့သည်။",
+              "ခွက်သည် အားမပါဘဲ သူ့ဘာသာ ရွေ့လျားသွားခဲ့သည်။",
+              "ပွတ်တိုက်အားတစ်ခုတည်းကသာ ခွက်ကို အခန်းတစ်လျှောက် ပျံသွားစေခဲ့သည်။",
+              "ခွက်၏ အပူချိန်ကြောင့် သူ့ဘာသာ ရွေ့လျားသွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Energy, Heat and Forces Capstone",
+      titleMy:
+          "အပတ်စဉ် ၄ ပြန်လည်သုံးသပ်ခြင်း - စွမ်းအင်၊ အပူနှင့် အားများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Week 1, which instrument would you use to measure the temperature of a liquid?",
+          questionMy:
+              "Week 1 တွင် အရည်တစ်ခု၏ အပူချိန်ကို တိုင်းတာရန် မည်သည့်ကိရိယာကို အသုံးပြုမည်နည်း။",
+          optionsEn: [
+            "Thermometer",
+            "Ruler",
+            "Balance (mass scale)",
+            "Stopwatch",
+          ],
+          optionsMy: [
+            "အပူချိန်တိုင်းကိရိယာ (Thermometer)",
+            "အလျားတိုင်းကိရိယာ (Ruler)",
+            "အလေးချိန်တိုင်းစက္ကား (Balance)",
+            "အချိန်တိုင်းကိရိယာ (Stopwatch)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Week 2, we learned that matter exists in three main states. Which state has particles that are close together but can slide past each other?",
+          questionMy:
+              "Week 2 တွင် ဒြပ်ဖြစ်အနေအထား သုံးမျိုးရှိကြောင်း သင်ယူခဲ့ကြသည်။ အနုမြူများသည် အနီးကပ်တွဲနေသော်လည်း တစ်ခုနှင့်တစ်ခု ချော့ပြေးနိုင်သည့် ဒြပ်ဖြစ်မှာ မည်သည်နည်း။",
+          optionsEn: ["Solid", "Liquid", "Gas", "Plasma"],
+          optionsMy: [
+            "အစိုင်အခဲ (Solid)",
+            "အရည် (Liquid)",
+            "ဓာတ်ငွေ့ (Gas)",
+            "ပလာစမာ (Plasma)",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Week 3, we learned that forces can change an object's motion. Which of these is an example of a force?",
+          questionMy:
+              "Week 3 တွင် အားများသည် အရာဝတ္ထု၏ ရွေ့လျားမှုကို ပြောင်းလဲစေနိုင်ကြောင်း သင်ယူခဲ့ကြသည်။ အောက်ပါတို့အနက် အားတစ်ခု၏ ဥပမာမှာ မည်သည်နည်း။",
+          optionsEn: ["A push or a pull", "Temperature", "Mass", "Colour"],
+          optionsMy: [
+            "တွန်းအား သို့မဟုတ် ဆွဲအား (Push or Pull)",
+            "အပူချိန်",
+            "အလေးချိန်",
+            "အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student records water's temperature every minute as it heats from 20°C to 100°C using a Week 1 thermometer. According to Week 2's particle theory, what is happening to the particles as the readings increase?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Week 1 ၏ အပူချိန်တိုင်းကိရိယာကို အသုံးပြု၍ ရေအား ၂၀ ဒီဂရီစင်တီဂရိတ်မှ ၁၀၀ ဒီဂရီစင်တီဂရိတ်အထိ ပူလာစဉ် မိနစ်တိုင်း အပူချိန်ကို မှတ်တမ်းတင်နေသည်။ Week 2 ၏ အနုမြူသီအိုရီအရ ဖတ်ချက်များ တိုးလာသည်နှင့်အမျှ အနုမြူများတွင် အဘယ်အရာ ဖြစ်ပျက်နေသနည်း။",
+          optionsEn: [
+            "They gain energy and move faster.",
+            "They lose energy and move slower.",
+            "They stay perfectly still.",
+            "They turn into a solid.",
+          ],
+          optionsMy: [
+            "စွမ်းအင်ရရှိပြီး ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာသည်။",
+            "စွမ်းအင်ဆုံးရှုံးပြီး ပိုနှေးကွေးစွာ ရွေ့လျားလာသည်။",
+            "လုံးဝ ငြိမ်နေသည်။",
+            "အစိုင်အခဲအဖြစ် ပြောင်းလဲသွားသည်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rubbing two hands together (Week 3's friction, a type of force) makes them feel warmer. Using Week 2's particle model, why does this happen?",
+          questionMy:
+              "လက်နှစ်ဖက်ကို ပွတ်တိုက်ခြင်း (Week 3 ၏ ပွတ်တိုက်အားဖြစ်သော အားတစ်မျိုး) က လက်များကို ပိုပူလာစေသည်။ Week 2 ၏ အနုမြူပုံစံကို သုံး၍ ဤသို့ဖြစ်ရခြင်း အကြောင်းရင်းကို ရှင်းပြပါ။",
+          optionsEn: [
+            "Friction transfers motion energy into the particles in the skin, making them move faster and increasing thermal energy.",
+            "Friction removes particles from the skin.",
+            "Friction turns the skin into a liquid.",
+            "Friction has no effect on the particles.",
+          ],
+          optionsMy: [
+            "ပွတ်တိုက်အားက ရွေ့လျားမှုစွမ်းအင်ကို အရေပြားရှိ အနုမြူများထဲသို့ လွှဲပြောင်းပေးသဖြင့် အနုမြူများ ပိုမိုမြန်ဆန်စွာ ရွေ့လျားလာပြီး အပူစွမ်းအင် တိုးလာသည်။",
+            "ပွတ်တိုက်အားက အရေပြားမှ အနုမြူများကို ဖယ်ရှားပစ်လိုက်သည်။",
+            "ပွတ်တိုက်အားက အရေပြားကို အရည်အဖြစ် ပြောင်းလဲပစ်လိုက်သည်။",
+            "ပွတ်တိုက်အားသည် အနုမြူများအပေါ် ဘာမျှ သက်ရောက်မှု မရှိပါ။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student pushes a toy car (Week 3's force) across a wooden floor and it slows down due to friction, while its temperature rise is too small to detect even with a sensitive Week 1 thermometer. What does this tell us about where the kinetic energy of the moving car went?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ကစားစရာကားတစ်စီးကို (Week 3 ၏ အားဖြင့်) သစ်သားကြမ်းပြင်ပေါ်တွင် တွန်းလိုက်ရာ ပွတ်တိုက်အားကြောင့် ၎င်း၏အရှိန်လျော့ကျသွားသည်။ ၎င်း၏ အပူချိန်မြင့်တက်မှုမှာ Week 1 ၏ အာရုံခံနိုင်စွမ်းမြင့်သော အပူချိန်တိုင်းကိရိယာဖြင့်ပင် သိသာစွာ တိုင်း၍ မရလောက်အောင် နည်းပါးသည်။ ဤအခြေအနေက ရွေ့လျားနေသောကားလေး၏ ရွေ့လျားစွမ်းအင်သည် မည်သည့်နေရာသို့ ရောက်ရှိသွားကြောင်း ညွှန်ပြနေသနည်း။",
+          optionsEn: [
+            "Most of it converted into a small amount of heat (thermal energy) spread through the car, wheels and floor.",
+            "It disappeared and no longer exists anywhere.",
+            "It converted entirely into new mass for the car.",
+            "It moved into the future to be used later.",
+          ],
+          optionsMy: [
+            "၎င်း၏ အများစုသည် ကားလေး၊ ဘီးများနှင့် ကြမ်းပြင်တစ်လျှောက် ပျံ့နှံ့နေသော အနည်းငယ်သာရှိသည့် အပူစွမ်းအင်အဖြစ် ပြောင်းလဲသွားသည်။",
+            "၎င်းသည် လုံးဝ ပျောက်ကွယ်သွားပြီး ဘယ်နေရာမှာမှ မရှိတော့ပါ။",
+            "၎င်းသည် ကားလေးအတွက် အသစ်သောဒြပ်ထုအဖြစ် လုံးဝ ပြောင်းလဲသွားသည်။",
+            "၎င်းသည် နောင်တွင် အသုံးပြုရန် အနာဂတ်ထဲသို့ ရွှေ့ပြောင်းသွားသည်။",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
+  id: "course-secondary1-science-t1",
+  termNumber: 1,
+  titleEn: "Introduction to Physics & Chemistry",
+  titleMy: "ရူပဗေဒနှင့် ဓာတုဗေဒ နိဒါန်း",
+  certificateTitleEn: "Introduction to Physics & Chemistry",
+  certificateTitleMy: "ရူပဗေဒနှင့် ဓာတုဗေဒ နိဒါန်း",
+  weeks: [
+    _secondary1ScienceWeek1,
+    _secondary1ScienceWeek2,
+    _secondary1ScienceWeek3,
+    _secondary1ScienceWeek4,
+  ],
+);
+
+/// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
+/// independent subject pathway alongside [secondary1ComputingPathway] and
+/// [secondary1MathematicsPathway] rather than more terms grafted onto
+/// either: same grade, different subject. Term 1 ("Introduction to Physics
+/// & Chemistry", Weeks 1-4) is authored so far; see
+/// [_secondary1ScienceTerm1]'s own doc comment for the week-by-week spiral.
+/// [totalWeeks] stays 36 for the same "honest progress bar" reason
+/// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
+const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
+  id: "course-secondary1-science",
+  subject: "science",
+  grade: Grade.secondary1,
+  titleEn: "Science — Year 1 Course",
+  titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
+  descriptionEn:
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces.",
+  descriptionMy:
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+  totalWeeks: 36,
+  terms: [_secondary1ScienceTerm1],
 );
