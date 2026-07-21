@@ -1,5 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
+import 'subscription_state_model.dart';
+
 part 'user_model.freezed.dart';
 part 'user_model.g.dart';
 
@@ -34,6 +36,7 @@ class UserModel with _$UserModel {
     @Default(UserRole.parent) UserRole role,
     @Default(SubscriptionTier.free) SubscriptionTier subscriptionTier,
     @Default(<String>[]) List<String> linkedStudents,
+    SubscriptionStateModel? subscriptionState,
   }) = _UserModel;
 
   factory UserModel.fromJson(Map<String, dynamic> json) =>

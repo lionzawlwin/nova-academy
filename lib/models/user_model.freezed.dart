@@ -26,6 +26,8 @@ mixin _$UserModel {
   UserRole get role => throw _privateConstructorUsedError;
   SubscriptionTier get subscriptionTier => throw _privateConstructorUsedError;
   List<String> get linkedStudents => throw _privateConstructorUsedError;
+  SubscriptionStateModel? get subscriptionState =>
+      throw _privateConstructorUsedError;
 
   /// Serializes this UserModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -48,7 +50,10 @@ abstract class $UserModelCopyWith<$Res> {
     UserRole role,
     SubscriptionTier subscriptionTier,
     List<String> linkedStudents,
+    SubscriptionStateModel? subscriptionState,
   });
+
+  $SubscriptionStateModelCopyWith<$Res>? get subscriptionState;
 }
 
 /// @nodoc
@@ -71,6 +76,7 @@ class _$UserModelCopyWithImpl<$Res, $Val extends UserModel>
     Object? role = null,
     Object? subscriptionTier = null,
     Object? linkedStudents = null,
+    Object? subscriptionState = freezed,
   }) {
     return _then(
       _value.copyWith(
@@ -94,9 +100,29 @@ class _$UserModelCopyWithImpl<$Res, $Val extends UserModel>
                 ? _value.linkedStudents
                 : linkedStudents // ignore: cast_nullable_to_non_nullable
                       as List<String>,
+            subscriptionState: freezed == subscriptionState
+                ? _value.subscriptionState
+                : subscriptionState // ignore: cast_nullable_to_non_nullable
+                      as SubscriptionStateModel?,
           )
           as $Val,
     );
+  }
+
+  /// Create a copy of UserModel
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $SubscriptionStateModelCopyWith<$Res>? get subscriptionState {
+    if (_value.subscriptionState == null) {
+      return null;
+    }
+
+    return $SubscriptionStateModelCopyWith<$Res>(_value.subscriptionState!, (
+      value,
+    ) {
+      return _then(_value.copyWith(subscriptionState: value) as $Val);
+    });
   }
 }
 
@@ -115,7 +141,11 @@ abstract class _$$UserModelImplCopyWith<$Res>
     UserRole role,
     SubscriptionTier subscriptionTier,
     List<String> linkedStudents,
+    SubscriptionStateModel? subscriptionState,
   });
+
+  @override
+  $SubscriptionStateModelCopyWith<$Res>? get subscriptionState;
 }
 
 /// @nodoc
@@ -137,6 +167,7 @@ class __$$UserModelImplCopyWithImpl<$Res>
     Object? role = null,
     Object? subscriptionTier = null,
     Object? linkedStudents = null,
+    Object? subscriptionState = freezed,
   }) {
     return _then(
       _$UserModelImpl(
@@ -160,6 +191,10 @@ class __$$UserModelImplCopyWithImpl<$Res>
             ? _value._linkedStudents
             : linkedStudents // ignore: cast_nullable_to_non_nullable
                   as List<String>,
+        subscriptionState: freezed == subscriptionState
+            ? _value.subscriptionState
+            : subscriptionState // ignore: cast_nullable_to_non_nullable
+                  as SubscriptionStateModel?,
       ),
     );
   }
@@ -174,6 +209,7 @@ class _$UserModelImpl implements _UserModel {
     this.role = UserRole.parent,
     this.subscriptionTier = SubscriptionTier.free,
     final List<String> linkedStudents = const <String>[],
+    this.subscriptionState,
   }) : _linkedStudents = linkedStudents;
 
   factory _$UserModelImpl.fromJson(Map<String, dynamic> json) =>
@@ -199,8 +235,11 @@ class _$UserModelImpl implements _UserModel {
   }
 
   @override
+  final SubscriptionStateModel? subscriptionState;
+
+  @override
   String toString() {
-    return 'UserModel(id: $id, email: $email, role: $role, subscriptionTier: $subscriptionTier, linkedStudents: $linkedStudents)';
+    return 'UserModel(id: $id, email: $email, role: $role, subscriptionTier: $subscriptionTier, linkedStudents: $linkedStudents, subscriptionState: $subscriptionState)';
   }
 
   @override
@@ -216,7 +255,9 @@ class _$UserModelImpl implements _UserModel {
             const DeepCollectionEquality().equals(
               other._linkedStudents,
               _linkedStudents,
-            ));
+            ) &&
+            (identical(other.subscriptionState, subscriptionState) ||
+                other.subscriptionState == subscriptionState));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -228,6 +269,7 @@ class _$UserModelImpl implements _UserModel {
     role,
     subscriptionTier,
     const DeepCollectionEquality().hash(_linkedStudents),
+    subscriptionState,
   );
 
   /// Create a copy of UserModel
@@ -251,6 +293,7 @@ abstract class _UserModel implements UserModel {
     final UserRole role,
     final SubscriptionTier subscriptionTier,
     final List<String> linkedStudents,
+    final SubscriptionStateModel? subscriptionState,
   }) = _$UserModelImpl;
 
   factory _UserModel.fromJson(Map<String, dynamic> json) =
@@ -266,6 +309,8 @@ abstract class _UserModel implements UserModel {
   SubscriptionTier get subscriptionTier;
   @override
   List<String> get linkedStudents;
+  @override
+  SubscriptionStateModel? get subscriptionState;
 
   /// Create a copy of UserModel
   /// with the given fields replaced by the non-null parameter values.

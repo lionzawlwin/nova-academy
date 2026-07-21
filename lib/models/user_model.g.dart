@@ -23,6 +23,11 @@ _$UserModelImpl _$$UserModelImplFromJson(
           ?.map((e) => e as String)
           .toList() ??
       const <String>[],
+  subscriptionState: json['subscriptionState'] == null
+      ? null
+      : SubscriptionStateModel.fromJson(
+          json['subscriptionState'] as Map<String, dynamic>,
+        ),
 );
 
 Map<String, dynamic> _$$UserModelImplToJson(_$UserModelImpl instance) =>
@@ -32,6 +37,7 @@ Map<String, dynamic> _$$UserModelImplToJson(_$UserModelImpl instance) =>
       'role': _$UserRoleEnumMap[instance.role]!,
       'subscriptionTier': _$SubscriptionTierEnumMap[instance.subscriptionTier]!,
       'linkedStudents': instance.linkedStudents,
+      'subscriptionState': instance.subscriptionState,
     };
 
 const _$UserRoleEnumMap = {

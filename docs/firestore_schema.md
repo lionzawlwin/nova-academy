@@ -18,7 +18,7 @@ concurrent connections are not a concern client-side but read/write volume
 is — so the schema favors **denormalization over joins** and **listener
 reuse over polling**.
 
-All three collections below are top-level collections (not sub-collections)
+All collections below are top-level collections (not sub-collections)
 so a single `collection().doc(id)` lookup is always one read, and so
 `UserModel.linkedStudents` / `ChildModel.parentId` can cross-reference
 without composite paths.
@@ -36,6 +36,7 @@ Document id == Firebase Auth `uid`.
 | `role`              | `string` enum               | One of `owner`, `parent`, `teacher`, `student`. See `UserRole` in `lib/models/user_model.dart`. |
 | `subscriptionTier`  | `string` enum               | One of `free`, `premium`. See `SubscriptionTier`. |
 | `linkedStudents`    | `array<string>`             | For `parent`: ids of that parent's `Children` docs. For `teacher`: ids of `Children` docs the teacher has been linked to by a parent. Denormalized so dashboards can render a child/teacher list with **zero extra queries** — no `where('parentId', '==', uid)` fan-out needed for the common case. |
+| `subscriptionState` | `map` (optional)             | Nested (not a separate collection) snapshot of subscription lifecycle status/source/expiry — see `lib/models/subscription_state_model.dart`. Optional/nullable: most existing/seeded users predate this field and deserialize with it `null`, falling back to the plain `subscriptionTier` check (see `isPremiumEntitledProvider` in `lib/providers/billing_providers.dart`). |
 
 **Owner bypass (client-side, not a Firestore field):** the account
 `lionzawlwin@gmail.com` is hardcoded in `AppConstants.ownerEmail` /
@@ -210,6 +211,91 @@ Spark-native pattern every other read path in this schema already uses.
   own/are linked to/administer, but nothing may `update` or `delete` an
   existing attempt once written. Each document is an immutable historical
   record, not mutable state like `Children.completedModuleIds`.
+
+---
+
+## 5. `BillingEvents`
+
+Document id == auto-generated Firestore id. An append-only revenue
+ledger — the source of truth for automated P&L, distinct from the mutable
+`Users.subscriptionState` snapshot it was derived from (see
+`lib/models/billing_event_model.dart`'s doc comment: a bug that corrupts
+the snapshot can never silently erase revenue history because this ledger
+is never mutated to match it).
+
+| Field                | Type     | Notes |
+|-----------------------|----------|-------|
+| `id`                  | `string` | Denormalized copy of the doc id. |
+| `uid`                 | `string` | The `Users` doc id (Firebase Auth uid) this event belongs to. |
+| `type`                | `string` enum | One of `purchase`, `renewal`, `cancellation`, `refund`, `grant`, `revoke`. See `BillingEventType`. |
+| `tier`                | `string` enum | The `SubscriptionTier` (`free`/`premium`) this event transitions to/reflects. |
+| `source`              | `string` enum | One of `manual`, `ios_iap`, `android_iap`, `promo`. See `BillingSource` in `lib/models/subscription_state_model.dart`. |
+| `amountMinorUnits`    | `int`    | Cash amount in minor currency units (e.g. cents). Defaults to `0` — `cancellation`/`grant`/`revoke` carry no cash movement of their own (see `BillingLedgerTotals.netRevenueMinorUnits`). |
+| `currencyCode`        | `string` | ISO 4217 currency code. Defaults to `'USD'`. |
+| `occurredAtMillis`    | `int`    | `DateTime.now().millisecondsSinceEpoch` at write time, same plain-`int`-not-`Timestamp` convention as `LessonAttempts.completedAtMillis`. |
+
+### Design note: append-only, never mutated
+
+Same "one immutable doc per event" pattern as `LessonAttempts`. Revenue
+recognition folds this list (`BillingLedgerTotals.netRevenueMinorUnits`)
+rather than trusting any single mutable snapshot, so the ledger stays
+trustworthy even if a bug elsewhere corrupts `Users.subscriptionState`.
+
+### Indexes
+- Composite index on `(uid, occurredAtMillis)` recommended once a
+  per-user billing history view ships.
+- Composite index on `(type, occurredAtMillis)` if an admin "all
+  purchases this month" view ships.
+
+### Security rules (guidance)
+- `create`-only from the client beyond the owner (see `firestore.rules`),
+  scoped to the event's own `uid == request.auth.uid` — no `update`/
+  `delete` path, matching the "immutable historical record" rule already
+  established for `LessonAttempts`.
+
+---
+
+## 6. `UsageTelemetry`
+
+Document id == `"{uid}_{dateYyyymmdd}"` (one document per user per
+calendar day). The FinOps side of the ledger — estimated Firestore
+read/write volume against the subscription tier that generated it. See
+`lib/models/usage_telemetry_model.dart`'s doc comment and
+`flushUsageTelemetry` in `lib/providers/cost_telemetry_providers.dart` for
+the write path.
+
+| Field                | Type     | Notes |
+|-----------------------|----------|-------|
+| `id`                  | `string` | Denormalized copy of the doc id. |
+| `uid`                 | `string` | The `Users` doc id this day's telemetry belongs to. |
+| `dateYyyymmdd`        | `string` | Calendar date this document aggregates, e.g. `20260721`. |
+| `estimatedReads`      | `int`    | Defaults to `0`. Upserted via `FieldValue.increment`, not overwritten — safe against a missing doc/field, which Firestore treats as `0`. |
+| `estimatedWrites`     | `int`    | Defaults to `0`. Same increment-upsert convention as `estimatedReads`. |
+| `tier`                | `string` enum | The `SubscriptionTier` (`free`/`premium`) active at the time of the flush that last touched this document. |
+| `lastUpdatedAtMillis` | `int`    | `DateTime.now().millisecondsSinceEpoch` at the most recent flush. |
+
+### Design note: client-self-reported, not a cost-enforcement boundary
+
+`estimatedReads`/`estimatedWrites` are counted client-side by
+`CostMeterService` and flushed in one write per flush, regardless of how
+many operations accumulated since the last flush (see
+`flushUsageTelemetry`'s doc comment) — the same "aggregate, don't log
+every event" philosophy as `LessonAttempts`. A modified client could
+under-report these counters, so this collection is a **monitoring
+signal** for a cost-vs-tier dashboard only, never the actual enforcement
+boundary against runaway free-tier cost (that boundary is
+`firestore.rules` plus deliberate query-shape discipline in the providers
+themselves).
+
+### Indexes
+- Composite index on `(dateYyyymmdd, tier)` recommended once an
+  aggregate "cost by tier per day" admin view ships.
+
+### Security rules (guidance)
+- Both `create` and `update` (not just `create`) are open to the
+  document's own `uid` beyond the owner, since this is an
+  increment-based upsert into the same day's document rather than a
+  one-shot immutable record like `BillingEvents`/`LessonAttempts`.
 
 ---
 

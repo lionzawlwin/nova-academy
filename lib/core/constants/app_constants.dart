@@ -24,6 +24,17 @@ class AppConstants {
   /// section for the write-volume rationale.
   static const String lessonAttemptsCollection = 'LessonAttempts';
 
+  /// Append-only revenue ledger -- one document per subscription lifecycle
+  /// transition (purchase/renewal/cancellation/refund/grant/revoke). See
+  /// `docs/firestore_schema.md`'s `BillingEvents` section.
+  static const String billingEventsCollection = 'BillingEvents';
+
+  /// One aggregated document per user per calendar day, tracking estimated
+  /// Firestore read/write volume against subscription tier -- the FinOps
+  /// cost-vs-tier telemetry signal. See `docs/firestore_schema.md`'s
+  /// `UsageTelemetry` section.
+  static const String usageTelemetryCollection = 'UsageTelemetry';
+
   /// App display name.
   static const String appName = 'Nova Academy';
 }

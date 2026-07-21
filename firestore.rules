@@ -140,6 +140,38 @@ service cloud.firestore {
     }
 
     // ---------------------------------------------------------------------
+    // BillingEvents
+    // ---------------------------------------------------------------------
+    // Append-only revenue ledger -- one immutable document per subscription
+    // lifecycle transition (see docs/firestore_schema.md's `BillingEvents`
+    // section). Same shape as `LessonAttempts`: a signed-in user may read
+    // their own events (or the owner reads/writes everything), `create` is
+    // open to the event's own `uid`, and no `update`/`delete` path exists
+    // beyond the owner -- once a billing event is written it is history,
+    // never mutated.
+    match /BillingEvents/{eventId} {
+      allow read: if isOwner() || (isSignedIn() && resource.data.uid == request.auth.uid);
+      allow create: if isOwner() || (isSignedIn() && request.resource.data.uid == request.auth.uid);
+      allow update, delete: if isOwner();
+    }
+
+    // ---------------------------------------------------------------------
+    // UsageTelemetry
+    // ---------------------------------------------------------------------
+    // FinOps monitoring signal, explicitly self-reported by the client (see
+    // `UsageTelemetryModel`'s doc comment) -- this is NOT a cost-enforcement
+    // boundary, only a dashboard input a modified client could under-report.
+    // Unlike `BillingEvents`/`LessonAttempts`, both `create` and `update`
+    // are allowed (not just `create`) because this is an increment-based
+    // upsert into the same `{uid}_{dateYyyymmdd}` document across a whole
+    // day's session, not a one-shot immutable record.
+    match /UsageTelemetry/{docId} {
+      allow read: if isOwner() || (isSignedIn() && resource.data.uid == request.auth.uid);
+      allow create, update: if isOwner() || (isSignedIn() && request.resource.data.uid == request.auth.uid);
+      allow delete: if isOwner();
+    }
+
+    // ---------------------------------------------------------------------
     // Default deny
     // ---------------------------------------------------------------------
     // Anything not explicitly matched above (including any future
