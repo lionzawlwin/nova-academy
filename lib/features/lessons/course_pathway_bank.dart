@@ -6376,17 +6376,1651 @@ const CourseTermDef _secondary1ComputingTerm4 = CourseTermDef(
     _secondary1ComputingWeek14,
     _secondary1ComputingWeek15,
     _secondary1ComputingWeek16,
-  ], // Term 4 complete (Weeks 13-16); Term 5 not authored yet
+  ], // Term 4 complete (Weeks 13-16)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-4 (Weeks 1-16) are
+// =====================================================================
+// Secondary 1 Computing -- Term 5, Week 17: "Selection in Code: IF and ELSE"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek17 = CourseWeekDef(
+  id: 'course-secondary1-computing-w17',
+  weekNumber: 17,
+  titleEn: 'Selection in Code: IF and ELSE',
+  titleMy: 'Code ထဲရှိ Selection - IF နှင့် ELSE',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w17-d1',
+      dayNumber: 1,
+      titleEn: 'Writing an IF Statement',
+      titleMy: 'IF Statement ရေးသားခြင်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What does an IF statement let a program do?',
+          questionMy:
+              'IF statement တစ်ခုက ပရိုဂရမ်အား မည်သို့ပြုလုပ်ခွင့်ပေးသနည်း။',
+          optionsEn: [
+            'Choose between different actions based on a condition',
+            'Store a value that never changes',
+            'Repeat the same steps forever',
+            'Delete a variable permanently',
+          ],
+          optionsMy: [
+            'Condition တစ်ခုအပေါ်မူတည်၍ မတူညီသော လုပ်ဆောင်ချက်များကို ရွေးချယ်ခြင်း',
+            'ဘယ်တော့မှ မပြောင်းလဲသော တန်ဖိုးတစ်ခုကို သိမ်းဆည်းခြင်း',
+            'အဆင့်တူများကို အမြဲထပ်ခါလုပ်ခြင်း',
+            'Variable တစ်ခုကို အမြဲတမ်း ဖျက်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'In "IF score > 50 THEN print Pass ELSE print Fail", what happens if score is 40?',
+          questionMy:
+              '"IF score > 50 THEN print Pass ELSE print Fail" တွင် score သည် 40 ဖြစ်ပါက ဘာဖြစ်မည်နည်း။',
+          optionsEn: [
+            'The program prints Fail',
+            'The program prints Pass',
+            'The program deletes the score variable',
+            'The program repeats forever',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်သည် Fail ဟု ပရင့်ထုတ်သည်',
+            'ပရိုဂရမ်သည် Pass ဟု ပရင့်ထုတ်သည်',
+            'ပရိုဂရမ်သည် score variable ကို ဖျက်ပစ်သည်',
+            'ပရိုဂရမ်သည် အမြဲထပ်ခါလုပ်နေသည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a "condition" in an IF statement?',
+          questionMy: 'IF statement တစ်ခုရှိ "condition" ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A question that is either true or false',
+            'A named place that stores a value',
+            'A symbol used to draw a flowchart',
+            'A list of steps repeated many times',
+          ],
+          optionsMy: [
+            'True သို့မဟုတ် False ဖြစ်သော မေးခွန်းတစ်ခု',
+            'တန်ဖိုးတစ်ခုကို သိမ်းဆည်းသော အမည်ပေးထားသောနေရာ',
+            'Flowchart ရေးဆွဲရန်သုံးသော သင်္ကေတတစ်ခု',
+            'အကြိမ်များစွာ ထပ်ခါလုပ်သော အဆင့်များစာရင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which symbol means "greater than" in a condition?',
+          questionMy:
+              'Condition တစ်ခုတွင် "ထက်ကြီးသည်" ကို ဘယ်သင်္ကေတဖြင့် ပြသနည်း။',
+          optionsEn: ['>', '=', '+', '#'],
+          optionsMy: ['>', '=', '+', '#'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What runs if the condition in an IF...ELSE is false?',
+          questionMy:
+              'IF...ELSE တွင် condition သည် false ဖြစ်ပါက ဘာအပိုင်း run သွားမည်နည်း။',
+          optionsEn: [
+            'The ELSE branch',
+            'The IF branch',
+            'Nothing runs at all',
+            'The loop counter',
+          ],
+          optionsMy: [
+            'ELSE အပိုင်း',
+            'IF အပိုင်း',
+            'ဘာမှ run မသွားပါ',
+            'Loop counter',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w17-d2',
+      dayNumber: 2,
+      titleEn: 'Selection Vocabulary',
+      titleMy: 'Selection ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w17-sel-ifstatement',
+          termEn: 'IF Statement',
+          termMy: 'IF Statement',
+          matchEn:
+              'A selection structure that runs code only when a condition is true',
+          matchMy:
+              'Condition သည် true ဖြစ်မှသာ ကုဒ်ကို run စေသော selection ဖွဲ့စည်းပုံ',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w17-sel-else',
+          termEn: 'ELSE',
+          termMy: 'ELSE',
+          matchEn:
+              'The branch of an IF statement that runs when the condition is false',
+          matchMy:
+              'Condition သည် false ဖြစ်သောအခါ run သွားသော IF statement ၏ အပိုင်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w17-sel-condition',
+          termEn: 'Condition',
+          termMy: 'Condition',
+          matchEn: 'A question in a program that is either true or false',
+          matchMy:
+              'ပရိုဂရမ်တစ်ခုအတွင်းရှိ true သို့မဟုတ် false ဖြစ်သော မေးခွန်းတစ်ခု',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w17-sel-comparisonoperator',
+          termEn: 'Comparison Operator',
+          termMy: 'Comparison Operator',
+          matchEn:
+              'A symbol such as > or < used to compare two values in a condition',
+          matchMy:
+              'Condition တစ်ခုတွင် တန်ဖိုးနှစ်ခုကို နှိုင်းယှဉ်ရန်သုံးသော > သို့မဟုတ် < ကဲ့သို့သော သင်္ကေတ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w17-sel-booleanexpression',
+          termEn: 'Boolean Expression',
+          termMy: 'Boolean Expression',
+          matchEn: 'An expression that evaluates to either true or false',
+          matchMy: 'True သို့မဟုတ် false တစ်ခုအဖြစ် ရလဒ်ထွက်သော expression',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w17-d3',
+      dayNumber: 3,
+      titleEn: 'True or False?',
+      titleMy: 'True လား False လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['True', 'False'],
+        bucketsMy: ['True', 'False'],
+        items: [
+          SortingItem(
+            id: 'w17-sort-8gt3',
+            labelEn: '8 > 3',
+            labelMy: '8 > 3',
+            correctBucketEn: 'True',
+            correctBucketMy: 'True',
+          ),
+          SortingItem(
+            id: 'w17-sort-2gt10',
+            labelEn: '2 > 10',
+            labelMy: '2 > 10',
+            correctBucketEn: 'False',
+            correctBucketMy: 'False',
+          ),
+          SortingItem(
+            id: 'w17-sort-6eq6',
+            labelEn: '6 = 6',
+            labelMy: '6 = 6',
+            correctBucketEn: 'True',
+            correctBucketMy: 'True',
+          ),
+          SortingItem(
+            id: 'w17-sort-5eq9',
+            labelEn: '5 = 9',
+            labelMy: '5 = 9',
+            correctBucketEn: 'False',
+            correctBucketMy: 'False',
+          ),
+          SortingItem(
+            id: 'w17-sort-8lt2',
+            labelEn: '8 < 2',
+            labelMy: '8 < 2',
+            correctBucketEn: 'False',
+            correctBucketMy: 'False',
+          ),
+          SortingItem(
+            id: 'w17-sort-1lt9',
+            labelEn: '1 < 9',
+            labelMy: '1 < 9',
+            correctBucketEn: 'True',
+            correctBucketMy: 'True',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w17-d4',
+      dayNumber: 4,
+      titleEn: "Nilar's Pass or Fail Program",
+      titleMy: 'နီလာ၏ Pass Fail ပရိုဂရမ်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Pass or Fail Program",
+        titleMy: 'နီလာ၏ Pass Fail ပရိုဂရမ်',
+        passageEn:
+            "Nilar wrote a program to mark a test using a variable called score. Her pseudocode used an IF statement: IF score is greater than or equal to 50 THEN print Pass, ELSE print Fail. When she tested it with score set to 65, the condition was true, so the program printed Pass. When she tested it again with score set to 30, the condition was false, so the ELSE branch ran instead and the program printed Fail. Nilar realised that without the ELSE branch, her program would only ever handle passing scores and would print nothing for a failing one.",
+        passageMy:
+            "နီလာသည် score ဟုခေါ်သော variable တစ်ခုကို အသုံးပြု၍ စာမေးပွဲအမှတ်ပေးရန် ပရိုဂရမ်တစ်ခု ရေးခဲ့သည်။ သူမ၏ pseudocode တွင် IF statement တစ်ခုကို သုံးထားသည် - score သည် 50 ထက်ကြီးသည် သို့မဟုတ် ညီပါက Pass ဟု ပရင့်ထုတ်ပြီး၊ မဟုတ်ပါက ELSE အပိုင်းက Fail ဟု ပရင့်ထုတ်သည်။ Score ကို 65 ဟုသတ်မှတ်၍ စမ်းသပ်ကြည့်ရာ condition သည် true ဖြစ်သဖြင့် ပရိုဂရမ်သည် Pass ဟု ပရင့်ထုတ်ခဲ့သည်။ Score ကို 30 ဟု ပြန်လည်သတ်မှတ်၍ စမ်းသပ်ကြည့်ရာ condition သည် false ဖြစ်သွားသဖြင့် ELSE အပိုင်း run သွားကာ ပရိုဂရမ်သည် Fail ဟု ပရင့်ထုတ်ခဲ့သည်။ ELSE အပိုင်းမရှိပါက သူမ၏ ပရိုဂရမ်သည် အောင်မှတ်ကိုသာ ကိုင်တွယ်နိုင်ပြီး ကျရှုံးသော မှတ်အတွက် ဘာမှ ပရင့်ထုတ်နိုင်မည်မဟုတ်ကြောင်း နီလာ နားလည်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What variable did Nilar use in her program?',
+            questionMy:
+                'နီလာသည် သူမ၏ပရိုဂရမ်တွင် ဘယ် variable ကို သုံးခဲ့သနည်း။',
+            optionsEn: ['score', 'pass', 'fail', 'test'],
+            optionsMy: ['score', 'pass', 'fail', 'test'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the IF condition check?',
+            questionMy: 'IF condition သည် ဘာကို စစ်ဆေးခဲ့သနည်း။',
+            optionsEn: [
+              'Whether score was greater than or equal to 50',
+              'Whether score was a valid variable name',
+              'Whether the loop had finished',
+              'Whether the computer was on',
+            ],
+            optionsMy: [
+              'Score သည် 50 ထက်ကြီး သို့မဟုတ် ညီမမညီ',
+              'Score သည် မှန်ကန်သော variable အမည်ဟုတ်မဟုတ်',
+              'Loop ပြီးဆုံးမပြီးဆုံး',
+              'ကွန်ပျူတာဖွင့်မဖွင့်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the program print when score was 65?',
+            questionMy:
+                'Score သည် 65 ဖြစ်သောအခါ ပရိုဂရမ်သည် ဘာပရင့်ထုတ်ခဲ့သနည်း။',
+            optionsEn: ['Pass', 'Fail', 'Nothing', '65'],
+            optionsMy: ['Pass', 'Fail', 'ဘာမှ', '65'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What ran when score was 30 and the condition was false?',
+            questionMy:
+                'Score 30 ဖြစ်ပြီး condition false ဖြစ်သောအခါ ဘာ run သွားခဲ့သနည်း။',
+            optionsEn: [
+              'The ELSE branch',
+              'The IF branch',
+              'A loop',
+              'Nothing at all',
+            ],
+            optionsMy: [
+              'ELSE အပိုင်း',
+              'IF အပိုင်း',
+              'Loop တစ်ခု',
+              'ဘာမှမဟုတ်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'Why did Nilar need the ELSE branch?',
+            questionMy: 'နီလာသည် ELSE အပိုင်းကို အဘယ့်ကြောင့် လိုအပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'So the program could also handle failing scores',
+              'So the program would run faster',
+              'So the variable would become a constant',
+              'So the loop would repeat forever',
+            ],
+            optionsMy: [
+              'ပရိုဂရမ်သည် ကျရှုံးသောမှတ်ကိုပါ ကိုင်တွယ်နိုင်ရန်',
+              'ပရိုဂရမ် ပိုမြန်စေရန်',
+              'Variable ကို constant အဖြစ် ပြောင်းရန်',
+              'Loop ကို အမြဲထပ်ခါလုပ်စေရန်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w17-d5',
+      dayNumber: 5,
+      titleEn: 'Week 17 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What does an IF statement let a program do?',
+          questionMy:
+              'IF statement တစ်ခုက ပရိုဂရမ်အား မည်သို့ပြုလုပ်ခွင့်ပေးသနည်း။',
+          optionsEn: [
+            'Choose between actions based on a condition',
+            'Store a fixed value forever',
+            'Repeat forever',
+            'Delete every variable',
+          ],
+          optionsMy: [
+            'Condition အပေါ်မူတည်၍ လုပ်ဆောင်ချက်ရွေးချယ်ခြင်း',
+            'ဘယ်တော့မှ မပြောင်းလဲသော တန်ဖိုးကို သိမ်းဆည်းခြင်း',
+            'အမြဲထပ်ခါလုပ်ခြင်း',
+            'Variable တိုင်းကို ဖျက်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a condition?',
+          questionMy: 'Condition ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A question that is true or false',
+            'A stored value that never changes',
+            'A flowchart symbol',
+            'A loop counter',
+          ],
+          optionsMy: [
+            'True သို့မဟုတ် false ဖြစ်သော မေးခွန်း',
+            'ဘယ်တော့မှ မပြောင်းလဲသော တန်ဖိုး',
+            'Flowchart သင်္ကေတ',
+            'Loop counter',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What runs when an IF condition is false and there is an ELSE branch?',
+          questionMy:
+              'IF condition false ဖြစ်ပြီး ELSE ပါရှိပါက ဘာ run သွားမည်နည်း။',
+          optionsEn: [
+            'The ELSE branch',
+            'The IF branch',
+            'Nothing',
+            'The whole program stops',
+          ],
+          optionsMy: [
+            'ELSE အပိုင်း',
+            'IF အပိုင်း',
+            'ဘာမှ',
+            'ပရိုဂရမ်တစ်ခုလုံး ရပ်သွားသည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which symbol checks if two values are equal?',
+          questionMy: 'တန်ဖိုးနှစ်ခု ညီမညီ စစ်ဆေးရန် ဘယ်သင်္ကေတသုံးသနည်း။',
+          optionsEn: ['=', '>', '+', '#'],
+          optionsMy: ['=', '>', '+', '#'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does a Boolean expression evaluate to?',
+          questionMy: 'Boolean expression တစ်ခု၏ ရလဒ်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'True or false',
+            'A variable name',
+            'A flowchart',
+            'A loop',
+          ],
+          optionsMy: [
+            'True သို့မဟုတ် false',
+            'Variable အမည်တစ်ခု',
+            'Flowchart',
+            'Loop',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 5, Week 18: "Count-Controlled Loops: FOR"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek18 = CourseWeekDef(
+  id: 'course-secondary1-computing-w18',
+  weekNumber: 18,
+  titleEn: 'Count-Controlled Loops: FOR',
+  titleMy: 'Count-Controlled Loop - FOR',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w18-d1',
+      dayNumber: 1,
+      titleEn: 'What is a Count-Controlled Loop?',
+      titleMy: 'Count-Controlled Loop ဆိုသည်မှာ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a count-controlled loop?',
+          questionMy: 'Count-controlled loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A loop that repeats an exact number of times',
+            'A loop that never stops',
+            'A variable that stores a count',
+            'An IF statement inside another IF statement',
+          ],
+          optionsMy: [
+            'အတိအကျ အကြိမ်ရေအတွက် ထပ်ခါလုပ်သော loop',
+            'ဘယ်တော့မှ မရပ်သော loop',
+            'အရေအတွက်ကို သိမ်းဆည်းသော variable',
+            'IF statement တစ်ခုအတွင်း နောက် IF statement တစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'In "FOR count = 1 TO 5", how many times does the loop run?',
+          questionMy:
+              '"FOR count = 1 TO 5" တွင် loop သည် ဘယ်နှကြိမ် run မည်နည်း။',
+          optionsEn: ['5', '1', '4', '6'],
+          optionsMy: ['5', '1', '4', '6'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What is often used to keep track of how many times a loop has run?',
+          questionMy:
+              'Loop တစ်ခု ဘယ်နှကြိမ် run ပြီးကြောင်း မှတ်သားရန် ဘာကိုသုံးလေ့ရှိသနည်း။',
+          optionsEn: [
+            'A loop counter (a variable)',
+            'A flowchart symbol',
+            'A reading passage',
+            'A drag-match card',
+          ],
+          optionsMy: [
+            'Loop counter (variable တစ်ခု)',
+            'Flowchart သင်္ကေတ',
+            'Reading passage',
+            'Drag-match card',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which of these is an example of a count-controlled loop?',
+          questionMy: 'အောက်ပါတို့အနက် count-controlled loop ဥပမာမှာ အဘယ်နည်း။',
+          optionsEn: [
+            'FOR day = 1 TO 7',
+            'IF score > 50 THEN print Pass',
+            'score = 0',
+            'playerName',
+          ],
+          optionsMy: [
+            'FOR day = 1 TO 7',
+            'IF score > 50 THEN print Pass',
+            'score = 0',
+            'playerName',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why use a loop instead of writing the same line many times?',
+          questionMy:
+              'တူညီသောစာကြောင်းကို ကြိမ်ဖန်များစွာ ရေးမည့်အစား loop ကို အဘယ့်ကြောင့် အသုံးပြုသနည်း။',
+          optionsEn: [
+            'It avoids repeating the same code over and over',
+            'It deletes all the variables',
+            'It turns the program into a flowchart',
+            'It makes the condition always false',
+          ],
+          optionsMy: [
+            'တူညီသောကုဒ်ကို ထပ်ခါထပ်ခါ မရေးရအောင် ရှောင်ရှားပေးသည်',
+            'Variable အားလုံးကို ဖျက်ပစ်သည်',
+            'ပရိုဂရမ်ကို flowchart အဖြစ် ပြောင်းသည်',
+            'Condition ကို အမြဲ false ဖြစ်စေသည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w18-d2',
+      dayNumber: 2,
+      titleEn: 'Loop Vocabulary',
+      titleMy: 'Loop ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w18-loop-forloop',
+          termEn: 'FOR Loop',
+          termMy: 'FOR Loop',
+          matchEn: 'A loop that repeats a set number of times',
+          matchMy: 'သတ်မှတ်ထားသော အကြိမ်ရေအတွက် ထပ်ခါလုပ်သော loop',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w18-loop-counter',
+          termEn: 'Loop Counter',
+          termMy: 'Loop Counter',
+          matchEn:
+              'A variable that keeps track of how many times a loop has run',
+          matchMy:
+              'Loop တစ်ခု ဘယ်နှကြိမ် run ပြီးကြောင်း မှတ်သားထားသော variable',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w18-loop-countcontrolled',
+          termEn: 'Count-Controlled Loop',
+          termMy: 'Count-Controlled Loop',
+          matchEn: 'A loop that repeats an exact, known number of times',
+          matchMy: 'သိပြီးသား အတိအကျအကြိမ်ရေအတွက် ထပ်ခါလုပ်သော loop',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w18-loop-iteration',
+          termEn: 'Iteration',
+          termMy: 'Iteration',
+          matchEn: 'One single run-through of the steps inside a loop',
+          matchMy: 'Loop အတွင်းရှိ အဆင့်များကို တစ်ကြိမ် run ခြင်း',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w18-loop-repeat',
+          termEn: 'Repeat',
+          termMy: 'Repeat',
+          matchEn: 'To run the same steps again',
+          matchMy: 'တူညီသောအဆင့်များကို ထပ်မံ run ခြင်း',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w18-d3',
+      dayNumber: 3,
+      titleEn: 'Count-Controlled or Not?',
+      titleMy: 'Count-Controlled ဟုတ်၊ မဟုတ်',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Count-Controlled Loop', 'Not a Count-Controlled Loop'],
+        bucketsMy: ['Count-Controlled Loop', 'Not a Count-Controlled Loop'],
+        items: [
+          SortingItem(
+            id: 'w18-sort-forday17',
+            labelEn: 'FOR day = 1 TO 7',
+            labelMy: 'FOR day = 1 TO 7',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w18-sort-repeat3',
+            labelEn: 'Repeat 3 times',
+            labelMy: 'Repeat 3 times',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w18-sort-forcount10',
+            labelEn: 'FOR count = 1 TO 10',
+            labelMy: 'FOR count = 1 TO 10',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w18-sort-scorezero',
+            labelEn: 'score = 0',
+            labelMy: 'score = 0',
+            correctBucketEn: 'Not a Count-Controlled Loop',
+            correctBucketMy: 'Not a Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w18-sort-ifscore',
+            labelEn: 'IF score > 50 THEN print Pass',
+            labelMy: 'IF score > 50 THEN print Pass',
+            correctBucketEn: 'Not a Count-Controlled Loop',
+            correctBucketMy: 'Not a Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w18-sort-keepgoing',
+            labelEn: 'Keep going UNTIL the player quits',
+            labelMy: 'Keep going UNTIL the player quits',
+            correctBucketEn: 'Not a Count-Controlled Loop',
+            correctBucketMy: 'Not a Count-Controlled Loop',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w18-d4',
+      dayNumber: 4,
+      titleEn: "Aung's Flower Garden Loop",
+      titleMy: 'အောင်၏ ပန်းဥယျာဉ် Loop',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung's Flower Garden Loop",
+        titleMy: 'အောင်၏ ပန်းဥယျာဉ် Loop',
+        passageEn:
+            "Aung had 8 flower pots in his garden and wanted his program to water every single one. Instead of writing the watering step 8 separate times, he used a count-controlled loop: FOR pot = 1 TO 8, water the pot. Each time the loop ran, the loop counter called pot increased by 1, from 1 all the way up to 8, and the watering step ran once for every value. When the counter reached 8, the loop stopped automatically because it had already repeated the exact number of times Aung asked for. This saved him from writing the same watering instruction again and again.",
+        passageMy:
+            'အောင်တွင် ဥယျာဉ်ထဲ ပန်းအိုး ၈ လုံးရှိပြီး သူ့ပရိုဂရမ်ဖြင့် အားလုံးကို ရေလောင်းစေလိုသည်။ ရေလောင်းသည့်အဆင့်ကို သီးခြား ၈ ကြိမ် ရေးမည့်အစား count-controlled loop တစ်ခုကို သုံးခဲ့သည် - FOR pot = 1 TO 8, ထိုအိုးကို ရေလောင်းပါ။ Loop run တိုင်း pot ဟုခေါ်သော loop counter သည် 1 မှ 8 အထိ 1 လုံးစီ တိုးလာပြီး တန်ဖိုးတိုင်းအတွက် ရေလောင်းသည့်အဆင့် တစ်ကြိမ်စီ run ခဲ့သည်။ Counter သည် 8 ရောက်သောအခါ အောင်တောင်းဆိုထားသော အတိအကျအကြိမ်ရေ ပြီးပြီဖြစ်၍ loop သည် အလိုအလျောက် ရပ်သွားခဲ့သည်။ ၎င်းသည် ရေလောင်းသည့်ညွှန်ကြားချက်ကို ထပ်ခါထပ်ခါ ရေးရခြင်းမှ အောင့်ကို ကယ်တင်ပေးခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'How many flower pots did Aung have?',
+            questionMy: 'အောင့်တွင် ပန်းအိုး ဘယ်နှလုံး ရှိခဲ့သနည်း။',
+            optionsEn: ['8', '5', '10', '1'],
+            optionsMy: ['8', '5', '10', '1'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What did Aung use instead of writing the watering step 8 times?',
+            questionMy:
+                'ရေလောင်းသည့်အဆင့်ကို ၈ ကြိမ်ရေးမည့်အစား အောင်ဘာသုံးခဲ့သနည်း။',
+            optionsEn: [
+              'A count-controlled loop',
+              'A new variable only',
+              'An IF statement',
+              'A reading passage',
+            ],
+            optionsMy: [
+              'Count-controlled loop',
+              'Variable အသစ်တစ်ခုသာ',
+              'IF statement',
+              'Reading passage',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What was the loop counter called?',
+            questionMy: 'Loop counter ကို ဘာဟုခေါ်ခဲ့သနည်း။',
+            optionsEn: ['pot', 'garden', 'water', 'aung'],
+            optionsMy: ['pot', 'garden', 'water', 'aung'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What happened each time the loop ran?',
+            questionMy: 'Loop run တိုင်း ဘာဖြစ်ခဲ့သနည်း။',
+            optionsEn: [
+              'The loop counter increased by 1 and a pot was watered',
+              'The garden was deleted',
+              'The condition turned false forever',
+              'A new flower pot appeared',
+            ],
+            optionsMy: [
+              'Loop counter 1 လုံး တိုးပြီး အိုးတစ်လုံး ရေလောင်းခံရသည်',
+              'ဥယျာဉ်ကို ဖျက်ပစ်သည်',
+              'Condition အမြဲ false ဖြစ်သွားသည်',
+              'ပန်းအိုးအသစ်တစ်လုံး ပေါ်လာသည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'Why did the loop stop when the counter reached 8?',
+            questionMy:
+                'Counter သည် 8 ရောက်သောအခါ loop ဘာကြောင့် ရပ်သွားခဲ့သနည်း။',
+            optionsEn: [
+              'It had already run the exact number of times Aung asked for',
+              'The garden ran out of water',
+              'The variable was deleted',
+              'The condition never became true',
+            ],
+            optionsMy: [
+              'အောင်တောင်းဆိုထားသော အတိအကျအကြိမ်ရေ ပြီးပြီဖြစ်၍',
+              'ဥယျာဉ်တွင် ရေကုန်သွားသောကြောင့်',
+              'Variable ကို ဖျက်ပစ်သောကြောင့်',
+              'Condition ဘယ်တော့မှ true မဖြစ်သောကြောင့်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w18-d5',
+      dayNumber: 5,
+      titleEn: 'Week 18 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a count-controlled loop?',
+          questionMy: 'Count-controlled loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A loop that repeats an exact number of times',
+            'A condition that is always false',
+            'A variable that never changes',
+            'A flowchart symbol',
+          ],
+          optionsMy: [
+            'အတိအကျအကြိမ်ရေအတွက် ထပ်ခါလုပ်သော loop',
+            'အမြဲ false ဖြစ်သော condition',
+            'ဘယ်တော့မှ မပြောင်းလဲသော variable',
+            'Flowchart သင်္ကေတ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'In "FOR i = 1 TO 10", how many times does the loop run?',
+          questionMy: '"FOR i = 1 TO 10" တွင် loop ဘယ်နှကြိမ် run မည်နည်း။',
+          optionsEn: ['10', '1', '9', '11'],
+          optionsMy: ['10', '1', '9', '11'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a loop counter?',
+          questionMy: 'Loop counter ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A variable that tracks how many times a loop has run',
+            'A type of flowchart',
+            'A comparison operator',
+            'A reading passage',
+          ],
+          optionsMy: [
+            'Loop run ပြီးသည့် အကြိမ်ရေကို မှတ်သားသော variable',
+            'Flowchart အမျိုးအစား',
+            'Comparison operator',
+            'Reading passage',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'One run-through of the steps inside a loop is called what?',
+          questionMy:
+              'Loop အတွင်းရှိ အဆင့်များကို တစ်ကြိမ် run ခြင်းကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['An iteration', 'A condition', 'A variable', 'A boolean'],
+          optionsMy: ['Iteration', 'Condition', 'Variable', 'Boolean'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why use a loop instead of repeating the same code many times?',
+          questionMy:
+              'တူညီသောကုဒ်ကို ကြိမ်ဖန်များစွာ ရေးမည့်အစား loop ကို အဘယ့်ကြောင့် သုံးသနည်း။',
+          optionsEn: [
+            'It avoids writing the same code over and over',
+            'It makes the condition always true',
+            'It deletes all variables',
+            'It turns the code into a flowchart',
+          ],
+          optionsMy: [
+            'တူညီသောကုဒ်ကို ထပ်ခါမရေးရအောင် ရှောင်ရှားပေးသည်',
+            'Condition ကို အမြဲ true ဖြစ်စေသည်',
+            'Variable အားလုံးကို ဖျက်သည်',
+            'ကုဒ်ကို flowchart အဖြစ် ပြောင်းသည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 5, Week 19: "Condition-Controlled Loops: WHILE"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek19 = CourseWeekDef(
+  id: 'course-secondary1-computing-w19',
+  weekNumber: 19,
+  titleEn: 'Condition-Controlled Loops: WHILE',
+  titleMy: 'Condition-Controlled Loop - WHILE',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w19-d1',
+      dayNumber: 1,
+      titleEn: 'What is a Condition-Controlled Loop?',
+      titleMy: 'Condition-Controlled Loop ဆိုသည်မှာ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a condition-controlled loop?',
+          questionMy: 'Condition-controlled loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A loop that keeps repeating as long as a condition is true',
+            'A loop that always repeats exactly 10 times',
+            'A variable that stores true or false',
+            'A flowchart symbol for input',
+          ],
+          optionsMy: [
+            'Condition true ဖြစ်နေသရွေ့ ဆက်ထပ်ခါလုပ်နေသော loop',
+            'အမြဲတမ်း အတိအကျ ၁၀ ကြိမ် ထပ်ခါလုပ်သော loop',
+            'True သို့မဟုတ် false ကို သိမ်းဆည်းသော variable',
+            'Input အတွက် flowchart သင်္ကေတ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'In "WHILE score < 100 DO add points", when does the loop stop?',
+          questionMy:
+              '"WHILE score < 100 DO add points" တွင် loop ဘယ်အချိန် ရပ်မည်နည်း။',
+          optionsEn: [
+            'When score is no longer less than 100',
+            'After exactly 5 times',
+            'When the variable is deleted',
+            'It never stops',
+          ],
+          optionsMy: [
+            'Score သည် 100 ထက် မနည်းတော့သောအခါ',
+            'အတိအကျ ၅ ကြိမ်ပြီးသောအခါ',
+            'Variable ကို ဖျက်လိုက်သောအခါ',
+            'ဘယ်တော့မှ မရပ်ပါ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What is the risk if the condition in a WHILE loop never becomes false?',
+          questionMy:
+              'WHILE loop ၏ condition ဘယ်တော့မှ false မဖြစ်ပါက ဘာအန္တရာယ်ရှိနိုင်သနည်း။',
+          optionsEn: [
+            'An infinite loop that never stops',
+            'The variable turns into text',
+            'The program becomes a flowchart',
+            'The comparison operator disappears',
+          ],
+          optionsMy: [
+            'ဘယ်တော့မှ မရပ်သော infinite loop',
+            'Variable သည် စာသားအဖြစ် ပြောင်းသွားသည်',
+            'ပရိုဂရမ်သည် flowchart အဖြစ် ဖြစ်သွားသည်',
+            'Comparison operator ပျောက်သွားသည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which loop is best when you do not know exactly how many times to repeat?',
+          questionMy:
+              'ဘယ်နှကြိမ်ထပ်ရမည်ကို အတိအကျ မသိသောအခါ ဘယ် loop က ပိုသင့်တော်သနည်း။',
+          optionsEn: [
+            'A condition-controlled loop (WHILE)',
+            'A count-controlled loop (FOR) only',
+            'No loop is ever needed',
+            'A drag-match card',
+          ],
+          optionsMy: [
+            'Condition-controlled loop (WHILE)',
+            'Count-controlled loop (FOR) သာ',
+            'Loop ဘာမှ မလိုအပ်ပါ',
+            'Drag-match card',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does REPEAT ... UNTIL do?',
+          questionMy: 'REPEAT ... UNTIL သည် ဘာလုပ်ဆောင်သနည်း။',
+          optionsEn: [
+            'Keeps repeating until a condition becomes true',
+            'Repeats exactly once and stops',
+            'Deletes the loop counter',
+            'Turns a loop into an IF statement',
+          ],
+          optionsMy: [
+            'Condition true ဖြစ်လာသည်အထိ ဆက်ထပ်ခါလုပ်သည်',
+            'အတိအကျ တစ်ကြိမ်သာ run ပြီးရပ်သည်',
+            'Loop counter ကို ဖျက်သည်',
+            'Loop ကို IF statement အဖြစ် ပြောင်းသည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w19-d2',
+      dayNumber: 2,
+      titleEn: 'WHILE Loop Vocabulary',
+      titleMy: 'WHILE Loop ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w19-loop-whileloop',
+          termEn: 'WHILE Loop',
+          termMy: 'WHILE Loop',
+          matchEn:
+              'A loop that keeps repeating as long as its condition stays true',
+          matchMy: 'Condition true ဖြစ်နေသရွေ့ ဆက်ထပ်ခါလုပ်နေသော loop',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w19-loop-conditioncontrolled',
+          termEn: 'Condition-Controlled Loop',
+          termMy: 'Condition-Controlled Loop',
+          matchEn:
+              'A loop whose number of repeats depends on a condition, not a fixed count',
+          matchMy:
+              'ထပ်ခါလုပ်သည့်အကြိမ်ရေသည် အတိအကျအရေအတွက်မဟုတ်ဘဲ condition အပေါ်မူတည်သော loop',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w19-loop-infiniteloop',
+          termEn: 'Infinite Loop',
+          termMy: 'Infinite Loop',
+          matchEn:
+              'A loop whose condition never becomes false, so it never stops',
+          matchMy:
+              'Condition ဘယ်တော့မှ false မဖြစ်၍ ဘယ်တော့မှ မရပ်တော့သော loop',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w19-loop-repeatuntil',
+          termEn: 'REPEAT UNTIL',
+          termMy: 'REPEAT UNTIL',
+          matchEn:
+              'A loop that keeps repeating until its condition becomes true',
+          matchMy: 'Condition true ဖြစ်လာသည်အထိ ဆက်ထပ်ခါလုပ်သော loop',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w19-loop-loopcondition',
+          termEn: 'Loop Condition',
+          termMy: 'Loop Condition',
+          matchEn:
+              'The true/false test that decides whether a loop keeps repeating',
+          matchMy: 'Loop ဆက်ထပ်ခါလုပ်ရန် ဆုံးဖြတ်ပေးသော true/false စစ်ဆေးချက်',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w19-d3',
+      dayNumber: 3,
+      titleEn: 'Count-Controlled or Condition-Controlled?',
+      titleMy: 'Count-Controlled လား Condition-Controlled လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Count-Controlled Loop', 'Condition-Controlled Loop'],
+        bucketsMy: ['Count-Controlled Loop', 'Condition-Controlled Loop'],
+        items: [
+          SortingItem(
+            id: 'w19-sort-fori20',
+            labelEn: 'FOR i = 1 TO 20',
+            labelMy: 'FOR i = 1 TO 20',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w19-sort-whilehealth',
+            labelEn: 'WHILE health > 0 DO fight',
+            labelMy: 'WHILE health > 0 DO fight',
+            correctBucketEn: 'Condition-Controlled Loop',
+            correctBucketMy: 'Condition-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w19-sort-repeat6',
+            labelEn: 'Repeat 6 times',
+            labelMy: 'Repeat 6 times',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w19-sort-repeatuntilcorrect',
+            labelEn: 'REPEAT ask password UNTIL correct',
+            labelMy: 'REPEAT ask password UNTIL correct',
+            correctBucketEn: 'Condition-Controlled Loop',
+            correctBucketMy: 'Condition-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w19-sort-forweek12',
+            labelEn: 'FOR week = 1 TO 12',
+            labelMy: 'FOR week = 1 TO 12',
+            correctBucketEn: 'Count-Controlled Loop',
+            correctBucketMy: 'Count-Controlled Loop',
+          ),
+          SortingItem(
+            id: 'w19-sort-whilestock',
+            labelEn: 'WHILE stock > 0 DO sell item',
+            labelMy: 'WHILE stock > 0 DO sell item',
+            correctBucketEn: 'Condition-Controlled Loop',
+            correctBucketMy: 'Condition-Controlled Loop',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w19-d4',
+      dayNumber: 4,
+      titleEn: "Zin's Password Checker",
+      titleMy: 'ဇင်၏ Password စစ်ဆေးမှု ပရိုဂရမ်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin's Password Checker",
+        titleMy: 'ဇင်၏ Password စစ်ဆေးမှု ပရိုဂရမ်',
+        passageEn:
+            "Zin wanted his program to keep asking for a password until the user typed the correct one, but he had no idea how many attempts a user might need. A count-controlled loop would not work well here, since he did not know the exact number of times to repeat in advance. Instead, he used a condition-controlled loop: WHILE the entered password is not correct, keep asking. Each time through the loop, his program compared the entered password with the correct one stored in a variable. As soon as the user typed the correct password, the condition became false and the loop stopped, letting the program continue.",
+        passageMy:
+            'ဇင်သည် user မှန်ကန်သော password ရိုက်ထည့်သည်အထိ password ကို ဆက်တိုက်မေးနေမည့် ပရိုဂရမ်တစ်ခု လိုချင်ခဲ့သော်လည်း user ကြိုးစားရမည့် အကြိမ်ရေကို သူမသိပါ။ ဤနေရာတွင် count-controlled loop သည် သင့်တော်မည်မဟုတ်ပါ၊ အဘယ်ကြောင့်ဆိုသော် ကြိုတင်ကြိမ်ရေကို သူ အတိအကျမသိသောကြောင့်ဖြစ်သည်။ ယင်းအစား condition-controlled loop တစ်ခုကို သုံးခဲ့သည် - ရိုက်ထည့်သော password သည် မမှန်ကန်သေးသရွေ့ ဆက်မေးပါ။ Loop run တိုင်း သူ့ပရိုဂရမ်သည် ရိုက်ထည့်သော password ကို variable တစ်ခုအတွင်း သိမ်းဆည်းထားသော မှန်ကန်သည့် password နှင့် နှိုင်းယှဉ်ခဲ့သည်။ User မှန်ကန်သော password ရိုက်ထည့်လိုက်သည်နှင့် condition သည် false ဖြစ်သွားပြီး loop ရပ်သွားကာ ပရိုဂရမ်ဆက်လက် လည်ပတ်စေခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                'Why did a count-controlled loop not work well for the password checker?',
+            questionMy:
+                'Password checker အတွက် count-controlled loop ဘာကြောင့် သင့်တော်မည်မဟုတ်ခဲ့သနည်း။',
+            optionsEn: [
+              'Zin did not know the exact number of attempts in advance',
+              'Count-controlled loops cannot use variables',
+              'FOR loops are always slower',
+              'Password checkers cannot use loops at all',
+            ],
+            optionsMy: [
+              'ဇင် ကြိုးစားရမည့် အကြိမ်ရေကို ကြိုတင်မသိသောကြောင့်',
+              'Count-controlled loop များတွင် variable သုံး၍မရသောကြောင့်',
+              'FOR loop များသည် အမြဲပိုနှေးသောကြောင့်',
+              'Password checker များတွင် loop လုံးဝသုံး၍မရသောကြောင့်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What kind of loop did Zin use instead?',
+            questionMy: 'ဇင် ယင်းအစား ဘယ် loop အမျိုးအစားကို သုံးခဲ့သနည်း။',
+            optionsEn: [
+              'A condition-controlled loop (WHILE)',
+              'A count-controlled loop (FOR)',
+              'No loop at all',
+              'A sorting activity',
+            ],
+            optionsMy: [
+              'Condition-controlled loop (WHILE)',
+              'Count-controlled loop (FOR)',
+              'Loop လုံးဝမသုံးပါ',
+              'Sorting activity',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the loop condition check each time?',
+            questionMy: 'Loop condition သည် အကြိမ်တိုင်း ဘာစစ်ဆေးခဲ့သနည်း။',
+            optionsEn: [
+              'Whether the entered password matched the correct one',
+              'Whether the computer was switched on',
+              'Whether the loop counter reached 8',
+              'Whether a flowchart was drawn',
+            ],
+            optionsMy: [
+              'ရိုက်ထည့်သော password သည် မှန်ကန်သောတစ်ခုနှင့် ကိုက်ညီမကိုက်ညီ',
+              'ကွန်ပျူတာဖွင့်မဖွင့်',
+              'Loop counter သည် 8 ရောက်မရောက်',
+              'Flowchart ဆွဲမဆွဲ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'When did the loop stop?',
+            questionMy: 'Loop ဘယ်အချိန်တွင် ရပ်သွားခဲ့သနည်း။',
+            optionsEn: [
+              'As soon as the user typed the correct password',
+              'After exactly 8 attempts',
+              'When the variable was deleted',
+              'It never stopped',
+            ],
+            optionsMy: [
+              'User မှန်ကန်သော password ရိုက်ထည့်လိုက်သည်နှင့်',
+              'အတိအကျ ၈ ကြိမ်ပြီးနောက်',
+              'Variable ကို ဖျက်လိုက်သောအခါ',
+              'ဘယ်တော့မှ မရပ်ခဲ့ပါ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the program store the correct password in?',
+            questionMy:
+                'ပရိုဂရမ်သည် မှန်ကန်သော password ကို ဘာထဲတွင် သိမ်းဆည်းထားခဲ့သနည်း။',
+            optionsEn: [
+              'A variable',
+              'A flowchart',
+              'A drag-match card',
+              'A loop counter only',
+            ],
+            optionsMy: [
+              'Variable',
+              'Flowchart',
+              'Drag-match card',
+              'Loop counter သာ',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w19-d5',
+      dayNumber: 5,
+      titleEn: 'Week 19 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a condition-controlled loop?',
+          questionMy: 'Condition-controlled loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A loop that repeats as long as (or until) a condition is met',
+            'A loop that always runs 10 times',
+            'A variable that stores text',
+            'A comparison operator',
+          ],
+          optionsMy: [
+            'Condition ပြည့်မီနေသရွေ့ (သို့) ပြည့်မီသည်အထိ ထပ်ခါလုပ်သော loop',
+            'အမြဲတမ်း ၁၀ ကြိမ် run သော loop',
+            'စာသားကို သိမ်းဆည်းသော variable',
+            'Comparison operator',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'When does a WHILE loop stop?',
+          questionMy: 'WHILE loop ဘယ်အချိန် ရပ်သနည်း။',
+          optionsEn: [
+            'When its condition becomes false',
+            'After exactly 5 times always',
+            'When the variable is renamed',
+            'It never stops',
+          ],
+          optionsMy: [
+            'Condition false ဖြစ်သွားသောအခါ',
+            'အမြဲတမ်း အတိအကျ ၅ ကြိမ်ပြီးနောက်',
+            'Variable အမည်ပြောင်းလိုက်သောအခါ',
+            'ဘယ်တော့မှ မရပ်ပါ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is an infinite loop?',
+          questionMy: 'Infinite loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A loop whose condition never becomes false',
+            'A loop that runs exactly once',
+            'A loop with no counter',
+            'A flowchart symbol',
+          ],
+          optionsMy: [
+            'Condition ဘယ်တော့မှ false မဖြစ်သော loop',
+            'အတိအကျ တစ်ကြိမ်သာ run သော loop',
+            'Counter မပါသော loop',
+            'Flowchart သင်္ကေတ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which loop type suits a password checker best, since the number of attempts is unknown?',
+          questionMy:
+              'ကြိုးစားရမည့် အကြိမ်ရေ မသိသောကြောင့် password checker တစ်ခုအတွက် ဘယ် loop အမျိုးအစားက ပိုသင့်တော်သနည်း။',
+          optionsEn: [
+            'A condition-controlled loop',
+            'A count-controlled loop only',
+            'No loop is needed',
+            'A drag-match activity',
+          ],
+          optionsMy: [
+            'Condition-controlled loop',
+            'Count-controlled loop သာ',
+            'Loop မလိုအပ်ပါ',
+            'Drag-match activity',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does REPEAT ... UNTIL keep doing?',
+          questionMy: 'REPEAT ... UNTIL သည် ဘာကို ဆက်လုပ်နေသနည်း။',
+          optionsEn: [
+            'Repeating until a condition becomes true',
+            'Repeating exactly once',
+            'Deleting the loop counter',
+            'Turning into an IF statement',
+          ],
+          optionsMy: [
+            'Condition true ဖြစ်သည်အထိ ထပ်ခါလုပ်ခြင်း',
+            'အတိအကျ တစ်ကြိမ်သာ ထပ်ခါလုပ်ခြင်း',
+            'Loop counter ကို ဖျက်ခြင်း',
+            'IF statement အဖြစ် ပြောင်းခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 5, Week 20: "Building a Complete Program"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek20 = CourseWeekDef(
+  id: 'course-secondary1-computing-w20',
+  weekNumber: 20,
+  titleEn: 'Building a Complete Program',
+  titleMy: 'ပရိုဂရမ်တစ်ခုလုံး တည်ဆောက်ခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w20-d1',
+      dayNumber: 1,
+      titleEn: 'Combining Variables, Selection and Loops',
+      titleMy: 'Variable, Selection နှင့် Loop များ ပေါင်းစပ်ခြင်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'Which loop keeps repeating an exact number of times?',
+          questionMy: 'ဘယ် loop က အတိအကျအကြိမ်ရေအတွက် ထပ်ခါလုပ်သနည်း။',
+          optionsEn: [
+            'A count-controlled loop (FOR)',
+            'A condition-controlled loop only',
+            'An IF statement',
+            'A variable',
+          ],
+          optionsMy: [
+            'Count-controlled loop (FOR)',
+            'Condition-controlled loop သာ',
+            'IF statement',
+            'Variable',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which loop keeps repeating based on a true/false condition?',
+          questionMy:
+              'True/false condition အပေါ်မူတည်၍ ဘယ် loop က ထပ်ခါလုပ်သနည်း။',
+          optionsEn: [
+            'A condition-controlled loop (WHILE)',
+            'A count-controlled loop only',
+            'A drag-match pair',
+            'A sorting bucket',
+          ],
+          optionsMy: [
+            'Condition-controlled loop (WHILE)',
+            'Count-controlled loop သာ',
+            'Drag-match pair',
+            'Sorting bucket',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does an IF...ELSE let a program choose between?',
+          questionMy:
+              'IF...ELSE က ပရိုဂရမ်အား ဘာနှစ်ခုကြားမှ ရွေးချယ်ခွင့်ပေးသနည်း။',
+          optionsEn: [
+            'Two different sets of actions depending on a condition',
+            'Two different loop counters',
+            'Two different data types only',
+            'Two different flowchart shapes',
+          ],
+          optionsMy: [
+            'Condition အပေါ်မူတည်၍ မတူညီသော လုပ်ဆောင်ချက် နှစ်မျိုး',
+            'မတူညီသော loop counter နှစ်ခု',
+            'မတူညီသော data type နှစ်မျိုးသာ',
+            'မတူညီသော flowchart ပုံသဏ္ဍာန် နှစ်မျိုး',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What is used to store and update information as a program runs?',
+          questionMy:
+              'ပရိုဂရမ်လည်ပတ်နေစဉ် အချက်အလက်ကို သိမ်းဆည်းပြီး update လုပ်ရန် ဘာကိုသုံးသနည်း။',
+          optionsEn: [
+            'A variable',
+            'A comparison operator',
+            'A flowchart symbol',
+            'A sorting bucket',
+          ],
+          optionsMy: [
+            'Variable',
+            'Comparison operator',
+            'Flowchart သင်္ကေတ',
+            'Sorting bucket',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why plan with pseudocode before coding a program that combines variables, selection, and loops?',
+          questionMy:
+              'Variable, selection, loop များ ပေါင်းစပ်ထားသော ပရိုဂရမ်တစ်ခုကို ကုဒ်မရေးမီ pseudocode ဖြင့် အဘယ့်ကြောင့် စီစဉ်သင့်သနည်း။',
+          optionsEn: [
+            'To organize the logic clearly before writing actual code',
+            'Because pseudocode runs faster than real code',
+            'Because computers cannot run code without pseudocode first',
+            'To avoid using any variables',
+          ],
+          optionsMy: [
+            'အမှန်တကယ်ကုဒ်မရေးမီ logic ကို ရှင်းလင်းစွာ စီစဉ်ရန်',
+            'Pseudocode သည် အစစ်ကုဒ်ထက် ပိုမြန်သောကြောင့်',
+            'ကွန်ပျူတာသည် pseudocode မရှိဘဲ ကုဒ်ကို run မရသောကြောင့်',
+            'Variable မည်သည့်အမျိုးအစားမျှ မသုံးရန်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w20-d2',
+      dayNumber: 2,
+      titleEn: 'Programming Building Blocks Recap',
+      titleMy: 'Programming အခြေခံအစိတ်အပိုင်းများ ပြန်လည်သုံးသပ်ခြင်း',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w20-recap-sequence',
+          termEn: 'Sequence',
+          termMy: 'Sequence',
+          matchEn: 'Steps that run one after another in a fixed order',
+          matchMy: 'အစဉ်လိုက် တစ်ခုပြီးတစ်ခု run သွားသော အဆင့်များ',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w20-recap-selection',
+          termEn: 'Selection',
+          termMy: 'Selection',
+          matchEn: 'Choosing between actions using an IF (and optional ELSE)',
+          matchMy:
+              'IF (နှင့် ELSE) ကို အသုံးပြု၍ လုပ်ဆောင်ချက်များအကြား ရွေးချယ်ခြင်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w20-recap-iteration',
+          termEn: 'Iteration (Loop)',
+          termMy: 'Iteration (Loop)',
+          matchEn:
+              'Repeating steps, either a set number of times or until a condition is met',
+          matchMy:
+              'အဆင့်များကို သတ်မှတ်အကြိမ်ရေ (သို့) condition ပြည့်မီသည်အထိ ထပ်ခါလုပ်ခြင်း',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w20-recap-variable',
+          termEn: 'Variable',
+          termMy: 'Variable',
+          matchEn:
+              'A named place that stores a value which can change while a program runs',
+          matchMy:
+              'ပရိုဂရမ်လည်ပတ်နေစဉ် ပြောင်းလဲနိုင်သော တန်ဖိုးကို သိမ်းဆည်းသော အမည်ပေးထားသောနေရာ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w20-recap-algorithm',
+          termEn: 'Algorithm',
+          termMy: 'Algorithm',
+          matchEn: 'A precise, ordered set of steps for solving a problem',
+          matchMy:
+              'ပြဿနာတစ်ခုကို ဖြေရှင်းရန် တိကျစွာစီစဉ်ထားသော အဆင့်များစုစည်းမှု',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w20-d3',
+      dayNumber: 3,
+      titleEn: 'Which Building Block?',
+      titleMy: 'ဘယ် အခြေခံအစိတ်အပိုင်းလဲ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Sequence', 'Selection', 'Loop', 'Variable'],
+        bucketsMy: ['Sequence', 'Selection', 'Loop', 'Variable'],
+        items: [
+          SortingItem(
+            id: 'w20-sort-totalzero',
+            labelEn: 'total = 0',
+            labelMy: 'total = 0',
+            correctBucketEn: 'Variable',
+            correctBucketMy: 'Variable',
+          ),
+          SortingItem(
+            id: 'w20-sort-iftotal',
+            labelEn: 'IF total > 100 THEN print Winner',
+            labelMy: 'IF total > 100 THEN print Winner',
+            correctBucketEn: 'Selection',
+            correctBucketMy: 'Selection',
+          ),
+          SortingItem(
+            id: 'w20-sort-forround',
+            labelEn: 'FOR round = 1 TO 5',
+            labelMy: 'FOR round = 1 TO 5',
+            correctBucketEn: 'Loop',
+            correctBucketMy: 'Loop',
+          ),
+          SortingItem(
+            id: 'w20-sort-whilelives',
+            labelEn: 'WHILE lives > 0 DO play',
+            labelMy: 'WHILE lives > 0 DO play',
+            correctBucketEn: 'Loop',
+            correctBucketMy: 'Loop',
+          ),
+          SortingItem(
+            id: 'w20-sort-askgreet',
+            labelEn: "Ask the player's name, then greet them",
+            labelMy: 'ကစားသူ၏အမည် မေးပြီး နှုတ်ဆက်ပါ',
+            correctBucketEn: 'Sequence',
+            correctBucketMy: 'Sequence',
+          ),
+          SortingItem(
+            id: 'w20-sort-attemptsplusone',
+            labelEn: 'attempts = attempts + 1',
+            labelMy: 'attempts = attempts + 1',
+            correctBucketEn: 'Variable',
+            correctBucketMy: 'Variable',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w20-d4',
+      dayNumber: 4,
+      titleEn: "Hnin's Number Guessing Game",
+      titleMy: 'နှင်း၏ ဂဏန်းယူဆ ဂိမ်း',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin's Number Guessing Game",
+        titleMy: 'နှင်း၏ ဂဏန်းယူဆ ဂိမ်း',
+        passageEn:
+            "For her end-of-term project, Hnin designed a number guessing game combining everything she had learned. She planned it with pseudocode first: a variable called secretNumber storing the answer, and a condition-controlled loop that kept asking WHILE the player's guess was not equal to secretNumber. Inside the loop, she used selection: IF the guess was too high, the program printed too high, ELSE IF the guess was too low, it printed too low. When the player finally guessed correctly, the loop's condition became false and it stopped, printing a congratulations message. Hnin tested the game with several different guesses and debugged one issue, where her IF statement compared the wrong variable, before it worked correctly every time.",
+        passageMy:
+            'Term အဆုံးပရောဂျက်အတွက် နှင်းသည် သင်ယူခဲ့ရသမျှကို ပေါင်းစပ်၍ ဂဏန်းယူဆဂိမ်းတစ်ခု ဒီဇိုင်းဆွဲခဲ့သည်။ ဦးစွာ pseudocode ဖြင့် စီစဉ်ခဲ့သည် - အဖြေကို သိမ်းဆည်းမည့် secretNumber ဟုခေါ်သော variable တစ်ခု၊ ပြီးလျှင် player ၏ယူဆချက်သည် secretNumber နှင့် မညီသရွေ့ ဆက်မေးမည့် condition-controlled loop တစ်ခု။ Loop အတွင်းတွင် selection ကို သုံးခဲ့သည် - ယူဆချက်သည် များနေပါက too high ဟု ပရင့်ထုတ်ပြီး၊ နည်းနေပါက too low ဟု ပရင့်ထုတ်သည်။ Player နောက်ဆုံးတွင် မှန်ကန်စွာ ယူဆနိုင်သောအခါ loop ၏ condition သည် false ဖြစ်သွားပြီး ရပ်သွားကာ ဂုဏ်ပြုစာသား ပရင့်ထုတ်ခဲ့သည်။ နှင်းသည် မတူညီသော ယူဆချက်များစွာဖြင့် ဂိမ်းကို စမ်းသပ်ခဲ့ပြီး သူမ၏ IF statement သည် variable မှားကို နှိုင်းယှဉ်နေသည့် ပြဿနာတစ်ခုကို ရှာဖွေပြင်ဆင်ကာ အကြိမ်တိုင်း မှန်ကန်စွာအလုပ်လုပ်သည်အထိ debug လုပ်ခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What did the secretNumber variable store?',
+            questionMy: 'SecretNumber variable သည် ဘာကို သိမ်းဆည်းထားခဲ့သနည်း။',
+            optionsEn: [
+              'The answer the player needed to guess',
+              'The number of loop iterations',
+              "The player's name",
+              'A flowchart symbol',
+            ],
+            optionsMy: [
+              'Player ယူဆရမည့် အဖြေ',
+              'Loop iteration အရေအတွက်',
+              'Player ၏အမည်',
+              'Flowchart သင်္ကေတ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What kind of loop did Hnin use to keep asking for guesses?',
+            questionMy:
+                'ဆက်လက်မေးမြန်းရန် နှင်း ဘယ် loop အမျိုးအစားကို သုံးခဲ့သနည်း။',
+            optionsEn: [
+              'A condition-controlled loop',
+              'A count-controlled loop only',
+              'No loop at all',
+              'A sorting loop',
+            ],
+            optionsMy: [
+              'Condition-controlled loop',
+              'Count-controlled loop သာ',
+              'Loop လုံးဝမသုံးပါ',
+              'Sorting loop',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the selection inside the loop check?',
+            questionMy: 'Loop အတွင်းရှိ selection သည် ဘာကို စစ်ဆေးခဲ့သနည်း။',
+            optionsEn: [
+              'Whether the guess was too high or too low',
+              'Whether the computer was on',
+              'Whether the loop counter was a valid name',
+              'Whether the pseudocode was printed',
+            ],
+            optionsMy: [
+              'ယူဆချက်သည် များနေမနေ (သို့) နည်းနေမနေ',
+              'ကွန်ပျူတာဖွင့်မဖွင့်',
+              'Loop counter သည် မှန်ကန်သောအမည် ဟုတ်မဟုတ်',
+              'Pseudocode ပရင့်ထုတ်မထုတ်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'When did the loop stop?',
+            questionMy: 'Loop ဘယ်အချိန်တွင် ရပ်သွားခဲ့သနည်း။',
+            optionsEn: [
+              'When the player finally guessed correctly',
+              'After exactly 5 guesses always',
+              'When the variable was renamed',
+              'It never stopped',
+            ],
+            optionsMy: [
+              'Player နောက်ဆုံးတွင် မှန်ကန်စွာ ယူဆနိုင်သောအခါ',
+              'အမြဲတမ်း အတိအကျ ၅ ကြိမ်ပြီးနောက်',
+              'Variable အမည်ပြောင်းလိုက်သောအခါ',
+              'ဘယ်တော့မှ မရပ်ခဲ့ပါ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What bug did Hnin find and fix?',
+            questionMy: 'နှင်း ဘယ် bug ကို တွေ့ရှိပြီး ပြင်ဆင်ခဲ့သနည်း။',
+            optionsEn: [
+              'Her IF statement was comparing the wrong variable',
+              'Her computer had no power',
+              'Her loop never started',
+              'Her pseudocode was missing entirely',
+            ],
+            optionsMy: [
+              'သူမ၏ IF statement သည် variable မှားကို နှိုင်းယှဉ်နေသည်',
+              'သူမ၏ကွန်ပျူတာတွင် ပါဝါမရှိ',
+              'သူမ၏ loop ဘယ်တော့မှ မစခဲ့',
+              'သူမ၏ pseudocode လုံးဝ ပျောက်နေသည်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w20-d5',
+      dayNumber: 5,
+      titleEn: 'Week 20 Recap Quiz',
+      titleMy: 'နှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'Which of the four building blocks chooses between actions using a condition?',
+          questionMy:
+              'အခြေခံအစိတ်အပိုင်းလေးမျိုးအနက် ဘယ်တစ်ခုက condition ကို အသုံးပြု၍ လုပ်ဆောင်ချက်များအကြား ရွေးချယ်သနည်း။',
+          optionsEn: ['Selection', 'Sequence', 'Variable', 'Data type'],
+          optionsMy: ['Selection', 'Sequence', 'Variable', 'Data type'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which building block repeats steps?',
+          questionMy: 'ဘယ် အခြေခံအစိတ်အပိုင်းက အဆင့်များကို ထပ်ခါလုပ်သနည်း။',
+          optionsEn: ['Iteration (loop)', 'Sequence', 'Selection', 'Variable'],
+          optionsMy: ['Iteration (loop)', 'Sequence', 'Selection', 'Variable'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What stores and updates information as a program runs?',
+          questionMy:
+              'ပရိုဂရမ်လည်ပတ်နေစဉ် အချက်အလက်ကို ဘာက သိမ်းဆည်းပြီး update လုပ်သနည်း။',
+          optionsEn: [
+            'A variable',
+            'A loop counter only',
+            'A flowchart shape',
+            'A comparison symbol',
+          ],
+          optionsMy: [
+            'Variable',
+            'Loop counter သာ',
+            'Flowchart ပုံသဏ္ဍာန်',
+            'Comparison symbol',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why do programmers test a program with different inputs before finishing?',
+          questionMy:
+              'Programmer များသည် ပရိုဂရမ်တစ်ခုကို မပြီးမီ မတူညီသော input များဖြင့် အဘယ့်ကြောင့် စမ်းသပ်ကြသနည်း။',
+          optionsEn: [
+            'To check it works correctly in different situations',
+            'To make the loop run forever',
+            'To delete all the variables',
+            'Because testing is optional and rarely done',
+          ],
+          optionsMy: [
+            'မတူညီသောအခြေအနေများတွင် မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်',
+            'Loop ကို အမြဲထာဝရ run စေရန်',
+            'Variable အားလုံးကို ဖျက်ရန်',
+            'Testing သည် ရွေးချယ်ခွင့်ဖြစ်ပြီး ရှားရှားပါးပါး လုပ်လေ့ရှိသောကြောင့်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is debugging?',
+          questionMy: 'Debugging ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Finding and fixing errors in a program',
+            'Adding new features to a program',
+            'Deleting a program entirely',
+            'Renaming every variable',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်တစ်ခုရှိ အမှားများကို ရှာဖွေပြင်ဆင်ခြင်း',
+            'ပရိုဂရမ်တစ်ခုသို့ feature အသစ်များ ထည့်ခြင်း',
+            'ပရိုဂရမ်တစ်ခုကို လုံးဝဖျက်ခြင်း',
+            'Variable တိုင်းကို အမည်ပြန်ပေးခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm5 = CourseTermDef(
+  id: 'course-secondary1-computing-t5',
+  termNumber: 5,
+  titleEn: 'Programming Fundamentals III',
+  titleMy: 'Programming အခြေခံများ ၃',
+  certificateTitleEn: 'Programming Fundamentals III',
+  certificateTitleMy: 'Programming အခြေခံ ၃',
+  weeks: [
+    _secondary1ComputingWeek17,
+    _secondary1ComputingWeek18,
+    _secondary1ComputingWeek19,
+    _secondary1ComputingWeek20,
+  ], // Term 5 complete (Weeks 17-20); Term 6 not authored yet
+);
+
+/// Secondary 1 Computing's full-year pathway. Terms 1-5 (Weeks 1-20) are
 /// now represented -- [totalWeeks] stays 36 (the full roadmap's true
 /// size) even though each term's [weeks] list is only a 4-week vertical
 /// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 16". Each [CourseTermDef]
+/// "Week 1 of 36" honestly rather than "Week 1 of 20". Each [CourseTermDef]
 /// is a short thematic/certificate milestone (Coursera-style), not a
 /// literal 12-week school term, so the pathway grows via more terms
-/// (5, 6, 7...) rather than by inflating any one term to 12 weeks.
+/// (6, 7, 8...) rather than by inflating any one term to 12 weeks.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -6403,6 +8037,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
     _secondary1ComputingTerm2,
     _secondary1ComputingTerm3,
     _secondary1ComputingTerm4,
+    _secondary1ComputingTerm5,
   ],
 );
 
