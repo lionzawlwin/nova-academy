@@ -21375,7 +21375,8 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
           termEn: "Character",
           termMy: "Character",
           matchEn: "A single letter, digit, symbol, or space inside a string",
-          matchMy: "String တစ်ခုအတွင်းရှိ စာလုံး၊ ဂဏန်း၊ သင်္ကေတ (သို့) space တစ်ခုတည်း",
+          matchMy:
+              "String တစ်ခုအတွင်းရှိ စာလုံး၊ ဂဏန်း၊ သင်္ကေတ (သို့) space တစ်ခုတည်း",
           colorValue: 0xFFFF6F61,
         ),
         DragMatchPair(
@@ -21402,9 +21403,9 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
           id: "w17-str-length",
           termEn: "Length",
           termMy: "Length",
-          matchEn:
-              "The number of characters in a string, found using len()",
-          matchMy: "String တစ်ခုအတွင်းရှိ character အရေအတွက်၊ len() ဖြင့်ရှာသည်",
+          matchEn: "The number of characters in a string, found using len()",
+          matchMy:
+              "String တစ်ခုအတွင်းရှိ character အရေအတွက်၊ len() ဖြင့်ရှာသည်",
           colorValue: 0xFFBB6BD9,
         ),
       ],
@@ -21481,8 +21482,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
             "စုစုသည် Term 1 တွင် list များအကြောင်း သင်ယူခဲ့ဖူးသည် -- fruits = [\"mango\", \"banana\", \"papaya\"] က တန်ဖိုးများစွာကို မည်သို့သိမ်းဆည်းသည်၊ fruits[0] က zero-based index ကိုသုံး၍ ပထမဆုံး item ကို မည်သို့ပြန်ပေးသည် စသဖြင့်ဖြစ်သည်။ ဤ Term တွင် ဆရာမက board ပေါ်တွင် name = \"Htet\" ဟုရေးပြီး class ကို name[0] က ဘာဖြစ်မည်နည်းဟု မေးခဲ့သည်။ စုစုသည် list များအတွက် တွေးခဲ့သလိုပင် တွေးကြည့်ခဲ့သည် -- list တစ်ခု၏ ပထမဆုံး item သည် index 0 တွင်ရှိလျှင် string တစ်ခု၏ ပထမဆုံး character သည်လည်း ထိုနေရာတွင်ရှိနိုင်သည်။ သူမက \"H\" ဟု ခန့်မှန်းခဲ့ပြီး မှန်ကန်ခဲ့သည်။ ဆရာမက string တစ်ခုသည် character sequence တစ်ခုသာဖြစ်ပြီး list ကို index လုပ်သကဲ့သို့ပင် zero-based စနစ်ဖြင့် index လုပ်ကြောင်း၊ သို့သော် position တစ်ခုစီတွင် list item တစ်ခုလုံးအစား character တစ်ခုတည်းသာ ထားရှိကြောင်း ရှင်းပြခဲ့သည်။ စုစုသည် နောက်ထပ် ဥပမာများ စမ်းကြည့်ခဲ့သည် -- name[1] သည် \"t\" ဖြစ်ပြီး name[2] သည် \"e\" ဖြစ်ကာ name[3] သည် \"t\" ထပ်ဖြစ်ခဲ့သည် -- \"Htet\" သည် index 0၊ 1၊ 2၊ 3 တွင် character 4 လုံးအတိအကျရှိသောကြောင့် နောက်ဆုံးအက္ခရာဖြစ်သည်။ သူမသည် ၎င်းကို len(name) ဖြင့် စစ်ဆေးခဲ့ပြီး 4 ကို ပြန်ရရှိကာ character 4 လုံးရှိကြောင်းနှင့် index 3 သည် နောက်ဆုံး valid position အမှန်ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။ Class project အတွက် စုစုသည် ရိုးရှင်းသော name badge ပရိုဂရမ်တစ်ခု ရေးခဲ့သည် -- ၎င်းက student_name = \"Su Su\" ကို သိမ်းဆည်းပြီး badge ပေါ်တွင် ပထမဆုံးအက္ခရာကို initial အကြီးအဖြစ်ပြသရန် student_name[0] ကိုသုံး၍ ကြိုဆိုစာ print ထုတ်ခဲ့ပြီး၊ badge text အရွယ်အစားမှန်ကန်စေရန် len(student_name) ကိုပါ တွဲသုံးခဲ့သည်။ String များသည် လုံးဝ အသစ်သော idea တစ်ခုမဟုတ်ဘဲ Term 1 က သူမ သိပြီးသား list များ၏ indexing စည်းမျဉ်းအတိုင်းပင် text ၏ character တစ်ခုစီအပေါ် အသုံးချထားခြင်းသာဖြစ်ကြောင်း သဘောပေါက်လိုက်သည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "For name = \"Htet\", what did Su Su correctly guess name[0] would be, and why?",
-            questionMy: "name = \"Htet\" ဆိုပါက စုစုသည် name[0] ကို ဘာဖြစ်မည်ဟု မှန်ကန်စွာ ခန့်မှန်းခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            questionEn:
+                "For name = \"Htet\", what did Su Su correctly guess name[0] would be, and why?",
+            questionMy:
+                "name = \"Htet\" ဆိုပါက စုစုသည် name[0] ကို ဘာဖြစ်မည်ဟု မှန်ကန်စွာ ခန့်မှန်းခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
             optionsEn: [
               "\"H\", because she reasoned strings use zero-based indexing just like lists",
               "\"t\", because indexing always starts from the second character",
@@ -21498,8 +21501,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "What did len(name) return for name = \"Htet\", and what did that confirm?",
-            questionMy: "name = \"Htet\" အတွက် len(name) က ဘာပြန်ပေးခဲ့ပြီး ဘာကို အတည်ပြုခဲ့သနည်း။",
+            questionEn:
+                "What did len(name) return for name = \"Htet\", and what did that confirm?",
+            questionMy:
+                "name = \"Htet\" အတွက် len(name) က ဘာပြန်ပေးခဲ့ပြီး ဘာကို အတည်ပြုခဲ့သနည်း။",
             optionsEn: [
               "4, confirming there were 4 characters and index 3 was the final valid position",
               "3, confirming there were 3 characters only",
@@ -21515,8 +21520,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "According to the passage, how is a string best described?",
-            questionMy: "ဇာတ်လမ်းအရ string တစ်ခုကို မည်သို့ဖော်ပြအကောင်းဆုံးနည်း။",
+            questionEn:
+                "According to the passage, how is a string best described?",
+            questionMy:
+                "ဇာတ်လမ်းအရ string တစ်ခုကို မည်သို့ဖော်ပြအကောင်းဆုံးနည်း။",
             optionsEn: [
               "A sequence of characters, indexed the same zero-based way as a list",
               "A type of Boolean value",
@@ -21532,8 +21539,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "In Su Su's name badge program, what was student_name[0] used for?",
-            questionMy: "စုစု၏ name badge ပရိုဂရမ်တွင် student_name[0] ကို ဘာအတွက်သုံးခဲ့သနည်း။",
+            questionEn:
+                "In Su Su's name badge program, what was student_name[0] used for?",
+            questionMy:
+                "စုစု၏ name badge ပရိုဂရမ်တွင် student_name[0] ကို ဘာအတွက်သုံးခဲ့သနည်း။",
             optionsEn: [
               "To show just the first letter as a big initial on the badge",
               "To delete the student's name",
@@ -21549,8 +21558,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "What connection does the passage draw between Term 1's lists and this term's strings?",
-            questionMy: "Term 1 ၏ list များနှင့် ဤ Term ၏ string များကြား ဇာတ်လမ်းက မည်သည့်ဆက်နွယ်မှုကို ဖော်ပြသနည်း။",
+            questionEn:
+                "What connection does the passage draw between Term 1's lists and this term's strings?",
+            questionMy:
+                "Term 1 ၏ list များနှင့် ဤ Term ၏ string များကြား ဇာတ်လမ်းက မည်သည့်ဆက်နွယ်မှုကို ဖော်ပြသနည်း။",
             optionsEn: [
               "Both use the exact same zero-based indexing idea -- lists index items, strings index characters",
               "They are completely unrelated concepts",
@@ -21610,7 +21621,8 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: "Strings are indexed using what kind of numbering?",
-          questionMy: "String များကို မည်သည့် နံပါတ်စဉ်စနစ်ဖြင့် index လုပ်သနည်း။",
+          questionMy:
+              "String များကို မည်သည့် နံပါတ်စဉ်စနစ်ဖြင့် index လုပ်သနည်း။",
           optionsEn: [
             "One-based (starting at 1)",
             "Zero-based (starting at 0)",
@@ -21626,8 +21638,10 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
           correctIndex: 1,
         ),
         QuizQuestion(
-          questionEn: "How are strings usually written so the computer recognizes them as text?",
-          questionMy: "Computer က text အဖြစ်မှတ်သားရန် string များကို မည်သို့ ပုံမှန်ရေးသားသနည်း။",
+          questionEn:
+              "How are strings usually written so the computer recognizes them as text?",
+          questionMy:
+              "Computer က text အဖြစ်မှတ်သားရန် string များကို မည်သို့ ပုံမှန်ရေးသားသနည်း။",
           optionsEn: [
             "Inside square brackets",
             "Inside quotes",
@@ -21763,7 +21777,8 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
           id: "w18-str-upper",
           termEn: ".upper()",
           termMy: ".upper()",
-          matchEn: "A string method that returns a new, all-uppercase copy of a string",
+          matchEn:
+              "A string method that returns a new, all-uppercase copy of a string",
           matchMy:
               "String တစ်ခု၏ စာလုံးအကြီးအားလုံးဖြင့်ပြန်လည်ရေးသားထားသော copy အသစ်တစ်ခု ပြန်ပေးသော string method",
           colorValue: 0xFFFF6F61,
@@ -21772,7 +21787,8 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
           id: "w18-str-lower",
           termEn: ".lower()",
           termMy: ".lower()",
-          matchEn: "A string method that returns a new, all-lowercase copy of a string",
+          matchEn:
+              "A string method that returns a new, all-lowercase copy of a string",
           matchMy:
               "String တစ်ခု၏ စာလုံးအသေးအားလုံးဖြင့်ပြန်လည်ရေးသားထားသော copy အသစ်တစ်ခု ပြန်ပေးသော string method",
           colorValue: 0xFF6FCF97,
@@ -21808,7 +21824,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
       xpReward: 10,
       sortingActivity: SortingActivity(
         bucketsEn: ["Valid Operation", "Invalid -- Strings Are Immutable"],
-        bucketsMy: ["မှန်ကန်သော Operation", "မမှန် -- String များသည် Immutable ဖြစ်သည်"],
+        bucketsMy: [
+          "မှန်ကန်သော Operation",
+          "မမှန် -- String များသည် Immutable ဖြစ်သည်",
+        ],
         items: [
           SortingItem(
             id: "w18-sort-concatname",
@@ -21871,8 +21890,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
             "ဇင်မာသည် class directory အတွက် contact card များကို ပုံစံချရန် ပရိုဂရမ်ငယ်တစ်ခု တည်ဆောက်နေသည်။ သူမသည် classmate တစ်ဦးစီ၏ အချက်အလက်များကို first_name နှင့် last_name ဟူသော string သီးခြားနှစ်ခုအဖြစ် သိမ်းဆည်းထားပြီး ၎င်းတို့ကို concatenation သုံး၍ display name တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည် - full_name = first_name + \" \" + last_name။ သူမ၏ မိတ်ဆွေ Thura Kyaw အတွက် ၎င်းက \"Thura Kyaw\" ကို ထုတ်ပေးခဲ့ပြီး card ပေါ်တွင် ပြသလိုသည့်အတိုင်းပင်ဖြစ်ခဲ့သည်။ ထို့နောက် card ၏ heading ကို uppercase ဖြင့် အမြဲပြသလိုသဖြင့် full_name.upper() ကို ခေါ်ခဲ့ပြီး \"THURA KYAW\" ကို full_name ကိုယ်တိုင် လုံးဝမပြောင်းလဲဘဲ ထုတ်ပေးခဲ့သည် -- method သည် uppercase copy အသစ်တစ်ခုသာ ပြန်ပေးခဲ့ခြင်းဖြစ်သည်။ Search feature အတွက်လည်း စာလုံးအကြီးအသေးကို စိတ်မပူဘဲ နာမည်များကို နှိုင်းယှဉ်ရန် lowercase version တစ်ခု လိုအပ်သဖြင့် full_name.lower() ကို ခေါ်ကာ \"thura kyaw\" ကို ရရှိခဲ့သည်။ စမ်းသပ်နေစဉ် ဇင်မာသည် typo တစ်ခုကို တွေ့ခဲ့သည် - classmate တစ်ဦး၏ first name ကို \"Htet\" အစား \"Htett\" ဟု ရိုက်မိသွားခဲ့သည်။ သူမ၏ ပထမ တုန့်ပြန်မှုမှာ ပိုနေသော အက္ခရာကို တိုက်ရိုက်ဖျက်ရန် name[4] = \"\" ဟု စမ်းရေးကြည့်ခဲ့သော်လည်း Python က error တက်ခဲ့သည်။ ဆရာမက string များသည် immutable ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - string တစ်ခု ဖန်တီးပြီးသည်နှင့် ၎င်း၏ character တစ်ခုကို တိုက်ရိုက်ပြောင်းလဲ၍ မရတော့ပါ။ ယင်းအစား လိုချင်သော အစိတ်အပိုင်းများကို slice လုပ်ပြီး ပေါင်းစပ် (concatenate) ခြင်းဖြင့် string အသစ်လုံးဝတစ်ခုကို တည်ဆောက်ကာ ရလဒ်ကို variable name အတူတူပင် ပြန်လည် assign ပေးရမည်ဖြစ်သည်။ ဇင်မာသည် .upper() နှင့် .lower() တို့သည် ဤစည်းမျဉ်းအတိုင်းပင် တိတ်တဆိတ် လိုက်နာနေခဲ့ကြောင်း သဘောပေါက်လိုက်သည် -- ၎င်းတို့သည် မူရင်း string ကို ဘယ်တော့မှ မပြောင်းလဲဘဲ string အသစ်တစ်ခုသာ အမြဲပြန်ပေးခဲ့ခြင်းဖြစ်ပြီး ဆရာမ ဖော်ပြခဲ့သော immutable အပြုအမူအတိုင်းပင် ဖြစ်ခဲ့သည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "How did Zin Mar join first_name and last_name into one display name?",
-            questionMy: "ဇင်မာသည် first_name နှင့် last_name ကို display name တစ်ခုအဖြစ် မည်သို့ ပေါင်းစပ်ခဲ့သနည်း။",
+            questionEn:
+                "How did Zin Mar join first_name and last_name into one display name?",
+            questionMy:
+                "ဇင်မာသည် first_name နှင့် last_name ကို display name တစ်ခုအဖြစ် မည်သို့ ပေါင်းစပ်ခဲ့သနည်း။",
             optionsEn: [
               "Using concatenation: first_name + \" \" + last_name",
               "By deleting last_name entirely",
@@ -21889,7 +21910,8 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
           ),
           QuizQuestion(
             questionEn: "What did full_name.upper() do to full_name itself?",
-            questionMy: "full_name.upper() သည် full_name ကိုယ်တိုင်ကို ဘာဖြစ်စေခဲ့သနည်း။",
+            questionMy:
+                "full_name.upper() သည် full_name ကိုယ်တိုင်ကို ဘာဖြစ်စေခဲ့သနည်း။",
             optionsEn: [
               "Nothing -- it returned a new uppercase string without changing full_name",
               "It permanently changed full_name to uppercase",
@@ -21905,8 +21927,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "What happened when Zin Mar tried name[4] = \"\" to fix a typo?",
-            questionMy: "ဇင်မာသည် typo ပြင်ရန် name[4] = \"\" ဟု စမ်းရေးရာတွင် ဘာဖြစ်ခဲ့သနည်း။",
+            questionEn:
+                "What happened when Zin Mar tried name[4] = \"\" to fix a typo?",
+            questionMy:
+                "ဇင်မာသည် typo ပြင်ရန် name[4] = \"\" ဟု စမ်းရေးရာတွင် ဘာဖြစ်ခဲ့သနည်း။",
             optionsEn: [
               "Python raised an error, because strings are immutable and cannot be changed in place",
               "It worked perfectly with no issues",
@@ -21922,8 +21946,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "According to the passage, what must you do instead of editing a string in place?",
-            questionMy: "ဇာတ်လမ်းအရ string တစ်ခုကို တိုက်ရိုက်ပြင်မည့်အစား ဘာလုပ်ရမည်နည်း။",
+            questionEn:
+                "According to the passage, what must you do instead of editing a string in place?",
+            questionMy:
+                "ဇာတ်လမ်းအရ string တစ်ခုကို တိုက်ရိုက်ပြင်မည့်အစား ဘာလုပ်ရမည်နည်း။",
             optionsEn: [
               "Build a brand-new string (e.g. by slicing and concatenating) and reassign it to the variable",
               "Delete the variable permanently",
@@ -21939,8 +21965,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "What did Zin Mar realize .upper() and .lower() had in common with the immutable rule?",
-            questionMy: ".upper() နှင့် .lower() တို့သည် immutable စည်းမျဉ်းနှင့် မည်သို့ဆင်တူကြောင်း ဇင်မာ သဘောပေါက်ခဲ့သနည်း။",
+            questionEn:
+                "What did Zin Mar realize .upper() and .lower() had in common with the immutable rule?",
+            questionMy:
+                ".upper() နှင့် .lower() တို့သည် immutable စည်းမျဉ်းနှင့် မည်သို့ဆင်တူကြောင်း ဇင်မာ သဘောပေါက်ခဲ့သနည်း။",
             optionsEn: [
               "They never changed the original string -- they always returned a new one, just like the immutable rule requires",
               "They both delete the original string permanently",
@@ -21982,8 +22010,10 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
           correctIndex: 1,
         ),
         QuizQuestion(
-          questionEn: "Why can't you write name[0] = \"J\" to edit a string in place?",
-          questionMy: "String တစ်ခုကို တိုက်ရိုက်ပြင်ရန် name[0] = \"J\" ဟု အဘယ့်ကြောင့် ရေး၍မရသနည်း။",
+          questionEn:
+              "Why can't you write name[0] = \"J\" to edit a string in place?",
+          questionMy:
+              "String တစ်ခုကို တိုက်ရိုက်ပြင်ရန် name[0] = \"J\" ဟု အဘယ့်ကြောင့် ရေး၍မရသနည်း။",
           optionsEn: [
             "Because strings are immutable",
             "Because strings have no index",
@@ -22000,14 +22030,22 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: "A method like .upper() is called using what symbol?",
-          questionMy: ".upper() ကဲ့သို့ method တစ်ခုကို မည်သည့် သင်္ကေတဖြင့် ခေါ်သနည်း။",
-          optionsEn: ["A dot (.)", "A plus sign (+)", "A colon (:)", "A comma (,)"],
+          questionMy:
+              ".upper() ကဲ့သို့ method တစ်ခုကို မည်သည့် သင်္ကေတဖြင့် ခေါ်သနည်း။",
+          optionsEn: [
+            "A dot (.)",
+            "A plus sign (+)",
+            "A colon (:)",
+            "A comma (,)",
+          ],
           optionsMy: ["Dot (.)", "Plus sign (+)", "Colon (:)", "Comma (,)"],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: "Does calling greeting.lower() change the original greeting variable?",
-          questionMy: "greeting.lower() ကို ခေါ်ခြင်းက မူရင်း greeting variable ကို ပြောင်းလဲစေသလား။",
+          questionEn:
+              "Does calling greeting.lower() change the original greeting variable?",
+          questionMy:
+              "greeting.lower() ကို ခေါ်ခြင်းက မူရင်း greeting variable ကို ပြောင်းလဲစေသလား။",
           optionsEn: [
             "No, it returns a new string; you must reassign to change greeting",
             "Yes, it always changes greeting permanently",
@@ -22021,6 +22059,792 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
             "Error ဖြစ်စေသည်",
           ],
           correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 5, Week 19: "Slicing Strings and
+// Searching Inside Text"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek19 = CourseWeekDef(
+  id: "course-secondary2-computing-w19",
+  weekNumber: 19,
+  titleEn: "Slicing Strings and Searching Inside Text",
+  titleMy: "String Slice လုပ်ခြင်းနှင့် Text အတွင်း ရှာဖွေခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w19-d1",
+      dayNumber: 1,
+      titleEn: "Slicing and the in Operator",
+      titleMy: "Slice လုပ်ခြင်းနှင့် in Operator",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For name = \"Computer\", what does name[1:3] produce?",
+          questionMy: "name = \"Computer\" ဆိုပါက name[1:3] က ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"om\"", "\"omp\"", "\"Co\"", "\"C\""],
+          optionsMy: ["\"om\"", "\"omp\"", "\"Co\"", "\"C\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For name = \"Computer\", what does name[:3] produce?",
+          questionMy: "name = \"Computer\" ဆိုပါက name[:3] က ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"Com\"", "\"omp\"", "\"Computer\"", "\"C\""],
+          optionsMy: ["\"Com\"", "\"omp\"", "\"Computer\"", "\"C\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For name = \"Computer\", what does name[4:] produce?",
+          questionMy: "name = \"Computer\" ဆိုပါက name[4:] က ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"uter\"", "\"Comp\"", "\"tuer\"", "\"Computer\""],
+          optionsMy: ["\"uter\"", "\"Comp\"", "\"tuer\"", "\"Computer\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In slicing name[start:end], is the character at position end included in the result?",
+          questionMy:
+              "name[start:end] slice တွင် position end ရှိ character သည် ရလဒ်တွင် ပါဝင်သလား။",
+          optionsEn: [
+            "No -- the end index is excluded; slicing stops just before it",
+            "Yes -- the end index is always included",
+            "Only if end is an even number",
+            "Slicing does not use an end index at all",
+          ],
+          optionsMy: [
+            "မပါဝင်ပါ -- end index ကို ချန်ထားပြီး slice သည် ၎င်း၏ အနီးကပ်မတိုင်မီတွင်ရပ်သည်",
+            "ပါဝင်သည် -- end index ကို အမြဲ ထည့်သွင်းသည်",
+            "end သည် စုံဂဏန်းဖြစ်မှသာ ပါဝင်သည်",
+            "Slicing တွင် end index ဟူ၍ လုံးဝမသုံးပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does \"an\" in \"banana\" evaluate to?",
+          questionMy: "\"an\" in \"banana\" သည် ဘာသို့ evaluate လုပ်သနည်း။",
+          optionsEn: ["True", "False", "2", "\"an\""],
+          optionsMy: ["True", "False", "2", "\"an\""],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w19-d2",
+      dayNumber: 2,
+      titleEn: "Slicing Vocabulary",
+      titleMy: "Slicing ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w19-str-slice",
+          termEn: "Slice",
+          termMy: "Slice",
+          matchEn: "A section of a string pulled out using name[start:end]",
+          matchMy: "name[start:end] သုံး၍ ထုတ်ယူသော string ၏ အပိုင်းတစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w19-str-substring",
+          termEn: "Substring",
+          termMy: "Substring",
+          matchEn: "A shorter string taken from inside a longer string",
+          matchMy: "String ရှည်တစ်ခုအတွင်းမှ ယူထားသော string တိုတစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w19-str-inoperator",
+          termEn: "in Operator",
+          termMy: "in Operator",
+          matchEn:
+              "Checks whether one string exists inside another, returning True or False",
+          matchMy:
+              "String တစ်ခုသည် နောက်တစ်ခုအတွင်း ရှိမရှိကို စစ်ဆေးပြီး True (သို့) False ပြန်ပေးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w19-str-startindex",
+          termEn: "Start Index (Inclusive)",
+          termMy: "Start Index (Inclusive)",
+          matchEn: "The first index included when slicing name[start:end]",
+          matchMy: "name[start:end] slice တွင် ထည့်သွင်းသော ပထမဆုံး index",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w19-str-endindex",
+          termEn: "End Index (Exclusive)",
+          termMy: "End Index (Exclusive)",
+          matchEn:
+              "The index slicing stops before -- not included in the result",
+          matchMy: "Slice ရပ်သည့် index -- ရလဒ်တွင် မပါဝင်ပါ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w19-d3",
+      dayNumber: 3,
+      titleEn: "Boolean Result or New String?",
+      titleMy: "Boolean ရလဒ်လား String အသစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Returns True or False", "Returns a New String"],
+        bucketsMy: [
+          "True (သို့) False ပြန်ပေးသည်",
+          "String အသစ်တစ်ခု ပြန်ပေးသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "w19-sort-anbanana",
+            labelEn: "\"an\" in \"banana\"",
+            labelMy: "\"an\" in \"banana\"",
+            correctBucketEn: "Returns True or False",
+            correctBucketMy: "True (သို့) False ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w19-sort-name14",
+            labelEn: "name[1:4]",
+            labelMy: "name[1:4]",
+            correctBucketEn: "Returns a New String",
+            correctBucketMy: "String အသစ်တစ်ခု ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w19-sort-zcat",
+            labelEn: "\"z\" in \"cat\"",
+            labelMy: "\"z\" in \"cat\"",
+            correctBucketEn: "Returns True or False",
+            correctBucketMy: "True (သို့) False ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w19-sort-word2",
+            labelEn: "word[:2]",
+            labelMy: "word[:2]",
+            correctBucketEn: "Returns a New String",
+            correctBucketMy: "String အသစ်တစ်ခု ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w19-sort-atcat",
+            labelEn: "\"at\" in \"cat\"",
+            labelMy: "\"at\" in \"cat\"",
+            correctBucketEn: "Returns True or False",
+            correctBucketMy: "True (သို့) False ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w19-sort-word2end",
+            labelEn: "word[2:]",
+            labelMy: "word[2:]",
+            correctBucketEn: "Returns a New String",
+            correctBucketMy: "String အသစ်တစ်ခု ပြန်ပေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w19-d4",
+      dayNumber: 4,
+      titleEn: "Hnin Wai's Student ID Splitter",
+      titleMy: "နှင်းဝေ၏ Student ID ခွဲခြမ်းသည့် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Student ID Splitter",
+        titleMy: "နှင်းဝေ၏ Student ID ခွဲခြမ်းသည့် ပရိုဂရမ်",
+        passageEn:
+            "Hnin Wai was building a program to process student ID codes for her class, each formatted like grade-number, for example student_id = \"SEC2-045\". She wanted to split this into two useful pieces: the grade part and the number part. Before slicing anything, she used the in operator to check the code was safely formatted: \"-\" in student_id told her whether a hyphen existed at all, protecting her program from ID codes typed without one. Once she confirmed the hyphen was present, she used slicing to pull out the pieces. student_id[:4] gave her \"SEC2\" -- everything up to, but not including, index 4, the grade portion. student_id[5:] gave her \"045\" -- everything from index 5 to the end, skipping over the hyphen itself sitting at index 4. She tested this on a second code, student_id = \"SEC1-108\": student_id[:4] produced \"SEC1\" and student_id[5:] produced \"108\", confirming her slicing worked for any grade prefix as long as it was exactly 4 characters before the hyphen. Hnin Wai also wanted to make sure a particular code like \"045\" appeared somewhere inside a longer string of registered codes joined together, so she used \"045\" in all_codes to check membership before printing a confirmation message. She realized slicing let her pull out exactly the substring she needed, while the in operator let her check for existence first -- two different tools for two different questions: what is inside here, versus is something inside here.",
+        passageMy:
+            "နှင်းဝေသည် သူမ၏ class အတွက် student ID code များကို စီမံဆောင်ရွက်မည့် ပရိုဂရမ်တစ်ခု တည်ဆောက်နေသည်။ Code တစ်ခုစီကို grade-number ပုံစံ (ဥပမာ student_id = \"SEC2-045\") ဖြင့် formatted လုပ်ထားသည်။ သူမသည် ၎င်းကို အသုံးဝင်သော အပိုင်းနှစ်ပိုင်း -- grade အပိုင်းနှင့် number အပိုင်း -- အဖြစ် ခွဲလိုခဲ့သည်။ မည်သည့်အရာကိုမျှ slice မလုပ်မီ code သည် လုံခြုံစွာ formatted လုပ်ထားခြင်းရှိမရှိကို in operator သုံး၍ ဦးစွာစစ်ဆေးခဲ့သည် - \"-\" in student_id က hyphen ရှိမရှိကို ပြောပြခဲ့ပြီး hyphen မပါဘဲ ရိုက်ထည့်လိုက်သော ID code များမှ သူမ၏ ပရိုဂရမ်ကို ကာကွယ်ပေးခဲ့သည်။ Hyphen ရှိကြောင်း အတည်ပြုပြီးနောက် အပိုင်းများကို ထုတ်ယူရန် slicing ကို အသုံးပြုခဲ့သည်။ student_id[:4] က \"SEC2\" ကို ပေးခဲ့သည် -- index 4 မတိုင်မီအထိ (index 4 ကိုမပါဘဲ) grade အပိုင်း အားလုံးဖြစ်သည်။ student_id[5:] က \"045\" ကို ပေးခဲ့သည် -- index 4 တွင်ရှိသော hyphen ကိုယ်တိုင်ကို ကျော်ကာ index 5 မှ အဆုံးအထိ အားလုံးဖြစ်သည်။ သူမသည် ဒုတိယ code တစ်ခု student_id = \"SEC1-108\" ဖြင့် ထပ်စမ်းသပ်ခဲ့သည် - student_id[:4] က \"SEC1\" ကို ထုတ်ပေးခဲ့ပြီး student_id[5:] က \"108\" ကို ထုတ်ပေးခဲ့သည်၊ ၎င်းက grade prefix မည်သည့်အရာမဆို hyphen မတိုင်မီ character 4 လုံးအတိအကျရှိလျှင် သူမ၏ slicing သည် အလုပ်ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။ နှင်းဝေသည် \"045\" ကဲ့သို့ code အသီးသီးကို ပေါင်းစည်းထားသော registered code list ရှည်တစ်ခုအတွင်း တစ်နေရာရာတွင် ရှိမရှိကိုလည်း သေချာလိုခဲ့သဖြင့် confirmation message မထုတ်မီ \"045\" in all_codes ဖြင့် membership ကို စစ်ဆေးခဲ့သည်။ Slicing က လိုအပ်သော substring ကို အတိအကျ ထုတ်ယူပေးနိုင်ပြီး in operator က ရှိမရှိကို ဦးစွာစစ်ဆေးပေးနိုင်ကြောင်း -- မေးခွန်းနှစ်ခုအတွက် tool နှစ်မျိုး ဖြစ်ကြောင်း သဘောပေါက်လိုက်သည်: ဤနေရာတွင် ဘာပါဝင်သနည်း ဆိုသည့် မေးခွန်းတစ်ခုနှင့် ဤနေရာတွင် တစ်စုံတစ်ခု ရှိသလား ဆိုသည့် မေးခွန်းတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Before slicing anything, what did Hnin Wai check using the in operator?",
+            questionMy:
+                "မည်သည့်အရာမျှ slice မလုပ်မီ နှင်းဝေသည် in operator သုံး၍ ဘာကို စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: [
+              "Whether a hyphen (\"-\") existed anywhere in student_id",
+              "Whether student_id was empty",
+              "Whether student_id was a number",
+              "Whether student_id had exactly 8 characters",
+            ],
+            optionsMy: [
+              "student_id ထဲတွင် hyphen (\"-\") ရှိမရှိ",
+              "student_id သည် ဗလာဖြစ်မဖြစ်",
+              "student_id သည် ဂဏန်းဖြစ်မဖြစ်",
+              "student_id သည် character 8 လုံးအတိအကျ ရှိမရှိ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "For student_id = \"SEC2-045\", what did student_id[:4] produce?",
+            questionMy:
+                "student_id = \"SEC2-045\" ဆိုပါက student_id[:4] က ဘာထုတ်ပေးခဲ့သနည်း။",
+            optionsEn: ["\"SEC2\"", "\"045\"", "\"SEC2-\"", "\"SEC\""],
+            optionsMy: ["\"SEC2\"", "\"045\"", "\"SEC2-\"", "\"SEC\""],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did student_id[5:] produce, and why did it start at index 5 instead of index 4?",
+            questionMy:
+                "student_id[5:] က ဘာထုတ်ပေးခဲ့ပြီး index 4 အစား index 5 မှ အဘယ့်ကြောင့် စတင်ခဲ့သနည်း။",
+            optionsEn: [
+              "\"045\", because index 4 was the hyphen itself, which needed to be skipped",
+              "\"045\", because index 4 does not exist",
+              "\"SEC2\", because slicing always starts one index late",
+              "An error, because index 5 is out of range",
+            ],
+            optionsMy: [
+              "\"045\" ဖြစ်ပြီး index 4 သည် ကျော်ရမည့် hyphen ကိုယ်တိုင် ဖြစ်နေသောကြောင့်",
+              "\"045\" ဖြစ်ပြီး index 4 ဟူ၍ မရှိသောကြောင့်",
+              "\"SEC2\" ဖြစ်ပြီး slicing သည် index တစ်ခု နောက်ကျစွာ အမြဲစတင်သောကြောင့်",
+              "Error ဖြစ်သည်၊ index 5 သည် range ပြင်ပ ရောက်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what question does the in operator answer, versus what question slicing answers?",
+            questionMy:
+                "ဇာတ်လမ်းအရ in operator က မည်သည့်မေးခွန်းကို ဖြေပြီး slicing က မည်သည့်မေးခွန်းကို ဖြေသနည်း။",
+            optionsEn: [
+              "in answers \"is something inside here?\" while slicing answers \"what is inside here?\"",
+              "Both answer the exact same question",
+              "in answers \"what is inside here?\" while slicing answers \"is something inside here?\"",
+              "Neither answers any question about strings",
+            ],
+            optionsMy: [
+              "in က \"ဤနေရာတွင် တစ်စုံတစ်ခု ရှိသလား\" ကို ဖြေပြီး slicing က \"ဤနေရာတွင် ဘာပါဝင်သနည်း\" ကို ဖြေသည်",
+              "နှစ်ခုစလုံးသည် တူညီသော မေးခွန်းကိုသာ ဖြေသည်",
+              "in က \"ဤနေရာတွင် ဘာပါဝင်သနည်း\" ကို ဖြေပြီး slicing က \"ဤနေရာတွင် တစ်စုံတစ်ခု ရှိသလား\" ကို ဖြေသည်",
+              "String များအကြောင်း မည်သည့်မေးခွန်းကိုမျှ မဖြေပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did testing on student_id = \"SEC1-108\" confirm about Hnin Wai's slicing?",
+            questionMy:
+                "student_id = \"SEC1-108\" ဖြင့် စမ်းသပ်ခြင်းက နှင်းဝေ၏ slicing အကြောင်း ဘာကို အတည်ပြုခဲ့သနည်း။",
+            optionsEn: [
+              "It worked correctly for any grade prefix, as long as it was exactly 4 characters before the hyphen",
+              "It only worked for the exact code \"SEC2-045\"",
+              "It failed and produced an error",
+              "It only worked when the number part had 4 digits",
+            ],
+            optionsMy: [
+              "Hyphen မတိုင်မီ character 4 လုံးအတိအကျရှိလျှင် grade prefix မည်သည့်အရာမဆို မှန်ကန်စွာ အလုပ်လုပ်ခဲ့သည်",
+              "\"SEC2-045\" ဟူသော code အတိအကျအတွက်သာ အလုပ်လုပ်ခဲ့သည်",
+              "မအောင်မြင်ဘဲ error ဖြစ်ခဲ့သည်",
+              "Number အပိုင်းတွင် ဂဏန်း 4 လုံးရှိမှသာ အလုပ်လုပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap Quiz",
+      titleMy: "Week 19 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For word = \"apple\", what does word[1:3] extract?",
+          questionMy: "word = \"apple\" ဆိုပါက word[1:3] က ဘာထုတ်ယူသနည်း။",
+          optionsEn: ["\"pp\"", "\"ap\"", "\"ppl\"", "\"a\""],
+          optionsMy: ["\"pp\"", "\"ap\"", "\"ppl\"", "\"a\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Does slicing name[start:end] include the character at index end?",
+          questionMy:
+              "name[start:end] slice တွင် index end ရှိ character ပါဝင်သလား။",
+          optionsEn: [
+            "No, it is excluded",
+            "Yes, it is always included",
+            "Only for strings longer than 5 characters",
+            "Slicing has no end index",
+          ],
+          optionsMy: [
+            "မပါဝင်ပါ",
+            "ပါဝင်သည် -- အမြဲ",
+            "Character 5 လုံးထက်ရှည်သော string များအတွက်သာ",
+            "Slicing တွင် end index မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does \"cat\" in \"concatenate\" evaluate to?",
+          questionMy:
+              "\"cat\" in \"concatenate\" သည် ဘာသို့ evaluate လုပ်သနည်း။",
+          optionsEn: ["True", "False", "\"cat\"", "Error"],
+          optionsMy: ["True", "False", "\"cat\"", "Error"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For word = \"apple\", what does word[:2] produce?",
+          questionMy: "word = \"apple\" ဆိုပါက word[:2] က ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"ap\"", "\"pp\"", "\"le\"", "\"apple\""],
+          optionsMy: ["\"ap\"", "\"pp\"", "\"le\"", "\"apple\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For word = \"apple\", what does word[3:] produce?",
+          questionMy: "word = \"apple\" ဆိုပါက word[3:] က ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"le\"", "\"ap\"", "\"pp\"", "\"apple\""],
+          optionsMy: ["\"le\"", "\"ap\"", "\"pp\"", "\"apple\""],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 5, Week 20: "Putting It Together: A
+// Text-Processing Function"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek20 = CourseWeekDef(
+  id: "course-secondary2-computing-w20",
+  weekNumber: 20,
+  titleEn: "Putting It Together: A Text-Processing Function",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း — Text စီမံဆောင်ရွက်သော Function",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w20-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Substring-Counting Function",
+      titleMy: "Substring ရေတွက်မည့် Function ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program needs to count how many words in a list contain a target substring. Which function signature fits?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် list ထဲရှိ word များအနက် target substring ပါသော word အရေအတွက်ကို ရေတွက်ရမည်ဆိုပါက မည်သည့် function signature က ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "def count_matches(words, target): ... return count",
+            "def count_matches(): ... return count",
+            "count_matches(words, target): return",
+            "def count_matches(words, target) return count:",
+          ],
+          optionsMy: [
+            "def count_matches(words, target): ... return count",
+            "def count_matches(): ... return count",
+            "count_matches(words, target): return",
+            "def count_matches(words, target) return count:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Inside the function, which Term 1 pattern is reused to visit every word in the list one at a time?",
+          questionMy:
+              "Function အတွင်း list ထဲရှိ word တိုင်းကို တစ်ခုချင်းစီ လည်ပတ်ရန် Term 1 ၏ မည်သည့် pattern ကို ပြန်လည်အသုံးချသနည်း။",
+          optionsEn: [
+            "A for loop, e.g. for word in words:",
+            "Binary search",
+            "A truth table",
+            "Slicing only, with no loop",
+          ],
+          optionsMy: [
+            "for loop, ဥပမာ for word in words:",
+            "Binary search",
+            "Truth table",
+            "Loop မပါဘဲ slicing တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which Boolean check decides whether the current word contains the target substring?",
+          questionMy:
+              "လက်ရှိ word တွင် target substring ပါဝင်ခြင်းရှိမရှိကို မည်သည့် Boolean check က ဆုံးဖြတ်သနည်း။",
+          optionsEn: [
+            "if target in word:",
+            "if word in target:",
+            "if word == target:",
+            "if len(target) > len(word):",
+          ],
+          optionsMy: [
+            "if target in word:",
+            "if word in target:",
+            "if word == target:",
+            "if len(target) > len(word):",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The variable count is increased by 1 inside the loop whenever a match is found. What pattern is this reusing?",
+          questionMy:
+              "Match တွေ့တိုင်း loop အတွင်း count variable ကို 1 တိုးသည်။ ၎င်းက မည်သည့် pattern ကို ပြန်လည်အသုံးချနေသနည်း။",
+          optionsEn: [
+            "The accumulator pattern from Term 1 and Term 3",
+            "Binary search",
+            "A truth table",
+            "String slicing",
+          ],
+          optionsMy: [
+            "Term 1 နှင့် Term 3 မှ accumulator pattern",
+            "Binary search",
+            "Truth table",
+            "String slicing",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should the function do once the loop has checked every word in the list?",
+          questionMy:
+              "Loop သည် list ထဲရှိ word တိုင်းကို စစ်ဆေးပြီးသည့်အခါ function က ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Return the final accumulated count",
+            "Return the original list unchanged",
+            "Return only the first matching word",
+            "Return nothing at all",
+          ],
+          optionsMy: [
+            "အဆုံးသတ် accumulated count ကို return ပြန်ပေးသည်",
+            "မူလ list မပြောင်းလဲဘဲ return ပြန်ပေးသည်",
+            "ပထမဆုံး match ဖြစ်သော word တစ်ခုတည်းကိုသာ return ပြန်ပေးသည်",
+            "ဘာမျှ return မပြန်ပေးပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w20-d2",
+      dayNumber: 2,
+      titleEn: "Text-Processing Function Vocabulary",
+      titleMy: "Text စီမံဆောင်ရွက်သော Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w20-cap-countmatchesfn",
+          termEn: "count_matches(words, target)",
+          termMy: "count_matches(words, target)",
+          matchEn:
+              "A function that takes a list of words and a target substring as parameters and returns how many words contain it",
+          matchMy:
+              "Word list နှင့် target substring ကို parameter များအဖြစ်ယူပြီး ၎င်းပါဝင်သော word အရေအတွက်ကို ပြန်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w20-cap-forwordinwords",
+          termEn: "for word in words:",
+          termMy: "for word in words:",
+          matchEn:
+              "A loop that visits every item in a list one at a time, reusing Term 1's list-loop pattern",
+          matchMy:
+              "List ထဲရှိ item တိုင်းကို တစ်ခုချင်းစီ လည်ပတ်သော loop -- Term 1 ၏ list-loop pattern ကို ပြန်လည်အသုံးချထားသည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w20-cap-accumulator",
+          termEn: "Accumulator",
+          termMy: "Accumulator",
+          matchEn:
+              "A variable like count = 0 that is increased inside a loop to build up a running total",
+          matchMy:
+              "Loop အတွင်း စုစုပေါင်းတန်ဖိုးကို ဆောက်တည်ရန် တိုးသော count = 0 ကဲ့သို့ variable",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w20-cap-ifintarget",
+          termEn: "if target in word:",
+          termMy: "if target in word:",
+          matchEn:
+              "A Boolean check using the in operator to decide whether the current word contains the target substring",
+          matchMy:
+              "လက်ရှိ word တွင် target substring ပါဝင်ခြင်းရှိမရှိကို in operator သုံး၍ ဆုံးဖြတ်သော Boolean check",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w20-cap-returncount",
+          termEn: "return count",
+          termMy: "return count",
+          matchEn:
+              "Sending the final accumulated total back to whoever called the function",
+          matchMy:
+              "Function ကို call ခေါ်သူထံ အဆုံးသတ် accumulated total ကို ပြန်ပို့ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w20-d3",
+      dayNumber: 3,
+      titleEn: "Loop and Accumulator, or Boolean Check?",
+      titleMy: "Loop နှင့် Accumulator လား Boolean Check လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Part of the Loop and Accumulator",
+          "Part of the Boolean Membership Check",
+        ],
+        bucketsMy: [
+          "Loop နှင့် Accumulator ၏ အစိတ်အပိုင်း",
+          "Boolean Membership Check ၏ အစိတ်အပိုင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "w20-sort-forloop",
+            labelEn: "for word in words:",
+            labelMy: "for word in words:",
+            correctBucketEn: "Part of the Loop and Accumulator",
+            correctBucketMy: "Loop နှင့် Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w20-sort-countzero",
+            labelEn: "count = 0",
+            labelMy: "count = 0",
+            correctBucketEn: "Part of the Loop and Accumulator",
+            correctBucketMy: "Loop နှင့် Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w20-sort-countplus1",
+            labelEn: "count = count + 1",
+            labelMy: "count = count + 1",
+            correctBucketEn: "Part of the Loop and Accumulator",
+            correctBucketMy: "Loop နှင့် Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w20-sort-iftargetinword",
+            labelEn: "if target in word:",
+            labelMy: "if target in word:",
+            correctBucketEn: "Part of the Boolean Membership Check",
+            correctBucketMy: "Boolean Membership Check ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w20-sort-anbanana",
+            labelEn: "\"an\" in \"banana\"",
+            labelMy: "\"an\" in \"banana\"",
+            correctBucketEn: "Part of the Boolean Membership Check",
+            correctBucketMy: "Boolean Membership Check ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w20-sort-returncount",
+            labelEn: "return count",
+            labelMy: "return count",
+            correctBucketEn: "Part of the Loop and Accumulator",
+            correctBucketMy: "Loop နှင့် Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w20-d4",
+      dayNumber: 4,
+      titleEn: "Moe Moe's Word Game Counter",
+      titleMy: "မိုးမိုး၏ Word Game ရေတွက်ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Word Game Counter",
+        titleMy: "မိုးမိုး၏ Word Game ရေတွက်ပရိုဂရမ်",
+        passageEn:
+            "For her end-of-term project, Moe Moe combined everything she had learned since Term 1 into a single function. She had a list of words collected from a word game, words = [\"apple\", \"banana\", \"grape\", \"orange\", \"mango\"], and she wanted to know how many of them contained the two-letter combination \"an\". She wrote a function called count_matches(words, target) that took the list and the target substring as parameters. Inside, she reused Term 1's list-loop pattern: for word in words: visited each word one at a time. She also reused the accumulator pattern from Term 1 and Term 3's searching algorithms, starting with count = 0 before the loop began. For each word, an if-statement used this term's in operator to test the Boolean condition target in word -- exactly the same substring check she had practiced all term, just applied inside a loop instead of on a single string by itself. Whenever the check was True, she added 1 to count using count = count + 1, reusing the exact accumulator step from Term 2 Week 8's capstone. Once the loop had visited every word in the list, the function returned count, handing the final total back to whoever had called it -- reusing the return pattern from every function she had written since Term 2. Calling count_matches(words, \"an\") checked each word in turn: \"apple\" did not contain \"an\"; \"banana\" did, so count became 1; \"grape\" did not; \"orange\" did, so count became 2; and \"mango\" did too, so count became 3. The function returned 3. Moe Moe tested it again with count_matches(words, \"z\"), and since no word in the list contained \"z\", the loop finished without ever adding to count, and the function correctly returned 0. She realized her one small function had quietly combined a full year of computing: a list to loop through from Term 1, a function with parameters and a return value from Term 2, the accumulator and loop pattern refined across Term 1 and Term 3's searching algorithms, and this term's string in operator to test each word -- proof that every topic she had learned was really one connected way of thinking about programs.",
+        passageMy:
+            "နှစ်ကုန်စီမံကိန်းအတွက် မိုးမိုးသည် Term 1 မှစတင်ပြီး သင်ယူခဲ့သမျှအားလုံးကို function တစ်ခုတည်းအတွင်း ပေါင်းစပ်ခဲ့သည်။ သူမတွင် word game မှ စုဆောင်းထားသော word list တစ်ခုရှိသည် - words = [\"apple\", \"banana\", \"grape\", \"orange\", \"mango\"] - ၎င်းတို့အနက် မည်မျှသော word များတွင် \"an\" ဟူသော အက္ခရာနှစ်လုံးပေါင်းစပ်မှု ပါဝင်သည်ကို သိလိုခဲ့သည်။ သူမသည် list နှင့် target substring ကို parameter များအဖြစ်ယူသော count_matches(words, target) ဟူသော function တစ်ခု ရေးခဲ့သည်။ အတွင်း၌ Term 1 ၏ list-loop pattern ကို ပြန်လည်အသုံးချကာ for word in words: က word တစ်ခုချင်းစီကို တစ်ခုတည်းအလှည့်ကျ လည်ပတ်ခဲ့သည်။ Loop မစတင်မီ count = 0 ဖြင့် Term 1 နှင့် Term 3 ၏ searching algorithm များမှ accumulator pattern ကိုလည်း ပြန်လည်အသုံးချခဲ့သည်။ Word တစ်ခုစီအတွက် if-statement က ဤ Term ၏ in operator ကိုသုံး၍ target in word ဟူသော Boolean condition ကို စစ်ဆေးခဲ့သည် -- တစ်နှစ်လုံး လေ့ကျင့်ခဲ့သော substring စစ်ဆေးမှုအတိုင်းပင်ဖြစ်ပြီး string တစ်ခုတည်းအပေါ်အစား loop တစ်ခုအတွင်း အသုံးချထားခြင်းသာ ကွာခြားသည်။ စစ်ဆေးမှု True ဖြစ်တိုင်း count = count + 1 ဖြင့် count ကို 1 တိုးခဲ့ပြီး Term 2 Week 8 ၏ capstone မှ accumulator အဆင့်အတိုင်းပင် ပြန်လည်အသုံးချခဲ့သည်။ Loop သည် list ထဲရှိ word တိုင်းကို ပြီးဆုံးအောင် လည်ပတ်ပြီးနောက် function သည် count ကို return ပြန်ပေးခဲ့ပြီး Term 2 မှစ၍ ရေးခဲ့သမျှ function တိုင်း၏ return pattern ကို ပြန်လည်အသုံးချခဲ့သည်။ count_matches(words, \"an\") ကို call ခေါ်ခြင်းက word တစ်ခုချင်းစီကို အလှည့်ကျ စစ်ဆေးခဲ့သည် -- \"apple\" တွင် \"an\" မပါ၊ \"banana\" တွင်ပါသည် (count သည် 1 ဖြစ်လာသည်)၊ \"grape\" တွင် မပါ၊ \"orange\" တွင်ပါသည် (count သည် 2 ဖြစ်လာသည်)၊ \"mango\" တွင်လည်း ပါသည် (count သည် 3 ဖြစ်လာသည်)။ Function သည် 3 ကို return ပြန်ပေးခဲ့သည်။ မိုးမိုးသည် count_matches(words, \"z\") ဖြင့် ထပ်စမ်းသပ်ခဲ့ပြီး list ထဲတွင် \"z\" ပါသော word တစ်ခုမျှ မရှိသောကြောင့် loop သည် count ကို တစ်ကြိမ်မျှ မတိုးဘဲ ပြီးဆုံးသွားကာ function က 0 ကို မှန်ကန်စွာ return ပြန်ပေးခဲ့သည်။ သူမ၏ function ငယ်တစ်ခုသည် ကွန်ပျူတာနှစ်တစ်နှစ်လုံးကို တိတ်တဆိတ် ပေါင်းစပ်ထားကြောင်း သဘောပေါက်လိုက်သည် -- Term 1 မှ လည်ပတ်ရန် list၊ Term 2 မှ parameter နှင့် return value ပါသော function၊ Term 1 နှင့် Term 3 ၏ searching algorithm များတွင် သန့်စင်ခဲ့သော accumulator နှင့် loop pattern၊ ထို့ပြင် word တစ်ခုချင်းစီကို စစ်ဆေးရန် ဤ Term ၏ string in operator - သင်ခဲ့သမျှ ခေါင်းစဉ်တိုင်းသည် ပရိုဂရမ်များအကြောင်း ဆက်စပ်နေသော တွေးခေါ်ပုံတစ်ခုတည်းသာ ဖြစ်ကြောင်း သက်သေပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What two parameters does count_matches(words, target) take, and what does it return?",
+            questionMy:
+                "count_matches(words, target) က parameter နှစ်ခု မည်သည်တို့ကို ယူပြီး ဘာကို return ပြန်ပေးသနည်း။",
+            optionsEn: [
+              "A list of words and a target substring; it returns how many words contain the target",
+              "Only a target substring; it returns True or False",
+              "A single word; it returns that word's length",
+              "Two numbers; it returns their sum",
+            ],
+            optionsMy: [
+              "Word list နှင့် target substring; target ပါဝင်သော word အရေအတွက်ကို return ပြန်ပေးသည်",
+              "Target substring တစ်ခုတည်းသာ; True (သို့) False ကို return ပြန်ပေးသည်",
+              "Word တစ်ခုတည်း; ထို word ၏ length ကို return ပြန်ပေးသည်",
+              "ဂဏန်းနှစ်ခု; ၎င်းတို့၏ ပေါင်းလဒ်ကို return ပြန်ပေးသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which Term 1 loop pattern did the function reuse to visit each word?",
+            questionMy:
+                "Word တစ်ခုချင်းစီကို လည်ပတ်ရန် function က Term 1 ၏ မည်သည့် loop pattern ကို ပြန်လည်အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              "for word in words:",
+              "while True:",
+              "if word == target:",
+              "binary_search(words, target)",
+            ],
+            optionsMy: [
+              "for word in words:",
+              "while True:",
+              "if word == target:",
+              "binary_search(words, target)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which Boolean condition decided whether to increase count for a given word?",
+            questionMy:
+                "Word တစ်ခုအတွက် count ကို တိုးရန် မည်သည့် Boolean condition က ဆုံးဖြတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "target in word",
+              "word in target",
+              "len(word) == len(target)",
+              "word == target",
+            ],
+            optionsMy: [
+              "target in word",
+              "word in target",
+              "len(word) == len(target)",
+              "word == target",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did count_matches(words, \"z\") return 0?",
+            questionMy:
+                "count_matches(words, \"z\") သည် 0 ကို အဘယ့်ကြောင့် return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because no word in the list contained \"z\", so count was never increased from 0",
+              "Because \"z\" caused an error",
+              "Because the list was empty",
+              "Because count started at 1 instead of 0",
+            ],
+            optionsMy: [
+              "List ထဲတွင် \"z\" ပါသော word တစ်ခုမျှ မရှိသောကြောင့် count ကို 0 မှ တစ်ကြိမ်မျှ မတိုးခဲ့ခြင်းဖြစ်သည်",
+              "\"z\" က error ဖြစ်စေခဲ့သောကြောင့်",
+              "List သည် ဗလာဖြစ်နေခဲ့သောကြောင့်",
+              "count သည် 0 အစား 1 မှ စတင်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Moe Moe realize her one function combined?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သူမ၏ function တစ်ခုတည်းသည် ဘာများကို ပေါင်းစပ်ထားကြောင်း မိုးမိုး သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "A full year of computing -- lists, functions, accumulators, loops, and this term's string in operator, all in one place",
+              "Only this term's string topics, with nothing from before",
+              "Nothing related to any previous term",
+              "Only Boolean logic from Term 4",
+            ],
+            optionsMy: [
+              "ကွန်ပျူတာနှစ်တစ်နှစ်လုံး -- list, function, accumulator, loop နှင့် ဤ Term ၏ string in operator, အားလုံးကို တစ်နေရာတည်းတွင်",
+              "ယခင်က မည်သည့်အရာမှ မပါဘဲ ဤ Term ၏ string ခေါင်းစဉ်များသာ",
+              "ယခင် Term များနှင့် လုံးဝ မသက်ဆိုင်သောအရာ",
+              "Term 4 မှ Boolean logic သာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap Quiz",
+      titleMy: "Week 20 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In count_matches(words, target), which Term 1 pattern is reused to visit every word?",
+          questionMy:
+              "count_matches(words, target) တွင် word တိုင်းကို လည်ပတ်ရန် Term 1 ၏ မည်သည့် pattern ကို ပြန်လည်အသုံးချသနည်း။",
+          optionsEn: [
+            "for word in words:",
+            "while count < 0:",
+            "if word == target:",
+            "return words",
+          ],
+          optionsMy: [
+            "for word in words:",
+            "while count < 0:",
+            "if word == target:",
+            "return words",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What value does the accumulator count start at before the loop begins?",
+          questionMy:
+              "Loop မစတင်မီ accumulator count သည် မည်သည့်တန်ဖိုးမှ စတင်သနည်း။",
+          optionsEn: ["0", "1", "-1", "None"],
+          optionsMy: ["0", "1", "-1", "None"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which Boolean check tests whether a word contains the target substring?",
+          questionMy:
+              "Word တစ်ခုတွင် target substring ပါဝင်ခြင်းရှိမရှိကို မည်သည့် Boolean check က စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "target in word",
+            "word == target",
+            "len(word) > 0",
+            "target == word",
+          ],
+          optionsMy: [
+            "target in word",
+            "word == target",
+            "len(word) > 0",
+            "target == word",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does count_matches([\"banana\", \"mango\"], \"an\") return?",
+          questionMy:
+              "count_matches([\"banana\", \"mango\"], \"an\") က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: ["1", "2", "0", "\"an\""],
+          optionsMy: ["1", "2", "0", "\"an\""],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the function return once it has finished checking every word in the list?",
+          questionMy:
+              "List ထဲရှိ word တိုင်းကို စစ်ဆေးပြီးသည့်အခါ function က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The running Boolean value only",
+            "The original list",
+            "The final accumulated count",
+            "Nothing",
+          ],
+          optionsMy: [
+            "Running Boolean value တစ်ခုတည်း",
+            "မူလ list",
+            "အဆုံးသတ် accumulated count",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 2,
         ),
       ],
     ),
@@ -22089,14 +22913,33 @@ const CourseTermDef _secondary2ComputingTerm4 = CourseTermDef(
   // programming arc from Terms 1-3
 );
 
+const CourseTermDef _secondary2ComputingTerm5 = CourseTermDef(
+  id: "course-secondary2-computing-t5",
+  termNumber: 5,
+  titleEn: "Working with Text: String Manipulation",
+  titleMy: "Text နှင့် လုပ်ဆောင်ခြင်း — String Manipulation",
+  certificateTitleEn: "Working with Text: String Manipulation",
+  certificateTitleMy: "Text နှင့် လုပ်ဆောင်ခြင်း — String Manipulation",
+  weeks: [
+    _secondary2ComputingWeek17,
+    _secondary2ComputingWeek18,
+    _secondary2ComputingWeek19,
+    _secondary2ComputingWeek20,
+  ], // Term 5 complete (Weeks 17-20) -- fifth term of the Secondary 2
+  // pathway, returning to the programming arc after Term 4's Boolean
+  // breadth strand, this time applying indexing/loop/function skills to
+  // strings instead of lists
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
 /// than more terms grafted onto Secondary 1. Term 1 (Weeks 1-4, Lists and
 /// Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term 3 (Weeks
-/// 9-12, Searching and Sorting Algorithms), and Term 4 (Weeks 13-16,
-/// Boolean Logic and Truth Tables) are now authored; [totalWeeks] stays
-/// 36 for the same "honest progress bar" reason Secondary 1's did while
+/// 9-12, Searching and Sorting Algorithms), Term 4 (Weeks 13-16, Boolean
+/// Logic and Truth Tables), and Term 5 (Weeks 17-20, Working with Text:
+/// String Manipulation) are now authored; [totalWeeks] stays 36 for the
+/// same "honest progress bar" reason Secondary 1's did while
 /// only a handful of weeks exist. Term 1 picks up directly where
 /// Secondary 1 Term 9 left off: its Week 36 capstone program used single
 /// variables, selection, and loops, and Term 1's four weeks extend that
@@ -22133,7 +22976,20 @@ const CourseTermDef _secondary2ComputingTerm4 = CourseTermDef(
 /// Term 2's functions and Term 1's lists -- a function that takes a
 /// parameter, evaluates a compound Boolean condition (optionally looping
 /// over a list with an accumulator, reusing Term 2 Week 8's pattern), and
-/// returns True or False.
+/// returns True or False. Term 5 returns to the programming arc after
+/// that breadth strand, applying indexing/loop/function skills to
+/// strings instead of lists: Week 17 shows a string is a character
+/// sequence indexed the same zero-based way as a list; Week 18 adds
+/// concatenation and the .upper()/.lower() methods, introducing
+/// immutability (a string can never be edited in place -- methods always
+/// return a new string); Week 19 adds slicing (name[start:end], with an
+/// exclusive end index) and the in operator for substring membership
+/// tests; Week 20 closes the term with a capstone function,
+/// count_matches(words, target), that loops through a list of words
+/// (Term 1's list-loop pattern), uses an if-statement with the in
+/// operator to test each one (this term's Boolean membership check), and
+/// accumulates a running count (Term 1/Term 3's accumulator pattern)
+/// before returning it (Term 2's return-value pattern).
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -22141,14 +22997,15 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, and Boolean logic.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, and string manipulation.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm နှင့် Boolean logic ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic နှင့် string manipulation ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary2ComputingTerm1,
     _secondary2ComputingTerm2,
     _secondary2ComputingTerm3,
     _secondary2ComputingTerm4,
+    _secondary2ComputingTerm5,
   ],
 );
