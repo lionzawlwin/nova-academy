@@ -8010,17 +8010,1516 @@ const CourseTermDef _secondary1ComputingTerm5 = CourseTermDef(
     _secondary1ComputingWeek18,
     _secondary1ComputingWeek19,
     _secondary1ComputingWeek20,
-  ], // Term 5 complete (Weeks 17-20); Term 6 not authored yet
+  ], // Term 5 complete (Weeks 17-20)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-5 (Weeks 1-20) are
+// =====================================================================
+// Secondary 1 Computing -- Term 6, Week 21: "Binary: The Computer's Only
+// Language"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek21 = CourseWeekDef(
+  id: 'course-secondary1-computing-w21',
+  weekNumber: 21,
+  titleEn: "Binary: The Computer's Only Language",
+  titleMy: 'Binary - ကွန်ပျူတာ၏ တစ်ခုတည်းသောဘာသာစကား',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w21-d1',
+      dayNumber: 1,
+      titleEn: 'Why Do Computers Only Use 0s and 1s?',
+      titleMy: 'ကွန်ပျူတာသည် အဘယ့်ကြောင့် 0 နှင့် 1 ကိုသာ အသုံးပြုသနည်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'In Week 8 you learned every bit is either a 0 or a 1. What real, physical thing inside a computer does a bit actually represent?',
+          questionMy:
+              'Week 8 တွင် bit တိုင်းသည် 0 သို့မဟုတ် 1 ဖြစ်ကြောင်း သင်ယူခဲ့ပြီးဖြစ်သည်။ bit တစ်ခုသည် ကွန်ပျူတာအတွင်းရှိ မည်သည့်အရာအမှန်ကို ကိုယ်စားပြုသနည်း။',
+          optionsEn: [
+            'An electrical signal that is either on or off',
+            'A picture drawn on the screen',
+            'A sound the speaker makes',
+            'A key on the keyboard',
+          ],
+          optionsMy: [
+            'On သို့မဟုတ် off ဖြစ်သော လျှပ်စစ်အချက်ပြမှု',
+            'မျက်နှာပြင်ပေါ်တွင် ရေးဆွဲထားသော ပုံတစ်ပုံ',
+            'Speaker မှထွက်သော အသံ',
+            'Keyboard ပေါ်ရှိ ခလုတ်တစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What do we call a sequence of bits read together, such as 1011?',
+          questionMy:
+              '1011 ကဲ့သို့ အတူတကွဖတ်ရသော bit များစဉ်ကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: [
+            'A binary number',
+            'A single bit',
+            'A pixel',
+            'An algorithm',
+          ],
+          optionsMy: ['Binary ဂဏန်း', 'Bit တစ်ခုတည်း', 'Pixel', 'Algorithm'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which of these is a valid binary number, using only the digits computers understand?',
+          questionMy:
+              'အောက်ပါတို့တွင် ကွန်ပျူတာနားလည်သော ဂဏန်းများကိုသာ အသုံးပြုထားသော မှန်ကန်သော binary ဂဏန်းမှာ အဘယ်နည်း။',
+          optionsEn: ['1011', '1021', '2010', '1029'],
+          optionsMy: ['1011', '1021', '2010', '1029'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'A row of 4 light switches, each either ON or OFF, is like 4 bits. How many different ON/OFF patterns can 4 switches make?',
+          questionMy:
+              'ON သို့မဟုတ် OFF ဖြစ်နိုင်သော မီးခလုတ် ၄ ခုတန်းစီသည် bit ၄ ခုနှင့်တူသည်။ မီးခလုတ် ၄ ခုသည် မတူညီသော ON/OFF ပုံစံ မည်မျှပြုလုပ်နိုင်သနည်း။',
+          optionsEn: ['16', '4', '8', '2'],
+          optionsMy: ['16', '4', '8', '2'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why can electronic circuits inside a computer represent binary so easily?',
+          questionMy:
+              'ကွန်ပျူတာအတွင်းရှိ လျှပ်စစ်ဆားကစ်များသည် binary ကို အဘယ့်ကြောင့် လွယ်ကူစွာ ကိုယ်စားပြုနိုင်သနည်း။',
+          optionsEn: [
+            'Because a circuit can easily be either on (current flowing) or off (no current)',
+            'Because circuits can count to 10 directly',
+            'Because circuits understand English letters',
+            'Because circuits can only turn red or blue',
+          ],
+          optionsMy: [
+            'ဆားကစ်တစ်ခုသည် on (လျှပ်စီးကြောင်းစီး) သို့မဟုတ် off (လျှပ်စီးကြောင်းမစီး) ဖြစ်နိုင်၍ လွယ်ကူစွာ ကိုယ်စားပြုနိုင်သောကြောင့်',
+            'ဆားကစ်များသည် 10 အထိ တိုက်ရိုက်ရေတွက်နိုင်သောကြောင့်',
+            'ဆားကစ်များသည် English အက္ခရာများကို နားလည်သောကြောင့်',
+            'ဆားကစ်များသည် အနီရောင် သို့မဟုတ် အပြာရောင်သာ ပြောင်းနိုင်သောကြောင့်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w21-d2',
+      dayNumber: 2,
+      titleEn: 'Binary Vocabulary',
+      titleMy: 'Binary ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w21-bin-binarynumber',
+          termEn: 'Binary Number',
+          termMy: 'Binary Number',
+          matchEn: 'A sequence of bits, such as 1011, made only of 0s and 1s',
+          matchMy: '1011 ကဲ့သို့ 0 နှင့် 1 သာဖြင့်ဖွဲ့စည်းထားသော bit များစဉ်',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w21-bin-bitpattern',
+          termEn: 'Bit Pattern',
+          termMy: 'Bit Pattern',
+          matchEn:
+              'A specific arrangement of 0s and 1s that can represent different data',
+          matchMy:
+              'ဒေတာအမျိုးမျိုးကို ကိုယ်စားပြုနိုင်သော 0 နှင့် 1 ၏ သီးခြားစီစဉ်မှု',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w21-bin-onstate',
+          termEn: 'On State (1)',
+          termMy: 'On State (1)',
+          matchEn:
+              'A bit representing an electrical signal that is switched on',
+          matchMy: 'ဖွင့်ထားသော လျှပ်စစ်အချက်ပြမှုကို ကိုယ်စားပြုသော bit',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w21-bin-offstate',
+          termEn: 'Off State (0)',
+          termMy: 'Off State (0)',
+          matchEn:
+              'A bit representing an electrical signal that is switched off',
+          matchMy: 'ပိတ်ထားသော လျှပ်စစ်အချက်ပြမှုကို ကိုယ်စားပြုသော bit',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w21-bin-circuit',
+          termEn: 'Electronic Circuit',
+          termMy: 'Electronic Circuit',
+          matchEn:
+              'The physical hardware inside a computer that can be either on or off',
+          matchMy:
+              'On သို့မဟုတ် off ဖြစ်နိုင်သော ကွန်ပျူတာအတွင်းရှိ ရုပ်ပိုင်းဆိုင်ရာ hardware',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w21-d3',
+      dayNumber: 3,
+      titleEn: 'Valid Binary Number or Not?',
+      titleMy: 'မှန်ကန်သော Binary ဂဏန်းလား၊ မဟုတ်လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Valid Binary Number', 'Not a Valid Binary Number'],
+        bucketsMy: ['Valid Binary Number', 'Not a Valid Binary Number'],
+        items: [
+          SortingItem(
+            id: 'w21-sort-1011',
+            labelEn: '1011',
+            labelMy: '1011',
+            correctBucketEn: 'Valid Binary Number',
+            correctBucketMy: 'Valid Binary Number',
+          ),
+          SortingItem(
+            id: 'w21-sort-1101',
+            labelEn: '1101',
+            labelMy: '1101',
+            correctBucketEn: 'Valid Binary Number',
+            correctBucketMy: 'Valid Binary Number',
+          ),
+          SortingItem(
+            id: 'w21-sort-1021',
+            labelEn: '1021',
+            labelMy: '1021',
+            correctBucketEn: 'Not a Valid Binary Number',
+            correctBucketMy: 'Not a Valid Binary Number',
+          ),
+          SortingItem(
+            id: 'w21-sort-0000',
+            labelEn: '0000',
+            labelMy: '0000',
+            correctBucketEn: 'Valid Binary Number',
+            correctBucketMy: 'Valid Binary Number',
+          ),
+          SortingItem(
+            id: 'w21-sort-119',
+            labelEn: '119',
+            labelMy: '119',
+            correctBucketEn: 'Not a Valid Binary Number',
+            correctBucketMy: 'Not a Valid Binary Number',
+          ),
+          SortingItem(
+            id: 'w21-sort-2222',
+            labelEn: '2222',
+            labelMy: '2222',
+            correctBucketEn: 'Not a Valid Binary Number',
+            correctBucketMy: 'Not a Valid Binary Number',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w21-d4',
+      dayNumber: 4,
+      titleEn: "Su Su's Light Switch Pattern",
+      titleMy: 'စုစု၏ မီးခလုတ် ပုံစံ',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Light Switch Pattern",
+        titleMy: 'စုစု၏ မီးခလုတ် ပုံစံ',
+        passageEn:
+            "Su Su's class was learning about binary, so her teacher gave everyone four light switches in a row and asked them to explore how many different patterns of ON and OFF they could make. Su Su realised each switch was just like a bit: ON meant 1, and OFF meant 0. With four switches, she could write down patterns like '0000', '0001', '1010', and '1111'. After trying every combination carefully, she counted exactly 16 different patterns -- the same number Kyaw Kyaw's teacher had mentioned back in Week 8 when talking about how much a group of bits can represent. Su Su realised that a computer's memory is really just millions of tiny switches like hers, all turning on and off to store every photo, message, and app on a phone.",
+        passageMy:
+            "စုစု၏ အတန်းသည် binary အကြောင်း သင်ယူနေကြရာ ဆရာမက အားလုံးအား တန်းစီထားသော မီးခလုတ်လေးခုကို ပေးပြီး ON နှင့် OFF ပုံစံ မည်မျှပြုလုပ်နိုင်သနည်းဟု စူးစမ်းခိုင်းခဲ့သည်။ စုစုသည် မီးခလုတ်တစ်ခုစီသည် bit တစ်ခုနှင့် တူညီကြောင်း သဘောပေါက်လိုက်သည် - ON ဆိုသည်မှာ 1 ဖြစ်ပြီး OFF ဆိုသည်မှာ 0 ဖြစ်သည်။ မီးခလုတ်လေးခုဖြင့် '0000'၊ '0001'၊ '1010'၊ '1111' ကဲ့သို့သော ပုံစံများကို ရေးမှတ်နိုင်ခဲ့သည်။ ဖြစ်နိုင်သည့် ပေါင်းစပ်မှုအားလုံးကို ဂရုတစိုက်စမ်းသပ်ပြီးနောက် ပုံစံ ၁၆ မျိုးရှိကြောင်း အတိအကျ ရေတွက်နိုင်ခဲ့သည် -- Week 8 တွင် ကျော်ကျော်၏ ဆရာက bit အုပ်စုတစ်ခု မည်မျှ ကိုယ်စားပြုနိုင်ကြောင်း ပြောခဲ့စဉ်က ဖော်ပြခဲ့သည့် ဂဏန်းအတိုင်းပင်ဖြစ်သည်။ ကွန်ပျူတာ၏ memory သည် သူမ၏ မီးခလုတ်များကဲ့သို့ ခလုတ်ငယ်များစွာ ဖွဲ့စည်းထားပြီး ဖုန်းရှိ ဓာတ်ပုံ၊ စာတိုင်း၊ app တိုင်းကို သိမ်းဆည်းရန် on/off အမြဲပြောင်းလဲနေခြင်းသာဖြစ်ကြောင်း စုစု သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did each light switch represent in Su Su's class?",
+            questionMy:
+                'စုစုတို့အတန်းတွင် မီးခလုတ်တစ်ခုစီသည် ဘာကို ကိုယ်စားပြုခဲ့သနည်း။',
+            optionsEn: [
+              'A single bit',
+              'A whole byte',
+              'A pixel',
+              'A kilobyte',
+            ],
+            optionsMy: ['Bit တစ်ခုတည်း', 'Byte တစ်ခုလုံး', 'Pixel', 'Kilobyte'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did ON mean in Su Su's pattern?",
+            questionMy: 'စုစု၏ပုံစံတွင် ON ဆိုသည်မှာ ဘာကိုဆိုလိုသနည်း။',
+            optionsEn: ['1', '0', 'A letter', 'A color'],
+            optionsMy: ['1', '0', 'အက္ခရာတစ်ခု', 'အရောင်တစ်ခု'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'How many different ON/OFF patterns could 4 switches make?',
+            questionMy:
+                'မီးခလုတ် ၄ ခုသည် ON/OFF ပုံစံ မည်မျှ ပြုလုပ်နိုင်ခဲ့သနည်း။',
+            optionsEn: ['16', '4', '8', '12'],
+            optionsMy: ['16', '4', '8', '12'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is a computer's memory really made of, according to the passage?",
+            questionMy:
+                'စာပိုဒ်အရ ကွန်ပျူတာ၏ memory သည် အမှန်တကယ် ဘာဖြင့်ဖွဲ့စည်းထားသနည်း။',
+            optionsEn: [
+              'Millions of tiny switches turning on and off',
+              'Millions of tiny light bulbs that never turn off',
+              'A single large switch',
+              'Paper punched with holes',
+            ],
+            optionsMy: [
+              'On/off အမြဲပြောင်းလဲနေသော ခလုတ်ငယ်များစွာ',
+              'ဘယ်တော့မှ မပိတ်သော မီးလုံးငယ်များစွာ',
+              'ခလုတ်ကြီးတစ်ခုတည်း',
+              'အပေါက်ဖောက်ထားသော စက္ကူ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'Which of these is a valid pattern using only 0s and 1s?',
+            questionMy:
+                'အောက်ပါတို့တွင် 0 နှင့် 1 ကိုသာ အသုံးပြုထားသော မှန်ကန်သောပုံစံမှာ အဘယ်နည်း။',
+            optionsEn: ['1010', '1020', '2020', '1200'],
+            optionsMy: ['1010', '1020', '2020', '1200'],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w21-d5',
+      dayNumber: 5,
+      titleEn: 'Week 21 Recap Quiz',
+      titleMy: 'နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What two digits does binary use?',
+          questionMy: 'Binary သည် ဂဏန်းနှစ်လုံးအနက် ဘာကိုသုံးသနည်း။',
+          optionsEn: ['0 and 1', '1 and 2', 'A and B', '2 and 4'],
+          optionsMy: ['0 and 1', '1 and 2', 'A and B', '2 and 4'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does a bit represent electronically?',
+          questionMy: 'Bit တစ်ခုသည် လျှပ်စစ်အားဖြင့် ဘာကို ကိုယ်စားပြုသနည်း။',
+          optionsEn: [
+            'An on or off electrical signal',
+            'A spoken word',
+            'A printed letter',
+            'A musical note',
+          ],
+          optionsMy: [
+            'On သို့မဟုတ် off လျှပ်စစ်အချက်ပြမှု',
+            'ပြောဆိုထားသော စကားလုံး',
+            'ပုံနှိပ်ထားသော အက္ခရာ',
+            'ဂီတမှတ်တစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'How many different patterns can 4 bits make?',
+          questionMy: 'Bit ၄ ခုသည် ပုံစံ မည်မျှ ပြုလုပ်နိုင်သနည်း။',
+          optionsEn: ['16', '4', '8', '2'],
+          optionsMy: ['16', '4', '8', '2'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is a valid binary number?',
+          questionMy: 'အောက်ပါတို့တွင် မှန်ကန်သော binary ဂဏန်းမှာ အဘယ်နည်း။',
+          optionsEn: ['0110', '0190', '3210', '0192'],
+          optionsMy: ['0110', '0190', '3210', '0192'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What do we call a sequence of bits such as 1010?',
+          questionMy: '1010 ကဲ့သို့ bit များစဉ်ကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: [
+            'A binary number',
+            'A pixel',
+            'A byte range',
+            'An algorithm',
+          ],
+          optionsMy: ['Binary ဂဏန်း', 'Pixel', 'Byte range', 'Algorithm'],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 6, Week 22: "Converting Between Denary
+// and Binary"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek22 = CourseWeekDef(
+  id: 'course-secondary1-computing-w22',
+  weekNumber: 22,
+  titleEn: 'Converting Between Denary and Binary',
+  titleMy: 'Denary နှင့် Binary ကူးပြောင်းခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w22-d1',
+      dayNumber: 1,
+      titleEn: 'The Place Value Table',
+      titleMy: 'Place Value ဇယား',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'In an 8-bit binary number, what is the value of the left-most (biggest) place?',
+          questionMy:
+              '8-bit binary ဂဏန်းတစ်ခုတွင် ဘယ်ဘက်စွန်း (အကြီးဆုံး) နေရာ၏ တန်ဖိုးမှာ အဘယ်နည်း။',
+          optionsEn: ['128', '64', '256', '8'],
+          optionsMy: ['128', '64', '256', '8'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What do we call the everyday number system that uses digits 0-9, like the ones used for scores and prices?',
+          questionMy:
+              'Score များနှင့် စျေးနှုန်းများအတွက်သုံးသည့် 0-9 ဂဏန်းများကို အသုံးပြုသော နေ့စဉ်ဂဏန်းစနစ်ကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['Denary (decimal)', 'Binary', 'ASCII', 'Pixel'],
+          optionsMy: ['Denary (decimal)', 'Binary', 'ASCII', 'Pixel'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'To convert binary 00001010 to denary, which place values have a 1 in them?',
+          questionMy:
+              'Binary 00001010 ကို denary သို့ ကူးပြောင်းရန် ဘယ် place value များတွင် 1 ပါသနည်း။',
+          optionsEn: ['8 and 2', '4 and 1', '128 and 64', '16 and 2'],
+          optionsMy: ['8 and 2', '4 and 1', '128 and 64', '16 and 2'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What is the largest denary value that fits in a single byte (8 bits)?',
+          questionMy:
+              'Byte တစ်ခု (bit 8 ခု) တွင် ဆံ့နိုင်သော အကြီးဆုံး denary တန်ဖိုးမှာ အဘယ်နည်း။',
+          optionsEn: ['255', '256', '128', '99'],
+          optionsMy: ['255', '256', '128', '99'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'When converting binary to denary, what do you do with the place values where the bit is 1?',
+          questionMy:
+              'Binary ကို denary သို့ ကူးပြောင်းရာတွင် bit သည် 1 ဖြစ်သော place value များကို မည်သို့ပြုလုပ်ရသနည်း။',
+          optionsEn: [
+            'Add them all together',
+            'Multiply them all together',
+            'Ignore them',
+            'Subtract them from 255',
+          ],
+          optionsMy: [
+            'အားလုံးကို ပေါင်းလိုက်ရသည်',
+            'အားလုံးကို မြှောက်လိုက်ရသည်',
+            'လျစ်လျူရှုလိုက်ရသည်',
+            '255 မှနှုတ်လိုက်ရသည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w22-d2',
+      dayNumber: 2,
+      titleEn: 'Conversion Vocabulary',
+      titleMy: 'ကူးပြောင်းခြင်း ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w22-conv-denary',
+          termEn: 'Denary',
+          termMy: 'Denary',
+          matchEn: 'The everyday base-10 number system using digits 0-9',
+          matchMy: '0-9 ဂဏန်းများကို အသုံးပြုသော နေ့စဉ် base-10 ဂဏန်းစနစ်',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w22-conv-placevalue',
+          termEn: 'Place Value',
+          termMy: 'Place Value',
+          matchEn:
+              "The value a digit's position gives it, such as 128, 64, 32, and so on in binary",
+          matchMy:
+              'Binary တွင် 128၊ 64၊ 32 စသဖြင့် ဂဏန်း၏ အနေအထားကပေးသော တန်ဖိုး',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w22-conv-bintoden',
+          termEn: 'Binary to Denary',
+          termMy: 'Binary to Denary',
+          matchEn:
+              'Adding up the place values wherever a binary number has a 1',
+          matchMy:
+              'Binary ဂဏန်းတွင် 1 ရှိသည့်နေရာတိုင်းရှိ place value များကို ပေါင်းခြင်း',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w22-conv-dentobin',
+          termEn: 'Denary to Binary',
+          termMy: 'Denary to Binary',
+          matchEn:
+              'Working out which place values add up to make a given denary number',
+          matchMy:
+              'ပေးထားသော denary ဂဏန်းတစ်ခု ဖြစ်လာစေရန် ပေါင်းရမည့် place value များကို ရှာဖွေခြင်း',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w22-conv-byterange',
+          termEn: 'Byte Range',
+          termMy: 'Byte Range',
+          matchEn:
+              'The full set of denary values a single byte can store, 0 to 255',
+          matchMy:
+              'Byte တစ်ခု သိမ်းဆည်းနိုင်သော denary တန်ဖိုးအပြည့်အစုံ 0 မှ 255',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w22-d3',
+      dayNumber: 3,
+      titleEn: 'Odd or Even?',
+      titleMy: 'ဂဏန်းမ ဂဏန်းစုံ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Even Denary Value', 'Odd Denary Value'],
+        bucketsMy: ['Even Denary Value', 'Odd Denary Value'],
+        items: [
+          SortingItem(
+            id: 'w22-sort-1010',
+            labelEn: '1010',
+            labelMy: '1010',
+            correctBucketEn: 'Even Denary Value',
+            correctBucketMy: 'Even Denary Value',
+          ),
+          SortingItem(
+            id: 'w22-sort-1011',
+            labelEn: '1011',
+            labelMy: '1011',
+            correctBucketEn: 'Odd Denary Value',
+            correctBucketMy: 'Odd Denary Value',
+          ),
+          SortingItem(
+            id: 'w22-sort-0110',
+            labelEn: '0110',
+            labelMy: '0110',
+            correctBucketEn: 'Even Denary Value',
+            correctBucketMy: 'Even Denary Value',
+          ),
+          SortingItem(
+            id: 'w22-sort-0111',
+            labelEn: '0111',
+            labelMy: '0111',
+            correctBucketEn: 'Odd Denary Value',
+            correctBucketMy: 'Odd Denary Value',
+          ),
+          SortingItem(
+            id: 'w22-sort-1000',
+            labelEn: '1000',
+            labelMy: '1000',
+            correctBucketEn: 'Even Denary Value',
+            correctBucketMy: 'Even Denary Value',
+          ),
+          SortingItem(
+            id: 'w22-sort-1001',
+            labelEn: '1001',
+            labelMy: '1001',
+            correctBucketEn: 'Odd Denary Value',
+            correctBucketMy: 'Odd Denary Value',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w22-d4',
+      dayNumber: 4,
+      titleEn: "Ko Ko's Score Converter",
+      titleMy: 'ကိုကို၏ Score ကူးပြောင်းစက်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Ko's Score Converter",
+        titleMy: 'ကိုကို၏ Score ကူးပြောင်းစက်',
+        passageEn:
+            "Ko Ko was building a simple scoreboard program and wanted to understand how the computer stored his score internally. His teacher showed him the place value table for an 8-bit byte: 128, 64, 32, 16, 8, 4, 2, and 1. To convert the binary number 00010110 to denary, Ko Ko looked at which place values had a 1: the 16, the 4, and the 2. Adding 16 + 4 + 2 gave him 22, so 00010110 in binary was the same as 22 in denary -- exactly his current game score. Ko Ko also learned that since a byte has only 8 bits, the biggest score it could ever store was 255, made from adding up every single place value at once. If his game needed a higher score than that, the program would need two bytes instead of one.",
+        passageMy:
+            'ကိုကိုသည် ရိုးရှင်းသော scoreboard ပရိုဂရမ်တစ်ခုကို တည်ဆောက်နေရာ ကွန်ပျူတာက သူ့ score ကို အတွင်းပိုင်းတွင် မည်သို့ သိမ်းဆည်းထားသည်ကို နားလည်လိုခဲ့သည်။ သူ့ဆရာက 8-bit byte တစ်ခု၏ place value ဇယားကို ပြသခဲ့သည် - 128၊ 64၊ 32၊ 16၊ 8၊ 4၊ 2၊ 1။ Binary ဂဏန်း 00010110 ကို denary သို့ ကူးပြောင်းရန် ကိုကိုသည် 1 ပါသော place value များကို ကြည့်ခဲ့သည် - 16၊ 4၊ နှင့် 2။ 16 + 4 + 2 ကို ပေါင်းလိုက်ရာ 22 ရရှိခဲ့ပြီး 00010110 binary သည် denary 22 နှင့် အတူတူပင်ဖြစ်ကြောင်း -- ၎င်းသည် သူ၏ ယခုလက်ရှိ ဂိမ်း score အတိအကျပင်ဖြစ်သည်။ Byte တစ်ခုတွင် bit ၈ ခုသာရှိသောကြောင့် သိမ်းဆည်းနိုင်သော အကြီးဆုံး score မှာ place value အားလုံးကို တစ်ပြိုင်နက်ပေါင်းလိုက်သော 255 ဖြစ်ကြောင်း ကိုကို သိရှိခဲ့သည်။ သူ့ဂိမ်းက ၎င်းထက် score ပိုမြင့်လိုအပ်ပါက ပရိုဂရမ်သည် byte တစ်ခုအစား နှစ်ခု လိုအပ်လာပေမည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was Ko Ko's binary number equal to in denary?",
+            questionMy:
+                'ကိုကို၏ binary ဂဏန်းသည် denary တွင် မည်မျှ ညီမျှသနည်း။',
+            optionsEn: ['22', '16', '10', '255'],
+            optionsMy: ['22', '16', '10', '255'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which place values had a 1 in Ko Ko's binary number?",
+            questionMy:
+                'ကိုကို၏ binary ဂဏန်းတွင် ဘယ် place value များတွင် 1 ပါခဲ့သနည်း။',
+            optionsEn: [
+              '16, 4, and 2',
+              '128, 64, and 32',
+              '8 and 1',
+              '256 and 128',
+            ],
+            optionsMy: [
+              '16, 4, and 2',
+              '128, 64, and 32',
+              '8 and 1',
+              '256 and 128',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What is the largest denary value a single byte can store?',
+            questionMy:
+                'Byte တစ်ခု သိမ်းဆည်းနိုင်သော အကြီးဆုံး denary တန်ဖိုးမှာ အဘယ်နည်း။',
+            optionsEn: ['255', '256', '128', '99'],
+            optionsMy: ['255', '256', '128', '99'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What would Ko Ko need if his game needed a score higher than a single byte can store?",
+            questionMy:
+                'ကိုကို၏ ဂိမ်းတွင် byte တစ်ခုသိမ်းနိုင်သည်ထက် score ပိုမြင့်လိုအပ်ပါက ဘာလိုအပ်မည်နည်း။',
+            optionsEn: [
+              'Two bytes instead of one',
+              'A smaller place value table',
+              'No bits at all',
+              'A negative binary number',
+            ],
+            optionsMy: [
+              'Byte တစ်ခုအစား နှစ်ခု',
+              'ပိုသေးငယ်သော place value ဇယား',
+              'Bit လုံးဝမရှိခြင်း',
+              'Negative binary ဂဏန်းတစ်ခု',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Ko Ko's teacher show him to help with the conversion?",
+            questionMy:
+                'ကူးပြောင်းခြင်းကို ကူညီရန် ကိုကို၏ဆရာက ဘာကို ပြသခဲ့သနည်း။',
+            optionsEn: [
+              'The place value table',
+              'A flowchart',
+              'An ASCII table',
+              'A pixel grid',
+            ],
+            optionsMy: [
+              'Place value ဇယား',
+              'Flowchart',
+              'ASCII ဇယား',
+              'Pixel grid',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w22-d5',
+      dayNumber: 5,
+      titleEn: 'Week 22 Recap Quiz',
+      titleMy: 'နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is the biggest place value in an 8-bit byte?',
+          questionMy:
+              '8-bit byte တစ်ခုတွင် အကြီးဆုံး place value မှာ အဘယ်နည်း။',
+          optionsEn: ['128', '64', '256', '1'],
+          optionsMy: ['128', '64', '256', '1'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is the largest denary value a byte can store?',
+          questionMy:
+              'Byte တစ်ခု သိမ်းဆည်းနိုင်သော အကြီးဆုံး denary တန်ဖိုးမှာ အဘယ်နည်း။',
+          optionsEn: ['255', '256', '128', '64'],
+          optionsMy: ['255', '256', '128', '64'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'To convert binary to denary, what do you do with place values where the bit is 1?',
+          questionMy:
+              'Binary ကို denary ပြောင်းရန် bit 1 ဖြစ်သော place value များကို မည်သို့ပြုလုပ်ရသနည်း။',
+          optionsEn: [
+            'Add them together',
+            'Multiply them',
+            'Ignore them',
+            'Subtract them',
+          ],
+          optionsMy: [
+            'ပေါင်းလိုက်သည်',
+            'မြှောက်လိုက်သည်',
+            'လျစ်လျူရှုသည်',
+            'နှုတ်လိုက်သည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is the everyday base-10 number system called?',
+          questionMy: 'နေ့စဉ်သုံး base-10 ဂဏန်းစနစ်ကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['Denary', 'Binary', 'ASCII', 'Pixel'],
+          optionsMy: ['Denary', 'Binary', 'ASCII', 'Pixel'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'How many bits are in one byte?',
+          questionMy: 'Byte တစ်ခုတွင် bit မည်မျှရှိသနည်း။',
+          optionsEn: ['8', '2', '4', '16'],
+          optionsMy: ['8', '2', '4', '16'],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 6, Week 23: "Representing Text and
+// Images in Binary"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek23 = CourseWeekDef(
+  id: 'course-secondary1-computing-w23',
+  weekNumber: 23,
+  titleEn: 'Representing Text and Images in Binary',
+  titleMy: 'Binary ဖြင့် Text နှင့် Image ကို ကိုယ်စားပြုခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w23-d1',
+      dayNumber: 1,
+      titleEn: 'From Characters to Numbers: ASCII',
+      titleMy: 'Character များမှ ဂဏန်းများသို့ - ASCII',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "How does a computer store a letter like 'A'?",
+          questionMy:
+              "ကွန်ပျူတာသည် 'A' ကဲ့သို့ အက္ခရာတစ်ခုကို မည်သို့ သိမ်းဆည်းသနည်း။",
+          optionsEn: [
+            'As a number, using a character code such as ASCII',
+            'As a tiny photograph of the letter',
+            'As a sound recording',
+            'As a physical switch permanently set to that letter',
+          ],
+          optionsMy: [
+            'ASCII ကဲ့သို့ character code တစ်ခုကို အသုံးပြု၍ ဂဏန်းတစ်ခုအဖြစ်',
+            'အက္ခရာ၏ ဓာတ်ပုံငယ်တစ်ပုံအဖြစ်',
+            'အသံသွင်းချက်တစ်ခုအဖြစ်',
+            'ထိုအက္ခရာအတွက် အမြဲတမ်း သတ်မှတ်ထားသော ရုပ်ပိုင်းဆိုင်ရာ ခလုတ်တစ်ခုအဖြစ်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What is the name of the common character code system that assigns each letter, digit, and symbol a number?',
+          questionMy:
+              'အက္ခရာ၊ ဂဏန်း၊ သင်္ကေတတိုင်းကို ဂဏန်းတစ်ခုပေးသော ရေပန်းစားသည့် character code စနစ်ကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['ASCII', 'Pixel', 'Byte', 'Binary'],
+          optionsMy: ['ASCII', 'Pixel', 'Byte', 'Binary'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Once a character has a character code (a number), how does the computer actually store that number?',
+          questionMy:
+              'Character တစ်ခုသည် character code (ဂဏန်း) ရရှိပြီးနောက် ကွန်ပျူတာသည် ထိုဂဏန်းကို မည်သို့ သိမ်းဆည်းသနည်း။',
+          optionsEn: [
+            'As binary (0s and 1s)',
+            'As a picture',
+            'As a sound wave',
+            'As a color',
+          ],
+          optionsMy: [
+            'Binary (0s and 1s) အဖြစ်',
+            'ပုံအဖြစ်',
+            'အသံလှိုင်းအဖြစ်',
+            'အရောင်အဖြစ်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a pixel?',
+          questionMy: 'Pixel ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'One single colored dot that makes up part of a digital image',
+            'A single character code',
+            'A unit of storage larger than a byte',
+            'A type of loop',
+          ],
+          optionsMy: [
+            'Digital ပုံတစ်ပုံ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သော အရောင်ရှိအစက်တစ်စက်',
+            'Character code တစ်ခုတည်း',
+            'Byte ထက်ကြီးသော သိုလှောင်ခန်းယူနစ်',
+            'Loop အမျိုးအစားတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'How is the color of a single pixel stored inside a computer?',
+          questionMy:
+              'Pixel တစ်ခု၏ အရောင်ကို ကွန်ပျူတာအတွင်း မည်သို့ သိမ်းဆည်းသနည်း။',
+          optionsEn: [
+            'As a binary number',
+            'As a spoken word',
+            'As a character code only',
+            'It is not stored at all',
+          ],
+          optionsMy: [
+            'Binary ဂဏန်းအဖြစ်',
+            'ပြောဆိုထားသော စကားလုံးအဖြစ်',
+            'Character code အဖြစ်သာ',
+            'လုံးဝ မသိမ်းဆည်းပါ',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w23-d2',
+      dayNumber: 2,
+      titleEn: 'Text and Image Vocabulary',
+      titleMy: 'Text နှင့် Image ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w23-txt-ascii',
+          termEn: 'ASCII',
+          termMy: 'ASCII',
+          matchEn:
+              'A character code system that assigns every letter, digit, and symbol a number',
+          matchMy:
+              'အက္ခရာ၊ ဂဏန်း၊ သင်္ကေတတိုင်းကို ဂဏန်းတစ်ခုပေးသော character code စနစ်',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w23-txt-charcode',
+          termEn: 'Character Code',
+          termMy: 'Character Code',
+          matchEn:
+              'The specific number assigned to one character, later stored in binary',
+          matchMy:
+              'Character တစ်ခုသို့ ပေးအပ်ထားသော သီးခြားဂဏန်း၊ နောက်ပိုင်း binary ဖြင့် သိမ်းဆည်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w23-txt-pixel',
+          termEn: 'Pixel',
+          termMy: 'Pixel',
+          matchEn:
+              'One small colored dot; images are made of a grid of many pixels',
+          matchMy:
+              'အရောင်ရှိ အစက်ငယ်တစ်စက်၊ ပုံများသည် pixel များစွာ၏ ဇယားဖြင့်ဖွဲ့စည်း',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w23-txt-resolution',
+          termEn: 'Resolution',
+          termMy: 'Resolution',
+          matchEn:
+              'The number of pixels that make up an image -- more pixels means a sharper picture',
+          matchMy:
+              'ပုံတစ်ပုံဖွဲ့စည်းသော pixel အရေအတွက် -- pixel များလေ ပုံရှင်းလင်းလေ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w23-txt-bitmap',
+          termEn: 'Bitmap Image',
+          termMy: 'Bitmap Image',
+          matchEn:
+              'A digital image stored as a grid of pixels, each with its own binary color value',
+          matchMy:
+              'Pixel တစ်ခုစီတွင် ကိုယ်ပိုင် binary အရောင်တန်ဖိုးရှိသော ဇယားအဖြစ် သိမ်းဆည်းထားသော digital ပုံ',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w23-d3',
+      dayNumber: 3,
+      titleEn: 'Text or Image?',
+      titleMy: 'Text လား Image လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Represents Text', 'Represents an Image'],
+        bucketsMy: ['Represents Text', 'Represents an Image'],
+        items: [
+          SortingItem(
+            id: 'w23-sort-asciicode',
+            labelEn: 'ASCII code',
+            labelMy: 'ASCII code',
+            correctBucketEn: 'Represents Text',
+            correctBucketMy: 'Represents Text',
+          ),
+          SortingItem(
+            id: 'w23-sort-characterset',
+            labelEn: 'Character set',
+            labelMy: 'Character set',
+            correctBucketEn: 'Represents Text',
+            correctBucketMy: 'Represents Text',
+          ),
+          SortingItem(
+            id: 'w23-sort-pixel',
+            labelEn: 'Pixel',
+            labelMy: 'Pixel',
+            correctBucketEn: 'Represents an Image',
+            correctBucketMy: 'Represents an Image',
+          ),
+          SortingItem(
+            id: 'w23-sort-pixelcolor',
+            labelEn: 'Pixel color value',
+            labelMy: 'Pixel color value',
+            correctBucketEn: 'Represents an Image',
+            correctBucketMy: 'Represents an Image',
+          ),
+          SortingItem(
+            id: 'w23-sort-resolution',
+            labelEn: 'Resolution',
+            labelMy: 'Resolution',
+            correctBucketEn: 'Represents an Image',
+            correctBucketMy: 'Represents an Image',
+          ),
+          SortingItem(
+            id: 'w23-sort-lettera',
+            labelEn: 'Letter A stored as a number',
+            labelMy: 'Letter A ကို ဂဏန်းအဖြစ်သိမ်းဆည်းခြင်း',
+            correctBucketEn: 'Represents Text',
+            correctBucketMy: 'Represents Text',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w23-d4',
+      dayNumber: 4,
+      titleEn: "Moe Moe's Secret Message",
+      titleMy: 'မိုမို၏ လျှို့ဝှက်စာ',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Secret Message",
+        titleMy: 'မိုမို၏ လျှို့ဝှက်စာ',
+        passageEn:
+            "Moe Moe wanted to send her friend a secret message using only numbers. She learned that every character on her keyboard already has a secret number of its own, called a character code -- in the common ASCII system, the letter 'A' is 65, 'B' is 66, and so on. Moe Moe wrote her friend's name as a list of ASCII numbers instead of letters, knowing the computer would store each of those numbers in binary underneath anyway. Her classmate Thiha was working on something similar with a tiny 4x4 pixel image of a smiley face: each of the 16 pixels had its own color, and each color was stored as a binary number too. Moe Moe realised that whether it was a text message or a picture, a computer only ever really stored one thing -- numbers written in binary.",
+        passageMy:
+            "မိုမိုသည် သူငယ်ချင်းထံ ဂဏန်းများသာအသုံးပြု၍ လျှို့ဝှက်စာတစ်စောင် ပို့လိုခဲ့သည်။ သူမ၏ keyboard ပေါ်ရှိ character တိုင်းသည် character code ဟုခေါ်သော ကိုယ်ပိုင်လျှို့ဝှက်ဂဏန်းရှိပြီးဖြစ်ကြောင်း သိရှိခဲ့သည် -- ရေပန်းစားသော ASCII စနစ်တွင် 'A' သည် 65 ဖြစ်ပြီး 'B' သည် 66 ဖြစ်သည်။ မိုမိုသည် သူ့သူငယ်ချင်းအမည်ကို အက္ခရာအစား ASCII ဂဏန်းများစာရင်းအဖြစ် ရေးခဲ့ပြီး ကွန်ပျူတာက ထိုဂဏန်းတစ်ခုစီကို binary ဖြင့် အတွင်းတွင် သိမ်းဆည်းမည်ကို သိထားသည်။ သူမ၏အတန်းသား သီဟသည် 4x4 pixel ပါ smiley face ပုံငယ်တစ်ပုံနှင့် ဆင်တူသော အလုပ်တစ်ခု လုပ်နေသည် - pixel ၁၆ ခုစီတွင် ၎င်းတို့၏ အရောင်ရှိပြီး ထိုအရောင်တစ်ခုစီကိုလည်း binary ဂဏန်းအဖြစ် သိမ်းဆည်းထားသည်။ Text message ဖြစ်စေ၊ ပုံဖြစ်စေ ကွန်ပျူတာသည် binary ဖြင့်ရေးထားသော ဂဏန်းများကိုသာ အမှန်တကယ် သိမ်းဆည်းနေခြင်းသာဖြစ်ကြောင်း မိုမို သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What is a character code?',
+            questionMy: 'Character code ဆိုသည်မှာ အဘယ်နည်း။',
+            optionsEn: [
+              'A secret number assigned to each character',
+              'A type of image file',
+              'A loop that repeats letters',
+              'A pixel grid',
+            ],
+            optionsMy: [
+              'Character တစ်ခုစီသို့ ပေးအပ်ထားသော လျှို့ဝှက်ဂဏန်း',
+              'ပုံဖိုင် အမျိုးအစားတစ်ခု',
+              'အက္ခရာများကို ထပ်ခါလုပ်သော loop',
+              'Pixel grid',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "In ASCII, what number does the letter 'A' have?",
+            questionMy: "ASCII တွင် 'A' အက္ခရာသည် ဂဏန်းမည်မျှရှိသနည်း။",
+            optionsEn: ['65', '66', '1', '100'],
+            optionsMy: ['65', '66', '1', '100'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many pixels were in Thiha's smiley face image?",
+            questionMy: 'သီဟ၏ smiley face ပုံတွင် pixel မည်မျှရှိခဲ့သနည်း။',
+            optionsEn: ['16', '4', '8', '64'],
+            optionsMy: ['16', '4', '8', '64'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How is each pixel's color stored inside a computer?",
+            questionMy:
+                'Pixel တစ်ခုစီ၏ အရောင်ကို ကွန်ပျူတာအတွင်း မည်သို့ သိမ်းဆည်းသနည်း။',
+            optionsEn: [
+              'As a binary number',
+              'As a spoken description',
+              'As a character code only',
+              'As a physical color chip',
+            ],
+            optionsMy: [
+              'Binary ဂဏန်းအဖြစ်',
+              'ပြောဆိုထားသော ဖော်ပြချက်အဖြစ်',
+              'Character code အဖြစ်သာ',
+              'ရုပ်ပိုင်းဆိုင်ရာ အရောင်ခြစ်တစ်ခုအဖြစ်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Moe Moe's realisation, what does a computer really store underneath everything?",
+            questionMy:
+                'မိုမို၏ သဘောပေါက်မှုအရ ကွန်ပျူတာသည် အားလုံး၏ အောက်ခံတွင် အမှန်တကယ် ဘာကို သိမ်းဆည်းထားသနည်း။',
+            optionsEn: [
+              'Numbers written in binary',
+              'Pictures drawn by hand',
+              'Sounds recorded on tape',
+              'Letters printed on paper',
+            ],
+            optionsMy: [
+              'Binary ဖြင့်ရေးထားသော ဂဏန်းများ',
+              'လက်ဖြင့်ရေးဆွဲထားသော ပုံများ',
+              'Tape ပေါ်တွင်သွင်းထားသော အသံများ',
+              'စက္ကူပေါ်တွင် ပုံနှိပ်ထားသော အက္ခရာများ',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w23-d5',
+      dayNumber: 5,
+      titleEn: 'Week 23 Recap Quiz',
+      titleMy: 'နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'What does ASCII assign to each letter, digit, and symbol?',
+          questionMy:
+              'ASCII သည် အက္ခရာ၊ ဂဏန်း၊ သင်္ကေတတိုင်းကို ဘာပေးအပ်သနည်း။',
+          optionsEn: ['A number', 'A color', 'A sound', 'A loop'],
+          optionsMy: ['ဂဏန်းတစ်ခု', 'အရောင်တစ်ခု', 'အသံတစ်ခု', 'Loop တစ်ခု'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a pixel?',
+          questionMy: 'Pixel ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'One colored dot that makes up part of an image',
+            'A character code',
+            'A unit larger than a byte',
+            'A loop counter',
+          ],
+          optionsMy: [
+            'ပုံ၏တစ်စိတ်တစ်ပိုင်းဖြစ်သော အရောင်ရှိအစက်တစ်စက်',
+            'Character code',
+            'Byte ထက်ကြီးသော ယူနစ်',
+            'Loop counter',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'How is a character code eventually stored inside a computer?',
+          questionMy:
+              'Character code တစ်ခုကို ကွန်ပျူတာအတွင်း နောက်ဆုံး မည်သို့ သိမ်းဆည်းသနည်း။',
+          optionsEn: ['As binary', 'As a sound', 'As a color chip', 'As paper'],
+          optionsMy: [
+            'Binary အဖြစ်',
+            'အသံအဖြစ်',
+            'အရောင်ခြစ်အဖြစ်',
+            'စက္ကူအဖြစ်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does resolution measure?',
+          questionMy: 'Resolution သည် ဘာကို တိုင်းတာသနည်း။',
+          optionsEn: [
+            'The number of pixels that make up an image',
+            'The number of characters in a message',
+            'The speed of a loop',
+            'The size of a variable name',
+          ],
+          optionsMy: [
+            'ပုံတစ်ပုံဖွဲ့စည်းသော pixel အရေအတွက်',
+            'စာတိုတစ်ခုရှိ character အရေအတွက်',
+            'Loop ၏အမြန်နှုန်း',
+            'Variable အမည်၏ အရွယ်အစား',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What do both text and images ultimately get stored as?',
+          questionMy:
+              'Text နှင့် image နှစ်ခုစလုံးကို နောက်ဆုံးတွင် ဘာအဖြစ် သိမ်းဆည်းသနည်း။',
+          optionsEn: [
+            'Binary numbers',
+            'Spoken words',
+            'Physical objects',
+            'Colored ink',
+          ],
+          optionsMy: [
+            'Binary ဂဏန်းများ',
+            'ပြောဆိုထားသော စကားလုံးများ',
+            'ရုပ်ပိုင်းဆိုင်ရာ ပစ္စည်းများ',
+            'အရောင်စက္ကူ',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 6, Week 24: "Data Representation in the
+// Real World" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek24 = CourseWeekDef(
+  id: 'course-secondary1-computing-w24',
+  weekNumber: 24,
+  titleEn: 'Data Representation in the Real World',
+  titleMy: 'လက်တွေ့ဘဝတွင် ဒေတာ ကိုယ်စားပြုမှု',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w24-d1',
+      dayNumber: 1,
+      titleEn: 'Putting Data Representation Together',
+      titleMy: 'ဒေတာ ကိုယ်စားပြုမှု ပေါင်းစပ်ခြင်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is the smallest unit of data in a computer?',
+          questionMy: 'ကွန်ပျူတာတစ်ခု၏ ဒေတာအသေးငယ်ဆုံးယူနစ်မှာ အဘယ်နည်း။',
+          optionsEn: ['A bit', 'A byte', 'A pixel', 'A kilobyte'],
+          optionsMy: ['Bit', 'Byte', 'Pixel', 'Kilobyte'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why does a short text message usually take up less storage than a high-resolution photo?',
+          questionMy:
+              'စာတိုတစ်ခုသည် ပုံရိပ်ကြည်လင်သော ဓာတ်ပုံတစ်ပုံထက် သိုလှောင်ခန်း အဘယ့်ကြောင့် နည်းပါးသနည်း။',
+          optionsEn: [
+            'A photo is made of many pixels, each needing its own binary color value, while text needs far fewer character codes',
+            'Text cannot be stored in binary',
+            'Photos do not use any storage at all',
+            'A photo always has fewer bits than a single letter',
+          ],
+          optionsMy: [
+            'ဓာတ်ပုံသည် pixel များစွာဖြင့်ဖွဲ့စည်းထားပြီး တစ်ခုစီတွင် ကိုယ်ပိုင် binary အရောင်တန်ဖိုးလိုအပ်ပြီး text တွင်မူ character code အနည်းငယ်သာ လိုအပ်၍',
+            'Text ကို binary ဖြင့် မသိမ်းဆည်းနိုင်၍',
+            'ဓာတ်ပုံများသည် သိုလှောင်ခန်း လုံးဝမသုံး၍',
+            'ဓာတ်ပုံတစ်ပုံသည် အက္ခရာတစ်လုံးထက် bit ပိုနည်းသောကြောင့်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What lets a computer turn the letters you type into binary?',
+          questionMy:
+              'ကွန်ပျူတာသည် သင်ရိုက်ထည့်သော အက္ခရာများကို binary အဖြစ် ဘာက ပြောင်းလဲစေသနည်း။',
+          optionsEn: [
+            'A character code system such as ASCII',
+            'A sorting bucket',
+            'A loop counter',
+            'A comparison operator',
+          ],
+          optionsMy: [
+            'ASCII ကဲ့သို့ character code စနစ်',
+            'Sorting bucket',
+            'Loop counter',
+            'Comparison operator',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which unit of data is the largest?',
+          questionMy: 'ဒေတာယူနစ်များအနက် ဘယ်ဟာက အကြီးဆုံးဖြစ်သနည်း။',
+          optionsEn: ['A megabyte (MB)', 'A kilobyte (KB)', 'A byte', 'A bit'],
+          optionsMy: ['Megabyte (MB)', 'Kilobyte (KB)', 'Byte', 'Bit'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What do bits, bytes, character codes, and pixel colors all have in common?',
+          questionMy:
+              'Bit၊ byte၊ character code၊ pixel color တို့တွင် ဘာအားလုံးဆက်စပ်မှုရှိသနည်း။',
+          optionsEn: [
+            'They are all ultimately stored using only 0s and 1s',
+            'They are all measured in seconds',
+            'They are all types of loops',
+            'They are all names for the same exact thing',
+          ],
+          optionsMy: [
+            'အားလုံးသည် နောက်ဆုံးတွင် 0 နှင့် 1 ကိုသာအသုံးပြု၍ သိမ်းဆည်း',
+            'အားလုံးသည် စက္ကန့်ဖြင့် တိုင်းတာ',
+            'အားလုံးသည် loop အမျိုးအစားများ',
+            'အားလုံးသည် အတူတူတစ်ခုတည်း၏ အမည်များ',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w24-d2',
+      dayNumber: 2,
+      titleEn: 'Data Representation Recap',
+      titleMy: 'ဒေတာ ကိုယ်စားပြုမှု ပြန်လည်သုံးသပ်ခြင်း',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w24-recap-bit',
+          termEn: 'Bit',
+          termMy: 'Bit',
+          matchEn: 'The smallest unit of data, either a 0 or a 1',
+          matchMy: 'ဒေတာ၏ အသေးငယ်ဆုံးယူနစ်၊ 0 သို့မဟုတ် 1',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w24-recap-byte',
+          termEn: 'Byte',
+          termMy: 'Byte',
+          matchEn:
+              'A group of 8 bits, able to store any denary value from 0 to 255',
+          matchMy:
+              'Bit ၈ ခုပါဝင်သော အုပ်စု၊ denary တန်ဖိုး 0 မှ 255 အထိ သိမ်းဆည်းနိုင်',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w24-recap-binarynumber',
+          termEn: 'Binary Number',
+          termMy: 'Binary Number',
+          matchEn:
+              'A sequence of bits, such as 1011, used to represent all data inside a computer',
+          matchMy:
+              'ကွန်ပျူတာအတွင်းရှိ ဒေတာအားလုံးကို ကိုယ်စားပြုရန်သုံးသော 1011 ကဲ့သို့ bit များစဉ်',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w24-recap-charcode',
+          termEn: 'Character Code',
+          termMy: 'Character Code',
+          matchEn:
+              'A number, such as an ASCII code, that represents one letter, digit, or symbol',
+          matchMy:
+              'အက္ခရာ၊ ဂဏန်း၊ သင်္ကေတတစ်ခုကို ကိုယ်စားပြုသော ASCII code ကဲ့သို့ ဂဏန်းတစ်ခု',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w24-recap-pixel',
+          termEn: 'Pixel',
+          termMy: 'Pixel',
+          matchEn:
+              'One colored dot in a digital image, with its color stored as a binary number',
+          matchMy:
+              'Digital ပုံတစ်ပုံရှိ အရောင်ရှိအစက်တစ်စက်၊ ၎င်း၏အရောင်ကို binary ဂဏန်းအဖြစ် သိမ်းဆည်း',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w24-d3',
+      dayNumber: 3,
+      titleEn: 'Which Data Representation Concept?',
+      titleMy: 'ဘယ် ဒေတာ ကိုယ်စားပြုမှု သဘောတရားလဲ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          'Binary Basics',
+          'Text Encoding',
+          'Image Encoding',
+          'Storage Unit',
+        ],
+        bucketsMy: [
+          'Binary Basics',
+          'Text Encoding',
+          'Image Encoding',
+          'Storage Unit',
+        ],
+        items: [
+          SortingItem(
+            id: 'w24-sort-0and1',
+            labelEn: '0 and 1',
+            labelMy: '0 and 1',
+            correctBucketEn: 'Binary Basics',
+            correctBucketMy: 'Binary Basics',
+          ),
+          SortingItem(
+            id: 'w24-sort-onoffbit',
+            labelEn: 'A bit that is either on or off',
+            labelMy: 'On သို့မဟုတ် off ဖြစ်သော bit တစ်ခု',
+            correctBucketEn: 'Binary Basics',
+            correctBucketMy: 'Binary Basics',
+          ),
+          SortingItem(
+            id: 'w24-sort-asciicode',
+            labelEn: 'ASCII code',
+            labelMy: 'ASCII code',
+            correctBucketEn: 'Text Encoding',
+            correctBucketMy: 'Text Encoding',
+          ),
+          SortingItem(
+            id: 'w24-sort-charactercode',
+            labelEn: 'Character code',
+            labelMy: 'Character code',
+            correctBucketEn: 'Text Encoding',
+            correctBucketMy: 'Text Encoding',
+          ),
+          SortingItem(
+            id: 'w24-sort-pixelcolorvalue',
+            labelEn: 'Pixel color value',
+            labelMy: 'Pixel color value',
+            correctBucketEn: 'Image Encoding',
+            correctBucketMy: 'Image Encoding',
+          ),
+          SortingItem(
+            id: 'w24-sort-kilobyte',
+            labelEn: 'Kilobyte (KB)',
+            labelMy: 'Kilobyte (KB)',
+            correctBucketEn: 'Storage Unit',
+            correctBucketMy: 'Storage Unit',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w24-d4',
+      dayNumber: 4,
+      titleEn: "Zaw's School Poster",
+      titleMy: 'ဇော်၏ ကျောင်းပိုစတာ',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zaw's School Poster",
+        titleMy: 'ဇော်၏ ကျောင်းပိုစတာ',
+        passageEn:
+            "For his final computing project, Zaw designed a digital poster combining a title made of text and a small logo image. He remembered that his title's letters would each be stored using ASCII character codes, and those codes -- like every other kind of data -- would ultimately be stored as binary numbers made of bits. His logo was a tiny image built from a grid of pixels, and each pixel's color was also stored as its own binary number, just like Thiha's smiley face from Week 23. When Zaw checked his poster's final file size, he noticed the logo image took up far more storage than the title text, since a single pixel already needs its own binary number and his logo had hundreds of them, while his title only needed a handful of character codes. Zaw's teacher explained that this was exactly why photos and videos use so much more of a phone's storage than text messages do -- everything comes down to how many bits are needed, whether measured in bytes, kilobytes, or megabytes.",
+        passageMy:
+            'Zaw ၏ နောက်ဆုံးကွန်ပျူတာပရောဂျက်အတွက် သူသည် Text ဖြင့် ခေါင်းစဉ်တစ်ခုနှင့် logo ပုံငယ်တစ်ပုံကို ပေါင်းစပ်ထားသော digital ပိုစတာတစ်ခု ဒီဇိုင်းဆွဲခဲ့သည်။ သူ့ခေါင်းစဉ်ရှိ အက္ခရာတစ်ခုစီသည် ASCII character code များဖြင့် သိမ်းဆည်းထားမည်ကို မှတ်မိပြီး ထိုကုဒ်များသည် -- ဒေတာအခြားအမျိုးအစားများကဲ့သို့ပင် -- နောက်ဆုံးတွင် bit များဖြင့်ဖွဲ့စည်းထားသော binary ဂဏန်းများအဖြစ် သိမ်းဆည်းမည်ဖြစ်ကြောင်း သိထားသည်။ သူ့ logo သည် pixel ဇယားမှ တည်ဆောက်ထားသော ပုံငယ်တစ်ပုံဖြစ်ပြီး pixel တစ်ခုစီ၏အရောင်ကိုလည်း Week 23 မှ သီဟ၏ smiley face ကဲ့သို့ ကိုယ်ပိုင် binary ဂဏန်းအဖြစ် သိမ်းဆည်းထားသည်။ Zaw သည် သူ့ပိုစတာ၏ file size နောက်ဆုံးကို စစ်ဆေးကြည့်ရာ pixel တစ်ခုစီသည် ၎င်း၏ကိုယ်ပိုင် binary ဂဏန်းလိုအပ်ပြီး logo တွင် ရာနှင့်ချီပါဝင်နေသဖြင့် logo ပုံသည် ခေါင်းစဉ် text ထက် သိုလှောင်ခန်းများစွာ ပိုယူနေကြောင်း တွေ့ရှိခဲ့သည်၊ ခေါင်းစဉ်တွင်မူ character code အနည်းငယ်သာ လိုအပ်သည်။ Zaw ၏ ဆရာက ဓာတ်ပုံနှင့် ဗီဒီယိုများသည် text message များထက် ဖုန်း၏ သိုလှောင်ခန်းကို ပိုမိုအသုံးများနေရသည့် အကြောင်းရင်းမှာ ဤအတိုင်းပင်ဖြစ်ကြောင်း -- Byte၊ Kilobyte၊ Megabyte မည်သို့တိုင်းတာစေ bit မည်မျှလိုအပ်သည်ဆိုသည်အပေါ်သာ မူတည်ကြောင်း ရှင်းပြခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What two things did Zaw's poster combine?",
+            questionMy: 'ဇော်၏ ပိုစတာသည် ဘာနှစ်ခုကို ပေါင်းစပ်ထားခဲ့သနည်း။',
+            optionsEn: [
+              'A text title and a logo image',
+              'Two separate videos',
+              'A loop and a variable',
+              'Two ASCII tables',
+            ],
+            optionsMy: [
+              'Text ခေါင်းစဉ်တစ်ခုနှင့် logo ပုံတစ်ပုံ',
+              'သီးခြားဗီဒီယိုနှစ်ခု',
+              'Loop နှင့် variable',
+              'ASCII ဇယားနှစ်ခု',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How were the letters in Zaw's title stored?",
+            questionMy:
+                'ဇော်၏ ခေါင်းစဉ်ရှိ အက္ခရာများကို မည်သို့ သိမ်းဆည်းခဲ့သနည်း။',
+            optionsEn: [
+              'As ASCII character codes, then as binary',
+              'As spoken sounds',
+              'As pixels only',
+              'As kilobytes directly',
+            ],
+            optionsMy: [
+              'ASCII character code များအဖြစ်၊ ပြီးလျှင် binary အဖြစ်',
+              'ပြောဆိုထားသော အသံများအဖြစ်',
+              'Pixel များအဖြစ်သာ',
+              'Kilobyte များအဖြစ် တိုက်ရိုက်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'Why did the logo image take up more storage than the title text?',
+            questionMy:
+                'Logo ပုံသည် ခေါင်းစဉ် text ထက် သိုလှောင်ခန်း အဘယ့်ကြောင့် ပိုယူခဲ့သနည်း။',
+            optionsEn: [
+              'Each pixel needed its own binary color value, and there were hundreds of them',
+              'Images are never stored in binary',
+              'Text always needs more character codes than pixels',
+              'The logo had no color at all',
+            ],
+            optionsMy: [
+              'Pixel တစ်ခုစီသည် ကိုယ်ပိုင် binary အရောင်တန်ဖိုးလိုအပ်ပြီး ရာနှင့်ချီပါဝင်နေ၍',
+              'ပုံများကို binary ဖြင့် ဘယ်တော့မှ မသိမ်းဆည်း၍',
+              'Text သည် pixel ထက် character code ပိုလိုအပ်အမြဲ၍',
+              'Logo တွင် အရောင် လုံးဝမရှိ၍',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Zaw's teacher, what determines how much storage something needs?",
+            questionMy:
+                'ဇော်၏ဆရာအရ တစ်ခုခုသည် သိုလှောင်ခန်း မည်မျှလိုအပ်သည်ကို ဘာက ဆုံးဖြတ်သနည်း။',
+            optionsEn: [
+              'How many bits are needed to represent it',
+              'The color of the file icon',
+              'How old the file is',
+              'The name of the file',
+            ],
+            optionsMy: [
+              '၎င်းကို ကိုယ်စားပြုရန် bit မည်မျှလိုအပ်သည်',
+              'File icon ၏ အရောင်',
+              'File ၏ အသက်အရွယ်',
+              'File ၏ အမည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What units did Zaw's teacher mention for measuring storage?",
+            questionMy:
+                'ဇော်၏ ဆရာက သိုလှောင်ခန်း တိုင်းတာရန် ဘယ်ယူနစ်များကို ဖော်ပြခဲ့သနည်း။',
+            optionsEn: [
+              'Bytes, kilobytes, and megabytes',
+              'Bits per second only',
+              'Pixels per inch only',
+              'ASCII codes only',
+            ],
+            optionsMy: [
+              'Byte၊ kilobyte၊ megabyte',
+              'Bits per second သာ',
+              'Pixels per inch သာ',
+              'ASCII code များသာ',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w24-d5',
+      dayNumber: 5,
+      titleEn: 'Week 24 Recap Quiz',
+      titleMy: 'နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is the smallest unit of data a computer uses?',
+          questionMy: 'ကွန်ပျူတာတစ်ခုသုံးသော ဒေတာအသေးငယ်ဆုံးယူနစ်မှာ အဘယ်နည်း။',
+          optionsEn: ['A bit', 'A byte', 'A pixel', 'A kilobyte'],
+          optionsMy: ['Bit', 'Byte', 'Pixel', 'Kilobyte'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'How many bits make up one byte?',
+          questionMy: 'Byte တစ်ခုတွင် bit မည်မျှပါဝင်သနည်း။',
+          optionsEn: ['8', '2', '10', '16'],
+          optionsMy: ['8', '2', '10', '16'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'What system assigns each letter, digit, and symbol a number?',
+          questionMy:
+              'အက္ခရာ၊ ဂဏန်း၊ သင်္ကေတတိုင်းကို ဂဏန်းတစ်ခုပေးအပ်သော စနစ်မှာ အဘယ်နည်း။',
+          optionsEn: ['ASCII', 'Binary', 'Pixel grid', 'Sorting bucket'],
+          optionsMy: ['ASCII', 'Binary', 'Pixel grid', 'Sorting bucket'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a pixel?',
+          questionMy: 'Pixel ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'One colored dot that makes up part of a digital image',
+            'A character code',
+            'A unit larger than a byte',
+            'A type of loop',
+          ],
+          optionsMy: [
+            'Digital ပုံ၏ တစ်စိတ်တစ်ပိုင်းဖြစ်သော အရောင်ရှိအစက်တစ်စက်',
+            'Character code',
+            'Byte ထက်ကြီးသော ယူနစ်',
+            'Loop အမျိုးအစားတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Ultimately, what does every piece of data in a computer come down to?',
+          questionMy:
+              'ကွန်ပျူတာတစ်ခုရှိ ဒေတာတိုင်းသည် နောက်ဆုံးတွင် ဘာအဖြစ် ရှိနေသနည်း။',
+          optionsEn: [
+            'Binary numbers made of 0s and 1s',
+            'Spoken words',
+            'Physical paper',
+            'Colored ink',
+          ],
+          optionsMy: [
+            '0 နှင့် 1 ဖြင့်ဖွဲ့စည်းထားသော binary ဂဏန်းများ',
+            'ပြောဆိုထားသော စကားလုံးများ',
+            'ရုပ်ပိုင်းဆိုင်ရာ စက္ကူ',
+            'အရောင်စက္ကူမင်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm6 = CourseTermDef(
+  id: 'course-secondary1-computing-t6',
+  termNumber: 6,
+  titleEn: 'Data Representation',
+  titleMy: 'ဒေတာ ကိုယ်စားပြုမှု',
+  certificateTitleEn: 'Data Representation',
+  certificateTitleMy: 'ဒေတာ ကိုယ်စားပြုမှု',
+  weeks: [
+    _secondary1ComputingWeek21,
+    _secondary1ComputingWeek22,
+    _secondary1ComputingWeek23,
+    _secondary1ComputingWeek24,
+  ], // Term 6 complete (Weeks 21-24); Term 7 not authored yet
+);
+
+/// Secondary 1 Computing's full-year pathway. Terms 1-6 (Weeks 1-24) are
 /// now represented -- [totalWeeks] stays 36 (the full roadmap's true
 /// size) even though each term's [weeks] list is only a 4-week vertical
 /// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 20". Each [CourseTermDef]
+/// "Week 1 of 36" honestly rather than "Week 1 of 24". Each [CourseTermDef]
 /// is a short thematic/certificate milestone (Coursera-style), not a
 /// literal 12-week school term, so the pathway grows via more terms
-/// (6, 7, 8...) rather than by inflating any one term to 12 weeks.
+/// (7, 8, 9...) rather than by inflating any one term to 12 weeks.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -8038,6 +9537,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
     _secondary1ComputingTerm3,
     _secondary1ComputingTerm4,
     _secondary1ComputingTerm5,
+    _secondary1ComputingTerm6,
   ],
 );
 
