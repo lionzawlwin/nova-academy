@@ -157,6 +157,62 @@ where it's free.
 
 ---
 
+## 4. `LessonAttempts`
+
+Document id == auto-generated Firestore id. Telemetry foundation for the
+course-pathway progression system — the analytics moat this schema is
+designed to protect without also blowing the free-tier write budget.
+
+| Field                | Type     | Notes |
+|-----------------------|----------|-------|
+| `id`                  | `string` | Denormalized copy of the doc id. |
+| `childId`             | `string` | The completing child's `Children` doc id. |
+| `lessonId`            | `string` | A `DailyLessonDef.id` (see `lib/features/lessons/course_pathway_bank.dart`) or a `LearningModuleModel.id`. Deliberately the *only* content pointer stored — no `pathwayId`/`weekId` denormalized alongside it, because `courseDailyLessonById` + `pathwayContainingWeek` (`lib/providers/course_progress_providers.dart`) already derive the owning pathway/week from this id at read time. One less field to keep in sync. |
+| `kind`                | `string` | Mirrors `LessonKind`'s name (`quiz`, `dragMatch`, `sorting`, `reading`). |
+| `correctCount`        | `int`    | Questions answered correctly. For `dragMatch`/`sorting` kind attempts this always equals `totalCount` — those screens have no partial-credit path (every pair/item must be placed correctly to reach completion at all), so recording a 100% score for them is an honest reflection of how they actually work, not a placeholder. |
+| `totalCount`          | `int`    | Total questions/items in the lesson. |
+| `completedAtMillis`   | `int`    | `DateTime.now().millisecondsSinceEpoch` at write time. Plain `int` rather than a Firestore `Timestamp`, so `lib/models/` (which the rest of the codebase keeps Firestore-type-free) doesn't need a custom `JsonConverter` for one field. |
+
+### Design note: one document per completed lesson, never per question
+
+This is the load-bearing decision in this section. A student answering,
+say, 5 questions in one quiz lesson produces **one** `LessonAttempts`
+write, not five. At the Spark plan's 20K writes/day ceiling, per-question
+telemetry would multiply write volume by the average question count per
+lesson (4-6x in the authored content so far) for a modest fleet of active
+students, while a per-lesson summary — `correctCount`/`totalCount` already
+carries the score signal a "which modules are underperforming" dashboard
+actually needs — costs exactly one write per `markModuleCompleted` call
+site already in the codebase (`mcq_quiz_screen.dart`,
+`drag_match_screen.dart`, `sorting_screen.dart`, `reading_screen.dart`),
+so telemetry adds **zero additional write call sites**, only one more
+field-rich write at an already-existing one.
+
+No Cloud Function/BigQuery export exists or is planned for this
+collection: Cloud Functions require the Blaze (pay-as-you-go) billing plan
+to be enabled at all, even for usage that nets to $0, which conflicts with
+this project's hard "Spark plan only, no paid APIs" constraint. Any future
+"performing modules" dashboard reads and aggregates `LessonAttempts`
+documents directly from the client (e.g. an owner/admin screen querying
+`where('lessonId', '==', ...)` and reducing client-side), the same
+Spark-native pattern every other read path in this schema already uses.
+
+### Indexes
+- Composite index on `(lessonId, completedAtMillis)` recommended once an
+  aggregate "performance per lesson" admin view ships, to support an
+  ordered per-lesson history query without a full collection scan.
+- Composite index on `(childId, completedAtMillis)` if a per-child
+  attempt history view ships.
+
+### Security rules (guidance)
+- `create`-only from the client (see `firestore.rules`'s `ownsChild`
+  helper) — a parent/teacher/owner may record an attempt for a child they
+  own/are linked to/administer, but nothing may `update` or `delete` an
+  existing attempt once written. Each document is an immutable historical
+  record, not mutable state like `Children.completedModuleIds`.
+
+---
+
 ## Free-tier read/write budget notes
 
 - Prefer **snapshot listeners** (`.snapshots()`) over repeated
@@ -168,7 +224,9 @@ where it's free.
   the shared provider rather than each opening their own Firestore
   query.
 - `Children.totalStars` and `Users.linkedStudents` are denormalized
-  specifically to avoid `Children` sub-collection reads (e.g. a
-  "completions" sub-collection) on every dashboard load. If a detailed
-  history is needed later, add a separate `Completions` collection but
-  keep the denormalized totals as the fast path for dashboards/lists.
+  specifically to avoid `Children` sub-collection reads on every
+  dashboard load. `LessonAttempts` (section 4) is that "detailed history"
+  collection, added once it was actually needed — the denormalized
+  totals on `Children` stay the fast path for dashboards/lists;
+  `LessonAttempts` is only queried by a future analytics/admin view, not
+  on every app load.

@@ -12,6 +12,7 @@ import '../../core/widgets/language_toggle_button.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
+import '../../providers/lesson_attempt_providers.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
 
@@ -176,6 +177,19 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     } catch (e, st) {
       debugPrint('[McqQuizScreen] markModuleCompleted FAILED: $e');
       debugPrint('[McqQuizScreen] stack trace:\n$st');
+    }
+
+    try {
+      await recordLessonAttempt(
+        ref.read(firestoreProvider),
+        childId: activeProfile.child.id,
+        lessonId: moduleId,
+        kind: 'quiz',
+        correctCount: _score,
+        totalCount: _questions.length,
+      );
+    } catch (e) {
+      debugPrint('[McqQuizScreen] recordLessonAttempt FAILED: $e');
     }
   }
 

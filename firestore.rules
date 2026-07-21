@@ -117,6 +117,29 @@ service cloud.firestore {
     }
 
     // ---------------------------------------------------------------------
+    // LessonAttempts
+    // ---------------------------------------------------------------------
+    // Telemetry: one immutable document per completed lesson (never per
+    // question -- see docs/firestore_schema.md's `LessonAttempts` section).
+    // Same ownership model as `Children`: a doc's `childId` must belong to
+    // a child the caller owns as parent, is linked to as teacher, or the
+    // owner. No `update`/`delete` path -- each attempt is a historical
+    // record, not a mutable one, so only `create` is exposed beyond the
+    // owner's full access.
+    function ownsChild(childId) {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/Children/$(childId))
+        && (get(/databases/$(database)/documents/Children/$(childId)).data.parentId == request.auth.uid
+            || isLinkedTeacherOf(childId));
+    }
+
+    match /LessonAttempts/{attemptId} {
+      allow read: if isOwner() || ownsChild(resource.data.childId);
+      allow create: if isOwner() || ownsChild(request.resource.data.childId);
+      allow update, delete: if isOwner();
+    }
+
+    // ---------------------------------------------------------------------
     // Default deny
     // ---------------------------------------------------------------------
     // Anything not explicitly matched above (including any future

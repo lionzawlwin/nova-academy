@@ -19,6 +19,11 @@ class AppConstants {
   static const String childrenCollection = 'Children';
   static const String learningModulesCollection = 'LearningModules';
 
+  /// One document per completed lesson (quiz/drag-match/sorting/reading),
+  /// not per question -- see docs/firestore_schema.md's `LessonAttempts`
+  /// section for the write-volume rationale.
+  static const String lessonAttemptsCollection = 'LessonAttempts';
+
   /// App display name.
   static const String appName = 'Nova Academy';
 }

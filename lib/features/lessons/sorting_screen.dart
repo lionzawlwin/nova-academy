@@ -10,6 +10,7 @@ import '../../core/widgets/language_toggle_button.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
+import '../../providers/lesson_attempt_providers.dart';
 import 'course_pathway_bank.dart';
 import 'interactive_content_models.dart';
 
@@ -93,6 +94,20 @@ class _SortingScreenState extends ConsumerState<SortingScreen> {
     } catch (e, st) {
       debugPrint('[SortingScreen] markModuleCompleted FAILED: $e');
       debugPrint('[SortingScreen] stack trace:\n$st');
+    }
+
+    try {
+      final itemCount = _activity?.items.length ?? 0;
+      await recordLessonAttempt(
+        ref.read(firestoreProvider),
+        childId: activeProfile.child.id,
+        lessonId: widget.args.moduleId,
+        kind: 'sorting',
+        correctCount: itemCount,
+        totalCount: itemCount,
+      );
+    } catch (e) {
+      debugPrint('[SortingScreen] recordLessonAttempt FAILED: $e');
     }
   }
 

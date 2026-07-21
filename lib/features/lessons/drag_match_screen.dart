@@ -10,6 +10,7 @@ import '../../core/widgets/language_toggle_button.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
+import '../../providers/lesson_attempt_providers.dart';
 import '../home/home_shared_widgets.dart';
 import 'drag_match_bank.dart';
 import 'interactive_content_models.dart';
@@ -117,6 +118,19 @@ class _DragMatchScreenState extends ConsumerState<DragMatchScreen> {
     } catch (e, st) {
       debugPrint('[DragMatchScreen] markModuleCompleted FAILED: $e');
       debugPrint('[DragMatchScreen] stack trace:\n$st');
+    }
+
+    try {
+      await recordLessonAttempt(
+        ref.read(firestoreProvider),
+        childId: activeProfile.child.id,
+        lessonId: moduleId,
+        kind: 'dragMatch',
+        correctCount: _pairs.length,
+        totalCount: _pairs.length,
+      );
+    } catch (e) {
+      debugPrint('[DragMatchScreen] recordLessonAttempt FAILED: $e');
     }
   }
 
