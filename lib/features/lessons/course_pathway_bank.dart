@@ -22851,6 +22851,1646 @@ const CourseWeekDef _secondary2ComputingWeek20 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 6, Week 21: "Lists Inside Lists"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek21 = CourseWeekDef(
+  id: "course-secondary2-computing-w21",
+  weekNumber: 21,
+  titleEn: "Lists Inside Lists",
+  titleMy: "List အတွင်း List များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w21-d1",
+      dayNumber: 1,
+      titleEn: "What Is a 2D List?",
+      titleMy: "2D List ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For grid = [[1, 2, 3], [4, 5, 6]], what is grid[0]?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက grid[0] က အဘယ်နည်း။",
+          optionsEn: ["[1, 2, 3]", "1", "[4, 5, 6]", "6"],
+          optionsMy: ["[1, 2, 3]", "1", "[4, 5, 6]", "6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For grid = [[1, 2, 3], [4, 5, 6]], what is grid[0][1]?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက grid[0][1] က အဘယ်နည်း။",
+          optionsEn: ["2", "1", "4", "[1, 2, 3]"],
+          optionsMy: ["2", "1", "4", "[1, 2, 3]"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For grid = [[1, 2, 3], [4, 5, 6]], what is grid[1][2]?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက grid[1][2] က အဘယ်နည်း။",
+          optionsEn: ["6", "3", "5", "[4, 5, 6]"],
+          optionsMy: ["6", "3", "5", "[4, 5, 6]"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2, 3], [4, 5, 6]], what does len(grid) return?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက len(grid) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "2, the number of inner lists (rows)",
+            "3, the number of items in one row",
+            "6, the total number of items everywhere",
+            "0, because grid contains lists, not numbers",
+          ],
+          optionsMy: [
+            "2 ဖြစ်သည်၊ inner list (row) အရေအတွက်",
+            "3 ဖြစ်သည်၊ row တစ်ခု၏ item အရေအတွက်",
+            "6 ဖြစ်သည်၊ နေရာအနှံ့ item စုစုပေါင်း",
+            "0 ဖြစ်သည်၊ grid တွင် list များပါဝင်၍ ဂဏန်းများ မဟုတ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2, 3], [4, 5, 6]], what does grid[1] represent?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက grid[1] က ဘာကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "The second inner list, [4, 5, 6]",
+            "The single number 4",
+            "The first inner list, [1, 2, 3]",
+            "An error, because grid only has one index",
+          ],
+          optionsMy: [
+            "ဒုတိယ inner list ဖြစ်သော [4, 5, 6]",
+            "ဂဏန်း 4 တစ်ခုတည်း",
+            "ပထမ inner list ဖြစ်သော [1, 2, 3]",
+            "Error ဖြစ်သည်၊ grid တွင် index တစ်ခုတည်းသာ ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w21-d2",
+      dayNumber: 2,
+      titleEn: "2D List Vocabulary",
+      titleMy: "2D List ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w21-list-nested",
+          termEn: "Nested List",
+          termMy: "Nested List",
+          matchEn: "A list that contains other lists as its items",
+          matchMy: "Item များအဖြစ် list အခြားများကို ပါဝင်သော list တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w21-list-2dgrid",
+          termEn: "2D List (Grid)",
+          termMy: "2D List (Grid)",
+          matchEn:
+              "Data arranged in rows and columns, built using a list of lists",
+          matchMy:
+              "List of list များဖြင့် တည်ဆောက်ထားသော row နှင့် column ဖြင့် စီစဉ်ထားသော data",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w21-list-row",
+          termEn: "Row",
+          termMy: "Row",
+          matchEn:
+              "One inner list inside a 2D list, accessed with a single index like grid[0]",
+          matchMy:
+              "grid[0] ကဲ့သို့ index တစ်ခုတည်းဖြင့် ရရှိသော 2D list အတွင်းရှိ inner list တစ်ခု",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w21-list-column",
+          termEn: "Column",
+          termMy: "Column",
+          matchEn:
+              "The position across each row, accessed with the second index like grid[0][1]",
+          matchMy:
+              "grid[0][1] ကဲ့သို့ ဒုတိယ index ဖြင့် ရရှိသော row တစ်ခုစီရှိ position",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w21-list-gridrowcol",
+          termEn: "grid[row][col]",
+          termMy: "grid[row][col]",
+          matchEn:
+              "Accesses the item at a specific row and column inside a 2D list",
+          matchMy:
+              "2D list အတွင်း သတ်မှတ်ထားသော row နှင့် column ရှိ item ကို ရယူသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w21-d3",
+      dayNumber: 3,
+      titleEn: "Whole Row or Single Item?",
+      titleMy: "Row တစ်ခုလုံးလား Item တစ်ခုတည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Accesses a Whole Row", "Accesses a Single Item"],
+        bucketsMy: ["Row တစ်ခုလုံးကို ရယူသည်", "Item တစ်ခုတည်းကို ရယူသည်"],
+        items: [
+          SortingItem(
+            id: "w21-sort-grid0",
+            labelEn: "grid[0]",
+            labelMy: "grid[0]",
+            correctBucketEn: "Accesses a Whole Row",
+            correctBucketMy: "Row တစ်ခုလုံးကို ရယူသည်",
+          ),
+          SortingItem(
+            id: "w21-sort-grid00",
+            labelEn: "grid[0][0]",
+            labelMy: "grid[0][0]",
+            correctBucketEn: "Accesses a Single Item",
+            correctBucketMy: "Item တစ်ခုတည်းကို ရယူသည်",
+          ),
+          SortingItem(
+            id: "w21-sort-grid2",
+            labelEn: "grid[2]",
+            labelMy: "grid[2]",
+            correctBucketEn: "Accesses a Whole Row",
+            correctBucketMy: "Row တစ်ခုလုံးကို ရယူသည်",
+          ),
+          SortingItem(
+            id: "w21-sort-grid12",
+            labelEn: "grid[1][2]",
+            labelMy: "grid[1][2]",
+            correctBucketEn: "Accesses a Single Item",
+            correctBucketMy: "Item တစ်ခုတည်းကို ရယူသည်",
+          ),
+          SortingItem(
+            id: "w21-sort-grid1",
+            labelEn: "grid[1]",
+            labelMy: "grid[1]",
+            correctBucketEn: "Accesses a Whole Row",
+            correctBucketMy: "Row တစ်ခုလုံးကို ရယူသည်",
+          ),
+          SortingItem(
+            id: "w21-sort-grid21",
+            labelEn: "grid[2][1]",
+            labelMy: "grid[2][1]",
+            correctBucketEn: "Accesses a Single Item",
+            correctBucketMy: "Item တစ်ခုတည်းကို ရယူသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w21-d4",
+      dayNumber: 4,
+      titleEn: "Kaung Myat's Score Grid",
+      titleMy: "ကောင်းမြတ်၏ Score Grid",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Myat's Score Grid",
+        titleMy: "ကောင်းမြတ်၏ Score Grid",
+        passageEn:
+            "Kaung Myat had spent Term 1 learning about lists: how a single list like scores = [85, 90, 70] could store many values for one student. This term, his teacher asked him to store scores for three students, each with a Math score and a Science score. Storing this in separate lists felt messy, so his teacher showed him a nested list instead: scores = [[85, 90], [70, 75], [95, 100]]. Each inner list represented one student's two scores, in order: Math first, then Science. Kaung Myat realized scores[0] gave him the first student's whole list, [85, 90] -- exactly like indexing any list from Term 1. To get a single value, he needed a second index: scores[0][1] gave him 90, the first student's Science score, since index 1 inside the inner list [85, 90] was the second item. He tried scores[2][0] next, which gave him 95 -- the third student's Math score. He also checked len(scores), which returned 3, confirming there were three students, one per row. Kaung Myat explained it back to his teacher in his own words: the first index picks which student's row you want, and the second index picks which score within that row you want -- Math at position 0, Science at position 1. He realized a 2D list was really just Term 1's lists, one level deeper: a list where each item was itself a whole list, instead of a single number.",
+        passageMy:
+            "ကောင်းမြတ်သည် Term 1 တွင် list များအကြောင်း သင်ယူခဲ့ဖူးသည် -- scores = [85, 90, 70] ကဲ့သို့ list တစ်ခုတည်းသည် ကျောင်းသားတစ်ဦးအတွက် တန်ဖိုးများစွာကို မည်သို့ သိမ်းဆည်းနိုင်သည်ကို။ ဤ Term တွင် ဆရာက ကျောင်းသားသုံးဦးအတွက် score များကို သိမ်းဆည်းရန် ပေးအပ်ခဲ့ပြီး၊ တစ်ဦးစီတွင် Math score နှင့် Science score ရှိသည်။ ၎င်းကို list သီးခြားများတွင် သိမ်းဆည်းခြင်းသည် ရှုပ်ထွေးသောကြောင့် ဆရာက nested list ကို အစားထိုးပြသခဲ့သည် - scores = [[85, 90], [70, 75], [95, 100]]။ Inner list တစ်ခုစီသည် ကျောင်းသားတစ်ဦး၏ score နှစ်ခု (Math ဦးစွာ၊ ထို့နောက် Science) ကို ကိုယ်စားပြုသည်။ ကောင်းမြတ်သည် scores[0] က ပထမကျောင်းသား၏ list တစ်ခုလုံး [85, 90] ကို ပေးကြောင်း သိလိုက်သည် -- Term 1 က list မည်သည်ကိုမဆို index လုပ်သကဲ့သို့ပင်ဖြစ်သည်။ တန်ဖိုးတစ်ခုတည်းရရှိရန် index ဒုတိယတစ်ခု လိုအပ်ခဲ့သည် - scores[0][1] က 90 ကို ပေးခဲ့ပြီး ၎င်းသည် inner list [85, 90] အတွင်း index 1 (ဒုတိယ item) ဖြစ်သော ပထမကျောင်းသား၏ Science score ဖြစ်သည်။ ထို့နောက် scores[2][0] ကို စမ်းကြည့်ခဲ့ရာ 95 ကို ရရှိခဲ့ပြီး ၎င်းသည် တတိယကျောင်းသား၏ Math score ဖြစ်သည်။ len(scores) ကိုလည်း စစ်ဆေးခဲ့ပြီး 3 ကို ပြန်ရရှိကာ ကျောင်းသားသုံးဦး၊ row တစ်ခုစီလျှင် တစ်ဦးစီ ရှိကြောင်း အတည်ပြုခဲ့သည်။ ကောင်းမြတ်သည် ဆရာအား သူ့ကိုယ်ပိုင်စကားလုံးများဖြင့် ပြန်ရှင်းပြခဲ့သည် - ပထမ index က ကျောင်းသားမည်သူ၏ row ကို လိုချင်သည်ကို ရွေးချယ်ပြီး၊ ဒုတိယ index က ထို row အတွင်း မည်သည့် score ကို လိုချင်သည်ကို ရွေးချယ်သည် -- Math သည် position 0 တွင်၊ Science သည် position 1 တွင်ဖြစ်သည်။ 2D list သည် Term 1 ၏ list များကို တစ်ဆင့်ထပ်နက်စေခြင်းသာ ဖြစ်ကြောင်း သဘောပေါက်လိုက်သည် - item တစ်ခုစီသည် ဂဏန်းတစ်ခုတည်းအစား list တစ်ခုလုံးဖြစ်နေသော list တစ်ခုပင်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "In scores = [[85, 90], [70, 75], [95, 100]], what did scores[0] give Kaung Myat?",
+            questionMy:
+                "scores = [[85, 90], [70, 75], [95, 100]] ဆိုပါက scores[0] က ကောင်းမြတ်ကို ဘာပေးခဲ့သနည်း။",
+            optionsEn: [
+              "The first student's whole list, [85, 90]",
+              "Just the number 85",
+              "The last student's list, [95, 100]",
+              "The total number of students",
+            ],
+            optionsMy: [
+              "ပထမကျောင်းသား၏ list တစ်ခုလုံးဖြစ်သော [85, 90]",
+              "ဂဏန်း 85 တစ်ခုတည်း",
+              "နောက်ဆုံးကျောင်းသား၏ list ဖြစ်သော [95, 100]",
+              "ကျောင်းသား စုစုပေါင်းအရေအတွက်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did scores[0][1] give, and why?",
+            questionMy: "scores[0][1] က ဘာပေးခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "90 -- the first student's Science score, at index 1 within their row",
+              "85 -- the first student's Math score",
+              "70 -- the second student's Math score",
+              "An error, because a list cannot have two indexes",
+            ],
+            optionsMy: [
+              "90 ဖြစ်သည် -- ပထမကျောင်းသား၏ row အတွင်း index 1 ရှိ Science score",
+              "85 ဖြစ်သည် -- ပထမကျောင်းသား၏ Math score",
+              "70 ဖြစ်သည် -- ဒုတိယကျောင်းသား၏ Math score",
+              "Error ဖြစ်သည်၊ list တစ်ခုတွင် index နှစ်ခု မရှိနိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did len(scores) return, and what did that confirm?",
+            questionMy: "len(scores) က ဘာပြန်ပေးခဲ့ပြီး ဘာကို အတည်ပြုခဲ့သနည်း။",
+            optionsEn: [
+              "3, confirming there were three students, one per row",
+              "2, confirming each student had two scores",
+              "6, confirming there were six scores in total",
+              "0, confirming scores was empty",
+            ],
+            optionsMy: [
+              "3 ဖြစ်ပြီး row တစ်ခုစီလျှင် ကျောင်းသားတစ်ဦးစီ၊ ကျောင်းသားသုံးဦးရှိကြောင်း အတည်ပြုခဲ့သည်",
+              "2 ဖြစ်ပြီး ကျောင်းသားတစ်ဦးစီတွင် score နှစ်ခုစီရှိကြောင်း အတည်ပြုခဲ့သည်",
+              "6 ဖြစ်ပြီး စုစုပေါင်း score ခြောက်ခု ရှိကြောင်း အတည်ပြုခဲ့သည်",
+              "0 ဖြစ်ပြီး scores သည် ဗလာဖြစ်ကြောင်း အတည်ပြုခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does the first index of a 2D list pick, and what does the second index pick?",
+            questionMy:
+                "ဇာတ်လမ်းအရ 2D list ၏ ပထမ index က ဘာကို ရွေးချယ်ပြီး ဒုတိယ index က ဘာကို ရွေးချယ်သနည်း။",
+            optionsEn: [
+              "The first index picks the row (which student); the second picks the position within that row",
+              "The first index picks the column; the second picks the row",
+              "Both indexes pick the exact same thing",
+              "Only the first index matters -- the second is optional",
+            ],
+            optionsMy: [
+              "ပထမ index က row (ကျောင်းသားမည်သူ) ကို ရွေးချယ်ပြီး၊ ဒုတိယ index က ထို row အတွင်း position ကို ရွေးချယ်သည်",
+              "ပထမ index က column ကို ရွေးချယ်ပြီး ဒုတိယ index က row ကို ရွေးချယ်သည်",
+              "Index နှစ်ခုစလုံးသည် အတူတူပင် ရွေးချယ်သည်",
+              "ပထမ index တစ်ခုသာ အရေးကြီးပြီး ဒုတိယကတော့ optional ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how did Kaung Myat come to understand a 2D list?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ကောင်းမြတ်သည် 2D list ကို မည်သို့ နားလည်လာခဲ့သနည်း။",
+            optionsEn: [
+              "As Term 1's lists one level deeper -- a list where each item is itself a whole list",
+              "As a completely new data type unrelated to lists",
+              "As a type of string",
+              "As a Boolean value with two possible states",
+            ],
+            optionsMy: [
+              "Term 1 ၏ list များကို တစ်ဆင့်ထပ်နက်စေခြင်းအဖြစ် -- item တစ်ခုစီသည် list တစ်ခုလုံးဖြစ်နေသော list",
+              "List များနှင့် လုံးဝမသက်ဆိုင်သော data type အသစ်တစ်ခုအဖြစ်",
+              "String အမျိုးအစားတစ်ခုအဖြစ်",
+              "State နှစ်ခုပါသော Boolean value အဖြစ်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap Quiz",
+      titleMy: "Week 21 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For grid = [[10, 20], [30, 40]], what is grid[0]?",
+          questionMy: "grid = [[10, 20], [30, 40]] ဆိုပါက grid[0] က အဘယ်နည်း။",
+          optionsEn: ["[10, 20]", "10", "[30, 40]", "40"],
+          optionsMy: ["[10, 20]", "10", "[30, 40]", "40"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For grid = [[10, 20], [30, 40]], what is grid[1][0]?",
+          questionMy:
+              "grid = [[10, 20], [30, 40]] ဆိုပါက grid[1][0] က အဘယ်နည်း။",
+          optionsEn: ["30", "10", "20", "40"],
+          optionsMy: ["30", "10", "20", "40"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For grid = [[10, 20], [30, 40]], what is grid[0][1]?",
+          questionMy:
+              "grid = [[10, 20], [30, 40]] ဆိုပါက grid[0][1] က အဘယ်နည်း။",
+          optionsEn: ["20", "10", "30", "40"],
+          optionsMy: ["20", "10", "30", "40"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[10, 20], [30, 40]], what does len(grid) return?",
+          questionMy:
+              "grid = [[10, 20], [30, 40]] ဆိုပါက len(grid) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["2", "4", "10", "0"],
+          optionsMy: ["2", "4", "10", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For grid = [[10, 20], [30, 40]], what is grid[1]?",
+          questionMy: "grid = [[10, 20], [30, 40]] ဆိုပါက grid[1] က အဘယ်နည်း။",
+          optionsEn: ["[30, 40]", "[10, 20]", "30", "40"],
+          optionsMy: ["[30, 40]", "[10, 20]", "30", "40"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 6, Week 22: "Nested Loops: Visiting
+// Every Cell"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek22 = CourseWeekDef(
+  id: "course-secondary2-computing-w22",
+  weekNumber: 22,
+  titleEn: "Nested Loops: Visiting Every Cell",
+  titleMy: "Nested Loop များ — Cell တိုင်းကို လည်ပတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w22-d1",
+      dayNumber: 1,
+      titleEn: "A Loop Inside a Loop",
+      titleMy: "Loop တစ်ခုအတွင်း Loop တစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In \"for row in grid: for item in row: print(item)\", what does the outer loop, for row in grid:, iterate over?",
+          questionMy:
+              "\"for row in grid: for item in row: print(item)\" တွင် outer loop ဖြစ်သော for row in grid: က ဘာကို iterate လုပ်သနည်း။",
+          optionsEn: [
+            "Each inner list (row) inside grid, one at a time",
+            "Each individual number in the whole grid",
+            "Only the first row of grid",
+            "Nothing -- outer loops do not iterate",
+          ],
+          optionsMy: [
+            "grid အတွင်းရှိ inner list (row) တစ်ခုချင်းစီ",
+            "grid တစ်ခုလုံးအတွင်းရှိ ဂဏန်းတစ်ခုချင်းစီ",
+            "grid ၏ ပထမ row တစ်ခုတည်း",
+            "ဘာမျှမရှိပါ -- outer loop များသည် iterate မလုပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In that same nested loop, what does the inner loop, for item in row:, iterate over?",
+          questionMy:
+              "ထိုနည်းတူ nested loop တွင် inner loop ဖြစ်သော for item in row: က ဘာကို iterate လုပ်သနည်း။",
+          optionsEn: [
+            "Each individual item within the current row",
+            "Each row within the whole grid",
+            "Only the last item of row",
+            "The entire grid at once",
+          ],
+          optionsMy: [
+            "လက်ရှိ row အတွင်းရှိ item တစ်ခုချင်းစီ",
+            "grid တစ်ခုလုံးအတွင်းရှိ row တစ်ခုချင်းစီ",
+            "row ၏ နောက်ဆုံး item တစ်ခုတည်း",
+            "grid တစ်ခုလုံးကို တစ်ပြိုင်တည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2], [3, 4]], how many total times does print(item) run across the whole nested loop?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက nested loop တစ်ခုလုံးတွင် print(item) က စုစုပေါင်း မည်မျှကြိမ် run သနည်း။",
+          optionsEn: ["4", "2", "8", "1"],
+          optionsMy: ["4", "2", "8", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For each single pass of the outer loop, which loop completes all of its iterations before the outer loop moves to the next row?",
+          questionMy:
+              "Outer loop ၏ pass တစ်ခုစီအတွက် outer loop သည် row နောက်တစ်ခုသို့ မရွှေ့မီ မည်သည့် loop က iteration အားလုံးကို ပြီးဆုံးအောင် လုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "The inner loop",
+            "The outer loop itself",
+            "Neither loop finishes",
+            "Both loops finish at the exact same instant",
+          ],
+          optionsMy: [
+            "Inner loop",
+            "Outer loop ကိုယ်တိုင်",
+            "Loop နှစ်ခုစလုံး မပြီးဆုံးပါ",
+            "Loop နှစ်ခုစလုံး တစ်ချိန်တည်း ပြီးဆုံးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a nested loop over a 2D list commonly used for?",
+          questionMy:
+              "2D list တစ်ခုအပေါ် nested loop ကို အဘယ်အတွက် အသုံးများသနည်း။",
+          optionsEn: [
+            "Visiting or processing every single item in every row",
+            "Deleting the entire grid",
+            "Sorting only the first row",
+            "Converting the grid into a string",
+          ],
+          optionsMy: [
+            "Row တိုင်းရှိ item တစ်ခုချင်းစီကို လည်ပတ် (သို့) စီမံဆောင်ရွက်ရန်",
+            "grid တစ်ခုလုံးကို ဖျက်ရန်",
+            "ပထမ row တစ်ခုတည်းကိုသာ sort လုပ်ရန်",
+            "grid ကို string အဖြစ် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w22-d2",
+      dayNumber: 2,
+      titleEn: "Nested Loop Vocabulary",
+      titleMy: "Nested Loop ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w22-loop-nestedloop",
+          termEn: "Nested Loop",
+          termMy: "Nested Loop",
+          matchEn:
+              "A loop placed inside another loop, used to visit every item in a 2D list",
+          matchMy:
+              "2D list ရှိ item တိုင်းကို လည်ပတ်ရန် loop တစ်ခုအတွင်း ထားသော loop တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w22-loop-outer",
+          termEn: "Outer Loop",
+          termMy: "Outer Loop",
+          matchEn:
+              "The loop that moves through each row of a 2D list one at a time",
+          matchMy: "2D list ၏ row တစ်ခုချင်းစီကို လည်ပတ်သော loop",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w22-loop-inner",
+          termEn: "Inner Loop",
+          termMy: "Inner Loop",
+          matchEn:
+              "The loop that moves through each item within the current row",
+          matchMy: "လက်ရှိ row အတွင်းရှိ item တစ်ခုချင်းစီကို လည်ပတ်သော loop",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w22-loop-traversal",
+          termEn: "Traversal",
+          termMy: "Traversal",
+          matchEn:
+              "Visiting every item in a data structure exactly once, e.g. with a nested loop over a 2D list",
+          matchMy:
+              "Data structure တစ်ခုရှိ item တိုင်းကို အတိအကျ တစ်ကြိမ်တည်း လည်ပတ်ခြင်း (ဥပမာ 2D list အပေါ် nested loop ဖြင့်)",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w22-loop-iterationcount",
+          termEn: "Iteration Count",
+          termMy: "Iteration Count",
+          matchEn:
+              "For an R-row by C-column grid, the inner loop's body runs a total of R times C times",
+          matchMy:
+              "Row R ခု၊ Column C ခုပါသော grid အတွက် inner loop ၏ body သည် စုစုပေါင်း R x C ကြိမ် run သည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w22-d3",
+      dayNumber: 3,
+      titleEn: "Outer Loop or Inner Loop?",
+      titleMy: "Outer Loop လား Inner Loop လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Part of the Outer Loop", "Part of the Inner Loop"],
+        bucketsMy: ["Outer Loop ၏ အစိတ်အပိုင်း", "Inner Loop ၏ အစိတ်အပိုင်း"],
+        items: [
+          SortingItem(
+            id: "w22-sort-forrowingrid",
+            labelEn: "for row in grid:",
+            labelMy: "for row in grid:",
+            correctBucketEn: "Part of the Outer Loop",
+            correctBucketMy: "Outer Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w22-sort-foriteminrow",
+            labelEn: "for item in row:",
+            labelMy: "for item in row:",
+            correctBucketEn: "Part of the Inner Loop",
+            correctBucketMy: "Inner Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w22-sort-printitem",
+            labelEn: "print(item)",
+            labelMy: "print(item)",
+            correctBucketEn: "Part of the Inner Loop",
+            correctBucketMy: "Inner Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w22-sort-runsonceperrow",
+            labelEn: "Runs once for each row in the grid",
+            labelMy: "grid ရှိ row တစ်ခုစီအတွက် တစ်ကြိမ်စီ run သည်",
+            correctBucketEn: "Part of the Outer Loop",
+            correctBucketMy: "Outer Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w22-sort-runsonceperitem",
+            labelEn: "Runs once for each item within a row",
+            labelMy: "row တစ်ခုအတွင်းရှိ item တစ်ခုစီအတွက် တစ်ကြိမ်စီ run သည်",
+            correctBucketEn: "Part of the Inner Loop",
+            correctBucketMy: "Inner Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w22-sort-rowvariable",
+            labelEn: "row (holds one whole inner list at a time)",
+            labelMy:
+                "row (တစ်ကြိမ်လျှင် inner list တစ်ခုလုံးကို ကိုင်ဆောင်သည်)",
+            correctBucketEn: "Part of the Outer Loop",
+            correctBucketMy: "Outer Loop ၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w22-d4",
+      dayNumber: 4,
+      titleEn: "Hla Hla's Attendance Grid",
+      titleMy: "လှလှ၏ Attendance Grid",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hla Hla's Attendance Grid",
+        titleMy: "လှလှ၏ Attendance Grid",
+        passageEn:
+            "Hla Hla was building a program to count how many seats were occupied in her classroom's seating grid. She stored the seating as a 2D list: seating = [[\"X\", \"X\", \"\"], [\"X\", \"\", \"X\"]], where two rows represented two rows of desks, three seats each, and \"X\" meant a seat was occupied. To count every occupied seat, she needed to visit every single cell in the grid, so she reached for a nested loop and an accumulator, reusing both ideas from earlier terms. She started with count = 0, the same accumulator pattern from Term 1 and Term 3. Then came the nested loop: for row in seating: moved through each of the two rows one at a time, and inside it, for seat in row: moved through each of the three seats within that row. Inside both loops, an if-statement checked if seat == \"X\": -- and whenever that was True, she added 1 to count using count = count + 1. By the time both loops finished, the nested loop had visited every one of the 2 times 3, or 6, seats exactly once, and count held the exact total of occupied seats: 4. Hla Hla realized the outer loop alone would only have given her whole rows like [\"X\", \"X\", \"\"], not individual seats -- it was the inner loop, running completely for every single pass of the outer loop, that let her reach each seat one at a time and test it with the same kind of Boolean check she had used all through Term 4 and Term 5.",
+        passageMy:
+            "လှလှသည် သူမ၏ classroom ၏ seating grid တွင် ခုံမည်မျှ ထိုင်ထားသည်ကို ရေတွက်မည့် ပရိုဂရမ်တစ်ခု တည်ဆောက်နေသည်။ သူမသည် ထိုင်ခုံစီစဉ်မှုကို 2D list တစ်ခုအဖြစ် သိမ်းဆည်းခဲ့သည် - seating = [[\"X\", \"X\", \"\"], [\"X\", \"\", \"X\"]] - row နှစ်ခုသည် စားပွဲတန်း row နှစ်ခုကို ကိုယ်စားပြုပြီး row တစ်ခုစီတွင် ခုံသုံးလုံးစီရှိကာ \"X\" က ခုံတွင် ထိုင်နေသူရှိကြောင်း ဖော်ပြသည်။ ထိုင်ထားသော ခုံတိုင်းကို ရေတွက်ရန် grid ရှိ cell တစ်ခုစီကို လည်ပတ်ရန် လိုအပ်သောကြောင့် ယခင် Term များမှ concept နှစ်ခု -- nested loop နှင့် accumulator -- ကို ပြန်လည်အသုံးချခဲ့သည်။ Term 1 နှင့် Term 3 မှ accumulator pattern အတိုင်း count = 0 ဖြင့် စတင်ခဲ့သည်။ ထို့နောက် nested loop ရောက်လာသည် - for row in seating: က row နှစ်ခုအနက် တစ်ခုချင်းစီကို လည်ပတ်ပြီး၊ ၎င်းအတွင်း for seat in row: က row တစ်ခုအတွင်းရှိ ခုံသုံးလုံးအနက် တစ်ခုချင်းစီကို လည်ပတ်ခဲ့သည်။ Loop နှစ်ခုစလုံးအတွင်း if-statement က if seat == \"X\": ဟု စစ်ဆေးခဲ့ပြီး True ဖြစ်တိုင်း count = count + 1 ဖြင့် count ကို 1 တိုးခဲ့သည်။ Loop နှစ်ခုစလုံး ပြီးဆုံးချိန်တွင် nested loop သည် 2 x 3 ဖြစ်သော ခုံ 6 လုံးအားလုံးကို အတိအကျ တစ်ကြိမ်စီ လည်ပတ်ပြီးဖြစ်ကာ count တွင် ထိုင်နေသော ခုံစုစုပေါင်း 4 လုံး အတိအကျ ရှိခဲ့သည်။ Outer loop တစ်ခုတည်းသာဆိုလျှင် [\"X\", \"X\", \"\"] ကဲ့သို့ row တစ်ခုလုံးကိုသာ ပေးနိုင်မည်ဖြစ်ပြီး ခုံတစ်ခုချင်းစီကို ပေးမည်မဟုတ်ကြောင်း လှလှ သဘောပေါက်လိုက်သည် -- outer loop ၏ pass တစ်ခုစီအတွက် အပြည့်အဝ run သော inner loop သာလျှင် ခုံတစ်ခုချင်းစီသို့ ရောက်စေပြီး Term 4 နှင့် Term 5 တစ်လျှောက် အသုံးပြုခဲ့သည့် Boolean check အမျိုးအစားတူ ဖြင့် စစ်ဆေးစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Hla Hla store the seating chart as, and what did \"X\" mean?",
+            questionMy:
+                "လှလှသည် seating chart ကို ဘာအဖြစ် သိမ်းဆည်းခဲ့ပြီး \"X\" က ဘာကို ဆိုလိုသနည်း။",
+            optionsEn: [
+              "A 2D list, where \"X\" meant a seat was occupied",
+              "A single string, where \"X\" meant an empty seat",
+              "A Boolean value only",
+              "A function that always returned \"X\"",
+            ],
+            optionsMy: [
+              "2D list တစ်ခု၊ \"X\" က ခုံ ထိုင်နေသည်ကို ဆိုလိုသည်",
+              "String တစ်ခုတည်း၊ \"X\" က ခုံလွတ်ကို ဆိုလိုသည်",
+              "Boolean value တစ်ခုတည်း",
+              "\"X\" ကိုသာ အမြဲပြန်ပေးသော function တစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the outer loop, for row in seating:, move through?",
+            questionMy:
+                "Outer loop ဖြစ်သော for row in seating: က ဘာကို လည်ပတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Each of the two rows of desks, one at a time",
+              "Each individual seat directly",
+              "Only the first row",
+              "The count variable",
+            ],
+            optionsMy: [
+              "စားပွဲတန်း row နှစ်ခုအနက် တစ်ခုချင်းစီ",
+              "ခုံတစ်ခုချင်းစီ တိုက်ရိုက်",
+              "ပထမ row တစ်ခုတည်း",
+              "count variable",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many total seats did the nested loop visit, and how many were occupied?",
+            questionMy:
+                "Nested loop သည် စုစုပေါင်း ခုံ မည်မျှကို လည်ပတ်ခဲ့ပြီး မည်မျှ ထိုင်နေခဲ့သနည်း။",
+            optionsEn: [
+              "6 seats visited in total; 4 were occupied",
+              "3 seats visited in total; 2 were occupied",
+              "2 seats visited in total; 6 were occupied",
+              "6 seats visited in total; all 6 were occupied",
+            ],
+            optionsMy: [
+              "စုစုပေါင်း ခုံ 6 လုံး လည်ပတ်ခဲ့ပြီး 4 လုံး ထိုင်နေခဲ့သည်",
+              "စုစုပေါင်း ခုံ 3 လုံး လည်ပတ်ခဲ့ပြီး 2 လုံး ထိုင်နေခဲ့သည်",
+              "စုစုပေါင်း ခုံ 2 လုံး လည်ပတ်ခဲ့ပြီး 6 လုံး ထိုင်နေခဲ့သည်",
+              "စုစုပေါင်း ခုံ 6 လုံး လည်ပတ်ခဲ့ပြီး 6 လုံးလုံး ထိုင်နေခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Hla Hla realize the outer loop alone would have given her?",
+            questionMy:
+                "Outer loop တစ်ခုတည်းသာဆိုလျှင် ဘာကို ပေးမည်ဖြစ်ကြောင်း လှလှ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Whole rows like [\"X\", \"X\", \"\"], not individual seats",
+              "Individual seats directly, with no inner loop needed",
+              "Nothing at all -- outer loops cannot run without inner loops",
+              "The exact same result as using the inner loop alone",
+            ],
+            optionsMy: [
+              "[\"X\", \"X\", \"\"] ကဲ့သို့ row တစ်ခုလုံးကိုသာ ပေးမည်၊ ခုံတစ်ခုချင်းစီကို မပေးပါ",
+              "Inner loop မလိုအပ်ဘဲ ခုံတစ်ခုချင်းစီကို တိုက်ရိုက်ပေးမည်",
+              "ဘာမျှမပေးပါ -- outer loop များသည် inner loop မပါဘဲ run၍မရပါ",
+              "Inner loop တစ်ခုတည်းသုံးသည့် ရလဒ်နှင့် အတူတူပင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what let Hla Hla reach each seat one at a time?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ခုံတစ်ခုချင်းစီသို့ ရောက်ရှိစေရန် ဘာက လှလှကို ခွင့်ပြုခဲ့သနည်း။",
+            optionsEn: [
+              "The inner loop, running completely for every single pass of the outer loop",
+              "The outer loop running only once total",
+              "Deleting and recreating the grid every time",
+              "A single if-statement with no loop at all",
+            ],
+            optionsMy: [
+              "Outer loop ၏ pass တစ်ခုစီအတွက် အပြည့်အဝ run သော inner loop",
+              "Outer loop သည် စုစုပေါင်း တစ်ကြိမ်တည်း run ခြင်း",
+              "တိုင်း grid ကို ဖျက်ပြီး ပြန်ဖန်တီးခြင်း",
+              "Loop လုံးဝမပါသော if-statement တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap Quiz",
+      titleMy: "Week 22 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a nested loop over a 2D list, what does the outer loop move through?",
+          questionMy:
+              "2D list အပေါ် nested loop တွင် outer loop က ဘာကို လည်ပတ်သနည်း။",
+          optionsEn: [
+            "Each row",
+            "Each single item",
+            "Nothing",
+            "The whole grid at once",
+          ],
+          optionsMy: [
+            "Row တစ်ခုချင်းစီ",
+            "Item တစ်ခုတည်းချင်းစီ",
+            "ဘာမျှမရှိ",
+            "grid တစ်ခုလုံးကို တစ်ပြိုင်တည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does the inner loop move through?",
+          questionMy: "Inner loop က ဘာကို လည်ပတ်သနည်း။",
+          optionsEn: [
+            "Each item within the current row",
+            "Each row within the grid",
+            "The outer loop itself",
+            "Nothing",
+          ],
+          optionsMy: [
+            "လက်ရှိ row အတွင်းရှိ item တစ်ခုချင်းစီ",
+            "grid အတွင်းရှိ row တစ်ခုချင်းစီ",
+            "Outer loop ကိုယ်တိုင်",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2, 3], [4, 5, 6]], how many total items does a nested loop visit?",
+          questionMy:
+              "grid = [[1, 2, 3], [4, 5, 6]] ဆိုပါက nested loop သည် item စုစုပေါင်း မည်မျှကို လည်ပတ်သနည်း။",
+          optionsEn: ["6", "2", "3", "5"],
+          optionsMy: ["6", "2", "3", "5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For each single pass of the outer loop, how many times does the inner loop's body run?",
+          questionMy:
+              "Outer loop ၏ pass တစ်ခုစီအတွက် inner loop ၏ body က မည်မျှကြိမ် run သနည်း။",
+          optionsEn: [
+            "Once for every item in the current row",
+            "Exactly once total",
+            "Zero times",
+            "Once for every row in the whole grid",
+          ],
+          optionsMy: [
+            "လက်ရှိ row ရှိ item တိုင်းအတွက် တစ်ကြိမ်စီ",
+            "စုစုပေါင်း တစ်ကြိမ်တည်း",
+            "တစ်ကြိမ်မျှ မလုပ်ပါ",
+            "grid တစ်ခုလုံးရှိ row တိုင်းအတွက် တစ်ကြိမ်စီ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a nested loop over a 2D list typically used for?",
+          questionMy:
+              "2D list အပေါ် nested loop ကို ပုံမှန်အားဖြင့် အဘယ်အတွက် သုံးသနည်း။",
+          optionsEn: [
+            "Visiting or processing every item in the grid",
+            "Deleting the grid entirely",
+            "Converting the grid into a Boolean",
+            "Sorting only the column headers",
+          ],
+          optionsMy: [
+            "grid ရှိ item တိုင်းကို လည်ပတ် (သို့) စီမံဆောင်ရွက်ရန်",
+            "grid ကို လုံးဝ ဖျက်ရန်",
+            "grid ကို Boolean အဖြစ် ပြောင်းလဲရန်",
+            "Column header များကိုသာ sort လုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 6, Week 23: "Modifying and Building 2D
+// Data"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek23 = CourseWeekDef(
+  id: "course-secondary2-computing-w23",
+  weekNumber: 23,
+  titleEn: "Modifying and Building 2D Data",
+  titleMy: "2D Data ပြင်ဆင်ခြင်းနှင့် တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w23-d1",
+      dayNumber: 1,
+      titleEn: "Lists Are Mutable",
+      titleMy: "List များသည် Mutable ဖြစ်သည်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2], [3, 4]], what does grid[0][1] = 99 do?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက grid[0][1] = 99 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Changes grid in place to [[1, 99], [3, 4]]",
+            "Causes an error, because grid cannot be changed",
+            "Creates a brand-new grid without changing the original",
+            "Deletes the first row entirely",
+          ],
+          optionsMy: [
+            "grid ကို တိုက်ရိုက် [[1, 99], [3, 4]] အဖြစ် ပြောင်းလဲသည်",
+            "grid ကို ပြောင်းလဲ၍ မရသောကြောင့် error ဖြစ်သည်",
+            "မူရင်းကို မပြောင်းလဲဘဲ grid အသစ်တစ်ခု ဖန်တီးသည်",
+            "ပထမ row ကို လုံးဝ ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does grid[0][1] = 99 work when name[0] = \"J\" from Term 5 did not?",
+          questionMy:
+              "Term 5 က name[0] = \"J\" မရသော်လည်း grid[0][1] = 99 အဘယ့်ကြောင့် အလုပ်ဖြစ်သနည်း။",
+          optionsEn: [
+            "Because lists (including nested lists) are mutable, while strings are immutable",
+            "Because grid is secretly a string too",
+            "Because 99 is a special value that bypasses immutability",
+            "There is no real difference -- both actually fail",
+          ],
+          optionsMy: [
+            "List (nested list အပါအဝင်) များသည် mutable ဖြစ်ပြီး string များသည် immutable ဖြစ်သောကြောင့်",
+            "grid သည် တကယ်တော့ string ဖြစ်နေသောကြောင့်",
+            "99 သည် immutability ကို ကျော်လွှားနိုင်သော special value ဖြစ်သောကြောင့်",
+            "အမှန်တကယ် ကွာခြားချက် မရှိပါ -- နှစ်ခုစလုံး ပျက်ကွက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does grid.append([5, 6]) do if grid = [[1, 2], [3, 4]]?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက grid.append([5, 6]) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds a new row, [5, 6], to the end -- grid becomes [[1, 2], [3, 4], [5, 6]]",
+            "Adds 5 and 6 as new items directly inside row 0",
+            "Replaces the entire grid with [[5, 6]]",
+            "Causes an error, because grid already has two rows",
+          ],
+          optionsMy: [
+            "အဆုံးတွင် row အသစ် [5, 6] ကို ထည့်သည် -- grid သည် [[1, 2], [3, 4], [5, 6]] ဖြစ်လာသည်",
+            "5 နှင့် 6 ကို row 0 အတွင်း item အသစ်များအဖြစ် တိုက်ရိုက်ထည့်သည်",
+            "grid တစ်ခုလုံးကို [[5, 6]] ဖြင့် အစားထိုးသည်",
+            "grid တွင် row နှစ်ခု ရှိပြီးသားဖြစ်၍ error ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does grid[1].append(99) do if grid = [[1, 2], [3, 4]]?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက grid[1].append(99) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds 99 to the end of row 1 -- grid becomes [[1, 2], [3, 4, 99]]",
+            "Adds a whole new row containing 99",
+            "Adds 99 to row 0 instead",
+            "Causes an error, because rows cannot be appended to",
+          ],
+          optionsMy: [
+            "row 1 ၏ အဆုံးတွင် 99 ကို ထည့်သည် -- grid သည် [[1, 2], [3, 4, 99]] ဖြစ်လာသည်",
+            "99 ပါသော row အသစ်တစ်ခုလုံးကို ထည့်သည်",
+            "row 0 တွင် 99 ကို အစားထိုးထည့်သည်",
+            "row များအတွင်းသို့ append လုပ်၍ မရသောကြောင့် error ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How could you build an empty 2 by 2 grid step by step using .append()?",
+          questionMy:
+              ".append() သုံး၍ 2 x 2 ဗလာ grid တစ်ခုကို အဆင့်ဆင့် မည်သို့ တည်ဆောက်နိုင်သနည်း။",
+          optionsEn: [
+            "Start with grid = [], append two empty lists to it, then append values into each inner list",
+            "Write out all four values directly with no loop or append needed",
+            "Use .upper() twice",
+            "It cannot be built step by step -- it must be typed all at once",
+          ],
+          optionsMy: [
+            "grid = [] ဖြင့် စတင်ပြီး ဗလာ list နှစ်ခုကို append ထည့်ကာ inner list တစ်ခုစီအတွင်း တန်ဖိုးများ append ထည့်သည်",
+            "Loop (သို့) append မလိုဘဲ တန်ဖိုးလေးခု အားလုံးကို တိုက်ရိုက်ရေးသည်",
+            ".upper() ကို နှစ်ကြိမ် သုံးသည်",
+            "အဆင့်ဆင့် တည်ဆောက်၍ မရပါ -- တစ်ပြိုင်နက်တည်း ရိုက်ထည့်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w23-d2",
+      dayNumber: 2,
+      titleEn: "Building and Changing Grids Vocabulary",
+      titleMy: "Grid ပြင်ဆင်ခြင်းနှင့် တည်ဆောက်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w23-list-mutable",
+          termEn: "Mutable",
+          termMy: "Mutable",
+          matchEn:
+              "Can be changed in place after creation -- unlike strings, lists (including nested lists) allow direct item assignment",
+          matchMy:
+              "ဖန်တီးပြီးနောက် တိုက်ရိုက်ပြောင်းလဲနိုင်ခြင်း -- string များနှင့်မတူဘဲ list (nested list အပါအဝင်) များသည် item တိုက်ရိုက် assign ခြင်းကို ခွင့်ပြုသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w23-list-append",
+          termEn: ".append()",
+          termMy: ".append()",
+          matchEn: "A list method that adds a new item to the end of a list",
+          matchMy: "List ၏ အဆုံးတွင် item အသစ်တစ်ခု ထည့်သော list method",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w23-list-gridassign",
+          termEn: "grid[row][col] = value",
+          termMy: "grid[row][col] = value",
+          matchEn:
+              "Directly changes a single item inside a 2D list, possible because lists are mutable",
+          matchMy:
+              "List များ mutable ဖြစ်၍ 2D list အတွင်း item တစ်ခုတည်းကို တိုက်ရိုက်ပြောင်းလဲသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w23-list-buildingrow",
+          termEn: "Building a Row",
+          termMy: "Building a Row",
+          matchEn:
+              "Using .append() repeatedly to add items one at a time into a single inner list",
+          matchMy:
+              "Inner list တစ်ခုတည်းအတွင်း item များကို တစ်ခုချင်းစီ ထည့်ရန် .append() ကို ထပ်ခါထပ်ခါ အသုံးပြုခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w23-list-buildinggrid",
+          termEn: "Building a Grid",
+          termMy: "Building a Grid",
+          matchEn:
+              "Using .append() to add whole new inner lists (rows) onto an outer list",
+          matchMy:
+              "Outer list ပေါ်သို့ inner list (row) အသစ်များ ထည့်ရန် .append() ကို အသုံးပြုခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w23-d3",
+      dayNumber: 3,
+      titleEn: "Valid or Invalid?",
+      titleMy: "မှန် မမှန်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Valid -- Lists Are Mutable",
+          "Invalid -- This Rule Was Only for Strings",
+        ],
+        bucketsMy: [
+          "မှန်ကန် -- List များသည် Mutable",
+          "မမှန် -- ဤစည်းမျဉ်းသည် String များအတွက်သာ",
+        ],
+        items: [
+          SortingItem(
+            id: "w23-sort-gridassign",
+            labelEn: "grid[0][1] = 99",
+            labelMy: "grid[0][1] = 99",
+            correctBucketEn: "Valid -- Lists Are Mutable",
+            correctBucketMy: "မှန်ကန် -- List များသည် Mutable",
+          ),
+          SortingItem(
+            id: "w23-sort-nameassign",
+            labelEn: "name[0] = \"J\" (name is a string)",
+            labelMy: "name[0] = \"J\" (name သည် string ဖြစ်ပါက)",
+            correctBucketEn: "Invalid -- This Rule Was Only for Strings",
+            correctBucketMy: "မမှန် -- ဤစည်းမျဉ်းသည် String များအတွက်သာ",
+          ),
+          SortingItem(
+            id: "w23-sort-gridappend",
+            labelEn: "grid.append([7, 8])",
+            labelMy: "grid.append([7, 8])",
+            correctBucketEn: "Valid -- Lists Are Mutable",
+            correctBucketMy: "မှန်ကန် -- List များသည် Mutable",
+          ),
+          SortingItem(
+            id: "w23-sort-rowappend",
+            labelEn: "grid[1].append(5)",
+            labelMy: "grid[1].append(5)",
+            correctBucketEn: "Valid -- Lists Are Mutable",
+            correctBucketMy: "မှန်ကန် -- List များသည် Mutable",
+          ),
+          SortingItem(
+            id: "w23-sort-wordassign",
+            labelEn: "word[2] = \"x\" (word is a string)",
+            labelMy: "word[2] = \"x\" (word သည် string ဖြစ်ပါက)",
+            correctBucketEn: "Invalid -- This Rule Was Only for Strings",
+            correctBucketMy: "မမှန် -- ဤစည်းမျဉ်းသည် String များအတွက်သာ",
+          ),
+          SortingItem(
+            id: "w23-sort-numbersassign",
+            labelEn: "numbers[0] = 100 (numbers is a list)",
+            labelMy: "numbers[0] = 100 (numbers သည် list ဖြစ်ပါက)",
+            correctBucketEn: "Valid -- Lists Are Mutable",
+            correctBucketMy: "မှန်ကန် -- List များသည် Mutable",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w23-d4",
+      dayNumber: 4,
+      titleEn: "Aye Chan's Game Board Fix",
+      titleMy: "အေးချမ်း၏ Game Board ပြင်ဆင်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Chan's Game Board Fix",
+        titleMy: "အေးချမ်း၏ Game Board ပြင်ဆင်မှု",
+        passageEn:
+            "Aye Chan was building a simple tic-tac-toe board using a 2D list. She started with board = [] and built it up row by row: board.append([\"\", \"\", \"\"]) three times gave her three empty rows, so board became [[\"\", \"\", \"\"], [\"\", \"\", \"\"], [\"\", \"\", \"\"]]. When a player placed a mark, she used direct assignment to update a single cell: board[1][1] = \"X\" placed an X in the very center of the board, changing board in place to [[\"\", \"\", \"\"], [\"\", \"X\", \"\"], [\"\", \"\", \"\"]]. This reminded her of Term 5, when Zin Mar had tried name[4] = \"\" on a string and Python had raised an error, because strings are immutable. Aye Chan tested the same idea here on purpose: could she edit a list cell directly the way Zin Mar could not edit a string character? board[1][1] = \"X\" worked perfectly, with no error at all -- proof that lists, including nested lists, are mutable, while strings are not. Later, a player made a mistake and wanted to undo their move, so Aye Chan simply reassigned the same cell again: board[1][1] = \"\" cleared it back to empty, directly in place, no rebuilding required. She realized this single difference -- mutable lists versus immutable strings -- explained why she could fix a game board cell with one line of code, while fixing a typo in a string back in Term 5 had required building a brand-new string instead.",
+        passageMy:
+            "အေးချမ်းသည် 2D list တစ်ခုသုံး၍ tic-tac-toe board ရိုးရှင်းတစ်ခု တည်ဆောက်နေသည်။ board = [] ဖြင့် စတင်ပြီး row အလိုက် တည်ဆောက်ခဲ့သည် - board.append([\"\", \"\", \"\"]) ကို သုံးကြိမ်လုပ်ခြင်းက ဗလာ row သုံးခုကို ပေးခဲ့ပြီး board သည် [[\"\", \"\", \"\"], [\"\", \"\", \"\"], [\"\", \"\", \"\"]] ဖြစ်လာသည်။ Player တစ်ဦးက mark ချသောအခါ cell တစ်ခုတည်းကို update ရန် direct assignment ကို သုံးခဲ့သည် - board[1][1] = \"X\" က board အလယ်ဗဟိုတွင် X ကို ထားခဲ့ပြီး board ကို [[\"\", \"\", \"\"], [\"\", \"X\", \"\"], [\"\", \"\", \"\"]] အဖြစ် တိုက်ရိုက်ပြောင်းလဲခဲ့သည်။ ၎င်းက Term 5 တွင် ဇင်မာသည် string တစ်ခုအပေါ် name[4] = \"\" ဟု စမ်းရေးကြည့်ရာ string များသည် immutable ဖြစ်၍ Python က error တက်ခဲ့သည်ကို သတိရစေသည်။ အေးချမ်းသည် ဤအတွေးကို တမင်ထပ်စမ်းသပ်ခဲ့သည် - ဇင်မာ string character ကို တိုက်ရိုက်ပြင်၍မရခဲ့သကဲ့သို့ list cell တစ်ခုကို တိုက်ရိုက်ပြင်၍ ရမည်လား။ board[1][1] = \"X\" က error တစ်ခုမျှမတက်ဘဲ ကောင်းစွာ အလုပ်ဖြစ်ခဲ့သည် -- list (nested list အပါအဝင်) များသည် mutable ဖြစ်ပြီး string များ မဟုတ်ကြောင်း သက်သေဖြစ်ခဲ့သည်။ နောက်ပိုင်းတွင် player တစ်ဦးက မှားယွင်းသွားပြီး move ကို ပြန်ပယ်ဖျက်လိုသဖြင့် အေးချမ်းသည် cell တူတူကို ထပ်မံ assign ခဲ့ရုံသာ - board[1][1] = \"\" က ၎င်းကို ဗလာအဖြစ် တိုက်ရိုက် ပြန်ရှင်းလင်းပေးခဲ့ပြီး ပြန်တည်ဆောက်ရန် မလိုအပ်ခဲ့ပါ။ Mutable list နှင့် immutable string ကွာခြားချက် တစ်ခုတည်းကသာ game board cell တစ်ခုကို code line တစ်ကြောင်းတည်းဖြင့် ပြင်ဆင်နိုင်ခဲ့ခြင်း၊ ထို့ကြောင့် Term 5 က string တွင် typo တစ်ခုကို ပြင်ရန် string အသစ်လုံးဝတစ်ခု တည်ဆောက်ရသည်ကို ရှင်းပြနေကြောင်း သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How did Aye Chan build up her empty tic-tac-toe board?",
+            questionMy:
+                "အေးချမ်းသည် ဗလာ tic-tac-toe board ကို မည်သို့ တည်ဆောက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Starting with board = [] and using .append() three times to add three empty rows",
+              "By typing out the entire finished board at once",
+              "By copying an existing board from Term 1",
+              "Using .upper() on an empty string",
+            ],
+            optionsMy: [
+              "board = [] ဖြင့် စတင်ပြီး ဗလာ row သုံးခု ထည့်ရန် .append() ကို သုံးကြိမ် သုံးခြင်းဖြင့်",
+              "ပြီးစီးသော board တစ်ခုလုံးကို တစ်ပြိုင်နက်တည်း ရိုက်ထည့်ခြင်းဖြင့်",
+              "Term 1 မှ board ရှိပြီးသားတစ်ခုကို ကူးယူခြင်းဖြင့်",
+              "ဗလာ string တစ်ခုအပေါ် .upper() သုံးခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did board[1][1] = \"X\" do to the board?",
+            questionMy: "board[1][1] = \"X\" က board ကို ဘာဖြစ်စေခဲ့သနည်း။",
+            optionsEn: [
+              "Changed board in place, placing an X in the center cell",
+              "Caused an error, since board cannot be changed",
+              "Created a whole new board without changing the original",
+              "Deleted the center row entirely",
+            ],
+            optionsMy: [
+              "board ကို တိုက်ရိုက်ပြောင်းလဲပြီး အလယ် cell တွင် X ထားခဲ့သည်",
+              "board ကို ပြောင်းလဲ၍မရသောကြောင့် error ဖြစ်ခဲ့သည်",
+              "မူရင်းကို မပြောင်းလဲဘဲ board အသစ်တစ်ခုလုံး ဖန်တီးခဲ့သည်",
+              "အလယ် row ကို လုံးဝ ဖျက်ပစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the passage compare board[1][1] = \"X\" to, from Term 5?",
+            questionMy:
+                "ဇာတ်လမ်းက board[1][1] = \"X\" ကို Term 5 မှ ဘာနှင့် နှိုင်းယှဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Zin Mar's failed attempt at name[4] = \"\" on a string, which raised an error because strings are immutable",
+              "Su Su's name badge program",
+              "Hnin Wai's student ID splitter",
+              "Nothing from Term 5 -- it was a brand new idea",
+            ],
+            optionsMy: [
+              "ဇင်မာ string အပေါ် name[4] = \"\" ကို စမ်းရေးကြည့်ရာ string များ immutable ဖြစ်၍ error တက်ခဲ့ခြင်းနှင့်",
+              "စုစု၏ name badge ပရိုဂရမ်",
+              "နှင်းဝေ၏ student ID ခွဲခြမ်းသည့် ပရိုဂရမ်",
+              "Term 5 မှ မည်သည့်အရာနှင့်မျှ မနှိုင်းယှဉ်ခဲ့ပါ -- လုံးဝ idea အသစ်ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Aye Chan undo a player's mistaken move?",
+            questionMy:
+                "Player ၏ မှားယွင်းသော move ကို အေးချမ်းသည် မည်သို့ ပြန်ပယ်ဖျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "By reassigning the same cell directly, board[1][1] = \"\", clearing it in place",
+              "By rebuilding the entire board from scratch",
+              "By deleting the whole grid and starting a new game",
+              "It was impossible to undo a move",
+            ],
+            optionsMy: [
+              "Cell တူတူကို board[1][1] = \"\" ဖြင့် တိုက်ရိုက် ပြန် assign ကာ ဗလာအဖြစ် တိုက်ရိုက် ရှင်းလင်းခြင်းဖြင့်",
+              "board တစ်ခုလုံးကို အစအဆုံး ပြန်တည်ဆောက်ခြင်းဖြင့်",
+              "grid တစ်ခုလုံးကို ဖျက်ပြီး ဂိမ်းအသစ် ပြန်စခြင်းဖြင့်",
+              "Move ကို ပြန်ပယ်ဖျက်ရန် မဖြစ်နိုင်ပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what single difference explained why editing the board was easier than editing a string had been?",
+            questionMy:
+                "ဇာတ်လမ်းအရ board ကို ပြင်ဆင်ခြင်းသည် string ကို ပြင်ဆင်ခြင်းထက် အဘယ့်ကြောင့် ပိုလွယ်ကူခဲ့ကြောင်း ကွာခြားချက်တစ်ခုတည်းက အဘယ်နည်း။",
+            optionsEn: [
+              "Lists are mutable while strings are immutable",
+              "Boards are always smaller than strings",
+              "Strings are actually mutable too, but slower",
+              "There was no real difference at all",
+            ],
+            optionsMy: [
+              "List များသည် mutable ဖြစ်ပြီး string များသည် immutable ဖြစ်ခြင်း",
+              "Board များသည် string များထက် အမြဲသေးငယ်ခြင်း",
+              "String များသည် တကယ်တော့ mutable ဖြစ်သော်လည်း ပိုနှေးခြင်း",
+              "အမှန်တကယ် ကွာခြားချက် လုံးဝမရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap Quiz",
+      titleMy: "Week 23 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Are lists, including nested lists, mutable or immutable?",
+          questionMy:
+              "List (nested list အပါအဝင်) များသည် mutable လား immutable လား။",
+          optionsEn: ["Mutable", "Immutable", "Neither", "Only on weekdays"],
+          optionsMy: [
+            "Mutable",
+            "Immutable",
+            "နှစ်ခုစလုံး မဟုတ်ပါ",
+            "အားလပ်ရက်တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does .append() do to a list?",
+          questionMy: ".append() က list တစ်ခုကို ဘာဖြစ်စေသနည်း။",
+          optionsEn: [
+            "Adds a new item to the end",
+            "Removes the first item",
+            "Sorts the list",
+            "Converts the list into a string",
+          ],
+          optionsMy: [
+            "အဆုံးတွင် item အသစ်တစ်ခု ထည့်သည်",
+            "ပထမ item ကို ဖယ်ရှားသည်",
+            "List ကို sort လုပ်သည်",
+            "List ကို string အဖြစ် ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grid = [[1, 2], [3, 4]], what does grid[1][0] = 50 change grid to?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက grid[1][0] = 50 က grid ကို ဘာအဖြစ် ပြောင်းလဲသနည်း။",
+          optionsEn: [
+            "[[1, 2], [50, 4]]",
+            "[[50, 2], [3, 4]]",
+            "[[1, 2], [3, 50]]",
+            "An error",
+          ],
+          optionsMy: [
+            "[[1, 2], [50, 4]]",
+            "[[50, 2], [3, 4]]",
+            "[[1, 2], [3, 50]]",
+            "Error",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can't you write name[0] = \"J\" for a string named name?",
+          questionMy:
+              "name ဟုအမည်ရှိ string တစ်ခုအတွက် name[0] = \"J\" ဟု အဘယ့်ကြောင့် ရေး၍မရသနည်း။",
+          optionsEn: [
+            "Strings are immutable",
+            "Strings do not support indexing at all",
+            "\"J\" is not a valid character",
+            "It actually works fine",
+          ],
+          optionsMy: [
+            "String များသည် immutable ဖြစ်သောကြောင့်",
+            "String များသည် indexing ကို လုံးဝ support မလုပ်သောကြောင့်",
+            "\"J\" သည် သင့်တော်သော character မဟုတ်သောကြောင့်",
+            "တကယ်တော့ ကောင်းစွာ အလုပ်ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does grid[0].append(9) do if grid = [[1, 2], [3, 4]]?",
+          questionMy:
+              "grid = [[1, 2], [3, 4]] ဆိုပါက grid[0].append(9) က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "grid becomes [[1, 2, 9], [3, 4]]",
+            "grid becomes [[9, 1, 2], [3, 4]]",
+            "grid becomes [[1, 2], [3, 4], [9]]",
+            "Causes an error",
+          ],
+          optionsMy: [
+            "grid သည် [[1, 2, 9], [3, 4]] ဖြစ်လာသည်",
+            "grid သည် [[9, 1, 2], [3, 4]] ဖြစ်လာသည်",
+            "grid သည် [[1, 2], [3, 4], [9]] ဖြစ်လာသည်",
+            "error ဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 6, Week 24: "Putting It Together:
+// Summing a 2D Grid"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek24 = CourseWeekDef(
+  id: "course-secondary2-computing-w24",
+  weekNumber: 24,
+  titleEn: "Putting It Together: Summing a 2D Grid",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း — 2D Grid ပေါင်းလဒ်ရှာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w24-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Grid-Summing Function",
+      titleMy: "Grid ပေါင်းလဒ်ရှာမည့် Function ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program needs to add up every number inside a 2D list. Which function signature fits?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် 2D list အတွင်းရှိ ဂဏန်းတိုင်းကို ပေါင်းလဒ်ရှာရမည်ဆိုပါက မည်သည့် function signature က ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "def sum_grid(grid): ... return total",
+            "def sum_grid(): ... return total",
+            "sum_grid(grid): return",
+            "def sum_grid(grid) return total:",
+          ],
+          optionsMy: [
+            "def sum_grid(grid): ... return total",
+            "def sum_grid(): ... return total",
+            "sum_grid(grid): return",
+            "def sum_grid(grid) return total:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which Week 22 pattern is reused to visit every single item in every row of grid?",
+          questionMy:
+              "grid ရှိ row တိုင်းအတွင်း item တိုင်းကို လည်ပတ်ရန် Week 22 ၏ မည်သည့် pattern ကို ပြန်လည်အသုံးချသနည်း။",
+          optionsEn: [
+            "A nested loop, for row in grid: then for item in row:",
+            "Binary search",
+            "A truth table",
+            "String slicing",
+          ],
+          optionsMy: [
+            "Nested loop, for row in grid: ပြီးမှ for item in row:",
+            "Binary search",
+            "Truth table",
+            "String slicing",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does total = total + item do each time inside the nested loop?",
+          questionMy:
+              "Nested loop အတွင်း total = total + item က အကြိမ်တိုင်း ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Accumulates a running sum of every item visited so far",
+            "Resets total back to 0",
+            "Deletes item from the grid",
+            "Only runs once, no matter how many items exist",
+          ],
+          optionsMy: [
+            "လက်ရှိအထိ လည်ပတ်ခဲ့သော item အားလုံး၏ ပေါင်းလဒ်ကို ဆက်လက် တွက်ချက်သည်",
+            "total ကို 0 သို့ ပြန်လည် reset လုပ်သည်",
+            "item ကို grid မှ ဖျက်ပစ်သည်",
+            "Item မည်မျှရှိသည်မဆို တစ်ကြိမ်တည်းသာ run သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What value should total start at, before the nested loop begins?",
+          questionMy:
+              "Nested loop မစတင်မီ total သည် မည်သည့်တန်ဖိုးမှ စတင်သင့်သနည်း။",
+          optionsEn: ["0", "1", "-1", "The length of grid"],
+          optionsMy: ["0", "1", "-1", "grid ၏ length"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should sum_grid(grid) return once both loops have finished?",
+          questionMy:
+              "Loop နှစ်ခုစလုံး ပြီးဆုံးသည့်အခါ sum_grid(grid) က ဘာ return ပြန်ပေးသင့်သနည်း။",
+          optionsEn: [
+            "The final total sum of every item in the grid",
+            "The original grid unchanged",
+            "Only the first row's sum",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "grid ရှိ item အားလုံး၏ အဆုံးသတ် ပေါင်းလဒ်",
+            "မူလ grid မပြောင်းလဲဘဲ",
+            "ပထမ row ၏ ပေါင်းလဒ်တစ်ခုတည်း",
+            "ဘာမျှ return မပြန်ပေးပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w24-d2",
+      dayNumber: 2,
+      titleEn: "Grid-Summing Function Vocabulary",
+      titleMy: "Grid ပေါင်းလဒ်ရှာသော Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w24-cap-sumgridfn",
+          termEn: "sum_grid(grid)",
+          termMy: "sum_grid(grid)",
+          matchEn:
+              "A function that takes a 2D list as a parameter and returns the total of every item inside it",
+          matchMy:
+              "2D list ကို parameter အဖြစ်ယူပြီး ၎င်းအတွင်းရှိ item အားလုံး၏ ပေါင်းလဒ်ကို ပြန်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w24-cap-nestedloopreuse",
+          termEn: "for row in grid: for item in row:",
+          termMy: "for row in grid: for item in row:",
+          matchEn:
+              "The nested loop pattern from Week 22, reused here to visit every item in every row",
+          matchMy:
+              "Row တိုင်းရှိ item တိုင်းကို လည်ပတ်ရန် Week 22 မှ nested loop pattern ကို ပြန်လည်အသုံးချထားခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w24-cap-accumulatorreuse",
+          termEn: "Accumulator (total = 0)",
+          termMy: "Accumulator (total = 0)",
+          matchEn:
+              "The running-total pattern from Term 1 and Term 3, reused here to build up a sum across a whole grid",
+          matchMy:
+              "Grid တစ်ခုလုံး၏ ပေါင်းလဒ်ကို ဆောက်တည်ရန် Term 1 နှင့် Term 3 မှ accumulator pattern ကို ပြန်လည်အသုံးချထားခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w24-cap-totalplusitem",
+          termEn: "total = total + item",
+          termMy: "total = total + item",
+          matchEn:
+              "Adds the current item to the running total inside the nested loop",
+          matchMy:
+              "Nested loop အတွင်း လက်ရှိ item ကို running total သို့ ပေါင်းထည့်ခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w24-cap-returntotal",
+          termEn: "return total",
+          termMy: "return total",
+          matchEn:
+              "Sending the final accumulated sum back to whoever called the function",
+          matchMy:
+              "Function ကို call ခေါ်သူထံ အဆုံးသတ် accumulated ပေါင်းလဒ်ကို ပြန်ပို့ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w24-d3",
+      dayNumber: 3,
+      titleEn: "Nested Loop or Accumulator?",
+      titleMy: "Nested Loop လား Accumulator လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Part of the Nested Loop", "Part of the Accumulator"],
+        bucketsMy: ["Nested Loop ၏ အစိတ်အပိုင်း", "Accumulator ၏ အစိတ်အပိုင်း"],
+        items: [
+          SortingItem(
+            id: "w24-sort-forrowingrid",
+            labelEn: "for row in grid:",
+            labelMy: "for row in grid:",
+            correctBucketEn: "Part of the Nested Loop",
+            correctBucketMy: "Nested Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w24-sort-foriteminrow",
+            labelEn: "for item in row:",
+            labelMy: "for item in row:",
+            correctBucketEn: "Part of the Nested Loop",
+            correctBucketMy: "Nested Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w24-sort-visitsevery",
+            labelEn: "Visits every item in every row exactly once",
+            labelMy:
+                "Row တိုင်းရှိ item တိုင်းကို အတိအကျ တစ်ကြိမ်တည်း လည်ပတ်သည်",
+            correctBucketEn: "Part of the Nested Loop",
+            correctBucketMy: "Nested Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w24-sort-totalzero",
+            labelEn: "total = 0",
+            labelMy: "total = 0",
+            correctBucketEn: "Part of the Accumulator",
+            correctBucketMy: "Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w24-sort-totalplusitem",
+            labelEn: "total = total + item",
+            labelMy: "total = total + item",
+            correctBucketEn: "Part of the Accumulator",
+            correctBucketMy: "Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w24-sort-returntotal",
+            labelEn: "return total",
+            labelMy: "return total",
+            correctBucketEn: "Part of the Accumulator",
+            correctBucketMy: "Accumulator ၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w24-d4",
+      dayNumber: 4,
+      titleEn: "Ei Ei's Class Score Total",
+      titleMy: "အိအိ၏ Class Score ပေါင်းလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ei Ei's Class Score Total",
+        titleMy: "အိအိ၏ Class Score ပေါင်းလဒ်",
+        passageEn:
+            "For her end-of-term project, Ei Ei combined everything she had learned about 2D data into a single function. She had a grid of quiz scores for three students, each with two subject scores: grid = [[85, 90], [70, 75], [95, 100]], and she wanted the combined total of every single score in the whole grid. She wrote a function called sum_grid(grid) that took the 2D list as a parameter. Inside, she reused Week 22's nested loop pattern: for row in grid: moved through each student's row one at a time, and for item in row: moved through each of that student's two scores. Before the loops began, she reused the accumulator pattern from Term 1 and Term 3, starting with total = 0. Inside the inner loop, total = total + item added the current score onto the running total -- the exact same accumulator step she had used all through Term 1, Term 3, and Term 5's own count_matches capstone, just now running inside two loops instead of one. Once the nested loop had visited all six scores, the function returned total, reusing the same return pattern every function had used since Term 2. Calling sum_grid(grid) added them in order: 85, then 90 (running total 175), then 70 (245), then 75 (320), then 95 (415), and finally 100, for a final total of 515. Ei Ei realized her function had quietly reused nearly everything from the whole year: a 2D list from this term's own Week 21, a nested loop from Week 22, an accumulator refined since Term 1, and a function with a parameter and a return value from Term 2 -- one small piece of code standing on top of everything she had learned before it.",
+        passageMy:
+            "နှစ်ကုန်စီမံကိန်းအတွက် အိအိသည် 2D data အကြောင်း သင်ယူခဲ့သမျှအားလုံးကို function တစ်ခုတည်းအတွင်း ပေါင်းစပ်ခဲ့သည်။ သူမတွင် ကျောင်းသားသုံးဦး၏ quiz score grid ရှိပြီး၊ တစ်ဦးစီတွင် subject score နှစ်ခုစီရှိသည် - grid = [[85, 90], [70, 75], [95, 100]] - grid တစ်ခုလုံးရှိ score တစ်ခုချင်းစီ၏ ပေါင်းလဒ်ကို သိလိုခဲ့သည်။ သူမသည် 2D list ကို parameter အဖြစ်ယူသော sum_grid(grid) ဟူသော function တစ်ခု ရေးခဲ့သည်။ အတွင်း၌ Week 22 ၏ nested loop pattern ကို ပြန်လည်အသုံးချကာ for row in grid: က ကျောင်းသားတစ်ဦးစီ၏ row ကို တစ်ခုချင်းစီ လည်ပတ်ပြီး for item in row: က ထိုကျောင်းသား၏ score နှစ်ခုကို လည်ပတ်ခဲ့သည်။ Loop များမစတင်မီ Term 1 နှင့် Term 3 မှ accumulator pattern အတိုင်း total = 0 ဖြင့် စတင်ခဲ့သည်။ Inner loop အတွင်း total = total + item က လက်ရှိ score ကို running total ပေါ်သို့ ပေါင်းထည့်ခဲ့ပြီး -- Term 1၊ Term 3 နှင့် Term 5 ကိုယ်တိုင်၏ count_matches capstone တစ်လျှောက် အသုံးပြုခဲ့သော accumulator အဆင့်အတိုင်းပင်ဖြစ်ပြီး ယခုတွင် loop တစ်ခုတည်းအစား loop နှစ်ခုအတွင်း run နေခြင်းသာ ကွာခြားသည်။ Nested loop သည် score ခြောက်ခုလုံးကို လည်ပတ်ပြီးနောက် function သည် total ကို return ပြန်ပေးခဲ့ပြီး Term 2 မှစ၍ function တိုင်း အသုံးပြုခဲ့သော return pattern အတိုင်းပင် ဖြစ်ခဲ့သည်။ sum_grid(grid) ကို call ခေါ်ခြင်းက အစဉ်လိုက် ပေါင်းထည့်ခဲ့သည် - 85၊ ထို့နောက် 90 (running total 175)၊ ထို့နောက် 70 (245)၊ ထို့နောက် 75 (320)၊ ထို့နောက် 95 (415)၊ နောက်ဆုံးတွင် 100 ကို ပေါင်းထည့်ပြီး နောက်ဆုံး ပေါင်းလဒ် 515 ရရှိခဲ့သည်။ သူမ၏ function သည် တစ်နှစ်တာလုံးမှ သင်ခဲ့သမျှကို တိတ်တဆိတ် ပြန်လည်အသုံးချထားကြောင်း အိအိ သဘောပေါက်လိုက်သည် - ဤ Term ၏ Week 21 ကိုယ်တိုင်မှ 2D list၊ Week 22 မှ nested loop၊ Term 1 မှစ၍ သန့်စင်ခဲ့သော accumulator၊ ထို့ပြင် Term 2 မှ parameter နှင့် return value ပါသော function -- code အပိုင်းငယ်တစ်ခုသည် ယခင်က သင်ခဲ့သမျှအားလုံး၏ထက်တွင် တည်ဆောက်ထားခြင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did sum_grid(grid) take as a parameter, and what did it return?",
+            questionMy:
+                "sum_grid(grid) က ဘာကို parameter အဖြစ်ယူပြီး ဘာ return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A 2D list; it returned the total of every item inside it",
+              "A single number; it returned that number doubled",
+              "A string; it returned its length",
+              "Nothing; it always returned 0",
+            ],
+            optionsMy: [
+              "2D list; ၎င်းအတွင်းရှိ item အားလုံး၏ ပေါင်းလဒ်ကို return ပြန်ပေးခဲ့သည်",
+              "ဂဏန်းတစ်ခုတည်း; ထိုဂဏန်း၏ နှစ်ဆကို return ပြန်ပေးခဲ့သည်",
+              "String တစ်ခု; ၎င်း၏ length ကို return ပြန်ပေးခဲ့သည်",
+              "ဘာမျှမပါ; အမြဲ 0 ကို return ပြန်ပေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which Week 22 pattern did the function reuse inside itself?",
+            questionMy:
+                "Function သည် Week 22 ၏ မည်သည့် pattern ကို အတွင်း၌ ပြန်လည်အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              "The nested loop, for row in grid: then for item in row:",
+              "Binary search",
+              "A truth table",
+              "The in operator",
+            ],
+            optionsMy: [
+              "Nested loop, for row in grid: ပြီးမှ for item in row:",
+              "Binary search",
+              "Truth table",
+              "in operator",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the value of total right after the loop added the score 70 (following 85 and 90)?",
+            questionMy:
+                "Score 85 နှင့် 90 ပြီးနောက် 70 ကို loop က ပေါင်းထည့်ပြီးချက်ချင်း total သည် မည်သည့်တန်ဖိုးဖြစ်ခဲ့သနည်း။",
+            optionsEn: ["245", "175", "320", "70"],
+            optionsMy: ["245", "175", "320", "70"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the final value returned by sum_grid(grid)?",
+            questionMy:
+                "sum_grid(grid) မှ ရရှိသော နောက်ဆုံး return တန်ဖိုးက အဘယ်နည်း။",
+            optionsEn: ["515", "500", "415", "320"],
+            optionsMy: ["515", "500", "415", "320"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Ei Ei realize her function had reused from the whole year?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သူမ၏ function သည် တစ်နှစ်တာလုံးမှ ဘာများကို ပြန်လည်အသုံးချထားကြောင်း အိအိ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "A 2D list, a nested loop, an accumulator, and a function with a parameter and return value",
+              "Only ideas from this single term, nothing earlier",
+              "Nothing -- it was a completely new idea",
+              "Only Boolean logic from Term 4",
+            ],
+            optionsMy: [
+              "2D list, nested loop, accumulator, ထို့ပြင် parameter နှင့် return value ပါသော function",
+              "ဤ Term တစ်ခုတည်းမှ idea များသာ၊ ယခင်ကမှ မပါ",
+              "ဘာမှမပါ -- လုံးဝ idea အသစ်ဖြစ်သည်",
+              "Term 4 မှ Boolean logic သာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap Quiz",
+      titleMy: "Week 24 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In sum_grid(grid), which pattern is reused to visit every item in every row?",
+          questionMy:
+              "sum_grid(grid) တွင် row တိုင်းရှိ item တိုင်းကို လည်ပတ်ရန် မည်သည့် pattern ကို ပြန်လည်အသုံးချသနည်း။",
+          optionsEn: [
+            "A nested loop",
+            "Binary search",
+            "A truth table",
+            "The in operator alone",
+          ],
+          optionsMy: [
+            "Nested loop",
+            "Binary search",
+            "Truth table",
+            "in operator တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What value does the accumulator total start at?",
+          questionMy: "Accumulator total သည် မည်သည့်တန်ဖိုးမှ စတင်သနည်း။",
+          optionsEn: ["0", "1", "-1", "None"],
+          optionsMy: ["0", "1", "-1", "None"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does total = total + item do inside the nested loop?",
+          questionMy: "Nested loop အတွင်း total = total + item က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds the current item onto the running total",
+            "Resets total to 0",
+            "Removes item from the grid",
+            "Returns total immediately",
+          ],
+          optionsMy: [
+            "လက်ရှိ item ကို running total ပေါ်သို့ ပေါင်းထည့်သည်",
+            "total ကို 0 သို့ reset လုပ်သည်",
+            "grid မှ item ကို ဖယ်ရှားသည်",
+            "total ကို ချက်ချင်း return ပြန်ပေးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does sum_grid([[1, 2], [3, 4]]) return?",
+          questionMy: "sum_grid([[1, 2], [3, 4]]) က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: ["6", "10", "4", "0"],
+          optionsMy: ["6", "10", "4", "0"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the function return once the nested loop has visited every item?",
+          questionMy:
+              "Nested loop သည် item တိုင်းကို လည်ပတ်ပြီးသည့်အခါ function က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "Only the last row's items",
+            "The original unchanged grid",
+            "The final accumulated total",
+            "Nothing",
+          ],
+          optionsMy: [
+            "နောက်ဆုံး row ၏ item များသာ",
+            "မူလ grid မပြောင်းလဲဘဲ",
+            "အဆုံးသတ် accumulated total",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -22931,16 +24571,34 @@ const CourseTermDef _secondary2ComputingTerm5 = CourseTermDef(
   // strings instead of lists
 );
 
+const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
+  id: "course-secondary2-computing-t6",
+  termNumber: 6,
+  titleEn: "Nested Lists: Working with 2D Data",
+  titleMy: "Nested List များ — 2D Data ဖြင့် လုပ်ဆောင်ခြင်း",
+  certificateTitleEn: "Nested Lists: Working with 2D Data",
+  certificateTitleMy: "Nested List များ — 2D Data ဖြင့် လုပ်ဆောင်ခြင်း",
+  weeks: [
+    _secondary2ComputingWeek21,
+    _secondary2ComputingWeek22,
+    _secondary2ComputingWeek23,
+    _secondary2ComputingWeek24,
+  ], // Term 6 complete (Weeks 21-24) -- sixth term of the Secondary 2
+  // pathway, continuing the programming arc by extending Term 1's lists
+  // into two dimensions
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
 /// than more terms grafted onto Secondary 1. Term 1 (Weeks 1-4, Lists and
 /// Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term 3 (Weeks
 /// 9-12, Searching and Sorting Algorithms), Term 4 (Weeks 13-16, Boolean
-/// Logic and Truth Tables), and Term 5 (Weeks 17-20, Working with Text:
-/// String Manipulation) are now authored; [totalWeeks] stays 36 for the
-/// same "honest progress bar" reason Secondary 1's did while
-/// only a handful of weeks exist. Term 1 picks up directly where
+/// Logic and Truth Tables), Term 5 (Weeks 17-20, Working with Text:
+/// String Manipulation), and Term 6 (Weeks 21-24, Nested Lists: Working
+/// with 2D Data) are now authored; [totalWeeks] stays 36 for the same
+/// "honest progress bar" reason Secondary 1's did while only a handful
+/// of weeks exist. Term 1 picks up directly where
 /// Secondary 1 Term 9 left off: its Week 36 capstone program used single
 /// variables, selection, and loops, and Term 1's four weeks extend that
 /// straight into lists (storing many values, adding/removing/updating
@@ -22989,7 +24647,17 @@ const CourseTermDef _secondary2ComputingTerm5 = CourseTermDef(
 /// (Term 1's list-loop pattern), uses an if-statement with the in
 /// operator to test each one (this term's Boolean membership check), and
 /// accumulates a running count (Term 1/Term 3's accumulator pattern)
-/// before returning it (Term 2's return-value pattern).
+/// before returning it (Term 2's return-value pattern). Term 6 continues
+/// the programming arc by extending Term 1's lists into two dimensions:
+/// Week 21 introduces nested lists (a list of lists, indexed with
+/// grid[row][col]); Week 22 adds nested loops (a loop inside a loop) to
+/// visit every item in every row; Week 23 shows lists -- including
+/// nested lists -- are mutable, contrasting directly with Term 5's
+/// string immutability, and introduces .append() to build rows and
+/// grids up incrementally; Week 24 closes the term with a capstone
+/// function, sum_grid(grid), that reuses Week 22's nested loop to visit
+/// every item, Term 1/Term 3's accumulator pattern to total them, and
+/// Term 2's parameter/return-value pattern to hand the sum back.
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -22997,9 +24665,9 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, and string manipulation.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, and nested (2D) lists.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic နှင့် string manipulation ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation နှင့် nested (2D) list ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary2ComputingTerm1,
@@ -23007,5 +24675,6 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
     _secondary2ComputingTerm3,
     _secondary2ComputingTerm4,
     _secondary2ComputingTerm5,
+    _secondary2ComputingTerm6,
   ],
 );
