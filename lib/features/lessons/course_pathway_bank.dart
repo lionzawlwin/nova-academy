@@ -24491,6 +24491,1659 @@ const CourseWeekDef _secondary2ComputingWeek24 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 7, Week 25: "What Is a Dictionary?"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek25 = CourseWeekDef(
+  id: "course-secondary2-computing-w25",
+  weekNumber: 25,
+  titleEn: "What Is a Dictionary?",
+  titleMy: "Dictionary ဆိုသည်မှာ အဘယ်နည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w25-d1",
+      dayNumber: 1,
+      titleEn: "Looking Things Up by Key",
+      titleMy: "Key ဖြင့် ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90}, what is grades[\"Math\"]?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} ဆိုပါက grades[\"Math\"] က အဘယ်နည်း။",
+          optionsEn: ["85", "90", "\"Math\"", "\"Science\""],
+          optionsMy: ["85", "90", "\"Math\"", "\"Science\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In grades = {\"Math\": 85, \"Science\": 90}, what is \"Math\" called?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} တွင် \"Math\" ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A key", "A value", "An index", "A method"],
+          optionsMy: ["Key", "Value", "Index", "Method"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In grades = {\"Math\": 85, \"Science\": 90}, what is 85 called?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} တွင် 85 ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A value", "A key", "An index", "A slice"],
+          optionsMy: ["Value", "Key", "Index", "Slice"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does looking up a value in a dictionary differ from indexing a list from Term 1?",
+          questionMy:
+              "Dictionary တစ်ခုတွင် value ရှာဖွေခြင်းသည် Term 1 က list index လုပ်ခြင်းနှင့် မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "Dictionaries look up by a key (like a name), not by a zero-based position number",
+            "Dictionaries only store one value ever",
+            "There is no difference at all",
+            "Dictionaries cannot store text",
+          ],
+          optionsMy: [
+            "Dictionary များသည် zero-based position number မဟုတ်ဘဲ key (နာမည်ကဲ့သို့) ဖြင့် ရှာဖွေသည်",
+            "Dictionary များသည် value တစ်ခုတည်းသာ ဘယ်တော့မှ သိမ်းနိုင်သည်",
+            "လုံးဝ ကွာခြားချက် မရှိပါ",
+            "Dictionary များသည် text ကို သိမ်း၍ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90}, what does len(grades) return?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} ဆိုပါက len(grades) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "2, the number of key-value pairs",
+            "175, the sum of the values",
+            "\"Math\", the first key",
+            "0, because dictionaries have no length",
+          ],
+          optionsMy: [
+            "2 ဖြစ်သည်၊ key-value pair အရေအတွက်",
+            "175 ဖြစ်သည်၊ value များ၏ ပေါင်းလဒ်",
+            "\"Math\" ဖြစ်သည်၊ ပထမ key",
+            "0 ဖြစ်သည်၊ dictionary များတွင် length မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w25-d2",
+      dayNumber: 2,
+      titleEn: "Dictionary Vocabulary",
+      titleMy: "Dictionary ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w25-dict-dictionary",
+          termEn: "Dictionary",
+          termMy: "Dictionary",
+          matchEn:
+              "A data structure that stores values, each accessed by a unique key instead of a position number",
+          matchMy:
+              "Value တစ်ခုစီကို position number အစား unique key ဖြင့် ရယူသော data structure",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w25-dict-key",
+          termEn: "Key",
+          termMy: "Key",
+          matchEn:
+              "The unique label used to look up a value in a dictionary, e.g. \"Math\" in grades[\"Math\"]",
+          matchMy:
+              "grades[\"Math\"] ရှိ \"Math\" ကဲ့သို့ dictionary တွင် value ရှာဖွေရန် သုံးသော unique label",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w25-dict-value",
+          termEn: "Value",
+          termMy: "Value",
+          matchEn:
+              "The data stored under a key in a dictionary, e.g. 85 in grades = {\"Math\": 85}",
+          matchMy:
+              "grades = {\"Math\": 85} ရှိ 85 ကဲ့သို့ dictionary key တစ်ခုအောက် သိမ်းထားသော data",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w25-dict-keyvaluepair",
+          termEn: "Key-Value Pair",
+          termMy: "Key-Value Pair",
+          matchEn: "One key and its matching value together, e.g. \"Math\": 85",
+          matchMy:
+              "Key တစ်ခုနှင့် ၎င်း၏ တွဲဖက် value တစ်ခုတည်း၊ ဥပမာ \"Math\": 85",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w25-dict-curlybraces",
+          termEn: "Curly Braces {}",
+          termMy: "Curly Braces {}",
+          matchEn:
+              "The symbols used to write a dictionary literal, e.g. {\"Math\": 85, \"Science\": 90}",
+          matchMy:
+              "Dictionary literal ရေးရန်သုံးသော သင်္ကေတ၊ ဥပမာ {\"Math\": 85, \"Science\": 90}",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w25-d3",
+      dayNumber: 3,
+      titleEn: "List or Dictionary?",
+      titleMy: "List လား Dictionary လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "List (Indexed by Position)",
+          "Dictionary (Indexed by Key)",
+        ],
+        bucketsMy: [
+          "List (Position ဖြင့် Index လုပ်သည်)",
+          "Dictionary (Key ဖြင့် Index လုပ်သည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "w25-sort-scores0",
+            labelEn: "scores[0] where scores = [85, 90]",
+            labelMy: "scores[0], scores = [85, 90] ဖြစ်ပါက",
+            correctBucketEn: "List (Indexed by Position)",
+            correctBucketMy: "List (Position ဖြင့် Index လုပ်သည်)",
+          ),
+          SortingItem(
+            id: "w25-sort-gradesmath",
+            labelEn: "grades[\"Math\"] where grades = {\"Math\": 85}",
+            labelMy: "grades[\"Math\"], grades = {\"Math\": 85} ဖြစ်ပါက",
+            correctBucketEn: "Dictionary (Indexed by Key)",
+            correctBucketMy: "Dictionary (Key ဖြင့် Index လုပ်သည်)",
+          ),
+          SortingItem(
+            id: "w25-sort-fruits1",
+            labelEn: "fruits[1] where fruits = [\"mango\", \"banana\"]",
+            labelMy: "fruits[1], fruits = [\"mango\", \"banana\"] ဖြစ်ပါက",
+            correctBucketEn: "List (Indexed by Position)",
+            correctBucketMy: "List (Position ဖြင့် Index လုပ်သည်)",
+          ),
+          SortingItem(
+            id: "w25-sort-ageshtet",
+            labelEn: "ages[\"Htet\"] where ages = {\"Htet\": 14}",
+            labelMy: "ages[\"Htet\"], ages = {\"Htet\": 14} ဖြစ်ပါက",
+            correctBucketEn: "Dictionary (Indexed by Key)",
+            correctBucketMy: "Dictionary (Key ဖြင့် Index လုပ်သည်)",
+          ),
+          SortingItem(
+            id: "w25-sort-numbers2",
+            labelEn: "numbers[2] where numbers = [10, 20, 30]",
+            labelMy: "numbers[2], numbers = [10, 20, 30] ဖြစ်ပါက",
+            correctBucketEn: "List (Indexed by Position)",
+            correctBucketMy: "List (Position ဖြင့် Index လုပ်သည်)",
+          ),
+          SortingItem(
+            id: "w25-sort-pricesapple",
+            labelEn: "prices[\"apple\"] where prices = {\"apple\": 500}",
+            labelMy: "prices[\"apple\"], prices = {\"apple\": 500} ဖြစ်ပါက",
+            correctBucketEn: "Dictionary (Indexed by Key)",
+            correctBucketMy: "Dictionary (Key ဖြင့် Index လုပ်သည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w25-d4",
+      dayNumber: 4,
+      titleEn: "Thant Zin's Shop Price List",
+      titleMy: "သန့်ဇင်၏ ဆိုင် ဈေးနှုန်းစာရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thant Zin's Shop Price List",
+        titleMy: "သန့်ဇင်၏ ဆိုင် ဈေးနှုန်းစာရင်း",
+        passageEn:
+            "Thant Zin was building a program to look up prices at his family's small shop. His first attempt used two parallel lists from Term 1: names = [\"apple\", \"banana\", \"mango\"] and prices = [500, 300, 700]. To find banana's price, he had to use Term 3's linear search: check names[0], see it was not \"banana\", check names[1], find a match, then look up prices[1] to get 300. This worked, but it took several comparisons and two lists that had to always stay in the same order. His teacher showed him a simpler way: a dictionary, prices = {\"apple\": 500, \"banana\": 300, \"mango\": 700}, where each fruit name was a key mapped directly to its price. Now finding banana's price was just prices[\"banana\"], which gave 300 immediately -- no comparisons, no searching through a list one item at a time, and no risk of the two lists falling out of sync. Thant Zin realized a dictionary was solving the exact same lookup problem Term 3's linear search had solved, just in a completely different way: instead of checking every item until one matched, a dictionary let him ask for the answer directly by name.",
+        passageMy:
+            "သန့်ဇင်သည် သူ့မိသားစု၏ ဆိုင်ငယ်တွင် ဈေးနှုန်းများ ရှာဖွေမည့် ပရိုဂရမ်တစ်ခု တည်ဆောက်နေသည်။ သူ၏ ပထမ ကြိုးစားမှုတွင် Term 1 မှ parallel list နှစ်ခု သုံးခဲ့သည် - names = [\"apple\", \"banana\", \"mango\"] နှင့် prices = [500, 300, 700]။ Banana ၏ ဈေးနှုန်းကို ရှာဖွေရန် Term 3 ၏ linear search ကို သုံးခဲ့ရသည် - names[0] ကို စစ်ဆေးပြီး \"banana\" မဟုတ်ကြောင်း တွေ့၊ names[1] ကို စစ်ဆေးပြီး ကိုက်ညီမှု တွေ့၍ prices[1] ကို ရှာကာ 300 ကို ရရှိခဲ့သည်။ ဤနည်းက အလုပ်ဖြစ်သော်လည်း နှိုင်းယှဉ်မှု အများအပြားလိုအပ်ပြီး list နှစ်ခုကို အစဉ်တူညီအောင် အမြဲထားရမည်ဖြစ်သည်။ ဆရာက ပိုရိုးရှင်းသောနည်းကို ပြသခဲ့သည် - dictionary တစ်ခု၊ prices = {\"apple\": 500, \"banana\": 300, \"mango\": 700}၊ ၎င်းတွင် သစ်သီးအမည်တစ်ခုစီသည် key တစ်ခုအဖြစ် ၎င်း၏ ဈေးနှုန်းသို့ တိုက်ရိုက် map လုပ်ထားသည်။ ယခု banana ၏ ဈေးနှုန်းကို ရှာဖွေရန် prices[\"banana\"] ဟု ရေးရုံသာလိုအပ်ပြီး 300 ကို ချက်ချင်းရရှိသည် -- နှိုင်းယှဉ်မှု မလို၊ list တစ်ခုကို တစ်ခုချင်းစီ ရှာဖွေစရာ မလို၊ list နှစ်ခု အစဉ်လွဲသွားနိုင်ခြေလည်း မရှိပါ။ Dictionary တစ်ခုသည် Term 3 ၏ linear search ဖြေရှင်းခဲ့သော ရှာဖွေမှုပြဿနာအတိအကျကို လုံးဝ ကွဲပြားသောနည်းဖြင့် ဖြေရှင်းပေးနေကြောင်း သန့်ဇင် သဘောပေါက်လိုက်သည် - item တိုင်းကို ကိုက်ညီမှုတွေ့သည်အထိ စစ်ဆေးမည့်အစား dictionary က အဖြေကို နာမည်ဖြင့် တိုက်ရိုက် မေးခွင့်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "In Thant Zin's first attempt, how did he find banana's price using two lists?",
+            questionMy:
+                "သန့်ဇင်၏ ပထမ ကြိုးစားမှုတွင် list နှစ်ခုသုံး၍ banana ၏ ဈေးနှုန်းကို မည်သို့ ရှာဖွေခဲ့သနည်း။",
+            optionsEn: [
+              "Using Term 3's linear search to check each name until finding a match, then looking up the matching price by position",
+              "Using a dictionary lookup",
+              "By guessing randomly",
+              "Prices could not be found with lists at all",
+            ],
+            optionsMy: [
+              "Term 3 ၏ linear search သုံး၍ name တစ်ခုစီကို ကိုက်ညီမှုတွေ့သည်အထိ စစ်ဆေးပြီး ကိုက်ညီသော price ကို position အလိုက် ရှာဖွေခြင်းဖြင့်",
+              "Dictionary lookup သုံးခြင်းဖြင့်",
+              "ကျပန်း ခန့်မှန်းခြင်းဖြင့်",
+              "List များဖြင့် ဈေးနှုန်း လုံးဝ ရှာ၍မရပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did prices[\"banana\"] return once Thant Zin switched to a dictionary?",
+            questionMy:
+                "သန့်ဇင် dictionary သို့ ပြောင်းလဲပြီးနောက် prices[\"banana\"] က ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: ["300", "500", "700", "\"banana\""],
+            optionsMy: ["300", "500", "700", "\"banana\""],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what risk did the two-parallel-lists approach have that the dictionary avoided?",
+            questionMy:
+                "ဇာတ်လမ်းအရ parallel list နှစ်ခု အသုံးပြုနည်းတွင် dictionary က ရှောင်ရှားနိုင်ခဲ့သော အန္တရာယ်က အဘယ်နည်း။",
+            optionsEn: [
+              "The two lists could fall out of sync with each other",
+              "Lists cannot store numbers",
+              "Lists are always slower to create",
+              "There was no risk at all",
+            ],
+            optionsMy: [
+              "List နှစ်ခု အစဉ်လွဲသွားနိုင်ခြေ",
+              "List များသည် ဂဏန်းများ သိမ်း၍ မရသောကြောင့်",
+              "List များသည် ဖန်တီးရန် အမြဲပိုနှေးသောကြောင့်",
+              "အန္တရာယ် လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Thant Zin connect the dictionary lookup to Term 3's linear search?",
+            questionMy:
+                "သန့်ဇင်သည် dictionary lookup ကို Term 3 ၏ linear search နှင့် မည်သို့ ဆက်စပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Both solve the same lookup problem, but the dictionary answers directly by key instead of checking every item",
+              "They are completely unrelated problems",
+              "Linear search is always faster than a dictionary lookup",
+              "Dictionaries replaced the need for searching in every situation",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် ရှာဖွေမှုပြဿနာတူတူကို ဖြေရှင်းသော်လည်း dictionary က item တိုင်းကို စစ်ဆေးမည့်အစား key ဖြင့် တိုက်ရိုက် အဖြေပေးသည်",
+              "လုံးဝ မသက်ဆိုင်သော ပြဿနာများဖြစ်သည်",
+              "Linear search သည် dictionary lookup ထက် အမြဲပိုမြန်သည်",
+              "Dictionary များက အခြေအနေတိုင်းတွင် ရှာဖွေမှု လိုအပ်ချက်ကို လုံးဝ အစားထိုးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "In prices = {\"apple\": 500, \"banana\": 300, \"mango\": 700}, what role does each fruit name play?",
+            questionMy:
+                "prices = {\"apple\": 500, \"banana\": 300, \"mango\": 700} တွင် သစ်သီးအမည်တစ်ခုစီသည် မည်သည့်အခန်းကဏ္ဍမှ ပါဝင်သနည်း။",
+            optionsEn: [
+              "It is the key mapped directly to its price",
+              "It is the value stored under a numeric key",
+              "It has no role in the dictionary",
+              "It is a comment, not real data",
+            ],
+            optionsMy: [
+              "၎င်း၏ ဈေးနှုန်းသို့ တိုက်ရိုက် map လုပ်ထားသော key ဖြစ်သည်",
+              "ဂဏန်း key အောက်ရှိ သိမ်းထားသော value ဖြစ်သည်",
+              "Dictionary တွင် မည်သည့်အခန်းကဏ္ဍမှ မပါဝင်ပါ",
+              "Comment တစ်ခုဖြစ်ပြီး data အစစ် မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap Quiz",
+      titleMy: "Week 25 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For ages = {\"Htet\": 14, \"Su Su\": 13}, what is ages[\"Htet\"]?",
+          questionMy:
+              "ages = {\"Htet\": 14, \"Su Su\": 13} ဆိုပါက ages[\"Htet\"] က အဘယ်နည်း။",
+          optionsEn: ["14", "13", "\"Htet\"", "\"Su Su\""],
+          optionsMy: ["14", "13", "\"Htet\"", "\"Su Su\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the label used to look up a value in a dictionary called?",
+          questionMy:
+              "Dictionary တစ်ခုတွင် value ရှာဖွေရန် သုံးသော label ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A key", "An index", "A slice", "A method"],
+          optionsMy: ["Key", "Index", "Slice", "Method"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Do dictionaries look values up by position number or by key?",
+          questionMy:
+              "Dictionary များသည် value များကို position number ဖြင့် ရှာသလား key ဖြင့် ရှာသလား။",
+          optionsEn: [
+            "By key",
+            "By position number",
+            "Neither",
+            "Both, always at the same time",
+          ],
+          optionsMy: [
+            "Key ဖြင့်",
+            "Position number ဖြင့်",
+            "နှစ်ခုစလုံး မဟုတ်ပါ",
+            "နှစ်ခုစလုံး၊ တစ်ချိန်တည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What symbols are used to write a dictionary literal?",
+          questionMy: "Dictionary literal ရေးရန် မည်သည့်သင်္ကေတကို သုံးသနည်း။",
+          optionsEn: [
+            "Curly braces {}",
+            "Square brackets []",
+            "Parentheses ()",
+            "Angle brackets <>",
+          ],
+          optionsMy: [
+            "Curly braces {}",
+            "Square brackets []",
+            "Parentheses ()",
+            "Angle brackets <>",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500, \"banana\": 300}, what does len(prices) return?",
+          questionMy:
+              "prices = {\"apple\": 500, \"banana\": 300} ဆိုပါက len(prices) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["2", "800", "500", "0"],
+          optionsMy: ["2", "800", "500", "0"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 7, Week 26: "Adding, Updating, and
+// Checking Keys"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek26 = CourseWeekDef(
+  id: "course-secondary2-computing-w26",
+  weekNumber: 26,
+  titleEn: "Adding, Updating, and Checking Keys",
+  titleMy: "Key များ ထည့်ခြင်း၊ ပြင်ဆင်ခြင်းနှင့် စစ်ဆေးခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w26-d1",
+      dayNumber: 1,
+      titleEn: "Adding and Checking Keys",
+      titleMy: "Key များ ထည့်ခြင်းနှင့် စစ်ဆေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500}, what does prices[\"banana\"] = 300 do?",
+          questionMy:
+              "prices = {\"apple\": 500} ဆိုပါက prices[\"banana\"] = 300 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds a new key \"banana\" with the value 300",
+            "Causes an error, because \"banana\" does not exist yet",
+            "Replaces the entire dictionary with just {\"banana\": 300}",
+            "Deletes \"apple\" from the dictionary",
+          ],
+          optionsMy: [
+            "value 300 ပါသော key အသစ် \"banana\" ကို ထည့်သည်",
+            "\"banana\" မရှိသေးသောကြောင့် error ဖြစ်သည်",
+            "dictionary တစ်ခုလုံးကို {\"banana\": 300} ဖြင့် အစားထိုးသည်",
+            "\"apple\" ကို dictionary မှ ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500}, what does prices[\"apple\"] = 550 do?",
+          questionMy:
+              "prices = {\"apple\": 500} ဆိုပါက prices[\"apple\"] = 550 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Updates the existing value for \"apple\" to 550",
+            "Adds a second, separate \"apple\" key",
+            "Causes an error, because \"apple\" already exists",
+            "Deletes the \"apple\" key entirely",
+          ],
+          optionsMy: [
+            "\"apple\" ၏ ရှိပြီးသား value ကို 550 သို့ ပြင်ဆင်သည်",
+            "\"apple\" key ဒုတိယတစ်ခု သီးခြား ထည့်သည်",
+            "\"apple\" ရှိပြီးသားဖြစ်၍ error ဖြစ်သည်",
+            "\"apple\" key ကို လုံးဝ ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Once \"banana\" has been added to prices, what does \"banana\" in prices evaluate to?",
+          questionMy:
+              "\"banana\" ကို prices သို့ ထည့်ပြီးနောက် \"banana\" in prices သည် ဘာသို့ evaluate လုပ်သနည်း။",
+          optionsEn: ["True", "False", "300", "\"banana\""],
+          optionsMy: ["True", "False", "300", "\"banana\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If \"grape\" was never added to prices, what does \"grape\" in prices evaluate to?",
+          questionMy:
+              "\"grape\" ကို prices သို့ တစ်ခါမှ မထည့်ရသေးပါက \"grape\" in prices သည် ဘာသို့ evaluate လုပ်သနည်း။",
+          optionsEn: ["False", "True", "0", "An error, always"],
+          optionsMy: ["False", "True", "0", "အမြဲ error ဖြစ်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500, \"banana\": 300}, what does len(prices) return?",
+          questionMy:
+              "prices = {\"apple\": 500, \"banana\": 300} ဆိုပါက len(prices) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["2", "1", "800", "0"],
+          optionsMy: ["2", "1", "800", "0"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w26-d2",
+      dayNumber: 2,
+      titleEn: "Adding and Updating Vocabulary",
+      titleMy: "ထည့်ခြင်းနှင့် ပြင်ဆင်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w26-dict-addkey",
+          termEn: "Add a Key",
+          termMy: "Add a Key",
+          matchEn:
+              "Using dict[new_key] = value when new_key does not already exist in the dictionary",
+          matchMy:
+              "new_key သည် dictionary တွင် မရှိသေးပါက dict[new_key] = value ကို သုံးခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w26-dict-updatekey",
+          termEn: "Update a Key",
+          termMy: "Update a Key",
+          matchEn:
+              "Using dict[existing_key] = new_value to overwrite the value already stored under that key",
+          matchMy:
+              "Key အောက် ရှိပြီးသား value ကို ထပ်ရေးရန် dict[existing_key] = new_value ကို သုံးခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w26-dict-inkeymembership",
+          termEn: "in Operator (Key Membership)",
+          termMy: "in Operator (Key Membership)",
+          matchEn:
+              "Checks whether a key exists in a dictionary, returning True or False -- the same in operator from Term 5, now testing keys instead of substrings",
+          matchMy:
+              "Dictionary တွင် key ရှိမရှိကို စစ်ဆေးပြီး True/False ပြန်ပေးသည် -- Term 5 မှ in operator အတူတူပင်၊ ယခု substring အစား key ကို စစ်ဆေးခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w26-dict-lenondict",
+          termEn: "len() on a Dictionary",
+          termMy: "len() on a Dictionary",
+          matchEn: "Returns the number of key-value pairs currently stored",
+          matchMy: "လက်ရှိ သိမ်းထားသော key-value pair အရေအတွက်ကို ပြန်ပေးသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w26-dict-overwrite",
+          termEn: "Overwrite",
+          termMy: "Overwrite",
+          matchEn:
+              "What happens to the old value when you assign to a key that already exists",
+          matchMy:
+              "ရှိပြီးသား key တစ်ခုအား assign လုပ်သည့်အခါ value ဟောင်းကို ဖြစ်ပျက်စေသောအရာ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w26-d3",
+      dayNumber: 3,
+      titleEn: "Adds a New Key or Updates an Existing One?",
+      titleMy: "Key အသစ် ထည့်ခြင်းလား ရှိပြီးသား Key ပြင်ဆင်ခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Adds a New Key", "Updates an Existing Key"],
+        bucketsMy: ["Key အသစ် ထည့်သည်", "ရှိပြီးသား Key ကို ပြင်ဆင်သည်"],
+        items: [
+          SortingItem(
+            id: "w26-sort-mango",
+            labelEn:
+                "prices[\"mango\"] = 700 (prices already has \"apple\" and \"banana\")",
+            labelMy:
+                "prices[\"mango\"] = 700 (prices တွင် \"apple\" နှင့် \"banana\" ရှိပြီးသား)",
+            correctBucketEn: "Adds a New Key",
+            correctBucketMy: "Key အသစ် ထည့်သည်",
+          ),
+          SortingItem(
+            id: "w26-sort-appleupdate",
+            labelEn: "prices[\"apple\"] = 550 (\"apple\" already exists)",
+            labelMy: "prices[\"apple\"] = 550 (\"apple\" ရှိပြီးသား)",
+            correctBucketEn: "Updates an Existing Key",
+            correctBucketMy: "ရှိပြီးသား Key ကို ပြင်ဆင်သည်",
+          ),
+          SortingItem(
+            id: "w26-sort-bananaupdate",
+            labelEn: "prices[\"banana\"] = 320 (\"banana\" already exists)",
+            labelMy: "prices[\"banana\"] = 320 (\"banana\" ရှိပြီးသား)",
+            correctBucketEn: "Updates an Existing Key",
+            correctBucketMy: "ရှိပြီးသား Key ကို ပြင်ဆင်သည်",
+          ),
+          SortingItem(
+            id: "w26-sort-orange",
+            labelEn: "prices[\"orange\"] = 400 (a brand-new key)",
+            labelMy: "prices[\"orange\"] = 400 (လုံးဝ key အသစ်)",
+            correctBucketEn: "Adds a New Key",
+            correctBucketMy: "Key အသစ် ထည့်သည်",
+          ),
+          SortingItem(
+            id: "w26-sort-papaya",
+            labelEn: "prices[\"papaya\"] = 250 (a brand-new key)",
+            labelMy: "prices[\"papaya\"] = 250 (လုံးဝ key အသစ်)",
+            correctBucketEn: "Adds a New Key",
+            correctBucketMy: "Key အသစ် ထည့်သည်",
+          ),
+          SortingItem(
+            id: "w26-sort-appleupdateagain",
+            labelEn: "prices[\"apple\"] = 600 (\"apple\" already exists)",
+            labelMy: "prices[\"apple\"] = 600 (\"apple\" ရှိပြီးသား)",
+            correctBucketEn: "Updates an Existing Key",
+            correctBucketMy: "ရှိပြီးသား Key ကို ပြင်ဆင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w26-d4",
+      dayNumber: 4,
+      titleEn: "Su Myat's Inventory Check",
+      titleMy: "စုမြတ်၏ ကုန်ပစ္စည်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat's Inventory Check",
+        titleMy: "စုမြတ်၏ ကုန်ပစ္စည်းစစ်ဆေးမှု",
+        passageEn:
+            "Su Myat managed a small shop's price dictionary: prices = {\"apple\": 500, \"banana\": 300}. Whenever a new delivery arrived, she needed her program to handle two different situations: an item that was already in prices needed its price updated, while a brand-new item needed to be added for the first time. Both cases used the exact same line of code, prices[item] = new_price, but Su Myat wanted her program to print a different message depending on which case it was, so she checked first with the in operator: if item in prices: told her the item already existed, so she printed \"Updating existing price\" before updating it; otherwise, she printed \"Adding new item\" before adding it fresh. When a delivery included \"grape\" for the first time, \"grape\" in prices evaluated to False, so her program printed \"Adding new item\" and then ran prices[\"grape\"] = 650, which added a brand-new key. When a later delivery updated banana's price, \"banana\" in prices evaluated to True, so her program printed \"Updating existing price\" and then ran prices[\"banana\"] = 320, overwriting the old value of 300. Su Myat realized this same pattern -- checking with in before deciding whether to add or update -- was a reusable idea, not just something specific to prices; any program that built up a dictionary gradually, one item at a time, would need to ask the exact same question before each addition.",
+        passageMy:
+            "စုမြတ်သည် ဆိုင်ငယ်တစ်ခု၏ ဈေးနှုန်း dictionary ကို စီမံခန့်ခွဲခဲ့သည် - prices = {\"apple\": 500, \"banana\": 300}။ ကုန်ပစ္စည်းအသစ် ရောက်ရှိတိုင်း သူမ၏ ပရိုဂရမ်သည် အခြေအနေနှစ်မျိုးကို ကိုင်တွယ်ရန် လိုအပ်ခဲ့သည် - prices တွင် ရှိပြီးသား item တစ်ခုသည် ဈေးနှုန်း ပြင်ဆင်ရန် လိုအပ်ပြီး လုံးဝ item အသစ်တစ်ခုမှာမူ ပထမဆုံးအကြိမ် ထည့်သွင်းရန် လိုအပ်သည်။ နှစ်ခုလုံးသည် code line တူတူ prices[item] = new_price ကို သုံးခဲ့သော်လည်း စုမြတ်က ဘယ် case ဖြစ်သည်ကို လိုက်၍ message ကွဲပြားစွာ print ထုတ်စေလိုသဖြင့် in operator ဖြင့် ဦးစွာ စစ်ဆေးခဲ့သည် - if item in prices: က item ရှိပြီးသားကြောင်း ပြောပြပါက ပြင်ဆင်မီ \"Updating existing price\" ဟု print ထုတ်ခဲ့ပြီး၊ မဟုတ်ပါက ထည့်သွင်းမီ \"Adding new item\" ဟု print ထုတ်ခဲ့သည်။ ကုန်ပစ္စည်းအသစ်ပို့ပေးမှုတွင် \"grape\" ပါလာသောအခါ \"grape\" in prices သည် False ဖြစ်ခဲ့ပြီး သူမ၏ ပရိုဂရမ်က \"Adding new item\" ဟု print ထုတ်ကာ prices[\"grape\"] = 650 ကို run ခဲ့ပြီး key အသစ်တစ်ခုလုံး ထည့်ခဲ့သည်။ နောက်ပိုင်းတွင် ကုန်ပို့ပေးမှုတစ်ခုက banana ၏ ဈေးနှုန်းကို ပြင်ဆင်သောအခါ \"banana\" in prices သည် True ဖြစ်ခဲ့ပြီး သူမ၏ ပရိုဂရမ်က \"Updating existing price\" ဟု print ထုတ်ကာ prices[\"banana\"] = 320 ကို run ခဲ့ပြီး value ဟောင်း 300 ကို ထပ်ရေးခဲ့သည်။ in ဖြင့် ဦးစွာစစ်ဆေးပြီးမှ ထည့်မလား ပြင်မလား ဆုံးဖြတ်ခြင်း ဤ pattern သည် prices အတွက်သာမက dictionary တစ်ခုကို item တစ်ခုချင်းစီ တဖြည်းဖြည်း တည်ဆောက်သော ပရိုဂရမ်တိုင်းအတွက်လည်း ပြန်လည်အသုံးချနိုင်သော idea တစ်ခုဖြစ်ကြောင်း စုမြတ် သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What two situations did Su Myat's program need to handle for each delivered item?",
+            questionMy:
+                "ပို့ပေးလာသော item တစ်ခုစီအတွက် စုမြတ်၏ ပရိုဂရမ်က မည်သည့် အခြေအနေနှစ်မျိုးကို ကိုင်တွယ်ရန် လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Updating an existing item's price, or adding a brand-new item for the first time",
+              "Only ever adding new items",
+              "Only ever updating existing items",
+              "Deleting items that were too expensive",
+            ],
+            optionsMy: [
+              "ရှိပြီးသား item ၏ ဈေးနှုန်း ပြင်ဆင်ခြင်း (သို့) လုံးဝ item အသစ်ကို ပထမဆုံးအကြိမ် ထည့်ခြင်း",
+              "Item အသစ်များကိုသာ အမြဲ ထည့်ခြင်း",
+              "ရှိပြီးသား item များကိုသာ အမြဲ ပြင်ဆင်ခြင်း",
+              "စျေးကြီးလွန်းသော item များကို ဖျက်ပစ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Su Myat decide which message to print for each item?",
+            questionMy:
+                "Item တစ်ခုစီအတွက် message မည်သည်ကို print ထုတ်မည်ကို စုမြတ် မည်သို့ ဆုံးဖြတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "By checking with the in operator whether the item already existed in prices",
+              "By guessing randomly",
+              "By always printing the same message",
+              "By checking the price value only",
+            ],
+            optionsMy: [
+              "Item သည် prices တွင် ရှိပြီးသားလားဟု in operator ဖြင့် စစ်ဆေးခြင်းဖြင့်",
+              "ကျပန်း ခန့်မှန်းခြင်းဖြင့်",
+              "အမြဲ message တူတူကိုသာ print ထုတ်ခြင်းဖြင့်",
+              "ဈေးနှုန်းကိုသာ စစ်ဆေးခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happened when \"grape\" arrived for the first time?",
+            questionMy:
+                "\"grape\" ပထမဆုံးအကြိမ် ရောက်ရှိလာသောအခါ ဘာဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "\"grape\" in prices was False, so the program printed \"Adding new item\" and added a new key",
+              "\"grape\" in prices was True, so the program updated an existing key",
+              "The program raised an error",
+              "Nothing happened at all",
+            ],
+            optionsMy: [
+              "\"grape\" in prices သည် False ဖြစ်ခဲ့ပြီး ပရိုဂရမ်က \"Adding new item\" ဟု print ထုတ်ကာ key အသစ် ထည့်ခဲ့သည်",
+              "\"grape\" in prices သည် True ဖြစ်ခဲ့ပြီး ပရိုဂရမ်က ရှိပြီးသား key ကို ပြင်ဆင်ခဲ့သည်",
+              "ပရိုဂရမ်က error ဖြစ်ခဲ့သည်",
+              "ဘာမျှ မဖြစ်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did prices[\"banana\"] = 320 do when banana's price was updated?",
+            questionMy:
+                "Banana ၏ ဈေးနှုန်း ပြင်ဆင်သောအခါ prices[\"banana\"] = 320 က ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Overwrote the old value of 300 with 320",
+              "Added a second, separate \"banana\" key",
+              "Caused an error, since \"banana\" already existed",
+              "Left the old value of 300 unchanged",
+            ],
+            optionsMy: [
+              "Value ဟောင်း 300 ကို 320 ဖြင့် ထပ်ရေးခဲ့သည်",
+              "\"banana\" key ဒုတိယတစ်ခု သီးခြား ထည့်ခဲ့သည်",
+              "\"banana\" ရှိပြီးသားဖြစ်၍ error ဖြစ်ခဲ့သည်",
+              "Value ဟောင်း 300 ကို မပြောင်းလဲဘဲ ချန်ထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Su Myat consider the \"check with in\" pattern reusable?",
+            questionMy:
+                "ဇာတ်လမ်းအရ \"in ဖြင့် စစ်ဆေးခြင်း\" pattern ကို စုမြတ် အဘယ့်ကြောင့် ပြန်လည်အသုံးချနိုင်သည်ဟု ယူဆခဲ့သနည်း။",
+            optionsEn: [
+              "Because any program building up a dictionary gradually would need to ask the exact same add-or-update question",
+              "Because it only worked for shop prices",
+              "Because it was a coincidence that would not work elsewhere",
+              "Because dictionaries never need this kind of check",
+            ],
+            optionsMy: [
+              "Dictionary တစ်ခုကို တဖြည်းဖြည်း တည်ဆောက်သော ပရိုဂရမ်တိုင်းသည် ထည့်မလား ပြင်မလား ဆိုသော မေးခွန်းတူတူကို မေးရန် လိုအပ်သောကြောင့်",
+              "ဆိုင်ဈေးနှုန်းများအတွက်သာ အလုပ်ဖြစ်သောကြောင့်",
+              "နေရာတစ်ခြားတွင် အလုပ်မဖြစ်မည့် ကြုံတွေ့မှုတစ်ခုသာ ဖြစ်သောကြောင့်",
+              "Dictionary များသည် ဤကဲ့သို့ check မျိုး ဘယ်တော့မှ မလိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap Quiz",
+      titleMy: "Week 26 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500}, what does prices[\"mango\"] = 700 do?",
+          questionMy:
+              "prices = {\"apple\": 500} ဆိုပါက prices[\"mango\"] = 700 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Adds a new key",
+            "Updates \"apple\"",
+            "Causes an error",
+            "Deletes \"apple\"",
+          ],
+          optionsMy: [
+            "Key အသစ် ထည့်သည်",
+            "\"apple\" ကို ပြင်ဆင်သည်",
+            "Error ဖြစ်စေသည်",
+            "\"apple\" ကို ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the in operator check when used with a dictionary, e.g. \"apple\" in prices?",
+          questionMy:
+              "Dictionary တစ်ခုနှင့် in operator ကို သုံးသောအခါ (ဥပမာ \"apple\" in prices) ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "Whether that key exists in the dictionary",
+            "Whether that value exists anywhere in the dictionary",
+            "The length of the dictionary",
+            "Whether the dictionary is empty",
+          ],
+          optionsMy: [
+            "ထို key သည် dictionary တွင် ရှိမရှိ",
+            "ထို value သည် dictionary တွင် တစ်နေရာရာတွင် ရှိမရှိ",
+            "Dictionary ၏ length",
+            "Dictionary သည် ဗလာဖြစ်မဖြစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For prices = {\"apple\": 500}, what does prices[\"apple\"] = 550 do?",
+          questionMy:
+              "prices = {\"apple\": 500} ဆိုပါက prices[\"apple\"] = 550 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Updates the value stored under \"apple\"",
+            "Adds a brand-new key",
+            "Causes an error",
+            "Deletes the dictionary",
+          ],
+          optionsMy: [
+            "\"apple\" အောက် သိမ်းထားသော value ကို ပြင်ဆင်သည်",
+            "Key အသစ်တစ်ခု ထည့်သည်",
+            "Error ဖြစ်စေသည်",
+            "Dictionary ကို ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If \"kiwi\" was never added to prices, what does \"kiwi\" in prices return?",
+          questionMy:
+              "\"kiwi\" ကို prices တွင် တစ်ခါမှ မထည့်ရသေးပါက \"kiwi\" in prices က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["False", "True", "0", "\"kiwi\""],
+          optionsMy: ["False", "True", "0", "\"kiwi\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What line of code is used for both adding a new key and updating an existing one?",
+          questionMy:
+              "Key အသစ်ထည့်ခြင်းနှင့် ရှိပြီးသား key ပြင်ဆင်ခြင်း နှစ်ခုစလုံးအတွက် မည်သည့် code line ကို သုံးသနည်း။",
+          optionsEn: [
+            "dict[key] = value",
+            "dict.remove(key)",
+            "dict[key]",
+            "len(dict)",
+          ],
+          optionsMy: [
+            "dict[key] = value",
+            "dict.remove(key)",
+            "dict[key]",
+            "len(dict)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 7, Week 27: "Looping Through a
+// Dictionary"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek27 = CourseWeekDef(
+  id: "course-secondary2-computing-w27",
+  weekNumber: 27,
+  titleEn: "Looping Through a Dictionary",
+  titleMy: "Dictionary တစ်ခုအား Loop ဖြင့် လည်ပတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w27-d1",
+      dayNumber: 1,
+      titleEn: "for key in dict:",
+      titleMy: "for key in dict:",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90}, what does subject take on each pass of for subject in grades:?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} ဆိုပါက for subject in grades: ၏ pass တစ်ခုစီတွင် subject က မည်သည့်တန်ဖိုးကို ယူသနည်း။",
+          optionsEn: [
+            "Each key in the dictionary, one at a time",
+            "Each value in the dictionary, one at a time",
+            "The whole dictionary at once",
+            "Only the first key, repeated forever",
+          ],
+          optionsMy: [
+            "Dictionary ရှိ key တစ်ခုချင်းစီ",
+            "Dictionary ရှိ value တစ်ခုချင်းစီ",
+            "Dictionary တစ်ခုလုံးကို တစ်ပြိုင်တည်း",
+            "ပထမ key တစ်ခုတည်းကို အမြဲ ထပ်ခါထပ်ခါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Inside for subject in grades:, how do you get the value that matches the current key?",
+          questionMy:
+              "for subject in grades: အတွင်း လက်ရှိ key နှင့် ကိုက်ညီသော value ကို မည်သို့ ရယူသနည်း။",
+          optionsEn: [
+            "grades[subject]",
+            "subject[grades]",
+            "grades.subject",
+            "len(subject)",
+          ],
+          optionsMy: [
+            "grades[subject]",
+            "subject[grades]",
+            "grades.subject",
+            "len(subject)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90}, how many times does the loop body of for subject in grades: run?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90} ဆိုပါက for subject in grades: ၏ loop body က မည်မျှကြိမ် run သနည်း။",
+          optionsEn: ["2", "1", "4", "0"],
+          optionsMy: ["2", "1", "4", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does for subject in grades: NOT give you directly, without an extra step?",
+          questionMy:
+              "for subject in grades: က extra step မပါဘဲ တိုက်ရိုက် မပေးနိုင်သည်မှာ ဘာနည်း။",
+          optionsEn: [
+            "The values -- you must look them up with grades[subject]",
+            "The keys -- those are given directly",
+            "Anything at all",
+            "The length of the dictionary",
+          ],
+          optionsMy: [
+            "Value များ -- grades[subject] ဖြင့် သီးသန့် ရှာရမည်",
+            "Key များ -- ၎င်းတို့ကို တိုက်ရိုက် ပေးသည်",
+            "မည်သည့်အရာမျှ",
+            "Dictionary ၏ length",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looping through a dictionary's keys most closely resembles which Term 1 pattern?",
+          questionMy:
+              "Dictionary ၏ key များကို loop ဖြင့် လည်ပတ်ခြင်းသည် Term 1 ၏ မည်သည့် pattern နှင့် အနီးစပ်ဆုံး တူညီသနည်း။",
+          optionsEn: [
+            "for item in list:, but visiting keys instead of list positions",
+            "Binary search",
+            "A truth table",
+            "String slicing",
+          ],
+          optionsMy: [
+            "for item in list:၊ သို့သော် list position အစား key များကို လည်ပတ်ခြင်း",
+            "Binary search",
+            "Truth table",
+            "String slicing",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w27-d2",
+      dayNumber: 2,
+      titleEn: "Looping Vocabulary",
+      titleMy: "Loop ဖြင့် လည်ပတ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w27-dict-forkeyindict",
+          termEn: "for key in dict:",
+          termMy: "for key in dict:",
+          matchEn: "A loop that visits each key in a dictionary one at a time",
+          matchMy: "Dictionary တစ်ခု၏ key တစ်ခုချင်းစီကို လည်ပတ်သော loop",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w27-dict-loopingoverkeys",
+          termEn: "Looping Over Keys",
+          termMy: "Looping Over Keys",
+          matchEn:
+              "By default, looping over a dictionary directly gives you its keys, not its values",
+          matchMy:
+              "Dictionary တစ်ခုကို တိုက်ရိုက် loop လုပ်ခြင်းသည် ပုံမှန်အားဖြင့် value များအစား key များကို ပေးသည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w27-dict-dictkeyinloop",
+          termEn: "dict[key] Inside a Loop",
+          termMy: "dict[key] Inside a Loop",
+          matchEn:
+              "Used inside a for key in dict: loop to look up the value that matches the current key",
+          matchMy:
+              "လက်ရှိ key နှင့် ကိုက်ညီသော value ကို ရှာရန် for key in dict: loop အတွင်း အသုံးပြုသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w27-dict-traversal",
+          termEn: "Dictionary Traversal",
+          termMy: "Dictionary Traversal",
+          matchEn:
+              "Visiting every key-value pair in a dictionary, usually with a for loop and dict[key] together",
+          matchMy:
+              "Dictionary တစ်ခု၏ key-value pair တိုင်းကို for loop နှင့် dict[key] တို့ ပေါင်းသုံး၍ လည်ပတ်ခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w27-dict-keyorder",
+          termEn: "Key Order",
+          termMy: "Key Order",
+          matchEn:
+              "Modern Python dictionaries remember the order keys were added, so looping visits them in that same order",
+          matchMy:
+              "ခေတ်မီ Python dictionary များသည် key ထည့်ခဲ့သော အစီအစဉ်ကို မှတ်ထားသောကြောင့် loop လုပ်ချိန် အစီအစဉ်တူ လည်ပတ်သည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w27-d3",
+      dayNumber: 3,
+      titleEn: "Visited Directly or Looked Up?",
+      titleMy: "တိုက်ရိုက် လည်ပတ်သလား ရှာဖွေရသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Visited Directly by the Loop",
+          "Accessed Using dict[key] Inside the Loop",
+        ],
+        bucketsMy: [
+          "Loop က တိုက်ရိုက် လည်ပတ်သည်",
+          "Loop အတွင်း dict[key] ဖြင့် ရယူသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "w27-sort-subject",
+            labelEn: "subject (the loop variable itself, a key)",
+            labelMy: "subject (loop variable ကိုယ်တိုင်၊ key တစ်ခု)",
+            correctBucketEn: "Visited Directly by the Loop",
+            correctBucketMy: "Loop က တိုက်ရိုက် လည်ပတ်သည်",
+          ),
+          SortingItem(
+            id: "w27-sort-gradessubject",
+            labelEn: "grades[subject] (the value)",
+            labelMy: "grades[subject] (value)",
+            correctBucketEn: "Accessed Using dict[key] Inside the Loop",
+            correctBucketMy: "Loop အတွင်း dict[key] ဖြင့် ရယူသည်",
+          ),
+          SortingItem(
+            id: "w27-sort-mathkey",
+            labelEn: "\"Math\" (a key, when subject == \"Math\")",
+            labelMy: "\"Math\" (subject == \"Math\" ဖြစ်ချိန် key)",
+            correctBucketEn: "Visited Directly by the Loop",
+            correctBucketMy: "Loop က တိုက်ရိုက် လည်ပတ်သည်",
+          ),
+          SortingItem(
+            id: "w27-sort-85value",
+            labelEn: "85 (the value stored under \"Math\")",
+            labelMy: "85 (\"Math\" အောက် သိမ်းထားသော value)",
+            correctBucketEn: "Accessed Using dict[key] Inside the Loop",
+            correctBucketMy: "Loop အတွင်း dict[key] ဖြင့် ရယူသည်",
+          ),
+          SortingItem(
+            id: "w27-sort-sciencekey",
+            labelEn: "\"Science\" (a key)",
+            labelMy: "\"Science\" (key တစ်ခု)",
+            correctBucketEn: "Visited Directly by the Loop",
+            correctBucketMy: "Loop က တိုက်ရိုက် လည်ပတ်သည်",
+          ),
+          SortingItem(
+            id: "w27-sort-90value",
+            labelEn: "90 (the value stored under \"Science\")",
+            labelMy: "90 (\"Science\" အောက် သိမ်းထားသော value)",
+            correctBucketEn: "Accessed Using dict[key] Inside the Loop",
+            correctBucketMy: "Loop အတွင်း dict[key] ဖြင့် ရယူသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w27-d4",
+      dayNumber: 4,
+      titleEn: "Nay Lin's Report Card",
+      titleMy: "နေလင်း၏ Report Card",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Lin's Report Card",
+        titleMy: "နေလင်း၏ Report Card",
+        passageEn:
+            "Nay Lin had a dictionary of his exam scores: grades = {\"Math\": 85, \"Science\": 90, \"English\": 78}. He wanted to print a full report card without writing three separate print statements by hand, so he used a loop: for subject in grades: print(subject, \"-\", grades[subject]). Each time through the loop, subject held one key -- first \"Math\", then \"Science\", then \"English\" -- and grades[subject] looked up the matching value each time, printing \"Math - 85\", then \"Science - 90\", then \"English - 78\". Nay Lin also wanted his average score, so he combined this loop with the accumulator pattern he had used since Term 1: total = 0 before the loop, then total = total + grades[subject] inside it, adding each score onto the running total as the loop visited every subject. After the loop finished, total held 85 + 90 + 78, which was 253, and average = total / len(grades) gave him 253 divided by 3, or about 84.3. Nay Lin realized looping through a dictionary combined two ideas he already knew well: a for loop that visited every key, just like Term 1's for loop had visited every list item, and the exact same accumulator pattern he had used all year, just now built up from dictionary values instead of list items.",
+        passageMy:
+            "နေလင်းတွင် သူ၏ စာမေးပွဲ score dictionary ရှိသည် - grades = {\"Math\": 85, \"Science\": 90, \"English\": 78}။ Print statement သီးခြားသုံးခု ကိုယ်တိုင်ရေးမည့်အစား report card တစ်ခုလုံးကို print ထုတ်လိုသဖြင့် loop တစ်ခု သုံးခဲ့သည် - for subject in grades: print(subject, \"-\", grades[subject])။ Loop အကြိမ်တိုင်း subject က key တစ်ခုစီကို ကိုင်ဆောင်ခဲ့သည် -- ပထမ \"Math\"၊ ထို့နောက် \"Science\"၊ နောက်ဆုံး \"English\" -- grades[subject] က ကိုက်ညီသော value ကို အကြိမ်တိုင်း ရှာပေးကာ \"Math - 85\"၊ \"Science - 90\"၊ \"English - 78\" ကို အစဉ်လိုက် print ထုတ်ခဲ့သည်။ နေလင်းသည် သူ၏ ပျမ်းမျှ score ကိုလည်း လိုချင်သဖြင့် Term 1 မှစ၍ သုံးခဲ့သော accumulator pattern ကို ဤ loop နှင့် ပေါင်းစပ်ခဲ့သည် - loop မတိုင်မီ total = 0၊ ထို့နောက် loop အတွင်း total = total + grades[subject]၊ loop သည် subject တိုင်းကို လည်ပတ်ချိန်တွင် score တစ်ခုစီကို running total ပေါ်သို့ ပေါင်းထည့်ခဲ့သည်။ Loop ပြီးဆုံးပြီးနောက် total တွင် 85 + 90 + 78 ဖြစ်သော 253 ရှိခဲ့ပြီး average = total / len(grades) က 253 ကို 3 ဖြင့် စား၍ 84.3 ခန့် ရရှိခဲ့သည်။ Dictionary တစ်ခုကို loop ဖြင့် လည်ပတ်ခြင်းသည် သူ ကောင်းစွာသိပြီးသား idea နှစ်ခုကို ပေါင်းစပ်ထားကြောင်း နေလင်း သဘောပေါက်လိုက်သည် - Term 1 ၏ for loop က list item တိုင်းကို လည်ပတ်ခဲ့သကဲ့သို့ key တိုင်းကို လည်ပတ်သော for loop တစ်ခု၊ ထို့ပြင် တစ်နှစ်လုံး သုံးခဲ့သော accumulator pattern အတူတူပင်၊ ယခုတွင် list item အစား dictionary value များမှ တည်ဆောက်ထားခြင်းသာ ကွာခြားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did subject hold on each pass of for subject in grades:?",
+            questionMy:
+                "for subject in grades: ၏ pass တစ်ခုစီတွင် subject က ဘာကို ကိုင်ဆောင်ခဲ့သနည်း။",
+            optionsEn: [
+              "One key at a time -- first \"Math\", then \"Science\", then \"English\"",
+              "All three keys at once",
+              "One value at a time",
+              "The word \"subject\" itself",
+            ],
+            optionsMy: [
+              "key တစ်ခုစီ -- ပထမ \"Math\"၊ ထို့နောက် \"Science\"၊ နောက်ဆုံး \"English\"",
+              "key သုံးခု အားလုံး တစ်ပြိုင်တည်း",
+              "value တစ်ခုစီ",
+              "\"subject\" ဟူသော စာလုံးကိုယ်တိုင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the value of total right after the loop added Nay Lin's English score, 78?",
+            questionMy:
+                "နေလင်း၏ English score 78 ကို loop က ပေါင်းထည့်ပြီးချက်ချင်း total သည် မည်သည့်တန်ဖိုးဖြစ်ခဲ့သနည်း။",
+            optionsEn: ["253", "175", "85", "90"],
+            optionsMy: ["253", "175", "85", "90"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Nay Lin calculate his average score?",
+            questionMy:
+                "နေလင်းသည် သူ၏ ပျမ်းမျှ score ကို မည်သို့ တွက်ချက်ခဲ့သနည်း။",
+            optionsEn: [
+              "average = total / len(grades)",
+              "average = total * len(grades)",
+              "average = grades[\"Math\"] only",
+              "average = len(grades) / total",
+            ],
+            optionsMy: [
+              "average = total / len(grades)",
+              "average = total * len(grades)",
+              "average = grades[\"Math\"] တစ်ခုတည်း",
+              "average = len(grades) / total",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what two familiar ideas did looping through grades combine?",
+            questionMy:
+                "ဇာတ်လမ်းအရ grades ကို loop ဖြင့် လည်ပတ်ခြင်းသည် ရင်းနှီးပြီးသား idea နှစ်ခုကို မည်သို့ ပေါင်းစပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "A for loop that visits every key, and the accumulator pattern used since Term 1",
+              "Binary search and Boolean logic only",
+              "Nothing familiar -- it was a completely new idea",
+              "String slicing and the in operator only",
+            ],
+            optionsMy: [
+              "Key တိုင်းကို လည်ပတ်သော for loop၊ ထို့ပြင် Term 1 မှစ၍ သုံးခဲ့သော accumulator pattern",
+              "Binary search နှင့် Boolean logic သာ",
+              "ရင်းနှီးမှုမရှိသော idea အသစ်တစ်ခုသာ",
+              "String slicing နှင့် in operator သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Nay Lin use grades[subject] inside the loop instead of just subject alone?",
+            questionMy:
+                "Nay Lin သည် loop အတွင်း subject တစ်ခုတည်းအစား grades[subject] ကို အဘယ့်ကြောင့် သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Because subject only held the key -- grades[subject] was needed to look up the matching value",
+              "Because subject already held the value directly",
+              "There was no real reason -- both do the exact same thing",
+              "Because grades[subject] is faster to type",
+            ],
+            optionsMy: [
+              "subject သည် key ကိုသာ ကိုင်ဆောင်ထားသောကြောင့် -- ကိုက်ညီသော value ကို ရှာရန် grades[subject] လိုအပ်ခဲ့သည်",
+              "subject သည် value ကို တိုက်ရိုက် ကိုင်ဆောင်ထားပြီးဖြစ်သောကြောင့်",
+              "အမှန်တကယ် အကြောင်းပြချက် မရှိပါ -- နှစ်ခုစလုံး အတူတူပင် လုပ်ဆောင်သည်",
+              "grades[subject] ကို ရိုက်ရန် ပိုမြန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap Quiz",
+      titleMy: "Week 27 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does for key in dict: visit on each pass?",
+          questionMy: "for key in dict: ၏ pass တစ်ခုစီက ဘာကို လည်ပတ်သနည်း။",
+          optionsEn: [
+            "Each key",
+            "Each value",
+            "The whole dictionary at once",
+            "Nothing",
+          ],
+          optionsMy: [
+            "Key တစ်ခုစီ",
+            "Value တစ်ခုစီ",
+            "Dictionary တစ်ခုလုံးကို တစ်ပြိုင်တည်း",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Inside such a loop, how do you get the value for the current key?",
+          questionMy:
+              "ထို loop အတွင်း လက်ရှိ key အတွက် value ကို မည်သို့ ရယူသနည်း။",
+          optionsEn: ["dict[key]", "key[dict]", "dict.key", "len(key)"],
+          optionsMy: ["dict[key]", "key[dict]", "dict.key", "len(key)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90, \"English\": 78}, how many times does the loop body run?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90, \"English\": 78} ဆိုပါက loop body က မည်မျှကြိမ် run သနည်း။",
+          optionsEn: ["3", "2", "78", "0"],
+          optionsMy: ["3", "2", "78", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For grades = {\"Math\": 85, \"Science\": 90, \"English\": 78}, what is the sum of all the values, using a loop and accumulator?",
+          questionMy:
+              "grades = {\"Math\": 85, \"Science\": 90, \"English\": 78} ဆိုပါက loop နှင့် accumulator သုံး၍ value အားလုံး၏ ပေါင်းလဒ်က အဘယ်နည်း။",
+          optionsEn: ["253", "175", "163", "78"],
+          optionsMy: ["253", "175", "163", "78"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looping through a dictionary's keys is closest to which Term 1 idea?",
+          questionMy:
+              "Dictionary ၏ key များကို loop ဖြင့် လည်ပတ်ခြင်းသည် Term 1 ၏ မည်သည့် idea နှင့် အနီးစပ်ဆုံးနည်း။",
+          optionsEn: [
+            "for item in list:",
+            "Binary search",
+            "A truth table",
+            "String immutability",
+          ],
+          optionsMy: [
+            "for item in list:",
+            "Binary search",
+            "Truth table",
+            "String immutability",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 7, Week 28: "Putting It Together:
+// Counting Word Frequency"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek28 = CourseWeekDef(
+  id: "course-secondary2-computing-w28",
+  weekNumber: 28,
+  titleEn: "Putting It Together: Counting Word Frequency",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း — Word Frequency ရေတွက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w28-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Word-Counting Function",
+      titleMy: "Word ရေတွက်မည့် Function ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program needs to count how many times each word appears in a list. Which function signature fits?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် list ထဲရှိ word တစ်ခုစီ မည်မျှကြိမ် ပါဝင်သည်ကို ရေတွက်ရမည်ဆိုပါက မည်သည့် function signature က ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "def word_frequency(words): ... return counts",
+            "def word_frequency(): ... return counts",
+            "word_frequency(words): return",
+            "def word_frequency(words) return counts:",
+          ],
+          optionsMy: [
+            "def word_frequency(words): ... return counts",
+            "def word_frequency(): ... return counts",
+            "word_frequency(words): return",
+            "def word_frequency(words) return counts:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does counts = {} do before the loop begins?",
+          questionMy: "Loop မစတင်မီ counts = {} က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Starts with an empty dictionary, this capstone's accumulator",
+            "Starts with an empty list instead",
+            "Deletes any previous word counts permanently",
+            "Immediately counts every word",
+          ],
+          optionsMy: [
+            "ဤ capstone ၏ accumulator ဖြစ်သော ဗလာ dictionary ဖြင့် စတင်သည်",
+            "ဗလာ list ဖြင့် အစားထိုးစတင်သည်",
+            "ယခင် word count များကို အပြီးတိုင် ဖျက်ပစ်သည်",
+            "Word တိုင်းကို ချက်ချင်း ရေတွက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which Term 1 pattern is reused to visit every word in the list?",
+          questionMy:
+              "List ထဲရှိ word တိုင်းကို လည်ပတ်ရန် Term 1 ၏ မည်သည့် pattern ကို ပြန်လည်အသုံးချသနည်း။",
+          optionsEn: [
+            "for word in words:",
+            "while True:",
+            "if word == target:",
+            "binary_search(words, target)",
+          ],
+          optionsMy: [
+            "for word in words:",
+            "while True:",
+            "if word == target:",
+            "binary_search(words, target)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which Boolean check decides whether to add a new key or update an existing count?",
+          questionMy:
+              "Key အသစ်ထည့်မလား ရှိပြီးသား count ကို ပြင်ဆင်မလား ဆုံးဖြတ်ရန် မည်သည့် Boolean check ကို သုံးသနည်း။",
+          optionsEn: [
+            "if word in counts:",
+            "if counts in word:",
+            "if word == counts:",
+            "if len(word) > 0:",
+          ],
+          optionsMy: [
+            "if word in counts:",
+            "if counts in word:",
+            "if word == counts:",
+            "if len(word) > 0:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should word_frequency(words) return once the loop has checked every word?",
+          questionMy:
+              "Loop သည် word တိုင်းကို စစ်ဆေးပြီးသည့်အခါ word_frequency(words) က ဘာ return ပြန်ပေးသင့်သနည်း။",
+          optionsEn: [
+            "The counts dictionary, mapping each distinct word to how many times it appeared",
+            "The original list, unchanged",
+            "Only the most frequent word",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Word ကွဲပြားတစ်ခုစီကို ၎င်းပေါ်ခဲ့သော အကြိမ်ရေသို့ map လုပ်ထားသော counts dictionary",
+            "မူလ list မပြောင်းလဲဘဲ",
+            "အများဆုံးပေါ်ခဲ့သော word တစ်ခုတည်း",
+            "ဘာမျှ return မပြန်ပေးပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w28-d2",
+      dayNumber: 2,
+      titleEn: "Word-Counting Function Vocabulary",
+      titleMy: "Word ရေတွက်သော Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w28-cap-wordfrequencyfn",
+          termEn: "word_frequency(words)",
+          termMy: "word_frequency(words)",
+          matchEn:
+              "A function that takes a list of words and returns a dictionary mapping each distinct word to how many times it appeared",
+          matchMy:
+              "Word list ကို parameter အဖြစ်ယူပြီး word ကွဲပြားတစ်ခုစီကို ၎င်းပေါ်ခဲ့သော အကြိမ်ရေသို့ map လုပ်ထားသော dictionary ကို ပြန်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w28-cap-countsdictaccumulator",
+          termEn: "counts = {}",
+          termMy: "counts = {}",
+          matchEn:
+              "An empty dictionary used as this capstone's accumulator, filled in gradually as the loop runs",
+          matchMy:
+              "Loop run ချိန် တဖြည်းဖြည်း ဖြည့်ထားသော ဤ capstone ၏ accumulator ဖြစ်သော ဗလာ dictionary",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w28-cap-ifwordincounts",
+          termEn: "if word in counts:",
+          termMy: "if word in counts:",
+          matchEn:
+              "Checks whether the current word has already been counted, using the same in operator from Term 5 and Week 26, now on dictionary keys",
+          matchMy:
+              "Term 5 နှင့် Week 26 မှ in operator အတူတူပင် dictionary key များအပေါ် သုံး၍ လက်ရှိ word ကို ရေတွက်ပြီးလားဟု စစ်ဆေးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w28-cap-incrementcount",
+          termEn: "counts[word] = counts[word] + 1",
+          termMy: "counts[word] = counts[word] + 1",
+          matchEn:
+              "Increments the existing count for a word that has already appeared before",
+          matchMy:
+              "ယခင်ကတည်းက ပေါ်ခဲ့ပြီးသား word ၏ ရှိပြီးသား count ကို 1 တိုးသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w28-cap-newkeycountone",
+          termEn: "counts[word] = 1",
+          termMy: "counts[word] = 1",
+          matchEn:
+              "Adds a brand-new key the first time a word is seen, starting its count at 1",
+          matchMy:
+              "Word ကို ပထမဆုံးအကြိမ် တွေ့သည့်အခါ key အသစ်ကို 1 ဖြင့် count စတင်ကာ ထည့်သည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w28-d3",
+      dayNumber: 3,
+      titleEn: "First Time Seen or Seen Before?",
+      titleMy: "ပထမဆုံးအကြိမ် တွေ့သလား ယခင်ကတည်းက တွေ့ဖူးသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Word Seen for the First Time (Add)",
+          "Word Already Seen Before (Update)",
+        ],
+        bucketsMy: [
+          "Word ကို ပထမဆုံးအကြိမ် တွေ့ခြင်း (Add)",
+          "Word ကို ယခင်ကတည်းက တွေ့ဖူးခြင်း (Update)",
+        ],
+        items: [
+          SortingItem(
+            id: "w28-sort-catfirsttime",
+            labelEn: "Processing \"cat\" for the first time",
+            labelMy: "\"cat\" ကို ပထမဆုံးအကြိမ် စစ်ဆေးနေခြင်း",
+            correctBucketEn: "Word Seen for the First Time (Add)",
+            correctBucketMy: "Word ကို ပထမဆုံးအကြိမ် တွေ့ခြင်း (Add)",
+          ),
+          SortingItem(
+            id: "w28-sort-catsecondtime",
+            labelEn: "Processing \"cat\" for the second time",
+            labelMy: "\"cat\" ကို ဒုတိယအကြိမ် စစ်ဆေးနေခြင်း",
+            correctBucketEn: "Word Already Seen Before (Update)",
+            correctBucketMy: "Word ကို ယခင်ကတည်းက တွေ့ဖူးခြင်း (Update)",
+          ),
+          SortingItem(
+            id: "w28-sort-iftruecase",
+            labelEn: "if word in counts: evaluates to True",
+            labelMy: "if word in counts: သည် True ဖြစ်ခြင်း",
+            correctBucketEn: "Word Already Seen Before (Update)",
+            correctBucketMy: "Word ကို ယခင်ကတည်းက တွေ့ဖူးခြင်း (Update)",
+          ),
+          SortingItem(
+            id: "w28-sort-iffalsecase",
+            labelEn: "if word in counts: evaluates to False",
+            labelMy: "if word in counts: သည် False ဖြစ်ခြင်း",
+            correctBucketEn: "Word Seen for the First Time (Add)",
+            correctBucketMy: "Word ကို ပထမဆုံးအကြိမ် တွေ့ခြင်း (Add)",
+          ),
+          SortingItem(
+            id: "w28-sort-incrementline",
+            labelEn: "counts[word] = counts[word] + 1",
+            labelMy: "counts[word] = counts[word] + 1",
+            correctBucketEn: "Word Already Seen Before (Update)",
+            correctBucketMy: "Word ကို ယခင်ကတည်းက တွေ့ဖူးခြင်း (Update)",
+          ),
+          SortingItem(
+            id: "w28-sort-newkeyline",
+            labelEn: "counts[word] = 1",
+            labelMy: "counts[word] = 1",
+            correctBucketEn: "Word Seen for the First Time (Add)",
+            correctBucketMy: "Word ကို ပထမဆုံးအကြိမ် တွေ့ခြင်း (Add)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w28-d4",
+      dayNumber: 4,
+      titleEn: "Zayar's Word Frequency Counter",
+      titleMy: "ဇေယျာ၏ Word Frequency ရေတွက်ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar's Word Frequency Counter",
+        titleMy: "ဇေယျာ၏ Word Frequency ရေတွက်ပရိုဂရမ်",
+        passageEn:
+            "For his end-of-term project, Zayar combined everything he had learned about dictionaries into a single function. He had a list of words from a short animal-spotting survey, words = [\"cat\", \"dog\", \"cat\", \"bird\", \"dog\", \"cat\"], and he wanted to know how many times each distinct word appeared. He wrote a function called word_frequency(words) that took the list as a parameter. Inside, he reused Term 1's list-loop pattern: for word in words: visited each word one at a time. Before the loop began, he created counts = {}, an empty dictionary that would serve as this capstone's accumulator, gradually filled in as the loop ran. For each word, an if-statement used the in operator from Term 5 and Week 26 to test if word in counts: -- checking whether this exact word had already been counted. If it had, he ran counts[word] = counts[word] + 1, incrementing the existing count. If it had not, he ran counts[word] = 1, adding a brand-new key starting at 1. Once the loop had visited every word in the list, the function returned counts, reusing the same return pattern every function had used since Term 2. Calling word_frequency(words) processed each word in order: \"cat\" was new, so counts became {\"cat\": 1}; \"dog\" was new, so counts became {\"cat\": 1, \"dog\": 1}; \"cat\" appeared again, so its count became 2; \"bird\" was new, adding a third key at 1; \"dog\" appeared again, becoming 2; and \"cat\" appeared a third time, becoming 3. The function returned {\"cat\": 3, \"dog\": 2, \"bird\": 1}. Zayar realized his function had reused nearly every idea from the whole year: a list and a loop from Term 1, a function with a parameter and return value from Term 2, the in operator from Term 5, and this term's own dictionaries for adding and updating keys -- one small function standing on top of everything he had learned across all seven terms.",
+        passageMy:
+            "နှစ်ကုန်စီမံကိန်းအတွက် ဇေယျာသည် dictionary များအကြောင်း သင်ယူခဲ့သမျှအားလုံးကို function တစ်ခုတည်းအတွင်း ပေါင်းစပ်ခဲ့သည်။ သူတွင် တိရစ္ဆာန်တွေ့ရှိမှု survey တိုတစ်ခုမှ word list တစ်ခုရှိသည် - words = [\"cat\", \"dog\", \"cat\", \"bird\", \"dog\", \"cat\"] - word ကွဲပြားတစ်ခုစီ မည်မျှကြိမ် ပေါ်ခဲ့သည်ကို သိလိုခဲ့သည်။ သူသည် list ကို parameter အဖြစ်ယူသော word_frequency(words) ဟူသော function တစ်ခု ရေးခဲ့သည်။ အတွင်း၌ Term 1 ၏ list-loop pattern ကို ပြန်လည်အသုံးချကာ for word in words: က word တစ်ခုချင်းစီကို လည်ပတ်ခဲ့သည်။ Loop မစတင်မီ ဤ capstone ၏ accumulator အဖြစ် ဆောင်ရွက်မည့် ဗလာ dictionary counts = {} ကို ဖန်တီးခဲ့ပြီး loop run ချိန် တဖြည်းဖြည်း ဖြည့်ခဲ့သည်။ Word တစ်ခုစီအတွက် if-statement က Term 5 နှင့် Week 26 မှ in operator ကိုသုံး၍ if word in counts: ကို စစ်ဆေးခဲ့သည် -- ဤ word အတိအကျကို ရေတွက်ပြီးသားလားဟု စစ်ဆေးခြင်းဖြစ်သည်။ ရေတွက်ပြီးသားဆိုပါက counts[word] = counts[word] + 1 ကို run ၍ ရှိပြီးသား count ကို တိုးခဲ့သည်။ မရေတွက်ရသေးပါက counts[word] = 1 ကို run ၍ key အသစ်တစ်ခုကို 1 ဖြင့် စတင်ထည့်ခဲ့သည်။ Loop သည် list ထဲရှိ word တိုင်းကို လည်ပတ်ပြီးနောက် function သည် counts ကို return ပြန်ပေးခဲ့ပြီး Term 2 မှစ၍ function တိုင်း အသုံးပြုခဲ့သော return pattern အတိုင်းပင် ဖြစ်ခဲ့သည်။ word_frequency(words) ကို call ခေါ်ခြင်းက word တစ်ခုချင်းစီကို အစဉ်လိုက် စစ်ဆေးခဲ့သည် - \"cat\" သည် အသစ်ဖြစ်၍ counts သည် {\"cat\": 1} ဖြစ်လာသည်; \"dog\" သည် အသစ်ဖြစ်၍ counts သည် {\"cat\": 1, \"dog\": 1} ဖြစ်လာသည်; \"cat\" ထပ်ပေါ်လာ၍ ၎င်း၏ count သည် 2 ဖြစ်လာသည်; \"bird\" သည် အသစ်ဖြစ်၍ တတိယ key ကို 1 ဖြင့် ထည့်သည်; \"dog\" ထပ်ပေါ်လာ၍ 2 ဖြစ်လာသည်; \"cat\" တတိယအကြိမ် ပေါ်လာ၍ 3 ဖြစ်လာသည်။ Function သည် {\"cat\": 3, \"dog\": 2, \"bird\": 1} ကို return ပြန်ပေးခဲ့သည်။ သူ၏ function သည် တစ်နှစ်တာလုံးမှ idea နီးပါးအားလုံးကို ပြန်လည်အသုံးချထားကြောင်း ဇေယျာ သဘောပေါက်လိုက်သည် - Term 1 မှ list နှင့် loop၊ Term 2 မှ parameter နှင့် return value ပါသော function၊ Term 5 မှ in operator၊ ထို့ပြင် ဤ Term ကိုယ်တိုင်မှ key ထည့်ခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် dictionary -- function ငယ်တစ်ခုသည် Term ခုနစ်ခုလုံးမှ သင်ခဲ့သမျှအားလုံး၏ ထက်တွင် တည်ဆောက်ထားခြင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did word_frequency(words) take as a parameter, and what did it return?",
+            questionMy:
+                "word_frequency(words) က ဘာကို parameter အဖြစ်ယူပြီး ဘာ return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A list of words; it returned a dictionary mapping each word to how many times it appeared",
+              "A single word; it returned True or False",
+              "A dictionary; it returned a list",
+              "Nothing; it always returned an empty dictionary",
+            ],
+            optionsMy: [
+              "Word list; word တစ်ခုစီကို ၎င်းပေါ်ခဲ့သော အကြိမ်ရေသို့ map လုပ်ထားသော dictionary ကို return ပြန်ပေးခဲ့သည်",
+              "Word တစ်ခုတည်း; True (သို့) False ကို return ပြန်ပေးခဲ့သည်",
+              "Dictionary တစ်ခု; list တစ်ခုကို return ပြန်ပေးခဲ့သည်",
+              "ဘာမျှမပါ; အမြဲ ဗလာ dictionary ကို return ပြန်ပေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did counts = {} serve as before the loop began?",
+            questionMy: "Loop မစတင်မီ counts = {} က ဘာအဖြစ် ဆောင်ရွက်ခဲ့သနည်း။",
+            optionsEn: [
+              "An empty dictionary accumulator, filled in gradually as the loop ran",
+              "A finished dictionary with all counts already filled in",
+              "A list of words",
+              "A single Boolean value",
+            ],
+            optionsMy: [
+              "Loop run ချိန် တဖြည်းဖြည်း ဖြည့်ထားသော ဗလာ dictionary accumulator",
+              "Count အားလုံး ဖြည့်ပြီးသား dictionary",
+              "Word list တစ်ခု",
+              "Boolean value တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the value of counts[\"cat\"] right after \"cat\" was processed for the second time?",
+            questionMy:
+                "\"cat\" ကို ဒုတိယအကြိမ် စစ်ဆေးပြီးချက်ချင်း counts[\"cat\"] ၏ တန်ဖိုးက အဘယ်နည်း။",
+            optionsEn: ["2", "1", "3", "0"],
+            optionsMy: ["2", "1", "3", "0"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the final dictionary returned by word_frequency(words)?",
+            questionMy:
+                "word_frequency(words) မှ ရရှိသော နောက်ဆုံး dictionary က အဘယ်နည်း။",
+            optionsEn: [
+              "{\"cat\": 3, \"dog\": 2, \"bird\": 1}",
+              "{\"cat\": 1, \"dog\": 1, \"bird\": 1}",
+              "{\"cat\": 3, \"dog\": 3, \"bird\": 3}",
+              "{\"cat\": 6}",
+            ],
+            optionsMy: [
+              "{\"cat\": 3, \"dog\": 2, \"bird\": 1}",
+              "{\"cat\": 1, \"dog\": 1, \"bird\": 1}",
+              "{\"cat\": 3, \"dog\": 3, \"bird\": 3}",
+              "{\"cat\": 6}",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Zayar realize his function had reused from across all seven terms?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သူ၏ function သည် Term ခုနစ်ခုလုံးမှ ဘာများကို ပြန်လည်အသုံးချထားကြောင်း ဇေယျာ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "A list and loop from Term 1, a function with parameter and return from Term 2, the in operator from Term 5, and this term's dictionaries",
+              "Only ideas from this single term, nothing earlier",
+              "Nothing -- it was a completely new idea",
+              "Only Boolean logic from Term 4",
+            ],
+            optionsMy: [
+              "Term 1 မှ list နှင့် loop၊ Term 2 မှ parameter နှင့် return ပါသော function၊ Term 5 မှ in operator၊ ထို့ပြင် ဤ Term မှ dictionary",
+              "ဤ Term တစ်ခုတည်းမှ idea များသာ၊ ယခင်ကမှ မပါ",
+              "ဘာမှမပါ -- လုံးဝ idea အသစ်ဖြစ်သည်",
+              "Term 4 မှ Boolean logic သာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap Quiz",
+      titleMy: "Week 28 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In word_frequency(words), what does counts = {} serve as?",
+          questionMy:
+              "word_frequency(words) တွင် counts = {} က ဘာအဖြစ် ဆောင်ရွက်သနည်း။",
+          optionsEn: [
+            "An empty dictionary accumulator",
+            "A finished list of results",
+            "A Boolean flag",
+            "A single number",
+          ],
+          optionsMy: [
+            "ဗလာ dictionary accumulator",
+            "ရလဒ် ပြီးစီးထားသော list",
+            "Boolean flag",
+            "ဂဏန်းတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which check decides whether to add a new key or update an existing count?",
+          questionMy:
+              "Key အသစ်ထည့်မလား ရှိပြီးသား count ပြင်ဆင်မလား ဆုံးဖြတ်ရန် မည်သည့် check ကို သုံးသနည်း။",
+          optionsEn: [
+            "if word in counts:",
+            "if counts in word:",
+            "if word == counts:",
+            "if len(counts) == 0:",
+          ],
+          optionsMy: [
+            "if word in counts:",
+            "if counts in word:",
+            "if word == counts:",
+            "if len(counts) == 0:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does counts[word] = counts[word] + 1 do?",
+          questionMy: "counts[word] = counts[word] + 1 က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Increments the existing count for a word seen before",
+            "Adds a brand-new key at 1",
+            "Deletes the word from counts",
+            "Resets the whole dictionary",
+          ],
+          optionsMy: [
+            "ယခင်က တွေ့ဖူးသော word ၏ ရှိပြီးသား count ကို တိုးသည်",
+            "Key အသစ်ကို 1 ဖြင့် ထည့်သည်",
+            "Word ကို counts မှ ဖျက်ပစ်သည်",
+            "Dictionary တစ်ခုလုံးကို reset လုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For words = [\"dog\", \"cat\", \"dog\"], what does word_frequency(words) return?",
+          questionMy:
+              "words = [\"dog\", \"cat\", \"dog\"] ဆိုပါက word_frequency(words) က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "{\"dog\": 2, \"cat\": 1}",
+            "{\"dog\": 1, \"cat\": 1}",
+            "{\"dog\": 3, \"cat\": 3}",
+            "{\"cat\": 2, \"dog\": 1}",
+          ],
+          optionsMy: [
+            "{\"dog\": 2, \"cat\": 1}",
+            "{\"dog\": 1, \"cat\": 1}",
+            "{\"dog\": 3, \"cat\": 3}",
+            "{\"cat\": 2, \"dog\": 1}",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the function return once every word in the list has been checked?",
+          questionMy:
+              "List ထဲရှိ word တိုင်းကို စစ်ဆေးပြီးသည့်အခါ function က ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "Only the most frequent word",
+            "The original list",
+            "The counts dictionary",
+            "Nothing",
+          ],
+          optionsMy: [
+            "အများဆုံးပေါ်ခဲ့သော word တစ်ခုတည်း",
+            "မူလ list",
+            "counts dictionary",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -24588,6 +26241,23 @@ const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
   // into two dimensions
 );
 
+const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
+  id: "course-secondary2-computing-t7",
+  termNumber: 7,
+  titleEn: "Dictionaries: Working with Key-Value Data",
+  titleMy: "Dictionary များ — Key-Value Data ဖြင့် လုပ်ဆောင်ခြင်း",
+  certificateTitleEn: "Dictionaries: Working with Key-Value Data",
+  certificateTitleMy: "Dictionary များ — Key-Value Data ဖြင့် လုပ်ဆောင်ခြင်း",
+  weeks: [
+    _secondary2ComputingWeek25,
+    _secondary2ComputingWeek26,
+    _secondary2ComputingWeek27,
+    _secondary2ComputingWeek28,
+  ], // Term 7 complete (Weeks 25-28) -- seventh term of the Secondary 2
+  // pathway, introducing dictionaries as a second core data structure
+  // alongside Term 1's lists
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
@@ -24595,8 +26265,9 @@ const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
 /// Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term 3 (Weeks
 /// 9-12, Searching and Sorting Algorithms), Term 4 (Weeks 13-16, Boolean
 /// Logic and Truth Tables), Term 5 (Weeks 17-20, Working with Text:
-/// String Manipulation), and Term 6 (Weeks 21-24, Nested Lists: Working
-/// with 2D Data) are now authored; [totalWeeks] stays 36 for the same
+/// String Manipulation), Term 6 (Weeks 21-24, Nested Lists: Working with
+/// 2D Data), and Term 7 (Weeks 25-28, Dictionaries: Working with
+/// Key-Value Data) are now authored; [totalWeeks] stays 36 for the same
 /// "honest progress bar" reason Secondary 1's did while only a handful
 /// of weeks exist. Term 1 picks up directly where
 /// Secondary 1 Term 9 left off: its Week 36 capstone program used single
@@ -24657,7 +26328,20 @@ const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
 /// grids up incrementally; Week 24 closes the term with a capstone
 /// function, sum_grid(grid), that reuses Week 22's nested loop to visit
 /// every item, Term 1/Term 3's accumulator pattern to total them, and
-/// Term 2's parameter/return-value pattern to hand the sum back.
+/// Term 2's parameter/return-value pattern to hand the sum back. Term 7
+/// introduces dictionaries as a second core data structure alongside
+/// Term 1's lists: Week 25 shows a dictionary looks values up by key
+/// instead of position, contrasted directly with Term 3's linear search
+/// over a list; Week 26 adds writing to a dictionary (dict[key] = value
+/// both adds and updates, depending on whether the key already exists)
+/// and reuses Term 5's in operator to test key membership; Week 27 loops
+/// through a dictionary's keys with for key in dict:, combining that
+/// with the Term 1/Term 3 accumulator pattern to total up values; Week
+/// 28 closes the term with a capstone function, word_frequency(words),
+/// that reuses Term 1's list-loop pattern, Term 5/Week 26's in operator
+/// to decide whether to add a new key or update an existing one, and
+/// Term 2's return-value pattern, building up a dictionary accumulator
+/// instead of a single running total.
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -24665,9 +26349,9 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, and nested (2D) lists.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, nested (2D) lists, and dictionaries.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation နှင့် nested (2D) list ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list နှင့် dictionary ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary2ComputingTerm1,
@@ -24676,5 +26360,6 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
     _secondary2ComputingTerm4,
     _secondary2ComputingTerm5,
     _secondary2ComputingTerm6,
+    _secondary2ComputingTerm7,
   ],
 );
