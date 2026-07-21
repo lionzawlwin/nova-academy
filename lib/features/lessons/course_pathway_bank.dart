@@ -3203,6 +3203,1469 @@ const CourseWeekDef _secondary1ComputingWeek8 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 1 Computing -- Term 3, Week 9: "What is an Algorithm?"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
+  id: 'course-secondary1-computing-w9',
+  weekNumber: 9,
+  titleEn: 'What is an Algorithm?',
+  titleMy: 'Algorithm ဆိုသည်မှာ အဘယ်နည်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w9-d1',
+      dayNumber: 1,
+      titleEn: 'What is an Algorithm?',
+      titleMy: 'Algorithm ဆိုသည်မှာ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is an algorithm?',
+          questionMy: 'Algorithm ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A set of step-by-step instructions to complete a task',
+            'A type of computer hardware',
+            'A single word with no meaning',
+            'A picture with no instructions',
+          ],
+          optionsMy: [
+            'လုပ်ငန်းတစ်ခုအား ပြီးမြောက်စေရန် အဆင့်ဆင့်ညွှန်ကြားချက်များစု',
+            'ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု',
+            'အဓိပ္ပာယ်မရှိသော စကားလုံးတစ်ခုတည်း',
+            'ညွှန်ကြားချက်မပါသော ပုံတစ်ပုံ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is an everyday example of an algorithm?',
+          questionMy:
+              'အောက်ပါတို့အနက် နေ့စဉ်ဘဝတွင် algorithm ၏ ဥပမာဖြစ်သည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A recipe for baking a cake',
+            'A blank sheet of paper',
+            'A closed box',
+            'A silent room',
+          ],
+          optionsMy: [
+            'ကိတ်မုန့်ဖုတ်ရန် ချက်ပြုတ်နည်းစာအုပ်',
+            'အလွတ်စာရွက်တစ်ရွက်',
+            'ပိတ်ထားသော ဘူးတစ်လုံး',
+            'တိတ်ဆိတ်နေသော အခန်းတစ်ခန်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why does the order of steps in an algorithm matter?',
+          questionMy:
+              'Algorithm တစ်ခု၏ အဆင့်များ၏ အစီအစဉ်သည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။',
+          optionsEn: [
+            'Doing steps in the wrong order can give the wrong result',
+            'The order never matters',
+            'Algorithms have no steps',
+            'Order only matters for software, not algorithms',
+          ],
+          optionsMy: [
+            'အဆင့်များကို မှားသောအစီအစဉ်ဖြင့်လုပ်ခြင်းသည် မှားသောရလဒ်ကို ဖြစ်စေနိုင်သည်',
+            'အစီအစဉ်သည် ဘယ်တော့မှ အရေးမကြီးပါ',
+            'Algorithm များတွင် အဆင့်များ မရှိပါ',
+            'အစီအစဉ်သည် software တွင်သာ အရေးကြီးပြီး algorithm တွင် မကြီးပါ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What do we call a single step inside an algorithm?',
+          questionMy: 'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['An instruction', 'A router', 'A byte', 'A folder'],
+          optionsMy: ['ညွှန်ကြားချက်', 'Router', 'Byte', 'Folder'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Is an algorithm the same thing as a computer program?',
+          questionMy:
+              'Algorithm သည် ကွန်ပျူတာပရိုဂရမ်နှင့် တူညီပါသလား။',
+          optionsEn: [
+            'No -- an algorithm is the plan; a program is that plan written in code a computer can run',
+            'Yes, they are always exactly the same',
+            'No, an algorithm is a type of hardware',
+            'No, only computers can have algorithms',
+          ],
+          optionsMy: [
+            'မတူပါ -- algorithm သည် အစီအစဉ်ဖြစ်ပြီး၊ program သည် ကွန်ပျူတာလည်ပတ်နိုင်သော ကုဒ်ဖြင့်ရေးထားသော ထိုအစီအစဉ်ဖြစ်သည်',
+            'ဟုတ်ပါသည်၊ အမြဲတမ်း အတူတူပင်ဖြစ်သည်',
+            'မတူပါ၊ algorithm သည် hardware အမျိုးအစားတစ်ခုဖြစ်သည်',
+            'မတူပါ၊ ကွန်ပျူတာများသာ algorithm ရှိနိုင်သည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w9-d2',
+      dayNumber: 2,
+      titleEn: 'Algorithm Vocabulary',
+      titleMy: 'Algorithm ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w9-algo-algorithm',
+          termEn: 'Algorithm',
+          termMy: 'Algorithm',
+          matchEn: 'A set of step-by-step instructions to complete a task',
+          matchMy: 'လုပ်ငန်းတစ်ခုအား ပြီးမြောက်စေရန် အဆင့်ဆင့်ညွှန်ကြားချက်များစု',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w9-algo-sequence',
+          termEn: 'Sequence',
+          termMy: 'Sequence',
+          matchEn: 'Instructions carried out one after another, in order',
+          matchMy: 'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w9-algo-instruction',
+          termEn: 'Instruction',
+          termMy: 'Instruction',
+          matchEn: 'A single step telling the computer what to do',
+          matchMy: 'ကွန်ပျူတာအား မည်သို့ဆောင်ရွက်ရမည်ကို ညွှန်ကြားသော အဆင့်တစ်ခု',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w9-algo-input',
+          termEn: 'Input',
+          termMy: 'Input',
+          matchEn: 'Data given to an algorithm before it starts',
+          matchMy: 'Algorithm မစတင်မီ ပေးအပ်ထားသော ဒေတာ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w9-algo-output',
+          termEn: 'Output',
+          termMy: 'Output',
+          matchEn: 'The result an algorithm produces at the end',
+          matchMy: 'Algorithm အဆုံးတွင် ထုတ်ပေးသော ရလဒ်',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w9-d3',
+      dayNumber: 3,
+      titleEn: 'Algorithm or Not?',
+      titleMy: 'Algorithm လား၊ မဟုတ်လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Algorithm', 'Not an Algorithm'],
+        bucketsMy: ['Algorithm', 'Not an Algorithm (Algorithm မဟုတ်)'],
+        items: [
+          SortingItem(
+            id: 'w9-sort-recipe',
+            labelEn: 'Recipe for a cake',
+            labelMy: 'ကိတ်မုန့်ချက်ပြုတ်နည်း',
+            correctBucketEn: 'Algorithm',
+            correctBucketMy: 'Algorithm',
+          ),
+          SortingItem(
+            id: 'w9-sort-directions',
+            labelEn: 'Directions to school',
+            labelMy: 'ကျောင်းသို့ လမ်းညွှန်ချက်များ',
+            correctBucketEn: 'Algorithm',
+            correctBucketMy: 'Algorithm',
+          ),
+          SortingItem(
+            id: 'w9-sort-brushteeth',
+            labelEn: 'Steps to brush your teeth',
+            labelMy: 'သွားတိုက်ရန် အဆင့်များ',
+            correctBucketEn: 'Algorithm',
+            correctBucketMy: 'Algorithm',
+          ),
+          SortingItem(
+            id: 'w9-sort-photo',
+            labelEn: 'A single photo',
+            labelMy: 'ဓာတ်ပုံတစ်ပုံတည်း',
+            correctBucketEn: 'Not an Algorithm',
+            correctBucketMy: 'Not an Algorithm (Algorithm မဟုတ်)',
+          ),
+          SortingItem(
+            id: 'w9-sort-blankpage',
+            labelEn: 'A blank page',
+            labelMy: 'အလွတ်စာမျက်နှာတစ်ရွက်',
+            correctBucketEn: 'Not an Algorithm',
+            correctBucketMy: 'Not an Algorithm (Algorithm မဟုတ်)',
+          ),
+          SortingItem(
+            id: 'w9-sort-musicnote',
+            labelEn: 'One musical note',
+            labelMy: 'ဂီတမှတ်တစ်ခုတည်း',
+            correctBucketEn: 'Not an Algorithm',
+            correctBucketMy: 'Not an Algorithm (Algorithm မဟုတ်)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w9-d4',
+      dayNumber: 4,
+      titleEn: "Hnin Hnin's Recipe Mistake",
+      titleMy: 'နှင်းနှင်း၏ ချက်ပြုတ်နည်း အမှား',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Hnin's Recipe Mistake",
+        titleMy: 'နှင်းနှင်း၏ ချက်ပြုတ်နည်း အမှား',
+        passageEn:
+            "Hnin Hnin wanted to bake cookies, so she followed a recipe -- an everyday algorithm. The recipe said: mix the butter and sugar first, then add the flour, then bake in the oven. In a hurry, Hnin Hnin put the flour in before mixing the butter and sugar properly. The cookie dough came out lumpy and did not bake evenly. Her mother explained that an algorithm's steps must be followed in the correct order, because changing the sequence can change the result, even if every step is technically completed.",
+        passageMy:
+            'နှင်းနှင်းသည် ကွတ်ကီးဖုတ်လိုသောကြောင့် ချက်ပြုတ်နည်းတစ်ခု -- နေ့စဉ်ဘဝ algorithm တစ်ခုကို လိုက်နာခဲ့သည်။ ချက်ပြုတ်နည်းတွင် ဦးစွာ ထောပတ်နှင့်သကြားကို ရောနှောရန်၊ ပြီးမှ မုန့်ညက်ထည့်ရန်၊ ပြီးမှ မီးဖိုတွင်ဖုတ်ရန် ဖော်ပြထားသည်။ အလျင်စလိုဖြင့် နှင်းနှင်းသည် ထောပတ်နှင့်သကြားကို ကောင်းစွာမရောနှောမီ မုန့်ညက်ကို အရင်ထည့်ခဲ့သည်။ ကွတ်ကီးမုန့်ညက်သည် တုံးရုံးရုံးဖြစ်ပြီး တညီညာတည်း မဖုတ်တတ်ခဲ့ပါ။ သူမ၏မိခင်က algorithm တစ်ခု၏ အဆင့်များကို မှန်ကန်သောအစီအစဉ်ဖြင့် လိုက်နာရန် လိုအပ်ကြောင်း -- အဆင့်တိုင်းကို ပြီးမြောက်အောင်လုပ်ထားစေကာမူ၊ အစီအစဉ်ပြောင်းလိုက်လျှင် ရလဒ်ပါ ပြောင်းသွားနိုင်ကြောင်း ရှင်းပြခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What did Hnin Hnin want to bake?',
+            questionMy: 'နှင်းနှင်းသည် ဘာဖုတ်လိုခဲ့သနည်း။',
+            optionsEn: ['Cookies', 'Bread', 'A cake', 'Pizza'],
+            optionsMy: ['ကွတ်ကီး', 'ပေါင်မုန့်', 'ကိတ်မုန့်', 'ပီဇာ'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the recipe say to mix first?',
+            questionMy: 'ချက်ပြုတ်နည်းက ဦးဆုံးရောနှောရန် ဘာဟုပြောထားသနည်း။',
+            optionsEn: [
+              'The butter and sugar',
+              'The flour and eggs',
+              'The oven and tray',
+              'The milk and water',
+            ],
+            optionsMy: [
+              'ထောပတ်နှင့်သကြား',
+              'မုန့်ညက်နှင့်ကြက်ဥ',
+              'မီးဖိုနှင့်ပန်းကန်ပြား',
+              'နို့နှင့်ရေ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What mistake did Hnin Hnin make?',
+            questionMy: 'နှင်းနှင်းသည် ဘာအမှားလုပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'She put the flour in before mixing the butter and sugar properly',
+              'She forgot to turn on the oven',
+              'She used the wrong recipe entirely',
+              'She did not use any ingredients',
+            ],
+            optionsMy: [
+              'ထောပတ်နှင့်သကြားကို ကောင်းစွာမရောနှောမီ မုန့်ညက်ကို အရင်ထည့်ခဲ့သည်',
+              'မီးဖိုဖွင့်ရန် မေ့ခဲ့သည်',
+              'လုံးဝမှားနေသော ချက်ပြုတ်နည်းကို သုံးခဲ့သည်',
+              'ပါဝင်ပစ္စည်းတစ်ခုမျှ မသုံးခဲ့ပါ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What happened to the cookie dough because of the mistake?',
+            questionMy:
+                'ထိုအမှားကြောင့် ကွတ်ကီးမုန့်ညက်သည် မည်သို့ဖြစ်ခဲ့သနည်း။',
+            optionsEn: [
+              'It came out lumpy and did not bake evenly',
+              'It became perfectly smooth',
+              'It disappeared completely',
+              'It turned into bread instead',
+            ],
+            optionsMy: [
+              'တုံးရုံးရုံးဖြစ်ပြီး တညီညာတည်း မဖုတ်တတ်ခဲ့ပါ',
+              'အလွန်ချောမွေ့သွားခဲ့သည်',
+              'လုံးဝပျောက်ကွယ်သွားခဲ့သည်',
+              'ပေါင်မုန့်အဖြစ် ပြောင်းသွားခဲ့သည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Hnin Hnin's mother explain about algorithms?",
+            questionMy:
+                'နှင်းနှင်း၏မိခင်သည် algorithm များအကြောင်း ဘာရှင်းပြခဲ့သနည်း။',
+            optionsEn: [
+              'Steps must be followed in the correct order, or the result can change',
+              'The order of steps never matters at all',
+              'Only computers can follow algorithms',
+              'Recipes are not a type of algorithm',
+            ],
+            optionsMy: [
+              'အဆင့်များကို မှန်ကန်သောအစီအစဉ်ဖြင့် လိုက်နာရမည်၊ မဟုတ်ပါက ရလဒ်ပြောင်းသွားနိုင်သည်',
+              'အဆင့်များ၏ အစီအစဉ်သည် ဘယ်တော့မှ အရေးမကြီးပါ',
+              'ကွန်ပျူတာများသာ algorithm များကို လိုက်နာနိုင်သည်',
+              'ချက်ပြုတ်နည်းများသည် algorithm အမျိုးအစား မဟုတ်ပါ',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w9-d5',
+      dayNumber: 5,
+      titleEn: 'Week 9 Recap Quiz',
+      titleMy: 'နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is an algorithm?',
+          questionMy: 'Algorithm ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A set of step-by-step instructions to complete a task',
+            'A type of hardware',
+            'A single meaningless word',
+            'A picture with no instructions',
+          ],
+          optionsMy: [
+            'လုပ်ငန်းတစ်ခုအား ပြီးမြောက်စေရန် အဆင့်ဆင့်ညွှန်ကြားချက်များစု',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'အဓိပ္ပာယ်မရှိသော စကားလုံးတစ်ခုတည်း',
+            'ညွှန်ကြားချက်မပါသော ပုံတစ်ပုံ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is an everyday algorithm?',
+          questionMy: 'အောက်ပါတို့အနက် နေ့စဉ်ဘဝ algorithm တစ်ခုမှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A recipe',
+            'A blank page',
+            'A closed box',
+            'A silent room',
+          ],
+          optionsMy: ['ချက်ပြုတ်နည်း', 'အလွတ်စာမျက်နှာ', 'ပိတ်ထားသောဘူး', 'တိတ်ဆိတ်သောအခန်း'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why does the order of steps matter in an algorithm?',
+          questionMy: 'Algorithm တစ်ခုတွင် အဆင့်များ၏ အစီအစဉ်သည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။',
+          optionsEn: [
+            'The wrong order can produce the wrong result',
+            'It never matters',
+            'Algorithms have no order',
+            'Only software has order, not algorithms',
+          ],
+          optionsMy: [
+            'မှားသောအစီအစဉ်သည် မှားသောရလဒ်ကို ဖြစ်စေနိုင်သည်',
+            'ဘယ်တော့မှ အရေးမကြီးပါ',
+            'Algorithm များတွင် အစီအစဉ် မရှိပါ',
+            'Software တွင်သာ အစီအစဉ်ရှိပြီး algorithm တွင် မရှိပါ',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is a single step inside an algorithm called?',
+          questionMy: 'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: ['An instruction', 'A router', 'A byte', 'A folder'],
+          optionsMy: ['ညွှန်ကြားချက်', 'Router', 'Byte', 'Folder'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is the difference between an algorithm and a program?',
+          questionMy: 'Algorithm နှင့် program ကွာခြားချက်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'An algorithm is the plan; a program is that plan written in code',
+            'They are always exactly the same thing',
+            'An algorithm is a type of hardware',
+            'Only a program can exist without an algorithm',
+          ],
+          optionsMy: [
+            'Algorithm သည် အစီအစဉ်ဖြစ်ပြီး program သည် ကုဒ်ဖြင့်ရေးထားသော ထိုအစီအစဉ်ဖြစ်သည်',
+            'အမြဲတမ်း အတူတူပင်ဖြစ်သည်',
+            'Algorithm သည် hardware အမျိုးအစားတစ်ခုဖြစ်သည်',
+            'Program တစ်ခုတည်းသာ algorithm မရှိဘဲ ရှိနိုင်သည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 3, Week 10: "Flowcharts: Drawing
+// Algorithms"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
+  id: 'course-secondary1-computing-w10',
+  weekNumber: 10,
+  titleEn: 'Flowcharts: Drawing Algorithms',
+  titleMy: 'Flowchart - Algorithm များကို ပုံဆွဲခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w10-d1',
+      dayNumber: 1,
+      titleEn: 'Flowchart Symbols',
+      titleMy: 'Flowchart သင်္ကေတများ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a flowchart?',
+          questionMy: 'Flowchart ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A diagram that shows the steps of an algorithm using symbols',
+            'A type of computer hardware',
+            'A list of website addresses',
+            'A kind of storage device',
+          ],
+          optionsMy: [
+            'သင်္ကေတများသုံးပြီး algorithm တစ်ခု၏ အဆင့်များကို ပြသော ပုံကြမ်း',
+            'ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု',
+            'ဝက်ဘ်ဆိုက်လိပ်စာများစာရင်း',
+            'သိုလှောင်ရေးပစ္စည်းအမျိုးအစားတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape usually marks the start or end of a flowchart?',
+          questionMy: 'Flowchart တစ်ခု၏ အစ သို့မဟုတ် အဆုံးကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: ['An oval', 'A triangle', 'A star', 'A cube'],
+          optionsMy: ['ဘဲဥပုံ (oval)', 'တြိဂံ', 'ကြယ်ပုံ', 'ကုဗပုံ'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape usually represents a process or action?',
+          questionMy: 'လုပ်ဆောင်ချက် သို့မဟုတ် process ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: ['A rectangle', 'An oval', 'A circle', 'A star'],
+          optionsMy: ['ထောင့်မှန်စတုဂံ (rectangle)', 'ဘဲဥပုံ', 'စက်ဝိုင်း', 'ကြယ်ပုံ'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape usually represents input or output?',
+          questionMy: 'Input သို့မဟုတ် output ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: ['A parallelogram', 'A rectangle', 'An oval', 'A triangle'],
+          optionsMy: ['ပါရာလယ်လိုဂရမ် (parallelogram)', 'ထောင့်မှန်စတုဂံ', 'ဘဲဥပုံ', 'တြိဂံ'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What do the arrows in a flowchart show?',
+          questionMy: 'Flowchart ထဲရှိ မြားများသည် ဘာပြသနည်း။',
+          optionsEn: [
+            'The order/direction the steps happen in',
+            'The colour of each step',
+            'The size of the computer',
+            'The price of the software',
+          ],
+          optionsMy: [
+            'အဆင့်များ ဖြစ်ပျက်သည့် အစီအစဉ်/ဦးတည်ချက်',
+            'အဆင့်တစ်ခုစီ၏ အရောင်',
+            'ကွန်ပျူတာ၏ အရွယ်အစား',
+            'Software ၏ စျေးနှုန်း',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w10-d2',
+      dayNumber: 2,
+      titleEn: 'Match the Flowchart Symbols',
+      titleMy: 'Flowchart သင်္ကေတများကို ကိုက်ညီပါ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w10-flow-oval',
+          termEn: 'Oval',
+          termMy: 'Oval',
+          matchEn: 'Marks the start or end of a flowchart',
+          matchMy: 'Flowchart တစ်ခု၏ အစ သို့မဟုတ် အဆုံးကို ပြသည်',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w10-flow-rectangle',
+          termEn: 'Rectangle',
+          termMy: 'Rectangle',
+          matchEn: 'Shows a process or action to be carried out',
+          matchMy: 'ဆောင်ရွက်ရမည့် process သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပြသည်',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w10-flow-parallelogram',
+          termEn: 'Parallelogram',
+          termMy: 'Parallelogram',
+          matchEn: 'Shows an input or output',
+          matchMy: 'Input သို့မဟုတ် output ကို ပြသည်',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w10-flow-arrow',
+          termEn: 'Arrow',
+          termMy: 'Arrow',
+          matchEn: 'Shows the direction the steps flow in',
+          matchMy: 'အဆင့်များ စီးဆင်းသည့်ဦးတည်ချက်ကို ပြသည်',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w10-flow-diamond',
+          termEn: 'Diamond',
+          termMy: 'Diamond',
+          matchEn: 'Shows a decision that needs a yes or no answer',
+          matchMy: 'ဟုတ် သို့မဟုတ် မဟုတ် ဟု ဖြေရမည့် ဆုံးဖြတ်ချက်ကို ပြသည်',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w10-d3',
+      dayNumber: 3,
+      titleEn: 'Which Symbol?',
+      titleMy: 'ဘယ်သင်္ကေတလဲ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Start/End', 'Process', 'Input/Output'],
+        bucketsMy: [
+          'Start/End (အစ/အဆုံး)',
+          'Process (လုပ်ဆောင်ချက်)',
+          'Input/Output',
+        ],
+        items: [
+          SortingItem(
+            id: 'w10-sort-begin',
+            labelEn: 'Begin',
+            labelMy: 'Begin',
+            correctBucketEn: 'Start/End',
+            correctBucketMy: 'Start/End (အစ/အဆုံး)',
+          ),
+          SortingItem(
+            id: 'w10-sort-end',
+            labelEn: 'End',
+            labelMy: 'End',
+            correctBucketEn: 'Start/End',
+            correctBucketMy: 'Start/End (အစ/အဆုံး)',
+          ),
+          SortingItem(
+            id: 'w10-sort-add',
+            labelEn: 'Add the two numbers together',
+            labelMy: 'ဂဏန်းနှစ်လုံးကို ပေါင်းလိုက်ပါ',
+            correctBucketEn: 'Process',
+            correctBucketMy: 'Process (လုပ်ဆောင်ချက်)',
+          ),
+          SortingItem(
+            id: 'w10-sort-multiply',
+            labelEn: 'Multiply the numbers',
+            labelMy: 'ဂဏန်းများကို မြှောက်ပါ',
+            correctBucketEn: 'Process',
+            correctBucketMy: 'Process (လုပ်ဆောင်ချက်)',
+          ),
+          SortingItem(
+            id: 'w10-sort-typename',
+            labelEn: 'Type your name',
+            labelMy: 'သင့်နာမည်ကို ရိုက်ထည့်ပါ',
+            correctBucketEn: 'Input/Output',
+            correctBucketMy: 'Input/Output',
+          ),
+          SortingItem(
+            id: 'w10-sort-display',
+            labelEn: 'Display the result on screen',
+            labelMy: 'ရလဒ်ကို မျက်နှာပြင်ပေါ်တွင် ပြပါ',
+            correctBucketEn: 'Input/Output',
+            correctBucketMy: 'Input/Output',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w10-d4',
+      dayNumber: 4,
+      titleEn: 'Making a Cup of Tea',
+      titleMy: 'လက်ဖက်ရည် တစ်ခွက်ပြုလုပ်ခြင်း',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: 'Making a Cup of Tea',
+        titleMy: 'လက်ဖက်ရည် တစ်ခွက်ပြုလုပ်ခြင်း',
+        passageEn:
+            "In computing class, Aung Aung's teacher drew a flowchart for making a cup of tea. It began with an oval labelled 'Start'. Next came a rectangle: 'Boil the water'. Another rectangle followed: 'Put a tea bag in the cup'. A third rectangle said 'Pour in the hot water'. A parallelogram then displayed the message 'Tea is ready!', showing an output rather than another action. The flowchart finished with an oval labelled 'End'. Aung Aung realised that a flowchart is really just an algorithm drawn as a picture, making each step easy to follow in order.",
+        passageMy:
+            'ကွန်ပျူတာသင်တန်းတွင် အောင်အောင်၏ဆရာသည် လက်ဖက်ရည်တစ်ခွက်ပြုလုပ်ရန် flowchart တစ်ခုကို ရေးဆွဲပြခဲ့သည်။ ၎င်းသည် "Start" ဟုအမှတ်ရေးထားသော oval တစ်ခုဖြင့် စတင်ခဲ့သည်။ ထို့နောက် rectangle တစ်ခု ပါလာသည် - "ရေကို ဆူအောင်ကျိုပါ"။ နောက်ထပ် rectangle တစ်ခု ဆက်လာသည် - "လက်ဖက်ရည်အိတ်ကို ခွက်ထဲထည့်ပါ"။ တတိယ rectangle တစ်ခုက "ပူသောရေကို လောင်းထည့်ပါ" ဟုဆိုသည်။ ထို့နောက် parallelogram တစ်ခုက "လက်ဖက်ရည် အသင့်ဖြစ်ပါပြီ!" ဟူသော output စာသားကို ပြသည်။ Flowchart သည် "End" ဟုအမှတ်ရေးထားသော oval တစ်ခုဖြင့် ပြီးဆုံးသွားသည်။ Flowchart တစ်ခုသည် algorithm တစ်ခုကို ပုံအဖြစ်ရေးဆွဲထားခြင်းသာဖြစ်ပြီး၊ အဆင့်တစ်ခုစီကို အစီအစဉ်အလိုက် လိုက်နာရန် လွယ်ကူစေကြောင်း အောင်အောင် နားလည်လိုက်သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What shape did the flowchart start with?',
+            questionMy: 'Flowchart သည် ဘယ်ပုံသဏ္ဍာန်ဖြင့် စတင်ခဲ့သနည်း။',
+            optionsEn: ['An oval', 'A rectangle', 'A diamond', 'A parallelogram'],
+            optionsMy: ['Oval', 'Rectangle', 'Diamond', 'Parallelogram'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the first rectangle say?',
+            questionMy: 'ပထမ rectangle တွင် ဘာရေးထားသနည်း။',
+            optionsEn: [
+              'Boil the water',
+              'Pour in the hot water',
+              'Put a tea bag in the cup',
+              'End',
+            ],
+            optionsMy: [
+              'ရေကို ဆူအောင်ကျိုပါ',
+              'ပူသောရေကို လောင်းထည့်ပါ',
+              'လက်ဖက်ရည်အိတ်ကို ခွက်ထဲထည့်ပါ',
+              'End',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'Which shape displayed the message "Tea is ready!"?',
+            questionMy: '"လက်ဖက်ရည် အသင့်ဖြစ်ပါပြီ!" ဟူသောစာသားကို ဘယ်ပုံသဏ္ဍာန်က ပြသခဲ့သနည်း။',
+            optionsEn: ['A parallelogram', 'An oval', 'A diamond', 'A rectangle'],
+            optionsMy: ['Parallelogram', 'Oval', 'Diamond', 'Rectangle'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did Aung Aung realise a flowchart really is?',
+            questionMy: 'Flowchart တစ်ခုသည် အမှန်တကယ် ဘာဖြစ်ကြောင်း အောင်အောင် နားလည်လိုက်သနည်း။',
+            optionsEn: [
+              'An algorithm drawn as a picture',
+              'A type of hardware',
+              'A kind of storage device',
+              'A website address',
+            ],
+            optionsMy: [
+              'Algorithm တစ်ခုကို ပုံအဖြစ်ရေးဆွဲထားခြင်း',
+              'Hardware အမျိုးအစားတစ်ခု',
+              'သိုလှောင်ရေးပစ္စည်းအမျိုးအစားတစ်ခု',
+              'ဝက်ဘ်ဆိုက်လိပ်စာ',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What shape ended the flowchart?',
+            questionMy: 'Flowchart သည် ဘယ်ပုံသဏ္ဍာန်ဖြင့် ပြီးဆုံးခဲ့သနည်း။',
+            optionsEn: ['An oval', 'A rectangle', 'A parallelogram', 'A diamond'],
+            optionsMy: ['Oval', 'Rectangle', 'Parallelogram', 'Diamond'],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w10-d5',
+      dayNumber: 5,
+      titleEn: 'Week 10 Recap Quiz',
+      titleMy: 'ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What does a flowchart show?',
+          questionMy: 'Flowchart တစ်ခုက ဘာကိုပြသနည်း။',
+          optionsEn: [
+            "An algorithm's steps drawn using symbols",
+            'A list of file names',
+            'A type of hardware',
+            'A network diagram only',
+          ],
+          optionsMy: [
+            'Algorithm တစ်ခု၏ အဆင့်များကို သင်္ကေတများဖြင့် ရေးဆွဲထားခြင်း',
+            'ဖိုင်အမည်စာရင်း',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'ကွန်ရက်ပုံကြမ်းတစ်ခုတည်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape marks the start or end?',
+          questionMy: 'ဘယ်ပုံသဏ္ဍာန်က အစ သို့မဟုတ် အဆုံးကို ပြသနည်း။',
+          optionsEn: ['An oval', 'A rectangle', 'A diamond', 'A parallelogram'],
+          optionsMy: ['Oval', 'Rectangle', 'Diamond', 'Parallelogram'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape shows a process or action?',
+          questionMy: 'ဘယ်ပုံသဏ္ဍာန်က process သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပြသနည်း။',
+          optionsEn: ['A rectangle', 'An oval', 'A diamond', 'A star'],
+          optionsMy: ['Rectangle', 'Oval', 'Diamond', 'Star'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape shows input or output?',
+          questionMy: 'ဘယ်ပုံသဏ္ဍာန်က input သို့မဟုတ် output ကို ပြသနည်း။',
+          optionsEn: ['A parallelogram', 'A rectangle', 'An oval', 'A diamond'],
+          optionsMy: ['Parallelogram', 'Rectangle', 'Oval', 'Diamond'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What do arrows show in a flowchart?',
+          questionMy: 'Flowchart ထဲရှိ မြားများက ဘာကိုပြသနည်း။',
+          optionsEn: [
+            'The order the steps happen in',
+            'The price of the software',
+            'The colour of the screen',
+            'The size of the file',
+          ],
+          optionsMy: [
+            'အဆင့်များ ဖြစ်ပျက်သည့်အစီအစဉ်',
+            'Software ၏ စျေးနှုန်း',
+            'မျက်နှာပြင်၏ အရောင်',
+            'ဖိုင်၏ အရွယ်အစား',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 3, Week 11: "Selection: Making
+// Decisions"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
+  id: 'course-secondary1-computing-w11',
+  weekNumber: 11,
+  titleEn: 'Selection: Making Decisions',
+  titleMy: 'Selection - ဆုံးဖြတ်ချက်ချခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w11-d1',
+      dayNumber: 1,
+      titleEn: 'Making Decisions in an Algorithm',
+      titleMy: 'Algorithm တစ်ခုတွင် ဆုံးဖြတ်ချက်ချခြင်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is "selection" in an algorithm?',
+          questionMy: 'Algorithm တစ်ခုတွင် "selection" ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Choosing what to do next based on whether something is true or false',
+            'Always doing the same step every time',
+            'Deleting all the steps',
+            'Only producing output, with no input',
+          ],
+          optionsMy: [
+            'တစ်စုံတစ်ခု မှန်သည်၊ မှားသည်ကို လိုက်၍ နောက်ဘာလုပ်မည်ကို ရွေးချယ်ခြင်း',
+            'အချိန်တိုင်း တူညီသောအဆင့်ကိုသာ လုပ်ဆောင်ခြင်း',
+            'အဆင့်အားလုံးကို ဖျက်ပစ်ခြင်း',
+            'Input မပါဘဲ output ကိုသာ ထုတ်ပေးခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which flowchart shape represents a decision?',
+          questionMy: 'ဆုံးဖြတ်ချက်ကို ပြသသော flowchart ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: ['A diamond', 'An oval', 'A rectangle', 'A parallelogram'],
+          optionsMy: ['Diamond', 'Oval', 'Rectangle', 'Parallelogram'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: '"IF it is raining, THEN take an umbrella" is an example of...',
+          questionMy: '"မိုးရွာလျှင် ထီးယူပါ" ဆိုသည်မှာ ဘာ၏ ဥပမာဖြစ်သနည်း။',
+          optionsEn: [
+            'Selection',
+            'A single output with no condition',
+            'A type of hardware',
+            'A file extension',
+          ],
+          optionsMy: ['Selection', 'အခြေအနေမပါသော output တစ်ခုတည်း', 'Hardware အမျိုးအစားတစ်ခု', 'File extension'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'A decision in an algorithm is usually answered with...',
+          questionMy: 'Algorithm တစ်ခုရှိ ဆုံးဖြတ်ချက်ကို များသောအားဖြင့် ဘာဖြင့် ဖြေလေ့ရှိသနည်း။',
+          optionsEn: ['Yes or No (true or false)', 'A colour', 'A file name', 'A price'],
+          optionsMy: ['ဟုတ် သို့မဟုတ် မဟုတ် (true or false)', 'အရောင်', 'ဖိုင်အမည်', 'စျေးနှုန်း'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why is selection useful in algorithms?',
+          questionMy: 'Selection သည် algorithm များတွင် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။',
+          optionsEn: [
+            'It lets the algorithm react differently depending on the situation',
+            'It makes the algorithm slower for no reason',
+            'It removes the need for any steps',
+            'It only works with pictures',
+          ],
+          optionsMy: [
+            'အခြေအနေအလိုက် algorithm ကို မတူညီသောတုံ့ပြန်မှုများ ပြုလုပ်စေနိုင်သည်',
+            'အကြောင်းမဲ့ algorithm ကို နှေးစေသည်',
+            'မည်သည့်အဆင့်မှ လိုအပ်ခြင်းကို ဖယ်ရှားပေးသည်',
+            'ပုံများနှင့်သာ အလုပ်လုပ်သည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w11-d2',
+      dayNumber: 2,
+      titleEn: 'Selection Vocabulary',
+      titleMy: 'Selection ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w11-sel-selection',
+          termEn: 'Selection',
+          termMy: 'Selection',
+          matchEn: 'Choosing what to do next based on a condition',
+          matchMy: 'အခြေအနေတစ်ခုပေါ်မူတည်၍ နောက်ဘာလုပ်မည်ကို ရွေးချယ်ခြင်း',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w11-sel-condition',
+          termEn: 'Condition',
+          termMy: 'Condition',
+          matchEn: 'A yes/no question that controls what happens next',
+          matchMy: 'ဆက်လက်ဖြစ်ပျက်မည့်အရာကို ထိန်းချုပ်ပေးသော ဟုတ်/မဟုတ်မေးခွန်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w11-sel-if',
+          termEn: 'IF',
+          termMy: 'IF',
+          matchEn: 'The word used to start a decision in an algorithm',
+          matchMy: 'Algorithm တစ်ခုတွင် ဆုံးဖြတ်ချက်ကို စတင်ရန်သုံးသော စကားလုံး',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w11-sel-diamondshape',
+          termEn: 'Diamond Shape',
+          termMy: 'Diamond Shape',
+          matchEn: 'The flowchart symbol used to show a decision',
+          matchMy: 'ဆုံးဖြတ်ချက်ကို ပြသရန်သုံးသော flowchart သင်္ကေတ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w11-sel-branch',
+          termEn: 'Branch',
+          termMy: 'Branch',
+          matchEn: 'One of the possible paths after a decision (yes path or no path)',
+          matchMy: 'ဆုံးဖြတ်ချက်ပြီးနောက် ဖြစ်နိုင်သောလမ်းကြောင်းတစ်ခု (ဟုတ်လမ်း သို့မဟုတ် မဟုတ်လမ်း)',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w11-d3',
+      dayNumber: 3,
+      titleEn: 'Decision or Instruction?',
+      titleMy: 'ဆုံးဖြတ်ချက်လား၊ ညွှန်ကြားချက်လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Decision (Yes/No Question)', 'Instruction (Just an Action)'],
+        bucketsMy: [
+          'Decision (ဟုတ်/မဟုတ် မေးခွန်း)',
+          'Instruction (လုပ်ဆောင်ချက်သာ)',
+        ],
+        items: [
+          SortingItem(
+            id: 'w11-sort-israining',
+            labelEn: 'Is it raining?',
+            labelMy: 'မိုးရွာနေပါသလား။',
+            correctBucketEn: 'Decision (Yes/No Question)',
+            correctBucketMy: 'Decision (ဟုတ်/မဟုတ် မေးခွန်း)',
+          ),
+          SortingItem(
+            id: 'w11-sort-takeumbrella',
+            labelEn: 'Take an umbrella',
+            labelMy: 'ထီးယူပါ',
+            correctBucketEn: 'Instruction (Just an Action)',
+            correctBucketMy: 'Instruction (လုပ်ဆောင်ချက်သာ)',
+          ),
+          SortingItem(
+            id: 'w11-sort-iscorrect',
+            labelEn: 'Is the answer correct?',
+            labelMy: 'အဖြေမှန်ပါသလား။',
+            correctBucketEn: 'Decision (Yes/No Question)',
+            correctBucketMy: 'Decision (ဟုတ်/မဟုတ် မေးခွန်း)',
+          ),
+          SortingItem(
+            id: 'w11-sort-printresult',
+            labelEn: 'Print the result',
+            labelMy: 'ရလဒ်ကို ပရင့်ထုတ်ပါ',
+            correctBucketEn: 'Instruction (Just an Action)',
+            correctBucketMy: 'Instruction (လုပ်ဆောင်ချက်သာ)',
+          ),
+          SortingItem(
+            id: 'w11-sort-isdoorlocked',
+            labelEn: 'Is the door locked?',
+            labelMy: 'တံခါးကို သော့ခတ်ထားပါသလား။',
+            correctBucketEn: 'Decision (Yes/No Question)',
+            correctBucketMy: 'Decision (ဟုတ်/မဟုတ် မေးခွန်း)',
+          ),
+          SortingItem(
+            id: 'w11-sort-opendoor',
+            labelEn: 'Open the door',
+            labelMy: 'တံခါးဖွင့်ပါ',
+            correctBucketEn: 'Instruction (Just an Action)',
+            correctBucketMy: 'Instruction (လုပ်ဆောင်ချက်သာ)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w11-d4',
+      dayNumber: 4,
+      titleEn: "Su Su's Morning Decision",
+      titleMy: 'စုစု၏ မနက်ခင်း ဆုံးဖြတ်ချက်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Morning Decision",
+        titleMy: 'စုစု၏ မနက်ခင်း ဆုံးဖြတ်ချက်',
+        passageEn:
+            "Every morning before leaving for school, Su Su follows a simple algorithm with a decision inside it. First, she looks out of the window to check the weather -- that is the condition. IF it is raining, THEN she puts an umbrella in her bag. IF it is not raining, THEN she leaves the umbrella at home. This single decision changes what Su Su does next, even though the rest of her morning routine, brushing her teeth and eating breakfast, stays exactly the same sequence every day.",
+        passageMy:
+            'စုစုသည် ကျောင်းသွားရန် အိမ်မှမထွက်မီ နံနက်တိုင်း ဆုံးဖြတ်ချက်တစ်ခုပါဝင်သော ရိုးရှင်းသော algorithm တစ်ခုကို လိုက်နာသည်။ ဦးစွာ ရာသီဥတုကို စစ်ဆေးရန် ပြတင်းပေါက်မှ ကြည့်သည် -- ၎င်းသည် condition ဖြစ်သည်။ မိုးရွာလျှင် သူမသည် အိတ်ထဲသို့ ထီးထည့်သည်။ မိုးမရွာလျှင် သူမသည် ထီးကို အိမ်တွင်ချန်ထားသည်။ ဤဆုံးဖြတ်ချက်တစ်ခုတည်းသည် စုစု နောက်တစ်ခုလုပ်မည့်အရာကို ပြောင်းလဲသွားစေသော်လည်း၊ သွားတိုက်ခြင်းနှင့် နံနက်စာစားခြင်းကဲ့သို့ သူမ၏ ကျန်နံနက်ခင်းအစီအစဉ်မှာမူ နေ့တိုင်း တူညီသောအစီအစဉ်အတိုင်း ရှိနေဆဲဖြစ်သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What does Su Su check first every morning?',
+            questionMy: 'စုစုသည် နံနက်တိုင်း ဦးစွာ ဘာစစ်ဆေးသနည်း။',
+            optionsEn: ['The weather', 'Her homework', 'The time', 'Her phone'],
+            optionsMy: ['ရာသီဥတု', 'အိမ်စာ', 'အချိန်', 'ဖုန်း'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What is the condition in Su Su\'s algorithm?',
+            questionMy: 'စုစု၏ algorithm ရှိ condition မှာ အဘယ်နည်း။',
+            optionsEn: [
+              'Whether it is raining or not',
+              'Whether she brushed her teeth',
+              'Whether she ate breakfast',
+              'Whether she has her phone',
+            ],
+            optionsMy: [
+              'မိုးရွာသလား မရွာသလား',
+              'သွားတိုက်ပြီးလား',
+              'နံနက်စာစားပြီးလား',
+              'ဖုန်းပါလား',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What does Su Su do IF it is raining?',
+            questionMy: 'မိုးရွာလျှင် စုစုသည် ဘာလုပ်သနည်း။',
+            optionsEn: [
+              'She puts an umbrella in her bag',
+              'She stays home all day',
+              'She leaves her bag at home',
+              'She takes a different route',
+            ],
+            optionsMy: [
+              'အိတ်ထဲသို့ ထီးထည့်သည်',
+              'တစ်နေ့လုံး အိမ်တွင်နေသည်',
+              'အိတ်ကို အိမ်တွင်ချန်ထားသည်',
+              'မတူညီသောလမ်းကို သွားသည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What does Su Su do IF it is NOT raining?',
+            questionMy: 'မိုးမရွာလျှင် စုစုသည် ဘာလုပ်သနည်း။',
+            optionsEn: [
+              'She leaves the umbrella at home',
+              'She still takes the umbrella',
+              'She does not go to school',
+              'She takes two umbrellas',
+            ],
+            optionsMy: [
+              'ထီးကို အိမ်တွင်ချန်ထားသည်',
+              'ထီးကို ဆက်ယူသည်',
+              'ကျောင်းမသွားပါ',
+              'ထီးနှစ်ချောင်း ယူသည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What stays exactly the same sequence every day, regardless of the decision?',
+            questionMy: 'ဆုံးဖြတ်ချက်မည်သို့ပင်ဖြစ်စေ၊ နေ့တိုင်း တူညီသောအစီအစဉ်ဖြင့် ရှိနေဆဲဖြစ်သည့်အရာမှာ အဘယ်နည်း။',
+            optionsEn: [
+              'Brushing her teeth and eating breakfast',
+              'Whether she takes an umbrella',
+              'The weather',
+              'What time school starts',
+            ],
+            optionsMy: [
+              'သွားတိုက်ခြင်းနှင့် နံနက်စာစားခြင်း',
+              'ထီးယူသလား မယူသလား',
+              'မိုးလင်းမလင်း',
+              'ကျောင်းစတင်ချိန်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w11-d5',
+      dayNumber: 5,
+      titleEn: 'Week 11 Recap Quiz',
+      titleMy: 'ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is selection in an algorithm?',
+          questionMy: 'Algorithm တစ်ခုတွင် selection ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Choosing what to do next based on a condition',
+            'Doing the exact same step every time',
+            'Removing all steps',
+            'Only handling output',
+          ],
+          optionsMy: [
+            'အခြေအနေတစ်ခုပေါ်မူတည်၍ နောက်ဘာလုပ်မည်ကို ရွေးချယ်ခြင်း',
+            'အချိန်တိုင်း တူညီသောအဆင့်ကိုသာ လုပ်ဆောင်ခြင်း',
+            'အဆင့်အားလုံးကို ဖယ်ရှားခြင်း',
+            'Output ကိုသာ ကိုင်တွယ်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which shape represents a decision in a flowchart?',
+          questionMy: 'Flowchart တွင် ဆုံးဖြတ်ချက်ကို ပြသောပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: ['A diamond', 'An oval', 'A rectangle', 'A parallelogram'],
+          optionsMy: ['Diamond', 'Oval', 'Rectangle', 'Parallelogram'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'A condition is usually answered with...',
+          questionMy: 'Condition ကို များသောအားဖြင့် ဘာဖြင့်ဖြေလေ့ရှိသနည်း။',
+          optionsEn: ['Yes or No', 'A colour', 'A price', 'A file name'],
+          optionsMy: ['ဟုတ် သို့မဟုတ် မဟုတ်', 'အရောင်', 'စျေးနှုန်း', 'ဖိုင်အမည်'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is a decision, not an instruction?',
+          questionMy: 'အောက်ပါတို့အနက် ညွှန်ကြားချက်မဟုတ်ဘဲ ဆုံးဖြတ်ချက်ဖြစ်သည်မှာ အဘယ်နည်း။',
+          optionsEn: ['Is it raining?', 'Take an umbrella', 'Print the result', 'Open the door'],
+          optionsMy: ['မိုးရွာနေပါသလား။', 'ထီးယူပါ', 'ရလဒ်ကို ပရင့်ထုတ်ပါ', 'တံခါးဖွင့်ပါ'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why is selection useful?',
+          questionMy: 'Selection သည် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။',
+          optionsEn: [
+            'It lets an algorithm react differently depending on the situation',
+            'It always slows the algorithm down for no reason',
+            'It deletes unnecessary steps permanently',
+            'It only works with pictures, not real decisions',
+          ],
+          optionsMy: [
+            'အခြေအနေအလိုက် algorithm ကို မတူညီသောတုံ့ပြန်မှုများ ပြုလုပ်စေနိုင်သည်',
+            'အကြောင်းမဲ့ algorithm ကို အမြဲနှေးစေသည်',
+            'မလိုအပ်သောအဆင့်များကို အမြဲတမ်းဖျက်ပစ်သည်',
+            'ပုံများနှင့်သာ အလုပ်လုပ်ပြီး တကယ့်ဆုံးဖြတ်ချက်နှင့် မသက်ဆိုင်ပါ',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 3, Week 12: "Loops: Repeating Steps"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
+  id: 'course-secondary1-computing-w12',
+  weekNumber: 12,
+  titleEn: 'Loops: Repeating Steps',
+  titleMy: 'Loop - အဆင့်များကို ထပ်ခါလုပ်ခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w12-d1',
+      dayNumber: 1,
+      titleEn: 'Repeating Steps with Loops',
+      titleMy: 'Loop များဖြင့် အဆင့်များကို ထပ်ခါလုပ်ခြင်း',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a "loop" in an algorithm?',
+          questionMy: 'Algorithm တစ်ခုတွင် "loop" ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A set of steps that repeats multiple times',
+            'A step that only happens once',
+            'A type of hardware',
+            'A file extension',
+          ],
+          optionsMy: [
+            'အကြိမ်ကြိမ် ထပ်ခါလုပ်သော အဆင့်များစု',
+            'တစ်ကြိမ်တည်း ဖြစ်ပျက်သော အဆင့်',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'File extension',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why do programmers use loops?',
+          questionMy: 'Programmer များသည် loop များကို အဘယ့်ကြောင့် သုံးကြသနည်း။',
+          optionsEn: [
+            'To repeat the same steps without writing them out again and again',
+            'To make the algorithm shorter by deleting steps',
+            'To stop the algorithm from working',
+            'To turn instructions into hardware',
+          ],
+          optionsMy: [
+            'တူညီသောအဆင့်များကို ထပ်ခါထပ်ခါ ပြန်မရေးဘဲ ထပ်ခါလုပ်စေရန်',
+            'အဆင့်များဖျက်ပစ်ကာ algorithm ကို ပိုတိုစေရန်',
+            'Algorithm ကို အလုပ်မလုပ်အောင် ရပ်ရန်',
+            'ညွှန်ကြားချက်များကို hardware အဖြစ် ပြောင်းရန်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is a real-life example of a loop?',
+          questionMy: 'အောက်ပါတို့အနက် loop ၏ နေ့စဉ်ဘဝဥပမာမှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Brushing every tooth one by one',
+            'Opening a door once',
+            'Turning on a computer once',
+            'Saving one file',
+          ],
+          optionsMy: [
+            'သွားတစ်ချောင်းချင်းစီကို တစ်ခုပြီးတစ်ခု တိုက်ခြင်း',
+            'တံခါးကို တစ်ကြိမ်တည်း ဖွင့်ခြင်း',
+            'ကွန်ပျူတာကို တစ်ကြိမ်တည်း ဖွင့်ခြင်း',
+            'ဖိုင်တစ်ခုတည်း သိမ်းဆည်းခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What usually tells a loop when to stop repeating?',
+          questionMy: 'Loop တစ်ခုကို ထပ်ခါလုပ်ခြင်းရပ်ရန် များသောအားဖြင့် ဘာက ပြောပြသနည်း။',
+          optionsEn: [
+            'A condition',
+            'The colour of the screen',
+            'The size of the monitor',
+            'The price of the computer',
+          ],
+          optionsMy: [
+            'Condition တစ်ခု',
+            'မျက်နှာပြင်၏ အရောင်',
+            'မော်နီတာ၏ အရွယ်အစား',
+            'ကွန်ပျူတာ၏ စျေးနှုန်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these best describes an algorithm using sequence, selection, AND loop together?',
+          questionMy: 'Sequence, selection နှင့် loop သုံးမျိုးလုံးကို အတူသုံးထားသော algorithm ကို အကောင်းဆုံးဖော်ပြထားသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Steps in order, a decision, and steps that repeat',
+            'Only pictures with no steps',
+            'Only one instruction repeated forever with no condition',
+            'Hardware with no instructions',
+          ],
+          optionsMy: [
+            'အစီအစဉ်အတိုင်း အဆင့်များ၊ ဆုံးဖြတ်ချက်တစ်ခု၊ ပြီးလျှင် ထပ်ခါလုပ်သောအဆင့်များ',
+            'အဆင့်မပါသော ပုံများသာ',
+            'Condition မပါဘဲ ညွှန်ကြားချက်တစ်ခုတည်းကို အစဉ်ထာဝရ ထပ်ခါလုပ်ခြင်း',
+            'ညွှန်ကြားချက်မပါသော hardware',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w12-d2',
+      dayNumber: 2,
+      titleEn: 'Loop Vocabulary',
+      titleMy: 'Loop ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w12-loop-loop',
+          termEn: 'Loop',
+          termMy: 'Loop',
+          matchEn: 'A set of steps that repeats multiple times',
+          matchMy: 'အကြိမ်ကြိမ် ထပ်ခါလုပ်သော အဆင့်များစု',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w12-loop-repeat',
+          termEn: 'Repeat',
+          termMy: 'Repeat',
+          matchEn: 'To carry out the same steps again',
+          matchMy: 'တူညီသောအဆင့်များကို ထပ်မံဆောင်ရွက်ခြင်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w12-loop-condition',
+          termEn: 'Condition (loop)',
+          termMy: 'Condition (loop)',
+          matchEn: 'Tells the loop when to stop repeating',
+          matchMy: 'Loop ကို ထပ်ခါလုပ်ခြင်းရပ်ရမည့်အချိန် ပြောပြသည်',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w12-loop-sequence',
+          termEn: 'Sequence',
+          termMy: 'Sequence',
+          matchEn: 'Instructions carried out one after another, in order',
+          matchMy: 'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w12-loop-selection',
+          termEn: 'Selection',
+          termMy: 'Selection',
+          matchEn: 'Choosing what to do next based on a condition',
+          matchMy: 'အခြေအနေတစ်ခုပေါ်မူတည်၍ နောက်ဘာလုပ်မည်ကို ရွေးချယ်ခြင်း',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w12-d3',
+      dayNumber: 3,
+      titleEn: 'Needs a Loop or Just Once?',
+      titleMy: 'Loop လိုသလား၊ တစ်ကြိမ်တည်းလား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Needs a Loop (Repeated)', 'Just Once'],
+        bucketsMy: [
+          'Needs a Loop (ထပ်ခါလုပ်ရန်လို)',
+          'Just Once (တစ်ကြိမ်တည်း)',
+        ],
+        items: [
+          SortingItem(
+            id: 'w12-sort-brushteeth',
+            labelEn: 'Brushing each tooth',
+            labelMy: 'သွားတစ်ချောင်းချင်းစီကို တိုက်ခြင်း',
+            correctBucketEn: 'Needs a Loop (Repeated)',
+            correctBucketMy: 'Needs a Loop (ထပ်ခါလုပ်ရန်လို)',
+          ),
+          SortingItem(
+            id: 'w12-sort-turnoncomputer',
+            labelEn: 'Turning on the computer',
+            labelMy: 'ကွန်ပျူတာကိုဖွင့်ခြင်း',
+            correctBucketEn: 'Just Once',
+            correctBucketMy: 'Just Once (တစ်ကြိမ်တည်း)',
+          ),
+          SortingItem(
+            id: 'w12-sort-printpages',
+            labelEn: 'Printing every page of a 10-page report',
+            labelMy: 'စာမျက်နှာ ၁၀ မျက်နှာပါ အစီရင်ခံစာ၏ စာမျက်နှာတိုင်းကို ပရင့်ထုတ်ခြင်း',
+            correctBucketEn: 'Needs a Loop (Repeated)',
+            correctBucketMy: 'Needs a Loop (ထပ်ခါလုပ်ရန်လို)',
+          ),
+          SortingItem(
+            id: 'w12-sort-openbag',
+            labelEn: 'Opening your school bag in the morning',
+            labelMy: 'မနက်ခင်း ကျောင်းအိတ်ကိုဖွင့်ခြင်း',
+            correctBucketEn: 'Just Once',
+            correctBucketMy: 'Just Once (တစ်ကြိမ်တည်း)',
+          ),
+          SortingItem(
+            id: 'w12-sort-waterplants',
+            labelEn: 'Watering every plant in a row of 20 plants',
+            labelMy: 'အပင် ၂၀ တန်းစီရှိ အပင်တိုင်းကို ရေလောင်းခြင်း',
+            correctBucketEn: 'Needs a Loop (Repeated)',
+            correctBucketMy: 'Needs a Loop (ထပ်ခါလုပ်ရန်လို)',
+          ),
+          SortingItem(
+            id: 'w12-sort-lockdoor',
+            labelEn: 'Locking the front door at night',
+            labelMy: 'ညနေ အိမ်ရှေ့တံခါးကို သော့ခတ်ခြင်း',
+            correctBucketEn: 'Just Once',
+            correctBucketMy: 'Just Once (တစ်ကြိမ်တည်း)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w12-d4',
+      dayNumber: 4,
+      titleEn: "Aye Aye's Robot Helper",
+      titleMy: 'အေးအေး၏ Robot လက်ထောက်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye's Robot Helper",
+        titleMy: 'အေးအေး၏ Robot လက်ထောက်',
+        passageEn:
+            "For her end-of-term project, Aye Aye programmed a small robot to water a row of 8 plant pots. The robot's algorithm used all three building blocks she had learned this term. First came a sequence: move forward, then stop above a pot. Next came a selection: IF the soil looks dry, THEN pour water; IF not, THEN skip that pot. Finally, a loop repeated the whole sequence-and-selection process 8 times, once for each pot, until every pot had been checked.",
+        passageMy:
+            'သူမ၏ Term ကုန်ချိန် ပရောဂျက်အတွက် အေးအေးသည် အပင်အိုးတန်း ၈ လုံးကို ရေလောင်းရန် robot သေးလေးတစ်ခုကို ပရိုဂရမ်ရေးခဲ့သည်။ Robot ၏ algorithm သည် သူမ ဤ Term အတွင်း သင်ခဲ့ရသော အခြေခံအစိတ်အပိုင်းသုံးမျိုးလုံးကို သုံးထားသည်။ ပထမဦးစွာ sequence တစ်ခု ပါလာသည် - ရှေ့သို့ရွေ့ပါ၊ ပြီးမှ အိုးတစ်လုံးအပေါ်တွင် ရပ်ပါ။ ထို့နောက် selection တစ်ခု ပါလာသည် - မြေသည် ခြောက်နေပါက ရေလောင်းပါ၊ မခြောက်ပါက ထိုအိုးကို ကျော်သွားပါ။ နောက်ဆုံးတွင် loop တစ်ခုသည် sequence-and-selection လုပ်ငန်းစဉ်တစ်ခုလုံးကို အိုးတစ်လုံးစီအတွက် ၈ ကြိမ် ထပ်ခါလုပ်ပေးပြီး၊ အိုးတိုင်းကို စစ်ဆေးပြီးသည်အထိ ဆက်လုပ်ခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What did Aye Aye program the robot to do?',
+            questionMy: 'အေးအေးသည် robot ကို ဘာလုပ်ရန် ပရိုဂရမ်ရေးခဲ့သနည်း။',
+            optionsEn: [
+              'Water a row of 8 plant pots',
+              'Print a 10-page report',
+              'Send an email',
+              'Draw a flowchart',
+            ],
+            optionsMy: [
+              'အပင်အိုးတန်း ၈ လုံးကို ရေလောင်းရန်',
+              'စာမျက်နှာ ၁၀ မျက်နှာပါ အစီရင်ခံစာကို ပရင့်ထုတ်ရန်',
+              'Email ပို့ရန်',
+              'Flowchart ရေးဆွဲရန်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did the robot's sequence do first?",
+            questionMy: 'Robot ၏ sequence သည် ပထမဦးစွာ ဘာလုပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'Move forward, then stop above a pot',
+              'Pour water immediately',
+              'Turn off completely',
+              'Skip every pot',
+            ],
+            optionsMy: [
+              'ရှေ့သို့ရွှေ့ပြီး အိုးတစ်လုံးအပေါ်တွင် ရပ်ခြင်း',
+              'ချက်ချင်းရေလောင်းခြင်း',
+              'လုံးဝပိတ်ခြင်း',
+              'အိုးတိုင်းကို ကျော်ခြင်း',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What condition did the robot's selection check?",
+            questionMy: 'Robot ၏ selection သည် ဘာ condition ကို စစ်ဆေးခဲ့သနည်း။',
+            optionsEn: [
+              'Whether the soil looks dry',
+              'Whether the robot has power',
+              'Whether the sun is out',
+              'Whether it is a school day',
+            ],
+            optionsMy: [
+              'မြေ ခြောက်နေသလား',
+              'Robot တွင် ပါဝါရှိသလား',
+              'နေထွက်နေသလား',
+              'ကျောင်းရက်ဖြစ်သလား',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'How many times did the loop repeat?',
+            questionMy: 'Loop သည် မည်မျှ ထပ်ခါလုပ်ခဲ့သနည်း။',
+            optionsEn: ['8 times', '1 time', '100 times', 'It never repeated'],
+            optionsMy: ['၈ ကြိမ်', '၁ ကြိမ်', '၁၀၀ ကြိမ်', 'တစ်ခါမျှ ထပ်ခါမလုပ်ခဲ့ပါ'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which three algorithm building blocks did Aye Aye's robot use together?",
+            questionMy: 'အေးအေး၏ robot သည် algorithm အခြေခံအစိတ်အပိုင်း မည်သည့်သုံးမျိုးကို အတူသုံးခဲ့သနည်း။',
+            optionsEn: [
+              'Sequence, selection, and loop',
+              'Only hardware and software',
+              'Only input and output',
+              'Only a monitor and a keyboard',
+            ],
+            optionsMy: [
+              'Sequence, selection, နှင့် loop',
+              'Hardware နှင့် software သာ',
+              'Input နှင့် output သာ',
+              'မော်နီတာနှင့် ကီးဘုတ်သာ',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w12-d5',
+      dayNumber: 5,
+      titleEn: 'Week 12 Recap Quiz',
+      titleMy: 'ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a loop?',
+          questionMy: 'Loop ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A set of steps that repeats multiple times',
+            'A step that happens only once',
+            'A type of hardware',
+            'A file extension',
+          ],
+          optionsMy: [
+            'အကြိမ်ကြိမ် ထပ်ခါလုပ်သော အဆင့်များစု',
+            'တစ်ကြိမ်တည်း ဖြစ်ပျက်သော အဆင့်',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'File extension',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why are loops useful?',
+          questionMy: 'Loop များသည် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။',
+          optionsEn: [
+            'They let you repeat steps without writing them out again and again',
+            'They delete unnecessary steps forever',
+            'They stop an algorithm from running',
+            'They turn software into hardware',
+          ],
+          optionsMy: [
+            'အဆင့်များကို ထပ်ခါထပ်ခါ ပြန်မရေးဘဲ ထပ်ခါလုပ်စေနိုင်သည်',
+            'မလိုအပ်သောအဆင့်များကို ထာဝရဖျက်ပစ်သည်',
+            'Algorithm ကို အလုပ်မလုပ်အောင် ရပ်စေသည်',
+            'Software ကို hardware အဖြစ် ပြောင်းပေးသည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What usually stops a loop from repeating forever?',
+          questionMy: 'Loop တစ်ခုကို အစဉ်ထာဝရမထပ်ခါလုပ်အောင် များသောအားဖြင့် ဘာက ရပ်စေသနည်း။',
+          optionsEn: ['A condition', 'A colour', 'A price', 'A file name'],
+          optionsMy: ['Condition တစ်ခု', 'အရောင်', 'စျေးနှုန်း', 'ဖိုင်အမည်'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these needs a loop, rather than just happening once?',
+          questionMy: 'အောက်ပါတို့အနက် တစ်ကြိမ်တည်းမဟုတ်ဘဲ loop လိုအပ်သည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Watering every plant in a row of 20',
+            'Turning on the computer',
+            'Opening your school bag',
+            'Locking the front door at night',
+          ],
+          optionsMy: [
+            'အပင် ၂၀ တန်းစီရှိ အပင်တိုင်းကို ရေလောင်းခြင်း',
+            'ကွန်ပျူတာကိုဖွင့်ခြင်း',
+            'ကျောင်းအိတ်ဖွင့်ခြင်း',
+            'ညနေ အိမ်ရှေ့တံခါးကို သော့ခတ်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'A well-designed algorithm can combine sequence, selection, and loop. What does "sequence" mean again?',
+          questionMy: 'ကောင်းစွာဒီဇိုင်းထုတ်ထားသော algorithm သည် sequence, selection နှင့် loop ကို ပေါင်းစပ်နိုင်သည်။ "Sequence" ဆိုသည်မှာ အဘယ်သို့ဆိုလိုပါသနည်း။',
+          optionsEn: [
+            'Instructions carried out one after another, in order',
+            'A decision that needs a yes or no answer',
+            'Steps that repeat multiple times',
+            'A type of computer hardware',
+          ],
+          optionsMy: [
+            'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
+            'ဟုတ် သို့မဟုတ် မဟုတ် ဖြေရမည့် ဆုံးဖြတ်ချက်',
+            'အကြိမ်ကြိမ်ထပ်ခါလုပ်သော အဆင့်များ',
+            'ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary1ComputingTerm1 = CourseTermDef(
   id: 'course-secondary1-computing-t1',
   termNumber: 1,
@@ -3238,13 +4701,36 @@ const CourseTermDef _secondary1ComputingTerm2 = CourseTermDef(
     _secondary1ComputingWeek6,
     _secondary1ComputingWeek7,
     _secondary1ComputingWeek8,
-  ], // Term 2 complete (Weeks 5-8); Term 3 not authored yet
+  ], // Term 2 complete (Weeks 5-8)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-2 (Weeks 1-8) are
-/// populated so far -- [totalWeeks] stays 36 (the full roadmap's true
-/// size) even though [terms] only contains what's been authored, so UI
-/// code can show "Week 1 of 36" honestly rather than "Week 1 of 8".
+/// Secondary 1 Computing -- Term 3. Moves from "how computers work" and
+/// "how computers connect" (Terms 1-2) to "how to instruct a computer":
+/// Week 9 introduces algorithms as ordered step-by-step instructions;
+/// Week 10 represents that same idea visually as a flowchart; Week 11
+/// adds selection (decisions) on top of plain sequence; Week 12 closes
+/// the term -- and the full 3-term vertical slice -- by adding loops and
+/// explicitly tying sequence + selection + loop together in one example.
+const CourseTermDef _secondary1ComputingTerm3 = CourseTermDef(
+  id: 'course-secondary1-computing-t3',
+  termNumber: 3,
+  titleEn: 'Algorithms & Programming Basics',
+  titleMy: 'Algorithm နှင့် Programming အခြေခံများ',
+  certificateTitleEn: 'Algorithms & Programming Basics',
+  certificateTitleMy: 'Algorithm နှင့် Programming အခြေခံ',
+  weeks: [
+    _secondary1ComputingWeek9,
+    _secondary1ComputingWeek10,
+    _secondary1ComputingWeek11,
+    _secondary1ComputingWeek12,
+  ], // Term 3 complete (Weeks 9-12) -- all 3 terms now represented
+);
+
+/// Secondary 1 Computing's full-year pathway. All 3 terms (Weeks 1-12)
+/// are now represented -- [totalWeeks] stays 36 (the full roadmap's true
+/// size) even though each term's [weeks] list is only a 4-week vertical
+/// slice so far (a real term is closer to ~12 weeks), so UI code can show
+/// "Week 1 of 36" honestly rather than "Week 1 of 12".
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -3256,7 +4742,11 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   descriptionMy:
       'ကွန်ပျူတာ ပညာသင်နှစ်တစ်ခုလုံး သင်တန်း - ၃ ဂိမ်း၊ ၃၆ ပတ်၊ နေ့စဉ် သင်ခန်းစာများ။',
   totalWeeks: 36,
-  terms: [_secondary1ComputingTerm1, _secondary1ComputingTerm2],
+  terms: [
+    _secondary1ComputingTerm1,
+    _secondary1ComputingTerm2,
+    _secondary1ComputingTerm3,
+  ],
 );
 
 /// Every defined course pathway -- extend this list as more subjects/
