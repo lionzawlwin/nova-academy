@@ -31240,12 +31240,14 @@ const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
 /// Secondary 1 Mathematics's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway]
 /// rather than more terms grafted onto it: same grade, different subject.
-/// Term 1 ("Number Foundations", Weeks 1-4) and Term 2 ("Algebra
-/// Foundations", Weeks 5-8) are authored so far; see
-/// [_secondary1MathematicsTerm1]'s and [_secondary1MathematicsTerm2]'s own
-/// doc comments for the week-by-week spiral. [totalWeeks] stays 36 for the
-/// same "honest progress bar" reason [secondary1ComputingPathway]'s did
-/// while only a handful of weeks exist.
+/// Term 1 ("Number Foundations", Weeks 1-4), Term 2 ("Algebra
+/// Foundations", Weeks 5-8), and Term 3 ("Fractions, Decimals and
+/// Percentages", Weeks 9-12) are authored so far; see
+/// [_secondary1MathematicsTerm1]'s, [_secondary1MathematicsTerm2]'s, and
+/// [_secondary1MathematicsTerm3]'s own doc comments for the week-by-week
+/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
+/// reason [secondary1ComputingPathway]'s did while only a handful of
+/// weeks exist.
 const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   id: "course-secondary1-mathematics",
   subject: "mathematics",
@@ -31253,11 +31255,15 @@ const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations, then moving into algebra -- variables, expressions, simplifying, and solving linear equations.",
+      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations, then moving into algebra -- variables, expressions, simplifying, and solving linear equations -- and on into fractions, decimals and percentages.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပေးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်းများသို့ ဆက်လက်ရောက်ရှိသွားသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary1MathematicsTerm1, _secondary1MathematicsTerm2],
+  terms: [
+    _secondary1MathematicsTerm1,
+    _secondary1MathematicsTerm2,
+    _secondary1MathematicsTerm3,
+  ],
 );
 
 // =====================================================================
@@ -32555,5 +32561,1339 @@ const CourseTermDef _secondary1MathematicsTerm2 = CourseTermDef(
     _secondary1MathematicsWeek6,
     _secondary1MathematicsWeek7,
     _secondary1MathematicsWeek8,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 3, Week 9: "Understanding Fractions"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek9 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w9",
+  weekNumber: 9,
+  titleEn: "Understanding Fractions",
+  titleMy: "ဂဏန်းစိတ်များကို နားလည်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w9-d1",
+      dayNumber: 1,
+      titleEn: "Understanding Fractions: Parts of a Whole",
+      titleMy: "ဂဏန်းစိတ်ကို နားလည်ခြင်း - တစ်ခုလုံး၏ အစိတ်အပိုင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does the fraction 3/4 represent?",
+          questionMy: "ဂဏန်းစိတ် 3/4 သည် အဘယ်အရာကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "3 equal parts out of a whole divided into 4 equal parts",
+            "4 equal parts out of a whole divided into 3 equal parts",
+            "3 wholes divided by 4 separate wholes",
+            "The whole number 3 multiplied by the whole number 4",
+          ],
+          optionsMy: [
+            "တစ်ခုလုံးကို အညီအမျှ ၄ ပိုင်း ပိုင်းထားသည့်အနက် ၃ ပိုင်းကို ဖော်ပြသည်",
+            "တစ်ခုလုံးကို အညီအမျှ ၃ ပိုင်း ပိုင်းထားသည့်အနက် ၄ ပိုင်းကို ဖော်ပြသည်",
+            "ကိန်းပြည့် ၃ ခုကို ကိန်းပြည့် ၄ ခုနှင့် စားခြင်းကို ဖော်ပြသည်",
+            "ကိန်းပြည့် ၃ နှင့် ကိန်းပြည့် ၄ ကို မြှောက်ခြင်းကို ဖော်ပြသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the fraction 5/8, what does the denominator (8) tell us?",
+          questionMy:
+              "ဂဏန်းစိတ် 5/8 တွင် အောက်ကိန်း (8) က အဘယ်အရာကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "The whole has been divided into 8 equal parts",
+            "5 parts have been counted out of the whole",
+            "The fraction is 8 times larger than a whole",
+            "There are 8 wholes being compared to 5 parts",
+          ],
+          optionsMy: [
+            "တစ်ခုလုံးကို အညီအမျှ ၈ ပိုင်း ပိုင်းထားကြောင်း ညွှန်ပြသည်",
+            "တစ်ခုလုံးထဲမှ ၅ ပိုင်းကို ရေတွက်ထားကြောင်း ညွှန်ပြသည်",
+            "ဂဏန်းစိတ်သည် တစ်ခုလုံးထက် ၈ ဆ ကြီးမြတ်ကြောင်း ညွှန်ပြသည်",
+            "တစ်ခုလုံး ၈ ခုကို ၅ ပိုင်းနှင့် နှိုင်းယှဉ်နေကြောင်း ညွှန်ပြသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Simplify the fraction 12/18 to its lowest terms using the HCF of 12 and 18.",
+          questionMy:
+              "12 နှင့် 18 ၏ HCF ကို အသုံးပြု၍ ဂဏန်းစိတ် 12/18 ကို အနည်းဆုံးပုံစံအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["2/3", "6/9", "4/6", "1/2"],
+          optionsMy: ["2/3", "6/9", "4/6", "1/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these fractions is equivalent to 2/5?",
+          questionMy:
+              "အောက်ပါဂဏန်းစိတ်များအနက် ဂဏန်းစိတ် 2/5 နှင့် ညီမျှသော အညီဂဏန်းစိတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["4/10", "4/9", "3/5", "5/2"],
+          optionsMy: ["4/10", "4/9", "3/5", "5/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Convert the improper fraction 11/4 to a mixed number.",
+          questionMy: "အပကတိဂဏန်းစိတ် 11/4 ကို ရောစပ်ဂဏန်းအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["2 3/4", "2 1/4", "3 3/4", "1 3/4"],
+          optionsMy: ["2 3/4", "2 1/4", "3 3/4", "1 3/4"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w9-d2",
+      dayNumber: 2,
+      titleEn: "Key Fraction Terms",
+      titleMy: "ဂဏန်းစိတ်ဆိုင်ရာ အဓိကဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w9-dm-1",
+          termEn: "Numerator",
+          termMy: "အပေါ်ကိန်း (Numerator)",
+          matchEn:
+              "The top number in a fraction — it shows how many parts are being counted. In 3/4, the numerator is 3.",
+          matchMy:
+              "ဂဏန်းစိတ်တစ်ခု၏ အပေါ်ဘက်ပါ ဂဏန်းဖြစ်ပြီး ရေတွက်ထားသည့် ပိုင်းအရေအတွက်ကို ပြသည်။ 3/4 တွင် အပေါ်ကိန်းမှာ 3 ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w9-dm-2",
+          termEn: "Denominator",
+          termMy: "အောက်ကိန်း (Denominator)",
+          matchEn:
+              "The bottom number in a fraction — it shows the total number of equal parts the whole is divided into. In 3/4, the denominator is 4.",
+          matchMy:
+              "ဂဏန်းစိတ်တစ်ခု၏ အောက်ဘက်ပါ ဂဏန်းဖြစ်ပြီး တစ်ခုလုံးကို အညီအမျှ ပိုင်းထားသည့် စုစုပေါင်း ပိုင်းအရေအတွက်ကို ပြသည်။ 3/4 တွင် အောက်ကိန်းမှာ 4 ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w9-dm-3",
+          termEn: "Equivalent Fractions",
+          termMy: "အညီဂဏန်းစိတ် (Equivalent Fractions)",
+          matchEn:
+              "Fractions that have different numerators and denominators but represent the same value, such as 1/2 and 2/4.",
+          matchMy:
+              "အပေါ်ကိန်းနှင့် အောက်ကိန်း ကွဲပြားသော်လည်း တန်ဖိုးတူညီသော ဂဏန်းစိတ်များဖြစ်သည်။ ဥပမာ 1/2 နှင့် 2/4 တို့ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w9-dm-4",
+          termEn: "Simplest Form (Lowest Terms)",
+          termMy: "အနည်းဆုံးပုံစံ (Simplest Form)",
+          matchEn:
+              "A fraction is in simplest form when its numerator and denominator have no common factor other than 1, found by dividing both by their HCF, e.g., 6/8 simplifies to 3/4.",
+          matchMy:
+              "ဂဏန်းစိတ်တစ်ခု၏ အပေါ်ကိန်းနှင့် အောက်ကိန်းတို့တွင် 1 မှလွဲ၍ ဘုံပင်ကိန်း မရှိတော့သောအခါ ၎င်းကို အနည်းဆုံးပုံစံဟု ခေါ်သည်။ HCF ဖြင့် စားခြင်းအားဖြင့် ရရှိပြီး ဥပမာ 6/8 သည် 3/4 သို့ ပြောင်းသွားသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w9-dm-5",
+          termEn: "Mixed Number",
+          termMy: "ရောစပ်ဂဏန်း (Mixed Number)",
+          matchEn:
+              "A number formed by a whole number together with a proper fraction, such as 2 3/4, which comes from the improper fraction 11/4.",
+          matchMy:
+              "ကိန်းပြည့်တစ်ခုနှင့် ပကတိဂဏန်းစိတ်တစ်ခု ပေါင်းစပ်ထားသော ကိန်းဖြစ်သည်။ ဥပမာ 2 3/4 သည် အပကတိဂဏန်းစိတ် 11/4 မှ ရရှိလာသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w9-d3",
+      dayNumber: 3,
+      titleEn: "Proper vs Improper Fractions",
+      titleMy: "ပကတိနှင့် အပကတိ ဂဏန်းစိတ်များ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Proper Fraction", "Improper Fraction"],
+        bucketsMy: ["ပကတိဂဏန်းစိတ်", "အပကတိဂဏန်းစိတ်"],
+        items: [
+          SortingItem(
+            id: "s1math-w9-sort-1",
+            labelEn: "3/4",
+            labelMy: "3/4",
+            correctBucketEn: "Proper Fraction",
+            correctBucketMy: "ပကတိဂဏန်းစိတ်",
+          ),
+          SortingItem(
+            id: "s1math-w9-sort-2",
+            labelEn: "7/4",
+            labelMy: "7/4",
+            correctBucketEn: "Improper Fraction",
+            correctBucketMy: "အပကတိဂဏန်းစိတ်",
+          ),
+          SortingItem(
+            id: "s1math-w9-sort-3",
+            labelEn: "5/9",
+            labelMy: "5/9",
+            correctBucketEn: "Proper Fraction",
+            correctBucketMy: "ပကတိဂဏန်းစိတ်",
+          ),
+          SortingItem(
+            id: "s1math-w9-sort-4",
+            labelEn: "11/6",
+            labelMy: "11/6",
+            correctBucketEn: "Improper Fraction",
+            correctBucketMy: "အပကတိဂဏန်းစိတ်",
+          ),
+          SortingItem(
+            id: "s1math-w9-sort-5",
+            labelEn: "2/3",
+            labelMy: "2/3",
+            correctBucketEn: "Proper Fraction",
+            correctBucketMy: "ပကတိဂဏန်းစိတ်",
+          ),
+          SortingItem(
+            id: "s1math-w9-sort-6",
+            labelEn: "9/8",
+            labelMy: "9/8",
+            correctBucketEn: "Improper Fraction",
+            correctBucketMy: "အပကတိဂဏန်းစိတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w9-d4",
+      dayNumber: 4,
+      titleEn: "Comparing Fractions in Real Life",
+      titleMy: "ဘဝတွင် ဂဏန်းစိတ်များ နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Dividing the Thanaka Farm",
+        titleMy: "သနပ်ခါးခြံကို ခွဲဝေခြင်း",
+        passageEn:
+            "In Nyaungshwe, Aunt Khin Khin owned a long strip of farmland where she grew thanaka trees. When she grew old, she decided to divide the land among her three grandchildren—Zin, Nanda, and Htet—according to how much time each had spent helping her tend the trees over the years. She wrote the shares in her notebook as fractions of the whole farm: Zin's share was 8/12, Nanda's share was 5/6, and Htet's share was 3/4.\n\nBefore the land could be measured out, Zin's father, a retired schoolteacher, sat the three cousins down at the kitchen table. 'A fraction is easier to picture once it's in its lowest terms,' he said. He showed them how to simplify Zin's share, 8/12, using the HCF method they had learned earlier in the term: first they wrote 8 as 2×2×2 and 12 as 2×2×3, then picked out the common prime factors 2×2=4, so the HCF of 8 and 12 was 4. Dividing both the numerator and the denominator by 4 turned 8/12 into 2/3.\n\nNext the three cousins wanted to know whose share of the farm was actually the largest, so they could decide who needed the widest access road. Comparing 2/3, 5/6 and 3/4 directly was confusing because the denominators were all different, so their grandfather suggested rewriting every fraction with the same denominator before comparing. He picked 12, since 3, 6, and 4 all divide evenly into it. That turned Zin's 2/3 into 8/12, Nanda's 5/6 into 10/12, and Htet's 3/4 into 9/12. Once every share was written out of twelfths, it was easy to see that Nanda's 10/12 was the largest, Htet's 9/12 came next, and Zin's 8/12 was the smallest of the three.\n\nThe cousins realized that a fraction only tells you the true size of a share once you can compare it fairly—either by simplifying it or by putting every fraction over the same denominator.",
+        passageMy:
+            "ညောင်ရွှေမြို့တွင် အန်တီ ခင်ခင်သည် သနပ်ခါးပင်များ စိုက်ပျိုးထားသော မြေကွက်ရှည်ကြီးတစ်ခုကို ပိုင်ဆိုင်ထားပါသည်။ သူမ အသက်ကြီးလာသောအခါ မြေယာအား သူမ၏မြေးများဖြစ်ကြသော ဇင်၊ နန္ဒာနှင့် ထက်တို့ သုံးဦးအား နှစ်ပေါင်းများစွာ သနပ်ခါးပင်များကို ကူညီပြုစုခဲ့သည့် အချိန်နှင့်အညီ ခွဲဝေပေးရန် ဆုံးဖြတ်ခဲ့ပါသည်။ သူမသည် ဝေစုများကို မြေတစ်ခုလုံး၏ ဂဏန်းစိတ်များအဖြစ် သူမ၏ မှတ်စုစာအုပ်တွင် ရေးမှတ်ထားခဲ့ပြီး ဇင်၏ဝေစုမှာ 8/12၊ နန္ဒာ၏ဝေစုမှာ 5/6၊ ထက်၏ဝေစုမှာ 3/4 ဖြစ်ပါသည်။\n\nမြေကွက်ကို တိုင်းတာမခွဲဝေမီ ဇင်၏ဖခင် ဖြစ်သူ အငြိမ်းစားဆရာတစ်ဦးက မြေးသုံးဦးကို မီးဖိုချောင်စားပွဲတွင် ခေါ်ထိုင်စေခဲ့ပါသည်။ 'ဂဏန်းစိတ်တစ်ခုကို အနည်းဆုံးပုံစံဖြင့် ရေးလိုက်တာက ပုံဖော်ကြည့်ဖို့ ပိုလွယ်တယ်' ဟု သူက ပြောပါသည်။ ထို့နောက် သူသည် ဇင်၏ဝေစု 8/12 ကို ယခင်တစ်ငြိမ့်က သင်ခဲ့သည့် အများဆုံးဘုံဆေါင်းကိန်း (HCF) နည်းလမ်းကို အသုံးပြု၍ အနည်းဆုံးပုံစံသို့ ပြောင်းပြသပေးခဲ့ပါသည်။ ပထမဦးစွာ 8 ကို 2×2×2 အဖြစ်၊ 12 ကို 2×2×3 အဖြစ် ရေးပြီး၊ ဘုံပင်ကိန်းများဖြစ်သော 2×2=4 ကို ရွေးထုတ်ခဲ့ကာ 8 နှင့် 12 ၏ HCF မှာ 4 ဖြစ်ကြောင်း တွေ့ရှိခဲ့ကြသည်။ အပေါ်ကိန်းနှင့် အောက်ကိန်း နှစ်ခုလုံးကို 4 ဖြင့် စားလိုက်သောအခါ 8/12 သည် 2/3 အဖြစ် ပြောင်းသွားခဲ့ပါသည်။\n\nထို့နောက် မြေးသုံးဦးက မြေယာ၏ မည်သူ့ဝေစုက အကြီးဆုံးဖြစ်သည်ကို သိလိုကြပြီး ယင်းအချက်ဖြင့် လမ်းအကျယ်ဆုံးလိုအပ်သူကို ဆုံးဖြတ်လိုကြပါသည်။ 2/3၊ 5/6 နှင့် 3/4 တို့ကို တိုက်ရိုက်နှိုင်းယှဉ်ရာတွင် အောက်ကိန်းများ ကွဲပြားနေသဖြင့် ရှုပ်ထွေးနေသောကြောင့် အဖိုးက နှိုင်းယှဉ်မည့်ဂဏန်းစိတ်အားလုံးကို အောက်ကိန်းတူအောင် ပြန်ရေးရန် အကြံပြုခဲ့ပါသည်။ 3၊ 6 နှင့် 4 တို့သည် 12 ကို အညီစားနိုင်သောကြောင့် သူသည် 12 ကို ရွေးချယ်ခဲ့ပါသည်။ ထိုသို့ပြန်ရေးလိုက်သောအခါ ဇင်၏ 2/3 သည် 8/12၊ နန္ဒာ၏ 5/6 သည် 10/12၊ ထက်၏ 3/4 သည် 9/12 အဖြစ် ပြောင်းသွားခဲ့ပါသည်။ ဝေစုအားလုံးကို ဆယ့်နှစ်ပုံတစ်ပုံများအဖြစ် ရေးပြီးသောအခါ နန္ဒာ၏ 10/12 က အကြီးဆုံးဖြစ်ပြီး ထက်၏ 9/12 က ဒုတိယနေရာ၊ ဇင်၏ 8/12 က အငယ်ဆုံးဖြစ်ကြောင်း အလွယ်တကူ မြင်နိုင်ခဲ့ကြပါသည်။\n\nမြေးများသည် ဂဏန်းစိတ်တစ်ခုသည် ၎င်းကို အနည်းဆုံးပုံစံသို့ ပြောင်းလိုက်သည်ဖြစ်စေ၊ အောက်ကိန်းတူအောင် ရေးလိုက်သည်ဖြစ်စေ၊ ထိုနည်းဖြင့်မှသာ ဝေစု၏ အမှန်တကယ်အရွယ်အစားကို တရားမျှတစွာ နှိုင်းယှဉ်နိုင်ကြောင်း သဘောပေါက်လာခဲ့ကြပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "When Zin's share of the farm, 8/12, is simplified to lowest terms using the HCF method described in the passage, what fraction do you get?",
+            questionMy:
+                "အကြောင်းအရာတွင်ဖော်ပြထားသော HCF နည်းလမ်းကို အသုံးပြု၍ ဇင်၏မြေဝေစု 8/12 ကို အနည်းဆုံးပုံစံသို့ ပြောင်းလိုက်လျှင် မည်သည့်ဂဏန်းစိတ်ကို ရရှိမည်နည်း။",
+            optionsEn: ["2/3", "4/6", "1/2", "3/4"],
+            optionsMy: ["2/3", "4/6", "1/2", "3/4"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the grandfather rewrite all three shares with a denominator of 12 before comparing them?",
+            questionMy:
+                "အဖိုးသည် ဝေစုသုံးခုစလုံးကို နှိုင်းယှဉ်ရန် အောက်ကိန်း 12 ဖြင့် အဘယ်ကြောင့် ပြန်ရေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because fractions can only be compared fairly and directly once they share the same denominator",
+              "Because 12 was the total number of thanaka trees growing on the farm",
+              "Because a denominator of 12 automatically produces a fraction's simplest form",
+              "Because multiplying any fraction by 12 turns it into a whole number",
+            ],
+            optionsMy: [
+              "ဂဏန်းစိတ်များသည် အောက်ကိန်းတူမှသာ တရားမျှတစွာနှင့် တိုက်ရိုက် နှိုင်းယှဉ်နိုင်သောကြောင့်ဖြစ်သည်",
+              "12 သည် ခြံထဲရှိ သနပ်ခါးပင်စုစုပေါင်းအရေအတွက် ဖြစ်နေသောကြောင့်ဖြစ်သည်",
+              "အောက်ကိန်း 12 သည် ဂဏန်းစိတ်တစ်ခု၏ အနည်းဆုံးပုံစံကို အလိုအလျောက် ဖြစ်စေသောကြောင့်ဖြစ်သည်",
+              "ဂဏန်းစိတ်တစ်ခုကို 12 နှင့် မြှောက်လိုက်တိုင်း ကိန်းပြည့်တစ်ခု ဖြစ်သွားသောကြောင့်ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, whose share of the farm was the largest, and what was it once every share was rewritten as twelfths?",
+            questionMy:
+                "အကြောင်းအရာအရ ဝေစုအားလုံးကို ဆယ့်နှစ်ပုံတစ်ပုံများအဖြစ် ပြန်ရေးလိုက်သောအခါ မည်သူ၏ မြေဝေစုက အကြီးဆုံးဖြစ်ပြီး၊ မည်မျှရှိသနည်း။",
+            optionsEn: [
+              "Nanda's share, 10/12",
+              "Htet's share, 9/12",
+              "Zin's share, 8/12",
+              "Htet's share, 3/4",
+            ],
+            optionsMy: [
+              "နန္ဒာ၏ဝေစု 10/12",
+              "ထက်၏ဝေစု 9/12",
+              "ဇင်၏ဝေစု 8/12",
+              "ထက်၏ဝေစု 3/4",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w9-d5",
+      dayNumber: 5,
+      titleEn: "Simplifying and Converting Fractions",
+      titleMy:
+          "ဂဏန်းစိတ်များကို အရိုးရှင်းဆုံးဖြစ်အောင် ပြုလုပ်ခြင်းနှင့် ပြောင်းလဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using the HCF method from Term 1, simplify the fraction 16/24 to its lowest terms.",
+          questionMy:
+              "ပထမတန်း (Term 1) တွင် သင်ခဲ့သော HCF နည်းလမ်းကို အသုံးပြု၍ ဂဏန်းစိတ် 16/24 ကို အနည်းဆုံးပုံစံအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["2/3", "4/6", "8/12", "3/4"],
+          optionsMy: ["2/3", "4/6", "8/12", "3/4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Convert the improper fraction 17/5 to a mixed number.",
+          questionMy: "အပကတိဂဏန်းစိတ် 17/5 ကို ရောစပ်ဂဏန်းအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["3 2/5", "3 1/5", "2 2/5", "4 2/5"],
+          optionsMy: ["3 2/5", "3 1/5", "2 2/5", "4 2/5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Convert the mixed number 4 3/8 into an improper fraction.",
+          questionMy: "ရောစပ်ဂဏန်း 4 3/8 ကို အပကတိဂဏန်းစိတ်အဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["35/8", "32/8", "27/8", "35/4"],
+          optionsMy: ["35/8", "32/8", "27/8", "35/4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A tailor has used 45/60 of a roll of fabric. Using the HCF method, simplify 45/60 to its lowest terms.",
+          questionMy:
+              "အထည်ချုပ်ဆရာတစ်ဦးသည် အထည်လိပ်တစ်လိပ်၏ 45/60 ကို အသုံးပြုပြီးဖြစ်သည်။ HCF နည်းလမ်းကို အသုံးပြု၍ 45/60 ကို အနည်းဆုံးပုံစံအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["3/4", "9/12", "15/20", "2/3"],
+          optionsMy: ["3/4", "9/12", "15/20", "2/3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "First simplify the improper fraction 30/8 to its lowest terms using the HCF, then write the result as a mixed number. What is the final answer?",
+          questionMy:
+              "ဦးစွာ HCF ကို အသုံးပြု၍ အပကတိဂဏန်းစိတ် 30/8 ကို အနည်းဆုံးပုံစံအဖြစ် ပြောင်းလဲပြီးမှ ရလဒ်ကို ရောစပ်ဂဏန်းအဖြစ် ရေးပါ။ နောက်ဆုံးအဖြေမှာ အဘယ်နည်း။",
+          optionsEn: ["3 3/4", "15/4", "3 6/8", "3 1/4"],
+          optionsMy: ["3 3/4", "15/4", "3 6/8", "3 1/4"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 3, Week 10: "Adding, Subtracting and
+// Working with Decimals"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek10 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w10",
+  weekNumber: 10,
+  titleEn: "Adding, Subtracting and Working with Decimals",
+  titleMy: "ဒသမကိန်းများ ပေါင်းခြင်း၊ နုတ်ခြင်းနှင့် အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w10-d1",
+      dayNumber: 1,
+      titleEn: "Common Denominators and Decimal Place Value",
+      titleMy: "ဘုံခြေကိန်းနှင့် ဒသမကိန်းနေရာတန်ဖိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is 2/9 + 5/9? Since both fractions already have the same denominator, you can add the numerators directly.",
+          questionMy:
+              "2/9 + 5/9 ကို ရှာပါ။ ဂဏန်းစိတ်နှစ်ခုစလုံးတွင် ခြေကိန်းတူညီနေပြီးဖြစ်သောကြောင့် ဦးကိန်းများကို တိုက်ရိုက် ပေါင်းနိုင်ပါသည်။",
+          optionsEn: ["7/9", "7/18", "3/9", "10/9"],
+          optionsMy: ["7/9", "7/18", "3/9", "10/9"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 1/4 + 1/6? First find a common denominator for 4 and 6, then add.",
+          questionMy:
+              "1/4 + 1/6 ကို ရှာပါ။ ပထမဆုံး 4 နှင့် 6 အတွက် ဘုံခြေကိန်းတစ်ခု ရှာပြီးမှ ပေါင်းပါ။",
+          optionsEn: ["5/12", "2/10", "7/12", "1/2"],
+          optionsMy: ["5/12", "2/10", "7/12", "1/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the decimal 5.68, what value does the digit 8 represent?",
+          questionMy:
+              "ဒသမကိန်း 5.68 တွင် ဂဏန်း 8 သည် မည်သည့်တန်ဖိုးကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "8 hundredths (0.08)",
+            "8 tenths (0.8)",
+            "8 ones (8)",
+            "8 thousandths (0.008)",
+          ],
+          optionsMy: [
+            "ရာပုံတစ်ပုံနေရာ 8 (0.08)",
+            "ဆယ်ပုံတစ်ပုံနေရာ 8 (0.8)",
+            "အထည် 8 (8)",
+            "ထောင်ပုံတစ်ပုံနေရာ 8 (0.008)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Convert 3/5 to a decimal by dividing the numerator by the denominator (3 ÷ 5).",
+          questionMy:
+              "ဦးကိန်းကို ခြေကိန်းဖြင့် စား (3 ÷ 5) ခြင်းအားဖြင့် 3/5 ကို ဒသမကိန်းအဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["0.6", "0.35", "1.6", "0.53"],
+          optionsMy: ["0.6", "0.35", "1.6", "0.53"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 3.4 + 2.15? Remember to line up the decimal points before adding.",
+          questionMy:
+              "3.4 + 2.15 ကို ရှာပါ။ ပေါင်းခြင်းမပြုမီ ဒသမအမှတ်များကို တန်းညှိရမည်ကို သတိရပါ။",
+          optionsEn: ["5.55", "5.45", "5.65", "2.75"],
+          optionsMy: ["5.55", "5.45", "5.65", "2.75"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w10-d2",
+      dayNumber: 2,
+      titleEn: "Key Words: Fractions and Decimals",
+      titleMy: "အဓိကဝေါဟာရများ - ဂဏန်းစိတ်နှင့် ဒသမကိန်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w10-dm-1",
+          termEn: "Common denominator",
+          termMy: "ဘုံခြေကိန်း",
+          matchEn:
+              "A shared denominator that lets two or more fractions be added or subtracted directly, e.g. 1/6 and 5/6 already share the denominator 6",
+          matchMy:
+              "ဂဏန်းစိတ်နှစ်ခု (သို့) နှစ်ခုထက်ပို၍ တိုက်ရိုက်ပေါင်း/နုတ်နိုင်စေရန် အတူတကွမျှဝေထားသော ခြေကိန်း၊ ဥပမာ 1/6 နှင့် 5/6 တွင် ခြေကိန်း 6 ကို အတူတကွမျှဝေထားသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w10-dm-2",
+          termEn: "Lowest common denominator (LCD)",
+          termMy: "အနည်းဆုံးဘုံခြေကိန်း (LCD)",
+          matchEn:
+              "The smallest common denominator for two fractions, found using the LCM of the denominators, e.g. the LCD of 1/4 and 1/6 is 12",
+          matchMy:
+              "ခြေကိန်းများ၏ LCM ကို အသုံးပြု၍ ရှာသော ဂဏန်းစိတ်နှစ်ခုအတွက် အသေးဆုံးဘုံခြေကိန်း၊ ဥပမာ 1/4 နှင့် 1/6 ၏ LCD မှာ 12 ဖြစ်သည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w10-dm-3",
+          termEn: "Decimal place value",
+          termMy: "ဒသမကိန်းနေရာတန်ဖိုး",
+          matchEn:
+              "The value of a digit based on its position after the decimal point, e.g. in 0.47 the 4 is worth 4 tenths and the 7 is worth 7 hundredths",
+          matchMy:
+              "ဒသမအမှတ်နောက်ရှိ ဂဏန်း၏ တည်နေရာအလိုက် သတ်မှတ်သော တန်ဖိုး၊ ဥပမာ 0.47 တွင် 4 သည် ဆယ်စု 4 ခု၊ 7 သည် ရာစု 7 ခု ကိုယ်စားပြုသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w10-dm-4",
+          termEn: "Terminating decimal",
+          termMy: "အဆုံးသတ်ဒသမကိန်း",
+          matchEn:
+              "A decimal that ends after a fixed number of digits, e.g. 3/4 = 0.75",
+          matchMy:
+              "ဂဏန်းအရေအတွက် သတ်သတ်မှတ်မှတ်ဖြင့် ဆုံးသွားသော ဒသမကိန်း၊ ဥပမာ 3/4 = 0.75",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w10-dm-5",
+          termEn: "Place-value alignment",
+          termMy: "ဒသမအမှတ် တန်းညှိခြင်း",
+          matchEn:
+              "Lining up the decimal points of numbers before adding or subtracting, so digits of the same place value are combined together",
+          matchMy:
+              "ပေါင်း/နုတ်ခြင်းမပြုမီ ဂဏန်းများ၏ ဒသမအမှတ်ကို တန်းတူညှိပေးခြင်းဖြင့် တန်ဖိုးတူသော နေရာရှိ ဂဏန်းများချင်း ပေါင်း/နုတ်နိုင်စေခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w10-d3",
+      dayNumber: 3,
+      titleEn: "Same Denominator or Different Denominator?",
+      titleMy: "ခြေကိန်းတူလား မတူလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Same Denominator (add directly)",
+          "Different Denominator (find common denominator first)",
+        ],
+        bucketsMy: [
+          "ခြေကိန်းတူ (တိုက်ရိုက်ပေါင်းနိုင်သည်)",
+          "ခြေကိန်းမတူ (ဘုံခြေကိန်း အရင်ရှာရမည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w10-sort-1",
+            labelEn: "1/5 + 2/5",
+            labelMy: "1/5 + 2/5",
+            correctBucketEn: "Same Denominator (add directly)",
+            correctBucketMy: "ခြေကိန်းတူ (တိုက်ရိုက်ပေါင်းနိုင်သည်)",
+          ),
+          SortingItem(
+            id: "s1math-w10-sort-2",
+            labelEn: "1/3 + 1/4",
+            labelMy: "1/3 + 1/4",
+            correctBucketEn:
+                "Different Denominator (find common denominator first)",
+            correctBucketMy: "ခြေကိန်းမတူ (ဘုံခြေကိန်း အရင်ရှာရမည်)",
+          ),
+          SortingItem(
+            id: "s1math-w10-sort-3",
+            labelEn: "3/8 + 2/8",
+            labelMy: "3/8 + 2/8",
+            correctBucketEn: "Same Denominator (add directly)",
+            correctBucketMy: "ခြေကိန်းတူ (တိုက်ရိုက်ပေါင်းနိုင်သည်)",
+          ),
+          SortingItem(
+            id: "s1math-w10-sort-4",
+            labelEn: "2/5 + 1/10",
+            labelMy: "2/5 + 1/10",
+            correctBucketEn:
+                "Different Denominator (find common denominator first)",
+            correctBucketMy: "ခြေကိန်းမတူ (ဘုံခြေကိန်း အရင်ရှာရမည်)",
+          ),
+          SortingItem(
+            id: "s1math-w10-sort-5",
+            labelEn: "4/9 + 2/9",
+            labelMy: "4/9 + 2/9",
+            correctBucketEn: "Same Denominator (add directly)",
+            correctBucketMy: "ခြေကိန်းတူ (တိုက်ရိုက်ပေါင်းနိုင်သည်)",
+          ),
+          SortingItem(
+            id: "s1math-w10-sort-6",
+            labelEn: "1/2 + 1/6",
+            labelMy: "1/2 + 1/6",
+            correctBucketEn:
+                "Different Denominator (find common denominator first)",
+            correctBucketMy: "ခြေကိန်းမတူ (ဘုံခြေကိန်း အရင်ရှာရမည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w10-d4",
+      dayNumber: 4,
+      titleEn: "A Recipe for Fractions and Decimals",
+      titleMy: "ဟင်းလျာချက်ပြုတ်ခြင်းထဲက ဂဏန်းစိတ်နှင့် ဒသမကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Helping in the Kitchen",
+        titleMy: "မီးဖိုချောင်ထဲက အကူအညီ",
+        passageEn:
+            "On Saturday morning, Hnin Wutyee woke up early to help her mother prepare mont lin ma ya, a soft rice pancake the whole family loved. Her mother handed her a small notebook with the recipe written in fractions of a cup, and said, \"Today, you measure the flour.\"\n\nThe recipe called for 1/2 cup of rice flour, then another 1/4 cup a few minutes later to thicken the batter. Hnin Wutyee wanted to know how much flour she had used altogether, so she needed to add 1/2 and 1/4. At first she almost added the denominators together, writing 1/2 + 1/4 = 2/6, but her mother stopped her. \"Denominators tell us the size of the pieces,\" her mother explained. \"We can only add the tops once the pieces are the same size.\" Since 4 is already a multiple of 2, Hnin Wutyee rewrote 1/2 as 2/4, an equivalent fraction with the same denominator as 1/4. Now the pieces matched, and 2/4 + 1/4 gave 3/4 cup of rice flour in total.\n\nNext came the sugar. Their kitchen scale showed weights as decimals, so her mother poured sugar until the display read 0.60 kilograms, then added a little more until it read an extra 0.25 kilograms. \"Line up the decimal points, just like lining up the ones, tens and hundreds,\" her mother reminded her, sliding a finger down an imaginary column. Written one under the other, 0.60 and 0.25 lined up neatly, and adding them gave 0.85 kilograms of sugar.\n\nLater, comparing two open packets of sugar, Hnin Wutyee noticed one label read 0.5 kilograms and the other read 0.45 kilograms. \"0.45 has more digits, so it must be bigger,\" she guessed. Her mother smiled and wrote 0.50 next to 0.45. \"Look at the tenths place first,\" she said. \"5 tenths is more than 4 tenths, no matter how many digits follow.\" Hnin Wutyee realized that extra digits after the decimal point do not automatically make a number bigger — what matters is comparing digit by digit, starting from the place with the greatest value.",
+        passageMy:
+            "စနေနေ့မနက်တွင် နှင်းဥသီးသည် အမေနှင့်အတူ မုန့်လင်မယား ဖုတ်ရန် စောစော နိုးထပြီး ကူညီခဲ့သည်။ ၎င်းသည် မိသားစုတစ်ခုလုံး နှစ်သက်သော ပျော့ပျောင်းသော ဆန်မှုန့်ပြားလေးဖြစ်သည်။ အမေက ဂဏန်းစိတ်များနှင့် ရေးထားသော ချက်ပြုတ်နည်းစာအုပ်လေးကို လက်ဆင့်ကမ်းပေးပြီး \"ဒီနေ့တော့ မုန့်ညက်ကို မလေးမင်းတိုင်းပေးလေ\" ဟု ပြောလိုက်သည်။\n\nချက်ပြုတ်နည်းတွင် ဆန်မှုန့် 1/2 ခွက် ထည့်ရမည်ဖြစ်ပြီး၊ အနည်းငယ်ကြာသောအခါ မုန့်စေး ပိုထူသွားစေရန် နောက်ထပ် 1/4 ခွက် ထပ်ထည့်ရမည်ဖြစ်သည်။ နှင်းဥသီးသည် စုစုပေါင်း မုန့်ညက်ဘယ်လောက်သုံးမိသနည်းဆိုတာ သိချင်သဖြင့် 1/2 နှင့် 1/4 ကို ပေါင်းရန် လိုအပ်သည်။ ပထမတွင် ခြေကိန်းများကို တိုက်ရိုက်ပေါင်းပြီး 1/2 + 1/4 = 2/6 ဟု ရေးမိတော့မည့်အနေအထား၊ အမေက ရပ်တန့်ပေးလိုက်သည်။ \"ခြေကိန်းက အပိုင်းအစတစ်ခုချင်းစီရဲ့ အရွယ်အစားကို ပြောပြနေတာ\" ဟု အမေရှင်းပြသည်။ \"အပိုင်းအစတွေရဲ့ အရွယ်အစား တူမှသာ ဦးကိန်းတွေကို ပေါင်းလို့ရမယ်\"။ 4 သည် 2 ၏ ပွားကိန်းဖြစ်နေပြီးသားဖြစ်သောကြောင့်၊ နှင်းဥသီးသည် 1/2 ကို 1/4 နှင့် ခြေကိန်းတူညီသော အညီဂဏန်းစိတ်ဖြစ်သည့် 2/4 အဖြစ် ပြန်ရေးလိုက်သည်။ ယခုတော့ အပိုင်းအစများ အရွယ်အစားတူညီသွားပြီဖြစ်၍ 2/4 + 1/4 ကို ပေါင်းလိုက်သောအခါ စုစုပေါင်း ဆန်မှုန့် 3/4 ခွက် ရရှိသည်။\n\nနောက်ဆက်တွဲအနေဖြင့် သကြားလှော်ရန် ရှိသည်။ သူတို့မီးဖိုချောင်ရှိ အလေးချိန်ခွင်သည် အလေးချိန်ကို ဒသမကိန်းအဖြစ် ပြသသောကြောင့် အမေသည် သကြားကို ခွင်ပေါ်တွင် 0.60 ကီလိုဂရမ် ပြသည်အထိ လောင်းထည့်ပြီး ထို့နောက် နောက်ထပ် 0.25 ကီလိုဂရမ် တိုးလောင်းလိုက်သည်။ \"ကိန်းတစ်လုံးချင်း၊ ဆယ်ဂဏန်း၊ ရာဂဏန်းတွေကို တန်းညှိသလိုပဲ ဒသမအမှတ်တွေကိုလည်း တန်းညှိရမယ်\" ဟု အမေက စိတ်ကူးထဲက ကော်လံတစ်ခုအောက် လက်ညှိုးဖြင့် ရွေ့ပြသည်။ 0.60 နှင့် 0.25 ကို တစ်ခုအောက်တစ်ခု တန်းညှိရေးလိုက်သောအခါ ညီညီညာညာ ကျပြီး၊ ပေါင်းလိုက်သောအခါ သကြား 0.85 ကီလိုဂရမ် ရရှိသည်။\n\nနောက်ပိုင်းတွင် ဖွင့်ထားပြီးသား သကြားထုပ်နှစ်ထုပ်ကို နှိုင်းယှဉ်ကြည့်ရာ တစ်ထုပ်တွင် 0.5 ကီလိုဂရမ်ဟူ၍လည်းကောင်း၊ အခြားတစ်ထုပ်တွင် 0.45 ကီလိုဂရမ်ဟူ၍လည်းကောင်း ဆိုင်းဘုတ်ကပ်ထားသည်ကို နှင်းဥသီး တွေ့လိုက်သည်။ \"0.45 မှာ ဂဏန်းပိုများတယ်၊ ဒါကြောင့် ပိုကြီးမှာပဲ\" ဟု ခန့်မှန်းလိုက်သည်။ အမေက ပြုံးလျက် 0.50 ကို 0.45 ဘေးတွင် ရေးပြသည်။ \"ဆယ်ပုံတစ်ပုံနေရာ (ပထမနေရာ) ကိုပဲ အရင်ကြည့်ပါ\" ဟု ပြောသည်။ \"နောက်ကို ဂဏန်းဘယ်လောက်ပဲ ဆက်ပါစေ ဆယ်စု 5 က ဆယ်စု 4 ထက် ပိုများနေတာပဲ\"။ နှင်းဥသီးသည် ဒသမအမှတ်နောက်က ဂဏန်းပိုများနေတိုင်း ကိန်းတန်ဖိုး အလိုအလျောက် ပိုကြီးလာသည်မဟုတ်ကြောင်း၊ အရေးကြီးသည်မှာ တန်ဖိုးအမြင့်ဆုံးနေရာမှစတင်၍ ဂဏန်းချင်း တစ်လုံးချင်း နှိုင်းယှဉ်ရန်ဖြစ်ကြောင်း သဘောပေါက်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How much rice flour did Hnin Wutyee use in total, after adding 1/2 cup and then 1/4 cup?",
+            questionMy:
+                "နှင်းဥသီးသည် 1/2 ခွက်နှင့် 1/4 ခွက် ထည့်ပြီးနောက် စုစုပေါင်း ဆန်မှုန့် ဘယ်လောက် သုံးခဲ့သနည်း။",
+            optionsEn: ["3/4 cup", "2/6 cup", "1/6 cup", "1/2 cup"],
+            optionsMy: ["3/4 ခွက်", "2/6 ခွက်", "1/6 ခွက်", "1/2 ခွက်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the total weight of sugar after her mother added the extra 0.25 kilograms to the 0.60 kilograms already on the scale?",
+            questionMy:
+                "အမေသည် ခွင်ပေါ်ရှိ 0.60 ကီလိုဂရမ်ပေါ်သို့ နောက်ထပ် 0.25 ကီလိုဂရမ် တိုးထည့်ပြီးနောက် သကြား စုစုပေါင်း အလေးချိန် ဘယ်လောက်ရှိသနည်း။",
+            optionsEn: [
+              "0.85 kilograms",
+              "0.65 kilograms",
+              "0.79 kilograms",
+              "0.90 kilograms",
+            ],
+            optionsMy: [
+              "0.85 ကီလိုဂရမ်",
+              "0.65 ကီလိုဂရမ်",
+              "0.79 ကီလိုဂရမ်",
+              "0.90 ကီလိုဂရမ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Hnin Wutyee's mother, why is 0.50 kilograms greater than 0.45 kilograms, even though 45 looks like a bigger number than 5?",
+            questionMy:
+                "နှင်းဥသီးရဲ့ အမေပြောတဲ့အတိုင်း 45 က 5 ထက် ဂဏန်းကြီးပုံပေါ်နေပေမယ့် 0.50 ကီလိုဂရမ်သည် 0.45 ကီလိုဂရမ်ထက် အဘယ်ကြောင့် ပိုများသနည်း။",
+            optionsEn: [
+              "Because you compare digit by digit starting from the place with the greatest value (the tenths place), where 5 tenths is more than 4 tenths",
+              "Because a decimal with fewer digits after the point is always the smaller number",
+              "Because 45 is an odd number and 5 is not",
+              "Because you should compare the last digit of each decimal first",
+            ],
+            optionsMy: [
+              "ဒသမကိန်းနှစ်လုံးကို တန်ဖိုးအမြင့်ဆုံးနေရာ (ဆယ်ပုံတစ်ပုံနေရာ) မှစတင်၍ ဂဏန်းချင်းတစ်လုံးချင်း နှိုင်းယှဉ်ရသောကြောင့်၊ ဆယ်စု 5 သည် ဆယ်စု 4 ထက် ပိုများသည့်အတွက်ဖြစ်သည်",
+              "ဒသမအမှတ်နောက်တွင် ဂဏန်းနည်းသော ဒသမကိန်းသည် အမြဲတမ်း ပိုသေးငယ်သောကြောင့်ဖြစ်သည်",
+              "45 သည် စုံကိန်းမဟုတ်၍ 5 ကမူ စုံကိန်းဖြစ်နေသောကြောင့်ဖြစ်သည်",
+              "ဒသမကိန်းတစ်ခုစီ၏ နောက်ဆုံးဂဏန်းကို အရင်နှိုင်းယှဉ်သင့်သောကြောင့်ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w10-d5",
+      dayNumber: 5,
+      titleEn: "LCM, Fractions and Decimals Together",
+      titleMy: "LCM၊ ဂဏန်းစိတ်နှင့် ဒသမကိန်း အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Zaw adds 1/5 + 3/10 by first finding the LCM of 5 and 10 (Term 1 Week 2's skill). What is the answer written as a decimal?",
+          questionMy:
+              "ဇော်သည် 5 နှင့် 10 ၏ LCM ကို Term 1, 2ပတ်မြောက်က ကျွမ်းကျင်မှုအတိုင်း ဦးစွာရှာပြီးမှ 1/5 + 3/10 ကို ပေါင်းသည်။ အဖြေကို ဒသမကိန်းအဖြစ် ရေးပါက မည်သို့ဖြစ်မည်နည်း။",
+          optionsEn: ["0.5", "0.4", "0.13", "0.8"],
+          optionsMy: ["0.5", "0.4", "0.13", "0.8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using the LCM of 4 and 20 to find a common denominator, calculate 1/4 + 1/20 and write the answer as a decimal.",
+          questionMy:
+              "4 နှင့် 20 ၏ LCM ကို အသုံးပြု၍ ဘုံခြေကိန်း ရှာပြီးလျှင် 1/4 + 1/20 ကို တွက်ပါ။ အဖြေကို ဒသမကိန်းအဖြစ် ရေးပါ။",
+          optionsEn: ["0.3", "0.25", "0.6", "0.05"],
+          optionsMy: ["0.3", "0.25", "0.6", "0.05"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find 1/8 + 1/40 by using the LCM of 8 and 40 (the method from Term 1 Week 2), then give the answer as a decimal.",
+          questionMy:
+              "Term 1, 2ပတ်မြောက်ကနည်းလမ်းအတိုင်း 8 နှင့် 40 ၏ LCM ကိုသုံး၍ 1/8 + 1/40 ကို ရှာပြီး အဖြေကို ဒသမကိန်းအဖြစ် ပေးပါ။",
+          optionsEn: ["0.15", "0.6", "0.06", "1.5"],
+          optionsMy: ["0.15", "0.6", "0.06", "1.5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 2/5 + 1/4, written as a decimal, after finding a common denominator using the LCM of 5 and 4?",
+          questionMy:
+              "5 နှင့် 4 ၏ LCM ကိုသုံး၍ ဘုံခြေကိန်း ရှာပြီးနောက် 2/5 + 1/4 ကို ဒသမကိန်းအဖြစ် ရေးပါက မည်သို့ဖြစ်မည်နည်း။",
+          optionsEn: ["0.65", "0.75", "0.13", "0.45"],
+          optionsMy: ["0.65", "0.75", "0.13", "0.45"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nilar's family shared a watermelon. Nilar ate 1/2 of it and her brother ate 1/8 of it. Using the LCM of 2 and 8 to add the fractions, what fraction of the watermelon did they eat together, written as a decimal?",
+          questionMy:
+              "နီလာတို့မိသားစုသည် ဖရဲသီးတစ်လုံးကို ခွဲစားခဲ့ကြသည်။ နီလာက 1/2 စားပြီး ညီကမူ 1/8 စားခဲ့သည်။ 2 နှင့် 8 ၏ LCM ကိုသုံး၍ ဂဏန်းစိတ်များကို ပေါင်းလိုက်သောအခါ သူတို့ နှစ်ယောက်စလုံး အတူတကွ စားသုံးခဲ့သော ဖရဲသီးအချိုးကို ဒသမကိန်းအဖြစ် ရေးပါက မည်သို့ဖြစ်မည်နည်း။",
+          optionsEn: ["0.625", "0.58", "0.85", "0.125"],
+          optionsMy: ["0.625", "0.58", "0.85", "0.125"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 3, Week 11: "Percentages"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek11 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w11",
+  weekNumber: 11,
+  titleEn: "Percentages",
+  titleMy: "ရာခိုင်နှုန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w11-d1",
+      dayNumber: 1,
+      titleEn: "Percentages: Meaning and Conversions",
+      titleMy: "ရာခိုင်နှုန်း — အဓိပ္ပာယ်နှင့် ပြောင်းလဲခြင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does the word 'percent' mean mathematically?",
+          questionMy:
+              "'ရာခိုင်နှုန်း' ဆိုသောစကားလုံး၏ သင်္ချာအဓိပ္ပာယ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Out of ten",
+            "Out of a thousand",
+            "Out of a hundred",
+            "Out of one",
+          ],
+          optionsMy: [
+            "ဆယ်ပုံတစ်ပုံ",
+            "ထောင်ပုံတစ်ပုံ",
+            "ရာပုံတစ်ပုံ",
+            "တစ်ပုံလုံး",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is 3/4 written as a percentage?",
+          questionMy: "3/4 ကို ရာခိုင်နှုန်းအဖြစ် ရေးပါက မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: ["34%", "43%", "75%", "25%"],
+          optionsMy: ["34%", "43%", "75%", "25%"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is 0.6 written as a percentage?",
+          questionMy: "0.6 ကို ရာခိုင်နှုန်းအဖြစ် ရေးပါက မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: ["0.6%", "6%", "60%", "600%"],
+          optionsMy: ["0.6%", "6%", "60%", "600%"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is 40% written as a fraction in its simplest form?",
+          questionMy:
+              "40% ကို အရိုးရှင်းဆုံးပုံစံ ဂဏန်းစိတ်အဖြစ် ရေးပါက မည်သို့ဖြစ်မည်နည်း။",
+          optionsEn: ["2/5", "4/10", "1/4", "4/5"],
+          optionsMy: ["2/5", "4/10", "1/4", "4/5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is 25% of 80?",
+          questionMy: "80 ၏ 25% သည် မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: ["15", "20", "25", "32"],
+          optionsMy: ["15", "20", "25", "32"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w11-d2",
+      dayNumber: 2,
+      titleEn: "Percent Vocabulary and Quick Conversions",
+      titleMy: "ရာခိုင်နှုန်းဆိုင်ရာ ဝေါဟာရနှင့် အမြန်ပြောင်းလဲမှုများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w11-dm-1",
+          termEn: "Percentage",
+          termMy: "ရာခိုင်နှုန်း (Percentage)",
+          matchEn:
+              "A number expressed as a fraction of 100, written with the % sign",
+          matchMy:
+              "၁၀၀ ပုံပေါင်းအနက် အစိတ်အပိုင်းအဖြစ် ဖော်ပြပြီး % သင်္ကေတဖြင့် ရေးသားသည့် ကိန်းဂဏန်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w11-dm-2",
+          termEn: "1/2 as a percentage",
+          termMy: "1/2 ကို ရာခိုင်နှုန်းအဖြစ် ပြောင်းလိုက်လျှင်",
+          matchEn: "50%",
+          matchMy: "50%",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w11-dm-3",
+          termEn: "Percentage increase",
+          termMy: "ရာခိုင်နှုန်းတိုးခြင်း (Percentage Increase)",
+          matchEn:
+              "When a quantity becomes larger than its original value, measured as a percentage of the original",
+          matchMy:
+              "ပမာဏတစ်ခုသည် မူလတန်ဖိုးထက် ပိုများလာသည့်အခါ မူလတန်ဖိုး၏ ရာခိုင်နှုန်းဖြင့် တိုင်းတာခြင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w11-dm-4",
+          termEn: "Percentage decrease",
+          termMy: "ရာခိုင်နှုန်းလျော့ခြင်း (Percentage Decrease)",
+          matchEn:
+              "When a quantity becomes smaller than its original value, measured as a percentage of the original",
+          matchMy:
+              "ပမာဏတစ်ခုသည် မူလတန်ဖိုးထက် လျော့နည်းသွားသည့်အခါ မူလတန်ဖိုး၏ ရာခိုင်နှုန်းဖြင့် တိုင်းတာခြင်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w11-dm-5",
+          termEn: "25% of 80",
+          termMy: "80 ၏ 25%",
+          matchEn: "20 (since 80 ÷ 4 = 20, or 0.25 × 80 = 20)",
+          matchMy: "20 (80 ÷ 4 = 20 သို့မဟုတ် 0.25 × 80 = 20 ဖြစ်သောကြောင့်)",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sorting Price and Quantity Changes",
+      titleMy: "ဈေးနှုန်းနှင့် ပမာဏ အပြောင်းအလဲများ ခွဲခြားခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Percentage Increase", "Percentage Decrease"],
+        bucketsMy: ["ရာခိုင်နှုန်းတိုးခြင်း", "ရာခိုင်နှုန်းလျော့ခြင်း"],
+        items: [
+          SortingItem(
+            id: "s1math-w11-sort-1",
+            labelEn: "A shirt's price rises from 5,000 to 6,000 kyats",
+            labelMy:
+                "အင်္ကျီတစ်ထည်၏ ဈေးနှုန်းသည် 5,000 ကျပ်မှ 6,000 ကျပ်သို့ တက်လာသည်",
+            correctBucketEn: "Percentage Increase",
+            correctBucketMy: "ရာခိုင်နှုန်းတိုးခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w11-sort-2",
+            labelEn: "A phone's price drops from 200,000 to 170,000 kyats",
+            labelMy:
+                "ဖုန်းတစ်လုံး၏ ဈေးနှုန်းသည် 200,000 ကျပ်မှ 170,000 ကျပ်သို့ ကျဆင်းသွားသည်",
+            correctBucketEn: "Percentage Decrease",
+            correctBucketMy: "ရာခိုင်နှုန်းလျော့ခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w11-sort-3",
+            labelEn: "A student's test score improves from 60 to 75 marks",
+            labelMy:
+                "ကျောင်းသားတစ်ဦး၏ စာမေးပွဲရမှတ်သည် 60 မှတ်မှ 75 မှတ်သို့ တိုးတက်လာသည်",
+            correctBucketEn: "Percentage Increase",
+            correctBucketMy: "ရာခိုင်နှုန်းတိုးခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w11-sort-4",
+            labelEn: "A shop reduces a bag's price from 15,000 to 12,000 kyats",
+            labelMy:
+                "ဆိုင်တစ်ဆိုင်က လွယ်အိတ်တစ်လုံး၏ ဈေးနှုန်းကို 15,000 ကျပ်မှ 12,000 ကျပ်သို့ လျှော့ချသည်",
+            correctBucketEn: "Percentage Decrease",
+            correctBucketMy: "ရာခိုင်နှုန်းလျော့ခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w11-sort-5",
+            labelEn: "The number of students in a class grows from 30 to 33",
+            labelMy:
+                "အတန်းတစ်ခန်းရှိ ကျောင်းသားဦးရေသည် 30 ဦးမှ 33 ဦးသို့ တိုးလာသည်",
+            correctBucketEn: "Percentage Increase",
+            correctBucketMy: "ရာခိုင်နှုန်းတိုးခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w11-sort-6",
+            labelEn:
+                "A company's monthly sales fall from 10 million to 8 million kyats",
+            labelMy:
+                "ကုမ္ပဏီတစ်ခု၏ လစဉ်အရောင်းပမာဏသည် ကျပ်သန်း 10 မှ ကျပ်သန်း 8 သို့ ကျဆင်းသွားသည်",
+            correctBucketEn: "Percentage Decrease",
+            correctBucketMy: "ရာခိုင်နှုန်းလျော့ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Price Rises, Two Different Percentages",
+      titleMy:
+          "ဖတ်ရှုခြင်း — ဈေးနှုန်းနှစ်ကြိမ်တက်ခြင်း၊ ရာခိုင်နှုန်းမတူညီခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Price Rises, Two Different Percentages",
+        titleMy: "ဈေးနှုန်းနှစ်ကြိမ်တက်ခြင်း၊ ရာခိုင်နှုန်းမတူညီခြင်း",
+        passageEn:
+            "Mya Mya sells vegetables and rice at a small stall near Bogyoke Aung San Market in Yangon. One morning, she noticed that the wholesale price of onions had gone up. Last month, one viss of onions cost 2,500 kyats. This month, the same amount costs 3,000 kyats — an increase of 500 kyats.\n\nAt the same time, the price of a bag of rice also went up by exactly 500 kyats, from 50,000 kyats to 50,500 kyats.\n\nMya Mya's daughter, Su Su, who was helping at the stall during her school holiday, said, 'Both prices increased by the same amount, 500 kyats, so they must have increased by the same percentage!' Mya Mya smiled and asked her to check the numbers carefully before deciding.\n\nSu Su worked out the percentage increase for the onions first. She divided the increase by the original price: 500 ÷ 2,500 = 0.2, and 0.2 as a percentage is 20%. So the onion price had risen by 20%.\n\nThen she calculated the rice. She divided the increase by the original price: 500 ÷ 50,000 = 0.01, and 0.01 as a percentage is only 1%. The rice price had risen by just 1%.\n\nSu Su was surprised. 'The kyat amount was exactly the same, but the percentage increase is completely different!' she said.\n\nMya Mya explained that percentage increase always compares the change to the original amount, not just to the raw number of kyats. Because the original price of onions was much smaller than the original price of rice, the same 500-kyat rise represented a much bigger share of the onion price. This is why shoppers should always ask 'a percentage of what?' before comparing price changes — the original amount, or base, matters just as much as the change itself.",
+        passageMy:
+            "မြမြသည် ရန်ကုန်မြို့ ဗိုလ်ချုပ်အောင်ဆန်းစျေးအနီးရှိ ဟင်းသီးဟင်းရွက်နှင့် ဆန်ရောင်းသည့် ဆိုင်ငယ်တစ်ဆိုင်ကို ဖွင့်ထားသည်။ တစ်နေ့မနက်တွင် ကြက်သွန်နီစျေးနှုန်း တက်လာသည်ကို သူမ သတိထားမိသည်။ လွန်ခဲ့သောလက ကြက်သွန်နီတစ်ပိဿာသည် 2,500 ကျပ် ရှိခဲ့ရာမှ ယခုလတွင် ပမာဏတူ ကြက်သွန်နီသည် 3,000 ကျပ်ဖြစ်လာသည် — 500 ကျပ် တိုးလာသည်။\n\nထို့နောက် ဆန်အိတ်တစ်အိတ်၏ ဈေးနှုန်းသည်လည်း ကျပ် 500 အတိအကျ တိုးလာသည်ကို တွေ့ရသည်။ 50,000 ကျပ်မှ 50,500 ကျပ်သို့ တက်လာခဲ့သည်။\n\nကျောင်းပိတ်ရက်တွင် ဆိုင်တွင်လာကူသော မြမြ၏သမီး စုစုက 'ဈေးနှုန်းနှစ်ခုစလုံး 500 ကျပ်တူညီစွာ တိုးလာတယ်ဆိုတော့ ရာခိုင်နှုန်းလည်း အတူတူပဲ တိုးမှာပေါ့!' ဟု ပြောလိုက်သည်။ မြမြက ပြုံးလျက် ဂဏန်းများကို သေချာစီစစ်ကြည့်ရန် ပြောလိုက်သည်။\n\nစုစုသည် ကြက်သွန်နီ၏ ရာခိုင်နှုန်းတိုးမှုကို အရင်တွက်ကြည့်သည်။ တိုးလာသောပမာဏကို မူလဈေးနှုန်းဖြင့် စားလိုက်သည် — 500 ÷ 2,500 = 0.2 ဖြစ်ပြီး 0.2 ကို ရာခိုင်နှုန်းဖြင့်ပြောင်းလျှင် 20% ဖြစ်သည်။ ထို့ကြောင့် ကြက်သွန်နီဈေးနှုန်းသည် 20% တိုးလာခြင်းဖြစ်သည်။\n\nထို့နောက် ဆန်၏ ရာခိုင်နှုန်းကို တွက်ကြည့်သည်။ 500 ÷ 50,000 = 0.01 ဖြစ်ပြီး 0.01 ကို ရာခိုင်နှုန်းဖြင့်ပြောင်းလျှင် 1% သာ ဖြစ်သည်။ ဆန်ဈေးနှုန်းမှာ 1% သာ တိုးလာခြင်းဖြစ်သည်။\n\nစုစု အံ့သြသွားသည်။ 'ကျပ်ပမာဏက အတိအကျတူပေမယ့် ရာခိုင်နှုန်းတိုးမှုက လုံးဝကွာခြားနေတယ်!' ဟု ပြောလိုက်သည်။\n\nမြမြက ရှင်းပြသည်မှာ ရာခိုင်နှုန်းတိုးခြင်းသည် ပြောင်းလဲမှုကို ကျပ်ပမာဏသက်သက်နှင့် မတိုင်းတာဘဲ မူလတန်ဖိုးနှင့် အမြဲနှိုင်းယှဉ်တိုင်းတာသည်ဟူ၍ ဖြစ်သည်။ ကြက်သွန်နီ၏ မူလဈေးနှုန်းသည် ဆန်၏ မူလဈေးနှုန်းထက် သိသိသာသာနည်းပါးသောကြောင့် ကျပ် 500 တိုးလာမှုတစ်ခုတည်းသည် ကြက်သွန်နီဈေးနှုန်း၏ အစိတ်အပိုင်းကြီးတစ်ခုကို ကိုယ်စားပြုနေခြင်းဖြစ်သည်။ ထို့ကြောင့် ဈေးနှုန်းပြောင်းလဲမှုများကို နှိုင်းယှဉ်ရာတွင် 'ဘာ၏ ရာခိုင်နှုန်းလဲ' ဟု အမြဲမေးသင့်သည် — ပြောင်းလဲမှုကိုယ်တိုင်ကဲ့သို့ပင် မူလပမာဏ (base) ကလည်း အရေးပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "By what percentage did the price of onions increase?",
+            questionMy:
+                "ကြက်သွန်နီဈေးနှုန်းသည် မည်မျှ ရာခိုင်နှုန်း တိုးလာခဲ့သနည်း။",
+            optionsEn: ["1%", "5%", "20%", "50%"],
+            optionsMy: ["1%", "5%", "20%", "50%"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn: "By what percentage did the price of rice increase?",
+            questionMy: "ဆန်ဈေးနှုန်းသည် မည်မျှ ရာခိုင်နှုန်း တိုးလာခဲ့သနည်း။",
+            optionsEn: ["1%", "10%", "20%", "50%"],
+            optionsMy: ["1%", "10%", "20%", "50%"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did the same 500-kyat increase produce two very different percentages?",
+            questionMy:
+                "အကြောင်းအရာအရ ကျပ် 500 တိုးလာမှု တူညီသော်လည်း ရာခိုင်နှုန်းနှစ်ခု အလွန်ကွာခြားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Because rice is more expensive to grow than onions",
+              "Because percentage increase compares the change to the original price, and the original prices were very different",
+              "Because Su Su made a calculation mistake",
+              "Because onions are sold by weight and rice is sold by bag",
+            ],
+            optionsMy: [
+              "ဆန်စိုက်ပျိုးရသည် ကြက်သွန်နီထက် ကုန်ကျစရိတ်ပိုများသောကြောင့်",
+              "ရာခိုင်နှုန်းတိုးမှုသည် ပြောင်းလဲမှုကို မူလဈေးနှုန်းနှင့် နှိုင်းယှဉ်သောကြောင့်ဖြစ်ပြီး မူလဈေးနှုန်းများ အလွန်ကွာခြားနေသောကြောင့်ဖြစ်သည်",
+              "စုစု တွက်ချက်မှု အမှားလုပ်မိသောကြောင့်",
+              "ကြက်သွန်နီကို အလေးချိန်ဖြင့်ရောင်းပြီး ဆန်ကို အိတ်ဖြင့်ရောင်းသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w11-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Fractions, Decimals and Percentage Change",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း — ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်းပြောင်းလဲမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is 9/25 expressed as a percentage? (Hint: first convert it to a decimal.)",
+          questionMy:
+              "9/25 ကို ရာခိုင်နှုန်းအဖြစ် ဖော်ပြပါက မည်မျှဖြစ်မည်နည်း။ (အကြံပြုချက် — ဒသမကိန်းအဖြစ် အရင်ပြောင်းပါ။)",
+          optionsEn: ["9%", "25%", "36%", "45%"],
+          optionsMy: ["9%", "25%", "36%", "45%"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A market stall's monthly rent increases from 60,000 kyats to 72,000 kyats. What is the percentage increase?",
+          questionMy:
+              "ဈေးဆိုင်တစ်ဆိုင်၏ လစဉ်ငှားရမ်းခသည် 60,000 ကျပ်မှ 72,000 ကျပ်သို့ တိုးလာသည်။ ရာခိုင်နှုန်းတိုးမှုမှာ မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: ["12%", "15%", "20%", "24%"],
+          optionsMy: ["12%", "15%", "20%", "24%"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is 7/40 expressed as a percentage?",
+          questionMy:
+              "7/40 ကို ရာခိုင်နှုန်းအဖြစ် ဖော်ပြပါက မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: ["7%", "14%", "17.5%", "40%"],
+          optionsMy: ["7%", "14%", "17.5%", "40%"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A shop originally priced a bag at 45,000 kyats. It reduced the price by 1/5 of the original price. What is the new price?",
+          questionMy:
+              "ဆိုင်တစ်ဆိုင်က လွယ်အိတ်တစ်လုံးကို မူလဈေးနှုန်း 45,000 ကျပ်ဖြင့် ရောင်းခဲ့ရာမှ မူလဈေးနှုန်း၏ 1/5 ကို လျှော့ချလိုက်သည်။ ဈေးနှုန်းသစ်မှာ မည်မျှဖြစ်မည်နည်း။",
+          optionsEn: [
+            "9,000 kyats",
+            "27,000 kyats",
+            "36,000 kyats",
+            "40,000 kyats",
+          ],
+          optionsMy: [
+            "9,000 ကျပ်",
+            "27,000 ကျပ်",
+            "36,000 ကျပ်",
+            "40,000 ကျပ်",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Aung's monthly saving increased from 15,000 kyats to 18,000 kyats. What fraction of his original saving does the increase represent, and what percentage increase is this?",
+          questionMy:
+              "အောင်၏ လစဉ်စုငွေသည် 15,000 ကျပ်မှ 18,000 ကျပ်သို့ တိုးလာသည်။ တိုးလာမှုသည် မူလစုငွေ၏ မည်သည့်ဂဏန်းစိတ်ဖြစ်ပြီး ရာခိုင်နှုန်းအားဖြင့် မည်မျှတိုးမှုဖြစ်မည်နည်း။",
+          optionsEn: ["1/10, 10%", "1/5, 20%", "1/4, 25%", "1/3, 33%"],
+          optionsMy: ["1/10, 10%", "1/5, 20%", "1/4, 25%", "1/3, 33%"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 3, Week 12: "Capstone: Fractions,
+// Decimals and Percentages in Real Life"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek12 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w12",
+  weekNumber: 12,
+  titleEn: "Capstone: Fractions, Decimals and Percentages in Real Life",
+  titleMy:
+      "နိဂုံးချုပ် — အပိုင်းကိန်း၊ ဒဿမကိန်းနှင့် ရာခိုင်နှုန်းများကို နေ့စဉ်ဘဝတွင် အသုံးချခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w12-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Step Price and Recipe Problems",
+      titleMy: "အဆင့်ဆင့် ဈေးနှုန်းနှင့် ဟင်းချက်နည်း ပြဿနာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A recipe needs 3/4 cup of rice. You want to make 1.5 times the recipe. How much rice, as a decimal, do you need?",
+          questionMy:
+              "ဟင်းချက်နည်းတစ်ခုအတွက် ဆန် 3/4 ခွက် လိုအပ်သည်။ ဟင်းချက်နည်းကို ၁.၅ဆ ချက်လိုပါက ဆန်ကို ဒဿမကိန်းအဖြစ် မည်မျှလိုအပ်မည်နည်း။",
+          optionsEn: ["1.125 cups", "1.25 cups", "1.5 cups", "0.875 cup"],
+          optionsMy: ["၁.၁၂၅ ခွက်", "၁.၂၅ ခွက်", "၁.၅ ခွက်", "၀.၈၇၅ ခွက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A shirt originally priced at 8,000 kyats is discounted by 25%, then the new price is discounted by an extra 10%. What is the final price?",
+          questionMy:
+              "ရှပ်အင်္ကျီတစ်ထည် မူလဈေး ကျပ် ၈,၀၀၀ ကို ၂၅% လျှော့စျေးပြီးနောက်၊ ဈေးအသစ်ကို ထပ်မံ ၁၀% ထပ်လျှော့ပေးသည်။ နောက်ဆုံးဈေးက ဘယ်လောက်ကျမည်နည်း။",
+          optionsEn: [
+            "5,400 kyats",
+            "6,000 kyats",
+            "5,200 kyats",
+            "4,800 kyats",
+          ],
+          optionsMy: ["၅,၄၀၀ ကျပ်", "၆,၀၀၀ ကျပ်", "၅,၂၀၀ ကျပ်", "၄,၈၀၀ ကျပ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A quiz is worth 20 marks. A student scores 3/5 of the marks, then earns an extra bonus equal to 10% of the original 20 marks. What is the student's total score, in marks?",
+          questionMy:
+              "စစ်ဆေးမေးခွန်းတစ်ခု၏ စုစုပေါင်းအမှတ်မှာ ၂၀ မှတ်ဖြစ်သည်။ ကျောင်းသားတစ်ဦးသည် အမှတ်၏ 3/5 ရရှိပြီး၊ မူလ ၂၀ မှတ်၏ ၁၀% နှင့်ညီမျှသော ဆုမှတ်ထပ်ရသည်။ ကျောင်းသား၏ စုစုပေါင်းအမှတ်မှာ ဘယ်လောက်ကျမည်နည်း။",
+          optionsEn: ["14 marks", "12 marks", "16 marks", "10 marks"],
+          optionsMy: ["၁၄ မှတ်", "၁၂ မှတ်", "၁၆ မှတ်", "၁၀ မှတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Three friends share a meal costing 15,000 kyats. Friend A ate 1/2 of the total, Friend B ate 0.3 of the total, and Friend C ate the rest. How much should Friend C pay, in kyats?",
+          questionMy:
+              "သူငယ်ချင်းသုံးဦးသည် ကျပ် ၁၅,၀၀၀ တန်သော အစားအစာကို ခွဲဝေစားသုံးကြသည်။ သူငယ်ချင်း A က စုစုပေါင်း၏ 1/2 ကို စားသုံးပြီး၊ သူငယ်ချင်း B က စုစုပေါင်း၏ 0.3 ကို စားသုံးကာ၊ သူငယ်ချင်း C က ကျန်ရှိသမျှကို စားသုံးသည်။ သူငယ်ချင်း C က ဘယ်လောက်ပေးဆောင်ရမည်နည်း (ကျပ်)။",
+          optionsEn: [
+            "3,000 kyats",
+            "4,500 kyats",
+            "6,000 kyats",
+            "1,500 kyats",
+          ],
+          optionsMy: ["၃,၀၀၀ ကျပ်", "၄,၅၀၀ ကျပ်", "၆,၀၀၀ ကျပ်", "၁,၅၀၀ ကျပ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A shop increases the price of a bag from 12,000 kyats by 1/4, then decreases the new price by 20%. What is the final price, in kyats?",
+          questionMy:
+              "ဆိုင်တစ်ဆိုင်သည် အိတ်တစ်လုံး၏ ဈေးနှုန်း ကျပ် ၁၂,၀၀၀ ကို 1/4 တိုးမြှင့်ပြီးနောက်၊ ဈေးအသစ်ကို ၂၀% လျှော့ချသည်။ နောက်ဆုံးဈေးက ဘယ်လောက်ကျမည်နည်း (ကျပ်)။",
+          optionsEn: [
+            "12,000 kyats",
+            "15,000 kyats",
+            "9,000 kyats",
+            "10,800 kyats",
+          ],
+          optionsMy: [
+            "၁၂,၀၀၀ ကျပ်",
+            "၁၅,၀၀၀ ကျပ်",
+            "၉,၀၀၀ ကျပ်",
+            "၁၀,၈၀၀ ကျပ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w12-d2",
+      dayNumber: 2,
+      titleEn: "Fractions, Decimals, Percentages: Same Value, Different Forms",
+      titleMy: "အပိုင်းကိန်း၊ ဒဿမကိန်း၊ ရာခိုင်နှုန်း - တန်ဖိုးတူ ပုံစံကွဲများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w12-dm-1",
+          termEn: "3/4",
+          termMy: "3/4",
+          matchEn: "75% (0.75)",
+          matchMy: "75% (0.75)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w12-dm-2",
+          termEn: "0.2",
+          termMy: "0.2",
+          matchEn: "1/5 (20%)",
+          matchMy: "1/5 (20%)",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w12-dm-3",
+          termEn: "1/8",
+          termMy: "1/8",
+          matchEn: "12.5% (0.125)",
+          matchMy: "12.5% (0.125)",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w12-dm-4",
+          termEn: "0.6",
+          termMy: "0.6",
+          matchEn: "3/5 (60%)",
+          matchMy: "3/5 (60%)",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w12-dm-5",
+          termEn: "1 1/2",
+          termMy: "1 1/2",
+          matchEn: "150% (1.5)",
+          matchMy: "150% (1.5)",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w12-d3",
+      dayNumber: 3,
+      titleEn: "Spot the Shopping Math Mistake",
+      titleMy: "စျေးဝယ်ဂဏန်း အမှားကို ရှာဖွေပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Comparison", "Incorrect Comparison"],
+        bucketsMy: [
+          "မှန်ကန်သော နှိုင်းယှဉ်ချက်",
+          "မှားယွင်းသော နှိုင်းယှဉ်ချက်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w12-sort-1",
+            labelEn:
+                "Store X: 8,000-kyat shoes with 25% off cost 6,000 kyats. Store Y: the same shoes at 7/10 of the original price cost 5,600 kyats. Conclusion: Store Y offers the better price.",
+            labelMy:
+                "ဆိုင် X - ကျပ် ၈,၀၀၀ ဖိနပ်ကို ၂၅% လျှော့စျေးထားလျှင် ကျပ် ၆,၀၀၀ ကျသည်။ ဆိုင် Y - ဖိနပ်တူတစ်ရံကို မူလဈေး၏ 7/10 ဖြင့် ရောင်းလျှင် ကျပ် ၅,၆၀၀ ကျသည်။ နိဂုံးချုပ် - ဆိုင် Y က ဈေးပိုသက်သာသည်။",
+            correctBucketEn: "Correct Comparison",
+            correctBucketMy: "မှန်ကန်သော နှိုင်းယှဉ်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w12-sort-2",
+            labelEn:
+                "Bookshop A: a 15,000-kyat book with 1/5 off costs 12,000 kyats. Bookshop B: the same book with 20% off also costs 12,000 kyats. Conclusion: Bookshop B is cheaper, since 20% sounds like a bigger discount than 1/5.",
+            labelMy:
+                "စာအုပ်ဆိုင် A - ကျပ် ၁၅,၀၀၀ စာအုပ်ကို 1/5 လျှော့စျေးထားလျှင် ကျပ် ၁၂,၀၀၀ ကျသည်။ စာအုပ်ဆိုင် B - စာအုပ်တူတစ်အုပ်ကို ၂၀% လျှော့စျေးထားလျှင် ကျပ် ၁၂,၀၀၀ အတူတူပင် ကျသည်။ နိဂုံးချုပ် - ၂၀% ဆိုတာ 1/5 ထက် လျှော့စျေးပိုများသောကြောင့် စာအုပ်ဆိုင် B ဈေးပိုသက်သာသည်။",
+            correctBucketEn: "Incorrect Comparison",
+            correctBucketMy: "မှားယွင်းသော နှိုင်းယှဉ်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w12-sort-3",
+            labelEn:
+                "A phone accessory costs 4,000 kyats. Shop P discounts it by 3/4 to a final price of 1,000 kyats. Shop Q discounts it by 60% to a final price of 1,600 kyats. Conclusion: Shop P's price is lower.",
+            labelMy:
+                "ဖုန်းဆက်စပ်ပစ္စည်းတစ်ခု ကျပ် ၄,၀၀၀ တန်သည်။ ဆိုင် P က 3/4 လျှော့စျေးထားလျှင် နောက်ဆုံးဈေးမှာ ကျပ် ၁,၀၀၀ ဖြစ်သည်။ ဆိုင် Q က ၆၀% လျှော့စျေးထားလျှင် နောက်ဆုံးဈေးမှာ ကျပ် ၁,၆၀၀ ဖြစ်သည်။ နိဂုံးချုပ် - ဆိုင် P ၏ ဈေးက ပိုနိမ့်သည်။",
+            correctBucketEn: "Correct Comparison",
+            correctBucketMy: "မှန်ကန်သော နှိုင်းယှဉ်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w12-sort-4",
+            labelEn:
+                "A dress costs 20,000 kyats. It is first discounted by 50%, then the new price is discounted by another 50%. A shopper claims the total discount is 100%, so the dress becomes free.",
+            labelMy:
+                "ဝတ်စုံတစ်ထည် ကျပ် ၂၀,၀၀၀ တန်သည်။ ၎င်းကို ပထမဆုံး ၅၀% လျှော့စျေးပြီး၊ ရရှိသော ဈေးအသစ်ကို နောက်တစ်ကြိမ် ၅၀% ထပ်လျှော့သည်။ ဝယ်သူတစ်ဦးက စုစုပေါင်းလျှော့စျေးသည် ၁၀၀% ဖြစ်၍ ဝတ်စုံသည် အခမဲ့ဖြစ်သွားသည်ဟု ဆိုသည်။",
+            correctBucketEn: "Incorrect Comparison",
+            correctBucketMy: "မှားယွင်းသော နှိုင်းယှဉ်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w12-sort-5",
+            labelEn:
+                "A pastry shop sells a cake for 9,000 kyats. The weekday price is 1/3 off, and the weekend price is 30% off. Conclusion: the weekday discount gives the cheaper price.",
+            labelMy:
+                "မုန့်ဆိုင်တစ်ဆိုင်တွင် ကိတ်မုန့်တစ်လုံးကို ကျပ် ၉,၀၀၀ ဖြင့် ရောင်းသည်။ အလုပ်ရက်ဈေးမှာ 1/3 လျှော့စျေးဖြစ်ပြီး စနေ/တနင်္ဂနွေဈေးမှာ ၃၀% လျှော့စျေးဖြစ်သည်။ နိဂုံးချုပ် - အလုပ်ရက်လျှော့စျေးက ဈေးပိုသက်သာသည်။",
+            correctBucketEn: "Correct Comparison",
+            correctBucketMy: "မှန်ကန်သော နှိုင်းယှဉ်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w12-sort-6",
+            labelEn:
+                "A shirt normally costs 5,000 kyats and is on sale for 4,500 kyats. A customer claims this is a 5% discount.",
+            labelMy:
+                "ရှပ်အင်္ကျီတစ်ထည် ပုံမှန်ဈေးမှာ ကျပ် ၅,၀၀၀ ဖြစ်ပြီး လျှော့စျေးအနေဖြင့် ကျပ် ၄,၅၀၀ ဖြင့် ရောင်းချသည်။ ဖောက်သည်တစ်ဦးက ဤသည်မှာ ၅% လျှော့စျေးဖြစ်သည်ဟု ဆိုသည်။",
+            correctBucketEn: "Incorrect Comparison",
+            correctBucketMy: "မှားယွင်းသော နှိုင်းယှဉ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w12-d4",
+      dayNumber: 4,
+      titleEn: "Splitting the Bill at the Shan Noodle House",
+      titleMy: "ရှမ်းခေါက်ဆွဲဆိုင်တွင် ငွေတောင်းလွှာ ခွဲဝေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Splitting the Bill at the Shan Noodle House",
+        titleMy: "ရှမ်းခေါက်ဆွဲဆိုင်တွင် ငွေတောင်းလွှာ ခွဲဝေခြင်း",
+        passageEn:
+            "On Saturday afternoon, three classmates -- Zayar, Hnin Pwint, and Su Su -- met at a small Shan noodle restaurant near their school in Taunggyi to celebrate finishing their exams. When the waiter brought the bill, the total came to 24,000 kyats before any extra charges. Since they had each ordered different dishes, they decided to split the bill fairly, according to how much each person actually ordered, rather than splitting it into three equal parts.\n\nZayar had ordered the most -- noodles, a side of tofu, and two drinks -- which came to exactly 1/2 of the total bill. Hnin Pwint, who ordered a smaller noodle bowl and one drink, had ordered 0.3 of the total bill. Su Su, who only had a bowl of soup, realized her share must be whatever was left over. She thought carefully: since Zayar's share as a decimal was 0.5, and Hnin Pwint's share was already given as 0.3, Su Su's share had to be 1 - 0.5 - 0.3 = 0.2 of the total bill -- in other words, exactly one-fifth, or 20%.\n\nJust as they were about to pay, the waiter mentioned that the restaurant now added a 10% service charge to every bill. The three friends agreed the fairest way to handle this was for each person to pay their own share of the food plus 10% extra on top of that same share, rather than splitting the service charge equally.\n\nZayar calculated his own payment first: his share of the food was 1/2 of 24,000 kyats, which is 12,000 kyats. Adding the 10% service charge meant multiplying by 1.1, giving 12,000 x 1.1 = 13,200 kyats. Hnin Pwint and Su Su used the same method for their own shares, and when all three payments were added together, the total matched the restaurant's final bill exactly -- proof that splitting fairly by fraction, decimal, and percentage all agreed with one another.",
+        passageMy:
+            "စနေနေ့ နေ့လည်ခင်းတွင် အတန်းဖော်သုံးဦး -- ဇေယျာ၊ နှင်းပွင့်နှင့် စုစု တို့သည် စာမေးပွဲပြီးဆုံးသွားသည့်အတွက် ကျောင်းအနီးရှိ ရှမ်းခေါက်ဆွဲဆိုင်ငယ်တစ်ဆိုင်တွင် တွေ့ဆုံခဲ့ကြသည်။ စားပွဲထိုးက ငွေတောင်းလွှာကို ယူဆောင်လာသောအခါ၊ အပိုအခကြေးငွေမပါဝင်မီ စုစုပေါင်းဈေးနှုန်းမှာ ကျပ် ၂၄,၀၀၀ ဖြစ်သည်။ သူတို့သုံးဦးစလုံး ဟင်းလျာမတူညီအောင် မှာယူခဲ့ကြသောကြောင့်၊ ငွေတောင်းလွှာကို သုံးပိုင်းညီညီ ခွဲမည့်အစား၊ တစ်ဦးစီ တကယ်မှာယူသည့်ပမာဏအလိုက် တရားမျှတစွာ ခွဲဝေရန် ဆုံးဖြတ်ခဲ့ကြသည်။\n\nဇေယျာက အများဆုံးမှာယူခဲ့သည် -- ခေါက်ဆွဲ၊ တိုဟူးအနားပြင်နှင့် သောက်စရာနှစ်ခွက် -- ၎င်းသည် စုစုပေါင်းငွေတောင်းလွှာ၏ 1/2 အတိအကျ ဖြစ်သည်။ ခေါက်ဆွဲအိုးငယ်တစ်ခွက်နှင့် သောက်စရာတစ်ခွက်သာ မှာယူခဲ့သော နှင်းပွင့်မှာ စုစုပေါင်း၏ 0.3 ကို မှာယူခဲ့သည်။ ဟင်းချိုတစ်ခွက်သာ စားသုံးခဲ့သော စုစုကမူ ကျန်ရှိသောပမာဏသည် သူမ၏ဝေစုဖြစ်ရမည်ဟု သိရှိလိုက်သည်။ သူမ ဂရုတစိုက်တွေးကြည့်သည် -- ဇေယျာ၏ဝေစုသည် ဒဿမကိန်းအနေဖြင့် 0.5 ဖြစ်ပြီး နှင်းပွင့်၏ဝေစုမှာ 0.3 ဟု ပေးထားခဲ့သောကြောင့်၊ စုစု၏ဝေစုသည် 1 - 0.5 - 0.3 = 0.2 ဖြစ်ရမည် -- တစ်နည်းအားဖြင့် အတိအကျ ငါးပုံတစ်ပုံ (1/5) သို့မဟုတ် ၂၀% ပင်ဖြစ်သည်။\n\nသူတို့ ငွေရှင်းရန် အသင့်ဖြစ်နေချိန်တွင် စားပွဲထိုးက ယခုအခါ ဆိုင်သည် ငွေတောင်းလွှာတိုင်းအပေါ် ၁၀% ဝန်ဆောင်ခ ထပ်ဆောင်းကောက်ခံကြောင်း ပြောပြသည်။ သူငယ်ချင်းသုံးဦးက ဤအခကြေးငွေကို သုံးပိုင်းညီညီ ခွဲမည့်အစား တစ်ဦးစီက မိမိ၏ အစားအစာဝေစုအပေါ် ၁၀% ထပ်ဆောင်းပေးဆောင်ရန် အသင့်တော်ဆုံးဖြစ်သည်ဟု သဘောတူခဲ့ကြသည်။\n\nဇေယျာက သူ့ကိုယ်ပိုင်ငွေပေးချေမှုကို အရင်တွက်ချက်လိုက်သည် -- သူ့အစားအစာဝေစုသည် ကျပ် ၂၄,၀၀၀ ၏ 1/2 ဖြစ်၍ ကျပ် ၁၂,၀၀၀ ဖြစ်သည်။ ၁၀% ဝန်ဆောင်ခ ထည့်တွက်ရန် 1.1 ဖြင့် မြှောက်ရာ 12,000 x 1.1 = ကျပ် ၁၃,၂၀၀ ရရှိသည်။ နှင်းပွင့်နှင့် စုစုတို့သည်လည်း ၎င်းတို့၏ဝေစုအတွက် တူညီသောနည်းလမ်းကို အသုံးပြုခဲ့ပြီး၊ သုံးဦးလုံး၏ငွေပေးချေမှုများကို ပေါင်းလိုက်သောအခါ ဆိုင်၏ နောက်ဆုံးငွေတောင်းလွှာနှင့် အတိအကျကိုက်ညီသွားသည် -- အပိုင်းကိန်း၊ ဒဿမကိန်းနှင့် ရာခိုင်နှုန်းဖြင့် တရားမျှတစွာ ခွဲဝေခြင်းသည် အချင်းချင်း ကိုက်ညီကြောင်း သက်သေပြနေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was Su Su's share of the bill, as a fraction, decimal, or percentage?",
+            questionMy:
+                "စာပိုဒ်အရ စုစု၏ ငွေတောင်းလွှာဝေစုသည် အပိုင်းကိန်း၊ ဒဿမကိန်း သို့မဟုတ် ရာခိုင်နှုန်းအားဖြင့် မည်မျှဖြစ်သနည်း။",
+            optionsEn: [
+              "0.2, or 1/5, or 20%",
+              "0.3, or 3/10, or 30%",
+              "0.5, or 1/2, or 50%",
+              "0.1, or 1/10, or 10%",
+            ],
+            optionsMy: [
+              "0.2, သို့မဟုတ် 1/5, သို့မဟုတ် ၂၀%",
+              "0.3, သို့မဟုတ် 3/10, သို့မဟုတ် ၃၀%",
+              "0.5, သို့မဟုတ် 1/2, သို့မဟုတ် ၅၀%",
+              "0.1, သို့မဟုတ် 1/10, သို့မဟုတ် ၁၀%",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How much did Hnin Pwint pay in total, including her share of the 10% service charge?",
+            questionMy:
+                "၁၀% ဝန်ဆောင်ခ ဝေစုအပါအဝင် နှင်းပွင့် စုစုပေါင်း ဘယ်လောက်ပေးဆောင်ခဲ့သနည်း။",
+            optionsEn: [
+              "7,920 kyats",
+              "7,200 kyats",
+              "8,400 kyats",
+              "7,500 kyats",
+            ],
+            optionsMy: ["၇,၉၂၀ ကျပ်", "၇,၂၀၀ ကျပ်", "၈,၄၀၀ ကျပ်", "၇,၅၀၀ ကျပ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the restaurant's final total bill, after the 10% service charge was added to the original 24,000 kyats?",
+            questionMy:
+                "မူလ ကျပ် ၂၄,၀၀၀ အပေါ် ၁၀% ဝန်ဆောင်ခ ထပ်ဆောင်းပြီးနောက် ဆိုင်၏ နောက်ဆုံးစုစုပေါင်းငွေတောင်းလွှာမှာ ဘယ်လောက်ဖြစ်သနည်း။",
+            optionsEn: [
+              "26,400 kyats",
+              "24,400 kyats",
+              "26,000 kyats",
+              "27,600 kyats",
+            ],
+            optionsMy: [
+              "၂၆,၄၀၀ ကျပ်",
+              "၂၄,၄၀၀ ကျပ်",
+              "၂၆,၀၀၀ ကျပ်",
+              "၂၇,၆၀၀ ကျပ်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Fractions, Decimals and Percentages Capstone",
+      titleMy:
+          "၁၂ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - အပိုင်းကိန်း၊ ဒဿမကိန်းနှင့် ရာခိုင်နှုန်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Week 9's fraction-to-decimal skill and Week 10's decimal addition skill, convert 5/8 to a decimal and then add 0.15. What is the result?",
+          questionMy:
+              "၉ပတ်မြောက်ရဲ့ အပိုင်းကိန်းမှ ဒဿမကိန်းပြောင်းခြင်း ကျွမ်းကျင်မှုနှင့် ၁၀ပတ်မြောက်ရဲ့ ဒဿမကိန်းပေါင်းခြင်း ကျွမ်းကျင်မှုကိုသုံးပြီး 5/8 ကို ဒဿမကိန်းအဖြစ်ပြောင်းပါ၊ ထို့နောက် 0.15 ပေါင်းပါ။ ရလဒ်က ဘယ်လောက်ဖြစ်သနည်း။",
+          optionsEn: ["0.775", "0.65", "0.9", "0.5"],
+          optionsMy: ["0.775", "0.65", "0.9", "0.5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 10's decimal skill and Week 11's percentage skill: a recipe needs 0.4 of a cup of oil, which is 40% of a full cup. How many cups of oil are needed to make 2.5 times the recipe?",
+          questionMy:
+              "၁၀ပတ်မြောက်ရဲ့ ဒဿမကိန်း ကျွမ်းကျင်မှုနှင့် ၁၁ပတ်မြောက်ရဲ့ ရာခိုင်နှုန်း ကျွမ်းကျင်မှုကိုသုံးပါ - ဟင်းချက်နည်းတစ်ခုက ဆီ 0.4 ခွက်လိုအပ်ပြီး ၎င်းသည် ခွက်တစ်ခွက်လုံး၏ ၄၀% ဖြစ်သည်။ ဟင်းချက်နည်းကို ၂.၅ဆ ချက်ရန် ဆီ ဘယ်နှခွက်လိုအပ်မည်နည်း။",
+          optionsEn: ["1 cup", "0.9 cup", "1.4 cups", "0.64 cup"],
+          optionsMy: ["၁ ခွက်", "၀.၉ ခွက်", "၁.၄ ခွက်", "၀.၆၄ ခွက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 9's fraction skill, Week 11's percentage skill, and Term 1 Week 3's order of operations: find 1/2 of 40, then increase that result by 25%. What is the final answer?",
+          questionMy:
+              "၉ပတ်မြောက်ရဲ့ အပိုင်းကိန်းကျွမ်းကျင်မှု၊ ၁၁ပတ်မြောက်ရဲ့ ရာခိုင်နှုန်းကျွမ်းကျင်မှုနှင့် ပထမတန်း ၃ပတ်မြောက်ရဲ့ တွက်ချက်မှုအစီအစဉ်ကို သုံးပြီး 40 ၏ 1/2 ကိုရှာပါ၊ ထို့နောက် ရလဒ်ကို ၂၅% တိုးမြှင့်ပါ။ နောက်ဆုံးအဖြေက ဘယ်လောက်ဖြစ်သနည်း။",
+          optionsEn: ["25", "30", "20", "45"],
+          optionsMy: ["25", "30", "20", "45"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Term 2's equation-solving skill combined with Week 9's fraction skill and Week 10's decimal skill: a number, when multiplied by 1.75 (the decimal form of 1 3/4), gives 3.5 (the decimal form of 3 1/2). What is the original number?",
+          questionMy:
+              "ဒုတိယတန်းရဲ့ ညီမျှခြင်းဖြေရှင်းခြင်း ကျွမ်းကျင်မှုကို ၉ပတ်မြောက်ရဲ့ အပိုင်းကိန်းကျွမ်းကျင်မှုနှင့် ၁၀ပတ်မြောက်ရဲ့ ဒဿမကိန်းကျွမ်းကျင်မှုနှင့် ပေါင်းစပ်ပြီး - ကိန်းတစ်ခုကို 1.75 (1 3/4 ၏ ဒဿမကိန်းပုံစံ) ဖြင့်မြှောက်လျှင် 3.5 (3 1/2 ၏ ဒဿမကိန်းပုံစံ) ရသည်။ မူလကိန်းက ဘယ်လောက်ဖြစ်သနည်း။",
+          optionsEn: ["2", "1.75", "3.5", "4"],
+          optionsMy: ["2", "1.75", "3.5", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 9 (fractions), Week 10 (decimals), and Week 11 (percentages): a backpack originally costs 3/4 of 20,000 kyats. The shop then reduces this price by a further 0.2 of itself, and finally adds a 10% delivery charge on the new price. What is the final price, in kyats?",
+          questionMy:
+              "၉ပတ်မြောက် (အပိုင်းကိန်း)၊ ၁၀ပတ်မြောက် (ဒဿမကိန်း) နှင့် ၁၁ပတ်မြောက် (ရာခိုင်နှုန်း) တို့ကို ပေါင်းစပ်ပြီး - ကျောပိုးအိတ်တစ်လုံး၏ မူလဈေးမှာ ကျပ် ၂၀,၀၀၀ ၏ 3/4 ဖြစ်သည်။ ထို့နောက် ဆိုင်က ထိုဈေးကို ၎င်း၏ 0.2 ဖြင့် ထပ်လျှော့ပေးပြီး၊ နောက်ဆုံးတွင် ဈေးအသစ်အပေါ် ပို့ဆောင်ခ ၁၀% ထပ်ဆောင်းသည်။ နောက်ဆုံးဈေး ဘယ်လောက်ကျမည်နည်း (ကျပ်)။",
+          optionsEn: [
+            "13,200 kyats",
+            "12,000 kyats",
+            "15,000 kyats",
+            "13,500 kyats",
+          ],
+          optionsMy: [
+            "၁၃,၂၀၀ ကျပ်",
+            "၁၂,၀၀၀ ကျပ်",
+            "၁၅,၀၀၀ ကျပ်",
+            "၁၃,၅၀၀ ကျပ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 3: "Fractions, Decimals and Percentages"
+/// -- the third milestone of the pathway (see
+/// [secondary1MathematicsPathway]), picking up after Term 2's algebra
+/// foundation with a breadth strand back into core numeracy. Week 9
+/// introduces fractions (numerator/denominator, equivalent fractions,
+/// improper/mixed conversion), explicitly folding Term 1 Week 2's
+/// HCF-via-prime-factorization skill into simplifying fractions to lowest
+/// terms; Week 10 covers adding/subtracting fractions with different
+/// denominators and decimal place value/addition, explicitly folding
+/// Term 1 Week 2's LCM skill into finding a lowest common denominator;
+/// Week 11 covers percentages (meaning, conversions between
+/// fractions/decimals/percentages, percentage increase/decrease); Week 12
+/// closes the term with a capstone applying all three -- fractions,
+/// decimals and percentages together in real-world multi-step problems
+/// (recipes, discounts, splitting a bill) -- plus explicit Term 1/Term 2
+/// callbacks in the closing recap quiz.
+const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
+  id: "course-secondary1-mathematics-t3",
+  termNumber: 3,
+  titleEn: "Fractions, Decimals and Percentages",
+  titleMy: "ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်း",
+  certificateTitleEn: "Fractions, Decimals and Percentages",
+  certificateTitleMy: "ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်း",
+  weeks: [
+    _secondary1MathematicsWeek9,
+    _secondary1MathematicsWeek10,
+    _secondary1MathematicsWeek11,
+    _secondary1MathematicsWeek12,
   ],
 );
