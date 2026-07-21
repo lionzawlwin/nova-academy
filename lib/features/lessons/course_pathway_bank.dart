@@ -33947,6 +33947,22 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
 /// magnetism into electromagnets, and tracing the energy transfer chain
 /// (chemical -> electrical -> magnetic, with some loss to thermal
 /// energy) back to Week 7's conservation principle.
+/// Term 4, "Cells and Life Processes" (see [_secondary1ScienceTerm4]),
+/// opens this pathway's first biology strand: Week 13 teaches the seven
+/// MRS GREN characteristics of life (explicitly distinguishing
+/// respiration, the energy-releasing process, from breathing); Week 14
+/// introduces cells as biology's own "building block" (echoing Week 5's
+/// element framing), covering structures shared by plant and animal
+/// cells and plant-only structures, plus the microscope as a new
+/// observation instrument; Week 15 gives photosynthesis a full word
+/// equation (reusing Week 9's format, with Week 9's own carbon
+/// dioxide/oxygen in reversed roles), extending Week 8's
+/// energy-absorption framing to light energy; Week 16 is Term 4's
+/// capstone, defining respiration as almost the exact reverse of
+/// photosynthesis, resolving Week 13's informal definition precisely,
+/// and reapplying Week 8's exothermic/endothermic vocabulary before
+/// tying the whole pathway's energy strand back to Week 7's
+/// conservation principle one final time.
 const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
   id: "course-secondary1-science-w1",
   weekNumber: 1,
@@ -40767,6 +40783,2247 @@ const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
 /// strand (Week 11), and closes with a capstone that combines Weeks 10
 /// and 11 into electromagnets, tying the whole term's energy transfers
 /// back to Week 7's conservation principle (Week 12).
+// =====================================================================
+// Secondary 1 Science -- Term 4, Week 13: "Characteristics of Living
+// Things"
+// =====================================================================
+
+/// Week 13 opens Term 4 and this pathway's first biology strand, after
+/// three terms of physics/chemistry only. Teaches the classic seven
+/// characteristics of life (the "MRS GREN" mnemonic: Movement,
+/// Respiration, Sensitivity, Growth, Reproduction, Excretion,
+/// Nutrition), explicitly flagging that "respiration" here means the
+/// energy-releasing chemical process (not breathing) -- a definition
+/// this term's Week 16 capstone returns to and makes precise via a word
+/// equation. The Day 2 drag-match deliberately uses all seven terms
+/// (not the pathway's usual six) since MRS GREN is a complete,
+/// unsplittable set.
+const CourseWeekDef _secondary1ScienceWeek13 = CourseWeekDef(
+  id: "course-secondary1-science-w13",
+  weekNumber: 13,
+  titleEn: "Characteristics of Living Things",
+  titleMy: "သက်ရှိများ၏ လက္ခဏာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w13-d1",
+      dayNumber: 1,
+      titleEn: "Characteristics of Living Things Quiz",
+      titleMy: "သက်ရှိများ၏ လက္ခဏာ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Scientists use a set of seven characteristics to decide whether something is alive. What is this set commonly called?",
+          questionMy:
+              "သိပ္ပံပညာရှင်များသည် တစ်စုံတစ်ခု အသက်ရှင်သည်၊ မရှင်ဟု ဆုံးဖြတ်ရန် လက္ခဏာခုနစ်ခုပါဝင်သော အစုတစ်ခုကို အသုံးပြုကြသည်။ ဤအစုကို အများအားဖြင့် အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: [
+            "MRS GREN (Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition)",
+            "A word equation",
+            "The law of conservation of mass",
+            "A magnetic field",
+          ],
+          optionsMy: [
+            "MRS GREN (ရွေ့လျားမှု၊ အသက်ရှုမှု၊ ခံစားနိုင်စွမ်း၊ ကြီးထွားမှု၊ မျိုးပွားမှု၊ စွန့်ထုတ်မှု၊ အာဟာရ)",
+            "စကားလုံးညီမျှခြင်း",
+            "အလေးချိန်ထိန်းသိမ်းမှု ဥပဒေ",
+            "သံလိုက်စက်ကွင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a brand-new mnemonic for this term's biology strand -- not a chemistry or physics term from earlier terms.",
+            "Each letter of MRS GREN stands for one of the seven characteristics -- M for Movement, R for Respiration, and so on.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ဤနှစ်ဝက်၏ ဇီဝဗေဒနယ်ပယ်အတွက် ဝေါဟာရအသစ်တစ်ခုဖြစ်ပြီး -- ယခင်နှစ်ဝက်များမှ ဓာတုဗေဒ (သို့) ရူပဗေဒ ဝေါဟာရ မဟုတ်ပါ။",
+            "MRS GREN ၏ အက္ခရာတစ်လုံးစီသည် လက္ခဏာခုနစ်ခုအနက် တစ်ခုစီကို ကိုယ်စားပြုသည် -- M သည် ရွေ့လျားမှု၊ R သည် အသက်ရှုမှု ဤသို့ ဆက်လက်ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In biology, \"respiration\" specifically means what, and how is it different from breathing?",
+          questionMy:
+              "ဇီဝဗေဒတွင် \"အသက်ရှုမှု (Respiration)\" ဆိုသည်မှာ အတိအကျ အဘယ်ကို ဆိုလိုပြီး၊ ၎င်းသည် အသက်ပြင်းစွာရှုခြင်းနှင့် မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "The chemical process of releasing energy from food inside living cells -- breathing is only the physical movement of air in and out of the lungs.",
+            "Respiration and breathing mean exactly the same thing.",
+            "Respiration is only breathing in, and breathing is only breathing out.",
+            "Respiration has nothing to do with energy at all.",
+          ],
+          optionsMy: [
+            "သက်ရှိဆဲလ်များအတွင်း အစားအစာမှ စွမ်းအင် ထုတ်ယူသည့် ဓာတုနည်းလုပ်ငန်းစဉ်ဖြစ်ပြီး -- အသက်ပြင်းစွာရှုခြင်းသည် အဆုတ်ထဲသို့ လေဝင်လေထွက် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှုသာ ဖြစ်သည်။",
+            "အသက်ရှုမှုနှင့် အသက်ပြင်းစွာရှုခြင်းသည် အဓိပ္ပာယ် အတိအကျတူညီသည်။",
+            "အသက်ရှုမှုသည် အသက်ရှူသွင်းခြင်းသာ ဖြစ်ပြီး အသက်ပြင်းစွာရှုခြင်းသည် အသက်ရှုထုတ်ခြင်းသာ ဖြစ်သည်။",
+            "အသက်ရှုမှုသည် စွမ်းအင်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a common mix-up -- respiration happens inside every living cell, all the time, not just in your lungs.",
+            "Recall Week 7's chemical energy store -- respiration is the process that releases that stored energy from food.",
+          ],
+          hintsMy: [
+            "၎င်းသည် မကြာခဏ လွဲမှားလေ့ရှိသောအချက်ဖြစ်သည် -- အသက်ရှုမှုသည် အချိန်တိုင်း သက်ရှိဆဲလ်တိုင်းအတွင်း ဖြစ်ပျက်နေပြီး အဆုတ်တွင်သာ ဖြစ်ပျက်ခြင်း မဟုတ်ပါ။",
+            "Week 7 ၏ ဓာတုစွမ်းအင်သိုလှောင်မှုကို သတိရပါ -- အသက်ရှုမှုသည် အစားအစာထဲမှ ထိုသိုလှောင်ထားသောစွမ်းအင်ကို ထုတ်ယူပေးသော လုပ်ငန်းစဉ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these best describes \"growth,\" one of the seven characteristics of life?",
+          questionMy:
+              "\"ကြီးထွားမှု (Growth)\" ဆိုသည့် သက်ရှိလက္ခဏာခုနစ်ခုအနက် တစ်ခုကို အကောင်းဆုံး ဖော်ပြသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A permanent increase in size over time.",
+            "A temporary increase in size that always reverses afterward.",
+            "Moving from one place to another.",
+            "Detecting and responding to light.",
+          ],
+          optionsMy: [
+            "အချိန်ကြာလာသည်နှင့်အမျှ ပမာဏ ထာဝရ တိုးလာခြင်း။",
+            "နောက်ပိုင်းတွင် အမြဲ ပြန်လျော့ကျသွားသော ယာယီပမာဏတိုးလာခြင်း။",
+            "နေရာတစ်ခုမှ တစ်ခုသို့ ရွှေ့ပြောင်းခြင်း။",
+            "အလင်းကို ရှာဖွေတွေ့ရှိပြီး တုံ့ပြန်ခြင်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Rule out the option that reverses afterward -- growth is a lasting, permanent change, unlike, say, a balloon temporarily inflating.",
+            "The other two distractors describe \"movement\" and \"sensitivity\" instead, two of MRS GREN's other letters.",
+          ],
+          hintsMy: [
+            "နောက်ပိုင်းတွင် ပြန်လျော့ကျသွားသော ရွေးချယ်စရာကို ဖယ်ရှားပါ -- ကြီးထွားမှုသည် ရေရှည်၊ ထာဝရပြောင်းလဲမှုတစ်ခုဖြစ်ပြီး ဥပမာ ပူဖောင်းတစ်လုံး ယာယီလေဖြည့်ခြင်းနှင့် မတူပါ။",
+            "အခြားရွေးချယ်စရာနှစ်ခုသည် MRS GREN ၏ အခြားအက္ခရာနှစ်ခုဖြစ်သော \"ရွေ့လျားမှု\" နှင့် \"ခံစားနိုင်စွမ်း\" ကို ဖော်ပြထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a car not considered a living thing, even though it can move?",
+          questionMy:
+              "ကားတစ်စီးသည် ရွေ့လျားနိုင်သော်လည်း အဘယ့်ကြောင့် သက်ရှိတစ်ခုဟု မသတ်မှတ်ရသနည်း။",
+          optionsEn: [
+            "Movement alone isn't enough -- a living thing must show all seven MRS GREN characteristics, and a car cannot grow, reproduce, or excrete waste of its own.",
+            "Cars are actually alive, just very slowly.",
+            "Only things that are green can be alive.",
+            "Anything made of metal can never move at all.",
+          ],
+          optionsMy: [
+            "ရွေ့လျားနိုင်ခြင်းတစ်ခုတည်းဖြင့် မလုံလောက်ပါ -- သက်ရှိတစ်ခုသည် MRS GREN လက္ခဏာခုနစ်ခုလုံးကို ပြသရမည်ဖြစ်ပြီး ကားတစ်စီးသည် ကြီးထွားခြင်း၊ မျိုးပွားခြင်း (သို့) ၎င်းကိုယ်ပိုင် စွန့်ထုတ်ပစ္စည်း စွန့်ထုတ်ခြင်း မပြုနိုင်ပါ။",
+            "ကားများသည် အမှန်တကယ် အသက်ရှင်ကြသော်လည်း အလွန်နှေးကွေးစွာ ဖြစ်သည်။",
+            "အစိမ်းရောင်ရှိသောအရာများသာ အသက်ရှင်နိုင်သည်။",
+            "သတ္တုဖြင့် ပြုလုပ်ထားသောအရာများသည် လုံးဝ ရွေ့လျား၍ မရနိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "One characteristic alone never proves something is alive -- all seven MRS GREN characteristics need to be present together.",
+            "Think about which of the seven a car clearly fails -- growing on its own, reproducing, or excreting its own waste.",
+          ],
+          hintsMy: [
+            "လက္ခဏာတစ်ခုတည်းဖြင့် တစ်စုံတစ်ခု အသက်ရှင်ကြောင်း ဘယ်တော့မှ သက်သေမပြနိုင်ပါ -- MRS GREN လက္ခဏာခုနစ်ခုစလုံး အတူတကွ ရှိရမည်ဖြစ်သည်။",
+            "ကားတစ်စီးသည် ခုနစ်ခုအနက် မည်သည့်လက္ခဏာကို ရှင်းရှင်းလင်းလင်း မပြသနိုင်ကြောင်း စဉ်းစားပါ -- ကိုယ်တိုင်ကြီးထွားခြင်း၊ မျိုးပွားခြင်း (သို့) ကိုယ်ပိုင်စွန့်ထုတ်ပစ္စည်း စွန့်ထုတ်ခြင်း။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match the MRS GREN Characteristics",
+      titleMy: "MRS GREN လက္ခဏာများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w13-dm-1",
+          termEn: "Movement",
+          termMy: "ရွေ့လျားမှု (Movement)",
+          matchEn:
+              "Moving all or part of the body, from one place to another or just in place.",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံး (သို့) တစ်စိတ်တစ်ပိုင်းကို နေရာတစ်ခုမှ တစ်ခုသို့ (သို့) နေရာတွင်ပင် ရွေ့လျားစေခြင်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-2",
+          termEn: "Respiration",
+          termMy: "အသက်ရှုမှု (Respiration)",
+          matchEn:
+              "The chemical process of releasing energy from food, happening inside every living cell -- not the same as breathing.",
+          matchMy:
+              "အစားအစာမှ စွမ်းအင်ထုတ်ယူသည့် ဓာတုနည်းလုပ်ငန်းစဉ်ဖြစ်ပြီး သက်ရှိဆဲလ်တိုင်းအတွင်း ဖြစ်ပျက်နေသည် -- အသက်ပြင်းစွာရှုခြင်းနှင့် မတူပါ။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-3",
+          termEn: "Sensitivity",
+          termMy: "ခံစားနိုင်စွမ်း (Sensitivity)",
+          matchEn:
+              "Detecting changes in the surroundings (like light, sound or touch) and responding to them.",
+          matchMy:
+              "ပတ်ဝန်းကျင်ရှိ ပြောင်းလဲမှုများ (အလင်း၊ အသံ (သို့) ထိတွေ့မှုကဲ့သို့) ကို ရှာဖွေတွေ့ရှိပြီး တုံ့ပြန်ခြင်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-4",
+          termEn: "Growth",
+          termMy: "ကြီးထွားမှု (Growth)",
+          matchEn: "A permanent increase in size over time.",
+          matchMy: "အချိန်ကြာလာသည်နှင့်အမျှ ပမာဏ ထာဝရ တိုးလာခြင်း။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-5",
+          termEn: "Reproduction",
+          termMy: "မျိုးပွားမှု (Reproduction)",
+          matchEn: "Producing offspring, or new individuals of the same kind.",
+          matchMy:
+              "မွေးဖွားခြင်း (သို့) အမျိုးအစားတူ လူသစ်/သတ္တဝါသစ်များ ဖြစ်ပေါ်စေခြင်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-6",
+          termEn: "Excretion",
+          termMy: "စွန့်ထုတ်မှု (Excretion)",
+          matchEn:
+              "Removing waste products made by chemical reactions inside the body.",
+          matchMy:
+              "ခန္ဓာကိုယ်အတွင်း ဓာတုတုန့်ပြန်မှုများက ဖြစ်ပေါ်စေသော စွန့်ပစ်ပစ္စည်းများကို ဖယ်ရှားပစ်ခြင်း။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w13-dm-7",
+          termEn: "Nutrition",
+          termMy: "အာဟာရ (Nutrition)",
+          matchEn:
+              "Taking in and using food (or, for plants, making their own food) for energy and growth.",
+          matchMy:
+              "စွမ်းအင်နှင့် ကြီးထွားမှုအတွက် အစားအစာကို စားသုံးအသုံးချခြင်း (သို့) အပင်များအတွက် ၎င်းတို့ကိုယ်ပိုင် အစားအစာကို ပြုလုပ်ခြင်း။",
+          colorValue: 0xFF56CCF2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Living or Non-Living?",
+      titleMy: "စီစစ်ကြမည် - သက်ရှိလား၊ သက်မဲ့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Living", "Non-Living"],
+        bucketsMy: ["သက်ရှိ", "သက်မဲ့"],
+        items: [
+          SortingItem(
+            id: "s1sci-w13-sort-1",
+            labelEn: "A dog",
+            labelMy: "ခွေး",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-2",
+            labelEn: "A rock",
+            labelMy: "ကျောက်တုံး",
+            correctBucketEn: "Non-Living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-3",
+            labelEn: "A mango tree",
+            labelMy: "သရက်ပင်",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-4",
+            labelEn: "A toy car",
+            labelMy: "ကစားစရာကားလေး",
+            correctBucketEn: "Non-Living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-5",
+            labelEn: "A mushroom",
+            labelMy: "မှို",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-6",
+            labelEn: "A cloud",
+            labelMy: "မိုးတိမ်",
+            correctBucketEn: "Non-Living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-7",
+            labelEn: "A goldfish",
+            labelMy: "ရွှေငါး",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "s1sci-w13-sort-8",
+            labelEn: "A plastic doll",
+            labelMy: "ပလတ်စတစ်အရုပ်",
+            correctBucketEn: "Non-Living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aye Aye's Garden Investigation",
+      titleMy: "စာဖတ်ခြင်း - အေးအေး၏ ဥယျာဉ်စူးစမ်းလေ့လာမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye's Garden Investigation",
+        titleMy: "အေးအေး၏ ဥယျာဉ်စူးစမ်းလေ့လာမှု",
+        passageEn:
+            "For a school project, Aye Aye walked around her family's garden with a checklist of the seven MRS GREN characteristics, deciding whether each thing she found was living or non-living.\n\nFirst, she found a snail slowly gliding across a leaf. It moved, and when she gently touched its shell, it pulled into its shell -- a clear response to touch, showing sensitivity. Aye Aye knew snails also grow, reproduce, and take in food, so she confidently marked it as living.\n\nNext, she examined a sunflower growing tall against the fence. At first she wasn't sure a plant could be \"living\" the same way an animal is, since it couldn't run away or bark. But she remembered that plants make their own food through photosynthesis (nutrition), grow taller every week, produce seeds (reproduction), and slowly turn their leaves toward sunlight (sensitivity). The sunflower passed every test on her checklist.\n\nThen Aye Aye picked up a smooth grey stone from the garden path. It didn't move on its own, couldn't grow, and would never reproduce or need food. It simply sat there, unchanged, exactly like it had for years. She marked it as non-living.\n\nFinally, her little brother's toy robot buzzed to life, its wheels spinning across the grass. It moved just like the snail had -- but Aye Aye reminded herself that movement alone isn't enough. The robot couldn't grow, reproduce on its own, or use respiration to release energy from food; a battery just pushed electric current through its circuits, exactly like Week 12's electromagnet. She marked the toy robot as non-living too.",
+        passageMy:
+            "ကျောင်းစီမံကိန်းတစ်ခုအတွက် အေးအေးသည် MRS GREN လက္ခဏာခုနစ်ခု စစ်ဆေးရေးစာရင်းဖြင့် သူမမိသားစု၏ ဥယျာဉ်တစ်ဝိုက် လျှောက်လှမ်းခဲ့ပြီး တွေ့ရှိသောအရာတစ်ခုစီ သက်ရှိလား၊ သက်မဲ့လား ဆုံးဖြတ်ခဲ့သည်။\n\nပထမဦးစွာ သူမသည် အရွက်တစ်ရွက်ပေါ်တွင် ဖြည်းညှင်းစွာ ရွေ့လျားနေသော ဆွဲငူတစ်ကောင်ကို တွေ့ခဲ့သည်။ ၎င်းသည် ရွေ့လျားနေခဲ့ပြီး ၎င်း၏ခွံကို သေးသေးလေး ထိလိုက်ချိန် ၎င်းသည် ခွံထဲသို့ ဆုတ်ဝင်သွားခဲ့သည် -- ထိတွေ့မှုအပေါ် ရှင်းလင်းသော တုံ့ပြန်မှုတစ်ခုဖြစ်ပြီး ခံစားနိုင်စွမ်းကို ပြသနေသည်။ ဆွဲငူများသည် ကြီးထွားခြင်း၊ မျိုးပွားခြင်းနှင့် အစားအစာစားသုံးခြင်းလည်း ပြုလုပ်ကြောင်း အေးအေးသိထားသဖြင့် ၎င်းကို သက်ရှိအဖြစ် စိတ်ချစွာ အမှတ်အသားပြုခဲ့သည်။\n\nထို့နောက် သူမသည် စောင်ရန်းတစ်လျှောက် မြင့်တက်လျက်ကြီးထွားနေသော နေကြာပင်တစ်ပင်ကို လေ့လာခဲ့သည်။ ၎င်းသည် ပြေးထွက်၍ (သို့) ဟောင်နိုင်ခြင်း မရှိသောကြောင့် အစပိုင်းတွင် အပင်တစ်ပင်သည် တိရစ္ဆာန်တစ်ကောင်ကဲ့သို့ \"သက်ရှိ\" ဟုတ်မဟုတ် သေချာမသိခဲ့ပါ။ သို့သော် အပင်များသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (photosynthesis) ဖြင့် ၎င်းတို့ကိုယ်ပိုင် အစားအစာပြုလုပ်ကြောင်း (အာဟာရ)၊ အပတ်စဉ် မြင့်တက်ကြီးထွားလာကြောင်း၊ မျိုးစေ့များ ထုတ်လုပ်ကြောင်း (မျိုးပွားမှု) နှင့် ၎င်းတို့၏ အရွက်များကို နေရောင်ခြည်ဘက်သို့ ဖြည်းညှင်းစွာ လှည့်ကြကြောင်း (ခံစားနိုင်စွမ်း) သတိရမိသည်။ နေကြာပင်သည် သူမ၏ စစ်ဆေးရေးစာရင်းရှိ စမ်းသပ်မှုတိုင်းကို ဖြတ်သန်းနိုင်ခဲ့သည်။\n\nထို့နောက် အေးအေးသည် ဥယျာဉ်လမ်းကြောင်းမှ ချောမွေ့သော မီးခိုးရောင်ကျောက်တုံးတစ်လုံးကို ကောက်ယူလိုက်သည်။ ၎င်းသည် သူ့ဘာသာ လုံးဝ မရွေ့လျားခဲ့ပါ၊ ကြီးထွား၍ မရနိုင်ပါ၊ မျိုးလည်းမပွားနိုင်၊ အစားအစာလည်း လုံးဝ မလိုအပ်ပါ။ ၎င်းသည် နှစ်ပေါင်းများစွာ ဖြစ်ခဲ့သည့်အတိုင်း မပြောင်းလဲဘဲ ရိုးရိုးရှင်းရှင်း ရှိနေခဲ့သည်။ သူမသည် ၎င်းကို သက်မဲ့အဖြစ် အမှတ်အသားပြုခဲ့သည်။\n\nနောက်ဆုံးတွင် သူမ၏ ညီလေး၏ ကစားစရာစက်ရုပ်သည် အသက်ဝင်လာသကဲ့သို့ ဇူးမြည်ကာ ၎င်း၏ဘီးများ မြက်ခင်းပေါ်တွင် လည်ပတ်ခဲ့သည်။ ၎င်းသည် ဆွဲငူကဲ့သို့ပင် ရွေ့လျားခဲ့သော်လည်း -- ရွေ့လျားမှုတစ်ခုတည်းဖြင့် မလုံလောက်ကြောင်း အေးအေး ကိုယ်တိုင် ပြန်သတိရမိသည်။ စက်ရုပ်သည် ကြီးထွား၍ မရနိုင်၊ ကိုယ်တိုင် မျိုးမပွားနိုင်၊ အစားအစာမှ စွမ်းအင်ထုတ်ယူရန် အသက်ရှုမှုကို အသုံးမပြုနိုင်ပါ -- ဘက်ထရီတစ်ခုက Week 12 ၏ လျှပ်စစ်သံလိုက်ကဲ့သို့ပင် ၎င်း၏ပတ်လမ်းများတစ်လျှောက် လျှပ်စစ်ရေစီးကို တွန်းအားပေးနေခြင်းသာ ဖြစ်သည်။ သူမသည် ကစားစရာစက်ရုပ်ကိုလည်း သက်မဲ့အဖြစ် အမှတ်အသားပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did the snail's reaction to being touched demonstrate?",
+            questionMy:
+                "ဆွဲငူကို ထိလိုက်ချိန် ၎င်း၏ တုံ့ပြန်မှုက အဘယ်ကို သရုပ်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "Sensitivity -- responding to a change in its surroundings.",
+              "Reproduction -- producing offspring.",
+              "Excretion -- removing waste.",
+              "Nothing at all -- snails cannot respond to anything.",
+            ],
+            optionsMy: [
+              "ခံစားနိုင်စွမ်း -- ပတ်ဝန်းကျင်ရှိ ပြောင်းလဲမှုတစ်ခုအပေါ် တုံ့ပြန်ခြင်း။",
+              "မျိုးပွားမှု -- သားဆက်ခံများ ထုတ်လုပ်ခြင်း။",
+              "စွန့်ထုတ်မှု -- စွန့်ပစ်ပစ္စည်း ဖယ်ရှားခြင်း။",
+              "ဘာမျှ မဟုတ်ပါ -- ဆွဲငူများသည် မည်သည့်အရာကိုမျှ တုံ့ပြန်နိုင်ခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- what did Aye Aye call this reaction directly?",
+              "Pulling into its shell in response to touch is exactly what \"detecting a change and responding to it\" means.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဤတုံ့ပြန်မှုကို အေးအေးက အဘယ်ဟု တိုက်ရိုက် ခေါ်ဆိုခဲ့သနည်း။",
+              "ထိတွေ့မှုတစ်ခုအပေါ် ခွံထဲသို့ ဆုတ်ဝင်သွားခြင်းသည် \"ပြောင်းလဲမှုတစ်ခုကို ရှာဖွေတွေ့ရှိပြီး တုံ့ပြန်ခြင်း\" ၏ အနက်အတိအကျပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Aye Aye eventually decide the sunflower was living?",
+            questionMy:
+                "အေးအေးသည် နေကြာပင်ကို သက်ရှိဟု နောက်ဆုံးတွင် အဘယ့်ကြောင့် ဆုံးဖြတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "It passed every MRS GREN test -- making its own food, growing, producing seeds, and responding to light.",
+              "Because it could run away and bark.",
+              "Because it was green in color.",
+              "Because it never moved at all.",
+            ],
+            optionsMy: [
+              "၎င်းသည် ၎င်းကိုယ်ပိုင် အစားအစာပြုလုပ်ခြင်း၊ ကြီးထွားခြင်း၊ မျိုးစေ့ထုတ်လုပ်ခြင်းနှင့် အလင်းအပေါ် တုံ့ပြန်ခြင်းအပါအဝင် MRS GREN စမ်းသပ်မှုတိုင်းကို ဖြတ်သန်းနိုင်ခဲ့သောကြောင့်။",
+              "ပြေးထွက်နိုင်ပြီး ဟောင်နိုင်သောကြောင့်။",
+              "အစိမ်းရောင်ဖြစ်သောကြောင့်။",
+              "လုံးဝ ရွေ့လျားခြင်း မရှိဘူးသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- which MRS GREN characteristics does it list for the sunflower directly?",
+              "Nutrition, growth, reproduction and sensitivity are all named specifically -- that's four of the seven right there.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နေကြာပင်အတွက် MRS GREN လက္ခဏာများကို မည်သို့ တိုက်ရိုက် စာရင်းပြုစုထားသနည်း။",
+              "အာဟာရ၊ ကြီးထွားမှု၊ မျိုးပွားမှုနှင့် ခံစားနိုင်စွမ်းတို့ကို အတိအကျ အမည်တွင်ထားသည် -- ၎င်းသည် ခုနစ်ခုအနက် လေးခုပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which characteristics did the stone completely fail to show?",
+            questionMy:
+                "ကျောက်တုံးသည် မည်သည့်လက္ခဏာများကို လုံးဝ မပြသနိုင်ခဲ့သနည်း။",
+            optionsEn: [
+              "All seven -- movement, growth, reproduction and needing food, among others.",
+              "Only movement -- it showed all the other six characteristics.",
+              "Only reproduction -- it showed all the other six characteristics.",
+              "The stone actually showed every characteristic perfectly.",
+            ],
+            optionsMy: [
+              "ခုနစ်ခုစလုံး -- ရွေ့လျားမှု၊ ကြီးထွားမှု၊ မျိုးပွားမှုနှင့် အစားအစာလိုအပ်ခြင်းအပါအဝင်။",
+              "ရွေ့လျားမှုတစ်ခုတည်း -- အခြားခြောက်ခုစလုံးကို ပြသနိုင်ခဲ့သည်။",
+              "မျိုးပွားမှုတစ်ခုတည်း -- အခြားခြောက်ခုစလုံးကို ပြသနိုင်ခဲ့သည်။",
+              "ကျောက်တုံးသည် လက္ခဏာတိုင်းကို ပြီးပြည့်စုံစွာ ပြသနိုင်ခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- the passage lists several characteristics the stone lacked, all at once.",
+              "A stone fails every single MRS GREN test -- that's exactly why it's classified as non-living.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကျောက်တုံးတွင် ချို့တဲ့နေသော လက္ခဏာများစွာကို တစ်ပြိုင်နက် စာရင်းပြုစုထားသည်။",
+              "ကျောက်တုံးသည် MRS GREN စမ်းသပ်မှုတိုင်းကို ကျရှုံးသည် -- ၎င်းကြောင့်ပင် သက်မဲ့အဖြစ် သတ်မှတ်ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Even though the toy robot could move, why did Aye Aye still classify it as non-living?",
+            questionMy:
+                "ကစားစရာစက်ရုပ်သည် ရွေ့လျားနိုင်သော်လည်း အေးအေးသည် အဘယ့်ကြောင့် ၎င်းကို သက်မဲ့အဖြစ် ဆက်လက် သတ်မှတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Movement alone isn't enough -- the robot couldn't grow, reproduce, or use respiration to release energy from food.",
+              "The robot was too small to count.",
+              "Only animals with fur can ever be alive.",
+              "The robot's battery made it count as living.",
+            ],
+            optionsMy: [
+              "ရွေ့လျားနိုင်ခြင်းတစ်ခုတည်းဖြင့် မလုံလောက်ပါ -- စက်ရုပ်သည် ကြီးထွား၍ မရနိုင်၊ မျိုးလည်းမပွားနိုင်၊ အစားအစာမှ စွမ်းအင်ထုတ်ယူရန် အသက်ရှုမှုကိုလည်း အသုံးမပြုနိုင်ပါ။",
+              "စက်ရုပ်သည် သေးငယ်လွန်းသောကြောင့် ရေတွက်၍ မရပါ။",
+              "အမွှေးရှိသော တိရစ္ဆာန်များသာ အသက်ရှင်နိုင်သည်။",
+              "စက်ရုပ်၏ ဘက်ထရီက ၎င်းကို သက်ရှိအဖြစ် ရေတွက်စေသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Aye Aye directly restates Day 1's \"movement alone isn't enough\" rule here.",
+              "This is the exact same reasoning from Day 1's car question, applied now to a toy robot instead.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အေးအေးသည် ပထမနေ့၏ \"ရွေ့လျားနိုင်ခြင်းတစ်ခုတည်းဖြင့် မလုံလောက်\" စည်းမျဉ်းကို ဤနေရာတွင် တိုက်ရိုက် ထပ်ဆင့်ဖော်ပြသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ ကားမေးခွန်းမှ ကျိုးကြောင်းဆင်ခြင်မှုတစ်ခုတည်းပင် ဖြစ်ပြီး ယခု ကစားစရာစက်ရုပ်တွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Characteristics of Living Things",
+      titleMy: "အပတ်စဉ် ၁၃ ပြန်လည်သုံးသပ်ခြင်း - သက်ရှိများ၏ လက္ခဏာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does the \"N\" in MRS GREN stand for?",
+          questionMy: "MRS GREN ရှိ \"N\" သည် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["Nutrition", "Nothing", "Newton", "Neutralization"],
+          optionsMy: ["အာဟာရ", "ဘာမျှမဟုတ်ပါ", "နယူတန်", "အက်ဆစ်ဓာတ်ပျက်ခြင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the full mnemonic from Day 1 -- Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, and one more letter.",
+            "Rule out Newton (a force unit, Week 1) and Neutralization (Week 8) -- those belong to other terms entirely.",
+          ],
+          hintsMy: [
+            "ပထမနေ့မှ ဝေါဟာရအပြည့်အစုံကို သတိရပါ -- ရွေ့လျားမှု၊ အသက်ရှုမှု၊ ခံစားနိုင်စွမ်း၊ ကြီးထွားမှု၊ မျိုးပွားမှု၊ စွန့်ထုတ်မှုနှင့် နောက်ထပ်အက္ခရာတစ်ခု။",
+            "နယူတန် (Week 1 အားယူနစ်) နှင့် အက်ဆစ်ဓာတ်ပျက်ခြင်း (Week 8) တို့ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် လုံးဝ အခြားအပတ်များနှင့် သက်ဆိုင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is respiration, precisely?",
+          questionMy: "အသက်ရှုမှုဆိုသည်မှာ အတိအကျ အဘယ်နည်း။",
+          optionsEn: [
+            "Releasing energy from food inside living cells",
+            "Breathing air in and out of the lungs only",
+            "Growing taller over time",
+            "Producing offspring",
+          ],
+          optionsMy: [
+            "သက်ရှိဆဲလ်များအတွင်း အစားအစာမှ စွမ်းအင် ထုတ်ယူခြင်း",
+            "အဆုတ်ထဲသို့ လေဝင်လေထွက် ရှုသွင်းရှုထုတ်ခြင်းသာ",
+            "အချိန်ကြာလာသည်နှင့်အမျှ ပိုမြင့်ကြီးထွားလာခြင်း",
+            "သားဆက်ခံများ ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question -- respiration is not the same as breathing.",
+            "This chemical process happens in every living cell, all the time, not just in an animal's lungs.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- အသက်ရှုမှုသည် အသက်ပြင်းစွာရှုခြင်းနှင့် မတူပါ။",
+            "ဤဓာတုနည်းလုပ်ငန်းစဉ်သည် သက်ရှိဆဲလ်တိုင်းအတွင်း အချိန်တိုင်း ဖြစ်ပျက်နေပြီး တိရစ္ဆာန်တစ်ကောင်၏ အဆုတ်တွင်သာ ဖြစ်ပျက်ခြင်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a living thing?",
+          questionMy: "အောက်ပါတို့အနက် သက်ရှိတစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: ["A goldfish", "A rock", "A cloud", "A toy car"],
+          optionsMy: ["ရွှေငါး", "ကျောက်တုံး", "မိုးတိမ်", "ကစားစရာကားလေး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Non-Living bucket.",
+            "A goldfish grows, reproduces, respires, and responds to its surroundings -- passing every MRS GREN test.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် သက်မဲ့ကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "ရွှေငါးသည် ကြီးထွားခြင်း၊ မျိုးပွားခြင်း၊ အသက်ရှုခြင်းနှင့် ပတ်ဝန်းကျင်အပေါ် တုံ့ပြန်ခြင်းတို့ကို ပြုလုပ်ပြီး MRS GREN စမ်းသပ်မှုတိုင်းကို ဖြတ်သန်းနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is \"excretion\"?",
+          questionMy: "\"စွန့်ထုတ်မှု (Excretion)\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Removing waste products made by chemical reactions inside the body",
+            "Producing offspring",
+            "Detecting light and sound",
+            "Increasing permanently in size",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်အတွင်း ဓာတုတုန့်ပြန်မှုများက ဖြစ်ပေါ်စေသော စွန့်ပစ်ပစ္စည်းများကို ဖယ်ရှားခြင်း",
+            "သားဆက်ခံများ ထုတ်လုပ်ခြင်း",
+            "အလင်းနှင့် အသံကို ရှာဖွေတွေ့ရှိခြင်း",
+            "ပမာဏ ထာဝရ တိုးလာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match definition -- this characteristic is about removing waste, not making offspring or detecting stimuli.",
+            "The other three options describe reproduction, sensitivity and growth instead -- three different MRS GREN letters.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ဤလက္ခဏာသည် သားဆက်ခံပြုလုပ်ခြင်း (သို့) စိတ်ဆွဲဆောင်မှု ရှာဖွေတွေ့ရှိခြင်း မဟုတ်ဘဲ စွန့်ပစ်ပစ္စည်း ဖယ်ရှားခြင်းနှင့် သက်ဆိုင်သည်။",
+            "အခြားရွေးချယ်စရာသုံးခုသည် မျိုးပွားမှု၊ ခံစားနိုင်စွမ်းနှင့် ကြီးထွားမှုကို ဖော်ပြထားပြီး MRS GREN ၏ မတူညီသောအက္ခရာသုံးခု ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is one characteristic alone (like movement) never enough to prove something is alive?",
+          questionMy:
+              "လက္ခဏာတစ်ခုတည်း (ရွေ့လျားမှုကဲ့သို့) ဖြင့် တစ်စုံတစ်ခု အသက်ရှင်ကြောင်း အဘယ့်ကြောင့် ဘယ်တော့မှ မလုံလောက်သနည်း။",
+          optionsEn: [
+            "Because non-living things like toy robots and clouds can also move, without being alive.",
+            "Because movement is not actually one of the seven characteristics.",
+            "Because only plants are ever considered alive.",
+            "Because living things never move at all.",
+          ],
+          optionsMy: [
+            "ကစားစရာစက်ရုပ်နှင့် မိုးတိမ်ကဲ့သို့ သက်မဲ့အရာများသည်လည်း အသက်မရှင်ဘဲ ရွေ့လျားနိုင်ကြသောကြောင့်။",
+            "ရွေ့လျားမှုသည် လက္ခဏာခုနစ်ခုအနက် တစ်ခု အမှန်တကယ် မဟုတ်သောကြောင့်။",
+            "အပင်များကိုသာ အမြဲ သက်ရှိဟု ယူဆကြသောကြောင့်။",
+            "သက်ရှိများသည် ဘယ်တော့မှ လုံးဝ မရွေ့လျားကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the toy robot from the reading passage -- it moved, but still failed the other six MRS GREN tests.",
+            "All seven characteristics need to be present together -- that's what makes MRS GREN a reliable checklist.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ ကစားစရာစက်ရုပ်ကို သတိရပါ -- ၎င်းသည် ရွေ့လျားနိုင်သော်လည်း အခြား MRS GREN စမ်းသပ်မှုခြောက်ခုကို ကျရှုံးခဲ့သည်။",
+            "လက္ခဏာခုနစ်ခုစလုံး အတူတကွ ရှိရမည်ဖြစ်ပြီး -- ၎င်းကြောင့်ပင် MRS GREN သည် ယုံကြည်စိတ်ချရသော စစ်ဆေးရေးစာရင်း ဖြစ်လာခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following correctly pairs the letter with its MRS GREN characteristic?",
+          questionMy:
+              "အောက်ပါတို့အနက် အက္ခရာနှင့် ၎င်း၏ MRS GREN လက္ခဏာကို မှန်ကန်စွာ တွဲထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "G stands for Growth",
+            "G stands for Gravity",
+            "S stands for Sound",
+            "R stands for Rock",
+          ],
+          optionsMy: [
+            "G သည် ကြီးထွားမှု (Growth) ကို ကိုယ်စားပြုသည်",
+            "G သည် ဆွဲငင်အား (Gravity) ကို ကိုယ်စားပြုသည်",
+            "S သည် အသံ (Sound) ကို ကိုယ်စားပြုသည်",
+            "R သည် ကျောက်တုံး (Rock) ကို ကိုယ်စားပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the full mnemonic -- MRS GREN's seven letters spell out Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition.",
+            "Gravity is a Week 7 physics term, not part of this week's biology mnemonic at all.",
+          ],
+          hintsMy: [
+            "ဝေါဟာရအပြည့်အစုံကို သတိရပါ -- MRS GREN ၏ အက္ခရာခုနစ်ခုသည် ရွေ့လျားမှု၊ အသက်ရှုမှု၊ ခံစားနိုင်စွမ်း၊ ကြီးထွားမှု၊ မျိုးပွားမှု၊ စွန့်ထုတ်မှု၊ အာဟာရတို့ကို ကိုယ်စားပြုသည်။",
+            "ဆွဲငင်အားသည် Week 7 ရူပဗေဒ ဝေါဟာရတစ်ခုဖြစ်ပြီး ဤအပတ်၏ ဇီဝဗေဒ ဝေါဟာရနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 4, Week 14: "Cells: The Building Blocks
+// of Life"
+// =====================================================================
+
+/// Week 14 introduces cells as the basic unit of life -- explicitly
+/// echoing Week 5's "simplest building block" framing for elements, now
+/// applied to biology. Covers structures common to both plant and
+/// animal cells (nucleus, cytoplasm, cell membrane) plus plant-only
+/// structures (cell wall, chloroplast, permanent vacuole), and
+/// introduces the microscope as a new observation instrument
+/// (extending Week 1's measuring-instrument strand). The mitochondrion
+/// is deliberately introduced here too, ahead of its formal role in
+/// Week 16's respiration capstone.
+const CourseWeekDef _secondary1ScienceWeek14 = CourseWeekDef(
+  id: "course-secondary1-science-w14",
+  weekNumber: 14,
+  titleEn: "Cells: The Building Blocks of Life",
+  titleMy: "ဆဲလ်များ - အသက်ရှင်သန်မှု၏ အုတ်ခဲအခြေခံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w14-d1",
+      dayNumber: 1,
+      titleEn: "Cells Quiz",
+      titleMy: "ဆဲလ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the basic building block of all living things?",
+          questionMy: "သက်ရှိများအားလုံး၏ အခြေခံ အုတ်ခဲမှာ အဘယ်နည်း။",
+          optionsEn: ["The cell", "The atom", "The element", "The magnet"],
+          optionsMy: [
+            "ဆဲလ် (Cell)",
+            "အက်တမ် (Atom)",
+            "ဒြပ်စင် (Element)",
+            "သံလိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's definition of an element as the simplest \"building block\" of matter -- this week names the equivalent building block for living things.",
+            "Atoms and elements are Week 5's chemistry building blocks -- this week's biology strand has its own, different one.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ ဒြပ်စင်ကို ရူပဝတ္ထု၏ အရိုးရှင်းဆုံး \"အုတ်ခဲအခြေခံ\" ဟု အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ဤအပတ်တွင် သက်ရှိများအတွက် ညီမျှသော အုတ်ခဲအခြေခံကို အမည်တွင်ထားသည်။",
+            "အက်တမ်နှင့် ဒြပ်စင်တို့သည် Week 5 ၏ ဓာတုဗေဒအုတ်ခဲအခြေခံများဖြစ်ပြီး -- ဤအပတ်၏ ဇီဝဗေဒနယ်ပယ်တွင် ၎င်း၏ ကိုယ်ပိုင်၊ မတူညီသောအရာတစ်ခု ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which cell structure controls the cell's activities and contains its genetic material?",
+          questionMy:
+              "ဆဲလ်၏ လှုပ်ရှားမှုများကို ထိန်းချုပ်ပြီး ၎င်း၏ မျိုးရိုးဗီဇပစ္စည်း ပါဝင်သော ဆဲလ်အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Nucleus", "Cell wall", "Chloroplast", "Cytoplasm"],
+          optionsMy: [
+            "နျူကလိယ (Nucleus)",
+            "ဆဲလ်နံရံ (Cell Wall)",
+            "ကလိုရိုပလတ် (Chloroplast)",
+            "ဆိုင်တိုပလာဇင် (Cytoplasm)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of this structure as the cell's \"control center\" -- similar to how a switch controls a whole circuit (Week 10).",
+            "Cell wall and chloroplast are plant-only structures -- this control-center structure is found in both plant and animal cells.",
+          ],
+          hintsMy: [
+            "ဤဆဲလ်အစိတ်အပိုင်းကို ဆဲလ်၏ \"ထိန်းချုပ်ရေးဌာနချုပ်\" ဟု သတိရပါ -- ခလုတ်တစ်ခုက ပတ်လမ်းတစ်ခုလုံးကို ထိန်းချုပ်သည့် Week 10 နှင့် ဆင်တူသည်။",
+            "ဆဲလ်နံရံနှင့် ကလိုရိုပလတ်တို့သည် အပင်ဆဲလ်တွင်သာ ရှိသော အစိတ်အပိုင်းများဖြစ်ပြီး -- ဤထိန်းချုပ်ရေးဌာနချုပ် အစိတ်အပိုင်းကို အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these structures is found ONLY in plant cells, not animal cells?",
+          questionMy:
+              "အောက်ပါတို့အနက် တိရစ္ဆာန်ဆဲလ်တွင် မရှိဘဲ အပင်ဆဲလ်တွင်သာ တွေ့ရသော အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Cell wall", "Nucleus", "Cell membrane", "Cytoplasm"],
+          optionsMy: [
+            "ဆဲလ်နံရံ (Cell Wall)",
+            "နျူကလိယ",
+            "ဆဲလ်မြှေးပါး (Cell Membrane)",
+            "ဆိုင်တိုပလာဇင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This rigid structure gives plant cells their fixed shape and support, made of a tough material called cellulose.",
+            "Nucleus, cell membrane and cytoplasm are shared by both plant and animal cells -- only one option here is plant-exclusive.",
+          ],
+          hintsMy: [
+            "ဤမာကျောသောအစိတ်အပိုင်းသည် အပင်ဆဲလ်များကို ခိုင်မာသောပုံသဏ္ဌာန်နှင့် ထောက်ပံ့မှုပေးပြီး ဆယ်လူလိုစ် (cellulose) ဟုခေါ်သော ပစ္စည်းမာမာဖြင့် ဖွဲ့စည်းထားသည်။",
+            "နျူကလိယ၊ ဆဲလ်မြှေးပါးနှင့် ဆိုင်တိုပလာဇင်တို့သည် အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည် -- ဤနေရာတွင် အပင်တွင်သာ ရှိသောအရာမှာ တစ်ခုတည်းသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What instrument do scientists use to see cells, which are far too small to see with the naked eye?",
+          questionMy:
+              "မျက်လုံးဗလာဖြင့် မမြင်နိုင်လောက်အောင် သေးငယ်သော ဆဲလ်များကို မြင်ရန် သိပ္ပံပညာရှင်များ မည်သည့်ကိရိယာကို အသုံးပြုကြသနည်း။",
+          optionsEn: ["Microscope", "Thermometer", "Compass", "Balance"],
+          optionsMy: [
+            "အဏုကြည့်မှန်ပြောင်း (Microscope)",
+            "အပူချိန်တိုင်းကိရိယာ",
+            "အရပ်ညွှန်",
+            "ချိန်ခွင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's instrument strand -- this is a new instrument added this week, for a completely different job: magnifying tiny things.",
+            "Thermometer measures temperature, compass shows direction, and balance measures mass -- none of them can magnify something too small to see.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ ကိရိယာနယ်ပယ်ကို သတိရပါ -- ဤအပတ်တွင် လုံးဝ မတူညီသောအလုပ်အတွက် ကိရိယာအသစ်တစ်ခု ထပ်ထည့်ထားသည် - သေးငယ်သောအရာများကို ချဲ့ကြည့်ခြင်း။",
+            "အပူချိန်တိုင်းကိရိယာက အပူချိန်ကို၊ အရပ်ညွှန်က ဦးတည်ရာကို၊ ချိန်ခွင်က အလေးချိန်ကို တိုင်းသည် -- ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ မမြင်နိုင်လောက်အောင် သေးငယ်သောအရာကို ချဲ့၍ မပြသနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match the Cell Structures",
+      titleMy: "ဆဲလ်အစိတ်အပိုင်းများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w14-dm-1",
+          termEn: "Nucleus",
+          termMy: "နျူကလိယ (Nucleus)",
+          matchEn:
+              "The structure that controls the cell's activities and contains its genetic material -- found in both plant and animal cells.",
+          matchMy:
+              "ဆဲလ်၏ လှုပ်ရှားမှုများကို ထိန်းချုပ်ပြီး ၎င်း၏ မျိုးရိုးဗီဇပစ္စည်း ပါဝင်သော အစိတ်အပိုင်းဖြစ်ပြီး အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w14-dm-2",
+          termEn: "Cell Membrane",
+          termMy: "ဆဲလ်မြှေးပါး (Cell Membrane)",
+          matchEn:
+              "The thin outer layer that controls what substances go in and out of a cell -- found in both plant and animal cells.",
+          matchMy:
+              "ဆဲလ်တစ်ခုအတွင်းသို့ ဝင်ထွက်သော ပစ္စည်းများကို ထိန်းချုပ်ပေးသော ပါးလွှာသော အပြင်အလွှာဖြစ်ပြီး အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w14-dm-3",
+          termEn: "Cytoplasm",
+          termMy: "ဆိုင်တိုပလာဇင် (Cytoplasm)",
+          matchEn:
+              "The jelly-like substance filling a cell, where many chemical reactions happen -- found in both plant and animal cells.",
+          matchMy:
+              "ဆဲလ်အတွင်း ဖြည့်ထားသော ဂျယ်လီပုံစံပစ္စည်းဖြစ်ပြီး ဓာတုတုန့်ပြန်မှုများစွာ ၎င်းအတွင်း ဖြစ်ပျက်နေသည် -- အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w14-dm-4",
+          termEn: "Cell Wall",
+          termMy: "ဆဲလ်နံရံ (Cell Wall)",
+          matchEn:
+              "A rigid outer layer made of cellulose that gives a plant cell its fixed shape and support -- not found in animal cells.",
+          matchMy:
+              "ဆယ်လူလိုဇ်ဖြင့် ဖွဲ့စည်းထားသော မာကျောသောအပြင်အလွှာဖြစ်ပြီး အပင်ဆဲလ်ကို ပုံသေပုံသဏ္ဌာန်နှင့် ထောက်ပံ့မှု ပေးသည် -- တိရစ္ဆာန်ဆဲလ်တွင် မတွေ့ရပါ။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w14-dm-5",
+          termEn: "Chloroplast",
+          termMy: "ကလိုရိုပလတ် (Chloroplast)",
+          matchEn:
+              "A structure containing the green pigment chlorophyll, where photosynthesis happens -- only found in green plant cells.",
+          matchMy:
+              "စိမ်းသောအရောင်ဓာတ်ဖြစ်သည့် ကလိုရိုဖီးလ် ပါဝင်သော အစိတ်အပိုင်းဖြစ်ပြီး ၎င်းအတွင်း အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ဖြစ်ပျက်သည် -- အစိမ်းရောင် အပင်ဆဲလ်များတွင်သာ တွေ့ရသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w14-dm-6",
+          termEn: "Mitochondrion",
+          termMy: "မိုက်တိုကွန်ဒရီယာ (Mitochondrion)",
+          matchEn:
+              "The structure where respiration releases energy from food -- found in both plant and animal cells.",
+          matchMy:
+              "အသက်ရှုမှုက အစားအစာမှ စွမ်းအင်ထုတ်ယူသည့်နေရာဖြစ်ပြီး အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Plant Cell Only or Both?",
+      titleMy: "စီစစ်ကြမည် - အပင်ဆဲလ်တွင်သာလား၊ နှစ်မျိုးလုံးတွင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Plant Cell Only", "Both Plant and Animal Cells"],
+        bucketsMy: [
+          "အပင်ဆဲလ်တွင်သာ",
+          "အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w14-sort-1",
+            labelEn: "Cell wall",
+            labelMy: "ဆဲလ်နံရံ",
+            correctBucketEn: "Plant Cell Only",
+            correctBucketMy: "အပင်ဆဲလ်တွင်သာ",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-2",
+            labelEn: "Chloroplast",
+            labelMy: "ကလိုရိုပလတ်",
+            correctBucketEn: "Plant Cell Only",
+            correctBucketMy: "အပင်ဆဲလ်တွင်သာ",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-3",
+            labelEn: "Large permanent vacuole",
+            labelMy: "ကြီးမားသော ထာဝရဗက်ကျူးအိုး",
+            correctBucketEn: "Plant Cell Only",
+            correctBucketMy: "အပင်ဆဲလ်တွင်သာ",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-4",
+            labelEn: "Nucleus",
+            labelMy: "နျူကလိယ",
+            correctBucketEn: "Both Plant and Animal Cells",
+            correctBucketMy: "အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-5",
+            labelEn: "Cytoplasm",
+            labelMy: "ဆိုင်တိုပလာဇင်",
+            correctBucketEn: "Both Plant and Animal Cells",
+            correctBucketMy: "အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-6",
+            labelEn: "Cell membrane",
+            labelMy: "ဆဲလ်မြှေးပါး",
+            correctBucketEn: "Both Plant and Animal Cells",
+            correctBucketMy: "အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-7",
+            labelEn: "Mitochondrion",
+            labelMy: "မိုက်တိုကွန်ဒရီယာ",
+            correctBucketEn: "Both Plant and Animal Cells",
+            correctBucketMy: "အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး",
+          ),
+          SortingItem(
+            id: "s1sci-w14-sort-8",
+            labelEn: "Chlorophyll, the green pigment inside a chloroplast",
+            labelMy:
+                "ကလိုရိုပလတ်အတွင်းရှိ စိမ်းသောအရောင်ဓာတ်ဖြစ်သည့် ကလိုရိုဖီးလ်",
+            correctBucketEn: "Plant Cell Only",
+            correctBucketMy: "အပင်ဆဲလ်တွင်သာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Zin's Microscope Discovery",
+      titleMy: "စာဖတ်ခြင်း - ဇင်ဇင်၏ အဏုကြည့်မှန်ပြောင်း ရှာဖွေတွေ့ရှိမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Zin's Microscope Discovery",
+        titleMy: "ဇင်ဇင်၏ အဏုကြည့်မှန်ပြောင်း ရှာဖွေတွေ့ရှိမှု",
+        passageEn:
+            "In science class, Zin Zin got to look through a microscope for the first time, a magnifying instrument that let her see things far too small for her naked eye. Her teacher gave her two prepared slides: one with a thin slice of onion, and one with cells gently scraped from the inside of her own cheek.\n\nUnder the microscope, the onion slide showed neat, brick-like boxes, each with a thick, clearly visible outer line. Her teacher explained this was the cell wall, giving each plant cell its fixed, rectangular shape. Inside each box, Zin Zin could make out a small, darker circle: the nucleus, controlling that cell's activities, surrounded by cytoplasm.\n\nThe cheek cell slide looked completely different. Instead of neat rectangular boxes, Zin Zin saw irregular, rounded blobs with no thick outer wall at all -- just a thin cell membrane holding each one together. \"Animal cells don't have a cell wall,\" her teacher reminded her, \"which is why they don't hold a fixed shape the way plant cells do.\" Like the onion cells, each cheek cell still had a nucleus and cytoplasm.\n\nCurious, Zin Zin asked why the onion cells looked colorless instead of green like a leaf. Her teacher explained that onion cells, being underground, have no chloroplasts -- the structures containing chlorophyll that only appear in the green, light-exposed parts of a plant, like leaves. She promised that next week's lesson on photosynthesis would explain exactly what those chloroplasts do.",
+        passageMy:
+            "သိပ္ပံအတန်းတွင် ဇင်ဇင်သည် ပထမဆုံးအကြိမ်အဖြစ် အဏုကြည့်မှန်ပြောင်းဖြင့် ကြည့်ခဲ့ရသည်။ ၎င်းသည် သူမ၏ မျက်လုံးဗလာဖြင့် မမြင်နိုင်လောက်အောင် သေးငယ်သောအရာများကို မြင်စေသော ချဲ့ကြည့်ကိရိယာတစ်ခု ဖြစ်သည်။ သူမ၏ ဆရာမက ကြိုတင်ပြင်ဆင်ထားသော စလိုက်ကွက်နှစ်ခု ပေးခဲ့သည် - ကြက်သွန်နီအပါးလွှာတစ်ချပ်ပါသည့် တစ်ခုနှင့် သူမ၏ ပါးဝကွင်းတွင်းမှ ညင်သာစွာ ဆွစုတ်ယူထားသော ဆဲလ်များပါသည့် တစ်ခု။\n\nအဏုကြည့်မှန်ပြောင်းအောက်တွင် ကြက်သွန်နီစလိုက်သည် သန့်ရှင်းသော အုတ်ခဲပုံသဏ္ဌာန်သေတ္တာများကို ပြသခဲ့ပြီး တစ်ခုစီတွင် ထူထပ်ပြီး ရှင်းရှင်းလင်းလင်း မြင်ရသော အပြင်ဘက်မျဉ်းတစ်ခု ရှိသည်။ ၎င်းသည် ဆဲလ်နံရံဖြစ်ပြီး အပင်ဆဲလ်တစ်ခုစီအား ပုံသေထောင့်မှန်ပုံသဏ္ဌာန်ကို ပေးထားကြောင်း သူမ၏ ဆရာမက ရှင်းပြခဲ့သည်။ သေတ္တာတစ်ခုစီအတွင်း ဇင်ဇင်သည် သေးငယ်ပြီး အရောင်ပိုနက်သော စက်ဝိုင်းလေးတစ်ခုကို မြင်ရသည် - ထိုဆဲလ်၏ လှုပ်ရှားမှုများကို ထိန်းချုပ်ပေးသော နျူကလိယဖြစ်ပြီး ဆိုင်တိုပလာဇင်ဖြင့် ဝန်းရံထားသည်။\n\nပါးဝဆဲလ် စလိုက်ကွက်မှာမူ လုံးဝ ကွဲပြားစွာ တွေ့ရသည်။ သန့်ရှင်းသော ထောင့်မှန်ပုံသေတ္တာများအစား ဇင်ဇင်သည် ထူထပ်သောအပြင်နံရံ လုံးဝ မပါဝင်သော ပုံမမှန်၊ ဝိုင်းသောအခဲငယ်များကို မြင်ရသည် -- ၎င်းတစ်ခုစီကို ပါးလွှာသော ဆဲလ်မြှေးပါးတစ်ခုတည်းသာ ဆက်ကပ်ထားပေးသည်။ \"တိရစ္ဆာန်ဆဲလ်များတွင် ဆဲလ်နံရံ မရှိပါ\" ဟု ဆရာမက သတိပေးခဲ့သည်၊ \"၎င်းကြောင့်ပင် အပင်ဆဲလ်များကဲ့သို့ ပုံသေပုံသဏ္ဌာန်ကို မထိန်းထားနိုင်ခြင်း ဖြစ်သည်\"။ ကြက်သွန်နီဆဲလ်များကဲ့သို့ပင် ပါးဝဆဲလ်တစ်ခုစီတွင် နျူကလိယနှင့် ဆိုင်တိုပလာဇင် ဆက်လက်ပါဝင်နေသည်။\n\nစိတ်ဝင်စားသဖြင့် ဇင်ဇင်သည် ကြက်သွန်နီဆဲလ်များ အရွက်တစ်ရွက်ကဲ့သို့ အစိမ်းရောင်အစား အဘယ့်ကြောင့် အရောင်ကင်းမဲ့နေသနည်းဟု မေးခဲ့သည်။ ကြက်သွန်နီသည် မြေအောက်တွင် ရှိနေသောကြောင့် ကလိုရိုပလတ် လုံးဝ မရှိကြောင်း ဆရာမက ရှင်းပြခဲ့သည် -- ကလိုရိုဖီးလ်ပါဝင်သော ထိုအစိတ်အပိုင်းများသည် အရွက်ကဲ့သို့ အစိမ်းရောင်၊ အလင်းထိတွေ့သော အပင်အစိတ်အပိုင်းများတွင်သာ ပေါ်လာသည်။ နောက်အပတ်၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသင်ခန်းစာတွင် ထိုကလိုရိုပလတ်များ အတိအကျ မည်သို့လုပ်ဆောင်ကြောင်း ရှင်းပြပေးမည်ဟု ကတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What gave the onion cells their fixed, brick-like rectangular shape?",
+            questionMy:
+                "ကြက်သွန်နီဆဲလ်များကို ပုံသေ၊ အုတ်ခဲကဲ့သို့ ထောင့်မှန်ပုံသဏ္ဌာန် ရရှိစေသည့်အရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The cell wall",
+              "The nucleus",
+              "The cell membrane alone",
+              "The chloroplast",
+            ],
+            optionsMy: [
+              "ဆဲလ်နံရံ",
+              "နျူကလိယ",
+              "ဆဲလ်မြှေးပါးတစ်ခုတည်း",
+              "ကလိုရိုပလတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- the teacher names this structure directly as the reason for the fixed shape.",
+              "This is Day 1's plant-only structure, the same one distinguishing a rigid brick shape from a soft, rounded one.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပုံသေပုံသဏ္ဌာန်၏ အကြောင်းရင်းအဖြစ် ဆရာမက ဤအစိတ်အပိုင်းကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့၏ အပင်တွင်သာ ရှိသောအစိတ်အပိုင်းတည်းဖြစ်ပြီး မာကျောသော အုတ်ခဲပုံသဏ္ဌာန်နှင့် ပျော့ညံ့ဝိုင်းသောပုံသဏ္ဌာန်ကို ခွဲခြားပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the cheek cells look like irregular, rounded blobs instead of neat rectangles?",
+            questionMy:
+                "ပါးဝဆဲလ်များသည် သန့်ရှင်းသော ထောင့်မှန်ပုံများအစား ပုံမမှန်၊ ဝိုင်းသောအခဲငယ်များကဲ့သို့ အဘယ့်ကြောင့် တွေ့ရသနည်း။",
+            optionsEn: [
+              "Animal cells lack a cell wall, holding only a thin, flexible cell membrane instead.",
+              "Cheek cells don't have a nucleus at all.",
+              "Cheek cells are actually plant cells in disguise.",
+              "The microscope was broken during that slide.",
+            ],
+            optionsMy: [
+              "တိရစ္ဆာန်ဆဲလ်များတွင် ဆဲလ်နံရံ မရှိဘဲ ပါးလွှာ၍ ပြောင်းလွယ်သော ဆဲလ်မြှေးပါးတစ်ခုတည်းသာ ရှိသောကြောင့်။",
+              "ပါးဝဆဲလ်များတွင် နျူကလိယ လုံးဝ မရှိသောကြောင့်။",
+              "ပါးဝဆဲလ်များသည် အမှန်တကယ် အပင်ဆဲလ်များ ဟန်ဆောင်ထားခြင်း ဖြစ်သောကြောင့်။",
+              "ထိုစလိုက်ကွက်စစ်ဆေးစဉ် အဏုကြည့်မှန်ပြောင်း ပျက်နေခဲ့သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- the teacher explains directly why animal cells don't hold a fixed shape.",
+              "This matches Day 1's third quiz question: cell wall is plant-only, and without it, a cell membrane alone can't hold a rigid shape.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- တိရစ္ဆာန်ဆဲလ်များ ပုံသေပုံသဏ္ဌာန် အဘယ့်ကြောင့် မထိန်းထားနိုင်ကြောင်း ဆရာမက တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "ဤသည်မှာ ပထမနေ့ တတိယမေးခွန်းနှင့် ကိုက်ညီသည် - ဆဲလ်နံရံသည် အပင်တွင်သာ ရှိပြီး ၎င်းမရှိပါက ဆဲလ်မြှေးပါးတစ်ခုတည်းဖြင့် မာကျောသောပုံသဏ္ဌာန်ကို မထိန်းထားနိုင်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did both the onion cells and the cheek cells have in common?",
+            questionMy:
+                "ကြက်သွန်နီဆဲလ်များနှင့် ပါးဝဆဲလ်များ နှစ်မျိုးလုံးတွင် ဘုံတူညီသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Both had a nucleus and cytoplasm.",
+              "Both had a thick cell wall.",
+              "Both had chloroplasts.",
+              "Neither had any cell structures at all.",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးတွင် နျူကလိယနှင့် ဆိုင်တိုပလာဇင် ရှိခဲ့သည်။",
+              "နှစ်ခုစလုံးတွင် ထူထပ်သော ဆဲလ်နံရံ ရှိခဲ့သည်။",
+              "နှစ်ခုစလုံးတွင် ကလိုရိုပလတ်များ ရှိခဲ့သည်။",
+              "နှစ်ခုစလုံးတွင် ဆဲလ်အစိတ်အပိုင်း လုံးဝ မရှိခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's final sentence, which names exactly what the cheek cells shared with the onion cells.",
+              "This is Day 1 and Day 3's key idea: some structures, like the nucleus and cytoplasm, are shared by both plant and animal cells.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ပါးဝဆဲလ်များတွင် ကြက်သွန်နီဆဲလ်များနှင့် ဘုံတူညီသောအရာကို အတိအကျ အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့နှင့် တတိယနေ့၏ အဓိကအတွေးအခေါ်ဖြစ်သည် - နျူကလိယနှင့် ဆိုင်တိုပလာဇင်ကဲ့သို့ အစိတ်အပိုင်းအချို့သည် အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the onion cells look colorless instead of green?",
+            questionMy:
+                "ကြက်သွန်နီဆဲလ်များသည် အစိမ်းရောင်အစား အရောင်ကင်းမဲ့နေသည်ဟု အဘယ့်ကြောင့် တွေ့ရသနည်း။",
+            optionsEn: [
+              "Onions grow underground, so their cells have no chloroplasts, unlike a leaf's green, light-exposed cells.",
+              "Onion cells never contain a nucleus.",
+              "Onions are actually a type of animal, not a plant.",
+              "The microscope removes all color from anything viewed through it.",
+            ],
+            optionsMy: [
+              "ကြက်သွန်နီများသည် မြေအောက်တွင် ကြီးထွားသောကြောင့် ၎င်းတို့၏ဆဲလ်များတွင် ကလိုရိုပလတ် လုံးဝ မရှိပါ၊ အလင်းထိတွေ့သော အရွက်၏ အစိမ်းရောင်ဆဲလ်များနှင့် မတူပါ။",
+              "ကြက်သွန်နီဆဲလ်များတွင် နျူကလိယ ဘယ်တော့မှ မပါဝင်ပါ။",
+              "ကြက်သွန်နီများသည် အမှန်တကယ် အပင်မဟုတ်ဘဲ တိရစ္ဆာန်အမျိုးအစားတစ်မျိုး ဖြစ်သောကြောင့်။",
+              "အဏုကြည့်မှန်ပြောင်းသည် ၎င်းဖြင့် ကြည့်သမျှအရာအားလုံးမှ အရောင်ကို ဖယ်ရှားပေးသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- the teacher explains this directly, linking it to next week's photosynthesis lesson.",
+              "Only the green, light-exposed parts of a plant, like leaves, contain chloroplasts -- an underground bulb like an onion does not.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆရာမက ၎င်းကို နောက်အပတ်၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသင်ခန်းစာနှင့် ဆက်စပ်၍ တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "အရွက်ကဲ့သို့ အစိမ်းရောင်၊ အလင်းထိတွေ့သော အပင်အစိတ်အပိုင်းများတွင်သာ ကလိုရိုပလတ် ပါဝင်ပြီး -- ကြက်သွန်နီကဲ့သို့ မြေအောက်ဗူးတွင် မပါဝင်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Cells",
+      titleMy: "အပတ်စဉ် ၁၄ ပြန်လည်သုံးသပ်ခြင်း - ဆဲလ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which structure is found only in plant cells?",
+          questionMy: "အပင်ဆဲလ်တွင်သာ တွေ့ရသော အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Cell wall", "Nucleus", "Cytoplasm", "Cell membrane"],
+          optionsMy: ["ဆဲလ်နံရံ", "နျူကလိယ", "ဆိုင်တိုပလာဇင်", "ဆဲလ်မြှေးပါး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Both bucket.",
+            "This structure gives Zin Zin's onion cells their rigid, brick-like shape.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် နှစ်မျိုးလုံးကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "ဤအစိတ်အပိုင်းသည် ဇင်ဇင်၏ ကြက်သွန်နီဆဲလ်များကို မာကျောသော အုတ်ခဲပုံသဏ္ဌာန် ပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What instrument magnifies cells so they can be seen?",
+          questionMy:
+              "ဆဲလ်များကို မြင်နိုင်ရန် ချဲ့ကြည့်ပေးသော ကိရိယာမှာ အဘယ်နည်း။",
+          optionsEn: ["Microscope", "Thermometer", "Balance", "Force meter"],
+          optionsMy: [
+            "အဏုကြည့်မှန်ပြောင်း",
+            "အပူချိန်တိုင်းကိရိယာ",
+            "ချိန်ခွင်",
+            "အားတိုင်းကိရိယာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Zin Zin's science class -- what tool let her see the onion and cheek cells for the first time?",
+            "The other three are all Week 1 instruments, but none of them can magnify something too small to see.",
+          ],
+          hintsMy: [
+            "ဇင်ဇင်၏ သိပ္ပံအတန်းကို သတိရပါ -- ကြက်သွန်နီနှင့် ပါးဝဆဲလ်များကို ပထမဆုံးအကြိမ် မြင်စေသောကိရိယာမှာ အဘယ်နည်း။",
+            "အခြားသုံးခုသည် Week 1 ၏ ကိရိယာများဖြစ်ကြသော်လည်း ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ မမြင်နိုင်လောက်အောင် သေးငယ်သောအရာကို ချဲ့၍ မပြသနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Where does respiration release energy from food inside a cell?",
+          questionMy:
+              "ဆဲလ်တစ်ခုအတွင်း အသက်ရှုမှုက အစားအစာမှ စွမ်းအင်ကို မည်သည့်နေရာတွင် ထုတ်ယူသနည်း။",
+          optionsEn: [
+            "The mitochondrion",
+            "The cell wall",
+            "The chloroplast",
+            "The nucleus",
+          ],
+          optionsMy: [
+            "မိုက်တိုကွန်ဒရီယာ",
+            "ဆဲလ်နံရံ",
+            "ကလိုရိုပလတ်",
+            "နျူကလိယ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- one structure was named directly for its role in respiration.",
+            "This structure is found in both plant and animal cells -- exactly matching Week 13's respiration definition.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အစိတ်အပိုင်းတစ်ခုကို အသက်ရှုမှုတွင် ၎င်း၏အခန်းကဏ္ဍအတွက် တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            "ဤအစိတ်အပိုင်းသည် အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရပြီး Week 13 ၏ အသက်ရှုမှု အဓိပ္ပာယ်ဖွင့်ဆိုချက်နှင့် အတိအကျ ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which structure contains chlorophyll and is only found in green plant cells?",
+          questionMy:
+              "ကလိုရိုဖီးလ်ပါဝင်ပြီး အစိမ်းရောင် အပင်ဆဲလ်များတွင်သာ တွေ့ရသော အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Chloroplast",
+            "Nucleus",
+            "Mitochondrion",
+            "Cell membrane",
+          ],
+          optionsMy: [
+            "ကလိုရိုပလတ်",
+            "နျူကလိယ",
+            "မိုက်တိုကွန်ဒရီယာ",
+            "ဆဲလ်မြှေးပါး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall why Zin Zin's onion cells looked colorless -- underground onions lack this one structure.",
+            "This structure's name shares a root with \"chlorophyll,\" the pigment it contains.",
+          ],
+          hintsMy: [
+            "ဇင်ဇင်၏ ကြက်သွန်နီဆဲလ်များ အရောင်ကင်းမဲ့ နေခဲ့ရသည့်အကြောင်းရင်းကို သတိရပါ -- မြေအောက်ကြက်သွန်နီများတွင် ဤအစိတ်အပိုင်းတစ်ခုတည်း မရှိကြောင်း။",
+            "ဤအစိတ်အပိုင်း၏ အမည်သည် ၎င်းပါဝင်သော အရောင်ဓာတ်ဖြစ်သည့် \"ကလိုရိုဖီးလ်\" နှင့် အမြစ်တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which structures did both the onion cells and cheek cells share, according to the reading?",
+          questionMy:
+              "စာဖတ်ခန်းအရ ကြက်သွန်နီဆဲလ်များနှင့် ပါးဝဆဲလ်များ နှစ်မျိုးလုံးတွင် ဘုံတူညီသော အစိတ်အပိုင်းများမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Nucleus and cytoplasm",
+            "Cell wall and chloroplast",
+            "Only the cell wall",
+            "Nothing at all was shared",
+          ],
+          optionsMy: [
+            "နျူကလိယနှင့် ဆိုင်တိုပလာဇင်",
+            "ဆဲလ်နံရံနှင့် ကလိုရိုပလတ်",
+            "ဆဲလ်နံရံတစ်ခုတည်း",
+            "ဘာမျှ ဘုံတူညီခြင်း လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading's final comparison -- both cell types had one control-center structure and one jelly-like filling structure.",
+            "Cell wall and chloroplast are plant-only (Day 1 and Day 3) -- the cheek cells couldn't have shared those.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်း၏ နောက်ဆုံးနှိုင်းယှဉ်ချက်ကို သတိရပါ -- ဆဲလ်အမျိုးအစားနှစ်ခုစလုံးတွင် ထိန်းချုပ်ရေးဌာနချုပ် အစိတ်အပိုင်းတစ်ခုနှင့် ဂျယ်လီပုံစံဖြည့်ထားသော အစိတ်အပိုင်းတစ်ခု ရှိခဲ့သည်။",
+            "ဆဲလ်နံရံနှင့် ကလိုရိုပလတ်တို့သည် (ပထမနေ့နှင့် တတိယနေ့) အပင်တွင်သာ ရှိပြီး -- ပါးဝဆဲလ်များတွင် ၎င်းတို့ ဘုံတူညီနိုင်မည် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the cell wall made of?",
+          questionMy: "ဆဲလ်နံရံသည် အဘယ်ပစ္စည်းဖြင့် ဖွဲ့စည်းထားသနည်း။",
+          optionsEn: [
+            "Cellulose",
+            "Chlorophyll",
+            "Copper",
+            "Cellulose is wrong -- it's made of iron",
+          ],
+          optionsMy: [
+            "ဆယ်လူလိုဇ်",
+            "ကလိုရိုဖီးလ်",
+            "ကြေးနီ",
+            "ဆယ်လူလိုဇ် မှားသည် -- သံဖြင့် ဖွဲ့စည်းထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match definition of cell wall -- it names the exact tough material directly.",
+            "Chlorophyll is the green pigment inside a chloroplast, not the cell wall's material -- rule that option out.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ ဆဲလ်နံရံ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ၎င်းက မာကျောသောပစ္စည်းအတိအကျကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            "ကလိုရိုဖီးလ်သည် ကလိုရိုပလတ်အတွင်းရှိ စိမ်းသောအရောင်ဓာတ်ဖြစ်ပြီး ဆဲလ်နံရံ၏ပစ္စည်း မဟုတ်ပါ -- ထိုရွေးချယ်စရာကို ဖယ်ရှားပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 4, Week 15: "Photosynthesis: How Plants
+// Make Their Own Food"
+// =====================================================================
+
+/// Week 15 gives photosynthesis a full word equation, deliberately
+/// reusing Week 9's word-equation format (reactants -> products) on a
+/// biology reaction for the first time, and explicitly reusing carbon
+/// dioxide and oxygen -- Week 9's combustion product and reactant --
+/// now in the opposite roles. Occurs in the chloroplast (Week 14) and
+/// is described as requiring an input of light energy, extending
+/// Week 8's energy-absorbing framing to a new energy type (light,
+/// rather than heat) ahead of Week 16's exothermic contrast with
+/// respiration.
+const CourseWeekDef _secondary1ScienceWeek15 = CourseWeekDef(
+  id: "course-secondary1-science-w15",
+  weekNumber: 15,
+  titleEn: "Photosynthesis: How Plants Make Their Own Food",
+  titleMy:
+      "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း - အပင်များ ၎င်းတို့ကိုယ်ပိုင် အစားအစာ ပြုလုပ်ပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w15-d1",
+      dayNumber: 1,
+      titleEn: "Photosynthesis Quiz",
+      titleMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is photosynthesis, in simple terms?",
+          questionMy:
+              "ရိုးရှင်းစွာ ဆိုရလျှင် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Photosynthesis) ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The process green plants use to make their own food, using light energy.",
+            "The process animals use to break down food they have eaten.",
+            "The process of a metal rusting slowly.",
+            "The process of a circuit's current creating a magnetic field.",
+          ],
+          optionsMy: [
+            "အစိမ်းရောင်အပင်များ ၎င်းတို့ကိုယ်ပိုင် အစားအစာကို အလင်းစွမ်းအင်ကို အသုံးပြု၍ ပြုလုပ်ပေးသည့် လုပ်ငန်းစဉ်။",
+            "တိရစ္ဆာန်များ စားသုံးလိုက်သော အစားအစာကို ကွဲအက်စေသည့် လုပ်ငန်းစဉ်။",
+            "သတ္တုတစ်ခု ဖြည်းညှင်းစွာ သံချေးတက်သည့် လုပ်ငန်းစဉ်။",
+            "ပတ်လမ်းတစ်ခု၏ ရေစီးက သံလိုက်စက်ကွင်း ဖြစ်ပေါ်စေသည့် လုပ်ငန်းစဉ်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's MRS GREN -- the sunflower's \"nutrition\" characteristic came from making its own food this exact way.",
+            "This process is unique to green plants -- it is not digestion (animals), oxidation (Week 9), or magnetism (Week 12).",
+          ],
+          hintsMy: [
+            "Week 13 ၏ MRS GREN ကို သတိရပါ -- နေကြာပင်၏ \"အာဟာရ\" လက္ခဏာသည် ဤနည်းအတိအကျဖြင့် ကိုယ်ပိုင်အစားအစာ ပြုလုပ်ခြင်းမှ ဖြစ်ပေါ်လာသည်။",
+            "ဤလုပ်ငန်းစဉ်သည် အစိမ်းရောင်အပင်များအတွက်သာ သီးသန့်ဖြစ်ပြီး -- ၎င်းသည် အစာကြေခြင်း (တိရစ္ဆာန်)၊ အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု (Week 9) (သို့) သံလိုက်ဗေဒ (Week 12) မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the word equation for photosynthesis, carbon dioxide and water combine, using light energy, to form which two products?",
+          questionMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ စကားလုံးညီမျှခြင်းတွင် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေတို့သည် အလင်းစွမ်းအင်ကို အသုံးပြု၍ မည်သည့် ရလဒ်ပစ္စည်းနှစ်ခုကို ဖြစ်ပေါ်စေသနည်း။",
+          optionsEn: [
+            "Glucose and oxygen",
+            "Carbon dioxide and water again",
+            "Iron oxide and rust",
+            "Salt and water",
+          ],
+          optionsMy: [
+            "ဂလူးကို့စ်နှင့် အောက်ဆီဂျင်",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေ ထပ်တလဲလဲ",
+            "သံအောက်ဆိုဒ်နှင့် သံချေး",
+            "ဆားနှင့် ရေ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 9's word equations -- reactants go on the left, and turn into new products on the right.",
+            "Iron oxide/rust (Week 9's oxidation) and salt/water (Week 8's neutralization) belong to completely different reactions.",
+          ],
+          hintsMy: [
+            "Week 9 ၏ စကားလုံးညီမျှခြင်းများကို သတိရပါ -- တုန့်ပြန်ပစ္စည်းများသည် ဘယ်ဘက်တွင်ရှိပြီး ညာဘက်ရှိ ရလဒ်ပစ္စည်းအသစ်များအဖြစ် ပြောင်းလဲသွားသည်။",
+            "သံအောက်ဆိုဒ်/သံချေး (Week 9 ၏ အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု) နှင့် ဆား/ရေ (Week 8 ၏ အက်ဆစ်ဓာတ်ပျက်ခြင်း) တို့သည် လုံးဝ မတူညီသော တုန့်ပြန်မှုများနှင့် သက်ဆိုင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Where inside a plant cell does photosynthesis take place?",
+          questionMy:
+              "အပင်ဆဲလ်တစ်ခုအတွင်း အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် မည်သည့်နေရာတွင် ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "The chloroplast",
+            "The mitochondrion",
+            "The cell wall alone",
+            "The nucleus",
+          ],
+          optionsMy: [
+            "ကလိုရိုပလတ်",
+            "မိုက်တိုကွန်ဒရီယာ",
+            "ဆဲလ်နံရံတစ်ခုတည်း",
+            "နျူကလိယ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 14 -- this structure contains chlorophyll and is only found in green plant cells.",
+            "Mitochondrion is where respiration happens (Week 14), a different process entirely from photosynthesis.",
+          ],
+          hintsMy: [
+            "Week 14 ကို သတိရပါ -- ဤအစိတ်အပိုင်းတွင် ကလိုရိုဖီးလ် ပါဝင်ပြီး အစိမ်းရောင် အပင်ဆဲလ်များတွင်သာ တွေ့ရသည်။",
+            "မိုက်တိုကွန်ဒရီယာသည် (Week 14) အသက်ရှုမှု ဖြစ်ပျက်ရာနေရာဖြစ်ပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် လုံးဝ မတူညီသော လုပ်ငန်းစဉ်တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Just like Week 8's endothermic reactions absorb thermal energy from their surroundings, photosynthesis absorbs what kind of energy from the sun to work?",
+          questionMy:
+              "Week 8 ၏ အပူစုပ်တုန့်ပြန်မှုများသည် ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်ကို စုပ်ယူသကဲ့သို့ပင် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် အလုပ်လုပ်ရန် နေဝန်းမှ မည်သည့်စွမ်းအင်အမျိုးအစားကို စုပ်ယူသနည်း။",
+          optionsEn: [
+            "Light energy",
+            "Sound energy",
+            "Magnetic energy",
+            "No energy is needed at all",
+          ],
+          optionsMy: [
+            "အလင်းစွမ်းအင်",
+            "အသံစွမ်းအင်",
+            "သံလိုက်စွမ်းအင်",
+            "စွမ်းအင် လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The process's own name is a strong clue -- \"photo-\" refers to light.",
+            "Recall Week 7's energy stores -- this is a new source feeding into a chemical reaction, distinct from thermal energy.",
+          ],
+          hintsMy: [
+            "ဤလုပ်ငန်းစဉ်၏ အမည်ကိုယ်တိုင်က အကြံပြုချက်ကောင်းတစ်ခု ဖြစ်သည် -- \"photo-\" သည် အလင်းကို ရည်ညွှန်းသည်။",
+            "Week 7 ၏ စွမ်းအင်သိုလှောင်မှုများကို သတိရပါ -- ၎င်းသည် ဓာတုတုန့်ပြန်မှုတစ်ခုအတွင်းသို့ ဝင်ရောက်နေသော ရင်းမြစ်အသစ်ဖြစ်ပြီး အပူစွမ်းအင်နှင့် ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match the Photosynthesis Terms",
+      titleMy:
+          "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w15-dm-1",
+          termEn: "Photosynthesis",
+          termMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Photosynthesis)",
+          matchEn:
+              "The process green plants use to make glucose and oxygen from carbon dioxide and water, using light energy.",
+          matchMy:
+              "အစိမ်းရောင်အပင်များသည် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေမှ အလင်းစွမ်းအင်ကို အသုံးပြု၍ ဂလူးကို့စ်နှင့် အောက်ဆီဂျင် ဖြစ်ပေါ်စေသည့် လုပ်ငန်းစဉ်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w15-dm-2",
+          termEn: "Chlorophyll",
+          termMy: "ကလိုရိုဖီးလ် (Chlorophyll)",
+          matchEn:
+              "The green pigment inside a chloroplast that absorbs light energy for photosynthesis.",
+          matchMy:
+              "ကလိုရိုပလတ်အတွင်းရှိ စိမ်းသောအရောင်ဓာတ်ဖြစ်ပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းအတွက် အလင်းစွမ်းအင်ကို စုပ်ယူသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w15-dm-3",
+          termEn: "Glucose",
+          termMy: "ဂလူးကို့စ် (Glucose)",
+          matchEn:
+              "A type of sugar produced by photosynthesis, used by the plant for energy (via respiration) and growth.",
+          matchMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ထုတ်ပေးသော သကြားအမျိုးအစားတစ်ခုဖြစ်ပြီး အပင်က (အသက်ရှုမှုမှတဆင့်) စွမ်းအင်နှင့် ကြီးထွားမှုအတွက် အသုံးပြုသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w15-dm-4",
+          termEn: "Light Energy",
+          termMy: "အလင်းစွမ်းအင် (Light Energy)",
+          matchEn:
+              "The energy from the sun that photosynthesis absorbs to build glucose from carbon dioxide and water.",
+          matchMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေမှ ဂလူးကို့စ် တည်ဆောက်ရန် စုပ်ယူသော နေဝန်းမှစွမ်းအင်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w15-dm-5",
+          termEn: "Carbon Dioxide",
+          termMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ် (Carbon Dioxide)",
+          matchEn:
+              "A gas taken in from the air as a reactant of photosynthesis -- the same gas released as a product of Week 9's combustion.",
+          matchMy:
+              "လေထဲမှ ရှူသွင်းယူသော ဓာတ်ငွေ့ဖြစ်ပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ တုန့်ပြန်ပစ္စည်းတစ်ခု ဖြစ်သည် -- Week 9 ၏ လောင်ကျွမ်းမှု၏ ရလဒ်ပစ္စည်းအဖြစ် ထုတ်လွှတ်သော ဓာတ်ငွေ့တစ်မျိုးတည်းပင် ဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w15-dm-6",
+          termEn: "Oxygen",
+          termMy: "အောက်ဆီဂျင် (Oxygen)",
+          matchEn:
+              "A gas released as a product of photosynthesis, and breathed in by other living things.",
+          matchMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ ရလဒ်ပစ္စည်းတစ်ခုအဖြစ် ထုတ်လွှတ်သော ဓာတ်ငွေ့ဖြစ်ပြီး အခြားသက်ရှိများက ရှူသွင်းသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reactant or Product of Photosynthesis?",
+      titleMy:
+          "စီစစ်ကြမည် - အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ တုန့်ပြန်ပစ္စည်းလား၊ ရလဒ်ပစ္စည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reactant (Goes In)", "Product (Comes Out)"],
+        bucketsMy: ["တုန့်ပြန်ပစ္စည်း (ဝင်သည်)", "ရလဒ်ပစ္စည်း (ထွက်သည်)"],
+        items: [
+          SortingItem(
+            id: "s1sci-w15-sort-1",
+            labelEn: "Carbon dioxide",
+            labelMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+            correctBucketEn: "Reactant (Goes In)",
+            correctBucketMy: "တုန့်ပြန်ပစ္စည်း (ဝင်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-2",
+            labelEn: "Water",
+            labelMy: "ရေ",
+            correctBucketEn: "Reactant (Goes In)",
+            correctBucketMy: "တုန့်ပြန်ပစ္စည်း (ဝင်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-3",
+            labelEn: "Glucose",
+            labelMy: "ဂလူးကို့စ်",
+            correctBucketEn: "Product (Comes Out)",
+            correctBucketMy: "ရလဒ်ပစ္စည်း (ထွက်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-4",
+            labelEn: "Oxygen",
+            labelMy: "အောက်ဆီဂျင်",
+            correctBucketEn: "Product (Comes Out)",
+            correctBucketMy: "ရလဒ်ပစ္စည်း (ထွက်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-5",
+            labelEn: "The gas a plant takes in from the air",
+            labelMy: "အပင်တစ်ပင်က လေထဲမှ ရှူသွင်းယူသော ဓာတ်ငွေ့",
+            correctBucketEn: "Reactant (Goes In)",
+            correctBucketMy: "တုန့်ပြန်ပစ္စည်း (ဝင်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-6",
+            labelEn: "The sugar a plant uses for energy and growth",
+            labelMy:
+                "အပင်တစ်ပင်က စွမ်းအင်နှင့် ကြီးထွားမှုအတွက် အသုံးပြုသော သကြား",
+            correctBucketEn: "Product (Comes Out)",
+            correctBucketMy: "ရလဒ်ပစ္စည်း (ထွက်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-7",
+            labelEn: "The gas released that other living things breathe in",
+            labelMy: "အခြားသက်ရှိများ ရှူသွင်းသော ထုတ်လွှတ်ပေးသည့်ဓာတ်ငွေ့",
+            correctBucketEn: "Product (Comes Out)",
+            correctBucketMy: "ရလဒ်ပစ္စည်း (ထွက်သည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w15-sort-8",
+            labelEn: "The liquid absorbed by a plant's roots",
+            labelMy: "အပင်တစ်ပင်၏ အမြစ်များက စုပ်ယူသော အရည်",
+            correctBucketEn: "Reactant (Goes In)",
+            correctBucketMy: "တုန့်ပြန်ပစ္စည်း (ဝင်သည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thant's Sunflower Experiment",
+      titleMy: "စာဖတ်ခြင်း - သန့်၏ နေကြာပင်စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thant's Sunflower Experiment",
+        titleMy: "သန့်၏ နေကြာပင်စမ်းသပ်မှု",
+        passageEn:
+            "For his science project, Thant wanted to test whether sunflower seedlings really needed light to grow well, applying Week 1's fair-test rules. He planted two identical sunflower seedlings in identical pots, using the same soil and the same amount of water each day, keeping every variable the same except one: light.\n\nThant placed the first seedling on a sunny windowsill and the second inside a dark cupboard, checking on both every morning. After a week, the windowsill seedling stood tall with broad, deep-green leaves. The cupboard seedling, however, had grown thin, pale, yellowish leaves and looked weak, even though it had received exactly the same water and soil.\n\nThant's teacher explained why: without light, the cupboard seedling's chloroplasts couldn't carry out photosynthesis properly, since chlorophyll needs light energy to combine carbon dioxide and water into glucose. Without enough glucose, the seedling couldn't grow strong new cells or produce enough chlorophyll to stay a healthy green color.\n\nThant recorded his results carefully, remembering Week 1's lesson that a fair test only changes one variable at a time. Because water, soil, and pot size were all identical, he could confidently conclude that light -- and light alone -- explained the dramatic difference between his two seedlings.",
+        passageMy:
+            "သန့်သည် သူ့သိပ္ပံစီမံကိန်းအတွက် Week 1 ၏ တရားမျှတသောစမ်းသပ်မှု စည်းမျဉ်းများကို အသုံးချလျက် နေကြာအပင်ငယ်များ ကောင်းစွာ ကြီးထွားရန် အလင်း အမှန်တကယ် လိုအပ်ခြင်း ရှိမရှိ စမ်းသပ်ရန် ဆန္ဒရှိခဲ့သည်။ သူသည် အတိအကျတူညီသော ရေဆေးအိုးနှစ်လုံးတွင် တူညီသော နေကြာအပင်ငယ်နှစ်ပင်ကို စိုက်ပျိုးခဲ့ပြီး၊ နေ့စဉ် တူညီသောရေထောင့်နှင့် တူညီသောမြေဖြင့် စောင့်ရှောက်ခဲ့ကာ ကိန်းရှင်အားလုံးကို တစ်ခုမှလွဲ၍ တူညီအောင် ထားခဲ့သည် - အလင်း။\n\nသန့်သည် ပထမအပင်ငယ်ကို နေရောင်ခြည်ကျသောပြတင်းပေါက်ဘောင်ပေါ်တွင် ထားပြီး ဒုတိယအပင်ငယ်ကို မှောင်နေသောဗီရိုတွင်းသို့ ထားလိုက်ကာ၊ နေ့စဉ်နံနက်တိုင်း နှစ်ပင်စလုံးကို စစ်ဆေးခဲ့သည်။ တစ်ပတ်ကြာပြီးနောက် ပြတင်းပေါက်ဘောင်ပေါ်ရှိအပင်ငယ်သည် ကျယ်ပြန့်ပြီး နက်သောအစိမ်းရောင်အရွက်များနှင့် မြင့်မားစွာ ရပ်တည်နေခဲ့သည်။ သို့သော် ဗီရိုတွင်းရှိအပင်ငယ်မှာမူ ပါးလွှာ၊ မှိန်ပြီး၊ ဝါသောအရွက်များ ကြီးထွားလာကာ ရေနှင့်မြေ အတိအကျတူညီစွာ ရရှိခဲ့သော်လည်း အားနည်းသော အသွင်ရှိခဲ့သည်။\n\nအလင်းမရှိဘဲ ဗီရိုတွင်းအပင်ငယ်၏ ကလိုရိုပလတ်များသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ကောင်းစွာ မဆောင်ရွက်နိုင်ခဲ့ကြောင်း သန့်၏ဆရာမက ရှင်းပြခဲ့သည်၊ အဘယ့်ကြောင့်ဆိုသော် ကလိုရိုဖီးလ်သည် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေကို ဂလူးကို့စ်အဖြစ်သို့ ပေါင်းစပ်ရန် အလင်းစွမ်းအင် လိုအပ်သောကြောင့် ဖြစ်သည်။ ဂလူးကို့စ် မလုံလောက်ခြင်းကြောင့် အပင်ငယ်သည် ကျန်းမာသော ဆဲလ်အသစ်များ ကြီးထွားနိုင်ခြင်း (သို့) ကျန်းမာသောအစိမ်းရောင်ဆက်ရှိရန် ကလိုရိုဖီးလ် လုံလုံလောက်လောက် ထုတ်လုပ်နိုင်ခြင်း မရှိခဲ့ပါ။\n\nတရားမျှတသောစမ်းသပ်မှုတစ်ခုသည် ကိန်းရှင်တစ်ခုကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသင့်ကြောင်း Week 1 ၏ သင်ခန်းစာကို သတိရလျက် သန့်သည် ၎င်း၏ ရလဒ်များကို ဂရုတစိုက် မှတ်တမ်းတင်ခဲ့သည်။ ရေ၊ မြေနှင့် အိုးအရွယ်အစားအားလုံး အတိအကျတူညီခဲ့သောကြောင့် အလင်း -- အလင်းတစ်ခုတည်းကသာ -- သူ့အပင်ငယ်နှစ်ပင်ကြား ထင်ရှားသောကွာခြားချက်ကို ရှင်းပြနိုင်ကြောင်း သူ ယုံကြည်စိတ်ချစွာ ကောက်ချက်ချနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the one variable Thant deliberately changed between his two seedlings?",
+            questionMy:
+                "သန့်သည် ၎င်း၏ အပင်ငယ်နှစ်ပင်ကြား တမင်တကာ ပြောင်းလဲခဲ့သော ကိန်းရှင်တစ်ခုတည်းမှာ အဘယ်နည်း။",
+            optionsEn: ["Light", "Water", "Soil", "Pot size"],
+            optionsMy: ["အလင်း", "ရေ", "မြေ", "အိုးအရွယ်အစား"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- what does the passage name as the only thing kept different?",
+              "This is Week 1's fair-test rule applied directly -- everything else stayed identical.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ကွဲပြားအောင် ထားခဲ့သော တစ်ခုတည်းသောအရာကို စာပိုဒ်က အဘယ်ဟု အမည်တွင်ထားသနည်း။",
+              "ဤသည်မှာ Week 1 ၏ တရားမျှတသောစမ်းသပ်မှုစည်းမျဉ်းကို တိုက်ရိုက် အသုံးချထားခြင်းဖြစ်ပြီး -- အခြားအရာအားလုံး တူညီစွာ ဆက်ရှိနေခဲ့သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the cupboard seedling's leaves turn pale and yellowish?",
+            questionMy:
+                "ဗီရိုတွင်းအပင်ငယ်၏ အရွက်များသည် အဘယ့်ကြောင့် မှိန်ပြီး ဝါလာခဲ့သနည်း။",
+            optionsEn: [
+              "Without light, its chloroplasts couldn't photosynthesize properly, producing too little glucose and chlorophyll.",
+              "It received too much water.",
+              "It was planted in the wrong type of pot.",
+              "Yellow leaves are actually a sign of very healthy growth.",
+            ],
+            optionsMy: [
+              "အလင်းမရှိဘဲ ၎င်း၏ ကလိုရိုပလတ်များက အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ကောင်းစွာ မဆောင်ရွက်နိုင်ခဲ့ဘဲ ဂလူးကို့စ်နှင့် ကလိုရိုဖီးလ် နည်းလွန်းစွာ ထုတ်ပေးခဲ့သောကြောင့်။",
+              "ရေများလွန်းစွာ ရရှိခဲ့သောကြောင့်။",
+              "မှားယွင်းသောအိုးအမျိုးအစားတွင် စိုက်ပျိုးခဲ့သောကြောင့်။",
+              "ဝါသောအရွက်များသည် အမှန်တကယ် ကျန်းမာသောကြီးထွားမှု၏ အမှတ်လက္ခဏာ ဖြစ်သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- the teacher explains this exact cause directly.",
+              "Without light energy, chlorophyll cannot combine carbon dioxide and water into glucose -- Day 1's word equation, disrupted.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆရာမက ဤအကြောင်းရင်းအတိအကျကို တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "အလင်းစွမ်းအင်မရှိဘဲ ကလိုရိုဖီးလ်သည် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေကို ဂလူးကို့စ်အဖြစ်သို့ ပေါင်းစပ်၍ မရနိုင်ပါ -- ပထမနေ့၏ စကားလုံးညီမျှခြင်း ပျက်စီးသွားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Thant keep water, soil and pot size identical for both seedlings?",
+            questionMy:
+                "သန့်သည် အပင်ငယ်နှစ်ပင်စလုံးအတွက် ရေ၊ မြေနှင့် အိုးအရွယ်အစားကို အဘယ့်ကြောင့် တူညီအောင် ထားခဲ့သနည်း။",
+            optionsEn: [
+              "So that light would be the only variable able to explain any difference between them -- a fair test.",
+              "Because it made the experiment take less time.",
+              "Because different soils are illegal to use in experiments.",
+              "It didn't matter at all, and was purely accidental.",
+            ],
+            optionsMy: [
+              "ကွာခြားမှုတစ်ခုခုကို ရှင်းပြနိုင်သော တစ်ခုတည်းသောကိန်းရှင်အဖြစ် အလင်းသာ ဖြစ်စေရန် -- တရားမျှတသောစမ်းသပ်မှု။",
+              "စမ်းသပ်မှုကို ပိုမိုမြန်ဆန်စေရန်။",
+              "မတူညီသောမြေအမျိုးအစားများကို စမ်းသပ်မှုတွင် အသုံးပြုခြင်းသည် တရားမဝင်သောကြောင့်။",
+              "လုံးဝ အရေးမကြီးဘဲ ရုတ်တရက်သာ ဖြစ်ခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Week 1's fair-test principle -- changing only one variable is the whole point of a fair, reliable experiment.",
+              "Re-read the final paragraph, which names this reasoning directly.",
+            ],
+            hintsMy: [
+              "Week 1 ၏ တရားမျှတသောစမ်းသပ်မှု စည်းမျဉ်းကို သတိရပါ -- ကိန်းရှင်တစ်ခုတည်းကိုသာ ပြောင်းလဲခြင်းသည် တရားမျှတပြီး ယုံကြည်စိတ်ချရသောစမ်းသပ်မှု၏ ရည်ရွယ်ချက်တစ်ခုလုံး ဖြစ်သည်။",
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ဤကျိုးကြောင်းဆင်ခြင်မှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thant conclude explained the dramatic difference between his two seedlings?",
+            questionMy:
+                "သန့်သည် ၎င်း၏ အပင်ငယ်နှစ်ပင်ကြား ထင်ရှားသောကွာခြားချက်ကို အဘယ်ကြောင့်ဟု ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "Light, and light alone.",
+              "Water, and water alone.",
+              "Soil type, and soil type alone.",
+              "Pure luck, with no scientific explanation.",
+            ],
+            optionsMy: [
+              "အလင်း၊ အလင်းတစ်ခုတည်း။",
+              "ရေ၊ ရေတစ်ခုတည်း။",
+              "မြေအမျိုးအစား၊ မြေအမျိုးအစားတစ်ခုတည်း။",
+              "ကံကောင်းခြင်းသက်သက်ဖြစ်ပြီး သိပ္ပံနည်းကျ ရှင်းပြချက် မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence of the passage, which states Thant's conclusion directly.",
+              "Since every other variable was identical, the only remaining explanation for the difference has to be the one thing that changed.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက သန့်၏ ကောက်ချက်ကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "အခြားကိန်းရှင်အားလုံး တူညီခဲ့သောကြောင့် ကွာခြားချက်အတွက် ကျန်ရှိသောရှင်းပြချက်မှာ ပြောင်းလဲခဲ့သောအရာတစ်ခုတည်းသာ ဖြစ်နိုင်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Photosynthesis",
+      titleMy: "အပတ်စဉ် ၁၅ ပြန်လည်သုံးသပ်ခြင်း - အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What two substances combine, using light energy, to start photosynthesis?",
+          questionMy:
+              "အလင်းစွမ်းအင်ကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို စတင်စေသော ပစ္စည်းနှစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Carbon dioxide and water",
+            "Glucose and oxygen",
+            "Iron and oxygen",
+            "Acid and base",
+          ],
+          optionsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေ",
+            "ဂလူးကို့စ်နှင့် အောက်ဆီဂျင်",
+            "သံနှင့် အောက်ဆီဂျင်",
+            "အက်ဆစ်နှင့် ဘေ့စ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's word equation -- glucose and oxygen are the products, not the starting reactants.",
+            "Iron+oxygen (Week 9) and acid+base (Week 8) are entirely different reactions from photosynthesis.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ စကားလုံးညီမျှခြင်းကို သတိရပါ -- ဂလူးကို့စ်နှင့် အောက်ဆီဂျင်သည် ရလဒ်ပစ္စည်းများဖြစ်ပြီး အစပြု တုန့်ပြန်ပစ္စည်းများ မဟုတ်ပါ။",
+            "သံ+အောက်ဆီဂျင် (Week 9) နှင့် အက်ဆစ်+ဘေ့စ် (Week 8) တို့သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် လုံးဝ မတူညီသော တုန့်ပြန်မှုများ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which structure absorbs light energy for photosynthesis?",
+          questionMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းအတွက် အလင်းစွမ်းအင်ကို စုပ်ယူသော အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Chlorophyll", "Cell wall", "Mitochondrion", "Nucleus"],
+          optionsMy: [
+            "ကလိုရိုဖီးလ်",
+            "ဆဲလ်နံရံ",
+            "မိုက်တိုကွန်ဒရီယာ",
+            "နျူကလိယ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- this green pigment inside a chloroplast has one specific job.",
+            "Mitochondrion is for respiration (Week 14) -- a different structure entirely.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ကလိုရိုပလတ်အတွင်းရှိ ဤစိမ်းသောအရောင်ဓာတ်တွင် တာဝန်တစ်ခုတည်း ရှိသည်။",
+            "မိုက်တိုကွန်ဒရီယာသည် (Week 14) အသက်ရှုမှုအတွက်ဖြစ်ပြီး လုံးဝ မတူညီသော အစိတ်အပိုင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which gas is released as a product of photosynthesis?",
+          questionMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ ရလဒ်ပစ္စည်းအဖြစ် ထုတ်လွှတ်သော ဓာတ်ငွေ့မှာ အဘယ်နည်း။",
+          optionsEn: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+          optionsMy: [
+            "အောက်ဆီဂျင်",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+            "နိုက်ထရိုဂျင်",
+            "ဟိုက်ဒရိုဂျင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's word equation -- carbon dioxide is a reactant here, not a product.",
+            "This is the same gas other living things breathe in, released by every green plant carrying out photosynthesis.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ စကားလုံးညီမျှခြင်းကို သတိရပါ -- ကာဗွန်ဒိုင်အောက်ဆိုဒ်သည် ဤနေရာတွင် တုန့်ပြန်ပစ္စည်းဖြစ်ပြီး ရလဒ်ပစ္စည်း မဟုတ်ပါ။",
+            "၎င်းသည် အခြားသက်ရှိများ ရှူသွင်းသော ဓာတ်ငွေ့တစ်မျိုးတည်းပင်ဖြစ်ပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပြုလုပ်သော အစိမ်းရောင်အပင်တိုင်းက ထုတ်လွှတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Thant's dark-cupboard seedling grow weak and pale?",
+          questionMy:
+              "သန့်၏ ဗီရိုတွင်းအပင်ငယ်သည် အဘယ့်ကြောင့် အားနည်းစွာနှင့် မှိန်စွာ ကြီးထွားခဲ့သနည်း။",
+          optionsEn: [
+            "Without light, it couldn't photosynthesize enough glucose and chlorophyll.",
+            "It received too little water.",
+            "It was planted in poisoned soil.",
+            "Darkness always makes plants grow faster and healthier.",
+          ],
+          optionsMy: [
+            "အလင်းမရှိဘဲ ဂလူးကို့စ်နှင့် ကလိုရိုဖီးလ် လုံလုံလောက်လောက် ပေါင်းစပ်၍ မရနိုင်ခဲ့ပါ။",
+            "ရေ နည်းလွန်းစွာ ရရှိခဲ့သည်။",
+            "အဆိပ်ရှိသောမြေတွင် စိုက်ပျိုးခဲ့သောကြောင့်။",
+            "မှောင်ခြင်းသည် အမြဲ အပင်များကို ပိုမြန်ပြီး ပိုကျန်းမာစွာ ကြီးထွားစေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage -- water and soil were kept identical for both seedlings.",
+            "This is Day 1's fourth question again -- light energy is essential for photosynthesis to work.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းကို သတိရပါ -- ရေနှင့်မြေတို့ကို အပင်ငယ်နှစ်ပင်စလုံးအတွက် တူညီအောင် ထားခဲ့သည်။",
+            "ဤသည်မှာ ပထမနေ့ စတုတ္ထမေးခွန်းပင် ဖြစ်ပြီး -- အလင်းစွမ်းအင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း အလုပ်လုပ်ရန် မရှိမဖြစ် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a plant use the glucose from photosynthesis for?",
+          questionMy:
+              "အပင်တစ်ပင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းမှ ရရှိသော ဂလူးကို့စ်ကို အဘယ်အတွက် အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Energy (via respiration) and growth",
+            "Making the plant magnetic",
+            "Conducting electricity",
+            "Nothing at all -- it is immediately wasted",
+          ],
+          optionsMy: [
+            "စွမ်းအင် (အသက်ရှုမှုမှတဆင့်) နှင့် ကြီးထွားမှု",
+            "အပင်ကို သံလိုက်ဆွဲနိုင်စေရန်",
+            "လျှပ်စစ်ကူးရန်",
+            "ဘာမျှမဟုတ်ပါ -- ချက်ချင်း ဖြုန်းတီးလိုက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- glucose links back to Week 13's \"nutrition\" and Week 14's mitochondrion.",
+            "This is the same energy-releasing process named in Week 13 and Week 14 -- respiration.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဂလူးကို့စ်သည် Week 13 ၏ \"အာဟာရ\" နှင့် Week 14 ၏ မိုက်တိုကွန်ဒရီယာနှင့် ပြန်ဆက်စပ်သည်။",
+            "၎င်းသည် Week 13 နှင့် Week 14 တွင် အမည်တွင်ခဲ့သော စွမ်းအင်ထုတ်ယူသည့် လုပ်ငန်းစဉ်တစ်ခုတည်းပင် ဖြစ်သည် -- အသက်ရှုမှု။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Thant's teacher say photosynthesis is impossible without light?",
+          questionMy:
+              "သန့်၏ ဆရာမက အလင်းမရှိဘဲ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ဖြစ်ပေါ်၍ မရနိုင်ဟု အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+          optionsEn: [
+            "Chlorophyll needs light energy to combine carbon dioxide and water into glucose.",
+            "Light has nothing to do with the process at all.",
+            "Chlorophyll works better in complete darkness.",
+            "Photosynthesis only needs water, never light.",
+          ],
+          optionsMy: [
+            "ကလိုရိုဖီးလ်သည် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေကို ဂလူးကို့စ်အဖြစ်သို့ ပေါင်းစပ်ရန် အလင်းစွမ်းအင် လိုအပ်သောကြောင့်။",
+            "အလင်းသည် ဤလုပ်ငန်းစဉ်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+            "ကလိုရိုဖီးလ်သည် လုံးဝမှောင်နေသောအခါတွင် ပိုမိုကောင်းစွာ အလုပ်လုပ်သည်။",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် ရေတစ်ခုတည်းသာ လိုအပ်ပြီး အလင်း လုံးဝ မလိုအပ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage's third paragraph, where the teacher explains this directly.",
+            "This is Day 1's word equation, made precise: without light energy, the reaction simply cannot happen.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်း၏ တတိယစာပိုဒ်ကို သတိရပါ -- ဆရာမက ၎င်းကို တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+            "ဤသည်မှာ ပထမနေ့၏ စကားလုံးညီမျှခြင်း အတိအကျဖြစ်လာခြင်းပင် ဖြစ်သည် -- အလင်းစွမ်းအင်မရှိဘဲ ဤတုန့်ပြန်မှု လုံးဝ ဖြစ်ပေါ်၍ မရနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 4, Week 16 (capstone): "Respiration and
+// Photosynthesis: Energy for Life"
+// =====================================================================
+
+/// Week 16 is Term 4's capstone, formally defining respiration's word
+/// equation (glucose + oxygen -> carbon dioxide + water + energy) as
+/// almost exactly the reverse of Week 15's photosynthesis, occurring in
+/// the mitochondrion (Week 14) of every living cell, all the time --
+/// unlike photosynthesis, which only happens in chloroplasts, in light.
+/// Explicitly reapplies Week 8's exothermic/endothermic vocabulary
+/// (respiration releases energy, exothermic; photosynthesis absorbs
+/// light energy, similar to Week 8's endothermic absorption) and
+/// precisely distinguishes respiration from breathing, resolving
+/// Week 13's informal definition. The final recap question deliberately
+/// reaches back to Week 7's conservation-of-energy principle, tying the
+/// whole pathway's energy strand together one last time.
+const CourseWeekDef _secondary1ScienceWeek16 = CourseWeekDef(
+  id: "course-secondary1-science-w16",
+  weekNumber: 16,
+  titleEn: "Respiration and Photosynthesis: Energy for Life",
+  titleMy:
+      "အသက်ရှုမှုနှင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း - အသက်ရှင်သန်မှုအတွက် စွမ်းအင်",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w16-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Respiration and Photosynthesis Quiz",
+      titleMy: "အသက်ရှုမှုနှင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the word equation for respiration?",
+          questionMy: "အသက်ရှုမှု၏ စကားလုံးညီမျှခြင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Glucose + oxygen -> carbon dioxide + water (+ energy)",
+            "Carbon dioxide + water -> glucose + oxygen (+ energy)",
+            "Iron + oxygen -> iron oxide",
+            "Acid + base -> salt + water",
+          ],
+          optionsMy: [
+            "ဂလူးကို့စ် + အောက်ဆီဂျင် -> ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ (+ စွမ်းအင်)",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ -> ဂလူးကို့စ် + အောက်ဆီဂျင် (+ စွမ်းအင်)",
+            "သံ + အောက်ဆီဂျင် -> သံအောက်ဆိုဒ်",
+            "အက်ဆစ် + ဘေ့စ် -> ဆား + ရေ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's photosynthesis equation -- respiration is almost exactly the reverse of it.",
+            "Rule out Week 9's rust equation and Week 8's neutralization equation -- those belong to completely different reactions.",
+          ],
+          hintsMy: [
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ညီမျှခြင်းကို သတိရပါ -- အသက်ရှုမှုသည် ၎င်းနှင့် အတိအကျပင် ဆန့်ကျင်ဘက်နီးပါး ဖြစ်သည်။",
+            "Week 9 ၏ သံချေးညီမျှခြင်းနှင့် Week 8 ၏ အက်ဆစ်ဓာတ်ပျက်ညီမျှခြင်းတို့ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် လုံးဝ မတူညီသော တုန့်ပြန်မှုများနှင့် သက်ဆိုင်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Where does respiration take place, and in which living things?",
+          questionMy:
+              "အသက်ရှုမှုသည် မည်သည့်နေရာတွင် ဖြစ်ပျက်ပြီး မည်သည့်သက်ရှိများတွင် ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "In the mitochondrion of every living cell -- both plant and animal cells, all the time.",
+            "Only in chloroplasts, only in green plant cells, only in light.",
+            "Only in an animal's lungs, never inside cells.",
+            "Nowhere -- respiration does not actually happen anywhere.",
+          ],
+          optionsMy: [
+            "သက်ရှိဆဲလ်တိုင်း၏ မိုက်တိုကွန်ဒရီယာတွင် -- အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံး၊ အချိန်တိုင်း ဖြစ်ပျက်သည်။",
+            "ကလိုရိုပလတ်တွင်သာ၊ အစိမ်းရောင် အပင်ဆဲလ်တွင်သာ၊ အလင်းရှိချိန်တွင်သာ။",
+            "တိရစ္ဆာန်တစ်ကောင်၏ အဆုတ်တွင်သာ၊ ဆဲလ်များအတွင်း ဘယ်တော့မှ မဖြစ်ပျက်ပါ။",
+            "မည်သည့်နေရာမျှ မဖြစ်ပျက်ပါ -- အသက်ရှုမှုသည် အမှန်တကယ် မည်သည့်နေရာတွင်မျှ ဖြစ်ပျက်ခြင်း မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 14's mitochondrion -- it's found in both plant and animal cells, not just plant cells like a chloroplast.",
+            "This is Week 13's precise distinction restated: respiration happens constantly in cells, unlike photosynthesis's light-only, plant-only limits.",
+          ],
+          hintsMy: [
+            "Week 14 ၏ မိုက်တိုကွန်ဒရီယာကို သတိရပါ -- ၎င်းသည် ကလိုရိုပလတ်ကဲ့သို့ အပင်ဆဲလ်တွင်သာမက အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+            "ဤသည်မှာ Week 13 ၏ တိကျသောခွဲခြားချက်ကို ထပ်ဆင့်ဖော်ပြခြင်းဖြစ်သည် -- အသက်ရှုမှုသည် ဆဲလ်များအတွင်း အမြဲဖြစ်ပျက်နေပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၏ အလင်း-အပင်တင်ကန့်သတ်ချက်များနှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recalling Week 8's terms, is respiration exothermic or endothermic?",
+          questionMy:
+              "Week 8 ၏ ဝေါဟာရများကို သတိရလျှင် အသက်ရှုမှုသည် အပူထုတ်တုန့်ပြန်မှုလား၊ အပူစုပ်တုန့်ပြန်မှုလား။",
+          optionsEn: [
+            "Exothermic -- it releases energy from glucose, similar to Week 8's burning wood.",
+            "Endothermic -- it absorbs energy, similar to Week 8's baking soda and vinegar.",
+            "Neither -- no energy is involved in respiration at all.",
+            "Both at exactly the same time, in equal amounts.",
+          ],
+          optionsMy: [
+            "အပူထုတ်တုန့်ပြန်မှု (Exothermic) -- ၎င်းသည် Week 8 ၏ သစ်သားလောင်ကျွမ်းခြင်းနှင့် ဆင်တူစွာ ဂလူးကို့စ်မှ စွမ်းအင် ထုတ်လွှတ်သည်။",
+            "အပူစုပ်တုန့်ပြန်မှု (Endothermic) -- ၎င်းသည် Week 8 ၏ အဆိုက်မီးဖုတ်ဆားနှင့် ရှာလကာရည်နှင့် ဆင်တူစွာ စွမ်းအင် စုပ်ယူသည်။",
+            "နှစ်ခုစလုံး မဟုတ်ပါ -- အသက်ရှုမှုတွင် စွမ်းအင် လုံးဝ မပါဝင်ပါ။",
+            "နှစ်ခုစလုံး တစ်ချိန်တည်း၊ ညီမျှသောပမာဏဖြင့် ဖြစ်ပျက်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Respiration's word equation ends with \"+ energy\" on the products side -- energy is released, not absorbed.",
+            "This is the direct opposite of photosynthesis (Week 15), which absorbs light energy to build glucose in the first place.",
+          ],
+          hintsMy: [
+            "အသက်ရှုမှု၏ စကားလုံးညီမျှခြင်းသည် ရလဒ်ပစ္စည်းဘက်တွင် \"+ စွမ်းအင်\" ဖြင့် အဆုံးသတ်သည် -- စွမ်းအင် ထုတ်လွှတ်ခြင်းဖြစ်ပြီး စုပ်ယူခြင်း မဟုတ်ပါ။",
+            "ဤသည်မှာ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Week 15) နှင့် အတိအကျ ဆန့်ကျင်ဘက်ဖြစ်ပြီး ၎င်းက ဂလူးကို့စ် ဦးဆုံးတည်ဆောက်ရန် အလင်းစွမ်းအင် စုပ်ယူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Precisely, how is \"respiration\" different from \"breathing\"?",
+          questionMy:
+              "\"အသက်ရှုမှု (Respiration)\" သည် \"အသက်ပြင်းစွာရှုခြင်း (Breathing)\" နှင့် အတိအကျ မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "Respiration is the chemical, energy-releasing process inside cells; breathing is only the physical movement of air in and out of the lungs.",
+            "They mean exactly the same thing, with no difference at all.",
+            "Breathing happens in cells, while respiration happens only in the lungs.",
+            "Respiration only happens in plants, and breathing only happens in animals.",
+          ],
+          optionsMy: [
+            "အသက်ရှုမှုသည် ဆဲလ်များအတွင်း စွမ်းအင်ထုတ်လွှတ်ပေးသော ဓာတုနည်းလုပ်ငန်းစဉ်ဖြစ်ပြီး၊ အသက်ပြင်းစွာရှုခြင်းသည် အဆုတ်ထဲသို့ လေဝင်လေထွက် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှုသာ ဖြစ်သည်။",
+            "၎င်းတို့သည် အဓိပ္ပာယ် အတိအကျတူညီပြီး ကွာခြားချက် လုံးဝ မရှိပါ။",
+            "အသက်ပြင်းစွာရှုခြင်းသည် ဆဲလ်များအတွင်း ဖြစ်ပျက်ပြီး အသက်ရှုမှုသည် အဆုတ်တွင်သာ ဖြစ်ပျက်သည်။",
+            "အသက်ရှုမှုသည် အပင်များတွင်သာ ဖြစ်ပျက်ပြီး အသက်ပြင်းစွာရှုခြင်းသည် တိရစ္ဆာန်များတွင်သာ ဖြစ်ပျက်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's original definition -- this week just restates it precisely with a full word equation attached.",
+            "Plants respire too (they have mitochondria), even though they don't breathe with lungs at all -- this rules out the plant/animal-only option.",
+          ],
+          hintsMy: [
+            "Week 13 ၏ မူလအဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ဤအပတ်တွင် ၎င်းကို စကားလုံးညီမျှခြင်းအပြည့်အစုံနှင့်တကွ အတိအကျ ထပ်ဆင့်ဖော်ပြသည်။",
+            "အပင်များသည်လည်း အသက်ရှုကြသည် (မိုက်တိုကွန်ဒရီယာ ရှိသောကြောင့်)၊ အဆုတ်ဖြင့် လုံးဝ အသက်ပြင်းစွာမရှူသော်လည်း -- ၎င်းက အပင်/တိရစ္ဆာန်တစ်ခုတည်းသာ ရွေးချယ်စရာကို ဖယ်ရှားပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match the Respiration Terms",
+      titleMy: "အသက်ရှုမှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w16-dm-1",
+          termEn: "Respiration",
+          termMy: "အသက်ရှုမှု (Respiration)",
+          matchEn:
+              "The chemical process of releasing energy from glucose and oxygen, happening constantly in every living cell.",
+          matchMy:
+              "ဂလူးကို့စ်နှင့် အောက်ဆီဂျင်မှ စွမ်းအင်ထုတ်ယူသည့် ဓာတုနည်းလုပ်ငန်းစဉ်ဖြစ်ပြီး သက်ရှိဆဲလ်တိုင်းအတွင်း အမြဲ ဖြစ်ပျက်နေသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w16-dm-2",
+          termEn: "Breathing",
+          termMy: "အသက်ပြင်းစွာရှုခြင်း (Breathing)",
+          matchEn:
+              "The physical movement of air in and out of the lungs -- not the same as respiration.",
+          matchMy:
+              "အဆုတ်ထဲသို့ လေဝင်လေထွက် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှုဖြစ်ပြီး -- အသက်ရှုမှုနှင့် မတူပါ။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w16-dm-3",
+          termEn: "Mitochondrion",
+          termMy: "မိုက်တိုကွန်ဒရီယာ (Mitochondrion)",
+          matchEn:
+              "The cell structure where respiration takes place, found in both plant and animal cells.",
+          matchMy:
+              "အသက်ရှုမှု ဖြစ်ပျက်ရာ ဆဲလ်အစိတ်အပိုင်းဖြစ်ပြီး အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w16-dm-4",
+          termEn: "Glucose",
+          termMy: "ဂလူးကို့စ် (Glucose)",
+          matchEn:
+              "The sugar made by photosynthesis and broken down by respiration to release energy.",
+          matchMy:
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ပြုလုပ်ပေးပြီး အသက်ရှုမှုက ကွဲအက်စေကာ စွမ်းအင်ထုတ်ယူပေးသော သကြား။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w16-dm-5",
+          termEn: "Exothermic Reaction",
+          termMy: "အပူထုတ်တုန့်ပြန်မှု (Exothermic Reaction)",
+          matchEn:
+              "A reaction that releases energy, like respiration -- the same term Week 8 used for burning wood.",
+          matchMy:
+              "အသက်ရှုမှုကဲ့သို့ စွမ်းအင် ထုတ်လွှတ်ပေးသော တုန့်ပြန်မှုဖြစ်ပြီး Week 8 က သစ်သားလောင်ကျွမ်းခြင်းအတွက် အသုံးပြုခဲ့သော ဝေါဟာရတည်းပင် ဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w16-dm-6",
+          termEn: "Photosynthesis",
+          termMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Photosynthesis)",
+          matchEn:
+              "The almost exact reverse of respiration -- absorbing light energy to build glucose, instead of releasing energy from it.",
+          matchMy:
+              "အသက်ရှုမှု၏ အတိအကျနီးပါး ဆန့်ကျင်ဘက်ဖြစ်ပြီး -- ဂလူးကို့စ်မှ စွမ်းအင်ထုတ်လွှတ်သည့်အစား ဂလူးကို့စ် တည်ဆောက်ရန် အလင်းစွမ်းအင် စုပ်ယူသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Photosynthesis or Respiration?",
+      titleMy: "စီစစ်ကြမည် - အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းလား၊ အသက်ရှုမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Photosynthesis", "Respiration"],
+        bucketsMy: ["အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း", "အသက်ရှုမှု"],
+        items: [
+          SortingItem(
+            id: "s1sci-w16-sort-1",
+            labelEn: "Occurs only in plant cells with chlorophyll",
+            labelMy: "ကလိုရိုဖီးလ်ရှိသော အပင်ဆဲလ်များတွင်သာ ဖြစ်ပျက်သည်",
+            correctBucketEn: "Photosynthesis",
+            correctBucketMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-2",
+            labelEn: "Occurs in the mitochondria of all living cells",
+            labelMy: "သက်ရှိဆဲလ်အားလုံး၏ မိုက်တိုကွန်ဒရီယာတွင် ဖြစ်ပျက်သည်",
+            correctBucketEn: "Respiration",
+            correctBucketMy: "အသက်ရှုမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-3",
+            labelEn: "Absorbs light energy",
+            labelMy: "အလင်းစွမ်းအင် စုပ်ယူသည်",
+            correctBucketEn: "Photosynthesis",
+            correctBucketMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-4",
+            labelEn: "Releases energy (exothermic)",
+            labelMy: "စွမ်းအင် ထုတ်လွှတ်သည် (အပူထုတ်တုန့်ပြန်မှု)",
+            correctBucketEn: "Respiration",
+            correctBucketMy: "အသက်ရှုမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-5",
+            labelEn: "Takes in carbon dioxide and water",
+            labelMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေ ရှူသွင်းသည်",
+            correctBucketEn: "Photosynthesis",
+            correctBucketMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-6",
+            labelEn: "Takes in glucose and oxygen",
+            labelMy: "ဂလူးကို့စ်နှင့် အောက်ဆီဂျင် ရှူသွင်းသည်",
+            correctBucketEn: "Respiration",
+            correctBucketMy: "အသက်ရှုမှု",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-7",
+            labelEn: "Produces glucose and oxygen",
+            labelMy: "ဂလူးကို့စ်နှင့် အောက်ဆီဂျင် ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Photosynthesis",
+            correctBucketMy: "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w16-sort-8",
+            labelEn: "Produces carbon dioxide and water",
+            labelMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေ ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Respiration",
+            correctBucketMy: "အသက်ရှုမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Two Processes",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ လုပ်ငန်းစဉ်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Two Processes",
+        titleMy: "စုစု၏ လုပ်ငန်းစဉ်နှစ်ခု",
+        passageEn:
+            "Sitting under a tree in her garden, Su Su thought back over everything she had learned this term about how living things get energy. She looked up at the tree's leaves, bright green with chlorophyll, quietly carrying out photosynthesis: absorbing light energy, along with carbon dioxide and water, to build glucose and release oxygen.\n\nBut Su Su remembered that the tree wasn't just photosynthesizing -- every single one of its cells was also respiring, all the time, in its mitochondria, breaking that same glucose back down with oxygen to release the energy the tree needed to grow, repair itself, and reproduce. Photosynthesis only happened in the tree's green, light-exposed cells during the day; respiration never stopped, day or night, in every living cell of the tree.\n\nThen Su Su thought about herself. Unlike the tree, she had no chloroplasts and could not photosynthesize at all -- she relied entirely on eating food (fruit, rice, vegetables) that ultimately traced back to a plant's photosynthesis somewhere. But just like the tree, every cell in her own body was constantly respiring in its mitochondria, releasing energy from the glucose in her food using the oxygen she breathed in.\n\nSu Su smiled, realizing the two processes fit together perfectly across the whole living world: photosynthesis captures the sun's light energy and locks it inside glucose, and respiration unlocks that same energy again wherever it's needed -- in a tree, in an animal, or in Su Su herself. No energy was created or destroyed anywhere along the way, only transferred and transformed, exactly like Week 7's conservation principle had taught her from the very start.",
+        passageMy:
+            "စုစုသည် ၎င်း၏ ဥယျာဉ်ရှိ အပင်တစ်ပင်အောက်တွင် ထိုင်လျက် ဤနှစ်ဝက်တစ်ခုလုံးအတွင်း သက်ရှိများ စွမ်းအင် ရရှိပုံအကြောင်း သင်ယူခဲ့ရသမျှကို ပြန်လည်တွေးမိသည်။ သူမသည် ကလိုရိုဖီးလ်ဖြင့် တောက်ပသောအစိမ်းရောင် အပင်၏ အရွက်များကို ငေးကြည့်ခဲ့ပြီး ၎င်းတို့သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို တိတ်ဆိတ်စွာ ဆောင်ရွက်နေခဲ့သည် - ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေနှင့်အတူ အလင်းစွမ်းအင်ကို စုပ်ယူ၍ ဂလူးကို့စ် တည်ဆောက်ကာ အောက်ဆီဂျင် ထုတ်လွှတ်ခြင်း။\n\nသို့သော် အပင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသာ ဆောင်ရွက်နေခြင်း မဟုတ်ကြောင်း စုစု သတိရမိသည် -- ၎င်း၏ ဆဲလ်တစ်ခုစီသည်လည်း ၎င်း၏ မိုက်တိုကွန်ဒရီယာများတွင် အချိန်တိုင်း အသက်ရှုနေခဲ့ကြပြီး၊ ထိုတူညီသောဂလူးကို့စ်ကို အောက်ဆီဂျင်ဖြင့် ပြန်ကွဲအက်စေကာ အပင်ကြီးထွားခြင်း၊ ကိုယ်ပိုင်ပြင်ဆင်ခြင်းနှင့် မျိုးပွားခြင်းအတွက် လိုအပ်သော စွမ်းအင်ကို ထုတ်ပေးနေခဲ့သည်။ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် နေ့အချိန်တွင် အပင်၏ အစိမ်းရောင်၊ အလင်းထိတွေ့သော ဆဲလ်များတွင်သာ ဖြစ်ပျက်ခဲ့ပြီး၊ အသက်ရှုမှုမူ နေ့ည မရွေး အပင်၏ သက်ရှိဆဲလ်တိုင်းတွင် ဘယ်တော့မှ မရပ်ခဲ့ပါ။\n\nထို့နောက် စုစုသည် သူမကိုယ်တိုင်အကြောင်း တွေးမိသည်။ အပင်နှင့်မတူဘဲ သူမတွင် ကလိုရိုပလတ် လုံးဝ မရှိသောကြောင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း လုံးဝ မပြုလုပ်နိုင်ခဲ့ပါ -- သူမသည် တစ်နေရာရာရှိ အပင်တစ်ပင်၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသို့ နောက်ဆုံးတွင် ချိတ်ဆက်နေသော အစားအစာ (သစ်သီး၊ ထမင်း၊ ဟင်းသီးဟင်းရွက်) စားသုံးခြင်းအပေါ်တွင်သာ လုံးလုံးလျားလျား မှီခိုနေရခဲ့သည်။ သို့သော် အပင်ကဲ့သို့ပင် သူမ၏ ကိုယ်ခန္ဓာအတွင်းရှိ ဆဲလ်တိုင်းသည် ၎င်း၏ မိုက်တိုကွန်ဒရီယာများတွင် အမြဲ အသက်ရှုနေကာ သူမ ရှူသွင်းသော အောက်ဆီဂျင်ကို အသုံးပြု၍ သူမ၏ အစားအစာထဲက ဂလူးကို့စ်မှ စွမ်းအင် ထုတ်ယူနေခဲ့သည်။\n\nစုစုသည် လုပ်ငန်းစဉ်နှစ်ခုသည် သက်ရှိလောကတစ်ခုလုံးတစ်လျှောက် အံ့ဖွယ်တွဲစပ်နေသည်ကို သိရှိလာသဖြင့် ပြုံးမိသည် - အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် နေရောင်ခြည်၏ အလင်းစွမ်းအင်ကို ဖမ်းယူပြီး ဂလူးကို့စ်ထဲသို့ သော့ခတ်ထားပေးကာ၊ အသက်ရှုမှုက ထိုတူညီသောစွမ်းအင်ကို အပင်၊ တိရစ္ဆာန် (သို့) စုစုကိုယ်တိုင်ဖြစ်စေ လိုအပ်ရာနေရာတွင် ပြန်လည်ဖွင့်ပေးသည်။ ခရီးတစ်လျှောက်လုံးတွင် စွမ်းအင်ကို မည်သည့်နေရာတွင်မျှ ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိခဲ့ပါ၊ လွှဲပြောင်းပြောင်းလဲခြင်းသာ ဖြစ်ခဲ့ပြီး Week 7 ၏ ထိန်းသိမ်းမှုအယူအဆက သူမအား ကနဦးမှစ၍ သင်ကြားပေးခဲ့သည့်အတိုင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, when does photosynthesis happen in the tree, compared to respiration?",
+            questionMy:
+                "စာပိုဒ်အရ အပင်တွင် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် အသက်ရှုမှုနှင့်နှိုင်းယှဉ်လျှင် မည်သည့်အချိန်တွင် ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "Photosynthesis only happens during the day in light-exposed cells; respiration never stops, day or night, in every cell.",
+              "Both happen only at night.",
+              "Photosynthesis never stops, while respiration only happens during the day.",
+              "Neither ever happens in a tree.",
+            ],
+            optionsMy: [
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် နေ့အချိန် အလင်းထိတွေ့သောဆဲလ်များတွင်သာ ဖြစ်ပျက်ပြီး၊ အသက်ရှုမှုမူ နေ့ည မရွေး ဆဲလ်တိုင်းတွင် ဘယ်တော့မှ မရပ်ပါ။",
+              "နှစ်ခုစလုံးသည် ညအချိန်တွင်သာ ဖြစ်ပျက်ကြသည်။",
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသည် ဘယ်တော့မှ မရပ်ဘဲ၊ အသက်ရှုမှုမူ နေ့အချိန်တွင်သာ ဖြစ်ပျက်သည်။",
+              "နှစ်ခုစလုံးသည် အပင်တွင် ဘယ်တော့မှ ဖြစ်ပျက်ခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph's final sentence, which contrasts the two directly.",
+              "This is Day 1's second quiz question, restated through Su Su's own tree observation.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက နှစ်ခုစလုံးကို တိုက်ရိုက် နှိုင်းယှဉ်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ ဒုတိယမေးခွန်းပင်ဖြစ်ပြီး စုစု၏ ကိုယ်ပိုင် အပင်စောင့်ကြည့်လေ့လာမှုတွင် ထပ်ဆင့်ဖော်ပြထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why couldn't Su Su photosynthesize the way the tree did?",
+            questionMy:
+                "စုစုသည် အပင်ကဲ့သို့ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း အဘယ့်ကြောင့် မပြုလုပ်နိုင်ခဲ့သနည်း။",
+            optionsEn: [
+              "She had no chloroplasts, so she relied entirely on eating food instead.",
+              "She had too many mitochondria.",
+              "Humans respire faster than trees do.",
+              "She was standing in too much shade.",
+            ],
+            optionsMy: [
+              "သူမတွင် ကလိုရိုပလတ် လုံးဝ မရှိသောကြောင့် သူမသည် အစားအစာစားသုံးခြင်းအပေါ်တွင် လုံးလုံးလျားလျား မှီခိုနေခဲ့သည်။",
+              "သူမတွင် မိုက်တိုကွန်ဒရီယာ အလွန်များလွန်းသောကြောင့်။",
+              "လူသားများသည် အပင်များထက် ပိုမိုမြန်ဆန်စွာ အသက်ရှုသောကြောင့်။",
+              "သူမသည် အရိပ်များလွန်းသောနေရာတွင် ရပ်နေခဲ့သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- the passage names the exact missing structure directly, from Week 14/15.",
+              "Only cells with chloroplasts can photosynthesize -- animal cells (including Su Su's) never have them.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စာပိုဒ်က ပျောက်ဆုံးနေသော အစိတ်အပိုင်းအတိအကျကို Week 14/15 မှ တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ကလိုရိုပလတ်ရှိသော ဆဲလ်များသာ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပြုလုပ်နိုင်ပြီး -- တိရစ္ဆာန်ဆဲလ်များ (စုစု၏ ဆဲလ်များအပါအဝင်) တွင် ၎င်းတို့ ဘယ်တော့မှ မရှိပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Su Su's cells and the tree's cells have in common, despite Su Su not photosynthesizing?",
+            questionMy:
+                "စုစုသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း မပြုလုပ်ဘဲ၊ စုစု၏ဆဲလ်များနှင့် အပင်၏ဆဲလ်များတွင် ဘုံတူညီသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Both constantly respired in their mitochondria to release energy from glucose.",
+              "Both had chloroplasts.",
+              "Neither ever needed any energy at all.",
+              "Both were completely non-living.",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် ၎င်းတို့၏ မိုက်တိုကွန်ဒရီယာများတွင် ဂလူးကို့စ်မှ စွမ်းအင်ထုတ်ယူရန် အမြဲ အသက်ရှုနေခဲ့ကြသည်။",
+              "နှစ်ခုစလုံးတွင် ကလိုရိုပလတ် ရှိခဲ့သည်။",
+              "နှစ်ခုစလုံးသည် စွမ်းအင် ဘယ်တော့မှ လုံးဝ မလိုအပ်ခဲ့ပါ။",
+              "နှစ်ခုစလုံးသည် လုံးဝ သက်မဲ့ဖြစ်ခဲ့ကြသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's final sentence, which names this shared process directly.",
+              "This is Week 14's key point: mitochondria, unlike chloroplasts, are found in both plant and animal cells.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက ဤဘုံတူညီသောလုပ်ငန်းစဉ်ကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ Week 14 ၏ အဓိကအချက်ဖြစ်သည် - မိုက်တိုကွန်ဒရီယာသည် ကလိုရိုပလတ်နှင့်မတူဘဲ အပင်ဆဲလ်နှင့် တိရစ္ဆာန်ဆဲလ် နှစ်မျိုးလုံးတွင် တွေ့ရသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su's final realization, what principle from Week 7 connects photosynthesis and respiration?",
+            questionMy:
+                "စုစု၏ နောက်ဆုံးသဘောပေါက်မှုအရ Week 7 ၏ မည်သည့်အယူအဆက အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် အသက်ရှုမှုကို ချိတ်ဆက်ပေးသနည်း။",
+            optionsEn: [
+              "Energy is never created or destroyed, only transferred and transformed -- captured by photosynthesis and released again by respiration.",
+              "Energy is created fresh every single day by the sun alone.",
+              "Energy is permanently destroyed inside every glucose molecule.",
+              "Photosynthesis and respiration have nothing to do with energy.",
+            ],
+            optionsMy: [
+              "စွမ်းအင်ကို ဖန်တီးခြင်း (သို့) ဖျက်ဆီးခြင်း လုံးဝ မရှိနိုင်ဘဲ လွှဲပြောင်းပြောင်းလဲခြင်းသာ ဖြစ်သည် -- အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ဖမ်းယူပြီး အသက်ရှုမှုက ပြန်ဖွင့်ပေးသည်။",
+              "စွမ်းအင်သည် နေ့တိုင်း နေရောင်ခြည်တစ်ခုတည်းက အသစ်ဖန်တီးပေးသည်။",
+              "စွမ်းအင်သည် ဂလူးကို့စ်မော်လီကျူးတိုင်းအတွင်း ထာဝရ ဖျက်ဆီးခံရသည်။",
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် အသက်ရှုမှုသည် စွမ်းအင်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Su Su names this exact principle, tracing it back to Week 7's own teaching.",
+              "This is the same conservation idea from Week 7, 9, and 12, now applied one final time to this term's biology strand.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- စုစုသည် ဤအယူအဆအတိအကျကို Week 7 ၏ ကိုယ်ပိုင်သင်ကြားမှုအထိ ပြန်ဆွဲယူထားသည်။",
+              "ဤသည်မှာ Week 7၊ 9 နှင့် 12 မှ ထိန်းသိမ်းမှုအယူအဆတည်းဖြစ်ပြီး ယခု ဤနှစ်ဝက်၏ ဇီဝဗေဒနယ်ပယ်တွင် နောက်ဆုံးအကြိမ် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w16-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 16 Recap: Respiration and Photosynthesis -- Term 4 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၁၆ ပြန်လည်သုံးသပ်ခြင်း - အသက်ရှုမှုနှင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း -- စတုတ္ထနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does respiration release, according to its word equation?",
+          questionMy:
+              "အသက်ရှုမှု၏ စကားလုံးညီမျှခြင်းအရ ၎င်းသည် အဘယ်ကို ထုတ်လွှတ်ပေးသနည်း။",
+          optionsEn: ["Energy", "Chlorophyll", "Cell walls", "Magnetic fields"],
+          optionsMy: [
+            "စွမ်းအင်",
+            "ကလိုရိုဖီးလ်",
+            "ဆဲလ်နံရံများ",
+            "သံလိုက်စက်ကွင်းများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's word equation -- what comes right after \"carbon dioxide + water\" on the products side?",
+            "This is why respiration is exothermic -- it releases energy for the living thing to use.",
+          ],
+          hintsMy: [
+            "ပထမနေ့၏ စကားလုံးညီမျှခြင်းကို သတိရပါ -- ရလဒ်ပစ္စည်းဘက်ရှိ \"ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ\" ပြီးနောက် အဘယ်အရာ ပါဝင်သနည်း။",
+            "၎င်းကြောင့်ပင် အသက်ရှုမှုသည် အပူထုတ်တုန့်ပြန်မှု ဖြစ်ခြင်းဖြစ်ပြီး ၎င်းသည် သက်ရှိအတွက် အသုံးပြုနိုင်သော စွမ်းအင်ကို ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which process only happens in green plant cells, in light?",
+          questionMy:
+              "မည်သည့်လုပ်ငန်းစဉ်သည် အလင်းရှိချိန်၊ အစိမ်းရောင်အပင်ဆဲလ်များတွင်သာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "Photosynthesis",
+            "Respiration",
+            "Both, equally",
+            "Neither, ever",
+          ],
+          optionsMy: [
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+            "အသက်ရှုမှု",
+            "နှစ်ခုစလုံး၊ ညီမျှစွာ",
+            "နှစ်ခုလုံး ဘယ်တော့မှ မဖြစ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity's first item -- one of the two processes is far more limited than the other.",
+            "Respiration happens everywhere, all the time -- this process is the more restricted one, needing chloroplasts and light.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်း၏ ပထမအချက်ကို သတိရပါ -- လုပ်ငန်းစဉ်နှစ်ခုအနက် တစ်ခုသည် အခြားတစ်ခုထက် ပိုမို ကန့်သတ်ချက်ရှိသည်။",
+            "အသက်ရှုမှုသည် နေရာတိုင်း၊ အချိန်တိုင်း ဖြစ်ပျက်သည် -- ဤလုပ်ငန်းစဉ်မှာမူ ကလိုရိုပလတ်နှင့် အလင်းလိုအပ်သည့် ကန့်သတ်ချက်ပိုများသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Where in a cell does respiration take place?",
+          questionMy:
+              "ဆဲလ်တစ်ခုအတွင်း အသက်ရှုမှုသည် မည်သည့်နေရာတွင် ဖြစ်ပျက်သနည်း။",
+          optionsEn: ["Mitochondrion", "Chloroplast", "Cell wall", "Nucleus"],
+          optionsMy: [
+            "မိုက်တိုကွန်ဒရီယာ",
+            "ကလိုရိုပလတ်",
+            "ဆဲလ်နံရံ",
+            "နျူကလိယ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- this structure is named directly for its role in respiration.",
+            "Chloroplast is for photosynthesis (Week 15), a different structure entirely, found only in plant cells.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤအစိတ်အပိုင်းကို အသက်ရှုမှုတွင် ၎င်း၏အခန်းကဏ္ဍအတွက် တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            "ကလိုရိုပလတ်သည် (Week 15) အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းအတွက်ဖြစ်ပြီး လုံးဝ မတူညီသော၊ အပင်ဆဲလ်တွင်သာ တွေ့ရသော အစိတ်အပိုင်းတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term precisely describes only the physical movement of air in and out of the lungs?",
+          questionMy:
+              "အဆုတ်ထဲသို့ လေဝင်လေထွက် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှုကိုသာ အတိအကျ ဖော်ပြသော ဝေါဟာရမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breathing",
+            "Respiration",
+            "Photosynthesis",
+            "Excretion",
+          ],
+          optionsMy: [
+            "အသက်ပြင်းစွာရှုခြင်း",
+            "အသက်ရှုမှု",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+            "စွန့်ထုတ်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- this word is precisely NOT the same as respiration, even though they're often confused.",
+            "Respiration is the cellular, energy-releasing process -- this option is the lungs-only physical movement.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ဤစကားလုံးသည် အသက်ရှုမှုနှင့် အတိအကျ မတူညီပါ၊ မကြာခဏ ရောနှောလွဲမှားလေ့ ရှိသော်လည်း။",
+            "အသက်ရှုမှုသည် ဆဲလ်ဆိုင်ရာ၊ စွမ်းအင်ထုတ်လွှတ်ပေးသော လုပ်ငန်းစဉ်ဖြစ်ပြီး -- ဤရွေးချယ်စရာသည် အဆုတ်တွင်သာ ဖြစ်ပျက်သော ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly names respiration's exact reverse process?",
+          questionMy:
+              "အောက်ပါတို့အနက် အသက်ရှုမှု၏ တိကျသော ဆန့်ကျင်ဘက်လုပ်ငန်းစဉ်ကို မှန်ကန်စွာ အမည်တွင်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Photosynthesis",
+            "Neutralization",
+            "Oxidation",
+            "Repulsion",
+          ],
+          optionsMy: [
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+            "အက်ဆစ်ဓာတ်ပျက်ခြင်း",
+            "အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု",
+            "တွန်းဖယ်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- one process absorbs light energy to build glucose, while the other releases energy by breaking it down.",
+            "Neutralization (Week 8), oxidation (Week 9) and repulsion (Week 11) are all unrelated reactions/effects from earlier weeks.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- လုပ်ငန်းစဉ်တစ်ခုက ဂလူးကို့စ် တည်ဆောက်ရန် အလင်းစွမ်းအင် စုပ်ယူပြီး၊ အခြားတစ်ခုကမူ ၎င်းကို ကွဲအက်စေကာ စွမ်းအင် ထုတ်လွှတ်ပေးသည်။",
+            "အက်ဆစ်ဓာတ်ပျက်ခြင်း (Week 8)၊ အောက်ဆီဂျင်တွဲဖက်တုန့်ပြန်မှု (Week 9) နှင့် တွန်းဖယ်မှု (Week 11) တို့သည် ယခင်အပတ်များမှ လုံးဝ မသက်ဆိုင်သော တုန့်ပြန်မှုများ/အကျိုးသက်ရောက်မှုများ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single idea connects Week 13's MRS GREN, Week 14's cells, Week 15's photosynthesis, and Week 16's respiration?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 13 ၏ MRS GREN၊ Week 14 ၏ ဆဲလ်များ၊ Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် Week 16 ၏ အသက်ရှုမှုတို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "All living things are built from cells and rely on energy being captured, stored and released to carry out life's characteristics.",
+            "All four topics are completely unrelated to each other.",
+            "Only Week 16's respiration involves any living things at all.",
+            "None of these topics have anything to do with energy.",
+          ],
+          optionsMy: [
+            "သက်ရှိများအားလုံးသည် ဆဲလ်များမှ တည်ဆောက်ထားပြီး သက်ရှိလက္ခဏာများကို ဆောင်ရွက်ရန် စွမ်းအင် ဖမ်းယူခြင်း၊ သိုလှောင်ခြင်းနှင့် ထုတ်လွှတ်ခြင်းအပေါ် မှီခိုနေသည်။",
+            "ဘာသာရပ်လေးခုစလုံးသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်ပါ။",
+            "Week 16 ၏ အသက်ရှုမှုတွင်သာ သက်ရှိများ ပါဝင်သည်။",
+            "ဤဘာသာရပ်များထဲမှ မည်သည့်တစ်ခုမျှ စွမ်းအင်နှင့် မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Su Su's final realization from the reading passage -- energy captured by photosynthesis and released by respiration powers every MRS GREN characteristic, in every cell.",
+            "This mirrors Week 12's final question for Term 3 -- every term this pathway has returned to Week 7's energy conservation, now applied to living things.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ စုစု၏ နောက်ဆုံးသဘောပေါက်မှုကို သတိရပါ -- အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ဖမ်းယူပြီး အသက်ရှုမှုက ထုတ်လွှတ်ပေးသောစွမ်းအင်သည် ဆဲလ်တိုင်းအတွင်း MRS GREN လက္ခဏာတိုင်းကို ဆောင်ရွက်ပေးသည်။",
+            "ဤသည်မှာ Term 3 အတွက် Week 12 ၏ နောက်ဆုံးမေးခွန်းနှင့် ဆင်တူသည် -- ဤသင်တန်းလမ်းကြောင်း၏ နှစ်ဝက်တိုင်းသည် Week 7 ၏ စွမ်းအင်ထိန်းသိမ်းမှုသို့ ပြန်ရောက်လာခဲ့ပြီး၊ ယခု သက်ရှိများအတွက် အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
   id: "course-secondary1-science-t3",
   termNumber: 3,
@@ -40782,14 +43039,46 @@ const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
   ],
 );
 
+/// Term 4: "Cells and Life Processes" (Weeks 13-16) is this pathway's
+/// first biology strand, after three terms of physics/chemistry only.
+/// Week 13 teaches the seven MRS GREN characteristics of life; Week 14
+/// introduces cells as biology's own "building block" (echoing Week 5's
+/// element framing), covering structures shared by plant/animal cells
+/// and plant-only structures, plus the microscope as a new observation
+/// instrument; Week 15 gives photosynthesis a full word equation
+/// (reusing Week 9's format, and Week 9's own carbon dioxide/oxygen in
+/// reversed roles), extending Week 8's energy-absorption framing to
+/// light energy; Week 16 is the capstone, defining respiration as
+/// almost the exact reverse of photosynthesis, precisely distinguishing
+/// it from breathing (resolving Week 13's informal definition), and
+/// reapplying Week 8's exothermic/endothermic vocabulary one more time
+/// before tying the whole pathway's energy strand back to Week 7's
+/// conservation principle.
+const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
+  id: "course-secondary1-science-t4",
+  termNumber: 4,
+  titleEn: "Cells and Life Processes",
+  titleMy: "ဆဲလ်များနှင့် သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များ",
+  certificateTitleEn: "Cells and Life Processes",
+  certificateTitleMy: "ဆဲလ်များနှင့် သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များ",
+  weeks: [
+    _secondary1ScienceWeek13,
+    _secondary1ScienceWeek14,
+    _secondary1ScienceWeek15,
+    _secondary1ScienceWeek16,
+  ],
+);
+
 /// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
-/// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8)
-/// and Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12) are
-/// authored so far; see [_secondary1ScienceTerm1]'s, [_secondary1ScienceTerm2]'s
-/// and [_secondary1ScienceTerm3]'s own doc comments for the week-by-week
+/// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8),
+/// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12) and Term 4
+/// ("Cells and Life Processes", Weeks 13-16, this pathway's first biology
+/// strand) are authored so far; see [_secondary1ScienceTerm1]'s,
+/// [_secondary1ScienceTerm2]'s, [_secondary1ScienceTerm3]'s and
+/// [_secondary1ScienceTerm4]'s own doc comments for the week-by-week
 /// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
 /// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
@@ -40799,13 +43088,14 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, and Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, and Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary1ScienceTerm1,
     _secondary1ScienceTerm2,
     _secondary1ScienceTerm3,
+    _secondary1ScienceTerm4,
   ],
 );
