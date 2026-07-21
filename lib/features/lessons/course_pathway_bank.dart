@@ -33963,6 +33963,18 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
 /// and reapplying Week 8's exothermic/endothermic vocabulary before
 /// tying the whole pathway's energy strand back to Week 7's
 /// conservation principle one final time.
+/// Term 5, "Nutrition and Ecosystems" (see [_secondary1ScienceTerm5]),
+/// builds outward from Term 4's cellular view to the whole-organism and
+/// whole-ecosystem level: Week 17 extends Week 13's "nutrition"
+/// characteristic into the seven human nutrient groups; Week 18 traces
+/// food through the digestive organs in order, precisely distinguishing
+/// egestion from Week 13's excretion; Week 19 reuses Week 15's producer
+/// concept as the start of every food chain, defining the food-chain
+/// arrow as the direction energy flows; Week 20 is Term 5's capstone,
+/// tracing one continuous energy story -- Sun, photosynthesis,
+/// digestion, respiration, heat loss -- across a whole food chain,
+/// tying the pathway's energy strand back to Week 7's conservation
+/// principle one more time.
 const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
   id: "course-secondary1-science-w1",
   weekNumber: 1,
@@ -43054,6 +43066,2165 @@ const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
 /// reapplying Week 8's exothermic/endothermic vocabulary one more time
 /// before tying the whole pathway's energy strand back to Week 7's
 /// conservation principle.
+// =====================================================================
+// Secondary 1 Science -- Term 5, Week 17: "Human Nutrition and a
+// Balanced Diet"
+// =====================================================================
+
+/// Week 17 opens Term 5 by extending Week 13's "nutrition" MRS GREN
+/// characteristic into the seven nutrient groups a human diet needs,
+/// explicitly setting up the direct link Week 18 will make explicit:
+/// carbohydrates are digested into the same glucose Week 16's
+/// respiration equation runs on.
+const CourseWeekDef _secondary1ScienceWeek17 = CourseWeekDef(
+  id: "course-secondary1-science-w17",
+  weekNumber: 17,
+  titleEn: "Human Nutrition and a Balanced Diet",
+  titleMy: "လူသားအာဟာရနှင့် မျှတသောအစားအသောက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w17-d1",
+      dayNumber: 1,
+      titleEn: "Nutrition Quiz",
+      titleMy: "အာဟာရ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which nutrient group is the body's main source of energy?",
+          questionMy:
+              "ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ရင်းမြစ်ဖြစ်သော အာဟာရအုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: ["Carbohydrates", "Vitamins", "Minerals", "Fibre"],
+          optionsMy: ["ကာဗိုဟိုက်ဒရိတ်", "ဗီတာမင်", "သတ္တုဓာတ်", "အမျှင်ဓာတ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's \"nutrition\" characteristic -- food provides the raw material for Week 16's energy-releasing respiration.",
+            "Rice, bread and potatoes are all rich in this nutrient, digested (Week 18) into the same glucose respiration runs on.",
+          ],
+          hintsMy: [
+            "Week 13 ၏ \"အာဟာရ\" လက္ခဏာကို သတိရပါ -- အစားအစာသည် Week 16 ၏ စွမ်းအင်ထုတ်လွှတ်ပေးသော အသက်ရှုမှုအတွက် အစုတ်ကုန်ကြမ်း ပေးသည်။",
+            "ထမင်း၊ ပေါင်မုန့်နှင့် အာလူးတို့တွင် ဤအာဟာရ ကြွယ်ဝပြီး Week 18 က ကွဲအက်ပေးသောအခါ အသက်ရှုမှု လှည့်နေသော ဂလူးကို့စ်အဖြစ်သို့ ပြောင်းလဲသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which nutrient group is mainly needed for growth and repair of body tissue?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ရှူးများ ကြီးထွားခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် အဓိကလိုအပ်သော အာဟာရအုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: ["Protein", "Carbohydrates", "Water", "Fats"],
+          optionsMy: ["ပရိုတိန်း", "ကာဗိုဟိုက်ဒရိတ်", "ရေ", "အဆီဓာတ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Meat, fish, eggs and beans are all rich sources of this nutrient.",
+            "Recall Week 13's \"growth\" MRS GREN characteristic -- this nutrient supplies the raw material for building new body tissue.",
+          ],
+          hintsMy: [
+            "အသား၊ ငါး၊ ကြက်ဥနှင့် ပဲအမျိုးမျိုးတို့တွင် ဤအာဟာရ ကြွယ်ဝကြသည်။",
+            "Week 13 ၏ \"ကြီးထွားမှု\" MRS GREN လက္ခဏာကို သတိရပါ -- ဤအာဟာရသည် ခန္ဓာကိုယ်တစ်ရှူးအသစ် တည်ဆောက်ရန် ကုန်ကြမ်းပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does \"fibre\" do in the diet, even though the body cannot digest it?",
+          questionMy:
+              "\"အမျှင်ဓာတ်\" ကို ခန္ဓာကိုယ်က ခြေဖျက်၍ မရနိုင်သော်လည်း ၎င်းသည် အစားအသောက်တွင် အဘယ်ကို ပြုလုပ်ပေးသနည်း။",
+          optionsEn: [
+            "It helps move food through the digestive system, keeping it working properly.",
+            "It is the body's main source of energy.",
+            "It builds new muscle tissue directly.",
+            "It replaces the need for water entirely.",
+          ],
+          optionsMy: [
+            "အစားအစာကို အစာခြေအင်္ဂါစနစ်တစ်လျှောက် ရွှေ့ပြောင်းရန် ကူညီပေးပြီး ၎င်းကို မှန်ကန်စွာ အလုပ်လုပ်စေသည်။",
+            "ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ရင်းမြစ် ဖြစ်သည်။",
+            "ကြွက်သားတစ်ရှူးအသစ်ကို တိုက်ရိုက် တည်ဆောက်ပေးသည်။",
+            "ရေလိုအပ်ချက်ကို လုံးဝ အစားထိုးပေးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fibre is not broken down by digestion (Week 18) at all -- but it still has an important physical job to do.",
+            "Rule out the options about energy and muscle -- those are carbohydrates' and protein's jobs, not fibre's.",
+          ],
+          hintsMy: [
+            "အမျှင်ဓာတ်ကို အစာခြေခြင်း (Week 18) က လုံးဝ မကွဲအက်စေပါ -- သို့သော် ၎င်းသည် အရေးကြီးသော ရုပ်ပိုင်းဆိုင်ရာ တာဝန်တစ်ခု ရှိနေသေးသည်။",
+            "စွမ်းအင်နှင့် ကြွက်သားနှင့်ပတ်သက်သော ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- ၎င်းတို့သည် ကာဗိုဟိုက်ဒရိတ်နှင့် ပရိုတိန်း၏ တာဝန်များဖြစ်ပြီး အမျှင်ဓာတ်၏ တာဝန် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"balanced diet\"?",
+          questionMy: "\"မျှတသောအစားအသောက်\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Eating the right amounts and variety of all the nutrient groups the body needs.",
+            "Eating only one nutrient group, as much as possible.",
+            "Never eating carbohydrates at all.",
+            "Eating exactly the same meal every single day.",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်လိုအပ်သော အာဟာရအုပ်စုအားလုံးကို မှန်ကန်သောပမာဏနှင့် အမျိုးမျိုး စားသုံးခြင်း။",
+            "အာဟာရအုပ်စုတစ်ခုတည်းကို တတ်နိုင်သမျှ များများ စားသုံးခြင်း။",
+            "ကာဗိုဟိုက်ဒရိတ်ကို လုံးဝ မစားခြင်း။",
+            "နေ့စဉ် အတိအကျတူညီသောအစားအစာကို စားသုံးခြင်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the seven nutrient groups from this week -- a balanced diet needs a variety of them, not just one.",
+            "Cutting out an entire nutrient group entirely, like carbohydrates, would leave the body without a key resource it needs.",
+          ],
+          hintsMy: [
+            "ဤအပတ်မှ အာဟာရအုပ်စုခုနစ်ခုကို သတိရပါ -- မျှတသောအစားအသောက်တွင် ၎င်းတို့ အမျိုးမျိုး လိုအပ်ပြီး တစ်ခုတည်း မဟုတ်ပါ။",
+            "ကာဗိုဟိုက်ဒရိတ်ကဲ့သို့ အာဟာရအုပ်စုတစ်ခုလုံးကို လုံးဝ ဖြတ်ချခြင်းသည် ခန္ဓာကိုယ်ကို လိုအပ်သောအရင်းအမြစ်တစ်ခု ကင်းမဲ့စေမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match the Nutrient Groups",
+      titleMy: "အာဟာရအုပ်စုများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w17-dm-1",
+          termEn: "Carbohydrates",
+          termMy: "ကာဗိုဟိုက်ဒရိတ် (Carbohydrates)",
+          matchEn:
+              "The body's main energy source -- found in rice, bread and potatoes, digested into glucose for respiration.",
+          matchMy:
+              "ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ရင်းမြစ်ဖြစ်ပြီး ထမင်း၊ ပေါင်မုန့်နှင့် အာလူးတွင် တွေ့ရသည်၊ အသက်ရှုမှုအတွက် ဂလူးကို့စ်အဖြစ် ခြေဖျက်ခံရသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w17-dm-2",
+          termEn: "Protein",
+          termMy: "ပရိုတိန်း (Protein)",
+          matchEn:
+              "Needed for growth and repair of body tissue -- found in meat, fish, eggs and beans.",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ရှူး ကြီးထွားခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် လိုအပ်ပြီး အသား၊ ငါး၊ ကြက်ဥနှင့် ပဲအမျိုးမျိုးတွင် တွေ့ရသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w17-dm-3",
+          termEn: "Fats",
+          termMy: "အဆီဓာတ် (Fats)",
+          matchEn:
+              "A concentrated energy store and insulation for the body -- found in oil, butter and nuts.",
+          matchMy:
+              "ခန္ဓာကိုယ်အတွက် စွမ်းအင်သိုလှောင်မှု ပြင်းထန်စွာရှိသည့် ရင်းမြစ်နှင့် အပူထိန်းပစ္စည်း -- ဆီ၊ ထောပတ်နှင့် အခွံမာသီးများတွင် တွေ့ရသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w17-dm-4",
+          termEn: "Vitamins",
+          termMy: "ဗီတာမင် (Vitamins)",
+          matchEn:
+              "Substances needed in small amounts for many body functions -- for example, vitamin C for healthy skin, found in fruit.",
+          matchMy:
+              "ခန္ဓာကိုယ်လုပ်ဆောင်ချက်များစွာအတွက် အနည်းငယ်သာ လိုအပ်သော ပစ္စည်းများဖြစ်သည် -- ဥပမာ ဗီတာမင် C သည် ကျန်းမာသောအရေပြားအတွက် ဖြစ်ပြီး သစ်သီးများတွင် တွေ့ရသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w17-dm-5",
+          termEn: "Minerals",
+          termMy: "သတ္တုဓာတ် (Minerals)",
+          matchEn:
+              "Substances needed in small amounts, like calcium for strong bones and teeth, or iron for healthy blood.",
+          matchMy:
+              "ခိုင်မာသောအရိုးနှင့်သွားများအတွက် ကယ်လစီယမ် (သို့) ကျန်းမာသောသွေးအတွက် သံဓာတ်ကဲ့သို့ အနည်းငယ်သာ လိုအပ်သော ပစ္စည်းများ။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w17-dm-6",
+          termEn: "Fibre",
+          termMy: "အမျှင်ဓာတ် (Fibre)",
+          matchEn:
+              "An undigested plant material that helps move food through the digestive system.",
+          matchMy:
+              "အစာခြေအင်္ဂါစနစ်တစ်လျှောက် အစားအစာကို ရွှေ့ပြောင်းရန် ကူညီပေးသော ခြေဖျက်၍မရသော အပင်ပစ္စည်း။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mainly Carbohydrate or Mainly Protein?",
+      titleMy:
+          "စီစစ်ကြမည် - ကာဗိုဟိုက်ဒရိတ်များများပါလား၊ ပရိုတိန်းများများပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mainly Carbohydrate", "Mainly Protein"],
+        bucketsMy: ["ကာဗိုဟိုက်ဒရိတ် များများပါ", "ပရိုတိန်း များများပါ"],
+        items: [
+          SortingItem(
+            id: "s1sci-w17-sort-1",
+            labelEn: "Rice",
+            labelMy: "ထမင်း",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-2",
+            labelEn: "Chicken",
+            labelMy: "ကြက်သား",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "ပရိုတိန်း များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-3",
+            labelEn: "Bread",
+            labelMy: "ပေါင်မုန့်",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-4",
+            labelEn: "Fish",
+            labelMy: "ငါး",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "ပရိုတိန်း များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-5",
+            labelEn: "Potato",
+            labelMy: "အာလူး",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-6",
+            labelEn: "Eggs",
+            labelMy: "ကြက်ဥ",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "ပရိုတိန်း များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-7",
+            labelEn: "Beans",
+            labelMy: "ပဲအမျိုးမျိုး",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "ပရိုတိန်း များများပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w17-sort-8",
+            labelEn: "Noodles",
+            labelMy: "ခေါက်ဆွဲ",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် များများပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hla Hla's Tired Afternoon",
+      titleMy: "စာဖတ်ခြင်း - လှလှ၏ ပင်ပန်းသောနေ့လည်ခင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hla Hla's Tired Afternoon",
+        titleMy: "လှလှ၏ ပင်ပန်းသောနေ့လည်ခင်း",
+        passageEn:
+            "Hla Hla noticed her friend Zaw looked exhausted every afternoon at school, even though he seemed to sleep enough. Curious, she asked what he usually ate for breakfast. Zaw admitted he often skipped breakfast entirely, or just grabbed a sugary snack on the way out the door.\n\nHla Hla, remembering this week's lesson on nutrition, explained that his body needed a proper mix of nutrients each morning, especially carbohydrates -- his body's main energy source, digested into the glucose that fuels respiration (Week 16) in every cell. Without enough carbohydrates, Zaw's body had very little fuel left to release energy from by midday.\n\nShe also pointed out that Zaw rarely ate protein-rich foods like eggs, beans or fish, which his growing body needed for building and repairing muscle and other tissue -- part of Week 13's \"growth\" characteristic of living things. His diet was missing an entire nutrient group.\n\nHla Hla suggested Zaw try a balanced breakfast instead: rice or bread for carbohydrate energy, an egg for protein, and a piece of fruit for vitamins. A week later, Zaw admitted he felt far less tired by the afternoons -- proof, Hla Hla said with a smile, that a balanced diet really did matter.",
+        passageMy:
+            "လှလှသည် သူမ၏ သူငယ်ချင်း ဇော်သည် လုံလောက်စွာ အိပ်ခဲ့သည့်ပုံပေါ်သော်လည်း ကျောင်းတွင် နေ့လည်ခင်းတိုင်း ပင်ပန်းနွမ်းနယ်နေသည်ကို သတိထားမိသည်။ စိတ်ဝင်စားသဖြင့် သူမသည် သူ ပုံမှန်နံနက်စာ မည်သည့်အရာ စားလေ့ရှိသည်ကို မေးခဲ့သည်။ ဇော်သည် နံနက်စာကို မကြာခဏ လုံးဝ ကျော်ကျော်ခြင်း (သို့) အိမ်မှ ထွက်ရင်း သကြားပါသောသရုပ်ဆောင်တစ်ခုတည်းကို ကောက်ယူစားလေ့ရှိကြောင်း ဝန်ခံခဲ့သည်။\n\nလှလှသည် ဤအပတ်၏ အာဟာရသင်ခန်းစာကို သတိရလျက် သူ၏ ခန္ဓာကိုယ်သည် နံနက်တိုင်း အာဟာရအမှန်ရောနှောမှု၊ အထူးသဖြင့် သူ၏ ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ရင်းမြစ်ဖြစ်ပြီး ဆဲလ်တိုင်းရှိ အသက်ရှုမှု (Week 16) ကို လုပ်ဆောင်စေသော ဂလူးကို့စ်အဖြစ် ခြေဖျက်ခံသော ကာဗိုဟိုက်ဒရိတ်ကို လိုအပ်ကြောင်း ရှင်းပြခဲ့သည်။ ကာဗိုဟိုက်ဒရိတ် မလုံလောက်ပါက ဇော်၏ ခန္ဓာကိုယ်တွင် နေ့လည်ချိန်ရောက်လျှင် စွမ်းအင်ထုတ်ရန် လောင်စာ အလွန်နည်းပါးခဲ့သည်။\n\nသူမသည် ဇော်သည် ကြီးထွားနေသေးသော ခန္ဓာကိုယ်အတွက် ကြွက်သားနှင့် တစ်ရှူးအသစ် တည်ဆောက်ခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် လိုအပ်သော -- Week 13 ၏ သက်ရှိများ၏ \"ကြီးထွားမှု\" လက္ခဏာ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သော -- ကြက်ဥ၊ ပဲနှင့် ငါးကဲ့သို့ ပရိုတိန်းကြွယ်ဝသောအစားအစာများကို ရှားရှားပါးပါးသာ စားလေ့ရှိကြောင်း လည်း ထောက်ပြခဲ့သည်။ သူ၏ အစားအသောက်တွင် အာဟာရအုပ်စုတစ်ခုလုံးကို ချို့တဲ့နေခဲ့သည်။\n\nလှလှသည် ဇော်အား မျှတသောနံနက်စာကို စမ်းစားကြည့်ရန် အကြံပြုခဲ့သည် - ကာဗိုဟိုက်ဒရိတ်စွမ်းအင်အတွက် ထမင်း (သို့) ပေါင်မုန့်၊ ပရိုတိန်းအတွက် ကြက်ဥတစ်လုံး၊ ဗီတာမင်များအတွက် သစ်သီးတစ်လုံး။ တစ်ပတ်ကြာပြီးနောက် ဇော်သည် နေ့လည်ခင်းများ ပိုမိုပင်ပန်းမှု နည်းလာကြောင်း ဝန်ခံခဲ့သည် -- မျှတသောအစားအသောက်သည် အမှန်တကယ် အရေးကြီးကြောင်း၏ သက်သေတစ်ခု ဖြစ်ကြောင်း လှလှက ပြုံးပြီး ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Zaw feel exhausted every afternoon, according to Hla Hla?",
+            questionMy:
+                "လှလှအလိုအရ ဇော်သည် နေ့လည်ခင်းတိုင်း အဘယ့်ကြောင့် ပင်ပန်းနွမ်းနယ်နေခဲ့သနည်း။",
+            optionsEn: [
+              "He wasn't eating enough carbohydrates, leaving his body with too little fuel to release energy from.",
+              "He was sleeping too many hours every night.",
+              "He was eating too much protein.",
+              "There was no real reason at all.",
+            ],
+            optionsMy: [
+              "ကာဗိုဟိုက်ဒရိတ် လုံလောက်စွာ မစားခဲ့သဖြင့် ၎င်း၏ခန္ဓာကိုယ်တွင် စွမ်းအင်ထုတ်ရန် လောင်စာ အလွန်နည်းပါးခဲ့သည်။",
+              "ညစဉ် အလွန်များစွာ အိပ်ခဲ့သောကြောင့်။",
+              "ပရိုတိန်း အလွန်များစွာ စားခဲ့သောကြောင့်။",
+              "အကြောင်းရင်း အမှန်တကယ် လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- what does Hla Hla directly link his tiredness to?",
+              "This connects Day 1's carbohydrate-energy question directly to Zaw's real situation.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သူ၏ ပင်ပန်းနွမ်းနယ်မှုကို လှလှက အဘယ်နှင့် တိုက်ရိုက် ဆက်စပ်ခဲ့သနည်း။",
+              "၎င်းသည် ပထမနေ့၏ ကာဗိုဟိုက်ဒရိတ်-စွမ်းအင် မေးခွန်းကို ဇော်၏ ကိုယ်ပိုင်အခြေအနေတွင် တိုက်ရိုက် ချိတ်ဆက်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What nutrient group was Zaw's diet missing, according to Hla Hla?",
+            questionMy:
+                "လှလှအလိုအရ ဇော်၏ အစားအသောက်တွင် မည်သည့် အာဟာရအုပ်စု ချို့တဲ့နေခဲ့သနည်း။",
+            optionsEn: [
+              "Protein",
+              "Water only",
+              "Fibre only",
+              "Nothing was missing at all",
+            ],
+            optionsMy: [
+              "ပရိုတိန်း",
+              "ရေတစ်ခုတည်း",
+              "အမျှင်ဓာတ်တစ်ခုတည်း",
+              "ဘာမျှ ချို့တဲ့ခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Hla Hla names the missing nutrient group and its purpose directly.",
+              "Recall Day 1's second quiz question -- this nutrient is needed for growth and repair of body tissue.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- လှလှသည် ချို့တဲ့နေသောအာဟာရအုပ်စုနှင့် ၎င်း၏ရည်ရွယ်ချက်ကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- ဤအာဟာရသည် ခန္ဓာကိုယ်တစ်ရှူး ကြီးထွားခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What did Hla Hla suggest for Zaw's breakfast?",
+            questionMy: "ဇော်၏ နံနက်စာအတွက် လှလှက အဘယ်ကို အကြံပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Rice or bread for carbohydrates, an egg for protein, and fruit for vitamins.",
+              "Only sugary snacks, exactly as before.",
+              "Nothing at all -- breakfast is unimportant.",
+              "Only water, and nothing else.",
+            ],
+            optionsMy: [
+              "ကာဗိုဟိုက်ဒရိတ်အတွက် ထမင်း (သို့) ပေါင်မုန့်၊ ပရိုတိန်းအတွက် ကြက်ဥတစ်လုံး၊ ဗီတာမင်များအတွက် သစ်သီး။",
+              "ယခင်အတိုင်းပင် သကြားပါသောသရုပ်ဆောင်များသာ။",
+              "ဘာမျှ မလိုအပ်ပါ -- နံနက်စာသည် အရေးမကြီးပါ။",
+              "ရေတစ်ခုတည်းသာ၊ အခြားမပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which lists Hla Hla's suggested breakfast items directly.",
+              "This deliberately covers three different nutrient groups from Day 2's drag-match, all in one balanced meal.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- လှလှ၏ အကြံပြုထားသော နံနက်စာအစိတ်အပိုင်းများကို တိုက်ရိုက် စာရင်းပြုစုထားသည်။",
+              "၎င်းသည် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ အာဟာရအုပ်စုသုံးမျိုးကို တမင်တကာ တစ်နပ်တည်းတွင် ပေါင်းစပ်ထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What happened a week after Zaw changed his breakfast?",
+            questionMy:
+                "ဇော်သည် သူ့နံနက်စာကို ပြောင်းလဲပြီးနောက် တစ်ပတ်ကြာသောအခါ အဘယ်အရာ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "He felt far less tired by the afternoons.",
+              "He became even more tired than before.",
+              "Nothing at all changed.",
+              "He stopped eating completely.",
+            ],
+            optionsMy: [
+              "နေ့လည်ခင်းများတွင် ပိုမိုပင်ပန်းမှု နည်းလာသည်ကို ခံစားရသည်။",
+              "ယခင်ထက် ပို၍ ပင်ပန်းလာသည်။",
+              "ဘာမျှ လုံးဝ ပြောင်းလဲခြင်း မရှိပါ။",
+              "အစားအစာ လုံးဝ စားရပ်သွားသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence of the passage, which states this result directly.",
+              "This confirms the whole point of the story: a balanced diet supplies the nutrients respiration needs for steady energy.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက ဤရလဒ်ကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "၎င်းက ဇာတ်လမ်းတစ်ခုလုံး၏ အဓိကအချက်ကို အတည်ပြုသည် - မျှတသောအစားအသောက်သည် တည်ငြိမ်သောစွမ်းအင်အတွက် အသက်ရှုမှုလိုအပ်သော အာဟာရများကို ထောက်ပံ့ပေးသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Human Nutrition",
+      titleMy: "အပတ်စဉ် ၁၇ ပြန်လည်သုံးသပ်ခြင်း - လူသားအာဟာရ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which nutrient is digested into the glucose respiration runs on?",
+          questionMy:
+              "အသက်ရှုမှု လှည့်နေသော ဂလူးကို့စ်အဖြစ်သို့ ခြေဖျက်ခံရသော အာဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Carbohydrates", "Vitamins", "Fibre", "Minerals"],
+          optionsMy: ["ကာဗိုဟိုက်ဒရိတ်", "ဗီတာမင်", "အမျှင်ဓာတ်", "သတ္တုဓာတ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Hla Hla's explanation to Zaw -- this nutrient is the body's main energy source.",
+            "Vitamins, fibre and minerals are needed in small amounts for other jobs -- none of them is the body's main fuel.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ဇော်အား လှလှ၏ ရှင်းပြချက်ကို သတိရပါ -- ဤအာဟာရသည် ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ရင်းမြစ် ဖြစ်သည်။",
+            "ဗီတာမင်၊ အမျှင်ဓာတ်နှင့် သတ္တုဓာတ်တို့သည် အခြားတာဝန်များအတွက် အနည်းငယ်သာ လိုအပ်ပြီး ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ ခန္ဓာကိုယ်၏ အဓိကလောင်စာ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which nutrient is needed for growth and repair?",
+          questionMy:
+              "ကြီးထွားခြင်းနှင့် ပြင်ဆင်ခြင်းအတွက် လိုအပ်သော အာဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Protein", "Carbohydrates", "Fibre", "Water alone"],
+          optionsMy: [
+            "ပရိုတိန်း",
+            "ကာဗိုဟိုက်ဒရိတ်",
+            "အမျှင်ဓာတ်",
+            "ရေတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Zaw's missing nutrient group -- meat, fish, eggs and beans all supply it.",
+            "This links directly to Week 13's \"growth\" MRS GREN characteristic.",
+          ],
+          hintsMy: [
+            "ဇော်တွင် ချို့တဲ့နေသော အာဟာရအုပ်စုကို သတိရပါ -- အသား၊ ငါး၊ ကြက်ဥနှင့် ပဲအမျိုးမျိုးတို့က ၎င်းကို ထောက်ပံ့ပေးသည်။",
+            "၎င်းသည် Week 13 ၏ \"ကြီးထွားမှု\" MRS GREN လက္ခဏာနှင့် တိုက်ရိုက် ဆက်စပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which food is rich mainly in carbohydrates?",
+          questionMy:
+              "အဓိကအားဖြင့် ကာဗိုဟိုက်ဒရိတ်ကြွယ်ဝသော အစားအစာမှာ အဘယ်နည်း။",
+          optionsEn: ["Rice", "Chicken", "Fish", "Eggs"],
+          optionsMy: ["ထမင်း", "ကြက်သား", "ငါး", "ကြက်ဥ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- three of these options went into the Mainly Protein bucket.",
+            "This is the same staple food from Hla Hla's suggested breakfast, chosen for its carbohydrate energy.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤရွေးချယ်စရာသုံးခုသည် ပရိုတိန်း များများပါကန်ထဲသို့ ဝင်ခဲ့ကြသည်။",
+            "၎င်းသည် လှလှ၏ အကြံပြုထားသော နံနက်စာမှ ကာဗိုဟိုက်ဒရိတ်စွမ်းအင်အတွက် ရွေးချယ်ထားသော အခြေခံအစားအစာတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a balanced diet built from?",
+          questionMy: "မျှတသောအစားအသောက်ကို အဘယ်မှ တည်ဆောက်ထားသနည်း။",
+          optionsEn: [
+            "The right amounts and variety of all seven nutrient groups",
+            "Only carbohydrates, every single meal",
+            "Only protein, every single meal",
+            "As little food as possible",
+          ],
+          optionsMy: [
+            "အာဟာရအုပ်စုခုနစ်ခုလုံး၏ မှန်ကန်သောပမာဏနှင့် အမျိုးမျိုးသောရွေးချယ်မှု",
+            "တစ်နပ်တိုင်း ကာဗိုဟိုက်ဒရိတ်တစ်ခုတည်း",
+            "တစ်နပ်တိုင်း ပရိုတိန်းတစ်ခုတည်း",
+            "တတ်နိုင်သမျှ အစားအစာနည်းနည်းသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- a balanced diet is about variety, not restricting to just one nutrient group.",
+            "Hla Hla's suggested breakfast deliberately mixed three nutrient groups, not just one -- exactly this idea.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- မျှတသောအစားအသောက်ဆိုသည်မှာ အမျိုးမျိုးဖြစ်ရန်ဖြစ်ပြီး အာဟာရအုပ်စုတစ်ခုတည်းသို့ ကန့်သတ်ခြင်း မဟုတ်ပါ။",
+            "လှလှ၏ အကြံပြုထားသော နံနက်စာသည် အာဟာရအုပ်စုသုံးမျိုးကို တမင်တကာ ရောနှောထားပြီး တစ်ခုတည်းသာ မဟုတ်ပါ -- ဤအတွေးအခေါ်အတိအကျပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these supplies vitamins especially well?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဗီတာမင်များကို အထူးကောင်းစွာ ထောက်ပံ့ပေးသည်မှာ အဘယ်နည်း။",
+          optionsEn: ["Fruit", "Only rice", "Only bread", "Only meat"],
+          optionsMy: [
+            "သစ်သီး",
+            "ထမင်းတစ်ခုတည်း",
+            "ပေါင်မုန့်တစ်ခုတည်း",
+            "အသားတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- vitamin C for healthy skin was named alongside this food group specifically.",
+            "This is the same food Hla Hla added to Zaw's breakfast for its vitamin content.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဗီတာမင် C ကျန်းမာသောအရေပြားအတွက် ဤအစားအစာအုပ်စုနှင့် အတူတူ အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် ဗီတာမင်ပါဝင်မှုအတွက် ဇော်၏ နံနက်စာထဲသို့ လှလှ ထပ်ထည့်ခဲ့သော အစားအစာတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did fibre help with, even though the body cannot digest it?",
+          questionMy:
+              "ခန္ဓာကိုယ်က ခြေဖျက်၍ မရနိုင်သော်လည်း အမျှင်ဓာတ်သည် အဘယ်တွင် ကူညီပေးသနည်း။",
+          optionsEn: [
+            "Moving food through the digestive system",
+            "Building new muscle directly",
+            "Storing energy for long periods",
+            "Replacing water completely",
+          ],
+          optionsMy: [
+            "အစာခြေအင်္ဂါစနစ်တစ်လျှောက် အစားအစာ ရွှေ့ပြောင်းခြင်း",
+            "ကြွက်သားအသစ်ကို တိုက်ရိုက် တည်ဆောက်ခြင်း",
+            "စွမ်းအင်ကို ကာလရှည်ကြာ သိုလှောင်ခြင်း",
+            "ရေကို လုံးဝ အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Day 2's drag-match -- fibre's job is entirely physical, not digestive.",
+            "Building muscle is protein's job, and storing energy long-term is fat's job -- not fibre's.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အမျှင်ဓာတ်၏ တာဝန်သည် လုံးလုံး ရုပ်ပိုင်းဆိုင်ရာဖြစ်ပြီး အစာခြေခြင်း မဟုတ်ပါ။",
+            "ကြွက်သားတည်ဆောက်ခြင်းသည် ပရိုတိန်း၏ တာဝန်ဖြစ်ပြီး ကာလရှည်ကြာ စွမ်းအင်သိုလှောင်ခြင်းသည် အဆီဓာတ်၏ တာဝန် ဖြစ်သည် -- အမျှင်ဓာတ်၏ မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 5, Week 18: "The Digestive System"
+// =====================================================================
+
+/// Week 18 traces food through the digestive organs in order, and
+/// deliberately resolves a loose thread from Week 13: "egestion"
+/// (removing undigested food waste) is precisely distinguished from
+/// Week 13's "excretion" (removing chemical waste made inside the
+/// body), a common point of confusion at this level.
+const CourseWeekDef _secondary1ScienceWeek18 = CourseWeekDef(
+  id: "course-secondary1-science-w18",
+  weekNumber: 18,
+  titleEn: "The Digestive System",
+  titleMy: "အစာခြေအင်္ဂါစနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w18-d1",
+      dayNumber: 1,
+      titleEn: "Digestive System Quiz",
+      titleMy: "အစာခြေအင်္ဂါစနစ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is digestion?",
+          questionMy: "အစာခြေခြင်း (Digestion) ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breaking down large food molecules into small ones that can be absorbed into the blood.",
+            "The physical movement of air in and out of the lungs.",
+            "Making a plant's own food using light energy.",
+            "Removing chemical waste from inside body cells.",
+          ],
+          optionsMy: [
+            "ကြီးမားသော အစားအစာမော်လီကျူးများကို သွေးထဲသို့ စုပ်ယူနိုင်သော အသေးလေးများအဖြစ် ကွဲအက်စေခြင်း။",
+            "အဆုတ်ထဲသို့ လေဝင်လေထွက် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားမှု။",
+            "အလင်းစွမ်းအင်ကို အသုံးပြု၍ အပင်ကိုယ်ပိုင် အစားအစာ ပြုလုပ်ခြင်း။",
+            "ခန္ဓာကိုယ်ဆဲလ်အတွင်းမှ ဓာတုစွန့်ပစ်ပစ္စည်း ဖယ်ရှားခြင်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 17's nutrients -- digestion is what makes them small enough to actually enter the bloodstream.",
+            "Rule out breathing (Week 13), photosynthesis (Week 15) and excretion (Week 13) -- those are entirely different life processes.",
+          ],
+          hintsMy: [
+            "Week 17 ၏ အာဟာရများကို သတိရပါ -- အစာခြေခြင်းက ၎င်းတို့ကို သွေးစီးကြောသို့ အမှန်တကယ် ဝင်ရောက်နိုင်လောက်အောင် သေးငယ်စေသည်။",
+            "အသက်ပြင်းစွာရှုခြင်း (Week 13)၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Week 15) နှင့် စွန့်ထုတ်မှု (Week 13) တို့ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် လုံးဝ မတူညီသော သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is the correct order food travels through the digestive system?",
+          questionMy:
+              "အစားအစာသည် အစာခြေအင်္ဂါစနစ်တစ်လျှောက် ခရီးသွားရာတွင် မှန်ကန်သောအစဉ်လိုက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mouth -> oesophagus -> stomach -> small intestine -> large intestine",
+            "Stomach -> mouth -> large intestine -> small intestine -> oesophagus",
+            "Large intestine -> small intestine -> stomach -> oesophagus -> mouth",
+            "Mouth -> large intestine -> oesophagus -> stomach -> small intestine",
+          ],
+          optionsMy: [
+            "ခံတွင်း -> အစာလမ်းကြောင်း -> အစာအိမ် -> အူသိမ် -> အူမ",
+            "အစာအိမ် -> ခံတွင်း -> အူမ -> အူသိမ် -> အစာလမ်းကြောင်း",
+            "အူမ -> အူသိမ် -> အစာအိမ် -> အစာလမ်းကြောင်း -> ခံတွင်း",
+            "ခံတွင်း -> အူမ -> အစာလမ်းကြောင်း -> အစာအိမ် -> အူသိမ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Start from where food first enters the body -- the mouth -- and follow it downward from there, one organ at a time.",
+            "The oesophagus is a muscular tube connecting the mouth to the stomach -- it comes right after chewing, before churning begins.",
+          ],
+          hintsMy: [
+            "အစားအစာ ခန္ဓာကိုယ်ထဲသို့ ပထမဆုံးဝင်ရောက်ရာနေရာ -- ခံတွင်း -- မှစတင်ပြီး တစ်ခုစီ အောက်သို့ လိုက်ကြည့်ပါ။",
+            "အစာလမ်းကြောင်းသည် ခံတွင်းနှင့် အစာအိမ်ကို ချိတ်ဆက်ပေးသော ကြွက်သားပါသည့်ပြွန်တစ်ခုဖြစ်ပြီး -- ၎င်းသည် ဝါးဖွတ်ပြီးနောက်၊ လှုပ်ရှားနယ်ခြင်းမစခင် လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which organ is where most digestion and absorption of nutrients into the blood happens?",
+          questionMy:
+              "အာဟာရများ အစာခြေခြင်းနှင့် သွေးထဲသို့ စုပ်ယူခြင်း အများဆုံးဖြစ်ပျက်ရာ အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Small intestine",
+            "Mouth",
+            "Oesophagus",
+            "Large intestine",
+          ],
+          optionsMy: ["အူသိမ်", "ခံတွင်း", "အစာလမ်းကြောင်း", "အူမ"],
+          correctIndex: 0,
+          hintsEn: [
+            "The mouth and oesophagus mainly move and begin breaking food down -- absorption into the blood happens further along.",
+            "The large intestine's main job is absorbing water and forming waste, not absorbing the nutrients themselves.",
+          ],
+          hintsMy: [
+            "ခံတွင်းနှင့် အစာလမ်းကြောင်းသည် အဓိကအားဖြင့် အစားအစာကို ရွှေ့ပြောင်းပြီး ကွဲအက်စတင်ခြင်းသာ ဖြစ်ပြီး -- သွေးထဲသို့ စုပ်ယူခြင်းသည် ရှေ့ဆက်၍ ဖြစ်ပျက်သည်။",
+            "အူမ၏ အဓိကတာဝန်မှာ ရေကို စုပ်ယူပြီး စွန့်ပစ်ပစ္စည်း ဖြစ်ပေါ်စေခြင်းဖြစ်ပြီး အာဟာရများကို စုပ်ယူခြင်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How is \"egestion\" precisely different from Week 13's \"excretion\"?",
+          questionMy:
+              "\"စွန့်ပစ်ခြင်း (Egestion)\" သည် Week 13 ၏ \"စွန့်ထုတ်မှု (Excretion)\" နှင့် အတိအကျ မည်သို့ ကွာခြားသနည်း။",
+          optionsEn: [
+            "Egestion removes undigested food waste from the gut; excretion removes chemical waste made by reactions inside the body.",
+            "They mean exactly the same thing, with no difference at all.",
+            "Egestion happens in the mouth, and excretion happens in the stomach.",
+            "Excretion only removes undigested food, and egestion only removes chemical waste.",
+          ],
+          optionsMy: [
+            "စွန့်ပစ်ခြင်းသည် အူအတွင်းမှ ခြေဖျက်မထားသော အစားအစာစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားပြီး၊ စွန့်ထုတ်မှုသည် ခန္ဓာကိုယ်အတွင်း တုန့်ပြန်မှုများက ဖြစ်ပေါ်စေသော ဓာတုစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားသည်။",
+            "၎င်းတို့သည် အဓိပ္ပာယ် အတိအကျတူညီပြီး ကွာခြားချက် လုံးဝ မရှိပါ။",
+            "စွန့်ပစ်ခြင်းသည် ခံတွင်းတွင် ဖြစ်ပျက်ပြီး၊ စွန့်ထုတ်မှုသည် အစာအိမ်တွင် ဖြစ်ပျက်သည်။",
+            "စွန့်ထုတ်မှုသည် ခြေဖျက်မထားသော အစားအစာကိုသာ ဖယ်ရှားပြီး၊ စွန့်ပစ်ခြင်းသည် ဓာတုစွန့်ပစ်ပစ္စည်းကိုသာ ဖယ်ရှားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's exact definition of excretion -- it's about chemical waste made by reactions inside the body, not leftover food.",
+            "Egestion is specific to the digestive system; excretion (like carbon dioxide from respiration) applies to every living cell.",
+          ],
+          hintsMy: [
+            "Week 13 ၏ စွန့်ထုတ်မှု အဓိပ္ပာယ်ဖွင့်ဆိုချက်အတိအကျကို သတိရပါ -- ၎င်းသည် ခန္ဓာကိုယ်အတွင်း တုန့်ပြန်မှုများက ဖြစ်ပေါ်စေသော ဓာတုစွန့်ပစ်ပစ္စည်းနှင့် သက်ဆိုင်ပြီး ကျန်ရစ်သောအစားအစာ မဟုတ်ပါ။",
+            "စွန့်ပစ်ခြင်းသည် အစာခြေအင်္ဂါစနစ်နှင့်သာ သီးသန့်သက်ဆိုင်ပြီး၊ စွန့်ထုတ်မှု (အသက်ရှုမှုမှ ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကဲ့သို့) သည် သက်ရှိဆဲလ်တိုင်းအတွက် သက်ဆိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match the Digestive Organs",
+      titleMy: "အစာခြေအင်္ဂါများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w18-dm-1",
+          termEn: "Mouth",
+          termMy: "ခံတွင်း (Mouth)",
+          matchEn:
+              "Where digestion begins -- chewing breaks food into smaller pieces and mixes it with saliva.",
+          matchMy:
+              "အစာခြေခြင်း စတင်ရာနေရာ -- ဝါးဖွတ်ခြင်းက အစားအစာကို အပိုင်းအသေးလေးများအဖြစ် ကွဲအက်စေပြီး တံတွေးနှင့် ရောနှောပေးသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w18-dm-2",
+          termEn: "Oesophagus",
+          termMy: "အစာလမ်းကြောင်း (Oesophagus)",
+          matchEn:
+              "A muscular tube that carries chewed food from the mouth down to the stomach.",
+          matchMy:
+              "ဝါးဖွတ်ထားသော အစားအစာကို ခံတွင်းမှ အစာအိမ်သို့ သယ်ဆောင်ပေးသော ကြွက်သားပါသည့်ပြွန်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w18-dm-3",
+          termEn: "Stomach",
+          termMy: "အစာအိမ် (Stomach)",
+          matchEn:
+              "A muscular bag that churns food and mixes it with digestive juices to break it down further.",
+          matchMy:
+              "အစားအစာကို လှုပ်ရှားနယ်ပြီး အစာခြေရည်နှင့် ရောနှောကာ ပိုမိုကွဲအက်စေသော ကြွက်သားပါသည့်အိတ်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w18-dm-4",
+          termEn: "Small Intestine",
+          termMy: "အူသိမ် (Small Intestine)",
+          matchEn:
+              "Where most digestion finishes and most nutrients are absorbed into the blood.",
+          matchMy:
+              "အစာခြေခြင်း အများဆုံးပြီးမြောက်ပြီး အာဟာရအများဆုံး သွေးထဲသို့ စုပ်ယူခံရသောနေရာ။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w18-dm-5",
+          termEn: "Large Intestine",
+          termMy: "အူမ (Large Intestine)",
+          matchEn:
+              "Absorbs water from undigested food remains and forms solid waste.",
+          matchMy:
+              "ခြေဖျက်မထားသော အစားအစာကျန်ကျန်များမှ ရေကို စုပ်ယူပြီး အစိုင်အခဲစွန့်ပစ်ပစ္စည်းကို ဖြစ်ပေါ်စေသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w18-dm-6",
+          termEn: "Egestion",
+          termMy: "စွန့်ပစ်ခြင်း (Egestion)",
+          matchEn:
+              "Removing undigested food waste from the body -- different from Week 13's excretion of chemical waste.",
+          matchMy:
+              "ခန္ဓာကိုယ်မှ ခြေဖျက်မထားသော အစားအစာစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားခြင်း -- Week 13 ၏ ဓာတုစွန့်ပစ်ပစ္စည်း စွန့်ထုတ်မှုနှင့် မတူ။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Digestive System Organ or Not?",
+      titleMy: "စီစစ်ကြမည် - အစာခြေအင်္ဂါစနစ် အင်္ဂါလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Digestive System Organ",
+          "Not Part of the Digestive System",
+        ],
+        bucketsMy: ["အစာခြေအင်္ဂါစနစ် အင်္ဂါ", "အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်ပါ"],
+        items: [
+          SortingItem(
+            id: "s1sci-w18-sort-1",
+            labelEn: "Mouth",
+            labelMy: "ခံတွင်း",
+            correctBucketEn: "Digestive System Organ",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ် အင်္ဂါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-2",
+            labelEn: "Heart",
+            labelMy: "နှလုံး",
+            correctBucketEn: "Not Part of the Digestive System",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်ပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-3",
+            labelEn: "Stomach",
+            labelMy: "အစာအိမ်",
+            correctBucketEn: "Digestive System Organ",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ် အင်္ဂါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-4",
+            labelEn: "Lungs",
+            labelMy: "အဆုတ်",
+            correctBucketEn: "Not Part of the Digestive System",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်ပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-5",
+            labelEn: "Small intestine",
+            labelMy: "အူသိမ်",
+            correctBucketEn: "Digestive System Organ",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ် အင်္ဂါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-6",
+            labelEn: "Brain",
+            labelMy: "ဦးနှောက်",
+            correctBucketEn: "Not Part of the Digestive System",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်ပါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-7",
+            labelEn: "Large intestine",
+            labelMy: "အူမ",
+            correctBucketEn: "Digestive System Organ",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ် အင်္ဂါ",
+          ),
+          SortingItem(
+            id: "s1sci-w18-sort-8",
+            labelEn: "Oesophagus",
+            labelMy: "အစာလမ်းကြောင်း",
+            correctBucketEn: "Digestive System Organ",
+            correctBucketMy: "အစာခြေအင်္ဂါစနစ် အင်္ဂါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Journey of Aung's Sandwich",
+      titleMy: "စာဖတ်ခြင်း - အောင်၏ ဟင်းခတ်ပေါင်မုန့်၏ ခရီးစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Journey of Aung's Sandwich",
+        titleMy: "အောင်၏ ဟင်းခတ်ပေါင်မုန့်၏ ခရီးစဉ်",
+        passageEn:
+            "Aung took a big bite of his chicken sandwich, and without realizing it, started a journey that would take hours to finish. His teeth tore and crushed the bread and chicken into smaller pieces, mixing them with saliva in his mouth -- the very first step of digestion.\n\nWhen Aung swallowed, the mashed-up food squeezed down his oesophagus, the muscular tube connecting his mouth to his stomach. Inside his stomach, powerful muscles churned the food around and around, mixing it with digestive juices until it became a thick, soupy liquid.\n\nFrom the stomach, the liquid moved into Aung's small intestine, where digestion finished breaking the bread's carbohydrates down into glucose, and the chicken's protein down into smaller building blocks. Here, most of these nutrients passed through the intestine wall directly into Aung's bloodstream, ready to travel to cells throughout his body -- including the mitochondria that would use that glucose for respiration (Week 16), releasing the energy Aung needed to run and play that afternoon.\n\nWhatever the small intestine couldn't digest or absorb moved on to Aung's large intestine, which absorbed extra water from it, leaving behind solid waste. Later that day, when Aung used the toilet, he was egesting this undigested leftover material -- a completely different process, his science teacher had explained, from excretion, which removes chemical waste made inside the body's own cells.",
+        passageMy:
+            "အောင်သည် သူ့ကြက်သားဟင်းခတ်ပေါင်မုန့်ကို ကြီးကြီးလေး တစ်ကိုက်ကိုက်လိုက်ပြီး၊ မသိစိတ်ဖြင့် နာရီများစွာ ကြာမြင့်မည့် ခရီးတစ်ခုကို စတင်လိုက်သည်။ သူ့သွားများသည် ပေါင်မုန့်နှင့် ကြက်သားကို အပိုင်းအသေးလေးများအဖြစ် ဆွဲဆုတ်၍ ချေမှုန်းလိုက်ပြီး ခံတွင်းအတွင်းရှိ တံတွေးနှင့် ရောနှောပေးလိုက်သည် -- အစာခြေခြင်း၏ ပထမဆုံးအဆင့်ပင်။\n\nအောင် မျိုချလိုက်ချိန်တွင် ချေမှုန်းပြီးအစားအစာသည် ခံတွင်းနှင့် အစာအိမ်ကို ချိတ်ဆက်ပေးသော ကြွက်သားပါသည့်ပြွန်ဖြစ်သည့် အစာလမ်းကြောင်းအတွင်း ညှစ်ဆွဲသွားခဲ့သည်။ သူ၏ အစာအိမ်အတွင်း အားကောင်းသောကြွက်သားများက အစားအစာကို ထပ်ကာထပ်ကာ လှုပ်ရှားနယ်ပြီး အစာခြေရည်နှင့် ရောနှောကာ ထူထပ်သော ဟင်းရည်ပုံစံ အရည်တစ်ခုအဖြစ် ပြောင်းလဲသွားခဲ့သည်။\n\nအစာအိမ်မှ အရည်သည် အောင်၏ အူသိမ်ထဲသို့ ရွှေ့ပြောင်းသွားပြီး၊ ထိုနေရာတွင် ပေါင်မုန့်၏ ကာဗိုဟိုက်ဒရိတ်ကို ဂလူးကို့စ်အဖြစ်၊ ကြက်သား၏ ပရိုတိန်းကို အုတ်ခဲအခြေခံအငယ်များအဖြစ် အစာခြေခြင်း ပြီးဆုံးအောင် ကွဲအက်စေခဲ့သည်။ ဤနေရာတွင် ဤအာဟာရအများစုသည် အူနံရံကို ဖြတ်၍ အောင်၏ သွေးစီးကြောသို့ တိုက်ရိုက် ဝင်ရောက်ခဲ့ပြီး၊ သူ့ခန္ဓာကိုယ်တစ်လျှောက် ဆဲလ်များသို့ ခရီးဆက်ရန် အသင့်ဖြစ်ခဲ့သည် -- ထိုအထဲတွင် ထိုဂလူးကို့စ်ကို အသက်ရှုမှု (Week 16) အတွက် အသုံးပြုမည့် မိုက်တိုကွန်ဒရီယာများလည်း ပါဝင်ကာ၊ ထိုနေ့လည်ခင်း အောင် ပြေးလွှားကစားရန် လိုအပ်သော စွမ်းအင်ကို ထုတ်ပေးခဲ့သည်။\n\nအူသိမ်က မခွဲအက်နိုင် (သို့) မစုပ်ယူနိုင်သောအရာများသည် အောင်၏ အူမထဲသို့ ဆက်ရွှေ့သွားခဲ့ပြီး၊ ၎င်းက အပိုရေကို စုပ်ယူကာ အစိုင်အခဲစွန့်ပစ်ပစ္စည်းကို ကျန်ရစ်စေသည်။ ထိုနေ့ နောက်ပိုင်းတွင် အောင် အိမ်သာသုံးချိန်၊ သူသည် ဤခြေဖျက်မထားသော ကျန်ရစ်ပစ္စည်းကို စွန့်ပစ်နေခြင်းသာ ဖြစ်သည် -- ၎င်းသည် ခန္ဓာကိုယ်ကိုယ်ပိုင်ဆဲလ်များအတွင်း ဖြစ်ပေါ်လာသော ဓာတုစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားသည့် စွန့်ထုတ်မှုနှင့် လုံးဝ မတူညီသော လုပ်ငန်းစဉ်တစ်ခုဖြစ်ကြောင်း သူ့သိပ္ပံဆရာမက ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the very first step of digestion, according to the passage?",
+            questionMy: "စာပိုဒ်အရ အစာခြေခြင်း၏ ပထမဆုံးအဆင့်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Chewing in the mouth, mixing food with saliva.",
+              "Absorption in the small intestine.",
+              "Churning in the stomach.",
+              "Egestion in the large intestine.",
+            ],
+            optionsMy: [
+              "ခံတွင်းတွင် ဝါးဖွတ်ကာ အစားအစာကို တံတွေးနှင့် ရောနှောခြင်း။",
+              "အူသိမ်တွင် စုပ်ယူခြင်း။",
+              "အစာအိမ်တွင် လှုပ်ရှားနယ်ခြင်း။",
+              "အူမတွင် စွန့်ပစ်ခြင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it names this exact step directly.",
+              "This matches Day 1's ordering question -- digestion begins in the very first organ food reaches.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ဤအဆင့်အတိအကျကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ အစဉ်လိုက်မေးခွန်းနှင့် ကိုက်ညီသည် -- အစာခြေခြင်းသည် အစားအစာ ပထမဦးဆုံးရောက်ရှိသော အင်္ဂါတွင် စတင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Where did most of the sandwich's nutrients pass into Aung's bloodstream?",
+            questionMy:
+                "ဟင်းခတ်ပေါင်မုန့်၏ အာဟာရအများစုသည် အောင်၏ သွေးစီးကြောထဲသို့ မည်သည့်နေရာတွင် ဝင်ရောက်ခဲ့သနည်း။",
+            optionsEn: [
+              "The small intestine",
+              "The mouth",
+              "The oesophagus",
+              "The large intestine",
+            ],
+            optionsMy: ["အူသိမ်", "ခံတွင်း", "အစာလမ်းကြောင်း", "အူမ"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- it names this exact organ as where absorption into the blood happens.",
+              "This matches Day 1's third quiz question directly.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက သွေးထဲသို့ စုပ်ယူခြင်း ဖြစ်ပျက်ရာ ဤအင်္ဂါအတိအကျကို အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ တတိယမေးခွန်းနှင့် တိုက်ရိုက် ကိုက်ညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Aung's cells eventually do with the glucose absorbed from his sandwich?",
+            questionMy:
+                "အောင်၏ ဟင်းခတ်ပေါင်မုန့်မှ စုပ်ယူထားသော ဂလူးကို့စ်ကို သူ့ဆဲလ်များက နောက်ဆုံး မည်သို့ အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              "Mitochondria used it for respiration, releasing energy for Aung to run and play.",
+              "It was immediately egested without being used at all.",
+              "It turned directly into oxygen.",
+              "It was used to build a chloroplast.",
+            ],
+            optionsMy: [
+              "မိုက်တိုကွန်ဒရီယာများက အသက်ရှုမှုအတွက် အသုံးပြုကာ အောင် ပြေးလွှားကစားရန် စွမ်းအင် ထုတ်လွှတ်ပေးခဲ့သည်။",
+              "လုံးဝ အသုံးမချဘဲ ချက်ချင်း စွန့်ပစ်ခံခဲ့ရသည်။",
+              "ချက်ချင်း အောက်ဆီဂျင်အဖြစ် ပြောင်းလဲသွားခဲ့သည်။",
+              "ကလိုရိုပလတ်တစ်ခု တည်ဆောက်ရန် အသုံးပြုခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's final sentence, which names respiration and its energy release directly.",
+              "Chloroplasts (Week 14) are found only in plant cells -- Aung is an animal, so this option cannot be right.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက အသက်ရှုမှုနှင့် ၎င်း၏ စွမ်းအင်ထုတ်လွှတ်မှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ကလိုရိုပလတ် (Week 14) သည် အပင်ဆဲလ်တွင်သာ တွေ့ရသည် -- အောင်သည် တိရစ္ဆာန်တစ်ကောင်ဖြစ်၍ ဤရွေးချယ်စရာမှန်ကန်နိုင်မည် မဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Aung's teacher explain egestion differed from excretion?",
+            questionMy:
+                "အောင်၏ ဆရာမက စွန့်ပစ်ခြင်းသည် စွန့်ထုတ်မှုနှင့် မည်သို့ ကွာခြားကြောင်း ရှင်းပြခဲ့သနည်း။",
+            optionsEn: [
+              "Egestion removes undigested food; excretion removes chemical waste made inside the body's own cells.",
+              "They are exactly the same process, just with different names.",
+              "Egestion happens in the mouth; excretion happens in the small intestine.",
+              "Only excretion happens in humans; only egestion happens in plants.",
+            ],
+            optionsMy: [
+              "စွန့်ပစ်ခြင်းက ခြေဖျက်မထားသော အစားအစာကို ဖယ်ရှားပြီး၊ စွန့်ထုတ်မှုက ခန္ဓာကိုယ်ကိုယ်ပိုင်ဆဲလ်များအတွင်း ဖြစ်ပေါ်လာသော ဓာတုစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားသည်။",
+              "၎င်းတို့သည် အတိအကျ လုပ်ငန်းစဉ်တစ်ခုတည်းပင် ဖြစ်ပြီး အမည်သာ ကွဲပြားသည်။",
+              "စွန့်ပစ်ခြင်းသည် ခံတွင်းတွင် ဖြစ်ပျက်ပြီး၊ စွန့်ထုတ်မှုသည် အူသိမ်တွင် ဖြစ်ပျက်သည်။",
+              "လူသားများတွင်သာ စွန့်ထုတ်မှု ဖြစ်ပျက်ပြီး၊ အပင်များတွင်သာ စွန့်ပစ်ခြင်း ဖြစ်ပျက်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence of the passage, which restates Day 1's distinction directly.",
+              "This is exactly Day 1's fourth quiz question, applied to Aung's own experience.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက ပထမနေ့၏ ခွဲခြားချက်ကို တိုက်ရိုက် ထပ်ဆင့်ဖော်ပြသည်။",
+              "ဤသည်မှာ ပထမနေ့ စတုတ္ထမေးခွန်းအတိအကျပင်ဖြစ်ပြီး အောင်၏ ကိုယ်ပိုင်အတွေ့အကြုံတွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: The Digestive System",
+      titleMy: "အပတ်စဉ် ၁၈ ပြန်လည်သုံးသပ်ခြင်း - အစာခြေအင်္ဂါစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which organ connects the mouth to the stomach?",
+          questionMy:
+              "ခံတွင်းနှင့် အစာအိမ်ကို ချိတ်ဆက်ပေးသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Oesophagus",
+            "Small intestine",
+            "Large intestine",
+            "Nucleus",
+          ],
+          optionsMy: ["အစာလမ်းကြောင်း", "အူသိမ်", "အူမ", "နျူကလိယ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- this muscular tube's whole job is to carry food between two other organs.",
+            "Nucleus (Week 14) is a cell structure, not a digestive organ at all.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤကြွက်သားပါသည့်ပြွန်၏ တာဝန်တစ်ခုလုံးမှာ အင်္ဂါနှစ်ခုအကြား အစားအစာသယ်ဆောင်ရန် ဖြစ်သည်။",
+            "နျူကလိယ (Week 14) သည် ဆဲလ်အစိတ်အပိုင်းတစ်ခုဖြစ်ပြီး အစာခြေအင်္ဂါ လုံးဝ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is digestion's overall purpose?",
+          questionMy: "အစာခြေခြင်း၏ အလုံးစုံရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breaking food into small molecules that can be absorbed into the blood",
+            "Creating brand-new atoms inside the body",
+            "Producing light energy for the body",
+            "Building a magnetic field inside the stomach",
+          ],
+          optionsMy: [
+            "အစားအစာကို သွေးထဲသို့ စုပ်ယူနိုင်သော မော်လီကျူးအသေးလေးများအဖြစ် ကွဲအက်စေခြင်း",
+            "ခန္ဓာကိုယ်အတွင်း အက်တမ်အသစ်များ ဖန်တီးခြင်း",
+            "ခန္ဓာကိုယ်အတွက် အလင်းစွမ်းအင် ထုတ်လုပ်ခြင်း",
+            "အစာအိမ်အတွင်း သံလိုက်စက်ကွင်းတစ်ခု တည်ဆောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- digestion's whole purpose comes down to one goal.",
+            "Rule out the options about atoms, light and magnetism -- those belong to entirely different weeks' topics.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- အစာခြေခြင်း၏ ရည်ရွယ်ချက်တစ်ခုလုံးမှာ ရည်မှန်းချက်တစ်ခုတည်းသို့ ရောက်ရှိသည်။",
+            "အက်တမ်၊ အလင်းနှင့် သံလိုက်ဗေဒနှင့်ပတ်သက်သော ရွေးချယ်စရာများကို ဖယ်ရှားပါ -- ၎င်းတို့သည် လုံးဝ မတူညီသော အပတ်များမှ ခေါင်းစဉ်များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is NOT part of the digestive system?",
+          questionMy:
+              "အောက်ပါတို့အနက် အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["Lungs", "Stomach", "Small intestine", "Mouth"],
+          optionsMy: ["အဆုတ်", "အစာအိမ်", "အူသိမ်", "ခံတွင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the sorting activity -- lungs went into the Not Part of the Digestive System bucket, alongside the heart and brain.",
+            "The lungs are for breathing (Week 13), a completely different body system from digestion.",
+          ],
+          hintsMy: [
+            "စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- အဆုတ်သည် နှလုံးနှင့် ဦးနှောက်တို့နှင့်အတူ အစာခြေအင်္ဂါစနစ်တွင် မပါဝင်ပါ ကန်ထဲသို့ ဝင်ခဲ့သည်။",
+            "အဆုတ်သည် အသက်ပြင်းစွာရှုခြင်း (Week 13) အတွက်ဖြစ်ပြီး အစာခြေခြင်းနှင့် လုံးဝ မတူညီသော ခန္ဓာကိုယ်စနစ်တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does the large intestine mainly do?",
+          questionMy: "အူမသည် အဓိကအားဖြင့် အဘယ်ကို ပြုလုပ်ပေးသနည်း။",
+          optionsEn: [
+            "Absorbs water and forms solid waste",
+            "Chews food into smaller pieces",
+            "Absorbs most nutrients into the blood",
+            "Produces glucose using light energy",
+          ],
+          optionsMy: [
+            "ရေကို စုပ်ယူပြီး အစိုင်အခဲစွန့်ပစ်ပစ္စည်း ဖြစ်ပေါ်စေသည်",
+            "အစားအစာကို အပိုင်းအသေးလေးများအဖြစ် ဝါးဖွတ်ပေးသည်",
+            "အာဟာရအများစုကို သွေးထဲသို့ စုပ်ယူပေးသည်",
+            "အလင်းစွမ်းအင်ကို အသုံးပြု၍ ဂလူးကို့စ် ထုတ်လုပ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- the large intestine's job comes after the small intestine has already absorbed most nutrients.",
+            "Chewing is the mouth's job, absorbing most nutrients is the small intestine's job, and glucose production is photosynthesis (Week 15).",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အူသိမ်က အာဟာရအများစုကို စုပ်ယူပြီးနောက် အူမ၏ တာဝန် ဆက်လက်ဖြစ်သည်။",
+            "ဝါးဖွတ်ခြင်းသည် ခံတွင်း၏ တာဝန်ဖြစ်ပြီး၊ အာဟာရအများစု စုပ်ယူခြင်းသည် အူသိမ်၏ တာဝန်ဖြစ်ကာ၊ ဂလူးကို့စ် ထုတ်လုပ်ခြင်းသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Week 15) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is \"egestion\"?",
+          questionMy: "\"စွန့်ပစ်ခြင်း (Egestion)\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Removing undigested food waste from the gut",
+            "Removing chemical waste from inside body cells",
+            "Producing glucose in a chloroplast",
+            "Breathing air in and out of the lungs",
+          ],
+          optionsMy: [
+            "အူအတွင်းမှ ခြေဖျက်မထားသော အစားအစာစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားခြင်း",
+            "ခန္ဓာကိုယ်ဆဲလ်အတွင်းမှ ဓာတုစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားခြင်း",
+            "ကလိုရိုပလတ်အတွင်း ဂလူးကို့စ် ထုတ်လုပ်ခြင်း",
+            "အဆုတ်ထဲသို့ လေဝင်လေထွက် ရှုသွင်းရှုထုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- this is precisely NOT the same as excretion.",
+            "This is Aung's own experience from the reading passage, using the toilet after his sandwich's undigested remains reached his large intestine.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ၎င်းသည် စွန့်ထုတ်မှုနှင့် အတိအကျ မတူပါ။",
+            "ဤသည်မှာ ဟင်းခတ်ပေါင်မုန့်၏ ခြေဖျက်မထားသော ကျန်ရစ်ပစ္စည်း အောင်၏ အူမသို့ ရောက်ရှိပြီးနောက် အိမ်သာသုံးခဲ့သော အောင်၏ ကိုယ်ပိုင်အတွေ့အကြုံပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which food group did digestion break down into glucose in Aung's story?",
+          questionMy:
+              "အောင်၏ဇာတ်လမ်းတွင် အစာခြေခြင်းက မည်သည့်အာဟာရအုပ်စုကို ဂလူးကို့စ်အဖြစ် ကွဲအက်စေခဲ့သနည်း။",
+          optionsEn: [
+            "Carbohydrates (from the bread)",
+            "Fibre",
+            "Water",
+            "Vitamins",
+          ],
+          optionsMy: [
+            "ကာဗိုဟိုက်ဒရိတ် (ပေါင်မုန့်ထဲမှ)",
+            "အမျှင်ဓာတ်",
+            "ရေ",
+            "ဗီတာမင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 17's nutrient groups -- this is the same nutrient carrying the body's main energy.",
+            "Re-read the reading passage's third paragraph, which names the bread's nutrient directly.",
+          ],
+          hintsMy: [
+            "Week 17 ၏ အာဟာရအုပ်စုများကို သတိရပါ -- ၎င်းသည် ခန္ဓာကိုယ်၏ အဓိကစွမ်းအင်ကို သယ်ဆောင်သော အာဟာရတည်းပင် ဖြစ်သည်။",
+            "စာဖတ်ခန်း၏ တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ပေါင်မုန့်၏ အာဟာရကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 5, Week 19: "Ecosystems and Food Chains"
+// =====================================================================
+
+/// Week 19 explicitly reuses Week 15's "producer" concept (an organism
+/// that photosynthesizes) as the starting point of every food chain,
+/// and defines the food-chain arrow precisely as showing the direction
+/// energy flows -- setting up Week 20's capstone on energy loss between
+/// feeding levels.
+const CourseWeekDef _secondary1ScienceWeek19 = CourseWeekDef(
+  id: "course-secondary1-science-w19",
+  weekNumber: 19,
+  titleEn: "Ecosystems and Food Chains",
+  titleMy: "သဘာဝဝန်းကျင်စနစ်များနှင့် အစားအစာကွင်းဆက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w19-d1",
+      dayNumber: 1,
+      titleEn: "Food Chains Quiz",
+      titleMy: "အစားအစာကွင်းဆက် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a \"producer\" in a food chain?",
+          questionMy:
+              "အစားအစာကွင်းဆက်တစ်ခုအတွင်း \"ထုတ်လုပ်သူ (Producer)\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An organism, like a green plant, that makes its own food through photosynthesis.",
+            "Any animal that hunts other animals.",
+            "An organism that only eats other organisms, never makes its own food.",
+            "A non-living part of the ecosystem, like a rock.",
+          ],
+          optionsMy: [
+            "အစိမ်းရောင်အပင်ကဲ့သို့ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ၎င်းကိုယ်ပိုင် အစားအစာ ပြုလုပ်သော သက်ရှိတစ်ခု။",
+            "အခြားသတ္တဝါများကို လိုက်လံဖမ်းစားသော မည်သည့်တိရစ္ဆာန်မဆို။",
+            "အခြားသက်ရှိများကို စားသုံးရုံသာ ဖြစ်ပြီး ကိုယ်ပိုင်အစားအစာ ဘယ်တော့မှ မပြုလုပ်နိုင်သော သက်ရှိတစ်ခု။",
+            "ကျောက်တုံးကဲ့သို့ သဘာဝဝန်းကျင်စနစ်၏ သက်မဲ့အစိတ်အပိုင်းတစ်ခု။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's photosynthesis -- a producer is exactly the kind of organism that carries it out.",
+            "Every food chain has to start somewhere -- a producer is that starting point, since it doesn't need to eat anything else.",
+          ],
+          hintsMy: [
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို သတိရပါ -- ထုတ်လုပ်သူသည် ၎င်းကို လုပ်ဆောင်သော သက်ရှိအမျိုးအစားအတိအကျပင် ဖြစ်သည်။",
+            "အစားအစာကွင်းဆက်တိုင်းသည် တစ်နေရာနေရာမှ စတင်ရသည် -- ထုတ်လုပ်သူသည် ထိုအစပြုနေရာဖြစ်ပြီး အခြားအရာကို စားရန် လိုအပ်ချက် မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the arrow in a food chain, like \"grass -> rabbit,\" actually represent?",
+          questionMy:
+              "\"မြက်ခင်း -> ယုန်\" ကဲ့သို့ အစားအစာကွင်းဆက်တစ်ခုရှိ မြားပြသည် အမှန်တကယ် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "The direction energy flows, from what is eaten to what eats it.",
+            "The direction the animal is walking in.",
+            "The exact temperature of each organism.",
+            "Which organism is heavier.",
+          ],
+          optionsMy: [
+            "စွမ်းအင် စီးဆင်းသည့်ဦးတည်ရာဖြစ်ပြီး ဘယ်ကနေ (စားခံရသောအရာ) မှ ဘယ်ကို (စားသောအရာ) ဆိုသည်ကို ညွှန်ပြသည်။",
+            "တိရစ္ဆာန်လျှောက်နေသော ဦးတည်ရာ။",
+            "သက်ရှိတစ်ခုစီ၏ အတိအကျအပူချိန်။",
+            "မည်သည့်သက်ရှိက ပိုလေးသည်ဆိုသည့်အချက်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15/16's energy transfers -- a food chain arrow is really about following energy from one organism to the next.",
+            "It's not about direction of movement, temperature, or weight -- those are entirely unrelated ideas.",
+          ],
+          hintsMy: [
+            "Week 15/16 ၏ စွမ်းအင်လွှဲပြောင်းမှုများကို သတိရပါ -- အစားအစာကွင်းဆက်မြားပြသည် အမှန်တကယ် သက်ရှိတစ်ခုမှ အခြားတစ်ခုသို့ စွမ်းအင်ကို ခြေရာခံနေခြင်း ဖြစ်သည်။",
+            "၎င်းသည် ရွေ့လျားမှုဦးတည်ရာ၊ အပူချိန် (သို့) အလေးချိန်နှင့် မသက်ဆိုင်ပါ -- ၎င်းတို့သည် လုံးဝ မသက်ဆိုင်သောအတွေးအခေါ်များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"primary consumer\"?",
+          questionMy:
+              "\"ပထမဆင့် စားသုံးသူ (Primary Consumer)\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An organism that eats producers directly, like a rabbit eating grass.",
+            "An organism that only eats other consumers.",
+            "The very first producer in a food chain.",
+            "An organism that makes its own food.",
+          ],
+          optionsMy: [
+            "မြက်ကိုစားသော ယုန်ကဲ့သို့ ထုတ်လုပ်သူများကို တိုက်ရိုက် စားသုံးသော သက်ရှိတစ်ခု။",
+            "အခြားစားသုံးသူများကိုသာ စားသော သက်ရှိတစ်ခု။",
+            "အစားအစာကွင်းဆက်တစ်ခုရှိ ပထမဆုံးထုတ်လုပ်သူ။",
+            "ကိုယ်ပိုင်အစားအစာ ပြုလုပ်သော သက်ရှိတစ်ခု။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Primary\" means \"first\" -- this consumer is the very first one to eat something in the food chain, right after the producer.",
+            "An organism that eats other consumers instead is called a secondary consumer -- one step further along the chain.",
+          ],
+          hintsMy: [
+            "\"ပထမဆင့်\" ဆိုသည်မှာ \"ပထမဆုံး\" ဟု ဆိုလိုသည် -- ဤစားသုံးသူသည် ထုတ်လုပ်သူပြီးနောက် အစားအစာကွင်းဆက်တွင် ပထမဆုံးစားသော သက်ရှိ ဖြစ်သည်။",
+            "အခြားစားသုံးသူများကို စားသော သက်ရှိကို ဒုတိယဆင့်စားသုံးသူဟု ခေါ်ပြီး ကွင်းဆက်တွင် တစ်ဆင့်ဆက်ကာ ဆက်ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why does every food chain always start with a producer?",
+          questionMy:
+              "အစားအစာကွင်းဆက်တိုင်းသည် အဘယ့်ကြောင့် ထုတ်လုပ်သူနှင့် အမြဲစတင်ရသနည်း။",
+          optionsEn: [
+            "Only producers can capture the Sun's light energy directly through photosynthesis -- consumers must get their energy from eating something else.",
+            "Producers are always the largest organisms in an ecosystem.",
+            "Consumers always come before producers in every chain.",
+            "There is no real reason -- it's just a random tradition.",
+          ],
+          optionsMy: [
+            "ထုတ်လုပ်သူများသာ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် နေရောင်ခြည်၏ အလင်းစွမ်းအင်ကို တိုက်ရိုက် ဖမ်းယူနိုင်သည် -- စားသုံးသူများသည် ၎င်းတို့၏ စွမ်းအင်ကို အခြားတစ်ခုခု စားခြင်းမှသာ ရရှိရမည်။",
+            "ထုတ်လုပ်သူများသည် သဘာဝဝန်းကျင်စနစ်တစ်ခုအတွင်း အမြဲအကြီးဆုံးသက်ရှိများ ဖြစ်ကြသည်။",
+            "စားသုံးသူများသည် ကွင်းဆက်တိုင်းတွင် ထုတ်လုပ်သူများထက် အမြဲရှေ့ရှိသည်။",
+            "အကြောင်းရင်း အမှန်တကယ် မရှိပါ -- ၎င်းသည် ကျပန်းထုံးတမ်းတစ်ခုမျှသာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's photosynthesis word equation -- light energy from the sun only enters this whole system through one type of organism.",
+            "Consumers can only pass along energy they've already received from eating something else -- they can never create it from sunlight themselves.",
+          ],
+          hintsMy: [
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း စကားလုံးညီမျှခြင်းကို သတိရပါ -- နေရောင်ခြည်မှ အလင်းစွမ်းအင်သည် ဤစနစ်တစ်ခုလုံးထဲသို့ သက်ရှိအမျိုးအစားတစ်ခုတည်းမှသာ ဝင်ရောက်နိုင်သည်။",
+            "စားသုံးသူများသည် အခြားတစ်ခုခု စားခြင်းမှ ရရှိပြီးသော စွမ်းအင်ကိုသာ ဆက်လက်ကူးပို့နိုင်ပြီး -- နေရောင်ခြည်မှ ၎င်းကို ကိုယ်တိုင် ဘယ်တော့မှ ဖန်တီး၍ မရနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match the Ecosystem Terms",
+      titleMy: "သဘာဝဝန်းကျင်စနစ် ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w19-dm-1",
+          termEn: "Ecosystem",
+          termMy: "သဘာဝဝန်းကျင်စနစ် (Ecosystem)",
+          matchEn:
+              "All the living and non-living things in an area, interacting together.",
+          matchMy:
+              "နေရာတစ်ခုအတွင်းရှိ သက်ရှိနှင့် သက်မဲ့ပစ္စည်းအားလုံး၊ အတူတကွ ဆက်စပ်နေကြသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w19-dm-2",
+          termEn: "Producer",
+          termMy: "ထုတ်လုပ်သူ (Producer)",
+          matchEn:
+              "An organism, like a green plant, that makes its own food through photosynthesis -- always the start of a food chain.",
+          matchMy:
+              "အစိမ်းရောင်အပင်ကဲ့သို့ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ကိုယ်ပိုင် အစားအစာပြုလုပ်သော သက်ရှိတစ်ခု -- အစားအစာကွင်းဆက်၏ အစပြုနေရာ အမြဲဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w19-dm-3",
+          termEn: "Consumer",
+          termMy: "စားသုံးသူ (Consumer)",
+          matchEn:
+              "An organism that cannot make its own food, and instead gets energy by eating other organisms.",
+          matchMy:
+              "ကိုယ်ပိုင်အစားအစာ မပြုလုပ်နိုင်ဘဲ အခြားသက်ရှိများ စားသုံးခြင်းမှ စွမ်းအင်ရရှိသော သက်ရှိတစ်ခု။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w19-dm-4",
+          termEn: "Predator",
+          termMy: "သားရဲ (Predator)",
+          matchEn: "An animal that hunts and eats another animal.",
+          matchMy: "အခြားတိရစ္ဆာန်တစ်ကောင်ကို လိုက်လံဖမ်းစားသော တိရစ္ဆာန်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w19-dm-5",
+          termEn: "Prey",
+          termMy: "ဖမ်းစားခံရသူ (Prey)",
+          matchEn: "An animal that is hunted and eaten by a predator.",
+          matchMy: "သားရဲတစ်ကောင်က လိုက်လံဖမ်းစားခံရသော တိရစ္ဆာန်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w19-dm-6",
+          termEn: "Food Chain",
+          termMy: "အစားအစာကွင်းဆက် (Food Chain)",
+          matchEn:
+              "A diagram showing the feeding order between organisms, with arrows showing the direction energy flows.",
+          matchMy:
+              "သက်ရှိများအကြား အစားအသောက်အစဉ်ကို ပြသည့်ပုံဖြစ်ပြီး စွမ်းအင်စီးဆင်းသည့်ဦးတည်ရာကို မြားပြများဖြင့် ပြသသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Producer or Consumer?",
+      titleMy: "စီစစ်ကြမည် - ထုတ်လုပ်သူလား၊ စားသုံးသူလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Producer", "Consumer"],
+        bucketsMy: ["ထုတ်လုပ်သူ", "စားသုံးသူ"],
+        items: [
+          SortingItem(
+            id: "s1sci-w19-sort-1",
+            labelEn: "Grass",
+            labelMy: "မြက်ပင်",
+            correctBucketEn: "Producer",
+            correctBucketMy: "ထုတ်လုပ်သူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-2",
+            labelEn: "Rabbit",
+            labelMy: "ယုန်",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "စားသုံးသူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-3",
+            labelEn: "Oak tree",
+            labelMy: "သစ်ကျားပင်",
+            correctBucketEn: "Producer",
+            correctBucketMy: "ထုတ်လုပ်သူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-4",
+            labelEn: "Fox",
+            labelMy: "မြေခွေး",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "စားသုံးသူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-5",
+            labelEn: "Algae",
+            labelMy: "ရေညှိ",
+            correctBucketEn: "Producer",
+            correctBucketMy: "ထုတ်လုပ်သူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-6",
+            labelEn: "Lion",
+            labelMy: "ခြင်္သေ့",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "စားသုံးသူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-7",
+            labelEn: "Seaweed",
+            labelMy: "ပင်လယ်ရေညှိ",
+            correctBucketEn: "Producer",
+            correctBucketMy: "ထုတ်လုပ်သူ",
+          ),
+          SortingItem(
+            id: "s1sci-w19-sort-8",
+            labelEn: "Human",
+            labelMy: "လူသား",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "စားသုံးသူ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha's Garden Food Chain",
+      titleMy: "စာဖတ်ခြင်း - သီဟ၏ ဥယျာဉ်အစားအစာကွင်းဆက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha's Garden Food Chain",
+        titleMy: "သီဟ၏ ဥယျာဉ်အစားအစာကွင်းဆက်",
+        passageEn:
+            "Thiha spent an afternoon watching his family's vegetable garden, writing down every feeding relationship he noticed. First, he watched a caterpillar munching steadily on a cabbage leaf. The cabbage plant, he remembered from Week 15, had captured light energy from the sun through photosynthesis, building glucose and storing energy inside its leaves -- energy that was now passing into the caterpillar as it ate.\n\nA little while later, a small bird swooped down and snatched the caterpillar in its beak. Thiha wrote out his first food chain: cabbage -> caterpillar -> bird, with each arrow showing the direction that energy flowed, from what was eaten to what ate it. The cabbage was the producer, the caterpillar was the primary consumer, and the bird was the secondary consumer.\n\nThiha's grandmother, watching him work, reminded him that not all the energy the caterpillar got from the cabbage passed on to the bird. Much of it had already been used by the caterpillar's own respiration (Week 16) -- crawling, digesting, and simply staying alive -- and released as heat into the air, long before the bird ever caught it. Only the energy still stored in the caterpillar's own body passed on to the bird that ate it.\n\nThiha realized this was why his garden had many more cabbage plants than caterpillars, and far fewer birds than caterpillars still. Less and less energy remained available at each step along the food chain, so fewer and fewer organisms could be supported the further along the chain you went.",
+        passageMy:
+            "သီဟသည် ၎င်း၏ မိသားစုဟင်းသီးဟင်းရွက်ဥယျာဉ်ကို နေ့လည်တစ်ခုလုံး ကြည့်ရှုနေခဲ့ပြီး တွေ့ရှိသမျှ အစားအသောက်ဆက်စပ်မှုများကို ရေးမှတ်ခဲ့သည်။ ပထမဦးစွာ သူသည် ဂေါ်ဖီအရွက်တစ်ရွက်ကို တဖြည်းဖြည်း ဝါးစားနေသော ပိုးကောင်တစ်ကောင်ကို ကြည့်ခဲ့သည်။ ဂေါ်ဖီအပင်သည် Week 15 မှ သတိရသလို နေရောင်ခြည်၏ အလင်းစွမ်းအင်ကို အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ဖမ်းယူခဲ့ပြီး ဂလူးကို့စ်တည်ဆောက်ကာ ၎င်း၏အရွက်များအတွင်း စွမ်းအင်ကို သိုလှောင်ခဲ့သည် -- ယခုအခါ ထိုစွမ်းအင်သည် ပိုးကောင် စားသုံးနေစဉ် ၎င်းထံသို့ ကူးလွှဲသွားနေသည်။\n\nခဏအကြာတွင် ငှက်ငယ်တစ်ကောင် ကျဆင်းလာပြီး ပိုးကောင်ကို ပါးစပ်ဖြင့် ကောက်ယူခဲ့သည်။ သီဟသည် ၎င်း၏ ပထမဆုံးအစားအစာကွင်းဆက်ကို ရေးချခဲ့သည် - ဂေါ်ဖီ -> ပိုးကောင် -> ငှက်၊ မြားပြတစ်ခုစီသည် စွမ်းအင်စီးဆင်းသည့်ဦးတည်ရာဖြစ်ပြီး ဘယ်ကနေ (စားခံရသောအရာ) မှ ဘယ်ကို (စားသောအရာ) ဆိုသည်ကို ညွှန်ပြသည်။ ဂေါ်ဖီသည် ထုတ်လုပ်သူဖြစ်ပြီး ပိုးကောင်သည် ပထမဆင့်စားသုံးသူ၊ ငှက်သည် ဒုတိယဆင့်စားသုံးသူ ဖြစ်သည်။\n\nသီဟအလုပ်လုပ်နေသည်ကို ကြည့်နေသော အဖွားက ပိုးကောင် ဂေါ်ဖီမှ ရရှိသော စွမ်းအင်အားလုံးသည် ငှက်ထံသို့ ကူးမသွားခဲ့ကြောင်း သတိပေးခဲ့သည်။ ၎င်း၏ များစွာသောစွမ်းအင်သည် ပိုးကောင် ကိုယ်တိုင်၏ အသက်ရှုမှု (Week 16) -- တွားသွားခြင်း၊ အစာခြေခြင်းနှင့် ရိုးရိုးရှင်းရှင်း အသက်ရှင်နေထိုင်ခြင်း -- ကြောင့် အသုံးပြုခံခဲ့ရပြီးသား ဖြစ်ကာ ငှက်မဖမ်းမီကတည်းက အပူအဖြစ် လေထဲသို့ ထုတ်လွှတ်ခံခဲ့ရသည်။ ပိုးကောင်၏ ကိုယ်ခန္ဓာအတွင်း ဆက်လက်သိုလှောင်ထားသောစွမ်းအင်သာ ၎င်းကို ဖမ်းစားခဲ့သော ငှက်ထံသို့ ကူးလွှဲသွားခဲ့သည်။\n\nသီဟသည် သူ့ဥယျာဉ်တွင် ပိုးကောင်ထက် ဂေါ်ဖီအပင် ပိုမိုများပြားပြီး၊ ပိုးကောင်ထက် ငှက်များ ပိုနည်းပါးသည့်အကြောင်းရင်းကို သိရှိလိုက်သည်။ အစားအစာကွင်းဆက်တစ်လျှောက် တစ်ဆင့်ချင်းတွင် ရရှိနိုင်သောစွမ်းအင် ပိုမိုနည်းပါးလာသဖြင့် ကွင်းဆက်ဆက်ရှည်လေ ထောက်ပံ့ပေးနိုင်သော သက်ရှိအရေအတွက် ပိုနည်းလေ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was the producer in Thiha's food chain?",
+            questionMy: "သီဟ၏ အစားအစာကွင်းဆက်တွင် ထုတ်လုပ်သူမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The cabbage plant",
+              "The caterpillar",
+              "The bird",
+              "The sun itself",
+            ],
+            optionsMy: ["ဂေါ်ဖီအပင်", "ပိုးကောင်", "ငှက်", "နေကိုယ်တိုင်"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Thiha names each organism's role in his food chain directly.",
+              "Recall Day 1's definition -- the producer is the organism that photosynthesizes, always first in the chain.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သီဟသည် သူ၏ အစားအစာကွင်းဆက်ရှိ သက်ရှိတစ်ခုစီ၏ အခန်းကဏ္ဍကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ပထမနေ့ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ထုတ်လုပ်သူသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပြုလုပ်သောသက်ရှိဖြစ်ပြီး ကွင်းဆက်တွင် အမြဲပထမဆုံး ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why didn't all the caterpillar's energy pass on to the bird that ate it?",
+            questionMy:
+                "ပိုးကောင်၏ စွမ်းအင်အားလုံးသည် ၎င်းကို ဖမ်းစားခဲ့သော ငှက်ထံသို့ အဘယ့်ကြောင့် လုံးလုံးမကူးလွှဲခဲ့သနည်း။",
+            optionsEn: [
+              "Much of it had already been used by the caterpillar's respiration and released as heat before the bird caught it.",
+              "The caterpillar stored all its energy in a chloroplast.",
+              "Energy always doubles every time an animal eats something.",
+              "Birds cannot receive energy from caterpillars at all.",
+            ],
+            optionsMy: [
+              "ငှက်မဖမ်းမီကတည်းက ပိုးကောင်၏ အသက်ရှုမှုက အများစုကို အသုံးပြုပြီးသား ဖြစ်ကာ အပူအဖြစ် ထုတ်လွှတ်ခံခဲ့ရသည်။",
+              "ပိုးကောင်သည် ၎င်း၏ စွမ်းအင်အားလုံးကို ကလိုရိုပလတ်တစ်ခုအတွင်း သိုလှောင်ခဲ့သည်။",
+              "တိရစ္ဆာန်တစ်ကောင် တစ်ခုခုစားတိုင်း စွမ်းအင် အမြဲနှစ်ဆတိုးလာသည်။",
+              "ငှက်များသည် ပိုးကောင်များထံမှ စွမ်းအင် လုံးဝ ရယူ၍ မရနိုင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, where Thiha's grandmother explains this directly, linking it to Week 16's respiration.",
+              "Caterpillars are animals, not plants -- they never have chloroplasts (Week 14), ruling that option out.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- သီဟ၏ အဖွားက ၎င်းကို Week 16 ၏ အသက်ရှုမှုနှင့် ဆက်စပ်၍ တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "ပိုးကောင်များသည် တိရစ္ဆာန်များဖြစ်ပြီး အပင်များ မဟုတ်ပါ -- ၎င်းတို့တွင် ကလိုရိုပလတ် (Week 14) ဘယ်တော့မှ မရှိပါ၊ ထိုရွေးချယ်စရာကို ဖယ်ရှားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Thiha's garden have many more cabbage plants than caterpillars?",
+            questionMy:
+                "သီဟ၏ ဥယျာဉ်တွင် ပိုးကောင်ထက် ဂေါ်ဖီအပင် အဘယ့်ကြောင့် ပိုမိုများပြားခဲ့သနည်း။",
+            optionsEn: [
+              "Less energy remains available at each step further along the food chain.",
+              "Cabbage plants reproduce faster than any other organism on Earth.",
+              "Caterpillars never actually eat cabbage.",
+              "There is no real pattern -- it happened by pure chance.",
+            ],
+            optionsMy: [
+              "အစားအစာကွင်းဆက်တစ်လျှောက် တစ်ဆင့်ချင်းတွင် ရရှိနိုင်သောစွမ်းအင် ပိုမိုနည်းပါးလာသောကြောင့်။",
+              "ဂေါ်ဖီအပင်များသည် ကမ္ဘာပေါ်ရှိ အခြားသက်ရှိမည်သည့်တစ်ခုထက်မဆို ပိုမိုမြန်ဆန်စွာ မျိုးပွားသောကြောင့်။",
+              "ပိုးကောင်များသည် ဂေါ်ဖီကို အမှန်တကယ် ဘယ်တော့မှ မစားသောကြောင့်။",
+              "ပုံစံအမှန် မရှိပါ -- ၎င်းသည် ကံစမ်းမှုသက်သက်ဖြင့် ဖြစ်ခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this pattern directly, using the exact same idea as the previous question.",
+              "This is Day 1's fourth quiz question, restated -- fewer organisms can be supported at each step because energy runs low.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ဤပုံစံကို ယခင်မေးခွန်းနှင့် အတွေးအခေါ်အတိအကျတည်းဖြင့် တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ စတုတ္ထမေးခွန်းကို ထပ်ဆင့်ဖော်ပြခြင်းဖြစ်ပြီး -- စွမ်းအင် နည်းပါးလာသဖြင့် တစ်ဆင့်ချင်းတွင် ထောက်ပံ့နိုင်သော သက်ရှိအရေအတွက် ပိုနည်းလာသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which of these correctly identifies the primary and secondary consumers in Thiha's food chain?",
+            questionMy:
+                "အောက်ပါတို့အနက် သီဟ၏ အစားအစာကွင်းဆက်ရှိ ပထမဆင့်နှင့် ဒုတိယဆင့်စားသုံးသူများကို မှန်ကန်စွာ ဖော်ထုတ်ထားသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The caterpillar was the primary consumer; the bird was the secondary consumer.",
+              "The cabbage was the primary consumer; the caterpillar was the secondary consumer.",
+              "The bird was the primary consumer; the caterpillar was the secondary consumer.",
+              "There were no consumers at all in this food chain.",
+            ],
+            optionsMy: [
+              "ပိုးကောင်သည် ပထမဆင့်စားသုံးသူဖြစ်ပြီး ငှက်သည် ဒုတိယဆင့်စားသုံးသူ ဖြစ်သည်။",
+              "ဂေါ်ဖီသည် ပထမဆင့်စားသုံးသူဖြစ်ပြီး ပိုးကောင်သည် ဒုတိယဆင့်စားသုံးသူ ဖြစ်သည်။",
+              "ငှက်သည် ပထမဆင့်စားသုံးသူဖြစ်ပြီး ပိုးကောင်သည် ဒုတိယဆင့်စားသုံးသူ ဖြစ်သည်။",
+              "ဤအစားအစာကွင်းဆက်တွင် စားသုံးသူ လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph's final sentence, which names each role directly.",
+              "Recall Day 1's primary-consumer definition -- it's the organism that eats the producer directly, first in line.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက အခန်းကဏ္ဍတစ်ခုစီကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ပထမနေ့ ပထမဆင့်စားသုံးသူ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ၎င်းသည် ထုတ်လုပ်သူကို တိုက်ရိုက်စားသော၊ ဦးဆုံးစားသုံးသူ ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Ecosystems and Food Chains",
+      titleMy:
+          "အပတ်စဉ် ၁၉ ပြန်လည်သုံးသပ်ခြင်း - သဘာဝဝန်းကျင်စနစ်နှင့် အစားအစာကွင်းဆက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of these is always a producer?",
+          questionMy: "အောက်ပါတို့အနက် အမြဲ ထုတ်လုပ်သူ ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["A green plant", "A lion", "A fox", "A human"],
+          optionsMy: ["အစိမ်းရောင်အပင်", "ခြင်္သေ့", "မြေခွေး", "လူသား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's definition -- a producer photosynthesizes, making its own food.",
+            "Lions, foxes and humans all eat other organisms -- none of them can make their own food from sunlight.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ထုတ်လုပ်သူသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း ပြုလုပ်ကာ ကိုယ်ပိုင်အစားအစာ ပြုလုပ်သည်။",
+            "ခြင်္သေ့၊ မြေခွေးနှင့် လူသားတို့သည် အခြားသက်ရှိများကို စားကြပြီး ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုမျှ နေရောင်ခြည်မှ ကိုယ်ပိုင်အစားအစာ မပြုလုပ်နိုင်ကြပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a food-chain arrow show?",
+          questionMy: "အစားအစာကွင်းဆက်မြားပြသည် အဘယ်ကို ပြသနည်း။",
+          optionsEn: [
+            "The direction energy flows",
+            "The animal's exact walking speed",
+            "How many babies an animal has",
+            "The color of the organism",
+          ],
+          optionsMy: [
+            "စွမ်းအင်စီးဆင်းသည့်ဦးတည်ရာ",
+            "တိရစ္ဆာန်၏ လမ်းလျှောက်နှုန်းအတိအကျ",
+            "တိရစ္ဆာန်တစ်ကောင်တွင် ကလေးမည်မျှရှိသည်",
+            "သက်ရှိ၏ အရောင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question -- the arrow follows energy from what is eaten to what eats it.",
+            "This is the same idea Thiha used to draw cabbage -> caterpillar -> bird.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- မြားပြသည် စားခံရသောအရာမှ စားသောအရာသို့ စွမ်းအင်ကို လိုက်ကြည့်နေခြင်း ဖြစ်သည်။",
+            "၎င်းသည် သီဟ ဂေါ်ဖီ -> ပိုးကောင် -> ငှက် ရေးဆွဲရာတွင် အသုံးပြုခဲ့သော အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In \"grass -> rabbit -> fox,\" what is the rabbit?",
+          questionMy:
+              "\"မြက်ပင် -> ယုန် -> မြေခွေး\" တွင် ယုန်သည် အဘယ်အခန်းကဏ္ဍ ဖြစ်သနည်း။",
+          optionsEn: [
+            "Primary consumer",
+            "Producer",
+            "Secondary consumer",
+            "Not part of the chain",
+          ],
+          optionsMy: [
+            "ပထမဆင့်စားသုံးသူ",
+            "ထုတ်လုပ်သူ",
+            "ဒုတိယဆင့်စားသုံးသူ",
+            "ကွင်းဆက်တွင် မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question -- the organism eating the producer directly is the first consumer in line.",
+            "The rabbit eats grass (the producer) directly -- exactly like Thiha's caterpillar eating cabbage.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ထုတ်လုပ်သူကို တိုက်ရိုက်စားသော သက်ရှိသည် ဦးဆုံးစားသုံးသူ ဖြစ်သည်။",
+            "ယုန်သည် မြက်ပင် (ထုတ်လုပ်သူ) ကို တိုက်ရိုက်စားသည် -- သီဟ၏ ပိုးကောင် ဂေါ်ဖီကို စားသကဲ့သို့ အတိအကျပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens to the energy a caterpillar uses for its own respiration?",
+          questionMy:
+              "ပိုးကောင်တစ်ကောင် ၎င်း၏ ကိုယ်ပိုင်အသက်ရှုမှုအတွက် အသုံးပြုသောစွမ်းအင်တွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It is released as heat, and cannot pass on to whatever eats the caterpillar next.",
+            "It doubles in amount every second.",
+            "It transfers directly into the next consumer with no loss at all.",
+            "It disappears completely without being released anywhere.",
+          ],
+          optionsMy: [
+            "အပူအဖြစ် ထုတ်လွှတ်ခံရပြီး၊ နောက်ဆက် ပိုးကောင်ကို စားမည့်သက်ရှိထံသို့ ကူးလွှဲ၍ မရနိုင်ပါ။",
+            "စက္ကန့်တိုင်း ပမာဏ နှစ်ဆတိုးလာသည်။",
+            "စွမ်းအင်ဆုံးရှုံးမှု လုံးဝ မရှိဘဲ နောက်စားသုံးသူထံသို့ တိုက်ရိုက် လွှဲပြောင်းသွားသည်။",
+            "မည်သည့်နေရာမျှ ထုတ်လွှတ်ခံရခြင်း မရှိဘဲ လုံးဝ ပျောက်ကွယ်သွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiha's grandmother's explanation -- respiration's released heat is lost to the air, not passed along the food chain.",
+            "This is the same energy-loss idea from Week 12's electromagnet warming its wire -- some energy is always lost to heat.",
+          ],
+          hintsMy: [
+            "သီဟ၏ အဖွား၏ ရှင်းပြချက်ကို သတိရပါ -- အသက်ရှုမှုက ထုတ်လွှတ်လိုက်သော အပူသည် လေထဲသို့ ဆုံးရှုံးသွားပြီး အစားအစာကွင်းဆက်တစ်လျှောက် ကူးမသွားပါ။",
+            "ဤသည်မှာ Week 12 ၏ လျှပ်စစ်သံလိုက် ဝါယာကြိုးကို ပူစေသကဲ့သို့ စွမ်းအင်ဆုံးရှုံးမှုအယူအဆတည်းဖြစ်ပြီး -- စွမ်းအင်အချို့ အမြဲ အပူသို့ ဆုံးရှုံးသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is an ecosystem?",
+          questionMy: "သဘာဝဝန်းကျင်စနစ် (Ecosystem) ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "All the living and non-living things in an area, interacting together",
+            "Only the living things in an area",
+            "Only the non-living things in an area",
+            "A single organism on its own",
+          ],
+          optionsMy: [
+            "နေရာတစ်ခုအတွင်းရှိ သက်ရှိနှင့် သက်မဲ့ပစ္စည်းအားလုံး၊ အတူတကွ ဆက်စပ်နေခြင်း",
+            "နေရာတစ်ခုအတွင်းရှိ သက်ရှိများသာ",
+            "နေရာတစ်ခုအတွင်းရှိ သက်မဲ့ပစ္စည်းများသာ",
+            "သက်ရှိတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- an ecosystem includes both living and non-living parts together, not just one or the other.",
+            "This is a broader term than \"producer\" or \"consumer\" -- it describes the whole area they live and interact in.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- သဘာဝဝန်းကျင်စနစ်တွင် သက်ရှိနှင့် သက်မဲ့ အစိတ်အပိုင်းနှစ်ခုစလုံး ပါဝင်ပြီး တစ်ခုတည်း မဟုတ်ပါ။",
+            "၎င်းသည် \"ထုတ်လုပ်သူ\" (သို့) \"စားသုံးသူ\" ထက် ပိုမိုကျယ်ပြန့်သော ဝေါဟာရဖြစ်ပြီး ၎င်းတို့ နေထိုင်ဆက်စပ်နေသော ဧရိယာတစ်ခုလုံးကို ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A predator hunts and eats what?",
+          questionMy: "သားရဲတစ်ကောင်သည် အဘယ်ကို လိုက်လံဖမ်းစားသနည်း။",
+          optionsEn: [
+            "Prey",
+            "Only producers",
+            "Only its own species",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "ဖမ်းစားခံရသူ",
+            "ထုတ်လုပ်သူများသာ",
+            "မိမိမျိုးစိတ်တည်းသာ",
+            "ဘာမျှ လုံးဝမဖမ်းစားပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- these two terms are a matched pair, always used together.",
+            "A fox hunting a rabbit is a classic predator-prey relationship -- the fox is the predator, and the rabbit is this term.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤစကားလုံးနှစ်ခုသည် အတွဲအဖြစ် အမြဲ အတူတကွ အသုံးပြုသည်။",
+            "မြေခွေးက ယုန်ကို လိုက်ဖမ်းခြင်းသည် သားရဲ-ဖမ်းစားခံရသူ ဆက်စပ်မှု ဥပမာတစ်ခု ဖြစ်သည် -- မြေခွေးသည် သားရဲဖြစ်ပြီး ယုန်သည် ဤဝေါဟာရ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 5, Week 20 (capstone): "Energy Flow
+// Through Ecosystems"
+// =====================================================================
+
+/// Week 20 is Term 5's capstone, tracing one continuous energy story
+/// across the whole term and back through the pathway: the Sun's light
+/// energy (Week 15's photosynthesis) is captured by a producer, passed
+/// to a consumer that digests it (Week 18) into glucose, respires it
+/// (Week 16) for its own life processes, and loses much of it as heat
+/// -- leaving less energy available at each further step along a food
+/// chain (Week 19). No exact percentages are asserted (e.g. the
+/// commonly-cited "~10% rule") -- only the qualitative, safely accurate
+/// claim that "much less" energy remains at each step, matching this
+/// pathway's running "no unearned precision" caution (first stated in
+/// Week 6's doc comment).
+const CourseWeekDef _secondary1ScienceWeek20 = CourseWeekDef(
+  id: "course-secondary1-science-w20",
+  weekNumber: 20,
+  titleEn: "Energy Flow Through Ecosystems",
+  titleMy: "သဘာဝဝန်းကျင်စနစ်များတစ်လျှောက် စွမ်းအင်စီးဆင်းမှု",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w20-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Energy Flow Quiz",
+      titleMy: "စွမ်းအင်စီးဆင်းမှု ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Where does all the energy in a food chain ultimately come from?",
+          questionMy:
+              "အစားအစာကွင်းဆက်တစ်ခုအတွင်းရှိ စွမ်းအင်အားလုံးသည် နောက်ဆုံးတွင် မည်သည့်မှ လာသနည်း။",
+          optionsEn: [
+            "The Sun, captured by a producer through photosynthesis.",
+            "The soil, absorbed directly by every organism.",
+            "The consumer at the very end of the chain.",
+            "Nowhere -- energy simply appears from nothing.",
+          ],
+          optionsMy: [
+            "နေ၊ ထုတ်လုပ်သူက အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ဖမ်းယူသည်။",
+            "မြေဆီလွှာ၊ သက်ရှိတိုင်းက တိုက်ရိုက် စုပ်ယူသည်။",
+            "ကွင်းဆက်၏ အဆုံးဆုံးရှိ စားသုံးသူ။",
+            "မည်သည့်နေရာမှမျှ မဟုတ်ပါ -- စွမ်းအင်သည် ဘာမှမဲ့ကနေ ရိုးရိုးရှင်းရှင်း ပေါ်လာသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 19's rule -- every food chain starts with a producer, and Week 15's photosynthesis explains exactly what that producer captures.",
+            "Energy is never created from nothing (Week 7) -- it has to enter the food chain from somewhere real.",
+          ],
+          hintsMy: [
+            "Week 19 ၏ စည်းမျဉ်းကို သတိရပါ -- အစားအစာကွင်းဆက်တိုင်းသည် ထုတ်လုပ်သူနှင့် စတင်ပြီး Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက ထိုထုတ်လုပ်သူ ဖမ်းယူသည့်အရာကို အတိအကျ ရှင်းပြသည်။",
+            "စွမ်းအင်သည် ဘာမှမဲ့ကနေ ဘယ်တော့မှ ဖန်တီး၍ မရနိုင်ပါ (Week 7) -- ၎င်းသည် အစားအစာကွင်းဆက်ထဲသို့ တကယ်ရှိသောနေရာမှ ဝင်ရောက်ရမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a rabbit eats grass, what happens before that energy can pass on to a fox that eats the rabbit?",
+          questionMy:
+              "ယုန်တစ်ကောင်က မြက်ကို စားသောအခါ ယုန်ကို စားမည့် မြေခွေးထံသို့ ထိုစွမ်းအင် မကူးမီ အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "The rabbit digests the grass (Week 18) and respires much of the energy (Week 16), losing some as heat.",
+            "The energy transfers instantly and completely, with no change at all.",
+            "The grass immediately turns into a fox.",
+            "Nothing happens -- the fox eats the grass directly instead.",
+          ],
+          optionsMy: [
+            "ယုန်သည် မြက်ကို အစာချေပြီး (Week 18) စွမ်းအင်အများစုကို အသက်ရှုမှုဖြင့် အသုံးပြုကာ (Week 16) အချို့ကို အပူအဖြစ် ဆုံးရှုံးသည်။",
+            "စွမ်းအင်သည် ချက်ချင်းနှင့် အပြည့်အဝ ကူးလွှဲပြီး လုံးဝ မပြောင်းလဲပါ။",
+            "မြက်ပင်သည် ချက်ချင်း မြေခွေးအဖြစ် ပြောင်းလဲသွားသည်။",
+            "ဘာမျှ မဖြစ်ပျက်ပါ -- မြေခွေးက မြက်ကို တိုက်ရိုက် စားလိုက်ခြင်းသာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiha's caterpillar from Week 19 -- respiration always uses up some of the energy before it can pass further along the chain.",
+            "This is the same digestion-then-respiration chain from Weeks 16 and 18, applied to the rabbit before it becomes the fox's prey.",
+          ],
+          hintsMy: [
+            "Week 19 ၏ သီဟ ပိုးကောင်ကို သတိရပါ -- အသက်ရှုမှုသည် ကွင်းဆက်ဆက်၍ မကူးမီ စွမ်းအင်အချို့ကို အမြဲ အသုံးပြုနေသည်။",
+            "ဤသည်မှာ Week 16 နှင့် 18 မှ အစာခြေခြင်းပြီးနောက် အသက်ရှုမှု အစဉ်တည်းဖြစ်ပြီး ယုန်သည် မြေခွေး၏ ဖမ်းစားခံရသူ မဖြစ်မီ အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are there usually far more producers than top predators in an ecosystem?",
+          questionMy:
+              "သဘာဝဝန်းကျင်စနစ်တစ်ခုအတွင်း ထိပ်တန်းသားရဲများထက် ထုတ်လုပ်သူများ အဘယ့်ကြောင့် ပုံမှန်အားဖြင့် များစွာပိုများသနည်း။",
+          optionsEn: [
+            "Because much less energy remains available at each step further along a food chain.",
+            "Because top predators produce their own food through photosynthesis.",
+            "Because producers always eat top predators.",
+            "There is no real pattern connecting these numbers.",
+          ],
+          optionsMy: [
+            "အစားအစာကွင်းဆက်တစ်လျှောက် တစ်ဆင့်ချင်းတွင် ရရှိနိုင်သောစွမ်းအင် ပိုမိုနည်းပါးလာသောကြောင့်။",
+            "ထိပ်တန်းသားရဲများသည် ၎င်းတို့ကိုယ်ပိုင်အစားအစာကို အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ပြုလုပ်ကြသောကြောင့်။",
+            "ထုတ်လုပ်သူများသည် ထိပ်တန်းသားရဲများကို အမြဲ စားကြသောကြောင့်။",
+            "ဤဂဏန်းများကို ချိတ်ဆက်ပေးသော ပုံစံအမှန် မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 19's ending -- Thiha's garden had many more cabbage plants than caterpillars, and fewer birds still.",
+            "This is the same energy-loss pattern, just described with the words \"producer\" and \"top predator\" instead.",
+          ],
+          hintsMy: [
+            "Week 19 ၏ အဆုံးသတ်ကို သတိရပါ -- သီဟ၏ ဥယျာဉ်တွင် ပိုးကောင်ထက် ဂေါ်ဖီအပင် ပိုများပြီး ငှက်များမှာ ထပ်၍ ပိုနည်းသေးသည်။",
+            "ဤသည်မှာ စွမ်းအင်ဆုံးရှုံးမှုပုံစံတစ်ခုတည်းပင်ဖြစ်ပြီး \"ထုတ်လုပ်သူ\" နှင့် \"ထိပ်တန်းသားရဲ\" ဟူသော စကားလုံးများဖြင့်သာ ဖော်ပြထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Tracing energy from the Sun through a whole food chain, which sequence is correct?",
+          questionMy:
+              "နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးကို ဖြတ်၍ စွမ်းအင်ကို ခြေရာခံလျှင် မည်သည့်အစဉ်လိုက်သည် မှန်ကန်သနည်း။",
+          optionsEn: [
+            "Light energy -> photosynthesis (producer) -> digestion and respiration (consumer) -> heat lost, less energy for the next consumer.",
+            "Heat -> a top predator -> a producer -> the Sun.",
+            "A consumer creates energy directly, with no producer or Sun involved at all.",
+            "Energy flows equally in every direction at once, with no clear order.",
+          ],
+          optionsMy: [
+            "အလင်းစွမ်းအင် -> အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (ထုတ်လုပ်သူ) -> အစာခြေခြင်းနှင့် အသက်ရှုမှု (စားသုံးသူ) -> အပူဆုံးရှုံးမှု၊ နောက်စားသုံးသူအတွက် စွမ်းအင် ပိုနည်းသည်။",
+            "အပူ -> ထိပ်တန်းသားရဲ -> ထုတ်လုပ်သူ -> နေ။",
+            "စားသုံးသူတစ်ခုသည် ထုတ်လုပ်သူ (သို့) နေ လုံးဝ မပါဝင်ဘဲ ကိုယ်တိုင် စွမ်းအင် တိုက်ရိုက် ဖန်တီးသည်။",
+            "စွမ်းအင်သည် ဦးတည်ရာအားလုံးသို့ တစ်ချိန်တည်း၊ ညီမျှစွာ စီးဆင်းပြီး ရှင်းလင်းသောအစဉ်လိုက် မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This sequence pulls together every step from this whole term: Week 15, Week 18, Week 16, and Week 19, in order.",
+            "Rule out any option that reverses the order (heat before the sun) or removes a step entirely -- energy always follows this one direction.",
+          ],
+          hintsMy: [
+            "ဤအစဉ်လိုက်သည် ဤနှစ်ဝက်တစ်ခုလုံးမှ အဆင့်တိုင်းကို ဆွဲယူထားသည် - Week 15၊ Week 18၊ Week 16၊ Week 19 အစဉ်လိုက်။",
+            "အစဉ်လိုက်ကို ပြောင်းပြန်ထားသော (နေမတိုင်မီ အပူ) (သို့) အဆင့်တစ်ခုကို လုံးလုံးဖယ်ရှားထားသော ရွေးချယ်စရာကို ဖယ်ရှားပါ -- စွမ်းအင်သည် ဤဦးတည်ရာတစ်ခုတည်းကို အမြဲလိုက်နာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match the Energy Flow Terms",
+      titleMy: "စွမ်းအင်စီးဆင်းမှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w20-dm-1",
+          termEn: "Energy Flow",
+          termMy: "စွမ်းအင်စီးဆင်းမှု (Energy Flow)",
+          matchEn:
+              "The one-way movement of energy through a food chain, starting with a producer and losing some at every step.",
+          matchMy:
+              "ထုတ်လုပ်သူဖြင့် အစပြုပြီး အဆင့်တိုင်းတွင် အချို့ဆုံးရှုံးလျက် အစားအစာကွင်းဆက်တစ်လျှောက် တစ်ဦးတည်းစီးဆင်းသော စွမ်းအင်ရွေ့လျားမှု။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w20-dm-2",
+          termEn: "Feeding Level",
+          termMy: "အစားအစာအဆင့် (Feeding Level)",
+          matchEn:
+              "A step in a food chain -- producer, primary consumer, secondary consumer, and so on.",
+          matchMy:
+              "အစားအစာကွင်းဆက်ရှိ အဆင့်တစ်ခု -- ထုတ်လုပ်သူ၊ ပထမဆင့်စားသုံးသူ၊ ဒုတိယဆင့်စားသုံးသူ ဤသို့ ဆက်လက်ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w20-dm-3",
+          termEn: "Heat Loss",
+          termMy: "အပူဆုံးရှုံးမှု (Heat Loss)",
+          matchEn:
+              "Energy released as heat by an organism's own respiration and movement -- unable to pass on to the next feeding level.",
+          matchMy:
+              "သက်ရှိတစ်ခု၏ ကိုယ်ပိုင်အသက်ရှုမှုနှင့် ရွေ့လျားမှုက အပူအဖြစ် ထုတ်လွှတ်ပေးသော စွမ်းအင်ဖြစ်ပြီး နောက်အစားအစာအဆင့်သို့ ကူးလွှဲ၍ မရနိုင်ပါ။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w20-dm-4",
+          termEn: "The Sun",
+          termMy: "နေ (The Sun)",
+          matchEn:
+              "The ultimate energy source for almost every food chain on Earth, captured by producers through photosynthesis.",
+          matchMy:
+              "ကမ္ဘာပေါ်ရှိ အစားအစာကွင်းဆက်နီးပါးအားလုံး၏ အဆုံးအစွမ်းအင်ရင်းမြစ်ဖြစ်ပြီး ထုတ်လုပ်သူများက အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ဖမ်းယူကြသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w20-dm-5",
+          termEn: "Producer",
+          termMy: "ထုတ်လုပ်သူ (Producer)",
+          matchEn:
+              "The organism that captures the Sun's light energy first, always the starting feeding level of a food chain.",
+          matchMy:
+              "နေ၏ အလင်းစွမ်းအင်ကို ပထမဦးဆုံး ဖမ်းယူသော သက်ရှိဖြစ်ပြီး အစားအစာကွင်းဆက်၏ အစပြုအစားအစာအဆင့် အမြဲဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w20-dm-6",
+          termEn: "Respiration",
+          termMy: "အသက်ရှုမှု (Respiration)",
+          matchEn:
+              "The chemical process that releases energy from glucose for an organism's own life processes -- the main reason energy is lost between feeding levels.",
+          matchMy:
+              "သက်ရှိတစ်ခု၏ ကိုယ်ပိုင်သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များအတွက် ဂလူးကို့စ်မှ စွမ်းအင်ကို ထုတ်ပေးသော ဓာတုနည်းလုပ်ငန်းစဉ်ဖြစ်ပြီး -- အစားအစာအဆင့်များအကြား စွမ်းအင်ဆုံးရှုံးရသည့် အဓိကအကြောင်းရင်း ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Passed to Next Level or Lost as Heat?",
+      titleMy:
+          "စီစစ်ကြမည် - နောက်အဆင့်သို့ ကူးလွှဲသလား၊ အပူအဖြစ် ဆုံးရှုံးသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Passed to Next Level", "Lost as Heat"],
+        bucketsMy: ["နောက်အဆင့်သို့ ကူးလွှဲသည်", "အပူအဖြစ် ဆုံးရှုံးသည်"],
+        items: [
+          SortingItem(
+            id: "s1sci-w20-sort-1",
+            labelEn: "Grass's stored chemical energy, when eaten by a rabbit",
+            labelMy:
+                "ယုန်တစ်ကောင်က စားလိုက်သောအခါ မြက်ပင်၏ သိုလှောင်ထားသော ဓာတုစွမ်းအင်",
+            correctBucketEn: "Passed to Next Level",
+            correctBucketMy: "နောက်အဆင့်သို့ ကူးလွှဲသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-2",
+            labelEn: "Heat released by a rabbit's respiration",
+            labelMy: "ယုန်တစ်ကောင်၏ အသက်ရှုမှုက ထုတ်လွှတ်ပေးသော အပူ",
+            correctBucketEn: "Lost as Heat",
+            correctBucketMy: "အပူအဖြစ် ဆုံးရှုံးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-3",
+            labelEn: "A fox's energy used while running to hunt",
+            labelMy:
+                "ဖမ်းရန် ပြေးလွှားနေစဉ် မြေခွေးတစ်ကောင်၏ အသုံးပြုသောစွမ်းအင်",
+            correctBucketEn: "Lost as Heat",
+            correctBucketMy: "အပူအဖြစ် ဆုံးရှုံးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-4",
+            labelEn:
+                "The energy stored in a caterpillar's body, when a bird eats it",
+            labelMy:
+                "ငှက်တစ်ကောင်က စားလိုက်သောအခါ ပိုးကောင်၏ ကိုယ်ခန္ဓာအတွင်း သိုလှောင်ထားသော စွမ်းအင်",
+            correctBucketEn: "Passed to Next Level",
+            correctBucketMy: "နောက်အဆင့်သို့ ကူးလွှဲသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-5",
+            labelEn: "Warmth radiating from an animal's body",
+            labelMy: "တိရစ္ဆာန်တစ်ကောင်၏ ကိုယ်ခန္ဓာမှ ထွက်နေသော နွေးထွေးမှု",
+            correctBucketEn: "Lost as Heat",
+            correctBucketMy: "အပူအဖြစ် ဆုံးရှုံးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-6",
+            labelEn: "Energy stored in a plant's leaves, before being eaten",
+            labelMy: "မစားခံရမီ အပင်၏ အရွက်များအတွင်း သိုလှောင်ထားသော စွမ်းအင်",
+            correctBucketEn: "Passed to Next Level",
+            correctBucketMy: "နောက်အဆင့်သို့ ကူးလွှဲသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-7",
+            labelEn: "Energy used by a frog jumping away from a snake",
+            labelMy:
+                "မြွေတစ်ကောင်ဆီမှ ခုန်ထွက်ပြေးစဉ် ဖားတစ်ကောင်၏ အသုံးပြုသောစွမ်းအင်",
+            correctBucketEn: "Lost as Heat",
+            correctBucketMy: "အပူအဖြစ် ဆုံးရှုံးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w20-sort-8",
+            labelEn: "The chemical energy in meat, when a lion eats it",
+            labelMy: "ခြင်္သေ့တစ်ကောင်က စားလိုက်သောအခါ အသားထဲရှိ ဓာတုစွမ်းအင်",
+            correctBucketEn: "Passed to Next Level",
+            correctBucketMy: "နောက်အဆင့်သို့ ကူးလွှဲသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nandar's Rice Paddy Walk",
+      titleMy: "စာဖတ်ခြင်း - နန္ဒာ၏ လယ်ကွင်းသွားလမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar's Rice Paddy Walk",
+        titleMy: "နန္ဒာ၏ လယ်ကွင်းသွားလမ်း",
+        passageEn:
+            "Walking along the edge of her family's rice paddy, Nandar decided to trace one continuous story of energy, pulling together everything she had learned this term. It began, she knew, with the Sun: sunlight fell on the bright green rice plants, and their chloroplasts (Week 14) captured that light energy through photosynthesis (Week 15), building glucose and releasing oxygen.\n\nA grasshopper landed on a rice stem and began chewing. Nandar watched it digest (Week 18) the rice plant's glucose in its gut, absorbing it into its body. Some of that energy the grasshopper then respired (Week 16) immediately, just to jump, breathe, and stay alive -- releasing that portion as heat into the warm afternoon air, gone for good. Only the energy remaining in the grasshopper's own body tissue was available to pass on further.\n\nA frog's tongue shot out and caught the grasshopper in an instant. Nandar had just watched a complete link in a food chain: rice plant -> grasshopper -> frog, with energy flowing in that exact direction, and a noticeable amount lost as heat at the grasshopper's feeding level before the frog ever got a bite.\n\nNandar realized why her family's rice paddy was covered in thousands of rice plants, supported perhaps hundreds of grasshoppers, but only a handful of frogs, and rarely more than one or two snakes hunting those frogs. Less and less energy remained available at each feeding level, exactly as Week 19's lesson had predicted -- the Sun's original light energy, spreading thinner and thinner with every link in the chain, until barely enough remained to support a single snake at the very top.",
+        passageMy:
+            "နန္ဒာသည် ၎င်း၏ မိသားစုလယ်ကွင်း အနားတစ်လျှောက် လျှောက်နေရင်း ဤနှစ်ဝက်အတွင်း သင်ယူခဲ့ရသမျှကို ပေါင်းစပ်ကာ စွမ်းအင်၏ ဆက်တိုက်ပြောင်းလဲမှုအကြောင်းကို ခြေရာခံရန် ဆုံးဖြတ်ခဲ့သည်။ ၎င်းသည် နေမှ စတင်ခဲ့ကြောင်း သူမ သိထားသည် - နေရောင်ခြည်သည် တောက်ပသောအစိမ်းရောင် စပါးပင်များပေါ်သို့ ကျရောက်ခဲ့ပြီး ၎င်းတို့၏ ကလိုရိုပလတ်များ (Week 14) သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Week 15) ဖြင့် ထိုအလင်းစွမ်းအင်ကို ဖမ်းယူကာ ဂလူးကို့စ်တည်ဆောက်ပြီး အောက်ဆီဂျင် ထုတ်လွှတ်ခဲ့သည်။\n\nကျိုင်းကောင်တစ်ကောင် စပါးပင်ပေါ်တွင် ဆင်းသက်ကာ ဝါးစားစတင်ခဲ့သည်။ နန္ဒာသည် ၎င်းက စပါးပင်၏ ဂလူးကို့စ်ကို ၎င်း၏ အူတွင်း အစာချေ (Week 18) ကာ ကိုယ်ခန္ဓာထဲသို့ စုပ်ယူနေသည်ကို ကြည့်ခဲ့သည်။ ကျိုင်းကောင်သည် ထိုစွမ်းအင်အနက် အချို့ကို ခုန်ရန်၊ အသက်ရှုရန်နှင့် အသက်ရှင်နေထိုင်ရန်သာ ချက်ချင်း အသက်ရှုမှု (Week 16) ဖြင့် အသုံးပြုလိုက်ခဲ့သည် -- ထိုအစိတ်အပိုင်းကို နွေးထွေးသော နေ့လည်ခင်းလေထဲသို့ အပူအဖြစ် ထုတ်လွှတ်ခဲ့ပြီး ထာဝရ ဆုံးရှုံးသွားခဲ့သည်။ ကျိုင်းကောင်ကိုယ်ခန္ဓာတစ်ရှူးအတွင်း ဆက်လက်ရှိနေသော စွမ်းအင်သာ ဆက်လက်ကူးလွှဲရန် ရရှိနိုင်ခဲ့သည်။\n\nဖားတစ်ကောင်၏ လျှာသည် ချက်ချင်း ထွက်လာပြီး ကျိုင်းကောင်ကို ဖမ်းယူလိုက်သည်။ နန္ဒာသည် အစားအစာကွင်းဆက်၏ ပြည့်စုံသောအစဉ်တစ်ခုကို ကြည့်ရှုခဲ့ရပြီး - စပါးပင် -> ကျိုင်းကောင် -> ဖား၊ စွမ်းအင်သည် ထိုတိကျသောဦးတည်ရာသို့ စီးဆင်းသွားခဲ့ပြီး၊ ဖားက ကိုက်မစားမီ ကျိုင်းကောင်၏ အစားအစာအဆင့်တွင် သိသာစွာသော ပမာဏတစ်ခု အပူအဖြစ် ဆုံးရှုံးသွားခဲ့သည်။\n\nနန္ဒာသည် ၎င်း၏ မိသားစုလယ်ကွင်းတွင် စပါးပင်ထောင်ပေါင်းများစွာ ကွန်ပတ်နေကြောင်း၊ ကျိုင်းကောင် ရာနှင့်ချီ၍ ထောက်ပံ့နိုင်ခဲ့သော်လည်း ဖားအနည်းငယ်သာ ရှိပြီး၊ ထိုဖားများကို လိုက်လံဖမ်းစားသော မြွေတစ်ကောင် (သို့) နှစ်ကောင်ထက် များသောအခါ ရှားပါးကြောင်း သဘောပေါက်လိုက်သည်။ Week 19 ၏ သင်ခန်းစာက ခန့်မှန်းခဲ့သကဲ့သို့ပင် အစားအစာအဆင့်တစ်ခုစီတွင် ရရှိနိုင်သောစွမ်းအင် ပိုမိုနည်းပါးလာခဲ့သည် -- နေ၏ မူလအလင်းစွမ်းအင်သည် ကွင်းဆက်တစ်ခုစီနှင့်အတူ ပိုမိုပါးလျှော့လာခဲ့ပြီး၊ ထိပ်ဆုံးတွင် မြွေတစ်ကောင်ကို ထောက်ပံ့ရန် အလွန်နည်းပါးသောစွမ်းအင်သာ ကျန်ရှိတော့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did the rice plant's chloroplasts do?",
+            questionMy:
+                "စာပိုဒ်အရ စပါးပင်၏ ကလိုရိုပလတ်များသည် အဘယ်ကို ပြုလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Captured light energy through photosynthesis, building glucose and releasing oxygen.",
+              "Absorbed the grasshopper's respiration heat directly.",
+              "Digested the rice plant's own tissue.",
+              "Hunted the grasshopper for food.",
+            ],
+            optionsMy: [
+              "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် အလင်းစွမ်းအင် ဖမ်းယူကာ ဂလူးကို့စ် တည်ဆောက်ပြီး အောက်ဆီဂျင် ထုတ်လွှတ်ခဲ့သည်။",
+              "ကျိုင်းကောင်၏ အသက်ရှုမှုအပူကို တိုက်ရိုက် စုပ်ယူခဲ့သည်။",
+              "စပါးပင်၏ ကိုယ်ပိုင်တစ်ရှူးကို အစာချေခဲ့သည်။",
+              "ကျိုင်းကောင်ကို အစားအစာအတွက် လိုက်လံဖမ်းစားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it names photosynthesis directly, the same process from Week 15.",
+              "This is Day 1's first quiz question, applied directly to Nandar's rice plant.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက Week 15 မှ တူညီသော လုပ်ငန်းစဉ်ဖြစ်သည့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ ပထမမေးခွန်းပင်ဖြစ်ပြီး နန္ဒာ၏ စပါးပင်တွင် တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happened to the energy the grasshopper used for jumping and breathing?",
+            questionMy:
+                "ကျိုင်းကောင်က ခုန်ရန်နှင့် အသက်ရှုရန် အသုံးပြုခဲ့သော စွမ်းအင်တွင် အဘယ်အရာ ဖြစ်ပျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "It was released as heat into the air, and could not pass on to the frog.",
+              "It transferred completely and directly into the frog.",
+              "It turned into a second grasshopper.",
+              "It disappeared without being released anywhere.",
+            ],
+            optionsMy: [
+              "လေထဲသို့ အပူအဖြစ် ထုတ်လွှတ်ခံရပြီး ဖားထံသို့ မကူးလွှဲနိုင်ခဲ့ပါ။",
+              "ဖားထံသို့ အပြည့်အဝ၊ တိုက်ရိုက် လွှဲပြောင်းသွားခဲ့သည်။",
+              "ကျိုင်းကောင် ဒုတိယကောင်တစ်ကောင်အဖြစ် ပြောင်းလဲသွားခဲ့သည်။",
+              "မည်သည့်နေရာမျှ ထုတ်လွှတ်ခံရခြင်း မရှိဘဲ ပျောက်ကွယ်သွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it describes this energy loss directly, using the same idea as Day 1's second quiz question.",
+              "This is exactly the same heat-loss idea from Week 19's caterpillar, now applied to a grasshopper.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ဤစွမ်းအင်ဆုံးရှုံးမှုကို ပထမနေ့ ဒုတိယမေးခွန်းနှင့် အတွေးအခေါ်တစ်ခုတည်းဖြင့် တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "ဤသည်မှာ Week 19 ၏ ပိုးကောင်မှ အပူဆုံးရှုံးမှုအယူအဆတည်းဖြစ်ပြီး ယခု ကျိုင်းကောင်တစ်ကောင်တွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why were there far fewer snakes than rice plants in Nandar's paddy?",
+            questionMy:
+                "နန္ဒာ၏ လယ်ကွင်းတွင် စပါးပင်ထက် မြွေအလွန်ပိုနည်းခဲ့သည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "Less and less energy remained available at each feeding level further along the chain.",
+              "Snakes reproduce far more slowly than rice plants do.",
+              "Snakes eat rice plants directly, skipping every other feeding level.",
+              "There is no real reason -- it happened by pure chance.",
+            ],
+            optionsMy: [
+              "ကွင်းဆက်တစ်လျှောက် အစားအစာအဆင့်တစ်ခုစီတွင် ရရှိနိုင်သောစွမ်းအင် ပိုမိုနည်းပါးလာခဲ့သည်။",
+              "မြွေများသည် စပါးပင်များထက် များစွာ ပိုမိုနှေးကွေးစွာ မျိုးပွားသောကြောင့်။",
+              "မြွေများသည် အခြားအစားအစာအဆင့်အားလုံးကို ကျော်၍ စပါးပင်ကို တိုက်ရိုက် စားသောကြောင့်။",
+              "အကြောင်းရင်း အမှန်တကယ် မရှိပါ -- ၎င်းသည် ကံစမ်းမှုသက်သက်ဖြင့် ဖြစ်ခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which restates Week 19's exact pattern one more time, this time about the whole paddy.",
+              "This is Day 1's third quiz question, restated -- fewer top predators can be supported the further along a food chain you go.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက Week 19 ၏ ပုံစံအတိအကျကို လယ်ကွင်းတစ်ခုလုံးအကြောင်း တစ်ကြိမ်ထပ်၍ ဖော်ပြသည်။",
+              "ဤသည်မှာ ပထမနေ့ တတိယမေးခွန်းကို ထပ်ဆင့်ဖော်ပြခြင်းဖြစ်ပြီး -- ကွင်းဆက်ဆက်ရှည်လေ ထိပ်တန်းသားရဲကို ထောက်ပံ့နိုင်သည် ပိုနည်းလေ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What single continuous story did Nandar trace, across her whole rice paddy walk?",
+            questionMy:
+                "နန္ဒာသည် ၎င်း၏ လယ်ကွင်းသွားလမ်းတစ်လျှောက် မည်သည့်ဆက်တိုက်ပြောင်းလဲမှုတစ်ခုကို ခြေရာခံခဲ့သနည်း။",
+            optionsEn: [
+              "Energy flowing from the Sun, through photosynthesis, digestion, and respiration, losing some as heat at every feeding level.",
+              "A completely random set of unrelated events with no pattern at all.",
+              "Only the grasshopper's life, with nothing else involved.",
+              "The rice plant's height, measured every day.",
+            ],
+            optionsMy: [
+              "နေမှ စွမ်းအင် စီးဆင်းလာပြီး အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၊ အစာခြေခြင်းနှင့် အသက်ရှုမှုကို ဖြတ်သန်းကာ အစားအစာအဆင့်တိုင်းတွင် အချို့ကို အပူအဖြစ် ဆုံးရှုံးသည်။",
+              "ပုံစံလုံးဝ မရှိဘဲ လုံးဝ ကျပန်း၊ မသက်ဆိုင်သော ဖြစ်ရပ်များစုစည်းမှု။",
+              "ကျိုင်းကောင်၏ ဘဝတစ်ခုတည်းသာ ဖြစ်ပြီး အခြားမည်သည့်အရာမျှ မပါဝင်ပါ။",
+              "စပါးပင်၏ အမြင့်ကို နေ့စဉ် တိုင်းတာထားခြင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the passage's opening sentence, which names Nandar's intention directly.",
+              "This ties together every single week of this whole term -- Weeks 15, 16, 18, and 19 -- into one continuous chain.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ အစဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက နန္ဒာ၏ ရည်ရွယ်ချက်ကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "၎င်းသည် ဤနှစ်ဝက်တစ်ခုလုံး၏ အပတ်တစ်ခုစီ -- Week 15၊ 16၊ 18 နှင့် 19 -- ကို ဆက်တိုက်ကွင်းဆက်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w20-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 20 Recap: Energy Flow Through Ecosystems -- Term 5 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၂၀ ပြန်လည်သုံးသပ်ခြင်း - သဘာဝဝန်းကျင်စနစ်များတစ်လျှောက် စွမ်းအင်စီးဆင်းမှု -- ပဉ္စမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the ultimate source of energy for almost every food chain?",
+          questionMy:
+              "အစားအစာကွင်းဆက်နီးပါးအားလုံး၏ အဆုံးအစွမ်းအင်ရင်းမြစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["The Sun", "The consumer", "The predator", "Heat itself"],
+          optionsMy: ["နေ", "စားသုံးသူ", "သားရဲ", "အပူကိုယ်တိုင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Day 2's drag-match -- this energy source is captured first by producers.",
+            "Consumers and predators can only pass along energy they've already received -- they aren't the original source.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤစွမ်းအင်ရင်းမြစ်ကို ထုတ်လုပ်သူများက ပထမဦးဆုံး ဖမ်းယူသည်။",
+            "စားသုံးသူများနှင့် သားရဲများသည် ၎င်းတို့ ရရှိပြီးသား စွမ်းအင်ကိုသာ ဆက်လက်ကူးပို့နိုင်ပြီး -- ၎င်းတို့သည် မူလရင်းမြစ် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What mainly causes energy to be lost between one feeding level and the next?",
+          questionMy:
+              "အစားအစာအဆင့်တစ်ခုနှင့် နောက်တစ်ခုအကြား စွမ်းအင်ဆုံးရှုံးရသည့် အဓိကအကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Respiration releasing energy as heat for the organism's own life processes",
+            "Photosynthesis capturing too much light energy",
+            "Predators refusing to eat their prey",
+            "Producers absorbing energy from consumers",
+          ],
+          optionsMy: [
+            "အသက်ရှုမှုက သက်ရှိကိုယ်ပိုင် သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များအတွက် စွမ်းအင်ကို အပူအဖြစ် ထုတ်လွှတ်ပေးခြင်း",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းက အလင်းစွမ်းအင် အလွန်အကျွံ ဖမ်းယူခြင်း",
+            "သားရဲများက ဖမ်းစားခံရသူကို မစားရန် ငြင်းဆန်ခြင်း",
+            "ထုတ်လုပ်သူများက စားသုံးသူများထံမှ စွမ်းအင် စုပ်ယူခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- respiration is named directly as the main cause of energy loss between feeding levels.",
+            "This is the same idea from Nandar's grasshopper and Thiha's caterpillar (Week 19) -- respiration's heat is the culprit.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အသက်ရှုမှုကို အစားအစာအဆင့်များအကြား စွမ်းအင်ဆုံးရှုံးရသည့် အဓိကအကြောင်းရင်းအဖြစ် တိုက်ရိုက် အမည်တွင်ထားသည်။",
+            "ဤသည်မှာ နန္ဒာ၏ ကျိုင်းကောင်နှင့် သီဟ၏ ပိုးကောင် (Week 19) မှ အတွေးအခေါ်တစ်ခုတည်းပင်ဖြစ်ပြီး -- အသက်ရှုမှု၏ အပူသည် အကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"rice plant -> grasshopper -> frog,\" which feeding level lost energy as heat before the frog ate?",
+          questionMy:
+              "\"စပါးပင် -> ကျိုင်းကောင် -> ဖား\" တွင် ဖား မစားမီ မည်သည့်အစားအစာအဆင့်က စွမ်းအင်ကို အပူအဖြစ် ဆုံးရှုံးခဲ့သနည်း။",
+          optionsEn: [
+            "The grasshopper",
+            "The rice plant",
+            "The frog",
+            "None of them lost any energy",
+          ],
+          optionsMy: [
+            "ကျိုင်းကောင်",
+            "စပါးပင်",
+            "ဖား",
+            "မည်သည့်တစ်ခုမျှ စွမ်းအင် မဆုံးရှုံးခဲ့ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Nandar's rice paddy story -- the grasshopper used some energy for jumping and breathing before the frog caught it.",
+            "This is the primary consumer's feeding level -- exactly where Thiha's caterpillar and Nandar's grasshopper both lost energy to respiration.",
+          ],
+          hintsMy: [
+            "နန္ဒာ၏ လယ်ကွင်းဇာတ်လမ်းကို သတိရပါ -- ဖားမဖမ်းမီ ကျိုင်းကောင်သည် ခုန်ရန်နှင့် အသက်ရှုရန် စွမ်းအင်အချို့ကို အသုံးပြုခဲ့သည်။",
+            "ဤသည်မှာ ပထမဆင့်စားသုံးသူ၏ အစားအစာအဆင့်ဖြစ်ပြီး -- သီဟ၏ ပိုးကောင်နှင့် နန္ဒာ၏ ကျိုင်းကောင်နှစ်ခုစလုံး အသက်ရှုမှုသို့ စွမ်းအင်ဆုံးရှုံးခဲ့ရာနေရာအတိအကျပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are top predators usually rare compared to producers in an ecosystem?",
+          questionMy:
+              "သဘာဝဝန်းကျင်စနစ်တစ်ခုအတွင်း ထိပ်တန်းသားရဲများသည် ထုတ်လုပ်သူများနှင့်ယှဉ်လျှင် ပုံမှန်အားဖြင့် အဘယ့်ကြောင့် ရှားပါးသနည်း။",
+          optionsEn: [
+            "Much less energy remains available by the time it reaches the top of the food chain.",
+            "Top predators refuse to eat enough food.",
+            "Producers are always invisible to predators.",
+            "There is no real reason -- it varies completely at random.",
+          ],
+          optionsMy: [
+            "အစားအစာကွင်းဆက်၏ ထိပ်ဆုံးသို့ ရောက်ချိန်တွင် ရရှိနိုင်သောစွမ်းအင် များစွာနည်းပါးသွားသောကြောင့်။",
+            "ထိပ်တန်းသားရဲများသည် အစားအစာ လုံလောက်စွာ မစားလိုသောကြောင့်။",
+            "ထုတ်လုပ်သူများသည် သားရဲများအား အမြဲ မမြင်နိုင်သောကြောင့်။",
+            "အကြောင်းရင်း အမှန်တကယ် မရှိပါ -- ၎င်းသည် လုံးဝ ကျပန်း ကွဲပြားနေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Nandar's rice paddy -- this is the exact same energy-loss pattern, restated one final time.",
+            "This ties the whole term together: rice plants, grasshoppers, frogs, and finally snakes, each level thinner than the last.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် နန္ဒာ၏ လယ်ကွင်းကို သတိရပါ -- ဤသည်မှာ စွမ်းအင်ဆုံးရှုံးမှုပုံစံအတိအကျတည်းဖြစ်ပြီး နောက်ဆုံးအကြိမ် ထပ်ဆင့်ဖော်ပြထားခြင်း ဖြစ်သည်။",
+            "၎င်းသည် ဤနှစ်ဝက်တစ်ခုလုံးကို ပေါင်းစည်းပေးသည် - စပါးပင်၊ ကျိုင်းကောင်၊ ဖားနှင့် နောက်ဆုံး မြွေ၊ အဆင့်တစ်ခုစီသည် ယခင်ထက် ပါးလျှော့လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single idea connects Week 17's nutrition, Week 18's digestion, Week 19's food chains, and Week 20's energy flow?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 17 ၏ အာဟာရ၊ Week 18 ၏ အစာခြေခြင်း၊ Week 19 ၏ အစားအစာကွင်းဆက်နှင့် Week 20 ၏ စွမ်းအင်စီးဆင်းမှုတို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Living things pass energy from the Sun through nutrition, digestion, and respiration, losing some at every step -- the same conservation principle from Week 7, now applied to whole ecosystems.",
+            "All four topics are completely unrelated to each other.",
+            "Only Week 20's food chains involve energy at all.",
+            "Digestion and food chains have nothing to do with the Sun.",
+          ],
+          optionsMy: [
+            "သက်ရှိများသည် နေမှ စွမ်းအင်ကို အာဟာရ၊ အစာခြေခြင်းနှင့် အသက်ရှုမှုမှတဆင့် ကူးပို့ကြပြီး အဆင့်တိုင်းတွင် အချို့ကို ဆုံးရှုံးကြသည် -- Week 7 မှ ထိန်းသိမ်းမှုအယူအဆတည်းဖြစ်ပြီး ယခု သဘာဝဝန်းကျင်စနစ်တစ်ခုလုံးအတွက် အသုံးချထားသည်။",
+            "ဘာသာရပ်လေးခုစလုံးသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်ပါ။",
+            "Week 20 ၏ အစားအစာကွင်းဆက်တွင်သာ စွမ်းအင် ပါဝင်သည်။",
+            "အစာခြေခြင်းနှင့် အစားအစာကွင်းဆက်တို့သည် နေနှင့် မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Nandar's final realization from the reading passage -- she named this exact continuous story herself.",
+            "This mirrors Week 12's and Week 16's final questions -- every term this pathway has returned to Week 7's energy conservation, now applied to nutrition and ecosystems.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ နန္ဒာ၏ နောက်ဆုံးသဘောပေါက်မှုကို သတိရပါ -- သူမ ကိုယ်တိုင် ဤဆက်တိုက်ပြောင်းလဲမှုတစ်ခုလုံးကို အမည်တွင်ခဲ့သည်။",
+            "ဤသည်မှာ Week 12 နှင့် Week 16 ၏ နောက်ဆုံးမေးခွန်းများနှင့် ဆင်တူသည် -- ဤသင်တန်းလမ်းကြောင်း၏ နှစ်ဝက်တိုင်းသည် Week 7 ၏ စွမ်းအင်ထိန်းသိမ်းမှုသို့ ပြန်ရောက်လာခဲ့ပြီး၊ ယခု အာဟာရနှင့် သဘာဝဝန်းကျင်စနစ်များအတွက် အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
   id: "course-secondary1-science-t4",
   termNumber: 4,
@@ -43069,16 +45240,45 @@ const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
   ],
 );
 
+/// Term 5: "Nutrition and Ecosystems" (Weeks 17-20) continues this
+/// pathway's biology strand, deliberately building outward from
+/// Term 4's cellular-level view to the whole-organism and whole-
+/// ecosystem level. Week 17 extends Week 13's "nutrition" MRS GREN
+/// characteristic into the seven human nutrient groups; Week 18 traces
+/// food through the digestive organs in order, precisely distinguishing
+/// egestion from Week 13's excretion; Week 19 reuses Week 15's producer
+/// concept as the start of every food chain, defining the food-chain
+/// arrow as showing the direction energy flows; Week 20 is the
+/// capstone, tracing one continuous energy story -- Sun -> photosynthesis
+/// -> digestion -> respiration -> heat loss -- across a whole food
+/// chain, tying the pathway's energy strand back to Week 7's
+/// conservation principle one more time.
+const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
+  id: "course-secondary1-science-t5",
+  termNumber: 5,
+  titleEn: "Nutrition and Ecosystems",
+  titleMy: "အာဟာရနှင့် သဘာဝဝန်းကျင်စနစ်များ",
+  certificateTitleEn: "Nutrition and Ecosystems",
+  certificateTitleMy: "အာဟာရနှင့် သဘာဝဝန်းကျင်စနစ်များ",
+  weeks: [
+    _secondary1ScienceWeek17,
+    _secondary1ScienceWeek18,
+    _secondary1ScienceWeek19,
+    _secondary1ScienceWeek20,
+  ],
+);
+
 /// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
 /// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8),
-/// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12) and Term 4
+/// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12), Term 4
 /// ("Cells and Life Processes", Weeks 13-16, this pathway's first biology
-/// strand) are authored so far; see [_secondary1ScienceTerm1]'s,
-/// [_secondary1ScienceTerm2]'s, [_secondary1ScienceTerm3]'s and
-/// [_secondary1ScienceTerm4]'s own doc comments for the week-by-week
+/// strand) and Term 5 ("Nutrition and Ecosystems", Weeks 17-20) are
+/// authored so far; see [_secondary1ScienceTerm1]'s, [_secondary1ScienceTerm2]'s,
+/// [_secondary1ScienceTerm3]'s, [_secondary1ScienceTerm4]'s and
+/// [_secondary1ScienceTerm5]'s own doc comments for the week-by-week
 /// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
 /// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
@@ -43088,14 +45288,15 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, and Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration, and Term 5 builds outward to human nutrition, digestion, and ecosystems, closing with a capstone tracing energy flow from the Sun through a whole food chain.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary1ScienceTerm1,
     _secondary1ScienceTerm2,
     _secondary1ScienceTerm3,
     _secondary1ScienceTerm4,
+    _secondary1ScienceTerm5,
   ],
 );
