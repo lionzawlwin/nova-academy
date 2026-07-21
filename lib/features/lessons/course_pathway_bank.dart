@@ -39,6 +39,17 @@
 /// pattern (revisit earlier strands at a deeper level in a new context,
 /// rather than teach once and move on) continues across every later term
 /// through Week 36.
+///
+/// Secondary 2 Computing (see [secondary2ComputingPathway]) is a separate,
+/// independent pathway for Grade [Grade.secondary2] rather than more terms
+/// grafted onto Secondary 1's own 36-week pathway. Term 1 (Weeks 1-4,
+/// Lists and Arrays) and Term 2 (Weeks 5-8, Functions and Procedures) are
+/// authored so far, picking up directly from Secondary 1's variables/
+/// selection/loops foundation: Term 1 extends that into lists, and Term 2
+/// extends it further into functions/procedures, parameters/arguments,
+/// and return values, closing with a capstone week that combines a
+/// function, a list parameter, a loop with an accumulator, an if
+/// selection, and a return statement in one program.
 library;
 
 import '../../models/child_model.dart';
@@ -16453,6 +16464,1597 @@ const CourseWeekDef _secondary2ComputingWeek4 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 2, Week 5: "What is a Function?"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek5 = CourseWeekDef(
+  id: "course-secondary2-computing-w5",
+  weekNumber: 5,
+  titleEn: "What is a Function?",
+  titleMy: "Function ဆိုသည်မှာ အဘယ်နည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w5-d1",
+      dayNumber: 1,
+      titleEn: "Why Repeating Code is a Problem",
+      titleMy: "Code ထပ်ခါထပ်ခါရေးခြင်း၏ ပြဿနာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program prints the same three-line welcome message five separate times by copy-pasting the same lines for five different students. What problem does this create?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် ကျောင်းသားငါးဦးစီအတွက် သုံးကြောင်းပါ welcome message တူညီသည်ကို copy-paste ဖြင့် ငါးကြိမ်ခွဲပြီးရေးထားသည်။ ၎င်းက ဘယ်လိုပြဿနာဖြစ်စေနိုင်သနည်း။",
+          optionsEn: [
+            "Python will refuse to run the program at all",
+            "If the message ever needs to change, it must be edited in five separate places, and it's easy to miss one",
+            "The program automatically becomes faster",
+            "The five copies will merge into one on their own",
+          ],
+          optionsMy: [
+            "Python သည် ပရိုဂရမ်ကို လုံးဝ run ခွင့်မပြုပါ",
+            "Message ပြောင်းလဲရန်လိုအပ်လာလျှင် နေရာငါးခုတွင် သီးခြားစီပြင်ဆင်ရမည်ဖြစ်ပြီး တစ်နေရာလွတ်သွားရန် လွယ်ကူသည်",
+            "ပရိုဂရမ်သည် အလိုအလျောက် ပိုမြန်လာသည်",
+            "မိတ္တူငါးစုသည် သူ့အလိုလို ပေါင်းစည်းသွားလိမ့်မည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which line correctly defines a function named greet_class that takes no parameters?",
+          questionMy:
+              "Parameter မပါဘဲ greet_class ဟု အမည်ရှိ function တစ်ခုကို မှန်ကန်စွာ define လုပ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "function greet_class():",
+            "greet_class def():",
+            "def greet_class():",
+            "def greet_class[]:",
+          ],
+          optionsMy: [
+            "function greet_class():",
+            "greet_class def():",
+            "def greet_class():",
+            "def greet_class[]:",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After greet_class() has been defined, which line actually runs (calls) it?",
+          questionMy:
+              "greet_class() ကို define လုပ်ပြီးနောက် ၎င်းကို အမှန်တကယ် run (call) စေမည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "call greet_class",
+            "def greet_class()",
+            "greet_class == True",
+            "greet_class()",
+          ],
+          optionsMy: [
+            "call greet_class",
+            "def greet_class()",
+            "greet_class == True",
+            "greet_class()",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the indented block of code underneath a def line called?",
+          questionMy:
+              "def စာကြောင်းအောက်ရှိ indent လုပ်ထားသော code block ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            "The function's code block (its body)",
+            "A comment",
+            "An argument",
+            "A syntax error",
+          ],
+          optionsMy: [
+            "Function ၏ code block (body)",
+            "Comment",
+            "Argument",
+            "Syntax error",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function that performs an action (like printing a message) but is not built to hand back a computed value is often called what?",
+          questionMy:
+              "တန်ဖိုးတွက်ချက်ပြီး ပြန်ပေးရန်မတည်ဆောက်ဘဲ (message print ထုတ်ခြင်းကဲ့သို့) လုပ်ဆောင်ချက်တစ်ခုကိုသာ လုပ်ဆောင်သော function ကို များသောအားဖြင့် ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A variable", "A list", "A procedure", "An index"],
+          optionsMy: ["Variable", "List", "Procedure", "Index"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w5-d2",
+      dayNumber: 2,
+      titleEn: "Function Vocabulary",
+      titleMy: "Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w5-fn-function",
+          termEn: "Function",
+          termMy: "Function",
+          matchEn:
+              "A named, reusable block of code that performs a task, defined once and called whenever needed",
+          matchMy:
+              "အမည်ရှိပြီး ထပ်ခါသုံးနိုင်သော code block တစ်ခု -- တစ်ကြိမ်တည်း define လုပ်ပြီး လိုအပ်တိုင်း call ခေါ်နိုင်သည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w5-fn-procedure",
+          termEn: "Procedure",
+          termMy: "Procedure",
+          matchEn:
+              "A function that performs an action but does not hand back a computed value",
+          matchMy:
+              "လုပ်ဆောင်ချက်တစ်ခုကို လုပ်ဆောင်သော်လည်း တွက်ချက်ထားသောတန်ဖိုးကို ပြန်မပေးသော function",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w5-fn-define",
+          termEn: "Define (def)",
+          termMy: "Define (def)",
+          matchEn:
+              "Writing a function's name and code block for the first time, using the def keyword",
+          matchMy:
+              "def keyword သုံးပြီး function ၏ အမည်နှင့် code block ကို ပထမဆုံးအကြိမ် ရေးသားခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w5-fn-call",
+          termEn: "Call",
+          termMy: "Call",
+          matchEn:
+              "Actually running a function by writing its name followed by parentheses ()",
+          matchMy:
+              "Function အမည်ကို ရေးပြီး () ကွင်းဖွင့်ကွင်းပိတ်ထည့်၍ function ကို အမှန်တကယ် run စေခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w5-fn-reuse",
+          termEn: "Reuse",
+          termMy: "Reuse",
+          matchEn:
+              "Calling the same function many times instead of copy-pasting its code again and again",
+          matchMy:
+              "Code ကို ထပ်ခါထပ်ခါ copy-paste မလုပ်ဘဲ function တစ်ခုတည်းကို အကြိမ်ကြိမ် ခေါ်သုံးခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w5-d3",
+      dayNumber: 3,
+      titleEn: "Defining or Calling?",
+      titleMy: "Define လုပ်နေသလား Call ခေါ်နေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Defining a Function", "Calling a Function"],
+        bucketsMy: ["Function Define လုပ်ခြင်း", "Function Call ခေါ်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "w5-sort-defgreet",
+            labelEn: "def greet_class():",
+            labelMy: "def greet_class():",
+            correctBucketEn: "Defining a Function",
+            correctBucketMy: "Function Define လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w5-sort-callprintmenu",
+            labelEn: "print_menu()",
+            labelMy: "print_menu()",
+            correctBucketEn: "Calling a Function",
+            correctBucketMy: "Function Call ခေါ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w5-sort-defshowscore",
+            labelEn: "def show_score():",
+            labelMy: "def show_score():",
+            correctBucketEn: "Defining a Function",
+            correctBucketMy: "Function Define လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w5-sort-callgreet",
+            labelEn: "greet_class()",
+            labelMy: "greet_class()",
+            correctBucketEn: "Calling a Function",
+            correctBucketMy: "Function Call ခေါ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w5-sort-defprintmenu",
+            labelEn: "def print_menu():",
+            labelMy: "def print_menu():",
+            correctBucketEn: "Defining a Function",
+            correctBucketMy: "Function Define လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w5-sort-callshowscore",
+            labelEn: "show_score()",
+            labelMy: "show_score()",
+            correctBucketEn: "Calling a Function",
+            correctBucketMy: "Function Call ခေါ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w5-d4",
+      dayNumber: 4,
+      titleEn: "Su's Repeated Welcome Messages",
+      titleMy: "စု၏ ထပ်ခါထပ်ခါ Welcome Message များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su's Repeated Welcome Messages",
+        titleMy: "စု၏ ထပ်ခါထပ်ခါ Welcome Message များ",
+        passageEn:
+            "Su was writing a program to welcome five new students to her coding club. For each student, she copy-pasted the same three lines: print('Welcome!'), print('This is the Nova Academy Coding Club.'), and print('We meet every Friday.'). By the third student, her code was already fifteen lines long, and when her teacher asked her to change 'every Friday' to 'every Wednesday', she had to find and fix it in five separate places. Her friend Min showed her a better way: define the three print lines once inside a function, def greet_class():, and then simply call greet_class() five times, once for each student. Now the welcome message lived in exactly one place. When Su needed to change 'every Friday' to 'every Wednesday', she only had to edit it inside the function's code block, and every single call to greet_class() automatically used the new message. Su realized a function let her define code once and reuse it as many times as she needed.",
+        passageMy:
+            "စုသည် သူမ၏ coding club သို့ ကျောင်းသားအသစ်ငါးဦးကို ကြိုဆိုသည့်ပရိုဂရမ်တစ်ခု ရေးနေသည်။ ကျောင်းသားတစ်ဦးစီအတွက် print('Welcome!')၊ print('This is the Nova Academy Coding Club.')၊ print('We meet every Friday.') ဟူသော သုံးကြောင်းတူညီသည်ကို copy-paste ဖြင့် ထပ်ရေးလေ့ရှိသည်။ တတိယကျောင်းသားအထိရောက်သောအခါ သူမ၏ code သည် စာကြောင်း ၁၅ ကြောင်းအထိ ရှည်လျားသွားပြီး၊ ဆရာမက 'every Friday' ကို 'every Wednesday' ဟု ပြောင်းခိုင်းသောအခါ နေရာငါးခုတွင် သီးခြားစီရှာပြီး ပြင်ရသည်။ သူမ၏သူငယ်ချင်း မင်းက ပိုကောင်းသောနည်းလမ်းကို ပြသပေးသည် - print စာကြောင်းသုံးကြောင်းကို function တစ်ခုအတွင်း တစ်ကြိမ်တည်း define လုပ်ပါ၊ def greet_class(): ၊ ထို့နောက် ကျောင်းသားတစ်ဦးစီအတွက် greet_class() ကို ငါးကြိမ် ရိုးရှင်းစွာ call ခေါ်ရုံသာ ဖြစ်သည်။ ယခုအခါ welcome message သည် နေရာတစ်ခုတည်းတွင်သာ ရှိတော့သည်။ 'every Friday' ကို 'every Wednesday' ဟု ပြောင်းရန်လိုအပ်သောအခါ function ၏ code block အတွင်းတွင်သာ ပြင်ရုံသာဖြစ်ပြီး greet_class() ကို call ခေါ်တိုင်းတွင် message အသစ်ကို အလိုအလျောက် အသုံးပြုသွားသည်။ Function တစ်ခုက code ကို တစ်ကြိမ်တည်း define လုပ်ပြီး လိုအပ်သမျှအကြိမ် ပြန်လည်အသုံးချနိုင်ကြောင်း စု သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many lines of code did Su copy-paste for each student before using a function?",
+            questionMy:
+                "Function မသုံးမီ ကျောင်းသားတစ်ဦးစီအတွက် စုသည် code မည်မျှကြောင်း copy-paste လုပ်ခဲ့သနည်း။",
+            optionsEn: ["Five lines", "One line", "Three lines", "Ten lines"],
+            optionsMy: [
+              "ငါးကြောင်း",
+              "တစ်ကြောင်း",
+              "သုံးကြောင်း",
+              "ဆယ်ကြောင်း",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "When Su's teacher asked her to change 'every Friday' to 'every Wednesday' before she used a function, what did Su have to do?",
+            questionMy:
+                "Function မသုံးမီက 'every Friday' ကို 'every Wednesday' ဟု ဆရာမက ပြောင်းခိုင်းသောအခါ စုသည် ဘာလုပ်ရသနည်း။",
+            optionsEn: [
+              "Rename all her variables",
+              "Nothing, it changed automatically",
+              "Delete the whole program",
+              "Find and fix the message in five separate places",
+            ],
+            optionsMy: [
+              "Variable အားလုံးကို အမည်ပြောင်းရသည်",
+              "ဘာမှမလုပ်ရ၊ အလိုအလျောက် ပြောင်းသွားသည်",
+              "ပရိုဂရမ်တစ်ခုလုံးကို ဖျက်ရသည်",
+              "Message ကို နေရာငါးခုတွင် သီးခြားစီရှာပြီး ပြင်ရသည်",
+            ],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "What did Min suggest Su do instead?",
+            questionMy: "မင်းက စုအား မည်သို့လုပ်ရန် အကြံပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Define the print lines once inside a function and call it for each student",
+              "Delete the welcome message entirely",
+              "Write the message in a different programming language",
+              "Ask every student to write their own program",
+            ],
+            optionsMy: [
+              "Print စာကြောင်းများကို function တစ်ခုအတွင်း တစ်ကြိမ်တည်း define လုပ်ပြီး ကျောင်းသားတစ်ဦးစီအတွက် call ခေါ်ရန်",
+              "Welcome message ကို လုံးဝဖျက်ရန်",
+              "Message ကို programming language တစ်ခြားနှင့်ရေးရန်",
+              "ကျောင်းသားတစ်ဦးစီကို သူတို့ပရိုဂရမ်ကို သူတို့ကိုယ်တိုင် ရေးခိုင်းရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "After Su switched to using a function, what did she only need to edit when the message changed?",
+            questionMy:
+                "Function သို့ ပြောင်းသုံးပြီးနောက် message ပြောင်းလဲသောအခါ စုသည် မည်သည့်နေရာကိုသာ ပြင်ရန်လိုသနည်း။",
+            optionsEn: [
+              "All five separate copies again",
+              "Just the code block inside the function definition",
+              "The name of the function only",
+              "Nothing could ever be changed again",
+            ],
+            optionsMy: [
+              "မိတ္တူငါးစုလုံးကို ထပ်ပြင်ရသည်",
+              "Function definition အတွင်းရှိ code block တစ်ခုတည်းသာ",
+              "Function ၏အမည်တစ်ခုတည်းကိုသာ",
+              "ဘာကိုမှ နောက်ထပ်ပြောင်း၍မရတော့ပါ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did a function let Su do?",
+            questionMy:
+                "ဇာတ်လမ်းအရ function တစ်ခုက စုအား မည်သို့လုပ်ခွင့်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Automatically translate her program into Burmese",
+              "Only run her program one single time",
+              "Avoid ever calling greet_class() again",
+              "Define code once and reuse it as many times as needed",
+            ],
+            optionsMy: [
+              "သူမ၏ပရိုဂရမ်ကို မြန်မာဘာသာသို့ အလိုအလျောက် ပြန်ဆိုခြင်း",
+              "သူမ၏ပရိုဂရမ်ကို တစ်ကြိမ်တည်းသာ run နိုင်ခြင်း",
+              "greet_class() ကို နောက်ထပ် လုံးဝ call မခေါ်ရတော့ခြင်း",
+              "Code ကို တစ်ကြိမ်တည်း define လုပ်ပြီး လိုအပ်သမျှအကြိမ် ပြန်အသုံးချနိုင်ခြင်း",
+            ],
+            correctIndex: 3,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap Quiz",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What keyword is used to define a function in Python?",
+          questionMy:
+              "Python တွင် function ကို define လုပ်ရန် ဘယ် keyword သုံးသနည်း။",
+          optionsEn: ["call", "func", "define", "def"],
+          optionsMy: ["call", "func", "define", "def"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "Which line calls a function named greet_class?",
+          questionMy:
+              "greet_class ဟု အမည်ရှိ function ကို call ခေါ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "greet_class()",
+            "def greet_class():",
+            "greet_class;",
+            "call greet_class",
+          ],
+          optionsMy: [
+            "greet_class()",
+            "def greet_class():",
+            "greet_class;",
+            "call greet_class",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a function that only performs an action, without returning a computed value, often called?",
+          questionMy:
+              "တွက်ချက်ထားသောတန်ဖိုးကို ပြန်မပေးဘဲ လုပ်ဆောင်ချက်တစ်ခုကိုသာ လုပ်ဆောင်သော function ကို ဘာဟုများသောအားဖြင့်ခေါ်သနည်း။",
+          optionsEn: ["A list", "A procedure", "An index", "A comment"],
+          optionsMy: ["List", "Procedure", "Index", "Comment"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is defining a function better than copy-pasting the same code many times?",
+          questionMy:
+              "Code တူညီကို အကြိမ်ကြိမ် copy-paste လုပ်ခြင်းထက် function တစ်ခု define လုပ်ခြင်းက အဘယ့်ကြောင့်ပိုကောင်းသနည်း။",
+          optionsEn: [
+            "Because Python only allows code to appear once",
+            "Because a change only needs to be made in one place",
+            "Because functions automatically delete themselves",
+            "Because copy-pasting is not allowed in Python",
+          ],
+          optionsMy: [
+            "Python တွင် code သည် တစ်ကြိမ်သာ ပေါ်ရသောကြောင့်",
+            "ပြောင်းလဲမှုတစ်ခုကို နေရာတစ်ခုတည်းတွင်သာ ပြုလုပ်ရန်လိုအပ်သောကြောင့်",
+            "Function များသည် သူ့ဟာသူ အလိုအလျောက်ဖျက်သွားသောကြောင့်",
+            "Python တွင် copy-paste ကို ခွင့်မပြုသောကြောင့်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What is the indented code underneath a def line called?",
+          questionMy:
+              "def စာကြောင်းအောက်ရှိ indent လုပ်ထားသော code ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            "An argument",
+            "A parameter",
+            "The function's code block",
+            "A syntax error",
+          ],
+          optionsMy: [
+            "Argument",
+            "Parameter",
+            "Function ၏ code block",
+            "Syntax error",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 2, Week 6: "Parameters and Arguments"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek6 = CourseWeekDef(
+  id: "course-secondary2-computing-w6",
+  weekNumber: 6,
+  titleEn: "Parameters and Arguments",
+  titleMy: "Parameter နှင့် Argument",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w6-d1",
+      dayNumber: 1,
+      titleEn: "Passing Data Into a Function",
+      titleMy: "Function အတွင်းသို့ Data ပို့ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In def greet(name):, what is name called?",
+          questionMy: "def greet(name): တွင် name ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A parameter", "An argument", "A return value", "A list"],
+          optionsMy: ["Parameter", "Argument", "Return value", "List"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the call greet('Su'), what is 'Su' called?",
+          questionMy: "greet('Su') ခေါ်ဆိုမှုတွင် 'Su' ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A procedure", "A parameter", "An argument", "An index"],
+          optionsMy: ["Procedure", "Parameter", "Argument", "Index"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function definition correctly accepts two pieces of data, a name and a score?",
+          questionMy:
+              "Name နှင့် score data နှစ်ခုကို မှန်ကန်စွာလက်ခံမည့် function definition က အဘယ်နည်း။",
+          optionsEn: [
+            "def show_result name, score:",
+            "def show_result(name; score):",
+            "def show_result[name, score]:",
+            "def show_result(name, score):",
+          ],
+          optionsMy: [
+            "def show_result name, score:",
+            "def show_result(name; score):",
+            "def show_result[name, score]:",
+            "def show_result(name, score):",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which call correctly passes the arguments 'Su' and 90 to def show_result(name, score):?",
+          questionMy:
+              "def show_result(name, score): သို့ 'Su' နှင့် 90 argument များကို မှန်ကန်စွာ ဖြည့်သွင်းမည့်ခေါ်ဆိုမှုက အဘယ်နည်း။",
+          optionsEn: [
+            "show_result['Su', 90]",
+            "show_result(name, score)",
+            "show_result('Su', 90)",
+            "show_result: 'Su', 90",
+          ],
+          optionsMy: [
+            "show_result['Su', 90]",
+            "show_result(name, score)",
+            "show_result('Su', 90)",
+            "show_result: 'Su', 90",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Without a parameter, why would you need near-duplicate functions like greet_su() and greet_min() instead of one greet(name) function?",
+          questionMy:
+              "Parameter မရှိပါက greet(name) function တစ်ခုတည်းအစား greet_su() နှင့် greet_min() ကဲ့သို့ ထပ်တူနီးပါး function များ အဘယ့်ကြောင့်လိုအပ်ပါသနည်း။",
+          optionsEn: [
+            "Because each hardcoded version can only ever greet one specific person",
+            "Because Python requires a new function for every student",
+            "Because parameters make functions run slower",
+            "Because greet(name) cannot be called more than once",
+          ],
+          optionsMy: [
+            "Hardcode ထားသော version တစ်ခုစီသည် လူတစ်ဦးတည်းကိုသာ ကြိုဆိုနိုင်သောကြောင့်",
+            "ကျောင်းသားတစ်ဦးစီအတွက် function အသစ် Python က တောင်းဆိုသောကြောင့်",
+            "Parameter များက function ကို ပိုနှေးစေသောကြောင့်",
+            "greet(name) ကို တစ်ကြိမ်ထက်ပို၍ call မခေါ်နိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w6-d2",
+      dayNumber: 2,
+      titleEn: "Parameter Vocabulary",
+      titleMy: "Parameter ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w6-fn-parameter",
+          termEn: "Parameter",
+          termMy: "Parameter",
+          matchEn:
+              "A named placeholder listed inside a function's parentheses when it is defined, e.g. name in def greet(name):",
+          matchMy:
+              "Function ကို define လုပ်စဉ် parentheses အတွင်းစာရင်းသွင်းထားသော အမည်ရှိ placeholder (ဥပမာ def greet(name): ထဲရှိ name)",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w6-fn-argument",
+          termEn: "Argument",
+          termMy: "Argument",
+          matchEn:
+              "The actual value passed into a function when it is called, e.g. 'Su' in greet('Su')",
+          matchMy:
+              "Function ကို call ခေါ်စဉ် ဖြည့်သွင်းပေးလိုက်သော အမှန်တကယ်တန်ဖိုး (ဥပမာ greet('Su') ထဲရှိ 'Su')",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w6-fn-multipleparams",
+          termEn: "Multiple Parameters",
+          termMy: "Multiple Parameters",
+          matchEn:
+              "Two or more parameters listed in a function definition, separated by commas",
+          matchMy:
+              "Function definition တစ်ခုတွင် comma ဖြင့်ခွဲထားသော parameter နှစ်ခုနှင့်အထက်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w6-fn-defgreetname",
+          termEn: "def greet(name):",
+          termMy: "def greet(name):",
+          matchEn:
+              "A function definition that accepts one parameter, name, which is filled in every time it is called",
+          matchMy:
+              "Call ခေါ်တိုင်း ဖြည့်သွင်းပေးရမည့် parameter တစ်ခု (name) ကို လက်ခံသော function definition",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w6-fn-greetsu",
+          termEn: "greet('Su')",
+          termMy: "greet('Su')",
+          matchEn:
+              "A function call that passes the argument 'Su' into the name parameter",
+          matchMy:
+              "'Su' argument ကို name parameter ထဲသို့ ဖြည့်သွင်းပေးသော function call",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w6-d3",
+      dayNumber: 3,
+      titleEn: "Parameter or Argument?",
+      titleMy: "Parameter လား Argument လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Parameter", "Argument"],
+        bucketsMy: ["Parameter", "Argument"],
+        items: [
+          SortingItem(
+            id: "w6-sort-nameindef",
+            labelEn: "name in def greet(name):",
+            labelMy: "name in def greet(name):",
+            correctBucketEn: "Parameter",
+            correctBucketMy: "Parameter",
+          ),
+          SortingItem(
+            id: "w6-sort-90inshowresult",
+            labelEn: "90 in show_result('Su', 90)",
+            labelMy: "90 in show_result('Su', 90)",
+            correctBucketEn: "Argument",
+            correctBucketMy: "Argument",
+          ),
+          SortingItem(
+            id: "w6-sort-nindefsquare",
+            labelEn: "n in def square(n):",
+            labelMy: "n in def square(n):",
+            correctBucketEn: "Parameter",
+            correctBucketMy: "Parameter",
+          ),
+          SortingItem(
+            id: "w6-sort-suingreet",
+            labelEn: "'Su' in greet('Su')",
+            labelMy: "'Su' in greet('Su')",
+            correctBucketEn: "Argument",
+            correctBucketMy: "Argument",
+          ),
+          SortingItem(
+            id: "w6-sort-scoreindef",
+            labelEn: "score in def show_result(name, score):",
+            labelMy: "score in def show_result(name, score):",
+            correctBucketEn: "Parameter",
+            correctBucketMy: "Parameter",
+          ),
+          SortingItem(
+            id: "w6-sort-7insquare",
+            labelEn: "7 in square(7)",
+            labelMy: "7 in square(7)",
+            correctBucketEn: "Argument",
+            correctBucketMy: "Argument",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w6-d4",
+      dayNumber: 4,
+      titleEn: "Aye's Duplicate Functions",
+      titleMy: "အေး၏ ထပ်နေသော Function များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye's Duplicate Functions",
+        titleMy: "အေး၏ ထပ်နေသော Function များ",
+        passageEn:
+            "Aye wanted to greet each student in her coding club by name, so she wrote def greet_su(): print('Hello, Su!'), then def greet_min(): print('Hello, Min!'), then def greet_htet(): print('Hello, Htet!'). Every function was nearly identical except for one word. When a sixth student joined, she realized she would need to write yet another near-duplicate function. Her teacher showed her a better way: def greet(name): print('Hello, ' + name + '!'). Here, name was a parameter, a placeholder that could hold any student's name. Now Aye could call greet('Su'), greet('Min'), and greet('Htet'), passing a different argument -- the actual value -- into name each time, all using the exact same function. When a sixth student, Zin, joined, Aye simply called greet('Zin') without writing a single new line of function code. She also learned she could add a second parameter: def greet(name, day): print('Hello, ' + name + '! See you on ' + day + '.'), calling it as greet('Su', 'Monday') to pass in two arguments at once.",
+        passageMy:
+            "အေးသည် သူမ၏ coding club ရှိကျောင်းသားတိုင်းကို အမည်နှင့်တကွ ကြိုဆိုလိုသဖြင့် def greet_su(): print('Hello, Su!')၊ ထို့နောက် def greet_min(): print('Hello, Min!')၊ ထို့နောက် def greet_htet(): print('Hello, Htet!') ဟု ရေးခဲ့သည်။ Function တိုင်းသည် စကားလုံးတစ်ခုမှလွဲပြီး တူညီနေသည်။ ကျောင်းသားခြောက်ဦးမြောက်တစ်ဦး ဝင်ရောက်လာသောအခါ ထပ်တူနီးပါးအသစ်တစ်ခု ထပ်ရေးရဦးမည်ဖြစ်ကြောင်း သူမ သိလိုက်သည်။ ဆရာမက ပိုကောင်းသောနည်းလမ်းကို ပြသပေးသည် - def greet(name): print('Hello, ' + name + '!')။ ဤနေရာတွင် name သည် ကျောင်းသားတိုင်း၏ အမည်ကို ကိုင်ဆောင်နိုင်သော placeholder ဖြစ်သည့် parameter တစ်ခုဖြစ်သည်။ ယခုအခါ အေးသည် greet('Su')၊ greet('Min')၊ greet('Htet') ကို call ခေါ်နိုင်ပြီဖြစ်ပြီး၊ function တစ်ခုတည်းကိုသာသုံးကာ name ထဲသို့ argument (အမှန်တကယ်တန်ဖိုး) မတူညီစွာ ဖြည့်သွင်းလိုက်ရုံသာဖြစ်သည်။ ကျောင်းသားခြောက်ဦးမြောက် ဇင် ဝင်ရောက်လာသောအခါ အေးသည် function code စာကြောင်းအသစ်တစ်ကြောင်းမျှ မရေးဘဲ greet('Zin') ကို ရိုးရှင်းစွာ call ခေါ်ရုံသာ ပြုလုပ်ခဲ့သည်။ Parameter ဒုတိယတစ်ခု ထပ်ထည့်နိုင်ကြောင်းလည်း သူမ လေ့လာခဲ့သည် - def greet(name, day): print('Hello, ' + name + '! See you on ' + day + '.')၊ greet('Su', 'Monday') ဟု call ခေါ်ခြင်းဖြင့် argument နှစ်ခုကို တစ်ပြိုင်နက် ဖြည့်သွင်းနိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Aye's original functions (greet_su, greet_min, greet_htet) become a problem?",
+            questionMy:
+                "အေး၏ မူလ function များ (greet_su, greet_min, greet_htet) အဘယ့်ကြောင့် ပြဿနာဖြစ်လာခဲ့သနည်း။",
+            optionsEn: [
+              "They deleted each other automatically",
+              "They ran too slowly",
+              "Python refused to accept more than three functions",
+              "Each one only worked for one specific student, so a new student needed a whole new function",
+            ],
+            optionsMy: [
+              "တစ်ခုနှင့်တစ်ခု အလိုအလျောက် ဖျက်သွားခြင်းကြောင့်",
+              "အလွန်နှေးကွေးသောကြောင့်",
+              "Function သုံးခုထက်ပိုပါက Python က လက်မခံသောကြောင့်",
+              "တစ်ခုစီသည် ကျောင်းသားတစ်ဦးတည်းအတွက်သာ အလုပ်လုပ်သဖြင့် ကျောင်းသားအသစ်တစ်ဦးအတွက် function အသစ်တစ်ခုလုံး လိုအပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "In def greet(name):, what is name?",
+            questionMy: "def greet(name): တွင် name ကား အဘယ်နည်း။",
+            optionsEn: [
+              "A comment",
+              "An argument",
+              "A return value",
+              "A parameter",
+            ],
+            optionsMy: ["Comment", "Argument", "Return value", "Parameter"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "In the call greet('Zin'), what is 'Zin'?",
+            questionMy: "greet('Zin') ခေါ်ဆိုမှုတွင် 'Zin' ကား အဘယ်နည်း။",
+            optionsEn: [
+              "A parameter",
+              "An argument",
+              "A procedure",
+              "An index",
+            ],
+            optionsMy: ["Parameter", "Argument", "Procedure", "Index"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Aye have to write when a sixth student, Zin, joined?",
+            questionMy:
+                "ကျောင်းသားခြောက်ဦးမြောက် ဇင် ဝင်လာသောအခါ အေးက ဘာရေးရသနည်း။",
+            optionsEn: [
+              "Just a new call, greet('Zin'), with no new function code",
+              "A whole new function, greet_zin()",
+              "Nothing could be done for a sixth student",
+              "A brand-new programming language",
+            ],
+            optionsMy: [
+              "New call တစ်ခုသာ, greet('Zin'), function code အသစ်လိုအပ်ခြင်းမရှိ",
+              "Function အသစ်တစ်ခုလုံး, greet_zin()",
+              "ကျောင်းသားခြောက်ဦးမြောက်အတွက် ဘာမှ မလုပ်နိုင်ပါ",
+              "Programming language အသစ်တစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Aye's two-parameter function greet(name, day) get called with two arguments at once?",
+            questionMy:
+                "Parameter နှစ်ခုပါ greet(name, day) function ကို argument နှစ်ခုနှင့်တစ်ပြိုင်နက် မည်သို့ call ခေါ်ခဲ့သနည်း။",
+            optionsEn: [
+              "greet(name, day)",
+              "greet('Su', 'Monday')",
+              "greet('Su')('Monday')",
+              "greet['Su', 'Monday']",
+            ],
+            optionsMy: [
+              "greet(name, day)",
+              "greet('Su', 'Monday')",
+              "greet('Su')('Monday')",
+              "greet['Su', 'Monday']",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap Quiz",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the placeholder listed in a function's definition called?",
+          questionMy:
+              "Function ၏ definition တွင် စာရင်းသွင်းထားသော placeholder ကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A list", "An argument", "A parameter", "A loop"],
+          optionsMy: ["List", "Argument", "Parameter", "Loop"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the actual value passed in when a function is called?",
+          questionMy:
+              "Function ကို call ခေါ်စဉ် ဖြည့်သွင်းလိုက်သော အမှန်တကယ်တန်ဖိုးကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A comment", "A parameter", "A procedure", "An argument"],
+          optionsMy: ["Comment", "Parameter", "Procedure", "Argument"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In show_result('Su', 90), how many arguments are being passed?",
+          questionMy:
+              "show_result('Su', 90) တွင် argument မည်မျှ ဖြည့်သွင်းနေသနည်း။",
+          optionsEn: ["Two", "One", "Zero", "Three"],
+          optionsMy: ["နှစ်ခု", "တစ်ခု", "မရှိ", "သုံးခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does using a parameter avoid the need for near-duplicate functions?",
+          questionMy:
+              "Parameter သုံးခြင်းက ထပ်တူနီးပါး function များလိုအပ်ခြင်းကို အဘယ့်ကြောင့် ရှောင်ရှားပေးနိုင်သနည်း။",
+          optionsEn: [
+            "Because parameters delete duplicate functions automatically",
+            "One function can handle many different inputs instead of hardcoding one value per function",
+            "Because Python does not allow duplicate functions",
+            "Because parameters make a function run instantly",
+          ],
+          optionsMy: [
+            "Parameter များက ထပ်နေသော function များကို အလိုအလျောက်ဖျက်သောကြောင့်",
+            "Function တစ်ခုတည်းသည် input အမျိုးမျိုးကို ကိုင်တွယ်နိုင်သဖြင့် function တစ်ခုစီအတွက် တန်ဖိုးတစ်ခုကို hardcode မလုပ်ရတော့ခြင်း",
+            "Python က ထပ်နေသော function များကို ခွင့်မပြုသောကြောင့်",
+            "Parameter များက function ကို ချက်ချင်း run စေသောကြောင့်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How do you list two parameters in one function definition?",
+          questionMy:
+              "Function definition တစ်ခုတွင် parameter နှစ်ခုကို မည်သို့ စာရင်းသွင်းသနည်း။",
+          optionsEn: [
+            "Parameters cannot be combined in one function",
+            "Write them on two separate def lines",
+            "Put them inside two separate square brackets",
+            "Separate them with a comma, e.g. def show_result(name, score):",
+          ],
+          optionsMy: [
+            "Function တစ်ခုတွင် parameter များကို ပေါင်းစပ်၍မရပါ",
+            "def စာကြောင်းနှစ်ကြောင်း သီးခြားရေးရသည်",
+            "Square bracket နှစ်ခုအတွင်း သီးခြားထားရသည်",
+            "Comma ဖြင့်ခွဲရေးရသည် (ဥပမာ def show_result(name, score):)",
+          ],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 2, Week 7: "Return Values"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek7 = CourseWeekDef(
+  id: "course-secondary2-computing-w7",
+  weekNumber: 7,
+  titleEn: "Return Values",
+  titleMy: "Return Value များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w7-d1",
+      dayNumber: 1,
+      titleEn: "print() vs. return",
+      titleMy: "print() နှင့် return ကွာခြားချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a function that just prints something and one that returns a value?",
+          questionMy:
+              "Print ထုတ်ရုံသာလုပ်သော function နှင့် value ပြန်ပေးသော function ကြားရှိ အဓိကကွာခြားချက်က အဘယ်နည်း။",
+          optionsEn: [
+            "Printing is always faster than returning",
+            "There is no real difference between them",
+            "A returning function can never display anything on screen",
+            "A returning function hands a value back to the caller, which can be stored or reused; a printing function just displays text and hands nothing back",
+          ],
+          optionsMy: [
+            "Print သည် return ထက် အမြဲမြန်သည်",
+            "နှစ်ခုကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ",
+            "Return function သည် screen ပေါ်တွင် ဘာမှလုံးဝ မပြသနိုင်ပါ",
+            "Return function သည် value ကို caller ထံပြန်ပေးပြီး သိမ်းဆည်း/ပြန်အသုံးချနိုင်သည်; print function သည် text ပြသရုံသာဖြစ်ပြီး ဘာမှပြန်မပေးပါ",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function definition correctly returns the square of a number?",
+          questionMy:
+              "နံပါတ်တစ်ခု၏ square ကို မှန်ကန်စွာ return ပြန်ပေးမည့် function definition က အဘယ်နည်း။",
+          optionsEn: [
+            "def square(n): return n * n",
+            "def square(n): print(n * n)",
+            "def square(n): n * n",
+            "def square(n): return",
+          ],
+          optionsMy: [
+            "def square(n): return n * n",
+            "def square(n): print(n * n)",
+            "def square(n): n * n",
+            "def square(n): return",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "After result = square(4) runs, what does result hold?",
+          questionMy:
+              "result = square(4) run ပြီးနောက် result သည် မည်သည့်တန်ဖိုးကို ကိုင်ဆောင်သနည်း။",
+          optionsEn: ["4", "16", "None", "square(4)"],
+          optionsMy: ["4", "16", "None", "square(4)"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these uses a function's return value inside an if condition?",
+          questionMy:
+              "အောက်ပါတို့တွင် function ၏ return value ကို if condition အတွင်း အသုံးပြုသည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "def square(n): return n * n",
+            "square(4)",
+            "if square(4) > 10: print('big')",
+            "print(square)",
+          ],
+          optionsMy: [
+            "def square(n): return n * n",
+            "square(4)",
+            "if square(4) > 10: print('big')",
+            "print(square)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function is called only for its side effect (like printing to the screen) rather than for a value it hands back. What is that function most likely?",
+          questionMy:
+              "Function တစ်ခုသည် ပြန်ပေးသောတန်ဖိုးအတွက်မဟုတ်ဘဲ side effect (screen ပေါ် print ထုတ်ခြင်းကဲ့သို့) အတွက်သာ call ခေါ်ခံရသည်။ ထို function သည် အများအားဖြင့် ဘာဖြစ်နိုင်သနည်း။",
+          optionsEn: ["A parameter", "A procedure", "An argument", "An index"],
+          optionsMy: ["Parameter", "Procedure", "Argument", "Index"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w7-d2",
+      dayNumber: 2,
+      titleEn: "Return Vocabulary",
+      titleMy: "Return ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w7-fn-return",
+          termEn: "Return",
+          termMy: "Return",
+          matchEn:
+              "A keyword that sends a computed value back to whatever called the function",
+          matchMy:
+              "Function ကို call ခေါ်သောနေရာသို့ တွက်ချက်ထားသောတန်ဖိုးကို ပြန်ပို့ပေးသော keyword",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w7-fn-returnvalue",
+          termEn: "Return Value",
+          termMy: "Return Value",
+          matchEn:
+              "The actual value a function hands back to the caller when it finishes",
+          matchMy:
+              "Function ပြီးဆုံးသောအခါ caller ထံ ပြန်ပေးလိုက်သော အမှန်တကယ်တန်ဖိုး",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w7-fn-sideeffect",
+          termEn: "Side Effect",
+          termMy: "Side Effect",
+          matchEn:
+              "Something a function does (like printing text) without handing back a computed value",
+          matchMy:
+              "တွက်ချက်ထားသောတန်ဖိုး ပြန်မပေးဘဲ function တစ်ခုက လုပ်ဆောင်သောအရာ (text print ထုတ်ခြင်းကဲ့သို့)",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w7-fn-storeresult",
+          termEn: "Store the Result",
+          termMy: "Store the Result",
+          matchEn:
+              "Saving a function's return value into a variable, e.g. result = square(4)",
+          matchMy:
+              "Function ၏ return value ကို variable တစ်ခုထဲ သိမ်းဆည်းခြင်း (ဥပမာ result = square(4))",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w7-fn-useincondition",
+          termEn: "Use in a Condition",
+          termMy: "Use in a Condition",
+          matchEn:
+              "Testing a function's return value directly inside an if statement, e.g. if square(4) > 10:",
+          matchMy:
+              "Function ၏ return value ကို if statement အတွင်းတိုက်ရိုက် စစ်ဆေးခြင်း (ဥပမာ if square(4) > 10:)",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w7-d3",
+      dayNumber: 3,
+      titleEn: "Has a Return Value or Just a Side Effect?",
+      titleMy: "Return Value ရှိသလား Side Effect သာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Has a Return Value", "Side Effect Only"],
+        bucketsMy: ["Return Value ရှိသည်", "Side Effect သာ"],
+        items: [
+          SortingItem(
+            id: "w7-sort-greetname",
+            labelEn: "def greet(name): print('Hello, ' + name)",
+            labelMy: "def greet(name): print('Hello, ' + name)",
+            correctBucketEn: "Side Effect Only",
+            correctBucketMy: "Side Effect သာ",
+          ),
+          SortingItem(
+            id: "w7-sort-square",
+            labelEn: "def square(n): return n * n",
+            labelMy: "def square(n): return n * n",
+            correctBucketEn: "Has a Return Value",
+            correctBucketMy: "Return Value ရှိသည်",
+          ),
+          SortingItem(
+            id: "w7-sort-logmessage",
+            labelEn: "def log_message(msg): print(msg)",
+            labelMy: "def log_message(msg): print(msg)",
+            correctBucketEn: "Side Effect Only",
+            correctBucketMy: "Side Effect သာ",
+          ),
+          SortingItem(
+            id: "w7-sort-ispass",
+            labelEn: "def is_pass(score): return score >= 50",
+            labelMy: "def is_pass(score): return score >= 50",
+            correctBucketEn: "Has a Return Value",
+            correctBucketMy: "Return Value ရှိသည်",
+          ),
+          SortingItem(
+            id: "w7-sort-showmenu",
+            labelEn: "def show_menu(): print('1. Start  2. Exit')",
+            labelMy: "def show_menu(): print('1. Start  2. Exit')",
+            correctBucketEn: "Side Effect Only",
+            correctBucketMy: "Side Effect သာ",
+          ),
+          SortingItem(
+            id: "w7-sort-add",
+            labelEn: "def add(a, b): return a + b",
+            labelMy: "def add(a, b): return a + b",
+            correctBucketEn: "Has a Return Value",
+            correctBucketMy: "Return Value ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w7-d4",
+      dayNumber: 4,
+      titleEn: "Min's Pass Checker",
+      titleMy: "မင်း၏ Pass Checker",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Min's Pass Checker",
+        titleMy: "မင်း၏ Pass Checker",
+        passageEn:
+            "Min wrote a function to check whether a score counted as a pass: def is_pass(score): print(score >= 50). It printed True or False on the screen, which looked correct, but when he tried result = is_pass(72) and then if result:, his program crashed with an error. His teacher explained that print() only displays a value on screen; it does not hand anything back to whoever called the function, so result ended up holding nothing usable. Min fixed it by changing print to return: def is_pass(score): return score >= 50. Now is_pass(72) actually handed back the value True, which he could store in result = is_pass(72), or use directly inside a condition like if is_pass(72): print('Pass!'). Min also kept a second function, def show_banner(): print('=== Report Card ==='), which he only ever called for its side effect of displaying text, never for a value to store. He realized the difference mattered: use return when you need the answer back to store or test, and a plain print() side effect when you only need something shown on screen.",
+        passageMy:
+            "မင်းသည် score တစ်ခု pass ဖြစ်မဖြစ် စစ်ဆေးသည့် function တစ်ခု ရေးခဲ့သည် - def is_pass(score): print(score >= 50)။ ၎င်းသည် True သို့မဟုတ် False ကို screen ပေါ်တွင် print ထုတ်ပေးပြီး မှန်ကန်နေဟန်ရှိသော်လည်း result = is_pass(72) ပြီးနောက် if result: ကို စမ်းသုံးသောအခါ ပရိုဂရမ် error ဖြင့် ပျက်စီးသွားသည်။ Print() သည် screen ပေါ်တွင် value ပြသရုံသာဖြစ်ပြီး function ကို call ခေါ်သူထံ ဘာမှပြန်မပေးကြောင်း၊ ထို့ကြောင့် result သည် အသုံးမကျသောအရာကို ကိုင်ဆောင်ခဲ့ကြောင်း ဆရာမက ရှင်းပြသည်။ Print ကို return ဟုပြောင်းခြင်းဖြင့် မင်းသည် ပြင်ခဲ့သည် - def is_pass(score): return score >= 50။ ယခုအခါ is_pass(72) သည် True တန်ဖိုးကို တကယ်ပြန်ပေးလာပြီဖြစ်ပြီး result = is_pass(72) ထဲ သိမ်းဆည်းနိုင်သည်၊ (သို့) if is_pass(72): print('Pass!') ကဲ့သို့ condition အတွင်း တိုက်ရိုက်သုံးနိုင်သည်။ မင်းသည် ဒုတိယ function တစ်ခုကိုလည်း ထားခဲ့သည် - def show_banner(): print('=== Report Card ===')၊ ၎င်းကို text ပြသသည့် side effect အတွက်သာ call ခေါ်ခဲ့ပြီး သိမ်းဆည်းရန်တန်ဖိုးအတွက် တစ်ခါမျှမဟုတ်ပါ။ Return ကို ရလဒ်ကိုသိမ်းဆည်း/စစ်ဆေးလိုသည့်အခါ သုံးပြီး၊ screen ပေါ်ပြသလိုသည့်အခါသာ print() side effect ရိုးရိုးကို သုံးရမည်ဖြစ်ကြောင်း ကွာခြားချက်၏ အရေးပါမှုကို မင်း သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Min's first version of is_pass(score) use, print() or return?",
+            questionMy:
+                "Min ၏ ပထမ is_pass(score) version သည် print() သို့မဟုတ် return ဘယ်ဟာသုံးခဲ့သနည်း။",
+            optionsEn: ["print()", "return", "Both at once", "Neither"],
+            optionsMy: ["print()", "return", "နှစ်ခုစလုံး", "နှစ်ခုစလုံးမဟုတ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did result = is_pass(72) fail with Min's first version?",
+            questionMy:
+                "Min ၏ ပထမ version ဖြင့် result = is_pass(72) အဘယ့်ကြောင့် မအောင်မြင်ခဲ့သနည်း။",
+            optionsEn: [
+              "is_pass was spelled incorrectly",
+              "72 is not a valid score",
+              "Python does not allow calling functions with a number",
+              "print() only displays a value on screen; it hands nothing back to the caller",
+            ],
+            optionsMy: [
+              "is_pass ကို စာလုံးမှားရေးထားသောကြောင့်",
+              "72 သည် valid score မဟုတ်သောကြောင့်",
+              "နံပါတ်ဖြင့် function ခေါ်ခြင်းကို Python က ခွင့်မပြုသောကြောင့်",
+              "print() သည် screen ပေါ်တွင် value ပြသရုံသာဖြစ်ပြီး caller ထံ ဘာမှပြန်မပေးသောကြောင့်",
+            ],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "How did Min fix the function?",
+            questionMy: "Min သည် function ကို မည်သို့ပြင်ဆင်ခဲ့သနည်း။",
+            optionsEn: [
+              "He renamed the function to print_pass",
+              "He deleted the score parameter",
+              "He changed print to return",
+              "He removed the >= 50 comparison",
+            ],
+            optionsMy: [
+              "Function ကို print_pass ဟု အမည်ပြောင်းခဲ့သည်",
+              "score parameter ကို ဖျက်ခဲ့သည်",
+              "print ကို return ဟုပြောင်းခဲ့သည်",
+              ">= 50 နှိုင်းယှဉ်မှုကို ဖယ်ရှားခဲ့သည်",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn: "What was show_banner() only ever called for?",
+            questionMy: "show_banner() ကို ဘာအတွက်သာ call ခေါ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Its return value, to store in a variable",
+              "Its side effect of displaying text on screen",
+              "Testing it inside an if condition",
+              "Passing it as an argument to is_pass()",
+            ],
+            optionsMy: [
+              "Variable ထဲ သိမ်းဆည်းရန် return value အတွက်",
+              "Screen ပေါ် text ပြသသည့် side effect အတွက်",
+              "if condition အတွင်း စစ်ဆေးရန်",
+              "is_pass() ထဲ argument အဖြစ် ဖြည့်သွင်းရန်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, when should you use return instead of a plain print() side effect?",
+            questionMy:
+                "ဇာတ်လမ်းအရ print() side effect ရိုးရိုးအစား return ကို ဘယ်အခါသုံးသင့်သနည်း။",
+            optionsEn: [
+              "When you need the answer back to store or test it",
+              "Only when the score is exactly 50",
+              "Never -- print() should always be used instead",
+              "Only inside a for loop",
+            ],
+            optionsMy: [
+              "ရလဒ်ကို သိမ်းဆည်း/စစ်ဆေးလိုသည့်အခါ",
+              "Score သည် အတိအကျ 50 ဖြစ်သည့်အခါသာ",
+              "လုံးဝမသုံးသင့် -- print() ကိုသာ အမြဲသုံးသင့်သည်",
+              "for loop အတွင်းသာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap Quiz",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What keyword sends a value back from a function to its caller?",
+          questionMy:
+              "Function မှ caller ထံ value ပြန်ပို့ပေးသော keyword က အဘယ်နည်း။",
+          optionsEn: ["def", "print", "call", "return"],
+          optionsMy: ["def", "print", "call", "return"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "def square(n): return n * n -- what does result = square(5) store in result?",
+          questionMy:
+              "def square(n): return n * n -- result = square(5) သည် result ထဲတွင် မည်သည့်တန်ဖိုးကို သိမ်းသနည်း။",
+          optionsEn: ["5", "25", "None", "square(5)"],
+          optionsMy: ["5", "25", "None", "square(5)"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is an example of using a return value directly inside a condition?",
+          questionMy:
+              "Return value ကို condition အတွင်းတိုက်ရိုက်အသုံးပြုသည့် ဥပမာက အဘယ်နည်း။",
+          optionsEn: [
+            "print(square(4))",
+            "def square(n): return n * n",
+            "if square(4) > 10: print('big')",
+            "square(4)",
+          ],
+          optionsMy: [
+            "print(square(4))",
+            "def square(n): return n * n",
+            "if square(4) > 10: print('big')",
+            "square(4)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function that only prints text and never hands back a value is being used for its ___.",
+          questionMy:
+              "Text print ထုတ်ရုံသာလုပ်ပြီး value ဘယ်တော့မှ ပြန်မပေးသော function ကို ၎င်း၏ ___ အတွက်သာ သုံးနေသည်။",
+          optionsEn: ["Side effect", "Return value", "Parameter", "Index"],
+          optionsMy: ["Side effect", "Return value", "Parameter", "Index"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did result = is_pass(72) fail when is_pass used print() instead of return?",
+          questionMy:
+              "is_pass က return အစား print() သုံးထားသောအခါ result = is_pass(72) အဘယ့်ကြောင့် မအောင်မြင်ခဲ့သနည်း။",
+          optionsEn: [
+            "Because is_pass had no parameters",
+            "Because 72 is an invalid number",
+            "Because print() does not hand a value back to the caller",
+            "Because Python forbids storing results in variables",
+          ],
+          optionsMy: [
+            "is_pass တွင် parameter မရှိသောကြောင့်",
+            "72 သည် invalid number ဖြစ်သောကြောင့်",
+            "print() သည် caller ထံ value ပြန်မပေးသောကြောင့်",
+            "Result ကို variable ထဲသိမ်းရန် Python က တားမြစ်သောကြောင့်",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 2, Week 8: "Functions Working with
+// Lists" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek8 = CourseWeekDef(
+  id: "course-secondary2-computing-w8",
+  weekNumber: 8,
+  titleEn: "Functions Working with Lists",
+  titleMy: "List များနှင့် အလုပ်လုပ်သော Function များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w8-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Function That Uses a List",
+      titleMy: "List အသုံးပြုမည့် Function ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which building block lets a function accept a whole list of scores as input?",
+          questionMy:
+              "Function တစ်ခုအား score list တစ်ခုလုံးကို input အဖြစ်လက်ခံနိုင်စေသော building block က အဘယ်နည်း။",
+          optionsEn: [
+            "A recap day",
+            "A return value",
+            "A comment",
+            "A parameter",
+          ],
+          optionsMy: ["Recap day", "Return value", "Comment", "Parameter"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Inside a function that processes a list parameter, which building block visits every element one at a time?",
+          questionMy:
+              "List parameter ကို process လုပ်သော function အတွင်း element တိုင်းကို တစ်ခုချင်းစီ ဝင်ရောက်ပေးသော building block က အဘယ်နည်း။",
+          optionsEn: [
+            "A print() with no loop",
+            "A single if statement",
+            "A for loop",
+            "Deleting the list",
+          ],
+          optionsMy: [
+            "loop မပါဘဲ print()",
+            "if statement တစ်ခုတည်း",
+            "for loop",
+            "list ကို ဖျက်ခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which line correctly defines a function that takes a list called scores as its parameter?",
+          questionMy:
+              "scores ဟုအမည်ရှိသော list ကို parameter အဖြစ်ယူသော function ကို မှန်ကန်စွာ define လုပ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "def total_score(scores):",
+            "def total_score[scores]:",
+            "def total_score: scores",
+            "function total_score(scores):",
+          ],
+          optionsMy: [
+            "def total_score(scores):",
+            "def total_score[scores]:",
+            "def total_score: scores",
+            "function total_score(scores):",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function counts how many scores in a list are >= 50. Which building block decides whether each score counts?",
+          questionMy:
+              "Function တစ်ခုက list ထဲရှိ score >= 50 ဖြစ်သည့်အရေအတွက်ကို ရေတွက်သည်။ Score တစ်ခုစီ ရေတွက်ထိုက်မထိုက် ဆုံးဖြတ်ပေးသော building block က အဘယ်နည်း။",
+          optionsEn: [
+            "A comment",
+            "A parameter",
+            "A return keyword",
+            "An if selection",
+          ],
+          optionsMy: ["Comment", "Parameter", "return keyword", "if selection"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After looping through the list and counting with an accumulator, how does the function hand the final count back to whoever called it?",
+          questionMy:
+              "List ကို loop ဖြင့်လှည့်ပြီး accumulator ဖြင့်ရေတွက်ပြီးနောက် function သည် နောက်ဆုံးအရေအတွက်ကို call ခေါ်သူထံ မည်သို့ပြန်ပို့ပေးသနည်း။",
+          optionsEn: [
+            "By renaming the parameter",
+            "With a print() only",
+            "By deleting the list",
+            "With a return statement",
+          ],
+          optionsMy: [
+            "parameter ကို အမည်ပြောင်းခြင်းဖြင့်",
+            "print() တစ်ခုတည်းဖြင့်",
+            "list ကို ဖျက်ခြင်းဖြင့်",
+            "return statement ဖြင့်",
+          ],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w8-d2",
+      dayNumber: 2,
+      titleEn: "Functions and Lists Vocabulary",
+      titleMy: "Function နှင့် List ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w8-fn-listparameter",
+          termEn: "List Parameter",
+          termMy: "List Parameter",
+          matchEn:
+              "A parameter that accepts an entire list as its argument, e.g. scores in def total_score(scores):",
+          matchMy:
+              "List တစ်ခုလုံးကို argument အဖြစ် လက်ခံသော parameter (ဥပမာ def total_score(scores): ထဲရှိ scores)",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w8-fn-accumulator",
+          termEn: "Accumulator",
+          termMy: "Accumulator",
+          matchEn:
+              "A variable (e.g. total = 0 or count = 0) that builds up a result across every pass of a loop",
+          matchMy:
+              "Loop ၏ လှည့်ပတ်တိုင်းတွင် ရလဒ်ကို တဖြည်းဖြည်းစုဆောင်းသော variable (ဥပမာ total = 0 သို့ count = 0)",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w8-fn-returntheresult",
+          termEn: "Return the Result",
+          termMy: "Return the Result",
+          matchEn:
+              "Using return to hand the function's final computed value back to the caller",
+          matchMy:
+              "Function ၏ နောက်ဆုံးတွက်ချက်ထားသောတန်ဖိုးကို caller ထံ return ဖြင့် ပြန်ပို့ပေးခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w8-fn-loopthroughlist",
+          termEn: "Loop Through the List",
+          termMy: "Loop Through the List",
+          matchEn:
+              "Using a for loop to visit every element of a list parameter, one at a time",
+          matchMy:
+              "List parameter ၏ element တိုင်းကို for loop ဖြင့် တစ်ခုချင်းစီ ဝင်ရောက်ခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w8-fn-conditionalcount",
+          termEn: "Conditional Count",
+          termMy: "Conditional Count",
+          matchEn:
+              "Using an if statement inside a loop to count only the elements that match a condition",
+          matchMy:
+              "Condition နှင့် ကိုက်ညီသော element များကိုသာ ရေတွက်ရန် loop အတွင်း if statement သုံးခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w8-d3",
+      dayNumber: 3,
+      titleEn: "Returns a Value or Just Prints?",
+      titleMy: "Value ပြန်ပေးသလား Print ထုတ်ရုံသာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Returns a Value", "Just Prints (No Return)"],
+        bucketsMy: ["Value ပြန်ပေးသည်", "Print ထုတ်ရုံသာ (Return မပါ)"],
+        items: [
+          SortingItem(
+            id: "w8-sort-printscores",
+            labelEn: "def print_scores(scores): for s in scores: print(s)",
+            labelMy: "def print_scores(scores): for s in scores: print(s)",
+            correctBucketEn: "Just Prints (No Return)",
+            correctBucketMy: "Print ထုတ်ရုံသာ (Return မပါ)",
+          ),
+          SortingItem(
+            id: "w8-sort-totalscore",
+            labelEn: "def total_score(scores): ... return total",
+            labelMy: "def total_score(scores): ... return total",
+            correctBucketEn: "Returns a Value",
+            correctBucketMy: "Value ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w8-sort-printbanner",
+            labelEn: "def print_banner(): print('=== Scores ===')",
+            labelMy: "def print_banner(): print('=== Scores ===')",
+            correctBucketEn: "Just Prints (No Return)",
+            correctBucketMy: "Print ထုတ်ရုံသာ (Return မပါ)",
+          ),
+          SortingItem(
+            id: "w8-sort-countpasses",
+            labelEn: "def count_passes(scores): ... return count",
+            labelMy: "def count_passes(scores): ... return count",
+            correctBucketEn: "Returns a Value",
+            correctBucketMy: "Value ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w8-sort-showscores",
+            labelEn: "def show_scores(scores): print(scores)",
+            labelMy: "def show_scores(scores): print(scores)",
+            correctBucketEn: "Just Prints (No Return)",
+            correctBucketMy: "Print ထုတ်ရုံသာ (Return မပါ)",
+          ),
+          SortingItem(
+            id: "w8-sort-averagescore",
+            labelEn:
+                "def average_score(scores): ... return total / len(scores)",
+            labelMy:
+                "def average_score(scores): ... return total / len(scores)",
+            correctBucketEn: "Returns a Value",
+            correctBucketMy: "Value ပြန်ပေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w8-d4",
+      dayNumber: 4,
+      titleEn: "Zin's Pass Counter",
+      titleMy: "ဇင်၏ Pass Counter",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin's Pass Counter",
+        titleMy: "ဇင်၏ Pass Counter",
+        passageEn:
+            "Zin wanted to write one function that could tell her how many students passed a quiz, no matter how many scores she gave it. She planned it on paper first: a list parameter to receive the scores, a loop to visit each one, an if statement to check whether each score counted as a pass, an accumulator to keep count, and a return statement to hand the final count back. She wrote def count_passes(scores):, then count = 0 as her accumulator, then for score in scores: to loop through the list, then if score >= 50: count = count + 1 inside the loop to add one only when a score passed, and finally return count after the loop finished. She called it with result = count_passes([85, 40, 90, 30, 78]), and result came out to 3, since 85, 90, and 78 were each at least 50 while 40 and 30 were not. She tested it again with count_passes([20, 30, 10]), which correctly returned 0, and with count_passes([60, 70, 80]), which correctly returned 3. Zin realized her one function now combined everything from the whole course: a list to hold data, a for loop to process it, an if to make a decision on each element, an accumulator to keep a running result, and a return to hand that result back -- ready to be reused on any list of scores she gave it, without ever needing a near-duplicate function again.",
+        passageMy:
+            "ဇင်သည် quiz တစ်ခုတွင် ကျောင်းသားမည်မျှ pass ရသနည်းကို ပြောပြနိုင်မည့် function တစ်ခုတည်းကို score list မည်မျှပေးထားသည်ဖြစ်စေ အလုပ်လုပ်စေလိုသည်။ Code မရေးမီ စက္ကူပေါ်တွင် စီစဉ်ခဲ့သည် - score များလက်ခံရန် list parameter တစ်ခု၊ score တစ်ခုစီသို့ ဝင်ရောက်ရန် loop တစ်ခု၊ score တစ်ခုစီ pass ဖြစ်မဖြစ် စစ်ဆေးရန် if statement တစ်ခု၊ count ကိုထိန်းရန် accumulator တစ်ခုနှင့် နောက်ဆုံးရလဒ်ကို ပြန်ပို့ရန် return statement တစ်ခု။ def count_passes(scores): ဟုရေးပြီး accumulator အဖြစ် count = 0၊ ထို့နောက် list ကို loop ဖြင့်လှည့်ပတ်ရန် for score in scores:၊ ထို့နောက် score pass ရသည့်အခါတွင်သာ count ကို တစ်ခုတိုးရန် loop အတွင်း if score >= 50: count = count + 1၊ နောက်ဆုံးတွင် loop ပြီးဆုံးပြီးနောက် return count ဟု ရေးခဲ့သည်။ result = count_passes([85, 40, 90, 30, 78]) ဖြင့် call ခေါ်ရာ 85၊ 90 နှင့် 78 တို့သည် အနည်းဆုံး 50 ရှိပြီး 40 နှင့် 30 မှာ မရှိသောကြောင့် result သည် 3 ဖြစ်လာသည်။ count_passes([20, 30, 10]) ဖြင့် ထပ်စမ်းသပ်ရာ 0 ကို မှန်ကန်စွာ ပြန်ပေးပြီး၊ count_passes([60, 70, 80]) ဖြင့် ထပ်စမ်းသပ်ရာ 3 ကို မှန်ကန်စွာ ပြန်ပေးသည်။ သူမ၏ function တစ်ခုတည်းသည် သင်တန်းတစ်ခုလုံးမှ အရာအားလုံးကို ယခုပေါင်းစပ်ထားကြောင်း ဇင် သဘောပေါက်လိုက်သည် - data ထားရန် list၊ ၎င်းကို process လုပ်ရန် for loop၊ element တစ်ခုစီအတွက် ဆုံးဖြတ်ရန် if၊ ရလဒ်ကို ထိန်းရန် accumulator နှင့် ထိုရလဒ်ကို ပြန်ပို့ရန် return -- ထပ်တူနီးပါး function အသစ်တစ်ခုမျှ လိုအပ်တော့ဘဲ score list မည်သည့်list ကိုမဆို ပြန်လည်အသုံးချရန် အသင့်ဖြစ်နေပြီ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Zin's count_passes function accept as its parameter?",
+            questionMy:
+                "ဇင်၏ count_passes function သည် parameter အဖြစ် ဘာကိုလက်ခံခဲ့သနည်း။",
+            optionsEn: [
+              "A single score",
+              "A list of scores",
+              "A function name",
+              "A comment",
+            ],
+            optionsMy: [
+              "Score တစ်ခုတည်း",
+              "Score list",
+              "Function name",
+              "Comment",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Zin use inside the loop to decide whether a score counted as a pass?",
+            questionMy:
+                "Score တစ်ခု pass ရသည်ဖြစ်မဖြစ် ဆုံးဖြတ်ရန် loop အတွင်း ဇင် ဘာသုံးခဲ့သနည်း။",
+            optionsEn: [
+              "An if statement checking score >= 50",
+              "A print() statement",
+              "Another list",
+              "A second parameter",
+            ],
+            optionsMy: [
+              "score >= 50 ကို စစ်ဆေးသော if statement",
+              "print() statement",
+              "list နောက်ထပ်တစ်ခု",
+              "parameter ဒုတိယတစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did count_passes([85, 40, 90, 30, 78]) return?",
+            questionMy:
+                "count_passes([85, 40, 90, 30, 78]) သည် ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: ["5", "3", "0", "2"],
+            optionsMy: ["၅", "၃", "၀", "၂"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What did count_passes([20, 30, 10]) return?",
+            questionMy: "count_passes([20, 30, 10]) သည် ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: ["1", "3", "0", "20"],
+            optionsMy: ["၁", "၃", "၀", "၂၀"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what five things did Zin's finished function combine?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ဇင်၏ ပြီးစီးသော function တွင် ဘာငါးမျိုး ပေါင်းစပ်ပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Five completely separate functions",
+              "Only a list and a print() statement",
+              "Only a while loop and a comment",
+              "A list, a for loop, an if statement, an accumulator, and a return statement",
+            ],
+            optionsMy: [
+              "လုံးဝသီးခြားစီဖြစ်သော function ငါးခု",
+              "List နှင့် print() statement တစ်ခုတည်း",
+              "while loop နှင့် comment တစ်ခုတည်း",
+              "List၊ for loop၊ if statement၊ accumulator နှင့် return statement",
+            ],
+            correctIndex: 3,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Recap Quiz",
+      titleMy: "Term 2 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What keyword defines a function?",
+          questionMy: "Function ကို define လုပ်ရာတွင် ဘယ် keyword သုံးသနည်း။",
+          optionsEn: ["def", "func", "return", "call"],
+          optionsMy: ["def", "func", "return", "call"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the placeholder inside a function definition called, versus the real value passed in when calling it?",
+          questionMy:
+              "Function definition အတွင်းရှိ placeholder နှင့် call ခေါ်စဉ်ဖြည့်သွင်းသော အမှန်တကယ်တန်ဖိုးကို အသီးသီး ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            "An argument versus a parameter",
+            "A parameter versus an argument",
+            "A list versus an index",
+            "A loop versus a variable",
+          ],
+          optionsMy: [
+            "Argument နှင့် Parameter",
+            "Parameter နှင့် Argument",
+            "List နှင့် Index",
+            "Loop နှင့် Variable",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What keyword sends a computed value back to whoever called a function?",
+          questionMy:
+              "Function ကို call ခေါ်သူထံ တွက်ချက်ထားသောတန်ဖိုးကို ပြန်ပို့ပေးသော keyword က အဘယ်နည်း။",
+          optionsEn: ["for", "print", "def", "return"],
+          optionsMy: ["for", "print", "def", "return"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function def count_passes(scores): takes a list and loops through it with an accumulator. What does it use to decide whether each score should be counted?",
+          questionMy:
+              "def count_passes(scores): function သည် list ကိုယူပြီး accumulator ဖြင့် loop လုပ်သည်။ Score တစ်ခုစီ ရေတွက်သင့်မသင့် ဆုံးဖြတ်ရန် ဘာသုံးသနည်း။",
+          optionsEn: [
+            "A new list",
+            "A second function",
+            "A comment",
+            "An if statement",
+          ],
+          optionsMy: [
+            "List အသစ်",
+            "Function ဒုတိယတစ်ခု",
+            "Comment",
+            "if statement",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a function like count_passes(scores) reusable on any list of scores, without writing near-duplicate functions?",
+          questionMy:
+              "count_passes(scores) ကဲ့သို့ function တစ်ခုသည် ထပ်တူနီးပါး function များမရေးဘဲ score list မည်သည့်list ကိုမဆို အဘယ့်ကြောင့် ပြန်လည်အသုံးချနိုင်သနည်း။",
+          optionsEn: [
+            "Because it takes the list as a parameter, so any list can be passed in as the argument",
+            "Because it only works on lists with exactly five scores",
+            "Because it deletes the list after counting",
+            "Because Python automatically rewrites the function for each list",
+          ],
+          optionsMy: [
+            "List ကို parameter အဖြစ်ယူသောကြောင့် list မည်သည့်list ကိုမဆို argument အဖြစ် ဖြည့်သွင်းနိုင်သောကြောင့်",
+            "Score အတိအကျ ၅ခုပါသော list တွင်သာ အလုပ်လုပ်သောကြောင့်",
+            "ရေတွက်ပြီးနောက် list ကို ဖျက်သောကြောင့်",
+            "List တစ်ခုစီအတွက် Python က function ကို အလိုအလျောက် ပြန်ရေးပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -16468,17 +18070,42 @@ const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   ], // Term 1 complete (Weeks 1-4) -- first term of the new Secondary 2 pathway
 );
 
+const CourseTermDef _secondary2ComputingTerm2 = CourseTermDef(
+  id: "course-secondary2-computing-t2",
+  termNumber: 2,
+  titleEn: "Functions and Procedures",
+  titleMy: "Function နှင့် Procedure",
+  certificateTitleEn: "Functions and Procedures",
+  certificateTitleMy: "Function နှင့် Procedure",
+  weeks: [
+    _secondary2ComputingWeek5,
+    _secondary2ComputingWeek6,
+    _secondary2ComputingWeek7,
+    _secondary2ComputingWeek8,
+  ], // Term 2 complete (Weeks 5-8) -- second term of the Secondary 2 pathway
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
-/// than more terms grafted onto Secondary 1. Currently only Term 1
-/// (Weeks 1-4, Lists and Arrays) is authored; [totalWeeks] stays 36 for
-/// the same "honest progress bar" reason Secondary 1's did while only a
-/// handful of weeks exist. Term 1 picks up directly where Secondary 1
-/// Term 9 left off: its Week 36 capstone program used single variables,
-/// selection, and loops, and this term's four weeks extend that straight
-/// into lists (storing many values, adding/removing/updating items,
-/// looping through a list, and a capstone list-based program).
+/// than more terms grafted onto Secondary 1. Term 1 (Weeks 1-4, Lists and
+/// Arrays) and Term 2 (Weeks 5-8, Functions and Procedures) are now
+/// authored; [totalWeeks] stays 36 for the same "honest progress bar"
+/// reason Secondary 1's did while only a handful of weeks exist. Term 1
+/// picks up directly where Secondary 1 Term 9 left off: its Week 36
+/// capstone program used single variables, selection, and loops, and
+/// Term 1's four weeks extend that straight into lists (storing many
+/// values, adding/removing/updating items, looping through a list, and a
+/// capstone list-based program). Term 2 continues the spiral: Week 5
+/// introduces functions/procedures as a fix for repeated code; Week 6
+/// adds parameters and arguments so one function can serve many inputs
+/// instead of near-duplicate functions; Week 7 contrasts a plain
+/// print()-only side effect with a real return value the caller can
+/// store or test; Week 8 closes the term with a capstone that combines
+/// everything so far -- a function that takes a list as a parameter,
+/// loops through it with an accumulator (reusing Term 1 Week 3's
+/// pattern), applies an if selection to each element, and returns the
+/// computed result.
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -16486,9 +18113,9 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists and arrays.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, and procedures.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list နှင့် array ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function နှင့် procedure ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary2ComputingTerm1],
+  terms: [_secondary2ComputingTerm1, _secondary2ComputingTerm2],
 );
