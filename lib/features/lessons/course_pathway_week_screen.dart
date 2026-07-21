@@ -5,7 +5,9 @@ import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
+import '../../l10n/app_localizations.dart';
 import '../../providers/children_providers.dart';
+import '../../providers/course_progress_providers.dart';
 import '../../routing/app_router.dart';
 import 'course_pathway_bank.dart';
 import 'drag_match_screen.dart';
@@ -37,6 +39,9 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
     final theme = Theme.of(context);
     final child = ref.watch(activeChildProvider);
     final completedIds = child?.completedModuleIds.toSet() ?? const <String>{};
+    final pathway = pathwayContainingWeek(week);
+    final weekComplete = isWeekFullyComplete(week, completedIds);
+    final next = weekComplete ? nextWeekAfter(pathway, week) : null;
 
     return Scaffold(
       appBar: AppBar(
@@ -92,6 +97,10 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
                   onTap: () => _openLesson(context, week.dailyLessons[i]),
                 ),
               ),
+            if (weekComplete) ...[
+              const SizedBox(height: 8),
+              _WeekCompleteCard(nextWeek: next),
+            ],
           ],
         ),
       ),
@@ -142,6 +151,70 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
           ),
         );
     }
+  }
+}
+
+/// Shown once every daily lesson in [week] is complete: either a "Continue
+/// to Week N+1" call-to-action -- fixing the previous dead end where
+/// [CoursePathwayBrowser] always relaunched [CoursePathwayDef.terms]'s
+/// first week regardless of actual progress -- or an honest "more coming
+/// soon" message once [nextWeek] is `null` because no further week has
+/// been authored yet.
+class _WeekCompleteCard extends StatelessWidget {
+  const _WeekCompleteCard({required this.nextWeek});
+
+  final CourseWeekDef? nextWeek;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
+
+    return CandyBevelSurface(
+      faceColor: AppColors.secondary.withValues(alpha: 0.14),
+      bevelDepth: CandyBevelDepth.secondary,
+      borderRadius: AppTheme.radiusLarge,
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.celebration_rounded, color: AppColors.goldMedal),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  l10n.coursePathwayWeekComplete,
+                  style: theme.textTheme.titleSmall?.copyWith(
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          if (nextWeek != null)
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton.icon(
+                onPressed: () =>
+                    context.push(AppRoutes.coursePathwayWeek, extra: nextWeek),
+                icon: const Icon(Icons.arrow_forward_rounded),
+                label: Text(
+                  l10n.coursePathwayContinueToWeek(nextWeek!.weekNumber),
+                ),
+              ),
+            )
+          else
+            Text(
+              l10n.coursePathwayMoreComingSoon,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+        ],
+      ),
+    );
   }
 }
 

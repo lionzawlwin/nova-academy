@@ -228,5 +228,13 @@
       "authored": { "type": "int" },
       "total": { "type": "int" }
     }
-  }
+  },
+  "coursePathwayWeekComplete": "Week complete! Great work.",
+  "coursePathwayContinueToWeek": "Continue to Week {week}",
+  "@coursePathwayContinueToWeek": {
+    "placeholders": {
+      "week": { "type": "int" }
+    }
+  },
+  "coursePathwayMoreComingSoon": "You've finished every week authored so far — more are coming soon!"
 }

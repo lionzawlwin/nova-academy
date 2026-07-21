@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../l10n/app_localizations.dart';
+import '../../providers/course_progress_providers.dart';
 import '../lessons/course_pathway_bank.dart';
 import '../../routing/app_router.dart';
 
@@ -67,21 +69,21 @@ class CoursePathwayBrowser extends StatelessWidget {
   }
 }
 
-class _PathwayCard extends StatefulWidget {
+class _PathwayCard extends ConsumerStatefulWidget {
   const _PathwayCard({required this.pathway, required this.index});
 
   final CoursePathwayDef pathway;
   final int index;
 
   @override
-  State<_PathwayCard> createState() => _PathwayCardState();
+  ConsumerState<_PathwayCard> createState() => _PathwayCardState();
 }
 
 /// Same "drop and bounce" entrance vocabulary as `_SubjectCard` on this
 /// screen's subject grid, staggered by [_PathwayCard.index] -- keeps the
 /// pathway cards visually consistent with the rest of the Secondary/IGCSE
 /// dashboard rather than introducing a new motion language.
-class _PathwayCardState extends State<_PathwayCard>
+class _PathwayCardState extends ConsumerState<_PathwayCard>
     with SingleTickerProviderStateMixin {
   static const _entranceDuration = Duration(milliseconds: 600);
   static const _staggerStep = Duration(milliseconds: 80);
@@ -132,7 +134,7 @@ class _PathwayCardState extends State<_PathwayCard>
         borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
         onTap: () => context.push(
           AppRoutes.coursePathwayWeek,
-          extra: pathway.terms.first.weeks.first,
+          extra: ref.read(currentWeekForPathwayProvider(pathway)),
         ),
         child: CandyBevelSurface(
           faceColor: theme.colorScheme.surfaceContainerHigh,

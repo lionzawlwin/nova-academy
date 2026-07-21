@@ -544,4 +544,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String homeCoursePathwayWeeksReady(int authored, int total) {
     return '$authored of $total weeks ready';
   }
+
+  @override
+  String get coursePathwayWeekComplete => 'Week complete! Great work.';
+
+  @override
+  String coursePathwayContinueToWeek(int week) {
+    return 'Continue to Week $week';
+  }
+
+  @override
+  String get coursePathwayMoreComingSoon =>
+      'You\'ve finished every week authored so far — more are coming soon!';
 }

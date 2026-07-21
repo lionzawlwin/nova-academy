@@ -1123,6 +1123,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{authored} of {total} weeks ready'**
   String homeCoursePathwayWeeksReady(int authored, int total);
+
+  /// No description provided for @coursePathwayWeekComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Week complete! Great work.'**
+  String get coursePathwayWeekComplete;
+
+  /// No description provided for @coursePathwayContinueToWeek.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue to Week {week}'**
+  String coursePathwayContinueToWeek(int week);
+
+  /// No description provided for @coursePathwayMoreComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve finished every week authored so far — more are coming soon!'**
+  String get coursePathwayMoreComingSoon;
 }
 
 class _AppLocalizationsDelegate

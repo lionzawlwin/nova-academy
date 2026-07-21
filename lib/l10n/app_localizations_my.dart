@@ -548,4 +548,17 @@ class AppLocalizationsMy extends AppLocalizations {
   String homeCoursePathwayWeeksReady(int authored, int total) {
     return 'စုစုပေါင်း ပတ် $total အနက် $authored ပတ် အသင့်ဖြစ်ပြီ';
   }
+
+  @override
+  String get coursePathwayWeekComplete =>
+      'ဤအပတ် ပြီးဆုံးပါပြီ! အလွန်ကောင်းမွန်ပါသည်။';
+
+  @override
+  String coursePathwayContinueToWeek(int week) {
+    return 'ပတ် $week သို့ ဆက်သွားရန်';
+  }
+
+  @override
+  String get coursePathwayMoreComingSoon =>
+      'လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!';
 }

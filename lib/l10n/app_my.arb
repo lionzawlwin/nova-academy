@@ -192,5 +192,8 @@
 
   "homeCoursePathwaysTitle": "သင်တန်းလမ်းကြောင်းများ",
   "homeCoursePathwaysSubtitle": "ပညာသင်နှစ်တစ်ခုလုံး သင်တန်းများ၊ ပတ်အလိုက်",
-  "homeCoursePathwayWeeksReady": "စုစုပေါင်း ပတ် {total} အနက် {authored} ပတ် အသင့်ဖြစ်ပြီ"
+  "homeCoursePathwayWeeksReady": "စုစုပေါင်း ပတ် {total} အနက် {authored} ပတ် အသင့်ဖြစ်ပြီ",
+  "coursePathwayWeekComplete": "ဤအပတ် ပြီးဆုံးပါပြီ! အလွန်ကောင်းမွန်ပါသည်။",
+  "coursePathwayContinueToWeek": "ပတ် {week} သို့ ဆက်သွားရန်",
+  "coursePathwayMoreComingSoon": "လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!"
 }
