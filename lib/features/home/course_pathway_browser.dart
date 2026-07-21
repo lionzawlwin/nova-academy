@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/constants/home_tier.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
@@ -31,16 +32,27 @@ int _authoredWeeks(CoursePathwayDef pathway) =>
 
 /// Replaces the old single hardcoded "Full Year Computing Course (Beta)"
 /// banner with a dynamic entry-card list covering every pathway in
-/// [allCoursePathways] -- so newly authored pathways (e.g. Secondary 1
-/// Mathematics) become tappable the moment they're added to that list,
-/// with no further home-screen changes required.
+/// [allCoursePathways] matching [tier] -- so newly authored pathways (e.g.
+/// Secondary 1 Mathematics, or Year 1 Mathematics) become tappable the
+/// moment they're added to that list, with no further home-screen changes
+/// required. [tier] is required (not inferred from the active child) so
+/// this widget can never accidentally leak another tier's pathways --
+/// e.g. a Primary student must never see a Secondary 1 pathway card just
+/// because both happen to live in the same flat [allCoursePathways] list.
 class CoursePathwayBrowser extends StatelessWidget {
-  const CoursePathwayBrowser({super.key});
+  const CoursePathwayBrowser({super.key, required this.tier});
+
+  final HomeTier tier;
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
+    final pathways = [
+      for (final pathway in allCoursePathways)
+        if (homeTierForGrade(pathway.grade) == tier) pathway,
+    ];
+    if (pathways.isEmpty) return const SizedBox.shrink();
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -59,10 +71,10 @@ class CoursePathwayBrowser extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 12),
-        for (var i = 0; i < allCoursePathways.length; i++)
+        for (var i = 0; i < pathways.length; i++)
           Padding(
             padding: const EdgeInsets.only(bottom: 14),
-            child: _PathwayCard(pathway: allCoursePathways[i], index: i),
+            child: _PathwayCard(pathway: pathways[i], index: i),
           ),
       ],
     );

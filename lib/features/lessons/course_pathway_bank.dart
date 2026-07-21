@@ -14855,6 +14855,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   secondary2ComputingPathway,
   secondary1MathematicsPathway,
   secondary1SciencePathway,
+  year1MathematicsPathway,
 ];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or
@@ -47537,4 +47538,1758 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
     _secondary1ScienceTerm5,
     _secondary1ScienceTerm6,
   ],
+);
+
+// =====================================================================
+// Year 1 Mathematics -- Term 1, Week 1: "Counting to 20"
+// =====================================================================
+const CourseWeekDef _year1MathematicsWeek1 = CourseWeekDef(
+  id: "course-year1-mathematics-w1",
+  weekNumber: 1,
+  titleEn: "Counting to 20",
+  titleMy: "20 အထိ ရေတွက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w1-d1",
+      dayNumber: 1,
+      titleEn: "Counting to 20 Quiz",
+      titleMy: "20 အထိ ရေတွက်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Moe Moe is counting mangoes one by one. There are 14 mangoes. Which numeral matches how many mangoes there are?",
+          questionMy:
+              "မိုးမိုးသည် သရက်သီးများကို တစ်လုံးချင်း ရေတွက်နေသည်။ သရက်သီး 14 လုံး ရှိသည်။ သရက်သီးအရေအတွက်နှင့် ကိုက်ညီသော ဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["11", "14", "17", "19"],
+          optionsMy: ["11", "14", "17", "19"],
+          correctIndex: 1,
+          hintsEn: [
+            "Count each mango out loud, touching one mango as you say each number, starting from one.",
+            "Count all the way past ten: eleven, twelve, thirteen, fourteen -- stop exactly when you run out of mangoes to touch.",
+          ],
+          hintsMy: [
+            "သရက်သီးတစ်လုံးစီကို လက်နှင့်ထိကာ တစ်ခုပြီးတစ်ခု အသံထွက်ရေတွက်ပါ၊ တစ်မှ အစပြုပါ။",
+            "ဆယ်ကျော်အထိ ရေတွက်ပါ - ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး -- သရက်သီး ကုန်သွားသည့်အခါ ရပ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi counts a row of stars one at a time. There are 18 stars. Which numeral matches?",
+          questionMy:
+              "နေချည်သည် ကြယ်တန်းတစ်တန်းကို တစ်ခုချင်း ရေတွက်သည်။ ကြယ် 18 လုံး ရှိသည်။ မည်သည့်ဂဏန်းက ကိုက်ညီသနည်း။",
+          optionsEn: ["18", "15", "12", "20"],
+          optionsMy: ["18", "15", "12", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "Count the stars one at a time, keeping track with your finger so you don't count the same star twice.",
+            "Keep counting forward past ten without stopping: eleven, twelve, thirteen... all the way to eighteen -- that's how many stars there are.",
+          ],
+          hintsMy: [
+            "ကြယ်တစ်လုံးစီကို တစ်ခုချင်း ရေတွက်ပြီး၊ ထပ်ခါတလဲလဲ မရေတွက်မိအောင် လက်ချောင်းဖြင့် မှတ်သားပါ။",
+            "ဆယ်ကျော်အထိ မရပ်ဘဲ ဆက်ရေတွက်ပါ - ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး... ဆယ့်ရှစ်အထိ -- ထိုအရေအတွက်သည် ကြယ်အရေအတွက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which numeral is the number word \"sixteen\"?",
+          questionMy:
+              "\"sixteen\" ဟူသော ဂဏန်းစကားလုံးမှာ မည်သည့်ဂဏန်းဖြစ်သနည်း။",
+          optionsEn: ["61", "6", "16", "60"],
+          optionsMy: ["61", "6", "16", "60"],
+          correctIndex: 2,
+          hintsEn: [
+            "The word \"sixteen\" means \"six\" plus a \"teen\" ending, like thirteen or seventeen -- so it is a two-digit number starting with 1.",
+            "Don't swap the digits around -- \"sixteen\" is written 1 then 6, not 6 then 1.",
+          ],
+          hintsMy: [
+            "\"sixteen\" ဟူသောစကားလုံးသည် \"six\" ပေါင်း \"teen\" နောက်ဆက်ဖြစ်ပြီး thirteen (သို့) seventeen ကဲ့သို့ 1 ဖြင့် အစပြုသော ဂဏန်းနှစ်လုံးဖြစ်သည်။",
+            "ဂဏန်းများ၏ အစီအစဉ်ကို မဖလှယ်ပါနှင့် -- \"sixteen\" ကို 1 ပြီးမှ 6 ဟု ရေးရသည်၊ 6 ပြီးမှ 1 မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which number comes right after sixteen when you count up?",
+          questionMy:
+              "အပေါ်သို့ ရေတွက်သောအခါ ဆယ့်ခြောက်ပြီးနောက် မည်သည့်ဂဏန်း ဆက်လာသနည်း။",
+          optionsEn: ["15", "16", "17", "18"],
+          optionsMy: ["15", "16", "17", "18"],
+          correctIndex: 2,
+          hintsEn: [
+            "Say the counting sequence out loud starting from ten: ...fourteen, fifteen, sixteen -- what number do you say next?",
+            "The number right after sixteen is one more than sixteen -- count just one step forward.",
+          ],
+          hintsMy: [
+            "ဆယ်မှ အစပြု၍ ရေတွက်မှုအစီအစဉ်ကို အသံထွက်ပြောကြည့်ပါ - ...ဆယ့်လေး၊ ဆယ့်ငါး၊ ဆယ့်ခြောက် -- နောက်ထပ် ဘာဂဏန်း ပြောရမလဲ။",
+            "ဆယ့်ခြောက်ပြီးနောက်ရောက်သောဂဏန်းသည် ဆယ့်ခြောက်ထက် တစ်ခုပိုသည် -- တစ်ဆင့်သာ ရှေ့ ရေတွက်ကြည့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match the Numbers 11-20",
+      titleMy: "ဂဏန်း 11 မှ 20 ကို ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w1-dm-1",
+          termEn: "Eleven",
+          termMy: "ဆယ့်တစ် (Eleven)",
+          matchEn:
+              "The numeral 11 -- the number that comes right after ten when you count up, and right before twelve.",
+          matchMy:
+              "ဂဏန်း 11 -- ဆယ်ပြီးနောက် ဆက်တွက်လျှင် ရောက်လာသောဂဏန်းဖြစ်ပြီး ဆယ့်နှစ်မတိုင်မီ ရှိသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w1-dm-2",
+          termEn: "Twelve",
+          termMy: "ဆယ့်နှစ် (Twelve)",
+          matchEn:
+              "The numeral 12 -- the number that comes right after eleven when you count up, and right before thirteen.",
+          matchMy:
+              "ဂဏန်း 12 -- ဆယ့်တစ်ပြီးနောက် ဆက်တွက်လျှင် ရောက်လာသောဂဏန်းဖြစ်ပြီး ဆယ့်သုံးမတိုင်မီ ရှိသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w1-dm-3",
+          termEn: "Thirteen",
+          termMy: "ဆယ့်သုံး (Thirteen)",
+          matchEn:
+              "The numeral 13 -- comes right after twelve and right before fourteen. In English it is \"thirteen\", not \"threeteen\".",
+          matchMy:
+              "ဂဏန်း 13 -- ဆယ့်နှစ်ပြီးနောက် ရောက်လာပြီး ဆယ့်လေးမတိုင်မီ ရှိသည်။ အင်္ဂလိပ်လို \"threeteen\" မဟုတ်ဘဲ \"thirteen\" ဟု ခေါ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w1-dm-4",
+          termEn: "Fifteen",
+          termMy: "ဆယ့်ငါး (Fifteen)",
+          matchEn:
+              "The numeral 15 -- comes right after fourteen and right before sixteen. In English it is \"fifteen\", not \"fiveteen\".",
+          matchMy:
+              "ဂဏန်း 15 -- ဆယ့်လေးပြီးနောက် ရောက်လာပြီး ဆယ့်ခြောက်မတိုင်မီ ရှိသည်။ အင်္ဂလိပ်လို \"fiveteen\" မဟုတ်ဘဲ \"fifteen\" ဟု ခေါ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w1-dm-5",
+          termEn: "Seventeen",
+          termMy: "ဆယ့်ခုနစ် (Seventeen)",
+          matchEn:
+              "The numeral 17 -- comes right after sixteen and right before eighteen.",
+          matchMy:
+              "ဂဏန်း 17 -- ဆယ့်ခြောက်ပြီးနောက် ရောက်လာပြီး ဆယ့်ရှစ်မတိုင်မီ ရှိသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w1-dm-6",
+          termEn: "Twenty",
+          termMy: "နှစ်ဆယ် (Twenty)",
+          matchEn:
+              "The numeral 20 -- the very last number in this week's counting sequence, coming right after nineteen. It is the biggest number learned this week.",
+          matchMy:
+              "ဂဏန်း 20 -- ဤအပတ်၏ ရေတွက်မှုအစီအစဉ်တွင် နောက်ဆုံးဂဏန်းဖြစ်ပြီး ဆယ့်ကိုးပြီးနောက် ရောက်လာသည်။ ဤအပတ်တွင် သင်ယူခဲ့သော အကြီးဆုံးဂဏန်း ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: 1 to 10 or 11 to 20?",
+      titleMy: "စီစစ်ကြမည် - 1 မှ 10 လား၊ 11 မှ 20 လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["11 to 20", "1 to 10"],
+        bucketsMy: ["11 မှ 20", "1 မှ 10"],
+        items: [
+          SortingItem(
+            id: "y1math-w1-sort-1",
+            labelEn: "12 mangoes",
+            labelMy: "သရက်သီး 12 လုံး",
+            correctBucketEn: "11 to 20",
+            correctBucketMy: "11 မှ 20",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-2",
+            labelEn: "4 mangoes",
+            labelMy: "သရက်သီး 4 လုံး",
+            correctBucketEn: "1 to 10",
+            correctBucketMy: "1 မှ 10",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-3",
+            labelEn: "19 pencils",
+            labelMy: "ခဲတံ 19 ချောင်း",
+            correctBucketEn: "11 to 20",
+            correctBucketMy: "11 မှ 20",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-4",
+            labelEn: "8 pencils",
+            labelMy: "ခဲတံ 8 ချောင်း",
+            correctBucketEn: "1 to 10",
+            correctBucketMy: "1 မှ 10",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-5",
+            labelEn: "15 flowers",
+            labelMy: "ပန်း 15 ပွင့်",
+            correctBucketEn: "11 to 20",
+            correctBucketMy: "11 မှ 20",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-6",
+            labelEn: "9 flowers",
+            labelMy: "ပန်း 9 ပွင့်",
+            correctBucketEn: "1 to 10",
+            correctBucketMy: "1 မှ 10",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-7",
+            labelEn: "20 apples",
+            labelMy: "ပန်းသီး 20 လုံး",
+            correctBucketEn: "11 to 20",
+            correctBucketMy: "11 မှ 20",
+          ),
+          SortingItem(
+            id: "y1math-w1-sort-8",
+            labelEn: "3 apples",
+            labelMy: "ပန်းသီး 3 လုံး",
+            correctBucketEn: "1 to 10",
+            correctBucketMy: "1 မှ 10",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Moe Moe's Birthday Party",
+      titleMy: "စာဖတ်ခြင်း - မိုးမိုး၏ မွေးနေ့ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Birthday Party",
+        titleMy: "မိုးမိုး၏ မွေးနေ့ပွဲ",
+        passageEn:
+            "Today was Moe Moe's sixth birthday, and the house was full of colorful decorations. Before the party started, Moe Moe's mother handed her a big bag of balloons and asked her to count them one by one before taping them to the wall. Moe Moe touched each balloon and counted slowly: one, two, three... all the way past ten... eleven, twelve, thirteen, fourteen, fifteen, sixteen. There were sixteen balloons in the bag, so Moe Moe picked out the numeral \"16\" and taped it right next to them.\n\nSoon Moe Moe's friend Nay Chi arrived carrying a box of cupcakes. Eight cupcakes were already sitting on the table from earlier. Nay Chi added more cupcakes from her box, and the two girls counted together, starting from where they had left off: nine, ten, eleven, twelve, thirteen, fourteen, fifteen. When they finished, there were fifteen cupcakes in total on the table.\n\nWhen it was time to light the candles, Moe Moe's mother brought out seventeen thin candles for the cake. Moe Moe lined them up in a single row and counted them out loud, one at a time: ...fourteen, fifteen, sixteen, seventeen. \"Seventeen comes right after sixteen, and right before eighteen,\" Moe Moe said proudly, remembering what she had learned at school.\n\nAt the end of the party, every guest was given a paper party hat. Moe Moe's mother counted them out one by one to make sure every guest had one: ...seventeen, eighteen, nineteen, twenty. \"Twenty comes right after nineteen -- it's the biggest number I learned this week!\" Moe Moe explained to Nay Chi. It had been a wonderful day of counting, and Moe Moe now felt sure she could count all the way to twenty without making a single mistake.",
+        passageMy:
+            "ယနေ့သည် မိုးမိုး၏ ခြောက်နှစ်မြောက် မွေးနေ့ဖြစ်ပြီး အိမ်တစ်အိမ်လုံး အလှဆင်မှုများနှင့် ပြည့်နှက်နေသည်။ ပွဲစတင်မီ မိုးမိုး၏ မိခင်က ဘေလွန်းအိတ်ကြီးတစ်အိတ်ကို ပေးအပ်ပြီး နံရံတွင် ကပ်ခြင်းမပြုမီ တစ်ခုချင်းစီ ရေတွက်ခိုင်းခဲ့သည်။ မိုးမိုးသည် ဘေလွန်းတစ်လုံးစီကို ထိကာ ဖြည်းညင်းစွာ ရေတွက်လေသည် - တစ်၊ နှစ်၊ သုံး... ဆယ်ကျော်လာသည့်အထိ... ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး၊ ဆယ့်ခြောက်။ အိတ်ထဲတွင် ဘေလွန်း ဆယ့်ခြောက်လုံး ရှိသဖြင့် မိုးမိုးသည် \"16\" ဂဏန်းကို ရွေးထုတ်ပြီး ၎င်းတို့၏ အနီးတွင် ကပ်ခဲ့သည်။\n\nခဏကြာသောအခါ မိုးမိုး၏ သူငယ်ချင်း နေချည်သည် ကိတ်မုန့်လေးများပါသော သေတ္တာတစ်လုံးကို ယူဆောင်လာခဲ့သည်။ ကိတ်မုန့်လေး ရှစ်ခုမှာ အစောပိုင်းကတည်းက စားပွဲပေါ်တွင် ရှိနှင့်ပြီးဖြစ်သည်။ နေချည်သည် သူမ၏ သေတ္တာမှ ကိတ်မုန့်လေးများကို ထပ်ထည့်ပြီး၊ မိန်းကလေးနှစ်ယောက်တို့ ရပ်ခဲ့သည့်နေရာမှ ဆက်လက်ရေတွက်ကြသည် - ကိုး၊ ဆယ်၊ ဆယ့်တစ်၊ ဆယ့်နှစ်၊ ဆယ့်သုံး၊ ဆယ့်လေး၊ ဆယ့်ငါး။ ရေတွက်ပြီးသောအခါ စားပွဲပေါ်တွင် ကိတ်မုန့်လေး ဆယ့်ငါးခု စုစုပေါင်း ရှိခဲ့သည်။\n\nဖယောင်းတိုင်ထွန်းညှိချိန် ရောက်သောအခါ မိုးမိုး၏ မိခင်က ကိတ်မုန့်အတွက် ပါးလွှာသော ဖယောင်းတိုင် ဆယ့်ခုနစ်တိုင်ကို ထုတ်ယူလာခဲ့သည်။ မိုးမိုးသည် ၎င်းတို့ကို တန်းတစ်တန်းတည်း စီထားပြီး တစ်ခုချင်းစီ အသံထွက်ရေတွက်ခဲ့သည် -- ...ဆယ့်လေး၊ ဆယ့်ငါး၊ ဆယ့်ခြောက်၊ ဆယ့်ခုနစ်။ \"ဆယ့်ခုနစ်ဆိုတာ ဆယ့်ခြောက်ပြီးနောက် ရောက်ပြီး ဆယ့်ရှစ်မတိုင်ခင် ရောက်တာပါ\" ဟု မိုးမိုးက ကျောင်းမှသင်ခဲ့ရသည်များကို သတိရလျက် ဂုဏ်ယူစွာ ပြောခဲ့သည်။\n\nပွဲပြီးဆုံးချိန်တွင် ဧည့်သည်တိုင်းအား စက္ကူပါတီဦးထုပ်တစ်ခုစီ ပေးအပ်ခဲ့သည်။ မိုးမိုး၏ မိခင်သည် ဧည့်သည်တိုင်း ရရှိကြောင်း သေချာစေရန် တစ်ခုချင်းစီ ရေတွက်ခဲ့သည် -- ...ဆယ့်ခုနစ်၊ ဆယ့်ရှစ်၊ ဆယ့်ကိုး၊ နှစ်ဆယ်။ \"နှစ်ဆယ်ဆိုတာ ဆယ့်ကိုးပြီးနောက် ရောက်တာပါ -- ဒါက ဒီအပတ်ကျွန်မ သင်ယူခဲ့တဲ့ အကြီးဆုံးဂဏန်းပါ!\" ဟု မိုးမိုးက နေချည်အား ရှင်းပြခဲ့သည်။ ဒါဟာ ရေတွက်ခြင်း၏ အံ့ဖွယ်သောနေ့တစ်နေ့ ဖြစ်ခဲ့ပြီး၊ မိုးမိုးသည် ယခုအခါ တစ်ခုမှ အမှားမပါဘဲ 20 အထိ ရေတွက်နိုင်ကြောင်း စိတ်ချလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "How many balloons did Moe Moe count in her bag?",
+            questionMy:
+                "မိုးမိုးသည် သူမ၏အိတ်ထဲရှိ ဘေလွန်းအရေအတွက် မည်မျှ ရေတွက်ခဲ့သနည်း။",
+            optionsEn: ["16", "14", "18", "12"],
+            optionsMy: ["16", "14", "18", "12"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it names the exact numeral Moe Moe taped to the wall.",
+              "This is the same kind of counting-to-a-numeral question as Day 1's first quiz question about mangoes.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မိုးမိုးက နံရံတွင် ကပ်ခဲ့သော ဂဏန်းအတိအကျကို ဖော်ပြထားသည်။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်း၏ သရက်သီးများကို ရေတွက်ခြင်းကဲ့သို့ ဂဏန်းနှင့် ကိုက်ညီစေသည့် မေးခွန်းအမျိုးအစား တူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Nay Chi and Moe Moe started counting the cupcakes from eight, already on the table. How many cupcakes were there once they finished counting?",
+            questionMy:
+                "နေချည်နှင့် မိုးမိုးတို့သည် စားပွဲပေါ်ရှိ ကိတ်မုန့်လေး ရှစ်ခုမှ ရေတွက်စတင်ခဲ့သည်။ ရေတွက်ပြီးဆုံးသောအခါ ကိတ်မုန့်လေး စုစုပေါင်း မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["15", "10", "20", "9"],
+            optionsMy: ["15", "10", "20", "9"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- follow the counting sequence starting from eight: nine, ten, eleven... all the way to the final number given.",
+              "This is counting forward from a starting point, just like practicing count-ons in this week's lessons.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရှစ်မှ အစပြု၍ ရေတွက်သည့်အစီအစဉ်ကို လိုက်ကြည့်ပါ - ကိုး၊ ဆယ်၊ ဆယ့်တစ်... နောက်ဆုံးဂဏန်းအထိ။",
+              "၎င်းသည် အစပြုနေရာတစ်ခုမှ ရှေ့ဆက်ရေတွက်ခြင်းဖြစ်ပြီး ဤအပတ်၏ သင်ခန်းစာများတွင် လေ့ကျင့်ခဲ့သည့်အရာပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Moe Moe say about the number seventeen after counting the candles out loud?",
+            questionMy:
+                "ဖယောင်းတိုင်များကို အသံထွက်ရေတွက်ပြီးနောက် ဆယ့်ခုနစ်ဂဏန်းနှင့်ပတ်သက်၍ မိုးမိုးက မည်သို့ ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Seventeen comes right after sixteen, and right before eighteen.",
+              "Seventeen is the smallest number learned this week.",
+              "Seventeen comes right before ten.",
+              "Seventeen is the same as seven.",
+            ],
+            optionsMy: [
+              "ဆယ့်ခုနစ်ဆိုတာ ဆယ့်ခြောက်ပြီးနောက် ရောက်ပြီး ဆယ့်ရှစ်မတိုင်ခင် ရောက်တာဖြစ်သည်။",
+              "ဆယ့်ခုနစ်သည် ဤအပတ်တွင် သင်ယူခဲ့သော အသေးဆုံးဂဏန်း ဖြစ်သည်။",
+              "ဆယ့်ခုနစ်သည် ဆယ်မတိုင်မီ ရောက်လာသည်။",
+              "ဆယ့်ခုနစ်သည် ခုနစ်နှင့် အတူတူဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Moe Moe says this out loud after lining up and counting all the candles in order.",
+              "Recall Day 1's last quiz question about the number that comes right after sixteen -- this is the same idea, said in the story.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မိုးမိုးသည် ဖယောင်းတိုင်များကို တန်းစီပြီး အစီအစဉ်အတိုင်း ရေတွက်ပြီးနောက် ဤသို့ ပြောခဲ့သည်။",
+              "ဆယ့်ခြောက်ပြီးနောက်ရောက်သောဂဏန်းနှင့်ပတ်သက်သော ပထမနေ့ နောက်ဆုံးမေးခွန်းကို သတိရပါ -- ၎င်းသည် ဇာတ်လမ်းထဲတွင် ပြောထားသော အတူတူသောအယူအဆပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Moe Moe describe the number twenty when counting the party hats?",
+            questionMy:
+                "ပါတီဦးထုပ်များကို ရေတွက်စဉ် နှစ်ဆယ်ဂဏန်းကို မိုးမိုးက မည်သို့ ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "Twenty comes right after nineteen -- the biggest number learned this week.",
+              "Twenty comes right before ten.",
+              "Twenty is one more than twenty-one.",
+              "Twenty is the same number as two.",
+            ],
+            optionsMy: [
+              "နှစ်ဆယ်ဆိုတာ ဆယ့်ကိုးပြီးနောက် ရောက်တာဖြစ်ပြီး ဤအပတ်တွင် သင်ယူခဲ့သော အကြီးဆုံးဂဏန်း ဖြစ်သည်။",
+              "နှစ်ဆယ်သည် ဆယ်မတိုင်မီ ရောက်လာသည်။",
+              "နှစ်ဆယ်သည် နှစ်ဆယ့်တစ်ထက် တစ်ခုပိုသည်။",
+              "နှစ်ဆယ်သည် နှစ်နှင့် ဂဏန်းတူညီသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Moe Moe explains it directly to Nay Chi, in almost these exact words.",
+              "Recall Day 2's drag-match pairing for the numeral twenty -- it is defined the same way there, as the last number in the sequence.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မိုးမိုးက နေချည်အား ဤစကားလုံးများအတိုင်းနီးပါး တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ နှစ်ဆယ်ဂဏန်းအတွက် အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ထိုနေရာတွင်လည်း နောက်ဆုံးဂဏန်းအဖြစ် အတူတူပင် အဓိပ္ပာယ်ဖွင့်ဆိုထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Counting to 20",
+      titleMy: "အပတ်စဉ် ၁ ပြန်လည်သုံးသပ်ခြင်း - 20 အထိ ရေတွက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If you count a group of 19 pencils one at a time, which numeral matches?",
+          questionMy:
+              "ခဲတံ 19 ချောင်းကို တစ်ခုချင်း ရေတွက်ပါက မည်သည့်ဂဏန်းက ကိုက်ညီသနည်း။",
+          optionsEn: ["16", "19", "21", "9"],
+          optionsMy: ["16", "19", "21", "9"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 1's first question about counting mangoes, and Moe Moe counting her balloons in the reading passage -- count all the way past ten to find the match.",
+            "Nineteen is one more than eighteen and one less than twenty -- count up carefully: ...seventeen, eighteen, nineteen.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်း သရက်သီးရေတွက်ခြင်းနှင့် စာဖတ်ခြင်းအပိုဒ်တွင် မိုးမိုး၏ ဘေလွန်းရေတွက်မှုကို သတိရပါ -- ကိုက်ညီသောဂဏန်းရှာရန် ဆယ်ကျော်အထိ ရေတွက်ပါ။",
+            "ဆယ့်ကိုးသည် ဆယ့်ရှစ်ထက် တစ်ခုပိုပြီး နှစ်ဆယ်ထက် တစ်ခုနည်းသည် - ဂရုတစိုက် ရေတွက်ကြည့်ပါ...ဆယ့်ခုနစ်၊ ဆယ့်ရှစ်၊ ဆယ့်ကိုး။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which number word breaks the regular pattern -- it is NOT simply the ones-digit word plus \"-teen\"?",
+          questionMy:
+              "မည်သည့် ဂဏန်းစကားလုံးက ပုံမှန်ပုံစံကို ချိုးဖောက်ထားသနည်း -- ၎င်းသည် ရိုးရိုးရှင်းရှင်း ဂဏန်းစကားလုံးပေါင်း \"-teen\" မဟုတ်ပါ။",
+          optionsEn: ["Thirteen", "Fourteen", "Sixteen", "Seventeen"],
+          optionsMy: ["Thirteen", "Fourteen", "Sixteen", "Seventeen"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- fourteen, sixteen and seventeen all follow the regular ones-digit-plus-teen pattern.",
+            "\"Three\" plus \"teen\" would be \"threeteen\", but English actually says a different, irregular word.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- fourteen, sixteen နှင့် seventeen တို့သည် ဂဏန်းတစ်လုံးပေါင်း teen ပုံမှန်ပုံစံကို လိုက်နာကြသည်။",
+            "\"Three\" ပေါင်း \"teen\" ဆိုလျှင် \"threeteen\" ဖြစ်ရမည်၊ သို့သော် အင်္ဂလိပ်စကားက မတူညီသော ပုံမှန်မဟုတ်သည့် စကားလုံးကို အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which number is one less than twenty?",
+          questionMy: "မည်သည့်ဂဏန်းသည် နှစ်ဆယ်ထက် တစ်ခုနည်းသနည်း။",
+          optionsEn: ["18", "19", "21", "10"],
+          optionsMy: ["18", "19", "21", "10"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 2's drag-match for the numeral twenty -- it comes right after nineteen, so one less than twenty is the number right before it.",
+            "Count backward from twenty: twenty, nineteen -- what number did you just say?",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ နှစ်ဆယ်ဂဏန်းကို သတိရပါ -- ၎င်းသည် ဆယ့်ကိုးပြီးနောက် ရောက်လာသည်၊ ထို့ကြောင့် နှစ်ဆယ်ထက် တစ်ခုနည်းသောဂဏန်းသည် ၎င်း၏ ရှေ့ဂဏန်းဖြစ်သည်။",
+            "နှစ်ဆယ်မှ နောက်ပြန်ရေတွက်ကြည့်ပါ - နှစ်ဆယ်၊ ဆယ့်ကိုး -- အခုပြောလိုက်တဲ့ ဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, Nay Chi and Moe Moe started counting cupcakes at eight. What number did they say right after eight?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်တွင် နေချည်နှင့် မိုးမိုးတို့သည် ကိတ်မုန့်လေးများကို ရှစ်မှ အစပြု၍ ရေတွက်ခဲ့ကြသည်။ ရှစ်ပြီးနောက် ဆက်ပြောသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["7", "9", "10", "18"],
+          optionsMy: ["7", "9", "10", "18"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 4's reading passage -- re-read the second paragraph's counting sequence: eight, nine, ten...",
+            "Counting forward always moves up by exactly one number at a time -- what comes right after eight?",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ဒုတိယစာပိုဒ်၏ ရေတွက်မှုအစီအစဉ်ကို ပြန်ဖတ်ပါ - ရှစ်၊ ကိုး၊ ဆယ်...",
+            "ရှေ့ဆက်ရေတွက်ခြင်းသည် အမြဲတမ်း တစ်ခုချင်းစီ တိုးလာသည် -- ရှစ်ပြီးနောက် ဘာဂဏန်း ဆက်လာသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which numeral is the very last number in this week's counting sequence, coming right after nineteen?",
+          questionMy:
+              "မည်သည့်ဂဏန်းသည် ဤအပတ်၏ ရေတွက်မှုအစီအစဉ်တွင် နောက်ဆုံးဂဏန်းဖြစ်ပြီး ဆယ့်ကိုးပြီးနောက် ရောက်လာသနည်း။",
+          optionsEn: ["10", "15", "20", "12"],
+          optionsMy: ["10", "15", "20", "12"],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Day 2's drag-match for the numeral twenty, and Moe Moe's counting of the party hats in the reading passage.",
+            "Count all the way up: ...seventeen, eighteen, nineteen, twenty -- which number did you say last?",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ နှစ်ဆယ်ဂဏန်းနှင့် စာဖတ်ခြင်းအပိုဒ်ရှိ ပါတီဦးထုပ်များကို ရေတွက်သည့် မိုးမိုး၏ ဇာတ်လမ်းကို သတိရပါ။",
+            "အပေါ်သို့ အဆုံးထိ ရေတွက်ကြည့်ပါ - ...ဆယ့်ခုနစ်၊ ဆယ့်ရှစ်၊ ဆယ့်ကိုး၊ နှစ်ဆယ် -- နောက်ဆုံး ပြောလိုက်သောဂဏန်းက ဘာလဲ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek2 = CourseWeekDef(
+  id: "course-year1-mathematics-w2",
+  weekNumber: 2,
+  titleEn: "Ordering Numbers to 20",
+  titleMy: "20 အထိ ဂဏန်းများ အစဉ်လိုက်စီခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w2-d1",
+      dayNumber: 1,
+      titleEn: "Ordering Numbers Quiz",
+      titleMy: "ဂဏန်းအစဉ်လိုက်စီခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Put these numbers in order from smallest to largest: 17, 11, 14.",
+          questionMy:
+              "ဤဂဏန်းများကို အငယ်ဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက် စီပါ - 17, 11, 14။",
+          optionsEn: ["11, 14, 17", "17, 14, 11", "14, 11, 17", "11, 17, 14"],
+          optionsMy: ["11, 14, 17", "17, 14, 11", "14, 11, 17", "11, 17, 14"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1, where you practiced recognizing and naming each numeral from 11 to 20 -- first find the smallest of these three numbers.",
+            "Compare two numbers at a time: is 11 smaller than 14? Is 14 smaller than 17? Line them up in that order.",
+          ],
+          hintsMy: [
+            "Week 1 တွင် 11 မှ 20 အထိ ဂဏန်းတစ်ခုစီကို အသိအမှတ်ပြုပြီး အမည်ခေါ်ရန် လေ့ကျင့်ခဲ့ကြောင်း သတိရပါ -- ဤဂဏန်းသုံးလုံးအနက် အငယ်ဆုံးကို အရင်ရှာပါ။",
+            "ဂဏန်းနှစ်လုံးစီကို နှိုင်းယှဉ်ကြည့်ပါ - 11 သည် 14 ထက် ငယ်သလား။ 14 သည် 17 ထက် ငယ်သလား။ ထိုအစဉ်အတိုင်း စီထားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Put these numbers in order from largest to smallest: 12, 18, 15.",
+          questionMy:
+              "ဤဂဏန်းများကို အကြီးဆုံးမှ အငယ်ဆုံးသို့ အစဉ်လိုက် စီပါ - 12, 18, 15။",
+          optionsEn: ["18, 15, 12", "12, 15, 18", "15, 18, 12", "18, 12, 15"],
+          optionsMy: ["18, 15, 12", "12, 15, 18", "15, 18, 12", "18, 12, 15"],
+          correctIndex: 0,
+          hintsEn: [
+            "This time start with the biggest numeral instead of the smallest -- which of 12, 18 and 15 is the biggest?",
+            "After picking the biggest number, compare what is left over: is 15 bigger or smaller than 12?",
+          ],
+          hintsMy: [
+            "ဤတစ်ကြိမ်တွင် အငယ်ဆုံးအစား အကြီးဆုံးဂဏန်းမှ အစပြုပါ -- 12၊ 18 နှင့် 15 တို့တွင် မည်သည်က အကြီးဆုံးနည်း။",
+            "အကြီးဆုံးဂဏန်းကို ရွေးပြီးနောက် ကျန်ရှိနေသောဂဏန်းများကို နှိုင်းယှဉ်ပါ - 15 သည် 12 ထက် ကြီးသလား ငယ်သလား။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a number line from 1 to 20, which number sits further to the right: 13 or 19?",
+          questionMy:
+              "1 မှ 20 အထိရှိသော ဂဏန်းလိုင်းတွင် 13 နှင့် 19 တို့အနက် မည်သည့်ဂဏန်းက ညာဘက်သို့ ပိုနီးစွာ ရှိသနည်း။",
+          optionsEn: [
+            "19",
+            "13",
+            "They sit in the exact same place",
+            "Neither number belongs on the number line",
+          ],
+          optionsMy: [
+            "19",
+            "13",
+            "နှစ်ခုစလုံး နေရာတူတူ ရှိကြသည်",
+            "ဂဏန်းနှစ်ခုစလုံးသည် ဂဏန်းလိုင်းပေါ်တွင် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "On a number line, numbers get bigger as you move to the right -- which of these two numbers is the bigger one?",
+            "Recall Week 1's numeral recognition -- 19 comes later in the counting sequence than 13, so it sits further along the track.",
+          ],
+          hintsMy: [
+            "ဂဏန်းလိုင်းတွင် ညာဘက်သို့ ရွှေ့လေ ဂဏန်းများ ကြီးလာလေဖြစ်သည် -- ဤဂဏန်းနှစ်ခုအနက် မည်သည်က ပိုကြီးသနည်း။",
+            "Week 1 ၏ ဂဏန်းအသိအမှတ်ပြုခြင်းကို သတိရပါ -- 19 သည် ရေတွက်ခြင်းအစဉ်တွင် 13 ထက် နောက်မှ ရောက်ရှိသောကြောင့် လိုင်းတစ်လျှောက် ပိုဝေးစွာ ရှိနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "16 is _____ than 9.",
+          questionMy: "16 သည် 9 ထက် _____ ဖြစ်သည်။",
+          optionsEn: ["greater", "less", "the same", "smaller"],
+          optionsMy: ["ပိုများ", "ပိုနည်း", "အတူတူ", "ပိုငယ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which number you would say first when counting up from 1: 9 or 16?",
+            "16 comes much later in the counting sequence than 9, so use the word for 'bigger', not 'smaller', to complete this sentence.",
+          ],
+          hintsMy: [
+            "1 မှ အစပြု၍ တက်ရေတွက်သည့်အခါ 9 နှင့် 16 တို့အနက် မည်သည်ကို အရင်ပြောရမည်ကို စဉ်းစားကြည့်ပါ။",
+            "16 သည် ရေတွက်ခြင်းအစဉ်တွင် 9 ထက် အလွန်နောက်မှ ရောက်ရှိသောကြောင့် ဤဝါကျကို ဖြည့်ရန် 'ငယ်သော' စကားလုံးအစား 'ကြီးသော' စကားလုံးကို သုံးပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Number Line Words",
+      titleMy: "ဂဏန်းလိုင်းဆိုင်ရာ စကားလုံးများ ကိုက်ညီအောင် တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w2-dm-1",
+          termEn: "Before",
+          termMy: "ရှေ့ကလာသောဂဏန်း (Before)",
+          matchEn:
+              "The number that comes right before 16 in the counting sequence -- that number is 15.",
+          matchMy:
+              "ရေတွက်ခြင်းအစဉ်တွင် 16 ၏ အတိအကျ ရှေ့တွင်ရောက်ရှိသောဂဏန်း -- ထိုဂဏန်းမှာ 15 ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w2-dm-2",
+          termEn: "After",
+          termMy: "နောက်ကလာသောဂဏန်း (After)",
+          matchEn:
+              "The number that comes right after 16 in the counting sequence -- that number is 17.",
+          matchMy:
+              "ရေတွက်ခြင်းအစဉ်တွင် 16 ၏ အတိအကျ နောက်တွင်ရောက်ရှိသောဂဏန်း -- ထိုဂဏန်းမှာ 17 ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w2-dm-3",
+          termEn: "Between",
+          termMy: "အကြားကဂဏန်း (Between)",
+          matchEn:
+              "The number that sits between 15 and 17 -- that number is 16.",
+          matchMy:
+              "15 နှင့် 17 တို့၏ အကြားတွင်ရှိသောဂဏန်း -- ထိုဂဏန်းမှာ 16 ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w2-dm-4",
+          termEn: "Number Line",
+          termMy: "ဂဏန်းလိုင်း (Number Line)",
+          matchEn:
+              "A straight track marked with numbers in order, smallest on the left and largest on the right -- used to compare where numbers sit.",
+          matchMy:
+              "အငယ်ဆုံးကို ဘယ်ဘက်တွင်၊ အကြီးဆုံးကို ညာဘက်တွင် ထားလျက် ဂဏန်းများကို အစဉ်လိုက် အမှတ်အသားပြုထားသော ဖြောင့်တန်းသောလိုင်း -- ဂဏန်းများ၏ တည်နေရာကို နှိုင်းယှဉ်ရန် အသုံးပြုသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w2-dm-5",
+          termEn: "Greater Than",
+          termMy: "ထက်ပိုများသော (Greater Than)",
+          matchEn:
+              "Means a number is bigger, or more -- for example, 18 is greater than 12.",
+          matchMy:
+              "ဂဏန်းတစ်ခုသည် ပိုကြီးသည် (သို့) ပိုများသည်ဟု ဆိုလိုသည် -- ဥပမာ 18 သည် 12 ထက် ပိုများသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w2-dm-6",
+          termEn: "Less Than",
+          termMy: "ထက်ပိုနည်းသော (Less Than)",
+          matchEn:
+              "Means a number is smaller, or fewer -- for example, 12 is less than 18.",
+          matchMy:
+              "ဂဏန်းတစ်ခုသည် ပိုငယ်သည် (သို့) ပိုနည်းသည်ဟု ဆိုလိုသည် -- ဥပမာ 12 သည် 18 ထက် ပိုနည်းသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Less Than 15 or Greater Than 15?",
+      titleMy: "စီစစ်ကြမည် - 15 ထက် နည်းသလား၊ 15 ထက် များသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Less Than 15", "Greater Than 15"],
+        bucketsMy: ["15 ထက် နည်းသည်", "15 ထက် များသည်"],
+        items: [
+          SortingItem(
+            id: "y1math-w2-sort-1",
+            labelEn: "11",
+            labelMy: "11",
+            correctBucketEn: "Less Than 15",
+            correctBucketMy: "15 ထက် နည်းသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-2",
+            labelEn: "16",
+            labelMy: "16",
+            correctBucketEn: "Greater Than 15",
+            correctBucketMy: "15 ထက် များသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-3",
+            labelEn: "12",
+            labelMy: "12",
+            correctBucketEn: "Less Than 15",
+            correctBucketMy: "15 ထက် နည်းသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-4",
+            labelEn: "18",
+            labelMy: "18",
+            correctBucketEn: "Greater Than 15",
+            correctBucketMy: "15 ထက် များသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-5",
+            labelEn: "13",
+            labelMy: "13",
+            correctBucketEn: "Less Than 15",
+            correctBucketMy: "15 ထက် နည်းသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-6",
+            labelEn: "19",
+            labelMy: "19",
+            correctBucketEn: "Greater Than 15",
+            correctBucketMy: "15 ထက် များသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-7",
+            labelEn: "14",
+            labelMy: "14",
+            correctBucketEn: "Less Than 15",
+            correctBucketMy: "15 ထက် နည်းသည်",
+          ),
+          SortingItem(
+            id: "y1math-w2-sort-8",
+            labelEn: "20",
+            labelMy: "20",
+            correctBucketEn: "Greater Than 15",
+            correctBucketMy: "15 ထက် များသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Wut Yee's Sticker Collection",
+      titleMy: "စာဖတ်ခြင်း - ဝတ်ရည်၏ စတစ်ကာစုဆောင်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Wut Yee's Sticker Collection",
+        titleMy: "ဝတ်ရည်၏ စတစ်ကာစုဆောင်းမှု",
+        passageEn:
+            "Wut Yee loved collecting number stickers, and by Friday she had earned quite a few: 12, 19, 11, and 16. Her teacher asked the class to line up their stickers in order, from the smallest number to the largest number, before sticking them onto a poster. Wut Yee looked carefully at her four stickers and thought back to Monday's lesson on comparing numbers. She placed 11 first, then 12, then 16, and finally 19 -- smallest to largest, just like Week 1's numeral cards taught her to recognize each one correctly first.\n\nNext, her teacher pinned a long number line on the wall, stretching from 1 all the way to 20. Wut Yee found her sticker numbers on the line one by one. She noticed that 19 sat almost at the very end of the line, far to the right, while 11 sat much closer to the middle. \"The further right a number is,\" her teacher explained, \"the greater it is.\"\n\nWut Yee's friend Aye Aye had stickers numbered 15 and 17. Wut Yee remembered the number line and said, \"16 comes right after 15, and right before 17 -- so 16 sits exactly between them!\" Aye Aye clapped, impressed. Wut Yee then compared her own sticker 12 with Aye Aye's 15, and said proudly, \"15 is greater than 12, because it sits further along the number line.\"\n\nBy the end of the lesson, Wut Yee's poster showed all the stickers in perfect order, and she could point to any number on the wall's number line and say confidently whether it came before or after any other. Her teacher said Wut Yee had truly mastered ordering numbers to 20.",
+        passageMy:
+            "ဝတ်ရည်သည် ဂဏန်းစတစ်ကာများ စုဆောင်းရန် အလွန်ကြိုက်နှစ်သက်ပြီး၊ သောကြာနေ့ရောက်သောအခါ သူမ ရရှိထားသော ဂဏန်းများမှာ 12၊ 19၊ 11 နှင့် 16 ဖြစ်ခဲ့သည်။ သူမ၏ဆရာမက ကျောင်းသားများအား ၎င်းတို့၏ စတစ်ကာများကို ပိုစတာပေါ်တွင် ကပ်ခြင်းမပြုမီ အငယ်ဆုံးဂဏန်းမှ အကြီးဆုံးဂဏန်းအထိ အစဉ်လိုက် စီရန် ပြောခဲ့သည်။ ဝတ်ရည်သည် သူမ၏ ဂဏန်းလေးလုံးကို သေချာကြည့်ပြီး တနင်္လာနေ့က ဂဏန်းနှိုင်းယှဉ်ခြင်းသင်ခန်းစာကို သတိရခဲ့သည်။ သူမသည် 11 ကို ရှေးဦးစွာ၊ ထို့နောက် 12၊ ထို့နောက် 16၊ နောက်ဆုံး 19 ကို ချထားခဲ့သည် -- အငယ်ဆုံးမှ အကြီးဆုံးသို့၊ Week 1 ၏ ဂဏန်းကတ်များက ဂဏန်းတစ်ခုစီကို မှန်ကန်စွာ အရင်ခွဲခြားသိမြင်ရန် သင်ပေးခဲ့သကဲ့သို့ပင်။\n\nထို့နောက် ဆရာမသည် 1 မှ 20 အထိ ရှည်လျားစွာ ဆွဲထားသော ဂဏန်းလိုင်းတစ်ခုကို နံရံတွင် ချိတ်ဆွဲခဲ့သည်။ ဝတ်ရည်သည် သူမ၏ စတစ်ကာဂဏန်းများကို လိုင်းပေါ်တွင် တစ်ခုချင်း ရှာတွေ့ခဲ့သည်။ 19 သည် လိုင်း၏ အဆုံးဆီ ညာဘက်တွင် ကပ်လျက် ရှိနေသည်ကို၊ 11 မှာမူ အလယ်ဘက်နှင့် ပိုနီးစပ်နေသည်ကို သူမ သတိထားမိသည်။ \"ဂဏန်းတစ်ခု ညာဘက်သို့ ပိုနီးလေ ၎င်း ပိုကြီးလေဖြစ်သည်\" ဟု ဆရာမက ရှင်းပြခဲ့သည်။\n\nဝတ်ရည်၏ သူငယ်ချင်း အေးအေးတွင် ဂဏန်း 15 နှင့် 17 ပါသော စတစ်ကာများ ရှိသည်။ ဝတ်ရည်သည် ဂဏန်းလိုင်းကို သတိရလျက် \"16 သည် 15 ၏ နောက်တွင် တိုက်ရိုက်လာပြီး 17 ၏ ရှေ့တွင် တိုက်ရိုက်ရှိသည် -- ထို့ကြောင့် 16 သည် ၎င်းတို့နှစ်ခု၏ အကြားတွင် အတိအကျ ရှိနေသည်!\" ဟု ပြောခဲ့သည်။ အေးအေးက အံ့သြစွာ လက်ခုပ်တီးခဲ့သည်။ ဝတ်ရည်သည် ထို့နောက် သူမ၏ဂဏန်း 12 ကို အေးအေး၏ 15 နှင့် နှိုင်းယှဉ်ပြီး \"15 သည် 12 ထက် ပိုများသည်၊ အကြောင်းမှာ ၎င်းသည် ဂဏန်းလိုင်းတွင် ပိုဝေးစွာ ရှိနေသောကြောင့်ဖြစ်သည်\" ဟု ဂုဏ်ယူစွာ ပြောခဲ့သည်။\n\nသင်ခန်းစာ အဆုံးတွင် ဝတ်ရည်၏ ပိုစတာသည် စတစ်ကာအားလုံးကို စနစ်တကျ အစဉ်လိုက် ပြသနိုင်ခဲ့ပြီး၊ နံရံရှိ ဂဏန်းလိုင်းပေါ်ရှိ မည်သည့်ဂဏန်းကိုမဆို ထိုးပြကာ အခြားဂဏန်းတစ်ခု၏ ရှေ့တွင်လား နောက်တွင်လား ယုံကြည်စွာ ပြောပြနိုင်ခဲ့သည်။ ဆရာမက ဝတ်ရည်သည် 20 အထိ ဂဏန်းများ အစဉ်လိုက်စီခြင်းကို အမှန်တကယ် ကျွမ်းကျင်စွာ တတ်မြောက်သွားပြီဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "In what order did Wut Yee place her four stickers -- 12, 19, 11, and 16?",
+            questionMy:
+                "ဝတ်ရည်သည် သူမ၏ စတစ်ကာလေးခု -- 12၊ 19၊ 11 နှင့် 16 -- ကို မည်သည့်အစဉ်ဖြင့် ချထားခဲ့သနည်း။",
+            optionsEn: [
+              "11, 12, 16, 19",
+              "19, 16, 12, 11",
+              "12, 19, 11, 16",
+              "16, 11, 19, 12",
+            ],
+            optionsMy: [
+              "11, 12, 16, 19",
+              "19, 16, 12, 11",
+              "12, 19, 11, 16",
+              "16, 11, 19, 12",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- Wut Yee placed her stickers from the smallest number to the largest number.",
+              "This is the same smallest-to-largest ordering skill practiced in Day 1's first quiz question.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဝတ်ရည်သည် သူမ၏ စတစ်ကာများကို အငယ်ဆုံးဂဏန်းမှ အကြီးဆုံးဂဏန်းသို့ ချထားခဲ့သည်။",
+              "၎င်းသည် Day 1 ၏ ပထမမေးခွန်းတွင် လေ့ကျင့်ခဲ့သော အငယ်ဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက်စီနည်းတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Wut Yee's teacher, what does it mean when a number sits further to the right on the number line?",
+            questionMy:
+                "ဝတ်ရည်၏ ဆရာမ၏ အဆိုအရ ဂဏန်းတစ်ခုသည် ဂဏန်းလိုင်းပေါ်တွင် ညာဘက်သို့ ပိုနီးစွာ ရှိနေခြင်းသည် အဘယ်ကို ဆိုလိုသနည်း။",
+            optionsEn: [
+              "It is greater.",
+              "It is less.",
+              "It is exactly the same as every other number.",
+              "It does not belong on the number line.",
+            ],
+            optionsMy: [
+              "ပိုကြီးသည်။",
+              "ပိုငယ်သည်။",
+              "အခြားဂဏန်းအားလုံးနှင့် အတိအကျ တူညီသည်။",
+              "ဂဏန်းလိုင်းပေါ်တွင် မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, where the teacher explains this rule directly.",
+              "Recall Day 1's third quiz question about 13 and 19 on the number line -- the same rule applies here.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဆရာမက ဤစည်းမျဉ်းကို တိုက်ရိုက် ရှင်းပြခဲ့သည်။",
+              "Day 1 ၏ တတိယမေးခွန်း 13 နှင့် 19 ကို ဂဏန်းလိုင်းပေါ်တွင် နှိုင်းယှဉ်ခဲ့သည်ကို သတိရပါ -- ဤနေရာတွင်လည်း စည်းမျဉ်းချင်းတူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "Why did Wut Yee say that 16 sits between 15 and 17?",
+            questionMy:
+                "16 သည် 15 နှင့် 17 တို့၏ အကြားတွင် ရှိသည်ဟု ဝတ်ရည် အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Because 16 comes right after 15 and right before 17.",
+              "Because 16 is greater than both 15 and 17.",
+              "Because 16 is less than both 15 and 17.",
+              "Because 16 has nothing to do with 15 or 17.",
+            ],
+            optionsMy: [
+              "16 သည် 15 ၏ နောက်တွင် တိုက်ရိုက်လာပြီး 17 ၏ ရှေ့တွင် တိုက်ရိုက်ရှိသောကြောင့်။",
+              "16 သည် 15 နှင့် 17 နှစ်ခုစလုံးထက် ပိုကြီးသောကြောင့်။",
+              "16 သည် 15 နှင့် 17 နှစ်ခုစလုံးထက် ပိုငယ်သောကြောင့်။",
+              "16 သည် 15 (သို့) 17 နှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, where Wut Yee explains her reasoning to Aye Aye.",
+              "Recall Day 2's drag-match for the word 'Between' -- a number between two others comes right after one and right before the other.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဝတ်ရည်သည် အေးအေးအား သူမ၏ ကျိုးကြောင်းချက်ကို ရှင်းပြခဲ့သည်။",
+              "Day 2 ၏ 'Between' စကားလုံးအတွက် တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဂဏန်းနှစ်ခုအကြားရှိသောဂဏန်းသည် တစ်ခု၏ နောက်တွင်၊ အခြားတစ်ခု၏ ရှေ့တွင် တိုက်ရိုက်ရောက်ရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "How did Wut Yee know that 15 is greater than 12?",
+            questionMy:
+                "15 သည် 12 ထက် ပိုများကြောင်း ဝတ်ရည် မည်သို့ သိခဲ့သနည်း။",
+            optionsEn: [
+              "Because 15 sits further along the number line than 12.",
+              "Because 15 comes before 12 when counting.",
+              "Because 15 and 12 are the same size.",
+              "Because 12 is not a real number.",
+            ],
+            optionsMy: [
+              "15 သည် ဂဏန်းလိုင်းတွင် 12 ထက် ပိုဝေးစွာ ရှိနေသောကြောင့်။",
+              "ရေတွက်သည့်အခါ 15 သည် 12 ၏ ရှေ့တွင် လာသောကြောင့်။",
+              "15 နှင့် 12 တို့သည် အရွယ်အစားတူညီသောကြောင့်။",
+              "12 သည် ဂဏန်းအစစ်အမှန် မဟုတ်သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, where Wut Yee compares her sticker to Aye Aye's.",
+              "Recall Day 2's drag-match definition for 'Greater Than' -- it links directly to position on the number line.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဝတ်ရည်သည် သူမ၏ စတစ်ကာကို အေးအေး၏ စတစ်ကာနှင့် နှိုင်းယှဉ်ခဲ့သည်။",
+              "Day 2 ၏ 'Greater Than' အနက်ဖွင့်ချက်ကို သတိရပါ -- ၎င်းသည် ဂဏန်းလိုင်းပေါ်ရှိ တည်နေရာနှင့် တိုက်ရိုက် ဆက်စပ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Ordering Numbers to 20",
+      titleMy:
+          "အပတ်စဉ် ၂ ပြန်လည်သုံးသပ်ခြင်း - 20 အထိ ဂဏန်းများ အစဉ်လိုက်စီခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Put these numbers in order from smallest to largest: 20, 13, 18.",
+          questionMy:
+              "ဤဂဏန်းများကို အငယ်ဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက် စီပါ - 20, 13, 18။",
+          optionsEn: ["13, 18, 20", "20, 18, 13", "18, 13, 20", "13, 20, 18"],
+          optionsMy: ["13, 18, 20", "20, 18, 13", "18, 13, 20", "13, 20, 18"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- start by finding the smallest of the three numbers.",
+            "This is the same smallest-to-largest ordering Wut Yee used for her stickers on Day 4.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်းကို သတိရပါ -- ဂဏန်းသုံးလုံးအနက် အငယ်ဆုံးကို အရင်ရှာပါ။",
+            "၎င်းသည် Day 4 တွင် ဝတ်ရည် သူမ၏ စတစ်ကာများကို စီစဉ်ရာတွင် အသုံးပြုခဲ့သော အငယ်ဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက်စီနည်းတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What number comes right after 16?",
+          questionMy: "16 ၏ အတိအကျ နောက်တွင် ရောက်ရှိသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["17", "15", "18", "16"],
+          optionsMy: ["17", "15", "18", "16"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match for the word 'After' -- count one step forward from 16.",
+            "This is the exact example from Wut Yee's reading passage on Day 4.",
+          ],
+          hintsMy: [
+            "Day 2 ၏ 'After' စကားလုံးအတွက် တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- 16 မှ တစ်ဆင့်ရှေ့သို့ ရေတွက်ကြည့်ပါ။",
+            "၎င်းသည် Day 4 ၏ ဖတ်စာပိုဒ်ထဲမှ ဝတ်ရည်ပေးခဲ့သော ဥပမာအတိအကျပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What number comes right before 20?",
+          questionMy: "20 ၏ အတိအကျ ရှေ့တွင် ရောက်ရှိသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["19", "18", "20", "21"],
+          optionsMy: ["19", "18", "20", "21"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match for the word 'Before' -- count one step backward from 20.",
+            "This connects to Day 1's number line question, where 19 sat almost at the very end of the line, just before 20.",
+          ],
+          hintsMy: [
+            "Day 2 ၏ 'Before' စကားလုံးအတွက် တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- 20 မှ တစ်ဆင့်နောက်သို့ ရေတွက်ကြည့်ပါ။",
+            "၎င်းသည် Day 1 ၏ ဂဏန်းလိုင်းမေးခွန်းနှင့် ဆက်စပ်သည် -- 19 သည် လိုင်း၏ အဆုံးအနီးတွင် 20 ၏ အတိအကျ ရှေ့တွင် ရှိနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which number sits between 14 and 16?",
+          questionMy: "14 နှင့် 16 တို့၏ အကြားတွင် ရှိသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["15", "17", "13", "16"],
+          optionsMy: ["15", "17", "13", "16"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match for the word 'Between', and how Wut Yee used it for 16 sitting between 15 and 17 in the reading passage.",
+            "The number between two others comes right after the smaller one and right before the larger one.",
+          ],
+          hintsMy: [
+            "Day 2 ၏ 'Between' စကားလုံးအတွက် တွဲချိတ်လေ့ကျင့်ခန်းနှင့် ဖတ်စာပိုဒ်တွင် 16 သည် 15 နှင့် 17 ၏ အကြားရှိကြောင်း ဝတ်ရည် ရှင်းပြပုံကို သတိရပါ။",
+            "ဂဏန်းနှစ်ခုအကြားရှိသောဂဏန်းသည် ပိုငယ်သောဂဏန်း၏ အတိအကျ နောက်တွင်၊ ပိုကြီးသောဂဏန်း၏ အတိအကျ ရှေ့တွင် ရောက်ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "18 is _____ than 11.",
+          questionMy: "18 သည် 11 ထက် _____ ဖြစ်သည်။",
+          optionsEn: ["greater", "less", "the same", "smaller"],
+          optionsMy: ["ပိုများ", "ပိုနည်း", "အတူတူ", "ပိုငယ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Day 2's drag-match definition for 'Greater Than'.",
+            "18 comes later in the counting sequence than 11, and sits further along the number line, so use the word for 'bigger' here.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ စတုတ္ထမေးခွန်းနှင့် Day 2 ၏ 'Greater Than' အနက်ဖွင့်ချက်ကို သတိရပါ။",
+            "18 သည် ရေတွက်ခြင်းအစဉ်တွင် 11 ထက် နောက်မှ ရောက်ရှိပြီး ဂဏန်းလိုင်းတွင် ပိုဝေးစွာ ရှိနေသောကြောင့် ဤနေရာတွင် 'ကြီးသော' စကားလုံးကို သုံးပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek3 = CourseWeekDef(
+  id: "course-year1-mathematics-w3",
+  weekNumber: 3,
+  titleEn: "One More and One Less",
+  titleMy: "တစ်ခုပိုနှင့် တစ်ခုလျော့",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w3-d1",
+      dayNumber: 1,
+      titleEn: "One More Quiz",
+      titleMy: "တစ်ခုပို ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What number is one more than 7?",
+          questionMy: "7 ထက် တစ်ခုပိုသော နံပါတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["6", "8", "9", "5"],
+          optionsMy: ["6", "8", "9", "5"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Week 1's forward counting -- one more than a number is simply the very next number you say when counting forward.",
+            "Count out loud from 1: 1, 2, 3, 4, 5, 6, 7... what comes right after 7?",
+          ],
+          hintsMy: [
+            "Week 1 ၏ အရှေ့ရေတွက်ခြင်းကို သတိရပါ -- နံပါတ်တစ်ခုထက် တစ်ခုပိုဆိုသည်မှာ အရှေ့ရေတွက်သည့်အခါ ဆက်ပြောရမည့် နံပါတ်ပင် ဖြစ်သည်။",
+            "1 မှ အသံထွက်၍ ရေတွက်ကြည့်ပါ - 1၊ 2၊ 3၊ 4၊ 5၊ 6၊ 7... 7 ပြီးနောက် ဘာလာမလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What number is one more than 10?",
+          questionMy: "10 ထက် တစ်ခုပိုသော နံပါတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["9", "11", "20", "12"],
+          optionsMy: ["9", "11", "20", "12"],
+          correctIndex: 1,
+          hintsEn: [
+            "Remember Week 1's \"ten and some more\" idea -- after 10 comes 11, the very first of the teen numbers.",
+            "Count forward from 10: 10, then the next number said out loud is...",
+          ],
+          hintsMy: [
+            "Week 1 ၏ \"ဆယ်နှင့်ထပ်ပို\" အယူအဆကို သတိရပါ -- 10 ပြီးနောက် 11 လာပြီး ၎င်းသည် ဆယ့်ကျော်နံပါတ်များ၏ ပထမဆုံးဖြစ်သည်။",
+            "10 မှ အရှေ့ရေတွက်ကြည့်ပါ - 10 ပြီးနောက် အသံထွက်၍ ပြောရမည့် နောက်နံပါတ်မှာ...",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What number is one more than 19?",
+          questionMy: "19 ထက် တစ်ခုပိုသော နံပါတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["18", "20", "21", "10"],
+          optionsMy: ["18", "20", "21", "10"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Week 2's number track -- 20 sits right at the end, one step after 19.",
+            "Count forward: 17, 18, 19... what comes right after 19?",
+          ],
+          hintsMy: [
+            "Week 2 ၏ နံပါတ်လမ်းကြောင်းကို သတိရပါ -- 20 သည် အဆုံးတွင်ရှိပြီး 19 ပြီးနောက် တစ်လှမ်းသာ ဖြစ်သည်။",
+            "အရှေ့ရေတွက်ကြည့်ပါ - 17၊ 18၊ 19... 19 ပြီးနောက် ဘာလာမလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What number is one more than 14?",
+          questionMy: "14 ထက် တစ်ခုပိုသော နံပါတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["13", "15", "16", "4"],
+          optionsMy: ["13", "15", "16", "4"],
+          correctIndex: 1,
+          hintsEn: [
+            "Think of Week 2's number line -- one more means taking one step to the right.",
+            "Count forward from 14: the very next number said out loud is...",
+          ],
+          hintsMy: [
+            "Week 2 ၏ နံပါတ်လိုင်းကို တွေးကြည့်ပါ -- တစ်ခုပိုဆိုသည်မှာ ညာဘက်သို့ တစ်လှမ်းသွားခြင်း ဖြစ်သည်။",
+            "14 မှ အရှေ့ရေတွက်ကြည့်ပါ - အသံထွက်၍ ပြောရမည့် နောက်ဆုံးနံပါတ်မှာ...",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: One Less Than",
+      titleMy: "တစ်ခုလျော့ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w3-dm-1",
+          termEn: "One less than 6",
+          termMy: "6 ထက် တစ်ခုလျော့ (One less than 6)",
+          matchEn:
+              "5 -- the number that comes right before 6 when counting backward.",
+          matchMy:
+              "5 -- 6 ကို နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 6 ၏ ရှေ့တွင်ရှိသော နံပါတ် ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w3-dm-2",
+          termEn: "One less than 11",
+          termMy: "11 ထက် တစ်ခုလျော့ (One less than 11)",
+          matchEn: "10 -- right before 11, just below the first teen number.",
+          matchMy:
+              "10 -- 11 ၏ ရှေ့တွင်ရှိပြီး ပထမဆုံးဆယ့်ကျော်နံပါတ်၏ အောက်တွင် ရှိသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w3-dm-3",
+          termEn: "One less than 20",
+          termMy: "20 ထက် တစ်ခုလျော့ (One less than 20)",
+          matchEn: "19 -- one step back from 20 on the number track.",
+          matchMy:
+              "19 -- 20 မှ နံပါတ်လမ်းကြောင်းပေါ်တွင် တစ်လှမ်း နောက်ပြန် ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w3-dm-4",
+          termEn: "One less than 15",
+          termMy: "15 ထက် တစ်ခုလျော့ (One less than 15)",
+          matchEn: "14 -- the number just before 15 when counting backward.",
+          matchMy:
+              "14 -- 15 ကို နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 15 ၏ ရှေ့တွင်ရှိသော နံပါတ် ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w3-dm-5",
+          termEn: "One less than 9",
+          termMy: "9 ထက် တစ်ခုလျော့ (One less than 9)",
+          matchEn: "8 -- one step back from 9 on the number track.",
+          matchMy:
+              "8 -- 9 မှ နံပါတ်လမ်းကြောင်းပေါ်တွင် တစ်လှမ်း နောက်ပြန် ဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w3-dm-6",
+          termEn: "One less than 17",
+          termMy: "17 ထက် တစ်ခုလျော့ (One less than 17)",
+          matchEn: "16 -- the number right before 17 when counting backward.",
+          matchMy:
+              "16 -- 17 ကို နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 17 ၏ ရှေ့တွင်ရှိသော နံပါတ် ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: One More or One Less?",
+      titleMy: "စီစစ်ကြမည် - တစ်ခုပိုလား၊ တစ်ခုလျော့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["One More", "One Less"],
+        bucketsMy: ["တစ်ခုပို", "တစ်ခုလျော့"],
+        items: [
+          SortingItem(
+            id: "y1math-w3-sort-1",
+            labelEn: "From 8 to 9",
+            labelMy: "8 မှ 9 သို့",
+            correctBucketEn: "One More",
+            correctBucketMy: "တစ်ခုပို",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-2",
+            labelEn: "From 20 to 19",
+            labelMy: "20 မှ 19 သို့",
+            correctBucketEn: "One Less",
+            correctBucketMy: "တစ်ခုလျော့",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-3",
+            labelEn: "From 13 to 14",
+            labelMy: "13 မှ 14 သို့",
+            correctBucketEn: "One More",
+            correctBucketMy: "တစ်ခုပို",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-4",
+            labelEn: "From 11 to 10",
+            labelMy: "11 မှ 10 သို့",
+            correctBucketEn: "One Less",
+            correctBucketMy: "တစ်ခုလျော့",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-5",
+            labelEn: "From 19 to 20",
+            labelMy: "19 မှ 20 သို့",
+            correctBucketEn: "One More",
+            correctBucketMy: "တစ်ခုပို",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-6",
+            labelEn: "From 16 to 15",
+            labelMy: "16 မှ 15 သို့",
+            correctBucketEn: "One Less",
+            correctBucketMy: "တစ်ခုလျော့",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-7",
+            labelEn: "From 9 to 10",
+            labelMy: "9 မှ 10 သို့",
+            correctBucketEn: "One More",
+            correctBucketMy: "တစ်ခုပို",
+          ),
+          SortingItem(
+            id: "y1math-w3-sort-8",
+            labelEn: "From 12 to 11",
+            labelMy: "12 မှ 11 သို့",
+            correctBucketEn: "One Less",
+            correctBucketMy: "တစ်ခုလျော့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Egg Basket",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ကြက်ဥတောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Egg Basket",
+        titleMy: "စုစု၏ ကြက်ဥတောင်း",
+        passageEn:
+            "Su Su went to the morning market with her grandmother to buy eggs for breakfast. The egg seller had already placed 14 eggs in their basket. \"Wait,\" said Su Su's grandmother, \"let's get one more egg, so there's enough for everyone.\" Su Su counted carefully: 14, then one more egg made 15. She placed it gently into the basket.\n\nOn the way home, Su Su carried the basket herself. She tripped on a small stone, and one egg cracked! Now instead of 15 eggs, they had one less. Su Su counted again: 15, take away one, leaves 14 whole eggs.\n\nAt home, Su Su's grandmother showed her a number track pinned to the kitchen wall, numbered from 1 to 20. \"Look,\" she said, \"one more means you step one place to the right, like 14 to 15. One less means you step one place to the left, like 15 back to 14.\" Su Su smiled, tracing her finger along the number track from 14 to 15 and back again.\n\nThat evening, Su Su practiced with her little brother. \"What is one more than 19?\" she asked him. He thought about the number track and said, \"20!\" proudly. Then Su Su asked, \"What is one less than 11?\" Her little brother counted back carefully and said, \"10!\" Su Su clapped -- her little brother had learned one more and one less, just like she had.",
+        passageMy:
+            "စုစုသည် မနက်ဈေးသို့ သူ့အဖွားနှင့်အတူ နံနက်စာအတွက် ကြက်ဥများဝယ်ရန် သွားခဲ့သည်။ ကြက်ဥရောင်းသူက သူတို့တောင်းထဲသို့ ကြက်ဥ 14 လုံး ထည့်ပေးထားပြီးဖြစ်သည်။ \"စောင့်ဦး\" ဟု စုစု၏အဖွားက ပြောသည်၊ \"အားလုံးအတွက် လုံလောက်အောင် ကြက်ဥတစ်လုံး ထပ်ယူကြရအောင်။\" စုစုသည် သေချာစွာ ရေတွက်သည် - 14၊ ထို့နောက် ကြက်ဥတစ်လုံး ထပ်လာသဖြင့် 15 ဖြစ်သွားသည်။ သူမသည် ၎င်းကို တောင်းထဲသို့ ဖြည်းညှင်းစွာ ထည့်ခဲ့သည်။\n\nအိမ်ပြန်လမ်းတွင် စုစုက တောင်းကို ကိုယ်တိုင်သယ်ခဲ့သည်။ သူမသည် ကျောက်ခဲငယ်တစ်လုံးကို ခြေချော်မိသဖြင့် ကြက်ဥတစ်လုံး ကွဲသွားခဲ့သည်! ယခုအခါ 15 လုံးအစား တစ်လုံးလျော့သွားပြီ။ စုစုသည် ထပ်၍ ရေတွက်သည် - 15၊ တစ်လုံးနုတ်လိုက်လျှင် ကျန်ရှိသော အကောင်းစားကြက်ဥမှာ 14 လုံးဖြစ်သည်။\n\nအိမ်တွင် စုစု၏အဖွားက မီးဖိုချောင်နံရံတွင် တပ်ဆင်ထားသော 1 မှ 20 အထိ နံပါတ်များပါသည့် နံပါတ်လမ်းကြောင်းတစ်ခုကို ပြသခဲ့သည်။ \"ကြည့်ပါ\" ဟု သူမက ပြောသည်၊ \"14 မှ 15 ကဲ့သို့ တစ်ခုပိုဆိုသည်မှာ ညာဘက်သို့ တစ်လှမ်းသွားခြင်းပင် ဖြစ်သည်။ 15 မှ 14 သို့ ပြန်သွားသကဲ့သို့ တစ်ခုလျော့ဆိုသည်မှာ ဘယ်ဘက်သို့ တစ်လှမ်းသွားခြင်းပင် ဖြစ်သည်။\" စုစုသည် ပြုံးလျက် မိမိလက်ချောင်းဖြင့် နံပါတ်လမ်းကြောင်းပေါ်ရှိ 14 မှ 15 သို့ ပြီးနောက် ပြန်၍ ထိလိုက်ခဲ့သည်။\n\nထိုနေ့ ညနေခင်း၊ စုစုသည် သူ့ညီလေးနှင့်အတူ လေ့ကျင့်ခဲ့သည်။ \"19 ထက် တစ်ခုပိုသည်မှာ ဘယ်နံပါတ်လဲ\" ဟု သူမက မေးခဲ့သည်။ ညီလေးက နံပါတ်လမ်းကြောင်းကို စဉ်းစားပြီး ဂုဏ်ယူစွာ \"20\" ဟု ပြောခဲ့သည်။ ထို့နောက် စုစုက \"11 ထက် တစ်ခုလျော့သည်မှာ ဘယ်နံပါတ်လဲ\" ဟု မေးခဲ့သည်။ သူ့ညီလေးက သေချာစွာ နောက်ကြောင်းပြန်ရေတွက်ပြီး \"10\" ဟု ပြောခဲ့သည်။ စုစုသည် လက်ခုပ်တီးခဲ့သည် -- သူ့ညီလေးသည် သူမကဲ့သို့ပင် တစ်ခုပိုနှင့် တစ်ခုလျော့ကို သင်ယူပြီးပြီ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many eggs did the egg seller originally put in the basket?",
+            questionMy:
+                "ကြက်ဥရောင်းသူသည် တောင်းထဲသို့ မူလက ကြက်ဥ မည်မျှ ထည့်ပေးခဲ့သနည်း။",
+            optionsEn: ["13", "14", "15", "12"],
+            optionsMy: ["13", "14", "15", "12"],
+            correctIndex: 1,
+            hintsEn: [
+              "Re-read the first paragraph for the starting number of eggs before grandmother asked for one more.",
+              "This is a simple recall -- no one more/one less calculation needed, just find the number stated in the story.",
+            ],
+            hintsMy: [
+              "အဖွားက တစ်ခုထပ်တောင်းခင်က ကြက်ဥအရေအတွက် အစပိုင်းအတွက် ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "ဤသည်မှာ ရိုးရှင်းသော သတိရမှုသာဖြစ်ပြီး တစ်ခုပို/တစ်ခုလျော့ တွက်ချက်ရန် မလိုအပ်ပါ -- ဇာတ်လမ်းတွင် ဖော်ပြထားသော နံပါတ်ကိုသာ ရှာပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many eggs did they have after grandmother said, \"let's get one more\"?",
+            questionMy:
+                "အဖွားက \"တစ်လုံးထပ်ယူကြရအောင်\" ဟု ပြောပြီးနောက် သူတို့တွင် ကြက်ဥ မည်မျှ ရှိသနည်း။",
+            optionsEn: ["13", "14", "15", "16"],
+            optionsMy: ["13", "14", "15", "16"],
+            correctIndex: 2,
+            hintsEn: [
+              "Recall Day 1's \"one more\" rule -- one more than 14 is the very next counting number.",
+              "Re-read the first paragraph: Su Su counted 14, then one more made...?",
+            ],
+            hintsMy: [
+              "Day 1 ၏ \"တစ်ခုပို\" စည်းမျဉ်းကို သတိရပါ -- 14 ထက် တစ်ခုပိုသည်မှာ ရေတွက်ရာတွင် ဆက်လာမည့် နံပါတ်ပင် ဖြစ်သည်။",
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ - စုစုသည် 14 ရေတွက်ပြီး တစ်လုံးထပ်လာသဖြင့်...",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "After one egg cracked, how many whole eggs were left?",
+            questionMy:
+                "ကြက်ဥတစ်လုံး ကွဲသွားပြီးနောက် ကျန်ရှိသော ကြက်ဥအကောင်းစား မည်မျှ ရှိသေးသနည်း။",
+            optionsEn: ["16", "15", "14", "13"],
+            optionsMy: ["16", "15", "14", "13"],
+            correctIndex: 2,
+            hintsEn: [
+              "This is Day 2's \"one less\" idea -- one less than 15 is the number right before it.",
+              "Su Su counted: 15, take away one egg, leaves...?",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ Day 2 ၏ \"တစ်ခုလျော့\" အယူအဆပင် ဖြစ်သည် -- 15 ထက် တစ်ခုလျော့သည်မှာ ၎င်း၏ ရှေ့တွင်ရှိသော နံပါတ် ဖြစ်သည်။",
+              "စုစုသည် 15 ရေတွက်ပြီး ကြက်ဥတစ်လုံး နုတ်လိုက်လျှင် ကျန်သည်မှာ...",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to grandmother, what does \"one less\" mean on the number track?",
+            questionMy:
+                "အဖွား၏ ပြောကြားချက်အရ နံပါတ်လမ်းကြောင်းပေါ်တွင် \"တစ်ခုလျော့\" ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။",
+            optionsEn: [
+              "Step one place to the right",
+              "Step one place to the left",
+              "Stay on the same number",
+              "Skip two places",
+            ],
+            optionsMy: [
+              "ညာဘက်သို့ တစ်လှမ်းသွားခြင်း",
+              "ဘယ်ဘက်သို့ တစ်လှမ်းသွားခြင်း",
+              "နံပါတ်တူတူတွင် ရပ်နေခြင်း",
+              "နေရာနှစ်ခု ကျော်သွားခြင်း",
+            ],
+            correctIndex: 1,
+            hintsEn: [
+              "Recall Week 2's number track -- moving forward is to the right, so moving backward must be...?",
+              "Re-read the third paragraph, where grandmother explains one more versus one less on the track.",
+            ],
+            hintsMy: [
+              "Week 2 ၏ နံပါတ်လမ်းကြောင်းကို သတိရပါ -- ရှေ့သို့သွားခြင်းသည် ညာဘက်သို့ဖြစ်ပြီး နောက်ပြန်သွားခြင်းက ဘယ်ဘက်ပင် ဖြစ်ရမည်။",
+              "အဖွားက တစ်ခုပိုနှင့် တစ်ခုလျော့ကို လမ်းကြောင်းပေါ်တွင် ရှင်းပြသည့် တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap Quiz",
+      titleMy: "အပတ်စဉ် ၃ ပြန်လည်သုံးသပ်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is one more than 10?",
+          questionMy: "10 ထက် တစ်ခုပိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: ["9", "11", "20", "12"],
+          optionsMy: ["9", "11", "20", "12"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 1 -- one more than 10 crosses into the teen numbers, just like Week 1's \"ten and some more\" idea.",
+            "Count forward one step from 10 on Week 2's number track.",
+          ],
+          hintsMy: [
+            "Day 1 ကို သတိရပါ -- 10 ထက် တစ်ခုပိုသည်မှာ Week 1 ၏ \"ဆယ်နှင့်ထပ်ပို\" အယူအဆကဲ့သို့ ဆယ့်ကျော်နံပါတ်များထဲသို့ ဝင်သွားခြင်း ဖြစ်သည်။",
+            "Week 2 ၏ နံပါတ်လမ်းကြောင်းပေါ်တွင် 10 မှ တစ်လှမ်း အရှေ့သို့ ရေတွက်ကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is one less than 20?",
+          questionMy: "20 ထက် တစ်ခုလျော့သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["21", "19", "18", "10"],
+          optionsMy: ["21", "19", "18", "10"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 2 -- one less than 20 is the number that comes right before it when counting backward.",
+            "On the number track, step one place to the left of 20.",
+          ],
+          hintsMy: [
+            "Day 2 ကို သတိရပါ -- 20 ထက် တစ်ခုလျော့သည်မှာ နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ 20 ၏ ရှေ့တွင်ရှိသော နံပါတ် ဖြစ်သည်။",
+            "နံပါတ်လမ်းကြောင်းပေါ်တွင် 20 ၏ ဘယ်ဘက် တစ်နေရာသို့ လှမ်းကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is one more than 19?",
+          questionMy: "19 ထက် တစ်ခုပိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: ["18", "20", "21", "9"],
+          optionsMy: ["18", "20", "21", "9"],
+          correctIndex: 1,
+          hintsEn: [
+            "This is the same boundary Su Su's little brother solved in Day 4's story -- what comes right after 19?",
+            "Recall Day 1: one more means the very next number when counting forward.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Day 4 ဇာတ်လမ်းတွင် စုစု၏ ညီလေး ဖြေရှင်းခဲ့သည့် အခြေအနေတူပင် ဖြစ်သည် -- 19 ပြီးနောက် ဘာလာမလဲ။",
+            "Day 1 ကို သတိရပါ - တစ်ခုပိုဆိုသည်မှာ အရှေ့ရေတွက်သည့်အခါ ဆက်လာမည့် နံပါတ်ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is one less than 11?",
+          questionMy: "11 ထက် တစ်ခုလျော့သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["12", "10", "9", "1"],
+          optionsMy: ["12", "10", "9", "1"],
+          correctIndex: 1,
+          hintsEn: [
+            "This is the same question Su Su asked her little brother in Day 4's story -- what number comes right before 11?",
+            "Recall Day 2: one less means the number just before it when counting backward.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Day 4 ဇာတ်လမ်းတွင် စုစုက သူ့ညီလေးအား မေးခဲ့သည့် မေးခွန်းတူပင် ဖြစ်သည် -- 11 ၏ ရှေ့တွင် ဘယ်နံပါတ် ရှိသနည်း။",
+            "Day 2 ကို သတိရပါ - တစ်ခုလျော့ဆိုသည်မှာ နောက်ကြောင်းပြန်ရေတွက်သည့်အခါ ၎င်း၏ ရှေ့တွင်ရှိသော နံပါတ်ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a number track, which direction do you move to find one more than a number?",
+          questionMy:
+              "နံပါတ်လမ်းကြောင်းပေါ်တွင် နံပါတ်တစ်ခု၏ တစ်ခုပိုကို ရှာရန် မည်သည့်ဘက်သို့ ရွှေ့ရမည်နည်း။",
+          optionsEn: [
+            "One step to the right",
+            "One step to the left",
+            "Two steps to the right",
+            "You stay on the same number",
+          ],
+          optionsMy: [
+            "ညာဘက်သို့ တစ်လှမ်း",
+            "ဘယ်ဘက်သို့ တစ်လှမ်း",
+            "ညာဘက်သို့ နှစ်လှမ်း",
+            "နံပါတ်တူတူတွင် ရပ်နေရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's number track and Day 4's story about grandmother's explanation of one more and one less.",
+            "One more means moving forward, and forward on the track is toward the bigger numbers -- which direction is that?",
+          ],
+          hintsMy: [
+            "Week 2 ၏ နံပါတ်လမ်းကြောင်းနှင့် Day 4 ဇာတ်လမ်းရှိ အဖွား၏ ရှင်းပြချက်ကို သတိရပါ။",
+            "တစ်ခုပိုဆိုသည်မှာ ရှေ့သို့သွားခြင်းဖြစ်ပြီး လမ်းကြောင်းပေါ်တွင် ရှေ့ဆိုသည်မှာ ပိုကြီးသောနံပါတ်များဘက်သို့ ဖြစ်သည် -- ထိုဘက်သည် မည်သည့်ဘက်နည်း။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek4 = CourseWeekDef(
+  id: "course-year1-mathematics-w4",
+  weekNumber: 4,
+  titleEn: "Putting It Together: Numbers to 20",
+  titleMy: "အားလုံးကို ပေါင်းစပ်ကြည့်ကြမည် - ဂဏန်း ၂၀ အထိ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w4-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Numbers to 20 Quiz",
+      titleMy: "ဂဏန်း ၂၀ အထိ ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "This party tray is already set up with one full row of ten dots, plus four more loose dots lined up next to it. Which numeral names this group?",
+          questionMy:
+              "ဤပါတီလင်ပန်းတွင် ဆယ်လုံးပြည့်တစ်တန်းနှင့် အပြင်ဘက်တွင် အစက်လေးခု ထပ်၍ စီထားပြီးဖြစ်သည်။ ဤအုပ်စုကို မည်သည့်ဂဏန်းဖြင့် ခေါ်သနည်း။",
+          optionsEn: ["14", "13", "15", "40"],
+          optionsMy: ["14", "13", "15", "40"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's lesson on \"ten and some more\" -- a full row of ten dots next to four loose dots is always read as the numeral fourteen.",
+            "The row of ten alone always stands for ten. Four loose dots beside it means this picture is showing fourteen.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ \"ဆယ်နှင့်ထပ်ဆောင်း\" သင်ခန်းစာကို သတိရပါ -- ဆယ်လုံးပြည့်တန်းတစ်တန်းနှင့် အပြင်တွင် အစက်လေးခု ရှိလျှင် ၎င်းကို အမြဲတမ်း ဆယ့်လေး ဟု ဖတ်ရသည်။",
+            "ဆယ်တန်းတစ်ခုတည်းက ဆယ်ကို အမြဲတမ်း ကိုယ်စားပြုသည်။ ၎င်းအနားတွင် အစက်လေးခု ရှိနေခြင်းက ဤပုံသည် ဆယ့်လေး ကို ပြသနေသည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Three number cards are placed in order on a number line: 12, 15, 18. Which number sits between 12 and 18?",
+          questionMy:
+              "ဂဏန်းကတ်ပြားသုံးခုကို ဂဏန်းလိုင်းပေါ်တွင် အစဉ်လိုက် ချထားသည် - 12၊ 15၊ 18။ 12 နှင့် 18 အကြားတွင် မည်သည့်ဂဏန်း ရှိသနည်း။",
+          optionsEn: ["15", "12", "18", "20"],
+          optionsMy: ["15", "12", "18", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's number line -- a number \"between\" two others sits after the smaller one and before the larger one.",
+            "12 is smaller and 18 is larger -- only one of these options is greater than 12 but still less than 18.",
+          ],
+          hintsMy: [
+            "Week 2 ၏ ဂဏန်းလိုင်းကို သတိရပါ -- \"အကြား\" ရှိသောဂဏန်းသည် ငယ်သောဂဏန်း၏ နောက်တွင်နှင့် ကြီးသောဂဏန်း၏ ရှေ့တွင် ရှိသည်။",
+            "12 သည် ငယ်ပြီး 18 သည် ကြီးသည် -- ဤရွေးချယ်စရာများအနက် 12 ထက်ကြီးပြီး 18 ထက်ငယ်သည့် ဂဏန်းတစ်ခုတည်းသာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "On the number line, which number comes right after 16?",
+          questionMy:
+              "ဂဏန်းလိုင်းပေါ်တွင် 16 ၏ နောက်တွင် ဆက်လာသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["17", "15", "18", "16"],
+          optionsMy: ["17", "15", "18", "16"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's number line -- \"after\" always means one step further to the right, one number greater.",
+            "Count on one step from 16: 16, then...?",
+          ],
+          hintsMy: [
+            "Week 2 ၏ ဂဏန်းလိုင်းကို သတိရပါ -- \"နောက်\" ဆိုသည်မှာ ညာဘက်သို့ တစ်ဆင့်ရှေ့တိုးခြင်း၊ ဂဏန်းတစ်ခုကြီးသွားခြင်း အမြဲဖြစ်သည်။",
+            "16 မှ တစ်ဆင့်ရေတွက်ကြည့်ပါ - 16 ပြီးရင် ဘယ်ဂဏန်း ဆက်လာမလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "There were 19 balloons above the snack table. One balloon popped. How many balloons are left now?",
+          questionMy:
+              "သရေစာစားပွဲအပေါ်တွင် ပုံဖောင်း 19 လုံး ရှိခဲ့သည်။ တစ်လုံး ပေါက်ကွဲသွားသည်။ ယခု ပုံဖောင်း မည်မျှ ကျန်ရှိသေးသနည်း။",
+          optionsEn: ["18", "20", "19", "17"],
+          optionsMy: ["18", "20", "19", "17"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's lesson on \"one less\" -- one fewer than a number means counting back a single step.",
+            "Count back one step from 19: 19, then...?",
+          ],
+          hintsMy: [
+            "Week 3 ၏ \"တစ်လုံးလျော့နည်းခြင်း\" သင်ခန်းစာကို သတိရပါ -- ဂဏန်းတစ်ခုထက် တစ်လုံးလျော့ဆိုသည်မှာ တစ်ဆင့်ပြန်ရေတွက်ခြင်း ဖြစ်သည်။",
+            "19 မှ တစ်ဆင့်ပြန်ရေတွက်ကြည့်ပါ - 19 ပြီးရင် ပြန်ရေတွက်လျှင် ဘယ်ဂဏန်း ရောက်မလဲ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match the Numbers-to-20 Terms",
+      titleMy: "ဂဏန်း ၂၀ အထိ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w4-dm-1",
+          termEn: "Numeral",
+          termMy: "ဂဏန်းသင်္ကေတ (Numeral)",
+          matchEn:
+              "A symbol that stands for a number -- for example, the numeral 15 stands for a group of fifteen objects.",
+          matchMy:
+              "ဂဏန်းတစ်ခုကို ကိုယ်စားပြုသော သင်္ကေတ -- ဥပမာ ဂဏန်း 15 သည် အရာဝတ္ထု ဆယ့်ငါးခုအုပ်စုကို ကိုယ်စားပြုသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w4-dm-2",
+          termEn: "Number Line",
+          termMy: "ဂဏန်းလိုင်း (Number Line)",
+          matchEn:
+              "A straight line marked with numbers in order, used to see what comes before, after, or between other numbers.",
+          matchMy:
+              "ဂဏန်းများကို အစဉ်လိုက် အမှတ်အသားပြုထားသော မျဉ်းဖြောင့်တစ်ခုဖြစ်ပြီး အခြားဂဏန်းများ၏ ရှေ့၊ နောက် (သို့) အကြားရှိမှုကို ကြည့်ရှုရန် အသုံးပြုသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w4-dm-3",
+          termEn: "One More",
+          termMy: "တစ်လုံးထပ်ပိုမြောက်ခြင်း (One More)",
+          matchEn:
+              "The next number when counting on by exactly one -- one more than 14 is 15.",
+          matchMy:
+              "အတိအကျ တစ်ခုတိုးရေတွက်သောအခါ ဆက်လာသောဂဏန်း -- 14 ထက် တစ်လုံးပိုလျှင် 15 ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w4-dm-4",
+          termEn: "One Less",
+          termMy: "တစ်လုံးလျော့နည်းခြင်း (One Less)",
+          matchEn:
+              "The number just before when counting back by exactly one -- one less than 14 is 13.",
+          matchMy:
+              "အတိအကျ တစ်ခုလျှော့ ပြန်ရေတွက်သောအခါ ရရှိသော ရှေ့ဂဏန်း -- 14 ထက် တစ်လုံးလျော့လျှင် 13 ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w4-dm-5",
+          termEn: "Before",
+          termMy: "ရှေ့ (Before)",
+          matchEn:
+              "Coming earlier in counting order than another number -- found to its left on a number line.",
+          matchMy:
+              "အခြားဂဏန်းတစ်ခုထက် ရေတွက်အစဉ်လိုက်တွင် စောလျက်ရှိသည့်အခြေအနေ -- ဂဏန်းလိုင်းတွင် ၎င်း၏ ဘယ်ဘက်တွင် တွေ့ရသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w4-dm-6",
+          termEn: "After",
+          termMy: "နောက် (After)",
+          matchEn:
+              "Coming later in counting order than another number -- found to its right on a number line.",
+          matchMy:
+              "အခြားဂဏန်းတစ်ခုထက် ရေတွက်အစဉ်လိုက်တွင် နောက်ကျလျက်ရှိသည့်အခြေအနေ -- ဂဏန်းလိုင်းတွင် ၎င်း၏ ညာဘက်တွင် တွေ့ရသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Group Has 11-15 or 16-20?",
+      titleMy: "စီစစ်ကြမည် - အုပ်စုတွင် 11-15 ရှိသလား၊ 16-20 ရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Group Has 11-15", "Group Has 16-20"],
+        bucketsMy: ["အုပ်စုတွင် 11-15 ရှိသည်", "အုပ်စုတွင် 16-20 ရှိသည်"],
+        items: [
+          SortingItem(
+            id: "y1math-w4-sort-1",
+            labelEn: "11 cupcakes",
+            labelMy: "ကာလကြီးမုန့် 11 လုံး",
+            correctBucketEn: "Group Has 11-15",
+            correctBucketMy: "အုပ်စုတွင် 11-15 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-2",
+            labelEn: "18 balloons",
+            labelMy: "ပုံဖောင်း 18 လုံး",
+            correctBucketEn: "Group Has 16-20",
+            correctBucketMy: "အုပ်စုတွင် 16-20 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-3",
+            labelEn: "14 party hats",
+            labelMy: "ပါတီဦးထုပ် 14 လုံး",
+            correctBucketEn: "Group Has 11-15",
+            correctBucketMy: "အုပ်စုတွင် 11-15 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-4",
+            labelEn: "20 invited guests",
+            labelMy: "ဖိတ်ကြားထားသော ဧည့်သည် 20 ဦး",
+            correctBucketEn: "Group Has 16-20",
+            correctBucketMy: "အုပ်စုတွင် 16-20 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-5",
+            labelEn: "12 gift bags",
+            labelMy: "လက်ဆောင်အိတ် 12 လုံး",
+            correctBucketEn: "Group Has 11-15",
+            correctBucketMy: "အုပ်စုတွင် 11-15 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-6",
+            labelEn: "16 spoons",
+            labelMy: "ဇွန်း 16 ချောင်း",
+            correctBucketEn: "Group Has 16-20",
+            correctBucketMy: "အုပ်စုတွင် 16-20 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-7",
+            labelEn: "15 candles",
+            labelMy: "ဖယောင်းတိုင် 15 တိုင်",
+            correctBucketEn: "Group Has 11-15",
+            correctBucketMy: "အုပ်စုတွင် 11-15 ရှိသည်",
+          ),
+          SortingItem(
+            id: "y1math-w4-sort-8",
+            labelEn: "19 stickers",
+            labelMy: "စတစ်ကာ 19 ခု",
+            correctBucketEn: "Group Has 16-20",
+            correctBucketMy: "အုပ်စုတွင် 16-20 ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Htet's Birthday Party",
+      titleMy: "စာဖတ်ခြင်း - ထက်ထက်၏ မွေးနေ့ပါတီ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Htet's Birthday Party",
+        titleMy: "ထက်ထက်၏ မွေးနေ့ပါတီ",
+        passageEn:
+            "Htet Htet's family was decorating the living room for her birthday party, and she wanted to help label everything before her guests arrived. On the wall, someone had already taped the balloons in a special pattern her teacher had shown the class: one full row of ten balloons, with five more balloons lined up just below it, all grouped and ready to read. Remembering Week 1's lesson that a group like this -- one full row of ten plus some more -- is always read the same way, Htet Htet looked at the pattern and knew straight away that it showed the numeral 15. She wrote 15 on a small card and taped it proudly beside the balloons.\n\nNext, her mother handed her three number cards for the party games table: 12, 16, and 19. Remembering Week 2's number line, Htet Htet lined them up in order from smallest to largest. Her little brother pointed at the middle card and asked which number sat between 12 and 19 -- Htet Htet answered right away: 16, because 16 came after 12 but before 19 on the line. He then asked what number would come right after 16 if she added one more card, and Htet Htet said 17 without even needing to count on her fingers.\n\nAs the party began, Htet Htet counted the chairs set up around the snack table: seventeen chairs, one for every guest she had invited. Just then, her cousin arrived with an extra friend nobody had expected, carrying a wrapped gift. Remembering Week 3's lesson on one more, Htet Htet knew exactly what to do -- she pulled over one more chair, making eighteen chairs in total, one more than seventeen.\n\nLater, while everyone sang happy birthday, one of the fourteen balloons floating above the table suddenly popped with a loud bang, making everyone laugh instead of jump. Htet Htet counted again and found only thirteen balloons left -- one less than fourteen, just like Week 3 had taught her. Looking back at her whole party -- reading balloon patterns grouped into tens and more, ordering number cards on a line, and figuring out one more and one less as guests came and went -- Htet Htet realized every single skill from this term had helped her enjoy her own birthday just a little bit better.",
+        passageMy:
+            "ထက်ထက်၏ မိသားစုသည် သူမ၏ မွေးနေ့ပါတီအတွက် ဧည့်ခန်းကို အလှဆင်နေကြပြီး၊ ဧည့်သည်များ မရောက်မီ အားလုံးကို တံဆိပ်ကပ်ရန် ကူညီလိုသည်။ နံရံပေါ်တွင် တစ်စုံတစ်ယောက်က ဆရာမပြသခဲ့သော အထူးပုံစံဖြင့် ပုံဖောင်းများကို ကပ်ထားပြီးသားဖြစ်သည် - ဆယ်လုံးပြည့်တစ်တန်းနှင့် ၎င်းအောက်တွင် နောက်ထပ်ငါးလုံးကို စီထားသည်၊ အားလုံး အုပ်စုဖွဲ့ပြီး ဖတ်ရန် အသင့်ဖြစ်နေသည်။ Week 1 ၏ သင်ခန်းစာအရ ဤကဲ့သို့သောအုပ်စုသည် ဆယ်လုံးပြည့်တစ်တန်းနှင့် ထပ်ဆောင်းအနည်းငယ် -- အမြဲတမ်း တစ်နည်းတည်း ဖတ်ရကြောင်း သတိရလျက် ထက်ထက်သည် ထိုပုံစံကို ကြည့်ပြီး ၎င်းသည် ဂဏန်း 15 ကို ပြသနေကြောင်း ချက်ချင်းသိလိုက်သည်။ သူမသည် 15 ကို ကတ်ပြားငယ်တစ်ခုပေါ်တွင် ရေးပြီး ပုံဖောင်းများနံဘေးတွင် ဂုဏ်ယူစွာ ကပ်ခဲ့သည်။\n\nထို့နောက် သူမ၏အမေက ပါတီကစားနည်းများ စားပွဲအတွက် ဂဏန်းကတ်ပြားသုံးခု - 12၊ 16 နှင့် 19 - ကို ပေးအပ်ခဲ့သည်။ Week 2 ၏ ဂဏန်းလိုင်းကို သတိရလျက် ထက်ထက်သည် ၎င်းတို့ကို အသေးဆုံးမှ အကြီးဆုံးအထိ အစဉ်လိုက် စီထားခဲ့သည်။ သူမ၏ ညီလေးက အလယ်ကတ်ပြားကို ညွှန်ပြီး 12 နှင့် 19 အကြား မည်သည့်ဂဏန်း ရှိသနည်းဟု မေးခဲ့ရာ ထက်ထက်က ချက်ချင်းပင် 16 ဖြစ်ကြောင်း ဖြေခဲ့သည် - အဘယ်ကြောင့်ဆိုသော် 16 သည် 12 ၏ နောက်တွင်ရှိပြီး 19 ၏ ရှေ့တွင် ရှိသောကြောင့် ဖြစ်သည်။ ညီလေးက ကတ်ပြားတစ်ခုထပ်ထည့်လျှင် 16 ၏ နောက်တွင် ဘယ်ဂဏန်း ဆက်လာမည်နည်းဟု ထပ်မေးခဲ့ရာ ထက်ထက်က လက်ချောင်းများဖြင့် ရေတွက်ကြည့်ရန်ပင် မလိုအပ်ဘဲ 17 ဟု ဖြေခဲ့သည်။\n\nပါတီစတင်သောအခါ ထက်ထက်သည် သရေစာစားပွဲပတ်လည်တွင် စီစဉ်ထားသော ကုလားထိုင်များကို ရေတွက်ခဲ့သည် - ဖိတ်ကြားထားသော ဧည့်သည်တစ်ဦးစီအတွက် တစ်လုံးစီ ဆယ့်ခုနစ်လုံး။ ထိုအချိန်တွင် သူမ၏ ဝမ်းကွဲကလေးသည် မမျှော်လင့်ထားသော သူငယ်ချင်းတစ်ဦးနှင့်အတူ လက်ဆောင်ထုပ်ကိုင်ဆောင်ကာ ရောက်ရှိလာခဲ့သည်။ Week 3 ၏ \"တစ်လုံးထပ်ပိုမြောက်ခြင်း\" သင်ခန်းစာကို သတိရလျက် ထက်ထက်သည် မည်သို့ ပြုလုပ်ရမည်ကို အတိအကျ သိခဲ့သည် -- သူမသည် ကုလားထိုင်တစ်လုံးထပ်ဆွဲယူခဲ့ပြီး ဆယ့်ရှစ်လုံး ရရှိခဲ့သည်၊ ဆယ့်ခုနစ်ထက် တစ်လုံးပိုသည်။\n\nနောက်ပိုင်းတွင် အားလုံးက မွေးနေ့သီချင်းဆိုနေကြစဉ် စားပွဲပေါ်တွင် ပျံဝဲနေသော ပုံဖောင်းဆယ့်လေးလုံးအနက် တစ်လုံးသည် ရုတ်တရက် ပေါက်ကွဲသွားပြီး အားလုံးကို ခုန်မကြောက်စေဘဲ ရယ်မောစေခဲ့သည်။ ထက်ထက်က ထပ်ရေတွက်ကြည့်ရာ ပုံဖောင်းဆယ့်သုံးလုံးသာ ကျန်ရှိတော့သည်ကို တွေ့ခဲ့သည် -- ဆယ့်လေးထက် တစ်လုံးနည်းသည်၊ Week 3 က သင်ပေးခဲ့သည့်အတိုင်းပင်။ သူမ၏ ပါတီတစ်ခုလုံးကို ပြန်ကြည့်လိုက်သောအခါ -- ပုံဖောင်းပုံစံများကို ဆယ်နှင့်ထပ်ဆောင်းများအဖြစ် ဖတ်ခြင်း၊ ဂဏန်းကတ်ပြားများကို လိုင်းပေါ်တွင် အစဉ်လိုက်စီခြင်း၊ ဧည့်သည်များ လာရောက်ခြင်းနှင့် ပြန်သွားခြင်းအလိုက် တစ်လုံးထပ်ပိုမြောက်ခြင်းနှင့် တစ်လုံးလျော့နည်းခြင်းကို တွက်ချက်ခြင်း -- ဤနှစ်ဝက်၏ ကျွမ်းကျင်မှုတိုင်းသည် သူမ့ကိုယ်ပိုင်မွေးနေ့ပါတီကို ပို၍ ပျော်ရွှင်စေခဲ့ကြောင်း ထက်ထက် သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Looking at the balloon pattern on the wall -- one full row of ten balloons with five more lined up below it -- what numeral did Htet Htet recognize and write on the card?",
+            questionMy:
+                "နံရံပေါ်ရှိ ပုံဖောင်းပုံစံကို ကြည့်လျှင် -- ဆယ်လုံးပြည့်တစ်တန်းနှင့် ၎င်းအောက်တွင် နောက်ထပ်ငါးလုံး -- ထက်ထက် မည်သည့်ဂဏန်းကို မှတ်မိပြီး ကတ်ပြားပေါ်တွင် ရေးခဲ့သနည်း။",
+            optionsEn: ["15", "14", "13", "20"],
+            optionsMy: ["15", "14", "13", "20"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it describes the balloon pattern as already grouped: one full row of ten plus five more, the same picture-reading idea as Week 1.",
+              "This is Day 1's first quiz question, applied directly to Htet Htet's wall balloon pattern -- she is reading the numeral from the pattern, not adding it up.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ပုံဖောင်းပုံစံကို ဆယ်လုံးပြည့်တစ်တန်းနှင့် ထပ်ဆောင်းငါးလုံး အဖြစ် အုပ်စုဖွဲ့ပြီးသားဖြစ်ကြောင်း Week 1 ၏ ပုံဖတ်နည်းအတိုင်း ဖော်ပြထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ ပထမမေးခွန်းပင်ဖြစ်ပြီး ထက်ထက်၏ နံရံပုံဖောင်းပုံစံတွင် တိုက်ရိုက် အသုံးချထားခြင်းဖြစ်သည် -- သူမသည် ပေါင်းစည်းနေခြင်းမဟုတ်ဘဲ ပုံစံမှ ဂဏန်းကို ဖတ်နေခြင်းသာ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which number did Htet Htet say sits between 12 and 19?",
+            questionMy:
+                "ထက်ထက်သည် 12 နှင့် 19 အကြားတွင် မည်သည့်ဂဏန်း ရှိကြောင်း ဖြေခဲ့သနည်း။",
+            optionsEn: ["16", "17", "12", "19"],
+            optionsMy: ["16", "17", "12", "19"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Htet Htet answers her brother's question about the middle card directly.",
+              "This is the same \"between\" idea from Day 1's second quiz question and Week 2's number line.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ထက်ထက်သည် ညီလေး၏ အလယ်ကတ်ပြားနှင့်ပတ်သက်သော မေးခွန်းကို တိုက်ရိုက် ဖြေထားသည်။",
+              "ဤသည်မှာ ပထမနေ့ ဒုတိယမေးခွန်းနှင့် Week 2 ၏ ဂဏန်းလိုင်းမှ \"အကြား\" အတွေးအခေါ်တစ်ခုတည်းပင်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many chairs were there after Htet Htet added one more for the surprise guest?",
+            questionMy:
+                "မမျှော်လင့်ထားသောဧည့်သည်အတွက် ထက်ထက် တစ်လုံးထပ်ထည့်ပြီးနောက် ကုလားထိုင် မည်မျှ ရှိခဲ့သနည်း။",
+            optionsEn: ["18", "17", "19", "16"],
+            optionsMy: ["18", "17", "19", "16"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- it states the new chair total directly after the surprise guest arrived.",
+              "Recall Week 3's \"one more\" lesson and Day 1's fourth quiz question -- one more than seventeen is eighteen.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက မမျှော်လင့်ထားသောဧည့်သည် ရောက်လာပြီးနောက် ကုလားထိုင်စုစုပေါင်းအသစ်ကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "Week 3 ၏ \"တစ်လုံးထပ်ပိုမြောက်ခြင်း\" သင်ခန်းစာနှင့် ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ဆယ့်ခုနစ်ထက် တစ်လုံးပိုလျှင် ဆယ့်ရှစ် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many balloons were left after one of the fourteen balloons above the table popped?",
+            questionMy:
+                "စားပွဲအပေါ်ရှိ ပုံဖောင်းဆယ့်လေးလုံးအနက် တစ်လုံးပေါက်ကွဲပြီးနောက် ပုံဖောင်း မည်မျှ ကျန်ရှိခဲ့သနည်း။",
+            optionsEn: ["13", "14", "12", "15"],
+            optionsMy: ["13", "14", "12", "15"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- it states the new balloon count directly after the pop.",
+              "Recall Week 3's \"one less\" lesson and Day 1's fourth quiz question -- one less than fourteen is thirteen.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ပေါက်ကွဲပြီးနောက် ပုံဖောင်းအသစ်စုစုပေါင်းကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "Week 3 ၏ \"တစ်လုံးလျော့နည်းခြင်း\" သင်ခန်းစာနှင့် ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ဆယ့်လေးထက် တစ်လုံးလျော့လျှင် ဆယ့်သုံး ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Numbers to 20 -- Term 1 Capstone",
+      titleMy:
+          "အပတ်စဉ် 4 ပြန်လည်သုံးသပ်ခြင်း - ဂဏန်း 20 အထိ -- ပထမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "This picture card already shows one full row of ten dots, with six more loose dots lined up beside it. Which numeral names this card?",
+          questionMy:
+              "ဤပုံကတ်ပြားတွင် ဆယ်လုံးပြည့်တစ်တန်းနှင့် အပြင်ဘက်တွင် အစက်ခြောက်ခု ထပ်၍ စီထားပြီးဖြစ်သည်။ ဤကတ်ပြားကို မည်သည့်ဂဏန်းဖြင့် ခေါ်သနည်း။",
+          optionsEn: ["16", "15", "17", "10"],
+          optionsMy: ["16", "15", "17", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Week 1's \"ten and some more\" lesson -- a full row of ten dots next to six loose dots is always read as the numeral sixteen.",
+            "The row of ten alone stands for ten; six loose dots beside it means the card is showing sixteen, not fifteen or seventeen.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် Week 1 ၏ \"ဆယ်နှင့်ထပ်ဆောင်း\" သင်ခန်းစာကို သတိရပါ -- ဆယ်လုံးပြည့်တန်းတစ်တန်းနှင့် အပြင်တွင် အစက်ခြောက်ခု ရှိလျှင် ၎င်းကို အမြဲတမ်း ဆယ့်ခြောက် ဟု ဖတ်ရသည်။",
+            "ဆယ်တန်းတစ်ခုတည်းက ဆယ်ကို ကိုယ်စားပြုပြီး အနားတွင် အစက်ခြောက်ခု ရှိနေခြင်းက ကတ်ပြားသည် ဆယ့်ငါး (သို့) ဆယ့်ခုနစ် မဟုတ်ဘဲ ဆယ့်ခြောက် ကို ပြသနေသည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which number comes right before 15 on the number line?",
+          questionMy:
+              "ဂဏန်းလိုင်းပေါ်တွင် 15 ၏ ရှေ့တွင် ရှိသောဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["14", "16", "13", "15"],
+          optionsMy: ["14", "16", "13", "15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Week 2's number line -- \"before\" means one step to the left, one number smaller.",
+            "Count back one step from 15: 15, then...?",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် Week 2 ၏ ဂဏန်းလိုင်းကို သတိရပါ -- \"ရှေ့\" ဆိုသည်မှာ ဘယ်ဘက်သို့ တစ်ဆင့် ဂဏန်းတစ်ခုငယ်သွားခြင်း ဖြစ်သည်။",
+            "15 မှ တစ်ဆင့်ပြန်ရေတွက်ကြည့်ပါ - 15 ပြီးရင် ပြန်ရေတွက်လျှင် ဘယ်ဂဏန်း ရောက်မလဲ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the party game number cards 12, 16, 19, which number sits between the other two?",
+          questionMy:
+              "ပါတီကစားနည်း ဂဏန်းကတ်ပြားများ 12၊ 16၊ 19 တွင် အခြားနှစ်ခု၏ အကြားတွင် မည်သည့်ဂဏန်း ရှိသနည်း။",
+          optionsEn: ["16", "12", "19", "20"],
+          optionsMy: ["16", "12", "19", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Htet Htet's number cards from the reading passage -- 16 came after 12 but before 19.",
+            "Recall Day 1's second question -- the same \"between\" idea from the number line.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ ထက်ထက်၏ ဂဏန်းကတ်ပြားများကို သတိရပါ -- 16 သည် 12 ၏ နောက်တွင်နှင့် 19 ၏ ရှေ့တွင် ရှိခဲ့သည်။",
+            "ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- ဂဏန်းလိုင်းမှ \"အကြား\" အတွေးအခေါ်တစ်ခုတည်းပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Htet Htet had 17 chairs, then one more guest arrived. How many chairs were there then?",
+          questionMy:
+              "ထက်ထက်တွင် ကုလားထိုင် 17 လုံး ရှိခဲ့ပြီး ဧည့်သည်တစ်ဦးထပ်ရောက်လာသည်။ ထိုအခါ ကုလားထိုင် မည်မျှ ရှိခဲ့သနည်း။",
+          optionsEn: ["18", "17", "19", "16"],
+          optionsMy: ["18", "17", "19", "16"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage -- Htet Htet pulled over one more chair for the surprise guest, making one more than seventeen.",
+            "Recall Week 3's \"one more\" lesson -- one more than a number means counting on a single step.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းကို သတိရပါ -- ထက်ထက်သည် မမျှော်လင့်ထားသောဧည့်သည်အတွက် ကုလားထိုင်တစ်လုံးထပ်ဆွဲယူခဲ့ပြီး ဆယ့်ခုနစ်ထက် တစ်လုံးပိုခဲ့သည်။",
+            "Week 3 ၏ \"တစ်လုံးထပ်ပိုမြောက်ခြင်း\" သင်ခန်းစာကို သတိရပါ -- ဂဏန်းတစ်ခုထက် တစ်လုံးပိုဆိုသည်မှာ တစ်ဆင့်ရှေ့ရေတွက်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at Htet Htet's whole birthday party, what one big idea from this whole term did she use again and again?",
+          questionMy:
+              "ထက်ထက်၏ မွေးနေ့ပါတီတစ်ခုလုံးကို ပြန်ကြည့်လျှင် သူမ ထပ်ခါထပ်ခါ အသုံးပြုခဲ့သော ဤနှစ်ဝက်တစ်ခုလုံး၏ အယူအဆကြီး တစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Working confidently with numbers to 20 -- counting into tens and more, ordering and placing them on a line, and finding one more or one less.",
+            "Only counting balloons, nothing else mattered.",
+            "Only arranging number cards, nothing else mattered.",
+            "Numbers bigger than 20, which this term never actually covered.",
+          ],
+          optionsMy: [
+            "ဂဏန်း 20 အထိကို ယုံကြည်စွာ ကိုင်တွယ်ခြင်း -- ဆယ်နှင့်ထပ်ဆောင်းအဖြစ် ရေတွက်ခြင်း၊ လိုင်းပေါ်တွင် အစဉ်လိုက် စီထားခြင်းနှင့် တစ်လုံးထပ်ပိုမြောက်ခြင်း (သို့) တစ်လုံးလျော့နည်းခြင်းကို ရှာဖွေခြင်း။",
+            "ပုံဖောင်းများကိုသာ ရေတွက်ခဲ့ခြင်းမှလွဲ၍ အခြားမည်သည့်အရာမျှ အရေးမကြီးပါ။",
+            "ဂဏန်းကတ်ပြားများကိုသာ စီစဉ်ခဲ့ခြင်းမှလွဲ၍ အခြားမည်သည့်အရာမျှ အရေးမကြီးပါ။",
+            "ဤနှစ်ဝက်တွင် လုံးဝ မလေ့လာခဲ့သော 20 ထက်ကြီးသောဂဏန်းများ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Htet Htet's final realization at the end of the reading passage -- she named this exact idea herself.",
+            "This ties together Week 1's counting, Week 2's ordering, and Week 3's one-more/one-less, all in a single party.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်း အဆုံးရှိ ထက်ထက်၏ နောက်ဆုံးသဘောပေါက်မှုကို သတိရပါ -- သူမ ကိုယ်တိုင် ဤအတွေးအခေါ်အတိအကျကို အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် Week 1 ၏ ရေတွက်ခြင်း၊ Week 2 ၏ အစဉ်လိုက်စီခြင်းနှင့် Week 3 ၏ တစ်လုံးထပ်ပို/လျော့ခြင်းကို ပါတီတစ်ခုတည်းတွင် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 1: "Numbers to 20" (Weeks 1-4) opens Year 1 Mathematics's own
+/// 36-week pathway, deliberately escalating past the Nursery/KG legacy
+/// content (`nursery_kg_activity_bank.dart`), which only covers counting
+/// 1-10, simple pairwise bigger/smaller comparison, and addition to 5:
+/// Week 1 pushes counting and numeral recognition into the 11-20 range;
+/// Week 2 extends comparison from simple pairs into ordering a genuine
+/// sequence of 3+ numbers on a number line, with before/after/between;
+/// Week 3 introduces one more/one less, a genuinely new concept; Week 4
+/// is the capstone, combining all three into one real-world counting
+/// scenario. No addition/subtraction is taught this term -- that's
+/// reserved for Term 2.
+const CourseTermDef _year1MathematicsTerm1 = CourseTermDef(
+  id: "course-year1-mathematics-t1",
+  termNumber: 1,
+  titleEn: "Numbers to 20",
+  titleMy: "20 အထိ ဂဏန်းများ",
+  certificateTitleEn: "Numbers to 20",
+  certificateTitleMy: "20 အထိ ဂဏန်းများ",
+  weeks: [
+    _year1MathematicsWeek1,
+    _year1MathematicsWeek2,
+    _year1MathematicsWeek3,
+    _year1MathematicsWeek4,
+  ],
+);
+
+/// Year 1 Mathematics's pathway (Grade [Grade.year1]) -- the first
+/// Primary-tier "Academic Year" pathway authored, proving the same
+/// 36-week/term/daily-lesson/Socratic-hint template used by the
+/// Secondary pathways works for a much younger (age ~5-6) audience. Term
+/// 1 ("Numbers to 20", Weeks 1-4) is authored so far; see
+/// [_year1MathematicsTerm1]'s own doc comment for the week-by-week
+/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
+/// reason the Secondary pathways' docs give while only a handful of
+/// weeks exist.
+const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
+  id: "course-year1-mathematics",
+  subject: "mathematics",
+  grade: Grade.year1,
+  titleEn: "Mathematics — Year 1 Course",
+  titleMy: "သင်္ချာ — ပထမတန်း သင်တန်း",
+  descriptionEn:
+      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario.",
+  descriptionMy:
+      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးစေသည်။",
+  totalWeeks: 36,
+  terms: [_year1MathematicsTerm1],
 );

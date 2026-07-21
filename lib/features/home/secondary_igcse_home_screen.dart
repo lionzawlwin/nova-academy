@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/constants/home_tier.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
@@ -113,7 +114,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               xp: totalXp,
             ),
             const SizedBox(height: 16),
-            const CoursePathwayBrowser(),
+            const CoursePathwayBrowser(tier: HomeTier.secondary),
             const SizedBox(height: 24),
             Text(
               l10n.homeSubjectsTitle,

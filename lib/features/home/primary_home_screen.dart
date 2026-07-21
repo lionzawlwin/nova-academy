@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/constants/home_tier.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/glossy_badge.dart';
@@ -14,6 +15,7 @@ import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../lessons/lesson_navigation.dart';
+import 'course_pathway_browser.dart';
 import 'home_shared_widgets.dart';
 
 /// Candy Core pushes the shared [AppColors.primaryPalette] 15-20% more
@@ -124,6 +126,12 @@ class PrimaryHomeScreen extends ConsumerWidget {
                   nodes: nodes,
                   onTapNode: (node) => _handleNodeTap(context, node),
                 ),
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
+                child: const CoursePathwayBrowser(tier: HomeTier.primary),
               ),
             ),
             SliverToBoxAdapter(
