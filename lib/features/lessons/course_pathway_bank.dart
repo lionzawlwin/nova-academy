@@ -14827,7 +14827,10 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
 
 /// Every defined course pathway -- extend this list as more subjects/
 /// grades get authored beyond this vertical slice.
-const List<CoursePathwayDef> allCoursePathways = [secondary1ComputingPathway];
+const List<CoursePathwayDef> allCoursePathways = [
+  secondary1ComputingPathway,
+  secondary2ComputingPathway,
+];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or
 /// `null` if not found (e.g. a stale or mistyped id). Single shared lookup
@@ -14845,3 +14848,1647 @@ DailyLessonDef? courseDailyLessonById(String id) {
   }
   return null;
 }
+
+// =====================================================================
+// Secondary 2 Computing -- Term 1, Week 1: "What is a List?"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek1 = CourseWeekDef(
+  id: "course-secondary2-computing-w1",
+  weekNumber: 1,
+  titleEn: "What is a List?",
+  titleMy: "List ဆိုသည်မှာ အဘယ်နည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w1-d1",
+      dayNumber: 1,
+      titleEn: "Storing Many Values Together",
+      titleMy: "တန်ဖိုးများစွာကို အတူတကွ သိမ်းဆည်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is scores = [85, 90, 78] better than writing score1 = 85, score2 = 90, score3 = 78 separately?",
+          questionMy:
+              "score1 = 85, score2 = 90, score3 = 78 ဟု သီးခြားရေးမည့်အစား scores = [85, 90, 78] ဟုရေးခြင်းသည် အဘယ့်ကြောင့် ပိုကောင်းသနည်း။",
+          optionsEn: [
+            "A single list can hold many related values together, instead of needing a new variable name for each one",
+            "A list can only ever hold one value",
+            "A list automatically makes the program run faster",
+            "A list deletes itself after being used once",
+          ],
+          optionsMy: [
+            "List တစ်ခုတည်းက ဆက်စပ်တန်ဖိုးများကို အတူတကွထားနိုင်ပြီး၊ တန်ဖိုးတစ်ခုစီအတွက် variable အမည်အသစ် မလိုအပ်ပါ",
+            "List တစ်ခုသည် တန်ဖိုးတစ်ခုသာ ထားနိုင်သည်",
+            "List တစ်ခုက ပရိုဂရမ်ကို အလိုအလျောက် ပိုမြန်စေသည်",
+            "List တစ်ခုသည် တစ်ကြိမ်သုံးပြီးလျှင် self ဖျက်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In real code, how do you write a list containing the numbers 10, 20, and 30?",
+          questionMy:
+              "Real code တွင် 10၊ 20၊ 30 ဂဏန်းများပါသော list တစ်ခုကို မည်သို့ရေးသနည်း။",
+          optionsEn: [
+            "[10, 20, 30]",
+            "(10, 20, 30)",
+            "{10, 20, 30}",
+            "10, 20, 30",
+          ],
+          optionsMy: [
+            "[10, 20, 30]",
+            "(10, 20, 30)",
+            "{10, 20, 30}",
+            "10, 20, 30",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is each individual value inside a list called?",
+          questionMy: "List တစ်ခုအတွင်းရှိ တန်ဖိုးတစ်ခုစီကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            "An element (or item)",
+            "A comment",
+            "A syntax error",
+            "A print statement",
+          ],
+          optionsMy: [
+            "Element (သို့) item",
+            "Comment",
+            "Syntax error",
+            "print statement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If scores = [85, 90, 78], what is scores[0]?",
+          questionMy:
+              "scores = [85, 90, 78] ဖြစ်ပါက scores[0] သည် အဘယ်တန်ဖိုးဖြစ်သနည်း။",
+          optionsEn: ["85", "90", "78", "0"],
+          optionsMy: ["85", "90", "78", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do Python lists (and many real languages) start counting positions from 0 instead of 1?",
+          questionMy:
+              "Python list များ (နှင့် အခြား real language များစွာ) သည် position များကို 1 အစား 0 မှ အဘယ့်ကြောင့် စတွက်ကြသနည်း။",
+          optionsEn: [
+            "It is the language's convention: the first position is index 0, the second is index 1, and so on",
+            "Because index 0 means the list is empty",
+            "Because indexes always count backwards from the last element",
+            "Because the first element in a list never has an index",
+          ],
+          optionsMy: [
+            "Language ၏ convention ဖြစ်သည် - ပထမနေရာသည် index 0၊ ဒုတိယနေရာသည် index 1 စသဖြင့်ဖြစ်သည်",
+            "Index 0 က list ဗလာဖြစ်ကြောင်း ဆိုလိုသောကြောင့်",
+            "Index များသည် နောက်ဆုံး element မှ နောက်ပြန်ရေတွက်ကြသောကြောင့်",
+            "List ၏ ပထမ element တွင် index လုံးဝမရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w1-d2",
+      dayNumber: 2,
+      titleEn: "List Vocabulary",
+      titleMy: "List ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w1-list-list",
+          termEn: "List",
+          termMy: "List",
+          matchEn:
+              "A single variable that can hold many values together, written inside square brackets [ ]",
+          matchMy:
+              "Square bracket [ ] အတွင်းရေးထားပြီး တန်ဖိုးများစွာကို အတူတကွထားနိုင်သော variable တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w1-list-element",
+          termEn: "Element (Item)",
+          termMy: "Element (Item)",
+          matchEn: "One individual value stored inside a list",
+          matchMy: "List တစ်ခုအတွင်း သိမ်းဆည်းထားသော တန်ဖိုးတစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w1-list-index",
+          termEn: "Index",
+          termMy: "Index",
+          matchEn:
+              "A number showing an element's position in a list, starting at 0",
+          matchMy: "List တစ်ခုအတွင်း element ၏ တည်နေရာကို 0 မှစပြီးပြသော ဂဏန်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w1-list-zerobased",
+          termEn: "Zero-Based Indexing",
+          termMy: "Zero-Based Indexing",
+          matchEn:
+              "The convention where the first element in a list has index 0, not index 1",
+          matchMy:
+              "List ၏ ပထမ element သည် index 1 မဟုတ်ဘဲ index 0 ဖြစ်သော convention",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w1-list-array",
+          termEn: "Array",
+          termMy: "Array",
+          matchEn:
+              "Another common name for a list-like structure used to store many values together",
+          matchMy:
+              "တန်ဖိုးများစွာကို အတူတကွသိမ်းဆည်းရန်သုံးသော list ကဲ့သို့ ဖွဲ့စည်းပုံအတွက် အခြားနာမည်တစ်ခု",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w1-d3",
+      dayNumber: 3,
+      titleEn: "List or Single Variable?",
+      titleMy: "List လား Variable တစ်ခုတည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs a List", "One Variable is Enough"],
+        bucketsMy: ["List လိုအပ်သည်", "Variable တစ်ခုတည်း လုံလောက်သည်"],
+        items: [
+          SortingItem(
+            id: "w1-sort-classscores",
+            labelEn: "Storing every student's score in a class",
+            labelMy: "အတန်းရှိ ကျောင်းသားတိုင်း၏ score ကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Needs a List",
+            correctBucketMy: "List လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w1-sort-oneage",
+            labelEn: "Storing one person's age",
+            labelMy: "လူတစ်ဦး၏ အသက်ကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "One Variable is Enough",
+            correctBucketMy: "Variable တစ်ခုတည်း လုံလောက်သည်",
+          ),
+          SortingItem(
+            id: "w1-sort-shoppinglist",
+            labelEn: "Storing a shopping list with 8 items",
+            labelMy: "item ၈ခုပါသော ဈေးဝယ်စာရင်းကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Needs a List",
+            correctBucketMy: "List လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w1-sort-today",
+            labelEn: "Storing today's date",
+            labelMy: "ယနေ့ရက်စွဲကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "One Variable is Enough",
+            correctBucketMy: "Variable တစ်ခုတည်း လုံလောက်သည်",
+          ),
+          SortingItem(
+            id: "w1-sort-teamnames",
+            labelEn: "Storing the names of every player on a team",
+            labelMy: "အသင်းတစ်သင်းရှိ ကစားသမားတိုင်း၏ အမည်ကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Needs a List",
+            correctBucketMy: "List လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w1-sort-passwordcheck",
+            labelEn: "Storing whether a password is correct (true or false)",
+            labelMy: "Password မှန်၊ မမှန် (true/false) ကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "One Variable is Enough",
+            correctBucketMy: "Variable တစ်ခုတည်း လုံလောက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w1-d4",
+      dayNumber: 4,
+      titleEn: "Htet's Score List",
+      titleMy: "ထက်၏ Score List",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet's Score List",
+        titleMy: "ထက်၏ Score List",
+        passageEn:
+            "Htet used to write score1 = 85, score2 = 90, and score3 = 78 to store his three quiz scores. When his teacher added a fourth quiz, he realized he would need score4 too, and a fifth quiz would need score5 after that. His older sister, who had already studied lists in Secondary 2, showed him a better way: scores = [85, 90, 78]. Now all three scores lived inside a single variable called scores. She explained that scores[0] was 85, scores[1] was 90, and scores[2] was 78, because Python lists count positions starting from 0, not 1. When Htet's teacher later added a fourth quiz score of 92, he simply added it to the same list instead of creating a brand-new variable, so his list became scores = [85, 90, 78, 92]. Htet realized a list could grow to hold as many scores as he ever needed, without ever running out of variable names.",
+        passageMy:
+            "ထက်သည် သူ၏ quiz score သုံးခုကို သိမ်းဆည်းရန် score1 = 85, score2 = 90, score3 = 78 ဟု ရေးလေ့ရှိသည်။ ဆရာမက စတုတ္ထ quiz တစ်ခု ထပ်ထည့်လိုက်သောအခါ score4 ပါ လိုအပ်လာကြောင်း၊ ပဉ္စမ quiz ထပ်ရှိလာလျှင် score5 ထပ်လိုအပ်ဦးမည်ဖြစ်ကြောင်း သူသိလိုက်သည်။ Secondary 2 တွင် list ကို လေ့လာပြီးသား သူ၏အစ်မကြီးက ပိုကောင်းသော နည်းလမ်းကို ပြသပေးသည် - scores = [85, 90, 78]။ ယခုအခါ score သုံးခုစလုံးသည် scores ဟုခေါ်သော variable တစ်ခုတည်းအတွင်း နေထိုင်နေပြီဖြစ်သည်။ Python list များသည် position ကို 1 အစား 0 မှစတွက်သောကြောင့် scores[0] သည် 85၊ scores[1] သည် 90၊ scores[2] သည် 78 ဖြစ်ကြောင်း သူမ ရှင်းပြခဲ့သည်။ နောက်ပိုင်းတွင် ဆရာမက စတုတ္ထ quiz score 92 ထပ်ထည့်လိုက်သောအခါ ထက်သည် variable အသစ်မဖန်တီးဘဲ list တစ်ခုတည်းထဲသို့ ရိုးရှင်းစွာထပ်ထည့်လိုက်ရာ scores = [85, 90, 78, 92] ဖြစ်သွားသည်။ List တစ်ခုသည် variable အမည်ကုန်ခန်းစရာမလိုဘဲ လိုအပ်သမျှ score အရေအတွက်အထိ ကြီးထွားနိုင်ကြောင်း ထက် သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What were Htet's three original separate variables called?",
+            questionMy: "ထက်၏ မူလ variable သီးခြားသုံးခု၏ အမည်များက အဘယ်နည်း။",
+            optionsEn: [
+              "score1, score2, and score3",
+              "scores[0], scores[1], and scores[2]",
+              "list1, list2, and list3",
+              "total, average, and max",
+            ],
+            optionsMy: [
+              "score1, score2, score3",
+              "scores[0], scores[1], scores[2]",
+              "list1, list2, list3",
+              "total, average, max",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is scores[0] equal to in scores = [85, 90, 78]?",
+            questionMy:
+                "scores = [85, 90, 78] တွင် scores[0] သည် မည်သည့်တန်ဖိုးနှင့် ညီသနည်း။",
+            optionsEn: ["85", "90", "78", "0"],
+            optionsMy: ["85", "90", "78", "0"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why do Python lists start counting positions at 0 instead of 1?",
+            questionMy:
+                "Python list များသည် position ကို 1 အစား 0 မှ အဘယ့်ကြောင့် စတွက်သနည်း။",
+            optionsEn: [
+              "Because that is the language's zero-based indexing convention",
+              "Because 0 means the list has ended",
+              "Because it makes the list run faster",
+              "Because 1 is reserved for the list's name",
+            ],
+            optionsMy: [
+              "Language ၏ zero-based indexing convention ဖြစ်သောကြောင့်",
+              "0 က list ပြီးဆုံးကြောင်းဆိုလိုသောကြောင့်",
+              "List ကို ပိုမြန်စေသောကြောင့်",
+              "1 ကို list ၏အမည်အတွက် သီးသန့်ထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Htet's list look like after his teacher added a fourth score of 92?",
+            questionMy:
+                "ဆရာမက စတုတ္ထ score 92 ထပ်ထည့်ပြီးနောက် ထက်၏ list သည် မည်သို့ဖြစ်သွားသနည်း။",
+            optionsEn: [
+              "scores = [85, 90, 78, 92]",
+              "score4 = [85, 90, 78, 92]",
+              "scores = [92]",
+              "scores = [85, 90, 78]",
+            ],
+            optionsMy: [
+              "scores = [85, 90, 78, 92]",
+              "score4 = [85, 90, 78, 92]",
+              "scores = [92]",
+              "scores = [85, 90, 78]",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is a list's main advantage over separate variables?",
+            questionMy:
+                "ဇာတ်လမ်းအရ list ၏ variable သီးခြားများထက် အဓိကအားသာချက်က အဘယ်နည်း။",
+            optionsEn: [
+              "It can grow to hold as many values as needed, without new variable names",
+              "It always runs faster than a variable",
+              "It can only ever hold exactly three values",
+              "It deletes itself once printed",
+            ],
+            optionsMy: [
+              "Variable အမည်အသစ်မလိုဘဲ လိုအပ်သမျှတန်ဖိုးအထိ ကြီးထွားနိုင်ခြင်း",
+              "Variable ထက် အမြဲပိုမြန်ခြင်း",
+              "တန်ဖိုးအတိအကျသုံးခုကိုသာ အမြဲထားနိုင်ခြင်း",
+              "print လုပ်ပြီးလျှင် self ဖျက်သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap Quiz",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a list?",
+          questionMy: "List ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A single variable that holds many values together",
+            "A variable that holds only one value",
+            "A type of loop",
+            "A type of comment",
+          ],
+          optionsMy: [
+            "တန်ဖိုးများစွာကို အတူတကွထားသော variable တစ်ခု",
+            "တန်ဖိုးတစ်ခုသာထားသော variable",
+            "Loop အမျိုးအစားတစ်ခု",
+            "Comment အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How do you write a list of the numbers 1, 2, and 3?",
+          questionMy: "1, 2, 3 ဂဏန်းများပါသော list ကို မည်သို့ရေးသနည်း။",
+          optionsEn: ["[1, 2, 3]", "(1, 2, 3)", "{1, 2, 3}", "1-2-3"],
+          optionsMy: ["[1, 2, 3]", "(1, 2, 3)", "{1, 2, 3}", "1-2-3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the index of the first element in a list?",
+          questionMy: "List တစ်ခု၏ ပထမ element ၏ index က မည်သို့ဖြစ်သနည်း။",
+          optionsEn: ["0", "1", "-1", "It has no index"],
+          optionsMy: ["0", "1", "-1", "Index မရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is each individual value inside a list called?",
+          questionMy: "List အတွင်းရှိ တန်ဖိုးတစ်ခုစီကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["An element", "A loop", "A comment", "A syntax"],
+          optionsMy: ["Element", "Loop", "Comment", "Syntax"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If scores = [85, 90, 78], what is scores[2]?",
+          questionMy:
+              "scores = [85, 90, 78] ဖြစ်ပါက scores[2] သည် အဘယ်တန်ဖိုးဖြစ်သနည်း။",
+          optionsEn: ["78", "85", "90", "2"],
+          optionsMy: ["78", "85", "90", "2"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 1, Week 2: "Adding, Removing, and
+// Updating List Items"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek2 = CourseWeekDef(
+  id: "course-secondary2-computing-w2",
+  weekNumber: 2,
+  titleEn: "Adding, Removing, and Updating List Items",
+  titleMy: "List Item များ ထည့်ခြင်း၊ ဖျက်ခြင်းနှင့် ပြောင်းလဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w2-d1",
+      dayNumber: 1,
+      titleEn: "Changing a List",
+      titleMy: "List တစ်ခုကို ပြောင်းလဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which line adds 95 to the end of the list scores?",
+          questionMy:
+              "scores list ၏ အဆုံးသို့ 95 ကို ထပ်ထည့်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "scores.append(95)",
+            "scores.add(95)",
+            "scores + 95",
+            "scores[95]",
+          ],
+          optionsMy: [
+            "scores.append(95)",
+            "scores.add(95)",
+            "scores + 95",
+            "scores[95]",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If scores = [85, 90, 78], what does scores.remove(90) do?",
+          questionMy:
+              "scores = [85, 90, 78] ဖြစ်ပါက scores.remove(90) သည် ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Removes the value 90 from the list, leaving [85, 78]",
+            "Removes the value at index 90",
+            "Adds 90 to the list",
+            "Deletes the entire list",
+          ],
+          optionsMy: [
+            "List မှ 90 တန်ဖိုးကို ဖျက်ပြီး [85, 78] ကျန်စေသည်",
+            "Index 90 ရှိတန်ဖိုးကို ဖျက်သည်",
+            "List ထဲသို့ 90 ကို ထည့်သည်",
+            "List တစ်ခုလုံးကို ဖျက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If scores = [85, 90, 78], what does scores[0] = 100 do?",
+          questionMy:
+              "scores = [85, 90, 78] ဖြစ်ပါက scores[0] = 100 သည် ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Changes the first element to 100, making the list [100, 90, 78]",
+            "Adds 100 as a brand-new element",
+            "Removes the first element completely",
+            "Causes the list to become empty",
+          ],
+          optionsMy: [
+            "ပထမ element ကို 100 သို့ပြောင်းပြီး list ကို [100, 90, 78] ဖြစ်စေသည်",
+            "100 ကို element အသစ်အဖြစ် ထည့်သည်",
+            "ပထမ element ကို လုံးဝဖျက်သည်",
+            "List ကို ဗလာဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does len(scores) return for scores = [85, 90, 78]?",
+          questionMy:
+              "scores = [85, 90, 78] အတွက် len(scores) သည် ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "3, the number of elements in the list",
+            "85, the first element",
+            "0, because lists have no length",
+            "The highest score in the list",
+          ],
+          optionsMy: [
+            "3, list ထဲရှိ element အရေအတွက်",
+            "85, ပထမ element",
+            "0, list များတွင် အလျားမရှိသောကြောင့်",
+            "List ထဲရှိ score အမြင့်ဆုံး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How do you write an empty list in real code?",
+          questionMy: "Real code တွင် list ဗလာတစ်ခုကို မည်သို့ရေးသနည်း။",
+          optionsEn: ["[]", "()", "{}", "null"],
+          optionsMy: ["[]", "()", "{}", "null"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w2-d2",
+      dayNumber: 2,
+      titleEn: "List Operations Vocabulary",
+      titleMy: "List Operation ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w2-ops-append",
+          termEn: "append()",
+          termMy: "append()",
+          matchEn: "A method that adds a new element to the end of a list",
+          matchMy: "List ၏ အဆုံးသို့ element အသစ်ထည့်ပေးသော method တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w2-ops-remove",
+          termEn: "remove()",
+          termMy: "remove()",
+          matchEn: "A method that deletes a specific value from a list",
+          matchMy: "List မှ တန်ဖိုးတစ်ခုအတိအကျကို ဖျက်ပေးသော method တစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w2-ops-updatebyindex",
+          termEn: "Update by Index",
+          termMy: "Update by Index",
+          matchEn:
+              "Changing an existing element's value using its position, e.g. scores[0] = 100",
+          matchMy:
+              "scores[0] = 100 ကဲ့သို့ position သုံး၍ ရှိပြီးသား element ၏ တန်ဖိုးကို ပြောင်းလဲခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w2-ops-emptylist",
+          termEn: "Empty List",
+          termMy: "Empty List",
+          matchEn: "A list with no elements yet, written as []",
+          matchMy: "[] ဟုရေးသားထားပြီး element တစ်ခုမျှ မရှိသေးသော list",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w2-ops-len",
+          termEn: "len()",
+          termMy: "len()",
+          matchEn:
+              "A function that returns how many elements are inside a list",
+          matchMy:
+              "List အတွင်း element ဘယ်နှခုရှိသည်ကို ပြန်ပေးသော function တစ်ခု",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w2-d3",
+      dayNumber: 3,
+      titleEn: "Correct or Incorrect List Syntax?",
+      titleMy: "List Syntax မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Syntax", "Incorrect Syntax"],
+        bucketsMy: ["Correct Syntax (မှန်ကန်)", "Incorrect Syntax (မမှန်ကန်)"],
+        items: [
+          SortingItem(
+            id: "w2-sort-append",
+            labelEn: "scores.append(95)",
+            labelMy: "scores.append(95)",
+            correctBucketEn: "Correct Syntax",
+            correctBucketMy: "Correct Syntax (မှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w2-sort-add",
+            labelEn: "scores.add(95)",
+            labelMy: "scores.add(95)",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w2-sort-remove",
+            labelEn: "scores.remove(90)",
+            labelMy: "scores.remove(90)",
+            correctBucketEn: "Correct Syntax",
+            correctBucketMy: "Correct Syntax (မှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w2-sort-updateindex",
+            labelEn: "scores[0] = 100",
+            labelMy: "scores[0] = 100",
+            correctBucketEn: "Correct Syntax",
+            correctBucketMy: "Correct Syntax (မှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w2-sort-reversedassign",
+            labelEn: "100 = scores[0]",
+            labelMy: "100 = scores[0]",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w2-sort-delete",
+            labelEn: "scores.delete(90)",
+            labelMy: "scores.delete(90)",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w2-d4",
+      dayNumber: 4,
+      titleEn: "Mya's Shopping List",
+      titleMy: "မြ၏ ဈေးဝယ်စာရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Mya's Shopping List",
+        titleMy: "မြ၏ ဈေးဝယ်စာရင်း",
+        passageEn:
+            "Mya started a shopping list with shopping = ['rice', 'eggs']. On her way to the store she remembered she needed milk too, so she wrote shopping.append('milk'), giving her shopping = ['rice', 'eggs', 'milk']. At home she remembered she already had plenty of eggs, so she removed them with shopping.remove('eggs'), leaving shopping = ['rice', 'milk']. At the store she changed her mind about plain milk and wanted oat milk instead, so she updated the second item by its index: shopping[1] = 'oat milk', giving her final list shopping = ['rice', 'oat milk']. Before checking out, she used len(shopping) to confirm she had exactly 2 items, matching what she could see in her basket.",
+        passageMy:
+            "မြသည် shopping = ['rice', 'eggs'] ဖြင့် ဈေးဝယ်စာရင်းကို စတင်ခဲ့သည်။ ဈေးသို့သွားရင်း နို့လည်း လိုအပ်ကြောင်း သတိရသဖြင့် shopping.append('milk') ဟု ရေးလိုက်ရာ shopping = ['rice', 'eggs', 'milk'] ဖြစ်သွားသည်။ အိမ်တွင် ကြက်ဥလုံလောက်စွာရှိပြီးသားဖြစ်ကြောင်း သတိရသဖြင့် shopping.remove('eggs') ဖြင့် ဖျက်ခဲ့ရာ shopping = ['rice', 'milk'] ကျန်ခဲ့သည်။ ဈေးဆိုင်တွင် နို့ရိုးရိုးအစား oat milk ကို လိုချင်စိတ်ပြောင်းလိုက်ရာ ဒုတိယ item ကို index ဖြင့် ပြောင်းလိုက်သည် - shopping[1] = 'oat milk'၊ နောက်ဆုံး list မှာ shopping = ['rice', 'oat milk'] ဖြစ်သည်။ ငွေရှင်းမီ သူမ၏ ခြင်းတောင်းထဲက items အရေအတွက်နှင့် ကိုက်ညီမကိုက်ညီ သိရန် len(shopping) ကိုသုံး၍ item ၂ခု အတိအကျ ရှိကြောင်း အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What method did Mya use to add milk to her list?",
+            questionMy:
+                "မြသည် သူမ၏ list သို့ milk ထည့်ရန် ဘယ် method သုံးခဲ့သနည်း။",
+            optionsEn: ["append()", "remove()", "len()", "print()"],
+            optionsMy: ["append()", "remove()", "len()", "print()"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What method did Mya use to remove eggs from her list?",
+            questionMy:
+                "မြသည် သူမ၏ list မှ eggs ကို ဖျက်ရန် ဘယ် method သုံးခဲ့သနည်း။",
+            optionsEn: ["remove()", "append()", "len()", "delete()"],
+            optionsMy: ["remove()", "append()", "len()", "delete()"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Mya change milk into oat milk?",
+            questionMy:
+                "မြသည် milk ကို oat milk အဖြစ် မည်သို့ပြောင်းလဲခဲ့သနည်း။",
+            optionsEn: [
+              "She updated it by index: shopping[1] = 'oat milk'",
+              "She used append() to add a second milk",
+              "She deleted the whole list and started over",
+              "She used len() to change it",
+            ],
+            optionsMy: [
+              "Index ဖြင့် ပြောင်းလဲခဲ့သည်: shopping[1] = 'oat milk'",
+              "Append() သုံး၍ milk ဒုတိယခု ထပ်ထည့်ခဲ့သည်",
+              "List တစ်ခုလုံးကို ဖျက်ပြီး အသစ်ပြန်စခဲ့သည်",
+              "Len() သုံး၍ ပြောင်းလဲခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Mya's final list look like?",
+            questionMy: "မြ၏ နောက်ဆုံး list သည် မည်သို့ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "shopping = ['rice', 'oat milk']",
+              "shopping = ['rice', 'eggs', 'milk']",
+              "shopping = ['rice', 'eggs']",
+              "shopping = []",
+            ],
+            optionsMy: [
+              "shopping = ['rice', 'oat milk']",
+              "shopping = ['rice', 'eggs', 'milk']",
+              "shopping = ['rice', 'eggs']",
+              "shopping = []",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Mya use len(shopping) for before checking out?",
+            questionMy:
+                "ငွေမရှင်းမီ မြသည် len(shopping) ကို ဘာအတွက်သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "To confirm her list had exactly 2 items",
+              "To add a new item",
+              "To delete her whole list",
+              "To change milk into oat milk",
+            ],
+            optionsMy: [
+              "သူမ list တွင် item ၂ခု အတိအကျရှိကြောင်း အတည်ပြုရန်",
+              "Item အသစ်ထည့်ရန်",
+              "List တစ်ခုလုံးကို ဖျက်ရန်",
+              "Milk ကို oat milk အဖြစ်ပြောင်းရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap Quiz",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which method adds a new item to the end of a list?",
+          questionMy: "List ၏ အဆုံးသို့ item အသစ်ထည့်ပေးသော method က အဘယ်နည်း။",
+          optionsEn: ["append()", "remove()", "len()", "input()"],
+          optionsMy: ["append()", "remove()", "len()", "input()"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which method removes a specific value from a list?",
+          questionMy:
+              "List မှ တန်ဖိုးတစ်ခုအတိအကျကို ဖျက်ပေးသော method က အဘယ်နည်း။",
+          optionsEn: ["remove()", "append()", "print()", "len()"],
+          optionsMy: ["remove()", "append()", "print()", "len()"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How do you update the first item in a list to 100?",
+          questionMy: "List ၏ ပထမ item ကို 100 သို့ မည်သို့ update လုပ်သနည်း။",
+          optionsEn: [
+            "scores[0] = 100",
+            "100 = scores[0]",
+            "scores.append(100)",
+            "scores.remove(100)",
+          ],
+          optionsMy: [
+            "scores[0] = 100",
+            "100 = scores[0]",
+            "scores.append(100)",
+            "scores.remove(100)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does len() tell you about a list?",
+          questionMy: "len() က list တစ်ခုအကြောင်း ဘာကို ပြောပြသနည်း။",
+          optionsEn: [
+            "How many elements it contains",
+            "The list's first element only",
+            "Whether the list is a string",
+            "The list's highest value",
+          ],
+          optionsMy: [
+            "Element ဘယ်နှခု ပါဝင်သည်ကို",
+            "List ၏ ပထမ element ကိုသာ",
+            "List သည် string ဟုတ်မဟုတ်ကို",
+            "List ၏ အမြင့်ဆုံးတန်ဖိုးကို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How do you write an empty list?",
+          questionMy: "List ဗလာတစ်ခုကို မည်သို့ရေးသနည်း။",
+          optionsEn: ["[]", "{}", "()", "empty"],
+          optionsMy: ["[]", "{}", "()", "empty"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 1, Week 3: "Looping Through a List"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek3 = CourseWeekDef(
+  id: "course-secondary2-computing-w3",
+  weekNumber: 3,
+  titleEn: "Looping Through a List",
+  titleMy: "List တစ်ခုလုံးကို Loop ဖြင့် လှည့်ပတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w3-d1",
+      dayNumber: 1,
+      titleEn: "for Loops and Lists",
+      titleMy: "for Loop နှင့် List",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which line prints every score in scores, one at a time?",
+          questionMy:
+              "scores ထဲရှိ score တိုင်းကို တစ်ခုချင်း print ထုတ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "for score in scores: print(score)",
+            "print(scores) once only",
+            "for score = scores: print",
+            "while scores: print(score)",
+          ],
+          optionsMy: [
+            "for score in scores: print(score)",
+            "print(scores) တစ်ကြိမ်သာ",
+            "for score = scores: print",
+            "while scores: print(score)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is an accumulator variable (e.g. total = 0 before a loop) used for?",
+          questionMy:
+              "Loop မတိုင်မီ total = 0 ကဲ့သို့ accumulator variable ကို ဘာအတွက်သုံးသနည်း။",
+          optionsEn: [
+            "To keep a running total that updates on every pass through the loop",
+            "To store only the list's first element",
+            "To stop the loop immediately",
+            "To delete the list once the loop finishes",
+          ],
+          optionsMy: [
+            "Loop ၏ လှည့်ပတ်တိုင်းတွင် update ဖြစ်နေသော စုစုပေါင်းတန်ဖိုးကို ထိန်းထားရန်",
+            "List ၏ ပထမ element ကိုသာ သိမ်းရန်",
+            "Loop ကို ချက်ချင်းရပ်ရန်",
+            "Loop ပြီးဆုံးလျှင် list ကို ဖျက်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For scores = [85, 90, 78], what does total hold after total = 0 then for score in scores: total = total + score finishes?",
+          questionMy:
+              "scores = [85, 90, 78] အတွက် total = 0 ပြီးနောက် for score in scores: total = total + score ပြီးဆုံးလျှင် total သည် မည်သည့်တန်ဖိုးဖြစ်နေသနည်း။",
+          optionsEn: [
+            "253, the sum of all three scores",
+            "85, only the first score",
+            "3, the number of scores",
+            "0, because total resets every loop",
+          ],
+          optionsMy: [
+            "253, score သုံးခု၏ ပေါင်းလဒ်",
+            "85, ပထမ score သာ",
+            "3, score အရေအတွက်",
+            "0, total သည် loop တိုင်းတွင် reset ဖြစ်နေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the built-in function max(scores) return for scores = [85, 90, 78]?",
+          questionMy:
+              "scores = [85, 90, 78] အတွက် built-in function max(scores) သည် ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "90, the highest value in the list",
+            "78, the lowest value",
+            "3, the length of the list",
+            "85, only the first element",
+          ],
+          optionsMy: [
+            "90, list ထဲရှိ အမြင့်ဆုံးတန်ဖိုး",
+            "78, အနိမ့်ဆုံးတန်ဖိုး",
+            "3, list ၏ အလျား",
+            "85, ပထမ element သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a for loop useful for processing a list, instead of writing scores[0], scores[1], scores[2] separately?",
+          questionMy:
+              "scores[0], scores[1], scores[2] ဟု သီးခြားရေးမည့်အစား list ကို process လုပ်ရန် for loop အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "It automatically visits every element, even if the list's length changes later",
+            "It only ever works on lists with exactly 3 elements",
+            "It deletes the list immediately after running",
+            "It only prints the very last element",
+          ],
+          optionsMy: [
+            "List ၏ အလျားနောင်တွင် ပြောင်းလဲသွားလျှင်ပင် element တိုင်းသို့ အလိုအလျောက် ရောက်ရှိသည်",
+            "Element ၃ခုအတိအကျရှိသော list တွင်သာ အလုပ်လုပ်သည်",
+            "Run ပြီးလျှင် list ကို ချက်ချင်းဖျက်သည်",
+            "နောက်ဆုံး element ကိုသာ print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w3-d2",
+      dayNumber: 2,
+      titleEn: "Looping Vocabulary",
+      titleMy: "Loop ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w3-loop-foritem",
+          termEn: "for item in list:",
+          termMy: "for item in list:",
+          matchEn:
+              "A loop that runs once for every element in a list, in order",
+          matchMy:
+              "List ထဲရှိ element တိုင်းအတွက် အစဉ်လိုက် တစ်ကြိမ်စီ run သော loop",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w3-loop-accumulator",
+          termEn: "Accumulator Variable",
+          termMy: "Accumulator Variable",
+          matchEn:
+              "A variable (e.g. total = 0) that collects a running result across every pass of a loop",
+          matchMy:
+              "Loop ၏ လှည့်ပတ်တိုင်းအတွက် ရလဒ်ကို စုဆောင်းသိမ်းဆည်းသော variable (ဥပမာ total = 0)",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w3-loop-sum",
+          termEn: "Sum",
+          termMy: "Sum",
+          matchEn:
+              "The total you get by adding every element in a list together",
+          matchMy: "List ထဲရှိ element အားလုံးကို ပေါင်းလိုက်၍ ရသောစုစုပေါင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w3-loop-max",
+          termEn: "max()",
+          termMy: "max()",
+          matchEn:
+              "A built-in function that returns the largest value in a list",
+          matchMy:
+              "List ထဲရှိ အကြီးဆုံးတန်ဖိုးကို ပြန်ပေးသော built-in function",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w3-loop-min",
+          termEn: "min()",
+          termMy: "min()",
+          matchEn:
+              "A built-in function that returns the smallest value in a list",
+          matchMy: "List ထဲရှိ အသေးဆုံးတန်ဖိုးကို ပြန်ပေးသော built-in function",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w3-d3",
+      dayNumber: 3,
+      titleEn: "Processes the Whole List or Just One Value?",
+      titleMy: "List တစ်ခုလုံးကို Process လုပ်သလား၊ တန်ဖိုးတစ်ခုတည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Processes the Whole List", "Just One Value"],
+        bucketsMy: ["List တစ်ခုလုံးကို Process လုပ်သည်", "တန်ဖိုးတစ်ခုတည်း"],
+        items: [
+          SortingItem(
+            id: "w3-sort-forprint",
+            labelEn: "for score in scores: print(score)",
+            labelMy: "for score in scores: print(score)",
+            correctBucketEn: "Processes the Whole List",
+            correctBucketMy: "List တစ်ခုလုံးကို Process လုပ်သည်",
+          ),
+          SortingItem(
+            id: "w3-sort-printfirst",
+            labelEn: "print(scores[0])",
+            labelMy: "print(scores[0])",
+            correctBucketEn: "Just One Value",
+            correctBucketMy: "တန်ဖိုးတစ်ခုတည်း",
+          ),
+          SortingItem(
+            id: "w3-sort-fortotal",
+            labelEn: "for score in scores: total = total + score",
+            labelMy: "for score in scores: total = total + score",
+            correctBucketEn: "Processes the Whole List",
+            correctBucketMy: "List တစ်ခုလုံးကို Process လုပ်သည်",
+          ),
+          SortingItem(
+            id: "w3-sort-updateindex1",
+            labelEn: "scores[1] = 100",
+            labelMy: "scores[1] = 100",
+            correctBucketEn: "Just One Value",
+            correctBucketMy: "တန်ဖိုးတစ်ခုတည်း",
+          ),
+          SortingItem(
+            id: "w3-sort-maxscores",
+            labelEn: "max(scores)",
+            labelMy: "max(scores)",
+            correctBucketEn: "Processes the Whole List",
+            correctBucketMy: "List တစ်ခုလုံးကို Process လုပ်သည်",
+          ),
+          SortingItem(
+            id: "w3-sort-removeitem",
+            labelEn: "scores.remove(90)",
+            labelMy: "scores.remove(90)",
+            correctBucketEn: "Just One Value",
+            correctBucketMy: "တန်ဖိုးတစ်ခုတည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w3-d4",
+      dayNumber: 4,
+      titleEn: "Kyaw's Class Average",
+      titleMy: "ကျော်၏ အတန်း Average",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw's Class Average",
+        titleMy: "ကျော်၏ အတန်း Average",
+        passageEn:
+            "Kyaw had scores = [85, 90, 78, 92, 66] for his class's latest quiz and wanted to find the average. He started with total = 0, then wrote a for loop: for score in scores: total = total + score. After the loop finished, total held the sum of all five scores, 411. He then divided by how many scores there were: average = total / len(scores), getting 82.2. Curious about the extremes, he also checked the highest score with max(scores), which gave 92, and the lowest with min(scores), which gave 66. Kyaw realized that looping through the list let him process every single score without writing five separate lines of code by hand.",
+        passageMy:
+            "ကျော်တွင် သူ၏အတန်းရဲ့ နောက်ဆုံး quiz အတွက် scores = [85, 90, 78, 92, 66] ရှိပြီး average ကို ရှာလိုသည်။ total = 0 ဖြင့် စတင်ပြီး for loop တစ်ခုရေးခဲ့သည်: for score in scores: total = total + score။ Loop ပြီးဆုံးသောအခါ total သည် score ငါးခု၏ ပေါင်းလဒ်ဖြစ်သော 411 ကို ကိုင်ဆောင်ထားသည်။ ထို့နောက် score အရေအတွက်ဖြင့် စားခဲ့သည် - average = total / len(scores)၊ 82.2 ရရှိသည်။ အစွန်းအဖျားများကို စိတ်ဝင်စားသဖြင့် max(scores) ဖြင့် အမြင့်ဆုံးကို စစ်ကြည့်ရာ 92 ရရှိပြီး၊ min(scores) ဖြင့် အနိမ့်ဆုံးကို စစ်ကြည့်ရာ 66 ရရှိသည်။ List ကို loop ဖြင့် လှည့်ပတ်ခြင်းက score ငါးခုစလုံးကို လက်နှင့်စာကြောင်းငါးကြောင်းသီးခြားမရေးဘဲ process လုပ်နိုင်ကြောင်း ကျော် သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did total equal after the loop finished?",
+            questionMy:
+                "Loop ပြီးဆုံးပြီးနောက် total သည် မည်သည့်တန်ဖိုးနှင့် ညီသနည်း။",
+            optionsEn: [
+              "411, the sum of all five scores",
+              "5, the number of scores",
+              "85, the first score",
+              "82.2, the average",
+            ],
+            optionsMy: [
+              "411, score ငါးခု၏ ပေါင်းလဒ်",
+              "5, score အရေအတွက်",
+              "85, ပထမ score",
+              "82.2, average",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Kyaw calculate the average?",
+            questionMy: "ကျော်သည် average ကို မည်သို့ တွက်ချက်ခဲ့သနည်း။",
+            optionsEn: [
+              "He divided total by len(scores)",
+              "He multiplied total by len(scores)",
+              "He used max(scores) directly",
+              "He guessed it",
+            ],
+            optionsMy: [
+              "Total ကို len(scores) ဖြင့် စားခဲ့သည်",
+              "Total ကို len(scores) ဖြင့် မြှောက်ခဲ့သည်",
+              "Max(scores) ကို တိုက်ရိုက်သုံးခဲ့သည်",
+              "ခန့်မှန်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did max(scores) return?",
+            questionMy: "max(scores) သည် ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "92, the highest score",
+              "66, the lowest score",
+              "411, the sum",
+              "5, the count",
+            ],
+            optionsMy: [
+              "92, အမြင့်ဆုံး score",
+              "66, အနိမ့်ဆုံး score",
+              "411, ပေါင်းလဒ်",
+              "5, count",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did min(scores) return?",
+            questionMy: "min(scores) သည် ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "66, the lowest score",
+              "92, the highest score",
+              "411, the sum",
+              "82.2, the average",
+            ],
+            optionsMy: [
+              "66, အနိမ့်ဆုံး score",
+              "92, အမြင့်ဆုံး score",
+              "411, ပေါင်းလဒ်",
+              "82.2, average",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the main benefit of looping through the list?",
+            questionMy:
+                "ဇာတ်လမ်းအရ list ကို loop ဖြင့် လှည့်ပတ်ခြင်း၏ အဓိကအကျိုးကျေးဇူးက အဘယ်နည်း။",
+            optionsEn: [
+              "It processed every score without writing five separate lines by hand",
+              "It deleted scores automatically",
+              "It only worked for exactly 3 scores",
+              "It replaced the need for a list entirely",
+            ],
+            optionsMy: [
+              "Score ငါးခုစလုံးကို လက်နှင့် စာကြောင်းငါးကြောင်းမရေးဘဲ process လုပ်နိုင်ခဲ့ခြင်း",
+              "Score များကို အလိုအလျောက် ဖျက်ခဲ့ခြင်း",
+              "Score ၃ခုအတိအကျအတွက်သာ အလုပ်လုပ်ခဲ့ခြင်း",
+              "List လိုအပ်ချက်ကို လုံးဝ ပယ်ဖျက်ပေးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap Quiz",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does for score in scores: do?",
+          questionMy: "for score in scores: သည် ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Runs a block of code once for every element in scores",
+            "Runs a block of code exactly once",
+            "Deletes every element in scores",
+            "Only runs if scores is empty",
+          ],
+          optionsMy: [
+            "scores ထဲရှိ element တိုင်းအတွက် code block ကို တစ်ကြိမ်စီ run သည်",
+            "Code block ကို အတိအကျတစ်ကြိမ်သာ run သည်",
+            "scores ထဲရှိ element တိုင်းကို ဖျက်သည်",
+            "scores ဗလာဖြစ်မှသာ run သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is an accumulator variable used for?",
+          questionMy: "Accumulator variable ကို ဘာအတွက်သုံးသနည်း။",
+          optionsEn: [
+            "Keeping a running total across a loop",
+            "Storing only the last element",
+            "Stopping a loop",
+            "Deleting a list",
+          ],
+          optionsMy: [
+            "Loop တစ်လျှောက် စုစုပေါင်းတန်ဖိုးကို ထိန်းထားရန်",
+            "နောက်ဆုံး element ကိုသာ သိမ်းရန်",
+            "Loop ကို ရပ်ရန်",
+            "List ကို ဖျက်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does max() return?",
+          questionMy: "max() က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The largest value in a list",
+            "The smallest value in a list",
+            "The number of elements",
+            "The first element only",
+          ],
+          optionsMy: [
+            "List ထဲရှိ အကြီးဆုံးတန်ဖိုး",
+            "List ထဲရှိ အသေးဆုံးတန်ဖိုး",
+            "Element အရေအတွက်",
+            "ပထမ element သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does min() return?",
+          questionMy: "min() က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The smallest value in a list",
+            "The largest value in a list",
+            "The sum of all values",
+            "The last element only",
+          ],
+          optionsMy: [
+            "List ထဲရှိ အသေးဆုံးတန်ဖိုး",
+            "List ထဲရှိ အကြီးဆုံးတန်ဖိုး",
+            "တန်ဖိုးအားလုံး၏ ပေါင်းလဒ်",
+            "နောက်ဆုံး element သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why use a for loop instead of writing scores[0], scores[1], scores[2] separately?",
+          questionMy:
+              "scores[0], scores[1], scores[2] ကို သီးခြားမရေးဘဲ for loop သုံးရသည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "It automatically works no matter how long the list is",
+            "It only works for lists with 3 items",
+            "It is required by Python for all code",
+            "It deletes the list afterward",
+          ],
+          optionsMy: [
+            "List မည်မျှရှည်စေကာမူ အလိုအလျောက် အလုပ်လုပ်သောကြောင့်",
+            "Item ၃ခုပါသော list အတွက်သာ အလုပ်လုပ်သောကြောင့်",
+            "Code အားလုံးအတွက် Python က လိုအပ်သောကြောင့်",
+            "ပြီးလျှင် list ကို ဖျက်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 1, Week 4: "Using a List in a Real
+// Program" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek4 = CourseWeekDef(
+  id: "course-secondary2-computing-w4",
+  weekNumber: 4,
+  titleEn: "Using a List in a Real Program",
+  titleMy: "Real ပရိုဂရမ်တွင် List အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w4-d1",
+      dayNumber: 1,
+      titleEn: "Planning a List-Based Program",
+      titleMy: "List အခြေခံပရိုဂရမ်ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which building block would you use to store 5 quiz scores in one program?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုတွင် quiz score ၅ခုကို သိမ်းဆည်းရန် ဘယ် building block သုံးမည်နည်း။",
+          optionsEn: [
+            "A list",
+            "Five separate if statements",
+            "A single comment",
+            "A print() statement only",
+          ],
+          optionsMy: [
+            "List",
+            "if statement ငါးခု သီးခြား",
+            "Comment တစ်ခုတည်း",
+            "print() statement တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which building block would you use to process every score in that list?",
+          questionMy:
+              "List ထဲရှိ score တိုင်းကို process လုပ်ရန် ဘယ် building block သုံးမည်နည်း။",
+          optionsEn: [
+            "A for loop",
+            "A single print() with no loop",
+            "Deleting the list",
+            "An empty list",
+          ],
+          optionsMy: [
+            "for loop",
+            "loop မပါဘဲ print() တစ်ခုတည်း",
+            "list ကို ဖျက်ခြင်း",
+            "list ဗလာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which line correctly creates an empty list ready to collect scores one at a time?",
+          questionMy:
+              "score များကို တစ်ခုချင်းစုဆောင်းရန် အသင့်ဖြစ်သော list ဗလာကို မှန်ကန်စွာဖန်တီးမည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "scores = []",
+            "scores = 0",
+            "scores = 'empty'",
+            "scores == []",
+          ],
+          optionsMy: [
+            "scores = []",
+            "scores = 0",
+            "scores = 'empty'",
+            "scores == []",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If you also want to check whether the average score is a pass (>= 50), what extra building block do you need?",
+          questionMy:
+              "Average score သည် pass (>= 50) ဟုတ်မဟုတ် ထပ်စစ်ဆေးလိုပါက ဘယ် building block ထပ်လိုအပ်မည်နည်း။",
+          optionsEn: [
+            "An if / else selection",
+            "Another list",
+            "A new print() function",
+            "Deleting the loop",
+          ],
+          optionsMy: [
+            "if / else selection",
+            "list နောက်ထပ်တစ်ခု",
+            "print() function အသစ်",
+            "loop ကို ဖျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is testing your list-based program with more than one set of scores important?",
+          questionMy:
+              "List အခြေခံပရိုဂရမ်ကို score set တစ်ခုထက်ပိုပြီး test လုပ်သင့်သည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "To make sure it works correctly across different cases, not just one lucky example",
+            "To make the program run slower on purpose",
+            "To delete all the variables afterward",
+            "Because Python requires exactly one test only",
+          ],
+          optionsMy: [
+            "ကံကောင်းမှုတစ်ခုတည်းသာမက အခြေအနေအမျိုးမျိုးတွင် မှန်ကန်စွာအလုပ်လုပ်ကြောင်း သေချာစေရန်",
+            "ရည်ရွယ်ချက်ရှိရှိ ပရိုဂရမ်ကို ပိုနှေးအောင်လုပ်ရန်",
+            "နောက်ပိုင်းတွင် variable အားလုံးကို ဖျက်ရန်",
+            "Python က test တစ်ကြိမ်တိတိသာ လိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w4-d2",
+      dayNumber: 2,
+      titleEn: "Term Vocabulary Recap",
+      titleMy: "Term ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w4-recap-list",
+          termEn: "List",
+          termMy: "List",
+          matchEn:
+              "A single variable that can hold many values together, written inside square brackets [ ]",
+          matchMy:
+              "Square bracket [ ] အတွင်းရေးထားပြီး တန်ဖိုးများစွာကို အတူတကွထားနိုင်သော variable တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w4-recap-append",
+          termEn: "append()",
+          termMy: "append()",
+          matchEn: "A method that adds a new element to the end of a list",
+          matchMy: "List ၏ အဆုံးသို့ element အသစ်ထည့်ပေးသော method တစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w4-recap-foritem",
+          termEn: "for item in list:",
+          termMy: "for item in list:",
+          matchEn:
+              "A loop that runs once for every element in a list, in order",
+          matchMy:
+              "List ထဲရှိ element တိုင်းအတွက် အစဉ်လိုက် တစ်ကြိမ်စီ run သော loop",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w4-recap-accumulator",
+          termEn: "Accumulator Variable",
+          termMy: "Accumulator Variable",
+          matchEn:
+              "A variable (e.g. total = 0) that collects a running result across every pass of a loop",
+          matchMy:
+              "Loop ၏ လှည့်ပတ်တိုင်းအတွက် ရလဒ်ကို စုဆောင်းသိမ်းဆည်းသော variable (ဥပမာ total = 0)",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w4-recap-average",
+          termEn: "Average",
+          termMy: "Average",
+          matchEn:
+              "The sum of a list's values divided by how many values there are",
+          matchMy:
+              "List ၏ တန်ဖိုးများ၏ ပေါင်းလဒ်ကို တန်ဖိုးအရေအတွက်ဖြင့် စားလိုက်သောရလဒ်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w4-d3",
+      dayNumber: 3,
+      titleEn: "Which Building Block?",
+      titleMy: "ဘယ် Building Block လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["List", "Loop", "Variable", "Selection"],
+        bucketsMy: ["List", "Loop", "Variable", "Selection"],
+        items: [
+          SortingItem(
+            id: "w4-sort-scoreslist",
+            labelEn: "scores = [85, 90, 78]",
+            labelMy: "scores = [85, 90, 78]",
+            correctBucketEn: "List",
+            correctBucketMy: "List",
+          ),
+          SortingItem(
+            id: "w4-sort-fortotal",
+            labelEn: "for score in scores: total = total + score",
+            labelMy: "for score in scores: total = total + score",
+            correctBucketEn: "Loop",
+            correctBucketMy: "Loop",
+          ),
+          SortingItem(
+            id: "w4-sort-namevar",
+            labelEn: "name = 'Phyo'",
+            labelMy: "name = 'Phyo'",
+            correctBucketEn: "Variable",
+            correctBucketMy: "Variable",
+          ),
+          SortingItem(
+            id: "w4-sort-ifaverage",
+            labelEn: "if average >= 50:",
+            labelMy: "if average >= 50:",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+          SortingItem(
+            id: "w4-sort-append95",
+            labelEn: "scores.append(95)",
+            labelMy: "scores.append(95)",
+            correctBucketEn: "List",
+            correctBucketMy: "List",
+          ),
+          SortingItem(
+            id: "w4-sort-whiletotal",
+            labelEn: "while total < 100:",
+            labelMy: "while total < 100:",
+            correctBucketEn: "Loop",
+            correctBucketMy: "Loop",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w4-d4",
+      dayNumber: 4,
+      titleEn: "Phyo's Average Calculator",
+      titleMy: "ဖြိုး၏ Average Calculator",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Phyo's Average Calculator",
+        titleMy: "ဖြိုး၏ Average Calculator",
+        passageEn:
+            "Phyo planned her program on paper before writing any code. It needed a list to store scores, a loop to add them all up, a variable for the running total, and an if/else to say whether the average was a pass or not. She wrote scores = [85, 90, 78, 92, 66], then total = 0, then for score in scores: total = total + score, then average = total / len(scores). Finally she wrote if average >= 50: print('Pass') else: print('Needs improvement'). Running it, average came out to 82.2, so the program printed Pass. She tested it again with scores = [30, 40, 20] to check the other case, and this time it correctly printed Needs improvement. While testing, she noticed she had forgotten the colon after her if line the first time, causing a syntax error; after adding it back in, the program ran correctly. Phyo realized her whole programming toolkit -- variables, selection, loops, and now lists -- had finally come together in one working program.",
+        passageMy:
+            "ဖြိုးသည် code မရေးမီ သူမ၏ ပရိုဂရမ်ကို စက္ကူပေါ်တွင် စီစဉ်ခဲ့သည်။ Score များကို သိမ်းဆည်းရန် list တစ်ခု၊ ၎င်းတို့ကို ပေါင်းရန် loop တစ်ခု၊ စုစုပေါင်းအတွက် variable တစ်ခုနှင့် average pass ဖြစ်မဖြစ် ပြောပြရန် if/else တစ်ခု လိုအပ်ခဲ့သည်။ scores = [85, 90, 78, 92, 66] ဟု ရေးပြီး၊ total = 0၊ ထို့နောက် for score in scores: total = total + score၊ ထို့နောက် average = total / len(scores) ဟု ရေးခဲ့သည်။ နောက်ဆုံးတွင် if average >= 50: print('Pass') else: print('Needs improvement') ဟု ရေးခဲ့သည်။ Run လိုက်ရာ average သည် 82.2 ဖြစ်လာသဖြင့် ပရိုဂရမ်က Pass ဟု print ထုတ်ခဲ့သည်။ အခြားအခြေအနေကို စစ်ဆေးရန် scores = [30, 40, 20] ဖြင့် ထပ်စမ်းသပ်ရာ ဤအကြိမ်တွင် Needs improvement ဟု မှန်ကန်စွာ print ထုတ်ခဲ့သည်။ Test လုပ်နေစဉ် ပထမအကြိမ် if စာကြောင်းနောက်ရှိ colon ကို မေ့ကျန်ခဲ့ရာ syntax error ဖြစ်ခဲ့ကြောင်း သတိပြုမိသည်။ ပြန်ထည့်ပြီးနောက် ပရိုဂရမ်သည် မှန်ကန်စွာ run သွားသည်။ Variable၊ selection၊ loop နှင့် ယခု list -- သူမ၏ programming toolkit တစ်ခုလုံးသည် ပရိုဂရမ်တစ်ခုတည်းတွင် နောက်ဆုံး ပေါင်းစပ်ရောက်ရှိလာကြောင်း ဖြိုး သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Phyo's list of scores look like?",
+            questionMy: "ဖြိုး၏ score list သည် မည်သို့ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "scores = [85, 90, 78, 92, 66]",
+              "scores = [30, 40, 20]",
+              "scores = []",
+              "scores = [82.2]",
+            ],
+            optionsMy: [
+              "scores = [85, 90, 78, 92, 66]",
+              "scores = [30, 40, 20]",
+              "scores = []",
+              "scores = [82.2]",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the program print for the first set of scores?",
+            questionMy:
+                "ပထမ score set အတွက် ပရိုဂရမ်သည် ဘာ print ထုတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Pass",
+              "Needs improvement",
+              "An error",
+              "Nothing at all",
+            ],
+            optionsMy: ["Pass", "Needs improvement", "Error", "ဘာမှမပြသ"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What mistake caused Phyo's first attempt to fail?",
+            questionMy: "ဖြိုး၏ ပထမကြိုးစားမှု မအောင်မြင်ရသည့်အမှားက အဘယ်နည်း။",
+            optionsEn: [
+              "She forgot the colon after her if line",
+              "She forgot to create the list",
+              "She used append() instead of a loop",
+              "She deleted the average variable",
+            ],
+            optionsMy: [
+              "If စာကြောင်းနောက်ရှိ colon ကို မေ့ကျန်ခဲ့သည်",
+              "List ဖန်တီးရန် မေ့ကျန်ခဲ့သည်",
+              "Loop အစား append() သုံးမိခဲ့သည်",
+              "Average variable ကို ဖျက်မိခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the program print when Phyo tested it with scores = [30, 40, 20]?",
+            questionMy:
+                "scores = [30, 40, 20] ဖြင့် ဖြိုး test လုပ်ခဲ့သောအခါ ပရိုဂရမ်သည် ဘာ print ထုတ်ခဲ့သနည်း။",
+            optionsEn: ["Needs improvement", "Pass", "An error", "82.2"],
+            optionsMy: ["Needs improvement", "Pass", "Error", "82.2"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which building blocks came together in Phyo's finished program?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ဖြိုး၏ ပြီးစီးသောပရိုဂရမ်တွင် ဘယ် building block များ ပေါင်းစပ်ပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Variables, selection, loops, and lists",
+              "Only a list, nothing else",
+              "Only comments and print()",
+              "Only a while loop",
+            ],
+            optionsMy: [
+              "Variable, selection, loop နှင့် list",
+              "List တစ်ခုတည်း",
+              "Comment နှင့် print() တစ်ခုတည်း",
+              "while loop တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Recap Quiz",
+      titleMy: "Term 1 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What building block stores many related values together?",
+          questionMy:
+              "ဆက်စပ်တန်ဖိုးများစွာကို အတူတကွသိမ်းဆည်းသော building block က အဘယ်နည်း။",
+          optionsEn: [
+            "A list",
+            "A single variable",
+            "A comment",
+            "A print() statement",
+          ],
+          optionsMy: [
+            "List",
+            "Variable တစ်ခုတည်း",
+            "Comment",
+            "print() statement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What building block runs a block of code once for every element in a list?",
+          questionMy:
+              "List ထဲရှိ element တိုင်းအတွက် code block ကို တစ်ကြိမ်စီ run ပေးသော building block က အဘယ်နည်း။",
+          optionsEn: [
+            "A for loop",
+            "An if statement",
+            "A comment",
+            "A single variable",
+          ],
+          optionsMy: [
+            "for loop",
+            "if statement",
+            "Comment",
+            "Variable တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What method adds a new item to the end of a list?",
+          questionMy: "List ၏ အဆုံးသို့ item အသစ်ထည့်ပေးသော method က အဘယ်နည်း။",
+          optionsEn: ["append()", "remove()", "len()", "print()"],
+          optionsMy: ["append()", "remove()", "len()", "print()"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is average = total / len(scores) calculating?",
+          questionMy:
+              "average = total / len(scores) သည် ဘာကို တွက်ချက်နေသနည်း။",
+          optionsEn: [
+            "The average of all the scores in the list",
+            "The number of scores only",
+            "The highest score only",
+            "Whether the list is empty",
+          ],
+          optionsMy: [
+            "List ထဲရှိ score အားလုံး၏ ပျမ်းမျှတန်ဖိုး",
+            "Score အရေအတွက်ကိုသာ",
+            "အမြင့်ဆုံး score ကိုသာ",
+            "List ဗလာဟုတ်မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is testing a program with more than one input important?",
+          questionMy:
+              "ပရိုဂရမ်ကို input တစ်ခုထက်ပိုပြီး test လုပ်သင့်သည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "To make sure it works correctly in every case it should handle",
+            "To make the program slower on purpose",
+            "Because Python requires it",
+            "To delete the list afterward",
+          ],
+          optionsMy: [
+            "ကိုင်တွယ်သင့်သော အခြေအနေတိုင်းတွင် မှန်ကန်စွာအလုပ်လုပ်ကြောင်း သေချာစေရန်",
+            "ရည်ရွယ်ချက်ရှိရှိ ပရိုဂရမ်ကို ပိုနှေးအောင်လုပ်ရန်",
+            "Python က လိုအပ်သောကြောင့်",
+            "List ကို နောက်ပိုင်းတွင် ဖျက်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
+  id: "course-secondary2-computing-t1",
+  termNumber: 1,
+  titleEn: "Lists and Arrays",
+  titleMy: "List နှင့် Array",
+  certificateTitleEn: "Lists and Arrays",
+  certificateTitleMy: "List နှင့် Array",
+  weeks: [
+    _secondary2ComputingWeek1,
+    _secondary2ComputingWeek2,
+    _secondary2ComputingWeek3,
+    _secondary2ComputingWeek4,
+  ], // Term 1 complete (Weeks 1-4) -- first term of the new Secondary 2 pathway
+);
+
+/// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
+/// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
+/// comment, authored as its own independent [CoursePathwayDef] rather
+/// than more terms grafted onto Secondary 1. Currently only Term 1
+/// (Weeks 1-4, Lists and Arrays) is authored; [totalWeeks] stays 36 for
+/// the same "honest progress bar" reason Secondary 1's did while only a
+/// handful of weeks exist. Term 1 picks up directly where Secondary 1
+/// Term 9 left off: its Week 36 capstone program used single variables,
+/// selection, and loops, and this term's four weeks extend that straight
+/// into lists (storing many values, adding/removing/updating items,
+/// looping through a list, and a capstone list-based program).
+const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
+  id: "course-secondary2-computing",
+  subject: "computing",
+  grade: Grade.secondary2,
+  titleEn: "Computing — Year 2 Course",
+  titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
+  descriptionEn:
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists and arrays.",
+  descriptionMy:
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list နှင့် array ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+  totalWeeks: 36,
+  terms: [_secondary2ComputingTerm1],
+);
