@@ -1105,6 +1105,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Complete the previous lesson first!'**
   String get homeLessonLocked;
+
+  /// No description provided for @homeCoursePathwaysTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Course Pathways'**
+  String get homeCoursePathwaysTitle;
+
+  /// No description provided for @homeCoursePathwaysSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Full academic-year courses, week by week'**
+  String get homeCoursePathwaysSubtitle;
+
+  /// No description provided for @homeCoursePathwayWeeksReady.
+  ///
+  /// In en, this message translates to:
+  /// **'{authored} of {total} weeks ready'**
+  String homeCoursePathwayWeeksReady(int authored, int total);
 }
 
 class _AppLocalizationsDelegate

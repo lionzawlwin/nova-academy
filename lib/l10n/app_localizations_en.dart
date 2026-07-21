@@ -532,4 +532,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeLessonLocked => 'Complete the previous lesson first!';
+
+  @override
+  String get homeCoursePathwaysTitle => 'Course Pathways';
+
+  @override
+  String get homeCoursePathwaysSubtitle =>
+      'Full academic-year courses, week by week';
+
+  @override
+  String homeCoursePathwayWeeksReady(int authored, int total) {
+    return '$authored of $total weeks ready';
+  }
 }

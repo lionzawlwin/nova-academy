@@ -536,4 +536,16 @@ class AppLocalizationsMy extends AppLocalizations {
 
   @override
   String get homeLessonLocked => 'ယခင်သင်ခန်းစာကို အရင်ပြီးအောင်လုပ်ပါ။';
+
+  @override
+  String get homeCoursePathwaysTitle => 'သင်တန်းလမ်းကြောင်းများ';
+
+  @override
+  String get homeCoursePathwaysSubtitle =>
+      'ပညာသင်နှစ်တစ်ခုလုံး သင်တန်းများ၊ ပတ်အလိုက်';
+
+  @override
+  String homeCoursePathwayWeeksReady(int authored, int total) {
+    return 'စုစုပေါင်း ပတ် $total အနက် $authored ပတ် အသင့်ဖြစ်ပြီ';
+  }
 }

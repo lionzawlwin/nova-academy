@@ -218,5 +218,15 @@
   "@homeModulesAvailable": {
     "placeholders": { "count": { "type": "int" } }
   },
-  "homeLessonLocked": "Complete the previous lesson first!"
+  "homeLessonLocked": "Complete the previous lesson first!",
+
+  "homeCoursePathwaysTitle": "Course Pathways",
+  "homeCoursePathwaysSubtitle": "Full academic-year courses, week by week",
+  "homeCoursePathwayWeeksReady": "{authored} of {total} weeks ready",
+  "@homeCoursePathwayWeeksReady": {
+    "placeholders": {
+      "authored": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  }
 }

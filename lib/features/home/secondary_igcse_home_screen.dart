@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
@@ -11,8 +10,8 @@ import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
-import '../../routing/app_router.dart';
 import '../lessons/lesson_navigation.dart';
+import 'course_pathway_browser.dart';
 import 'home_shared_widgets.dart';
 
 /// A reasonable "full stars" goal used purely to give the progress summary
@@ -111,9 +110,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               moduleCount: gradeModules.length,
             ),
             const SizedBox(height: 16),
-            _FullCourseBanner(
-              onTap: () => context.push(AppRoutes.coursePathwayWeek),
-            ),
+            const CoursePathwayBrowser(),
             const SizedBox(height: 24),
             Text(
               l10n.homeSubjectsTitle,
@@ -345,71 +342,6 @@ class _ProgressSummary extends StatelessWidget {
 /// (same carved-track/glossy-fill construction), kept as a separate widget
 /// here since this bar is a single continuous fraction rather than
 /// per-question segments.
-/// Entry point into the "Academic Year" full-course pathway vertical slice
-/// (`course_pathway_week_screen.dart`) -- proof-of-concept banner while
-/// only Secondary 1 Computing/Week 1 is authored, so it's a distinct
-/// beta-labeled card rather than folded into the subject grid below.
-class _FullCourseBanner extends StatelessWidget {
-  const _FullCourseBanner({required this.onTap});
-
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final lc = Localizations.localeOf(context).languageCode;
-
-    return InkWell(
-      borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
-      onTap: onTap,
-      child: CandyBevelSurface(
-        faceColor: theme.colorScheme.surfaceContainerHigh,
-        bevelDepth: CandyBevelDepth.secondary,
-        borderRadius: AppTheme.radiusLarge,
-        border: Border.all(color: AppColors.goldMedal, width: 2),
-        padding: const EdgeInsets.all(16),
-        child: Row(
-          children: [
-            const Icon(
-              Icons.school_rounded,
-              color: AppColors.goldMedal,
-              size: 32,
-            ),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    lc == 'my'
-                        ? 'အသစ်- ကွန်ပျူတာ နှစ်တစ်ခုလုံး သင်တန်း (Beta)'
-                        : 'NEW: Full Year Computing Course (Beta)',
-                    style: theme.textTheme.titleSmall?.copyWith(
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
-                  Text(
-                    lc == 'my'
-                        ? 'ပထမပတ်ကို ယခုပင် စတင်ကြည့်ပါ'
-                        : 'Try Week 1 now',
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurfaceVariant,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Icon(
-              Icons.chevron_right_rounded,
-              color: theme.colorScheme.onSurfaceVariant,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
 class _InsetProgressBar extends StatelessWidget {
   const _InsetProgressBar({required this.fraction});
 
