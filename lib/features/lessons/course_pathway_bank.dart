@@ -45268,6 +45268,2241 @@ const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// Secondary 1 Science -- Term 6, Week 21: "Light: Travelling in Straight
+// Lines and Shadows"
+// =====================================================================
+
+/// Week 21 opens Term 6 ("Light and Sound") by studying light's own
+/// behaviour in detail for the first time in the pathway -- Week 7's
+/// opening quiz question already named producing light (alongside moving
+/// an object or heating something up) as one of the things a source of
+/// energy can do, but stopped there. This week covers luminous vs
+/// non-luminous objects, light's straight-line travel (rectilinear
+/// propagation) with shadows as its evidence, and how opaque, transparent
+/// and translucent materials each behave differently when light meets
+/// them. Shadow-size geometry is explained only qualitatively (closer to
+/// the source makes a shadow bigger, closer to the screen makes it
+/// smaller) -- no numeric ratios or angles are asserted, matching this
+/// pathway's running "no unearned precision" caution (first stated in
+/// Week 6's doc comment).
+const CourseWeekDef _secondary1ScienceWeek21 = CourseWeekDef(
+  id: "course-secondary1-science-w21",
+  weekNumber: 21,
+  titleEn: "Light: Travelling in Straight Lines and Shadows",
+  titleMy:
+      "အလင်း - ဖြောင့်တန်းသောလမ်းကြောင်းဖြင့် ခရီးသွားခြင်းနှင့် အရိပ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w21-d1",
+      dayNumber: 1,
+      titleEn: "Light and Shadows Quiz",
+      titleMy: "အလင်းနှင့် အရိပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is a luminous object -- one that produces its own light?",
+          questionMy:
+              "အောက်ပါတို့အနက် အလင်းထုတ်လွှတ်ပစ္စည်း (luminous object) ဖြစ်သည်မှာ အဘယ်နည်း -- မိမိကိုယ်ပိုင် အလင်းထုတ်လွှတ်နိုင်သောအရာ။",
+          optionsEn: ["The Sun", "The Moon", "This book", "A person"],
+          optionsMy: ["နေ", "လ", "ဤစာအုပ်", "လူတစ်ဦး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's quiz -- energy can move an object, heat something up, or produce light or sound. A luminous object is one making that light energy itself, like the Sun.",
+            "The Moon, this book, and a person don't create any light of their own -- if it wouldn't glow in a completely dark room with no other light source, it isn't luminous.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ ပဟေဋ္ဌိကို သတိရပါ -- စွမ်းအင်သည် ပစ္စည်းတစ်ခုကို ရွှေ့ပြောင်းနိုင်၊ တစ်ခုခုကို ပူစေနိုင်၊ (သို့) အလင်း (သို့) အသံ ထုတ်ပေးနိုင်သည်။ အလင်းထုတ်လွှတ်ပစ္စည်းဆိုသည်မှာ ထိုအလင်းစွမ်းအင်ကို နေကဲ့သို့ မိမိကိုယ်တိုင် ထုတ်လွှတ်နေသောအရာ ဖြစ်သည်။",
+            "လ၊ ဤစာအုပ်နှင့် လူတစ်ဦးတို့သည် မိမိကိုယ်ပိုင်အလင်း လုံးဝ မထုတ်လွှတ်ကြပါ -- အခြားအလင်းရင်းမြစ် လုံးဝမရှိသော အမှောင်ခန်းထဲတွင် ထိုပစ္စည်းသည် တောက်ပမည် မဟုတ်ပါက ၎င်းသည် အလင်းထုတ်လွှတ်ပစ္စည်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Moon is non-luminous and produces no light of its own. Why can we still see it shining at night?",
+          questionMy:
+              "လသည် အလင်းမထုတ်လွှတ်ပစ္စည်း (non-luminous) ဖြစ်ပြီး မိမိကိုယ်ပိုင် အလင်း လုံးဝ မထုတ်လွှတ်ပါ။ ညအချိန်တွင် ၎င်းကို အလင်းထွန်းနေသည်ဟု ငါတို့ အဘယ့်ကြောင့် မြင်ရသေးသနည်း။",
+          optionsEn: [
+            "Light from the Sun reflects off its surface into our eyes",
+            "The Moon produces its own light like a star",
+            "Our eyes emit light that lights up the Moon",
+            "The Moon only glows because it is very cold",
+          ],
+          optionsMy: [
+            "နေမှ အလင်းရောင်သည် ၎င်း၏မျက်နှာပြင်ပေါ်တွင် ရောင်ပြန်ဟပ်ပြီး ငါတို့မျက်စိထဲသို့ ဝင်ရောက်လာသောကြောင့်",
+            "ကြယ်တစ်လုံးကဲ့သို့ လသည် မိမိကိုယ်ပိုင်အလင်းကို ထုတ်လွှတ်သောကြောင့်",
+            "ငါတို့မျက်စိများက အလင်းထုတ်လွှတ်ပြီး လကို ထွန်းလင်းစေသောကြောင့်",
+            "လသည် အလွန်အေးမြသောကြောင့်သာ ထွန်းလင်းနေခြင်း ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's torch -- it made its own light directly from its battery. The Moon has no such energy store of its own to produce light.",
+            "Think of a mirror bouncing sunlight into your eyes -- the Moon's surface works in a similar way, reflecting the Sun's light rather than making its own.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ လက်ပြကို သတိရပါ -- ၎င်းသည် ဘက်ထရီမှ မိမိကိုယ်ပိုင်အလင်းကို တိုက်ရိုက် ပြုလုပ်ခဲ့သည်။ လတွင် အလင်းပြုလုပ်ရန် ထိုကဲ့သို့သော စွမ်းအင်သိုလှောင်မှု မရှိပါ။",
+            "မှန်တစ်ခုက နေရောင်ကို သင့်မျက်စိထဲသို့ ရောင်ပြန်ဟပ်စေသည့်ပုံစံကို စဉ်းစားပါ -- လ၏ မျက်နှာပြင်သည် ဆင်တူသောနည်းလမ်းဖြင့် နေ၏ အလင်းကို ရောင်ပြန်ဟပ်ပေးသည်၊ မိမိကိုယ်ပိုင် မပြုလုပ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A torch beam shone through a dusty room, and sunlight breaking through gaps in the clouds, both look like sharp, straight lines. What does this show about how light travels?",
+          questionMy:
+              "ဖုံမှုန့်များရှိသောအခန်းတစ်ခန်းအတွင်းသို့ လက်ပြရောင်ခြည်ထိုးထားခြင်းနှင့် တိမ်များကြားရှိ အကွက်လပ်များမှ နေရောင်ထွက်ပေါ်လာခြင်း နှစ်ခုစလုံးသည် ထက်မြက်သော ဖြောင့်တန်းသောလိုင်းများကဲ့သို့ မြင်ရသည်။ ၎င်းသည် အလင်းသွားလာပုံနှင့် ပတ်သက်၍ အဘယ်ကို ပြသနေသနည်း။",
+          optionsEn: [
+            "Light always travels in straight lines",
+            "Light travels in curves that we cannot see",
+            "Light only exists where there is dust or clouds",
+            "Light does not actually move at all",
+          ],
+          optionsMy: [
+            "အလင်းသည် အမြဲတမ်း ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားသည်",
+            "အလင်းသည် ငါတို့မမြင်နိုင်သော ကွေးညွှတ်သောလမ်းကြောင်းအတိုင်း ခရီးသွားသည်",
+            "အလင်းသည် ဖုံမှုန့် (သို့) တိမ်ရှိမှသာ တည်ရှိသည်",
+            "အလင်းသည် အမှန်တကယ် လှုပ်ရှားမှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's torch example -- its beam only ever shoots out from the bulb in one direction, never curving to reach around a corner.",
+            "If light could bend around obstacles, a shadow would have soft, blurry edges instead of a sharp outline matching the exact shape of whatever is blocking it.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ လက်ပြဥပမာကို သတိရပါ -- ၎င်း၏ရောင်ခြည်သည် မီးလုံးမှ တစ်ဦးတည်းသောဦးတည်ရာသို့သာ ထွက်ပြီး ထောင့်တစ်ခုကို ကွေ့ပတ်၍ လုံးဝ မသွားနိုင်ပါ။",
+            "အလင်းသည် အတားအဆီးများကို ကွေ့ပတ်နိုင်ပါက အရိပ်သည် ပိတ်ဆို့နေသောအရာ၏ အတိအကျပုံသဏ္ဌာန်နှင့် ကိုက်ညီသော ထက်မြက်သောဘောင်အစား နူးညံ့ပျပ်ပြေသောဘောင် ရှိလိမ့်မည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Frosted glass lets light through, so a room behind it looks bright -- but you cannot see a clear image of what's on the other side, only blurred shapes. What kind of material is this?",
+          questionMy:
+              "ဖန်မှုန့် (frosted glass) သည် အလင်းကို ဖြတ်သန်းစေသဖြင့် ၎င်း၏နောက်ကွယ်ရှိအခန်းသည် တောက်ပနေပုံရသော်လည်း အခြားဘက်ရှိအရာကို ရှင်းလင်းစွာ မမြင်ရဘဲ ဝါးနေသောပုံသဏ္ဌာန်များသာ မြင်ရသည်။ ၎င်းသည် မည်သည့်အမျိုးအစား ပစ္စည်း ဖြစ်သနည်း။",
+          optionsEn: ["Translucent", "Transparent", "Opaque", "Luminous"],
+          optionsMy: [
+            "တစ်ပိုင်းပွင့်လင်းသောပစ္စည်း (Translucent)",
+            "ပွင့်လင်းမြင်သာသောပစ္စည်း (Transparent)",
+            "အလင်းပိတ်ဆို့ပစ္စည်း (Opaque)",
+            "အလင်းထုတ်လွှတ်ပစ္စည်း (Luminous)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 7's torch beam, always travelling in straight lines -- now think about what happens when that straight beam meets a material that scatters it in many directions instead of stopping it or passing it through cleanly.",
+            "Compare it to a closed wooden door, which blocks light completely, and clean glass, which lets light pass straight through -- frosted glass sits in between those two.",
+          ],
+          hintsMy: [
+            "Week 7 ၏ လက်ပြရောင်ခြည်သည် အမြဲဖြောင့်တန်းစွာ ခရီးသွားကြောင်း သတိရပါ -- ယခု ထိုဖြောင့်တန်းသောရောင်ခြည်သည် လုံးဝပိတ်ဆို့ခြင်း (သို့) ရှင်းလင်းစွာ ဖြတ်သန်းစေခြင်းအစား ဦးတည်ရာများစွာသို့ ကွဲထွက်စေသော ပစ္စည်းတစ်ခုနှင့် တွေ့သောအခါ အဘယ်ဖြစ်မည်ကို စဉ်းစားပါ။",
+            "အလင်းကို လုံးဝပိတ်ဆို့သော ပိတ်ထားသောသစ်သားတံခါးနှင့် အလင်းကို ဖြောင့်တန်းစွာ ဖြတ်သန်းစေသော ဖန်သားရှင်းရှင်းတို့နှင့် နှိုင်းယှဉ်ကြည့်ပါ -- ဖန်မှုန့်သည် ထိုနှစ်ခုကြားရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match the Light Vocabulary",
+      titleMy: "အလင်းဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w21-dm-1",
+          termEn: "Luminous Object",
+          termMy: "အလင်းထုတ်လွှတ်ပစ္စည်း (Luminous Object)",
+          matchEn:
+              "An object that produces its own light, such as the Sun, a flame, or a light bulb.",
+          matchMy:
+              "နေ၊ မီးလျှံ (သို့) မီးလုံးကဲ့သို့ မိမိကိုယ်ပိုင်အလင်းကို ထုတ်လွှတ်နိုင်သော ပစ္စည်း။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "s1sci-w21-dm-2",
+          termEn: "Non-Luminous Object",
+          termMy: "အလင်းမထုတ်လွှတ်ပစ္စည်း (Non-Luminous Object)",
+          matchEn:
+              "An object producing no light of its own, seen only because light from a luminous source reflects off it into our eyes -- like the Moon, this book, or a person.",
+          matchMy:
+              "လ၊ ဤစာအုပ် (သို့) လူတစ်ဦးကဲ့သို့ မိမိကိုယ်ပိုင်အလင်း လုံးဝမထုတ်လွှတ်ဘဲ အလင်းထုတ်လွှတ်ပစ္စည်းတစ်ခုမှ အလင်းရောင်ပြန်ဟပ်၍ ငါတို့မျက်စိထဲသို့ ရောက်ရှိမှသာ မြင်ရသော ပစ္စည်း။",
+          colorValue: 0xFF5C6BC0,
+        ),
+        DragMatchPair(
+          id: "s1sci-w21-dm-3",
+          termEn: "Rectilinear Propagation",
+          termMy:
+              "ဖြောင့်တန်းသောလမ်းကြောင်း ခရီးသွားခြင်း (Rectilinear Propagation)",
+          matchEn:
+              "The fact that light always travels in straight lines -- shown by a sharp-edged torch beam or sunlight breaking through gaps in clouds or leaves.",
+          matchMy:
+              "အလင်းသည် အမြဲတမ်း ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားခြင်း -- လက်ပြရောင်ခြည်၏ ထက်မြက်သောဘောင် (သို့) တိမ်များ/သစ်ရွက်များကြားမှ ထွက်ပေါ်လာသော နေရောင်ဖြင့် သက်သေပြသော အချက်။",
+          colorValue: 0xFF26A69A,
+        ),
+        DragMatchPair(
+          id: "s1sci-w21-dm-4",
+          termEn: "Opaque",
+          termMy: "အလင်းပိတ်ဆို့ပစ္စည်း (Opaque)",
+          matchEn:
+              "A material that blocks light completely, letting none pass through -- like wood, metal, or a closed door -- and casts a shadow.",
+          matchMy:
+              "သစ်သား၊ သတ္တု (သို့) ပိတ်ထားသောတံခါးကဲ့သို့ အလင်းကို လုံးဝ ပိတ်ဆို့ကာ တစ်စက်မျှ ဖြတ်သန်းခွင့် မပြုသော ပစ္စည်း -- အရိပ်ကျစေသည်။",
+          colorValue: 0xFF8D6E63,
+        ),
+        DragMatchPair(
+          id: "s1sci-w21-dm-5",
+          termEn: "Transparent",
+          termMy: "ပွင့်လင်းမြင်သာသောပစ္စည်း (Transparent)",
+          matchEn:
+              "A material that lets almost all light pass straight through with barely any scattering -- like clean glass or still, clear water.",
+          matchMy:
+              "ဖန်သားရှင်းရှင်း (သို့) ငြိမ်သက်သောရေရှင်းရှင်းကဲ့သို့ အလင်းအားလုံးနီးပါးကို ကွဲထွက်မှု အနည်းငယ်မျှသာဖြင့် ဖြောင့်တန်းစွာ ဖြတ်သန်းစေသော ပစ္စည်း။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w21-dm-6",
+          termEn: "Translucent",
+          termMy: "တစ်ပိုင်းပွင့်လင်းသောပစ္စည်း (Translucent)",
+          matchEn:
+              "A material that lets some light through but scatters it, giving brightness or blurred shapes rather than a clear image -- like frosted glass, tracing paper, or thin cloth.",
+          matchMy:
+              "ဖန်မှုန့်၊ ကူးစာရွက် (သို့) အထည်ပါးပါးကဲ့သို့ အလင်းအချို့ကို ဖြတ်သန်းစေသော်လည်း ကွဲထွက်စေကာ ရှင်းလင်းသောပုံရိပ်အစား တောက်ပမှု (သို့) ဝါးနေသောပုံသဏ္ဌာန်များသာ ပေးသော ပစ္စည်း။",
+          colorValue: 0xFFCE93D8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Opaque or Lets Light Through?",
+      titleMy: "စီစစ်ကြမည် - အလင်းပိတ်ဆို့သလား၊ ဖြတ်သန်းစေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Opaque (Blocks Light)",
+          "Transparent or Translucent (Lets Light Through)",
+        ],
+        bucketsMy: [
+          "အလင်းပိတ်ဆို့ (Opaque)",
+          "အလင်းဖြတ်သန်းစေ (Transparent/Translucent)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w21-sort-1",
+            labelEn: "Wood",
+            labelMy: "သစ်သား",
+            correctBucketEn: "Opaque (Blocks Light)",
+            correctBucketMy: "အလင်းပိတ်ဆို့ (Opaque)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-2",
+            labelEn: "Clean glass",
+            labelMy: "ဖန်သားရှင်းရှင်း",
+            correctBucketEn: "Transparent or Translucent (Lets Light Through)",
+            correctBucketMy: "အလင်းဖြတ်သန်းစေ (Transparent/Translucent)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-3",
+            labelEn: "Metal spoon",
+            labelMy: "သတ္တုဇွန်း",
+            correctBucketEn: "Opaque (Blocks Light)",
+            correctBucketMy: "အလင်းပိတ်ဆို့ (Opaque)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-4",
+            labelEn: "Frosted glass",
+            labelMy: "ဖန်မှုန့်",
+            correctBucketEn: "Transparent or Translucent (Lets Light Through)",
+            correctBucketMy: "အလင်းဖြတ်သန်းစေ (Transparent/Translucent)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-5",
+            labelEn: "Closed wooden door",
+            labelMy: "ပိတ်ထားသောသစ်သားတံခါး",
+            correctBucketEn: "Opaque (Blocks Light)",
+            correctBucketMy: "အလင်းပိတ်ဆို့ (Opaque)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-6",
+            labelEn: "Tracing paper",
+            labelMy: "ကူးစာရွက်",
+            correctBucketEn: "Transparent or Translucent (Lets Light Through)",
+            correctBucketMy: "အလင်းဖြတ်သန်းစေ (Transparent/Translucent)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-7",
+            labelEn: "Brick wall",
+            labelMy: "အုတ်နံရံ",
+            correctBucketEn: "Opaque (Blocks Light)",
+            correctBucketMy: "အလင်းပိတ်ဆို့ (Opaque)",
+          ),
+          SortingItem(
+            id: "s1sci-w21-sort-8",
+            labelEn: "Still, clear water",
+            labelMy: "ငြိမ်သက်ပြီး ရှင်းလင်းသောရေ",
+            correctBucketEn: "Transparent or Translucent (Lets Light Through)",
+            correctBucketMy: "အလင်းဖြတ်သန်းစေ (Transparent/Translucent)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thazin's Shadow Puppets",
+      titleMy: "စာဖတ်ခြင်း - သဇင်၏ အရိပ်ရုပ်များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thazin's Shadow Puppets",
+        titleMy: "သဇင်၏ အရိပ်ရုပ်များ",
+        passageEn:
+            "One evening, Thazin and her little brother Aung Aung stretched a white bedsheet across the living room and set up a torch on a stool facing it. Thazin switched the torch on, and its beam cut straight through the dim room in a clean, unwavering line, even as tiny dust motes drifted through it -- the light never curved to follow them.\n\nThazin shaped her hand into a rabbit and held it in the beam's path. A crisp rabbit-shaped shadow appeared on the sheet, its ears and edges matching her fingers exactly. She realized the shadow only formed on the sheet's side facing away from the torch, in the space directly behind her hand -- because the torch's straight rays could not bend around her hand to reach that spot at all.\n\nAung Aung wanted to try something. He moved his own hand-shape closer to the torch while the sheet stayed exactly where it was, and his shadow grew noticeably bigger, spreading wider across the sheet. Then he moved his hand back toward the sheet instead, keeping the torch fixed, and the shadow shrank down to a small, neat shape. Thazin explained that the torch's straight rays spread wider the further they travelled -- an object close to the torch blocked more of that widening spread by the time it reached the sheet, while an object close to the sheet blocked only a narrow part of it.\n\nCurious now, they tested other things. A thick storybook, held in the beam, blocked it completely and cast a dark, sharp-edged shadow -- clearly opaque. A clear plastic ruler let the light pass almost straight through, barely leaving any shadow at all -- transparent. But a thin paper lampshade only softened the beam into a gentle, blurred glow with no sharp shadow whatsoever -- translucent, Thazin remembered, scattering the light instead of blocking or passing it cleanly. By the end of the evening, both of them agreed shadow puppets made far more sense now than before.",
+        passageMy:
+            "တစ်ညနေခင်းတွင် သဇင်နှင့် သူမ၏ညီလေး အောင်အောင်တို့သည် အိမ်ရှေ့ခန်းအတွင်း အဖြူရောင် အိပ်ရာခင်းတစ်ထည်ကို ဆန့်တန်းပြီး ၎င်းရှေ့တွင် စားပွဲတန်းငယ်တစ်ခုပေါ်၌ လက်ပြတစ်ခုကို တင်ထားခဲ့ကြသည်။ သဇင်သည် လက်ပြကို ဖွင့်လိုက်ရာ ၎င်း၏ရောင်ခြည်သည် မှုန်ဝါးသောအခန်းကို ရှင်းလင်းတည်ငြိမ်သော လိုင်းတစ်ခုအဖြစ် တိုက်ရိုက် ဖြတ်ကျော်သွားပြီး ဖုံမှုန့်အသေးစားများ ၎င်းအတွင်းမှ ပျံဝဲနေသော်လည်း အလင်းသည် ၎င်းတို့ကို လိုက်၍ တစ်ခါမျှ မကွေ့ခဲ့ပါ။\n\nသဇင်သည် သူမ၏လက်ကို ယုန်ပုံသဏ္ဌာန်အဖြစ် ပြုလုပ်ပြီး ရောင်ခြည်လမ်းကြောင်းထဲသို့ ထားလိုက်သည်။ ခင်းကားပေါ်တွင် ယုန်ပုံသဏ္ဌာန် ထက်မြက်သောအရိပ်တစ်ခု ပေါ်လာပြီး ၎င်း၏နားများနှင့် အနားသတ်များသည် သူမ၏လက်ချောင်းများနှင့် အတိအကျ ကိုက်ညီနေသည်။ ထိုအရိပ်သည် လက်ပြနှင့် ဆန့်ကျင်ဘက်ရှိ ခင်းကား၏အစိတ်အပိုင်း၊ တစ်နည်းအားဖြင့် သူမလက်၏ တိုက်ရိုက်နောက်ကွယ်ရှိ နေရာတွင်သာ ပေါ်ကြောင်း သူမ သဘောပေါက်ခဲ့သည် -- အကြောင်းမှာ လက်ပြ၏ ဖြောင့်တန်းသောရောင်ခြည်များသည် သူမလက်ကို ကွေ့ပတ်၍ ထိုနေရာသို့ လုံးဝ မရောက်နိုင်သောကြောင့် ဖြစ်သည်။\n\nအောင်အောင်သည် တစ်ခုခု စမ်းသပ်ကြည့်လိုသည်။ ခင်းကားကို နေရာအတိုင်း ထားလျက် သူ့ကိုယ်ပိုင်လက်ပုံသဏ္ဌာန်ကို လက်ပြအနီးသို့ ရွှေ့ချဉ်းကပ်ခဲ့ရာ သူ့အရိပ်သည် သိသိသာသာ ကြီးထွားလာပြီး ခင်းကားတစ်လျှောက် ပိုမိုကျယ်ပြန့်စွာ ပြန့်ကျဲသွားသည်။ ထို့နောက် လက်ပြကို နေရာအတိုင်းထားလျက် သူ့လက်ကို ခင်းကားဘက်သို့ ပြန်ရွှေ့ခဲ့ရာ အရိပ်သည် သေးငယ်သော အသေးစားပုံသဏ္ဌာန်တစ်ခုအဖြစ် ကျုံ့သွားသည်။ သဇင်သည် လက်ပြ၏ ဖြောင့်တန်းသောရောင်ခြည်များသည် ဝေးလေ ပိုကျယ်ပြန့်လေ ဖြစ်ကြောင်းနှင့် လက်ပြနှင့် နီးသောအရာဝတ္ထုသည် ခင်းကားသို့ ရောက်ချိန်တွင် ထိုကျယ်ပြန့်နေသော ရောင်ခြည်အစုကို ပိုမိုများများ ပိတ်ဆို့ကြောင်း၊ ခင်းကားနှင့် နီးသောအရာဝတ္ထုကမူ ၎င်း၏ကျဉ်းမြောင်းသောအစိတ်အပိုင်းကိုသာ ပိတ်ဆို့ကြောင်း ရှင်းပြခဲ့သည်။\n\nစိတ်ဝင်စားလာသဖြင့် သူတို့သည် အခြားအရာများကို ဆက်လက် စမ်းသပ်ခဲ့ကြသည်။ ရောင်ခြည်လမ်းကြောင်းထဲတွင် ထားလိုက်သော ထူထဲသည့် ဇာတ်လမ်းစာအုပ်တစ်အုပ်သည် ရောင်ခြည်ကို လုံးဝ ပိတ်ဆို့ကာ မှောင်မိုက်ပြီး အနားသတ် ထက်မြက်သောအရိပ်တစ်ခု ကျစေသည် -- ရှင်းရှင်းလင်းလင်း အလင်းပိတ်ဆို့ပစ္စည်းပင်။ ဖန်ပလတ်စတစ် ဘီရူးတစ်ချောင်းကမူ အလင်းကို နီးပါးဖြောင့်တန်းစွာ ဖြတ်သန်းစေကာ အရိပ်ကို အနည်းငယ်မျှသာ ကျန်ရစ်ခဲ့သည် -- ပွင့်လင်းမြင်သာသောပစ္စည်းပင်။ သို့သော် စက္ကူပါးပါးပြုလုပ်ထားသော မီးမှောင်ဖုံးတစ်ခုကမူ ရောင်ခြည်ကို ညင်သာသော ဝါးနေသောအရောင်အဖြစ်သာ ပြောင်းလဲစေပြီး ထက်မြက်သောအရိပ် လုံးဝ မကျခဲ့ပါ -- ၎င်းသည် အလင်းကို ပိတ်ဆို့ခြင်း (သို့) ရှင်းလင်းစွာဖြတ်သန်းစေခြင်းအစား ကွဲထွက်စေသည့် တစ်ပိုင်းပွင့်လင်းသောပစ္စည်း ဖြစ်ကြောင်း သဇင် သတိရမိခဲ့သည်။ ညနေခင်း အဆုံးတွင် နှစ်ဦးစလုံးသည် အရိပ်ရုပ်များသည် ယခင်ကထက် ပို၍ အဓိပ္ပာယ်ရှိလာကြောင်း သဘောတူခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Thazin's hand-shadow appear only on the side of the sheet facing away from the torch?",
+            questionMy:
+                "လက်ပြနှင့် ဆန့်ကျင်ဘက်ရှိ ခင်းကားဘက်တွင်သာ သဇင်၏ လက်အရိပ် အဘယ့်ကြောင့် ပေါ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because straight-line light rays cannot bend around her opaque hand to reach that space",
+              "Because her hand produces its own darkness",
+              "Because the torch's light bounced backward instead of forward",
+              "Because shadows always appear on the side facing the light",
+            ],
+            optionsMy: [
+              "ဖြောင့်တန်းသောရောင်ခြည်များသည် သူမ၏အလင်းပိတ်ဆို့လက်ကို ကွေ့ပတ်၍ ထိုနေရာသို့ မရောက်နိုင်သောကြောင့်",
+              "သူမလက်သည် မိမိကိုယ်ပိုင် အမှောင်ကို ထုတ်လွှတ်သောကြောင့်",
+              "လက်ပြရောင်ခြည်သည် ရှေ့သို့မဟုတ်ဘဲ နောက်သို့ ခုန်ပြန်ခဲ့သောကြောင့်",
+              "အရိပ်သည် အလင်းရင်းမြစ်နှင့်ဒေါင်လိုက်ရှိသောဘက်တွင် အမြဲ ပေါ်လေ့ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, where Thazin worked out exactly why the shadow only appeared on that one side.",
+              "Recall Day 1's third question about the torch beam and gaps in clouds -- straight-line travel is exactly what explains this.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဤအရိပ်သည် တစ်ဘက်တည်းတွင်သာ အဘယ့်ကြောင့် ပေါ်ခဲ့သည်ကို သဇင် အတိအကျ ဖော်ထုတ်ခဲ့သည်။",
+              "လက်ပြရောင်ခြည်နှင့် တိမ်ကြားအကွက်လပ်များနှင့်ပတ်သက်သော ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ဖြောင့်တန်းစွာ ခရီးသွားခြင်းသည် ဤအချက်ကို အတိအကျ ရှင်းပြသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happened to the shadow's size when Aung Aung moved his hand closer to the torch, while the sheet stayed in the same place?",
+            questionMy:
+                "ခင်းကားကို နေရာအတိုင်းထားလျက် အောင်အောင်၏လက်ကို လက်ပြအနီးသို့ ရွှေ့ချဉ်းကပ်လိုက်သောအခါ အရိပ်၏အရွယ်အစားတွင် အဘယ်ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "The shadow grew noticeably bigger",
+              "The shadow shrank smaller",
+              "The shadow disappeared completely",
+              "Nothing changed at all",
+            ],
+            optionsMy: [
+              "အရိပ်သည် သိသိသာသာ ကြီးထွားလာသည်",
+              "အရိပ်သည် သေးငယ်လာသည်",
+              "အရိပ်သည် လုံးဝ ပျောက်ကွယ်သွားသည်",
+              "ဘာမျှ လုံးဝ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, where Aung Aung experiments with moving his hand toward the torch.",
+              "Think about the straight-line rays spreading wider from the torch -- the closer the hand is to the source, the more of that spreading beam it blocks by the time it reaches the sheet.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အောင်အောင်သည် သူ့လက်ကို လက်ပြဘက်သို့ ရွှေ့ရန် စမ်းသပ်ခဲ့သည်။",
+              "လက်ပြမှ ပိုမိုကျယ်ပြန့်လာသော ဖြောင့်တန်းသောရောင်ခြည်များကို စဉ်းစားပါ -- လက်သည် ရင်းမြစ်နှင့် နီးလေ ခင်းကားသို့ ရောက်ချိန်တွင် ထိုကျယ်ပြန့်နေသော ရောင်ခြည်အစုကို ပိုမိုများများ ပိတ်ဆို့လေ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which material, tested by Thazin and Aung Aung, gave only a soft, blurred glow rather than a sharp shadow?",
+            questionMy:
+                "သဇင်နှင့် အောင်အောင်တို့ စမ်းသပ်ခဲ့သော ပစ္စည်းများအနက် ထက်မြက်သောအရိပ်အစား ညင်သာသော ဝါးနေသောအရောင်ကိုသာ ပေးခဲ့သည်မှာ အဘယ်ပစ္စည်း ဖြစ်သနည်း။",
+            optionsEn: [
+              "The thin paper lampshade (translucent)",
+              "The thick storybook (opaque)",
+              "The clear plastic ruler (transparent)",
+              "None of the materials tested",
+            ],
+            optionsMy: [
+              "စက္ကူပါးပါး မီးမှောင်ဖုံး (translucent)",
+              "ထူထဲသည့် ဇာတ်လမ်းစာအုပ် (opaque)",
+              "ဖန်ပလတ်စတစ် ဘီရူး (transparent)",
+              "စမ်းသပ်ခဲ့သော ပစ္စည်းများထဲမှ မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which lists three different materials and describes how each one behaved.",
+              "Recall Day 1's fourth question about frosted glass -- this material behaves the same way, scattering light instead of blocking or passing it cleanly.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းတွင် မတူညီသောပစ္စည်းသုံးမျိုးနှင့် တစ်ခုစီ မည်သို့ လုပ်ဆောင်ခဲ့သည်ကို စာရင်းပြုစုထားသည်။",
+              "ဖန်မှုန့်နှင့်ပတ်သက်သော ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ဤပစ္စည်းသည် လုံးဝပိတ်ဆို့ခြင်း (သို့) ရှင်းလင်းစွာဖြတ်သန်းစေခြင်းအစား ကွဲထွက်စေသော အလားတူပုံစံဖြင့် လုပ်ဆောင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why could Thazin and Aung Aung barely see any shadow at all from the clear plastic ruler?",
+            questionMy:
+                "ဖန်ပလတ်စတစ် ဘီရူးမှ အရိပ်ကို သဇင်နှင့် အောင်အောင်တို့ အဘယ့်ကြောင့် ရှားရှားပါးပါးသာ မြင်ရခဲ့သနည်း။",
+            optionsEn: [
+              "Because it is transparent, letting almost all light pass straight through with barely any scattering",
+              "Because it is opaque, blocking all light completely",
+              "Because it produces its own light like the torch",
+              "Because it is exactly the same material as the storybook",
+            ],
+            optionsMy: [
+              "ဖန်ပလတ်စတစ်သည် ပွင့်လင်းမြင်သာသော ပစ္စည်းဖြစ်ပြီး အလင်းအားလုံးနီးပါးကို ကွဲထွက်မှု အနည်းငယ်မျှသာဖြင့် ဖြောင့်တန်းစွာ ဖြတ်သန်းစေသောကြောင့်",
+              "ဖန်ပလတ်စတစ်သည် အလင်းပိတ်ဆို့ပစ္စည်းဖြစ်ပြီး အလင်းကို လုံးဝ ပိတ်ဆို့သောကြောင့်",
+              "ဖန်ပလတ်စတစ်သည် လက်ပြကဲ့သို့ မိမိကိုယ်ပိုင်အလင်းကို ထုတ်လွှတ်သောကြောင့်",
+              "ဖန်ပလတ်စတစ်သည် ဇာတ်လမ်းစာအုပ်နှင့် အတိအကျတူညီသော ပစ္စည်းဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph's description of the ruler specifically.",
+              "Recall Day 2's drag-match definition of a transparent material -- almost all the light passes straight through it.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်တွင် ဘီရူးကို ဖော်ပြထားချက်ကို ပြန်ဖတ်ပါ။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ ပွင့်လင်းမြင်သာသောပစ္စည်း အနိဿယအဓိပ္ပာယ်ကို သတိရပါ -- အလင်းအားလုံးနီးပါးသည် ၎င်းကို ဖြောင့်တန်းစွာ ဖြတ်သန်းသွားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Light and Shadows",
+      titleMy: "အပတ်စဉ် ၂၁ ပြန်လည်သုံးသပ်ခြင်း - အလင်းနှင့် အရိပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a luminous and a non-luminous object?",
+          questionMy:
+              "အလင်းထုတ်လွှတ်ပစ္စည်းနှင့် အလင်းမထုတ်လွှတ်ပစ္စည်းကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A luminous object produces its own light; a non-luminous object is seen only via reflected light",
+            "They are exactly the same thing",
+            "A non-luminous object is always bigger in size",
+            "A luminous object never gives off any heat",
+          ],
+          optionsMy: [
+            "အလင်းထုတ်လွှတ်ပစ္စည်းသည် မိမိကိုယ်ပိုင်အလင်းကို ထုတ်လွှတ်ပြီး၊ အလင်းမထုတ်လွှတ်ပစ္စည်းကို ရောင်ပြန်ဟပ်သောအလင်းမှတစ်ဆင့်သာ မြင်ရသည်",
+            "၎င်းတို့နှစ်ခုသည် အတိအကျ တူညီသည်",
+            "အလင်းမထုတ်လွှတ်ပစ္စည်းသည် အမြဲတမ်း ပိုကြီးသည်",
+            "အလင်းထုတ်လွှတ်ပစ္စည်းသည် အပူ လုံးဝ မထုတ်လွှတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first two questions about the Sun and the Moon.",
+            "Recall Week 7's quiz -- producing light is one of the things a source of energy, like the Sun, can do.",
+          ],
+          hintsMy: [
+            "နေနှင့် လနှင့်ပတ်သက်သော ပထမနေ့ ပထမနှင့်ဒုတိယမေးခွန်းများကို သတိရပါ။",
+            "Week 7 ၏ ပဟေဋ္ဌိကို သတိရပါ -- နေကဲ့သို့ စွမ်းအင်ရင်းမြစ်တစ်ခု ပြုလုပ်နိုင်သော အရာများထဲတွင် အလင်းထုတ်လွှတ်ခြင်းလည်း တစ်ခုအပါအဝင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What evidence shows that light travels in straight lines?",
+          questionMy:
+              "အလင်းသည် ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားကြောင်း သက်သေပြသော အထောက်အထားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Sharp torch beams and shadows with edges matching the exact shape of the blocking object",
+            "Light bending smoothly around corners",
+            "Shadows having no clear edges at all",
+            "Light never forming any shadows",
+          ],
+          optionsMy: [
+            "ထက်မြက်သောလက်ပြရောင်ခြည်များနှင့် ပိတ်ဆို့နေသောပစ္စည်း၏ အတိအကျပုံသဏ္ဌာန်နှင့် ကိုက်ညီသောအနားများရှိသော အရိပ်များ",
+            "ထောင့်များကို ချောမွေ့စွာ ကွေ့ပတ်နေသောအလင်း",
+            "ရှင်းလင်းသောအနားမျှ လုံးဝမရှိသောအရိပ်များ",
+            "အရိပ်ကို လုံးဝ မဖြစ်စေသောအလင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Thazin's rabbit-shaped shadow from Day 4's reading.",
+            "Recall Week 7's torch beam -- it only ever shoots in one direction from the bulb, never curving around anything.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စတုတ္ထနေ့ စာဖတ်ခြင်းမှ သဇင်၏ ယုန်ပုံသဏ္ဌာန်အရိပ်ကို သတိရပါ။",
+            "Week 7 ၏ လက်ပြရောင်ခြည်ကို သတိရပါ -- ၎င်းသည် မီးလုံးမှ တစ်ဦးတည်းသောဦးတည်ရာသို့သာ ထွက်ပြီး မည်သည့်အရာကိုမျှ ကွေ့ပတ်၍ မသွားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a shadow form on the side of an opaque object facing away from the light source?",
+          questionMy:
+              "အလင်းရင်းမြစ်နှင့် ဆန့်ကျင်ဘက်ရှိ အလင်းပိတ်ဆို့ပစ္စည်း၏ တစ်ဘက်တွင် အရိပ် အဘယ့်ကြောင့် ဖြစ်ပေါ်သနည်း။",
+          optionsEn: [
+            "Because straight-line light rays cannot bend around the object to reach that space",
+            "Because that side of the object produces its own darkness",
+            "Because light always avoids the far side of any object",
+            "Because the object absorbs all light equally on every side",
+          ],
+          optionsMy: [
+            "ဖြောင့်တန်းသောရောင်ခြည်များသည် ပစ္စည်းကို ကွေ့ပတ်၍ ထိုနေရာသို့ မရောက်နိုင်သောကြောင့်",
+            "ပစ္စည်း၏ ထိုဘက်သည် မိမိကိုယ်ပိုင် အမှောင်ကို ထုတ်လွှတ်သောကြောင့်",
+            "အလင်းသည် ပစ္စည်းတိုင်း၏ ဝေးကွာသောဘက်ကို အမြဲ ရှောင်ကြဉ်သောကြောင့်",
+            "ပစ္စည်းသည် ဘက်တိုင်းတွင် အလင်းကို အညီအမျှ စုပ်ယူသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading, where Thazin worked out exactly this about her hand-shadow.",
+            "Recall Day 1's third question -- if light could bend around obstacles, shadows wouldn't have sharp, exact-shape edges.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းကို သတိရပါ -- သဇင်သည် သူမ၏လက်အရိပ်နှင့်ပတ်သက်၍ ဤအချက်ကို အတိအကျ ရှာဖွေတွေ့ရှိခဲ့သည်။",
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- အလင်းသည် အတားအဆီးများကို ကွေ့ပတ်နိုင်ပါက အရိပ်များတွင် ထက်မြက်၍ အတိအကျပုံသဏ္ဌာန်ရှိသော အနားများ ရှိလိမ့်မည် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If an opaque object stays the same distance from the screen but moves closer to the light source, what happens to its shadow?",
+          questionMy:
+              "အလင်းပိတ်ဆို့ပစ္စည်းတစ်ခုသည် မျက်နှာပြင်မှ အကွာအဝေးအတိုင်း ရှိနေစဉ် အလင်းရင်းမြစ်ဘက်သို့ ပိုနီးလာပါက ၎င်း၏အရိပ်တွင် အဘယ်ဖြစ်လာမည်နည်း။",
+          optionsEn: [
+            "It gets bigger",
+            "It gets smaller",
+            "It disappears completely",
+            "It stays exactly the same size",
+          ],
+          optionsMy: [
+            "ကြီးထွားလာသည်",
+            "သေးငယ်လာသည်",
+            "လုံးဝ ပျောက်ကွယ်သွားသည်",
+            "အရွယ်အစား အတိအကျ တူညီနေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading -- Aung Aung tested exactly this by moving his hand toward the torch while the sheet stayed fixed.",
+            "Think about the straight-line rays spreading wider as they travel further from the source -- an object closer to the source blocks a larger share of that widening spread.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းကို သတိရပါ -- ခင်းကားကို နေရာအတိုင်းထားလျက် အောင်အောင်သည် သူ့လက်ကို လက်ပြဘက်သို့ ရွှေ့ခြင်းဖြင့် ဤအချက်ကို အတိအကျ စမ်းသပ်ခဲ့သည်။",
+            "ရင်းမြစ်မှ ဝေးလေ ပိုကျယ်ပြန့်လာသော ဖြောင့်တန်းသောရောင်ခြည်များကို စဉ်းစားပါ -- ပစ္စည်းသည် ရင်းမြစ်နှင့် နီးလေ ထိုကျယ်ပြန့်နေသော ရောင်ခြည်အစု၏ ပိုများသောအစိတ်အပိုင်းကို ပိတ်ဆို့လေ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which kind of material lets some light through but scatters it, giving brightness without a clear image?",
+          questionMy:
+              "မည်သည့်ပစ္စည်းအမျိုးအစားသည် အလင်းအချို့ကို ဖြတ်သန်းစေသော်လည်း ကွဲထွက်စေကာ ရှင်းလင်းသောပုံရိပ်မပါဘဲ တောက်ပမှုကိုသာ ပေးသနည်း။",
+          optionsEn: ["Translucent", "Transparent", "Opaque", "Luminous"],
+          optionsMy: [
+            "တစ်ပိုင်းပွင့်လင်းသောပစ္စည်း (Translucent)",
+            "ပွင့်လင်းမြင်သာသောပစ္စည်း (Transparent)",
+            "အလင်းပိတ်ဆို့ပစ္စည်း (Opaque)",
+            "အလင်းထုတ်လွှတ်ပစ္စည်း (Luminous)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Day 2's drag-match definitions -- frosted glass and tracing paper both behave this way.",
+            "Recall Day 4's reading -- the thin paper lampshade gave only a soft, blurred glow, never a sharp shadow, for exactly this reason.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း အနိဿယအဓိပ္ပာယ်များကို သတိရပါ -- ဖန်မှုန့်နှင့် ကူးစာရွက်တို့သည် ဤပုံစံဖြင့် လုပ်ဆောင်ကြသည်။",
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းကို သတိရပါ -- စက္ကူပါးပါး မီးမှောင်ဖုံးသည် ထက်မြက်သောအရိပ်မဟုတ်ဘဲ ညင်သာသော ဝါးနေသောအရောင်ကိုသာ ဤအကြောင်းကြောင့် ပေးခဲ့ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 6, Week 22: "Light: Reflection and
+// Mirrors"
+// =====================================================================
+
+/// Week 22 opens Term 6's second week by extending Week 21's straight-line
+/// travel of light and its explanation of how we see non-luminous objects
+/// into the law of reflection (angle of incidence equals angle of
+/// reflection, both measured from the Normal), the regular/diffuse
+/// reflection distinction, and the four properties of a plane mirror
+/// image (same size, same distance behind, virtual, laterally inverted).
+/// Reflection is framed throughout as a direction-change at a single
+/// point, not a break in Week 21's straight-line rule.
+const CourseWeekDef _secondary1ScienceWeek22 = CourseWeekDef(
+  id: "course-secondary1-science-w22",
+  weekNumber: 22,
+  titleEn: "Light: Reflection and Mirrors",
+  titleMy: "အလင်း - ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w22-d1",
+      dayNumber: 1,
+      titleEn: "Reflection Quiz",
+      titleMy: "ရောင်ပြန်ဟပ်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can you see a non-luminous object, like a book on a table, even though the book makes no light of its own?",
+          questionMy:
+              "စားပွဲပေါ်ရှိ စာအုပ်ကဲ့သို့ မိမိကိုယ်ပိုင် အလင်းမထုတ်နိုင်သော အရာဝတ္ထုတစ်ခုကို မည်သို့ မြင်နိုင်သနည်း။",
+          optionsEn: [
+            "Light from a source reflects off the book's surface and travels in a straight line into your eyes.",
+            "The book produces its own light, just like a lamp.",
+            "Light bends around the book without ever touching its surface.",
+            "Your eyes send out light that lands on the book.",
+          ],
+          optionsMy: [
+            "အလင်းရင်းမြစ်မှ အလင်းသည် စာအုပ်၏ မျက်နှာပြင်ပေါ် ရောင်ပြန်ဟပ်ပြီး သင့်မျက်လုံးထဲသို့ တည့်တည့်ဖြောင့်စွာ ရောက်ရှိလာသည်။",
+            "မီးအိမ်ကဲ့သို့ စာအုပ်ကိုယ်တိုင် အလင်းကို ထုတ်ပေးသည်။",
+            "အလင်းသည် စာအုပ်၏ မျက်နှာပြင်ကို လုံးဝ မထိတွေ့ဘဲ ကွေ့ပတ်သွားသည်။",
+            "သင့်မျက်လုံးများက အလင်းထုတ်ပေးပြီး စာအုပ်ပေါ်သို့ ကျရောက်စေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21 -- a non-luminous object like this book cannot make its own light; it only sends on light that started somewhere else.",
+            "Also recall Week 21's straight-line rule -- once light reflects off the book's surface, it must still travel in a straight line to reach your eye.",
+          ],
+          hintsMy: [
+            "Week 21 ကို သတိရပါ -- ဤစာအုပ်ကဲ့သို့ မိမိကိုယ်ပိုင် အလင်းမထုတ်နိုင်သော အရာဝတ္ထုသည် အခြားတစ်နေရာမှ စတင်ခဲ့သော အလင်းကိုသာ ဆက်လက်ပို့ဆောင်ပေးခြင်း ဖြစ်သည်။",
+            "Week 21 ၏ တည့်တည့်ဖြောင့်လမ်းကြောင်း စည်းမျဉ်းကိုလည်း သတိရပါ -- အလင်းသည် စာအုပ်၏ မျက်နှာပြင်ပေါ် ရောင်ပြန်ဟပ်ပြီးနောက်တွင်လည်း သင့်မျက်လုံးသို့ ရောက်ရန် တည့်တည့်ဖြောင့်စွာသာ ဆက်လက်သွားရဦးမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the law of reflection, what is \"the Normal\"?",
+          questionMy:
+              "ရောင်ပြန်ဟပ်ခြင်းဥပဒေတွင် \"ထောင့်မှန်မျဉ်း (Normal)\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An imaginary line drawn at right angles (perpendicular) to the surface, exactly at the point where the light ray hits it.",
+            "The mirror's own flat surface line.",
+            "The path the light ray takes before it ever reaches the surface.",
+            "A line drawn parallel to the surface, running alongside it.",
+          ],
+          optionsMy: [
+            "အလင်းရောင်ခြည် ရောက်ရှိသည့် တိုက်ရိုက်နေရာတွင် မျက်နှာပြင်ကို လက်ဝဲထောင့်မှန် (perpendicular) ဖြစ်အောင် ရေးဆွဲထားသော စိတ်ကူးမျဉ်း။",
+            "မှန်၏ ကိုယ်ပိုင် ပြားပြားမျက်နှာပြင်မျဉ်း။",
+            "အလင်းရောင်ခြည် မျက်နှာပြင်သို့ မရောက်မီ သွားသောလမ်းကြောင်း။",
+            "မျက်နှာပြင်နှင့် အနီးကပ်ညီညီ ရေးဆွဲထားသော မျဉ်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Normal isn't the mirror's surface itself -- picture it as a line standing straight up from the surface, like a pole standing perpendicular to flat ground.",
+            "Every angle in the law of reflection -- both the angle of incidence and the angle of reflection -- is always measured from this Normal, never from the surface directly.",
+          ],
+          hintsMy: [
+            "ထောင့်မှန်မျဉ်းသည် မှန်၏ မျက်နှာပြင်ကိုယ်တိုင် မဟုတ်ပါ -- ညီညာသော မြေပြင်ပေါ်တွင် ထောင့်မှန်စိုက်ထားသော တိုင်တစ်ချောင်းကဲ့သို့ မျက်နှာပြင်မှ ဒေါင်လိုက်ရပ်နေသော မျဉ်းအဖြစ် စိတ်ကူးကြည့်ပါ။",
+            "ရောင်ပြန်ဟပ်ခြင်းဥပဒေရှိ ထောင့်တိုင်း -- ကျရောက်ထောင့်နှင့် ရောင်ပြန်ဟပ်ထောင့် နှစ်ခုစလုံး -- ကို ဤထောင့်မှန်မျဉ်းမှသာ အမြဲတိုင်းတာပြီး မျက်နှာပြင်မှ တိုက်ရိုက် မတိုင်းပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ray of light strikes a plane mirror, arriving at a certain angle measured from the Normal. According to the law of reflection, where does the reflected ray go?",
+          questionMy:
+              "အလင်းရောင်ခြည်တစ်ခုသည် ပြားမှန်တစ်ခုကို ထောင့်မှန်မျဉ်းမှ တိုင်းတာသော ထောင့်တစ်ခုနှင့် ရောက်ရှိလာသည်။ ရောင်ပြန်ဟပ်ခြင်းဥပဒေအရ ရောင်ပြန်ဟပ်သွားသော အလင်းရောင်ခြည်သည် အဘယ်သို့ သွားသနည်း။",
+          optionsEn: [
+            "It leaves at an equal angle to the Normal, on the other side of it.",
+            "It leaves at a much larger angle than the one it arrived at.",
+            "It stops completely at the mirror's surface.",
+            "It always reflects straight back the way it came, no matter the angle it arrived at.",
+          ],
+          optionsMy: [
+            "ထောင့်မှန်မျဉ်း၏ အခြားတစ်ဖက်တွင် ညီမျှသော ထောင့်ဖြင့် ထွက်ခွာသွားသည်။",
+            "ရောက်ရှိလာစဉ်ကထက် ပိုကြီးသော ထောင့်ဖြင့် ထွက်ခွာသွားသည်။",
+            "မှန်၏ မျက်နှာပြင်တွင် လုံးဝ ရပ်တန့်သွားသည်။",
+            "ရောက်ရှိလာသော ထောင့်မည်သို့ပင်ရှိစေ လာလမ်းအတိုင်း အမြဲပြန်ထွက်သွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the law of reflection itself: the angle of incidence equals the angle of reflection, both measured from the Normal you just learned about.",
+            "Recall Week 21's straight-line rule -- light still travels in straight lines before and after this bounce; only its direction changes, at the exact point of reflection.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ရောင်ပြန်ဟပ်ခြင်းဥပဒေ ကိုယ်တိုင်ပင်ဖြစ်သည် - ကျရောက်ထောင့်သည် ရောင်ပြန်ဟပ်ထောင့်နှင့် ညီမျှပြီး နှစ်ခုစလုံးကို ယခုလေ့လာခဲ့သော ထောင့်မှန်မျဉ်းမှ တိုင်းတာသည်။",
+            "Week 21 ၏ တည့်တည့်ဖြောင့်လမ်းကြောင်း စည်းမျဉ်းကို သတိရပါ -- ဤခုန်ပျံမှု မတိုင်မီနှင့် ပြီးနောက်တွင်လည်း အလင်းသည် တည့်တည့်ဖြောင့်စွာ ဆက်လက်သွားနေဆဲဖြစ်ပြီး ရောင်ပြန်ဟပ်သည့် တိုက်ရိုက်နေရာတွင်သာ ၎င်း၏ ဦးတည်ရာ ပြောင်းလဲသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A smooth bathroom mirror forms a clear, sharp image, but a rough painted wall does not -- even though light reflects off both surfaces. Why?",
+          questionMy:
+              "ရေချိုးခန်းမှန်ကဲ့သို့ ချောမွေ့သောမှန်သည် ကွက်ကွက်ကွင်းကွင်း ရုပ်ပုံရှင်းရှင်းလင်းလင်း ဖြစ်စေသော်လည်း ဆေးသုတ်ထားသော နံရံကမူ မဖြစ်စေပါ -- နှစ်ခုစလုံးမှ အလင်းရောင်ပြန်ဟပ်နေသော်လည်းတည်း။ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "The mirror's flat surface sends parallel rays off in one single, predictable direction, while the wall's tiny bumps each face a slightly different way and scatter the rays in many directions.",
+            "The wall does not reflect any light at all.",
+            "The mirror absorbs all the light that hits it, instead of reflecting any of it.",
+            "Rough surfaces always reflect light at a much smaller angle of reflection than smooth surfaces do.",
+          ],
+          optionsMy: [
+            "မှန်၏ ပြားပြားမျက်နှာပြင်သည် ပြိုင်တူဝင်လာသော အလင်းရောင်ခြည်များကို ခန့်မှန်းနိုင်သော ဦးတည်ရာတစ်ခုတည်းသို့ ပို့ပေးသော်လည်း နံရံ၏ သေးငယ်သော အနုအလွှာများသည် တစ်ခုနှင့်တစ်ခု အနည်းငယ်ကွဲပြားသော ဘက်သို့ မျက်နှာမူထားသဖြင့် အလင်းရောင်ခြည်များကို ဦးတည်ရာအမျိုးမျိုးသို့ အနှံ့ကျဲဖြန့်ကျက်ပေးသည်။",
+            "နံရံသည် အလင်းကို လုံးဝ ရောင်ပြန်ဟပ်ခြင်း မရှိပါ။",
+            "မှန်သည် ရောက်ရှိလာသော အလင်းအားလုံးကို စုပ်ယူထားပြီး ရောင်ပြန်ဟပ်ခြင်း လုံးဝ မရှိပါ။",
+            "အနှစ်ကျစ်သော မျက်နှာပြင်များသည် ချောမွေ့သော မျက်နှာပြင်များထက် ရောင်ပြန်ဟပ်ထောင့် အမြဲငယ်စွာသာ ရနိုင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the key difference between regular (specular) reflection off a smooth surface and diffuse reflection off a rough surface -- both truly reflect light, just not in the same directions.",
+            "Recall Week 21's straight-line rule applied to many rays at once -- each tiny bump reflects its own ray in a straight line, just each in a slightly different direction.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ချောမွေ့သောမျက်နှာပြင်မှ ပုံမှန် (specular) ရောင်ပြန်ဟပ်ခြင်းနှင့် အနှစ်ကျစ်သောမျက်နှာပြင်မှ အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း၏ အဓိကကွာခြားချက် ဖြစ်သည် -- နှစ်ခုစလုံးသည် အလင်းကို တကယ်ရောင်ပြန်ဟပ်ကြသော်လည်း ဦးတည်ရာချင်း မတူညီပါ။",
+            "Week 21 ၏ တည့်တည့်ဖြောင့်လမ်းကြောင်း စည်းမျဉ်းကို အလင်းရောင်ခြည်များစွာအတွက် တစ်ပြိုင်နက် အသုံးချကြည့်ပါ -- အနုအလွှာတစ်ခုစီသည် ၎င်း၏ ကိုယ်ပိုင်အလင်းရောင်ခြည်ကို တည့်တည့်ဖြောင့်စွာ ရောင်ပြန်ဟပ်ပေးသော်လည်း တစ်ခုနှင့်တစ်ခု အနည်းငယ် ကွဲပြားသော ဦးတည်ရာသို့ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match the Reflection Terms",
+      titleMy: "ရောင်ပြန်ဟပ်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w22-dm-1",
+          termEn: "The Normal",
+          termMy: "ထောင့်မှန်မျဉ်း (The Normal)",
+          matchEn:
+              "An imaginary line drawn perpendicular (at right angles) to a surface, exactly at the point where a light ray strikes it -- every reflection angle is measured from this line, not from the surface itself.",
+          matchMy:
+              "အလင်းရောင်ခြည် ထိတွေ့သည့် တိုက်ရိုက်နေရာတွင် မျက်နှာပြင်ကို ထောင့်မှန် (perpendicular) ဖြစ်အောင် ရေးဆွဲထားသော စိတ်ကူးမျဉ်းဖြစ်ပြီး ရောင်ပြန်ဟပ်ထောင့်တိုင်းကို မျက်နှာပြင်ကိုယ်တိုင်မှ မဟုတ်ဘဲ ဤမျဉ်းမှသာ တိုင်းတာသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w22-dm-2",
+          termEn: "Angle of Incidence",
+          termMy: "ကျရောက်ထောင့် (Angle of Incidence)",
+          matchEn:
+              "The angle between the incoming light ray and the Normal, measured before the ray strikes the surface.",
+          matchMy:
+              "မျက်နှာပြင်ကို မထိမီ ဝင်ရောက်လာသော အလင်းရောင်ခြည်နှင့် ထောင့်မှန်မျဉ်းကြားရှိ ထောင့်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w22-dm-3",
+          termEn: "Angle of Reflection",
+          termMy: "ရောင်ပြန်ဟပ်ထောင့် (Angle of Reflection)",
+          matchEn:
+              "The angle between the reflected light ray and the Normal, measured after the ray leaves the surface -- always equal to the angle of incidence, by the law of reflection.",
+          matchMy:
+              "မျက်နှာပြင်မှ ထွက်ခွာသွားသော ရောင်ပြန်ဟပ်အလင်းရောင်ခြည်နှင့် ထောင့်မှန်မျဉ်းကြားရှိ ထောင့်ဖြစ်ပြီး ရောင်ပြန်ဟပ်ခြင်းဥပဒေအရ ကျရောက်ထောင့်နှင့် အမြဲညီမျှသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w22-dm-4",
+          termEn: "Regular (Specular) Reflection",
+          termMy: "ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း (Regular/Specular Reflection)",
+          matchEn:
+              "Reflection off a smooth, shiny surface like a mirror or still water, sending parallel incoming rays off in one single, predictable direction -- this is what allows a clear image to form.",
+          matchMy:
+              "မှန် (သို့) ငြိမ်ဝပ်နေသော ရေမျက်နှာပြင်ကဲ့သို့ ချောမွေ့တောက်ပသော မျက်နှာပြင်မှ ရောင်ပြန်ဟပ်ခြင်းဖြစ်ပြီး ပြိုင်တူဝင်လာသော အလင်းရောင်ခြည်များကို ခန့်မှန်းနိုင်သော ဦးတည်ရာတစ်ခုတည်းသို့ ပို့ပေးကာ ရုပ်ပုံရှင်းရှင်းလင်းလင်း ဖြစ်ပေါ်စေသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w22-dm-5",
+          termEn: "Diffuse Reflection",
+          termMy: "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း (Diffuse Reflection)",
+          matchEn:
+              "Reflection off a rough surface like paper, cloth or a painted wall, scattering parallel incoming rays in many different directions -- this is why we can see most ordinary objects clearly from any angle, though no sharp image forms.",
+          matchMy:
+              "စက္ကူ၊ အထည် (သို့) ဆေးသုတ်ထားသော နံရံကဲ့သို့ အနှစ်ကျစ်သော မျက်နှာပြင်မှ ရောင်ပြန်ဟပ်ခြင်းဖြစ်ပြီး ပြိုင်တူဝင်လာသော အလင်းရောင်ခြည်များကို ဦးတည်ရာအမျိုးမျိုးသို့ အနှံ့ကျဲဖြန့်ကျက်ပေးသည် -- ဤအကြောင်းကြောင့် ပုံမှန်အရာဝတ္ထုအများစုကို ထောင့်မည်သည့်နေရာမှမဆို ရှင်းရှင်းလင်းလင်း မြင်နိုင်သော်လည်း ရုပ်ပုံရှင်းရှင်း မဖြစ်ပေါ်ပါ။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w22-dm-6",
+          termEn: "Plane Mirror Image",
+          termMy: "ပြားမှန်ရုပ်ပုံ (Plane Mirror Image)",
+          matchEn:
+              "The image in a flat mirror -- same size as the object, appears the same distance behind the mirror as the object is in front, virtual (cannot be projected onto a screen), and laterally inverted (left and right swapped).",
+          matchMy:
+              "ပြားမှန်တစ်ခုအတွင်းရှိ ရုပ်ပုံဖြစ်ပြီး -- အရာဝတ္ထုနှင့် အရွယ်အစားတူညီပြီး၊ အရာဝတ္ထု မှန်ရှေ့တွင်ရပ်နေသလောက် အကွာအဝေးအတူတူ မှန်အနောက်တွင် ရှိနေသည့်ပုံစံပေါ်ပြီး၊ ဖန်သားပြင်ပေါ်သို့ ရိုက်ချ၍ မရနိုင်သော တွင်းမြင်ရုပ်ပုံ (virtual image) ဖြစ်၍၊ ဘယ်ညာလည်း ပြောင်းပြန်ဖြစ်နေသည် (laterally inverted)။",
+          colorValue: 0xFFFF7F91,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Regular Reflection or Diffuse Reflection?",
+      titleMy:
+          "စီစစ်ကြမည် - ပုံမှန်ရောင်ပြန်ဟပ်ခြင်း လား၊ အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Regular (Specular) Reflection", "Diffuse Reflection"],
+        bucketsMy: ["ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း", "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "s1sci-w22-sort-1",
+            labelEn: "A bathroom mirror",
+            labelMy: "ရေချိုးခန်းမှန်",
+            correctBucketEn: "Regular (Specular) Reflection",
+            correctBucketMy: "ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-2",
+            labelEn: "A sheet of paper",
+            labelMy: "စက္ကူတစ်ရွက်",
+            correctBucketEn: "Diffuse Reflection",
+            correctBucketMy: "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-3",
+            labelEn: "Still, calm pond water",
+            labelMy: "ငြိမ်ဝပ်နေသော ရေကန်ရေမျက်နှာပြင်",
+            correctBucketEn: "Regular (Specular) Reflection",
+            correctBucketMy: "ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-4",
+            labelEn: "A cotton T-shirt",
+            labelMy: "ချည်ထည်အင်္ကျီ",
+            correctBucketEn: "Diffuse Reflection",
+            correctBucketMy: "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-5",
+            labelEn: "A polished metal spoon",
+            labelMy: "တောက်ပအောင်တိုက်ထားသော သတ္တုဇွန်း",
+            correctBucketEn: "Regular (Specular) Reflection",
+            correctBucketMy: "ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-6",
+            labelEn: "A painted classroom wall",
+            labelMy: "ဆေးသုတ်ထားသော စာသင်ခန်းနံရံ",
+            correctBucketEn: "Diffuse Reflection",
+            correctBucketMy: "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-7",
+            labelEn: "A smooth glass window",
+            labelMy: "ချောမွေ့သော မှန်တံခါး",
+            correctBucketEn: "Regular (Specular) Reflection",
+            correctBucketMy: "ပုံမှန် ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w22-sort-8",
+            labelEn: "Rough tree bark",
+            labelMy: "အနှစ်ကျစ်သော သစ်ပင်အခေါက်",
+            correctBucketEn: "Diffuse Reflection",
+            correctBucketMy: "အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Mirror Practice",
+      titleMy: "စာဖတ်ခြင်း - နီလာ၏ မှန်ရှေ့ ကျင့်သားမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Mirror Practice",
+        titleMy: "နီလာ၏ မှန်ရှေ့ ကျင့်သားမှု",
+        passageEn:
+            "Nilar was rehearsing her lines for the school play, standing in front of the tall mirror fixed to her bedroom wall. She held up the paper with her character's name written in large letters and grinned -- in the mirror, the word appeared completely backwards, as if someone had flipped it left to right. She remembered this week's lesson: a mirror image is laterally inverted, so left and right appear swapped, exactly like this reversed word.\n\nStepping back, Nilar noticed something else. She looked exactly the same size in the mirror as she was in real life, and it felt as if her reflection stood just as far behind the glass as she stood in front of it. She reached out to touch her reflected hand, but of course there was nothing there -- the image was virtual, only appearing to come from behind the mirror. Light from her face was bouncing off the mirror's smooth surface and traveling in a straight line back to her eyes (Week 21), never actually passing through the glass to a spot behind it.\n\nCurious, Nilar turned toward the rough, plastered wall beside her wardrobe. She could see the wall clearly from any angle in the room, but no matter how she tilted her head, it never once showed her a reflection of her own face. Recalling Day 1 of this week's lessons, she realized why: the wall's tiny bumps and ridges scattered the light reflecting off it in every direction, while the mirror's flat, smooth surface sent it all off in one single, predictable direction -- angle of incidence equal to angle of reflection, exactly following the law of reflection, every single time.\n\nSatisfied that she finally understood why her bedroom mirror worked the way it did, Nilar turned back to her lines, ready for rehearsal.",
+        passageMy:
+            "နီလာသည် သူမ၏ အိပ်ခန်းနံရံတွင် တပ်ဆင်ထားသော အရပ်ရှည်မှန်ကြီးရှေ့တွင် ရပ်ကာ ကျောင်းပြဇာတ်အတွက် သူမ၏ ကြောင်းစာများကို ကျင့်သားရင်း ရှိနေခဲ့သည်။ သူမသည် သူမ၏ ဇာတ်ကောင်အမည်ကို စာလုံးအကြီးကြီးဖြင့် ရေးထားသော စာရွက်ကို မှန်ရှေ့တွင် ကိုင်ထားကာ ပြုံးမိခဲ့သည် -- မှန်ထဲတွင် ထိုစကားလုံးသည် တစ်စုံတစ်ယောက်က ဘယ်ညာပြောင်းချလိုက်သကဲ့သို့ လုံးဝ ပြောင်းပြန်ဖြစ်နေသည်ကို တွေ့ခဲ့သည်။ သူမသည် ဤအပတ်၏ သင်ခန်းစာကို သတိရခဲ့သည် - မှန်ရုပ်ပုံသည် ဘယ်ညာပြောင်းပြန်ဖြစ်၍ ဘယ်ဘက်နှင့် ညာဘက်ချင်း လဲလှယ်ပြသကဲ့သို့ ပေါ်နေတတ်ပြီး ဤပြောင်းပြန်ဖြစ်နေသော စကားလုံးနှင့် အတိအကျပင် တူညီသည်။\n\nနောက်ပြန် တစ်လှမ်းလှမ်းလိုက်ရာ နီလာသည် အခြားအရာတစ်ခုကို သတိထားမိခဲ့သည်။ သူမသည် မှန်ထဲတွင် တကယ့်ဘဝတွင် ရှိသလောက် အတိုင်းအတာတူညီစွာ မြင်ရပြီး သူမ၏ ရုပ်ရိပ်သည် သူမ မှန်ရှေ့တွင်ရပ်နေသလောက် အကွာအဝေးအတူတူ မှန်၏အနောက်တွင် ရပ်နေသကဲ့သို့ ခံစားခဲ့ရသည်။ သူမသည် မှန်ထဲရှိ သူမ၏ လက်ရိပ်ကို ထိတွေ့ကြည့်ရန် လက်ဆန့်လိုက်သော်လည်း မည်သည့်အရာမျှ မတွေ့ရပါ -- ထိုရုပ်ပုံသည် မှန်တွင်းမှ လာသည့်ပုံစံသာ ပေါ်နေခြင်းဖြစ်ပြီး တကယ်တမ်း ဖန်တီးမထားသော တွင်းမြင်ရုပ်ပုံ (Virtual Image) ဖြစ်သည်။ သူမ၏ မျက်နှာမှ အလင်းသည် မှန်၏ ချောမွေ့သော မျက်နှာပြင်ပေါ် ရောင်ပြန်ဟပ်ပြီး သူမ၏ မျက်လုံးများသို့ တည့်တည့်ဖြောင့်စွာ ပြန်ရောက်လာခြင်း ဖြစ်ပြီး (Week 21) မှန်ကို ဖြတ်ကျော်ပြီး အနောက်ရှိနေရာတစ်ခုသို့ တကယ်ရောက်ရှိခြင်း လုံးဝ မရှိပါ။\n\nစိတ်ဝင်စားလာသဖြင့် နီလာသည် သူမ၏ အင်္ကျီဗီရိုဘေးရှိ အနှစ်ကျစ်ခြယ်ထားသော နံရံဘက်သို့ လှည့်ကြည့်ခဲ့သည်။ သူမသည် အခန်းထဲရှိ မည်သည့်ထောင့်မှမဆို ထိုနံရံကို ရှင်းရှင်းလင်းလင်း မြင်နိုင်သော်လည်း ဦးခေါင်းကို မည်သို့ပင် စောင်းညွှတ်ကြည့်စေကာမူ သူမ၏ ကိုယ်ပိုင်မျက်နှာရုပ်ပုံကို တစ်ကြိမ်တစ်ခါမျှ မပြန်ပြပါ။ ဤအပတ်၏ ပထမနေ့သင်ခန်းစာကို သတိရမိသဖြင့် အကြောင်းရင်းကို သဘောပေါက်လိုက်သည် - နံရံ၏ သေးငယ်သောအနုအလွှာနှင့် ချောင်ကြောင်းများသည် ၎င်းအပေါ် ရောင်ပြန်ဟပ်နေသော အလင်းကို ဦးတည်ရာအမျိုးမျိုးသို့ အနှံ့ကျဲဖြန့်ကျက်ပေးသော်လည်း၊ မှန်၏ ပြားပြားချောမွေ့သော မျက်နှာပြင်ကမူ ၎င်းအားလုံးကို ခန့်မှန်းနိုင်သော ဦးတည်ရာတစ်ခုတည်းသို့ ပို့ပေးသည် -- ကျရောက်ထောင့်သည် ရောင်ပြန်ဟပ်ထောင့်နှင့် ညီမျှပြီး ရောင်ပြန်ဟပ်ခြင်းဥပဒေကို အကြိမ်တိုင်း အတိအကျ လိုက်နာနေသည်။\n\nသူမ၏ အိပ်ခန်းမှန်သည် အဘယ့်ကြောင့် ဤသို့ လုပ်ဆောင်နေသည်ကို နောက်ဆုံးတွင် သဘောပေါက်ပြီးနောက် နီလာသည် ကျင့်သားရန် အသင့်ဖြစ်လျက် သူမ၏ ကြောင်းစာများသို့ ပြန်လှည့်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did the word on Nilar's paper appear backwards in the mirror?",
+            questionMy:
+                "နီလာ၏ စာရွက်ပေါ်ရှိ စကားလုံးသည် မှန်ထဲတွင် အဘယ့်ကြောင့် ပြောင်းပြန်ဖြစ်နေခဲ့သနည်း။",
+            optionsEn: [
+              "A mirror image is laterally inverted, so left and right appear swapped.",
+              "The paper itself was printed backwards.",
+              "Nilar was looking through the wrong side of the mirror.",
+              "Mirrors always make text larger, never reversed.",
+            ],
+            optionsMy: [
+              "မှန်ရုပ်ပုံသည် ဘယ်ညာပြောင်းပြန်ဖြစ်၍ ဘယ်ဘက်နှင့် ညာဘက်ချင်း လဲလှယ်ပြသည်။",
+              "စာရွက်ကိုယ်တိုင် ပြောင်းပြန် ပုံနှိပ်ထားခြင်း ဖြစ်သည်။",
+              "နီလာသည် မှန်၏ မှားသောဘက်မှ ကြည့်နေခဲ့ခြင်း ဖြစ်သည်။",
+              "မှန်များသည် စာလုံးများကို ပိုကြီးအောင် အမြဲပြုလုပ်ပေးပြီး ပြောင်းပြန် ဘယ်တော့မျှ မဖြစ်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it names this exact mirror image property directly.",
+              "This is one of the four plane mirror image properties from Day 2's drag-match -- the one about left and right.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းက ဤမှန်ရုပ်ပုံ၏ ဂုဏ်သတ္တိအတိအကျကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ ပြားမှန်ရုပ်ပုံ ဂုဏ်သတ္တိလေးမျိုးအနက် ဘယ်ဘက်နှင့် ညာဘက်နှင့်ပတ်သက်သော တစ်ခု ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Nilar realize when she tried to touch her reflected hand?",
+            questionMy:
+                "မှန်ထဲရှိ သူမ၏လက်ရိပ်ကို ထိတွေ့ကြည့်စဉ် နီလာသည် အဘယ်ကို သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "The image was virtual -- it only appeared to come from behind the mirror, and light never actually passed through the glass.",
+              "Her hand had actually passed through the mirror.",
+              "The mirror was broken.",
+              "Her reflection was a completely different person.",
+            ],
+            optionsMy: [
+              "ထိုရုပ်ပုံသည် တွင်းမြင်ရုပ်ပုံ ဖြစ်ပြီး -- မှန်အနောက်မှ လာသည့်ပုံစံသာ ပေါ်နေခြင်းဖြစ်ကာ အလင်းသည် မှန်ကို ဖြတ်ကျော်ခြင်း တကယ့်တကယ် လုံးဝ မရှိပါ။",
+              "သူမ၏ လက်သည် မှန်ကို တကယ့်တကယ် ဖြတ်ကျော်သွားခဲ့သည်။",
+              "မှန်သည် ကွဲပြဲနေခဲ့သည်။",
+              "သူမ၏ ရုပ်ရိပ်သည် လုံးဝ ကွဲပြားသော လူတစ်ဦး ဖြစ်နေခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it explains this virtual image property directly, right after Nilar reaches out.",
+              "Recall Week 21 and Day 1's first question -- light bounces off her face and travels in a straight line to her eyes, but never actually goes behind the glass.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နီလာ လက်ဆန့်ပြီးနောက် ၎င်းက ဤတွင်းမြင်ရုပ်ပုံ ဂုဏ်သတ္တိကို တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "Week 21 နှင့် ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- အလင်းသည် သူမ၏မျက်နှာမှ ထွက်ကျလာပြီး သူမ၏မျက်လုံးများသို့ တည့်တည့်ဖြောင့်စွာ ပြန်ရောက်သော်လည်း မှန်၏အနောက်ဘက်သို့ တကယ်ရောက်ရှိခြင်း လုံးဝ မရှိပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the rough, plastered wall never show Nilar a reflection of her face, even though she could see the wall clearly from any angle?",
+            questionMy:
+                "အနှစ်ကျစ်ခြယ်ထားသော နံရံသည် ကိုယ်ပိုင်ထောင့်မည်သည့်နေရာမှမဆို ရှင်းလင်းစွာ မြင်နိုင်စေသော်လည်း နီလာ၏ မျက်နှာရုပ်ပုံကို အဘယ့်ကြောင့် တစ်ကြိမ်မျှ မပြန်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "Its tiny bumps scattered the reflected light in many directions instead of sending it all one predictable way.",
+              "The wall does not reflect light at all.",
+              "Nilar's face does not reflect light.",
+              "The wall was too dark to reflect anything.",
+            ],
+            optionsMy: [
+              "၎င်း၏ သေးငယ်သောအနုအလွှာများသည် ရောင်ပြန်ဟပ်နေသောအလင်းကို ခန့်မှန်းနိုင်သောဦးတည်ရာတစ်ခုတည်းမပို့ဘဲ ဦးတည်ရာအမျိုးမျိုးသို့ အနှံ့ကျဲဖြန့်ကျက်ပေးခဲ့သည်။",
+              "နံရံသည် အလင်းကို လုံးဝ ရောင်ပြန်ဟပ်ခြင်း မရှိပါ။",
+              "နီလာ၏ မျက်နှာသည် အလင်းကို ရောင်ပြန်ဟပ်ခြင်း မရှိပါ။",
+              "နံရံသည် မှောင်လွန်းသဖြင့် မည်သည့်အရာမျှ ရောင်ပြန်ဟပ်နိုင်ခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, and recall Day 1's fourth question -- this is the same regular-vs-diffuse difference, applied to Nilar's own bedroom wall.",
+              "Recall Day 2's drag-match and Day 3's sorting activity -- a painted wall belongs firmly in the diffuse reflection bucket.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပြီး ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ဤသည်မှာ ပုံမှန်နှင့် အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်းအကြား ကွာခြားချက်တစ်ခုတည်းပင်ဖြစ်ပြီး နီလာ၏ ကိုယ်ပိုင်အိပ်ခန်းနံရံတွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဆေးသုတ်ထားသောနံရံသည် အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်းကန်ထဲသို့ သေချာစွာ ဝင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what rule explained exactly how light reflected off Nilar's smooth mirror?",
+            questionMy:
+                "စာပိုဒ်အရ နီလာ၏ ချောမွေ့သောမှန်ပေါ် အလင်းရောင်ပြန်ဟပ်ပုံကို မည်သည့်စည်းမျဉ်းက အတိအကျ ရှင်းပြခဲ့သနည်း။",
+            optionsEn: [
+              "The law of reflection -- the angle of incidence equals the angle of reflection, both measured from the Normal.",
+              "Light reflects at a completely random angle every time.",
+              "The angle of reflection is always larger than the angle of incidence.",
+              "Mirrors do not obey any particular rule.",
+            ],
+            optionsMy: [
+              "ရောင်ပြန်ဟပ်ခြင်းဥပဒေ -- ကျရောက်ထောင့်သည် ရောင်ပြန်ဟပ်ထောင့်နှင့် ညီမျှပြီး နှစ်ခုစလုံးကို ထောင့်မှန်မျဉ်းမှ တိုင်းတာသည်။",
+              "အလင်းသည် အကြိမ်တိုင်း လုံးဝ ကျပန်းထောင့်ဖြင့် ရောင်ပြန်ဟပ်သည်။",
+              "ရောင်ပြန်ဟပ်ထောင့်သည် ကျရောက်ထောင့်ထက် အမြဲ ပိုကြီးသည်။",
+              "မှန်များသည် သီးခြားစည်းမျဉ်း မည်သည့်တစ်ခုကိုမျှ မလိုက်နာပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph's final sentence, which names this rule directly by name.",
+              "Recall Day 1's second and third questions, and Day 2's drag-match -- this is the exact same law, applied here to Nilar's bedroom mirror.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ -- ၎င်းက ဤစည်းမျဉ်း၏ အမည်ကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "ပထမနေ့ ဒုတိယနှင့် တတိယမေးခွန်းများ၊ နှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤသည်မှာ တူညီသောဥပဒေတစ်ခုတည်းပင်ဖြစ်ပြီး နီလာ၏ အိပ်ခန်းမှန်တွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Light: Reflection and Mirrors",
+      titleMy:
+          "အပတ်စဉ် ၂၂ ပြန်လည်သုံးသပ်ခြင်း - အလင်း - ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can we see this page, even though paper makes no light of its own?",
+          questionMy:
+              "စာမျက်နှာသည် မိမိကိုယ်ပိုင် အလင်းမထုတ်နိုင်သော်လည်း ၎င်းကို အဘယ့်ကြောင့် မြင်နိုင်သနည်း။",
+          optionsEn: [
+            "Light from a source reflects off it and travels in a straight line into our eyes.",
+            "The paper makes its own light.",
+            "Light passes straight through the page into our eyes.",
+            "Our eyes send light out onto the page.",
+          ],
+          optionsMy: [
+            "အလင်းရင်းမြစ်မှ အလင်းသည် ၎င်းအပေါ် ရောင်ပြန်ဟပ်ပြီး ကျွန်ုပ်တို့၏ မျက်လုံးထဲသို့ တည့်တည့်ဖြောင့်စွာ ရောက်ရှိလာသည်။",
+            "စာရွက်ကိုယ်တိုင် အလင်းကို ထုတ်ပေးသည်။",
+            "အလင်းသည် စာမျက်နှာကို ဖြတ်ကျော်ပြီး ကျွန်ုပ်တို့၏ မျက်လုံးထဲသို့ တိုက်ရိုက် ဝင်ရောက်သည်။",
+            "ကျွန်ုပ်တို့၏ မျက်လုံးများက အလင်းထုတ်ပေးပြီး စာမျက်နှာပေါ်သို့ ကျရောက်စေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Week 21 -- non-luminous objects only send on light that started somewhere else.",
+            "This is the same idea Nilar relied on to see her own reflection in the mirror.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် Week 21 ကို သတိရပါ -- မိမိကိုယ်ပိုင် အလင်းမထုတ်နိုင်သော အရာဝတ္ထုများသည် အခြားတစ်နေရာမှ စတင်ခဲ့သောအလင်းကိုသာ ဆက်လက်ပို့ဆောင်ပေးခြင်း ဖြစ်သည်။",
+            "ဤသည်မှာ နီလာ ကိုယ်တိုင်၏ မှန်ရုပ်ပုံကို မြင်ရန် အားထားခဲ့သော အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the Normal, in the law of reflection?",
+          questionMy:
+              "ရောင်ပြန်ဟပ်ခြင်းဥပဒေတွင် ထောင့်မှန်မျဉ်း ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An imaginary line perpendicular to the surface at the point of reflection.",
+            "The mirror's own surface.",
+            "The path light takes before hitting a surface.",
+            "A line parallel to the surface.",
+          ],
+          optionsMy: [
+            "ရောင်ပြန်ဟပ်သည့် တိုက်ရိုက်နေရာတွင် မျက်နှာပြင်ကို ထောင့်မှန် ဖြစ်အောင် ရေးဆွဲထားသော စိတ်ကူးမျဉ်း။",
+            "မှန်၏ ကိုယ်ပိုင် မျက်နှာပြင်။",
+            "အလင်း မျက်နှာပြင်ကို မထိမီ သွားသောလမ်းကြောင်း။",
+            "မျက်နှာပြင်နှင့် ညီညာသော မျဉ်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Day 2's drag-match -- this line is not the surface itself.",
+            "Every angle in the law of reflection is measured from this line, never from the surface directly.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ဤမျဉ်းသည် မျက်နှာပြင်ကိုယ်တိုင် မဟုတ်ပါ။",
+            "ရောင်ပြန်ဟပ်ခြင်းဥပဒေရှိ ထောင့်တိုင်းကို ဤမျဉ်းမှသာ တိုင်းတာပြီး မျက်နှာပြင်မှ တိုက်ရိုက် ဘယ်တော့မျှ မတိုင်းပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does the law of reflection state?",
+          questionMy: "ရောင်ပြန်ဟပ်ခြင်းဥပဒေက အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "The angle of incidence always equals the angle of reflection, both measured from the Normal.",
+            "The angle of reflection is always double the angle of incidence.",
+            "Light reflects at a completely random angle each time.",
+            "The angle of incidence is always larger than the angle of reflection.",
+          ],
+          optionsMy: [
+            "ကျရောက်ထောင့်သည် ရောင်ပြန်ဟပ်ထောင့်နှင့် အမြဲညီမျှပြီး နှစ်ခုစလုံးကို ထောင့်မှန်မျဉ်းမှ တိုင်းတာသည်။",
+            "ရောင်ပြန်ဟပ်ထောင့်သည် ကျရောက်ထောင့်၏ နှစ်ဆ အမြဲရှိသည်။",
+            "အလင်းသည် အကြိမ်တိုင်း လုံးဝ ကျပန်းထောင့်ဖြင့် ရောင်ပြန်ဟပ်သည်။",
+            "ကျရောက်ထောင့်သည် ရောင်ပြန်ဟပ်ထောင့်ထက် အမြဲ ပိုကြီးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Day 2's drag-match -- this rule never changes, no matter the angle light arrives at.",
+            "This is exactly the rule Nilar's bedroom mirror followed in this week's reading passage.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အလင်းရောက်ရှိလာသော ထောင့်မည်သို့ပင်ရှိစေ ဤစည်းမျဉ်းသည် ဘယ်တော့မှ မပြောင်းလဲပါ။",
+            "ဤသည်မှာ ဤအပတ်၏ စာဖတ်ခန်းတွင် နီလာ၏ အိပ်ခန်းမှန် လိုက်နာခဲ့သော ဥပဒေအတိအကျပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a smooth mirror form a clear image, but a rough wall does not?",
+          questionMy:
+              "ချောမွေ့သောမှန်သည် ရုပ်ပုံရှင်းရှင်းလင်းလင်း ဖြစ်စေသော်လည်း အနှစ်ကျစ်သော နံရံကမူ အဘယ့်ကြောင့် မဖြစ်စေပါသနည်း။",
+          optionsEn: [
+            "The mirror reflects parallel rays in one predictable direction (regular reflection), while the rough wall scatters them in many directions (diffuse reflection).",
+            "The wall does not reflect light at all.",
+            "The mirror absorbs light instead of reflecting it.",
+            "Rough surfaces reflect far less light overall than smooth ones.",
+          ],
+          optionsMy: [
+            "မှန်သည် ပြိုင်တူဝင်လာသော အလင်းရောင်ခြည်များကို ခန့်မှန်းနိုင်သော ဦးတည်ရာတစ်ခုတည်းသို့ ရောင်ပြန်ဟပ်ပေးသော်လည်း (ပုံမှန်ရောင်ပြန်ဟပ်ခြင်း) အနှစ်ကျစ်သော နံရံကမူ ၎င်းတို့ကို ဦးတည်ရာအမျိုးမျိုးသို့ အနှံ့ကျဲဖြန့်ကျက်ပေးသည် (အနှံ့ကျဲ ရောင်ပြန်ဟပ်ခြင်း)။",
+            "နံရံသည် အလင်းကို လုံးဝ ရောင်ပြန်ဟပ်ခြင်း မရှိပါ။",
+            "မှန်သည် အလင်းကို ရောင်ပြန်ဟပ်မည့်အစား စုပ်ယူထားသည်။",
+            "အနှစ်ကျစ်သော မျက်နှာပြင်များသည် ချောမွေ့သော မျက်နှာပြင်များထက် အလင်းကို အလွန်နည်းပါးစွာသာ ရောင်ပြန်ဟပ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question, Day 2's drag-match, and Day 3's sorting activity -- both surfaces truly reflect light, just not in the same directions.",
+            "This is exactly why Nilar's plastered wall never once showed her a reflection of her own face.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်း၊ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် တတိယနေ့ စီစစ်လေ့ကျင့်ခန်းကို သတိရပါ -- မျက်နှာပြင်နှစ်ခုစလုံးသည် အလင်းကို တကယ်ရောင်ပြန်ဟပ်ကြသော်လည်း ဦးတည်ရာချင်း မတူညီပါ။",
+            "ဤအကြောင်းကြောင့်ပင် နီလာ၏ ခြယ်ထားသောနံရံသည် သူမ၏ ကိုယ်ပိုင်မျက်နှာရုပ်ပုံကို တစ်ကြိမ်မျှ ပြန်မပြခဲ့ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which one of these correctly lists all four properties of a plane mirror image?",
+          questionMy:
+              "အောက်ပါတို့အနက် ပြားမှန်ရုပ်ပုံ၏ ဂုဏ်သတ္တိလေးမျိုးလုံးကို မှန်ကန်စွာ စာရင်းပြုစုထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Same size as the object, appears the same distance behind the mirror as the object is in front, virtual, and laterally inverted.",
+            "Twice the size of the object, twice the distance behind the mirror, real, and not inverted at all.",
+            "Same size as the object, but able to be projected directly onto a screen.",
+            "Laterally inverted only, with no other properties at all.",
+          ],
+          optionsMy: [
+            "အရာဝတ္ထုနှင့် အရွယ်အစားတူညီပြီး၊ အရာဝတ္ထု မှန်ရှေ့တွင်ရပ်နေသလောက် အကွာအဝေးအတူတူ မှန်အနောက်တွင် ရှိနေသည့်ပုံစံပေါ်ပြီး၊ တွင်းမြင်ရုပ်ပုံဖြစ်၍ ဘယ်ညာလည်း ပြောင်းပြန်ဖြစ်နေသည်။",
+            "အရာဝတ္ထု၏ နှစ်ဆ အရွယ်အစားရှိပြီး၊ မှန်အနောက်တွင် အကွာအဝေး နှစ်ဆ ဖြစ်ပြီး၊ တကယ့်ရုပ်ပုံဖြစ်၍ ပြောင်းပြန်ဘယ်တော့မျှ မဖြစ်ပါ။",
+            "အရာဝတ္ထုနှင့် အရွယ်အစားတူညီသော်လည်း ဖန်သားပြင်ပေါ်သို့ တိုက်ရိုက် ရိုက်ချနိုင်သည်။",
+            "ဘယ်ညာပြောင်းပြန်ဖြစ်ခြင်းတစ်ခုတည်းသာရှိပြီး အခြားဂုဏ်သတ္တိ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match, where all four properties of a plane mirror image were listed together in one term.",
+            "Recall Nilar's reading passage -- she discovered the virtual image firsthand when she tried to touch her reflected hand, and saw the lateral inversion in her script's title.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- ပြားမှန်ရုပ်ပုံ၏ ဂုဏ်သတ္တိလေးမျိုးလုံးကို ဝေါဟာရတစ်ခုတည်းတွင် ပေါင်းစပ်ဖော်ပြထားသည်။",
+            "နီလာ၏ စာဖတ်ခန်းကို သတိရပါ -- သူမ၏လက်ရိပ်ကို ထိတွေ့ကြည့်စဉ် တွင်းမြင်ရုပ်ပုံကို ကိုယ်တိုင်တွေ့ခဲ့ရပြီး သူမ၏ ဇာတ်ကောင်အမည်တွင် ဘယ်ညာပြောင်းပြန်ဖြစ်ခြင်းကိုလည်း မြင်တွေ့ခဲ့ရသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _secondary1ScienceWeek23 = CourseWeekDef(
+  id: "course-secondary1-science-w23",
+  weekNumber: 23,
+  titleEn: "Sound: Vibrations, Pitch and Loudness",
+  titleMy: "အသံ - တုန်ခါမှု၊ အသံအနိမ့်အမြင့်နှင့် အသံကျယ်အတိမ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w23-d1",
+      dayNumber: 1,
+      titleEn: "Sound Quiz",
+      titleMy: "အသံ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the source of every sound -- what must happen to an object to produce sound?",
+          questionMy:
+              "အသံတိုင်း၏ ရင်းမြစ်မှာ အဘယ်နည်း -- အသံထွက်ရန် အရာဝတ္ထုတစ်ခုတွင် အဘယ်အရာ ဖြစ်ပေါ်ရမည်နည်း။",
+          optionsEn: [
+            "The object must vibrate -- move rapidly back and forth",
+            "The object must become hot",
+            "The object must be magnetic",
+            "The object must let light pass through it",
+          ],
+          optionsMy: [
+            "အရာဝတ္ထုသည် တုန်ခါရမည် -- ရှေ့နောက် လျင်မြန်စွာ ရွေ့လျားရမည်",
+            "အရာဝတ္ထုသည် ပူနွေးလာရမည်",
+            "အရာဝတ္ထုသည် သံလိုက်ဓာတ်ရှိရမည်",
+            "အရာဝတ္ထုသည် အလင်းရောင် ထိုးဖောက်နိုင်ရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of vocal cords, a plucked guitar string, a struck drum skin, or a speaker cone moving rapidly back and forth -- what are they all doing right before you hear the sound?",
+            "Rule out heat, magnetism and letting light through -- none of Week 21's light-related properties are what actually starts a sound.",
+          ],
+          hintsMy: [
+            "အသံကြိုး၊ တီးထုတ်လိုက်သော ဂစ်တာကြိုး၊ တီးမိသွားသော ဗုံအရေပြား (သို့) ရှေ့နောက်လျင်မြန်စွာ ရွေ့လျားနေသော စပီကာခုံးကို စဉ်းစားပါ -- အသံမကြားခင် ၎င်းတို့အားလုံး အဘယ်ကို ပြုလုပ်နေကြသနည်း။",
+            "အပူ၊ သံလိုက်ဓာတ်နှင့် အလင်းရောင်ထိုးဖောက်ခွင့်ကို ဖယ်ရှားပါ -- Week 21 ၏ အလင်းရောင်ဆိုင်ရာ ဂုဏ်သတ္တိများထဲမှ မည်သည့်တစ်ခုမျှ အသံကို အမှန်တကယ် စတင်စေသောအရာ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A friend across the room speaks to you, and the sound reaches your ear through the air. Using Week 2's particle model, what actually happens as the sound crosses the room?",
+          questionMy:
+              "အခန်းတစ်ဖက်ရှိ သူငယ်ချင်းတစ်ဦးက သင့်အား ပြောဆိုပြီး အသံသည် လေကိုဖြတ်၍ သင့်နားထဲသို့ ရောက်ရှိလာသည်။ Week 2 ၏ အနုမြူပုံစံကို အသုံးပြု၍ အသံသည် အခန်းကို ဖြတ်သန်းစဉ် အမှန်တကယ် အဘယ်အရာ ဖြစ်ပျက်နေသနည်း။",
+          optionsEn: [
+            "The vibrating source pushes the air particles next to it, which then collide with and disturb their own neighbours, passing the vibration onward particle by particle",
+            "One single air particle travels all the way from your friend's mouth to your ear",
+            "The air itself physically moves across the whole room to your ear",
+            "Nothing physical happens -- sound crosses the room instantly with no particles involved",
+          ],
+          optionsMy: [
+            "တုန်ခါနေသော ရင်းမြစ်က ၎င်းအနီးရှိ လေအနုမြူများကို တွန်းပို့ပေးပြီး ၎င်းတို့သည် မိမိတို့၏ အနီးကပ်ရှိ အနုမြူများနှင့် တိုက်မိလှုပ်ရှားစေကာ တုန်ခါမှုကို အနုမြူတစ်ခုပြီးတစ်ခု ဆက်ခံပေးသွားသည်",
+            "လေအနုမြူတစ်ခုတည်းသည် သူငယ်ချင်း၏ ပါးစပ်မှ သင့်နားထိ အကုန်လုံး ခရီးသွားလာသည်",
+            "လေကိုယ်တိုင်သည် အခန်းတစ်ခုလုံးကို ဖြတ်၍ သင့်နားဆီသို့ ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားသွားသည်",
+            "ရုပ်ပိုင်းဆိုင်ရာ မည်သည့်အရာမျှ မဖြစ်ပျက်ပါ -- အသံသည် အနုမြူများနှင့် မသက်ဆိုင်ဘဲ ချက်ချင်း ဖြတ်သန်းသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's particle model of a gas -- particles are spread out but still collide with their neighbours as they move.",
+            "No single particle needs to travel the whole distance -- each one only nudges the particle right next to it, like a row of falling dominoes.",
+          ],
+          hintsMy: [
+            "Week 2 ၏ ဓာတ်ငွေ့တစ်ခု၏ အနုမြူပုံစံကို သတိရပါ -- အနုမြူများသည် ဝေးကွာစွာ ဖြန့်ကျက်နေသော်လည်း ရွေ့လျားနေစဉ် ၎င်းတို့၏ အနီးကပ်ရှိအနုမြူများနှင့် ဆက်လက် တိုက်မိနေဆဲ ဖြစ်သည်။",
+            "အနုမြူတစ်ခုတည်းက အကွာအဝေးတစ်ခုလုံး ခရီးသွားစရာ မလိုပါ -- တစ်ခုစီသည် ၎င်း၏ အနီးကပ်ရှိ အနုမြူကိုသာ တွန်းပေးလိုက်ခြင်းဖြစ်ပြီး ပြိုကျနေသော ဒိုမီနိုတန်း တစ်တန်းနှင့် တူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can sound not travel through a vacuum (completely empty space with no particles at all), even though Week 21's light can?",
+          questionMy:
+              "\"ဗက်ကျူမ်\" (အနုမြူ လုံးဝမရှိသော လွတ်ဟာနေရာ) ကို Week 21 ၏ အလင်းရောင်က ဖြတ်သန်းနိုင်သော်လည်း အသံက အဘယ့်ကြောင့် ဖြတ်သန်း၍ မရနိုင်သနည်း။",
+          optionsEn: [
+            "There are no particles in a vacuum to vibrate and pass the disturbance along",
+            "A vacuum is too bright for sound to travel through",
+            "Sound travels faster than light, so it skips vacuums entirely",
+            "Sound can actually travel through a vacuum just as easily as light",
+          ],
+          optionsMy: [
+            "ဗက်ကျူမ်တွင် တုန်ခါပြီး လှုပ်ရှားမှုကို ဆက်ခံပေးနိုင်မည့် အနုမြူများ လုံးဝ မရှိသောကြောင့်",
+            "ဗက်ကျူမ်သည် အလင်းရောင် အလွန်ထန်နေသောကြောင့်",
+            "အသံသည် အလင်းထက် ပိုမြန်သောကြောင့် ဗက်ကျူမ်ကို လုံးဝ ကျော်သွားသောကြောင့်",
+            "အသံသည် အလင်းကဲ့သို့ပင် ဗက်ကျူမ်ကို လွယ်ကူစွာ ဖြတ်သန်းနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21 -- sunlight crosses the empty vacuum of space to reach Earth, because light doesn't need particles to travel. This is also why a real explosion far out in space would actually be silent, unlike in the movies.",
+            "Sound needs a chain of particles bumping into their own neighbours (Week 2's particle model) -- with nothing there at all in a vacuum, that chain can't even start.",
+          ],
+          hintsMy: [
+            "Week 21 ကို သတိရပါ -- နေရောင်ခြည်သည် အာကာသ၏ လွတ်ဟာဗက်ကျူမ်ကို ဖြတ်ကျော်၍ ကမ္ဘာသို့ ရောက်ရှိနိုင်သည်၊ အကြောင်းမှာ အလင်းရောင်သည် ဖြတ်သန်းရန် အနုမြူများ မလိုအပ်သောကြောင့် ဖြစ်သည်။ ဤအချက်ကပင် အာကာသအလွန်ဝေးရာတွင် တကယ့်ပေါက်ကွဲမှုတစ်ခုသည် ရုပ်ရှင်ထဲကလို မဟုတ်ဘဲ လုံးဝ တိတ်ဆိတ်နေမည့် အကြောင်းရင်း ဖြစ်သည်။",
+            "အသံသည် မိမိတို့၏ အနီးကပ်ရှိ အနုမြူများနှင့် တိုက်မိနေသော အနုမြူများ၏ ကွင်းဆက် (Week 2 ၏ အနုမြူပုံစံ) လိုအပ်သည် -- ဗက်ကျူမ်တွင် မည်သည့်အရာမျှ လုံးဝ မရှိသဖြင့် ထိုကွင်းဆက်သည် စတင်ပင် မရနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A short, tightly-stretched guitar string vibrates very quickly, producing a high note. What is this rate of vibration called, and what does it determine?",
+          questionMy:
+              "တိုတောင်းပြီး တင်းကျပ်စွာ တင်းထားသော ဂစ်တာကြိုးတစ်ချောင်းသည် အလွန်မြန်စွာ တုန်ခါကာ အသံမြင့်တစ်ခုကို ဖြစ်ပေါ်စေသည်။ ဤတုန်ခါနှုန်းကို အဘယ်ဟုခေါ်ပြီး ၎င်းက အဘယ်ကို ဆုံးဖြတ်ပေးသနည်း။",
+          optionsEn: [
+            "Frequency -- it determines the pitch of a sound",
+            "Amplitude -- it determines the loudness of a sound",
+            "Medium -- it determines what material the sound is passing through",
+            "Vacuum -- it determines whether the sound can be heard at all",
+          ],
+          optionsMy: [
+            "ကြိမ်နှုန်း (Frequency) -- ၎င်းက အသံ၏ အနိမ့်အမြင့်ကို ဆုံးဖြတ်ပေးသည်",
+            "အကျယ်အဝန်း (Amplitude) -- ၎င်းက အသံ၏ ကျယ်အတိမ်ကို ဆုံးဖြတ်ပေးသည်",
+            "အလယ်အလတ်ပစ္စည်း (Medium) -- ၎င်းက အသံ ဖြတ်သန်းနေသောပစ္စည်းအမျိုးအစားကို ဆုံးဖြတ်ပေးသည်",
+            "ဗက်ကျူမ် (Vacuum) -- ၎င်းက အသံကို ကြားနိုင်၊ မကြားနိုင်ကို ဆုံးဖြတ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A thick, loose string vibrates much more slowly, producing a low note instead -- the difference between the two is how fast each string vibrates.",
+            "Rule out amplitude, medium and vacuum -- those are different ideas covered elsewhere this week; this question is about how fast the vibration is.",
+          ],
+          hintsMy: [
+            "ထူပြီး ပေါ့ပါးစွာ တင်းထားသော ကြိုးတစ်ချောင်းသည် ပိုနှေးကွေးစွာ တုန်ခါကာ အသံနိမ့်တစ်ခုကို ဖြစ်ပေါ်စေသည် -- ဤနှစ်ခု၏ ကွာခြားချက်မှာ ကြိုးတစ်ချောင်းစီ မည်မျှမြန်စွာ တုန်ခါသည်ဆိုသည်ပင်။",
+            "အကျယ်အဝန်း၊ အလယ်အလတ်ပစ္စည်းနှင့် ဗက်ကျူမ်ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် ဤအပတ်၏ အခြားနေရာများတွင် ဖော်ပြထားသော ကွဲပြားသောအတွေးအခေါ်များ ဖြစ်ကြသည်၊ ဤမေးခွန်းမှာ တုန်ခါမှု မည်မျှမြန်သည်ဆိုသည့် အကြောင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match the Sound Vocabulary",
+      titleMy: "အသံဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w23-dm-1",
+          termEn: "Vibration",
+          termMy: "တုန်ခါမှု (Vibration)",
+          matchEn:
+              "A rapid back-and-forth movement of an object -- the source of every sound, whether it's vocal cords, a guitar string, a drum skin or a speaker cone.",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခု၏ ရှေ့နောက် လျင်မြန်စွာ ရွေ့လျားမှု -- အသံကြိုး၊ ဂစ်တာကြိုး၊ ဗုံအရေပြား (သို့) စပီကာခုံးမဆို အသံတိုင်း၏ ရင်းမြစ် ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w23-dm-2",
+          termEn: "Medium",
+          termMy: "အသံ ဖြတ်သန်းရာ ပစ္စည်း (Medium)",
+          matchEn:
+              "A solid, liquid or gas that a sound's vibration passes through, particle by particle, from the source toward your ear.",
+          matchMy:
+              "ရင်းမြစ်မှ နားဆီသို့ တုန်ခါမှုကို အနုမြူတစ်ခုပြီးတစ်ခု ဆက်ခံပေးနိုင်သော အစိုင်အခဲ၊ အရည် (သို့) ဓာတ်ငွေ့။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w23-dm-3",
+          termEn: "Vacuum",
+          termMy: "လွတ်ဟာနေရာ (Vacuum)",
+          matchEn:
+              "Completely empty space with no particles at all -- sound cannot travel through it, though Week 21's light can.",
+          matchMy:
+              "အနုမြူ လုံးဝမရှိသော လုံးဝလွတ်ဟာနေရာ -- အသံ ဖြတ်သန်း၍မရနိုင်သော်လည်း Week 21 ၏ အလင်းရောင်မူ ဖြတ်သန်းနိုင်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w23-dm-4",
+          termEn: "Frequency (Pitch)",
+          termMy: "တုန်ခါနှုန်း (Frequency/Pitch)",
+          matchEn:
+              "How fast a source vibrates -- a faster vibration makes a higher-pitched sound, a slower vibration makes a lower-pitched sound.",
+          matchMy:
+              "ရင်းမြစ်တစ်ခု မည်မျှမြန်စွာ တုန်ခါသည်ကို ဆိုလိုသည် -- ပိုမြန်သောတုန်ခါမှုက အသံကို ပိုမြင့်စေပြီး ပိုနှေးသောတုန်ခါမှုက အသံကို ပိုနိမ့်စေသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w23-dm-5",
+          termEn: "Amplitude (Loudness)",
+          termMy: "တုန်ခါမှု၏ အကျယ်အဝန်း (Amplitude/Loudness)",
+          matchEn:
+              "The size of a vibration -- a bigger vibration disturbs the surrounding particles more strongly, making a louder sound.",
+          matchMy:
+              "တုန်ခါမှု၏ ကြီးငယ်ကို ဆိုလိုသည် -- ပိုကြီးသောတုန်ခါမှုက ပတ်ဝန်းကျင်ရှိ အနုမြူများကို ပိုပြင်းထန်စွာ လှုပ်ရှားစေပြီး ပိုကျယ်သောအသံကို ဖြစ်ပေါ်စေသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1sci-w23-dm-6",
+          termEn: "Eardrum",
+          termMy: "နားတီးခုံ (Eardrum)",
+          matchEn:
+              "The part inside the ear that vibrates first when sound travelling through the air reaches it -- the first step in detecting sound.",
+          matchMy:
+              "လေကိုဖြတ်၍ ရောက်ရှိလာသော အသံ ရောက်ရှိသည့်အခါ ရှေးဦးစွာ တုန်ခါသော နားအတွင်းရှိ အစိတ်အပိုင်း -- အသံကို ခံစားသိရှိရာတွင် ပထမဆုံးအဆင့် ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Faster Through a Solid or a Gas?",
+      titleMy: "စီစစ်ကြမည် - အစိုင်အခဲကနေ ပိုမြန်လား၊ ဓာတ်ငွေ့ကနေ ပိုမြန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Sound Travels Faster (Solid)",
+          "Sound Travels Slower (Gas)",
+        ],
+        bucketsMy: [
+          "အသံ ပိုမြန်စွာ ဖြတ်သန်း (အစိုင်အခဲ)",
+          "အသံ ပိုနှေးစွာ ဖြတ်သန်း (ဓာတ်ငွေ့)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w23-sort-1",
+            labelEn: "Steel Railway Track",
+            labelMy: "သံမဏိ မီးရထားလမ်း",
+            correctBucketEn: "Sound Travels Faster (Solid)",
+            correctBucketMy: "အသံ ပိုမြန်စွာ ဖြတ်သန်း (အစိုင်အခဲ)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-2",
+            labelEn: "Air in a Classroom",
+            labelMy: "စာသင်ခန်းအတွင်းရှိလေ",
+            correctBucketEn: "Sound Travels Slower (Gas)",
+            correctBucketMy: "အသံ ပိုနှေးစွာ ဖြတ်သန်း (ဓာတ်ငွေ့)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-3",
+            labelEn: "Wooden Door",
+            labelMy: "သစ်သားတံခါး",
+            correctBucketEn: "Sound Travels Faster (Solid)",
+            correctBucketMy: "အသံ ပိုမြန်စွာ ဖြတ်သန်း (အစိုင်အခဲ)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-4",
+            labelEn: "Air on a Windy Day Outside",
+            labelMy: "လေပြင်းထန်သောနေ့ရက်ရှိ ပြင်ပလေ",
+            correctBucketEn: "Sound Travels Slower (Gas)",
+            correctBucketMy: "အသံ ပိုနှေးစွာ ဖြတ်သန်း (ဓာတ်ငွေ့)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-5",
+            labelEn: "Metal Fence",
+            labelMy: "သံမဏိစည်း",
+            correctBucketEn: "Sound Travels Faster (Solid)",
+            correctBucketMy: "အသံ ပိုမြန်စွာ ဖြတ်သန်း (အစိုင်အခဲ)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-6",
+            labelEn: "Air Inside a Balloon",
+            labelMy: "ပူဖောင်းအတွင်းရှိလေ",
+            correctBucketEn: "Sound Travels Slower (Gas)",
+            correctBucketMy: "အသံ ပိုနှေးစွာ ဖြတ်သန်း (ဓာတ်ငွေ့)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-7",
+            labelEn: "Concrete Wall",
+            labelMy: "ကွန်ကရစ်နံရံ",
+            correctBucketEn: "Sound Travels Faster (Solid)",
+            correctBucketMy: "အသံ ပိုမြန်စွာ ဖြတ်သန်း (အစိုင်အခဲ)",
+          ),
+          SortingItem(
+            id: "s1sci-w23-sort-8",
+            labelEn: "Air in an Empty Room",
+            labelMy: "လူသူမရှိသော အခန်းအတွင်းရှိလေ",
+            correctBucketEn: "Sound Travels Slower (Gas)",
+            correctBucketMy: "အသံ ပိုနှေးစွာ ဖြတ်သန်း (ဓာတ်ငွေ့)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Guitar and the Silent Explosion",
+      titleMy: "စာဖတ်ခြင်း - သီရိ၏ ဂစ်တာနှင့် တိတ်ဆိတ်သောပေါက်ကွဲမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Guitar and the Silent Explosion",
+        titleMy: "သီရိ၏ ဂစ်တာနှင့် တိတ်ဆိတ်သောပေါက်ကွဲမှု",
+        passageEn:
+            "Thiri loved practising her guitar every evening after dinner. One evening, her younger brother Kyaw Zin sat beside her and asked why some notes sounded high and squeaky while others sounded low and deep, even on the very same string.\n\nThiri explained that pressing down on a fret shortened the part of the string that was free to vibrate. A shorter string vibrates faster, and a faster vibration makes a higher-pitched note -- while letting the whole string vibrate slowly produces a much lower note instead. Kyaw Zin then asked why some of her strums sounded so much louder than others. Thiri strummed gently, then strummed hard, and explained that a harder strum made the string swing through a bigger vibration, disturbing the air particles around it far more strongly and producing a louder sound. As that sound crossed the room, it travelled the way Week 2's particle model describes any gas behaving: the vibrating string pushed the air particles right next to it, which collided with their own neighbours, passing the disturbance onward particle by particle, until it finally reached Kyaw Zin's ear and made his eardrum vibrate -- the very first step in hearing anything at all.\n\nLater that night, the family settled down to watch a science-fiction film. A spaceship exploded in total silence for a split second before a huge, booming explosion sound roared through the speakers. Thiri laughed and told Kyaw Zin that the movie had it wrong: real outer space is a vacuum, completely empty of particles, so there is nothing there to vibrate and pass a disturbance along. Sunlight can still cross that same empty vacuum to reach Earth, exactly like Week 21 explained about light -- but sound cannot. A real explosion far out in space would actually be silent.\n\nThe next day at school, their science teacher, U Than Tun, set up a simple demonstration. He asked one student to tap gently on one end of a long wooden table while Thiri pressed her ear against the other end. She could hear the tap clearly and quickly through the solid wood. When the same student tapped the table again but Thiri instead listened from across the room through the air, the sound felt fainter and slightly slower to arrive. U Than Tun explained that a solid's particles are already packed closely together, just as Week 2's particle model showed, so a vibration passes from particle to particle much more quickly than in a gas like air, where the particles are spread much further apart.\n\nWalking home, Thiri realised that a single guitar string, a badly-written movie scene, and a wooden table had all taught her the same lesson about sound in one single day.",
+        passageMy:
+            "သီရိသည် ညစာစားပြီးတိုင်း ညနေတိုင်း ဂစ်တာကို လေ့ကျင့်ခြင်းကို နှစ်သက်သည်။ တစ်ညတွင် သူမ၏ ညီငယ် ကျော်ဇင်သည် သူမ၏အနားတွင် ထိုင်ပြီး ကြိုးတစ်ချောင်းတည်းပေါ်တွင်ပင် အသံအချို့သည် မြင့်ပြီး ကလေးကလေးရှိသလို အချို့ကမူ နိမ့်ကျနက်နဲသောအသံဖြစ်သည့် အကြောင်းရင်းကို မေးမြန်းခဲ့သည်။\n\nသီရိသည် ကြိုးပေါ်ရှိ အမှတ်တစ်ခုကို ဖိလိုက်ခြင်းသည် ကြိုး၏ လွတ်လပ်စွာ တုန်ခါနိုင်သောအစိတ်အပိုင်းကို တိုစေကြောင်း ရှင်းပြခဲ့သည်။ ကြိုးတိုသည် ပိုမြန်စွာ တုန်ခါပြီး ပိုမြန်သောတုန်ခါမှုက အသံကို ပိုမြင့်စေသည် -- ကြိုးတစ်ချောင်းလုံးကို နှေးကွေးစွာ တုန်ခါစေပါက အစားထိုးအနေဖြင့် အသံသည် ပို၍ နိမ့်ကျသွားသည်။ ထို့နောက် ကျော်ဇင်သည် သူမ၏ တင်းချောက်အချို့သည် အခြားများထက် အဘယ့်ကြောင့် ပို၍ ကျယ်လောင်နေသနည်းဟု မေးခဲ့သည်။ သီရိသည် ညင်သာစွာ ဆွဲကာ ထို့နောက် ပြင်းထန်စွာ ဆွဲပြပြီး ပို၍ပြင်းထန်စွာ ဆွဲခြင်းသည် ကြိုးကို ပိုကြီးသောတုန်ခါမှုဖြင့် လှုပ်ရှားစေကာ ၎င်း၏ ပတ်ဝန်းကျင်ရှိ လေအနုမြူများကို ပိုပြင်းထန်စွာ လှုပ်ရှားစေသဖြင့် ပိုကျယ်သောအသံ ဖြစ်ပေါ်စေကြောင်း ရှင်းပြခဲ့သည်။ ထိုအသံသည် အခန်းကို ဖြတ်သန်းသွားစဉ် Week 2 ၏ အနုမြူပုံစံက ဓာတ်ငွေ့တစ်ခု၏ အပြုအမူကို ဖော်ပြသကဲ့သို့ပင် ဖြတ်သန်းသွားသည် -- တုန်ခါနေသော ကြိုးသည် ၎င်း၏အနီးရှိ လေအနုမြူများကို တွန်းပို့ပေးကာ ၎င်းတို့သည် မိမိတို့၏ အနီးကပ်ရှိ အနုမြူများနှင့် တိုက်မိလှုပ်ရှားစေကာ တစ်ခုပြီးတစ်ခု လှုပ်ရှားမှုကို ဆက်ခံပေးသွားသည်၊ နောက်ဆုံးတွင် ကျော်ဇင်၏ နားထဲသို့ ရောက်ရှိပြီး ၎င်း၏ နားတီးခုံကို တုန်ခါစေသည် -- ၎င်းသည် မည်သည့်အရာကိုမဆို ကြားရခြင်း၏ ပထမဆုံးအဆင့် ဖြစ်သည်။\n\nထိုညနေ နောက်ပိုင်းတွင် မိသားစုသည် သိပ္ပံစိတ်ကူးယဉ်ရုပ်ရှင်တစ်ကားကို ကြည့်ရန် ထိုင်ခဲ့ကြသည်။ အာကာသယာဉ်တစ်စင်းသည် စက္ကန့်ပိုင်းအတွင်း လုံးဝ တိတ်ဆိတ်စွာ ပေါက်ကွဲသွားပြီးနောက် အသံချဲ့စက်များမှတစ်ဆင့် ကျယ်လောင်ပြင်းထန်သော ပေါက်ကွဲသံတစ်ခု ဟိန်းထွက်လာသည်။ သီရိသည် ရယ်မောလိုက်ပြီး ကျော်ဇင်အား ရုပ်ရှင်ကားက မှားနေကြောင်း ပြောခဲ့သည် - တကယ့်အာကာသသည် အနုမြူများ လုံးဝမရှိသော လွတ်ဟာနေရာဖြစ်၍ ၎င်းတွင် တုန်ခါပြီး လှုပ်ရှားမှုကို ဆက်ခံပေးနိုင်မည့် အရာ တစ်စုံတစ်ခုမျှ မရှိပါ။ Week 21 က အလင်းရောင်နှင့်ပတ်သက်၍ ရှင်းပြခဲ့သကဲ့သို့ပင် နေရောင်ခြည်သည် ထိုတူညီသောလွတ်ဟာနေရာကို ဖြတ်ကျော်၍ ကမ္ဘာသို့ ရောက်ရှိနိုင်သေးသော်လည်း အသံမူ ထိုသို့ မရောက်ရှိနိုင်ပါ။ အာကာသအလွန်ဝေးရာတွင် တကယ့်ပေါက်ကွဲမှုတစ်ခုသည် တကယ်တော့ လုံးဝ တိတ်ဆိတ်နေမည် ဖြစ်သည်။\n\nနောက်တစ်နေ့ ကျောင်းတွင် သူတို့၏ သိပ္ပံဆရာ ဦးသန်းထွန်းသည် ရိုးရှင်းသော စမ်းသပ်မှုတစ်ခုကို ပြုလုပ်ပြသခဲ့သည်။ သူသည် ကျောင်းသားတစ်ဦးအား ရှည်လျားသော သစ်သားစားပွဲတစ်ခု၏ တစ်ဖက်စွန်းကို ညင်သာစွာ တို့ခိုင်းပြီး သီရိအား စားပွဲ၏ အခြားတစ်ဖက်စွန်းတွင် နားကပ်နားထောင်ခိုင်းခဲ့သည်။ သူမသည် အစိုင်အခဲ သစ်သားကို ဖြတ်သန်းလာသော တို့သံကို ရှင်းလင်းစွာနှင့် လျင်မြန်စွာ ကြားရသည်။ ထိုကျောင်းသားပင် စားပွဲကို ထပ်မံ တို့ခိုင်းပြီး ယခုတစ်ကြိမ်တွင် သီရိအား အခန်းတစ်လျှောက် လေထဲမှတစ်ဆင့် ထောင်ခိုင်းသောအခါ အသံသည် ပို၍ ညောင်းညာပြီး ခဏတစ်ဖြုတ် နှေးကွေးစွာ ရောက်ရှိသည်ဟု ခံစားရသည်။ ဦးသန်းထွန်းက Week 2 ၏ အနုမြူပုံစံ ပြသခဲ့သကဲ့သို့ပင် အစိုင်အခဲ၏ အနုမြူများသည် ပြီးနှင့်ပြီးသား ကျစ်လျစ်စွာ စုပုံနေသဖြင့် တုန်ခါမှုသည် ဓာတ်ငွေ့ဖြစ်သော လေထက် အနုမြူတစ်ခုမှ တစ်ခုသို့ ပိုမြန်စွာ ဖြတ်သန်းနိုင်ကြောင်း၊ လေထဲတွင်မူ အနုမြူများသည် ပို၍ ဝေးကွာစွာ ဖြန့်ကျက်နေကြောင်း ရှင်းပြခဲ့သည်။\n\nအိမ်ပြန်လမ်းတွင် လျှောက်လာစဉ် သီရိသည် ဂစ်တာကြိုးတစ်ချောင်း၊ မှားယွင်းစွာရေးထားသော ရုပ်ရှင်ဇာတ်ကြောင်းတစ်ခုနှင့် သစ်သားစားပွဲတစ်ခုတို့က တစ်နေ့တည်းအတွင်း အသံနှင့်ပတ်သက်၍ သင်ခန်းစာတစ်ခုတည်းကို သူမအား သင်ပေးခဲ့ကြောင်း သတိပြုမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did strumming the guitar harder make the note sound louder, according to Thiri's explanation?",
+            questionMy:
+                "သီရိ၏ ရှင်းပြချက်အရ ဂစ်တာကို ပို၍ပြင်းထန်စွာ ဆွဲခြင်းသည် အသံကို ပို၍ကျယ်လောင်စေခဲ့သည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "A bigger vibration disturbed the surrounding air particles more strongly, producing a louder sound",
+              "The string became shorter as she strummed harder",
+              "The room around her became hotter",
+              "The guitar's material changed while she played",
+            ],
+            optionsMy: [
+              "ပိုကြီးသောတုန်ခါမှုက ပတ်ဝန်းကျင်ရှိ လေအနုမြူများကို ပိုပြင်းထန်စွာ လှုပ်ရှားစေသဖြင့် ပိုကျယ်သောအသံ ဖြစ်ပေါ်စေခဲ့သည်",
+              "ပိုပြင်းထန်စွာ ဆွဲသည့်အခါ ကြိုးသည် ပိုတိုသွားခဲ့သည်",
+              "သူမ၏ ပတ်ဝန်းကျင်အခန်းသည် ပိုပူလာခဲ့သည်",
+              "သီးသန့်တီးခတ်နေစဉ် ဂစ်တာ၏ ပစ္စည်းသည် ပြောင်းလဲသွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Thiri directly explains what a harder strum does to the size of the vibration.",
+              "Recall Day 2's drag-match entry on Amplitude/Loudness -- a bigger vibration disturbs particles more strongly, making a louder sound.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ပိုပြင်းထန်စွာ ဆွဲခြင်းသည် တုန်ခါမှု၏ အရွယ်အစားကို အဘယ်သို့ ပြုလုပ်သည်ကို သီရိက တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ အကျယ်အဝန်း (Amplitude/Loudness) ကို သတိရပါ -- ပိုကြီးသောတုန်ခါမှုက အနုမြူများကို ပိုပြင်းထန်စွာ လှုပ်ရှားစေပြီး ပိုကျယ်သောအသံကို ဖြစ်ပေါ်စေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Thiri say the movie's space explosion sound was not scientifically accurate?",
+            questionMy:
+                "ရုပ်ရှင်ထဲက အာကာသပေါက်ကွဲသံသည် သိပ္ပံနည်းကျ မဟုတ်ကြောင်း သီရိက အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Real outer space is a vacuum with no particles to vibrate and pass the disturbance along",
+              "The spaceship was too far away to be seen clearly",
+              "Explosions never make loud sounds anywhere at all",
+              "The movie's speakers were simply broken",
+            ],
+            optionsMy: [
+              "တကယ့်အာကာသသည် တုန်ခါပြီး လှုပ်ရှားမှုကို ဆက်ခံပေးနိုင်မည့် အနုမြူများ မရှိသော ဗက်ကျူမ်ဖြစ်သောကြောင့်",
+              "အာကာသယာဉ်သည် ရှင်းလင်းစွာ မမြင်နိုင်လောက်အောင် ဝေးကွာလွန်းသောကြောင့်",
+              "ပေါက်ကွဲမှုများသည် မည်သည့်နေရာတွင်မဆို ကျယ်လောင်သောအသံ လုံးဝ ဖြစ်ပေါ်မခံသောကြောင့်",
+              "ရုပ်ရှင်ကားထဲရှိ အသံချဲ့စက်များ ပျက်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, where Thiri explains exactly why the movie got it wrong.",
+              "Recall Day 1's third question and Week 21's light -- light can cross a vacuum, but sound needs particles to pass a disturbance along, which a vacuum doesn't have.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရုပ်ရှင်ကား အဘယ်ကြောင့် မှားနေသည်ကို သီရိက တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "ပထမနေ့ တတိယမေးခွန်းနှင့် Week 21 ၏ အလင်းရောင်ကို သတိရပါ -- အလင်းရောင်သည် ဗက်ကျူမ်ကို ဖြတ်ကျော်နိုင်သော်လည်း အသံသည် လှုပ်ရှားမှုကို ဆက်ခံပေးရန် အနုမြူများ လိုအပ်ပြီး ဗက်ကျူမ်တွင် ၎င်းတို့ မရှိပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why could Thiri hear the tap more clearly and quickly through the wooden table than through the air?",
+            questionMy:
+                "တို့သံကို လေထဲမှတစ်ဆင့်ထက် သစ်သားစားပွဲကနေ သီရိက ပို၍ ရှင်းလင်းစွာနှင့် လျင်မြန်စွာ ကြားရခဲ့သည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "The table's solid particles are already packed closely together, passing the vibration faster than air's spread-out particles",
+              "The table was simply louder than the student's voice",
+              "Air doesn't allow any sound at all to pass through it",
+              "The wooden table was electrically charged",
+            ],
+            optionsMy: [
+              "စားပွဲ၏ အစိုင်အခဲအနုမြူများသည် ပြီးနှင့်ပြီးသား ကျစ်လျစ်စွာ စုပုံနေသဖြင့် ဝေးကွာစွာဖြန့်ကျက်နေသော လေအနုမြူများထက် တုန်ခါမှုကို ပိုမြန်စွာ ဆက်ခံပေးသောကြောင့်",
+              "စားပွဲသည် ကျောင်းသား၏ အသံထက် ကျယ်လောင်နေသောကြောင့်",
+              "လေသည် မည်သည့်အသံမျှ လုံးဝ ဖြတ်သန်းခွင့် မပြုသောကြောင့်",
+              "သစ်သားစားပွဲသည် လျှပ်စစ်အားရှိနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the fourth paragraph, where U Than Tun explains the demonstration's result directly.",
+              "Recall the sorting activity's two buckets -- solids transmit a vibration faster than gases like air do.",
+            ],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ဦးသန်းထွန်းက စမ်းသပ်မှု၏ ရလဒ်ကို တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "စီစစ်လေ့ကျင့်ခန်း၏ ကန်နှစ်ခုကို သတိရပါ -- အစိုင်အခဲများသည် လေကဲ့သို့သောဓာတ်ငွေ့များထက် တုန်ခါမှုကို ပိုမြန်စွာ ဆက်ခံပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the first thing that happens inside the ear when a sound travelling through the air finally arrives?",
+            questionMy:
+                "လေကို ဖြတ်သန်းလာသော အသံသည် နောက်ဆုံးတွင် ရောက်ရှိလာသောအခါ နားအတွင်း ဦးစွာ ဖြစ်ပေါ်သော အရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The eardrum vibrates",
+              "The particles stop moving completely",
+              "The sound turns into light",
+              "Nothing happens at all",
+            ],
+            optionsMy: [
+              "နားတီးခုံ တုန်ခါသည်",
+              "အနုမြူများ လုံးဝ ရွေ့လျားမှု ရပ်တန့်သွားသည်",
+              "အသံသည် အလင်းရောင်အဖြစ် ပြောင်းလဲသွားသည်",
+              "ဘာမျှ လုံးဝ မဖြစ်ပျက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Day 2's drag-match entry on the Eardrum -- and the end of the second paragraph, where Kyaw Zin's ear receives the sound.",
+              "This is described as the very first step in hearing anything at all.",
+            ],
+            hintsMy: [
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းမှ နားတီးခုံ (Eardrum) ကို သတိရပါ -- နှင့် ကျော်ဇင်၏ နားက အသံကို လက်ခံရရှိသည့် ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကိုလည်း။",
+              "၎င်းသည် မည်သည့်အရာကိုမဆို ကြားရခြင်း၏ ပထမဆုံးအဆင့်အဖြစ် ဖော်ပြထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Sound",
+      titleMy: "အပတ်စဉ် ၂၃ ပြန်လည်သုံးသပ်ခြင်း - အသံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What produces every sound?",
+          questionMy: "အသံတိုင်းကို အဘယ်က ဖြစ်ပေါ်စေသနည်း။",
+          optionsEn: [
+            "A vibrating object",
+            "A magnetic field",
+            "A source of heat",
+            "A beam of light",
+          ],
+          optionsMy: [
+            "တုန်ခါနေသော အရာဝတ္ထုတစ်ခု",
+            "သံလိုက်စက်ကွင်းတစ်ခု",
+            "အပူရင်းမြစ်တစ်ခု",
+            "အလင်းရောင်လှိုင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Thiri's guitar -- vocal cords, a guitar string, a drum skin and a speaker cone all do the same thing before you hear them.",
+            "Rule out heat, magnetism and light -- those are separate ideas from other weeks, not what actually starts a sound.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် သီရိ၏ ဂစ်တာကို သတိရပါ -- အသံကြိုး၊ ဂစ်တာကြိုး၊ ဗုံအရေပြားနှင့် စပီကာခုံးတို့သည် ကြားရမီ တစ်ခုတည်းသောအရာကို ပြုလုပ်ကြသည်။",
+            "အပူ၊ သံလိုက်ဓာတ်နှင့် အလင်းရောင်ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် အခြားအပတ်များမှ ကွဲပြားသောအတွေးအခေါ်များဖြစ်ပြီး အသံကို အမှန်တကယ် မစေသောအရာများ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a vibration travel through a medium like air, all the way from its source to your ear?",
+          questionMy:
+              "လေကဲ့သို့သော အလယ်အလတ်ပစ္စည်းတစ်ခုကို ဖြတ်၍ တုန်ခါမှုသည် ၎င်း၏ ရင်းမြစ်မှ သင့်နားထိ မည်သို့ ခရီးရောက်သွားသနည်း။",
+          optionsEn: [
+            "Each particle nudges its own neighbour, passing the disturbance onward particle by particle",
+            "One single particle travels the entire distance by itself",
+            "The whole medium physically moves from the source to the ear",
+            "It does not need a medium at all",
+          ],
+          optionsMy: [
+            "အနုမြူတစ်ခုစီက ၎င်း၏ အနီးကပ်ရှိအနုမြူကို တွန်းပေးလိုက်ကာ လှုပ်ရှားမှုကို အနုမြူတစ်ခုပြီးတစ်ခု ဆက်ခံပေးသွားသည်",
+            "အနုမြူတစ်ခုတည်းက အကွာအဝေးတစ်ခုလုံးကို တစ်ကိုယ်တည်း ခရီးသွားသည်",
+            "အလယ်အလတ်ပစ္စည်းတစ်ခုလုံးသည် ရင်းမြစ်မှ နားဆီသို့ ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားသွားသည်",
+            "၎င်းအတွက် အလယ်အလတ်ပစ္စည်း လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's particle model and Day 1's second question -- like a row of falling dominoes, no single particle makes the whole journey.",
+            "Thiri's guitar string in the reading passage pushed the air particles next to it, which passed the disturbance on to their own neighbours in turn.",
+          ],
+          hintsMy: [
+            "Week 2 ၏ အနုမြူပုံစံနှင့် ပထမနေ့ ဒုတိယမေးခွန်းကို သတိရပါ -- ပြိုကျနေသော ဒိုမီနိုတန်းတစ်တန်းနှင့်တူပြီး အနုမြူတစ်ခုတည်းက ခရီးတစ်ခုလုံး မသွားပါ။",
+            "စာဖတ်ခြင်းမှ သီရိ၏ ဂစ်တာကြိုးသည် ၎င်း၏ အနီးရှိ လေအနုမြူများကို တွန်းပေးလိုက်ပြီး ၎င်းတို့က မိမိတို့၏ အနီးကပ်ရှိအနုမြူများသို့ လှုပ်ရှားမှုကို ဆက်ခံပေးသွားခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can't sound travel through a vacuum, unlike Week 21's light?",
+          questionMy:
+              "Week 21 ၏ အလင်းရောင်နှင့် မတူဘဲ အသံသည် ဗက်ကျူမ်ကို အဘယ့်ကြောင့် ဖြတ်သန်း၍ မရနိုင်သနည်း။",
+          optionsEn: [
+            "A vacuum has no particles at all to vibrate and pass a disturbance along",
+            "A vacuum is too dark for sound to be heard",
+            "Sound and light both need particles equally",
+            "Sound actually can travel through a vacuum just fine",
+          ],
+          optionsMy: [
+            "ဗက်ကျူမ်တွင် တုန်ခါပြီး လှုပ်ရှားမှုကို ဆက်ခံပေးနိုင်မည့် အနုမြူများ လုံးဝ မရှိသောကြောင့်",
+            "ဗက်ကျူမ်သည် အသံကို ကြားနိုင်လောက်အောင် မမှောင်လှသောကြောင့်",
+            "အသံနှင့် အလင်းရောင် နှစ်ခုစလုံးသည် အနုမြူများကို တူညီစွာ လိုအပ်ကြောင်း",
+            "အသံသည် ဗက်ကျူမ်ကို လုံးဝ ကောင်းစွာ ဖြတ်သန်းနိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiri's movie scene in the reading passage -- a real explosion far out in space would actually be silent, unlike in the film.",
+            "Sunlight (Week 21) crosses the vacuum of space because light doesn't need particles -- but sound's particle-to-particle chain has nothing to pass through in a vacuum.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခြင်းမှ သီရိ၏ ရုပ်ရှင်ရှုခင်းကို သတိရပါ -- အာကာသအလွန်ဝေးရာတွင် တကယ့်ပေါက်ကွဲမှုတစ်ခုသည် ရုပ်ရှင်ကထက် ကွာခြားစွာ တကယ်တော့ လုံးဝ တိတ်ဆိတ်နေမည် ဖြစ်သည်။",
+            "နေရောင်ခြည် (Week 21) သည် အလင်းရောင်အတွက် အနုမြူများ မလိုအပ်သောကြောင့် အာကာသဗက်ကျူမ်ကို ဖြတ်ကျော်နိုင်သည် -- သို့သော် အသံ၏ အနုမြူမှတစ်ဆင့်တစ်ဆင့် ကွင်းဆက်တွင် ဗက်ကျူမ်၌ ဖြတ်သန်းစရာ မည်သည့်အရာမျှ မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What determines whether a sound has a high or low pitch?",
+          questionMy: "အသံတစ်ခု၏ အနိမ့်အမြင့်ကို အဘယ်က ဆုံးဖြတ်ပေးသနည်း။",
+          optionsEn: [
+            "Frequency -- how fast the source vibrates",
+            "Amplitude -- how big the vibration is",
+            "The medium the sound is passing through",
+            "Whether the sound is travelling through a vacuum",
+          ],
+          optionsMy: [
+            "ကြိမ်နှုန်း (Frequency) -- ရင်းမြစ် မည်မျှမြန်စွာ တုန်ခါသည်ဆိုသည်",
+            "အကျယ်အဝန်း (Amplitude) -- တုန်ခါမှု မည်မျှကြီးသည်ဆိုသည်",
+            "အသံ ဖြတ်သန်းနေသော အလယ်အလတ်ပစ္စည်း",
+            "အသံသည် ဗက်ကျူမ်ကို ဖြတ်သန်းနေခြင်း ရှိ၊ မရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Thiri's guitar -- a short, tight string vibrating quickly made a high note, and a loose, thick string vibrating slowly made a low one.",
+            "Rule out amplitude, medium and vacuum -- those are separate ideas from elsewhere this week.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် သီရိ၏ ဂစ်တာကို သတိရပါ -- တိုတောင်းပြီး တင်းကျပ်သောကြိုးက မြန်စွာတုန်ခါကာ အသံမြင့်တစ်ခုကို၊ ပေါ့ပါးထူသောကြိုးက နှေးကွေးစွာတုန်ခါကာ အသံနိမ့်တစ်ခုကို ဖြစ်ပေါ်စေခဲ့သည်။",
+            "အကျယ်အဝန်း၊ အလယ်အလတ်ပစ္စည်းနှင့် ဗက်ကျူမ်ကို ဖယ်ရှားပါ -- ၎င်းတို့သည် ဤအပတ်၏ အခြားနေရာများမှ ကွဲပြားသောအတွေးအခေါ်များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What determines whether a sound is loud or quiet?",
+          questionMy: "အသံတစ်ခု၏ ကျယ်အတိမ်ကို အဘယ်က ဆုံးဖြတ်ပေးသနည်း။",
+          optionsEn: [
+            "Amplitude -- how big the vibration is",
+            "Frequency -- how fast the source vibrates",
+            "Whether the sound can cross a vacuum",
+            "The eardrum's own size",
+          ],
+          optionsMy: [
+            "အကျယ်အဝန်း (Amplitude) -- တုန်ခါမှု မည်မျှကြီးသည်ဆိုသည်",
+            "ကြိမ်နှုန်း (Frequency) -- ရင်းမြစ် မည်မျှမြန်စွာ တုန်ခါသည်ဆိုသည်",
+            "အသံသည် ဗက်ကျူမ်ကို ဖြတ်ကျော်နိုင်၊ မနိုင်",
+            "နားတီးခုံ၏ ကိုယ်ပိုင်အရွယ်အစား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiri's hard and gentle guitar strums in the reading passage -- a bigger vibration disturbed the air particles more strongly, making a louder sound.",
+            "Rule out frequency -- that determines pitch (high or low), a completely different idea from loudness.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခြင်းမှ သီရိ၏ ပြင်းထန်စွာနှင့် ညင်သာစွာ ဆွဲသော ဂစ်တာကို သတိရပါ -- ပိုကြီးသောတုန်ခါမှုက လေအနုမြူများကို ပိုပြင်းထန်စွာ လှုပ်ရှားစေပြီး ပိုကျယ်သောအသံကို ဖြစ်ပေါ်စေသည်။",
+            "ကြိမ်နှုန်းကို ဖယ်ရှားပါ -- ၎င်းက အသံအနိမ့်အမြင့်ကို ဆုံးဖြတ်ပေးပြီး ကျယ်အတိမ်နှင့် လုံးဝ ကွဲပြားသော အတွေးအခေါ် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Week 24 is Term 6's capstone, weaving together every week of "Light
+/// and Sound" into one real-world event: a single lightning bolt at a
+/// storm cloud produces both the flash (Week 21's straight-line light
+/// travel and shadows, plus Week 22's reflection explaining a distant
+/// storm's sky glow) and the thunder (Week 23's sound as a vibration
+/// carried particle-to-particle through a medium, resting on Week 2's
+/// particle model) at essentially the same instant -- yet the two
+/// reach a distant observer at very different times because light is
+/// enormously faster than sound. No exact seconds-to-distance
+/// conversion is asserted anywhere (e.g. no "X seconds equals Y
+/// kilometres" rule) -- only the qualitative, safely accurate claim
+/// that a longer gap means farther away and a shorter gap means
+/// closer, matching this pathway's running "no unearned precision"
+/// caution (first stated in Week 6's doc comment). The week also
+/// reaches back to Week 7's energy stores/transfers to explain what
+/// thunder physically is: the bolt's electrical energy briefly and
+/// intensely heats the air, which then expands explosively outward,
+/// and that rapid expansion is itself the vibration heard as thunder.
+const CourseWeekDef _secondary1ScienceWeek24 = CourseWeekDef(
+  id: "course-secondary1-science-w24",
+  weekNumber: 24,
+  titleEn: "Light and Sound in a Thunderstorm",
+  titleMy: "မိုးကြိုးမုန်တိုင်းတွင် အလင်းနှင့်အသံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w24-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Light and Sound Quiz",
+      titleMy: "ပေါင်းစပ် အလင်းနှင့်အသံ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During a storm, a lightning bolt flashes directly overhead, yet its light never seems to bend around the tree outside your window. Which idea from earlier this term explains this?",
+          questionMy:
+              "မုန်တိုင်းတစ်ခုအတွင်း ခေါင်းပေါ်တည့်တည့်တွင် လျှပ်ပြက်တစ်ချက် တောက်ပသွားသော်လည်း ၎င်း၏အလင်းသည် ပြတင်းပေါက်အပြင်ရှိ သစ်ပင်တစ်ပင်ကို ဝိုင်း၍ ရောက်ရှိလာဟန် မရှိပါ။ ဤသင်တန်းလမ်းကြောင်း၏ ယခင်ကသင်ခဲ့သော မည်သည့်အတွေးအခေါ်က ဤအကြောင်းကို ရှင်းပြနိုင်သနည်း။",
+          optionsEn: [
+            "Light travels in straight lines, so it cannot bend around an object blocking its path.",
+            "Light always bounces off every surface it meets before reaching your eyes.",
+            "Light needs a clear night sky to exist at all.",
+            "Light only travels during a storm, never on a clear day.",
+          ],
+          optionsMy: [
+            "အလင်းသည် ဖြောင့်တန်းလိုက် ခရီးသွားသဖြင့် လမ်းကြောင်းကို ပိတ်ဆို့နေသော ပစ္စည်းတစ်ခုကို ဝိုင်း၍ မသွားနိုင်ပါ။",
+            "မျက်စိသို့ မရောက်မီ အလင်းသည် ၎င်းတွေ့ကြုံသမျှ မျက်နှာပြင်တိုင်းမှ အမြဲ ပြန်ကန်နေသည်။",
+            "အလင်းသည် တည်ရှိနေရန် ကြည်လင်သောညအချိန် လိုအပ်သည်။",
+            "အလင်းသည် မုန်တိုင်းအတွင်းသာ ခရီးသွားပြီး ကြည်လင်သောနေ့ရက်တွင် လုံးဝ မသွားပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21's lesson on shadows -- a sharp-edged shadow forms precisely because light cannot curve around an object in its path.",
+            "The same straight-line reasoning that explains a crisp shadow's edge also explains why light can't sneak around the tree.",
+          ],
+          hintsMy: [
+            "Week 21 ၏ အရိပ်သင်ခန်းစာကို သတိရပါ -- အရိပ်တစ်ခု၏ အနားသည် ထက်သည့်အကြောင်းရင်းမှာ အလင်းသည် လမ်းကြောင်းရှိ ပစ္စည်းတစ်ခုကို ဝိုင်း၍ မခွေနိုင်သောကြောင့် ဖြစ်သည်။",
+            "ထက်သောအရိပ်အနားကို ရှင်းပြပေးသော ဖြောင့်တန်းသဘောတရားတစ်ခုတည်းသည် အလင်းသည် သစ်ပင်ကို အဘယ်ကြောင့် ခိုးဝှက် မဖြတ်နိုင်ကြောင်းကိုလည်း ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Even when a storm is still below the horizon, an observer can sometimes see the sky itself flicker with a faint glow. What lets that glow reach the observer's eyes?",
+          questionMy:
+              "မုန်တိုင်းသည် မျက်မြင်ပိုင်းအောက်တွင် ဖုံးကွယ်နေသေးသောအခါမျိုးတွင်ပင် လေ့လာသူသည် ကောင်းကင်ကိုယ်တိုင် အလွန့်အလွန် အလင်းရောင်ဖြင့် တောက်ပနေသည်ကို တစ်ခါတစ်ရံ တွေ့ရှိနိုင်သည်။ ထိုတောက်ပမှုသည် လေ့လာသူ၏ မျက်စိသို့ အဘယ်ကြောင့် ရောက်ရှိလာနိုင်သနည်း။",
+          optionsEn: [
+            "Light from the hidden flash scatters and reflects off the underside of nearby clouds, sending some of it down to the observer.",
+            "Thunder's sound somehow changes into visible light over long distances.",
+            "Light never reflects off anything, so this glow cannot really exist.",
+            "The Moon alone is responsible for every glow seen in a night sky.",
+          ],
+          optionsMy: [
+            "ဖုံးကွယ်နေသော လျှပ်ပြက်မှ အလင်းသည် အနီးရှိမိုးတိမ်များ၏ အောက်ခြေမှ ကွဲကျဲစွာ ပျံ့နှံ့ပြီး ရောင်ပြန်ဟပ်လျက် အချို့ကို လေ့လာသူထံ ပို့ဆောင်ပေးသည်။",
+            "မိုးချုန်းသံသည် ခရီးဝေးများတွင် တွေ့မြင်ရသော အလင်းအဖြစ် တစ်နည်းနည်းဖြင့် ပြောင်းလဲသွားသည်။",
+            "အလင်းသည် မည်သည့်အရာမှ လုံးဝ ရောင်ပြန်မဟပ်သဖြင့် ဤတောက်ပမှုသည် တကယ်တမ်း ရှိနိုင်မည် မဟုတ်ပါ။",
+            "လသာလုံး ညဥ့်ကောင်းကင်တွင် တွေ့ရသမျှ တောက်ပမှုအားလုံးအတွက် တာဝန်ရှိသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 22's reflection lesson -- a rough surface like a cloud scatters light in many directions, unlike a smooth mirror's single clean reflection.",
+            "The cloud's underside is acting a little like a giant, rough reflecting surface, bouncing scattered light down toward the ground.",
+          ],
+          hintsMy: [
+            "Week 22 ၏ ရောင်ပြန်ဟပ်မှုသင်ခန်းစာကို သတိရပါ -- မိုးတိမ်ကဲ့သို့ ကြမ်းတမ်းသောမျက်နှာပြင်သည် အလင်းကို ဒေါင်းလင်းသောမှန်တစ်ချပ်ကဲ့သို့ တစ်ချက်တည်း ရောင်ပြန်မဟပ်ဘဲ ဦးတည်ရာများစွာသို့ ကွဲကျဲစွာ ပျံ့နှံ့စေသည်။",
+            "မိုးတိမ်၏ အောက်ခြေသည် ကြီးမားသောကြမ်းတမ်းသည့် ရောင်ပြန်ဟပ်မျက်နှာပြင်တစ်ခုကဲ့သို့ အနည်းငယ် လုပ်ဆောင်ပေးလျက် ကွဲကျဲသောအလင်းကို မြေပြင်ဘက်သို့ ပို့ဆောင်ပေးနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The crash of thunder is itself a sound. How does that sound actually travel from the storm cloud all the way to an observer's ears?",
+          questionMy:
+              "မိုးချုန်းသံသည် ကိုယ်တိုင်ကပင် အသံတစ်မျိုးဖြစ်သည်။ ထိုအသံသည် မိုးတိမ်မှ လေ့လာသူ၏ နားထံသို့ တကယ်တမ်း မည်ကဲ့သို့ ခရီးသွားရသနည်း။",
+          optionsEn: [
+            "As a vibration passed from one air particle to the next, through the air acting as a medium.",
+            "As a beam of light travelling outward in a straight line.",
+            "It does not really travel at all -- it is heard the instant the bolt strikes.",
+            "It reflects off the ground first and can never travel through the air directly.",
+          ],
+          optionsMy: [
+            "လေကို ကြားခံဒြပ်ထုအဖြစ် အသုံးပြုကာ လေအနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ကူးပြောင်းပေးသော တုန်ခါမှုတစ်ခုအနေဖြင့် ခရီးသွားရသည်။",
+            "ဖြောင့်တန်းလိုက် ပြင်ပသို့ ခရီးသွားသော အလင်းရောင်တန်းတစ်ခုအနေဖြင့်။",
+            "အမှန်တကယ် ခရီးမသွားပါ -- လျှပ်ပြက်တစ်ချက် ထိသည်နှင့် ချက်ချင်း ကြားရသည်။",
+            "မြေပြင်တွင် ဦးစွာ ရောင်ပြန်ဟပ်ပြီးမှသာ ဖြစ်ပြီး လေကို တိုက်ရိုက် ဘယ်တော့မှ ခရီးမသွားနိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 23's medium lesson and Week 2's particle model -- sound is a vibration that must be handed from one particle to its neighbour, not a beam that shoots straight out.",
+            "Unlike light, sound cannot cross empty space at all -- it absolutely needs air (or another medium) full of particles to bump into one another.",
+          ],
+          hintsMy: [
+            "Week 23 ၏ ကြားခံဒြပ်ထုသင်ခန်းစာနှင့် Week 2 ၏ အနုမြူပုံစံကို သတိရပါ -- အသံသည် ဖြောင့်တန်းလိုက် ပစ်ထုတ်သည့် ရောင်တန်းတစ်ခု မဟုတ်ဘဲ အနုမြူတစ်ခုမှ အိမ်နီးချင်းသို့ လက်ဆင့်ကမ်း ပေးရသော တုန်ခါမှုတစ်ခု ဖြစ်သည်။",
+            "အလင်းနှင့် မတူဘဲ အသံသည် လွတ်လပ်သောကွက်လပ်ကို လုံးဝ ဖြတ်၍ မသွားနိုင်ပါ -- ၎င်းသည် အနုမြူများ အချင်းချင်း ထိတွေ့နိုင်ရန် လေ (သို့) အခြားကြားခံဒြပ်ထု လုံးဝ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The lightning bolt's flash and its thunder both actually happen at essentially the same moment, up at the storm cloud. Why does a distant observer nearly always see the flash first?",
+          questionMy:
+              "လျှပ်ပြက်၏ တောက်ပမှုနှင့် ၎င်း၏ မိုးချုန်းသံနှစ်ခုစလုံးသည် မိုးတိမ်ပေါ်တွင် အခြေခံအားဖြင့် တစ်ချိန်တည်း အမှန်တကယ် ဖြစ်ပျက်ကြသည်။ ဝေးကွာသော လေ့လာသူတစ်ဦးသည် လျှပ်ပြက်ကို အဘယ့်ကြောင့် အမြဲနီးပါး ဦးစွာ မြင်ရသနည်း။",
+          optionsEn: [
+            "Light travels enormously faster than sound, so it crosses the distance to the observer's eyes in far less time.",
+            "Thunder always happens several minutes after the lightning bolt, up at the cloud itself.",
+            "Sound actually travels faster than light, but arrives from a different direction.",
+            "The flash and the thunder are unrelated events with no connection to each other.",
+          ],
+          optionsMy: [
+            "အလင်းသည် အသံထက် များစွာပို၍ မြန်ဆန်စွာ ခရီးသွားသဖြင့် လေ့လာသူ၏ မျက်စိသို့ ရောက်ရှိရန် အချိန် အလွန်နည်းပါးစွာသာ ကုန်ကျသည်။",
+            "မိုးချုန်းသံသည် မိုးတိမ်ပေါ်တွင် လျှပ်ပြက်ခြင်းနောက် မိနစ်အနည်းငယ်ကြာမှသာ အမြဲ ဖြစ်ပျက်သည်။",
+            "အမှန်တကယ်တွင် အသံသည် အလင်းထက် ပို၍မြန်ဆန်သော်လည်း မတူညီသောဦးတည်ရာမှ ရောက်ရှိလာခြင်း ဖြစ်သည်။",
+            "တောက်ပမှုနှင့် မိုးချုန်းသံသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်သော ဖြစ်ရပ်များ ဖြစ်ကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about how sound travels, and think about how much longer that particle-to-particle journey takes compared to light's straight-line dash.",
+            "Both the flash and the thunder start at the very same instant, at the cloud -- the gap you notice comes entirely from their very different travelling speeds, not from a delay at the source.",
+          ],
+          hintsMy: [
+            "အသံသွားလာပုံအကြောင်း ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ထိုအနုမြူမှ အနုမြူသို့ ခရီးသည် အလင်း၏ ဖြောင့်တန်းလျင်မြန်စွာ ခရီးနှင့်ယှဉ်လျှင် မည်မျှပို၍ကြာသည်ကို စဉ်းစားပါ။",
+            "တောက်ပမှုနှင့် မိုးချုန်းသံနှစ်ခုစလုံးသည် မိုးတိမ်ပေါ်တွင် အတိအတိတည်း တစ်ချိန်တည်း စတင်ကြသည် -- သင်တွေ့ရသော ကွာဟမှုသည် ၎င်းတို့၏ လွန်စွာကွာခြားသောခရီးသွားနှုန်းမှ လုံးလုံး ဖြစ်ပေါ်လာခြင်းဖြစ်ပြီး ရင်းမြစ်တွင် နှောင့်နှေးမှုမှ မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match the Light and Sound Terms",
+      titleMy: "အလင်းနှင့်အသံ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w24-dm-1",
+          termEn: "Lightning Bolt",
+          termMy: "လျှပ်ပြက် (Lightning Bolt)",
+          matchEn:
+              "A brief, intense electrical discharge between a storm cloud and the ground, releasing a flash of light and briefly, intensely heating the air around it.",
+          matchMy:
+              "မိုးတိမ်နှင့် မြေကြီးကြားရှိ ခဏတာ ပြင်းထန်သော လျှပ်စစ်ထုတ်လွှတ်မှုတစ်ခုဖြစ်ပြီး အလင်းရောင်တောက်ပမှုကို ထုတ်ပေးကာ ၎င်းပတ်ဝန်းကျင်ရှိလေကို ခဏတာ ပြင်းထန်စွာ ပူနွေးစေသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w24-dm-2",
+          termEn: "Thunder",
+          termMy: "မိုးချုန်းသံ (Thunder)",
+          matchEn:
+              "The sound produced when air suddenly superheated by a lightning bolt expands explosively outward -- that rapid expansion is the vibration heard as a crash.",
+          matchMy:
+              "လျှပ်ပြက်ကြောင့် ရုတ်တရက် အပူပြင်းစွာရရှိသွားသောလေသည် ပေါက်ကွဲသကဲ့သို့ ချက်ချင်း ကျယ်ဝန်းသွားသောအခါ ထွက်ပေါ်လာသော အသံဖြစ်ပြီး ထိုလျင်မြန်သော ကျယ်ဝန်းမှုသည်ပင် ကြားရသော ဆူညံသံတုန်ခါမှု ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w24-dm-3",
+          termEn: "Straight-Line Light Travel",
+          termMy:
+              "အလင်း၏ ဖြောင့်တန်းလိုက် ခရီးသွားမှု (Straight-Line Light Travel)",
+          matchEn:
+              "Light moving outward from its source only in straight lines -- the reason a solid object casts a sharp-edged shadow and light cannot bend around a corner.",
+          matchMy:
+              "အလင်းသည် ၎င်း၏ ရင်းမြစ်မှ ဖြောင့်တန်းလိုက်သာ ပြင်ပသို့ ရွေ့လျားခြင်းဖြစ်ပြီး ခိုင်မာသောအရာဝတ္ထုတစ်ခုက အနားထက်သော အရိပ်ကျစေပြီး အလင်းသည် ထောင့်တစ်ခုကို ဝိုင်း၍ မခွေနိုင်ခြင်း၏ အကြောင်းရင်း ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w24-dm-4",
+          termEn: "Reflection",
+          termMy: "ရောင်ပြန်ဟပ်မှု (Reflection)",
+          matchEn:
+              "Light bouncing off a surface -- a rough surface like a cloud's underside scatters it in many directions, still letting some reach a distant observer's eyes.",
+          matchMy:
+              "မျက်နှာပြင်တစ်ခုမှ အလင်း ပြန်ကန်ခြင်းဖြစ်ပြီး မိုးတိမ်၏ အောက်ခြေကဲ့သို့ ကြမ်းတမ်းသောမျက်နှာပြင်သည် ၎င်းကို ဦးတည်ရာများစွာသို့ ကွဲကျဲစွာ ပျံ့နှံ့စေသော်လည်း အချို့ကို ဝေးကွာသောလေ့လာသူ၏ မျက်စိသို့ ဆက်လက် ရောက်ရှိစေသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w24-dm-5",
+          termEn: "Vibration",
+          termMy: "တုန်ခါမှု (Vibration)",
+          matchEn:
+              "A back-and-forth disturbance passed from one particle to the next -- exactly what a sound wave is, as it moves through a medium such as air.",
+          matchMy:
+              "အနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ရှေ့နောက်ရွေ့လျား ကူးပြောင်းပေးသော အနှောင့်အယှက်ဖြစ်ပြီး လေကဲ့သို့ ကြားခံဒြပ်ထုတစ်ခုကို ဖြတ်၍ ရွေ့လျားနေသောအခါ အသံလှိုင်းဆိုသည်မှာ အတိအကျ ဤသဘောပင် ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w24-dm-6",
+          termEn: "Energy Transfer",
+          termMy: "စွမ်းအင်လွှဲပြောင်းမှု (Energy Transfer)",
+          matchEn:
+              "Energy moving from one store to another without ever being created or destroyed -- here, the lightning bolt's electrical energy store transfers into heat and then into sound.",
+          matchMy:
+              "စွမ်းအင်သည် ဘယ်တော့မှ ဖန်တီး (သို့) ဖျက်ဆီး မခံရဘဲ သိုလှောင်မှုတစ်ခုမှ နောက်တစ်ခုသို့ ရွေ့လျားခြင်းဖြစ်ပြီး ဤနေရာတွင် လျှပ်ပြက်၏ လျှပ်စစ်စွမ်းအင်သိုလှောင်မှုသည် အပူသို့ ပြီးလျှင် အသံသို့ လွှဲပြောင်းသွားသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True of Light or True of Sound?",
+      titleMy: "စီစစ်ကြမည် - အလင်းနှင့်သက်ဆိုင်သလား၊ အသံနှင့်သက်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of Light in a Storm", "True of Sound in a Storm"],
+        bucketsMy: [
+          "မုန်တိုင်းအတွင်း အလင်းနှင့် သက်ဆိုင်သည်",
+          "မုန်တိုင်းအတွင်း အသံနှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w24-sort-1",
+            labelEn: "Reaches a distant observer's eyes almost instantly",
+            labelMy: "ဝေးကွာသောလေ့လာသူ၏ မျက်စိသို့ ချက်ချင်းနီးပါး ရောက်ရှိသည်",
+            correctBucketEn: "True of Light in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အလင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-2",
+            labelEn: "Travels in straight lines, casting a sharp-edged shadow",
+            labelMy: "ဖြောင့်တန်းလိုက် ခရီးသွားပြီး အနားထက်သော အရိပ်ကျစေသည်",
+            correctBucketEn: "True of Light in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အလင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-3",
+            labelEn:
+                "Can scatter and reflect off the rough underside of a cloud",
+            labelMy:
+                "မိုးတိမ်၏ ကြမ်းတမ်းသောအောက်ခြေမှ ကွဲကျဲစွာပျံ့နှံ့ကာ ရောင်ပြန်ဟပ်နိုင်သည်",
+            correctBucketEn: "True of Light in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အလင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-4",
+            labelEn:
+                "Can travel through completely empty space, needing no medium at all",
+            labelMy:
+                "ကြားခံဒြပ်ထု လုံးဝ မလိုဘဲ လုံးဝကွက်လပ်ဖြစ်သောနေရာကို ဖြတ်၍ ခရီးသွားနိုင်သည်",
+            correctBucketEn: "True of Light in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အလင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-5",
+            labelEn:
+                "Takes a noticeably longer time to cross the same distance",
+            labelMy:
+                "အကွာအဝေးတူတူကို ဖြတ်ရန် သိသိသာသာ ပို၍ကြာသောအချိန် ကုန်ကျသည်",
+            correctBucketEn: "True of Sound in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အသံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-6",
+            labelEn:
+                "Must travel as a vibration passed from one particle to the next",
+            labelMy:
+                "အနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ကူးပြောင်းပေးသော တုန်ခါမှုတစ်ခုအနေဖြင့် ခရီးသွားရသည်",
+            correctBucketEn: "True of Sound in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အသံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-7",
+            labelEn: "Cannot travel at all through a true vacuum",
+            labelMy: "အမှန်တကယ့် ကွက်လပ်ကို လုံးဝ ဖြတ်၍ မသွားနိုင်ပါ",
+            correctBucketEn: "True of Sound in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အသံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w24-sort-8",
+            labelEn:
+                "Is produced by the sudden, explosive expansion of superheated air",
+            labelMy:
+                "အပူပြင်းစွာရရှိထားသောလေ ရုတ်တရက် ပေါက်ကွဲသကဲ့သို့ ကျယ်ဝန်းသွားခြင်းကြောင့် ထွက်ပေါ်လာသည်",
+            correctBucketEn: "True of Sound in a Storm",
+            correctBucketMy: "မုန်တိုင်းအတွင်း အသံနှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Thunderstorm Count",
+      titleMy: "စာဖတ်ခြင်း - နီလာ၏ မိုးကြိုးမုန်တိုင်း ရေတွက်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Thunderstorm Count",
+        titleMy: "နီလာ၏ မိုးကြိုးမုန်တိုင်း ရေတွက်ချက်",
+        passageEn:
+            "One evening, Nilar sat by her window watching dark clouds roll in over the hills. Moments later, a brilliant streak of lightning split the sky directly ahead, and she flinched, waiting for the crash of thunder -- but nothing came for several long seconds. Counting quietly under her breath, she wondered why the flash always seemed to beat the sound.\n\nShe remembered Week 21's lesson on shadows: light travels in straight lines, the same reason a tree outside cast a sharp-edged shadow across her garden every sunny afternoon. Even before this particular bolt struck, she had noticed the clouds pulse faintly with light -- scattered and reflected off their rough underside (Week 22), a preview of the flash still to come. When the real bolt finally struck, its light raced across the sky and reached her eyes so quickly that it felt completely instant; nothing along that straight-line path slowed it down.\n\nSeveral long seconds after the flash, a deep rumble finally reached her ears. Nilar knew from Week 23 that sound could not travel the way light did -- it had to move as a vibration, passed from one air particle to the next, all the way from the storm cloud to her window (Week 2). Travelling through the air that way took real time, especially across a distance of several kilometres, and that was exactly why the thunder always lagged behind the flash.\n\nNilar also remembered wondering what thunder actually was. Her teacher had explained that the lightning bolt's electrical energy (Week 7) briefly and intensely heated the air it passed through; that superheated air then expanded outward explosively, and it was this rapid expansion of air that produced the vibration she heard as thunder's crash. As the storm rolled closer that night, the gap between each flash and its rumble grew shorter and shorter, and Nilar smiled, certain she now understood exactly what that shrinking gap meant.",
+        passageMy:
+            "တစ်ညနေခင်းတွင် နီလာသည် ၎င်း၏ ပြတင်းပေါက်အနားတွင် ထိုင်လျက် တောင်ကုန်းများအပေါ်မှ မှောင်မှောင်မိုးတိမ်များ ဝင်ရောက်လာသည်ကို ကြည့်နေခဲ့သည်။ ခဏအကြာတွင် တောက်ပသော လျှပ်ပြက်တစ်ချက်သည် ၎င်း၏ရှေ့ကောင်းကင်ကို ခွဲဝေသွားခဲ့ပြီး သူမ တုန်လှုပ်သွားကာ မိုးချုန်းသံကို စောင့်နေခဲ့သည် -- သို့သော် စက္ကန့်ကြာကြာ ဘာမျှ မကြားရပါ။ တိတ်တဆိတ် အသက်ရှူသံအောက်တွင် ရေတွက်နေရင်း သူမသည် တောက်ပမှုသည် အဘယ့်ကြောင့် အမြဲ အသံထက်ရှေ့ကျနေခဲ့သည်ကို တွေးတောနေခဲ့သည်။\n\nသူမသည် Week 21 ၏ အရိပ်သင်ခန်းစာကို သတိရခဲ့သည် - အလင်းသည် ဖြောင့်တန်းလိုက် ခရီးသွားပြီး ၎င်းသည် နေ့လည်ခင်းတိုင်း သူမ၏ ဥယျာဉ်ကို ဖြတ်၍ အနားထက်သော အရိပ်ကျစေသော သစ်ပင်တစ်ပင်၏ အကြောင်းရင်းတည်းပင် ဖြစ်သည်။ ဤလျှပ်ပြက်တစ်ချက် မထိသေးမီကပင် မိုးတိမ်များသည် အလင်းရောင်ဖြင့် အလွန့်အလွန် တောက်ပနေသည်ကို သူမ သတိထားမိခဲ့သည် -- ၎င်းတို့၏ ကြမ်းတမ်းသောအောက်ခြေမှ ကွဲကျဲစွာ ပျံ့နှံ့ကာ ရောင်ပြန်ဟပ်နေခြင်း ဖြစ်သည် (Week 22)၊ လာမည့်တောက်ပမှု၏ အစမ်းပုံရိပ်တစ်ခုပင်။ တကယ့်လျှပ်ပြက်ချက် နောက်ဆုံး ထိသောအခါ ၎င်း၏အလင်းရောင်သည် ကောင်းကင်ကို ဖြတ်၍ လျင်မြန်စွာ ပြေးသွားပြီး သူမ၏ မျက်စိသို့ လုံးဝ ချက်ချင်းကဲ့သို့ ခံစားရအောင် ရောက်ရှိလာခဲ့သည်။ ထိုဖြောင့်တန်းလမ်းကြောင်းတစ်လျှောက် မည်သည့်အရာမျှ ၎င်းကို နှေးကွေးမသွားစေခဲ့ပါ။\n\nတောက်ပမှုနောက် စက္ကန့်ကြာကြာကြာမှ နက်နဲသောဆူညံသံတစ်ခု နောက်ဆုံး သူမ၏နားထံသို့ ရောက်ရှိလာခဲ့သည်။ နီလာသည် Week 23 မှ အသံသည် အလင်းကဲ့သို့ ခရီးမသွားနိုင်ကြောင်း သိထားသည် -- ၎င်းသည် မိုးတိမ်မှ သူမ၏ပြတင်းပေါက်ထိအထိ လေအနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ကူးပြောင်းပေးသော တုန်ခါမှုတစ်ခုအနေဖြင့်သာ ရွေ့လျားနိုင်သည် (Week 2)။ ထိုသို့ လေကိုဖြတ်၍ ခရီးသွားခြင်းသည် အထူးသဖြင့် ကီလိုမီတာအနည်းငယ်ခန့် အကွာအဝေးတွင် အချိန်အမှန်တကယ် ကုန်ကျစေခဲ့ပြီး ၎င်းသည်ပင် မိုးချုန်းသံသည် တောက်ပမှုနောက်မှ အမြဲ နောက်ကျနေရသည့် အတိအကျ အကြောင်းရင်း ဖြစ်သည်။\n\nနီလာသည် မိုးချုန်းသံသည် အမှန်တကယ် အဘယ်အရာဖြစ်ကြောင်းလည်း သတိရမိခဲ့သည်။ သူမ၏ ဆရာမက လျှပ်ပြက်၏ လျှပ်စစ်စွမ်းအင် (Week 7) သည် ၎င်းဖြတ်သန်းသွားသောလေကို ခဏတာ ပြင်းထန်စွာ ပူနွေးစေပြီး ထိုအပူပြင်းစွာရရှိထားသောလေသည် ပေါက်ကွဲသကဲ့သို့ ပြင်ပသို့ ကျယ်ဝန်းသွားကာ ဤလျင်မြန်သော လေကျယ်ဝန်းမှုသည်ပင် သူမ ကြားရသော မိုးချုန်းသံ တုန်ခါမှုကို ထုတ်ပေးကြောင်း ရှင်းပြခဲ့ဖူးသည်ကို ပြန်လည် သတိရခဲ့သည်။ ထိုည မုန်တိုင်းသည် နီးကပ်လာသည်နှင့်အမျှ တောက်ပမှုတစ်ခုစီနှင့် ၎င်း၏ဆူညံသံအကြား ကွာဟချိန်သည် တဖြည်းဖြည်း တိုတောင်းလာခဲ့ပြီး နီလာသည် ထိုကျုံ့ကျဆုံးနေသောကွာဟချိန်၏ အဓိပ္ပာယ်ကို ယခုအခါ အတိအကျ နားလည်ပြီဟု ယုံကြည်လျက် ပြုံးလိုက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did the lightning's light reach Nilar's eyes so quickly, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ လျှပ်ပြက်၏အလင်းရောင်သည် နီလာ၏မျက်စိသို့ အဘယ့်ကြောင့် ဤမျှလျင်မြန်စွာ ရောက်ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Because light travels in straight lines and reached her eyes almost instantly, the same idea behind a shadow's sharp edge.",
+              "Because the flash politely waited for the thunder to arrive first.",
+              "Because the light had to bounce off the ground several times before reaching her.",
+              "There was no real reason given in the passage at all.",
+            ],
+            optionsMy: [
+              "အလင်းသည် ဖြောင့်တန်းလိုက်ခရီးသွားပြီး သူမ၏မျက်စိသို့ ချက်ချင်းနီးပါး ရောက်ရှိခဲ့ခြင်းကြောင့်ဖြစ်ပြီး အရိပ်တစ်ခု၏ ထက်သောအနားနှင့် တူညီသော အတွေးအခေါ်တည်း ဖြစ်သည်။",
+              "တောက်ပမှုသည် မိုးချုန်းသံ ဦးစွာရောက်ရှိလာအောင် ယဉ်ကျေးစွာ စောင့်ဆိုင်းပေးခဲ့ခြင်းကြောင့်ဖြစ်သည်။",
+              "အလင်းသည် သူမထံမရောက်မီ မြေပြင်ကို အကြိမ်များစွာ ပြန်ကန်ခဲ့ရသောကြောင့် ဖြစ်သည်။",
+              "စာပိုဒ်တွင် အကြောင်းရင်း အမှန်တကယ် ဖော်ပြထားခြင်း လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it directly states the straight-line reason light reached Nilar so quickly.",
+              "This connects Day 1's first and fourth quiz questions, about straight-line light travel and light's huge speed advantage over sound.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အလင်းသည် နီလာထံသို့ ဤမျှလျင်မြန်စွာ ရောက်ရှိခဲ့ရခြင်း၏ ဖြောင့်တန်းအကြောင်းရင်းကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "၎င်းသည် ဖြောင့်တန်းလိုက် အလင်းခရီးသွားခြင်းနှင့် အသံထက် အလင်း၏ အလွန်ကြီးမားသောအမြန်နှုန်းသာလွန်မှုအကြောင်း ပထမနေ့ ပထမနှင့် စတုတ္ထမေးခွန်းများကို ချိတ်ဆက်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What let Nilar see the clouds pulse with a faint glow, even before the main bolt struck?",
+            questionMy:
+                "အဓိကလျှပ်ပြက်ချက် မထိသေးမီပင် မိုးတိမ်များ အလင်းအားနည်းစွာ တောက်ပနေသည်ကို နီလာ အဘယ်ကြောင့် မြင်ရနိုင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Light scattering and reflecting off the rough underside of the clouds.",
+              "Sound waves bouncing off the ground back up toward the sky.",
+              "The particle model of solids vibrating in a fixed position.",
+              "The passage never actually mentions this happening at all.",
+            ],
+            optionsMy: [
+              "မိုးတိမ်များ၏ ကြမ်းတမ်းသောအောက်ခြေမှ အလင်း ကွဲကျဲစွာ ပျံ့နှံ့ကာ ရောင်ပြန်ဟပ်နေခြင်း။",
+              "အသံလှိုင်းများ မြေပြင်မှ ကောင်းကင်ဘက်သို့ ပြန်ကန်နေခြင်း။",
+              "ပုံသေနေရာတွင် တုန်ခါနေသော အစိုင်အခဲ၏ အနုမြူပုံစံ။",
+              "ဤအဖြစ်အပျက်ကို စာပိုဒ်တွင် လုံးဝ ဖော်ပြထားခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it names reflection off the clouds' rough underside directly, citing Week 22.",
+              "This is Day 1's second quiz question, about the same glow reaching an observer through scattering and reflection.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 22 ကို ကိုးကားလျက် မိုးတိမ်၏ ကြမ်းတမ်းသောအောက်ခြေမှ ရောင်ပြန်ဟပ်မှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ ကွဲကျဲစွာပျံ့နှံ့ခြင်းနှင့် ရောင်ပြန်ဟပ်ခြင်းမှတဆင့် လေ့လာသူထံ ရောက်ရှိသော တောက်ပမှုတူညီသောအကြောင်းအရာဖြစ်သည့် ပထမနေ့ ဒုတိယမေးခွန်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how does thunder's sound actually travel from the storm cloud to Nilar's window?",
+            questionMy:
+                "စာပိုဒ်အရ မိုးချုန်းသံသည် မိုးတိမ်မှ နီလာ၏ ပြတင်းပေါက်ထံသို့ တကယ်တမ်း မည်ကဲ့သို့ ခရီးသွားခဲ့သနည်း။",
+            optionsEn: [
+              "As a vibration passed from one air particle to the next, through the air acting as a medium.",
+              "As a beam of light travelling outward in a straight line.",
+              "Instantly, at the exact same moment as the flash itself.",
+              "By reflecting directly off the tree's shadow in the garden.",
+            ],
+            optionsMy: [
+              "လေကို ကြားခံဒြပ်ထုအဖြစ် အသုံးပြုကာ လေအနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ကူးပြောင်းပေးသော တုန်ခါမှုတစ်ခုအနေဖြင့်။",
+              "ဖြောင့်တန်းလိုက် ပြင်ပသို့ ခရီးသွားသော အလင်းရောင်တန်းတစ်ခုအနေဖြင့်။",
+              "တောက်ပမှုကိုယ်တိုင်နှင့် အတိအကျ တစ်ချိန်တည်းတွင် ချက်ချင်း။",
+              "ဥယျာဉ်ရှိ သစ်ပင်၏အရိပ်မှ တိုက်ရိုက် ရောင်ပြန်ဟပ်ခြင်းဖြင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which names this particle-to-particle vibration directly, citing Week 23 and Week 2.",
+              "This is Day 1's third quiz question, applied directly to Nilar's own storm.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 23 နှင့် Week 2 ကို ကိုးကားလျက် ဤအနုမြူမှအနုမြူသို့ တုန်ခါမှုကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "ဤသည်မှာ နီလာ၏ ကိုယ်ပိုင်မုန်တိုင်းတွင် တိုက်ရိုက် အသုံးချထားသော ပထမနေ့ တတိယမေးခွန်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the passage say physically causes the sound of thunder in the first place?",
+            questionMy:
+                "မိုးချုန်းသံ၏ အသံကို ရုပ်ပိုင်းဆိုင်ရာ အဘယ်အရာက ဦးစွာ ဖြစ်ပေါ်စေကြောင်း စာပိုဒ်တွင် ဖော်ပြထားသနည်း။",
+            optionsEn: [
+              "The lightning bolt's electrical energy intensely heats the air, which then expands explosively outward.",
+              "The clouds themselves make a scraping sound as they drift past one another.",
+              "Raindrops colliding with each other high up in the sky.",
+              "The Sun's heat evaporating water out of the clouds below.",
+            ],
+            optionsMy: [
+              "လျှပ်ပြက်၏ လျှပ်စစ်စွမ်းအင်သည် လေကို ပြင်းထန်စွာ ပူနွေးစေပြီး ထိုနောက် ပေါက်ကွဲသကဲ့သို့ ပြင်ပသို့ ကျယ်ဝန်းသွားသည်။",
+              "မိုးတိမ်များကိုယ်တိုင် တစ်ခုနှင့်တစ်ခု ရွေ့လျားဖြတ်သန်းစဉ် ပွတ်တိုက်သံ ထွက်ပေါ်သည်။",
+              "မိုးပေါက်များ ကောင်းကင်အထက်ဝယ် တစ်ခုနှင့်တစ်ခု တိုက်မိသောကြောင့်။",
+              "နေ၏အပူသည် အောက်ခြေမိုးတိမ်များမှ ရေကို ငွေ့ပျံစေသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this heating-then-expansion chain directly, citing Week 7's energy transfer.",
+              "This is the same mechanism named in Day 2's drag-match for both \"Thunder\" and \"Energy Transfer\".",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 7 ၏ စွမ်းအင်လွှဲပြောင်းမှုကို ကိုးကားလျက် ဤပူနွေးမှု-ပြီးမှ-ကျယ်ဝန်းမှု အစဉ်ကို တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "ဤသည်မှာ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ \"မိုးချုန်းသံ\" နှင့် \"စွမ်းအင်လွှဲပြောင်းမှု\" နှစ်ခုစလုံးတွင် အမည်တွင်ထားသော ယန္တရားတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w24-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 24 Recap: Light and Sound in a Thunderstorm -- Term 6 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၂၄ ပြန်လည်သုံးသပ်ခြင်း - မိုးကြိုးမုန်တိုင်းတွင် အလင်းနှင့်အသံ -- ဆဌမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What single event causes both the flash of lightning and the crash of thunder?",
+          questionMy:
+              "လျှပ်ပြက်၏ တောက်ပမှုနှင့် မိုးချုန်းသံ ဆူညံသံ နှစ်ခုစလုံးကို ဖြစ်ပေါ်စေသော ဖြစ်ရပ်တစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A single lightning bolt at the storm cloud",
+            "Two completely separate storms happening far apart",
+            "The Sun heating the ground below",
+            "A cloud colliding with another cloud",
+          ],
+          optionsMy: [
+            "မိုးတိမ်ပေါ်ရှိ လျှပ်ပြက်တစ်ချက်တည်း",
+            "ကွာဝေးစွာ ဖြစ်ပေါ်နေသော လုံးလုံးကွဲပြားသော မုန်တိုင်းနှစ်ခု",
+            "အောက်ခြေမြေပြင်ကို နေအပူပေးနေခြင်း",
+            "မိုးတိမ်တစ်ခုနှင့်တစ်ခု တိုက်မိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- the flash and the thunder both originate from the very same bolt, at the very same instant.",
+            "Nilar's story made this explicit: one lightning bolt is responsible for everything she saw and everything she later heard.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- တောက်ပမှုနှင့် မိုးချုန်းသံနှစ်ခုစလုံးသည် တစ်ချိန်တည်းတွင် လျှပ်ပြက်တစ်ချက်တည်းမှ မူလအစ ရရှိကြသည်။",
+            "နီလာ၏ဇာတ်လမ်းက ၎င်းကို ရှင်းလင်းစွာဖော်ပြခဲ့သည် - လျှပ်ပြက်တစ်ချက်တည်းသည် သူမမြင်ခဲ့ရသမျှနှင့် နောက်ပိုင်း ကြားရသမျှ အားလုံးအတွက် တာဝန်ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does an observer almost always see the flash before hearing the thunder?",
+          questionMy:
+              "လေ့လာသူတစ်ဦးသည် မိုးချုန်းသံမကြားမီ တောက်ပမှုကို အဘယ့်ကြောင့် အမြဲနီးပါး ဦးစွာ မြင်ရသနည်း။",
+          optionsEn: [
+            "Light travels enormously faster than sound",
+            "Sound travels faster than light but from a different angle",
+            "The flash always happens minutes before the thunder is created",
+            "There is no real pattern -- it is completely random",
+          ],
+          optionsMy: [
+            "အလင်းသည် အသံထက် များစွာပို၍ မြန်ဆန်စွာ ခရီးသွားသောကြောင့်",
+            "အသံသည် အလင်းထက် ပို၍မြန်သော်လည်း မတူညီသောထောင့်မှ ရောက်ရှိလာသောကြောင့်",
+            "တောက်ပမှုသည် မိုးချုန်းသံ မဖြစ်ပေါ်မီ မိနစ်များစွာ ဦးစွာ အမြဲ ဖြစ်ပျက်သောကြောင့်",
+            "ပုံစံအမှန် လုံးဝ မရှိပါ -- ၎င်းသည် လုံးဝ ကျပန်း ဖြစ်ပျက်ခြင်း ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Nilar's own storm -- both events share the same origin instant, but travel at very different speeds.",
+            "Light's straight-line dash (Week 21) simply covers the distance far faster than sound's particle-to-particle relay (Week 23, Week 2) ever can.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် နီလာ၏ ကိုယ်ပိုင်မုန်တိုင်းကို သတိရပါ -- ဖြစ်ရပ်နှစ်ခုစလုံးသည် မူလအစ တစ်ချိန်တည်းတွင် ဖြစ်ကြသော်လည်း အလွန်ကွာခြားသောအမြန်နှုန်းများဖြင့် ခရီးသွားကြသည်။",
+            "အလင်း၏ ဖြောင့်တန်းလျင်မြန်ခရီး (Week 21) သည် အနုမြူမှအနုမြူသို့ ဆက်ကူးပေးသော အသံခရီး (Week 23၊ Week 2) ထက် အကွာအဝေးကို ပို၍ အလွန်မြန်စွာ ဖြတ်ကျော်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "How does thunder's sound actually move through the air?",
+          questionMy:
+              "မိုးချုန်းသံသည် လေကို တကယ်တမ်း မည်ကဲ့သို့ ဖြတ်၍ ရွေ့လျားသနည်း။",
+          optionsEn: [
+            "As a vibration passed from one air particle to the next",
+            "As a beam travelling in a perfectly straight line, like light",
+            "Instantly, needing no travel time at all",
+            "Only by first reflecting off a nearby cloud",
+          ],
+          optionsMy: [
+            "လေအနုမြူတစ်ခုမှ နောက်တစ်ခုသို့ ကူးပြောင်းပေးသော တုန်ခါမှုတစ်ခုအနေဖြင့်",
+            "အလင်းကဲ့သို့ လုံးဝဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားသော တန်းတစ်ခုအနေဖြင့်",
+            "ခရီးအချိန် လုံးဝ မလိုဘဲ ချက်ချင်း",
+            "အနီးရှိမိုးတိမ်တစ်ခုမှ ဦးစွာ ရောင်ပြန်ဟပ်ခြင်းဖြင့်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Week 2's particle model -- sound cannot shoot out as a straight beam the way light does.",
+            "This is the same vibration relay described in Day 2's drag-match and Nilar's own passage.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် Week 2 ၏ အနုမြူပုံစံကို သတိရပါ -- အသံသည် အလင်းကဲ့သို့ ဖြောင့်တန်းတန်းအဖြစ် ပစ်ထုတ်၍ မရနိုင်ပါ။",
+            "ဤသည်မှာ ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် နီလာ၏ ကိုယ်ပိုင်စာပိုဒ်တွင် ဖော်ပြထားသော တုန်ခါမှု ဆက်ကူးမှုတစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If the gap between seeing a flash and hearing its thunder grows longer between two different storms, what does that tell you?",
+          questionMy:
+              "မုန်တိုင်းနှစ်ခုအကြား တောက်ပမှုမြင်ချိန်နှင့် ၎င်း၏ မိုးချုန်းသံကြားရချိန်ကြား ကွာဟချိန် ပို၍ရှည်လာလျှင် ၎င်းက အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "That storm is farther away from the observer",
+            "That storm is closer to the observer",
+            "The two storms are exactly the same distance away",
+            "The gap has no connection to distance at all",
+          ],
+          optionsMy: [
+            "ထိုမုန်တိုင်းသည် လေ့လာသူနှင့် ပို၍ ဝေးကွာသည်",
+            "ထိုမုန်တိုင်းသည် လေ့လာသူနှင့် ပို၍ နီးကပ်သည်",
+            "မုန်တိုင်းနှစ်ခုစလုံးသည် အကွာအဝေးတူတူ ရှိကြသည်",
+            "ကွာဟချိန်သည် အကွာအဝေးနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the core idea of this whole week -- a longer gap means sound had farther to travel at its own steady, much-slower pace, while light still arrived essentially instantly either way.",
+            "This pathway never states an exact seconds-to-distance conversion (no unearned precision) -- only that a longer gap means farther, and a shorter gap means closer.",
+          ],
+          hintsMy: [
+            "ဤအပတ်တစ်ခုလုံး၏ အဓိကအတွေးအခေါ်ကို သတိရပါ -- ကွာဟချိန်ပိုရှည်သည်ဆိုသည်မှာ အသံသည် ၎င်း၏ တည်ငြိမ်သော၊ များစွာနှေးကွေးသော အရှိန်ဖြင့် ပို၍ဝေးကွာစွာ ခရီးသွားခဲ့ရခြင်းကို ဆိုလိုပြီး အလင်းမူ မည်သည့်အခြေအနေတွင်မဆို အခြေခံအားဖြင့် ချက်ချင်းပင် ရောက်ရှိနေဆဲ ဖြစ်သည်။",
+            "ဤသင်တန်းလမ်းကြောင်းသည် စက္ကန့်မှ အကွာအဝေးသို့ အတိအကျ ပြောင်းလဲမှုစည်းမျဉ်းကို ဘယ်တော့မှ မဖော်ပြပါ -- ကွာဟချိန်ရှည်လျှင် ဝေးသည်၊ တိုလျှင် နီးသည်ဟူသောသဘောကိုသာ ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single idea connects Week 21's straight-line light and shadows, Week 22's reflection, Week 23's vibrating sound through a medium, and this week's thunderstorm?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 21 ၏ ဖြောင့်တန်းအလင်းနှင့် အရိပ်၊ Week 22 ၏ ရောင်ပြန်ဟပ်မှု၊ Week 23 ၏ ကြားခံဒြပ်ထုတစ်ခုကို ဖြတ်၍ တုန်ခါနေသောအသံနှင့် ဤအပတ်၏ မိုးကြိုးမုန်တိုင်းတို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light and sound are both ways energy travels outward from a source, but they behave very differently -- light needs no medium and is enormously fast, while sound needs a medium like air and travels far more slowly as a particle-to-particle vibration.",
+            "Light and sound are exactly identical in every possible way.",
+            "Only sound involves energy at all -- light is unrelated to energy entirely.",
+            "Shadows, reflection, and vibration have nothing to do with a real thunderstorm.",
+          ],
+          optionsMy: [
+            "အလင်းနှင့် အသံသည် နှစ်ခုစလုံး ရင်းမြစ်တစ်ခုမှ စွမ်းအင်ပြင်ပသို့ ခရီးသွားသည့်နည်းလမ်းများ ဖြစ်ကြသော်လည်း အလွန်ကွဲပြားစွာ ကျင့်ကြံကြသည် -- အလင်းသည် ကြားခံဒြပ်ထု မလိုဘဲ အလွန်မြန်ဆန်ပြီး အသံမူ လေကဲ့သို့ ကြားခံဒြပ်ထုတစ်ခုကို လိုအပ်ကာ အနုမြူမှအနုမြူသို့ တုန်ခါမှုအဖြစ် များစွာနှေးကွေးစွာသာ ခရီးသွားသည်။",
+            "အလင်းနှင့် အသံသည် ဖြစ်နိုင်သမျှသောနည်းလမ်းအားလုံးတွင် အတိအကျ တစ်ထပ်တည်းကျ ဖြစ်ကြသည်။",
+            "အသံတစ်ခုတည်းသာ စွမ်းအင်နှင့် သက်ဆိုင်ပြီး အလင်းသည် စွမ်းအင်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+            "အရိပ်၊ ရောင်ပြန်ဟပ်မှုနှင့် တုန်ခါမှုတို့သည် တကယ့်မိုးကြိုးမုန်တိုင်းနှင့် မည်သည့်သက်ဆိုင်မှုမျှ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Nilar's whole story -- she used every single one of these ideas together to explain one real event, the same way Week 20's capstone wove Weeks 15-19 into one energy story.",
+            "This also reaches back to Week 7's energy transfer and Week 2's particle model -- the same two ideas this week's drag-match and reading passage both leaned on.",
+          ],
+          hintsMy: [
+            "နီလာ၏ ဇာတ်လမ်းတစ်ခုလုံးကို သတိရပါ -- သူမသည် ဤအတွေးအခေါ်တိုင်းကို တစ်ခုတည်းသော အဖြစ်အပျက်တစ်ခုအား ရှင်းပြရန် အတူတကွ အသုံးပြုခဲ့သည်၊ Week 20 ၏ အနှစ်ချုပ်သင်ခန်းစာသည် Week 15 မှ 19 အထိကို စွမ်းအင်ဇာတ်လမ်းတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သကဲ့သို့ပင်။",
+            "၎င်းသည် Week 7 ၏ စွမ်းအင်လွှဲပြောင်းမှုနှင့် Week 2 ၏ အနုမြူပုံစံတို့ဆီသို့လည်း ပြန်ရောက်သွားသည် -- ဤအပတ်၏ တွဲချိတ်လေ့ကျင့်ခန်းနှင့် စာဖတ်ခန်းနှစ်ခုစလုံး မှီခိုအားထားခဲ့ကြသည့် အတွေးအခေါ်နှစ်ခုတည်းပင်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 6: "Light and Sound" (Weeks 21-24) breaks from the pathway's
+/// biology strand (Terms 4-5) to open a new physics strand: Week 21
+/// studies how light travels (in straight lines) and how shadows form;
+/// Week 22 extends that into reflection and mirrors; Week 23 turns to
+/// sound -- vibrations, the particle-to-particle medium sound needs
+/// (contrasting directly with Week 21's light, which needs no medium),
+/// pitch and loudness; Week 24 is the capstone, tying light and sound
+/// together through a thunderstorm, reaching back to Week 7's energy
+/// transfers and Week 2's particle model one more time.
+const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
+  id: "course-secondary1-science-t6",
+  termNumber: 6,
+  titleEn: "Light and Sound",
+  titleMy: "အလင်းနှင့် အသံ",
+  certificateTitleEn: "Light and Sound",
+  certificateTitleMy: "အလင်းနှင့် အသံ",
+  weeks: [
+    _secondary1ScienceWeek21,
+    _secondary1ScienceWeek22,
+    _secondary1ScienceWeek23,
+    _secondary1ScienceWeek24,
+  ],
+);
+
 /// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
@@ -45275,10 +47510,12 @@ const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
 /// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8),
 /// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12), Term 4
 /// ("Cells and Life Processes", Weeks 13-16, this pathway's first biology
-/// strand) and Term 5 ("Nutrition and Ecosystems", Weeks 17-20) are
-/// authored so far; see [_secondary1ScienceTerm1]'s, [_secondary1ScienceTerm2]'s,
-/// [_secondary1ScienceTerm3]'s, [_secondary1ScienceTerm4]'s and
-/// [_secondary1ScienceTerm5]'s own doc comments for the week-by-week
+/// strand), Term 5 ("Nutrition and Ecosystems", Weeks 17-20) and Term 6
+/// ("Light and Sound", Weeks 21-24, a new physics strand breaking up the
+/// Term 4-5 biology run) are authored so far; see [_secondary1ScienceTerm1]'s,
+/// [_secondary1ScienceTerm2]'s, [_secondary1ScienceTerm3]'s,
+/// [_secondary1ScienceTerm4]'s, [_secondary1ScienceTerm5]'s and
+/// [_secondary1ScienceTerm6]'s own doc comments for the week-by-week
 /// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
 /// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
@@ -45288,9 +47525,9 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration, and Term 5 builds outward to human nutrition, digestion, and ecosystems, closing with a capstone tracing energy flow from the Sun through a whole food chain.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration, Term 5 builds outward to human nutrition, digestion, and ecosystems, closing with a capstone tracing energy flow from the Sun through a whole food chain, and Term 6 opens a new physics strand covering how light travels in straight lines and forms shadows, reflection and mirrors, and how sound is produced and travels as vibrations through a medium, closing with a capstone tying light and sound together through a thunderstorm.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဆဌမနှစ်ဝက်တွင် အလင်းသည် ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားပုံနှင့် အရိပ်ဖြစ်ပေါ်ပုံ၊ ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ၊ အသံ ဖြစ်ပေါ်ပုံနှင့် အလယ်အလတ်ပစ္စည်းတစ်ခုကို ဖြတ်၍ တုန်ခါမှုအဖြစ် ခရီးသွားပုံတို့ကို လေ့လာသော ရူပဗေဒနယ်ပယ်အသစ်တစ်ခုကို ဖွင့်လှစ်ပြီး မိုးကြိုးမုန်တိုင်းတစ်ခုမှတစ်ဆင့် အလင်းနှင့်အသံကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary1ScienceTerm1,
@@ -45298,5 +47535,6 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
     _secondary1ScienceTerm3,
     _secondary1ScienceTerm4,
     _secondary1ScienceTerm5,
+    _secondary1ScienceTerm6,
   ],
 );
