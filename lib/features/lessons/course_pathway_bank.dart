@@ -27865,6 +27865,1756 @@ const CourseWeekDef _secondary2ComputingWeek32 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 9, Week 33: "Choosing the Right Tool"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek33 = CourseWeekDef(
+  id: "course-secondary2-computing-w33",
+  weekNumber: 33,
+  titleEn: "Choosing the Right Tool",
+  titleMy: "မှန်ကန်သော Tool ကို ရွေးချယ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w33-d1",
+      dayNumber: 1,
+      titleEn: "Which Data Structure Fits?",
+      titleMy: "မည်သည့် Data Structure ကို ကိုက်ညီသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "You need to store an ordered list of one student's exam scores. Which tool from this year fits best?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး၏ စာမေးပွဲ score များကို အစဉ်လိုက် သိမ်းဆည်းလိုပါက ဤနှစ်မှ မည်သည့် tool က အသင့်တော်ဆုံးနည်း။",
+          optionsEn: [
+            "A list (Term 1)",
+            "A dictionary (Term 7)",
+            "A truth table (Term 4)",
+            "A single string (Term 5)",
+          ],
+          optionsMy: [
+            "List (Term 1)",
+            "Dictionary (Term 7)",
+            "Truth table (Term 4)",
+            "String တစ်ခုတည်း (Term 5)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You need to look up a student's score by their name quickly. Which tool fits best?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး၏ score ကို ၎င်း၏ နာမည်ဖြင့် လျင်မြန်စွာ ရှာဖွေလိုပါက မည်သည့် tool က အသင့်တော်ဆုံးနည်း။",
+          optionsEn: [
+            "A dictionary (Term 7), looking up by key instead of position",
+            "A single number",
+            "A truth table (Term 4)",
+            "A Boolean value",
+          ],
+          optionsMy: [
+            "Position အစား key ဖြင့် ရှာဖွေသော Dictionary (Term 7)",
+            "ဂဏန်းတစ်ခုတည်း",
+            "Truth table (Term 4)",
+            "Boolean value",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You need to store scores for many students across many subjects, arranged in rows and columns. Which tool fits best?",
+          questionMy:
+              "ကျောင်းသားများစွာ၏ subject များစွာ score ကို row နှင့် column ဖြင့် စီစဉ်၍ သိမ်းဆည်းလိုပါက မည်သည့် tool က အသင့်တော်ဆုံးနည်း။",
+          optionsEn: [
+            "A nested (2D) list (Term 6)",
+            "A single string (Term 5)",
+            "A single Boolean value",
+            "A single dictionary key",
+          ],
+          optionsMy: [
+            "Nested (2D) list (Term 6)",
+            "String တစ်ခုတည်း (Term 5)",
+            "Boolean value တစ်ခုတည်း",
+            "Dictionary key တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You need your gradebook to still exist after the program closes and the computer restarts. Which tool fits best?",
+          questionMy:
+              "ပရိုဂရမ် ပိတ်ပြီး ကွန်ပျူတာ restart လုပ်ပြီးနောက်လည်း gradebook ကို ဆက်လက်ရှိစေလိုပါက မည်သည့် tool က အသင့်တော်ဆုံးနည်း။",
+          optionsEn: [
+            "Writing to a file (Term 8), which saves data outside the running program",
+            "A list, which disappears when the program closes",
+            "A dictionary, which disappears when the program closes",
+            "A Boolean value",
+          ],
+          optionsMy: [
+            "Run နေသော ပရိုဂရမ် အပြင်ဘက်တွင် data ကို သိမ်းဆည်းပေးသော File ရေးသားခြင်း (Term 8)",
+            "ပရိုဂရမ် ပိတ်လျှင် ပျောက်ကွယ်သွားသော List",
+            "ပရိုဂရမ် ပိတ်လျှင် ပျောက်ကွယ်သွားသော Dictionary",
+            "Boolean value",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You need to check whether a particular word appears inside a longer piece of text. Which tool fits best?",
+          questionMy:
+              "စာသားရှည်တစ်ခုအတွင်း word တစ်ခု ပါဝင်ခြင်းရှိမရှိကို စစ်ဆေးလိုပါက မည်သည့် tool က အသင့်တော်ဆုံးနည်း။",
+          optionsEn: [
+            "The in operator on a string (Term 5)",
+            "A 2D list (Term 6)",
+            "A truth table (Term 4)",
+            "Binary search on a sorted list (Term 3)",
+          ],
+          optionsMy: [
+            "String အပေါ် in operator (Term 5)",
+            "2D list (Term 6)",
+            "Truth table (Term 4)",
+            "Sort ပြီးသား list အပေါ် Binary search (Term 3)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w33-d2",
+      dayNumber: 2,
+      titleEn: "Year-in-Review Vocabulary",
+      titleMy: "တစ်နှစ်တာ ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w33-review-list",
+          termEn: "List (Term 1)",
+          termMy: "List (Term 1)",
+          matchEn:
+              "An ordered collection of values, indexed by a zero-based position number",
+          matchMy:
+              "Zero-based position number ဖြင့် index လုပ်ထားသော အစီအစဉ်ကျ value စုစည်းမှု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w33-review-dictionary",
+          termEn: "Dictionary (Term 7)",
+          termMy: "Dictionary (Term 7)",
+          matchEn:
+              "A data structure that looks values up by a unique key instead of a position number",
+          matchMy:
+              "Position number အစား unique key ဖြင့် value ကို ရှာဖွေသော data structure",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w33-review-2dlist",
+          termEn: "2D List (Term 6)",
+          termMy: "2D List (Term 6)",
+          matchEn:
+              "A list of lists, indexed with grid[row][col], used for data arranged in rows and columns",
+          matchMy:
+              "Row နှင့် column ဖြင့် စီစဉ်ထားသော data အတွက် grid[row][col] ဖြင့် index လုပ်သော list of list",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w33-review-file",
+          termEn: "File (Term 8)",
+          termMy: "File (Term 8)",
+          matchEn:
+              "A place data is saved on disk, so it still exists after the program that created it closes",
+          matchMy:
+              "Data ကို ဖန်တီးသော ပရိုဂရမ် ပိတ်ပြီးနောက်လည်း ဆက်လက်ရှိစေရန် disk ပေါ်တွင် data ကို သိမ်းဆည်းသည့်နေရာ",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w33-review-string",
+          termEn: "String (Term 5)",
+          termMy: "String (Term 5)",
+          matchEn:
+              "A sequence of characters, indexed the same zero-based way as a list but immutable",
+          matchMy:
+              "List ကဲ့သို့ zero-based indexed ဖြစ်သော်လည်း immutable ဖြစ်သော character sequence",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w33-d3",
+      dayNumber: 3,
+      titleEn: "Use a List or Use a Dictionary?",
+      titleMy: "List သုံးမလား Dictionary သုံးမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Use a List", "Use a Dictionary"],
+        bucketsMy: ["List သုံးရမည်", "Dictionary သုံးရမည်"],
+        items: [
+          SortingItem(
+            id: "w33-sort-storeorder",
+            labelEn: "Store scores in the exact order they were entered",
+            labelMy:
+                "Score များကို ရိုက်ထည့်ခဲ့သော အစီအစဉ်အတိုင်း သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Use a List",
+            correctBucketMy: "List သုံးရမည်",
+          ),
+          SortingItem(
+            id: "w33-sort-lookupname",
+            labelEn: "Look up a price by an item's name",
+            labelMy: "Item တစ်ခု၏ နာမည်ဖြင့် ဈေးနှုန်း ရှာဖွေခြင်း",
+            correctBucketEn: "Use a Dictionary",
+            correctBucketMy: "Dictionary သုံးရမည်",
+          ),
+          SortingItem(
+            id: "w33-sort-searchlist",
+            labelEn:
+                "Store a set of numbers to loop through with binary search",
+            labelMy:
+                "Binary search ဖြင့် loop လုပ်ရန် ဂဏန်းအစုအဝေးကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Use a List",
+            correctBucketMy: "List သုံးရမည်",
+          ),
+          SortingItem(
+            id: "w33-sort-agesbyname",
+            labelEn: "Store ages, keyed by each student's name",
+            labelMy:
+                "ကျောင်းသားတစ်ဦးစီ၏ နာမည်ဖြင့် key ချထားသော အသက်များကို သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Use a Dictionary",
+            correctBucketMy: "Dictionary သုံးရမည်",
+          ),
+          SortingItem(
+            id: "w33-sort-loopwords",
+            labelEn:
+                "Keep a set of words to loop through one at a time in order",
+            labelMy:
+                "အစီအစဉ်အတိုင်း တစ်ခုချင်းစီ loop လုပ်ရန် word အစုအဝေးကို ထားရှိခြင်း",
+            correctBucketEn: "Use a List",
+            correctBucketMy: "List သုံးရမည်",
+          ),
+          SortingItem(
+            id: "w33-sort-checkkeyfirst",
+            labelEn: "Check whether a key already exists before adding it",
+            labelMy: "Key တစ်ခုကို မထည့်မီ ရှိပြီးသားလားဟု စစ်ဆေးခြင်း",
+            correctBucketEn: "Use a Dictionary",
+            correctBucketMy: "Dictionary သုံးရမည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w33-d4",
+      dayNumber: 4,
+      titleEn: "Nandar's Gradebook Plan",
+      titleMy: "နန္ဒာ၏ Gradebook အစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar's Gradebook Plan",
+        titleMy: "နန္ဒာ၏ Gradebook အစီအစဉ်",
+        passageEn:
+            "For her final project of the year, Nandar decided to build a class gradebook program, and before writing a single line of code, she planned out exactly which tools from the year she would need. To store each student's name paired with their score, she chose a dictionary from Term 7, since she needed to look up and update a score by name, not by position. To load names and scores from files that would still exist after her program closed, she planned to use Term 8's file handling, reading each file line by line. To calculate statistics like the class average, she planned to reuse the accumulator pattern from Term 1 and Term 3, looping through the dictionary's values and adding each one to a running total. To format a tidy report at the end, she planned to reuse Term 5's string methods, like .upper() to make the top scorer's name stand out. She briefly considered a 2D list from Term 6 for tracking multiple subjects per student, but decided her first version would handle just one subject, keeping the project focused -- she could always extend it to a 2D list later. Nandar realized that planning which data structure fit each job, before writing any code, was itself a skill she had been building all year, one small capstone at a time.",
+        passageMy:
+            "နှစ်ကုန် နောက်ဆုံး project အတွက် နန္ဒာသည် class gradebook ပရိုဂရမ်တစ်ခု တည်ဆောက်ရန် ဆုံးဖြတ်ခဲ့ပြီး code line တစ်ကြောင်းမျှ မရေးမီ ဤနှစ်မှ မည်သည့် tool များ လိုအပ်မည်ကို တိတိကျကျ စီစဉ်ခဲ့သည်။ ကျောင်းသားတစ်ဦးစီ၏ နာမည်ကို score နှင့် တွဲထားရန် Term 7 မှ dictionary ကို ရွေးချယ်ခဲ့သည်၊ အဘယ်ကြောင့်ဆိုသော် score ကို position မဟုတ်ဘဲ နာမည်ဖြင့် ရှာဖွေပြီး ပြင်ဆင်ရန် လိုအပ်ခဲ့သောကြောင့်ဖြစ်သည်။ ပရိုဂရမ် ပိတ်ပြီးနောက်လည်း ဆက်လက်ရှိနေမည့် file များမှ နာမည်နှင့် score များကို load လုပ်ရန် Term 8 ၏ file handling ကို line အလိုက် ဖတ်ရှုမည်ဟု စီစဉ်ခဲ့သည်။ Class ပျမ်းမျှကဲ့သို့ statistics တွက်ချက်ရန် Term 1 နှင့် Term 3 မှ accumulator pattern ကို ပြန်လည်အသုံးချကာ dictionary ၏ value များကို loop ဖြင့် လည်ပတ်ပြီး running total ပေါ်သို့ တစ်ခုချင်းစီ ပေါင်းထည့်မည်ဟု စီစဉ်ခဲ့သည်။ နောက်ဆုံးတွင် report တစ်ခု ပုံစံချရန် Term 5 ၏ string method များကို ပြန်လည်အသုံးချကာ score အများဆုံးရသူ၏ နာမည်ကို ထင်ရှားစေရန် .upper() ကို သုံးမည်ဟု စီစဉ်ခဲ့သည်။ ကျောင်းသားတစ်ဦးစီ၏ subject များစွာကို ခြေရာခံရန် Term 6 မှ 2D list ကို အနည်းငယ် စဉ်းစားခဲ့သော်လည်း project ကို ဦးတည်ချက်ရှိစေရန် ပထမ version တွင် subject တစ်ခုတည်းသာ ကိုင်တွယ်မည်ဟု ဆုံးဖြတ်ခဲ့သည် -- နောက်ပိုင်းတွင် 2D list သို့ ချဲ့ထွင်နိုင်သေးသည်။ Code မရေးမီ job တစ်ခုစီအတွက် data structure မည်သည် ကိုက်ညီသည်ကို စီစဉ်ခြင်းသည် တစ်နှစ်တာလုံး capstone ငယ်တစ်ခုချင်းစီ တည်ဆောက်ခဲ့စဉ်က ရရှိခဲ့သော ကျွမ်းကျင်မှုတစ်ခုပင် ဖြစ်ကြောင်း နန္ဒာ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Nandar choose a dictionary to store each student's name and score?",
+            questionMy:
+                "ကျောင်းသားတစ်ဦးစီ၏ နာမည်နှင့် score ကို သိမ်းဆည်းရန် နန္ဒာသည် dictionary ကို အဘယ့်ကြောင့် ရွေးချယ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because she needed to look up and update a score by name, not by position",
+              "Because dictionaries are always faster than lists",
+              "Because a list cannot store numbers",
+              "Because a dictionary was the only tool she knew",
+            ],
+            optionsMy: [
+              "Score ကို position မဟုတ်ဘဲ နာမည်ဖြင့် ရှာဖွေပြီး ပြင်ဆင်ရန် လိုအပ်ခဲ့သောကြောင့်",
+              "Dictionary များသည် list များထက် အမြဲပိုမြန်သောကြောင့်",
+              "List တစ်ခုသည် ဂဏန်းများ သိမ်း၍ မရသောကြောင့်",
+              "Dictionary သည် သူမ သိသော tool တစ်ခုတည်းဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which term's skill did Nandar plan to use to load names and scores from files?",
+            questionMy:
+                "File များမှ နာမည်နှင့် score များ load လုပ်ရန် Term မည်သည့်ကျွမ်းကျင်မှုကို နန္ဒာ အသုံးပြုရန် စီစဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Term 8's file handling",
+              "Term 4's Boolean logic",
+              "Term 6's nested lists",
+              "Term 3's searching algorithms",
+            ],
+            optionsMy: [
+              "Term 8 ၏ file handling",
+              "Term 4 ၏ Boolean logic",
+              "Term 6 ၏ nested list",
+              "Term 3 ၏ searching algorithm",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which pattern did Nandar plan to reuse to calculate the class average?",
+            questionMy:
+                "Class ပျမ်းမျှကို တွက်ချက်ရန် နန္ဒာ မည်သည့် pattern ကို ပြန်လည်အသုံးချရန် စီစဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "The accumulator pattern from Term 1 and Term 3",
+              "Binary search from Term 3",
+              "Truth tables from Term 4",
+              "String slicing from Term 5",
+            ],
+            optionsMy: [
+              "Term 1 နှင့် Term 3 မှ accumulator pattern",
+              "Term 3 မှ binary search",
+              "Term 4 မှ truth table",
+              "Term 5 မှ string slicing",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Nandar decide against using a 2D list in her first version?",
+            questionMy:
+                "ပထမ version တွင် 2D list သုံးရန် နန္ဒာ အဘယ့်ကြောင့် ဆုံးဖြတ်ဖြတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She wanted to keep the project focused on just one subject first, and could extend it later",
+              "Because 2D lists cannot store scores",
+              "Because she had forgotten Term 6 entirely",
+              "Because a 2D list was not covered this year",
+            ],
+            optionsMy: [
+              "Project ကို ပထမဆုံး subject တစ်ခုတည်းအပေါ် ဦးတည်ချက်ရှိစေလိုပြီး နောက်ပိုင်းတွင် ချဲ့ထွင်နိုင်သေးသောကြောင့်",
+              "2D list များသည် score များ သိမ်း၍ မရသောကြောင့်",
+              "Term 6 ကို လုံးဝ မေ့သွားခဲ့သောကြောင့်",
+              "2D list ကို ဤနှစ်တွင် သင်ကြားခဲ့ခြင်း မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what skill had Nandar been building all year through her capstones?",
+            questionMy:
+                "ဇာတ်လမ်းအရ နန္ဒာသည် သူမ၏ capstone များမှတစ်ဆင့် တစ်နှစ်တာလုံး ဘယ်ကျွမ်းကျင်မှုကို တည်ဆောက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Planning which data structure fits each job before writing any code",
+              "Memorizing Python keywords without understanding them",
+              "Avoiding the use of functions entirely",
+              "Writing programs without ever testing them",
+            ],
+            optionsMy: [
+              "Code မရေးမီ job တစ်ခုစီအတွက် data structure မည်သည် ကိုက်ညီသည်ကို စီစဉ်ခြင်း",
+              "Python keyword များကို နားမလည်ဘဲ အလွတ်ကျက်ခြင်း",
+              "Function များကို လုံးဝ မသုံးဘဲ ရှောင်ရှားခြင်း",
+              "ပရိုဂရမ်များကို တစ်ခါမှ test မလုပ်ဘဲ ရေးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap Quiz",
+      titleMy: "Week 33 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which tool looks values up by key instead of position?",
+          questionMy:
+              "Position အစား key ဖြင့် value ရှာဖွေသော tool က မည်သည်နည်း။",
+          optionsEn: [
+            "A dictionary",
+            "A list",
+            "A truth table",
+            "A single Boolean",
+          ],
+          optionsMy: ["Dictionary", "List", "Truth table", "Boolean တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which tool arranges data in rows and columns?",
+          questionMy:
+              "Data ကို row နှင့် column ဖြင့် စီစဉ်ပေးသော tool က မည်သည်နည်း။",
+          optionsEn: [
+            "A 2D list",
+            "A single string",
+            "A single Boolean",
+            "A single dictionary key",
+          ],
+          optionsMy: [
+            "2D list",
+            "String တစ်ခုတည်း",
+            "Boolean တစ်ခုတည်း",
+            "Dictionary key တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which tool lets data survive after a program closes?",
+          questionMy:
+              "ပရိုဂရမ် ပိတ်ပြီးနောက်လည်း data ကို ဆက်လက်ရှိစေသော tool က မည်သည်နည်း။",
+          optionsEn: [
+            "Writing to a file",
+            "A list only",
+            "A dictionary only",
+            "A Boolean value",
+          ],
+          optionsMy: [
+            "File ရေးသားခြင်း",
+            "List တစ်ခုတည်း",
+            "Dictionary တစ်ခုတည်း",
+            "Boolean value",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which tool checks whether a substring exists inside a longer string?",
+          questionMy:
+              "String ရှည်တစ်ခုအတွင်း substring ရှိမရှိကို စစ်ဆေးသော tool က မည်သည်နည်း။",
+          optionsEn: [
+            "The in operator",
+            "A 2D list",
+            "A dictionary key",
+            "Binary search",
+          ],
+          optionsMy: [
+            "in operator",
+            "2D list",
+            "Dictionary key",
+            "Binary search",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which tool is best for storing data in the exact order it was entered?",
+          questionMy:
+              "Data ကို ရိုက်ထည့်ခဲ့သော အစီအစဉ်အတိုင်း သိမ်းဆည်းရန် အကောင်းဆုံး tool က မည်သည်နည်း။",
+          optionsEn: [
+            "A list",
+            "A dictionary",
+            "A truth table",
+            "A Boolean value",
+          ],
+          optionsMy: ["List", "Dictionary", "Truth table", "Boolean value"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 9, Week 34: "Designing the Gradebook
+// Program"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek34 = CourseWeekDef(
+  id: "course-secondary2-computing-w34",
+  weekNumber: 34,
+  titleEn: "Designing the Gradebook Program",
+  titleMy: "Gradebook ပရိုဂရမ် ဒီဇိုင်းရေးဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w34-d1",
+      dayNumber: 1,
+      titleEn: "Breaking a Big Program Into Functions",
+      titleMy: "ပရိုဂရမ်ကြီးတစ်ခုကို Function များအဖြစ် ခွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A big program is easier to build and test when it is broken into what?",
+          questionMy:
+              "ပရိုဂရမ်ကြီးတစ်ခုကို ဘာအဖြစ် ခွဲထားလျှင် ပိုတည်ဆောက်ရလွယ်ကူပြီး test ပိုလုပ်ရလွယ်ကူသနည်း။",
+          optionsEn: [
+            "Several smaller functions, each with one clear job",
+            "One single giant function with everything inside it",
+            "As few lines of code as physically possible",
+            "No functions at all",
+          ],
+          optionsMy: [
+            "အလုပ်တစ်ခုစီ ရှင်းလင်းစွာသတ်မှတ်ထားသော function ငယ်များစွာ",
+            "အားလုံးပါဝင်သော function ကြီးတစ်ခုတည်း",
+            "ဖြစ်နိုင်သမျှ code line အနည်းဆုံး",
+            "Function လုံးဝ မပါဘဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function should be responsible for turning file lines into a name-to-score dictionary?",
+          questionMy:
+              "File line များကို name-to-score dictionary အဖြစ် ပြောင်းလဲပေးရန် မည်သည့် function က တာဝန်ယူသင့်သနည်း။",
+          optionsEn: [
+            "load_scores(names_file, scores_file)",
+            "average_score(scores)",
+            "highest_scorer(scores)",
+            "print(scores)",
+          ],
+          optionsMy: [
+            "load_scores(names_file, scores_file)",
+            "average_score(scores)",
+            "highest_scorer(scores)",
+            "print(scores)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function should compute the average of all scores in a dictionary?",
+          questionMy:
+              "Dictionary ရှိ score အားလုံး၏ ပျမ်းမျှကို မည်သည့် function က တွက်ချက်ပေးသင့်သနည်း။",
+          optionsEn: [
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"r\")",
+            "file.close()",
+          ],
+          optionsMy: [
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"r\")",
+            "file.close()",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function should find the student with the highest score?",
+          questionMy:
+              "Score အများဆုံးရသော ကျောင်းသားကို မည်သည့် function က ရှာဖွေပေးသင့်သနည်း။",
+          optionsEn: [
+            "highest_scorer(scores)",
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "len(scores)",
+          ],
+          optionsMy: [
+            "highest_scorer(scores)",
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "len(scores)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it useful to test each function separately before combining them?",
+          questionMy:
+              "Function များကို ပေါင်းစပ်မီ တစ်ခုချင်းစီ သီးခြား test လုပ်ခြင်းသည် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "So bugs can be found and fixed in one small piece at a time, instead of the whole program at once",
+            "Because functions cannot be tested at all",
+            "Because it makes the program run slower on purpose",
+            "There is no real benefit to doing this",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်တစ်ခုလုံးထက် အပိုင်းငယ်တစ်ခုချင်းစီအလိုက် bug များကို ရှာဖွေပြင်ဆင်နိုင်ရန်",
+            "Function များကို လုံးဝ test မလုပ်နိုင်သောကြောင့်",
+            "ပရိုဂရမ်ကို တမင် ပိုနှေးအောင် လုပ်စေသောကြောင့်",
+            "ဤသို့ ပြုလုပ်ခြင်းတွင် တကယ့်အကျိုးကျေးဇူး မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w34-d2",
+      dayNumber: 2,
+      titleEn: "Program Design Vocabulary",
+      titleMy: "ပရိုဂရမ် ဒီဇိုင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w34-design-decomposition",
+          termEn: "Decomposition (Program-Level)",
+          termMy: "Decomposition (Program-Level)",
+          matchEn:
+              "Breaking a big program into several smaller functions, each handling one clear job",
+          matchMy:
+              "ပရိုဂရမ်ကြီးတစ်ခုကို အလုပ်တစ်ခုစီ ရှင်းလင်းစွာသတ်မှတ်ထားသော function ငယ်များအဖြစ် ခွဲခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w34-design-loadscoresfn",
+          termEn: "load_scores(names_file, scores_file)",
+          termMy: "load_scores(names_file, scores_file)",
+          matchEn:
+              "A function responsible for reading files and building a dictionary of name-score pairs",
+          matchMy:
+              "File များကို ဖတ်ပြီး name-score pair dictionary တစ်ခု တည်ဆောက်ရန် တာဝန်ယူသော function",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w34-design-averagescorefn",
+          termEn: "average_score(scores)",
+          termMy: "average_score(scores)",
+          matchEn:
+              "A function responsible for looping through a dictionary's values and computing their average",
+          matchMy:
+              "Dictionary ၏ value များကို loop ဖြင့် လည်ပတ်ပြီး ပျမ်းမျှကို တွက်ချက်ရန် တာဝန်ယူသော function",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w34-design-highestscorerfn",
+          termEn: "highest_scorer(scores)",
+          termMy: "highest_scorer(scores)",
+          matchEn:
+              "A function responsible for finding which key has the largest value in a dictionary",
+          matchMy:
+              "Dictionary တစ်ခု၏ key များအနက် value အကြီးဆုံးရှိသည့် key ကို ရှာဖွေရန် တာဝန်ယူသော function",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w34-design-singleresponsibility",
+          termEn: "Single Responsibility",
+          termMy: "Single Responsibility",
+          matchEn:
+              "The idea that each function should have one clear job, making it easier to test and fix",
+          matchMy:
+              "Function တစ်ခုစီသည် test လုပ်ရ ပြင်ဆင်ရ လွယ်ကူစေရန် အလုပ်တစ်ခုတည်း ရှင်းလင်းစွာ ရှိသင့်သည်ဆိုသော အယူအဆ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w34-d3",
+      dayNumber: 3,
+      titleEn: "Reading/Writing Data or Calculating Statistics?",
+      titleMy: "Data ဖတ်/ရေးခြင်းလား Statistics တွက်ချက်ခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reading/Writing Data", "Calculating Statistics"],
+        bucketsMy: ["Data ဖတ်ခြင်း/ရေးခြင်း", "Statistics တွက်ချက်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "w34-sort-loadscores",
+            labelEn: "load_scores(names_file, scores_file)",
+            labelMy: "load_scores(names_file, scores_file)",
+            correctBucketEn: "Reading/Writing Data",
+            correctBucketMy: "Data ဖတ်ခြင်း/ရေးခြင်း",
+          ),
+          SortingItem(
+            id: "w34-sort-savereport",
+            labelEn: "save_report(filename, text)",
+            labelMy: "save_report(filename, text)",
+            correctBucketEn: "Reading/Writing Data",
+            correctBucketMy: "Data ဖတ်ခြင်း/ရေးခြင်း",
+          ),
+          SortingItem(
+            id: "w34-sort-averagescore",
+            labelEn: "average_score(scores)",
+            labelMy: "average_score(scores)",
+            correctBucketEn: "Calculating Statistics",
+            correctBucketMy: "Statistics တွက်ချက်ခြင်း",
+          ),
+          SortingItem(
+            id: "w34-sort-highestscorer",
+            labelEn: "highest_scorer(scores)",
+            labelMy: "highest_scorer(scores)",
+            correctBucketEn: "Calculating Statistics",
+            correctBucketMy: "Statistics တွက်ချက်ခြင်း",
+          ),
+          SortingItem(
+            id: "w34-sort-lowestscorer",
+            labelEn: "lowest_scorer(scores)",
+            labelMy: "lowest_scorer(scores)",
+            correctBucketEn: "Calculating Statistics",
+            correctBucketMy: "Statistics တွက်ချက်ခြင်း",
+          ),
+          SortingItem(
+            id: "w34-sort-openfilew",
+            labelEn: "open(filename, \"w\")",
+            labelMy: "open(filename, \"w\")",
+            correctBucketEn: "Reading/Writing Data",
+            correctBucketMy: "Data ဖတ်ခြင်း/ရေးခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w34-d4",
+      dayNumber: 4,
+      titleEn: "Nandar's Function Blueprint",
+      titleMy: "နန္ဒာ၏ Function Blueprint",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar's Function Blueprint",
+        titleMy: "နန္ဒာ၏ Function Blueprint",
+        passageEn:
+            "Before writing any actual code, Nandar sketched out her gradebook program's design on paper, listing each function she would need and exactly one job for each. load_scores(names_file, scores_file) would be responsible only for reading the two files and returning a finished dictionary -- nothing else. average_score(scores) would be responsible only for looping through that dictionary's values and returning their average -- it would not touch any files at all. highest_scorer(scores) would have a similarly narrow job: loop through the dictionary and return the name of whoever had the largest score. Nandar realized this blueprint meant she could build and test load_scores completely on its own first, checking it against a small sample file before writing a single line of average_score. If something went wrong later, she would immediately know which function to check, since each one only ever did its own single job. She remembered this was exactly the same idea behind Term 2's very first functions, just scaled up: instead of one function doing everything, a handful of small functions working together, each trusted to do its own part correctly.",
+        passageMy:
+            "Code တကယ် မရေးမီ နန္ဒာသည် သူမ၏ gradebook ပရိုဂရမ် ဒီဇိုင်းကို စာရွက်ပေါ်တွင် ရေးဆွဲခဲ့ပြီး လိုအပ်မည့် function တစ်ခုစီကို စာရင်းသွင်းကာ တစ်ခုစီအတွက် အလုပ်တစ်ခုတည်း သတ်မှတ်ခဲ့သည်။ load_scores(names_file, scores_file) သည် file နှစ်ခုကို ဖတ်ပြီး ပြီးစီးထားသော dictionary တစ်ခုကို return ပြန်ပေးရန်သာ တာဝန်ယူမည်ဖြစ်ပြီး တခြားဘာမှ မလုပ်ရ။ average_score(scores) သည် dictionary ၏ value များကို loop ဖြင့် လည်ပတ်ပြီး ၎င်းတို့၏ ပျမ်းမျှကို return ပြန်ပေးရန်သာ တာဝန်ယူမည်ဖြစ်ပြီး file တစ်ခုမျှ လုံးဝ မထိမည် မဟုတ်ပါ။ highest_scorer(scores) သည်လည်း အလားတူ ကျဉ်းမြောင်းသော အလုပ်တစ်ခု ရှိမည်ဖြစ်ပြီး - dictionary ကို loop ဖြင့် လည်ပတ်ပြီး score အကြီးဆုံးရှိသူ၏ နာမည်ကို return ပြန်ပေးမည်ဖြစ်သည်။ ဤ blueprint က average_score ၏ code line တစ်ကြောင်းမျှ မရေးမီ load_scores ကို ၎င်းကိုယ်တိုင် အပြည့်အဝ တည်ဆောက် test လုပ်ကာ file နမူနာငယ်တစ်ခုနှင့် စစ်ဆေးနိုင်သည်ကို ဆိုလိုကြောင်း နန္ဒာ သဘောပေါက်လိုက်သည်။ နောက်ပိုင်းတွင် တစ်ခုခု မှားယွင်းသွားပါက function တစ်ခုစီသည် ၎င်း၏ အလုပ်တစ်ခုတည်းသာ ပြုလုပ်ခဲ့သောကြောင့် မည်သည့် function ကို စစ်ဆေးရမည်ကို ချက်ချင်းသိနိုင်မည်ဖြစ်သည်။ ၎င်းသည် Term 2 ၏ ပထမဆုံး function များနောက်ကွယ်ရှိ idea အတိအကျပင် ဖြစ်ကြောင်း နန္ဒာ သတိရမိခဲ့သည် - တစ်ခုတည်းသော function က အားလုံးလုပ်မည့်အစား function ငယ်အနည်းငယ် အတူတကွ လုပ်ဆောင်ကာ တစ်ခုစီသည် ၎င်း၏ အစိတ်အပိုင်းကို မှန်ကန်စွာ လုပ်ဆောင်နိုင်သည်ဟု ယုံကြည်ခံရခြင်း၊ ပေါ်လွင်ပြသနေခြင်းဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was load_scores(names_file, scores_file) responsible for?",
+            questionMy:
+                "load_scores(names_file, scores_file) သည် ဘာအတွက် တာဝန်ယူခဲ့သနည်း။",
+            optionsEn: [
+              "Only reading the two files and returning a finished dictionary",
+              "Reading files, calculating averages, and writing reports all at once",
+              "Only calculating the class average",
+              "Only printing the roster to the screen",
+            ],
+            optionsMy: [
+              "File နှစ်ခုကို ဖတ်ပြီး ပြီးစီးထားသော dictionary ကို return ပြန်ပေးရန်သာ",
+              "File ဖတ်ခြင်း၊ ပျမ်းမျှ တွက်ချက်ခြင်းနှင့် report ရေးသားခြင်း အားလုံးကို တစ်ပြိုင်တည်း",
+              "Class ပျမ်းမျှ တွက်ချက်ရန်သာ",
+              "Roster ကို screen ပေါ်တွင် print ထုတ်ရန်သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What benefit did Nandar realize from giving each function exactly one job?",
+            questionMy:
+                "Function တစ်ခုစီကို အလုပ်တစ်ခုတည်း ပေးအပ်ခြင်းမှ အကျိုးကျေးဇူးကို နန္ဒာ မည်သို့ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "She could build and test each function on its own, and would know exactly which function to check if something broke",
+              "It made her program slower on purpose",
+              "It meant she never needed to test anything",
+              "It had no real benefit at all",
+            ],
+            optionsMy: [
+              "Function တစ်ခုစီကို ၎င်းကိုယ်တိုင် တည်ဆောက် test လုပ်နိုင်ပြီး တစ်ခုခု ပျက်စီးသွားပါက မည်သည့် function ကို စစ်ဆေးရမည်ကို အတိအကျ သိနိုင်မည်ဖြစ်သည်",
+              "ပရိုဂရမ်ကို တမင် ပိုနှေးအောင် လုပ်စေသည်",
+              "ဘာကိုမျှ test လုပ်စရာ မလိုတော့ကြောင်း ဆိုလိုသည်",
+              "တကယ့်အကျိုးကျေးဇူး လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was highest_scorer(scores) planned to do?",
+            questionMy: "highest_scorer(scores) ကို ဘာလုပ်ရန် စီစဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Loop through the dictionary and return the name of whoever had the largest score",
+              "Read files from disk",
+              "Write a report to a file",
+              "Delete the student with the lowest score",
+            ],
+            optionsMy: [
+              "Dictionary ကို loop ဖြင့် လည်ပတ်ပြီး score အကြီးဆုံးရှိသူ၏ နာမည်ကို return ပြန်ပေးရန်",
+              "Disk မှ file များကို ဖတ်ရန်",
+              "File တစ်ခုသို့ report ရေးသားရန်",
+              "Score အနိမ့်ဆုံးရှိသော ကျောင်းသားကို ဖျက်ပစ်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which earlier idea did this function blueprint scale up from?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ဤ function blueprint သည် ယခင်က မည်သည့် idea ကို ချဲ့ထွင်ထားခြင်း ဖြစ်သနည်း။",
+            optionsEn: [
+              "Term 2's very first functions, just with several small functions working together instead of one",
+              "Term 4's truth tables",
+              "Term 6's nested lists",
+              "There was no earlier connection at all",
+            ],
+            optionsMy: [
+              "Term 2 ၏ ပထမဆုံး function များ၊ function တစ်ခုတည်းအစား function ငယ်များစွာ အတူတကွ လုပ်ဆောင်ခြင်းသာ ကွာခြားသည်",
+              "Term 4 ၏ truth table",
+              "Term 6 ၏ nested list",
+              "ယခင်က ဆက်စပ်မှု လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Nandar plan and test load_scores before writing average_score?",
+            questionMy:
+                "average_score မရေးမီ load_scores ကို နန္ဒာ အဘယ့်ကြောင့် စီစဉ်ပြီး test လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "So each piece could be built and trusted on its own, one small step at a time",
+              "Because average_score depended on nothing at all",
+              "Because it was required alphabetically",
+              "There was no particular reason",
+            ],
+            optionsMy: [
+              "အပိုင်းငယ်တစ်ခုချင်းစီကို ၎င်းကိုယ်တိုင် တည်ဆောက်ကာ ယုံကြည်နိုင်ရန်၊ အဆင့်ငယ်တစ်ခုချင်းစီ",
+              "average_score သည် ဘာကိုမျှ မမှီခိုသောကြောင့်",
+              "Alphabet စဉ်အလိုက် လိုအပ်ခဲ့သောကြောင့်",
+              "အထူးအကြောင်းပြချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap Quiz",
+      titleMy: "Week 34 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why break a big program into several smaller functions?",
+          questionMy:
+              "ပရိုဂရမ်ကြီးတစ်ခုကို function ငယ်များစွာအဖြစ် အဘယ့်ကြောင့် ခွဲသင့်သနည်း။",
+          optionsEn: [
+            "So each one can be built and tested on its own, with one clear job",
+            "To make the program impossible to test",
+            "Because Python requires at least ten functions",
+            "There is no real reason",
+          ],
+          optionsMy: [
+            "တစ်ခုစီကို ရှင်းလင်းသော အလုပ်တစ်ခုတည်းဖြင့် ၎င်းကိုယ်တိုင် တည်ဆောက် test လုပ်နိုင်ရန်",
+            "ပရိုဂရမ်ကို test မလုပ်နိုင်အောင် လုပ်ရန်",
+            "Python တွင် function အနည်းဆုံး ဆယ်ခု လိုအပ်သောကြောင့်",
+            "တကယ့်အကြောင်းပြချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which function reads files and returns a dictionary?",
+          questionMy:
+              "File များကို ဖတ်ပြီး dictionary ကို return ပြန်ပေးသော function က မည်သည်နည်း။",
+          optionsEn: [
+            "load_scores(names_file, scores_file)",
+            "average_score(scores)",
+            "highest_scorer(scores)",
+            "len(scores)",
+          ],
+          optionsMy: [
+            "load_scores(names_file, scores_file)",
+            "average_score(scores)",
+            "highest_scorer(scores)",
+            "len(scores)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which function computes the class average?",
+          questionMy: "Class ပျမ်းမျှကို တွက်ချက်ပေးသော function က မည်သည်နည်း။",
+          optionsEn: [
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"r\")",
+            "file.close()",
+          ],
+          optionsMy: [
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"r\")",
+            "file.close()",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is \"single responsibility\" for a function?",
+          questionMy:
+              "Function တစ်ခုအတွက် \"single responsibility\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each function should have one clear job",
+            "Each function must be exactly one line long",
+            "Each function must call every other function",
+            "Each function must never return a value",
+          ],
+          optionsMy: [
+            "Function တစ်ခုစီသည် ရှင်းလင်းသော အလုပ်တစ်ခုတည်း ရှိသင့်သည်",
+            "Function တစ်ခုစီသည် line တစ်ကြောင်းတည်း အတိအကျ ရှိရမည်",
+            "Function တစ်ခုစီသည် function အခြားများ အားလုံးကို ခေါ်ရမည်",
+            "Function တစ်ခုစီသည် value ကို ဘယ်တော့မှ return မပြန်ရပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function should be responsible for finding the highest-scoring student?",
+          questionMy:
+              "Score အများဆုံးရသော ကျောင်းသားကို ရှာဖွေရန် မည်သည့် function က တာဝန်ယူသင့်သနည်း။",
+          optionsEn: [
+            "highest_scorer(scores)",
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"w\")",
+          ],
+          optionsMy: [
+            "highest_scorer(scores)",
+            "average_score(scores)",
+            "load_scores(names_file, scores_file)",
+            "open(filename, \"w\")",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 9, Week 35: "Building the Gradebook
+// Step by Step"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek35 = CourseWeekDef(
+  id: "course-secondary2-computing-w35",
+  weekNumber: 35,
+  titleEn: "Building the Gradebook Step by Step",
+  titleMy: "Gradebook ကို အဆင့်ဆင့် တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w35-d1",
+      dayNumber: 1,
+      titleEn: "Pairing Two Lists Into a Dictionary",
+      titleMy: "List နှစ်ခုကို Dictionary အဖြစ် တွဲစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In load_scores, what does the while loop's condition, while i < len(names):, check?",
+          questionMy:
+              "load_scores တွင် while loop ၏ condition ဖြစ်သော while i < len(names): က ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "Whether there are still more names left to pair up with scores",
+            "Whether i is exactly equal to 0",
+            "Whether names is empty",
+            "Whether the file has been closed yet",
+          ],
+          optionsMy: [
+            "Score များနှင့် တွဲရန် name များ ကျန်ရှိနေသေးလား",
+            "i သည် 0 နှင့် အတိအကျ ညီမညီ",
+            "names သည် ဗလာဖြစ်မဖြစ်",
+            "File ကို ပိတ်ပြီးလားမပြီးလား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does scores[names[i]] = scores_list[i] do inside the loop?",
+          questionMy:
+              "Loop အတွင်း scores[names[i]] = scores_list[i] က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Pairs the name at position i with the score at the same position i, adding it as a key-value pair",
+            "Deletes the name at position i",
+            "Adds every name to the dictionary with the same score",
+            "Prints the name and score to the screen only",
+          ],
+          optionsMy: [
+            "Position i ရှိ name ကို position i အတူတူတွင်ရှိသော score နှင့် တွဲကာ key-value pair တစ်ခုအဖြစ် ထည့်သည်",
+            "Position i ရှိ name ကို ဖျက်ပစ်သည်",
+            "Name အားလုံးကို score တူတူဖြင့် dictionary ထဲသို့ ထည့်သည်",
+            "Name နှင့် score ကို screen ပေါ်တွင်သာ print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What increments i each time through the loop?",
+          questionMy: "Loop တစ်ကြိမ်စီတွင် i ကို ဘာက တိုးပေးသနည်း။",
+          optionsEn: [
+            "i = i + 1",
+            "i = i - 1",
+            "i = 0",
+            "Nothing -- i never changes",
+          ],
+          optionsMy: [
+            "i = i + 1",
+            "i = i - 1",
+            "i = 0",
+            "ဘာမျှ မရှိပါ -- i ဘယ်တော့မှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does load_scores open and close two separate files?",
+          questionMy:
+              "load_scores သည် အဘယ့်ကြောင့် file သီးခြားနှစ်ခုကို ဖွင့်ပိတ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Because names and scores are stored in two separate files that need to be paired up",
+            "Because one file was corrupted",
+            "Just for style, with no real reason",
+            "Because dictionaries require exactly two files",
+          ],
+          optionsMy: [
+            "Name နှင့် score များသည် တွဲစပ်ရန် လိုအပ်သော file သီးခြားနှစ်ခုတွင် သိမ်းဆည်းထားသောကြောင့်",
+            "File တစ်ခု ပျက်စီးနေသောကြောင့်",
+            "စတိုင်အတွက်သာ၊ တကယ့်အကြောင်းပြချက် မရှိပါ",
+            "Dictionary များသည် file နှစ်ခု အတိအကျ လိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does load_scores(names_file, scores_file) ultimately return?",
+          questionMy:
+              "load_scores(names_file, scores_file) က နောက်ဆုံးတွင် ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "A dictionary mapping each name to its matching score",
+            "A single number, the class average",
+            "Two separate unrelated lists",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Name တစ်ခုစီကို ၎င်း၏ ကိုက်ညီသော score သို့ map လုပ်ထားသော dictionary",
+            "ဂဏန်းတစ်ခုတည်း၊ class ပျမ်းမျှ",
+            "မသက်ဆိုင်သော list သီးခြားနှစ်ခု",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w35-d2",
+      dayNumber: 2,
+      titleEn: "Pairing Lists Vocabulary",
+      titleMy: "List တွဲစပ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w35-pair-whileloop",
+          termEn: "while i < len(names):",
+          termMy: "while i < len(names):",
+          matchEn:
+              "A while loop (from Secondary 1) that keeps running as long as there are still positions left to check",
+          matchMy:
+              "စစ်ဆေးရန် position ကျန်ရှိသရွေ့ ဆက်လက် run နေမည့် Secondary 1 မှ while loop",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w35-pair-incrementindex",
+          termEn: "i = i + 1",
+          termMy: "i = i + 1",
+          matchEn:
+              "Moves the index forward by one each time through the loop, eventually reaching len(names) and stopping the loop",
+          matchMy:
+              "Loop တစ်ကြိမ်စီတွင် index ကို တစ်ခုစီ ရှေ့ရွှေ့ပေးပြီး နောက်ဆုံး len(names) သို့ ရောက်ကာ loop ကို ရပ်စေသည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w35-pair-scorespairing",
+          termEn: "scores[names[i]] = scores_list[i]",
+          termMy: "scores[names[i]] = scores_list[i]",
+          matchEn:
+              "Pairs the name and score sitting at the same position i in two separate lists",
+          matchMy:
+              "List သီးခြားနှစ်ခုတွင် position i တူတူရှိသော name နှင့် score ကို တွဲစပ်သည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w35-pair-parallelmatching",
+          termEn: "Parallel Position Matching",
+          termMy: "Parallel Position Matching",
+          matchEn:
+              "Using the same index i to look up corresponding items in two different lists at once",
+          matchMy:
+              "List နှစ်ခုအတွင်း ကိုက်ညီသော item များကို ရှာဖွေရန် index i တူတူကို တစ်ပြိုင်တည်း သုံးခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w35-pair-combiningintodict",
+          termEn: "Combining Two Lists into a Dictionary",
+          termMy: "Combining Two Lists into a Dictionary",
+          matchEn:
+              "Building a dictionary by pairing up items from two lists that share the same order",
+          matchMy:
+              "အစီအစဉ်တူညီသော list နှစ်ခုမှ item များကို တွဲစပ်ကာ dictionary တစ်ခု တည်ဆောက်ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w35-d3",
+      dayNumber: 3,
+      titleEn: "Part of the While Loop or Part of Building the Dictionary?",
+      titleMy:
+          "While Loop ၏ အစိတ်အပိုင်းလား Dictionary တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Part of the While Loop",
+          "Part of Building the Dictionary",
+        ],
+        bucketsMy: [
+          "While Loop ၏ အစိတ်အပိုင်း",
+          "Dictionary တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "w35-sort-whilecondition",
+            labelEn: "while i < len(names):",
+            labelMy: "while i < len(names):",
+            correctBucketEn: "Part of the While Loop",
+            correctBucketMy: "While Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w35-sort-incrementi",
+            labelEn: "i = i + 1",
+            labelMy: "i = i + 1",
+            correctBucketEn: "Part of the While Loop",
+            correctBucketMy: "While Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w35-sort-izero",
+            labelEn: "i = 0 (before the loop begins)",
+            labelMy: "i = 0 (loop မစတင်မီ)",
+            correctBucketEn: "Part of the While Loop",
+            correctBucketMy: "While Loop ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w35-sort-scoresempty",
+            labelEn: "scores = {} (before the loop begins)",
+            labelMy: "scores = {} (loop မစတင်မီ)",
+            correctBucketEn: "Part of Building the Dictionary",
+            correctBucketMy: "Dictionary တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w35-sort-scorespair",
+            labelEn: "scores[names[i]] = scores_list[i]",
+            labelMy: "scores[names[i]] = scores_list[i]",
+            correctBucketEn: "Part of Building the Dictionary",
+            correctBucketMy: "Dictionary တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w35-sort-returnscores",
+            labelEn: "return scores",
+            labelMy: "return scores",
+            correctBucketEn: "Part of Building the Dictionary",
+            correctBucketMy: "Dictionary တည်ဆောက်ခြင်း၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w35-d4",
+      dayNumber: 4,
+      titleEn: "Tracing load_scores by Hand",
+      titleMy: "load_scores ကို လက်ဖြင့် Trace လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tracing load_scores by Hand",
+        titleMy: "load_scores ကို လက်ဖြင့် Trace လုပ်ခြင်း",
+        passageEn:
+            "Before trusting her finished function, Nandar traced through load_scores by hand using two small example lists: names = [\"Htet\", \"Su Su\"] and scores_list = [85, 90]. She started with scores = {} and i = 0. Checking the while loop's condition, i < len(names) meant 0 < 2, which was True, so the loop began. Inside, scores[names[0]] = scores_list[0] meant scores[\"Htet\"] = 85, adding the first pair; scores was now {\"Htet\": 85}. Then i = i + 1 made i equal 1. Checking the condition again, 1 < 2 was still True, so the loop ran once more: scores[names[1]] = scores_list[1] meant scores[\"Su Su\"] = 90, adding the second pair; scores was now {\"Htet\": 85, \"Su Su\": 90}. Then i = i + 1 made i equal 2. Checking the condition a third time, 2 < 2 was False, since 2 is not less than 2, so the loop stopped. The function returned {\"Htet\": 85, \"Su Su\": 90} -- exactly the paired-up dictionary Nandar had planned. Tracing through by hand, one line at a time, let her confirm the function worked correctly before ever running it on a real file, catching any mistakes on paper where they were cheap to fix.",
+        passageMy:
+            "ပြီးစီးထားသော function ကို မယုံကြည်မီ နန္ဒာသည် ဥပမာ list ငယ်နှစ်ခု names = [\"Htet\", \"Su Su\"] နှင့် scores_list = [85, 90] ကို သုံး၍ load_scores ကို လက်ဖြင့် trace လုပ်ခဲ့သည်။ သူမသည် scores = {} နှင့် i = 0 ဖြင့် စတင်ခဲ့သည်။ while loop ၏ condition ကို စစ်ဆေးရာ i < len(names) က 0 < 2 ဟု ဆိုလိုပြီး True ဖြစ်သောကြောင့် loop စတင်ခဲ့သည်။ အတွင်း၌ scores[names[0]] = scores_list[0] က scores[\"Htet\"] = 85 ဟု ဆိုလိုကာ ပထမ pair ကို ထည့်ခဲ့သည်; scores သည် ယခု {\"Htet\": 85} ဖြစ်လာသည်။ ထို့နောက် i = i + 1 က i ကို 1 ဖြစ်စေသည်။ Condition ကို ထပ်စစ်ဆေးရာ 1 < 2 သည် ဆက်လက် True ဖြစ်နေသေးသောကြောင့် loop ထပ်တစ်ကြိမ် run ခဲ့သည် - scores[names[1]] = scores_list[1] က scores[\"Su Su\"] = 90 ဟု ဆိုလိုကာ ဒုတိယ pair ကို ထည့်ခဲ့သည်; scores သည် ယခု {\"Htet\": 85, \"Su Su\": 90} ဖြစ်လာသည်။ ထို့နောက် i = i + 1 က i ကို 2 ဖြစ်စေသည်။ Condition ကို တတိယအကြိမ် စစ်ဆေးရာ 2 < 2 သည် False ဖြစ်ခဲ့ပြီး 2 သည် 2 ထက် မငယ်သောကြောင့် loop ရပ်တန့်သွားခဲ့သည်။ Function သည် {\"Htet\": 85, \"Su Su\": 90} ကို return ပြန်ပေးခဲ့ပြီး နန္ဒာ စီစဉ်ခဲ့သော တွဲစပ်ပြီးသား dictionary အတိအကျပင် ဖြစ်ခဲ့သည်။ Line တစ်ကြောင်းချင်းစီ လက်ဖြင့် trace လုပ်ခြင်းက file အစစ်အမှန်ပေါ်တွင် run မလုပ်မီ function မှန်ကန်စွာ အလုပ်လုပ်ကြောင်း အတည်ပြုနိုင်စေခဲ့ပြီး အမှားများကို စာရွက်ပေါ်တွင် ပြင်ဆင်ရန် ကုန်ကျစရိတ်နည်းစဉ် ရှာဖွေတွေ့ရှိစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did the while loop's condition evaluate to on the very first check, with i = 0 and len(names) = 2?",
+            questionMy:
+                "i = 0, len(names) = 2 ဖြစ်ပါက while loop ၏ condition သည် ပထမဆုံးစစ်ဆေးမှုတွင် ဘာသို့ evaluate လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "True, since 0 < 2",
+              "False, since 0 < 2",
+              "True, since 0 == 2",
+              "An error",
+            ],
+            optionsMy: [
+              "True, 0 < 2 ဖြစ်သောကြောင့်",
+              "False, 0 < 2 ဖြစ်သောကြောင့်",
+              "True, 0 == 2 ဖြစ်သောကြောင့်",
+              "Error",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the value of scores right after the loop's first pass?",
+            questionMy:
+                "Loop ၏ ပထမ pass ပြီးချက်ချင်း scores ၏ တန်ဖိုးက အဘယ်နည်း။",
+            optionsEn: [
+              "{\"Htet\": 85}",
+              "{\"Su Su\": 90}",
+              "{\"Htet\": 85, \"Su Su\": 90}",
+              "{}",
+            ],
+            optionsMy: [
+              "{\"Htet\": 85}",
+              "{\"Su Su\": 90}",
+              "{\"Htet\": 85, \"Su Su\": 90}",
+              "{}",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did the loop stop after the second pass?",
+            questionMy:
+                "Loop သည် ဒုတိယ pass ပြီးနောက် အဘယ့်ကြောင့် ရပ်တန့်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because i became 2, and 2 < 2 was False",
+              "Because an error occurred",
+              "Because scores became empty",
+              "Because names.strip() was called",
+            ],
+            optionsMy: [
+              "i သည် 2 ဖြစ်လာပြီး 2 < 2 သည် False ဖြစ်သောကြောင့်",
+              "Error ဖြစ်ခဲ့သောကြောင့်",
+              "scores သည် ဗလာ ဖြစ်သွားခဲ့သောကြောင့်",
+              "names.strip() ကို ခေါ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did load_scores(names, scores_list) finally return, in this traced example?",
+            questionMy:
+                "ဤ trace ဥပမာတွင် load_scores(names, scores_list) က နောက်ဆုံးတွင် ဘာ return ပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "{\"Htet\": 85, \"Su Su\": 90}",
+              "[\"Htet\", \"Su Su\"]",
+              "[85, 90]",
+              "None",
+            ],
+            optionsMy: [
+              "{\"Htet\": 85, \"Su Su\": 90}",
+              "[\"Htet\", \"Su Su\"]",
+              "[85, 90]",
+              "None",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why was tracing through the function by hand useful?",
+            questionMy:
+                "ဇာတ်လမ်းအရ function ကို လက်ဖြင့် trace လုပ်ခြင်းသည် အဘယ့်ကြောင့် အသုံးဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "It let Nandar confirm the function worked correctly before running it on a real file, catching mistakes cheaply",
+              "It made the function run faster",
+              "It was required by Python before a function could be called",
+              "It replaced the need for a return statement",
+            ],
+            optionsMy: [
+              "File အစစ်အမှန်ပေါ်တွင် run မလုပ်မီ function မှန်ကန်စွာ အလုပ်လုပ်ကြောင်း အတည်ပြုနိုင်ပြီး အမှားများကို ကုန်ကျစရိတ်နည်းစွာ ရှာဖွေတွေ့ရှိစေသည်",
+              "function ကို ပိုမြန်စွာ run စေသည်",
+              "function တစ်ခုကို ခေါ်ရန် Python က လိုအပ်သည်",
+              "return statement ၏ လိုအပ်ချက်ကို အစားထိုးသည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap Quiz",
+      titleMy: "Week 35 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does while i < len(names): check on each pass?",
+          questionMy:
+              "Pass တစ်ခုစီတွင် while i < len(names): က ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "Whether there are still positions left to pair up",
+            "Whether names is a dictionary",
+            "Whether i is negative",
+            "Whether the file exists",
+          ],
+          optionsMy: [
+            "တွဲစပ်ရန် position ကျန်ရှိနေသေးလား",
+            "names သည် dictionary ဖြစ်မဖြစ်",
+            "i သည် အနှုတ်ဂဏန်းလား",
+            "File ရှိမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does scores[names[i]] = scores_list[i] do?",
+          questionMy: "scores[names[i]] = scores_list[i] က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Pairs the name and score at the same position i",
+            "Deletes the name at position i",
+            "Sorts the names list",
+            "Prints the whole dictionary",
+          ],
+          optionsMy: [
+            "Position i တူတူရှိ name နှင့် score ကို တွဲစပ်သည်",
+            "Position i ရှိ name ကို ဖျက်ပစ်သည်",
+            "names list ကို sort လုပ်သည်",
+            "dictionary တစ်ခုလုံးကို print ထုတ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For names = [\"A\", \"B\", \"C\"], how many times does the while loop's body run?",
+          questionMy:
+              "names = [\"A\", \"B\", \"C\"] ဆိုပါက while loop ၏ body က မည်မျှကြိမ် run သနည်း။",
+          optionsEn: ["3", "2", "4", "0"],
+          optionsMy: ["3", "2", "4", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What increments i each pass through the loop?",
+          questionMy: "Loop pass တစ်ခုစီတွင် i ကို ဘာက တိုးပေးသနည်း။",
+          optionsEn: ["i = i + 1", "i = i - 1", "i = 0", "len(names)"],
+          optionsMy: ["i = i + 1", "i = i - 1", "i = 0", "len(names)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does load_scores ultimately return?",
+          questionMy: "load_scores သည် နောက်ဆုံးတွင် ဘာ return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "A dictionary pairing each name with its score",
+            "Two unrelated lists",
+            "A single average number",
+            "Nothing",
+          ],
+          optionsMy: [
+            "Name တစ်ခုစီကို ၎င်း၏ score နှင့် တွဲထားသော dictionary",
+            "မသက်ဆိုင်သော list နှစ်ခု",
+            "ပျမ်းမျှဂဏန်း တစ်ခုတည်း",
+            "ဘာမျှမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 9, Week 36: "Testing, Reflecting, and
+// Celebrating"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek36 = CourseWeekDef(
+  id: "course-secondary2-computing-w36",
+  weekNumber: 36,
+  titleEn: "Testing, Reflecting, and Celebrating",
+  titleMy: "Test လုပ်ခြင်း၊ ပြန်လည်သုံးသပ်ခြင်းနှင့် ဂုဏ်ပြုခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w36-d1",
+      dayNumber: 1,
+      titleEn: "Testing the Gradebook",
+      titleMy: "Gradebook ကို Test လုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Besides normal data, what should you test load_scores with to make sure it's robust?",
+          questionMy:
+              "ပုံမှန် data အပြင် load_scores ခိုင်မာမှုရှိကြောင်း သေချာစေရန် ဘာနှင့် test လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Edge cases, like an empty file with no names or scores at all",
+            "Only the exact same example every single time",
+            "Nothing else -- one test is always enough",
+            "A file written in a different programming language",
+          ],
+          optionsMy: [
+            "Name (သို့) score လုံးဝမပါသော ဗလာ file ကဲ့သို့ edge case များ",
+            "အကြိမ်တိုင်း ဥပမာတူတူတစ်ခုတည်းသာ",
+            "အခြားဘာမှ မလိုပါ -- test တစ်ကြိမ် အမြဲလုံလောက်သည်",
+            "Programming language တခြားတစ်ခုဖြင့် ရေးထားသော file",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What would happen if names_file had 3 names but scores_file had only 2 scores?",
+          questionMy:
+              "names_file တွင် name 3 ခုရှိပြီး scores_file တွင် score 2 ခုသာ ရှိပါက ဘာဖြစ်မည်နည်း။",
+          optionsEn: [
+            "The while loop would try to access scores_list[2], which does not exist, causing an error",
+            "The program would automatically fix the mismatch",
+            "The third name would simply be ignored with no error",
+            "Nothing unusual would happen at all",
+          ],
+          optionsMy: [
+            "While loop သည် မရှိသော scores_list[2] ကို ဝင်ရောက်ရန် ကြိုးစားပြီး error ဖြစ်စေသည်",
+            "ပရိုဂရမ်သည် ကွာခြားမှုကို အလိုအလျောက် ပြင်ဆင်ပေးသည်",
+            "တတိယ name ကို error မတက်ဘဲ လျစ်လျူရှုသည်",
+            "ထူးထူးဆန်းဆန်း ဘာမျှ မဖြစ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is testing a program with several different example inputs important?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုကို ဥပမာ input အမျိုးမျိုးဖြင့် test လုပ်ခြင်း အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Because a program might work for one example by chance but still contain bugs that only show up with different data",
+            "Because Python requires at least five separate tests",
+            "It is never actually important",
+            "Because more tests always make a program run faster",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်တစ်ခုသည် ဥပမာတစ်ခုအတွက် ကံအားလျော်စွာ အလုပ်ဖြစ်နိုင်သော်လည်း data ကွဲပြားမှသာ ပေါ်လာသော bug များ ပါဝင်နေနိုင်သောကြောင့်",
+            "Python တွင် test အနည်းဆုံး ငါးခု အတိအကျ လိုအပ်သောကြောင့်",
+            "တကယ်တော့ ဘယ်တော့မှ အရေးမကြီးပါ",
+            "Test ပိုများလေ ပရိုဂရမ် ပိုမြန်လေဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is one good way to check that average_score(scores) is correct?",
+          questionMy:
+              "average_score(scores) မှန်ကန်ကြောင်း စစ်ဆေးရန် ကောင်းသော နည်းလမ်းတစ်ခုက အဘယ်နည်း။",
+          optionsEn: [
+            "Compute the average by hand for a small example and compare it to the function's output",
+            "Assume it is correct without checking",
+            "Only check that the program does not crash",
+            "Delete the function and rewrite it randomly",
+          ],
+          optionsMy: [
+            "ဥပမာငယ်တစ်ခုအတွက် ပျမ်းမျှကို လက်ဖြင့် တွက်ချက်ပြီး function ၏ output နှင့် နှိုင်းယှဉ်ခြင်း",
+            "မစစ်ဆေးဘဲ မှန်ကန်သည်ဟု ယူဆခြင်း",
+            "ပရိုဂရမ် crash မဖြစ်ခြင်းကိုသာ စစ်ဆေးခြင်း",
+            "Function ကို ဖျက်ပြီး ကျပန်း ပြန်ရေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the benefit of having built the program as several small functions instead of one giant block of code?",
+          questionMy:
+              "ပရိုဂရမ်ကို code block ကြီးတစ်ခုတည်းအစား function ငယ်များစွာအဖြစ် တည်ဆောက်ခြင်း၏ အကျိုးကျေးဇူးက အဘယ်နည်း။",
+          optionsEn: [
+            "Each function can be tested and fixed on its own, making bugs easier to find",
+            "The program automatically runs faster",
+            "There is no benefit at all",
+            "It means the program never needs testing",
+          ],
+          optionsMy: [
+            "Function တစ်ခုစီကို ၎င်းကိုယ်တိုင် test လုပ် ပြင်ဆင်နိုင်ပြီး bug ရှာဖွေရန် ပိုလွယ်ကူသည်",
+            "ပရိုဂရမ် အလိုအလျောက် ပိုမြန်သွားသည်",
+            "အကျိုးကျေးဇူး လုံးဝ မရှိပါ",
+            "ပရိုဂရမ်ကို ဘယ်တော့မှ test လုပ်စရာ မလိုကြောင်း ဆိုလိုသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w36-d2",
+      dayNumber: 2,
+      titleEn: "Testing Vocabulary",
+      titleMy: "Test လုပ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w36-test-testing",
+          termEn: "Testing",
+          termMy: "Testing",
+          matchEn:
+              "Running a program with example data to check whether it behaves correctly",
+          matchMy:
+              "မှန်ကန်စွာ လုပ်ဆောင်ခြင်းရှိမရှိ စစ်ဆေးရန် ပရိုဂရမ်ကို ဥပမာ data ဖြင့် run ခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w36-test-edgecase",
+          termEn: "Edge Case",
+          termMy: "Edge Case",
+          matchEn:
+              "An unusual input, like an empty file, used to test whether a program still behaves correctly in extreme situations",
+          matchMy:
+              "ဗလာ file ကဲ့သို့ ပုံမှန်မဟုတ်သော input -- အခြေအနေစွန်းများတွင် ပရိုဂရမ် ဆက်လက်မှန်ကန်ကြောင်း test လုပ်ရန် သုံးသည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w36-test-mismatchedlengths",
+          termEn: "Mismatched Lengths",
+          termMy: "Mismatched Lengths",
+          matchEn:
+              "When two lists that are supposed to correspond position by position have different numbers of items, causing errors when paired up",
+          matchMy:
+              "Position အလိုက် ကိုက်ညီသင့်သော list နှစ်ခုတွင် item အရေအတွက် မတူညီပါက တွဲစပ်ချိန် error ဖြစ်စေသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w36-test-manualcheck",
+          termEn: "Manual Calculation Check",
+          termMy: "Manual Calculation Check",
+          matchEn:
+              "Working out the correct answer by hand for a small example, then comparing it to what the program actually produced",
+          matchMy:
+              "ဥပမာငယ်တစ်ခုအတွက် အဖြေမှန်ကို လက်ဖြင့် တွက်ချက်ပြီး ပရိုဂရမ် တကယ်ထုတ်ပေးသည်နှင့် နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w36-test-debugging",
+          termEn: "Debugging",
+          termMy: "Debugging",
+          matchEn:
+              "Finding and fixing the cause of incorrect behavior in a program",
+          matchMy:
+              "ပရိုဂရမ်တစ်ခုတွင် မှားယွင်းသော အပြုအမူ၏ အကြောင်းရင်းကို ရှာဖွေပြင်ဆင်ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w36-d3",
+      dayNumber: 3,
+      titleEn: "Good Testing Practice or Risky Testing?",
+      titleMy: "ကောင်းသော Testing Practice လား ခြိမ်းခြောက်ဖွယ် Testing လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Testing Practice", "Risky or Incomplete Testing"],
+        bucketsMy: [
+          "ကောင်းသော Testing Practice",
+          "ခြိမ်းခြောက်ဖွယ် (သို့) မပြည့်စုံသော Testing",
+        ],
+        items: [
+          SortingItem(
+            id: "w36-sort-normalfile",
+            labelEn: "Testing with a normal file containing several students",
+            labelMy: "ကျောင်းသားများစွာပါသော ပုံမှန် file ဖြင့် test လုပ်ခြင်း",
+            correctBucketEn: "Good Testing Practice",
+            correctBucketMy: "ကောင်းသော Testing Practice",
+          ),
+          SortingItem(
+            id: "w36-sort-emptyfile",
+            labelEn: "Testing with an empty file",
+            labelMy: "ဗလာ file ဖြင့် test လုပ်ခြင်း",
+            correctBucketEn: "Good Testing Practice",
+            correctBucketMy: "ကောင်းသော Testing Practice",
+          ),
+          SortingItem(
+            id: "w36-sort-onlyoneexample",
+            labelEn: "Only ever testing with the exact same one example",
+            labelMy: "ဥပမာတူတူတစ်ခုတည်းဖြင့်သာ အမြဲ test လုပ်ခြင်း",
+            correctBucketEn: "Risky or Incomplete Testing",
+            correctBucketMy: "ခြိမ်းခြောက်ဖွယ် (သို့) မပြည့်စုံသော Testing",
+          ),
+          SortingItem(
+            id: "w36-sort-handcheck",
+            labelEn:
+                "Checking the function's output against a hand-calculated answer",
+            labelMy:
+                "Function ၏ output ကို လက်ဖြင့် တွက်ချက်ထားသော အဖြေနှင့် စစ်ဆေးခြင်း",
+            correctBucketEn: "Good Testing Practice",
+            correctBucketMy: "ကောင်းသော Testing Practice",
+          ),
+          SortingItem(
+            id: "w36-sort-assumecorrect",
+            labelEn:
+                "Assuming a program is correct just because it ran without crashing once",
+            labelMy:
+                "တစ်ကြိမ် crash မဖြစ်ခဲ့ခြင်းကြောင့်သာ ပရိုဂရမ် မှန်ကန်သည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Risky or Incomplete Testing",
+            correctBucketMy: "ခြိမ်းခြောက်ဖွယ် (သို့) မပြည့်စုံသော Testing",
+          ),
+          SortingItem(
+            id: "w36-sort-mismatchtest",
+            labelEn:
+                "Testing with mismatched-length name/score files on purpose to see what happens",
+            labelMy:
+                "ဘာဖြစ်မည်ကို ကြည့်ရန် name/score file အရှည်မတူသောအားဖြင့် တမင် test လုပ်ခြင်း",
+            correctBucketEn: "Good Testing Practice",
+            correctBucketMy: "ကောင်းသော Testing Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w36-d4",
+      dayNumber: 4,
+      titleEn: "Nandar's Finished Gradebook",
+      titleMy: "နန္ဒာ၏ ပြီးစီးသွားသော Gradebook",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar's Finished Gradebook",
+        titleMy: "နန္ဒာ၏ ပြီးစီးသွားသော Gradebook",
+        passageEn:
+            "For the final project of her whole year, Nandar ran her finished gradebook program from start to finish. names.txt held \"Htet\", \"Su Su\", and \"Aung Kyaw\", one per line -- Term 8's file handling, read with for line in file: and cleaned with .strip(), just like Week 31 had taught. scores.txt held \"85\", \"90\", and \"78\", read the same way and converted with int(), exactly like Week 32's capstone. Her load_scores function paired them up using this term's while loop, position by position, into a dictionary: {\"Htet\": 85, \"Su Su\": 90, \"Aung Kyaw\": 78} -- Term 7's dictionaries, holding names as keys and scores as values. Her average_score function looped through that dictionary's values with the accumulator pattern from Term 1 and Term 3, adding 85 plus 90 plus 78 to get 253, then dividing by len(scores) to get about 84.3. Her highest_scorer function looped through the same dictionary with a Boolean comparison from Term 4, keeping track of whichever score was greater so far, and found that Su Su's 90 was the highest. To build her final report, Nandar used Term 5's string methods, calling \"Su Su\".upper() to make the top scorer's name stand out as \"SU SU\" in the printed summary. Finally, she opened report.txt in \"w\" mode from Term 8 and wrote the whole summary to disk, so it would still exist the next time she opened her computer. Looking back across the whole year, Nandar realized her one small gradebook program was really every single term she had studied, working together: Term 1's lists and loops, Term 2's functions with parameters and return values, Term 3's accumulator and searching ideas, Term 4's Boolean comparisons, Term 5's strings, Term 6's habit of building data up piece by piece, Term 7's dictionaries, Term 8's files, and this term's own function decomposition and while loop from Secondary 1 -- eight terms of separate lessons, all meeting in one finished program she had planned, built, tested, and could finally call complete.",
+        passageMy:
+            "သူမ၏ တစ်နှစ်စာ နောက်ဆုံး project အတွက် နန္ဒာသည် ပြီးစီးသွားသော gradebook ပရိုဂရမ်ကို အစမှအဆုံး run ခဲ့သည်။ names.txt တွင် \"Htet\"၊ \"Su Su\"၊ \"Aung Kyaw\" line တစ်ကြောင်းစီ ပါဝင်ခဲ့ပြီး -- Week 31 က သင်ကြားခဲ့သကဲ့သို့ for line in file: ဖြင့် ဖတ်ကာ .strip() ဖြင့် သန့်စင်ခဲ့သော Term 8 ၏ file handling ဖြစ်သည်။ scores.txt တွင် \"85\"၊ \"90\"၊ \"78\" ပါဝင်ခဲ့ပြီး Week 32 ၏ capstone အတိုင်းပင် ထို့အတူပင် ဖတ်ကာ int() ဖြင့် ပြောင်းလဲခဲ့သည်။ သူမ၏ load_scores function သည် ဤ Term ၏ while loop ကို position အလိုက် သုံး၍ ၎င်းတို့ကို dictionary တစ်ခုအဖြစ် တွဲစပ်ခဲ့သည် - {\"Htet\": 85, \"Su Su\": 90, \"Aung Kyaw\": 78} -- name များကို key၊ score များကို value အဖြစ်ထားသော Term 7 ၏ dictionary ဖြစ်သည်။ သူမ၏ average_score function သည် Term 1 နှင့် Term 3 မှ accumulator pattern ဖြင့် dictionary ၏ value များကို loop လုပ်ကာ 85 ပေါင်း 90 ပေါင်း 78 ကို ပေါင်း၍ 253 ရရှိပြီး len(scores) ဖြင့် စား၍ 84.3 ခန့် ရရှိခဲ့သည်။ သူမ၏ highest_scorer function သည် Term 4 မှ Boolean comparison ဖြင့် dictionary တူတူကို loop လုပ်ကာ ယခုအထိ score အကြီးဆုံး မည်သည်ကို မှတ်သားထားပြီး Su Su ၏ 90 သည် အကြီးဆုံးဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ Report နောက်ဆုံးကို တည်ဆောက်ရန် နန္ဒာသည် Term 5 ၏ string method များကို သုံးကာ \"Su Su\".upper() ကို ခေါ်၍ score အများဆုံးရသူ၏ နာမည်ကို print ထုတ်ထားသော အနှစ်ချုပ်တွင် \"SU SU\" အဖြစ် ထင်ရှားစေခဲ့သည်။ နောက်ဆုံးတွင် Term 8 မှ report.txt ကို \"w\" mode ဖြင့် ဖွင့်ပြီး အနှစ်ချုပ်တစ်ခုလုံးကို disk သို့ ရေးသွင်းခဲ့ကာ နောက်တစ်ကြိမ် ကွန်ပျူတာဖွင့်သည့်အခါလည်း ဆက်လက်ရှိနေမည်ဖြစ်သည်။ တစ်နှစ်တာလုံးကို ပြန်ကြည့်ရာ သူမ၏ gradebook ပရိုဂရမ်ငယ်တစ်ခုသည် သူမ လေ့လာခဲ့သော term တစ်ခုချင်းစီ အတူတကွ လုပ်ဆောင်နေခြင်းသာ ဖြစ်ကြောင်း နန္ဒာ သဘောပေါက်လိုက်သည် - Term 1 ၏ list နှင့် loop၊ Term 2 ၏ parameter နှင့် return value ပါသော function၊ Term 3 ၏ accumulator နှင့် searching idea၊ Term 4 ၏ Boolean comparison၊ Term 5 ၏ string၊ Term 6 ၏ data ကို အပိုင်းလိုက် တည်ဆောက်သည့် အလေ့အထ၊ Term 7 ၏ dictionary၊ Term 8 ၏ file၊ ထို့ပြင် ဤ Term ကိုယ်တိုင်၏ function decomposition နှင့် Secondary 1 မှ while loop -- Term ရှစ်ခုစာ သင်ခန်းစာသီးခြားများ အားလုံးသည် သူမ စီစဉ် တည်ဆောက် test လုပ်ခဲ့ပြီး နောက်ဆုံးတွင် ပြီးစီးပြီဟု ခေါ်နိုင်တော့မည့် ပြီးစီးထားသော ပရိုဂရမ်တစ်ခုတွင် တွေ့ဆုံခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Nandar's load_scores function use from this term to pair names with scores?",
+            questionMy:
+                "Name များကို score များနှင့် တွဲစပ်ရန် နန္ဒာ၏ load_scores function က ဤ Term မှ ဘာကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "A while loop, from Secondary 1",
+              "Binary search, from Term 3",
+              "A truth table, from Term 4",
+              "String slicing, from Term 5",
+            ],
+            optionsMy: [
+              "Secondary 1 မှ while loop",
+              "Term 3 မှ binary search",
+              "Term 4 မှ truth table",
+              "Term 5 မှ string slicing",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the class average that Nandar's program calculated?",
+            questionMy:
+                "နန္ဒာ၏ ပရိုဂရမ်က တွက်ချက်ခဲ့သော class ပျမ်းမျှက အဘယ်နည်း။",
+            optionsEn: ["About 84.3", "253", "90", "78"],
+            optionsMy: ["84.3 ခန့်", "253", "90", "78"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which student did highest_scorer find, and with what score?",
+            questionMy:
+                "highest_scorer က ကျောင်းသားမည်သူကို score မည်မျှဖြင့် တွေ့ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Su Su, with 90",
+              "Htet, with 85",
+              "Aung Kyaw, with 78",
+              "No student was found",
+            ],
+            optionsMy: [
+              "Su Su, 90 ဖြင့်",
+              "Htet, 85 ဖြင့်",
+              "Aung Kyaw, 78 ဖြင့်",
+              "ကျောင်းသား မတွေ့ရှိခဲ့ပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Nandar use \"Su Su\".upper() for, and which term did that reuse?",
+            questionMy:
+                "\"Su Su\".upper() ကို နန္ဒာ ဘာအတွက် သုံးခဲ့ပြီး Term မည်သည်ကို ပြန်လည်အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              "To make the top scorer's name stand out in the report, reusing Term 5's string methods",
+              "To calculate the class average, reusing Term 1",
+              "To pair names with scores, reusing this term's while loop",
+              "To open the report file, reusing Term 8",
+            ],
+            optionsMy: [
+              "Report တွင် score အများဆုံးရသူ၏ နာမည်ကို ထင်ရှားစေရန်၊ Term 5 ၏ string method များကို ပြန်လည်အသုံးချခြင်း",
+              "Class ပျမ်းမျှကို တွက်ချက်ရန်၊ Term 1 ကို ပြန်လည်အသုံးချခြင်း",
+              "Name များကို score များနှင့် တွဲစပ်ရန်၊ ဤ Term ၏ while loop ကို ပြန်လည်အသုံးချခြင်း",
+              "Report file ကို ဖွင့်ရန်၊ Term 8 ကို ပြန်လည်အသုံးချခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Nandar realize her finished gradebook program really was?",
+            questionMy:
+                "ဇာတ်လမ်းအရ သူမ၏ ပြီးစီးထားသော gradebook ပရိုဂရမ်သည် တကယ်တော့ ဘာဖြစ်ကြောင်း နန္ဒာ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Every term she had studied that year, working together in one finished program",
+              "A completely new topic unrelated to anything from earlier terms",
+              "Only Term 8's file handling, with nothing else involved",
+              "A program that used no functions at all",
+            ],
+            optionsMy: [
+              "သူမ ထိုနှစ်တွင် လေ့လာခဲ့သော term တိုင်း ပြီးစီးထားသော ပရိုဂရမ်တစ်ခုတွင် အတူတကွ လုပ်ဆောင်နေခြင်း",
+              "ယခင် term များနှင့် လုံးဝ မသက်ဆိုင်သော ခေါင်းစဉ်အသစ်တစ်ခု",
+              "Term 8 ၏ file handling တစ်ခုတည်း၊ တခြားဘာမှ မပါဘဲ",
+              "Function လုံးဝ မသုံးသော ပရိုဂရမ်တစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w36-d5",
+      dayNumber: 5,
+      titleEn: "Week 36 Recap Quiz",
+      titleMy: "Week 36 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which term introduced lists and the accumulator pattern?",
+          questionMy:
+              "List နှင့် accumulator pattern ကို မည်သည့် Term က မိတ်ဆက်ခဲ့သနည်း။",
+          optionsEn: ["Term 1", "Term 5", "Term 7", "Term 8"],
+          optionsMy: ["Term 1", "Term 5", "Term 7", "Term 8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term introduced dictionaries and key-based lookup?",
+          questionMy:
+              "Dictionary နှင့် key-based lookup ကို မည်သည့် Term က မိတ်ဆက်ခဲ့သနည်း။",
+          optionsEn: ["Term 7", "Term 3", "Term 4", "Term 6"],
+          optionsMy: ["Term 7", "Term 3", "Term 4", "Term 6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term introduced file handling, including open() and .close()?",
+          questionMy:
+              "open() နှင့် .close() အပါအဝင် file handling ကို မည်သည့် Term က မိတ်ဆက်ခဲ့သနည်း။",
+          optionsEn: ["Term 8", "Term 2", "Term 5", "Term 6"],
+          optionsMy: ["Term 8", "Term 2", "Term 5", "Term 6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it good practice to test a program with an empty file, not just a normal one?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုကို ပုံမှန် file တစ်ခုတည်းမက ဗလာ file ဖြင့်ပါ test လုပ်ခြင်း အဘယ့်ကြောင့် ကောင်းသော practice ဖြစ်သနည်း။",
+          optionsEn: [
+            "Because edge cases can reveal bugs that normal data hides",
+            "Because empty files run faster",
+            "Because Python requires it",
+            "There is no real reason",
+          ],
+          optionsMy: [
+            "Edge case များသည် ပုံမှန် data ဝှက်ထားသော bug များကို ဖော်ထုတ်နိုင်သောကြောင့်",
+            "ဗလာ file များသည် ပိုမြန်စွာ run သောကြောင့်",
+            "Python တွင် လိုအပ်သောကြောင့်",
+            "တကယ့်အကြောင်းပြချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across all nine terms of Secondary 2 Computing, what has every single capstone program had in common?",
+          questionMy:
+              "Secondary 2 Computing ၏ Term ကိုးခုလုံးတွင် capstone ပရိုဂရမ်တိုင်း ဘာတူညီခဲ့သနည်း။",
+          optionsEn: [
+            "A function with a parameter and a return value, reusing and combining earlier terms' skills",
+            "They never used functions at all",
+            "They only ever used print() and nothing else",
+            "They were all written without any loops",
+          ],
+          optionsMy: [
+            "Parameter နှင့် return value ပါသော function တစ်ခု၊ ယခင် term များ၏ ကျွမ်းကျင်မှုများကို ပြန်လည်အသုံးချ ပေါင်းစပ်ထားခြင်း",
+            "Function ကို လုံးဝ အသုံးမပြုခဲ့ပါ",
+            "print() တစ်ခုတည်းကိုသာ အသုံးပြုခဲ့ပြီး တခြားဘာမှ မပါ",
+            "Loop မပါဘဲ ရေးသားခဲ့ကြသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -27995,19 +29745,39 @@ const CourseTermDef _secondary2ComputingTerm8 = CourseTermDef(
   // pathway, extending list/string skills to real files on disk
 );
 
+const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
+  id: "course-secondary2-computing-t9",
+  termNumber: 9,
+  titleEn: "Capstone: Your Own Data-Driven Program",
+  titleMy: "Capstone — Data-Driven ကိုယ်ပိုင်ပရိုဂရမ်",
+  certificateTitleEn: "Capstone: Your Own Data-Driven Program",
+  certificateTitleMy: "Capstone — Data-Driven ကိုယ်ပိုင်ပရိုဂရမ်",
+  weeks: [
+    _secondary2ComputingWeek33,
+    _secondary2ComputingWeek34,
+    _secondary2ComputingWeek35,
+    _secondary2ComputingWeek36,
+  ], // Term 9 complete (Weeks 33-36) -- ninth and final term of the
+  // Secondary 2 pathway, a reflective capstone that plans, designs,
+  // builds, and tests one program combining every tool from Terms 1-8
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
-/// than more terms grafted onto Secondary 1. Term 1 (Weeks 1-4, Lists and
+/// than more terms grafted onto Secondary 1. All nine terms are now
+/// authored, completing the full pathway: Term 1 (Weeks 1-4, Lists and
 /// Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term 3 (Weeks
 /// 9-12, Searching and Sorting Algorithms), Term 4 (Weeks 13-16, Boolean
 /// Logic and Truth Tables), Term 5 (Weeks 17-20, Working with Text:
 /// String Manipulation), Term 6 (Weeks 21-24, Nested Lists: Working with
 /// 2D Data), Term 7 (Weeks 25-28, Dictionaries: Working with Key-Value
-/// Data), and Term 8 (Weeks 29-32, File Handling: Reading and Writing
-/// Data) are now authored; [totalWeeks] stays 36 for the same "honest
-/// progress bar" reason Secondary 1's did while only a handful of weeks
-/// exist. Term 1 picks up directly where
+/// Data), Term 8 (Weeks 29-32, File Handling: Reading and Writing Data),
+/// and Term 9 (Weeks 33-36, Capstone: Your Own Data-Driven Program) --
+/// so [totalWeeks] at 36 now matches the actual number of weeks
+/// authored, unlike Secondary 1's pathway, which still carries the
+/// "honest progress bar" caveat while only some of its terms exist.
+/// Term 1 picks up directly where
 /// Secondary 1 Term 9 left off: its Week 36 capstone program used single
 /// variables, selection, and loops, and Term 1's four weeks extend that
 /// straight into lists (storing many values, adding/removing/updating
@@ -28090,7 +29860,19 @@ const CourseTermDef _secondary2ComputingTerm8 = CourseTermDef(
 /// lines (Term 1's list-loop pattern applied to a file), cleans and
 /// converts each one with int(line.strip()), builds up a list with
 /// .append(), closes the file, and returns the list (Term 2's
-/// return-value pattern).
+/// return-value pattern). Term 9 is the pathway's reflective capstone,
+/// spending a full month planning, designing, building, and testing one
+/// unifying "class gradebook" program instead of introducing new syntax:
+/// Week 33 reviews every data structure from the year (list, dictionary,
+/// 2D list, file, string) and practices choosing the right one for a
+/// given job; Week 34 decomposes the gradebook into several
+/// single-responsibility functions (load_scores, average_score,
+/// highest_scorer) before any of them are written; Week 35 builds
+/// load_scores itself, pairing two parallel lists into a dictionary with
+/// a while loop reused from Secondary 1; Week 36 closes both the term
+/// and the whole pathway by testing the finished program (including edge
+/// cases like empty or mismatched-length files) and tracing how every
+/// one of Terms 1-8's skills reused inside this one program.
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -28098,9 +29880,9 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, nested (2D) lists, dictionaries, and file handling.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with topics spanning lists, arrays, functions, procedures, searching/sorting algorithms, Boolean logic, string manipulation, nested (2D) lists, dictionaries, and file handling, culminating in a final capstone project.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list၊ dictionary နှင့် file handling ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list၊ dictionary နှင့် file handling ကဲ့သို့ ခေါင်းစဉ်များပါဝင်ပြီး နောက်ဆုံး capstone project ဖြင့် အဆုံးသတ်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary2ComputingTerm1,
@@ -28111,5 +29893,6 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
     _secondary2ComputingTerm6,
     _secondary2ComputingTerm7,
     _secondary2ComputingTerm8,
+    _secondary2ComputingTerm9,
   ],
 );
