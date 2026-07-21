@@ -8,6 +8,7 @@ import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/course_progress_providers.dart';
+import '../../providers/mastery_providers.dart';
 import '../../routing/app_router.dart';
 import 'course_pathway_bank.dart';
 import 'drag_match_screen.dart';
@@ -42,6 +43,7 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
     final pathway = pathwayContainingWeek(week);
     final weekComplete = isWeekFullyComplete(week, completedIds);
     final next = weekComplete ? nextWeekAfter(pathway, week) : null;
+    final remedialLessons = ref.watch(weekRemedialLessonsProvider(week));
 
     return Scaffold(
       appBar: AppBar(
@@ -97,6 +99,13 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
                   onTap: () => _openLesson(context, week.dailyLessons[i]),
                 ),
               ),
+            if (remedialLessons.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              _RemedialReviewCard(
+                lessons: remedialLessons,
+                onOpenLesson: (lesson) => _openLesson(context, lesson),
+              ),
+            ],
             if (weekComplete) ...[
               const SizedBox(height: 8),
               _WeekCompleteCard(nextWeek: next),
@@ -151,6 +160,109 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
           ),
         );
     }
+  }
+}
+
+/// Shown when [weekRemedialLessonsProvider] flags this week's recap day as
+/// completed below [masteryThresholdPercent] -- a supportive, non-blocking
+/// nudge to replay the week's non-recap lessons, not a hard gate (a student
+/// stays free to move on regardless; this only recommends). Visually
+/// distinct from [_WeekCompleteCard]'s celebratory gold/teal treatment via
+/// [AppColors.accent] (amber), reading as "here's a helpful suggestion"
+/// rather than another congratulations.
+class _RemedialReviewCard extends StatelessWidget {
+  const _RemedialReviewCard({
+    required this.lessons,
+    required this.onOpenLesson,
+  });
+
+  final List<DailyLessonDef> lessons;
+  final ValueChanged<DailyLessonDef> onOpenLesson;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
+    final lc = Localizations.localeOf(context).languageCode;
+
+    return CandyBevelSurface(
+      faceColor: AppColors.accent.withValues(alpha: 0.14),
+      bevelDepth: CandyBevelDepth.secondary,
+      borderRadius: AppTheme.radiusLarge,
+      border: Border.all(color: AppColors.accent.withValues(alpha: 0.4)),
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.lightbulb_rounded, color: AppColors.accent),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  l10n.coursePathwayReviewTitle,
+                  style: theme.textTheme.titleSmall?.copyWith(
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            l10n.coursePathwayReviewSubtitle,
+            style: theme.textTheme.bodySmall?.copyWith(
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ),
+          const SizedBox(height: 12),
+          for (final lesson in lessons)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
+                onTap: () => onOpenLesson(lesson),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 10,
+                  ),
+                  decoration: BoxDecoration(
+                    color: theme.colorScheme.surfaceContainerHigh,
+                    borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
+                  ),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          lc == 'my' ? lesson.titleMy : lesson.titleEn,
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.replay_rounded,
+                        size: 18,
+                        color: AppColors.accent,
+                      ),
+                      const SizedBox(width: 4),
+                      Text(
+                        l10n.coursePathwayReviewLessonHint,
+                        style: theme.textTheme.labelSmall?.copyWith(
+                          color: AppColors.accent,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
   }
 }
 

@@ -1153,6 +1153,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{xp} XP earned'**
   String coursePathwayCardXpEarned(int xp);
+
+  /// No description provided for @coursePathwayReviewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Let\'s review these together!'**
+  String get coursePathwayReviewTitle;
+
+  /// No description provided for @coursePathwayReviewSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'That recap was tricky — replaying these lessons can help it click.'**
+  String get coursePathwayReviewSubtitle;
+
+  /// No description provided for @coursePathwayReviewLessonHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get coursePathwayReviewLessonHint;
 }
 
 class _AppLocalizationsDelegate

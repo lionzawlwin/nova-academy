@@ -569,4 +569,15 @@ class AppLocalizationsMy extends AppLocalizations {
   String coursePathwayCardXpEarned(int xp) {
     return 'XP $xp ရရှိပြီး';
   }
+
+  @override
+  String get coursePathwayReviewTitle =>
+      'ဤသင်ခန်းစာများကို အတူတကွ ပြန်လည်လေ့လာကြရအောင်!';
+
+  @override
+  String get coursePathwayReviewSubtitle =>
+      'ထိုပြန်လည်သုံးသပ်ခြင်းသည် အနည်းငယ် ခက်ခဲခဲ့သည် — ဤသင်ခန်းစာများကို ပြန်လုပ်ကြည့်ခြင်းက နားလည်အောင် ကူညီပေးနိုင်ပါသည်။';
+
+  @override
+  String get coursePathwayReviewLessonHint => 'ပြန်လေ့လာရန်';
 }

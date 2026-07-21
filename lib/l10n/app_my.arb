@@ -197,5 +197,8 @@
   "coursePathwayContinueToWeek": "ပတ် {week} သို့ ဆက်သွားရန်",
   "coursePathwayMoreComingSoon": "လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!",
   "homeTotalXpLabel": "စုစုပေါင်း XP",
-  "coursePathwayCardXpEarned": "XP {xp} ရရှိပြီး"
+  "coursePathwayCardXpEarned": "XP {xp} ရရှိပြီး",
+  "coursePathwayReviewTitle": "ဤသင်ခန်းစာများကို အတူတကွ ပြန်လည်လေ့လာကြရအောင်!",
+  "coursePathwayReviewSubtitle": "ထိုပြန်လည်သုံးသပ်ခြင်းသည် အနည်းငယ် ခက်ခဲခဲ့သည် — ဤသင်ခန်းစာများကို ပြန်လုပ်ကြည့်ခြင်းက နားလည်အောင် ကူညီပေးနိုင်ပါသည်။",
+  "coursePathwayReviewLessonHint": "ပြန်လေ့လာရန်"
 }

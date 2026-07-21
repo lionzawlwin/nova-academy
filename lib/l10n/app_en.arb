@@ -243,5 +243,8 @@
     "placeholders": {
       "xp": { "type": "int" }
     }
-  }
+  },
+  "coursePathwayReviewTitle": "Let's review these together!",
+  "coursePathwayReviewSubtitle": "That recap was tricky — replaying these lessons can help it click.",
+  "coursePathwayReviewLessonHint": "Review"
 }

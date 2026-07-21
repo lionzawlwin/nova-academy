@@ -564,4 +564,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String coursePathwayCardXpEarned(int xp) {
     return '$xp XP earned';
   }
+
+  @override
+  String get coursePathwayReviewTitle => 'Let\'s review these together!';
+
+  @override
+  String get coursePathwayReviewSubtitle =>
+      'That recap was tricky — replaying these lessons can help it click.';
+
+  @override
+  String get coursePathwayReviewLessonHint => 'Review';
 }
