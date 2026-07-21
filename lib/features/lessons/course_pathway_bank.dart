@@ -104,7 +104,8 @@ class CourseTermDef {
   });
 
   final String id;
-  final int termNumber; // 1-3
+  final int
+  termNumber; // 1-9 across the full 36-week pathway (each term is a short thematic/certificate milestone, not a literal 12-week school term)
   final String titleEn;
   final String titleMy;
   final String certificateTitleEn;
@@ -1802,8 +1803,7 @@ const CourseWeekDef _secondary1ComputingWeek5 = CourseWeekDef(
           id: 'w5-net-wan',
           termEn: 'WAN',
           termMy: 'WAN',
-          matchEn:
-              'A network covering a very large area, like a whole country',
+          matchEn: 'A network covering a very large area, like a whole country',
           matchMy:
               'တစ်နိုင်ငံလုံးကဲ့သို့ ဧရိယာအလွန်ကျယ်ပြန့်သောနေရာကို လွှမ်းခြုံသော ကွန်ရက်',
           colorValue: 0xFFFF6F61,
@@ -2107,8 +2107,7 @@ const CourseWeekDef _secondary1ComputingWeek6 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What is the World Wide Web (WWW)?',
-          questionMy:
-              'ကမ္ဘာလုံးဆိုင်ရာ ဝက်ဘ်ကွန်ရက် (WWW) ဆိုသည်မှာ အဘယ်နည်း။',
+          questionMy: 'ကမ္ဘာလုံးဆိုင်ရာ ဝက်ဘ်ကွန်ရက် (WWW) ဆိုသည်မှာ အဘယ်နည်း။',
           optionsEn: [
             'A collection of websites and pages you can view using a browser',
             'The same thing as a router',
@@ -2407,7 +2406,12 @@ const CourseWeekDef _secondary1ComputingWeek6 = CourseWeekDef(
             'An antivirus',
             'A printer driver',
           ],
-          optionsMy: ['Web browser', 'Word processor', 'Antivirus', 'Printer driver'],
+          optionsMy: [
+            'Web browser',
+            'Word processor',
+            'Antivirus',
+            'Printer driver',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
@@ -2632,7 +2636,8 @@ const CourseWeekDef _secondary1ComputingWeek7 = CourseWeekDef(
           SortingItem(
             id: 'w7-sort-tellattr',
             labelEn: 'Telling a trusted adult about a scary message',
-            labelMy: 'ကြောက်စရာစာတစ်စောင်အကြောင်း ယုံကြည်ရသူကြီးကို ပြောပြခြင်း',
+            labelMy:
+                'ကြောက်စရာစာတစ်စောင်အကြောင်း ယုံကြည်ရသူကြီးကို ပြောပြခြင်း',
             correctBucketEn: 'Safe',
             correctBucketMy: 'Safe (လုံခြုံသော)',
           ),
@@ -2727,7 +2732,12 @@ const CourseWeekDef _secondary1ComputingWeek7 = CourseWeekDef(
               'No one',
               'The message sender',
             ],
-            optionsMy: ['သူမ၏မိခင်', 'စိမ်းသူတစ်ဦး', 'မည်သူ့ကိုမျှ', 'စာပို့သူ'],
+            optionsMy: [
+              'သူမ၏မိခင်',
+              'စိမ်းသူတစ်ဦး',
+              'မည်သူ့ကိုမျှ',
+              'စာပို့သူ',
+            ],
             correctIndex: 0,
           ),
           QuizQuestion(
@@ -2739,7 +2749,12 @@ const CourseWeekDef _secondary1ComputingWeek7 = CourseWeekDef(
               'Your congratulations',
               'Your smile',
             ],
-            optionsMy: ['သင်၏စကားဝှက်', 'သင်၏နာမည်', 'သင်၏ဂုဏ်ပြုစကား', 'သင့်အပြုံး'],
+            optionsMy: [
+              'သင်၏စကားဝှက်',
+              'သင်၏နာမည်',
+              'သင်၏ဂုဏ်ပြုစကား',
+              'သင့်အပြုံး',
+            ],
             correctIndex: 0,
           ),
           QuizQuestion(
@@ -2897,7 +2912,8 @@ const CourseWeekDef _secondary1ComputingWeek8 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What do we call a single binary digit (0 or 1)?',
-          questionMy: 'binary ဂဏန်းတစ်လုံးတည်း (0 သို့မဟုတ် 1) ကို ဘာဟုခေါ်သနည်း။',
+          questionMy:
+              'binary ဂဏန်းတစ်လုံးတည်း (0 သို့မဟုတ် 1) ကို ဘာဟုခေါ်သနည်း။',
           optionsEn: ['A bit', 'A byte', 'A folder', 'A pixel'],
           optionsMy: ['Bit', 'Byte', 'Folder', 'Pixel'],
           correctIndex: 0,
@@ -3122,8 +3138,7 @@ const CourseWeekDef _secondary1ComputingWeek8 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn:
-                "Why can Kyaw Kyaw's phone storage eventually fill up?",
+            questionEn: "Why can Kyaw Kyaw's phone storage eventually fill up?",
             questionMy:
                 'ကျော်ကျော်၏ဖုန်းသိုလှောင်ခန်းသည် နောက်ဆုံးတွင် အဘယ့်ကြောင့် ပြည့်သွားနိုင်သနည်း။',
             optionsEn: [
@@ -3277,15 +3292,15 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What do we call a single step inside an algorithm?',
-          questionMy: 'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
+          questionMy:
+              'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
           optionsEn: ['An instruction', 'A router', 'A byte', 'A folder'],
           optionsMy: ['ညွှန်ကြားချက်', 'Router', 'Byte', 'Folder'],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Is an algorithm the same thing as a computer program?',
-          questionMy:
-              'Algorithm သည် ကွန်ပျူတာပရိုဂရမ်နှင့် တူညီပါသလား။',
+          questionMy: 'Algorithm သည် ကွန်ပျူတာပရိုဂရမ်နှင့် တူညီပါသလား။',
           optionsEn: [
             'No -- an algorithm is the plan; a program is that plan written in code a computer can run',
             'Yes, they are always exactly the same',
@@ -3315,7 +3330,8 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
           termEn: 'Algorithm',
           termMy: 'Algorithm',
           matchEn: 'A set of step-by-step instructions to complete a task',
-          matchMy: 'လုပ်ငန်းတစ်ခုအား ပြီးမြောက်စေရန် အဆင့်ဆင့်ညွှန်ကြားချက်များစု',
+          matchMy:
+              'လုပ်ငန်းတစ်ခုအား ပြီးမြောက်စေရန် အဆင့်ဆင့်ညွှန်ကြားချက်များစု',
           colorValue: 0xFF56CCF2,
         ),
         DragMatchPair(
@@ -3323,7 +3339,8 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
           termEn: 'Sequence',
           termMy: 'Sequence',
           matchEn: 'Instructions carried out one after another, in order',
-          matchMy: 'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
+          matchMy:
+              'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
           colorValue: 0xFFFF6F61,
         ),
         DragMatchPair(
@@ -3331,7 +3348,8 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
           termEn: 'Instruction',
           termMy: 'Instruction',
           matchEn: 'A single step telling the computer what to do',
-          matchMy: 'ကွန်ပျူတာအား မည်သို့ဆောင်ရွက်ရမည်ကို ညွှန်ကြားသော အဆင့်တစ်ခု',
+          matchMy:
+              'ကွန်ပျူတာအား မည်သို့ဆောင်ရွက်ရမည်ကို ညွှန်ကြားသော အဆင့်တစ်ခု',
           colorValue: 0xFF6FCF97,
         ),
         DragMatchPair(
@@ -3465,7 +3483,8 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: 'What happened to the cookie dough because of the mistake?',
+            questionEn:
+                'What happened to the cookie dough because of the mistake?',
             questionMy:
                 'ထိုအမှားကြောင့် ကွတ်ကီးမုန့်ညက်သည် မည်သို့ဖြစ်ခဲ့သနည်း။',
             optionsEn: [
@@ -3538,12 +3557,18 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
             'A closed box',
             'A silent room',
           ],
-          optionsMy: ['ချက်ပြုတ်နည်း', 'အလွတ်စာမျက်နှာ', 'ပိတ်ထားသောဘူး', 'တိတ်ဆိတ်သောအခန်း'],
+          optionsMy: [
+            'ချက်ပြုတ်နည်း',
+            'အလွတ်စာမျက်နှာ',
+            'ပိတ်ထားသောဘူး',
+            'တိတ်ဆိတ်သောအခန်း',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Why does the order of steps matter in an algorithm?',
-          questionMy: 'Algorithm တစ်ခုတွင် အဆင့်များ၏ အစီအစဉ်သည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။',
+          questionMy:
+              'Algorithm တစ်ခုတွင် အဆင့်များ၏ အစီအစဉ်သည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။',
           optionsEn: [
             'The wrong order can produce the wrong result',
             'It never matters',
@@ -3560,13 +3585,15 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What is a single step inside an algorithm called?',
-          questionMy: 'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
+          questionMy:
+              'Algorithm တစ်ခုအတွင်းရှိ အဆင့်တစ်ခုတည်းကို ဘာဟုခေါ်သနည်း။',
           optionsEn: ['An instruction', 'A router', 'A byte', 'A folder'],
           optionsMy: ['ညွှန်ကြားချက်', 'Router', 'Byte', 'Folder'],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: 'What is the difference between an algorithm and a program?',
+          questionEn:
+              'What is the difference between an algorithm and a program?',
           questionMy: 'Algorithm နှင့် program ကွာခြားချက်မှာ အဘယ်နည်း။',
           optionsEn: [
             'An algorithm is the plan; a program is that plan written in code',
@@ -3625,24 +3652,43 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: 'Which shape usually marks the start or end of a flowchart?',
-          questionMy: 'Flowchart တစ်ခု၏ အစ သို့မဟုတ် အဆုံးကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          questionEn:
+              'Which shape usually marks the start or end of a flowchart?',
+          questionMy:
+              'Flowchart တစ်ခု၏ အစ သို့မဟုတ် အဆုံးကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
           optionsEn: ['An oval', 'A triangle', 'A star', 'A cube'],
           optionsMy: ['ဘဲဥပုံ (oval)', 'တြိဂံ', 'ကြယ်ပုံ', 'ကုဗပုံ'],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Which shape usually represents a process or action?',
-          questionMy: 'လုပ်ဆောင်ချက် သို့မဟုတ် process ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          questionMy:
+              'လုပ်ဆောင်ချက် သို့မဟုတ် process ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
           optionsEn: ['A rectangle', 'An oval', 'A circle', 'A star'],
-          optionsMy: ['ထောင့်မှန်စတုဂံ (rectangle)', 'ဘဲဥပုံ', 'စက်ဝိုင်း', 'ကြယ်ပုံ'],
+          optionsMy: [
+            'ထောင့်မှန်စတုဂံ (rectangle)',
+            'ဘဲဥပုံ',
+            'စက်ဝိုင်း',
+            'ကြယ်ပုံ',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Which shape usually represents input or output?',
-          questionMy: 'Input သို့မဟုတ် output ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
-          optionsEn: ['A parallelogram', 'A rectangle', 'An oval', 'A triangle'],
-          optionsMy: ['ပါရာလယ်လိုဂရမ် (parallelogram)', 'ထောင့်မှန်စတုဂံ', 'ဘဲဥပုံ', 'တြိဂံ'],
+          questionMy:
+              'Input သို့မဟုတ် output ကို ပြသလေ့ရှိသော ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A parallelogram',
+            'A rectangle',
+            'An oval',
+            'A triangle',
+          ],
+          optionsMy: [
+            'ပါရာလယ်လိုဂရမ် (parallelogram)',
+            'ထောင့်မှန်စတုဂံ',
+            'ဘဲဥပုံ',
+            'တြိဂံ',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
@@ -3792,7 +3838,12 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
           QuizQuestion(
             questionEn: 'What shape did the flowchart start with?',
             questionMy: 'Flowchart သည် ဘယ်ပုံသဏ္ဍာန်ဖြင့် စတင်ခဲ့သနည်း။',
-            optionsEn: ['An oval', 'A rectangle', 'A diamond', 'A parallelogram'],
+            optionsEn: [
+              'An oval',
+              'A rectangle',
+              'A diamond',
+              'A parallelogram',
+            ],
             optionsMy: ['Oval', 'Rectangle', 'Diamond', 'Parallelogram'],
             correctIndex: 0,
           ),
@@ -3815,14 +3866,21 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
           ),
           QuizQuestion(
             questionEn: 'Which shape displayed the message "Tea is ready!"?',
-            questionMy: '"လက်ဖက်ရည် အသင့်ဖြစ်ပါပြီ!" ဟူသောစာသားကို ဘယ်ပုံသဏ္ဍာန်က ပြသခဲ့သနည်း။',
-            optionsEn: ['A parallelogram', 'An oval', 'A diamond', 'A rectangle'],
+            questionMy:
+                '"လက်ဖက်ရည် အသင့်ဖြစ်ပါပြီ!" ဟူသောစာသားကို ဘယ်ပုံသဏ္ဍာန်က ပြသခဲ့သနည်း။',
+            optionsEn: [
+              'A parallelogram',
+              'An oval',
+              'A diamond',
+              'A rectangle',
+            ],
             optionsMy: ['Parallelogram', 'Oval', 'Diamond', 'Rectangle'],
             correctIndex: 0,
           ),
           QuizQuestion(
             questionEn: 'What did Aung Aung realise a flowchart really is?',
-            questionMy: 'Flowchart တစ်ခုသည် အမှန်တကယ် ဘာဖြစ်ကြောင်း အောင်အောင် နားလည်လိုက်သနည်း။',
+            questionMy:
+                'Flowchart တစ်ခုသည် အမှန်တကယ် ဘာဖြစ်ကြောင်း အောင်အောင် နားလည်လိုက်သနည်း။',
             optionsEn: [
               'An algorithm drawn as a picture',
               'A type of hardware',
@@ -3840,7 +3898,12 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
           QuizQuestion(
             questionEn: 'What shape ended the flowchart?',
             questionMy: 'Flowchart သည် ဘယ်ပုံသဏ္ဍာန်ဖြင့် ပြီးဆုံးခဲ့သနည်း။',
-            optionsEn: ['An oval', 'A rectangle', 'A parallelogram', 'A diamond'],
+            optionsEn: [
+              'An oval',
+              'A rectangle',
+              'A parallelogram',
+              'A diamond',
+            ],
             optionsMy: ['Oval', 'Rectangle', 'Parallelogram', 'Diamond'],
             correctIndex: 0,
           ),
@@ -3882,7 +3945,8 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'Which shape shows a process or action?',
-          questionMy: 'ဘယ်ပုံသဏ္ဍာန်က process သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပြသနည်း။',
+          questionMy:
+              'ဘယ်ပုံသဏ္ဍာန်က process သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပြသနည်း။',
           optionsEn: ['A rectangle', 'An oval', 'A diamond', 'A star'],
           optionsMy: ['Rectangle', 'Oval', 'Diamond', 'Star'],
           correctIndex: 0,
@@ -3955,13 +4019,15 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'Which flowchart shape represents a decision?',
-          questionMy: 'ဆုံးဖြတ်ချက်ကို ပြသသော flowchart ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          questionMy:
+              'ဆုံးဖြတ်ချက်ကို ပြသသော flowchart ပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
           optionsEn: ['A diamond', 'An oval', 'A rectangle', 'A parallelogram'],
           optionsMy: ['Diamond', 'Oval', 'Rectangle', 'Parallelogram'],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: '"IF it is raining, THEN take an umbrella" is an example of...',
+          questionEn:
+              '"IF it is raining, THEN take an umbrella" is an example of...',
           questionMy: '"မိုးရွာလျှင် ထီးယူပါ" ဆိုသည်မှာ ဘာ၏ ဥပမာဖြစ်သနည်း။',
           optionsEn: [
             'Selection',
@@ -3969,19 +4035,36 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
             'A type of hardware',
             'A file extension',
           ],
-          optionsMy: ['Selection', 'အခြေအနေမပါသော output တစ်ခုတည်း', 'Hardware အမျိုးအစားတစ်ခု', 'File extension'],
+          optionsMy: [
+            'Selection',
+            'အခြေအနေမပါသော output တစ်ခုတည်း',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'File extension',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'A decision in an algorithm is usually answered with...',
-          questionMy: 'Algorithm တစ်ခုရှိ ဆုံးဖြတ်ချက်ကို များသောအားဖြင့် ဘာဖြင့် ဖြေလေ့ရှိသနည်း။',
-          optionsEn: ['Yes or No (true or false)', 'A colour', 'A file name', 'A price'],
-          optionsMy: ['ဟုတ် သို့မဟုတ် မဟုတ် (true or false)', 'အရောင်', 'ဖိုင်အမည်', 'စျေးနှုန်း'],
+          questionMy:
+              'Algorithm တစ်ခုရှိ ဆုံးဖြတ်ချက်ကို များသောအားဖြင့် ဘာဖြင့် ဖြေလေ့ရှိသနည်း။',
+          optionsEn: [
+            'Yes or No (true or false)',
+            'A colour',
+            'A file name',
+            'A price',
+          ],
+          optionsMy: [
+            'ဟုတ် သို့မဟုတ် မဟုတ် (true or false)',
+            'အရောင်',
+            'ဖိုင်အမည်',
+            'စျေးနှုန်း',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Why is selection useful in algorithms?',
-          questionMy: 'Selection သည် algorithm များတွင် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။',
+          questionMy:
+              'Selection သည် algorithm များတွင် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။',
           optionsEn: [
             'It lets the algorithm react differently depending on the situation',
             'It makes the algorithm slower for no reason',
@@ -4019,7 +4102,8 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
           termEn: 'Condition',
           termMy: 'Condition',
           matchEn: 'A yes/no question that controls what happens next',
-          matchMy: 'ဆက်လက်ဖြစ်ပျက်မည့်အရာကို ထိန်းချုပ်ပေးသော ဟုတ်/မဟုတ်မေးခွန်း',
+          matchMy:
+              'ဆက်လက်ဖြစ်ပျက်မည့်အရာကို ထိန်းချုပ်ပေးသော ဟုတ်/မဟုတ်မေးခွန်း',
           colorValue: 0xFFFF6F61,
         ),
         DragMatchPair(
@@ -4027,7 +4111,8 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
           termEn: 'IF',
           termMy: 'IF',
           matchEn: 'The word used to start a decision in an algorithm',
-          matchMy: 'Algorithm တစ်ခုတွင် ဆုံးဖြတ်ချက်ကို စတင်ရန်သုံးသော စကားလုံး',
+          matchMy:
+              'Algorithm တစ်ခုတွင် ဆုံးဖြတ်ချက်ကို စတင်ရန်သုံးသော စကားလုံး',
           colorValue: 0xFF6FCF97,
         ),
         DragMatchPair(
@@ -4042,8 +4127,10 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
           id: 'w11-sel-branch',
           termEn: 'Branch',
           termMy: 'Branch',
-          matchEn: 'One of the possible paths after a decision (yes path or no path)',
-          matchMy: 'ဆုံးဖြတ်ချက်ပြီးနောက် ဖြစ်နိုင်သောလမ်းကြောင်းတစ်ခု (ဟုတ်လမ်း သို့မဟုတ် မဟုတ်လမ်း)',
+          matchEn:
+              'One of the possible paths after a decision (yes path or no path)',
+          matchMy:
+              'ဆုံးဖြတ်ချက်ပြီးနောက် ဖြစ်နိုင်သောလမ်းကြောင်းတစ်ခု (ဟုတ်လမ်း သို့မဟုတ် မဟုတ်လမ်း)',
           colorValue: 0xFFBB6BD9,
         ),
       ],
@@ -4056,7 +4143,10 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
       kind: LessonKind.sorting,
       xpReward: 10,
       sortingActivity: SortingActivity(
-        bucketsEn: ['Decision (Yes/No Question)', 'Instruction (Just an Action)'],
+        bucketsEn: [
+          'Decision (Yes/No Question)',
+          'Instruction (Just an Action)',
+        ],
         bucketsMy: [
           'Decision (ဟုတ်/မဟုတ် မေးခွန်း)',
           'Instruction (လုပ်ဆောင်ချက်သာ)',
@@ -4181,8 +4271,10 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: 'What stays exactly the same sequence every day, regardless of the decision?',
-            questionMy: 'ဆုံးဖြတ်ချက်မည်သို့ပင်ဖြစ်စေ၊ နေ့တိုင်း တူညီသောအစီအစဉ်ဖြင့် ရှိနေဆဲဖြစ်သည့်အရာမှာ အဘယ်နည်း။',
+            questionEn:
+                'What stays exactly the same sequence every day, regardless of the decision?',
+            questionMy:
+                'ဆုံးဖြတ်ချက်မည်သို့ပင်ဖြစ်စေ၊ နေ့တိုင်း တူညီသောအစီအစဉ်ဖြင့် ရှိနေဆဲဖြစ်သည့်အရာမှာ အဘယ်နည်း။',
             optionsEn: [
               'Brushing her teeth and eating breakfast',
               'Whether she takes an umbrella',
@@ -4228,7 +4320,8 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'Which shape represents a decision in a flowchart?',
-          questionMy: 'Flowchart တွင် ဆုံးဖြတ်ချက်ကို ပြသောပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
+          questionMy:
+              'Flowchart တွင် ဆုံးဖြတ်ချက်ကို ပြသောပုံသဏ္ဍာန်မှာ အဘယ်နည်း။',
           optionsEn: ['A diamond', 'An oval', 'A rectangle', 'A parallelogram'],
           optionsMy: ['Diamond', 'Oval', 'Rectangle', 'Parallelogram'],
           correctIndex: 0,
@@ -4237,14 +4330,30 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
           questionEn: 'A condition is usually answered with...',
           questionMy: 'Condition ကို များသောအားဖြင့် ဘာဖြင့်ဖြေလေ့ရှိသနည်း။',
           optionsEn: ['Yes or No', 'A colour', 'A price', 'A file name'],
-          optionsMy: ['ဟုတ် သို့မဟုတ် မဟုတ်', 'အရောင်', 'စျေးနှုန်း', 'ဖိုင်အမည်'],
+          optionsMy: [
+            'ဟုတ် သို့မဟုတ် မဟုတ်',
+            'အရောင်',
+            'စျေးနှုန်း',
+            'ဖိုင်အမည်',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: 'Which of these is a decision, not an instruction?',
-          questionMy: 'အောက်ပါတို့အနက် ညွှန်ကြားချက်မဟုတ်ဘဲ ဆုံးဖြတ်ချက်ဖြစ်သည်မှာ အဘယ်နည်း။',
-          optionsEn: ['Is it raining?', 'Take an umbrella', 'Print the result', 'Open the door'],
-          optionsMy: ['မိုးရွာနေပါသလား။', 'ထီးယူပါ', 'ရလဒ်ကို ပရင့်ထုတ်ပါ', 'တံခါးဖွင့်ပါ'],
+          questionMy:
+              'အောက်ပါတို့အနက် ညွှန်ကြားချက်မဟုတ်ဘဲ ဆုံးဖြတ်ချက်ဖြစ်သည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Is it raining?',
+            'Take an umbrella',
+            'Print the result',
+            'Open the door',
+          ],
+          optionsMy: [
+            'မိုးရွာနေပါသလား။',
+            'ထီးယူပါ',
+            'ရလဒ်ကို ပရင့်ထုတ်ပါ',
+            'တံခါးဖွင့်ပါ',
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
@@ -4307,7 +4416,8 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'Why do programmers use loops?',
-          questionMy: 'Programmer များသည် loop များကို အဘယ့်ကြောင့် သုံးကြသနည်း။',
+          questionMy:
+              'Programmer များသည် loop များကို အဘယ့်ကြောင့် သုံးကြသနည်း။',
           optionsEn: [
             'To repeat the same steps without writing them out again and again',
             'To make the algorithm shorter by deleting steps',
@@ -4341,7 +4451,8 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What usually tells a loop when to stop repeating?',
-          questionMy: 'Loop တစ်ခုကို ထပ်ခါလုပ်ခြင်းရပ်ရန် များသောအားဖြင့် ဘာက ပြောပြသနည်း။',
+          questionMy:
+              'Loop တစ်ခုကို ထပ်ခါလုပ်ခြင်းရပ်ရန် များသောအားဖြင့် ဘာက ပြောပြသနည်း။',
           optionsEn: [
             'A condition',
             'The colour of the screen',
@@ -4357,8 +4468,10 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: 'Which of these best describes an algorithm using sequence, selection, AND loop together?',
-          questionMy: 'Sequence, selection နှင့် loop သုံးမျိုးလုံးကို အတူသုံးထားသော algorithm ကို အကောင်းဆုံးဖော်ပြထားသည်မှာ အဘယ်နည်း။',
+          questionEn:
+              'Which of these best describes an algorithm using sequence, selection, AND loop together?',
+          questionMy:
+              'Sequence, selection နှင့် loop သုံးမျိုးလုံးကို အတူသုံးထားသော algorithm ကို အကောင်းဆုံးဖော်ပြထားသည်မှာ အဘယ်နည်း။',
           optionsEn: [
             'Steps in order, a decision, and steps that repeat',
             'Only pictures with no steps',
@@ -4412,7 +4525,8 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
           termEn: 'Sequence',
           termMy: 'Sequence',
           matchEn: 'Instructions carried out one after another, in order',
-          matchMy: 'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
+          matchMy:
+              'အစီအစဉ်အလိုက် တစ်ခုပြီးတစ်ခု ဆောင်ရွက်သော ညွှန်ကြားချက်များ',
           colorValue: 0xFFF2994A,
         ),
         DragMatchPair(
@@ -4456,7 +4570,8 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
           SortingItem(
             id: 'w12-sort-printpages',
             labelEn: 'Printing every page of a 10-page report',
-            labelMy: 'စာမျက်နှာ ၁၀ မျက်နှာပါ အစီရင်ခံစာ၏ စာမျက်နှာတိုင်းကို ပရင့်ထုတ်ခြင်း',
+            labelMy:
+                'စာမျက်နှာ ၁၀ မျက်နှာပါ အစီရင်ခံစာ၏ စာမျက်နှာတိုင်းကို ပရင့်ထုတ်ခြင်း',
             correctBucketEn: 'Needs a Loop (Repeated)',
             correctBucketMy: 'Needs a Loop (ထပ်ခါလုပ်ရန်လို)',
           ),
@@ -4535,7 +4650,8 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
           ),
           QuizQuestion(
             questionEn: "What condition did the robot's selection check?",
-            questionMy: 'Robot ၏ selection သည် ဘာ condition ကို စစ်ဆေးခဲ့သနည်း။',
+            questionMy:
+                'Robot ၏ selection သည် ဘာ condition ကို စစ်ဆေးခဲ့သနည်း။',
             optionsEn: [
               'Whether the soil looks dry',
               'Whether the robot has power',
@@ -4554,12 +4670,19 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
             questionEn: 'How many times did the loop repeat?',
             questionMy: 'Loop သည် မည်မျှ ထပ်ခါလုပ်ခဲ့သနည်း။',
             optionsEn: ['8 times', '1 time', '100 times', 'It never repeated'],
-            optionsMy: ['၈ ကြိမ်', '၁ ကြိမ်', '၁၀၀ ကြိမ်', 'တစ်ခါမျှ ထပ်ခါမလုပ်ခဲ့ပါ'],
+            optionsMy: [
+              '၈ ကြိမ်',
+              '၁ ကြိမ်',
+              '၁၀၀ ကြိမ်',
+              'တစ်ခါမျှ ထပ်ခါမလုပ်ခဲ့ပါ',
+            ],
             correctIndex: 0,
           ),
           QuizQuestion(
-            questionEn: "Which three algorithm building blocks did Aye Aye's robot use together?",
-            questionMy: 'အေးအေး၏ robot သည် algorithm အခြေခံအစိတ်အပိုင်း မည်သည့်သုံးမျိုးကို အတူသုံးခဲ့သနည်း။',
+            questionEn:
+                "Which three algorithm building blocks did Aye Aye's robot use together?",
+            questionMy:
+                'အေးအေး၏ robot သည် algorithm အခြေခံအစိတ်အပိုင်း မည်သည့်သုံးမျိုးကို အတူသုံးခဲ့သနည်း။',
             optionsEn: [
               'Sequence, selection, and loop',
               'Only hardware and software',
@@ -4622,14 +4745,17 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
         ),
         QuizQuestion(
           questionEn: 'What usually stops a loop from repeating forever?',
-          questionMy: 'Loop တစ်ခုကို အစဉ်ထာဝရမထပ်ခါလုပ်အောင် များသောအားဖြင့် ဘာက ရပ်စေသနည်း။',
+          questionMy:
+              'Loop တစ်ခုကို အစဉ်ထာဝရမထပ်ခါလုပ်အောင် များသောအားဖြင့် ဘာက ရပ်စေသနည်း။',
           optionsEn: ['A condition', 'A colour', 'A price', 'A file name'],
           optionsMy: ['Condition တစ်ခု', 'အရောင်', 'စျေးနှုန်း', 'ဖိုင်အမည်'],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: 'Which of these needs a loop, rather than just happening once?',
-          questionMy: 'အောက်ပါတို့အနက် တစ်ကြိမ်တည်းမဟုတ်ဘဲ loop လိုအပ်သည်မှာ အဘယ်နည်း။',
+          questionEn:
+              'Which of these needs a loop, rather than just happening once?',
+          questionMy:
+              'အောက်ပါတို့အနက် တစ်ကြိမ်တည်းမဟုတ်ဘဲ loop လိုအပ်သည်မှာ အဘယ်နည်း။',
           optionsEn: [
             'Watering every plant in a row of 20',
             'Turning on the computer',
@@ -4645,8 +4771,10 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: 'A well-designed algorithm can combine sequence, selection, and loop. What does "sequence" mean again?',
-          questionMy: 'ကောင်းစွာဒီဇိုင်းထုတ်ထားသော algorithm သည် sequence, selection နှင့် loop ကို ပေါင်းစပ်နိုင်သည်။ "Sequence" ဆိုသည်မှာ အဘယ်သို့ဆိုလိုပါသနည်း။',
+          questionEn:
+              'A well-designed algorithm can combine sequence, selection, and loop. What does "sequence" mean again?',
+          questionMy:
+              'ကောင်းစွာဒီဇိုင်းထုတ်ထားသော algorithm သည် sequence, selection နှင့် loop ကို ပေါင်းစပ်နိုင်သည်။ "Sequence" ဆိုသည်မှာ အဘယ်သို့ဆိုလိုပါသနည်း။',
           optionsEn: [
             'Instructions carried out one after another, in order',
             'A decision that needs a yes or no answer',
@@ -4726,11 +4854,1539 @@ const CourseTermDef _secondary1ComputingTerm3 = CourseTermDef(
   ], // Term 3 complete (Weeks 9-12) -- all 3 terms now represented
 );
 
-/// Secondary 1 Computing's full-year pathway. All 3 terms (Weeks 1-12)
-/// are now represented -- [totalWeeks] stays 36 (the full roadmap's true
+// =====================================================================
+// Secondary 1 Computing -- Term 4, Week 13: "Variables: Storing
+// Information in Programs"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek13 = CourseWeekDef(
+  id: 'course-secondary1-computing-w13',
+  weekNumber: 13,
+  titleEn: 'Variables: Storing Information in Programs',
+  titleMy: 'Variable - ပရိုဂရမ်များတွင် အချက်အလက်သိမ်းဆည်းခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w13-d1',
+      dayNumber: 1,
+      titleEn: 'What is a Variable?',
+      titleMy: 'Variable ဆိုသည်မှာ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a variable in a program?',
+          questionMy: 'ပရိုဂရမ်တစ်ခုရှိ variable ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A named place to store a value that can change',
+            'A physical part of the computer',
+            'A type of flowchart symbol',
+            'A fixed number that never changes',
+          ],
+          optionsMy: [
+            'ပြောင်းလဲနိုင်သော တန်ဖိုးတစ်ခုကို သိမ်းဆည်းရန် အမည်ပေးထားသောနေရာ',
+            'ကွန်ပျူတာ၏ ရုပ်ပိုင်းအစိတ်အပိုင်း',
+            'Flowchart သင်္ကေတအမျိုးအစားတစ်ခု',
+            'ဘယ်တော့မှ မပြောင်းလဲသော ဂဏန်းသေတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is a valid variable name?',
+          questionMy: 'အောက်ပါတို့အနက် မှန်ကန်သော variable အမည်မှာ အဘယ်နည်း။',
+          optionsEn: ['studentScore', 'student score', '5score', 'score!'],
+          optionsMy: ['studentScore', 'student score', '5score', 'score!'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why do we give variables clear names, like "score" instead of "x"?',
+          questionMy:
+              'Variable များကို "x" မဟုတ်ဘဲ "score" ကဲ့သို့ ရှင်းလင်းသောအမည်များ အဘယ့်ကြောင့် ပေးကြသနည်း။',
+          optionsEn: [
+            'So the program is easier for people to read and understand',
+            'So the computer runs faster',
+            'So the variable becomes a constant',
+            'So it turns into a loop',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်ကို လူများ ဖတ်ရှုနားလည်ရလွယ်ကူစေရန်',
+            'ကွန်ပျူတာ ပိုမြန်စေရန်',
+            'Variable ကို constant အဖြစ် ပြောင်းစေရန်',
+            'Loop အဖြစ် ပြောင်းသွားစေရန်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What happens when a variable\'s value is "assigned"?',
+          questionMy:
+              'Variable တစ်ခု၏ တန်ဖိုးကို "assign" လုပ်လိုက်သောအခါ ဘာဖြစ်သနည်း။',
+          optionsEn: [
+            'The variable is given a new value to store',
+            'The variable is deleted permanently',
+            'The variable turns into a flowchart',
+            'The computer is turned off',
+          ],
+          optionsMy: [
+            'Variable သည် သိမ်းဆည်းရန် တန်ဖိုးအသစ်တစ်ခု ရရှိသည်',
+            'Variable သည် အမြဲတမ်း ဖျက်ပစ်ခံရသည်',
+            'Variable သည် flowchart အဖြစ် ပြောင်းသွားသည်',
+            'ကွန်ပျူတာကို ပိတ်လိုက်သည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'In "score = 0", what is 0?',
+          questionMy: '"score = 0" တွင် 0 သည် အဘယ်အရာဖြစ်သနည်း။',
+          optionsEn: [
+            'The value assigned to the variable score',
+            'The name of the variable',
+            'A flowchart symbol',
+            'A type of loop',
+          ],
+          optionsMy: [
+            'Score ဟူသော variable ကို assign လုပ်ထားသော တန်ဖိုး',
+            'Variable ၏ အမည်',
+            'Flowchart သင်္ကေတတစ်ခု',
+            'Loop အမျိုးအစားတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w13-d2',
+      dayNumber: 2,
+      titleEn: 'Variable Vocabulary',
+      titleMy: 'Variable ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w13-var-variable',
+          termEn: 'Variable',
+          termMy: 'Variable',
+          matchEn:
+              'A named place in a program that stores a value which can change',
+          matchMy:
+              'ပြောင်းလဲနိုင်သော တန်ဖိုးတစ်ခုကို သိမ်းဆည်းသော ပရိုဂရမ်အတွင်းရှိ အမည်ပေးထားသောနေရာ',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w13-var-value',
+          termEn: 'Value',
+          termMy: 'Value',
+          matchEn: 'The actual piece of information stored inside a variable',
+          matchMy: 'Variable တစ်ခုအတွင်း သိမ်းဆည်းထားသော အချက်အလက်အမှန်',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w13-var-assign',
+          termEn: 'Assign',
+          termMy: 'Assign',
+          matchEn: 'To give a variable a value to store',
+          matchMy: 'Variable တစ်ခုအား သိမ်းဆည်းရန် တန်ဖိုးတစ်ခု ပေးခြင်း',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w13-var-variablename',
+          termEn: 'Variable Name',
+          termMy: 'Variable Name',
+          matchEn:
+              'The label used to refer to a variable, e.g. score or playerName',
+          matchMy:
+              'Variable တစ်ခုကို ရည်ညွှန်းရန်သုံးသော အမည်၊ ဥပမာ score သို့မဟုတ် playerName',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w13-var-datatype',
+          termEn: 'Data Type',
+          termMy: 'Data Type',
+          matchEn:
+              'The kind of value a variable stores, such as a number or text',
+          matchMy:
+              'Variable တစ်ခုသိမ်းဆည်းသော တန်ဖိုးအမျိုးအစား၊ ဂဏန်း သို့မဟုတ် စာသားကဲ့သို့',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w13-d3',
+      dayNumber: 3,
+      titleEn: 'Valid or Invalid Variable Name?',
+      titleMy: 'မှန်ကန်သော variable အမည်လား၊ မဟုတ်လား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Valid Variable Name', 'Invalid Variable Name'],
+        bucketsMy: [
+          'Valid Variable Name (မှန်ကန်သောအမည်)',
+          'Invalid Variable Name (မမှန်ကန်သောအမည်)',
+        ],
+        items: [
+          SortingItem(
+            id: 'w13-sort-studentscore',
+            labelEn: 'studentScore',
+            labelMy: 'studentScore',
+            correctBucketEn: 'Valid Variable Name',
+            correctBucketMy: 'Valid Variable Name (မှန်ကန်သောအမည်)',
+          ),
+          SortingItem(
+            id: 'w13-sort-playername',
+            labelEn: 'playerName',
+            labelMy: 'playerName',
+            correctBucketEn: 'Valid Variable Name',
+            correctBucketMy: 'Valid Variable Name (မှန်ကန်သောအမည်)',
+          ),
+          SortingItem(
+            id: 'w13-sort-totalcount',
+            labelEn: 'totalCount',
+            labelMy: 'totalCount',
+            correctBucketEn: 'Valid Variable Name',
+            correctBucketMy: 'Valid Variable Name (မှန်ကန်သောအမည်)',
+          ),
+          SortingItem(
+            id: 'w13-sort-studentspace',
+            labelEn: 'student score',
+            labelMy: 'student score',
+            correctBucketEn: 'Invalid Variable Name',
+            correctBucketMy: 'Invalid Variable Name (မမှန်ကန်သောအမည်)',
+          ),
+          SortingItem(
+            id: 'w13-sort-5score',
+            labelEn: '5score',
+            labelMy: '5score',
+            correctBucketEn: 'Invalid Variable Name',
+            correctBucketMy: 'Invalid Variable Name (မမှန်ကန်သောအမည်)',
+          ),
+          SortingItem(
+            id: 'w13-sort-totalbang',
+            labelEn: 'total!',
+            labelMy: 'total!',
+            correctBucketEn: 'Invalid Variable Name',
+            correctBucketMy: 'Invalid Variable Name (မမှန်ကန်သောအမည်)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w13-d4',
+      dayNumber: 4,
+      titleEn: "Thiha's Game Score",
+      titleMy: 'သီဟ၏ ဂိမ်းရမှတ်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha's Game Score",
+        titleMy: 'သီဟ၏ ဂိမ်းရမှတ်',
+        passageEn:
+            "While making a simple quiz game, Thiha created a variable called score and set it to 0 at the start. Every time a player answered a question correctly, his program added 1 to the score variable, so its value changed from 0, to 1, to 2, and so on. At the end of the quiz, the program displayed the value stored inside score so the player could see how many points they had earned. Thiha realised that without a variable, his program would have no way to remember the score as the game continued.",
+        passageMy:
+            'ရိုးရှင်းသော quiz ဂိမ်းတစ်ခု ပြုလုပ်နေစဉ် သီဟသည် score ဟုခေါ်သော variable တစ်ခုကို ဖန်တီးပြီး အစတွင် 0 ဟု သတ်မှတ်ခဲ့သည်။ Player တစ်ဦးက မေးခွန်းတစ်ခုကို မှန်ကန်စွာဖြေတိုင်း သူ၏ ပရိုဂရမ်သည် score variable ထဲသို့ 1 ပေါင်းထည့်ခဲ့သဖြင့် ၎င်း၏တန်ဖိုးသည် 0 မှ 1၊ 2 သို့ တဖြည်းဖြည်း ပြောင်းလဲသွားသည်။ Quiz အဆုံးတွင် ပရိုဂရမ်သည် score အတွင်းသိမ်းဆည်းထားသော တန်ဖိုးကို ပြသပေးသဖြင့် player က မိမိရရှိသော အမှတ်အရေအတွက်ကို မြင်နိုင်ခဲ့သည်။ Variable တစ်ခုမရှိလျှင် ဂိမ်းဆက်လက်လည်ပတ်နေစဉ် ရမှတ်ကို မှတ်ထားနိုင်စွမ်း သူ၏ ပရိုဂရမ်တွင် လုံးဝမရှိကြောင်း သီဟ နားလည်လိုက်သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What did Thiha call the variable he created?',
+            questionMy: 'သီဟသည် ဖန်တီးခဲ့သော variable ကို ဘာဟုခေါ်ခဲ့သနည်း။',
+            optionsEn: ['score', 'player', 'quiz', 'total'],
+            optionsMy: ['score', 'player', 'quiz', 'total'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What value did the score variable start with?',
+            questionMy: 'Score variable သည် ဘယ်တန်ဖိုးဖြင့် စတင်ခဲ့သနည်း။',
+            optionsEn: ['0', '1', '10', '100'],
+            optionsMy: ['0', '1', '10', '100'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happened to the score variable's value when a player answered correctly?",
+            questionMy:
+                'Player တစ်ဦးက မှန်ကန်စွာဖြေသောအခါ score variable ၏တန်ဖိုးသည် မည်သို့ဖြစ်သွားသနည်း။',
+            optionsEn: [
+              '1 was added to it',
+              'It was deleted',
+              'It turned into text',
+              'It stayed at 0 forever',
+            ],
+            optionsMy: [
+              '၎င်းထဲသို့ 1 ပေါင်းထည့်ခဲ့သည်',
+              'ဖျက်ပစ်ခံရသည်',
+              'စာသားအဖြစ် ပြောင်းသွားသည်',
+              '0 တွင်ပင် အမြဲတည်နေသည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did the program display at the end of the quiz?',
+            questionMy: 'Quiz အဆုံးတွင် ပရိုဂရမ်သည် ဘာကိုပြသခဲ့သနည်း။',
+            optionsEn: [
+              'The value stored inside score',
+              'The variable\'s name only',
+              'A flowchart',
+              'A blank screen',
+            ],
+            optionsMy: [
+              'Score အတွင်းသိမ်းဆည်းထားသော တန်ဖိုး',
+              'Variable ၏အမည်သာ',
+              'Flowchart တစ်ခု',
+              'မျက်နှာပြင်အလွတ်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'Why did Thiha need a variable at all?',
+            questionMy: 'သီဟသည် variable တစ်ခုကို အဘယ့်ကြောင့် လိုအပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'To remember the score as the game continued',
+              'To make the game slower',
+              'To delete the questions',
+              'To turn the game into a flowchart',
+            ],
+            optionsMy: [
+              'ဂိမ်းဆက်လက်လည်ပတ်နေစဉ် ရမှတ်ကို မှတ်ထားရန်',
+              'ဂိမ်းကို ပိုနှေးစေရန်',
+              'မေးခွန်းများကို ဖျက်ရန်',
+              'ဂိမ်းကို flowchart အဖြစ် ပြောင်းရန်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w13-d5',
+      dayNumber: 5,
+      titleEn: 'Week 13 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is a variable?',
+          questionMy: 'Variable ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A named place that stores a value which can change',
+            'A physical computer part',
+            'A flowchart symbol',
+            'A number that never changes',
+          ],
+          optionsMy: [
+            'ပြောင်းလဲနိုင်သော တန်ဖိုးကို သိမ်းဆည်းသော အမည်ပေးထားသောနေရာ',
+            'ကွန်ပျူတာ၏ ရုပ်ပိုင်းအစိတ်အပိုင်း',
+            'Flowchart သင်္ကေတတစ်ခု',
+            'ဘယ်တော့မှ မပြောင်းလဲသောဂဏန်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is a valid variable name?',
+          questionMy: 'အောက်ပါတို့အနက် မှန်ကန်သော variable အမည်မှာ အဘယ်နည်း။',
+          optionsEn: ['totalScore', 'total score', '9total', 'total#'],
+          optionsMy: ['totalScore', 'total score', '9total', 'total#'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does "assign" mean in programming?',
+          questionMy: 'Programming တွင် "assign" ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Giving a variable a value to store',
+            'Deleting a variable',
+            'Turning a variable into a loop',
+            'Turning off the computer',
+          ],
+          optionsMy: [
+            'Variable တစ်ခုအား သိမ်းဆည်းရန် တန်ဖိုးပေးခြင်း',
+            'Variable တစ်ခုကို ဖျက်ခြင်း',
+            'Variable ကို loop အဖြစ် ပြောင်းခြင်း',
+            'ကွန်ပျူတာကို ပိတ်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is stored inside a variable called "value"?',
+          questionMy:
+              '"Value" ဟုခေါ်သည်မှာ variable တစ်ခုအတွင်း ဘာသိမ်းဆည်းထားခြင်းဖြစ်သနည်း။',
+          optionsEn: [
+            'The actual piece of information it holds',
+            'Its name only',
+            'A flowchart',
+            'A loop',
+          ],
+          optionsMy: [
+            'ကိုင်ထားသော အချက်အလက်အမှန်',
+            '၎င်း၏အမည်သာ',
+            'Flowchart တစ်ခု',
+            'Loop တစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why should variable names be clear, like "score" rather than "x"?',
+          questionMy:
+              'Variable အမည်များကို "x" မဟုတ်ဘဲ "score" ကဲ့သို့ ရှင်းလင်းစွာ အဘယ့်ကြောင့် ပေးသင့်သနည်း။',
+          optionsEn: [
+            'It makes the program easier for people to read and understand',
+            'It makes the computer run faster',
+            'It turns the variable into a constant',
+            'It is required by the computer to run at all',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်ကို လူများ ဖတ်ရှုနားလည်ရလွယ်ကူစေသည်',
+            'ကွန်ပျူတာကို ပိုမြန်စေသည်',
+            'Variable ကို constant အဖြစ် ပြောင်းစေသည်',
+            'ကွန်ပျူတာ အလုပ်လုပ်ရန် လိုအပ်ချက်တစ်ခုဖြစ်သည်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 4, Week 14: "Writing Pseudocode"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek14 = CourseWeekDef(
+  id: 'course-secondary1-computing-w14',
+  weekNumber: 14,
+  titleEn: 'Writing Pseudocode',
+  titleMy: 'Pseudocode ရေးသားခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w14-d1',
+      dayNumber: 1,
+      titleEn: 'What is Pseudocode?',
+      titleMy: 'Pseudocode ဆိုသည်မှာ',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is pseudocode?',
+          questionMy: 'Pseudocode ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A way of writing an algorithm using simple, structured English instead of real code',
+            'A programming language a computer can run directly',
+            'A type of computer hardware',
+            'A flowchart symbol',
+          ],
+          optionsMy: [
+            'တကယ့်ကုဒ်အစား ရိုးရှင်းပြီး တည်ဆောက်ပုံရှိသော အင်္ဂလိပ်စာဖြင့် algorithm ရေးသားနည်း',
+            'ကွန်ပျူတာ တိုက်ရိုက်လည်ပတ်နိုင်သော ပရိုဂရမ်းမင်းဘာသာစကား',
+            'ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု',
+            'Flowchart သင်္ကေတတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which pseudocode keyword is used to get information from the user?',
+          questionMy:
+              'User ထံမှ အချက်အလက်ရယူရန်သုံးသော pseudocode keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+          optionsMy: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Which pseudocode keyword is used to display information to the user?',
+          questionMy:
+              'User ထံ အချက်အလက်ပြသရန်သုံးသော pseudocode keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['OUTPUT', 'INPUT', 'SET', 'WHILE'],
+          optionsMy: ['OUTPUT', 'INPUT', 'SET', 'WHILE'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which pseudocode keyword starts a decision (selection)?',
+          questionMy:
+              'ဆုံးဖြတ်ချက် (selection) စတင်ရန်သုံးသော pseudocode keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['IF', 'OUTPUT', 'INPUT', 'WHILE'],
+          optionsMy: ['IF', 'OUTPUT', 'INPUT', 'WHILE'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why do programmers write pseudocode before writing real code?',
+          questionMy:
+              'Programmer များသည် တကယ့်ကုဒ်မရေးမီ pseudocode ကို အဘယ့်ကြောင့် ရေးကြသနည်း။',
+          optionsEn: [
+            "To plan the algorithm's logic clearly before worrying about exact programming syntax",
+            'Because computers can run pseudocode directly',
+            'Because pseudocode is faster than real code',
+            'Because pseudocode replaces flowcharts completely',
+          ],
+          optionsMy: [
+            'တိကျသော programming syntax ကို မစိုးရိမ်မီ algorithm ၏ logic ကို ရှင်းလင်းစွာ စီစဉ်ရန်',
+            'ကွန်ပျူတာများသည် pseudocode ကို တိုက်ရိုက်လည်ပတ်နိုင်၍',
+            'Pseudocode သည် တကယ့်ကုဒ်ထက် မြန်၍',
+            'Pseudocode သည် flowchart ကို လုံးဝ အစားထိုးသည့်အတွက်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w14-d2',
+      dayNumber: 2,
+      titleEn: 'Pseudocode Keywords',
+      titleMy: 'Pseudocode Keyword များ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w14-pc-input',
+          termEn: 'INPUT',
+          termMy: 'INPUT',
+          matchEn: 'Gets a value from the user',
+          matchMy: 'User ထံမှ တန်ဖိုးတစ်ခု ရယူသည်',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w14-pc-output',
+          termEn: 'OUTPUT',
+          termMy: 'OUTPUT',
+          matchEn: 'Displays a value to the user',
+          matchMy: 'User ထံ တန်ဖိုးတစ်ခုကို ပြသသည်',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w14-pc-ifthen',
+          termEn: 'IF...THEN',
+          termMy: 'IF...THEN',
+          matchEn: 'Starts a decision based on a condition',
+          matchMy: 'Condition တစ်ခုအပေါ်အခြေခံသော ဆုံးဖြတ်ချက်ကို စတင်သည်',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w14-pc-while',
+          termEn: 'WHILE...ENDWHILE',
+          termMy: 'WHILE...ENDWHILE',
+          matchEn: 'Repeats steps while a condition is true',
+          matchMy: 'Condition မှန်နေသရွေ့ အဆင့်များကို ထပ်ခါလုပ်သည်',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w14-pc-set',
+          termEn: 'SET',
+          termMy: 'SET',
+          matchEn: 'Assigns a value to a variable',
+          matchMy: 'Variable တစ်ခုအား တန်ဖိုးတစ်ခု assign လုပ်သည်',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w14-d3',
+      dayNumber: 3,
+      titleEn: 'Which Keyword?',
+      titleMy: 'ဘယ် keyword လဲ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Input/Output', 'Selection', 'Loop'],
+        bucketsMy: [
+          'Input/Output',
+          'Selection (ဆုံးဖြတ်ချက်)',
+          'Loop (ထပ်ခါလုပ်ခြင်း)',
+        ],
+        items: [
+          SortingItem(
+            id: 'w14-sort-input',
+            labelEn: 'INPUT',
+            labelMy: 'INPUT',
+            correctBucketEn: 'Input/Output',
+            correctBucketMy: 'Input/Output',
+          ),
+          SortingItem(
+            id: 'w14-sort-output',
+            labelEn: 'OUTPUT',
+            labelMy: 'OUTPUT',
+            correctBucketEn: 'Input/Output',
+            correctBucketMy: 'Input/Output',
+          ),
+          SortingItem(
+            id: 'w14-sort-if',
+            labelEn: 'IF',
+            labelMy: 'IF',
+            correctBucketEn: 'Selection',
+            correctBucketMy: 'Selection (ဆုံးဖြတ်ချက်)',
+          ),
+          SortingItem(
+            id: 'w14-sort-ifelse',
+            labelEn: 'IF...ELSE',
+            labelMy: 'IF...ELSE',
+            correctBucketEn: 'Selection',
+            correctBucketMy: 'Selection (ဆုံးဖြတ်ချက်)',
+          ),
+          SortingItem(
+            id: 'w14-sort-while',
+            labelEn: 'WHILE',
+            labelMy: 'WHILE',
+            correctBucketEn: 'Loop',
+            correctBucketMy: 'Loop (ထပ်ခါလုပ်ခြင်း)',
+          ),
+          SortingItem(
+            id: 'w14-sort-repeat',
+            labelEn: 'REPEAT',
+            labelMy: 'REPEAT',
+            correctBucketEn: 'Loop',
+            correctBucketMy: 'Loop (ထပ်ခါလုပ်ခြင်း)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w14-d4',
+      dayNumber: 4,
+      titleEn: "Nilar Writes Her First Pseudocode",
+      titleMy: 'နီလာ၏ ပထမဆုံး Pseudocode',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar Writes Her First Pseudocode",
+        titleMy: 'နီလာ၏ ပထမဆုံး Pseudocode',
+        passageEn:
+            "For homework, Nilar had to design an algorithm that asks for a user's name and then greets them. Instead of jumping straight into a programming language, her teacher asked her to write pseudocode first. Nilar wrote: INPUT name, then OUTPUT 'Hello, ' name. She realised this pseudocode described exactly what her program needed to do, in plain steps, without worrying yet about the exact punctuation a real programming language would need. Later, when she learned an actual programming language, converting her pseudocode into real code was much easier because the logic was already planned.",
+        passageMy:
+            'အိမ်စာအတွက် နီလာသည် user တစ်ဦး၏အမည်ကိုမေးပြီး နှုတ်ဆက်ပေးမည့် algorithm တစ်ခုကို ဒီဇိုင်းဆွဲရမည်ဖြစ်သည်။ Programming ဘာသာစကားထဲသို့ တိုက်ရိုက်ဝင်မည့်အစား သူမ၏ဆရာမက pseudocode ကို အရင်ရေးရန် တောင်းဆိုခဲ့သည်။ နီလာက ရေးခဲ့သည် - INPUT name, ပြီးမှ OUTPUT \'Hello, \' name။ ဤ pseudocode သည် သူမ၏ ပရိုဂရမ်လုပ်ရမည့်အရာကို ရိုးရှင်းသောအဆင့်များဖြင့် တိကျစွာ ဖော်ပြထားကြောင်း၊ တကယ့် programming ဘာသာစကားလိုအပ်သည့် တိကျသောဗျည်းသင်္ကေတများကို မစိုးရိမ်ရသေးကြောင်း သူမနားလည်လိုက်သည်။ နောက်ပိုင်းတွင် တကယ့် programming ဘာသာစကားတစ်ခုကို သင်ယူသောအခါ logic ကို စီစဉ်ပြီးသားဖြစ်နေသောကြောင့် သူမ၏ pseudocode ကို တကယ့်ကုဒ်အဖြစ် ပြောင်းရန် ပိုမိုလွယ်ကူခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Nilar's algorithm need to do?",
+            questionMy: 'နီလာ၏ algorithm သည် ဘာလုပ်ရန်လိုအပ်ခဲ့သနည်း။',
+            optionsEn: [
+              "Ask for a user's name and greet them",
+              'Delete the user\'s name',
+              'Turn off the computer',
+              'Draw a flowchart only',
+            ],
+            optionsMy: [
+              'User ၏အမည်ကိုမေးပြီး နှုတ်ဆက်ပေးရန်',
+              'User ၏အမည်ကို ဖျက်ရန်',
+              'ကွန်ပျူတာကို ပိတ်ရန်',
+              'Flowchart တစ်ခုတည်း ရေးဆွဲရန်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did Nilar write pseudocode instead of first?',
+            questionMy: 'နီလာသည် ဘာအစား pseudocode ကို အရင်ရေးခဲ့သနည်း။',
+            optionsEn: [
+              'A real programming language',
+              'A flowchart',
+              'A quiz',
+              'A drag-match activity',
+            ],
+            optionsMy: [
+              'တကယ့် programming ဘာသာစကား',
+              'Flowchart',
+              'Quiz',
+              'Drag-match activity',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which keyword did Nilar use to get the user's name?",
+            questionMy: 'နီလာသည် user ၏အမည်ရယူရန် ဘယ် keyword ကိုသုံးခဲ့သနည်း။',
+            optionsEn: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+            optionsMy: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'Which keyword did Nilar use to greet the user?',
+            questionMy:
+                'နီလာသည် user ကိုနှုတ်ဆက်ရန် ဘယ် keyword ကိုသုံးခဲ့သနည်း။',
+            optionsEn: ['OUTPUT', 'INPUT', 'IF', 'WHILE'],
+            optionsMy: ['OUTPUT', 'INPUT', 'IF', 'WHILE'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'Why was converting the pseudocode into real code easier later?',
+            questionMy:
+                'Pseudocode ကို တကယ့်ကုဒ်အဖြစ် ပြောင်းရန် နောက်ပိုင်းတွင် အဘယ့်ကြောင့် ပိုလွယ်ကူခဲ့သနည်း။',
+            optionsEn: [
+              'The logic was already planned',
+              'The computer did it automatically',
+              'Nilar deleted the pseudocode first',
+              'Real code does not need logic',
+            ],
+            optionsMy: [
+              'Logic ကို စီစဉ်ပြီးသားဖြစ်နေသောကြောင့်',
+              'ကွန်ပျူတာက အလိုအလျောက်လုပ်ပေးသောကြောင့်',
+              'နီလာက pseudocode ကို အရင်ဖျက်လိုက်သောကြောင့်',
+              'တကယ့်ကုဒ်သည် logic မလိုအပ်သောကြောင့်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w14-d5',
+      dayNumber: 5,
+      titleEn: 'Week 14 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'What is pseudocode?',
+          questionMy: 'Pseudocode ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'A structured, plain-English way of writing an algorithm before coding it',
+            'A programming language computers run directly',
+            'A type of hardware',
+            'A flowchart symbol',
+          ],
+          optionsMy: [
+            'ကုဒ်မရေးမီ algorithm ကို တည်ဆောက်ပုံရှိသော ရိုးရှင်းအင်္ဂလိပ်စာဖြင့်ရေးနည်း',
+            'ကွန်ပျူတာ တိုက်ရိုက်လည်ပတ်နိုင်သော programming ဘာသာစကား',
+            'Hardware အမျိုးအစားတစ်ခု',
+            'Flowchart သင်္ကေတတစ်ခု',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which keyword gets a value from the user?',
+          questionMy: 'User ထံမှ တန်ဖိုးရယူသော keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+          optionsMy: ['INPUT', 'OUTPUT', 'IF', 'WHILE'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which keyword displays a value to the user?',
+          questionMy: 'User ထံ တန်ဖိုးပြသသော keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['OUTPUT', 'INPUT', 'SET', 'WHILE'],
+          optionsMy: ['OUTPUT', 'INPUT', 'SET', 'WHILE'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which keyword starts a decision?',
+          questionMy: 'ဆုံးဖြတ်ချက်တစ်ခုကို စတင်သော keyword မှာ အဘယ်နည်း။',
+          optionsEn: ['IF', 'OUTPUT', 'INPUT', 'SET'],
+          optionsMy: ['IF', 'OUTPUT', 'INPUT', 'SET'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why is pseudocode written before real code?',
+          questionMy: 'Pseudocode ကို တကယ့်ကုဒ်မရေးမီ အဘယ့်ကြောင့်ရေးသနည်း။',
+          optionsEn: [
+            "To plan the algorithm's logic before worrying about exact syntax",
+            'Because it runs faster than real code',
+            'Because computers can run it directly',
+            'Because it replaces flowcharts entirely',
+          ],
+          optionsMy: [
+            'တိကျသော syntax ကို မစိုးရိမ်မီ algorithm ၏ logic ကို စီစဉ်ရန်',
+            'တကယ့်ကုဒ်ထက် ပိုမြန်၍',
+            'ကွန်ပျူတာများက တိုက်ရိုက်လည်ပတ်နိုင်၍',
+            'Flowchart များကို လုံးဝအစားထိုးသောကြောင့်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 4, Week 15: "Working with Numbers and
+// Text in Programs"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek15 = CourseWeekDef(
+  id: 'course-secondary1-computing-w15',
+  weekNumber: 15,
+  titleEn: 'Working with Numbers and Text in Programs',
+  titleMy: 'ပရိုဂရမ်များတွင် ဂဏန်းနှင့် စာသားကို အသုံးပြုခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w15-d1',
+      dayNumber: 1,
+      titleEn: 'Numbers vs. Text',
+      titleMy: 'ဂဏန်းနှင့် စာသား',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which data type would a variable storing someone's age usually be?",
+          questionMy:
+              'တစ်စုံတစ်ဦး၏ အသက်ကို သိမ်းဆည်းသော variable သည် များသောအားဖြင့် ဘယ် data type ဖြစ်လေ့ရှိသနည်း။',
+          optionsEn: ['A number', 'Text', 'A flowchart', 'A loop'],
+          optionsMy: ['ဂဏန်း (Number)', 'စာသား (Text)', 'Flowchart', 'Loop'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which data type would a variable storing someone's name usually be?",
+          questionMy:
+              'တစ်စုံတစ်ဦး၏ အမည်ကို သိမ်းဆည်းသော variable သည် များသောအားဖြင့် ဘယ် data type ဖြစ်လေ့ရှိသနည်း။',
+          optionsEn: ['Text', 'A number', 'A flowchart', 'A loop'],
+          optionsMy: ['စာသား (Text)', 'ဂဏန်း (Number)', 'Flowchart', 'Loop'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does the + operator do when used with two numbers?',
+          questionMy:
+              'ဂဏန်းနှစ်လုံးနှင့်သုံးလျှင် + operator သည် ဘာလုပ်ဆောင်သနည်း။',
+          optionsEn: [
+            'Adds them together',
+            'Joins them as text',
+            'Deletes them',
+            'Compares them',
+          ],
+          optionsMy: [
+            'ပေါင်းလိုက်သည်',
+            'စာသားအဖြစ် ဆက်စပ်ပေးသည်',
+            'ဖျက်ပစ်သည်',
+            'နှိုင်းယှဉ်သည်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is it called when two pieces of text are joined together, e.g. 'Hello' and 'World' into 'HelloWorld'?",
+          questionMy:
+              "'Hello' နှင့် 'World' ကို 'HelloWorld' အဖြစ် ဆက်စပ်ပေးသကဲ့သို့ စာသားနှစ်ခုကို ပေါင်းစည်းခြင်းကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            'Joining (concatenation)',
+            'Subtraction',
+            'Selection',
+            'Looping',
+          ],
+          optionsMy: [
+            'ဆက်စပ်ခြင်း (concatenation)',
+            'နှုတ်ခြင်း',
+            'Selection',
+            'Looping',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is an arithmetic operator?',
+          questionMy: 'အောက်ပါတို့အနက် သင်္ချာ operator တစ်ခုမှာ အဘယ်နည်း။',
+          optionsEn: ['*', 'IF', 'WHILE', 'OUTPUT'],
+          optionsMy: ['*', 'IF', 'WHILE', 'OUTPUT'],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w15-d2',
+      dayNumber: 2,
+      titleEn: 'Numbers and Text Vocabulary',
+      titleMy: 'ဂဏန်းနှင့်စာသား ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w15-nt-number',
+          termEn: 'Number (data type)',
+          termMy: 'Number (data type)',
+          matchEn:
+              'A data type used to store values you can do maths with, like 7 or 3.5',
+          matchMy:
+              '7 သို့မဟုတ် 3.5 ကဲ့သို့ သင်္ချာလုပ်ဆောင်နိုင်သော တန်ဖိုးများကို သိမ်းဆည်းသော data type',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w15-nt-text',
+          termEn: 'Text (data type)',
+          termMy: 'Text (data type)',
+          matchEn: 'A data type used to store words or sentences, like a name',
+          matchMy:
+              'အမည်ကဲ့သို့ စကားလုံးများ သို့မဟုတ် စာကြောင်းများကို သိမ်းဆည်းသော data type',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w15-nt-addition',
+          termEn: '+ (Addition)',
+          termMy: '+ (Addition)',
+          matchEn: 'An operator that adds two numbers together',
+          matchMy: 'ဂဏန်းနှစ်လုံးကို ပေါင်းပေးသော operator',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w15-nt-subtraction',
+          termEn: '- (Subtraction)',
+          termMy: '- (Subtraction)',
+          matchEn: 'An operator that takes one number away from another',
+          matchMy: 'ဂဏန်းတစ်လုံးမှ တစ်လုံးကို နှုတ်ပေးသော operator',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w15-nt-joining',
+          termEn: 'Joining (Concatenation)',
+          termMy: 'Joining (Concatenation)',
+          matchEn: 'Combining two pieces of text into one',
+          matchMy: 'စာသားနှစ်ခုကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်းခြင်း',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w15-d3',
+      dayNumber: 3,
+      titleEn: 'Number or Text?',
+      titleMy: 'ဂဏန်းလား၊ စာသားလား',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Number', 'Text'],
+        bucketsMy: ['Number (ဂဏန်း)', 'Text (စာသား)'],
+        items: [
+          SortingItem(
+            id: 'w15-sort-age',
+            labelEn: '25 (age)',
+            labelMy: '25 (အသက်)',
+            correctBucketEn: 'Number',
+            correctBucketMy: 'Number (ဂဏန်း)',
+          ),
+          SortingItem(
+            id: 'w15-sort-name',
+            labelEn: '"Aye Aye" (name)',
+            labelMy: '"အေးအေး" (အမည်)',
+            correctBucketEn: 'Text',
+            correctBucketMy: 'Text (စာသား)',
+          ),
+          SortingItem(
+            id: 'w15-sort-score',
+            labelEn: '100 (score)',
+            labelMy: '100 (ရမှတ်)',
+            correctBucketEn: 'Number',
+            correctBucketMy: 'Number (ဂဏန်း)',
+          ),
+          SortingItem(
+            id: 'w15-sort-city',
+            labelEn: '"Yangon" (city)',
+            labelMy: '"ရန်ကုန်" (မြို့)',
+            correctBucketEn: 'Text',
+            correctBucketMy: 'Text (စာသား)',
+          ),
+          SortingItem(
+            id: 'w15-sort-price',
+            labelEn: '3.5 (price)',
+            labelMy: '3.5 (စျေးနှုန်း)',
+            correctBucketEn: 'Number',
+            correctBucketMy: 'Number (ဂဏန်း)',
+          ),
+          SortingItem(
+            id: 'w15-sort-greeting',
+            labelEn: '"Hello!" (greeting)',
+            labelMy: '"Hello!" (နှုတ်ဆက်စကား)',
+            correctBucketEn: 'Text',
+            correctBucketMy: 'Text (စာသား)',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w15-d4',
+      dayNumber: 4,
+      titleEn: "Kaung's Shopping Total",
+      titleMy: 'ကောင်း၏ စျေးဝယ်စုစုပေါင်း',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung's Shopping Total",
+        titleMy: 'ကောင်း၏ စျေးဝယ်စုစုပေါင်း',
+        passageEn:
+            "Kaung wrote a simple program to add up his shopping. He created a variable called price1 and set it to 500, and another called price2 set to 300. His program then added price1 + price2 and stored the result in a new variable called total, giving 800. Kaung also wanted to print a friendly message, so his program joined the text 'Your total is ' with the value of total to display 'Your total is 800'. This showed Kaung that numbers could be added with +, while text could be joined together in a similar way, but the two operations meant very different things depending on the data type.",
+        passageMy:
+            "ကောင်းသည် သူ၏စျေးဝယ်ငွေများကို ပေါင်းရန် ရိုးရှင်းသောပရိုဂရမ်တစ်ခု ရေးခဲ့သည်။ သူသည် price1 ဟုခေါ်သော variable တစ်ခုကို ဖန်တီးပြီး 500 ဟု သတ်မှတ်ခဲ့ပြီး၊ price2 ဟုခေါ်သော နောက်တစ်ခုကို 300 ဟု သတ်မှတ်ခဲ့သည်။ သူ၏ပရိုဂရမ်သည် price1 + price2 ကို ပေါင်းပြီး ရလဒ်ကို total ဟုခေါ်သော variable အသစ်တစ်ခုတွင် သိမ်းဆည်းခဲ့ရာ 800 ရရှိခဲ့သည်။ ကောင်းသည် ရင်းနှီးသောစာသားတစ်ခုကိုပါ ပရင့်ထုတ်လိုသဖြင့် သူ၏ပရိုဂရမ်သည် 'Your total is ' ဟူသော စာသားကို total ၏တန်ဖိုးနှင့် ဆက်စပ်ပြီး 'Your total is 800' ဟု ပြသခဲ့သည်။ ဂဏန်းများကို + ဖြင့် ပေါင်းနိုင်သကဲ့သို့ စာသားများကိုလည်း ဆင်တူသောနည်းလမ်းဖြင့် ဆက်စပ်နိုင်သော်လည်း၊ operation နှစ်ခုစလုံးသည် data type အလိုက် လုံးဝကွာခြားသောအရာများကို ဆိုလိုကြောင်း ဤအရာသည် ကောင်းအား ပြသခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: 'What value did Kaung set price1 to?',
+            questionMy: 'ကောင်းသည် price1 ကို ဘယ်တန်ဖိုးဖြင့် သတ်မှတ်ခဲ့သနည်း။',
+            optionsEn: ['500', '300', '800', '0'],
+            optionsMy: ['500', '300', '800', '0'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What value did Kaung set price2 to?',
+            questionMy: 'ကောင်းသည် price2 ကို ဘယ်တန်ဖိုးဖြင့် သတ်မှတ်ခဲ့သနည်း။',
+            optionsEn: ['300', '500', '800', '0'],
+            optionsMy: ['300', '500', '800', '0'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What was stored in the variable called total?',
+            questionMy: 'Total ဟုခေါ်သော variable တွင် ဘာသိမ်းဆည်းထားခဲ့သနည်း။',
+            optionsEn: ['800', '500', '300', '0'],
+            optionsMy: ['800', '500', '300', '0'],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kaung's program join together to make a friendly message?",
+            questionMy:
+                'ကောင်း၏ပရိုဂရမ်သည် ရင်းနှီးသောစာတစ်ကြောင်း ရေးရန် ဘာကို ဆက်စပ်ခဲ့သနည်း။',
+            optionsEn: [
+              "The text 'Your total is ' with the value of total",
+              'price1 with price2 only',
+              'Two flowcharts',
+              'Two loops',
+            ],
+            optionsMy: [
+              "'Your total is ' ဟူသောစာသားနှင့် total ၏တန်ဖိုး",
+              'Price1 နှင့် price2 ကိုသာ',
+              'Flowchart နှစ်ခု',
+              'Loop နှစ်ခု',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What did Kaung learn about the + idea with numbers vs. text?',
+            questionMy:
+                'ဂဏန်းနှင့် စာသားတို့၏ + ဆိုင်ရာအယူအဆအကြောင်း ကောင်းသည် ဘာသင်ယူခဲ့သနည်း။',
+            optionsEn: [
+              'It means very different things depending on the data type',
+              'It always means the exact same thing',
+              'It only works with text, never numbers',
+              'It deletes both values',
+            ],
+            optionsMy: [
+              'Data type အလိုက် လုံးဝကွာခြားသောအရာများကို ဆိုလိုသည်',
+              'အမြဲတမ်း အတူတူပင်ဆိုလိုသည်',
+              'စာသားနှင့်သာ အလုပ်လုပ်ပြီး ဂဏန်းနှင့် လုံးဝမသက်ဆိုင်ပါ',
+              'တန်ဖိုးနှစ်ခုစလုံးကို ဖျက်ပစ်သည်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w15-d5',
+      dayNumber: 5,
+      titleEn: 'Week 15 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: 'Which data type stores values like 7 or 3.5?',
+          questionMy:
+              '7 သို့မဟုတ် 3.5 ကဲ့သို့သော တန်ဖိုးများကို ဘယ် data type က သိမ်းဆည်းသနည်း။',
+          optionsEn: ['Number', 'Text', 'Loop', 'Selection'],
+          optionsMy: ['Number', 'Text', 'Loop', 'Selection'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which data type stores words or sentences?',
+          questionMy:
+              'စကားလုံးများ သို့မဟုတ် စာကြောင်းများကို ဘယ် data type က သိမ်းဆည်းသနည်း။',
+          optionsEn: ['Text', 'Number', 'Loop', 'Selection'],
+          optionsMy: ['Text', 'Number', 'Loop', 'Selection'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What does the + operator do with two numbers?',
+          questionMy: 'ဂဏန်းနှစ်လုံးနှင့် + operator သည် ဘာလုပ်ဆောင်သနည်း။',
+          optionsEn: [
+            'Adds them',
+            'Deletes them',
+            'Compares them',
+            'Sorts them',
+          ],
+          optionsMy: ['ပေါင်းသည်', 'ဖျက်ပစ်သည်', 'နှိုင်းယှဉ်သည်', 'စီစဉ်သည်'],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is joining two pieces of text together called?',
+          questionMy: 'စာသားနှစ်ခုကို ပေါင်းစပ်ခြင်းကို ဘာဟုခေါ်သနည်း။',
+          optionsEn: [
+            'Joining (concatenation)',
+            'Subtraction',
+            'Selection',
+            'Looping',
+          ],
+          optionsMy: [
+            'ဆက်စပ်ခြင်း (concatenation)',
+            'နှုတ်ခြင်း',
+            'Selection',
+            'Looping',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which of these is an arithmetic operator?',
+          questionMy: 'အောက်ပါတို့အနက် သင်္ချာ operator တစ်ခုမှာ အဘယ်နည်း။',
+          optionsEn: ['-', 'IF', 'OUTPUT', 'WHILE'],
+          optionsMy: ['-', 'IF', 'OUTPUT', 'WHILE'],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 4, Week 16: "Designing a Simple
+// Program"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek16 = CourseWeekDef(
+  id: 'course-secondary1-computing-w16',
+  weekNumber: 16,
+  titleEn: 'Designing a Simple Program',
+  titleMy: 'ရိုးရှင်းသော ပရိုဂရမ်တစ်ခု ဒီဇိုင်းဆွဲခြင်း',
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: 'course-s1-computing-w16-d1',
+      dayNumber: 1,
+      titleEn: 'Planning, Testing and Debugging',
+      titleMy: 'စီစဉ်ခြင်း၊ စမ်းသပ်ခြင်းနှင့် Debugging',
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'What are the three core building blocks used to structure any algorithm?',
+          questionMy:
+              'Algorithm မည်သည့်ကို တည်ဆောက်ရန်သုံးသော အခြေခံအစိတ်အပိုင်းသုံးမျိုးမှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Sequence, selection, and loop',
+            'Variable, pseudocode, and flowchart',
+            'Input, output, and storage',
+            'Hardware, software, and network',
+          ],
+          optionsMy: [
+            'Sequence, selection, နှင့် loop',
+            'Variable, pseudocode, နှင့် flowchart',
+            'Input, output, နှင့် storage',
+            'Hardware, software, နှင့် network',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is "testing" a program?',
+          questionMy:
+              '"Testing" ဆိုသည်မှာ ပရိုဂရမ်တစ်ခုနှင့် ပတ်သက်၍ အဘယ်နည်း။',
+          optionsEn: [
+            'Running it to check whether it works correctly',
+            'Deleting all its variables',
+            'Turning it into hardware',
+            'Removing all its loops',
+          ],
+          optionsMy: [
+            '၎င်းမှန်ကန်စွာ အလုပ်လုပ်မလုပ် စစ်ဆေးရန် လည်ပတ်ကြည့်ခြင်း',
+            '၎င်း၏ variable အားလုံးကို ဖျက်ခြင်း',
+            '၎င်းကို hardware အဖြစ် ပြောင်းခြင်း',
+            '၎င်း၏ loop အားလုံးကို ဖယ်ရှားခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is "debugging"?',
+          questionMy: '"Debugging" ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Finding and fixing errors (bugs) in a program',
+            'Adding new bugs on purpose',
+            'Turning a program into a flowchart',
+            'Renaming all its variables',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်တစ်ခုရှိ အမှားများ (bugs) ကို ရှာဖွေပြင်ဆင်ခြင်း',
+            'အမှားအသစ်များကို တမင်ထည့်ခြင်း',
+            'ပရိုဂရမ်ကို flowchart အဖြစ် ပြောင်းခြင်း',
+            '၎င်း၏ variable အားလုံးကို အမည်ပြန်ပေးခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              'Why do programmers test their programs with different inputs?',
+          questionMy:
+              'Programmer များသည် ၎င်းတို့၏ ပရိုဂရမ်များကို မတူညီသော input များဖြင့် အဘယ့်ကြောင့် စမ်းသပ်ကြသနည်း။',
+          optionsEn: [
+            'To check the program works correctly in different situations',
+            'To make the program slower',
+            'To delete all its pseudocode',
+            'Because testing is required by law',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်သည် မတူညီသောအခြေအနေများတွင် မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်',
+            'ပရိုဂရမ်ကို ပိုနှေးစေရန်',
+            '၎င်း၏ pseudocode အားလုံးကို ဖျက်ရန်',
+            'Testing သည် ဥပဒေအရ လိုအပ်သောကြောင့်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Which comes first when designing a program?',
+          questionMy: 'ပရိုဂရမ်တစ်ခု ဒီဇိုင်းဆွဲသောအခါ ဘာအရင်လုပ်သနည်း။',
+          optionsEn: [
+            'Planning the algorithm (e.g. with pseudocode or a flowchart) before writing code',
+            'Testing before any code is written',
+            'Debugging before the algorithm is planned',
+            'Deleting variables before planning',
+          ],
+          optionsMy: [
+            'ကုဒ်မရေးမီ algorithm ကို (pseudocode သို့မဟုတ် flowchart ဖြင့်) စီစဉ်ခြင်း',
+            'ကုဒ်မရေးသေးမီ testing လုပ်ခြင်း',
+            'Algorithm မစီစဉ်မီ debugging လုပ်ခြင်း',
+            'မစီစဉ်မီ variable များ ဖျက်ခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w16-d2',
+      dayNumber: 2,
+      titleEn: 'Program Design Vocabulary',
+      titleMy: 'ပရိုဂရမ်ဒီဇိုင်း ဆိုင်ရာ ဝေါဟာရများ',
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: 'w16-design-algorithmdesign',
+          termEn: 'Algorithm Design',
+          termMy: 'Algorithm Design',
+          matchEn:
+              'Planning the logical steps a program will follow before writing code',
+          matchMy:
+              'ကုဒ်မရေးမီ ပရိုဂရမ်လိုက်နာမည့် ယုတ္တိရှိသောအဆင့်များကို စီစဉ်ခြင်း',
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: 'w16-design-pseudocode',
+          termEn: 'Pseudocode',
+          termMy: 'Pseudocode',
+          matchEn:
+              'A plain, structured way of writing an algorithm before coding it',
+          matchMy:
+              'ကုဒ်မရေးမီ algorithm ကို ရေးရန် ရိုးရှင်းပြီး တည်ဆောက်ပုံရှိသောနည်းလမ်း',
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: 'w16-design-testing',
+          termEn: 'Testing',
+          termMy: 'Testing',
+          matchEn: 'Running a program to check whether it works correctly',
+          matchMy:
+              'ပရိုဂရမ်တစ်ခု မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန် လည်ပတ်ကြည့်ခြင်း',
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: 'w16-design-debugging',
+          termEn: 'Debugging',
+          termMy: 'Debugging',
+          matchEn: 'Finding and fixing errors in a program',
+          matchMy: 'ပရိုဂရမ်တစ်ခုရှိ အမှားများကို ရှာဖွေပြင်ဆင်ခြင်း',
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: 'w16-design-variable',
+          termEn: 'Variable',
+          termMy: 'Variable',
+          matchEn:
+              'A named place that stores a value which can change while the program runs',
+          matchMy:
+              'ပရိုဂရမ်လည်ပတ်နေစဉ် ပြောင်းလဲနိုင်သော တန်ဖိုးကို သိမ်းဆည်းသော အမည်ပေးထားသောနေရာ',
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w16-d3',
+      dayNumber: 3,
+      titleEn: 'Which Building Block?',
+      titleMy: 'ဘယ် အခြေခံအစိတ်အပိုင်းလဲ',
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ['Sequence', 'Selection', 'Loop', 'Variable'],
+        bucketsMy: ['Sequence', 'Selection', 'Loop', 'Variable'],
+        items: [
+          SortingItem(
+            id: 'w16-sort-boilwater',
+            labelEn: 'Boil the water, then add the tea bag',
+            labelMy: 'ရေကိုဆူအောင်ကျိုပြီး လက်ဖက်ရည်အိတ်ကို ထည့်ပါ',
+            correctBucketEn: 'Sequence',
+            correctBucketMy: 'Sequence',
+          ),
+          SortingItem(
+            id: 'w16-sort-moveforward',
+            labelEn: 'Move forward, then stop above a pot',
+            labelMy: 'ရှေ့သို့ရွှေ့ပြီး အိုးတစ်လုံးအပေါ်တွင် ရပ်ပါ',
+            correctBucketEn: 'Sequence',
+            correctBucketMy: 'Sequence',
+          ),
+          SortingItem(
+            id: 'w16-sort-soildry',
+            labelEn: 'IF the soil is dry, THEN water it',
+            labelMy: 'မြေခြောက်နေပါက ရေလောင်းပါ',
+            correctBucketEn: 'Selection',
+            correctBucketMy: 'Selection',
+          ),
+          SortingItem(
+            id: 'w16-sort-raining',
+            labelEn: 'IF it is raining, THEN take an umbrella',
+            labelMy: 'မိုးရွာလျှင် ထီးယူပါ',
+            correctBucketEn: 'Selection',
+            correctBucketMy: 'Selection',
+          ),
+          SortingItem(
+            id: 'w16-sort-repeat8',
+            labelEn: 'Repeat 8 times for each plant pot',
+            labelMy: 'အပင်အိုးတစ်လုံးစီအတွက် ၈ ကြိမ် ထပ်ခါလုပ်ပါ',
+            correctBucketEn: 'Loop',
+            correctBucketMy: 'Loop',
+          ),
+          SortingItem(
+            id: 'w16-sort-scorezero',
+            labelEn: 'score = 0',
+            labelMy: 'score = 0',
+            correctBucketEn: 'Variable',
+            correctBucketMy: 'Variable',
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w16-d4',
+      dayNumber: 4,
+      titleEn: "Thazin's Quiz Score Program",
+      titleMy: 'သဇင်၏ Quiz ရမှတ်ပရိုဂရမ်',
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thazin's Quiz Score Program",
+        titleMy: 'သဇင်၏ Quiz ရမှတ်ပရိုဂရမ်',
+        passageEn:
+            "For her final project, Thazin designed a simple quiz program using everything she had learned this term. First, she planned it with pseudocode: a sequence to set a variable called score to 0, a loop that repeated for each of 5 questions, and a selection inside the loop that added 1 to score IF the player's answer was correct. After writing her code, Thazin tested it by playing through the quiz herself, checking that the score displayed correctly at the end. She found one bug: her selection was checking the wrong variable, so she debugged it by fixing that line and testing again until every answer worked as expected.",
+        passageMy:
+            'သူမ၏ နောက်ဆုံးပရောဂျက်အတွက် သဇင်သည် ဤ term တွင် သင်ယူခဲ့ရသမျှကို အသုံးပြု၍ ရိုးရှင်းသော quiz ပရိုဂရမ်တစ်ခုကို ဒီဇိုင်းဆွဲခဲ့သည်။ ဦးစွာ pseudocode ဖြင့် စီစဉ်ခဲ့သည် - score ဟုခေါ်သော variable ကို 0 ဟုသတ်မှတ်ရန် sequence တစ်ခု၊ မေးခွန်း ၅ ခုတစ်ခုစီအတွက် ထပ်ခါလုပ်မည့် loop တစ်ခု၊ ပြီးလျှင် player ၏အဖြေမှန်ပါက score ထဲသို့ 1 ပေါင်းထည့်မည့် loop အတွင်းရှိ selection တစ်ခု။ သူမ၏ကုဒ်ကို ရေးပြီးသည့်နောက် သဇင်သည် quiz ကို ကိုယ်တိုင်ကစားကြည့်ခြင်းဖြင့် စမ်းသပ်ကာ၊ အဆုံးတွင် score မှန်ကန်စွာ ပေါ်မပေါ် စစ်ဆေးခဲ့သည်။ Bug တစ်ခုတွေ့ခဲ့သည် - သူမ၏ selection သည် variable မှားကို စစ်ဆေးနေခြင်းဖြစ်၍၊ ထိုစာကြောင်းကို ပြင်ဆင်ကာ အဖြေတိုင်း မျှော်လင့်ထားသည့်အတိုင်း အလုပ်လုပ်သည်အထိ ထပ်မံစမ်းသပ်ခြင်းဖြင့် debug လုပ်ခဲ့သည်။',
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Thazin's sequence do at the start?",
+            questionMy: 'သဇင်၏ sequence သည် အစတွင် ဘာလုပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'Set the score variable to 0',
+              'Delete the quiz questions',
+              'Print the final score immediately',
+              'Turn off the loop',
+            ],
+            optionsMy: [
+              'Score variable ကို 0 ဟု သတ်မှတ်ခဲ့သည်',
+              'Quiz မေးခွန်းများကို ဖျက်ခဲ့သည်',
+              'နောက်ဆုံးရမှတ်ကို ချက်ချင်းပရင့်ထုတ်ခဲ့သည်',
+              'Loop ကို ပိတ်ခဲ့သည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Thazin's loop repeat for?",
+            questionMy: 'သဇင်၏ loop သည် ဘာအတွက် ထပ်ခါလုပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'Each of the 5 questions',
+              'Every variable in the program',
+              'Every pot in a garden',
+              'Every flowchart symbol',
+            ],
+            optionsMy: [
+              'မေးခွန်း ၅ ခု တစ်ခုစီအတွက်',
+              'ပရိုဂရမ်ရှိ variable တိုင်းအတွက်',
+              'ဥယျာဉ်ရှိ အိုးတိုင်းအတွက်',
+              'Flowchart သင်္ကေတတိုင်းအတွက်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "When did Thazin's selection add 1 to the score?",
+            questionMy:
+                'သဇင်၏ selection သည် score ထဲသို့ ဘယ်အချိန်တွင် 1 ပေါင်းထည့်ခဲ့သနည်း။',
+            optionsEn: [
+              "IF the player's answer was correct",
+              'IF the loop finished',
+              'IF the variable was deleted',
+              'IF the pseudocode was printed',
+            ],
+            optionsMy: [
+              "Player ၏အဖြေမှန်ပါက",
+              'Loop ပြီးဆုံးပါက',
+              'Variable ဖျက်ခံရပါက',
+              'Pseudocode ပရင့်ထုတ်ခံရပါက',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: 'What did Thazin do to check her program worked?',
+            questionMy:
+                'သူမ၏ပရိုဂရမ် အလုပ်လုပ်မလုပ် စစ်ဆေးရန် သဇင်ဘာလုပ်ခဲ့သနည်း။',
+            optionsEn: [
+              'Tested it by playing through the quiz herself',
+              'Deleted all the variables',
+              'Skipped writing pseudocode',
+              'Turned off the computer',
+            ],
+            optionsMy: [
+              'Quiz ကို ကိုယ်တိုင်ကစားကြည့်ခြင်းဖြင့် စမ်းသပ်ခဲ့သည်',
+              'Variable အားလုံးကို ဖျက်ခဲ့သည်',
+              'Pseudocode ရေးခြင်းကို ကျော်ခဲ့သည်',
+              'ကွန်ပျူတာကို ပိတ်ခဲ့သည်',
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                'What was the bug Thazin found, and how did she fix it?',
+            questionMy:
+                'သဇင်တွေ့ရှိခဲ့သော bug မှာ အဘယ်နည်း၊ မည်သို့ပြင်ဆင်ခဲ့သနည်း။',
+            optionsEn: [
+              'Her selection checked the wrong variable, so she fixed that line and tested again',
+              'Her computer had no power, so she charged it',
+              'Her loop never started, so she deleted it',
+              'Her pseudocode was too long, so she shortened it',
+            ],
+            optionsMy: [
+              'သူမ၏ selection သည် variable မှားကို စစ်ဆေးနေသဖြင့် ထိုစာကြောင်းကို ပြင်ဆင်ပြီး ထပ်မံစမ်းသပ်ခဲ့သည်',
+              'သူမ၏ကွန်ပျူတာတွင် ပါဝါမရှိသဖြင့် အားသွင်းခဲ့သည်',
+              'သူမ၏ loop ဘယ်တော့မှ စတင်၍မရသဖြင့် ဖျက်ပစ်ခဲ့သည်',
+              'သူမ၏ pseudocode ရှည်လွန်းသဖြင့် တိုစေခဲ့သည်',
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: 'course-s1-computing-w16-d5',
+      dayNumber: 5,
+      titleEn: 'Week 16 Recap Quiz',
+      titleMy: 'တစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ',
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              'What are the three core building blocks of any algorithm?',
+          questionMy:
+              'Algorithm မည်သည့်ကိုမဆို တည်ဆောက်သော အခြေခံအစိတ်အပိုင်းသုံးမျိုးမှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Sequence, selection, and loop',
+            'Variable, hardware, and software',
+            'Input, output, and storage',
+            'Router, server, and Wi-Fi',
+          ],
+          optionsMy: [
+            'Sequence, selection, နှင့် loop',
+            'Variable, hardware, နှင့် software',
+            'Input, output, နှင့် storage',
+            'Router, server, နှင့် Wi-Fi',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is testing a program?',
+          questionMy: 'ပရိုဂရမ်တစ်ခုကို testing လုပ်ခြင်းဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Running it to check whether it works correctly',
+            'Deleting its variables',
+            'Turning it into hardware',
+            'Removing its loops',
+          ],
+          optionsMy: [
+            '၎င်းမှန်ကန်စွာ အလုပ်လုပ်မလုပ် စစ်ဆေးရန် လည်ပတ်ကြည့်ခြင်း',
+            '၎င်း၏ variable များကို ဖျက်ခြင်း',
+            '၎င်းကို hardware အဖြစ် ပြောင်းခြင်း',
+            '၎င်း၏ loop များကို ဖယ်ရှားခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What is debugging?',
+          questionMy: 'Debugging ဆိုသည်မှာ အဘယ်နည်း။',
+          optionsEn: [
+            'Finding and fixing errors in a program',
+            'Adding new bugs on purpose',
+            'Turning code into a flowchart',
+            'Renaming variables',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်တစ်ခုရှိ အမှားများကို ရှာဖွေပြင်ဆင်ခြင်း',
+            'အမှားအသစ်များကို တမင်ထည့်ခြင်း',
+            'ကုဒ်ကို flowchart အဖြစ် ပြောင်းခြင်း',
+            'Variable များကို အမည်ပြန်ပေးခြင်း',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'What should you do before writing real code?',
+          questionMy: 'တကယ့်ကုဒ်မရေးမီ ဘာလုပ်သင့်သနည်း။',
+          optionsEn: [
+            'Plan the algorithm with pseudocode or a flowchart',
+            'Test the program first',
+            'Debug a program that does not exist yet',
+            'Delete all variables',
+          ],
+          optionsMy: [
+            'Pseudocode သို့မဟုတ် flowchart ဖြင့် algorithm ကို စီစဉ်ရန်',
+            'ပရိုဂရမ်ကို အရင်စမ်းသပ်ရန်',
+            'မရှိသေးသော ပရိုဂရမ်ကို debug လုပ်ရန်',
+            'Variable အားလုံးကို ဖျက်ရန်',
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: 'Why do programmers test with different inputs?',
+          questionMy:
+              'Programmer များသည် မတူညီသော input များဖြင့် အဘယ့်ကြောင့် စမ်းသပ်ကြသနည်း။',
+          optionsEn: [
+            'To check the program works correctly in different situations',
+            'To make the program slower',
+            'Because it is required by law',
+            'To delete unused variables',
+          ],
+          optionsMy: [
+            'ပရိုဂရမ်သည် မတူညီသောအခြေအနေများတွင် မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်',
+            'ပရိုဂရမ်ကို ပိုနှေးစေရန်',
+            'ဥပဒေအရ လိုအပ်သောကြောင့်',
+            'အသုံးမပြုသော variable များကို ဖျက်ရန်',
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm4 = CourseTermDef(
+  id: 'course-secondary1-computing-t4',
+  termNumber: 4,
+  titleEn: 'Programming Fundamentals II',
+  titleMy: 'Programming အခြေခံများ ၂',
+  certificateTitleEn: 'Programming Fundamentals II',
+  certificateTitleMy: 'Programming အခြေခံ ၂',
+  weeks: [
+    _secondary1ComputingWeek13,
+    _secondary1ComputingWeek14,
+    _secondary1ComputingWeek15,
+    _secondary1ComputingWeek16,
+  ], // Term 4 complete (Weeks 13-16); Term 5 not authored yet
+);
+
+/// Secondary 1 Computing's full-year pathway. Terms 1-4 (Weeks 1-16) are
+/// now represented -- [totalWeeks] stays 36 (the full roadmap's true
 /// size) even though each term's [weeks] list is only a 4-week vertical
 /// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 12".
+/// "Week 1 of 36" honestly rather than "Week 1 of 16". Each [CourseTermDef]
+/// is a short thematic/certificate milestone (Coursera-style), not a
+/// literal 12-week school term, so the pathway grows via more terms
+/// (5, 6, 7...) rather than by inflating any one term to 12 weeks.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -4738,14 +6394,15 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   titleEn: 'Computing — Full Year Course',
   titleMy: 'ကွန်ပျူတာ — နှစ်တစ်ခုလုံး သင်တန်း',
   descriptionEn:
-      'A full academic-year computing course: 3 terms, 36 weeks, daily bite-sized lessons.',
+      'A full academic-year computing course: 36 weeks of daily bite-sized lessons across multiple thematic terms.',
   descriptionMy:
-      'ကွန်ပျူတာ ပညာသင်နှစ်တစ်ခုလုံး သင်တန်း - ၃ ဂိမ်း၊ ၃၆ ပတ်၊ နေ့စဉ် သင်ခန်းစာများ။',
+      'ကွန်ပျူတာ ပညာသင်နှစ်တစ်ခုလုံး သင်တန်း - အပိုင်းများစွာအတွင်း ၃၆ ပတ်၊ နေ့စဉ် သင်ခန်းစာများ။',
   totalWeeks: 36,
   terms: [
     _secondary1ComputingTerm1,
     _secondary1ComputingTerm2,
     _secondary1ComputingTerm3,
+    _secondary1ComputingTerm4,
   ],
 );
 
