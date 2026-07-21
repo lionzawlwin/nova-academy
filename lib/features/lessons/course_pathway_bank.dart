@@ -52981,17 +52981,2048 @@ const CourseTermDef _year1MathematicsTerm3 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// Year 1 Mathematics -- Term 4, Week 13: "Length"
+// =====================================================================
+
+const CourseWeekDef _year1MathematicsWeek13 = CourseWeekDef(
+  id: "course-year1-mathematics-w13",
+  weekNumber: 13,
+  titleEn: "Length",
+  titleMy: "အလျား",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w13-d1",
+      dayNumber: 1,
+      titleEn: "Comparing Length Quiz",
+      titleMy: "အလျားနှိုင်းယှဉ်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's hairbrush is longer than her hand mirror. Which one is shorter, the hairbrush or the hand mirror?",
+          questionMy:
+              "နှင်းဝေ၏ ဆံပင်ဖွီးသည် သူမ၏ လက်ကိုင်မှန်ထက် ပိုရှည်သည်။ ဆံပင်ဖွီးနှင့် လက်ကိုင်မှန် နှစ်ခုအနက် မည်သည့်အရာက ပိုတိုသနည်း။",
+          optionsEn: [
+            "The hairbrush",
+            "The hand mirror",
+            "They are the same length",
+            "Cannot tell",
+          ],
+          optionsMy: ["ဆံပင်ဖွီး", "လက်ကိုင်မှန်", "အလျားတူသည်", "မသိနိုင်ပါ"],
+          correctIndex: 1,
+          hintsEn: [
+            "Longer and shorter are opposite words -- if the hairbrush is the longer one, the hand mirror must be the shorter one.",
+            "Think back to comparing bigger and smaller things in KG -- this week we compare one exact thing about size: length, using the words longer and shorter.",
+          ],
+          hintsMy: [
+            "ပိုရှည်သည်နှင့် ပိုတိုသည်သည် ဆန့်ကျင်ဘက်စကားလုံးများဖြစ်သည် -- ဆံပင်ဖွီးက ပိုရှည်သည်ဆိုလျှင် လက်ကိုင်မှန်သည် ပိုတိုရမည်။",
+            "KG အတန်းက ကြီးသည်၊ ငယ်သည် နှိုင်းယှဉ်ခဲ့သည်ကို သတိရပါ -- ဤအပတ်တွင် အရွယ်အစား၏ တိကျသောအချက်တစ်ခုဖြစ်သော 'အလျား' ကို ပိုရှည်သည်၊ ပိုတိုသည် ဟူသော စကားလုံးများဖြင့် နှိုင်းယှဉ်ကြမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In grandmother's garden, the sunflower is taller than the tomato plant beside it. Which plant is shorter?",
+          questionMy:
+              "အဘွား၏ ဥယျာဉ်တွင် နေကြာပင်သည် အနီးရှိ ခရမ်းချဉ်ပင်ထက် ပိုမြင့်သည်။ မည်သည့်အပင်က ပိုတိုသနည်း။",
+          optionsEn: [
+            "The sunflower",
+            "The tomato plant",
+            "They are the same height",
+            "Cannot tell",
+          ],
+          optionsMy: ["နေကြာပင်", "ခရမ်းချဉ်ပင်", "အမြင့်တူသည်", "မသိနိုင်ပါ"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Question 1 in this same lesson -- if one thing is described as taller (or longer), the other one being compared to it must be the shorter one.",
+            "Taller and shorter describe height, which is really just length measured standing up.",
+          ],
+          hintsMy: [
+            "ဤသင်ခန်းစာ၏ ပထမမေးခွန်းကို သတိရပါ -- တစ်ခုကို ပိုမြင့်သည် (သို့) ပိုရှည်သည် ဟု ဖော်ပြထားလျှင် နှိုင်းယှဉ်ခံရသော အခြားတစ်ခုသည် ပိုတိုရမည်ဖြစ်သည်။",
+            "ပိုမြင့်သည်နှင့် ပိုတိုသည်ဆိုသည်မှာ အမြင့်ကို ဖော်ပြခြင်းဖြစ်ပြီး၊ တကယ်တမ်းတွင် ရပ်နေသော အလျားပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai measured three carrots with hand-spans: one is 3 hand-spans long, one is 6 hand-spans long, and one is 4 hand-spans long. Put them in order from shortest to longest.",
+          questionMy:
+              "နှင်းဝေသည် မုန်လာဥနီသုံးလုံးကို လက်ဖဝါးနှင့် တိုင်းတာခဲ့သည် - တစ်လုံးမှာ 3 ဖဝါးရှည်ပြီး၊ တစ်လုံးမှာ 6 ဖဝါးရှည်ပြီး၊ တစ်လုံးမှာ 4 ဖဝါးရှည်သည်။ အတိုဆုံးမှ အရှည်ဆုံးသို့ အစဉ်လိုက် စီပါ။",
+          optionsEn: ["3, 4, 6", "6, 4, 3", "4, 3, 6", "3, 6, 4"],
+          optionsMy: ["3, 4, 6", "6, 4, 3", "4, 3, 6", "3, 6, 4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 1 Week 2, where you ordered numbers from smallest to largest -- ordering hand-span lengths works exactly the same way: just put the numbers in order first.",
+            "3 is the smallest number here, and 6 is the largest, so the shortest-to-longest order starts with 3 and ends with 6.",
+          ],
+          hintsMy: [
+            "Term 1 Week 2 တွင် ဂဏန်းများကို အသေးဆုံးမှ အကြီးဆုံးသို့ စီခဲ့ရသည်ကို သတိရပါ -- လက်ဖဝါးအလျားများကို စီခြင်းသည် အတူတူပင် ဂဏန်းများကို ရှေးဦးစွာ အစဉ်လိုက်စီရုံပင် ဖြစ်သည်။",
+            "3 သည် ဤနေရာတွင် အငယ်ဆုံးဂဏန်းဖြစ်ပြီး 6 သည် အကြီးဆုံးဖြစ်သည်၊ ထို့ကြောင့် အတိုဆုံးမှ အရှည်ဆုံးအစီအစဉ်သည် 3 ဖြင့် အစပြု၍ 6 ဖြင့် အဆုံးသတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A scarf is 9 hand-spans long, a sock is 3 hand-spans long, and a towel is 6 hand-spans long. Which one is the longest?",
+          questionMy:
+              "စကာဖ်တစ်ထည်သည် 9 ဖဝါးရှည်ပြီး၊ ခြေအိတ်တစ်ရံသည် 3 ဖဝါးရှည်ပြီး၊ ပုဝါတစ်ထည်သည် 6 ဖဝါးရှည်သည်။ မည်သည့်အရာက အရှည်ဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "The scarf",
+            "The sock",
+            "The towel",
+            "They are all the same",
+          ],
+          optionsMy: ["စကာဖ်", "ခြေအိတ်", "ပုဝါ", "အားလုံး အလျားတူသည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Question 3 in this lesson -- to find the longest, compare all the hand-span numbers and pick the biggest one.",
+            "9 hand-spans is more than both 3 hand-spans and 6 hand-spans, so the scarf reaches the farthest end to end.",
+          ],
+          hintsMy: [
+            "ဤသင်ခန်းစာ၏ တတိယမေးခွန်းကို သတိရပါ -- အရှည်ဆုံးကို ရှာရန် ဖဝါးဂဏန်းများအားလုံးကို နှိုင်းယှဉ်ပြီး အကြီးဆုံးကို ရွေးပါ။",
+            "ဖဝါး 9 ဖဝါးသည် ဖဝါး 3 ဖဝါးနှင့် ဖဝါး 6 ဖဝါးထက် ပိုများသည်၊ ထို့ကြောင့် စကာဖ်သည် အစွန်းမှအစွန်းသို့ အဝေးဆုံး ရောက်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match the Length Words",
+      titleMy: "အလျားဆိုင်ရာ စကားလုံးများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w13-dm-1",
+          termEn: "Longer",
+          termMy: "ပိုရှည်သော (Longer)",
+          matchEn:
+              "Describes an object that stretches out further from end to end than another object it is being compared with -- like a broom compared to a spoon.",
+          matchMy:
+              "အခြားအရာတစ်ခုနှင့် နှိုင်းယှဉ်လျှင် အစွန်းမှအစွန်းသို့ ပိုမိုကျယ်ဝန်းစွာ ရောက်ရှိသော အရာကို ဖော်ပြသည် -- ဇွန်းနှင့် နှိုင်းယှဉ်လျှင် တံမြက်စည်းလို။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w13-dm-2",
+          termEn: "Shorter",
+          termMy: "ပိုတိုသော (Shorter)",
+          matchEn:
+              "Describes an object that does not reach as far from end to end as another object it is being compared with -- like a spoon compared to a broom.",
+          matchMy:
+              "အခြားအရာတစ်ခုနှင့် နှိုင်းယှဉ်လျှင် အစွန်းမှအစွန်းသို့ အလားတူ မရောက်နိုင်သေးသော အရာကို ဖော်ပြသည် -- တံမြက်စည်းနှင့် နှိုင်းယှဉ်လျှင် ဇွန်းလို။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w13-dm-3",
+          termEn: "Longest",
+          termMy: "အရှည်ဆုံး (Longest)",
+          matchEn:
+              "When comparing three or more objects together, this is the one with the greatest length of all of them.",
+          matchMy:
+              "အရာဝတ္ထု သုံးခု (သို့) ထို့ထက်ပို၍ နှိုင်းယှဉ်သောအခါ အားလုံးထဲမှ အရှည်ဆုံးဖြစ်သော အရာကို ခေါ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w13-dm-4",
+          termEn: "Shortest",
+          termMy: "အတိုဆုံး (Shortest)",
+          matchEn:
+              "When comparing three or more objects together, this is the one with the least length of all of them.",
+          matchMy:
+              "အရာဝတ္ထု သုံးခု (သို့) ထို့ထက်ပို၍ နှိုင်းယှဉ်သောအခါ အားလုံးထဲမှ အတိုဆုံးဖြစ်သော အရာကို ခေါ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w13-dm-5",
+          termEn: "Hand-span",
+          termMy: "လက်ဖဝါး (Hand-span)",
+          matchEn:
+              "A non-standard unit of length made by placing your open hand down again and again, end to end, alongside an object to count roughly how long it is -- like saying a table is about 8 hand-spans long.",
+          matchMy:
+              "လက်ဖဝါးကို အရာဝတ္ထုတစ်ခုအနီး အစွန်းချင်း ဆက်စပ်၍ အကြိမ်ကြိမ် ချထားခြင်းဖြင့် ခန့်မှန်းအလျားရှာသည့် စံသတ်မှတ်ခြင်းမဟုတ်သော အတိုင်းအတာတစ်ခုဖြစ်သည် -- စားပွဲသည် လက်ဖဝါး 8 ဖဝါးခန့် ရှည်သည်ဟု ပြောသကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w13-dm-6",
+          termEn: "Centimetre",
+          termMy: "စင်တီမီတာ (Centimetre)",
+          matchEn:
+              "An approximate standard unit of length read straight off a ruler, used to say roughly how long a small object is -- like saying a crayon is about 8 centimetres long.",
+          matchMy:
+              "ပေတံပေါ်မှ တိုက်ရိုက်ဖတ်ရသော ခန့်မှန်းစံသတ်မှတ် အတိုင်းအတာတစ်ခုဖြစ်ပြီး၊ အရာဝတ္ထုငယ်တစ်ခု မည်မျှရှည်သည်ကို ခန့်မှန်းပြောရန် အသုံးပြုသည် -- ခဲဒံတစ်ချောင်းသည် 8 စင်တီမီတာခန့် ရှည်သည်ဟု ပြောသကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Longer or Shorter than the Pencil?",
+      titleMy: "စီစစ်ကြမည် - ခဲတံထက် ပိုရှည်သလား၊ ပိုတိုသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Longer than the Pencil (6 Paperclips)",
+          "Shorter than the Pencil (6 Paperclips)",
+        ],
+        bucketsMy: [
+          "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုရှည်သည်",
+          "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုတိုသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y1math-w13-sort-1",
+            labelEn: "Crayon -- about 4 paperclips long",
+            labelMy: "ခဲဒံ -- ကလစ် 4 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Shorter than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-2",
+            labelEn: "Ruler -- about 9 paperclips long",
+            labelMy: "ပေတံ -- ကလစ် 9 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Longer than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုရှည်သည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-3",
+            labelEn: "Eraser -- about 2 paperclips long",
+            labelMy: "ခဲဖျက်ဆံ -- ကလစ် 2 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Shorter than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-4",
+            labelEn: "Table -- about 20 paperclips long",
+            labelMy: "စားပွဲ -- ကလစ် 20 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Longer than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုရှည်သည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-5",
+            labelEn: "Paintbrush -- about 5 paperclips long",
+            labelMy: "ဆေးပန်းချီဘရပ်ရှ် -- ကလစ် 5 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Shorter than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-6",
+            labelEn: "Storybook -- about 8 paperclips long",
+            labelMy: "ဇာတ်လမ်းစာအုပ် -- ကလစ် 8 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Longer than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုရှည်သည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-7",
+            labelEn: "Key -- about 3 paperclips long",
+            labelMy: "သော့ -- ကလစ် 3 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Shorter than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y1math-w13-sort-8",
+            labelEn: "Broom -- about 15 paperclips long",
+            labelMy: "တံမြက်စည်း -- ကလစ် 15 ခုခန့် ရှည်သည်",
+            correctBucketEn: "Longer than the Pencil (6 Paperclips)",
+            correctBucketMy: "ခဲတံ (ကလစ် 6 ခု) ထက် ပိုရှည်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Garden Helper Day",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ဥယျာဉ်ကူညီရသောနေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Garden Helper Day",
+        titleMy: "နှင်းဝေ၏ ဥယျာဉ်ကူညီရသောနေ့",
+        passageEn:
+            "On Saturday morning, Hnin Wai visited her grandmother's garden to help tie up the young bean plants. Grandmother handed her three bamboo stakes and asked her to measure each one using hand-spans, placing her open hand down again and again along each stake. The first stake was about 3 hand-spans long, the second was about 7 hand-spans long, and the third was about 5 hand-spans long. Grandmother smiled and said, 'Now line them up from shortest to longest, so we know which stake to use for the smallest plants.' Hnin Wai lined them up carefully: the 3-hand-span stake first, then the 5-hand-span stake, and the 7-hand-span stake last.\n\nNext, Hnin Wai noticed a thin twig that had fallen from the mango tree. She was curious exactly how long it was, so she fetched grandmother's ruler and laid the twig flat against it. Reading the ruler carefully, she saw the twig reached to about the 8 mark. 'This twig is about 8 centimetres long,' Hnin Wai announced proudly, remembering that a centimetre is a small standard unit you can read straight off a ruler.\n\nThen grandmother asked Hnin Wai to pull up two carrots for lunch. When she laid them side by side on the ground, one carrot reached much further than the other. Using hand-spans again, Hnin Wai found the bigger carrot was about 7 hand-spans long, while the smaller carrot was only about 4 hand-spans long. 'The first carrot is longer, and the second carrot is shorter,' Hnin Wai told her grandmother, comparing the two directly.\n\nBy the end of the morning, Hnin Wai had gathered a whole basket of vegetables: a small radish about 2 hand-spans long, the small carrot at 4 hand-spans, the big carrot at 7 hand-spans, and a long cucumber about 9 hand-spans long. Grandmother asked her to arrange them from shortest to longest on the market table. Hnin Wai lined them up one final time: radish, small carrot, big carrot, and cucumber. 'Shortest to longest, just like the bamboo stakes this morning!' she said happily, proud of everything she had measured that day.",
+        passageMy:
+            "စနေနေ့မနက်တွင် နှင်းဝေသည် ပဲပင်ငယ်များကို တန်းစီနိုင်ရန် ကူညီရန် အဘွား၏ ဥယျာဉ်သို့ လာရောက်ခဲ့သည်။ အဘွားသည် ဝါးတိုင်သုံးချောင်းကို ပေးအပ်ပြီး၊ ဖွင့်ထားသော လက်ဝါးကို ဝါးတိုင်တစ်ချောင်းစီအတိုင်း အကြိမ်ကြိမ် ချ၍ လက်ဖဝါးဖြင့် တိုင်းတာစေခဲ့သည်။ ပထမဝါးတိုင်သည် လက်ဖဝါး 3 ဖဝါးခန့် ရှည်ပြီး၊ ဒုတိယတိုင်သည် 7 ဖဝါးခန့် ရှည်ပြီး၊ တတိယတိုင်သည် 5 ဖဝါးခန့် ရှည်ခဲ့သည်။ အဘွားက ပြုံးရင်း 'ဒါဆိုရင် အခုအတိုဆုံးမှ အရှည်ဆုံးအထိ အစဉ်လိုက် စီကြည့်ပါ၊ ဒါမှ အသေးဆုံးအပင်များအတွက် ဘယ်တိုင်ကိုသုံးရမှန်း သိမှာပါ' ဟု ပြောခဲ့သည်။ နှင်းဝေသည် သေချာစွာ အစဉ်လိုက် စီခဲ့သည် - ဖဝါး 3 ဖဝါးရှိတိုင်ကို ဦးဆုံးထား၊ ထို့နောက် ဖဝါး 5 ဖဝါးရှိတိုင်၊ နောက်ဆုံးတွင် ဖဝါး 7 ဖဝါးရှိတိုင်ကို ထားခဲ့သည်။\n\nထို့နောက် နှင်းဝေသည် သရက်ပင်မှ ကျသွားသော ကိုင်းလေးတစ်ချောင်းကို တွေ့ခဲ့သည်။ ၎င်းသည် အတိအကျ မည်မျှရှည်သည်ကို သိချင်သဖြင့် အဘွား၏ ပေတံကို ယူဆောင်ခဲ့ပြီး ကိုင်းလေးကို ပေတံအနီး ညီညီညာညာ တင်ခဲ့သည်။ ပေတံကို ဂရုတစိုက် ဖတ်ကြည့်သောအခါ ကိုင်းလေးသည် 8 ဂဏန်းအနီးအထိ ရောက်နေသည်ကို မြင်ခဲ့သည်။ 'ဒီကိုင်းလေးက စင်တီမီတာ 8 ခန့် ရှည်တယ်' ဟု နှင်းဝေက ဂုဏ်ယူစွာ ကြေညာခဲ့ပြီး၊ စင်တီမီတာဆိုတာ ပေတံပေါ်မှ တိုက်ရိုက် ဖတ်နိုင်သော အသေးလေးသော စံသတ်မှတ် အတိုင်းအတာဖြစ်ကြောင်း သတိရခဲ့သည်။\n\nထို့နောက် အဘွားသည် နှင်းဝေအား နေ့လယ်စာအတွက် မုန်လာဥနီနှစ်လုံးကို နှုတ်ယူခိုင်းခဲ့သည်။ ၎င်းတို့ကို မြေပေါ်တွင် ဘေးချင်းယှဉ်ချထားသောအခါ တစ်လုံးသည် အခြားတစ်လုံးထက် ပိုဝေးအောင် ရောက်နေသည်။ လက်ဖဝါးဖြင့် ထပ်မံတိုင်းတာကြည့်ရာ ကြီးသောမုန်လာဥနီသည် လက်ဖဝါး 7 ဖဝါးခန့် ရှည်ပြီး၊ သေးသောမုန်လာဥနီမှာမူ ဖဝါး 4 ဖဝါးသာ ရှည်ကြောင်း နှင်းဝေ တွေ့ရှိခဲ့သည်။ 'ပထမမုန်လာဥနီက ပိုရှည်ပြီး ဒုတိယတစ်လုံးက ပိုတိုတယ်' ဟု နှင်းဝေက အဘွားအား နှစ်လုံးကို တိုက်ရိုက် နှိုင်းယှဉ်ပြီး ပြောပြခဲ့သည်။\n\nမနက်ချိန် အဆုံးသတ်ချိန်တွင် နှင်းဝေသည် ဟင်းသီးဟင်းရွက်များ တောင်းတစ်လုံးအပြည့် စုဆောင်းရရှိခဲ့သည် - မုန်လာဥဖြူလေးတစ်လုံး (ဖဝါး 2 ဖဝါးရှည်)၊ သေးသောမုန်လာဥနီ (ဖဝါး 4 ဖဝါး)၊ ကြီးသောမုန်လာဥနီ (ဖဝါး 7 ဖဝါး)၊ နှင့် သခွားသီးရှည်ကြီးတစ်လုံး (ဖဝါး 9 ဖဝါးခန့် ရှည်) တို့ဖြစ်သည်။ အဘွားသည် ၎င်းတို့ကို ဈေးရောင်းစားပွဲပေါ်တွင် အတိုဆုံးမှ အရှည်ဆုံးသို့ စီရန် နှင်းဝေအား ပြောခဲ့သည်။ နှင်းဝေသည် နောက်ဆုံးတစ်ကြိမ် အစဉ်လိုက် စီခဲ့သည် - မုန်လာဥဖြူ၊ သေးသောမုန်လာဥနီ၊ ကြီးသောမုန်လာဥနီ၊ ပြီးလျှင် သခွားသီး။ 'အတိုဆုံးမှ အရှည်ဆုံးလေ၊ မနက်က ဝါးတိုင်တွေလိုပဲ!' ဟု နှင်းဝေက ယနေ့ တိုင်းတာခဲ့သမျှများအတွက် ဂုဏ်ယူစွာ ပျော်ရွှင်စွာ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How did Hnin Wai order the three bamboo stakes for grandmother?",
+            questionMy:
+                "နှင်းဝေသည် အဘွားအတွက် ဝါးတိုင်သုံးချောင်းကို မည်သို့ အစဉ်လိုက် စီခဲ့သနည်း။",
+            optionsEn: [
+              "3 hand-spans, 5 hand-spans, 7 hand-spans (shortest to longest)",
+              "7 hand-spans, 5 hand-spans, 3 hand-spans (longest to shortest)",
+              "5 hand-spans, 3 hand-spans, 7 hand-spans",
+              "They were all the same length",
+            ],
+            optionsMy: [
+              "ဖဝါး 3 ဖဝါး၊ ဖဝါး 5 ဖဝါး၊ ဖဝါး 7 ဖဝါး (အတိုဆုံးမှ အရှည်ဆုံးသို့)",
+              "ဖဝါး 7 ဖဝါး၊ ဖဝါး 5 ဖဝါး၊ ဖဝါး 3 ဖဝါး (အရှည်ဆုံးမှ အတိုဆုံးသို့)",
+              "ဖဝါး 5 ဖဝါး၊ ဖဝါး 3 ဖဝါး၊ ဖဝါး 7 ဖဝါး",
+              "အားလုံး အလျားတူသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- grandmother specifically asked for shortest to longest so she'd know which stake to use for the smallest plants.",
+              "Recall Day 1 Question 3, where you also ordered hand-span lengths from shortest to longest.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အဘွားသည် အသေးဆုံးအပင်များအတွက် မည်သည့်တိုင်ကို သုံးရမည်ကို သိရန် အတိုဆုံးမှ အရှည်ဆုံးသို့ တိုက်တွန်းစွာ တောင်းဆိုခဲ့သည်။",
+              "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ထိုနေရာတွင်လည်း လက်ဖဝါးအလျားများကို အတိုဆုံးမှ အရှည်ဆုံးသို့ အစဉ်လိုက် စီခဲ့သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "About how many centimetres long was the twig Hnin Wai measured with the ruler?",
+            questionMy:
+                "နှင်းဝေ ပေတံဖြင့် တိုင်းတာခဲ့သော ကိုင်းလေးသည် စင်တီမီတာ မည်မျှခန့် ရှည်ခဲ့သနည်း။",
+            optionsEn: [
+              "6 centimetres",
+              "10 centimetres",
+              "8 centimetres",
+              "4 centimetres",
+            ],
+            optionsMy: [
+              "6 စင်တီမီတာ",
+              "10 စင်တီမီတာ",
+              "8 စင်တီမီတာ",
+              "4 စင်တီမီတာ",
+            ],
+            correctIndex: 2,
+            hintsEn: [
+              "Re-read the second paragraph -- Hnin Wai announces the exact number after reading the ruler.",
+              "Recall Day 2's drag-match definition of a centimetre -- it's an approximate standard unit you read straight off a ruler.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နှင်းဝေသည် ပေတံကိုဖတ်ပြီးနောက် အတိအကျဂဏန်းကို ကြေညာခဲ့သည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းရှိ စင်တီမီတာ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ၎င်းသည် ပေတံပေါ်မှ တိုက်ရိုက်ဖတ်ရသော ခန့်မှန်းစံသတ်မှတ် အတိုင်းအတာဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which carrot did Hnin Wai say was longer, and which was shorter?",
+            questionMy:
+                "မည်သည့် မုန်လာဥနီကို ပိုရှည်သည်ဟု နှင်းဝေက ပြောခဲ့ပြီး၊ မည်သည့်တစ်လုံးက ပိုတိုသနည်း။",
+            optionsEn: [
+              "The first carrot (7 hand-spans) was longer; the second (4 hand-spans) was shorter.",
+              "The first carrot (4 hand-spans) was longer; the second (7 hand-spans) was shorter.",
+              "Both carrots were exactly the same length.",
+              "Cannot tell which carrot was longer.",
+            ],
+            optionsMy: [
+              "ပထမမုန်လာဥနီ (ဖဝါး 7 ဖဝါး) က ပိုရှည်ပြီး၊ ဒုတိယတစ်လုံး (ဖဝါး 4 ဖဝါး) က ပိုတိုသည်။",
+              "ပထမမုန်လာဥနီ (ဖဝါး 4 ဖဝါး) က ပိုရှည်ပြီး၊ ဒုတိယတစ်လုံး (ဖဝါး 7 ဖဝါး) က ပိုတိုသည်။",
+              "မုန်လာဥနီနှစ်လုံးစလုံး အလျားတူသည်။",
+              "မည်သည့်မုန်လာဥနီ ပိုရှည်သည်ကို မသိနိုင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- Hnin Wai directly compares the two hand-span numbers she measured.",
+              "Recall Day 1 Question 1's hairbrush and hand mirror -- the object with the bigger hand-span number is always the longer one.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နှင်းဝေသည် သူတိုင်းတာခဲ့သော ဖဝါးဂဏန်းနှစ်ခုကို တိုက်ရိုက် နှိုင်းယှဉ်ခဲ့သည်။",
+              "ပထမနေ့ ပထမမေးခွန်း၏ ဆံပင်ဖွီးနှင့် လက်ကိုင်မှန်ကို သတိရပါ -- ဖဝါးဂဏန်းပိုများသောအရာသည် အမြဲတမ်း ပိုရှည်သောအရာ ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Hnin Wai arrange all four vegetables on the market table at the end of the day?",
+            questionMy:
+                "နေ့ဆုံးတွင် ဈေးရောင်းစားပွဲပေါ်၌ ဟင်းသီးဟင်းရွက် လေးမျိုးလုံးကို နှင်းဝေ မည်သို့ စီစဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Radish, small carrot, big carrot, cucumber (shortest to longest)",
+              "Small carrot, radish, cucumber, big carrot",
+              "Cucumber, radish, big carrot, small carrot",
+              "All four vegetables were the same length",
+            ],
+            optionsMy: [
+              "မုန်လာဥဖြူ၊ သေးသောမုန်လာဥနီ၊ ကြီးသောမုန်လာဥနီ၊ သခွားသီး (အတိုဆုံးမှ အရှည်ဆုံးသို့)",
+              "သေးသောမုန်လာဥနီ၊ မုန်လာဥဖြူ၊ သခွားသီး၊ ကြီးသောမုန်လာဥနီ",
+              "သခွားသီး၊ မုန်လာဥဖြူ၊ ကြီးသောမုန်လာဥနီ၊ သေးသောမုန်လာဥနီ",
+              "ဟင်းသီးဟင်းရွက် လေးမျိုးလုံး အလျားတူသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Hnin Wai says it herself, comparing it directly to how she ordered the bamboo stakes earlier that morning.",
+              "Recall Term 1 Week 2's skill of ordering three or more things smallest to largest -- this whole week has been that same ordering skill applied to length instead of numbers.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- နှင်းဝေကိုယ်တိုင် ပြောပြသကဲ့သို့၊ မနက်က ဝါးတိုင်များကို စီခဲ့ပုံနှင့် တိုက်ရိုက် နှိုင်းယှဉ်ထားသည်။",
+              "Term 1 Week 2 ၏ အရာဝတ္ထု သုံးခု (သို့) ထို့ထက်ပို၍ အသေးဆုံးမှ အကြီးဆုံးသို့ စီသည့်အရည်အချင်းကို သတိရပါ -- ဤတစ်ပတ်လုံးသည် ထိုအရည်အချင်းကိုပင် ဂဏန်းအစား အလျားနှင့် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Length",
+      titleMy: "အပတ်စဉ် ၁၃ ပြန်လည်သုံးသပ်ခြင်း - အလျား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Order these three ribbons from shortest to longest: 5 hand-spans, 2 hand-spans, 8 hand-spans.",
+          questionMy:
+              "ဤကြိုးကားချိတ်သုံးချောင်းကို အတိုဆုံးမှ အရှည်ဆုံးသို့ အစဉ်လိုက် စီပါ - ဖဝါး 5 ဖဝါး၊ ဖဝါး 2 ဖဝါး၊ ဖဝါး 8 ဖဝါး။",
+          optionsEn: ["2, 5, 8", "8, 5, 2", "5, 2, 8", "2, 8, 5"],
+          optionsMy: ["2, 5, 8", "8, 5, 2", "5, 2, 8", "2, 8, 5"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1 Question 3 and Hnin Wai's bamboo stakes in Day 4's reading passage -- order the hand-span numbers themselves from smallest to largest first.",
+            "Recall Term 1 Week 2's skill of ordering numbers smallest to largest -- the same idea works here for lengths.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခြင်းအပိုဒ်ရှိ နှင်းဝေ၏ ဝါးတိုင်များကို သတိရပါ -- ဦးစွာ ဖဝါးဂဏန်းများကို အသေးဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက် စီပါ။",
+            "Term 1 Week 2 ၏ ဂဏန်းများကို အသေးဆုံးမှ အကြီးဆုံးသို့ စီသည့်အရည်အချင်းကို သတိရပါ -- ဤနေရာတွင်လည်း အလျားများအတွက် အတူတူပင် အသုံးဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Day 3's sorting activity, about how many paperclips long was the anchor pencil used to sort objects into 'longer' and 'shorter' buckets?",
+          questionMy:
+              "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းတွင် အရာဝတ္ထုများကို 'ပိုရှည်' နှင့် 'ပိုတို' အုပ်စုများသို့ စီရန် အသုံးပြုခဲ့သော ခဲတံသည် ကလစ် မည်မျှခန့် ရှည်ခဲ့သနည်း။",
+          optionsEn: [
+            "4 paperclips",
+            "6 paperclips",
+            "9 paperclips",
+            "15 paperclips",
+          ],
+          optionsMy: ["ကလစ် 4 ခု", "ကလစ် 6 ခု", "ကလစ် 9 ခု", "ကလစ် 15 ခု"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 3's two bucket labels -- they both compared every item to one specific paperclip number.",
+            "This is the same non-standard measuring idea as hand-spans in Day 1 and Day 4 -- just using paperclips end to end instead.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ အုပ်စုနှစ်စု၏ ခေါင်းစဉ်များကို သတိရပါ -- ၎င်းတို့သည် အရာဝတ္ထုတိုင်းကို ကလစ်ဂဏန်းတစ်ခုတည်းနှင့် နှိုင်းယှဉ်ခဲ့သည်။",
+            "၎င်းသည် ပထမနေ့နှင့် စတုတ္ထနေ့ရှိ လက်ဖဝါးကဲ့သို့ စံမဟုတ်သော တိုင်းတာမှုအယူအဆတူညီပြီး၊ ကလစ်များကို အစွန်းချင်းဆက်၍ သုံးရုံသာ ကွာခြားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's reading passage, about how many centimetres long was the broken twig she measured with a ruler?",
+          questionMy:
+              "နှင်းဝေ၏ စာဖတ်ခြင်းအပိုဒ်တွင် ပေတံဖြင့် တိုင်းတာခဲ့သော ကျိုးနေသောကိုင်းလေးသည် စင်တီမီတာ မည်မျှခန့် ရှည်ခဲ့သနည်း။",
+          optionsEn: [
+            "6 centimetres",
+            "8 centimetres",
+            "10 centimetres",
+            "4 centimetres",
+          ],
+          optionsMy: [
+            "6 စင်တီမီတာ",
+            "8 စင်တီမီတာ",
+            "10 စင်တီမီတာ",
+            "4 စင်တီမီတာ",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 4's second paragraph and Day 4 Comprehension Question 2 -- Hnin Wai announced the exact reading proudly.",
+            "A centimetre is the approximate standard unit read straight off a ruler, taught in Day 2's drag-match.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ ဒုတိယစာပိုဒ်နှင့် စတုတ္ထနေ့ နားလည်မှုမေးခွန်း ၂ ကို သတိရပါ -- နှင်းဝေသည် အတိအကျဖတ်မှုကို ဂုဏ်ယူစွာ ကြေညာခဲ့သည်။",
+            "စင်တီမီတာဆိုသည်မှာ ပေတံပေါ်မှ တိုက်ရိုက်ဖတ်ရသော ခန့်မှန်းစံသတ်မှတ် အတိုင်းအတာဖြစ်ပြီး ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းတွင် သင်ကြားခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Day 1: the sunflower in grandmother's garden was taller than the tomato plant beside it. Which plant was shorter?",
+          questionMy:
+              "ပထမနေ့ကို သတိရပါ - အဘွား၏ ဥယျာဉ်ရှိ နေကြာပင်သည် အနီးရှိ ခရမ်းချဉ်ပင်ထက် ပိုမြင့်ခဲ့သည်။ မည်သည့်အပင်က ပိုတိုခဲ့သနည်း။",
+          optionsEn: [
+            "The sunflower",
+            "The tomato plant",
+            "They were the same height",
+            "Cannot tell",
+          ],
+          optionsMy: ["နေကြာပင်", "ခရမ်းချဉ်ပင်", "အမြင့်တူသည်", "မသိနိုင်ပါ"],
+          correctIndex: 1,
+          hintsEn: [
+            "If one plant is described as taller, the other one it's being compared to must be the shorter one -- the same logic as Day 1 Question 1's hairbrush and mirror.",
+            "Taller and shorter describe height, which is length measured standing straight up.",
+          ],
+          hintsMy: [
+            "အပင်တစ်ပင်ကို ပိုမြင့်သည်ဟု ဖော်ပြထားလျှင် နှိုင်းယှဉ်ခံရသော အခြားတစ်ပင်သည် ပိုတိုရမည် -- ပထမနေ့ ပထမမေးခွန်း၏ ဆံပင်ဖွီးနှင့် လက်ကိုင်မှန်ကဲ့သို့ပင် ယုတ္တိတူညီသည်။",
+            "ပိုမြင့်သည်နှင့် ပိုတိုသည်ဆိုသည်မှာ အမြင့်ကို ဖော်ပြခြင်းဖြစ်ပြီး ရပ်တည်ထားသော အလျားပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When you compare three or more objects and pick out the one with the least length of all, what word do you use?",
+          questionMy:
+              "အရာဝတ္ထု သုံးခု (သို့) ထို့ထက်ပို၍ နှိုင်းယှဉ်ပြီး အလျားအနည်းဆုံးဖြစ်သောအရာကို ရွေးထုတ်သောအခါ မည်သည့်စကားလုံးကို သုံးသနည်း။",
+          optionsEn: ["Longest", "Shorter", "Shortest", "Longer"],
+          optionsMy: ["အရှည်ဆုံး", "ပိုတိုသော", "အတိုဆုံး", "ပိုရှည်သော"],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Day 2's drag-match -- one term meant 'greatest length of all' and the opposite term meant 'least length of all' when comparing three or more things.",
+            "This word ends in '-est', just like 'longest' -- but it describes the opposite end, the smallest amount of length.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းကို သတိရပါ -- အရာဝတ္ထု သုံးခု (သို့) ထို့ထက်ပို၍ နှိုင်းယှဉ်သောအခါ တစ်ခုက 'အလျားအများဆုံး' ဟု အဓိပ္ပာယ်ရပြီး ဆန့်ကျင်ဘက်စကားလုံးက 'အလျားအနည်းဆုံး' ဟု အဓိပ္ပာယ်ရသည်။",
+            "ဤစကားလုံးသည် 'အရှည်ဆုံး' ကဲ့သို့ပင် အစွန်းတစ်ခုကိုဖော်ပြသော်လည်း၊ ဆန့်ကျင်ဘက်အစွန်း၊ အလျားအနည်းဆုံးကို ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek14 = CourseWeekDef(
+  id: "course-year1-mathematics-w14",
+  weekNumber: 14,
+  titleEn: "Mass",
+  titleMy: "အလေးချိန်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w14-d1",
+      dayNumber: 1,
+      titleEn: "Mass Quiz",
+      titleMy: "အလေးချိန် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Yadanar puts a watermelon on one side of a balance scale and an orange on the other side. The watermelon's side sinks down low, and the orange's side rises up high. Which fruit is heavier?",
+          questionMy:
+              "ရတနာသည် ဖရဲသီးတစ်လုံးကို ချိန်ခွင်တစ်ဖက်တွင်ထားပြီး၊ လိမ္မော်သီးတစ်လုံးကို အခြားတစ်ဖက်တွင် ထားသည်။ ဖရဲသီးဘက်သည် အောက်သို့ နိမ့်စွာ ကျသွားပြီး၊ လိမ္မော်သီးဘက်သည် အပေါ်သို့ မြင့်တက်သွားသည်။ မည်သည့်အသီးက ပိုလေးသနည်း။",
+          optionsEn: [
+            "The watermelon",
+            "The orange",
+            "They weigh the same",
+            "We cannot tell",
+          ],
+          optionsMy: [
+            "ဖရဲသီး",
+            "လိမ္မော်သီး",
+            "အလေးချိန် တူညီသည်",
+            "မခွဲခြားနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "On a balance scale, the side that sinks down low is holding the heavier object -- the side that rises up high is holding the lighter one.",
+            "Think back to Week 13, when you compared objects side by side to see which was longer or shorter -- this week you compare which one weighs more instead.",
+          ],
+          hintsMy: [
+            "ချိန်ခွင်ပေါ်တွင် အောက်သို့ နိမ့်စွာကျသွားသောဘက်သည် ပိုလေးသောအရာကို ကိုင်ဆောင်ထားခြင်းဖြစ်ပြီး၊ အပေါ်သို့ မြင့်တက်သွားသောဘက်သည် ပိုပေါ့သောအရာကို ကိုင်ဆောင်ထားခြင်းဖြစ်သည်။",
+            "Week 13 တွင် အရာဝတ္ထုများကို အနီးကပ် နှိုင်းယှဉ်၍ မည်သည့်အရာက ပိုရှည်သည် သို့မဟုတ် ပိုတိုသည်ကို လေ့လာခဲ့ကြောင်း သတိရပါ -- ယခုအပတ်တွင်မူ မည်သည့်အရာက ပိုလေးသည်ကို နှိုင်းယှဉ်ကြမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yadanar places a toy car on one side of a balance scale and a small storybook on the other side. Both sides stay exactly level, at the same height. What does this tell Yadanar?",
+          questionMy:
+              "ရတနာသည် ကစားစရာကားတစ်စီးကို ချိန်ခွင်တစ်ဖက်တွင်ထားပြီး၊ ပုံပြင်စာအုပ်လေးတစ်အုပ်ကို အခြားတစ်ဖက်တွင် ထားသည်။ ဘက်နှစ်ဖက်စလုံးသည် အမြင့်တူ တည်ငြိမ်နေသည်။ ဤအချက်က ရတနာအား မည်သို့ ပြောပြသနည်း။",
+          optionsEn: [
+            "The toy car and the storybook weigh the same",
+            "The toy car is heavier",
+            "The storybook is heavier",
+            "The scale is broken",
+          ],
+          optionsMy: [
+            "ကစားစရာကားနှင့် ပုံပြင်စာအုပ်တို့သည် အလေးချိန်တူညီသည်",
+            "ကစားစရာကားက ပိုလေးသည်",
+            "ပုံပြင်စာအုပ်က ပိုလေးသည်",
+            "ချိန်ခွင် ပျက်နေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the first question today -- when one side is heavier, that side sinks down. Here, neither side sinks -- what must that mean?",
+            "When a balance scale stays level with nothing sinking on either side, we say the two objects balance -- they weigh the same amount.",
+          ],
+          hintsMy: [
+            "ယနေ့ ပထမမေးခွန်းကို သတိရပါ -- တစ်ဖက်ဖက်က ပိုလေးလျှင် ထိုဘက်သည် အောက်သို့ ကျသွားသည်။ ဤနေရာတွင် မည်သည့်ဘက်မှ မကျပါ -- ဤအရာက ဘာကို ဆိုလိုသနည်း။",
+            "ချိန်ခွင်သည် ဘက်နှစ်ဖက်စလုံး မကျဘဲ အမြင့်တူ တည်ငြိမ်နေလျှင် ထိုအရာနှစ်ခုသည် အလေးချိန် ညီမျှသည် (ချိန်ညီသည်) ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bag of rice, a football, and a cotton scarf are placed side by side on a table. Which one is heaviest?",
+          questionMy:
+              "ဆန်အိတ်တစ်အိတ်၊ ဘောလုံးတစ်လုံးနှင့် ချည်ထည်ပါဝါတစ်ထည်တို့ကို စားပွဲပေါ်တွင် အတူတကွ ထားထားသည်။ မည်သည်က အလေးဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "The bag of rice",
+            "The football",
+            "The cotton scarf",
+            "They are all the same",
+          ],
+          optionsMy: [
+            "ဆန်အိတ်",
+            "ဘောလုံး",
+            "ချည်ထည်ပါဝါ",
+            "အားလုံး အလေးချိန်တူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Heaviest\" means the one that weighs the most out of three or more things -- picture holding each one in your hands to feel which pulls down the most.",
+            "Recall the watermelon and orange in the first question -- a big, solid, packed object like a full bag of rice is much heavier than a light, soft object like a scarf.",
+          ],
+          hintsMy: [
+            "\"အလေးဆုံး\" ဆိုသည်မှာ အရာဝတ္ထုသုံးခု (သို့) ထို့ထက်ပိုသောအထဲမှ အလေးချိန် အများဆုံးဖြစ်သောအရာကို ဆိုလိုသည် -- တစ်ခုစီကို လက်ဖြင့်ကိုင်ကြည့်ပြီး မည်သည်က အောက်သို့ အများဆုံး ဆွဲချသည်ကို စဉ်းစားကြည့်ပါ။",
+            "ပထမမေးခွန်းရှိ ဖရဲသီးနှင့် လိမ္မော်သီးကို သတိရပါ -- ဆန်အိတ်ကဲ့သို့ ကြီးမား၊ ခိုင်မာသော၊ ပြည့်နှက်နေသောအရာသည် ပါဝါကဲ့သို့ ပေါ့ပါးပျော့ညံ့သောအရာထက် များစွာ ပိုလေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Out of a schoolbag full of books, a single pencil, and a small toy car, which one is lightest?",
+          questionMy:
+              "စာအုပ်များနှင့် ပြည့်နေသော ကျောင်းအိတ်၊ ခဲတံတစ်ချောင်းနှင့် ကစားစရာကားလေးတစ်စီးတို့အနက် မည်သည်က အပေါ့ဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "The schoolbag full of books",
+            "The pencil",
+            "The toy car",
+            "They are all the same",
+          ],
+          optionsMy: [
+            "စာအုပ်များနှင့်ပြည့်နေသော ကျောင်းအိတ်",
+            "ခဲတံ",
+            "ကစားစရာကား",
+            "အားလုံး အလေးချိန်တူညီသည်",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "\"Lightest\" means the one that weighs the least -- opposite to \"heaviest\" from the question before this one.",
+            "Recall the second question today about the toy car and storybook balancing evenly -- a single thin pencil weighs far less than a whole toy car or a bag packed full of books.",
+          ],
+          hintsMy: [
+            "\"အပေါ့ဆုံး\" ဆိုသည်မှာ အလေးချိန် အနည်းဆုံးဖြစ်သောအရာကို ဆိုလိုပြီး၊ ယခင်မေးခွန်းမှ \"အလေးဆုံး\" ၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။",
+            "ယနေ့ ဒုတိယမေးခွန်းရှိ ကစားစရာကားနှင့် ပုံပြင်စာအုပ် ချိန်ညီနေမှုကို သတိရပါ -- ပါးလွှာသောခဲတံတစ်ချောင်းသည် ကစားစရာကားတစ်စီး (သို့) စာအုပ်များနှင့်ပြည့်နေသော အိတ်ထက် အလေးချိန် များစွာ ပေါ့ပါးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match the Mass Words",
+      titleMy: "အလေးချိန်ဆိုင်ရာ စကားလုံးများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w14-dm-1",
+          termEn: "Heavier",
+          termMy: "ပိုလေးသော (Heavier)",
+          matchEn:
+              "Weighs more than another object -- on a balance scale, this is the side that sinks down low, like the watermelon compared to the orange.",
+          matchMy:
+              "အခြားအရာတစ်ခုထက် ပိုလေးခြင်း -- ချိန်ခွင်ပေါ်တွင် ဖရဲသီးကို လိမ္မော်သီးနှင့် နှိုင်းယှဉ်သည့်ကဲ့သို့ အောက်သို့ နိမ့်စွာကျသွားသောဘက် ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w14-dm-2",
+          termEn: "Lighter",
+          termMy: "ပိုပေါ့သော (Lighter)",
+          matchEn:
+              "Weighs less than another object -- on a balance scale, this is the side that rises up high, like the orange compared to the watermelon.",
+          matchMy:
+              "အခြားအရာတစ်ခုထက် ပိုပေါ့ခြင်း -- ချိန်ခွင်ပေါ်တွင် လိမ္မော်သီးကို ဖရဲသီးနှင့် နှိုင်းယှဉ်သည့်ကဲ့သို့ အပေါ်သို့ မြင့်တက်သွားသောဘက် ဖြစ်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w14-dm-3",
+          termEn: "Heaviest",
+          termMy: "အလေးဆုံး (Heaviest)",
+          matchEn:
+              "Weighs the most out of three or more objects, like the bag of rice compared to the football and the cotton scarf.",
+          matchMy:
+              "အရာဝတ္ထုသုံးခု (သို့) ထို့ထက်ပိုသောအထဲမှ အလေးချိန် အများဆုံးဖြစ်ခြင်း -- ဆန်အိတ်ကို ဘောလုံးနှင့် ချည်ထည်ပါဝါနှင့် နှိုင်းယှဉ်သည့်ကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w14-dm-4",
+          termEn: "Lightest",
+          termMy: "အပေါ့ဆုံး (Lightest)",
+          matchEn:
+              "Weighs the least out of three or more objects, like the single pencil compared to the toy car and the full schoolbag.",
+          matchMy:
+              "အရာဝတ္ထုသုံးခု (သို့) ထို့ထက်ပိုသောအထဲမှ အလေးချိန် အနည်းဆုံးဖြစ်ခြင်း -- ခဲတံတစ်ချောင်းကို ကစားစရာကားနှင့် စာအုပ်ပြည့်အိတ်နှင့် နှိုင်းယှဉ်သည့်ကဲ့သို့ ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w14-dm-5",
+          termEn: "Balance (Level)",
+          termMy: "ချိန်ညီခြင်း (Balance)",
+          matchEn:
+              "Both sides of the scale stay exactly level, at the same height -- this means the two objects weigh exactly the same, like the toy car and the storybook.",
+          matchMy:
+              "ချိန်ခွင်၏ ဘက်နှစ်ဖက်စလုံး အမြင့်တူ တည်ငြိမ်နေခြင်း -- ဤသည်မှာ ကစားစရာကားနှင့် ပုံပြင်စာအုပ်ကဲ့သို့ အရာနှစ်ခု၏ အလေးချိန် အတိအကျ တူညီခြင်းကို ဆိုလိုသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w14-dm-6",
+          termEn: "Weighing with Blocks",
+          termMy: "တုံးများဖြင့် အလေးချိန်တိုင်းခြင်း (Weighing with Blocks)",
+          matchEn:
+              "Placing identical small blocks on the other side of a balance scale until it goes level, then counting the blocks -- for example, an object that balances against 4 blocks weighs about 4 blocks.",
+          matchMy:
+              "တူညီသော တုံးလေးများကို ချိန်ခွင်၏ အခြားတစ်ဖက်တွင် ချိန်ညီသည်အထိ တစ်ခုပြီးတစ်ခု တင်ပြီး ရေတွက်ခြင်း -- ဥပမာ တုံး 4 တုံးနှင့် ချိန်ညီသော အရာသည် တုံး 4 တုံးခန့် အလေးချိန်ရှိသည်ဟု ဆိုနိုင်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Heavier or Lighter than a Notebook?",
+      titleMy: "စီစစ်ကြမည် - စာအုပ်ထက် ပိုလေးလား၊ ပိုပေါ့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Heavier than the Notebook", "Lighter than the Notebook"],
+        bucketsMy: ["စာအုပ်ထက် ပိုလေးသည်", "စာအုပ်ထက် ပိုပေါ့သည်"],
+        items: [
+          SortingItem(
+            id: "y1math-w14-sort-1",
+            labelEn: "A brick",
+            labelMy: "အုတ်တုံးတစ်ချပ်",
+            correctBucketEn: "Heavier than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုလေးသည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-2",
+            labelEn: "A single sheet of paper",
+            labelMy: "စက္ကူတစ်ရွက်",
+            correctBucketEn: "Lighter than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုပေါ့သည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-3",
+            labelEn: "A bag of rice",
+            labelMy: "ဆန်အိတ်တစ်အိတ်",
+            correctBucketEn: "Heavier than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုလေးသည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-4",
+            labelEn: "A small feather",
+            labelMy: "အမွှေးလေးတစ်ချောင်း",
+            correctBucketEn: "Lighter than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုပေါ့သည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-5",
+            labelEn: "A schoolbag full of books",
+            labelMy: "စာအုပ်များနှင့်ပြည့်နေသော ကျောင်းအိတ်",
+            correctBucketEn: "Heavier than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုလေးသည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-6",
+            labelEn: "A drinking straw",
+            labelMy: "သောက်ရေပြွန်တစ်ချောင်း",
+            correctBucketEn: "Lighter than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုပေါ့သည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-7",
+            labelEn: "A watermelon",
+            labelMy: "ဖရဲသီးတစ်လုံး",
+            correctBucketEn: "Heavier than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုလေးသည်",
+          ),
+          SortingItem(
+            id: "y1math-w14-sort-8",
+            labelEn: "A cotton ball",
+            labelMy: "ဂွမ်းလုံးလေးတစ်လုံး",
+            correctBucketEn: "Lighter than the Notebook",
+            correctBucketMy: "စာအုပ်ထက် ပိုပေါ့သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Yadanar Weighs with Blocks",
+      titleMy: "စာဖတ်ခြင်း - ရတနာ တုံးများဖြင့် အလေးချိန်ချိန်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Yadanar's Weighing Day",
+        titleMy: "ရတနာ၏ အလေးချိန်ချိန်သောနေ့",
+        passageEn:
+            "One sunny morning, Yadanar was helping her grandmother get ready for a big family lunch. Grandmother handed Yadanar a little balance scale with two pans hanging from a bar, plus a potato and an onion. \"Let's see which one is heavier,\" Grandmother said. Yadanar placed the potato on the left pan and the onion on the right pan. Slowly, the potato's side sank down low, while the onion's side rose up high. \"The potato is heavier than the onion,\" Yadanar said, \"and the onion is lighter than the potato.\"\n\nNext, Grandmother wanted to know how heavy a ripe mango was, using a box of small wooden blocks. Yadanar placed the mango on one pan and began adding blocks to the other pan, one at a time. After the first block, that side was still much higher than the mango's side. Yadanar kept adding blocks -- two, three, four -- and on the fourth block, both pans finally stayed exactly level. \"The mango balances against 4 blocks,\" Yadanar told Grandmother, \"so it weighs about 4 blocks.\"\n\nThen Yadanar weighed a small guava the very same way. This time, the pans went level after only 2 blocks. \"The guava only needed 2 blocks to balance,\" Yadanar said, \"so the guava is lighter than the mango, which needed 4 blocks.\"\n\nFinally, Grandmother wanted to know how heavy the big bag of rice was, using the very same box of blocks. Yadanar placed the bag of rice on one pan and began adding blocks to the other pan, one at a time. She added block after block -- five, six, seven -- and the rice's side still stayed down low. Only after the eighth block did both pans finally stay exactly level. \"The rice balances against 8 blocks,\" Yadanar said, \"so it weighs about 8 blocks -- that is a lot more than the mango's 4 blocks!\"\n\nBefore lunch, Yadanar lined up everything she had weighed that morning in her mind: the bag of rice with its 8 blocks, the mango with its 4 blocks, and the guava with its 2 blocks. \"The bag of rice is the heaviest of the three -- it took the most blocks to balance,\" she said. \"And the guava, with only 2 blocks, is the lightest of all.\" Grandmother smiled -- Yadanar had learned to compare mass using a balance scale and blocks in just one morning.",
+        passageMy:
+            "နေမင်းရောင်ခြည် လှပသောနံနက်တစ်ခုတွင် ရတနာသည် အဖွားအား မိသားစု နေ့လယ်စာပွဲကြီးအတွက် ပြင်ဆင်ရန် ကူညီနေသည်။ အဖွားသည် ရတနာအား ဘားတစ်ချောင်းမှ ချိတ်ဆွဲထားသော ခွင်ပန်းကန်နှစ်ခုပါသည့် ချိန်ခွင်လေးတစ်ခုနှင့် အာလူးတစ်လုံး၊ ကြက်သွန်နီတစ်လုံးကို ပေးအပ်သည်။ \"ဘယ်တစ်ခုက ပိုလေးလဲ ကြည့်ရအောင်\" ဟု အဖွားက ပြောလိုက်သည်။ ရတနာသည် အာလူးကို ဘယ်ဘက်ပန်းကန်တွင်ထားပြီး၊ ကြက်သွန်နီကို ညာဘက်ပန်းကန်တွင် ထားလိုက်သည်။ ဖြည်းညင်းစွာ အာလူးဘက်ပန်းကန်သည် အောက်သို့ နိမ့်စွာ ကျသွားပြီး၊ ကြက်သွန်နီဘက်ပန်းကန်မှာမူ အပေါ်သို့ မြင့်တက်သွားသည်။ \"အာလူးက ကြက်သွန်နီထက် ပိုလေးတယ်\" ဟု ရတနာက ပြောလိုက်ပြီး \"ကြက်သွန်နီကတော့ အာလူးထက် ပိုပေါ့တယ်\" ဟု ဆက်ပြောသည်။\n\nထို့နောက် အဖွားသည် သစ်သားတုံးလေးများပါသော သေတ္တာလေးတစ်လုံးကို အသုံးပြုပြီး မှည့်နေသော သရက်သီးတစ်လုံး မည်မျှလေးသည်ကို သိလိုသည်။ ရတနာသည် သရက်သီးကို ပန်းကန်တစ်ဖက်တွင်ထားပြီး၊ အခြားပန်းကန်တွင် တုံးလေးများကို တစ်ခုပြီးတစ်ခု ထည့်စပါသည်။ ပထမတုံးပြီးနောက် ထိုဘက်ပန်းကန်သည် သရက်သီးဘက်ထက် အများကြီး မြင့်နေဆဲ ဖြစ်သည်။ ရတနာသည် တုံးများကို ဆက်ထည့်လိုက်သည် -- နှစ်တုံး၊ သုံးတုံး၊ လေးတုံး -- ပြီးနောက် စတုတ္ထတုံးတွင် ပန်းကန်နှစ်ဖက်စလုံး နောက်ဆုံးတွင် အမြင့်တူ တည်ငြိမ်သွားသည်။ \"သရက်သီးက တုံး 4 တုံးနှင့် ချိန်ညီသွားတယ်\" ဟု ရတနာက အဖွားအား ပြောလိုက်ပြီး \"ဒါကြောင့် ဒီသရက်သီးက တုံး 4 တုံးလောက် အလေးချိန်ရှိတယ်\" ဟု ဆက်ပြောသည်။\n\nထို့နောက် ရတနာသည် မာလကာသီးလေးတစ်လုံးကို အလားတူနည်းလမ်းဖြင့် ချိန်ကြည့်သည်။ ဤတစ်ကြိမ်တွင်မူ တုံး 2 တုံးသာ ထည့်လိုက်ရာ ပန်းကန်နှစ်ဖက် အမြင့်တူ ဖြစ်သွားသည်။ \"မာလကာသီးက ချိန်ညီဖို့ တုံး 2 တုံးပဲ လိုအပ်တယ်\" ဟု ရတနာက ပြောလိုက်ပြီး \"ဒါကြောင့် မာလကာသီးက တုံး 4 တုံး လိုအပ်တဲ့ သရက်သီးထက် ပိုပေါ့တယ်\" ဟု ဆက်ပြောသည်။\n\nနောက်ဆုံးတွင် အဖွားသည် ထိုတုံးများပါသော သေတ္တာလေးအတိုင်းကို ပြန်အသုံးပြု၍ ဆန်အိတ်ကြီးတစ်အိတ် မည်မျှလေးသည်ကို သိလိုသည်။ ရတနာသည် ဆန်အိတ်ကို ပန်းကန်တစ်ဖက်တွင်ထားပြီး၊ အခြားပန်းကန်တွင် တုံးလေးများကို တစ်ခုပြီးတစ်ခု ထည့်စပါသည်။ သူသည် တုံးများကို ဆက်တိုက်ထည့်လိုက်သည် -- ငါးတုံး၊ ခြောက်တုံး၊ ခုနစ်တုံး -- သို့သော် ဆန်အိတ်ဘက်ပန်းကန်သည် အောက်တွင်ပင် ကျန်နေဆဲ ဖြစ်သည်။ အဌမတုံးမှ ရောက်မှသာ ပန်းကန်နှစ်ဖက်စလုံး နောက်ဆုံးတွင် အမြင့်တူ တည်ငြိမ်သွားသည်။ \"ဆန်အိတ်က တုံး 8 တုံးနှင့် ချိန်ညီသွားတယ်\" ဟု ရတနာက ပြောလိုက်ပြီး \"ဒါကြောင့် ဆန်အိတ်က တုံး 8 တုံးလောက် အလေးချိန်ရှိတယ် -- ဒါက သရက်သီးရဲ့ တုံး 4 တုံးထက် အများကြီးများတယ်\" ဟု ဆက်ပြောသည်။\n\nနေ့လယ်စာမစားမီ ရတနာသည် ထိုနံနက်က ချိန်ခဲ့သမျှကို စိတ်ထဲတွင် တန်းစီကြည့်သည် -- တုံး 8 တုံးရှိသော ဆန်အိတ်၊ တုံး 4 တုံးရှိသော သရက်သီးနှင့် တုံး 2 တုံးရှိသော မာလကာသီးတို့ ဖြစ်သည်။ \"ဆန်အိတ်က သုံးခုထဲမှာ အလေးဆုံးပဲ -- ချိန်ညီဖို့ တုံးအများဆုံး လိုအပ်ခဲ့တယ်\" ဟု သူမက ပြောလိုက်သည်။ \"ပြီးတော့ တုံး 2 တုံးပဲရှိတဲ့ မာလကာသီးက အားလုံးထဲမှာ အပေါ့ဆုံးပဲ\" ဟု ဆက်ပြောသည်။ အဖွားသည် ပြုံးလိုက်သည် -- ရတနာသည် တစ်နံနက်တည်းအတွင်း ချိန်ခွင်နှင့် တုံးများကို အသုံးပြု၍ အလေးချိန် နှိုင်းယှဉ်တတ်လာခဲ့ပြီ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happened to the potato's side of the balance scale when Yadanar compared it to the onion?",
+            questionMy:
+                "ရတနာသည် အာလူးကို ကြက်သွန်နီနှင့် နှိုင်းယှဉ်သောအခါ ချိန်ခွင်ရှိ အာလူးဘက်ပန်းကန်တွင် မည်သို့ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "It sank down low, because the potato is heavier",
+              "It rose up high, because the potato is lighter",
+              "It stayed exactly level",
+              "Nothing happened",
+            ],
+            optionsMy: [
+              "အောက်သို့ နိမ့်စွာ ကျသွားခဲ့သည်၊ အာလူးက ပိုလေးသောကြောင့် ဖြစ်သည်",
+              "အပေါ်သို့ မြင့်တက်သွားခဲ့သည်၊ အာလူးက ပိုပေါ့သောကြောင့် ဖြစ်သည်",
+              "အမြင့်တူ တည်ငြိမ်နေခဲ့သည်",
+              "ဘာမျှ မဖြစ်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it describes exactly what the potato's pan did compared to the onion's pan.",
+              "Recall Day 1's rule and Day 2's drag-match definition of \"Heavier\" -- the heavier object's side always sinks down low.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အာလူးပန်းကန်သည် ကြက်သွန်နီပန်းကန်နှင့် နှိုင်းယှဉ်လျှင် မည်သို့ဖြစ်ခဲ့သည်ကို တိတိကျကျ ဖော်ပြထားသည်။",
+              "ပထမနေ့ရှိ စည်းမျဉ်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းရှိ \"ပိုလေးသော\" ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ပိုလေးသောအရာ၏ ဘက်ပန်းကန်သည် အမြဲတမ်း အောက်သို့ နိမ့်စွာ ကျတတ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many blocks did it take to balance the mango exactly level?",
+            questionMy:
+                "သရက်သီးကို အမြင့်တူ ချိန်ညီစေရန် တုံးမည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["2 blocks", "4 blocks", "6 blocks", "1 block"],
+            optionsMy: [
+              "တုံး 2 တုံး",
+              "တုံး 4 တုံး",
+              "တုံး 6 တုံး",
+              "တုံး 1 တုံး",
+            ],
+            correctIndex: 1,
+            hintsEn: [
+              "Re-read the second paragraph -- Yadanar counted the blocks out loud one at a time as she added them.",
+              "Recall Day 2's drag-match definition of \"Weighing with Blocks\" -- an object weighs about as many blocks as it takes to make the scale level.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရတနာသည် တုံးများကို တစ်ခုချင်းထည့်စဉ် အသံထွက်၍ ရေတွက်ခဲ့သည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းရှိ \"တုံးများဖြင့် အလေးချိန်တိုင်းခြင်း\" ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ချိန်ခွင်ကို ညီအောင်လုပ်ရန် လိုအပ်သည့် တုံးအရေအတွက်သည် ထိုအရာ၏ ခန့်မှန်းအလေးချိန် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Compared to the mango, was the guava heavier or lighter, and how many blocks balanced it?",
+            questionMy:
+                "သရက်သီးနှင့် နှိုင်းယှဉ်ပါက မာလကာသီးသည် ပိုလေးသလား ပိုပေါ့သလား၊ ၎င်းကို ချိန်ညီစေရန် တုံးမည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Lighter, with only 2 blocks",
+              "Heavier, with 6 blocks",
+              "The same weight, with 4 blocks",
+              "Lighter, with 4 blocks",
+            ],
+            optionsMy: [
+              "ပိုပေါ့သည်၊ တုံး 2 တုံးသာ လိုအပ်သည်",
+              "ပိုလေးသည်၊ တုံး 6 တုံး လိုအပ်သည်",
+              "အလေးချိန်တူညီသည်၊ တုံး 4 တုံး လိုအပ်သည်",
+              "ပိုပေါ့သည်၊ တုံး 4 တုံး လိုအပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph -- it directly compares how many blocks the guava needed against how many the mango needed.",
+              "Recall Day 3's sorting activity -- fewer blocks needed to balance means the object is lighter, just like the light items sorted into the \"Lighter\" bucket.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- မာလကာသီးအတွက် လိုအပ်သောတုံးအရေအတွက်ကို သရက်သီးနှင့် တိုက်ရိုက် နှိုင်းယှဉ်ဖော်ပြထားသည်။",
+              "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ချိန်ညီရန် တုံးနည်းနည်းသာ လိုအပ်လျှင် ထိုအရာသည် ပိုပေါ့ကြောင်း ဆိုလိုပြီး \"ပိုပေါ့သည်\" ခွင်ထဲသို့ စီထားသော ပေါ့ပါးသောအရာများနှင့် တူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Out of the bag of rice, the mango, and the guava, which one did Yadanar say was the heaviest?",
+            questionMy:
+                "ဆန်အိတ်၊ သရက်သီးနှင့် မာလကာသီးတို့အနက် မည်သည်ကို ရတနာက အလေးဆုံးဟု ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "The bag of rice",
+              "The mango",
+              "The guava",
+              "All three were the same",
+            ],
+            optionsMy: [
+              "ဆန်အိတ်",
+              "သရက်သီး",
+              "မာလကာသီး",
+              "သုံးခုစလုံး အလေးချိန်တူညီသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Yadanar lines up all three things she weighed and names the heaviest one directly.",
+              "Recall how many blocks balanced each item -- the rice needed 8 blocks, the mango needed only 4, and the guava needed only 2 -- the most blocks needed means the heaviest object.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရတနာသည် သူမ ချိန်ခဲ့သမျှ သုံးခုကို တန်းစီပြီး အလေးဆုံးအရာကို တိုက်ရိုက် အမည်ခေါ်သည်။",
+              "ဆန်အိတ်၊ သရက်သီးနှင့် မာလကာသီးတစ်ခုစီအတွက် ချိန်ညီစေရန် လိုအပ်ခဲ့သော တုံးအရေအတွက်ကို သတိရပါ -- ဆန်အိတ်အတွက် တုံး 8 တုံး၊ သရက်သီးအတွက် တုံး 4 တုံးသာ၊ မာလကာသီးအတွက် တုံး 2 တုံးသာ လိုအပ်ခဲ့သည် -- တုံးအများဆုံး လိုအပ်သည့်အရာသည် အလေးဆုံးအရာ ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Mass",
+      titleMy: "အပတ်စဉ် ၁၄ ပြန်လည်သုံးသပ်ခြင်း - အလေးချိန်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On a balance scale, which side sinks down low -- the heavier side or the lighter side?",
+          questionMy:
+              "ချိန်ခွင်ပေါ်တွင် မည်သည့်ဘက်က အောက်သို့ နိမ့်စွာ ကျသွားသနည်း -- ပိုလေးသောဘက်လား ပိုပေါ့သောဘက်လား။",
+          optionsEn: [
+            "The heavier side",
+            "The lighter side",
+            "Neither side moves",
+            "Both sides sink together",
+          ],
+          optionsMy: [
+            "ပိုလေးသောဘက်",
+            "ပိုပေါ့သောဘက်",
+            "ဘက်နှစ်ဖက်စလုံး မရွေ့ပါ",
+            "ဘက်နှစ်ဖက်စလုံး အတူတကွ ကျသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's watermelon and orange -- the watermelon's side, holding the heavier fruit, sank down low.",
+            "Recall Day 4's reading passage -- the potato's side sank down because the potato was heavier than the onion.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ရှိ ဖရဲသီးနှင့် လိမ္မော်သီးကို သတိရပါ -- ပိုလေးသောအသီးကို ကိုင်ဆောင်ထားသော ဖရဲသီးဘက်ပန်းကန်သည် အောက်သို့ နိမ့်စွာ ကျသွားခဲ့သည်။",
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- အာလူးက ကြက်သွန်နီထက် ပိုလေးသောကြောင့် အာလူးပန်းကန်သည် အောက်သို့ ကျသွားခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bag of rice, a football, and a cotton scarf sit on a table. If the bag of rice is the heaviest, and the football is heavier than the scarf, which one is the lightest?",
+          questionMy:
+              "ဆန်အိတ်၊ ဘောလုံးနှင့် ချည်ထည်ပါဝါတို့ကို စားပွဲပေါ်တွင် ထားထားသည်။ ဆန်အိတ်က အလေးဆုံးဖြစ်ပြီး ဘောလုံးက ပါဝါထက် ပိုလေးလျှင် မည်သည်က အပေါ့ဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "The cotton scarf",
+            "The bag of rice",
+            "The football",
+            "They are all the same",
+          ],
+          optionsMy: [
+            "ချည်ထည်ပါဝါ",
+            "ဆန်အိတ်",
+            "ဘောလုံး",
+            "အားလုံး အလေးချိန်တူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about these exact three objects -- the bag of rice was named heaviest there too.",
+            "If rice is heaviest and the football beats the scarf, the scarf must be left holding last place -- the lightest.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းရှိ ဤအရာဝတ္ထုသုံးခုတည်းကို သတိရပါ -- ထိုနေရာတွင်လည်း ဆန်အိတ်ကို အလေးဆုံးဟု အမည်ခေါ်ခဲ့သည်။",
+            "ဆန်အိတ်က အလေးဆုံးဖြစ်ပြီး ဘောလုံးက ပါဝါထက် ပိုလေးလျှင် ပါဝါသည် နောက်ဆုံးနေရာတွင် ကျန်ရစ်ရမည် -- ဆိုလိုသည်မှာ အပေါ့ဆုံး ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yadanar used small blocks to weigh a fruit, adding blocks one at a time until the scale went level. What does it mean when the two pans finally stay level?",
+          questionMy:
+              "ရတနာသည် သစ်သားတုံးလေးများကို အသုံးပြု၍ အသီးတစ်လုံးကို ချိန်ခဲ့ပြီး ချိန်ခွင် ညီသည်အထိ တုံးများကို တစ်ခုပြီးတစ်ခု ထည့်ခဲ့သည်။ ပန်းကန်နှစ်ခုစလုံး နောက်ဆုံးတွင် အမြင့်တူ တည်ငြိမ်နေခြင်းက မည်သည့်အဓိပ္ပာယ်ရှိသနည်း။",
+          optionsEn: [
+            "The fruit weighs the same as that many blocks",
+            "The fruit is much heavier than the blocks",
+            "The scale needs more blocks",
+            "The fruit weighs nothing at all",
+          ],
+          optionsMy: [
+            "အသီးသည် ထိုတုံးအရေအတွက်နှင့် အလေးချိန်တူညီသည်",
+            "အသီးသည် တုံးများထက် များစွာ ပိုလေးသည်",
+            "ချိန်ခွင်တွင် တုံးထပ်ထည့်ရန် လိုအပ်သည်",
+            "အသီးသည် အလေးချိန် လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match definition of \"Balance (Level)\" -- level pans mean the two sides weigh exactly the same.",
+            "Recall Day 4's reading passage -- the mango balanced against 4 blocks, so Yadanar said it weighs about 4 blocks.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်းရှိ \"ချိန်ညီခြင်း\" ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ပန်းကန်များ အမြင့်တူဖြစ်ခြင်းက ဘက်နှစ်ဖက်၏ အလေးချိန် အတိအကျ တူညီကြောင်း ဆိုလိုသည်။",
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- သရက်သီးသည် တုံး 4 တုံးနှင့် ချိန်ညီသွားခဲ့ပြီး ထို့ကြောင့် ရတနာက ၄ တုံးလောက် အလေးချိန်ရှိသည်ဟု ပြောခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, how many blocks did it take to balance the heavy bag of rice, and what did that tell Yadanar?",
+          questionMy:
+              "စာဖတ်ခြင်းအပိုဒ်တွင် လေးလံသော ဆန်အိတ်ကို ချိန်ညီစေရန် တုံးမည်မျှ လိုအပ်ခဲ့ပြီး ၎င်းက ရတနာအား မည်သို့ ပြောပြခဲ့သနည်း။",
+          optionsEn: [
+            "8 blocks -- the rice was the heaviest of the three",
+            "2 blocks -- the rice was the lightest of the three",
+            "4 blocks -- the rice weighed the same as the mango",
+            "1 block -- the rice was very light",
+          ],
+          optionsMy: [
+            "တုံး 8 တုံး -- ဆန်အိတ်သည် သုံးခုထဲမှ အလေးဆုံးဖြစ်သည်",
+            "တုံး 2 တုံး -- ဆန်အိတ်သည် သုံးခုထဲမှ အပေါ့ဆုံးဖြစ်သည်",
+            "တုံး 4 တုံး -- ဆန်အိတ်သည် သရက်သီးနှင့် အလေးချိန်တူညီသည်",
+            "တုံး 1 တုံး -- ဆန်အိတ်သည် အလွန်ပေါ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 4's reading passage -- Yadanar kept adding blocks one at a time, and the rice's side stayed down low for a long time before the pans finally leveled.",
+            "Recall Day 1's third question about the same bag of rice -- needing the most blocks to balance an object also shows that it is the heaviest.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- ရတနာသည် တုံးများကို တစ်ခုပြီးတစ်ခု ဆက်တိုက်ထည့်ခဲ့ပြီး ဆန်အိတ်ဘက်ပန်းကန်သည် ကြာမြင့်စွာ အောက်တွင် ကျန်နေခဲ့ပြီးမှ ပန်းကန်များ အမြင့်တူ ဖြစ်သွားခဲ့သည်။",
+            "ပထမနေ့ တတိယမေးခွန်းရှိ ဤဆန်အိတ်တည်းကို သတိရပါ -- အရာဝတ္ထုတစ်ခုကို ချိန်ညီစေရန် တုံးအများဆုံး လိုအပ်ခြင်းသည်လည်း ထိုအရာ အလေးဆုံးဖြစ်ကြောင်း ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence best sums up the different ways you compared mass this week?",
+          questionMy:
+              "ဤအပတ်တွင် အလေးချိန်ကို မတူညီသောနည်းလမ်းများဖြင့် နှိုင်းယှဉ်ခဲ့ပုံကို အကောင်းဆုံး အနှစ်ချုပ်သော စာကြောင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "We used a balance scale to see which side is heavier, and counted blocks to measure how heavy things are",
+            "We only ever guessed which object looked bigger with our eyes",
+            "We measured how long objects were using hand-spans",
+            "We counted how many cups of water filled a jug",
+          ],
+          optionsMy: [
+            "ချိန်ခွင်ဖြင့် မည်သည့်ဘက်က ပိုလေးသည်ကို ကြည့်ခဲ့ပြီး၊ တုံးများ ရေတွက်၍ အရာဝတ္ထုများ မည်မျှ လေးသည်ကို တိုင်းတာခဲ့သည်",
+            "မျက်စိဖြင့် မည်သည့်အရာက ပိုကြီးသည်ဟု ခန့်မှန်းရုံသာ ပြုလုပ်ခဲ့သည်",
+            "လက်တစ်ဝါးများဖြင့် အရာဝတ္ထုများ မည်မျှ ရှည်သည်ကို တိုင်းတာခဲ့သည်",
+            "အိုးထဲသို့ ရေခွက် မည်မျှ ဖြည့်ခဲ့ရသည်ကို ရေတွက်ခဲ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall every day this week: Day 1's balance scale, Day 2's vocabulary, Day 3's sorting, and Day 4's block-counting reading passage -- they all measured mass, not length or capacity.",
+            "Recall Week 13's focus on length, and think ahead to next week's focus on capacity -- this week was specifically about how heavy or light things are.",
+          ],
+          hintsMy: [
+            "ဤအပတ် နေ့တိုင်းကို သတိရပါ - ပထမနေ့ ချိန်ခွင်၊ ဒုတိယနေ့ ဝေါဟာရများ၊ တတိယနေ့ စီစစ်ခြင်းနှင့် စတုတ္ထနေ့ တုံးရေတွက်သော စာဖတ်ခြင်းအပိုဒ် -- အားလုံးသည် အလေးချိန်ကို တိုင်းတာခဲ့ခြင်းသာ ဖြစ်ပြီး အရှည် (သို့) ဆံ့ခြင်းအား မဟုတ်ပါ။",
+            "Week 13 တွင် အရှည်ကို အာရုံစိုက်ခဲ့ခြင်းနှင့် နောက်အပတ်တွင် ဆံ့ခြင်းအားကို အာရုံစိုက်တော့မည်ဖြစ်ကြောင်း စဉ်းစားကြည့်ပါ -- ယခုအပတ်မှာမူ အရာများ မည်မျှ လေးသည် (သို့) ပေါ့သည်ဆိုသည်ကိုသာ အထူးဖော်ပြထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek15 = CourseWeekDef(
+  id: "course-year1-mathematics-w15",
+  weekNumber: 15,
+  titleEn: "Capacity",
+  titleMy: "ဆံ့နိုင်စွမ်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w15-d1",
+      dayNumber: 1,
+      titleEn: "Capacity Quiz: Full, Empty, and Holds More",
+      titleMy:
+          "ဆံ့နိုင်စွမ်း ပဟေဋ္ဌိ - ပြည့်ခြင်း၊ အလွတ်ခြင်းနှင့် ပိုမိုဆံ့ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Ei Ei fills a cup with water all the way to the top, so not one more drop can fit inside. What word describes the cup now?",
+          questionMy:
+              "အိအိသည် ခွက်တစ်ခွက်ကို ခေါင်းအထိ ရေဖြည့်လိုက်ရာ ရေတစ်စက်မျှ ထပ်ထည့်စရာ နေရာမရှိတော့ပေ။ ယခုခွက်ကို မည်သည့်စကားလုံးဖြင့် ဖော်ပြရမည်နည်း။",
+          optionsEn: ["Full", "Empty", "Half full", "Holds less"],
+          optionsMy: ["ပြည့်", "အလွတ်", "ထက်ဝက်ပြည့်", "ပိုနည်းဆံ့"],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back to Week 13, when you looked closely at objects from end to end to compare their length -- here you look closely at whether there is any empty space left inside the cup.",
+            "If water reaches the very top with no empty space left at all, the cup is full.",
+          ],
+          hintsMy: [
+            "Week 13 တွင် အရာဝတ္ထုများ၏ အရှည်ကို နှိုင်းယှဉ်ရန် အစမှအဆုံးအထိ ဂရုတစိုက် ကြည့်ခဲ့ရသည်ကို သတိရပါ -- ဤနေရာတွင်လည်း ခွက်ထဲ၌ နေရာလွတ် ကျန်ရှိနေသလား ဂရုတစိုက် ကြည့်ရမည်။",
+            "ရေသည် အထက်ဆုံးအထိ ရောက်ပြီး နေရာလွတ် လုံးဝမကျန်တော့ပါက ထိုခွက်ကို ပြည့်သည်ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ei Ei tips a bottle upside down over the sink, and not a single drop of water comes out. What word describes the bottle?",
+          questionMy:
+              "အိအိသည် ပုလင်းကို ရေကန်ပေါ်တွင် မှောက်ချလိုက်ရာ ရေတစ်စက်မျှ မကျလာပေ။ ဤပုလင်းကို မည်သည့်စကားလုံးဖြင့် ဖော်ပြရမည်နည်း။",
+          optionsEn: ["Half full", "Full", "Empty", "Holds more"],
+          optionsMy: ["ထက်ဝက်ပြည့်", "ပြည့်", "အလွတ်", "ပိုမိုဆံ့"],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Week 14, when a balance pan with nothing sitting on it at all was the lightest side -- a bottle with nothing at all inside it works the same way with water.",
+            "If not even one drop of water is left inside, the bottle has nothing in it at all -- it is empty.",
+          ],
+          hintsMy: [
+            "Week 14 တွင် အလေးချိန်ချိန်ခွင်ပေါ်၌ ဘာမျှ မတင်ထားသောဘက်သည် အပေါ့ဆုံးဖြစ်ခဲ့ကြောင်း သတိရပါ -- ရေအတွက်လည်း အတွင်းတွင် ဘာမျှ မရှိသော ပုလင်းသည် အလားတူ ဖြစ်သည်။",
+            "ရေတစ်စက်မျှ အတွင်းတွင် မကျန်တော့ပါက ထိုပုလင်းသည် ဘာမျှ မရှိတော့ပေ -- အလွတ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ei Ei fills Jug A using 3 cups of water, and fills Jug B using 6 cups of water before each one is completely full. Which jug holds more water?",
+          questionMy:
+              "အိအိသည် ရေအိုး A ကို အပြည့်ဖြည့်ရန် ခွက် ၃ ခွက် အသုံးပြုပြီး၊ ရေအိုး B ကို အပြည့်ဖြည့်ရန် ခွက် ၆ ခွက် အသုံးပြုသည်။ မည်သည့်ရေအိုးက ရေကို ပိုမိုဆံ့သနည်း။",
+          optionsEn: [
+            "Jug A",
+            "Jug B",
+            "They hold the same amount",
+            "Cannot tell",
+          ],
+          optionsMy: [
+            "ရေအိုး A",
+            "ရေအိုး B",
+            "နှစ်လုံးလုံး အတူတူပင် ဆံ့သည်",
+            "မခွဲခြားနိုင်ပါ",
+          ],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Week 13, when the pencil that took more hand-spans to measure was the longer one -- here, the jug that takes more cups to fill is the one that holds more.",
+            "Compare the two numbers directly: 6 cups is more than 3 cups, so the jug that needed 6 cups holds more water.",
+          ],
+          hintsMy: [
+            "Week 13 တွင် လက်ဆုပ်ပိုများစွာ တိုင်းရသောခဲတံသည် ပိုရှည်ခဲ့ကြောင်း သတိရပါ -- ဤနေရာတွင်လည်း ခွက်ပိုများစွာ လိုအပ်သောရေအိုးသည် ပိုမိုဆံ့သောရေအိုးဖြစ်သည်။",
+            "ဂဏန်းနှစ်ခုကို တိုက်ရိုက် နှိုင်းယှဉ်ကြည့်ပါ - ခွက် ၆ ခွက်သည် ခွက် ၃ ခွက်ထက် ပိုများသဖြင့် ခွက် ၆ ခွက်လိုအပ်သော ရေအိုးက ရေကို ပိုမိုဆံ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A marked water bottle has a line drawn on it with the number 4 written beside it, showing about how many litres it holds when completely full. About how many litres does this bottle hold when full?",
+          questionMy:
+              "မှတ်သားထားသော ရေပုလင်းတွင် ၄ ဂဏန်း ရေးထားသော မျဉ်းကြောင်းတစ်ခု ရှိပြီး၊ အပြည့်ဖြစ်သောအခါ ခန့်မှန်းအားဖြင့် လီတာ မည်မျှ ဆံ့သနည်းကို ဖော်ပြသည်။ ဤပုလင်းသည် အပြည့်ဖြစ်သောအခါ ခန့်မှန်းအားဖြင့် လီတာ မည်မျှ ဆံ့သနည်း။",
+          optionsEn: ["2", "4", "6", "8"],
+          optionsMy: ["၂", "၄", "၆", "၈"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Week 14, when a bag's approximate weight was read off as \"about 3 small weights\" using the number marked next to a picture -- reading litres from a marked bottle works the same way.",
+            "Look at the exact number written beside the marked line on the bottle -- that number is the approximate number of litres.",
+          ],
+          hintsMy: [
+            "Week 14 တွင် အိတ်တစ်လုံး၏ ခန့်မှန်းအလေးချိန်ကို ပုံအနီးရှိ ဂဏန်းကိုကြည့်ပြီး \"အလေးချိန်အသေး ၃ ခုခန့်\" ဟု ဖတ်ရှုခဲ့ရသည်ကို သတိရပါ -- ပုလင်းပေါ်ရှိ မျဉ်းကြောင်းမှ လီတာ ဖတ်ရှုခြင်းသည်လည်း အလားတူပင်ဖြစ်သည်။",
+            "ပုလင်းပေါ်ရှိ မျဉ်းကြောင်းအနီးတွင် ရေးထားသော ဂဏန်းအတိအကျကို ကြည့်ပါ -- ထိုဂဏန်းသည် ခန့်မှန်း လီတာအရေအတွက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match the Capacity Words",
+      titleMy: "ဆံ့နိုင်စွမ်းဆိုင်ရာ စကားလုံးများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w15-dm-1",
+          termEn: "Full",
+          termMy: "ပြည့် (Full)",
+          matchEn:
+              "A container filled all the way to the top, with no more room for even one more drop of water or sand.",
+          matchMy:
+              "ခေါင်းအထိ အပြည့်ဖြည့်ထားပြီး ရေ (သို့) သဲ တစ်စက်မျှ ထပ်ထည့်စရာ နေရာမရှိတော့သော အိုး/ခွက်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w15-dm-2",
+          termEn: "Empty",
+          termMy: "အလွတ် (Empty)",
+          matchEn:
+              "A container with nothing at all inside it -- no water, no sand, completely bare.",
+          matchMy:
+              "အတွင်းတွင် ဘာမျှ မရှိသော အိုး/ခွက် -- ရေမရှိ၊ သဲမရှိ၊ လုံးဝ ဗလာဖြစ်နေသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w15-dm-3",
+          termEn: "Half Full",
+          termMy: "ထက်ဝက်ပြည့် (Half Full)",
+          matchEn:
+              "A container filled only up to the middle -- halfway between completely empty and completely full.",
+          matchMy:
+              "အလယ်မျဉ်းအထိသာ ဖြည့်ထားသော အိုး/ခွက် -- လုံးဝအလွတ်နှင့် လုံးဝအပြည့်ကြား တစ်ဝက်နေရာ။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w15-dm-4",
+          termEn: "Holds More",
+          termMy: "ပိုမိုဆံ့ (Holds More)",
+          matchEn:
+              "When one container needs more cups of water to fill it completely than another container does.",
+          matchMy:
+              "အိုးတစ်လုံးကို အခြားအိုးတစ်လုံးထက် အပြည့်ဖြည့်ရန် ရေခွက်ပိုများစွာ လိုအပ်ခြင်း။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w15-dm-5",
+          termEn: "Holds Less",
+          termMy: "ပိုနည်းဆံ့ (Holds Less)",
+          matchEn:
+              "When one container needs fewer cups of water to fill it completely than another container does.",
+          matchMy:
+              "အိုးတစ်လုံးကို အခြားအိုးတစ်လုံးထက် အပြည့်ဖြည့်ရန် ရေခွက် ပိုနည်းစွာသာ လိုအပ်ခြင်း။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w15-dm-6",
+          termEn: "Litres",
+          termMy: "လီတာ (Litres)",
+          matchEn:
+              "A standard unit for measuring how much a container holds -- a marked bottle showing the number 4 next to its line holds about 4 litres when full.",
+          matchMy:
+              "အိုး/ပုလင်းတစ်ခု ဆံ့နိုင်သည့်ပမာဏကို တိုင်းတာသည့် စံအတိုင်းအတာတစ်ခု -- ပုလင်းတွင် ၄ ဂဏန်းပါသော မျဉ်းကြောင်းရှိလျှင် အပြည့်ဖြစ်သောအခါ ၄ လီတာခန့် ဆံ့သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Holds More or Less Than the Mixing Bowl?",
+      titleMy: "စီစစ်ကြမည် - ရောပန်းကန်ထက် ပိုဆံ့သလား၊ နည်းဆံ့သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Holds More Than the Mixing Bowl",
+          "Holds Less Than the Mixing Bowl",
+        ],
+        bucketsMy: ["ရောပန်းကန်ထက် ပိုဆံ့ခြင်း", "ရောပန်းကန်ထက် နည်းဆံ့ခြင်း"],
+        items: [
+          SortingItem(
+            id: "y1math-w15-sort-1",
+            labelEn:
+                "Teacup -- takes 1 cup to fill (fewer than the mixing bowl's 4 cups)",
+            labelMy:
+                "လက်ဖက်ရည်ခွက် -- ဖြည့်ရန် ၁ ခွက်သာ လိုသည် (ရောပန်းကန်၏ ၄ ခွက်ထက် နည်းသည်)",
+            correctBucketEn: "Holds Less Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် နည်းဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-2",
+            labelEn: "Small flower vase -- takes 2 cups to fill",
+            labelMy: "ပန်းအိုးလေး -- ဖြည့်ရန် ၂ ခွက် လိုသည်",
+            correctBucketEn: "Holds Less Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် နည်းဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-3",
+            labelEn: "Rice bowl -- takes 3 cups to fill",
+            labelMy: "ထမင်းပန်းကန် -- ဖြည့်ရန် ၃ ခွက် လိုသည်",
+            correctBucketEn: "Holds Less Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် နည်းဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-4",
+            labelEn: "Small milk cup -- takes 3 cups to fill",
+            labelMy: "နို့ခွက်လေး -- ဖြည့်ရန် ၃ ခွက် လိုသည်",
+            correctBucketEn: "Holds Less Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် နည်းဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-5",
+            labelEn:
+                "Kettle -- takes 5 cups to fill (more than the mixing bowl's 4 cups)",
+            labelMy:
+                "ရေကရား -- ဖြည့်ရန် ၅ ခွက် လိုသည် (ရောပန်းကန်၏ ၄ ခွက်ထက် ပိုသည်)",
+            correctBucketEn: "Holds More Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် ပိုဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-6",
+            labelEn: "Big jug -- takes 6 cups to fill",
+            labelMy: "ရေအိုးကြီး -- ဖြည့်ရန် ၆ ခွက် လိုသည်",
+            correctBucketEn: "Holds More Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် ပိုဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-7",
+            labelEn: "Water bucket -- takes 8 cups to fill",
+            labelMy: "ရေပုံး -- ဖြည့်ရန် ၈ ခွက် လိုသည်",
+            correctBucketEn: "Holds More Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် ပိုဆံ့ခြင်း",
+          ),
+          SortingItem(
+            id: "y1math-w15-sort-8",
+            labelEn: "Large basin -- takes 9 cups to fill",
+            labelMy: "အင်တုံကြီး -- ဖြည့်ရန် ၉ ခွက် လိုသည်",
+            correctBucketEn: "Holds More Than the Mixing Bowl",
+            correctBucketMy: "ရောပန်းကန်ထက် ပိုဆံ့ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ei Ei's Kitchen Helper Day",
+      titleMy: "စာဖတ်ခြင်း - အိအိ၏ မီးဖိုချောင်ကူညီသည့်နေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ei Ei's Kitchen Helper Day",
+        titleMy: "အိအိ၏ မီးဖိုချောင်ကူညီသည့်နေ့",
+        passageEn:
+            "Ei Ei was helping her mother get ready for a family picnic by the river. Before they could leave, every water bottle in the kitchen needed to be filled, so Ei Ei picked up a small cup and got to work.\n\nFirst, Ei Ei filled the smallest bottle. She poured cup after cup of water in, counting out loud: one cup, two cups, three cups -- and the bottle was already full to the top, with no room left for even one more drop. \"This little bottle only holds 3 cups,\" Ei Ei said.\n\nNext, Ei Ei filled the medium-sized bottle the same way. This time she needed five cups of water before it was completely full. \"Five cups is more than three cups,\" Ei Ei thought, \"so this medium bottle holds more water than the little one.\"\n\nThen Ei Ei picked up the biggest bottle of all. She poured cup after cup, and kept counting all the way up to eight cups before the bottle was finally full. \"Eight cups! That's even more than five,\" Ei Ei said. She lined the three bottles up in a row -- little, medium, and big -- from the one that held the least water to the one that held the most.\n\nWhile Ei Ei worked, she noticed her mother's big glass water jug sitting on the counter. It had a little picture drawn on the side showing it holds about 2 litres of water when it is completely full. Right now the jug was only filled up to the middle line, so Ei Ei knew it was half full, not completely full.\n\nEi Ei's little brother came running in and gulped down the last of his water, tipping his cup all the way back. When he set the cup down, not one drop was left inside. \"Your cup is empty now,\" Ei Ei told him, smiling, before she went back to packing the full bottles into the picnic basket.",
+        passageMy:
+            "အိအိသည် မြစ်ကမ်းဘေးတွင် ကျင်းပမည့် မိသားစုပျော်ပွဲအတွက် ပြင်ဆင်ရန် အမေ့ကို ကူညီနေသည်။ ထွက်ခွာမီ မီးဖိုချောင်ရှိ ရေပုလင်းတိုင်းကို ရေဖြည့်ရမည်ဖြစ်သဖြင့် အိအိသည် ခွက်လေးတစ်ခွက်ကို ကောက်ယူပြီး လုပ်ငန်း စတင်လေသည်။\n\nပထမဆုံးအနေနှင့် အိအိသည် အသေးဆုံးပုလင်းကို ရေဖြည့်လေသည်။ သူမသည် ရေကို ခွက်ပြီးခွက် ဖြည့်သွင်းကာ အသံထွက်ရေတွက်လေသည် - တစ်ခွက်၊ နှစ်ခွက်၊ သုံးခွက် -- ပုလင်းသည် ခေါင်းအထိ ပြည့်သွားပြီးဖြစ်ပြီး ရေတစ်စက်မျှ ထပ်ထည့်စရာ နေရာမရှိတော့ပေ။ \"ဒီပုလင်းလေးက ခွက် ၃ ခွက်ပဲ ဆံ့တယ်\" ဟု အိအိက ပြောလေသည်။\n\nနောက်တွင် အိအိသည် အလယ်အလတ်အရွယ် ပုလင်းကို အလားတူနည်းဖြင့် ရေဖြည့်လေသည်။ ဤတစ်ကြိမ်တွင် ပုလင်းပြည့်ရန် ခွက် ၅ ခွက် လိုအပ်ခဲ့သည်။ \"ခွက် ၅ ခွက်ဟာ ၃ ခွက်ထက် ပိုများတယ်\" ဟု အိအိ တွေးမိသည်၊ \"ဒါကြောင့် ဒီအလယ်အလတ်ပုလင်းက ပုလင်းလေးထက် ရေကို ပိုမိုဆံ့တယ်။\"\n\nထို့နောက် အိအိသည် အကြီးဆုံးပုလင်းကို ကောက်ယူလေသည်။ သူမသည် ရေကို ခွက်ပြီးခွက် ဖြည့်သွင်းကာ ခွက် ၈ ခွက်အထိ ဆက်လက်ရေတွက်ပြီးမှ ပုလင်းသည် အပြည့်ရောက်လေသည်။ \"ခွက် ၈ ခွက်လား! ဒါက ၅ ခွက်ထက်တောင် ပိုများသေးတယ်\" ဟု အိအိက ပြောလေသည်။ သူမသည် ပုလင်းသုံးလုံးကို ရေအနည်းဆုံးဆံ့သည့်ပုလင်းမှ ရေအများဆုံးဆံ့သည့်ပုလင်းအထိ -- ပုလင်းလေး၊ အလယ်အလတ်ပုလင်းနှင့် ပုလင်းကြီး အစဉ်လိုက် တန်းစီထားလေသည်။\n\nအိအိ အလုပ်လုပ်နေစဉ် အမေ့ပန်းကန်ရံစားပွဲပေါ်ရှိ မှန်ရေအိုးကြီးကို သတိထားမိသည်။ ၎င်း၏ ဘေးတွင် အပြည့်ဖြစ်သောအခါ ရေ လီတာ ၂ လီတာခန့် ဆံ့ကြောင်း ဖော်ပြထားသော ပုံလေးတစ်ခု ရေးဆွဲထားသည်။ လက်ရှိတွင် ရေအိုးသည် အလယ်မျဉ်းအထိသာ ဖြည့်ထားသဖြင့် အိအိသည် ၎င်းသည် အပြည့်မဟုတ်ဘဲ ထက်ဝက်ပြည့်ဖြစ်နေကြောင်း သိလေသည်။\n\nအိအိ၏ ညီလေးသည် ပြေးဝင်လာပြီး သူ့ခွက်ကို လုံးဝမှောက်ချကာ ကျန်ရှိနေသော ရေကို သောက်ချလိုက်သည်။ ခွက်ကို ချထားလိုက်သောအခါ တစ်စက်မျှ ကျန်တော့သည် မဟုတ်ပေ။ \"နင့်ခွက်က အခု အလွတ်ဖြစ်သွားပြီ\" ဟု အိအိက ပြုံးရင်း သူ့ကို ပြောလိုက်ပြီးနောက် ပြည့်နေသော ပုလင်းများကို ပျော်ပွဲခြင်းထဲသို့ ပြန်ထည့်ရန် သွားလေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many cups did it take to fill the smallest bottle completely?",
+            questionMy:
+                "အသေးဆုံးပုလင်းကို အပြည့်ဖြည့်ရန် ခွက် မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["3", "5", "8", "2"],
+            optionsMy: ["၃", "၅", "၈", "၂"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- Ei Ei counts out loud as she fills the smallest bottle.",
+              "Recall Day 1's third quiz question about comparing two jugs by counting cups -- use the same counting idea here.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အိအိသည် အသေးဆုံးပုလင်းကို ဖြည့်စဉ် အသံထွက်ရေတွက်သည်။",
+              "ပထမနေ့ တတိယမေးခွန်း၏ ရေအိုးနှစ်လုံးကို ခွက်ရေတွက်ကာ နှိုင်းယှဉ်ခြင်းကို သတိရပြီး ဤနေရာတွင်လည်း အလားတူ ရေတွက်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Ei Ei said the medium bottle holds more water than the little one. How many cups did it take to fill the medium bottle?",
+            questionMy:
+                "အလယ်အလတ်ပုလင်းသည် ပုလင်းလေးထက် ရေပိုမိုဆံ့သည်ဟု အိအိက ပြောခဲ့သည်။ အလယ်အလတ်ပုလင်းကို အပြည့်ဖြည့်ရန် ခွက် မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["3", "5", "8", "4"],
+            optionsMy: ["၃", "၅", "၈", "၄"],
+            correctIndex: 1,
+            hintsEn: [
+              "Re-read the third paragraph -- it names the exact number of cups the medium bottle needed.",
+              "Recall Day 2's drag-match pair for \"Holds More\" -- the container that needs more cups is the one that holds more water, just like the medium bottle here.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အလယ်အလတ်ပုလင်းအတွက် လိုအပ်သော ခွက်အရေအတွက်ကို အတိအကျ ဖော်ပြထားသည်။",
+              "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ \"ပိုမိုဆံ့ (Holds More)\" ကို သတိရပါ -- ခွက်ပိုများစွာ လိုအပ်သောအိုးသည် ရေကို ပိုမိုဆံ့သည့်အိုးဖြစ်သည်၊ ဤနေရာတွင် အလယ်အလတ်ပုလင်းကဲ့သို့ပင်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which bottle held the most water: the little bottle, the medium bottle, or the big bottle?",
+            questionMy:
+                "ပုလင်းလေး၊ အလယ်အလတ်ပုလင်း၊ ပုလင်းကြီး တို့အနက် မည်သည့်ပုလင်းက ရေကို အများဆုံးဆံ့သနည်း။",
+            optionsEn: [
+              "The little bottle",
+              "The medium bottle",
+              "The big bottle",
+              "All three hold the same amount",
+            ],
+            optionsMy: [
+              "ပုလင်းလေး",
+              "အလယ်အလတ်ပုလင်း",
+              "ပုလင်းကြီး",
+              "သုံးလုံးလုံး အတူတူပင် ဆံ့သည်",
+            ],
+            correctIndex: 2,
+            hintsEn: [
+              "Re-read the fourth paragraph -- Ei Ei lines up all three bottles in order from least to most.",
+              "Recall Day 3's sorting activity -- the container that needs the most cups to fill is the one that holds the most water, just like the big bottle here needing 8 cups.",
+            ],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အိအိသည် ပုလင်းသုံးလုံးလုံးကို အနည်းဆုံးမှ အများဆုံးအထိ အစဉ်လိုက် တန်းစီထားသည်။",
+              "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ခွက်အများဆုံး လိုအပ်သောအိုးသည် ရေကို အများဆုံးဆံ့သည့်အိုးဖြစ်ပြီး ဤနေရာတွင် ခွက် ၈ ခွက်လိုအပ်သော ပုလင်းကြီးကဲ့သို့ပင်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What word describes Ei Ei's little brother's cup after he drank down the last of the water?",
+            questionMy:
+                "ရေအားလုံးကို သောက်ချလိုက်ပြီးနောက် အိအိ၏ ညီလေး၏ ခွက်ကို မည်သည့်စကားလုံးဖြင့် ဖော်ပြရမည်နည်း။",
+            optionsEn: ["Full", "Half full", "Empty", "Holds more"],
+            optionsMy: ["ပြည့်", "ထက်ဝက်ပြည့်", "အလွတ်", "ပိုမိုဆံ့"],
+            correctIndex: 2,
+            hintsEn: [
+              "Re-read the final paragraph -- Ei Ei tells her little brother exactly what word describes his cup now.",
+              "Recall Day 1's second quiz question about a bottle with not a single drop of water left inside -- the same word applies here.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- အိအိက ညီလေးအား ၎င်း၏ခွက်ကို မည်သို့ဖော်ပြရမည်ကို တိုက်ရိုက် ပြောပြသည်။",
+              "ပထမနေ့ ဒုတိယမေးခွန်း၏ ရေတစ်စက်မျှ မကျန်တော့သော ပုလင်းကို သတိရပါ -- ဤနေရာတွင်လည်း အလားတူ စကားလုံးပင် အသုံးပြုသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Capacity",
+      titleMy: "အပတ်စဉ် ၁၅ ပြန်လည်သုံးသပ်ခြင်း - ဆံ့နိုင်စွမ်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A cup is filled with water all the way to the top, so no more can fit. What word describes it?",
+          questionMy:
+              "ခွက်တစ်ခွက်ကို ခေါင်းအထိ ရေဖြည့်ထားပြီး နေရာလွတ် မရှိတော့ပါ။ ဤခွက်ကို မည်သည့်စကားလုံးဖြင့် ဖော်ပြရမည်နည်း။",
+          optionsEn: ["Full", "Empty", "Half full", "Holds less"],
+          optionsMy: ["ပြည့်", "အလွတ်", "ထက်ဝက်ပြည့်", "ပိုနည်းဆံ့"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first quiz question, and Day 2's drag-match pair for \"Full\" -- both describe this exact same idea.",
+            "If there is no empty space left inside at all, the container is full.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ \"ပြည့် (Full)\" ကို သတိရပါ -- နှစ်ခုစလုံးသည် ဤအတူတူသောအယူအဆကို ဖော်ပြသည်။",
+            "အတွင်းတွင် နေရာလွတ် လုံးဝမကျန်တော့ပါက ထိုအိုးသည် ပြည့်နေသည်ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bottle marked to hold about 2 litres when full is now filled only up to the middle line. What word describes it right now?",
+          questionMy:
+              "အပြည့်ဖြစ်သောအခါ လီတာ ၂ လီတာခန့် ဆံ့ကြောင်း မှတ်သားထားသော ပုလင်းတစ်လုံးကို ယခုအခါ အလယ်မျဉ်းအထိသာ ရေဖြည့်ထားသည်။ ယခု ဤပုလင်းကို မည်သည့်စကားလုံးဖြင့် ဖော်ပြရမည်နည်း။",
+          optionsEn: ["Full", "Empty", "Half full", "Holds more"],
+          optionsMy: ["ပြည့်", "အလွတ်", "ထက်ဝက်ပြည့်", "ပိုမိုဆံ့"],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Day 4's reading passage -- Ei Ei's mother's water jug was filled only up to the middle line, marked to hold about 2 litres when full.",
+            "Recall Day 2's drag-match pair for \"Half Full\" -- filled up to the middle, halfway between empty and full.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်ကို သတိရပါ -- အိအိ၏ အမေ့ရေအိုးသည် အလယ်မျဉ်းအထိသာ ဖြည့်ထားပြီး၊ အပြည့်ဖြစ်လျှင် လီတာ ၂ လီတာခန့် ဆံ့ကြောင်း မှတ်သားထားသည်။",
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ \"ထက်ဝက်ပြည့် (Half Full)\" ကို သတိရပါ -- အလယ်မျဉ်းအထိသာ ဖြည့်ထားပြီး အလွတ်နှင့် အပြည့်ကြား တစ်ဝက်နေရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Ei Ei's kitchen, the little bottle took 3 cups to fill, the medium bottle took 5 cups, and the big bottle took 8 cups. Which bottle holds the most water?",
+          questionMy:
+              "အိအိ၏ မီးဖိုချောင်တွင် ပုလင်းလေးကို ခွက် ၃ ခွက်၊ အလယ်အလတ်ပုလင်းကို ခွက် ၅ ခွက်၊ ပုလင်းကြီးကို ခွက် ၈ ခွက်ဖြင့် ဖြည့်ခဲ့သည်။ မည်သည့်ပုလင်းက ရေကို အများဆုံးဆံ့သနည်း။",
+          optionsEn: [
+            "The little bottle",
+            "The medium bottle",
+            "The big bottle",
+            "All three hold the same amount",
+          ],
+          optionsMy: [
+            "ပုလင်းလေး",
+            "အလယ်အလတ်ပုလင်း",
+            "ပုလင်းကြီး",
+            "သုံးလုံးလုံး အတူတူပင် ဆံ့သည်",
+          ],
+          correctIndex: 2,
+          hintsEn: [
+            "Recall Day 4's reading passage, fourth paragraph -- Ei Ei lines up the three bottles from least to most.",
+            "Recall Day 3's sorting activity -- the container needing the most cups to fill is the one that holds the most water.",
+          ],
+          hintsMy: [
+            "စတုတ္ထနေ့ စာဖတ်ခြင်းအပိုဒ်၊ စတုတ္ထစာပိုဒ်ကို သတိရပါ -- အိအိသည် ပုလင်းသုံးလုံးကို အနည်းဆုံးမှ အများဆုံးအထိ တန်းစီထားသည်။",
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ခွက်အများဆုံးလိုအပ်သောအိုးသည် ရေကို အများဆုံးဆံ့သည့်အိုးဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Jug A took 3 cups to fill completely, and Jug B took 6 cups to fill completely. Which jug holds less water?",
+          questionMy:
+              "ရေအိုး A ကို အပြည့်ဖြည့်ရန် ခွက် ၃ ခွက်၊ ရေအိုး B ကို အပြည့်ဖြည့်ရန် ခွက် ၆ ခွက် လိုအပ်ခဲ့သည်။ မည်သည့်ရေအိုးက ရေကို ပိုနည်းစွာ ဆံ့သနည်း။",
+          optionsEn: [
+            "Jug A",
+            "Jug B",
+            "They hold the same amount",
+            "Cannot tell",
+          ],
+          optionsMy: [
+            "ရေအိုး A",
+            "ရေအိုး B",
+            "နှစ်လုံးလုံး အတူတူပင် ဆံ့သည်",
+            "မခွဲခြားနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third quiz question about Jug A and Jug B -- the jug needing fewer cups holds less water.",
+            "Recall Day 3's sorting activity bucket for \"Holds Less Than the Mixing Bowl\" -- fewer cups needed means less water held.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်း ရေအိုး A နှင့် B ကို သတိရပါ -- ခွက်ပိုနည်းစွာလိုအပ်သောရေအိုးသည် ရေကို ပိုနည်းစွာဆံ့သည်။",
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်း၏ \"ရောပန်းကန်ထက် နည်းဆံ့ခြင်း\" ခွက်ကို သတိရပါ -- ခွက်ပိုနည်းစွာလိုအပ်ခြင်းသည် ရေပိုနည်းစွာဆံ့ခြင်းကို ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A marked bottle shows it holds about 4 litres when completely full. What number is written beside the marked line on the bottle?",
+          questionMy:
+              "အပြည့်ဖြစ်သောအခါ လီတာ ၄ လီတာခန့် ဆံ့ကြောင်း ဖော်ပြထားသော ပုလင်းတစ်လုံး ရှိသည်။ ပုလင်းပေါ်ရှိ မျဉ်းကြောင်းအနီးတွင် မည်သည့်ဂဏန်း ရေးထားသနည်း။",
+          optionsEn: ["2", "4", "6", "8"],
+          optionsMy: ["၂", "၄", "၆", "၈"],
+          correctIndex: 1,
+          hintsEn: [
+            "Recall Day 1's fourth quiz question about a marked bottle -- the same approximate litres reading idea appears again here.",
+            "Recall Day 2's drag-match pair for \"Litres\" -- the number written next to the marked line is the approximate number of litres.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်း၏ မှတ်သားထားသောပုလင်းကို သတိရပါ -- ဤနေရာတွင်လည်း ခန့်မှန်း လီတာဖတ်ရှုခြင်း အယူအဆတူ ထပ်တလဲလဲ ပေါ်လာသည်။",
+            "ဒုတိယနေ့ တွဲချိတ်လေ့ကျင့်ခန်း၏ \"လီတာ (Litres)\" ကို သတိရပါ -- မျဉ်းကြောင်းအနီးတွင် ရေးထားသောဂဏန်းသည် ခန့်မှန်း လီတာအရေအတွက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _year1MathematicsWeek16 = CourseWeekDef(
+  id: "course-year1-mathematics-w16",
+  weekNumber: 16,
+  titleEn: "Putting It Together: Measures",
+  titleMy: "အားလုံးကို ပေါင်းစပ်ကြည့်ကြမည် - တိုင်းတာမှုများ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-math-w16-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Measures Quiz",
+      titleMy: "တိုင်းတာမှုများ ပေါင်းစပ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Yadanar is packing a picnic bag for a trip to the park. She measures the rolling pin using hand-spans: it measures about 6 hand-spans long. The wooden spoon measures about 2 hand-spans long. Which item is longer?",
+          questionMy:
+              "ရတနာသည် ပန်းခြံသို့ သွားရန် ပျော်ပွဲစားအိတ် ထုပ်ပိုးနေသည်။ သူမသည် မုန့်လိမ်တံကို လက်ဝါးဖြန့်ချက်များဖြင့် တိုင်းတာရာ အနီးစပ်ဆုံး လက်ဝါးဖြန့်ချက် ၆ ချက် ရှည်သည်။ သစ်သားဇွန်းလေးမှာ အနီးစပ်ဆုံး လက်ဝါးဖြန့်ချက် ၂ ချက်သာ ရှည်သည်။ မည်သည့်ပစ္စည်းက ပိုရှည်သနည်း။",
+          optionsEn: [
+            "The rolling pin",
+            "The wooden spoon",
+            "They are the same length",
+            "Neither can be measured",
+          ],
+          optionsMy: [
+            "မုန့်လိမ်တံ",
+            "သစ်သားဇွန်းလေး",
+            "နှစ်ခုစလုံး အလျားတူသည်",
+            "မည်သည့်ပစ္စည်းကိုမျှ မတိုင်းတာနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's hand-span lesson -- more hand-spans means a longer length.",
+            "Compare the two numbers: 6 hand-spans and 2 hand-spans -- which number is bigger?",
+          ],
+          hintsMy: [
+            "Week 13 ၏ လက်ဝါးဖြန့်ချက် သင်ခန်းစာကို သတိရပါ -- လက်ဝါးဖြန့်ချက် ပိုများလေ အလျား ပိုရှည်လေ ဖြစ်သည်။",
+            "ဂဏန်းနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ပါ - လက်ဝါးဖြန့်ချက် ၆ ချက်နှင့် ၂ ချက် -- မည်သည့်ဂဏန်းက ပိုကြီးသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yadanar puts the bag of rice snacks on one side of a balance scale and the bag of paper napkins on the other side. The rice snacks' side sinks down low, while the napkins' side rises up high. Which bag is heavier?",
+          questionMy:
+              "ရတနာသည် ထမင်းမုန့်အိတ်ကို ချိန်ခွင်၏ တစ်ဖက်တွင်နှင့် စက္ကူပတ်ရုံးအိတ်ကို အခြားတစ်ဖက်တွင် တင်ထားသည်။ ထမင်းမုန့်ဘက်သည် နိမ့်စွာ ကျသွားပြီး ပတ်ရုံးဘက်သည် မြင့်စွာ တက်သွားသည်။ မည်သည့်အိတ်က ပိုလေးသနည်း။",
+          optionsEn: [
+            "The bag of rice snacks",
+            "The bag of napkins",
+            "They weigh the same",
+            "The balance scale is broken",
+          ],
+          optionsMy: [
+            "ထမင်းမုန့်အိတ်",
+            "ပတ်ရုံးအိတ်",
+            "နှစ်ခုစလုံး လေးချိန်တူသည်",
+            "ချိန်ခွင် ပျက်နေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 14's balance scale lesson -- the side that sinks down low is the heavier side.",
+            "The napkins' side rose up high in the air -- that means it is the lighter side, not the heavier one.",
+          ],
+          hintsMy: [
+            "Week 14 ၏ ချိန်ခွင် သင်ခန်းစာကို သတိရပါ -- နိမ့်စွာ ကျသွားသောဘက်သည် ပိုလေးသောဘက် ဖြစ်သည်။",
+            "ပတ်ရုံးဘက်သည် လေထဲသို့ မြင့်စွာ တက်သွားသည် -- ဆိုလိုသည်မှာ ၎င်းသည် ပိုလေးသောဘက် မဟုတ်ဘဲ ပိုပေါ့သောဘက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yadanar fills her water bottle using a small cup, counting 4 full cups to fill it completely. Her little brother's bottle only needs 2 cups to fill it completely. Which bottle holds more water?",
+          questionMy:
+              "ရတနာသည် ရေဗူးကို ခွက်လေးတစ်ခုဖြင့် ဖြည့်ရာ အပြည့်ဖြစ်စေရန် ခွက် ၄ ခွက် ရေတွက်ရသည်။ သူ့ညီလေး၏ ရေဗူးမှာ အပြည့်ဖြစ်စေရန် ခွက် ၂ ခွက်သာ လိုအပ်သည်။ မည်သည့်ရေဗူးက ရေပိုမိုသိုဝှက်နိုင်သနည်း။",
+          optionsEn: [
+            "Yadanar's bottle",
+            "Her brother's bottle",
+            "They hold the same amount",
+            "Neither bottle can hold water",
+          ],
+          optionsMy: [
+            "ရတနာ၏ ရေဗူး",
+            "သူ့ညီလေး၏ ရေဗူး",
+            "နှစ်ခုစလုံး ဆံ့ဝင်မှုတူသည်",
+            "မည်သည့်ရေဗူးကိုမျှ ရေထည့်၍မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's capacity lesson -- needing more cupfuls to fill something means it holds more.",
+            "Compare the two numbers: 4 cups and 2 cups -- which number is bigger?",
+          ],
+          hintsMy: [
+            "Week 15 ၏ ဆံ့ဝင်မှု သင်ခန်းစာကို သတိရပါ -- တစ်ခုခုကို ဖြည့်ရန် ခွက်ပိုများများ လိုအပ်လျှင် ၎င်းသည် ပိုမိုသိုဝှက်နိုင်သည်ဟု ဆိုလိုသည်။",
+            "ဂဏန်းနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ပါ - ခွက် ၄ ခွက်နှင့် ၂ ခွက် -- မည်သည့်ဂဏန်းက ပိုကြီးသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which tool would Yadanar use to find out whether the rice snacks or the napkins is heavier?",
+          questionMy:
+              "ထမင်းမုန့်နှင့် ပတ်ရုံးထဲမှ မည်သည့်အရာက ပိုလေးသည်ကို သိရှိရန် ရတနာသည် မည်သည့်ကိရိယာကို အသုံးပြုမည်နည်း။",
+          optionsEn: ["A balance scale", "A hand-span", "A cup", "A calendar"],
+          optionsMy: ["ချိန်ခွင်", "လက်ဝါးဖြန့်ချက်", "ခွက်", "ပြက္ခဒိန်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 14's lesson and this quiz's second question about the rice snacks and napkins -- a balance scale is used to compare mass.",
+            "A hand-span measures length and a cup measures capacity -- neither of those tells you which bag is heavier.",
+          ],
+          hintsMy: [
+            "Week 14 ၏ သင်ခန်းစာနှင့် ဤပဟေဋ္ဌိ၏ ဒုတိယမေးခွန်းရှိ ထမင်းမုန့်နှင့် ပတ်ရုံးကို သတိရပါ -- ချိန်ခွင်ကို လေးချိန် နှိုင်းယှဉ်ရန် အသုံးပြုသည်။",
+            "လက်ဝါးဖြန့်ချက်သည် အလျားကို တိုင်းတာပြီး ခွက်သည် ဆံ့ဝင်မှုကို တိုင်းတာသည် -- ၎င်းတို့ထဲမှ မည်သည့်တစ်ခုကမျှ မည်သည့်အိတ်ကပိုလေးသည်ကို မပြောနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match the Measures Terms",
+      titleMy: "တိုင်းတာမှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1math-w16-dm-1",
+          termEn: "Longer",
+          termMy: "ပိုရှည်သော (Longer)",
+          matchEn:
+              "When one thing measures more hand-spans (or more of the same unit) than another -- like the rolling pin's 6 hand-spans being more than the spoon's 2 hand-spans.",
+          matchMy:
+              "အရာတစ်ခု၏ တိုင်းတာချက်သည် အခြားတစ်ခုထက် လက်ဝါးဖြန့်ချက် (သို့မဟုတ် တူညီသောယူနစ်) ပိုများသောအခါ -- မုန့်လိမ်တံ၏ လက်ဝါးဖြန့်ချက် ၆ ချက်သည် ဇွန်း၏ ၂ ချက်ထက် ပိုများသကဲ့သို့။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y1math-w16-dm-2",
+          termEn: "Hand-Span",
+          termMy: "လက်ဝါးဖြန့်ချက် (Hand-Span)",
+          matchEn:
+              "A non-standard unit for measuring length using the width of a stretched-out hand, placed end to end along an object to count how many spans long it is.",
+          matchMy:
+              "လက်ဝါးဖြန့်ထားသော အကျယ်ကို အသုံးပြု၍ အလျားတိုင်းသော စံမဟုတ်သည့် ယူနစ်တစ်ခုဖြစ်ပြီး၊ အရာဝတ္ထုတစ်လျှောက် အဆုံးမှအဆုံး တိုင်းတာကာ မည်မျှချက်ရှည်သည်ကို ရေတွက်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y1math-w16-dm-3",
+          termEn: "Heavier",
+          termMy: "ပိုလေးသော (Heavier)",
+          matchEn:
+              "When one bag or object makes its side of a balance scale sink down low, showing it weighs more than what is on the other side.",
+          matchMy:
+              "အိတ် (သို့) ပစ္စည်းတစ်ခု၏ ဘက်သည် ချိန်ခွင်ပေါ်တွင် နိမ့်စွာ ကျသွားပြီး အခြားတစ်ဘက်ထက် ပိုလေးကြောင်း ပြသသောအခါ။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y1math-w16-dm-4",
+          termEn: "Balance Scale",
+          termMy: "ချိန်ခွင် (Balance Scale)",
+          matchEn:
+              "A simple tool with two sides -- the side that sinks down low holds the heavier object, and the side that rises up high holds the lighter one.",
+          matchMy:
+              "ဘက်နှစ်ဖက်ပါသော ရိုးရှင်းသည့်ကိရိယာတစ်ခုဖြစ်ပြီး -- နိမ့်စွာကျသွားသောဘက်တွင် ပိုလေးသောပစ္စည်းရှိပြီး၊ မြင့်စွာတက်သွားသောဘက်တွင် ပိုပေါ့သောပစ္စည်း ရှိသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y1math-w16-dm-5",
+          termEn: "Holds More",
+          termMy: "ပိုမိုသိုဝှက်နိုင်ခြင်း (Holds More)",
+          matchEn:
+              "When a container needs more cupfuls to fill it all the way up than another container does -- like Yadanar's bottle needing 4 cups while her brother's only needed 2.",
+          matchMy:
+              "အိုး (သို့) ဗူးတစ်ခုကို အပြည့်ဖြည့်ရန် အခြားတစ်ခုထက် ခွက်ပိုများများ လိုအပ်သောအခါ -- ရတနာ၏ရေဗူးသည် ခွက် ၄ ခွက် လိုအပ်ပြီး သူ့ညီလေး၏ရေဗူးက ၂ ခွက်သာ လိုအပ်သကဲ့သို့။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y1math-w16-dm-6",
+          termEn: "Cup",
+          termMy: "ခွက် (Cup)",
+          matchEn:
+              "A non-standard unit for measuring capacity -- count how many cupfuls of water it takes to fill a container all the way to the top.",
+          matchMy:
+              "ဆံ့ဝင်မှု တိုင်းတာရန် စံမဟုတ်သည့် ယူနစ်တစ်ခုဖြစ်ပြီး -- အိုးတစ်ခုကို အပေါ်ဆုံးအထိ ဖြည့်ရန် ရေခွက်ဘယ်နှခွက် လိုအပ်သည်ကို ရေတွက်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Length, Mass or Capacity?",
+      titleMy: "စီစစ်ကြမည် - အလျားလား၊ လေးချိန်လား၊ ဆံ့ဝင်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Length", "Mass", "Capacity"],
+        bucketsMy: ["အလျား", "လေးချိန်", "ဆံ့ဝင်မှု"],
+        items: [
+          SortingItem(
+            id: "y1math-w16-sort-1",
+            labelEn: "The rolling pin is longer than the spoon",
+            labelMy: "မုန့်လိမ်တံသည် ဇွန်းထက် ရှည်သည်",
+            correctBucketEn: "Length",
+            correctBucketMy: "အလျား",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-2",
+            labelEn: "The bag of rice snacks is heavier than the napkins",
+            labelMy: "ထမင်းမုန့်အိတ်သည် ပတ်ရုံးထက် ပိုလေးသည်",
+            correctBucketEn: "Mass",
+            correctBucketMy: "လေးချိန်",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-3",
+            labelEn: "The water bottle holds more than the small cup",
+            labelMy: "ရေဗူးသည် ခွက်လေးထက် ရေပိုမိုသိုဝှက်နိုင်သည်",
+            correctBucketEn: "Capacity",
+            correctBucketMy: "ဆံ့ဝင်မှု",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-4",
+            labelEn: "Measured using hand-spans placed end to end",
+            labelMy: "လက်ဝါးဖြန့်ချက်များကို အဆုံးမှအဆုံး တိုင်းတာသည်",
+            correctBucketEn: "Length",
+            correctBucketMy: "အလျား",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-5",
+            labelEn: "Weighed by placing two bags on a balance scale",
+            labelMy: "အိတ်နှစ်လုံးကို ချိန်ခွင်ပေါ်တင်၍ ချိန်တွယ်သည်",
+            correctBucketEn: "Mass",
+            correctBucketMy: "လေးချိန်",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-6",
+            labelEn: "Filled by counting how many cups it takes",
+            labelMy: "ခွက်ဘယ်နှခွက် လိုအပ်သည်ကို ရေတွက်၍ ဖြည့်သည်",
+            correctBucketEn: "Capacity",
+            correctBucketMy: "ဆံ့ဝင်မှု",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-7",
+            labelEn: "The grilled corn is shorter than the rolling pin",
+            labelMy: "ကင်ပြီးသောပြောင်းဖူးသည် မုန့်လိမ်တံထက် တိုသည်",
+            correctBucketEn: "Length",
+            correctBucketMy: "အလျား",
+          ),
+          SortingItem(
+            id: "y1math-w16-sort-8",
+            labelEn: "The bag of napkins is lighter than the rice snacks",
+            labelMy: "ပတ်ရုံးအိတ်သည် ထမင်းမုန့်ထက် ပိုပေါ့သည်",
+            correctBucketEn: "Mass",
+            correctBucketMy: "လေးချိန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Yadanar's Picnic Bag",
+      titleMy: "စာဖတ်ခြင်း - ရတနာ၏ ပျော်ပွဲစားအိတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Yadanar's Picnic Bag",
+        titleMy: "ရတနာ၏ ပျော်ပွဲစားအိတ်",
+        passageEn:
+            "On Saturday morning, Yadanar's family was getting ready for a picnic by the lake, and Yadanar's job was to help her mother pack the picnic bag. First, Yadanar needed to decide which rolling pin to bring for making thin rice cakes at the park. She measured the big rolling pin using her own hand-spans, placing one hand after another along its length: one, two, three, four, five, six. It measured about 6 hand-spans long. Then she measured the small wooden spoon the same way: one, two. It measured about 2 hand-spans long. Six hand-spans is more than two hand-spans, so the rolling pin was longer than the spoon -- too long to fit in the small picnic bag. Yadanar packed the shorter spoon instead, along with a stick of grilled corn that measured about 4 hand-spans long, shorter than the rolling pin but longer than the spoon.\n\nNext, Yadanar's mother asked her to check whether the bag of rice snacks or the bag of paper napkins was heavier, using the little balance scale from the kitchen. Yadanar placed the bag of rice snacks on one side and the bag of napkins on the other side. The rice snacks' side sank down low, while the napkins' side rose up high in the air. \"The side that goes down is the heavier one,\" Yadanar remembered her teacher saying, so she knew the rice snacks were heavier than the napkins, and the napkins were lighter than the rice snacks.\n\nAfter that, it was time to fill the water bottles. Yadanar used a small cup to scoop water from the jug and pour it into her own bottle, counting each cupful: one, two, three, four. It took 4 full cups to fill her bottle all the way to the top. Her little brother's bottle was much smaller, and it only took 2 cups to fill his all the way up. Four cups is more than two cups, so Yadanar's bottle held more water than her little brother's bottle, and his bottle held less than hers.\n\nBy the time the picnic bag was packed, Yadanar realized that getting ready for the picnic had needed three different kinds of measuring. Comparing the rolling pin, the spoon, and the corn by hand-spans was about length -- how long things are. Comparing the rice snacks and the napkins on the balance scale was about mass -- how heavy things are. Comparing how many cups filled each bottle was about capacity -- how much water something holds. Length, mass, and capacity, Yadanar realized, were three different questions you could ask about the very same picnic bag: how long, how heavy, and how much it can hold.",
+        passageMy:
+            "စနေနေ့မနက်တွင် ရတနာ၏မိသားစုသည် ရေကန်အနီးတွင် ပျော်ပွဲစားထွက်ရန် အသင့်ပြင်နေကြသည်။ ရတနာ၏တာဝန်မှာ မိခင်အား ပျော်ပွဲစားအိတ် ထုပ်ပိုးရာတွင် ကူညီရန် ဖြစ်သည်။ ပထမဦးစွာ ရတနာသည် ပန်းခြံတွင် ပါးလွှာသောထမင်းမုန့် လုပ်ရန်အတွက် မည်သည့် မုန့်လိမ်တံကို ယူသွားရမည်ကို ဆုံးဖြတ်ရန် လိုအပ်ခဲ့သည်။ သူမသည် မုန့်လိမ်တံကြီးကို သူမကိုယ်ပိုင် လက်ဝါးဖြန့်ချက်များဖြင့် တိုင်းတာခဲ့သည်၊ လက်တစ်ဖက်ပြီးတစ်ဖက် တန်းတန်းစီလျက် - တစ်၊ နှစ်၊ သုံး၊ လေး၊ ငါး၊ ခြောက်။ ၎င်းသည် အနီးစပ်ဆုံး လက်ဝါးဖြန့်ချက် ၆ ချက် ရှည်ခဲ့သည်။ ထို့နောက် သူမသည် သစ်သားဇွန်းလေးကို နည်းတူတိုင်းခဲ့သည် - တစ်၊ နှစ်။ ၎င်းသည် အနီးစပ်ဆုံး လက်ဝါးဖြန့်ချက် ၂ ချက်သာ ရှည်ခဲ့သည်။ လက်ဝါးဖြန့်ချက် ၆ ချက်သည် ၂ ချက်ထက် ပိုများသဖြင့် မုန့်လိမ်တံသည် ဇွန်းထက် ရှည်ခဲ့ပြီး ပျော်ပွဲစားအိတ်ငယ်ထဲ မထည့်နိုင်လောက်အောင် ရှည်လွန်းခဲ့သည်။ ရတနာသည် ဇွန်းတိုကိုသာ ထုပ်ပိုးခဲ့ပြီး၊ လက်ဝါးဖြန့်ချက် ၄ ချက်ခန့် ရှည်သော ကင်ပြီးသောပြောင်းဖူးတစ်ချောင်းကိုလည်း ထည့်ခဲ့သည်၊ ၎င်းသည် မုန့်လိမ်တံထက် တိုပြီး ဇွန်းထက် ရှည်ခဲ့သည်။\n\nထို့နောက် ရတနာ၏ မိခင်သည် မီးဖိုချောင်မှ ချိန်ခွင်လေးကို အသုံးပြု၍ ထမင်းမုန့်အိတ်နှင့် စက္ကူပတ်ရုံးအိတ်တို့ထဲမှ မည်သည့်အိတ်က ပိုလေးသည်ကို စစ်ဆေးခိုင်းခဲ့သည်။ ရတနာသည် ထမင်းမုန့်အိတ်ကို တစ်ဖက်တွင်၊ ပတ်ရုံးအိတ်ကို အခြားတစ်ဖက်တွင် တင်ခဲ့သည်။ ထမင်းမုန့်ဘက်သည် နိမ့်စွာ ကျသွားပြီး၊ ပတ်ရုံးဘက်သည် လေထဲသို့ မြင့်စွာ တက်သွားသည်။ \"နိမ့်ကျသွားသောဘက်သည် ပိုလေးသောဘက်ဖြစ်သည်\" ဟု ဆရာမ ပြောခဲ့သည်ကို ရတနာ သတိရမိသဖြင့်၊ ထမင်းမုန့်သည် ပတ်ရုံးထက် ပိုလေးပြီး ပတ်ရုံးသည် ထမင်းမုန့်ထက် ပိုပေါ့ကြောင်း သိရှိလိုက်သည်။\n\nထို့နောက် ရေဗူးများကို ရေဖြည့်ချိန် ရောက်လာခဲ့သည်။ ရတနာသည် ခွက်လေးတစ်ခုဖြင့် အိုးကြီးမှ ရေကို ခပ်ယူပြီး သူမ၏ ရေဗူးထဲသို့ လောင်းထည့်ခဲ့သည်၊ ခွက်တစ်ခွက်စီကို ရေတွက်လျက် - တစ်၊ နှစ်၊ သုံး၊ လေး။ သူမ၏ရေဗူးကို အပေါ်ဆုံးအထိ ပြည့်စေရန် ခွက် ၄ ခွက်အပြည့် လိုအပ်ခဲ့သည်။ သူ့ညီလေး၏ ရေဗူးသည် ပိုသေးငယ်သဖြင့် အပြည့်ဖြည့်ရန် ခွက် ၂ ခွက်သာ လိုအပ်ခဲ့သည်။ ခွက် ၄ ခွက်သည် ၂ ခွက်ထက် ပိုများသဖြင့် ရတနာ၏ ရေဗူးသည် သူ့ညီလေး၏ ရေဗူးထက် ရေပိုမိုသိုဝှက်နိုင်ပြီး၊ သူ့ညီလေး၏ ရေဗူးသည် ရတနာ၏ ရေဗူးထက် ရေနည်းနည်းသာ သိုဝှက်နိုင်ကြောင်း သိရှိလိုက်သည်။\n\nပျော်ပွဲစားအိတ် ထုပ်ပိုးပြီးချိန်တွင် ရတနာသည် ပျော်ပွဲစားထွက်ရန် အသင့်ပြင်ရာတွင် တိုင်းတာမှု အမျိုးအစားသုံးမျိုး လိုအပ်ခဲ့ကြောင်း သဘောပေါက်လာခဲ့သည်။ မုန့်လိမ်တံ၊ ဇွန်းနှင့် ပြောင်းဖူးတို့ကို လက်ဝါးဖြန့်ချက်ဖြင့် နှိုင်းယှဉ်ခြင်းသည် အလျားအတိုင်းအတာ -- အရာများ မည်မျှ ရှည်သည် -- နှင့်ပတ်သက်သည်။ ထမင်းမုန့်နှင့် ပတ်ရုံးတို့ကို ချိန်ခွင်ပေါ်တွင် နှိုင်းယှဉ်ခြင်းသည် လေးချိန် -- အရာများ မည်မျှ လေးသည် -- နှင့်ပတ်သက်သည်။ ရေဗူးတစ်ခုစီကို ခွက်ဘယ်နှခွက်ဖြင့် ဖြည့်ရသည်ကို နှိုင်းယှဉ်ခြင်းသည် ဆံ့ဝင်မှု -- တစ်ခုခုက ရေမည်မျှ သိုဝှက်နိုင်သည် -- နှင့်ပတ်သက်သည်။ အလျား၊ လေးချိန်နှင့် ဆံ့ဝင်မှုတို့သည် တစ်ခုတည်းသော ပျော်ပွဲစားအိတ်နှင့်ပတ်သက်၍ မေးနိုင်သော မေးခွန်းသုံးမျိုးပင် ဖြစ်ကြောင်း ရတနာ သဘောပေါက်လာခဲ့သည် - မည်မျှရှည်သည်၊ မည်မျှလေးသည်၊ ထို့ပြင် မည်မျှ သိုဝှက်နိုင်သည်ဆိုသောမေးခွန်းများ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many hand-spans long was the rolling pin that Yadanar measured?",
+            questionMy:
+                "ရတနာ တိုင်းတာခဲ့သော မုန့်လိမ်တံသည် လက်ဝါးဖြန့်ချက် မည်မျှ ရှည်ခဲ့သနည်း။",
+            optionsEn: [
+              "6 hand-spans",
+              "2 hand-spans",
+              "4 hand-spans",
+              "10 hand-spans",
+            ],
+            optionsMy: [
+              "လက်ဝါးဖြန့်ချက် ၆ ချက်",
+              "လက်ဝါးဖြန့်ချက် ၂ ချက်",
+              "လက်ဝါးဖြန့်ချက် ၄ ချက်",
+              "လက်ဝါးဖြန့်ချက် ၁၀ ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Week 13's hand-span lesson -- re-read the first paragraph for the exact number Yadanar counted.",
+              "Recall Day 1's first quiz question about the same rolling pin.",
+            ],
+            hintsMy: [
+              "Week 13 ၏ လက်ဝါးဖြန့်ချက် သင်ခန်းစာကို သတိရပါ -- ရတနာ ရေတွက်ခဲ့သော အတိအကျဂဏန်းအတွက် ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "Day 1 ၏ ပထမမေးခွန်းရှိ တူညီသော မုန့်လိမ်တံကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "On the balance scale, what happened to the side holding the bag of rice snacks?",
+            questionMy:
+                "ချိန်ခွင်ပေါ်တွင် ထမင်းမုန့်အိတ် တင်ထားသောဘက်တွင် အဘယ်သို့ ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "It sank down low, showing it was heavier",
+              "It rose up high, showing it was lighter",
+              "It stayed exactly level",
+              "It fell off the scale completely",
+            ],
+            optionsMy: [
+              "နိမ့်စွာ ကျသွားပြီး ပိုလေးကြောင်း ပြသခဲ့သည်",
+              "မြင့်စွာ တက်သွားပြီး ပိုပေါ့ကြောင်း ပြသခဲ့သည်",
+              "အတိအကျ တည်ငြိမ်နေခဲ့သည်",
+              "ချိန်ခွင်ပေါ်မှ လုံးဝ ကျရွှင်းသွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Week 14's balance scale lesson -- the heavier side sinks down low.",
+              "Recall Day 1's second quiz question about the same rice snacks and napkins.",
+            ],
+            hintsMy: [
+              "Week 14 ၏ ချိန်ခွင် သင်ခန်းစာကို သတိရပါ -- ပိုလေးသောဘက်သည် နိမ့်စွာ ကျသွားသည်။",
+              "Day 1 ၏ ဒုတိယမေးခွန်းရှိ တူညီသော ထမင်းမုန့်နှင့် ပတ်ရုံးကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many cups of water did it take to fill Yadanar's own water bottle?",
+            questionMy:
+                "ရတနာ၏ ကိုယ်ပိုင် ရေဗူးကို ဖြည့်ရန် ခွက် မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["4 cups", "2 cups", "6 cups", "1 cup"],
+            optionsMy: [
+              "ခွက် ၄ ခွက်",
+              "ခွက် ၂ ခွက်",
+              "ခွက် ၆ ခွက်",
+              "ခွက် ၁ ခွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall Week 15's capacity lesson -- re-read the third paragraph for the exact number of cupfuls counted.",
+              "Recall Day 1's third quiz question about the same two water bottles.",
+            ],
+            hintsMy: [
+              "Week 15 ၏ ဆံ့ဝင်မှု သင်ခန်းစာကို သတိရပါ -- ရေတွက်ခဲ့သော ခွက်အရေအတွက်အတိအကျအတွက် တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "Day 1 ၏ တတိယမေးခွန်းရှိ တူညီသော ရေဗူးနှစ်လုံးကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Yadanar realize about length, mass and capacity by the end of the passage?",
+            questionMy:
+                "အပိုဒ်၏ အဆုံးတွင် အလျား၊ လေးချိန်နှင့် ဆံ့ဝင်မှုနှင့်ပတ်သက်၍ ရတနာ မည်သို့ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "They are three different questions you can ask about the same picnic bag: how long, how heavy, and how much it can hold.",
+              "Length, mass and capacity are exactly the same thing.",
+              "Only capacity matters when packing a picnic bag.",
+              "Hand-spans and balance scales measure the exact same attribute.",
+            ],
+            optionsMy: [
+              "အလျား၊ လေးချိန်နှင့် ဆံ့ဝင်မှုတို့သည် တစ်ခုတည်းသော ပျော်ပွဲစားအိတ်နှင့်ပတ်သက်၍ မေးနိုင်သော မေးခွန်းသုံးမျိုးပင် ဖြစ်ကြောင်း -- မည်မျှရှည်သည်၊ မည်မျှလေးသည်၊ ထို့ပြင် မည်မျှ သိုဝှက်နိုင်သည်။",
+              "အလျား၊ လေးချိန်နှင့် ဆံ့ဝင်မှုတို့သည် အတိအကျ တူညီသောအရာ ဖြစ်သည်။",
+              "ပျော်ပွဲစားအိတ် ထုပ်ပိုးရာတွင် ဆံ့ဝင်မှုသာ အရေးကြီးသည်။",
+              "လက်ဝါးဖြန့်ချက်နှင့် ချိန်ခွင်တို့သည် အတိအကျ တူညီသော ဂုဏ်သတ္တိကို တိုင်းတာသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph -- Yadanar names this exact idea herself, right after finishing the picnic bag.",
+              "This ties together Week 13's length lesson, Week 14's mass lesson, and Week 15's capacity lesson -- three different questions about the same picnic bag, not separate topics.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ရတနာသည် ပျော်ပွဲစားအိတ် ပြီးဆုံးပြီးနောက် ဤအတွေးအခေါ်အတိအကျကို ကိုယ်တိုင် အမည်တွင်ခဲ့သည်။",
+              "၎င်းသည် Week 13 ၏ အလျားသင်ခန်းစာ၊ Week 14 ၏ လေးချိန်သင်ခန်းစာနှင့် Week 15 ၏ ဆံ့ဝင်မှုသင်ခန်းစာကို ဆက်စပ်ပေးသည် -- ၎င်းတို့သည် သီးခြားခေါင်းစဉ်များမဟုတ်ဘဲ တူညီသော ပျော်ပွဲစားအိတ်ကို ကြည့်ရှုသည့် မေးခွန်းသုံးမျိုး ဖြစ်ကြသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-math-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Measures",
+      titleMy: "အပတ်စဉ် ၁၆ ပြန်လည်သုံးသပ်ခြင်း - တိုင်းတာမှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Yadanar's stick of grilled corn measured about 4 hand-spans long. Was it longer or shorter than the rolling pin, which measured about 6 hand-spans long?",
+          questionMy:
+              "ရတနာ၏ ကင်ပြီးသောပြောင်းဖူးသည် လက်ဝါးဖြန့်ချက် ၄ ချက်ခန့် ရှည်ခဲ့သည်။ လက်ဝါးဖြန့်ချက် ၆ ချက် ရှည်သော မုန့်လိမ်တံထက် ပိုရှည်သနည်း၊ ပိုတိုသနည်း။",
+          optionsEn: [
+            "Shorter",
+            "Longer",
+            "Exactly the same length",
+            "It cannot be compared",
+          ],
+          optionsMy: [
+            "ပိုတိုသည်",
+            "ပိုရှည်သည်",
+            "အတိအကျ အလျားတူသည်",
+            "နှိုင်းယှဉ်၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's hand-span lesson and Day 4's reading passage, first paragraph.",
+            "Compare the two numbers: 4 hand-spans and 6 hand-spans -- which number is smaller?",
+          ],
+          hintsMy: [
+            "Week 13 ၏ လက်ဝါးဖြန့်ချက် သင်ခန်းစာနှင့် Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် ပထမစာပိုဒ်ကို သတိရပါ။",
+            "ဂဏန်းနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ပါ - လက်ဝါးဖြန့်ချက် ၄ ချက်နှင့် ၆ ချက် -- မည်သည့်ဂဏန်းက ပိုသေးသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On the balance scale, the bag of napkins rose up high in the air. Was the bag of napkins heavier or lighter than the rice snacks?",
+          questionMy:
+              "ချိန်ခွင်ပေါ်တွင် ပတ်ရုံးအိတ်သည် လေထဲသို့ မြင့်စွာ တက်သွားခဲ့သည်။ ပတ်ရုံးအိတ်သည် ထမင်းမုန့်ထက် ပိုလေးသနည်း၊ ပိုပေါ့သနည်း။",
+          optionsEn: [
+            "Lighter",
+            "Heavier",
+            "Exactly the same weight",
+            "It cannot be weighed",
+          ],
+          optionsMy: [
+            "ပိုပေါ့သည်",
+            "ပိုလေးသည်",
+            "အတိအကျ လေးချိန်တူသည်",
+            "ချိန်တွယ်၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 14's balance scale lesson -- the side that rises up high is the lighter side.",
+            "Recall Day 4's reading passage, second paragraph -- the napkins' side rose up while the rice snacks' side sank down.",
+          ],
+          hintsMy: [
+            "Week 14 ၏ ချိန်ခွင် သင်ခန်းစာကို သတိရပါ -- မြင့်စွာ တက်သွားသောဘက်သည် ပိုပေါ့သောဘက် ဖြစ်သည်။",
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် ဒုတိယစာပိုဒ်ကို သတိရပါ -- ပတ်ရုံးဘက် တက်သွားစဉ် ထမင်းမုန့်ဘက် ကျသွားခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yadanar's little brother's water bottle only needed 2 cups to fill it up. Did his bottle hold more or less water than Yadanar's bottle, which needed 4 cups?",
+          questionMy:
+              "ရတနာ၏ ညီလေး၏ ရေဗူးကို ဖြည့်ရန် ခွက် ၂ ခွက်သာ လိုအပ်ခဲ့သည်။ သူ့ရေဗူးသည် ခွက် ၄ ခွက် လိုအပ်ခဲ့သော ရတနာ၏ ရေဗူးထက် ရေပိုသိုဝှက်နိုင်သနည်း၊ ရေနည်းသိုဝှက်နိုင်သနည်း။",
+          optionsEn: [
+            "Less",
+            "More",
+            "Exactly the same amount",
+            "It cannot hold any water",
+          ],
+          optionsMy: [
+            "ရေနည်းနည်းသာ သိုဝှက်နိုင်သည်",
+            "ရေပိုမိုသိုဝှက်နိုင်သည်",
+            "အတိအကျ ပမာဏတူသည်",
+            "ရေ လုံးဝ ထည့်၍မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's capacity lesson -- needing fewer cupfuls to fill something means it holds less.",
+            "Compare the two numbers: 2 cups and 4 cups -- which number is smaller?",
+          ],
+          hintsMy: [
+            "Week 15 ၏ ဆံ့ဝင်မှု သင်ခန်းစာကို သတိရပါ -- ခွက်ပိုနည်းနည်းဖြင့် ပြည့်လျှင် ၎င်းသည် ရေနည်းနည်းသာ သိုဝှက်နိုင်သည်ဟု ဆိုလိုသည်။",
+            "ဂဏန်းနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ပါ - ခွက် ၂ ခွက်နှင့် ၄ ခွက် -- မည်သည့်ဂဏန်းက ပိုသေးသနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which tool did Yadanar use to find out that the rice snacks were heavier than the napkins?",
+          questionMy:
+              "ထမင်းမုန့်သည် ပတ်ရုံးထက် ပိုလေးကြောင်း သိရှိရန် ရတနာ မည်သည့်ကိရိယာကို အသုံးပြုခဲ့သနည်း။",
+          optionsEn: ["A balance scale", "A hand-span", "A cup", "A calendar"],
+          optionsMy: ["ချိန်ခွင်", "လက်ဝါးဖြန့်ချက်", "ခွက်", "ပြက္ခဒိန်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second and fourth quiz questions, and Day 4's reading passage, second paragraph.",
+            "Recall Week 14's lesson -- a balance scale is the tool used to compare mass.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယနှင့် စတုတ္ထမေးခွန်းများနှင့် Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် ဒုတိယစာပိုဒ်ကို သတိရပါ။",
+            "Week 14 ၏ သင်ခန်းစာကို သတိရပါ -- ချိန်ခွင်သည် လေးချိန်နှိုင်းယှဉ်ရန် အသုံးပြုသည့် ကိရိယာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing lengths with hand-spans, comparing weights on a balance scale, and comparing how many cups fill each bottle -- what one idea ties Weeks 13, 14 and 15 together?",
+          questionMy:
+              "လက်ဝါးဖြန့်ချက်ဖြင့် အလျားများကို နှိုင်းယှဉ်ခြင်း၊ ချိန်ခွင်ပေါ်တွင် လေးချိန်များကို နှိုင်းယှဉ်ခြင်းနှင့် ရေဗူးတစ်ခုစီကို ခွက်ဘယ်နှခွက်ဖြင့် ဖြည့်ရသည်ကို နှိုင်းယှဉ်ခြင်း -- ဤသုံးခုစလုံးကို ဆက်စပ်ပေးသည့် တစ်ခုတည်းသော အတွေးအခေါ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Measuring means comparing two things using the same tool or unit to find out which one is longer, heavier, or holds more.",
+            "Only length matters, and weighing or filling things makes no difference.",
+            "A balance scale and a cup measure the exact same thing.",
+            "Hand-spans can only be used to measure water.",
+          ],
+          optionsMy: [
+            "တိုင်းတာခြင်းဆိုသည်မှာ တူညီသောကိရိယာ (သို့) ယူနစ်ကို အသုံးပြု၍ မည်သည့်တစ်ခုက ပိုရှည်သည်၊ ပိုလေးသည် (သို့) ပိုမိုသိုဝှက်နိုင်သည်ကို ရှာဖွေရန် အရာနှစ်ခုကို နှိုင်းယှဉ်ခြင်းပင် ဖြစ်သည်။",
+            "အလျားသာ အရေးကြီးပြီး ချိန်တွယ်ခြင်း (သို့) ဖြည့်ခြင်းများသည် ခြားနားချက် မရှိပါ။",
+            "ချိန်ခွင်နှင့် ခွက်တို့သည် အတိအကျ တူညီသောအရာကို တိုင်းတာသည်။",
+            "လက်ဝါးဖြန့်ချက်ကို ရေတိုင်းရန်သာ အသုံးပြုနိုင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Yadanar's realization at the end of Day 4's reading passage -- she named this exact idea herself, right after packing her picnic bag.",
+            "This ties together Week 13's length lesson, Week 14's mass lesson and Week 15's capacity lesson -- three different attributes measured the same way: by comparing with a common tool or unit.",
+          ],
+          hintsMy: [
+            "Day 4 ၏ စာဖတ်ခြင်းအပိုဒ် အဆုံးရှိ ရတနာ၏ သဘောပေါက်မှုကို သတိရပါ -- သူမ ကိုယ်တိုင် ပျော်ပွဲစားအိတ် ထုပ်ပိုးပြီးနောက် ဤအတွေးအခေါ်အတိအကျကို အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် Week 13 ၏ အလျားသင်ခန်းစာ၊ Week 14 ၏ လေးချိန်သင်ခန်းစာနှင့် Week 15 ၏ ဆံ့ဝင်မှုသင်ခန်းစာကို ဆက်စပ်ပေးသည် -- ဂုဏ်သတ္တိသုံးမျိုးကို တူညီသောနည်းလမ်းဖြင့် တိုင်းတာခြင်း၊ တူညီသောကိရိယာ (သို့) ယူနစ်ဖြင့် နှိုင်းယှဉ်ခြင်းပင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 4: "Measures" (Weeks 13-16) continues Year 1 Mathematics's
+/// pathway, deliberately distinct from the KG legacy content's generic
+/// "Bigger and Smaller" (which only compares abstract size, not a
+/// specific measurable attribute): Week 13 measures and compares length
+/// using hand-spans/paperclips and an approximate ruler reading, Week 14
+/// does the same for mass using a balance scale and small weights, Week
+/// 15 does the same for capacity using cups/spoonfuls and an approximate
+/// jug reading; Week 16 is the capstone, combining all three into one
+/// real-world scenario. Every measurement stays a whole-number
+/// approximate comparison -- no decimals, no precise tick-mark reading,
+/// and no unit-conversion facts, matching this pathway's age-appropriate
+/// -methods discipline.
+const CourseTermDef _year1MathematicsTerm4 = CourseTermDef(
+  id: "course-year1-mathematics-t4",
+  termNumber: 4,
+  titleEn: "Measures",
+  titleMy: "တိုင်းတာမှုများ",
+  certificateTitleEn: "Measures",
+  certificateTitleMy: "တိုင်းတာမှုများ",
+  weeks: [
+    _year1MathematicsWeek13,
+    _year1MathematicsWeek14,
+    _year1MathematicsWeek15,
+    _year1MathematicsWeek16,
+  ],
+);
+
 /// Year 1 Mathematics's pathway (Grade [Grade.year1]) -- the first
 /// Primary-tier "Academic Year" pathway authored, proving the same
 /// 36-week/term/daily-lesson/Socratic-hint template used by the
 /// Secondary pathways works for a much younger (age ~5-6) audience. Term
 /// 1 ("Numbers to 20", Weeks 1-4), Term 2 ("Addition and Subtraction
-/// within 20", Weeks 5-8) and Term 3 ("Shape and Space", Weeks 9-12) are
-/// authored so far; see [_year1MathematicsTerm1]'s, [_year1MathematicsTerm2]'s
-/// and [_year1MathematicsTerm3]'s own doc comments for the week-by-week
-/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
-/// reason the Secondary pathways' docs give while only a handful of
-/// weeks exist.
+/// within 20", Weeks 5-8), Term 3 ("Shape and Space", Weeks 9-12) and
+/// Term 4 ("Measures", Weeks 13-16) are authored so far; see
+/// [_year1MathematicsTerm1]'s, [_year1MathematicsTerm2]'s,
+/// [_year1MathematicsTerm3]'s and [_year1MathematicsTerm4]'s own doc
+/// comments for the week-by-week spiral. [totalWeeks] stays 36 for the
+/// same "honest progress bar" reason the Secondary pathways' docs give
+/// while only a handful of weeks exist.
 const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   id: "course-year1-mathematics",
   subject: "mathematics",
@@ -52999,13 +55030,14 @@ const CoursePathwayDef year1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမတန်း သင်တန်း",
   descriptionEn:
-      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario, before Term 2 builds addition and subtraction within 20 through counting on, counting back, and bridging through 10, ties them together as fact families and number bonds, and closes with a capstone combining addition and subtraction in one real-world scenario, and Term 3 opens a shape and space strand -- analyzing 2D shape properties, 3D shape properties, and position/direction/turns -- closing with a capstone combining all three.",
+      "The first academic-year Year 1 mathematics course: daily bite-sized lessons opening with numbers to 20 -- counting and recognizing numerals past ten, ordering a sequence of numbers on a number line with before/after/between, and finding one more or one less than a number -- closing Term 1 with a capstone combining all three into one real-world counting scenario, before Term 2 builds addition and subtraction within 20 through counting on, counting back, and bridging through 10, ties them together as fact families and number bonds, and closes with a capstone combining addition and subtraction in one real-world scenario, Term 3 opens a shape and space strand -- analyzing 2D shape properties, 3D shape properties, and position/direction/turns -- closing with a capstone combining all three, and Term 4 measures and compares length, mass, and capacity using non-standard units and approximate standard-unit readings, closing with a capstone combining all three measures.",
   descriptionMy:
-      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဆက်ရေတွက်ခြင်း၊ ပြန်ရေတွက်ခြင်းနှင့် 10 ပြည့်အောင် ကူးပြောင်းခြင်းတို့ဖြင့် 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို တည်ဆောက်ပြီး၊ ၎င်းတို့ကို ဂဏန်းချည်နှောင်မှုနှင့် အချက်မိသားစုများအဖြစ် ပေါင်းစပ်ကာ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် 2D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများ၊ 3D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများနှင့် နေရာ/ဦးတည်ရာ/လှည့်ခြင်းတို့ကို ဖွင့်လှစ်သင်ကြားပြီး ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
+      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သင်္ချာသင်တန်း -- ၂၀ အထိ ဂဏန်းများဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ -- ဆယ်ကျော်ဂဏန်းများကို ရေတွက်ခြင်းနှင့် မှတ်မိခြင်း၊ ဂဏန်းလိုင်းပေါ်တွင် ဂဏန်းများကို အစီအစဉ်တကျ စီစဉ်ခြင်း (မတိုင်မီ/ပြီးနောက်/အကြား တို့ဖြင့်)၊ နှင့် ဂဏန်းတစ်ခု၏ တစ်ခုပိုသို့မဟုတ် တစ်ခုလျော့ကို ရှာဖွေခြင်းတို့ ပါဝင်ပြီး၊ ပထမနှစ်ဝက်ကို ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ရေတွက်မှု အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဆက်ရေတွက်ခြင်း၊ ပြန်ရေတွက်ခြင်းနှင့် 10 ပြည့်အောင် ကူးပြောင်းခြင်းတို့ဖြင့် 20 အထိ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို တည်ဆောက်ပြီး၊ ၎င်းတို့ကို ဂဏန်းချည်နှောင်မှုနှင့် အချက်မိသားစုများအဖြစ် ပေါင်းစပ်ကာ ပေါင်းခြင်းနှင့် နုတ်ခြင်းကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ အခြေအနေတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် 2D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများ၊ 3D ပုံသဏ္ဍာန်ဂုဏ်သတ္တိများနှင့် နေရာ/ဦးတည်ရာ/လှည့်ခြင်းတို့ကို ဖွင့်လှစ်သင်ကြားပြီး ဤအချက်သုံးခုလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် စံမဟုတ်သောယူနစ်များနှင့် ခန့်မှန်းစံညွှန်းယူနစ်ဖတ်ရှုမှုများကို အသုံးပြု၍ အလျား၊ အလေးချိန်နှင့် ဆံ့နိုင်စွမ်းကို တိုင်းတာနှိုင်းယှဉ်ပြီး တိုင်းတာမှုသုံးမျိုးလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _year1MathematicsTerm1,
     _year1MathematicsTerm2,
     _year1MathematicsTerm3,
+    _year1MathematicsTerm4,
   ],
 );
