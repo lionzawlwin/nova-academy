@@ -92,6 +92,25 @@ int totalCourseXpEarned(Set<String> completedIds) {
   return xp;
 }
 
+/// Sums XP earned within a single [pathway] only -- the same accounting as
+/// [totalCourseXpEarned] but scoped to one pathway's weeks, so a per-card
+/// display (e.g. on [CoursePathwayBrowser]) can show progress specific to
+/// that subject instead of repeating the cross-pathway grand total on
+/// every card.
+int totalXpEarnedForPathway(
+  CoursePathwayDef pathway,
+  Set<String> completedIds,
+) {
+  var xp = 0;
+  for (final week in weeksInOrder(pathway)) {
+    for (final lesson in week.dailyLessons) {
+      if (completedIds.contains(lesson.id)) xp += lesson.xpReward;
+    }
+    if (isWeekFullyComplete(week, completedIds)) xp += week.xpReward;
+  }
+  return xp;
+}
+
 /// The active child's [completedModuleIds] as a [Set], reactive to the same
 /// live stream [activeChildProvider] already exposes -- shared base for the
 /// providers below so each doesn't re-derive its own copy.
@@ -124,4 +143,14 @@ final weekUnlockedProvider =
 final totalCourseXpProvider = Provider<int>((ref) {
   final completedIds = ref.watch(_completedModuleIdSetProvider);
   return totalCourseXpEarned(completedIds);
+});
+
+/// Riverpod wrapper around [totalXpEarnedForPathway] for the active child.
+/// Used by [CoursePathwayBrowser]'s per-card XP chip.
+final pathwayXpProvider = Provider.family<int, CoursePathwayDef>((
+  ref,
+  pathway,
+) {
+  final completedIds = ref.watch(_completedModuleIdSetProvider);
+  return totalXpEarnedForPathway(pathway, completedIds);
 });

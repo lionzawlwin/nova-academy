@@ -556,4 +556,12 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get coursePathwayMoreComingSoon =>
       'You\'ve finished every week authored so far — more are coming soon!';
+
+  @override
+  String get homeTotalXpLabel => 'Total XP';
+
+  @override
+  String coursePathwayCardXpEarned(int xp) {
+    return '$xp XP earned';
+  }
 }

@@ -561,4 +561,12 @@ class AppLocalizationsMy extends AppLocalizations {
   @override
   String get coursePathwayMoreComingSoon =>
       'လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!';
+
+  @override
+  String get homeTotalXpLabel => 'စုစုပေါင်း XP';
+
+  @override
+  String coursePathwayCardXpEarned(int xp) {
+    return 'XP $xp ရရှိပြီး';
+  }
 }

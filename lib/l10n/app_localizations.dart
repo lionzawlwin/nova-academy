@@ -1141,6 +1141,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You\'ve finished every week authored so far — more are coming soon!'**
   String get coursePathwayMoreComingSoon;
+
+  /// No description provided for @homeTotalXpLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Total XP'**
+  String get homeTotalXpLabel;
+
+  /// No description provided for @coursePathwayCardXpEarned.
+  ///
+  /// In en, this message translates to:
+  /// **'{xp} XP earned'**
+  String coursePathwayCardXpEarned(int xp);
 }
 
 class _AppLocalizationsDelegate

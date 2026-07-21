@@ -236,5 +236,12 @@
       "week": { "type": "int" }
     }
   },
-  "coursePathwayMoreComingSoon": "You've finished every week authored so far — more are coming soon!"
+  "coursePathwayMoreComingSoon": "You've finished every week authored so far — more are coming soon!",
+  "homeTotalXpLabel": "Total XP",
+  "coursePathwayCardXpEarned": "{xp} XP earned",
+  "@coursePathwayCardXpEarned": {
+    "placeholders": {
+      "xp": { "type": "int" }
+    }
+  }
 }

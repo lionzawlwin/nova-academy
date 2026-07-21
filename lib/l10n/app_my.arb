@@ -195,5 +195,7 @@
   "homeCoursePathwayWeeksReady": "စုစုပေါင်း ပတ် {total} အနက် {authored} ပတ် အသင့်ဖြစ်ပြီ",
   "coursePathwayWeekComplete": "ဤအပတ် ပြီးဆုံးပါပြီ! အလွန်ကောင်းမွန်ပါသည်။",
   "coursePathwayContinueToWeek": "ပတ် {week} သို့ ဆက်သွားရန်",
-  "coursePathwayMoreComingSoon": "လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!"
+  "coursePathwayMoreComingSoon": "လက်ရှိရေးသားပြီးသော ပတ်အားလုံးကို သင်ပြီးဆုံးပါပြီ — နောက်ထပ်များ မကြာမီ လာမည်!",
+  "homeTotalXpLabel": "စုစုပေါင်း XP",
+  "coursePathwayCardXpEarned": "XP {xp} ရရှိပြီး"
 }

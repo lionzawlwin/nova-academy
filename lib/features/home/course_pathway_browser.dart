@@ -120,6 +120,7 @@ class _PathwayCardState extends ConsumerState<_PathwayCard>
     final accent = AppColors
         .secondaryPalette[widget.index % AppColors.secondaryPalette.length];
     final authored = _authoredWeeks(pathway);
+    final xp = ref.watch(pathwayXpProvider(pathway));
 
     return AnimatedBuilder(
       animation: _entranceController,
@@ -180,24 +181,33 @@ class _PathwayCardState extends ConsumerState<_PathwayCard>
                       ],
                     ),
                     const SizedBox(height: 2),
-                    Container(
-                      margin: const EdgeInsets.only(top: 2, bottom: 8),
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        color: accent.withValues(alpha: 0.15),
-                        borderRadius: BorderRadius.circular(999),
-                      ),
-                      child: Text(
-                        gradeLabel(l10n, pathway.grade),
-                        style: theme.textTheme.labelSmall?.copyWith(
-                          color: accent,
-                          fontWeight: FontWeight.w700,
+                    Wrap(
+                      spacing: 8,
+                      runSpacing: 4,
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      children: [
+                        Container(
+                          margin: const EdgeInsets.only(top: 2),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 2,
+                          ),
+                          decoration: BoxDecoration(
+                            color: accent.withValues(alpha: 0.15),
+                            borderRadius: BorderRadius.circular(999),
+                          ),
+                          child: Text(
+                            gradeLabel(l10n, pathway.grade),
+                            style: theme.textTheme.labelSmall?.copyWith(
+                              color: accent,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
                         ),
-                      ),
+                        _PathwayXpChip(xp: xp),
+                      ],
                     ),
+                    const SizedBox(height: 8),
                     _MiniProgressBar(
                       fraction: authored / pathway.totalWeeks,
                       color: accent,
@@ -218,6 +228,43 @@ class _PathwayCardState extends ConsumerState<_PathwayCard>
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Small pill showing the learner's XP earned within a single pathway --
+/// mirrors the `_XpChip` visual pattern from `course_pathway_week_screen.dart`
+/// (bolt icon + gold pill) so XP always reads the same way across screens.
+class _PathwayXpChip extends StatelessWidget {
+  const _PathwayXpChip({required this.xp});
+
+  final int xp;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: AppColors.goldMedal.withValues(alpha: 0.2),
+        borderRadius: BorderRadius.circular(999),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(Icons.bolt_rounded, color: AppColors.goldMedal, size: 16),
+          const SizedBox(width: 3),
+          Text(
+            l10n.coursePathwayCardXpEarned(xp),
+            style: theme.textTheme.labelSmall?.copyWith(
+              color: AppColors.goldMedal,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
       ),
     );
   }

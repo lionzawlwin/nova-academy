@@ -9,6 +9,7 @@ import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
 import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
+import '../../providers/course_progress_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../lessons/lesson_navigation.dart';
 import 'course_pathway_browser.dart';
@@ -97,6 +98,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
         (modulesAsync.valueOrNull ?? const <LearningModuleModel>[])
             .where((m) => grade == null || m.grade == grade)
             .toList();
+    final totalXp = ref.watch(totalCourseXpProvider);
 
     return Scaffold(
       body: SafeArea(
@@ -108,6 +110,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
             _ProgressSummary(
               stars: child?.totalStars ?? 0,
               moduleCount: gradeModules.length,
+              xp: totalXp,
             ),
             const SizedBox(height: 16),
             const CoursePathwayBrowser(),
@@ -279,10 +282,15 @@ class _Header extends StatelessWidget {
 }
 
 class _ProgressSummary extends StatelessWidget {
-  const _ProgressSummary({required this.stars, required this.moduleCount});
+  const _ProgressSummary({
+    required this.stars,
+    required this.moduleCount,
+    required this.xp,
+  });
 
   final int stars;
   final int moduleCount;
+  final int xp;
 
   @override
   Widget build(BuildContext context) {
@@ -320,11 +328,62 @@ class _ProgressSummary extends StatelessWidget {
               ),
             ],
           ),
+          const SizedBox(height: 14),
+          Row(
+            children: [
+              Text(
+                l10n.homeTotalXpLabel,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.outline,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(width: 8),
+              _TotalXpBadge(xp: xp),
+            ],
+          ),
           const SizedBox(height: 12),
           Text(
             l10n.homeModulesAvailable(moduleCount),
             style: theme.textTheme.bodySmall?.copyWith(
               color: theme.colorScheme.outline,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// A small pill-shaped XP badge mirroring the `_XpChip` visual pattern used
+/// on the course pathway week screen (bolt icon in [AppColors.goldMedal] on
+/// a tinted pill) -- reused here as its own private widget rather than
+/// importing that screen's private one, per the tier's "confident
+/// productivity dashboard" visual language.
+class _TotalXpBadge extends StatelessWidget {
+  const _TotalXpBadge({required this.xp});
+
+  final int xp;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: AppColors.goldMedal.withValues(alpha: 0.2),
+        borderRadius: BorderRadius.circular(999),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(Icons.bolt_rounded, color: AppColors.goldMedal, size: 16),
+          const SizedBox(width: 3),
+          Text(
+            '$xp',
+            style: theme.textTheme.bodySmall?.copyWith(
+              fontWeight: FontWeight.bold,
             ),
           ),
         ],
