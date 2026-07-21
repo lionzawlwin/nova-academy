@@ -11182,17 +11182,1816 @@ const CourseTermDef _secondary1ComputingTerm7 = CourseTermDef(
     _secondary1ComputingWeek26,
     _secondary1ComputingWeek27,
     _secondary1ComputingWeek28,
-  ], // Term 7 complete (Weeks 25-28); Term 8 not authored yet
+  ], // Term 7 complete (Weeks 25-28)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-7 (Weeks 1-28) are
+// =====================================================================
+// Secondary 1 Computing -- Term 8, Week 29: "Protecting Your Personal
+// Information"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek29 = CourseWeekDef(
+  id: "course-secondary1-computing-w29",
+  weekNumber: 29,
+  titleEn: "Protecting Your Personal Information",
+  titleMy: "ကိုယ်ရေးကိုယ်တာအချက်အလက်ကို ကာကွယ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w29-d1",
+      dayNumber: 1,
+      titleEn: "What Should You Keep Private?",
+      titleMy: "ဘာကို လျှို့ဝှက်ထားသင့်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a \"digital footprint\"?",
+          questionMy: "\"Digital footprint\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The trail of information you leave behind every time you post or share something online",
+            "A type of computer virus",
+            "A password made only of numbers",
+            "A photo of your actual footprint",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတွင် post တင်သည့်အခါတိုင်း ကျန်ရစ်ခဲ့သော အချက်အလက်ခြေရာများ",
+            "ကွန်ပျူတာ ဗိုင်းရပ်စ်အမျိုးအစားတစ်ခု",
+            "ဂဏန်းသာဖြင့်ဖွဲ့စည်းထားသော စကားဝှက်",
+            "မိမိခြေရာ၏ဓာတ်ပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can posting a photo tagged with your exact location be risky?",
+          questionMy:
+              "မိမိတည်နေရာကို တိတိကျကျ tag တပ်ထားသောဓာတ်ပုံ post တင်ခြင်းသည် အဘယ့်ကြောင့် အန္တရာယ်ရှိနိုင်သနည်း။",
+          optionsEn: [
+            "It can show strangers exactly where you are or are not",
+            "It makes the photo load more slowly",
+            "It uses up more storage space",
+            "It changes the photo's colours",
+          ],
+          optionsMy: [
+            "စိမ်းသူများအား သင်ရှိနေရာ (သို့) မရှိနေရာကို တိတိကျကျ ပြသနိုင်သောကြောင့်",
+            "ဓာတ်ပုံ load ဖြစ်ရန် ပိုနှေးစေသောကြောင့်",
+            "သိုလှောင်ခန်း ပိုမိုသုံးစွဲစေသောကြောင့်",
+            "ဓာတ်ပုံ၏အရောင်ကို ပြောင်းလဲစေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What do privacy settings let you control?",
+          questionMy:
+              "Privacy settings များက သင့်အား ဘာကို ထိန်းချုပ်ခွင့်ပေးသနည်း။",
+          optionsEn: [
+            "Who can see what you post online",
+            "How fast your internet connection is",
+            "How much battery your phone has",
+            "What language your device uses",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတင်ထားသည်များကို မည်သူကြည့်နိုင်သည်ကို",
+            "အင်တာနက်ချိတ်ဆက်မှု မည်မျှမြန်သည်ကို",
+            "ဖုန်း battery မည်မျှရှိသည်ကို",
+            "Device က ဘယ်ဘာသာစကားသုံးသည်ကို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Before posting something online, what is a good habit to build?",
+          questionMy:
+              "အွန်လိုင်းတွင် post မတင်မီ မည်သည့်အလေ့အထကောင်းကို မွေးမြူသင့်သနည်း။",
+          optionsEn: [
+            "Thinking about who might see it and what it reveals about you",
+            "Posting as quickly as possible without checking",
+            "Only thinking about how many likes it might get",
+            "Copying whatever your friends post",
+          ],
+          optionsMy: [
+            "မည်သူကြည့်နိုင်ပြီး သင့်အကြောင်း မည်သည်ကို ဖော်ပြနေသည်ကို စဉ်းစားခြင်း",
+            "မစစ်ဆေးဘဲ အမြန်ဆုံး post တင်ခြင်း",
+            "Like အရေအတွက်ကိုသာ စဉ်းစားခြင်း",
+            "သူငယ်ချင်းများ post တင်သည့်အတိုင်း ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is still personal information worth protecting, even though it feels small?",
+          questionMy:
+              "အောက်ပါတို့အနက် သေးငယ်ပုံပေါက်သော်လည်း ကာကွယ်ထားသင့်သေးသော ကိုယ်ရေးကိုယ်တာအချက်အလက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Your daily school schedule and when you're usually home alone",
+            "Your favourite subject",
+            "Your favourite colour",
+            "Your favourite school lunch",
+          ],
+          optionsMy: [
+            "သင်၏နေ့စဉ်ကျောင်းအချိန်ဇယားနှင့် အိမ်တွင် တစ်ကိုယ်တည်းဖြစ်လေ့ရှိသည့်အချိန်",
+            "သင်နှစ်သက်သော ဘာသာရပ်",
+            "သင်နှစ်သက်သော အရောင်",
+            "သင်နှစ်သက်သော ကျောင်းထမင်းစားနေရာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w29-d2",
+      dayNumber: 2,
+      titleEn: "Privacy Vocabulary",
+      titleMy: "Privacy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w29-privacy-digitalfootprint",
+          termEn: "Digital Footprint",
+          termMy: "Digital Footprint",
+          matchEn:
+              "The trail of information a person leaves behind by using the internet",
+          matchMy:
+              "အင်တာနက်သုံးစွဲခြင်းဖြင့် လူတစ်ဦးကျန်ရစ်ခဲ့သော အချက်အလက်ခြေရာ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w29-privacy-oversharing",
+          termEn: "Oversharing",
+          termMy: "Oversharing",
+          matchEn:
+              "Posting more personal information online than is safe or necessary",
+          matchMy:
+              "လုံခြုံမှုမရှိသော (သို့) မလိုအပ်သော ကိုယ်ရေးအချက်အလက် အလွန်အကျွံ post တင်ခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w29-privacy-settings",
+          termEn: "Privacy Settings",
+          termMy: "Privacy Settings",
+          matchEn: "Controls that limit who can see what you post online",
+          matchMy:
+              "အွန်လိုင်းတင်ထားသည်ကို မည်သူကြည့်နိုင်သည်ကို ကန့်သတ်ပေးသောချိန်ညှိချက်များ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w29-privacy-locationtag",
+          termEn: "Location Tag",
+          termMy: "Location Tag",
+          matchEn: "A label that shows exactly where a photo or post was made",
+          matchMy:
+              "ဓာတ်ပုံ (သို့) post ကို ဘယ်နေရာမှလုပ်ကြောင်း တိကျစွာပြသည့် label",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w29-privacy-trustedadult",
+          termEn: "Trusted Adult",
+          termMy: "Trusted Adult",
+          matchEn:
+              "A parent, guardian, or teacher you can go to for help online",
+          matchMy:
+              "အွန်လိုင်းအကူအညီအတွက် သွားနိုင်သော မိဘ၊ အုပ်ထိန်းသူ (သို့) ဆရာ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w29-d3",
+      dayNumber: 3,
+      titleEn: "Safe to Share, or Keep Private?",
+      titleMy: "Public မျှဝေနိုင်သလား၊ လျှို့ဝှက်ထားရမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Safe to Share Publicly", "Keep Private"],
+        bucketsMy: [
+          "Safe to Share Publicly (တင်နိုင်သော)",
+          "Keep Private (လျှို့ဝှက်ထားရမည့်)",
+        ],
+        items: [
+          SortingItem(
+            id: "w29-sort-favouritehobby",
+            labelEn: "Your favourite hobby",
+            labelMy: "သင်နှစ်သက်သော ဝါသနာ",
+            correctBucketEn: "Safe to Share Publicly",
+            correctBucketMy: "Safe to Share Publicly (တင်နိုင်သော)",
+          ),
+          SortingItem(
+            id: "w29-sort-homeaddress",
+            labelEn: "Your home address",
+            labelMy: "သင်၏အိမ်လိပ်စာ",
+            correctBucketEn: "Keep Private",
+            correctBucketMy: "Keep Private (လျှို့ဝှက်ထားရမည့်)",
+          ),
+          SortingItem(
+            id: "w29-sort-phonenumber",
+            labelEn: "Your phone number",
+            labelMy: "သင်၏ဖုန်းနံပါတ်",
+            correctBucketEn: "Keep Private",
+            correctBucketMy: "Keep Private (လျှို့ဝှက်ထားရမည့်)",
+          ),
+          SortingItem(
+            id: "w29-sort-favouritesubject",
+            labelEn: "Your favourite school subject",
+            labelMy: "သင်နှစ်သက်သော ကျောင်းဘာသာရပ်",
+            correctBucketEn: "Safe to Share Publicly",
+            correctBucketMy: "Safe to Share Publicly (တင်နိုင်သော)",
+          ),
+          SortingItem(
+            id: "w29-sort-schedule",
+            labelEn: "Your daily school schedule and when you're home alone",
+            labelMy: "သင်၏နေ့စဉ်အချိန်ဇယားနှင့် တစ်ကိုယ်တည်းရှိချိန်",
+            correctBucketEn: "Keep Private",
+            correctBucketMy: "Keep Private (လျှို့ဝှက်ထားရမည့်)",
+          ),
+          SortingItem(
+            id: "w29-sort-favouritecolour",
+            labelEn: "Your favourite colour",
+            labelMy: "သင်နှစ်သက်သော အရောင်",
+            correctBucketEn: "Safe to Share Publicly",
+            correctBucketMy: "Safe to Share Publicly (တင်နိုင်သော)",
+          ),
+          SortingItem(
+            id: "w29-sort-fullbirthdate",
+            labelEn: "Your full birth date and where you were born",
+            labelMy: "သင်၏မွေးနေ့အပြည့်အစုံနှင့် မွေးဖွားရာနေရာ",
+            correctBucketEn: "Keep Private",
+            correctBucketMy: "Keep Private (လျှို့ဝှက်ထားရမည့်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w29-d4",
+      dayNumber: 4,
+      titleEn: "Ei Ei's Holiday Photo",
+      titleMy: "အိအိ၏ အားလပ်ရက်ဓာတ်ပုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ei Ei's Holiday Photo",
+        titleMy: "အိအိ၏ အားလပ်ရက်ဓာတ်ပုံ",
+        passageEn:
+            "Ei Ei was excited to post a photo from her family's beach holiday. She almost included a location tag showing exactly which hotel they were staying at and wrote a caption saying their house would be empty for a whole week. Just before posting, she remembered her class had learned about digital footprints -- once something is posted, it is very hard to fully take back, and strangers could see it too. She remembered Thandar's story about a phishing message from Term 2, and realised protecting personal information mattered just as much as spotting a trick message. So Ei Ei removed the location tag, changed her caption to something general, and checked that only her friends could see the post using her privacy settings. She still shared her happy memory, just more safely.",
+        passageMy:
+            "အိအိသည် သူမ၏မိသားစု ပင်လယ်ကမ်းခြေအားလပ်ရက် ဓာတ်ပုံကို post တင်ရန် စိတ်လှုပ်ရှားခဲ့သည်။ သူမတည်းခိုနေသော ဟိုတယ်ကို တိတိကျကျပြသော location tag ကို ထည့်ပေးမလို ဖြစ်ခဲ့ပြီး၊ သူတို့အိမ်သည် တစ်ပတ်လုံး ဗလာဖြစ်နေမည့်အကြောင်း caption ရေးထားခဲ့သည်။ Post မတင်မီ သူမသည် digital footprint အကြောင်း အတန်းတွင်သင်ခဲ့ဖူးသည်ကို သတိရခဲ့သည် - တစ်ခုခု post တင်ပြီးသည်နှင့် ပြန်ရုတ်သိမ်းရန် အလွန်ခက်ခဲပြီး စိမ်းသူများလည်း မြင်နိုင်ကြောင်း။ သူမသည် Term 2 တွင် phishing message အကြောင်း သန္တာ၏ဇာတ်လမ်းကို သတိရမိပြီး ကိုယ်ရေးကိုယ်တာအချက်အလက် ကာကွယ်ခြင်းသည် လှည့်ကွက်စာကို သတိထားမိခြင်းနှင့် အတူတူပင် အရေးကြီးကြောင်း သဘောပေါက်ခဲ့သည်။ ထို့ကြောင့် အိအိသည် location tag ကိုဖျက်ပြီး caption ကို ယေဘုယျအဖြစ် ပြောင်းကာ privacy settings ဖြင့် သူမ၏သူငယ်ချင်းများသာ post ကိုမြင်နိုင်အောင် စစ်ဆေးခဲ့သည်။ သူမ၏ပျော်ရွှင်ဖွယ်အမှတ်တရကို ပိုမိုလုံခြုံစွာ ဆက်လက်မျှဝေနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What almost went into Ei Ei's caption before she stopped herself?",
+            questionMy:
+                "အိအိ သူမ့်ကိုယ်သူ မတားဆီးမီ caption ထဲ ဘာထည့်မလိုဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "That their house would be empty for a whole week",
+              "Her favourite beach game",
+              "Her school timetable for the year",
+              "Her friend's phone number",
+            ],
+            optionsMy: [
+              "သူတို့အိမ်သည် တစ်ပတ်လုံးဗလာဖြစ်နေမည့်အကြောင်း",
+              "သူမနှစ်သက်သော ကမ်းခြေဂိမ်း",
+              "တစ်နှစ်စာ ကျောင်းအချိန်ဇယား",
+              "သူငယ်ချင်း၏ဖုန်းနံပါတ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ei Ei remember from an earlier lesson?",
+            questionMy: "အိအိသည် အရင်သင်ခန်းစာမှ ဘာကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "The idea of a digital footprint",
+              "How to draw a flowchart",
+              "How to convert binary to denary",
+              "How to write a for loop",
+            ],
+            optionsMy: [
+              "Digital footprint ဆိုသောအယူအဆ",
+              "Flowchart ရေးနည်း",
+              "Binary ကို denary သို့ ပြောင်းနည်း",
+              "For loop ရေးနည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Whose earlier story did Ei Ei think of?",
+            questionMy: "အိအိသည် မည်သူ၏အရင်ဇာတ်လမ်းကို သတိရမိခဲ့သနည်း။",
+            optionsEn: ["Thandar's", "Zaw's", "Hla Hla's", "Nilar's"],
+            optionsMy: ["သန္တာ၏", "ဇော်၏", "လှလှ၏", "နီလာ၏"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What two things did Ei Ei change before posting?",
+            questionMy: "Post မတင်မီ အိအိ ဘာနှစ်ခုပြောင်းခဲ့သနည်း။",
+            optionsEn: [
+              "She removed the location tag and changed her caption",
+              "She deleted the photo completely",
+              "She changed her password and username",
+              "She turned off her phone",
+            ],
+            optionsMy: [
+              "Location tag ကိုဖျက်ပြီး caption ကို ပြောင်းခဲ့သည်",
+              "ဓာတ်ပုံကို လုံးဝဖျက်ခဲ့သည်",
+              "စကားဝှက်နှင့် username ကို ပြောင်းခဲ့သည်",
+              "ဖုန်းကို ပိတ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ei Ei use to limit who could see her post?",
+            questionMy:
+                "Post ကို မည်သူကြည့်နိုင်သည်ကို ကန့်သတ်ရန် အိအိ ဘာကိုသုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Her privacy settings",
+              "A strong password",
+              "A loop",
+              "A location tag",
+            ],
+            optionsMy: [
+              "Privacy settings",
+              "ခိုင်မာသောစကားဝှက်",
+              "Loop",
+              "Location tag",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a digital footprint?",
+          questionMy: "Digital footprint ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The trail of information you leave behind online",
+            "A password made of numbers only",
+            "A type of computer virus",
+            "A picture of your foot",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတွင်ကျန်ရစ်ခဲ့သော အချက်အလက်ခြေရာ",
+            "ဂဏန်းသာဖြင့်ဖွဲ့စည်းထားသော စကားဝှက်",
+            "ကွန်ပျူတာဗိုင်းရပ်စ်အမျိုးအစား",
+            "ခြေရာ၏ဓာတ်ပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What do privacy settings control?",
+          questionMy: "Privacy settings များက ဘာကို ထိန်းချုပ်သနည်း။",
+          optionsEn: [
+            "Who can see what you post",
+            "How fast your internet is",
+            "Your phone's battery life",
+            "Your device's language",
+          ],
+          optionsMy: [
+            "Post တင်ထားသည်ကို မည်သူကြည့်နိုင်သည်",
+            "အင်တာနက်မြန်နှုန်း",
+            "ဖုန်း battery",
+            "Device ဘာသာစကား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a location tag risky to include on a public post?",
+          questionMy:
+              "Public post တွင် location tag ထည့်ခြင်းသည် အဘယ့်ကြောင့် အန္တရာယ်ရှိနိုင်သနည်း။",
+          optionsEn: [
+            "It shows strangers exactly where you are",
+            "It makes photos load slower",
+            "It uses more storage",
+            "It changes the photo's colours",
+          ],
+          optionsMy: [
+            "စိမ်းသူများအား သင်ရှိရာနေရာကို တိတိကျကျပြသနိုင်သောကြောင့်",
+            "ဓာတ်ပုံပိုနှေးအောင်ဖြစ်စေသောကြောင့်",
+            "သိုလှောင်ခန်းပိုသုံးသောကြောင့်",
+            "ဓာတ်ပုံအရောင်ပြောင်းစေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What should you do before posting something online?",
+          questionMy: "အွန်လိုင်းတွင် post မတင်မီ ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Think about who might see it and what it reveals",
+            "Post as fast as possible",
+            "Only think about likes",
+            "Copy what friends post",
+          ],
+          optionsMy: [
+            "မည်သူကြည့်နိုင်ပြီး ဘာဖော်ပြနေသည်ကို စဉ်းစားပါ",
+            "အမြန်ဆုံး post တင်ပါ",
+            "Like ကိုသာ စဉ်းစားပါ",
+            "သူငယ်ချင်း post ကို ကူးယူပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Even small details like your daily schedule can be personal information because:",
+          questionMy:
+              "နေ့စဉ်အချိန်ဇယားကဲ့သို့ အသေးအဖွဲ့အချက်များပင် ကိုယ်ရေးကိုယ်တာအချက်အလက်ဖြစ်နိုင်သည်မှာ:",
+          optionsEn: [
+            "It can reveal when you are alone or where you will be",
+            "It takes up storage space",
+            "It changes your password",
+            "It slows down your device",
+          ],
+          optionsMy: [
+            "သင်တစ်ကိုယ်တည်းရှိချိန် (သို့) ရှိမည့်နေရာကို ဖော်ပြနိုင်သောကြောင့်",
+            "သိုလှောင်ခန်းသုံးသောကြောင့်",
+            "စကားဝှက်ကိုပြောင်းလဲစေသောကြောင့်",
+            "Device ကို နှေးအောင်လုပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 8, Week 30: "Strong Passwords and
+// Account Security"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek30 = CourseWeekDef(
+  id: "course-secondary1-computing-w30",
+  weekNumber: 30,
+  titleEn: "Strong Passwords and Account Security",
+  titleMy: "ခိုင်မာသောစကားဝှက်နှင့် အကောင့်လုံခြုံရေး",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w30-d1",
+      dayNumber: 1,
+      titleEn: "Keeping Your Accounts Secure",
+      titleMy: "မိမိအကောင့်များကို လုံခြုံအောင်ထားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it risky to use the same password for every account?",
+          questionMy:
+              "အကောင့်တိုင်းတွင် စကားဝှက်တစ်ခုတည်းသုံးခြင်းသည် အဘယ့်ကြောင့် အန္တရာယ်ရှိနိုင်သနည်း။",
+          optionsEn: [
+            "If one account is broken into, every other account becomes at risk too",
+            "It makes your password too long to remember",
+            "It makes your accounts load more slowly",
+            "It is against the rules of every website",
+          ],
+          optionsMy: [
+            "အကောင့်တစ်ခု ဝင်ရောက်ခံရလျှင် ကျန်အကောင့်များလည်း အန္တရာယ်ရှိလာသောကြောင့်",
+            "စကားဝှက်ကို မှတ်ရန် ရှည်လွန်းလာစေသောကြောင့်",
+            "အကောင့်များ load ဖြစ်ရန် ပိုနှေးစေသောကြောင့်",
+            "Website တိုင်း၏စည်းမျဉ်းကို ဆန့်ကျင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is the strongest password?",
+          questionMy: "အောက်ပါတို့အနက် အခိုင်မာဆုံးစကားဝှက်မှာ အဘယ်နည်း။",
+          optionsEn: ["Tr7!kPq29xz", "password1", "myname2010", "123456789"],
+          optionsMy: ["Tr7!kPq29xz", "password1", "myname2010", "123456789"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Who should you share your password with?",
+          questionMy: "သင်၏စကားဝှက်ကို မည်သူနှင့် မျှဝေသင့်သနည်း။",
+          optionsEn: [
+            "No one -- not even close friends",
+            "Any close friend who asks",
+            "Anyone in your class",
+            "Anyone who messages you online",
+          ],
+          optionsMy: [
+            "မည်သူနှင့်မျှ မျှဝေသင့်ပါ - ရင်းနှီးသောသူငယ်ချင်းပင်",
+            "မေးလာသော ရင်းနှီးသောသူငယ်ချင်းတိုင်း",
+            "အတန်းထဲရှိ မည်သူမဆို",
+            "အွန်လိုင်းတွင် message ပို့လာသော မည်သူမဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A message says \"Your account will be deleted -- log in here now to save it!\" What should you do?",
+          questionMy:
+              "\"သင်၏အကောင့်ကို ဖျက်ပစ်တော့မည် - ယခုပင် login ဝင်၍ ကယ်တင်ပါ!\" ဟူသောစာကို ရရှိလျှင် သင်ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Be suspicious, don't click the link, and check with a trusted adult",
+            "Log in immediately using the link in the message",
+            "Reply with your password right away",
+            "Forward the message to all your friends",
+          ],
+          optionsMy: [
+            "သံသယရှိပြီး link ကိုမနှိပ်ဘဲ ယုံကြည်ရသူကြီးနှင့် စစ်ဆေးပါ",
+            "Message ထဲရှိ link ဖြင့် ချက်ချင်း login ဝင်ပါ",
+            "ချက်ချင်း စကားဝှက်ဖြင့် ပြန်စာပို့ပါ",
+            "Message ကို သူငယ်ချင်းအားလုံးထံ ပေးပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What makes a password easy for others to guess?",
+          questionMy:
+              "စကားဝှက်တစ်ခုကို အခြားသူများ မှန်းရလွယ်ကူစေသည့်အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Using your own name or birthday",
+            "Mixing letters, numbers, and symbols",
+            "Making it long",
+            "Using a random phrase",
+          ],
+          optionsMy: [
+            "မိမိကိုယ်ပိုင်နာမည် (သို့) မွေးနေ့ကို သုံးခြင်း",
+            "စာလုံး၊ ဂဏန်း၊ သင်္ကေတများ ရောနှောသုံးခြင်း",
+            "ရှည်လျားအောင်ဖန်တီးခြင်း",
+            "ကျပန်းစာစုတစ်ခုသုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w30-d2",
+      dayNumber: 2,
+      titleEn: "Account Security Vocabulary",
+      titleMy: "အကောင့်လုံခြုံရေး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w30-security-strongpassword",
+          termEn: "Strong Password",
+          termMy: "Strong Password",
+          matchEn:
+              "A long password mixing letters, numbers, and symbols that is hard to guess",
+          matchMy:
+              "စာလုံး၊ ဂဏန်း၊ သင်္ကေတများ ရောနှောထားပြီး မှန်းရခက်သော ရှည်လျားသောစကားဝှက်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w30-security-weakpassword",
+          termEn: "Weak Password",
+          termMy: "Weak Password",
+          matchEn:
+              "A short or predictable password, like a real word or a birth date",
+          matchMy:
+              "တကယ့်စကားလုံး (သို့) မွေးနေ့ကဲ့သို့ တိုတောင်း၍ မှန်းရလွယ်သောစကားဝှက်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w30-security-accountsecurity",
+          termEn: "Account Security",
+          termMy: "Account Security",
+          matchEn: "Keeping an online account safe from unwanted access",
+          matchMy: "အွန်လိုင်းအကောင့်ကို မလိုလားသောဝင်ရောက်မှုမှ ကာကွယ်ခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w30-security-suspiciouslogin",
+          termEn: "Suspicious Login Request",
+          termMy: "Suspicious Login Request",
+          matchEn:
+              "An unexpected message urgently asking you to log in or share your password",
+          matchMy:
+              "Login ဝင်ရန် (သို့) စကားဝှက်မျှဝေရန် အလျင်စလိုတောင်းဆိုသော မမျှော်လင့်ထားသောစာ",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w30-security-reusedpassword",
+          termEn: "Reused Password",
+          termMy: "Reused Password",
+          matchEn:
+              "The same password used across many accounts, risky if one account is broken into",
+          matchMy:
+              "အကောင့်အများအတွက် အသုံးပြုသော စကားဝှက်တစ်ခုတည်း၊ တစ်ခုပေါက်ကြားလျှင် အန္တရာယ်ရှိသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w30-d3",
+      dayNumber: 3,
+      titleEn: "Strong Password, or Weak Password?",
+      titleMy: "ခိုင်မာသောစကားဝှက်လား၊ အားနည်းသောစကားဝှက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Password", "Weak Password"],
+        bucketsMy: [
+          "Strong Password (ခိုင်မာသော)",
+          "Weak Password (အားနည်းသော)",
+        ],
+        items: [
+          SortingItem(
+            id: "w30-sort-tr7kpq",
+            labelEn: "Tr7!kPq29xz",
+            labelMy: "Tr7!kPq29xz",
+            correctBucketEn: "Strong Password",
+            correctBucketMy: "Strong Password (ခိုင်မာသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-123456",
+            labelEn: "123456",
+            labelMy: "123456",
+            correctBucketEn: "Weak Password",
+            correctBucketMy: "Weak Password (အားနည်းသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-ownname",
+            labelEn: "Your own first name",
+            labelMy: "မိမိ၏ပထမနာမည်",
+            correctBucketEn: "Weak Password",
+            correctBucketMy: "Weak Password (အားနည်းသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-randomphrase",
+            labelEn: "Zg8#mLwq!42kT",
+            labelMy: "Zg8#mLwq!42kT",
+            correctBucketEn: "Strong Password",
+            correctBucketMy: "Strong Password (ခိုင်မာသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-petname",
+            labelEn: "Your pet's name only",
+            labelMy: "မိမိအိမ်မွေးတိရစ္ဆာန်နာမည်သာ",
+            correctBucketEn: "Weak Password",
+            correctBucketMy: "Weak Password (အားနည်းသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-birthdatepassword",
+            labelEn: "Your birth date only, like 15062012",
+            labelMy: "မိမိမွေးနေ့သာ, 15062012 ကဲ့သို့",
+            correctBucketEn: "Weak Password",
+            correctBucketMy: "Weak Password (အားနည်းသော)",
+          ),
+          SortingItem(
+            id: "w30-sort-longmix",
+            labelEn: "Qx4\$vNp7!eR2w",
+            labelMy: "Qx4\$vNp7!eR2w",
+            correctBucketEn: "Strong Password",
+            correctBucketMy: "Strong Password (ခိုင်မာသော)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w30-d4",
+      dayNumber: 4,
+      titleEn: "Chit Su's Suspicious Message",
+      titleMy: "ချစ်စု၏ သံသယဖြစ်ဖွယ်စာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Chit Su's Suspicious Message",
+        titleMy: "ချစ်စု၏ သံသယဖြစ်ဖွယ်စာ",
+        passageEn:
+            "Chit Su received a message that looked like it was from her favourite game, saying \"Your account will be deleted -- log in here now to save it!\" with a link attached. Her first instinct was to click it right away because she was worried about losing her progress. But she paused and remembered what her class had learned: real companies do not usually threaten to delete your account within minutes, and urgent messages like this are often designed to trick you into typing your password into a fake page. Instead of clicking the link, Chit Su opened the real game app directly and checked her account there -- it was completely fine. She reported the suspicious message and told her older sister what had happened, glad she had paused before reacting.",
+        passageMy:
+            "ချစ်စုသည် သူမနှစ်သက်သော game မှလာသည့်ပုံစံဖြင့် \"သင်၏အကောင့်ကို ဖျက်ပစ်တော့မည် - ယခုပင် login ဝင်၍ ကယ်တင်ပါ!\" ဟူသော message တစ်စောင်ကို link တစ်ခုနှင့်အတူ ရရှိခဲ့သည်။ သူမ၏ ပထမတုံ့ပြန်မှုက progress ပျောက်ဆုံးမည်ကို စိုးရိမ်သဖြင့် link ကို ချက်ချင်းနှိပ်ရန်ဖြစ်ခဲ့သည်။ သို့သော် သူမရပ်တန့်ကာ အတန်းတွင်သင်ခဲ့ဖူးသည်ကို သတိရမိသည် - တကယ့်ကုမ္ပဏီများသည် ရက်ပိုင်းအတွင်း အကောင့်ဖျက်ပစ်မည်ဟု ခြိမ်းခြောက်လေ့မရှိပြီး၊ ဤကဲ့သို့ အလျင်စလို message များသည် သင့်စကားဝှက်ကို အတု page တစ်ခုတွင် ရိုက်ထည့်စေရန် ဒီဇိုင်းထုတ်ထားလေ့ရှိကြောင်း။ Link ကိုနှိပ်မည့်အစား ချစ်စုသည် တကယ့် game app ကို တိုက်ရိုက်ဖွင့်ပြီး သူမ၏အကောင့်ကို စစ်ဆေးခဲ့ရာ လုံးဝပြဿနာမရှိကြောင်း တွေ့ခဲ့သည်။ သူမသည် ထိုသံသယဖြစ်ဖွယ်စာကို တိုင်ကြားပြီး အစ်မကြီးကို ဖြစ်ပျက်ခဲ့သမျှကို ပြောပြခဲ့သည်၊ တုံ့ပြန်မီ ရပ်တန့်ခဲ့ခြင်းအတွက် သူမ ပျော်ရွှင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did the suspicious message threaten to do?",
+            questionMy: "သံသယဖြစ်ဖွယ်စာက ဘာလုပ်မည်ဟု ခြိမ်းခြောက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Delete her account",
+              "Give her a free prize",
+              "Update her password automatically",
+              "Send her a certificate",
+            ],
+            optionsMy: [
+              "သူမ၏အကောင့်ဖျက်ပစ်မည်",
+              "အခမဲ့ဆုပေးမည်",
+              "စကားဝှက်ကို အလိုအလျောက်ပြောင်းပေးမည်",
+              "လက်မှတ်ပေးမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Chit Su pause before clicking the link?",
+            questionMy: "Link ကိုမနှိပ်မီ ချစ်စု အဘယ့်ကြောင့် ရပ်တန့်ခဲ့သနည်း။",
+            optionsEn: [
+              "She remembered urgent messages like this are often tricks",
+              "She had no internet connection",
+              "Her phone battery died",
+              "She did not know how to click links",
+            ],
+            optionsMy: [
+              "ဤကဲ့သို့ အလျင်စလိုစာများသည် လှည့်ကွက်များများဖြစ်ကြောင်း သတိရမိသောကြောင့်",
+              "အင်တာနက်ချိတ်ဆက်မှုမရှိသောကြောင့်",
+              "ဖုန်း battery ကုန်သွားသောကြောင့်",
+              "Link နှိပ်နည်းမသိသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Chit Su check if her account was really at risk?",
+            questionMy:
+                "သူမ၏အကောင့် တကယ်အန္တရာယ်ရှိမရှိ ချစ်စု မည်သို့စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: [
+              "She opened the real game app directly instead of using the link",
+              "She typed her password into the link's page",
+              "She ignored it completely and did nothing",
+              "She replied asking for more information",
+            ],
+            optionsMy: [
+              "Link မသုံးဘဲ တကယ့် game app ကို တိုက်ရိုက်ဖွင့်ခဲ့သည်",
+              "Link ၏ page ထဲသို့ စကားဝှက်ရိုက်ထည့်ခဲ့သည်",
+              "လုံးဝလျစ်လျူရှုပြီး ဘာမှမလုပ်ခဲ့ပါ",
+              "အချက်အလက်ပိုမိုတောင်းရန် ပြန်စာပို့ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Chit Su do after checking her account?",
+            questionMy: "အကောင့်စစ်ဆေးပြီးနောက် ချစ်စု ဘာဆက်လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She reported the message and told her older sister",
+              "She deleted her account herself",
+              "She shared the link with her friends",
+              "She replied to the message with her password",
+            ],
+            optionsMy: [
+              "Message ကို တိုင်ကြားပြီး အစ်မကြီးကို ပြောပြခဲ့သည်",
+              "သူမကိုယ်တိုင် အကောင့်ကို ဖျက်ခဲ့သည်",
+              "Link ကို သူငယ်ချင်းများနှင့် မျှဝေခဲ့သည်",
+              "Message ကို စကားဝှက်ဖြင့် ပြန်စာပို့ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does this story suggest real companies rarely do?",
+            questionMy:
+                "ဤဇာတ်လမ်းက တကယ့်ကုမ္ပဏီများ ရှားရှားပါးပါးသာလုပ်တတ်သည်ဟု ဖော်ပြသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Threaten to delete your account within minutes",
+              "Send you a welcome message",
+              "Ask for feedback about their service",
+              "Offer customer support",
+            ],
+            optionsMy: [
+              "ရက်ပိုင်းအတွင်း အကောင့်ဖျက်ပစ်မည်ဟု ခြိမ်းခြောက်ခြင်း",
+              "ကြိုဆိုသောစာပို့ခြင်း",
+              "ဝန်ဆောင်မှုအတွက် အကြံပြုချက်တောင်းခြင်း",
+              "ဖောက်သည်ဝန်ဆောင်မှုပေးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap Quiz",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What makes a password strong?",
+          questionMy: "စကားဝှက်တစ်ခုကို ခိုင်မာစေသည့်အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It is long and mixes letters, numbers, and symbols",
+            "It is your own name",
+            "It is short and simple",
+            "It is the same as your username",
+          ],
+          optionsMy: [
+            "ရှည်လျားပြီး စာလုံး၊ ဂဏန်း၊ သင်္ကေတများ ရောနှောထားခြင်း",
+            "မိမိကိုယ်ပိုင်နာမည်ဖြစ်ခြင်း",
+            "တိုတောင်းရိုးရှင်းခြင်း",
+            "Username နှင့်တူညီခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is reusing the same password risky?",
+          questionMy:
+              "စကားဝှက်တစ်ခုတည်း ထပ်ခါသုံးခြင်း အဘယ့်ကြောင့် အန္တရာယ်ရှိသနည်း။",
+          optionsEn: [
+            "If one account is broken into, all your accounts are at risk",
+            "It makes the password too easy to remember",
+            "It slows down your device",
+            "It is against every website's design",
+          ],
+          optionsMy: [
+            "အကောင့်တစ်ခု ပေါက်ကြားလျှင် အကောင့်အားလုံး အန္တရာယ်ရှိသောကြောင့်",
+            "မှတ်ရလွယ်လွန်းစေသောကြောင့်",
+            "Device ကို နှေးအောင်လုပ်သောကြောင့်",
+            "Website ၏ ဒီဇိုင်းကို ဆန့်ကျင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Who should you share your password with?",
+          questionMy: "သင်၏စကားဝှက်ကို မည်သူနှင့် မျှဝေသင့်သနည်း။",
+          optionsEn: [
+            "No one",
+            "Your best friend",
+            "Your classmates",
+            "Anyone who asks nicely",
+          ],
+          optionsMy: [
+            "မည်သူနှင့်မျှ",
+            "ရင်းနှီးသောသူငယ်ချင်း",
+            "အတန်းဖော်များ",
+            "ယဉ်ကျေးစွာမေးသော မည်သူမဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should you do if you get an urgent message asking you to log in immediately?",
+          questionMy:
+              "ချက်ချင်း login ဝင်ရန်တောင်းဆိုသော အလျင်စလိုစာရလျှင် ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Be suspicious and check with a trusted adult before doing anything",
+            "Click the link right away to be safe",
+            "Reply with your password immediately",
+            "Ignore it and delete your account yourself",
+          ],
+          optionsMy: [
+            "သံသယရှိပြီး မည်သည့်အရာမှမလုပ်မီ ယုံကြည်ရသူကြီးနှင့် စစ်ဆေးပါ",
+            "လုံခြုံစေရန် link ကို ချက်ချင်းနှိပ်ပါ",
+            "ချက်ချင်း စကားဝှက်ဖြင့် ပြန်စာပို့ပါ",
+            "လျစ်လျူရှုပြီး ကိုယ်တိုင်အကောင့်ဖျက်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is account security?",
+          questionMy: "Account security ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Keeping an online account safe from unwanted access",
+            "Making an account load faster",
+            "Deleting an account completely",
+            "Sharing an account with friends",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းအကောင့်ကို မလိုလားသောဝင်ရောက်မှုမှ ကာကွယ်ခြင်း",
+            "အကောင့်ကို ပိုမြန်စွာ load ဖြစ်စေခြင်း",
+            "အကောင့်ကို လုံးဝဖျက်ခြင်း",
+            "အကောင့်ကို သူငယ်ချင်းများနှင့် မျှဝေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 8, Week 31: "Being Kind Online"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek31 = CourseWeekDef(
+  id: "course-secondary1-computing-w31",
+  weekNumber: 31,
+  titleEn: "Being Kind Online",
+  titleMy: "အွန်လိုင်းတွင် ကြင်နာစွာနေထိုင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w31-d1",
+      dayNumber: 1,
+      titleEn: "Netiquette and Being an Upstander",
+      titleMy: "Netiquette နှင့် Upstander ဖြစ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is \"netiquette\"?",
+          questionMy: "\"Netiquette\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Good manners and polite behaviour when communicating online",
+            "A type of computer network cable",
+            "A password rule",
+            "A way to speed up the internet",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတွင် ဆက်သွယ်ရာတွင် ယဉ်ကျေးသိမ်မွေ့စွာ ကျင့်ကြံခြင်း",
+            "ကွန်ပျူတာကွန်ရက် ကေဘယ်အမျိုးအစား",
+            "စကားဝှက် စည်းမျဉ်း",
+            "အင်တာနက်မြန်ဆန်စေသောနည်းလမ်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the difference between disagreeing with someone and being unkind to them online?",
+          questionMy:
+              "အွန်လိုင်းတွင် တစ်စုံတစ်ဦးနှင့် သဘောထားကွဲလွဲခြင်းနှင့် သူ့ကို ရက်စက်စွာဆက်ဆံခြင်းတို့၏ ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Disagreeing focuses on the idea; being unkind attacks the person",
+            "There is no difference between them",
+            "Disagreeing is always worse",
+            "Being unkind is always allowed if you disagree first",
+          ],
+          optionsMy: [
+            "သဘောထားကွဲလွဲခြင်းသည် အယူအဆအပေါ်တွင်ရှိပြီး၊ ရက်စက်ခြင်းသည် လူပုဂ္ဂိုလ်ကို တိုက်ခိုက်ခြင်းဖြစ်သည်",
+            "ကွာခြားချက်မရှိပါ",
+            "သဘောထားကွဲလွဲခြင်းက အမြဲပိုဆိုးသည်",
+            "ဦးစွာသဘောထားကွဲလျှင် ရက်စက်ခွင့်ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is an \"upstander\"?",
+          questionMy: "\"Upstander\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Someone who speaks up or gets help when they see unkindness online",
+            "Someone who joins in with cyberbullying",
+            "Someone who ignores everything they see online",
+            "A type of strong password",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတွင် ရက်စက်မှုကိုမြင်လျှင် အသံထွက်ပြော (သို့) အကူအညီရှာသောသူ",
+            "Cyberbullying တွင် ပါဝင်လိုက်ပါသောသူ",
+            "အွန်လိုင်းတွင်မြင်သမျှကို လျစ်လျူရှုသောသူ",
+            "ခိုင်မာသောစကားဝှက်အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a post stay part of your digital footprint even after you delete it?",
+          questionMy:
+              "Post တစ်ခုကို ဖျက်ပြီးနောက်ပင် digital footprint အစိတ်အပိုင်းအဖြစ် ဆက်ရှိနေခြင်းမှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "Others may have already seen, saved, or shared it before it was deleted",
+            "Deleted posts always disappear completely and instantly",
+            "It automatically becomes a password",
+            "It changes into a different file type",
+          ],
+          optionsMy: [
+            "ဖျက်ပစ်မီ အခြားသူများ မြင်ပြီး၊ သိမ်းဆည်း (သို့) မျှဝေပြီးသွားနိုင်သောကြောင့်",
+            "ဖျက်ထားသော post များသည် အမြဲလုံးဝချက်ချင်းပျောက်ကွယ်သွားသောကြောင့်",
+            "အလိုအလျောက် စကားဝှက်ဖြစ်သွားသောကြောင့်",
+            "File အမျိုးအစားပြောင်းလဲသွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a friend tells you they are being bullied online, what is the best first step?",
+          questionMy:
+              "သူငယ်ချင်းတစ်ဦးက အွန်လိုင်းတွင် bully ခံနေရကြောင်း ပြောပြလျှင် အကောင်းဆုံးပထမလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Listen, support them, and help them tell a trusted adult",
+            "Tell them to ignore it forever",
+            "Post about it publicly to embarrass the bully",
+            "Message the bully back with unkind words",
+          ],
+          optionsMy: [
+            "နားထောင်ပေးပြီး ယုံကြည်ရသူကြီးကို ပြောပြရန် ကူညီပါ",
+            "ထာဝရလျစ်လျူရှုရန် ပြောပါ",
+            "Bully ကို အရှက်ရအောင် အများသူငှာ post တင်ပါ",
+            "Bully ထံ ရက်စက်သောစကားများဖြင့် message ပြန်ပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w31-d2",
+      dayNumber: 2,
+      titleEn: "Being Kind Online Vocabulary",
+      titleMy: "အွန်လိုင်းကြင်နာမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w31-kind-netiquette",
+          termEn: "Netiquette",
+          termMy: "Netiquette",
+          matchEn:
+              "Good manners and polite behaviour when communicating online",
+          matchMy:
+              "အွန်လိုင်းတွင် ဆက်သွယ်ရာတွင် ယဉ်ကျေးသိမ်မွေ့စွာ ကျင့်ကြံခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w31-kind-upstander",
+          termEn: "Upstander",
+          termMy: "Upstander",
+          matchEn:
+              "Someone who speaks up or gets help when they see unkindness online",
+          matchMy: "ရက်စက်မှုကို မြင်လျှင် အသံထွက်ပြော (သို့) အကူအညီရှာသောသူ",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w31-kind-digitalfootprintrevisit",
+          termEn: "Digital Footprint",
+          termMy: "Digital Footprint",
+          matchEn:
+              "The lasting trail a post leaves behind, even after deletion",
+          matchMy: "ဖျက်ပြီးနောက်ပင် post တစ်ခုကျန်ရစ်ခဲ့သော ရေရှည်ခြေရာ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w31-kind-reportblock",
+          termEn: "Report and Block",
+          termMy: "Report and Block",
+          matchEn:
+              "Tools used to flag unkind behaviour and stop it reaching you",
+          matchMy:
+              "ရက်စက်မှုကို တိုင်ကြားပြီး သင့်ထံမရောက်အောင် ရပ်တန့်ပေးသောကိရိယာများ",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w31-kind-cyberbullyingrevisit",
+          termEn: "Cyberbullying",
+          termMy: "Cyberbullying",
+          matchEn: "Using the internet to repeatedly hurt or upset someone",
+          matchMy:
+              "အင်တာနက်ကိုသုံး၍ တစ်စုံတစ်ဦးအား ထပ်ခါထပ်ခါ စိတ်ဆင်းရဲစေခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w31-d3",
+      dayNumber: 3,
+      titleEn: "Kind, or Unkind Online Behaviour?",
+      titleMy: "ကြင်နာမှုရှိသလား၊ မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Kind Online Behaviour", "Unkind Online Behaviour"],
+        bucketsMy: [
+          "Kind Online Behaviour (ကြင်နာသော)",
+          "Unkind Online Behaviour (ရက်စက်သော)",
+        ],
+        items: [
+          SortingItem(
+            id: "w31-sort-encouragingcomment",
+            labelEn: "Leaving an encouraging comment on a classmate's work",
+            labelMy: "အတန်းဖော်၏အလုပ်တွင် အားပေးစကားထားခြင်း",
+            correctBucketEn: "Kind Online Behaviour",
+            correctBucketMy: "Kind Online Behaviour (ကြင်နာသော)",
+          ),
+          SortingItem(
+            id: "w31-sort-spreadrumour",
+            labelEn: "Spreading a rumour about someone online",
+            labelMy:
+                "အွန်လိုင်းတွင် တစ်စုံတစ်ဦးအကြောင်း ကောလာဟလ ပျံ့နှံ့စေခြင်း",
+            correctBucketEn: "Unkind Online Behaviour",
+            correctBucketMy: "Unkind Online Behaviour (ရက်စက်သော)",
+          ),
+          SortingItem(
+            id: "w31-sort-mockingphoto",
+            labelEn: "Mocking someone's photo in the comments",
+            labelMy: "Comment တွင် တစ်စုံတစ်ဦး၏ဓာတ်ပုံကို ပြောင်လှောင်ခြင်း",
+            correctBucketEn: "Unkind Online Behaviour",
+            correctBucketMy: "Unkind Online Behaviour (ရက်စက်သော)",
+          ),
+          SortingItem(
+            id: "w31-sort-reportbullying",
+            labelEn: "Reporting bullying you see to a trusted adult",
+            labelMy: "တွေ့ရသော bullying ကို ယုံကြည်ရသူကြီးအားတိုင်ကြားခြင်း",
+            correctBucketEn: "Kind Online Behaviour",
+            correctBucketMy: "Kind Online Behaviour (ကြင်နာသော)",
+          ),
+          SortingItem(
+            id: "w31-sort-excludeonpurpose",
+            labelEn: "Purposely excluding someone from a group chat",
+            labelMy: "Group chat မှ တစ်စုံတစ်ဦးကို တမင်ထုတ်ပယ်ခြင်း",
+            correctBucketEn: "Unkind Online Behaviour",
+            correctBucketMy: "Unkind Online Behaviour (ရက်စက်သော)",
+          ),
+          SortingItem(
+            id: "w31-sort-includingeveryone",
+            labelEn: "Including everyone kindly in a group project chat",
+            labelMy:
+                "Group project chat တွင် အားလုံးကို ကြင်နာစွာ ထည့်သွင်းခြင်း",
+            correctBucketEn: "Kind Online Behaviour",
+            correctBucketMy: "Kind Online Behaviour (ကြင်နာသော)",
+          ),
+          SortingItem(
+            id: "w31-sort-sharingembarrassingphoto",
+            labelEn: "Sharing an embarrassing photo of a friend without asking",
+            labelMy:
+                "မေးမြန်းခြင်းမရှိဘဲ သူငယ်ချင်း၏အရှက်ရဖွယ်ဓာတ်ပုံကို မျှဝေခြင်း",
+            correctBucketEn: "Unkind Online Behaviour",
+            correctBucketMy: "Unkind Online Behaviour (ရက်စက်သော)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w31-d4",
+      dayNumber: 4,
+      titleEn: "Nandar Speaks Up",
+      titleMy: "နန္ဒာ အသံထွက်ပြောသည်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar Speaks Up",
+        titleMy: "နန္ဒာ အသံထွက်ပြောသည်",
+        passageEn:
+            "Nandar noticed some classmates mocking a photo their classmate Su Su had posted, leaving unkind comments about how she looked. At first Nandar felt unsure whether to say anything, but she remembered her class had learned about being an \"upstander\" rather than a silent bystander. Instead of joining in or scrolling past, Nandar left a kind comment supporting Su Su and privately messaged her to check she was okay. She also took a screenshot of the unkind comments and showed them to her teacher, who was able to step in and help. Su Su later thanked Nandar for noticing and for caring enough to act, even though it would have been easier to say nothing.",
+        passageMy:
+            "နန္ဒာသည် အတန်းဖော်တချို့က အတန်းဖော် စုစုတင်ခဲ့သောဓာတ်ပုံကို ပြောင်လှောင်ပြီး သူမ၏ပုံပန်းအကြောင်း ရက်စက်သောcomment များ ချန်ထားသည်ကို သတိထားမိခဲ့သည်။ ပထမတွင် နန္ဒာသည် တစ်ခုခုပြောသင့်၊ မပြောသင့် မသေချာခဲ့ပါ၊ သို့သော် အတန်းတွင် \"upstander\" ဖြစ်ရန် အသံတိတ်ကြည့်နေသူထက် သင်ခဲ့ဖူးသည်ကို သတိရမိခဲ့သည်။ ပါဝင်ရန် (သို့) ကျော်ဖတ်ရန်အစား၊ နန္ဒာသည် စုစုကို ထောက်ခံသည့် ကြင်နာသော comment တစ်ခုချန်ထားပြီး သူမ ကောင်းမွန်ကြောင်း စစ်ဆေးရန် private message ပို့ခဲ့သည်။ သူမသည် ရက်စက်သော comment များကို screenshot ရိုက်ပြီး ဆရာမအား ပြသခဲ့ရာ ဆရာမက ဝင်ရောက်ကူညီပေးနိုင်ခဲ့သည်။ ဤသို့ပြုလုပ်ရန် ပိုလွယ်ကူမည့် ဘာမှမပြောခြင်းထက် သတိထားမိပြီး ဂရုစိုက်ခဲ့သောအတွက် စုစုက နန္ဒာကို နောက်ပိုင်း ကျေးဇူးတင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What were some classmates doing to Su Su's photo?",
+            questionMy:
+                "အတန်းဖော်တချို့သည် စုစု၏ဓာတ်ပုံကို ဘာလုပ်နေခဲ့ကြသနည်း။",
+            optionsEn: [
+              "Mocking it with unkind comments",
+              "Reporting it to a teacher",
+              "Sharing it kindly with encouragement",
+              "Asking for permission to repost it",
+            ],
+            optionsMy: [
+              "ရက်စက်သော comment များဖြင့် ပြောင်လှောင်နေခဲ့ကြသည်",
+              "ဆရာမထံ တိုင်ကြားနေခဲ့ကြသည်",
+              "အားပေးစကားနှင့် ကြင်နာစွာမျှဝေခဲ့ကြသည်",
+              "ပြန်တင်ရန် ခွင့်တောင်းနေခဲ့ကြသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What idea from class did Nandar remember?",
+            questionMy: "နန္ဒာ အတန်းမှ ဘာအယူအဆကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "Being an upstander rather than a silent bystander",
+              "How to convert binary to denary",
+              "How to write a for loop",
+              "How to draw a flowchart",
+            ],
+            optionsMy: [
+              "အသံတိတ်ကြည့်နေသူထက် upstander ဖြစ်ရန်",
+              "Binary ကို denary သို့ ပြောင်းနည်း",
+              "For loop ရေးနည်း",
+              "Flowchart ရေးနည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What two things did Nandar do to help?",
+            questionMy: "ကူညီရန် နန္ဒာ ဘာနှစ်ခုလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Left a kind comment and privately messaged Su Su",
+              "Joined in with the unkind comments",
+              "Deleted her own account",
+              "Ignored the situation completely",
+            ],
+            optionsMy: [
+              "ကြင်နာသော comment ချန်ထားပြီး စုစုအား private message ပို့ခဲ့သည်",
+              "ရက်စက်သော comment များတွင် ပါဝင်ခဲ့သည်",
+              "မိမိကိုယ်ပိုင်အကောင့်ကို ဖျက်ခဲ့သည်",
+              "အခြေအနေကို လုံးဝလျစ်လျူရှုခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nandar show to her teacher?",
+            questionMy: "နန္ဒာသည် ဆရာမအား ဘာပြသခဲ့သနည်း။",
+            optionsEn: [
+              "A screenshot of the unkind comments",
+              "Her own password",
+              "A copy of her homework",
+              "A photo of Su Su's house",
+            ],
+            optionsMy: [
+              "ရက်စက်သော comment များ၏ screenshot",
+              "မိမိကိုယ်ပိုင်စကားဝှက်",
+              "မိမိအိမ်စာမိတ္တူ",
+              "စုစု၏အိမ်ဓာတ်ပုံ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Su Su feel about what Nandar did?",
+            questionMy: "နန္ဒာလုပ်ခဲ့သည့်အရာကို စုစု ဘယ်လိုခံစားခဲ့သနည်း။",
+            optionsEn: [
+              "Thankful that Nandar noticed and cared enough to act",
+              "Angry that Nandar told the teacher",
+              "Embarrassed that anyone knew",
+              "Indifferent about the whole situation",
+            ],
+            optionsMy: [
+              "နန္ဒာ သတိထားမိပြီး ဂရုစိုက်ကြောင်း ကျေးဇူးတင်ခဲ့သည်",
+              "ဆရာမကို ပြောခဲ့သည့်အတွက် စိတ်ဆိုးခဲ့သည်",
+              "မည်သူမဆိုသိသွားသည့်အတွက် အရှက်ရခဲ့သည်",
+              "အခြေအနေတစ်ခုလုံးကို ဂရုမစိုက်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap Quiz",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is netiquette?",
+          questionMy: "Netiquette ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Good manners when communicating online",
+            "A type of network cable",
+            "A password rule",
+            "A way to speed up the internet",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းဆက်သွယ်ရာတွင် ယဉ်ကျေးသိမ်မွေ့ခြင်း",
+            "ကွန်ရက်ကေဘယ်အမျိုးအစား",
+            "စကားဝှက်စည်းမျဉ်း",
+            "အင်တာနက်မြန်ဆန်စေသောနည်းလမ်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is an upstander?",
+          questionMy: "Upstander ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Someone who speaks up when they see unkindness online",
+            "Someone who joins in with bullying",
+            "Someone who ignores everything",
+            "A type of password",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းတွင် ရက်စက်မှုကိုမြင်လျှင် အသံထွက်ပြောသူ",
+            "Bullying တွင်ပါဝင်သူ",
+            "အားလုံးကို လျစ်လျူရှုသူ",
+            "စကားဝှက်အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What should you do if you see cyberbullying happening?",
+          questionMy: "Cyberbullying ဖြစ်နေသည်ကို တွေ့ရလျှင် ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Support the person affected and tell a trusted adult",
+            "Join in to fit in with others",
+            "Record it and share it further",
+            "Do nothing and scroll past",
+          ],
+          optionsMy: [
+            "ထိခိုက်ခံရသူကို ထောက်ခံပြီး ယုံကြည်ရသူကြီးကို ပြောပြပါ",
+            "အခြားသူများနှင့်ကိုက်ညီရန် ပါဝင်ပါ",
+            "မှတ်တမ်းတင်ပြီး ဆက်လက်မျှဝေပါ",
+            "ဘာမှမလုပ်ဘဲ ကျော်ဖတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why can a post still matter even after it is deleted?",
+          questionMy:
+              "Post တစ်ခုကို ဖျက်ပြီးနောက်ပင် အဘယ့်ကြောင့် ဆက်အရေးကြီးနေနိုင်သနည်း။",
+          optionsEn: [
+            "Others may have already seen, saved, or shared it",
+            "It becomes a stronger password",
+            "It automatically becomes private",
+            "It changes into a different app",
+          ],
+          optionsMy: [
+            "အခြားသူများ မြင်ပြီး၊ သိမ်းဆည်း (သို့) မျှဝေပြီးသွားနိုင်သောကြောင့်",
+            "ပိုခိုင်မာသောစကားဝှက်ဖြစ်သွားသောကြောင့်",
+            "အလိုအလျောက် private ဖြစ်သွားသောကြောင့်",
+            "App မတူညီအောင်ပြောင်းလဲသွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the difference between disagreeing and being unkind?",
+          questionMy:
+              "သဘောထားကွဲလွဲခြင်းနှင့် ရက်စက်ခြင်း၏ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Disagreeing focuses on the idea; being unkind attacks the person",
+            "There is no real difference",
+            "Disagreeing is always unkind",
+            "Being unkind is a form of politeness",
+          ],
+          optionsMy: [
+            "သဘောထားကွဲလွဲခြင်းသည် အယူအဆအပေါ်တွင်ရှိပြီး ရက်စက်ခြင်းသည် လူပုဂ္ဂိုလ်ကိုတိုက်ခိုက်ခြင်းဖြစ်သည်",
+            "တကယ့်ကွာခြားချက်မရှိပါ",
+            "သဘောထားကွဲလွဲခြင်းသည် အမြဲရက်စက်သည်",
+            "ရက်စက်ခြင်းသည် ယဉ်ကျေးမှုတစ်မျိုးဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 8, Week 32: "Staying Safe and Thinking
+// Critically Online" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek32 = CourseWeekDef(
+  id: "course-secondary1-computing-w32",
+  weekNumber: 32,
+  titleEn: "Staying Safe and Thinking Critically Online",
+  titleMy:
+      "အွန်လိုင်းတွင် လုံခြုံစွာနေထိုင်ပြီး ဆင်ခြင်တုံတရားဖြင့် တွေးခေါ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w32-d1",
+      dayNumber: 1,
+      titleEn: "Bringing Term 8 Together",
+      titleMy: "Term 8 အားလုံးကို ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which four skills work together to keep you safe and kind online?",
+          questionMy:
+              "အွန်လိုင်းတွင် လုံခြုံပြီး ကြင်နာစေရန် ကျွမ်းကျင်မှုလေးမျိုး ဘယ်ဟာတွေ ပေါင်းစပ်သနည်း။",
+          optionsEn: [
+            "Protecting personal information, strong passwords, kindness, and critical thinking",
+            "Only strong passwords",
+            "Only kindness",
+            "Only fast typing",
+          ],
+          optionsMy: [
+            "ကိုယ်ရေးအချက်အလက်ကာကွယ်ခြင်း၊ ခိုင်မာသောစကားဝှက်၊ ကြင်နာမှု၊ ဆင်ခြင်တုံတရား",
+            "ခိုင်မာသောစကားဝှက်သာ",
+            "ကြင်နာမှုသာ",
+            "စာစီအမြန်ရိုက်ခြင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A message claims \"Scientists say chocolate cures every illness -- share now!\" What should you do first?",
+          questionMy:
+              "\"သိပ္ပံပညာရှင်များက ချောကလက်သည် ရောဂါအားလုံးကို ကုစားနိုင်သည်ဟု ဆိုသည် - ယခုပင်မျှဝေပါ!\" ဟူသောစာကို ရရှိလျှင် ပထမဆုံးဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Check whether it comes from a trustworthy, verifiable source before sharing",
+            "Share it immediately with everyone you know",
+            "Believe it completely because it mentions scientists",
+            "Reply asking for your friends' passwords",
+          ],
+          optionsMy: [
+            "မျှဝေမီ ယုံကြည်စိတ်ချရသော အရင်းအမြစ်မှလာသလားစစ်ဆေးပါ",
+            "မိမိသိသောအားလုံးထံ ချက်ချင်းမျှဝေပါ",
+            "သိပ္ပံပညာရှင်ဖော်ပြထားသောကြောင့် လုံးဝယုံကြည်ပါ",
+            "သူငယ်ချင်းများ၏စကားဝှက်ကို တောင်းရန် ပြန်စာပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a sign that an online message might be a scam?",
+          questionMy:
+              "အွန်လိုင်းစာသည် လှည့်ကွက်ဖြစ်နိုင်ကြောင်း လက္ခဏာတစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It urgently pressures you to act fast or share personal information",
+            "It is written politely",
+            "It comes from a classmate",
+            "It contains a school logo",
+          ],
+          optionsMy: [
+            "ချက်ချင်းလုပ်ရန် (သို့) ကိုယ်ရေးအချက်အလက်မျှဝေရန် အလျင်စလိုဖိအားပေးခြင်း",
+            "ယဉ်ကျေးစွာရေးထားခြင်း",
+            "အတန်းဖော်ထံမှလာခြင်း",
+            "ကျောင်းလိုဂို ပါရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If something online makes you feel unsafe or unsure, what is always the right move?",
+          questionMy:
+              "အွန်လိုင်းရှိအရာတစ်ခုက သင့်ကို မလုံခြုံ (သို့) မသေချာခံစားရလျှင် အမြဲမှန်ကန်သော လုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Tell a trusted adult",
+            "Keep it a secret",
+            "Share it further to see what others think",
+            "Reply with personal information to prove yourself",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရသူကြီးကို ပြောပြပါ",
+            "လျှို့ဝှက်ထားပါ",
+            "အခြားသူများထင်မြင်ချက်ကြည့်ရန် ဆက်မျှဝေပါ",
+            "မိမိကိုယ်ကို သက်သေပြရန် ကိုယ်ရေးအချက်အလက်ဖြင့် ပြန်စာပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is thinking critically about what you see online an important skill?",
+          questionMy:
+              "အွန်လိုင်းတွင်မြင်ရသည်များအကြောင်း ဆင်ခြင်တုံတရားဖြင့်တွေးခေါ်ခြင်းသည် အဘယ့်ကြောင့် အရေးကြီးသောကျွမ်းကျင်မှုဖြစ်သနည်း။",
+          optionsEn: [
+            "Not everything online is true, and careless sharing can spread harmful mistakes",
+            "It makes your internet connection faster",
+            "It is required to create a strong password",
+            "It automatically deletes cyberbullies' accounts",
+          ],
+          optionsMy: [
+            "အွန်လိုင်းရှိအရာအားလုံးသည် အမှန်မဟုတ်ပြီး၊ သတိမမူဘဲမျှဝေခြင်းက အန္တရာယ်ရှိသောအမှားများကို ပျံ့နှံ့စေနိုင်သောကြောင့်",
+            "အင်တာနက်ချိတ်ဆက်မှု ပိုမြန်စေသောကြောင့်",
+            "ခိုင်မာသောစကားဝှက်ဖန်တီးရန် လိုအပ်သောကြောင့်",
+            "Cyberbully အကောင့်များကို အလိုအလျောက်ဖျက်ပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w32-d2",
+      dayNumber: 2,
+      titleEn: "Term 8 Recap Vocabulary",
+      titleMy: "Term 8 ပြန်လည်သုံးသပ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w32-recap-digitalfootprint",
+          termEn: "Digital Footprint",
+          termMy: "Digital Footprint",
+          matchEn: "The trail of information you leave behind online",
+          matchMy: "အွန်လိုင်းတွင်ကျန်ရစ်ခဲ့သော အချက်အလက်ခြေရာ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w32-recap-strongpassword",
+          termEn: "Strong Password",
+          termMy: "Strong Password",
+          matchEn: "A long password mixing letters, numbers, and symbols",
+          matchMy:
+              "စာလုံး၊ ဂဏန်း၊ သင်္ကေတများ ရောနှောထားသော ရှည်လျားသောစကားဝှက်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w32-recap-upstander",
+          termEn: "Upstander",
+          termMy: "Upstander",
+          matchEn: "Someone who speaks up when they see unkindness online",
+          matchMy: "ရက်စက်မှုကိုမြင်လျှင် အသံထွက်ပြောသောသူ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w32-recap-scam",
+          termEn: "Scam",
+          termMy: "Scam",
+          matchEn:
+              "A trick, often urgent, designed to steal information or money",
+          matchMy:
+              "အချက်အလက် (သို့) ငွေခိုးယူရန် ဒီဇိုင်းထုတ်ထားသော အလျင်စလိုလှည့်ကွက်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w32-recap-trustedadult",
+          termEn: "Trusted Adult",
+          termMy: "Trusted Adult",
+          matchEn:
+              "A parent, guardian, or teacher you can go to for help online",
+          matchMy:
+              "အွန်လိုင်းအကူအညီအတွက် သွားနိုင်သော မိဘ၊ အုပ်ထိန်းသူ (သို့) ဆရာ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w32-d3",
+      dayNumber: 3,
+      titleEn: "Which Digital Citizenship Skill?",
+      titleMy: "ဘယ် Digital Citizenship ကျွမ်းကျင်မှုလဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Personal Info",
+          "Password Safety",
+          "Online Kindness",
+          "Critical Thinking",
+        ],
+        bucketsMy: [
+          "Personal Info",
+          "Password Safety",
+          "Online Kindness",
+          "Critical Thinking",
+        ],
+        items: [
+          SortingItem(
+            id: "w32-sort-locationtag",
+            labelEn: "Removing a location tag before posting",
+            labelMy: "Post မတင်မီ location tag ကိုဖျက်ခြင်း",
+            correctBucketEn: "Personal Info",
+            correctBucketMy: "Personal Info",
+          ),
+          SortingItem(
+            id: "w32-sort-mixedpassword",
+            labelEn: "Using letters, numbers, and symbols in a password",
+            labelMy: "စကားဝှက်တွင် စာလုံး၊ ဂဏန်း၊ သင်္ကေတရောနှောသုံးခြင်း",
+            correctBucketEn: "Password Safety",
+            correctBucketMy: "Password Safety",
+          ),
+          SortingItem(
+            id: "w32-sort-supportivecomment",
+            labelEn: "Leaving a supportive comment for a classmate",
+            labelMy: "အတန်းဖော်အတွက် အားပေးcomment ထားခြင်း",
+            correctBucketEn: "Online Kindness",
+            correctBucketMy: "Online Kindness",
+          ),
+          SortingItem(
+            id: "w32-sort-checksource",
+            labelEn: "Checking a claim's source before sharing it",
+            labelMy: "မျှဝေမီ အချက်အလက်၏ အရင်းအမြစ်ကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Critical Thinking",
+            correctBucketMy: "Critical Thinking",
+          ),
+          SortingItem(
+            id: "w32-sort-neverreuse",
+            labelEn: "Never reusing the same password across accounts",
+            labelMy: "အကောင့်များတွင် စကားဝှက်တစ်ခုတည်း ဘယ်တော့မှမသုံးခြင်း",
+            correctBucketEn: "Password Safety",
+            correctBucketMy: "Password Safety",
+          ),
+          SortingItem(
+            id: "w32-sort-privacysettingscheck",
+            labelEn: "Checking privacy settings before posting a photo",
+            labelMy: "ဓာတ်ပုံမတင်မီ privacy settings ကိုစစ်ဆေးခြင်း",
+            correctBucketEn: "Personal Info",
+            correctBucketMy: "Personal Info",
+          ),
+          SortingItem(
+            id: "w32-sort-reportcyberbullying",
+            labelEn: "Reporting cyberbullying to a trusted adult",
+            labelMy: "Cyberbullying ကို ယုံကြည်ရသူကြီးအား တိုင်ကြားခြင်း",
+            correctBucketEn: "Online Kindness",
+            correctBucketMy: "Online Kindness",
+          ),
+          SortingItem(
+            id: "w32-sort-suspiciouspause",
+            labelEn: "Pausing before clicking an urgent, suspicious link",
+            labelMy: "အလျင်စလိုသံသယဖြစ်ဖွယ်link ကိုမနှိပ်မီ ရပ်တန့်ခြင်း",
+            correctBucketEn: "Critical Thinking",
+            correctBucketMy: "Critical Thinking",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w32-d4",
+      dayNumber: 4,
+      titleEn: "Thiri's Careful Week Online",
+      titleMy: "သီရိ၏ သတိထားသော အွန်လိုင်းရက်သတ္တပတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Careful Week Online",
+        titleMy: "သီရိ၏ သတိထားသော အွန်လိုင်းရက်သတ္တပတ်",
+        passageEn:
+            "During one busy week, Thiri put everything she had learned about digital citizenship into practice. On Monday, she posted a school project photo but removed the exact location tag first. On Tuesday, she created a brand new account and made sure to use a long, unique password instead of reusing an old one. On Wednesday, a message claimed she had won a prize and urgently asked her to \"confirm\" her password -- she recognised the trick immediately and told her father instead of clicking anything. On Thursday, she noticed a classmate being teased in a group chat and left a kind comment supporting them, then quietly told her teacher. On Friday, a friend shared an exciting claim about a \"miracle cure\" with no real source, so Thiri gently suggested checking where the information actually came from before believing it. By the end of the week, Thiri realised that staying safe online was not about avoiding the internet -- it was about protecting her information, securing her accounts, being kind, and always thinking carefully about what she saw and shared.",
+        passageMy:
+            "အလုပ်များသောရက်သတ္တပတ်တစ်ခုအတွင်း သီရိသည် digital citizenship အကြောင်း သင်ခဲ့ဖူးသမျှကို လက်တွေ့အသုံးချခဲ့သည်။ တနင်္လာနေ့တွင် သူမသည် ကျောင်းစီမံကိန်းဓာတ်ပုံကို post တင်ခဲ့သော်လည်း တိတိကျကျ location tag ကို ဦးစွာဖျက်ခဲ့သည်။ အင်္ဂါနေ့တွင် သူမသည် အကောင့်အသစ်တစ်ခု ဖန်တီးခဲ့ပြီး ဟောင်းသောစကားဝှက်ကို ပြန်မသုံးဘဲ ရှည်လျားသော ထူးခြားသောစကားဝှက် သုံးခဲ့သည်ကို သေချာစေခဲ့သည်။ ဗုဒ္ဓဟူးနေ့တွင် သူမ ဆုတစ်ခုရရှိကြောင်း message တစ်ခုက အလျင်စလို သူမ၏စကားဝှက် \"အတည်ပြု\" ရန်တောင်းဆိုခဲ့သည် - သူမသည် လှည့်ကွက်ကို ချက်ချင်းသိရှိပြီး မည်သည့်အရာကိုမျှမနှိပ်ဘဲ ဖခင်ကို ပြောပြခဲ့သည်။ကြာသပတေးနေ့တွင် သူမသည် group chat တွင် အတန်းဖော်တစ်ဦး ပြောင်လှောင်ခံနေရသည်ကို သတိထားမိပြီး ထောက်ခံသည့် ကြင်နာသော comment ချန်ထားကာ ဆရာမကို တိတ်တဆိတ်ပြောပြခဲ့သည်။ သောကြာနေ့တွင် သူငယ်ချင်းတစ်ဦးက \"အံ့ဖွယ်ကုထုံး\" အကြောင်း အရင်းအမြစ်အစစ်အမှန်မရှိဘဲ စိတ်လှုပ်ရှားဖွယ်စာသားတစ်ခုကို မျှဝေခဲ့ရာ၊ သီရိသည် ယုံကြည်မီ အချက်အလက် တကယ်ဘယ်ကလာသည်ကို စစ်ဆေးဖို့ ယဉ်ကျေးစွာအကြံပြုခဲ့သည်။ ရက်သတ္တပတ်ကုန်ချိန်တွင် သီရိသည် အွန်လိုင်းတွင် လုံခြုံစွာနေထိုင်ခြင်းသည် အင်တာနက်ကို ရှောင်ကြဉ်ခြင်း မဟုတ်ဘဲ - မိမိအချက်အလက်ကို ကာကွယ်ခြင်း၊ အကောင့်များကို လုံခြုံအောင်ထားခြင်း၊ ကြင်နာခြင်း၊ မြင်ရ/မျှဝေရသမျှကို အမြဲသေချာစွာစဉ်းစားခြင်းတို့ ဖြစ်ကြောင်း သဘောပေါက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Thiri remove before posting her project photo?",
+            questionMy: "စီမံကိန်းဓာတ်ပုံ post မတင်မီ သီရိ ဘာဖျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "The exact location tag",
+              "The photo itself",
+              "Her username",
+              "Her comment",
+            ],
+            optionsMy: [
+              "တိတိကျကျ location tag",
+              "ဓာတ်ပုံကိုယ်တိုင်",
+              "Username",
+              "Comment",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Thiri do about her new account's password?",
+            questionMy:
+                "အကောင့်အသစ်၏ စကားဝှက်နှင့်ပတ်သက်၍ သီရိ ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She used a long, unique password instead of reusing an old one",
+              "She reused her old password to save time",
+              "She shared it with a friend",
+              "She left it blank",
+            ],
+            optionsMy: [
+              "ဟောင်းသောစကားဝှက်ပြန်မသုံးဘဲ ရှည်လျားထူးခြားသောစကားဝှက်သုံးခဲ့သည်",
+              "အချိန်ချွေတာရန် ဟောင်းသောစကားဝှက်ပြန်သုံးခဲ့သည်",
+              "သူငယ်ချင်းတစ်ဦးထံ မျှဝေခဲ့သည်",
+              "အလွတ်ချန်ထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thiri do when a message urgently asked her to \"confirm\" her password?",
+            questionMy:
+                "Message တစ်ခုက အလျင်စလို သူမ၏စကားဝှက် \"အတည်ပြု\" ရန်တောင်းဆိုသောအခါ သီရိ ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Recognised the trick and told her father",
+              "Typed her password in right away",
+              "Ignored it and forgot about it",
+              "Shared it with all her friends",
+            ],
+            optionsMy: [
+              "လှည့်ကွက်ကိုသိရှိပြီး ဖခင်ကို ပြောပြခဲ့သည်",
+              "စကားဝှက်ကို ချက်ချင်းရိုက်ထည့်ခဲ့သည်",
+              "လျစ်လျူရှုပြီး မေ့ပစ်ခဲ့သည်",
+              "သူငယ်ချင်းအားလုံးနှင့် မျှဝေခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thiri do when she saw a classmate being teased?",
+            questionMy:
+                "အတန်းဖော်တစ်ဦး ပြောင်လှောင်ခံနေရသည်ကို တွေ့ရသောအခါ သီရိ ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Left a kind comment and quietly told her teacher",
+              "Joined in with the teasing",
+              "Ignored it and said nothing",
+              "Deleted the classmate's account",
+            ],
+            optionsMy: [
+              "ကြင်နာသော comment ချန်ထားပြီး ဆရာမကို တိတ်တဆိတ်ပြောပြခဲ့သည်",
+              "ပြောင်လှောင်မှုတွင် ပါဝင်ခဲ့သည်",
+              "လျစ်လျူရှုပြီး ဘာမှမပြောခဲ့ပါ",
+              "အတန်းဖော်၏အကောင့်ကို ဖျက်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thiri realise staying safe online was really about?",
+            questionMy:
+                "အွန်လိုင်းတွင် လုံခြုံစွာနေထိုင်ခြင်းသည် တကယ်တမ်း ဘာအကြောင်းဖြစ်ကြောင်း သီရိ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Protecting information, securing accounts, kindness, and careful thinking together",
+              "Avoiding the internet completely",
+              "Only using strong passwords",
+              "Only being kind to friends",
+            ],
+            optionsMy: [
+              "အချက်အလက်ကာကွယ်ခြင်း၊ အကောင့်လုံခြုံစေခြင်း၊ ကြင်နာခြင်း၊ သေချာစွာစဉ်းစားခြင်း အားလုံးပေါင်းစပ်",
+              "အင်တာနက်ကို လုံးဝရှောင်ကြဉ်ခြင်း",
+              "ခိုင်မာသောစကားဝှက်ကိုသာသုံးခြင်း",
+              "သူငယ်ချင်းများကိုသာ ကြင်နာခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap Quiz",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What four skills did Term 8 focus on?",
+          questionMy: "Term 8 က ကျွမ်းကျင်မှုလေးမျိုးကို အာရုံစိုက်ခဲ့သနည်း။",
+          optionsEn: [
+            "Personal info, password safety, kindness, and critical thinking",
+            "Only variables and loops",
+            "Only binary numbers",
+            "Only pixels and ASCII",
+          ],
+          optionsMy: [
+            "ကိုယ်ရေးအချက်အလက်၊ စကားဝှက်၊ ကြင်နာမှု၊ ဆင်ခြင်တုံတရား",
+            "Variable နှင့် loop သာ",
+            "Binary number သာ",
+            "Pixel နှင့် ASCII သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should you do before believing or sharing a surprising online claim?",
+          questionMy:
+              "အွန်လိုင်းရှိ အံ့ဩဖွယ်စာသားကို မယုံကြည်မီ (သို့) မမျှဝေမီ ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Check whether it comes from a trustworthy source",
+            "Share it as fast as possible",
+            "Assume it is always true",
+            "Ask for someone's password to verify it",
+          ],
+          optionsMy: [
+            "ယုံကြည်စိတ်ချရသော အရင်းအမြစ်မှလာသလား စစ်ဆေးပါ",
+            "အမြန်ဆုံးမျှဝေပါ",
+            "အမြဲမှန်ကန်သည်ဟု ယူဆပါ",
+            "အတည်ပြုရန် မည်သူ့စကားဝှက်ကိုမဆို တောင်းပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a common sign of an online scam?",
+          questionMy: "အွန်လိုင်းလှည့်ကွက်၏ ဘုံလက္ခဏာတစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Urgent pressure to act fast or share information",
+            "Polite, friendly writing",
+            "A message from a classmate",
+            "A school logo in the message",
+          ],
+          optionsMy: [
+            "ချက်ချင်းလုပ်ရန် (သို့) အချက်အလက်မျှဝေရန် အလျင်စလိုဖိအားပေးခြင်း",
+            "ယဉ်ကျေးရင်းနှီးသောစာသား",
+            "အတန်းဖော်ထံမှ message",
+            "Message ထဲရှိ ကျောင်းလိုဂို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should you always do if something online worries you?",
+          questionMy:
+              "အွန်လိုင်းရှိအရာတစ်ခုက စိုးရိမ်စေလျှင် အမြဲဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Tell a trusted adult",
+            "Keep it a secret",
+            "Share it with strangers",
+            "Reply with personal information",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရသူကြီးကို ပြောပြပါ",
+            "လျှို့ဝှက်ထားပါ",
+            "စိမ်းသူများနှင့် မျှဝေပါ",
+            "ကိုယ်ရေးအချက်အလက်ဖြင့် ပြန်စာပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to this term, staying safe online is really about:",
+          questionMy:
+              "ဤ Term အရ အွန်လိုင်းတွင်လုံခြုံစွာနေထိုင်ခြင်းသည် တကယ်တမ်း:",
+          optionsEn: [
+            "Protecting information, securing accounts, being kind, and thinking carefully",
+            "Avoiding the internet completely",
+            "Only using a strong password",
+            "Only reporting other people",
+          ],
+          optionsMy: [
+            "အချက်အလက်ကာကွယ်ခြင်း၊ အကောင့်လုံခြုံစေခြင်း၊ ကြင်နာခြင်း၊ သေချာစွာစဉ်းစားခြင်း",
+            "အင်တာနက်ကို လုံးဝရှောင်ကြဉ်ခြင်း",
+            "ခိုင်မာသောစကားဝှက်ကိုသာသုံးခြင်း",
+            "အခြားသူများကိုသာတိုင်ကြားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm8 = CourseTermDef(
+  id: "course-secondary1-computing-t8",
+  termNumber: 8,
+  titleEn: "Digital Citizenship & Online Safety",
+  titleMy: "ဒီဂျစ်တယ်နိုင်ငံသားဖြစ်မှုနှင့် အွန်လိုင်းလုံခြုံရေး",
+  certificateTitleEn: "Digital Citizenship & Online Safety",
+  certificateTitleMy: "ဒီဂျစ်တယ်နိုင်ငံသားဖြစ်မှုနှင့် အွန်လိုင်းလုံခြုံရေး",
+  weeks: [
+    _secondary1ComputingWeek29,
+    _secondary1ComputingWeek30,
+    _secondary1ComputingWeek31,
+    _secondary1ComputingWeek32,
+  ], // Term 8 complete (Weeks 29-32)
+);
+
+/// Secondary 1 Computing's full-year pathway. Terms 1-8 (Weeks 1-32) are
 /// now represented -- [totalWeeks] stays 36 (the full roadmap's true
 /// size) even though each term's [weeks] list is only a 4-week vertical
 /// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 28". Each [CourseTermDef]
+/// "Week 1 of 36" honestly rather than "Week 1 of 32". Each [CourseTermDef]
 /// is a short thematic/certificate milestone (Coursera-style), not a
 /// literal 12-week school term, so the pathway grows via more terms
-/// (8, 9...) rather than by inflating any one term to 12 weeks.
+/// (9...) rather than by inflating any one term to 12 weeks.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -11212,6 +13011,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
     _secondary1ComputingTerm5,
     _secondary1ComputingTerm6,
     _secondary1ComputingTerm7,
+    _secondary1ComputingTerm8,
   ],
 );
 
