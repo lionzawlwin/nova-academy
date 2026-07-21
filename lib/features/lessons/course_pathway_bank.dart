@@ -43,13 +43,25 @@
 /// Secondary 2 Computing (see [secondary2ComputingPathway]) is a separate,
 /// independent pathway for Grade [Grade.secondary2] rather than more terms
 /// grafted onto Secondary 1's own 36-week pathway. Term 1 (Weeks 1-4,
-/// Lists and Arrays) and Term 2 (Weeks 5-8, Functions and Procedures) are
-/// authored so far, picking up directly from Secondary 1's variables/
-/// selection/loops foundation: Term 1 extends that into lists, and Term 2
-/// extends it further into functions/procedures, parameters/arguments,
-/// and return values, closing with a capstone week that combines a
-/// function, a list parameter, a loop with an accumulator, an if
-/// selection, and a return statement in one program.
+/// Lists and Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term
+/// 3 (Weeks 9-12, Searching and Sorting Algorithms), and Term 4 (Weeks
+/// 13-16, Boolean Logic and Truth Tables) are authored so far, picking up
+/// directly from Secondary 1's variables/selection/loops foundation:
+/// Term 1 extends that into lists, Term 2 extends it further into
+/// functions/procedures, parameters/arguments, and return values
+/// (closing with a capstone week that combines a function, a list
+/// parameter, a loop with an accumulator, an if selection, and a return
+/// statement in one program), and Term 3 applies those function/
+/// parameter/return-value skills to algorithm design over lists --
+/// linear search, binary search, and bubble sort -- closing with a
+/// capstone week that chains a sorting function's return value into a
+/// searching function's parameter in one combined program. Term 4 is a
+/// deliberate breadth strand breaking up that programming arc: it
+/// revisits the true/false concept Secondary 1 already touched, names the
+/// AND/OR/NOT operators explicitly, introduces truth tables, ties
+/// compound Boolean conditions back into Secondary 1's if-statements and
+/// this pathway's own Term 2 functions, and closes with a capstone week
+/// combining Boolean logic with functions and lists at once.
 library;
 
 import '../../models/child_model.dart';
@@ -18055,6 +18067,3966 @@ const CourseWeekDef _secondary2ComputingWeek8 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Secondary 2 Computing -- Term 3, Week 9: "Searching a List: Linear
+// Search"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek9 = CourseWeekDef(
+  id: "course-secondary2-computing-w9",
+  weekNumber: 9,
+  titleEn: "Searching a List: Linear Search",
+  titleMy: "List ရှာဖွေခြင်း — Linear Search",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w9-d1",
+      dayNumber: 1,
+      titleEn: "The Problem: Finding a Value in a List",
+      titleMy: "ပြဿနာ — List ထဲမှ တန်ဖိုးတစ်ခုကို ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the goal of a search algorithm applied to a list?",
+          questionMy:
+              "List တစ်ခုအပေါ် သုံးသော search algorithm ၏ ရည်ရွယ်ချက်က အဘယ်နည်း။",
+          optionsEn: [
+            "To delete every element in the list",
+            "To find whether a target value exists in the list, and if so, where",
+            "To sort the list into order",
+            "To make the list longer",
+          ],
+          optionsMy: [
+            "List ထဲရှိ element အားလုံးကို ဖျက်ရန်",
+            "Target value သည် list ထဲတွင်ရှိမရှိနှင့် ရှိလျှင်မည်သည့်နေရာတွင်ရှိသည်ကို ရှာဖွေတွေ့ရှိရန်",
+            "List ကို အစဉ်လိုက် sort လုပ်ရန်",
+            "List ကို ပိုရှည်အောင်လုပ်ရန်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which best describes how linear search works?",
+          questionMy:
+              "Linear search အလုပ်လုပ်ပုံကို အကောင်းဆုံးဖော်ပြသည့်အချက်က အဘယ်နည်း။",
+          optionsEn: [
+            "It checks the middle element first, then halves the list",
+            "It jumps randomly between elements",
+            "It only checks the last element",
+            "It checks each element in turn from the start, until it finds the target or reaches the end",
+          ],
+          optionsMy: [
+            "Middle element ကို ဦးစွာစစ်ဆေးပြီး list ကို ထက်ဝက်ခွဲသည်",
+            "Element များကြားတွင် ကျပန်း ခုန်သွားသည်",
+            "နောက်ဆုံး element ကိုသာ စစ်ဆေးသည်",
+            "Target ကို ရှာတွေ့သည် (သို့) list ၏အဆုံးရောက်သည်အထိ အစမှစပြီး element တစ်ခုချင်းစီကို အစဉ်လိုက် စစ်ဆေးသည်",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "numbers = [12, 45, 7, 30, 9]. Using linear search for target = 30, at which index is the target found?",
+          questionMy:
+              "numbers = [12, 45, 7, 30, 9] တွင် target = 30 ကို linear search ဖြင့်ရှာလျှင် target ကို မည်သည့် index တွင် တွေ့ရှိသနည်း။",
+          optionsEn: ["Index 1", "Index 4", "Index 3", "Index 0"],
+          optionsMy: ["Index 1", "Index 4", "Index 3", "Index 0"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "numbers = [12, 45, 7, 30, 9]. Using linear search for target = 99, what does the function return?",
+          questionMy:
+              "numbers = [12, 45, 7, 30, 9] တွင် target = 99 ကို linear search ဖြင့်ရှာလျှင် function သည် ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["9", "-1", "0", "5"],
+          optionsMy: ["9", "-1", "0", "5"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function signature correctly takes a list and a target value as parameters for linear search?",
+          questionMy:
+              "Linear search အတွက် list နှင့် target value ကို parameter များအဖြစ် မှန်ကန်စွာယူမည့် function signature က အဘယ်နည်း။",
+          optionsEn: [
+            "def linear_search(numbers, target):",
+            "def linear_search(target):",
+            "def linear_search():",
+            "def linear_search(numbers):",
+          ],
+          optionsMy: [
+            "def linear_search(numbers, target):",
+            "def linear_search(target):",
+            "def linear_search():",
+            "def linear_search(numbers):",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w9-d2",
+      dayNumber: 2,
+      titleEn: "Searching Vocabulary",
+      titleMy: "ရှာဖွေခြင်းဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w9-search-linearsearch",
+          termEn: "Linear Search",
+          termMy: "Linear Search",
+          matchEn:
+              "An algorithm that checks each element in a list in turn, from the start, until it finds the target or reaches the end",
+          matchMy:
+              "List ထဲရှိ element တိုင်းကို အစမှစပြီး target ကိုရှာတွေ့သည် (သို့) list ၏အဆုံးရောက်သည်အထိ အစဉ်လိုက် စစ်ဆေးသော algorithm",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w9-search-target",
+          termEn: "Target",
+          termMy: "Target",
+          matchEn: "The value a search algorithm is looking for inside a list",
+          matchMy:
+              "Search algorithm တစ်ခုက list တစ်ခုအတွင်း ရှာဖွေနေသော တန်ဖိုး",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w9-search-loopthrough",
+          termEn: "Loop Through the List",
+          termMy: "Loop Through the List",
+          matchEn:
+              "Visiting each element of a list one at a time, in order, using a loop",
+          matchMy:
+              "Loop သုံး၍ list ၏ element တစ်ခုစီကို အစဉ်လိုက် တစ်ခုချင်းစီ ဝင်ရောက်ကြည့်ရှုခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w9-search-found",
+          termEn: "Found",
+          termMy: "Found",
+          matchEn:
+              "The result when linear search locates the target somewhere in the list and returns its index",
+          matchMy:
+              "Linear search က target ကို list ထဲတစ်နေရာတွင် တွေ့ရှိပြီး ၎င်း၏ index ကို ပြန်ပေးသောရလဒ်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w9-search-notfound",
+          termEn: "Not Found (-1)",
+          termMy: "Not Found (-1)",
+          matchEn:
+              "The signal a search function commonly returns, -1, when the target does not exist anywhere in the list",
+          matchMy:
+              "Target သည် list ထဲတွင် လုံးဝမရှိသောအခါ search function က များသောအားဖြင့် ပြန်ပေးသော အချက်ပြသင်္ကေတ -1",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w9-d3",
+      dayNumber: 3,
+      titleEn: "Found or Not Found?",
+      titleMy: "တွေ့ရှိသလား မတွေ့ရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Target Found in the List", "Target Not Found in the List"],
+        bucketsMy: [
+          "Target ကို List ထဲတွင် တွေ့ရှိသည်",
+          "Target ကို List ထဲတွင် မတွေ့ရှိပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "w9-sort-search16found",
+            labelEn: "Searching for 16 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 16 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် တွေ့ရှိသည်",
+          ),
+          SortingItem(
+            id: "w9-sort-search99notfound",
+            labelEn: "Searching for 99 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 99 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Not Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် မတွေ့ရှိပါ",
+          ),
+          SortingItem(
+            id: "w9-sort-search4found",
+            labelEn: "Searching for 4 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 4 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် တွေ့ရှိသည်",
+          ),
+          SortingItem(
+            id: "w9-sort-search10notfound",
+            labelEn: "Searching for 10 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 10 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Not Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် မတွေ့ရှိပါ",
+          ),
+          SortingItem(
+            id: "w9-sort-search42found",
+            labelEn: "Searching for 42 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 42 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် တွေ့ရှိသည်",
+          ),
+          SortingItem(
+            id: "w9-sort-search0notfound",
+            labelEn: "Searching for 0 in [4, 8, 15, 16, 23, 42]",
+            labelMy: "[4, 8, 15, 16, 23, 42] ထဲတွင် 0 ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Target Not Found in the List",
+            correctBucketMy: "Target ကို List ထဲတွင် မတွေ့ရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w9-d4",
+      dayNumber: 4,
+      titleEn: "Hnin's Search for Her Name",
+      titleMy: "Hnin ၏ အမည်ရှာဖွေမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin's Search for Her Name",
+        titleMy: "Hnin ၏ အမည်ရှာဖွေမှု",
+        passageEn:
+            "Hnin's class kept a list of student names in the order they signed up for the school trip: names = ['Aye', 'Bo', 'Chit', 'Dwe', 'Hnin', 'Kyaw']. Hnin wanted to know if her name was on the list, and if so, where. She used linear search: starting at index 0, she checked 'Aye' -- not a match. She moved to index 1 and checked 'Bo' -- still not a match. She kept checking each name in turn, index 2 'Chit', index 3 'Dwe', until index 4, where she found 'Hnin' -- a match! The function returned index 4, confirming she was the fifth person (at position 4, counting from 0) to sign up. Her friend Thura tried searching for 'Zaw', a name that wasn't on the list at all. Linear search checked every single name, from index 0 all the way to index 5, and never found a match, so the function returned -1 to signal 'not found'. Hnin realized that linear search always works, whether the list is sorted or not, but it can mean checking every element if the target is near the end -- or not there at all.",
+        passageMy:
+            "Hnin ၏အတန်းတွင် ကျောင်းအပန်းဖြေခရီးစဉ်အတွက် စာရင်းပေးသွင်းသည့်အစဉ်လိုက် ကျောင်းသားအမည်များစာရင်း names = ['Aye', 'Bo', 'Chit', 'Dwe', 'Hnin', 'Kyaw'] ရှိသည်။ Hnin သည် သူမ၏အမည် စာရင်းထဲတွင်ရှိမရှိနှင့် ရှိလျှင်မည်သည့်နေရာတွင်ရှိသည်ကို သိလိုသည်။ သူမသည် linear search သုံးခဲ့သည် - index 0 မှစတင်ပြီး 'Aye' ကို စစ်ကြည့်ရာ မကိုက်ညီပါ။ index 1 သို့ရွှေ့ပြီး 'Bo' ကို စစ်ကြည့်သော်လည်း မကိုက်ညီပါ။ index 2 'Chit'၊ index 3 'Dwe' ဟု တစ်ခုချင်းစီ ဆက်လက်စစ်ဆေးရာ index 4 တွင် 'Hnin' ကို တွေ့ရှိသည် - ကိုက်ညီသည်! Function သည် index 4 ကို ပြန်ပေးခဲ့ပြီး သူမသည် (0 မှစရေတွက်လျှင် position 4 တွင်) စာရင်းပေးသွင်းသူ ပဉ္စမမြောက်ဖြစ်ကြောင်း အတည်ပြုပေးခဲ့သည်။ သူမ၏သူငယ်ချင်း သူရသည် စာရင်းထဲတွင် လုံးဝမရှိသော 'Zaw' ဟူသောအမည်ကို ရှာဖွေကြည့်ခဲ့သည်။ Linear search သည် index 0 မှ index 5 အထိ အမည်တိုင်းကို စစ်ဆေးခဲ့သော်လည်း ဘယ်တော့မှ ကိုက်ညီမှုမတွေ့ခဲ့ပါ၊ ထို့ကြောင့် function သည် 'ရှာမတွေ့' ကိုပြသရန် -1 ကို ပြန်ပေးခဲ့သည်။ List သည် sort လုပ်ထားသည်ဖြစ်စေ မဖြစ်စေ linear search သည် အမြဲအလုပ်လုပ်ကြောင်း Hnin သဘောပေါက်လိုက်သော်လည်း target သည် list ၏အဆုံးနားတွင်ရှိလျှင် (သို့) လုံးဝမရှိလျှင် element တိုင်းကို စစ်ဆေးရနိုင်ကြောင်းလည်း သိလိုက်ရသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "At what index did linear search find 'Hnin' in the list?",
+            questionMy:
+                "Linear search သည် list ထဲတွင် 'Hnin' ကို မည်သည့် index တွင် တွေ့ရှိခဲ့သနည်း။",
+            optionsEn: ["Index 3", "Index 5", "Index 4", "Index 0"],
+            optionsMy: ["Index 3", "Index 5", "Index 4", "Index 0"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the function return when Thura searched for 'Zaw'?",
+            questionMy:
+                "သူရသည် 'Zaw' ကို ရှာဖွေသောအခါ function က ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: ["0", "6", "-1", "'Zaw'"],
+            optionsMy: ["0", "6", "-1", "'Zaw'"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many names did linear search have to check before confirming 'Zaw' was not on the list?",
+            questionMy:
+                "'Zaw' သည် စာရင်းထဲမရှိကြောင်း အတည်ပြုမီ linear search သည် အမည်မည်မျှကို စစ်ဆေးရသနည်း။",
+            optionsEn: [
+              "Only 1",
+              "Every single name (all 6)",
+              "None",
+              "Only the last name",
+            ],
+            optionsMy: [
+              "၁ ခုသာ",
+              "အမည်တိုင်း (ခြောက်ခုလုံး)",
+              "တစ်ခုမှမစစ်ဆေးရ",
+              "နောက်ဆုံးအမည်သာ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "Which index did linear search start checking from?",
+            questionMy: "Linear search သည် မည်သည့် index မှစတင်စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: ["Index 1", "Index 5", "Index -1", "Index 0"],
+            optionsMy: ["Index 1", "Index 5", "Index -1", "Index 0"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is true about linear search regardless of whether the list is sorted?",
+            questionMy:
+                "ဇာတ်လမ်းအရ list သည် sort ဖြစ်သည်ဖြစ်စေ မဖြစ်စေ linear search နှင့်ပတ်သက်၍ မှန်ကန်သောအချက်က အဘယ်နည်း။",
+            optionsEn: [
+              "It only works on sorted lists",
+              "It always works, sorted or not",
+              "It never returns -1",
+              "It skips every other element",
+            ],
+            optionsMy: [
+              "Sort ပြီးသား list တွင်သာ အလုပ်လုပ်သည်",
+              "Sort ဖြစ်သည်ဖြစ်စေ မဖြစ်စေ အမြဲအလုပ်လုပ်သည်",
+              "-1 ကို ဘယ်တော့မှ ပြန်မပေးပါ",
+              "Element တစ်ခုကျော်ပြီး တစ်ခု ကျော်သွားသည်",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap Quiz",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does linear search do?",
+          questionMy: "Linear search သည် ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Checks each element in turn from the start until it finds the target or reaches the end",
+            "Always checks the middle element first",
+            "Only works on sorted lists",
+            "Deletes elements while searching",
+          ],
+          optionsMy: [
+            "Target ကို ရှာတွေ့သည် (သို့) list ၏အဆုံးရောက်သည်အထိ အစမှစပြီး element တစ်ခုချင်းစီကို အစဉ်လိုက် စစ်ဆေးသည်",
+            "Middle element ကို အမြဲဦးစွာစစ်ဆေးသည်",
+            "Sort ပြီးသား list တွင်သာ အလုပ်လုပ်သည်",
+            "ရှာဖွေနေစဉ် element များကို ဖျက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What value does a search function commonly return when the target is not found?",
+          questionMy:
+              "Target ကို မတွေ့ရှိသောအခါ search function က များသောအားဖြင့် ဘာတန်ဖိုးကို ပြန်ပေးသနည်း။",
+          optionsEn: ["0", "1", "-1", "The list's length"],
+          optionsMy: ["0", "1", "-1", "List ၏ အလျား"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which correctly defines a function for linear search taking a list and a target?",
+          questionMy:
+              "List နှင့် target ကိုယူသော linear search function ကို မှန်ကန်စွာ define လုပ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "def linear_search(target, numbers, extra):",
+            "def linear_search():",
+            "def linear_search(numbers, target):",
+            "numbers, target def linear_search():",
+          ],
+          optionsMy: [
+            "def linear_search(target, numbers, extra):",
+            "def linear_search():",
+            "def linear_search(numbers, target):",
+            "numbers, target def linear_search():",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If numbers = [3, 6, 9] and target = 9, what index does linear search return?",
+          questionMy:
+              "numbers = [3, 6, 9] ဖြစ်ပြီး target = 9 ဖြစ်ပါက linear search သည် မည်သည့် index ကို ပြန်ပေးသနည်း။",
+          optionsEn: ["Index 0", "Index 3", "Index 1", "Index 2"],
+          optionsMy: ["Index 0", "Index 3", "Index 1", "Index 2"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "Why might linear search be slow for a very long list?",
+          questionMy:
+              "List ရှည်လွန်းလျှင် linear search အဘယ့်ကြောင့် နှေးကွေးနိုင်သနည်း။",
+          optionsEn: [
+            "It always finds the target instantly",
+            "It might have to check every single element one by one before finding the target or reaching the end",
+            "It only checks the first element",
+            "It deletes the list after searching",
+          ],
+          optionsMy: [
+            "Target ကို ချက်ချင်းအမြဲရှာတွေ့သည်",
+            "Target ကိုရှာတွေ့သည် (သို့) list ၏အဆုံးရောက်မီ element တစ်ခုချင်းစီကို စစ်ဆေးရနိုင်သည်",
+            "ပထမ element ကိုသာ စစ်ဆေးသည်",
+            "ရှာဖွေပြီးနောက် list ကို ဖျက်သည်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 3, Week 10: "Binary Search"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek10 = CourseWeekDef(
+  id: "course-secondary2-computing-w10",
+  weekNumber: 10,
+  titleEn: "Binary Search",
+  titleMy: "List ကို ထက်ဝက်စီ ခွဲ၍ ရှာဖွေခြင်း — Binary Search",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w10-d1",
+      dayNumber: 1,
+      titleEn: "Why Search Faster? Binary Search",
+      titleMy: "ဘာကြောင့် ပိုမြန်စွာ ရှာဖွေရသနည်း — Binary Search",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can linear search be slow for a very long, sorted list?",
+          questionMy:
+              "List ရှည်လျားပြီး sort ပြီးသားဖြစ်နေလျှင်ပင် linear search အဘယ့်ကြောင့် နှေးကွေးနိုင်သနည်း။",
+          optionsEn: [
+            "It might have to check every element one by one, even though the list is sorted",
+            "It automatically sorts the list first",
+            "It only works on lists with 2 elements",
+            "It always finds the target in exactly 2 steps",
+          ],
+          optionsMy: [
+            "List သည် sort ပြီးသားဖြစ်နေလျှင်ပင် element တစ်ခုချင်းစီကို စစ်ဆေးရနိုင်သည်",
+            "List ကို အလိုအလျောက် ဦးစွာ sort လုပ်ပေးသည်",
+            "Element ၂ခုပါသော list တွင်သာ အလုပ်လုပ်သည်",
+            "အဆင့် ၂ဆင့်အတိအကျဖြင့် target ကို အမြဲရှာတွေ့သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is required before binary search can be used on a list?",
+          questionMy:
+              "List တစ်ခုအပေါ် binary search သုံးနိုင်ရန် ဘာလိုအပ်သနည်း။",
+          optionsEn: [
+            "The list must contain only numbers",
+            "The list must be sorted",
+            "The list must have fewer than 10 elements",
+            "The list must be empty",
+          ],
+          optionsMy: [
+            "List တွင် ဂဏန်းများသာ ပါရမည်",
+            "List သည် sort ပြီးသားဖြစ်ရမည်",
+            "List တွင် element ၁၀ ခုအောက်သာ ရှိရမည်",
+            "List သည် ဗလာဖြစ်ရမည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What is the key idea behind binary search?",
+          questionMy: "Binary search ၏ အဓိကအယူအဆက အဘယ်နည်း။",
+          optionsEn: [
+            "Check every element from the start, one by one",
+            "Check a random element each time",
+            "Check the middle element, then search only the half that could contain the target",
+            "Check the last element first",
+          ],
+          optionsMy: [
+            "အစမှစပြီး element တစ်ခုချင်းစီကို စစ်ဆေးခြင်း",
+            "အကြိမ်တိုင်း ကျပန်း element ကို စစ်ဆေးခြင်း",
+            "Middle element ကို စစ်ဆေးပြီး target ပါနိုင်သည့်ထက်ဝက်ကိုသာ ဆက်ရှာဖွေခြင်း",
+            "နောက်ဆုံး element ကို အရင်ဆုံးစစ်ဆေးခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the sorted list [3, 7, 12, 19, 26, 35, 42] and target = 26, what is the first middle element binary search checks?",
+          questionMy:
+              "Sort ပြီးသား list [3, 7, 12, 19, 26, 35, 42] နှင့် target = 26 အတွက် binary search က ဦးစွာစစ်ဆေးသည့် middle element က မည်သည်နည်း။",
+          optionsEn: ["3", "12", "26", "19"],
+          optionsMy: ["3", "12", "26", "19"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Since 19 is less than the target 26, which half does binary search search next?",
+          questionMy:
+              "19 သည် target ဖြစ်သော 26 ထက်နည်းသောကြောင့် binary search သည် နောက်တွင် မည်သည့်ထက်ဝက်ကို ဆက်ရှာဖွေသနည်း။",
+          optionsEn: [
+            "The left half (before index 3)",
+            "The whole list again from the start",
+            "The right half (after index 3)",
+            "It stops immediately",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက်ထက်ဝက် (index 3 မတိုင်မီ)",
+            "list တစ်ခုလုံးကို အစမှပြန်စ",
+            "ညာဘက်ထက်ဝက် (index 3 ပြီးနောက်)",
+            "ချက်ချင်းရပ်တန့်သည်",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w10-d2",
+      dayNumber: 2,
+      titleEn: "Binary Search Vocabulary",
+      titleMy: "Binary Search ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w10-bin-binarysearch",
+          termEn: "Binary Search",
+          termMy: "Binary Search",
+          matchEn:
+              "A search algorithm that repeatedly checks the middle element of a sorted list and discards the half that cannot contain the target",
+          matchMy:
+              "Sort ပြီးသား list ၏ middle element ကို အကြိမ်ကြိမ်စစ်ဆေးပြီး target မပါနိုင်သည့်ထက်ဝက်ကို ပယ်ဖျက်သွားသော search algorithm",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w10-bin-sorted",
+          termEn: "Sorted",
+          termMy: "Sorted",
+          matchEn:
+              "Arranged in order (e.g. smallest to largest) -- a required condition before binary search can be used",
+          matchMy:
+              "အစဉ်လိုက် စီထားခြင်း (ဥပမာ အသေးဆုံးမှ အကြီးဆုံးသို့) -- binary search သုံးနိုင်ရန် လိုအပ်သော အခြေအနေ",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w10-bin-middleelement",
+          termEn: "Middle Element",
+          termMy: "Middle Element",
+          matchEn:
+              "The value at the center position of the current search range, checked first on every step of binary search",
+          matchMy:
+              "လက်ရှိရှာဖွေမှု range ၏ အလယ်ဗဟိုနေရာရှိတန်ဖိုး -- binary search ၏ အဆင့်တိုင်းတွင် ဦးစွာစစ်ဆေးရသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w10-bin-halving",
+          termEn: "Halving",
+          termMy: "Halving",
+          matchEn:
+              "Discarding one whole half of the remaining list on every step, so the search range shrinks quickly",
+          matchMy:
+              "အဆင့်တိုင်းတွင် ကျန်ရှိနေသော list ၏ တစ်ဝက်လုံးကို ပယ်ဖျက်သွားခြင်း -- ရှာဖွေမှု range ကို လျင်မြန်စွာ ကျဉ်းသွားစေသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w10-bin-efficient",
+          termEn: "Efficient",
+          termMy: "Efficient",
+          matchEn:
+              "Needing far fewer checks than linear search, especially for long lists",
+          matchMy:
+              "List ရှည်လျားလေ linear search ထက် စစ်ဆေးရမှု အများကြီးနည်းလေဖြစ်ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sorted or Not Sorted?",
+      titleMy: "Sort ပြီးသလား မပြီးသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Binary Search Can Be Used",
+          "Binary Search Cannot Be Used",
+        ],
+        bucketsMy: ["Binary Search သုံးနိုင်သည်", "Binary Search သုံး၍မရပါ"],
+        items: [
+          SortingItem(
+            id: "w10-sort-listsorted1",
+            labelEn: "[2, 5, 9, 14, 20]",
+            labelMy: "[2, 5, 9, 14, 20]",
+            correctBucketEn: "Binary Search Can Be Used",
+            correctBucketMy: "Binary Search သုံးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "w10-sort-listunsorted1",
+            labelEn: "[5, 2, 9, 1, 20]",
+            labelMy: "[5, 2, 9, 1, 20]",
+            correctBucketEn: "Binary Search Cannot Be Used",
+            correctBucketMy: "Binary Search သုံး၍မရပါ",
+          ),
+          SortingItem(
+            id: "w10-sort-listsorted2",
+            labelEn: "[1, 3, 3, 7, 15, 42]",
+            labelMy: "[1, 3, 3, 7, 15, 42]",
+            correctBucketEn: "Binary Search Can Be Used",
+            correctBucketMy: "Binary Search သုံးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "w10-sort-listunsorted2",
+            labelEn: "[42, 7, 15, 3, 1]",
+            labelMy: "[42, 7, 15, 3, 1]",
+            correctBucketEn: "Binary Search Cannot Be Used",
+            correctBucketMy: "Binary Search သုံး၍မရပါ",
+          ),
+          SortingItem(
+            id: "w10-sort-listsorted3",
+            labelEn: "[10, 20, 30, 40]",
+            labelMy: "[10, 20, 30, 40]",
+            correctBucketEn: "Binary Search Can Be Used",
+            correctBucketMy: "Binary Search သုံးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "w10-sort-listunsorted3",
+            labelEn: "[100, 1, 50, 25]",
+            labelMy: "[100, 1, 50, 25]",
+            correctBucketEn: "Binary Search Cannot Be Used",
+            correctBucketMy: "Binary Search သုံး၍မရပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w10-d4",
+      dayNumber: 4,
+      titleEn: "Zin's Locker Number Search",
+      titleMy: "Zin ၏ Locker နံပါတ် ရှာဖွေမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin's Locker Number Search",
+        titleMy: "Zin ၏ Locker နံပါတ် ရှာဖွေမှု",
+        passageEn:
+            "The Nova Academy corridor had a sorted list of locker numbers displayed in order: lockers = [3, 7, 12, 19, 26, 35, 42]. Zin needed to find locker 26 but didn't want to check all seven numbers one by one. Instead, she used binary search. She started with the whole list, from index 0 to index 6, and checked the middle element at index 3, which was 19. Since 26 was greater than 19, Zin knew the target could only be in the right half, so she narrowed her search to index 4 through index 6. She checked the new middle element at index 5, which was 35. Since 26 was less than 35, she narrowed her search again, this time to just index 4. She checked that one remaining element, 26 -- a match! Binary search found locker 26 in just three checks (19, then 35, then 26), instead of the up to seven checks linear search might have needed. Zin realized binary search worked so well because the locker numbers were already sorted in order, letting her repeatedly cut the remaining search range in half.",
+        passageMy:
+            "Nova Academy ၏ လမ်းစင်္ကြံတွင် locker နံပါတ်များကို အစဉ်လိုက် sort လုပ်ပြီး ပြသထားသော စာရင်း lockers = [3, 7, 12, 19, 26, 35, 42] ရှိသည်။ Zin သည် locker 26 ကို ရှာလိုသော်လည်း ခုနစ်ခုလုံးကို တစ်ခုချင်းစီ စစ်ဆေးလိုခြင်းမရှိပါ။ ထို့အစား သူမသည် binary search ကို အသုံးပြုခဲ့သည်။ list တစ်ခုလုံး၊ index 0 မှ index 6 အထိဖြင့် စတင်ပြီး၊ index 3 ရှိ middle element ဖြစ်သော 19 ကို စစ်ဆေးခဲ့သည်။ 26 သည် 19 ထက်ကြီးသောကြောင့် Zin သည် target သည် right half တွင်သာရှိနိုင်ကြောင်း သိလိုက်ပြီး index 4 မှ index 6 အထိသာ ရှာဖွေမှုကို ကျဉ်းကျဉ်းလျှော့ချခဲ့သည်။ Middle element အသစ် index 5 ရှိ 35 ကို စစ်ဆေးခဲ့သည်။ 26 သည် 35 ထက်နည်းသောကြောင့် ရှာဖွေမှုကို ထပ်မံကျဉ်းချခဲ့ပြီး index 4 တစ်ခုတည်းသာ ကျန်တော့သည်။ ကျန်နေသည့် element တစ်ခုတည်းဖြစ်သော 26 ကို စစ်ဆေးရာ - ကိုက်ညီသည်! Binary search သည် locker 26 ကို (19၊ ထို့နောက် 35၊ ထို့နောက် 26) အစစ်ဆေး သုံးကြိမ်ဖြင့်သာ ရှာတွေ့ခဲ့ပြီး linear search ဆိုလျှင် ခုနစ်ကြိမ်အထိ စစ်ဆေးရနိုင်သည်နှင့်စာလျှင် များစွာနည်းသည်။ Locker နံပါတ်များကို ကြိုတင် sort လုပ်ထားပြီးဖြစ်၍ binary search သည် ကျန်ရှာဖွေမှု range ကို အကြိမ်ကြိမ် ထက်ဝက်စီ လျှော့ချနိုင်သောကြောင့် ဤမျှထိရောက်ကြောင်း Zin သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was the first middle element Zin checked?",
+            questionMy:
+                "Zin စစ်ဆေးခဲ့သည့် ပထမဆုံး middle element က မည်သည်နည်း။",
+            optionsEn: ["26", "35", "3", "19"],
+            optionsMy: ["26", "35", "3", "19"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Zin search the right half after checking 19?",
+            questionMy:
+                "19 ကို စစ်ဆေးပြီးနောက် Zin သည် အဘယ့်ကြောင့် ညာဘက်ထက်ဝက်ကို ဆက်ရှာခဲ့သနည်း။",
+            optionsEn: [
+              "Because 26 is greater than 19",
+              "Because 19 was the target",
+              "Because the list was not sorted",
+              "Because 19 was the last element",
+            ],
+            optionsMy: [
+              "26 သည် 19 ထက်ကြီးသောကြောင့်",
+              "19 သည် target ဖြစ်နေသောကြောင့်",
+              "List သည် sort မဖြစ်နေသောကြောင့်",
+              "19 သည် နောက်ဆုံး element ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many checks did binary search need in total to find locker 26?",
+            questionMy:
+                "Locker 26 ကို ရှာတွေ့ရန် binary search က စုစုပေါင်း မည်မျှကြိမ် စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: ["Seven", "One", "Three", "Five"],
+            optionsMy: ["ခုနစ်ကြိမ်", "တစ်ကြိမ်", "သုံးကြိမ်", "ငါးကြိမ်"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is required for binary search to work correctly on the locker list?",
+            questionMy:
+                "Locker list အပေါ် binary search မှန်ကန်စွာအလုပ်လုပ်ရန် ဘာလိုအပ်သနည်း။",
+            optionsEn: [
+              "The list must be sorted",
+              "The list must be a string",
+              "The list must have exactly three elements",
+              "The list must be empty",
+            ],
+            optionsMy: [
+              "List သည် sort ပြီးသားဖြစ်ရမည်",
+              "List သည် string ဖြစ်ရမည်",
+              "List တွင် element သုံးခုအတိအကျ ရှိရမည်",
+              "List သည် ဗလာဖြစ်ရမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is binary search efficient?",
+            questionMy: "ဇာတ်လမ်းအရ binary search အဘယ့်ကြောင့် ထိရောက်သနည်း။",
+            optionsEn: [
+              "It checks every locker number one by one",
+              "It repeatedly cuts the remaining search range in half",
+              "It only works when the target is first in the list",
+              "It randomly guesses the target",
+            ],
+            optionsMy: [
+              "Locker နံပါတ်တိုင်းကို တစ်ခုချင်းစီ စစ်ဆေးသည်",
+              "ကျန်ရှာဖွေမှု range ကို အကြိမ်ကြိမ် ထက်ဝက်စီ လျှော့ချသည်",
+              "Target သည် list ၏ ပထမနေရာတွင်ရှိမှသာ အလုပ်လုပ်သည်",
+              "Target ကို ကျပန်း ခန့်မှန်းသည်",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap Quiz",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What must be true about a list before binary search can be used?",
+          questionMy:
+              "Binary search သုံးနိုင်ရန် list တစ်ခုနှင့်ပတ်သက်၍ ဘာမှန်ကန်ရမည်နည်း။",
+          optionsEn: [
+            "It must be sorted",
+            "It must contain strings only",
+            "It must be exactly 10 elements long",
+            "It must be unsorted",
+          ],
+          optionsMy: [
+            "Sort ပြီးသားဖြစ်ရမည်",
+            "String သာ ပါဝင်ရမည်",
+            "Element ၁၀ ခုအတိအကျ ရှိရမည်",
+            "Sort မဖြစ်ဘဲ ရှိရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does binary search check first?",
+          questionMy: "Binary search သည် ဦးစွာ ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "The last element",
+            "The first element",
+            "The middle element",
+            "A random element",
+          ],
+          optionsMy: [
+            "နောက်ဆုံး element",
+            "ပထမ element",
+            "Middle element",
+            "ကျပန်း element",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For sorted list [3, 7, 12, 19, 26, 35, 42], what is the middle element the very first time binary search runs?",
+          questionMy:
+              "Sort ပြီးသား list [3, 7, 12, 19, 26, 35, 42] အတွက် binary search ပထမဆုံးအကြိမ် run သောအခါ middle element က မည်သည်နည်း။",
+          optionsEn: ["12", "19", "26", "35"],
+          optionsMy: ["12", "19", "26", "35"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If the target is greater than the middle element, which half does binary search search next?",
+          questionMy:
+              "Target သည် middle element ထက်ကြီးလျှင် binary search သည် နောက်တွင် မည်သည့်ထက်ဝက်ကို ဆက်ရှာသနည်း။",
+          optionsEn: [
+            "The left half",
+            "The right half",
+            "The whole list again",
+            "Neither half",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက်ထက်ဝက်",
+            "ညာဘက်ထက်ဝက်",
+            "List တစ်ခုလုံးကို ပြန်ရှာ",
+            "ထက်ဝက်မျှ မဆက်ရှာပါ",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is binary search generally faster than linear search on a long sorted list?",
+          questionMy:
+              "List ရှည်လျားပြီး sort ပြီးသားဖြစ်လျှင် binary search သည် linear search ထက် အဘယ့်ကြောင့် ပုံမှန်အားဖြင့် ပိုမြန်သနည်း။",
+          optionsEn: [
+            "It checks the whole list twice",
+            "It never returns -1",
+            "It halves the remaining search range on every step instead of checking one element at a time",
+            "It only works on short lists",
+          ],
+          optionsMy: [
+            "List တစ်ခုလုံးကို နှစ်ကြိမ်စစ်ဆေးသည်",
+            "-1 ကို ဘယ်တော့မှ ပြန်မပေးပါ",
+            "Element တစ်ခုချင်းစီစစ်မည့်အစား အဆင့်တိုင်းတွင် ကျန်ရှာဖွေမှု range ကို ထက်ဝက်ဖြတ်သည်",
+            "List တိုတိုများတွင်သာ အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 3, Week 11: "Sorting a List: Bubble
+// Sort"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek11 = CourseWeekDef(
+  id: "course-secondary2-computing-w11",
+  weekNumber: 11,
+  titleEn: "Sorting a List: Bubble Sort",
+  titleMy: "List များကို Sort လုပ်ခြင်း — Bubble Sort",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w11-d1",
+      dayNumber: 1,
+      titleEn: "Why Sorting Matters",
+      titleMy: "Sort လုပ်ခြင်း အရေးကြီးပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why does sorting a list matter?",
+          questionMy:
+              "List တစ်ခုကို sort လုပ်ခြင်းသည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Sorted lists automatically delete duplicates",
+            "Only sorted lists can store numbers",
+            "Sorting makes a list shorter",
+            "Sorted data is easier to read, and some algorithms like binary search require sorted data",
+          ],
+          optionsMy: [
+            "Sort ပြီးသား list များသည် ထပ်နေသော value များကို အလိုအလျောက် ဖျက်သည်",
+            "Sort ပြီးသား list များတွင်သာ ဂဏန်းများသိမ်းနိုင်သည်",
+            "Sort လုပ်ခြင်းက list ကို ပိုတိုအောင်လုပ်သည်",
+            "Sort ပြီးသား data သည် ဖတ်ရလွယ်ပြီး binary search ကဲ့သို့ algorithm အချို့သည် sort ပြီးသား data ကိုပင် လိုအပ်သည်",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "What is the basic idea behind bubble sort?",
+          questionMy: "Bubble sort ၏ အခြေခံအယူအဆက အဘယ်နည်း။",
+          optionsEn: [
+            "Pick the middle element and discard half the list",
+            "Repeatedly compare adjacent pairs of elements and swap them if they are in the wrong order",
+            "Randomly shuffle the list until it looks sorted",
+            "Delete the largest element each time",
+          ],
+          optionsMy: [
+            "Middle element ကို ရွေးပြီး list ၏ တစ်ဝက်ကို ပယ်ဖျက်သည်",
+            "Adjacent element နှစ်ခုစီကို အကြိမ်ကြိမ်နှိုင်းယှဉ်ပြီး အစဉ်လွဲနေလျှင် swap လုပ်သည်",
+            "Sort ပြီးသားပုံပေါ်သည်အထိ list ကို ကျပန်း လှုပ်ခတ်သည်",
+            "အကြီးဆုံး element ကို အကြိမ်တိုင်း ဖျက်သည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In bubble sort, what happens when two adjacent elements are compared and the left one is bigger than the right one?",
+          questionMy:
+              "Bubble sort တွင် adjacent element နှစ်ခုကို နှိုင်းယှဉ်ရာ ဘယ်ဘက်ရှိ element သည် ညာဘက်ရှိ element ထက်ကြီးလျှင် ဘာဖြစ်သနည်း။",
+          optionsEn: [
+            "They are swapped",
+            "The list is deleted",
+            "Nothing happens",
+            "The loop stops immediately",
+          ],
+          optionsMy: [
+            "Swap လုပ်သည်",
+            "List ကို ဖျက်သည်",
+            "ဘာမျှမဖြစ်ပါ",
+            "Loop ချက်ချင်းရပ်တန့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is one full sweep through the list, comparing and swapping adjacent pairs, called?",
+          questionMy:
+              "List တစ်ခုလုံးကို adjacent pair များနှိုင်းယှဉ်ပြီး swap လုပ်ရင်း တစ်ကြိမ်တည်း လှည့်သွားခြင်းကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["An index", "A parameter", "A pass", "A target"],
+          optionsMy: ["Index", "Parameter", "Pass", "Target"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "How does bubble sort know it has finished sorting?",
+          questionMy: "Bubble sort သည် sort ပြီးဆုံးကြောင်း မည်သို့သိရသနည်း။",
+          optionsEn: [
+            "When the list becomes empty",
+            "When a pass completes with no swaps needed",
+            "After exactly one pass, always",
+            "When every element equals 0",
+          ],
+          optionsMy: [
+            "List ဗလာဖြစ်သွားလျှင်",
+            "Swap မလိုအပ်တော့သော pass တစ်ခု ပြီးဆုံးသွားလျှင်",
+            "Pass တစ်ကြိမ်တည်းပြီးလျှင် အမြဲ",
+            "Element တိုင်း 0 ဖြစ်သွားလျှင်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w11-d2",
+      dayNumber: 2,
+      titleEn: "Bubble Sort Vocabulary",
+      titleMy: "Bubble Sort ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w11-bub-bubblesort",
+          termEn: "Bubble Sort",
+          termMy: "Bubble Sort",
+          matchEn:
+              "A sorting algorithm that repeatedly compares adjacent pairs of elements and swaps them if they're in the wrong order, until the list is sorted",
+          matchMy:
+              "Adjacent element နှစ်ခုစီကို အကြိမ်ကြိမ်နှိုင်းယှဉ်ပြီး အစဉ်လွဲနေလျှင် list ပြည့်စုံစွာ sort ဖြစ်သည်အထိ swap လုပ်သွားသော sorting algorithm",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w11-bub-compare",
+          termEn: "Compare",
+          termMy: "Compare",
+          matchEn:
+              "Checking whether one value is bigger, smaller, or equal to another",
+          matchMy:
+              "တန်ဖိုးတစ်ခုသည် အခြားတန်ဖိုးတစ်ခုထက် ကြီးသလား၊ သေးသလား၊ ညီသလား စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w11-bub-swap",
+          termEn: "Swap",
+          termMy: "Swap",
+          matchEn:
+              "Exchanging the positions of two adjacent elements in a list",
+          matchMy:
+              "List တစ်ခုအတွင်း adjacent element နှစ်ခု၏ နေရာကို လဲလှယ်ခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w11-bub-pass",
+          termEn: "Pass",
+          termMy: "Pass",
+          matchEn:
+              "One complete sweep through the list, comparing and swapping adjacent pairs along the way",
+          matchMy:
+              "List တစ်ခုလုံးကို adjacent pair များ နှိုင်းယှဉ်ပြီး swap လုပ်ရင်း တစ်ကြိမ်တည်း အပြည့်အစုံ လှည့်သွားခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w11-bub-adjacentpair",
+          termEn: "Adjacent Pair",
+          termMy: "Adjacent Pair",
+          matchEn:
+              "Two elements sitting right next to each other in a list, e.g. the elements at index 0 and index 1",
+          matchMy:
+              "List တစ်ခုအတွင်း အနီးကပ်ဆုံးရှိနေသော element နှစ်ခု (ဥပမာ index 0 နှင့် index 1 ရှိ element များ)",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w11-d3",
+      dayNumber: 3,
+      titleEn: "Swap or No Swap?",
+      titleMy: "Swap လုပ်ရမလား မလုပ်ဘဲနေရမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs a Swap", "No Swap Needed"],
+        bucketsMy: ["Swap လိုအပ်သည်", "Swap မလိုအပ်ပါ"],
+        items: [
+          SortingItem(
+            id: "w11-sort-cmp52",
+            labelEn: "Compare 5 then 2",
+            labelMy: "5 ကို ထို့နောက် 2 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Needs a Swap",
+            correctBucketMy: "Swap လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w11-sort-cmp24",
+            labelEn: "Compare 2 then 4",
+            labelMy: "2 ကို ထို့နောက် 4 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "No Swap Needed",
+            correctBucketMy: "Swap မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "w11-sort-cmp54",
+            labelEn: "Compare 5 then 4",
+            labelMy: "5 ကို ထို့နောက် 4 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Needs a Swap",
+            correctBucketMy: "Swap လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w11-sort-cmp12",
+            labelEn: "Compare 1 then 2",
+            labelMy: "1 ကို ထို့နောက် 2 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "No Swap Needed",
+            correctBucketMy: "Swap မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "w11-sort-cmp51",
+            labelEn: "Compare 5 then 1",
+            labelMy: "5 ကို ထို့နောက် 1 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Needs a Swap",
+            correctBucketMy: "Swap လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "w11-sort-cmp45",
+            labelEn: "Compare 4 then 5",
+            labelMy: "4 ကို ထို့နောက် 5 ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "No Swap Needed",
+            correctBucketMy: "Swap မလိုအပ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w11-d4",
+      dayNumber: 4,
+      titleEn: "Thiri Sorts Four Scores",
+      titleMy: "သီရိ Score လေးခုကို Sort လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri Sorts Four Scores",
+        titleMy: "သီရိ Score လေးခုကို Sort လုပ်ခြင်း",
+        passageEn:
+            "Thiri had four game scores she wanted in order from smallest to largest: scores = [5, 2, 4, 1]. She decided to use bubble sort by hand. In pass 1, she compared the first two scores, 5 and 2. Since 5 was bigger, she swapped them, giving [2, 5, 4, 1]. Next she compared 5 and 4 -- 5 was still bigger, so she swapped again, giving [2, 4, 5, 1]. Then she compared 5 and 1 -- another swap, giving [2, 4, 1, 5]. After pass 1, the biggest score, 5, had 'bubbled' all the way to the end of the list. In pass 2, she only needed to check the first three scores. Comparing 2 and 4, nothing needed to change. Comparing 4 and 1, she swapped them, giving [2, 1, 4, 5]. In pass 3, she compared 2 and 1 and swapped them, giving [1, 2, 4, 5]. One final pass confirmed no more swaps were needed -- the list was fully sorted. Thiri counted five swaps in total to turn [5, 2, 4, 1] into [1, 2, 4, 5], and she noticed the largest remaining value always ended up in its correct place by the end of each pass.",
+        passageMy:
+            "သီရိတွင် အသေးဆုံးမှ အကြီးဆုံးသို့ အစဉ်လိုက်စီလိုသော ဂိမ်း score လေးခု scores = [5, 2, 4, 1] ရှိသည်။ သူမသည် bubble sort ကို လက်ဖြင့် အသုံးပြုရန် ဆုံးဖြတ်ခဲ့သည်။ Pass 1 တွင် ပထမ score နှစ်ခု 5 နှင့် 2 ကို နှိုင်းယှဉ်ခဲ့သည်။ 5 သည် ပိုကြီးသောကြောင့် swap လုပ်ခဲ့ရာ [2, 5, 4, 1] ရရှိသည်။ ထို့နောက် 5 နှင့် 4 ကို နှိုင်းယှဉ်ရာ 5 သည် ဆက်လက်ကြီးနေသေးသဖြင့် ထပ်မံ swap လုပ်ခဲ့ရာ [2, 4, 5, 1] ရရှိသည်။ ထို့နောက် 5 နှင့် 1 ကို နှိုင်းယှဉ်ရာ - ထပ်မံ swap လုပ်ရာ [2, 4, 1, 5] ရရှိသည်။ Pass 1 ပြီးနောက် အကြီးဆုံး score ဖြစ်သော 5 သည် list ၏အဆုံးအထိ 'ပူဖောင်း' တက်သွားခဲ့သကဲ့သို့ ရောက်ရှိသွားခဲ့သည်။ Pass 2 တွင် ပထမ score သုံးခုကိုသာ စစ်ဆေးရန်လိုအပ်တော့သည်။ 2 နှင့် 4 ကို နှိုင်းယှဉ်ရာ ဘာမျှပြောင်းရန်မလိုပါ။ 4 နှင့် 1 ကို နှိုင်းယှဉ်ရာ swap လုပ်ခဲ့ရာ [2, 1, 4, 5] ရရှိသည်။ Pass 3 တွင် 2 နှင့် 1 ကို နှိုင်းယှဉ်ပြီး swap လုပ်ခဲ့ရာ [1, 2, 4, 5] ရရှိသည်။ နောက်ဆုံး pass တစ်ခုက swap နောက်ထပ်မလိုအပ်တော့ကြောင်း အတည်ပြုပေးခဲ့သည် -- list သည် အပြည့်အဝ sort ပြီးသွားခဲ့သည်။ သီရိသည် [5, 2, 4, 1] မှ [1, 2, 4, 5] သို့ ပြောင်းလဲရန် swap စုစုပေါင်း ငါးကြိမ် ရေတွက်မိခဲ့ပြီး pass တစ်ခုစီ၏အဆုံးတွင် ကျန်ရှိနေသော အကြီးဆုံးတန်ဖိုးသည် သူ့နေရာမှန်သို့ အမြဲရောက်ရှိနေကြောင်း သတိပြုမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What were Thiri's four scores before sorting?",
+            questionMy: "Sort မလုပ်မီ သီရိ၏ score လေးခုက အဘယ်နည်း။",
+            optionsEn: [
+              "[1, 2, 4, 5]",
+              "[5, 2, 4, 1]",
+              "[2, 4, 5, 1]",
+              "[4, 5, 2, 1]",
+            ],
+            optionsMy: [
+              "[1, 2, 4, 5]",
+              "[5, 2, 4, 1]",
+              "[2, 4, 5, 1]",
+              "[4, 5, 2, 1]",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What happened when Thiri compared 5 and 2 in pass 1?",
+            questionMy:
+                "Pass 1 တွင် သီရိသည် 5 နှင့် 2 ကို နှိုင်းယှဉ်သောအခါ ဘာဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Nothing, they stayed the same",
+              "They were deleted",
+              "They were swapped, since 5 was bigger",
+              "The list was sorted immediately",
+            ],
+            optionsMy: [
+              "ဘာမျှမဖြစ်၊ မူလအတိုင်းပင်ရှိသည်",
+              "ဖျက်ခံခဲ့ရသည်",
+              "5 သည် ပိုကြီးသောကြောင့် swap လုပ်ခဲ့ရသည်",
+              "List သည် ချက်ချင်း sort ဖြစ်သွားသည်",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "After pass 1, where had the biggest score, 5, ended up?",
+            questionMy:
+                "Pass 1 ပြီးနောက် အကြီးဆုံး score ဖြစ်သော 5 သည် မည်သည့်နေရာသို့ ရောက်ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "At the very start of the list",
+              "At the very end of the list",
+              "In the middle of the list",
+              "It was removed from the list",
+            ],
+            optionsMy: [
+              "List ၏ အစတွင်",
+              "List ၏ အဆုံးတွင်",
+              "List ၏ အလယ်တွင်",
+              "List မှ ဖယ်ရှားခံခဲ့ရသည်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many scores did Thiri need to check in pass 2, compared to pass 1?",
+            questionMy:
+                "Pass 1 နှင့် နှိုင်းယှဉ်လျှင် Pass 2 တွင် သီရိသည် score မည်မျှကို စစ်ဆေးရန်လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "The same number as pass 1",
+              "One more than pass 1",
+              "One fewer than pass 1",
+              "Zero scores",
+            ],
+            optionsMy: [
+              "Pass 1 နှင့် အရေအတွက်တူသည်",
+              "Pass 1 ထက် တစ်ခုပိုသည်",
+              "Pass 1 ထက် တစ်ခုနည်းသည်",
+              "Score တစ်ခုမှ စစ်ဆေးစရာမလိုပါ",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many total swaps did it take to sort [5, 2, 4, 1] into [1, 2, 4, 5]?",
+            questionMy:
+                "[5, 2, 4, 1] ကို [1, 2, 4, 5] အဖြစ် sort လုပ်ရန် swap စုစုပေါင်း မည်မျှကြိမ် လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["Five swaps", "One swap", "Ten swaps", "Zero swaps"],
+            optionsMy: ["ငါးကြိမ်", "တစ်ကြိမ်", "ဆယ်ကြိမ်", "သုညကြိမ်"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap Quiz",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does bubble sort repeatedly do?",
+          questionMy: "Bubble sort သည် ဘာကို အကြိမ်ကြိမ် လုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Compares adjacent pairs and swaps them if out of order",
+            "Deletes the smallest element",
+            "Picks a random pivot element",
+            "Checks only the middle element",
+          ],
+          optionsMy: [
+            "Adjacent pair များကို နှိုင်းယှဉ်ပြီး အစဉ်လွဲနေလျှင် swap လုပ်သည်",
+            "အသေးဆုံး element ကို ဖျက်သည်",
+            "ကျပန်း pivot element ကို ရွေးသည်",
+            "Middle element ကိုသာ စစ်ဆေးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In one pass of bubble sort, what tends to happen to the largest remaining value?",
+          questionMy:
+              "Bubble sort ၏ pass တစ်ခုတွင် ကျန်ရှိနေသေးသော အကြီးဆုံးတန်ဖိုးသည် ပုံမှန်အားဖြင့် ဘာဖြစ်တတ်သနည်း။",
+          optionsEn: [
+            "It disappears",
+            "It moves to the front",
+            "It bubbles to the end of the unsorted section",
+            "It stays in the middle",
+          ],
+          optionsMy: [
+            "ပျောက်ကွယ်သွားသည်",
+            "ရှေ့ဆုံးသို့ ရွှေ့သွားသည်",
+            "Sort မဖြစ်သေးသော အပိုင်း၏ အဆုံးသို့ ပူဖောင်းကဲ့သို့ တက်သွားသည်",
+            "အလယ်တွင်ပင်ရှိနေဆဲ",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "How does bubble sort know sorting is complete?",
+          questionMy: "Bubble sort သည် sort ပြီးဆုံးကြောင်း မည်သို့သိရသနည်း။",
+          optionsEn: [
+            "After exactly one pass",
+            "When the list is empty",
+            "When every value is the same",
+            "When a full pass makes no swaps",
+          ],
+          optionsMy: [
+            "Pass တစ်ကြိမ်တည်းပြီးလျှင်",
+            "List ဗလာဖြစ်သွားလျှင်",
+            "တန်ဖိုးအားလုံး တူညီသွားလျှင်",
+            "Pass တစ်ကြိမ်လုံးတွင် swap တစ်ခုမှ မလိုအပ်တော့လျှင်",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the list [3, 1, 2], comparing the first two elements 3 and 1, what happens?",
+          questionMy:
+              "List [3, 1, 2] တွင် ပထမ element နှစ်ခု 3 နှင့် 1 ကို နှိုင်းယှဉ်ရာ ဘာဖြစ်သနည်း။",
+          optionsEn: [
+            "No swap, since 3 is smaller",
+            "Nothing can be determined",
+            "They are swapped, since 3 is bigger than 1",
+            "The list is deleted",
+          ],
+          optionsMy: [
+            "3 သည် သေးသောကြောင့် swap မလုပ်ပါ",
+            "ဘာမှ မဆုံးဖြတ်နိုင်ပါ",
+            "3 သည် 1 ထက်ကြီးသောကြောင့် swap လုပ်သည်",
+            "List ကို ဖျက်သည်",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does sorted data matter for algorithms like binary search?",
+          questionMy:
+              "Binary search ကဲ့သို့ algorithm များအတွက် sort ပြီးသား data သည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Sorted data always contains fewer elements",
+            "Binary search requires the list to already be sorted",
+            "Sorting removes duplicate values automatically",
+            "It doesn't matter at all",
+          ],
+          optionsMy: [
+            "Sort ပြီးသား data တွင် element ပိုနည်းသည်",
+            "Binary search သည် list ကို ကြိုတင် sort ပြီးသားဖြစ်ရန် လိုအပ်သည်",
+            "Sort လုပ်ခြင်းက ထပ်နေသောတန်ဖိုးများကို အလိုအလျောက် ဖယ်ရှားသည်",
+            "လုံးဝ အရေးမကြီးပါ",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 3, Week 12: "Putting It Together: Sort
+// Then Search" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek12 = CourseWeekDef(
+  id: "course-secondary2-computing-w12",
+  weekNumber: 12,
+  titleEn: "Putting It Together: Sort Then Search",
+  titleMy: "အားလုံးပေါင်းစပ်ခြင်း — Sort ပြီးမှ Search",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w12-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Sort-Then-Search Program",
+      titleMy: "Sort ပြီးမှ Search လုပ်မည့် ပရိုဂရမ်ကို စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A program needs to sort a list and then search it for a target value. What is a good order of steps?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုသည် list ကို sort လုပ်ပြီးမှ target value အတွက် ရှာဖွေရမည်ဆိုပါက အဆင့်များကို မည်သို့စီစဉ်သင့်သနည်း။",
+          optionsEn: [
+            "Delete the list, then create a new one",
+            "Search the list first, then sort it",
+            "Sort the list, then search the sorted list for the target",
+            "Search and sort at the exact same time in one line",
+          ],
+          optionsMy: [
+            "List ကို ဖျက်ပြီးမှ အသစ်တစ်ခု ပြန်ဖန်တီးသည်",
+            "List ကို အရင်ရှာဖွေပြီးမှ sort လုပ်သည်",
+            "List ကို ဦးစွာ sort လုပ်ပြီးမှ sort ပြီးသား list ထဲမှ target ကို ရှာဖွေသည်",
+            "ရှာဖွေခြင်းနှင့် sort လုပ်ခြင်းကို စာကြောင်းတစ်ကြောင်းတည်းတွင် တစ်ပြိုင်နက်တည်း လုပ်သည်",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function signature correctly defines a function that takes a list called numbers and returns a new sorted list?",
+          questionMy:
+              "numbers ဟုအမည်ရှိသော list ကိုယူပြီး sort ပြီးသား list အသစ်ကို ပြန်ပေးမည့် function ကို မှန်ကန်စွာ define လုပ်မည့်စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "def bubble_sort(numbers): ... return numbers",
+            "def bubble_sort(): ... return numbers",
+            "bubble_sort(numbers): return",
+            "def bubble_sort(numbers) return numbers:",
+          ],
+          optionsMy: [
+            "def bubble_sort(numbers): ... return numbers",
+            "def bubble_sort(): ... return numbers",
+            "bubble_sort(numbers): return",
+            "def bubble_sort(numbers) return numbers:",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After numbers = bubble_sort(numbers) runs, what can you now assume about numbers?",
+          questionMy:
+              "numbers = bubble_sort(numbers) run ပြီးနောက် numbers နှင့်ပတ်သက်၍ ဘာယူဆနိုင်သနည်း။",
+          optionsEn: [
+            "It has been deleted",
+            "It is now sorted",
+            "It is now a different data type",
+            "It has exactly one element left",
+          ],
+          optionsMy: [
+            "ဖျက်ခံခဲ့ရသည်",
+            "ယခု sort ပြီးသားဖြစ်နေသည်",
+            "ယခု data type ပြောင်းသွားသည်",
+            "Element တစ်ခုတည်းသာ ကျန်တော့သည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Once the list is sorted, which search algorithm can now be used efficiently, thanks to the sorting step?",
+          questionMy:
+              "List sort ပြီးသွားပါက sort လုပ်ငန်းစဉ်ကြောင့် မည်သည့် search algorithm ကို ထိရောက်စွာ အသုံးပြုနိုင်သနည်း။",
+          optionsEn: [
+            "Binary search, since it requires a sorted list",
+            "Linear search only",
+            "No search algorithm can be used",
+            "Bubble sort again",
+          ],
+          optionsMy: [
+            "Sort ပြီးသား list လိုအပ်သော binary search",
+            "Linear search တစ်ခုတည်းသာ",
+            "Search algorithm မည်သည်ကိုမှ အသုံးမပြုနိုင်ပါ",
+            "Bubble sort ကို ထပ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the combined program, what does the search function return if the target is not found in the sorted list?",
+          questionMy:
+              "ပေါင်းစပ်ပရိုဂရမ်တွင် target သည် sort ပြီးသား list ထဲတွင် မတွေ့ရှိလျှင် search function က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The sorted list itself",
+            "0",
+            "The original unsorted list",
+            "-1",
+          ],
+          optionsMy: [
+            "Sort ပြီးသား list ကိုယ်တိုင်",
+            "0",
+            "မူလ sort မဖြစ်သေးသော list",
+            "-1",
+          ],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w12-d2",
+      dayNumber: 2,
+      titleEn: "Sort and Search Vocabulary",
+      titleMy: "Sort နှင့် Search ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w12-cap-sortthensearch",
+          termEn: "Sort Then Search",
+          termMy: "Sort Then Search",
+          matchEn:
+              "A program pattern where a list is first sorted (e.g. with bubble sort), then searched (e.g. with binary search) for a target value",
+          matchMy:
+              "List တစ်ခုကို ဦးစွာ sort လုပ်ပြီး (ဥပမာ bubble sort ဖြင့်) ထို့နောက် target value အတွက် ရှာဖွေသော (ဥပမာ binary search ဖြင့်) ပရိုဂရမ် pattern",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w12-cap-bubblesortfn",
+          termEn: "bubble_sort(numbers)",
+          termMy: "bubble_sort(numbers)",
+          matchEn:
+              "A function that takes a list as a parameter, rearranges it into order, and returns the sorted list",
+          matchMy:
+              "List ကို parameter အဖြစ်ယူပြီး အစဉ်လိုက် ပြန်စီပေးကာ sort ပြီးသား list ကို ပြန်ပေးသော function",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w12-cap-binarysearchfn",
+          termEn: "binary_search(numbers, target)",
+          termMy: "binary_search(numbers, target)",
+          matchEn:
+              "A function that takes a sorted list and a target value as parameters and returns the target's index, or -1 if not found",
+          matchMy:
+              "Sort ပြီးသား list တစ်ခုနှင့် target value ကို parameter များအဖြစ်ယူပြီး target ၏ index (သို့) မတွေ့ရှိလျှင် -1 ကို ပြန်ပေးသော function",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w12-cap-returnsorted",
+          termEn: "Return the Sorted List",
+          termMy: "Return the Sorted List",
+          matchEn:
+              "Using return inside a sorting function to hand the newly sorted list back to whoever called it",
+          matchMy:
+              "Sort ပြီးသား list အသစ်ကို call ခေါ်သူထံ return ဖြင့် ပြန်ပို့ရန် sorting function အတွင်း return သုံးခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w12-cap-callinsequence",
+          termEn: "Call in Sequence",
+          termMy: "Call in Sequence",
+          matchEn:
+              "Calling one function, then feeding its return value into another function, e.g. numbers = bubble_sort(numbers) then result = binary_search(numbers, target)",
+          matchMy:
+              "Function တစ်ခုကို call ခေါ်ပြီး ၎င်း၏ return value ကို function နောက်တစ်ခုသို့ ထပ်ဖြည့်ခေါ်ခြင်း (ဥပမာ numbers = bubble_sort(numbers) ပြီးမှ result = binary_search(numbers, target))",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sorting Step or Searching Step?",
+      titleMy: "Sort လုပ်ငန်းစဉ်လား Search လုပ်ငန်းစဉ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Part of Sorting", "Part of Searching"],
+        bucketsMy: [
+          "Sort လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          "Search လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "w12-sort-comparepairs",
+            labelEn: "Compare 5 and 2, then swap if 5 is bigger",
+            labelMy:
+                "5 နှင့် 2 ကို နှိုင်းယှဉ်ပြီး 5 ပိုကြီးလျှင် swap လုပ်ခြင်း",
+            correctBucketEn: "Part of Sorting",
+            correctBucketMy: "Sort လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w12-sort-checkmiddle",
+            labelEn: "Check the middle element of the sorted list",
+            labelMy: "Sort ပြီးသား list ၏ middle element ကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Part of Searching",
+            correctBucketMy: "Search လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w12-sort-bubblesortcall",
+            labelEn: "bubble_sort(numbers)",
+            labelMy: "bubble_sort(numbers)",
+            correctBucketEn: "Part of Sorting",
+            correctBucketMy: "Sort လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w12-sort-binarysearchcall",
+            labelEn: "binary_search(numbers, target)",
+            labelMy: "binary_search(numbers, target)",
+            correctBucketEn: "Part of Searching",
+            correctBucketMy: "Search လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w12-sort-repeatpasses",
+            labelEn: "Repeat passes until no swaps are needed",
+            labelMy:
+                "Swap နောက်ထပ်မလိုအပ်တော့သည်အထိ pass များ ထပ်ခါထပ်ခါလုပ်ခြင်း",
+            correctBucketEn: "Part of Sorting",
+            correctBucketMy: "Sort လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "w12-sort-returnnotfound",
+            labelEn: "Return -1 if the target isn't found",
+            labelMy: "Target မတွေ့ရှိလျှင် -1 ကို return ပြန်ပေးခြင်း",
+            correctBucketEn: "Part of Searching",
+            correctBucketMy: "Search လုပ်ငန်းစဉ်၏ အစိတ်အပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w12-d4",
+      dayNumber: 4,
+      titleEn: "Nilar's Sort-Then-Search Program",
+      titleMy: "Nilar ၏ Sort ပြီးမှ Search ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Sort-Then-Search Program",
+        titleMy: "Nilar ၏ Sort ပြီးမှ Search ပရိုဂရမ်",
+        passageEn:
+            "Nilar wanted to write one program that could sort a list of numbers and then search it for a target value, combining everything she had learned about functions, parameters, and return values. She started with an unsorted list, numbers = [9, 3, 7, 1, 5], and a function bubble_sort(numbers) that compared adjacent pairs and swapped them out of order, pass after pass, until nothing needed swapping. Calling sorted_numbers = bubble_sort(numbers) gave her back [1, 3, 5, 7, 9], fully sorted from smallest to largest. Next, Nilar wanted to search sorted_numbers for the target value 7. Because the list was already sorted, she could use binary_search(sorted_numbers, target) instead of a slower linear search. Binary search checked the middle element first, index 2, which held 5. Since 7 was greater than 5, it searched only the right half, checking index 3, which held 7 -- a match! The function returned index 3, and it only needed two checks instead of scanning the whole list. Nilar's finished program combined three ideas from the whole term: a function with a list parameter, a sorting algorithm that returned a newly ordered list, and a searching algorithm that returned the target's index or -1 if the target wasn't there.",
+        passageMy:
+            "Nilar သည် function၊ parameter၊ return value များအကြောင်း ဤ Term တစ်ခုလုံးမှ သင်ခဲ့သမျှကို ပေါင်းစပ်၍ ဂဏန်းစာရင်းတစ်ခုကို sort လုပ်ပြီး target value တစ်ခုကို ရှာဖွေပေးနိုင်သော ပရိုဂရမ်တစ်ခုကို ရေးလိုသည်။ သူမသည် sort မလုပ်ရသေးသော list, numbers = [9, 3, 7, 1, 5] နှင့် adjacent pair များကို နှိုင်းယှဉ်ပြီး အစဉ်လွဲနေလျှင် swap လုပ်ပေးသော function bubble_sort(numbers) ကို pass တစ်ပြီးတစ် swap လိုအပ်မှုမရှိတော့သည်အထိ run ခဲ့သည်။ sorted_numbers = bubble_sort(numbers) ဟု call ခေါ်ခြင်းက [1, 3, 5, 7, 9] ဟူသော အသေးဆုံးမှ အကြီးဆုံးသို့ အပြည့်အဝ sort ပြီးသားစာရင်းကို ပြန်ရရှိစေခဲ့သည်။ ထို့နောက် Nilar သည် sorted_numbers ထဲမှ target value 7 ကို ရှာဖွေလိုသည်။ List သည် sort ပြီးသားဖြစ်နေသောကြောင့် သူမသည် linear search ထက် ပိုမြန်သော binary_search(sorted_numbers, target) ကို အသုံးပြုနိုင်ခဲ့သည်။ Binary search သည် index 2 ရှိ middle element ဖြစ်သော 5 ကို ဦးစွာစစ်ဆေးခဲ့သည်။ 7 သည် 5 ထက်ကြီးသောကြောင့် right half ကိုသာ ရှာဖွေရာ index 3 ရှိ 7 ကို စစ်ဆေးခဲ့သည် - ကိုက်ညီသည်! Function သည် index 3 ကို ပြန်ပေးခဲ့ပြီး list တစ်ခုလုံးကို စစ်ဆေးမည့်အစား စစ်ဆေးမှု နှစ်ကြိမ်သာ လိုအပ်ခဲ့သည်။ Nilar ၏ ပြီးစီးသွားသော ပရိုဂရမ်သည် ဤ Term တစ်ခုလုံးမှ အယူအဆသုံးခုကို ပေါင်းစပ်ထားသည် - list parameter ပါသော function တစ်ခု၊ sort ပြီးစာရင်းအသစ်ကို return ပြန်ပေးသော sorting algorithm တစ်ခု၊ ထို့နောက် target ၏ index (သို့) target မရှိလျှင် -1 ကို return ပြန်ပေးသော searching algorithm တစ်ခု တို့ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was Nilar's original unsorted list?",
+            questionMy: "Nilar ၏ မူလ sort မဖြစ်သေးသော list က အဘယ်နည်း။",
+            optionsEn: [
+              "[1, 3, 5, 7, 9]",
+              "[9, 3, 7, 1, 5]",
+              "[9, 7, 5, 3, 1]",
+              "[5, 3, 1, 7, 9]",
+            ],
+            optionsMy: [
+              "[1, 3, 5, 7, 9]",
+              "[9, 3, 7, 1, 5]",
+              "[9, 7, 5, 3, 1]",
+              "[5, 3, 1, 7, 9]",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What did calling bubble_sort(numbers) return?",
+            questionMy:
+                "bubble_sort(numbers) ကို call ခေါ်ခြင်းက ဘာပြန်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "The same unsorted list, unchanged",
+              "An empty list",
+              "A newly sorted list, [1, 3, 5, 7, 9]",
+              "The number 9 only",
+            ],
+            optionsMy: [
+              "မူလ sort မဖြစ်သေးသား list အတိုင်းပင်",
+              "List ဗလာတစ်ခု",
+              "Sort ပြီးသား list အသစ် [1, 3, 5, 7, 9]",
+              "ဂဏန်း 9 တစ်ခုတည်း",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why could Nilar use binary search instead of linear search on sorted_numbers?",
+            questionMy:
+                "Nilar သည် sorted_numbers အပေါ် linear search အစား binary search ကို အဘယ့်ကြောင့် သုံးနိုင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because binary search never needs a sorted list",
+              "Because the list was already sorted",
+              "Because sorted_numbers only had one element",
+              "Because binary search always checks every element",
+            ],
+            optionsMy: [
+              "Binary search သည် sort ပြီးသား list ဘယ်တော့မှ မလိုအပ်သောကြောင့်",
+              "List သည် sort ပြီးသားဖြစ်နေသောကြောင့်",
+              "sorted_numbers တွင် element တစ်ခုတည်းသာ ရှိသောကြောင့်",
+              "Binary search သည် element တိုင်းကို အမြဲစစ်ဆေးသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many checks did binary search need to find the target 7?",
+            questionMy:
+                "Target 7 ကို ရှာတွေ့ရန် binary search က မည်မျှကြိမ် စစ်ဆေးရသနည်း။",
+            optionsEn: [
+              "Five checks",
+              "One check",
+              "Two checks",
+              "Zero checks",
+            ],
+            optionsMy: ["ငါးကြိမ်", "တစ်ကြိမ်", "နှစ်ကြိမ်", "သုညကြိမ်"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what three ideas did Nilar's finished program combine?",
+            questionMy:
+                "ဇာတ်လမ်းအရ Nilar ၏ ပြီးစီးသွားသော ပရိုဂရမ်တွင် ဘာအယူအဆသုံးခု ပေါင်းစပ်ပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "A function with a list parameter, a sorting algorithm, and a searching algorithm",
+              "Three separate unrelated programs",
+              "Only variables and print statements",
+              "A function, a comment, and a loop with no purpose",
+            ],
+            optionsMy: [
+              "List parameter ပါသော function၊ sorting algorithm နှင့် searching algorithm",
+              "လုံးဝ ဆက်စပ်မှုမရှိသော ပရိုဂရမ်သီးခြားသုံးခု",
+              "Variable များနှင့် print statement များသာ",
+              "ရည်ရွယ်ချက်မရှိသော function၊ comment နှင့် loop",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Recap Quiz",
+      titleMy: "Term 3 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a sort-then-search program, what should happen first?",
+          questionMy:
+              "Sort ပြီးမှ search လုပ်သော ပရိုဂရမ်တစ်ခုတွင် ဘာကို အရင်ဆုံးလုပ်ရမည်နည်း။",
+          optionsEn: [
+            "Search the list",
+            "Delete the list",
+            "Sort the list",
+            "Print the list twice",
+          ],
+          optionsMy: [
+            "List ကို ရှာဖွေသည်",
+            "List ကို ဖျက်သည်",
+            "List ကို sort လုပ်သည်",
+            "List ကို နှစ်ကြိမ် print ထုတ်သည်",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must a list be sorted before using binary search on it?",
+          questionMy:
+              "List တစ်ခုအပေါ် binary search သုံးရန် အဘယ့်ကြောင့် ကြိုတင် sort လုပ်ထားရမည်နည်း။",
+          optionsEn: [
+            "Binary search relies on being able to discard half the list based on order",
+            "Sorting isn't actually required",
+            "Binary search always works regardless of order",
+            "Sorting deletes the target",
+          ],
+          optionsMy: [
+            "Binary search သည် အစဉ်လိုက်ပေါ် မူတည်ပြီး list ၏ တစ်ဝက်ကို ပယ်ဖျက်နိုင်ခြင်းအပေါ် အားထားနေသောကြောင့်",
+            "Sort လုပ်ရန် အမှန်တကယ် မလိုအပ်ပါ",
+            "Binary search သည် အစဉ်ဖြစ်စေမဖြစ်စေ အမြဲအလုပ်လုပ်သည်",
+            "Sort လုပ်ခြင်းက target ကို ဖျက်ပစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a well-designed bubble_sort(numbers) function return?",
+          questionMy:
+              "ကောင်းစွာ ဒီဇိုင်းရေးထားသော bubble_sort(numbers) function က ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "Nothing at all",
+            "The original list, unsorted",
+            "The number of swaps only",
+            "A newly sorted version of the list",
+          ],
+          optionsMy: [
+            "ဘာမျှ မပြန်ပေးပါ",
+            "မူလ sort မဖြစ်သေးသား list",
+            "Swap အရေအတွက်သာ",
+            "List ၏ sort ပြီးသား version အသစ်",
+          ],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a search function typically return when the target is not found?",
+          questionMy:
+              "Target မတွေ့ရှိသောအခါ search function က ပုံမှန်အားဖြင့် ဘာပြန်ပေးသနည်း။",
+          optionsEn: [
+            "The list's length",
+            "-1",
+            "The target itself",
+            "0 always",
+          ],
+          optionsMy: ["List ၏ အလျား", "-1", "Target ကိုယ်တိုင်", "0 အမြဲ"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which best summarizes what this term (searching and sorting algorithms) covered?",
+          questionMy:
+              "ဤ Term (ရှာဖွေခြင်းနှင့် sort လုပ်ခြင်း algorithm များ) တွင် ဘာများပါဝင်ခဲ့သည်ကို အကောင်းဆုံးအကျဉ်းချုပ်ဖော်ပြသည့်အချက်က အဘယ်နည်း။",
+          optionsEn: [
+            "Linear search, binary search, bubble sort, and combining them into one program",
+            "How to design a website",
+            "Only how to define variables",
+            "How to draw flowcharts only",
+          ],
+          optionsMy: [
+            "Linear search၊ binary search၊ bubble sort နှင့် ၎င်းတို့ကို ပရိုဂရမ်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း",
+            "Website ဒီဇိုင်းရေးနည်း",
+            "Variable define လုပ်နည်းသာ",
+            "Flowchart ရေးဆွဲနည်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 4, Week 13: "AND, OR, NOT: The Building
+// Blocks"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek13 = CourseWeekDef(
+  id: "course-secondary2-computing-w13",
+  weekNumber: 13,
+  titleEn: "AND, OR, NOT: The Building Blocks",
+  titleMy: "AND, OR, NOT — အခြေခံအုတ်မြစ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w13-d1",
+      dayNumber: 1,
+      titleEn: "What is a Boolean Value?",
+      titleMy: "Boolean Value ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a Boolean value?",
+          questionMy: "Boolean value ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A value that can only ever be True or False",
+            "A value that can be any whole number",
+            "A value that is always a piece of text",
+            "A value that changes color every second",
+          ],
+          optionsMy: [
+            "True (သို့) False သာ ဖြစ်နိုင်သော တန်ဖိုး",
+            "ဂဏန်း (whole number) မည်သည့်ကိန်းမဆို ဖြစ်နိုင်သော တန်ဖိုး",
+            "အမြဲတမ်း text စာသားဖြစ်သော တန်ဖိုး",
+            "စက္ကန့်တိုင်း အရောင်ပြောင်းနေသော တန်ဖိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"it is raining AND I have an umbrella\", when is the whole statement True?",
+          questionMy:
+              "\"မိုးရွာနေသည် AND ငါ့တွင် ထီးရှိသည်\" ဆိုသော statement တစ်ခုလုံးသည် မည်သည့်အခါ True ဖြစ်သနည်း။",
+          optionsEn: [
+            "Only when both parts are true: it really is raining, and you really do have an umbrella",
+            "Whenever it is raining, no matter what",
+            "Whenever you have an umbrella, no matter what",
+            "It is never true",
+          ],
+          optionsMy: [
+            "အစိတ်အပိုင်းနှစ်ခုစလုံး မှန်နေသည့်အခါသာ - တကယ်မိုးရွာနေပြီး တကယ်ထီးလည်း ရှိနေချိန်",
+            "မည်သို့ပင်ဖြစ်စေ မိုးရွာနေတိုင်း",
+            "မည်သို့ပင်ဖြစ်စေ ထီးရှိနေတိုင်း",
+            "ဘယ်တော့မှ မမှန်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the OR operator, when is \"it is raining OR I have an umbrella\" True?",
+          questionMy:
+              "OR operator အတွက် \"မိုးရွာနေသည် OR ငါ့တွင် ထီးရှိသည်\" သည် မည်သည့်အခါ True ဖြစ်သနည်း။",
+          optionsEn: [
+            "True only when both are true",
+            "True when at least one part is true (raining, or has umbrella, or both)",
+            "True only when neither is true",
+            "Always false",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံး မှန်နေသည့်အခါသာ True ဖြစ်သည်",
+            "အနည်းဆုံး တစ်ခုမှန်နေလျှင် True ဖြစ်သည် (မိုးရွာသည်၊ သို့မဟုတ် ထီးရှိသည်၊ သို့မဟုတ် နှစ်ခုစလုံး)",
+            "နှစ်ခုစလုံး မမှန်သည့်အခါသာ True ဖြစ်သည်",
+            "အမြဲတမ်း False ဖြစ်သည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What does the NOT operator do to a Boolean value?",
+          questionMy: "NOT operator သည် Boolean value တစ်ခုကို ဘာလုပ်ပေးသနည်း။",
+          optionsEn: [
+            "It flips the value: True becomes False, and False becomes True",
+            "It always turns a value into True",
+            "It always turns a value into False",
+            "It has no effect on the value",
+          ],
+          optionsMy: [
+            "တန်ဖိုးကို ပြောင်းပြန်လှန်ပေးသည် - True သည် False ဖြစ်သွားပြီး False သည် True ဖြစ်သွားသည်",
+            "တန်ဖိုးကို အမြဲ True ပြောင်းပေးသည်",
+            "တန်ဖိုးကို အမြဲ False ပြောင်းပေးသည်",
+            "တန်ဖိုးအပေါ် မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Secondary 1 already introduced if-statements that check whether something is true or false. Which of these is a Boolean condition Secondary 1 might have used?",
+          questionMy:
+              "Secondary 1 က တစ်ခုခုမှန်၊ မမှန် စစ်ဆေးသော if-statement များကို ရှေ့ကတည်းက မိတ်ဆက်ပြီးသားဖြစ်သည်။ Secondary 1 က သုံးခဲ့နိုင်သော Boolean condition မှာ အောက်ပါတို့အနက် အဘယ်နည်း။",
+          optionsEn: [
+            "age > 18",
+            "print('hello')",
+            "a shopping list",
+            "a for loop counting to 10",
+          ],
+          optionsMy: [
+            "age > 18",
+            "print('hello')",
+            "ဈေးဝယ်စာရင်းတစ်ခု",
+            "10 အထိ ရေတွက်သော for loop တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w13-d2",
+      dayNumber: 2,
+      titleEn: "AND/OR/NOT Vocabulary",
+      titleMy: "AND/OR/NOT ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w13-bool-boolean",
+          termEn: "Boolean",
+          termMy: "Boolean",
+          matchEn: "A data type that can only ever be True or False",
+          matchMy: "True (သို့) False သာ ဖြစ်နိုင်သော data type",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w13-bool-and",
+          termEn: "AND",
+          termMy: "AND",
+          matchEn:
+              "A logical operator that is True only when both conditions on either side of it are true",
+          matchMy:
+              "နှစ်ဖက်ရှိ condition နှစ်ခုစလုံး မှန်နေသည့်အခါသာ True ဖြစ်သော logical operator",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w13-bool-or",
+          termEn: "OR",
+          termMy: "OR",
+          matchEn:
+              "A logical operator that is True when at least one of the conditions on either side of it is true",
+          matchMy:
+              "နှစ်ဖက်ရှိ condition များထဲမှ အနည်းဆုံးတစ်ခု မှန်နေလျှင် True ဖြစ်သော logical operator",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w13-bool-not",
+          termEn: "NOT",
+          termMy: "NOT",
+          matchEn:
+              "A logical operator that flips a Boolean value: True becomes False, and False becomes True",
+          matchMy:
+              "Boolean value ကို ပြောင်းပြန်လှန်ပေးသော logical operator - True သည် False ဖြစ်သွားပြီး False သည် True ဖြစ်သွားသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w13-bool-condition",
+          termEn: "Condition",
+          termMy: "Condition",
+          matchEn:
+              "A statement that evaluates to either True or False, used to make decisions in a program",
+          matchMy:
+              "ပရိုဂရမ်တွင် ဆုံးဖြတ်ချက်ချရန်သုံးသော၊ True (သို့) False အဖြစ်သာ ရလဒ်ထွက်သည့် statement",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w13-d3",
+      dayNumber: 3,
+      titleEn: "True or False?",
+      titleMy: "True လား False လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Evaluates to True", "Evaluates to False"],
+        bucketsMy: ["True ဖြစ်သည်", "False ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "w13-sort-andtruetrue",
+            labelEn: "True AND True",
+            labelMy: "True AND True",
+            correctBucketEn: "Evaluates to True",
+            correctBucketMy: "True ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w13-sort-andfalsetrue",
+            labelEn: "False AND True",
+            labelMy: "False AND True",
+            correctBucketEn: "Evaluates to False",
+            correctBucketMy: "False ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w13-sort-ortruefalse",
+            labelEn: "True OR False",
+            labelMy: "True OR False",
+            correctBucketEn: "Evaluates to True",
+            correctBucketMy: "True ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w13-sort-orfalsefalse",
+            labelEn: "False OR False",
+            labelMy: "False OR False",
+            correctBucketEn: "Evaluates to False",
+            correctBucketMy: "False ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w13-sort-nottrue",
+            labelEn: "NOT True",
+            labelMy: "NOT True",
+            correctBucketEn: "Evaluates to False",
+            correctBucketMy: "False ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w13-sort-notfalse",
+            labelEn: "NOT False",
+            labelMy: "NOT False",
+            correctBucketEn: "Evaluates to True",
+            correctBucketMy: "True ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w13-d4",
+      dayNumber: 4,
+      titleEn: "Thiri's Umbrella Decision",
+      titleMy: "သီရိ၏ ထီး ဆုံးဖြတ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Umbrella Decision",
+        titleMy: "သီရိ၏ ထီး ဆုံးဖြတ်ချက်",
+        passageEn:
+            "Every morning before school, Thiri checked two things: whether the sky looked cloudy, and whether her weather app said 'rain today'. She had a rule: I will bring my umbrella if it is cloudy AND the app says it will rain. One Tuesday, the sky was cloudy, but the app said no rain -- so her AND condition was False, and she left the umbrella at home. That afternoon, it rained anyway, and Thiri got wet on the walk home. She told her older cousin, who studied computing, about her frustrating day. Her cousin suggested a safer rule using OR instead: bring the umbrella if it is cloudy OR the app says it will rain. With OR, only one of the two conditions needed to be true, not both. The next cloudy morning, even though the app said no rain, Thiri's new OR condition was True, so she packed her umbrella -- and sure enough, it rained again in the afternoon. Thiri also learned about NOT: her little brother had a rule, I will play outside if it is NOT raining. NOT simply flipped True to False and False to True, so if it was raining (True), NOT raining became False, and he stayed inside. Thiri realized these three words -- AND, OR, NOT -- were exactly how her computing teacher described Boolean operators: AND needed every condition to be true, OR needed at least one condition to be true, and NOT simply flipped a single condition around.",
+        passageMy:
+            "နေ့စဉ် ကျောင်းမသွားခင် နံနက်တိုင်း သီရိသည် အချက်နှစ်ခုကို စစ်ဆေးလေ့ရှိသည် - မိုးအုံ့နေသလား၊ သူမ၏ ရာသီဥတု app က 'ယနေ့ မိုးရွာမည်' ဟု ပြောသလား ဆိုသည့်အချက်များ ဖြစ်သည်။ သူမ၌ စည်းမျဉ်းတစ်ခု ရှိသည် - မိုးအုံ့နေသည် AND app က မိုးရွာမည်ဟု ပြောလျှင် ထီးကို ယူသွားမည်။ အင်္ဂါနေ့တစ်ရက်တွင် မိုးအုံ့နေသော်လည်း app က မိုးမရွာဟု ပြောသဖြင့် သူမ၏ AND condition သည် False ဖြစ်ကာ ထီးကို အိမ်တွင်ချန်ခဲ့သည်။ ထိုနေ့ညနေတွင် မိုးရွာလာသဖြင့် သီရိသည် အိမ်ပြန်လမ်းတွင် ရေစိုသွားသည်။ သူမသည် ကွန်ပျူတာသင်ယူနေသော အစ်ကို/အစ်မကြီးအား ထိုစိတ်ပျက်စရာနေ့အကြောင်း ပြောပြသည်။ သူမ၏ ဝမ်းကွဲက OR ကိုသုံးသော ပိုစိတ်ချရသည့် စည်းမျဉ်းအသစ်တစ်ခု အကြံပေးသည် - မိုးအုံ့နေသည် OR app က မိုးရွာမည်ဟု ပြောလျှင် ထီးကို ယူသွားမည်။ OR ဖြင့်ဆိုလျှင် condition နှစ်ခုထဲမှ တစ်ခုတည်းသာ မှန်ရန် လိုအပ်ပြီး နှစ်ခုစလုံး မလိုအပ်ပါ။ နောက်တစ်ကြိမ် မိုးအုံ့သော နံနက်တွင် app က မိုးမရွာဟု ပြောသော်လည်း သီရိ၏ OR condition အသစ်သည် True ဖြစ်နေသောကြောင့် ထီးကို ထည့်ယူသွားခဲ့ပြီး ညနေတွင် မိုးထပ်ရွာလာခဲ့သည်။ သီရိသည် NOT အကြောင်းလည်း သင်ယူခဲ့သည် - သူမ၏ ညီလေးတွင် စည်းမျဉ်းတစ်ခု ရှိသည် - မိုးမရွာလျှင် (NOT raining) အပြင်ထွက်ကစားမည်။ NOT သည် True ကို False ဖြစ်စေပြီး False ကို True ရိုးရှင်းစွာ ပြောင်းပြန်လှန်ပေးရုံသာဖြစ်၍ မိုးရွာနေလျှင် (True) NOT raining သည် False ဖြစ်သွားကာ သူသည် အိမ်ထဲတွင်သာ နေခဲ့ရသည်။ ဤစကားလုံးသုံးလုံး - AND, OR, NOT - တို့သည် သူမ၏ ကွန်ပျူတာဆရာမက Boolean operator များကို ရှင်းပြခဲ့ပုံအတိုင်းပင်ဖြစ်ကြောင်း သီရိ သဘောပေါက်လိုက်သည် - AND သည် condition တိုင်း မှန်ဖို့လိုပြီး၊ OR သည် condition တစ်ခုမှန်ရုံဖြင့် လုံလောက်ကာ၊ NOT သည် condition တစ်ခုတည်းကို ပြောင်းပြန်လှန်ပေးရုံသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was Thiri's original umbrella rule (using AND)?",
+            questionMy: "သီရိ၏ မူလ ထီးစည်းမျဉ်း (AND သုံးသော) က အဘယ်နည်း။",
+            optionsEn: [
+              "Bring the umbrella if it is cloudy AND the app says it will rain",
+              "Bring the umbrella if it is cloudy OR the app says it will rain",
+              "Never bring an umbrella",
+              "Bring the umbrella only if it is NOT raining",
+            ],
+            optionsMy: [
+              "မိုးအုံ့နေသည် AND app က မိုးရွာမည်ဟု ပြောလျှင် ထီးယူသွားမည်",
+              "မိုးအုံ့နေသည် OR app က မိုးရွာမည်ဟု ပြောလျှင် ထီးယူသွားမည်",
+              "ထီးကို ဘယ်တော့မှ မယူသွားပါ",
+              "မိုးမရွာသည့်အခါသာ (NOT raining) ထီးယူသွားမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "On the Tuesday described, why didn't Thiri bring her umbrella?",
+            questionMy:
+                "ဖော်ပြထားသော အင်္ဂါနေ့တွင် သီရိသည် ထီးကို အဘယ့်ကြောင့် မယူခဲ့သနည်း။",
+            optionsEn: [
+              "Because her AND condition was False -- it was cloudy but the app said no rain, so not both conditions were true",
+              "Because it was sunny all day",
+              "Because her OR condition was True",
+              "Because she forgot she owned an umbrella",
+            ],
+            optionsMy: [
+              "သူမ၏ AND condition သည် False ဖြစ်နေသောကြောင့် - မိုးအုံ့သော်လည်း app က မိုးမရွာဟုပြောသဖြင့် နှစ်ခုစလုံး မမှန်ခဲ့ပါ",
+              "တစ်နေကုန် နေသာနေသောကြောင့်",
+              "သူမ၏ OR condition သည် True ဖြစ်နေသောကြောင့်",
+              "ထီးပိုင်ဆိုင်ကြောင်း မေ့သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What change did Thiri's cousin suggest, and why did it work better?",
+            questionMy:
+                "သီရိ၏ ဝမ်းကွဲက ဘာပြောင်းလဲမှု အကြံပေးခဲ့ပြီး အဘယ့်ကြောင့် ပိုကောင်းသနည်း။",
+            optionsEn: [
+              "Switching to OR, since OR only needs one of the two conditions to be true",
+              "Switching to NOT, since NOT always returns True",
+              "Deleting both conditions entirely",
+              "Using AND twice instead of once",
+            ],
+            optionsMy: [
+              "OR သို့ပြောင်းရန် - OR သည် condition နှစ်ခုထဲမှ တစ်ခုတည်းသာ မှန်ရန်လိုသောကြောင့်",
+              "NOT သို့ပြောင်းရန် - NOT သည် အမြဲ True ကို ပြန်ပေးသောကြောင့်",
+              "Condition နှစ်ခုစလုံးကို လုံးဝဖျက်ပစ်ရန်",
+              "AND ကို တစ်ကြိမ်အစား နှစ်ကြိမ် သုံးရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did NOT do to her little brother's raining condition?",
+            questionMy:
+                "NOT သည် သူမ၏ ညီလေး၏ မိုးရွာသည့် condition ကို ဘာလုပ်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "It flipped True to False, and False to True",
+              "It always returned True no matter what",
+              "It combined two conditions into one",
+              "It deleted the condition completely",
+            ],
+            optionsMy: [
+              "True ကို False ဖြစ်စေပြီး False ကို True ဖြစ်စေကာ ပြောင်းပြန်လှန်ပေးခဲ့သည်",
+              "မည်သို့ပင်ဖြစ်စေ အမြဲ True ကို ပြန်ပေးခဲ့သည်",
+              "Condition နှစ်ခုကို တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပေးခဲ့သည်",
+              "Condition ကို လုံးဝဖျက်ပစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, when is an AND condition True?",
+            questionMy:
+                "ဇာတ်လမ်းအရ AND condition တစ်ခုသည် မည်သည့်အခါ True ဖြစ်သနည်း။",
+            optionsEn: [
+              "Only when every condition joined by AND is true",
+              "When at least one condition is true",
+              "When every condition is false",
+              "AND conditions are always true",
+            ],
+            optionsMy: [
+              "AND ဖြင့်ချိတ်ဆက်ထားသော condition တိုင်း မှန်နေသည့်အခါသာ",
+              "Condition တစ်ခုမှန်နေလျှင်ပင်",
+              "Condition တိုင်း မမှန်သည့်အခါ",
+              "AND condition များသည် အမြဲ True ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap Quiz",
+      titleMy: "Week 13 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What can a Boolean value be?",
+          questionMy: "Boolean value တစ်ခုသည် ဘာဖြစ်နိုင်သနည်း။",
+          optionsEn: ["True or False", "Any number", "Any word", "A color"],
+          optionsMy: [
+            "True (သို့) False",
+            "ဂဏန်းမည်သည့်ကိန်းမဆို",
+            "စကားလုံးမည်သည်မဆို",
+            "အရောင်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "True AND False evaluates to?",
+          questionMy: "True AND False သည် မည်သို့ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["True", "False", "Error", "Both"],
+          optionsMy: ["True", "False", "Error", "နှစ်ခုစလုံး"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "False OR True evaluates to?",
+          questionMy: "False OR True သည် မည်သို့ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["False", "True", "Error", "Undefined"],
+          optionsMy: ["False", "True", "Error", "Undefined"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "NOT False evaluates to?",
+          questionMy: "NOT False သည် မည်သို့ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["False", "Undefined", "True", "Zero"],
+          optionsMy: ["False", "Undefined", "True", "သုည"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which operator needs at least one condition to be true, not both?",
+          questionMy:
+              "Condition နှစ်ခုစလုံး မလိုဘဲ အနည်းဆုံးတစ်ခုသာ မှန်ရန်လိုသော operator က အဘယ်နည်း။",
+          optionsEn: ["AND", "NOT", "OR", "Condition"],
+          optionsMy: ["AND", "NOT", "OR", "Condition"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 4, Week 14: "Truth Tables"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek14 = CourseWeekDef(
+  id: "course-secondary2-computing-w14",
+  weekNumber: 14,
+  titleEn: "Truth Tables",
+  titleMy: "Truth Table များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w14-d1",
+      dayNumber: 1,
+      titleEn: "Reading a Truth Table",
+      titleMy: "Truth Table ဖတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a truth table?",
+          questionMy: "Truth table ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A table that systematically lists every possible combination of inputs and the resulting output for a Boolean operator",
+            "A table of student exam scores",
+            "A random list of true and false words",
+            "A table that only works for NOT",
+          ],
+          optionsMy: [
+            "Boolean operator တစ်ခု၏ input ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးနှင့် ၎င်းတို့၏ output ကို စနစ်တကျ စာရင်းပြုစုထားသော table",
+            "ကျောင်းသားစာမေးပွဲရမှတ်များ table",
+            "True နှင့် False စကားလုံးများကို ကျပန်းစာရင်းပြုစုထားခြင်း",
+            "NOT အတွက်သာ အလုပ်လုပ်သော table",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many rows does a truth table for AND with two inputs (A and B) need, to cover every possible combination of True/False?",
+          questionMy:
+              "Input နှစ်ခု (A နှင့် B) ပါသော AND truth table တစ်ခုသည် True/False ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးကို ဖုံးလွှမ်းရန် မည်မျှ row လိုအပ်သနည်း။",
+          optionsEn: ["2", "3", "4", "8"],
+          optionsMy: ["2", "3", "4", "8"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the AND truth table, when A=True and B=False, what is the output?",
+          questionMy:
+              "AND truth table တွင် A=True၊ B=False ဖြစ်ပါက output က အဘယ်နည်း။",
+          optionsEn: ["True", "False", "Undefined", "Both"],
+          optionsMy: ["True", "False", "Undefined", "နှစ်ခုစလုံး"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the OR truth table, when A=False and B=True, what is the output?",
+          questionMy:
+              "OR truth table တွင် A=False၊ B=True ဖြစ်ပါက output က အဘယ်နည်း။",
+          optionsEn: ["False", "Undefined", "True", "Neither"],
+          optionsMy: ["False", "Undefined", "True", "နှစ်ခုလုံး မဟုတ်"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the NOT truth table, when the input is False, what is the output?",
+          questionMy:
+              "NOT truth table တွင် input သည် False ဖြစ်ပါက output က အဘယ်နည်း။",
+          optionsEn: ["False", "True", "Undefined", "Zero"],
+          optionsMy: ["False", "True", "Undefined", "သုည"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w14-d2",
+      dayNumber: 2,
+      titleEn: "Truth Table Vocabulary",
+      titleMy: "Truth Table ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w14-tt-truthtable",
+          termEn: "Truth Table",
+          termMy: "Truth Table",
+          matchEn:
+              "A table that systematically lists every possible combination of inputs and the resulting output for a Boolean operator",
+          matchMy:
+              "Boolean operator တစ်ခု၏ input ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးနှင့် ၎င်းတို့၏ output ကို စနစ်တကျ စာရင်းပြုစုထားသော table",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w14-tt-input",
+          termEn: "Input",
+          termMy: "Input",
+          matchEn:
+              "A Boolean value (True or False) fed into an operator like AND, OR, or NOT",
+          matchMy:
+              "AND, OR, NOT ကဲ့သို့ operator တစ်ခုထဲသို့ ထည့်သွင်းသော Boolean value (True သို့ False)",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w14-tt-output",
+          termEn: "Output",
+          termMy: "Output",
+          matchEn:
+              "The Boolean result (True or False) an operator produces from its inputs",
+          matchMy:
+              "Operator တစ်ခုက ၎င်း၏ input များမှ ထုတ်ပေးသော Boolean ရလဒ် (True သို့ False)",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w14-tt-andtable",
+          termEn: "AND Truth Table",
+          termMy: "AND Truth Table",
+          matchEn:
+              "A truth table showing that the output is True only in the one row where both inputs are True",
+          matchMy:
+              "Input နှစ်ခုစလုံး True ဖြစ်သော row တစ်ခုတည်းတွင်သာ output True ဖြစ်ကြောင်းပြသော truth table",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w14-tt-ortable",
+          termEn: "OR Truth Table",
+          termMy: "OR Truth Table",
+          matchEn:
+              "A truth table showing that the output is True in every row except the one where both inputs are False",
+          matchMy:
+              "Input နှစ်ခုစလုံး False ဖြစ်သော row တစ်ခုမှလွဲ၍ row တိုင်းတွင် output True ဖြစ်ကြောင်းပြသော truth table",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w14-d3",
+      dayNumber: 3,
+      titleEn: "Complete the Row",
+      titleMy: "အတန်းကို ဖြည့်စွက်ပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True", "False"],
+        bucketsMy: ["True", "False"],
+        items: [
+          SortingItem(
+            id: "w14-sort-andtruefalse",
+            labelEn: "AND truth table row: A=True, B=False -> output?",
+            labelMy: "AND truth table row: A=True, B=False -> output က?",
+            correctBucketEn: "False",
+            correctBucketMy: "False",
+          ),
+          SortingItem(
+            id: "w14-sort-andtruetrue",
+            labelEn: "AND truth table row: A=True, B=True -> output?",
+            labelMy: "AND truth table row: A=True, B=True -> output က?",
+            correctBucketEn: "True",
+            correctBucketMy: "True",
+          ),
+          SortingItem(
+            id: "w14-sort-orfalsefalse",
+            labelEn: "OR truth table row: A=False, B=False -> output?",
+            labelMy: "OR truth table row: A=False, B=False -> output က?",
+            correctBucketEn: "False",
+            correctBucketMy: "False",
+          ),
+          SortingItem(
+            id: "w14-sort-orfalsetrue",
+            labelEn: "OR truth table row: A=False, B=True -> output?",
+            labelMy: "OR truth table row: A=False, B=True -> output က?",
+            correctBucketEn: "True",
+            correctBucketMy: "True",
+          ),
+          SortingItem(
+            id: "w14-sort-nottrue",
+            labelEn: "NOT truth table row: input=True -> output?",
+            labelMy: "NOT truth table row: input=True -> output က?",
+            correctBucketEn: "False",
+            correctBucketMy: "False",
+          ),
+          SortingItem(
+            id: "w14-sort-notfalse",
+            labelEn: "NOT truth table row: input=False -> output?",
+            labelMy: "NOT truth table row: input=False -> output က?",
+            correctBucketEn: "True",
+            correctBucketMy: "True",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w14-d4",
+      dayNumber: 4,
+      titleEn: "Zin Ko Completes a Truth Table",
+      titleMy: "ဇင်ကို Truth Table တစ်ခု ပြီးမြောက်အောင်လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko Completes a Truth Table",
+        titleMy: "ဇင်ကို Truth Table တစ်ခု ပြီးမြောက်အောင်လုပ်ခြင်း",
+        passageEn:
+            "For his computing homework, Zin Ko had to build a truth table for two switches, A and B, connected to a special AND-lamp that only turns on when both switches are on. He listed every possible combination: A=False,B=False; A=False,B=True; A=True,B=False; A=True,B=True -- four rows in total, since each switch could independently be True or False. For the AND-lamp, he wrote True in the output column only for the very last row, where both A and B were True; every other row got False, because AND needs every condition to be true at once. His teacher then asked him to build a second table for an OR-lamp, which turns on if at least one switch is on. This time, Zin Ko wrote True for three of the four rows -- every row except the one where both A and B were False. Only when both switches were off did the OR-lamp's output stay False. Comparing his two tables side by side, Zin Ko noticed the AND-lamp was much harder to satisfy, needing every single condition to line up, while the OR-lamp turned on far more easily, needing just one.",
+        passageMy:
+            "ဇင်ကို၏ ကွန်ပျူတာအိမ်စာအတွက် သူသည် switch နှစ်ခု၊ A နှင့် B အတွက် truth table တစ်ခု တည်ဆောက်ရန် လိုအပ်ခဲ့ပြီး ၎င်းတို့သည် switch နှစ်ခုစလုံး ဖွင့်ထားမှသာ လင်းသော AND-မီးအိမ်တစ်ခုနှင့် ချိတ်ဆက်ထားသည်။ သူသည် ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးကို စာရင်းပြုစုခဲ့သည် - A=False,B=False; A=False,B=True; A=True,B=False; A=True,B=True - switch တစ်ခုစီသည် True သို့ False သီးခြားစီ ဖြစ်နိုင်သောကြောင့် စုစုပေါင်း row လေးခု ရရှိသည်။ AND-မီးအိမ်အတွက် A နှင့် B နှစ်ခုစလုံး True ဖြစ်သော နောက်ဆုံး row တစ်ခုတည်း၌သာ output column တွင် True ရေးခဲ့ပြီး ကျန် row များအားလုံးတွင် False ရေးခဲ့သည်၊ အဘယ်ကြောင့်ဆိုသော် AND သည် condition တိုင်း တစ်ပြိုင်နက်တည်း မှန်ရန် လိုအပ်သောကြောင့်ဖြစ်သည်။ ဆရာမက switch တစ်ခုမျှသာ ဖွင့်ထားလျှင်ပင် လင်းသော OR-မီးအိမ်အတွက် ဇယားတစ်ခုနောက်ထပ် တည်ဆောက်ခိုင်းသည်။ ယခုတစ်ကြိမ်တွင် ဇင်ကိုသည် row လေးခုအနက် သုံးခုအတွက် True ရေးခဲ့သည် - A နှင့် B နှစ်ခုစလုံး False ဖြစ်သော row တစ်ခုမှလွဲ၍ row တိုင်းအတွက်ဖြစ်သည်။ Switch နှစ်ခုစလုံး ပိတ်ထားမှသာ OR-မီးအိမ်၏ output သည် False အနေဖြင့် ကျန်ရှိခဲ့သည်။ သူ၏ ဇယားနှစ်ခုကို နှိုင်းယှဉ်ကြည့်ရာတွင် AND-မီးအိမ်သည် condition တိုင်းကို ညီညွတ်စေရန် လိုအပ်သဖြင့် ဖြည့်ဆည်းရန် ပိုခက်ခဲပြီး၊ OR-မီးအိမ်မှာမူ တစ်ခုတည်းသာ လိုအပ်သဖြင့် ပိုလွယ်ကူစွာ လင်းနိုင်ကြောင်း ဇင်ကို သတိပြုမိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many rows did Zin Ko's truth table need for two switches, A and B?",
+            questionMy:
+                "Switch နှစ်ခု A နှင့် B အတွက် ဇင်ကို၏ truth table တွင် row မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["Two", "Three", "Four", "Eight"],
+            optionsMy: ["နှစ်ခု", "သုံးခု", "လေးခု", "ရှစ်ခု"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "For the AND-lamp, in how many of the four rows was the output True?",
+            questionMy:
+                "AND-မီးအိမ်အတွက် row လေးခုအနက် မည်မျှခုတွင် output သည် True ဖြစ်ခဲ့သနည်း။",
+            optionsEn: ["Zero", "One", "Two", "All four"],
+            optionsMy: ["သုည", "တစ်ခု", "နှစ်ခု", "လေးခုစလုံး"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "For the OR-lamp, in how many of the four rows was the output True?",
+            questionMy:
+                "OR-မီးအိမ်အတွက် row လေးခုအနက် မည်မျှခုတွင် output သည် True ဖြစ်ခဲ့သနည်း။",
+            optionsEn: ["One", "Two", "Three", "Four"],
+            optionsMy: ["တစ်ခု", "နှစ်ခု", "သုံးခု", "လေးခု"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn: "When was the OR-lamp's output False?",
+            questionMy: "OR-မီးအိမ်၏ output သည် မည်သည့်အခါ False ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Only when both A and B were False",
+              "Only when both A and B were True",
+              "Whenever A was True",
+              "It was never False",
+            ],
+            optionsMy: [
+              "A နှင့် B နှစ်ခုစလုံး False ဖြစ်သည့်အခါသာ",
+              "A နှင့် B နှစ်ခုစလုံး True ဖြစ်သည့်အခါသာ",
+              "A သည် True ဖြစ်တိုင်း",
+              "ဘယ်တော့မှ False မဖြစ်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why was the AND-lamp harder to satisfy than the OR-lamp?",
+            questionMy:
+                "ဇာတ်လမ်းအရ AND-မီးအိမ်သည် OR-မီးအိမ်ထက် အဘယ့်ကြောင့် ဖြည့်ဆည်းရန် ပိုခက်ခဲခဲ့သနည်း။",
+            optionsEn: [
+              "Because AND needs every condition to be true at once, while OR only needs one",
+              "Because AND-lamps use more electricity",
+              "Because OR always stays off",
+              "Because AND has no truth table",
+            ],
+            optionsMy: [
+              "AND သည် condition တိုင်း တစ်ပြိုင်နက်တည်း မှန်ရန်လိုပြီး OR မှာမူ တစ်ခုတည်းသာ လိုအပ်သောကြောင့်",
+              "AND-မီးအိမ်များက လျှပ်စစ် ပိုသုံးသောကြောင့်",
+              "OR သည် အမြဲပိတ်နေသောကြောင့်",
+              "AND တွင် truth table မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap Quiz",
+      titleMy: "Week 14 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a truth table systematically list?",
+          questionMy: "Truth table တစ်ခုသည် ဘာကို စနစ်တကျ စာရင်းပြုစုသနည်း။",
+          optionsEn: [
+            "Every possible combination of inputs and their resulting output",
+            "Only the true rows",
+            "A list of student names",
+            "The history of a program",
+          ],
+          optionsMy: [
+            "Input ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးနှင့် ၎င်းတို့၏ output",
+            "True ဖြစ်သော row များသာ",
+            "ကျောင်းသားအမည်စာရင်း",
+            "ပရိုဂရမ်၏ history",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How many rows are needed for a 2-input truth table?",
+          questionMy:
+              "Input နှစ်ခုပါသော truth table တစ်ခုအတွက် row မည်မျှ လိုအပ်သနည်း။",
+          optionsEn: ["2", "3", "4", "5"],
+          optionsMy: ["2", "3", "4", "5"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "True AND False = ?",
+          questionMy: "True AND False = ?",
+          optionsEn: ["True", "False", "Error", "Both"],
+          optionsMy: ["True", "False", "Error", "နှစ်ခုစလုံး"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "False OR False = ?",
+          questionMy: "False OR False = ?",
+          optionsEn: ["True", "Error", "False", "Undefined"],
+          optionsMy: ["True", "Error", "False", "Undefined"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "NOT True = ?",
+          questionMy: "NOT True = ?",
+          optionsEn: ["True", "False", "Undefined", "Zero"],
+          optionsMy: ["True", "False", "Undefined", "သုည"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 4, Week 15: "Compound Conditions in
+// Code"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek15 = CourseWeekDef(
+  id: "course-secondary2-computing-w15",
+  weekNumber: 15,
+  titleEn: "Compound Conditions in Code",
+  titleMy: "Code ထဲရှိ Compound Condition များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w15-d1",
+      dayNumber: 1,
+      titleEn: "Combining Conditions with AND/OR",
+      titleMy: "AND/OR ဖြင့် Condition များ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a compound condition?",
+          questionMy: "Compound condition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A single condition made by combining two or more simpler conditions with AND, OR, or NOT",
+            "A condition that never changes",
+            "A condition with no Boolean operators",
+            "A condition written only in Burmese",
+          ],
+          optionsMy: [
+            "AND, OR, NOT တို့ဖြင့် condition ရိုးရိုးနှစ်ခု (သို့) ထို့ထက်ပို၍ ပေါင်းစပ်ထားသော condition တစ်ခု",
+            "ဘယ်တော့မှ မပြောင်းလဲသော condition",
+            "Boolean operator လုံးဝမပါသော condition",
+            "ဗမာဘာသာဖြင့်သာ ရေးထားသော condition",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does `if age >= 13 and age <= 19:` check?",
+          questionMy: "`if age >= 13 and age <= 19:` က ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "Whether age is a teenager's age, from 13 up to 19",
+            "Whether age is exactly 13",
+            "Whether age is greater than 19 only",
+            "Whether age is any number at all",
+          ],
+          optionsMy: [
+            "Age သည် 13 မှ 19 အထိ ဆယ်ကျော်သက် အသက်ဖြစ်မဖြစ်",
+            "Age သည် အတိအကျ 13 ဖြစ်မဖြစ်",
+            "Age သည် 19 ထက်သာ ကြီးမကြီး",
+            "Age သည် ဂဏန်းမည်သည်မဆို ဖြစ်မဖြစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If age = 15, what does `age >= 13 and age <= 19` evaluate to?",
+          questionMy:
+              "age = 15 ဖြစ်ပါက `age >= 13 and age <= 19` သည် မည်သို့ ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["False", "True", "Error", "Undefined"],
+          optionsMy: ["False", "True", "Error", "Undefined"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If age = 25, what does `age >= 13 and age <= 19` evaluate to?",
+          questionMy:
+              "age = 25 ဖြစ်ပါက `age >= 13 and age <= 19` သည် မည်သို့ ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["True", "Error", "False", "Undefined"],
+          optionsMy: ["True", "Error", "False", "Undefined"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can one compound if-statement replace several nested if-statements?",
+          questionMy:
+              "Compound if-statement တစ်ခုတည်းသည် nested if-statement များစွာကို အဘယ့်ကြောင့် အစားထိုးနိုင်သနည်း။",
+          optionsEn: [
+            "Because combining conditions with AND/OR lets one line check everything a set of nested ifs would check",
+            "Because compound conditions delete the need for conditions entirely",
+            "Because nested ifs are faster than compound conditions in every case",
+            "Because compound conditions can only ever use NOT",
+          ],
+          optionsMy: [
+            "AND/OR ဖြင့် condition များ ပေါင်းစပ်ခြင်းက nested if များ စစ်ဆေးမည့်အရာအားလုံးကို line တစ်ကြောင်းတည်းဖြင့် စစ်ဆေးနိုင်စေသောကြောင့်",
+            "Compound condition များက condition လိုအပ်ချက်ကို လုံးဝဖျက်ပစ်သောကြောင့်",
+            "Nested if များသည် compound condition ထက် အခြေအနေတိုင်းတွင် ပိုမြန်သောကြောင့်",
+            "Compound condition များသည် NOT ကိုသာ သုံးနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w15-d2",
+      dayNumber: 2,
+      titleEn: "Compound Condition Vocabulary",
+      titleMy: "Compound Condition ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w15-cc-compound",
+          termEn: "Compound Condition",
+          termMy: "Compound Condition",
+          matchEn:
+              "A single condition built by joining two or more simpler conditions together with AND, OR, or NOT",
+          matchMy:
+              "AND, OR, NOT တို့ဖြင့် condition ရိုးရိုးနှစ်ခု (သို့) ထို့ထက်ပို၍ ချိတ်ဆက်ပေါင်းစပ်ထားသော condition တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w15-cc-nestedif",
+          termEn: "Nested If",
+          termMy: "Nested If",
+          matchEn:
+              "An if-statement placed inside another if-statement, checking one condition after another in stages",
+          matchMy:
+              "If-statement တစ်ခုအတွင်း if-statement တစ်ခုထပ်ထားပြီး condition တစ်ခုပြီးတစ်ခု အဆင့်ဆင့်စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w15-cc-andkeyword",
+          termEn: "and (in code)",
+          termMy: "and (in code)",
+          matchEn:
+              "The keyword used in code to require every joined condition to be true at once, e.g. age >= 13 and age <= 19",
+          matchMy:
+              "ချိတ်ဆက်ထားသော condition တိုင်း တစ်ပြိုင်နက်တည်း မှန်ရန်လိုကြောင်း code တွင်သုံးသော keyword၊ ဥပမာ age >= 13 and age <= 19",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w15-cc-orkeyword",
+          termEn: "or (in code)",
+          termMy: "or (in code)",
+          matchEn:
+              "The keyword used in code to require at least one joined condition to be true",
+          matchMy:
+              "ချိတ်ဆက်ထားသော condition များထဲမှ အနည်းဆုံးတစ်ခု မှန်ရန်လိုကြောင်း code တွင်သုံးသော keyword",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w15-cc-simplify",
+          termEn: "Simplify",
+          termMy: "Simplify",
+          matchEn:
+              "Rewriting several nested if-statements as one compound condition that checks the same thing",
+          matchMy:
+              "Nested if-statement များစွာကို အလားတူအရာကိုစစ်ဆေးသော compound condition တစ်ခုတည်းအဖြစ် ပြန်လည်ရေးသားခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w15-d3",
+      dayNumber: 3,
+      titleEn: "Condition Met or Not?",
+      titleMy: "Condition ပြည့်မီသလား၊ မပြည့်မီဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Condition is True", "Condition is False"],
+        bucketsMy: [
+          "Condition သည် True ဖြစ်သည်",
+          "Condition သည် False ဖြစ်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "w15-sort-age15and",
+            labelEn: "age = 15, condition: age >= 13 and age <= 19",
+            labelMy: "age = 15, condition: age >= 13 and age <= 19",
+            correctBucketEn: "Condition is True",
+            correctBucketMy: "Condition သည် True ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w15-sort-age25and",
+            labelEn: "age = 25, condition: age >= 13 and age <= 19",
+            labelMy: "age = 25, condition: age >= 13 and age <= 19",
+            correctBucketEn: "Condition is False",
+            correctBucketMy: "Condition သည် False ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w15-sort-age10and",
+            labelEn: "age = 10, condition: age >= 13 and age <= 19",
+            labelMy: "age = 10, condition: age >= 13 and age <= 19",
+            correctBucketEn: "Condition is False",
+            correctBucketMy: "Condition သည် False ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w15-sort-age19and",
+            labelEn: "age = 19, condition: age >= 13 and age <= 19",
+            labelMy: "age = 19, condition: age >= 13 and age <= 19",
+            correctBucketEn: "Condition is True",
+            correctBucketMy: "Condition သည် True ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w15-sort-score95or",
+            labelEn: "score = 95, condition: score < 50 or score > 90",
+            labelMy: "score = 95, condition: score < 50 or score > 90",
+            correctBucketEn: "Condition is True",
+            correctBucketMy: "Condition သည် True ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w15-sort-score70or",
+            labelEn: "score = 70, condition: score < 50 or score > 90",
+            labelMy: "score = 70, condition: score < 50 or score > 90",
+            correctBucketEn: "Condition is False",
+            correctBucketMy: "Condition သည် False ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w15-d4",
+      dayNumber: 4,
+      titleEn: "Hnin Wai's Ticket Checker",
+      titleMy: "နှင်းဝေ၏ လက်မှတ်စစ်ဆေးမည့် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Ticket Checker",
+        titleMy: "နှင်းဝေ၏ လက်မှတ်စစ်ဆေးမည့် ပရိုဂရမ်",
+        passageEn:
+            "Hnin Wai was writing a program to check ticket prices for her school's festival. At first, she used nested if-statements: one if to check whether a visitor's age was at least 13, and inside it, another if to check whether the age was no more than 19. It worked, but her teacher pointed out it took three lines to check one simple rule. Hnin Wai rewrote it as a single compound condition: if age >= 13 and age <= 19: discount_price(). Now the and keyword did the work of both nested ifs in one line, and the discount only applied when both parts were true together. She tested it with a visitor aged 15: 15 >= 13 was True, and 15 <= 19 was True, so the AND condition was True, and the visitor got the discount. She tested it again with a visitor aged 25: 25 >= 13 was True, but 25 <= 19 was False, so the AND condition was False, and the visitor paid full price instead. Next, Hnin Wai needed a rule for free entry: visitors got in free if they had a VIP badge OR a staff pass. She wrote if has_vip_badge or has_staff_pass: free_entry(), knowing that or only needed one of the two to be true, not both. A visitor with a staff pass but no VIP badge still triggered free_entry(), because or asked for at least one true condition, unlike and, which demanded both.",
+        passageMy:
+            "Hnin Wai သည် သူမကျောင်း၏ ပွဲတော်အတွက် လက်မှတ်စျေးနှုန်း စစ်ဆေးမည့် ပရိုဂရမ်တစ်ခု ရေးနေသည်။ ပထမတွင် သူမသည် nested if-statement များကို သုံးခဲ့သည် - တစ်ခုက ဧည့်သည်၏ အသက်သည် 13 ထက်ငယ်မငယ် စစ်ဆေးပြီး ၎င်းအတွင်း if နောက်တစ်ခုက အသက်သည် 19 ထက် မပိုကြောင်း စစ်ဆေးသည်။ အလုပ်ဖြစ်သော်လည်း ဆရာမက စည်းမျဉ်းရိုးရိုးတစ်ခုကို စစ်ဆေးရန် line သုံးကြောင်း လိုအပ်နေကြောင်း ထောက်ပြသည်။ Hnin Wai သည် ၎င်းကို compound condition တစ်ခုတည်းအဖြစ် ပြန်ရေးခဲ့သည် - if age >= 13 and age <= 19: discount_price()။ ယခုအခါ and keyword သည် nested if နှစ်ခု၏ အလုပ်ကို line တစ်ကြောင်းတည်းဖြင့် လုပ်ဆောင်ပေးပြီး discount ကို အစိတ်အပိုင်းနှစ်ခုစလုံး အတူတကွမှန်နေသည့်အခါသာ ပေးအပ်ခဲ့သည်။ သူမသည် အသက် 15 နှစ်ရှိသော ဧည့်သည်ဖြင့် စမ်းသပ်ခဲ့သည် - 15 >= 13 သည် True ဖြစ်ပြီး 15 <= 19 သည်လည်း True ဖြစ်သောကြောင့် AND condition သည် True ဖြစ်ကာ ထိုဧည့်သည် discount ရရှိခဲ့သည်။ သူမသည် အသက် 25 နှစ်ရှိသော ဧည့်သည်ဖြင့် ထပ်စမ်းသပ်ခဲ့သည် - 25 >= 13 သည် True ဖြစ်သော်လည်း 25 <= 19 သည် False ဖြစ်သောကြောင့် AND condition သည် False ဖြစ်ကာ ထိုဧည့်သည် အပြည့်စျေးနှုန်းသာ ပေးဆောင်ခဲ့ရသည်။ ထို့နောက် Hnin Wai သည် အခမဲ့ဝင်ခွင့်အတွက် စည်းမျဉ်းတစ်ခု လိုအပ်ခဲ့သည် - VIP badge OR staff pass ရှိသော ဧည့်သည်များ အခမဲ့ဝင်ခွင့်ရသည်။ သူမသည် if has_vip_badge or has_staff_pass: free_entry() ဟု ရေးခဲ့ပြီး or သည် နှစ်ခုစလုံး မလိုဘဲ တစ်ခုတည်းသာ မှန်ရန်လိုကြောင်း သိရှိထားသည်။ Staff pass ရှိသော်လည်း VIP badge မရှိသော ဧည့်သည်တစ်ဦးသည်လည်း free_entry() ကို ရရှိနိုင်ခဲ့သည်၊ အဘယ်ကြောင့်ဆိုသော် or သည် and ကဲ့သို့ နှစ်ခုစလုံး မတောင်းဆိုဘဲ အနည်းဆုံးတစ်ခု မှန်ရန်သာ တောင်းဆိုသောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What two separate nested if-statements did Hnin Wai originally write?",
+            questionMy:
+                "Hnin Wai သည် မူလ nested if-statement နှစ်ခုကို မည်သို့ ရေးခဲ့သနည်း။",
+            optionsEn: [
+              "One checking age >= 13, and inside it another checking age <= 19",
+              "One checking age == 13 only",
+              "One printing a message, and another doing nothing",
+              "Two unrelated conditions about ticket color",
+            ],
+            optionsMy: [
+              "တစ်ခုက age >= 13 ကိုစစ်ဆေးပြီး ၎င်းအတွင်း နောက်တစ်ခုက age <= 19 ကို စစ်ဆေးသည်",
+              "age == 13 ကိုသာ စစ်ဆေးသော တစ်ခု",
+              "message တစ်ခုပြသော တစ်ခု၊ ဘာမှမလုပ်သော နောက်တစ်ခု",
+              "လက်မှတ်အရောင်နှင့်ပတ်သက်သော ဆက်စပ်မှုမရှိသည့် condition နှစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What compound condition replaced her nested if-statements?",
+            questionMy:
+                "သူမ၏ nested if-statement များကို ဘာ compound condition က အစားထိုးခဲ့သနည်း။",
+            optionsEn: [
+              "if age >= 13 and age <= 19:",
+              "if age == 13 or age == 19:",
+              "if age >= 13 or age <= 19:",
+              "if not age:",
+            ],
+            optionsMy: [
+              "if age >= 13 and age <= 19:",
+              "if age == 13 or age == 19:",
+              "if age >= 13 or age <= 19:",
+              "if not age:",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "For a visitor aged 15, what did age >= 13 and age <= 19 evaluate to?",
+            questionMy:
+                "အသက် 15 နှစ်ရှိသော ဧည့်သည်အတွက် age >= 13 and age <= 19 သည် မည်သို့ ရလဒ်ထွက်ခဲ့သနည်း။",
+            optionsEn: ["False", "True", "Error", "Undefined"],
+            optionsMy: ["False", "True", "Error", "Undefined"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "For a visitor aged 25, what did age >= 13 and age <= 19 evaluate to, and why?",
+            questionMy:
+                "အသက် 25 နှစ်ရှိသော ဧည့်သည်အတွက် age >= 13 and age <= 19 သည် မည်သို့ ရလဒ်ထွက်ခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "True, because 25 is a valid age",
+              "False, because 25 <= 19 was False, so not both parts were true",
+              "True, because 25 >= 13 was True",
+              "Error, because 25 is too large",
+            ],
+            optionsMy: [
+              "True ဖြစ်သည်၊ 25 သည် သင့်တော်သော အသက်ဖြစ်သောကြောင့်",
+              "False ဖြစ်သည်၊ 25 <= 19 သည် False ဖြစ်သဖြင့် အစိတ်အပိုင်းနှစ်ခုစလုံး မမှန်ခဲ့သောကြောင့်",
+              "True ဖြစ်သည်၊ 25 >= 13 သည် True ဖြစ်သောကြောင့်",
+              "Error ဖြစ်သည်၊ 25 သည် ကြီးလွန်းသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did a visitor with a staff pass but no VIP badge still get free entry?",
+            questionMy:
+                "Staff pass ရှိသော်လည်း VIP badge မရှိသော ဧည့်သည်တစ်ဦးသည် အခမဲ့ဝင်ခွင့် အဘယ့်ကြောင့် ရရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Because the or condition only needed one of the two conditions to be true",
+              "Because the and condition needed both to be true",
+              "Because free entry required neither condition",
+              "Because staff passes automatically disable the condition check",
+            ],
+            optionsMy: [
+              "or condition သည် condition နှစ်ခုထဲမှ တစ်ခုတည်းသာ မှန်ရန်လိုသောကြောင့်",
+              "and condition သည် နှစ်ခုစလုံး မှန်ရန်လိုသောကြောင့်",
+              "အခမဲ့ဝင်ခွင့်တွင် condition မည်သည်မျှ မလိုအပ်သောကြောင့်",
+              "Staff pass များက condition စစ်ဆေးမှုကို အလိုအလျောက် ပိတ်ပစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap Quiz",
+      titleMy: "Week 15 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a compound condition?",
+          questionMy: "Compound condition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Two or more simple conditions joined with AND, OR, or NOT",
+            "A condition with no operators",
+            "A loop that never ends",
+            "A single number",
+          ],
+          optionsMy: [
+            "AND, OR, NOT ဖြင့် ချိတ်ဆက်ထားသော condition ရိုးရိုးနှစ်ခု (သို့) ထို့ထက်ပို",
+            "Operator လုံးဝမပါသော condition",
+            "ဘယ်တော့မှ မဆုံးသော loop",
+            "ဂဏန်းတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "`if age >= 13 and age <= 19:` -- what does this check?",
+          questionMy: "`if age >= 13 and age <= 19:` က ဘာကို စစ်ဆေးသနည်း။",
+          optionsEn: [
+            "Whether age is a teenager's age, 13 through 19",
+            "Whether age is under 13",
+            "Whether age is over 19",
+            "Whether age is negative",
+          ],
+          optionsMy: [
+            "Age သည် 13 မှ 19 အထိ ဆယ်ကျော်သက်ဖြစ်မဖြစ်",
+            "Age သည် 13 အောက် ဖြစ်မဖြစ်",
+            "Age သည် 19 ထက်ကြီးမကြီး",
+            "Age သည် အနုတ်ဂဏန်းဖြစ်မဖြစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "With age = 12, what does age >= 13 and age <= 19 evaluate to?",
+          questionMy:
+              "age = 12 ဖြစ်ပါက age >= 13 and age <= 19 သည် မည်သို့ ရလဒ်ထွက်သနည်း။",
+          optionsEn: ["True", "Error", "False", "Undefined"],
+          optionsMy: ["True", "Error", "False", "Undefined"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "With score < 50 or score > 90 and score = 45, what is the result?",
+          questionMy:
+              "score < 50 or score > 90 နှင့် score = 45 ဖြစ်ပါက ရလဒ်က အဘယ်နည်း။",
+          optionsEn: ["False", "True", "Error", "Undefined"],
+          optionsMy: ["False", "True", "Error", "Undefined"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a programmer prefer one compound condition over several nested ifs?",
+          questionMy:
+              "Programmer တစ်ဦးသည် nested if များစွာထက် compound condition တစ်ခုတည်းကို အဘယ့်ကြောင့် ပိုနှစ်သက်နိုင်သနည်း။",
+          optionsEn: [
+            "It checks the same thing in fewer, clearer lines",
+            "It always runs slower",
+            "It removes the need for any condition",
+            "It only works with NOT",
+          ],
+          optionsMy: [
+            "အလားတူအရာကို line ပိုနည်းပြီး ပိုရှင်းလင်းစွာ စစ်ဆေးနိုင်သောကြောင့်",
+            "အမြဲ ပိုနှေးစေသောကြောင့်",
+            "Condition မည်သည့်လိုအပ်ချက်ကိုမျှ ဖယ်ရှားပစ်သောကြောင့်",
+            "NOT နှင့်သာ အလုပ်လုပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 4, Week 16: "Boolean Functions"
+// (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek16 = CourseWeekDef(
+  id: "course-secondary2-computing-w16",
+  weekNumber: 16,
+  titleEn: "Boolean Functions",
+  titleMy: "Boolean Function များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w16-d1",
+      dayNumber: 1,
+      titleEn: "Functions That Return True or False",
+      titleMy: "True (သို့) False ကို Return ပြန်ပေးသော Function များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a Boolean function return?",
+          questionMy: "Boolean function တစ်ခုသည် ဘာကို return ပြန်ပေးသနည်း။",
+          optionsEn: [
+            "Either True or False",
+            "Always a list",
+            "Always a string of text",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "True (သို့) False",
+            "အမြဲ list တစ်ခု",
+            "အမြဲ text string တစ်ခု",
+            "ဘာမျှ မပြန်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which function signature correctly defines is_teenager(age) so it can be used in an if-statement?",
+          questionMy:
+              "if-statement တွင် သုံးနိုင်ရန် is_teenager(age) ကို မှန်ကန်စွာ define လုပ်မည့် function signature က အဘယ်နည်း။",
+          optionsEn: [
+            "def is_teenager(age): return age >= 13 and age <= 19",
+            "def is_teenager(age): print(age >= 13 and age <= 19)",
+            "is_teenager(age) return True",
+            "def is_teenager(): return age >= 13 and age <= 19",
+          ],
+          optionsMy: [
+            "def is_teenager(age): return age >= 13 and age <= 19",
+            "def is_teenager(age): print(age >= 13 and age <= 19)",
+            "is_teenager(age) return True",
+            "def is_teenager(): return age >= 13 and age <= 19",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If is_teenager(15) is called using the function from Q2, what does it return?",
+          questionMy:
+              "အထက်ပါ Q2 ၏ function ကို သုံး၍ is_teenager(15) ကို call ခေါ်လျှင် ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["False", "True", "15", "Error"],
+          optionsMy: ["False", "True", "15", "Error"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A function called all_passed(scores) checks whether every score in a list is at least 50, using a loop and a Boolean. If it finds even one score below 50, what should it do?",
+          questionMy:
+              "all_passed(scores) ဟူသော function သည် loop နှင့် Boolean သုံး၍ list ထဲရှိ score တိုင်း 50 အနည်းဆုံးရှိမရှိ စစ်ဆေးသည်။ 50 အောက်ရှိသော score တစ်ခုတွေ့ပါက ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Immediately return False",
+            "Immediately return True",
+            "Delete the list",
+            "Ignore that score and keep going forever",
+          ],
+          optionsMy: [
+            "ချက်ချင်း False ကို return ပြန်ပေးသည်",
+            "ချက်ချင်း True ကို return ပြန်ပေးသည်",
+            "List ကို ဖျက်ပစ်သည်",
+            "ထို score ကို လျစ်လျူရှုပြီး အဆုံးမရှိ ဆက်လုပ်နေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If all_passed([60, 70, 80]) runs and every score is at least 50, what should the function return?",
+          questionMy:
+              "all_passed([60, 70, 80]) ကို run ပြီး score တိုင်း 50 အနည်းဆုံးရှိပါက function က ဘာပြန်ပေးသင့်သနည်း။",
+          optionsEn: ["60", "The list unchanged", "True", "False"],
+          optionsMy: ["60", "မပြောင်းလဲသော list", "True", "False"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w16-d2",
+      dayNumber: 2,
+      titleEn: "Boolean Function Vocabulary",
+      titleMy: "Boolean Function ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w16-fn-boolfunction",
+          termEn: "Boolean Function",
+          termMy: "Boolean Function",
+          matchEn:
+              "A function that evaluates a condition and returns True or False",
+          matchMy:
+              "Condition တစ်ခုကို အကဲဖြတ်ပြီး True (သို့) False ကို return ပြန်ပေးသော function",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w16-fn-returntrue",
+          termEn: "return True / return False",
+          termMy: "return True / return False",
+          matchEn:
+              "Sending a Boolean result back to whoever called the function",
+          matchMy:
+              "Function ကို call ခေါ်သူထံ Boolean ရလဒ်ကို ပြန်ပို့ပေးခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w16-fn-isteenager",
+          termEn: "is_teenager(age)",
+          termMy: "is_teenager(age)",
+          matchEn:
+              "A Boolean function that returns True only when age is between 13 and 19",
+          matchMy:
+              "Age သည် 13 နှင့် 19 ကြားရှိမှသာ True ကို return ပြန်ပေးသော Boolean function",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w16-fn-allpassed",
+          termEn: "all_passed(scores)",
+          termMy: "all_passed(scores)",
+          matchEn:
+              "A Boolean function that loops through a list and returns True only if every score meets a condition",
+          matchMy:
+              "List တစ်ခုကို loop ဖြင့်ကျော်သွားပြီး score တိုင်း condition နှင့်ကိုက်ညီမှသာ True ကို return ပြန်ပေးသော Boolean function",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w16-fn-earlyreturn",
+          termEn: "Early Return",
+          termMy: "Early Return",
+          matchEn:
+              "Returning False immediately once a loop finds one item that fails the condition, without checking the rest",
+          matchMy:
+              "Loop က condition နှင့်မကိုက်ညီသော item တစ်ခုတွေ့သည်နှင့် ကျန်ရှိသည့်အရာများကို မစစ်ဆေးတော့ဘဲ ချက်ချင်း False ကို return ပြန်ပေးခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w16-d3",
+      dayNumber: 3,
+      titleEn: "What Does the Function Return?",
+      titleMy: "Function က ဘာကို Return ပြန်ပေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Returns True", "Returns False"],
+        bucketsMy: [
+          "True ကို Return ပြန်ပေးသည်",
+          "False ကို Return ပြန်ပေးသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "w16-sort-isteen15",
+            labelEn: "is_teenager(15)",
+            labelMy: "is_teenager(15)",
+            correctBucketEn: "Returns True",
+            correctBucketMy: "True ကို Return ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w16-sort-isteen25",
+            labelEn: "is_teenager(25)",
+            labelMy: "is_teenager(25)",
+            correctBucketEn: "Returns False",
+            correctBucketMy: "False ကို Return ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w16-sort-isteen10",
+            labelEn: "is_teenager(10)",
+            labelMy: "is_teenager(10)",
+            correctBucketEn: "Returns False",
+            correctBucketMy: "False ကို Return ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w16-sort-allpassed607080",
+            labelEn: "all_passed([60, 70, 80])",
+            labelMy: "all_passed([60, 70, 80])",
+            correctBucketEn: "Returns True",
+            correctBucketMy: "True ကို Return ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w16-sort-allpassed304080",
+            labelEn: "all_passed([30, 40, 80])",
+            labelMy: "all_passed([30, 40, 80])",
+            correctBucketEn: "Returns False",
+            correctBucketMy: "False ကို Return ပြန်ပေးသည်",
+          ),
+          SortingItem(
+            id: "w16-sort-isteen19",
+            labelEn: "is_teenager(19)",
+            labelMy: "is_teenager(19)",
+            correctBucketEn: "Returns True",
+            correctBucketMy: "True ကို Return ပြန်ပေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w16-d4",
+      dayNumber: 4,
+      titleEn: "Aung Kyaw's Report Card Checker",
+      titleMy: "အောင်ကျော်၏ Report Card စစ်ဆေးမည့် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Kyaw's Report Card Checker",
+        titleMy: "အောင်ကျော်၏ Report Card စစ်ဆေးမည့် ပရိုဂရမ်",
+        passageEn:
+            "For his end-of-term project, Aung Kyaw combined everything he had learned across the whole year: lists from Term 1, functions and return values from Term 2, and Boolean logic from this term. He wrote a function called all_passed(scores) that took a list of exam scores as a parameter. Inside, he used a loop -- reusing the accumulator pattern from Term 1 -- to check every score one at a time. For each score, an if-statement asked: is this score below 50? If it ever found a score below 50, the function immediately returned False, since even one failing score meant not every score had passed. If the loop finished checking every score without finding a single one below 50, the function returned True at the end. He tested all_passed([60, 70, 80]): every score was at least 50, so the loop finished without returning False early, and the function returned True. Then he tested all_passed([30, 40, 80]): as soon as the loop reached 30, the if-statement was True (30 was below 50), so the function immediately returned False, without even checking 40 or 80. Aung Kyaw also wrote a second Boolean function, is_teenager(age), returning age >= 13 and age <= 19 -- a compound condition from this same term -- to check library membership eligibility. Calling is_teenager(15) returned True, while is_teenager(25) returned False. Aung Kyaw realized his whole year of computing had led to this: lists to hold data, functions to organize logic and return an answer, and Boolean values to make that answer a clear True or False.",
+        passageMy:
+            "နှစ်ကုန်စီမံကိန်းအတွက် အောင်ကျော်သည် တစ်နှစ်တာ သင်ယူခဲ့သမျှကို ပေါင်းစပ်ခဲ့သည် - Term 1 မှ list များ၊ Term 2 မှ function များနှင့် return value များ၊ ထို့ပြင် ဤ Term မှ Boolean logic။ သူသည် exam score list တစ်ခုကို parameter အဖြစ်ယူသော all_passed(scores) ဟူသော function တစ်ခု ရေးခဲ့သည်။ ၎င်းအတွင်း Term 1 ၏ accumulator pattern ကို ပြန်လည်အသုံးချကာ score တိုင်းကို တစ်ခုချင်းစစ်ဆေးရန် loop တစ်ခု သုံးခဲ့သည်။ Score တစ်ခုစီအတွက် if-statement က ဤ score သည် 50 အောက်ရှိသလားဟု မေးခွန်းထုတ်ခဲ့သည်။ 50 အောက်ရှိသော score တစ်ခုတွေ့ပါက function သည် ချက်ချင်း False ကို return ပြန်ပေးခဲ့သည်၊ အဘယ်ကြောင့်ဆိုသော် score တစ်ခုတည်း ကျရှုံးလျှင်ပင် score တိုင်း အောင်မြင်ခြင်း မဖြစ်တော့သောကြောင့်ဖြစ်သည်။ Loop သည် 50 အောက် score တစ်ခုမျှ မတွေ့ဘဲ score တိုင်းကို စစ်ဆေးပြီးလျှင် function သည် အဆုံးတွင် True ကို return ပြန်ပေးခဲ့သည်။ သူသည် all_passed([60, 70, 80]) ကို စမ်းသပ်ခဲ့သည် - score တိုင်း 50 အနည်းဆုံးရှိသောကြောင့် loop သည် False အစောကြိုမပြန်ဘဲ ပြီးဆုံးသွားပြီး function က True ကို return ပြန်ပေးခဲ့သည်။ ထို့နောက် all_passed([30, 40, 80]) ကို ထပ်စမ်းသပ်ခဲ့သည် - loop သည် 30 သို့ရောက်သည်နှင့် if-statement သည် True ဖြစ်သွားခဲ့သည် (30 သည် 50 အောက်ဖြစ်သောကြောင့်) ထို့ကြောင့် function သည် 40 နှင့် 80 ကိုပင် မစစ်ဆေးတော့ဘဲ ချက်ချင်း False ကို return ပြန်ပေးခဲ့သည်။ အောင်ကျော်သည် is_teenager(age) ဟူသော Boolean function ဒုတိယတစ်ခုကိုလည်း ရေးခဲ့ပြီး၊ library membership အရည်အချင်းစစ်ဆေးရန် ဤ Term မှ compound condition ဖြစ်သော age >= 13 and age <= 19 ကို return ပြန်ပေးခဲ့သည်။ is_teenager(15) ကို call ခေါ်ခြင်းက True ကို ပြန်ပေးခဲ့ပြီး is_teenager(25) ကမူ False ကို ပြန်ပေးခဲ့သည်။ အောင်ကျော်သည် သူ၏ ကွန်ပျူတာနှစ်တစ်နှစ်လုံးသည် ဤနေရာသို့ ဦးတည်ခဲ့ကြောင်း သဘောပေါက်လိုက်သည် - data ထားရန် list များ၊ logic စီစဉ်ပြီး အဖြေတစ်ခု return ပြန်ပေးရန် function များ၊ ထို့နောက် အဖြေကို True (သို့) False ရှင်းလင်းစွာဖြစ်စေရန် Boolean value များ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What three things did Aung Kyaw combine in his all_passed(scores) function?",
+            questionMy:
+                "အောင်ကျော်သည် သူ၏ all_passed(scores) function တွင် ဘာသုံးခုကို ပေါင်းစပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Lists, functions/return values, and Boolean logic",
+              "Only printing statements",
+              "Only variables with no loop",
+              "A single number with no list",
+            ],
+            optionsMy: [
+              "List များ၊ function/return value များနှင့် Boolean logic",
+              "Print statement များသာ",
+              "Loop မပါသော variable များသာ",
+              "List မပါသော ဂဏန်းတစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did all_passed(scores) do as soon as it found a score below 50?",
+            questionMy:
+                "50 အောက် score တစ်ခုတွေ့သည်နှင့် all_passed(scores) က ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "It kept checking the rest of the list first",
+              "It immediately returned False",
+              "It immediately returned True",
+              "It deleted the list",
+            ],
+            optionsMy: [
+              "List ၏ ကျန်အစိတ်အပိုင်းကို ဆက်စစ်ဆေးနေသည်",
+              "ချက်ချင်း False ကို return ပြန်ပေးသည်",
+              "ချက်ချင်း True ကို return ပြန်ပေးသည်",
+              "List ကို ဖျက်ပစ်သည်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What did all_passed([60, 70, 80]) return, and why?",
+            questionMy:
+                "all_passed([60, 70, 80]) သည် ဘာပြန်ပေးခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "False, because one score was below 50",
+              "True, because every score was at least 50",
+              "60, the first score in the list",
+              "Error, because the list was too short",
+            ],
+            optionsMy: [
+              "False ဖြစ်သည်၊ score တစ်ခု 50 အောက်ဖြစ်သောကြောင့်",
+              "True ဖြစ်သည်၊ score တိုင်း 50 အနည်းဆုံးရှိသောကြောင့်",
+              "60 ဖြစ်သည်၊ list ၏ ပထမ score ဖြစ်သောကြောင့်",
+              "Error ဖြစ်သည်၊ list တိုလွန်းသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "When testing all_passed([30, 40, 80]), what happened as soon as the loop reached 30?",
+            questionMy:
+                "all_passed([30, 40, 80]) ကို စမ်းသပ်ရာတွင် loop သည် 30 သို့ရောက်သည်နှင့် ဘာဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "The function returned False immediately, without checking 40 or 80",
+              "The function returned True immediately",
+              "The function skipped 30 and moved on",
+              "The function crashed",
+            ],
+            optionsMy: [
+              "Function သည် 40 (သို့) 80 ကိုပင် မစစ်ဆေးတော့ဘဲ ချက်ချင်း False ကို return ပြန်ပေးခဲ့သည်",
+              "Function သည် ချက်ချင်း True ကို return ပြန်ပေးခဲ့သည်",
+              "Function သည် 30 ကို ကျော်ပြီး ဆက်သွားသည်",
+              "Function သည် crash ဖြစ်သွားသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did is_teenager(25) return, and why?",
+            questionMy:
+                "is_teenager(25) သည် ဘာပြန်ပေးခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "True, because 25 is a valid age",
+              "False, because 25 <= 19 was False, so the compound condition was False",
+              "True, because 25 >= 13 was True",
+              "Error, because functions cannot use compound conditions",
+            ],
+            optionsMy: [
+              "True ဖြစ်သည်၊ 25 သည် သင့်တော်သော အသက်ဖြစ်သောကြောင့်",
+              "False ဖြစ်သည်၊ 25 <= 19 သည် False ဖြစ်သဖြင့် compound condition သည် False ဖြစ်ခဲ့သောကြောင့်",
+              "True ဖြစ်သည်၊ 25 >= 13 သည် True ဖြစ်သောကြောင့်",
+              "Error ဖြစ်သည်၊ function များသည် compound condition မသုံးနိုင်သောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Recap Quiz",
+      titleMy: "Term 4 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What can a Boolean value be?",
+          questionMy: "Boolean value တစ်ခုသည် ဘာဖြစ်နိုင်သနည်း။",
+          optionsEn: ["True or False only", "Any number", "Any text", "A list"],
+          optionsMy: [
+            "True (သို့) False သာ",
+            "ဂဏန်းမည်သည့်ကိန်းမဆို",
+            "text မည်သည့်အရာမဆို",
+            "list တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does a truth table do?",
+          questionMy: "Truth table တစ်ခုသည် ဘာလုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Lists every possible combination of inputs and their output",
+            "Stores exam scores",
+            "Deletes conditions",
+            "Runs a loop forever",
+          ],
+          optionsMy: [
+            "Input ဖြစ်နိုင်သမျှ ပေါင်းစပ်မှုအားလုံးနှင့် ၎င်းတို့၏ output ကို စာရင်းပြုစုသည်",
+            "စာမေးပွဲ score များကို သိမ်းဆည်းသည်",
+            "Condition များကို ဖျက်ပစ်သည်",
+            "Loop ကို အဆုံးမရှိ run သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "`if age >= 13 and age <= 19:` -- for age = 14, what is the result?",
+          questionMy:
+              "`if age >= 13 and age <= 19:` -- age = 14 ဖြစ်ပါက ရလဒ်က အဘယ်နည်း။",
+          optionsEn: ["False", "True", "Error", "Undefined"],
+          optionsMy: ["False", "True", "Error", "Undefined"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "A Boolean function like is_teenager(age) returns what?",
+          questionMy:
+              "is_teenager(age) ကဲ့သို့ Boolean function တစ်ခုသည် ဘာကို return ပြန်ပေးသနည်း။",
+          optionsEn: ["True or False", "Only a list", "Only text", "Nothing"],
+          optionsMy: [
+            "True (သို့) False",
+            "list တစ်ခုသာ",
+            "text သာ",
+            "ဘာမျှ မပြန်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did this term (Boolean Logic and Truth Tables) build on from earlier terms?",
+          questionMy:
+              "ဤ Term (Boolean Logic and Truth Tables) သည် ယခင် Term များမှ ဘာအပေါ် အခြေခံ တည်ဆောက်ခဲ့သနည်း။",
+          optionsEn: [
+            "Selection/if-statements from Secondary 1, and functions/return values from Term 2",
+            "Nothing from earlier terms",
+            "Only nursery-level counting",
+            "Only file organization skills",
+          ],
+          optionsMy: [
+            "Secondary 1 မှ selection/if-statement များနှင့် Term 2 မှ function/return value များ",
+            "ယခင် Term များမှ မည်သည့်အရာမျှ မပါ",
+            "Nursery အဆင့် ရေတွက်ခြင်းသာ",
+            "ဖိုင်စီစဉ်ခြင်း ကျွမ်းကျင်မှုသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 5, Week 17: "Strings Are Sequences Too"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
+  id: "course-secondary2-computing-w17",
+  weekNumber: 17,
+  titleEn: "Strings Are Sequences Too",
+  titleMy: "String များသည်လည်း Sequence များပင်ဖြစ်သည်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w17-d1",
+      dayNumber: 1,
+      titleEn: "What is a String?",
+      titleMy: "String ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a string in programming?",
+          questionMy: "Programming တွင် string ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A piece of text data, usually written inside quotes",
+            "A whole number only",
+            "A list of Boolean values",
+            "A picture stored in a variable",
+          ],
+          optionsMy: [
+            "ပုံမှန်အားဖြင့် quotes အတွင်းရေးသားသော text data တစ်ခု",
+            "ဂဏန်း (whole number) တစ်ခုသာ",
+            "Boolean value များပါသော list တစ်ခု",
+            "Variable တစ်ခုတွင် သိမ်းထားသော ပုံတစ်ပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Term 1 taught that a list's items each have a zero-based index. For name = \"Htet\", what is name[0]?",
+          questionMy:
+              "Term 1 က list တစ်ခု၏ item တိုင်းတွင် zero-based index ရှိကြောင်း သင်ခဲ့သည်။ name = \"Htet\" ဆိုပါက name[0] က အဘယ်နည်း။",
+          optionsEn: ["\"H\"", "\"t\"", "\"Htet\"", "0"],
+          optionsMy: ["\"H\"", "\"t\"", "\"Htet\"", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For name = \"Htet\", what does len(name) return?",
+          questionMy: "name = \"Htet\" ဆိုပါက len(name) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["4", "3", "\"Htet\"", "0"],
+          optionsMy: ["4", "3", "\"Htet\"", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How are strings usually written in code so the computer knows they are text and not a variable name?",
+          questionMy:
+              "Computer က variable name မဟုတ်ဘဲ text ဖြစ်ကြောင်း သိစေရန် string များကို code တွင် မည်သို့ပုံမှန်ရေးသားလေ့ရှိသနည်း။",
+          optionsEn: [
+            "Inside quotes, like \"Htet\" or 'Htet'",
+            "Inside square brackets, like [Htet]",
+            "With a dollar sign, like \$Htet",
+            "In all capital letters with no quotes",
+          ],
+          optionsMy: [
+            "\"Htet\" သို့မဟုတ် 'Htet' ကဲ့သို့ quotes အတွင်း",
+            "[Htet] ကဲ့သို့ square bracket အတွင်း",
+            "\$Htet ကဲ့သို့ dollar sign ဖြင့်",
+            "Quotes မပါဘဲ စာလုံးအကြီးသက်သက်ဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For name = \"Htet\", what is name[3], and what does that tell you about how indexing works?",
+          questionMy:
+              "name = \"Htet\" ဆိုပါက name[3] က အဘယ်နည်း၊ ၎င်းက indexing အလုပ်လုပ်ပုံအကြောင်း ဘာသင်ခန်းစာပေးသနည်း။",
+          optionsEn: [
+            "\"t\" -- the last character, because index 3 is the 4th character in a 4-character string starting at 0",
+            "\"H\" -- indexing restarts from the end",
+            "\"Htet\" -- the whole string",
+            "There is no name[3]; strings cannot be indexed",
+          ],
+          optionsMy: [
+            "\"t\" ဖြစ်သည် -- 0 မှစသော 4-လုံးပါ string တစ်ခုတွင် index 3 သည် 4 လုံးမြောက်ဖြစ်သောကြောင့် နောက်ဆုံးအက္ခရာဖြစ်သည်",
+            "\"H\" ဖြစ်သည် -- indexing သည် အဆုံးမှပြန်စသည်",
+            "\"Htet\" ဖြစ်သည် -- string တစ်ခုလုံး",
+            "name[3] ဟူ၍ မရှိပါ၊ string များကို index မလုပ်နိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w17-d2",
+      dayNumber: 2,
+      titleEn: "String Vocabulary",
+      titleMy: "String ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w17-str-string",
+          termEn: "String",
+          termMy: "String",
+          matchEn: "A piece of text data, usually written inside quotes",
+          matchMy: "ပုံမှန်အားဖြင့် quotes အတွင်းရေးသားသော text data",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w17-str-character",
+          termEn: "Character",
+          termMy: "Character",
+          matchEn: "A single letter, digit, symbol, or space inside a string",
+          matchMy: "String တစ်ခုအတွင်းရှိ စာလုံး၊ ဂဏန်း၊ သင်္ကေတ (သို့) space တစ်ခုတည်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w17-str-index",
+          termEn: "Index",
+          termMy: "Index",
+          matchEn:
+              "A character's zero-based position number inside a string, same idea as a list's item positions",
+          matchMy:
+              "String တစ်ခုအတွင်းရှိ character တစ်ခု၏ 0-မှစသော position နံပါတ် -- list ၏ item position အယူအဆအတိုင်းပင်ဖြစ်သည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w17-str-quotes",
+          termEn: "Quotes",
+          termMy: "Quotes",
+          matchEn:
+              "The \" \" or ' ' marks placed around text to show the computer it is a string",
+          matchMy:
+              "Computer အား text ဖြစ်ကြောင်းပြသရန် text ၏ ပတ်လည်တွင် ထားသော \" \" (သို့) ' ' သင်္ကေတများ",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w17-str-length",
+          termEn: "Length",
+          termMy: "Length",
+          matchEn:
+              "The number of characters in a string, found using len()",
+          matchMy: "String တစ်ခုအတွင်းရှိ character အရေအတွက်၊ len() ဖြင့်ရှာသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w17-d3",
+      dayNumber: 3,
+      titleEn: "List Index or String Index?",
+      titleMy: "List Index လား String Index လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Indexing a List", "Indexing a String"],
+        bucketsMy: ["List ကို Index လုပ်ခြင်း", "String ကို Index လုပ်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "w17-sort-fruitslist",
+            labelEn: "fruits[0] where fruits = [\"mango\", \"banana\"]",
+            labelMy: "fruits[0], fruits = [\"mango\", \"banana\"] ဖြစ်ပါက",
+            correctBucketEn: "Indexing a List",
+            correctBucketMy: "List ကို Index လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w17-sort-namestring",
+            labelEn: "name[0] where name = \"Htet\"",
+            labelMy: "name[0], name = \"Htet\" ဖြစ်ပါက",
+            correctBucketEn: "Indexing a String",
+            correctBucketMy: "String ကို Index လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w17-sort-scoreslist",
+            labelEn: "scores[2] where scores = [60, 70, 80]",
+            labelMy: "scores[2], scores = [60, 70, 80] ဖြစ်ပါက",
+            correctBucketEn: "Indexing a List",
+            correctBucketMy: "List ကို Index လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w17-sort-wordstring",
+            labelEn: "word[3] where word = \"cat\"",
+            labelMy: "word[3], word = \"cat\" ဖြစ်ပါက",
+            correctBucketEn: "Indexing a String",
+            correctBucketMy: "String ကို Index လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w17-sort-citieslist",
+            labelEn: "cities[1] where cities = [\"Yangon\", \"Mandalay\"]",
+            labelMy: "cities[1], cities = [\"Yangon\", \"Mandalay\"] ဖြစ်ပါက",
+            correctBucketEn: "Indexing a List",
+            correctBucketMy: "List ကို Index လုပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "w17-sort-greetingstring",
+            labelEn: "greeting[1] where greeting = \"Hi\"",
+            labelMy: "greeting[1], greeting = \"Hi\" ဖြစ်ပါက",
+            correctBucketEn: "Indexing a String",
+            correctBucketMy: "String ကို Index လုပ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w17-d4",
+      dayNumber: 4,
+      titleEn: "Su Su's Name Badge Program",
+      titleMy: "စုစု၏ Name Badge ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Name Badge Program",
+        titleMy: "စုစု၏ Name Badge ပရိုဂရမ်",
+        passageEn:
+            "Su Su had spent Term 1 learning about lists: how fruits = [\"mango\", \"banana\", \"papaya\"] stored many values, and how fruits[0] gave back the first item using a zero-based index. This term, her teacher wrote name = \"Htet\" on the board and asked the class what name[0] would be. Su Su thought about it the same way she thought about lists -- if a list's first item lived at index 0, maybe a string's first character did too. She guessed \"H\", and she was right. Her teacher explained that a string is really just a sequence of characters, indexed exactly the same zero-based way a list is indexed, except each position holds a single character instead of a whole list item. Su Su tried more examples: name[1] was \"t\", name[2] was \"e\", and name[3] was \"t\" again -- the last character, since \"Htet\" had exactly 4 characters at indexes 0, 1, 2, and 3. She checked this using len(name), which returned 4, confirming there were 4 characters and that index 3 was indeed the final valid position. For her class project, Su Su wrote a simple name badge program: it stored student_name = \"Su Su\" and printed a welcome message using student_name[0] to show just the first letter as a big initial on the badge, alongside len(student_name) to size the badge text correctly. She realized strings weren't some brand new idea -- they followed the exact same indexing rules as the lists she already knew from Term 1, just applied to individual characters of text instead of list items.",
+        passageMy:
+            "စုစုသည် Term 1 တွင် list များအကြောင်း သင်ယူခဲ့ဖူးသည် -- fruits = [\"mango\", \"banana\", \"papaya\"] က တန်ဖိုးများစွာကို မည်သို့သိမ်းဆည်းသည်၊ fruits[0] က zero-based index ကိုသုံး၍ ပထမဆုံး item ကို မည်သို့ပြန်ပေးသည် စသဖြင့်ဖြစ်သည်။ ဤ Term တွင် ဆရာမက board ပေါ်တွင် name = \"Htet\" ဟုရေးပြီး class ကို name[0] က ဘာဖြစ်မည်နည်းဟု မေးခဲ့သည်။ စုစုသည် list များအတွက် တွေးခဲ့သလိုပင် တွေးကြည့်ခဲ့သည် -- list တစ်ခု၏ ပထမဆုံး item သည် index 0 တွင်ရှိလျှင် string တစ်ခု၏ ပထမဆုံး character သည်လည်း ထိုနေရာတွင်ရှိနိုင်သည်။ သူမက \"H\" ဟု ခန့်မှန်းခဲ့ပြီး မှန်ကန်ခဲ့သည်။ ဆရာမက string တစ်ခုသည် character sequence တစ်ခုသာဖြစ်ပြီး list ကို index လုပ်သကဲ့သို့ပင် zero-based စနစ်ဖြင့် index လုပ်ကြောင်း၊ သို့သော် position တစ်ခုစီတွင် list item တစ်ခုလုံးအစား character တစ်ခုတည်းသာ ထားရှိကြောင်း ရှင်းပြခဲ့သည်။ စုစုသည် နောက်ထပ် ဥပမာများ စမ်းကြည့်ခဲ့သည် -- name[1] သည် \"t\" ဖြစ်ပြီး name[2] သည် \"e\" ဖြစ်ကာ name[3] သည် \"t\" ထပ်ဖြစ်ခဲ့သည် -- \"Htet\" သည် index 0၊ 1၊ 2၊ 3 တွင် character 4 လုံးအတိအကျရှိသောကြောင့် နောက်ဆုံးအက္ခရာဖြစ်သည်။ သူမသည် ၎င်းကို len(name) ဖြင့် စစ်ဆေးခဲ့ပြီး 4 ကို ပြန်ရရှိကာ character 4 လုံးရှိကြောင်းနှင့် index 3 သည် နောက်ဆုံး valid position အမှန်ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။ Class project အတွက် စုစုသည် ရိုးရှင်းသော name badge ပရိုဂရမ်တစ်ခု ရေးခဲ့သည် -- ၎င်းက student_name = \"Su Su\" ကို သိမ်းဆည်းပြီး badge ပေါ်တွင် ပထမဆုံးအက္ခရာကို initial အကြီးအဖြစ်ပြသရန် student_name[0] ကိုသုံး၍ ကြိုဆိုစာ print ထုတ်ခဲ့ပြီး၊ badge text အရွယ်အစားမှန်ကန်စေရန် len(student_name) ကိုပါ တွဲသုံးခဲ့သည်။ String များသည် လုံးဝ အသစ်သော idea တစ်ခုမဟုတ်ဘဲ Term 1 က သူမ သိပြီးသား list များ၏ indexing စည်းမျဉ်းအတိုင်းပင် text ၏ character တစ်ခုစီအပေါ် အသုံးချထားခြင်းသာဖြစ်ကြောင်း သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "For name = \"Htet\", what did Su Su correctly guess name[0] would be, and why?",
+            questionMy: "name = \"Htet\" ဆိုပါက စုစုသည် name[0] ကို ဘာဖြစ်မည်ဟု မှန်ကန်စွာ ခန့်မှန်းခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "\"H\", because she reasoned strings use zero-based indexing just like lists",
+              "\"t\", because indexing always starts from the second character",
+              "\"Htet\", because indexing always returns the whole string",
+              "She could not guess at all",
+            ],
+            optionsMy: [
+              "\"H\" ဖြစ်သည်၊ string များသည် list များကဲ့သို့ zero-based indexing သုံးကြောင်း သူမ ဆင်ခြင်ခဲ့သောကြောင့်",
+              "\"t\" ဖြစ်သည်၊ indexing သည် ဒုတိယအက္ခရာမှ အမြဲစတင်သောကြောင့်",
+              "\"Htet\" ဖြစ်သည်၊ indexing သည် string တစ်ခုလုံးကို အမြဲပြန်ပေးသောကြောင့်",
+              "လုံးဝ ခန့်မှန်းနိုင်ခဲ့ခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did len(name) return for name = \"Htet\", and what did that confirm?",
+            questionMy: "name = \"Htet\" အတွက် len(name) က ဘာပြန်ပေးခဲ့ပြီး ဘာကို အတည်ပြုခဲ့သနည်း။",
+            optionsEn: [
+              "4, confirming there were 4 characters and index 3 was the final valid position",
+              "3, confirming there were 3 characters only",
+              "\"Htet\", confirming the string's content",
+              "0, confirming the string was empty",
+            ],
+            optionsMy: [
+              "4 ဖြစ်ပြီး character 4 လုံးရှိကြောင်းနှင့် index 3 သည် နောက်ဆုံး valid position ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်",
+              "3 ဖြစ်ပြီး character 3 လုံးသာရှိကြောင်း အတည်ပြုခဲ့သည်",
+              "\"Htet\" ဖြစ်ပြီး string ၏ content ကို အတည်ပြုခဲ့သည်",
+              "0 ဖြစ်ပြီး string သည် ဗလာဖြစ်ကြောင်း အတည်ပြုခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, how is a string best described?",
+            questionMy: "ဇာတ်လမ်းအရ string တစ်ခုကို မည်သို့ဖော်ပြအကောင်းဆုံးနည်း။",
+            optionsEn: [
+              "A sequence of characters, indexed the same zero-based way as a list",
+              "A type of Boolean value",
+              "A function that returns True or False",
+              "A kind of number with decimal points",
+            ],
+            optionsMy: [
+              "List ကို index လုပ်သည့်နည်းအတိုင်း zero-based indexed ဖြစ်သော character sequence တစ်ခု",
+              "Boolean value အမျိုးအစားတစ်ခု",
+              "True (သို့) False ကို return ပြန်ပေးသော function တစ်ခု",
+              "Decimal point ပါသော ဂဏန်းအမျိုးအစားတစ်ခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "In Su Su's name badge program, what was student_name[0] used for?",
+            questionMy: "စုစု၏ name badge ပရိုဂရမ်တွင် student_name[0] ကို ဘာအတွက်သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "To show just the first letter as a big initial on the badge",
+              "To delete the student's name",
+              "To count how many students there were",
+              "To store the student's whole name in a list",
+            ],
+            optionsMy: [
+              "Badge ပေါ်တွင် ပထမဆုံးအက္ခရာကို initial အကြီးအဖြစ် ပြသရန်",
+              "ကျောင်းသား၏ နာမည်ကို ဖျက်ပစ်ရန်",
+              "ကျောင်းသား ဦးရေ မည်မျှရှိသည်ကို ရေတွက်ရန်",
+              "ကျောင်းသား၏ နာမည်တစ်ခုလုံးကို list တစ်ခုတွင် သိမ်းဆည်းရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What connection does the passage draw between Term 1's lists and this term's strings?",
+            questionMy: "Term 1 ၏ list များနှင့် ဤ Term ၏ string များကြား ဇာတ်လမ်းက မည်သည့်ဆက်နွယ်မှုကို ဖော်ပြသနည်း။",
+            optionsEn: [
+              "Both use the exact same zero-based indexing idea -- lists index items, strings index characters",
+              "They are completely unrelated concepts",
+              "Lists use one-based indexing while strings use zero-based indexing",
+              "Strings replaced lists entirely this term",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် တူညီသော zero-based indexing idea ကိုသုံးသည် -- list များက item များကို index လုပ်ပြီး string များက character များကို index လုပ်သည်",
+              "လုံးဝ ဆက်နွယ်မှုမရှိသော concept များဖြစ်သည်",
+              "List များသည် one-based indexing သုံးပြီး string များသည် zero-based indexing သုံးသည်",
+              "ဤ Term တွင် string များက list များကို လုံးဝအစားထိုးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap Quiz",
+      titleMy: "Week 17 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a string?",
+          questionMy: "String ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A piece of text data",
+            "A Boolean value",
+            "A whole number",
+            "A truth table",
+          ],
+          optionsMy: [
+            "Text data တစ်ခု",
+            "Boolean value တစ်ခု",
+            "ဂဏန်း (whole number) တစ်ခု",
+            "Truth table တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For word = \"cat\", what is word[0]?",
+          questionMy: "word = \"cat\" ဆိုပါက word[0] က အဘယ်နည်း။",
+          optionsEn: ["\"a\"", "\"c\"", "\"t\"", "\"cat\""],
+          optionsMy: ["\"a\"", "\"c\"", "\"t\"", "\"cat\""],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "For word = \"cat\", what does len(word) return?",
+          questionMy: "word = \"cat\" ဆိုပါက len(word) က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["2", "3", "4", "\"cat\""],
+          optionsMy: ["2", "3", "4", "\"cat\""],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Strings are indexed using what kind of numbering?",
+          questionMy: "String များကို မည်သည့် နံပါတ်စဉ်စနစ်ဖြင့် index လုပ်သနည်း။",
+          optionsEn: [
+            "One-based (starting at 1)",
+            "Zero-based (starting at 0)",
+            "Random numbering",
+            "Strings cannot be indexed",
+          ],
+          optionsMy: [
+            "One-based (1 မှစသော)",
+            "Zero-based (0 မှစသော)",
+            "အလွတ်သဘော နံပါတ်စဉ်",
+            "String များကို index မလုပ်နိုင်ပါ",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "How are strings usually written so the computer recognizes them as text?",
+          questionMy: "Computer က text အဖြစ်မှတ်သားရန် string များကို မည်သို့ ပုံမှန်ရေးသားသနည်း။",
+          optionsEn: [
+            "Inside square brackets",
+            "Inside quotes",
+            "In all lowercase with no punctuation",
+            "With a hashtag in front",
+          ],
+          optionsMy: [
+            "Square bracket အတွင်း",
+            "Quotes အတွင်း",
+            "Punctuation မပါဘဲ စာလုံးအသေးသက်သက်ဖြင့်",
+            "ရှေ့တွင် hashtag ဖြင့်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Computing -- Term 5, Week 18: "Joining and Changing Text"
+// =====================================================================
+
+const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
+  id: "course-secondary2-computing-w18",
+  weekNumber: 18,
+  titleEn: "Joining and Changing Text",
+  titleMy: "စာသားများ ပေါင်းစပ်ခြင်းနှင့် ပြောင်းလဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s2-computing-w18-d1",
+      dayNumber: 1,
+      titleEn: "Concatenation and String Methods",
+      titleMy: "Concatenation နှင့် String Method များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If first_name = \"Thura\" and last_name = \"Kyaw\", what does first_name + \" \" + last_name produce?",
+          questionMy:
+              "first_name = \"Thura\", last_name = \"Kyaw\" ဆိုပါက first_name + \" \" + last_name သည် ဘာထုတ်ပေးသနည်း။",
+          optionsEn: [
+            "\"Thura Kyaw\"",
+            "\"ThuraKyaw\"",
+            "\"Kyaw Thura\"",
+            "An error, because strings cannot use +",
+          ],
+          optionsMy: [
+            "\"Thura Kyaw\"",
+            "\"ThuraKyaw\"",
+            "\"Kyaw Thura\"",
+            "Error ဖြစ်သည်၊ string များတွင် + သုံး၍မရသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does \"thura\".upper() produce?",
+          questionMy: "\"thura\".upper() သည် ဘာထုတ်ပေးသနည်း။",
+          optionsEn: ["\"THURA\"", "\"thura\"", "\"Thura\"", "An error"],
+          optionsMy: ["\"THURA\"", "\"thura\"", "\"Thura\"", "Error တစ်ခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Joining two or more strings together, like first_name + \" \" + last_name, is called what?",
+          questionMy:
+              "first_name + \" \" + last_name ကဲ့သို့ string နှစ်ခု (သို့) ထို့ထက်ပိုသော string များကို ပေါင်းစပ်ခြင်းကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["Concatenation", "Slicing", "Sorting", "Searching"],
+          optionsMy: ["Concatenation", "Slicing", "Sorting", "Searching"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If name = \"Htet\", why can't you write name[0] = \"J\" to change the first letter directly?",
+          questionMy:
+              "name = \"Htet\" ဆိုပါက ပထမအက္ခရာကို တိုက်ရိုက်ပြောင်းရန် name[0] = \"J\" ဟုအဘယ့်ကြောင့် ရေး၍မရသနည်း။",
+          optionsEn: [
+            "Strings are immutable -- you make a new string instead of editing the old one in place",
+            "Because name is a list, not a string",
+            "Because \"J\" is not a valid letter",
+            "Because .upper() must be called first",
+          ],
+          optionsMy: [
+            "String များသည် immutable ဖြစ်သောကြောင့် -- ဟောင်းသောတစ်ခုကို တိုက်ရိုက်ပြင်မည့်အစား string အသစ်တစ်ခု ဖန်တီးရသည်",
+            "name သည် string မဟုတ်ဘဲ list ဖြစ်သောကြောင့်",
+            "\"J\" သည် သင့်တော်သော အက္ခရာ မဟုတ်သောကြောင့်",
+            ".upper() ကို ဦးစွာ ခေါ်ရမည်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If greeting = \"HELLO\", what does greeting.lower() produce, and does it change greeting itself?",
+          questionMy:
+              "greeting = \"HELLO\" ဆိုပါက greeting.lower() သည် ဘာထုတ်ပေးပြီး greeting ကိုယ်တိုင်ကို ပြောင်းလဲစေသလား။",
+          optionsEn: [
+            "It produces \"hello\" as a new string; greeting itself stays \"HELLO\" unless reassigned",
+            "It produces \"hello\" and permanently changes greeting to \"hello\"",
+            "It produces \"HELLO\" unchanged",
+            "It causes an error because greeting is already uppercase",
+          ],
+          optionsMy: [
+            "\"hello\" ကို string အသစ်အဖြစ် ထုတ်ပေးပြီး ပြန်၍ assign မလုပ်လျှင် greeting ကိုယ်တိုင်က \"HELLO\" အတိုင်းသာရှိသည်",
+            "\"hello\" ကို ထုတ်ပေးပြီး greeting ကို \"hello\" အဖြစ် အမြဲတမ်းပြောင်းလဲစေသည်",
+            "\"HELLO\" အတိုင်း မပြောင်းလဲဘဲ ထုတ်ပေးသည်",
+            "greeting သည် uppercase ဖြစ်နှင့်ပြီးသားဖြစ်၍ error ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w18-d2",
+      dayNumber: 2,
+      titleEn: "Joining and Changing Text Vocabulary",
+      titleMy: "စာသားပေါင်းစပ်ခြင်းနှင့် ပြောင်းလဲခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w18-str-concatenate",
+          termEn: "Concatenate",
+          termMy: "Concatenate",
+          matchEn:
+              "To join two or more strings together into one, usually with the + operator",
+          matchMy:
+              "String နှစ်ခု (သို့) ထို့ထက်ပိုသည်ကို + operator ဖြင့် တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w18-str-upper",
+          termEn: ".upper()",
+          termMy: ".upper()",
+          matchEn: "A string method that returns a new, all-uppercase copy of a string",
+          matchMy:
+              "String တစ်ခု၏ စာလုံးအကြီးအားလုံးဖြင့်ပြန်လည်ရေးသားထားသော copy အသစ်တစ်ခု ပြန်ပေးသော string method",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w18-str-lower",
+          termEn: ".lower()",
+          termMy: ".lower()",
+          matchEn: "A string method that returns a new, all-lowercase copy of a string",
+          matchMy:
+              "String တစ်ခု၏ စာလုံးအသေးအားလုံးဖြင့်ပြန်လည်ရေးသားထားသော copy အသစ်တစ်ခု ပြန်ပေးသော string method",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w18-str-method",
+          termEn: "Method",
+          termMy: "Method",
+          matchEn:
+              "A built-in action you call on a value using a dot, like name.upper()",
+          matchMy:
+              "name.upper() ကဲ့သို့ dot သုံး၍ value တစ်ခုအပေါ် ခေါ်ခေါ် ဆောင်ရွက်သော built-in လုပ်ဆောင်ချက်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w18-str-immutable",
+          termEn: "Immutable",
+          termMy: "Immutable",
+          matchEn:
+              "Cannot be changed in place after being created -- editing a string always makes a new string instead",
+          matchMy:
+              "ဖန်တီးပြီးနောက် တိုက်ရိုက်ပြောင်းလဲ၍မရခြင်း -- string တစ်ခုကို ပြင်လိုလျှင် string အသစ်တစ်ခုသာ ဖန်တီးရသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w18-d3",
+      dayNumber: 3,
+      titleEn: "Valid or Invalid String Operation?",
+      titleMy: "String Operation မှန် မမှန်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Valid Operation", "Invalid -- Strings Are Immutable"],
+        bucketsMy: ["မှန်ကန်သော Operation", "မမှန် -- String များသည် Immutable ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "w18-sort-concatname",
+            labelEn: "first_name + \" \" + last_name",
+            labelMy: "first_name + \" \" + last_name",
+            correctBucketEn: "Valid Operation",
+            correctBucketMy: "မှန်ကန်သော Operation",
+          ),
+          SortingItem(
+            id: "w18-sort-upperfn",
+            labelEn: "name.upper()",
+            labelMy: "name.upper()",
+            correctBucketEn: "Valid Operation",
+            correctBucketMy: "မှန်ကန်သော Operation",
+          ),
+          SortingItem(
+            id: "w18-sort-lowerfn",
+            labelEn: "greeting.lower()",
+            labelMy: "greeting.lower()",
+            correctBucketEn: "Valid Operation",
+            correctBucketMy: "မှန်ကန်သော Operation",
+          ),
+          SortingItem(
+            id: "w18-sort-assignindex",
+            labelEn: "name[0] = \"J\"",
+            labelMy: "name[0] = \"J\"",
+            correctBucketEn: "Invalid -- Strings Are Immutable",
+            correctBucketMy: "မမှန် -- String များသည် Immutable ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w18-sort-assignword",
+            labelEn: "word[2] = \"x\"",
+            labelMy: "word[2] = \"x\"",
+            correctBucketEn: "Invalid -- Strings Are Immutable",
+            correctBucketMy: "မမှန် -- String များသည် Immutable ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "w18-sort-assigntitle",
+            labelEn: "title[0] = title[0].upper()",
+            labelMy: "title[0] = title[0].upper()",
+            correctBucketEn: "Invalid -- Strings Are Immutable",
+            correctBucketMy: "မမှန် -- String များသည် Immutable ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w18-d4",
+      dayNumber: 4,
+      titleEn: "Zin Mar's Contact Card Formatter",
+      titleMy: "ဇင်မာ၏ Contact Card ပုံစံချသည့် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Mar's Contact Card Formatter",
+        titleMy: "ဇင်မာ၏ Contact Card ပုံစံချသည့် ပရိုဂရမ်",
+        passageEn:
+            "Zin Mar was building a small program to format contact cards for her class directory. She stored each classmate's details as two separate strings, first_name and last_name, and used concatenation to join them into one display name: full_name = first_name + \" \" + last_name. For her friend Thura Kyaw, this produced \"Thura Kyaw\" -- exactly what she wanted to show on the card. Next, she wanted the card's heading to always appear in uppercase, so she called full_name.upper(), which produced \"THURA KYAW\" without ever changing full_name itself; the method just handed back a new, uppercase copy. For a search feature, she also wanted a lowercase version to compare names without worrying about capital letters, so she called full_name.lower(), producing \"thura kyaw\". While testing, Zin Mar noticed a typo: one classmate's first name had been entered as \"Htett\" instead of \"Htet\". Her first instinct was to try name[4] = \"\" to delete the extra letter directly, but Python raised an error. Her teacher explained that strings are immutable: once a string is created, you cannot change one of its characters in place. Instead, you have to build a brand-new string, for example by slicing the parts you want and concatenating them together, then assigning the result back to the same variable name. Zin Mar realized that .upper() and .lower() had been quietly following this same rule all along -- they never changed the original string, they always handed back a new one, which was exactly the immutable behavior her teacher was describing.",
+        passageMy:
+            "ဇင်မာသည် class directory အတွက် contact card များကို ပုံစံချရန် ပရိုဂရမ်ငယ်တစ်ခု တည်ဆောက်နေသည်။ သူမသည် classmate တစ်ဦးစီ၏ အချက်အလက်များကို first_name နှင့် last_name ဟူသော string သီးခြားနှစ်ခုအဖြစ် သိမ်းဆည်းထားပြီး ၎င်းတို့ကို concatenation သုံး၍ display name တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည် - full_name = first_name + \" \" + last_name။ သူမ၏ မိတ်ဆွေ Thura Kyaw အတွက် ၎င်းက \"Thura Kyaw\" ကို ထုတ်ပေးခဲ့ပြီး card ပေါ်တွင် ပြသလိုသည့်အတိုင်းပင်ဖြစ်ခဲ့သည်။ ထို့နောက် card ၏ heading ကို uppercase ဖြင့် အမြဲပြသလိုသဖြင့် full_name.upper() ကို ခေါ်ခဲ့ပြီး \"THURA KYAW\" ကို full_name ကိုယ်တိုင် လုံးဝမပြောင်းလဲဘဲ ထုတ်ပေးခဲ့သည် -- method သည် uppercase copy အသစ်တစ်ခုသာ ပြန်ပေးခဲ့ခြင်းဖြစ်သည်။ Search feature အတွက်လည်း စာလုံးအကြီးအသေးကို စိတ်မပူဘဲ နာမည်များကို နှိုင်းယှဉ်ရန် lowercase version တစ်ခု လိုအပ်သဖြင့် full_name.lower() ကို ခေါ်ကာ \"thura kyaw\" ကို ရရှိခဲ့သည်။ စမ်းသပ်နေစဉ် ဇင်မာသည် typo တစ်ခုကို တွေ့ခဲ့သည် - classmate တစ်ဦး၏ first name ကို \"Htet\" အစား \"Htett\" ဟု ရိုက်မိသွားခဲ့သည်။ သူမ၏ ပထမ တုန့်ပြန်မှုမှာ ပိုနေသော အက္ခရာကို တိုက်ရိုက်ဖျက်ရန် name[4] = \"\" ဟု စမ်းရေးကြည့်ခဲ့သော်လည်း Python က error တက်ခဲ့သည်။ ဆရာမက string များသည် immutable ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - string တစ်ခု ဖန်တီးပြီးသည်နှင့် ၎င်း၏ character တစ်ခုကို တိုက်ရိုက်ပြောင်းလဲ၍ မရတော့ပါ။ ယင်းအစား လိုချင်သော အစိတ်အပိုင်းများကို slice လုပ်ပြီး ပေါင်းစပ် (concatenate) ခြင်းဖြင့် string အသစ်လုံးဝတစ်ခုကို တည်ဆောက်ကာ ရလဒ်ကို variable name အတူတူပင် ပြန်လည် assign ပေးရမည်ဖြစ်သည်။ ဇင်မာသည် .upper() နှင့် .lower() တို့သည် ဤစည်းမျဉ်းအတိုင်းပင် တိတ်တဆိတ် လိုက်နာနေခဲ့ကြောင်း သဘောပေါက်လိုက်သည် -- ၎င်းတို့သည် မူရင်း string ကို ဘယ်တော့မှ မပြောင်းလဲဘဲ string အသစ်တစ်ခုသာ အမြဲပြန်ပေးခဲ့ခြင်းဖြစ်ပြီး ဆရာမ ဖော်ပြခဲ့သော immutable အပြုအမူအတိုင်းပင် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "How did Zin Mar join first_name and last_name into one display name?",
+            questionMy: "ဇင်မာသည် first_name နှင့် last_name ကို display name တစ်ခုအဖြစ် မည်သို့ ပေါင်းစပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Using concatenation: first_name + \" \" + last_name",
+              "By deleting last_name entirely",
+              "Using the .upper() method only",
+              "By slicing first_name into pieces",
+            ],
+            optionsMy: [
+              "Concatenation သုံး၍: first_name + \" \" + last_name",
+              "last_name ကို လုံးဝဖျက်ပစ်ခြင်းဖြင့်",
+              ".upper() method တစ်ခုတည်းသုံး၍",
+              "first_name ကို အပိုင်းများ slice လုပ်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did full_name.upper() do to full_name itself?",
+            questionMy: "full_name.upper() သည် full_name ကိုယ်တိုင်ကို ဘာဖြစ်စေခဲ့သနည်း။",
+            optionsEn: [
+              "Nothing -- it returned a new uppercase string without changing full_name",
+              "It permanently changed full_name to uppercase",
+              "It deleted full_name",
+              "It converted full_name into a list",
+            ],
+            optionsMy: [
+              "ဘာမျှမဖြစ်စေပါ -- full_name ကို မပြောင်းလဲဘဲ uppercase string အသစ်တစ်ခုသာ ပြန်ပေးခဲ့သည်",
+              "full_name ကို uppercase အဖြစ် အမြဲတမ်း ပြောင်းလဲစေခဲ့သည်",
+              "full_name ကို ဖျက်ပစ်ခဲ့သည်",
+              "full_name ကို list တစ်ခုအဖြစ် ပြောင်းလဲစေခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What happened when Zin Mar tried name[4] = \"\" to fix a typo?",
+            questionMy: "ဇင်မာသည် typo ပြင်ရန် name[4] = \"\" ဟု စမ်းရေးရာတွင် ဘာဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Python raised an error, because strings are immutable and cannot be changed in place",
+              "It worked perfectly with no issues",
+              "It converted the string into a number",
+              "It deleted the entire program",
+            ],
+            optionsMy: [
+              "String များသည် immutable ဖြစ်ပြီး တိုက်ရိုက်ပြောင်းလဲ၍မရသောကြောင့် Python က error တက်ခဲ့သည်",
+              "ပြဿနာမရှိဘဲ ကောင်းစွာအလုပ်လုပ်ခဲ့သည်",
+              "String ကို ဂဏန်းအဖြစ် ပြောင်းလဲစေခဲ့သည်",
+              "ပရိုဂရမ်တစ်ခုလုံးကို ဖျက်ပစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what must you do instead of editing a string in place?",
+            questionMy: "ဇာတ်လမ်းအရ string တစ်ခုကို တိုက်ရိုက်ပြင်မည့်အစား ဘာလုပ်ရမည်နည်း။",
+            optionsEn: [
+              "Build a brand-new string (e.g. by slicing and concatenating) and reassign it to the variable",
+              "Delete the variable permanently",
+              "Convert the string into a Boolean",
+              "Restart the whole program",
+            ],
+            optionsMy: [
+              "String အသစ်လုံးဝတစ်ခု (ဥပမာ - slice လုပ်ပြီး concatenate ခြင်းဖြင့်) တည်ဆောက်ပြီး variable သို့ ပြန်လည် assign ပေးရမည်",
+              "Variable ကို အပြီးတိုင် ဖျက်ပစ်ရမည်",
+              "String ကို Boolean အဖြစ် ပြောင်းလဲရမည်",
+              "ပရိုဂရမ်တစ်ခုလုံးကို ပြန်လည်စတင်ရမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Zin Mar realize .upper() and .lower() had in common with the immutable rule?",
+            questionMy: ".upper() နှင့် .lower() တို့သည် immutable စည်းမျဉ်းနှင့် မည်သို့ဆင်တူကြောင်း ဇင်မာ သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "They never changed the original string -- they always returned a new one, just like the immutable rule requires",
+              "They both delete the original string permanently",
+              "They both convert strings into lists",
+              "They have nothing in common with immutability",
+            ],
+            optionsMy: [
+              "မူရင်း string ကို ဘယ်တော့မှ မပြောင်းလဲဘဲ string အသစ်ကိုသာ အမြဲပြန်ပေးသည် -- immutable စည်းမျဉ်း လိုအပ်သည့်အတိုင်းပင်",
+              "နှစ်ခုစလုံးသည် မူရင်း string ကို အပြီးတိုင် ဖျက်ပစ်သည်",
+              "နှစ်ခုစလုံးသည် string များကို list များအဖြစ် ပြောင်းလဲသည်",
+              "Immutable ဖြစ်ခြင်းနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s2-computing-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap Quiz",
+      titleMy: "Week 18 ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Joining strings together with + is called what?",
+          questionMy: "String များကို + ဖြင့် ပေါင်းစပ်ခြင်းကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["Concatenation", "Immutability", "Slicing", "Indexing"],
+          optionsMy: ["Concatenation", "Immutability", "Slicing", "Indexing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does \"cat\".upper() return?",
+          questionMy: "\"cat\".upper() က ဘာပြန်ပေးသနည်း။",
+          optionsEn: ["\"cat\"", "\"CAT\"", "\"Cat\"", "An error"],
+          optionsMy: ["\"cat\"", "\"CAT\"", "\"Cat\"", "Error တစ်ခု"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Why can't you write name[0] = \"J\" to edit a string in place?",
+          questionMy: "String တစ်ခုကို တိုက်ရိုက်ပြင်ရန် name[0] = \"J\" ဟု အဘယ့်ကြောင့် ရေး၍မရသနည်း။",
+          optionsEn: [
+            "Because strings are immutable",
+            "Because strings have no index",
+            "Because \"J\" is reserved",
+            "Because it always works fine",
+          ],
+          optionsMy: [
+            "String များသည် immutable ဖြစ်သောကြောင့်",
+            "String များတွင် index မရှိသောကြောင့်",
+            "\"J\" သည် reserved ဖြစ်သောကြောင့်",
+            "အမြဲ ကောင်းမွန်စွာအလုပ်လုပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A method like .upper() is called using what symbol?",
+          questionMy: ".upper() ကဲ့သို့ method တစ်ခုကို မည်သည့် သင်္ကေတဖြင့် ခေါ်သနည်း။",
+          optionsEn: ["A dot (.)", "A plus sign (+)", "A colon (:)", "A comma (,)"],
+          optionsMy: ["Dot (.)", "Plus sign (+)", "Colon (:)", "Comma (,)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Does calling greeting.lower() change the original greeting variable?",
+          questionMy: "greeting.lower() ကို ခေါ်ခြင်းက မူရင်း greeting variable ကို ပြောင်းလဲစေသလား။",
+          optionsEn: [
+            "No, it returns a new string; you must reassign to change greeting",
+            "Yes, it always changes greeting permanently",
+            "Yes, it deletes greeting",
+            "It causes an error",
+          ],
+          optionsMy: [
+            "မပြောင်းလဲပါ -- string အသစ်တစ်ခုသာ ပြန်ပေးသည်၊ greeting ကို ပြောင်းလိုလျှင် ပြန်လည် assign ပေးရမည်",
+            "ပြောင်းလဲသည် -- greeting ကို အမြဲတမ်း ပြောင်းလဲစေသည်",
+            "ပြောင်းလဲသည် -- greeting ကို ဖျက်ပစ်သည်",
+            "Error ဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
 const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
@@ -18085,27 +22057,83 @@ const CourseTermDef _secondary2ComputingTerm2 = CourseTermDef(
   ], // Term 2 complete (Weeks 5-8) -- second term of the Secondary 2 pathway
 );
 
+const CourseTermDef _secondary2ComputingTerm3 = CourseTermDef(
+  id: "course-secondary2-computing-t3",
+  termNumber: 3,
+  titleEn: "Searching and Sorting Algorithms",
+  titleMy: "ရှာဖွေခြင်းနှင့် Sort လုပ်ခြင်း Algorithm များ",
+  certificateTitleEn: "Searching and Sorting Algorithms",
+  certificateTitleMy: "ရှာဖွေခြင်းနှင့် Sort လုပ်ခြင်း Algorithm များ",
+  weeks: [
+    _secondary2ComputingWeek9,
+    _secondary2ComputingWeek10,
+    _secondary2ComputingWeek11,
+    _secondary2ComputingWeek12,
+  ], // Term 3 complete (Weeks 9-12) -- third term of the Secondary 2 pathway
+);
+
+const CourseTermDef _secondary2ComputingTerm4 = CourseTermDef(
+  id: "course-secondary2-computing-t4",
+  termNumber: 4,
+  titleEn: "Boolean Logic and Truth Tables",
+  titleMy: "Boolean Logic နှင့် Truth Table များ",
+  certificateTitleEn: "Boolean Logic and Truth Tables",
+  certificateTitleMy: "Boolean Logic နှင့် Truth Table များ",
+  weeks: [
+    _secondary2ComputingWeek13,
+    _secondary2ComputingWeek14,
+    _secondary2ComputingWeek15,
+    _secondary2ComputingWeek16,
+  ], // Term 4 complete (Weeks 13-16) -- fourth term of the Secondary 2
+  // pathway, a breadth strand on Boolean logic breaking up the
+  // programming arc from Terms 1-3
+);
+
 /// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
 /// than more terms grafted onto Secondary 1. Term 1 (Weeks 1-4, Lists and
-/// Arrays) and Term 2 (Weeks 5-8, Functions and Procedures) are now
-/// authored; [totalWeeks] stays 36 for the same "honest progress bar"
-/// reason Secondary 1's did while only a handful of weeks exist. Term 1
-/// picks up directly where Secondary 1 Term 9 left off: its Week 36
-/// capstone program used single variables, selection, and loops, and
-/// Term 1's four weeks extend that straight into lists (storing many
-/// values, adding/removing/updating items, looping through a list, and a
-/// capstone list-based program). Term 2 continues the spiral: Week 5
-/// introduces functions/procedures as a fix for repeated code; Week 6
-/// adds parameters and arguments so one function can serve many inputs
-/// instead of near-duplicate functions; Week 7 contrasts a plain
-/// print()-only side effect with a real return value the caller can
-/// store or test; Week 8 closes the term with a capstone that combines
-/// everything so far -- a function that takes a list as a parameter,
-/// loops through it with an accumulator (reusing Term 1 Week 3's
-/// pattern), applies an if selection to each element, and returns the
-/// computed result.
+/// Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term 3 (Weeks
+/// 9-12, Searching and Sorting Algorithms), and Term 4 (Weeks 13-16,
+/// Boolean Logic and Truth Tables) are now authored; [totalWeeks] stays
+/// 36 for the same "honest progress bar" reason Secondary 1's did while
+/// only a handful of weeks exist. Term 1 picks up directly where
+/// Secondary 1 Term 9 left off: its Week 36 capstone program used single
+/// variables, selection, and loops, and Term 1's four weeks extend that
+/// straight into lists (storing many values, adding/removing/updating
+/// items, looping through a list, and a capstone list-based program).
+/// Term 2 continues the spiral: Week 5 introduces functions/procedures as
+/// a fix for repeated code; Week 6 adds parameters and arguments so one
+/// function can serve many inputs instead of near-duplicate functions;
+/// Week 7 contrasts a plain print()-only side effect with a real return
+/// value the caller can store or test; Week 8 closes the term with a
+/// capstone that combines everything so far -- a function that takes a
+/// list as a parameter, loops through it with an accumulator (reusing
+/// Term 1 Week 3's pattern), applies an if selection to each element, and
+/// returns the computed result. Term 3 builds directly on Term 2's
+/// function/parameter/return-value skills by applying them to algorithm
+/// design over lists: Week 9 introduces linear search (checking each
+/// element in turn) as a function that returns a found index or -1; Week
+/// 10 contrasts that with binary search's faster halving approach, which
+/// only works once a list is sorted; Week 11 introduces bubble sort
+/// (repeatedly comparing and swapping adjacent pairs) as the reason a
+/// list becomes sorted in the first place; Week 12 closes the term with a
+/// capstone that chains a sorting function's return value into a
+/// searching function's parameter -- numbers = bubble_sort(numbers) then
+/// binary_search(numbers, target) -- combining every function/parameter/
+/// return-value/list skill built across Terms 1-3. Term 4 is a
+/// deliberate breadth strand breaking up that programming arc with
+/// Boolean logic: Week 13 names the True/False concept Secondary 1
+/// already used implicitly and introduces AND/OR/NOT as explicit
+/// operators; Week 14 formalizes that with truth tables, systematically
+/// listing every input combination and its output; Week 15 ties Boolean
+/// operators back into Secondary 1's if-statements by combining AND/OR/
+/// NOT into compound conditions that replace several nested ifs; Week 16
+/// closes the term with a capstone that combines Boolean logic with
+/// Term 2's functions and Term 1's lists -- a function that takes a
+/// parameter, evaluates a compound Boolean condition (optionally looping
+/// over a list with an accumulator, reusing Term 2 Week 8's pattern), and
+/// returns True or False.
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
@@ -18113,9 +22141,14 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
-      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, and procedures.",
+      "The second academic-year computing course, continuing on from Secondary 1: daily bite-sized lessons building on real-code programming with new topics such as lists, arrays, functions, procedures, searching/sorting algorithms, and Boolean logic.",
   descriptionMy:
-      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function နှင့် procedure ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
+      "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm နှင့် Boolean logic ကဲ့သို့ ခေါင်းစဉ်အသစ်များပါဝင်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary2ComputingTerm1, _secondary2ComputingTerm2],
+  terms: [
+    _secondary2ComputingTerm1,
+    _secondary2ComputingTerm2,
+    _secondary2ComputingTerm3,
+    _secondary2ComputingTerm4,
+  ],
 );
