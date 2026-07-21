@@ -31240,11 +31240,12 @@ const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
 /// Secondary 1 Mathematics's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway]
 /// rather than more terms grafted onto it: same grade, different subject.
-/// Term 1 ("Number Foundations", Weeks 1-4) is authored so far; see
-/// [_secondary1MathematicsTerm1]'s own doc comment for the week-by-week
-/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
-/// reason [secondary1ComputingPathway]'s did while only a handful of
-/// weeks exist.
+/// Term 1 ("Number Foundations", Weeks 1-4) and Term 2 ("Algebra
+/// Foundations", Weeks 5-8) are authored so far; see
+/// [_secondary1MathematicsTerm1]'s and [_secondary1MathematicsTerm2]'s own
+/// doc comments for the week-by-week spiral. [totalWeeks] stays 36 for the
+/// same "honest progress bar" reason [secondary1ComputingPathway]'s did
+/// while only a handful of weeks exist.
 const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   id: "course-secondary1-mathematics",
   subject: "mathematics",
@@ -31252,9 +31253,1307 @@ const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations.",
+      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations, then moving into algebra -- variables, expressions, simplifying, and solving linear equations.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများကို တည်ဆောက်ပေးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပေးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
-  terms: [_secondary1MathematicsTerm1],
+  terms: [_secondary1MathematicsTerm1, _secondary1MathematicsTerm2],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 2, Week 5: "Introduction to Algebra"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek5 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w5",
+  weekNumber: 5,
+  titleEn: "Introduction to Algebra",
+  titleMy: "အက္ခရာသင်္ချာ နိဒါန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w5-d1",
+      dayNumber: 1,
+      titleEn: "What Is a Variable? Writing Simple Expressions",
+      titleMy: "ကိန်းရှင်ဆိုတာ ဘာလဲ။ ရိုးရှင်းသော အသုံးအနှုန်းများ ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In algebra, what is a variable?",
+          questionMy: "အက္ခရာသင်္ချာတွင် ကိန်းရှင် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A letter that stands for a number that can change or is unknown",
+            "A fixed number that never changes",
+            "A symbol used only for addition",
+            "A special type of equation",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲနိုင်သော (သို့) မသိသေးသော ဂဏန်းကို ကိုယ်စားပြုသည့် အက္ခရာ",
+            "ဘယ်တော့မှ မပြောင်းလဲသော ကိန်းသေတန်ဖိုး",
+            "ပေါင်းခြင်းအတွက်သာ အသုံးပြုသည့် သင်္ကေတ",
+            "ညီမျှခြင်း၏ အထူးအမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Translate the phrase '7 more than a number n' into an algebraic expression.",
+          questionMy:
+              "'ဂဏန်း n ထက် 7 ပိုသော' ဟူသည့်ဝါကျကို အက္ခရာသင်္ချာ ဖော်ပြချက်အဖြစ် ပြောင်းပါ။",
+          optionsEn: ["n + 7", "7 - n", "7n", "n - 7"],
+          optionsMy: ["n + 7", "7 - n", "7n", "n - 7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Translate the phrase 'double a number x' into an algebraic expression.",
+          questionMy:
+              "'ဂဏန်း x ၏ နှစ်ဆ' ဟူသည့်ဝါကျကို အက္ခရာသင်္ချာ ဖော်ပြချက်အဖြစ် ပြောင်းပါ။",
+          optionsEn: ["x + 2", "2x", "x ÷ 2", "x - 2"],
+          optionsMy: ["x + 2", "2x", "x ÷ 2", "x - 2"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "In the expression 5x + 3, what is the coefficient of x?",
+          questionMy:
+              "5x + 3 ဖော်ပြချက်တွင် x ၏ ကိန်းရှင်ရှေ့ကိန်း (coefficient) မှာ အဘယ်နည်း။",
+          optionsEn: ["5", "3", "x", "8"],
+          optionsMy: ["5", "3", "x", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate the expression n + 6 when n = 4.",
+          questionMy: "n = 4 ဖြစ်သောအခါ n + 6 ဖော်ပြချက်၏ တန်ဖိုးကို ရှာပါ။",
+          optionsEn: ["10", "2", "24", "6"],
+          optionsMy: ["10", "2", "24", "6"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w5-d2",
+      dayNumber: 2,
+      titleEn: "Key Algebra Terms: Variable, Constant, Term & More",
+      titleMy:
+          "အက္ခရာသင်္ချာ အဓိကဝေါဟာရများ - ကိန်းရှင်၊ ကိန်းသေ၊ အသင်းအဖွဲ့ နှင့် အခြား",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w5-dm-1",
+          termEn: "Variable",
+          termMy: "ကိန်းရှင်",
+          matchEn:
+              "A letter that stands for a number which is unknown or can change, such as x or n",
+          matchMy:
+              "x သို့မဟုတ် n ကဲ့သို့ မသိသေးသော (သို့) ပြောင်းလဲနိုင်သော ဂဏန်းကို ကိုယ်စားပြုသည့် အက္ခရာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w5-dm-2",
+          termEn: "Constant",
+          termMy: "ကိန်းသေ",
+          matchEn:
+              "A fixed number in an expression that never changes, such as the 7 in 3x + 7",
+          matchMy:
+              "3x + 7 ရှိ 7 ကဲ့သို့ ဘယ်တော့မှ ပြောင်းလဲခြင်းမရှိသော အသုံးအနှုန်းရှိ ကိန်းသေတန်ဖိုး",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w5-dm-3",
+          termEn: "Coefficient",
+          termMy: "ကိန်းရှင်ရှေ့ကိန်း (Coefficient)",
+          matchEn: "The number multiplied by a variable, such as the 5 in 5x",
+          matchMy: "5x ရှိ 5 ကဲ့သို့ ကိန်းရှင်ကို မြှောက်ထားသည့် ဂဏန်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w5-dm-4",
+          termEn: "Term",
+          termMy: "အသင်းအဖွဲ့",
+          matchEn:
+              "A single number, variable, or product of numbers and variables joined to other terms by + or -, such as 4x or 7 in 4x + 7",
+          matchMy:
+              "4x + 7 ရှိ 4x သို့မဟုတ် 7 ကဲ့သို့ + သို့မဟုတ် - ဖြင့် အခြားအသင်းအဖွဲ့များနှင့် ဆက်စပ်ထားသော ဂဏန်းတစ်ခုတည်း၊ ကိန်းရှင်တစ်ခုတည်း (သို့) ဂဏန်းနှင့်ကိန်းရှင် မြှောက်ထားသောတန်ဖိုး",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w5-dm-5",
+          termEn: "Substitution",
+          termMy: "ကိန်းရှင်နေရာတွင် ဂဏန်းအစားထိုးခြင်း",
+          matchEn:
+              "Replacing a variable with a given number to work out the value of an expression, such as substituting x = 2 into x + 5 to get 7",
+          matchMy:
+              "x + 5 တွင် x = 2 ကို အစားထိုး၍ 7 ဟု တွက်ချက်သကဲ့သို့ အသုံးအနှုန်း၏တန်ဖိုးကို ရှာရန် ကိန်းရှင်နေရာတွင် ပေးထားသော ဂဏန်းကို အစားထိုးခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w5-d3",
+      dayNumber: 3,
+      titleEn: "Expression or Equation? Spot the Equals Sign",
+      titleMy: "အသုံးအနှုန်းလား၊ ညီမျှခြင်းလား။ (=) ကိုရှာပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Expression", "Equation"],
+        bucketsMy: ["အသုံးအနှုန်း", "ညီမျှခြင်း"],
+        items: [
+          SortingItem(
+            id: "s1math-w5-sort-1",
+            labelEn: "x + 5",
+            labelMy: "x + 5",
+            correctBucketEn: "Expression",
+            correctBucketMy: "အသုံးအနှုန်း",
+          ),
+          SortingItem(
+            id: "s1math-w5-sort-2",
+            labelEn: "x + 5 = 12",
+            labelMy: "x + 5 = 12",
+            correctBucketEn: "Equation",
+            correctBucketMy: "ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w5-sort-3",
+            labelEn: "3n - 4",
+            labelMy: "3n - 4",
+            correctBucketEn: "Expression",
+            correctBucketMy: "အသုံးအနှုန်း",
+          ),
+          SortingItem(
+            id: "s1math-w5-sort-4",
+            labelEn: "3n - 4 = 8",
+            labelMy: "3n - 4 = 8",
+            correctBucketEn: "Equation",
+            correctBucketMy: "ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w5-sort-5",
+            labelEn: "2y + 7",
+            labelMy: "2y + 7",
+            correctBucketEn: "Expression",
+            correctBucketMy: "အသုံးအနှုန်း",
+          ),
+          SortingItem(
+            id: "s1math-w5-sort-6",
+            labelEn: "y - 6 = 10",
+            labelMy: "y - 6 = 10",
+            correctBucketEn: "Equation",
+            correctBucketMy: "ညီမျှခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w5-d4",
+      dayNumber: 4,
+      titleEn: "The Canteen Price Puzzle: Order Matters in 'Less Than'",
+      titleMy:
+          "စားသောက်ဆိုင် ဈေးနှုန်းပဟေဠိ - 'လျော့သည်' ဝါကျများတွင် အစီအစဉ်အရေးကြီးပုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Canteen Price Puzzle",
+        titleMy: "စားသောက်ဆိုင် ဈေးနှုန်းပဟေဠိ",
+        passageEn:
+            "At Nova Academy's school canteen in Yangon, Hnin Wai and her friend Zin Ko were trying to figure out the price of a new snack called mont let saung cups, sold in a box near the counter. The box did not have a price tag, so the canteen aunty told them, 'The box costs 6 kyat hundreds less than double the price of one cup.' Hnin Wai let the unknown price of one cup be the variable c, since cup price was the unknown, changeable amount they needed to find.\n\nHnin Wai first wrote the expression as 6 - 2c, but Zin Ko frowned and said something felt wrong. They reread the aunty's sentence carefully: 'double the price of one cup' comes first in the idea, and then '6 less than' that amount is taken away from it. In algebra, phrases like '6 less than a number' always mean the number comes first, then 6 is subtracted from it — never the other way around. So '6 less than double the price of one cup' should be written as 2c - 6, not 6 - 2c. Reversing the order of a subtraction changes the entire meaning and often the sign of the answer, so Hnin Wai and Zin Ko learned to always translate 'less than' phrases by writing the number mentioned first, and then subtracting the second amount from it.\n\nOnce they had the correct expression, 2c - 6, they wanted to check their idea using a value they already knew. The canteen aunty mentioned that a similar cup cost 15 kyat hundreds during last month's promotion, so Hnin Wai substituted c = 15 into the expression: 2(15) - 6 = 30 - 6 = 24. That meant the box, if the promotion price still applied, would have cost 24 kyat hundreds. Zin Ko double-checked by substituting the same value into their first, incorrect expression, 6 - 2(15) = 6 - 30 = -24, and saw it gave a completely different, negative answer — proof that writing 'less than' phrases in the wrong order really does change the result.",
+        passageMy:
+            "ရန်ကုန်မြို့ရှိ Nova Academy ကျောင်းဝင်စားသောက်ဆိုင်တွင် နှင်းဝေနှင့် သူ့သူငယ်ချင်း ဇင်ကိုတို့သည် ကောင်တာအနီးတွင် ဘူးအနေဖြင့် ရောင်းချနေသော 'မုန့်လက်ဆောင်း ခွက်' အသစ်တစ်မျိုး၏ ဈေးနှုန်းကို တွက်ချက်ရှာဖွေနေကြသည်။ ဘူးပေါ်တွင် ဈေးနှုန်းလေဗယ်မပါသဖြင့် ဆိုင်အန်တီက သူတို့ကို 'ဘူးတစ်ဘူး၏ဈေးနှုန်းသည် ခွက်တစ်ခွက်၏ ဈေးနှုန်း နှစ်ဆထက် ကျပ်ရာ ၆ လျော့သည်' ဟု ပြောပြခဲ့သည်။ ခွက်တစ်ခွက်၏ဈေးနှုန်းသည် သူတို့ရှာဖွေရမည့် မသိသေးသော၊ ပြောင်းလဲနိုင်သောပမာဏဖြစ်သောကြောင့် နှင်းဝေသည် ခွက်တစ်ခွက်၏ မသိသေးသောဈေးနှုန်းကို ကိန်းရှင် c ဟု သတ်မှတ်လိုက်သည်။\n\nနှင်းဝေသည် ဖော်ပြချက်ကို 6 - 2c ဟု ပထမဆုံးရေးခဲ့သော်လည်း ဇင်ကိုက မျက်နှာချုံ့ကာ တစ်ခုခုမှားနေသည်ဟု ပြောခဲ့သည်။ သူတို့သည် အန်တီ၏ဝါကျကို ဂရုတစိုက် ပြန်ဖတ်ကြည့်ကြသည် - 'ခွက်တစ်ခွက်၏ဈေးနှုန်း နှစ်ဆ' ဟူသောအယူအဆသည် ရှေ့ဆုံးလာပြီး ထို့နောက် ထိုပမာဏမှ 'ကျပ်ရာ ၆ လျော့' ကို နုတ်ယူခြင်းဖြစ်သည်။ အက္ခရာသင်္ချာတွင် 'ဂဏန်းတစ်ခုထက် ၆ လျော့သည်' ကဲ့သို့သော ဝါကျများသည် အမြဲတမ်း ဂဏန်းကို ရှေ့ဦးစွာရေးပြီးမှ ၆ ကို ထိုဂဏန်းမှ နုတ်ယူရသည်ဟု အဓိပ္ပာယ်ရသည် — ဆန့်ကျင်ဘက်လုံးဝ မဟုတ်ပါ။ ထို့ကြောင့် 'ခွက်တစ်ခွက်၏ဈေးနှုန်း နှစ်ဆထက် ကျပ်ရာ ၆ လျော့သည်' ကို 6 - 2c ဟု မဟုတ်ဘဲ 2c - 6 ဟု ရေးသားရမည်ဖြစ်သည်။ နုတ်ခြင်း၏ အစီအစဉ်ကို ပြောင်းပြန်လှန်လိုက်လျှင် အဓိပ္ပာယ်တစ်ခုလုံး ပြောင်းလဲသွားပြီး အဖြေ၏ ကိန်းသင်္ကေတပါ များသောအားဖြင့် ပြောင်းလဲသွားတတ်သောကြောင့် 'လျော့သည်' ဟူသောဝါကျများကို ဘာသာပြန်သည့်အခါ ဖော်ပြထားသောဂဏန်းကို ရှေ့ဦးစွာရေးပြီး ဒုတိယပမာဏကို ထိုဂဏန်းမှ နုတ်ယူရမည်ဟု နှင်းဝေနှင့် ဇင်ကိုတို့ အမြဲမှတ်သားထားကြတော့သည်။\n\nမှန်ကန်သောဖော်ပြချက် 2c - 6 ကို ရရှိပြီးနောက် သူတို့သည် ယခင်သိရှိထားသော တန်ဖိုးတစ်ခုကို အသုံးပြု၍ သူတို့၏အယူအဆကို စစ်ဆေးလိုကြသည်။ ဆိုင်အန်တီက တူညီသောခွက်တစ်ခွက်သည် ပြီးခဲ့သောလ ရောင်းမြှင့်ချိန်တွင် ကျပ်ရာ ၁၅ ကျသည်ဟု ဖော်ပြခဲ့သောကြောင့် နှင်းဝေသည် ဖော်ပြချက်ထဲသို့ c = 15 ကို အစားထိုးလိုက်သည် - 2(15) - 6 = 30 - 6 = 24 ။ ဆိုလိုသည်မှာ ရောင်းမြှင့်ချိန်ဈေးနှုန်း ဆက်လက်တည်ရှိနေပါက ဘူးတစ်ဘူးသည် ကျပ်ရာ ၂၄ ကျမည်ဖြစ်သည်။ ဇင်ကိုက သူတို့၏ ပထမမှားယွင်းသောဖော်ပြချက် 6 - 2(15) ထဲသို့ တူညီသောတန်ဖိုးကို အစားထိုးကာ နှစ်ဆစစ်ဆေးကြည့်သည် - 6 - 30 = -24 ။ ၎င်းသည် လုံးဝကွဲပြားပြီး အနုတ်ဖြစ်နေသော အဖြေတစ်ခုကို ပေးနေသည်ကို တွေ့ရသည် — 'လျော့သည်' ဝါကျများကို အစီအစဉ်မှားယွင်းစွာ ရေးလိုက်လျှင် အဖြေကို အမှန်တကယ် ပြောင်းလဲစေသည်ဆိုသည့် သက်သေဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how should the phrase '6 less than a number x' be correctly translated into algebra?",
+            questionMy:
+                "စာပိုဒ်အရ 'ဂဏန်း x ထက် ၆ လျော့သည်' ဟူသောဝါကျကို အက္ခရာသင်္ချာဖြင့် မှန်ကန်စွာ မည်သို့ဘာသာပြန်သင့်သနည်း။",
+            optionsEn: ["x - 6", "6 - x", "6x", "x + 6"],
+            optionsMy: ["x - 6", "6 - x", "6x", "x + 6"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why was Hnin Wai and Zin Ko's first expression, 6 - 2c, incorrect?",
+            questionMy:
+                "နှင်းဝေနှင့် ဇင်ကိုတို့၏ ပထမဆုံးဖော်ပြချက် 6 - 2c သည် အဘယ့်ကြောင့် မှားယွင်းနေသနည်း။",
+            optionsEn: [
+              "Because it reversed the order of the subtraction — 'less than' phrases should write the number first, then subtract the second amount from it",
+              "Because it used the wrong letter for the variable",
+              "Because it left out the coefficient of c",
+              "Because it was actually an equation rather than an expression",
+            ],
+            optionsMy: [
+              "'လျော့သည်' ဝါကျများသည် ဂဏန်းကို ရှေ့ဦးစွာရေးပြီးမှ ဒုတိယပမာဏကို နုတ်ယူသင့်ရာ နုတ်ခြင်းအစီအစဉ်ကို ပြောင်းပြန်လှန်ထားသောကြောင့်",
+              "ကိန်းရှင်အတွက် အက္ခရာအမှား သုံးထားသောကြောင့်",
+              "c ၏ ကိန်းရှင်ရှေ့ကိန်း (coefficient) ကို ချန်လှပ်ထားသောကြောင့်",
+              "ယင်းသည် အမှန်တကယ် အသုံးအနှုန်းမဟုတ်ဘဲ ညီမျှခြင်းဖြစ်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using the corrected expression 2c - 6, what value did Hnin Wai get when she substituted c = 15?",
+            questionMy:
+                "မှန်ကန်သောဖော်ပြချက် 2c - 6 ကို အသုံးပြု၍ c = 15 အစားထိုးသောအခါ နှင်းဝေရရှိသောတန်ဖိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["24", "30", "-24", "36"],
+            optionsMy: ["24", "30", "-24", "36"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w5-d5",
+      dayNumber: 5,
+      titleEn: "Expressions Meet Negative Numbers: Term 1 Recap",
+      titleMy:
+          "အသုံးအနှုန်းနှင့် အနုတ်ကိန်းများ ပေါင်းစပ်ခြင်း - ပထမတန်းစာချုပ် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Translate the phrase '4 more than a number k' into an algebraic expression.",
+          questionMy:
+              "'ဂဏန်း k ထက် 4 ပိုသော' ဟူသည့်ဝါကျကို အက္ခရာသင်္ချာ ဖော်ပြချက်အဖြစ် ပြောင်းပါ။",
+          optionsEn: ["k + 4", "4 - k", "4k", "k - 4"],
+          optionsMy: ["k + 4", "4 - k", "4k", "k - 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Translate the phrase '7 less than three times a number m' into an algebraic expression.",
+          questionMy:
+              "'ဂဏန်း m ၏ သုံးဆထက် 7 လျော့သော' ဟူသည့်ဝါကျကို အက္ခရာသင်္ချာ ဖော်ပြချက်အဖြစ် ပြောင်းပါ။",
+          optionsEn: ["3m - 7", "7 - 3m", "3m + 7", "7 - m"],
+          optionsMy: ["3m - 7", "7 - 3m", "3m + 7", "7 - m"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate the expression n + 5 when n = -8.",
+          questionMy:
+              "n = -8 ဖြစ်သောအခါ n + 5 ဖော်ပြချက်၏ တန်ဖိုးကို ရှာပါ။ (ဂဏန်းမျဉ်းပေါ်ရှိ ညွှန်းကိန်းများကို ပြန်သုံးပါ)",
+          optionsEn: ["-3", "3", "-13", "13"],
+          optionsMy: ["-3", "3", "-13", "13"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate the expression 2x - 3 when x = -4.",
+          questionMy: "x = -4 ဖြစ်သောအခါ 2x - 3 ဖော်ပြချက်၏ တန်ဖိုးကို ရှာပါ။",
+          optionsEn: ["-11", "-5", "11", "5"],
+          optionsMy: ["-11", "-5", "11", "5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rule says yesterday's temperature can be found using t - 6, where t is today's temperature. If today's temperature is t = -2°C, evaluate t - 6 to find the value.",
+          questionMy:
+              "'မနေ့ကအပူချိန်ကို t - 6 ဖြင့် ရှာနိုင်သည်' ဟူသောစည်းမျဉ်းတစ်ခုရှိသည်၊ t သည် ယနေ့အပူချိန်ဖြစ်သည်။ ယနေ့အပူချိန် t = -2°C ဖြစ်ပါက t - 6 ၏တန်ဖိုးကို ရှာပါ။",
+          optionsEn: ["-8", "-4", "8", "4"],
+          optionsMy: ["-8", "-4", "8", "4"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 2, Week 6: "Simplifying Algebraic
+// Expressions"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek6 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w6",
+  weekNumber: 6,
+  titleEn: "Simplifying Algebraic Expressions",
+  titleMy: "အက္ခရာအသုံးအနှုန်းများကို ရိုးရှင်းအောင်ပြုလုပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w6-d1",
+      dayNumber: 1,
+      titleEn: "Like Terms and Collecting Like Terms",
+      titleMy: "အလားတူပုဒ်များနှင့် ၎င်းတို့ကို ပေါင်းစည်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What makes two terms \"like terms\"?",
+          questionMy:
+              "ပုဒ်နှစ်ခုကို \"အလားတူပုဒ်များ\" ဟုခေါ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "They have the same numerical coefficient",
+            "They are both positive numbers",
+            "They have the same variable(s) raised to the same power",
+            "They appear in the same order in the expression",
+          ],
+          optionsMy: [
+            "၎င်းတို့တွင် တူညီသော ကိန်းရှေ့ကိန်း (coefficient) ရှိခြင်း",
+            "၎င်းတို့နှစ်ခုစလုံး အပေါင်းကိန်း ဖြစ်ခြင်း",
+            "၎င်းတို့တွင် တူညီသောကိန်းရှင်(များ)ကို တန်ခိုးအညီတူညီစွာ ပါဝင်ခြင်း",
+            "၎င်းတို့သည် အသုံးအနှုန်းတွင် အစီအစဉ်တူညီစွာ ပါဝင်ခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Which of the following pairs are like terms?",
+          questionMy: "အောက်ပါတို့အနက် အလားတူပုဒ်ဖြစ်သော အတွဲကား အဘယ်နည်း။",
+          optionsEn: ["3x and 3x²", "3x and 7x", "4y and 4z", "5xy and 5x"],
+          optionsMy: [
+            "3x နှင့် 3x²",
+            "3x နှင့် 7x",
+            "4y နှင့် 4z",
+            "5xy နှင့် 5x",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 3x + 5x - 2x",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ − 3x + 5x - 2x",
+          optionsEn: ["10x", "0", "6", "6x"],
+          optionsMy: ["10x", "0", "6", "6x"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 4x + 3y - x + y",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ − 4x + 3y - x + y",
+          optionsEn: ["5x + 4y", "3x + 4y", "3x + 2y", "7xy"],
+          optionsMy: ["5x + 4y", "3x + 4y", "3x + 2y", "7xy"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the expression 6a + 2b - 4a + 5, which two terms are like terms?",
+          questionMy:
+              "အသုံးအနှုန်း 6a + 2b - 4a + 5 တွင် မည်သည့်ပုဒ်နှစ်ခုသည် အလားတူပုဒ်များ ဖြစ်သနည်း။",
+          optionsEn: ["2b and 5", "6a and 2b", "6a and 4a", "4a and 5"],
+          optionsMy: ["2b နှင့် 5", "6a နှင့် 2b", "6a နှင့် 4a", "4a နှင့် 5"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w6-d2",
+      dayNumber: 2,
+      titleEn: "Algebra Vocabulary Match",
+      titleMy: "အက္ခရာသင်္ချာ ဝေါဟာရများ ကိုက်ညှိခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w6-dm-1",
+          termEn: "Like Terms",
+          termMy: "အလားတူပုဒ်များ",
+          matchEn:
+              "Terms with the same variable(s) raised to the same power, e.g. 3x and 7x",
+          matchMy:
+              "တူညီသောကိန်းရှင်ကို တန်ခိုးအညီတူညီစွာပါဝင်သည့် ပုဒ်များ ဥပမာ 3x နှင့် 7x",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w6-dm-2",
+          termEn: "Unlike Terms",
+          termMy: "မတူညီသောပုဒ်များ",
+          matchEn:
+              "Terms with different variables or different powers, e.g. 3x and 3y",
+          matchMy:
+              "မတူညီသောကိန်းရှင် သို့မဟုတ် မတူညီသောတန်ခိုးရှိသည့် ပုဒ်များ ဥပမာ 3x နှင့် 3y",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w6-dm-3",
+          termEn: "Coefficient",
+          termMy: "ကိန်းရှေ့ကိန်း (Coefficient)",
+          matchEn: "The number that multiplies a variable, e.g. the 3 in 3x",
+          matchMy: "ကိန်းရှင်တစ်ခုကို မြှောက်ထားသည့်ဂဏန်း ဥပမာ 3x ရှိ 3",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w6-dm-4",
+          termEn: "Collecting Like Terms",
+          termMy: "အလားတူပုဒ်များကို ပေါင်းစည်းခြင်း",
+          matchEn:
+              "Simplifying an expression by adding or subtracting like terms, e.g. 4x + 3x = 7x",
+          matchMy:
+              "အလားတူပုဒ်များကို အပေါင်းအနုတ်ပြုလုပ်ခြင်းဖြင့် အသုံးအနှုန်းကို ရိုးရှင်းအောင်ပြုလုပ်ခြင်း ဥပမာ 4x + 3x = 7x",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w6-dm-5",
+          termEn: "Expanding a Bracket",
+          termMy: "ကွင်းဖွင့်ခြင်း",
+          matchEn:
+              "Multiplying each term inside the bracket by the term outside, e.g. 3(x + 4) = 3x + 12",
+          matchMy:
+              "ကွင်းအပြင်ရှိကိန်းဖြင့် ကွင်းအတွင်းရှိပုဒ်တစ်ခုချင်းစီကို မြှောက်ခြင်း ဥပမာ 3(x + 4) = 3x + 12",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Like Terms vs Unlike Terms",
+      titleMy: "ခွဲခြားခြင်း − အလားတူပုဒ်နှင့် မတူညီသောပုဒ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Like Terms", "Unlike Terms"],
+        bucketsMy: ["အလားတူပုဒ်များ", "မတူညီသောပုဒ်များ"],
+        items: [
+          SortingItem(
+            id: "s1math-w6-sort-1",
+            labelEn: "3x and 8x",
+            labelMy: "3x နှင့် 8x",
+            correctBucketEn: "Like Terms",
+            correctBucketMy: "အလားတူပုဒ်များ",
+          ),
+          SortingItem(
+            id: "s1math-w6-sort-2",
+            labelEn: "5x and 5y",
+            labelMy: "5x နှင့် 5y",
+            correctBucketEn: "Unlike Terms",
+            correctBucketMy: "မတူညီသောပုဒ်များ",
+          ),
+          SortingItem(
+            id: "s1math-w6-sort-3",
+            labelEn: "7a and 2a",
+            labelMy: "7a နှင့် 2a",
+            correctBucketEn: "Like Terms",
+            correctBucketMy: "အလားတူပုဒ်များ",
+          ),
+          SortingItem(
+            id: "s1math-w6-sort-4",
+            labelEn: "4m and 4n",
+            labelMy: "4m နှင့် 4n",
+            correctBucketEn: "Unlike Terms",
+            correctBucketMy: "မတူညီသောပုဒ်များ",
+          ),
+          SortingItem(
+            id: "s1math-w6-sort-5",
+            labelEn: "9y and y",
+            labelMy: "9y နှင့် y",
+            correctBucketEn: "Like Terms",
+            correctBucketMy: "အလားတူပုဒ်များ",
+          ),
+          SortingItem(
+            id: "s1math-w6-sort-6",
+            labelEn: "6x and 6x²",
+            labelMy: "6x နှင့် 6x²",
+            correctBucketEn: "Unlike Terms",
+            correctBucketMy: "မတူညီသောပုဒ်များ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w6-d4",
+      dayNumber: 4,
+      titleEn: "Expanding Brackets at the Stationery Stall",
+      titleMy: "စာရေးကိရိယာဆိုင်ခန်းတွင် ကွင်းဖွင့်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Stationery Stall Problem",
+        titleMy: "စာရေးကိရိယာဆိုင်ခန်း၏ ပုစ္ဆာ",
+        passageEn:
+            "On Saturday morning, Hnin Wai helped her uncle at his stationery stall near Bogyoke Market. Notebooks cost x kyats each, and pens cost y kyats each. A customer wanted to buy 3 identical bundles, and each bundle contained 2 notebooks and 1 pen, plus 4 extra pens bought separately.\n\nHnin Wai's uncle asked her to write an expression for the total cost. She wrote 3(2x + y) + 4y, because each bundle cost (2x + y) kyats, there were 3 bundles, and 4 more pens were bought at y kyats each.\n\nAt first, Hnin Wai wanted to add the 3, the 2x, and the y together straight away. Then she remembered what she had learned in her Term 1 lessons about the order of operations: multiplication must be carried out before terms are added or subtracted, so the bracket had to be expanded first. She multiplied each term inside the bracket by 3.\n\n3(2x + y) = 3 × 2x + 3 × y = 6x + 3y\n\nNow the full expression became 6x + 3y + 4y.\n\nNext, Hnin Wai looked for like terms. She saw that 3y and 4y were like terms, because they both had the variable y raised to the same power, so she collected them together: 3y + 4y = 7y. The 6x term stayed on its own, because there was no other x term to combine it with.\n\nSo the fully simplified expression was 6x + 7y.\n\nHer uncle smiled and explained that this meant that whatever the actual prices of x and y turned out to be — say, 500 kyats for a notebook and 200 kyats for a pen — Hnin Wai could now find the total cost quickly using the simplified expression, instead of working through every bundle separately.\n\nHnin Wai realised that expanding the bracket first, and only afterwards collecting the like terms, was the key to simplifying an expression correctly: expand first, then combine, every single time.",
+        passageMy:
+            "စနေနေ့မနက်တွင် နှင်းဝေသည် ဗိုလ်ချုပ်ဈေးအနီးရှိ ဦးလေး၏ စာရေးကိရိယာဆိုင်ခန်းတွင် ကူညီနေခဲ့သည်။ စာအုပ်တစ်အုပ်စီသည် x ကျပ်ဖိုးရှိပြီး ခဲတံတစ်ချောင်းစီသည် y ကျပ်ဖိုးရှိသည်။ ဖောက်သည်တစ်ဦးက အတူတူသောအထုပ် ၃ ထုပ်ကို ဝယ်လိုပြီး၊ အထုပ်တစ်ထုပ်စီတွင် စာအုပ် ၂ အုပ်နှင့် ခဲတံ ၁ ချောင်းပါဝင်ကာ၊ ထို့အပြင် ခဲတံနောက်ထပ် ၄ ချောင်းကိုလည်း သီးခြားဝယ်ယူခဲ့သည်။\n\nနှင်းဝေ၏ ဦးလေးက စုစုပေါင်းကုန်ကျစရိတ်အတွက် အသုံးအနှုန်းတစ်ခုရေးဖော်ပြခိုင်းသည်။ သူမက 3(2x + y) + 4y ဟု ရေးခဲ့သည်၊ အကြောင်းမှာ အထုပ်တစ်ထုပ်စီသည် (2x + y) ကျပ်ဖိုးရှိပြီး အထုပ် ၃ ထုပ်ရှိကာ ခဲတံနောက်ထပ် ၄ ချောင်းကိုလည်း y ကျပ်နှုန်းဖြင့် ဝယ်ယူသောကြောင့်ဖြစ်သည်။\n\nပထမတွင် နှင်းဝေသည် 3၊ 2x နှင့် y တို့ကို ချက်ချင်းပေါင်းလိုက်ချင်ခဲ့သော်လည်း၊ ပထမနှစ်ဝက်တွင် သင်ယူခဲ့ရသော အလုပ်လုပ်စဉ်အစီအစဉ် (order of operations) သင်ခန်းစာကို သတိရမိသည်− မြှောက်ခြင်းကို ပေါင်းခြင်း (သို့) နုတ်ခြင်းမပြုမီ အရင်ဆုံးလုပ်ရမည်ဖြစ်ရာ ကွင်းကို အရင်ဖွင့်ရမည်ဖြစ်သည်။ ထို့ကြောင့် သူမသည် ကွင်းအတွင်းရှိပုဒ်တစ်ခုချင်းစီကို 3 ဖြင့် မြှောက်လိုက်သည်။\n\n3(2x + y) = 3 × 2x + 3 × y = 6x + 3y\n\nယခုအခါ အသုံးအနှုန်းအပြည့်အစုံမှာ 6x + 3y + 4y ဖြစ်လာသည်။\n\nထို့နောက် နှင်းဝေသည် အလားတူပုဒ်များကို ရှာဖွေကြည့်သည်။ 3y နှင့် 4y တို့သည် ကိန်းရှင် y ကို တန်ခိုးအညီတူညီစွာ ပါဝင်သောကြောင့် အလားတူပုဒ်များဖြစ်ကြောင်း တွေ့ရှိသည်။ ထို့ကြောင့် ၎င်းတို့ကို ပေါင်းစည်းလိုက်သည်− 3y + 4y = 7y။ 6x ပုဒ်မှာမူ ပေါင်းစည်းနိုင်မည့် x ပုဒ်အခြားမရှိသောကြောင့် တစ်ကိုယ်တည်း ကျန်ရစ်ခဲ့သည်။\n\nထို့ကြောင့် အပြည့်အစုံရိုးရှင်းသွားသော အသုံးအနှုန်းမှာ 6x + 7y ဖြစ်သည်။\n\nဦးလေးက ပြုံးလျက် ရှင်းပြသည်မှာ ဤသို့ရိုးရှင်းထားခြင်းကြောင့် x နှင့် y ၏ အမှန်တကယ်ဈေးနှုန်းမှာ မည်သို့ပင်ဖြစ်စေ − ဥပမာ စာအုပ်တစ်အုပ် ၅၀၀ ကျပ်၊ ခဲတံတစ်ချောင်း ၂၀၀ ကျပ်ဖြစ်ပါစေ − နှင်းဝေသည် အထုပ်တစ်ထုပ်ချင်းစီကို သီးခြားတွက်စရာမလိုဘဲ ရိုးရှင်းထားသော အသုံးအနှုန်းကို အသုံးပြု၍ စုစုပေါင်းကုန်ကျစရိတ်ကို လျင်မြန်စွာ ရှာနိုင်ပြီဖြစ်ကြောင်း သိရသည်။\n\nကွင်းကို အရင်ဖွင့်ပြီးမှသာ အလားတူပုဒ်များကို ပေါင်းစည်းခြင်းသည် အသုံးအနှုန်းတစ်ခုကို မှန်ကန်စွာ ရိုးရှင်းအောင်ပြုလုပ်ရာတွင် အဓိကသော့ချက်ဖြစ်ကြောင်း နှင်းဝေ နားလည်သဘောပေါက်လာသည်− အမြဲတမ်း ကွင်းကိုအရင်ဖွင့်ပြီးမှ ပေါင်းစည်းရမည်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Hnin Wai expand the bracket before combining any terms?",
+            questionMy:
+                "နှင်းဝေသည် ပုဒ်များကို မပေါင်းစည်းမီ ကွင်းကို အဘယ်ကြောင့် အရင်ဖွင့်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because brackets always contain the biggest numbers",
+              "Because the order of operations requires the bracket to be resolved first",
+              "Because her uncle told her to guess the answer",
+              "Because pens are more expensive than notebooks",
+            ],
+            optionsMy: [
+              "ကွင်းများတွင် အမြဲတမ်း အကြီးဆုံးဂဏန်းများ ပါဝင်သောကြောင့်",
+              "အလုပ်လုပ်စဉ်အစီအစဉ် (order of operations) အရ ကွင်းကို အရင်ဆုံးဖြေရှင်းရမည်ဖြစ်သောကြောင့်",
+              "ဦးလေးက အဖြေကို မှန်းဆရန် ပြောခဲ့သောကြောင့်",
+              "ခဲတံသည် စာအုပ်ထက် ဈေးကြီးသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What is 3(2x + y) expanded?",
+            questionMy: "3(2x + y) ကို ကွင်းဖွင့်လိုက်လျှင် မည်သို့ရရှိသနည်း။",
+            optionsEn: ["6x + y", "2x + 3y", "6x + 3y", "5x + y"],
+            optionsMy: ["6x + y", "2x + 3y", "6x + 3y", "5x + y"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the fully simplified expression for the total cost?",
+            questionMy:
+                "စုစုပေါင်းကုန်ကျစရိတ်အတွက် အပြည့်အစုံရိုးရှင်းသွားသော အသုံးအနှုန်းမှာ အဘယ်နည်း။",
+            optionsEn: ["6x + 3y + 4y", "10xy", "9xy", "6x + 7y"],
+            optionsMy: ["6x + 3y + 4y", "10xy", "9xy", "6x + 7y"],
+            correctIndex: 3,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w6-d5",
+      dayNumber: 5,
+      titleEn: "Expand, Then Collect: Multi-Step Simplifying",
+      titleMy:
+          "ကွင်းဖွင့်ပြီးမှ ပေါင်းစည်းပါ − အဆင့်ဆင့်ရိုးရှင်းအောင်ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify: 2(x + 4) + 3x",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ − 2(x + 4) + 3x",
+          optionsEn: ["6x + 8", "5x + 8", "3x + 8", "5x + 12"],
+          optionsMy: ["6x + 8", "5x + 8", "3x + 8", "5x + 12"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 5(2x - 3) - 4x",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ − 5(2x - 3) - 4x",
+          optionsEn: ["x - 15", "6x - 19", "10x - 19", "6x - 15"],
+          optionsMy: ["x - 15", "6x - 19", "10x - 19", "6x - 15"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 3(x + 2) + 2(x + 1)",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ − 3(x + 2) + 2(x + 1)",
+          optionsEn: ["5x + 6", "6x + 8", "5x + 8", "5x + 3"],
+          optionsMy: ["5x + 6", "6x + 8", "5x + 8", "5x + 3"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student simplified 4(x - 1) + 2x as 4x - 1 + 2x = 6x - 1, but this is wrong. What mistake did the student make, and what is the correct simplified expression?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် 4(x - 1) + 2x ကို 4x - 1 + 2x = 6x - 1 ဟု ရိုးရှင်းအောင်ပြုလုပ်ခဲ့သည်၊ သို့သော် ၎င်းသည် မှားနေသည်။ ကျောင်းသားသည် မည်သည့်အမှားပြုလုပ်ခဲ့ပြီး မှန်ကန်သော ရိုးရှင်းထားသည့်အသုံးအနှုန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The student forgot to multiply the x inside the bracket by 4; the correct answer is 4x - 4",
+            "The student forgot to multiply the -1 inside the bracket by 4; the correct answer is 6x - 4",
+            "The student added the terms in the wrong order; the correct answer is 6x - 1",
+            "The student's answer is already correct",
+          ],
+          optionsMy: [
+            "ကျောင်းသားသည် ကွင်းအတွင်းရှိ x ကို 4 ဖြင့် မြှောက်ရန် မေ့သွားခဲ့သည်၊ မှန်ကန်သောအဖြေမှာ 4x - 4 ဖြစ်သည်",
+            "ကျောင်းသားသည် ကွင်းအတွင်းရှိ -1 ကို 4 ဖြင့် မြှောက်ရန် မေ့သွားခဲ့သည်၊ မှန်ကန်သောအဖြေမှာ 6x - 4 ဖြစ်သည်",
+            "ကျောင်းသားသည် ပုဒ်များကို အစီအစဉ်မှား၍ ပေါင်းခဲ့သည်၊ မှန်ကန်သောအဖြေမှာ 6x - 1 ဖြစ်သည်",
+            "ကျောင်းသား၏အဖြေသည် မှန်ကန်နှင့်ပြီးသားဖြစ်သည်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When simplifying 2(3x + 5) - 4x, why must you expand the bracket before subtracting 4x, based on the order-of-operations rule from Term 1?",
+          questionMy:
+              "2(3x + 5) - 4x ကို ရိုးရှင်းအောင်ပြုလုပ်ရာတွင် ပထမနှစ်ဝက်က သင်ယူခဲ့သော အလုပ်လုပ်စဉ်အစီအစဉ် (order of operations) စည်းမျဉ်းအရ 4x ကို မနုတ်မီ ကွင်းကို အဘယ်ကြောင့် အရင်ဖွင့်ရသနည်း။",
+          optionsEn: [
+            "Because subtraction always comes before multiplication in every expression",
+            "Because 4x is bigger than the bracket, so it must be calculated first",
+            "Because multiplication (expanding the bracket) must be carried out before terms can be added or subtracted, so the bracket is resolved first",
+            "Because brackets are only there for decoration and can be ignored",
+          ],
+          optionsMy: [
+            "အသုံးအနှုန်းတိုင်းတွင် နုတ်ခြင်းသည် မြှောက်ခြင်းထက် အမြဲရှေ့ရောက်နေသောကြောင့်",
+            "4x သည် ကွင်းထက် ပိုကြီးသောကြောင့် အရင်တွက်ရမည်ဖြစ်သောကြောင့်",
+            "မြှောက်ခြင်း (ကွင်းဖွင့်ခြင်း) ကို ပုဒ်များအား ပေါင်းခြင်း (သို့) နုတ်ခြင်းမပြုမီ အရင်ဆုံးလုပ်ဆောင်ရမည်ဖြစ်သောကြောင့်၊ ကွင်းကို အရင်ဖြေရှင်းရသည်",
+            "ကွင်းများသည် အလှဆင်ရုံအတွက်သာဖြစ်ပြီး လျစ်လျူရှုနိုင်သောကြောင့်",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 2, Week 7: "Solving Linear Equations"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek7 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w7",
+  weekNumber: 7,
+  titleEn: "Solving Linear Equations",
+  titleMy: "မျဉ်းဖြောင့် ညီမျှခြင်းများ ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w7-d1",
+      dayNumber: 1,
+      titleEn: "Solving Equations: Keeping the Balance",
+      titleMy: "ညီမျှခြင်းများ ဖြေရှင်းခြင်း - ဟန်ချက်ထိန်းသိမ်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When solving an equation such as x + 7 = 15, why must you perform the same operation on both sides?",
+          questionMy:
+              "x + 7 = 15 ကဲ့သို့သော ညီမျှခြင်းတစ်ခုကို ဖြေရှင်းသည့်အခါ အဘယ်ကြောင့် ဘက်နှစ်ဖက်စလုံးတွင် လုပ်ဆောင်ချက်တစ်ခုတည်းကို ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Because it keeps the equation balanced, so both sides remain equal after the operation.",
+            "Because it makes the equation longer and more detailed.",
+            "Because only the left side of an equation needs to stay true.",
+            "Because it changes the value of x without needing to check the answer.",
+          ],
+          optionsMy: [
+            "ညီမျှခြင်း၏ ဟန်ချက်ကို ထိန်းသိမ်းရန်ဖြစ်ပြီး၊ လုပ်ဆောင်ချက်ပြုလုပ်ပြီးနောက်တွင်လည်း ဘက်နှစ်ဖက်တန်ဖိုးတူညီနေရန်ဖြစ်သည်။",
+            "ညီမျှခြင်းကို ပိုရှည်လျားပြီး အသေးစိတ်ဖြစ်စေရန်ဖြစ်သည်။",
+            "ညီမျှခြင်း၏ ဘယ်ဘက်သာလျှင် မှန်ကန်နေရန် လိုအပ်သောကြောင့်ဖြစ်သည်။",
+            "အဖြေကို စစ်ဆေးရန် မလိုအပ်ဘဲ x ၏တန်ဖိုးကို ပြောင်းလဲစေရန်ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: x + 9 = 14",
+          questionMy: "x ကိုရှာပါ။ x + 9 = 14",
+          optionsEn: ["x = 5", "x = 23", "x = -5", "x = 126"],
+          optionsMy: ["x = 5", "x = 23", "x = -5", "x = 126"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 5x = 35",
+          questionMy: "x ကိုရှာပါ။ 5x = 35",
+          optionsEn: ["x = 7", "x = 40", "x = 30", "x = 175"],
+          optionsMy: ["x = 7", "x = 40", "x = 30", "x = 175"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: x - 3 = -2",
+          questionMy: "x ကိုရှာပါ။ x - 3 = -2",
+          optionsEn: ["x = 1", "x = -5", "x = 5", "x = -1"],
+          optionsMy: ["x = 1", "x = -5", "x = 5", "x = -1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two-step equations need two inverse operations. Solve for x: 2x + 3 = 11",
+          questionMy:
+              "နှစ်ဆင့် ညီမျှခြင်းများကို ဖြေရှင်းရန် ပြောင်းပြန်လုပ်ဆောင်ချက် နှစ်ခု လိုအပ်သည်။ x ကိုရှာပါ။ 2x + 3 = 11",
+          optionsEn: ["x = 4", "x = 7", "x = 5.5", "x = 8"],
+          optionsMy: ["x = 4", "x = 7", "x = 5.5", "x = 8"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w7-d2",
+      dayNumber: 2,
+      titleEn: "Equation Vocabulary and Worked Examples",
+      titleMy: "ညီမျှခြင်းဆိုင်ရာ ဝေါဟာရနှင့် နမူနာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w7-dm-1",
+          termEn: "Inverse operation",
+          termMy: "ပြောင်းပြန်လုပ်ဆောင်ချက်",
+          matchEn:
+              "The opposite operation that cancels another out, such as subtraction cancelling addition — used to isolate x.",
+          matchMy:
+              "အခြားလုပ်ဆောင်ချက်တစ်ခုကို ပယ်ဖျက်ပေးသည့် ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက်ဖြစ်ပြီး x ကို သီးခြားရှာရန် အသုံးပြုသည် (ဥပမာ- အနုတ်သည် အပေါင်းကို ပယ်ဖျက်ပေးသည်)။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w7-dm-2",
+          termEn: "One-step equation",
+          termMy: "တစ်ဆင့်တည်း ညီမျှခြင်း",
+          matchEn:
+              "An equation that needs only one inverse operation to solve, e.g. x - 4 = 9, solved by adding 4 to both sides to get x = 13.",
+          matchMy:
+              "ဖြေရှင်းရန် ပြောင်းပြန်လုပ်ဆောင်ချက် တစ်ခုသာ လိုအပ်သည့် ညီမျှခြင်းဖြစ်သည်။ ဥပမာ- x - 4 = 9 ကို ဘက်နှစ်ဖက်တွင် 4 ပေါင်းပြီး x = 13 ဟု ဖြေရှင်းနိုင်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w7-dm-3",
+          termEn: "Two-step equation",
+          termMy: "နှစ်ဆင့် ညီမျှခြင်း",
+          matchEn:
+              "An equation that needs two inverse operations to solve, e.g. 3x - 5 = 10, solved by adding 5 then dividing by 3 to get x = 5.",
+          matchMy:
+              "ဖြေရှင်းရန် ပြောင်းပြန်လုပ်ဆောင်ချက် နှစ်ခု လိုအပ်သည့် ညီမျှခြင်းဖြစ်သည်။ ဥပမာ- 3x - 5 = 10 ကို ဘက်နှစ်ဖက်တွင် 5 ပေါင်းပြီးနောက် 3 ဖြင့်စား၍ x = 5 ဟု ဖြေရှင်းနိုင်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w7-dm-4",
+          termEn: "Balancing an equation",
+          termMy: "ညီမျှခြင်း ဟန်ချက်ထိန်းသိမ်းခြင်း",
+          matchEn:
+              "Performing the exact same operation on both sides of the equation so that the two sides remain equal.",
+          matchMy:
+              "ညီမျှခြင်း၏ ဘက်နှစ်ဖက်စလုံးတွင် လုပ်ဆောင်ချက်တူတူကို ပြုလုပ်ခြင်းဖြင့် ဘက်နှစ်ဖက်၏ တန်ဖိုးကို ဆက်လက်တူညီနေစေခြင်းဖြစ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w7-dm-5",
+          termEn: "Solution of an equation",
+          termMy: "ညီမျှခြင်း၏ အဖြေ",
+          matchEn:
+              "The value of the variable that makes the equation true, e.g. x = 6 is the solution of x + 1 = 7.",
+          matchMy:
+              "ညီမျှခြင်းကို မှန်ကန်စေသည့် ကိန်းရှင်၏ တန်ဖိုးဖြစ်သည်။ ဥပမာ- x + 1 = 7 ၏ အဖြေမှာ x = 6 ဖြစ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sorting One-Step vs Two-Step Equations",
+      titleMy: "တစ်ဆင့်နှင့် နှစ်ဆင့် ညီမျှခြင်းများ ခွဲခြားခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["One-Step Equation", "Two-Step Equation"],
+        bucketsMy: ["တစ်ဆင့်တည်း ညီမျှခြင်း", "နှစ်ဆင့် ညီမျှခြင်း"],
+        items: [
+          SortingItem(
+            id: "s1math-w7-sort-1",
+            labelEn: "x + 5 = 10",
+            labelMy: "x + 5 = 10",
+            correctBucketEn: "One-Step Equation",
+            correctBucketMy: "တစ်ဆင့်တည်း ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w7-sort-2",
+            labelEn: "2x + 3 = 11",
+            labelMy: "2x + 3 = 11",
+            correctBucketEn: "Two-Step Equation",
+            correctBucketMy: "နှစ်ဆင့် ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w7-sort-3",
+            labelEn: "7x = 21",
+            labelMy: "7x = 21",
+            correctBucketEn: "One-Step Equation",
+            correctBucketMy: "တစ်ဆင့်တည်း ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w7-sort-4",
+            labelEn: "3x - 5 = 10",
+            labelMy: "3x - 5 = 10",
+            correctBucketEn: "Two-Step Equation",
+            correctBucketMy: "နှစ်ဆင့် ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w7-sort-5",
+            labelEn: "x - 8 = -3",
+            labelMy: "x - 8 = -3",
+            correctBucketEn: "One-Step Equation",
+            correctBucketMy: "တစ်ဆင့်တည်း ညီမျှခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w7-sort-6",
+            labelEn: "5x + 1 = 16",
+            labelMy: "5x + 1 = 16",
+            correctBucketEn: "Two-Step Equation",
+            correctBucketMy: "နှစ်ဆင့် ညီမျှခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w7-d4",
+      dayNumber: 4,
+      titleEn: "A Word Problem at the Mohinga Stall",
+      titleMy: "မုန့်ဟင်းခါးဆိုင်မှ စကားပုံပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Mohinga Stall",
+        titleMy: "စုစု၏ မုန့်ဟင်းခါးဆိုင်",
+        passageEn:
+            "Every Saturday morning, Su Su helps her mother sell mohinga at the small stall near their house in Mandalay. On this Saturday, her mother gave her a puzzle instead of just handing her the day's earnings. \"I started with some money in the cash box,\" her mother said, \"then I added the 3,000 kyats you earned from selling the extra bowls, and now there are 11,000 kyats in the box. But the money didn't come in one go — first I doubled whatever was already there from yesterday, and only after that did I add your 3,000 kyats.\" Su Su wrote this as an equation: 2x + 3 = 11, where x stood for the amount in thousands of kyats left over from yesterday. At first, Su Su tried to divide everything by 2 straight away, since multiplication usually happens before addition when you calculate an expression. But her mother reminded her that solving an equation works in the opposite order: you undo the addition or subtraction first, and only afterward undo the multiplication or division. So Su Su first subtracted 3 from both sides, leaving 2x = 8, and then divided both sides by 2, giving x = 4. That meant 4,000 kyats had been left over from yesterday. To make sure she was right, Su Su checked her answer by substituting x = 4 back into the original equation: 2 times 4 is 8, plus 3 is 11 — exactly matching the 11,000 kyats in the box. Her mother smiled and said that checking a solution this way is just as important as finding it, because a quick substitution can catch a careless mistake before it causes real trouble, especially when handling real money. From then on, Su Su always checked her answers, whether the equation had one step or two, and whether the solution turned out to be a whole number, a negative number, or anything in between.",
+        passageMy:
+            "စနေနေ့နံနက်တိုင်း စုစုသည် အမေနှင့်အတူ အိမ်အနီးရှိ မုန့်ဟင်းခါးဆိုင်ကလေးတွင် အကူအညီပေးလေ့ရှိသည်။ ဒီစနေနေ့တွင် အမေက ထိုနေ့ရရှိငွေကို တိုက်ရိုက်ပေးမည့်အစား ပဟေဠိတစ်ခု ပေးလိုက်သည်။ \"အမေ ငွေသေတ္တာထဲမှာ ငွေအနည်းငယ်နဲ့ စခဲ့တယ်\" ဟု အမေက ပြောသည်၊ \"ပြီးတော့ မင်းရောင်းရတဲ့ ဇွန်းအပို ငွေ 3,000 ကျပ်ကို ပေါင်းလိုက်လို့ အခု ငွေသေတ္တာထဲမှာ 11,000 ကျပ် ရှိနေတယ်။ ဒါပေမယ့် ငွေက တစ်ခါတည်း ဝင်လာတာ မဟုတ်ဘူး — ပထမဆုံး မနေ့ကကျန်ငွေကို နှစ်ဆတိုးခဲ့ပြီး၊ အဲဒီနောက်မှသာ မင်းရဲ့ 3,000 ကျပ်ကို ပေါင်းခဲ့တာ။\" စုစုက ဒါကို ညီမျှခြင်းအဖြစ် ရေးချသည် - 2x + 3 = 11 ။ ဤတွင် x သည် မနေ့ကကျန်ခဲ့သော ငွေ (ကျပ်ထောင်ချီ) ကို ကိုယ်စားပြုသည်။ ပထမတွင် စုစုသည် အသုံးအနှုန်းများကို တွက်ချက်သည့်အခါ အမြှောက်လုပ်ဆောင်ချက်ကို အပေါင်းလုပ်ဆောင်ချက်ထက် ဦးစွာလုပ်လေ့ရှိသောကြောင့် အားလုံးကို ချက်ချင်း 2 ဖြင့် စားရန် ကြိုးစားမိသည်။ သို့သော် အမေက ညီမျှခြင်းတစ်ခုကို ဖြေရှင်းသည့်အခါ ဆန့်ကျင်ဘက်အစီအစဉ်ဖြင့် လုပ်ဆောင်ရကြောင်း သတိပေးသည် - အပေါင်း သို့မဟုတ် အနုတ်ကို ဦးစွာပြန်ဖျက်ပြီးမှသာ အမြှောက် သို့မဟုတ် အစားကို နောက်ဆုံးမှ ပြန်ဖျက်ရသည်။ ထို့ကြောင့် စုစုသည် ဘက်နှစ်ဖက်စလုံးမှ 3 ကို ဦးစွာနုတ်လိုက်ရာ 2x = 8 ကျန်ခဲ့ပြီး၊ ထို့နောက် ဘက်နှစ်ဖက်စလုံးကို 2 ဖြင့်စားလိုက်ရာ x = 4 ဟု ရရှိခဲ့သည်။ ဆိုလိုသည်မှာ မနေ့ကကျန်ငွေမှာ 4,000 ကျပ် ဖြစ်သည်။ မိမိအဖြေမှန်မမှန် သေချာစေရန် စုစုသည် x = 4 ကို မူရင်းညီမျှခြင်းထဲသို့ ပြန်ထည့်၍ စစ်ဆေးသည် - 2 ကို 4 နှင့်မြှောက်လျှင် 8 ရရှိပြီး၊ 3 ထပ်ပေါင်းလျှင် 11 ရရှိသဖြင့် ငွေသေတ္တာထဲရှိ 11,000 ကျပ်နှင့် အတိအကျ ကိုက်ညီသည်။ အမေက ပြုံးပြီး ဤသို့ အဖြေကို ပြန်စစ်ဆေးခြင်းသည် အဖြေရှာခြင်းလောက်ပင် အရေးကြီးကြောင်း ပြောပြသည်၊ အကြောင်းမှာ အမြန်ပြန်ထည့်စစ်ဆေးခြင်းက အမှားလေးများကို အမှန်တကယ် ငွေကိစ္စဖြစ်လာမီ ဖမ်းမိနိုင်သောကြောင့်ဖြစ်သည်။ ထိုနေ့မှစတင်၍ စုစုသည် ညီမျှခြင်းသည် တစ်ဆင့်ဖြစ်စေ နှစ်ဆင့်ဖြစ်စေ၊ အဖြေသည် ကိန်းပြည့်ဖြစ်စေ၊ အနုတ်ကိန်းဖြစ်စေ မည်သို့ပင်ဖြစ်စေ မိမိအဖြေများကို အမြဲပြန်စစ်ဆေးလေ့ ရှိလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "In the equation 2x + 3 = 11 from the passage, which operation should Su Su undo first?",
+            questionMy:
+                "အထက်ပါဇာတ်လမ်းရှိ 2x + 3 = 11 ညီမျှခြင်းတွင် စုစုသည် မည်သည့်လုပ်ဆောင်ချက်ကို ဦးစွာပြန်ဖျက်သင့်သနည်း။",
+            optionsEn: [
+              "Addition/subtraction (subtract 3 from both sides first)",
+              "Multiplication (divide by 2 first)",
+              "Squaring the whole equation",
+              "Nothing — just guess and check",
+            ],
+            optionsMy: [
+              "အပေါင်း/အနုတ် လုပ်ဆောင်ချက် (ဘက်နှစ်ဖက်စလုံးမှ 3 ကို ဦးစွာနုတ်ရမည်)",
+              "အမြှောက်လုပ်ဆောင်ချက် (ဦးစွာ 2 ဖြင့် စားရမည်)",
+              "ညီမျှခြင်းတစ်ခုလုံးကို စတုရမြှောက်ခြင်း",
+              "ဘာမှမလုပ်ဘဲ ခန့်မှန်းရုံသာ လုပ်ရမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the amount of money left over from yesterday (the value of x)?",
+            questionMy:
+                "ဇာတ်လမ်းအရ မနေ့ကကျန်ခဲ့သော ငွေပမာဏ (x ၏တန်ဖိုး) မည်မျှရှိသနည်း။",
+            optionsEn: [
+              "4,000 kyats (x = 4)",
+              "8,000 kyats",
+              "11,000 kyats",
+              "3,000 kyats",
+            ],
+            optionsMy: [
+              "4,000 ကျပ် (x = 4)",
+              "8,000 ကျပ်",
+              "11,000 ကျပ်",
+              "3,000 ကျပ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su substitute x = 4 back into the original equation?",
+            questionMy:
+                "စုစုသည် x = 4 ကို မူရင်းညီမျှခြင်းထဲသို့ အဘယ်ကြောင့် ပြန်ထည့်ခဲ့သနည်း။",
+            optionsEn: [
+              "To check that her solution makes the equation true.",
+              "To find a completely different equation.",
+              "To change the value of x into a negative number.",
+              "To make the equation harder to solve.",
+            ],
+            optionsMy: [
+              "မိမိအဖြေသည် ညီမျှခြင်းကို မှန်ကန်စေကြောင်း စစ်ဆေးရန်ဖြစ်သည်။",
+              "လုံးဝကွဲပြားသော ညီမျှခြင်းတစ်ခုကို ရှာဖွေရန်ဖြစ်သည်။",
+              "x ၏တန်ဖိုးကို အနုတ်ကိန်းအဖြစ် ပြောင်းလဲရန်ဖြစ်သည်။",
+              "ညီမျှခြင်းကို ပိုမိုခက်ခဲစေရန်ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w7-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Equations Meet Directed Numbers",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ညီမျှခြင်းနှင့် ဦးတည်ကိန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Solve for x, then check your answer using directed-number addition: x + 6 = 2",
+          questionMy:
+              "x ကိုရှာပြီး ဦးတည်ကိန်း အပေါင်းစည်းမျဉ်းဖြင့် အဖြေကို စစ်ဆေးပါ။ x + 6 = 2",
+          optionsEn: ["x = -4 (since -4 + 6 = 2)", "x = 8", "x = 4", "x = -8"],
+          optionsMy: [
+            "x = -4 (အကြောင်းမှာ -4 + 6 = 2 ဖြစ်သောကြောင့်)",
+            "x = 8",
+            "x = 4",
+            "x = -8",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 3x + 7 = 1",
+          questionMy: "x ကိုရှာပါ။ 3x + 7 = 1",
+          optionsEn: ["x = -2", "x = 2", "x = -8", "x = 8"],
+          optionsMy: ["x = -2", "x = 2", "x = -8", "x = 8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: -3x = 12",
+          questionMy: "x ကိုရှာပါ။ -3x = 12",
+          optionsEn: ["x = -4", "x = 4", "x = -36", "x = 36"],
+          optionsMy: ["x = -4", "x = 4", "x = -36", "x = 36"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A number x is multiplied by 2, then 5 is subtracted, giving a result of -3. Which equation correctly models this, and what is the solution?",
+          questionMy:
+              "ကိန်း x ကို 2 ဖြင့်မြှောက်ပြီး 5 ကိုနုတ်လိုက်လျှင် အဖြေမှာ -3 ဖြစ်သည်။ ဤအခြေအနေကို မှန်ကန်စွာ ကိုယ်စားပြုသည့် ညီမျှခြင်းနှင့် အဖြေမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "2x - 5 = -3, so x = 1",
+            "2x - 5 = -3, so x = -1",
+            "2x + 5 = -3, so x = -4",
+            "2x - 5 = -3, so x = 4",
+          ],
+          optionsMy: [
+            "2x - 5 = -3 ဖြစ်ပြီး x = 1",
+            "2x - 5 = -3 ဖြစ်ပြီး x = -1",
+            "2x + 5 = -3 ဖြစ်ပြီး x = -4",
+            "2x - 5 = -3 ဖြစ်ပြီး x = 4",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Check the solution: is x = -6 correct for the equation x - 4 = -10?",
+          questionMy:
+              "အဖြေကို စစ်ဆေးပါ - x - 4 = -10 ညီမျှခြင်းအတွက် x = -6 သည် မှန်ကန်ပါသလား။",
+          optionsEn: [
+            "Yes, because -6 - 4 = -10, which matches the equation.",
+            "No, because -6 - 4 = -2, which does not match.",
+            "No, because -6 - 4 = 10, which does not match.",
+            "Yes, because -6 + 4 = -10, which matches the equation.",
+          ],
+          optionsMy: [
+            "မှန်ကန်သည်၊ အကြောင်းမှာ -6 - 4 = -10 ဖြစ်ပြီး ညီမျှခြင်းနှင့် ကိုက်ညီသောကြောင့်ဖြစ်သည်။",
+            "မမှန်ကန်ပါ၊ အကြောင်းမှာ -6 - 4 = -2 ဖြစ်ပြီး ကိုက်ညီမှုမရှိသောကြောင့်ဖြစ်သည်။",
+            "မမှန်ကန်ပါ၊ အကြောင်းမှာ -6 - 4 = 10 ဖြစ်ပြီး ကိုက်ညီမှုမရှိသောကြောင့်ဖြစ်သည်။",
+            "မှန်ကန်သည်၊ အကြောင်းမှာ -6 + 4 = -10 ဖြစ်ပြီး ညီမျှခြင်းနှင့် ကိုက်ညီသောကြောင့်ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 2, Week 8: "Capstone: Forming and
+// Solving Equations"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek8 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w8",
+  weekNumber: 8,
+  titleEn: "Capstone: Forming and Solving Equations",
+  titleMy: "နိဂုံးချုပ် — ညီမျှခြင်းများ ဖွဲ့စည်းခြင်းနှင့် ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w8-d1",
+      dayNumber: 1,
+      titleEn: "From Words to Answers: Forming and Solving Equations",
+      titleMy: "စကားလုံးမှ အဖြေအထိ — ညီမျှခြင်းဖွဲ့စည်းပြီး ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Aye Aye thinks of a number, multiplies it by 4, then subtracts 3. The result is 21. Which equation represents this situation?",
+          questionMy:
+              "အေးအေးသည် ကိန်းတစ်ခုကို တွေးထားပြီး ၄ ဖြင့်မြှောက်ကာ ၃ နုတ်လိုက်ရာ ရလဒ်မှာ ၂၁ ဖြစ်သည်။ ဤအခြေအနေကို ကိုယ်စားပြုသော ညီမျှခြင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "4n - 3 = 21",
+            "4n + 3 = 21",
+            "3n - 4 = 21",
+            "n/4 - 3 = 21",
+          ],
+          optionsMy: [
+            "4n - 3 = 21",
+            "4n + 3 = 21",
+            "3n - 4 = 21",
+            "n/4 - 3 = 21",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve the equation 4n - 3 = 21 for n.",
+          questionMy: "4n - 3 = 21 ညီမျှခြင်းတွင် n ကိုရှာပါ။",
+          optionsEn: ["n = 6", "n = 8", "n = 5", "n = 24"],
+          optionsMy: ["n = 6", "n = 8", "n = 5", "n = 24"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rectangle's length is 3 cm more than twice its width w. Which expression gives the length?",
+          questionMy:
+              "ထောင့်မှန်ပုံသဏ္ဍာန်တစ်ခု၏ အလျားသည် အကျယ် w ၏ နှစ်ဆထက် ၃ စင်တီမီတာ ပိုသည်။ အလျားကို ဖော်ပြသော အသုံးအနှုန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["2w + 3", "2w - 3", "3w + 2", "w + 3"],
+          optionsMy: ["2w + 3", "2w - 3", "3w + 2", "w + 3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The sum of a number and 9 is multiplied by 2, giving 30. What is the number?",
+          questionMy:
+              "ကိန်းတစ်ခုနှင့် ၉ ၏ ပေါင်းလဒ်ကို ၂ ဖြင့်မြှောက်လျှင် ၃၀ ရသည်။ ကိန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["6", "15", "21", "3"],
+          optionsMy: ["၆", "၁၅", "၂၁", "၃"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Three consecutive integers sum to 36. If the smallest is n, form an equation and solve for n.",
+          questionMy:
+              "ဆက်တိုက်ကိန်းပြည့်သုံးလုံး၏ ပေါင်းလဒ်သည် ၃၆ ဖြစ်သည်။ အငယ်ဆုံးကိန်းကို n ဟုသတ်မှတ်ပါက ညီမျှခြင်းဖွဲ့စည်းပြီး n ကိုရှာပါ။",
+          optionsEn: ["11", "12", "10", "33"],
+          optionsMy: ["၁၁", "၁၂", "၁၀", "၃၃"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w8-d2",
+      dayNumber: 2,
+      titleEn: "Translating Phrases into Expressions and Equations",
+      titleMy:
+          "စကားစုများကို အသုံးအနှုန်းနှင့် ညီမျှခြင်းများအဖြစ် ပြောင်းလဲခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w8-dm-1",
+          termEn: "A number tripled, then increased by 4",
+          termMy: "ကိန်းတစ်ခုကို ၃ဆတိုးပြီး ၄ ပေါင်းထည့်ခြင်း",
+          matchEn: "3n + 4",
+          matchMy: "3n + 4",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w8-dm-2",
+          termEn: "The sum of a number and 7, doubled",
+          termMy: "ကိန်းတစ်ခုနှင့် ၇ ၏ ပေါင်းလဒ်ကို နှစ်ဆတိုးခြင်း",
+          matchEn: "2(n + 7)",
+          matchMy: "2(n + 7)",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w8-dm-3",
+          termEn: "5 less than twice a number",
+          termMy: "ကိန်းတစ်ခု၏ နှစ်ဆမှ ၅ လျော့ခြင်း",
+          matchEn: "2n - 5",
+          matchMy: "2n - 5",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w8-dm-4",
+          termEn: "A number divided by 3, then decreased by 2, equals 6",
+          termMy: "ကိန်းတစ်ခုကို ၃ ဖြင့်စား၍ ၂ လျော့လျှင် ၆ ရသည်",
+          matchEn: "n/3 - 2 = 6",
+          matchMy: "n/3 - 2 = 6",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w8-dm-5",
+          termEn: "Twice the sum of a number and 5 equals 18",
+          termMy: "ကိန်းတစ်ခုနှင့် ၅ ၏ ပေါင်းလဒ်ကို နှစ်ဆတိုးလျှင် ၁၈ ရသည်",
+          matchEn: "2(n + 5) = 18",
+          matchMy: "2(n + 5) = 18",
+          colorValue: 0xFFB5B557,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w8-d3",
+      dayNumber: 3,
+      titleEn: "Spot the Translation Error",
+      titleMy: "ပြောင်းလဲမှု အမှားကို ရှာဖွေခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correctly Translated", "Incorrectly Translated"],
+        bucketsMy: [
+          "မှန်ကန်စွာ ပြောင်းလဲထားသည်",
+          "မှားယွင်းစွာ ပြောင်းလဲထားသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w8-sort-1",
+            labelEn: "A number increased by 5 equals 12 -> n + 5 = 12",
+            labelMy: "ကိန်းတစ်ခုကို ၅ တိုးလျှင် ၁၂ ရသည် -> n + 5 = 12",
+            correctBucketEn: "Correctly Translated",
+            correctBucketMy: "မှန်ကန်စွာ ပြောင်းလဲထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w8-sort-2",
+            labelEn: "A number decreased by 5 equals 12 -> 5 - n = 12",
+            labelMy: "ကိန်းတစ်ခုမှ ၅ လျော့လျှင် ၁၂ ရသည် -> 5 - n = 12",
+            correctBucketEn: "Incorrectly Translated",
+            correctBucketMy: "မှားယွင်းစွာ ပြောင်းလဲထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w8-sort-3",
+            labelEn: "Three times a number is 24 -> 3n = 24",
+            labelMy: "ကိန်းတစ်ခု၏ ၃ဆသည် ၂၄ ဖြစ်သည် -> 3n = 24",
+            correctBucketEn: "Correctly Translated",
+            correctBucketMy: "မှန်ကန်စွာ ပြောင်းလဲထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w8-sort-4",
+            labelEn: "A number divided by 4 equals 9 -> 4/n = 9",
+            labelMy: "ကိန်းတစ်ခုကို ၄ ဖြင့်စားလျှင် ၉ ရသည် -> 4/n = 9",
+            correctBucketEn: "Incorrectly Translated",
+            correctBucketMy: "မှားယွင်းစွာ ပြောင်းလဲထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w8-sort-5",
+            labelEn:
+                "The sum of a number and 8, doubled, is 30 -> 2(n + 8) = 30",
+            labelMy:
+                "ကိန်းတစ်ခုနှင့် ၈ ၏ ပေါင်းလဒ်ကို နှစ်ဆတိုးလျှင် ၃၀ ဖြစ်သည် -> 2(n + 8) = 30",
+            correctBucketEn: "Correctly Translated",
+            correctBucketMy: "မှန်ကန်စွာ ပြောင်းလဲထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w8-sort-6",
+            labelEn: "5 less than a number is 11 -> 5 - n = 11",
+            labelMy: "ကိန်းတစ်ခု၏ ၅ လျော့သည် ၁၁ ဖြစ်သည် -> 5 - n = 11",
+            correctBucketEn: "Incorrectly Translated",
+            correctBucketMy: "မှားယွင်းစွာ ပြောင်းလဲထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w8-d4",
+      dayNumber: 4,
+      titleEn: "The Samosa Bag Mystery",
+      titleMy: "ဆမူဆာအိတ် ဈေးနှုန်း လျှို့ဝှက်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Samosa Bag Mystery",
+        titleMy: "ဆမူဆာအိတ် ဈေးနှုန်း လျှို့ဝှက်ချက်",
+        passageEn:
+            "Su Su spent her school holiday helping her aunt sell fried samosas at a small stall in Zegyo Market, Mandalay. Every morning, her aunt fried a fresh batch and packed them into paper bags of five samosas each, always selling each bag for the same price. One Saturday, a customer named U Tun walked up to the stall and asked for a bulk order for his tea shop. Su Su's aunt explained the pricing simply: 'Each bag costs the same price, and I always charge an extra 200 kyats for wrapping the whole order in a cloth bundle whenever someone buys more than three bags.' U Tun bought several bags and paid a total of 3,200 kyats, which included the 200-kyat wrapping charge. Su Su, who had just learned about forming equations at school, decided to work out the price of one bag herself. She let the price of one bag be p kyats. Her aunt told her that U Tun had bought exactly 6 bags, so Su Su wrote the equation 6p + 200 = 3200. She subtracted 200 from both sides to get 6p = 3000, then divided both sides by 6 to find p = 500. 'Each bag costs 500 kyats,' she announced proudly, and her aunt smiled, confirming she was exactly right. Later that afternoon, a second customer, Daw Khin, asked for a similar bulk order but without the cloth wrapping, since she had brought her own basket. She bought 9 bags and paid a total of 4,500 kyats. Curious, Su Su checked whether this matched the same price per bag. She formed the equation 9p = 4500 and solved it, finding p = 500 again — the very same price as before. This confirmed that the price per bag never changed; only the 200-kyat wrapping fee depended on whether cloth wrapping was needed. Su Su realized that forming an equation from a real situation, simplifying it, and then solving it step by step was exactly the same skill she had been practicing in her algebra lessons — just applied to real kyats and real samosas instead of letters on a page.",
+        passageMy:
+            "စုစုသည် ကျောင်းပိတ်ရက်တွင် မန္တလေးမြို့ ဇေယျာဈေးရှိ ဆိုင်ခန်းလေးတစ်ခု၌ အန္တီနှင့်အတူ ဆမူဆာကြော်များ ရောင်းချရန် ကူညီခဲ့သည်။ နံနက်တိုင်း အန္တီသည် ဆမူဆာအသစ်များကို ကြော်ပြီး တစ်အိတ်လျှင် ငါးလုံးစီ စက္ကူအိတ်ငယ်များထဲသို့ ထည့်ကာ၊ အိတ်တိုင်းကို ဈေးနှုန်းတူညီစွာ ရောင်းချလေ့ရှိသည်။ တစ်ရက်သောစနေနေ့တွင် ဦးထွန်း ဆိုသူ ဖောက်သည်တစ်ဦးသည် သူ၏လက်ဖက်ရည်ဆိုင်အတွက် အများအပြားဝယ်ယူလိုကြောင်း ဆိုင်လာရောက်မေးမြန်းလေသည်။ စုစု၏အန္တီက ဈေးနှုန်းကို ရိုးရှင်းစွာဖော်ပြသည် - 'အိတ်တစ်အိတ်လျှင် ဈေးနှုန်းတူညီပါသည်၊ တစ်စုံတစ်ယောက်က သုံးအိတ်ထက် ပိုဝယ်လျှင် အားလုံးကို အထုပ်ဖြင့် ထုပ်ပေးရသည့်အတွက် ထပ်ဆောင်းငွေကျပ် ၂၀၀ အမြဲကောက်ခံပါသည်' ဟုပြောသည်။ ဦးထွန်းသည် အိတ်အများအပြား ဝယ်ယူပြီး စုစုပေါင်းငွေကျပ် ၃၂၀၀ ပေးချေခဲ့ရာ၊ ယင်းတွင် အထုပ်ခ ၂၀၀ ပါဝင်နှင့်ပြီးဖြစ်သည်။ ကျောင်းတွင် ညီမျှခြင်းများ ဖွဲ့စည်းနည်းကို လတ်တလောသင်ယူထားသော စုစုသည် အိတ်တစ်အိတ်၏ ဈေးနှုန်းကို ကိုယ်တိုင်တွက်ချက်ရန် ဆုံးဖြတ်လိုက်သည်။ သူသည် အိတ်တစ်အိတ်၏ ဈေးနှုန်းကို p ကျပ်ဟု သတ်မှတ်ပြီး၊ အန္တီက ဦးထွန်းသည် အိတ် ၆ အိတ်အတိအကျ ဝယ်ယူခဲ့ကြောင်း ပြောပြသဖြင့် စုစုသည် 6p + 200 = 3200 ဟု ညီမျှခြင်းရေးချခဲ့သည်။ ဘက်နှစ်ဖက်စလုံးမှ ၂၀၀ ကို နုတ်လိုက်သဖြင့် 6p = 3000 ရရှိပြီး၊ ဘက်နှစ်ဖက်စလုံးကို ၆ ဖြင့် စားလိုက်သောအခါ p = 500 ဟု ရရှိသည်။ 'အိတ်တစ်အိတ်ကို ၅၀၀ ကျပ်ဖြစ်ပါတယ်' ဟု စုစုက ဝါကြွားစွာ ကြေညာလိုက်ရာ၊ အန္တီသည် ပြုံးရင်း ထိုအဖြေမှန်ကန်ကြောင်း အတည်ပြုပေးသည်။ ထိုနေ့ညနေပိုင်းတွင် ဒုတိယဖောက်သည် ဒေါ်ခင် ဆိုသူသည် သူမကိုယ်ပိုင် တောင်းတစ်လုံးယူလာသဖြင့် အထုပ်ဖြင့်ထုပ်ပေးစရာမလိုဘဲ အလားတူ အများအပြား ဝယ်ယူလိုကြောင်း တောင်းဆိုလေသည်။ သူမသည် အိတ် ၉ အိတ် ဝယ်ယူပြီး စုစုပေါင်းငွေကျပ် ၄၅၀၀ ပေးချေခဲ့သည်။ စိတ်ဝင်စားသွားသော စုစုသည် ၎င်းသည် အိတ်တစ်အိတ်ဈေးနှုန်းနှင့် ကိုက်ညီမှုရှိမရှိကို စစ်ဆေးကြည့်လေသည်။ သူသည် 9p = 4500 ဟူသော ညီမျှခြင်းကို ဖွဲ့စည်းပြီး ဖြေရှင်းကြည့်ရာ p = 500 ဟု ထပ်မံရရှိသည် - ယခင်ဈေးနှုန်းနှင့် အတိအကျတူညီနေသည်။ ၎င်းက အိတ်တစ်အိတ်ဈေးနှုန်းသည် ဘယ်တော့မှ မပြောင်းလဲဘဲ၊ အထုပ်ခ ၂၀၀ ကျပ်သည်သာ အထုပ်လိုအပ်မှုအလိုက် ပြောင်းလဲကြောင်း သေချာအောင် စစ်ဆေးနိုင်ခဲ့သည်။ အမှန်တကယ်ဖြစ်ရပ်တစ်ခုမှ ညီမျှခြင်းတစ်ခုကို ဖွဲ့စည်းပြီး၊ ရိုးရှင်းအောင်ပြုလုပ်ကာ၊ အဆင့်ဆင့်ဖြေရှင်းခြင်းသည် သူ၏ အက္ခရာသင်္ချာသင်ခန်းစာများတွင် လေ့ကျင့်ခဲ့သည့် ကျွမ်းကျင်မှုအတိုင်းပင်ဖြစ်ကြောင်း၊ စာရွက်ပေါ်ရှိ အက္ခရာများအစား ယခုအခါ ကျပ်ငွေများနှင့် တကယ့်ဆမူဆာများအပေါ် အသုံးချရုံသာ ကွာခြားကြောင်း စုစု နားလည်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What equation did Su Su form to find the price of one bag for U Tun's order?",
+            questionMy:
+                "ဦးထွန်း၏ အော်ဒါအတွက် အိတ်တစ်အိတ်ဈေးနှုန်းရှာရန် စုစု ဖွဲ့စည်းခဲ့သည့် ညီမျှခြင်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "6p + 200 = 3200",
+              "6p - 200 = 3200",
+              "6p + 200 = 3000",
+              "p + 200 = 3200 x 6",
+            ],
+            optionsMy: [
+              "6p + 200 = 3200",
+              "6p - 200 = 3200",
+              "6p + 200 = 3000",
+              "p + 200 = 3200 x 6",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the price of one bag of samosas, p?",
+            questionMy: "ဆမူဆာအိတ်တစ်အိတ်၏ ဈေးနှုန်း p မှာ မည်မျှနည်း။",
+            optionsEn: ["500 kyats", "300 kyats", "700 kyats", "600 kyats"],
+            optionsMy: ["၅၀၀ ကျပ်", "၃၀၀ ကျပ်", "၇၀၀ ကျပ်", "၆၀၀ ကျပ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why didn't Daw Khin's total include the 200-kyat wrapping charge?",
+            questionMy:
+                "ဒေါ်ခင်၏ စုစုပေါင်းငွေတွင် အထုပ်ခ ၂၀၀ ကျပ် အဘယ်ကြောင့် မပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because she bought fewer than 3 bags",
+              "Because she brought her own basket, so no cloth wrapping was needed",
+              "Because she paid in advance",
+              "Because she was a regular customer who got a discount",
+            ],
+            optionsMy: [
+              "အိတ် သုံးအိတ်ထက် နည်းနည်း ဝယ်ယူသောကြောင့်",
+              "သူမ ကိုယ်ပိုင်တောင်းကို ယူဆောင်လာသဖြင့် အထုပ်ဖြင့် ထုပ်ပေးစရာမလိုသောကြောင့်",
+              "ကြိုတင်ငွေပေးချေထားသောကြောင့်",
+              "မှန်ကန်သော ဖောက်သည်ဟောင်းဖြစ်၍ လျှော့စျေးရသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Grand Recap: Translate, Simplify, Solve",
+      titleMy:
+          "Term 2 နိဂုံးချုပ် ပြန်လည်သုံးသပ်ချက် — ပြောင်းလဲ၊ ရိုးရှင်း၊ ဖြေရှင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Week 5's skill (translating words to expressions), Week 6's skill (expanding), and Term 1 Week 1's skill (directed numbers), find the expanded expression for: 'A number added to negative 3, then the sum multiplied by 4.'",
+          questionMy:
+              "Week 5 ၏ကျွမ်းကျင်မှု (စကားလုံးများကို အသုံးအနှုန်းအဖြစ် ပြောင်းခြင်း)၊ Week 6 ၏ကျွမ်းကျင်မှု (ချဲ့ထွင်ခြင်း) နှင့် Term 1 Week 1 ၏ကျွမ်းကျင်မှု (အနှုတ်/အပေါင်း ဂဏန်းများ) တို့ကို အသုံးပြု၍ 'ကိန်းတစ်ခုနှင့် အနှုတ် ၃ ကို ပေါင်းထား၍ ရလဒ်ကို ၄ ဖြင့်မြှောက်ခြင်း' အတွက် ချဲ့ထွင်ထားသော အသုံးအနှုန်းကို ရှာပါ။",
+          optionsEn: ["4n - 12", "4n + 12", "4n - 3", "n - 12"],
+          optionsMy: ["4n - 12", "4n + 12", "4n - 3", "n - 12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 6's skill (expanding and simplifying) combined with Week 7's skill (solving equations), simplify and solve: 3(x + 4) - 5 = 25.",
+          questionMy:
+              "Week 6 ၏ကျွမ်းကျင်မှု (ချဲ့ထွင်ပြီး ရိုးရှင်းအောင်ပြုလုပ်ခြင်း) နှင့် Week 7 ၏ကျွမ်းကျင်မှု (ညီမျှခြင်းဖြေရှင်းခြင်း) တို့ကို ပေါင်းစပ်အသုံးပြု၍ 3(x + 4) - 5 = 25 ကို ရိုးရှင်းအောင်ပြုလုပ်ပြီး ဖြေရှင်းပါ။",
+          optionsEn: ["x = 6", "x = 8", "x = 13", "x = 4"],
+          optionsMy: ["x = 6", "x = 8", "x = 13", "x = 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Term 1 Week 3's skill (order of operations / BODMAS) combined with Week 7's skill (solving equations), solve for x: 5x - 2 x 3 = 19.",
+          questionMy:
+              "Term 1 Week 3 ၏ကျွမ်းကျင်မှု (ဂဏန်းတွက်ခြင်း အစီအစဉ် / BODMAS) နှင့် Week 7 ၏ကျွမ်းကျင်မှု (ညီမျှခြင်းဖြေရှင်းခြင်း) တို့ကို ပေါင်းစပ်အသုံးပြု၍ 5x - 2 x 3 = 19 တွင် x ကို ရှာပါ။",
+          optionsEn: ["x = 5", "x = 3", "x = 4.4", "x = 17"],
+          optionsMy: ["x = 5", "x = 3", "x = 4.4", "x = 17"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 5's skill (translating words to an equation) combined with Week 7's skill (solving equations), and remembering Term 1's directed-number rules, form and solve: 'I think of a number, subtract 8, then double the result to get negative 10.' Find the number.",
+          questionMy:
+              "Week 5 ၏ကျွမ်းကျင်မှု (စကားလုံးများကို ညီမျှခြင်းအဖြစ် ပြောင်းခြင်း) နှင့် Week 7 ၏ကျွမ်းကျင်မှု (ညီမျှခြင်းဖြေရှင်းခြင်း) တို့ကို ပေါင်းစပ်ကာ Term 1 ၏ အနှုတ်/အပေါင်း ဂဏန်းစည်းမျဉ်းများကိုပါ သတိရလျက် 'ကိန်းတစ်ခုကို တွေးထားသည်၊ ၈ နုတ်ပြီး ရလဒ်ကို နှစ်ဆတိုးလျှင် အနှုတ် ၁၀ ရသည်' ဟူသော ဖော်ပြချက်အတွက် ညီမျှခြင်းဖွဲ့ပြီး ဖြေရှင်းကာ ကိန်းကိုရှာပါ။",
+          optionsEn: ["n = 3", "n = -3", "n = 13", "n = -13"],
+          optionsMy: ["n = 3", "n = -3", "n = 13", "n = -13"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Capstone: Using Week 5's skill (translating), Week 6's skill (expanding/simplifying), and Week 7's skill (solving) together — a rectangular garden's length is 4 metres more than twice its width w. If the perimeter (2 x (length + width)) is 38 metres, form the equation, simplify it, and solve for w.",
+          questionMy:
+              "အနှစ်ချုပ်မေးခွန်း — Week 5 ၏ကျွမ်းကျင်မှု (ပြောင်းလဲရေးသားခြင်း)၊ Week 6 ၏ကျွမ်းကျင်မှု (ချဲ့ထွင်ပြီး ရိုးရှင်းအောင်ပြုလုပ်ခြင်း) နှင့် Week 7 ၏ကျွမ်းကျင်မှု (ဖြေရှင်းခြင်း) တို့ကို အတူတကွ အသုံးပြု၍ ထောင့်မှန်ဥယျာဉ်တစ်ခု၏ အလျားသည် အကျယ် w ၏ နှစ်ဆထက် ၄ မီတာ ပိုသည်။ ဝန်းရံအကျယ် (2 x (အလျား + အကျယ်)) သည် ၃၈ မီတာဖြစ်ပါက ညီမျှခြင်းကို ဖွဲ့စည်းပြီး ရိုးရှင်းအောင်ပြုလုပ်ကာ w ကိုရှာပါ။",
+          optionsEn: ["w = 5", "w = 6", "w = 3", "w = 15"],
+          optionsMy: ["w = 5", "w = 6", "w = 3", "w = 15"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 2: "Algebra Foundations" -- the second
+/// milestone of the pathway (see [secondary1MathematicsPathway]), picking
+/// up directly from Term 1's number-skills foundation. Week 5 introduces
+/// algebra from scratch (variables, translating words to expressions,
+/// substitution), explicitly folding Term 1 Week 1's directed-number
+/// skill into substitution with negative values; Week 6 covers
+/// simplifying expressions (collecting like terms, expanding a single
+/// bracket via the distributive property), explicitly folding Term 1
+/// Week 3's order-of-operations discipline into "expand first, then
+/// combine"; Week 7 covers solving one-step and two-step linear
+/// equations via inverse operations/balancing, again folding in
+/// Term 1 Week 1's directed numbers for negative solutions; Week 8
+/// closes the term with a capstone that combines all three -- translating
+/// a word problem into an equation (Week 5), simplifying/expanding it if
+/// needed (Week 6), and solving it (Week 7) -- in real-world contexts
+/// (ages, money, perimeters), plus an explicit Term 1 callback in the
+/// closing recap quiz.
+const CourseTermDef _secondary1MathematicsTerm2 = CourseTermDef(
+  id: "course-secondary1-mathematics-t2",
+  termNumber: 2,
+  titleEn: "Algebra Foundations",
+  titleMy: "အက္ခရာသင်္ချာ အခြေခံ",
+  certificateTitleEn: "Algebra Foundations",
+  certificateTitleMy: "အက္ခရာသင်္ချာ အခြေခံ",
+  weeks: [
+    _secondary1MathematicsWeek5,
+    _secondary1MathematicsWeek6,
+    _secondary1MathematicsWeek7,
+    _secondary1MathematicsWeek8,
+  ],
 );
