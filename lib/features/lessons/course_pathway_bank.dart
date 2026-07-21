@@ -8,24 +8,37 @@
 /// `markModuleCompleted`/`activeChildProvider` machinery via each daily
 /// lesson's [DailyLessonDef.id] -- no Firestore schema changes needed.
 ///
-/// Secondary 1 Computing, Terms 1-2 (Weeks 1-8) are fully authored (see
-/// [secondary1ComputingPathway]) -- two complete terms proving the
+/// Secondary 1 Computing's full 36-week, 9-term pathway (see
+/// [secondary1ComputingPathway]) is now complete: Term 1 (Computing
+/// Foundations) and Term 2 (Networks, the Internet & Data) proved the
 /// pipeline end-to-end (data model, all four interaction types, gamified
-/// path UI, persisted completion) before committing to authoring Term 3.
-/// Weeks 1-4 (Term 1) follow a deliberate Cambridge/Collins-style spiral:
-/// Week 1 introduces hardware vs. software and input/output/storage; Week
-/// 2 revisits storage at a deeper level (CPU/RAM/motherboard -- processing
-/// vs. memory vs. storage); Week 3 revisits the hardware/software split
-/// from the software side (system vs. application software); Week 4
-/// applies both back to a practical skill (organizing files/folders),
-/// reinforcing storage and software concepts in a new context rather than
-/// introducing them once and moving on. Weeks 5-8 (Term 2) continue the
-/// spiral outward: Week 5 introduces networks (LAN/WAN, wired/wireless);
-/// Week 6 narrows to the specific internet service students already use
-/// day-to-day (the Web, browsers, search engines); Week 7 revisits that
-/// same internet/network territory through an online-safety lens; Week 8
-/// closes the term by revisiting Term 1 Week 2's storage/hardware content
-/// at a deeper level -- how storage is actually made of bits and bytes.
+/// path UI, persisted completion); Terms 3, 4, 5 and 7 built a
+/// Programming Fundamentals arc from algorithms/flowcharts through
+/// pseudocode variables and selection/iteration to real Python-style
+/// code; Term 6 (Data Representation) and Term 8 (Digital Citizenship &
+/// Online Safety) broke up that arc with breadth strands so a real
+/// full-year course doesn't read as programming end-to-end; Term 9
+/// (Computational Thinking & Your Own Project) closes the year by naming
+/// the decomposition/abstraction/pattern-recognition skills used
+/// implicitly throughout, then has students plan and build a program of
+/// their own. Weeks 1-4 (Term 1) follow a deliberate Cambridge/Collins-
+/// style spiral: Week 1 introduces hardware vs. software and
+/// input/output/storage; Week 2 revisits storage at a deeper level
+/// (CPU/RAM/motherboard -- processing vs. memory vs. storage); Week 3
+/// revisits the hardware/software split from the software side (system
+/// vs. application software); Week 4 applies both back to a practical
+/// skill (organizing files/folders), reinforcing storage and software
+/// concepts in a new context rather than introducing them once and
+/// moving on. Weeks 5-8 (Term 2) continue the spiral outward: Week 5
+/// introduces networks (LAN/WAN, wired/wireless); Week 6 narrows to the
+/// specific internet service students already use day-to-day (the Web,
+/// browsers, search engines); Week 7 revisits that same internet/network
+/// territory through an online-safety lens; Week 8 closes the term by
+/// revisiting Term 1 Week 2's storage/hardware content at a deeper level
+/// -- how storage is actually made of bits and bytes. This spiral
+/// pattern (revisit earlier strands at a deeper level in a new context,
+/// rather than teach once and move on) continues across every later term
+/// through Week 36.
 library;
 
 import '../../models/child_model.dart';
@@ -12984,14 +12997,1810 @@ const CourseTermDef _secondary1ComputingTerm8 = CourseTermDef(
   ], // Term 8 complete (Weeks 29-32)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-8 (Weeks 1-32) are
-/// now represented -- [totalWeeks] stays 36 (the full roadmap's true
-/// size) even though each term's [weeks] list is only a 4-week vertical
-/// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 32". Each [CourseTermDef]
-/// is a short thematic/certificate milestone (Coursera-style), not a
-/// literal 12-week school term, so the pathway grows via more terms
-/// (9...) rather than by inflating any one term to 12 weeks.
+// =====================================================================
+// Secondary 1 Computing -- Term 9, Week 33: "What is Computational
+// Thinking?"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek33 = CourseWeekDef(
+  id: "course-secondary1-computing-w33",
+  weekNumber: 33,
+  titleEn: "What is Computational Thinking?",
+  titleMy: "Computational Thinking ဆိုသည်မှာ အဘယ်နည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w33-d1",
+      dayNumber: 1,
+      titleEn: "Breaking Problems Into Pieces",
+      titleMy: "ပြဿနာများကို အစိတ်အပိုင်းများခွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is decomposition in computational thinking?",
+          questionMy:
+              "Computational thinking တွင် decomposition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breaking a big problem into smaller, easier pieces",
+            "Deleting a problem completely",
+            "Making a problem bigger and harder",
+            "Ignoring a problem until it goes away",
+          ],
+          optionsMy: [
+            "ပြဿနာကြီးတစ်ခုကို ပိုလွယ်ကူသော အစိတ်အပိုင်းငယ်များအဖြစ် ခွဲခြင်း",
+            "ပြဿနာကို လုံးဝဖျက်ပစ်ခြင်း",
+            "ပြဿနာကို ပိုကြီးပြီး ပိုခက်ခဲအောင်လုပ်ခြင်း",
+            "ပြဿနာကို လျစ်လျူရှုထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You have used decomposition all year without naming it. Which earlier skill was really decomposition?",
+          questionMy:
+              "သင်သည် ဒီနှစ်တစ်ခုလုံး နာမည်မတပ်ဘဲ decomposition ကို သုံးခဲ့ပြီးဖြစ်သည်။ အရင်ကသင်ခဲ့သော ဘယ်ကျွမ်းကျင်မှုက အမှန်တကယ် decomposition ဖြစ်သနည်း။",
+          optionsEn: [
+            "Breaking an algorithm into a sequence of small steps",
+            "Choosing a strong password",
+            "Drawing a flowchart oval shape",
+            "Printing text on the screen",
+          ],
+          optionsMy: [
+            "Algorithm တစ်ခုကို အဆင့်ငယ်များအစီအစဉ်အဖြစ် ခွဲခြင်း",
+            "ခိုင်မာသောစကားဝှက် ရွေးချယ်ခြင်း",
+            "Flowchart ဘဲဥပုံ ဆွဲခြင်း",
+            "မျက်နှာပြင်ပေါ်တွင် စာသားပရင့်ထုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is pattern recognition?",
+          questionMy: "Pattern recognition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Noticing similarities or repeated features between problems",
+            "Deleting repeated code from a program",
+            "Drawing a brand-new shape nobody has seen",
+            "Choosing random numbers for a program",
+          ],
+          optionsMy: [
+            "ပြဿနာများကြား ဆင်တူမှု (သို့) ထပ်ခါထပ်ခါဖြစ်သော လက္ခဏာများကို သတိပြုမိခြင်း",
+            "ပရိုဂရမ်မှ ထပ်နေသော code ကို ဖျက်ခြင်း",
+            "မည်သူမျှမမြင်ဖူးသော ပုံသဏ္ဍာန်အသစ် ဆွဲခြင်း",
+            "ပရိုဂရမ်အတွက် ကျပန်းဂဏန်း ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these earlier topics used pattern recognition, even though you didn't call it that?",
+          questionMy:
+              "အောက်ပါ အရင်က ခေါင်းစဉ်များထဲက ဘယ်ဟာက pattern recognition ကို သုံးခဲ့သနည်း၊ ထိုအမည်ဖြင့် မခေါ်ခဲ့ကြောင်း။",
+          optionsEn: [
+            "Noticing that a FOR loop repeats the same steps many times",
+            "Choosing a weak password",
+            "Turning off a computer",
+            "Buying a new phone",
+          ],
+          optionsMy: [
+            "FOR loop သည် တူညီသောအဆင့်များကို အကြိမ်များစွာ ထပ်ခါလုပ်ကြောင်း သတိပြုမိခြင်း",
+            "အားနည်းသောစကားဝှက် ရွေးချယ်ခြင်း",
+            "ကွန်ပျူတာကို ပိတ်ခြင်း",
+            "ဖုန်းအသစ် ဝယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is computational thinking useful outside of computing too?",
+          questionMy:
+              "Computational thinking သည် computing ပြင်ပတွင်ပါ အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "It helps you solve any complex problem by breaking it down and spotting patterns",
+            "It only works for computers, nothing else",
+            "It makes every problem more complicated",
+            "It replaces the need to think at all",
+          ],
+          optionsMy: [
+            "ရှုပ်ထွေးသောပြဿနာမည်သည့်ဟာမဆို ခွဲခြင်းနှင့် pattern ရှာဖွေခြင်းဖြင့် ဖြေရှင်းရာတွင် ကူညီပေးသည်",
+            "ကွန်ပျူတာအတွက်သာ အလုပ်လုပ်သည်",
+            "ပြဿနာတိုင်းကို ပိုရှုပ်ထွေးအောင်လုပ်သည်",
+            "စဉ်းစားရန် လိုအပ်ချက်ကို လုံးဝအစားထိုးသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w33-d2",
+      dayNumber: 2,
+      titleEn: "Computational Thinking Vocabulary",
+      titleMy: "Computational Thinking ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w33-ct-computationalthinking",
+          termEn: "Computational Thinking",
+          termMy: "Computational Thinking",
+          matchEn:
+              "A way of solving problems by breaking them down, spotting patterns, and planning steps",
+          matchMy:
+              "ပြဿနာများကို ခွဲခြမ်းခြင်း၊ pattern ရှာဖွေခြင်းနှင့် အဆင့်များစီစဉ်ခြင်းဖြင့် ဖြေရှင်းသောနည်းလမ်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w33-ct-decomposition",
+          termEn: "Decomposition",
+          termMy: "Decomposition",
+          matchEn:
+              "Breaking a big problem into smaller, more manageable sub-problems",
+          matchMy:
+              "ပြဿနာကြီးတစ်ခုကို စီမံခန့်ခွဲရလွယ်ကူသော sub-problem ငယ်များအဖြစ် ခွဲခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w33-ct-patternrecognition",
+          termEn: "Pattern Recognition",
+          termMy: "Pattern Recognition",
+          matchEn:
+              "Noticing similarities or repeated features between problems",
+          matchMy:
+              "ပြဿနာများကြား ဆင်တူမှု (သို့) ထပ်ခံလက္ခဏာများ သတိပြုမိခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w33-ct-subproblem",
+          termEn: "Sub-problem",
+          termMy: "Sub-problem",
+          matchEn: "One of the smaller pieces a big problem is broken into",
+          matchMy: "ပြဿနာကြီးတစ်ခု ခွဲထားသော အစိတ်အပိုင်းငယ်တစ်ခု",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w33-ct-problemsolvingskill",
+          termEn: "Problem-Solving Skill",
+          termMy: "Problem-Solving Skill",
+          matchEn: "An ability used to work out how to reach a goal",
+          matchMy: "ရည်မှန်းချက်တစ်ခုသို့ ရောက်ရန် လမ်းရှာသည့် စွမ်းရည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w33-d3",
+      dayNumber: 3,
+      titleEn: "Decomposition or Pattern Recognition?",
+      titleMy: "Decomposition လား Pattern Recognition လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Decomposition", "Pattern Recognition"],
+        bucketsMy: ["Decomposition", "Pattern Recognition"],
+        items: [
+          SortingItem(
+            id: "w33-sort-partyplan",
+            labelEn:
+                "Splitting 'plan a party' into invitations, food, and games",
+            labelMy:
+                "'ပါတီစီစဉ်ခြင်း' ကို ဖိတ်စာ၊ အစားအစာနှင့် ဂိမ်းများအဖြစ် ခွဲခြင်း",
+            correctBucketEn: "Decomposition",
+            correctBucketMy: "Decomposition",
+          ),
+          SortingItem(
+            id: "w33-sort-programsplit",
+            labelEn:
+                "Splitting 'write a program' into variables, selection, and loops",
+            labelMy:
+                "'ပရိုဂရမ်ရေးခြင်း' ကို variable၊ selection နှင့် loop များအဖြစ် ခွဲခြင်း",
+            correctBucketEn: "Decomposition",
+            correctBucketMy: "Decomposition",
+          ),
+          SortingItem(
+            id: "w33-sort-repeatsteps",
+            labelEn:
+                "Noticing two different problems both repeat the same steps",
+            labelMy:
+                "မတူညီသောပြဿနာနှစ်ခုစလုံး တူညီသောအဆင့်များ ထပ်နေကြောင်း သတိပြုမိခြင်း",
+            correctBucketEn: "Pattern Recognition",
+            correctBucketMy: "Pattern Recognition",
+          ),
+          SortingItem(
+            id: "w33-sort-mathslikelastweek",
+            labelEn:
+                "Seeing that today's maths problem looks like one you solved last week",
+            labelMy:
+                "ယနေ့သင်္ချာပြဿနာသည် ပြီးခဲ့သောသီတင်းပတ်က ဖြေခဲ့သောပြဿနာနှင့် ဆင်တူကြောင်း တွေ့ရှိခြင်း",
+            correctBucketEn: "Pattern Recognition",
+            correctBucketMy: "Pattern Recognition",
+          ),
+          SortingItem(
+            id: "w33-sort-cleanhouse",
+            labelEn: "Breaking 'clean the house' into separate rooms to clean",
+            labelMy: "'အိမ်သန့်ရှင်းရေး' ကို အခန်းသီးခြားစီအဖြစ် ခွဲခြင်း",
+            correctBucketEn: "Decomposition",
+            correctBucketMy: "Decomposition",
+          ),
+          SortingItem(
+            id: "w33-sort-forloopcounter",
+            labelEn:
+                "Spotting that every FOR loop you've written has a counter that changes",
+            labelMy:
+                "ရေးခဲ့သမျှ FOR loop တိုင်းတွင် ပြောင်းလဲနေသော counter ရှိကြောင်း တွေ့ရှိခြင်း",
+            correctBucketEn: "Pattern Recognition",
+            correctBucketMy: "Pattern Recognition",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w33-d4",
+      dayNumber: 4,
+      titleEn: "Thura's School Project Puzzle",
+      titleMy: "သူရ၏ ကျောင်းပရိုဂျက် ပဟေဠိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's School Project Puzzle",
+        titleMy: "သူရ၏ ကျောင်းပရိုဂျက် ပဟေဠိ",
+        passageEn:
+            "Thura's teacher gave the class a big project: organize a school exhibition in just two weeks. At first the task felt overwhelming, so Thura used decomposition -- he broke the huge project into smaller sub-problems: booking the hall, inviting guests, preparing posters, and arranging chairs. Each sub-problem was small enough to plan on its own. While working through the poster sub-problem, Thura noticed something interesting: every poster needed the same three things -- a title, an image, and a short description. That was pattern recognition -- spotting a repeated structure meant he could design one poster template and reuse it for every subject, instead of designing each poster from scratch. By combining decomposition (breaking the big project down) with pattern recognition (reusing what repeated), Thura finished early, and his teacher pointed out that this was exactly the kind of thinking programmers use when planning software.",
+        passageMy:
+            "သူရ၏ ဆရာက အတန်းကို ရက်သတ္တနှစ်ပတ်အတွင်း ကျောင်းပြပွဲတစ်ခု စီစဉ်ရန် ပရိုဂျက်ကြီးတစ်ခု ပေးအပ်ခဲ့သည်။ ပထမတွင် အလုပ်သည် လွန်စွာများပြားနေသည်ဟု ခံစားရသောကြောင့် သူရသည် decomposition ကို သုံးခဲ့သည် -- ပရိုဂျက်ကြီးကို sub-problem ငယ်များအဖြစ် ခွဲခဲ့သည်: ခန်းမငှားခြင်း၊ ဧည့်သည်ဖိတ်ခြင်း၊ ပိုစတာပြင်ဆင်ခြင်းနှင့် ကုလားထိုင်များစီစဉ်ခြင်း။ Sub-problem တစ်ခုစီသည် သီးခြားစီစဉ်ရလောက်အောင် သေးငယ်ခဲ့သည်။ ပိုစတာ sub-problem တွင် အလုပ်လုပ်နေစဉ် သူရသည် စိတ်ဝင်စားစရာအရာတစ်ခု သတိပြုမိခဲ့သည် - ပိုစတာတိုင်းတွင် တူညီသောအရာသုံးမျိုး လိုအပ်ကြောင်း -- ခေါင်းစဉ်၊ ပုံနှင့် အကျဉ်းချုပ်ဖော်ပြချက်။ ဤသည်ကား pattern recognition ဖြစ်သည် -- ထပ်ခံဖွဲ့စည်းပုံကို တွေ့ရှိခြင်းက ဘာသာရပ်တိုင်းအတွက် ပိုစတာတစ်ခုချင်းစီ အသစ်ဒီဇိုင်းရေးမည့်အစား template တစ်ခုတည်း ဒီဇိုင်းရေးပြီး ပြန်သုံးနိုင်စေခဲ့သည်။ Decomposition (ပရိုဂျက်ကြီးကိုခွဲခြင်း) နှင့် pattern recognition (ထပ်ခံအရာများ ပြန်သုံးခြင်း) ကို ပေါင်းစပ်လိုက်ခြင်းဖြင့် သူရသည် စောစီးစွာ ပြီးစီးခဲ့ပြီး၊ ဤသည်ကား programmer များ software ကို စီစဉ်ရာတွင် အသုံးပြုသည့် တွေးခေါ်ပုံအတိအကျဖြစ်ကြောင်း သူရ၏ဆရာက ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What big task did Thura's teacher give the class?",
+            questionMy: "သူရ၏ဆရာက အတန်းကို ဘယ်လုပ်ငန်းကြီးကို ပေးအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Organizing a school exhibition in two weeks",
+              "Writing a computer program",
+              "Building a flowchart",
+              "Choosing a strong password",
+            ],
+            optionsMy: [
+              "ရက်သတ္တနှစ်ပတ်အတွင်း ကျောင်းပြပွဲစီစဉ်ခြင်း",
+              "ကွန်ပျူတာပရိုဂရမ် ရေးခြင်း",
+              "Flowchart ဆောက်ခြင်း",
+              "ခိုင်မာသောစကားဝှက် ရွေးချယ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thura break the big project into, using decomposition?",
+            questionMy:
+                "Decomposition သုံး၍ သူရသည် ပရိုဂျက်ကြီးကို ဘာများအဖြစ် ခွဲခဲ့သနည်း။",
+            optionsEn: [
+              "Smaller sub-problems like booking the hall and preparing posters",
+              "A single unbreakable task",
+              "Two identical copies of the same task",
+              "A list of passwords",
+            ],
+            optionsMy: [
+              "ခန်းမငှားခြင်းနှင့် ပိုစတာပြင်ဆင်ခြင်းကဲ့သို့ sub-problem ငယ်များ",
+              "ခွဲမရသော လုပ်ငန်းတစ်ခုတည်း",
+              "အလုပ်တစ်ခုတည်း၏ တူညီမိတ္တူနှစ်ခု",
+              "စကားဝှက်စာရင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What pattern did Thura notice while working on the posters?",
+            questionMy:
+                "ပိုစတာများကို အလုပ်လုပ်နေစဉ် သူရ ဘယ် pattern ကို သတိပြုမိခဲ့သနည်း။",
+            optionsEn: [
+              "Every poster needed the same three things: a title, an image, and a description",
+              "Every poster needed a completely different design",
+              "No two posters were ever similar",
+              "Posters did not need any images",
+            ],
+            optionsMy: [
+              "ပိုစတာတိုင်းတွင် ခေါင်းစဉ်၊ ပုံနှင့် ဖော်ပြချက်ဟူသော တူညီသောအရာသုံးမျိုး လိုအပ်",
+              "ပိုစတာတိုင်းတွင် လုံးဝကွဲပြားသောဒီဇိုင်း လိုအပ်",
+              "ပိုစတာနှစ်ခုမျှ ဘယ်တော့မှ မဆင်တူ",
+              "ပိုစတာများတွင် ပုံလိုအပ်ချက်မရှိ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did spotting that pattern let Thura do?",
+            questionMy:
+                "ထို pattern ကိုတွေ့ရှိခြင်းက သူရအား ဘာလုပ်နိုင်စေခဲ့သနည်း။",
+            optionsEn: [
+              "Design one poster template and reuse it for every subject",
+              "Delete all the posters completely",
+              "Cancel the whole exhibition",
+              "Avoid using decomposition altogether",
+            ],
+            optionsMy: [
+              "ပိုစတာ template တစ်ခုတည်းဒီဇိုင်းရေးပြီး ဘာသာရပ်တိုင်းအတွက် ပြန်သုံး",
+              "ပိုစတာအားလုံးကို လုံးဝဖျက်ပစ်",
+              "ပြပွဲတစ်ခုလုံး ပယ်ဖျက်",
+              "Decomposition ကို လုံးဝမသုံး",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thura's teacher say his combined thinking was similar to?",
+            questionMy:
+                "သူရ၏ပေါင်းစပ်တွေးခေါ်မှုသည် ဘာနှင့်ဆင်တူကြောင်း ဆရာကပြောခဲ့သနည်း။",
+            optionsEn: [
+              "The kind of thinking programmers use when planning software",
+              "A type of computer hardware",
+              "A weak password",
+              "A syntax error",
+            ],
+            optionsMy: [
+              "Programmer များ software ကို စီစဉ်ရာတွင် အသုံးပြုသည့် တွေးခေါ်ပုံ",
+              "ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု",
+              "အားနည်းသောစကားဝှက်",
+              "Syntax error",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is decomposition?",
+          questionMy: "Decomposition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breaking a big problem into smaller, easier pieces",
+            "Deleting a problem",
+            "Making a problem harder",
+            "Ignoring a problem",
+          ],
+          optionsMy: [
+            "ပြဿနာကြီးကို ပိုလွယ်ကူသော အစိတ်အပိုင်းငယ်များအဖြစ် ခွဲခြင်း",
+            "ပြဿနာကို ဖျက်ခြင်း",
+            "ပြဿနာကို ပိုခက်ခဲအောင်လုပ်ခြင်း",
+            "ပြဿနာကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is pattern recognition?",
+          questionMy: "Pattern recognition ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Noticing similarities or repeated features between problems",
+            "Deleting repeated code",
+            "Drawing a random shape",
+            "Choosing a password",
+          ],
+          optionsMy: [
+            "ပြဿနာများကြား ဆင်တူမှု (သို့) ထပ်ခံလက္ခဏာများ သတိပြုမိခြင်း",
+            "ထပ်နေသော code ကို ဖျက်ခြင်း",
+            "ကျပန်းပုံသဏ္ဍာန် ဆွဲခြင်း",
+            "စကားဝှက် ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which earlier skill was really decomposition all along?",
+          questionMy:
+              "အရင်ကသင်ခဲ့သော ဘယ်ကျွမ်းကျင်မှုက အမှန်တကယ် decomposition ဖြစ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Breaking an algorithm into a sequence of small steps",
+            "Choosing a strong password",
+            "Turning on a computer",
+            "Printing an image",
+          ],
+          optionsMy: [
+            "Algorithm တစ်ခုကို အဆင့်ငယ်များအစီအစဉ်အဖြစ် ခွဲခြင်း",
+            "ခိုင်မာသောစကားဝှက် ရွေးချယ်ခြင်း",
+            "ကွန်ပျူတာဖွင့်ခြင်း",
+            "ပုံပရင့်ထုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is computational thinking?",
+          questionMy: "Computational thinking ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A way of solving problems by breaking them down and spotting patterns",
+            "A type of computer hardware",
+            "A programming language",
+            "A password rule",
+          ],
+          optionsMy: [
+            "ပြဿနာများကို ခွဲခြမ်းပြီး pattern ရှာဖွေခြင်းဖြင့် ဖြေရှင်းသောနည်းလမ်း",
+            "ကွန်ပျူတာ hardware အမျိုးအစားတစ်ခု",
+            "Programming language တစ်ခု",
+            "စကားဝှက်စည်းမျဉ်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is computational thinking useful beyond computing?",
+          questionMy:
+              "Computational thinking သည် computing ပြင်ပတွင် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "It helps solve any complex problem, not just computer problems",
+            "It only works inside a computer",
+            "It makes every problem harder",
+            "It removes the need to plan",
+          ],
+          optionsMy: [
+            "ကွန်ပျူတာပြဿနာသာမက ရှုပ်ထွေးသောပြဿနာမည်သည့်ဟာမဆို ဖြေရှင်းရာတွင် ကူညီသည်",
+            "ကွန်ပျူတာအတွင်းသာ အလုပ်လုပ်သည်",
+            "ပြဿနာတိုင်းကို ပိုခက်ခဲအောင်လုပ်သည်",
+            "စီစဉ်ရန် လိုအပ်ချက်ကို ဖယ်ရှားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 9, Week 34: "Abstraction and Algorithm
+// Design"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek34 = CourseWeekDef(
+  id: "course-secondary1-computing-w34",
+  weekNumber: 34,
+  titleEn: "Abstraction and Algorithm Design",
+  titleMy: "Abstraction နှင့် Algorithm ဒီဇိုင်းရေးဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w34-d1",
+      dayNumber: 1,
+      titleEn: "Focusing on What Matters",
+      titleMy: "အရေးကြီးသောအရာကို အာရုံစိုက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is abstraction?",
+          questionMy: "Abstraction ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Focusing on the important details of a problem and ignoring the ones that don't matter",
+            "Adding every possible detail to a problem",
+            "Deleting a problem entirely",
+            "Making a problem more confusing on purpose",
+          ],
+          optionsMy: [
+            "ပြဿနာ၏ အရေးကြီးသောအသေးစိတ်များကို အာရုံစိုက်ပြီး အရေးမကြီးသည်များကို လျစ်လျူရှုခြင်း",
+            "ပြဿနာသို့ ဖြစ်နိုင်သမျှ အသေးစိတ်အားလုံး ထည့်ခြင်း",
+            "ပြဿနာကို လုံးဝဖျက်ပစ်ခြင်း",
+            "ရည်ရွယ်ချက်ရှိရှိ ပြဿနာကို ပိုရှုပ်ထွေးအောင်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When you draw a flowchart, why do you use simple shapes instead of drawing every real-world detail?",
+          questionMy:
+              "Flowchart ဆွဲသောအခါ လက်တွေ့ကမ္ဘာ၏ အသေးစိတ်အားလုံးမဆွဲဘဲ ရိုးရှင်းသောပုံသဏ္ဍာန်များ အဘယ့်ကြောင့် သုံးသနည်း။",
+          optionsEn: [
+            "Because a flowchart is an abstraction -- it keeps only the steps that matter",
+            "Because drawing detail is against the rules",
+            "Because computers cannot understand shapes",
+            "Because flowcharts must always be blank",
+          ],
+          optionsMy: [
+            "Flowchart သည် abstraction တစ်ခုဖြစ်သောကြောင့် -- အရေးကြီးသောအဆင့်များကိုသာ ထားရှိသည်",
+            "အသေးစိတ်ဆွဲခြင်းသည် စည်းမျဉ်းနှင့်ဆန့်ကျင်သောကြောင့်",
+            "ကွန်ပျူတာများသည် ပုံသဏ္ဍာန်ကို နားမလည်နိုင်သောကြောင့်",
+            "Flowchart များသည် အမြဲအလွတ်ဖြစ်ရမည်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "You are designing an app to find the fastest bus route. Which detail would abstraction leave OUT?",
+          questionMy:
+              "အမြန်ဆုံးဘတ်စ်ကားလမ်းကြောင်းရှာဖွေသော app တစ်ခု ဒီဇိုင်းရေးနေသည်။ Abstraction က ဘယ်အသေးစိတ်ကို ချန်ထားခဲ့မည်နည်း။",
+          optionsEn: [
+            "The color of the bus",
+            "The bus stop locations",
+            "The travel time between stops",
+            "Which buses connect at which stops",
+          ],
+          optionsMy: [
+            "ဘတ်စ်ကား၏ အရောင်",
+            "ဘတ်စ်ကားမှတ်တိုင်များ တည်နေရာ",
+            "မှတ်တိုင်ကြားခရီးချိန်",
+            "ဘယ်ဘတ်စ်ကားများ ဘယ်မှတ်တိုင်တွင် ဆက်စပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What do we call a simplified representation of something real, built using abstraction?",
+          questionMy:
+              "Abstraction သုံး၍ တည်ဆောက်ထားသော လက်တွေ့ကမ္ဘာ၏ ရိုးရှင်းသောကိုယ်စားပြုပုံကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["A model", "A syntax error", "A password", "A byte"],
+          optionsMy: ["Model", "Syntax error", "Password", "Byte"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is abstraction useful when designing an algorithm for a new problem?",
+          questionMy:
+              "ပြဿနာအသစ်တစ်ခုအတွက် algorithm ဒီဇိုင်းရေးရာတွင် abstraction သည် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "It stops you getting lost in unnecessary detail so you can focus on the steps that solve the problem",
+            "It hides the whole problem so you never have to solve it",
+            "It adds unnecessary steps to every algorithm",
+            "It removes the need for decomposition",
+          ],
+          optionsMy: [
+            "မလိုအပ်သောအသေးစိတ်ထဲ ပျောက်နေခြင်းကို တားဆီးပြီး ပြဿနာဖြေရှင်းသောအဆင့်များကို အာရုံစိုက်စေသည်",
+            "ပြဿနာတစ်ခုလုံးကို ဖုံးကွယ်ထားပြီး ဖြေရှင်းရန်မလိုအောင်လုပ်သည်",
+            "Algorithm တိုင်းတွင် မလိုအပ်သောအဆင့်များ ထပ်ထည့်သည်",
+            "Decomposition လိုအပ်ချက်ကို ဖယ်ရှားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w34-d2",
+      dayNumber: 2,
+      titleEn: "Abstraction Vocabulary",
+      titleMy: "Abstraction ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w34-abs-abstraction",
+          termEn: "Abstraction",
+          termMy: "Abstraction",
+          matchEn:
+              "Focusing on important details and ignoring ones that don't matter",
+          matchMy:
+              "အရေးကြီးသောအသေးစိတ်များကို အာရုံစိုက်ပြီး အရေးမကြီးသည်များကို လျစ်လျူရှုခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w34-abs-algorithmdesign",
+          termEn: "Algorithm Design",
+          termMy: "Algorithm Design",
+          matchEn:
+              "Planning the steps that solve a problem before writing any code",
+          matchMy: "Code မရေးမီ ပြဿနာဖြေရှင်းမည့်အဆင့်များကို စီစဉ်ခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w34-abs-relevantdetail",
+          termEn: "Relevant Detail",
+          termMy: "Relevant Detail",
+          matchEn: "Information that matters for solving the problem",
+          matchMy: "ပြဿနာဖြေရှင်းရန် အရေးကြီးသော အချက်အလက်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w34-abs-irrelevantdetail",
+          termEn: "Irrelevant Detail",
+          termMy: "Irrelevant Detail",
+          matchEn: "Information that does not affect solving the problem",
+          matchMy: "ပြဿနာဖြေရှင်းရန် သက်ရောက်မှုမရှိသော အချက်အလက်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w34-abs-model",
+          termEn: "Model",
+          termMy: "Model",
+          matchEn:
+              "A simplified representation of something real, built using abstraction",
+          matchMy:
+              "Abstraction သုံး၍တည်ဆောက်ထားသော လက်တွေ့ကမ္ဘာ၏ ရိုးရှင်းကိုယ်စားပြုပုံ",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w34-d3",
+      dayNumber: 3,
+      titleEn: "Relevant or Irrelevant?",
+      titleMy: "Relevant လား Irrelevant လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Relevant Detail", "Irrelevant Detail"],
+        bucketsMy: ["Relevant Detail", "Irrelevant Detail"],
+        items: [
+          SortingItem(
+            id: "w34-sort-stoplocations",
+            labelEn: "The bus stop locations",
+            labelMy: "ဘတ်စ်ကားမှတ်တိုင်များ တည်နေရာ",
+            correctBucketEn: "Relevant Detail",
+            correctBucketMy: "Relevant Detail",
+          ),
+          SortingItem(
+            id: "w34-sort-traveltime",
+            labelEn: "The travel time between stops",
+            labelMy: "မှတ်တိုင်ကြားခရီးချိန်",
+            correctBucketEn: "Relevant Detail",
+            correctBucketMy: "Relevant Detail",
+          ),
+          SortingItem(
+            id: "w34-sort-connections",
+            labelEn: "Which buses connect at which stops",
+            labelMy: "ဘယ်ဘတ်စ်ကားများ ဘယ်မှတ်တိုင်တွင် ဆက်စပ်သည်",
+            correctBucketEn: "Relevant Detail",
+            correctBucketMy: "Relevant Detail",
+          ),
+          SortingItem(
+            id: "w34-sort-buscolor",
+            labelEn: "The color of the bus",
+            labelMy: "ဘတ်စ်ကား၏ အရောင်",
+            correctBucketEn: "Irrelevant Detail",
+            correctBucketMy: "Irrelevant Detail",
+          ),
+          SortingItem(
+            id: "w34-sort-drivername",
+            labelEn: "The driver's name",
+            labelMy: "ယာဉ်မောင်း၏ အမည်",
+            correctBucketEn: "Irrelevant Detail",
+            correctBucketMy: "Irrelevant Detail",
+          ),
+          SortingItem(
+            id: "w34-sort-seatcount",
+            labelEn: "The number of seats the bus has",
+            labelMy: "ဘတ်စ်ကား၏ ထိုင်ခုံအရေအတွက်",
+            correctBucketEn: "Irrelevant Detail",
+            correctBucketMy: "Irrelevant Detail",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w34-d4",
+      dayNumber: 4,
+      titleEn: "May May's Study Timetable Algorithm",
+      titleMy: "မေမေ၏ စာသင်ချိန်ဇယား Algorithm",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "May May's Study Timetable Algorithm",
+        titleMy: "မေမေ၏ စာသင်ချိန်ဇယား Algorithm",
+        passageEn:
+            "May May wanted to design an algorithm to build her weekly study timetable, so she thought carefully about what actually mattered. At first she considered including her favorite pen color, which chair she liked to sit in, and the exact weather each day -- but she realized none of those details would change how the timetable worked. Using abstraction, she kept only the relevant details: which subject, which day, and what time, and left everything else out. With just those three pieces of information, she drew a flowchart: for each subject, decide a day and a time, then check the day is not already full before adding it. Her simplified model made the algorithm easy to follow, and her teacher explained that this was abstraction in action -- focusing only on what mattered let May May design a clear, working algorithm instead of getting lost in unnecessary detail.",
+        passageMy:
+            "မေမေသည် သူမ၏ အပတ်စဉ်စာသင်ချိန်ဇယား တည်ဆောက်ရန် algorithm တစ်ခု ဒီဇိုင်းရေးလိုသောကြောင့် အမှန်တကယ်အရေးကြီးသည်များကို ဂရုတစိုက်စဉ်းစားခဲ့သည်။ ပထမတွင် သူမကြိုက်နှစ်သက်သော ခဲတံအရောင်၊ ထိုင်လိုသောကုလားထိုင်နှင့် နေ့စဉ်ရာသီဥတုအတိအကျကို ထည့်သွင်းစဉ်းစားခဲ့သော်လည်း၊ ထိုအသေးစိတ်များသည် ဇယားအလုပ်လုပ်ပုံကို လုံးဝမပြောင်းလဲစေကြောင်း သိရှိခဲ့သည်။ Abstraction ကို သုံး၍ သူမသည် သက်ဆိုင်ရာအသေးစိတ်များကိုသာ ထားရှိခဲ့သည် - ဘာသာရပ်၊ နေ့နှင့် အချိန်၊ ကျန်အားလုံးကို ချန်ထားခဲ့သည်။ ထိုအချက်အလက်သုံးမျိုးဖြင့်သာ သူမသည် flowchart တစ်ခုဆွဲခဲ့သည်: ဘာသာရပ်တစ်ခုစီအတွက် နေ့နှင့်အချိန်ဆုံးဖြတ်ပြီး၊ ထည့်သွင်းမီ ထိုနေ့တွင် အချိန်ပြည့်နေသလားစစ်ဆေးရသည်။ သူမ၏ ရိုးရှင်းသော model က algorithm ကို လိုက်နာရလွယ်ကူစေပြီး၊ ဤသည်ကား abstraction ၏ လက်တွေ့လုပ်ဆောင်ချက်ဖြစ်ကြောင်း -- အရေးကြီးသည်များကိုသာ အာရုံစိုက်ခြင်းက မလိုအပ်သောအသေးစိတ်ထဲ ပျောက်နေမည့်အစား မေမေအား ရှင်းလင်းသော algorithm တစ်ခု ဒီဇိုင်းရေးနိုင်စေခဲ့ကြောင်း ဆရာက ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did May May want to design an algorithm for?",
+            questionMy:
+                "မေမေသည် ဘာအတွက် algorithm တစ်ခု ဒီဇိုင်းရေးလိုခဲ့သနည်း။",
+            optionsEn: [
+              "Her weekly study timetable",
+              "A computer game",
+              "A password checker",
+              "A flowchart symbol chart",
+            ],
+            optionsMy: [
+              "သူမ၏ အပတ်စဉ်စာသင်ချိန်ဇယား",
+              "ကွန်ပျူတာဂိမ်း",
+              "စကားဝှက်စစ်ဆေးစနစ်",
+              "Flowchart သင်္ကေတဇယား",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which details did May May realize were irrelevant to her timetable algorithm?",
+            questionMy:
+                "မေမေ၏ ဇယား algorithm အတွက် ဘယ်အသေးစိတ်များ irrelevant ဖြစ်ကြောင်း သိရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Her pen color, chair choice, and the daily weather",
+              "The subject and the day",
+              "The time of the class",
+              "Whether the day was already full",
+            ],
+            optionsMy: [
+              "ခဲတံအရောင်၊ ကုလားထိုင်ရွေးချယ်မှုနှင့် နေ့စဉ်ရာသီဥတု",
+              "ဘာသာရပ်နှင့် နေ့",
+              "အတန်း၏ အချိန်",
+              "ထိုနေ့သည် အချိန်ပြည့်နေမနေ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three relevant details did May May keep, using abstraction?",
+            questionMy:
+                "Abstraction သုံး၍ မေမေ သက်ဆိုင်ရာအသေးစိတ်သုံးမျိုးကို ဘာများထားရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Which subject, which day, and what time",
+              "Pen color, chair, and weather",
+              "Only the subject",
+              "Only the weather",
+            ],
+            optionsMy: [
+              "ဘာသာရပ်၊ နေ့နှင့် အချိန်",
+              "ခဲတံအရောင်၊ ကုလားထိုင်နှင့် ရာသီဥတု",
+              "ဘာသာရပ်တစ်ခုတည်း",
+              "ရာသီဥတုတစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did May May's algorithm check before adding a subject to a day?",
+            questionMy:
+                "ဘာသာရပ်တစ်ခုကို နေ့တစ်နေ့သို့ ထည့်သွင်းမီ မေမေ၏ algorithm ဘာစစ်ဆေးခဲ့သနည်း။",
+            optionsEn: [
+              "That the day was not already full",
+              "That the pen color matched",
+              "That the weather was sunny",
+              "That the chair was comfortable",
+            ],
+            optionsMy: [
+              "ထိုနေ့သည် အချိန်ပြည့်နေမနေ",
+              "ခဲတံအရောင် ကိုက်ညီမညီ",
+              "ရာသီဥတုနေသာမသာ",
+              "ကုလားထိုင် သက်တောင့်သက်သာရှိမရှိ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did May May's teacher say focusing only on what mattered was an example of?",
+            questionMy:
+                "အရေးကြီးသည်များကိုသာ အာရုံစိုက်ခြင်းသည် ဘာ၏ ဥပမာဖြစ်ကြောင်း ဆရာက ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Abstraction",
+              "A syntax error",
+              "A weak password",
+              "Cyberbullying",
+            ],
+            optionsMy: [
+              "Abstraction",
+              "Syntax error",
+              "အားနည်းသောစကားဝှက်",
+              "Cyberbullying",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is abstraction?",
+          questionMy: "Abstraction ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Focusing on important details and ignoring ones that don't matter",
+            "Adding every possible detail",
+            "Deleting a problem completely",
+            "Making a problem more confusing",
+          ],
+          optionsMy: [
+            "အရေးကြီးသောအသေးစိတ်များကို အာရုံစိုက်ပြီး အရေးမကြီးသည်များကို လျစ်လျူရှုခြင်း",
+            "ဖြစ်နိုင်သမျှအသေးစိတ်အားလုံး ထည့်ခြင်း",
+            "ပြဿနာကို လုံးဝဖျက်ခြင်း",
+            "ပြဿနာကို ပိုရှုပ်ထွေးအောင်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a model in computational thinking?",
+          questionMy: "Computational thinking တွင် model ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A simplified representation of something real",
+            "A type of syntax error",
+            "A weak password",
+            "A loop counter",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကမ္ဘာ၏ ရိုးရှင်းသောကိုယ်စားပြုပုံ",
+            "Syntax error အမျိုးအစားတစ်ခု",
+            "အားနည်းသောစကားဝှက်",
+            "Loop counter",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a flowchart use simple shapes instead of real-world detail?",
+          questionMy:
+              "Flowchart သည် လက်တွေ့ကမ္ဘာ အသေးစိတ်အစား ရိုးရှင်းသောပုံသဏ္ဍာန်များ အဘယ့်ကြောင့် သုံးသနည်း။",
+          optionsEn: [
+            "Because it is an abstraction that keeps only what matters",
+            "Because detail is against the rules",
+            "Because computers cannot read shapes",
+            "Because flowcharts must stay blank",
+          ],
+          optionsMy: [
+            "အရေးကြီးသည်များကိုသာ ထားရှိသော abstraction ဖြစ်သောကြောင့်",
+            "အသေးစိတ်သည် စည်းမျဉ်းနှင့်ဆန့်ကျင်သောကြောင့်",
+            "ကွန်ပျူတာသည် ပုံသဏ္ဍာန်ကို မဖတ်နိုင်သောကြောင့်",
+            "Flowchart များသည် အလွတ်ကျန်ရမည်ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is algorithm design?",
+          questionMy: "Algorithm design ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Planning the steps that solve a problem before writing any code",
+            "Writing code without any plan",
+            "Deleting an algorithm",
+            "Choosing a password",
+          ],
+          optionsMy: [
+            "Code မရေးမီ ပြဿနာဖြေရှင်းမည့်အဆင့်များကို စီစဉ်ခြင်း",
+            "အစီအစဉ်မရှိဘဲ code ရေးခြင်း",
+            "Algorithm ကို ဖျက်ခြင်း",
+            "စကားဝှက်ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is abstraction useful when designing a new algorithm?",
+          questionMy:
+              "Algorithm အသစ်ဒီဇိုင်းရေးရာတွင် abstraction သည် အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "It stops you getting lost in unnecessary detail",
+            "It hides the whole problem",
+            "It adds unnecessary steps",
+            "It removes the need to plan",
+          ],
+          optionsMy: [
+            "မလိုအပ်သောအသေးစိတ်ထဲ ပျောက်နေခြင်းကို တားဆီးသည်",
+            "ပြဿနာတစ်ခုလုံးကို ဖုံးကွယ်ထားသည်",
+            "မလိုအပ်သောအဆင့်များ ထပ်ထည့်သည်",
+            "စီစဉ်ရန်လိုအပ်ချက်ကို ဖယ်ရှားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 9, Week 35: "Planning Your Own Program"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek35 = CourseWeekDef(
+  id: "course-secondary1-computing-w35",
+  weekNumber: 35,
+  titleEn: "Planning Your Own Program",
+  titleMy: "ကိုယ်ပိုင်ပရိုဂရမ် စီစဉ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w35-d1",
+      dayNumber: 1,
+      titleEn: "How to Plan a Program",
+      titleMy: "ပရိုဂရမ်တစ်ခု စီစဉ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before writing any code, what should a programmer do first?",
+          questionMy: "Code မရေးမီ programmer တစ်ဦး ဦးစွာဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Plan what the program needs to do, using decomposition to break it into pieces",
+            "Start typing random code immediately",
+            "Skip planning entirely",
+            "Delete the problem",
+          ],
+          optionsMy: [
+            "Decomposition သုံး၍ ပရိုဂရမ်လုပ်ဆောင်ရမည့်အရာကို အစိတ်အပိုင်းများခွဲပြီး စီစဉ်",
+            "ချက်ချင်း ကျပန်း code ရိုက်စတင်",
+            "စီစဉ်ခြင်းကို လုံးဝကျော်ချန်",
+            "ပြဿနာကို ဖျက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If your program needs to remember a player's score that changes during the game, what building block will you need?",
+          questionMy:
+              "ဂိမ်းအတွင်း ပြောင်းလဲနေသော player ၏ score ကို မှတ်ရန် ပရိုဂရမ်လိုအပ်လျှင် ဘယ် building block လိုအပ်မည်နည်း။",
+          optionsEn: [
+            "A variable",
+            "A syntax error",
+            "A password",
+            "A flowchart oval",
+          ],
+          optionsMy: [
+            "Variable",
+            "Syntax error",
+            "Password",
+            "Flowchart ဘဲဥပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If your program needs to do something different depending on whether an answer is correct, what building block will you need?",
+          questionMy:
+              "အဖြေမှန်မမှန်ပေါ်မူတည်၍ မတူညီသောအရာလုပ်ရန် ပရိုဂရမ်လိုအပ်လျှင် ဘယ် building block လိုအပ်မည်နည်း။",
+          optionsEn: [
+            "Selection (if / elif / else)",
+            "A variable only",
+            "A comment only",
+            "A password only",
+          ],
+          optionsMy: [
+            "Selection (if / elif / else)",
+            "Variable တစ်ခုတည်း",
+            "Comment တစ်ခုတည်း",
+            "Password တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If your program needs to repeat an action, like asking a question five times, what building block will you need?",
+          questionMy:
+              "မေးခွန်းတစ်ခုကို ငါးကြိမ်မေးခြင်းကဲ့သို့ လုပ်ဆောင်ချက်တစ်ခုထပ်ရန် ပရိုဂရမ်လိုအပ်လျှင် ဘယ် building block လိုအပ်မည်နည်း။",
+          optionsEn: [
+            "Iteration (a loop)",
+            "A variable only",
+            "A model only",
+            "A print() statement only",
+          ],
+          optionsMy: [
+            "Iteration (loop)",
+            "Variable တစ်ခုတည်း",
+            "Model တစ်ခုတည်း",
+            "Print() statement တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a test case?",
+          questionMy: "Test case ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A specific input used to check whether a program produces the correct result",
+            "A type of syntax error",
+            "A password rule",
+            "A flowchart symbol",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်သည် မှန်ကန်သောရလဒ်ပေးမပေး စစ်ဆေးရန်သုံးသော အတိအကျ input",
+            "Syntax error အမျိုးအစားတစ်ခု",
+            "Password စည်းမျဉ်း",
+            "Flowchart သင်္ကေတ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w35-d2",
+      dayNumber: 2,
+      titleEn: "Program Planning Vocabulary",
+      titleMy: "ပရိုဂရမ်စီစဉ်ခြင်း ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w35-plan-programplan",
+          termEn: "Program Plan",
+          termMy: "Program Plan",
+          matchEn:
+              "A decomposition of what a program needs to do before any code is written",
+          matchMy:
+              "Code မရေးမီ ပရိုဂရမ်လုပ်ဆောင်ရမည့်အရာကို decomposition လုပ်ထားခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w35-plan-requirement",
+          termEn: "Requirement",
+          termMy: "Requirement",
+          matchEn: "Something the finished program must be able to do",
+          matchMy: "ပြီးစီးသောပရိုဂရမ် လုပ်နိုင်ရမည့်အရာတစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w35-plan-testcase",
+          termEn: "Test Case",
+          termMy: "Test Case",
+          matchEn: "A specific input used to check a program works correctly",
+          matchMy:
+              "ပရိုဂရမ်မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်သုံးသော အတိအကျ input",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w35-plan-pseudocodeplan",
+          termEn: "Pseudocode Plan",
+          termMy: "Pseudocode Plan",
+          matchEn:
+              "A program's plan written in plain, structured steps before real code",
+          matchMy:
+              "Real code မရေးမီ ရိုးရှင်း၊ ဖွဲ့စည်းထားသောအဆင့်များဖြင့် ရေးသားထားသော ပရိုဂရမ်အစီအစဉ်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w35-plan-design",
+          termEn: "Design",
+          termMy: "Design",
+          matchEn: "Deciding how the pieces of a program will fit together",
+          matchMy:
+              "ပရိုဂရမ်၏ အစိတ်အပိုင်းများ မည်သို့ပေါင်းစပ်မည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w35-d3",
+      dayNumber: 3,
+      titleEn: "What Does Your Program Need?",
+      titleMy: "သင့်ပရိုဂရမ် ဘာလိုအပ်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Needs a Variable",
+          "Needs Selection",
+          "Needs a Loop",
+          "Needs Output",
+        ],
+        bucketsMy: [
+          "Needs a Variable",
+          "Needs Selection",
+          "Needs a Loop",
+          "Needs Output",
+        ],
+        items: [
+          SortingItem(
+            id: "w35-sort-rememberpoints",
+            labelEn: "Remembering how many points a player has earned",
+            labelMy: "Player ရရှိထားသော အမှတ်အရေအတွက်ကို မှတ်ထားခြင်း",
+            correctBucketEn: "Needs a Variable",
+            correctBucketMy: "Needs a Variable",
+          ),
+          SortingItem(
+            id: "w35-sort-passfail",
+            labelEn: "Deciding whether to show 'Pass' or 'Fail'",
+            labelMy: "'Pass' (သို့) 'Fail' ပြသရန် ဆုံးဖြတ်ခြင်း",
+            correctBucketEn: "Needs Selection",
+            correctBucketMy: "Needs Selection",
+          ),
+          SortingItem(
+            id: "w35-sort-askfive",
+            labelEn: "Asking a quiz question five times in a row",
+            labelMy: "Quiz မေးခွန်းတစ်ခုကို ငါးကြိမ်ဆက်တိုက်မေးခြင်း",
+            correctBucketEn: "Needs a Loop",
+            correctBucketMy: "Needs a Loop",
+          ),
+          SortingItem(
+            id: "w35-sort-showscore",
+            labelEn: "Showing the player's final score on the screen",
+            labelMy: "Player ၏ နောက်ဆုံးအမှတ်ကို မျက်နှာပြင်ပေါ်ပြသခြင်း",
+            correctBucketEn: "Needs Output",
+            correctBucketMy: "Needs Output",
+          ),
+          SortingItem(
+            id: "w35-sort-storename",
+            labelEn: "Storing a player's name after they type it in",
+            labelMy: "Player အမည်ရိုက်ထည့်ပြီးနောက် သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Needs a Variable",
+            correctBucketMy: "Needs a Variable",
+          ),
+          SortingItem(
+            id: "w35-sort-prizelevels",
+            labelEn: "Choosing between three prize levels based on score",
+            labelMy: "Score အပေါ်မူတည်၍ ဆုသုံးအဆင့်ကြားရွေးချယ်ခြင်း",
+            correctBucketEn: "Needs Selection",
+            correctBucketMy: "Needs Selection",
+          ),
+          SortingItem(
+            id: "w35-sort-countten",
+            labelEn: "Counting from 1 to 10 to build a times table",
+            labelMy: "မြှောက်ဇယားတည်ဆောက်ရန် ၁ မှ ၁၀ အထိရေတွက်ခြင်း",
+            correctBucketEn: "Needs a Loop",
+            correctBucketMy: "Needs a Loop",
+          ),
+          SortingItem(
+            id: "w35-sort-welldone",
+            labelEn: "Displaying a 'Well done!' message",
+            labelMy: "'Well done!' စာသား ပြသခြင်း",
+            correctBucketEn: "Needs Output",
+            correctBucketMy: "Needs Output",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w35-d4",
+      dayNumber: 4,
+      titleEn: "Sandar's Number-Guessing Game Plan",
+      titleMy: "စန္ဒာ၏ ဂဏန်းခန့်မှန်းဂိမ်း အစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Number-Guessing Game Plan",
+        titleMy: "စန္ဒာ၏ ဂဏန်းခန့်မှန်းဂိမ်း အစီအစဉ်",
+        passageEn:
+            "Sandar decided to design her own program: a number-guessing game where the player tries to guess a secret number. Before writing any real code, she planned it on paper using decomposition. First, she listed her requirements: the program needs to remember the secret number, so it needs a variable. It needs to compare the player's guess to the secret number and respond differently depending on whether the guess is too high, too low, or correct, so it needs selection. It needs to keep asking until the player guesses correctly, so it needs a loop. Finally, it needs to print a message telling the player the result, so it needs output. Sandar wrote all of this as a pseudocode plan, then chose three test cases to check later: guessing correctly on the first try, guessing too low, and guessing too high. Only once her plan covered every piece did she feel ready to turn it into real code next.",
+        passageMy:
+            "စန္ဒာသည် သူမ၏ ကိုယ်ပိုင်ပရိုဂရမ်တစ်ခု ဒီဇိုင်းရေးရန် ဆုံးဖြတ်ခဲ့သည်: player က လျှို့ဝှက်ဂဏန်းကို ခန့်မှန်းရမည့် ဂဏန်းခန့်မှန်းဂိမ်းတစ်ခု။ Real code မရေးမီ decomposition သုံး၍ စက္ကူပေါ်တွင် စီစဉ်ခဲ့သည်။ ပထမ၊ သူမ၏ requirement များကို စာရင်းပြုစုခဲ့သည်: ပရိုဂရမ်သည် လျှို့ဝှက်ဂဏန်းကို မှတ်ထားရမည်ဖြစ်၍ variable လိုအပ်သည်။ Player ၏ခန့်မှန်းချက်ကို လျှို့ဝှက်ဂဏန်းနှင့်နှိုင်းယှဉ်ပြီး ခန့်မှန်းချက်သည် များလွန်း၊ နည်းလွန်း (သို့) မှန်ကန်ခြင်းအလိုက် မတူညီစွာတုံ့ပြန်ရမည်ဖြစ်၍ selection လိုအပ်သည်။ Player မှန်ကန်စွာခန့်မှန်းသည်အထိ ဆက်တိုက်မေးနေရမည်ဖြစ်၍ loop လိုအပ်သည်။ နောက်ဆုံးတွင် player ကို ရလဒ်ပြောပြရန် message တစ်ခုပရင့်ထုတ်ရမည်ဖြစ်၍ output လိုအပ်သည်။ စန္ဒာသည် ဤအရာအားလုံးကို pseudocode plan အဖြစ်ရေးသားခဲ့ပြီး၊ နောက်ပိုင်းစစ်ဆေးရန် test case သုံးခုရွေးချယ်ခဲ့သည်: ပထမကြိမ်တွင်ပင် မှန်ကန်စွာခန့်မှန်းခြင်း၊ နည်းလွန်းစွာခန့်မှန်းခြင်းနှင့် များလွန်းစွာခန့်မှန်းခြင်း။ သူမ၏ plan သည် အစိတ်အပိုင်းအားလုံးကို လွှမ်းခြုံထားမှသာ next real code အဖြစ်ပြောင်းရန် အသင့်ဖြစ်ကြောင်း ခံစားရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What kind of program did Sandar decide to design?",
+            questionMy:
+                "စန္ဒာ ဘယ်လိုပရိုဂရမ်မျိုး ဒီဇိုင်းရေးရန် ဆုံးဖြတ်ခဲ့သနည်း။",
+            optionsEn: [
+              "A number-guessing game",
+              "A password checker",
+              "A grade calculator",
+              "A flowchart drawing tool",
+            ],
+            optionsMy: [
+              "ဂဏန်းခန့်မှန်းဂိမ်း",
+              "စကားဝှက်စစ်ဆေးစနစ်",
+              "အမှတ်တွက်ချက်စက်",
+              "Flowchart ရေးဆွဲသည့်ကိရိယာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Sandar's program need a variable?",
+            questionMy: "စန္ဒာ၏ ပရိုဂရမ် အဘယ့်ကြောင့် variable လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "To remember the secret number",
+              "To draw a flowchart",
+              "To choose a password",
+              "To print a comment",
+            ],
+            optionsMy: [
+              "လျှို့ဝှက်ဂဏန်းကို မှတ်ထားရန်",
+              "Flowchart ဆွဲရန်",
+              "စကားဝှက်ရွေးချယ်ရန်",
+              "Comment ပရင့်ထုတ်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Sandar's program need selection?",
+            questionMy:
+                "စန္ဒာ၏ ပရိုဂရမ် အဘယ့်ကြောင့် selection လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "To respond differently depending on whether the guess was too high, too low, or correct",
+              "To remember the secret number",
+              "To repeat a question five times",
+              "To choose a strong password",
+            ],
+            optionsMy: [
+              "ခန့်မှန်းချက်သည် များလွန်း၊ နည်းလွန်း (သို့) မှန်ကန်ခြင်းအလိုက် မတူညီစွာတုံ့ပြန်ရန်",
+              "လျှို့ဝှက်ဂဏန်းကို မှတ်ထားရန်",
+              "မေးခွန်းကို ငါးကြိမ်ထပ်ရန်",
+              "ခိုင်မာသောစကားဝှက်ရွေးချယ်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What three test cases did Sandar choose?",
+            questionMy: "စန္ဒာ ဘယ် test case သုံးခုကို ရွေးချယ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Guessing correctly first try, guessing too low, and guessing too high",
+              "Three different passwords",
+              "Three different flowchart shapes",
+              "Three different pen colors",
+            ],
+            optionsMy: [
+              "ပထမကြိမ်တွင်မှန်ခန့်မှန်းခြင်း၊ နည်းလွန်းစွာခန့်မှန်းခြင်း၊ များလွန်းစွာခန့်မှန်းခြင်း",
+              "စကားဝှက်သုံးမျိုး",
+              "Flowchart ပုံသဏ္ဍာန်သုံးမျိုး",
+              "ခဲတံအရောင်သုံးမျိုး",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Sandar do before she felt ready to write real code?",
+            questionMy:
+                "Real code ရေးရန် အသင့်ဖြစ်ကြောင်းခံစားရမီ စန္ဒာ ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She made sure her pseudocode plan covered every piece needed",
+              "She deleted her plan",
+              "She skipped planning entirely",
+              "She only thought about the pen color",
+            ],
+            optionsMy: [
+              "သူမ၏ pseudocode plan သည် လိုအပ်သောအစိတ်အပိုင်းအားလုံးကို လွှမ်းခြုံကြောင်း သေချာစေခဲ့သည်",
+              "သူမ၏ plan ကို ဖျက်ခဲ့သည်",
+              "စီစဉ်ခြင်းကို လုံးဝကျော်ခဲ့သည်",
+              "ခဲတံအရောင်ကိုသာ တွေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What should a programmer do before writing any code?",
+          questionMy: "Code မရေးမီ programmer တစ်ဦး ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Plan what the program needs to do",
+            "Start typing random code",
+            "Skip planning",
+            "Delete the problem",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်လုပ်ဆောင်ရမည့်အရာကို စီစဉ်",
+            "ကျပန်း code ရိုက်စတင်",
+            "စီစဉ်ခြင်းကျော်",
+            "ပြဿနာဖျက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What building block do you need to remember a changing value?",
+          questionMy:
+              "ပြောင်းလဲနေသောတန်ဖိုးတစ်ခုမှတ်ရန် ဘယ် building block လိုအပ်သနည်း။",
+          optionsEn: ["A variable", "A syntax error", "A model", "A password"],
+          optionsMy: ["Variable", "Syntax error", "Model", "Password"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What building block do you need to repeat an action several times?",
+          questionMy:
+              "လုပ်ဆောင်ချက်တစ်ခုကို အကြိမ်ကြိမ်ထပ်ရန် ဘယ် building block လိုအပ်သနည်း။",
+          optionsEn: [
+            "A loop (iteration)",
+            "A variable only",
+            "A model only",
+            "A comment only",
+          ],
+          optionsMy: [
+            "Loop (iteration)",
+            "Variable တစ်ခုတည်း",
+            "Model တစ်ခုတည်း",
+            "Comment တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a test case?",
+          questionMy: "Test case ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A specific input used to check a program works correctly",
+            "A type of syntax error",
+            "A password rule",
+            "A flowchart symbol",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်သုံးသော အတိအကျ input",
+            "Syntax error အမျိုးအစားတစ်ခု",
+            "Password စည်းမျဉ်း",
+            "Flowchart သင်္ကေတ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a pseudocode plan?",
+          questionMy: "Pseudocode plan ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A program's plan written in plain, structured steps before real code",
+            "Real code with no plan at all",
+            "A type of password",
+            "A flowchart with no shapes",
+          ],
+          optionsMy: [
+            "Real code မရေးမီ ရိုးရှင်း၊ ဖွဲ့စည်းထားသောအဆင့်များဖြင့်ရေးသားထားသော ပရိုဂရမ်အစီအစဉ်",
+            "Plan လုံးဝမရှိသော real code",
+            "Password အမျိုးအစားတစ်ခု",
+            "ပုံသဏ္ဍာန်မပါသော flowchart",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 9, Week 36 (FINAL WEEK): "Build, Test,
+// and Celebrate"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek36 = CourseWeekDef(
+  id: "course-secondary1-computing-w36",
+  weekNumber: 36,
+  titleEn: "Build, Test, and Celebrate",
+  titleMy: "တည်ဆောက်ခြင်း၊ Test လုပ်ခြင်းနှင့် ဂုဏ်ပြုခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w36-d1",
+      dayNumber: 1,
+      titleEn: "From Plan to Real Code",
+      titleMy: "Plan မှ Real Code သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "After planning a program on paper, what is the next step?",
+          questionMy:
+              "စက္ကူပေါ်တွင် ပရိုဂရမ်စီစဉ်ပြီးနောက် နောက်တစ်ဆင့်က အဘယ်နည်း။",
+          optionsEn: [
+            "Writing the plan as real code using print(), variables, if/else, and loops",
+            "Deleting the plan completely",
+            "Starting a brand-new, unrelated plan",
+            "Choosing a password",
+          ],
+          optionsMy: [
+            "Print(), variable, if/else, loop များသုံး၍ plan ကို real code အဖြစ်ရေးခြင်း",
+            "Plan ကို လုံးဝဖျက်ခြင်း",
+            "မသက်ဆိုင်သော plan အသစ်စတင်ခြင်း",
+            "Password ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which real code line would store a player's guess as a variable, using input()?",
+          questionMy:
+              "input() သုံး၍ player ၏ခန့်မှန်းချက်ကို variable အဖြစ်သိမ်းဆည်းမည့် real code စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "guess = int(input('Guess a number: '))",
+            "guess == int(input('Guess a number: '))",
+            "print(guess) input()",
+            "for guess in range(10):",
+          ],
+          optionsMy: [
+            "guess = int(input('Guess a number: '))",
+            "guess == int(input('Guess a number: '))",
+            "print(guess) input()",
+            "for guess in range(10):",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which real code line correctly checks whether a guess is too low?",
+          questionMy:
+              "ခန့်မှန်းချက် နည်းလွန်းမနည်းလွန်း မှန်ကန်စွာစစ်ဆေးသော real code စာကြောင်းက အဘယ်နည်း။",
+          optionsEn: [
+            "if guess < secret_number:",
+            "if guess < secret_number",
+            "if guess = secret_number:",
+            "while guess < secret_number",
+          ],
+          optionsMy: [
+            "if guess < secret_number:",
+            "if guess < secret_number",
+            "if guess = secret_number:",
+            "while guess < secret_number",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should you test your program with more than one input value?",
+          questionMy:
+              "ပရိုဂရမ်ကို input value တစ်ခုထက်ပိုပြီး test လုပ်သင့်သည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "To check it behaves correctly in every case your test cases cover",
+            "To make it run slower on purpose",
+            "To delete its variables",
+            "To turn it back into pseudocode",
+          ],
+          optionsMy: [
+            "Test case များ လွှမ်းခြုံသောအခြေအနေတိုင်းတွင် မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်",
+            "ရည်ရွယ်ချက်ရှိရှိ ပိုနှေးအောင်လုပ်ရန်",
+            "Variable များကို ဖျက်ရန်",
+            "Pseudocode အဖြစ် ပြန်ပြောင်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which skills from earlier this year helped you plan your program before coding it?",
+          questionMy:
+              "ဒီနှစ်အစောပိုင်းက ဘယ်ကျွမ်းကျင်မှုများက code မရေးမီ ပရိုဂရမ်စီစဉ်ရာတွင် ကူညီခဲ့သနည်း။",
+          optionsEn: [
+            "Decomposition and abstraction",
+            "Only choosing a password",
+            "Only drawing an oval shape",
+            "Only turning on the computer",
+          ],
+          optionsMy: [
+            "Decomposition နှင့် abstraction",
+            "Password ရွေးချယ်ခြင်းသာ",
+            "ဘဲဥပုံဆွဲခြင်းသာ",
+            "ကွန်ပျူတာဖွင့်ခြင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w36-d2",
+      dayNumber: 2,
+      titleEn: "Term 9 Recap Vocabulary",
+      titleMy: "Term 9 ပြန်လည်သုံးသပ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w36-recap-decomposition",
+          termEn: "Decomposition",
+          termMy: "Decomposition",
+          matchEn:
+              "Breaking a big problem into smaller, manageable sub-problems",
+          matchMy: "ပြဿနာကြီးတစ်ခုကို sub-problem ငယ်များအဖြစ် ခွဲခြင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w36-recap-abstraction",
+          termEn: "Abstraction",
+          termMy: "Abstraction",
+          matchEn:
+              "Focusing on important details and ignoring ones that don't matter",
+          matchMy:
+              "အရေးကြီးသောအသေးစိတ်များကို အာရုံစိုက်ပြီး အရေးမကြီးသည်များကို လျစ်လျူရှုခြင်း",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w36-recap-patternrecognition",
+          termEn: "Pattern Recognition",
+          termMy: "Pattern Recognition",
+          matchEn:
+              "Noticing similarities or repeated features between problems",
+          matchMy:
+              "ပြဿနာများကြား ဆင်တူမှု (သို့) ထပ်ခံလက္ခဏာများ သတိပြုမိခြင်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w36-recap-programplan",
+          termEn: "Program Plan",
+          termMy: "Program Plan",
+          matchEn:
+              "A decomposition of what a program needs before any code is written",
+          matchMy:
+              "Code မရေးမီ ပရိုဂရမ်လိုအပ်ချက်ကို decomposition လုပ်ထားခြင်း",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w36-recap-testcase",
+          termEn: "Test Case",
+          termMy: "Test Case",
+          matchEn: "A specific input used to check a program works correctly",
+          matchMy:
+              "ပရိုဂရမ်မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်သုံးသော အတိအကျ input",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w36-d3",
+      dayNumber: 3,
+      titleEn: "A Year of Computing: Which Topic?",
+      titleMy: "ကွန်ပျူတာနှစ်တစ်ခုလုံး: ဘယ်ခေါင်းစဉ်လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Hardware, Networks & Data",
+          "Programming & Code",
+          "Data Representation",
+          "Digital Citizenship & Thinking Skills",
+        ],
+        bucketsMy: [
+          "Hardware, Networks & Data",
+          "Programming & Code",
+          "Data Representation",
+          "Digital Citizenship & Thinking Skills",
+        ],
+        items: [
+          SortingItem(
+            id: "w36-sort-cpuram",
+            labelEn: "CPU and RAM",
+            labelMy: "CPU နှင့် RAM",
+            correctBucketEn: "Hardware, Networks & Data",
+            correctBucketMy: "Hardware, Networks & Data",
+          ),
+          SortingItem(
+            id: "w36-sort-lanwan",
+            labelEn: "LAN and WAN",
+            labelMy: "LAN နှင့် WAN",
+            correctBucketEn: "Hardware, Networks & Data",
+            correctBucketMy: "Hardware, Networks & Data",
+          ),
+          SortingItem(
+            id: "w36-sort-variablesloops",
+            labelEn: "Variables and loops",
+            labelMy: "Variable နှင့် loop",
+            correctBucketEn: "Programming & Code",
+            correctBucketMy: "Programming & Code",
+          ),
+          SortingItem(
+            id: "w36-sort-ifelifelse",
+            labelEn: "if / elif / else in real code",
+            labelMy: "Real code ရှိ if / elif / else",
+            correctBucketEn: "Programming & Code",
+            correctBucketMy: "Programming & Code",
+          ),
+          SortingItem(
+            id: "w36-sort-binarybits",
+            labelEn: "Binary numbers and bits",
+            labelMy: "Binary number နှင့် bit",
+            correctBucketEn: "Data Representation",
+            correctBucketMy: "Data Representation",
+          ),
+          SortingItem(
+            id: "w36-sort-asciicodes",
+            labelEn: "ASCII character codes",
+            labelMy: "ASCII character code",
+            correctBucketEn: "Data Representation",
+            correctBucketMy: "Data Representation",
+          ),
+          SortingItem(
+            id: "w36-sort-strongpasswords",
+            labelEn: "Strong passwords",
+            labelMy: "ခိုင်မာသောစကားဝှက်",
+            correctBucketEn: "Digital Citizenship & Thinking Skills",
+            correctBucketMy: "Digital Citizenship & Thinking Skills",
+          ),
+          SortingItem(
+            id: "w36-sort-decompositionabstraction",
+            labelEn: "Decomposition and abstraction",
+            labelMy: "Decomposition နှင့် abstraction",
+            correctBucketEn: "Digital Citizenship & Thinking Skills",
+            correctBucketMy: "Digital Citizenship & Thinking Skills",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w36-d4",
+      dayNumber: 4,
+      titleEn: "Sandar's Finished Game",
+      titleMy: "စန္ဒာ၏ ပြီးစီးသောဂိမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Finished Game",
+        titleMy: "စန္ဒာ၏ ပြီးစီးသောဂိမ်း",
+        passageEn:
+            "With her plan ready from last week, Sandar sat down to turn it into real code. She wrote secret_number = 7 to store the number, then used a while loop, while guess != secret_number:, to keep asking until the player guessed correctly. Inside the loop she wrote guess = int(input('Guess a number: ')), then used selection: if guess < secret_number: print('Too low'), elif guess > secret_number: print('Too high'), and finally print('Correct!') once the loop ended. On her first attempt she forgot the colon after the while line and got a syntax error; after fixing it, she tested her program with three cases -- guessing too low, too high, and correct -- and every case worked. Looking back over the whole year, Sandar realized her finished game used a bit of everything: the hardware her code ran on, the real-code syntax from Term 7, the variables and selection and loops she had practiced since Term 4, and the decomposition and abstraction she had just learned to plan it. She felt proud that a year that started with 'what is a computer?' had ended with her building, testing, and celebrating a program entirely her own.",
+        passageMy:
+            "ပြီးခဲ့သောသီတင်းပတ်က plan အသင့်ဖြင့် စန္ဒာသည် real code အဖြစ်ပြောင်းရန် ထိုင်ခဲ့သည်။ ဂဏန်းကိုသိမ်းရန် secret_number = 7 ဟု ရေးခဲ့ပြီး၊ player မှန်ကန်စွာခန့်မှန်းသည်အထိ ဆက်တိုက်မေးရန် while loop ဖြစ်သော while guess != secret_number: ကို သုံးခဲ့သည်။ Loop အတွင်း guess = int(input('Guess a number: ')) ဟု ရေးပြီး၊ selection သုံးခဲ့သည်: if guess < secret_number: print('Too low'), elif guess > secret_number: print('Too high'), နောက်ဆုံးတွင် loop ပြီးဆုံးသောအခါ print('Correct!') ။ ပထမကြိမ်ကြိုးစားရာတွင် while စာကြောင်းနောက်ရှိ colon ကို မေ့ကျန်ခဲ့ရာ syntax error ရရှိခဲ့သည်။ ပြင်ဆင်ပြီးနောက် သူမသည် ပရိုဂရမ်ကို test case သုံးခု -- နည်းလွန်းစွာခန့်မှန်းခြင်း၊ များလွန်းစွာခန့်မှန်းခြင်းနှင့် မှန်ကန်စွာခန့်မှန်းခြင်း -- ဖြင့် test လုပ်ခဲ့ရာ အားလုံးအောင်မြင်ခဲ့သည်။ နှစ်တစ်ခုလုံးကို ပြန်ကြည့်လိုက်သောအခါ သူမ၏ ပြီးစီးသောဂိမ်းသည် အရာအားလုံးမှ အနည်းငယ်စီပါဝင်ကြောင်း စန္ဒာ သိရှိခဲ့သည် - သူမ၏ code run သည့် hardware၊ Term 7 မှ real code syntax၊ Term 4 မှစတင် လေ့ကျင့်ခဲ့သော variable၊ selection နှင့် loop များ၊ ထို့နောက် plan စီစဉ်ရန် အသစ်သင်ခဲ့သော decomposition နှင့် abstraction။ 'ကွန်ပျူတာဆိုသည်မှာ အဘယ်နည်း' ဟူသော မေးခွန်းဖြင့် စတင်ခဲ့သော နှစ်တစ်ခုလုံးသည် သူမကိုယ်တိုင်ပိုင်ဆိုင်သော ပရိုဂရမ်တစ်ခုကို တည်ဆောက်ခြင်း၊ test လုပ်ခြင်းနှင့် ဂုဏ်ပြုခြင်းဖြင့် အဆုံးသတ်ခဲ့ကြောင်း သူမ ဂုဏ်ယူစွာ ခံစားရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What loop did Sandar use to keep asking for a guess?",
+            questionMy:
+                "ခန့်မှန်းချက်ကို ဆက်တိုက်မေးရန် စန္ဒာ ဘယ် loop သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "A while loop",
+              "A for loop only",
+              "No loop at all",
+              "A print() loop",
+            ],
+            optionsMy: [
+              "While loop",
+              "For loop သာ",
+              "Loop လုံးဝမသုံး",
+              "Print() loop",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What mistake caused Sandar's first attempt to fail?",
+            questionMy: "စန္ဒာ၏ ပထမကြိုးစားမှု မအောင်မြင်ရသည့်အမှားက အဘယ်နည်း။",
+            optionsEn: [
+              "She forgot the colon after the while line",
+              "She forgot to use a variable",
+              "She used the wrong secret number",
+              "She deleted her print() function",
+            ],
+            optionsMy: [
+              "While စာကြောင်းနောက်ရှိ colon ကို မေ့ကျန်ခဲ့၍",
+              "Variable သုံးရန် မေ့ကျန်ခဲ့၍",
+              "လျှို့ဝှက်ဂဏန်း မှားသုံးမိ၍",
+              "Print() function ကို ဖျက်မိ၍",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What three test cases did Sandar use to test her finished program?",
+            questionMy:
+                "ပြီးစီးသောပရိုဂရမ်ကို test လုပ်ရန် စန္ဒာ ဘယ် test case သုံးခုသုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Guessing too low, too high, and correct",
+              "Three different secret numbers",
+              "Three different passwords",
+              "Three different flowcharts",
+            ],
+            optionsMy: [
+              "နည်းလွန်းစွာ၊ များလွန်းစွာနှင့် မှန်ကန်စွာခန့်မှန်းခြင်း",
+              "လျှို့ဝှက်ဂဏန်း သုံးခု",
+              "Password သုံးခု",
+              "Flowchart သုံးခု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which skills from Term 9 helped Sandar plan her game before coding it?",
+            questionMy:
+                "Term 9 မှ ဘယ်ကျွမ်းကျင်မှုများက code မရေးမီ ဂိမ်းစီစဉ်ရာတွင် ကူညီခဲ့သနည်း။",
+            optionsEn: [
+              "Decomposition and abstraction",
+              "Only a strong password",
+              "Only a flowchart oval",
+              "Only ASCII codes",
+            ],
+            optionsMy: [
+              "Decomposition နှင့် abstraction",
+              "ခိုင်မာသောစကားဝှက်သာ",
+              "Flowchart ဘဲဥပုံသာ",
+              "ASCII code သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What question did the whole year of learning start with, according to the passage?",
+            questionMy:
+                "ဤစာပိုဒ်အရ နှစ်တစ်ခုလုံးသင်ကြားမှု ဘယ်မေးခွန်းဖြင့် စတင်ခဲ့သနည်း။",
+            optionsEn: [
+              "'What is a computer?'",
+              "'What is a password?'",
+              "'What is a loop?'",
+              "'What is ASCII?'",
+            ],
+            optionsMy: [
+              "'ကွန်ပျူတာဆိုသည်မှာ အဘယ်နည်း'",
+              "'Password ဆိုသည်မှာ အဘယ်နည်း'",
+              "'Loop ဆိုသည်မှာ အဘယ်နည်း'",
+              "'ASCII ဆိုသည်မှာ အဘယ်နည်း'",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w36-d5",
+      dayNumber: 5,
+      titleEn: "Week 36 Recap Quiz -- A Year in Review",
+      titleMy:
+          "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ - နှစ်တစ်ခုလုံးပြန်လည်ကြည့်ရှုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What do we call the physical parts of a computer you can touch?",
+          questionMy:
+              "ကွန်ပျူတာ၏ ထိတွေ့နိုင်သော ရုပ်ပိုင်းဆိုင်ရာအစိတ်အပိုင်းများကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: ["Hardware", "Software", "A password", "An algorithm"],
+          optionsMy: ["Hardware", "Software", "Password", "Algorithm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Computers store all data using only two digits. What are they?",
+          questionMy:
+              "ကွန်ပျူတာများသည် ဒေတာအားလုံးကို ဂဏန်းနှစ်လုံးဖြင့်သာ သိမ်းဆည်းသည်။ ဘာနှစ်လုံးလဲ။",
+          optionsEn: ["0 and 1", "1 and 2", "A and B", "5 and 10"],
+          optionsMy: ["0 နှင့် 1", "1 နှင့် 2", "A နှင့် B", "5 နှင့် 10"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In real code, what symbol ends an if, elif, else, for, or while line before its indented block?",
+          questionMy:
+              "Real code တွင် if, elif, else, for, while စာကြောင်းများ၏ indent block မတိုင်မီ ဘာသင်္ကေတက အဆုံးသတ်သနည်း။",
+          optionsEn: [
+            "A colon (:)",
+            "A semicolon (;)",
+            "A comma (,)",
+            "A hashtag (#)",
+          ],
+          optionsMy: ["Colon (:)", "Semicolon (;)", "Comma (,)", "Hashtag (#)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If something online makes you feel unsafe, what should you always do?",
+          questionMy:
+              "အွန်လိုင်းရှိအရာတစ်ခုက မလုံခြုံဟု ခံစားရလျှင် အမြဲမည်သို့ပြုလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Tell a trusted adult",
+            "Keep it a secret",
+            "Share it with everyone",
+            "Reply with personal information",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရသူကြီးကို ပြောပြပါ",
+            "လျှို့ဝှက်ထားပါ",
+            "အားလုံးထံမျှဝေပါ",
+            "ကိုယ်ရေးအချက်အလက်ဖြင့် ပြန်စာပို့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What do we call breaking a big problem into smaller pieces?",
+          questionMy:
+              "ပြဿနာကြီးတစ်ခုကို အစိတ်အပိုင်းငယ်များအဖြစ် ခွဲခြင်းကို ဘာဟုခေါ်သနည်း။",
+          optionsEn: [
+            "Decomposition",
+            "Abstraction",
+            "Syntax error",
+            "Debugging",
+          ],
+          optionsMy: [
+            "Decomposition",
+            "Abstraction",
+            "Syntax error",
+            "Debugging",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm9 = CourseTermDef(
+  id: "course-secondary1-computing-t9",
+  termNumber: 9,
+  titleEn: "Computational Thinking & Your Own Project",
+  titleMy: "Computational Thinking နှင့် ကိုယ်ပိုင်ပရိုဂျက်",
+  certificateTitleEn: "Computational Thinking & Your Own Project",
+  certificateTitleMy: "Computational Thinking နှင့် ကိုယ်ပိုင်ပရိုဂျက်",
+  weeks: [
+    _secondary1ComputingWeek33,
+    _secondary1ComputingWeek34,
+    _secondary1ComputingWeek35,
+    _secondary1ComputingWeek36,
+  ], // Term 9 complete (Weeks 33-36) -- FINAL TERM, full 36-week pathway complete
+);
+
+/// Secondary 1 Computing's full-year pathway. All 9 terms (Weeks 1-36)
+/// are now represented, completing the full [totalWeeks] roadmap for
+/// real -- "Week 1 of 36" is now literally true across the whole
+/// pathway, not just an honest progress-bar placeholder. Each
+/// [CourseTermDef] is a short thematic/certificate milestone
+/// (Coursera-style), not a literal 12-week school term: this Year 1
+/// vertical slice authors 4 weeks per term (9 terms x 4 weeks = 36
+/// weeks) rather than a literal ~12-week term. A Year 2 pathway (Grade
+/// [Grade.secondary2] onward) would be a new, separate
+/// [CoursePathwayDef] appended to [allCoursePathways], not more terms
+/// grafted onto this one.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -13012,6 +14821,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
     _secondary1ComputingTerm6,
     _secondary1ComputingTerm7,
     _secondary1ComputingTerm8,
+    _secondary1ComputingTerm9,
   ],
 );
 
