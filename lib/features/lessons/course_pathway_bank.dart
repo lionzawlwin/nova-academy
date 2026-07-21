@@ -9509,17 +9509,1690 @@ const CourseTermDef _secondary1ComputingTerm6 = CourseTermDef(
     _secondary1ComputingWeek22,
     _secondary1ComputingWeek23,
     _secondary1ComputingWeek24,
-  ], // Term 6 complete (Weeks 21-24); Term 7 not authored yet
+  ], // Term 6 complete (Weeks 21-24)
 );
 
-/// Secondary 1 Computing's full-year pathway. Terms 1-6 (Weeks 1-24) are
+// =====================================================================
+// Secondary 1 Computing -- Term 7, Week 25: "Meet a Real Programming
+// Language"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek25 = CourseWeekDef(
+  id: "course-secondary1-computing-w25",
+  weekNumber: 25,
+  titleEn: "Meet a Real Programming Language",
+  titleMy: "အစစ်အမှန် Programming Language နှင့် တွေ့ဆုံခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w25-d1",
+      dayNumber: 1,
+      titleEn: "From Pseudocode to Real Code",
+      titleMy: "Pseudocode မှ အစစ်အမှန် Code သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the main difference between pseudocode and a real programming language?",
+          questionMy:
+              "Pseudocode နှင့် အစစ်အမှန် programming language ကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A real language must follow exact syntax rules a computer can run, while pseudocode does not",
+            "Pseudocode always runs faster than real code",
+            "A real programming language has no variables",
+            "Pseudocode is only used by computers, not people",
+          ],
+          optionsMy: [
+            "အစစ်အမှန် language သည် ကွန်ပျူတာ run နိုင်သော အတိအကျ syntax စည်းမျဉ်းများကို လိုက်နာရသော်လည်း pseudocode တွင် မလိုအပ်ပါ",
+            "Pseudocode သည် အစစ်အမှန် code ထက် အမြဲမြန်သည်",
+            "အစစ်အမှန် programming language တွင် variable မရှိပါ",
+            "Pseudocode ကို ကွန်ပျူတာသာ အသုံးပြုပြီး လူများ အသုံးမပြုပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does the print() function do in real code?",
+          questionMy: "အစစ်အမှန် code တွင် print() function က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Displays output on the screen",
+            "Deletes a variable",
+            "Draws a flowchart",
+            "Repeats code forever",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင်ပေါ်တွင် output ပြသသည်",
+            "Variable တစ်ခုကို ဖျက်သည်",
+            "Flowchart ရေးဆွဲသည်",
+            "Code ကို အမြဲထပ်ခါလုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a comment used for in real code?",
+          questionMy: "အစစ်အမှန် code တွင် comment ကို ဘာအတွက်သုံးသနည်း။",
+          optionsEn: [
+            "Explaining code to people, without affecting how it runs",
+            "Making the program run faster",
+            "Storing a value",
+            "Ending a loop",
+          ],
+          optionsMy: [
+            "Code run ပုံကို မထိခိုက်ဘဲ လူများအား ရှင်းပြရန်",
+            "ပရိုဂရမ်ကို ပိုမြန်စေရန်",
+            "တန်ဖိုးတစ်ခု သိမ်းဆည်းရန်",
+            "Loop ကို ရပ်တန့်စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does capitalization matter in most real programming languages (e.g. Print vs print)?",
+          questionMy:
+              "အစစ်အမှန် programming language အများစုတွင် စာလုံးအကြီးအသေး (ဥပမာ Print နှင့် print) အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Because the language is case sensitive, so Print and print are treated as different words",
+            "Because capital letters use more memory",
+            "Because lowercase letters are not allowed",
+            "Because it changes the data type",
+          ],
+          optionsMy: [
+            "Language သည် case sensitive ဖြစ်သဖြင့် Print နှင့် print ကို မတူညီသောစကားလုံးများအဖြစ် သတ်မှတ်၍",
+            "စာလုံးအကြီးများသည် memory ပိုသုံးသဖြင့်",
+            "စာလုံးအသေးများ အသုံးပြုခွင့်မရှိသဖြင့်",
+            "Data type ကို ပြောင်းလဲစေသဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In pseudocode's OUTPUT \"Hello\", which real-code line does this become?",
+          questionMy:
+              "Pseudocode ၏ OUTPUT \"Hello\" သည် အစစ်အမှန် code တွင် ဘယ်စာကြောင်းဖြစ်သွားမည်နည်း။",
+          optionsEn: [
+            "print('Hello')",
+            "OUTPUT print Hello",
+            "Hello = print",
+            "IF Hello THEN print",
+          ],
+          optionsMy: [
+            "print('Hello')",
+            "OUTPUT print Hello",
+            "Hello = print",
+            "IF Hello THEN print",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w25-d2",
+      dayNumber: 2,
+      titleEn: "Real Code Vocabulary",
+      titleMy: "အစစ်အမှန် Code ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w25-lang-programminglanguage",
+          termEn: "Programming Language",
+          termMy: "Programming Language",
+          matchEn:
+              "A set of exact rules and words a computer can follow to run a program",
+          matchMy:
+              "ကွန်ပျူတာ ပရိုဂရမ်တစ်ခုကို run စေရန် လိုက်နာနိုင်သော အတိအကျစည်းမျဉ်းနှင့် စကားလုံးအစုအဝေး",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w25-lang-printfunction",
+          termEn: "print() Function",
+          termMy: "print() Function",
+          matchEn: "A command that displays output on the screen",
+          matchMy: "မျက်နှာပြင်ပေါ်တွင် output ပြသသော command တစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w25-lang-comment",
+          termEn: "Comment",
+          termMy: "Comment",
+          matchEn:
+              "A note in the code, ignored by the computer, that explains it to people",
+          matchMy:
+              "ကွန်ပျူတာက လျစ်လျူရှုထားသော်လည်း လူများအား ရှင်းပြပေးသော code ထဲရှိမှတ်စု",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w25-lang-syntax",
+          termEn: "Syntax",
+          termMy: "Syntax",
+          matchEn:
+              "The exact set of rules for how code must be written so the computer can understand it",
+          matchMy:
+              "ကွန်ပျူတာနားလည်နိုင်ရန် code ကို မည်သို့ရေးရမည့် အတိအကျစည်းမျဉ်းအစု",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w25-lang-casesensitive",
+          termEn: "Case Sensitive",
+          termMy: "Case Sensitive",
+          matchEn:
+              "When uppercase and lowercase letters are treated as different, e.g. print and Print",
+          matchMy:
+              "စာလုံးအကြီးနှင့်အသေးကို မတူညီဟု သတ်မှတ်ခြင်း၊ ဥပမာ print နှင့် Print",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w25-d3",
+      dayNumber: 3,
+      titleEn: "Correct or Incorrect print() Syntax?",
+      titleMy: "print() Syntax မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Syntax", "Incorrect Syntax"],
+        bucketsMy: ["Correct Syntax (မှန်ကန်)", "Incorrect Syntax (မမှန်ကန်)"],
+        items: [
+          SortingItem(
+            id: "w25-sort-printhello",
+            labelEn: "print('Hello!')",
+            labelMy: "print('Hello!')",
+            correctBucketEn: "Correct Syntax",
+            correctBucketMy: "Correct Syntax (မှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w25-sort-printnoquotes",
+            labelEn: "print(Hello!)",
+            labelMy: "print(Hello!)",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w25-sort-printcapital",
+            labelEn: "Print('Hello!')",
+            labelMy: "Print('Hello!')",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w25-sort-printbye",
+            labelEn: "print('Goodbye!')",
+            labelMy: "print('Goodbye!')",
+            correctBucketEn: "Correct Syntax",
+            correctBucketMy: "Correct Syntax (မှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w25-sort-misspelled",
+            labelEn: "prnt('Hello!')",
+            labelMy: "prnt('Hello!')",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+          SortingItem(
+            id: "w25-sort-noparens",
+            labelEn: "print 'Hello!'",
+            labelMy: "print 'Hello!'",
+            correctBucketEn: "Incorrect Syntax",
+            correctBucketMy: "Incorrect Syntax (မမှန်ကန်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w25-d4",
+      dayNumber: 4,
+      titleEn: "Aye's First Real Program",
+      titleMy: "အေး၏ ပထမဆုံး အစစ်အမှန် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye's First Real Program",
+        titleMy: "အေး၏ ပထမဆုံး အစစ်အမှန် ပရိုဂရမ်",
+        passageEn:
+            "Aye had already written pseudocode with the line OUTPUT \"Welcome!\", so she knew exactly what her program needed to do. She opened a real code editor and typed Print('Welcome!'), but when she ran it, the computer showed an error. Her teacher explained that the language was case sensitive, so Print and print were treated as completely different words. Aye fixed her mistake by typing print('Welcome!') with a lowercase p, and this time the program ran perfectly, showing Welcome! on the screen. She also added a comment above her code, # This greets the user, so that anyone reading her program later would understand what it did without having to run it first.",
+        passageMy:
+            "အေးသည် OUTPUT \"Welcome!\" ဟူသော pseudocode စာကြောင်းကို ရေးထားပြီးဖြစ်၍ သူမ၏ ပရိုဂရမ်က ဘာလုပ်ရမည်ကို အတိအကျသိထားသည်။ သူမသည် အစစ်အမှန် code editor တစ်ခုကို ဖွင့်ပြီး Print('Welcome!') ဟု ရိုက်ထည့်ခဲ့သော်လည်း run လိုက်သောအခါ ကွန်ပျူတာက error ပြသခဲ့သည်။ ဆရာမက language သည် case sensitive ဖြစ်၍ Print နှင့် print ကို လုံးဝမတူညီသော စကားလုံးများအဖြစ် သတ်မှတ်ကြောင်း ရှင်းပြခဲ့သည်။ အေးသည် print('Welcome!') ဟု စာလုံးအသေး p ဖြင့် ပြင်ရိုက်လိုက်ရာ ဤတစ်ကြိမ်တွင် ပရိုဂရမ်သည် စနစ်တကျ run သွားပြီး မျက်နှာပြင်ပေါ်တွင် Welcome! ဟု ပြသခဲ့သည်။ သူမသည် code အပေါ်တွင် # This greets the user ဟူသော comment တစ်ခုကိုပါ ထည့်လိုက်ရာ နောက်ဖတ်မည့်သူတိုင်း run ကြည့်စရာမလိုဘဲ ၎င်းက ဘာလုပ်သည်ကို နားလည်စေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What pseudocode line had Aye already written?",
+            questionMy:
+                "အေးသည် ဘယ် pseudocode စာကြောင်းကို ရေးထားပြီးဖြစ်သနည်း။",
+            optionsEn: [
+              "OUTPUT \"Welcome!\"",
+              "IF score > 50",
+              "FOR count = 1 TO 5",
+              "score = 0",
+            ],
+            optionsMy: [
+              "OUTPUT \"Welcome!\"",
+              "IF score > 50",
+              "FOR count = 1 TO 5",
+              "score = 0",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Aye's first attempt cause an error?",
+            questionMy:
+                "အေး၏ ပထမကြိမ်ကြိုးစားမှုသည် အဘယ့်ကြောင့် error ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She used a capital P in Print, but the language is case sensitive",
+              "She forgot to write any code at all",
+              "She used a loop instead of print",
+              "She deleted her variable",
+            ],
+            optionsMy: [
+              "Language သည် case sensitive ဖြစ်ပြီး Print တွင် P စာလုံးကြီးအသုံးပြုခဲ့၍",
+              "Code လုံးဝမရေးမိ၍",
+              "print အစား loop သုံးမိ၍",
+              "Variable ကို ဖျက်မိ၍",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Aye fix her code?",
+            questionMy: "အေးသည် သူမ၏ code ကို မည်သို့ပြင်ခဲ့သနည်း။",
+            optionsEn: [
+              "She typed print with a lowercase p",
+              "She deleted the whole program",
+              "She added a loop",
+              "She turned it back into pseudocode",
+            ],
+            optionsMy: [
+              "Print ကို စာလုံးအသေး p ဖြင့် ပြန်ရိုက်ခဲ့သည်",
+              "ပရိုဂရမ်တစ်ခုလုံးကို ဖျက်ခဲ့သည်",
+              "Loop တစ်ခု ထည့်ခဲ့သည်",
+              "Pseudocode အဖြစ် ပြန်ပြောင်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Aye's comment explain?",
+            questionMy: "အေး၏ comment သည် ဘာကို ရှင်းပြခဲ့သနည်း။",
+            optionsEn: [
+              "That the code greets the user",
+              "The variable's data type",
+              "How many times the loop repeats",
+              "The value of the condition",
+            ],
+            optionsMy: [
+              "Code သည် user ကို ကြိုဆိုကြောင်း",
+              "Variable ၏ data type",
+              "Loop ဘယ်နှကြိမ်ထပ်ကြောင်း",
+              "Condition ၏ တန်ဖိုး",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why are comments useful, even though the computer ignores them?",
+            questionMy:
+                "ကွန်ပျူတာက comment ကို လျစ်လျူရှုသော်လည်း အဘယ့်ကြောင့် အသုံးဝင်သနည်း။",
+            optionsEn: [
+              "They help people reading the code understand it later",
+              "They make the program run faster",
+              "They fix syntax errors automatically",
+              "They turn code into a flowchart",
+            ],
+            optionsMy: [
+              "နောက်ဖတ်မည့်သူများအား code ကို နားလည်စေရန် ကူညီပေးသည်",
+              "ပရိုဂရမ်ကို ပိုမြန်စေသည်",
+              "Syntax error များကို အလိုအလျောက် ပြင်ပေးသည်",
+              "Code ကို flowchart အဖြစ် ပြောင်းသည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What must real code follow that pseudocode does not require?",
+          questionMy:
+              "Pseudocode တွင် မလိုအပ်သော်လည်း အစစ်အမှန် code တွင် ဘာကို လိုက်နာရသနည်း။",
+          optionsEn: [
+            "Exact syntax rules the computer can run",
+            "A flowchart symbol for every line",
+            "A drag-match card",
+            "A reading passage",
+          ],
+          optionsMy: [
+            "ကွန်ပျူတာ run နိုင်သော အတိအကျ syntax စည်းမျဉ်း",
+            "စာကြောင်းတိုင်းအတွက် flowchart သင်္ကေတ",
+            "Drag-match card",
+            "Reading passage",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does print() do?",
+          questionMy: "print() က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Displays output on the screen",
+            "Stores a value forever",
+            "Deletes the program",
+            "Draws a flowchart",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင်ပေါ်တွင် output ပြသသည်",
+            "တန်ဖိုးကို အမြဲသိမ်းဆည်းထားသည်",
+            "ပရိုဂရမ်ကို ဖျက်သည်",
+            "Flowchart ရေးဆွဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is correct print() syntax?",
+          questionMy: "အောက်ပါတို့အနက် print() syntax မှန်ကန်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "print('Hi!')",
+            "print Hi!",
+            "Hi! = print",
+            "prnt('Hi!')",
+          ],
+          optionsMy: [
+            "print('Hi!')",
+            "print Hi!",
+            "Hi! = print",
+            "prnt('Hi!')",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a comment for?",
+          questionMy: "Comment ကို ဘာအတွက်သုံးသနည်း။",
+          optionsEn: [
+            "Explaining code to people",
+            "Making a variable",
+            "Repeating code",
+            "Comparing two values",
+          ],
+          optionsMy: [
+            "Code ကို လူများအား ရှင်းပြရန်",
+            "Variable ဖန်တီးရန်",
+            "Code ကို ထပ်ခါလုပ်ရန်",
+            "တန်ဖိုးနှစ်ခု နှိုင်းယှဉ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Print (capital P) cause an error in most real languages?",
+          questionMy:
+              "Language အများစုတွင် Print (P စာလုံးကြီး) သည် အဘယ့်ကြောင့် error ဖြစ်စေသနည်း။",
+          optionsEn: [
+            "The language is case sensitive",
+            "The word is spelled wrong",
+            "It is missing a variable",
+            "It is a comment, not code",
+          ],
+          optionsMy: [
+            "Language သည် case sensitive ဖြစ်၍",
+            "စာလုံးပေါင်းမှားသဖြင့်",
+            "Variable မပါသဖြင့်",
+            "Code မဟုတ်ဘဲ comment ဖြစ်၍",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 7, Week 26: "Variables and Input/Output
+// in Real Code"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek26 = CourseWeekDef(
+  id: "course-secondary1-computing-w26",
+  weekNumber: 26,
+  titleEn: "Variables and Input/Output in Real Code",
+  titleMy: "Code ထဲရှိ Variable နှင့် Input/Output",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w26-d1",
+      dayNumber: 1,
+      titleEn: "Assigning Variables in Real Code",
+      titleMy: "Code ထဲတွင် Variable Assign လုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "How do you assign the value 'Aye' to a variable called name in real code?",
+          questionMy:
+              "Real code တွင် name ဟူသော variable သို့ 'Aye' ဟူသောတန်ဖိုးကို မည်သို့ assign လုပ်သနည်း။",
+          optionsEn: [
+            "name = 'Aye'",
+            "name == 'Aye'",
+            "'Aye' = name",
+            "name -> 'Aye'",
+          ],
+          optionsMy: [
+            "name = 'Aye'",
+            "name == 'Aye'",
+            "'Aye' = name",
+            "name -> 'Aye'",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does the input() function do?",
+          questionMy: "input() function က ဘာလုပ်သနည်း။",
+          optionsEn: [
+            "Lets the program ask the user to type something and store it",
+            "Deletes a variable",
+            "Prints text without needing a variable",
+            "Loops forever",
+          ],
+          optionsMy: [
+            "User ထံမှ စာရိုက်ထည့်ခိုင်းပြီး သိမ်းဆည်းစေသည်",
+            "Variable ကို ဖျက်သည်",
+            "Variable မလိုဘဲ စာသားပရင့်ထုတ်သည်",
+            "အမြဲထပ်ခါလုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In real code, what type of value is 'Aye' considered?",
+          questionMy: "Real code တွင် 'Aye' သည် ဘယ် data type ဖြစ်သနည်း။",
+          optionsEn: [
+            "A string (text)",
+            "An integer (whole number)",
+            "A Boolean",
+            "A comment",
+          ],
+          optionsMy: [
+            "String (စာသား)",
+            "Integer (ဂဏန်းအပြည့်)",
+            "Boolean",
+            "Comment",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In real code, what type of value is 25 (written without quotes) considered?",
+          questionMy:
+              "Real code တွင် 25 (quote မပါဘဲရေးထားသော) သည် ဘယ် data type ဖြစ်သနည်း။",
+          optionsEn: [
+            "An integer (whole number)",
+            "A string (text)",
+            "A comment",
+            "A print statement",
+          ],
+          optionsMy: [
+            "Integer (ဂဏန်းအပြည့်)",
+            "String (စာသား)",
+            "Comment",
+            "print statement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If name = 'Aye', what does print(name) display?",
+          questionMy: "name = 'Aye' ဖြစ်ပါက print(name) သည် ဘာပြသမည်နည်း။",
+          optionsEn: ["Aye", "name", "'Aye'", "Nothing at all"],
+          optionsMy: ["Aye", "name", "'Aye'", "ဘာမှမပြသ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w26-d2",
+      dayNumber: 2,
+      titleEn: "Variables and I/O Vocabulary",
+      titleMy: "Variable နှင့် I/O ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w26-io-assignmentoperator",
+          termEn: "Assignment Operator",
+          termMy: "Assignment Operator",
+          matchEn: "The = symbol used to give a variable a value in real code",
+          matchMy:
+              "Real code တွင် variable တစ်ခုသို့ တန်ဖိုးပေးရန်သုံးသော = သင်္ကေတ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w26-io-inputfunction",
+          termEn: "input() Function",
+          termMy: "input() Function",
+          matchEn:
+              "A command that lets the program ask the user to type something",
+          matchMy: "User ထံမှ စာရိုက်ထည့်ခိုင်းစေနိုင်သော command တစ်ခု",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w26-io-string",
+          termEn: "String",
+          termMy: "String",
+          matchEn: "A data type for text, written inside quotes such as 'Aye'",
+          matchMy: "'Aye' ကဲ့သို့ quote အတွင်းရေးထားသော စာသားအတွက် data type",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w26-io-integer",
+          termEn: "Integer",
+          termMy: "Integer",
+          matchEn:
+              "A data type for whole numbers, written without quotes such as 25",
+          matchMy: "25 ကဲ့သို့ quote မပါဘဲရေးထားသော ဂဏန်းအပြည့်အတွက် data type",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w26-io-printvariable",
+          termEn: "print(variable)",
+          termMy: "print(variable)",
+          matchEn:
+              "Displays the value currently stored inside a variable, not its name",
+          matchMy:
+              "Variable ၏ အမည်မဟုတ်ဘဲ အတွင်းသိမ်းဆည်းထားသော လက်ရှိတန်ဖိုးကို ပြသသည်",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w26-d3",
+      dayNumber: 3,
+      titleEn: "String or Integer?",
+      titleMy: "String လား Integer လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["String", "Integer"],
+        bucketsMy: ["String (စာသား)", "Integer (ဂဏန်းအပြည့်)"],
+        items: [
+          SortingItem(
+            id: "w26-sort-yangon",
+            labelEn: "'Yangon'",
+            labelMy: "'Yangon'",
+            correctBucketEn: "String",
+            correctBucketMy: "String (စာသား)",
+          ),
+          SortingItem(
+            id: "w26-sort-seven",
+            labelEn: "7",
+            labelMy: "7",
+            correctBucketEn: "Integer",
+            correctBucketMy: "Integer (ဂဏန်းအပြည့်)",
+          ),
+          SortingItem(
+            id: "w26-sort-myanmar",
+            labelEn: "'Myanmar'",
+            labelMy: "'Myanmar'",
+            correctBucketEn: "String",
+            correctBucketMy: "String (စာသား)",
+          ),
+          SortingItem(
+            id: "w26-sort-2026",
+            labelEn: "2026",
+            labelMy: "2026",
+            correctBucketEn: "Integer",
+            correctBucketMy: "Integer (ဂဏန်းအပြည့်)",
+          ),
+          SortingItem(
+            id: "w26-sort-hello",
+            labelEn: "'Hello!'",
+            labelMy: "'Hello!'",
+            correctBucketEn: "String",
+            correctBucketMy: "String (စာသား)",
+          ),
+          SortingItem(
+            id: "w26-sort-zero",
+            labelEn: "0",
+            labelMy: "0",
+            correctBucketEn: "Integer",
+            correctBucketMy: "Integer (ဂဏန်းအပြည့်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w26-d4",
+      dayNumber: 4,
+      titleEn: "Zaw's Greeting Program",
+      titleMy: "ဇော်၏ နှုတ်ဆက်စကား ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zaw's Greeting Program",
+        titleMy: "ဇော်၏ နှုတ်ဆက်စကား ပရိုဂရမ်",
+        passageEn:
+            "Zaw wanted his program to greet whoever ran it by name, so he wrote name = input('What is your name? ') to ask the user a question and store their answer inside a variable called name. Then he wrote print('Hello, ' + name) so the program would join the text Hello, together with whatever the user had typed. When Zaw ran the program and typed Su Su at the input prompt, the screen displayed Hello, Su Su. He realised that input() and a variable worked together perfectly: input() collected the answer, and the variable remembered it so print() could use it later in the program.",
+        passageMy:
+            "ဇော်သည် သူ၏ ပရိုဂရမ်ကို run သောသူတိုင်းအား နာမည်ဖြင့် နှုတ်ဆက်စေချင်ခဲ့သဖြင့် name = input('What is your name? ') ဟု ရေးခဲ့ပြီး user အား မေးခွန်းမေးကာ ၎င်း၏အဖြေကို name ဟုခေါ်သော variable အတွင်း သိမ်းဆည်းခဲ့သည်။ ထို့နောက် print('Hello, ' + name) ဟု ရေးခဲ့ရာ ပရိုဂရမ်သည် Hello, ဟူသောစာသားကို user ရိုက်ထည့်လိုက်သည့်စာသားနှင့် ဆက်စပ်ပေးလိုက်သည်။ ဇော်သည် ပရိုဂရမ်ကို run ပြီး input prompt တွင် Su Su ဟု ရိုက်ထည့်လိုက်ရာ မျက်နှာပြင်ပေါ်တွင် Hello, Su Su ဟု ပေါ်လာခဲ့သည်။ input() နှင့် variable တို့သည် ကောင်းစွာ ပေါင်းစပ်အလုပ်လုပ်ကြောင်း သူနားလည်လိုက်သည် - input() က အဖြေကို ရယူပြီး variable က ၎င်းကို မှတ်ထားကာ print() က နောက်ပိုင်းတွင် အသုံးပြုနိုင်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What variable did Zaw's program store the user's answer in?",
+            questionMy:
+                "ဇော်၏ ပရိုဂရမ်သည် user ၏အဖြေကို ဘယ် variable တွင် သိမ်းဆည်းခဲ့သနည်း။",
+            optionsEn: ["name", "score", "greeting", "input"],
+            optionsMy: ["name", "score", "greeting", "input"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What function did Zaw use to ask the user a question?",
+            questionMy:
+                "User ကို မေးခွန်းမေးရန် ဇော် ဘယ် function ကို သုံးခဲ့သနည်း။",
+            optionsEn: ["input()", "print()", "if", "for"],
+            optionsMy: ["input()", "print()", "if", "for"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did the screen display when Zaw typed Su Su?",
+            questionMy:
+                "ဇော်သည် Su Su ဟု ရိုက်ထည့်သောအခါ မျက်နှာပြင်တွင် ဘာပေါ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Hello, Su Su",
+              "Su Su, Hello",
+              "name = Su Su",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "Hello, Su Su",
+              "Su Su, Hello",
+              "name = Su Su",
+              "ဘာမှမပေါ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did print() join together in Zaw's code?",
+            questionMy:
+                "ဇော်၏ code တွင် print() က ဘာနှင့်ဘာကို ဆက်စပ်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "The text Hello, and the value stored in name",
+              "Two separate loops",
+              "Two comments",
+              "A condition and a comparison operator",
+            ],
+            optionsMy: [
+              "Hello, ဟူသောစာသားနှင့် name အတွင်းရှိတန်ဖိုး",
+              "Loop နှစ်ခု",
+              "Comment နှစ်ခု",
+              "Condition နှင့် comparison operator",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Zaw need a variable in his program?",
+            questionMy:
+                "ဇော်သည် သူ၏ ပရိုဂရမ်တွင် variable တစ်ခုကို အဘယ့်ကြောင့် လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "So the answer collected by input() could be remembered and reused",
+              "So the program would run without any code at all",
+              "So the print() function would be deleted",
+              "So the condition would always be false",
+            ],
+            optionsMy: [
+              "Input() ရရှိသော အဖြေကို မှတ်ထားပြီး ပြန်သုံးနိုင်ရန်",
+              "Code လုံးဝမပါဘဲ ပရိုဂရမ် run နိုင်ရန်",
+              "Print() function ကို ဖျက်နိုင်ရန်",
+              "Condition ကို အမြဲ false ဖြစ်စေရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which line correctly assigns 'Aye' to the variable name?",
+          questionMy:
+              "name ဟူသော variable သို့ 'Aye' ကို မှန်ကန်စွာ assign လုပ်သည့်စာကြောင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "name = 'Aye'",
+            "'Aye' == name",
+            "name -> 'Aye'",
+            "assign name 'Aye'",
+          ],
+          optionsMy: [
+            "name = 'Aye'",
+            "'Aye' == name",
+            "name -> 'Aye'",
+            "assign name 'Aye'",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does input() let a program do?",
+          questionMy: "input() က ပရိုဂရမ်အား ဘာလုပ်ခွင့်ပေးသနည်း။",
+          optionsEn: [
+            "Ask the user to type something and store it",
+            "Delete a variable",
+            "Repeat forever",
+            "Draw a flowchart",
+          ],
+          optionsMy: [
+            "User ကို စာရိုက်ထည့်ခိုင်းပြီး သိမ်းဆည်းသည်",
+            "Variable ကို ဖျက်သည်",
+            "အမြဲထပ်ခါလုပ်သည်",
+            "Flowchart ရေးဆွဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Is 'Yangon' a string or an integer?",
+          questionMy: "'Yangon' သည် string လား integer လား။",
+          optionsEn: ["String", "Integer", "Neither", "Both"],
+          optionsMy: ["String", "Integer", "နှစ်ခုစလုံးမဟုတ်", "နှစ်ခုစလုံး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Is 25 (without quotes) a string or an integer?",
+          questionMy: "25 (quote မပါ) သည် string လား integer လား။",
+          optionsEn: ["Integer", "String", "Neither", "Both"],
+          optionsMy: ["Integer", "String", "နှစ်ခုစလုံးမဟုတ်", "နှစ်ခုစလုံး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If x = 25, what does print(x) show?",
+          questionMy: "x = 25 ဖြစ်ပါက print(x) သည် ဘာပြသမည်နည်း။",
+          optionsEn: ["25", "x", "'25'", "Nothing"],
+          optionsMy: ["25", "x", "'25'", "ဘာမှမပြသ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 7, Week 27: "Selection and Loops in Real
+// Code"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek27 = CourseWeekDef(
+  id: "course-secondary1-computing-w27",
+  weekNumber: 27,
+  titleEn: "Selection and Loops in Real Code",
+  titleMy: "Code ထဲရှိ Selection နှင့် Loop",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w27-d1",
+      dayNumber: 1,
+      titleEn: "Writing if, for, and while in Real Code",
+      titleMy: "Real Code တွင် if, for, while ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What symbol must come at the end of an if line in real code, e.g. if score > 50:?",
+          questionMy:
+              "Real code ရှိ if စာကြောင်းအဆုံးတွင် ဘာသင်္ကေတလာရမည်နည်း၊ ဥပမာ if score > 50: ။",
+          optionsEn: [
+            "A colon (:)",
+            "A semicolon (;)",
+            "A comma (,)",
+            "A question mark (?)",
+          ],
+          optionsMy: [
+            "Colon (:)",
+            "Semicolon (;)",
+            "Comma (,)",
+            "Question mark (?)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What controls which lines belong inside an if block in real code?",
+          questionMy:
+              "Real code တွင် ဘယ်စာကြောင်းများ if block အတွင်းပါသည်ကို ဘာက ထိန်းချုပ်သနည်း။",
+          optionsEn: [
+            "Indentation (spaces at the start of the line)",
+            "The color of the text",
+            "The length of the variable name",
+            "Capital letters",
+          ],
+          optionsMy: [
+            "Indentation (စာကြောင်းအစရှိ space များ)",
+            "စာသား၏အရောင်",
+            "Variable အမည်၏ ရှည်လျားမှု",
+            "စာလုံးအကြီးများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In for i in range(5):, how many times does the loop run?",
+          questionMy:
+              "for i in range(5): တွင် loop သည် ဘယ်နှကြိမ် run မည်နည်း။",
+          optionsEn: ["5", "4", "6", "1"],
+          optionsMy: ["5", "4", "6", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What keyword lets a program check an additional condition after an if, before else?",
+          questionMy:
+              "If နောက်၊ else မတိုင်မီ condition နောက်တစ်ခုကို စစ်ဆေးရန် ဘယ် keyword ကိုသုံးသနည်း။",
+          optionsEn: ["elif", "THEN", "REPEAT", "loop"],
+          optionsMy: ["elif", "THEN", "REPEAT", "loop"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What must eventually happen for a while loop to stop?",
+          questionMy: "While loop ရပ်ရန် နောက်ဆုံးတွင် ဘာဖြစ်ရမည်နည်း။",
+          optionsEn: [
+            "Its condition must become false",
+            "The print() function must run",
+            "A comment must be added",
+            "A variable must be deleted",
+          ],
+          optionsMy: [
+            "၎င်း၏ condition သည် false ဖြစ်လာရမည်",
+            "print() function run ရမည်",
+            "Comment ထည့်ရမည်",
+            "Variable ကို ဖျက်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w27-d2",
+      dayNumber: 2,
+      titleEn: "Selection and Loop Vocabulary",
+      titleMy: "Selection နှင့် Loop ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w27-sel-ifstatement",
+          termEn: "if Statement",
+          termMy: "if Statement",
+          matchEn:
+              "A selection structure in real code, written as if condition: followed by an indented block",
+          matchMy:
+              "Real code ရှိ selection ဖွဲ့စည်းပုံ၊ if condition: ဟုရေးပြီး indent လုပ်ထားသောအပိုင်းကို ဆက်ရေးသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w27-sel-elif",
+          termEn: "elif",
+          termMy: "elif",
+          matchEn:
+              "A keyword for checking another condition if the first if was false",
+          matchMy:
+              "ပထမ if သည် false ဖြစ်ခဲ့ပါက နောက်ထပ် condition တစ်ခုကို စစ်ဆေးရန် keyword",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w27-sel-indentation",
+          termEn: "Indentation",
+          termMy: "Indentation",
+          matchEn:
+              "Spaces at the start of a line that show which code belongs inside a block",
+          matchMy:
+              "ဘယ် code သည် block အတွင်းပါသည်ကို ပြသော စာကြောင်းအစရှိ space များ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w27-sel-rangefunction",
+          termEn: "range() Function",
+          termMy: "range() Function",
+          matchEn:
+              "Used with a for loop to repeat a set number of times, e.g. range(5)",
+          matchMy:
+              "Range(5) ကဲ့သို့ for loop နှင့်အတူ သတ်မှတ်အကြိမ်ရေ ထပ်ခါလုပ်ရန် သုံးသည်",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w27-sel-whileloop",
+          termEn: "while Loop",
+          termMy: "while Loop",
+          matchEn:
+              "A loop that keeps running as long as its condition stays true",
+          matchMy: "Condition true ဖြစ်နေသရွေ့ ဆက်လက် run နေသော loop",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w27-d3",
+      dayNumber: 3,
+      titleEn: "Selection or Iteration?",
+      titleMy: "Selection လား Iteration လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Selection", "Iteration"],
+        bucketsMy: ["Selection", "Iteration"],
+        items: [
+          SortingItem(
+            id: "w27-sort-ifage",
+            labelEn: "if age >= 18:",
+            labelMy: "if age >= 18:",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+          SortingItem(
+            id: "w27-sort-forrange10",
+            labelEn: "for i in range(10):",
+            labelMy: "for i in range(10):",
+            correctBucketEn: "Iteration",
+            correctBucketMy: "Iteration",
+          ),
+          SortingItem(
+            id: "w27-sort-whiletotal",
+            labelEn: "while total < 100:",
+            labelMy: "while total < 100:",
+            correctBucketEn: "Iteration",
+            correctBucketMy: "Iteration",
+          ),
+          SortingItem(
+            id: "w27-sort-elifgrade",
+            labelEn: "elif grade == 'B':",
+            labelMy: "elif grade == 'B':",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+          SortingItem(
+            id: "w27-sort-fordayrange7",
+            labelEn: "for day in range(7):",
+            labelMy: "for day in range(7):",
+            correctBucketEn: "Iteration",
+            correctBucketMy: "Iteration",
+          ),
+          SortingItem(
+            id: "w27-sort-ifxequals0",
+            labelEn: "if x == 0:",
+            labelMy: "if x == 0:",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w27-d4",
+      dayNumber: 4,
+      titleEn: "Nilar's Pass or Fail Program in Real Code",
+      titleMy: "နီလာ၏ Pass Fail ပရိုဂရမ် (Real Code ဖြင့်)",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Pass or Fail Program in Real Code",
+        titleMy: "နီလာ၏ Pass Fail ပရိုဂရမ် (Real Code ဖြင့်)",
+        passageEn:
+            "Nilar remembered her old pseudocode: IF score is greater than or equal to 50 THEN print Pass, ELSE print Fail. Now that she knew real syntax, she rewrote it as if score >= 50: on one line, followed by an indented print('Pass'), then else: on its own line, followed by an indented print('Fail'). When she set score = 65 and ran the program, the condition score >= 50 was true, so it printed Pass. When she changed the code to score = 30 and ran it again, the condition was false, so the indented line under else ran instead, printing Fail. Nilar noticed that the real code did exactly what her pseudocode had described, just written with a colon, indentation, and real syntax instead of IF, THEN, and ELSE in capital letters.",
+        passageMy:
+            "နီလာသည် သူမ၏ ဟောင်းနွမ်းသော pseudocode ကို သတိရခဲ့သည် - score သည် 50 ထက်ကြီးသည် သို့မဟုတ် ညီပါက Pass ဟု ပရင့်ထုတ်ပြီး၊ မဟုတ်ပါက Fail ဟု ပရင့်ထုတ်သည်။ အခုတော့ real syntax ကို သိပြီဖြစ်၍ သူမသည် if score >= 50: ဟု တစ်ကြောင်းတည်းရေးပြီး၊ ၎င်းအောက်တွင် indent လုပ်ထားသော print('Pass') ကို ဆက်ရေးကာ၊ else: ကို သီးခြားစာကြောင်းတွင် ရေးပြီး ၎င်းအောက်တွင် indent လုပ်ထားသော print('Fail') ကို ဆက်ရေးလိုက်သည်။ Score = 65 ဟု သတ်မှတ်ပြီး run လိုက်ရာ condition score >= 50 သည် true ဖြစ်သဖြင့် Pass ဟု ပရင့်ထုတ်ခဲ့သည်။ Code ကို score = 30 ဟု ပြောင်းပြီး ထပ်run လိုက်ရာ condition သည် false ဖြစ်သွားသဖြင့် else အောက်ရှိ indent လုပ်ထားသောစာကြောင်းက run သွားကာ Fail ဟု ပရင့်ထုတ်ခဲ့သည်။ Real code သည် သူမ၏ pseudocode က ဖော်ပြထားသည့်အတိုင်း အတိအကျပြုလုပ်ပေးကြောင်း၊ ကွာသည်မှာ IF, THEN, ELSE ကို စာလုံးကြီးများဖြင့်ရေးမည့်အစား colon, indentation နှင့် real syntax ဖြင့်ရေးထားခြင်းသာဖြစ်ကြောင်း နီလာ သတိပြုမိလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Nilar write on the first line of her real code?",
+            questionMy:
+                "နီလာသည် သူမ၏ real code ပထမစာကြောင်းတွင် ဘာရေးခဲ့သနည်း။",
+            optionsEn: [
+              "if score >= 50:",
+              "print('Pass')",
+              "else:",
+              "score = 65",
+            ],
+            optionsMy: [
+              "if score >= 50:",
+              "print('Pass')",
+              "else:",
+              "score = 65",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What ran when score was set to 65?",
+            questionMy: "Score ကို 65 ဟု သတ်မှတ်သောအခါ ဘာ run သွားခဲ့သနည်း။",
+            optionsEn: [
+              "The indented print('Pass') line",
+              "The indented print('Fail') line",
+              "Nothing at all",
+              "Both lines at once",
+            ],
+            optionsMy: [
+              "Indent လုပ်ထားသော print('Pass') စာကြောင်း",
+              "Indent လုပ်ထားသော print('Fail') စာကြောင်း",
+              "ဘာမှမ run",
+              "စာကြောင်းနှစ်ကြောင်းလုံး တစ်ပြိုင်နက်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What ran when score was changed to 30?",
+            questionMy: "Score ကို 30 ဟု ပြောင်းသောအခါ ဘာ run သွားခဲ့သနည်း။",
+            optionsEn: [
+              "The indented line under else",
+              "The indented line under if",
+              "A loop",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "Else အောက်ရှိ indent လုပ်ထားသောစာကြောင်း",
+              "If အောက်ရှိ indent လုပ်ထားသောစာကြောင်း",
+              "Loop",
+              "ဘာမှမ run",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What symbol did Nilar add after score >= 50 in real code?",
+            questionMy:
+                "Real code တွင် score >= 50 နောက်တွင် နီလာ ဘာသင်္ကေတထည့်ခဲ့သနည်း။",
+            optionsEn: [
+              "A colon (:)",
+              "A semicolon (;)",
+              "A question mark (?)",
+              "A comma (,)",
+            ],
+            optionsMy: [
+              "Colon (:)",
+              "Semicolon (;)",
+              "Question mark (?)",
+              "Comma (,)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the main difference between Nilar's pseudocode and her real code?",
+            questionMy:
+                "နီလာ၏ pseudocode နှင့် real code ကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The real code used a colon, indentation, and lowercase keywords instead of capital-letter words",
+              "The real code did something completely different",
+              "The pseudocode used a loop, but the real code did not",
+              "The real code had no condition at all",
+            ],
+            optionsMy: [
+              "Real code သည် စာလုံးကြီးများအစား colon, indentation, စာလုံးအသေး keyword များသုံးထား၍",
+              "Real code သည် လုံးဝမတူညီသောအရာလုပ်ဆောင်၍",
+              "Pseudocode တွင် loop သုံးထားပြီး real code တွင် မသုံး၍",
+              "Real code တွင် condition လုံးဝမပါ၍",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What must follow a condition on an if line in real code?",
+          questionMy:
+              "Real code ရှိ if စာကြောင်းတွင် condition နောက်တွင် ဘာလာရမည်နည်း။",
+          optionsEn: [
+            "A colon (:)",
+            "A semicolon (;)",
+            "A comma (,)",
+            "An equals sign (=)",
+          ],
+          optionsMy: [
+            "Colon (:)",
+            "Semicolon (;)",
+            "Comma (,)",
+            "Equals sign (=)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What shows which lines belong inside a block?",
+          questionMy: "Block အတွင်းပါသော စာကြောင်းများကို ဘာကပြသနည်း။",
+          optionsEn: [
+            "Indentation",
+            "Capital letters",
+            "Comments",
+            "Variable names",
+          ],
+          optionsMy: [
+            "Indentation",
+            "စာလုံးအကြီးများ",
+            "Comments",
+            "Variable အမည်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How many times does for i in range(4): repeat?",
+          questionMy: "for i in range(4): သည် ဘယ်နှကြိမ် ထပ်ခါလုပ်မည်နည်း။",
+          optionsEn: ["4", "3", "5", "1"],
+          optionsMy: ["4", "3", "5", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does elif let a program check?",
+          questionMy: "Elif သည် ပရိုဂရမ်အား ဘာစစ်ဆေးခွင့်ပေးသနည်း။",
+          optionsEn: [
+            "Another condition, if the first if was false",
+            "How many times a loop runs",
+            "The value of a comment",
+            "Whether a variable is deleted",
+          ],
+          optionsMy: [
+            "ပထမ if false ဖြစ်ခဲ့ပါက condition နောက်တစ်ခု",
+            "Loop ဘယ်နှကြိမ် run သည်",
+            "Comment ၏တန်ဖိုး",
+            "Variable ဖျက်ခံရမရ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What must happen for a while loop to eventually stop?",
+          questionMy: "While loop နောက်ဆုံးရပ်ရန် ဘာဖြစ်ရမည်နည်း။",
+          optionsEn: [
+            "Its condition must become false",
+            "A comment must run",
+            "A variable must be printed",
+            "The loop counter must be deleted",
+          ],
+          optionsMy: [
+            "Condition သည် false ဖြစ်လာရမည်",
+            "Comment run ရမည်",
+            "Variable ပရင့်ထုတ်ရမည်",
+            "Loop counter ဖျက်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Computing -- Term 7, Week 28: "Write a Complete Program"
+// =====================================================================
+
+const CourseWeekDef _secondary1ComputingWeek28 = CourseWeekDef(
+  id: "course-secondary1-computing-w28",
+  weekNumber: 28,
+  titleEn: "Write a Complete Program",
+  titleMy: "ပရိုဂရမ်တစ်ခုလုံး ရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-computing-w28-d1",
+      dayNumber: 1,
+      titleEn: "Bringing It All Together",
+      titleMy: "အားလုံးကို ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which building blocks work together in a complete program?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုလုံးတွင် ဘယ် building block များ ပေါင်းစပ်အလုပ်လုပ်သနည်း။",
+          optionsEn: [
+            "Variables, selection, and iteration all working together",
+            "Only variables, nothing else",
+            "Only loops, nothing else",
+            "Only comments",
+          ],
+          optionsMy: [
+            "Variable, selection, iteration အားလုံး ပေါင်းစပ်",
+            "Variable သာ၊ တခြားမပါ",
+            "Loop သာ၊ တခြားမပါ",
+            "Comment သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"syntax error\"?",
+          questionMy: "\"Syntax error\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A mistake that breaks the language rules, stopping the program from running",
+            "A mistake in the story of a reading passage",
+            "A variable with the wrong name",
+            "A loop that runs too many times",
+          ],
+          optionsMy: [
+            "Language စည်းမျဉ်းကိုချိုးဖောက်ပြီး ပရိုဂရမ် run မရအောင် ဖြစ်စေသော အမှား",
+            "Reading passage ၏ ဇာတ်လမ်းအမှား",
+            "အမည်မှားသော variable",
+            "အကြိမ်များစွာ run သွားသော loop",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is missing from this line that would cause a syntax error: if score > 50 print('Pass')?",
+          questionMy:
+              "if score > 50 print('Pass') ဟူသောစာကြောင်းတွင် syntax error ဖြစ်စေမည့် ပျောက်နေသောအရာက အဘယ်နည်း။",
+          optionsEn: [
+            "A colon (:) after the condition",
+            "A variable",
+            "A loop",
+            "A comment",
+          ],
+          optionsMy: [
+            "Condition နောက်ရှိ colon (:)",
+            "Variable",
+            "Loop",
+            "Comment",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do programmers test a program with different input values?",
+          questionMy:
+              "Programmer များသည် input တန်ဖိုးအမျိုးမျိုးဖြင့် ပရိုဂရမ်ကို အဘယ့်ကြောင့် test လုပ်ကြသနည်း။",
+          optionsEn: [
+            "To check it behaves correctly in every case, not just one",
+            "To make the program run slower on purpose",
+            "To delete all its variables",
+            "To turn it into pseudocode again",
+          ],
+          optionsMy: [
+            "အခြေအနေတိုင်းတွင် မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်",
+            "ရည်ရွယ်ချက်ရှိရှိ ပရိုဂရမ်ကို ပိုနှေးအောင်လုပ်ရန်",
+            "Variable အားလုံးကို ဖျက်ရန်",
+            "Pseudocode အဖြစ် ပြန်ပြောင်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is \"debugging\"?",
+          questionMy: "\"Debugging\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Finding and fixing mistakes in a program",
+            "Writing a program for the first time",
+            "Deleting a program completely",
+            "Translating code into pseudocode",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်ရှိ အမှားများကို ရှာဖွေပြင်ဆင်ခြင်း",
+            "ပရိုဂရမ်တစ်ခုကို ပထမဆုံးအကြိမ် ရေးသားခြင်း",
+            "ပရိုဂရမ်ကို လုံးဝဖျက်ပစ်ခြင်း",
+            "Code ကို pseudocode အဖြစ် ပြန်ပြောင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w28-d2",
+      dayNumber: 2,
+      titleEn: "Term 7 Recap Vocabulary",
+      titleMy: "Term 7 ပြန်လည်သုံးသပ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "w28-recap-printfunction",
+          termEn: "print() Function",
+          termMy: "print() Function",
+          matchEn: "Displays output on the screen in real code",
+          matchMy: "Real code တွင် မျက်နှာပြင်ပေါ်တွင် output ပြသသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "w28-recap-assignmentoperator",
+          termEn: "Assignment Operator (=)",
+          termMy: "Assignment Operator (=)",
+          matchEn: "Gives a variable a value in real code, e.g. score = 0",
+          matchMy:
+              "Real code တွင် score = 0 ကဲ့သို့ variable သို့ တန်ဖိုးပေးသည်",
+          colorValue: 0xFFFF6F61,
+        ),
+        DragMatchPair(
+          id: "w28-recap-ifelifelse",
+          termEn: "if / elif / else",
+          termMy: "if / elif / else",
+          matchEn:
+              "Selection structures that choose between actions based on a condition",
+          matchMy:
+              "Condition အပေါ်မူတည်၍ လုပ်ဆောင်ချက်ရွေးချယ်ပေးသော selection ဖွဲ့စည်းပုံများ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "w28-recap-forwhileloop",
+          termEn: "for / while Loop",
+          termMy: "for / while Loop",
+          matchEn: "Iteration structures that repeat code in real syntax",
+          matchMy:
+              "Real syntax ဖြင့် code ကို ထပ်ခါလုပ်ပေးသော iteration ဖွဲ့စည်းပုံများ",
+          colorValue: 0xFFF2994A,
+        ),
+        DragMatchPair(
+          id: "w28-recap-syntaxerror",
+          termEn: "Syntax Error",
+          termMy: "Syntax Error",
+          matchEn:
+              "A mistake that breaks the language's exact rules and stops a program from running",
+          matchMy:
+              "Language ၏ အတိအကျစည်းမျဉ်းကိုချိုးဖောက်ပြီး ပရိုဂရမ် run မရအောင် ဖြစ်စေသောအမှား",
+          colorValue: 0xFFBB6BD9,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w28-d3",
+      dayNumber: 3,
+      titleEn: "Which Building Block?",
+      titleMy: "ဘယ် Building Block လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Variable", "Selection", "Iteration", "Output"],
+        bucketsMy: ["Variable", "Selection", "Iteration", "Output"],
+        items: [
+          SortingItem(
+            id: "w28-sort-scorezero",
+            labelEn: "score = 0",
+            labelMy: "score = 0",
+            correctBucketEn: "Variable",
+            correctBucketMy: "Variable",
+          ),
+          SortingItem(
+            id: "w28-sort-ifscore50",
+            labelEn: "if score > 50:",
+            labelMy: "if score > 50:",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+          SortingItem(
+            id: "w28-sort-forrange10",
+            labelEn: "for i in range(10):",
+            labelMy: "for i in range(10):",
+            correctBucketEn: "Iteration",
+            correctBucketMy: "Iteration",
+          ),
+          SortingItem(
+            id: "w28-sort-printscore",
+            labelEn: "print(score)",
+            labelMy: "print(score)",
+            correctBucketEn: "Output",
+            correctBucketMy: "Output",
+          ),
+          SortingItem(
+            id: "w28-sort-nameinput",
+            labelEn: "name = input('Name? ')",
+            labelMy: "name = input('Name? ')",
+            correctBucketEn: "Variable",
+            correctBucketMy: "Variable",
+          ),
+          SortingItem(
+            id: "w28-sort-whiletotal",
+            labelEn: "while total < 100:",
+            labelMy: "while total < 100:",
+            correctBucketEn: "Iteration",
+            correctBucketMy: "Iteration",
+          ),
+          SortingItem(
+            id: "w28-sort-elifgradeb",
+            labelEn: "elif grade == 'B':",
+            labelMy: "elif grade == 'B':",
+            correctBucketEn: "Selection",
+            correctBucketMy: "Selection",
+          ),
+          SortingItem(
+            id: "w28-sort-printdone",
+            labelEn: "print('Done!')",
+            labelMy: "print('Done!')",
+            correctBucketEn: "Output",
+            correctBucketMy: "Output",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w28-d4",
+      dayNumber: 4,
+      titleEn: "Hla Hla's Grade Calculator",
+      titleMy: "လှလှ၏ အမှတ်တွက်ချက်စက် ပရိုဂရမ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hla Hla's Grade Calculator",
+        titleMy: "လှလှ၏ အမှတ်တွက်ချက်စက် ပရိုဂရမ်",
+        passageEn:
+            "Hla Hla planned a complete program that would ask for a test score and print a grade. She wrote score = int(input('Enter your score: ')) to collect a number from the user, then if score >= 80: print('Grade A'), elif score >= 50: print('Grade B'), and else: print('Grade C') to choose the right message. On her first attempt she forgot the colon after else, and the program refused to run with a syntax error. After adding the missing colon, she tested her program three times: with 90 it printed Grade A, with 60 it printed Grade B, and with 30 it printed Grade C. Hla Hla was proud that her finished program combined a variable to store the score, selection to choose between grades, and print() to show the result -- everything she had learned across the whole term, working together in one real program.",
+        passageMy:
+            "လှလှသည် test score တစ်ခုမေးပြီး grade တစ်ခုပရင့်ထုတ်ပေးမည့် ပရိုဂရမ်တစ်ခုလုံးကို စီစဉ်ခဲ့သည်။ User ထံမှ ဂဏန်းတစ်ခု ရယူရန် score = int(input('Enter your score: ')) ဟု ရေးခဲ့ပြီး၊ မှန်ကန်သော message ကို ရွေးချယ်ရန် if score >= 80: print('Grade A'), elif score >= 50: print('Grade B'), else: print('Grade C') ဟု ဆက်ရေးခဲ့သည်။ ပထမကြိမ်ကြိုးစားရာတွင် else နောက်ရှိ colon ကို မေ့ကျန်ခဲ့ရာ ပရိုဂရမ်သည် syntax error ဖြင့် run ရန် ငြင်းဆန်ခဲ့သည်။ ပျောက်နေသော colon ကို ထည့်ပြီးနောက် သူမသည် ပရိုဂရမ်ကို သုံးကြိမ် test လုပ်ခဲ့သည် - 90 ဖြင့် Grade A ပရင့်ထုတ်ခဲ့ပြီး၊ 60 ဖြင့် Grade B ပရင့်ထုတ်ကာ၊ 30 ဖြင့် Grade C ပရင့်ထုတ်ခဲ့သည်။ သူမ၏ ပြီးစီးသော ပရိုဂရမ်သည် score ကို သိမ်းဆည်းရန် variable တစ်ခု၊ grade ရွေးချယ်ရန် selection၊ ရလဒ်ပြသရန် print() ကို ပေါင်းစပ်ထားခြင်းအား လှလှ ဂုဏ်ယူခဲ့သည် - Term တစ်ခုလုံးသင်ခဲ့သော အရာအားလုံးသည် ပရိုဂရမ်စစ်စစ်တစ်ခုအတွင်း ပေါင်းစပ်အလုပ်လုပ်နေခြင်းဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Hla Hla's program collect from the user?",
+            questionMy: "လှလှ၏ ပရိုဂရမ်သည် user ထံမှ ဘာကို ရယူခဲ့သနည်း။",
+            optionsEn: [
+              "A test score",
+              "A comment",
+              "A loop counter",
+              "A syntax error",
+            ],
+            optionsMy: [
+              "Test score",
+              "Comment",
+              "Loop counter",
+              "Syntax error",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What mistake caused Hla Hla's first attempt to fail?",
+            questionMy: "လှလှ၏ ပထမကြိုးစားမှု မအောင်မြင်ရသည့်အမှားက အဘယ်နည်း။",
+            optionsEn: [
+              "She forgot the colon after else",
+              "She forgot to use a variable",
+              "She used two loops by mistake",
+              "She deleted her print() function",
+            ],
+            optionsMy: [
+              "Else နောက်ရှိ colon ကို မေ့ကျန်ခဲ့၍",
+              "Variable သုံးရန် မေ့ကျန်ခဲ့၍",
+              "Loop နှစ်ခု မှားသုံးမိ၍",
+              "Print() function ကို ဖျက်မိ၍",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did the program print when the score was 60?",
+            questionMy: "Score 60 ဖြစ်သောအခါ ပရိုဂရမ်သည် ဘာပရင့်ထုတ်ခဲ့သနည်း။",
+            optionsEn: ["Grade B", "Grade A", "Grade C", "A syntax error"],
+            optionsMy: ["Grade B", "Grade A", "Grade C", "Syntax error"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three building blocks worked together in Hla Hla's finished program?",
+            questionMy:
+                "လှလှ၏ ပြီးစီးသောပရိုဂရမ်တွင် ဘယ် building block သုံးခုပေါင်းစပ်ထားသနည်း။",
+            optionsEn: [
+              "A variable, selection, and print()",
+              "Only comments and a loop",
+              "Only a flowchart and pseudocode",
+              "Only a syntax error and a variable",
+            ],
+            optionsMy: [
+              "Variable, selection, print()",
+              "Comment နှင့် loop သာ",
+              "Flowchart နှင့် pseudocode သာ",
+              "Syntax error နှင့် variable သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Hla Hla test her program three times with different scores?",
+            questionMy:
+                "လှလှသည် score အမျိုးမျိုးဖြင့် ပရိုဂရမ်ကို သုံးကြိမ်တိတိ test လုပ်ခဲ့သည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "To check every branch of the selection worked correctly",
+              "To make the program run slower",
+              "To delete the variable",
+              "To turn the program back into pseudocode",
+            ],
+            optionsMy: [
+              "Selection ၏ branch တိုင်း မှန်ကန်စွာအလုပ်လုပ်မလုပ် စစ်ဆေးရန်",
+              "ပရိုဂရမ်ကို ပိုနှေးအောင်လုပ်ရန်",
+              "Variable ကို ဖျက်ရန်",
+              "ပရိုဂရမ်ကို pseudocode အဖြစ် ပြန်ပြောင်းရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-computing-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap Quiz",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What three building blocks make up a complete program?",
+          questionMy:
+              "ပရိုဂရမ်တစ်ခုလုံးတွင် ဘယ် building block သုံးခု ပါဝင်သနည်း။",
+          optionsEn: [
+            "Variables, selection, and iteration",
+            "Only comments",
+            "Only flowcharts",
+            "Only pseudocode",
+          ],
+          optionsMy: [
+            "Variable, selection, iteration",
+            "Comment သာ",
+            "Flowchart သာ",
+            "Pseudocode သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a syntax error?",
+          questionMy: "Syntax error ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A mistake that stops a program from running",
+            "A correct program with no mistakes",
+            "A type of loop",
+            "A type of variable",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ် run မရအောင် ဖြစ်စေသောအမှား",
+            "အမှားမရှိသော မှန်ကန်သောပရိုဂရမ်",
+            "Loop အမျိုးအစား",
+            "Variable အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does debugging mean?",
+          questionMy: "Debugging ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Finding and fixing mistakes in a program",
+            "Deleting a program",
+            "Writing pseudocode only",
+            "Turning off the computer",
+          ],
+          optionsMy: [
+            "ပရိုဂရမ်ရှိအမှားများကို ရှာဖွေပြင်ဆင်ခြင်း",
+            "ပရိုဂရမ်ကို ဖျက်ခြင်း",
+            "Pseudocode သာရေးခြင်း",
+            "ကွန်ပျူတာကို ပိတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to test a program with different inputs?",
+          questionMy:
+              "Input အမျိုးမျိုးဖြင့် ပရိုဂရမ်ကို test လုပ်ခြင်းက အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "To make sure it works correctly in every case",
+            "To make the program slower",
+            "To delete all comments",
+            "To turn selection into iteration",
+          ],
+          optionsMy: [
+            "အခြေအနေတိုင်းတွင် မှန်ကန်စွာအလုပ်လုပ်ကြောင်း သေချာစေရန်",
+            "ပရိုဂရမ်ကို ပိုနှေးစေရန်",
+            "Comment အားလုံးကို ဖျက်ရန်",
+            "Selection ကို iteration အဖြစ် ပြောင်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In real code, what always ends an if or else line before its indented block?",
+          questionMy:
+              "Real code တွင် if သို့မဟုတ် else စာကြောင်း၏ indent block မတိုင်မီ ဘာက အမြဲအဆုံးသတ်သနည်း။",
+          optionsEn: [
+            "A colon (:)",
+            "A semicolon (;)",
+            "A comma (,)",
+            "An equals sign (=)",
+          ],
+          optionsMy: [
+            "Colon (:)",
+            "Semicolon (;)",
+            "Comma (,)",
+            "Equals sign (=)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _secondary1ComputingTerm7 = CourseTermDef(
+  id: "course-secondary1-computing-t7",
+  termNumber: 7,
+  titleEn: "From Pseudocode to Real Code",
+  titleMy: "Pseudocode မှ အစစ်အမှန် Code သို့",
+  certificateTitleEn: "From Pseudocode to Real Code",
+  certificateTitleMy: "Pseudocode မှ အစစ်အမှန် Code သို့",
+  weeks: [
+    _secondary1ComputingWeek25,
+    _secondary1ComputingWeek26,
+    _secondary1ComputingWeek27,
+    _secondary1ComputingWeek28,
+  ], // Term 7 complete (Weeks 25-28); Term 8 not authored yet
+);
+
+/// Secondary 1 Computing's full-year pathway. Terms 1-7 (Weeks 1-28) are
 /// now represented -- [totalWeeks] stays 36 (the full roadmap's true
 /// size) even though each term's [weeks] list is only a 4-week vertical
 /// slice so far (a real term is closer to ~12 weeks), so UI code can show
-/// "Week 1 of 36" honestly rather than "Week 1 of 24". Each [CourseTermDef]
+/// "Week 1 of 36" honestly rather than "Week 1 of 28". Each [CourseTermDef]
 /// is a short thematic/certificate milestone (Coursera-style), not a
 /// literal 12-week school term, so the pathway grows via more terms
-/// (7, 8, 9...) rather than by inflating any one term to 12 weeks.
+/// (8, 9...) rather than by inflating any one term to 12 weeks.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
@@ -9538,6 +11211,7 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
     _secondary1ComputingTerm4,
     _secondary1ComputingTerm5,
     _secondary1ComputingTerm6,
+    _secondary1ComputingTerm7,
   ],
 );
 
