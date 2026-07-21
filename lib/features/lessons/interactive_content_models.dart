@@ -23,6 +23,8 @@ class FillBlankQuestion {
     required this.optionsEn,
     required this.optionsMy,
     required this.correctIndex,
+    this.hintsEn = const [],
+    this.hintsMy = const [],
   }) : assert(correctIndex >= 0, 'correctIndex must be a valid option index');
   // Note: optionsEn/optionsMy are required to be the same length (and in
   // the same order) by convention, mirroring QuizQuestion's same caveat --
@@ -34,6 +36,24 @@ class FillBlankQuestion {
   final List<String> optionsEn;
   final List<String> optionsMy;
   final int correctIndex;
+
+  /// Scaffolded hints shown one at a time, in order, on each successive
+  /// wrong attempt -- i.e. `hintsEn.length` is how many extra attempts a
+  /// student gets (one hint revealed per wrong answer) before the correct
+  /// answer is finally revealed. Defaults to `const []` so a question with
+  /// no authored hints falls straight back to the old instant-reveal
+  /// behavior.
+  ///
+  /// [hintsEn]/[hintsMy] must be the same length, following the same
+  /// bilingual paired-field convention as [optionsEn]/[optionsMy] (see the
+  /// same not-enforced-at-compile-time caveat above).
+  ///
+  /// Deliberately a plain `List<String>` (JSON-native) rather than a richer
+  /// type, so this shape needs no translation if question content is ever
+  /// migrated from these compiled Dart literals into Firestore-ingested
+  /// JSON later.
+  final List<String> hintsEn;
+  final List<String> hintsMy;
 }
 
 /// One draggable/droppable vocabulary pair for [DragMatchScreen]

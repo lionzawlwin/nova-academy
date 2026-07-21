@@ -73,6 +73,16 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
   bool _finished = false;
   Timer? _advanceTimer;
 
+  /// Indices tapped and found wrong for the *current* question -- each is
+  /// permanently eliminated (rendered `_OptionState.incorrect` and, via
+  /// `_WordChip`'s existing `onTap: state == idle ? onTap : null`,
+  /// untappable) until `_advance` clears this for the next question.
+  final Set<int> _triedWrong = {};
+
+  /// How many of the current question's `hintsEn`/`hintsMy` have been
+  /// revealed so far -- one per wrong tap, capped at `hintsEn.length`.
+  int _hintsRevealed = 0;
+
   @override
   void initState() {
     super.initState();
@@ -96,6 +106,12 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
       optionsEn: [for (final i in order) q.optionsEn[i]],
       optionsMy: [for (final i in order) q.optionsMy[i]],
       correctIndex: order.indexOf(q.correctIndex),
+      // Carried through unchanged -- these don't index into the shuffled
+      // options, so there's nothing to remap. Without forwarding them here,
+      // every question would silently lose its hints (fall back to the
+      // `const []` default) the moment it's shuffled.
+      hintsEn: q.hintsEn,
+      hintsMy: q.hintsMy,
     );
   }
 
@@ -106,17 +122,54 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
   }
 
   void _selectOption(int index) {
-    if (_answered) return;
+    // A stray tap on an already-eliminated tile does nothing.
+    if (_answered || _triedWrong.contains(index)) return;
     final question = _questions[_currentIndex];
     final isCorrect = index == question.correctIndex;
 
+    if (isCorrect) {
+      // A hint-assisted correct answer still counts as correct: the
+      // student still reasoned their way to the right answer -- hints are
+      // scaffolding, not disqualification.
+      setState(() {
+        _selectedIndex = index;
+        _answered = true;
+        _score++;
+      });
+      _advanceTimer = Timer(const Duration(milliseconds: 850), _advance);
+      return;
+    }
+
+    // Wrong tap: this tile is eliminated for the rest of this question
+    // regardless of what happens next.
+    if (_hintsRevealed < question.hintsEn.length) {
+      // A hint is still available -- reveal it and let the student try a
+      // different remaining option. The question stays open: don't set
+      // `_answered` and don't start the advance timer. (For a zero-hint
+      // question this branch is never taken: `_hintsRevealed` starts at 0
+      // and `hintsEn.length` is also 0, so `0 < 0` is false and this falls
+      // straight through to the branch below, exactly like today.)
+      setState(() {
+        _triedWrong.add(index);
+        _selectedIndex = index;
+        _hintsRevealed++;
+      });
+      return;
+    }
+
+    // No hints left (or none ever existed): finalize the question exactly
+    // as before. Only use the longer post-hint delay when a hint was
+    // actually shown this question -- the true zero-hint case keeps
+    // today's exact 850ms so it's byte-for-byte unchanged in timing.
     setState(() {
+      _triedWrong.add(index);
       _selectedIndex = index;
       _answered = true;
-      if (isCorrect) _score++;
     });
-
-    _advanceTimer = Timer(const Duration(milliseconds: 850), _advance);
+    _advanceTimer = Timer(
+      Duration(milliseconds: _hintsRevealed > 0 ? 1400 : 850),
+      _advance,
+    );
   }
 
   void _advance() {
@@ -130,6 +183,8 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
       _currentIndex++;
       _selectedIndex = null;
       _answered = false;
+      _triedWrong.clear();
+      _hintsRevealed = 0;
     });
   }
 
@@ -207,6 +262,8 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
                         selectedIndex: _selectedIndex,
                         answered: _answered,
                         onSelect: _selectOption,
+                        triedWrong: _triedWrong,
+                        hintsRevealed: _hintsRevealed,
                       ),
                     ),
                   ],
@@ -306,12 +363,21 @@ class _FillBlankQuestionView extends StatelessWidget {
     required this.selectedIndex,
     required this.answered,
     required this.onSelect,
+    required this.triedWrong,
+    required this.hintsRevealed,
   });
 
   final FillBlankQuestion question;
   final int? selectedIndex;
   final bool answered;
   final ValueChanged<int> onSelect;
+
+  /// Indices already tapped and found wrong for this question -- rendered
+  /// (and kept) as `_OptionState.incorrect` regardless of `answered`.
+  final Set<int> triedWrong;
+
+  /// How many of `question.hintsEn`/`hintsMy` to reveal right now.
+  final int hintsRevealed;
 
   static const _blankToken = '___';
 
@@ -321,6 +387,7 @@ class _FillBlankQuestionView extends StatelessWidget {
     final locale = Localizations.localeOf(context).languageCode;
     final sentence = locale == 'my' ? question.sentenceMy : question.sentenceEn;
     final options = locale == 'my' ? question.optionsMy : question.optionsEn;
+    final hints = locale == 'my' ? question.hintsMy : question.hintsEn;
 
     final blankIndex = sentence.indexOf(_blankToken);
     final before = blankIndex >= 0
@@ -375,6 +442,10 @@ class _FillBlankQuestionView extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 20),
+        if (hintsRevealed > 0) ...[
+          _HintPanel(hints: hints, hintsRevealed: hintsRevealed),
+          const SizedBox(height: 16),
+        ],
         Text(
           _t(
             context,
@@ -403,10 +474,88 @@ class _FillBlankQuestionView extends StatelessWidget {
   }
 
   _OptionState _optionState(int index) {
+    if (triedWrong.contains(index)) return _OptionState.incorrect;
     if (!answered) return _OptionState.idle;
     if (index == question.correctIndex) return _OptionState.correct;
     if (index == selectedIndex) return _OptionState.incorrect;
     return _OptionState.disabled;
+  }
+}
+
+/// A compact hint banner shown once at least one hint has been revealed for
+/// the current question -- byte-for-byte the same widget as
+/// `McqQuizScreen`'s private `_HintPanel` (`mcq_quiz_screen.dart`),
+/// duplicated locally per this file pair's existing per-file-duplication
+/// convention for shared-shape private widgets (see `_SegmentedProgressBar`
+/// above). A lightbulb icon, a short bilingual header, and each hint
+/// revealed so far as a numbered list. Deliberately simple (a static
+/// fade-in, no scale-pop/shake/confetti) -- this pass is about correct
+/// state logic, not new motion design.
+class _HintPanel extends StatelessWidget {
+  const _HintPanel({required this.hints, required this.hintsRevealed});
+
+  /// The active-locale hint strings for the current question (already
+  /// locale-selected by the caller).
+  final List<String> hints;
+
+  /// How many of [hints], in order, to actually show.
+  final int hintsRevealed;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final shown = hints.take(hintsRevealed).toList();
+    if (shown.isEmpty) return const SizedBox.shrink();
+
+    return AnimatedOpacity(
+      duration: const Duration(milliseconds: 250),
+      opacity: 1,
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: AppColors.goldMedal.withValues(alpha: 0.14),
+          borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
+          border: Border.all(
+            color: AppColors.goldMedal.withValues(alpha: 0.4),
+            width: 1.5,
+          ),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(
+                  Icons.lightbulb_rounded,
+                  color: AppColors.goldMedal,
+                  size: 20,
+                ),
+                const SizedBox(width: 8),
+                Text(
+                  _t(context, 'Hint', 'အကြံပြုချက်'),
+                  style: theme.textTheme.labelLarge?.copyWith(
+                    color: AppColors.bevelShadowFor(AppColors.goldMedal),
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            for (var i = 0; i < shown.length; i++)
+              Padding(
+                padding: EdgeInsets.only(top: i == 0 ? 0 : 6),
+                child: Text(
+                  '${i + 1}. ${shown[i]}',
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: theme.colorScheme.onSurface,
+                  ),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
   }
 }
 

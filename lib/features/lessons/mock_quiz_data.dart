@@ -17,6 +17,8 @@ class QuizQuestion {
     required this.optionsEn,
     required this.optionsMy,
     required this.correctIndex,
+    this.hintsEn = const [],
+    this.hintsMy = const [],
   }) : assert(correctIndex >= 0, 'correctIndex must be a valid option index');
   // Note: optionsEn/optionsMy are required to be the same length (and in
   // the same order) by convention -- every entry in the mock question bank
@@ -29,6 +31,24 @@ class QuizQuestion {
   final List<String> optionsEn;
   final List<String> optionsMy;
   final int correctIndex;
+
+  /// Scaffolded hints shown one at a time, in order, on each successive
+  /// wrong attempt -- i.e. `hintsEn.length` is how many extra attempts a
+  /// student gets (one hint revealed per wrong answer) before the correct
+  /// answer is finally revealed. Defaults to `const []` so a question with
+  /// no authored hints falls straight back to the old instant-reveal
+  /// behavior.
+  ///
+  /// [hintsEn]/[hintsMy] must be the same length, following the same
+  /// bilingual paired-field convention as [optionsEn]/[optionsMy] (see the
+  /// same not-enforced-at-compile-time caveat above).
+  ///
+  /// Deliberately a plain `List<String>` (JSON-native) rather than a richer
+  /// type, so this shape needs no translation if question content is ever
+  /// migrated from these compiled Dart literals into Firestore-ingested
+  /// JSON later.
+  final List<String> hintsEn;
+  final List<String> hintsMy;
 }
 
 const List<QuizQuestion> _mathQuestions = [
@@ -45,6 +65,14 @@ const List<QuizQuestion> _mathQuestions = [
     optionsEn: ['54', '45', '56', '63'],
     optionsMy: ['54', '45', '56', '63'],
     correctIndex: 0,
+    hintsEn: [
+      'Think of it as 9 groups of 6 -- or try 10 x 6 and then take away one group of 6.',
+      '10 x 6 = 60. Now subtract 6 from that.',
+    ],
+    hintsMy: [
+      '၉ အုပ်စု၊ တစ်အုပ်စုလျှင် ၆ ခုစီဟု စဉ်းစားပါ။ သို့မဟုတ် ၁၀ x ၆ ကို ရှာပြီး တစ်အုပ်စု (၆) ကို နုတ်ကြည့်ပါ။',
+      '၁၀ x ၆ = ၆၀ ဖြစ်သည်။ ယခု ၎င်းမှ ၆ ကို နုတ်ကြည့်ပါ။',
+    ],
   ),
   QuizQuestion(
     questionEn: 'What is 100 - 37?',
@@ -52,6 +80,14 @@ const List<QuizQuestion> _mathQuestions = [
     optionsEn: ['63', '73', '67', '53'],
     optionsMy: ['63', '73', '67', '53'],
     correctIndex: 0,
+    hintsEn: [
+      'Break it into easier steps: first find 100 - 30 = 70.',
+      'Now subtract the rest: 70 - 7 = ?',
+    ],
+    hintsMy: [
+      'အဆင့်ခွဲပြီး တွက်ကြည့်ပါ- ဦးစွာ ၁၀၀ - ၃၀ = ၇၀ ကို ရှာပါ။',
+      'ထို့နောက် ကျန်တာကို နုတ်ပါ- ၇၀ - ၇ = ဘယ်လောက်လဲ။',
+    ],
   ),
   QuizQuestion(
     questionEn: 'Which of these numbers is even?',
@@ -92,6 +128,14 @@ const List<QuizQuestion> _fractionsQuestions = [
     optionsEn: ['2/8', '8/2', '2/6', '6/8'],
     optionsMy: ['2/8', '8/2', '2/6', '6/8'],
     correctIndex: 0,
+    hintsEn: [
+      'The pizza has 8 equal slices in total -- that total goes on the bottom of your fraction (the denominator).',
+      'You ate 2 out of those 8 slices -- so the fraction is 2 on top, 8 on the bottom.',
+    ],
+    hintsMy: [
+      'ပီဇာကို စုစုပေါင်း ၈ ပိုင်း အညီအမျှ ဖြတ်ထားသည်။ ထိုစုစုပေါင်းကိန်းသည် အပိုင်းကိန်း၏ အောက်ခြေဂဏန်း (denominator) ဖြစ်သည်။',
+      'သင်သည် ၈ ပိုင်းထဲမှ ၂ ပိုင်းကို စားခဲ့သည်။ ထို့ကြောင့် အပိုင်းကိန်းမှာ အထက်ဂဏန်း ၂၊ အောက်ခြေဂဏန်း ၈ ဖြစ်သည်။',
+    ],
   ),
 ];
 
