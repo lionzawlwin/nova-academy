@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('nurseryKgActivityBank', () {
-    test('contains exactly 38 modules', () {
-      expect(nurseryKgActivityBank.length, 38);
+    test('contains exactly 82 modules', () {
+      expect(nurseryKgActivityBank.length, 82);
     });
 
     test('every module id is unique', () {
@@ -33,7 +33,7 @@ void main() {
       }
     });
 
-    test('every module subject is one of the nine expected keys', () {
+    test('every module subject is one of the ten expected keys', () {
       const expected = {
         'phonics',
         'math',
@@ -44,6 +44,7 @@ void main() {
         'history',
         'geography',
         'computing',
+        'art',
       };
       for (final module in nurseryKgActivityBank) {
         expect(
@@ -54,39 +55,24 @@ void main() {
       }
     });
 
-    test('has 3 modules per grade+subject combination, except stem (5) and '
-        'the new coding/engineering/history/geography/computing '
-        'STEAM-expansion combos (1 each)', () {
-      // nursery-stem and kg-stem each carry 2 extra pre-coding
-      // (directions/sequencing) modules on top of the baseline 3, so they
-      // total 5 instead of 3. The STEAM expansion added exactly one new
-      // `coding` and one new `engineering` module per grade (nursery and
-      // kg), each reachable via their own fixed subject button on
-      // NurseryKgHomeScreen. The history/geography/computing rollout
-      // followed the same one-per-grade cadence -- every other combo stays
-      // at 3.
-      const expectedOverrides = {
-        'nursery-stem': 5,
-        'kg-stem': 5,
-        'nursery-coding': 1,
-        'nursery-engineering': 1,
-        'kg-coding': 1,
-        'kg-engineering': 1,
-        'nursery-history': 1,
-        'nursery-geography': 1,
-        'nursery-computing': 1,
-        'kg-history': 1,
-        'kg-geography': 1,
-        'kg-computing': 1,
-      };
+    test('has 4 modules per grade+subject combination, except stem (5)', () {
+      // The Round 1 expansion (see the doc comment above the appended
+      // block in nursery_kg_activity_bank.dart) brought every subject to
+      // 4 modules per grade -- filling `art` from scratch and topping up
+      // the six subjects that previously had only 1 (coding/computing/
+      // engineering/history/geography) or 3 (phonics/math/
+      // generalknowledge). `stem` keeps its extra 2 pre-coding
+      // (directions/sequencing) modules on top of the baseline 3, so it
+      // stays at 5 instead of 4.
+      const expectedOverrides = {'nursery-stem': 5, 'kg-stem': 5};
       final counts = <String, int>{};
       for (final module in nurseryKgActivityBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
-      expect(counts.length, 18, reason: 'expected 18 grade+subject combos');
+      expect(counts.length, 20, reason: 'expected 20 grade+subject combos');
       for (final entry in counts.entries) {
-        final expected = expectedOverrides[entry.key] ?? 3;
+        final expected = expectedOverrides[entry.key] ?? 4;
         expect(
           entry.value,
           expected,

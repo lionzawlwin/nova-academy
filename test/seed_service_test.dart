@@ -188,8 +188,8 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 38 modules', () {
-      expect(modules.length, 38);
+    test('has exactly 82 modules', () {
+      expect(modules.length, 82);
     });
 
     test('every module id is unique, including against legacy modules', () {
@@ -207,7 +207,7 @@ void main() {
       }
     });
 
-    test('every module subject is one of the six expected Nursery/KG keys', () {
+    test('every module subject is one of the ten expected Nursery/KG keys', () {
       const expected = {
         'phonics',
         'math',
@@ -218,6 +218,7 @@ void main() {
         'history',
         'geography',
         'computing',
+        'art',
       };
       for (final module in modules) {
         expect(expected.contains(module.subject), isTrue, reason: module.id);
