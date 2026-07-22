@@ -384,34 +384,31 @@ class _ComprehensionOptionTile extends StatelessWidget {
 
     return Opacity(
       opacity: state == _TileState.disabled ? 0.5 : 1,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
+      child: CandyBevelSurface(
         onTap: state == _TileState.idle ? onTap : null,
-        child: CandyBevelSurface(
-          faceColor: faceColor,
-          bevelDepth: CandyBevelDepth.quiz,
-          borderRadius: AppTheme.radiusLarge,
-          border: Border.all(color: borderColor, width: 2),
-          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
-          child: Row(
-            children: [
-              Expanded(
-                child: Text(
-                  label,
-                  style: theme.textTheme.titleSmall?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+        faceColor: faceColor,
+        bevelDepth: CandyBevelDepth.quiz,
+        borderRadius: AppTheme.radiusLarge,
+        border: Border.all(color: borderColor, width: 2),
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(
+                label,
+                style: theme.textTheme.titleSmall?.copyWith(
+                  fontWeight: FontWeight.w700,
                 ),
               ),
-              if (state == _TileState.correct)
-                const Icon(
-                  Icons.check_circle_rounded,
-                  color: AppColors.secondary,
-                )
-              else if (state == _TileState.incorrect)
-                const Icon(Icons.cancel_rounded, color: AppColors.cherryCrush),
-            ],
-          ),
+            ),
+            if (state == _TileState.correct)
+              const Icon(
+                Icons.check_circle_rounded,
+                color: AppColors.secondary,
+              )
+            else if (state == _TileState.incorrect)
+              const Icon(Icons.cancel_rounded, color: AppColors.cherryCrush),
+          ],
         ),
       ),
     );
