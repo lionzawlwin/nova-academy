@@ -114,7 +114,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
               xp: totalXp,
             ),
             const SizedBox(height: 16),
-            const CoursePathwayBrowser(tier: HomeTier.secondary),
+            CoursePathwayBrowser(tier: HomeTier.secondary, grade: grade),
             const SizedBox(height: 24),
             Text(
               l10n.homeSubjectsTitle,

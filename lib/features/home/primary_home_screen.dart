@@ -131,7 +131,10 @@ class PrimaryHomeScreen extends ConsumerWidget {
             SliverToBoxAdapter(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
-                child: const CoursePathwayBrowser(tier: HomeTier.primary),
+                child: CoursePathwayBrowser(
+                  tier: HomeTier.primary,
+                  grade: grade,
+                ),
               ),
             ),
             SliverToBoxAdapter(

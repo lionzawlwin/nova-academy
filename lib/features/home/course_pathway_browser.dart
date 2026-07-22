@@ -7,6 +7,7 @@ import '../../core/theme/app_theme.dart';
 import '../../core/utils/grade_localization.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../l10n/app_localizations.dart';
+import '../../models/child_model.dart';
 import '../../providers/course_progress_providers.dart';
 import '../lessons/course_pathway_bank.dart';
 import '../../routing/app_router.dart';
@@ -30,6 +31,21 @@ IconData _iconForPathwaySubject(String subject) {
 int _authoredWeeks(CoursePathwayDef pathway) =>
     pathway.terms.fold(0, (sum, term) => sum + term.weeks.length);
 
+/// Pure filtering logic behind [CoursePathwayBrowser], pulled out as a
+/// top-level function so it's unit-testable without pumping a widget tree.
+/// See [CoursePathwayBrowser]'s doc comment for why [grade] (not just
+/// [tier]) is required to avoid every grade in a tier seeing the same cards.
+List<CoursePathwayDef> pathwaysForTierAndGrade({
+  required HomeTier tier,
+  Grade? grade,
+}) => [
+  for (final pathway in allCoursePathways)
+    if (grade != null
+        ? pathway.grade == grade
+        : homeTierForGrade(pathway.grade) == tier)
+      pathway,
+];
+
 /// Replaces the old single hardcoded "Full Year Computing Course (Beta)"
 /// banner with a dynamic entry-card list covering every pathway in
 /// [allCoursePathways] matching [tier] -- so newly authored pathways (e.g.
@@ -39,19 +55,27 @@ int _authoredWeeks(CoursePathwayDef pathway) =>
 /// this widget can never accidentally leak another tier's pathways --
 /// e.g. a Primary student must never see a Secondary 1 pathway card just
 /// because both happen to live in the same flat [allCoursePathways] list.
+///
+/// [grade] narrows further, to the exact grade within that tier: a tier
+/// (Primary, Secondary) spans several [Grade] values (Year 1 through
+/// Year 6 for Primary alone), and without this every one of those grades
+/// used to see the identical set of pathway cards -- e.g. a Year 2 student
+/// was shown the Year 1 Mathematics and Year 4 Mathematics cards too,
+/// since both pathways satisfy `homeTierForGrade(pathway.grade) == tier`.
+/// When [grade] is null (no active student profile -- an owner/parent/
+/// teacher previewing the tier directly), this falls back to the old
+/// tier-wide list so there's still something to preview.
 class CoursePathwayBrowser extends StatelessWidget {
-  const CoursePathwayBrowser({super.key, required this.tier});
+  const CoursePathwayBrowser({super.key, required this.tier, this.grade});
 
   final HomeTier tier;
+  final Grade? grade;
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
-    final pathways = [
-      for (final pathway in allCoursePathways)
-        if (homeTierForGrade(pathway.grade) == tier) pathway,
-    ];
+    final pathways = pathwaysForTierAndGrade(tier: tier, grade: grade);
     if (pathways.isEmpty) return const SizedBox.shrink();
 
     return Column(
