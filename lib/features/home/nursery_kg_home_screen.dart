@@ -163,12 +163,16 @@ class NurseryKgHomeScreen extends ConsumerWidget {
     );
   }
 
-  /// Looks up the real seeded module for [grade]/[subject.subjectKey] (see
-  /// `nursery_kg_activity_bank.dart`) and launches [NurseryLessonScreen]
-  /// with its content. Falls back to `null` pairs (the lesson screen's own
-  /// hardcoded fallback set) whenever no matching module has been seeded
-  /// yet -- e.g. no connected Firebase project, or "Seed Demo Data" hasn't
-  /// been run -- so a tile never shows a dead end.
+  /// Looks up the real seeded module(s) for [grade]/[subject.subjectKey]
+  /// (see `nursery_kg_activity_bank.dart`) and either launches
+  /// [NurseryLessonScreen] directly (0 or exactly 1 match -- unchanged
+  /// behavior) or, when 2+ modules match, pushes
+  /// [NurseryActivityBrowserScreen] so the child can pick which one to
+  /// play instead of only ever reaching the first. Falls back to `null`
+  /// pairs (the lesson screen's own hardcoded fallback set) whenever no
+  /// matching module has been seeded yet -- e.g. no connected Firebase
+  /// project, or "Seed Demo Data" hasn't been run -- so a tile never shows
+  /// a dead end.
   void _openLesson(
     BuildContext context,
     WidgetRef ref,
@@ -182,8 +186,26 @@ class NurseryKgHomeScreen extends ConsumerWidget {
     final match = allModules
         .where((m) => m.grade == grade && m.subject == subject.subjectKey)
         .toList();
-    final pairs = match.isEmpty ? null : matchPairsForModule(match.first.id);
 
+    if (match.length > 1) {
+      // `match` only ever contains modules for the requested `grade`, and
+      // `Grade` is non-nullable on `LearningModuleModel`, so a non-empty
+      // `match` guarantees `grade` itself was non-null here.
+      final defsById = {for (final def in nurseryKgActivityBank) def.id: def};
+      final activities = [
+        for (final module in match)
+          if (defsById[module.id] != null) defsById[module.id]!,
+      ];
+      if (activities.length > 1) {
+        context.push(
+          AppRoutes.nurseryActivityBrowser,
+          extra: (grade!, subject, activities),
+        );
+        return;
+      }
+    }
+
+    final pairs = match.isEmpty ? null : matchPairsForModule(match.first.id);
     context.push(AppRoutes.lessonNursery, extra: (subject, pairs));
   }
 }

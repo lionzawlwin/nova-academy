@@ -14,6 +14,7 @@ import '../features/lessons/course_pathway_bank.dart';
 import '../features/lessons/course_pathway_week_screen.dart';
 import '../features/lessons/drag_match_screen.dart';
 import '../features/lessons/fill_in_blank_screen.dart';
+import '../features/lessons/nursery_activity_browser_screen.dart';
 import '../features/lessons/nursery_kg_activity_bank.dart';
 import '../features/lessons/nursery_lesson_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
@@ -40,6 +41,13 @@ class AppRoutes {
   static const homeSecondary = '/home/secondary';
 
   static const lessonNursery = '/lesson/nursery';
+
+  /// Shown instead of jumping straight to [lessonNursery] whenever a
+  /// tapped Nursery/KG subject has 2+ authored activities for the child's
+  /// grade -- see `NurseryActivityBrowserScreen` and
+  /// `NurseryKgHomeScreen._openLesson`. Expects a
+  /// `(Grade, SubjectVisual, List<NurseryActivityDef>)` via `extra`.
+  static const nurseryActivityBrowser = '/lesson/nursery/activities';
   static const lessonPrimaryQuiz = '/lesson/primary-quiz';
   static const lessonFillBlank = '/lesson/fill-blank';
   static const lessonDragMatch = '/lesson/drag-match';
@@ -165,6 +173,25 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               pairs: pairs,
             );
           }
+          return const NurseryLessonScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.nurseryActivityBrowser,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (Grade, SubjectVisual, List<NurseryActivityDef>)) {
+            final (grade, subject, activities) = extra;
+            return NurseryActivityBrowserScreen(
+              grade: grade,
+              subject: subject,
+              activities: activities,
+            );
+          }
+          // Defensive fallback for a malformed/missing `extra` -- mirrors
+          // `lessonNursery`'s own defensive builder just above, which has
+          // the same "never crash on a bad navigation" fallback to the
+          // same screen.
           return const NurseryLessonScreen();
         },
       ),
