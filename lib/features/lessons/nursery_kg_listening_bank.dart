@@ -476,7 +476,8 @@ const List<NurseryListeningDef> nurseryKgListeningBank = [
     titleEn: 'Ted Builds a Tower',
     titleMy: 'တက်ဒ်ရဲ့ ရဲတိုက်ဆောက်ခြင်း',
     descriptionEn: 'Listen to the story, then pick what Ted built.',
-    descriptionMy: 'ပုံပြင်ကို နားထောင်ပြီး၊ တက်ဒ်တည်ဆောက်ခဲ့သည့်အရာကို ရွေးပါ။',
+    descriptionMy:
+        'ပုံပြင်ကို နားထောင်ပြီး၊ တက်ဒ်တည်ဆောက်ခဲ့သည့်အရာကို ရွေးပါ။',
     starsReward: 6,
     emoji: '🧱',
     passageEn:

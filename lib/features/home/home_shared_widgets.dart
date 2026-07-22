@@ -13,6 +13,28 @@ import '../../providers/active_profile_provider.dart';
 import '../../providers/auth_providers.dart';
 import '../../routing/app_router.dart';
 
+/// Computes a square tile edge length that fits [columns] tiles (with
+/// [spacing] gaps between them and [horizontalPadding] total side padding)
+/// across the *current* screen width, clamped to [min]/[max] so a tile
+/// never overflows a narrow phone (forcing fewer columns to actually fit,
+/// which is what pushed whole rows off-screen before this existed) nor
+/// balloons absurdly large on a tablet. Shared by every Nursery/KG tile
+/// grid (`NurseryKgHomeScreen`'s subject grid, `NurseryActivityBrowserScreen`'s
+/// activity grid) so they all respond to screen size the same way.
+double responsiveTileSize(
+  BuildContext context, {
+  required int columns,
+  double spacing = 22,
+  double horizontalPadding = 40,
+  double min = 80,
+  double max = 140,
+}) {
+  final width = MediaQuery.sizeOf(context).width;
+  final available = width - horizontalPadding - spacing * (columns - 1);
+  final size = available / columns;
+  return size.clamp(min, max);
+}
+
 /// A small icon describing one subject: what it's called, what icon
 /// represents it, and what color it's painted in. Shared across all three
 /// [HomeTier] screens so a subject always reads the same everywhere it

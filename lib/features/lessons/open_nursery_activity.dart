@@ -24,9 +24,15 @@ void openNurseryActivity(
 ) {
   switch (summary.kind) {
     case NurseryActivityKind.pictureMatching:
+      final activity = activityDefForModule(summary.id);
       context.push(
         AppRoutes.lessonNursery,
-        extra: (subject, matchPairsForModule(summary.id)),
+        extra: (
+          subject,
+          matchPairsForModule(summary.id),
+          activity?.descriptionEn,
+          activity?.descriptionMy,
+        ),
       );
     case NurseryActivityKind.listening:
       context.push(

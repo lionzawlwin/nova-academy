@@ -335,9 +335,13 @@ class _NurseryTileState extends State<_NurseryTile> {
     final visual = widget.visual;
     final scale = _breatheUp ? 1.04 : 1.0;
     final wobbleTurns = _breatheUp ? _wobbleTurns : -_wobbleTurns;
+    // 3 columns on a phone-width screen instead of the old fixed 140dp
+    // tile (which only ever fit 2 per row and pushed later rows/subjects
+    // below the fold) -- clamped so it still looks chunky on a tablet.
+    final tileSize = responsiveTileSize(context, columns: 3);
 
     return SizedBox(
-      width: 152,
+      width: tileSize + 12,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -352,12 +356,16 @@ class _NurseryTileState extends State<_NurseryTile> {
               child: CandyBevelSurface(
                 faceColor: visual.color,
                 bevelDepth: CandyBevelDepth.nursery,
-                borderRadius: 40,
-                width: 140,
-                height: 140,
+                borderRadius: tileSize * 0.28,
+                width: tileSize,
+                height: tileSize,
                 padding: EdgeInsets.zero,
                 onTap: widget.onTap,
-                child: Icon(visual.icon, color: Colors.white, size: 68),
+                child: Icon(
+                  visual.icon,
+                  color: Colors.white,
+                  size: tileSize * 0.48,
+                ),
               ),
             ),
           ),

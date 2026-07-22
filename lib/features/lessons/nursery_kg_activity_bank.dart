@@ -93,6 +93,20 @@ List<MatchPairItem> matchPairsForModule(String moduleId) {
   return _fallbackPairs;
 }
 
+/// The full authored [NurseryActivityDef] for [moduleId], or `null` if not
+/// found -- unlike [matchPairsForModule] (which always falls back to a
+/// default item set), this has no fallback, since callers need to tell
+/// "no real module" apart from "a module with these specific items" in
+/// order to show the module's own [NurseryActivityDef.descriptionEn]/
+/// [NurseryActivityDef.descriptionMy] as the on-screen instruction instead
+/// of a hardcoded one.
+NurseryActivityDef? activityDefForModule(String moduleId) {
+  for (final module in nurseryKgActivityBank) {
+    if (module.id == moduleId) return module;
+  }
+  return null;
+}
+
 const List<NurseryActivityDef> nurseryKgActivityBank = [
   NurseryActivityDef(
     id: 'mock-nursery-phonics-1',

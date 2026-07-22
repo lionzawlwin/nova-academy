@@ -12,9 +12,13 @@ import 'nursery_kg_activity_bank.dart';
 class _Strings {
   _Strings._();
 
-  static String instruction(String lc) => lc == 'my'
-      ? 'အသီးလေးတွေကို အိုးလေးထဲ ဆွဲထည့်ပါ!'
-      : 'Drag each fruit into its matching basket!';
+  /// Ultimate fallback instruction, only shown when neither the caller nor
+  /// the seeded module supplied its own -- kept generic (no longer
+  /// fruit-specific) since this can now surface for *any* subject's
+  /// picture-matching activity, not just the original hardcoded fruit set.
+  static String fallbackInstruction(String lc) => lc == 'my'
+      ? 'ပုံစံလေးတွေကို ကိုက်ညီရာနေရာသို့ ဆွဲထည့်ပါ!'
+      : 'Drag each item into its matching spot!';
 
   static String greatJob(String lc) =>
       lc == 'my' ? 'တော်လိုက်တာ!' : 'Great Job!';
@@ -43,6 +47,8 @@ class NurseryLessonScreen extends StatefulWidget {
     this.subjectLabel,
     this.themeColor,
     this.pairs,
+    this.instructionEn,
+    this.instructionMy,
   });
 
   /// Optional short label shown in the top bar (e.g. "Fruits"). Already
@@ -58,6 +64,14 @@ class NurseryLessonScreen extends StatefulWidget {
   /// empty, falls back to the original hardcoded fruit-matching set so
   /// this screen still works for any caller that doesn't pass content.
   final List<MatchPairItem>? pairs;
+
+  /// Bilingual instruction text specific to this module (typically its
+  /// `NurseryActivityDef.descriptionEn`/`descriptionMy`), e.g. "Match each
+  /// location to its picture!" for a geography module. When either is null
+  /// or empty, [_Strings.fallbackInstruction] is shown instead -- so this
+  /// screen never renders the wrong subject's hardcoded instruction text.
+  final String? instructionEn;
+  final String? instructionMy;
 
   @override
   State<NurseryLessonScreen> createState() => _NurseryLessonScreenState();
@@ -98,6 +112,28 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
     final lc = Localizations.localeOf(context).languageCode;
     final theme = Theme.of(context);
     final accent = widget.themeColor ?? AppColors.nurseryPalette[1];
+    final instructionEn = widget.instructionEn;
+    final instructionMy = widget.instructionMy;
+    final hasModuleInstruction =
+        (instructionEn?.isNotEmpty ?? false) &&
+        (instructionMy?.isNotEmpty ?? false);
+    final instruction = hasModuleInstruction
+        ? (lc == 'my' ? instructionMy! : instructionEn!)
+        : _Strings.fallbackInstruction(lc);
+
+    // Sized to fit up to 4 basket targets per row on a phone-width screen
+    // (the old fixed 128dp baskets only fit 2 per row); the draggable dock
+    // below deliberately stays smaller still, since it scrolls
+    // horizontally rather than needing to show every item in one row.
+    final basketSize = responsiveTileSize(
+      context,
+      columns: 4,
+      spacing: 14,
+      horizontalPadding: 32,
+      min: 78,
+      max: 128,
+    );
+    final itemSize = (basketSize * 0.82).clamp(64.0, 108.0);
 
     return Scaffold(
       body: DecoratedBox(
@@ -118,7 +154,7 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
                         FittedBox(
                           fit: BoxFit.scaleDown,
                           child: Text(
-                            _Strings.instruction(lc),
+                            instruction,
                             textAlign: TextAlign.center,
                             maxLines: 2,
                             style: theme.textTheme.titleLarge?.copyWith(
@@ -134,7 +170,7 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
                             ),
                           ),
                         ),
-                        const SizedBox(height: 12),
+                        const SizedBox(height: 10),
                         _ProgressPips(
                           total: _pairs.length,
                           matched: _matchedIds.length,
@@ -143,48 +179,69 @@ class _NurseryLessonScreenState extends State<NurseryLessonScreen> {
                       ],
                     ),
                   ),
+                  // Target zone: takes whatever vertical space is left
+                  // above the fixed-height draggable dock, and scrolls
+                  // internally if there are more baskets than fit -- so
+                  // the dock below is never pushed off-screen the way a
+                  // single shared scroll region used to push it.
                   Expanded(
                     child: SingleChildScrollView(
                       physics: const BouncingScrollPhysics(),
-                      padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
-                      child: Column(
+                      padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+                      child: Wrap(
+                        alignment: WrapAlignment.center,
+                        spacing: 14,
+                        runSpacing: 14,
                         children: [
-                          Wrap(
-                            alignment: WrapAlignment.center,
-                            spacing: 18,
-                            runSpacing: 18,
-                            children: [
-                              for (final pair in _pairs)
-                                _BasketTarget(
-                                  pair: pair,
-                                  matched: _matchedIds.contains(pair.id),
-                                  playConfetti: _confettiPlayed.contains(
-                                    pair.id,
-                                  ),
-                                  bounceSeed: _matchBounceSeed[pair.id] ?? 0,
-                                  languageCode: lc,
-                                  onAcceptItem: (id) {
-                                    if (id == pair.id) _handleCorrectDrop(pair);
-                                  },
-                                ),
-                            ],
-                          ),
-                          const SizedBox(height: 36),
-                          Wrap(
-                            alignment: WrapAlignment.center,
-                            spacing: 18,
-                            runSpacing: 18,
-                            children: [
-                              for (final pair in _shuffledItems)
-                                _DraggableItem(
-                                  pair: pair,
-                                  matched: _matchedIds.contains(pair.id),
-                                  shakeSeed: _missShakeSeed[pair.id] ?? 0,
-                                  onMiss: () => _handleMiss(pair),
-                                ),
-                            ],
-                          ),
+                          for (final pair in _pairs)
+                            _BasketTarget(
+                              pair: pair,
+                              size: basketSize,
+                              matched: _matchedIds.contains(pair.id),
+                              playConfetti: _confettiPlayed.contains(pair.id),
+                              bounceSeed: _matchBounceSeed[pair.id] ?? 0,
+                              languageCode: lc,
+                              onAcceptItem: (id) {
+                                if (id == pair.id) _handleCorrectDrop(pair);
+                              },
+                            ),
                         ],
+                      ),
+                    ),
+                  ),
+                  // Draggable dock: fixed height, always docked to the
+                  // bottom of the screen and horizontally scrollable, so
+                  // every item stays reachable regardless of how tall the
+                  // target zone above is or how far it's scrolled.
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.black.withValues(alpha: 0.12),
+                      borderRadius: const BorderRadius.vertical(
+                        top: Radius.circular(24),
+                      ),
+                    ),
+                    child: SizedBox(
+                      height: itemSize,
+                      child: ListView.separated(
+                        scrollDirection: Axis.horizontal,
+                        physics: const BouncingScrollPhysics(),
+                        itemCount: _shuffledItems.length,
+                        separatorBuilder: (_, _) => const SizedBox(width: 14),
+                        itemBuilder: (context, index) {
+                          final pair = _shuffledItems[index];
+                          return _DraggableItem(
+                            pair: pair,
+                            size: itemSize,
+                            matched: _matchedIds.contains(pair.id),
+                            shakeSeed: _missShakeSeed[pair.id] ?? 0,
+                            onMiss: () => _handleMiss(pair),
+                          );
+                        },
                       ),
                     ),
                   ),
@@ -307,36 +364,36 @@ class _ProgressPips extends StatelessWidget {
 class _DraggableItem extends StatelessWidget {
   const _DraggableItem({
     required this.pair,
+    required this.size,
     required this.matched,
     required this.shakeSeed,
     required this.onMiss,
   });
 
   final MatchPairItem pair;
+  final double size;
   final bool matched;
   final int shakeSeed;
   final VoidCallback onMiss;
 
-  static const double _size = 110;
-
   Widget _tile({required bool dimmed}) {
     final color = Color(pair.colorValue);
     return Container(
-      width: _size,
-      height: _size,
+      width: size,
+      height: size,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [color, color.withValues(alpha: 0.7)],
         ),
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(size * 0.27),
         boxShadow: dimmed ? null : AppShadows.floating(color),
       ),
       alignment: Alignment.center,
       child: Opacity(
         opacity: dimmed ? 0.3 : 1,
-        child: Text(pair.emoji, style: const TextStyle(fontSize: 56)),
+        child: Text(pair.emoji, style: TextStyle(fontSize: size * 0.5)),
       ),
     );
   }
@@ -347,14 +404,18 @@ class _DraggableItem extends StatelessWidget {
       return Opacity(
         opacity: 0.4,
         child: Container(
-          width: _size,
-          height: _size,
+          width: size,
+          height: size,
           decoration: BoxDecoration(
             color: Colors.grey.shade400,
-            borderRadius: BorderRadius.circular(30),
+            borderRadius: BorderRadius.circular(size * 0.27),
           ),
           alignment: Alignment.center,
-          child: const Icon(Icons.check_rounded, color: Colors.white, size: 44),
+          child: Icon(
+            Icons.check_rounded,
+            color: Colors.white,
+            size: size * 0.4,
+          ),
         ),
       );
     }
@@ -383,6 +444,7 @@ class _DraggableItem extends StatelessWidget {
 class _BasketTarget extends StatelessWidget {
   const _BasketTarget({
     required this.pair,
+    required this.size,
     required this.matched,
     required this.playConfetti,
     required this.bounceSeed,
@@ -391,13 +453,12 @@ class _BasketTarget extends StatelessWidget {
   });
 
   final MatchPairItem pair;
+  final double size;
   final bool matched;
   final bool playConfetti;
   final int bounceSeed;
   final String languageCode;
   final ValueChanged<String> onAcceptItem;
-
-  static const double _size = 128;
 
   @override
   Widget build(BuildContext context) {
@@ -405,7 +466,7 @@ class _BasketTarget extends StatelessWidget {
     return _Bouncer(
       trigger: bounceSeed,
       child: SizedBox(
-        width: 148,
+        width: size + 20,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -422,8 +483,8 @@ class _BasketTarget extends StatelessWidget {
                   children: [
                     AnimatedContainer(
                       duration: const Duration(milliseconds: 200),
-                      width: _size,
-                      height: _size,
+                      width: size,
+                      height: size,
                       decoration: BoxDecoration(
                         color: matched
                             ? Colors.grey.shade300
@@ -432,7 +493,7 @@ class _BasketTarget extends StatelessWidget {
                                     ? 0.55
                                     : (rejecting ? 0.45 : 0.3),
                               ),
-                        borderRadius: BorderRadius.circular(34),
+                        borderRadius: BorderRadius.circular(size * 0.27),
                         border: Border.all(
                           color: matched
                               ? AppColors.secondary
@@ -449,24 +510,24 @@ class _BasketTarget extends StatelessWidget {
                       ),
                       alignment: Alignment.center,
                       child: matched
-                          ? const Icon(
+                          ? Icon(
                               Icons.check_circle_rounded,
                               color: AppColors.secondary,
-                              size: 54,
+                              size: size * 0.42,
                             )
                           : Opacity(
                               opacity: 0.5,
                               child: Text(
                                 pair.emoji,
-                                style: const TextStyle(fontSize: 52),
+                                style: TextStyle(fontSize: size * 0.4),
                               ),
                             ),
                     ),
                     if (playConfetti)
                       IgnorePointer(
                         child: SizedBox(
-                          width: _size,
-                          height: _size,
+                          width: size,
+                          height: size,
                           child: _ConfettiBurst(
                             colors: [color, AppColors.accent, Colors.white],
                           ),

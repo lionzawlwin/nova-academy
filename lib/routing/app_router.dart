@@ -188,6 +188,17 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         path: AppRoutes.lessonNursery,
         builder: (context, state) {
           final extra = state.extra;
+          if (extra
+              is (SubjectVisual, List<MatchPairItem>?, String?, String?)) {
+            final (subject, pairs, instructionEn, instructionMy) = extra;
+            return NurseryLessonScreen(
+              subjectLabel: subject.label,
+              themeColor: subject.color,
+              pairs: pairs,
+              instructionEn: instructionEn,
+              instructionMy: instructionMy,
+            );
+          }
           if (extra is (SubjectVisual, List<MatchPairItem>?)) {
             final (subject, pairs) = extra;
             return NurseryLessonScreen(

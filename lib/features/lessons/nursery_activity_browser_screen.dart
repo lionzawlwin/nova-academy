@@ -197,6 +197,9 @@ class _ActivityTileState extends State<_ActivityTile>
     final activity = widget.activity;
     final emoji = activity.emoji;
     final title = activity.title(widget.languageCode);
+    // Same 3-column responsive sizing as `NurseryKgHomeScreen`'s subject
+    // grid -- the old fixed 140dp tile only fit 2 per row on a phone.
+    final tileSize = responsiveTileSize(context, columns: 3);
 
     return AnimatedBuilder(
       animation: _entranceController,
@@ -210,19 +213,19 @@ class _ActivityTileState extends State<_ActivityTile>
         );
       },
       child: SizedBox(
-        width: 152,
+        width: tileSize + 12,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             CandyBevelSurface(
               faceColor: widget.color,
               bevelDepth: CandyBevelDepth.nursery,
-              borderRadius: 40,
-              width: 140,
-              height: 140,
+              borderRadius: tileSize * 0.28,
+              width: tileSize,
+              height: tileSize,
               padding: EdgeInsets.zero,
               onTap: widget.onTap,
-              child: Text(emoji, style: const TextStyle(fontSize: 68)),
+              child: Text(emoji, style: TextStyle(fontSize: tileSize * 0.48)),
             ),
             const SizedBox(height: 8),
             FittedBox(
