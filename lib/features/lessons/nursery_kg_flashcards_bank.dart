@@ -1012,4 +1012,1118 @@ const List<NurseryFlashcardsDef> nurseryKgFlashcardsBank = [
       ),
     ],
   ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-math-2',
+    subject: 'math',
+    grade: Grade.nursery,
+    titleEn: 'My First Shapes',
+    titleMy: 'ပထမဆုံး ပုံသဏ္ဍာန်များ',
+    descriptionEn:
+        'Flip through flashcards to learn simple shapes like circle and '
+        'square.',
+    descriptionMy:
+        'စက်ဝိုင်းနှင့် စတုရမ်းကဲ့သို့ ရိုးရှင်းသော ပုံသဏ္ဍာန်များကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🔷',
+    cards: [
+      FlashcardItem(
+        id: 'shape-circle',
+        emoji: '🔵',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Circle',
+        labelMy: 'စက်ဝိုင်း',
+      ),
+      FlashcardItem(
+        id: 'shape-square',
+        emoji: '🟧',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Square',
+        labelMy: 'စတုရမ်း',
+      ),
+      FlashcardItem(
+        id: 'shape-triangle',
+        emoji: '🔺',
+        colorValue: 0xFFE64545,
+        labelEn: 'Triangle',
+        labelMy: 'တြိဂံ',
+      ),
+      FlashcardItem(
+        id: 'shape-star',
+        emoji: '⭐',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Star',
+        labelMy: 'ကြယ်',
+      ),
+      FlashcardItem(
+        id: 'shape-heart',
+        emoji: '❤️',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Heart',
+        labelMy: 'နှလုံးပုံ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-math-2',
+    subject: 'math',
+    grade: Grade.kg,
+    titleEn: 'Shapes All Around',
+    titleMy: 'ပတ်ဝန်းကျင်ရှိ ပုံသဏ္ဍာန်များ',
+    descriptionEn:
+        'Flip through flashcards to learn more shapes, including '
+        'rectangles and ovals.',
+    descriptionMy:
+        'လေးထောင့်ပုံနှင့် ဥပုံအပါအဝင် ပုံသဏ္ဍာန် ပိုမိုများပြားစွာကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '📐',
+    cards: [
+      FlashcardItem(
+        id: 'shape2-circle',
+        emoji: '🔵',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Circle',
+        labelMy: 'စက်ဝိုင်း',
+      ),
+      FlashcardItem(
+        id: 'shape2-square',
+        emoji: '🟧',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Square',
+        labelMy: 'စတုရမ်း',
+      ),
+      FlashcardItem(
+        id: 'shape2-triangle',
+        emoji: '🔺',
+        colorValue: 0xFFE64545,
+        labelEn: 'Triangle',
+        labelMy: 'တြိဂံ',
+      ),
+      FlashcardItem(
+        id: 'shape2-rectangle',
+        emoji: '🚪',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Rectangle',
+        labelMy: 'အကွက်ရှည်',
+      ),
+      FlashcardItem(
+        id: 'shape2-star',
+        emoji: '⭐',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Star',
+        labelMy: 'ကြယ်',
+      ),
+      FlashcardItem(
+        id: 'shape2-oval',
+        emoji: '🥚',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Oval',
+        labelMy: 'ဥပုံ',
+      ),
+      FlashcardItem(
+        id: 'shape2-diamond',
+        emoji: '🔶',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Diamond',
+        labelMy: 'စိန်ပုံ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-phonics-2',
+    subject: 'phonics',
+    grade: Grade.nursery,
+    titleEn: 'My Animal Friends',
+    titleMy: 'ကျွန်ုပ်၏ တိရစ္ဆာန်သူငယ်ချင်းများ',
+    descriptionEn: 'Flip through flashcards to learn the names of animals.',
+    descriptionMy: 'တိရစ္ဆာန်များ၏ အမည်များကို ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🐾',
+    cards: [
+      FlashcardItem(
+        id: 'animal-cat',
+        emoji: '🐱',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Cat',
+        labelMy: 'ကြောင်',
+      ),
+      FlashcardItem(
+        id: 'animal-dog',
+        emoji: '🐶',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Dog',
+        labelMy: 'ခွေး',
+      ),
+      FlashcardItem(
+        id: 'animal-cow',
+        emoji: '🐄',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Cow',
+        labelMy: 'နွား',
+      ),
+      FlashcardItem(
+        id: 'animal-duck',
+        emoji: '🦆',
+        colorValue: 0xFFFFBF3C,
+        labelEn: 'Duck',
+        labelMy: 'ဘဲ',
+      ),
+      FlashcardItem(
+        id: 'animal-bird',
+        emoji: '🐦',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Bird',
+        labelMy: 'ငှက်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-phonics-2',
+    subject: 'phonics',
+    grade: Grade.kg,
+    titleEn: 'How I Feel',
+    titleMy: 'ကျွန်ုပ်ခံစားချက်များ',
+    descriptionEn:
+        'Flip through flashcards to learn words for different feelings.',
+    descriptionMy:
+        'မတူညီသော ခံစားချက်များအတွက် စကားလုံးများကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 8,
+    emoji: '😊',
+    cards: [
+      FlashcardItem(
+        id: 'feel-happy',
+        emoji: '😄',
+        colorValue: 0xFFFFBF3C,
+        labelEn: 'Happy',
+        labelMy: 'ပျော်ရွှင်',
+      ),
+      FlashcardItem(
+        id: 'feel-sad',
+        emoji: '😢',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Sad',
+        labelMy: 'ဝမ်းနည်း',
+      ),
+      FlashcardItem(
+        id: 'feel-angry',
+        emoji: '😠',
+        colorValue: 0xFFE64545,
+        labelEn: 'Angry',
+        labelMy: 'စိတ်ဆိုး',
+      ),
+      FlashcardItem(
+        id: 'feel-sleepy',
+        emoji: '😴',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Sleepy',
+        labelMy: 'အိပ်ချင်',
+      ),
+      FlashcardItem(
+        id: 'feel-surprised',
+        emoji: '😲',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Surprised',
+        labelMy: 'အံ့ဩ',
+      ),
+      FlashcardItem(
+        id: 'feel-excited',
+        emoji: '🤩',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Excited',
+        labelMy: 'စိတ်လှုပ်ရှား',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-stem-2',
+    subject: 'stem',
+    grade: Grade.nursery,
+    titleEn: "What's the Weather?",
+    titleMy: 'ရာသီဥတု ဘယ်လိုလဲ',
+    descriptionEn:
+        'Flip through flashcards to learn about different kinds of '
+        'weather.',
+    descriptionMy:
+        'မတူညီသော ရာသီဥတုအမျိုးအစားများအကြောင်း ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '⛅',
+    cards: [
+      FlashcardItem(
+        id: 'weather-sun',
+        emoji: '☀️',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Sunny',
+        labelMy: 'နေသာ',
+      ),
+      FlashcardItem(
+        id: 'weather-rain',
+        emoji: '🌧️',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Rainy',
+        labelMy: 'မိုးရွာ',
+      ),
+      FlashcardItem(
+        id: 'weather-cloud',
+        emoji: '☁️',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Cloudy',
+        labelMy: 'တိမ်ထူ',
+      ),
+      FlashcardItem(
+        id: 'weather-wind',
+        emoji: '💨',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Windy',
+        labelMy: 'လေတိုက်',
+      ),
+      FlashcardItem(
+        id: 'weather-snow',
+        emoji: '❄️',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Snowy',
+        labelMy: 'နှင်းကျ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-stem-2',
+    subject: 'stem',
+    grade: Grade.kg,
+    titleEn: 'How Plants Grow',
+    titleMy: 'အပင်များ ဘယ်လိုကြီးထွားလဲ',
+    descriptionEn:
+        'Flip through flashcards to learn the steps a seed takes to grow '
+        'into a plant.',
+    descriptionMy:
+        'မျိုးစေ့တစ်လုံးသည် အပင်တစ်ပင်အဖြစ် ကြီးထွားလာသည့် အဆင့်များကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🌱',
+    cards: [
+      FlashcardItem(
+        id: 'grow-seed',
+        emoji: '🌰',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Seed',
+        labelMy: 'မျိုးစေ့',
+      ),
+      FlashcardItem(
+        id: 'grow-water',
+        emoji: '💧',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Water',
+        labelMy: 'ရေ',
+      ),
+      FlashcardItem(
+        id: 'grow-sun',
+        emoji: '☀️',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Sunlight',
+        labelMy: 'နေရောင်',
+      ),
+      FlashcardItem(
+        id: 'grow-sprout',
+        emoji: '🌱',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Sprout',
+        labelMy: 'အညှောက်ထွက်',
+      ),
+      FlashcardItem(
+        id: 'grow-flower',
+        emoji: '🌸',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Flower',
+        labelMy: 'ပန်း',
+      ),
+      FlashcardItem(
+        id: 'grow-fruit',
+        emoji: '🍎',
+        colorValue: 0xFFE64545,
+        labelEn: 'Fruit',
+        labelMy: 'အသီး',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-coding-2',
+    subject: 'coding',
+    grade: Grade.nursery,
+    titleEn: 'My Bedtime Steps',
+    titleMy: 'အိပ်ရာဝင်ချိန် အဆင့်များ',
+    descriptionEn:
+        'Flip through flashcards to learn the order of steps we follow '
+        'before bed.',
+    descriptionMy:
+        'အိပ်ရာမဝင်မီ လိုက်နာရသော အဆင့်များ၏ အစီအစဉ်ကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🌙',
+    cards: [
+      FlashcardItem(
+        id: 'bedtime-bath',
+        emoji: '🛁',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Bath',
+        labelMy: 'ရေချိုး',
+      ),
+      FlashcardItem(
+        id: 'bedtime-pajamas',
+        emoji: '👘',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Pajamas',
+        labelMy: 'ညအိပ်ဝတ်စုံ',
+      ),
+      FlashcardItem(
+        id: 'bedtime-brush',
+        emoji: '🪥',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Brush Teeth',
+        labelMy: 'သွားတိုက်',
+      ),
+      FlashcardItem(
+        id: 'bedtime-story',
+        emoji: '📖',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Story Time',
+        labelMy: 'ပုံပြင်ချိန်',
+      ),
+      FlashcardItem(
+        id: 'bedtime-sleep',
+        emoji: '😴',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Sleep',
+        labelMy: 'အိပ်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-coding-2',
+    subject: 'coding',
+    grade: Grade.kg,
+    titleEn: 'Party Time Steps',
+    titleMy: 'ပါတီပွဲ အဆင့်များ',
+    descriptionEn:
+        'Flip through flashcards to learn the order of steps to get ready '
+        'for a party.',
+    descriptionMy:
+        'ပါတီပွဲအတွက် အသင့်ပြင်ရသော အဆင့်များ၏ အစီအစဉ်ကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🎉',
+    cards: [
+      FlashcardItem(
+        id: 'party-invite',
+        emoji: '💌',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Invite Friends',
+        labelMy: 'သူငယ်ချင်းများဖိတ်',
+      ),
+      FlashcardItem(
+        id: 'party-decorate',
+        emoji: '🎈',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Decorate',
+        labelMy: 'အလှဆင်',
+      ),
+      FlashcardItem(
+        id: 'party-cake',
+        emoji: '🎂',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Bake a Cake',
+        labelMy: 'ကိတ်မုန့်ဖုတ်',
+      ),
+      FlashcardItem(
+        id: 'party-games',
+        emoji: '🎮',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Play Games',
+        labelMy: 'ဂိမ်းကစား',
+      ),
+      FlashcardItem(
+        id: 'party-sing',
+        emoji: '🎵',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Sing a Song',
+        labelMy: 'သီချင်းဆို',
+      ),
+      FlashcardItem(
+        id: 'party-candles',
+        emoji: '🕯️',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Blow Out Candles',
+        labelMy: 'ဖယောင်းတိုင်မှုတ်',
+      ),
+      FlashcardItem(
+        id: 'party-celebrate',
+        emoji: '🎉',
+        colorValue: 0xFFE64545,
+        labelEn: 'Celebrate!',
+        labelMy: 'ပျော်ပွဲစား',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-engineering-2',
+    subject: 'engineering',
+    grade: Grade.nursery,
+    titleEn: 'Structures Around Us',
+    titleMy: 'ပတ်ဝန်းကျင်ရှိ အဆောက်အအုံများ',
+    descriptionEn:
+        'Flip through flashcards to learn the names of structures people '
+        'build.',
+    descriptionMy:
+        'လူများ တည်ဆောက်ကြသော အဆောက်အအုံများ၏ အမည်များကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🏛️',
+    cards: [
+      FlashcardItem(
+        id: 'structure-tower',
+        emoji: '🗼',
+        colorValue: 0xFFE64545,
+        labelEn: 'Tower',
+        labelMy: 'မျှော်စင်',
+      ),
+      FlashcardItem(
+        id: 'structure-bridge',
+        emoji: '🌉',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Bridge',
+        labelMy: 'တံတား',
+      ),
+      FlashcardItem(
+        id: 'structure-tunnel',
+        emoji: '🚇',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Tunnel',
+        labelMy: 'ဥမင်လိုဏ်ခေါင်း',
+      ),
+      FlashcardItem(
+        id: 'structure-castle',
+        emoji: '🏰',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Castle',
+        labelMy: 'ရဲတိုက်',
+      ),
+      FlashcardItem(
+        id: 'structure-skyscraper',
+        emoji: '🏙️',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Skyscraper',
+        labelMy: 'မိုးမျှော်တိုက်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-engineering-2',
+    subject: 'engineering',
+    grade: Grade.kg,
+    titleEn: 'Simple Machines',
+    titleMy: 'ရိုးရှင်းသော စက်ကိရိယာများ',
+    descriptionEn:
+        'Flip through flashcards to learn simple machines that make work '
+        'easier.',
+    descriptionMy:
+        'အလုပ်ကို ပိုမိုလွယ်ကူစေသည့် ရိုးရှင်းသော စက်ကိရိယာများကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '⚙️',
+    cards: [
+      FlashcardItem(
+        id: 'machine-wheel',
+        emoji: '🛞',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Wheel',
+        labelMy: 'ဘီး',
+      ),
+      FlashcardItem(
+        id: 'machine-lever',
+        emoji: '🎚️',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Lever',
+        labelMy: 'လီဗာ',
+      ),
+      FlashcardItem(
+        id: 'machine-pulley',
+        emoji: '🪢',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Pulley',
+        labelMy: 'ကျင်းလိမ်ဘီး',
+      ),
+      FlashcardItem(
+        id: 'machine-ramp',
+        emoji: '🛝',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Ramp',
+        labelMy: 'စောင်းလမ်း',
+      ),
+      FlashcardItem(
+        id: 'machine-gear',
+        emoji: '⚙️',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Gear',
+        labelMy: 'ဂီယာ',
+      ),
+      FlashcardItem(
+        id: 'machine-screw',
+        emoji: '🔩',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Screw',
+        labelMy: 'စကရူး',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-history-2',
+    subject: 'history',
+    grade: Grade.nursery,
+    titleEn: 'A Long Time Ago',
+    titleMy: 'ဟိုးရှေးရှေးက',
+    descriptionEn:
+        'Flip through flashcards to learn about how people lived a long '
+        'time ago.',
+    descriptionMy:
+        'ဟိုးရှေးရှေးက လူများ မည်သို့နေထိုင်ခဲ့ကြောင်းကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🦕',
+    cards: [
+      FlashcardItem(
+        id: 'past-dinosaur',
+        emoji: '🦕',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Dinosaur',
+        labelMy: 'ဒိုင်နိုဆော်',
+      ),
+      FlashcardItem(
+        id: 'past-cave',
+        emoji: '🕳️',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Cave',
+        labelMy: 'ဂူ',
+      ),
+      FlashcardItem(
+        id: 'past-fire',
+        emoji: '🔥',
+        colorValue: 0xFFE64545,
+        labelEn: 'Fire',
+        labelMy: 'မီး',
+      ),
+      FlashcardItem(
+        id: 'past-stonetool',
+        emoji: '🪨',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Stone Tool',
+        labelMy: 'ကျောက်တန်ဆာ',
+      ),
+      FlashcardItem(
+        id: 'past-cavepainting',
+        emoji: '🎨',
+        colorValue: 0xFFFFBF3C,
+        labelEn: 'Cave Painting',
+        labelMy: 'ဂူပန်းချီ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-history-2',
+    subject: 'history',
+    grade: Grade.kg,
+    titleEn: 'Great Inventions',
+    titleMy: 'ကြီးမြတ်သော တီထွင်မှုများ',
+    descriptionEn:
+        'Flip through flashcards to learn about inventions that changed '
+        'how people live.',
+    descriptionMy:
+        'လူများ၏ နေထိုင်မှုပုံစံကို ပြောင်းလဲစေခဲ့သော တီထွင်မှုများကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '💡',
+    cards: [
+      FlashcardItem(
+        id: 'invent-wheel',
+        emoji: '🛞',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Wheel',
+        labelMy: 'ဘီး',
+      ),
+      FlashcardItem(
+        id: 'invent-fire',
+        emoji: '🔥',
+        colorValue: 0xFFE64545,
+        labelEn: 'Fire',
+        labelMy: 'မီး',
+      ),
+      FlashcardItem(
+        id: 'invent-boat',
+        emoji: '⛵',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Boat',
+        labelMy: 'လှေ',
+      ),
+      FlashcardItem(
+        id: 'invent-writing',
+        emoji: '✍️',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Writing',
+        labelMy: 'စာရေးခြင်း',
+      ),
+      FlashcardItem(
+        id: 'invent-clock',
+        emoji: '⏰',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Clock',
+        labelMy: 'နာရီ',
+      ),
+      FlashcardItem(
+        id: 'invent-light',
+        emoji: '💡',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Lightbulb',
+        labelMy: 'မီးလုံး',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-geography-2',
+    subject: 'geography',
+    grade: Grade.nursery,
+    titleEn: 'Animal Homes',
+    titleMy: 'တိရစ္ဆာန်များ၏ နေအိမ်',
+    descriptionEn:
+        'Flip through flashcards to learn where different animals live.',
+    descriptionMy:
+        'မတူညီသော တိရစ္ဆာန်များ မည်သည့်နေရာတွင် နေထိုင်ကြောင်းကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🏞️',
+    cards: [
+      FlashcardItem(
+        id: 'home-jungle',
+        emoji: '🐒',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Jungle',
+        labelMy: 'တောအုပ်',
+      ),
+      FlashcardItem(
+        id: 'home-ocean',
+        emoji: '🐠',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Ocean',
+        labelMy: 'သမုဒ္ဒရာ',
+      ),
+      FlashcardItem(
+        id: 'home-desert',
+        emoji: '🐫',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Desert',
+        labelMy: 'သဲကန္တာရ',
+      ),
+      FlashcardItem(
+        id: 'home-ice',
+        emoji: '🐧',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Icy Land',
+        labelMy: 'ရေခဲပြင်',
+      ),
+      FlashcardItem(
+        id: 'home-farm',
+        emoji: '🐄',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Farm',
+        labelMy: 'လယ်ယာ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-geography-2',
+    subject: 'geography',
+    grade: Grade.kg,
+    titleEn: 'Landforms Around Us',
+    titleMy: 'ပတ်ဝန်းကျင်ရှိ မြေမျက်နှာသွင်ပြင်များ',
+    descriptionEn:
+        'Flip through flashcards to learn the names of different '
+        'landforms.',
+    descriptionMy:
+        'မတူညီသော မြေမျက်နှာသွင်ပြင်များ၏ အမည်များကို ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🏞️',
+    cards: [
+      FlashcardItem(
+        id: 'land-river',
+        emoji: '🏞️',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'River',
+        labelMy: 'မြစ်',
+      ),
+      FlashcardItem(
+        id: 'land-hill',
+        emoji: '⛰️',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Hill',
+        labelMy: 'တောင်ကုန်း',
+      ),
+      FlashcardItem(
+        id: 'land-valley',
+        emoji: '🌄',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Valley',
+        labelMy: 'ချိုင့်ဝှမ်း',
+      ),
+      FlashcardItem(
+        id: 'land-plain',
+        emoji: '🌾',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Plain',
+        labelMy: 'လွင်ပြင်',
+      ),
+      FlashcardItem(
+        id: 'land-sea',
+        emoji: '🌊',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Sea',
+        labelMy: 'ပင်လယ်',
+      ),
+      FlashcardItem(
+        id: 'land-waterfall',
+        emoji: '💦',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Waterfall',
+        labelMy: 'ရေတံခွန်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-computing-2',
+    subject: 'computing',
+    grade: Grade.nursery,
+    titleEn: 'Computers Help Us',
+    titleMy: 'ကွန်ပျူတာက ကျွန်ုပ်တို့ကို ကူညီသည်',
+    descriptionEn:
+        'Flip through flashcards to learn the places where computers help '
+        'us.',
+    descriptionMy:
+        'ကွန်ပျူတာများက ကျွန်ုပ်တို့ကို ကူညီပေးသည့် နေရာများကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🏫',
+    cards: [
+      FlashcardItem(
+        id: 'place-home',
+        emoji: '🏠',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Home',
+        labelMy: 'အိမ်',
+      ),
+      FlashcardItem(
+        id: 'place-school',
+        emoji: '🏫',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'School',
+        labelMy: 'ကျောင်း',
+      ),
+      FlashcardItem(
+        id: 'place-hospital',
+        emoji: '🏥',
+        colorValue: 0xFFE64545,
+        labelEn: 'Hospital',
+        labelMy: 'ဆေးရုံ',
+      ),
+      FlashcardItem(
+        id: 'place-library',
+        emoji: '📚',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Library',
+        labelMy: 'စာကြည့်တိုက်',
+      ),
+      FlashcardItem(
+        id: 'place-shop',
+        emoji: '🏪',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Shop',
+        labelMy: 'ဆိုင်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-computing-2',
+    subject: 'computing',
+    grade: Grade.kg,
+    titleEn: "A Computer's Senses",
+    titleMy: 'ကွန်ပျူတာ၏ အာရုံခံစနစ်များ',
+    descriptionEn:
+        'Flip through flashcards to learn the parts that help a computer '
+        'see, hear, and speak.',
+    descriptionMy:
+        'ကွန်ပျူတာအား မြင်စေ၊ ကြားစေနှင့် ပြောစေသော အစိတ်အပိုင်းများကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🎧',
+    cards: [
+      FlashcardItem(
+        id: 'sense-screen',
+        emoji: '🖥️',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Screen',
+        labelMy: 'မျက်နှာပြင်',
+      ),
+      FlashcardItem(
+        id: 'sense-camera',
+        emoji: '📷',
+        colorValue: 0xFFB5734A,
+        labelEn: 'Camera',
+        labelMy: 'ကင်မရာ',
+      ),
+      FlashcardItem(
+        id: 'sense-mic',
+        emoji: '🎤',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Microphone',
+        labelMy: 'မိုက်ခရိုဖုန်း',
+      ),
+      FlashcardItem(
+        id: 'sense-speaker',
+        emoji: '🔊',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Speaker',
+        labelMy: 'စပီကာ',
+      ),
+      FlashcardItem(
+        id: 'sense-headphones',
+        emoji: '🎧',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Headphones',
+        labelMy: 'နားကြပ်',
+      ),
+      FlashcardItem(
+        id: 'sense-keyboard',
+        emoji: '⌨️',
+        colorValue: 0xFFFFBF3C,
+        labelEn: 'Keyboard',
+        labelMy: 'ကီးဘုတ်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-art-1',
+    subject: 'art',
+    grade: Grade.nursery,
+    titleEn: 'Rainbow Colors',
+    titleMy: 'သက်တံ့ အရောင်များ',
+    descriptionEn:
+        'Flip through flashcards to learn the colors of the rainbow.',
+    descriptionMy: 'သက်တံ့ရောင်စုံ၏ အရောင်များကို ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🌈',
+    cards: [
+      FlashcardItem(
+        id: 'rainbow-red',
+        emoji: '🔴',
+        colorValue: 0xFFE64545,
+        labelEn: 'Red',
+        labelMy: 'အနီရောင်',
+      ),
+      FlashcardItem(
+        id: 'rainbow-orange',
+        emoji: '🟠',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Orange',
+        labelMy: 'လိမ္မော်ရောင်',
+      ),
+      FlashcardItem(
+        id: 'rainbow-yellow',
+        emoji: '🟡',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Yellow',
+        labelMy: 'အဝါရောင်',
+      ),
+      FlashcardItem(
+        id: 'rainbow-green',
+        emoji: '🟢',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Green',
+        labelMy: 'အစိမ်းရောင်',
+      ),
+      FlashcardItem(
+        id: 'rainbow-blue',
+        emoji: '🔵',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Blue',
+        labelMy: 'အပြာရောင်',
+      ),
+      FlashcardItem(
+        id: 'rainbow-purple',
+        emoji: '🟣',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Purple',
+        labelMy: 'ခရမ်းရောင်',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-art-1',
+    subject: 'art',
+    grade: Grade.kg,
+    titleEn: 'My Art Tools',
+    titleMy: 'ပန်းချီပစ္စည်းများ',
+    descriptionEn:
+        'Flip through flashcards to learn the names of tools artists use.',
+    descriptionMy:
+        'ပန်းချီဆရာများ အသုံးပြုသော ပစ္စည်းများ၏ အမည်များကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🎨',
+    cards: [
+      FlashcardItem(
+        id: 'tool-brush',
+        emoji: '🖌️',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Paintbrush',
+        labelMy: 'ဆေးဆွဲတံ',
+      ),
+      FlashcardItem(
+        id: 'tool-crayon',
+        emoji: '🖍️',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Crayon',
+        labelMy: 'ဆေးခဲ',
+      ),
+      FlashcardItem(
+        id: 'tool-paint',
+        emoji: '🎨',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Paint',
+        labelMy: 'ဆေးရောင်',
+      ),
+      FlashcardItem(
+        id: 'tool-paper',
+        emoji: '📄',
+        colorValue: 0xFFFFFFFF,
+        labelEn: 'Paper',
+        labelMy: 'စက္ကူ',
+      ),
+      FlashcardItem(
+        id: 'tool-pencil',
+        emoji: '✏️',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Colored Pencil',
+        labelMy: 'ခဲတံရောင်စုံ',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-nursery-flashcards-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.nursery,
+    titleEn: 'People Who Help Us',
+    titleMy: 'ကျွန်ုပ်တို့ကို ကူညီသူများ',
+    descriptionEn:
+        'Flip through flashcards to learn about people who help our '
+        'community.',
+    descriptionMy:
+        'ကျွန်ုပ်တို့ရပ်ရွာကို ကူညီပေးသူများအကြောင်း ကတ်များလှန်ပြီး '
+        'လေ့လာပါ။',
+    starsReward: 6,
+    emoji: '🧑‍⚕️',
+    cards: [
+      FlashcardItem(
+        id: 'helper-doctor',
+        emoji: '🧑‍⚕️',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Doctor',
+        labelMy: 'ဆရာဝန်',
+      ),
+      FlashcardItem(
+        id: 'helper-teacher',
+        emoji: '👩‍🏫',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Teacher',
+        labelMy: 'ဆရာ',
+      ),
+      FlashcardItem(
+        id: 'helper-police',
+        emoji: '👮',
+        colorValue: 0xFF7271F7,
+        labelEn: 'Police Officer',
+        labelMy: 'ရဲ',
+      ),
+      FlashcardItem(
+        id: 'helper-firefighter',
+        emoji: '👨‍🚒',
+        colorValue: 0xFFE64545,
+        labelEn: 'Firefighter',
+        labelMy: 'မီးသတ်သမား',
+      ),
+      FlashcardItem(
+        id: 'helper-farmer',
+        emoji: '👨‍🌾',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Farmer',
+        labelMy: 'လယ်သမား',
+      ),
+    ],
+  ),
+  NurseryFlashcardsDef(
+    id: 'mock-kg-flashcards-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.kg,
+    titleEn: 'Good Manners',
+    titleMy: 'အကျင့်ကောင်းများ',
+    descriptionEn:
+        'Flip through flashcards to learn simple good manners to use '
+        'every day.',
+    descriptionMy:
+        'နေ့စဉ် အသုံးပြုရမည့် ရိုးရှင်းသော အကျင့်ကောင်းများကို '
+        'ကတ်များလှန်ပြီး လေ့လာပါ။',
+    starsReward: 9,
+    emoji: '🤝',
+    cards: [
+      FlashcardItem(
+        id: 'manners-please',
+        emoji: '🙏',
+        colorValue: 0xFFFFC93C,
+        labelEn: 'Say Please',
+        labelMy: 'ကျေးဇူးပြု၍ ပြော',
+      ),
+      FlashcardItem(
+        id: 'manners-thanks',
+        emoji: '😊',
+        colorValue: 0xFF4CB6FF,
+        labelEn: 'Say Thank You',
+        labelMy: 'ကျေးဇူးတင်ကြောင်းပြော',
+      ),
+      FlashcardItem(
+        id: 'manners-sorry',
+        emoji: '😔',
+        colorValue: 0xFF9C6ADE,
+        labelEn: 'Say Sorry',
+        labelMy: 'တောင်းပန်',
+      ),
+      FlashcardItem(
+        id: 'manners-share',
+        emoji: '🤲',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Share',
+        labelMy: 'မျှဝေ',
+      ),
+      FlashcardItem(
+        id: 'manners-wait',
+        emoji: '⏳',
+        colorValue: 0xFFFF8A3D,
+        labelEn: 'Wait Your Turn',
+        labelMy: 'အလှည့်စောင့်',
+      ),
+      FlashcardItem(
+        id: 'manners-kind',
+        emoji: '💛',
+        colorValue: 0xFFFF7F91,
+        labelEn: 'Be Kind',
+        labelMy: 'ကြင်နာ',
+      ),
+    ],
+  ),
 ];
