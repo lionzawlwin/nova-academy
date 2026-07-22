@@ -389,78 +389,75 @@ class _DayNode extends StatelessWidget {
 
     return Opacity(
       opacity: isLocked ? 0.5 : 1,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
+      child: CandyBevelSurface(
         onTap: isLocked ? null : onTap,
-        child: CandyBevelSurface(
-          faceColor: isCompleted
-              ? AppColors.secondary.withValues(alpha: 0.14)
-              : theme.colorScheme.surfaceContainerHigh,
-          bevelDepth: CandyBevelDepth.secondary,
-          borderRadius: AppTheme.radiusLarge,
-          border: lesson.isRecapDay
-              ? Border.all(color: AppColors.goldMedal, width: 2)
-              : null,
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            children: [
-              Container(
-                width: 48,
-                height: 48,
-                decoration: BoxDecoration(
-                  gradient: AppGradients.hero(theme.colorScheme),
-                  shape: BoxShape.circle,
-                ),
-                alignment: Alignment.center,
-                child: isLocked
-                    ? const Icon(
-                        Icons.lock_rounded,
-                        color: Colors.white,
-                        size: 22,
-                      )
-                    : isCompleted
-                    ? const Icon(
-                        Icons.check_rounded,
-                        color: Colors.white,
-                        size: 26,
-                      )
-                    : Icon(_kindIcon, color: Colors.white, size: 22),
+        faceColor: isCompleted
+            ? AppColors.secondary.withValues(alpha: 0.14)
+            : theme.colorScheme.surfaceContainerHigh,
+        bevelDepth: CandyBevelDepth.secondary,
+        borderRadius: AppTheme.radiusLarge,
+        border: lesson.isRecapDay
+            ? Border.all(color: AppColors.goldMedal, width: 2)
+            : null,
+        padding: const EdgeInsets.all(16),
+        child: Row(
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                gradient: AppGradients.hero(theme.colorScheme),
+                shape: BoxShape.circle,
               ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      _t(
-                            context,
-                            'Day ${lesson.dayNumber}',
-                            'နေ့ ${lesson.dayNumber}',
-                          ) +
-                          (lesson.isRecapDay
-                              ? _t(
-                                  context,
-                                  ' \u{1F3C6} Boss Level',
-                                  ' \u{1F3C6} ခေါင်းဆောင်အဆင့်',
-                                )
-                              : ''),
-                      style: theme.textTheme.labelMedium?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                        fontWeight: FontWeight.w700,
-                      ),
+              alignment: Alignment.center,
+              child: isLocked
+                  ? const Icon(
+                      Icons.lock_rounded,
+                      color: Colors.white,
+                      size: 22,
+                    )
+                  : isCompleted
+                  ? const Icon(
+                      Icons.check_rounded,
+                      color: Colors.white,
+                      size: 26,
+                    )
+                  : Icon(_kindIcon, color: Colors.white, size: 22),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    _t(
+                          context,
+                          'Day ${lesson.dayNumber}',
+                          'နေ့ ${lesson.dayNumber}',
+                        ) +
+                        (lesson.isRecapDay
+                            ? _t(
+                                context,
+                                ' \u{1F3C6} Boss Level',
+                                ' \u{1F3C6} ခေါင်းဆောင်အဆင့်',
+                              )
+                            : ''),
+                    style: theme.textTheme.labelMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                      fontWeight: FontWeight.w700,
                     ),
-                    Text(
-                      title,
-                      style: theme.textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w800,
-                      ),
+                  ),
+                  Text(
+                    title,
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              _XpChip(xp: lesson.xpReward),
-            ],
-          ),
+            ),
+            _XpChip(xp: lesson.xpReward),
+          ],
         ),
       ),
     );
