@@ -15,8 +15,19 @@ import '../features/lessons/course_pathway_week_screen.dart';
 import '../features/lessons/drag_match_screen.dart';
 import '../features/lessons/fill_in_blank_screen.dart';
 import '../features/lessons/nursery_activity_browser_screen.dart';
+import '../features/lessons/nursery_activity_kind.dart';
 import '../features/lessons/nursery_kg_activity_bank.dart';
+import '../features/lessons/nursery_kg_flashcards_bank.dart';
+import '../features/lessons/nursery_kg_listening_bank.dart';
+import '../features/lessons/nursery_kg_memory_bank.dart';
+import '../features/lessons/nursery_kg_rhymes_bank.dart';
+import '../features/lessons/nursery_kg_storytelling_bank.dart';
+import '../features/lessons/nursery_flashcards_screen.dart';
+import '../features/lessons/nursery_listening_screen.dart';
 import '../features/lessons/nursery_lesson_screen.dart';
+import '../features/lessons/nursery_memory_screen.dart';
+import '../features/lessons/nursery_rhymes_screen.dart';
+import '../features/lessons/nursery_storytelling_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
 import '../features/lessons/reading_screen.dart';
 import '../features/lessons/sorting_screen.dart';
@@ -42,11 +53,23 @@ class AppRoutes {
 
   static const lessonNursery = '/lesson/nursery';
 
-  /// Shown instead of jumping straight to [lessonNursery] whenever a
-  /// tapped Nursery/KG subject has 2+ authored activities for the child's
-  /// grade -- see `NurseryActivityBrowserScreen` and
-  /// `NurseryKgHomeScreen._openLesson`. Expects a
-  /// `(Grade, SubjectVisual, List<NurseryActivityDef>)` via `extra`.
+  /// The five newer Nursery/KG interactive widget types, alongside
+  /// [lessonNursery]'s original picture-matching game -- see
+  /// `NurseryActivityKind` and `nursery_activity_index.dart`'s
+  /// `allNurseryActivitySummaries()` for how a tapped subject resolves to
+  /// one of these.
+  static const lessonNurseryListening = '/lesson/nursery/listening';
+  static const lessonNurseryMemory = '/lesson/nursery/memory';
+  static const lessonNurseryFlashcards = '/lesson/nursery/flashcards';
+  static const lessonNurseryStory = '/lesson/nursery/story';
+  static const lessonNurseryRhymes = '/lesson/nursery/rhymes';
+
+  /// Shown instead of jumping straight to one of the lesson routes above
+  /// whenever a tapped Nursery/KG subject has 2+ authored activities
+  /// (of any kind) for the child's grade -- see
+  /// `NurseryActivityBrowserScreen` and `NurseryKgHomeScreen._openLesson`.
+  /// Expects a `(Grade, SubjectVisual, List<NurseryActivitySummary>)` via
+  /// `extra`.
   static const nurseryActivityBrowser = '/lesson/nursery/activities';
   static const lessonPrimaryQuiz = '/lesson/primary-quiz';
   static const lessonFillBlank = '/lesson/fill-blank';
@@ -177,10 +200,74 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         },
       ),
       GoRoute(
+        path: AppRoutes.lessonNurseryListening,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, NurseryListeningDef?)) {
+            final (subject, def) = extra;
+            return NurseryListeningScreen(
+              subjectLabel: subject.label,
+              def: def,
+            );
+          }
+          return const NurseryListeningScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonNurseryMemory,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, NurseryMemoryDef?)) {
+            final (subject, def) = extra;
+            return NurseryMemoryScreen(subjectLabel: subject.label, def: def);
+          }
+          return const NurseryMemoryScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonNurseryFlashcards,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, NurseryFlashcardsDef?)) {
+            final (subject, def) = extra;
+            return NurseryFlashcardsScreen(
+              subjectLabel: subject.label,
+              def: def,
+            );
+          }
+          return const NurseryFlashcardsScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonNurseryStory,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, NurseryStoryDef?)) {
+            final (subject, def) = extra;
+            return NurseryStorytellingScreen(
+              subjectLabel: subject.label,
+              def: def,
+            );
+          }
+          return const NurseryStorytellingScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonNurseryRhymes,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, NurseryRhymeDef?)) {
+            final (subject, def) = extra;
+            return NurseryRhymesScreen(subjectLabel: subject.label, def: def);
+          }
+          return const NurseryRhymesScreen();
+        },
+      ),
+      GoRoute(
         path: AppRoutes.nurseryActivityBrowser,
         builder: (context, state) {
           final extra = state.extra;
-          if (extra is (Grade, SubjectVisual, List<NurseryActivityDef>)) {
+          if (extra is (Grade, SubjectVisual, List<NurseryActivitySummary>)) {
             final (grade, subject, activities) = extra;
             return NurseryActivityBrowserScreen(
               grade: grade,

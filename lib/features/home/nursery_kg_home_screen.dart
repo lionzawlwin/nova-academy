@@ -13,7 +13,9 @@ import '../../models/child_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
-import '../lessons/nursery_kg_activity_bank.dart';
+import '../lessons/nursery_activity_index.dart';
+import '../lessons/nursery_kg_activity_bank.dart' show MatchPairItem;
+import '../lessons/open_nursery_activity.dart';
 import 'home_shared_widgets.dart';
 
 /// The Nursery/KG student home: as close to zero reading as a bilingual
@@ -164,15 +166,13 @@ class NurseryKgHomeScreen extends ConsumerWidget {
   }
 
   /// Looks up the real seeded module(s) for [grade]/[subject.subjectKey]
-  /// (see `nursery_kg_activity_bank.dart`) and either launches
-  /// [NurseryLessonScreen] directly (0 or exactly 1 match -- unchanged
-  /// behavior) or, when 2+ modules match, pushes
-  /// [NurseryActivityBrowserScreen] so the child can pick which one to
-  /// play instead of only ever reaching the first. Falls back to `null`
-  /// pairs (the lesson screen's own hardcoded fallback set) whenever no
-  /// matching module has been seeded yet -- e.g. no connected Firebase
-  /// project, or "Seed Demo Data" hasn't been run -- so a tile never shows
-  /// a dead end.
+  /// across every Nursery/KG activity bank -- picture-matching plus the
+  /// five newer widget types, via `allNurseryActivitySummaries()` -- and
+  /// either opens the matching lesson directly (0 or exactly 1 match --
+  /// [openNurseryActivity] itself handles the "0 match" fallback since it
+  /// tolerates a null/missing content lookup) or, when 2+ activities match
+  /// (of any kind), pushes [NurseryActivityBrowserScreen] so the child can
+  /// pick which one to play instead of only ever reaching the first.
   void _openLesson(
     BuildContext context,
     WidgetRef ref,
@@ -183,30 +183,39 @@ class NurseryKgHomeScreen extends ConsumerWidget {
         ? ref.read(learningModulesForGradeProvider(grade)).valueOrNull ??
               const []
         : ref.read(learningModulesProvider).valueOrNull ?? const [];
-    final match = allModules
+    final seededIds = allModules
         .where((m) => m.grade == grade && m.subject == subject.subjectKey)
-        .toList();
+        .map((m) => m.id)
+        .toSet();
 
-    if (match.length > 1) {
-      // `match` only ever contains modules for the requested `grade`, and
-      // `Grade` is non-nullable on `LearningModuleModel`, so a non-empty
-      // `match` guarantees `grade` itself was non-null here.
-      final defsById = {for (final def in nurseryKgActivityBank) def.id: def};
-      final activities = [
-        for (final module in match)
-          if (defsById[module.id] != null) defsById[module.id]!,
-      ];
-      if (activities.length > 1) {
-        context.push(
-          AppRoutes.nurseryActivityBrowser,
-          extra: (grade!, subject, activities),
-        );
-        return;
-      }
+    final activities = [
+      for (final summary in allNurseryActivitySummaries())
+        if (seededIds.contains(summary.id)) summary,
+    ];
+
+    if (activities.length > 1) {
+      // A non-empty `activities` list only ever contains entries for the
+      // requested `grade` (every summary's `grade` came from a seeded
+      // module filtered above by `m.grade == grade`), so `grade` itself is
+      // guaranteed non-null here.
+      context.push(
+        AppRoutes.nurseryActivityBrowser,
+        extra: (grade!, subject, activities),
+      );
+      return;
     }
 
-    final pairs = match.isEmpty ? null : matchPairsForModule(match.first.id);
-    context.push(AppRoutes.lessonNursery, extra: (subject, pairs));
+    if (activities.isEmpty) {
+      // No matching seeded module for this grade/subject yet -- fall back
+      // to the picture-matching screen's own hardcoded fallback set (via a
+      // `null` pairs extra) so a tile never shows a dead end, exactly the
+      // pre-existing behavior this replaces.
+      const List<MatchPairItem>? noPairs = null;
+      context.push(AppRoutes.lessonNursery, extra: (subject, noPairs));
+      return;
+    }
+
+    openNurseryActivity(context, activities.first, subject);
   }
 }
 

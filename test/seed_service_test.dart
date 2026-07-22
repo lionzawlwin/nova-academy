@@ -188,8 +188,8 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 82 modules', () {
-      expect(modules.length, 82);
+    test('has exactly 103 modules', () {
+      expect(modules.length, 103);
     });
 
     test('every module id is unique, including against legacy modules', () {

@@ -1,27 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../models/child_model.dart';
-import '../../routing/app_router.dart';
 import '../home/home_shared_widgets.dart';
-import 'nursery_kg_activity_bank.dart';
+import 'nursery_activity_kind.dart';
+import 'open_nursery_activity.dart';
 
-/// Shown when [NurseryKgHomeScreen] finds 2+ authored [NurseryActivityDef]s
-/// for the active child's grade + a tapped subject, instead of silently
-/// opening only the first one (see `NurseryKgHomeScreen._openLesson`'s doc
-/// comment for the reachability bug this closes). Presents every matching
-/// activity as its own big, bouncy tile so a child can pick which one to
-/// play.
+/// Shown when [NurseryKgHomeScreen] finds 2+ authored activities (of any
+/// [NurseryActivityKind]) for the active child's grade + a tapped subject,
+/// instead of silently opening only the first one (see
+/// `NurseryKgHomeScreen._openLesson`'s doc comment for the reachability bug
+/// this closes). Presents every matching activity as its own big, bouncy
+/// tile so a child can pick which one to play.
 ///
 /// Same zero-reading design language as the home screen's subject grid
 /// (see [NurseryKgHomeScreen]'s own doc comment): each tile carries meaning
-/// through a large representative emoji -- the tapped activity's first
-/// [MatchPairItem.emoji] -- plus one short bilingual title, never dense
-/// text. Tapping a tile pushes [AppRoutes.lessonNursery] with that
-/// activity's items, the exact same `(SubjectVisual, List<MatchPairItem>?)`
-/// tuple shape `_openLesson` already pushes for the single-module case.
+/// through its [NurseryActivitySummary.emoji] plus one short bilingual
+/// title, never dense text. Tapping a tile hands off to
+/// [openNurseryActivity], the same kind-dispatch routing helper
+/// `_openLesson` itself uses for the single-match case.
 class NurseryActivityBrowserScreen extends StatelessWidget {
   const NurseryActivityBrowserScreen({
     super.key,
@@ -37,8 +35,8 @@ class NurseryActivityBrowserScreen extends StatelessWidget {
 
   final SubjectVisual subject;
 
-  /// The matching activities for [grade] + [subject], in bank order.
-  final List<NurseryActivityDef> activities;
+  /// The matching activities for [grade] + [subject], in index order.
+  final List<NurseryActivitySummary> activities;
 
   @override
   Widget build(BuildContext context) {
@@ -69,12 +67,10 @@ class NurseryActivityBrowserScreen extends StatelessWidget {
                           color: subject.color,
                           languageCode: lc,
                           index: i,
-                          onTap: () => context.push(
-                            AppRoutes.lessonNursery,
-                            extra: (
-                              subject,
-                              matchPairsForModule(activities[i].id),
-                            ),
+                          onTap: () => openNurseryActivity(
+                            context,
+                            activities[i],
+                            subject,
                           ),
                         ),
                     ],
@@ -142,12 +138,12 @@ class _TopBar extends StatelessWidget {
 
 /// One giant, bouncy activity tile -- same 140x140 [CandyBevelSurface]
 /// footprint as [NurseryKgHomeScreen]'s `_NurseryTile`, but faced with the
-/// activity's own representative emoji (its first item's) instead of a
-/// fixed subject icon, plus a short bilingual title beneath it, since a
-/// child needs some way to tell same-subject activities apart. Drops in
-/// with a staggered elastic entrance so a row of new tiles feels alive
-/// rather than static, echoing the "bouncy" idle language used across the
-/// rest of the Nursery/KG tier.
+/// activity's own [NurseryActivitySummary.emoji] instead of a fixed subject
+/// icon, plus a short bilingual title beneath it, since a child needs some
+/// way to tell same-subject activities apart. Drops in with a staggered
+/// elastic entrance so a row of new tiles feels alive rather than static,
+/// echoing the "bouncy" idle language used across the rest of the
+/// Nursery/KG tier.
 class _ActivityTile extends StatefulWidget {
   const _ActivityTile({
     required this.activity,
@@ -157,7 +153,7 @@ class _ActivityTile extends StatefulWidget {
     required this.onTap,
   });
 
-  final NurseryActivityDef activity;
+  final NurseryActivitySummary activity;
   final Color color;
   final String languageCode;
   final int index;
@@ -199,10 +195,8 @@ class _ActivityTileState extends State<_ActivityTile>
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final activity = widget.activity;
-    final emoji = activity.items.isNotEmpty ? activity.items.first.emoji : '⭐';
-    final title = widget.languageCode == 'my'
-        ? activity.titleMy
-        : activity.titleEn;
+    final emoji = activity.emoji;
+    final title = activity.title(widget.languageCode);
 
     return AnimatedBuilder(
       animation: _entranceController,

@@ -2,7 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../features/lessons/drag_match_bank.dart';
 import '../../features/lessons/fill_in_blank_bank.dart';
-import '../../features/lessons/nursery_kg_activity_bank.dart';
+import '../../features/lessons/nursery_activity_index.dart';
+import '../../features/lessons/nursery_activity_kind.dart';
 import '../../features/lessons/primary_curriculum_bank.dart';
 import '../../features/lessons/secondary_curriculum_bank.dart';
 import '../../models/child_model.dart';
@@ -326,19 +327,22 @@ List<LearningModuleModel> mockSeedLearningModules() {
 }
 
 /// The Nursery + KG `LearningModules` documents [seedDatabase] writes,
-/// derived from [nurseryKgActivityBank] -- the actual playable content
-/// ([NurseryActivityDef.items]) is intentionally dropped here and never
-/// written to Firestore (see `docs/firestore_schema.md`'s "quiz question
-/// content lives in Dart, not Firestore" design note); only catalog
-/// metadata is persisted.
+/// derived from [allNurseryActivitySummaries] -- every bank across all six
+/// Nursery/KG widget types (picture-matching plus the five newer
+/// interactive kinds: Listening Comprehension, Memory Challenge, Digital
+/// Flashcards, Interactive Storytelling, Singing/Rhymes). The actual
+/// playable content (each bank's own `items`/`pairs`/`cards`/`pages`/
+/// `lines`) is intentionally dropped here and never written to Firestore
+/// (see `docs/firestore_schema.md`'s "quiz question content lives in Dart,
+/// not Firestore" design note); only catalog metadata is persisted.
 List<LearningModuleModel> mockSeedNurseryKgModules() {
   return [
-    for (final activity in nurseryKgActivityBank)
+    for (final activity in allNurseryActivitySummaries())
       LearningModuleModel(
         id: activity.id,
         subject: activity.subject,
         grade: activity.grade,
-        contentType: activity.contentType,
+        contentType: contentTypeForNurseryKind(activity.kind),
         titleEn: activity.titleEn,
         titleMy: activity.titleMy,
         descriptionEn: activity.descriptionEn,
