@@ -143,102 +143,99 @@ class _PathwayCardState extends ConsumerState<_PathwayCard>
           child: Opacity(opacity: _entranceController.value, child: child),
         );
       },
-      child: InkWell(
-        borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
+      child: CandyBevelSurface(
         onTap: () => context.push(
           AppRoutes.coursePathwayWeek,
           extra: ref.read(currentWeekForPathwayProvider(pathway)),
         ),
-        child: CandyBevelSurface(
-          faceColor: theme.colorScheme.surfaceContainerHigh,
-          bevelDepth: CandyBevelDepth.secondary,
-          borderRadius: AppTheme.radiusLarge,
-          border: Border.all(color: accent, width: 2),
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Container(
-                width: 48,
-                height: 48,
-                decoration: BoxDecoration(
-                  color: accent,
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: Icon(
-                  _iconForPathwaySubject(pathway.subject),
-                  color: Colors.white,
-                  size: 26,
-                ),
+        faceColor: theme.colorScheme.surfaceContainerHigh,
+        bevelDepth: CandyBevelDepth.secondary,
+        borderRadius: AppTheme.radiusLarge,
+        border: Border.all(color: accent, width: 2),
+        padding: const EdgeInsets.all(16),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                color: accent,
+                borderRadius: BorderRadius.circular(14),
               ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            lc == 'my' ? pathway.titleMy : pathway.titleEn,
-                            style: theme.textTheme.titleSmall?.copyWith(
-                              fontWeight: FontWeight.w800,
-                            ),
-                          ),
-                        ),
-                        Icon(
-                          Icons.chevron_right_rounded,
-                          color: theme.colorScheme.onSurfaceVariant,
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 2),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 4,
-                      crossAxisAlignment: WrapCrossAlignment.center,
-                      children: [
-                        Container(
-                          margin: const EdgeInsets.only(top: 2),
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 2,
-                          ),
-                          decoration: BoxDecoration(
-                            color: accent.withValues(alpha: 0.15),
-                            borderRadius: BorderRadius.circular(999),
-                          ),
-                          child: Text(
-                            gradeLabel(l10n, pathway.grade),
-                            style: theme.textTheme.labelSmall?.copyWith(
-                              color: accent,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                        ),
-                        _PathwayXpChip(xp: xp),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    _MiniProgressBar(
-                      fraction: authored / pathway.totalWeeks,
-                      color: accent,
-                    ),
-                    const SizedBox(height: 6),
-                    Text(
-                      l10n.homeCoursePathwayWeeksReady(
-                        authored,
-                        pathway.totalWeeks,
-                      ),
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.outline,
-                      ),
-                    ),
-                  ],
-                ),
+              child: Icon(
+                _iconForPathwaySubject(pathway.subject),
+                color: Colors.white,
+                size: 26,
               ),
-            ],
-          ),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          lc == 'my' ? pathway.titleMy : pathway.titleEn,
+                          style: theme.textTheme.titleSmall?.copyWith(
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                      Icon(
+                        Icons.chevron_right_rounded,
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 2),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 4,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    children: [
+                      Container(
+                        margin: const EdgeInsets.only(top: 2),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 2,
+                        ),
+                        decoration: BoxDecoration(
+                          color: accent.withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(999),
+                        ),
+                        child: Text(
+                          gradeLabel(l10n, pathway.grade),
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: accent,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                      _PathwayXpChip(xp: xp),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  _MiniProgressBar(
+                    fraction: authored / pathway.totalWeeks,
+                    color: accent,
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    l10n.homeCoursePathwayWeeksReady(
+                      authored,
+                      pathway.totalWeeks,
+                    ),
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.outline,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );
