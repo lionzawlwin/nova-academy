@@ -117645,9 +117645,50 @@ const CourseTermDef _year4EnglishTerm1 = CourseTermDef(
 /// teaches sequencing words that order a story's beginning, middle,
 /// and end; Week 12, the capstone ("The Nova School Storytelling
 /// Festival"), reuses every skill from Weeks 9-11 across festival
-/// stages. See [_year4EnglishTerm1], [_year4EnglishTerm2], and
-/// [_year4EnglishTerm3] for the week-by-week arc; further terms are
-/// still to be authored.
+/// stages. Term 4 (Reading Comprehension and Inference, Weeks 13-16)
+/// builds core comprehension skills: Week 13 teaches general reading
+/// strategies; Week 14 teaches making inferences from clues the text
+/// does not state directly; Week 15 teaches identifying the main idea
+/// and its supporting details; Week 16 closes the term with an
+/// end-of-term comprehension review. Term 5 (Grammar Foundations,
+/// Weeks 17-20) consolidates grammar: Week 17 teaches past, present,
+/// and future verb tenses; Week 18 teaches personal and possessive
+/// pronouns; Week 19 teaches conjunctions that connect ideas; Week 20
+/// closes the term by applying every grammar rule from Weeks 17-19 in
+/// writing. Term 6 (Poetry and Figurative Language, Weeks 21-24)
+/// teaches poetic craft: Week 21 teaches rhyme and rhythm through Ms.
+/// Thandar's class poem; Week 22 teaches similes through Tin's
+/// nervous-then-proud class presentation; Week 23 teaches alliteration
+/// and onomatopoeia through a noisy day on the Nova playground; Week
+/// 24, the capstone ("The Nova School Poetry Slam"), reuses every
+/// skill from Weeks 21-23 as Moe Moe, Nay Chi, and Tin each perform a
+/// poem on stage, closing with a synthesis question on how rhyme,
+/// similes, alliteration, and onomatopoeia work together to create
+/// feeling and vivid imagery. Term 7 (Non-fiction and Information
+/// Texts, Weeks 25-28) teaches informational writing: Week 25 teaches
+/// instructions through a how-to guide for making a paper fan; Week 26
+/// teaches reports and facts through a report on the Asian elephant;
+/// Week 27 teaches letters and messages through Nay Chi's letter to
+/// her grandmother; Week 28, the capstone ("The Nova School Newsletter
+/// Team"), reuses every skill from Weeks 25-27 to build a class
+/// newsletter, closing with a synthesis question on how instructions,
+/// reports, and letters each serve a different informational purpose.
+/// Term 8 (Persuasive and Opinion Writing, Weeks 29-32) teaches
+/// persuasive craft: Week 29 teaches stating an opinion with a reason
+/// through the class's favorite-subject debate; Week 30 teaches
+/// persuasive words through Tin's reading-club speech; Week 31 teaches
+/// posters and adverts through Nay Chi's book fair poster; Week 32,
+/// the capstone ("The Nova School Debate Day"), reuses every skill
+/// from Weeks 29-31 as the class debates whether students should have
+/// homework every day, closing with a synthesis question on how
+/// opinions, persuasive words, and slogans build a convincing
+/// argument. Term 9 (Founders' Day Book Festival, Weeks 33-36) closes
+/// the year with a celebration of reading and writing: Week 33 teaches
+/// book reviews; Week 34 teaches author studies; Week 35 is a
+/// storytelling showcase; Week 36, the year-end capstone ("Year 4
+/// English Capstone"), celebrates the whole year's learning at the
+/// Founders' Day Book Festival. See [_year4EnglishTerm1] through
+/// [_year4EnglishTerm9] for the week-by-week arc.
 const CoursePathwayDef year4EnglishPathway = CoursePathwayDef(
   id: "course-year4-english",
   subject: "english",
@@ -117655,11 +117696,21 @@ const CoursePathwayDef year4EnglishPathway = CoursePathwayDef(
   titleEn: "English — Year 4 Course",
   titleMy: "အင်္ဂလိပ်စာ — စတုတ္ထတန်း သင်တန်း",
   descriptionEn:
-      "The Year 4 English course opens with Term 1, Words and Sentences: Week 1 teaches the three core word jobs -- nouns name a person, place, or thing; verbs show an action or state of being; adjectives describe nouns -- through everyday sentences about Moe Moe, Nay Chi, and Tin. Week 2, Types of Sentences, teaches the four sentence types -- statements, questions, exclamations, and commands -- and the punctuation mark that ends each one, following Tin's own question game at lunchtime. Week 3, Building Better Sentences, layers in adverbs (words that describe how an action happens, often ending in \"-ly\") and the capitalization rules every sentence and every name must follow, illustrated through Ms. Thandar baking the best mango cake. Week 4, the term's capstone (\"The Nova School Word Wizards Fair\"), reuses every skill from Weeks 1-3 across a fair of word-game booths, closing with a synthesis question: words have different jobs, and how we choose and arrange them shapes the meaning and feeling of every sentence. Term 2, Vocabulary and Word Building, opens with Week 5, Synonyms and Antonyms: a synonym means the same as another word (\"happy\" and \"joyful\"), while an antonym means the opposite (\"hot\" and \"cold\"), explored through Nay Chi and Tin's twin word game. Week 6, Prefixes and Suffixes, teaches how adding \"un-\" (not/opposite) or \"re-\" (again) to the start of a word, or \"-ful\" (full of) or \"-less\" (without) to its end, builds a new related word, illustrated through Tin's broken kite being repaired. Week 7, Compound Words, teaches how two small words join to build one new word, like \"sun\" and \"flower\" making \"sunflower\", explored through a visit to the Nova School garden. Week 8, the term's capstone (\"The Nova School Word Builders Market\"), reuses every skill from Weeks 5-7 across three market stalls, closing with a synthesis question: words can be understood, combined, and reshaped to create new meanings. Term 3, Story Elements and Narrative Writing, opens with Week 9, Story Elements: every story has characters (the people or animals it is about), a setting (the time and place), and a plot (the main events), often built around a conflict, explored through Moe Moe's search for her lost library book. Week 10, Descriptive Writing, teaches the five senses -- sight, sound, smell, taste, and touch -- as tools for vivid description, illustrated through Tin's walk through the Nova market. Week 11, Story Sequencing, teaches sequencing words -- First, Next, Then, After that, Finally -- that order a story's beginning, middle, and end, following Nay Chi's garden project. Week 12, the term's capstone (\"The Nova School Storytelling Festival\"), reuses every skill from Weeks 9-11 across festival stages, closing with a synthesis question: a great story combines clear characters, settings, and events with vivid sensory details, told in a clear order from beginning to end.",
+      "The Year 4 English course opens with Term 1, Words and Sentences: Week 1 teaches the three core word jobs -- nouns name a person, place, or thing; verbs show an action or state of being; adjectives describe nouns -- through everyday sentences about Moe Moe, Nay Chi, and Tin. Week 2, Types of Sentences, teaches the four sentence types -- statements, questions, exclamations, and commands -- and the punctuation mark that ends each one, following Tin's own question game at lunchtime. Week 3, Building Better Sentences, layers in adverbs (words that describe how an action happens, often ending in \"-ly\") and the capitalization rules every sentence and every name must follow, illustrated through Ms. Thandar baking the best mango cake. Week 4, the term's capstone (\"The Nova School Word Wizards Fair\"), reuses every skill from Weeks 1-3 across a fair of word-game booths, closing with a synthesis question: words have different jobs, and how we choose and arrange them shapes the meaning and feeling of every sentence. Term 2, Vocabulary and Word Building, opens with Week 5, Synonyms and Antonyms: a synonym means the same as another word (\"happy\" and \"joyful\"), while an antonym means the opposite (\"hot\" and \"cold\"), explored through Nay Chi and Tin's twin word game. Week 6, Prefixes and Suffixes, teaches how adding \"un-\" (not/opposite) or \"re-\" (again) to the start of a word, or \"-ful\" (full of) or \"-less\" (without) to its end, builds a new related word, illustrated through Tin's broken kite being repaired. Week 7, Compound Words, teaches how two small words join to build one new word, like \"sun\" and \"flower\" making \"sunflower\", explored through a visit to the Nova School garden. Week 8, the term's capstone (\"The Nova School Word Builders Market\"), reuses every skill from Weeks 5-7 across three market stalls, closing with a synthesis question: words can be understood, combined, and reshaped to create new meanings. Term 3, Story Elements and Narrative Writing, opens with Week 9, Story Elements: every story has characters (the people or animals it is about), a setting (the time and place), and a plot (the main events), often built around a conflict, explored through Moe Moe's search for her lost library book. Week 10, Descriptive Writing, teaches the five senses -- sight, sound, smell, taste, and touch -- as tools for vivid description, illustrated through Tin's walk through the Nova market. Week 11, Story Sequencing, teaches sequencing words -- First, Next, Then, After that, Finally -- that order a story's beginning, middle, and end, following Nay Chi's garden project. Week 12, the term's capstone (\"The Nova School Storytelling Festival\"), reuses every skill from Weeks 9-11 across festival stages, closing with a synthesis question: a great story combines clear characters, settings, and events with vivid sensory details, told in a clear order from beginning to end. Term 4, Reading Comprehension and Inference, opens with Week 13, Reading Strategies, introducing general strategies for understanding a text. Week 14, Making Inferences, teaches how to read between the lines and draw conclusions from clues a text does not state directly. Week 15, Main Idea and Details, teaches how to identify a passage's core theme and the details that support it. Week 16, Comprehension Review, closes the term with an end-of-term reading assessment covering every strategy from Weeks 13-15. Term 5, Grammar Foundations, opens with Week 17, Verb Tenses, teaching how verbs change to show past, present, and future time. Week 18, Pronouns in Action, teaches personal and possessive pronouns. Week 19, Conjunctions, teaches how words like \"and,\" \"but,\" and \"because\" connect ideas. Week 20, Grammar Mastery, closes the term by applying every grammar rule from Weeks 17-19 in writing. Term 6, Poetry and Figurative Language, opens with Week 21, Rhyme and Rhythm: a rhyme is when words end with the same sound and rhythm is the pattern of beats in a poem, explored through Ms. Thandar's rhyming poem for the class. Week 22, Similes, teaches how a simile compares two things using \"like\" or \"as,\" illustrated through Tin's nervous-then-proud class presentation, feeling \"as ready as a champion\" and finishing \"as proud as a lion.\" Week 23, Alliteration and Onomatopoeia, teaches how alliteration repeats a starting sound and onomatopoeia imitates a sound, explored through a noisy day on the Nova playground full of buzzing bees and squeaking swings. Week 24, the term's capstone (\"The Nova School Poetry Slam\"), reuses every skill from Weeks 21-23 as Moe Moe, Nay Chi, and Tin each perform a poem on stage, closing with a synthesis question: rhyme gives a poem music, similes paint pictures in our minds, and alliteration with onomatopoeia bring sounds to life. Term 7, Non-fiction and Information Texts, opens with Week 25, Instructions and How-To Texts: sequencing words like \"First\" and \"Finally\" order the steps of a how-to guide, illustrated through Ms. Thandar teaching the class to make a paper fan. Week 26, Reports and Facts, teaches how a report organizes facts under headings, illustrated through a report on the Asian elephant's habitat, diet, and family life. Week 27, Letters and Messages, teaches the greeting, body, and closing of a friendly letter, illustrated through Nay Chi's letter to her grandmother about her exciting week at Nova School. Week 28, the term's capstone (\"The Nova School Newsletter Team\"), reuses every skill from Weeks 25-27 to build a class newsletter combining instructions, reports, and letters, closing with a synthesis question: each non-fiction text type has its own purpose for sharing information clearly. Term 8, Persuasive and Opinion Writing, opens with Week 29, Stating an Opinion: an opinion needs a clear reason to make it strong, illustrated through Moe Moe, Nay Chi, and Tin each sharing their favorite subject with a reason. Week 30, Persuasive Words, teaches words like \"should\" and \"must\" that convince a reader, illustrated through Tin's speech persuading classmates to join the Nova School Reading Club. Week 31, Posters and Adverts, teaches how a slogan and a call to action grab attention, illustrated through Nay Chi's poster for the Nova School Book Fair. Week 32, the term's capstone (\"The Nova School Debate Day\"), reuses every skill from Weeks 29-31 as Tin, Moe Moe, and Nay Chi debate whether students should have homework every day, closing with a synthesis question: opinions, persuasive words, and slogans work together to build a strong, convincing argument. Term 9, Founders' Day Book Festival, opens with Week 33, Book Reviews, teaching how to write a review of a book. Week 34, Author Studies, teaches how to research a favorite author's life and work. Week 35, Storytelling Showcase, gives every student a chance to present a creative narrative. Week 36, the year-end capstone (\"Year 4 English Capstone\"), celebrates the whole year's learning at the Founders' Day Book Festival, bringing every skill from Words and Sentences through Persuasive and Opinion Writing together in one final celebration.",
   descriptionMy:
-      "စတုတ္ထတန်း အင်္ဂလိပ်စာသင်တန်းသည် ပထမ Term၊ စကားလုံးများနှင့် ဝါကျများဖြင့် စတင်သည် -- Week 1 သည် မိုးမိုး၊ နေချည်နှင့် တင်တို့၏ နေ့စဉ်ဝါကျများမှတစ်ဆင့် အဓိက စကားလုံးတာဝန်သုံးမျိုးကို သင်ကြားသည် -- နာမ်သည် လူ၊ နေရာ (သို့) အရာဝတ္ထုကို အမည်တပ်ပြီး၊ ကြိယာသည် လုပ်ဆောင်ချက် (သို့) အခြေအနေတစ်ခုကို ပြသကာ၊ နာမဝိသေသနသည် နာမ်ကို ဖော်ပြသည်။ Week 2၊ ဝါကျအမျိုးအစားများသည် တင်၏ နေ့လယ်စာအချိန် မေးခွန်းဂိမ်းကို လိုက်၍ ဝါကျအမျိုးအစားလေးမျိုး -- ဖော်ပြဝါကျ၊ မေးခွန်းဝါကျ၊ အံ့သြဝါကျနှင့် အမိန့်ပေးဝါကျ -- နှင့် တစ်ခုစီကို အဆုံးသတ်သော ပုဒ်ဖြတ်ပုဒ်ရပ်ကို သင်ကြားသည်။ Week 3၊ ပိုမိုကောင်းမွန်သော ဝါကျများ တည်ဆောက်ခြင်းသည် ဆရာမ သန္တာ အကောင်းဆုံးသရက်သီးကိတ်မုန့် ဖုတ်ခြင်းကို ဥပမာပြု၍ ကြိယာဝိသေသနများ (လုပ်ဆောင်ချက် မည်သို့ဖြစ်ပေါ်သည်ကို ဖော်ပြပြီး မကြာခဏ \"-ly\" ဖြင့် အဆုံးသတ်သော စကားလုံးများ) နှင့် ဝါကျနှင့် အမည်တိုင်း လိုက်နာရမည့် စာလုံးအကြီးသုံးစွဲမှုစည်းမျဉ်းများကို ထပ်လောင်းသင်ကြားသည်။ Week 4၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးမှော်ဆရာ ပွဲတော်\") သည် Week 1 မှ 3 အထိ ကျွမ်းကျင်မှုအားလုံးကို စကားလုံးဂိမ်းဖျန်ရုံများပါသော ပွဲတော်တစ်ခုတွင် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများသည် မတူညီသော တာဝန်များ ရှိပြီး ၎င်းတို့ကို ရွေးချယ်၊ စီစဉ်ပုံက ဝါကျတိုင်း၏ အဓိပ္ပာယ်နှင့် ခံစားချက်ကို ပုံဖော်ပေးကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ ဒုတိယ Term၊ ဝေါဟာရနှင့် စကားလုံးတည်ဆောက်ခြင်းသည် နေချည်နှင့် တင်တို့၏ အမြွှာစကားလုံးဂိမ်းကို လိုက်၍ Week 5၊ အဓိပ္ပာယ်တူစကားလုံးနှင့် ဆန့်ကျင်ဘက်စကားလုံးများဖြင့် စတင်သည် -- အဓိပ္ပာယ်တူစကားလုံးသည် \"happy\" နှင့် \"joyful\" ကဲ့သို့ အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူပြီး၊ ဆန့်ကျင်ဘက်စကားလုံးသည် \"hot\" နှင့် \"cold\" ကဲ့သို့ ဆန့်ကျင်ဘက်ကို ဆိုလိုသည်။ Week 6၊ ရှေ့ဆက်နှင့် နောက်ဆက်များသည် တင်၏ ကျိုးပဲ့သွားသောလေယာဉ်ပုံစံလေးကို ပြင်ဆင်ခြင်းကို ဥပမာပြု၍ စကားလုံးတစ်လုံး၏ အစတွင် \"un-\" (မ.../ဆန့်ကျင်ဘက်) (သို့) \"re-\" (ထပ်၍) ထပ်ဆင့်ခြင်း၊ (သို့) အဆုံးတွင် \"-ful\" (ပြည့်နှက်) (သို့) \"-less\" (မရှိ) ထပ်ဆင့်ခြင်းက စကားလုံးဆက်စပ်သစ်တစ်ခုကို မည်သို့ တည်ဆောက်ပေးကြောင်း သင်ကြားသည်။ Week 7၊ ပေါင်းစပ်စကားလုံးများသည် Nova ကျောင်းဥယျာဉ်သို့ လည်ပတ်ခြင်းကို ဥပမာပြု၍ \"sun\" နှင့် \"flower\" ပေါင်းစပ်ကာ \"sunflower\" ဖြစ်လာသကဲ့သို့ စကားလုံးသေးလေးနှစ်လုံး ပေါင်းစပ်ကာ စကားလုံးသစ်တစ်လုံး မည်သို့တည်ဆောက်ကြောင်း သင်ကြားသည်။ Week 8၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးတည်ဆောက်သူများ ဈေးပွဲတော်\") သည် Week 5 မှ 7 အထိ ကျွမ်းကျင်မှုအားလုံးကို ဈေးပွဲဆိုင်ခန်းသုံးခုတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများကို နားလည်၊ ပေါင်းစပ်ပြီး အဓိပ္ပာယ်သစ်များ ဖန်တီးရန် ပြန်လည် ပုံဖော်နိုင်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ တတိယ Term၊ ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဇာတ်လမ်းရေးသားခြင်းသည် မိုးမိုး၏ ပျောက်ဆုံးနေသော စာကြည့်တိုက်စာအုပ်ကို ရှာဖွေခြင်းကို ဥပမာပြု၍ Week 9၊ ဇာတ်လမ်းအစိတ်အပိုင်းများဖြင့် စတင်သည် -- ဇာတ်လမ်းတိုင်းတွင် ဇာတ်ကောင်များ (ဇာတ်လမ်း ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များ)၊ နောက်ခံအခင်းအကျင်း (အချိန်နှင့်နေရာ) နှင့် ဇာတ်ကြောင်း (အဓိကဖြစ်ရပ်များ) ရှိပြီး၊ မကြာခဏ ပြဿနာ (conflict) ပတ်လည် တည်ဆောက်လေ့ရှိသည်။ Week 10၊ ဖော်ပြရေးသားခြင်းသည် တင်၏ Nova ဈေးထဲ လမ်းလျှောက်ခြင်းကို ဥပမာပြု၍ ကြွယ်ဝသော ဖော်ပြချက်အတွက် အာရုံငါးမျိုး -- အမြင်၊ အကြား၊ အနံ့၊ အရသာနှင့် အထိအတွေ့ -- ကို သင်ကြားသည်။ Week 11၊ ဇာတ်လမ်း အစီအစဉ်ဆက်ခြင်းသည် နေချည်၏ ဥယျာဉ်စီမံကိန်းကို လိုက်၍ ဇာတ်လမ်း၏ အစ၊ အလယ်နှင့် အဆုံးကို စီစဉ်ပေးသော စီစဉ်စကားလုံးများ -- First, Next, Then, After that, Finally -- ကို သင်ကြားသည်။ Week 12၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်\") သည် Week 9 မှ 11 အထိ ကျွမ်းကျင်မှုအားလုံးကို ပွဲတော်စင်မြင့်များတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ ကောင်းမွန်သောဇာတ်လမ်းတစ်ပုဒ်သည် ကွက်ကွင်းထင်ရှားသော ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဖြစ်ရပ်များကို ကွက်ကွင်းထင်ရှားသော အာရုံဆိုင်ရာ အသေးစိတ်များနှင့် ပေါင်းစပ်ကာ အစမှအဆုံးအထိ ရှင်းလင်းသော အစီအစဉ်ဖြင့် ပြောပြခြင်းဖြစ်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။",
+      "စတုတ္ထတန်း အင်္ဂလိပ်စာသင်တန်းသည် ပထမ Term၊ စကားလုံးများနှင့် ဝါကျများဖြင့် စတင်သည် -- Week 1 သည် မိုးမိုး၊ နေချည်နှင့် တင်တို့၏ နေ့စဉ်ဝါကျများမှတစ်ဆင့် အဓိက စကားလုံးတာဝန်သုံးမျိုးကို သင်ကြားသည် -- နာမ်သည် လူ၊ နေရာ (သို့) အရာဝတ္ထုကို အမည်တပ်ပြီး၊ ကြိယာသည် လုပ်ဆောင်ချက် (သို့) အခြေအနေတစ်ခုကို ပြသကာ၊ နာမဝိသေသနသည် နာမ်ကို ဖော်ပြသည်။ Week 2၊ ဝါကျအမျိုးအစားများသည် တင်၏ နေ့လယ်စာအချိန် မေးခွန်းဂိမ်းကို လိုက်၍ ဝါကျအမျိုးအစားလေးမျိုး -- ဖော်ပြဝါကျ၊ မေးခွန်းဝါကျ၊ အံ့သြဝါကျနှင့် အမိန့်ပေးဝါကျ -- နှင့် တစ်ခုစီကို အဆုံးသတ်သော ပုဒ်ဖြတ်ပုဒ်ရပ်ကို သင်ကြားသည်။ Week 3၊ ပိုမိုကောင်းမွန်သော ဝါကျများ တည်ဆောက်ခြင်းသည် ဆရာမ သန္တာ အကောင်းဆုံးသရက်သီးကိတ်မုန့် ဖုတ်ခြင်းကို ဥပမာပြု၍ ကြိယာဝိသေသနများ (လုပ်ဆောင်ချက် မည်သို့ဖြစ်ပေါ်သည်ကို ဖော်ပြပြီး မကြာခဏ \"-ly\" ဖြင့် အဆုံးသတ်သော စကားလုံးများ) နှင့် ဝါကျနှင့် အမည်တိုင်း လိုက်နာရမည့် စာလုံးအကြီးသုံးစွဲမှုစည်းမျဉ်းများကို ထပ်လောင်းသင်ကြားသည်။ Week 4၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးမှော်ဆရာ ပွဲတော်\") သည် Week 1 မှ 3 အထိ ကျွမ်းကျင်မှုအားလုံးကို စကားလုံးဂိမ်းဖျန်ရုံများပါသော ပွဲတော်တစ်ခုတွင် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများသည် မတူညီသော တာဝန်များ ရှိပြီး ၎င်းတို့ကို ရွေးချယ်၊ စီစဉ်ပုံက ဝါကျတိုင်း၏ အဓိပ္ပာယ်နှင့် ခံစားချက်ကို ပုံဖော်ပေးကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ ဒုတိယ Term၊ ဝေါဟာရနှင့် စကားလုံးတည်ဆောက်ခြင်းသည် နေချည်နှင့် တင်တို့၏ အမြွှာစကားလုံးဂိမ်းကို လိုက်၍ Week 5၊ အဓိပ္ပာယ်တူစကားလုံးနှင့် ဆန့်ကျင်ဘက်စကားလုံးများဖြင့် စတင်သည် -- အဓိပ္ပာယ်တူစကားလုံးသည် \"happy\" နှင့် \"joyful\" ကဲ့သို့ အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူပြီး၊ ဆန့်ကျင်ဘက်စကားလုံးသည် \"hot\" နှင့် \"cold\" ကဲ့သို့ ဆန့်ကျင်ဘက်ကို ဆိုလိုသည်။ Week 6၊ ရှေ့ဆက်နှင့် နောက်ဆက်များသည် တင်၏ ကျိုးပဲ့သွားသောလေယာဉ်ပုံစံလေးကို ပြင်ဆင်ခြင်းကို ဥပမာပြု၍ စကားလုံးတစ်လုံး၏ အစတွင် \"un-\" (မ.../ဆန့်ကျင်ဘက်) (သို့) \"re-\" (ထပ်၍) ထပ်ဆင့်ခြင်း၊ (သို့) အဆုံးတွင် \"-ful\" (ပြည့်နှက်) (သို့) \"-less\" (မရှိ) ထပ်ဆင့်ခြင်းက စကားလုံးဆက်စပ်သစ်တစ်ခုကို မည်သို့ တည်ဆောက်ပေးကြောင်း သင်ကြားသည်။ Week 7၊ ပေါင်းစပ်စကားလုံးများသည် Nova ကျောင်းဥယျာဉ်သို့ လည်ပတ်ခြင်းကို ဥပမာပြု၍ \"sun\" နှင့် \"flower\" ပေါင်းစပ်ကာ \"sunflower\" ဖြစ်လာသကဲ့သို့ စကားလုံးသေးလေးနှစ်လုံး ပေါင်းစပ်ကာ စကားလုံးသစ်တစ်လုံး မည်သို့တည်ဆောက်ကြောင်း သင်ကြားသည်။ Week 8၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးတည်ဆောက်သူများ ဈေးပွဲတော်\") သည် Week 5 မှ 7 အထိ ကျွမ်းကျင်မှုအားလုံးကို ဈေးပွဲဆိုင်ခန်းသုံးခုတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများကို နားလည်၊ ပေါင်းစပ်ပြီး အဓိပ္ပာယ်သစ်များ ဖန်တီးရန် ပြန်လည် ပုံဖော်နိုင်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ တတိယ Term၊ ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဇာတ်လမ်းရေးသားခြင်းသည် မိုးမိုး၏ ပျောက်ဆုံးနေသော စာကြည့်တိုက်စာအုပ်ကို ရှာဖွေခြင်းကို ဥပမာပြု၍ Week 9၊ ဇာတ်လမ်းအစိတ်အပိုင်းများဖြင့် စတင်သည် -- ဇာတ်လမ်းတိုင်းတွင် ဇာတ်ကောင်များ (ဇာတ်လမ်း ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များ)၊ နောက်ခံအခင်းအကျင်း (အချိန်နှင့်နေရာ) နှင့် ဇာတ်ကြောင်း (အဓိကဖြစ်ရပ်များ) ရှိပြီး၊ မကြာခဏ ပြဿနာ (conflict) ပတ်လည် တည်ဆောက်လေ့ရှိသည်။ Week 10၊ ဖော်ပြရေးသားခြင်းသည် တင်၏ Nova ဈေးထဲ လမ်းလျှောက်ခြင်းကို ဥပမာပြု၍ ကြွယ်ဝသော ဖော်ပြချက်အတွက် အာရုံငါးမျိုး -- အမြင်၊ အကြား၊ အနံ့၊ အရသာနှင့် အထိအတွေ့ -- ကို သင်ကြားသည်။ Week 11၊ ဇာတ်လမ်း အစီအစဉ်ဆက်ခြင်းသည် နေချည်၏ ဥယျာဉ်စီမံကိန်းကို လိုက်၍ ဇာတ်လမ်း၏ အစ၊ အလယ်နှင့် အဆုံးကို စီစဉ်ပေးသော စီစဉ်စကားလုံးများ -- First, Next, Then, After that, Finally -- ကို သင်ကြားသည်။ Week 12၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်\") သည် Week 9 မှ 11 အထိ ကျွမ်းကျင်မှုအားလုံးကို ပွဲတော်စင်မြင့်များတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ ကောင်းမွန်သောဇာတ်လမ်းတစ်ပုဒ်သည် ကွက်ကွင်းထင်ရှားသော ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဖြစ်ရပ်များကို ကွက်ကွင်းထင်ရှားသော အာရုံဆိုင်ရာ အသေးစိတ်များနှင့် ပေါင်းစပ်ကာ အစမှအဆုံးအထိ ရှင်းလင်းသော အစီအစဉ်ဖြင့် ပြောပြခြင်းဖြစ်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ စတုတ္ထ Term၊ စာဖတ်နားလည်မှုနှင့် ကောက်ချက်ချခြင်းသည် စာသားတစ်ခုကို နားလည်ရန် ယေဘုယျ နည်းဗျူဟာများကို မိတ်ဆက်ပေးသော Week 13၊ စာဖတ်ခြင်း နည်းဗျူဟာများဖြင့် စတင်သည်။ Week 14၊ ကောက်ချက်ချခြင်းသည် စာသားတွင် တိုက်ရိုက်မဖော်ပြထားသော အချက်များမှ ကောက်ချက်ချကာ စာသားများကြားရှိ သွယ်ဝိုက်သော အဓိပ္ပာယ်ကို ဖတ်တတ်စေသည်။ Week 15၊ အဓိက အကြောင်းအရာနှင့် အသေးစိတ်များသည် စာပိုဒ်တစ်ခု၏ အဓိက အကြောင်းအရာနှင့် ၎င်းကို ထောက်ခံသော အသေးစိတ်များကို ရှာဖွေဖော်ထုတ်နည်းကို သင်ကြားသည်။ Week 16၊ စာဖတ်စွမ်းရည် ပြန်လည်သုံးသပ်ခြင်းသည် Week 13 မှ 15 အထိ နည်းဗျူဟာအားလုံးကို လွှမ်းခြုံသော ဥတုအဆုံး စာဖတ်စွမ်းရည် စစ်ဆေးမှုဖြင့် Term ကို ပြီးဆုံးစေသည်။ ပဉ္စမ Term၊ သဒ္ဒါ အခြေခံများသည် ကြိယာများသည် အတိတ်၊ ပစ္စုပ္ပန်နှင့် အနာဂတ် အချိန်ကို ပြသရန် မည်သို့ပြောင်းလဲကြောင်း သင်ကြားသော Week 17၊ ကြိယာ ကာလများဖြင့် စတင်သည်။ Week 18၊ နာမ်စားများ အသုံးပြုခြင်းသည် ပုဂ္ဂလနှင့် ပိုင်ဆိုင်မှုပြ နာမ်စားများကို သင်ကြားသည်။ Week 19၊ စကားဆက်များသည် \"and\"၊ \"but\" နှင့် \"because\" ကဲ့သို့သော စကားလုံးများက အယူအဆများကို မည်သို့ ချိတ်ဆက်ကြောင်း သင်ကြားသည်။ Week 20၊ သဒ္ဒါ ကျွမ်းကျင်မှုသည် Week 17 မှ 19 အထိ သဒ္ဒါစည်းမျဉ်းအားလုံးကို အရေးအသားတွင် အသုံးချခြင်းဖြင့် Term ကို ပြီးဆုံးစေသည်။ ဆဋ္ဌမ Term၊ ကဗျာနှင့် တင်စားချက် ဘာသာစကားသည် ဆရာမ သန္တာ၏ အတန်းသားများအတွက် ကာရန်ကဗျာကို ဥပမာပြု၍ ကာရန်ဆိုသည်မှာ အဆုံးသတ်အသံ တူညီသော စကားလုံးများဖြစ်ပြီး စည်းချက်ဆိုသည်မှာ ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ပုံစံဖြစ်ကြောင်း Week 21၊ ကာရန်နှင့် စည်းချက်ဖြင့် စတင်သည်။ Week 22၊ ဥပမာနှိုင်းယှဉ်ချက်များသည် \"as ready as a champion\" ခံစားရင်း \"as proud as a lion\" ဖြင့် ပြီးဆုံးခဲ့သော တင်၏ စိတ်လှုပ်ရှားစွာမှ ဂုဏ်ယူသို့ ပြောင်းလဲသွားသော အတန်းရှေ့ တင်ပြမှုကို ဥပမာပြု၍ Simile သည် \"like\" (သို့) \"as\" ကို သုံး၍ နှစ်ခုသောအရာများကို မည်သို့နှိုင်းယှဉ်ကြောင်း သင်ကြားသည်။ Week 23၊ အသံဆင်ခြင်းနှင့် အသံတုသည် ပျားများ ဗုန်းခနဲအသံပြုခြင်းနှင့် ဒရိုင်းစင်များ ကြိတ်ခနဲအသံပြုခြင်းတို့နှင့် ပြည့်နှက်နေသော Nova ကစားကွင်း၏ ဆူညံနေသောနေ့ကို ဥပမာပြု၍ အသံဆင်ခြင်းသည် အစသံကို ထပ်ခါထပ်ခါ သုံးခြင်းဖြစ်ပြီး အသံတုသည် အသံကို အတုယူခြင်းဖြစ်ကြောင်း သင်ကြားသည်။ Week 24၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း ကဗျာပြိုင်ပွဲ\") သည် Week 21 မှ 23 အထိ ကျွမ်းကျင်မှုအားလုံးကို မိုးမိုး၊ နေချည်နှင့် တင်တို့ စင်မြင့်ပေါ်တွင် ကဗျာတစ်ပုဒ်စီ တင်ဆက်ခြင်းဖြင့် ပြန်လည်အသုံးချပြီး၊ ကာရန်က ကဗျာကို တေးဂီတဖြစ်စေပြီး ဥပမာနှိုင်းယှဉ်ချက်များက စိတ်ထဲတွင် ပုံရိပ်ဆွဲပေးကာ အသံဆင်ခြင်းနှင့် အသံတုတို့က အသံများကို အသက်ဝင်စေကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ သတ္တမ Term၊ အချက်အလက်ပေးသော စာပေများသည် ဆရာမ သန္တာက အတန်းသားများကို စက္ကူပန်ကာ ပြုလုပ်ပုံ သင်ကြားခြင်းကို ဥပမာပြု၍ \"First\" နှင့် \"Finally\" ကဲ့သို့သော အစီအစဉ်စကားလုံးများသည် ပြုလုပ်နည်းလမ်းညွှန်တစ်ခု၏ အဆင့်များကို မည်သို့ စီစဉ်ပေးကြောင်း Week 25၊ ညွှန်ကြားချက်နှင့် ပြုလုပ်နည်းစာများဖြင့် စတင်သည်။ Week 26၊ အစီရင်ခံစာနှင့် အချက်အလက်များသည် အာရှဆင်၏ နေထိုင်ရာဒေသ၊ အစားအစာနှင့် မိသားစုဘဝအကြောင်း အစီရင်ခံစာကို ဥပမာပြု၍ အစီရင်ခံစာတစ်ခုသည် ခေါင်းစဉ်များအောက်တွင် အချက်အလက်များကို မည်သို့ စီစဉ်ကြောင်း သင်ကြားသည်။ Week 27၊ စာများနှင့် သတင်းစကားများသည် Nova ကျောင်းတွင် ဖြစ်ခဲ့သော စိတ်လှုပ်ရှားစရာ အပတ်အကြောင်း နေချည် အဖွားထံ ရေးသားသော စာကို ဥပမာပြု၍ ရင်းနှီးသော စာတစ်စောင်၏ နှုတ်ခွန်းဆက်ခြင်း၊ အကြောင်းအရာနှင့် အဆုံးသတ်ကို သင်ကြားသည်။ Week 28၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း သတင်းလွှာအဖွဲ့\") သည် Week 25 မှ 27 အထိ ကျွမ်းကျင်မှုအားလုံးကို ညွှန်ကြားချက်၊ အစီရင်ခံစာနှင့် စာများ ပေါင်းစပ်ထားသော အတန်း သတင်းလွှာတစ်ခု တည်ဆောက်ခြင်းဖြင့် ပြန်လည်အသုံးချပြီး၊ အချက်အလက်ပေးသော စာပေအမျိုးအစားတစ်ခုစီသည် အချက်အလက်များကို ရှင်းလင်းစွာ မျှဝေရန် မိမိ၏ ကိုယ်ပိုင်ရည်ရွယ်ချက် ရှိကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ အဋ္ဌမ Term၊ ဆွဲဆောင်ရေးသားခြင်းနှင့် ထင်မြင်ချက်ရေးသားခြင်းသည် မိုးမိုး၊ နေချည်နှင့် တင်တို့ အသီးသီး အကြောင်းပြချက်နှင့်တကွ သူတို့အကြိုက်ဆုံးဘာသာရပ်ကို မျှဝေခြင်းကို ဥပမာပြု၍ ထင်မြင်ချက်တစ်ခုကို ခိုင်မာစေရန် ရှင်းလင်းသော အကြောင်းပြချက် လိုအပ်ကြောင်း Week 29၊ ထင်မြင်ချက် ဖော်ပြခြင်းဖြင့် စတင်သည်။ Week 30၊ ဆွဲဆောင်စကားလုံးများသည် Nova ကျောင်း စာဖတ်ကလပ်သို့ ဝင်ရောက်ရန် အတန်းဖော်များကို ဆွဲဆောင်နေသော တင်၏ မိန့်ခွန်းကို ဥပမာပြု၍ \"should\" နှင့် \"must\" ကဲ့သို့သော စာဖတ်သူကို ဆွဲဆောင်စေသော စကားလုံးများကို သင်ကြားသည်။ Week 31၊ ပိုစတာများနှင့် ကြော်ငြာများသည် Nova ကျောင်း စာအုပ်ပွဲတော်အတွက် နေချည်၏ ပိုစတာကို ဥပမာပြု၍ ဆောင်ပုဒ်နှင့် လုပ်ဆောင်ရန် ဖိတ်ခေါ်ချက်တစ်ခုသည် အာရုံစိုက်မှုကို မည်သို့ ဆွဲဆောင်ကြောင်း သင်ကြားသည်။ Week 32၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားပြိုင်ပွဲနေ့\") သည် Week 29 မှ 31 အထိ ကျွမ်းကျင်မှုအားလုံးကို တင်၊ မိုးမိုးနှင့် နေချည်တို့ ကျောင်းသားများ နေ့စဉ် အိမ်စာ ရှိသင့်၊ မရှိသင့် ငြင်းခုံခြင်းဖြင့် ပြန်လည်အသုံးချပြီး၊ ထင်မြင်ချက်များ၊ ဆွဲဆောင်စကားလုံးများနှင့် ဆောင်ပုဒ်များသည် ခိုင်မာသော ဆွဲဆောင်ချက်ရှိသော အငြင်းအခုံတစ်ခုကို တည်ဆောက်ရန် အတူတကွ အလုပ်လုပ်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ နဝမ Term၊ ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်သည် စာအုပ်တစ်အုပ်ကို သုံးသပ်ချက်ရေးနည်းကို သင်ကြားသော Week 33၊ စာအုပ် သုံးသပ်ချက်များဖြင့် စတင်သည်။ Week 34၊ စာရေးဆရာများအကြောင်း လေ့လာခြင်းသည် အကြိုက်ဆုံးစာရေးဆရာတစ်ဦး၏ ဘဝနှင့် လက်ရာများကို သုတေသနပြုနည်းကို သင်ကြားသည်။ Week 35၊ ပုံပြင်ပြောပြမှု ပြပွဲသည် ကျောင်းသားတိုင်းအား ဖန်တီးမှုရှိသော ပုံပြင်တစ်ပုဒ် တင်ဆက်ရန် အခွင့်အရေးပေးသည်။ Week 36၊ နှစ်ဆုံး အနှစ်ချုပ် (\"Year 4 English Capstone\") သည် စကားလုံးများနှင့် ဝါကျများမှ ဆွဲဆောင်ရေးသားခြင်းနှင့် ထင်မြင်ချက်ရေးသားခြင်းအထိ ကျွမ်းကျင်မှုအားလုံးကို ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်တွင် အတူတကွ ယူဆောင်လာကာ နှစ်တစ်နှစ်လုံး၏ သင်ယူမှုအားလုံးကို အထူးအခမ်းအနားဖြင့် ကျင်းပသည်။",
   totalWeeks: 36,
-  terms: [_year4EnglishTerm1, _year4EnglishTerm2, _year4EnglishTerm3],
+  terms: [
+    _year4EnglishTerm1,
+    _year4EnglishTerm2,
+    _year4EnglishTerm3,
+    _year4EnglishTerm4,
+    _year4EnglishTerm5,
+    _year4EnglishTerm6,
+    _year4EnglishTerm7,
+    _year4EnglishTerm8,
+    _year4EnglishTerm9,
+  ],
 );
 
 // =====================================================================
@@ -120846,5 +120897,10977 @@ const CourseTermDef _year4EnglishTerm3 = CourseTermDef(
     _year4EnglishWeek10,
     _year4EnglishWeek11,
     _year4EnglishWeek12,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 4, Week 13: "Reading Strategies"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek13 = CourseWeekDef(
+  id: "course-year4-english-w13",
+  weekNumber: 13,
+  titleEn: "Reading Strategies",
+  titleMy: "စာဖတ်ခြင်း နည်းဗျူဟာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w13-d1",
+      dayNumber: 1,
+      titleEn: "Skim, Scan, and Predict",
+      titleMy: "Skim ဖတ်ခြင်း၊ Scan ဖတ်ခြင်းနှင့် ခန့်မှန်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Looking quickly at the title and pictures to guess what a text is about is called...",
+          questionMy:
+              "စာသားတစ်ခု ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းရန် ခေါင်းစဉ်နှင့် ပုံများကို လျင်မြန်စွာ ကြည့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["predicting", "skimming", "scanning", "inferring"],
+          optionsMy: ["predicting", "skimming", "scanning", "inferring"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reading quickly through a whole page just to get the general idea is called...",
+          questionMy:
+              "စာမျက်နှာတစ်ခုလုံးကို ယေဘုယျအကြောင်းအရာ ရယူရန်အတွက်သာ လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "reviewing"],
+          optionsMy: ["skimming", "scanning", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking quickly for one specific piece of information, like a date or a name, is called...",
+          questionMy:
+              "ရက်စွဲ (သို့) အမည်ကဲ့သို့သော တိကျသည့် အချက်အလက်တစ်ခုကို လျင်မြန်စွာ ရှာဖွေခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "guessing"],
+          optionsMy: ["scanning", "skimming", "predicting", "guessing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which reading strategy would help you find the year a book was published, fast?",
+          questionMy:
+              "စာအုပ်တစ်အုပ် ထုတ်ဝေသည့်နှစ်ကို မြန်မြန်ရှာရန် ဘယ်စာဖတ်နည်းဗျူဟာက ကူညီပေးမည်နည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "none of these"],
+          optionsMy: ["scanning", "skimming", "predicting", "none of these"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which reading strategy helps you get the general idea of a whole chapter quickly?",
+          questionMy:
+              "အခန်းတစ်ခုလုံး၏ ယေဘုယျအကြောင်းအရာကို လျင်မြန်စွာ ရယူရန် ဘယ်နည်းဗျူဟာက ကူညီပေးမည်နည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "spelling"],
+          optionsMy: ["skimming", "scanning", "predicting", "spelling"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking at a book's cover and asking \"What do I think this story is about?\" uses which strategy?",
+          questionMy:
+              "စာအုပ်၏ အုပ်ဖုံးကို ကြည့်ပြီး \"ဒီဇာတ်လမ်း ဘာအကြောင်းလဲ\" ဟု မိမိကိုယ်ကို မေးခြင်းသည် ဘယ်နည်းဗျူဟာကို အသုံးပြုသနည်း။",
+          optionsEn: ["predicting", "scanning", "skimming", "none of these"],
+          optionsMy: ["predicting", "scanning", "skimming", "none of these"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Good readers use reading strategies mainly to...",
+          questionMy:
+              "စာဖတ်ကောင်းသူများသည် စာဖတ်နည်းဗျူဟာများကို အဓိကအားဖြင့် ဘာအတွက် အသုံးပြုကြသနည်း။",
+          optionsEn: [
+            "understand a text better and faster",
+            "make the book longer",
+            "avoid reading pictures",
+            "skip the ending",
+          ],
+          optionsMy: [
+            "understand a text better and faster",
+            "make the book longer",
+            "avoid reading pictures",
+            "skip the ending",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If you want to find just the word \"elephant\" in a long article, which strategy helps most?",
+          questionMy:
+              "ရေးသားချက်ရှည်ကြီးတစ်ခုထဲမှ \"elephant\" ဟူသော စကားလုံးတစ်လုံးတည်းကိုသာ ရှာဖွေလိုလျှင် ဘယ်နည်းဗျူဟာက အထောက်အကူဆုံးဖြစ်မည်နည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "none of these"],
+          optionsMy: ["scanning", "skimming", "predicting", "none of these"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match the Reading Strategy",
+      titleMy: "စာဖတ်နည်းဗျူဟာကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w13-dm-1",
+          termEn: "Skimming",
+          termMy: "Skimming",
+          matchEn: "Reading quickly to get the general idea of a text",
+          matchMy: "စာသားတစ်ခု၏ ယေဘုယျအကြောင်းအရာကို ရယူရန် လျင်မြန်စွာ ဖတ်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-2",
+          termEn: "Scanning",
+          termMy: "Scanning",
+          matchEn:
+              "Reading quickly to find one specific piece of information",
+          matchMy: "တိကျသည့် အချက်အလက်တစ်ခုကို ရှာရန် လျင်မြန်စွာ ဖတ်ခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-3",
+          termEn: "Predicting",
+          termMy: "Predicting",
+          matchEn: "Guessing what a text is about before reading it",
+          matchMy: "မဖတ်မီ စာသားတစ်ခု ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းခြင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-4",
+          termEn: "Title",
+          termMy: "Title",
+          matchEn: "The name of a book or text, often a clue to what it's about",
+          matchMy: "စာအုပ် (သို့) စာသား၏ အမည်၊ မကြာခဏ ဘာအကြောင်းလဲဆိုသည့် အရိပ်အမြွက်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-5",
+          termEn: "Table of Contents",
+          termMy: "Table of Contents",
+          matchEn:
+              "A list at the front of a book showing chapter names and page numbers",
+          matchMy: "အခန်းအမည်များနှင့် စာမျက်နှာနံပါတ်များကို ပြသော စာအုပ်ရှေ့ပိုင်းရှိ စာရင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-6",
+          termEn: "Heading",
+          termMy: "Heading",
+          matchEn: "A short label that tells you what a section is about",
+          matchMy: "အပိုင်းတစ်ခု ဘာအကြောင်းလဲဆိုတာ ပြောပြသော ခေါင်းစဉ်တို",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-7",
+          termEn: "Picture Clues",
+          termMy: "Picture Clues",
+          matchEn: "Illustrations that give hints about the story or information",
+          matchMy: "ဇာတ်လမ်း (သို့) အချက်အလက်အကြောင်း အရိပ်အမြွက်ပေးသော ပုံများ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w13-dm-8",
+          termEn: "Reviewing",
+          termMy: "Reviewing",
+          matchEn: "Looking back over a text after reading to check understanding",
+          matchMy: "နားလည်မှုကို စစ်ဆေးရန် ဖတ်ပြီးနောက် စာသားကို ပြန်လှန်ကြည့်ခြင်း",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w13-d3",
+      dayNumber: 3,
+      titleEn: "Tin's Library Mission",
+      titleMy: "တင်၏ စာကြည့်တိုက် တာဝန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tin's Library Mission",
+        titleMy: "တင်၏ စာကြည့်တိုက် တာဝန်",
+        passageEn:
+            "At the Nova School library, Tin had one homework question to answer: In which country is the tallest volcano in the world? He did not have time to read the whole book about volcanoes. First, he looked at the cover and the chapter titles and predicted that the chapter called \"Volcanoes Around the World\" would help him. Then he skimmed through that chapter quickly to get the general idea of what it covered. Finally, he scanned the pages carefully, moving his eyes fast until he spotted the word \"tallest\" in bold letters. He found his answer in less than five minutes! Ms. Thandar smiled and said, \"That's exactly how good readers save time -- predict first, skim for the idea, then scan for the exact detail you need.\"",
+        passageMy:
+            "Nova ကျောင်း စာကြည့်တိုက်တွင် တင်၌ ဖြေရမည့် အိမ်စာမေးခွန်းတစ်ခု ရှိခဲ့သည် -- ကမ္ဘာပေါ်တွင် အမြင့်ဆုံး မီးတောင်သည် ဘယ်နိုင်ငံတွင် ရှိသနည်း။ သူ့တွင် မီးတောင်များအကြောင်း စာအုပ်တစ်အုပ်လုံးကို ဖတ်ရန် အချိန်မရှိခဲ့ပေ။ ပထမဦးစွာ သူသည် အုပ်ဖုံးနှင့် အခန်းခေါင်းစဉ်များကို ကြည့်ပြီး \"Volcanoes Around the World\" ဟူသော အခန်းသည် အထောက်အကူဖြစ်လိမ့်မည်ဟု ခန့်မှန်းခဲ့သည်။ ထို့နောက် ထိုအခန်းကို အမြန် skim ဖတ်ကာ ယေဘုယျအကြောင်းအရာကို ရယူခဲ့သည်။ နောက်ဆုံးတွင် စာမျက်နှာများကို သေချာစွာ scan ဖတ်ကာ မျက်လုံးကို လျင်မြန်စွာ ရွှေ့လျားစဉ် \"tallest\" ဟူသော စာလုံးအမည်းကို တွေ့ရှိခဲ့သည်။ သူသည် မိနစ်ငါးမိနစ်အတွင်း အဖြေကို ရှာတွေ့ခဲ့သည်! ဆရာမ သန္တာက ပြုံးရင်း \"ဒါဟာ စာဖတ်ကောင်းသူများ အချိန်ကုန်သက်သာစေဖို့ လုပ်ကြတဲ့ အတိအကျပါပဲ -- အရင်ခန့်မှန်း၊ ယေဘုယျအတွက် skim ဖတ်၊ ပြီးမှ တိကျတဲ့အသေးစိတ်အတွက် scan ဖတ်ပါ\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What homework question did Tin need to answer?",
+            questionMy: "တင် ဖြေရမည့် အိမ်စာမေးခွန်းက အဘယ်နည်း။",
+            optionsEn: [
+              "Which country has the tallest volcano",
+              "How many volcanoes are there",
+              "What is a volcano",
+              "Where is Nova School",
+            ],
+            optionsMy: [
+              "Which country has the tallest volcano",
+              "How many volcanoes are there",
+              "What is a volcano",
+              "Where is Nova School",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Tin do first?",
+            questionMy: "တင် ဘာကို ပထမဆုံး လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "He looked at the cover and chapter titles and predicted",
+              "He scanned every page",
+              "He closed the book",
+              "He asked Ms. Thandar for the answer",
+            ],
+            optionsMy: [
+              "He looked at the cover and chapter titles and predicted",
+              "He scanned every page",
+              "He closed the book",
+              "He asked Ms. Thandar for the answer",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is skimming used for, according to the passage?",
+            questionMy: "စာပိုဒ်အရ skimming ကို ဘာအတွက် အသုံးပြုသနည်း။",
+            optionsEn: [
+              "Getting the general idea of a chapter quickly",
+              "Finding one exact word",
+              "Guessing the ending",
+              "Memorizing a page",
+            ],
+            optionsMy: [
+              "Getting the general idea of a chapter quickly",
+              "Finding one exact word",
+              "Guessing the ending",
+              "Memorizing a page",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What word did Tin spot while scanning?",
+            questionMy: "Scanning ဖတ်နေစဉ် တင် ဘယ်စကားလုံးကို တွေ့ခဲ့သနည်း။",
+            optionsEn: ["\"tallest\"", "\"shortest\"", "\"country\"", "\"library\""],
+            optionsMy: ["\"tallest\"", "\"shortest\"", "\"country\"", "\"library\""],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what is the correct order of strategies to save time?",
+            questionMy:
+                "ဆရာမ သန္တာအရ အချိန်ကုန်သက်သာစေရန် နည်းဗျူဟာများ၏ မှန်ကန်သော အစီအစဉ်က အဘယ်နည်း။",
+            optionsEn: [
+              "Predict first, skim for the idea, then scan for the detail",
+              "Scan first, then predict",
+              "Skim only",
+              "Read the whole book first",
+            ],
+            optionsMy: [
+              "Predict first, skim for the idea, then scan for the detail",
+              "Scan first, then predict",
+              "Skim only",
+              "Read the whole book first",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w13-d4",
+      dayNumber: 4,
+      titleEn: "Sort by When You Use It",
+      titleMy: "ဘယ်အချိန်သုံးမလဲဆိုတာအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Before Reading", "While Reading", "After Reading"],
+        bucketsMy: ["မဖတ်မီ", "ဖတ်နေစဉ်", "ဖတ်ပြီးနောက်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w13-sort-1",
+            labelEn: "Look at the title and pictures",
+            labelMy: "ခေါင်းစဉ်နှင့် ပုံများကို ကြည့်ခြင်း",
+            correctBucketEn: "Before Reading",
+            correctBucketMy: "မဖတ်မီ",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-2",
+            labelEn: "Predict what the text is about",
+            labelMy: "စာသား ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းခြင်း",
+            correctBucketEn: "Before Reading",
+            correctBucketMy: "မဖတ်မီ",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-3",
+            labelEn: "Check the table of contents",
+            labelMy: "မာတိကာကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Before Reading",
+            correctBucketMy: "မဖတ်မီ",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-4",
+            labelEn: "Skim for the general idea",
+            labelMy: "ယေဘုယျအကြောင်းအရာအတွက် skim ဖတ်ခြင်း",
+            correctBucketEn: "While Reading",
+            correctBucketMy: "ဖတ်နေစဉ်",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-5",
+            labelEn: "Scan for a specific detail",
+            labelMy: "တိကျသည့် အသေးစိတ်အတွက် scan ဖတ်ခြင်း",
+            correctBucketEn: "While Reading",
+            correctBucketMy: "ဖတ်နေစဉ်",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-6",
+            labelEn: "Ask yourself if it makes sense",
+            labelMy: "အဓိပ္ပာယ်ပြည့်စုံမပြည့်စုံ မိမိကိုယ်ကို မေးခြင်း",
+            correctBucketEn: "While Reading",
+            correctBucketMy: "ဖတ်နေစဉ်",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-7",
+            labelEn: "Review what you just read",
+            labelMy: "ဖတ်ပြီးစသော အကြောင်းအရာကို ပြန်လှန်ကြည့်ခြင်း",
+            correctBucketEn: "After Reading",
+            correctBucketMy: "ဖတ်ပြီးနောက်",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-8",
+            labelEn: "Summarize the main point",
+            labelMy: "အဓိကအချက်ကို အကျဉ်းချုပ်ခြင်း",
+            correctBucketEn: "After Reading",
+            correctBucketMy: "ဖတ်ပြီးနောက်",
+          ),
+          SortingItem(
+            id: "y4eng-w13-sort-9",
+            labelEn: "Think about what you learned",
+            labelMy: "ဘာသင်ယူခဲ့ရသည်ကို တွေးခေါ်ခြင်း",
+            correctBucketEn: "After Reading",
+            correctBucketMy: "ဖတ်ပြီးနောက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w13-d5",
+      dayNumber: 5,
+      titleEn: "Reading Strategies Recap",
+      titleMy: "စာဖတ်ခြင်း နည်းဗျူဟာများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Looking quickly at the title and pictures to guess what a text is about is called...",
+          questionMy:
+              "စာသားတစ်ခု ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းရန် ခေါင်းစဉ်နှင့် ပုံများကို လျင်မြန်စွာ ကြည့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["predicting", "skimming", "scanning", "inferring"],
+          optionsMy: ["predicting", "skimming", "scanning", "inferring"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reading quickly through a whole page just to get the general idea is called...",
+          questionMy:
+              "စာမျက်နှာတစ်ခုလုံးကို ယေဘုယျအကြောင်းအရာ ရယူရန်အတွက်သာ လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "reviewing"],
+          optionsMy: ["skimming", "scanning", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking quickly for one specific piece of information, like a date or a name, is called...",
+          questionMy:
+              "ရက်စွဲ (သို့) အမည်ကဲ့သို့သော တိကျသည့် အချက်အလက်တစ်ခုကို လျင်မြန်စွာ ရှာဖွေခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "guessing"],
+          optionsMy: ["scanning", "skimming", "predicting", "guessing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which reading strategy would help you find the year a book was published, fast?",
+          questionMy:
+              "စာအုပ်တစ်အုပ် ထုတ်ဝေသည့်နှစ်ကို မြန်မြန်ရှာရန် ဘယ်စာဖတ်နည်းဗျူဟာက ကူညီပေးမည်နည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "none of these"],
+          optionsMy: ["scanning", "skimming", "predicting", "none of these"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which reading strategy helps you get the general idea of a whole chapter quickly?",
+          questionMy:
+              "အခန်းတစ်ခုလုံး၏ ယေဘုယျအကြောင်းအရာကို လျင်မြန်စွာ ရယူရန် ဘယ်နည်းဗျူဟာက ကူညီပေးမည်နည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "spelling"],
+          optionsMy: ["skimming", "scanning", "predicting", "spelling"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 4, Week 14: "Making Inferences"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek14 = CourseWeekDef(
+  id: "course-year4-english-w14",
+  weekNumber: 14,
+  titleEn: "Making Inferences",
+  titleMy: "ကောက်ချက်ချခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w14-d1",
+      dayNumber: 1,
+      titleEn: "Clues Plus Knowledge",
+      titleMy: "အချက်များနှင့် အသိပညာ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using clues in the text plus what you already know to figure out something the author didn't say directly is called...",
+          questionMy:
+              "စာရေးသူ တိုက်ရိုက်မပြောသော အရာတစ်ခုကို ရှာဖွေရန် စာသားရှိ အချက်များနှင့် မိမိသိပြီးသားအရာများကို ပေါင်းစပ် အသုံးပြုခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          optionsMy: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a story says \"Moe Moe's umbrella was dripping wet when she walked in,\" you can infer that...",
+          questionMy:
+              "ဇာတ်လမ်းတွင် \"မိုးမိုး ဝင်လာစဉ် သူမ၏ ထီးသည် စိုစွတ်နေသည်\" ဟု ဖော်ပြပါက ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "it was raining outside",
+            "it was sunny",
+            "she was inside all day",
+            "the umbrella was broken",
+          ],
+          optionsMy: [
+            "it was raining outside",
+            "it was sunny",
+            "she was inside all day",
+            "the umbrella was broken",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a character is described as \"clenching her fists and frowning,\" you can infer she feels...",
+          questionMy:
+              "ဇာတ်ကောင်တစ်ဦးကို \"လက်သီးများကို ဆုပ်ကိုင်ပြီး မျက်နှာဆိုးနေသည်\" ဟု ဖော်ပြပါက သူမ ဘယ်လို ခံစားနေသည်ကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: ["angry", "happy", "sleepy", "hungry"],
+          optionsMy: ["angry", "happy", "sleepy", "hungry"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Inferences are based on...",
+          questionMy: "ကောက်ချက်များသည် ဘာအပေါ်တွင် အခြေခံသနည်း။",
+          optionsEn: [
+            "clues in the text and what you already know",
+            "only guessing randomly",
+            "the book's cover color",
+            "the page number",
+          ],
+          optionsMy: [
+            "clues in the text and what you already know",
+            "only guessing randomly",
+            "the book's cover color",
+            "the page number",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If Tin's stomach growls loudly at lunchtime, what can you infer?",
+          questionMy:
+              "နေ့လယ်စာချိန်တွင် တင်၏ ဗိုက်က ကျယ်လောင်စွာ အသံပြုနေပါက ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "He is hungry",
+            "He is cold",
+            "He is tired",
+            "He is bored",
+          ],
+          optionsMy: [
+            "He is hungry",
+            "He is cold",
+            "He is tired",
+            "He is bored",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is an example of an inference, not a directly stated fact?",
+          questionMy:
+              "အောက်ပါတို့တွင် တိုက်ရိုက်ဖော်ပြထားသော အချက်မဟုတ်ဘဲ ကောက်ချက်ချထားခြင်းဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "She must be excited because she is jumping and smiling",
+            "She is ten years old",
+            "The book has 100 pages",
+            "The dog is brown",
+          ],
+          optionsMy: [
+            "She must be excited because she is jumping and smiling",
+            "She is ten years old",
+            "The book has 100 pages",
+            "The dog is brown",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Good readers make inferences to...",
+          questionMy: "စာဖတ်ကောင်းသူများသည် ဘာအတွက် ကောက်ချက်ချကြသနည်း။",
+          optionsEn: [
+            "understand ideas the author only hints at",
+            "skip parts of the story",
+            "avoid using clues",
+            "ignore the pictures",
+          ],
+          optionsMy: [
+            "understand ideas the author only hints at",
+            "skip parts of the story",
+            "avoid using clues",
+            "ignore the pictures",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If the ground outside is wet and puddles have formed, what can you infer?",
+          questionMy:
+              "အပြင်ဘက်ရှိ မြေပြင်သည် စိုထိုင်းနေပြီး ရေအိုင်ငယ်များ ဖြစ်ပေါ်နေပါက ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "It rained recently",
+            "It is very hot",
+            "It is nighttime",
+            "Someone is sleeping",
+          ],
+          optionsMy: [
+            "It rained recently",
+            "It is very hot",
+            "It is nighttime",
+            "Someone is sleeping",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match the Clue to the Inference",
+      titleMy: "အချက်ကို ကောက်ချက်နှင့် ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w14-dm-1",
+          termEn: "Nay Chi's shoes were covered in mud.",
+          termMy: "Nay Chi's shoes were covered in mud.",
+          matchEn: "She probably walked through a wet, muddy path",
+          matchMy: "သူမသည် စိုစွတ်ပြီး ရွှံ့ထူသောလမ်းကို လျှောက်ခဲ့ဟန်ရှိသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-2",
+          termEn: "Tin yawned three times during class.",
+          termMy: "Tin yawned three times during class.",
+          matchEn: "He is probably feeling tired",
+          matchMy: "သူ ပင်ပန်းနေဟန်ရှိသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-3",
+          termEn: "Moe Moe smiled and hugged her book tightly.",
+          termMy: "Moe Moe smiled and hugged her book tightly.",
+          matchEn: "She probably loves that book",
+          matchMy: "သူမ ထိုစာအုပ်ကို ချစ်မြတ်နိုးဟန်ရှိသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-4",
+          termEn: "The classroom was completely silent and dark.",
+          termMy: "The classroom was completely silent and dark.",
+          matchEn: "Probably no one is in the classroom",
+          matchMy: "အတန်းထဲတွင် မည်သူမျှ မရှိဟန်ရှိသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-5",
+          termEn: "Ms. Thandar's desk was covered in red pens and papers.",
+          termMy: "Ms. Thandar's desk was covered in red pens and papers.",
+          matchEn: "She was probably grading homework",
+          matchMy: "သူမ အိမ်စာများ အမှတ်ပေးနေဟန်ရှိသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-6",
+          termEn: "The dog's tail was wagging fast.",
+          termMy: "The dog's tail was wagging fast.",
+          matchEn: "The dog is probably happy or excited",
+          matchMy: "ခွေးသည် ပျော်ရွှင်နေဟန် (သို့) စိတ်လှုပ်ရှားနေဟန်ရှိသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-7",
+          termEn: "Tin's hands were shaking and his forehead was sweaty.",
+          termMy: "Tin's hands were shaking and his forehead was sweaty.",
+          matchEn: "He is probably nervous",
+          matchMy: "သူ စိတ်လှုပ်ရှား (သို့) စိုးရိမ်နေဟန်ရှိသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w14-dm-8",
+          termEn: "The picnic basket was empty and everyone looked full.",
+          termMy: "The picnic basket was empty and everyone looked full.",
+          matchEn: "They probably finished eating already",
+          matchMy: "သူတို့ စားသုံးပြီးသားဖြစ်ဟန်ရှိသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w14-d3",
+      dayNumber: 3,
+      titleEn: "Nay Chi's Rainy Day Clue",
+      titleMy: "နေချည်၏ မိုးရွာနေ့ အချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Rainy Day Clue",
+        titleMy: "နေချည်၏ မိုးရွာနေ့ အချက်",
+        passageEn:
+            "One morning, Nay Chi walked into the classroom and noticed Tin's hair was damp and his shoes squeaked with every step. She also saw water droplets on his backpack. Nay Chi did not need Tin to tell her what happened -- she used the clues to make an inference. \"It must be raining outside,\" she said to herself. A few minutes later, Ms. Thandar confirmed it: \"Everyone, it's raining quite hard today, so remember your umbrellas after school!\" Nay Chi grinned, proud that she had figured it out just from the clues. Later, she noticed Moe Moe kept glancing at the clock and tapping her pencil. Nay Chi inferred that Moe Moe was probably waiting eagerly for something exciting to happen -- and sure enough, it was almost time for the class party!",
+        passageMy:
+            "တစ်နေ့မနက်တွင် နေချည်သည် အတန်းထဲသို့ ဝင်လာစဉ် တင်၏ ဆံပင်စိုနေပြီး ဖိနပ်က လှမ်းတိုင်း ကျစ်ကျစ်ပြီးအသံထွက်နေသည်ကို သတိထားမိသည်။ သူ့ကျောပိုးအိတ်ပေါ်တွင်လည်း ရေစက်များ တွေ့ရသည်။ နေချည်သည် တင်ကို ဘာဖြစ်တယ်ဆိုတာ မမေးဘဲ ကောက်ချက်ချနိုင်ခဲ့သည် -- သတိထားမိသော အချက်များကို အသုံးပြု၍ ကောက်ချက်ချခဲ့သည်။ \"အပြင်မှာ မိုးရွာနေမှာပဲ\" ဟု သူ့ကိုယ်သူ ပြောခဲ့သည်။ မိနစ်အနည်းငယ်ကြာသောအခါ ဆရာမ သန္တာက အတည်ပြုပေးခဲ့သည် -- \"လူတိုင်း၊ ဒီနေ့ မိုးအရမ်းရွာနေတယ်၊ ကျောင်းဆင်းရင် ထီးယူဖို့ မေ့မနေကြနဲ့!\" နေချည်သည် သတိထားမိချက်များမှသာ ခန့်မှန်းနိုင်ခဲ့သည့်အတွက် ဂုဏ်ယူစွာ ပြုံးလိုက်သည်။ နောက်ပိုင်းတွင် သူသည် မိုးမိုးက နာရီကို အထပ်ထပ် ကြည့်ပြီး ခဲတံနှင့် စားပွဲကို ခေါက်နေသည်ကို သတိထားမိသည်။ နေချည်သည် မိုးမိုးသည် စိတ်လှုပ်ရှားစရာတစ်ခုကို စိတ်အားထက်သန်စွာ စောင့်နေတယ်ဆိုပြီး ကောက်ချက်ချခဲ့ပြီး -- တကယ်လည်း အတန်းပါတီအချိန် နီးကပ်နေခဲ့ပြီပေါ့!",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What clues did Nay Chi notice about Tin?",
+            questionMy: "နေချည်သည် တင်နှင့်ပတ်သက်၍ ဘာအချက်များကို သတိထားမိခဲ့သနည်း။",
+            optionsEn: [
+              "His damp hair, squeaky shoes, and wet backpack",
+              "His new shoes",
+              "His homework book",
+              "His lunch box",
+            ],
+            optionsMy: [
+              "His damp hair, squeaky shoes, and wet backpack",
+              "His new shoes",
+              "His homework book",
+              "His lunch box",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi infer from those clues?",
+            questionMy: "ထိုအချက်များမှ နေချည် ဘာကို ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "That it was raining outside",
+              "That Tin was sick",
+              "That Tin was late",
+              "That Tin lost his backpack",
+            ],
+            optionsMy: [
+              "That it was raining outside",
+              "That Tin was sick",
+              "That Tin was late",
+              "That Tin lost his backpack",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Who confirmed that it was raining?",
+            questionMy: "မိုးရွာနေကြောင်း ဘယ်သူ အတည်ပြုပေးခဲ့သနည်း။",
+            optionsEn: ["Ms. Thandar", "Moe Moe", "Tin", "The principal"],
+            optionsMy: ["Ms. Thandar", "Moe Moe", "Tin", "The principal"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi notice about Moe Moe later?",
+            questionMy: "နောက်ပိုင်းတွင် နေချည်သည် မိုးမိုးနှင့်ပတ်သက်၍ ဘာကို သတိထားမိခဲ့သနည်း။",
+            optionsEn: [
+              "She kept glancing at the clock and tapping her pencil",
+              "She was sleeping",
+              "She was reading a book",
+              "She left the room",
+            ],
+            optionsMy: [
+              "She kept glancing at the clock and tapping her pencil",
+              "She was sleeping",
+              "She was reading a book",
+              "She left the room",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi infer Moe Moe was waiting for?",
+            questionMy: "မိုးမိုး ဘာကို စောင့်နေသည်ဟု နေချည် ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "Something exciting, like the class party",
+              "Lunchtime",
+              "The end of the school year",
+              "A phone call",
+            ],
+            optionsMy: [
+              "Something exciting, like the class party",
+              "Lunchtime",
+              "The end of the school year",
+              "A phone call",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w14-d4",
+      dayNumber: 4,
+      titleEn: "Sort: Stated or Inferred?",
+      titleMy: "ဖော်ပြထား (သို့) ကောက်ချက်ချထား ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Stated Directly", "Inferred"],
+        bucketsMy: ["တိုက်ရိုက်ဖော်ပြထားသည်", "ကောက်ချက်ချထားသည်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w14-sort-1",
+            labelEn: "Tin's hair was damp.",
+            labelMy: "Tin's hair was damp.",
+            correctBucketEn: "Stated Directly",
+            correctBucketMy: "တိုက်ရိုက်ဖော်ပြထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-2",
+            labelEn: "It was raining outside.",
+            labelMy: "It was raining outside.",
+            correctBucketEn: "Inferred",
+            correctBucketMy: "ကောက်ချက်ချထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-3",
+            labelEn: "Nay Chi's shoes were covered in mud.",
+            labelMy: "Nay Chi's shoes were covered in mud.",
+            correctBucketEn: "Stated Directly",
+            correctBucketMy: "တိုက်ရိုက်ဖော်ပြထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-4",
+            labelEn: "She walked through a muddy path.",
+            labelMy: "She walked through a muddy path.",
+            correctBucketEn: "Inferred",
+            correctBucketMy: "ကောက်ချက်ချထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-5",
+            labelEn: "Ms. Thandar's desk had red pens and papers.",
+            labelMy: "Ms. Thandar's desk had red pens and papers.",
+            correctBucketEn: "Stated Directly",
+            correctBucketMy: "တိုက်ရိုက်ဖော်ပြထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-6",
+            labelEn: "She was grading homework.",
+            labelMy: "She was grading homework.",
+            correctBucketEn: "Inferred",
+            correctBucketMy: "ကောက်ချက်ချထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-7",
+            labelEn: "The dog's tail was wagging fast.",
+            labelMy: "The dog's tail was wagging fast.",
+            correctBucketEn: "Stated Directly",
+            correctBucketMy: "တိုက်ရိုက်ဖော်ပြထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-8",
+            labelEn: "The dog felt happy.",
+            labelMy: "The dog felt happy.",
+            correctBucketEn: "Inferred",
+            correctBucketMy: "ကောက်ချက်ချထားသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w14-sort-9",
+            labelEn: "Moe Moe kept glancing at the clock.",
+            labelMy: "Moe Moe kept glancing at the clock.",
+            correctBucketEn: "Stated Directly",
+            correctBucketMy: "တိုက်ရိုက်ဖော်ပြထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w14-d5",
+      dayNumber: 5,
+      titleEn: "Making Inferences Recap",
+      titleMy: "ကောက်ချက်ချခြင်း ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using clues in the text plus what you already know to figure out something the author didn't say directly is called...",
+          questionMy:
+              "စာရေးသူ တိုက်ရိုက်မပြောသော အရာတစ်ခုကို ရှာဖွေရန် စာသားရှိ အချက်များနှင့် မိမိသိပြီးသားအရာများကို ပေါင်းစပ် အသုံးပြုခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          optionsMy: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a story says \"Moe Moe's umbrella was dripping wet when she walked in,\" you can infer that...",
+          questionMy:
+              "ဇာတ်လမ်းတွင် \"မိုးမိုး ဝင်လာစဉ် သူမ၏ ထီးသည် စိုစွတ်နေသည်\" ဟု ဖော်ပြပါက ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "it was raining outside",
+            "it was sunny",
+            "she was inside all day",
+            "the umbrella was broken",
+          ],
+          optionsMy: [
+            "it was raining outside",
+            "it was sunny",
+            "she was inside all day",
+            "the umbrella was broken",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a character is described as \"clenching her fists and frowning,\" you can infer she feels...",
+          questionMy:
+              "ဇာတ်ကောင်တစ်ဦးကို \"လက်သီးများကို ဆုပ်ကိုင်ပြီး မျက်နှာဆိုးနေသည်\" ဟု ဖော်ပြပါက သူမ ဘယ်လို ခံစားနေသည်ကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: ["angry", "happy", "sleepy", "hungry"],
+          optionsMy: ["angry", "happy", "sleepy", "hungry"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Inferences are based on...",
+          questionMy: "ကောက်ချက်များသည် ဘာအပေါ်တွင် အခြေခံသနည်း။",
+          optionsEn: [
+            "clues in the text and what you already know",
+            "only guessing randomly",
+            "the book's cover color",
+            "the page number",
+          ],
+          optionsMy: [
+            "clues in the text and what you already know",
+            "only guessing randomly",
+            "the book's cover color",
+            "the page number",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If Tin's stomach growls loudly at lunchtime, what can you infer?",
+          questionMy:
+              "နေ့လယ်စာချိန်တွင် တင်၏ ဗိုက်က ကျယ်လောင်စွာ အသံပြုနေပါက ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "He is hungry",
+            "He is cold",
+            "He is tired",
+            "He is bored",
+          ],
+          optionsMy: [
+            "He is hungry",
+            "He is cold",
+            "He is tired",
+            "He is bored",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 4, Week 15: "Main Idea and Details"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek15 = CourseWeekDef(
+  id: "course-year4-english-w15",
+  weekNumber: 15,
+  titleEn: "Main Idea and Details",
+  titleMy: "အဓိက အကြောင်းအရာနှင့် အသေးစိတ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w15-d1",
+      dayNumber: 1,
+      titleEn: "What Is a Main Idea?",
+      titleMy: "အဓိက အကြောင်းအရာဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The main idea of a text is...",
+          questionMy: "စာသားတစ်ခု၏ အဓိက အကြောင်းအရာဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "what the text is mostly about",
+            "the last sentence only",
+            "the title only",
+            "a random detail",
+          ],
+          optionsMy: [
+            "what the text is mostly about",
+            "the last sentence only",
+            "the title only",
+            "a random detail",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Details in a text...",
+          questionMy: "စာသားရှိ အသေးစိတ်များသည်...",
+          optionsEn: [
+            "support and explain the main idea",
+            "replace the main idea",
+            "are always found in the title",
+            "are not important",
+          ],
+          optionsMy: [
+            "support and explain the main idea",
+            "replace the main idea",
+            "are always found in the title",
+            "are not important",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a paragraph is mostly about how elephants use their trunks, the main idea is...",
+          questionMy:
+              "စာပိုဒ်တစ်ပိုဒ်သည် ဆင်များ၏ တောင်ရှည်အသုံးပြုပုံအကြောင်း အဓိကရေးထားပါက အဓိက အကြောင်းအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Elephants use their trunks in many ways",
+            "Elephants live in Africa",
+            "Elephants are gray",
+            "Elephants eat grass",
+          ],
+          optionsMy: [
+            "Elephants use their trunks in many ways",
+            "Elephants live in Africa",
+            "Elephants are gray",
+            "Elephants eat grass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a supporting detail, not a main idea?",
+          questionMy: "အောက်ပါတို့တွင် အဓိက အကြောင်းအရာမဟုတ်ဘဲ ထောက်ခံအသေးစိတ်ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Elephants use their trunks to pick up food",
+            "This paragraph explains how elephants use their trunks",
+            "The main idea is about elephant trunks",
+            "Trunks are important to elephants overall",
+          ],
+          optionsMy: [
+            "Elephants use their trunks to pick up food",
+            "This paragraph explains how elephants use their trunks",
+            "The main idea is about elephant trunks",
+            "Trunks are important to elephants overall",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main idea is usually found...",
+          questionMy: "အဓိက အကြောင်းအရာကို ပုံမှန်အားဖြင့် ဘယ်နေရာတွင် တွေ့ရသနည်း။",
+          optionsEn: [
+            "in the topic sentence, often at the start of a paragraph",
+            "only in footnotes",
+            "never in the text",
+            "at random",
+          ],
+          optionsMy: [
+            "in the topic sentence, often at the start of a paragraph",
+            "only in footnotes",
+            "never in the text",
+            "at random",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Supporting details usually...",
+          questionMy: "ထောက်ခံအသေးစိတ်များသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "give examples or facts about the main idea",
+            "contradict the main idea",
+            "are longer than the main idea",
+            "replace the title",
+          ],
+          optionsMy: [
+            "give examples or facts about the main idea",
+            "contradict the main idea",
+            "are longer than the main idea",
+            "replace the title",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why are supporting details important?",
+          questionMy: "ထောက်ခံအသေးစိတ်များသည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "They help prove and explain the main idea",
+            "They are more important than the main idea",
+            "They are usually wrong",
+            "They only appear in poems",
+          ],
+          optionsMy: [
+            "They help prove and explain the main idea",
+            "They are more important than the main idea",
+            "They are usually wrong",
+            "They only appear in poems",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a paragraph talks about three foods (bananas, mangoes, jackfruit) grown in Myanmar, the main idea might be...",
+          questionMy:
+              "စာပိုဒ်တစ်ပိုဒ်တွင် မြန်မာနိုင်ငံ၌ စိုက်ပျိုးသော အသီးသုံးမျိုး (ငှက်ပျော၊ သရက်၊ ပိန္နဲ) အကြောင်း ပြောထားပါက အဓိက အကြောင်းအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Myanmar grows many kinds of fruit",
+            "Bananas are yellow",
+            "Mangoes are sweet",
+            "Jackfruit is large",
+          ],
+          optionsMy: [
+            "Myanmar grows many kinds of fruit",
+            "Bananas are yellow",
+            "Mangoes are sweet",
+            "Jackfruit is large",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match Main Idea or Detail",
+      titleMy: "အဓိကအကြောင်းအရာ (သို့) အသေးစိတ်ကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w15-dm-1",
+          termEn: "Elephants use their trunks to drink, breathe, and grab food.",
+          termMy: "Elephants use their trunks to drink, breathe, and grab food.",
+          matchEn: "Main idea -- sums up the whole paragraph",
+          matchMy: "အဓိက အကြောင်းအရာ -- စာပိုဒ်တစ်ခုလုံးကို အကျဉ်းချုပ်ဖော်ပြသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-2",
+          termEn:
+              "Elephants can hold up to eight liters of water in their trunks.",
+          termMy:
+              "Elephants can hold up to eight liters of water in their trunks.",
+          matchEn: "Supporting detail -- one specific fact",
+          matchMy: "ထောက်ခံအသေးစိတ် -- တိကျသော အချက်တစ်ချက်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-3",
+          termEn: "The Nova School garden grows many vegetables.",
+          termMy: "The Nova School garden grows many vegetables.",
+          matchEn: "Main idea -- sums up the whole paragraph",
+          matchMy: "အဓိက အကြောင်းအရာ -- စာပိုဒ်တစ်ခုလုံးကို အကျဉ်းချုပ်ဖော်ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-4",
+          termEn: "The garden has tomatoes, carrots, and pumpkins.",
+          termMy: "The garden has tomatoes, carrots, and pumpkins.",
+          matchEn: "Supporting detail -- one specific fact",
+          matchMy: "ထောက်ခံအသေးစိတ် -- တိကျသော အချက်တစ်ချက်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-5",
+          termEn: "Reading every day helps you learn new words.",
+          termMy: "Reading every day helps you learn new words.",
+          matchEn: "Main idea -- sums up the whole paragraph",
+          matchMy: "အဓိက အကြောင်းအရာ -- စာပိုဒ်တစ်ခုလုံးကို အကျဉ်းချုပ်ဖော်ပြသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-6",
+          termEn: "Tin learned the word \"enormous\" from his new book.",
+          termMy: "Tin learned the word \"enormous\" from his new book.",
+          matchEn: "Supporting detail -- one specific fact",
+          matchMy: "ထောက်ခံအသေးစိတ် -- တိကျသော အချက်တစ်ချက်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-7",
+          termEn: "Rainy season brings many changes to Myanmar.",
+          termMy: "Rainy season brings many changes to Myanmar.",
+          matchEn: "Main idea -- sums up the whole paragraph",
+          matchMy: "အဓိက အကြောင်းအရာ -- စာပိုဒ်တစ်ခုလုံးကို အကျဉ်းချုပ်ဖော်ပြသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w15-dm-8",
+          termEn: "Rivers rise and farmers plant rice during rainy season.",
+          termMy: "Rivers rise and farmers plant rice during rainy season.",
+          matchEn: "Supporting detail -- one specific fact",
+          matchMy: "ထောက်ခံအသေးစိတ် -- တိကျသော အချက်တစ်ချက်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w15-d3",
+      dayNumber: 3,
+      titleEn: "Moe Moe's Elephant Report",
+      titleMy: "မိုးမိုး၏ ဆင်အစီရင်ခံစာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Elephant Report",
+        titleMy: "မိုးမိုး၏ ဆင်အစီရင်ခံစာ",
+        passageEn:
+            "For her class project, Moe Moe read a short passage about elephants. It said: \"Elephants use their trunks in many amazing ways. They use their trunks to drink water, holding up to eight liters at a time. They use their trunks to pick up food, from tiny leaves to heavy branches. They even use their trunks to greet each other, gently touching trunks like a handshake.\" Moe Moe read it twice and then asked herself, \"What is this paragraph mostly about?\" She realized every sentence connected back to one idea: elephants use their trunks in many ways. The other sentences -- about drinking, picking up food, and greeting -- were details that supported that one main idea. Ms. Thandar praised her for finding the main idea instead of just listing random facts.",
+        passageMy:
+            "မိမိ၏ အတန်းစီမံကိန်းအတွက် မိုးမိုးသည် ဆင်များအကြောင်း စာပိုဒ်တိုတစ်ပိုဒ်ကို ဖတ်ခဲ့သည်။ ၎င်းတွင် ဤသို့ဖော်ပြထားသည် -- \"ဆင်များသည် ၎င်းတို့၏ တောင်ရှည်ကို အံ့ဖွယ်နည်းလမ်းများစွာဖြင့် အသုံးပြုကြသည်။ ရေသောက်ရန်အတွက် တစ်ကြိမ်လျှင် ရေလီတာရှစ်လီတာအထိ ပိုက်ကာသောက်ကြသည်။ အရွက်သေးသေးလေးမှသည် အကိုင်းအခက်ကြီးများအထိ အစားအစာများကို ကောက်ယူရန်အတွက် တောင်ရှည်ကို အသုံးပြုကြသည်။ တစ်ကောင်နှင့်တစ်ကောင် နှုတ်ဆက်ရန်အတွက်တောင် တောင်ရှည်ချင်းညင်သာစွာ ထိကာ နှုတ်ဆက်ကြသည်။\" မိုးမိုးသည် ၎င်းကို နှစ်ကြိမ်ဖတ်ပြီးနောက် \"ဒီစာပိုဒ်ဟာ အဓိကအားဖြင့် ဘာအကြောင်းလဲ\" ဟု ကိုယ့်ကိုယ်ကို မေးခဲ့သည်။ ဝါကျတိုင်းသည် အကြောင်းအရာတစ်ခုတည်းသို့ ပြန်ဆက်စပ်နေကြောင်း သတိထားမိသည် -- ဆင်များသည် တောင်ရှည်ကို နည်းလမ်းများစွာဖြင့် အသုံးပြုကြသည်။ ကျန်ဝါကျများ -- ရေသောက်ခြင်း၊ အစားအစာကောက်ယူခြင်းနှင့် နှုတ်ဆက်ခြင်းအကြောင်း -- သည် ထိုအဓိကအကြောင်းအရာတစ်ခုတည်းကို ထောက်ခံပေးသော အသေးစိတ်များ ဖြစ်ခဲ့သည်။ ဆရာမ သန္တာသည် မိုးမိုးအား ကျပန်းအချက်များကို စာရင်းပြုစုရုံမျှမက အဓိကအကြောင်းအရာကို ရှာတွေ့ခဲ့သည့်အတွက် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was Moe Moe's project about?",
+            questionMy: "မိုးမိုး၏ စီမံကိန်းသည် ဘာအကြောင်းဖြစ်သနည်း။",
+            optionsEn: ["Elephants", "Rivers", "Fruit", "The rainy season"],
+            optionsMy: ["Elephants", "Rivers", "Fruit", "The rainy season"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How much water can an elephant's trunk hold at a time, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ ဆင်၏ တောင်ရှည်သည် တစ်ကြိမ်လျှင် ရေမည်မျှ ပိုက်ကာနိုင်သနည်း။",
+            optionsEn: [
+              "Up to eight liters",
+              "Up to eight buckets",
+              "Up to eight cups",
+              "Up to eight bottles",
+            ],
+            optionsMy: [
+              "Up to eight liters",
+              "Up to eight buckets",
+              "Up to eight cups",
+              "Up to eight bottles",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the main idea of the paragraph Moe Moe read?",
+            questionMy: "မိုးမိုး ဖတ်ခဲ့သော စာပိုဒ်၏ အဓိက အကြောင်းအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Elephants use their trunks in many amazing ways",
+              "Elephants are large animals",
+              "Elephants live in the forest",
+              "Elephants like water",
+            ],
+            optionsMy: [
+              "Elephants use their trunks in many amazing ways",
+              "Elephants are large animals",
+              "Elephants live in the forest",
+              "Elephants like water",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which of these is a supporting detail, not the main idea?",
+            questionMy: "အောက်ပါတို့တွင် အဓိကအကြောင်းအရာမဟုတ်ဘဲ ထောက်ခံအသေးစိတ်ဖြစ်သည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "They use their trunks to greet each other",
+              "Elephants use their trunks in many ways",
+              "This paragraph is about elephant trunks",
+              "Trunks are important",
+            ],
+            optionsMy: [
+              "They use their trunks to greet each other",
+              "Elephants use their trunks in many ways",
+              "This paragraph is about elephant trunks",
+              "Trunks are important",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar praise Moe Moe for?",
+            questionMy: "ဆရာမ သန္တာသည် မိုးမိုးအား ဘာအတွက် ချီးမွမ်းခဲ့သနည်း။",
+            optionsEn: [
+              "Finding the main idea instead of just listing facts",
+              "Reading the fastest",
+              "Drawing a picture",
+              "Writing the longest report",
+            ],
+            optionsMy: [
+              "Finding the main idea instead of just listing facts",
+              "Reading the fastest",
+              "Drawing a picture",
+              "Writing the longest report",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w15-d4",
+      dayNumber: 4,
+      titleEn: "Sort: Main Idea or Detail",
+      titleMy: "အဓိက အကြောင်းအရာ (သို့) အသေးစိတ် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Main Idea", "Supporting Detail"],
+        bucketsMy: ["အဓိက အကြောင်းအရာ", "ထောက်ခံအသေးစိတ်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w15-sort-1",
+            labelEn: "Elephants use their trunks in many amazing ways.",
+            labelMy: "Elephants use their trunks in many amazing ways.",
+            correctBucketEn: "Main Idea",
+            correctBucketMy: "အဓိက အကြောင်းအရာ",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-2",
+            labelEn: "They hold up to eight liters of water.",
+            labelMy: "They hold up to eight liters of water.",
+            correctBucketEn: "Supporting Detail",
+            correctBucketMy: "ထောက်ခံအသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-3",
+            labelEn: "They pick up tiny leaves and heavy branches.",
+            labelMy: "They pick up tiny leaves and heavy branches.",
+            correctBucketEn: "Supporting Detail",
+            correctBucketMy: "ထောက်ခံအသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-4",
+            labelEn: "They greet each other by touching trunks.",
+            labelMy: "They greet each other by touching trunks.",
+            correctBucketEn: "Supporting Detail",
+            correctBucketMy: "ထောက်ခံအသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-5",
+            labelEn: "The Nova School garden grows many vegetables.",
+            labelMy: "The Nova School garden grows many vegetables.",
+            correctBucketEn: "Main Idea",
+            correctBucketMy: "အဓိက အကြောင်းအရာ",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-6",
+            labelEn: "The garden has tomatoes and carrots.",
+            labelMy: "The garden has tomatoes and carrots.",
+            correctBucketEn: "Supporting Detail",
+            correctBucketMy: "ထောက်ခံအသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-7",
+            labelEn: "Reading every day helps you learn new words.",
+            labelMy: "Reading every day helps you learn new words.",
+            correctBucketEn: "Main Idea",
+            correctBucketMy: "အဓိက အကြောင်းအရာ",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-8",
+            labelEn: "Tin learned the word enormous from his book.",
+            labelMy: "Tin learned the word enormous from his book.",
+            correctBucketEn: "Supporting Detail",
+            correctBucketMy: "ထောက်ခံအသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w15-sort-9",
+            labelEn: "Rainy season brings many changes to Myanmar.",
+            labelMy: "Rainy season brings many changes to Myanmar.",
+            correctBucketEn: "Main Idea",
+            correctBucketMy: "အဓိက အကြောင်းအရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w15-d5",
+      dayNumber: 5,
+      titleEn: "Main Idea and Details Recap",
+      titleMy: "အဓိက အကြောင်းအရာနှင့် အသေးစိတ်များ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The main idea of a text is...",
+          questionMy: "စာသားတစ်ခု၏ အဓိက အကြောင်းအရာဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "what the text is mostly about",
+            "the last sentence only",
+            "the title only",
+            "a random detail",
+          ],
+          optionsMy: [
+            "what the text is mostly about",
+            "the last sentence only",
+            "the title only",
+            "a random detail",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Details in a text...",
+          questionMy: "စာသားရှိ အသေးစိတ်များသည်...",
+          optionsEn: [
+            "support and explain the main idea",
+            "replace the main idea",
+            "are always found in the title",
+            "are not important",
+          ],
+          optionsMy: [
+            "support and explain the main idea",
+            "replace the main idea",
+            "are always found in the title",
+            "are not important",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a paragraph is mostly about how elephants use their trunks, the main idea is...",
+          questionMy:
+              "စာပိုဒ်တစ်ပိုဒ်သည် ဆင်များ၏ တောင်ရှည်အသုံးပြုပုံအကြောင်း အဓိကရေးထားပါက အဓိက အကြောင်းအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Elephants use their trunks in many ways",
+            "Elephants live in Africa",
+            "Elephants are gray",
+            "Elephants eat grass",
+          ],
+          optionsMy: [
+            "Elephants use their trunks in many ways",
+            "Elephants live in Africa",
+            "Elephants are gray",
+            "Elephants eat grass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a supporting detail, not a main idea?",
+          questionMy: "အောက်ပါတို့တွင် အဓိက အကြောင်းအရာမဟုတ်ဘဲ ထောက်ခံအသေးစိတ်ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Elephants use their trunks to pick up food",
+            "This paragraph explains how elephants use their trunks",
+            "The main idea is about elephant trunks",
+            "Trunks are important to elephants overall",
+          ],
+          optionsMy: [
+            "Elephants use their trunks to pick up food",
+            "This paragraph explains how elephants use their trunks",
+            "The main idea is about elephant trunks",
+            "Trunks are important to elephants overall",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main idea is usually found...",
+          questionMy: "အဓိက အကြောင်းအရာကို ပုံမှန်အားဖြင့် ဘယ်နေရာတွင် တွေ့ရသနည်း။",
+          optionsEn: [
+            "in the topic sentence, often at the start of a paragraph",
+            "only in footnotes",
+            "never in the text",
+            "at random",
+          ],
+          optionsMy: [
+            "in the topic sentence, often at the start of a paragraph",
+            "only in footnotes",
+            "never in the text",
+            "at random",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 4, Week 16: "Comprehension Review"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek16 = CourseWeekDef(
+  id: "course-year4-english-w16",
+  weekNumber: 16,
+  titleEn: "The Nova School Reading Challenge",
+  titleMy: "Nova ကျောင်း စာဖတ်စွမ်းရည် စိန်ခေါ်ပွဲ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w16-d1",
+      dayNumber: 1,
+      titleEn: "Comprehension Skills Review",
+      titleMy: "စာဖတ်နားလည်မှု ကျွမ်းကျင်မှုများ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Reading quickly to get the general idea is called...",
+          questionMy: "ယေဘုယျအကြောင်းအရာ ရယူရန် လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "inferring"],
+          optionsMy: ["skimming", "scanning", "predicting", "inferring"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using clues plus what you know to figure out something not directly stated is called...",
+          questionMy:
+              "တိုက်ရိုက်မဖော်ပြထားသော အရာကို ရှာဖွေရန် အချက်များနှင့် မိမိသိပြီးသားအရာများကို ပေါင်းစပ်အသုံးပြုခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          optionsMy: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What a text is mostly about is called the...",
+          questionMy: "စာသားတစ်ခု အဓိကအားဖြင့် ဘာအကြောင်းလဲဆိုသည်ကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "main idea",
+            "supporting detail",
+            "title only",
+            "footnote",
+          ],
+          optionsMy: [
+            "main idea",
+            "supporting detail",
+            "title only",
+            "footnote",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Facts that support the main idea are called...",
+          questionMy: "အဓိက အကြောင်းအရာကို ထောက်ခံသော အချက်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "supporting details",
+            "main ideas",
+            "predictions",
+            "inferences",
+          ],
+          optionsMy: [
+            "supporting details",
+            "main ideas",
+            "predictions",
+            "inferences",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Looking for one exact word or fact quickly is called...",
+          questionMy: "စကားလုံး (သို့) အချက်တစ်ခုတည်းကို လျင်မြန်စွာ ရှာဖွေခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "reviewing"],
+          optionsMy: ["scanning", "skimming", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Guessing what a text will be about before reading is called...",
+          questionMy: "မဖတ်မီ စာသား ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["predicting", "scanning", "skimming", "inferring"],
+          optionsMy: ["predicting", "scanning", "skimming", "inferring"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If muddy footprints lead to a broken vase, what skill helps you figure out who broke it?",
+          questionMy:
+              "ရွှံ့ခြေရာများသည် ကွဲနေသော အိုးအိုးတစ်လုံးဆီသို့ ဦးတည်နေပါက ဘယ်သူ ချိုးဖျက်ခဲ့သည်ကို ရှာဖွေရန် ဘယ်ကျွမ်းကျင်မှုက ကူညီပေးမည်နည်း။",
+          optionsEn: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          optionsMy: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every sentence in a paragraph usually connects back to the...",
+          questionMy: "စာပိုဒ်တစ်ပိုဒ်ရှိ ဝါကျတိုင်းသည် ပုံမှန်အားဖြင့် ဘာနှင့် ပြန်ဆက်စပ်နေသနည်း။",
+          optionsEn: ["main idea", "title page", "book cover", "index"],
+          optionsMy: ["main idea", "title page", "book cover", "index"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match the Reading Skill",
+      titleMy: "စာဖတ်ကျွမ်းကျင်မှုကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w16-dm-1",
+          termEn: "Skimming",
+          termMy: "Skimming",
+          matchEn: "Reading quickly for the general idea",
+          matchMy: "ယေဘုယျအကြောင်းအရာအတွက် လျင်မြန်စွာ ဖတ်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-2",
+          termEn: "Scanning",
+          termMy: "Scanning",
+          matchEn: "Reading quickly to find one specific detail",
+          matchMy: "တိကျသော အသေးစိတ်တစ်ခုကို ရှာရန် လျင်မြန်စွာ ဖတ်ခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-3",
+          termEn: "Predicting",
+          termMy: "Predicting",
+          matchEn: "Guessing what a text is about before reading",
+          matchMy: "မဖတ်မီ စာသား ဘာအကြောင်းလဲဆိုတာ ခန့်မှန်းခြင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-4",
+          termEn: "Inference",
+          termMy: "Inference",
+          matchEn: "A conclusion made from clues and background knowledge",
+          matchMy: "အချက်များနှင့် နောက်ခံအသိပညာမှ ချမှတ်သော ကောက်ချက်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-5",
+          termEn: "Main Idea",
+          termMy: "Main Idea",
+          matchEn: "What a paragraph is mostly about",
+          matchMy: "စာပိုဒ်တစ်ပိုဒ် အဓိကအားဖြင့် ဘာအကြောင်းလဲ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-6",
+          termEn: "Supporting Detail",
+          termMy: "Supporting Detail",
+          matchEn: "A fact that explains or proves the main idea",
+          matchMy: "အဓိက အကြောင်းအရာကို ရှင်းပြ (သို့) သက်သေပြသော အချက်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-7",
+          termEn: "Clue",
+          termMy: "Clue",
+          matchEn: "A hint in the text that helps you figure something out",
+          matchMy: "တစ်ခုခုကို ရှာဖွေရန် ကူညီပေးသော စာသားရှိ အရိပ်အမြွက်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w16-dm-8",
+          termEn: "Topic Sentence",
+          termMy: "Topic Sentence",
+          matchEn: "The sentence that often states the main idea",
+          matchMy: "အဓိက အကြောင်းအရာကို မကြာခဏ ဖော်ပြသော ဝါကျ",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w16-d3",
+      dayNumber: 3,
+      titleEn: "The Nova School Reading Challenge",
+      titleMy: "Nova ကျောင်း စာဖတ်စွမ်းရည် စိန်ခေါ်ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Reading Challenge",
+        titleMy: "Nova ကျောင်း စာဖတ်စွမ်းရည် စိန်ခေါ်ပွဲ",
+        passageEn:
+            "Founders' Day was approaching, and Ms. Thandar announced a special event: the Nova School Reading Challenge. Each student would visit three reading stations. At the first station, Tin used skimming and scanning to find facts quickly in an encyclopedia. At the second station, Nay Chi looked at clues in a mystery passage -- muddy footprints, an open window, a missing cookie jar -- and made an inference: the family dog had probably knocked over the cookie jar while chasing a squirrel outside! At the third station, Moe Moe read a paragraph about rainforests and picked out the main idea (rainforests are home to millions of living things) along with three supporting details about plants, animals, and rainfall. At the end of the challenge, Ms. Thandar gathered the class and said, \"Whether you are skimming, scanning, inferring, or finding the main idea, every strategy helps you become a stronger, faster, and smarter reader.\" Everyone cheered, proud of how much they had learned all term.",
+        passageMy:
+            "ကျောင်းတည်ထောင်သူများနေ့ နီးကပ်လာသဖြင့် ဆရာမ သန္တာသည် အထူးပွဲတော်တစ်ခုကို ကြေညာခဲ့သည် -- Nova ကျောင်း စာဖတ်စွမ်းရည် စိန်ခေါ်ပွဲ။ ကျောင်းသားတိုင်း စာဖတ်စခန်းသုံးခုသို့ သွားရောက်ကြရမည်ဖြစ်သည်။ ပထမစခန်းတွင် တင်သည် ကျမ်းကြီးတစ်အုပ်ထဲမှ အချက်အလက်များကို လျင်မြန်စွာ ရှာဖွေရန်အတွက် skimming နှင့် scanning ကို အသုံးပြုခဲ့သည်။ ဒုတိယစခန်းတွင် နေချည်သည် လျှို့ဝှက်ဇာတ်လမ်းစာပိုဒ်တစ်ခုရှိ အချက်များ -- ရွှံ့ခြေရာများ၊ ဖွင့်ထားသော ပြတင်းပေါက်၊ ပျောက်ဆုံးနေသော ကွတ်ကီးအိုး -- ကို ကြည့်ပြီး ကောက်ချက်ချခဲ့သည် -- အိမ်ရှင်ခွေးသည် အပြင်ဘက် သားရဲကလေးကို လိုက်ရင်း ကွတ်ကီးအိုးကို ထိခိုက်မှောက်လဲစေခဲ့ဟန်ရှိသည်! တတိယစခန်းတွင် မိုးမိုးသည် မိုးသစ်တောများအကြောင်း စာပိုဒ်တစ်ပိုဒ်ကို ဖတ်ပြီး အဓိကအကြောင်းအရာ (မိုးသစ်တောများသည် သက်ရှိသန်းပေါင်းများစွာ၏ နေအိမ်ဖြစ်သည်) နှင့်အတူ အပင်များ၊ တိရစ္ဆာန်များနှင့် မိုးရွာသွန်းမှုများအကြောင်း ထောက်ခံအသေးစိတ်သုံးချက်ကို ရွေးထုတ်ခဲ့သည်။ စိန်ခေါ်ပွဲအဆုံးတွင် ဆရာမ သန္တာသည် အတန်းသားများကို စုစည်းပြီး \"skim ဖတ်ခြင်း၊ scan ဖတ်ခြင်း၊ ကောက်ချက်ချခြင်း (သို့) အဓိကအကြောင်းအရာရှာခြင်း မည်သည့်နည်းဗျူဟာမဆို သင့်ကို ပိုမိုကောင်းမွန်၊ လျင်မြန်ပြီး ထက်မြက်သော စာဖတ်သူတစ်ဦး ဖြစ်လာစေပါသည်\" ဟု ပြောခဲ့သည်။ ဒီတစ်ဂျာတစ်ခုလုံးမှာ သင်ယူခဲ့ရသမျှများအတွက် ဂုဏ်ယူစွာ လူတိုင်း အားပေးကြွေးကြော်ခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What event did Ms. Thandar announce?",
+            questionMy: "ဆရာမ သန္တာသည် ဘယ်ပွဲတော်ကို ကြေညာခဲ့သနည်း။",
+            optionsEn: [
+              "The Nova School Reading Challenge",
+              "A sports day",
+              "A cooking contest",
+              "A painting show",
+            ],
+            optionsMy: [
+              "The Nova School Reading Challenge",
+              "A sports day",
+              "A cooking contest",
+              "A painting show",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What strategies did Tin use at the first station?",
+            questionMy: "ပထမစခန်းတွင် တင် ဘယ်နည်းဗျူဟာများကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Skimming and scanning",
+              "Predicting only",
+              "Drawing pictures",
+              "Singing songs",
+            ],
+            optionsMy: [
+              "Skimming and scanning",
+              "Predicting only",
+              "Drawing pictures",
+              "Singing songs",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi infer at the second station?",
+            questionMy: "ဒုတိယစခန်းတွင် နေချည် ဘာကို ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "The family dog probably knocked over the cookie jar",
+              "A person stole the cookies",
+              "It started raining",
+              "The window broke itself",
+            ],
+            optionsMy: [
+              "The family dog probably knocked over the cookie jar",
+              "A person stole the cookies",
+              "It started raining",
+              "The window broke itself",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the main idea Moe Moe found at the third station?",
+            questionMy: "တတိယစခန်းတွင် မိုးမိုး တွေ့ခဲ့သော အဓိက အကြောင်းအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Rainforests are home to millions of living things",
+              "Rainforests are always sunny",
+              "Rainforests have no animals",
+              "Rainforests are found in Myanmar only",
+            ],
+            optionsMy: [
+              "Rainforests are home to millions of living things",
+              "Rainforests are always sunny",
+              "Rainforests have no animals",
+              "Rainforests are found in Myanmar only",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what do all these strategies help you become?",
+            questionMy: "ဆရာမ သန္တာအရ ဒီနည်းဗျူဟာများအားလုံးသည် သင့်အား မည်သို့ ဖြစ်လာစေသနည်း။",
+            optionsEn: [
+              "A stronger, faster, and smarter reader",
+              "A faster runner",
+              "A better artist",
+              "A quieter student",
+            ],
+            optionsMy: [
+              "A stronger, faster, and smarter reader",
+              "A faster runner",
+              "A better artist",
+              "A quieter student",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w16-d4",
+      dayNumber: 4,
+      titleEn: "Sort by Skill",
+      titleMy: "ကျွမ်းကျင်မှုအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reading Strategy", "Inference", "Main Idea / Detail"],
+        bucketsMy: ["စာဖတ်နည်းဗျူဟာ", "ကောက်ချက်ချခြင်း", "အဓိက အကြောင်းအရာ / အသေးစိတ်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w16-sort-1",
+            labelEn: "Skimming for the general idea",
+            labelMy: "ယေဘုယျအတွက် skimming ဖတ်ခြင်း",
+            correctBucketEn: "Reading Strategy",
+            correctBucketMy: "စာဖတ်နည်းဗျူဟာ",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-2",
+            labelEn: "Scanning for one detail",
+            labelMy: "အသေးစိတ်တစ်ခုအတွက် scanning ဖတ်ခြင်း",
+            correctBucketEn: "Reading Strategy",
+            correctBucketMy: "စာဖတ်နည်းဗျူဟာ",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-3",
+            labelEn: "Predicting before reading",
+            labelMy: "မဖတ်မီ ခန့်မှန်းခြင်း",
+            correctBucketEn: "Reading Strategy",
+            correctBucketMy: "စာဖတ်နည်းဗျူဟာ",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-4",
+            labelEn: "Muddy footprints mean the dog ran outside",
+            labelMy: "ရွှံ့ခြေရာများက ခွေးသည် အပြင်ထွက်ပြေးကြောင်း ဆိုလိုသည်",
+            correctBucketEn: "Inference",
+            correctBucketMy: "ကောက်ချက်ချခြင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-5",
+            labelEn: "A nervous character is probably scared",
+            labelMy: "စိတ်လှုပ်ရှားနေသော ဇာတ်ကောင်သည် ကြောက်နေဟန်ရှိသည်",
+            correctBucketEn: "Inference",
+            correctBucketMy: "ကောက်ချက်ချခြင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-6",
+            labelEn: "Wet umbrella means it rained",
+            labelMy: "စိုနေသော ထီးသည် မိုးရွာခဲ့ကြောင်း ဆိုလိုသည်",
+            correctBucketEn: "Inference",
+            correctBucketMy: "ကောက်ချက်ချခြင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-7",
+            labelEn: "What the whole paragraph is mostly about",
+            labelMy: "စာပိုဒ်တစ်ခုလုံး အဓိကအားဖြင့် ဘာအကြောင်းလဲ",
+            correctBucketEn: "Main Idea / Detail",
+            correctBucketMy: "အဓိက အကြောင်းအရာ / အသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-8",
+            labelEn: "A fact that supports the main idea",
+            labelMy: "အဓိက အကြောင်းအရာကို ထောက်ခံသော အချက်",
+            correctBucketEn: "Main Idea / Detail",
+            correctBucketMy: "အဓိက အကြောင်းအရာ / အသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w16-sort-9",
+            labelEn: "The topic sentence of a paragraph",
+            labelMy: "စာပိုဒ်တစ်ပိုဒ်၏ ခေါင်းစဉ်ဝါကျ",
+            correctBucketEn: "Main Idea / Detail",
+            correctBucketMy: "အဓိက အကြောင်းအရာ / အသေးစိတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w16-d5",
+      dayNumber: 5,
+      titleEn: "Reading Challenge Recap",
+      titleMy: "စာဖတ်စွမ်းရည် စိန်ခေါ်ပွဲ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Reading quickly to get the general idea is called...",
+          questionMy: "ယေဘုယျအကြောင်းအရာ ရယူရန် လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["skimming", "scanning", "predicting", "inferring"],
+          optionsMy: ["skimming", "scanning", "predicting", "inferring"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using clues plus what you know to figure out something not directly stated is called...",
+          questionMy:
+              "တိုက်ရိုက်မဖော်ပြထားသော အရာကို ရှာဖွေရန် အချက်များနှင့် မိမိသိပြီးသားအရာများကို ပေါင်းစပ်အသုံးပြုခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          optionsMy: [
+            "making an inference",
+            "skimming",
+            "scanning",
+            "predicting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What a text is mostly about is called the...",
+          questionMy: "စာသားတစ်ခု အဓိကအားဖြင့် ဘာအကြောင်းလဲဆိုသည်ကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "main idea",
+            "supporting detail",
+            "title only",
+            "footnote",
+          ],
+          optionsMy: [
+            "main idea",
+            "supporting detail",
+            "title only",
+            "footnote",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Facts that support the main idea are called...",
+          questionMy: "အဓိက အကြောင်းအရာကို ထောက်ခံသော အချက်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "supporting details",
+            "main ideas",
+            "predictions",
+            "inferences",
+          ],
+          optionsMy: [
+            "supporting details",
+            "main ideas",
+            "predictions",
+            "inferences",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Looking for one exact word or fact quickly is called...",
+          questionMy: "စကားလုံး (သို့) အချက်တစ်ခုတည်းကို လျင်မြန်စွာ ရှာဖွေခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "skimming", "predicting", "reviewing"],
+          optionsMy: ["scanning", "skimming", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm4 = CourseTermDef(
+  id: "course-year4-english-t4",
+  termNumber: 4,
+  titleEn: "Reading Comprehension and Inference",
+  titleMy: "စာဖတ်နားလည်မှုနှင့် ကောက်ချက်ချခြင်း",
+  certificateTitleEn: "Reading Comprehension and Inference",
+  certificateTitleMy: "စာဖတ်နားလည်မှုနှင့် ကောက်ချက်ချခြင်း",
+  weeks: [
+    _year4EnglishWeek13,
+    _year4EnglishWeek14,
+    _year4EnglishWeek15,
+    _year4EnglishWeek16,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 5, Week 17: "Verb Tenses"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek17 = CourseWeekDef(
+  id: "course-year4-english-w17",
+  weekNumber: 17,
+  titleEn: "Verb Tenses",
+  titleMy: "ကြိယာ ကာလများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w17-d1",
+      dayNumber: 1,
+      titleEn: "Past, Present, and Future",
+      titleMy: "အတိတ်၊ ပစ္စုပ္ပန်နှင့် အနာဂတ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action already finished is in the...",
+          questionMy: "ပြီးဆုံးသွားသော လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action happening right now is in the...",
+          questionMy: "ယခုလက်ရှိ ဖြစ်ပျက်နေသော လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "present tense",
+            "past tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "present tense",
+            "past tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action that will happen later is in the...",
+          questionMy: "နောက်မှ ဖြစ်လာမည့် လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "future tense",
+            "past tense",
+            "present tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "future tense",
+            "past tense",
+            "present tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is in the past tense?",
+          questionMy: "ဘယ်ဝါကျသည် အတိတ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "Tin walked to school.",
+            "Tin walks to school.",
+            "Tin will walk to school.",
+            "Tin is walking to school.",
+          ],
+          optionsMy: [
+            "Tin walked to school.",
+            "Tin walks to school.",
+            "Tin will walk to school.",
+            "Tin is walking to school.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is in the present tense?",
+          questionMy: "ဘယ်ဝါကျသည် ပစ္စုပ္ပန်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "Moe Moe reads a book every day.",
+            "Moe Moe read a book yesterday.",
+            "Moe Moe will read a book tomorrow.",
+            "Moe Moe had read a book.",
+          ],
+          optionsMy: [
+            "Moe Moe reads a book every day.",
+            "Moe Moe read a book yesterday.",
+            "Moe Moe will read a book tomorrow.",
+            "Moe Moe had read a book.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is in the future tense?",
+          questionMy: "ဘယ်ဝါကျသည် အနာဂတ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "Nay Chi will plant flowers tomorrow.",
+            "Nay Chi planted flowers yesterday.",
+            "Nay Chi plants flowers every week.",
+            "Nay Chi is a gardener.",
+          ],
+          optionsMy: [
+            "Nay Chi will plant flowers tomorrow.",
+            "Nay Chi planted flowers yesterday.",
+            "Nay Chi plants flowers every week.",
+            "Nay Chi is a gardener.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Many past tense verbs end in...",
+          questionMy: "အတိတ်ကာလ ကြိယာအများစုသည် ဘာဖြင့် အဆုံးသတ်လေ့ရှိသနည်း။",
+          optionsEn: ["-ed", "-ing", "will", "-s"],
+          optionsMy: ["-ed", "-ing", "will", "-s"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The word \"will\" often signals which tense?",
+          questionMy: "\"will\" ဟူသောစကားလုံးသည် မကြာခဏ ဘယ်ကာလကို ညွှန်ပြသနည်း။",
+          optionsEn: ["future tense", "past tense", "present tense", "no tense"],
+          optionsMy: ["future tense", "past tense", "present tense", "no tense"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match the Tense",
+      titleMy: "ကာလကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w17-dm-1",
+          termEn: "Tin walked to school yesterday.",
+          termMy: "Tin walked to school yesterday.",
+          matchEn: "Past tense -- already happened",
+          matchMy: "အတိတ်ကာလ -- ဖြစ်ပြီးသား",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-2",
+          termEn: "Tin walks to school every day.",
+          termMy: "Tin walks to school every day.",
+          matchEn: "Present tense -- happening now or regularly",
+          matchMy: "ပစ္စုပ္ပန်ကာလ -- ယခုဖြစ်နေ (သို့) ပုံမှန်ဖြစ်နေ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-3",
+          termEn: "Tin will walk to school tomorrow.",
+          termMy: "Tin will walk to school tomorrow.",
+          matchEn: "Future tense -- will happen later",
+          matchMy: "အနာဂတ်ကာလ -- နောက်မှဖြစ်မည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-4",
+          termEn: "Moe Moe read her book last night.",
+          termMy: "Moe Moe read her book last night.",
+          matchEn: "Past tense -- already happened",
+          matchMy: "အတိတ်ကာလ -- ဖြစ်ပြီးသား",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-5",
+          termEn: "Moe Moe reads every night.",
+          termMy: "Moe Moe reads every night.",
+          matchEn: "Present tense -- happening now or regularly",
+          matchMy: "ပစ္စုပ္ပန်ကာလ -- ယခုဖြစ်နေ (သို့) ပုံမှန်ဖြစ်နေ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-6",
+          termEn: "Moe Moe will read a new book soon.",
+          termMy: "Moe Moe will read a new book soon.",
+          matchEn: "Future tense -- will happen later",
+          matchMy: "အနာဂတ်ကာလ -- နောက်မှဖြစ်မည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-7",
+          termEn: "Nay Chi planted seeds last week.",
+          termMy: "Nay Chi planted seeds last week.",
+          matchEn: "Past tense -- already happened",
+          matchMy: "အတိတ်ကာလ -- ဖြစ်ပြီးသား",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w17-dm-8",
+          termEn: "Nay Chi will water the garden tomorrow.",
+          termMy: "Nay Chi will water the garden tomorrow.",
+          matchEn: "Future tense -- will happen later",
+          matchMy: "အနာဂတ်ကာလ -- နောက်မှဖြစ်မည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w17-d3",
+      dayNumber: 3,
+      titleEn: "Tin's Three-Day Journal",
+      titleMy: "တင်၏ သုံးရက်တာ မှတ်တမ်းစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tin's Three-Day Journal",
+        titleMy: "တင်၏ သုံးရက်တာ မှတ်တမ်းစာအုပ်",
+        passageEn:
+            "For his journal assignment, Tin wrote about yesterday, today, and tomorrow using three different tenses. \"Yesterday, I visited my grandmother's house and helped her pick mangoes from the tree,\" he wrote in the past tense. \"Today, I am writing in my journal and thinking about my favorite memories,\" he wrote in the present tense. \"Tomorrow, I will go to the market with my mother and buy fresh vegetables,\" he wrote in the future tense. Ms. Thandar read his journal and smiled. \"You have used all three tenses perfectly, Tin! Past tense for what already happened, present tense for what is happening now, and future tense for what will happen later.\" Tin felt proud that he could talk about his whole life -- yesterday, today, and tomorrow -- just by choosing the right verb tense.",
+        passageMy:
+            "မိမိ၏ မှတ်တမ်းစာအုပ် အလုပ်ပေးမေးခွန်းအတွက် တင်သည် မနေ့က၊ ဒီနေ့နှင့် မနက်ဖြန်အကြောင်းကို ကာလသုံးမျိုးကွဲပြားစွာ သုံး၍ ရေးသားခဲ့သည်။ \"မနေ့က ကျွန်တော် အဖွား့အိမ်ကို သွားခဲ့ပြီး သရက်ပင်ပေါ်က သရက်သီးတွေ ဆွတ်ခူးဖို့ ကူညီခဲ့ပါတယ်\" ဟု အတိတ်ကာလဖြင့် ရေးခဲ့သည်။ \"ဒီနေ့ ကျွန်တော် မှတ်တမ်းစာအုပ်ထဲမှာ ရေးနေပြီး အကြိုက်ဆုံးအမှတ်တရတွေကို တွေးနေပါတယ်\" ဟု ပစ္စုပ္ပန်ကာလဖြင့် ရေးခဲ့သည်။ \"မနက်ဖြန် ကျွန်တော် အမေနဲ့အတူ ဈေးထဲကို သွားပြီး လတ်ဆတ်တဲ့ ဟင်းသီးဟင်းရွက်တွေ ဝယ်ပါမယ်\" ဟု အနာဂတ်ကာလဖြင့် ရေးခဲ့သည်။ ဆရာမ သန္တာသည် သူ့မှတ်တမ်းစာအုပ်ကို ဖတ်ပြီး ပြုံးလိုက်သည်။ \"တင်ရေ၊ မင်း ကာလသုံးမျိုးလုံးကို ပြီးပြည့်စုံစွာ သုံးထားတာပဲ! ဖြစ်ပြီးသားအတွက် အတိတ်ကာလ၊ လက်ရှိဖြစ်နေတဲ့အရာအတွက် ပစ္စုပ္ပန်ကာလ၊ နောက်ဖြစ်မယ့်အရာအတွက် အနာဂတ်ကာလ\" ဟု ပြောခဲ့သည်။ တင်သည် ကြိယာကာလ မှန်ကန်စွာ ရွေးချယ်ခြင်းဖြင့်သာ မိမိ၏ဘဝတစ်ခုလုံး -- မနေ့က၊ ဒီနေ့နှင့် မနက်ဖြန် -- အကြောင်းကို ပြောပြနိုင်ခဲ့သည့်အတွက် ဂုဏ်ယူမိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Tin write about yesterday?",
+            questionMy: "တင် မနေ့ကအကြောင်းကို ဘာရေးခဲ့သနည်း။",
+            optionsEn: [
+              "Visiting his grandmother's house and picking mangoes",
+              "Going to the market",
+              "Writing his journal",
+              "Doing homework",
+            ],
+            optionsMy: [
+              "Visiting his grandmother's house and picking mangoes",
+              "Going to the market",
+              "Writing his journal",
+              "Doing homework",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What tense did Tin use to write about today?",
+            questionMy: "ဒီနေ့အကြောင်း ရေးရာတွင် တင် ဘယ်ကာလကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Present tense",
+              "Past tense",
+              "Future tense",
+              "No tense",
+            ],
+            optionsMy: [
+              "Present tense",
+              "Past tense",
+              "Future tense",
+              "No tense",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What will Tin do tomorrow, according to his journal?",
+            questionMy: "မှတ်တမ်းစာအုပ်အရ တင် မနက်ဖြန် ဘာလုပ်မည်နည်း။",
+            optionsEn: [
+              "Go to the market and buy fresh vegetables",
+              "Visit his grandmother",
+              "Plant a garden",
+              "Read a new book",
+            ],
+            optionsMy: [
+              "Go to the market and buy fresh vegetables",
+              "Visit his grandmother",
+              "Plant a garden",
+              "Read a new book",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar praise Tin for?",
+            questionMy: "ဆရာမ သန္တာသည် တင်ကို ဘာအတွက် ချီးမွမ်းခဲ့သနည်း။",
+            optionsEn: [
+              "Using all three tenses perfectly",
+              "Writing the longest journal",
+              "Using the most mangoes",
+              "Drawing a picture",
+            ],
+            optionsMy: [
+              "Using all three tenses perfectly",
+              "Writing the longest journal",
+              "Using the most mangoes",
+              "Drawing a picture",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which tense is used for something that already happened?",
+            questionMy: "ဖြစ်ပြီးသားအရာအတွက် ဘယ်ကာလကို သုံးသနည်း။",
+            optionsEn: [
+              "Past tense",
+              "Present tense",
+              "Future tense",
+              "None of these",
+            ],
+            optionsMy: [
+              "Past tense",
+              "Present tense",
+              "Future tense",
+              "None of these",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w17-d4",
+      dayNumber: 4,
+      titleEn: "Sort by Tense",
+      titleMy: "ကာလအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Past Tense", "Present Tense", "Future Tense"],
+        bucketsMy: ["အတိတ်ကာလ", "ပစ္စုပ္ပန်ကာလ", "အနာဂတ်ကာလ"],
+        items: [
+          SortingItem(
+            id: "y4eng-w17-sort-1",
+            labelEn: "Tin walked to school yesterday.",
+            labelMy: "Tin walked to school yesterday.",
+            correctBucketEn: "Past Tense",
+            correctBucketMy: "အတိတ်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-2",
+            labelEn: "Tin walks to school every day.",
+            labelMy: "Tin walks to school every day.",
+            correctBucketEn: "Present Tense",
+            correctBucketMy: "ပစ္စုပ္ပန်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-3",
+            labelEn: "Tin will walk to school tomorrow.",
+            labelMy: "Tin will walk to school tomorrow.",
+            correctBucketEn: "Future Tense",
+            correctBucketMy: "အနာဂတ်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-4",
+            labelEn: "Moe Moe read her book last night.",
+            labelMy: "Moe Moe read her book last night.",
+            correctBucketEn: "Past Tense",
+            correctBucketMy: "အတိတ်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-5",
+            labelEn: "Moe Moe reads every night.",
+            labelMy: "Moe Moe reads every night.",
+            correctBucketEn: "Present Tense",
+            correctBucketMy: "ပစ္စုပ္ပန်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-6",
+            labelEn: "Moe Moe will read a new book soon.",
+            labelMy: "Moe Moe will read a new book soon.",
+            correctBucketEn: "Future Tense",
+            correctBucketMy: "အနာဂတ်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-7",
+            labelEn: "Nay Chi planted seeds last week.",
+            labelMy: "Nay Chi planted seeds last week.",
+            correctBucketEn: "Past Tense",
+            correctBucketMy: "အတိတ်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-8",
+            labelEn: "Nay Chi waters the garden every morning.",
+            labelMy: "Nay Chi waters the garden every morning.",
+            correctBucketEn: "Present Tense",
+            correctBucketMy: "ပစ္စုပ္ပန်ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w17-sort-9",
+            labelEn: "Nay Chi will water the garden tomorrow.",
+            labelMy: "Nay Chi will water the garden tomorrow.",
+            correctBucketEn: "Future Tense",
+            correctBucketMy: "အနာဂတ်ကာလ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w17-d5",
+      dayNumber: 5,
+      titleEn: "Verb Tenses Recap",
+      titleMy: "ကြိယာ ကာလများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action already finished is in the...",
+          questionMy: "ပြီးဆုံးသွားသော လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action happening right now is in the...",
+          questionMy: "ယခုလက်ရှိ ဖြစ်ပျက်နေသော လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "present tense",
+            "past tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "present tense",
+            "past tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A verb that shows an action that will happen later is in the...",
+          questionMy: "နောက်မှ ဖြစ်လာမည့် လုပ်ဆောင်ချက်ကို ပြသော ကြိယာသည် ဘယ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "future tense",
+            "past tense",
+            "present tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "future tense",
+            "past tense",
+            "present tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is in the past tense?",
+          questionMy: "ဘယ်ဝါကျသည် အတိတ်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "Tin walked to school.",
+            "Tin walks to school.",
+            "Tin will walk to school.",
+            "Tin is walking to school.",
+          ],
+          optionsMy: [
+            "Tin walked to school.",
+            "Tin walks to school.",
+            "Tin will walk to school.",
+            "Tin is walking to school.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is in the present tense?",
+          questionMy: "ဘယ်ဝါကျသည် ပစ္စုပ္ပန်ကာလတွင် ရှိသနည်း။",
+          optionsEn: [
+            "Moe Moe reads a book every day.",
+            "Moe Moe read a book yesterday.",
+            "Moe Moe will read a book tomorrow.",
+            "Moe Moe had read a book.",
+          ],
+          optionsMy: [
+            "Moe Moe reads a book every day.",
+            "Moe Moe read a book yesterday.",
+            "Moe Moe will read a book tomorrow.",
+            "Moe Moe had read a book.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 5, Week 18: "Pronouns in Action"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek18 = CourseWeekDef(
+  id: "course-year4-english-w18",
+  weekNumber: 18,
+  titleEn: "Pronouns in Action",
+  titleMy: "နာမ်စားများ အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w18-d1",
+      dayNumber: 1,
+      titleEn: "Personal and Possessive Pronouns",
+      titleMy: "ပုဂ္ဂလနှင့် ပိုင်ဆိုင်မှုပြ နာမ်စားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A word that takes the place of a noun is called a...",
+          questionMy: "နာမ်တစ်ခု၏ နေရာကို ယူသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["pronoun", "verb", "adjective", "conjunction"],
+          optionsMy: ["pronoun", "verb", "adjective", "conjunction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a personal pronoun?",
+          questionMy: "ပုဂ္ဂလနာမ်စား ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["she", "happy", "quickly", "jump"],
+          optionsMy: ["she", "happy", "quickly", "jump"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word that shows ownership, like \"my\" or \"her,\" is called a...",
+          questionMy:
+              "\"my\" (သို့) \"her\" ကဲ့သို့ ပိုင်ဆိုင်မှုကို ပြသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "adjective",
+          ],
+          optionsMy: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "adjective",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"Tin lost his pencil,\" which word is a possessive pronoun?",
+          questionMy: "\"Tin lost his pencil\" တွင် ဘယ်စကားလုံးသည် ပိုင်ဆိုင်မှုပြနာမ်စားဖြစ်သနည်း။",
+          optionsEn: ["his", "lost", "pencil", "Tin"],
+          optionsMy: ["his", "lost", "pencil", "Tin"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Replace \"Moe Moe\" with the correct personal pronoun: \"___ is reading a book.\"",
+          questionMy:
+              "\"Moe Moe\" ကို မှန်ကန်သော ပုဂ္ဂလနာမ်စားဖြင့် အစားထိုးပါ -- \"___ is reading a book.\"",
+          optionsEn: ["She", "He", "They", "It"],
+          optionsMy: ["She", "He", "They", "It"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence correctly uses a pronoun instead of repeating a name?",
+          questionMy: "အမည်ကို ထပ်ခါထပ်ခါမသုံးဘဲ နာမ်စားကို မှန်ကန်စွာ သုံးထားသော ဝါကျမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Nay Chi planted flowers. She watered them every day.",
+            "Nay Chi planted flowers. Nay Chi watered Nay Chi's flowers every day.",
+            "Flowers planted Nay Chi.",
+            "Nay Chi flowers watered.",
+          ],
+          optionsMy: [
+            "Nay Chi planted flowers. She watered them every day.",
+            "Nay Chi planted flowers. Nay Chi watered Nay Chi's flowers every day.",
+            "Flowers planted Nay Chi.",
+            "Nay Chi flowers watered.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is a possessive pronoun for a group of people (including yourself)?",
+          questionMy: "မိမိအပါအဝင် လူအုပ်စုတစ်ခုအတွက် ပိုင်ဆိုင်မှုပြနာမ်စားက အဘယ်နည်း။",
+          optionsEn: ["our", "I", "they", "it"],
+          optionsMy: ["our", "I", "they", "it"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do we use pronouns?",
+          questionMy: "ငါတို့ ဘာကြောင့် နာမ်စားများကို သုံးကြသနည်း။",
+          optionsEn: [
+            "To avoid repeating the same noun again and again",
+            "To make sentences longer",
+            "To confuse the reader",
+            "To replace verbs",
+          ],
+          optionsMy: [
+            "To avoid repeating the same noun again and again",
+            "To make sentences longer",
+            "To confuse the reader",
+            "To replace verbs",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match the Pronoun",
+      titleMy: "နာမ်စားကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w18-dm-1",
+          termEn: "she",
+          termMy: "she",
+          matchEn: "Personal pronoun -- replaces a girl's or woman's name",
+          matchMy: "ပုဂ္ဂလနာမ်စား -- မိန်းကလေး (သို့) အမျိုးသမီး၏ အမည်ကို အစားထိုးသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-2",
+          termEn: "he",
+          termMy: "he",
+          matchEn: "Personal pronoun -- replaces a boy's or man's name",
+          matchMy: "ပုဂ္ဂလနာမ်စား -- ယောက်ျားလေး (သို့) အမျိုးသား၏ အမည်ကို အစားထိုးသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-3",
+          termEn: "they",
+          termMy: "they",
+          matchEn: "Personal pronoun -- replaces more than one person",
+          matchMy: "ပုဂ္ဂလနာမ်စား -- လူတစ်ဦးထက်ပို၍ အစားထိုးသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-4",
+          termEn: "it",
+          termMy: "it",
+          matchEn: "Personal pronoun -- replaces a thing or animal",
+          matchMy: "ပုဂ္ဂလနာမ်စား -- အရာဝတ္ထု (သို့) တိရစ္ဆာန်ကို အစားထိုးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-5",
+          termEn: "my",
+          termMy: "my",
+          matchEn: "Possessive pronoun -- shows something belongs to me",
+          matchMy: "ပိုင်ဆိုင်မှုပြနာမ်စား -- ကျွန်ုပ်ပိုင်ဆိုင်ကြောင်း ပြသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-6",
+          termEn: "his",
+          termMy: "his",
+          matchEn: "Possessive pronoun -- shows something belongs to him",
+          matchMy: "ပိုင်ဆိုင်မှုပြနာမ်စား -- သူပိုင်ဆိုင်ကြောင်း ပြသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-7",
+          termEn: "her",
+          termMy: "her",
+          matchEn: "Possessive pronoun -- shows something belongs to her",
+          matchMy: "ပိုင်ဆိုင်မှုပြနာမ်စား -- သူမပိုင်ဆိုင်ကြောင်း ပြသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w18-dm-8",
+          termEn: "our",
+          termMy: "our",
+          matchEn: "Possessive pronoun -- shows something belongs to us",
+          matchMy: "ပိုင်ဆိုင်မှုပြနာမ်စား -- ငါတို့ပိုင်ဆိုင်ကြောင်း ပြသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w18-d3",
+      dayNumber: 3,
+      titleEn: "Nay Chi's Garden Story, Retold",
+      titleMy: "နေချည်၏ ဥယျာဉ်ဇာတ်လမ်း၊ ပြန်ရေးထားသည်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Garden Story, Retold",
+        titleMy: "နေချည်၏ ဥယျာဉ်ဇာတ်လမ်း၊ ပြန်ရေးထားသည်",
+        passageEn:
+            "Ms. Thandar asked the class to fix a paragraph that repeated the same names too many times. The first version said: \"Nay Chi has a garden. Nay Chi's garden has tomatoes. Nay Chi waters Nay Chi's garden every morning. Nay Chi's friends help Nay Chi's garden grow.\" Tin raised his hand and said, \"That sounds strange -- we should use pronouns instead!\" Together, the class rewrote it: \"Nay Chi has a garden. Her garden has tomatoes. She waters it every morning. Her friends help her garden grow.\" Ms. Thandar smiled. \"Much better! We used 'her' as a possessive pronoun and 'she' and 'it' as personal pronouns. Pronouns make our writing smoother and easier to read.\"",
+        passageMy:
+            "ဆရာမ သန္တာသည် အမည်တစ်ခုတည်းကို အကြိမ်များစွာ ထပ်ခါထပ်ခါ သုံးထားသော စာပိုဒ်တစ်ခုကို ပြင်ဆင်ရန် အတန်းသားများကို တောင်းဆိုခဲ့သည်။ ပထမမူကူးတွင် ဤသို့ပါရှိသည် -- \"နေချည်တွင် ဥယျာဉ်တစ်ခုရှိသည်။ နေချည်၏ဥယျာဉ်တွင် ခရမ်းချဉ်သီးများရှိသည်။ နေချည်သည် နေချည်၏ဥယျာဉ်ကို နေ့တိုင်းမနက် ရေလောင်းသည်။ နေချည်၏သူငယ်ချင်းများသည် နေချည်၏ဥယျာဉ် ကြီးထွားရန် ကူညီကြသည်။\" တင်က လက်ထောင်ပြီး \"ဒါက ထူးဆန်းနေတယ် -- ငါတို့ နာမ်စားတွေ သုံးသင့်တယ်!\" ဟု ပြောခဲ့သည်။ အတန်းသားများ အတူတကွ ၎င်းကို ပြန်ရေးခဲ့ကြသည် -- \"နေချည်တွင် ဥယျာဉ်တစ်ခုရှိသည်။ သူမ၏ ဥယျာဉ်တွင် ခရမ်းချဉ်သီးများရှိသည်။ သူမသည် ၎င်းကို နေ့တိုင်းမနက် ရေလောင်းသည်။ သူမ၏သူငယ်ချင်းများသည် သူမ၏ဥယျာဉ် ကြီးထွားရန် ကူညီကြသည်။\" ဆရာမ သန္တာက ပြုံးလိုက်သည်။ \"ပိုကောင်းသွားပြီ! ငါတို့ 'her' ကို ပိုင်ဆိုင်မှုပြနာမ်စားအဖြစ်နှင့် 'she' နှင့် 'it' ကို ပုဂ္ဂလနာမ်စားများအဖြစ် သုံးခဲ့ကြတယ်။ နာမ်စားများသည် ငါတို့၏ အရေးအသားကို ချောမွေ့ပြီး ဖတ်ရလွယ်ကူစေတယ်\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar ask the class to fix?",
+            questionMy: "ဆရာမ သန္တာသည် အတန်းသားများအား ဘာကို ပြင်ဆင်ရန် တောင်းဆိုခဲ့သနည်း။",
+            optionsEn: [
+              "A paragraph that repeated the same name too many times",
+              "A math problem",
+              "A drawing",
+              "A song",
+            ],
+            optionsMy: [
+              "A paragraph that repeated the same name too many times",
+              "A math problem",
+              "A drawing",
+              "A song",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Who suggested using pronouns instead?",
+            questionMy: "နာမ်စားများသုံးရန် ဘယ်သူ အကြံပြုခဲ့သနည်း။",
+            optionsEn: ["Tin", "Moe Moe", "Ms. Thandar", "Nay Chi"],
+            optionsMy: ["Tin", "Moe Moe", "Ms. Thandar", "Nay Chi"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does the garden have, according to the passage?",
+            questionMy: "စာပိုဒ်အရ ဥယျာဉ်တွင် ဘာရှိသနည်း။",
+            optionsEn: ["Tomatoes", "Mangoes", "Flowers", "Rice"],
+            optionsMy: ["Tomatoes", "Mangoes", "Flowers", "Rice"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which word did the class use as a possessive pronoun in the new version?",
+            questionMy: "မူသစ်တွင် အတန်းသားများသည် ဘယ်စကားလုံးကို ပိုင်ဆိုင်မှုပြနာမ်စားအဖြစ် သုံးခဲ့သနည်း။",
+            optionsEn: ["her", "she", "it", "Nay Chi"],
+            optionsMy: ["her", "she", "it", "Nay Chi"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what do pronouns do for our writing?",
+            questionMy: "ဆရာမ သန္တာအရ နာမ်စားများသည် ငါတို့ အရေးအသားအတွက် ဘာလုပ်ပေးသနည်း။",
+            optionsEn: [
+              "Make it smoother and easier to read",
+              "Make it longer",
+              "Make it harder to understand",
+              "Make it shorter than needed",
+            ],
+            optionsMy: [
+              "Make it smoother and easier to read",
+              "Make it longer",
+              "Make it harder to understand",
+              "Make it shorter than needed",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w18-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Pronouns",
+      titleMy: "နာမ်စားများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Personal Pronoun", "Possessive Pronoun"],
+        bucketsMy: ["ပုဂ္ဂလနာမ်စား", "ပိုင်ဆိုင်မှုပြ နာမ်စား"],
+        items: [
+          SortingItem(
+            id: "y4eng-w18-sort-1",
+            labelEn: "she",
+            labelMy: "she",
+            correctBucketEn: "Personal Pronoun",
+            correctBucketMy: "ပုဂ္ဂလနာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-2",
+            labelEn: "he",
+            labelMy: "he",
+            correctBucketEn: "Personal Pronoun",
+            correctBucketMy: "ပုဂ္ဂလနာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-3",
+            labelEn: "they",
+            labelMy: "they",
+            correctBucketEn: "Personal Pronoun",
+            correctBucketMy: "ပုဂ္ဂလနာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-4",
+            labelEn: "it",
+            labelMy: "it",
+            correctBucketEn: "Personal Pronoun",
+            correctBucketMy: "ပုဂ္ဂလနာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-5",
+            labelEn: "my",
+            labelMy: "my",
+            correctBucketEn: "Possessive Pronoun",
+            correctBucketMy: "ပိုင်ဆိုင်မှုပြ နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-6",
+            labelEn: "his",
+            labelMy: "his",
+            correctBucketEn: "Possessive Pronoun",
+            correctBucketMy: "ပိုင်ဆိုင်မှုပြ နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-7",
+            labelEn: "her",
+            labelMy: "her",
+            correctBucketEn: "Possessive Pronoun",
+            correctBucketMy: "ပိုင်ဆိုင်မှုပြ နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-8",
+            labelEn: "our",
+            labelMy: "our",
+            correctBucketEn: "Possessive Pronoun",
+            correctBucketMy: "ပိုင်ဆိုင်မှုပြ နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w18-sort-9",
+            labelEn: "their",
+            labelMy: "their",
+            correctBucketEn: "Possessive Pronoun",
+            correctBucketMy: "ပိုင်ဆိုင်မှုပြ နာမ်စား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w18-d5",
+      dayNumber: 5,
+      titleEn: "Pronouns Recap",
+      titleMy: "နာမ်စားများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A word that takes the place of a noun is called a...",
+          questionMy: "နာမ်တစ်ခု၏ နေရာကို ယူသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["pronoun", "verb", "adjective", "conjunction"],
+          optionsMy: ["pronoun", "verb", "adjective", "conjunction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a personal pronoun?",
+          questionMy: "ပုဂ္ဂလနာမ်စား ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: ["she", "happy", "quickly", "jump"],
+          optionsMy: ["she", "happy", "quickly", "jump"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word that shows ownership, like \"my\" or \"her,\" is called a...",
+          questionMy:
+              "\"my\" (သို့) \"her\" ကဲ့သို့ ပိုင်ဆိုင်မှုကို ပြသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "adjective",
+          ],
+          optionsMy: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "adjective",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"Tin lost his pencil,\" which word is a possessive pronoun?",
+          questionMy: "\"Tin lost his pencil\" တွင် ဘယ်စကားလုံးသည် ပိုင်ဆိုင်မှုပြနာမ်စားဖြစ်သနည်း။",
+          optionsEn: ["his", "lost", "pencil", "Tin"],
+          optionsMy: ["his", "lost", "pencil", "Tin"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Replace \"Moe Moe\" with the correct personal pronoun: \"___ is reading a book.\"",
+          questionMy:
+              "\"Moe Moe\" ကို မှန်ကန်သော ပုဂ္ဂလနာမ်စားဖြင့် အစားထိုးပါ -- \"___ is reading a book.\"",
+          optionsEn: ["She", "He", "They", "It"],
+          optionsMy: ["She", "He", "They", "It"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 5, Week 19: "Conjunctions"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek19 = CourseWeekDef(
+  id: "course-year4-english-w19",
+  weekNumber: 19,
+  titleEn: "Conjunctions",
+  titleMy: "စကားဆက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w19-d1",
+      dayNumber: 1,
+      titleEn: "And, But, Or, Because",
+      titleMy: "And, But, Or, Because",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A word that joins two words, phrases, or sentences together is called a...",
+          questionMy: "စကားလုံး၊ စကားစုများ (သို့) ဝါကျများကို ချိတ်ဆက်ပေးသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["conjunction", "pronoun", "verb", "adjective"],
+          optionsMy: ["conjunction", "pronoun", "verb", "adjective"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction joins two similar ideas?",
+          questionMy: "ဘယ်စကားဆက်သည် ဆင်တူအယူအဆနှစ်ခုကို ချိတ်ဆက်သနည်း။",
+          optionsEn: ["and", "but", "or", "because"],
+          optionsMy: ["and", "but", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows a contrast between two ideas?",
+          questionMy: "ဘယ်စကားဆက်သည် အယူအဆနှစ်ခုကြား ဆန့်ကျင်ဘက်ကို ပြသနည်း။",
+          optionsEn: ["but", "and", "or", "because"],
+          optionsMy: ["but", "and", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows a choice between two things?",
+          questionMy: "ဘယ်စကားဆက်သည် အရာနှစ်ခုကြား ရွေးချယ်မှုကို ပြသနည်း။",
+          optionsEn: ["or", "and", "but", "because"],
+          optionsMy: ["or", "and", "but", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction gives a reason for something?",
+          questionMy: "ဘယ်စကားဆက်သည် တစ်ခုခုအတွက် အကြောင်းရင်းကို ပေးသနည်း။",
+          optionsEn: ["because", "and", "but", "or"],
+          optionsMy: ["because", "and", "but", "or"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Tin likes mangoes ___ he does not like durians.\" Which word fits best?",
+          questionMy: "\"Tin likes mangoes ___ he does not like durians.\" ဘယ်စကားလုံးက အကိုက်ညီဆုံးနည်း။",
+          optionsEn: ["but", "and", "or", "because"],
+          optionsMy: ["but", "and", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Moe Moe was happy ___ she passed her spelling test.\" Which word fits best?",
+          questionMy: "\"Moe Moe was happy ___ she passed her spelling test.\" ဘယ်စကားလုံးက အကိုက်ညီဆုံးနည်း။",
+          optionsEn: ["because", "but", "or", "and"],
+          optionsMy: ["because", "but", "or", "and"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Would you like rice ___ noodles for lunch?\" Which word fits best?",
+          questionMy: "\"Would you like rice ___ noodles for lunch?\" ဘယ်စကားလုံးက အကိုက်ညီဆုံးနည်း။",
+          optionsEn: ["or", "and", "but", "because"],
+          optionsMy: ["or", "and", "but", "because"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match the Conjunction",
+      titleMy: "စကားဆက်ကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w19-dm-1",
+          termEn: "and",
+          termMy: "and",
+          matchEn: "Joins similar or added ideas",
+          matchMy: "ဆင်တူ (သို့) ထပ်ဆင့်အယူအဆများကို ချိတ်ဆက်သည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-2",
+          termEn: "but",
+          termMy: "but",
+          matchEn: "Shows a contrast or surprising change",
+          matchMy: "ဆန့်ကျင်ဘက် (သို့) အံ့သြဖွယ်ပြောင်းလဲမှုကို ပြသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-3",
+          termEn: "or",
+          termMy: "or",
+          matchEn: "Shows a choice between options",
+          matchMy: "ရွေးချယ်စရာများကြား ရွေးချယ်မှုကို ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-4",
+          termEn: "because",
+          termMy: "because",
+          matchEn: "Gives a reason or cause",
+          matchMy: "အကြောင်းရင်း (သို့) အကြောင်းတရားကို ပေးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-5",
+          termEn: "Tin likes rice and noodles.",
+          termMy: "Tin likes rice and noodles.",
+          matchEn: "Uses 'and' to join two similar things",
+          matchMy: "ဆင်တူအရာနှစ်ခုကို ချိတ်ဆက်ရန် 'and' ကို သုံးထားသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-6",
+          termEn: "Nay Chi is small but strong.",
+          termMy: "Nay Chi is small but strong.",
+          matchEn: "Uses 'but' to show contrast",
+          matchMy: "ဆန့်ကျင်ဘက်ကို ပြရန် 'but' ကို သုံးထားသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-7",
+          termEn: "You can read a book or draw a picture.",
+          termMy: "You can read a book or draw a picture.",
+          matchEn: "Uses 'or' to show a choice",
+          matchMy: "ရွေးချယ်မှုကို ပြရန် 'or' ကို သုံးထားသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w19-dm-8",
+          termEn: "Moe Moe stayed inside because it was raining.",
+          termMy: "Moe Moe stayed inside because it was raining.",
+          matchEn: "Uses 'because' to give a reason",
+          matchMy: "အကြောင်းရင်းပေးရန် 'because' ကို သုံးထားသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w19-d3",
+      dayNumber: 3,
+      titleEn: "Ms. Thandar's Sentence-Joining Game",
+      titleMy: "ဆရာမ သန္တာ၏ ဝါကျချိတ်ဆက်ခြင်း ဂိမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ms. Thandar's Sentence-Joining Game",
+        titleMy: "ဆရာမ သန္တာ၏ ဝါကျချိတ်ဆက်ခြင်း ဂိမ်း",
+        passageEn:
+            "Ms. Thandar played a game with the class: combining two short sentences into one longer, smoother sentence using conjunctions. She wrote on the board: \"Tin likes mangoes. Tin likes bananas.\" Nay Chi raised her hand and joined them: \"Tin likes mangoes and bananas.\" Next, Ms. Thandar wrote: \"Moe Moe wanted to play outside. It was raining.\" Tin combined them using 'but': \"Moe Moe wanted to play outside, but it was raining.\" Then she wrote: \"You can choose rice. You can choose noodles.\" Moe Moe joined them with 'or': \"You can choose rice or noodles.\" Finally, she wrote: \"Nay Chi was tired. She had worked in the garden all morning.\" Tin joined them with 'because': \"Nay Chi was tired because she had worked in the garden all morning.\" Ms. Thandar clapped. \"Conjunctions like 'and,' 'but,' 'or,' and 'because' help us combine ideas into clearer, more interesting sentences!\"",
+        passageMy:
+            "ဆရာမ သန္တာသည် အတန်းသားများနှင့် ဂိမ်းတစ်ခု ကစားခဲ့သည် -- စကားဆက်များကို သုံး၍ ဝါကျတိုနှစ်ကြောင်းကို ရှည်ပြီး ချောမွေ့သော ဝါကျတစ်ကြောင်းအဖြစ် ပေါင်းစပ်ခြင်း။ သူသည် ဘုတ်ပေါ်တွင် ဤသို့ရေးခဲ့သည် -- \"Tin likes mangoes. Tin likes bananas.\" နေချည်သည် လက်ထောင်ပြီး ၎င်းတို့ကို ပေါင်းစပ်ခဲ့သည် -- \"Tin likes mangoes and bananas.\" ထို့နောက် ဆရာမ သန္တာက \"Moe Moe wanted to play outside. It was raining.\" ဟု ရေးခဲ့သည်။ တင်သည် 'but' ကိုသုံး၍ ပေါင်းစပ်ခဲ့သည် -- \"Moe Moe wanted to play outside, but it was raining.\" ထို့နောက် သူက \"You can choose rice. You can choose noodles.\" ဟု ရေးခဲ့သည်။ မိုးမိုးသည် 'or' ကိုသုံး၍ ပေါင်းစပ်ခဲ့သည် -- \"You can choose rice or noodles.\" နောက်ဆုံးတွင် သူက \"Nay Chi was tired. She had worked in the garden all morning.\" ဟု ရေးခဲ့သည်။ တင်သည် 'because' ကိုသုံး၍ ပေါင်းစပ်ခဲ့သည် -- \"Nay Chi was tired because she had worked in the garden all morning.\" ဆရာမ သန္တာသည် လက်ခုပ်တီးခဲ့သည်။ \"'and'၊ 'but'၊ 'or' နှင့် 'because' ကဲ့သို့သော စကားဆက်များသည် ငါတို့ အယူအဆများကို ပိုမိုရှင်းလင်းပြီး စိတ်ဝင်စားစရာကောင်းသော ဝါကျများအဖြစ် ပေါင်းစပ်ရန် ကူညီပေးပါတယ်!\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What game did Ms. Thandar play with the class?",
+            questionMy: "ဆရာမ သန္တာသည် အတန်းသားများနှင့် ဘယ်ဂိမ်းကို ကစားခဲ့သနည်း။",
+            optionsEn: [
+              "Combining two short sentences into one using conjunctions",
+              "A spelling bee",
+              "A math quiz",
+              "A drawing contest",
+            ],
+            optionsMy: [
+              "Combining two short sentences into one using conjunctions",
+              "A spelling bee",
+              "A math quiz",
+              "A drawing contest",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which conjunction did Nay Chi use to join \"Tin likes mangoes\" and \"Tin likes bananas\"?",
+            questionMy: "\"Tin likes mangoes\" နှင့် \"Tin likes bananas\" ကို ပေါင်းစပ်ရန် နေချည် ဘယ်စကားဆက်ကို သုံးခဲ့သနည်း။",
+            optionsEn: ["and", "but", "or", "because"],
+            optionsMy: ["and", "but", "or", "because"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which conjunction did Tin use for Moe Moe wanting to play outside despite the rain?",
+            questionMy: "မိုးရွာနေသော်လည်း အပြင်ကစားလိုသော မိုးမိုးအတွက် တင် ဘယ်စကားဆက်ကို သုံးခဲ့သနည်း။",
+            optionsEn: ["but", "and", "or", "because"],
+            optionsMy: ["but", "and", "or", "because"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which conjunction did Moe Moe use for the rice-or-noodles sentence?",
+            questionMy: "ထမင်း-သို့မဟုတ်-ခေါက်ဆွဲ ဝါကျအတွက် မိုးမိုး ဘယ်စကားဆက်ကို သုံးခဲ့သနည်း။",
+            optionsEn: ["or", "and", "but", "because"],
+            optionsMy: ["or", "and", "but", "because"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what do conjunctions help us do?",
+            questionMy: "ဆရာမ သန္တာအရ စကားဆက်များသည် ငါတို့ကို ဘာလုပ်ရန် ကူညီပေးသနည်း။",
+            optionsEn: [
+              "Combine ideas into clearer, more interesting sentences",
+              "Make sentences shorter",
+              "Avoid using verbs",
+              "Skip punctuation",
+            ],
+            optionsMy: [
+              "Combine ideas into clearer, more interesting sentences",
+              "Make sentences shorter",
+              "Avoid using verbs",
+              "Skip punctuation",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w19-d4",
+      dayNumber: 4,
+      titleEn: "Sort by Conjunction Job",
+      titleMy: "စကားဆက်၏ တာဝန်အလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Joining (and)",
+          "Contrast (but)",
+          "Choice (or)",
+          "Reason (because)",
+        ],
+        bucketsMy: [
+          "ချိတ်ဆက်ခြင်း (and)",
+          "ဆန့်ကျင်ဘက် (but)",
+          "ရွေးချယ်မှု (or)",
+          "အကြောင်းရင်း (because)",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w19-sort-1",
+            labelEn: "Tin likes mangoes and bananas.",
+            labelMy: "Tin likes mangoes and bananas.",
+            correctBucketEn: "Joining (and)",
+            correctBucketMy: "ချိတ်ဆက်ခြင်း (and)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-2",
+            labelEn: "Moe Moe is small but strong.",
+            labelMy: "Moe Moe is small but strong.",
+            correctBucketEn: "Contrast (but)",
+            correctBucketMy: "ဆန့်ကျင်ဘက် (but)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-3",
+            labelEn: "You can choose rice or noodles.",
+            labelMy: "You can choose rice or noodles.",
+            correctBucketEn: "Choice (or)",
+            correctBucketMy: "ရွေးချယ်မှု (or)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-4",
+            labelEn: "Nay Chi was tired because she worked hard.",
+            labelMy: "Nay Chi was tired because she worked hard.",
+            correctBucketEn: "Reason (because)",
+            correctBucketMy: "အကြောင်းရင်း (because)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-5",
+            labelEn: "Ms. Thandar teaches English and Burmese.",
+            labelMy: "Ms. Thandar teaches English and Burmese.",
+            correctBucketEn: "Joining (and)",
+            correctBucketMy: "ချိတ်ဆက်ခြင်း (and)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-6",
+            labelEn: "The kite flew high but then fell.",
+            labelMy: "The kite flew high but then fell.",
+            correctBucketEn: "Contrast (but)",
+            correctBucketMy: "ဆန့်ကျင်ဘက် (but)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-7",
+            labelEn: "Would you like tea or juice?",
+            labelMy: "Would you like tea or juice?",
+            correctBucketEn: "Choice (or)",
+            correctBucketMy: "ရွေးချယ်မှု (or)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-8",
+            labelEn: "Tin was happy because he passed the test.",
+            labelMy: "Tin was happy because he passed the test.",
+            correctBucketEn: "Reason (because)",
+            correctBucketMy: "အကြောင်းရင်း (because)",
+          ),
+          SortingItem(
+            id: "y4eng-w19-sort-9",
+            labelEn: "Nay Chi and Moe Moe are best friends.",
+            labelMy: "Nay Chi and Moe Moe are best friends.",
+            correctBucketEn: "Joining (and)",
+            correctBucketMy: "ချိတ်ဆက်ခြင်း (and)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w19-d5",
+      dayNumber: 5,
+      titleEn: "Conjunctions Recap",
+      titleMy: "စကားဆက်များ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A word that joins two words, phrases, or sentences together is called a...",
+          questionMy: "စကားလုံး၊ စကားစုများ (သို့) ဝါကျများကို ချိတ်ဆက်ပေးသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["conjunction", "pronoun", "verb", "adjective"],
+          optionsMy: ["conjunction", "pronoun", "verb", "adjective"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction joins two similar ideas?",
+          questionMy: "ဘယ်စကားဆက်သည် ဆင်တူအယူအဆနှစ်ခုကို ချိတ်ဆက်သနည်း။",
+          optionsEn: ["and", "but", "or", "because"],
+          optionsMy: ["and", "but", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows a contrast between two ideas?",
+          questionMy: "ဘယ်စကားဆက်သည် အယူအဆနှစ်ခုကြား ဆန့်ကျင်ဘက်ကို ပြသနည်း။",
+          optionsEn: ["but", "and", "or", "because"],
+          optionsMy: ["but", "and", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows a choice between two things?",
+          questionMy: "ဘယ်စကားဆက်သည် အရာနှစ်ခုကြား ရွေးချယ်မှုကို ပြသနည်း။",
+          optionsEn: ["or", "and", "but", "because"],
+          optionsMy: ["or", "and", "but", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction gives a reason for something?",
+          questionMy: "ဘယ်စကားဆက်သည် တစ်ခုခုအတွက် အကြောင်းရင်းကို ပေးသနည်း။",
+          optionsEn: ["because", "and", "but", "or"],
+          optionsMy: ["because", "and", "but", "or"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 5, Week 20: "Grammar Mastery"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek20 = CourseWeekDef(
+  id: "course-year4-english-w20",
+  weekNumber: 20,
+  titleEn: "The Nova School Grammar Games",
+  titleMy: "Nova ကျောင်း သဒ္ဒါဂိမ်းပွဲတော်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w20-d1",
+      dayNumber: 1,
+      titleEn: "Grammar Skills Review",
+      titleMy: "သဒ္ဒါ ကျွမ်းကျင်မှုများ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which tense shows an action already finished?",
+          questionMy: "ဘယ်ကာလသည် ပြီးဆုံးသွားသော လုပ်ဆောင်ချက်ကို ပြသနည်း။",
+          optionsEn: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word replaces a noun?",
+          questionMy: "ဘယ်စကားလုံးက နာမ်ကို အစားထိုးသနည်း။",
+          optionsEn: ["pronoun", "conjunction", "verb", "adjective"],
+          optionsMy: ["pronoun", "conjunction", "verb", "adjective"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word shows ownership?",
+          questionMy: "ဘယ်စကားလုံးက ပိုင်ဆိုင်မှုကို ပြသနည်း။",
+          optionsEn: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "noun",
+          ],
+          optionsMy: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "noun",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows contrast?",
+          questionMy: "ဘယ်စကားဆက်သည် ဆန့်ကျင်ဘက်ကို ပြသနည်း။",
+          optionsEn: ["but", "and", "or", "because"],
+          optionsMy: ["but", "and", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Tin ___ to school every day\" (present tense of walk)",
+          questionMy: "\"Tin ___ to school every day\" (walk ၏ ပစ္စုပ္ပန်ကာလ)",
+          optionsEn: ["walks", "walked", "will walk", "walking"],
+          optionsMy: ["walks", "walked", "will walk", "walking"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses a pronoun correctly?",
+          questionMy: "ဘယ်ဝါကျသည် နာမ်စားကို မှန်ကန်စွာ သုံးထားသနည်း။",
+          optionsEn: [
+            "She watered her garden every morning.",
+            "Nay Chi watered Nay Chi's garden.",
+            "Garden Nay Chi watered.",
+            "Watered garden she her.",
+          ],
+          optionsMy: [
+            "She watered her garden every morning.",
+            "Nay Chi watered Nay Chi's garden.",
+            "Garden Nay Chi watered.",
+            "Watered garden she her.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction gives a reason?",
+          questionMy: "ဘယ်စကားဆက်သည် အကြောင်းရင်းကို ပေးသနည်း။",
+          optionsEn: ["because", "and", "or", "but"],
+          optionsMy: ["because", "and", "or", "but"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which tense uses the word \"will\"?",
+          questionMy: "ဘယ်ကာလသည် \"will\" ဟူသော စကားလုံးကို သုံးသနည်း။",
+          optionsEn: ["future tense", "past tense", "present tense", "no tense"],
+          optionsMy: ["future tense", "past tense", "present tense", "no tense"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match the Grammar Term",
+      titleMy: "သဒ္ဒါ အသုံးအနှုန်းကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w20-dm-1",
+          termEn: "Past Tense",
+          termMy: "Past Tense",
+          matchEn: "Shows an action that already happened",
+          matchMy: "ဖြစ်ပြီးသား လုပ်ဆောင်ချက်ကို ပြသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-2",
+          termEn: "Present Tense",
+          termMy: "Present Tense",
+          matchEn: "Shows an action happening now or regularly",
+          matchMy: "ယခုဖြစ်နေ (သို့) ပုံမှန်ဖြစ်နေသော လုပ်ဆောင်ချက်ကို ပြသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-3",
+          termEn: "Future Tense",
+          termMy: "Future Tense",
+          matchEn: "Shows an action that will happen later",
+          matchMy: "နောက်မှ ဖြစ်လာမည့် လုပ်ဆောင်ချက်ကို ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-4",
+          termEn: "Personal Pronoun",
+          termMy: "Personal Pronoun",
+          matchEn: "Replaces a person, animal, or thing's name",
+          matchMy: "လူ၊ တိရစ္ဆာန် (သို့) အရာဝတ္ထု၏ အမည်ကို အစားထိုးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-5",
+          termEn: "Possessive Pronoun",
+          termMy: "Possessive Pronoun",
+          matchEn: "Shows who or what something belongs to",
+          matchMy: "တစ်ခုခုသည် ဘယ်သူ (သို့) ဘာပိုင်ဆိုင်ကြောင်း ပြသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-6",
+          termEn: "Conjunction",
+          termMy: "Conjunction",
+          matchEn: "A word that joins words, phrases, or sentences",
+          matchMy: "စကားလုံး၊ စကားစုများ (သို့) ဝါကျများကို ချိတ်ဆက်ပေးသော စကားလုံး",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-7",
+          termEn: "Because",
+          termMy: "Because",
+          matchEn: "A conjunction that gives a reason",
+          matchMy: "အကြောင်းရင်းကို ပေးသော စကားဆက်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w20-dm-8",
+          termEn: "But",
+          termMy: "But",
+          matchEn: "A conjunction that shows contrast",
+          matchMy: "ဆန့်ကျင်ဘက်ကို ပြသော စကားဆက်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w20-d3",
+      dayNumber: 3,
+      titleEn: "The Nova School Grammar Games",
+      titleMy: "Nova ကျောင်း သဒ္ဒါဂိမ်းပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Grammar Games",
+        titleMy: "Nova ကျောင်း သဒ္ဒါဂိမ်းပွဲတော်",
+        passageEn:
+            "To celebrate the end of the grammar term, Ms. Thandar organized the Nova School Grammar Games. At the first game station, students wrote sentences in the past, present, and future tense about their weekend. Tin wrote, \"Yesterday I visited my grandmother, today I am playing with my friends, and tomorrow I will finish my homework.\" At the second station, students practiced pronouns by rewriting a paragraph full of repeated names. Nay Chi turned \"Moe Moe's book is Moe Moe's favorite\" into \"Her book is her favorite.\" At the third station, students joined short sentences using conjunctions. Moe Moe combined \"I like drawing\" and \"I like singing\" into \"I like drawing and singing,\" then added, \"but I am better at singing.\" At the end of the games, Ms. Thandar gathered everyone and said, \"You have learned to control time with tenses, avoid repeating names with pronouns, and connect your ideas with conjunctions. That is real grammar mastery!\" The whole class cheered.",
+        passageMy:
+            "သဒ္ဒါ Term အဆုံးသတ်ကို အထိမ်းအမှတ်ပြုရန် ဆရာမ သန္တာသည် Nova ကျောင်း သဒ္ဒါဂိမ်းပွဲတော်ကို စီစဉ်ခဲ့သည်။ ပထမဂိမ်းစခန်းတွင် ကျောင်းသားများသည် မိမိတို့၏ သီတင်းပတ်ကုန်အကြောင်းကို အတိတ်၊ ပစ္စုပ္ပန်နှင့် အနာဂတ်ကာလများဖြင့် ဝါကျများရေးခဲ့ကြသည်။ တင်က \"မနေ့က ကျွန်တော် အဖွား့ဆီ သွားခဲ့တယ်၊ ဒီနေ့ ကျွန်တော် သူငယ်ချင်းတွေနဲ့ ကစားနေတယ်၊ မနက်ဖြန်တော့ ကျွန်တော် အိမ်စာပြီးအောင် လုပ်မှာပါ\" ဟု ရေးခဲ့သည်။ ဒုတိယစခန်းတွင် ကျောင်းသားများသည် အမည်ထပ်ခါထပ်ခါ သုံးထားသော စာပိုဒ်ကို ပြန်ရေးခြင်းဖြင့် နာမ်စားများကို လေ့ကျင့်ခဲ့ကြသည်။ နေချည်သည် \"Moe Moe's book is Moe Moe's favorite\" ကို \"Her book is her favorite\" အဖြစ် ပြောင်းလဲရေးသားခဲ့သည်။ တတိယစခန်းတွင် ကျောင်းသားများသည် စကားဆက်များကို သုံး၍ ဝါကျတိုများကို ပေါင်းစပ်ခဲ့ကြသည်။ မိုးမိုးသည် \"I like drawing\" နှင့် \"I like singing\" ကို \"I like drawing and singing\" အဖြစ် ပေါင်းစပ်ပြီးနောက် \"but I am better at singing\" ဟု ထပ်ဆင့်ခဲ့သည်။ ဂိမ်းပွဲတော်အဆုံးတွင် ဆရာမ သန္တာသည် လူတိုင်းကို စုစည်းပြီး \"ခင်ဗျားတို့ ကာလများနဲ့ အချိန်ကို ထိန်းချုပ်ဖို့၊ နာမ်စားတွေနဲ့ အမည်ထပ်ခါထပ်ခါ သုံးတာကို ရှောင်ဖို့၊ စကားဆက်တွေနဲ့ အယူအဆတွေကို ဆက်စပ်ဖို့ သင်ယူခဲ့ကြပြီ။ ဒါဟာ တကယ့် သဒ္ဒါ ကျွမ်းကျင်မှုပါပဲ!\" ဟု ပြောခဲ့သည်။ အတန်းသားအားလုံး အားပေးကြွေးကြော်ခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Ms. Thandar organize to celebrate the end of the grammar term?",
+            questionMy: "သဒ္ဒါ Term အဆုံးသတ်ကို အထိမ်းအမှတ်ပြုရန် ဆရာမ သန္တာ ဘာကို စီစဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "The Nova School Grammar Games",
+              "A sports day",
+              "A cooking contest",
+              "A field trip",
+            ],
+            optionsMy: [
+              "The Nova School Grammar Games",
+              "A sports day",
+              "A cooking contest",
+              "A field trip",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "At the first station, what did students practice?",
+            questionMy: "ပထမစခန်းတွင် ကျောင်းသားများ ဘာလေ့ကျင့်ခဲ့ကြသနည်း။",
+            optionsEn: [
+              "Writing sentences in past, present, and future tense",
+              "Drawing pictures",
+              "Singing songs",
+              "Doing math",
+            ],
+            optionsMy: [
+              "Writing sentences in past, present, and future tense",
+              "Drawing pictures",
+              "Singing songs",
+              "Doing math",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi practice at the second station?",
+            questionMy: "ဒုတိယစခန်းတွင် နေချည် ဘာလေ့ကျင့်ခဲ့သနည်း။",
+            optionsEn: [
+              "Rewriting a paragraph using pronouns instead of repeated names",
+              "Adding numbers",
+              "Painting a mural",
+              "Reading aloud",
+            ],
+            optionsMy: [
+              "Rewriting a paragraph using pronouns instead of repeated names",
+              "Adding numbers",
+              "Painting a mural",
+              "Reading aloud",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Moe Moe do at the third station?",
+            questionMy: "တတိယစခန်းတွင် မိုးမိုး ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Joined short sentences using conjunctions",
+              "Memorized a poem",
+              "Drew a map",
+              "Sorted rocks",
+            ],
+            optionsMy: [
+              "Joined short sentences using conjunctions",
+              "Memorized a poem",
+              "Drew a map",
+              "Sorted rocks",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what three grammar skills did the students master?",
+            questionMy: "ဆရာမ သန္တာအရ ကျောင်းသားများ ကျွမ်းကျင်ခဲ့ကြသော သဒ္ဒါကျွမ်းကျင်မှု သုံးမျိုးမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Tenses, pronouns, and conjunctions",
+              "Nouns, verbs, and adjectives",
+              "Rhyme, rhythm, and alliteration",
+              "Skimming, scanning, and predicting",
+            ],
+            optionsMy: [
+              "Tenses, pronouns, and conjunctions",
+              "Nouns, verbs, and adjectives",
+              "Rhyme, rhythm, and alliteration",
+              "Skimming, scanning, and predicting",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w20-d4",
+      dayNumber: 4,
+      titleEn: "Sort by Grammar Type",
+      titleMy: "သဒ္ဒါအမျိုးအစားအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Tense", "Pronoun", "Conjunction"],
+        bucketsMy: ["ကာလ", "နာမ်စား", "စကားဆက်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w20-sort-1",
+            labelEn: "walked",
+            labelMy: "walked",
+            correctBucketEn: "Tense",
+            correctBucketMy: "ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-2",
+            labelEn: "will walk",
+            labelMy: "will walk",
+            correctBucketEn: "Tense",
+            correctBucketMy: "ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-3",
+            labelEn: "she",
+            labelMy: "she",
+            correctBucketEn: "Pronoun",
+            correctBucketMy: "နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-4",
+            labelEn: "her",
+            labelMy: "her",
+            correctBucketEn: "Pronoun",
+            correctBucketMy: "နာမ်စား",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-5",
+            labelEn: "and",
+            labelMy: "and",
+            correctBucketEn: "Conjunction",
+            correctBucketMy: "စကားဆက်",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-6",
+            labelEn: "but",
+            labelMy: "but",
+            correctBucketEn: "Conjunction",
+            correctBucketMy: "စကားဆက်",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-7",
+            labelEn: "because",
+            labelMy: "because",
+            correctBucketEn: "Conjunction",
+            correctBucketMy: "စကားဆက်",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-8",
+            labelEn: "walks",
+            labelMy: "walks",
+            correctBucketEn: "Tense",
+            correctBucketMy: "ကာလ",
+          ),
+          SortingItem(
+            id: "y4eng-w20-sort-9",
+            labelEn: "their",
+            labelMy: "their",
+            correctBucketEn: "Pronoun",
+            correctBucketMy: "နာမ်စား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w20-d5",
+      dayNumber: 5,
+      titleEn: "Grammar Games Recap",
+      titleMy: "သဒ္ဒါဂိမ်းပွဲတော် ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which tense shows an action already finished?",
+          questionMy: "ဘယ်ကာလသည် ပြီးဆုံးသွားသော လုပ်ဆောင်ချက်ကို ပြသနည်း။",
+          optionsEn: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          optionsMy: [
+            "past tense",
+            "present tense",
+            "future tense",
+            "none of these",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word replaces a noun?",
+          questionMy: "ဘယ်စကားလုံးက နာမ်ကို အစားထိုးသနည်း။",
+          optionsEn: ["pronoun", "conjunction", "verb", "adjective"],
+          optionsMy: ["pronoun", "conjunction", "verb", "adjective"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word shows ownership?",
+          questionMy: "ဘယ်စကားလုံးက ပိုင်ဆိုင်မှုကို ပြသနည်း။",
+          optionsEn: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "noun",
+          ],
+          optionsMy: [
+            "possessive pronoun",
+            "personal pronoun",
+            "verb",
+            "noun",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which conjunction shows contrast?",
+          questionMy: "ဘယ်စကားဆက်သည် ဆန့်ကျင်ဘက်ကို ပြသနည်း။",
+          optionsEn: ["but", "and", "or", "because"],
+          optionsMy: ["but", "and", "or", "because"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Tin ___ to school every day\" (present tense of walk)",
+          questionMy: "\"Tin ___ to school every day\" (walk ၏ ပစ္စုပ္ပန်ကာလ)",
+          optionsEn: ["walks", "walked", "will walk", "walking"],
+          optionsMy: ["walks", "walked", "will walk", "walking"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm5 = CourseTermDef(
+  id: "course-year4-english-t5",
+  termNumber: 5,
+  titleEn: "Grammar Foundations",
+  titleMy: "သဒ္ဒါ အခြေခံများ",
+  certificateTitleEn: "Grammar Foundations",
+  certificateTitleMy: "သဒ္ဒါ အခြေခံများ",
+  weeks: [
+    _year4EnglishWeek17,
+    _year4EnglishWeek18,
+    _year4EnglishWeek19,
+    _year4EnglishWeek20,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 6, Week 21: "Rhyme and Rhythm"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek21 = CourseWeekDef(
+  id: "course-year4-english-w21",
+  weekNumber: 21,
+  titleEn: "Rhyme and Rhythm",
+  titleMy: "ကာရန်နှင့် စည်းချက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w21-d1",
+      dayNumber: 1,
+      titleEn: "What Are Rhyme and Rhythm?",
+      titleMy: "ကာရန်နှင့် စည်းချက်ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          optionsMy: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"cat\"?",
+          questionMy: "\"cat\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["hat", "dog", "sun", "tree"],
+          optionsMy: ["hat", "dog", "sun", "tree"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"sun\"?",
+          questionMy: "\"sun\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["fun", "cat", "tree", "dog"],
+          optionsMy: ["fun", "cat", "tree", "dog"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The pattern of beats in a poem is called its...",
+          questionMy: "ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ပုံစံကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rhythm", "rhyme", "plot", "setting"],
+          optionsMy: ["rhythm", "rhyme", "plot", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"tree\"?",
+          questionMy: "\"tree\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["bee", "cat", "sun", "dog"],
+          optionsMy: ["bee", "cat", "sun", "dog"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which pair of words rhymes?",
+          questionMy: "ဘယ်စကားလုံးအတွဲက ကာရန်တူသနည်း။",
+          optionsEn: [
+            "star and car",
+            "star and dog",
+            "star and tree",
+            "star and sun",
+          ],
+          optionsMy: [
+            "star and car",
+            "star and dog",
+            "star and tree",
+            "star and sun",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When we clap along to the beat of a poem, we are feeling its...",
+          questionMy:
+              "ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ကို လက်ခုပ်တီးလိုက်သောအခါ ငါတို့ ခံစားနေရသည်မှာ...",
+          optionsEn: ["rhythm", "rhyme", "title", "ending"],
+          optionsMy: ["rhythm", "rhyme", "title", "ending"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"frog\"?",
+          questionMy: "\"frog\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["log", "cat", "bee", "sun"],
+          optionsMy: ["log", "cat", "bee", "sun"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match the Rhyming Words",
+      titleMy: "ကာရန်တူစကားလုံးများကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w21-dm-1",
+          termEn: "hat",
+          termMy: "hat",
+          matchEn: "Rhymes with \"cat\" -- same ending sound",
+          matchMy: "\"cat\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-2",
+          termEn: "fun",
+          termMy: "fun",
+          matchEn: "Rhymes with \"sun\" -- same ending sound",
+          matchMy: "\"sun\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-3",
+          termEn: "bee",
+          termMy: "bee",
+          matchEn: "Rhymes with \"tree\" -- same ending sound",
+          matchMy: "\"tree\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-4",
+          termEn: "log",
+          termMy: "log",
+          matchEn: "Rhymes with \"frog\" -- same ending sound",
+          matchMy: "\"frog\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-5",
+          termEn: "star",
+          termMy: "star",
+          matchEn: "Rhymes with \"car\" -- same ending sound",
+          matchMy: "\"car\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-6",
+          termEn: "clap",
+          termMy: "clap",
+          matchEn: "Rhymes with \"map\" -- same ending sound",
+          matchMy: "\"map\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-7",
+          termEn: "hop",
+          termMy: "hop",
+          matchEn: "Rhymes with \"top\" -- same ending sound",
+          matchMy: "\"top\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w21-dm-8",
+          termEn: "night",
+          termMy: "night",
+          matchEn: "Rhymes with \"kite\" -- same ending sound",
+          matchMy: "\"kite\" နှင့် ကာရန်တူသည် -- အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w21-d3",
+      dayNumber: 3,
+      titleEn: "Ms. Thandar's Rhyming Poem",
+      titleMy: "ဆရာမ သန္တာ၏ ကာရန်ကဗျာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ms. Thandar's Rhyming Poem",
+        titleMy: "ဆရာမ သန္တာ၏ ကာရန်ကဗျာ",
+        passageEn:
+            "On Monday morning, Ms. Thandar read a poem to the class. It went like this: \"The sun is bright, the sky is blue, the birds all sing a song for you.\" Moe Moe clapped along to the rhythm, tapping her foot to every beat. Nay Chi noticed that \"blue\" and \"you\" ended with the same sound -- they rhymed! Tin raised his hand and said, \"Rhyme makes a poem fun to say out loud.\" Ms. Thandar smiled and asked the class to find more rhyming words hiding in the poem.",
+        passageMy:
+            "တနင်္လာနေ့ မနက်ခင်းတွင် ဆရာမ သန္တာသည် အတန်းသားများကို ကဗျာတစ်ပုဒ် ဖတ်ပြခဲ့သည်။ ကဗျာက ဒီလိုဖြစ်သည် -- \"The sun is bright, the sky is blue, the birds all sing a song for you.\" မိုးမိုးသည် ရိုက်ချက်တိုင်းကို ခြေဖျားတို့ရင်း စည်းချက်နှင့်အညီ လက်ခုပ်တီးခဲ့သည်။ နေချည်သည် \"blue\" နှင့် \"you\" တို့သည် အဆုံးသတ်အသံ တူညီနေသည်ကို သတိထားမိသည် -- ဒါဟာ ကာရန်ဖြစ်တယ်! တင်က လက်ထောင်ပြီး \"ကာရန်က ကဗျာကို အသံထွက်ဖတ်ရတာ ပျော်စရာကောင်းစေတယ်\" ဟု ပြောခဲ့သည်။ ဆရာမ သန္တာသည် ပြုံးရင်း အတန်းသားများအား ကဗျာထဲတွင် ပုန်းနေသော ကာရန်စကားလုံးများကို ထပ်မံ ရှာဖွေခိုင်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Who read the poem to the class?",
+            questionMy: "ကဗျာကို အတန်းသားများကို ဘယ်သူ ဖတ်ပြခဲ့သနည်း။",
+            optionsEn: ["Ms. Thandar", "Moe Moe", "Nay Chi", "Tin"],
+            optionsMy: ["Ms. Thandar", "Moe Moe", "Nay Chi", "Tin"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Moe Moe do while listening to the poem?",
+            questionMy: "ကဗျာနားထောင်နေစဉ် မိုးမိုးသည် ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She clapped along to the rhythm",
+              "She fell asleep",
+              "She left the room",
+              "She wrote a new poem",
+            ],
+            optionsMy: [
+              "She clapped along to the rhythm",
+              "She fell asleep",
+              "She left the room",
+              "She wrote a new poem",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which two words did Nay Chi notice rhymed?",
+            questionMy:
+                "နေချည်သည် ဘယ်စကားလုံးနှစ်လုံး ကာရန်တူကြောင်း သတိထားမိခဲ့သနည်း။",
+            optionsEn: [
+              "blue and you",
+              "sun and bright",
+              "bird and song",
+              "sky and sun",
+            ],
+            optionsMy: [
+              "blue and you",
+              "sun and bright",
+              "bird and song",
+              "sky and sun",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to Tin, what does rhyme do for a poem?",
+            questionMy: "တင်ပြောသည့်အတိုင်း ကာရန်သည် ကဗျာအတွက် ဘာလုပ်ပေးသနည်း။",
+            optionsEn: [
+              "Makes it fun to say out loud",
+              "Makes it shorter",
+              "Makes it harder to read",
+              "Makes it silent",
+            ],
+            optionsMy: [
+              "Makes it fun to say out loud",
+              "Makes it shorter",
+              "Makes it harder to read",
+              "Makes it silent",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar ask the class to do at the end?",
+            questionMy:
+                "အဆုံးတွင် ဆရာမ သန္တာသည် အတန်းသားများကို ဘာလုပ်ခိုင်းခဲ့သနည်း။",
+            optionsEn: [
+              "Find more rhyming words in the poem",
+              "Write a new story",
+              "Go outside to play",
+              "Draw a picture",
+            ],
+            optionsMy: [
+              "Find more rhyming words in the poem",
+              "Write a new story",
+              "Go outside to play",
+              "Draw a picture",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w21-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Rhyming Families",
+      titleMy: "ကာရန်မိသားစုများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rhymes with cat", "Rhymes with sun", "Rhymes with tree"],
+        bucketsMy: [
+          "\"cat\" နှင့် ကာရန်တူသည်",
+          "\"sun\" နှင့် ကာရန်တူသည်",
+          "\"tree\" နှင့် ကာရန်တူသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w21-sort-1",
+            labelEn: "hat",
+            labelMy: "hat",
+            correctBucketEn: "Rhymes with cat",
+            correctBucketMy: "\"cat\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-2",
+            labelEn: "mat",
+            labelMy: "mat",
+            correctBucketEn: "Rhymes with cat",
+            correctBucketMy: "\"cat\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-3",
+            labelEn: "bat",
+            labelMy: "bat",
+            correctBucketEn: "Rhymes with cat",
+            correctBucketMy: "\"cat\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-4",
+            labelEn: "fun",
+            labelMy: "fun",
+            correctBucketEn: "Rhymes with sun",
+            correctBucketMy: "\"sun\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-5",
+            labelEn: "run",
+            labelMy: "run",
+            correctBucketEn: "Rhymes with sun",
+            correctBucketMy: "\"sun\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-6",
+            labelEn: "bun",
+            labelMy: "bun",
+            correctBucketEn: "Rhymes with sun",
+            correctBucketMy: "\"sun\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-7",
+            labelEn: "bee",
+            labelMy: "bee",
+            correctBucketEn: "Rhymes with tree",
+            correctBucketMy: "\"tree\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-8",
+            labelEn: "free",
+            labelMy: "free",
+            correctBucketEn: "Rhymes with tree",
+            correctBucketMy: "\"tree\" နှင့် ကာရန်တူသည်",
+          ),
+          SortingItem(
+            id: "y4eng-w21-sort-9",
+            labelEn: "knee",
+            labelMy: "knee",
+            correctBucketEn: "Rhymes with tree",
+            correctBucketMy: "\"tree\" နှင့် ကာရန်တူသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w21-d5",
+      dayNumber: 5,
+      titleEn: "Rhyme and Rhythm Recap",
+      titleMy: "ကာရန်နှင့် စည်းချက် ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          optionsMy: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"cat\"?",
+          questionMy: "\"cat\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["hat", "dog", "sun", "tree"],
+          optionsMy: ["hat", "dog", "sun", "tree"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The pattern of beats in a poem is called its...",
+          questionMy: "ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ပုံစံကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rhythm", "rhyme", "plot", "setting"],
+          optionsMy: ["rhythm", "rhyme", "plot", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word rhymes with \"tree\"?",
+          questionMy: "\"tree\" နှင့် ကာရန်တူသော စကားလုံးက အဘယ်နည်း။",
+          optionsEn: ["bee", "cat", "sun", "dog"],
+          optionsMy: ["bee", "cat", "sun", "dog"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which pair of words rhymes?",
+          questionMy: "ဘယ်စကားလုံးအတွဲက ကာရန်တူသနည်း။",
+          optionsEn: [
+            "star and car",
+            "star and dog",
+            "star and tree",
+            "star and sun",
+          ],
+          optionsMy: [
+            "star and car",
+            "star and dog",
+            "star and tree",
+            "star and sun",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 6, Week 22: "Similes"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek22 = CourseWeekDef(
+  id: "course-year4-english-w22",
+  weekNumber: 22,
+  titleEn: "Similes",
+  titleMy: "ဥပမာနှိုင်းယှဉ်ချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w22-d1",
+      dayNumber: 1,
+      titleEn: "What Is a Simile?",
+      titleMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile) ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A simile compares two things using the words...",
+          questionMy:
+              "Simile သည် နှစ်ခုသောအရာများကို ဘယ်စကားလုံးများကို သုံး၍ နှိုင်းယှဉ်သနည်း။",
+          optionsEn: ["like or as", "and or but", "first or then", "he or she"],
+          optionsMy: ["like or as", "and or but", "first or then", "he or she"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"As brave as a lion\" is an example of a...",
+          questionMy: "\"As brave as a lion\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["simile", "rhyme", "onomatopoeia", "setting"],
+          optionsMy: ["simile", "rhyme", "onomatopoeia", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is a simile?",
+          questionMy: "ဘယ်ဝါကျသည် simile ဖြစ်သနည်း။",
+          optionsEn: [
+            "Her smile was as bright as the sun.",
+            "Her smile was nice.",
+            "She smiled.",
+            "Smiling is good.",
+          ],
+          optionsMy: [
+            "Her smile was as bright as the sun.",
+            "Her smile was nice.",
+            "She smiled.",
+            "Smiling is good.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"The kite flew like a bird\" compares a kite to a...",
+          questionMy:
+              "\"The kite flew like a bird\" သည် ဂစ်ကို ဘာနှင့် နှိုင်းယှဉ်ထားသနည်း။",
+          optionsEn: ["bird", "cat", "tree", "car"],
+          optionsMy: ["bird", "cat", "tree", "car"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word often signals a simile?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် simile ရှိကြောင်း ပုံမှန်အားဖြင့် ညွှန်ပြသနည်း။",
+          optionsEn: ["like", "then", "first", "finally"],
+          optionsMy: ["like", "then", "first", "finally"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"He ran as fast as the wind\" compares running to...",
+          questionMy:
+              "\"He ran as fast as the wind\" သည် ပြေးခြင်းကို ဘာနှင့် နှိုင်းယှဉ်ထားသနည်း။",
+          optionsEn: ["the wind", "a lion", "a bird", "a bell"],
+          optionsMy: ["the wind", "a lion", "a bird", "a bell"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Similes help readers...",
+          questionMy: "Simile များသည် စာဖတ်သူများကို ဘာအတွက် ကူညီပေးသနည်း။",
+          optionsEn: [
+            "picture things more clearly",
+            "forget the story",
+            "skip details",
+            "memorize titles",
+          ],
+          optionsMy: [
+            "picture things more clearly",
+            "forget the story",
+            "skip details",
+            "memorize titles",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is NOT a simile?",
+          questionMy: "အောက်ပါတို့အနက် simile မဟုတ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "She was happy today.",
+            "As busy as a bee.",
+            "Like a shooting star.",
+            "As cold as ice.",
+          ],
+          optionsMy: [
+            "She was happy today.",
+            "As busy as a bee.",
+            "Like a shooting star.",
+            "As cold as ice.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match the Simile",
+      titleMy: "Simile ကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w22-dm-1",
+          termEn: "as brave as a lion",
+          termMy: "as brave as a lion",
+          matchEn: "A simile -- compares bravery to a lion's courage",
+          matchMy: "Simile -- ရဲရင့်မှုကို ခြင်္သေ့၏ သတ္တိနှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-2",
+          termEn: "as busy as a bee",
+          termMy: "as busy as a bee",
+          matchEn: "A simile -- compares being busy to a bee's constant work",
+          matchMy:
+              "Simile -- အလုပ်များနေမှုကို ပျား၏ အမြဲအလုပ်လုပ်ခြင်းနှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-3",
+          termEn: "as cold as ice",
+          termMy: "as cold as ice",
+          matchEn: "A simile -- compares coldness to ice",
+          matchMy: "Simile -- အအေးဓာတ်ကို ရေခဲနှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-4",
+          termEn: "as quiet as a mouse",
+          termMy: "as quiet as a mouse",
+          matchEn: "A simile -- compares quietness to a mouse",
+          matchMy: "Simile -- တိတ်ဆိတ်မှုကို ကြွက်နှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-5",
+          termEn: "like a shooting star",
+          termMy: "like a shooting star",
+          matchEn: "A simile -- compares speed and brightness to a star",
+          matchMy: "Simile -- အလျင်နှင့် တောက်ပမှုကို ကြယ်နှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-6",
+          termEn: "as tall as a mountain",
+          termMy: "as tall as a mountain",
+          matchEn: "A simile -- compares height to a mountain",
+          matchMy: "Simile -- အမြင့်ကို တောင်နှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-7",
+          termEn: "like a floating feather",
+          termMy: "like a floating feather",
+          matchEn: "A simile -- compares lightness to a feather",
+          matchMy:
+              "Simile -- ပေါ့ပါးမှုကို လင်းယုန်ချောင်းနှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w22-dm-8",
+          termEn: "as sweet as honey",
+          termMy: "as sweet as honey",
+          matchEn: "A simile -- compares sweetness to honey",
+          matchMy: "Simile -- ချိုမြိန်မှုကို ပျားရည်နှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w22-d3",
+      dayNumber: 3,
+      titleEn: "Tin's Brave Day",
+      titleMy: "တင်၏ ရဲရင့်သောနေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tin's Brave Day",
+        titleMy: "တင်၏ ရဲရင့်သောနေ့",
+        passageEn:
+            "Tin felt as nervous as a rabbit before his class presentation. His hands were as cold as ice, and his heart beat like a drum. Ms. Thandar smiled and said, \"You are as ready as a champion, Tin.\" Slowly, Tin walked to the front of the class, standing as tall as a mountain. He spoke as clear as a bell, and his classmates listened like statues. When he finished, Moe Moe clapped as loud as thunder. Tin smiled, feeling as proud as a lion.",
+        passageMy:
+            "တင်သည် အတန်းရှေ့ တင်ပြမှုမတိုင်ခင် ယုန်တစ်ကောင်ကဲ့သို့ စိတ်လှုပ်ရှားနေခဲ့သည်။ သူ့လက်များသည် ရေခဲကဲ့သို့ အေးစက်နေပြီး သူ့နှလုံးသည် ပတ်သာကဲ့သို့ ခုန်နေခဲ့သည်။ ဆရာမ သန္တာက ပြုံးရင်း \"တင်၊ မင်းက အောင်ရှင်တစ်ယောက်ကဲ့သို့ အသင့်ဖြစ်နေပြီ\" ဟု ပြောခဲ့သည်။ တဖြည်းဖြည်း တင်သည် တောင်ကုန်းတစ်ခုကဲ့သို့ မတ်တပ်ရပ်ကာ အတန်းရှေ့သို့ လျှောက်သွားခဲ့သည်။ သူသည် ခေါင်းလောင်းကဲ့သို့ ရှင်းလင်းစွာ ပြောဆိုခဲ့ပြီး သူ့အတန်းဖော်များသည် ရုပ်ထုများကဲ့သို့ တိတ်ဆိတ်စွာ နားထောင်ခဲ့ကြသည်။ တင်ပြပြီးသောအခါ မိုးမိုးသည် မိုးကြိုးသံကဲ့သို့ ကျယ်လောင်စွာ လက်ခုပ်တီးခဲ့သည်။ တင်သည် ခြင်္သေ့တစ်ကောင်ကဲ့သို့ ဂုဏ်ယူစွာ ခံစားရင်း ပြုံးလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was Tin compared to before his presentation?",
+            questionMy: "တင်ပြမှုမတိုင်ခင် တင်ကို ဘာနှင့် နှိုင်းယှဉ်ထားသနည်း။",
+            optionsEn: [
+              "A nervous rabbit",
+              "A sleepy cat",
+              "A hungry dog",
+              "A happy bird",
+            ],
+            optionsMy: [
+              "A nervous rabbit",
+              "A sleepy cat",
+              "A hungry dog",
+              "A happy bird",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What simile describes Tin's hands?",
+            questionMy: "တင်၏လက်များကို ဖော်ပြသော ဥပမာနှိုင်းယှဉ်ချက်က ဘာနည်း။",
+            optionsEn: [
+              "As cold as ice",
+              "As warm as fire",
+              "As soft as cotton",
+              "As rough as bark",
+            ],
+            optionsMy: [
+              "As cold as ice",
+              "As warm as fire",
+              "As soft as cotton",
+              "As rough as bark",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Tin stand while speaking?",
+            questionMy: "စကားပြောနေစဉ် တင်သည် ဘယ်လို ရပ်နေခဲ့သနည်း။",
+            optionsEn: [
+              "As tall as a mountain",
+              "As small as an ant",
+              "As flat as paper",
+              "As light as a feather",
+            ],
+            optionsMy: [
+              "As tall as a mountain",
+              "As small as an ant",
+              "As flat as paper",
+              "As light as a feather",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How loud did Moe Moe clap?",
+            questionMy: "မိုးမိုးသည် ဘယ်လောက် ကျယ်လောင်စွာ လက်ခုပ်တီးခဲ့သနည်း။",
+            optionsEn: [
+              "As loud as thunder",
+              "As quiet as a whisper",
+              "As soft as a breeze",
+              "As gentle as rain",
+            ],
+            optionsMy: [
+              "As loud as thunder",
+              "As quiet as a whisper",
+              "As soft as a breeze",
+              "As gentle as rain",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Tin feel at the end of the story?",
+            questionMy: "ဇာတ်လမ်း အဆုံးတွင် တင်သည် ဘယ်လို ခံစားခဲ့ရသနည်း။",
+            optionsEn: [
+              "As proud as a lion",
+              "As sad as a lost puppy",
+              "As angry as a storm",
+              "As tired as an old man",
+            ],
+            optionsMy: [
+              "As proud as a lion",
+              "As sad as a lost puppy",
+              "As angry as a storm",
+              "As tired as an old man",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w22-d4",
+      dayNumber: 4,
+      titleEn: "Sort: Simile or Not a Simile",
+      titleMy: "ခွဲခြားပါ -- Simile ဖြစ်သလား မဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Simile", "Not a Simile"],
+        bucketsMy: [
+          "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          "ဥပမာနှိုင်းယှဉ်ချက် မဟုတ်",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w22-sort-1",
+            labelEn: "as brave as a lion",
+            labelMy: "as brave as a lion",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-2",
+            labelEn: "She was happy",
+            labelMy: "She was happy",
+            correctBucketEn: "Not a Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် မဟုတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-3",
+            labelEn: "like a shooting star",
+            labelMy: "like a shooting star",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-4",
+            labelEn: "The dog barked loudly",
+            labelMy: "The dog barked loudly",
+            correctBucketEn: "Not a Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် မဟုတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-5",
+            labelEn: "as cold as ice",
+            labelMy: "as cold as ice",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-6",
+            labelEn: "He walked to school",
+            labelMy: "He walked to school",
+            correctBucketEn: "Not a Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် မဟုတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-7",
+            labelEn: "as busy as a bee",
+            labelMy: "as busy as a bee",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-8",
+            labelEn: "The sky is blue",
+            labelMy: "The sky is blue",
+            correctBucketEn: "Not a Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် မဟုတ်",
+          ),
+          SortingItem(
+            id: "y4eng-w22-sort-9",
+            labelEn: "like a floating feather",
+            labelMy: "like a floating feather",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w22-d5",
+      dayNumber: 5,
+      titleEn: "Similes Recap",
+      titleMy: "ဥပမာနှိုင်းယှဉ်ချက် ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A simile compares two things using the words...",
+          questionMy:
+              "Simile သည် နှစ်ခုသောအရာများကို ဘယ်စကားလုံးများကို သုံး၍ နှိုင်းယှဉ်သနည်း။",
+          optionsEn: ["like or as", "and or but", "first or then", "he or she"],
+          optionsMy: ["like or as", "and or but", "first or then", "he or she"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"As brave as a lion\" is an example of a...",
+          questionMy: "\"As brave as a lion\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["simile", "rhyme", "onomatopoeia", "setting"],
+          optionsMy: ["simile", "rhyme", "onomatopoeia", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is a simile?",
+          questionMy: "ဘယ်ဝါကျသည် simile ဖြစ်သနည်း။",
+          optionsEn: [
+            "Her smile was as bright as the sun.",
+            "Her smile was nice.",
+            "She smiled.",
+            "Smiling is good.",
+          ],
+          optionsMy: [
+            "Her smile was as bright as the sun.",
+            "Her smile was nice.",
+            "She smiled.",
+            "Smiling is good.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"He ran as fast as the wind\" compares running to...",
+          questionMy:
+              "\"He ran as fast as the wind\" သည် ပြေးခြင်းကို ဘာနှင့် နှိုင်းယှဉ်ထားသနည်း။",
+          optionsEn: ["the wind", "a lion", "a bird", "a bell"],
+          optionsMy: ["the wind", "a lion", "a bird", "a bell"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Similes help readers...",
+          questionMy: "Simile များသည် စာဖတ်သူများကို ဘာအတွက် ကူညီပေးသနည်း။",
+          optionsEn: [
+            "picture things more clearly",
+            "forget the story",
+            "skip details",
+            "memorize titles",
+          ],
+          optionsMy: [
+            "picture things more clearly",
+            "forget the story",
+            "skip details",
+            "memorize titles",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 6, Week 23: "Alliteration and Onomatopoeia"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek23 = CourseWeekDef(
+  id: "course-year4-english-w23",
+  weekNumber: 23,
+  titleEn: "Alliteration and Onomatopoeia",
+  titleMy: "အသံဆင်ခြင်းနှင့် အသံတုစကားလုံးများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w23-d1",
+      dayNumber: 1,
+      titleEn: "Alliteration and Onomatopoeia",
+      titleMy: "အသံဆင်ခြင်းနှင့် အသံတုစကားလုံး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Repeating the same starting sound in nearby words is called...",
+          questionMy:
+              "အနီးနားရှိ စကားလုံးများ၏ အစသံ တူညီစွာ ထပ်ခါထပ်ခါ သုံးခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          optionsMy: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word that imitates a sound, like \"buzz\" or \"crash,\" is called...",
+          questionMy:
+              "\"buzz\" (သို့) \"crash\" ကဲ့သို့ အသံကို အတုယူထားသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          optionsMy: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Silly snakes slither silently\" is an example of...",
+          questionMy:
+              "\"Silly snakes slither silently\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["alliteration", "onomatopoeia", "simile", "rhyme"],
+          optionsMy: ["alliteration", "onomatopoeia", "simile", "rhyme"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word is an example of onomatopoeia?",
+          questionMy: "ဘယ်စကားလုံးသည် onomatopoeia ဥပမာဖြစ်သနည်း။",
+          optionsEn: ["Splash", "Happy", "Quickly", "Beautiful"],
+          optionsMy: ["Splash", "Happy", "Quickly", "Beautiful"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase uses alliteration?",
+          questionMy: "ဘယ်စကားစုသည် alliteration ကို အသုံးပြုထားသနည်း။",
+          optionsEn: [
+            "Big bouncy balls",
+            "The tall tree grew",
+            "A red car",
+            "The dog ran",
+          ],
+          optionsMy: [
+            "Big bouncy balls",
+            "The tall tree grew",
+            "A red car",
+            "The dog ran",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The sound a bee makes, \"buzz,\" is an example of...",
+          questionMy: "ပျားထွက်သောအသံ \"buzz\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["onomatopoeia", "alliteration", "simile", "setting"],
+          optionsMy: ["onomatopoeia", "alliteration", "simile", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Peter Picked Purple Plums\" repeats the sound...",
+          questionMy:
+              "\"Peter Picked Purple Plums\" သည် ဘယ်အသံကို ထပ်ခါထပ်ခါ သုံးထားသနည်း။",
+          optionsEn: ["\"p\"", "\"s\"", "\"b\"", "\"t\""],
+          optionsMy: ["\"p\"", "\"s\"", "\"b\"", "\"t\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these words is onomatopoeia?",
+          questionMy:
+              "အောက်ပါ စကားလုံးများအနက် ဘယ်ဟာသည် onomatopoeia ဖြစ်သနည်း။",
+          optionsEn: ["Crash", "Slowly", "Happy", "Green"],
+          optionsMy: ["Crash", "Slowly", "Happy", "Green"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match the Sound Word",
+      titleMy: "အသံစကားလုံးကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w23-dm-1",
+          termEn: "buzz",
+          termMy: "buzz",
+          matchEn: "Onomatopoeia -- imitates the sound a bee makes",
+          matchMy: "Onomatopoeia -- ပျား၏ အသံကို အတုယူထားသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-2",
+          termEn: "crash",
+          termMy: "crash",
+          matchEn: "Onomatopoeia -- imitates the sound of something breaking",
+          matchMy: "Onomatopoeia -- တစ်ခုခု ကျိုးပဲ့သွားသောအသံကို အတုယူထားသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-3",
+          termEn: "splash",
+          termMy: "splash",
+          matchEn: "Onomatopoeia -- imitates the sound of water",
+          matchMy: "Onomatopoeia -- ရေ၏ အသံကို အတုယူထားသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-4",
+          termEn: "sizzling sausages",
+          termMy: "sizzling sausages",
+          matchEn: "Alliteration -- repeats the starting \"s\" sound",
+          matchMy: "Alliteration -- အစသံ \"s\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-5",
+          termEn: "big bouncy balls",
+          termMy: "big bouncy balls",
+          matchEn: "Alliteration -- repeats the starting \"b\" sound",
+          matchMy: "Alliteration -- အစသံ \"b\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-6",
+          termEn: "peter picked plums",
+          termMy: "peter picked plums",
+          matchEn: "Alliteration -- repeats the starting \"p\" sound",
+          matchMy: "Alliteration -- အစသံ \"p\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-7",
+          termEn: "pop",
+          termMy: "pop",
+          matchEn: "Onomatopoeia -- imitates a short bursting sound",
+          matchMy: "Onomatopoeia -- ပေါက်ကွဲသံတိုတိုကို အတုယူထားသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w23-dm-8",
+          termEn: "wild windy weather",
+          termMy: "wild windy weather",
+          matchEn: "Alliteration -- repeats the starting \"w\" sound",
+          matchMy: "Alliteration -- အစသံ \"w\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w23-d3",
+      dayNumber: 3,
+      titleEn: "The Noisy Nova Playground",
+      titleMy: "ဆူညံနေသော Nova ကစားကွင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Noisy Nova Playground",
+        titleMy: "ဆူညံနေသော Nova ကစားကွင်း",
+        passageEn:
+            "At recess, the Nova playground buzzed with noise. Bees went buzz near the flower beds, and the swings creaked squeak, squeak with every push. Nay Chi noticed that \"bouncy blue balls\" bounced by the big bushes -- three words starting with the same sound! Tin laughed as the balloon went pop, and Moe Moe giggled when the wind went whoosh through the willow trees. \"Wiggly, wet worms\" wriggled near the water fountain after the rain. Ms. Thandar smiled and said, \"Our playground is full of sounds and silly, similar sounds too!\"",
+        passageMy:
+            "အနားချိန်တွင် Nova ကစားကွင်းသည် ဆူညံသံနှင့် ပြည့်နှက်နေခဲ့သည်။ ပျားများသည် ပန်းအိမ်များအနီးတွင် buzz ဟူ၍ ပျံနေခဲ့ပြီး ဒရိုင်းစင်များသည် တွန်းလိုက်တိုင်း squeak, squeak ဟူ၍ တွန်ညံခဲ့သည်။ နေချည်သည် \"bouncy blue balls\" တို့သည် ကြီးမားသော ချုံပုတ်များအနီးတွင် ခုန်ပေါက်နေကြောင်း သတိထားမိသည် -- စကားလုံးသုံးလုံးလုံး အသံတူတူနှင့် စတင်ကြသည်! ပူးဖောင်းသည် pop ဟူ၍ ပေါက်ကွဲသောအခါ တင်သည် ရယ်မောခဲ့ပြီး၊ ရွက်ပင်များကြားမှ လေသည် whoosh ဟူ၍ တိုက်ခတ်သွားသောအခါ မိုးမိုးသည် ရယ်မောသွားခဲ့သည်။ မိုးရွာပြီးနောက် \"wiggly, wet worms\" တို့သည် ရေပန်းအနီးတွင် တွန့်လိမ်နေခဲ့ကြသည်။ ဆရာမ သန္တာက ပြုံးရင်း \"ငါတို့ကစားကွင်းမှာ အသံတွေနဲ့ ဟာသဆန်ဆန် တူညီသောအသံတွေလည်း အပြည့်ပဲ!\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What sound did the bees make?",
+            questionMy: "ပျားများ ဘယ်လို အသံမျိုးထွက်ခဲ့သနည်း။",
+            optionsEn: ["Buzz", "Crash", "Splash", "Pop"],
+            optionsMy: ["Buzz", "Crash", "Splash", "Pop"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What three words starting with the same sound did Nay Chi notice?",
+            questionMy:
+                "နေချည်သည် အသံတူတူနှင့် စတင်သော စကားလုံးသုံးလုံးကို ဘာဖြစ်ကြောင်း သတိထားမိခဲ့သနည်း။",
+            optionsEn: [
+              "Bouncy blue balls",
+              "Wiggly wet worms",
+              "Sizzling sausages",
+              "Peter picked plums",
+            ],
+            optionsMy: [
+              "Bouncy blue balls",
+              "Wiggly wet worms",
+              "Sizzling sausages",
+              "Peter picked plums",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What sound did the balloon make?",
+            questionMy: "ပူးဖောင်းသည် ဘယ်လိုအသံ ထွက်ခဲ့သနည်း။",
+            optionsEn: ["Pop", "Buzz", "Squeak", "Whoosh"],
+            optionsMy: ["Pop", "Buzz", "Squeak", "Whoosh"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did the wind sound like through the willow trees?",
+            questionMy: "ရွက်ပင်များကြားမှ လေသည် ဘယ်လို အသံထွက်ခဲ့သနည်း။",
+            optionsEn: ["Whoosh", "Buzz", "Crash", "Pop"],
+            optionsMy: ["Whoosh", "Buzz", "Crash", "Pop"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which alliterative phrase describes the worms?",
+            questionMy:
+                "ပိုးကောင်များကို ဖော်ပြသော အသံဆင်ခြင်းအသုံးအနှုန်းက ဘာနည်း။",
+            optionsEn: [
+              "Wiggly, wet worms",
+              "Bouncy blue balls",
+              "Sizzling sausages",
+              "Big bouncy balls",
+            ],
+            optionsMy: [
+              "Wiggly, wet worms",
+              "Bouncy blue balls",
+              "Sizzling sausages",
+              "Big bouncy balls",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w23-d4",
+      dayNumber: 4,
+      titleEn: "Sort: Alliteration or Onomatopoeia",
+      titleMy: "ခွဲခြားပါ -- Alliteration လား Onomatopoeia လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Alliteration", "Onomatopoeia"],
+        bucketsMy: ["အသံဆင်ခြင်း (Alliteration)", "အသံတု (Onomatopoeia)"],
+        items: [
+          SortingItem(
+            id: "y4eng-w23-sort-1",
+            labelEn: "buzz",
+            labelMy: "buzz",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-2",
+            labelEn: "big bouncy balls",
+            labelMy: "big bouncy balls",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-3",
+            labelEn: "crash",
+            labelMy: "crash",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-4",
+            labelEn: "sizzling sausages",
+            labelMy: "sizzling sausages",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-5",
+            labelEn: "splash",
+            labelMy: "splash",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-6",
+            labelEn: "peter picked plums",
+            labelMy: "peter picked plums",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-7",
+            labelEn: "pop",
+            labelMy: "pop",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-8",
+            labelEn: "wild windy weather",
+            labelMy: "wild windy weather",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w23-sort-9",
+            labelEn: "whoosh",
+            labelMy: "whoosh",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w23-d5",
+      dayNumber: 5,
+      titleEn: "Alliteration and Onomatopoeia Recap",
+      titleMy: "အသံဆင်ခြင်းနှင့် အသံတု ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Repeating the same starting sound in nearby words is called...",
+          questionMy:
+              "အနီးနားရှိ စကားလုံးများ၏ အစသံ တူညီစွာ ထပ်ခါထပ်ခါ သုံးခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          optionsMy: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word that imitates a sound, like \"buzz\" or \"crash,\" is called...",
+          questionMy:
+              "\"buzz\" (သို့) \"crash\" ကဲ့သို့ အသံကို အတုယူထားသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          optionsMy: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Silly snakes slither silently\" is an example of...",
+          questionMy:
+              "\"Silly snakes slither silently\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["alliteration", "onomatopoeia", "simile", "rhyme"],
+          optionsMy: ["alliteration", "onomatopoeia", "simile", "rhyme"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word is an example of onomatopoeia?",
+          questionMy: "ဘယ်စကားလုံးသည် onomatopoeia ဥပမာဖြစ်သနည်း။",
+          optionsEn: ["Splash", "Happy", "Quickly", "Beautiful"],
+          optionsMy: ["Splash", "Happy", "Quickly", "Beautiful"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase uses alliteration?",
+          questionMy: "ဘယ်စကားစုသည် alliteration ကို အသုံးပြုထားသနည်း။",
+          optionsEn: [
+            "Big bouncy balls",
+            "The tall tree grew",
+            "A red car",
+            "The dog ran",
+          ],
+          optionsMy: [
+            "Big bouncy balls",
+            "The tall tree grew",
+            "A red car",
+            "The dog ran",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 6, Week 24 (Capstone): "The Nova School
+// Poetry Slam"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek24 = CourseWeekDef(
+  id: "course-year4-english-w24",
+  weekNumber: 24,
+  titleEn: "The Nova School Poetry Slam",
+  titleMy: "Nova ကျောင်း ကဗျာပြိုင်ပွဲ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w24-d1",
+      dayNumber: 1,
+      titleEn: "Poetry Warm-Up",
+      titleMy: "ကဗျာ နွေးထွေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          optionsMy: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"As brave as a lion\" is an example of a...",
+          questionMy: "\"As brave as a lion\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["simile", "rhyme", "onomatopoeia", "setting"],
+          optionsMy: ["simile", "rhyme", "onomatopoeia", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Repeating the same starting sound in nearby words is called...",
+          questionMy:
+              "အနီးနားရှိ စကားလုံးများ၏ အစသံ တူညီစွာ ထပ်ခါထပ်ခါ သုံးခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          optionsMy: ["alliteration", "rhyme", "simile", "onomatopoeia"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word that imitates a sound, like \"buzz,\" is called...",
+          questionMy:
+              "\"buzz\" ကဲ့သို့ အသံကို အတုယူထားသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          optionsMy: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The pattern of beats in a poem is called its...",
+          questionMy: "ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ပုံစံကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rhythm", "rhyme", "plot", "setting"],
+          optionsMy: ["rhythm", "rhyme", "plot", "setting"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w24-d2",
+      dayNumber: 2,
+      titleEn: "The Festival Stage",
+      titleMy: "ပွဲတော်စင်မြင့်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w24-dm-1",
+          termEn: "hat",
+          termMy: "hat",
+          matchEn: "Rhyme -- ends with the same sound as \"cat\"",
+          matchMy: "Rhyme -- \"cat\" နှင့် အဆုံးသတ်အသံ တူညီသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w24-dm-2",
+          termEn: "as brave as a lion",
+          termMy: "as brave as a lion",
+          matchEn: "Simile -- compares bravery using \"as\"",
+          matchMy: "Simile -- \"as\" ကို သုံး၍ ရဲရင့်မှုကို နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w24-dm-3",
+          termEn: "sizzling sausages",
+          termMy: "sizzling sausages",
+          matchEn: "Alliteration -- repeats the starting \"s\" sound",
+          matchMy: "Alliteration -- အစသံ \"s\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w24-dm-4",
+          termEn: "buzz",
+          termMy: "buzz",
+          matchEn: "Onomatopoeia -- imitates the sound a bee makes",
+          matchMy: "Onomatopoeia -- ပျား၏ အသံကို အတုယူထားသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w24-dm-5",
+          termEn: "as busy as a bee",
+          termMy: "as busy as a bee",
+          matchEn: "Simile -- compares busyness using \"as\"",
+          matchMy: "Simile -- \"as\" ကို သုံး၍ အလုပ်များမှုကို နှိုင်းယှဉ်သည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w24-dm-6",
+          termEn: "big bouncy balls",
+          termMy: "big bouncy balls",
+          matchEn: "Alliteration -- repeats the starting \"b\" sound",
+          matchMy: "Alliteration -- အစသံ \"b\" ကို ထပ်ခါထပ်ခါ သုံးထားသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort by Poetic Tool",
+      titleMy: "ကဗျာကိရိယာအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rhyme", "Simile", "Alliteration", "Onomatopoeia"],
+        bucketsMy: [
+          "ကာရန် (Rhyme)",
+          "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          "အသံဆင်ခြင်း (Alliteration)",
+          "အသံတု (Onomatopoeia)",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w24-sort-1",
+            labelEn: "sun and fun",
+            labelMy: "sun and fun",
+            correctBucketEn: "Rhyme",
+            correctBucketMy: "ကာရန် (Rhyme)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-2",
+            labelEn: "as cold as ice",
+            labelMy: "as cold as ice",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-3",
+            labelEn: "peter picked plums",
+            labelMy: "peter picked plums",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-4",
+            labelEn: "crash",
+            labelMy: "crash",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-5",
+            labelEn: "tree and bee",
+            labelMy: "tree and bee",
+            correctBucketEn: "Rhyme",
+            correctBucketMy: "ကာရန် (Rhyme)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-6",
+            labelEn: "as tall as a mountain",
+            labelMy: "as tall as a mountain",
+            correctBucketEn: "Simile",
+            correctBucketMy: "ဥပမာနှိုင်းယှဉ်ချက် (Simile)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-7",
+            labelEn: "wild windy weather",
+            labelMy: "wild windy weather",
+            correctBucketEn: "Alliteration",
+            correctBucketMy: "အသံဆင်ခြင်း (Alliteration)",
+          ),
+          SortingItem(
+            id: "y4eng-w24-sort-8",
+            labelEn: "splash",
+            labelMy: "splash",
+            correctBucketEn: "Onomatopoeia",
+            correctBucketMy: "အသံတု (Onomatopoeia)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w24-d4",
+      dayNumber: 4,
+      titleEn: "The Nova School Poetry Slam",
+      titleMy: "Nova ကျောင်း ကဗျာပြိုင်ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Poetry Slam",
+        titleMy: "Nova ကျောင်း ကဗျာပြိုင်ပွဲ",
+        passageEn:
+            "Nova School held its very first Poetry Slam. First, Moe Moe stepped onto the stage and read a poem full of rhyme: \"The moon is round, the moon is white, it glows so softly every night.\" The class clapped, tapping the rhythm with their hands. Next, Nay Chi shared a poem bursting with similes: \"My heart was as light as a floating feather, and my dream flew away like a bird in the weather.\" The audience smiled, picturing the feeling clearly in their minds. Then, Tin performed a poem packed with alliteration and onomatopoeia: \"Sizzling, sputtering, silver rain fell -- splash, splash, splash, on the sleepy school bell!\" Everyone laughed at the playful sounds. Finally, Ms. Thandar stood up and said, \"Rhyme gives a poem music, similes paint pictures in our minds, and alliteration with onomatopoeia bring sounds to life. Together, these tools help a poet share feelings that plain words alone cannot express.\" The whole class cheered for the first Nova School Poetry Slam.",
+        passageMy:
+            "Nova ကျောင်းသည် ၎င်း၏ ပထမဆုံး ကဗျာပြိုင်ပွဲကို ကျင်းပခဲ့သည်။ ပထမဦးစွာ မိုးမိုးသည် စင်မြင့်ပေါ်သို့ တက်ပြီး ကာရန်နှင့် ပြည့်နှက်နေသော ကဗျာတစ်ပုဒ်ကို ဖတ်ပြခဲ့သည် -- \"The moon is round, the moon is white, it glows so softly every night.\" အတန်းသားများသည် လက်များဖြင့် စည်းချက်ကို ခြေဖျားတို့ရင်း လက်ခုပ်တီးခဲ့ကြသည်။ ထို့နောက် နေချည်သည် ဥပမာနှိုင်းယှဉ်ချက်များ ပြည့်နှက်နေသော ကဗျာတစ်ပုဒ်ကို မျှဝေခဲ့သည် -- \"My heart was as light as a floating feather, and my dream flew away like a bird in the weather.\" ပရိသတ်တို့သည် ခံစားချက်ကို စိတ်ထဲတွင် ရှင်းလင်းစွာ မြင်ယောင်ကာ ပြုံးလိုက်ကြသည်။ ထို့နောက် တင်သည် အသံဆင်ခြင်းနှင့် အသံတုစကားလုံးများ ပြည့်နှက်နေသော ကဗျာတစ်ပုဒ်ကို တင်ဆက်ခဲ့သည် -- \"Sizzling, sputtering, silver rain fell -- splash, splash, splash, on the sleepy school bell!\" အားလုံးသည် ကစားခံရသော အသံများကြောင့် ရယ်မောခဲ့ကြသည်။ နောက်ဆုံးတွင် ဆရာမ သန္တာသည် မတ်တပ်ရပ်ကာ \"ကာရန်က ကဗျာကို တေးဂီတဖြစ်စေတယ်၊ ဥပမာနှိုင်းယှဉ်ချက်တွေက ငါတို့စိတ်ထဲမှာ ပုံရိပ်တွေဆွဲပေးတယ်၊ အသံဆင်ခြင်းနဲ့ အသံတုတွေကတော့ အသံတွေကို အသက်ဝင်စေတယ်။ ဒီကိရိယာတွေ အားလုံး ပေါင်းစပ်လိုက်တော့ ကဗျာဆရာတစ်ယောက်ကို ရိုးရိုးစကားလုံးတွေတင် ဖော်ပြလို့မရတဲ့ ခံစားချက်တွေကို မျှဝေနိုင်အောင် ကူညီပေးတယ်\" ဟု ပြောခဲ့သည်။ အတန်းသားအားလုံးသည် Nova ကျောင်း ပထမဆုံး ကဗျာပြိုင်ပွဲအတွက် ဝမ်းသာအားရ ကျယ်လောင်စွာ အားပေးခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Which poetic tool did Moe Moe's poem use the most?",
+            questionMy:
+                "မိုးမိုး၏ ကဗျာသည် ဘယ်ကဗျာကိရိယာကို အများဆုံး အသုံးပြုခဲ့သနည်း။",
+            optionsEn: ["Rhyme", "Simile", "Alliteration", "Onomatopoeia"],
+            optionsMy: ["Rhyme", "Simile", "Alliteration", "Onomatopoeia"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which two things did Nay Chi compare her heart and dream to?",
+            questionMy:
+                "နေချည်သည် သူမ၏နှလုံးနှင့် အိပ်မက်ကို ဘာနှစ်ခုနှင့် နှိုင်းယှဉ်ခဲ့သနည်း။",
+            optionsEn: [
+              "A floating feather and a bird",
+              "A lion and a mountain",
+              "A drum and a bell",
+              "A star and the moon",
+            ],
+            optionsMy: [
+              "A floating feather and a bird",
+              "A lion and a mountain",
+              "A drum and a bell",
+              "A star and the moon",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which sound word did Tin repeat in his poem?",
+            questionMy:
+                "တင်၏ ကဗျာတွင် ဘယ်အသံစကားလုံးကို ထပ်ခါထပ်ခါ သုံးခဲ့သနည်း။",
+            optionsEn: ["Splash", "Buzz", "Crash", "Pop"],
+            optionsMy: ["Splash", "Buzz", "Crash", "Pop"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to Ms. Thandar, what do similes do?",
+            questionMy:
+                "ဆရာမ သန္တာပြောသည့်အတိုင်း ဥပမာနှိုင်းယှဉ်ချက်များသည် ဘာလုပ်ပေးသနည်း။",
+            optionsEn: [
+              "Paint pictures in our minds",
+              "Make poems shorter",
+              "Remove all feeling",
+              "Make poems silent",
+            ],
+            optionsMy: [
+              "Paint pictures in our minds",
+              "Make poems shorter",
+              "Remove all feeling",
+              "Make poems silent",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the whole term, how do poets use rhyme, similes, alliteration, and onomatopoeia together?",
+            questionMy:
+                "ဒီ Term တစ်ခုလုံးကို အခြေခံပြီး ကဗျာဆရာများသည် ကာရန်၊ ဥပမာနှိုင်းယှဉ်ချက်၊ အသံဆင်ခြင်းနှင့် အသံတုတို့ကို အတူတကွ ဘယ်လို အသုံးပြုကြသနည်း။",
+            optionsEn: [
+              "To create feeling and vivid imagery that plain words alone cannot express",
+              "To make poems as long as possible",
+              "To confuse the reader on purpose",
+              "To avoid using any descriptive words",
+            ],
+            optionsMy: [
+              "To create feeling and vivid imagery that plain words alone cannot express",
+              "To make poems as long as possible",
+              "To confuse the reader on purpose",
+              "To avoid using any descriptive words",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w24-d5",
+      dayNumber: 5,
+      titleEn: "Poetry Slam Grand Finale",
+      titleMy: "ကဗျာပြိုင်ပွဲ ကြီးမားသောအဆုံးသတ်ပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          optionsMy: [
+            "rhyming words",
+            "setting words",
+            "sequencing words",
+            "sensory words",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"As busy as a bee\" is an example of a...",
+          questionMy: "\"As busy as a bee\" သည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["simile", "rhyme", "onomatopoeia", "setting"],
+          optionsMy: ["simile", "rhyme", "onomatopoeia", "setting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Peter Picked Purple Plums\" repeats the sound...",
+          questionMy:
+              "\"Peter Picked Purple Plums\" သည် ဘယ်အသံကို ထပ်ခါထပ်ခါ သုံးထားသနည်း။",
+          optionsEn: ["\"p\"", "\"s\"", "\"b\"", "\"t\""],
+          optionsMy: ["\"p\"", "\"s\"", "\"b\"", "\"t\""],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The word \"buzz\" is an example of...",
+          questionMy: "\"buzz\" ဟူသော စကားလုံးသည် ဘယ်အမျိုးအစား ဥပမာနည်း။",
+          optionsEn: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          optionsMy: ["onomatopoeia", "alliteration", "simile", "rhythm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This term, we learned about rhyme and rhythm, similes, and alliteration and onomatopoeia. What is the big idea that connects everything we learned about poetry this term?",
+          questionMy:
+              "ဒီ Term မှာ ကာရန်နှင့် စည်းချက်၊ ဥပမာနှိုင်းယှဉ်ချက်များနှင့် အသံဆင်ခြင်းနှင့် အသံတုအကြောင်း သင်ကြားခဲ့ကြသည်။ ဒီ Term တစ်လျှောက် ကဗျာအကြောင်း သင်ယူခဲ့သမျှကို ဆက်စပ်ပေးသော အကြီးမားဆုံးအယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Poets use rhyme, rhythm, similes, alliteration, and onomatopoeia together to create feeling and paint vivid pictures for the reader.",
+            "A poem only needs a title and nothing else.",
+            "Sound and comparison never matter in poetry.",
+            "Poems must never use descriptive words.",
+          ],
+          optionsMy: [
+            "Poets use rhyme, rhythm, similes, alliteration, and onomatopoeia together to create feeling and paint vivid pictures for the reader.",
+            "A poem only needs a title and nothing else.",
+            "Sound and comparison never matter in poetry.",
+            "Poems must never use descriptive words.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm6 = CourseTermDef(
+  id: "course-year4-english-t6",
+  termNumber: 6,
+  titleEn: "Poetry and Figurative Language",
+  titleMy: "ကဗျာနှင့် တင်စားချက် ဘာသာစကား",
+  certificateTitleEn: "Poetry and Figurative Language",
+  certificateTitleMy: "ကဗျာနှင့် တင်စားချက် ဘာသာစကား",
+  weeks: [
+    _year4EnglishWeek21,
+    _year4EnglishWeek22,
+    _year4EnglishWeek23,
+    _year4EnglishWeek24,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 7, Week 25: "Instructions and How-To Texts"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek25 = CourseWeekDef(
+  id: "course-year4-english-w25",
+  weekNumber: 25,
+  titleEn: "Instructions and How-To Texts",
+  titleMy: "ညွှန်ကြားချက်နှင့် ပြုလုပ်နည်းစာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w25-d1",
+      dayNumber: 1,
+      titleEn: "Imperative Verbs and Clear Steps",
+      titleMy: "ပြုစေချက်ကြိယာများနှင့် ရှင်းလင်းသောအဆင့်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Instructions tell us how to do something, step by step. What are these texts called?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် တစ်ခုခုကို အဆင့်ဆင့် မည်သို့ပြုလုပ်ရမည်ကို ပြောပြသည်။ ဒီစာမျိုးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "How-to texts",
+            "Story texts",
+            "Poem texts",
+            "Letter texts",
+          ],
+          optionsMy: [
+            "How-to texts",
+            "Story texts",
+            "Poem texts",
+            "Letter texts",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Instructions usually begin each step with a command word, such as \"Cut\" or \"Pour.\" What kind of verb is this?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် အဆင့်တစ်ခုစီကို \"Cut\" သို့မဟုတ် \"Pour\" ကဲ့သို့သော အမိန့်စကားလုံးနှင့် အစပြုလေ့ရှိသည်။ ဒါက ဘယ်လိုကြိယာမျိုးနည်း။",
+          optionsEn: [
+            "An imperative verb",
+            "A describing word",
+            "A question word",
+            "A joining word",
+          ],
+          optionsMy: [
+            "An imperative verb",
+            "A describing word",
+            "A question word",
+            "A joining word",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence uses an imperative verb correctly to start an instruction?",
+          questionMy:
+              "ဘယ်ဝါကျသည် ညွှန်ကြားချက်တစ်ခုကို စတင်ရန် ပြုစေချက်ကြိယာကို မှန်ကန်စွာ သုံးထားသနည်း။",
+          optionsEn: [
+            "Wash the vegetables carefully.",
+            "The vegetables are washed.",
+            "Washing the vegetables.",
+            "Vegetables were washed.",
+          ],
+          optionsMy: [
+            "Wash the vegetables carefully.",
+            "The vegetables are washed.",
+            "Washing the vegetables.",
+            "Vegetables were washed.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Instructions often use ordering words like \"First,\" \"Next,\" and \"Finally\" to show...?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် အဆင့်များကို ပြသရန် \"First,\" \"Next,\" နှင့် \"Finally\" ကဲ့သို့သော အစီအစဉ်စကားလုံးများကို မကြာခဏ သုံးလေ့ရှိသည်။ ဒါက ဘာကို ပြသနည်း။",
+          optionsEn: [
+            "The order of the steps",
+            "The characters in a story",
+            "The feelings of the writer",
+            "The title of the text",
+          ],
+          optionsMy: [
+            "The order of the steps",
+            "The characters in a story",
+            "The feelings of the writer",
+            "The title of the text",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the list of things you need before you start called? It is often found at the top of a how-to text.",
+          questionMy:
+              "ပြုလုပ်နည်းစာတစ်ပုဒ် မစတင်မီ လိုအပ်သောအရာများ စာရင်းကို ဘာဟု ခေါ်သနည်း။ ၎င်းကို ပြုလုပ်နည်းစာ၏ ထိပ်ပိုင်းတွင် များသောအားဖြင့် တွေ့ရသည်။",
+          optionsEn: [
+            "A list of materials",
+            "A moral of the story",
+            "A rhyme scheme",
+            "A character list",
+          ],
+          optionsMy: [
+            "A list of materials",
+            "A moral of the story",
+            "A rhyme scheme",
+            "A character list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Fold the paper in half\" is an example of...?",
+          questionMy: "\"Fold the paper in half\" သည် ဘာ၏ ဥပမာဖြစ်သနည်း။",
+          optionsEn: [
+            "A clear instruction step",
+            "A character description",
+            "A setting description",
+            "A friendly greeting",
+          ],
+          optionsMy: [
+            "A clear instruction step",
+            "A character description",
+            "A setting description",
+            "A friendly greeting",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do instructions need to be written in a clear order?",
+          questionMy:
+              "ညွှန်ကြားချက်များကို ဘာကြောင့် ရှင်းလင်းသောအစီအစဉ်ဖြင့် ရေးရန် လိုအပ်သနည်း။",
+          optionsEn: [
+            "So the reader can follow each step correctly",
+            "So the reader can guess the ending",
+            "So the reader can skip steps",
+            "So the reader can change the steps",
+          ],
+          optionsMy: [
+            "So the reader can follow each step correctly",
+            "So the reader can guess the ending",
+            "So the reader can skip steps",
+            "So the reader can change the steps",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which word signals the very last step of an instruction?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ညွှန်ကြားချက်တစ်ခု၏ နောက်ဆုံးအဆင့်ကို အချက်ပြသနည်း။",
+          optionsEn: ["Finally", "First", "Next", "Then"],
+          optionsMy: ["Finally", "First", "Next", "Then"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match the Instruction Word",
+      titleMy: "ညွှန်ကြားချက်စကားလုံးကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w25-dm-1",
+          termEn: "Chop the onions finely.",
+          termMy: "Chop the onions finely.",
+          matchEn: "An instruction step -- tells the reader exactly what to do",
+          matchMy:
+              "ညွှန်ကြားချက်အဆင့် -- စာဖတ်သူအား ဘာလုပ်ရမည်ကို အတိအကျပြောသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-2",
+          termEn: "First,",
+          termMy: "First,",
+          matchEn: "A sequencing word -- shows which step comes first",
+          matchMy: "အစီအစဉ်စကားလုံး -- ဘယ်အဆင့်က ပထမဆုံးလာသည်ကို ပြသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-3",
+          termEn: "Next,",
+          termMy: "Next,",
+          matchEn: "A sequencing word -- shows the step that comes after",
+          matchMy: "အစီအစဉ်စကားလုံး -- နောက်ဆက်လာမည့်အဆင့်ကို ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-4",
+          termEn: "Finally,",
+          termMy: "Finally,",
+          matchEn: "A sequencing word -- shows the very last step",
+          matchMy: "အစီအစဉ်စကားလုံး -- အနောက်ဆုံးအဆင့်ကို ပြသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-5",
+          termEn: "You will need: paper, scissors, and glue.",
+          termMy: "You will need: paper, scissors, and glue.",
+          matchEn: "A materials list -- shows what is needed before starting",
+          matchMy: "လိုအပ်ချက်စာရင်း -- စတင်မီ လိုအပ်သောအရာများကို ပြသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-6",
+          termEn: "Fold the paper along the dotted line.",
+          termMy: "Fold the paper along the dotted line.",
+          matchEn:
+              "An instruction step -- uses an imperative verb to give a command",
+          matchMy:
+              "ညွှန်ကြားချက်အဆင့် -- အမိန့်ပေးရန် ပြုစေချက်ကြိယာကို သုံးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-7",
+          termEn: "Stir the mixture slowly for two minutes.",
+          termMy: "Stir the mixture slowly for two minutes.",
+          matchEn:
+              "An instruction step -- tells exactly how long and how to do it",
+          matchMy:
+              "ညွှန်ကြားချက်အဆင့် -- ဘယ်လောက်ကြာကြာ ဘယ်လိုလုပ်ရမည်ကို အတိအကျပြောသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w25-dm-8",
+          termEn: "How to Make a Paper Boat",
+          termMy: "How to Make a Paper Boat",
+          matchEn:
+              "A title -- tells the reader what the instructions will teach",
+          matchMy:
+              "ခေါင်းစဉ် -- ညွှန်ကြားချက်များက ဘာသင်ပေးမည်ကို စာဖတ်သူအား ပြောပြသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w25-d3",
+      dayNumber: 3,
+      titleEn: "How to Make a Paper Fan",
+      titleMy: "စက္ကူပန်ကာ ပြုလုပ်နည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "How to Make a Paper Fan",
+        titleMy: "စက္ကူပန်ကာ ပြုလုပ်နည်း",
+        passageEn:
+            "Ms. Thandar showed the class how to make a simple paper fan. First, take a rectangular piece of colored paper. Next, fold the paper back and forth like a zigzag, making each fold about two centimeters wide. Then, pinch one end firmly and wrap a rubber band around it to hold the folds together. After that, spread out the other end of the paper into a fan shape. Finally, tape a wooden stick to the pinched end so you can hold your fan easily. Moe Moe waved her finished fan proudly and cooled her whole table with it.",
+        passageMy:
+            "ဆရာမ သန္တာသည် အတန်းသားများကို ရိုးရှင်းသော စက္ကူပန်ကာတစ်ခု ပြုလုပ်ပုံကို ပြသခဲ့သည်။ ပထမဦးစွာ အရောင်ရှိသော စတုဂံပုံ စက္ကူတစ်ချပ်ကို ယူပါ။ ထို့နောက် တစ်ခြေတည်းစီ လွှဲညှစ်ပုံစံဖြင့် စက္ကူကို ရှေ့နောက်ခေါက်ပါ၊ ခေါက်တစ်ကြိမ်စီကို စင်တီမီတာနှစ်ခုလောက်ကျယ်အောင် ခေါက်ပါ။ ထို့နောက် တစ်ဖက်စွန်းကို ခိုင်ခိုင်မာမာ ညှစ်ကိုင်ပြီး ခေါက်ချက်များ ပူးကပ်နေအောင် ရာဘာကြိုးဖြင့် ပတ်ပါ။ ထို့နောက် စက္ကူ၏ အခြားစွန်းကို ပန်ကာပုံစံအဖြစ် ဖြန့်ချပါ။ နောက်ဆုံးတွင် ပန်ကာကို လွယ်ကူစွာ ကိုင်ဆောင်နိုင်ရန် ညှစ်ကိုင်ထားသော စွန်းတွင် သစ်သားတံတစ်ချောင်းကို တိပ်ကပ်ပါ။ မိုးမိုးသည် သူမ ပြီးစီးသွားသော ပန်ကာကို ဂုဏ်ယူစွာ ယမ်းလိုက်ပြီး သူမ၏ စားပွဲတစ်ခုလုံးကို အေးမြအောင်လုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Who showed the class how to make a paper fan?",
+            questionMy:
+                "ဘယ်သူက အတန်းသားများကို စက္ကူပန်ကာပြုလုပ်ပုံ ပြသခဲ့သနည်း။",
+            optionsEn: ["Ms. Thandar", "Moe Moe", "Tin", "Nay Chi"],
+            optionsMy: ["Ms. Thandar", "Moe Moe", "Tin", "Nay Chi"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the first step in making the fan?",
+            questionMy: "ပန်ကာပြုလုပ်ရာတွင် ပထမဆုံးအဆင့်က အဘယ်နည်း။",
+            optionsEn: [
+              "Take a rectangular piece of colored paper",
+              "Wrap a rubber band around it",
+              "Tape a wooden stick to it",
+              "Spread the paper into a fan shape",
+            ],
+            optionsMy: [
+              "Take a rectangular piece of colored paper",
+              "Wrap a rubber band around it",
+              "Tape a wooden stick to it",
+              "Spread the paper into a fan shape",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What do you use to hold the folds together?",
+            questionMy: "ခေါက်ချက်များ ပူးကပ်နေအောင် ဘာကို သုံးရသနည်း။",
+            optionsEn: ["A rubber band", "Glue", "Tape", "String"],
+            optionsMy: ["A rubber band", "Glue", "Tape", "String"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is taped to the pinched end at the very end?",
+            questionMy:
+                "နောက်ဆုံးတွင် ညှစ်ကိုင်ထားသော စွန်းတွင် ဘာကို တိပ်ကပ်ရသနည်း။",
+            optionsEn: [
+              "A wooden stick",
+              "A paper clip",
+              "A ribbon",
+              "A sticker",
+            ],
+            optionsMy: [
+              "A wooden stick",
+              "A paper clip",
+              "A ribbon",
+              "A sticker",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which sequencing word tells us \"tape a wooden stick to the pinched end\" is the last step?",
+            questionMy:
+                "\"tape a wooden stick to the pinched end\" ဟူသော နောက်ဆုံးအဆင့်ကို ဘယ်စီစဉ်စကားလုံးက ညွှန်ပြသနည်း။",
+            optionsEn: ["Finally", "First", "Next", "Then"],
+            optionsMy: ["Finally", "First", "Next", "Then"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w25-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Instruction Words",
+      titleMy: "ညွှန်ကြားချက်စကားလုံးများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Imperative Verb",
+          "Sequencing Word",
+          "Story Word (Not an Instruction)",
+        ],
+        bucketsMy: [
+          "ပြုစေချက်ကြိယာ",
+          "အစီအစဉ်စကားလုံး",
+          "ဇာတ်လမ်းစကားလုံး (ညွှန်ကြားချက်မဟုတ်ပါ)",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w25-sort-1",
+            labelEn: "Cut",
+            labelMy: "Cut",
+            correctBucketEn: "Imperative Verb",
+            correctBucketMy: "ပြုစေချက်ကြိယာ",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-2",
+            labelEn: "Pour",
+            labelMy: "Pour",
+            correctBucketEn: "Imperative Verb",
+            correctBucketMy: "ပြုစေချက်ကြိယာ",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-3",
+            labelEn: "Fold",
+            labelMy: "Fold",
+            correctBucketEn: "Imperative Verb",
+            correctBucketMy: "ပြုစေချက်ကြိယာ",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-4",
+            labelEn: "First",
+            labelMy: "First",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "အစီအစဉ်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-5",
+            labelEn: "Next",
+            labelMy: "Next",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "အစီအစဉ်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-6",
+            labelEn: "Finally",
+            labelMy: "Finally",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "အစီအစဉ်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-7",
+            labelEn: "Once upon a time",
+            labelMy: "Once upon a time",
+            correctBucketEn: "Story Word (Not an Instruction)",
+            correctBucketMy: "ဇာတ်လမ်းစကားလုံး (ညွှန်ကြားချက်မဟုတ်ပါ)",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-8",
+            labelEn: "happily ever after",
+            labelMy: "happily ever after",
+            correctBucketEn: "Story Word (Not an Instruction)",
+            correctBucketMy: "ဇာတ်လမ်းစကားလုံး (ညွှန်ကြားချက်မဟုတ်ပါ)",
+          ),
+          SortingItem(
+            id: "y4eng-w25-sort-9",
+            labelEn: "the brave princess",
+            labelMy: "the brave princess",
+            correctBucketEn: "Story Word (Not an Instruction)",
+            correctBucketMy: "ဇာတ်လမ်းစကားလုံး (ညွှန်ကြားချက်မဟုတ်ပါ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w25-d5",
+      dayNumber: 5,
+      titleEn: "Instructions Recap",
+      titleMy: "ညွှန်ကြားချက်များ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Instructions usually start each step with a command word. What is this kind of verb called?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် အဆင့်တစ်ခုစီကို အမိန့်စကားလုံးဖြင့် စတင်လေ့ရှိသည်။ ဒီကြိယာမျိုးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "An imperative verb",
+            "A describing word",
+            "A question word",
+            "A joining word",
+          ],
+          optionsMy: [
+            "An imperative verb",
+            "A describing word",
+            "A question word",
+            "A joining word",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which word usually starts the very first step of instructions?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ညွှန်ကြားချက်များ၏ ပထမဆုံးအဆင့်ကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["First", "Finally", "Next", "Then"],
+          optionsMy: ["First", "Finally", "Next", "Then"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word usually signals the last step?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် နောက်ဆုံးအဆင့်ကို ပုံမှန်အားဖြင့် အချက်ပြလေ့ရှိသနည်း။",
+          optionsEn: ["Finally", "First", "Next", "Then"],
+          optionsMy: ["Finally", "First", "Next", "Then"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A list of things you need before starting an instruction is called a...?",
+          questionMy:
+              "ညွှန်ကြားချက်တစ်ခု မစတင်မီ လိုအပ်သောအရာများစာရင်းကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: [
+            "A materials list",
+            "A moral of the story",
+            "A rhyme scheme",
+            "A character list",
+          ],
+          optionsMy: [
+            "A materials list",
+            "A moral of the story",
+            "A rhyme scheme",
+            "A character list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is a clear instruction step?",
+          questionMy: "ဘယ်ဝါကျသည် ရှင်းလင်းသော ညွှန်ကြားချက်အဆင့်ဖြစ်သနည်း။",
+          optionsEn: [
+            "Pour the water slowly into the cup.",
+            "The cup was full of water.",
+            "A cup of water.",
+            "Water is wet.",
+          ],
+          optionsMy: [
+            "Pour the water slowly into the cup.",
+            "The cup was full of water.",
+            "A cup of water.",
+            "Water is wet.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 7, Week 26: "Reports and Facts"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek26 = CourseWeekDef(
+  id: "course-year4-english-w26",
+  weekNumber: 26,
+  titleEn: "Reports and Facts",
+  titleMy: "အစီရင်ခံစာနှင့် အချက်အလက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w26-d1",
+      dayNumber: 1,
+      titleEn: "Facts, Opinions, and Headings",
+      titleMy: "အချက်အလက်၊ အယူအဆနှင့် ခေါင်းစဉ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A report gives the reader...?",
+          questionMy: "အစီရင်ခံစာတစ်ပုဒ်သည် စာဖတ်သူအား ဘာပေးသနည်း။",
+          optionsEn: [
+            "Facts and information about a topic",
+            "A made-up story",
+            "A poem with rhymes",
+            "A letter to a friend",
+          ],
+          optionsMy: [
+            "Facts and information about a topic",
+            "A made-up story",
+            "A poem with rhymes",
+            "A letter to a friend",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a fact, not an opinion?",
+          questionMy:
+              "အောက်ပါတို့အနက် အယူအဆမဟုတ်ဘဲ အချက်အလက်ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Elephants are the largest land animals.",
+            "Elephants are the best animals.",
+            "Elephants are so cute.",
+            "Everyone loves elephants.",
+          ],
+          optionsMy: [
+            "Elephants are the largest land animals.",
+            "Elephants are the best animals.",
+            "Elephants are so cute.",
+            "Everyone loves elephants.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reports often use...to organize information into sections?",
+          questionMy:
+              "အစီရင်ခံစာများသည် အချက်အလက်များကို အပိုင်းများခွဲရန် များသောအားဖြင့် ဘာကို သုံးလေ့ရှိသနည်း။",
+          optionsEn: ["Headings", "Rhymes", "Once upon a time", "Dear Friend,"],
+          optionsMy: ["Headings", "Rhymes", "Once upon a time", "Dear Friend,"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a report has the heading \"Habitat,\" what kind of information would you expect under it?",
+          questionMy:
+              "အစီရင်ခံစာတွင် \"Habitat\" ခေါင်းစဉ်ရှိလျှင် ၎င်းအောက်တွင် ဘယ်လိုအချက်အလက်မျိုး ရှိလိမ့်မည်ဟု မျှော်လင့်ရသနည်း။",
+          optionsEn: [
+            "Where the animal lives",
+            "What the animal eats",
+            "How the animal looks",
+            "How the animal feels",
+          ],
+          optionsMy: [
+            "Where the animal lives",
+            "What the animal eats",
+            "How the animal looks",
+            "How the animal feels",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which heading would you expect facts about what an animal eats?",
+          questionMy:
+              "တိရစ္ဆာန်တစ်ကောင် ဘာစားသည်ဆိုသော အချက်အလက်ကို ဘယ်ခေါင်းစဉ်အောက်တွင် မျှော်လင့်ရသနည်း။",
+          optionsEn: ["Diet", "Habitat", "Appearance", "Family Life"],
+          optionsMy: ["Diet", "Habitat", "Appearance", "Family Life"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A report about elephants would most likely include...?",
+          questionMy:
+              "ဆင်များအကြောင်း အစီရင်ခံစာတစ်ပုဒ်တွင် အများဆုံး ပါဝင်နိုင်သည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "True facts about elephants",
+            "A made-up talking elephant",
+            "A rhyme about elephants",
+            "A letter from an elephant",
+          ],
+          optionsMy: [
+            "True facts about elephants",
+            "A made-up talking elephant",
+            "A rhyme about elephants",
+            "A letter from an elephant",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do writers organize facts under headings?",
+          questionMy:
+              "စာရေးသူများသည် အချက်အလက်များကို ခေါင်းစဉ်များအောက် ဘာကြောင့် စီစဉ်ကြသနည်း။",
+          optionsEn: [
+            "To help the reader find information easily",
+            "To confuse the reader",
+            "To make the report longer",
+            "To hide the facts",
+          ],
+          optionsMy: [
+            "To help the reader find information easily",
+            "To confuse the reader",
+            "To make the report longer",
+            "To hide the facts",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence is written like a fact for a report, not like a story?",
+          questionMy:
+              "ဘယ်ဝါကျသည် ဇာတ်လမ်းလိုမဟုတ်ဘဲ အစီရင်ခံစာအတွက် အချက်အလက်လို ရေးထားသနည်း။",
+          optionsEn: [
+            "Tigers live in forests and grasslands.",
+            "Once, a tiger roared at the moon.",
+            "The tiger felt very sad.",
+            "\"Help me!\" cried the tiger.",
+          ],
+          optionsMy: [
+            "Tigers live in forests and grasslands.",
+            "Once, a tiger roared at the moon.",
+            "The tiger felt very sad.",
+            "\"Help me!\" cried the tiger.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match the Heading to the Fact",
+      titleMy: "ခေါင်းစဉ်ကို အချက်အလက်နှင့် ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w26-dm-1",
+          termEn: "Habitat",
+          termMy: "Habitat",
+          matchEn: "Elephants live in forests, grasslands, and near rivers.",
+          matchMy: "Elephants live in forests, grasslands, and near rivers.",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-2",
+          termEn: "Diet",
+          termMy: "Diet",
+          matchEn: "Elephants eat grass, leaves, fruit, and bark.",
+          matchMy: "Elephants eat grass, leaves, fruit, and bark.",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-3",
+          termEn: "Appearance",
+          termMy: "Appearance",
+          matchEn: "Elephants have large ears, a long trunk, and grey skin.",
+          matchMy: "Elephants have large ears, a long trunk, and grey skin.",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-4",
+          termEn: "Family Life",
+          termMy: "Family Life",
+          matchEn: "Elephants live in herds led by an older female.",
+          matchMy: "Elephants live in herds led by an older female.",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-5",
+          termEn: "Fun Facts",
+          termMy: "Fun Facts",
+          matchEn: "An elephant's trunk has thousands of muscles.",
+          matchMy: "An elephant's trunk has thousands of muscles.",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-6",
+          termEn: "Headings",
+          termMy: "Headings",
+          matchEn: "Words that organize a report into clear sections",
+          matchMy:
+              "အစီရင်ခံစာကို ပိုင်းခြားနားလည်လွယ်သောအပိုင်းများ ခွဲစီစဉ်ပေးသည့် စကားလုံးများ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-7",
+          termEn: "Fact",
+          termMy: "Fact",
+          matchEn: "A true piece of information that can be checked",
+          matchMy: "စစ်ဆေးနိုင်သော မှန်ကန်သည့်အချက်အလက်တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w26-dm-8",
+          termEn: "Opinion",
+          termMy: "Opinion",
+          matchEn:
+              "A personal feeling or belief, not something everyone agrees on",
+          matchMy:
+              "လူတိုင်းသဘောတူချက်မဟုတ်ဘဲ ကိုယ်ပိုင်ခံစားချက် (သို့) အယူအဆတစ်ခု",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w26-d3",
+      dayNumber: 3,
+      titleEn: "All About the Asian Elephant",
+      titleMy: "အာရှဆင်အကြောင်း အားလုံး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "All About the Asian Elephant",
+        titleMy: "အာရှဆင်အကြောင်း အားလုံး",
+        passageEn:
+            "Habitat: The Asian elephant lives in the forests and grasslands of Myanmar and other parts of Asia. Diet: These elephants eat grass, leaves, bark, and fruit, and they can eat up to one hundred fifty kilograms of food every day. Appearance: An Asian elephant has large flapping ears, a long grey trunk, and thick wrinkled skin. Family Life: Elephants live together in herds led by the oldest female, called the matriarch. Fun Fact: An elephant's trunk has no bones, but it has thousands of muscles, which makes it strong enough to lift a heavy log and gentle enough to pick up a single leaf.",
+        passageMy:
+            "Habitat: အာရှဆင်သည် မြန်မာနိုင်ငံနှင့် အာရှတိုက် အခြားနေရာများရှိ တောနှင့် လွင်ပြင်များတွင် နေထိုင်သည်။ Diet: ဤဆင်များသည် မြက်၊ သစ်ရွက်၊ သစ်ခေါက်နှင့် အသီးများကို စားသုံးပြီး တစ်နေ့လျှင် အစားအစာ ကီလိုဂရမ် တစ်ရာ့ငါးဆယ်အထိ စားနိုင်သည်။ Appearance: အာရှဆင်တစ်ကောင်တွင် ကြီးမားပြီး လွှင့်နိုင်သော နားရွက်များ၊ ရှည်လျားသော မီးခိုးရောင် ဆွယ်တံနှင့် အရေပြားထူထပ်၍ အကျင်ရှိသော အရေပြားရှိသည်။ Family Life: ဆင်များသည် အသက်အကြီးဆုံး အမဆင် (matriarch ဟုခေါ်သည်) ဦးဆောင်သော အုပ်စုလိုက် အတူတကွ နေထိုင်ကြသည်။ Fun Fact: ဆင်၏ ဆွယ်တံတွင် အရိုးမပါဝင်သော်လည်း ကြွက်သားထောင်ပေါင်းများစွာ ရှိသဖြင့် လေးလံသော သစ်ကုန်းလုံးကို ချီနိုင်လောက်အောင် အားကောင်းပြီး အရွက်တစ်ရွက်တည်းကို ဆွဲထုတ်နိုင်လောက်အောင် နူးညံ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Where does the Asian elephant live?",
+            questionMy: "အာရှဆင်သည် ဘယ်နေရာတွင် နေထိုင်သနည်း။",
+            optionsEn: [
+              "Forests and grasslands",
+              "Deep oceans",
+              "Icy mountains",
+              "Deserts",
+            ],
+            optionsMy: [
+              "Forests and grasslands",
+              "Deep oceans",
+              "Icy mountains",
+              "Deserts",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which heading tells us what the elephant eats?",
+            questionMy: "ဆင်စားသည့်အစားအစာကို ဘယ်ခေါင်းစဉ်က ပြောပြသနည်း။",
+            optionsEn: ["Diet", "Habitat", "Appearance", "Family Life"],
+            optionsMy: ["Diet", "Habitat", "Appearance", "Family Life"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How much food can an elephant eat in one day, according to the report?",
+            questionMy:
+                "အစီရင်ခံစာအရ ဆင်တစ်ကောင်သည် တစ်နေ့လျှင် အစားအစာ ဘယ်လောက်စားနိုင်သနည်း။",
+            optionsEn: [
+              "Up to 150 kilograms",
+              "Up to 15 kilograms",
+              "Up to 1500 kilograms",
+              "Up to 1 kilogram",
+            ],
+            optionsMy: [
+              "Up to 150 kilograms",
+              "Up to 15 kilograms",
+              "Up to 1500 kilograms",
+              "Up to 1 kilogram",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Who leads an elephant herd?",
+            questionMy: "ဆင်အုပ်စုကို ဘယ်သူက ဦးဆောင်သနည်း။",
+            optionsEn: [
+              "The oldest female (the matriarch)",
+              "The youngest male",
+              "A human keeper",
+              "No one leads the herd",
+            ],
+            optionsMy: [
+              "The oldest female (the matriarch)",
+              "The youngest male",
+              "A human keeper",
+              "No one leads the herd",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What makes an elephant's trunk both strong and gentle?",
+            questionMy:
+                "ဆင်၏ ဆွယ်တံကို အားကောင်းပြီး နူးညံ့စေသည့်အရာက အဘယ်နည်း။",
+            optionsEn: [
+              "It has thousands of muscles",
+              "It has strong bones",
+              "It is made of wood",
+              "It has sharp claws",
+            ],
+            optionsMy: [
+              "It has thousands of muscles",
+              "It has strong bones",
+              "It is made of wood",
+              "It has sharp claws",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w26-d4",
+      dayNumber: 4,
+      titleEn: "Organize the Facts Under the Right Heading",
+      titleMy: "အချက်အလက်များကို မှန်ကန်သောခေါင်းစဉ်အောက် စီစဉ်ပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Habitat", "Diet", "Appearance", "Family Life"],
+        bucketsMy: ["နေထိုင်ရာဒေသ", "အစားအစာ", "ပုံပန်းသဏ္ဍာန်", "မိသားစုဘဝ"],
+        items: [
+          SortingItem(
+            id: "y4eng-w26-sort-1",
+            labelEn: "Elephants live near rivers and forests.",
+            labelMy: "Elephants live near rivers and forests.",
+            correctBucketEn: "Habitat",
+            correctBucketMy: "နေထိုင်ရာဒေသ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-2",
+            labelEn: "Elephants live in grasslands too.",
+            labelMy: "Elephants live in grasslands too.",
+            correctBucketEn: "Habitat",
+            correctBucketMy: "နေထိုင်ရာဒေသ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-3",
+            labelEn: "Elephants eat grass and leaves.",
+            labelMy: "Elephants eat grass and leaves.",
+            correctBucketEn: "Diet",
+            correctBucketMy: "အစားအစာ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-4",
+            labelEn: "Elephants eat fruit and bark.",
+            labelMy: "Elephants eat fruit and bark.",
+            correctBucketEn: "Diet",
+            correctBucketMy: "အစားအစာ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-5",
+            labelEn: "Elephants have large flapping ears.",
+            labelMy: "Elephants have large flapping ears.",
+            correctBucketEn: "Appearance",
+            correctBucketMy: "ပုံပန်းသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-6",
+            labelEn: "Elephants have long grey trunks.",
+            labelMy: "Elephants have long grey trunks.",
+            correctBucketEn: "Appearance",
+            correctBucketMy: "ပုံပန်းသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-7",
+            labelEn: "Elephants live in herds.",
+            labelMy: "Elephants live in herds.",
+            correctBucketEn: "Family Life",
+            correctBucketMy: "မိသားစုဘဝ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-8",
+            labelEn: "The oldest female leads the herd.",
+            labelMy: "The oldest female leads the herd.",
+            correctBucketEn: "Family Life",
+            correctBucketMy: "မိသားစုဘဝ",
+          ),
+          SortingItem(
+            id: "y4eng-w26-sort-9",
+            labelEn: "Baby elephants stay close to their mothers.",
+            labelMy: "Baby elephants stay close to their mothers.",
+            correctBucketEn: "Family Life",
+            correctBucketMy: "မိသားစုဘဝ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w26-d5",
+      dayNumber: 5,
+      titleEn: "Reports and Facts Recap",
+      titleMy: "အစီရင်ခံစာနှင့် အချက်အလက် ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A report gives readers...?",
+          questionMy: "အစီရင်ခံစာတစ်ပုဒ်သည် စာဖတ်သူများအား ဘာပေးသနည်း။",
+          optionsEn: [
+            "Facts and information",
+            "A made-up story",
+            "A poem with rhymes",
+            "A friendly letter",
+          ],
+          optionsMy: [
+            "Facts and information",
+            "A made-up story",
+            "A poem with rhymes",
+            "A friendly letter",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a fact, not an opinion?",
+          questionMy:
+              "အောက်ပါတို့အနက် အယူအဆမဟုတ်ဘဲ အချက်အလက်ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Tigers are the largest wild cats.",
+            "Tigers are the scariest animals.",
+            "Tigers are so beautiful.",
+            "Everyone should love tigers.",
+          ],
+          optionsMy: [
+            "Tigers are the largest wild cats.",
+            "Tigers are the scariest animals.",
+            "Tigers are so beautiful.",
+            "Everyone should love tigers.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reports use...to organize information.",
+          questionMy:
+              "အစီရင်ခံစာများသည် အချက်အလက်များကို စီစဉ်ရန် ဘာကို သုံးသနည်း။",
+          optionsEn: ["Headings", "Rhymes", "Once upon a time", "Dear Friend,"],
+          optionsMy: ["Headings", "Rhymes", "Once upon a time", "Dear Friend,"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a heading says \"Diet,\" what would you expect to find?",
+          questionMy:
+              "ခေါင်းစဉ်တွင် \"Diet\" ဟု ဖော်ပြထားလျှင် ဘာကို တွေ့ရလိမ့်မည်ဟု မျှော်လင့်ရသနည်း။",
+          optionsEn: [
+            "What the animal eats",
+            "Where the animal lives",
+            "How the animal looks",
+            "How the animal feels",
+          ],
+          optionsMy: [
+            "What the animal eats",
+            "Where the animal lives",
+            "How the animal looks",
+            "How the animal feels",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which heading would have information about where an animal lives?",
+          questionMy:
+              "တိရစ္ဆာန်တစ်ကောင် နေထိုင်ရာနေရာအကြောင်း အချက်အလက်ကို ဘယ်ခေါင်းစဉ်အောက်တွင် တွေ့နိုင်သနည်း။",
+          optionsEn: ["Habitat", "Diet", "Appearance", "Family Life"],
+          optionsMy: ["Habitat", "Diet", "Appearance", "Family Life"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 7, Week 27: "Letters and Messages"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek27 = CourseWeekDef(
+  id: "course-year4-english-w27",
+  weekNumber: 27,
+  titleEn: "Letters and Messages",
+  titleMy: "စာများနှင့် သတင်းစကားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w27-d1",
+      dayNumber: 1,
+      titleEn: "Greeting, Body, and Closing",
+      titleMy: "နှုတ်ဆက်စကား၊ အဓိကအပိုင်းနှင့် အပိတ်စကား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A friendly letter usually begins with a...?",
+          questionMy:
+              "မိတ်ဆွေစာတစ်စောင်သည် များသောအားဖြင့် ဘာဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: [
+            "Greeting",
+            "Report heading",
+            "Instruction step",
+            "Story ending",
+          ],
+          optionsMy: [
+            "Greeting",
+            "Report heading",
+            "Instruction step",
+            "Story ending",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a greeting you would find at the start of a letter?",
+          questionMy:
+              "အောက်ပါတို့အနက် စာတစ်စောင်၏ အစတွင် တွေ့ရသော နှုတ်ဆက်စကားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Dear Nay Chi,",
+            "Yours sincerely,",
+            "First, mix the flour.",
+            "Habitat: forests",
+          ],
+          optionsMy: [
+            "Dear Nay Chi,",
+            "Yours sincerely,",
+            "First, mix the flour.",
+            "Habitat: forests",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The main part of a letter, where you share your news or message, is called the...?",
+          questionMy:
+              "စာတစ်စောင်၏ အဓိကအပိုင်း၊ သတင်းစကား (သို့) သတင်းအချက်အလက် မျှဝေသည့်နေရာကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: ["Body", "Greeting", "Closing", "Title"],
+          optionsMy: ["Body", "Greeting", "Closing", "Title"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which phrase is a closing you might find at the end of a friendly letter?",
+          questionMy:
+              "မိတ်ဆွေစာတစ်စောင်၏ အဆုံးတွင် တွေ့နိုင်သော အပိတ်စကားမှာ အဘယ်နည်း။",
+          optionsEn: ["Yours sincerely,", "Dear friend,", "First,", "Habitat"],
+          optionsMy: ["Yours sincerely,", "Dear friend,", "First,", "Habitat"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "After the closing, what do we usually write?",
+          questionMy:
+              "အပိတ်စကားနောက်တွင် ငါတို့ ပုံမှန်အားဖြင့် ဘာကို ရေးလေ့ရှိသနည်း။",
+          optionsEn: [
+            "The sender's name",
+            "Another greeting",
+            "A new heading",
+            "A materials list",
+          ],
+          optionsMy: [
+            "The sender's name",
+            "Another greeting",
+            "A new heading",
+            "A materials list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence would most likely appear in the body of a friendly letter?",
+          questionMy:
+              "ဘယ်ဝါကျသည် မိတ်ဆွေစာ၏ အဓိကအပိုင်းတွင် အများဆုံး ပါဝင်နိုင်သနည်း။",
+          optionsEn: [
+            "I had so much fun at the school picnic last week!",
+            "Habitat: forests and grasslands",
+            "First, cut the paper in half.",
+            "Once upon a time, in a faraway land...",
+          ],
+          optionsMy: [
+            "I had so much fun at the school picnic last week!",
+            "Habitat: forests and grasslands",
+            "First, cut the paper in half.",
+            "Once upon a time, in a faraway land...",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do we use a greeting at the start of a letter?",
+          questionMy: "စာ၏ အစတွင် ဘာကြောင့် နှုတ်ဆက်စကား သုံးရသနည်း။",
+          optionsEn: [
+            "To address the person we are writing to",
+            "To end the letter politely",
+            "To list ingredients",
+            "To give facts under headings",
+          ],
+          optionsMy: [
+            "To address the person we are writing to",
+            "To end the letter politely",
+            "To list ingredients",
+            "To give facts under headings",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these shows the correct order of a friendly letter?",
+          questionMy:
+              "အောက်ပါတို့အနက် မိတ်ဆွေစာတစ်စောင်၏ မှန်ကန်သောအစီအစဉ်ကို ပြထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Greeting, body, closing, name",
+            "Closing, body, greeting, name",
+            "Body, name, greeting, closing",
+            "Name, closing, body, greeting",
+          ],
+          optionsMy: [
+            "Greeting, body, closing, name",
+            "Closing, body, greeting, name",
+            "Body, name, greeting, closing",
+            "Name, closing, body, greeting",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match the Letter Part",
+      titleMy: "စာအပိုင်းအခြားကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w27-dm-1",
+          termEn: "Dear Tin,",
+          termMy: "Dear Tin,",
+          matchEn: "A greeting -- addresses the person you are writing to",
+          matchMy: "နှုတ်ဆက်စကား -- စာရေးရသူထံ ခေါ်ဆိုပေးသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-2",
+          termEn: "I hope you are doing well at your new school.",
+          termMy: "I hope you are doing well at your new school.",
+          matchEn: "A body sentence -- shares news or a message",
+          matchMy: "အဓိကအပိုင်းဝါကျ -- သတင်း (သို့) စာတိုတစ်ခုကို မျှဝေသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-3",
+          termEn: "Yours sincerely,",
+          termMy: "Yours sincerely,",
+          matchEn: "A closing -- politely ends the letter",
+          matchMy: "အပိတ်စကား -- စာကို ယဉ်ကျေးစွာ အဆုံးသတ်ပေးသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-4",
+          termEn: "Moe Moe",
+          termMy: "Moe Moe",
+          matchEn: "A signature -- the sender's name at the end",
+          matchMy: "လက်မှတ် -- အဆုံးတွင် ဖော်ပြသော စာရေးသူ၏အမည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-5",
+          termEn: "Dear Grandma,",
+          termMy: "Dear Grandma,",
+          matchEn: "A greeting -- addresses a family member",
+          matchMy: "နှုတ်ဆက်စကား -- မိသားစုဝင်တစ်ဦးထံ ခေါ်ဆိုပေးသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-6",
+          termEn: "Love from,",
+          termMy: "Love from,",
+          matchEn: "A closing -- a warm way to end a letter to family",
+          matchMy: "အပိတ်စကား -- မိသားစုထံစာအား နွေးထွေးစွာ အဆုံးသတ်နည်း",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-7",
+          termEn: "We are learning about elephants in class this week!",
+          termMy: "We are learning about elephants in class this week!",
+          matchEn: "A body sentence -- tells the reader some news",
+          matchMy: "အဓိကအပိုင်းဝါကျ -- စာဖတ်သူအား သတင်းအချို့ ပြောပြသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w27-dm-8",
+          termEn: "Your friend,",
+          termMy: "Your friend,",
+          matchEn: "A closing -- a friendly way to end a letter",
+          matchMy: "အပိတ်စကား -- ချစ်ခင်ရင်းနှီးစွာ စာအား အဆုံးသတ်နည်း",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w27-d3",
+      dayNumber: 3,
+      titleEn: "Nay Chi's Letter to Grandma",
+      titleMy: "နေချည်၏ အဖွားထံ စာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Letter to Grandma",
+        titleMy: "နေချည်၏ အဖွားထံ စာ",
+        passageEn:
+            "Dear Grandma,\n\nI hope you are doing well. I wanted to tell you about my exciting week at Nova School! On Monday, Ms. Thandar taught us how to write reports about animals, and I chose to write about elephants. On Wednesday, our class made paper fans, and mine turned out so colorful. I cannot wait to visit you this weekend and show you everything I made.\n\nLove from,\nNay Chi",
+        passageMy:
+            "အဖွားရေ၊\n\nအဖွား ကျန်းမာပါစေလို့ ဆုတောင်းပါတယ်။ ကျွန်မ Nova ကျောင်းမှာ ဒီအပတ် ဖြစ်ခဲ့သမျှ စိတ်လှုပ်ရှားစရာအကြောင်းတွေကို ပြောပြချင်လို့ပါ။ တနင်္လာနေ့မှာ ဆရာမ သန္တာက တိရစ္ဆာန်တွေအကြောင်း အစီရင်ခံစာ ဘယ်လိုရေးရမလဲဆိုတာ သင်ပေးပါတယ်။ ကျွန်မက ဆင်တွေအကြောင်း ရွေးရေးခဲ့ပါတယ်။ ဗုဒ္ဓဟူးနေ့မှာတော့ ကျွန်မတို့ အတန်းက စက္ကူပန်ကာတွေ လုပ်ခဲ့ကြပြီး ကျွန်မရဲ့ဟာက အရမ်းလှပတဲ့ အရောင်တွေနဲ့ ထွက်ရှိလာပါတယ်။ ဒီသီတင်းပတ်ကုန်မှာ အဖွားဆီ လာလည်ပြီး ကျွန်မလုပ်ခဲ့သမျှအားလုံးကို ပြပြီး စောင့်လို့တောင် မရတော့ဘူး။\n\nချစ်စွာဖြင့်၊\nနေချည်",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Who wrote this letter?",
+            questionMy: "ဒီစာကို ဘယ်သူ ရေးခဲ့သနည်း။",
+            optionsEn: ["Nay Chi", "Moe Moe", "Tin", "Ms. Thandar"],
+            optionsMy: ["Nay Chi", "Moe Moe", "Tin", "Ms. Thandar"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Who is the letter written to?",
+            questionMy: "ဒီစာကို ဘယ်သူ့ထံ ရေးခဲ့သနည်း။",
+            optionsEn: ["Grandma", "Ms. Thandar", "Tin", "Moe Moe"],
+            optionsMy: ["Grandma", "Ms. Thandar", "Tin", "Moe Moe"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the greeting in this letter?",
+            questionMy: "ဒီစာထဲက နှုတ်ဆက်စကားက ဘာဖြစ်သနည်း။",
+            optionsEn: [
+              "Dear Grandma,",
+              "Love from,",
+              "Nay Chi",
+              "I hope you are doing well.",
+            ],
+            optionsMy: [
+              "Dear Grandma,",
+              "Love from,",
+              "Nay Chi",
+              "I hope you are doing well.",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the closing in this letter?",
+            questionMy: "ဒီစာထဲက အပိတ်စကားက ဘာဖြစ်သနည်း။",
+            optionsEn: [
+              "Love from,",
+              "Dear Grandma,",
+              "On Monday,",
+              "I cannot wait",
+            ],
+            optionsMy: [
+              "Love from,",
+              "Dear Grandma,",
+              "On Monday,",
+              "I cannot wait",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi choose to write her report about?",
+            questionMy:
+                "နေချည်သည် သူမ၏ အစီရင်ခံစာကို ဘာအကြောင်း ရွေးရေးခဲ့သနည်း။",
+            optionsEn: ["Elephants", "Paper fans", "Ms. Thandar", "Grandma"],
+            optionsMy: ["Elephants", "Paper fans", "Ms. Thandar", "Grandma"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w27-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Letter Parts",
+      titleMy: "စာအပိုင်းအခြားများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Greeting", "Body", "Closing"],
+        bucketsMy: ["နှုတ်ဆက်စကား", "အဓိကအပိုင်း", "အပိတ်စကား"],
+        items: [
+          SortingItem(
+            id: "y4eng-w27-sort-1",
+            labelEn: "Dear Tin,",
+            labelMy: "Dear Tin,",
+            correctBucketEn: "Greeting",
+            correctBucketMy: "နှုတ်ဆက်စကား",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-2",
+            labelEn: "Dear Grandma,",
+            labelMy: "Dear Grandma,",
+            correctBucketEn: "Greeting",
+            correctBucketMy: "နှုတ်ဆက်စကား",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-3",
+            labelEn: "Dear Moe Moe,",
+            labelMy: "Dear Moe Moe,",
+            correctBucketEn: "Greeting",
+            correctBucketMy: "နှုတ်ဆက်စကား",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-4",
+            labelEn: "I hope you are doing well.",
+            labelMy: "I hope you are doing well.",
+            correctBucketEn: "Body",
+            correctBucketMy: "အဓိကအပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-5",
+            labelEn: "We made paper fans in class today.",
+            labelMy: "We made paper fans in class today.",
+            correctBucketEn: "Body",
+            correctBucketMy: "အဓိကအပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-6",
+            labelEn: "I cannot wait to see you soon.",
+            labelMy: "I cannot wait to see you soon.",
+            correctBucketEn: "Body",
+            correctBucketMy: "အဓိကအပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-7",
+            labelEn: "Yours sincerely,",
+            labelMy: "Yours sincerely,",
+            correctBucketEn: "Closing",
+            correctBucketMy: "အပိတ်စကား",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-8",
+            labelEn: "Love from,",
+            labelMy: "Love from,",
+            correctBucketEn: "Closing",
+            correctBucketMy: "အပိတ်စကား",
+          ),
+          SortingItem(
+            id: "y4eng-w27-sort-9",
+            labelEn: "Your friend,",
+            labelMy: "Your friend,",
+            correctBucketEn: "Closing",
+            correctBucketMy: "အပိတ်စကား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w27-d5",
+      dayNumber: 5,
+      titleEn: "Letters and Messages Recap",
+      titleMy: "စာများနှင့် သတင်းစကားများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A friendly letter usually begins with a...?",
+          questionMy:
+              "မိတ်ဆွေစာတစ်စောင်သည် များသောအားဖြင့် ဘာဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: [
+            "Greeting",
+            "Heading",
+            "Instruction step",
+            "Story ending",
+          ],
+          optionsMy: [
+            "Greeting",
+            "Heading",
+            "Instruction step",
+            "Story ending",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main part of a letter is called the...?",
+          questionMy: "စာတစ်စောင်၏ အဓိကအပိုင်းကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: ["Body", "Greeting", "Closing", "Title"],
+          optionsMy: ["Body", "Greeting", "Closing", "Title"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a closing phrase?",
+          questionMy: "အောက်ပါတို့အနက် အပိတ်စကားမှာ အဘယ်နည်း။",
+          optionsEn: ["Yours sincerely,", "Dear friend,", "First,", "Habitat"],
+          optionsMy: ["Yours sincerely,", "Dear friend,", "First,", "Habitat"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "After the closing, we usually write the...?",
+          questionMy:
+              "အပိတ်စကားနောက်တွင် ငါတို့ ပုံမှန်အားဖြင့် ဘာကို ရေးလေ့ရှိသနည်း။",
+          optionsEn: [
+            "Sender's name",
+            "Another greeting",
+            "A new heading",
+            "A materials list",
+          ],
+          optionsMy: [
+            "Sender's name",
+            "Another greeting",
+            "A new heading",
+            "A materials list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these shows the correct order of a friendly letter?",
+          questionMy:
+              "အောက်ပါတို့အနက် မိတ်ဆွေစာတစ်စောင်၏ မှန်ကန်သောအစီအစဉ်ကို ပြထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Greeting, body, closing, name",
+            "Closing, body, greeting, name",
+            "Body, name, greeting, closing",
+            "Name, closing, body, greeting",
+          ],
+          optionsMy: [
+            "Greeting, body, closing, name",
+            "Closing, body, greeting, name",
+            "Body, name, greeting, closing",
+            "Name, closing, body, greeting",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 7, Week 28 (Capstone): "The Nova School
+// Newsletter Team"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek28 = CourseWeekDef(
+  id: "course-year4-english-w28",
+  weekNumber: 28,
+  titleEn: "The Nova School Newsletter Team",
+  titleMy: "Nova ကျောင်း သတင်းလွှာအဖွဲ့",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w28-d1",
+      dayNumber: 1,
+      titleEn: "Instructions, Reports, and Letters Together",
+      titleMy: "ညွှန်ကြားချက်၊ အစီရင်ခံစာနှင့် စာများ အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Instructions use words like \"First\" and \"Finally\" to show...?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် \"First\" နှင့် \"Finally\" ကဲ့သို့သော စကားလုံးများကို ဘာပြရန် သုံးသနည်း။",
+          optionsEn: [
+            "The order of the steps",
+            "The headings of a report",
+            "The greeting of a letter",
+            "The title of a story",
+          ],
+          optionsMy: [
+            "The order of the steps",
+            "The headings of a report",
+            "The greeting of a letter",
+            "The title of a story",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reports organize facts under...?",
+          questionMy:
+              "အစီရင်ခံစာများသည် အချက်အလက်များကို ဘယ်အောက်တွင် စီစဉ်သနည်း။",
+          optionsEn: ["Headings", "Greetings", "Closings", "Rhymes"],
+          optionsMy: ["Headings", "Greetings", "Closings", "Rhymes"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Friendly letters begin with a...?",
+          questionMy: "မိတ်ဆွေစာများသည် ဘာဖြင့် စတင်သနည်း။",
+          optionsEn: [
+            "Greeting",
+            "Heading",
+            "Sequencing word",
+            "Materials list",
+          ],
+          optionsMy: [
+            "Greeting",
+            "Heading",
+            "Sequencing word",
+            "Materials list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which text type would most likely use imperative verbs like \"Cut\" and \"Fold\"?",
+          questionMy:
+              "\"Cut\" နှင့် \"Fold\" ကဲ့သို့သော ပြုစေချက်ကြိယာများကို ဘယ်စာမျိုးက အများဆုံး သုံးနိုင်သနည်း။",
+          optionsEn: ["Instructions", "A report", "A letter", "A poem"],
+          optionsMy: ["Instructions", "A report", "A letter", "A poem"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which text type would most likely use headings like \"Habitat\" and \"Diet\"?",
+          questionMy:
+              "\"Habitat\" နှင့် \"Diet\" ကဲ့သို့သော ခေါင်းစဉ်များကို ဘယ်စာမျိုးက အများဆုံး သုံးနိုင်သနည်း။",
+          optionsEn: ["A report", "Instructions", "A letter", "A poem"],
+          optionsMy: ["A report", "Instructions", "A letter", "A poem"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which text type would most likely end with \"Yours sincerely,\"?",
+          questionMy:
+              "\"Yours sincerely,\" ဖြင့် ဘယ်စာမျိုးက အများဆုံး အဆုံးသတ်နိုင်သနည်း။",
+          optionsEn: ["A letter", "Instructions", "A report", "A poem"],
+          optionsMy: ["A letter", "Instructions", "A report", "A poem"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A newsletter can include instructions, reports, and letters because it shares...?",
+          questionMy:
+              "သတင်းလွှာတစ်စောင်တွင် ညွှန်ကြားချက်များ၊ အစီရင်ခံစာများနှင့် စာများ ပါဝင်နိုင်သည်မှာ ဘာကို မျှဝေသောကြောင့်နည်း။",
+          optionsEn: [
+            "Different kinds of useful information",
+            "Only made-up stories",
+            "Only poems",
+            "Only pictures",
+          ],
+          optionsMy: [
+            "Different kinds of useful information",
+            "Only made-up stories",
+            "Only poems",
+            "Only pictures",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is true about all non-fiction texts like instructions, reports, and letters?",
+          questionMy:
+              "ညွှန်ကြားချက်များ၊ အစီရင်ခံစာများနှင့် စာများကဲ့သို့သော Non-fiction စာများအားလုံးနှင့်ပတ်သက်၍ ဘယ်အချက်က မှန်ကန်သနည်း။",
+          optionsEn: [
+            "They give the reader real, useful information",
+            "They are always about imaginary characters",
+            "They always rhyme",
+            "They never have any facts",
+          ],
+          optionsMy: [
+            "They give the reader real, useful information",
+            "They are always about imaginary characters",
+            "They always rhyme",
+            "They never have any facts",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match the Newsletter Section",
+      titleMy: "သတင်းလွှာအပိုင်းကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w28-dm-1",
+          termEn: "Cut along the dotted line to make your badge.",
+          termMy: "Cut along the dotted line to make your badge.",
+          matchEn: "Instructions -- an imperative verb gives a step",
+          matchMy: "ညွှန်ကြားချက် -- ပြုစေချက်ကြိယာက အဆင့်တစ်ခုကို ပေးသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-2",
+          termEn: "Habitat: Rabbits live in burrows underground.",
+          termMy: "Habitat: Rabbits live in burrows underground.",
+          matchEn: "Report -- a heading organizes a fact",
+          matchMy: "အစီရင်ခံစာ -- ခေါင်းစဉ်က အချက်အလက်တစ်ခုကို စီစဉ်ပေးသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-3",
+          termEn: "Dear Parents,",
+          termMy: "Dear Parents,",
+          matchEn: "Letter -- a greeting addresses the reader",
+          matchMy: "စာ -- နှုတ်ဆက်စကားက စာဖတ်သူထံ ခေါ်ဆိုပေးသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-4",
+          termEn: "First, gather your recycling materials.",
+          termMy: "First, gather your recycling materials.",
+          matchEn: "Instructions -- a sequencing word starts the step",
+          matchMy: "ညွှန်ကြားချက် -- အစီအစဉ်စကားလုံးက အဆင့်ကို စတင်ပေးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-5",
+          termEn: "Diet: Rabbits eat vegetables and hay.",
+          termMy: "Diet: Rabbits eat vegetables and hay.",
+          matchEn: "Report -- a heading organizes another fact",
+          matchMy:
+              "အစီရင်ခံစာ -- ခေါင်းစဉ်က နောက်ထပ်အချက်အလက်တစ်ခုကို စီစဉ်ပေးသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-6",
+          termEn: "Yours sincerely, the Newsletter Team",
+          termMy: "Yours sincerely, the Newsletter Team",
+          matchEn: "Letter -- a closing signs off politely",
+          matchMy: "စာ -- အပိတ်စကားက ယဉ်ကျေးစွာ လက်မှတ်ရေးထိုးပေးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-7",
+          termEn: "Finally, glue the badge onto your shirt.",
+          termMy: "Finally, glue the badge onto your shirt.",
+          matchEn: "Instructions -- shows the last step",
+          matchMy: "ညွှန်ကြားချက် -- နောက်ဆုံးအဆင့်ကို ပြသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w28-dm-8",
+          termEn: "We hope you enjoy this month's newsletter!",
+          termMy: "We hope you enjoy this month's newsletter!",
+          matchEn: "Letter -- a friendly body sentence",
+          matchMy: "စာ -- ချစ်ခင်ရင်းနှီးသော အဓိကအပိုင်းဝါကျ",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort Fiction and Non-fiction",
+      titleMy: "ဇာတ်လမ်းနှင့် အချက်အလက်စာများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fiction (Story)", "Non-fiction (Real Information)"],
+        bucketsMy: ["ဇာတ်လမ်း (Fiction)", "အချက်အလက်စစ် (Non-fiction)"],
+        items: [
+          SortingItem(
+            id: "y4eng-w28-sort-1",
+            labelEn: "Once upon a time, a brave girl lived in a tall castle.",
+            labelMy: "Once upon a time, a brave girl lived in a tall castle.",
+            correctBucketEn: "Fiction (Story)",
+            correctBucketMy: "ဇာတ်လမ်း (Fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-2",
+            labelEn: "First, cut the paper along the dotted line.",
+            labelMy: "First, cut the paper along the dotted line.",
+            correctBucketEn: "Non-fiction (Real Information)",
+            correctBucketMy: "အချက်အလက်စစ် (Non-fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-3",
+            labelEn: "Habitat: Elephants live in forests and grasslands.",
+            labelMy: "Habitat: Elephants live in forests and grasslands.",
+            correctBucketEn: "Non-fiction (Real Information)",
+            correctBucketMy: "အချက်အလက်စစ် (Non-fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-4",
+            labelEn: "Dear Grandma, I hope you are doing well.",
+            labelMy: "Dear Grandma, I hope you are doing well.",
+            correctBucketEn: "Non-fiction (Real Information)",
+            correctBucketMy: "အချက်အလက်စစ် (Non-fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-5",
+            labelEn: "The dragon roared and breathed fiery flames.",
+            labelMy: "The dragon roared and breathed fiery flames.",
+            correctBucketEn: "Fiction (Story)",
+            correctBucketMy: "ဇာတ်လမ်း (Fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-6",
+            labelEn: "Finally, glue the badge onto your shirt.",
+            labelMy: "Finally, glue the badge onto your shirt.",
+            correctBucketEn: "Non-fiction (Real Information)",
+            correctBucketMy: "အချက်အလက်စစ် (Non-fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-7",
+            labelEn: "Diet: Rabbits eat vegetables and hay.",
+            labelMy: "Diet: Rabbits eat vegetables and hay.",
+            correctBucketEn: "Non-fiction (Real Information)",
+            correctBucketMy: "အချက်အလက်စစ် (Non-fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-8",
+            labelEn: "The clever fox tricked the hungry wolf.",
+            labelMy: "The clever fox tricked the hungry wolf.",
+            correctBucketEn: "Fiction (Story)",
+            correctBucketMy: "ဇာတ်လမ်း (Fiction)",
+          ),
+          SortingItem(
+            id: "y4eng-w28-sort-9",
+            labelEn:
+                "The princess and the dragon became best friends and lived happily ever after.",
+            labelMy:
+                "The princess and the dragon became best friends and lived happily ever after.",
+            correctBucketEn: "Fiction (Story)",
+            correctBucketMy: "ဇာတ်လမ်း (Fiction)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w28-d4",
+      dayNumber: 4,
+      titleEn: "The Nova School Newsletter Team",
+      titleMy: "Nova ကျောင်း သတင်းလွှာအဖွဲ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Newsletter Team",
+        titleMy: "Nova ကျောင်း သတင်းလွှာအဖွဲ့",
+        passageEn:
+            "Ms. Thandar's class decided to create a school newsletter together. Tin wrote the how-to page: \"How to Make a Recycled Paper Badge -- First, collect old paper and cardboard. Next, cut out a circle shape. Then, decorate it with paint. Finally, glue a safety pin on the back.\" Nay Chi wrote a report page titled \"All About Our School Garden,\" with headings for Plants, Tools, and Helpers, so readers could quickly find the facts they wanted. Moe Moe wrote a friendly letter to the parents that began \"Dear Parents,\" shared news about the garden and the new badges, and ended with \"Yours sincerely, the Nova School Newsletter Team.\" When the newsletter was finished, Ms. Thandar smiled and said, \"You have shown me that instructions, reports, and letters can all work together to share real information clearly.\"",
+        passageMy:
+            "ဆရာမ သန္တာ၏ အတန်းသည် ကျောင်းသတင်းလွှာတစ်စောင်ကို အတူတကွ ဖန်တီးရန် ဆုံးဖြတ်ခဲ့ကြသည်။ တင်သည် ပြုလုပ်နည်းစာမျက်နှာကို ရေးခဲ့သည် -- \"ပြန်လည်အသုံးချ စက္ကူတံဆိပ်ပြုလုပ်နည်း -- ပထမဦးစွာ စက္ကူဟောင်းနှင့် ကာဒ်ဘုတ်ဟောင်းများ စုဆောင်းပါ။ ထို့နောက် စက်ဝိုင်းပုံဖြင့် ဖြတ်ပါ။ ထို့နောက် ဆေးဆိုးပြီး အလှဆင်ပါ။ နောက်ဆုံးတွင် နောက်ဘက်တွင် ဘေးကင်းပင်တစ်ချောင်းကို ကပ်ပါ။\" နေချည်သည် \"ကျွန်တော်တို့ ကျောင်းဥယျာဉ်အကြောင်း အားလုံး\" ခေါ်သော အစီရင်ခံစာမျက်နှာကို Plants၊ Tools နှင့် Helpers ခေါင်းစဉ်များဖြင့် ရေးခဲ့ပြီး စာဖတ်သူများ လိုချင်သော အချက်အလက်များကို လျင်မြန်စွာ ရှာဖွေနိုင်စေရန် ပြုလုပ်ခဲ့သည်။ မိုးမိုးသည် မိဘများထံ မိတ်ဆွေစာတစ်စောင်ကို ရေးခဲ့ပြီး \"Dear Parents,\" ဖြင့် အစပြုကာ ဥယျာဉ်နှင့် တံဆိပ်အသစ်များအကြောင်း သတင်းများ မျှဝေခဲ့ပြီး \"Yours sincerely, the Nova School Newsletter Team.\" ဖြင့် အဆုံးသတ်ခဲ့သည်။ သတင်းလွှာ ပြီးစီးသွားသောအခါ ဆရာမ သန္တာသည် ပြုံးမိပြီး \"ညွှန်ကြားချက်များ၊ အစီရင်ခံစာများနှင့် စာများသည် တကယ့်အချက်အလက်များကို ရှင်းလင်းစွာ မျှဝေနိုင်ရန် အတူတကွ လုပ်ဆောင်နိုင်ကြောင်း သင်တို့ ပြသနိုင်ခဲ့ကြပါတယ်\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Who wrote the how-to page about the recycled paper badge?",
+            questionMy:
+                "ပြန်လည်အသုံးချ စက္ကူတံဆိပ်အကြောင်း ပြုလုပ်နည်းစာမျက်နှာကို ဘယ်သူရေးခဲ့သနည်း။",
+            optionsEn: ["Tin", "Nay Chi", "Moe Moe", "Ms. Thandar"],
+            optionsMy: ["Tin", "Nay Chi", "Moe Moe", "Ms. Thandar"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What headings did Nay Chi use in her report page?",
+            questionMy:
+                "နေချည်၏ အစီရင်ခံစာမျက်နှာတွင် ဘယ်ခေါင်းစဉ်များကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Plants, Tools, and Helpers",
+              "Habitat, Diet, and Family",
+              "Greeting, Body, and Closing",
+              "First, Next, and Finally",
+            ],
+            optionsMy: [
+              "Plants, Tools, and Helpers",
+              "Habitat, Diet, and Family",
+              "Greeting, Body, and Closing",
+              "First, Next, and Finally",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Moe Moe's letter to the parents begin?",
+            questionMy: "မိုးမိုး၏ မိဘများထံ စာသည် ဘယ်လို အစပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Dear Parents,",
+              "Yours sincerely,",
+              "First,",
+              "Habitat:",
+            ],
+            optionsMy: [
+              "Dear Parents,",
+              "Yours sincerely,",
+              "First,",
+              "Habitat:",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the last step in making the paper badge?",
+            questionMy: "စက္ကူတံဆိပ် ပြုလုပ်ရာတွင် နောက်ဆုံးအဆင့်က အဘယ်နည်း။",
+            optionsEn: [
+              "Glue a safety pin on the back",
+              "Collect old paper",
+              "Cut out a circle shape",
+              "Decorate it with paint",
+            ],
+            optionsMy: [
+              "Glue a safety pin on the back",
+              "Collect old paper",
+              "Cut out a circle shape",
+              "Decorate it with paint",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what can instructions, reports, and letters do together?",
+            questionMy:
+                "ဆရာမ သန္တာ ပြောသည့်အတိုင်း ညွှန်ကြားချက်များ၊ အစီရင်ခံစာများနှင့် စာများသည် အတူတကွ ဘာလုပ်ဆောင်နိုင်သနည်း။",
+            optionsEn: [
+              "Share real information clearly",
+              "Tell only made-up stories",
+              "Rhyme like a poem",
+              "Confuse the reader",
+            ],
+            optionsMy: [
+              "Share real information clearly",
+              "Tell only made-up stories",
+              "Rhyme like a poem",
+              "Confuse the reader",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w28-d5",
+      dayNumber: 5,
+      titleEn: "Non-fiction Grand Finale",
+      titleMy: "Non-fiction ကြီးမားသောအဆုံးသတ်ပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Instructions use words like \"First\" and \"Finally\" to show...?",
+          questionMy:
+              "ညွှန်ကြားချက်များသည် \"First\" နှင့် \"Finally\" ကဲ့သို့သော စကားလုံးများကို ဘာပြရန် သုံးသနည်း။",
+          optionsEn: [
+            "The order of the steps",
+            "The headings of a report",
+            "The greeting of a letter",
+            "The title of a story",
+          ],
+          optionsMy: [
+            "The order of the steps",
+            "The headings of a report",
+            "The greeting of a letter",
+            "The title of a story",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reports organize facts under...?",
+          questionMy:
+              "အစီရင်ခံစာများသည် အချက်အလက်များကို ဘယ်အောက်တွင် စီစဉ်သနည်း။",
+          optionsEn: ["Headings", "Greetings", "Closings", "Rhymes"],
+          optionsMy: ["Headings", "Greetings", "Closings", "Rhymes"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Friendly letters begin with a...?",
+          questionMy: "မိတ်ဆွေစာများသည် ဘာဖြင့် စတင်သနည်း။",
+          optionsEn: [
+            "Greeting",
+            "Heading",
+            "Sequencing word",
+            "Materials list",
+          ],
+          optionsMy: [
+            "Greeting",
+            "Heading",
+            "Sequencing word",
+            "Materials list",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a non-fiction text, not a story?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဇာတ်လမ်းမဟုတ်ဘဲ Non-fiction စာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A report about elephants",
+            "Once upon a time...",
+            "A dragon flying over a castle",
+            "A talking fox",
+          ],
+          optionsMy: [
+            "A report about elephants",
+            "Once upon a time...",
+            "A dragon flying over a castle",
+            "A talking fox",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Term 3, we learned that stories are organized with a beginning, middle, and end, built around characters, settings, and plot. In this term, we learned that non-fiction texts like instructions, reports, and letters are organized differently. How are non-fiction texts organized differently from narrative (story) writing?",
+          questionMy:
+              "Term 3 တွင် ဇာတ်လမ်းများသည် ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဇာတ်ကြောင်းကို အခြေခံ၍ အစ၊ အလယ်နှင့် အဆုံးဖြင့် စီစဉ်ထားကြောင်း သင်ယူခဲ့ကြသည်။ ဒီ Term တွင်တော့ ညွှန်ကြားချက်များ၊ အစီရင်ခံစာများနှင့် စာများကဲ့သို့သော Non-fiction စာများသည် မတူညီစွာ စီစဉ်ထားကြောင်း သင်ယူခဲ့ကြသည်။ Non-fiction စာများသည် ဇာတ်လမ်း (narrative) ရေးသားခြင်းနှင့် မည်သို့ ကွာခြားစွာ စီစဉ်ထားသနည်း။",
+          optionsEn: [
+            "Non-fiction texts use clear structures like steps, headings, or greetings and closings to share real information, while stories use character, setting, and plot to tell an imagined tale.",
+            "Non-fiction texts and stories are organized in exactly the same way.",
+            "Non-fiction texts never have any organization at all.",
+            "Stories always use headings like a report.",
+          ],
+          optionsMy: [
+            "Non-fiction texts use clear structures like steps, headings, or greetings and closings to share real information, while stories use character, setting, and plot to tell an imagined tale.",
+            "Non-fiction texts and stories are organized in exactly the same way.",
+            "Non-fiction texts never have any organization at all.",
+            "Stories always use headings like a report.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm7 = CourseTermDef(
+  id: "course-year4-english-t7",
+  termNumber: 7,
+  titleEn: "Non-fiction and Information Texts",
+  titleMy: "အချက်အလက်ပေးသော စာပေများ",
+  certificateTitleEn: "Non-fiction and Information Texts",
+  certificateTitleMy: "အချက်အလက်ပေးသော စာပေများ",
+  weeks: [
+    _year4EnglishWeek25,
+    _year4EnglishWeek26,
+    _year4EnglishWeek27,
+    _year4EnglishWeek28,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 8, Week 29: "Stating an Opinion"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek29 = CourseWeekDef(
+  id: "course-year4-english-w29",
+  weekNumber: 29,
+  titleEn: "Stating an Opinion",
+  titleMy: "ထင်မြင်ချက် ဖော်ပြခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w29-d1",
+      dayNumber: 1,
+      titleEn: "Giving an Opinion with a Reason",
+      titleMy: "အကြောင်းပြချက်ဖြင့် ထင်မြင်ချက်ပေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which sentence gives an opinion?",
+          questionMy: "ဘယ်ဝါကျသည် ထင်မြင်ချက်ကို ဖော်ပြထားသနည်း။",
+          optionsEn: [
+            "I think dogs make the best pets.",
+            "Dogs have four legs.",
+            "The dog is brown.",
+            "The dog ran fast.",
+          ],
+          optionsMy: [
+            "I think dogs make the best pets.",
+            "Dogs have four legs.",
+            "The dog is brown.",
+            "The dog ran fast.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An opinion is...",
+          questionMy: "ထင်မြင်ချက် ဆိုသည်မှာ...",
+          optionsEn: [
+            "what someone thinks or feels",
+            "something that can be proven true",
+            "a fact everyone agrees on",
+            "a measurement",
+          ],
+          optionsMy: [
+            "လူတစ်ဦးတစ်ယောက်၏ တွေးထင်ချက် (သို့) ခံစားချက်",
+            "မှန်ကန်ကြောင်း သက်သေပြနိုင်သည့်အရာ",
+            "လူတိုင်းသဘောတူသော အချက်အလက်",
+            "တိုင်းတာချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase usually starts an opinion sentence?",
+          questionMy:
+              "ဘယ်စကားစုသည် ထင်မြင်ချက်ဝါကျကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["I think", "The sun", "Yesterday", "Water"],
+          optionsMy: ["I think", "The sun", "Yesterday", "Water"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"I think reading is fun because it takes me to new places.\" What is the reason?",
+          questionMy:
+              "\"I think reading is fun because it takes me to new places\" တွင် အကြောင်းပြချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "because it takes me to new places",
+            "I think",
+            "reading",
+            "is fun",
+          ],
+          optionsMy: [
+            "because it takes me to new places",
+            "I think",
+            "reading",
+            "is fun",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence has both an opinion AND a reason?",
+          questionMy:
+              "ဘယ်ဝါကျတွင် ထင်မြင်ချက်နှင့် အကြောင်းပြချက် နှစ်ခုစလုံး ပါဝင်သနည်း။",
+          optionsEn: [
+            "I think Nova School is the best school because the teachers are so kind.",
+            "Nova School has 500 students.",
+            "The school bell rings at eight o'clock.",
+            "Nova School was built ten years ago.",
+          ],
+          optionsMy: [
+            "I think Nova School is the best school because the teachers are so kind.",
+            "Nova School has 500 students.",
+            "The school bell rings at eight o'clock.",
+            "Nova School was built ten years ago.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do we give a reason after our opinion?",
+          questionMy:
+              "ထင်မြင်ချက်ပေးပြီးနောက် အကြောင်းပြချက်ကို ဘာကြောင့် ထပ်ပေးရသနည်း။",
+          optionsEn: [
+            "to explain why we think that way",
+            "to make the sentence longer",
+            "to confuse the reader",
+            "to end the story",
+          ],
+          optionsMy: [
+            "ဘာကြောင့် ဒီလိုထင်တာလဲဆိုတာ ရှင်းပြရန်",
+            "ဝါကျကို ရှည်အောင်လုပ်ရန်",
+            "စာဖတ်သူကို ရှုပ်ထွေးအောင်လုပ်ရန်",
+            "ဇာတ်လမ်းကို အဆုံးသတ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is a good reason for the opinion \"I think cats are better pets than dogs\"?",
+          questionMy:
+              "\"I think cats are better pets than dogs\" ဆိုသော ထင်မြင်ချက်အတွက် ဘယ်အကြောင်းပြချက်က ကောင်းသနည်း။",
+          optionsEn: [
+            "because cats need less exercise and are easy to care for",
+            "because cats are animals",
+            "because dogs are animals too",
+            "because pets exist",
+          ],
+          optionsMy: [
+            "because cats need less exercise and are easy to care for",
+            "because cats are animals",
+            "because dogs are animals too",
+            "because pets exist",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Complete the sentence: \"I think we should have more art classes because ___.\"",
+          questionMy:
+              "ဝါကျကို ဖြည့်စွက်ပါ- \"I think we should have more art classes because ___.\"",
+          optionsEn: [
+            "art helps us express our creativity",
+            "art is a subject",
+            "school has classes",
+            "classes happen every day",
+          ],
+          optionsMy: [
+            "art helps us express our creativity",
+            "art is a subject",
+            "school has classes",
+            "classes happen every day",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match the Opinion to Its Reason",
+      titleMy: "ထင်မြင်ချက်ကို အကြောင်းပြချက်နှင့် ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w29-dm-1",
+          termEn: "I think Nova School's library is the best place to study",
+          termMy: "I think Nova School's library is the best place to study",
+          matchEn: "because it is quiet and full of interesting books",
+          matchMy:
+              "အကြောင်းက ငြိမ်သက်ပြီး စိတ်ဝင်စားစရာစာအုပ်များနှင့် ပြည့်နှက်နေသောကြောင့်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-2",
+          termEn: "Tin thinks football is the most exciting sport",
+          termMy: "Tin thinks football is the most exciting sport",
+          matchEn: "because every player gets to run and score goals",
+          matchMy:
+              "အကြောင်းက ကစားသမားတိုင်းသည် ပြေးနိုင်ပြီး ဂိုးသွင်းနိုင်သောကြောင့်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-3",
+          termEn: "Nay Chi thinks gardening is a wonderful hobby",
+          termMy: "Nay Chi thinks gardening is a wonderful hobby",
+          matchEn: "because you can watch plants grow with your own care",
+          matchMy:
+              "အကြောင်းက မိမိကိုယ်တိုင် ပြုစုစောင့်ရှောက်၍ အပင်များ ကြီးထွားလာသည်ကို ကြည့်နိုင်သောကြောင့်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-4",
+          termEn: "Moe Moe thinks Wednesdays are the best school day",
+          termMy: "Moe Moe thinks Wednesdays are the best school day",
+          matchEn: "because that is when the class has art and music",
+          matchMy:
+              "အကြောင်းက အတန်းတွင် အနုပညာနှင့် ဂီတသင်ခန်းစာများ ရှိသောကြောင့်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-5",
+          termEn: "In my opinion",
+          termMy: "In my opinion",
+          matchEn: "a phrase used to introduce what you think",
+          matchMy: "မိမိထင်မြင်ချက်ကို မိတ်ဆက်ရန် သုံးသောစကားစု",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-6",
+          termEn: "because",
+          termMy: "because",
+          matchEn: "a word used to give a reason",
+          matchMy: "အကြောင်းပြချက်ပေးရန် သုံးသောစကားလုံး",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-7",
+          termEn: "I believe",
+          termMy: "I believe",
+          matchEn: "another phrase used to share an opinion",
+          matchMy: "ထင်မြင်ချက်ကို မျှဝေရန် သုံးသော နောက်ထပ်စကားစု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w29-dm-8",
+          termEn: "Ms. Thandar thinks group projects help students learn",
+          termMy: "Ms. Thandar thinks group projects help students learn",
+          matchEn: "because students can share ideas and help each other",
+          matchMy:
+              "အကြောင်းက ကျောင်းသားများ အကြံဉာဏ်များ မျှဝေပြီး အချင်းချင်း ကူညီနိုင်သောကြောင့်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w29-d3",
+      dayNumber: 3,
+      titleEn: "Our Favorite Subject",
+      titleMy: "ကျွန်တော်တို့ အကြိုက်ဆုံးဘာသာရပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Our Favorite Subject",
+        titleMy: "ကျွန်တော်တို့ အကြိုက်ဆုံးဘာသာရပ်",
+        passageEn:
+            "Ms. Thandar asked her class to share their opinion about their favorite subject, with a reason. Moe Moe said, \"I think Art is the best subject because I can express my imagination with colors.\" Nay Chi said, \"In my opinion, Science is the most exciting subject because we can do interesting experiments.\" Tin said, \"I believe Physical Education is the best subject because we can run and play games together.\" Ms. Thandar smiled and told the class that every good opinion needs a clear reason to make it strong.",
+        passageMy:
+            "ဆရာမ သန္တာသည် သူမ၏ကျောင်းသားများကို သူတို့အကြိုက်ဆုံးဘာသာရပ်အကြောင်း အကြောင်းပြချက်နှင့်တကွ ထင်မြင်ချက်ပေးဖို့ တောင်းဆိုခဲ့သည်။ မိုးမိုးက \"I think Art is the best subject because I can express my imagination with colors\" ဟု ပြောခဲ့သည်။ နေချည်က \"In my opinion, Science is the most exciting subject because we can do interesting experiments\" ဟု ပြောခဲ့သည်။ တင်က \"I believe Physical Education is the best subject because we can run and play games together\" ဟု ပြောခဲ့သည်။ ဆရာမ သန္တာသည် ပြုံးရင်း ကောင်းမွန်သောထင်မြင်ချက်တိုင်းသည် ခိုင်မာစေရန် ရှင်းလင်းသောအကြောင်းပြချက် လိုအပ်ကြောင်း ကျောင်းသားများကို ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar ask the class to share?",
+            questionMy:
+                "ဆရာမ သန္တာသည် အတန်းကို ဘာကို မျှဝေဖို့ တောင်းဆိုခဲ့သနည်း။",
+            optionsEn: [
+              "Their opinion about their favorite subject, with a reason",
+              "Their favorite food",
+              "Their birthday",
+              "Their home address",
+            ],
+            optionsMy: [
+              "Their opinion about their favorite subject, with a reason",
+              "Their favorite food",
+              "Their birthday",
+              "Their home address",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why does Moe Moe think Art is the best subject?",
+            questionMy:
+                "မိုးမိုးသည် Art ဘာသာရပ်ကို ဘာကြောင့် အကောင်းဆုံးဟု ထင်သနည်း။",
+            optionsEn: [
+              "because she can express her imagination with colors",
+              "because it has no homework",
+              "because it is the shortest class",
+              "because everyone gets a prize",
+            ],
+            optionsMy: [
+              "because she can express her imagination with colors",
+              "because it has no homework",
+              "because it is the shortest class",
+              "because everyone gets a prize",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why does Nay Chi think Science is exciting?",
+            questionMy:
+                "နေချည်သည် Science ဘာသာရပ်ကို ဘာကြောင့် စိတ်လှုပ်ရှားစရာဟု ထင်သနည်း။",
+            optionsEn: [
+              "because they can do interesting experiments",
+              "because it has the fewest tests",
+              "because it starts the day",
+              "because it is her friend's favorite",
+            ],
+            optionsMy: [
+              "because they can do interesting experiments",
+              "because it has the fewest tests",
+              "because it starts the day",
+              "because it is her friend's favorite",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why does Tin think Physical Education is best?",
+            questionMy:
+                "တင်သည် Physical Education ကို ဘာကြောင့် အကောင်းဆုံးဟု ထင်သနည်း။",
+            optionsEn: [
+              "because they can run and play games together",
+              "because it happens indoors",
+              "because it needs no equipment",
+              "because it is the shortest subject",
+            ],
+            optionsMy: [
+              "because they can run and play games together",
+              "because it happens indoors",
+              "because it needs no equipment",
+              "because it is the shortest subject",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar, what does every good opinion need?",
+            questionMy:
+                "ဆရာမ သန္တာပြောသည့်အတိုင်း ကောင်းမွန်သောထင်မြင်ချက်တိုင်းသည် ဘာလိုအပ်သနည်း။",
+            optionsEn: [
+              "A clear reason to make it strong",
+              "A picture to go with it",
+              "A very long sentence",
+              "A funny joke",
+            ],
+            optionsMy: [
+              "A clear reason to make it strong",
+              "A picture to go with it",
+              "A very long sentence",
+              "A funny joke",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w29-d4",
+      dayNumber: 4,
+      titleEn: "Sort Fact or Opinion",
+      titleMy: "အချက်အလက် (သို့) ထင်မြင်ချက်ကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fact", "Opinion"],
+        bucketsMy: ["အချက်အလက်", "ထင်မြင်ချက်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w29-sort-1",
+            labelEn: "Nova School has a library.",
+            labelMy: "Nova School has a library.",
+            correctBucketEn: "Fact",
+            correctBucketMy: "အချက်အလက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-2",
+            labelEn: "I think the library is the best place at school.",
+            labelMy: "I think the library is the best place at school.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-3",
+            labelEn: "The school day starts at eight o'clock.",
+            labelMy: "The school day starts at eight o'clock.",
+            correctBucketEn: "Fact",
+            correctBucketMy: "အချက်အလက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-4",
+            labelEn: "In my opinion, mornings are the best time to learn.",
+            labelMy: "In my opinion, mornings are the best time to learn.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-5",
+            labelEn: "Tin plays football on the school field.",
+            labelMy: "Tin plays football on the school field.",
+            correctBucketEn: "Fact",
+            correctBucketMy: "အချက်အလက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-6",
+            labelEn: "Tin believes football is the most exciting sport.",
+            labelMy: "Tin believes football is the most exciting sport.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-7",
+            labelEn: "Nay Chi grows beans in the school garden.",
+            labelMy: "Nay Chi grows beans in the school garden.",
+            correctBucketEn: "Fact",
+            correctBucketMy: "အချက်အလက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-8",
+            labelEn: "I think gardening is a wonderful hobby.",
+            labelMy: "I think gardening is a wonderful hobby.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w29-sort-9",
+            labelEn: "Nova School has four hundred students.",
+            labelMy: "Nova School has four hundred students.",
+            correctBucketEn: "Fact",
+            correctBucketMy: "အချက်အလက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w29-d5",
+      dayNumber: 5,
+      titleEn: "Stating an Opinion Recap",
+      titleMy: "ထင်မြင်ချက် ဖော်ပြခြင်း ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which sentence gives an opinion?",
+          questionMy: "ဘယ်ဝါကျသည် ထင်မြင်ချက်ကို ဖော်ပြထားသနည်း။",
+          optionsEn: [
+            "I think dogs make the best pets.",
+            "Dogs have four legs.",
+            "The dog is brown.",
+            "The dog ran fast.",
+          ],
+          optionsMy: [
+            "I think dogs make the best pets.",
+            "Dogs have four legs.",
+            "The dog is brown.",
+            "The dog ran fast.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase usually starts an opinion sentence?",
+          questionMy:
+              "ဘယ်စကားစုသည် ထင်မြင်ချက်ဝါကျကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["I think", "The sun", "Yesterday", "Water"],
+          optionsMy: ["I think", "The sun", "Yesterday", "Water"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do we give a reason after our opinion?",
+          questionMy:
+              "ထင်မြင်ချက်ပေးပြီးနောက် အကြောင်းပြချက်ကို ဘာကြောင့် ထပ်ပေးရသနည်း။",
+          optionsEn: [
+            "to explain why we think that way",
+            "to make the sentence longer",
+            "to confuse the reader",
+            "to end the story",
+          ],
+          optionsMy: [
+            "ဘာကြောင့် ဒီလိုထင်တာလဲဆိုတာ ရှင်းပြရန်",
+            "ဝါကျကို ရှည်အောင်လုပ်ရန်",
+            "စာဖတ်သူကို ရှုပ်ထွေးအောင်လုပ်ရန်",
+            "ဇာတ်လမ်းကို အဆုံးသတ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence has both an opinion AND a reason?",
+          questionMy:
+              "ဘယ်ဝါကျတွင် ထင်မြင်ချက်နှင့် အကြောင်းပြချက် နှစ်ခုစလုံး ပါဝင်သနည်း။",
+          optionsEn: [
+            "I think Nova School is the best school because the teachers are so kind.",
+            "Nova School has 500 students.",
+            "The school bell rings at eight o'clock.",
+            "Nova School was built ten years ago.",
+          ],
+          optionsMy: [
+            "I think Nova School is the best school because the teachers are so kind.",
+            "Nova School has 500 students.",
+            "The school bell rings at eight o'clock.",
+            "Nova School was built ten years ago.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An opinion is...",
+          questionMy: "ထင်မြင်ချက် ဆိုသည်မှာ...",
+          optionsEn: [
+            "what someone thinks or feels",
+            "something that can be proven true",
+            "a fact everyone agrees on",
+            "a measurement",
+          ],
+          optionsMy: [
+            "လူတစ်ဦးတစ်ယောက်၏ တွေးထင်ချက် (သို့) ခံစားချက်",
+            "မှန်ကန်ကြောင်း သက်သေပြနိုင်သည့်အရာ",
+            "လူတိုင်းသဘောတူသော အချက်အလက်",
+            "တိုင်းတာချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 8, Week 30: "Persuasive Words"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek30 = CourseWeekDef(
+  id: "course-year4-english-w30",
+  weekNumber: 30,
+  titleEn: "Persuasive Words",
+  titleMy: "ဆွဲဆောင်နိုင်သော စကားလုံးများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w30-d1",
+      dayNumber: 1,
+      titleEn: "Should, Must, and the Best",
+      titleMy: "Should, Must နှင့် the Best",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which word is a persuasive word that tells someone what to do?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် တစ်ယောက်ယောက်ကို ဘာလုပ်ရမည်ကို ပြောပြသော ဆွဲဆောင်စကားလုံးဖြစ်သနည်း။",
+          optionsEn: ["should", "cat", "yesterday", "green"],
+          optionsMy: ["should", "cat", "yesterday", "green"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"You must try the new library books.\" What is the purpose of \"must\"?",
+          questionMy:
+              "\"You must try the new library books\" တွင် \"must\" ၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "to strongly encourage someone to do something",
+            "to describe a color",
+            "to tell time",
+            "to name a place",
+          ],
+          optionsMy: [
+            "တစ်ခုခုကို လုပ်ဖို့ အင်အားသွင်း တိုက်တွန်းရန်",
+            "အရောင်တစ်ခုကို ဖော်ပြရန်",
+            "အချိန်ကို ပြောရန်",
+            "နေရာတစ်ခုကို အမည်တပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which phrase makes a strong persuasive claim about quality?",
+          questionMy:
+              "ဘယ်စကားစုသည် အရည်အသွေးအကြောင်း ခိုင်မာသော ဆွဲဆောင်ဖော်ပြချက်ကို ပြုလုပ်သနည်း။",
+          optionsEn: ["the best", "a book", "some pages", "at school"],
+          optionsMy: ["the best", "a book", "some pages", "at school"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Everyone agrees that recycling helps our planet.\" Why does the writer use \"everyone agrees\"?",
+          questionMy:
+              "\"Everyone agrees that recycling helps our planet\" တွင် စာရေးသူသည် \"everyone agrees\" ကို ဘာကြောင့် သုံးသနည်း။",
+          optionsEn: [
+            "to make the reader think most people already support the idea",
+            "to describe the weather",
+            "to give a set of instructions",
+            "to tell a joke",
+          ],
+          optionsMy: [
+            "လူအများစုက ဒီအယူအဆကို လက်ခံပြီးသားဟု စာဖတ်သူ ထင်စေရန်",
+            "ရာသီဥတုကို ဖော်ပြရန်",
+            "လုပ်ဆောင်ရန် ညွှန်ကြားချက်များ ပေးရန်",
+            "ဟာသတစ်ခု ပြောရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses a persuasive word?",
+          questionMy: "ဘယ်ဝါကျသည် ဆွဲဆောင်စကားလုံး အသုံးပြုထားသနည်း။",
+          optionsEn: [
+            "You should read this amazing book.",
+            "The book has pages.",
+            "The book is on the shelf.",
+            "The book was printed in Yangon.",
+          ],
+          optionsMy: [
+            "You should read this amazing book.",
+            "The book has pages.",
+            "The book is on the shelf.",
+            "The book was printed in Yangon.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Persuasive writing tries to...",
+          questionMy: "ဆွဲဆောင်ရေးသားချက်သည် ဘာကို ကြိုးစားလုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "convince the reader to think or do something",
+            "only give facts with no opinion",
+            "describe scientific data",
+            "list numbers in order",
+          ],
+          optionsMy: [
+            "စာဖတ်သူကို တစ်ခုခုကို တွေး (သို့) လုပ်ဖို့ ဆွဲဆောင်စည်းရုံးရန်",
+            "ထင်မြင်ချက်မပါဘဲ အချက်အလက်သာ ပေးရန်",
+            "သိပ္ပံဆိုင်ရာ အချက်အလက်ကို ဖော်ပြရန်",
+            "နံပါတ်များကို အစီအစဉ်တကျ စာရင်းပြုစုရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which word makes an opinion sound like a rule everyone must follow?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ထင်မြင်ချက်တစ်ခုကို လူတိုင်းလိုက်နာရမည့် စည်းကမ်းတစ်ခုလို ကြားရစေသနည်း။",
+          optionsEn: ["must", "maybe", "sometimes", "perhaps"],
+          optionsMy: ["must", "maybe", "sometimes", "perhaps"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Choose the most persuasive sentence.",
+          questionMy: "အဆွဲဆောင်ဆုံးဝါကျကို ရွေးချယ်ပါ။",
+          optionsEn: [
+            "Join our club today -- it is the best decision you will ever make!",
+            "Our club meets on Tuesday.",
+            "The club has ten members.",
+            "The club started last year.",
+          ],
+          optionsMy: [
+            "Join our club today -- it is the best decision you will ever make!",
+            "Our club meets on Tuesday.",
+            "The club has ten members.",
+            "The club started last year.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match the Persuasive Word to Its Effect",
+      titleMy: "ဆွဲဆောင်စကားလုံးကို ၎င်း၏အကျိုးသက်ရောက်မှုနှင့် ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w30-dm-1",
+          termEn: "should",
+          termMy: "should",
+          matchEn: "suggests strongly what someone ought to do",
+          matchMy: "တစ်ယောက်ယောက် ဘာလုပ်သင့်ကြောင်း အင်အားသွင်း အကြံပြုသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-2",
+          termEn: "must",
+          termMy: "must",
+          matchEn: "shows something is very necessary or important",
+          matchMy: "တစ်ခုခုသည် အလွန်လိုအပ် (သို့) အရေးကြီးကြောင်း ပြသသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-3",
+          termEn: "the best",
+          termMy: "the best",
+          matchEn: "claims something is better than everything else",
+          matchMy: "တစ်ခုခုသည် တခြားအရာအားလုံးထက် ကောင်းကြောင်း ပြောဆိုသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-4",
+          termEn: "everyone agrees",
+          termMy: "everyone agrees",
+          matchEn: "makes an idea sound like it has wide support",
+          matchMy:
+              "အယူအဆတစ်ခုကို ကျယ်ပြန့်စွာ ထောက်ခံမှုရှိသကဲ့သို့ ကြားရစေသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-5",
+          termEn: "amazing",
+          termMy: "amazing",
+          matchEn: "makes something sound exciting and wonderful",
+          matchMy:
+              "တစ်ခုခုကို စိတ်လှုပ်ရှားစရာနှင့် အံ့သြဖွယ်ကောင်းသကဲ့သို့ ကြားရစေသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-6",
+          termEn: "definitely",
+          termMy: "definitely",
+          matchEn: "makes a statement sound certain and strong",
+          matchMy: "ဖော်ပြချက်တစ်ခုကို သေချာပြီး ခိုင်မာသကဲ့သို့ ကြားရစေသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-7",
+          termEn: "always",
+          termMy: "always",
+          matchEn: "claims something happens every single time",
+          matchMy: "တစ်ခုခုသည် အချိန်တိုင်း ဖြစ်ပေါ်ကြောင်း ပြောဆိုသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w30-dm-8",
+          termEn: "join us",
+          termMy: "join us",
+          matchEn: "a call to action that invites the reader to act",
+          matchMy:
+              "စာဖတ်သူကို လုပ်ဆောင်ရန် ဖိတ်ခေါ်သော လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w30-d3",
+      dayNumber: 3,
+      titleEn: "Join the Nova School Reading Club",
+      titleMy: "Nova ကျောင်း စာဖတ်ကလပ်သို့ ဝင်ရောက်ပါ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Join the Nova School Reading Club",
+        titleMy: "Nova ကျောင်း စာဖတ်ကလပ်သို့ ဝင်ရောက်ပါ",
+        passageEn:
+            "Tin stood in front of the class and said, \"You should join the Nova School Reading Club! It is definitely the best club at our school. Everyone agrees that reading amazing stories together is so much fun. We must fill our new bookshelf with excited readers. Join us every Friday afternoon -- you will always find a great book waiting for you!\" Ms. Thandar clapped and said Tin's speech used persuasive words perfectly.",
+        passageMy:
+            "တင်သည် အတန်းရှေ့တွင် ရပ်လျက် \"You should join the Nova School Reading Club! It is definitely the best club at our school. Everyone agrees that reading amazing stories together is so much fun. We must fill our new bookshelf with excited readers. Join us every Friday afternoon -- you will always find a great book waiting for you!\" ဟု ပြောခဲ့သည်။ ဆရာမ သန္တာသည် လက်ခုပ်တီးပြီး တင်၏မိန့်ခွန်းသည် ဆွဲဆောင်စကားလုံးများကို အပြည့်အဝ အသုံးချထားကြောင်း ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What club did Tin talk about?",
+            questionMy: "တင်သည် ဘယ်ကလပ်အကြောင်း ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "The Nova School Reading Club",
+              "The Nova School Football Club",
+              "The Nova School Art Club",
+              "The Nova School Cooking Club",
+            ],
+            optionsMy: [
+              "The Nova School Reading Club",
+              "The Nova School Football Club",
+              "The Nova School Art Club",
+              "The Nova School Cooking Club",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which persuasive word did Tin use to describe the club's quality?",
+            questionMy:
+                "ကလပ်၏ အရည်အသွေးကို ဖော်ပြရန် တင်က ဘယ်ဆွဲဆောင်စကားလုံးကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "the best",
+              "the smallest",
+              "the oldest",
+              "the quietest",
+            ],
+            optionsMy: [
+              "the best",
+              "the smallest",
+              "the oldest",
+              "the quietest",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which phrase suggests that many people support the club?",
+            questionMy:
+                "ကလပ်ကို လူများစွာ ထောက်ခံကြောင်း ညွှန်ပြသော စကားစုက အဘယ်နည်း။",
+            optionsEn: ["Everyone agrees", "You should", "We must", "Join us"],
+            optionsMy: ["Everyone agrees", "You should", "We must", "Join us"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "When does the reading club meet, according to Tin?",
+            questionMy: "တင်ပြောသည့်အတိုင်း စာဖတ်ကလပ် ဘယ်အချိန် တွေ့ဆုံသနည်း။",
+            optionsEn: [
+              "Every Friday afternoon",
+              "Every Monday morning",
+              "Every weekend",
+              "Every school holiday",
+            ],
+            optionsMy: [
+              "Every Friday afternoon",
+              "Every Monday morning",
+              "Every weekend",
+              "Every school holiday",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How did Ms. Thandar describe Tin's speech?",
+            questionMy:
+                "ဆရာမ သန္တာသည် တင်၏မိန့်ခွန်းကို ဘယ်လို ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "It used persuasive words perfectly",
+              "It was too short",
+              "It had no purpose",
+              "It was hard to understand",
+            ],
+            optionsMy: [
+              "It used persuasive words perfectly",
+              "It was too short",
+              "It had no purpose",
+              "It was hard to understand",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w30-d4",
+      dayNumber: 4,
+      titleEn: "Sort Persuasive or Not",
+      titleMy: "ဆွဲဆောင်သော (သို့) မဟုတ်သော စကားလုံးကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Persuasive Word", "Not Persuasive"],
+        bucketsMy: ["ဆွဲဆောင်စကားလုံး", "ဆွဲဆောင်မှုမရှိ"],
+        items: [
+          SortingItem(
+            id: "y4eng-w30-sort-1",
+            labelEn: "should",
+            labelMy: "should",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-2",
+            labelEn: "table",
+            labelMy: "table",
+            correctBucketEn: "Not Persuasive",
+            correctBucketMy: "ဆွဲဆောင်မှုမရှိ",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-3",
+            labelEn: "must",
+            labelMy: "must",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-4",
+            labelEn: "Tuesday",
+            labelMy: "Tuesday",
+            correctBucketEn: "Not Persuasive",
+            correctBucketMy: "ဆွဲဆောင်မှုမရှိ",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-5",
+            labelEn: "the best",
+            labelMy: "the best",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-6",
+            labelEn: "chair",
+            labelMy: "chair",
+            correctBucketEn: "Not Persuasive",
+            correctBucketMy: "ဆွဲဆောင်မှုမရှိ",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-7",
+            labelEn: "everyone agrees",
+            labelMy: "everyone agrees",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-8",
+            labelEn: "pencil",
+            labelMy: "pencil",
+            correctBucketEn: "Not Persuasive",
+            correctBucketMy: "ဆွဲဆောင်မှုမရှိ",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-9",
+            labelEn: "amazing",
+            labelMy: "amazing",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w30-sort-10",
+            labelEn: "blue",
+            labelMy: "blue",
+            correctBucketEn: "Not Persuasive",
+            correctBucketMy: "ဆွဲဆောင်မှုမရှိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w30-d5",
+      dayNumber: 5,
+      titleEn: "Persuasive Words Recap",
+      titleMy: "ဆွဲဆောင်စကားလုံးများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which word is a persuasive word?",
+          questionMy: "ဘယ်စကားလုံးသည် ဆွဲဆောင်စကားလုံးဖြစ်သနည်း။",
+          optionsEn: ["should", "cat", "yesterday", "green"],
+          optionsMy: ["should", "cat", "yesterday", "green"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase makes a strong claim about quality?",
+          questionMy:
+              "ဘယ်စကားစုသည် အရည်အသွေးအကြောင်း ခိုင်မာသော ဖော်ပြချက်ကို ပြုလုပ်သနည်း။",
+          optionsEn: ["the best", "a book", "some pages", "at school"],
+          optionsMy: ["the best", "a book", "some pages", "at school"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Persuasive writing tries to...",
+          questionMy: "ဆွဲဆောင်ရေးသားချက်သည် ဘာကို ကြိုးစားလုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "convince the reader to think or do something",
+            "only give facts with no opinion",
+            "describe scientific data",
+            "list numbers in order",
+          ],
+          optionsMy: [
+            "စာဖတ်သူကို တစ်ခုခုကို တွေး (သို့) လုပ်ဖို့ ဆွဲဆောင်စည်းရုံးရန်",
+            "ထင်မြင်ချက်မပါဘဲ အချက်အလက်သာ ပေးရန်",
+            "သိပ္ပံဆိုင်ရာ အချက်အလက်ကို ဖော်ပြရန်",
+            "နံပါတ်များကို အစီအစဉ်တကျ စာရင်းပြုစုရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which phrase suggests an idea has wide support?",
+          questionMy:
+              "ဘယ်စကားစုသည် အယူအဆတစ်ခုကို ကျယ်ပြန့်စွာ ထောက်ခံမှုရှိကြောင်း ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "everyone agrees",
+            "the sky is blue",
+            "yesterday",
+            "a table",
+          ],
+          optionsMy: [
+            "everyone agrees",
+            "the sky is blue",
+            "yesterday",
+            "a table",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Choose the most persuasive sentence.",
+          questionMy: "အဆွဲဆောင်ဆုံးဝါကျကို ရွေးချယ်ပါ။",
+          optionsEn: [
+            "Join our club today -- it is the best decision you will ever make!",
+            "Our club meets on Tuesday.",
+            "The club has ten members.",
+            "The club started last year.",
+          ],
+          optionsMy: [
+            "Join our club today -- it is the best decision you will ever make!",
+            "Our club meets on Tuesday.",
+            "The club has ten members.",
+            "The club started last year.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 8, Week 31: "Posters and Adverts"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek31 = CourseWeekDef(
+  id: "course-year4-english-w31",
+  weekNumber: 31,
+  titleEn: "Posters and Adverts",
+  titleMy: "ပိုစတာများနှင့် ကြော်ငြာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w31-d1",
+      dayNumber: 1,
+      titleEn: "What Makes a Great Poster",
+      titleMy: "ကောင်းမွန်သောပိုစတာတစ်ခု ဖြစ်လာစေသည့်အချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a slogan?",
+          questionMy: "ဆောင်ပုဒ် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "a short, catchy phrase that is easy to remember",
+            "a long paragraph of facts",
+            "the price of a product",
+            "the date something happened",
+          ],
+          optionsMy: [
+            "အလွယ်တကူ မှတ်မိစေနိုင်သော တိုတောင်းသည့် ဆွဲဆောင်စကားစု",
+            "အချက်အလက်များ ပါဝင်သော ရှည်လျားသည့် စာပိုဒ်",
+            "ကုန်ပစ္စည်းတစ်ခု၏ ဈေးနှုန်း",
+            "တစ်ခုခု ဖြစ်ပျက်ခဲ့သည့်ရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do posters use big, bold letters?",
+          questionMy:
+              "ပိုစတာများက ဘာကြောင့် ကြီးမားပြီး စေ့ကားသောအက္ခရာများကို သုံးသနည်း။",
+          optionsEn: [
+            "to catch the reader's attention quickly",
+            "to save paper",
+            "to make the poster harder to read",
+            "to hide the message",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ အာရုံစူးစိုက်မှုကို လျင်မြန်စွာ ဆွဲဆောင်ရန်",
+            "စာရွက်ကို ချွေတာရန်",
+            "ပိုစတာကို ဖတ်ရခက်အောင်လုပ်ရန်",
+            "အကြောင်းအရာကို ဖုံးကွယ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"call to action\" in an advert?",
+          questionMy:
+              "ကြော်ငြာတစ်ခုတွင် \"call to action\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "words that tell the reader exactly what to do next",
+            "a description of the weather",
+            "the title of a story",
+            "a list of ingredients",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ ဘာလုပ်ရမည်ကို တိတိကျကျ ပြောပြသောစကားလုံးများ",
+            "ရာသီဥတု ဖော်ပြချက်",
+            "ဇာတ်လမ်း၏ ခေါင်းစဉ်",
+            "ပါဝင်ပစ္စည်း စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is an example of a call to action?",
+          questionMy: "ဘယ်ဟာသည် call to action ၏ ဥပမာဖြစ်သနည်း။",
+          optionsEn: [
+            "Visit our book fair this Saturday!",
+            "The book fair happened last year.",
+            "Books are made of paper.",
+            "The library has many shelves.",
+          ],
+          optionsMy: [
+            "Visit our book fair this Saturday!",
+            "The book fair happened last year.",
+            "Books are made of paper.",
+            "The library has many shelves.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good persuasive poster should include...",
+          questionMy:
+              "ကောင်းမွန်သော ဆွဲဆောင်ပိုစတာတစ်ခုတွင် ဘာများ ပါဝင်သင့်သနည်း။",
+          optionsEn: [
+            "a slogan, a picture, persuasive words, and a call to action",
+            "only small grey text",
+            "no pictures at all",
+            "a long list of numbers",
+          ],
+          optionsMy: [
+            "ဆောင်ပုဒ်၊ ပုံ၊ ဆွဲဆောင်စကားလုံးများနှင့် call to action",
+            "သေးငယ်သော မီးခိုးရောင်စာသားသာ",
+            "ပုံလုံးဝမပါ",
+            "ရှည်လျားသော နံပါတ်စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which slogan is the most catchy?",
+          questionMy: "ဘယ်ဆောင်ပုဒ်သည် အဆွဲဆောင်ဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Read More, Dream More!",
+            "We have books.",
+            "Books are here.",
+            "This is a poster.",
+          ],
+          optionsMy: [
+            "Read More, Dream More!",
+            "We have books.",
+            "Books are here.",
+            "This is a poster.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the purpose of a persuasive poster?",
+          questionMy: "ဆွဲဆောင်ပိုစတာတစ်ခု၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "to convince people to do or believe something",
+            "to record daily weather",
+            "to list a school's rules only",
+            "to write a private diary entry",
+          ],
+          optionsMy: [
+            "လူများကို တစ်ခုခု လုပ် (သို့) ယုံကြည်စေရန် ဆွဲဆောင်စည်းရုံးရန်",
+            "နေ့စဉ်ရာသီဥတုကို မှတ်တမ်းတင်ရန်",
+            "ကျောင်း၏ စည်းကမ်းများကိုသာ စာရင်းပြုစုရန်",
+            "ကိုယ်ပိုင်မှတ်တမ်းစာအုပ် ရေးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which picture would best support a poster about a school sports day?",
+          questionMy:
+              "ကျောင်းအားကစားနေ့အကြောင်း ပိုစတာအတွက် ဘယ်ပုံသည် အကောင်းဆုံး ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "children running a race",
+            "a plate of food",
+            "a rainy street",
+            "a clock",
+          ],
+          optionsMy: [
+            "children running a race",
+            "a plate of food",
+            "a rainy street",
+            "a clock",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match the Poster Part to Its Purpose",
+      titleMy: "ပိုစတာ၏ အစိတ်အပိုင်းကို ၎င်း၏ရည်ရွယ်ချက်နှင့် ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w31-dm-1",
+          termEn: "Read More, Dream More!",
+          termMy: "Read More, Dream More!",
+          matchEn: "A slogan -- a short, catchy phrase",
+          matchMy: "ဆောင်ပုဒ် -- တိုတောင်းသော ဆွဲဆောင်စကားစု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-2",
+          termEn: "Come to the Nova School Book Fair!",
+          termMy: "Come to the Nova School Book Fair!",
+          matchEn: "A call to action -- tells the reader what to do",
+          matchMy: "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက် -- စာဖတ်သူ ဘာလုပ်ရမည်ကို ပြောသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-3",
+          termEn: "the best books in town",
+          termMy: "the best books in town",
+          matchEn: "A persuasive phrase -- makes the offer sound wonderful",
+          matchMy:
+              "ဆွဲဆောင်စကားစု -- ကမ်းလှမ်းချက်ကို အံ့သြဖွယ်ကောင်းသကဲ့သို့ ကြားရစေသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-4",
+          termEn: "a picture of children reading happily",
+          termMy: "a picture of children reading happily",
+          matchEn: "An image -- helps the poster catch the eye",
+          matchMy: "ပုံ -- ပိုစတာကို မျက်စိဆွဲဆောင်ဖို့ ကူညီပေးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-5",
+          termEn: "Saturday, 10 AM, School Hall",
+          termMy: "Saturday, 10 AM, School Hall",
+          matchEn: "Key details -- tells the reader when and where",
+          matchMy:
+              "အဓိကသတင်းအချက်များ -- ဘယ်အချိန်နှင့် ဘယ်နေရာဖြစ်ကြောင်း ပြောသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-6",
+          termEn: "BIG BOLD LETTERS",
+          termMy: "BIG BOLD LETTERS",
+          matchEn: "Bold text -- draws attention to the most important words",
+          matchMy:
+              "စေ့ကားသောစာသား -- အရေးကြီးဆုံးစကားလုံးများကို အာရုံစူးစိုက်စေသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-7",
+          termEn: "You must not miss this!",
+          termMy: "You must not miss this!",
+          matchEn: "A persuasive word -- creates urgency",
+          matchMy:
+              "ဆွဲဆောင်စကားလုံး -- အလျင်အမြန်လုပ်ရန် ခံစားမှုကို ဖန်တီးသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w31-dm-8",
+          termEn: "Everyone agrees it's the best fair yet!",
+          termMy: "Everyone agrees it's the best fair yet!",
+          matchEn: "A persuasive claim -- suggests wide support",
+          matchMy:
+              "ဆွဲဆောင်ဖော်ပြချက် -- ကျယ်ပြန့်စွာ ထောက်ခံမှုရှိကြောင်း ညွှန်ပြသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w31-d3",
+      dayNumber: 3,
+      titleEn: "The Nova School Book Fair",
+      titleMy: "Nova ကျောင်း စာအုပ်ပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Book Fair",
+        titleMy: "Nova ကျောင်း စာအုပ်ပွဲတော်",
+        passageEn:
+            "Nay Chi wrote a poster for the school notice board: \"Come to the Nova School Book Fair! Read More, Dream More! This Saturday at 10 AM in the School Hall, you will find the best books in town. Everyone agrees that our book fair is the most exciting event of the year. You must not miss the chance to meet your favorite authors and win amazing prizes. Join us this Saturday -- your next favorite book is waiting!\"",
+        passageMy:
+            "နေချည်သည် ကျောင်း အသိပေးဘုတ်အတွက် ပိုစတာတစ်ခု ရေးခဲ့သည်- \"Come to the Nova School Book Fair! Read More, Dream More! This Saturday at 10 AM in the School Hall, you will find the best books in town. Everyone agrees that our book fair is the most exciting event of the year. You must not miss the chance to meet your favorite authors and win amazing prizes. Join us this Saturday -- your next favorite book is waiting!\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What is the slogan in Nay Chi's poster?",
+            questionMy: "နေချည်၏ပိုစတာထဲက ဆောင်ပုဒ်က အဘယ်နည်း။",
+            optionsEn: [
+              "Read More, Dream More!",
+              "Come to School!",
+              "The Best Books!",
+              "Win Amazing Prizes!",
+            ],
+            optionsMy: [
+              "Read More, Dream More!",
+              "Come to School!",
+              "The Best Books!",
+              "Win Amazing Prizes!",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "When and where is the book fair?",
+            questionMy: "စာအုပ်ပွဲတော်ကို ဘယ်အချိန်၊ ဘယ်နေရာတွင် ကျင်းပသနည်း။",
+            optionsEn: [
+              "Saturday at 10 AM in the School Hall",
+              "Sunday at 9 AM in the library",
+              "Friday at noon in the garden",
+              "Monday at 8 AM in the classroom",
+            ],
+            optionsMy: [
+              "Saturday at 10 AM in the School Hall",
+              "Sunday at 9 AM in the library",
+              "Friday at noon in the garden",
+              "Monday at 8 AM in the classroom",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the call to action in the poster?",
+            questionMy: "ပိုစတာထဲက call to action က အဘယ်နည်း။",
+            optionsEn: [
+              "Join us this Saturday",
+              "Read a book at home",
+              "Buy a new bag",
+              "Stay home this weekend",
+            ],
+            optionsMy: [
+              "Join us this Saturday",
+              "Read a book at home",
+              "Buy a new bag",
+              "Stay home this weekend",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which phrase suggests the fair has wide support?",
+            questionMy:
+                "ပွဲတော်ကို ကျယ်ပြန့်စွာ ထောက်ခံမှုရှိကြောင်း ညွှန်ပြသော စကားစုက အဘယ်နည်း။",
+            optionsEn: [
+              "Everyone agrees",
+              "This Saturday",
+              "School Hall",
+              "Book Fair",
+            ],
+            optionsMy: [
+              "Everyone agrees",
+              "This Saturday",
+              "School Hall",
+              "Book Fair",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What can visitors win at the book fair?",
+            questionMy: "စာအုပ်ပွဲတော်တွင် ဧည့်သည်များ ဘာရနိုင်သနည်း။",
+            optionsEn: [
+              "Amazing prizes",
+              "Free lunch",
+              "A new bicycle",
+              "A holiday trip",
+            ],
+            optionsMy: [
+              "Amazing prizes",
+              "Free lunch",
+              "A new bicycle",
+              "A holiday trip",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w31-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Poster Features",
+      titleMy: "ပိုစတာ၏ အင်္ဂါရပ်များကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Slogan",
+          "Call to Action",
+          "Persuasive Word",
+          "Key Detail",
+        ],
+        bucketsMy: [
+          "ဆောင်ပုဒ်",
+          "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်",
+          "ဆွဲဆောင်စကားလုံး",
+          "အဓိကသတင်းအချက်",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w31-sort-1",
+            labelEn: "Read More, Dream More!",
+            labelMy: "Read More, Dream More!",
+            correctBucketEn: "Slogan",
+            correctBucketMy: "ဆောင်ပုဒ်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-2",
+            labelEn: "Come to the Nova School Book Fair!",
+            labelMy: "Come to the Nova School Book Fair!",
+            correctBucketEn: "Call to Action",
+            correctBucketMy: "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-3",
+            labelEn: "Join us this Saturday",
+            labelMy: "Join us this Saturday",
+            correctBucketEn: "Call to Action",
+            correctBucketMy: "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-4",
+            labelEn: "the best books in town",
+            labelMy: "the best books in town",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-5",
+            labelEn: "amazing prizes",
+            labelMy: "amazing prizes",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-6",
+            labelEn: "Saturday at 10 AM",
+            labelMy: "Saturday at 10 AM",
+            correctBucketEn: "Key Detail",
+            correctBucketMy: "အဓိကသတင်းအချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-7",
+            labelEn: "in the School Hall",
+            labelMy: "in the School Hall",
+            correctBucketEn: "Key Detail",
+            correctBucketMy: "အဓိကသတင်းအချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-8",
+            labelEn: "Learn More, Grow More!",
+            labelMy: "Learn More, Grow More!",
+            correctBucketEn: "Slogan",
+            correctBucketMy: "ဆောင်ပုဒ်",
+          ),
+          SortingItem(
+            id: "y4eng-w31-sort-9",
+            labelEn: "Visit our stall today!",
+            labelMy: "Visit our stall today!",
+            correctBucketEn: "Call to Action",
+            correctBucketMy: "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w31-d5",
+      dayNumber: 5,
+      titleEn: "Posters and Adverts Recap",
+      titleMy: "ပိုစတာများနှင့် ကြော်ငြာများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a slogan?",
+          questionMy: "ဆောင်ပုဒ် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "a short, catchy phrase that is easy to remember",
+            "a long paragraph of facts",
+            "the price of a product",
+            "the date something happened",
+          ],
+          optionsMy: [
+            "အလွယ်တကူ မှတ်မိစေနိုင်သော တိုတောင်းသည့် ဆွဲဆောင်စကားစု",
+            "အချက်အလက်များ ပါဝင်သော ရှည်လျားသည့် စာပိုဒ်",
+            "ကုန်ပစ္စည်းတစ်ခု၏ ဈေးနှုန်း",
+            "တစ်ခုခု ဖြစ်ပျက်ခဲ့သည့်ရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"call to action\"?",
+          questionMy: "\"call to action\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "words that tell the reader exactly what to do next",
+            "a description of the weather",
+            "the title of a story",
+            "a list of ingredients",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ ဘာလုပ်ရမည်ကို တိတိကျကျ ပြောပြသောစကားလုံးများ",
+            "ရာသီဥတု ဖော်ပြချက်",
+            "ဇာတ်လမ်း၏ ခေါင်းစဉ်",
+            "ပါဝင်ပစ္စည်း စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good persuasive poster should include...",
+          questionMy:
+              "ကောင်းမွန်သော ဆွဲဆောင်ပိုစတာတစ်ခုတွင် ဘာများ ပါဝင်သင့်သနည်း။",
+          optionsEn: [
+            "a slogan, a picture, persuasive words, and a call to action",
+            "only small grey text",
+            "no pictures at all",
+            "a long list of numbers",
+          ],
+          optionsMy: [
+            "ဆောင်ပုဒ်၊ ပုံ၊ ဆွဲဆောင်စကားလုံးများနှင့် call to action",
+            "သေးငယ်သော မီးခိုးရောင်စာသားသာ",
+            "ပုံလုံးဝမပါ",
+            "ရှည်လျားသော နံပါတ်စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do posters use big, bold letters?",
+          questionMy:
+              "ပိုစတာများက ဘာကြောင့် ကြီးမားပြီး စေ့ကားသောအက္ခရာများကို သုံးသနည်း။",
+          optionsEn: [
+            "to catch the reader's attention quickly",
+            "to save paper",
+            "to make the poster harder to read",
+            "to hide the message",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ အာရုံစူးစိုက်မှုကို လျင်မြန်စွာ ဆွဲဆောင်ရန်",
+            "စာရွက်ကို ချွေတာရန်",
+            "ပိုစတာကို ဖတ်ရခက်အောင်လုပ်ရန်",
+            "အကြောင်းအရာကို ဖုံးကွယ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is an example of a call to action?",
+          questionMy: "ဘယ်ဟာသည် call to action ၏ ဥပမာဖြစ်သနည်း။",
+          optionsEn: [
+            "Visit our book fair this Saturday!",
+            "The book fair happened last year.",
+            "Books are made of paper.",
+            "The library has many shelves.",
+          ],
+          optionsMy: [
+            "Visit our book fair this Saturday!",
+            "The book fair happened last year.",
+            "Books are made of paper.",
+            "The library has many shelves.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 8, Week 32 (Capstone): "The Nova School
+// Debate Day"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek32 = CourseWeekDef(
+  id: "course-year4-english-w32",
+  weekNumber: 32,
+  titleEn: "The Nova School Debate Day",
+  titleMy: "Nova ကျောင်း စကားပြိုင်ပွဲနေ့",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w32-d1",
+      dayNumber: 1,
+      titleEn: "Debate Day Warm-Up",
+      titleMy: "စကားပြိုင်ပွဲနေ့ နွေးထွေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which phrase usually starts an opinion sentence?",
+          questionMy:
+              "ဘယ်စကားစုသည် ထင်မြင်ချက်ဝါကျကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["I think", "The sun", "Yesterday", "Water"],
+          optionsMy: ["I think", "The sun", "Yesterday", "Water"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word is a persuasive word?",
+          questionMy: "ဘယ်စကားလုံးသည် ဆွဲဆောင်စကားလုံးဖြစ်သနည်း။",
+          optionsEn: ["should", "cat", "yesterday", "green"],
+          optionsMy: ["should", "cat", "yesterday", "green"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a slogan?",
+          questionMy: "ဆောင်ပုဒ် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "a short, catchy phrase that is easy to remember",
+            "a long paragraph of facts",
+            "the price of a product",
+            "the date something happened",
+          ],
+          optionsMy: [
+            "အလွယ်တကူ မှတ်မိစေနိုင်သော တိုတောင်းသည့် ဆွဲဆောင်စကားစု",
+            "အချက်အလက်များ ပါဝင်သော ရှည်လျားသည့် စာပိုဒ်",
+            "ကုန်ပစ္စည်းတစ်ခု၏ ဈေးနှုန်း",
+            "တစ်ခုခု ဖြစ်ပျက်ခဲ့သည့်ရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a \"call to action\"?",
+          questionMy: "\"call to action\" ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "words that tell the reader exactly what to do next",
+            "a description of the weather",
+            "the title of a story",
+            "a list of ingredients",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ ဘာလုပ်ရမည်ကို တိတိကျကျ ပြောပြသောစကားလုံးများ",
+            "ရာသီဥတု ဖော်ပြချက်",
+            "ဇာတ်လမ်း၏ ခေါင်းစဉ်",
+            "ပါဝင်ပစ္စည်း စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good opinion sentence includes an opinion and a...",
+          questionMy:
+              "ကောင်းမွန်သောထင်မြင်ချက်ဝါကျတွင် ထင်မြင်ချက်နှင့် ...ပါဝင်ရသည်။",
+          optionsEn: ["reason", "picture", "date", "price"],
+          optionsMy: ["reason", "picture", "date", "price"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w32-d2",
+      dayNumber: 2,
+      titleEn: "The Debate Toolkit",
+      titleMy: "စကားပြိုင်ပွဲ ကိရိယာအစုအဝေး",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w32-dm-1",
+          termEn: "I think school uniforms are a good idea",
+          termMy: "I think school uniforms are a good idea",
+          matchEn: "An opinion -- what someone thinks",
+          matchMy: "ထင်မြင်ချက် -- တစ်ယောက်ယောက်၏ တွေးထင်ချက်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-2",
+          termEn: "because uniforms save time each morning",
+          termMy: "because uniforms save time each morning",
+          matchEn: "A reason -- explains the opinion",
+          matchMy: "အကြောင်းပြချက် -- ထင်မြင်ချက်ကို ရှင်းပြသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-3",
+          termEn: "should",
+          termMy: "should",
+          matchEn: "A persuasive word -- suggests what to do",
+          matchMy: "ဆွဲဆောင်စကားလုံး -- ဘာလုပ်ရမည်ကို အကြံပြုသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-4",
+          termEn: "everyone agrees",
+          termMy: "everyone agrees",
+          matchEn: "A persuasive phrase -- suggests wide support",
+          matchMy:
+              "ဆွဲဆောင်စကားစု -- ကျယ်ပြန့်စွာ ထောက်ခံမှုရှိကြောင်း ညွှန်ပြသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-5",
+          termEn: "Vote for our team today!",
+          termMy: "Vote for our team today!",
+          matchEn: "A call to action -- tells the audience what to do",
+          matchMy: "လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက် -- ပရိသတ် ဘာလုပ်ရမည်ကို ပြောသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-6",
+          termEn: "Uniforms: Neat and Ready!",
+          termMy: "Uniforms: Neat and Ready!",
+          matchEn: "A slogan -- a short, catchy phrase",
+          matchMy: "ဆောင်ပုဒ် -- တိုတောင်းသော ဆွဲဆောင်စကားစု",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-7",
+          termEn: "the best choice for our school",
+          termMy: "the best choice for our school",
+          matchEn: "A persuasive claim -- makes something sound wonderful",
+          matchMy:
+              "ဆွဲဆောင်ဖော်ပြချက် -- တစ်ခုခုကို အံ့သြဖွယ်ကောင်းသကဲ့သို့ ကြားရစေသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w32-dm-8",
+          termEn: "must",
+          termMy: "must",
+          matchEn: "A persuasive word -- shows strong necessity",
+          matchMy: "ဆွဲဆောင်စကားလုံး -- ပြင်းထန်သော လိုအပ်ချက်ကို ပြသသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort by Persuasive Writing Tool",
+      titleMy: "ဆွဲဆောင်ရေးသားမှု ကိရိယာအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Opinion Starter", "Persuasive Word", "Poster Feature"],
+        bucketsMy: [
+          "ထင်မြင်ချက် အစပြုစကားစု",
+          "ဆွဲဆောင်စကားလုံး",
+          "ပိုစတာ အင်္ဂါရပ်",
+        ],
+        items: [
+          SortingItem(
+            id: "y4eng-w32-sort-1",
+            labelEn: "I think",
+            labelMy: "I think",
+            correctBucketEn: "Opinion Starter",
+            correctBucketMy: "ထင်မြင်ချက် အစပြုစကားစု",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-2",
+            labelEn: "in my opinion",
+            labelMy: "in my opinion",
+            correctBucketEn: "Opinion Starter",
+            correctBucketMy: "ထင်မြင်ချက် အစပြုစကားစု",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-3",
+            labelEn: "I believe",
+            labelMy: "I believe",
+            correctBucketEn: "Opinion Starter",
+            correctBucketMy: "ထင်မြင်ချက် အစပြုစကားစု",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-4",
+            labelEn: "should",
+            labelMy: "should",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-5",
+            labelEn: "must",
+            labelMy: "must",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-6",
+            labelEn: "everyone agrees",
+            labelMy: "everyone agrees",
+            correctBucketEn: "Persuasive Word",
+            correctBucketMy: "ဆွဲဆောင်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-7",
+            labelEn: "slogan",
+            labelMy: "slogan",
+            correctBucketEn: "Poster Feature",
+            correctBucketMy: "ပိုစတာ အင်္ဂါရပ်",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-8",
+            labelEn: "call to action",
+            labelMy: "call to action",
+            correctBucketEn: "Poster Feature",
+            correctBucketMy: "ပိုစတာ အင်္ဂါရပ်",
+          ),
+          SortingItem(
+            id: "y4eng-w32-sort-9",
+            labelEn: "bold letters",
+            labelMy: "bold letters",
+            correctBucketEn: "Poster Feature",
+            correctBucketMy: "ပိုစတာ အင်္ဂါရပ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w32-d4",
+      dayNumber: 4,
+      titleEn: "The Nova School Debate Day",
+      titleMy: "Nova ကျောင်း စကားပြိုင်ပွဲနေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Debate Day",
+        titleMy: "Nova ကျောင်း စကားပြိုင်ပွဲနေ့",
+        passageEn:
+            "Nova School held its first Debate Day. The topic was \"Should students have homework every day?\" Tin stood up and said, \"I think students should not have homework every day because we need time to rest and play.\" Moe Moe disagreed and said, \"In my opinion, a little homework every day is the best way to practise what we learn. Everyone agrees that practice makes us stronger readers and writers.\" Nay Chi then presented her persuasive poster titled \"Balance is Best!\" with a picture of a clock split between books and playtime, and a call to action: \"Choose balance -- ask your teacher for a fair homework plan!\" Ms. Thandar said every team gave strong opinions with clear reasons and persuasive language. The whole school cheered for Nova's very first Debate Day.",
+        passageMy:
+            "Nova ကျောင်းသည် ၎င်း၏ ပထမဆုံး စကားပြိုင်ပွဲနေ့ကို ကျင်းပခဲ့သည်။ ခေါင်းစဉ်မှာ \"Should students have homework every day?\" ဖြစ်သည်။ တင်သည် ထ၍ \"I think students should not have homework every day because we need time to rest and play\" ဟု ပြောခဲ့သည်။ မိုးမိုးက သဘောမတူဘဲ \"In my opinion, a little homework every day is the best way to practise what we learn. Everyone agrees that practice makes us stronger readers and writers\" ဟု ပြောခဲ့သည်။ ထို့နောက် နေချည်သည် စာအုပ်များနှင့် ကစားချိန်ကို ခွဲထားသော နာရီပုံနှင့် \"Choose balance -- ask your teacher for a fair homework plan!\" ဟူသော လုပ်ဆောင်ရန်ဖိတ်ခေါ်ချက်ပါသည့် \"Balance is Best!\" ခေါင်းစဉ်ရှိ ဆွဲဆောင်ပိုစတာကို တင်ပြခဲ့သည်။ ဆရာမ သန္တာက အသင်းတိုင်းသည် ရှင်းလင်းသော အကြောင်းပြချက်များနှင့် ဆွဲဆောင်သောစကားလုံးများဖြင့် ခိုင်မာသောထင်မြင်ချက်များ ပေးခဲ့ကြောင်း ပြောခဲ့သည်။ ကျောင်းတစ်ကျောင်းလုံးသည် Nova ၏ ပထမဆုံးစကားပြိုင်ပွဲနေ့အတွက် အားပေးကြွေးကြော်ခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was the debate topic?",
+            questionMy: "စကားပြိုင်ပွဲ၏ ခေါင်းစဉ်က အဘယ်နည်း။",
+            optionsEn: [
+              "Should students have homework every day?",
+              "Should students wear uniforms?",
+              "Should school start earlier?",
+              "Should classes be shorter?",
+            ],
+            optionsMy: [
+              "Should students have homework every day?",
+              "Should students wear uniforms?",
+              "Should school start earlier?",
+              "Should classes be shorter?",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Tin think students should not have homework every day?",
+            questionMy:
+                "ကျောင်းသားများ နေ့စဉ်အိမ်စာ မရှိသင့်ဟု တင် ဘာကြောင့် ထင်ခဲ့သနည်း။",
+            optionsEn: [
+              "because they need time to rest and play",
+              "because homework is too easy",
+              "because teachers dislike homework",
+              "because homework costs money",
+            ],
+            optionsMy: [
+              "because they need time to rest and play",
+              "because homework is too easy",
+              "because teachers dislike homework",
+              "because homework costs money",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Moe Moe think a little homework every day is best?",
+            questionMy:
+                "နေ့စဉ်အိမ်စာအနည်းငယ်သည် အကောင်းဆုံးဟု မိုးမိုး ဘာကြောင့် ထင်ခဲ့သနည်း။",
+            optionsEn: [
+              "because practice makes us stronger readers and writers",
+              "because it gives extra holidays",
+              "because it is shorter than class work",
+              "because everyone dislikes tests",
+            ],
+            optionsMy: [
+              "because practice makes us stronger readers and writers",
+              "because it gives extra holidays",
+              "because it is shorter than class work",
+              "because everyone dislikes tests",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the title of Nay Chi's poster?",
+            questionMy: "နေချည်၏ပိုစတာ၏ ခေါင်းစဉ်က အဘယ်နည်း။",
+            optionsEn: [
+              "Balance is Best!",
+              "No More Homework!",
+              "Homework Every Day!",
+              "Rest and Play!",
+            ],
+            optionsMy: [
+              "Balance is Best!",
+              "No More Homework!",
+              "Homework Every Day!",
+              "Rest and Play!",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the call to action on Nay Chi's poster?",
+            questionMy: "နေချည်၏ပိုစတာပေါ်ရှိ call to action က အဘယ်နည်း။",
+            optionsEn: [
+              "Choose balance -- ask your teacher for a fair homework plan!",
+              "Never do homework again!",
+              "Only play, never study!",
+              "Homework is not important!",
+            ],
+            optionsMy: [
+              "Choose balance -- ask your teacher for a fair homework plan!",
+              "Never do homework again!",
+              "Only play, never study!",
+              "Homework is not important!",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w32-d5",
+      dayNumber: 5,
+      titleEn: "Debate Day Grand Finale",
+      titleMy: "စကားပြိုင်ပွဲနေ့ ကြီးမားသောအဆုံးသတ်ပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A good opinion sentence includes an opinion and a...",
+          questionMy:
+              "ကောင်းမွန်သောထင်မြင်ချက်ဝါကျတွင် ထင်မြင်ချက်နှင့် ...ပါဝင်ရသည်။",
+          optionsEn: ["reason", "picture", "date", "price"],
+          optionsMy: ["reason", "picture", "date", "price"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which word is a persuasive word that shows strong necessity?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ပြင်းထန်သော လိုအပ်ချက်ကို ပြသော ဆွဲဆောင်စကားလုံးဖြစ်သနည်း။",
+          optionsEn: ["must", "cat", "yesterday", "green"],
+          optionsMy: ["must", "cat", "yesterday", "green"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a call to action?",
+          questionMy: "call to action ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "words that tell the reader exactly what to do next",
+            "a description of the weather",
+            "the title of a story",
+            "a list of ingredients",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ ဘာလုပ်ရမည်ကို တိတိကျကျ ပြောပြသောစကားလုံးများ",
+            "ရာသီဥတု ဖော်ပြချက်",
+            "ဇာတ်လမ်း၏ ခေါင်းစဉ်",
+            "ပါဝင်ပစ္စည်း စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What was the topic of Nova School's first Debate Day?",
+          questionMy:
+              "Nova ကျောင်း၏ ပထမဆုံးစကားပြိုင်ပွဲနေ့၏ ခေါင်းစဉ်က အဘယ်နည်း။",
+          optionsEn: [
+            "Should students have homework every day?",
+            "Should students wear uniforms?",
+            "Should school start earlier?",
+            "Should classes be shorter?",
+          ],
+          optionsMy: [
+            "Should students have homework every day?",
+            "Should students wear uniforms?",
+            "Should school start earlier?",
+            "Should classes be shorter?",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This term, we learned about opinions, persuasive words, and persuasive posters. How is persuasive writing different from the fact-based non-fiction writing we practised in Term 7?",
+          questionMy:
+              "ဒီ Term မှာ ထင်မြင်ချက်များ၊ ဆွဲဆောင်စကားလုံးများနှင့် ဆွဲဆောင်ပိုစတာများအကြောင်း သင်ကြားခဲ့ကြသည်။ Term 7 တွင် ကျွန်တော်တို့ လေ့ကျင့်ခဲ့သော အချက်အလက်အခြေခံ non-fiction ရေးသားမှုနှင့် ဆွဲဆောင်ရေးသားမှုသည် ဘယ်လို ကွာခြားသနည်း။",
+          optionsEn: [
+            "Persuasive writing shares the writer's opinions and tries to convince the reader, while fact-based non-fiction writing only presents true information without trying to change what the reader thinks.",
+            "Persuasive writing only uses numbers, while non-fiction writing never uses numbers.",
+            "Persuasive writing and non-fiction writing are exactly the same thing.",
+            "Persuasive writing must always be written as a poem, while non-fiction writing cannot use pictures.",
+          ],
+          optionsMy: [
+            "Persuasive writing shares the writer's opinions and tries to convince the reader, while fact-based non-fiction writing only presents true information without trying to change what the reader thinks.",
+            "Persuasive writing only uses numbers, while non-fiction writing never uses numbers.",
+            "Persuasive writing and non-fiction writing are exactly the same thing.",
+            "Persuasive writing must always be written as a poem, while non-fiction writing cannot use pictures.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm8 = CourseTermDef(
+  id: "course-year4-english-t8",
+  termNumber: 8,
+  titleEn: "Persuasive and Opinion Writing",
+  titleMy: "ဆွဲဆောင်ရေးသားခြင်းနှင့် ထင်မြင်ချက်ရေးသားခြင်း",
+  certificateTitleEn: "Persuasive and Opinion Writing",
+  certificateTitleMy: "ဆွဲဆောင်ရေးသားခြင်းနှင့် ထင်မြင်ချက်ရေးသားခြင်း",
+  weeks: [
+    _year4EnglishWeek29,
+    _year4EnglishWeek30,
+    _year4EnglishWeek31,
+    _year4EnglishWeek32,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 9, Week 33: "Book Reviews"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek33 = CourseWeekDef(
+  id: "course-year4-english-w33",
+  weekNumber: 33,
+  titleEn: "Book Reviews",
+  titleMy: "စာအုပ် သုံးသပ်ချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w33-d1",
+      dayNumber: 1,
+      titleEn: "Opinion, Reason, Recommendation",
+      titleMy: "ထင်မြင်ချက်၊ အကြောင်းရင်းနှင့် အကြံပြုချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A book review usually includes...",
+          questionMy: "စာအုပ်သုံးသပ်ချက်တစ်ခုတွင် ပုံမှန်အားဖြင့် ဘာပါဝင်သနည်း။",
+          optionsEn: [
+            "your opinion and reasons why you liked or disliked the book",
+            "only the book's price",
+            "only the author's photo",
+            "only the page count",
+          ],
+          optionsMy: [
+            "your opinion and reasons why you liked or disliked the book",
+            "only the book's price",
+            "only the author's photo",
+            "only the page count",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is an opinion in a book review?",
+          questionMy: "စာအုပ်သုံးသပ်ချက်တွင် ထင်မြင်ချက်ဖြစ်သော ဝါကျမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This was the most exciting book I have ever read!",
+            "The book has 120 pages.",
+            "The book was published in 2020.",
+            "The author lives in Yangon.",
+          ],
+          optionsMy: [
+            "This was the most exciting book I have ever read!",
+            "The book has 120 pages.",
+            "The book was published in 2020.",
+            "The author lives in Yangon.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Giving a reason for your opinion in a review helps...",
+          questionMy: "သုံးသပ်ချက်တွင် ထင်မြင်ချက်အတွက် အကြောင်းရင်းပေးခြင်းသည် ဘာလုပ်ပေးသနည်း။",
+          optionsEn: [
+            "convince readers your opinion is fair",
+            "make the review shorter",
+            "hide your true feelings",
+            "confuse the reader",
+          ],
+          optionsMy: [
+            "convince readers your opinion is fair",
+            "make the review shorter",
+            "hide your true feelings",
+            "confuse the reader",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A recommendation at the end of a review tells readers...",
+          questionMy: "သုံးသပ်ချက်အဆုံးရှိ အကြံပြုချက်သည် စာဖတ်သူများကို ဘာပြောပြသနည်း။",
+          optionsEn: [
+            "whether they should read the book or not",
+            "the exact page count",
+            "the author's birthday",
+            "the price of the book",
+          ],
+          optionsMy: [
+            "whether they should read the book or not",
+            "the exact page count",
+            "the author's birthday",
+            "the price of the book",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is a good reason to support the opinion \"I loved this book\"?",
+          questionMy: "\"I loved this book\" ဟူသော ထင်မြင်ချက်ကို ထောက်ခံရန် ကောင်းသော အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "because the characters felt real and the story was exciting",
+            "because it was a book",
+            "because it had pages",
+            "because someone gave it to me",
+          ],
+          optionsMy: [
+            "because the characters felt real and the story was exciting",
+            "because it was a book",
+            "because it had pages",
+            "because someone gave it to me",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A star rating (like 5 stars) in a review shows...",
+          questionMy: "သုံးသပ်ချက်ရှိ ကြယ်အဆင့် (ကြယ်ငါးလုံးကဲ့သို့) သည် ဘာကို ပြသနည်း။",
+          optionsEn: [
+            "how much the reviewer liked the book overall",
+            "the number of chapters",
+            "the author's age",
+            "the price",
+          ],
+          optionsMy: [
+            "how much the reviewer liked the book overall",
+            "the number of chapters",
+            "the author's age",
+            "the price",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Book reviews are useful because they help other readers...",
+          questionMy: "စာအုပ်သုံးသပ်ချက်များသည် အခြားစာဖတ်သူများကို ဘာအတွက် ကူညီပေးသောကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "decide whether to read a book",
+            "write their own books",
+            "learn math",
+            "draw pictures",
+          ],
+          optionsMy: [
+            "decide whether to read a book",
+            "write their own books",
+            "learn math",
+            "draw pictures",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which part of a review usually comes first?",
+          questionMy: "သုံးသပ်ချက်၏ ဘယ်အပိုင်းက ပုံမှန်အားဖြင့် ပထမဆုံး လာလေ့ရှိသနည်း။",
+          optionsEn: [
+            "The title of the book being reviewed",
+            "The star rating only",
+            "The last page's ending",
+            "The price tag",
+          ],
+          optionsMy: [
+            "The title of the book being reviewed",
+            "The star rating only",
+            "The last page's ending",
+            "The price tag",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match the Review Part",
+      titleMy: "သုံးသပ်ချက်အပိုင်းကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w33-dm-1",
+          termEn: "Opinion",
+          termMy: "Opinion",
+          matchEn: "What the reviewer personally thinks or feels about the book",
+          matchMy: "သုံးသပ်သူ စာအုပ်အကြောင်း ကိုယ်တိုင် ဘာတွေးမြင် (သို့) ခံစားသနည်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-2",
+          termEn: "Reason",
+          termMy: "Reason",
+          matchEn: "Why the reviewer feels that way",
+          matchMy: "သုံးသပ်သူ ဘာကြောင့် ထိုသို့ ခံစားရသနည်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-3",
+          termEn: "Recommendation",
+          termMy: "Recommendation",
+          matchEn: "Advice on whether others should read the book",
+          matchMy: "အခြားသူများ ဒီစာအုပ်ကို ဖတ်သင့်မဖတ်သင့် အကြံပြုချက်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-4",
+          termEn: "Star Rating",
+          termMy: "Star Rating",
+          matchEn: "A quick number score showing how much the reviewer liked it",
+          matchMy: "သုံးသပ်သူ မည်မျှ ကြိုက်ကြောင်း လျင်မြန်စွာ ပြသော ကိန်းဂဏန်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-5",
+          termEn: "\"I found this book boring.\"",
+          termMy: "\"I found this book boring.\"",
+          matchEn: "An opinion",
+          matchMy: "ထင်မြင်ချက်တစ်ခု",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-6",
+          termEn: "\"because the plot moved too slowly\"",
+          termMy: "\"because the plot moved too slowly\"",
+          matchEn: "A reason",
+          matchMy: "အကြောင်းရင်းတစ်ခု",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-7",
+          termEn:
+              "\"I recommend this book to anyone who loves adventure stories.\"",
+          termMy:
+              "\"I recommend this book to anyone who loves adventure stories.\"",
+          matchEn: "A recommendation",
+          matchMy: "အကြံပြုချက်တစ်ခု",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w33-dm-8",
+          termEn: "\"★★★★★\"",
+          termMy: "\"★★★★★\"",
+          matchEn: "A star rating",
+          matchMy: "ကြယ်အဆင့်တစ်ခု",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w33-d3",
+      dayNumber: 3,
+      titleEn: "Moe Moe's Book Review",
+      titleMy: "မိုးမိုး၏ စာအုပ်သုံးသပ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Book Review",
+        titleMy: "မိုးမိုး၏ စာအုပ်သုံးသပ်ချက်",
+        passageEn:
+            "For the Founders' Day Book Festival, Moe Moe wrote a review of her favorite book, \"The Lost Kite of Nova Hill.\" She wrote: \"I gave this book five stars because it was the most exciting book I have read this year. My favorite part was when the main character finally found her missing kite on top of the old banyan tree. I loved this book because the characters felt real and the ending made me smile. I recommend this book to anyone who enjoys stories about friendship and adventure.\" Ms. Thandar read Moe Moe's review and said, \"You gave your opinion, explained your reasons clearly, and ended with a strong recommendation. That is exactly what a great book review looks like!\"",
+        passageMy:
+            "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်အတွက် မိုးမိုးသည် သူမ အကြိုက်ဆုံးစာအုပ် \"The Lost Kite of Nova Hill\" ၏ သုံးသပ်ချက်တစ်ခုကို ရေးခဲ့သည်။ သူက \"ဒီစာအုပ်ကို ကျွန်မ ငါးကြယ်ပေးလိုက်ပါတယ်၊ အကြောင်းက ဒီနှစ်ထဲမှာ ကျွန်မ ဖတ်ဖူးသမျှထဲက အပျော်ရွှင်ဆုံးစာအုပ်ဖြစ်လို့ပါ။ ကျွန်မ အကြိုက်ဆုံးအပိုင်းက ဇာတ်ကောင်က ပျောက်နေတဲ့ ငှက်ကြိုးကို ရှေးဟောင်းညောင်ပင်ကြီးထိပ်မှာ နောက်ဆုံးတွေ့တဲ့အချိန်ပါ။ ဇာတ်ကောင်တွေက အစစ်အမှန်ဆန်ပြီး အဆုံးသတ်က ကျွန်မကို ပြုံးစေတဲ့အတွက် ဒီစာအုပ်ကို ကျွန်မ ကြိုက်ပါတယ်။ ချစ်ခင်ရင်းနှီးမှုနဲ့ စွန့်စားခန်းဇာတ်လမ်းတွေ ကြိုက်တဲ့သူတိုင်းကို ဒီစာအုပ်ကို ကျွန်မ အကြံပြုချင်ပါတယ်\" ဟု ရေးခဲ့သည်။ ဆရာမ သန္တာသည် မိုးမိုး၏ သုံးသပ်ချက်ကို ဖတ်ပြီး \"မင်း ထင်မြင်ချက်ကို ပေးထားပြီး၊ အကြောင်းရင်းများကို ရှင်းလင်းစွာ ဖော်ပြထားပြီး၊ ခိုင်မာသော အကြံပြုချက်နဲ့ အဆုံးသတ်ထားတယ်။ ဒါဟာ အကောင်းဆုံး စာအုပ်သုံးသပ်ချက်ရဲ့ ပုံစံအတိအကျပဲ!\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What book did Moe Moe review?",
+            questionMy: "မိုးမိုးသည် ဘယ်စာအုပ်ကို သုံးသပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "\"The Lost Kite of Nova Hill\"",
+              "\"The Nova School Grammar Games\"",
+              "\"Elephants of Myanmar\"",
+              "\"The Storytelling Showcase\"",
+            ],
+            optionsMy: [
+              "\"The Lost Kite of Nova Hill\"",
+              "\"The Nova School Grammar Games\"",
+              "\"Elephants of Myanmar\"",
+              "\"The Storytelling Showcase\"",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many stars did Moe Moe give the book?",
+            questionMy: "မိုးမိုးသည် စာအုပ်ကို ကြယ်ဘယ်နှစ်လုံး ပေးခဲ့သနည်း။",
+            optionsEn: ["Five stars", "One star", "Three stars", "Zero stars"],
+            optionsMy: ["Five stars", "One star", "Three stars", "Zero stars"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was Moe Moe's favorite part of the book?",
+            questionMy: "မိုးမိုး၏ အကြိုက်ဆုံး အပိုင်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "When the main character found her missing kite on the banyan tree",
+              "When the book ended sadly",
+              "When the author was introduced",
+              "When the price was announced",
+            ],
+            optionsMy: [
+              "When the main character found her missing kite on the banyan tree",
+              "When the book ended sadly",
+              "When the author was introduced",
+              "When the price was announced",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Who does Moe Moe recommend the book to?",
+            questionMy: "မိုးမိုးသည် ဒီစာအုပ်ကို ဘယ်သူများကို အကြံပြုသနည်း။",
+            optionsEn: [
+              "Anyone who enjoys stories about friendship and adventure",
+              "Only teachers",
+              "Only adults",
+              "No one",
+            ],
+            optionsMy: [
+              "Anyone who enjoys stories about friendship and adventure",
+              "Only teachers",
+              "Only adults",
+              "No one",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar praise Moe Moe's review for?",
+            questionMy: "ဆရာမ သန္တာသည် မိုးမိုး၏ သုံးသပ်ချက်ကို ဘာအတွက် ချီးမွမ်းခဲ့သနည်း။",
+            optionsEn: [
+              "Giving an opinion, clear reasons, and a strong recommendation",
+              "Being the shortest review",
+              "Using the most stars",
+              "Copying another review",
+            ],
+            optionsMy: [
+              "Giving an opinion, clear reasons, and a strong recommendation",
+              "Being the shortest review",
+              "Using the most stars",
+              "Copying another review",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w33-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Review Parts",
+      titleMy: "သုံးသပ်ချက်အပိုင်းများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Opinion", "Reason", "Recommendation"],
+        bucketsMy: ["ထင်မြင်ချက်", "အကြောင်းရင်း", "အကြံပြုချက်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w33-sort-1",
+            labelEn: "This was the most exciting book I have read this year.",
+            labelMy: "This was the most exciting book I have read this year.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-2",
+            labelEn: "because the characters felt real",
+            labelMy: "because the characters felt real",
+            correctBucketEn: "Reason",
+            correctBucketMy: "အကြောင်းရင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-3",
+            labelEn: "I recommend this book to anyone who loves adventure.",
+            labelMy: "I recommend this book to anyone who loves adventure.",
+            correctBucketEn: "Recommendation",
+            correctBucketMy: "အကြံပြုချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-4",
+            labelEn: "I loved the ending.",
+            labelMy: "I loved the ending.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-5",
+            labelEn: "because the ending made me smile",
+            labelMy: "because the ending made me smile",
+            correctBucketEn: "Reason",
+            correctBucketMy: "အကြောင်းရင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-6",
+            labelEn: "Everyone who enjoys friendship stories should read this.",
+            labelMy: "Everyone who enjoys friendship stories should read this.",
+            correctBucketEn: "Recommendation",
+            correctBucketMy: "အကြံပြုချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-7",
+            labelEn: "I found this book boring.",
+            labelMy: "I found this book boring.",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "ထင်မြင်ချက်",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-8",
+            labelEn: "because the plot moved too slowly",
+            labelMy: "because the plot moved too slowly",
+            correctBucketEn: "Reason",
+            correctBucketMy: "အကြောင်းရင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w33-sort-9",
+            labelEn: "I would not recommend this book to young readers.",
+            labelMy: "I would not recommend this book to young readers.",
+            correctBucketEn: "Recommendation",
+            correctBucketMy: "အကြံပြုချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w33-d5",
+      dayNumber: 5,
+      titleEn: "Book Reviews Recap",
+      titleMy: "စာအုပ် သုံးသပ်ချက်များ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A book review usually includes...",
+          questionMy: "စာအုပ်သုံးသပ်ချက်တစ်ခုတွင် ပုံမှန်အားဖြင့် ဘာပါဝင်သနည်း။",
+          optionsEn: [
+            "your opinion and reasons why you liked or disliked the book",
+            "only the book's price",
+            "only the author's photo",
+            "only the page count",
+          ],
+          optionsMy: [
+            "your opinion and reasons why you liked or disliked the book",
+            "only the book's price",
+            "only the author's photo",
+            "only the page count",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence is an opinion in a book review?",
+          questionMy: "စာအုပ်သုံးသပ်ချက်တွင် ထင်မြင်ချက်ဖြစ်သော ဝါကျမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This was the most exciting book I have ever read!",
+            "The book has 120 pages.",
+            "The book was published in 2020.",
+            "The author lives in Yangon.",
+          ],
+          optionsMy: [
+            "This was the most exciting book I have ever read!",
+            "The book has 120 pages.",
+            "The book was published in 2020.",
+            "The author lives in Yangon.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Giving a reason for your opinion in a review helps...",
+          questionMy: "သုံးသပ်ချက်တွင် ထင်မြင်ချက်အတွက် အကြောင်းရင်းပေးခြင်းသည် ဘာလုပ်ပေးသနည်း။",
+          optionsEn: [
+            "convince readers your opinion is fair",
+            "make the review shorter",
+            "hide your true feelings",
+            "confuse the reader",
+          ],
+          optionsMy: [
+            "convince readers your opinion is fair",
+            "make the review shorter",
+            "hide your true feelings",
+            "confuse the reader",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A recommendation at the end of a review tells readers...",
+          questionMy: "သုံးသပ်ချက်အဆုံးရှိ အကြံပြုချက်သည် စာဖတ်သူများကို ဘာပြောပြသနည်း။",
+          optionsEn: [
+            "whether they should read the book or not",
+            "the exact page count",
+            "the author's birthday",
+            "the price of the book",
+          ],
+          optionsMy: [
+            "whether they should read the book or not",
+            "the exact page count",
+            "the author's birthday",
+            "the price of the book",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is a good reason to support the opinion \"I loved this book\"?",
+          questionMy: "\"I loved this book\" ဟူသော ထင်မြင်ချက်ကို ထောက်ခံရန် ကောင်းသော အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "because the characters felt real and the story was exciting",
+            "because it was a book",
+            "because it had pages",
+            "because someone gave it to me",
+          ],
+          optionsMy: [
+            "because the characters felt real and the story was exciting",
+            "because it was a book",
+            "because it had pages",
+            "because someone gave it to me",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 9, Week 34: "Author Studies"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek34 = CourseWeekDef(
+  id: "course-year4-english-w34",
+  weekNumber: 34,
+  titleEn: "Author Studies",
+  titleMy: "စာရေးဆရာများအကြောင်း လေ့လာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w34-d1",
+      dayNumber: 1,
+      titleEn: "What Is an Author Study?",
+      titleMy: "စာရေးဆရာလေ့လာမှုဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An author is the person who...",
+          questionMy: "စာရေးဆရာဆိုသည်မှာ ဘာလုပ်သောသူကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "writes a book",
+            "illustrates only the cover",
+            "prints the book",
+            "sells the book in a shop",
+          ],
+          optionsMy: [
+            "writes a book",
+            "illustrates only the cover",
+            "prints the book",
+            "sells the book in a shop",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A short account of an author's life is called a...",
+          questionMy: "စာရေးဆရာတစ်ဦး၏ ဘဝအကြောင်း တိုတိုရေးထားသည့်စာကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["biography", "dictionary", "glossary", "index"],
+          optionsMy: ["biography", "dictionary", "glossary", "index"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Learning where an author's ideas came from is studying their...",
+          questionMy: "စာရေးဆရာတစ်ဦး၏ အကြံအစည်များ ဘယ်ကလာသည်ကို လေ့လာခြင်းသည် သူ၏ ဘာကို လေ့လာခြင်းဖြစ်သနည်း။",
+          optionsEn: ["inspiration", "price", "font", "page count"],
+          optionsMy: ["inspiration", "price", "font", "page count"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A list of all the books an author has written is called their...",
+          questionMy: "စာရေးဆရာတစ်ဦး ရေးသားခဲ့သမျှ စာအုပ်များစာရင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "bibliography",
+            "biography",
+            "autobiography",
+            "dictionary",
+          ],
+          optionsMy: [
+            "bibliography",
+            "biography",
+            "autobiography",
+            "dictionary",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a good research question for an author study?",
+          questionMy: "စာရေးဆရာလေ့လာမှုအတွက် ကောင်းသော သုတေသနမေးခွန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "\"What inspired this author to write this story?\"",
+            "\"What color is the book cover?\"",
+            "\"How many pages does the book have?\"",
+            "\"What font is used?\"",
+          ],
+          optionsMy: [
+            "\"What inspired this author to write this story?\"",
+            "\"What color is the book cover?\"",
+            "\"How many pages does the book have?\"",
+            "\"What font is used?\"",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do readers sometimes study an author's life?",
+          questionMy: "စာဖတ်သူများသည် အချို့သောအခါ စာရေးဆရာ၏ ဘဝကို အဘယ့်ကြောင့် လေ့လာကြသနည်း။",
+          optionsEn: [
+            "To understand more about why they wrote their stories",
+            "To copy their books exactly",
+            "To find their home address",
+            "To avoid reading their books",
+          ],
+          optionsMy: [
+            "To understand more about why they wrote their stories",
+            "To copy their books exactly",
+            "To find their home address",
+            "To avoid reading their books",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A genre is...",
+          questionMy: "genre ဆိုသည်မှာ...",
+          optionsEn: [
+            "a category or type of writing, like adventure or mystery",
+            "the author's full name",
+            "the price of a book",
+            "the number of chapters",
+          ],
+          optionsMy: [
+            "a category or type of writing, like adventure or mystery",
+            "the author's full name",
+            "the price of a book",
+            "the number of chapters",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If an author often writes about the sea because they grew up near the ocean, that is an example of...",
+          questionMy: "စာရေးဆရာတစ်ဦးသည် ပင်လယ်ကမ်းခြေအနီး ကြီးပြင်းခဲ့သောကြောင့် ပင်လယ်အကြောင်း မကြာခဏ ရေးလေ့ရှိသည်ဆိုလျှင် ဒါက ဘာ၏ ဥပမာဖြစ်သနည်း။",
+          optionsEn: [
+            "inspiration from their own life",
+            "a coincidence with no meaning",
+            "a mistake in the book",
+            "a genre name",
+          ],
+          optionsMy: [
+            "inspiration from their own life",
+            "a coincidence with no meaning",
+            "a mistake in the book",
+            "a genre name",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match the Author Study Term",
+      titleMy: "စာရေးဆရာလေ့လာမှု အသုံးအနှုန်းကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w34-dm-1",
+          termEn: "Author",
+          termMy: "Author",
+          matchEn: "The person who writes a book",
+          matchMy: "စာအုပ်တစ်အုပ်ကို ရေးသားသူ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-2",
+          termEn: "Biography",
+          termMy: "Biography",
+          matchEn: "A written account of a person's life",
+          matchMy: "လူတစ်ဦး၏ ဘဝအကြောင်း ရေးသားထားသည့်စာ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-3",
+          termEn: "Bibliography",
+          termMy: "Bibliography",
+          matchEn: "A list of all the books an author has written",
+          matchMy: "စာရေးဆရာတစ်ဦး ရေးသားခဲ့သမျှ စာအုပ်များစာရင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-4",
+          termEn: "Inspiration",
+          termMy: "Inspiration",
+          matchEn: "The idea or experience that sparks a story",
+          matchMy: "ဇာတ်လမ်းတစ်ခုကို စေ့ဆော်ပေးသော အကြံအစည် (သို့) အတွေ့အကြုံ",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-5",
+          termEn: "Genre",
+          termMy: "Genre",
+          matchEn: "A category of writing, like mystery or adventure",
+          matchMy: "လျှို့ဝှက် (သို့) စွန့်စားခန်းကဲ့သို့ အရေးအသားအမျိုးအစား",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-6",
+          termEn: "Illustrator",
+          termMy: "Illustrator",
+          matchEn: "The person who draws the pictures in a book",
+          matchMy: "စာအုပ်ထဲရှိ ပုံများကို ရေးဆွဲသူ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-7",
+          termEn: "Autobiography",
+          termMy: "Autobiography",
+          matchEn: "A person's own written account of their own life",
+          matchMy: "လူတစ်ဦးက မိမိကိုယ်တိုင် ရေးသားသော မိမိဘဝအကြောင်း",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w34-dm-8",
+          termEn: "Setting",
+          termMy: "Setting",
+          matchEn: "The time and place where a story happens",
+          matchMy: "ဇာတ်လမ်းတစ်ခု ဖြစ်ပျက်သည့် အချိန်နှင့်နေရာ",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w34-d3",
+      dayNumber: 3,
+      titleEn: "Tin's Author Study Project",
+      titleMy: "တင်၏ စာရေးဆရာလေ့လာမှု စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tin's Author Study Project",
+        titleMy: "တင်၏ စာရေးဆရာလေ့လာမှု စီမံကိန်း",
+        passageEn:
+            "For the Founders' Day Book Festival, Tin chose to research an author he admired, U Ba Nyein, who wrote many adventure stories set in the hills of Myanmar. Tin learned that U Ba Nyein grew up near the mountains and often went hiking with his father as a child -- and that experience became the inspiration for his adventure stories. Tin also found U Ba Nyein's bibliography, a list of twelve books he had written, all in the adventure genre. Tin wrote in his project, \"Studying an author's life helps me understand why they write the stories they do. U Ba Nyein wrote about mountains because he loved them since he was young, just like I love kites because my grandfather taught me to fly them.\" Ms. Thandar told the class that understanding an author's inspiration can make reading their books even more meaningful.",
+        passageMy:
+            "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်အတွက် တင်သည် သူကြည်ညိုသော စာရေးဆရာတစ်ဦးဖြစ်သော ဦးဘငြိမ်း အကြောင်းကို လေ့လာရန် ရွေးချယ်ခဲ့သည်။ ဦးဘငြိမ်းသည် မြန်မာနိုင်ငံ တောင်ကုန်းများတွင် ဖြစ်ပျက်သည့် စွန့်စားခန်းဇာတ်လမ်းများစွာကို ရေးသားခဲ့သူဖြစ်သည်။ တင်သည် ဦးဘငြိမ်းသည် တောင်များအနီးတွင် ကြီးပြင်းလာခဲ့ပြီး ငယ်စဉ်က ဖခင်နှင့်အတူ တောင်တက်လေ့ရှိကြောင်း၊ ထိုအတွေ့အကြုံသည် သူ၏ စွန့်စားခန်းဇာတ်လမ်းများအတွက် စေ့ဆော်မှုဖြစ်လာခဲ့ကြောင်း သိရှိခဲ့သည်။ တင်သည် ဦးဘငြိမ်း၏ ရေးသားထားသော စာအုပ်စာရင်း (bibliography) ကိုလည်း တွေ့ခဲ့သည် -- စွန့်စားခန်းအမျိုးအစားပါ စာအုပ်ဆယ့်နှစ်အုပ်။ တင်သည် သူ၏စီမံကိန်းတွင် \"စာရေးဆရာတစ်ဦး၏ ဘဝကို လေ့လာခြင်းက ဘာကြောင့် သူတို့ ဒီဇာတ်လမ်းတွေကို ရေးတယ်ဆိုတာကို နားလည်စေတယ်။ ဦးဘငြိမ်းသည် ငယ်စဉ်ကတည်းက တောင်တွေကို ချစ်ခဲ့လို့ တောင်တွေအကြောင်းရေးခဲ့တာပါ၊ ကျွန်တော့်အဖိုးက ငှက်လေးကွက်ပျံသင်ပေးခဲ့လို့ ကျွန်တော် ငှက်လေးတွေကို ချစ်တာနဲ့ အတူတူပါပဲ\" ဟု ရေးခဲ့သည်။ ဆရာမ သန္တာသည် စာရေးဆရာတစ်ဦး၏ စေ့ဆော်မှုကို နားလည်ခြင်းက ၎င်းတို့၏စာအုပ်များကို ဖတ်ရသည်ကို ပို၍ အဓိပ္ပာယ်ရှိစေကြောင်း အတန်းသားများကို ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Which author did Tin choose to research?",
+            questionMy: "တင်သည် ဘယ်စာရေးဆရာကို လေ့လာရန် ရွေးချယ်ခဲ့သနည်း။",
+            optionsEn: ["U Ba Nyein", "Ms. Thandar", "Moe Moe", "Nay Chi"],
+            optionsMy: ["U Ba Nyein", "Ms. Thandar", "Moe Moe", "Nay Chi"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What kind of stories did U Ba Nyein write?",
+            questionMy: "ဦးဘငြိမ်းသည် ဘယ်လိုဇာတ်လမ်းများ ရေးသားခဲ့သနည်း။",
+            optionsEn: [
+              "Adventure stories set in the hills of Myanmar",
+              "Poems about the sea",
+              "Cookbooks",
+              "Science textbooks",
+            ],
+            optionsMy: [
+              "Adventure stories set in the hills of Myanmar",
+              "Poems about the sea",
+              "Cookbooks",
+              "Science textbooks",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the inspiration for U Ba Nyein's stories, according to the passage?",
+            questionMy: "စာပိုဒ်အရ ဦးဘငြိမ်း၏ ဇာတ်လမ်းများအတွက် စေ့ဆော်မှုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Hiking with his father in the mountains as a child",
+              "Living near the sea",
+              "Reading many dictionaries",
+              "Attending Nova School",
+            ],
+            optionsMy: [
+              "Hiking with his father in the mountains as a child",
+              "Living near the sea",
+              "Reading many dictionaries",
+              "Attending Nova School",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many books were in U Ba Nyein's bibliography?",
+            questionMy: "ဦးဘငြိမ်း၏ စာအုပ်စာရင်းတွင် စာအုပ်ဘယ်နှစ်အုပ် ပါဝင်ခဲ့သနည်း။",
+            optionsEn: ["Twelve", "Five", "Twenty", "Two"],
+            optionsMy: ["Twelve", "Five", "Twenty", "Two"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Ms. Thandar say about understanding an author's inspiration?",
+            questionMy: "ဆရာမ သန္တာသည် စာရေးဆရာ၏ စေ့ဆော်မှုကို နားလည်ခြင်းနှင့်ပတ်သက်၍ ဘာပြောခဲ့သနည်း။",
+            optionsEn: [
+              "It can make reading their books even more meaningful",
+              "It is not useful at all",
+              "It only matters for teachers",
+              "It replaces reading the book",
+            ],
+            optionsMy: [
+              "It can make reading their books even more meaningful",
+              "It is not useful at all",
+              "It only matters for teachers",
+              "It replaces reading the book",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w34-d4",
+      dayNumber: 4,
+      titleEn: "Sort: Life or Books",
+      titleMy: "ဘဝ (သို့) စာအုပ်များ ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["About the Author's Life", "About the Author's Books"],
+        bucketsMy: ["စာရေးဆရာ၏ ဘဝအကြောင်း", "စာရေးဆရာ၏ စာအုပ်များအကြောင်း"],
+        items: [
+          SortingItem(
+            id: "y4eng-w34-sort-1",
+            labelEn: "Grew up near the mountains",
+            labelMy: "Grew up near the mountains",
+            correctBucketEn: "About the Author's Life",
+            correctBucketMy: "စာရေးဆရာ၏ ဘဝအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-2",
+            labelEn: "Went hiking with his father as a child",
+            labelMy: "Went hiking with his father as a child",
+            correctBucketEn: "About the Author's Life",
+            correctBucketMy: "စာရေးဆရာ၏ ဘဝအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-3",
+            labelEn: "Wrote twelve books",
+            labelMy: "Wrote twelve books",
+            correctBucketEn: "About the Author's Books",
+            correctBucketMy: "စာရေးဆရာ၏ စာအုပ်များအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-4",
+            labelEn: "All books are in the adventure genre",
+            labelMy: "All books are in the adventure genre",
+            correctBucketEn: "About the Author's Books",
+            correctBucketMy: "စာရေးဆရာ၏ စာအုပ်များအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-5",
+            labelEn: "Loved the mountains since childhood",
+            labelMy: "Loved the mountains since childhood",
+            correctBucketEn: "About the Author's Life",
+            correctBucketMy: "စာရေးဆရာ၏ ဘဝအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-6",
+            labelEn: "Stories are set in the hills of Myanmar",
+            labelMy: "Stories are set in the hills of Myanmar",
+            correctBucketEn: "About the Author's Books",
+            correctBucketMy: "စာရေးဆရာ၏ စာအုပ်များအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-7",
+            labelEn: "His bibliography lists all his works",
+            labelMy: "His bibliography lists all his works",
+            correctBucketEn: "About the Author's Books",
+            correctBucketMy: "စာရေးဆရာ၏ စာအုပ်များအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-8",
+            labelEn: "His inspiration came from real hiking trips",
+            labelMy: "His inspiration came from real hiking trips",
+            correctBucketEn: "About the Author's Life",
+            correctBucketMy: "စာရေးဆရာ၏ ဘဝအကြောင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w34-sort-9",
+            labelEn: "The books belong to the adventure genre",
+            labelMy: "The books belong to the adventure genre",
+            correctBucketEn: "About the Author's Books",
+            correctBucketMy: "စာရေးဆရာ၏ စာအုပ်များအကြောင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w34-d5",
+      dayNumber: 5,
+      titleEn: "Author Studies Recap",
+      titleMy: "စာရေးဆရာလေ့လာမှု ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An author is the person who...",
+          questionMy: "စာရေးဆရာဆိုသည်မှာ ဘာလုပ်သောသူကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "writes a book",
+            "illustrates only the cover",
+            "prints the book",
+            "sells the book in a shop",
+          ],
+          optionsMy: [
+            "writes a book",
+            "illustrates only the cover",
+            "prints the book",
+            "sells the book in a shop",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A short account of an author's life is called a...",
+          questionMy: "စာရေးဆရာတစ်ဦး၏ ဘဝအကြောင်း တိုတိုရေးထားသည့်စာကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["biography", "dictionary", "glossary", "index"],
+          optionsMy: ["biography", "dictionary", "glossary", "index"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Learning where an author's ideas came from is studying their...",
+          questionMy: "စာရေးဆရာတစ်ဦး၏ အကြံအစည်များ ဘယ်ကလာသည်ကို လေ့လာခြင်းသည် သူ၏ ဘာကို လေ့လာခြင်းဖြစ်သနည်း။",
+          optionsEn: ["inspiration", "price", "font", "page count"],
+          optionsMy: ["inspiration", "price", "font", "page count"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A list of all the books an author has written is called their...",
+          questionMy: "စာရေးဆရာတစ်ဦး ရေးသားခဲ့သမျှ စာအုပ်များစာရင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "bibliography",
+            "biography",
+            "autobiography",
+            "dictionary",
+          ],
+          optionsMy: [
+            "bibliography",
+            "biography",
+            "autobiography",
+            "dictionary",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which is a good research question for an author study?",
+          questionMy: "စာရေးဆရာလေ့လာမှုအတွက် ကောင်းသော သုတေသနမေးခွန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "\"What inspired this author to write this story?\"",
+            "\"What color is the book cover?\"",
+            "\"How many pages does the book have?\"",
+            "\"What font is used?\"",
+          ],
+          optionsMy: [
+            "\"What inspired this author to write this story?\"",
+            "\"What color is the book cover?\"",
+            "\"How many pages does the book have?\"",
+            "\"What font is used?\"",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 9, Week 35: "Storytelling Showcase"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek35 = CourseWeekDef(
+  id: "course-year4-english-w35",
+  weekNumber: 35,
+  titleEn: "Storytelling Showcase",
+  titleMy: "ပုံပြင်ပြောပြမှု ပြပွဲ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w35-d1",
+      dayNumber: 1,
+      titleEn: "Voice, Eyes, and Pacing",
+      titleMy: "အသံ၊ မျက်လုံးနှင့် အရှိန်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Changing your voice to sound excited, scared, or calm while telling a story is called using...",
+          questionMy: "ဇာတ်လမ်းပြောပြနေစဉ် စိတ်လှုပ်ရှား၊ ကြောက်ရွံ့ (သို့) တည်ငြိမ်စွာ အသံထွက်အောင် ပြောင်းလဲခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["expression", "punctuation", "a bibliography", "a genre"],
+          optionsMy: ["expression", "punctuation", "a bibliography", "a genre"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking at your audience while telling a story is called making...",
+          questionMy: "ဇာတ်လမ်းပြောပြနေစဉ် ပရိသတ်ကို ကြည့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "eye contact",
+            "a recommendation",
+            "a prediction",
+            "an inference",
+          ],
+          optionsMy: [
+            "eye contact",
+            "a recommendation",
+            "a prediction",
+            "an inference",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Speaking neither too fast nor too slow so listeners can follow the story is called good...",
+          questionMy: "နားထောင်သူများ လိုက်လျောနိုင်အောင် အလွန်မြန်လွန်း (သို့) နှေးလွန်းခြင်းမရှိဘဲ ပြောခြင်းကို ကောင်းသော ဘာဟု ခေါ်သနည်း။",
+          optionsEn: ["pacing", "rhyming", "scanning", "sorting"],
+          optionsMy: ["pacing", "rhyming", "scanning", "sorting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Practicing a story many times before performing it is called...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်ကို မတင်ပြမီ အကြိမ်ကြိမ် လေ့ကျင့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rehearsing", "skimming", "predicting", "reviewing"],
+          optionsMy: ["rehearsing", "skimming", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using different voices for different characters helps listeners...",
+          questionMy: "ဇာတ်ကောင်တစ်ခုစီအတွက် အသံအမျိုးမျိုးသုံးခြင်းသည် နားထောင်သူများကို ဘာအတွက် ကူညီပေးသနည်း။",
+          optionsEn: [
+            "tell the characters apart",
+            "get confused",
+            "fall asleep",
+            "forget the plot",
+          ],
+          optionsMy: [
+            "tell the characters apart",
+            "get confused",
+            "fall asleep",
+            "forget the plot",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A storyteller who speaks too quietly should...",
+          questionMy: "အသံနည်းနည်းသာ ထွက်သော ဇာတ်လမ်းပြောသူသည် ဘာလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "raise their voice so everyone can hear",
+            "close the book",
+            "stop the story",
+            "whisper more",
+          ],
+          optionsMy: [
+            "raise their voice so everyone can hear",
+            "close the book",
+            "stop the story",
+            "whisper more",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a good storytelling tip?",
+          questionMy: "ဒါတွေထဲက ကောင်းသော ဇာတ်လမ်းပြောပြခြင်း အကြံပြုချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Use gestures and facial expressions to show feelings",
+            "Read in a flat, quiet monotone",
+            "Look only at the floor",
+            "Speak as fast as possible",
+          ],
+          optionsMy: [
+            "Use gestures and facial expressions to show feelings",
+            "Read in a flat, quiet monotone",
+            "Look only at the floor",
+            "Speak as fast as possible",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is rehearsing important before a storytelling showcase?",
+          questionMy: "ပုံပြင်ပြောပြမှုပြပွဲမတိုင်မီ လေ့ကျင့်ခြင်းသည် အဘယ့်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "It helps you feel confident and remember the story well",
+            "It makes the story shorter",
+            "It removes the need for expression",
+            "It is not important at all",
+          ],
+          optionsMy: [
+            "It helps you feel confident and remember the story well",
+            "It makes the story shorter",
+            "It removes the need for expression",
+            "It is not important at all",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match the Storytelling Skill",
+      titleMy: "ဇာတ်လမ်းပြောပြခြင်း ကျွမ်းကျင်မှုကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w35-dm-1",
+          termEn: "Expression",
+          termMy: "Expression",
+          matchEn: "Using your voice to show feelings like excitement or fear",
+          matchMy: "စိတ်လှုပ်ရှားမှု (သို့) ကြောက်ရွံ့မှုကဲ့သို့ ခံစားချက်များကို ပြသရန် အသံကို အသုံးပြုခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-2",
+          termEn: "Eye Contact",
+          termMy: "Eye Contact",
+          matchEn: "Looking at your audience while speaking",
+          matchMy: "ပြောနေစဉ် ပရိသတ်ကို ကြည့်ခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-3",
+          termEn: "Pacing",
+          termMy: "Pacing",
+          matchEn: "Speaking at a speed that is easy to follow",
+          matchMy: "လိုက်လျောရလွယ်ကူသော အမြန်နှုန်းဖြင့် ပြောခြင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-4",
+          termEn: "Rehearsing",
+          termMy: "Rehearsing",
+          matchEn: "Practicing a story before performing it",
+          matchMy: "မတင်ပြမီ ဇာတ်လမ်းကို လေ့ကျင့်ခြင်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-5",
+          termEn: "Gestures",
+          termMy: "Gestures",
+          matchEn: "Hand and body movements that add meaning to a story",
+          matchMy: "ဇာတ်လမ်းကို အဓိပ္ပာယ်ထပ်ဆင့်ပေးသော လက်နှင့်ကိုယ်ခန္ဓာ လှုပ်ရှားမှုများ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-6",
+          termEn: "Volume",
+          termMy: "Volume",
+          matchEn: "How loud or soft your voice is",
+          matchMy: "အသံ ကျယ်လောင် (သို့) နူးညံ့မှု",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-7",
+          termEn: "Character Voice",
+          termMy: "Character Voice",
+          matchEn: "A different voice used for each character",
+          matchMy: "ဇာတ်ကောင်တစ်ခုစီအတွက် သီးခြားအသံ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w35-dm-8",
+          termEn: "Confidence",
+          termMy: "Confidence",
+          matchEn: "Feeling sure of yourself while performing",
+          matchMy: "တင်ပြနေစဉ် မိမိကိုယ်ကို ယုံကြည်မှုရှိခြင်း",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w35-d3",
+      dayNumber: 3,
+      titleEn: "Nay Chi Gets Ready for the Showcase",
+      titleMy: "ပြပွဲအတွက် ပြင်ဆင်နေသော နေချည်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi Gets Ready for the Showcase",
+        titleMy: "ပြပွဲအတွက် ပြင်ဆင်နေသော နေချည်",
+        passageEn:
+            "Nay Chi was chosen to tell a story at the Founders' Day Book Festival Storytelling Showcase. At first, she read her story in a flat, quiet voice, and Ms. Thandar gently said, \"I can't quite feel the excitement in the story yet.\" Nay Chi practiced again, this time raising her voice at the exciting parts and lowering it during the calm moments. She also made eye contact with her friends instead of staring at her paper, and she used her hands to show the size of the giant fish in her story. After rehearsing five times, Nay Chi felt confident. On the day of the showcase, her voice, expression, and gestures brought the story to life, and the whole audience clapped loudly at the end. Tin told her, \"You didn't just tell the story -- you made us feel like we were really there!\"",
+        passageMy:
+            "နေချည်သည် ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော် ပုံပြင်ပြောပြမှုပြပွဲတွင် ဇာတ်လမ်းတစ်ပုဒ် ပြောပြရန် ရွေးချယ်ခံခဲ့ရသည်။ ပထမတွင် သူသည် ဇာတ်လမ်းကို အသံနှစ်ပြီး တိတ်ဆိတ်စွာ ဖတ်ခဲ့ပြီး ဆရာမ သန္တာက ညင်သာစွာ \"ဇာတ်လမ်းရဲ့ စိတ်လှုပ်ရှားစရာကို ကျွန်မတော့ မခံစားရသေးဘူး\" ဟု ပြောခဲ့သည်။ နေချည်သည် ထပ်မံလေ့ကျင့်ခဲ့ပြီး ဤအကြိမ်တွင် စိတ်လှုပ်ရှားဖွယ်အပိုင်းများတွင် အသံကို မြှင့်တင်ကာ တည်ငြိမ်သောအခိုက်အတန့်များတွင် အသံကို နှိမ့်ချခဲ့သည်။ သူသည် စက္ကူပေါ်တွင် စိုက်ကြည့်နေမည့်အစား သူငယ်ချင်းများကို မျက်လုံးချင်းဆုံစေခဲ့ပြီး ဇာတ်လမ်းထဲက ငါးကြီး၏ အရွယ်အစားကို ပြသရန် လက်များကို အသုံးပြုခဲ့သည်။ ငါးကြိမ်လေ့ကျင့်ပြီးနောက် နေချည်သည် ယုံကြည်မှုရှိလာခဲ့သည်။ ပြပွဲနေ့တွင် သူ၏ အသံ၊ ခံစားချက်ဖော်ပြမှုနှင့် လက်ဟန်ခြေဟန်တို့သည် ဇာတ်လမ်းကို အသက်ဝင်စေခဲ့ပြီး ပရိသတ်တစ်ခုလုံးသည် အဆုံးတွင် ကျယ်လောင်စွာ လက်ခုပ်တီးခဲ့ကြသည်။ တင်က သူ့ကို \"မင်း ဇာတ်လမ်းကို ရိုးရိုးရှင်းရှင်းပြောပြရုံမက ငါတို့ကို တကယ်ရောက်နေသလို ခံစားစေခဲ့တာ!\" ဟု ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Where was Nay Chi chosen to tell a story?",
+            questionMy: "နေချည်သည် ဘယ်နေရာတွင် ဇာတ်လမ်းပြောပြရန် ရွေးချယ်ခံခဲ့ရသနည်း။",
+            optionsEn: [
+              "The Founders' Day Book Festival Storytelling Showcase",
+              "The Nova School Grammar Games",
+              "The Reading Challenge",
+              "The garden",
+            ],
+            optionsMy: [
+              "The Founders' Day Book Festival Storytelling Showcase",
+              "The Nova School Grammar Games",
+              "The Reading Challenge",
+              "The garden",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Ms. Thandar say about Nay Chi's first attempt?",
+            questionMy: "ဆရာမ သန္တာသည် နေချည်၏ ပထမကြိမ်ကြိုးစားမှုအကြောင်း ဘာပြောခဲ့သနည်း။",
+            optionsEn: [
+              "She couldn't quite feel the excitement in the story yet",
+              "It was perfect",
+              "It was too loud",
+              "It was too fast",
+            ],
+            optionsMy: [
+              "She couldn't quite feel the excitement in the story yet",
+              "It was perfect",
+              "It was too loud",
+              "It was too fast",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi do differently the second time?",
+            questionMy: "ဒုတိယအကြိမ်တွင် နေချည် ဘာကို ကွဲပြားစွာ လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Raised her voice at exciting parts and made eye contact",
+              "Read even more quietly",
+              "Closed her eyes",
+              "Read faster than before",
+            ],
+            optionsMy: [
+              "Raised her voice at exciting parts and made eye contact",
+              "Read even more quietly",
+              "Closed her eyes",
+              "Read faster than before",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi use her hands for?",
+            questionMy: "နေချည်သည် သူမ၏ လက်များကို ဘာအတွက် သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "To show the size of the giant fish in her story",
+              "To cover her face",
+              "To hold the microphone",
+              "To point at the door",
+            ],
+            optionsMy: [
+              "To show the size of the giant fish in her story",
+              "To cover her face",
+              "To hold the microphone",
+              "To point at the door",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Tin say to Nay Chi after her performance?",
+            questionMy: "တင်သည် နေချည်၏ တင်ဆက်မှုပြီးနောက် ဘာပြောခဲ့သနည်း။",
+            optionsEn: [
+              "That she made the audience feel like they were really there",
+              "That she read too quietly",
+              "That she should try again",
+              "That the story was too short",
+            ],
+            optionsMy: [
+              "That she made the audience feel like they were really there",
+              "That she read too quietly",
+              "That she should try again",
+              "That the story was too short",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w35-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Showcase Tips",
+      titleMy: "ပြပွဲအကြံပြုချက်များကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Voice", "Body Language", "Preparation"],
+        bucketsMy: ["အသံ", "ကိုယ်ခန္ဓာဘာသာစကား", "ပြင်ဆင်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "y4eng-w35-sort-1",
+            labelEn: "Raising your voice at exciting parts",
+            labelMy: "Raising your voice at exciting parts",
+            correctBucketEn: "Voice",
+            correctBucketMy: "အသံ",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-2",
+            labelEn: "Speaking clearly, not too fast or slow",
+            labelMy: "Speaking clearly, not too fast or slow",
+            correctBucketEn: "Voice",
+            correctBucketMy: "အသံ",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-3",
+            labelEn: "Making eye contact with the audience",
+            labelMy: "Making eye contact with the audience",
+            correctBucketEn: "Body Language",
+            correctBucketMy: "ကိုယ်ခန္ဓာဘာသာစကား",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-4",
+            labelEn: "Using hand gestures to show size or action",
+            labelMy: "Using hand gestures to show size or action",
+            correctBucketEn: "Body Language",
+            correctBucketMy: "ကိုယ်ခန္ဓာဘာသာစကား",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-5",
+            labelEn: "Rehearsing the story many times",
+            labelMy: "Rehearsing the story many times",
+            correctBucketEn: "Preparation",
+            correctBucketMy: "ပြင်ဆင်ခြင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-6",
+            labelEn: "Practicing until you feel confident",
+            labelMy: "Practicing until you feel confident",
+            correctBucketEn: "Preparation",
+            correctBucketMy: "ပြင်ဆင်ခြင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-7",
+            labelEn: "Using different voices for different characters",
+            labelMy: "Using different voices for different characters",
+            correctBucketEn: "Voice",
+            correctBucketMy: "အသံ",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-8",
+            labelEn: "Smiling and using facial expressions",
+            labelMy: "Smiling and using facial expressions",
+            correctBucketEn: "Body Language",
+            correctBucketMy: "ကိုယ်ခန္ဓာဘာသာစကား",
+          ),
+          SortingItem(
+            id: "y4eng-w35-sort-9",
+            labelEn: "Reading through the story before the showcase",
+            labelMy: "Reading through the story before the showcase",
+            correctBucketEn: "Preparation",
+            correctBucketMy: "ပြင်ဆင်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w35-d5",
+      dayNumber: 5,
+      titleEn: "Storytelling Showcase Recap",
+      titleMy: "ပုံပြင်ပြောပြမှု ပြပွဲ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Changing your voice to sound excited, scared, or calm while telling a story is called using...",
+          questionMy: "ဇာတ်လမ်းပြောပြနေစဉ် စိတ်လှုပ်ရှား၊ ကြောက်ရွံ့ (သို့) တည်ငြိမ်စွာ အသံထွက်အောင် ပြောင်းလဲခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["expression", "punctuation", "a bibliography", "a genre"],
+          optionsMy: ["expression", "punctuation", "a bibliography", "a genre"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking at your audience while telling a story is called making...",
+          questionMy: "ဇာတ်လမ်းပြောပြနေစဉ် ပရိသတ်ကို ကြည့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: [
+            "eye contact",
+            "a recommendation",
+            "a prediction",
+            "an inference",
+          ],
+          optionsMy: [
+            "eye contact",
+            "a recommendation",
+            "a prediction",
+            "an inference",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Speaking neither too fast nor too slow so listeners can follow the story is called good...",
+          questionMy: "နားထောင်သူများ လိုက်လျောနိုင်အောင် အလွန်မြန်လွန်း (သို့) နှေးလွန်းခြင်းမရှိဘဲ ပြောခြင်းကို ကောင်းသော ဘာဟု ခေါ်သနည်း။",
+          optionsEn: ["pacing", "rhyming", "scanning", "sorting"],
+          optionsMy: ["pacing", "rhyming", "scanning", "sorting"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Practicing a story many times before performing it is called...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်ကို မတင်ပြမီ အကြိမ်ကြိမ် လေ့ကျင့်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rehearsing", "skimming", "predicting", "reviewing"],
+          optionsMy: ["rehearsing", "skimming", "predicting", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using different voices for different characters helps listeners...",
+          questionMy: "ဇာတ်ကောင်တစ်ခုစီအတွက် အသံအမျိုးမျိုးသုံးခြင်းသည် နားထောင်သူများကို ဘာအတွက် ကူညီပေးသနည်း။",
+          optionsEn: [
+            "tell the characters apart",
+            "get confused",
+            "fall asleep",
+            "forget the plot",
+          ],
+          optionsMy: [
+            "tell the characters apart",
+            "get confused",
+            "fall asleep",
+            "forget the plot",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 9, Week 36 (Capstone): "Year 4 English Capstone"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek36 = CourseWeekDef(
+  id: "course-year4-english-w36",
+  weekNumber: 36,
+  titleEn: "The Founders' Day Book Festival",
+  titleMy: "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w36-d1",
+      dayNumber: 1,
+      titleEn: "A Year of English Skills",
+      titleMy: "အင်္ဂလိပ်စာ ကျွမ်းကျင်မှုများ တစ်နှစ်တာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nouns, verbs, and adjectives are examples of...",
+          questionMy: "နာမ်၊ ကြိယာနှင့် နာမဝိသေသနတို့သည် ဘာ၏ ဥပမာများဖြစ်သနည်း။",
+          optionsEn: ["word jobs", "conjunctions", "tenses", "genres"],
+          optionsMy: ["word jobs", "conjunctions", "tenses", "genres"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A word that means the same as another word is called a...",
+          questionMy: "အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["synonym", "antonym", "pronoun", "conjunction"],
+          optionsMy: ["synonym", "antonym", "pronoun", "conjunction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Characters, setting, and plot are all examples of...",
+          questionMy: "ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဇာတ်ကြောင်းတို့သည် ဘာ၏ ဥပမာများဖြစ်သနည်း။",
+          optionsEn: [
+            "story elements",
+            "grammar rules",
+            "sorting buckets",
+            "poetry devices",
+          ],
+          optionsMy: [
+            "story elements",
+            "grammar rules",
+            "sorting buckets",
+            "poetry devices",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reading quickly to find one exact detail is called...",
+          questionMy: "တိကျသော အသေးစိတ်တစ်ခုကို ရှာဖွေရန် လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "predicting", "rhyming", "reviewing"],
+          optionsMy: ["scanning", "predicting", "rhyming", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rhyming words", "conjunctions", "pronouns", "details"],
+          optionsMy: ["rhyming words", "conjunctions", "pronouns", "details"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Headings, glossaries, and indexes are features of...",
+          questionMy: "ခေါင်းစဉ်များ၊ ဝေါဟာရအဘိဓာန်နှင့် အညွှန်းများသည် ဘာ၏ လက္ခဏာများဖြစ်သနည်း။",
+          optionsEn: ["non-fiction texts", "poems", "letters", "tenses"],
+          optionsMy: ["non-fiction texts", "poems", "letters", "tenses"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Using emotive language to convince someone is part of...",
+          questionMy: "တစ်စုံတစ်ဦးကို ယုံကြည်စေရန် စိတ်လှုပ်ရှားဖွယ် ဘာသာစကားသုံးခြင်းသည် ဘာ၏ အစိတ်အပိုင်းဖြစ်သနည်း။",
+          optionsEn: ["persuasive writing", "grammar", "sorting", "scanning"],
+          optionsMy: ["persuasive writing", "grammar", "sorting", "scanning"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A book review usually includes an opinion, a reason, and a...",
+          questionMy: "စာအုပ်သုံးသပ်ချက်တစ်ခုတွင် ပုံမှန်အားဖြင့် ထင်မြင်ချက်၊ အကြောင်းရင်းနှင့် ဘာပါဝင်သနည်း။",
+          optionsEn: ["recommendation", "bibliography", "genre", "rhyme"],
+          optionsMy: ["recommendation", "bibliography", "genre", "rhyme"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match the Skill Across the Year",
+      titleMy: "တစ်နှစ်တာလုံးရှိ ကျွမ်းကျင်မှုကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w36-dm-1",
+          termEn: "Simile",
+          termMy: "Simile",
+          matchEn: "Compares two things using like or as (Poetry)",
+          matchMy: "like (သို့) as သုံး၍ အရာနှစ်ခုကို နှိုင်းယှဉ်သည် (ကဗျာ)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-2",
+          termEn: "Main Idea",
+          termMy: "Main Idea",
+          matchEn: "What a paragraph is mostly about (Reading)",
+          matchMy: "စာပိုဒ်တစ်ပိုဒ် အဓိကအားဖြင့် ဘာအကြောင်းလဲ (စာဖတ်ခြင်း)",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-3",
+          termEn: "Conjunction",
+          termMy: "Conjunction",
+          matchEn: "A word that joins ideas together (Grammar)",
+          matchMy: "အယူအဆများကို ချိတ်ဆက်ပေးသော စကားလုံး (သဒ္ဒါ)",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-4",
+          termEn: "Persuasion",
+          termMy: "Persuasion",
+          matchEn: "Using words to convince someone to agree (Writing)",
+          matchMy: "တစ်စုံတစ်ဦးကို သဘောတူစေရန် စကားလုံးသုံးခြင်း (အရေးအသား)",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-5",
+          termEn: "Setting",
+          termMy: "Setting",
+          matchEn: "The time and place a story happens (Story Elements)",
+          matchMy: "ဇာတ်လမ်းတစ်ခု ဖြစ်ပျက်သည့် အချိန်နှင့်နေရာ (ဇာတ်လမ်းအစိတ်အပိုင်းများ)",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-6",
+          termEn: "Bibliography",
+          termMy: "Bibliography",
+          matchEn: "A list of an author's books (Author Studies)",
+          matchMy: "စာရေးဆရာတစ်ဦး၏ စာအုပ်များစာရင်း (စာရေးဆရာလေ့လာမှု)",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-7",
+          termEn: "Rhythm",
+          termMy: "Rhythm",
+          matchEn: "The pattern of beats in a poem (Poetry)",
+          matchMy: "ကဗျာတစ်ပုဒ်၏ ရိုက်ချက်ပုံစံ (ကဗျာ)",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w36-dm-8",
+          termEn: "Inference",
+          termMy: "Inference",
+          matchEn: "A conclusion made from clues and knowledge (Reading)",
+          matchMy: "အချက်များနှင့် အသိပညာမှ ချမှတ်သော ကောက်ချက် (စာဖတ်ခြင်း)",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w36-d3",
+      dayNumber: 3,
+      titleEn: "The Founders' Day Book Festival",
+      titleMy: "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Founders' Day Book Festival",
+        titleMy: "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်",
+        passageEn:
+            "The whole school gathered for the Founders' Day Book Festival, the biggest celebration of the year. Moe Moe read her five-star book review aloud to a crowd, explaining her opinion and reasons so clearly that three friends asked to borrow the book immediately. Tin presented his author study poster about U Ba Nyein, pointing out how the author's love of mountains inspired every adventure story he wrote. Nay Chi performed her rehearsed story with such expression, eye contact, and confident gestures that the audience gasped at the exciting parts and laughed at the funny ones. Ms. Thandar watched proudly from the back of the hall. She thought about everything the students had learned all year -- nouns and sentences, synonyms and compound words, story elements and descriptive writing, reading strategies and inferences, grammar and conjunctions, rhyme and simile, non-fiction features, and persuasive opinions. At the closing ceremony, she told the whole school, \"A truly great reader and writer doesn't just know one skill -- they bring reading, grammar, and storytelling together to share ideas that move other people.\" The students clapped, proud of everything they had built across a whole year of English.",
+        passageMy:
+            "ကျောင်းတစ်ကျောင်းလုံးသည် နှစ်ချုပ်ပွဲတော်အကြီးဆုံးဖြစ်သော ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်အတွက် စုစည်းခဲ့ကြသည်။ မိုးမိုးသည် သူမ၏ ငါးကြယ်ရအိပ်စာအုပ်သုံးသပ်ချက်ကို ပရိသတ်ရှေ့တွင် ဖတ်ပြခဲ့ပြီး၊ သူမ၏ ထင်မြင်ချက်နှင့် အကြောင်းရင်းများကို ရှင်းလင်းစွာ ရှင်းပြခဲ့သဖြင့် သူငယ်ချင်းသုံးဦးက ထိုစာအုပ်ကို ချက်ချင်း ငှားချင်ကြသည်။ တင်သည် ဦးဘငြိမ်းအကြောင်း သူ၏ စာရေးဆရာလေ့လာမှုပိုစတာကို တင်ပြခဲ့ပြီး၊ စာရေးဆရာ၏ တောင်များအား ချစ်မြတ်နိုးမှုသည် သူရေးသားခဲ့သမျှ စွန့်စားခန်းဇာတ်လမ်းတိုင်းအတွက် စေ့ဆော်မှုဖြစ်ခဲ့ပုံကို ညွှန်ပြခဲ့သည်။ နေချည်သည် သူ၏ လေ့ကျင့်ထားသော ဇာတ်လမ်းကို ခံစားချက်ဖော်ပြမှု၊ မျက်လုံးချင်းဆုံမှုနှင့် ယုံကြည်မှုရှိသော လက်ဟန်ခြေဟန်များဖြင့် ပြသခဲ့ရာ ပရိသတ်သည် စိတ်လှုပ်ရှားဖွယ်အပိုင်းများတွင် အံ့သြသံထွက်ကာ ရယ်စရာအပိုင်းများတွင် ရယ်မောခဲ့ကြသည်။ ဆရာမ သန္တာသည် ခန်းမနောက်ဖေးမှ ဂုဏ်ယူစွာ ကြည့်ရှုနေခဲ့သည်။ သူသည် ကျောင်းသားများ တစ်နှစ်လုံး သင်ယူခဲ့သမျှများကို တွေးမိသည် -- နာမ်နှင့်ဝါကျများ၊ အဓိပ္ပာယ်တူစကားလုံးနှင့် ပေါင်းစပ်စကားလုံးများ၊ ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဖော်ပြရေးသားခြင်း၊ စာဖတ်နည်းဗျူဟာများနှင့် ကောက်ချက်ချခြင်းများ၊ သဒ္ဒါနှင့် စကားဆက်များ၊ ကာရန်နှင့် ဥပမာနှိုင်းယှဉ်ချက်များ၊ သတင်းအချက်အလက်ပေးစာပေ လက္ခဏာများနှင့် စည်းရုံးသွေးဆောင်သည့် ထင်မြင်ချက်များ။ အဆုံးသတ်အခမ်းအနားတွင် သူသည် ကျောင်းသားအားလုံးကို \"တကယ့် ကောင်းမွန်သော စာဖတ်သူနှင့် စာရေးသူတစ်ဦးသည် ကျွမ်းကျင်မှုတစ်ခုတည်းကိုသာ မသိပါ -- သူတို့သည် စာဖတ်ခြင်း၊ သဒ္ဒါနှင့် ဇာတ်လမ်းပြောပြခြင်းတို့ကို ပေါင်းစပ်ကာ အခြားသူများ၏ စိတ်ကို လှုပ်ရှားစေမည့် အယူအဆများကို မျှဝေကြသည်\" ဟု ပြောခဲ့သည်။ ကျောင်းသားများသည် တစ်နှစ်တာလုံးတွင် တည်ဆောက်ခဲ့သမျှအတွက် ဂုဏ်ယူစွာ လက်ခုပ်တီးခဲ့ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What event did the whole school gather for?",
+            questionMy: "ကျောင်းတစ်ကျောင်းလုံးသည် ဘယ်ပွဲတော်အတွက် စုစည်းခဲ့ကြသနည်း။",
+            optionsEn: [
+              "The Founders' Day Book Festival",
+              "The Nova School Grammar Games",
+              "The Reading Challenge",
+              "A sports day",
+            ],
+            optionsMy: [
+              "The Founders' Day Book Festival",
+              "The Nova School Grammar Games",
+              "The Reading Challenge",
+              "A sports day",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Moe Moe do at the festival?",
+            questionMy: "ပွဲတော်တွင် မိုးမိုး ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Read her five-star book review aloud",
+              "Perform a story",
+              "Present an author study poster",
+              "Play a sport",
+            ],
+            optionsMy: [
+              "Read her five-star book review aloud",
+              "Perform a story",
+              "Present an author study poster",
+              "Play a sport",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Tin present?",
+            questionMy: "တင် ဘာကို တင်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "An author study poster about U Ba Nyein",
+              "A book review",
+              "A poem",
+              "A sorting activity",
+            ],
+            optionsMy: [
+              "An author study poster about U Ba Nyein",
+              "A book review",
+              "A poem",
+              "A sorting activity",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What made the audience gasp and laugh during Nay Chi's performance?",
+            questionMy: "နေချည်၏ တင်ဆက်မှုအတွင်း ပရိသတ်ကို အံ့သြပြီး ရယ်မောစေသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Her expression, eye contact, and confident gestures",
+              "Loud music",
+              "A magic trick",
+              "A costume",
+            ],
+            optionsMy: [
+              "Her expression, eye contact, and confident gestures",
+              "Loud music",
+              "A magic trick",
+              "A costume",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Ms. Thandar's closing words, what does a truly great reader and writer do?",
+            questionMy: "ဆရာမ သန္တာ၏ အနှစ်ချုပ်စကားအရ တကယ့်ကောင်းမွန်သော စာဖတ်သူနှင့် စာရေးသူတစ်ဦးသည် ဘာလုပ်သနည်း။",
+            optionsEn: [
+              "Bring reading, grammar, and storytelling together to share ideas that move other people",
+              "Only memorize grammar rules",
+              "Only read quietly alone",
+              "Avoid writing entirely",
+            ],
+            optionsMy: [
+              "Bring reading, grammar, and storytelling together to share ideas that move other people",
+              "Only memorize grammar rules",
+              "Only read quietly alone",
+              "Avoid writing entirely",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w36-d4",
+      dayNumber: 4,
+      titleEn: "Sort a Year of Skills",
+      titleMy: "တစ်နှစ်တာ ကျွမ်းကျင်မှုများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reading Skills", "Grammar Skills", "Writing & Speaking Skills"],
+        bucketsMy: ["စာဖတ်ကျွမ်းကျင်မှု", "သဒ္ဒါကျွမ်းကျင်မှု", "အရေးအသား & ပြောဆိုမှု ကျွမ်းကျင်မှု"],
+        items: [
+          SortingItem(
+            id: "y4eng-w36-sort-1",
+            labelEn: "Skimming and scanning",
+            labelMy: "Skimming and scanning",
+            correctBucketEn: "Reading Skills",
+            correctBucketMy: "စာဖတ်ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-2",
+            labelEn: "Making inferences",
+            labelMy: "Making inferences",
+            correctBucketEn: "Reading Skills",
+            correctBucketMy: "စာဖတ်ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-3",
+            labelEn: "Finding the main idea",
+            labelMy: "Finding the main idea",
+            correctBucketEn: "Reading Skills",
+            correctBucketMy: "စာဖတ်ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-4",
+            labelEn: "Verb tenses",
+            labelMy: "Verb tenses",
+            correctBucketEn: "Grammar Skills",
+            correctBucketMy: "သဒ္ဒါကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-5",
+            labelEn: "Pronouns",
+            labelMy: "Pronouns",
+            correctBucketEn: "Grammar Skills",
+            correctBucketMy: "သဒ္ဒါကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-6",
+            labelEn: "Conjunctions",
+            labelMy: "Conjunctions",
+            correctBucketEn: "Grammar Skills",
+            correctBucketMy: "သဒ္ဒါကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-7",
+            labelEn: "Writing a persuasive opinion",
+            labelMy: "Writing a persuasive opinion",
+            correctBucketEn: "Writing & Speaking Skills",
+            correctBucketMy: "အရေးအသား & ပြောဆိုမှု ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-8",
+            labelEn: "Performing a story with expression",
+            labelMy: "Performing a story with expression",
+            correctBucketEn: "Writing & Speaking Skills",
+            correctBucketMy: "အရေးအသား & ပြောဆိုမှု ကျွမ်းကျင်မှု",
+          ),
+          SortingItem(
+            id: "y4eng-w36-sort-9",
+            labelEn: "Writing a book review",
+            labelMy: "Writing a book review",
+            correctBucketEn: "Writing & Speaking Skills",
+            correctBucketMy: "အရေးအသား & ပြောဆိုမှု ကျွမ်းကျင်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w36-d5",
+      dayNumber: 5,
+      titleEn: "Year 4 English Capstone Recap",
+      titleMy: "Year 4 အင်္ဂလိပ်စာ အထူးနောက်ဆုံးအဆင့် ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nouns, verbs, and adjectives are examples of...",
+          questionMy: "နာမ်၊ ကြိယာနှင့် နာမဝိသေသနတို့သည် ဘာ၏ ဥပမာများဖြစ်သနည်း။",
+          optionsEn: ["word jobs", "conjunctions", "tenses", "genres"],
+          optionsMy: ["word jobs", "conjunctions", "tenses", "genres"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A word that means the same as another word is called a...",
+          questionMy: "အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူသော စကားလုံးကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["synonym", "antonym", "pronoun", "conjunction"],
+          optionsMy: ["synonym", "antonym", "pronoun", "conjunction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Characters, setting, and plot are all examples of...",
+          questionMy: "ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဇာတ်ကြောင်းတို့သည် ဘာ၏ ဥပမာများဖြစ်သနည်း။",
+          optionsEn: [
+            "story elements",
+            "grammar rules",
+            "sorting buckets",
+            "poetry devices",
+          ],
+          optionsMy: [
+            "story elements",
+            "grammar rules",
+            "sorting buckets",
+            "poetry devices",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reading quickly to find one exact detail is called...",
+          questionMy: "တိကျသော အသေးစိတ်တစ်ခုကို ရှာဖွေရန် လျင်မြန်စွာ ဖတ်ခြင်းကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["scanning", "predicting", "rhyming", "reviewing"],
+          optionsMy: ["scanning", "predicting", "rhyming", "reviewing"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Words that end with the same sound are called...",
+          questionMy: "အဆုံးသတ်အသံ တူညီသော စကားလုံးများကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["rhyming words", "conjunctions", "pronouns", "details"],
+          optionsMy: ["rhyming words", "conjunctions", "pronouns", "details"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm9 = CourseTermDef(
+  id: "course-year4-english-t9",
+  termNumber: 9,
+  titleEn: "Founders' Day Book Festival",
+  titleMy: "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်",
+  certificateTitleEn: "Founders' Day Book Festival",
+  certificateTitleMy: "ကျောင်းတည်ထောင်သူများနေ့ စာအုပ်ပွဲတော်",
+  weeks: [
+    _year4EnglishWeek33,
+    _year4EnglishWeek34,
+    _year4EnglishWeek35,
+    _year4EnglishWeek36,
   ],
 );
