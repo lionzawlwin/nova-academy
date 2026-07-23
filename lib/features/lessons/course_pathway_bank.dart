@@ -47508,6 +47508,6599 @@ const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// Secondary 1 Science -- Term 7, Week 25: "The Solar System"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek25 = CourseWeekDef(
+  id: "course-secondary1-science-w25",
+  weekNumber: 25,
+  titleEn: "The Solar System",
+  titleMy: "နေအဖွဲ့စု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w25-d1",
+      dayNumber: 1,
+      titleEn: "The Solar System and Gravity Quiz",
+      titleMy: "နေအဖွဲ့စုနှင့် ဆွဲငင်အား ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A planet moves incredibly fast through space, yet it never flies off in a straight line away from the Sun -- instead, it follows a curved path around it, year after year. Which idea from Week 3 best explains why the planet's path keeps bending instead of staying straight?",
+          questionMy:
+              "ဂြိုဟ်တစ်လုံးသည် အာကာသထဲတွင် အလွန်မြန်ဆန်စွာ ရွေ့လျားနေသော်လည်း ၎င်းသည် နေထံမှ ဖြောင့်တန်းလိုက် ပြေးထွက်သွားခြင်း လုံးဝ မရှိပါ -- ယင်းအစား ၎င်းသည် နှစ်စဉ်နှစ်တိုင်း နေကို ဝန်းရံသည့် အနားကွေးသော လမ်းကြောင်းအတိုင်းသာ လိုက်နေသည်။ ဂြိုဟ်၏ လမ်းကြောင်းသည် ဖြောင့်တန်းနေမည့်အစား အဘယ့်ကြောင့် အမြဲ ကွေးနေရသနည်းကို Week 3 မှ မည်သည့်အတွေးအခေါ်က အကောင်းဆုံး ရှင်းပြနိုင်သနည်း။",
+          optionsEn: [
+            "An unbalanced force -- the Sun's gravity -- is constantly pulling the planet toward the Sun, bending its path into a curve.",
+            "The planet has no forces acting on it at all, so it moves in a circle by default.",
+            "Empty space itself pushes the planet sideways to keep it moving in a circle.",
+            "The planet's own engine constantly steers it around the Sun.",
+          ],
+          optionsMy: [
+            "ဟန်ချက်မညီသောအား -- နေ၏ ဆွဲငင်အား -- သည် ဂြိုဟ်ကို နေဘက်သို့ အမြဲ ဆွဲငင်နေသဖြင့် ၎င်း၏လမ်းကြောင်းကို အနားကွေးအဖြစ် ကွေးစေသည်။",
+            "ဂြိုဟ်ပေါ်တွင် မည်သည့်အားမျှ လုံးဝ မလုပ်ဆောင်သဖြင့် ၎င်းသည် သဘာဝအလျောက် စက်ဝိုင်းပုံစံအတိုင်း ရွေ့လျားခြင်း ဖြစ်သည်။",
+            "လွတ်လပ်သောကွက်လပ်ကိုယ်တိုင်က ဂြိုဟ်ကို ဘေးတိုက်တွန်း၍ စက်ဝိုင်းပုံစံအတိုင်း ရွေ့လျားနေစေသည်။",
+            "ဂြိုဟ်ကိုယ်တိုင်၏ အင်ဂျင်သည် ၎င်းကို နေပတ်လည် အမြဲ ထိန်းချုပ်ပေးနေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's lesson on balanced vs. unbalanced forces -- an unbalanced force always changes an object's motion, bending a straight path into a curve.",
+            "Without any force acting on it, an object simply keeps moving in a straight line; the Sun's constant pull is exactly what bends the planet's path into an orbit instead.",
+          ],
+          hintsMy: [
+            "Week 3 ၏ ဟန်ချက်ညီသောအားနှင့် ဟန်ချက်မညီသောအား သင်ခန်းစာကို သတိရပါ -- ဟန်ချက်မညီသောအားသည် အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို အမြဲ ပြောင်းလဲစေပြီး ဖြောင့်တန်းလမ်းကြောင်းကို အနားကွေးအဖြစ် ကွေးစေသည်။",
+            "မည်သည့်အားမျှ မလုပ်ဆောင်ပါက အရာဝတ္ထုတစ်ခုသည် ဖြောင့်တန်းလိုက်သာ ဆက်လက် ရွေ့လျားနေမည်ဖြစ်သည်၊ နေ၏ အမြဲတမ်း ဆွဲငင်မှုသည်ပင် ဂြိုဟ်၏လမ်းကြောင်းကို လှည့်ပတ်လမ်းကြောင်းအဖြစ် ကွေးစေသောအရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Sun never physically touches Earth, yet it still manages to keep Earth orbiting around it. Using what Week 3 taught about different force types, how is this possible?",
+          questionMy:
+              "နေသည် ကမ္ဘာကို ရုပ်ပိုင်းဆိုင်ရာ ဘယ်တော့မှ မထိတွေ့သော်လည်း ကမ္ဘာကို ၎င်းပတ်လည် ဆက်လက် လှည့်ပတ်စေနိုင်သည်။ Week 3 က သင်ကြားပေးခဲ့သော အားအမျိုးမျိုးအကြောင်းကို အသုံးပြု၍ ၎င်းသည် မည်ကဲ့သို့ ဖြစ်နိုင်သနည်း။",
+          optionsEn: [
+            "Gravity is different from forces like friction or normal contact force -- it can pull on an object across huge distances without the two objects ever touching.",
+            "It isn't really possible -- the Sun must be secretly touching Earth somehow.",
+            "Every force always needs two surfaces touching, so gravity must actually be a type of friction.",
+            "The Sun uses sound waves travelling through space to pull Earth toward it.",
+          ],
+          optionsMy: [
+            "ဆွဲငင်အားသည် ပွတ်တိုက်အား (သို့) ပုံမှန်ထိတွေ့အားကဲ့သို့ အားများနှင့် ကွဲပြားသည် -- ၎င်းသည် အရာဝတ္ထုနှစ်ခု လုံးဝ မထိတွေ့ဘဲ ဝေးလံသောအကွာအဝေးအတွင်း ဆွဲငင်နိုင်သည်။",
+            "အမှန်တကယ် မဖြစ်နိုင်ပါ -- နေသည် တစ်နည်းနည်းဖြင့် ကမ္ဘာကို လျှို့ဝှက်စွာ ထိတွေ့နေရမည်။",
+            "အားတိုင်းသည် မျက်နှာပြင်နှစ်ခု ထိတွေ့နေရန် အမြဲ လိုအပ်သဖြင့် ဆွဲငင်အားသည် အမှန်တကယ် ပွတ်တိုက်အားအမျိုးအစားတစ်ခု ဖြစ်ရမည်။",
+            "နေသည် အာကာသကို ဖြတ်သန်းသော အသံလှိုင်းများကို အသုံးပြု၍ ကမ္ဘာကို ဆွဲငင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3 -- gravity pulls objects toward a large mass like the Earth or the Sun without any contact at all, unlike friction, upthrust or normal contact force, which all need surfaces touching.",
+            "Recall Week 11's magnetism -- two magnets can attract each other without touching, the same non-contact idea as the Sun's gravity pulling on a distant planet.",
+          ],
+          hintsMy: [
+            "Week 3 ကို သတိရပါ -- ဆွဲငင်အားသည် ကမ္ဘာ (သို့) နေကဲ့သို့ ကြီးမားသောဒြပ်ထုတစ်ခုဘက်သို့ ထိတွေ့မှု လုံးဝ မလိုဘဲ ဆွဲငင်ပေးပြီး ပွတ်တိုက်အား၊ အထက်တွန်းအား (သို့) ပုံမှန်ထိတွေ့အားတို့မှာမူ မျက်နှာပြင်ထိတွေ့မှု အမြဲ လိုအပ်သည်။",
+            "Week 11 ၏ သံလိုက်ဗေဒကို သတိရပါ -- သံလိုက်နှစ်ခုသည် မထိတွေ့ဘဲ တစ်ခုနှင့်တစ်ခု ဆွဲဆောင်နိုင်ပြီး ဝေးလံသောဂြိုဟ်တစ်လုံးကို ဆွဲငင်သော နေ၏ ဆွဲငင်အားနှင့် ထိတွေ့မှုမလိုအပ်ခြင်း အယူအဆတူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Counting outward from the Sun, the eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, in that order. A spacecraft leaves Earth and travels outward, passing Mars and then Jupiter. How many more planets could it still pass before leaving the Solar System entirely?",
+          questionMy:
+              "နေမှ အပြင်ဘက်သို့ ရေတွက်လျှင် ဂြိုဟ်ရှစ်လုံးမှာ မာကျူရီ၊ ဗီးနပ်စ်၊ ကမ္ဘာ၊ မာ့စ်၊ ဂျူပီတာ၊ ဆက်တန်း၊ ယူရေးနပ်စ်နှင့် နက်ပ်ကျွန်းတို့ ဖြစ်ကြသည်။ အာကာသယာဉ်တစ်စင်းသည် ကမ္ဘာမှ ထွက်ခွာပြီး အပြင်ဘက်သို့ ခရီးဆက်ကာ မာ့စ်ကို ဖြတ်၍ ထို့နောက် ဂျူပီတာကို ဖြတ်သွားသည်။ နေအဖွဲ့စုမှ လုံးလုံး မထွက်ခွာမီ ၎င်းသည် နောက်ထပ် မည်မျှသော ဂြိုဟ်များကို ဖြတ်နိုင်ဦးမည်နည်း။",
+          optionsEn: [
+            "Three more (Saturn, Uranus and Neptune).",
+            "Eight more planets.",
+            "None -- Jupiter is the last planet in the Solar System.",
+            "Five more planets.",
+          ],
+          optionsMy: [
+            "နောက်ထပ်သုံးလုံး (ဆက်တန်း၊ ယူရေးနပ်စ်၊ နက်ပ်ကျွန်း)။",
+            "နောက်ထပ် ဂြိုဟ်ရှစ်လုံး။",
+            "မရှိတော့ -- ဂျူပီတာသည် နေအဖွဲ့စု၏ နောက်ဆုံးဂြိုဟ် ဖြစ်သည်။",
+            "နောက်ထပ် ဂြိုဟ်ငါးလုံး။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the order of the eight planets outward from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+            "The spacecraft has already passed Mars and Jupiter -- count only the planets listed after Jupiter in that order.",
+          ],
+          hintsMy: [
+            "နေမှ အပြင်ဘက်သို့ ဂြိုဟ်ရှစ်လုံး၏ အစီအစဉ်ကို သတိရပါ - မာကျူရီ၊ ဗီးနပ်စ်၊ ကမ္ဘာ၊ မာ့စ်၊ ဂျူပီတာ၊ ဆက်တန်း၊ ယူရေးနပ်စ်၊ နက်ပ်ကျွန်း။",
+            "အာကာသယာဉ်သည် မာ့စ်နှင့် ဂျူပီတာကို ဖြတ်ပြီးသားဖြစ်သည် -- ဂျူပီတာနောက်တွင် ဖော်ပြထားသော ဂြိုဟ်များကိုသာ ရေတွက်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student wants to measure how strongly the Sun's gravity pulls on a 1 kg rock at Earth's distance from the Sun. Which unit, first introduced in Week 1 alongside the force meter, should this measurement be given in?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ကမ္ဘာမှ နေအထိ အကွာအဝေးရှိ ၁ ကီလိုဂရမ်အလေးချိန်ရှိ ကျောက်တုံးတစ်လုံးကို နေ၏ ဆွဲငင်အားက မည်မျှပြင်းထန်စွာ ဆွဲငင်ကြောင်း တိုင်းတာလိုသည်။ Week 1 တွင် နယူတန်မီတာနှင့်အတူ ပထမဆုံး မိတ်ဆက်ခဲ့သော မည်သည့်ယူနစ်ဖြင့် ဤတိုင်းတာချက်ကို ဖော်ပြသင့်သနည်း။",
+          optionsEn: ["Newtons (N)", "Metres (m)", "Kilograms (kg)", "Seconds (s)"],
+          optionsMy: ["နယူတန် (N)", "မီတာ (m)", "ကီလိုဂရမ် (kg)", "စက္ကန့် (s)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's instrument/unit pairing -- force is always measured using a force meter, in this specific unit.",
+            "Recall Week 3's lesson -- this is the very same unit used for every kind of force, including a push, a pull, friction and gravity itself.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ ကိရိယာ/ယူနစ် တွဲချိတ်မှုကို သတိရပါ -- အားကို နယူတန်မီတာဖြင့် ဤယူနစ်တည်းဖြင့် အမြဲ တိုင်းတာသည်။",
+            "Week 3 ၏ သင်ခန်းစာကို သတိရပါ -- ၎င်းသည် တွန်းအား၊ ဆွဲအား၊ ပွတ်တိုက်အားနှင့် ဆွဲငင်အားအားလုံးအတွက် အသုံးပြုသည့် ယူနစ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match the Solar System Terms",
+      titleMy: "နေအဖွဲ့စု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w25-dm-1",
+          termEn: "Sun",
+          termMy: "နေ (Sun)",
+          matchEn:
+              "The star at the centre of the Solar System, whose enormous gravity keeps every planet in orbit around it.",
+          matchMy:
+              "နေအဖွဲ့စု၏ ဗဟိုတွင်ရှိသော ကြယ်တစ်လုံးဖြစ်ပြီး ၎င်း၏ ကြီးမားသောဆွဲငင်အားက ဂြိုဟ်တိုင်းကို ၎င်းပတ်လည် ဝန်းရံလှည့်ပတ်စေထားသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w25-dm-2",
+          termEn: "Planet",
+          termMy: "ဂြိုဟ် (Planet)",
+          matchEn:
+              "A large body that orbits a star, such as the Sun, and does not produce its own light.",
+          matchMy:
+              "နေကဲ့သို့သော ကြယ်တစ်လုံးကို ဝန်းရံလှည့်ပတ်သည့် ကြီးမားသောအရာဝတ္ထုဖြစ်ပြီး ၎င်းကိုယ်တိုင် အလင်းရောင် မထုတ်လွှတ်ပါ။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w25-dm-3",
+          termEn: "Orbit",
+          termMy: "လှည့်ပတ်လမ်းကြောင်း (Orbit)",
+          matchEn:
+              "The curved path a planet follows around the Sun, caused by the Sun's constant gravitational pull.",
+          matchMy:
+              "နေ၏ အမြဲတမ်း ဆွဲငင်အားကြောင့် ဂြိုဟ်တစ်လုံးက နေကို ဝန်းရံရာတွင် လိုက်နာသော အနားကွေးလမ်းကြောင်း။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w25-dm-4",
+          termEn: "Gravity",
+          termMy: "ဆွဲငင်အား (Gravity)",
+          matchEn:
+              "A pulling force between any two objects with mass, strong enough between the Sun and a planet to hold it in orbit without any contact.",
+          matchMy:
+              "ဒြပ်ထုရှိသော အရာဝတ္ထုနှစ်ခုကြားရှိ ဆွဲငင်အားဖြစ်ပြီး နေနှင့်ဂြိုဟ်တစ်လုံးကြား ထိတွေ့မှုမရှိဘဲ ၎င်းကို လှည့်ပတ်နေစေရန် လုံလောက်အောင် ပြင်းထန်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w25-dm-5",
+          termEn: "Solar System",
+          termMy: "နေအဖွဲ့စု (Solar System)",
+          matchEn:
+              "The Sun together with everything that orbits it, including all eight planets.",
+          matchMy:
+              "နေနှင့်အတူ ဂြိုဟ်ရှစ်လုံးအပါအဝင် ၎င်းကို ဝန်းရံလှည့်ပတ်နေသမျှ အရာအားလုံး ပါဝင်သည့် စနစ်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w25-dm-6",
+          termEn: "Newton (N)",
+          termMy: "နယူတန် (N)",
+          matchEn:
+              "The unit used to measure the size of a force, including the pull of gravity, first introduced in Week 1.",
+          matchMy:
+              "ဆွဲငင်အားအပါအဝင် အားတစ်ခု၏ ပမာဏကို တိုင်းတာရန် အသုံးပြုသော ယူနစ်ဖြစ်ပြီး Week 1 တွင် ပထမဆုံး မိတ်ဆက်ခဲ့သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True of the Sun or True of a Planet?",
+      titleMy: "စီစစ်ကြမည် - နေနှင့်သက်ဆိုင်သလား၊ ဂြိုဟ်နှင့်သက်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of the Sun", "True of a Planet (such as Earth)"],
+        bucketsMy: [
+          "နေနှင့် သက်ဆိုင်သည်",
+          "ဂြိုဟ်တစ်လုံး (ဥပမာ ကမ္ဘာ) နှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w25-sort-1",
+            labelEn: "Sits at the centre of the Solar System",
+            labelMy: "နေအဖွဲ့စု၏ ဗဟိုတွင် ရှိသည်",
+            correctBucketEn: "True of the Sun",
+            correctBucketMy: "နေနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-2",
+            labelEn: "A star that produces its own light",
+            labelMy: "ကိုယ်ပိုင်အလင်းရောင် ထုတ်လွှတ်သော ကြယ်တစ်လုံး ဖြစ်သည်",
+            correctBucketEn: "True of the Sun",
+            correctBucketMy: "နေနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-3",
+            labelEn: "Held together by the pull of its own enormous gravity",
+            labelMy:
+                "ကိုယ်ပိုင် ကြီးမားသောဆွဲငင်အား၏ ဆွဲငင်မှုဖြင့် စည်းလုံးလျက်ရှိသည်",
+            correctBucketEn: "True of the Sun",
+            correctBucketMy: "နေနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-4",
+            labelEn: "Its gravity is strong enough to keep all eight planets in orbit",
+            labelMy:
+                "၎င်း၏ ဆွဲငင်အားသည် ဂြိုဟ်ရှစ်လုံးလုံးကို လှည့်ပတ်စေနိုင်လောက်အောင် ပြင်းထန်သည်",
+            correctBucketEn: "True of the Sun",
+            correctBucketMy: "နေနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-5",
+            labelEn: "Orbits the Sun rather than staying still",
+            labelMy: "ငြိမ်နေမည့်အစား နေကို ဝန်းရံလှည့်ပတ်သည်",
+            correctBucketEn: "True of a Planet (such as Earth)",
+            correctBucketMy: "ဂြိုဟ်တစ်လုံး (ဥပမာ ကမ္ဘာ) နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-6",
+            labelEn: "Does not produce its own light, only reflects sunlight",
+            labelMy:
+                "ကိုယ်ပိုင်အလင်းရောင် မထုတ်လွှတ်ဘဲ နေရောင်ကိုသာ ထင်ဟပ်ပြသည်",
+            correctBucketEn: "True of a Planet (such as Earth)",
+            correctBucketMy: "ဂြိုဟ်တစ်လုံး (ဥပမာ ကမ္ဘာ) နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-7",
+            labelEn: "Kept in a curved path by the Sun's pull, without any contact",
+            labelMy:
+                "ထိတွေ့မှု လုံးဝမရှိဘဲ နေ၏ ဆွဲငင်မှုဖြင့် အနားကွေးလမ်းကြောင်းတွင် ရှိနေစေခြင်း ခံရသည်",
+            correctBucketEn: "True of a Planet (such as Earth)",
+            correctBucketMy: "ဂြိုဟ်တစ်လုံး (ဥပမာ ကမ္ဘာ) နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w25-sort-8",
+            labelEn: "One of eight such bodies in the Solar System",
+            labelMy: "နေအဖွဲ့စုအတွင်းရှိ ထိုသို့သောအရာဝတ္ထု ရှစ်လုံးအနက် တစ်လုံး ဖြစ်သည်",
+            correctBucketEn: "True of a Planet (such as Earth)",
+            correctBucketMy: "ဂြိုဟ်တစ်လုံး (ဥပမာ ကမ္ဘာ) နှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Kyaw's Planetarium Trip",
+      titleMy: "စာဖတ်ခြင်း - ကျော်ကျော်၏ နက္ခတ်ဗေဒဌာနခရီးစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Kyaw's Planetarium Trip",
+        titleMy: "ကျော်ကျော်၏ နက္ခတ်ဗေဒဌာနခရီးစဉ်",
+        passageEn:
+            "Kyaw Kyaw's class travelled downtown for a field trip to the city planetarium. Inside the dark, domed theatre, a presenter's show filled the ceiling with the eight planets sweeping silently around a glowing model Sun -- Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, each on its own curved path.\n\nPartway through the show, the presenter paused and asked the audience a question: since every planet moves incredibly fast through space, why doesn't one simply fly off in a straight line, out past Neptune and away forever? Kyaw Kyaw thought back to Week 3 and his own bicycle ride home from school -- whenever he stopped pedalling on a flat stretch of road, friction slowly worked against his forward motion until he rolled to a stop. A force, he remembered, was what changed an object's motion. But a planet's path didn't slow down or speed up -- it just kept curving. He wondered whether some other kind of force might be responsible.\n\nThe presenter's answer was gravity. The Sun's enormous gravity, she explained, constantly pulls every planet toward it -- an unbalanced force acting sideways to a planet's motion rather than forwards or backwards, which is exactly what bends a straight path into a curve instead of simply speeding it up or slowing it down. What amazed Kyaw Kyaw most was that the Sun and each planet never touch at all across the entire pull. He thought of Week 11's magnets, which could attract each other across a gap on his desk without ever touching -- gravity, it seemed, worked the very same way, just across a much, much greater distance.\n\nNear the end of the show, the presenter mentioned that scientists measure the strength of the Sun's gravitational pull on a planet in the very same unit used for every other force -- newtons, the unit Kyaw Kyaw had first met back in Week 1 with the force meter. Walking out of the planetarium into the afternoon sun, Kyaw Kyaw looked up and smiled, certain now that the same simple idea of a force -- a push or a pull, measured in newtons -- explained both the friction that once slowed his bicycle and the invisible pull silently holding eight planets in their paths around a star 150 million kilometres away.",
+        passageMy:
+            "ကျော်ကျော်၏ အတန်းသည် မြို့လယ်ရှိ နက္ခတ်ဗေဒဌာနသို့ ကွင်းဆင်းခရီးစဉ်တစ်ခု သွားရောက်ခဲ့ကြသည်။ မှောင်မိုက်နေသော ဗိမာန်ခေါင်းလုံးထဲတွင် တင်ဆက်သူတစ်ဦး၏ ပြသမှုသည် အမိုးတစ်ခုလုံးကို ဂြိုဟ်ရှစ်လုံး တောက်ပနေသော နေနမူနာတစ်ခုကို တိတ်တဆိတ် ဝန်းရံလှည့်ပတ်နေသည့် ရုပ်ပုံများဖြင့် ပြည့်စေခဲ့သည် -- မာကျူရီ၊ ဗီးနပ်စ်၊ ကမ္ဘာ၊ မာ့စ်၊ ဂျူပီတာ၊ ဆက်တန်း၊ ယူရေးနပ်စ်နှင့် နက်ပ်ကျွန်း၊ တစ်ခုစီသည် ၎င်း၏ကိုယ်ပိုင်အနားကွေးလမ်းကြောင်းအတိုင်း သွားလျက်ရှိကြသည်။\n\nပြသမှု တစ်ဝက်ခန့်တွင် တင်ဆက်သူသည် ခေတ္တရပ်ကာ ပရိသတ်ကို မေးခွန်းတစ်ခု မေးခဲ့သည် - ဂြိုဟ်တိုင်းသည် အာကာသထဲတွင် အလွန်မြန်ဆန်စွာ ရွေ့လျားနေသောကြောင့် အဘယ့်ကြောင့် တစ်ခုမျှ နက်ပ်ကျွန်းကို ကျော်လွန်၍ ထာဝရ ဖြောင့်တန်းလိုက် ပြေးမသွားကြသနည်း။ ကျော်ကျော်သည် Week 3 နှင့် ကျောင်းမှ အိမ်ပြန်စဉ် ၎င်း၏ ကိုယ်ပိုင်စက်ဘီးစီးခရီးကို ပြန်တွေးမိခဲ့သည် -- ညီညာသောလမ်းအပိုင်းတွင် စက်ဘီးနင်းရပ်တိုင်း ပွတ်တိုက်အားသည် သူ့ရှေ့သို့ ရွေ့လျားမှုကို တဖြည်းဖြည်း ဆန့်ကျင်ကာ လှိမ့်ရပ်သွားစေခဲ့သည်။ အားဆိုသည်မှာ အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို ပြောင်းလဲစေသောအရာဖြစ်ကြောင်း သူ သတိရမိခဲ့သည်။ သို့သော် ဂြိုဟ်တစ်လုံး၏ လမ်းကြောင်းသည် နှေးကွေးမသွားခဲ့ဘဲ (သို့) မြန်ဆန်မသွားခဲ့ဘဲ -- ကွေးနေရုံသာ ဖြစ်သည်။ အခြားအားတစ်မျိုးမျိုးက တာဝန်ရှိနိုင်သလားဟု သူ တွေးတောခဲ့သည်။\n\nတင်ဆက်သူ၏ အဖြေမှာ ဆွဲငင်အားပင် ဖြစ်သည်။ နေ၏ ကြီးမားသောဆွဲငင်အားသည် ဂြိုဟ်တိုင်းကို ၎င်းဘက်သို့ အမြဲ ဆွဲငင်နေကြောင်း သူမ ရှင်းပြခဲ့သည် -- ဤသည်မှာ ဂြိုဟ်၏ ရွေ့လျားမှုကို ရှေ့ (သို့) နောက်သို့ မဟုတ်ဘဲ ဘေးတိုက် လုပ်ဆောင်နေသော ဟန်ချက်မညီသောအားတစ်ခုဖြစ်ပြီး ၎င်းသည် ဖြောင့်တန်းလမ်းကြောင်းကို မြန်ဆန်စေခြင်း (သို့) နှေးကွေးစေခြင်းအစား အနားကွေးအဖြစ်သို့ ကွေးစေသည့်အရာပင် ဖြစ်သည်။ ကျော်ကျော်ကို အံ့ဩစေဆုံးမှာ နေနှင့် ဂြိုဟ်တစ်လုံးသည် ဆွဲငင်မှုတစ်ခုလုံးအတွင်း လုံးဝ မထိတွေ့ခြင်းပင် ဖြစ်သည်။ သူသည် စားပွဲပေါ်ရှိ ကွက်လပ်တစ်ခုကို ဖြတ်၍ မထိတွေ့ဘဲ တစ်ခုနှင့်တစ်ခု ဆွဲဆောင်နိုင်သည့် Week 11 ၏ သံလိုက်များကို တွေးမိခဲ့သည် -- ဆွဲငင်အားသည်လည်း ထိုနည်းတူစွာပင် အလုပ်လုပ်ဟန်ရှိသည်၊ ပို၍ ကြီးမားသော အကွာအဝေးတစ်လျှောက်သာ ကွာခြားသည်။\n\nပြသမှု ပြီးဆုံးခါနီးတွင် တင်ဆက်သူသည် သိပ္ပံပညာရှင်များသည် ဂြိုဟ်တစ်လုံးအပေါ် နေ၏ ဆွဲငင်အားပြင်းအားကို အခြားအားတိုင်းအတွက် အသုံးပြုသည့် ယူနစ်တစ်ခုတည်းဖြင့် တိုင်းတာကြောင်း ဖော်ပြခဲ့သည် -- နယူတန်၊ ကျော်ကျော် Week 1 တွင် နယူတန်မီတာနှင့်အတူ ပထမဆုံး တွေ့ကြုံခဲ့ရသော ယူနစ်ပင် ဖြစ်သည်။ နက္ခတ်ဗေဒဌာနမှ နေ့လည်နေရောင်ထဲသို့ လမ်းလျှောက်ထွက်လာစဉ် ကျော်ကျော်သည် အပေါ်သို့ ကြည့်ကာ ပြုံးလိုက်ခဲ့သည်၊ တွန်းအား (သို့) ဆွဲအားဆိုသည့် အားတစ်ခုတည်းသော ရိုးရှင်းသောအတွေးအခေါ်တစ်ခု -- နယူတန်ဖြင့် တိုင်းတာသည် -- သူ့စက်ဘီးကို တစ်ချိန်က နှေးကွေးစေခဲ့သော ပွတ်တိုက်အားနှင့် ကီလိုမီတာ ၁၅၀ သန်းအကွာမှ ကြယ်တစ်လုံးပတ်လည် ဂြိုဟ်ရှစ်လုံး၏ လမ်းကြောင်းကို တိတ်တဆိတ် ဆွဲထားသည့် မျက်မြင်မရသောဆွဲငင်မှု နှစ်ခုစလုံးကို ရှင်းပြနိုင်ကြောင်း ယခုအခါ ယုံကြည်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Kyaw Kyaw remember from Week 3 during the planetarium show?",
+            questionMy:
+                "စာပိုဒ်အရ နက္ခတ်ဗေဒဌာနပြသမှုအတွင်း ကျော်ကျော်သည် Week 3 မှ အဘယ်အရာကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "That friction, a force, gradually slowed his bicycle to a stop when he stopped pedalling.",
+              "That the Moon orbits the Earth once every day.",
+              "That sound cannot travel through empty space.",
+              "That plants make their own food using photosynthesis.",
+            ],
+            optionsMy: [
+              "စက်ဘီးနင်းရပ်လိုက်သောအခါ ပွတ်တိုက်အားဆိုသည့်အားက သူ့စက်ဘီးကို တဖြည်းဖြည်း ရပ်သွားစေခဲ့ကြောင်း။",
+              "လသည် ကမ္ဘာကို နေ့စဉ် တစ်ကြိမ် ဝန်းရံလှည့်ပတ်ကြောင်း။",
+              "အသံသည် လွတ်လပ်သောကွက်လပ်ကို ဖြတ်၍ မသွားနိုင်ကြောင်း။",
+              "အပင်များသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းဖြင့် ကိုယ်ပိုင်အစားအစာ ပြုလုပ်ကြောင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it directly describes Kyaw Kyaw's bicycle memory from Week 3.",
+              "This is the same friction example used in Day 1's first question, about forces changing an object's motion.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် ကျော်ကျော်၏ Week 3 စက်ဘီးအမှတ်တရကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "၎င်းသည် အားများက အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို ပြောင်းလဲစေခြင်းအကြောင်း ပထမနေ့ ပထမမေးခွန်းတွင် အသုံးပြုထားသော ပွတ်တိုက်အားဥပမာတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the presenter say a planet's straight-line path bends into a curve, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ ဂြိုဟ်တစ်လုံး၏ ဖြောင့်တန်းလမ်းကြောင်းသည် အနားကွေးအဖြစ်သို့ ကွေးသွားသည်ဟု တင်ဆက်သူ အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Because the Sun's gravity is an unbalanced force pulling sideways on the planet, rather than speeding it up or slowing it down.",
+              "Because empty space has an invisible wall that curves the planet's path.",
+              "Because the planet's engine is programmed to fly in circles.",
+              "The passage does not actually give a reason.",
+            ],
+            optionsMy: [
+              "နေ၏ ဆွဲငင်အားသည် ဂြိုဟ်ကို မြန်ဆန်စေခြင်း (သို့) နှေးကွေးစေခြင်းအစား ဘေးတိုက် ဆွဲငင်နေသော ဟန်ချက်မညီသောအားဖြစ်သောကြောင့်။",
+              "လွတ်လပ်သောကွက်လပ်တွင် ဂြိုဟ်၏လမ်းကြောင်းကို ကွေးစေသော မျက်မြင်မရသောနံရံ ရှိသောကြောင့်။",
+              "ဂြိုဟ်၏ အင်ဂျင်ကို စက်ဝိုင်းပုံစံဖြင့် ပျံသန်းရန် အစီအစဉ်ချထားသောကြောင့်။",
+              "စာပိုဒ်တွင် အကြောင်းရင်း အမှန်တကယ် ဖော်ပြထားခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this directly.",
+              "This is the same idea from Day 1's first question about unbalanced forces bending a straight path.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ -- ၎င်းသည် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "၎င်းသည် ဟန်ချက်မညီသောအားများက ဖြောင့်တန်းလမ်းကြောင်းကို ကွေးစေခြင်းအကြောင်း ပထမနေ့ ပထမမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kyaw Kyaw compare the Sun's gravitational pull to, and why?",
+            questionMy:
+                "ကျော်ကျော်သည် နေ၏ ဆွဲငင်အားကို အဘယ်အရာနှင့် နှိုင်းယှဉ်ခဲ့ပြီး အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "Week 11's magnets, because both can attract across a gap without ever touching.",
+              "Week 15's photosynthesis, because both involve light.",
+              "Week 23's sound vibrations, because both need a medium to travel.",
+              "He did not compare it to anything at all.",
+            ],
+            optionsMy: [
+              "Week 11 ၏ သံလိုက်များနှင့် နှိုင်းယှဉ်ခဲ့သည်၊ အကြောင်းမှာ နှစ်ခုစလုံးသည် မထိတွေ့ဘဲ ကွက်လပ်တစ်ခုကို ဖြတ်၍ ဆွဲဆောင်နိုင်သောကြောင့် ဖြစ်သည်။",
+              "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် နှိုင်းယှဉ်ခဲ့သည်၊ နှစ်ခုစလုံး အလင်းနှင့်သက်ဆိုင်သောကြောင့် ဖြစ်သည်။",
+              "Week 23 ၏ အသံတုန်ခါမှုနှင့် နှိုင်းယှဉ်ခဲ့သည်၊ နှစ်ခုစလုံးသည် ခရီးသွားရန် ကြားခံဒြပ်ထု လိုအပ်သောကြောင့် ဖြစ်သည်။",
+              "မည်သည့်အရာနှင့်မျှ လုံးဝ နှိုင်းယှဉ်ခဲ့ခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3's final sentence.",
+              "This is the same non-contact idea from Day 1's second question.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ဒုတိယမေးခွန်းမှ ထိတွေ့မှုမလိုအပ်ခြင်း အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What unit did the presenter say scientists use to measure the Sun's gravitational pull on a planet?",
+            questionMy:
+                "ဂြိုဟ်တစ်လုံးအပေါ် နေ၏ ဆွဲငင်အားကို သိပ္ပံပညာရှင်များ မည်သည့်ယူနစ်ဖြင့် တိုင်းတာကြောင်း တင်ဆက်သူ ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Newtons, the same unit first introduced with the force meter in Week 1.",
+              "Degrees Celsius, the same unit used for temperature.",
+              "Kilograms, the same unit used for mass.",
+              "Litres, the same unit used for volume.",
+            ],
+            optionsMy: [
+              "Week 1 တွင် နယူတန်မီတာနှင့်အတူ ပထမဆုံး မိတ်ဆက်ခဲ့သော နယူတန်ယူနစ်တည်း ဖြစ်သည်။",
+              "အပူချိန်အတွက် အသုံးပြုသည့် ဒီဂရီစင်တီဂရိတ်ယူနစ်တည်း ဖြစ်သည်။",
+              "ဒြပ်ထုအတွက် အသုံးပြုသည့် ကီလိုဂရမ်ယူနစ်တည်း ဖြစ်သည်။",
+              "ပမာဏအတွက် အသုံးပြုသည့် လီတာယူနစ်တည်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph.",
+              "This is the same unit from Day 1's fourth question and Week 3's force lessons.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် Week 3 ၏ အားသင်ခန်းစာများမှ ယူနစ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: The Solar System",
+      titleMy: "အပတ်စဉ် ၂၅ ပြန်လည်သုံးသပ်ခြင်း - နေအဖွဲ့စု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What keeps the eight planets orbiting the Sun instead of flying off in a straight line?",
+          questionMy:
+              "ဂြိုဟ်ရှစ်လုံးကို ဖြောင့်တန်းလိုက် ပြေးမသွားစေဘဲ နေကို ဆက်လက် ဝန်းရံလှည့်ပတ်စေသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Sun's gravity, an unbalanced force that constantly pulls each planet toward it",
+            "Sound waves pushing the planets sideways",
+            "The planets' own engines steering them around",
+            "There is no force involved at all",
+          ],
+          optionsMy: [
+            "ဂြိုဟ်တစ်လုံးစီကို ၎င်းဘက်သို့ အမြဲ ဆွဲငင်ပေးနေသော နေ၏ ဆွဲငင်အားဟူသည့် ဟန်ချက်မညီသောအား",
+            "ဂြိုဟ်များကို ဘေးတိုက်တွန်းသော အသံလှိုင်းများ",
+            "ဂြိုဟ်များ၏ ကိုယ်ပိုင်အင်ဂျင်များက ထိန်းချုပ်ခြင်း",
+            "မည်သည့်အားမျှ ပါဝင်ပတ်သက်ခြင်း လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- an unbalanced force always changes an object's motion, bending a straight path into a curve.",
+            "Kyaw Kyaw's planetarium story made this explicit -- gravity is the one force responsible.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- ဟန်ချက်မညီသောအားသည် အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို အမြဲ ပြောင်းလဲစေပြီး ဖြောင့်တန်းလမ်းကြောင်းကို ကွေးစေသည်။",
+            "ကျော်ကျော်၏ နက္ခတ်ဗေဒဌာနဇာတ်လမ်းက ၎င်းကို ရှင်းလင်းစွာ ဖော်ပြခဲ့သည် -- ဆွဲငင်အားသည် တာဝန်ရှိသော အားတစ်ခုတည်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How can the Sun's gravity pull on a distant planet when the two never touch?",
+          questionMy:
+              "ဝေးလံသောဂြိုဟ်တစ်လုံးနှင့် နှစ်ခုစလုံး ဘယ်တော့မှ မထိတွေ့သော်လည်း နေ၏ ဆွဲငင်အားက မည်ကဲ့သို့ ဆွဲငင်နိုင်သနည်း။",
+          optionsEn: [
+            "Gravity is a force that can act across huge distances without any contact at all",
+            "The Sun secretly touches every planet",
+            "Gravity only works if two objects are touching",
+            "It cannot really happen -- the passage is wrong",
+          ],
+          optionsMy: [
+            "ဆွဲငင်အားသည် ထိတွေ့မှု လုံးဝမရှိဘဲ ဝေးလံသောအကွာအဝေးများတွင် အကျိုးသက်ရောက်နိုင်သော အားတစ်ခု ဖြစ်သည်",
+            "နေသည် ဂြိုဟ်တိုင်းကို လျှို့ဝှက်စွာ ထိတွေ့နေသည်",
+            "ဆွဲငင်အားသည် အရာဝတ္ထုနှစ်ခု ထိတွေ့မှသာ အလုပ်လုပ်သည်",
+            "အမှန်တကယ် မဖြစ်နိုင်ပါ -- စာပိုဒ်က မှားနေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Week 11's magnetism -- both gravity and magnetism can act at a distance without contact.",
+            "This is exactly what amazed Kyaw Kyaw most in the reading passage.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် Week 11 ၏ သံလိုက်ဗေဒကို သတိရပါ -- ဆွဲငင်အားနှင့် သံလိုက်အားနှစ်ခုစလုံးသည် ထိတွေ့မှုမရှိဘဲ ဝေးကွာသောနေရာတွင် အကျိုးသက်ရောက်နိုင်သည်။",
+            "ဤသည်မှာ စာဖတ်ခန်းတွင် ကျော်ကျော်ကို အံ့ဩစေဆုံးအချက်ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these correctly lists four planets in order outward from the Sun?",
+          questionMy:
+              "အောက်ပါတို့အနက် နေမှ အပြင်ဘက်သို့ ဂြိုဟ်လေးလုံးကို မှန်ကန်သော အစီအစဉ်ဖြင့် ဖော်ပြထားသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mercury, Venus, Earth, Mars",
+            "Mars, Earth, Venus, Mercury",
+            "Earth, Mercury, Mars, Venus",
+            "Venus, Mars, Mercury, Earth",
+          ],
+          optionsMy: [
+            "မာကျူရီ၊ ဗီးနပ်စ်၊ ကမ္ဘာ၊ မာ့စ်",
+            "မာ့စ်၊ ကမ္ဘာ၊ ဗီးနပ်စ်၊ မာကျူရီ",
+            "ကမ္ဘာ၊ မာကျူရီ၊ မာ့စ်၊ ဗီးနပ်စ်",
+            "ဗီးနပ်စ်၊ မာ့စ်၊ မာကျူရီ၊ ကမ္ဘာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and the reading passage's first paragraph, which both name the full order.",
+            "The full order is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခန်း၏ ပထမစာပိုဒ်ကို သတိရပါ -- နှစ်ခုစလုံးက အစီအစဉ်အပြည့်အစုံကို အမည်တွင်ထားသည်။",
+            "အစီအစဉ်အပြည့်အစုံမှာ မာကျူရီ၊ ဗီးနပ်စ်၊ ကမ္ဘာ၊ မာ့စ်၊ ဂျူပီတာ၊ ဆက်တန်း၊ ယူရေးနပ်စ်၊ နက်ပ်ကျွန်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The strength of a gravitational pull, like any other force, is measured in which unit?",
+          questionMy:
+              "ဆွဲငင်အားတစ်ခု၏ ပြင်းအားကို အခြားအားတိုင်းကဲ့သို့ မည်သည့်ယူနစ်ဖြင့် တိုင်းတာသနည်း။",
+          optionsEn: ["Newtons (N)", "Metres (m)", "Litres (L)", "Degrees Celsius (°C)"],
+          optionsMy: ["နယူတန် (N)", "မီတာ (m)", "လီတာ (L)", "ဒီဂရီစင်တီဂရိတ် (°C)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Week 1's instrument/unit pairing.",
+            "This is the same unit first met with the force meter, and used for every kind of force since Week 3.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် Week 1 ၏ ကိရိယာ/ယူနစ် တွဲချိတ်မှုကို သတိရပါ။",
+            "၎င်းသည် နယူတန်မီတာနှင့်အတူ ပထမဆုံး တွေ့ကြုံခဲ့ရသော ယူနစ်ဖြစ်ပြီး Week 3 မှစ၍ အားအမျိုးမျိုးအတွက် အသုံးပြုခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, what single big idea connects a bicycle's friction (Week 3) and a planet's orbit around the Sun?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် စက်ဘီး၏ ပွတ်တိုက်အား (Week 3) နှင့် နေပတ်လည် ဂြိုဟ်တစ်လုံး၏ လှည့်ပတ်လမ်းကြောင်းတို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Both are forces -- a push or a pull, measured in newtons -- that change an object's motion, whether by contact like friction or across a distance like gravity.",
+            "They are completely unrelated ideas with nothing in common.",
+            "Only friction is a real force; gravity is just an illusion.",
+            "Bicycles and planets both run on the same kind of engine.",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးသည် တွန်းအား (သို့) ဆွဲအားဟူသည့် အားများဖြစ်ကြပြီး ပွတ်တိုက်အားကဲ့သို့ ထိတွေ့မှုဖြင့်ဖြစ်စေ၊ ဆွဲငင်အားကဲ့သို့ အကွာအဝေးတစ်လျှောက်ဖြစ်စေ အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို ပြောင်းလဲစေပြီး နယူတန်ဖြင့် တိုင်းတာသည်။",
+            "နှစ်ခုစလုံးသည် ဘုံတူညီချက် လုံးဝမရှိသော လုံးလုံးကွဲပြားသော အတွေးအခေါ်များ ဖြစ်ကြသည်။",
+            "ပွတ်တိုက်အားသာ တကယ့်အားဖြစ်ပြီး ဆွဲငင်အားသည် မျက်လှည့်တစ်ခုသာ ဖြစ်သည်။",
+            "စက်ဘီးနှင့် ဂြိုဟ်နှစ်ခုစလုံးသည် အင်ဂျင်အမျိုးအစားတူတူဖြင့် အလုပ်လုပ်ကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kyaw Kyaw's own story -- he used the same simple definition of a force, from Week 3, to explain both his bicycle and the whole Solar System.",
+            "This also reaches back to Week 1's newton/force-meter pairing -- the same unit measures every kind of force in this pathway.",
+          ],
+          hintsMy: [
+            "ကျော်ကျော်၏ ကိုယ်ပိုင်ဇာတ်လမ်းကို သတိရပါ -- သူသည် Week 3 မှ အားဆိုင်ရာ ရိုးရှင်းသောအဓိပ္ပာယ်ဖွင့်ဆိုချက်တစ်ခုတည်းကို သူ့စက်ဘီးနှင့် နေအဖွဲ့စုတစ်ခုလုံးကို ရှင်းပြရန် အသုံးပြုခဲ့သည်။",
+            "၎င်းသည် Week 1 ၏ နယူတန်/နယူတန်မီတာ တွဲချိတ်မှုဆီသို့လည်း ပြန်ရောက်သွားသည် -- ယူနစ်တစ်ခုတည်းသည် ဤသင်တန်းလမ်းကြောင်းရှိ အားအမျိုးမျိုးအားလုံးကို တိုင်းတာသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 7, Week 26: "Day, Night and the Seasons"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek26 = CourseWeekDef(
+  id: "course-secondary1-science-w26",
+  weekNumber: 26,
+  titleEn: "Day, Night and the Seasons",
+  titleMy: "နေ့ ညနှင့် ရာသီများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w26-d1",
+      dayNumber: 1,
+      titleEn: "Day, Night and Seasons Quiz",
+      titleMy: "နေ့ ညနှင့် ရာသီများ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At the exact same moment, one side of the Earth is in bright daylight while the opposite side is completely dark. What causes this, and which idea from Week 21 explains why sunlight can't simply light up both sides at once?",
+          questionMy:
+              "အတိအကျ တစ်ချိန်တည်းတွင် ကမ္ဘာ၏ တစ်ဖက်သည် တောက်ပသောနေ့အလင်းရောင်ရှိနေသော်လည်း ဆန့်ကျင်ဘက်မှာမူ လုံးဝ မှောင်နေသည်။ ၎င်းကို အဘယ်အရာက ဖြစ်ပေါ်စေပြီး၊ နေရောင်သည် ဘေးနှစ်ဖက်စလုံးကို အဘယ့်ကြောင့် တစ်ပြိုင်တည်း လင်းမပေးနိုင်ကြောင်းကို Week 21 မှ မည်သည့်အတွေးအခေါ်က ရှင်းပြနိုင်သနည်း။",
+          optionsEn: [
+            "Earth rotates on its axis, and light travels in straight lines, so only the side directly facing the Sun can be lit -- light cannot bend around the curved Earth to reach the far side.",
+            "The Sun physically switches off for half of every day.",
+            "Clouds always cover exactly half of the Earth at any moment.",
+            "Night happens because the Sun moves around the Earth once a day.",
+          ],
+          optionsMy: [
+            "ကမ္ဘာသည် ၎င်း၏ဝင်ရိုးပေါ်တွင် လည်ပတ်နေပြီး အလင်းသည် ဖြောင့်တန်းလိုက် ခရီးသွားသောကြောင့် နေဘက်သို့ တည့်တည့်မျက်နှာမူသောဘက်ကိုသာ လင်းစေနိုင်ပြီး -- အလင်းသည် ကွေးနေသောကမ္ဘာကို ဝိုင်း၍ ဝေးလံသောဘက်ကို မရောက်နိုင်ပါ။",
+            "နေသည် နေ့စဉ် တစ်ဝက်အတွက် အလင်းရောင် ရုပ်ပိုင်းဆိုင်ရာ ပိတ်သွားသည်။",
+            "မိုးတိမ်များသည် ၎င်းအချိန်တိုင်း ကမ္ဘာ၏ တစ်ဝက်တိတိကို အမြဲ ဖုံးအုပ်ထားသည်။",
+            "ညသည် နေသည် ကမ္ဘာပတ်လည်ကို နေ့စဉ် တစ်ကြိမ် ရွေ့လျားသောကြောင့် ဖြစ်ပျက်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21's lesson on straight-line light travel and shadows -- light cannot curve around an object (or a whole curved planet) blocking its path.",
+            "Earth's rotation constantly changes which side faces the Sun, but at any single instant, light still only reaches the side with a clear straight-line path to the Sun.",
+          ],
+          hintsMy: [
+            "Week 21 ၏ ဖြောင့်တန်းလိုက် အလင်းခရီးသွားခြင်းနှင့် အရိပ်သင်ခန်းစာကို သတိရပါ -- အလင်းသည် ၎င်းလမ်းကြောင်းကို ပိတ်ဆို့နေသော ပစ္စည်းတစ်ခု (သို့) ကွေးနေသော ဂြိုဟ်တစ်ခုလုံးကိုပင် ဝိုင်း၍ မသွားနိုင်ပါ။",
+            "ကမ္ဘာ၏ လည်ပတ်မှုသည် မည်သည့်ဘက်က နေကို မျက်နှာမူသည်ကို အမြဲ ပြောင်းလဲပေးနေသော်လည်း ချက်ခြင်းတစ်ချိန်တည်းတွင် အလင်းသည် နေဆီသို့ ဖြောင့်တန်းလမ်းကြောင်းရှင်းလင်းစွာ ရှိသောဘက်သို့သာ ရောက်ရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking at a photo of Earth taken from space, the boundary between the bright daylight half and the dark night half looks like a fairly sharp line rather than a slow, blurry fade. What earlier idea explains this sharpness?",
+          questionMy:
+              "အာကာသမှ ရိုက်ကူးထားသော ကမ္ဘာ၏ ဓာတ်ပုံတစ်ပုံတွင် တောက်ပသောနေ့အလင်းရောင်ဘက်နှင့် မှောင်နေသောညဘက်ကြား နယ်နိမိတ်သည် ဖြည်းညင်းစွာ မှုန်ဝါးသွားခြင်းထက် အတော်လေး ထက်မြက်သော မျဉ်းတစ်ခုကဲ့သို့ ပေါ်နေသည်။ ၎င်း၏ ထက်မြက်မှုကို ယခင်ကသင်ခဲ့သော မည်သည့်အတွေးအခေါ်က ရှင်းပြနိုင်သနည်း။",
+          optionsEn: [
+            "The same straight-line light travel from Week 21 that gives a solid object's shadow a sharp edge also gives Earth's day-night boundary a sharp edge.",
+            "Cameras in space always blur every photo they take.",
+            "The Sun changes brightness suddenly at that exact boundary.",
+            "There is no real reason -- the sharpness is just a coincidence.",
+          ],
+          optionsMy: [
+            "ခိုင်မာသောအရာဝတ္ထုတစ်ခု၏ အရိပ်ကို အနားထက်စေသော Week 21 ၏ ဖြောင့်တန်းလိုက်အလင်းခရီးသွားခြင်းတည်းသည် ကမ္ဘာ၏ နေ့-ည နယ်နိမိတ်ကိုလည်း ထက်မြက်စေသည်။",
+            "အာကာသရှိ ကင်မရာများသည် ၎င်းတို့ရိုက်ကူးသော ဓာတ်ပုံတိုင်းကို အမြဲ မှုန်ဝါးစေသည်။",
+            "နေသည် ထိုနယ်နိမိတ်တိတိတွင် တောက်ပမှု ရုတ်တရက် ပြောင်းလဲသည်။",
+            "အကြောင်းရင်း အမှန်တကယ် မရှိပါ -- ထက်မြက်မှုသည် အမှတ်တမဲ့သာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21's shadow lesson -- a shadow's edge is sharp precisely because light cannot bend around the object blocking it.",
+            "Earth itself is the object blocking the light on its own far side; the same straight-line reasoning applies at planetary scale.",
+          ],
+          hintsMy: [
+            "Week 21 ၏ အရိပ်သင်ခန်းစာကို သတိရပါ -- အရိပ်တစ်ခု၏ အနားသည် ထက်သည့်အကြောင်းရင်းမှာ အလင်းသည် ၎င်းကို ပိတ်ဆို့နေသော ပစ္စည်းကို ဝိုင်း၍ မခွေနိုင်သောကြောင့် ဖြစ်သည်။",
+            "ကမ္ဘာကိုယ်တိုင်ကပင် ၎င်း၏ ဝေးလံသောဘက်ရှိ အလင်းကို ပိတ်ဆို့နေသော ပစ္စည်းဖြစ်ပြီး ဤဖြောင့်တန်းယုတ္တိတည်းကို ဂြိုဟ်အတိုင်းအတာတွင်လည်း အသုံးချနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two pen pals write to each other in December: one lives in the Northern Hemisphere and reports cold, short days, while the other lives in the Southern Hemisphere and reports warm, long days. What single fact about Earth explains why they experience opposite seasons at the very same time?",
+          questionMy:
+              "ကလောင်ဖော်နှစ်ဦးသည် ဒီဇင်ဘာလတွင် တစ်ဦးနှင့်တစ်ဦး စာရေးကြသည် - တစ်ဦးသည် မြောက်ခြမ်းကမ္ဘာ၌နေထိုင်ပြီး အေးမြသော၊ တိုတောင်းသောနေ့ရက်များကို ဖော်ပြပြီး၊ အခြားတစ်ဦးမှာ တောင်ခြမ်းကမ္ဘာ၌နေထိုင်ကာ နွေးထွေးသော၊ ရှည်လျားသောနေ့ရက်များကို ဖော်ပြသည်။ ၎င်းတို့သည် အတိအကျ တစ်ချိန်တည်းတွင် ဆန့်ကျင်ဘက်ရာသီများကို ကြုံတွေ့နေရသည့်အကြောင်းကို ကမ္ဘာနှင့်ပတ်သက်သော မည်သည့်အချက်တစ်ခုတည်းက ရှင်းပြနိုင်သနည်း။",
+          optionsEn: [
+            "Earth's axis is tilted, so at any given time one hemisphere leans toward the Sun (getting more direct sunlight, summer) while the other leans away (winter).",
+            "The Sun is simply closer to the Northern Hemisphere in December.",
+            "Two completely different Suns shine on the two hemispheres.",
+            "One pen pal is lying about the weather.",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ၏ဝင်ရိုးသည် စောင်းနေသဖြင့် အချိန်တစ်ခုတည်းတွင် ခြမ်းတစ်ဖက်သည် နေဘက်သို့ စောင်းနေပြီး (တိုက်ရိုက်နေရောင်ပိုရသောကြောင့် နွေရာသီ) အခြားခြမ်းတစ်ဖက်မှာမူ ဆန့်ကျင်ဘက်သို့ စောင်းနေသည် (ဆောင်းရာသီ)။",
+            "ဒီဇင်ဘာလတွင် နေသည် မြောက်ခြမ်းကမ္ဘာနှင့် ပိုနီးကပ်နေသည်။",
+            "ခြမ်းနှစ်ခုပေါ်တွင် လုံးလုံးကွဲပြားသော နေနှစ်လုံးက တောက်ပနေသည်။",
+            "ကလောင်ဖော်တစ်ဦးသည် ရာသီဥတုအကြောင်း လိမ်ညာနေသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a brand-new idea for this week -- Earth's axis is tilted at an angle, not perfectly upright, as it orbits the Sun.",
+            "A hemisphere tilted toward the Sun gets more direct, concentrated sunlight and longer days (summer); a hemisphere tilted away gets less direct sunlight and shorter days (winter) -- at the very same moment.",
+          ],
+          hintsMy: [
+            "ဤအချက်သည် ဤအပတ်အတွက် ဝေါဟာရအသစ်တစ်ခုဖြစ်သည် -- ကမ္ဘာ၏ ဝင်ရိုးသည် နေကို ဝန်းရံရာတွင် အတိအကျ ဒေါင်လိုက်မရှိဘဲ ထောင့်တစ်ခုဖြင့် စောင်းနေသည်။",
+            "နေဘက်သို့ စောင်းနေသောခြမ်းတစ်ဖက်သည် ပိုတိုက်ရိုက်၊ ပိုစုစည်းသောနေရောင်နှင့် ရှည်လျားသောနေ့ရက်များ (နွေရာသီ) ရရှိပြီး၊ ဆန့်ကျင်ဘက်သို့ စောင်းနေသောခြမ်းတစ်ဖက်မှာမူ ပိုနည်းသောနေရောင်နှင့် တိုတောင်းသောနေ့ရက်များ (ဆောင်းရာသီ) ရရှိသည် -- အချိန်တစ်ချိန်တည်းတွင်ပင်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Earth's distance from the Sun barely changes across the year -- its orbit is nearly circular. Given this, why doesn't a changing Sun-Earth distance explain the seasons?",
+          questionMy:
+              "ကမ္ဘာနှင့် နေအကြားအကွာအဝေးသည် တစ်နှစ်တစ်လျှောက် အနည်းငယ်သာ ပြောင်းလဲပြီး ၎င်း၏ လှည့်ပတ်လမ်းကြောင်းသည် စက်ဝိုင်းနီးပါး ဖြစ်သည်။ ဤအချက်ကို ထောက်ပြီး၊ နေ-ကမ္ဘာ အကွာအဝေးပြောင်းလဲမှုသည် ရာသီများကို အဘယ့်ကြောင့် ရှင်းမပြနိုင်သနည်း။",
+          optionsEn: [
+            "Because the distance barely changes at all, while the axial tilt causes the two hemispheres to receive very different amounts of direct sunlight at the same time -- that difference is what actually drives the seasons.",
+            "It does explain the seasons perfectly, and the tilt has nothing to do with it.",
+            "Earth's distance from the Sun changes wildly every single day.",
+            "Seasons are not real -- they are simply an illusion of temperature.",
+          ],
+          optionsMy: [
+            "အကွာအဝေးသည် အလွန်နည်းငယ်သာ ပြောင်းလဲသောကြောင့်ဖြစ်ပြီး ဝင်ရိုးစောင်းခြင်းကမူ ခြမ်းနှစ်ဖက်စလုံးကို တစ်ချိန်တည်းတွင် တိုက်ရိုက်နေရောင် ပမာဏ လွန်စွာ ကွဲပြားစွာ ရရှိစေသည် -- ထိုကွာခြားမှုသည်ပင် ရာသီများကို တကယ်တွန်းအားပေးသည်။",
+            "၎င်းသည် ရာသီများကို အပြည့်အဝ ရှင်းပြနိုင်ပြီး ဝင်ရိုးစောင်းခြင်းသည် မည်သည့်အရာနှင့်မျှ မသက်ဆိုင်ပါ။",
+            "ကမ္ဘာနှင့် နေအကြားအကွာအဝေးသည် နေ့စဉ် သိသိသာသာ ပြောင်းလဲသည်။",
+            "ရာသီများသည် အမှန်တကယ် မဟုတ်ပါ -- ၎င်းသည် အပူချိန်၏ မျက်လှည့်တစ်ခုသာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question -- the pen pals' opposite seasons happened at the very same distance from the Sun, so distance can't be the explanation.",
+            "It's the tilt, not the distance, that decides how directly sunlight strikes a given hemisphere at any point in Earth's orbit.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ကလောင်ဖော်တို့၏ ဆန့်ကျင်ဘက်ရာသီများသည် နေနှင့် အကွာအဝေးတူတူတွင်ပင် ဖြစ်ပျက်ခဲ့ကြသည်၊ ထို့ကြောင့် အကွာအဝေးသည် အကြောင်းရင်း မဖြစ်နိုင်ပါ။",
+            "ကမ္ဘာ၏ လှည့်ပတ်လမ်းကြောင်း အချက်အလက်တိုင်းတွင် ပေးထားသောခြမ်းတစ်ဖက်ကို နေရောင်က မည်မျှတိုက်ရိုက်ထိသည်ကို ဆုံးဖြတ်ပေးသည်မှာ အကွာအဝေး မဟုတ်ဘဲ ဝင်ရိုးစောင်းခြင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match the Day, Night and Seasons Terms",
+      titleMy: "နေ့ ညနှင့် ရာသီများ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w26-dm-1",
+          termEn: "Rotation",
+          termMy: "လည်ပတ်မှု (Rotation)",
+          matchEn:
+              "Earth spinning all the way around on its own axis once approximately every 24 hours, causing day and night.",
+          matchMy:
+              "ကမ္ဘာသည် ၎င်း၏ကိုယ်ပိုင်ဝင်ရိုးပေါ်တွင် နာရီ ၂၄ နီးပါးတစ်ကြိမ် လုံးလုံး လည်ပတ်ခြင်းဖြစ်ပြီး နေ့နှင့်ညကို ဖြစ်ပေါ်စေသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w26-dm-2",
+          termEn: "Axis",
+          termMy: "ဝင်ရိုး (Axis)",
+          matchEn:
+              "The imaginary line through Earth's centre, from pole to pole, that Earth spins around.",
+          matchMy:
+              "ကမ္ဘာ၏ ဗဟိုမှတစ်ဆင့် ဝင်ရိုးမြောက်ပိုလ်မှ တောင်ပိုလ်အထိ ဖြတ်သန်းသော စိတ်ကူးမျဉ်းဖြစ်ပြီး ကမ္ဘာသည် ၎င်းပတ်လည် လည်ပတ်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w26-dm-3",
+          termEn: "Axial Tilt",
+          termMy: "ဝင်ရိုးစောင်းခြင်း (Axial Tilt)",
+          matchEn:
+              "Earth's axis leaning at an angle rather than standing perfectly upright, the underlying cause of the seasons.",
+          matchMy:
+              "ကမ္ဘာ၏ ဝင်ရိုးသည် အတိအကျ ဒေါင်လိုက် မရပ်ဘဲ ထောင့်တစ်ခုဖြင့် စောင်းနေခြင်းဖြစ်ပြီး ရာသီများ၏ အရင်းခံအကြောင်းရင်း ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w26-dm-4",
+          termEn: "Day-Night Boundary",
+          termMy: "နေ့-ည နယ်နိမိတ် (Day-Night Boundary)",
+          matchEn:
+              "The sharp line on Earth separating the sunlit half from the dark half, sharp for the same reason a shadow's edge is sharp.",
+          matchMy:
+              "ကမ္ဘာပေါ်ရှိ နေရောင်ရသောခြမ်းနှင့် မှောင်နေသောခြမ်းကို ပိုင်းခြားပေးသော ထက်မြက်သောမျဉ်းဖြစ်ပြီး အရိပ်တစ်ခု၏ အနား ထက်မြက်ခြင်းနှင့် အကြောင်းရင်းတူညီသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w26-dm-5",
+          termEn: "Orbit (Earth's Yearly Journey)",
+          termMy: "လှည့်ပတ်လမ်းကြောင်း (Earth's Yearly Journey)",
+          matchEn:
+              "Earth's roughly circular path around the Sun, taking about one year, during which the tilted axis always points the same direction.",
+          matchMy:
+              "ကမ္ဘာသည် နေကို ဝန်းရံရာတွင် တစ်နှစ်ခန့် ကြာသော စက်ဝိုင်းနီးပါး လမ်းကြောင်းအတိုင်း ခရီးသွားပြီး ဤကာလအတွင်း စောင်းနေသောဝင်ရိုးသည် တစ်ချိန်လုံး ဦးတည်ရာတူတူသို့ ညွှန်နေသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w26-dm-6",
+          termEn: "Season",
+          termMy: "ရာသီ (Season)",
+          matchEn:
+              "A period of the year, such as summer or winter, caused by how directly a hemisphere is tilted toward or away from the Sun.",
+          matchMy:
+              "နွေရာသီ (သို့) ဆောင်းရာသီကဲ့သို့ တစ်နှစ်၏ ကာလတစ်ခုဖြစ်ပြီး ခြမ်းတစ်ဖက်သည် နေဘက်သို့ (သို့) ဆန့်ကျင်ဘက်သို့ မည်မျှတိုက်ရိုက် စောင်းနေသည်ဆိုသည့်အချက်ကြောင့် ဖြစ်ပေါ်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Caused by Rotation or by Tilt and Orbit?",
+      titleMy: "စီစစ်ကြမည် - လည်ပတ်မှုကြောင့်လား၊ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Caused by Earth's Rotation",
+          "Caused by Earth's Axial Tilt and Orbit",
+        ],
+        bucketsMy: [
+          "ကမ္ဘာ၏ လည်ပတ်မှုကြောင့် ဖြစ်ပေါ်သည်",
+          "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့် ဖြစ်ပေါ်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w26-sort-1",
+            labelEn: "A place experiences day, then night, roughly every 24 hours",
+            labelMy: "နေရာတစ်ခုသည် နာရီ ၂၄ နီးပါးတိုင်း နေ့၊ ထို့နောက် ညကို ကြုံတွေ့ရသည်",
+            correctBucketEn: "Caused by Earth's Rotation",
+            correctBucketMy: "ကမ္ဘာ၏ လည်ပတ်မှုကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-2",
+            labelEn: "The Sun appears to rise in the east and set in the west each day",
+            labelMy: "နေ့စဉ် နေသည် အရှေ့မှ ထွက်ပြီး အနောက်တွင် ဝင်သကဲ့သို့ ပေါ်လာသည်",
+            correctBucketEn: "Caused by Earth's Rotation",
+            correctBucketMy: "ကမ္ဘာ၏ လည်ပတ်မှုကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-3",
+            labelEn: "A place moves from facing the Sun to facing away from it within a single day",
+            labelMy: "နေရာတစ်ခုသည် တစ်ရက်တည်းအတွင်း နေဘက်သို့ မျက်နှာမူသည်မှ ဆန့်ကျင်ဘက်သို့ ပြောင်းသွားသည်",
+            correctBucketEn: "Caused by Earth's Rotation",
+            correctBucketMy: "ကမ္ဘာ၏ လည်ပတ်မှုကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-4",
+            labelEn: "The day-night boundary sweeps around the Earth once every 24 hours",
+            labelMy: "နေ့-ည နယ်နိမိတ်သည် နာရီ ၂၄ တိုင်း ကမ္ဘာပတ်လည် တစ်ကြိမ် ရွေ့လျားသည်",
+            correctBucketEn: "Caused by Earth's Rotation",
+            correctBucketMy: "ကမ္ဘာ၏ လည်ပတ်မှုကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-5",
+            labelEn: "A hemisphere has longer days and warmer weather for several months",
+            labelMy: "ခြမ်းတစ်ဖက်တွင် လများစွာအထိ ရှည်လျားသောနေ့ရက်နှင့် ပိုနွေးထွေးသော ရာသီဥတု ရှိသည်",
+            correctBucketEn: "Caused by Earth's Axial Tilt and Orbit",
+            correctBucketMy: "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-6",
+            labelEn: "The Northern and Southern Hemispheres experience opposite seasons at the same time",
+            labelMy: "မြောက်ခြမ်းနှင့် တောင်ခြမ်းကမ္ဘာသည် တစ်ချိန်တည်းတွင် ဆန့်ကျင်ဘက်ရာသီများကို ကြုံတွေ့ကြသည်",
+            correctBucketEn: "Caused by Earth's Axial Tilt and Orbit",
+            correctBucketMy: "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-7",
+            labelEn: "A single full cycle of this takes about one year to complete",
+            labelMy: "ဤသို့ အပြည့်အစုံစက်ဝန်းတစ်ခု ပြီးဆုံးရန် တစ်နှစ်ခန့် ကြာသည်",
+            correctBucketEn: "Caused by Earth's Axial Tilt and Orbit",
+            correctBucketMy: "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w26-sort-8",
+            labelEn: "A hemisphere leaning toward the Sun receives more direct, concentrated sunlight",
+            labelMy: "နေဘက်သို့ စောင်းနေသောခြမ်းတစ်ဖက်သည် ပိုတိုက်ရိုက်၊ ပိုစုစည်းသောနေရောင် ရရှိသည်",
+            correctBucketEn: "Caused by Earth's Axial Tilt and Orbit",
+            correctBucketMy: "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းနှင့် လှည့်ပတ်လမ်းကြောင်းကြောင့် ဖြစ်ပေါ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thazin's Sunrise Diary",
+      titleMy: "စာဖတ်ခြင်း - သဇင်၏ နေထွက်မှတ်တမ်းစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thazin's Sunrise Diary",
+        titleMy: "သဇင်၏ နေထွက်မှတ်တမ်းစာအုပ်",
+        passageEn:
+            "For a school project, Thazin kept a diary of exactly when the Sun rose and set each day for a whole month, along with the length of the shadow her garden fence cast at noon. Flipping back through Week 21's notes, she remembered that her fence's shadow had a perfectly sharp edge every single day -- proof, her teacher had said, that light always travels in straight lines and cannot bend around an object blocking its path.\n\nOne morning, Thazin's cousin visiting from a country far to the south mentioned something strange: back home, it was the middle of summer, with long, warm days, while Thazin's own days were short and cold. Thazin was puzzled -- how could two places on the very same planet, at the very same time, be experiencing completely opposite seasons?\n\nHer teacher explained it the next day using a globe and a torch. Earth's axis, she said, is tilted at an angle, not standing perfectly upright, as Earth makes its year-long journey around the Sun. Right now, Thazin's hemisphere was tilted away from the Sun, so sunlight struck it at a shallower angle, spread out over more ground and delivering less warmth -- exactly why her days felt short and cold. Her cousin's hemisphere, tilted toward the Sun, received more direct, concentrated sunlight and much longer days.\n\nThazin also realized this tilt explained something else in her diary: the boundary between day and night, sweeping around the spinning Earth every 24 hours (Week 21's sharp-edged straight-line light again), simply lingered longer on one side of the tilted globe than the other, depending on the season. By the end of her project, Thazin was certain that a single tilted axis -- and light's stubborn refusal to bend -- explained both her shrinking shadow and her cousin's endless summer sunshine.",
+        passageMy:
+            "ကျောင်းပရောဂျက်တစ်ခုအတွက် သဇင်သည် တစ်လတစ်ခုလုံး နေ့စဉ် နေထွက်ချိန်နှင့် နေဝင်ချိန်ကို ၎င်း၏ ဥယျာဉ်ခြံစည်းရိုး၏ နေ့လယ်အရိပ်အလျားနှင့်အတူ မှတ်တမ်းစာအုပ်တစ်အုပ်ထားရှိခဲ့သည်။ Week 21 ၏ မှတ်စုများကို ပြန်လှန်ကြည့်ရင်း သူမ၏ ခြံစည်းရိုးအရိပ်သည် နေ့တိုင်း အနားလုံးဝ ထက်မြက်ကြောင်း သတိရမိခဲ့သည် -- ၎င်းသည် အလင်းသည် အမြဲ ဖြောင့်တန်းလိုက် ခရီးသွားပြီး ၎င်း၏လမ်းကြောင်းကို ပိတ်ဆို့နေသော ပစ္စည်းကို ဝိုင်း၍ မခွေနိုင်ကြောင်း သက်သေဖြစ်ကြောင်း ၎င်း၏ဆရာမ ပြောခဲ့ဖူးသည်။\n\nတစ်နံနက်တွင် တောင်ဘက်နိုင်ငံတစ်ခုမှ လာရောက်လည်ပတ်နေသော သဇင်၏ ဝမ်းကွဲမောင်ငယ်တစ်ဦးက ထူးဆန်းသောအချက်တစ်ခု ပြောခဲ့သည် - သူ့နေအိမ်တွင် ယခုအခါ နွေရာသီအလယ်ဖြစ်ပြီး ရှည်လျားနွေးထွေးသောနေ့ရက်များ ရှိနေခဲ့သော်လည်း သဇင်ကိုယ်တိုင်၏ နေ့ရက်များမှာမူ တိုတောင်းအေးမြနေခဲ့သည်။ သဇင် စိတ်ရှုပ်ခဲ့သည် -- ဂြိုဟ်တစ်လုံးတည်းပေါ်ရှိ နေရာနှစ်ခုသည် အချိန်တစ်ချိန်တည်းတွင် လုံးဝဆန့်ကျင်ဘက်ရာသီများကို မည်ကဲ့သို့ ကြုံတွေ့နေရနိုင်သနည်း။\n\nနောက်တစ်နေ့တွင် ၎င်း၏ဆရာမသည် ကမ္ဘာလုံးပုံနှင့် လက်ရှိမီးတန်းကို အသုံးပြု၍ ရှင်းပြခဲ့သည်။ ကမ္ဘာ၏ ဝင်ရိုးသည် နေကို ဝန်းရံသည့် တစ်နှစ်ကြာခရီးအတွင်း အတိအကျ ဒေါင်လိုက် မရပ်ဘဲ ထောင့်တစ်ခုဖြင့် စောင်းနေကြောင်း သူမ ပြောခဲ့သည်။ ယခုအချိန်တွင် သဇင်၏ ခြမ်းသည် နေမှ ဆန့်ကျင်ဘက်သို့ စောင်းနေသဖြင့် နေရောင်သည် ပို၍ ညီညာသောထောင့်ဖြင့် ထိတွေ့ကာ မြေပြင်ကျယ်ပြန့်စွာ ပျံ့နှံ့သွားပြီး အပူပိုနည်းပါးစွာ ပေးခဲ့သည် -- ၎င်းသည်ပင် သူမ၏နေ့ရက်များ တိုတောင်းအေးမြသည့် အတိအကျအကြောင်းရင်း ဖြစ်သည်။ ၎င်း၏ ဝမ်းကွဲမောင်ငယ်၏ ခြမ်းသည် နေဘက်သို့ စောင်းနေသဖြင့် ပိုတိုက်ရိုက်၊ ပိုစုစည်းသောနေရောင်နှင့် ပိုရှည်လျားသောနေ့ရက်များ ရရှိခဲ့သည်။\n\nသဇင်သည် ဤစောင်းခြင်းသည် ၎င်း၏မှတ်တမ်းစာအုပ်ရှိ အခြားအချက်တစ်ခုကိုပါ ရှင်းပြနေကြောင်း သိရှိလိုက်သည် - နာရီ ၂၄ တိုင်း လည်ပတ်နေသောကမ္ဘာပတ်လည် ရွေ့လျားနေသော နေ့-ည နယ်နိမိတ် (Week 21 ၏ အနားထက်သော ဖြောင့်တန်းလိုက်အလင်းကို ထပ်မံ) သည် ရာသီပေါ်မူတည်၍ ကမ္ဘာလုံးပုံ၏ တစ်ဖက်တွင် အခြားတစ်ဖက်ထက် ပို၍ ကြာရှည်စွာ နေခြင်းသာ ဖြစ်ကြောင်း တွေ့ရှိလိုက်သည်။ ၎င်း၏ ပရောဂျက် ပြီးဆုံးချိန်တွင် သဇင်သည် ဝင်ရိုးစောင်းခြင်းတစ်ခုတည်း -- နှင့် အလင်း၏ ကွေးရန်ငြင်းဆန်နေသောသဘောတရား -- သည် ၎င်း၏ ကျုံ့သွားသောအရိပ်နှင့် ၎င်း၏ ဝမ်းကွဲမောင်ငယ်၏ အဆုံးမရှိနွေရာသီနေရောင်တို့ကို ရှင်းပြနိုင်ကြောင်း သေချာလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Thazin remember about her fence's shadow, according to the first paragraph?",
+            questionMy:
+                "ပထမစာပိုဒ်အရ ၎င်း၏ခြံစည်းရိုးအရိပ်နှင့်ပတ်သက်၍ သဇင် အဘယ်အရာကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "That its edge was perfectly sharp every day, proving light travels in straight lines.",
+              "That it disappeared completely every afternoon.",
+              "That it changed colour depending on the season.",
+              "That it was only visible during a thunderstorm.",
+            ],
+            optionsMy: [
+              "၎င်း၏အနားသည် နေ့တိုင်း လုံးဝထက်မြက်ပြီး အလင်းသည် ဖြောင့်တန်းလိုက် ခရီးသွားကြောင်း သက်သေပြသည်။",
+              "နေ့လည်တိုင်း လုံးဝ ပျောက်ကွယ်သွားသည်။",
+              "ရာသီပေါ်မူတည်၍ အရောင် ပြောင်းလဲသွားသည်။",
+              "မိုးကြိုးမုန်တိုင်းတစ်ခုအတွင်းတွင်သာ မြင်နိုင်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph -- it directly cites Week 21's straight-line light lesson.",
+              "This is the same sharp-edge reasoning applied earlier in Week 24's thunderstorm passage.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 21 ၏ ဖြောင့်တန်းလိုက်အလင်းသင်ခန်းစာကို တိုက်ရိုက် ကိုးကားထားသည်။",
+              "၎င်းသည် Week 24 ၏ မိုးကြိုးမုန်တိုင်းစာပိုဒ်တွင် အသုံးပြုခဲ့သော အနားထက်သောယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why were Thazin and her cousin experiencing completely opposite seasons at the same time, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ သဇင်နှင့် ၎င်း၏ ဝမ်းကွဲမောင်ငယ်သည် တစ်ချိန်တည်းတွင် လုံးဝဆန့်ကျင်ဘက်ရာသီများကို အဘယ့်ကြောင့် ကြုံတွေ့နေရသနည်း။",
+            optionsEn: [
+              "Earth's tilted axis means their two hemispheres receive very different amounts of direct sunlight at the same time.",
+              "They live on two entirely different planets.",
+              "One of them was simply mistaken about the weather.",
+              "The Sun changes its own brightness by hemisphere.",
+            ],
+            optionsMy: [
+              "ကမ္ဘာ၏ စောင်းနေသောဝင်ရိုးက ၎င်းတို့၏ ခြမ်းနှစ်ခုကို တစ်ချိန်တည်းတွင် တိုက်ရိုက်နေရောင်ပမာဏ များစွာကွဲပြားစွာ ရရှိစေသည်ကို ဆိုလိုသည်။",
+              "၎င်းတို့သည် လုံးလုံးကွဲပြားသော ဂြိုဟ်နှစ်လုံးပေါ်တွင် နေထိုင်ကြသည်။",
+              "၎င်းတို့အနက် တစ်ဦးသည် ရာသီဥတုအကြောင်း ရိုးရိုးရှင်းရှင်း အမှားလုပ်ခဲ့ခြင်းသာ ဖြစ်သည်။",
+              "နေသည် ခြမ်းအလိုက် ၎င်းကိုယ်ပိုင် တောက်ပမှုကို ပြောင်းလဲသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this using the globe and torch demonstration.",
+              "This is the same idea from Day 1's third question about pen pals in opposite hemispheres.",
+            ],
+            hintsMy: [
+              "ကမ္ဘာလုံးပုံနှင့် လက်ရှိမီးတန်းသရုပ်ပြမှုကို အသုံးပြု၍ ရှင်းပြထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဆန့်ကျင်ဘက်ခြမ်းများရှိ ကလောင်ဖော်များအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thazin's short, cold days receive less warmth from the Sun?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ သဇင်၏ တိုတောင်း၊ အေးမြသောနေ့ရက်များသည် နေမှ အပူ အဘယ့်ကြောင့် ပိုနည်းပါးစွာ ရရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Sunlight struck her hemisphere at a shallower angle, spreading out over more ground.",
+              "The Sun itself grew colder during her winter months.",
+              "Clouds permanently blocked all sunlight in her hemisphere.",
+              "Her hemisphere temporarily stopped rotating.",
+            ],
+            optionsMy: [
+              "နေရောင်သည် ၎င်း၏ခြမ်းကို ပို၍ညီညာသောထောင့်ဖြင့် ထိတွေ့ကာ မြေပြင်ကျယ်ပြန့်စွာ ပျံ့နှံ့သွားခဲ့သည်။",
+              "ဆောင်းလများအတွင်း နေကိုယ်တိုင် ပိုအေးမြသွားခဲ့သည်။",
+              "မိုးတိမ်များက သူမ၏ခြမ်းရှိ နေရောင်အားလုံးကို ထာဝရ ပိတ်ဆို့ထားခဲ့သည်။",
+              "သူမ၏ခြမ်းသည် ယာယီ လည်ပတ်ခြင်း ရပ်တန့်သွားခဲ့သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3's explanation of shallow-angle sunlight spread over more ground.",
+              "This is the same reasoning from Day 1's third and fourth questions, about direct versus spread-out sunlight.",
+            ],
+            hintsMy: [
+              "ညီညာသောထောင့်ဖြင့် နေရောင် မြေပြင်ကျယ်ပြန့်စွာ ပျံ့နှံ့မှုအကြောင်း စာပိုဒ် ၃ ၏ ရှင်းပြချက်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် တိုက်ရိုက်နှင့် ပျံ့နှံ့သောနေရောင်အကြောင်း ပထမနေ့ တတိယနှင့် စတုတ္ထမေးခွန်းများမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how does the day-night boundary relate to the seasons?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ နေ့-ည နယ်နိမိတ်သည် ရာသီများနှင့် မည်ကဲ့သို့ ဆက်စပ်နေသနည်း။",
+            optionsEn: [
+              "Depending on the season, it lingers longer on one side of the tilted globe than the other.",
+              "It has no connection to the seasons at all.",
+              "It only exists during the summer months.",
+              "It moves in the opposite direction during winter.",
+            ],
+            optionsMy: [
+              "ရာသီပေါ်မူတည်၍ ကမ္ဘာလုံးပုံ၏ တစ်ဖက်တွင် အခြားတစ်ဖက်ထက် ပို၍ ကြာရှည်စွာ နေသည်။",
+              "ရာသီများနှင့် မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ။",
+              "နွေလများအတွင်းတွင်သာ ရှိနေသည်။",
+              "ဆောင်းရာသီအတွင်း ဆန့်ကျင်ဘက်ဦးတည်ရာသို့ ရွေ့လျားသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which connects Week 21's boundary idea directly to the season's tilt.",
+              "This ties together Day 1's first, second and third questions into one single idea, the same way this reading passage does.",
+            ],
+            hintsMy: [
+              "Week 21 ၏ နယ်နိမိတ်အတွေးအခေါ်ကို ရာသီစောင်းခြင်းနှင့် တိုက်ရိုက် ဆက်စပ်ပေးသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ပထမ၊ ဒုတိယနှင့် တတိယမေးခွန်းများကို ဤစာဖတ်ခန်းကဲ့သို့ပင် အယူအဆတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပေးသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Day, Night and the Seasons",
+      titleMy: "အပတ်စဉ် ၂၆ ပြန်လည်သုံးသပ်ခြင်း - နေ့ ညနှင့် ရာသီများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What causes day and night?",
+          questionMy: "နေ့နှင့်ညကို အဘယ်အရာက ဖြစ်ပေါ်စေသနည်း။",
+          optionsEn: [
+            "Earth's rotation on its axis, which constantly changes which side faces the Sun",
+            "The Sun switching on and off",
+            "Earth's tilt alone, with no rotation involved",
+            "Clouds covering half the planet at all times",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ၏ ဝင်ရိုးပေါ်လည်ပတ်မှုဖြစ်ပြီး မည်သည့်ဘက်က နေကို မျက်နှာမူသည်ကို အမြဲ ပြောင်းလဲပေးသည်",
+            "နေသည် ဖွင့်/ပိတ် ဖြစ်နေခြင်း",
+            "လည်ပတ်မှု လုံးဝမပါဝင်ဘဲ ဝင်ရိုးစောင်းခြင်းတစ်ခုတည်း",
+            "မိုးတိမ်များက ဂြိုဟ်၏ တစ်ဝက်ကို အချိန်တိုင်း ဖုံးအုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- rotation constantly changes which side faces the Sun.",
+            "Recall Thazin's story -- rotation is what sweeps the day-night boundary around the Earth.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- လည်ပတ်မှုသည် မည်သည့်ဘက်က နေကို မျက်နှာမူသည်ကို အမြဲ ပြောင်းလဲပေးသည်။",
+            "သဇင်၏ဇာတ်လမ်းကို သတိရပါ -- လည်ပတ်မှုသည်ပင် နေ့-ည နယ်နိမိတ်ကို ကမ္ဘာပတ်လည် ရွေ့လျားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the underlying cause of Earth's seasons?",
+          questionMy: "ကမ္ဘာ၏ရာသီများ၏ အရင်းခံအကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Earth's tilted axis, causing hemispheres to receive different amounts of direct sunlight over the year",
+            "Earth's changing distance from the Sun",
+            "The Sun's brightness changing month to month",
+            "Random chance, with no real pattern",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းက ခြမ်းများကို တစ်နှစ်တစ်လျှောက် တိုက်ရိုက်နေရောင် ပမာဏ ကွဲပြားစွာ ရရှိစေခြင်း",
+            "ကမ္ဘာနှင့် နေအကြားအကွာအဝေး ပြောင်းလဲခြင်း",
+            "နေ၏ တောက်ပမှုသည် လအလိုက် ပြောင်းလဲခြင်း",
+            "ကျပန်းအခွင့်အလမ်းသာ ဖြစ်ပြီး ပုံစံအမှန် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- Earth's near-circular orbit rules out a changing distance as the explanation.",
+            "Recall Thazin's cousin's story -- the tilt, not the distance, decides how directly sunlight strikes each hemisphere.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- ကမ္ဘာ၏ စက်ဝိုင်းနီးပါးလှည့်ပတ်လမ်းကြောင်းက အကွာအဝေးပြောင်းလဲခြင်းကို အကြောင်းရင်းအဖြစ်မှ ဖယ်ရှားပေးသည်။",
+            "သဇင်၏ ဝမ်းကွဲမောင်ငယ်ဇာတ်လမ်းကို သတိရပါ -- ခြမ်းတစ်ဖက်စီကို နေရောင် မည်မျှတိုက်ရိုက်ထိသည်ကို ဆုံးဖြတ်ပေးသည်မှာ အကွာအဝေး မဟုတ်ဘဲ ဝင်ရိုးစောင်းခြင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Earth's day-night boundary have a sharp edge rather than a slow, blurry fade?",
+          questionMy:
+              "ကမ္ဘာ၏ နေ့-ည နယ်နိမိတ်သည် ဖြည်းညင်းစွာ မှုန်ဝါးသွားခြင်းထက် အနားထက်ခြင်း အဘယ့်ကြောင့် ရှိသနည်း။",
+          optionsEn: [
+            "Because light travels in straight lines, the same reason a solid object's shadow has a sharp edge",
+            "Because cameras always sharpen photos of Earth",
+            "Because the Sun changes brightness suddenly at that line",
+            "There is no real reason for this",
+          ],
+          optionsMy: [
+            "အလင်းသည် ဖြောင့်တန်းလိုက် ခရီးသွားသောကြောင့်ဖြစ်ပြီး ခိုင်မာသောအရာဝတ္ထုတစ်ခု၏ အရိပ်အနားထက်ခြင်းနှင့် အကြောင်းရင်းတူညီသည်",
+            "ကင်မရာများက ကမ္ဘာ့ဓာတ်ပုံများကို အမြဲ ထက်မြက်စေသောကြောင့်",
+            "နေသည် ထိုမျဉ်းတိတိတွင် တောက်ပမှု ရုတ်တရက် ပြောင်းလဲသောကြောင့်",
+            "ဤအတွက် အကြောင်းရင်း အမှန်တကယ် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Week 21's shadow lesson -- the exact same straight-line reasoning applies at planetary scale.",
+            "Recall Thazin's own fence shadow from the reading passage.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် Week 21 ၏ အရိပ်သင်ခန်းစာကို သတိရပါ -- ဤဖြောင့်တန်းယုတ္တိတည်းကို ဂြိုဟ်အတိုင်းအတာတွင်လည်း အသုံးချသည်။",
+            "စာဖတ်ခန်းရှိ သဇင်ကိုယ်တိုင်၏ ခြံစည်းရိုးအရိပ်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When Thazin's hemisphere is tilted away from the Sun, what season does she experience?",
+          questionMy:
+              "သဇင်၏ ခြမ်းသည် နေမှ ဆန့်ကျင်ဘက်သို့ စောင်းနေသောအခါ ၎င်းသည် မည်သည့်ရာသီကို ကြုံတွေ့ရသနည်း။",
+          optionsEn: ["Winter", "Summer", "Every season at once", "No season at all"],
+          optionsMy: ["ဆောင်းရာသီ", "နွေရာသီ", "ရာသီအားလုံးကို တစ်ပြိုင်နက်", "မည်သည့်ရာသီမျှ မရှိ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thazin's reading passage -- her hemisphere tilted away from the Sun gave her short, cold days.",
+            "A hemisphere tilted away receives less direct, more spread-out sunlight -- the opposite of her cousin's warm summer.",
+          ],
+          hintsMy: [
+            "သဇင်၏ စာဖတ်ခန်းကို သတိရပါ -- ၎င်း၏ခြမ်းသည် နေမှ ဆန့်ကျင်ဘက်သို့ စောင်းနေသောအခါ တိုတောင်း၊ အေးမြသောနေ့ရက်များ ဖြစ်ခဲ့သည်။",
+            "ဆန့်ကျင်ဘက်သို့ စောင်းနေသောခြမ်းတစ်ဖက်သည် ပို၍ ပျံ့နှံ့သောနေရောင်ကို ရရှိသည် -- ၎င်း၏ ဝမ်းကွဲမောင်ငယ်၏ နွေးထွေးသောနွေရာသီနှင့် ဆန့်ကျင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole week, what does light's straight-line travel (Week 21) explain about Earth, once at the scale of a fence and once at the scale of a whole planet?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် အလင်း၏ ဖြောင့်တန်းလိုက် ခရီးသွားခြင်း (Week 21) သည် ခြံစည်းရိုးအတိုင်းအတာနှင့် ဂြိုဟ်တစ်ခုလုံးအတိုင်းအတာတွင် ကမ္ဘာနှင့်ပတ်သက်၍ အဘယ်အရာကို ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Why both a fence's shadow and Earth's day-night boundary have sharp, not blurry, edges.",
+            "Nothing -- the two scales have no connection at all.",
+            "Only why shadows exist, with no link to Earth's rotation.",
+            "Why the Sun changes colour throughout the day.",
+          ],
+          optionsMy: [
+            "ခြံစည်းရိုးအရိပ်နှင့် ကမ္ဘာ၏ နေ့-ည နယ်နိမိတ် နှစ်ခုစလုံး အနားထက်မြက်ပြီး မှုန်ဝါးမနေကြောင်း။",
+            "မည်သည့်အရာမျှ မရှိပါ -- အတိုင်းအတာနှစ်ခုတွင် မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ။",
+            "အရိပ်များ ဘာကြောင့်ရှိသည်ကိုသာ ရှင်းပြပြီး ကမ္ဘာ့လည်ပတ်မှုနှင့် မည်သည့်ဆက်စပ်မှုမျှ မရှိပါ။",
+            "နေသည် တစ်နေ့တာအတွင်း အရောင် ဘာကြောင့်ပြောင်းလဲသည်ကို ရှင်းပြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thazin's whole story -- she used the exact same straight-line idea to explain her own fence's shadow and the entire planet's day-night line.",
+            "This is the same spiral pattern as Week 24's capstone, reapplying one earlier idea (Week 21) at a bigger and bigger scale.",
+          ],
+          hintsMy: [
+            "သဇင်၏ ဇာတ်လမ်းတစ်ခုလုံးကို သတိရပါ -- သူမသည် ဖြောင့်တန်းလိုက်အလင်းအတွေးအခေါ်တစ်ခုတည်းကို ၎င်း၏ ကိုယ်ပိုင်ခြံစည်းရိုးအရိပ်နှင့် ဂြိုဟ်တစ်ခုလုံး၏ နေ့-ညမျဉ်း နှစ်ခုစလုံးကို ရှင်းပြရန် အသုံးပြုခဲ့သည်။",
+            "၎င်းသည် Week 24 ၏ အနှစ်ချုပ်သင်ခန်းစာကဲ့သို့ ပုံစံတူတူဖြင့် ယခင်အတွေးအခေါ်တစ်ခု (Week 21) ကို ပို၍ကြီးမားသော အတိုင်းအတာတွင် ထပ်မံ အသုံးချခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 7, Week 27: "Earth's Structure and the Rock Cycle"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek27 = CourseWeekDef(
+  id: "course-secondary1-science-w27",
+  weekNumber: 27,
+  titleEn: "Earth's Structure and the Rock Cycle",
+  titleMy: "ကမ္ဘာ၏ဖွဲ့စည်းပုံနှင့် ကျောက်တုံးသံသရာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w27-d1",
+      dayNumber: 1,
+      titleEn: "Earth's Structure and Rock Cycle Quiz",
+      titleMy: "ကမ္ဘာ၏ဖွဲ့စည်းပုံနှင့် ကျောက်တုံးသံသရာ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "One night, molten lava flows from a volcano and slowly cools and hardens into solid rock by morning. Recalling Week 2's particle model of freezing water, what is happening to the lava's particles as it cools, and what type of rock forms as a result?",
+          questionMy:
+              "တစ်ညတွင် တောင်ဖြစ်ချောင်းမီးတောင်တစ်ခုမှ အရည်ပျော်နေသောလာဗာစီးဆင်းလာပြီး မိုးသောက်ချိန်တွင် တဖြည်းဖြည်း အအေးခံကာ အစိုင်အခဲပစ္စည်းအဖြစ် အခဲပြတ်သွားသည်။ Week 2 ၏ ရေအခဲဖြစ်ခြင်း အနုမြူပုံစံကို သတိရလျှင် လာဗာ အအေးခံနေစဉ် ၎င်း၏ အနုမြူများတွင် အဘယ်အရာ ဖြစ်ပျက်နေသနည်း၊ ၎င်း၏ရလဒ်အနေဖြင့် မည်သည့်ကျောက်တုံးအမျိုးအစား ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "The particles lose energy, slow down and lock into a fixed arrangement, exactly like freezing water -- this cooling and solidifying of molten rock forms igneous rock.",
+            "The particles gain energy and speed up, forming sedimentary rock.",
+            "The particles disappear completely, forming metamorphic rock.",
+            "Nothing happens to the particles at all -- the lava simply changes colour.",
+          ],
+          optionsMy: [
+            "အနုမြူများသည် စွမ်းအင် ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားသည်၊ ရေအခဲဖြစ်ခြင်းနှင့် အတိအကျတူညီသည် -- အရည်ပျော်နေသောကျောက်တုံး၏ ဤအအေးခံခြင်းနှင့် အခဲပြတ်ခြင်းသည် အက်ဂနီးယပ်ကျောက် (Igneous Rock) ကို ဖြစ်ပေါ်စေသည်။",
+            "အနုမြူများသည် စွမ်းအင်ရရှိကာ မြန်ဆန်လာပြီး တလင်္ဂကျောက် (Sedimentary Rock) ဖြစ်ပေါ်လာသည်။",
+            "အနုမြူများသည် လုံးဝ ပျောက်ကွယ်သွားပြီး ပြောင်းလဲကျောက် (Metamorphic Rock) ဖြစ်ပေါ်လာသည်။",
+            "အနုမြူများတွင် မည်သည့်အရာမျှ လုံးဝ မဖြစ်ပျက်ပါ -- လာဗာသည် အရောင်ကိုသာ ပြောင်းလဲသွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's freezing lesson -- as a liquid cools, its particles lose energy, slow down, and settle into a fixed arrangement, becoming a solid.",
+            "This same particle-slowing process, just for molten rock instead of water, is exactly how igneous rock forms.",
+          ],
+          hintsMy: [
+            "Week 2 ၏ ရေအခဲဖြစ်ခြင်းသင်ခန်းစာကို သတိရပါ -- အရည်ပစ္စည်းတစ်ခု အအေးခံသောအခါ ၎င်း၏ အနုမြူများသည် စွမ်းအင်ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း တည်ငြိမ်ကာ အစိုင်အခဲအဖြစ်သို့ ပြောင်းလဲသွားသည်။",
+            "ဤအနုမြူနှေးလာခြင်းလုပ်ငန်းစဉ်တည်း၊ ရေအစား အရည်ပျော်နေသောကျောက်တုံးအတွက်သာ ကွာခြားပြီး၊ အက်ဂနီးယပ်ကျောက် ဖြစ်ပေါ်ပုံ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A hiker finds a rock with clearly visible layers and tiny fossilised seashells pressed inside it, far from any ocean today. Which rock type is this most likely to be, and how did it form?",
+          questionMy:
+              "တောင်တက်သူတစ်ဦးသည် ယနေ့ သမုဒ္ဒရာနှင့် ဝေးလံသောနေရာတွင် ရှင်းလင်းစွာမြင်နိုင်သော အလွှာများနှင့် ငါးကလောက် ကျောက်ဖြစ်ရုပ်ကြွင်းများ အတွင်းသို့ ဖိကလေးထားသော ကျောက်တုံးတစ်လုံးကို တွေ့ရှိသည်။ ဤသည်မှာ မည်သည့်ကျောက်တုံးအမျိုးအစားဖြစ်နိုင်ဆုံးဖြစ်ပြီး ၎င်းသည် မည်ကဲ့သို့ ဖြစ်ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Sedimentary rock, formed as layers of sediment (including shells) were compressed and cemented together over a very long time.",
+            "Igneous rock, formed as molten lava cooled quickly.",
+            "Metamorphic rock, formed by extreme heat alone with no layers at all.",
+            "This cannot really be a rock if it contains fossils.",
+          ],
+          optionsMy: [
+            "တလင်္ဂကျောက် (Sedimentary Rock)၊ အလွှာများ (ခရုသင်္ဘောအခွံများ အပါအဝင်) ကို ကာလကြာရှည်စွာ ဖိထားပြီး ကပ်ငြိစေသောကြောင့် ဖြစ်ပေါ်လာသည်။",
+            "အက်ဂနီးယပ်ကျောက် (Igneous Rock)၊ အရည်ပျော်နေသောလာဗာ လျင်မြန်စွာ အအေးခံခြင်းကြောင့် ဖြစ်ပေါ်လာသည်။",
+            "ပြောင်းလဲကျောက် (Metamorphic Rock)၊ အလွှာများ လုံးဝမပါဘဲ အလွန်အမင်းအပူတစ်ခုတည်းကြောင့် ဖြစ်ပေါ်လာသည်။",
+            "ကျောက်ဖြစ်ရုပ်ကြွင်း ပါဝင်ပါက ၎င်းသည် ကျောက်တုံး တကယ့်ကို မဖြစ်နိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sedimentary rock is the only one of the three types that forms in layers from compressed and cemented sediment -- exactly why it's also the type most likely to preserve fossils.",
+            "Recall this week's Day 2 vocabulary -- sedimentary rock's layered structure is its most distinctive feature.",
+          ],
+          hintsMy: [
+            "တလင်္ဂကျောက်သည် ဖိအားပေးထားသော၊ ကပ်ငြိထားသော အနည်ထိုင်ဒြပ်စုများမှ အလွှာများအဖြစ် ဖြစ်ပေါ်သော ကျောက်တုံးအမျိုးအစားသုံးမျိုးအနက် တစ်ခုတည်းသောအမျိုးအစား ဖြစ်သည် -- ၎င်းသည်ပင် ကျောက်ဖြစ်ရုပ်ကြွင်းများကို ထိန်းသိမ်းထားနိုင်ဆုံးအမျိုးအစားလည်း ဖြစ်စေသည့် အတိအကျအကြောင်းရင်း ဖြစ်သည်။",
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- တလင်္ဂကျောက်၏ အလွှာများပါသောဖွဲ့စည်းပုံသည် ၎င်း၏ အထူးသိသာသောလက္ခဏာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Deep underground, an existing rock is squeezed under enormous pressure and heated intensely for millions of years, yet it never actually melts into liquid. What type of rock results from this process?",
+          questionMy:
+              "မြေအောက်နက်နက်ရှိရာတွင် ရှိပြီးသားကျောက်တုံးတစ်လုံးသည် သန်းနှင့်ချီသောနှစ်များတိုင် ကြီးမားသောဖိအားအောက်တွင် ဖိကလေးခံရပြီး ပြင်းထန်စွာ အပူပေးခံရသော်လည်း ၎င်းသည် အရည်အဖြစ်သို့ အမှန်တကယ် ဘယ်တော့မှ မပျော်ပါ။ ဤလုပ်ငန်းစဉ်မှ မည်သည့်ကျောက်တုံးအမျိုးအစား ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Metamorphic rock, formed when an existing rock is changed by heat and pressure without fully melting.",
+            "Igneous rock, because any heat always means the rock has melted.",
+            "Sedimentary rock, because pressure always means layers of sediment.",
+            "No new rock forms unless the original rock fully melts.",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲကျောက် (Metamorphic Rock)၊ ရှိပြီးသားကျောက်တုံးတစ်လုံးကို အပြည့်အဝ မပျော်ဘဲ အပူနှင့်ဖိအားက ပြောင်းလဲစေသောအခါ ဖြစ်ပေါ်လာသည်။",
+            "အက်ဂနီးယပ်ကျောက် (Igneous Rock)၊ အပူသည် အမြဲ ကျောက်တုံးပျော်ကြောင်းကို ဆိုလိုသောကြောင့်။",
+            "တလင်္ဂကျောက် (Sedimentary Rock)၊ ဖိအားသည် အမြဲ အနည်ထိုင်အလွှာများကို ဆိုလိုသောကြောင့်။",
+            "မူလကျောက်တုံး အပြည့်အဝ မပျော်ပါက ကျောက်တုံးအသစ် ဘယ်တော့မှ မဖြစ်ပေါ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The key detail is that the rock never melts -- that immediately rules out igneous rock, which requires melting and cooling.",
+            "Recall this week's Day 2 vocabulary -- metamorphic rock is defined by heat and pressure changing a rock without melting it.",
+          ],
+          hintsMy: [
+            "အဓိကအချက်မှာ ကျောက်တုံးသည် ဘယ်တော့မှ မပျော်ခြင်းပင် ဖြစ်သည် -- ၎င်းက ပျော်ခြင်းနှင့် အအေးခံခြင်း လိုအပ်သည့် အက်ဂနီးယပ်ကျောက်ကို ချက်ချင်း ဖယ်ရှားပေးသည်။",
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ပြောင်းလဲကျောက်ကို ကျောက်တုံးတစ်လုံးအား မပျော်ဘဲ အပူနှင့်ဖိအားက ပြောင်းလဲစေခြင်းဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If you could drill straight down from Earth's surface, in which order would you pass through Earth's main layers, and which of those layers is liquid?",
+          questionMy:
+              "ကမ္ဘာ့မျက်နှာပြင်မှ တည့်တည့်အောက်သို့ တွင်းတူးနိုင်ပါက ကမ္ဘာ၏ အဓိကအလွှာများကို မည်သည့်အစီအစဉ်ဖြင့် ဖြတ်သန်းရမည်နည်း၊ ထိုအလွှာများအနက် မည်သည့်အလွှာက အရည်ဖြစ်သနည်း။",
+          optionsEn: [
+            "Crust, then mantle, then the liquid outer core, then the solid inner core.",
+            "Mantle, then crust, then a fully solid core throughout.",
+            "Core, then mantle, then crust, with the crust being liquid.",
+            "There is only one single layer, with no clear order at all.",
+          ],
+          optionsMy: [
+            "အခွံပြင် (Crust)၊ ထို့နောက် မန်တယ် (Mantle)၊ ထို့နောက် အရည်ဖြစ်သော ပြင်ပအလယ်ပိုင်း (Outer Core)၊ ထို့နောက် အစိုင်အခဲဖြစ်သော အတွင်းအလယ်ပိုင်း (Inner Core)။",
+            "မန်တယ်၊ ထို့နောက် အခွံပြင်၊ ထို့နောက် တစ်ခုလုံး အစိုင်အခဲဖြစ်သော အလယ်ပိုင်း။",
+            "အလယ်ပိုင်း၊ ထို့နောက် မန်တယ်၊ ထို့နောက် အခွံပြင်၊ အခွံပြင်သည် အရည်ဖြစ်သည်။",
+            "အလွှာတစ်ခုတည်းသာ ရှိပြီး ရှင်းလင်းသောအစီအစဉ် လုံးဝ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 2 vocabulary -- the crust is Earth's thin outer layer, the mantle lies beneath it, and the core is at the very centre.",
+            "The outer core is liquid, while immense pressure keeps the even hotter inner core solid.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- အခွံပြင်သည် ကမ္ဘာ၏ ပါးလွှာသောပြင်ပအလွှာဖြစ်ပြီး မန်တယ်သည် ၎င်းအောက်တွင် ရှိကာ အလယ်ပိုင်းသည် အလွန်ဗဟိုတွင် ရှိသည်။",
+            "ပြင်ပအလယ်ပိုင်းသည် အရည်ဖြစ်ပြီး၊ ပို၍ ပူသော်လည်း ကြီးမားသောဖိအားက အတွင်းအလယ်ပိုင်းကို အစိုင်အခဲအဖြစ် ဆက်ထားပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match the Earth's Structure and Rock Terms",
+      titleMy: "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် ကျောက်တုံးဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w27-dm-1",
+          termEn: "Crust",
+          termMy: "အခွံပြင် (Crust)",
+          matchEn:
+              "Earth's thin, solid outermost layer -- the ground we live and stand on.",
+          matchMy:
+              "ကမ္ဘာ၏ ပါးလွှာ၊ အစိုင်အခဲဖြစ်သော ပြင်ဆုံးအလွှာဖြစ်ပြီး ငါတို့ နေထိုင်ရပ်တည်ရာ မြေပြင် ဖြစ်သည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w27-dm-2",
+          termEn: "Mantle",
+          termMy: "မန်တယ် (Mantle)",
+          matchEn:
+              "The thick layer beneath the crust, mostly solid rock that can flow extremely slowly over very long timescales.",
+          matchMy:
+              "အခွံပြင်အောက်ရှိ ထူထဲသောအလွှာဖြစ်ပြီး အများစုမှာ အစိုင်အခဲကျောက်တုံးဖြစ်သော်လည်း ကာလကြာရှည်စွာအတွင်း အလွန်နှေးကွေးစွာ စီးဆင်းနိုင်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w27-dm-3",
+          termEn: "Core",
+          termMy: "အလယ်ပိုင်း (Core)",
+          matchEn:
+              "Earth's centre, made mostly of iron and nickel -- its outer part is liquid, while immense pressure keeps its even hotter inner part solid.",
+          matchMy:
+              "ကမ္ဘာ၏ ဗဟိုပိုင်းဖြစ်ပြီး အများစုမှာ သံနှင့်နီကယ်ဖြင့် ဖွဲ့စည်းထားသည် -- ၎င်း၏ ပြင်ပပိုင်းသည် အရည်ဖြစ်ပြီး ပို၍ ပူသော်လည်း ကြီးမားသောဖိအားက အတွင်းပိုင်းကို အစိုင်အခဲအဖြစ် ဆက်ထားပေးသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w27-dm-4",
+          termEn: "Igneous Rock",
+          termMy: "အက်ဂနီးယပ်ကျောက် (Igneous Rock)",
+          matchEn:
+              "Rock formed when molten rock cools and solidifies, its particles locking into a fixed arrangement.",
+          matchMy:
+              "အရည်ပျော်နေသောကျောက်တုံးသည် အအေးခံကာ အခဲပြတ်သွားသောအခါ ၎င်း၏ အနုမြူများ ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခြင်းဖြင့် ဖြစ်ပေါ်လာသော ကျောက်တုံး။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w27-dm-5",
+          termEn: "Sedimentary Rock",
+          termMy: "တလင်္ဂကျောက် (Sedimentary Rock)",
+          matchEn:
+              "Rock formed from layers of sediment compressed and cemented together over a very long time, often containing fossils.",
+          matchMy:
+              "အနည်ထိုင်ဒြပ်စုများ၏ အလွှာများသည် ကာလကြာရှည်စွာ ဖိထားပြီး ကပ်ငြိသွားခြင်းဖြင့် ဖြစ်ပေါ်လာသော ကျောက်တုံးဖြစ်ပြီး မကြာခဏ ကျောက်ဖြစ်ရုပ်ကြွင်းများ ပါဝင်လေ့ရှိသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w27-dm-6",
+          termEn: "Metamorphic Rock",
+          termMy: "ပြောင်းလဲကျောက် (Metamorphic Rock)",
+          matchEn:
+              "Rock formed when an existing rock is changed by intense heat and pressure without fully melting.",
+          matchMy:
+              "ရှိပြီးသားကျောက်တုံးတစ်လုံးကို အပြည့်အဝ မပျော်ဘဲ ပြင်းထန်သောအပူနှင့်ဖိအားက ပြောင်းလဲစေသောအခါ ဖြစ်ပေါ်လာသော ကျောက်တုံး။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Earth's Structure or the Rock Cycle?",
+      titleMy: "စီစစ်ကြမည် - ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့်သက်ဆိုင်သလား၊ ကျောက်တုံးသံသရာနှင့်သက်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of Earth's Structure", "True of the Rock Cycle"],
+        bucketsMy: [
+          "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် သက်ဆိုင်သည်",
+          "ကျောက်တုံးသံသရာနှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w27-sort-1",
+            labelEn: "The crust is Earth's thin, solid outer layer",
+            labelMy: "အခွံပြင်သည် ကမ္ဘာ၏ ပါးလွှာ၊ အစိုင်အခဲပြင်ပအလွှာ ဖြစ်သည်",
+            correctBucketEn: "True of Earth's Structure",
+            correctBucketMy: "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-2",
+            labelEn: "The mantle can flow extremely slowly over long timescales",
+            labelMy: "မန်တယ်သည် ကာလကြာရှည်စွာအတွင်း အလွန်နှေးကွေးစွာ စီးဆင်းနိုင်သည်",
+            correctBucketEn: "True of Earth's Structure",
+            correctBucketMy: "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-3",
+            labelEn: "The outer core is liquid, made mostly of iron and nickel",
+            labelMy: "ပြင်ပအလယ်ပိုင်းသည် အရည်ဖြစ်ပြီး အများစုမှာ သံနှင့်နီကယ်ဖြင့် ဖွဲ့စည်းထားသည်",
+            correctBucketEn: "True of Earth's Structure",
+            correctBucketMy: "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-4",
+            labelEn:
+                "The inner core is solid despite extreme heat, because of immense pressure",
+            labelMy:
+                "အလွန်ပူသော်လည်း ကြီးမားသောဖိအားကြောင့် အတွင်းအလယ်ပိုင်းသည် အစိုင်အခဲဖြစ်သည်",
+            correctBucketEn: "True of Earth's Structure",
+            correctBucketMy: "ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-5",
+            labelEn: "Igneous rock forms when molten rock cools and solidifies",
+            labelMy: "အရည်ပျော်နေသောကျောက်တုံး အအေးခံ၍ အခဲပြတ်သောအခါ အက်ဂနီးယပ်ကျောက် ဖြစ်ပေါ်လာသည်",
+            correctBucketEn: "True of the Rock Cycle",
+            correctBucketMy: "ကျောက်တုံးသံသရာနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-6",
+            labelEn:
+                "Sedimentary rock forms from compressed, cemented layers of sediment",
+            labelMy:
+                "ဖိထားပြီး ကပ်ငြိထားသော အနည်ထိုင်အလွှာများမှ တလင်္ဂကျောက် ဖြစ်ပေါ်လာသည်",
+            correctBucketEn: "True of the Rock Cycle",
+            correctBucketMy: "ကျောက်တုံးသံသရာနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-7",
+            labelEn:
+                "Metamorphic rock forms when heat and pressure change a rock without melting it",
+            labelMy:
+                "အပူနှင့်ဖိအားက ကျောက်တုံးတစ်လုံးကို မပျော်ဘဲ ပြောင်းလဲစေသောအခါ ပြောင်းလဲကျောက် ဖြစ်ပေါ်လာသည်",
+            correctBucketEn: "True of the Rock Cycle",
+            correctBucketMy: "ကျောက်တုံးသံသရာနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w27-sort-8",
+            labelEn:
+                "Rock types can continuously change into one another over very long periods of time",
+            labelMy:
+                "ကျောက်တုံးအမျိုးအစားများသည် ကာလရှည်လျားစွာအတွင်း တစ်ခုမှတစ်ခုသို့ အဆက်မပြတ် ပြောင်းလဲသွားနိုင်သည်",
+            correctBucketEn: "True of the Rock Cycle",
+            correctBucketMy: "ကျောက်တုံးသံသရာနှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Quarry Trip",
+      titleMy: "စာဖတ်ခြင်း - သီရိ၏ ကျောက်တွင်းခရီးစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Quarry Trip",
+        titleMy: "သီရိ၏ ကျောက်တွင်းခရီးစဉ်",
+        passageEn:
+            "Thiri's class travelled to a working quarry on a hillside outside town, where machines cut great pale blocks of stone from an exposed rock face. A geologist guide met them at the entrance and pointed up at the towering wall of rock, explaining that it held clues to Earth's history stretching back millions of years.\n\nNear one edge of the quarry, close to where an old lava flow had once poured down the hillside, the guide showed the class a patch of dark, glassy rock. This, she explained, was igneous rock, formed when molten lava cooled and solidified. Thiri suddenly thought of Week 2 and the ice cubes she had watched freeze in her own kitchen -- as the water cooled, its particles lost energy, slowed down, and locked into a fixed arrangement, becoming solid ice. The lava had done exactly the same thing, just with rock instead of water, and at a temperature far too hot to ever touch.\n\nFurther along the rock face, the guide pointed to a section with clear, pale stripes running through it, and here and there, the faint outline of tiny ancient seashells. This layered rock, she said, was sedimentary rock, built up over an enormous span of time as sediment settled in layers, one on top of another, and was slowly compressed and cemented together -- which was exactly why fossils like these shells could sometimes be preserved inside it.\n\nDeepest into the quarry, the guide showed the class a very different-looking rock: dark and pale minerals swirled together in wavy, folded bands, nothing like the flat layers of the sedimentary rock. This metamorphic rock, she explained, had once been an entirely different rock, buried deep underground and squeezed under enormous pressure while intensely heated for millions of years -- yet it had never fully melted. Thiri left the quarry amazed that the same simple particle idea from her own kitchen -- particles slowing down as something cools and solidifies -- could help explain something as vast as an entire quarry wall.",
+        passageMy:
+            "သီရိ၏ အတန်းသည် မြို့ပြင်ရှိ တောင်ကုန်းတစ်ခုပေါ်ရှိ လက်ရှိအလုပ်လုပ်နေသော ကျောက်တွင်းတစ်ခုသို့ ခရီးထွက်ခဲ့ကြသည်။ ထိုနေရာတွင် စက်များက ဖော်ထုတ်ထားသော ကျောက်မျက်နှာပြင်မှ ခေါင်းကြီးနေသော ဖျော့ဖျော့ကျောက်တုံးအိုင်များကို ဖြတ်တောက်နေကြသည်။ ပထဝီဗေဒပညာရှင်လမ်းညွှန်တစ်ဦးက ၎င်းတို့ကို ဝင်ပေါက်တွင် တွေ့ဆုံပြီး ကျောက်နံရံမြင့်မားကြီးကို ညွှန်ပြကာ ၎င်းသည် သန်းနှင့်ချီသောနှစ်များအထိ ကျယ်ပြန့်သည့် ကမ္ဘာ့သမိုင်း သက်သေခံများကို ပါဝင်ကြောင်း ရှင်းပြခဲ့သည်။\n\nကျောက်တွင်း၏ အနားတစ်ခုအနီး၊ တစ်ချိန်က တောင်ဖြစ်ချောင်းလာဗာစီးဆင်းချက်တစ်ခု တောင်ကုန်းအတိုင်း စီးဆင်းခဲ့ဖူးသောနေရာနှင့် နီးစပ်ရာတွင် လမ်းညွှန်က မှောင်မှောင်၊ မှန်ကဲ့သို့တောက်ပသော ကျောက်တုံးအစအနအား အတန်းသားများကို ပြသခဲ့သည်။ ၎င်းသည် အရည်ပျော်နေသောလာဗာ အအေးခံကာ အခဲပြတ်သွားသောအခါ ဖြစ်ပေါ်လာသော အက်ဂနီးယပ်ကျောက်ဖြစ်ကြောင်း သူမ ရှင်းပြခဲ့သည်။ သီရိသည် ရုတ်တရက် Week 2 နှင့် ၎င်းကိုယ်တိုင် မိမိထမင်းဖိုးခန်းတွင် ကြည့်ရှုခဲ့ဖူးသော ရေခဲခဲစဉ် အခင်းအကျင်းကို တွေးမိလိုက်သည် -- ရေအေးလာသည်နှင့်အမျှ ၎င်း၏ အနုမြူများသည် စွမ်းအင်ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျကာ အစိုင်အခဲရေခဲအဖြစ်သို့ ပြောင်းလဲသွားခဲ့သည်။ လာဗာသည်လည်း ရေအစား ကျောက်တုံးဖြင့် အတိအကျ တူညီစွာ ပြုလုပ်ခဲ့ခြင်းသာ ဖြစ်ပြီး ဘယ်တော့မှ ထိတွေ့ရန် လွန်စွာပူနွေးလွန်းသည့် အပူချိန်တွင် ဖြစ်ပျက်ခဲ့ခြင်း ဖြစ်သည်။\n\nကျောက်မျက်နှာပြင်တစ်လျှောက် ဆက်လျှောက်သွားသောအခါ လမ်းညွှန်က ရှင်းလင်းသော၊ ဖျော့ဖျော့ကျဉ်းသောစင်တန်းများ ဖြတ်သန်းနေသောအပိုင်းတစ်ခုနှင့် တစ်နေရာနှင့်တစ်နေရာတွင် ရှေးဟောင်းငါးကလောက်အခွံများ၏ ဖျော့ဖျော့သောပုံသဏ္ဌာန်ကို ညွှန်ပြခဲ့သည်။ ဤအလွှာပါသောကျောက်တုံးသည် အနည်ထိုင်ဒြပ်စုများ အလွှာအလိုက် တစ်ခုအပေါ်တစ်ခု ကျဆင်းစုစည်းလာပြီး တဖြည်းဖြည်း ဖိထားကာ ကပ်ငြိသွားသော ကာလကြာရှည်ကြီးမားသောကာလတစ်ခုအတွင်း တည်ဆောက်လာသော တလင်္ဂကျောက်ဖြစ်ကြောင်း သူမ ဖော်ပြခဲ့သည် -- ၎င်းသည်ပင် ဤခရုသင်္ဘောအခွံများကဲ့သို့သော ကျောက်ဖြစ်ရုပ်ကြွင်းများ တစ်ခါတစ်ရံ ၎င်းအတွင်း ထိန်းသိမ်းထားနိုင်ခြင်း၏ အတိအကျအကြောင်းရင်း ဖြစ်သည်။\n\nကျောက်တွင်း အနက်ဆုံးနေရာတွင် လမ်းညွှန်က တလင်္ဂကျောက်၏ ညီညာသောအလွှာများနှင့် လုံးဝကွဲပြားသော ကျောက်တုံးတစ်ခုကို အတန်းအား ပြသခဲ့သည် - မှောင်မှောင်နှင့် ဖျော့ဖျော့သတ္ထုများသည် လှိုင်းထလို၊ ခေါက်နေသော အစင်းများအဖြစ် တစ်ခုနှင့်တစ်ခု ရောနှောနေသည်။ ဤပြောင်းလဲကျောက်သည် တစ်ချိန်က လုံးဝကွဲပြားသော ကျောက်တုံးတစ်လုံးဖြစ်ခဲ့ဖူးပြီး၊ မြေအောက်နက်နက်တွင် သင်္ဂြိုဟ်ခံရကာ သန်းနှင့်ချီသောနှစ်များတိုင် ပြင်းထန်စွာ အပူပေးခံရဆဲ ကြီးမားသောဖိအားအောက်တွင် ဖိကလေးခံခဲ့ရသည် -- သို့သော် ၎င်းသည် အပြည့်အဝ ဘယ်တော့မှ မပျော်ခဲ့ပါ ဟု သူမ ရှင်းပြခဲ့သည်။ သီရိသည် ၎င်း၏ ကိုယ်ပိုင်ထမင်းဖိုးခန်းမှ အနုမြူရိုးရှင်းသောအတွေးအခေါ်တစ်ခုတည်း -- တစ်စုံတစ်ခု အအေးခံ၍ အခဲပြတ်သွားသည်နှင့်အမျှ အနုမြူများ နှေးလာခြင်း -- သည် ကျောက်တွင်းနံရံတစ်ခုလုံးကဲ့သို့ ကျယ်ပြန့်သောအရာကို ရှင်းပြရာတွင် အထောက်အကူပြုနိုင်ကြောင်း အံ့ဩလျက် ကျောက်တွင်းမှ ပြန်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Thiri think of when the guide explained how the dark, glassy igneous rock formed?",
+            questionMy:
+                "မှောင်မှောင်၊ တောက်ပသော အက်ဂနီးယပ်ကျောက် မည်ကဲ့သို့ ဖြစ်ပေါ်ကြောင်း လမ်းညွှန်က ရှင်းပြသောအခါ သီရိသည် အဘယ်အရာကို တွေးမိခဲ့သနည်း။",
+            optionsEn: [
+              "Week 2's ice cubes freezing in her own kitchen, and how the particles lost energy and locked into a fixed arrangement.",
+              "Week 7's energy stores in a stretched elastic band.",
+              "Week 15's photosynthesis word equation.",
+              "She did not think of anything from an earlier week.",
+            ],
+            optionsMy: [
+              "Week 2 ၏ ၎င်းကိုယ်တိုင်ထမင်းဖိုးခန်းတွင် ရေခဲခဲသော ရေခဲအိတ်များနှင့် အနုမြူများ စွမ်းအင်ဆုံးရှုံးကာ ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားပုံကို တွေးမိခဲ့သည်။",
+              "Week 7 ၏ ဆန့်တန်းထားသောရာဘာကြိုးတစ်ခု၏ စွမ်းအင်သိုလှောင်မှုများကို တွေးမိခဲ့သည်။",
+              "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း စကားလုံးညီမျှခြင်းကို တွေးမိခဲ့သည်။",
+              "ယခင်အပတ်တစ်ခုမှ မည်သည့်အရာကိုမျှ မတွေးမိခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it directly names Week 2's ice cubes.",
+              "This is the same particle-slowing idea used in Day 1's first question.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် Week 2 ၏ ရေခဲအိတ်များကို တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းတွင် အသုံးပြုထားသော အနုမြူနှေးလာခြင်း အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why could tiny fossil seashells sometimes be found inside the sedimentary rock?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ တလင်္ဂကျောက်အတွင်း ငါးကလောက်ကျောက်ဖြစ်ရုပ်ကြွင်းများကို တစ်ခါတစ်ရံ အဘယ့်ကြောင့် တွေ့ရနိုင်သနည်း။",
+            optionsEn: [
+              "Because the rock formed slowly from layers of sediment settling, compressing and cementing together over time, sometimes trapping shells inside.",
+              "Because igneous rock always contains fossils.",
+              "Because the guide placed the fossils there herself.",
+              "Fossils can never actually be found inside rock.",
+            ],
+            optionsMy: [
+              "ကျောက်တုံးသည် အနည်ထိုင်ဒြပ်စုများ ကျဆင်းစုစည်းလာပြီး ဖိထားကာ ကပ်ငြိသွားသောအလွှာများမှ တဖြည်းဖြည်း ဖြစ်ပေါ်လာသောကြောင့်ဖြစ်ပြီး တစ်ခါတစ်ရံ အခွံများကို အတွင်းတွင် ချုပ်ကိုင်ထားခြင်း ဖြစ်နိုင်သောကြောင့်။",
+              "အက်ဂနီးယပ်ကျောက်တွင် ကျောက်ဖြစ်ရုပ်ကြွင်းများ အမြဲပါဝင်သောကြောင့်။",
+              "လမ်းညွှန်ကိုယ်တိုင်က ကျောက်ဖြစ်ရုပ်ကြွင်းများကို ထိုနေရာတွင် ထားခဲ့ခြင်းကြောင့်။",
+              "ကျောက်တုံးအတွင်း ကျောက်ဖြစ်ရုပ်ကြွင်းများကို အမှန်တကယ် ဘယ်တော့မှ မတွေ့နိုင်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this directly.",
+              "This is the same reasoning from Day 1's second question about the hiker's fossil-bearing rock.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ -- ၎င်းသည် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသည်။",
+              "၎င်းသည် တောင်တက်သူ၏ ကျောက်ဖြစ်ရုပ်ကြွင်းပါကျောက်တုံးအကြောင်း ပထမနေ့ ဒုတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What key detail, according to the final paragraph, showed that the folded, banded rock was metamorphic rather than igneous?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ ခေါက်နေသော၊ အစင်းပါကျောက်တုံးသည် အက်ဂနီးယပ်ကျောက်မဟုတ်ဘဲ ပြောင်းလဲကျောက်ဖြစ်ကြောင်း ပြသသော အဓိကအချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "It had been intensely heated and squeezed under pressure for millions of years, yet it never fully melted.",
+              "It was found on the surface, not underground.",
+              "It contained fossil seashells.",
+              "It was the exact same colour as the igneous rock.",
+            ],
+            optionsMy: [
+              "၎င်းသည် သန်းနှင့်ချီသောနှစ်များတိုင် ပြင်းထန်စွာ အပူပေးခံရပြီး ဖိအားအောက်တွင် ဖိကလေးခံရသော်လည်း အပြည့်အဝ ဘယ်တော့မှ မပျော်ခဲ့ပါ။",
+              "မျက်နှာပြင်တွင် တွေ့ရှိရသည်၊ မြေအောက်တွင် မဟုတ်ပါ။",
+              "ငါးကလောက်ကျောက်ဖြစ်ရုပ်ကြွင်းများ ပါဝင်နေသည်။",
+              "အက်ဂနီးယပ်ကျောက်နှင့် အရောင်တူတူ ဖြစ်နေသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which names heat, pressure and never fully melting as the key detail.",
+              "This is the same reasoning from Day 1's third question about the deep underground rock.",
+            ],
+            hintsMy: [
+              "အပူ၊ ဖိအားနှင့် အပြည့်အဝ ဘယ်တော့မှ မပျော်ခြင်းကို အဓိကအချက်အဖြစ် အမည်တွင်ထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် မြေအောက်နက်နက်ရှိကျောက်တုံးအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What single idea did Thiri realize could explain something as large as an entire quarry wall, according to the passage's final sentence?",
+            questionMy:
+                "စာပိုဒ်၏ နောက်ဆုံးဝါကျအရ ကျောက်တွင်းနံရံတစ်ခုလုံးကဲ့သို့ ကြီးမားသောအရာကို ရှင်းပြနိုင်ကြောင်း သီရိ သတိထားမိသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The particle model idea of particles slowing down as something cools and solidifies.",
+              "That every rock is secretly the exact same rock.",
+              "That fossils are the only thing that matters in geology.",
+              "That mountains never actually change over time.",
+            ],
+            optionsMy: [
+              "တစ်စုံတစ်ခု အအေးခံ၍ အခဲပြတ်သွားသည်နှင့်အမျှ အနုမြူများ နှေးလာသည်ဆိုသော အနုမြူပုံစံအတွေးအခေါ်။",
+              "ကျောက်တုံးတိုင်းသည် လျှို့ဝှက်စွာ ကျောက်တုံးတစ်ခုတည်း ဖြစ်ကြောင်း။",
+              "ဇီဝဗေဒတွင် ကျောက်ဖြစ်ရုပ်ကြွင်းများသာ အရေးကြီးကြောင်း။",
+              "တောင်များသည် ကာလအလိုက် အမှန်တကယ် ဘယ်တော့မှ မပြောင်းလဲကြောင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence, which directly names this particle idea.",
+              "This is the same idea Thiri first applied to the igneous rock earlier in the passage, now applied to the whole quarry.",
+            ],
+            hintsMy: [
+              "ဤအနုမြူအတွေးအခေါ်ကို တိုက်ရိုက် အမည်တွင်ထားသော နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် သီရိက စာပိုဒ်အစောပိုင်းတွင် အက်ဂနီးယပ်ကျောက်အား ပထမဆုံးအသုံးချခဲ့သော အတွေးအခေါ်တစ်ခုတည်းပင်ဖြစ်ပြီး ယခုအခါ ကျောက်တွင်းတစ်ခုလုံးအတွက် အသုံးချထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Earth's Structure and the Rock Cycle",
+      titleMy: "အပတ်စဉ် ၂၇ ပြန်လည်သုံးသပ်ခြင်း - ကမ္ဘာ၏ဖွဲ့စည်းပုံနှင့် ကျောက်တုံးသံသရာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of Earth's three main layers is at the very centre?",
+          questionMy: "ကမ္ဘာ၏ အဓိကအလွှာသုံးခုအနက် မည်သည့်အလွှာသည် အလွန်ဗဟိုတွင် ရှိသနည်း။",
+          optionsEn: ["The core", "The crust", "The mantle", "There is no centre layer"],
+          optionsMy: ["အလယ်ပိုင်း", "အခွံပြင်", "မန်တယ်", "ဗဟိုအလွှာ လုံးဝ မရှိပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Day 2's vocabulary -- crust, then mantle, then core, from the surface inward.",
+            "Recall Thiri's guide -- the core is Earth's centre, made mostly of iron and nickel.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- မျက်နှာပြင်မှ အတွင်းသို့ အခွံပြင်၊ ထို့နောက် မန်တယ်၊ ထို့နောက် အလယ်ပိုင်း။",
+            "သီရိ၏ လမ်းညွှန်ကို သတိရပါ -- အလယ်ပိုင်းသည် ကမ္ဘာ၏ ဗဟိုပိုင်းဖြစ်ပြီး အများစုမှာ သံနှင့်နီကယ်ဖြင့် ဖွဲ့စည်းထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "How does igneous rock form?",
+          questionMy: "အက်ဂနီးယပ်ကျောက်သည် မည်ကဲ့သို့ ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Molten rock cools and solidifies, its particles locking into a fixed arrangement",
+            "Layers of sediment are compressed and cemented together",
+            "An existing rock is changed by heat and pressure without melting",
+            "It falls from the sky during a storm",
+          ],
+          optionsMy: [
+            "အရည်ပျော်နေသောကျောက်တုံး အအေးခံ၍ အခဲပြတ်ကာ ၎င်း၏ အနုမြူများ ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခြင်း",
+            "အနည်ထိုင်အလွှာများကို ဖိထားပြီး ကပ်ငြိသွားခြင်း",
+            "ရှိပြီးသားကျောက်တုံးတစ်လုံးကို မပျော်ဘဲ အပူနှင့်ဖိအားက ပြောင်းလဲစေခြင်း",
+            "မုန်တိုင်းတစ်ခုအတွင်း ကောင်းကင်မှ ကျလာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Thiri's own ice-cube memory from Week 2.",
+            "The other two options describe sedimentary and metamorphic rock instead.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် Week 2 မှ သီရိ၏ ကိုယ်ပိုင် ရေခဲအိတ်အမှတ်တရကို သတိရပါ။",
+            "အခြားရွေးချယ်စရာနှစ်ခုသည် တလင်္ဂကျောက်နှင့် ပြောင်းလဲကျောက်ကို ဖော်ပြထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does sedimentary rock, unlike the other two rock types, often contain fossils?",
+          questionMy:
+              "အခြားကျောက်တုံးအမျိုးအစားနှစ်မျိုးနှင့်မတူဘဲ တလင်္ဂကျောက်တွင် အဘယ့်ကြောင့် ကျောက်ဖြစ်ရုပ်ကြွင်းများ မကြာခဏ ပါဝင်နေသနည်း။",
+          optionsEn: [
+            "It forms slowly in layers, sometimes trapping the remains of living things as sediment settles and compresses",
+            "It always forms from melted rock at very high temperatures",
+            "It only forms deep underground, far from any living things",
+            "Fossils are added to it artificially after it forms",
+          ],
+          optionsMy: [
+            "အနည်ထိုင်ဒြပ်စုများ ကျဆင်းစုစည်းလာပြီး ဖိထားသည်နှင့်အမျှ သက်ရှိအကြွင်းအကျန်များကို တစ်ခါတစ်ရံ ချုပ်ကိုင်ကာ အလွှာများအဖြစ် နှေးကွေးစွာ ဖြစ်ပေါ်လာသောကြောင့်",
+            "အလွန်မြင့်မားသောအပူချိန်တွင် အရည်ပျော်နေသောကျောက်တုံးမှသာ အမြဲ ဖြစ်ပေါ်လာသောကြောင့်",
+            "သက်ရှိမည်သည့်အရာနှင့်မျှ ဝေးလံသော မြေအောက်နက်နက်တွင်သာ ဖြစ်ပေါ်လာသောကြောင့်",
+            "ကျောက်တုံးဖြစ်ပြီးနောက် ကျောက်ဖြစ်ရုပ်ကြွင်းများကို အတုအပ ထည့်ပေးထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Thiri's guide -- sedimentary rock's slow, layered formation is exactly what lets fossils sometimes become trapped inside.",
+            "This is why the hiker's fossil-bearing rock in Day 1 had to be sedimentary, not igneous or metamorphic.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် သီရိ၏ လမ်းညွှန်ကို သတိရပါ -- တလင်္ဂကျောက်၏ နှေးကွေးသော၊ အလွှာအလိုက် ဖြစ်ပေါ်ခြင်းသည်ပင် ကျောက်ဖြစ်ရုပ်ကြွင်းများ တစ်ခါတစ်ရံ အတွင်းတွင် ချုပ်ကိုင်ခံရနိုင်စေသည်။",
+            "ဤအကြောင်းကြောင့်ပင် ပထမနေ့ရှိ တောင်တက်သူ၏ ကျောက်ဖြစ်ရုပ်ကြွင်းပါကျောက်တုံးသည် အက်ဂနီးယပ် (သို့) ပြောင်းလဲကျောက် မဟုတ်ဘဲ တလင်္ဂကျောက် ဖြစ်ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between how igneous rock forms and how metamorphic rock forms?",
+          questionMy:
+              "အက်ဂနီးယပ်ကျောက် ဖြစ်ပေါ်ပုံနှင့် ပြောင်းလဲကျောက် ဖြစ်ပေါ်ပုံအကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Igneous rock forms from rock that fully melts and cools; metamorphic rock forms from rock that is heated and squeezed but never fully melts.",
+            "There is no real difference -- they are the exact same process.",
+            "Igneous rock never involves heat at all.",
+            "Metamorphic rock always forms in layers with fossils.",
+          ],
+          optionsMy: [
+            "အက်ဂနီးယပ်ကျောက်သည် အပြည့်အဝ ပျော်ပြီး အအေးခံသောကျောက်တုံးမှ ဖြစ်ပေါ်လာပြီး၊ ပြောင်းလဲကျောက်သည် အပူပေးခံရ၊ ဖိကလေးခံရသော်လည်း အပြည့်အဝ ဘယ်တော့မှ မပျော်သောကျောက်တုံးမှ ဖြစ်ပေါ်လာသည်။",
+            "အမှန်တကယ် ကွာခြားချက် မရှိပါ -- ၎င်းတို့သည် အတိအကျ လုပ်ငန်းစဉ်တစ်ခုတည်း ဖြစ်ကြသည်။",
+            "အက်ဂနီးယပ်ကျောက်တွင် အပူ လုံးဝ မပါဝင်ပါ။",
+            "ပြောင်းလဲကျောက်သည် ကျောက်ဖြစ်ရုပ်ကြွင်းများပါသော အလွှာများအဖြစ် အမြဲ ဖြစ်ပေါ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first and third questions, and Thiri's guide -- melting versus never melting is the key distinction.",
+            "This is the same distinction from the reading passage's final two paragraphs.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမနှင့် တတိယမေးခွန်းများနှင့် သီရိ၏ လမ်းညွှန်ကို သတိရပါ -- ပျော်ခြင်းနှင့် ဘယ်တော့မှ မပျော်ခြင်းသည် အဓိကခွဲခြားချက် ဖြစ်သည်။",
+            "၎င်းသည် စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်နှစ်ပိုဒ်မှ ကွဲပြားချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, what single idea from Week 2 helped Thiri understand how igneous rock forms?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် အက်ဂနီးယပ်ကျောက် မည်ကဲ့သို့ ဖြစ်ပေါ်ကြောင်း သီရိကို နားလည်စေရန် ကူညီပေးခဲ့သော Week 2 မှ အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The particle model -- particles lose energy, slow down and lock into a fixed arrangement as a liquid cools into a solid, whether it is water or molten rock.",
+            "The scientific method's steps for a fair test.",
+            "The seven MRS GREN characteristics of life.",
+            "The three states of matter have nothing to do with rocks at all.",
+          ],
+          optionsMy: [
+            "အနုမြူပုံစံ -- ရေ ဖြစ်စေ၊ အရည်ပျော်နေသောကျောက်တုံး ဖြစ်စေ အရည်ပစ္စည်းတစ်ခု အစိုင်အခဲအဖြစ် အအေးခံသောအခါ အနုမြူများသည် စွမ်းအင်ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခြင်း။",
+            "တရားမျှတသော စမ်းသပ်မှုတစ်ခုအတွက် သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၏ အဆင့်များ။",
+            "သက်ရှိများ၏ MRS GREN လက္ခဏာခုနစ်ခု။",
+            "ဒြပ်ထု၏ အခြေအနေသုံးမျိုးသည် ကျောက်တုံးများနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiri's own ice-cube memory from the reading passage -- the same particle-slowing idea explained both her freezer and the quarry's igneous rock.",
+            "This is the same idea from Day 1's first question and Day 3's sorting activity.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ သီရိ၏ ကိုယ်ပိုင် ရေခဲအိတ်အမှတ်တရကို သတိရပါ -- အနုမြူနှေးလာခြင်း အတွေးအခေါ်တစ်ခုတည်းက သူမ၏ ရေခဲသေတ္တာနှင့် ကျောက်တွင်း၏ အက်ဂနီးယပ်ကျောက် နှစ်ခုစလုံးကို ရှင်းပြခဲ့သည်။",
+            "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းနှင့် တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 7, Week 28: "Earth and Space -- Capstone"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek28 = CourseWeekDef(
+  id: "course-secondary1-science-w28",
+  weekNumber: 28,
+  titleEn: "Earth and Space: The Planetarium and the Quarry",
+  titleMy: "ကမ္ဘာနှင့်အာကာသ - နက္ခတ်ဗေဒဌာနနှင့် ကျောက်တွင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w28-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Earth and Space Quiz",
+      titleMy: "ပေါင်းစပ် ကမ္ဘာနှင့်အာကာသ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On the planetarium dome, Zaw saw a simulation of Earth spinning in place while also sweeping along a much larger curved path around the Sun. Which two separate causes are responsible for these two different motions?",
+          questionMy:
+              "နက္ခတ်ဗေဒဌာနခေါင်းလုံးပေါ်တွင် ဇော်သည် ကမ္ဘာသည် ၎င်းနေရာတွင် လည်ပတ်နေသည်နှင့်အတူ ပို၍ကြီးမားသော အနားကွေးလမ်းကြောင်းအတိုင်း နေကို ဝန်းရံသွားနေသည့် ပုံဖော်မှုတစ်ခုကို တွေ့ခဲ့သည်။ ဤ ကွဲပြားသောရွေ့လျားမှုနှစ်ခုအတွက် တာဝန်ရှိသော သီးခြားအကြောင်းရင်းနှစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Earth's rotation on its own axis causes day and night, while a completely separate motion -- its orbit, driven by the Sun's gravity -- causes its year-long journey around the Sun.",
+            "Both motions are caused by exactly the same single thing: Earth's axial tilt.",
+            "The spinning is caused by gravity, and the orbit is caused by rotation -- the two causes are simply swapped.",
+            "Neither motion has any real cause -- they simply happen on their own.",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ၏ ကိုယ်ပိုင်ဝင်ရိုးပေါ်လည်ပတ်မှုက နေ့နှင့်ညကို ဖြစ်ပေါ်စေပြီး လုံးဝကွဲပြားသော ရွေ့လျားမှုတစ်ခုဖြစ်သော -- နေ၏ ဆွဲငင်အားက တွန်းအားပေးသော ၎င်း၏လှည့်ပတ်လမ်းကြောင်းက နေကို ဝန်းရံသည့် တစ်နှစ်ကြာခရီးကို ဖြစ်ပေါ်စေသည်။",
+            "ရွေ့လျားမှုနှစ်ခုစလုံးသည် အတိအကျ တစ်ခုတည်းသောအရာ -- ကမ္ဘာ၏ဝင်ရိုးစောင်းခြင်း -- ကြောင့် ဖြစ်ပေါ်ကြသည်။",
+            "လည်ပတ်မှုသည် ဆွဲငင်အားကြောင့်ဖြစ်ပြီး လှည့်ပတ်လမ်းကြောင်းသည် လည်ပတ်မှုကြောင့် ဖြစ်သည် -- အကြောင်းရင်းနှစ်ခုသည် ရိုးရှင်းစွာ ပြောင်းသွားခြင်းသာ ဖြစ်သည်။",
+            "ရွေ့လျားမှုနှစ်ခုစလုံးတွင် အကြောင်းရင်း အမှန်တကယ် မရှိပါ -- ၎င်းတို့သည် ၎င်းတို့အလိုလို ဖြစ်ပျက်ခြင်းသာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 25's lesson on gravity and orbit, and Week 26's lesson on rotation causing day and night -- these are two distinct ideas, not one.",
+            "Rotation is Earth spinning around its own axis (about 24 hours); orbit is Earth travelling all the way around the Sun (about a year) -- very different timescales for very different motions.",
+          ],
+          hintsMy: [
+            "Week 25 ၏ ဆွဲငင်အားနှင့် လှည့်ပတ်လမ်းကြောင်းသင်ခန်းစာနှင့် Week 26 ၏ လည်ပတ်မှုက နေ့နှင့်ညကို ဖြစ်ပေါ်စေခြင်းသင်ခန်းစာကို သတိရပါ -- ၎င်းတို့သည် တစ်ခုတည်း မဟုတ်ဘဲ ကွဲပြားသောအတွေးအခေါ်နှစ်ခု ဖြစ်ကြသည်။",
+            "လည်ပတ်မှုသည် ကမ္ဘာ၏ ကိုယ်ပိုင်ဝင်ရိုးပေါ်လည်ပတ်ခြင်း (နာရီ ၂၄ ခန့်) ဖြစ်ပြီး၊ လှည့်ပတ်လမ်းကြောင်းသည် ကမ္ဘာနေကို လုံးလုံးဝန်းရံခြင်း (တစ်နှစ်ခန့်) ဖြစ်သည် -- လွန်စွာကွာခြားသောအချိန်စကေးများ၊ လွန်စွာကွာခြားသော ရွေ့လျားမှုများအတွက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the afternoon, at the quarry, Zaw touched a patch of igneous rock near an old lava flow -- it was cool and completely solid, even though it had once been glowing-hot molten rock. Using the particle model from Week 2, what changed inside the rock as it went from molten to solid?",
+          questionMy:
+              "နေ့လည်ဘက်တွင် ကျောက်တွင်းရှိ ဇော်သည် တစ်ချိန်က တောင်ဖြစ်ချောင်းလာဗာစီးဆင်းခဲ့ဖူးသောနေရာအနီးရှိ အက်ဂနီးယပ်ကျောက်တစ်စိတ်တစ်ပိုင်းကို ထိတွေ့ခဲ့သည် -- ၎င်းသည် တစ်ချိန်က တောက်ပပူနွေးနေသောအရည်ပျော်ကျောက်တုံးဖြစ်ခဲ့ဖူးသော်လည်း ယခုအခါ အေးမြပြီး လုံးဝ အစိုင်အခဲဖြစ်နေသည်။ Week 2 ၏ အနုမြူပုံစံကို အသုံးပြု၍ ကျောက်တုံးသည် အရည်ပျော်မှ အစိုင်အခဲသို့ ပြောင်းလဲသွားစဉ် ၎င်းအတွင်း အဘယ်အရာ ပြောင်းလဲသွားခဲ့သနည်း။",
+          optionsEn: [
+            "The rock's particles lost energy, slowed down and locked into a fixed arrangement, exactly the same process as water freezing into ice.",
+            "The particles turned into a completely different substance with no connection to the original rock.",
+            "The particles gained energy and moved faster as the rock cooled.",
+            "Nothing changed inside the rock at all -- only its outside appearance changed.",
+          ],
+          optionsMy: [
+            "ကျောက်တုံး၏ အနုမြူများသည် စွမ်းအင်ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခဲ့သည်၊ ရေ ရေခဲအဖြစ်သို့ ခဲပြတ်သွားခြင်းနှင့် အတိအကျ လုပ်ငန်းစဉ်တူညီသည်။",
+            "အနုမြူများသည် မူလကျောက်တုံးနှင့် မည်သည့်ဆက်စပ်မှုမျှ မရှိသော လုံးဝကွဲပြားသောပစ္စည်းအဖြစ်သို့ ပြောင်းလဲသွားသည်။",
+            "ကျောက်တုံးအေးလာသည်နှင့်အမျှ အနုမြူများသည် စွမ်းအင်ရရှိကာ ပို၍မြန်ဆန်စွာ ရွေ့လျားလာသည်။",
+            "ကျောက်တုံးအတွင်း မည်သည့်အရာမျှ လုံးဝ မပြောင်းလဲခဲ့ပါ -- ၎င်း၏ ပြင်ပပုံသဏ္ဌာန်သာ ပြောင်းလဲခဲ့သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 27's Day 1 question about lava cooling, and Week 2's particle model of freezing -- particles losing energy and slowing into a fixed arrangement is exactly how a liquid becomes a solid.",
+            "This is the same particle-slowing idea Thiri applied to her own quarry visit in Week 27's reading passage.",
+          ],
+          hintsMy: [
+            "Week 27 ၏ ပထမနေ့မှ လာဗာအအေးခံခြင်းအကြောင်း မေးခွန်းနှင့် Week 2 ၏ ရေအခဲဖြစ်ခြင်း အနုမြူပုံစံကို သတိရပါ -- အနုမြူများ စွမ်းအင်ဆုံးရှုံးကာ ပုံသေအစီအစဉ်တစ်ခုအတွင်း နှေးလာခြင်းသည် အရည်ပစ္စည်းတစ်ခု အစိုင်အခဲဖြစ်လာပုံ အတိအကျပင် ဖြစ်သည်။",
+            "၎င်းသည် Week 27 ၏ စာဖတ်ခန်းတွင် သီရိက ၎င်း၏ ကိုယ်ပိုင်ကျောက်တွင်းခရီးစဉ်အတွက် အသုံးချခဲ့သော အနုမြူနှေးလာခြင်း အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Zaw wondered: at the planetarium, gravity keeps planets millions of kilometres away in orbit around the Sun. At the quarry, gravity also keeps loose rocks resting firmly on the ground rather than floating off. Are these really the same force?",
+          questionMy:
+              "ဇော်သည် တွေးတောခဲ့သည် - နက္ခတ်ဗေဒဌာနတွင် ဆွဲငင်အားသည် ကီလိုမီတာသန်းနှင့်ချီဝေးလံသောနေရာမှ ဂြိုဟ်များကို နေပတ်လည် ဝန်းရံနေစေသည်။ ကျောက်တွင်းတွင်လည်း ဆွဲငင်အားသည် ကျောက်တုံးလွတ်များကို မျောမသွားစေဘဲ မြေပြင်ပေါ်တွင် ခိုင်မာစွာ တည်ရှိနေစေသည်။ ဤအားနှစ်ခုသည် အမှန်တကယ် အားတစ်ခုတည်းပင် ဖြစ်သလား။",
+          optionsEn: [
+            "Yes -- gravity is one and the same non-contact pulling force between objects with mass; the Sun's gravity pulls on distant planets while Earth's own gravity pulls on nearby rocks, both without any contact.",
+            "No -- these must be two completely unrelated forces that happen to share a name.",
+            "No -- only the Sun has gravity; Earth has none of its own.",
+            "Yes, but only because the rocks are secretly touching the Sun.",
+          ],
+          optionsMy: [
+            "မှန်ပါသည် -- ဆွဲငင်အားသည် ဒြပ်ထုရှိသောအရာဝတ္ထုများကြားရှိ ထိတွေ့မှုမလိုအပ်သော ဆွဲငင်အားတစ်ခုတည်းပင် ဖြစ်ပြီး၊ နေ၏ ဆွဲငင်အားက ဝေးလံသောဂြိုဟ်များကို ဆွဲငင်သကဲ့သို့ ကမ္ဘာကိုယ်တိုင်၏ ဆွဲငင်အားသည်လည်း အနီးအနားရှိ ကျောက်တုံးများကို ထိတွေ့မှုမရှိဘဲ ဆွဲငင်ထားသည်။",
+            "မဟုတ်ပါ -- ၎င်းတို့သည် အမည်ကို တွဲဖက်ခံရသော လုံးဝမသက်ဆိုင်သောအားနှစ်ခု ဖြစ်ရမည်။",
+            "မဟုတ်ပါ -- နေသာလျှင် ဆွဲငင်အားရှိပြီး ကမ္ဘာတွင် ၎င်းကိုယ်ပိုင်ဆွဲငင်အား လုံးဝ မရှိပါ။",
+            "မှန်ပါသည်၊ သို့သော် ကျောက်တုံးများသည် နေကို လျှို့ဝှက်စွာ ထိတွေ့နေသောကြောင့်သာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's original definition of gravity (pulling objects toward Earth) and Week 25's extension of it to the Sun and planets -- both are the same non-contact force, just acting on objects of very different sizes and distances.",
+            "Any two objects with mass pull on each other with gravity; the Sun's huge mass makes its pull strong enough to hold planets in orbit, while Earth's mass makes its pull strong enough to hold rocks (and people) on the ground.",
+          ],
+          hintsMy: [
+            "Week 3 ၏ ဆွဲငင်အား၏ မူလအဓိပ္ပာယ်ဖွင့်ဆိုချက် (အရာဝတ္ထုများကို ကမ္ဘာဘက်သို့ ဆွဲငင်ခြင်း) နှင့် Week 25 ၏ ၎င်းကို နေနှင့်ဂြိုဟ်များအထိ တိုးချဲ့ခြင်းကို သတိရပါ -- နှစ်ခုစလုံးသည် ထိတွေ့မှုမလိုအပ်သောအားတစ်ခုတည်းဖြစ်ပြီး ကွဲပြားသောအရွယ်အစားနှင့် အကွာအဝေးများပေါ်တွင်သာ လုပ်ဆောင်နေခြင်း ဖြစ်သည်။",
+            "ဒြပ်ထုရှိသော အရာဝတ္ထုနှစ်ခုသည် ဆွဲငင်အားဖြင့် တစ်ခုနှင့်တစ်ခု ဆွဲငင်ကြသည် -- နေ၏ ကြီးမားသောဒြပ်ထုက ၎င်း၏ ဆွဲငင်မှုကို ဂြိုဟ်များကို လှည့်ပတ်စေနိုင်လောက်အောင် ပြင်းထန်စေပြီး ကမ္ဘာ၏ ဒြပ်ထုကလည်း ၎င်း၏ ဆွဲငင်မှုကို ကျောက်တုံးများ (နှင့် လူများ) ကို မြေပြင်ပေါ်တွင် ထားရှိနိုင်လောက်အောင် ပြင်းထန်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "As the class left the quarry, the Sun set and the sky darkened within a single hour, with a fairly sharp boundary sweeping past -- yet the rock layers all around them had taken millions of years to form. What does this contrast tell you?",
+          questionMy:
+              "အတန်းသားများ ကျောက်တွင်းမှ ထွက်ခွာလာစဉ် နေဝင်သွားပြီး တစ်နာရီအတွင်း ကောင်းကင် မှောင်လာခဲ့သည်၊ အတော်လေး ထက်မြက်သောနယ်နိမိတ်တစ်ခု ဖြတ်သန်းသွားခဲ့သည် -- သို့သော် ၎င်းတို့ဝန်းရံနေသော ကျောက်အလွှာများမှာမူ ဖြစ်ပေါ်လာရန် သန်းနှင့်ချီသောနှစ်များ ကြာခဲ့သည်။ ဤဆန့်ကျင်ဘက်နှိုင်းယှဉ်ချက်က အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Natural processes happen on very different timescales -- Earth's rotation causes day and night in about 24 hours, while the rock cycle reshapes rock over millions of years.",
+            "It tells us that rocks and sunsets are actually caused by the exact same fast process.",
+            "It proves that the rock layers were secretly formed within that single hour too.",
+            "It shows that time does not really apply to rocks at all.",
+          ],
+          optionsMy: [
+            "သဘာဝဖြစ်စဉ်များသည် လွန်စွာကွာခြားသောအချိန်စကေးများပေါ်တွင် ဖြစ်ပျက်ကြသည် -- ကမ္ဘာ၏လည်ပတ်မှုသည် နာရီ ၂၄ ခန့်အတွင်း နေ့နှင့်ညကို ဖြစ်ပေါ်စေပြီး ကျောက်တုံးသံသရာမူ ကျောက်တုံးကို သန်းနှင့်ချီသောနှစ်များတိုင် ပြန်လည်ပုံဖော်ပေးသည်။",
+            "ကျောက်တုံးများနှင့် နေဝင်ချိန်တို့သည် အမှန်တကယ် လျင်မြန်သောလုပ်ငန်းစဉ်တစ်ခုတည်းကြောင့် ဖြစ်ပေါ်ကြောင်း ဖော်ပြသည်။",
+            "ကျောက်အလွှာများသည် ထိုတစ်နာရီအတွင်းတွင်ပင် လျှို့ဝှက်စွာ ဖြစ်ပေါ်ခဲ့ကြောင်း သက်သေပြသည်။",
+            "အချိန်သည် ကျောက်တုံးများအတွက် လုံးဝ အကျုံးမဝင်ကြောင်း ပြသသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 26's day-night boundary (about 24 hours) and Week 27's rock cycle (millions of years) -- both are real, but at wildly different speeds.",
+            "This same kind of contrast appeared in Week 20's capstone, comparing a food chain's fast energy flow with its slower-building population sizes.",
+          ],
+          hintsMy: [
+            "Week 26 ၏ နေ့-ည နယ်နိမိတ် (နာရီ ၂၄ ခန့်) နှင့် Week 27 ၏ ကျောက်တုံးသံသရာ (သန်းနှင့်ချီသောနှစ်များ) ကို သတိရပါ -- နှစ်ခုစလုံးသည် အစစ်အမှန်ဖြစ်သော်လည်း လွန်စွာကွာခြားသော အလျင်နှုန်းများပေါ်တွင် ဖြစ်ပျက်ကြသည်။",
+            "ဤကဲ့သို့ ဆန့်ကျင်ဘက်နှိုင်းယှဉ်ချက်မျိုးသည် Week 20 ၏ အနှစ်ချုပ်သင်ခန်းစာတွင်လည်း ပေါ်ခဲ့ဖူးသည်၊ အစားအစာကွင်းဆက်တစ်ခု၏ လျင်မြန်သောစွမ်းအင်စီးဆင်းမှုကို ၎င်း၏ ပို၍နှေးကွေးသော လူဦးရေတိုးတက်မှုနှင့် နှိုင်းယှဉ်ခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match the Earth and Space Terms",
+      titleMy: "ကမ္ဘာနှင့်အာကာသ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w28-dm-1",
+          termEn: "Gravity",
+          termMy: "ဆွဲငင်အား (Gravity)",
+          matchEn:
+              "A non-contact pulling force between any two objects with mass -- the Sun's gravity holds planets in orbit, and Earth's own gravity holds rocks and people on the ground.",
+          matchMy:
+              "ဒြပ်ထုရှိသော အရာဝတ္ထုနှစ်ခုကြားရှိ ထိတွေ့မှုမလိုအပ်သော ဆွဲငင်အားဖြစ်ပြီး နေ၏ ဆွဲငင်အားက ဂြိုဟ်များကို လှည့်ပတ်နေစေပြီး ကမ္ဘာကိုယ်တိုင်၏ ဆွဲငင်အားကလည်း ကျောက်တုံးနှင့်လူများကို မြေပြင်ပေါ်တွင် ထားရှိနေသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w28-dm-2",
+          termEn: "Orbit",
+          termMy: "လှည့်ပတ်လမ်းကြောင်း (Orbit)",
+          matchEn:
+              "Earth's roughly year-long journey around the Sun, kept on its curved path by the Sun's constant gravitational pull.",
+          matchMy:
+              "နေ၏ အမြဲတမ်း ဆွဲငင်အားက ၎င်း၏ အနားကွေးလမ်းကြောင်းအတိုင်း ထိန်းထားပေးသော ကမ္ဘာ၏ တစ်နှစ်ခန့်ကြာ နေကို ဝန်းရံသည့်ခရီး။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w28-dm-3",
+          termEn: "Axial Tilt",
+          termMy: "ဝင်ရိုးစောင်းခြင်း (Axial Tilt)",
+          matchEn:
+              "Earth's axis leaning at an angle rather than standing perfectly upright, the underlying cause of the seasons.",
+          matchMy:
+              "ကမ္ဘာ၏ ဝင်ရိုးသည် အတိအကျ ဒေါင်လိုက် မရပ်ဘဲ ထောင့်တစ်ခုဖြင့် စောင်းနေခြင်းဖြစ်ပြီး ရာသီများ၏ အရင်းခံအကြောင်းရင်း ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w28-dm-4",
+          termEn: "Rock Cycle",
+          termMy: "ကျောက်တုံးသံသရာ (Rock Cycle)",
+          matchEn:
+              "The continuous process by which igneous, sedimentary and metamorphic rock can each transform into either of the other two types over very long periods of time.",
+          matchMy:
+              "အက်ဂနီးယပ်၊ တလင်္ဂနှင့် ပြောင်းလဲကျောက် တစ်ခုစီသည် ကာလရှည်လျားစွာအတွင်း အခြားနှစ်မျိုးထဲမှ တစ်ခုသို့ ပြောင်းလဲသွားနိုင်သော အဆက်မပြတ်လုပ်ငန်းစဉ်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w28-dm-5",
+          termEn: "Igneous Rock",
+          termMy: "အက်ဂနီးယပ်ကျောက် (Igneous Rock)",
+          matchEn:
+              "Rock formed when molten rock cools and solidifies, its particles losing energy and locking into a fixed arrangement.",
+          matchMy:
+              "အရည်ပျော်နေသောကျောက်တုံးသည် အအေးခံကာ အခဲပြတ်သွားသောအခါ ၎င်း၏ အနုမြူများ စွမ်းအင်ဆုံးရှုံးကာ ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခြင်းဖြင့် ဖြစ်ပေါ်လာသော ကျောက်တုံး။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w28-dm-6",
+          termEn: "Non-Contact Force",
+          termMy: "ထိတွေ့မှုမလိုအပ်သောအား (Non-Contact Force)",
+          matchEn:
+              "A force, such as gravity or magnetism, that can act on an object across a distance without the two objects ever touching.",
+          matchMy:
+              "ဆွဲငင်အား (သို့) သံလိုက်အားကဲ့သို့ အရာဝတ္ထုနှစ်ခု လုံးဝ မထိတွေ့ဘဲ အကွာအဝေးတစ်လျှောက် အကျိုးသက်ရောက်နိုင်သော အားတစ်မျိုး။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True at the Planetarium or True at the Quarry?",
+      titleMy: "စီစစ်ကြမည် - နက္ခတ်ဗေဒဌာနနှင့်သက်ဆိုင်သလား၊ ကျောက်တွင်းနှင့်သက်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "True at the Planetarium",
+          "True at the Quarry",
+        ],
+        bucketsMy: [
+          "နက္ခတ်ဗေဒဌာနနှင့် သက်ဆိုင်သည်",
+          "ကျောက်တွင်းနှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w28-sort-1",
+            labelEn: "The Sun's gravity keeps every planet in its orbit",
+            labelMy: "နေ၏ ဆွဲငင်အားက ဂြိုဟ်တိုင်းကို ၎င်း၏လှည့်ပတ်လမ်းကြောင်းတွင် ရှိနေစေသည်",
+            correctBucketEn: "True at the Planetarium",
+            correctBucketMy: "နက္ခတ်ဗေဒဌာနနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-2",
+            labelEn: "Earth's rotation on its axis causes day and night",
+            labelMy: "ကမ္ဘာ၏ ဝင်ရိုးပေါ်လည်ပတ်မှုက နေ့နှင့်ညကို ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "True at the Planetarium",
+            correctBucketMy: "နက္ခတ်ဗေဒဌာနနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-3",
+            labelEn: "Earth's axial tilt causes the seasons",
+            labelMy: "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းက ရာသီများကို ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "True at the Planetarium",
+            correctBucketMy: "နက္ခတ်ဗေဒဌာနနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-4",
+            labelEn: "The eight planets circle the Sun without ever touching it",
+            labelMy: "ဂြိုဟ်ရှစ်လုံးသည် နေကို လုံးဝမထိတွေ့ဘဲ ဝန်းရံသည်",
+            correctBucketEn: "True at the Planetarium",
+            correctBucketMy: "နက္ခတ်ဗေဒဌာနနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-5",
+            labelEn: "Molten lava cooling and solidifying forms igneous rock",
+            labelMy: "အရည်ပျော်နေသောလာဗာ အအေးခံ၍ အခဲပြတ်ခြင်းက အက်ဂနီးယပ်ကျောက်ကို ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "True at the Quarry",
+            correctBucketMy: "ကျောက်တွင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-6",
+            labelEn:
+                "Compressed, cemented layers of sediment form sedimentary rock, sometimes with fossils inside",
+            labelMy:
+                "ဖိထားပြီး ကပ်ငြိထားသော အနည်ထိုင်အလွှာများက တလင်္ဂကျောက်ကို ဖြစ်ပေါ်စေပြီး တစ်ခါတစ်ရံ အတွင်းတွင် ကျောက်ဖြစ်ရုပ်ကြွင်းများ ပါရှိသည်",
+            correctBucketEn: "True at the Quarry",
+            correctBucketMy: "ကျောက်တွင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-7",
+            labelEn:
+                "Intense heat and pressure, without full melting, form metamorphic rock",
+            labelMy:
+                "ပြင်းထန်သောအပူနှင့်ဖိအားသည် အပြည့်အဝ မပျော်ဘဲ ပြောင်းလဲကျောက်ကို ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "True at the Quarry",
+            correctBucketMy: "ကျောက်တွင်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w28-sort-8",
+            labelEn:
+                "The three rock types can change into each other through the rock cycle",
+            labelMy:
+                "ကျောက်တုံးအမျိုးအစားသုံးမျိုးသည် ကျောက်တုံးသံသရာမှတစ်ဆင့် တစ်ခုမှတစ်ခုသို့ ပြောင်းလဲသွားနိုင်သည်",
+            correctBucketEn: "True at the Quarry",
+            correctBucketMy: "ကျောက်တွင်းနှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zaw's Planetarium and Quarry Trip",
+      titleMy: "စာဖတ်ခြင်း - ဇော်၏ နက္ခတ်ဗေဒဌာနနှင့် ကျောက်တွင်းခရီးစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zaw's Planetarium and Quarry Trip",
+        titleMy: "ဇော်၏ နက္ခတ်ဗေဒဌာနနှင့် ကျောက်တွင်းခရီးစဉ်",
+        passageEn:
+            "Zaw's class had an unusually busy field-trip day: a morning at the city planetarium, followed by an afternoon at a working quarry on a hillside just outside town. In the planetarium's dark dome, a presenter showed the eight planets sweeping silently around a glowing model Sun, explaining that the Sun's enormous gravity -- an unbalanced, non-contact force -- constantly pulled each planet toward it, bending its path into a curved orbit rather than letting it fly off in a straight line.\n\nThe presenter then switched to a spinning globe, showing how Earth's rotation on its own axis, once roughly every 24 hours, swept a sharp day-night boundary around the planet -- the same straight-line light travel Zaw had learned about back in Week 21. She also tilted the globe at an angle and explained that this axial tilt, not any change in distance from the Sun, was the true cause of the seasons, with each hemisphere leaning toward or away from the Sun at different points in Earth's year-long orbit.\n\nBy the afternoon, Zaw's class stood at the edge of the quarry, where a geologist guide pointed out dark, glassy igneous rock near an old lava flow, layered sedimentary rock with tiny fossil shells, and folded, banded metamorphic rock deep in the quarry wall. Touching the cool, solid igneous rock, Zaw thought back to Week 2's particle model: as the once-molten rock cooled, its particles had lost energy, slowed down, and locked into a fixed arrangement -- exactly the same process that froze water into ice, just at a far higher temperature.\n\nWalking back to the bus as the Sun set and the sky darkened within a single sharp-edged hour, Zaw thought about how strange it was that the rock layers all around him had taken millions of years to form, while the day-night boundary he had just watched sweep past took less than a day. Yet somehow, the very same handful of big ideas -- gravity pulling without contact, light travelling in straight lines, and particles slowing as something cools -- explained everything he had seen that day, whether it happened in a single afternoon or across millions of years, and whether it happened at Earth's surface or 150 million kilometres away at the Sun.",
+        passageMy:
+            "ဇော်၏ အတန်းသည် ပုံမှန်ထက် အလုပ်များသော ကွင်းဆင်းခရီးစဉ်တစ်ရက်ကို ကြုံခဲ့ရသည် - မနက်ခင်းတွင် မြို့ပြနက္ခတ်ဗေဒဌာနသို့ သွားပြီး နောက် နေ့လည်ခင်းတွင် မြို့ပြင်ရှိ တောင်ကုန်းတစ်ခုပေါ်ရှိ လက်ရှိအလုပ်လုပ်နေသော ကျောက်တွင်းသို့ သွားရောက်ခဲ့သည်။ နက္ခတ်ဗေဒဌာန၏ မှောင်နေသော ဗိမာန်ခေါင်းလုံးထဲတွင် တင်ဆက်သူတစ်ဦးက ဂြိုဟ်ရှစ်လုံးသည် တောက်ပနေသော နေနမူနာတစ်ခုကို တိတ်တဆိတ် ဝန်းရံလှည့်ပတ်နေသည်ကို ပြသကာ နေ၏ ကြီးမားသောဆွဲငင်အား -- ဟန်ချက်မညီသော၊ ထိတွေ့မှုမလိုအပ်သောအား -- သည် ဂြိုဟ်တစ်လုံးစီကို ၎င်းဘက်သို့ အမြဲ ဆွဲငင်နေပြီး ဖြောင့်တန်းလိုက် ပြေးထွက်သွားစေမည့်အစား ၎င်း၏လမ်းကြောင်းကို အနားကွေးလှည့်ပတ်လမ်းကြောင်းအဖြစ် ကွေးစေကြောင်း ရှင်းပြခဲ့သည်။\n\nထို့နောက် တင်ဆက်သူသည် လည်ပတ်နေသောကမ္ဘာလုံးပုံသို့ ပြောင်းလဲကာ ကမ္ဘာ၏ ကိုယ်ပိုင်ဝင်ရိုးပေါ်လည်ပတ်မှု (နာရီ ၂၄ ခန့်တစ်ကြိမ်) သည် ဂြိုဟ်ပတ်လည် ထက်မြက်သောနေ့-ည နယ်နိမိတ်တစ်ခုကို မည်ကဲ့သို့ ရွေ့လျားစေကြောင်း ပြသခဲ့သည် -- ဇော် Week 21 တွင် သင်ယူခဲ့ဖူးသော ဖြောင့်တန်းလိုက် အလင်းခရီးသွားခြင်းတည်းပင် ဖြစ်သည်။ သူမသည် ကမ္ဘာလုံးပုံကို ထောင့်တစ်ခုဖြင့် စောင်းလိုက်ပြီး ဤဝင်ရိုးစောင်းခြင်းသည် နေနှင့် အကွာအဝေး ပြောင်းလဲခြင်းမဟုတ်ဘဲ ရာသီများ၏ တကယ့်အကြောင်းရင်းဖြစ်ကြောင်း ရှင်းပြခဲ့သည်၊ ခြမ်းတစ်ဖက်စီသည် ကမ္ဘာ၏ တစ်နှစ်ကြာ လှည့်ပတ်လမ်းကြောင်း၏ မတူညီသောအချက်များတွင် နေဘက်သို့ (သို့) ဆန့်ကျင်ဘက်သို့ စောင်းနေသည်။\n\nနေ့လည်ခင်းရောက်သောအခါ ဇော်၏ အတန်းသည် ကျောက်တွင်း၏အနားတွင် ရပ်လျက်ရှိပြီး ထိုနေရာတွင် ပထဝီဗေဒပညာရှင်လမ်းညွှန်တစ်ဦးက တစ်ချိန်က တောင်ဖြစ်ချောင်းလာဗာစီးဆင်းခဲ့ဖူးသောနေရာအနီးရှိ မှောင်မှောင်၊ တောက်ပသော အက်ဂနီးယပ်ကျောက်၊ ငါးကလောက်ကျောက်ဖြစ်ရုပ်ကြွင်းများပါသော အလွှာပါတလင်္ဂကျောက်၊ ကျောက်တွင်းနံရံနက်နက်ရှိ ခေါက်နေသောအစင်းပါ ပြောင်းလဲကျောက်တို့ကို ညွှန်ပြခဲ့သည်။ အေးမြ၊ အစိုင်အခဲဖြစ်နေသော အက်ဂနီးယပ်ကျောက်ကို ထိတွေ့ကာ ဇော်သည် Week 2 ၏ အနုမြူပုံစံကို ပြန်တွေးမိခဲ့သည် - တစ်ချိန်က အရည်ပျော်နေခဲ့သော ကျောက်တုံးအေးလာသည်နှင့်အမျှ ၎င်း၏ အနုမြူများသည် စွမ်းအင်ဆုံးရှုံးကာ နှေးလာပြီး ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားခဲ့သည် -- ရေကို ရေခဲအဖြစ်သို့ ခဲပြတ်စေသော လုပ်ငန်းစဉ်တည်းပင်၊ ပို၍ မြင့်မားသောအပူချိန်တွင်သာ ကွာခြားသည်။\n\nနေဝင်ပြီး ကောင်းကင်သည် ထက်မြက်သောနာရီတစ်ခုအတွင်း မှောင်လာစဉ် ဘတ်စ်ကားဘက်သို့ လမ်းလျှောက်ပြန်လာစဉ် ဇော်သည် သူ့ပတ်ဝန်းကျင်ရှိ ကျောက်အလွှာများ ဖြစ်ပေါ်လာရန် သန်းနှင့်ချီသောနှစ်များ ကြာခဲ့ရသော်လည်း သူ ယခုပင် ကြည့်ရှုခဲ့သော နေ့-ည နယ်နိမိတ်ကမူ တစ်ရက်အောက်သာ ကြာခဲ့ကြောင်းကို ထူးဆန်းသည်ဟု တွေးမိခဲ့သည်။ သို့သော် တစ်နည်းနည်းဖြင့် ကြီးမားသောအတွေးအခေါ်ငယ်လေးအုပ်စုတစ်ခုတည်း -- ထိတွေ့မှုမလိုအပ်ဘဲ ဆွဲငင်နေသောအား၊ ဖြောင့်တန်းလိုက် ခရီးသွားသောအလင်းနှင့် တစ်စုံတစ်ခု အအေးခံသည်နှင့်အမျှ နှေးလာသောအနုမြူများ -- သည် နေ့လည်ခင်းတစ်ခုတည်းအတွင်း ဖြစ်ပျက်ခဲ့စေ၊ သန်းနှင့်ချီသောနှစ်များတိုင် ဖြစ်ပျက်ခဲ့စေ၊ ကမ္ဘာ့မျက်နှာပြင်တွင် ဖြစ်ပျက်ခဲ့စေ၊ ကီလိုမီတာ ၁၅၀ သန်းအဝေးရှိ နေတွင် ဖြစ်ပျက်ခဲ့စေ ထိုနေ့တွင် သူတွေ့ခဲ့ရသမျှ အားလုံးကို ရှင်းပြနိုင်ခဲ့ကြောင်း ဇော် သတိထားမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what did the presenter say was the true cause of the seasons?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ ရာသီများ၏ တကယ့်အကြောင်းရင်းမှာ အဘယ်အရာဖြစ်ကြောင်း တင်ဆက်သူ ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Earth's axial tilt, not any change in distance from the Sun.",
+              "A change in the Sun's own brightness each month.",
+              "Earth moving closer to and farther from the Sun.",
+              "The presenter did not explain the seasons at all.",
+            ],
+            optionsMy: [
+              "ကမ္ဘာ၏ ဝင်ရိုးစောင်းခြင်းဖြစ်ပြီး နေနှင့် အကွာအဝေး ပြောင်းလဲခြင်း မဟုတ်ပါ။",
+              "လတစ်လီအလိုက် နေ၏ ကိုယ်ပိုင်တောက်ပမှု ပြောင်းလဲခြင်း။",
+              "ကမ္ဘာသည် နေနှင့် ပိုနီးလာခြင်းနှင့် ပိုဝေးသွားခြင်း။",
+              "တင်ဆက်သူသည် ရာသီများအကြောင်း လုံးဝ ရှင်းပြခဲ့ခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph -- it directly names axial tilt, not distance, as the true cause.",
+              "This is the same idea from Week 26's Day 1 fourth question.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ -- ၎င်းသည် အကွာအဝေးမဟုတ်ဘဲ ဝင်ရိုးစောင်းခြင်းကို တကယ့်အကြောင်းရင်းအဖြစ် တိုက်ရိုက် အမည်တွင်ထားသည်။",
+              "၎င်းသည် Week 26 ၏ ပထမနေ့ စတုတ္ထမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Zaw think about when he touched the cool, solid igneous rock, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ အေးမြ၊ အစိုင်အခဲဖြစ်နေသော အက်ဂနီးယပ်ကျောက်ကို ထိတွေ့စဉ် ဇော် အဘယ်အရာကို တွေးမိခဲ့သနည်း။",
+            optionsEn: [
+              "Week 2's particle model, and how the rock's particles lost energy and locked into a fixed arrangement as it cooled.",
+              "Week 15's photosynthesis word equation.",
+              "Week 23's sound vibrations travelling through a medium.",
+              "He thought about nothing from an earlier week.",
+            ],
+            optionsMy: [
+              "Week 2 ၏ အနုမြူပုံစံနှင့် ကျောက်တုံးအေးလာသည်နှင့်အမျှ ၎င်း၏ အနုမြူများ စွမ်းအင်ဆုံးရှုံးကာ ပုံသေအစီအစဉ်တစ်ခုအတွင်း လော့ခ်ကျသွားပုံကို တွေးမိခဲ့သည်။",
+              "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း စကားလုံးညီမျှခြင်းကို တွေးမိခဲ့သည်။",
+              "Week 23 ၏ ကြားခံဒြပ်ထုတစ်ခုကို ဖြတ်၍ ခရီးသွားသော အသံတုန်ခါမှုများကို တွေးမိခဲ့သည်။",
+              "ယခင်အပတ်တစ်ခုမှ မည်သည့်အရာကိုမျှ မတွေးမိခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which directly names Week 2's particle model.",
+              "This is the same particle-slowing idea from Day 1's second question.",
+            ],
+            hintsMy: [
+              "Week 2 ၏ အနုမြူပုံစံကို တိုက်ရိုက် အမည်တွင်ထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ဒုတိယမေးခွန်းမှ အနုမြူနှေးလာခြင်း အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what contrast did Zaw notice between the rock layers and the day-night boundary?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ ကျောက်အလွှာများနှင့် နေ့-ည နယ်နိမိတ်အကြား ဇော် မည်သည့်ဆန့်ကျင်ဘက်နှိုင်းယှဉ်ချက်ကို သတိထားမိခဲ့သနည်း။",
+            optionsEn: [
+              "The rock layers took millions of years to form, while the day-night boundary took less than a day.",
+              "Both took exactly the same amount of time to form.",
+              "The day-night boundary took millions of years, while the rock formed in a single afternoon.",
+              "Neither the rock layers nor the boundary took any time at all.",
+            ],
+            optionsMy: [
+              "ကျောက်အလွှာများ ဖြစ်ပေါ်လာရန် သန်းနှင့်ချီသောနှစ်များ ကြာခဲ့ပြီး နေ့-ည နယ်နိမိတ်မှာမူ တစ်ရက်အောက်သာ ကြာခဲ့သည်။",
+              "နှစ်ခုစလုံးသည် ဖြစ်ပေါ်လာရန် အချိန်တူတူသာ ကြာခဲ့သည်။",
+              "နေ့-ည နယ်နိမိတ် သန်းနှင့်ချီသောနှစ်များ ကြာခဲ့ပြီး ကျောက်တုံးမှာမူ နေ့လည်ခင်းတစ်ခုတည်းအတွင်း ဖြစ်ပေါ်လာခဲ့သည်။",
+              "ကျောက်အလွှာများနှင့် နယ်နိမိတ်နှစ်ခုစလုံးတွင် အချိန် လုံးဝ မကုန်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which states this contrast directly.",
+              "This is the same idea from Day 1's fourth question about different timescales.",
+            ],
+            hintsMy: [
+              "ဤဆန့်ကျင်ဘက်နှိုင်းယှဉ်ချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ကွာခြားသောအချိန်စကေးများအကြောင်း ပထမနေ့ စတုတ္ထမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage's final sentence, what handful of big ideas explained everything Zaw saw that day?",
+            questionMy:
+                "စာပိုဒ်၏ နောက်ဆုံးဝါကျအရ ဇော် ထိုနေ့တွေ့ခဲ့ရသမျှ အားလုံးကို ရှင်းပြနိုင်ခဲ့သော ကြီးမားသောအတွေးအခေါ်ငယ်လေးအုပ်စုမှာ အဘယ်တို့ဖြစ်သနည်း။",
+            optionsEn: [
+              "Gravity pulling without contact, light travelling in straight lines, and particles slowing as something cools.",
+              "Only the names of the eight planets.",
+              "Only the colours of different rock types.",
+              "None of the ideas from earlier in the term applied at all.",
+            ],
+            optionsMy: [
+              "ထိတွေ့မှုမလိုအပ်ဘဲ ဆွဲငင်နေသောအား၊ ဖြောင့်တန်းလိုက် ခရီးသွားသောအလင်းနှင့် တစ်စုံတစ်ခု အအေးခံသည်နှင့်အမျှ နှေးလာသောအနုမြူများ။",
+              "ဂြိုဟ်ရှစ်လုံး၏ အမည်များသာ။",
+              "ကျောက်တုံးအမျိုးအစားမတူညီသော အရောင်များသာ။",
+              "ဤနှစ်ဝက်အစောပိုင်းမှ အတွေးအခေါ်များအနက် မည်သည့်အတွေးအခေါ်မျှ လုံးဝ မသက်ဆိုင်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence, which lists these three ideas directly.",
+              "These three ideas came from Weeks 3, 21 and 2 -- reused across the whole term, exactly the way this pathway's earlier capstones reused ideas.",
+            ],
+            hintsMy: [
+              "ဤအတွေးအခေါ်သုံးခုကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "ဤအတွေးအခေါ်သုံးခုသည် Week 3၊ 21 နှင့် 2 မှ ဖြစ်ကြပြီး -- ဤသင်တန်းလမ်းကြောင်း၏ ယခင်အနှစ်ချုပ်သင်ခန်းစာများကလည်း အတွေးအခေါ်များကို ပြန်လည်အသုံးချခဲ့သည့်အတိုင်းပင် ဤနှစ်ဝက်တစ်ခုလုံးတွင် ထပ်မံ အသုံးချထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w28-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 28 Recap: Earth and Space -- Term 7 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၂၈ ပြန်လည်သုံးသပ်ခြင်း - ကမ္ဘာနှင့်အာကာသ -- သတ္တမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What keeps the eight planets in orbit around the Sun?",
+          questionMy: "ဂြိုဟ်ရှစ်လုံးကို နေပတ်လည် လှည့်ပတ်လမ်းကြောင်းတွင် ရှိနေစေသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Sun's gravity, a non-contact force pulling each planet toward it",
+            "Sound waves pushing the planets sideways",
+            "Each planet's own engine",
+            "Nothing -- there is no force involved",
+          ],
+          optionsMy: [
+            "နေ၏ ဆွဲငင်အားဖြစ်ပြီး ဂြိုဟ်တစ်လုံးစီကို ၎င်းဘက်သို့ ဆွဲငင်နေသော ထိတွေ့မှုမလိုအပ်သောအား",
+            "ဂြိုဟ်များကို ဘေးတိုက်တွန်းသော အသံလှိုင်းများ",
+            "ဂြိုဟ်တစ်လုံးစီ၏ ကိုယ်ပိုင်အင်ဂျင်",
+            "မည်သည့်အရာမျှ မရှိပါ -- မည်သည့်အားမျှ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 25's whole week and Day 1's first question of this capstone.",
+            "Recall Zaw's own reasoning -- the Sun's gravity is a non-contact force, just like Earth's own gravity.",
+          ],
+          hintsMy: [
+            "Week 25 တစ်ပတ်လုံးနှင့် ဤအနှစ်ချုပ်သင်ခန်းစာ၏ ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ။",
+            "ဇော်၏ ကိုယ်ပိုင်ယုတ္တိကို သတိရပါ -- နေ၏ ဆွဲငင်အားသည် ကမ္ဘာကိုယ်တိုင်၏ ဆွဲငင်အားကဲ့သို့ပင် ထိတွေ့မှုမလိုအပ်သောအား ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What two separate causes explain day/night versus the seasons?",
+          questionMy: "နေ့/ညနှင့် ရာသီများကို အကြောင်းရင်းနှစ်ခုက မည်ကဲ့သို့ ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Rotation (spinning on its axis) causes day and night; axial tilt (combined with orbit) causes the seasons",
+            "Both are caused by exactly the same single thing",
+            "Orbit alone causes day and night, with no rotation involved",
+            "Neither has a real scientific cause",
+          ],
+          optionsMy: [
+            "လည်ပတ်မှု (ဝင်ရိုးပေါ်လည်ပတ်ခြင်း) က နေ့နှင့်ညကို ဖြစ်ပေါ်စေပြီး ဝင်ရိုးစောင်းခြင်း (လှည့်ပတ်လမ်းကြောင်းနှင့်ပေါင်းစပ်ကာ) က ရာသီများကို ဖြစ်ပေါ်စေသည်",
+            "နှစ်ခုစလုံးသည် အတိအကျ တစ်ခုတည်းသောအရာကြောင့် ဖြစ်ကြသည်",
+            "လှည့်ပတ်လမ်းကြောင်းတစ်ခုတည်းက နေ့နှင့်ညကို ဖြစ်ပေါ်စေပြီး လည်ပတ်မှု မပါဝင်ပါ",
+            "နှစ်ခုစလုံးတွင် သိပ္ပံနည်းကျအကြောင်းရင်း အစစ်အမှန် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Weeks 25 and 26, and Day 1's first question of this capstone, which distinguished the two motions.",
+            "This is the same distinction Zaw made at the planetarium.",
+          ],
+          hintsMy: [
+            "Week 25 နှင့် 26 ကို၎င်း၊ ရွေ့လျားမှုနှစ်ခုကို ခွဲခြားခဲ့သော ဤအနှစ်ချုပ်သင်ခန်းစာ၏ ပထမနေ့ ပထမမေးခွန်းကို၎င်း သတိရပါ။",
+            "၎င်းသည် ဇော်က နက္ခတ်ဗေဒဌာနတွင် ပြုလုပ်ခဲ့သော ခွဲခြားချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which rock type forms when molten rock cools and solidifies?",
+          questionMy: "အရည်ပျော်နေသောကျောက်တုံး အအေးခံ၍ အခဲပြတ်သောအခါ မည်သည့်ကျောက်တုံးအမျိုးအစား ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Igneous rock",
+            "Sedimentary rock",
+            "Metamorphic rock",
+            "None of these rock types",
+          ],
+          optionsMy: [
+            "အက်ဂနီးယပ်ကျောက်",
+            "တလင်္ဂကျောက်",
+            "ပြောင်းလဲကျောက်",
+            "ဤကျောက်တုံးအမျိုးအစားများအနက် မည်သည့်အမျိုးအစားမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 27's Day 1 first question and Zaw's own quarry visit in this week's Day 1 second question.",
+            "The other two options form from compressed sediment or from heat and pressure without melting.",
+          ],
+          hintsMy: [
+            "Week 27 ၏ ပထမနေ့ ပထမမေးခွန်းနှင့် ဤအပတ်၏ ပထမနေ့ ဒုတိယမေးခွန်းရှိ ဇော်ကိုယ်တိုင်၏ ကျောက်တွင်းခရီးစဉ်ကို သတိရပါ။",
+            "အခြားရွေးချယ်စရာနှစ်ခုသည် ဖိထားသောအနည်ထိုင်ဒြပ်စု (သို့) မပျော်ဘဲ အပူနှင့်ဖိအားမှ ဖြစ်ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Zaw noticed that the day-night boundary took less than a day to sweep past, while the rock layers around him took millions of years to form. What does this teach about natural processes?",
+          questionMy:
+              "နေ့-ည နယ်နိမိတ် ဖြတ်သန်းသွားရန် တစ်ရက်အောက်သာ ကြာသော်လည်း သူ့ပတ်ဝန်းကျင်ရှိ ကျောက်အလွှာများ ဖြစ်ပေါ်လာရန် သန်းနှင့်ချီသောနှစ်များ ကြာခဲ့ကြောင်း ဇော် သတိထားမိခဲ့သည်။ ၎င်းက သဘာဝဖြစ်စဉ်များအကြောင်း အဘယ်ကို သင်ကြားပေးသနည်း။",
+          optionsEn: [
+            "Different natural processes happen on very different timescales, from under a day to millions of years",
+            "All natural processes always take exactly the same amount of time",
+            "Rocks form faster than a single day-night cycle",
+            "Time does not really apply to any natural process",
+          ],
+          optionsMy: [
+            "မတူညီသောသဘာဝဖြစ်စဉ်များသည် တစ်ရက်အောက်မှ သန်းနှင့်ချီသောနှစ်များအထိ လွန်စွာကွာခြားသောအချိန်စကေးများပေါ်တွင် ဖြစ်ပျက်ကြသည်",
+            "သဘာဝဖြစ်စဉ်အားလုံးသည် အမြဲ အချိန်တူတူ ကြာကြသည်",
+            "ကျောက်တုံးများသည် နေ့-ည သံသရာတစ်ခုထက် ပို၍ လျင်မြန်စွာ ဖြစ်ပေါ်လာသည်",
+            "အချိန်သည် သဘာဝဖြစ်စဉ်မည်သည့်တစ်ခုအတွက်မျှ အကျုံးမဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question of this capstone, and the reading passage's final paragraphs.",
+            "Rotation (Week 26) and the rock cycle (Week 27) are both real processes, just on wildly different timescales.",
+          ],
+          hintsMy: [
+            "ဤအနှစ်ချုပ်သင်ခန်းစာ၏ ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်များကို သတိရပါ။",
+            "လည်ပတ်မှု (Week 26) နှင့် ကျောက်တုံးသံသရာ (Week 27) နှစ်ခုစလုံးသည် အစစ်အမှန်ဖြစ်ကြသော်လည်း လွန်စွာကွာခြားသောအချိန်စကေးများပေါ်တွင်သာ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single idea connects Week 25's gravity, Week 26's straight-line light and axial tilt, and Week 27's cooling-and-solidifying rock?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 25 ၏ ဆွဲငင်အား၊ Week 26 ၏ ဖြောင့်တန်းလိုက်အလင်းနှင့် ဝင်ရိုးစောင်းခြင်း၊ Week 27 ၏ အအေးခံ၍ အခဲပြတ်ခြင်းတို့ကို ချိတ်ဆက်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A small handful of big ideas -- forces like gravity, light's straight-line travel, and the particle model -- explain phenomena at every scale, from an ice cube to a whole planet's orbit.",
+            "The three weeks have nothing at all in common.",
+            "Only Week 2's particle model matters; the other ideas are unrelated.",
+            "Earth and space science has no connection to physics or chemistry at all.",
+          ],
+          optionsMy: [
+            "ကြီးမားသောအတွေးအခေါ်ငယ်လေးအုပ်စုတစ်ခု -- ဆွဲငင်အားကဲ့သို့ အားများ၊ အလင်း၏ ဖြောင့်တန်းလိုက်ခရီးသွားခြင်းနှင့် အနုမြူပုံစံ -- သည် ရေခဲအိတ်တစ်ခုမှ ဂြိုဟ်တစ်ခုလုံး၏ လှည့်ပတ်လမ်းကြောင်းအထိ အတိုင်းအတာတိုင်းရှိ ဖြစ်စဉ်များကို ရှင်းပြသည်။",
+            "ဤသုံးပတ်တွင် ဘုံတူညီချက် လုံးဝမရှိပါ။",
+            "Week 2 ၏ အနုမြူပုံစံသာ အရေးကြီးပြီး အခြားအတွေးအခေါ်များသည် မသက်ဆိုင်ပါ။",
+            "ကမ္ဘာနှင့်အာကာသသိပ္ပံသည် ရူပဗေဒ (သို့) ဓာတုဗေဒနှင့် မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Zaw's own reflection at the end of the reading passage -- he named these exact three ideas, reused from Weeks 3, 21 and 2.",
+            "This is the same spiral pattern as Week 24's capstone (Weeks 21-23) and Week 20's capstone (Weeks 15-19) -- a small set of big ideas explaining an ever-widening range of phenomena.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းအဆုံးတွင် ဇော်ကိုယ်တိုင်၏ ပြန်လည်သုံးသပ်ချက်ကို သတိရပါ -- သူသည် Week 3၊ 21 နှင့် 2 မှ ပြန်လည်အသုံးချထားသော ဤအတွေးအခေါ်သုံးခုတည်းကို အမည်တွင်ခဲ့သည်။",
+            "၎င်းသည် Week 24 ၏ အနှစ်ချုပ်သင်ခန်းစာ (Weeks 21-23) နှင့် Week 20 ၏ အနှစ်ချုပ်သင်ခန်းစာ (Weeks 15-19) ကဲ့သို့ ပုံစံတူတူပင် ဖြစ်သည် -- ကြီးမားသောအတွေးအခေါ်ငယ်လေးအစုအဝေးတစ်ခုက ပို၍ကျယ်ပြန့်လာနေသော ဖြစ်စဉ်အပိုင်းအခြားတစ်ခုကို ရှင်းပြပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 7: "Earth and Space" (Weeks 25-28) opens a new strand for this
+/// pathway: Week 25 introduces the Solar System -- the Sun, the eight
+/// planets, and gravity as the force that keeps every planet in orbit,
+/// explicitly revisiting Week 3's forces/newton framing to establish that
+/// gravity is simply a pull force acting across huge distances; Week 26
+/// explains day, night and the seasons, revisiting Week 21's straight-line
+/// light travel to show that a place is only lit while it faces the Sun
+/// (exactly the reasoning behind a shadow's sharp edge) before introducing
+/// Earth's axial tilt as the true cause of the seasons; Week 27 opens
+/// Earth's structure (crust, mantle, core) and the rock cycle's three rock
+/// types, explicitly revisiting Week 2's particle model to show that molten
+/// rock cooling into igneous rock is the same particle-slowing process as
+/// water freezing into ice; Week 28 is the term's capstone, weaving the
+/// Solar System, day/night/seasons and the rock cycle into one school trip
+/// combining a planetarium visit and a quarry visit, reaching back to the
+/// gravity-as-force (Week 3) and particle-model (Week 2) threads one more
+/// time.
+const CourseTermDef _secondary1ScienceTerm7 = CourseTermDef(
+  id: "course-secondary1-science-t7",
+  termNumber: 7,
+  titleEn: "Earth and Space",
+  titleMy: "ကမ္ဘာနှင့် အာကာသ",
+  certificateTitleEn: "Earth and Space",
+  certificateTitleMy: "ကမ္ဘာနှင့် အာကာသ",
+  weeks: [
+    _secondary1ScienceWeek25,
+    _secondary1ScienceWeek26,
+    _secondary1ScienceWeek27,
+    _secondary1ScienceWeek28,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 8, Week 29: "The Skeletal System"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek29 = CourseWeekDef(
+  id: "course-secondary1-science-w29",
+  weekNumber: 29,
+  titleEn: "The Skeletal System",
+  titleMy: "အရိုးစနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w29-d1",
+      dayNumber: 1,
+      titleEn: "The Skeletal System Quiz",
+      titleMy: "အရိုးစနစ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During a football match, a player is struck hard in the chest by the ball, yet the impact doesn't harm the heart or lungs underneath. Which function of the skeleton is responsible for this protection?",
+          questionMy:
+              "ဘောလုံးပွဲတစ်ပွဲအတွင်း ကစားသမားတစ်ဦးသည် ဘောလုံးဖြင့် ရင်ဘတ်ကို ပြင်းထန်စွာ ထိခိုက်ခံရသော်လည်း အောက်ရှိနှလုံးနှင့်အဆုတ်တို့ ထိခိုက်မှု မရှိချေ။ ဤအကာအကွယ်ပေးမှုကို အရိုးစနစ်၏ မည်သည့်လုပ်ဆောင်ချက်က တာဝန်ရှိသနည်း။",
+          optionsEn: [
+            "The ribcage curves around and shields the heart and lungs from impacts like this.",
+            "The skeleton's job here is only to help the player move faster.",
+            "The skeleton has no protective function at all.",
+            "Only the skull can ever protect internal organs.",
+          ],
+          optionsMy: [
+            "အခြေရင်းကျီးရိုးသည် ရင်ဘတ်ပတ်လည်ကို ဝိုင်းရံကာ ဤကဲ့သို့သော ထိခိုက်မှုများမှ နှလုံးနှင့်အဆုတ်ကို ကာကွယ်ပေးသည်။",
+            "ဤနေရာတွင် အရိုးစနစ်၏ တာဝန်မှာ ကစားသမားကို ပို၍မြန်ဆန်စွာ ရွေ့လျားစေရန်သာ ဖြစ်သည်။",
+            "အရိုးစနစ်တွင် ကာကွယ်ပေးသောလုပ်ဆောင်ချက် လုံးဝ မရှိပါ။",
+            "ဦးခေါင်းခွံသာလျှင် ခန္ဓာကိုယ်အတွင်းရှိ အင်္ဂါများကို ကာကွယ်ပေးနိုင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's lesson on the skeleton's three main functions -- support, protection and movement -- and think about which one matches shielding delicate organs.",
+            "The ribcage is a bony cage curving around the chest, specifically shaped to protect the heart and lungs underneath it.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ အရိုးစနစ်၏ အဓိကလုပ်ဆောင်ချက်သုံးခု -- ထောက်ပံ့မှု၊ အကာအကွယ်နှင့် ရွေ့လျားမှု -- သင်ခန်းစာကို သတိရပါ၊ အထောက်အနုံ့ရှိသောအင်္ဂါများကို ကာကွယ်ခြင်းနှင့် မည်သည့်လုပ်ဆောင်ချက်က ကိုက်ညီသည်ကို စဉ်းစားပါ။",
+            "အခြေရင်းကျီးရိုးသည် ရင်ဘတ်ပတ်လည်ကို ဝိုင်းရံထားသော အရိုးလှောင်ခုံတစ်ခုဖြစ်ပြီး အောက်ရှိနှလုံးနှင့်အဆုတ်ကို ကာကွယ်ရန် အထူးပုံသဏ္ဌာန်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes two joints: one only bends and straightens in a single direction, like a door hinge; the other can rotate freely in almost every direction, like a joystick. Which joint types are being described?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် အဆစ်နှစ်ခုကို ဖော်ပြသည် - တစ်ခုသည် တံခါးအင်ကျင့်ကဲ့သို့ တစ်ဦးတည်းသောဦးတည်ရာတွင်သာ ကွေး/ဖြောင့် ရသည်၊ အခြားတစ်ခုကမူ ဂိမ်းချုပ်ကိုင်တံကဲ့သို့ ဦးတည်ရာအားလုံးနီးပါးတွင် လွတ်လပ်စွာ လှည့်နိုင်သည်။ ဤသည်မှာ မည်သည့်အဆစ်အမျိုးအစားများကို ဖော်ပြခြင်းဖြစ်သနည်း။",
+          optionsEn: [
+            "A hinge joint (like the elbow or knee) for the first, and a ball-and-socket joint (like the shoulder or hip) for the second.",
+            "Both are hinge joints, just with different sizes.",
+            "Both are ball-and-socket joints, just moving at different speeds.",
+            "Neither description matches any real joint type.",
+          ],
+          optionsMy: [
+            "ပထမတစ်ခုအတွက် အင်ကျင့်အဆစ် (တံတောင်ဆစ် (သို့) ဒူးဆစ်ကဲ့သို့) ဖြစ်ပြီး ဒုတိယတစ်ခုအတွက် ဘောလုံး-ဗန်းအဆစ် (ပခုံးဆစ် (သို့) ခြေတင်းရင်းဆစ်ကဲ့သို့) ဖြစ်သည်။",
+            "နှစ်ခုစလုံးသည် ပမာဏသာ ကွာခြားသော အင်ကျင့်အဆစ်များ ဖြစ်ကြသည်။",
+            "နှစ်ခုစလုံးသည် အလျင်နှုန်းသာ ကွာခြားသော ဘောလုံး-ဗန်းအဆစ်များ ဖြစ်ကြသည်။",
+            "ဤဖော်ပြချက်နှစ်ခုစလုံးသည် တကယ့်အဆစ်အမျိုးအစားမည်သည့်တစ်ခုနှင့်မျှ မကိုက်ညီပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 2 vocabulary -- a hinge joint moves in one plane, like a door, while a ball-and-socket joint allows movement in nearly every direction.",
+            "Think of your own elbow (a hinge) compared to your own shoulder (a ball-and-socket) to test each description.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- အင်ကျင့်အဆစ်သည် တံခါးကဲ့သို့ အလွှာတစ်ခုတည်းတွင်သာ ရွေ့လျားပြီး ဘောလုံး-ဗန်းအဆစ်ကမူ ဦးတည်ရာနီးပါးအားလုံးတွင် ရွေ့လျားနိုင်စေသည်။",
+            "ဖော်ပြချက်တစ်ခုစီကို စစ်ဆေးရန် ကိုယ်ပိုင်တံတောင်ဆစ် (အင်ကျင့်) ကို ကိုယ်ပိုင်ပခုံးဆစ် (ဘောလုံး-ဗန်း) နှင့် နှိုင်းယှဉ်စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A model skeleton hangs in the science lab, perfectly still, even though every one of its joints can technically bend. Why doesn't the skeleton move by itself?",
+          questionMy:
+              "ဓာတ်ခွဲခန်းတွင် ရိုးစုတစ်ခု စက်ဆင့်ကာ လုံးဝ ငြိမ်နေသည်၊ ၎င်း၏ အဆစ်တိုင်းသည် နည်းပညာအရ ကွေးနိုင်သော်လည်းပင်။ ရိုးစုသည် ၎င်းအလိုလို အဘယ့်ကြောင့် မရွေ့လျားသနည်း။",
+          optionsEn: [
+            "Bones cannot move on their own -- they need a force pulling on them, which (as next week's lesson will show) comes from muscles.",
+            "The joints are glued shut, so nothing can bend at all.",
+            "Skeletons only move when it happens to be daytime.",
+            "Bones move on their own whenever no one is watching.",
+          ],
+          optionsMy: [
+            "အရိုးများသည် ၎င်းတို့အလိုလို မရွေ့လျားနိုင်ပါ -- ၎င်းတို့ကို ဆွဲငင်ပေးသောအား လိုအပ်ပြီး (နောက်ပတ်၏သင်ခန်းစာက ပြသမည့်အတိုင်း) ၎င်းသည် ကြွက်သားများမှ လာသည်။",
+            "အဆစ်များကို ကော်ကပ်ထားသဖြင့် မည်သည့်အရာမျှ လုံးဝ မကွေးနိုင်ပါ။",
+            "ရိုးစုများသည် နေ့ဘက်ဖြစ်နေမှသာ ရွေ့လျားသည်။",
+            "မည်သူမျှ မကြည့်နေချိန်တွင် အရိုးများသည် ၎င်းတို့အလိုလို ရွေ့လျားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 3's definition of a force -- a push or a pull is needed to cause or change any motion, and bones are no exception.",
+            "This is exactly why next week's lesson introduces muscles -- something has to supply the pulling force that moves a bone at a joint.",
+          ],
+          hintsMy: [
+            "Week 3 ၏ အား အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ရွေ့လျားမှုတစ်ခုကို ဖြစ်ပေါ်စေရန် (သို့) ပြောင်းလဲစေရန် တွန်းအား (သို့) ဆွဲအား လိုအပ်ပြီး အရိုးများသည်လည်း ဤစည်းမျဉ်းမှ ချွင်းချက် မဟုတ်ပါ။",
+            "ဤအကြောင်းကြောင့်ပင် နောက်ပတ်၏သင်ခန်းစာက ကြွက်သားများကို မိတ်ဆက်ပေးမည် ဖြစ်သည် -- အဆစ်တစ်ခုတွင် အရိုးတစ်ခုကို ရွေ့လျားစေမည့် ဆွဲငင်အားကို တစ်စုံတစ်ခုက ပေးဆောင်ရမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cyclist falls from their bike and lands hard on their back, yet their spinal cord remains undamaged. Which part of the skeleton is most directly responsible for protecting it?",
+          questionMy:
+              "စက်ဘီးစီးသူတစ်ဦးသည် ၎င်း၏စက်ဘီးမှ လဲကျပြီး ကျောကုန်းဖြင့် ပြင်းထန်စွာ ကျခံရသော်လည်း ၎င်း၏ ကျောရိုးအာရုံကြောသည် ထိခိုက်မှု မရှိချေ။ အရိုးစနစ်၏ မည်သည့်အစိတ်အပိုင်းက ၎င်းကို ကာကွယ်ရန် တိုက်ရိုက်ဆုံး တာဝန်ရှိသနည်း။",
+          optionsEn: [
+            "The spine's bony vertebrae, which surround and shield the spinal cord running through their centre.",
+            "The ribcage, which surrounds the spinal cord instead of the heart.",
+            "The skull, even though it is nowhere near the back.",
+            "No part of the skeleton protects the spinal cord.",
+          ],
+          optionsMy: [
+            "ကျောရိုးရိုးတုံးများသည် ၎င်းတို့ဗဟိုကို ဖြတ်သန်းသွားသော ကျောရိုးအာရုံကြောကို ဝိုင်းရံ၍ ကာကွယ်ပေးသည်။",
+            "အခြေရင်းကျီးရိုးသည် နှလုံးအစား ကျောရိုးအာရုံကြောကို ဝိုင်းရံထားသည်။",
+            "ဦးခေါင်းခွံသည် ကျောကုန်းနှင့် လုံးဝနီးစပ်မှု မရှိသော်လည်း ဤတာဝန်ရှိသည်။",
+            "အရိုးစနစ်၏ မည်သည့်အစိတ်အပိုင်းမျှ ကျောရိုးအာရုံကြောကို မကာကွယ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's lesson on the skeleton's protective role for different organs -- the skull protects the brain, the ribcage protects the heart and lungs, and a third bony structure protects the spinal cord.",
+            "The spine is made of many small bones called vertebrae, stacked to form a protective tunnel around the spinal cord.",
+          ],
+          hintsMy: [
+            "အင်္ဂါအမျိုးမျိုးအတွက် အရိုးစနစ်၏ ကာကွယ်ပေးသောအခန်းကဏ္ဍအကြောင်း ဤအပတ်၏ သင်ခန်းစာကို သတိရပါ -- ဦးခေါင်းခွံသည် ဦးနှောက်ကို ကာကွယ်ပြီး၊ အခြေရင်းကျီးရိုးသည် နှလုံးနှင့်အဆုတ်ကို ကာကွယ်ကာ၊ တတိယအရိုးဖွဲ့စည်းပုံတစ်ခုက ကျောရိုးအာရုံကြောကို ကာကွယ်သည်။",
+            "ကျောရိုးသည် ကျောရိုးအာရုံကြောပတ်လည် ကာကွယ်ပေးသော ဥမင်တစ်ခုကို ဖြစ်ပေါ်စေရန် စီထားသော ရိုးတုံးငယ်များစွာဖြင့် ဖွဲ့စည်းထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match the Skeletal System Terms",
+      titleMy: "အရိုးစနစ် ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w29-dm-1",
+          termEn: "Skeleton",
+          termMy: "ရိုးစု (Skeleton)",
+          matchEn:
+              "The internal framework of bones that supports the body, protects delicate organs, and works with muscles to allow movement.",
+          matchMy:
+              "ခန္ဓာကိုယ်ကို ထောက်ပံ့ပေးပြီး၊ အထောက်အနုံ့ရှိသောအင်္ဂါများကို ကာကွယ်ကာ၊ ရွေ့လျားမှုအတွက် ကြွက်သားများနှင့်အတူ လုပ်ဆောင်ပေးသော ခန္ဓာကိုယ်အတွင်းရှိ အရိုးဖွဲ့စည်းပုံ။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w29-dm-2",
+          termEn: "Joint",
+          termMy: "အဆစ် (Joint)",
+          matchEn:
+              "A place where two or more bones meet, allowing the skeleton to bend and move.",
+          matchMy:
+              "အရိုးနှစ်ခု (သို့) ထို့ထက်ပို၍ တွေ့ဆုံရာနေရာဖြစ်ပြီး ရိုးစုအား ကွေး၍ ရွေ့လျားနိုင်စေသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w29-dm-3",
+          termEn: "Hinge Joint",
+          termMy: "အင်ကျင့်အဆစ် (Hinge Joint)",
+          matchEn:
+              "A joint, like the elbow or knee, that only allows movement back and forth in a single direction, like a door.",
+          matchMy:
+              "တံတောင်ဆစ် (သို့) ဒူးဆစ်ကဲ့သို့ တံခါးတစ်ခု ကဲ့သို့ ဦးတည်ရာတစ်ခုတည်းတွင်သာ ရှေ့နောက်ရွေ့လျားခွင့်ပြုသော အဆစ်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w29-dm-4",
+          termEn: "Ball-and-Socket Joint",
+          termMy: "ဘောလုံး-ဗန်းအဆစ် (Ball-and-Socket Joint)",
+          matchEn:
+              "A joint, like the shoulder or hip, that allows movement in almost every direction, including rotation.",
+          matchMy:
+              "ပခုံးဆစ် (သို့) ခြေတင်းရင်းဆစ်ကဲ့သို့ လှည့်ခြင်းအပါအဝင် ဦးတည်ရာနီးပါးအားလုံးတွင် ရွေ့လျားခွင့်ပြုသော အဆစ်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w29-dm-5",
+          termEn: "Skull",
+          termMy: "ဦးခေါင်းခွံ (Skull)",
+          matchEn: "The bony structure that surrounds and protects the brain.",
+          matchMy: "ဦးနှောက်ကို ဝိုင်းရံ၍ ကာကွယ်ပေးသော အရိုးဖွဲ့စည်းပုံ။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w29-dm-6",
+          termEn: "Ribcage",
+          termMy: "အခြေရင်းကျီးရိုး (Ribcage)",
+          matchEn:
+              "The curved cage of bones that surrounds and protects the heart and lungs.",
+          matchMy: "နှလုံးနှင့်အဆုတ်ကို ဝိုင်းရံ၍ ကာကွယ်ပေးသော ကွေးနေသောအရိုးလှောင်ခုံ။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mainly Protection or Mainly Movement?",
+      titleMy: "စီစစ်ကြမည် - အဓိကအကာအကွယ်လား၊ အဓိကရွေ့လျားမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Mainly Provides Protection",
+          "Mainly Allows Movement",
+        ],
+        bucketsMy: [
+          "အဓိက အကာအကွယ်ပေးသည်",
+          "အဓိက ရွေ့လျားမှုကို ခွင့်ပြုသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w29-sort-1",
+            labelEn: "The skull surrounding and shielding the brain",
+            labelMy: "ဦးနှောက်ကို ဝိုင်းရံ၍ ကာကွယ်ပေးသော ဦးခေါင်းခွံ",
+            correctBucketEn: "Mainly Provides Protection",
+            correctBucketMy: "အဓိက အကာအကွယ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-2",
+            labelEn: "The ribcage curving around the heart and lungs",
+            labelMy: "နှလုံးနှင့်အဆုတ်ကို ဝိုင်းရံနေသော အခြေရင်းကျီးရိုး",
+            correctBucketEn: "Mainly Provides Protection",
+            correctBucketMy: "အဓိက အကာအကွယ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-3",
+            labelEn: "The spine's bony vertebrae shielding the spinal cord",
+            labelMy: "ကျောရိုးအာရုံကြောကို ကာကွယ်ပေးသော ကျောရိုး၏ ရိုးတုံးများ",
+            correctBucketEn: "Mainly Provides Protection",
+            correctBucketMy: "အဓိက အကာအကွယ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-4",
+            labelEn: "The pelvis shielding organs in the lower body",
+            labelMy: "ခန္ဓာကိုယ်အောက်ပိုင်းရှိ အင်္ဂါများကို ကာကွယ်ပေးသော တင်ပါးရိုး",
+            correctBucketEn: "Mainly Provides Protection",
+            correctBucketMy: "အဓိက အကာအကွယ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-5",
+            labelEn: "A hinge joint at the elbow bending in a single direction",
+            labelMy: "တစ်ဦးတည်းသောဦးတည်ရာတွင် ကွေးသော တံတောင်ဆစ်ရှိ အင်ကျင့်အဆစ်",
+            correctBucketEn: "Mainly Allows Movement",
+            correctBucketMy: "အဓိက ရွေ့လျားမှုကို ခွင့်ပြုသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-6",
+            labelEn:
+                "A ball-and-socket joint at the shoulder rotating in nearly every direction",
+            labelMy: "ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်နိုင်သော ပခုံးဆစ်ရှိ ဘောလုံး-ဗန်းအဆစ်",
+            correctBucketEn: "Mainly Allows Movement",
+            correctBucketMy: "အဓိက ရွေ့လျားမှုကို ခွင့်ပြုသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-7",
+            labelEn: "A joint at the knee allowing the leg to bend while walking",
+            labelMy: "လမ်းလျှောက်နေစဉ် ခြေထောက်ကို ကွေးနိုင်စေသော ဒူးဆစ်ရှိအဆစ်",
+            correctBucketEn: "Mainly Allows Movement",
+            correctBucketMy: "အဓိက ရွေ့လျားမှုကို ခွင့်ပြုသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w29-sort-8",
+            labelEn: "Bones acting as rigid levers that can be pulled at a joint",
+            labelMy: "အဆစ်တစ်ခုတွင် ဆွဲငင်ခံရနိုင်သော ခိုင်မာသော အကြိမ်တံများအဖြစ် လုပ်ဆောင်သောအရိုးများ",
+            correctBucketEn: "Mainly Allows Movement",
+            correctBucketMy: "အဓိက ရွေ့လျားမှုကို ခွင့်ပြုသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung's Skeleton Model",
+      titleMy: "စာဖတ်ခြင်း - ကောင်း၏ ရိုးစုစံနမူနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung's Skeleton Model",
+        titleMy: "ကောင်း၏ ရိုးစုစံနမူနာ",
+        passageEn:
+            "Kaung stayed after school to help his science teacher set up a life-size model skeleton, carefully hanging it from a stand in the corner of the lab ahead of the next day's lesson.\n\nAs they worked, his teacher pointed out the model's rounded skull, tapping it gently and asking Kaung what it was protecting. \"The brain,\" Kaung answered at once, then noticed the curved cage of ribs lower down. \"And that must protect the heart and lungs,\" he added, remembering the football match he had watched over the weekend, where a hard hit to a player's chest hadn't hurt them at all underneath.\n\nHis teacher then bent the model's arm sharply at the elbow, back and forth in a single direction, before rotating its whole arm at the shoulder in a wide circle. \"Two very different joints,\" she said, \"doing two very different jobs.\" Kaung tried gently moving the model's arm himself -- but the moment he let go, it simply hung there, frozen in whatever position he had left it, no matter how many times he pushed it.\n\n\"Why won't it move on its own?\" Kaung asked. His teacher smiled. \"A skeleton alone can never move itself,\" she explained. \"Bones need something to pull on them -- and this model doesn't have that something at all.\" Kaung looked at the bare, muscle-less model and understood: whatever that missing something was, it must be exactly what let his own arm bend all by itself, without anyone reaching in to push it. He couldn't wait to find out what it was called.",
+        passageMy:
+            "ကောင်းသည် နောက်တစ်နေ့သင်ခန်းစာအတွက် ဓာတ်ခွဲခန်းထောင့်တစ်ခုရှိ ခုံစင်တစ်ခုပေါ်တွင် ရုပ်နှင့်တူသောရိုးစုစံနမူနာကို ဂရုတစိုက် စက်ဆင့်ရန် ၎င်း၏သိပ္ပံဆရာမကို ကူညီရန် ကျောင်းပြီးနောက် ကျန်ခဲ့သည်။\n\nလုပ်ဆောင်နေစဉ် ၎င်း၏ဆရာမသည် စံနမူနာ၏ဝိုင်းသောဦးခေါင်းခွံကို ညွှန်ပြပြီး ဖြည်းညင်းစွာ တို့ကာ ၎င်းသည် အဘယ်ကို ကာကွယ်နေသနည်းဟု ကောင်းကို မေးခဲ့သည်။ \"ဦးနှောက်ပါ\" ကောင်းက ချက်ချင်း ဖြေခဲ့ပြီး နောက်ပိုင်းတွင် အောက်ပိုင်းရှိ ကွေးနေသောကျီးရိုးလှောင်ခုံကို သတိထားမိခဲ့သည်။ \"ဒါက နှလုံးနှင့်အဆုတ်ကို ကာကွယ်ရမှာပါ\" ဟု သူ ဆက်ပြောခဲ့ပြီး အပတ်ဆုံးတွင် ကြည့်ရှုခဲ့ဖူးသော ဘောလုံးပွဲကို ပြန်တွေးမိခဲ့သည်၊ ထိုပွဲတွင် ကစားသမားတစ်ဦး၏ ရင်ဘတ်ကို ပြင်းထန်စွာ ထိခိုက်ခံရသော်လည်း အောက်ရှိအင်္ဂါများကို ဘာမှ ထိခိုက်ခံရခဲ့ခြင်း မရှိခဲ့ပါ။\n\nထို့နောက် ၎င်း၏ဆရာမသည် စံနမူနာလက်ကို တံတောင်ဆစ်တွင် ဦးတည်ရာတစ်ခုတည်းအတွင်း ရှေ့နောက် ပြင်းထန်စွာ ကွေးလိုက်ပြီးနောက် လက်တစ်ချောင်းလုံးကို ပခုံးဆစ်တွင် ကျယ်ပြန့်သောစက်ဝိုင်းအတိုင်း လှည့်ပတ်ခဲ့သည်။ \"လွန်စွာကွဲပြားသောအဆစ်နှစ်ခု\" ဟု သူမ ပြောခဲ့သည်၊ \"လွန်စွာကွဲပြားသောအလုပ်နှစ်ခုကို လုပ်ဆောင်နေကြသည်။\" ကောင်းသည် စံနမူနာလက်ကို ဖြည်းညင်းစွာ သူကိုယ်တိုင် ရွေ့လျားပြသည် -- သို့သော် သူ လက်လွှတ်လိုက်သည်နှင့် ၎င်းသည် သူထားခဲ့သောအနေအထားအတိုင်း ရိုးရိုးရှင်းရှင်း ငြိမ်နေခဲ့သည်၊ သူ မည်မျှကြိမ် တွန်းလိုက်စေကာမူ။\n\n\"ဘာကြောင့် ၎င်းအလိုလို မရွေ့လျားတာလဲ\" ကောင်း မေးခဲ့သည်။ ၎င်း၏ဆရာမ ပြုံးလိုက်သည်။ \"ရိုးစုတစ်ခုတည်းသည် ၎င်းကိုယ်တိုင် ဘယ်တော့မှ မရွေ့လျားနိုင်ပါ\" ဟု သူမ ရှင်းပြခဲ့သည်။ \"အရိုးများကို ဆွဲငင်ပေးမည့် တစ်စုံတစ်ခု လိုအပ်ပြီး -- ဤစံနမူနာတွင် ထိုတစ်စုံတစ်ခု လုံးဝ မရှိပါ။\" ကောင်းသည် ကြွက်သားမပါသော၊ ဗလာဖြစ်နေသော စံနမူနာကို ကြည့်ရင်း နားလည်လိုက်သည် - ထိုပျောက်နေသော တစ်စုံတစ်ခုသည် အဘယ်အရာဖြစ်စေကာမူ ၎င်းသည် သူ့ကိုယ်ပိုင်လက်ကို မည်သူမျှ တွန်းပေးရန် လိုအပ်စေခြင်းမရှိဘဲ ၎င်းအလိုလို ကွေးနိုင်စေသည့်အရာနှင့် အတိအကျ ကိုက်ညီရမည် ဖြစ်သည်။ ၎င်း၏အမည်ကို ရှာဖွေတွေ့ရှိရန် သူ မစောင့်နိုင်တော့ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what did Kaung remember from the football match while looking at the model's ribcage?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ စံနမူနာ၏ အခြေရင်းကျီးရိုးကို ကြည့်နေစဉ် ကောင်း ဘောလုံးပွဲမှ အဘယ်အရာကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "That a hard hit to a player's chest hadn't hurt the organs underneath it.",
+              "That a player scored a winning goal with a header.",
+              "That the football match was cancelled due to rain.",
+              "He did not remember anything about the football match.",
+            ],
+            optionsMy: [
+              "ကစားသမားတစ်ဦး၏ ရင်ဘတ်ကို ပြင်းထန်စွာ ထိခိုက်ခံရသော်လည်း အောက်ရှိအင်္ဂါများကို ထိခိုက်ခံရခြင်း မရှိခဲ့ကြောင်း။",
+              "ကစားသမားတစ်ဦးက ဦးခေါင်းဖြင့်ရိုက်၍ အနိုင်ဂိုးရရှိခဲ့ကြောင်း။",
+              "ဘောလုံးပွဲသည် မိုးရွာသောကြောင့် ပယ်ဖျက်ခံခဲ့ရကြောင်း။",
+              "ဘောလုံးပွဲအကြောင်း မည်သည့်အရာကိုမျှ သတိမရမိခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which directly describes this memory.",
+              "This is the same protection scenario used in Day 1's first question.",
+            ],
+            hintsMy: [
+              "ဤအမှတ်တရကို တိုက်ရိုက် ဖော်ပြထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းတွင် အသုံးပြုထားသော အကာအကွယ် ဇာတ်ကွက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What two different joint movements did Kaung's teacher demonstrate in the third paragraph?",
+            questionMy:
+                "တတိယစာပိုဒ်တွင် ကောင်း၏ဆရာမ ပြသခဲ့သော ကွဲပြားသောအဆစ်ရွေ့လျားမှုနှစ်ခုမှာ အဘယ်တို့နည်း။",
+            optionsEn: [
+              "Bending the elbow back and forth in one direction, and rotating the shoulder in a wide circle.",
+              "Bending the elbow in a circle, and rotating the shoulder in one direction.",
+              "Bending both the elbow and the shoulder in exactly the same way.",
+              "She did not demonstrate any joint movements at all.",
+            ],
+            optionsMy: [
+              "တံတောင်ဆစ်ကို ဦးတည်ရာတစ်ခုတည်းတွင် ရှေ့နောက်ကွေးခြင်းနှင့် ပခုံးဆစ်ကို ကျယ်ပြန့်သောစက်ဝိုင်းအတိုင်း လှည့်ခြင်း။",
+              "တံတောင်ဆစ်ကို စက်ဝိုင်းအတိုင်း ကွေးခြင်းနှင့် ပခုံးဆစ်ကို ဦးတည်ရာတစ်ခုတည်းတွင် လှည့်ခြင်း။",
+              "တံတောင်ဆစ်နှင့် ပခုံးဆစ်နှစ်ခုစလုံးကို အတိအကျ တူညီသောနည်းလမ်းဖြင့် ကွေးခြင်း။",
+              "အဆစ်ရွေ့လျားမှုမည်သည့်တစ်ခုကိုမျှ လုံးဝ မပြသခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which describes each movement directly.",
+              "This is the same distinction from Day 1's second question about hinge and ball-and-socket joints.",
+            ],
+            hintsMy: [
+              "ရွေ့လျားမှုတစ်ခုစီကို တိုက်ရိုက် ဖော်ပြထားသော တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် အင်ကျင့်အဆစ်နှင့် ဘောလုံး-ဗန်းအဆစ်အကြောင်း ပထမနေ့ ဒုတိယမေးခွန်းမှ ခွဲခြားချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why didn't the model skeleton's arm move by itself, according to the teacher's explanation?",
+            questionMy:
+                "ဆရာမ၏ ရှင်းပြချက်အရ စံနမူနာလက်သည် ၎င်းအလိုလို အဘယ့်ကြောင့် မရွေ့လျားခဲ့သနည်း။",
+            optionsEn: [
+              "Bones cannot move themselves -- something needs to pull on them, and the model didn't have that something.",
+              "The model's joints were completely glued shut.",
+              "The lab was too cold for the model to move.",
+              "It was simply broken beyond repair.",
+            ],
+            optionsMy: [
+              "အရိုးများသည် ၎င်းတို့ကိုယ်တိုင် မရွေ့လျားနိုင်ပါ -- ၎င်းတို့ကို ဆွဲငင်ပေးမည့် တစ်စုံတစ်ခု လိုအပ်ပြီး စံနမူနာတွင် ထိုတစ်စုံတစ်ခု မရှိခဲ့ပါ။",
+              "စံနမူနာ၏ အဆစ်များကို လုံးဝ ကော်ကပ်ထားခြင်းကြောင့်။",
+              "ဓာတ်ခွဲခန်းသည် စံနမူနာ ရွေ့လျားရန် လွန်စွာအေးလွန်းသောကြောင့်။",
+              "ၿပီးၿပီး ချက်ချင်း ပြင်၍မရအောင် ပျက်စီးနေသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this directly.",
+              "This is the same reasoning from Day 1's third question about bones needing a force to move.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ရွေ့လျားရန် အားလိုအပ်သော အရိုးများအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Kaung realize the missing \"something\" must be responsible for, according to the final sentence?",
+            questionMy:
+                "နောက်ဆုံးဝါကျအရ ပျောက်နေသော \"တစ်စုံတစ်ခု\" သည် အဘယ်အရာအတွက် တာဝန်ရှိရမည်ဟု ကောင်း နားလည်လိုက်သနည်း။",
+            optionsEn: [
+              "Letting his own arm bend by itself, without anyone reaching in to push it.",
+              "Changing the model's colour.",
+              "Making the skull heavier than the ribcage.",
+              "He realized nothing at all by the end of the passage.",
+            ],
+            optionsMy: [
+              "မည်သူမျှ တွန်းပေးရန် မလိုအပ်ဘဲ သူ့ကိုယ်ပိုင်လက်ကို အလိုလို ကွေးနိုင်စေခြင်း။",
+              "စံနမူနာ၏အရောင်ကို ပြောင်းလဲပေးခြင်း။",
+              "ဦးခေါင်းခွံကို အခြေရင်းကျီးရိုးထက် ပို၍ လေးလံစေခြင်း။",
+              "စာပိုဒ်အဆုံးတွင် မည်သည့်အရာကိုမျှ နားမလည်လိုက်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence, which states this directly.",
+              "This foreshadows next week's lesson on muscles -- keep this question in mind as you start Week 30.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် နောက်ပတ်၏ ကြွက်သားများသင်ခန်းစာကို ကြိုတင်ညွှန်းဆိုနေသည် -- Week 30 ကို စတင်စဉ် ဤမေးခွန်းကို စိတ်ထဲထားပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: The Skeletal System",
+      titleMy: "အပတ်စဉ် ၂၉ ပြန်လည်သုံးသပ်ခြင်း - အရိုးစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What are the skeleton's three main functions?",
+          questionMy: "အရိုးစနစ်၏ အဓိကလုပ်ဆောင်ချက်သုံးခုမှာ အဘယ်တို့နည်း။",
+          optionsEn: [
+            "Support, protection and movement",
+            "Digestion, respiration and excretion",
+            "Photosynthesis, growth and reproduction",
+            "Only protection, with no other function",
+          ],
+          optionsMy: [
+            "ထောက်ပံ့မှု၊ အကာအကွယ်နှင့် ရွေ့လျားမှု",
+            "အစာချေဖျက်ခြင်း၊ အသက်ရှုမှုနှင့် စွန့်ထုတ်ခြင်း",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၊ ကြီးထွားမှုနှင့် မျိုးပွားခြင်း",
+            "အကာအကွယ်တစ်ခုတည်းသာ ရှိပြီး အခြားလုပ်ဆောင်ချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- the ribcage's protective role was one of three main functions covered this week.",
+            "Recall Day 3's sorting activity -- items were sorted into protection and movement, with support as the third function.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- အခြေရင်းကျီးရိုး၏ ကာကွယ်ပေးသောအခန်းကဏ္ဍသည် ဤအပတ်တွင် ဖော်ပြထားသော အဓိကလုပ်ဆောင်ချက်သုံးခုအနက် တစ်ခု ဖြစ်သည်။",
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- အချက်အလက်များကို အကာအကွယ်နှင့် ရွေ့လျားမှုအဖြစ် စီစစ်ခဲ့ပြီး ထောက်ပံ့မှုသည် တတိယလုပ်ဆောင်ချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a joint?",
+          questionMy: "အဆစ်ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A place where two or more bones meet, allowing movement",
+            "A type of muscle found only in the chest",
+            "The centre of the Earth",
+            "A rock formed from cooled lava",
+          ],
+          optionsMy: [
+            "ရွေ့လျားမှုကို ခွင့်ပြုသော အရိုးနှစ်ခု (သို့) ထို့ထက်ပို၍ တွေ့ဆုံရာနေရာ",
+            "ရင်ဘတ်တွင်သာ တွေ့ရသော ကြွက်သားအမျိုးအစားတစ်မျိုး",
+            "ကမ္ဘာ၏ ဗဟိုပိုင်း",
+            "အအေးခံထားသောလာဗာမှ ဖြစ်ပေါ်လာသော ကျောက်တုံး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's vocabulary -- this is the basic definition of a joint.",
+            "Recall Kaung's story -- his teacher demonstrated two different joints, the elbow and the shoulder.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ၎င်းသည် အဆစ်၏ အခြေခံအဓိပ္ပာယ်ဖွင့်ဆိုချက် ဖြစ်သည်။",
+            "ကောင်း၏ ဇာတ်လမ်းကို သတိရပါ -- ၎င်း၏ဆရာမက တံတောင်ဆစ်နှင့် ပခုံးဆစ်ဟူသော ကွဲပြားသောအဆစ်နှစ်ခုကို ပြသခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which joint type allows movement in almost every direction, including rotation?",
+          questionMy:
+              "လှည့်ခြင်းအပါအဝင် ဦးတည်ရာနီးပါးအားလုံးတွင် ရွေ့လျားခွင့်ပြုသော အဆစ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A ball-and-socket joint",
+            "A hinge joint",
+            "No joint allows this kind of movement",
+            "The skull",
+          ],
+          optionsMy: [
+            "ဘောလုံး-ဗန်းအဆစ်",
+            "အင်ကျင့်အဆစ်",
+            "ဤကဲ့သို့သောရွေ့လျားမှုကို မည်သည့်အဆစ်မျှ ခွင့်မပြုပါ",
+            "ဦးခေါင်းခွံ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Day 2's vocabulary -- the shoulder and hip are examples of this joint type.",
+            "A hinge joint, by contrast, only moves back and forth in a single direction.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ပခုံးဆစ်နှင့် ခြေတင်းရင်းဆစ်တို့သည် ဤအဆစ်အမျိုးအစား၏ ဥပမာများ ဖြစ်ကြသည်။",
+            "အင်ကျင့်အဆစ်ကမူ ဦးတည်ရာတစ်ခုတည်းတွင်သာ ရှေ့နောက် ရွေ့လျားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why couldn't Kaung's model skeleton move its own arm?",
+          questionMy: "ကောင်း၏ ရိုးစုစံနမူနာသည် ၎င်း၏ကိုယ်ပိုင်လက်ကို အဘယ့်ကြောင့် မရွေ့လျားနိုင်ခဲ့သနည်း။",
+          optionsEn: [
+            "Bones alone cannot move themselves; they need something to pull on them",
+            "The model was simply too old to work",
+            "The model's joints had no bones at all",
+            "It actually could move on its own, but chose not to",
+          ],
+          optionsMy: [
+            "အရိုးများသည် တစ်ခုတည်းဖြင့် ၎င်းတို့ကိုယ်တိုင် မရွေ့လျားနိုင်ပါ၊ ၎င်းတို့ကို ဆွဲငင်ပေးမည့် တစ်စုံတစ်ခု လိုအပ်သည်",
+            "စံနမူနာသည် အလုပ်လုပ်ရန် အလွန်ဟောင်းနွမ်းလွန်းသောကြောင့်",
+            "စံနမူနာ၏ အဆစ်များတွင် အရိုးများ လုံးဝ မရှိသောကြောင့်",
+            "အမှန်တကယ် ၎င်းအလိုလို ရွေ့လျားနိုင်သော်လည်း မရွေ့လျားရန် ရွေးချယ်ခဲ့ခြင်းသာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and the reading passage's final paragraph -- bones need a pulling force, which the model didn't have.",
+            "Next week's lesson will reveal exactly what supplies that pulling force.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်ကို သတိရပါ -- အရိုးများသည် ဆွဲငင်အားလိုအပ်ပြီး စံနမူနာတွင် ထိုအားမရှိခဲ့ပါ။",
+            "နောက်ပတ်၏သင်ခန်းစာက ထိုဆွဲငင်အားကို အဘယ်အရာက ပေးဆောင်ကြောင်း အတိအကျ ဖော်ထုတ်ပေးမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, what single idea from Week 3 explains why bones cannot move by themselves?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် အရိုးများသည် ၎င်းတို့ကိုယ်တိုင် အဘယ့်ကြောင့် မရွေ့လျားနိုင်ကြောင်းကို ရှင်းပြသော Week 3 မှ အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A force -- a push or a pull -- is needed to cause or change any object's motion, and a bone is no exception.",
+            "Forces only apply to planets and rocks, never to living things.",
+            "Bones are magnetic, so they move only near a magnet.",
+            "There is no connection between Week 3 and the skeletal system at all.",
+          ],
+          optionsMy: [
+            "အရာဝတ္ထုတစ်ခု၏ ရွေ့လျားမှုကို ဖြစ်ပေါ်စေရန် (သို့) ပြောင်းလဲစေရန် အား -- တွန်းအား (သို့) ဆွဲအား -- လိုအပ်ပြီး အရိုးများသည်လည်း ဤစည်းမျဉ်းမှ ချွင်းချက် မဟုတ်ပါ။",
+            "အားများသည် ဂြိုဟ်များနှင့် ကျောက်တုံးများအတွက်သာ အကျုံးဝင်ပြီး သက်ရှိများအတွက် ဘယ်တော့မှ အကျုံးမဝင်ပါ။",
+            "အရိုးများသည် သံလိုက်ဆွဲဆောင်နိုင်သောကြောင့် သံလိုက်အနီးတွင်သာ ရွေ့လျားသည်။",
+            "Week 3 နှင့် အရိုးစနစ်ကြား မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Kaung's own model skeleton -- the same force idea from Week 3 applies to bones just as it applied to bicycles and planets.",
+            "This same idea will resurface again next week, when muscles are introduced as the source of that pulling force.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် ကောင်း၏ ကိုယ်ပိုင်ရိုးစုစံနမူနာကို သတိရပါ -- Week 3 မှ အားအတွေးအခေါ်တစ်ခုတည်းသည် စက်ဘီးနှင့် ဂြိုဟ်များအတွက် အကျုံးဝင်ခဲ့သကဲ့သို့ အရိုးများအတွက်လည်း အကျုံးဝင်သည်။",
+            "ဤအတွေးအခေါ်တစ်ခုတည်းသည် နောက်ပတ်တွင် ကြွက်သားများကို ထိုဆွဲငင်အား၏ ရင်းမြစ်အဖြစ် မိတ်ဆက်သောအခါ ထပ်မံ ပေါ်ထွက်လာမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 8, Week 30: "The Muscular System"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek30 = CourseWeekDef(
+  id: "course-secondary1-science-w30",
+  weekNumber: 30,
+  titleEn: "The Muscular System",
+  titleMy: "ကြွက်သားစနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w30-d1",
+      dayNumber: 1,
+      titleEn: "The Muscular System Quiz",
+      titleMy: "ကြွက်သားစနစ် ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's biceps muscle contracts, bending their arm at the hinge joint in the elbow (Week 29). Once the arm is bent, which muscle must contract to straighten it back out again?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး၏ ဘိုင်စက်ကြွက်သားသည် ကျုံ့သွားပြီး ၎င်း၏လက်ကို တံတောင်ဆစ်ရှိ အင်ကျင့်အဆစ် (Week 29) တွင် ကွေးစေသည်။ လက် ကွေးသွားပြီးနောက် ၎င်းကို ပြန်ဖြောင့်စေရန် မည်သည့်ကြွက်သားက ကျုံ့ရမည်နည်း။",
+          optionsEn: [
+            "The triceps, its antagonistic partner on the opposite side of the arm, must contract while the biceps relaxes.",
+            "The biceps must contract a second time, even harder.",
+            "No muscle is needed -- the arm straightens itself automatically.",
+            "The same biceps simply pushes the arm back the other way.",
+          ],
+          optionsMy: [
+            "လက်၏ ဆန့်ကျင်ဘက်ဘက်ရှိ ၎င်း၏ ဆန့်ကျင်တွဲဘက်ဖြစ်သော ထရိုင်စက်ကြွက်သားက ကျုံ့ရမည်ဖြစ်ပြီး ဘိုင်စက်ကမူ ပြေလျော့သွားရမည်။",
+            "ဘိုင်စက်ကြွက်သားသည် ဒုတိယအကြိမ် ပို၍ ပြင်းထန်စွာ ကျုံ့ရမည်။",
+            "ကြွက်သား မည်သည့်တစ်ခုမျှ မလိုအပ်ပါ -- လက်သည် အလိုအလျောက် ကိုယ်တိုင် ဖြောင့်သွားသည်။",
+            "ဘိုင်စက်ကြွက်သားတစ်ခုတည်းက လက်ကို အခြားဘက်သို့ ပြန်၍ တွန်းပေးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a brand-new idea for this week -- a muscle can only pull, never push, so straightening a joint always needs a second, opposing muscle.",
+            "Recall this week's Day 2 vocabulary -- the biceps and triceps form an antagonistic pair, taking turns contracting to bend and straighten the same joint.",
+          ],
+          hintsMy: [
+            "ဤအချက်သည် ဤအပတ်အတွက် ဝေါဟာရအသစ်တစ်ခုဖြစ်သည် -- ကြွက်သားတစ်ခုသည် ဆွဲငင်ရုံသာ ပြုလုပ်နိုင်ပြီး ဘယ်တော့မှ မတွန်းနိုင်သဖြင့် အဆစ်တစ်ခုကို ဖြောင့်စေရန် ဆန့်ကျင်ဘက်ကြွက်သားတစ်ခု အမြဲ လိုအပ်သည်။",
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ဘိုင်စက်နှင့် ထရိုင်စက်တို့သည် ဆန့်ကျင်တွဲဘက်ကို ဖွဲ့စည်းထားပြီး အဆစ်တစ်ခုတည်းကို ကွေး/ဖြောင့်ရန် အလှည့်ကျ ကျုံ့ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Explain why a single muscle can never both bend and straighten the same joint by itself.",
+          questionMy:
+              "ကြွက်သားတစ်ခုတည်းသည် အဆစ်တစ်ခုတည်းကို ဘယ်တော့မှ ကွေးလည်းလုပ်၊ ဖြောင့်လည်းလုပ် ၎င်းကိုယ်တိုင် မလုပ်နိုင်ကြောင်း ရှင်းပြပါ။",
+          optionsEn: [
+            "Because a muscle can only pull (contract), never push -- so bending and straightening a joint always need two opposing muscles.",
+            "Because muscles are too weak to move a joint more than once.",
+            "Because joints can only bend in one direction ever, so straightening is impossible.",
+            "Because a single muscle can push just as easily as it can pull.",
+          ],
+          optionsMy: [
+            "ကြွက်သားတစ်ခုသည် ဆွဲငင်ခြင်း (ကျုံ့ခြင်း) ကိုသာ ပြုလုပ်နိုင်ပြီး ဘယ်တော့မှ မတွန်းနိုင်သောကြောင့် -- အဆစ်တစ်ခုကို ကွေးရန်နှင့် ဖြောင့်ရန် ဆန့်ကျင်ဘက်ကြွက်သားနှစ်ခု အမြဲ လိုအပ်သည်။",
+            "ကြွက်သားများသည် အဆစ်တစ်ခုကို တစ်ကြိမ်ထက်ပို၍ ရွေ့လျားစေရန် အလွန်အားနည်းသောကြောင့်။",
+            "အဆစ်များသည် ဦးတည်ရာတစ်ခုတည်းတွင်သာ ဘယ်တော့မှ ကွေးနိုင်သဖြင့် ဖြောင့်ခြင်းသည် မဖြစ်နိုင်သောကြောင့်။",
+            "ကြွက်သားတစ်ခုတည်းသည် ဆွဲငင်နိုင်သကဲ့သို့ လွယ်ကူစွာ တွန်းလည်းနိုင်သောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same idea from Day 1's first question -- a muscle's only action is pulling, never pushing.",
+            "This is exactly why antagonistic pairs like the biceps and triceps exist -- one to pull the joint each way.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် -- ကြွက်သားတစ်ခု၏ တစ်ခုတည်းသောလုပ်ဆောင်ချက်မှာ ဆွဲငင်ခြင်းသာ ဖြစ်ပြီး ဘယ်တော့မှ တွန်းခြင်း မဟုတ်ပါ။",
+            "ဤအကြောင်းကြောင့်ပင် ဘိုင်စက်နှင့် ထရိုင်စက်ကဲ့သို့ ဆန့်ကျင်တွဲဘက်များ ရှိနေခြင်း ဖြစ်သည် -- တစ်ခုစီသည် အဆစ်ကို ဘက်တစ်ဘက်စီသို့ ဆွဲငင်ပေးရန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During a hard sprint, an athlete's leg muscles contract and relax rapidly, over and over. At the same time, the athlete breathes much faster and their heart beats much harder. Recalling Week 16's respiration, why do the muscles need this extra breathing and heartbeat?",
+          questionMy:
+              "ပြင်းထန်စွာ ပြေးနေစဉ် အားကစားသမားတစ်ဦး၏ ခြေထောက်ကြွက်သားများသည် ထပ်ခါထပ်ခါ လျင်မြန်စွာ ကျုံ့ကာ ပြေလျော့နေသည်။ ထို့ချိန်တွင် အားကစားသမားသည် ပို၍မြန်ဆန်စွာ အသက်ရှူကာ ၎င်း၏နှလုံးလည်း ပို၍ပြင်းထန်စွာ ခုန်နေသည်။ Week 16 ၏ အသက်ရှုမှုကို သတိရလျှင် ကြွက်သားများသည် ဤအပိုအသက်ရှူမှုနှင့် နှလုံးခုန်ခြင်းကို အဘယ့်ကြောင့် လိုအပ်သနည်း။",
+          optionsEn: [
+            "Muscle contraction needs energy, which is released by respiration -- faster breathing and a harder heartbeat deliver more oxygen so muscle cells can respire faster and release energy more quickly.",
+            "Faster breathing has nothing to do with the muscles at all.",
+            "The heart beats faster only to make more noise, unrelated to energy.",
+            "Muscles contract using light energy captured directly from the Sun.",
+          ],
+          optionsMy: [
+            "ကြွက်သားကျုံ့ခြင်းသည် စွမ်းအင်ကို လိုအပ်ပြီး ၎င်းကို အသက်ရှုမှုက ထုတ်ပေးသည် -- ပို၍မြန်ဆန်သောအသက်ရှူမှုနှင့် ပို၍ပြင်းထန်သောနှလုံးခုန်ခြင်းက အောက်စီဂျင်ပို၍ ပေးပို့ကာ ကြွက်သားဆဲလ်များ ပို၍မြန်ဆန်စွာ အသက်ရှုကာ စွမ်းအင် ပို၍မြန်ဆန်စွာ ထုတ်ပေးနိုင်စေသည်။",
+            "ပို၍မြန်ဆန်သောအသက်ရှူမှုသည် ကြွက်သားများနှင့် မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ။",
+            "နှလုံးသည် စွမ်းအင်နှင့် မသက်ဆိုင်ဘဲ အသံ ပို၍ကျယ်စေရန်သာ ပို၍ပြင်းထန်စွာ ခုန်ခြင်း ဖြစ်သည်။",
+            "ကြွက်သားများသည် နေမှ တိုက်ရိုက်ဖမ်းယူထားသော အလင်းစွမ်းအင်ကို အသုံးပြု၍ ကျုံ့ခြင်း ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 16's lesson -- respiration releases energy from food inside living cells, using oxygen, and produces more of that energy the faster it happens.",
+            "Recall Week 30's Day 1 first question -- muscle contraction is what bends and straightens joints, and contraction, like any active process, needs a steady supply of energy.",
+          ],
+          hintsMy: [
+            "Week 16 ၏ သင်ခန်းစာကို သတိရပါ -- အသက်ရှုမှုသည် သက်ရှိဆဲလ်များအတွင်း အောက်စီဂျင်ကို အသုံးပြု၍ အစားအစာမှ စွမ်းအင်ထုတ်ပေးပြီး ပို၍မြန်ဆန်လျှင် ပို၍များသောစွမ်းအင် ထုတ်ပေးသည်။",
+            "ဤအပတ်၏ ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ -- ကြွက်သားကျုံ့ခြင်းသည် အဆစ်များကို ကွေး/ဖြောင့်စေသည့်အရာဖြစ်ပြီး ကျုံ့ခြင်းသည် အခြားလှုပ်ရှားနေသောလုပ်ငန်းစဉ်များကဲ့သို့ပင် တည်ငြိမ်သောစွမ်းအင်ရေးရာ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After a very long run, an athlete's leg muscles start to feel tired and weak, even though the athlete is still trying hard to keep moving. Using this week's and Week 16's ideas together, what is most likely happening inside the tired muscles?",
+          questionMy:
+              "ခရီးဝေးပြေးပြီးနောက် အားကစားသမားတစ်ဦး၏ ခြေထောက်ကြွက်သားများသည် ဆက်လက်လှုပ်ရှားရန် အားကြိုးစားနေဆဲဖြစ်သော်လည်း ပင်ပန်းညောင်းညာလာသည်ကို ခံစားလာရသည်။ ဤအပတ်နှင့် Week 16 ၏ အတွေးအခေါ်များကို ပေါင်းစပ်အသုံးပြု၍ ပင်ပန်းနေသော ကြွက်သားများအတွင်း အဖြစ်များဆုံးမှာ အဘယ်အရာ ဖြစ်ပျက်နေသနည်း။",
+          optionsEn: [
+            "The muscles cannot keep supplying energy from respiration quickly enough to match how fast contraction is using it up.",
+            "The muscles have completely stopped needing any energy at all.",
+            "The bones underneath have suddenly grown longer.",
+            "The muscles have permanently turned into a different kind of tissue.",
+          ],
+          optionsMy: [
+            "ကျုံ့ခြင်းက စွမ်းအင်ကို အသုံးပြုနေသည့်နှုန်းနှင့် ကိုက်ညီအောင် အသက်ရှုမှုမှ စွမ်းအင်ကို ကြွက်သားများ လုံလောက်စွာ လျင်မြန်စွာ ဆက်လက်ထုတ်ပေးနိုင်ခြင်း မရှိတော့ပါ။",
+            "ကြွက်သားများသည် စွမ်းအင် မည်သည့်တစ်ခုမျှ လုံးဝ လိုအပ်တော့ခြင်း မရှိပါ။",
+            "အောက်ရှိအရိုးများသည် ရုတ်တရက် ပို၍ရှည်လာသည်။",
+            "ကြွက်သားများသည် အခြားတစ်မျိုးသော တစ်ရှူးအဖြစ်သို့ ထာဝရ ပြောင်းလဲသွားသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question -- contraction needs a steady supply of energy from respiration, and that supply can struggle to keep up during very hard, sustained exercise.",
+            "This does not mean the muscles have stopped needing energy -- it means the demand for energy has outpaced how fast respiration can supply it.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ကျုံ့ခြင်းသည် အသက်ရှုမှုမှ တည်ငြိမ်သောစွမ်းအင်ရေးရာ လိုအပ်ပြီး လွန်စွာပြင်းထန်ကြာရှည်သော လေ့ကျင့်ခန်းအတွင်း ထိုရေးရာမှာ လိုက်လျှောက်ရန် ခက်ခဲနိုင်သည်။",
+            "၎င်းသည် ကြွက်သားများ စွမ်းအင်မလိုအပ်တော့ကြောင်း မဆိုလိုပါ -- စွမ်းအင်လိုအပ်ချက်သည် အသက်ရှုမှု ထုတ်ပေးနိုင်သောနှုန်းထက် ပို၍မြန်ဆန်သွားကြောင်း ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match the Muscular System Terms",
+      titleMy: "ကြွက်သားစနစ် ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w30-dm-1",
+          termEn: "Muscle",
+          termMy: "ကြွက်သား (Muscle)",
+          matchEn:
+              "Body tissue that can contract (shorten) using energy from respiration, pulling on the bone it is attached to.",
+          matchMy:
+              "အသက်ရှုမှုမှ စွမ်းအင်ကို အသုံးပြု၍ ကျုံ့ (တိုတောင်း) နိုင်ပြီး ၎င်းချိတ်ဆက်ထားသော အရိုးကို ဆွဲငင်ပေးနိုင်သော ခန္ဓာကိုယ် တစ်ရှူး။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w30-dm-2",
+          termEn: "Contraction",
+          termMy: "ကျုံ့ခြင်း (Contraction)",
+          matchEn:
+              "A muscle shortening and pulling, the only action a muscle can ever perform -- it can never push.",
+          matchMy:
+              "ကြွက်သားတစ်ခု တိုတောင်းကာ ဆွဲငင်ခြင်းဖြစ်ပြီး ကြွက်သားတစ်ခု ဘယ်တော့မှ လုပ်ဆောင်နိုင်သော တစ်ခုတည်းသောလုပ်ဆောင်ချက် ဖြစ်သည် -- ၎င်းသည် ဘယ်တော့မှ မတွန်းနိုင်ပါ။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w30-dm-3",
+          termEn: "Antagonistic Pair",
+          termMy: "ဆန့်ကျင်တွဲဘက် (Antagonistic Pair)",
+          matchEn:
+              "Two muscles working across the same joint that take turns contracting -- one bends the joint while the other relaxes, and vice versa.",
+          matchMy:
+              "အဆစ်တစ်ခုတည်းပတ်လည် လုပ်ဆောင်နေသော ကြွက်သားနှစ်ခုဖြစ်ပြီး အလှည့်ကျ ကျုံ့ကြသည် -- တစ်ခုက အဆစ်ကို ကွေးစေသော် အခြားတစ်ခုမှာ ပြေလျော့ကာ၊ ပြောင်းပြန်လည်း ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w30-dm-4",
+          termEn: "Biceps",
+          termMy: "ဘိုင်စက် (Biceps)",
+          matchEn:
+              "The muscle at the front of the upper arm that contracts to bend the elbow joint.",
+          matchMy: "လက်မောင်းအပေါ်ပိုင်း ရှေ့ဘက်ရှိ ကြွက်သားဖြစ်ပြီး ကျုံ့လျှင် တံတောင်ဆစ်ကို ကွေးစေသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w30-dm-5",
+          termEn: "Triceps",
+          termMy: "ထရိုင်စက် (Triceps)",
+          matchEn:
+              "The muscle at the back of the upper arm that contracts to straighten the elbow joint back out, the biceps' antagonistic partner.",
+          matchMy:
+              "လက်မောင်းအပေါ်ပိုင်း နောက်ဘက်ရှိ ကြွက်သားဖြစ်ပြီး ကျုံ့လျှင် တံတောင်ဆစ်ကို ပြန်ဖြောင့်စေကာ ဘိုင်စက်၏ ဆန့်ကျင်တွဲဘက် ဖြစ်သည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w30-dm-6",
+          termEn: "Relaxation",
+          termMy: "ပြေလျော့ခြင်း (Relaxation)",
+          matchEn:
+              "A muscle returning to its resting length, no longer pulling on the bone, usually while its antagonistic partner contracts instead.",
+          matchMy:
+              "ကြွက်သားတစ်ခု ၎င်း၏ အနားယူအခြေအနေသို့ ပြန်လာခြင်းဖြစ်ပြီး အရိုးကို ဆက်လက် မဆွဲငင်တော့ဘဲ ပုံမှန်အားဖြင့် ၎င်း၏ ဆန့်ကျင်တွဲဘက် ကျုံ့နေချိန်တွင် ဖြစ်ပျက်သည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Muscle Contracting or Muscle Relaxed?",
+      titleMy: "စီစစ်ကြမည် - ကြွက်သားကျုံ့နေသလား၊ ကြွက်သား ပြေလျော့နေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Muscle Is Contracting and Pulling",
+          "Muscle Is Relaxed (Not Pulling Right Now)",
+        ],
+        bucketsMy: [
+          "ကြွက်သား ကျုံ့ကာ ဆွဲငင်နေသည်",
+          "ကြွက်သား ပြေလျော့နေသည် (ယခုလောလောဆယ် မဆွဲငင်ပါ)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w30-sort-1",
+            labelEn: "Biceps shortening to bend the elbow",
+            labelMy: "တံတောင်ဆစ်ကို ကွေးစေရန် တိုတောင်းလာသော ဘိုင်စက်",
+            correctBucketEn: "Muscle Is Contracting and Pulling",
+            correctBucketMy: "ကြွက်သား ကျုံ့ကာ ဆွဲငင်နေသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-2",
+            labelEn: "Triceps shortening to straighten the elbow back out",
+            labelMy: "တံတောင်ဆစ်ကို ပြန်ဖြောင့်စေရန် တိုတောင်းလာသော ထရိုင်စက်",
+            correctBucketEn: "Muscle Is Contracting and Pulling",
+            correctBucketMy: "ကြွက်သား ကျုံ့ကာ ဆွဲငင်နေသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-3",
+            labelEn: "A muscle using energy released by respiration to pull",
+            labelMy: "ဆွဲငင်ရန် အသက်ရှုမှုမှ ထုတ်ပေးသော စွမ်းအင်ကို အသုံးပြုနေသော ကြွက်သား",
+            correctBucketEn: "Muscle Is Contracting and Pulling",
+            correctBucketMy: "ကြွက်သား ကျုံ့ကာ ဆွဲငင်နေသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-4",
+            labelEn: "A muscle pulling a bone like a rope, never pushing it",
+            labelMy: "အရိုးတစ်ခုကို ဘယ်တော့မှ မတွန်းဘဲ ကြိုးတစ်ခုကဲ့သို့ ဆွဲငင်နေသော ကြွက်သား",
+            correctBucketEn: "Muscle Is Contracting and Pulling",
+            correctBucketMy: "ကြွက်သား ကျုံ့ကာ ဆွဲငင်နေသည်",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-5",
+            labelEn: "Triceps staying relaxed while the biceps bends the elbow",
+            labelMy: "ဘိုင်စက်က တံတောင်ဆစ်ကို ကွေးနေချိန် ပြေလျော့ဆဲရှိနေသော ထရိုင်စက်",
+            correctBucketEn: "Muscle Is Relaxed (Not Pulling Right Now)",
+            correctBucketMy: "ကြွက်သား ပြေလျော့နေသည် (ယခုလောလောဆယ် မဆွဲငင်ပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-6",
+            labelEn: "Biceps staying relaxed while the triceps straightens the elbow",
+            labelMy: "ထရိုင်စက်က တံတောင်ဆစ်ကို ဖြောင့်နေချိန် ပြေလျော့ဆဲရှိနေသော ဘိုင်စက်",
+            correctBucketEn: "Muscle Is Relaxed (Not Pulling Right Now)",
+            correctBucketMy: "ကြွက်သား ပြေလျော့နေသည် (ယခုလောလောဆယ် မဆွဲငင်ပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-7",
+            labelEn: "A muscle that is not currently using energy to contract",
+            labelMy: "ကျုံ့ရန် စွမ်းအင်ကို ယခုလောလောဆယ် အသုံးမပြုနေသော ကြွက်သား",
+            correctBucketEn: "Muscle Is Relaxed (Not Pulling Right Now)",
+            correctBucketMy: "ကြွက်သား ပြေလျော့နေသည် (ယခုလောလောဆယ် မဆွဲငင်ပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w30-sort-8",
+            labelEn:
+                "A muscle simply going along for the ride while its antagonistic partner does the pulling",
+            labelMy:
+                "၎င်း၏ ဆန့်ကျင်တွဲဘက်က ဆွဲငင်နေချိန် ရိုးရိုးရှင်းရှင်း ပါဝင်လိုက်ပါသွားသော ကြွက်သား",
+            correctBucketEn: "Muscle Is Relaxed (Not Pulling Right Now)",
+            correctBucketMy: "ကြွက်သား ပြေလျော့နေသည် (ယခုလောလောဆယ် မဆွဲငင်ပါ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Sports Day Sprint",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ အားကစားနေ့ ပြေးလွှားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Sports Day Sprint",
+        titleMy: "စုစု၏ အားကစားနေ့ ပြေးလွှားခြင်း",
+        passageEn:
+            "On sports day, Su Su lined up at the start of the 200-metre sprint, shaking out her arms and legs one last time before the whistle blew. The moment it did, she pushed off hard, her leg muscles contracting and relaxing in a fast, steady rhythm as she pumped her arms and drove herself forward down the track.\n\nHalfway through the race, Su Su noticed her breathing had grown deep and rapid, and she could feel her heart pounding hard in her chest. She remembered Week 16's lesson on respiration -- the process inside her cells that released energy from food using oxygen, energy her leg muscles needed for every single contraction. The faster she ran, the harder her muscles worked, and the harder her muscles worked, the more oxygen her lungs and heart had to deliver to keep that energy coming.\n\nAs she crossed the finish line, Su Su's legs felt suddenly heavy and tired, and her whole body seemed to want to stop rather than sprint even one more step. Catching her breath afterward, she thought about why: her muscles had been contracting so rapidly, and using up energy so fast, that her body's respiration simply couldn't keep supplying it quickly enough to match. Her muscles weren't broken -- they had just, for a little while, been asking for energy faster than her body could make it.\n\nStretching out her tired legs afterward, Su Su also remembered Week 29's lesson on joints, and realized her sprint had used both ideas together the whole way through: her hinge-jointed knees bending and straightening rapidly, each movement powered by a pair of antagonistic muscles taking turns contracting -- one to bend, one to straighten -- fuelled the entire time by the very same respiration she had first learned about weeks earlier.",
+        passageMy:
+            "အားကစားနေ့တွင် စုစုသည် ၂၀၀ မီတာအပြေးပြိုင်ပွဲ၏ အစပြင်တွင် တန်းစီနေရင်း၊ တဒွသံမတိုက်မီ ၎င်း၏လက်များနှင့် ခြေထောက်များကို နောက်ဆုံးအကြိမ် ချောက်ချလိုက်သည်။ တဒွသံတိုက်သည်နှင့် သူမ ပြင်းထန်စွာ ချက်ခြင်းထွက်ပြေးလိုက်သည်၊ ၎င်း၏ ခြေထောက်ကြွက်သားများသည် လက်များကို လှုပ်ချလျက် ခြေရာလမ်းအတိုင်း ရှေ့သို့ ရွန်တွန်းသွားစဉ် လျင်မြန်၊ တည်ငြိမ်သောရစ်သမ်ဖြင့် ကျုံ့ကာ ပြေလျော့နေကြသည်။\n\nပြိုင်ပွဲတစ်ဝက်ခန့်တွင် စုစုသည် ၎င်း၏အသက်ရှူမှု ပို၍နက်နက်ရှိုင်းရှိုင်းနှင့် လျင်မြန်လာသည်ကို သတိထားမိပြီး ၎င်း၏နှလုံးသည် ရင်ဘတ်ထဲတွင် ပြင်းထန်စွာ ခုန်နေသည်ကို ခံစားလာရသည်။ သူမသည် Week 16 ၏ အသက်ရှုမှုသင်ခန်းစာကို သတိရမိခဲ့သည် -- ၎င်း၏ဆဲလ်များအတွင်း အောက်စီဂျင်ကို အသုံးပြု၍ အစားအစာမှ စွမ်းအင်ကို ထုတ်ပေးသော လုပ်ငန်းစဉ်ဖြစ်ပြီး ထိုစွမ်းအင်ကို ၎င်း၏ခြေထောက်ကြွက်သားများသည် ကျုံ့ခြင်းတိုင်းအတွက် လိုအပ်ခဲ့သည်။ ပြေးလေ ကြွက်သားများ ပို၍ကြိုးစားလုပ်ဆောင်လေ၊ ကြွက်သားများ ပို၍ကြိုးစားလုပ်ဆောင်လေ ၎င်း၏အဆုတ်နှင့်နှလုံးသည် ထိုစွမ်းအင်ဆက်လက်ရရှိစေရန် အောက်စီဂျင် ပို၍ ပေးပို့ရလေဖြစ်သည်။\n\nအပြီးသတ်မျဉ်းကို ဖြတ်လိုက်သောအခါ စုစု၏ခြေထောက်များသည် ရုတ်တရက် လေးလံ၊ ပင်ပန်းသွားခဲ့ပြီး ၎င်း၏ခန္ဓာကိုယ်တစ်ခုလုံးသည် နောက်ထပ် တစ်လှမ်းမျှပင် ပြေးမည့်အစား ရပ်လိုသကဲ့သို့ ခံစားရသည်။ နောက်ပိုင်းတွင် အသက်ပြန်ပြေးဆွေရင်း သူမ အကြောင်းရင်းကို တွေးတောခဲ့သည် - ၎င်း၏ ကြွက်သားများသည် ဤမျှလျင်မြန်စွာ ကျုံ့နေကာ ဤမျှမြန်ဆန်စွာ စွမ်းအင်ကို သုံးစွဲနေခဲ့သဖြင့် ၎င်း၏ ခန္ဓာကိုယ်၏ အသက်ရှုမှုက ကိုက်ညီအောင် လုံလောက်စွာ မြန်မြန်ဆက်လက် ထုတ်ပေးနိုင်ခြင်း မရှိခဲ့ပါ။ ၎င်း၏ကြွက်သားများ ပျက်စီးသွားခဲ့ခြင်း မဟုတ်ပါ -- ၎င်းတို့သည် ခဏတာအတွင်း ၎င်း၏ခန္ဓာကိုယ် ထုတ်ပေးနိုင်သည်ထက် ပို၍မြန်ဆန်စွာ စွမ်းအင်ကို တောင်းဆိုနေခဲ့ခြင်းသာ ဖြစ်သည်။\n\nနောက်ပိုင်းတွင် ၎င်း၏ ပင်ပန်းနေသော ခြေထောက်များကို ဆန့်ထုတ်ရင်း စုစုသည် Week 29 ၏ အဆစ်သင်ခန်းစာကို ပြန်သတိရခဲ့ပြီး ၎င်း၏ အပြေးတစ်လျှောက်လုံးတွင် အတွေးအခေါ်နှစ်ခုစလုံးကို အတူတကွ အသုံးပြုခဲ့ကြောင်း သိရှိလိုက်သည် - ၎င်း၏ အင်ကျင့်အဆစ်ပါသော ဒူးဆစ်များ လျင်မြန်စွာ ကွေး၍ ဖြောင့်နေခြင်း၊ ရွေ့လျားမှုတစ်ခုစီကို ဆန့်ကျင်တွဲဘက်ကြွက်သားနှစ်ခု အလှည့်ကျ ကျုံ့ကြောင်း -- တစ်ခုက ကွေးပြီး၊ တစ်ခုက ဖြောင့်ကာ -- ၎င်းတစ်ခုလုံးကို သူမ ရာစုနှစ်များအလိုက် ပထမဆုံး သင်ယူခဲ့ဖူးသော အသက်ရှုမှုတည်းက ဆက်လက် ထောက်ပံ့ပေးခဲ့ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did Su Su remember from Week 16 while running, according to the second paragraph?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ ပြေးနေစဉ် စုစု Week 16 မှ အဘယ်အရာကို သတိရမိခဲ့သနည်း။",
+            optionsEn: [
+              "That respiration releases energy from food using oxygen, energy her muscles needed to contract.",
+              "That plants photosynthesize using sunlight.",
+              "That sound cannot travel through empty space.",
+              "She did not remember anything from Week 16.",
+            ],
+            optionsMy: [
+              "အသက်ရှုမှုသည် အောက်စီဂျင်ကို အသုံးပြု၍ အစားအစာမှ စွမ်းအင်ထုတ်ပေးပြီး ၎င်းစွမ်းအင်ကို ၎င်း၏ကြွက်သားများ ကျုံ့ရန် လိုအပ်ခဲ့ကြောင်း။",
+              "အပင်များသည် နေရောင်ခြည်ကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ကြောင်း။",
+              "အသံသည် လွတ်လပ်သောကွက်လပ်ကို ဖြတ်၍ မသွားနိုင်ကြောင်း။",
+              "Week 16 မှ မည်သည့်အရာကိုမျှ မသတိရမိခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which directly names Week 16's respiration lesson.",
+              "This is the same reasoning used in Day 1's third question about the sprinting athlete.",
+            ],
+            hintsMy: [
+              "Week 16 ၏ အသက်ရှုမှုသင်ခန်းစာကို တိုက်ရိုက် အမည်တွင်ထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပြေးနေသောအားကစားသမားအကြောင်း ပထမနေ့ တတိယမေးခွန်းတွင် အသုံးပြုထားသော ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su's legs feel heavy and tired after crossing the finish line, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ အပြီးသတ်မျဉ်းကို ဖြတ်ပြီးနောက် စုစု၏ခြေထောက်များ အဘယ့်ကြောင့် လေးလံ၊ ပင်ပန်းသွားခဲ့သနည်း။",
+            optionsEn: [
+              "Her muscles had used up energy faster than her body's respiration could keep supplying it.",
+              "Her bones had suddenly become too heavy to carry.",
+              "She had stopped needing any energy at all.",
+              "Her muscles had turned into a completely different tissue.",
+            ],
+            optionsMy: [
+              "၎င်း၏ ခန္ဓာကိုယ်၏ အသက်ရှုမှုက ဆက်လက်ထုတ်ပေးနိုင်သည်ထက် ပို၍မြန်ဆန်စွာ ၎င်း၏ကြွက်သားများ စွမ်းအင်ကို သုံးစွဲခဲ့ခြင်းကြောင့်။",
+              "၎င်း၏အရိုးများသည် ရုတ်တရက် သယ်ဆောင်ရန် လွန်စွာလေးလံလာသောကြောင့်။",
+              "စွမ်းအင်ကို လုံးဝ မလိုအပ်တော့ခြင်းကြောင့်။",
+              "၎င်း၏ကြွက်သားများသည် လုံးဝကွဲပြားသော တစ်ရှူးအဖြစ်သို့ ပြောင်းလဲသွားခြင်းကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this directly.",
+              "This is the same reasoning from Day 1's fourth question about tired muscles.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပင်ပန်းနေသောကြွက်သားများအကြောင်း ပထမနေ့ စတုတ္ထမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Su realize about her hinge-jointed knees while sprinting?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ ပြေးနေစဉ် ၎င်း၏ အင်ကျင့်အဆစ်ပါသော ဒူးဆစ်များအကြောင်း စုစု အဘယ်ကို နားလည်လိုက်သနည်း။",
+            optionsEn: [
+              "That each bend and straighten was powered by a pair of antagonistic muscles taking turns contracting.",
+              "That her knees were actually ball-and-socket joints all along.",
+              "That her knees never moved at all while she ran.",
+              "That joints have nothing to do with muscles.",
+            ],
+            optionsMy: [
+              "ကွေးခြင်း/ဖြောင့်ခြင်း တစ်ခုစီကို ဆန့်ကျင်တွဲဘက်ကြွက်သားနှစ်ခု အလှည့်ကျ ကျုံ့ခြင်းက စွမ်းအင်ပေးခဲ့ကြောင်း။",
+              "၎င်း၏ ဒူးဆစ်များသည် တကယ်တမ်း အစကတည်းက ဘောလုံး-ဗန်းအဆစ်များ ဖြစ်နေခဲ့ကြောင်း။",
+              "ပြေးနေစဉ်တစ်လျှောက် ၎င်း၏ ဒူးဆစ်များ လုံးဝ မရွေ့လျားခဲ့ကြောင်း။",
+              "အဆစ်များသည် ကြွက်သားများနှင့် မည်သည့်ဆက်စပ်မှုမျှ မရှိကြောင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this directly, citing Week 29.",
+              "This is the same idea from Day 1's first question about the biceps and triceps.",
+            ],
+            hintsMy: [
+              "Week 29 ကို ကိုးကားလျက် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဘိုင်စက်နှင့် ထရိုင်စက်အကြောင်း ပထမနေ့ ပထမမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage's final sentence, what powered Su Su's whole sprint the entire time?",
+            questionMy:
+                "စာပိုဒ်၏ နောက်ဆုံးဝါကျအရ စုစု၏ အပြေးတစ်လျှောက်လုံးကို အဘယ်အရာက စွမ်းအင်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "The very same respiration she first learned about weeks earlier.",
+              "The Sun's light shining directly on her legs.",
+              "A magnet hidden inside her running shoes.",
+              "Nothing powered it -- her legs moved without any energy at all.",
+            ],
+            optionsMy: [
+              "ရက်သတ္တပတ်များအလိုက် ပထမဆုံး သင်ယူခဲ့ဖူးသော အသက်ရှုမှုတည်းက ဖြစ်သည်။",
+              "၎င်း၏ခြေထောက်များပေါ်တွင် တိုက်ရိုက်ထွန်းလင်းနေသော နေရောင်။",
+              "၎င်း၏ ပြေးလွှားဖိနပ်ထဲတွင် ဝှက်ထားသော သံလိုက်တစ်ခု။",
+              "မည်သည့်အရာမျှ စွမ်းအင် မပေးခဲ့ပါ -- ၎င်း၏ခြေထောက်များသည် စွမ်းအင် လုံးဝ မလိုဘဲ ရွေ့လျားခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence, which names respiration directly.",
+              "This ties together Day 1's third question and the whole reading passage into one single idea.",
+            ],
+            hintsMy: [
+              "အသက်ရှုမှုကို တိုက်ရိုက် အမည်တွင်ထားသော နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခန်းတစ်ခုလုံးကို အယူအဆတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပေးသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: The Muscular System",
+      titleMy: "အပတ်စဉ် ၃၀ ပြန်လည်သုံးသပ်ခြင်း - ကြွက်သားစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the only action a muscle can ever perform?",
+          questionMy: "ကြွက်သားတစ်ခု ဘယ်တော့မှ လုပ်ဆောင်နိုင်သော တစ်ခုတည်းသောလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Contracting (pulling)",
+            "Pushing",
+            "Both pushing and pulling equally",
+            "Photosynthesizing",
+          ],
+          optionsMy: [
+            "ကျုံ့ခြင်း (ဆွဲငင်ခြင်း)",
+            "တွန်းခြင်း",
+            "တွန်းခြင်းနှင့် ဆွဲငင်ခြင်း နှစ်ခုစလုံးကို တန်းတူ",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first and second questions -- a muscle can only pull, never push.",
+            "This is exactly why antagonistic pairs are needed to both bend and straighten a joint.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမနှင့် ဒုတိယမေးခွန်းများကို သတိရပါ -- ကြွက်သားတစ်ခုသည် ဆွဲငင်ရုံသာ ပြုလုပ်နိုင်ပြီး ဘယ်တော့မှ မတွန်းနိုင်ပါ။",
+            "ဤအကြောင်းကြောင့်ပင် အဆစ်တစ်ခုကို ကွေးရန်နှင့် ဖြောင့်ရန် ဆန့်ကျင်တွဲဘက်များ လိုအပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is an antagonistic pair of muscles?",
+          questionMy: "ကြွက်သား ဆန့်ကျင်တွဲဘက်ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Two muscles across the same joint that take turns contracting to bend and straighten it",
+            "A single muscle that never moves at all",
+            "Two bones that never meet at a joint",
+            "A muscle found only in the brain",
+          ],
+          optionsMy: [
+            "အဆစ်တစ်ခုတည်းပတ်လည် ရှိသော ကြွက်သားနှစ်ခုဖြစ်ပြီး ၎င်းကို ကွေး/ဖြောင့်ရန် အလှည့်ကျ ကျုံ့ကြသည်",
+            "ဘယ်တော့မှ လုံးဝ မရွေ့လျားသော ကြွက်သားတစ်ခုတည်း",
+            "အဆစ်တစ်ခုတွင် ဘယ်တော့မှ မတွေ့ဆုံသော အရိုးနှစ်ခု",
+            "ဦးနှောက်တွင်သာ တွေ့ရသော ကြွက်သားတစ်မျိုး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's vocabulary and Su Su's own biceps/triceps example.",
+            "The biceps and triceps are the classic example of this at the elbow.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ ဝေါဟာရများနှင့် စုစု၏ ကိုယ်ပိုင် ဘိုင်စက်/ထရိုင်စက် ဥပမာကို သတိရပါ။",
+            "ဘိုင်စက်နှင့် ထရိုင်စက်သည် တံတောင်ဆစ်ရှိ ဤသည်၏ ဂန္ထဝင်ဥပမာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Where does the energy for muscle contraction come from?",
+          questionMy: "ကြွက်သားကျုံ့ခြင်းအတွက် စွမ်းအင်သည် အဘယ်မှ ရရှိသနည်း။",
+          optionsEn: [
+            "Respiration, releasing energy from food inside living cells",
+            "Sunlight captured directly by the muscle",
+            "The bone the muscle is attached to",
+            "Muscles do not need any energy at all",
+          ],
+          optionsMy: [
+            "အသက်ရှုမှု၊ သက်ရှိဆဲလ်များအတွင်း အစားအစာမှ စွမ်းအင်ကို ထုတ်ပေးခြင်း",
+            "ကြွက်သားက တိုက်ရိုက်ဖမ်းယူထားသော နေရောင်ခြည်",
+            "ကြွက်သားချိတ်ဆက်ထားသော အရိုး",
+            "ကြွက်သားများသည် စွမ်းအင် မည်သည့်တစ်ခုမျှ လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Su Su's own story -- respiration from Week 16 is the answer.",
+            "This is why an athlete breathes faster and their heart beats harder during exercise.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စုစု၏ ကိုယ်ပိုင်ဇာတ်လမ်းကို သတိရပါ -- Week 16 မှ အသက်ရှုမှုသည် အဖြေ ဖြစ်သည်။",
+            "ဤအကြောင်းကြောင့်ပင် အားကစားသမားတစ်ဦးသည် လေ့ကျင့်ခန်းလုပ်နေစဉ် ပို၍မြန်ဆန်စွာ အသက်ရှူကာ နှလုံး ပို၍ပြင်းထန်စွာ ခုန်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why did Su Su's leg muscles feel tired after her sprint?",
+          questionMy: "စုစု၏ ခြေထောက်ကြွက်သားများသည် ၎င်း၏ ပြေးလွှားပြီးနောက် အဘယ့်ကြောင့် ပင်ပန်းသွားခဲ့သနည်း။",
+          optionsEn: [
+            "They used up energy faster than respiration could keep supplying it",
+            "They had permanently stopped working",
+            "They had turned into bone",
+            "They had never contracted at all during the sprint",
+          ],
+          optionsMy: [
+            "အသက်ရှုမှုက ဆက်လက်ထုတ်ပေးနိုင်သည်ထက် ပို၍မြန်ဆန်စွာ ၎င်းတို့ စွမ်းအင်ကို သုံးစွဲခဲ့သောကြောင့်",
+            "၎င်းတို့သည် ထာဝရ အလုပ်ရပ်နားသွားခဲ့သောကြောင့်",
+            "၎င်းတို့သည် အရိုးအဖြစ်သို့ ပြောင်းလဲသွားခဲ့သောကြောင့်",
+            "ပြေးလွှားစဉ်တစ်လျှောက်လုံး ၎င်းတို့ လုံးဝ မကျုံ့ခဲ့သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and the reading passage's third paragraph.",
+            "This does not mean the muscles broke -- only that demand briefly outpaced supply.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် စာဖတ်ခန်း၏ တတိယစာပိုဒ်ကို သတိရပါ။",
+            "၎င်းသည် ကြွက်သားများ ပျက်စီးသွားကြောင်း မဆိုလိုပါ -- တောင်းဆိုမှုသည် ခဏတာ ထောက်ပံ့မှုထက် ပို၍မြန်သွားခြင်းသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, how do Week 29's joints and this week's muscles work together to move the body?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 29 ၏ အဆစ်များနှင့် ဤအပတ်၏ ကြွက်သားများသည် ခန္ဓာကိုယ်ကို ရွေ့လျားစေရန် အတူတကွ မည်ကဲ့သို့ လုပ်ဆောင်ကြသနည်း။",
+          optionsEn: [
+            "Joints are the points where bones meet and can bend; muscles supply the pulling force, in antagonistic pairs, that actually moves the bones at those joints.",
+            "Joints and muscles are completely unrelated body parts.",
+            "Muscles are a type of joint found only in the skull.",
+            "Bones move entirely on their own, with no help from either joints or muscles.",
+          ],
+          optionsMy: [
+            "အဆစ်များသည် အရိုးများ တွေ့ဆုံ၍ ကွေးနိုင်ရာနေရာများဖြစ်ပြီး ကြွက်သားများသည် ထိုအဆစ်များတွင် အရိုးများကို အမှန်တကယ်ရွေ့လျားစေသော ဆွဲငင်အားကို ဆန့်ကျင်တွဲဘက်များအဖြစ် ပေးဆောင်ကြသည်။",
+            "အဆစ်များနှင့် ကြွက်သားများသည် လုံးဝမသက်ဆိုင်သော ခန္ဓာကိုယ်အစိတ်အပိုင်းများ ဖြစ်ကြသည်။",
+            "ကြွက်သားများသည် ဦးခေါင်းခွံတွင်သာ တွေ့ရသော အဆစ်အမျိုးအစားတစ်မျိုး ဖြစ်သည်။",
+            "အရိုးများသည် အဆစ် (သို့) ကြွက်သား နှစ်ခုစလုံး၏ အကူအညီမပါဘဲ ၎င်းတို့ကိုယ်တိုင် လုံးလုံး ရွေ့လျားကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 29's lesson on bones needing a pulling force, and this week's biceps/triceps example -- together, they explain how the body actually moves.",
+            "Recall Su Su's own realization in the reading passage's final paragraph, weaving both ideas together.",
+          ],
+          hintsMy: [
+            "အရိုးများသည် ဆွဲငင်အားလိုအပ်ကြောင်း Week 29 ၏ သင်ခန်းစာနှင့် ဤအပတ်၏ ဘိုင်စက်/ထရိုင်စက် ဥပမာကို သတိရပါ -- နှစ်ခုစလုံးက ခန္ဓာကိုယ် အမှန်တကယ် ရွေ့လျားပုံကို ရှင်းပြသည်။",
+            "စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်တွင် အတွေးအခေါ်နှစ်ခုစလုံးကို ပေါင်းစပ်ထားသော စုစု၏ ကိုယ်ပိုင်နားလည်လိုက်မှုကို သတိရပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 8, Week 31: "Classifying Living Things"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek31 = CourseWeekDef(
+  id: "course-secondary1-science-w31",
+  weekNumber: 31,
+  titleEn: "Classifying Living Things",
+  titleMy: "သက်ရှိများကို ခွဲခြားသတ်မှတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w31-d1",
+      dayNumber: 1,
+      titleEn: "Classifying Living Things Quiz",
+      titleMy: "သက်ရှိများကို ခွဲခြားသတ်မှတ်ခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Recall Week 19's food chain: cabbage, then a caterpillar, then a bird. Using this week's classification, which of the two animals in that chain is a vertebrate, and which is an invertebrate?",
+          questionMy:
+              "Week 19 ၏ အစားအစာကွင်းဆက်ကို သတိရပါ - ဂေါ်ဖီ၊ ထို့နောက် ပိုးကောင်၊ ထို့နောက် ငှက်။ ဤအပတ်၏ ခွဲခြားသတ်မှတ်ခြင်းကို အသုံးပြု၍ ထိုကွင်းဆက်ရှိ တိရစ္ဆာန်နှစ်ကောင်အနက် မည်သည်က ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး မည်သည်က ကျောရိုးမရှိသတ္တဝါ ဖြစ်သနည်း။",
+          optionsEn: [
+            "The bird is a vertebrate (it has a backbone); the caterpillar is an invertebrate (an insect, with no backbone).",
+            "The caterpillar is a vertebrate; the bird is an invertebrate.",
+            "Both are vertebrates, with no invertebrates involved at all.",
+            "Neither can be classified, because they belong to the same food chain.",
+          ],
+          optionsMy: [
+            "ငှက်သည် ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်) ဖြစ်ပြီး ပိုးကောင်သည် ကျောရိုးမရှိသတ္တဝါ (ပိုးမွှား၊ ကျောရိုးမရှိ) ဖြစ်သည်။",
+            "ပိုးကောင်သည် ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး ငှက်သည် ကျောရိုးမရှိသတ္တဝါ ဖြစ်သည်။",
+            "နှစ်ကောင်စလုံးသည် ကျောရိုးရှိသတ္တဝါများဖြစ်ပြီး ကျောရိုးမရှိသတ္တဝါ လုံးဝ မပါဝင်ပါ။",
+            "အစားအစာကွင်းဆက်တစ်ခုတည်းထဲတွင် ပါဝင်သောကြောင့် နှစ်ကောင်စလုံးကို ခွဲခြားသတ်မှတ်၍ မရနိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a brand-new idea for this week -- a vertebrate has a backbone (birds, fish, amphibians, reptiles and mammals all do); an invertebrate, like an insect, does not.",
+            "Recall Week 19's reading passage -- the caterpillar was described as an insect munching on the cabbage, and insects belong to the invertebrate group.",
+          ],
+          hintsMy: [
+            "ဤအချက်သည် ဤအပတ်အတွက် ဝေါဟာရအသစ်တစ်ခုဖြစ်သည် -- ကျောရိုးရှိသတ္တဝါတွင် ကျောရိုးရှိပြီး (ငှက်၊ ငါး၊ ဗီယမ်၊ တွားသွားသတ္တဝါနှင့် နို့တိုက်သတ္တဝါအားလုံး) ကျောရိုးမရှိသတ္တဝါ ဥပမာ ပိုးမွှားတွင်မူ ကျောရိုး မရှိပါ။",
+            "Week 19 ၏ စာဖတ်ခန်းကို သတိရပါ -- ပိုးကောင်ကို ဂေါ်ဖီစားနေသော ပိုးမွှားတစ်ကောင်အဖြစ် ဖော်ပြထားပြီး ပိုးမွှားများသည် ကျောရိုးမရှိသတ္တဝါအုပ်စုတွင် ပါဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student finds two vertebrates: one has smooth, moist skin and lays jelly-coated eggs in a pond; the other has dry, scaly skin and lays leathery eggs on dry land. Which vertebrate groups do these two animals most likely belong to?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ကျောရိုးရှိသတ္တဝါနှစ်ကောင် တွေ့ရှိသည် - တစ်ကောင်တွင် ချောမွေ့၊ စိုစွတ်သောအရေပြားရှိပြီး ရေကန်တစ်ခုတွင် ဂျယ်လီရေခံသောဥများ ဥသည်၊ အခြားတစ်ကောင်တွင်မူ ခြောက်သွေ့၊ အကြေးထသော အရေပြားရှိပြီး ခြောက်သွေ့သောမြေပြင်တွင် သားရေကဲ့သို့ ခေါင်းသောဥများ ဥသည်။ ဤတိရစ္ဆာန်နှစ်ကောင်သည် မည်သည့် ကျောရိုးရှိသတ္တဝါအုပ်စုများတွင် အများဆုံးဖြစ်နိုင်ဆုံး ပါဝင်နိုင်သနည်း။",
+          optionsEn: [
+            "The first is an amphibian; the second is a reptile.",
+            "The first is a reptile; the second is a bird.",
+            "Both belong to the exact same group, mammals.",
+            "Neither can be a vertebrate, since they lay eggs.",
+          ],
+          optionsMy: [
+            "ပထမတစ်ကောင်သည် ဗီယမ်ဖြစ်ပြီး ဒုတိယတစ်ကောင်သည် တွားသွားသတ္တဝါ ဖြစ်သည်။",
+            "ပထမတစ်ကောင်သည် တွားသွားသတ္တဝါဖြစ်ပြီး ဒုတိယတစ်ကောင်သည် ငှက် ဖြစ်သည်။",
+            "နှစ်ကောင်စလုံးသည် အတိအကျ အုပ်စုတစ်ခုတည်းဖြစ်သော နို့တိုက်သတ္တဝါများ ဖြစ်ကြသည်။",
+            "ဥများ ဥသောကြောင့် နှစ်ကောင်စလုံးသည် ကျောရိုးရှိသတ္တဝါ ဘယ်တော့မှ မဖြစ်နိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 2 vocabulary -- amphibians have moist skin and lay eggs in water, while reptiles have dry, scaly skin and lay leathery eggs on land.",
+            "Both groups do lay eggs -- egg-laying alone cannot distinguish a reptile from an amphibian, but their skin and where they lay eggs can.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ဗီယမ်များတွင် စိုစွတ်သောအရေပြားရှိပြီး ရေတွင်ဥသည်၊ တွားသွားသတ္တဝါများတွင်မူ ခြောက်သွေ့၊ အကြေးထသောအရေပြားရှိပြီး မြေပေါ်တွင် သားရေကဲ့သို့ဥ ဥသည်။",
+            "အုပ်စုနှစ်ခုစလုံးသည် ဥ ဥကြသည် -- ဥ ဥခြင်းတစ်ခုတည်းဖြင့် တွားသွားသတ္တဝါနှင့် ဗီယမ်ကို ခွဲခြား၍ မရနိုင်ပါ၊ သို့သော် ၎င်းတို့၏ အရေပြားနှင့် ဥ ဥရာနေရာကမူ ခွဲခြားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cabbage plant makes its own food using photosynthesis (Week 15), while a mushroom growing nearby cannot photosynthesize at all. Which two kingdoms do these two very different living things belong to?",
+          questionMy:
+              "ဂေါ်ဖီအပင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (Week 15) ကို အသုံးပြု၍ ကိုယ်ပိုင်အစားအစာ ပြုလုပ်သော်လည်း အနီးတွင် ပေါက်နေသော မှိုတစ်ပင်ကမူ လုံးဝ အလင်းစွမ်းဓာတ်ပေါင်းစပ်၍ မရနိုင်ပါ။ ဤလွန်စွာကွဲပြားသော သက်ရှိနှစ်ခုသည် မည်သည့်နိုင်ငံနှစ်ခုတွင် ပါဝင်နိုင်သနည်း။",
+          optionsEn: [
+            "The cabbage belongs to the Plant Kingdom; the mushroom belongs to the Fungi Kingdom.",
+            "Both belong to the exact same kingdom, the Animal Kingdom.",
+            "The cabbage belongs to the Fungi Kingdom; the mushroom belongs to the Plant Kingdom.",
+            "Neither belongs to any kingdom at all.",
+          ],
+          optionsMy: [
+            "ဂေါ်ဖီအပင်သည် အပင်နိုင်ငံတွင် ပါဝင်ပြီး မှိုသည် မှိုနိုင်ငံတွင် ပါဝင်သည်။",
+            "နှစ်ခုစလုံးသည် အတိအကျ နိုင်ငံတစ်ခုတည်းဖြစ်သော တိရစ္ဆာန်နိုင်ငံတွင် ပါဝင်ကြသည်။",
+            "ဂေါ်ဖီအပင်သည် မှိုနိုင်ငံတွင် ပါဝင်ပြီး မှိုသည် အပင်နိုင်ငံတွင် ပါဝင်သည်။",
+            "နှစ်ခုစလုံးသည် မည်သည့်နိုင်ငံတွင်မျှ လုံးဝ မပါဝင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a brand-new idea for this week -- the five kingdoms include Animals, Plants, Fungi, Protists and Bacteria, and fungi are placed in their own kingdom precisely because, unlike plants, they cannot photosynthesize.",
+            "Recall Week 15's photosynthesis lesson -- only plants (and a few other organisms) can capture light energy this way; a mushroom must get its nutrients differently.",
+          ],
+          hintsMy: [
+            "ဤအချက်သည် ဤအပတ်အတွက် ဝေါဟာရအသစ်တစ်ခုဖြစ်သည် -- နိုင်ငံငါးနိုင်ငံတွင် တိရစ္ဆာန်၊ အပင်၊ မှို၊ ပရိုတိုစ်နှင့် ဘက်တီးရီးယားနိုင်ငံများ ပါဝင်ပြီး မှိုများကို အပင်များနှင့်မတူဘဲ အလင်းစွမ်းဓာတ်ပေါင်းစပ်၍ မရနိုင်သောကြောင့် ၎င်း၏ ကိုယ်ပိုင်နိုင်ငံတွင် ထားရှိသည်။",
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသင်ခန်းစာကို သတိရပါ -- အပင်များ (နှင့် အခြားသက်ရှိအနည်းငယ်) သာလျှင် ဤနည်းလမ်းဖြင့် အလင်းစွမ်းအင်ကို ဖမ်းယူနိုင်ပြီး မှိုတစ်ပင်သည် ၎င်း၏ အာဟာရကို မတူညီသောနည်းလမ်းဖြင့် ရရှိရမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A mushroom and a lion are two very different organisms, yet both show all seven of Week 13's MRS GREN characteristics of life. Why doesn't sharing those seven characteristics put every living thing into one single group?",
+          questionMy:
+              "မှိုနှင့် ခြင်္သေ့သည် လွန်စွာကွဲပြားသော သက်ရှိနှစ်ခုဖြစ်သော်လည်း နှစ်ခုစလုံးသည် Week 13 ၏ MRS GREN သက်ရှိလက္ခဏာခုနစ်ခုလုံးကို ပြသကြသည်။ ဤလက္ခဏာခုနစ်ခုကို မျှဝေခြင်းက သက်ရှိအားလုံးကို အုပ်စုတစ်ခုတည်းအတွင်း အဘယ့်ကြောင့် မထည့်နိုင်သနည်း။",
+          optionsEn: [
+            "MRS GREN's characteristics only prove something is alive; classification then groups living things more precisely by their specific features, such as how they feed, move, or reproduce.",
+            "Sharing MRS GREN actually does mean every living thing belongs to one single group.",
+            "Only animals can ever show all seven MRS GREN characteristics.",
+            "MRS GREN and classification are exactly the same thing.",
+          ],
+          optionsMy: [
+            "MRS GREN လက္ခဏာများသည် တစ်စုံတစ်ခု အသက်ရှင်ကြောင်းကိုသာ သက်သေပြပြီး ခွဲခြားသတ်မှတ်ခြင်းကမူ သက်ရှိများကို ၎င်းတို့ မည်ကဲ့သို့ စားသောက်ကြသည်၊ ရွေ့လျားကြသည် (သို့) မျိုးပွားကြသည်ကဲ့သို့သော သီးခြားလက္ခဏာများဖြင့် ပို၍တိကျစွာ ခွဲခြားပေးသည်။",
+            "MRS GREN ကို မျှဝေခြင်းက သက်ရှိအားလုံးကို အုပ်စုတစ်ခုတည်းအတွင်း တကယ်ထားရှိသည်။",
+            "တိရစ္ဆာန်များသာ MRS GREN လက္ခဏာခုနစ်ခုလုံးကို ဘယ်တော့မှ ပြသနိုင်သည်။",
+            "MRS GREN နှင့် ခွဲခြားသတ်မှတ်ခြင်းသည် အတိအကျ တစ်ခုတည်းသောအရာ ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 13's lesson -- MRS GREN's seven characteristics define what it means to be alive at all, not which specific kind of living thing something is.",
+            "Recall Day 1's third question -- a mushroom and a cabbage are both alive, but classification separates them into entirely different kingdoms based on features like photosynthesis.",
+          ],
+          hintsMy: [
+            "Week 13 ၏ သင်ခန်းစာကို သတိရပါ -- MRS GREN လက္ခဏာခုနစ်ခုသည် တစ်စုံတစ်ခု အသက်ရှင်ခြင်းဆိုသည်မှာ အဘယ်ကို ဆိုလိုသည်ကို အဓိပ္ပာယ်ဖွင့်ဆိုပေးပြီး ၎င်းသည် မည်သည့်ကွဲပြားသောသက်ရှိအမျိုးအစားလဲဆိုသည်ကို မဆိုလိုပါ။",
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- မှိုနှင့် ဂေါ်ဖီအပင်နှစ်ခုလုံးသည် အသက်ရှင်နေကြသော်လည်း ခွဲခြားသတ်မှတ်ခြင်းက ၎င်းတို့ကို အလင်းစွမ်းဓာတ်ပေါင်းစပ်နိုင်ခြင်း ကဲ့သို့သောလက္ခဏာများပေါ်မူတည်၍ လုံးဝကွဲပြားသောနိုင်ငံများအတွင်း ခွဲခြားပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match the Classification Terms",
+      titleMy: "ခွဲခြားသတ်မှတ်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w31-dm-1",
+          termEn: "Vertebrate",
+          termMy: "ကျောရိုးရှိသတ္တဝါ (Vertebrate)",
+          matchEn:
+              "An animal with a backbone, such as a fish, amphibian, reptile, bird or mammal.",
+          matchMy:
+              "ငါး၊ ဗီယမ်၊ တွားသွားသတ္တဝါ၊ ငှက် (သို့) နို့တိုက်သတ္တဝါကဲ့သို့ ကျောရိုးရှိသော တိရစ္ဆာန်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w31-dm-2",
+          termEn: "Invertebrate",
+          termMy: "ကျောရိုးမရှိသတ္တဝါ (Invertebrate)",
+          matchEn:
+              "An animal with no backbone at all, such as an insect, worm, snail or spider.",
+          matchMy: "ပိုးမွှား၊ တီကောင်၊ ခရုတွန်း (သို့) ပင့်ကူကဲ့သို့ ကျောရိုးလုံးဝ မရှိသော တိရစ္ဆာန်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w31-dm-3",
+          termEn: "Amphibian",
+          termMy: "ဗီယမ် (Amphibian)",
+          matchEn:
+              "A vertebrate, such as a frog, with moist skin that usually lays its eggs in water.",
+          matchMy: "ဖားကဲ့သို့ ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး စိုစွတ်သောအရေပြားရှိကာ ပုံမှန်အားဖြင့် ရေတွင် ဥ ဥသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w31-dm-4",
+          termEn: "Reptile",
+          termMy: "တွားသွားသတ္တဝါ (Reptile)",
+          matchEn:
+              "A vertebrate, such as a lizard or snake, with dry, scaly skin that lays leathery eggs on land.",
+          matchMy:
+              "လင်းနို့ (သို့) မြွေကဲ့သို့ ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး ခြောက်သွေ့၊ အကြေးထသောအရေပြားရှိကာ မြေပေါ်တွင် သားရေကဲ့သို့ ခေါင်းသောဥများ ဥသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w31-dm-5",
+          termEn: "Mammal",
+          termMy: "နို့တိုက်သတ္တဝါ (Mammal)",
+          matchEn:
+              "A vertebrate, such as a cat or a human, with fur or hair that feeds its young with milk.",
+          matchMy:
+              "ကြောင် (သို့) လူသားကဲ့သို့ ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး အမွှေး (သို့) အမွှေးမျှင်ရှိကာ ၎င်း၏ကလေးကို နို့ဖြင့် ကျွေးမွေးသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w31-dm-6",
+          termEn: "Classification Key",
+          termMy: "ခွဲခြားသတ်မှတ်မှုသော့ (Classification Key)",
+          matchEn:
+              "A series of simple yes/no questions about observable features, used to identify which group a living thing belongs to.",
+          matchMy:
+              "သက်ရှိတစ်ခုသည် မည်သည့်အုပ်စုတွင် ပါဝင်ကြောင်း ခွဲခြားသတ်မှတ်ရန် အသုံးပြုသော၊ တွေ့မြင်ရသောလက္ခဏာများအကြောင်း ရိုးရှင်းသော ဟုတ်/မဟုတ် မေးခွန်းစဉ်များ။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Vertebrate or Invertebrate?",
+      titleMy: "စီစစ်ကြမည် - ကျောရိုးရှိသတ္တဝါလား၊ ကျောရိုးမရှိသတ္တဝါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Vertebrate (Has a Backbone)", "Invertebrate (No Backbone)"],
+        bucketsMy: [
+          "ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်)",
+          "ကျောရိုးမရှိသတ္တဝါ (ကျောရိုးမရှိပါ)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w31-sort-1",
+            labelEn: "A fish, breathing through gills underwater",
+            labelMy: "ရေအောက်တွင် ပင်လယ်ငါးအယက်များဖြင့် အသက်ရှူနေသော ငါးတစ်ကောင်",
+            correctBucketEn: "Vertebrate (Has a Backbone)",
+            correctBucketMy: "ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-2",
+            labelEn: "A frog with moist skin, laying eggs in a pond",
+            labelMy: "ရေကန်တွင် ဥ ဥနေသော စိုစွတ်သောအရေပြားရှိ ဖားတစ်ကောင်",
+            correctBucketEn: "Vertebrate (Has a Backbone)",
+            correctBucketMy: "ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-3",
+            labelEn: "A sparrow with feathers, laying hard-shelled eggs",
+            labelMy: "အခြေထောက်ရှိပြီး ခွံခက်သောဥများ ဥသော စာငှက်တစ်ကောင်",
+            correctBucketEn: "Vertebrate (Has a Backbone)",
+            correctBucketMy: "ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-4",
+            labelEn: "A cat with fur, feeding her kittens milk",
+            labelMy: "ကျေးမကလေးများကို နို့တိုက်ကျွေးနေသော အမွှေးရှိ ကြောင်တစ်ကောင်",
+            correctBucketEn: "Vertebrate (Has a Backbone)",
+            correctBucketMy: "ကျောရိုးရှိသတ္တဝါ (ကျောရိုးရှိသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-5",
+            labelEn: "A caterpillar munching on a cabbage leaf",
+            labelMy: "ဂေါ်ဖီအရွက်တစ်ရွက်ကို ဝါးနေသော ပိုးကောင်တစ်ကောင်",
+            correctBucketEn: "Invertebrate (No Backbone)",
+            correctBucketMy: "ကျောရိုးမရှိသတ္တဝါ (ကျောရိုးမရှိပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-6",
+            labelEn: "An earthworm burrowing through garden soil",
+            labelMy: "ဥယျာဉ်မြေထဲသို့ တွင်းတူးနေသော ကျွဲကောင်တစ်ကောင်",
+            correctBucketEn: "Invertebrate (No Backbone)",
+            correctBucketMy: "ကျောရိုးမရှိသတ္တဝါ (ကျောရိုးမရှိပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-7",
+            labelEn: "A garden snail with a hard, coiled shell",
+            labelMy: "ခိုင်မာသော၊ ကွေ့ကောက်နေသော အခွံရှိသော ခရုတွန်းတစ်ကောင်",
+            correctBucketEn: "Invertebrate (No Backbone)",
+            correctBucketMy: "ကျောရိုးမရှိသတ္တဝါ (ကျောရိုးမရှိပါ)",
+          ),
+          SortingItem(
+            id: "s1sci-w31-sort-8",
+            labelEn: "A spider spinning a web between two branches",
+            labelMy: "အကိုင်းနှစ်ကိုင်းအကြား အင်းပင်ရက်နေသော ပင့်ကူတစ်ကောင်",
+            correctBucketEn: "Invertebrate (No Backbone)",
+            correctBucketMy: "ကျောရိုးမရှိသတ္တဝါ (ကျောရိုးမရှိပါ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aye Aye's Backyard Classification",
+      titleMy: "စာဖတ်ခြင်း - အေးအေး၏ အိမ်ခြံဝင်း ခွဲခြားသတ်မှတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye's Backyard Classification",
+        titleMy: "အေးအေး၏ အိမ်ခြံဝင်း ခွဲခြားသတ်မှတ်ခြင်း",
+        passageEn:
+            "For her classification homework, Aye Aye set out with a notebook to find as many different living things as she could in her own backyard, remembering Week 13's own garden investigation and its seven MRS GREN characteristics of life.\n\nBy the small pond, she spotted a frog with smooth, moist skin resting among the reeds, and nearby, a garden snail dragging its hard, coiled shell across a leaf. On the fence, a sparrow with bright feathers hopped along, while her family's cat dozed in a patch of sun, its fur rising and falling gently with each breath. She also remembered Thiha's Week 19 story about a cabbage plant and a caterpillar, and made a note to add them to her list too.\n\nBack at her desk, Aye Aye began sorting her list. The frog, the sparrow and the cat all had backbones, making them vertebrates -- but the frog's moist skin and pond-laid eggs marked it as an amphibian, the sparrow's feathers and hard-shelled eggs marked it as a bird, and the cat's fur and milk-feeding kittens marked it as a mammal. The snail and the caterpillar, by contrast, had no backbone at all -- both were invertebrates, even though they looked nothing alike.\n\nLast of all, Aye Aye placed the cabbage plant and a small mushroom she had found growing under a tree. Neither was an animal at all, she realized -- the cabbage belonged to the Plant Kingdom, capturing its own energy through photosynthesis just as Week 15 had described, while the mushroom, unable to photosynthesize, belonged to an entirely separate kingdom, Fungi. Looking over her finished classification key, Aye Aye smiled: every single organism on her list showed all seven of MRS GREN's characteristics, proving each one was alive -- yet their precise differences had sorted them into six completely different groups.",
+        passageMy:
+            "ခွဲခြားသတ်မှတ်ခြင်း အိမ်စာအတွက် အေးအေးသည် ၎င်း၏ ကိုယ်ပိုင်အိမ်ခြံဝင်းတွင် တွေ့နိုင်သမျှ ကွဲပြားသောသက်ရှိများကို ရှာဖွေရန် မှတ်စုစာအုပ်တစ်အုပ်ဖြင့် ထွက်ခွာခဲ့သည်၊ Week 13 ၏ ၎င်းကိုယ်တိုင်၏ ဥယျာဉ်စုံစမ်းစစ်ဆေးမှုနှင့် ၎င်း၏ MRS GREN သက်ရှိလက္ခဏာခုနစ်ခုကို သတိရမိရင်း ဖြစ်သည်။\n\nရေကန်ငယ်အနီးတွင် ရေညှိများအကြားတွင် ငြိမ်နေသော ချောမွေ့၊ စိုစွတ်သောအရေပြားရှိ ဖားတစ်ကောင်ကို တွေ့ရှိပြီး အနီးတွင် ခိုင်မာသော၊ ကွေ့ကောက်နေသော အခွံကို အရွက်တစ်ရွက်ပေါ်တွင် ဆွဲယူသွားနေသော ဥယျာဉ်ခရုတွန်းတစ်ကောင်ကိုလည်း တွေ့ရသည်။ ခြံစည်းရိုးပေါ်တွင် တောက်ပသောအခြေထောက်ရှိ စာငှက်တစ်ကောင် ခုန်ဆွခုန်ဆွသွားနေခဲ့ပြီး ၎င်း၏ မိသားစုကြောင်သည် နေရောင်ရသောနေရာတွင် ငိုက်စိုက်လျက် ၎င်း၏အမွှေးများသည် အသက်ရှူသံတစ်ခုစီနှင့်အတူ ဖြည်းညင်းစွာ တက်၍ကျလျက် ရှိနေသည်။ သူမသည် ဂေါ်ဖီအပင်နှင့် ပိုးကောင်တစ်ကောင်အကြောင်း သီဟ၏ Week 19 ဇာတ်လမ်းကိုလည်း သတိရမိသဖြင့် ၎င်းတို့ကိုလည်း ၎င်း၏စာရင်းသို့ ထည့်ရန် မှတ်စုတင်ခဲ့သည်။\n\nစားပွဲသို့ ပြန်ရောက်သောအခါ အေးအေးသည် ၎င်း၏စာရင်းကို ခွဲခြားသတ်မှတ်စတင်ခဲ့သည်။ ဖား၊ စာငှက်နှင့် ကြောင်တို့ အားလုံးသည် ကျောရိုးရှိသဖြင့် ကျောရိုးရှိသတ္တဝါများ ဖြစ်ကြသည် -- သို့သော် ဖား၏ စိုစွတ်သောအရေပြားနှင့် ရေကန်တွင်ဥသောဥများက ၎င်းကို ဗီယမ်တစ်ကောင်အဖြစ် အမှတ်အသားပြုပြီး၊ စာငှက်၏ အခြေထောက်နှင့် ခွံခက်သောဥများက ၎င်းကို ငှက်တစ်ကောင်အဖြစ် အမှတ်အသားပြုကာ၊ ကြောင်၏ အမွှေးနှင့် ကျေးမကလေးများကို နို့တိုက်ကျွေးမှုက ၎င်းကို နို့တိုက်သတ္တဝါတစ်ကောင်အဖြစ် အမှတ်အသားပြုခဲ့သည်။ ခရုတွန်းနှင့် ပိုးကောင်ကမူ ဆန့်ကျင်ဘက်အနေဖြင့် ကျောရိုး လုံးဝ မရှိခဲ့ပါ -- နှစ်ကောင်စလုံးသည် အသွင်အပြင် လုံးဝမတူညီသော်လည်း ကျောရိုးမရှိသတ္တဝါများ ဖြစ်ကြသည်။\n\nနောက်ဆုံးတွင် အေးအေးသည် ဂေါ်ဖီအပင်နှင့် သစ်ပင်တစ်ပင်အောက်တွင် ပေါက်နေသည်ကို တွေ့ခဲ့သော မှိုငယ်တစ်ပင်ကို ထားလိုက်သည်။ နှစ်ခုစလုံးသည် တိရစ္ဆာန်လုံးဝ မဟုတ်ကြောင်း သူမ သိရှိလိုက်သည် -- ဂေါ်ဖီအပင်သည် Week 15 ဖော်ပြထားသကဲ့သို့ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းမှတစ်ဆင့် ၎င်းကိုယ်ပိုင်စွမ်းအင်ကို ဖမ်းယူသော အပင်နိုင်ငံတွင် ပါဝင်ပြီး၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်၍ မရနိုင်သော မှိုမူ လုံးဝကွဲပြားသောနိုင်ငံဖြစ်သော မှိုနိုင်ငံတွင် ပါဝင်သည်။ ၎င်း၏ ပြီးစီးသွားသော ခွဲခြားသတ်မှတ်မှုသော့ကို ပြန်ကြည့်ရင်း အေးအေး ပြုံးလိုက်သည် - ၎င်း၏စာရင်းရှိ သက်ရှိတစ်ခုစီသည် MRS GREN လက္ခဏာခုနစ်ခုလုံးကို ပြသကာ တစ်ခုစီ အသက်ရှင်ကြောင်း သက်သေပြသော်လည်း ၎င်းတို့၏ တိကျသောကွာခြားချက်များက ၎င်းတို့ကို လုံးဝကွဲပြားသော အုပ်စုခြောက်ခုအတွင်းသို့ ခွဲခြားသတ်မှတ်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Which two organisms from Aye Aye's list turned out to be invertebrates, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ အေးအေး၏ စာရင်းမှ သက်ရှိနှစ်ခုသည် ကျောရိုးမရှိသတ္တဝါများ ဖြစ်ကြောင်း သိရှိလိုက်ရသနည်း။",
+            optionsEn: [
+              "The garden snail and the caterpillar.",
+              "The frog and the sparrow.",
+              "The cat and the mushroom.",
+              "None of the organisms turned out to be invertebrates.",
+            ],
+            optionsMy: [
+              "ဥယျာဉ်ခရုတွန်းနှင့် ပိုးကောင်။",
+              "ဖားနှင့် စာငှက်။",
+              "ကြောင်နှင့် မှို။",
+              "သက်ရှိတစ်ခုမျှ ကျောရိုးမရှိသတ္တဝါ မဖြစ်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which names these two directly.",
+              "This is the same distinction from Day 1's first question about Thiha's caterpillar.",
+            ],
+            hintsMy: [
+              "ဤသက်ရှိနှစ်ခုကို တိုက်ရိုက် အမည်တွင်ထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် သီဟ၏ ပိုးကောင်အကြောင်း ပထမနေ့ ပထမမေးခွန်းမှ ခွဲခြားချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What feature marked the frog as an amphibian rather than a reptile, according to paragraph 3?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ ဖားကို တွားသွားသတ္တဝါထက် ဗီယမ်တစ်ကောင်အဖြစ် အမှတ်အသားပြုခဲ့သော လက္ခဏာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Its moist skin and pond-laid eggs.",
+              "Its feathers and hard-shelled eggs.",
+              "Its fur and milk-feeding young.",
+              "The passage does not mention any feature.",
+            ],
+            optionsMy: [
+              "၎င်း၏ စိုစွတ်သောအရေပြားနှင့် ရေကန်တွင်ဥသောဥများ။",
+              "၎င်း၏ အခြေထောက်နှင့် ခွံခက်သောဥများ။",
+              "၎င်း၏ အမွှေးနှင့် နို့တိုက်ကျွေးသောကလေးများ။",
+              "စာပိုဒ်တွင် လက္ခဏာမည်သည့်တစ်ခုကိုမျှ ဖော်ပြထားခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this directly.",
+              "This is the same reasoning from Day 1's second question about amphibians and reptiles.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဗီယမ်နှင့် တွားသွားသတ္တဝါအကြောင်း ပထမနေ့ ဒုတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the cabbage and the mushroom belong to two completely different kingdoms, according to the final paragraph?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ ဂေါ်ဖီအပင်နှင့် မှိုသည် အဘယ့်ကြောင့် လုံးဝကွဲပြားသောနိုင်ငံနှစ်ခုတွင် ပါဝင်ခဲ့ကြသနည်း။",
+            optionsEn: [
+              "The cabbage can photosynthesize; the mushroom cannot.",
+              "The cabbage has a backbone; the mushroom does not.",
+              "The cabbage lays eggs; the mushroom does not.",
+              "There is no real difference between the two.",
+            ],
+            optionsMy: [
+              "ဂေါ်ဖီအပင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်နိုင်ပြီး မှိုကမူ မရနိုင်ပါ။",
+              "ဂေါ်ဖီအပင်သည် ကျောရိုးရှိပြီး မှိုကမူ မရှိပါ။",
+              "ဂေါ်ဖီအပင်သည် ဥ ဥပြီး မှိုကမူ မဥပါ။",
+              "နှစ်ခုအကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this directly, citing Week 15.",
+              "This is the same reasoning from Day 1's third question about the cabbage and the mushroom.",
+            ],
+            hintsMy: [
+              "Week 15 ကို ကိုးကားလျက် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဂေါ်ဖီအပင်နှင့် မှိုအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage's final sentence, what did every organism on Aye Aye's list have in common, despite being sorted into six different groups?",
+            questionMy:
+                "စာပိုဒ်၏ နောက်ဆုံးဝါကျအရ အုပ်စုခြောက်ခုအတွင်းသို့ ခွဲခြားခံရသော်လည်း အေးအေး၏ စာရင်းရှိ သက်ရှိတစ်ခုစီတွင် ဘုံတူညီသောအချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Every one of them showed all seven of MRS GREN's characteristics of life.",
+              "Every one of them had a backbone.",
+              "Every one of them could photosynthesize.",
+              "They had absolutely nothing in common at all.",
+            ],
+            optionsMy: [
+              "၎င်းတို့ တစ်ခုစီသည် MRS GREN သက်ရှိလက္ခဏာခုနစ်ခုလုံးကို ပြသကြသည်။",
+              "၎င်းတို့ တစ်ခုစီသည် ကျောရိုးရှိကြသည်။",
+              "၎င်းတို့ တစ်ခုစီသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်နိုင်ကြသည်။",
+              "၎င်းတို့တွင် ဘုံတူညီသောအချက် လုံးဝ မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final sentence, which states this directly.",
+              "This is the same idea from Day 1's fourth question about MRS GREN and classification working at two different levels.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးဝါကျကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် MRS GREN နှင့် ခွဲခြားသတ်မှတ်ခြင်းသည် အဆင့်နှစ်ဆင့်တွင် လုပ်ဆောင်ကြောင်း ပထမနေ့ စတုတ္ထမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Classifying Living Things",
+      titleMy: "အပတ်စဉ် ၃၁ ပြန်လည်သုံးသပ်ခြင်း - သက်ရှိများကို ခွဲခြားသတ်မှတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the key difference between a vertebrate and an invertebrate?",
+          questionMy: "ကျောရိုးရှိသတ္တဝါနှင့် ကျောရိုးမရှိသတ္တဝါအကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A vertebrate has a backbone; an invertebrate does not.",
+            "A vertebrate can photosynthesize; an invertebrate cannot.",
+            "A vertebrate lives in water; an invertebrate lives on land.",
+            "There is no real difference between the two.",
+          ],
+          optionsMy: [
+            "ကျောရိုးရှိသတ္တဝါတွင် ကျောရိုးရှိပြီး ကျောရိုးမရှိသတ္တဝါတွင် ကျောရိုး မရှိပါ။",
+            "ကျောရိုးရှိသတ္တဝါသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်နိုင်ပြီး ကျောရိုးမရှိသတ္တဝါကမူ မရနိုင်ပါ။",
+            "ကျောရိုးရှိသတ္တဝါသည် ရေတွင် နေထိုင်ပြီး ကျောရိုးမရှိသတ္တဝါသည် မြေပေါ်တွင် နေထိုင်သည်။",
+            "နှစ်ခုအကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Day 2's vocabulary.",
+            "Recall Aye Aye's own snail and caterpillar, both without backbones.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ။",
+            "ကျောရိုး လုံးဝမရှိသော အေးအေး၏ ကိုယ်ပိုင်ခရုတွန်းနှင့် ပိုးကောင်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which vertebrate group has moist skin and typically lays its eggs in water?",
+          questionMy: "မည်သည့်ကျောရိုးရှိသတ္တဝါအုပ်စုတွင် စိုစွတ်သောအရေပြားရှိပြီး ပုံမှန်အားဖြင့် ရေတွင်ဥ ဥသနည်း။",
+          optionsEn: ["Amphibians", "Reptiles", "Birds", "Mammals"],
+          optionsMy: ["ဗီယမ်များ", "တွားသွားသတ္တဝါများ", "ငှက်များ", "နို့တိုက်သတ္တဝါများ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question and Day 2's vocabulary -- a frog is the classic example.",
+            "Reptiles, by contrast, have dry, scaly skin and lay their eggs on land.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ဒုတိယမေးခွန်းနှင့် ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ဖားသည် ဂန္ထဝင်ဥပမာ ဖြစ်သည်။",
+            "တွားသွားသတ္တဝါများကမူ ခြောက်သွေ့၊ အကြေးထသောအရေပြားရှိကာ မြေပေါ်တွင် ဥ ဥသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why does a mushroom belong to the Fungi Kingdom rather than the Plant Kingdom?",
+          questionMy: "မှိုသည် အပင်နိုင်ငံထက် မှိုနိုင်ငံတွင် အဘယ့်ကြောင့် ပါဝင်သနည်း။",
+          optionsEn: [
+            "Unlike plants, a mushroom cannot photosynthesize.",
+            "A mushroom has a backbone, unlike a plant.",
+            "A mushroom can fly, unlike a plant.",
+            "There is no real reason -- the grouping is random.",
+          ],
+          optionsMy: [
+            "အပင်များနှင့်မတူဘဲ မှိုတစ်ပင်သည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်၍ မရနိုင်ပါ။",
+            "အပင်တစ်ပင်နှင့် မတူဘဲ မှိုတစ်ပင်တွင် ကျောရိုး ရှိသည်။",
+            "အပင်တစ်ပင်နှင့် မတူဘဲ မှိုတစ်ပင်သည် ပျံသန်းနိုင်သည်။",
+            "အမှန်တကယ် အကြောင်းရင်း မရှိပါ -- ခွဲခြားမှုသည် ကျပန်း ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Aye Aye's own mushroom find in the reading passage.",
+            "Recall Week 15's photosynthesis lesson -- this is the key feature separating the two kingdoms.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခန်းရှိ အေးအေး၏ ကိုယ်ပိုင် မှိုတွေ့ရှိမှုကို သတိရပါ။",
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသင်ခန်းစာကို သတိရပါ -- ၎င်းသည် နိုင်ငံနှစ်ခုကို ခွဲခြားပေးသော အဓိကလက္ခဏာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does MRS GREN, from Week 13, actually tell you about an organism?",
+          questionMy: "Week 13 မှ MRS GREN သည် သက်ရှိတစ်ခုအကြောင်း အမှန်တကယ် အဘယ်ကို ပြောပြသနည်း။",
+          optionsEn: [
+            "That it is alive, without telling you which specific group it belongs to",
+            "Exactly which of the five kingdoms it belongs to",
+            "Whether it has a backbone or not",
+            "Nothing useful at all",
+          ],
+          optionsMy: [
+            "၎င်းသည် မည်သည့်သီးခြားအုပ်စုတွင် ပါဝင်ကြောင်း မပြောဘဲ အသက်ရှင်ကြောင်းသာ ပြောပြသည်",
+            "နိုင်ငံငါးနိုင်ငံအနက် မည်သည့်နိုင်ငံတွင် ပါဝင်ကြောင်း အတိအကျ",
+            "ကျောရိုးရှိမရှိ",
+            "အသုံးဝင်သောအရာ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- a mushroom and a lion both show MRS GREN, yet belong to completely different kingdoms.",
+            "Recall Aye Aye's final realization -- MRS GREN proves life, while classification sorts living things more precisely.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- မှိုနှင့် ခြင်္သေ့နှစ်ခုစလုံးသည် MRS GREN ကို ပြသကြသော်လည်း လုံးဝကွဲပြားသော နိုင်ငံများတွင် ပါဝင်ကြသည်။",
+            "အေးအေး၏ နောက်ဆုံးနားလည်လိုက်မှုကို သတိရပါ -- MRS GREN သည် အသက်ရှင်ကြောင်း သက်သေပြပြီး ခွဲခြားသတ်မှတ်ခြင်းကမူ သက်ရှိများကို ပို၍တိကျစွာ ခွဲခြားပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, why did Aye Aye's snail and caterpillar end up in the same group, invertebrates, despite looking nothing alike?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် အေးအေး၏ ခရုတွန်းနှင့် ပိုးကောင်တို့သည် အသွင်အပြင် လုံးဝမတူညီသော်လည်း အဘယ့်ကြောင့် ကျောရိုးမရှိသတ္တဝါအုပ်စုတစ်ခုတည်းအတွင်း ရောက်ရှိခဲ့ကြသနည်း။",
+          optionsEn: [
+            "Classification groups organisms by shared underlying features, like having no backbone, rather than by outward appearance alone.",
+            "They were placed in the same group purely by coincidence.",
+            "Every animal without exception belongs to the exact same group.",
+            "They were actually placed in different groups, not the same one.",
+          ],
+          optionsMy: [
+            "ခွဲခြားသတ်မှတ်ခြင်းသည် ပြင်ပအသွင်အပြင်တစ်ခုတည်းအားဖြင့်ထက် ကျောရိုးမရှိခြင်းကဲ့သို့သော အခြေခံဘုံလက္ခဏာများအားဖြင့် သက်ရှိများကို အုပ်စုဖွဲ့ပေးသည်။",
+            "အမှတ်တမဲ့သာ အုပ်စုတစ်ခုတည်းတွင် ထားခံခဲ့ရသည်။",
+            "ချွင်းချက်မရှိ တိရစ္ဆာန်တိုင်းသည် အုပ်စုတစ်ခုတည်းတွင်သာ ပါဝင်ကြသည်။",
+            "အမှန်တကယ်တွင် အုပ်စုတစ်ခုတည်း မဟုတ်ဘဲ မတူညီသောအုပ်စုများတွင် ထားခံခဲ့ရသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Aye Aye's own reading passage -- classification looks past outward appearance to shared underlying features like a backbone.",
+            "This is the same idea from Day 1's first and fourth questions -- MRS GREN and vertebrate/invertebrate status are both about underlying features, not surface looks.",
+          ],
+          hintsMy: [
+            "အေးအေး၏ ကိုယ်ပိုင်စာဖတ်ခန်းကို သတိရပါ -- ခွဲခြားသတ်မှတ်ခြင်းသည် ကျောရိုးရှိခြင်းကဲ့သို့သော အခြေခံဘုံလက္ခဏာများကို ရှာဖွေရန် ပြင်ပအသွင်အပြင်ကို ကျော်လွန်၍ ကြည့်သည်။",
+            "၎င်းသည် ပထမနေ့ ပထမနှင့် စတုတ္ထမေးခွန်းများမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် -- MRS GREN နှင့် ကျောရိုးရှိ/မရှိအခြေအနေနှစ်ခုစလုံးသည် ပြင်ပအသွင်အပြင်မဟုတ်ဘဲ အခြေခံလက္ခဏာများအကြောင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 8, Week 32: "The Human Body and Classification -- Capstone"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek32 = CourseWeekDef(
+  id: "course-secondary1-science-w32",
+  weekNumber: 32,
+  titleEn: "Skeletons, Muscles and Classification at the Zoo",
+  titleMy: "တိရစ္ဆာန်ဥယျာဉ်ရှိ ရိုးစု၊ ကြွက်သားနှင့် ခွဲခြားသတ်မှတ်ခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w32-d1",
+      dayNumber: 1,
+      titleEn: "Multi-Concept Body Systems Quiz",
+      titleMy: "ပေါင်းစပ် ခန္ဓာကိုယ်စနစ်များ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the zoo's Bone Hall, Thiha examines a mounted leopard skeleton with a backbone running its full length. The guide adds that a live leopard has fur and feeds its cubs milk. Which vertebrate group does the leopard belong to?",
+          questionMy:
+              "တိရစ္ဆာန်ဥယျာဉ်၏ ရိုးရုံခန်းတွင် သီဟသည် ကျောရိုးအပြည့်အစုံရှိသော ကျောက်ကုလားအုပ်ရိုးစုစံနမူနာကို လေ့လာသည်။ လမ်းညွှန်က လက်ရှိကျောက်ကုလားအုပ်တွင် အမွှေးရှိပြီး ၎င်း၏ ကျားလေးကို နို့ကျွေးကြောင်း ထပ်ဆင့်ပြောသည်။ ကျောက်ကုလားအုပ်သည် မည်သည့်ကျောရိုးရှိသတ္တဝါအုပ်စုတွင် ပါဝင်သနည်း။",
+          optionsEn: [
+            "Mammal, because it has a backbone, fur and feeds its young milk.",
+            "Amphibian, because it has moist skin.",
+            "Reptile, because it lays leathery eggs.",
+            "Invertebrate, because it has no backbone at all.",
+          ],
+          optionsMy: [
+            "နို့တိုက်သတ္တဝါ၊ ကျောရိုးရှိ၊ အမွှေးရှိပြီး ၎င်း၏ကလေးကို နို့ကျွေးသောကြောင့်။",
+            "ဗီယမ်၊ စိုစွတ်သောအရေပြားရှိသောကြောင့်။",
+            "တွားသွားသတ္တဝါ၊ သားရေကဲ့သို့ ခေါင်းသောဥများ ဥသောကြောင့်။",
+            "ကျောရိုးမရှိသတ္တဝါ၊ ကျောရိုး လုံးဝ မရှိသောကြောင့်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's classification lesson -- fur and milk-feeding young are the defining features of a mammal.",
+            "The leopard clearly has a backbone, so it must be a vertebrate first, and its fur and milk narrow it further to mammal.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ ခွဲခြားသတ်မှတ်ခြင်းသင်ခန်းစာကို သတိရပါ -- အမွှေးနှင့် ကလေးကို နို့ကျွေးခြင်းသည် နို့တိုက်သတ္တဝါ၏ သတ်မှတ်ချက်လက္ခဏာများ ဖြစ်သည်။",
+            "ကျောက်ကုလားအုပ်တွင် ကျောရိုး ရှင်းရှင်းလင်းလင်း ရှိသဖြင့် ကျောရိုးရှိသတ္တဝါ ဖြစ်ရမည်ဖြစ်ပြီး ၎င်း၏ အမွှေးနှင့် နို့ကမူ ၎င်းကို နို့တိုက်သတ္တဝါအဖြစ် ပို၍ကျဉ်းမြောင်းစွာ ခွဲခြားပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The guide points out that the leopard skeleton's hip joint can rotate in almost any direction, while its knee joint only bends and straightens in one direction. Which joint types are these?",
+          questionMy:
+              "ကျောက်ကုလားအုပ်ရိုးစု၏ ခြေတင်းရင်းဆစ်သည် ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်နိုင်သော်လည်း ၎င်း၏ ဒူးဆစ်သည် ဦးတည်ရာတစ်ခုတည်းတွင်သာ ကွေး/ဖြောင့်ရသည်ဟု လမ်းညွှန်က ညွှန်ပြသည်။ ဤသည်မှာ မည်သည့်အဆစ်အမျိုးအစားများ ဖြစ်ကြသနည်း။",
+          optionsEn: [
+            "The hip is a ball-and-socket joint; the knee is a hinge joint.",
+            "The hip is a hinge joint; the knee is a ball-and-socket joint.",
+            "Both are exactly the same joint type.",
+            "Neither is a real joint type from Week 29.",
+          ],
+          optionsMy: [
+            "ခြေတင်းရင်းဆစ်သည် ဘောလုံး-ဗန်းအဆစ်ဖြစ်ပြီး ဒူးဆစ်သည် အင်ကျင့်အဆစ် ဖြစ်သည်။",
+            "ခြေတင်းရင်းဆစ်သည် အင်ကျင့်အဆစ်ဖြစ်ပြီး ဒူးဆစ်သည် ဘောလုံး-ဗန်းအဆစ် ဖြစ်သည်။",
+            "နှစ်ခုစလုံးသည် အတိအကျ အဆစ်အမျိုးအစားတစ်ခုတည်း ဖြစ်သည်။",
+            "နှစ်ခုစလုံးသည် Week 29 မှ တကယ့်အဆစ်အမျိုးအစား မဟုတ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 29's Day 2 vocabulary -- a ball-and-socket joint rotates in nearly every direction, while a hinge joint only moves back and forth in one.",
+            "This is the same distinction Kaung's model skeleton demonstrated with its own shoulder and elbow.",
+          ],
+          hintsMy: [
+            "Week 29 ၏ ဒုတိယနေ့ ဝေါဟာရများကို သတိရပါ -- ဘောလုံး-ဗန်းအဆစ်သည် ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်ပြီး အင်ကျင့်အဆစ်ကမူ ဦးတည်ရာတစ်ခုတည်းတွင်သာ ရှေ့နောက်ရွေ့လျားသည်။",
+            "၎င်းသည် ကောင်း၏ စံနမူနာရိုးစုက ၎င်း၏ ပခုံးနှင့် တံတောင်ဆစ်ဖြင့် ပြသခဲ့သော ခွဲခြားချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Outside the Bone Hall, Thiha watches a live leopard sprint after a moving lure, its leg muscles contracting and relaxing rapidly. Afterward, the leopard pants heavily. Using Week 30's and Week 16's ideas, explain what is happening.",
+          questionMy:
+              "ရိုးရုံခန်းအပြင်တွင် သီဟသည် ရွေ့လျားနေသောသရုပ်ဆောင်တစ်ခုကို လိုက်၍ ပြေးနေသော ကျောက်ကုလားအုပ်တစ်ကောင်ကို ကြည့်နေသည်၊ ၎င်း၏ ခြေထောက်ကြွက်သားများသည် လျင်မြန်စွာ ကျုံ့ကာ ပြေလျော့နေသည်။ ထို့နောက် ကျောက်ကုလားအုပ်သည် ပြင်းထန်စွာ ရှူကြသည်။ Week 30 နှင့် Week 16 ၏ အတွေးအခေါ်များကို အသုံးပြု၍ အဘယ်အရာ ဖြစ်ပျက်နေသည်ကို ရှင်းပြပါ။",
+          optionsEn: [
+            "Antagonistic muscle pairs are taking turns contracting to move its legs, using energy from respiration -- the heavy panting delivers extra oxygen to keep that energy coming quickly.",
+            "The leopard's muscles are pushing its bones directly, with no need for respiration at all.",
+            "The panting is completely unrelated to the sprint that just happened.",
+            "The leopard's bones are moving entirely on their own, without any muscles.",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်တွဲဘက်ကြွက်သားများသည် ခြေထောက်များကို ရွေ့လျားစေရန် အလှည့်ကျ ကျုံ့ကာ အသက်ရှုမှုမှ စွမ်းအင်ကို အသုံးပြုနေသည် -- ပြင်းထန်စွာရှူခြင်းက ထိုစွမ်းအင် ဆက်လက်လျင်မြန်စွာ ရရှိစေရန် အပိုအောက်စီဂျင် ပေးပို့နေသည်။",
+            "ကျောက်ကုလားအုပ်၏ ကြွက်သားများသည် ၎င်း၏အရိုးများကို တိုက်ရိုက် တွန်းနေပြီး အသက်ရှုမှု လုံးဝ မလိုအပ်ပါ။",
+            "ပြင်းထန်စွာရှူခြင်းသည် ယခုပင် ဖြစ်ပျက်ခဲ့သော ပြေးလွှားမှုနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+            "ကျောက်ကုလားအုပ်၏ အရိုးများသည် ကြွက်သားမည်သည့်တစ်ခုမျှ မပါဘဲ ၎င်းတို့ကိုယ်တိုင် လုံးလုံး ရွေ့လျားနေခြင်း ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's antagonistic pairs and Week 16's respiration, and Su Su's own sprint -- the same two ideas apply directly to the leopard.",
+            "Muscles can only pull, never push, and that pulling always needs energy released by respiration.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ဆန့်ကျင်တွဲဘက်များနှင့် Week 16 ၏ အသက်ရှုမှု၊ စုစုကိုယ်ပိုင်ပြေးလွှားမှုကို သတိရပါ -- အတွေးအခေါ်နှစ်ခုတည်းသည် ကျောက်ကုလားအုပ်အတွက်လည်း တိုက်ရိုက် အကျုံးဝင်သည်။",
+            "ကြွက်သားများသည် ဆွဲငင်ရုံသာ ပြုလုပ်နိုင်ပြီး ဘယ်တော့မှ မတွန်းနိုင်ဘဲ ထိုဆွဲငင်ခြင်းသည် အသက်ရှုမှုမှ ထုတ်ပေးသော စွမ်းအင် အမြဲ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Thiha realizes the mounted skeleton in the Bone Hall, unlike the live leopard outside, will never pounce on anything. Using this week's ideas, explain why the skeleton alone could never make a leopard move.",
+          questionMy:
+              "ရိုးရုံခန်းရှိ ကျောက်ကုလားအုပ်ရိုးစုစံနမူနာသည် အပြင်ရှိ လက်ရှိကျောက်ကုလားအုပ်နှင့်မတူဘဲ ဘယ်တော့မှ မည်သည့်အရာကိုမျှ ဝေးကနေမည်ကို ကြောက်ကနေမည် မဟုတ်ကြောင်း သီဟ နားလည်လိုက်သည်။ ဤအပတ်၏ အတွေးအခေါ်များကို အသုံးပြု၍ ရိုးစုတစ်ခုတည်းသည် ကျောက်ကုလားအုပ်တစ်ကောင်ကို ဘယ်တော့မှ ရွေ့လျားစေနိုင်မည် မဟုတ်ကြောင်း ရှင်းပြပါ။",
+          optionsEn: [
+            "Bones cannot move themselves -- they need muscles pulling on them at each joint, and those muscles need energy from respiration to contract.",
+            "The mounted skeleton is simply too old to move.",
+            "Skeletons only work while an animal is asleep.",
+            "Bones can push themselves without any help at all.",
+          ],
+          optionsMy: [
+            "အရိုးများသည် ၎င်းတို့ကိုယ်တိုင် မရွေ့လျားနိုင်ပါ -- အဆစ်တစ်ခုစီတွင် ၎င်းတို့ကို ဆွဲငင်ပေးမည့် ကြွက်သားများ လိုအပ်ပြီး ထိုကြွက်သားများသည် ကျုံ့ရန် အသက်ရှုမှုမှ စွမ်းအင် လိုအပ်သည်။",
+            "စံနမူနာရိုးစုသည် ရွေ့လျားရန် အလွန်ဟောင်းနွမ်းလွန်းသောကြောင့်။",
+            "ရိုးစုများသည် တိရစ္ဆာန်တစ်ကောင် အိပ်နေချိန်တွင်သာ အလုပ်လုပ်သည်။",
+            "အရိုးများသည် အကူအညီ မည်သည့်တစ်ခုမျှ မလိုဘဲ ၎င်းတို့ကိုယ်တိုင် တွန်းနိုင်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kaung's own model skeleton from Week 29 -- exactly the same reasoning applies to this mounted leopard skeleton.",
+            "This ties together Week 29's bones, Week 30's muscles, and Week 16's respiration into one single chain of reasoning.",
+          ],
+          hintsMy: [
+            "Week 29 မှ ကောင်း၏ ကိုယ်ပိုင်စံနမူနာရိုးစုကို သတိရပါ -- အတိအကျ ယုတ္တိတစ်ခုတည်းသည် ဤစံနမူနာကျောက်ကုလားအုပ်ရိုးစုအတွက်လည်း အကျုံးဝင်သည်။",
+            "၎င်းသည် Week 29 ၏ အရိုးများ၊ Week 30 ၏ ကြွက်သားများနှင့် Week 16 ၏ အသက်ရှုမှုတို့ကို ယုတ္တိကွင်းဆက်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match the Body Systems and Classification Terms",
+      titleMy: "ခန္ဓာကိုယ်စနစ်များနှင့် ခွဲခြားသတ်မှတ်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w32-dm-1",
+          termEn: "Vertebrate",
+          termMy: "ကျောရိုးရှိသတ္တဝါ (Vertebrate)",
+          matchEn: "An animal with a backbone, the first step in classifying the leopard.",
+          matchMy: "ကျောက်ကုလားအုပ်ကို ခွဲခြားသတ်မှတ်ရန် ပထမအဆင့်ဖြစ်သော ကျောရိုးရှိသတ္တဝါ။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w32-dm-2",
+          termEn: "Mammal",
+          termMy: "နို့တိုက်သတ္တဝါ (Mammal)",
+          matchEn:
+              "A vertebrate with fur that feeds its young milk -- the group the leopard belongs to.",
+          matchMy: "အမွှေးရှိပြီး ကလေးကို နို့ကျွေးသော ကျောရိုးရှိသတ္တဝါ -- ကျောက်ကုလားအုပ် ပါဝင်သော အုပ်စု။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w32-dm-3",
+          termEn: "Ball-and-Socket Joint",
+          termMy: "ဘောလုံး-ဗန်းအဆစ် (Ball-and-Socket Joint)",
+          matchEn:
+              "The leopard's hip joint, allowing rotation in almost every direction for powerful leaps.",
+          matchMy: "အားကောင်းသောခုန်ချခြင်းများအတွက် ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်နိုင်စေသော ကျောက်ကုလားအုပ်၏ ခြေတင်းရင်းဆစ်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w32-dm-4",
+          termEn: "Antagonistic Pair",
+          termMy: "ဆန့်ကျင်တွဲဘက် (Antagonistic Pair)",
+          matchEn:
+              "Two muscles taking turns contracting to move the leopard's leg back and forth as it sprints.",
+          matchMy: "ကျောက်ကုလားအုပ် ပြေးနေစဉ် ၎င်း၏ခြေထောက်ကို ရှေ့နောက်ရွေ့လျားစေရန် အလှည့်ကျ ကျုံ့သော ကြွက်သားနှစ်ခု။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w32-dm-5",
+          termEn: "Contraction",
+          termMy: "ကျုံ့ခြင်း (Contraction)",
+          matchEn:
+              "A muscle shortening and pulling, powered by energy released through respiration.",
+          matchMy: "အသက်ရှုမှုမှတဆင့် ထုတ်ပေးသော စွမ်းအင်ဖြင့် ကျုံ့ကာ ဆွဲငင်နေသော ကြွက်သား လုပ်ဆောင်ချက်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w32-dm-6",
+          termEn: "Invertebrate",
+          termMy: "ကျောရိုးမရှိသတ္တဝါ (Invertebrate)",
+          matchEn:
+              "An animal with no backbone at all -- the opposite group from the leopard in classification.",
+          matchMy: "ကျောရိုး လုံးဝ မရှိသော တိရစ္ဆာန် -- ခွဲခြားသတ်မှတ်ခြင်းတွင် ကျောက်ကုလားအုပ်နှင့် ဆန့်ကျင်ဘက်အုပ်စု။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True in the Bone Hall or True at the Enclosure?",
+      titleMy: "စီစစ်ကြမည် - ရိုးရုံခန်းနှင့်သက်ဆိုင်သလား၊ တိရစ္ဆာန်အိမ်ခန်းနှင့်သက်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True in the Bone Hall", "True at the Leopard Enclosure"],
+        bucketsMy: [
+          "ရိုးရုံခန်းနှင့် သက်ဆိုင်သည်",
+          "ကျောက်ကုလားအုပ်အိမ်ခန်းနှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w32-sort-1",
+            labelEn: "The skeleton's ribcage protects the heart and lungs",
+            labelMy: "ရိုးစု၏ အခြေရင်းကျီးရိုးက နှလုံးနှင့်အဆုတ်ကို ကာကွယ်ပေးသည်",
+            correctBucketEn: "True in the Bone Hall",
+            correctBucketMy: "ရိုးရုံခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-2",
+            labelEn: "The ball-and-socket hip joint can rotate in almost every direction",
+            labelMy: "ဘောလုံး-ဗန်းအဆစ်ပါသော ခြေတင်းရင်းဆစ်သည် ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်နိုင်သည်",
+            correctBucketEn: "True in the Bone Hall",
+            correctBucketMy: "ရိုးရုံခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-3",
+            labelEn: "The skeleton's backbone and fur mark it as a mammal",
+            labelMy: "ရိုးစု၏ ကျောရိုးနှင့် အမွှေးက ၎င်းကို နို့တိုက်သတ္တဝါအဖြစ် အမှတ်အသားပြုသည်",
+            correctBucketEn: "True in the Bone Hall",
+            correctBucketMy: "ရိုးရုံခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-4",
+            labelEn: "The mounted skeleton stays perfectly still with no muscles at all",
+            labelMy: "စံနမူနာရိုးစုသည် ကြွက်သားလုံးဝ မပါဘဲ လုံးဝ ငြိမ်နေသည်",
+            correctBucketEn: "True in the Bone Hall",
+            correctBucketMy: "ရိုးရုံခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-5",
+            labelEn: "Antagonistic muscle pairs take turns contracting to move the legs",
+            labelMy: "ဆန့်ကျင်တွဲဘက်ကြွက်သားများသည် ခြေထောက်များကို ရွေ့လျားစေရန် အလှည့်ကျ ကျုံ့ကြသည်",
+            correctBucketEn: "True at the Leopard Enclosure",
+            correctBucketMy: "ကျောက်ကုလားအုပ်အိမ်ခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-6",
+            labelEn: "Muscle contraction uses energy released by respiration",
+            labelMy: "ကြွက်သားကျုံ့ခြင်းသည် အသက်ရှုမှုမှ ထုတ်ပေးသော စွမ်းအင်ကို အသုံးပြုသည်",
+            correctBucketEn: "True at the Leopard Enclosure",
+            correctBucketMy: "ကျောက်ကုလားအုပ်အိမ်ခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-7",
+            labelEn: "Heavy panting after a sprint delivers extra oxygen for respiration",
+            labelMy: "ပြေးလွှားပြီးနောက် ပြင်းထန်စွာရှူခြင်းက အသက်ရှုမှုအတွက် အပိုအောက်စီဂျင် ပေးပို့သည်",
+            correctBucketEn: "True at the Leopard Enclosure",
+            correctBucketMy: "ကျောက်ကုလားအုပ်အိမ်ခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "s1sci-w32-sort-8",
+            labelEn: "The leopard's legs bend and straighten rapidly while sprinting",
+            labelMy: "ပြေးလွှားနေစဉ် ကျောက်ကုလားအုပ်၏ ခြေထောက်များသည် လျင်မြန်စွာ ကွေး၍ ဖြောင့်နေသည်",
+            correctBucketEn: "True at the Leopard Enclosure",
+            correctBucketMy: "ကျောက်ကုလားအုပ်အိမ်ခန်းနှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha's Zoo Bone Hall",
+      titleMy: "စာဖတ်ခြင်း - သီဟ၏ တိရစ္ဆာန်ဥယျာဉ် ရိုးရုံခန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha's Zoo Bone Hall",
+        titleMy: "သီဟ၏ တိရစ္ဆာန်ဥယျာဉ် ရိုးရုံခန်း",
+        passageEn:
+            "Thiha's class visited the zoo's education wing, starting in the Bone Hall, where a mounted leopard skeleton hung under bright lights. A guide pointed out its backbone running the full length of its body, its curved ribcage, and a hip joint that could rotate in almost every direction, quite unlike the knee joint just below it, which only bent and straightened in a single line. \"A live leopard has fur, and mothers feed their cubs milk,\" the guide added, \"which places it firmly in one particular vertebrate group.\" Thiha thought back to Week 31 and answered before she could: \"Mammal.\"\n\nOutside, at the leopard enclosure, the class watched a live leopard suddenly explode into a sprint after a moving toy the keepers used for enrichment. Its legs blurred beneath it, each stride powered by muscles contracting and relaxing in rapid, alternating pairs -- Thiha remembered Week 30's biceps-and-triceps idea and realized the same antagonistic-pair system was working in every one of the leopard's legs, over and over, many times a second.\n\nWhen the leopard finally stopped, it stood panting heavily, sides heaving in and out. Thiha remembered Week 16's respiration and Su Su's own sprint from Week 30's reading passage -- the leopard's muscles had been using energy released by respiration to contract so rapidly, and now its whole body was working to deliver extra oxygen, through faster breathing and a harder heartbeat, to keep that energy supply coming.\n\nWalking back toward the bus, Thiha realized the mounted skeleton in the Bone Hall and the living leopard outside told the very same story, just from two different angles: bones alone, like the still, silent skeleton, could never move by themselves -- they needed muscles to pull on them, and those muscles needed energy from respiration to keep pulling, again and again, exactly the way a leopard needed to sprint across its enclosure.",
+        passageMy:
+            "သီဟ၏ အတန်းသည် တိရစ္ဆာန်ဥယျာဉ်၏ ပညာရေးအဆောင်သို့ သွားရောက်ခဲ့ပြီး တောက်ပသောမီးအောက်တွင် ကျောက်ကုလားအုပ်ရိုးစုစံနမူနာ စက်ဆင့်နေသော ရိုးရုံခန်းမှ စတင်ခဲ့သည်။ လမ်းညွှန်တစ်ဦးက ၎င်း၏ ခန္ဓာကိုယ်တစ်ခုလုံး ဆန့်တန်းနေသော ကျောရိုး၊ ကွေးနေသော အခြေရင်းကျီးရိုးနှင့် ဦးတည်ရာနီးပါးအားလုံးတွင် လှည့်နိုင်သော ခြေတင်းရင်းဆစ်ကို ညွှန်ပြခဲ့သည်၊ ၎င်းအောက်ရှိ ဒူးဆစ်နှင့်မူ လုံးဝကွဲပြားသည်၊ ဒူးဆစ်ကမူ ဦးတည်ရာတစ်ခုတည်းတွင်သာ ကွေး၍ ဖြောင့်ရသည်။ \"လက်ရှိကျောက်ကုလားအုပ်တွင် အမွှေးရှိပြီး မိခင်များက ၎င်းတို့၏ ကျားလေးကို နို့ကျွေးကြသည်\" ဟု လမ်းညွှန်ကဆက်ပြောသည်၊ \"၎င်းက ၎င်းကို သီးခြားကျောရိုးရှိသတ္တဝါအုပ်စုတစ်ခုတွင် ခိုင်မာစွာ ထားရှိသည်။\" သီဟသည် Week 31 ကို ပြန်တွေးမိပြီး သူမ မဖြေမီ \"နို့တိုက်သတ္တဝါ\" ဟု ဖြေခဲ့သည်။\n\nအပြင်ဘက်ရှိ ကျောက်ကုလားအုပ်အိမ်ခန်းတွင် ဂရုစိုက်စောင့်ရှောက်သူများက အသုံးပြုသော ရွေ့လျားသောကစားစရာတစ်ခုကို လိုက်လံရန် အတန်းသည် လက်ရှိကျောက်ကုလားအုပ်တစ်ကောင် ချက်ချင်းပြေးထွက်သွားသည်ကို ကြည့်ခဲ့ကြသည်။ ၎င်း၏ ခြေထောက်များသည် အောက်တွင် မှုန်ဝါးသွားခဲ့ပြီး လှမ်းတစ်ချက်စီကို ကြွက်သားများ လျင်မြန်စွာ အလှည့်ကျ ကျုံ့ကာ ပြေလျော့ခြင်းက စွမ်းအင်ပေးခဲ့သည် -- သီဟသည် Week 30 ၏ ဘိုင်စက်နှင့် ထရိုင်စက် အတွေးအခေါ်ကို သတိရမိပြီး တူညီသော ဆန့်ကျင်တွဲဘက်စနစ်တည်း ကျောက်ကုလားအုပ်၏ ခြေထောက်တစ်ချောင်းစီတွင် တစ်စက္ကန့်လျှင် အကြိမ်များစွာ ထပ်ခါထပ်ခါ အလုပ်လုပ်နေကြောင်း သိရှိလိုက်သည်။\n\nကျောက်ကုလားအုပ်သည် နောက်ဆုံးရပ်တန့်သွားသောအခါ ပြင်းထန်စွာ ရှူကာ ၎င်း၏ ကိုယ်ခန္ဓာနံဘေးများသည် ဝင်ထွက်လှုပ်ရှားနေခဲ့သည်။ သီဟသည် Week 16 ၏ အသက်ရှုမှုနှင့် Week 30 ၏ စာဖတ်ခန်းမှ စုစုကိုယ်ပိုင်ပြေးလွှားမှုကို ပြန်သတိရခဲ့သည် -- ကျောက်ကုလားအုပ်၏ ကြွက်သားများသည် ဤမျှလျင်မြန်စွာ ကျုံ့ရန် အသက်ရှုမှုမှ ထုတ်ပေးသောစွမ်းအင်ကို အသုံးပြုနေခဲ့ပြီး ယခုအခါ ၎င်း၏ ခန္ဓာကိုယ်တစ်ခုလုံးသည် ထိုစွမ်းအင်ရေးရာ ဆက်လက်ရရှိစေရန် ပို၍မြန်ဆန်စွာ အသက်ရှူခြင်းနှင့် ပို၍ပြင်းထန်စွာ နှလုံးခုန်ခြင်းမှတစ်ဆင့် အပိုအောက်စီဂျင် ပေးပို့ရန် အလုပ်လုပ်နေခဲ့သည်။\n\nဘတ်စ်ကားဘက်သို့ လမ်းလျှောက်ပြန်လာစဉ် သီဟသည် ရိုးရုံခန်းရှိ စံနမူနာရိုးစုနှင့် အပြင်ရှိ အသက်ရှင်နေသော ကျောက်ကုလားအုပ်တို့သည် ကွဲပြားသောထောင့်နှစ်ခုမှသာ ဇာတ်လမ်းတစ်ခုတည်းကို ပြောပြနေကြောင်း သိရှိလိုက်သည် - ငြိမ်သက်၊ တိတ်ဆိတ်နေသော ရိုးစုကဲ့သို့ အရိုးတစ်ခုတည်းသည် ၎င်းကိုယ်တိုင် ဘယ်တော့မှ မရွေ့လျားနိုင်ပါ -- ၎င်းတို့ကို ဆွဲငင်ပေးမည့် ကြွက်သားများ လိုအပ်ပြီး ထိုကြွက်သားများသည်လည်း ကျောက်ကုလားအုပ်တစ်ကောင် ၎င်း၏အိမ်ခန်းတစ်လျှောက် ပြေးလွှားရန် လိုအပ်သည့်အတိုင်း ထပ်ခါထပ်ခါ ဆက်လက်ဆွဲငင်ရန် အသက်ရှုမှုမှ စွမ်းအင် လိုအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What classification did Thiha give the leopard, according to the first paragraph?",
+            questionMy:
+                "ပထမစာပိုဒ်အရ ကျောက်ကုလားအုပ်ကို သီဟ မည်ကဲ့သို့ ခွဲခြားသတ်မှတ်ခဲ့သနည်း။",
+            optionsEn: ["Mammal", "Amphibian", "Reptile", "Invertebrate"],
+            optionsMy: ["နို့တိုက်သတ္တဝါ", "ဗီယမ်", "တွားသွားသတ္တဝါ", "ကျောရိုးမရှိသတ္တဝါ"],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph, which states Thiha's answer directly.",
+              "This is the same reasoning from Day 1's first question.",
+            ],
+            hintsMy: [
+              "သီဟ၏ အဖြေကို တိုက်ရိုက် ဖော်ပြထားသော ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Thiha realize about the leopard's legs while it sprinted, according to paragraph 2?",
+            questionMy:
+                "ပြေးလွှားနေစဉ် ကျောက်ကုလားအုပ်၏ ခြေထောက်များအကြောင်း သီဟ အဘယ်ကို နားလည်လိုက်သနည်း၊ စာပိုဒ် ၂ အရ။",
+            optionsEn: [
+              "The same antagonistic-pair muscle system from Week 30 was working in each leg, over and over.",
+              "The leopard's legs were not actually moving at all.",
+              "The leopard's legs had no muscles, only bones.",
+              "The leopard was using its arms, not its legs, to sprint.",
+            ],
+            optionsMy: [
+              "Week 30 မှ ဆန့်ကျင်တွဲဘက်ကြွက်သားစနစ်တည်း ခြေထောက်တစ်ချောင်းစီတွင် ထပ်ခါထပ်ခါ အလုပ်လုပ်နေခဲ့သည်။",
+              "ကျောက်ကုလားအုပ်၏ ခြေထောက်များသည် အမှန်တကယ် လုံးဝ မရွေ့လျားခဲ့ပါ။",
+              "ကျောက်ကုလားအုပ်၏ ခြေထောက်များတွင် အရိုးများသာရှိပြီး ကြွက်သား မရှိပါ။",
+              "ကျောက်ကုလားအုပ်သည် ပြေးလွှားရန် ၎င်း၏လက်များကို အသုံးပြုခဲ့သည်၊ ခြေထောက်များ မဟုတ်ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 2, which names this connection directly.",
+              "This is the same idea from Day 1's third question about the leopard's sprint.",
+            ],
+            hintsMy: [
+              "ဤဆက်စပ်မှုကို တိုက်ရိုက် အမည်တွင်ထားသော စာပိုဒ် ၂ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ကျောက်ကုလားအုပ်၏ ပြေးလွှားမှုအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why was the leopard panting heavily after it stopped sprinting, according to paragraph 3?",
+            questionMy:
+                "ပြေးလွှားရပ်ပြီးနောက် ကျောက်ကုလားအုပ် အဘယ့်ကြောင့် ပြင်းထန်စွာ ရှူခဲ့သနည်း၊ စာပိုဒ် ၃ အရ။",
+            optionsEn: [
+              "Its body was working to deliver extra oxygen to keep its muscles' energy supply from respiration coming.",
+              "It was simply excited to see the visitors.",
+              "Panting has nothing to do with its muscles at all.",
+              "It was preparing to sprint even faster next time.",
+            ],
+            optionsMy: [
+              "ကြွက်သားများ၏ အသက်ရှုမှုမှ စွမ်းအင်ရေးရာ ဆက်လက်ရရှိစေရန် အပိုအောက်စီဂျင် ပေးပို့ရန် ၎င်း၏ ခန္ဓာကိုယ် အလုပ်လုပ်နေခဲ့သောကြောင့်။",
+              "လာရောက်လည်ပတ်သူများကို မြင်ရသောကြောင့် လွန်စွာ စိတ်လှုပ်ရှားသောကြောင့်သာ ဖြစ်သည်။",
+              "ပြင်းထန်စွာရှူခြင်းသည် ၎င်း၏ ကြွက်သားများနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+              "နောက်တစ်ကြိမ် ပို၍မြန်ဆန်စွာ ပြေးလွှားရန် ပြင်ဆင်နေခြင်း ဖြစ်သည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read paragraph 3, which explains this directly, citing Week 16.",
+              "This is the same reasoning from Day 1's third question.",
+            ],
+            hintsMy: [
+              "Week 16 ကို ကိုးကားလျက် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော စာပိုဒ် ၃ ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ တတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what single story did the mounted skeleton and the live leopard tell, just from two different angles?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ စံနမူနာရိုးစုနှင့် လက်ရှိကျောက်ကုလားအုပ်တို့သည် ကွဲပြားသောထောင့်နှစ်ခုမှသာ မည်သည့်ဇာတ်လမ်းတစ်ခုတည်းကို ပြောပြခဲ့သနည်း။",
+            optionsEn: [
+              "That bones alone cannot move; they need muscles, and muscles need energy from respiration.",
+              "That skeletons and live animals have nothing in common at all.",
+              "That only living leopards have bones, while skeletons do not.",
+              "That respiration only matters for skeletons, never for live animals.",
+            ],
+            optionsMy: [
+              "အရိုးများသည် တစ်ခုတည်းဖြင့် မရွေ့လျားနိုင်ပါ -- ၎င်းတို့တွင် ကြွက်သားများ လိုအပ်ပြီး ကြွက်သားများတွင်လည်း အသက်ရှုမှုမှ စွမ်းအင် လိုအပ်သည်။",
+              "ရိုးစုများနှင့် အသက်ရှင်နေသော တိရစ္ဆာန်များတွင် ဘုံတူညီသောအချက် လုံးဝ မရှိပါ။",
+              "အသက်ရှင်နေသော ကျောက်ကုလားအုပ်များသာ အရိုးရှိပြီး ရိုးစုများတွင် အရိုး မရှိပါ။",
+              "အသက်ရှုမှုသည် ရိုးစုများအတွက်သာ အရေးကြီးပြီး အသက်ရှင်နေသော တိရစ္ဆာန်များအတွက် ဘယ်တော့မှ အရေးမကြီးပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which states this directly.",
+              "This ties together Weeks 29, 30 and 16 into one single idea, the same way this pathway's earlier capstones did.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 29၊ 30 နှင့် 16 တို့ကို ဤသင်တန်းလမ်းကြောင်း၏ ယခင်အနှစ်ချုပ်သင်ခန်းစာများ ပြုလုပ်ခဲ့သည့်အတိုင်းပင် အယူအဆတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပေးသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w32-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 32 Recap: The Human Body and Classification -- Term 8 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၃၂ ပြန်လည်သုံးသပ်ခြင်း - ခန္ဓာကိုယ်နှင့် ခွဲခြားသတ်မှတ်ခြင်း -- အဌမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What are the skeleton's three main functions?",
+          questionMy: "ရိုးစု၏ အဓိကလုပ်ဆောင်ချက်သုံးခုမှာ အဘယ်တို့နည်း။",
+          optionsEn: [
+            "Support, protection and movement",
+            "Digestion, respiration and excretion",
+            "Photosynthesis, growth and classification",
+            "Only movement, with no other function",
+          ],
+          optionsMy: [
+            "ထောက်ပံ့မှု၊ အကာအကွယ်နှင့် ရွေ့လျားမှု",
+            "အစာချေဖျက်ခြင်း၊ အသက်ရှုမှုနှင့် စွန့်ထုတ်ခြင်း",
+            "အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း၊ ကြီးထွားမှုနှင့် ခွဲခြားသတ်မှတ်ခြင်း",
+            "ရွေ့လျားမှုတစ်ခုတည်းသာ ရှိပြီး အခြားလုပ်ဆောင်ချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 29's whole week and Thiha's own Bone Hall visit.",
+            "The ribcage's protection, the hip's rotation for movement, and the whole frame's support all featured this week.",
+          ],
+          hintsMy: [
+            "Week 29 တစ်ပတ်လုံးနှင့် သီဟ၏ ကိုယ်ပိုင် ရိုးရုံခန်းသွားရောက်မှုကို သတိရပါ။",
+            "အခြေရင်းကျီးရိုး၏ ကာကွယ်မှု၊ ခြေတင်းရင်းဆစ်၏ ရွေ့လျားမှုအတွက် လှည့်ခြင်းနှင့် ဖွဲ့စည်းပုံတစ်ခုလုံး၏ ထောက်ပံ့မှုတို့သည် ဤအပတ်တွင် ပါဝင်ခဲ့ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "How do muscles move a bone at a joint?",
+          questionMy: "ကြွက်သားများသည် အဆစ်တစ်ခုတွင် အရိုးတစ်ခုကို မည်ကဲ့သို့ ရွေ့လျားစေသနည်း။",
+          optionsEn: [
+            "By contracting (pulling) in antagonistic pairs, never by pushing",
+            "By pushing the bone directly, never by pulling",
+            "Bones move entirely on their own, with no help from muscles",
+            "Muscles have no connection to bones at all",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်တွဲဘက်များအဖြစ် ကျုံ့ (ဆွဲငင်) ခြင်းဖြင့်ဖြစ်ပြီး ဘယ်တော့မှ တွန်း၍ မဟုတ်ပါ",
+            "အရိုးကို တိုက်ရိုက်တွန်းခြင်းဖြင့်ဖြစ်ပြီး ဘယ်တော့မှ ဆွဲငင်၍ မဟုတ်ပါ",
+            "အရိုးများသည် ကြွက်သားများ၏ အကူအညီမပါဘဲ ၎င်းတို့ကိုယ်တိုင် လုံးလုံး ရွေ့လျားကြသည်",
+            "ကြွက်သားများသည် အရိုးများနှင့် မည်သည့်ဆက်စပ်မှုမျှ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's whole week and Thiha's own observation of the sprinting leopard.",
+            "This is the same idea from Day 1's second and third questions.",
+          ],
+          hintsMy: [
+            "Week 30 တစ်ပတ်လုံးနှင့် ပြေးလွှားနေသော ကျောက်ကုလားအုပ်အကြောင်း သီဟ၏ ကိုယ်ပိုင်တွေ့ရှိမှုကို သတိရပါ။",
+            "၎င်းသည် ပထမနေ့ ဒုတိယနှင့် တတိယမေးခွန်းများမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What made the leopard a mammal rather than another vertebrate group?",
+          questionMy: "ကျောက်ကုလားအုပ်ကို အခြားကျောရိုးရှိသတ္တဝါအုပ်စုထက် နို့တိုက်သတ္တဝါအဖြစ် အဘယ်အချက်က ပြုလုပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Its fur and its feeding of cubs with milk",
+            "Its moist skin and pond-laid eggs",
+            "Its feathers and hard-shelled eggs",
+            "Its complete lack of a backbone",
+          ],
+          optionsMy: [
+            "၎င်း၏ အမွှေးနှင့် ကျားလေးကို နို့ဖြင့် ကျွေးမွေးခြင်း",
+            "၎င်း၏ စိုစွတ်သောအရေပြားနှင့် ရေကန်တွင်ဥသောဥများ",
+            "၎င်း၏ အခြေထောက်နှင့် ခွံခက်သောဥများ",
+            "ကျောရိုး လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's classification lesson and Day 1's first question of this capstone.",
+            "The other options describe amphibians and birds instead.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ ခွဲခြားသတ်မှတ်ခြင်းသင်ခန်းစာနှင့် ဤအနှစ်ချုပ်သင်ခန်းစာ၏ ပထမနေ့ ပထမမေးခွန်းကို သတိရပါ။",
+            "အခြားရွေးချယ်စရာများသည် ဗီယမ်များနှင့် ငှက်များကို ဖော်ပြထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Where does the energy for a sprinting leopard's muscle contractions come from?",
+          questionMy: "ပြေးလွှားနေသော ကျောက်ကုလားအုပ်၏ ကြွက်သားကျုံ့ခြင်းအတွက် စွမ်းအင်သည် အဘယ်မှ ရရှိသနည်း။",
+          optionsEn: [
+            "Respiration, releasing energy from food inside its cells",
+            "Sunlight captured directly by its fur",
+            "The bones themselves, with no other source needed",
+            "Nothing -- muscles do not actually need energy",
+          ],
+          optionsMy: [
+            "အသက်ရှုမှု၊ ၎င်း၏ဆဲလ်များအတွင်း အစားအစာမှ စွမ်းအင်ကို ထုတ်ပေးခြင်း",
+            "၎င်း၏ အမွှေးက တိုက်ရိုက်ဖမ်းယူထားသော နေရောင်ခြည်",
+            "အရိုးများကိုယ်တိုင်၊ အခြားရင်းမြစ်မည်သည့်တစ်ခုမျှ မလိုအပ်ပါ",
+            "မည်သည့်အရာမျှ မဟုတ်ပါ -- ကြွက်သားများသည် စွမ်းအင် အမှန်တကယ် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 16's respiration and Day 1's third question of this capstone.",
+            "This is the same reasoning from Su Su's own sprint in Week 30's reading passage.",
+          ],
+          hintsMy: [
+            "Week 16 ၏ အသက်ရှုမှုနှင့် ဤအနှစ်ချုပ်သင်ခန်းစာ၏ ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ။",
+            "၎င်းသည် Week 30 ၏ စာဖတ်ခန်းရှိ စုစုကိုယ်ပိုင်ပြေးလွှားမှုမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole term, what single chain of ideas connects Week 29's bones, Week 30's muscles, and Week 31's classification?",
+          questionMy:
+              "ဤနှစ်ဝက်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် Week 29 ၏ အရိုးများ၊ Week 30 ၏ ကြွက်သားများနှင့် Week 31 ၏ ခွဲခြားသတ်မှတ်ခြင်းတို့ကို ချိတ်ဆက်ပေးသော အတွေးအခေါ်ကွင်းဆက်တစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A skeleton provides the framework, muscles supply the pulling force to move it (fuelled by respiration), and classification groups the resulting animal precisely by features like its backbone and how it feeds its young.",
+            "The three weeks have absolutely nothing in common.",
+            "Only classification matters; bones and muscles are unrelated to it.",
+            "Skeletons, muscles and classification all describe exactly the same single idea.",
+          ],
+          optionsMy: [
+            "ရိုးစုသည် ဖွဲ့စည်းပုံကို ပေးဆောင်ပြီး ကြွက်သားများက (အသက်ရှုမှုက စွမ်းအင်ပေးလျက်) ၎င်းကို ရွေ့လျားစေမည့် ဆွဲငင်အားကို ပေးဆောင်ကာ ခွဲခြားသတ်မှတ်ခြင်းက ရလဒ်တိရစ္ဆာန်ကို ကျောရိုးနှင့် ကလေးကို မည်ကဲ့သို့ ကျွေးမွေးသည်ကဲ့သို့သော လက္ခဏာများဖြင့် တိကျစွာ အုပ်စုဖွဲ့ပေးသည်။",
+            "ဤသုံးပတ်တွင် ဘုံတူညီချက် လုံးဝမရှိပါ။",
+            "ခွဲခြားသတ်မှတ်ခြင်းသာ အရေးကြီးပြီး အရိုးများနှင့် ကြွက်သားများသည် ၎င်းနှင့် မသက်ဆိုင်ပါ။",
+            "ရိုးစု၊ ကြွက်သားနှင့် ခွဲခြားသတ်မှတ်ခြင်းတို့သည် အတိအကျ တစ်ခုတည်းသောအတွေးအခေါ်ကို ဖော်ပြကြသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Thiha's own reflection at the end of the reading passage -- the mounted skeleton and the live leopard told this exact same chain of ideas.",
+            "This is the same spiral pattern as Week 28's capstone and Week 24's capstone -- a small set of big ideas explaining an ever-widening range of phenomena.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းအဆုံးတွင် သီဟကိုယ်တိုင်၏ ပြန်လည်သုံးသပ်ချက်ကို သတိရပါ -- စံနမူနာရိုးစုနှင့် လက်ရှိကျောက်ကုလားအုပ်တို့သည် ဤအတွေးအခေါ်ကွင်းဆက်တစ်ခုတည်းကို ပြောပြခဲ့ကြသည်။",
+            "၎င်းသည် Week 28 ၏ အနှစ်ချုပ်သင်ခန်းစာနှင့် Week 24 ၏ အနှစ်ချုပ်သင်ခန်းစာကဲ့သို့ ပုံစံတူတူပင် ဖြစ်သည် -- ကြီးမားသောအတွေးအခေါ်ငယ်လေးအစုအဝေးတစ်ခုက ပို၍ကျယ်ပြန့်လာနေသော ဖြစ်စဉ်အပိုင်းအခြားတစ်ခုကို ရှင်းပြပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 8: "The Human Body and Classification" (Weeks 29-32) continues
+/// this pathway's biology strand from Terms 4-5: Week 29 teaches the
+/// skeletal system -- its three functions (support, protection, movement),
+/// major bones, and joints as the places bones meet and bend; Week 30
+/// introduces the muscular system, explicitly revisiting Week 29's joints
+/// to show that muscles work in antagonistic pairs across a joint (since a
+/// muscle can only pull, never push), and explicitly revisiting Week 16's
+/// respiration to establish that muscle contraction needs the energy
+/// respiration releases; Week 31 teaches classification -- the five
+/// kingdoms, vertebrate groups versus invertebrates, and a classification
+/// key -- explicitly revisiting Week 13's MRS GREN characteristics of life
+/// (classification groups organisms that all share those seven
+/// characteristics but differ in specific features) and reusing the
+/// caterpillar and bird from Week 19's food chain as worked examples;
+/// Week 32 is the term's capstone, combining skeleton, muscles and
+/// classification during a zoo visit examining both a mounted skeleton and
+/// a live leopard, reaching back to the respiration/energy thread (Weeks
+/// 16 and 30) one more time.
+const CourseTermDef _secondary1ScienceTerm8 = CourseTermDef(
+  id: "course-secondary1-science-t8",
+  termNumber: 8,
+  titleEn: "The Human Body and Classification",
+  titleMy: "ခန္ဓာကိုယ်နှင့် ခွဲခြားသတ်မှတ်ခြင်း",
+  certificateTitleEn: "The Human Body and Classification",
+  certificateTitleMy: "ခန္ဓာကိုယ်နှင့် ခွဲခြားသတ်မှတ်ခြင်း",
+  weeks: [
+    _secondary1ScienceWeek29,
+    _secondary1ScienceWeek30,
+    _secondary1ScienceWeek31,
+    _secondary1ScienceWeek32,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 9, Week 33: "Asking a Scientific Question"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek33 = CourseWeekDef(
+  id: "course-secondary1-science-w33",
+  weekNumber: 33,
+  titleEn: "Asking a Scientific Question",
+  titleMy: "သိပ္ပံနည်းကျ မေးခွန်းတစ်ခု မေးခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w33-d1",
+      dayNumber: 1,
+      titleEn: "Asking a Scientific Question Quiz",
+      titleMy: "သိပ္ပံနည်းကျ မေးခွန်းမေးခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Back in Week 1, Su Su predicted that her tomato seedling in full sunlight would grow taller than the one in the shade. A hypothesis goes one step further than a simple prediction: it also explains why the predicted result should happen. Which of these is a properly formed hypothesis for Su Su's investigation?",
+          questionMy:
+              "Week 1 ကတည်းက စုစုသည် နေရောင်ခြည်အပြည့်ရသော သူ့ ခရမ်းချဉ်သီးအပင်ငယ်သည် အရိပ်ရှိအပင်ထက် ပိုမြင့်လာလိမ့်မည်ဟု ခန့်မှန်းခဲ့သည်။ ယူဆချက် (Hypothesis) တစ်ခုသည် ရိုးရှင်းသောခန့်မှန်းချက်ထက် တစ်ဆင့်ပို၍ -- ခန့်မှန်းထားသောရလဒ် အဘယ့်ကြောင့် ဖြစ်ပေါ်ရမည်ကိုပါ ရှင်းပြပေးသည်။ စုစု၏ စမ်းသပ်မှုအတွက် မှန်ကန်စွာဖွဲ့စည်းထားသော ယူဆချက်မှာ အောက်ပါတို့အနက် အဘယ်နည်း။",
+          optionsEn: [
+            "If a tomato seedling receives more sunlight, then it will grow taller, because plants use sunlight to photosynthesise and make the food they need to grow.",
+            "The seedling in the sunlight will probably do better, somehow.",
+            "Sunlight is a nice thing for plants to have.",
+            "Tomato seedlings are more interesting than shaded seedlings.",
+          ],
+          optionsMy: [
+            "ခရမ်းချဉ်သီးအပင်ငယ်တစ်ပင်သည် ပိုမိုများပြားသော နေရောင်ခြည်ကို ရရှိပါက ပိုမြင့်စွာ ကြီးထွားလိမ့်မည်၊ အကြောင်းမှာ အပင်များသည် နေရောင်ခြည်ကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ကာ ကြီးထွားရန်လိုအပ်သော အစားအစာကို ပြုလုပ်ကြောင်းဖြစ်သည်။",
+            "နေရောင်ခြည်ရသော အပင်ငယ်သည် တစ်နည်းနည်းဖြင့် ပို၍ကောင်းလိမ့်မည်ထင်သည်။",
+            "နေရောင်ခြည်သည် အပင်များအတွက် ရရှိရန် ကောင်းသောအရာတစ်ခု ဖြစ်သည်။",
+            "ခရမ်းချဉ်သီးအပင်ငယ်များသည် အရိပ်ရှိအပင်ငယ်များထက် ပို၍ စိတ်ဝင်စားစရာကောင်းသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 15's photosynthesis lesson -- a hypothesis names the expected result AND the scientific reason behind it, connected with words like 'if...then...because'.",
+            "The other options either don't explain why (the second and third), or aren't even about the investigation's actual result (the fourth) -- only one option gives a reasoned if/then/because statement.",
+          ],
+          hintsMy: [
+            "Week 15 ၏ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းသင်ခန်းစာကို သတိရပါ -- ယူဆချက်တစ်ခုသည် မျှော်လင့်ထားသောရလဒ်ကို ဖော်ပြသည့်အပြင် ၎င်း၏နောက်ကွယ်ရှိ သိပ္ပံနည်းကျအကြောင်းရင်းကိုပါ 'ပါက...ဖြစ်လိမ့်မည်...အကြောင်းမှာ' ကဲ့သို့သော စကားလုံးများဖြင့် ဆက်စပ်ဖော်ပြသည်။",
+            "အခြားရွေးချယ်စရာများသည် အကြောင်းရင်းကို မရှင်းပြခြင်း (ဒုတိယနှင့် တတိယ) (သို့) စမ်းသပ်မှု၏ အမှန်တကယ်ရလဒ်နှင့်ပင် မသက်ဆိုင်ခြင်း (စတုတ္ထ) ဖြစ်ကြသည် -- ယုတ္တိရှိသော if/then/because ဖော်ပြချက်ကို ရွေးချယ်စရာတစ်ခုတည်းကသာ ပေးထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these questions could actually be tested with a fair scientific investigation, the same way Su Su tested her tomato seedlings in Week 1?",
+          questionMy:
+              "Week 1 တွင် စုစုသည် သူ့ ခရမ်းချဉ်သီးအပင်ငယ်များကို စမ်းသပ်ခဲ့သကဲ့သို့ တရားမျှတသော သိပ္ပံနည်းကျစမ်းသပ်မှုတစ်ခုဖြင့် အမှန်တကယ် စမ်းသပ်နိုင်သော မေးခွန်းမှာ အောက်ပါတို့အနက် အဘယ်နည်း။",
+          optionsEn: [
+            "Does the amount of sunlight a tomato seedling receives affect how tall it grows?",
+            "Which colour of flower is the most beautiful?",
+            "Is a sunny garden nicer to sit in than a shady one?",
+            "Which plant would you rather own?",
+          ],
+          optionsMy: [
+            "ခရမ်းချဉ်သီးအပင်ငယ်တစ်ပင် ရရှိသော နေရောင်ခြည်ပမာဏသည် ၎င်း မည်မျှမြင့်ကြီးမည်ကို သက်ရောက်မှုရှိမလား။",
+            "မည်သည့်ပန်းအရောင်သည် အလှဆုံးဖြစ်သနည်း။",
+            "နေရောင်ခြည်ရသောဥယျာဉ်သည် အရိပ်ရှိဥယျာဉ်ထက် ထိုင်ရန် ပို၍နှစ်သက်ဖွယ်ကောင်းသလား။",
+            "သင် မည်သည့်အပင်ကို ပိုင်ဆိုင်ချင်သနည်း။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's fair test -- a testable scientific question can be answered by measuring something and comparing results, not by personal opinion or taste.",
+            "Su Su's own question, 'Does more sunlight make my tomato seedling grow taller?', is exactly this shape -- something measurable, not a matter of preference.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ တရားမျှတသော စမ်းသပ်မှုကို သတိရပါ -- စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်းတစ်ခုကို တစ်ခုခုတိုင်းတာ၍ ရလဒ်များ နှိုင်းယှဉ်ခြင်းဖြင့် ဖြေဆိုနိုင်ပြီး ကိုယ်ရေးအမြင် (သို့) နှစ်သက်မှုဖြင့် မဟုတ်ပါ။",
+            "စုစု ကိုယ်ပိုင်မေးခွန်းဖြစ်သော 'ပိုမိုများပြားသော နေရောင်ခြည်သည် ကျွန်မ၏ ခရမ်းချဉ်သီးအပင်ငယ်ကို ပိုမိုမြင့်မားစွာ ကြီးထွားစေမလား' သည် အတိအကျ ဤပုံစံဖြစ်သည် -- တိုင်းတာနိုင်သောအရာဖြစ်ပြီး နှစ်သက်မှုကိစ္စ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Week 1 established five steps for a fair investigation: question, prediction, test/measure, record, conclude. A hypothesis fits into this sequence as a more detailed, reasoned version of which step?",
+          questionMy:
+              "Week 1 က တရားမျှတသော စမ်းသပ်မှုတစ်ခုအတွက် အဆင့်ငါးဆင့်ကို တည်ထောင်ခဲ့သည် - မေးခွန်း၊ ခန့်မှန်းချက်၊ စမ်းသပ်/တိုင်းတာ၊ မှတ်တမ်းတင်၊ ကောက်ချက်ချ။ ယူဆချက်တစ်ခုသည် ဤအစဉ်လိုက်တွင် မည်သည့်အဆင့်၏ ပို၍အသေးစိတ်၊ ယုတ္တိရှိသောဗားရှင်းအဖြစ် ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "Prediction",
+            "Record",
+            "Conclude",
+            "It replaces the question entirely, and nothing else changes.",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းချက်",
+            "မှတ်တမ်းတင်ခြင်း",
+            "ကောက်ချက်ချခြင်း",
+            "၎င်းသည် မေးခွန်းကို လုံးလုံးအစားထိုးလိုက်ပြီး အခြားမည်သည့်အရာမျှ မပြောင်းလဲပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A hypothesis still predicts a result -- it just adds the reasoning behind that prediction, so it sits in exactly the same place in the sequence.",
+            "Recall Su Su's original prediction from Week 1, then compare it to the fuller hypothesis in this quiz's first question -- both come right after the question and right before testing.",
+          ],
+          hintsMy: [
+            "ယူဆချက်တစ်ခုသည် ရလဒ်တစ်ခုကို ဆက်လက်ခန့်မှန်းသည် -- ၎င်းသည် ထိုခန့်မှန်းချက်နောက်ကွယ်ရှိ ယုတ္တိကိုသာ ထပ်ဖြည့်ပေးခြင်းဖြစ်၍ အစဉ်လိုက်တွင် အတိအကျ နေရာတူတွင် တည်ရှိသည်။",
+            "Week 1 မှ စုစု၏ မူလခန့်မှန်းချက်ကို သတိရပြီး ၎င်းကို ဤပဟေဋ္ဌိ၏ ပထမမေးခွန်းရှိ ပို၍ပြည့်စုံသော ယူဆချက်နှင့် နှိုင်းယှဉ်ကြည့်ပါ -- နှစ်ခုစလုံးသည် မေးခွန်းအပြီး၊ စမ်းသပ်မှုမတိုင်မီ ချက်ချင်း ရှိကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A geologist wonders whether limestone rock (Week 27) loses more mass in acidic rainwater than granite does. Which of these is a testable scientific question matching that wondering?",
+          questionMy:
+              "ကျောက်သိပ္ပံပညာရှင်တစ်ဦးသည် ထုံးကျောက် (limestone, Week 27) သည် ဂရနိုက်ကျောက်ထက် အက်ဆစ်ပါသောမိုးရေထဲတွင် အလေးချိန် ပိုဆုံးရှုံးမလားဟု တွေးတောနေသည်။ ထိုတွေးတောမှုနှင့် ကိုက်ညီသော စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်းမှာ အောက်ပါတို့အနက် အဘယ်နည်း။",
+          optionsEn: [
+            "Does limestone lose more mass than granite when both are soaked in an acidic liquid for the same amount of time?",
+            "Which rock looks nicer on a windowsill, limestone or granite?",
+            "Do people prefer limestone buildings or granite buildings?",
+            "Is granite a more interesting name than limestone?",
+          ],
+          optionsMy: [
+            "ထုံးကျောက်နှင့် ဂရနိုက်ကျောက်နှစ်မျိုးလုံးကို အက်ဆစ်ပါသောအရည်ထဲတွင် အချိန်တူတူ စိမ်ထားသောအခါ ထုံးကျောက်သည် ဂရနိုက်ထက် ပို၍ အလေးချိန် ဆုံးရှုံးသလား။",
+            "ထုံးကျောက်နှင့် ဂရနိုက်ကျောက်တို့အနက် ပြတင်းပေါက်စင်ပေါ်တွင် မည်သည့်ကျောက်က ပို၍ ကြည့်ကောင်းသနည်း။",
+            "လူများသည် ထုံးကျောက်အဆောက်အအုံ (သို့) ဂရနိုက်အဆောက်အအုံကို ပို၍ နှစ်သက်ကြသလား။",
+            "ဂရနိုက်သည် ထုံးကျောက်ထက် ပို၍ စိတ်ဝင်စားစရာကောင်းသော အမည်ဖြစ်သလား။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 27's rock cycle -- a testable question compares a measurable outcome, like mass lost, under controlled conditions, not an opinion about looks or names.",
+            "The first option can be answered by weighing each rock before and after soaking it -- that's real data, unlike the other three options.",
+          ],
+          hintsMy: [
+            "Week 27 ၏ ကျောက်စက်ဝန်းကို သတိရပါ -- စမ်းသပ်နိုင်သောမေးခွန်းသည် ထိန်းချုပ်ထားသောအခြေအနေများအောက်တွင် အလေးချိန်ဆုံးရှုံးမှုကဲ့သို့ တိုင်းတာနိုင်သောရလဒ်ကို နှိုင်းယှဉ်ပြီး အသွင်အပြင် (သို့) အမည်အကြောင်း ကိုယ်ရေးအမြင် မဟုတ်ပါ။",
+            "ပထမရွေးချယ်စရာကို ကျောက်တစ်ခုစီအား စိမ်ခြင်းမပြုမီနှင့် ပြီးနောက် ချိန်ခြင်းဖြင့် ဖြေဆိုနိုင်သည် -- ၎င်းသည် အခြားရွေးချယ်စရာသုံးခုနှင့်မတူဘဲ တကယ့်အချက်အလက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match the Scientific Enquiry Terms",
+      titleMy: "သိပ္ပံနည်းကျ စူးစမ်းလေ့လာမှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w33-dm-1",
+          termEn: "Scientific Question",
+          termMy: "သိပ္ပံနည်းကျ မေးခွန်း (Scientific Question)",
+          matchEn:
+              "A question that can be answered by testing and measuring, not just by personal opinion.",
+          matchMy:
+              "စမ်းသပ်ခြင်းနှင့် တိုင်းတာခြင်းဖြင့် ဖြေဆိုနိုင်ပြီး ကိုယ်ရေးအမြင်ဖြင့်သာ မဟုတ်သော မေးခွန်း။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w33-dm-2",
+          termEn: "Hypothesis",
+          termMy: "ယူဆချက် (Hypothesis)",
+          matchEn:
+              "A statement predicting a result and explaining the scientific reason for it, often written as 'if...then...because'.",
+          matchMy:
+              "ရလဒ်တစ်ခုကို ခန့်မှန်း၍ ၎င်း၏ သိပ္ပံနည်းကျအကြောင်းရင်းကိုပါ ရှင်းပြသော ဖော်ပြချက်၊ 'ပါက...ဖြစ်လိမ့်မည်...အကြောင်းမှာ' ဟူ၍ မကြာခဏ ရေးသားသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w33-dm-3",
+          termEn: "Prediction",
+          termMy: "ခန့်မှန်းချက် (Prediction)",
+          matchEn: "A guess about what will happen, made before testing begins.",
+          matchMy: "စမ်းသပ်မှု မစတင်မီ ပြုလုပ်ထားသော ဖြစ်ပျက်လာမည့်အရာအကြောင်း ခန့်မှန်းချက်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w33-dm-4",
+          termEn: "Testable",
+          termMy: "စမ်းသပ်နိုင်သော (Testable)",
+          matchEn:
+              "Describes a question that can be answered by collecting real measurements, as opposed to a matter of taste.",
+          matchMy:
+              "နှစ်သက်မှုကိစ္စထက် အမှန်တကယ်တိုင်းတာချက်များ စုဆောင်း၍ ဖြေဆိုနိုင်သော မေးခွန်းတစ်ခုကို ဖော်ပြသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w33-dm-5",
+          termEn: "Observation",
+          termMy: "လေ့လာတွေ့ရှိချက် (Observation)",
+          matchEn:
+              "Something noticed using the senses or an instrument during an investigation, recorded as evidence.",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခုအတွင်း ခံစားချက်များ (သို့) ကိရိယာတစ်ခုကို အသုံးပြု၍ သတိထားမိသောအရာဖြစ်ပြီး သက်သေအဖြစ် မှတ်တမ်းတင်ထားသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w33-dm-6",
+          termEn: "Fair Test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair Test)",
+          matchEn:
+              "An investigation where only the one variable being studied is changed, and everything else is kept the same.",
+          matchMy:
+              "လေ့လာနေသော ကိန်းရှင်တစ်ခုတည်းကိုသာ ပြောင်းလဲပြီး အခြားအရာအားလုံးကို တူညီအောင် ထားရှိသော စမ်းသပ်မှု။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Testable Question or Not?",
+      titleMy: "စီစစ်ကြမည် - စမ်းသပ်နိုင်သောမေးခွန်းလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "A Testable Scientific Question",
+          "Not a Testable Scientific Question",
+        ],
+        bucketsMy: [
+          "စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်း",
+          "စမ်းသပ်၍မရသော မေးခွန်း",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w33-sort-1",
+            labelEn:
+                "Does increasing a chemical reaction's temperature (Week 9) change how quickly gas bubbles form?",
+            labelMy:
+                "ဓာတုတုန့်ပြန်မှုတစ်ခု၏ အပူချိန်ကို မြှင့်တင်ခြင်း (Week 9) သည် ဓာတ်ငွေ့ပူဖောင်းများ မည်မျှမြန်ဆန်စွာ ဖြစ်ပေါ်သည်ကို ပြောင်းလဲစေမလား။",
+            correctBucketEn: "A Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-2",
+            labelEn: "Which rock is the most beautiful, limestone or granite?",
+            labelMy: "ထုံးကျောက်နှင့် ဂရနိုက်ကျောက်တို့အနက် မည်သည့်ကျောက်က အလှဆုံးဖြစ်သနည်း။",
+            correctBucketEn: "Not a Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်၍မရသော မေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-3",
+            labelEn:
+                "Does a tomato seedling grow taller with more sunlight, like Su Su tested in Week 1?",
+            labelMy:
+                "Week 1 တွင် စုစု စမ်းသပ်ခဲ့သကဲ့သို့ ခရမ်းချဉ်သီးအပင်ငယ်သည် နေရောင်ခြည် ပိုရလျှင် ပိုမြင့်ကြီးလာသလား။",
+            correctBucketEn: "A Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-4",
+            labelEn: "Which animal makes the best pet?",
+            labelMy: "မည်သည့်တိရစ္ဆာန်သည် အကောင်းဆုံး အိမ်မွေးတိရစ္ဆာန် ဖြစ်သနည်း။",
+            correctBucketEn: "Not a Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်၍မရသော မေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-5",
+            labelEn:
+                "Does the force applied to a trolley change how far it rolls before stopping (Week 3)?",
+            labelMy:
+                "လှည်းငယ်တစ်စီးအပေါ် သက်ရောက်သောအား (Week 3) သည် ၎င်းရပ်တန့်မီ မည်မျှလှိမ့်မည်ကို ပြောင်းလဲစေမလား။",
+            correctBucketEn: "A Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-6",
+            labelEn: "Is red a nicer colour than blue?",
+            labelMy: "အနီရောင်သည် အပြာရောင်ထက် ပို၍ လှပသလား။",
+            correctBucketEn: "Not a Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်၍မရသော မေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-7",
+            labelEn:
+                "Does regular exercise increase a person's heart rate (Weeks 16 and 30)?",
+            labelMy:
+                "ပုံမှန်ကိုယ်လက်လှုပ်ရှားမှုသည် လူတစ်ဦး၏ နှလုံးခုန်နှုန်း (Weeks 16 and 30) ကို မြှင့်တင်စေမလား။",
+            correctBucketEn: "A Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်း",
+          ),
+          SortingItem(
+            id: "s1sci-w33-sort-8",
+            labelEn: "Should football be more popular than basketball?",
+            labelMy: "ဘောလုံးသည် ဘတ်စကက်ဘော်ထက် ပို၍ ကျော်ကြားသင့်သလား။",
+            correctBucketEn: "Not a Testable Scientific Question",
+            correctBucketMy: "စမ်းသပ်၍မရသော မေးခွန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's New Hypothesis",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ယူဆချက်အသစ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's New Hypothesis",
+        titleMy: "စုစု၏ ယူဆချက်အသစ်",
+        passageEn:
+            "Su Su pulled out her old notebook from Week 1, the one with her tomato seedling investigation still recorded inside: full sunlight had grown a seedling 4 cm taller than the shade over seven days, and she had watered both seedlings equally the whole time, while the balcony's temperature had happened to stay steady near 30°C. For the Founders' Day Science Fair, she wanted to repeat the investigation properly, this time writing it up the way a real scientist would.\n\nHer question was the same as before: does more sunlight make a tomato seedling grow taller? But this time, instead of stopping at a simple prediction, Su Su wrote a full hypothesis: \"If a tomato seedling receives more sunlight, then it will grow taller than one kept in shade, because plants use sunlight to photosynthesise (Week 15) and produce the food their cells need to grow.\" Writing the \"because\" part forced her to actually explain her thinking, not just guess.\n\nSu Su checked her hypothesis against her old Week 1 results. Everything fit: more light had meant more photosynthesis, more photosynthesis had meant more food for growth, and more food for growth had meant a taller seedling. Her old results weren't just a lucky pattern -- they were exactly what her new, more scientific hypothesis predicted.\n\nThis time, Su Su decided she wouldn't stop at one investigation. If her hypothesis about sunlight and photosynthesis was correct, she reasoned, it should also explain other plants she'd seen -- the pale, leggy seedlings that always grew in the darkest corner of her family's balcony, stretching desperately toward the nearest patch of light. Her hypothesis, she realised, wasn't just an answer to one question; it was a rule she could test again and again.",
+        passageMy:
+            "စုစုသည် Week 1 မှ သူ့ ရှေးဟောင်းမှတ်စုစာအုပ်ကို ထုတ်ယူလိုက်ခဲ့သည်၊ ၎င်းအတွင်း သူ့ ခရမ်းချဉ်သီးအပင်ငယ် စမ်းသပ်မှု ဆက်လက်မှတ်တမ်းတင်ထားဆဲဖြစ်သည် - ခုနစ်ရက်အတွင်း နေရောင်ခြည်အပြည့်ရသော အပင်ငယ်သည် အရိပ်ရှိအပင်ထက် ၄ စင်တီမီတာ ပိုမြင့်ကြီးထွားခဲ့ပြီး သူသည် အပင်နှစ်ပင်စလုံးကို တစ်ချိန်လုံး ရေတူညီအောင် ဖြန်းပေးခဲ့ကာ ဗရန်ဒါ၏ အပူချိန်သည် ၃၀ ဒီဂရီစင်တီဂရိတ်ခန့်တွင် တည်ငြိမ်နေခဲ့သည်။ တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲအတွက် သူသည် စမ်းသပ်မှုကို မှန်ကန်စွာ ထပ်မံလုပ်ဆောင်လိုခဲ့ပြီး ယခုအကြိမ်တွင် စစ်မှန်သောသိပ္ပံပညာရှင်တစ်ဦးကဲ့သို့ ရေးသားလိုခဲ့သည်။\n\nသူ၏ မေးခွန်းမှာ ယခင်ကလိုပင် ဖြစ်သည် - ပိုမိုများပြားသော နေရောင်ခြည်သည် ခရမ်းချဉ်သီးအပင်ငယ်ကို ပိုမြင့်ကြီးထွားစေမလား။ သို့သော် ယခုအကြိမ်တွင် ရိုးရှင်းသောခန့်မှန်းချက်တစ်ခုတည်းဖြင့် မရပ်တန့်တော့ဘဲ စုစုသည် ယူဆချက်အပြည့်အစုံကို ရေးသားခဲ့သည် - \"ခရမ်းချဉ်သီးအပင်ငယ်တစ်ပင်သည် ပိုမိုများပြားသော နေရောင်ခြည်ကို ရရှိပါက အရိပ်တွင်ထားသောအပင်ထက် ပိုမြင့်စွာ ကြီးထွားလိမ့်မည်၊ အကြောင်းမှာ အပင်များသည် နေရောင်ခြည်ကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ကာ (Week 15) ၎င်းတို့၏ ဆဲလ်များ ကြီးထွားရန်လိုအပ်သော အစားအစာကို ထုတ်ပေးကြောင်းဖြစ်သည်\" ဟူ၍ ဖြစ်သည်။ \"အကြောင်းမှာ\" ဟူသောအပိုင်းကို ရေးသားရခြင်းက ရိုးရိုးခန့်မှန်းသည်ထက် သူ၏အတွေးကို အမှန်တကယ် ရှင်းပြရန် သူ့ကို တွန်းအားပေးခဲ့သည်။\n\nစုစုသည် သူ့ ယူဆချက်ကို Week 1 ၏ ရှေးဟောင်းရလဒ်များနှင့် စစ်ဆေးကြည့်ခဲ့သည်။ အားလုံး ကိုက်ညီခဲ့သည် - အလင်းပိုရခြင်းသည် အလင်းစွမ်းဓာတ်ပေါင်းစပ်မှု ပိုများခြင်းကို ဆိုလိုပြီး၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်မှု ပိုများခြင်းသည် ကြီးထွားမှုအတွက် အစားအစာ ပိုများခြင်းကို ဆိုလိုကာ၊ ကြီးထွားမှုအတွက် အစားအစာ ပိုများခြင်းသည် အပင်ငယ် ပိုမြင့်ခြင်းကို ဆိုလိုသည်။ သူ့ ရှေးဟောင်းရလဒ်များသည် ကံကောင်းသောပုံစံတစ်ခုမျှသာ မဟုတ်ခဲ့ပါ -- ၎င်းတို့သည် သူ၏ သိပ္ပံနည်းကျပို၍ တိကျသော ယူဆချက်အသစ်က ခန့်မှန်းခဲ့သည့်အတိုင်းပင် ဖြစ်ခဲ့သည်။\n\nယခုအကြိမ်တွင် စုစုသည် စမ်းသပ်မှုတစ်ခုတည်းနှင့် ရပ်တန့်မည် မဟုတ်ကြောင်း ဆုံးဖြတ်ခဲ့သည်။ နေရောင်ခြည်နှင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းအကြောင်း သူ၏ ယူဆချက်မှန်ကန်ပါက ၎င်းသည် သူတွေ့ဖူးသော အခြားအပင်များကိုလည်း ရှင်းပြနိုင်သင့်သည်ဟု သူ ဆင်ခြင်ခဲ့သည် -- သူ့မိသားစု ဗရန်ဒါ၏ အမှောင်ဆုံးထောင့်တွင် အမြဲကြီးထွားလေ့ရှိသော ဖျော့ဖျော့ဖြူဖြူ၊ ပင်စည်ရှည်ရှည် အပင်ငယ်များသည် အနီးဆုံးအလင်းရသောနေရာဘက်သို့ အားစိုက်ဆန့်ထွက်နေသည်။ သူ၏ ယူဆချက်သည် မေးခွန်းတစ်ခုအတွက် အဖြေတစ်ခုသာ မဟုတ်ဘဲ ထပ်ခါထပ်ခါ စမ်းသပ်နိုင်သော စည်းမျဉ်းတစ်ခု ဖြစ်ကြောင်း သူ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what two things did Su Su keep the same for both seedlings during her Week 1 investigation?",
+            questionMy:
+                "ပထမစာပိုဒ်အရ Week 1 စမ်းသပ်မှုအတွင်း အပင်နှစ်ပင်အတွက် စုစု မည်သည့်အရာနှစ်ခုကို တူညီအောင် ထားခဲ့သနည်း။",
+            optionsEn: [
+              "The water given to both seedlings, while the balcony's temperature happened to stay steady near 30°C.",
+              "The colour of the pots the seedlings grew in.",
+              "The time of day she watered them, and nothing else.",
+              "Nothing was kept the same at all.",
+            ],
+            optionsMy: [
+              "အပင်နှစ်ပင်စလုံးကို ပေးသောရေ၊ ဗရန်ဒါ၏ အပူချိန်သည်လည်း ၃၀ ဒီဂရီစင်တီဂရိတ်ခန့်တွင် တည်ငြိမ်နေခဲ့သည်။",
+              "အပင်ငယ်များ ကြီးထွားနေသော အိုးများ၏ အရောင်။",
+              "ရေဖြန်းသော နေ့ချိန်တစ်ခုတည်း၊ အခြားမည်သည့်အရာမျှ မဟုတ်ပါ။",
+              "မည်သည့်အရာမျှ တူညီအောင် မထားခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph, which names both of these directly.",
+              "This is the same fair-test principle from Week 1's own reading passage.",
+            ],
+            hintsMy: [
+              "ဤနှစ်ခုစလုံးကို တိုက်ရိုက် အမည်တွင်ထားသော ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 1 ၏ ကိုယ်ပိုင်စာဖတ်ခန်းမှ တရားမျှတသောစမ်းသပ်မှု အခြေခံမူတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was Su Su's full hypothesis, according to the second paragraph?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ စုစု၏ ယူဆချက်အပြည့်အစုံမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "If a tomato seedling receives more sunlight, then it will grow taller than one kept in shade, because plants use sunlight to photosynthesise and produce the food their cells need to grow.",
+              "Tomato seedlings always grow at exactly the same speed, regardless of sunlight.",
+              "Sunlight makes a seedling shorter, because it dries out the leaves.",
+              "She made no hypothesis at all, only a wish.",
+            ],
+            optionsMy: [
+              "ခရမ်းချဉ်သီးအပင်ငယ်တစ်ပင်သည် ပိုမိုများပြားသော နေရောင်ခြည်ကို ရရှိပါက အရိပ်တွင်ထားသောအပင်ထက် ပိုမြင့်စွာ ကြီးထွားလိမ့်မည်၊ အကြောင်းမှာ အပင်များသည် နေရောင်ခြည်ကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ကာ ၎င်းတို့၏ ဆဲလ်များ ကြီးထွားရန်လိုအပ်သော အစားအစာကို ထုတ်ပေးကြောင်းဖြစ်သည်။",
+              "ခရမ်းချဉ်သီးအပင်ငယ်များသည် နေရောင်ခြည်နှင့်မသက်ဆိုင်ဘဲ အမြဲတမ်း အတူတူသောအမြန်နှုန်းဖြင့် ကြီးထွားသည်။",
+              "နေရောင်ခြည်သည် အရွက်များကို ခြောက်သွေ့သွားစေသောကြောင့် အပင်ငယ်ကို ပို၍နိမ့်စေသည်။",
+              "သူသည် ဆန္ဒတစ်ခုမှလွဲ၍ ယူဆချက်တစ်ခုမျှ မပြုလုပ်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which quotes Su Su's hypothesis directly.",
+              "This is the same if/then/because reasoning explored in Day 1's first question.",
+            ],
+            hintsMy: [
+              "စုစု၏ ယူဆချက်ကို တိုက်ရိုက်ကိုးကားထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းတွင် လေ့လာခဲ့သော if/then/because ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Su Su conclude when she checked her hypothesis against her old Week 1 results, according to the third paragraph?",
+            questionMy:
+                "တတိယစာပိုဒ်အရ သူ့ယူဆချက်ကို Week 1 ၏ ရှေးဟောင်းရလဒ်များနှင့် စစ်ဆေးကြည့်သောအခါ စုစု အဘယ်ဟု ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "Everything fit -- her results were exactly what her hypothesis predicted, not just a lucky pattern.",
+              "Her old results completely contradicted her new hypothesis.",
+              "She decided her old results must have been recorded wrongly.",
+              "She could not tell whether her results matched her hypothesis or not.",
+            ],
+            optionsMy: [
+              "အားလုံး ကိုက်ညီခဲ့သည် -- သူ့ရလဒ်များသည် ကံကောင်းသောပုံစံတစ်ခုမျှသာ မဟုတ်ဘဲ သူ့ယူဆချက်က ခန့်မှန်းခဲ့သည့်အတိုင်းပင် ဖြစ်ခဲ့သည်။",
+              "သူ့ ရှေးဟောင်းရလဒ်များသည် သူ့ ယူဆချက်အသစ်နှင့် လုံးလုံးဆန့်ကျင်ခဲ့သည်။",
+              "သူ့ရှေးဟောင်းရလဒ်များကို မှားယွင်းစွာ မှတ်တမ်းတင်ထားမှန်း ဆုံးဖြတ်ခဲ့သည်။",
+              "သူ့ ရလဒ်များ သူ့ယူဆချက်နှင့် ကိုက်ညီမကိုက်ညီ ခွဲခြားမသိနိုင်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which explains this directly.",
+              "This is the same reasoning chain (light -> photosynthesis -> food -> height) built in the second paragraph.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဒုတိယစာပိုဒ်တွင် တည်ဆောက်ထားသော ယုတ္တိကွင်းဆက်တစ်ခုတည်းပင် ဖြစ်သည် (အလင်း -> အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း -> အစားအစာ -> အမြင့်)။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Su realise her hypothesis actually was?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ သူ့ယူဆချက်သည် အမှန်တကယ် အဘယ်အရာဖြစ်ကြောင်း စုစု သဘောပေါက်လိုက်သနည်း။",
+            optionsEn: [
+              "A rule she could test again and again on other plants, not just an answer to one single question.",
+              "A fact that never needed testing again.",
+              "A mistake she needed to forget completely.",
+              "Something only true for tomato seedlings and nothing else.",
+            ],
+            optionsMy: [
+              "အခြားအပင်များပေါ်တွင် ထပ်ခါထပ်ခါ စမ်းသပ်နိုင်သော စည်းမျဉ်းတစ်ခုဖြစ်ပြီး မေးခွန်းတစ်ခုအတွက် အဖြေတစ်ခုသာ မဟုတ်ကြောင်း။",
+              "ထပ်မံစမ်းသပ်ရန် မလိုတော့သော အချက်တစ်ခု။",
+              "လုံးဝ မေ့ပစ်ရမည့် အမှားတစ်ခု။",
+              "ခရမ်းချဉ်သီးအပင်ငယ်များအတွက်သာ မှန်ကန်ပြီး အခြားမည်သည့်အရာအတွက်မျှ မဟုတ်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this directly using the pale, leggy seedlings as an example.",
+              "This is the same idea from this quiz's first question -- a hypothesis is grounded in a scientific reason, which is why it can explain more than just one investigation.",
+            ],
+            hintsMy: [
+              "ဖျော့ဖျော့ဖြူဖြူ ပင်စည်ရှည်ရှည် အပင်ငယ်များကို ဥပမာယူ၍ ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဤပဟေဋ္ဌိ၏ ပထမမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် -- ယူဆချက်တစ်ခုသည် သိပ္ပံနည်းကျအကြောင်းရင်းတစ်ခုအပေါ် အခြေခံသောကြောင့် စမ်းသပ်မှုတစ်ခုတည်းထက် ပို၍ ရှင်းပြနိုင်ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Asking a Scientific Question",
+      titleMy: "အပတ်စဉ် ၃၃ ပြန်လည်သုံးသပ်ခြင်း - သိပ္ပံနည်းကျ မေးခွန်းတစ်ခု မေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does a hypothesis add on top of a simple prediction?",
+          questionMy: "ယူဆချက်တစ်ခုသည် ရိုးရှင်းသောခန့်မှန်းချက်အပေါ် အဘယ်ကို ထပ်ဖြည့်ပေးသနည်း။",
+          optionsEn: [
+            "A scientific reason (the 'because') explaining why the predicted result should happen.",
+            "Nothing at all -- the two words mean exactly the same thing.",
+            "A completely different, unrelated result.",
+            "A guarantee that the result will definitely happen.",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းထားသောရလဒ် အဘယ့်ကြောင့် ဖြစ်ပေါ်ရမည်ကို ရှင်းပြသော သိပ္ပံနည်းကျအကြောင်းရင်း ('အကြောင်းမှာ' အပိုင်း)။",
+            "မည်သည့်အရာမျှ မဟုတ်ပါ -- စကားလုံးနှစ်ခုသည် အတိအကျ အဓိပ္ပာယ်တူသည်။",
+            "လုံးဝကွဲပြားသော၊ မသက်ဆိုင်သော ရလဒ်တစ်ခု။",
+            "ရလဒ်ဖြစ်ပေါ်ကြောင်း အာမခံချက်တစ်ခု။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Su Su's own 'if...then...because' hypothesis.",
+            "Recall the reading passage -- writing the 'because' part forced Su Su to explain her thinking, not just guess.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် စုစု၏ ကိုယ်ပိုင် 'ပါက...ဖြစ်လိမ့်မည်...အကြောင်းမှာ' ယူဆချက်ကို သတိရပါ။",
+            "စာဖတ်ခန်းကို သတိရပါ -- 'အကြောင်းမှာ' ဟူသောအပိုင်းကို ရေးသားရခြင်းက ရိုးရိုးခန့်မှန်းသည်ထက် သူ၏အတွေးကို ရှင်းပြရန် စုစုကို တွန်းအားပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a testable scientific question?",
+          questionMy: "အောက်ပါတို့အနက် စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျမေးခွန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Does the force applied to a trolley change how far it rolls?",
+            "Which colour is the prettiest?",
+            "Which animal is everyone's favourite?",
+            "Is football more fun than basketball?",
+          ],
+          optionsMy: [
+            "လှည်းငယ်တစ်စီးအပေါ် သက်ရောက်သောအားသည် ၎င်း မည်မျှလှိမ့်မည်ကို ပြောင်းလဲစေသလား။",
+            "မည်သည့်အရောင်သည် အလှဆုံးဖြစ်သနည်း။",
+            "မည်သည့်တိရစ္ဆာန်သည် လူတိုင်း အကြိုက်ဆုံးဖြစ်သနည်း။",
+            "ဘောလုံးသည် ဘတ်စကက်ဘော်ထက် ပို၍ ပျော်ဖွယ်ကောင်းသလား။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 3's sorting activity -- a testable question can be answered with real measurements.",
+            "The other three options are all matters of opinion, which cannot be measured or fairly tested.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- စမ်းသပ်နိုင်သောမေးခွန်းကို အမှန်တကယ်တိုင်းတာချက်များဖြင့် ဖြေဆိုနိုင်သည်။",
+            "အခြားရွေးချယ်စရာသုံးခုစလုံးသည် နှစ်သက်မှုကိစ္စများဖြစ်ပြီး တိုင်းတာ၍ (သို့) တရားမျှတစွာ စမ်းသပ်၍ မရနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Where does a hypothesis fit into Week 1's five-step sequence (question, prediction, test/measure, record, conclude)?",
+          questionMy:
+              "ယူဆချက်တစ်ခုသည် Week 1 ၏ ငါးဆင့်အစဉ်လိုက် (မေးခွန်း၊ ခန့်မှန်းချက်၊ စမ်းသပ်/တိုင်းတာ၊ မှတ်တမ်းတင်၊ ကောက်ချက်ချ) တွင် မည်သည့်နေရာ၌ ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "In the same slot as the prediction, right after the question and right before testing.",
+            "It replaces the record step.",
+            "It comes after the conclusion.",
+            "It has no place in the sequence at all.",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းချက်နှင့် နေရာတူတွင်ဖြစ်ပြီး မေးခွန်းအပြီး၊ စမ်းသပ်မှုမတိုင်မီ ချက်ချင်း ရှိသည်။",
+            "၎င်းသည် မှတ်တမ်းတင်သောအဆင့်ကို အစားထိုးသည်။",
+            "၎င်းသည် ကောက်ချက်ချပြီးနောက် ရှိသည်။",
+            "အစဉ်လိုက်တွင် နေရာလုံးဝ မရှိပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question -- a hypothesis is a more detailed, reasoned prediction, so it sits in exactly the same place.",
+            "Recall Su Su's own investigation -- her hypothesis came right after her question, just like her original prediction did in Week 1.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းကို သတိရပါ -- ယူဆချက်တစ်ခုသည် ပို၍အသေးစိတ်၊ ယုတ္တိရှိသောခန့်မှန်းချက်ဖြစ်၍ အတိအကျ နေရာတူတွင် တည်ရှိသည်။",
+            "စုစု၏ ကိုယ်ပိုင်စမ်းသပ်မှုကို သတိရပါ -- သူ့ ယူဆချက်သည် Week 1 ၏ မူလခန့်မှန်းချက်ကဲ့သို့ပင် မေးခွန်းအပြီး ချက်ချင်း ရှိခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Su Su realise her hypothesis was more useful than just an answer to her original tomato question?",
+          questionMy:
+              "စုစု၏ ယူဆချက်သည် မူလ ခရမ်းချဉ်သီးမေးခွန်း၏ အဖြေတစ်ခုတည်းထက် ပို၍ အသုံးဝင်ကြောင်း သူ အဘယ့်ကြောင့် သဘောပေါက်ခဲ့သနည်း။",
+          optionsEn: [
+            "Because it was a reasoned rule (light -> photosynthesis -> growth) she could test again on other plants, like the pale, leggy seedlings in the dark corner.",
+            "Because it guaranteed every plant would grow at exactly the same speed.",
+            "Because it had nothing to do with any other plant.",
+            "She never actually thought this at all.",
+          ],
+          optionsMy: [
+            "အကြောင်းမှာ ၎င်းသည် ယုတ္တိအခြေခံသော စည်းမျဉ်းတစ်ခု (အလင်း -> အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း -> ကြီးထွားမှု) ဖြစ်ပြီး အမှောင်ထောင့်ရှိ ဖျော့ဖျော့ဖြူဖြူ အပင်ငယ်များကဲ့သို့ အခြားအပင်များပေါ်တွင်လည်း ထပ်မံစမ်းသပ်နိုင်သောကြောင့် ဖြစ်သည်။",
+            "အကြောင်းမှာ ၎င်းသည် အပင်တိုင်း အတိအကျ အမြန်နှုန်းတူတူ ကြီးထွားမည်ဟု အာမခံသောကြောင့် ဖြစ်သည်။",
+            "အကြောင်းမှာ ၎င်းသည် အခြားအပင်မည်သည့်တစ်ခုနှင့်မျှ မသက်ဆိုင်သောကြောင့် ဖြစ်သည်။",
+            "သူ ဤသို့ တကယ်တမ်း မတွေးခဲ့ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage's final paragraph and its pale, leggy seedling example.",
+            "This is the same idea as Day 1's first question -- a hypothesis grounded in real science can explain more than one single result.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်နှင့် ၎င်း၏ ဖျော့ဖျော့ဖြူဖြူ ပင်စည်ရှည်ရှည် အပင်ငယ် ဥပမာကို သတိရပါ။",
+            "၎င်းသည် ပထမနေ့ ပထမမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် -- စစ်မှန်သောသိပ္ပံပညာအပေါ် အခြေခံသော ယူဆချက်တစ်ခုသည် ရလဒ်တစ်ခုတည်းထက် ပို၍ ရှင်းပြနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, why is a properly written hypothesis more trustworthy than a plain guess?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် မှန်ကန်စွာရေးသားထားသော ယူဆချက်တစ်ခုသည် ရိုးရှင်းသောခန့်မှန်းချက်တစ်ခုထက် အဘယ့်ကြောင့် ပို၍ယုံကြည်ရသနည်း။",
+          optionsEn: [
+            "Because it gives a testable, scientific reason grounded in real knowledge (like photosynthesis or the rock cycle) that can be checked against evidence, not just a lucky guess.",
+            "There is no real difference between the two.",
+            "Because a hypothesis is always guaranteed to be correct before any testing happens.",
+            "Because a hypothesis never needs to be checked against results at all.",
+          ],
+          optionsMy: [
+            "အကြောင်းမှာ ၎င်းသည် (အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်း (သို့) ကျောက်စက်ဝန်းကဲ့သို့သော) စစ်မှန်သောအသိပညာအပေါ် အခြေခံသည့် စမ်းသပ်နိုင်သော သိပ္ပံနည်းကျအကြောင်းရင်းကို ပေးထားပြီး သက်သေအထောက်အထားများနှင့် စစ်ဆေးနိုင်၊ ကံကောင်းသောခန့်မှန်းချက်တစ်ခုသာ မဟုတ်သောကြောင့် ဖြစ်သည်။",
+            "နှစ်ခုအကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ။",
+            "အကြောင်းမှာ ယူဆချက်တစ်ခုသည် စမ်းသပ်မှုမပြုမီပင် မှန်ကန်ကြောင်း အမြဲအာမခံသောကြောင့် ဖြစ်သည်။",
+            "အကြောင်းမှာ ယူဆချက်တစ်ခုသည် ရလဒ်များနှင့် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်သောကြောင့် ဖြစ်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Su Su's own reasoning from the reading passage, and this week's rock and trolley examples -- a hypothesis names a real scientific mechanism, not just a feeling.",
+            "This is exactly why next week's lesson moves from hypotheses to designing a fair test that can actually check one.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်းမှ စုစု၏ ကိုယ်ပိုင်ယုတ္တိနှင့် ဤအပတ်၏ ကျောက်နှင့် လှည်းငယ် ဥပမာများကို သတိရပါ -- ယူဆချက်တစ်ခုသည် ခံစားချက်တစ်ခုသာ မဟုတ်ဘဲ စစ်မှန်သော သိပ္ပံနည်းကျယန္တရားတစ်ခုကို အမည်တွင်ပေးသည်။",
+            "ဤအကြောင်းကြောင့်ပင် နောက်ပတ်၏သင်ခန်းစာသည် ယူဆချက်များမှ ၎င်းကို အမှန်တကယ် စစ်ဆေးနိုင်သော တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်းသို့ ရွှေ့ပြောင်းသွားမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 9, Week 34: "Designing a Fair Test"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek34 = CourseWeekDef(
+  id: "course-secondary1-science-w34",
+  weekNumber: 34,
+  titleEn: "Designing a Fair Test",
+  titleMy: "တရားမျှတသော စမ်းသပ်မှု တစ်ခု ဒီဇိုင်းရေးဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w34-d1",
+      dayNumber: 1,
+      titleEn: "Designing a Fair Test Quiz",
+      titleMy: "တရားမျှတသော စမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Kaung wants to test whether the force applied to a trolley (Week 3) affects how far it rolls before stopping. Which variable should Kaung deliberately change between trials -- his independent variable?",
+          questionMy:
+              "ကောင်းသည် လှည်းငယ်တစ်စီးအပေါ် သက်ရောက်သောအား (Week 3) သည် ၎င်း ရပ်တန့်မီ မည်မျှလှိမ့်မည်ကို သက်ရောက်မှုရှိမလားဟု စမ်းသပ်လိုသည်။ စမ်းသပ်မှုတစ်ခုစီကြား ကောင်း တမင်ပြောင်းလဲသင့်သော ကိန်းရှင် -- ၎င်း၏ လွတ်လပ်ကိန်းရှင် -- မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The force applied to the trolley, measured in newtons with a force meter.",
+            "The mass of the trolley.",
+            "The surface the trolley rolls across.",
+            "The starting point marked on the floor.",
+          ],
+          optionsMy: [
+            "လှည်းငယ်အပေါ် သက်ရောက်သောအားကို နယူတန်မီတာ (force meter) ဖြင့် နယူတန် (N) ယူနစ်ဖြင့် တိုင်းတာသည်။",
+            "လှည်းငယ်၏ အလေးချိန်။",
+            "လှည်းငယ် လှိမ့်ရာ မျက်နှာပြင်။",
+            "ကြမ်းပြင်ပေါ်တွင် အမှတ်အသားပြုထားသော အစပြုနေရာ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The independent variable is the one thing a scientist deliberately changes between trials -- recall Week 1's force meter, measuring in newtons.",
+            "The other three options (mass, surface, starting point) should stay exactly the same in every trial -- they're control variables, not the independent variable.",
+          ],
+          hintsMy: [
+            "လွတ်လပ်ကိန်းရှင်ဆိုသည်မှာ သိပ္ပံပညာရှင်တစ်ဦးက စမ်းသပ်မှုတစ်ခုစီကြား တမင်ပြောင်းလဲသောအရာဖြစ်သည် -- Week 1 ၏ နယူတန်ယူနစ်ဖြင့် တိုင်းတာသော နယူတန်မီတာကို သတိရပါ။",
+            "အခြားရွေးချယ်စရာသုံးခု (အလေးချိန်၊ မျက်နှာပြင်၊ အစပြုနေရာ) သည် စမ်းသပ်မှုတိုင်းတွင် အတိအကျ တူညီအောင် ထားသင့်သည် -- ၎င်းတို့သည် လွတ်လပ်ကိန်းရှင် မဟုတ်ဘဲ ထိန်းချုပ်ကိန်းရှင်များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which variable will Kaung actually measure as the result of each trial -- his dependent variable?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုစီ၏ ရလဒ်အနေဖြင့် ကောင်း အမှန်တကယ် တိုင်းတာမည့် ကိန်းရှင် -- ၎င်း၏ မှီခိုကိန်းရှင် -- မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The distance the trolley rolls before stopping, measured with a measuring tape.",
+            "The amount of force he plans to apply.",
+            "The trolley's colour.",
+            "The time of day the experiment is done.",
+          ],
+          optionsMy: [
+            "လှည်းငယ် မရပ်မချင်း လှိမ့်သွားသော အကွာအဝေးကို တိုင်းတာတိပ်ဖြင့် တိုင်းတာသည်။",
+            "သူ အသုံးပြုရန် စီစဉ်ထားသော အားပမာဏ။",
+            "လှည်းငယ်၏ အရောင်။",
+            "စမ်းသပ်မှု ပြုလုပ်သောနေ့ချိန်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The dependent variable is what a scientist measures as a result -- it's expected to change because of the independent variable, not the other way around.",
+            "Kaung is changing the force to see what happens to the distance -- so distance depends on force, making it the dependent variable.",
+          ],
+          hintsMy: [
+            "မှီခိုကိန်းရှင်ဆိုသည်မှာ သိပ္ပံပညာရှင်တစ်ဦးက ရလဒ်အနေဖြင့် တိုင်းတာသောအရာဖြစ်ပြီး လွတ်လပ်ကိန်းရှင်ကြောင့် ပြောင်းလဲမည်ဟု မျှော်လင့်ထားသည်၊ ပြောင်းပြန် မဟုတ်ပါ။",
+            "ကောင်းသည် အားကို ပြောင်းလဲကာ အကွာအဝေးတွင် အဘယ်အရာ ဖြစ်ပျက်သည်ကို ကြည့်နေသည် -- ထို့ကြောင့် အကွာအဝေးသည် အားပေါ် မှီခိုနေပြီး မှီခိုကိန်းရှင် ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "To keep his test fair, which of these must Kaung keep exactly the same in every trial?",
+          questionMy:
+              "သူ့စမ်းသပ်မှု တရားမျှတစေရန် အောက်ပါတို့အနက် ကောင်း စမ်းသပ်မှုတိုင်းတွင် အတိအကျ တူညီအောင် ထားရမည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The trolley's mass, the surface it rolls across, and its starting point.",
+            "The amount of force applied each time.",
+            "Nothing needs to stay the same at all.",
+            "The distance the trolley travels.",
+          ],
+          optionsMy: [
+            "လှည်းငယ်၏ အလေးချိန်၊ ၎င်း လှိမ့်ရာမျက်နှာပြင်နှင့် ၎င်း၏ အစပြုနေရာ။",
+            "အကြိမ်တိုင်း သက်ရောက်စေသော အားပမာဏ။",
+            "မည်သည့်အရာမျှ တူညီအောင် ထားရန် မလိုအပ်ပါ။",
+            "လှည်းငယ် ခရီးသွားသော အကွာအဝေး။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's own fair test principle -- Su Su kept everything the same except the one variable she was testing (sunlight vs. shade).",
+            "If Kaung let the mass, surface, or starting point change too, he couldn't be sure the force alone caused any difference in distance.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ ကိုယ်ပိုင် တရားမျှတသောစမ်းသပ်မှု အခြေခံမူကို သတိရပါ -- စုစုသည် သူ စမ်းသပ်နေသော ကိန်းရှင်တစ်ခု (နေရောင်ခြည်နှင့် အရိပ်) မှလွဲ၍ အခြားအရာအားလုံးကို တူညီအောင် ထားခဲ့သည်။",
+            "ကောင်းသည် အလေးချိန်၊ မျက်နှာပြင် (သို့) အစပြုနေရာကိုပါ ပြောင်းလဲခွင့်ပြုလိုက်ပါက အကွာအဝေးတွင် ကွာခြားမှုကို အားတစ်ခုတည်းက ဖြစ်ပေါ်စေကြောင်း ဧကန်မသေချာနိုင်တော့ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Aye Aye wants to test whether water temperature affects how quickly a sugar cube dissolves (Week 2's particle model). Which variable is her independent variable?",
+          questionMy:
+              "အေးအေးသည် ရေအပူချိန်သည် သကြားတုံးတစ်ခု မည်မျှမြန်ဆန်စွာ အရည်ပျော်သွားမည်ကို သက်ရောက်မှုရှိမလားဟု (Week 2 ၏ အနုမြူပုံစံ) စမ်းသပ်လိုသည်။ ၎င်း၏ လွတ်လပ်ကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The temperature of the water.",
+            "The time taken for the sugar cube to dissolve.",
+            "The amount of sugar in the cube.",
+            "The type of spoon used to stir.",
+          ],
+          optionsMy: [
+            "ရေ၏ အပူချိန်။",
+            "သကြားတုံး အရည်ပျော်ရန် ကြာချိန်။",
+            "သကြားတုံးအတွင်းရှိ သကြားပမာဏ။",
+            "လှော်ရန်အသုံးပြုသော ဇွန်းအမျိုးအစား။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 2's particle model -- hotter water means faster-moving particles, which is what Aye Aye is deliberately changing between cups.",
+            "The dissolving time is what she measures as a result (the dependent variable) -- it's not what she changes on purpose.",
+          ],
+          hintsMy: [
+            "Week 2 ၏ အနုမြူပုံစံကို သတိရပါ -- ရေပူလေ အနုမြူများ ပိုမြန်ဆန်စွာ ရွေ့လျားလေဖြစ်ပြီး ၎င်းသည် အေးအေးက ဖန်ခွက်များကြား တမင်ပြောင်းလဲနေသောအရာ ဖြစ်သည်။",
+            "အရည်ပျော်ချိန်သည် သူ ရလဒ်အနေဖြင့် တိုင်းတာသောအရာ (မှီခိုကိန်းရှင်) ဖြစ်ပြီး သူ တမင်ပြောင်းလဲသောအရာ မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match the Fair Test Terms",
+      titleMy: "တရားမျှတသော စမ်းသပ်မှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w34-dm-1",
+          termEn: "Independent Variable",
+          termMy: "လွတ်လပ်ကိန်းရှင် (Independent Variable)",
+          matchEn:
+              "The one variable a scientist deliberately changes between trials, like the force Kaung applies to his trolley.",
+          matchMy:
+              "သိပ္ပံပညာရှင်တစ်ဦးက စမ်းသပ်မှုတစ်ခုစီကြား တမင်ပြောင်းလဲသော ကိန်းရှင်တစ်ခုတည်း၊ ကောင်း သူ့လှည်းငယ်အပေါ် သက်ရောက်စေသောအားကဲ့သို့ပင်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w34-dm-2",
+          termEn: "Dependent Variable",
+          termMy: "မှီခိုကိန်းရှင် (Dependent Variable)",
+          matchEn:
+              "The variable that is measured as the result of a test, like the distance Kaung's trolley travels.",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခု၏ ရလဒ်အဖြစ် တိုင်းတာသော ကိန်းရှင်၊ ကောင်း၏ လှည်းငယ် ခရီးသွားသော အကွာအဝေးကဲ့သို့ပင်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w34-dm-3",
+          termEn: "Control Variable",
+          termMy: "ထိန်းချုပ်ကိန်းရှင် (Control Variable)",
+          matchEn:
+              "A variable kept exactly the same in every trial so it cannot affect the result unfairly.",
+          matchMy:
+              "စမ်းသပ်မှုတိုင်းတွင် အတိအကျ တူညီအောင် ထားသော ကိန်းရှင်ဖြစ်ပြီး ၎င်းက ရလဒ်ကို မတရားစွာ သက်ရောက်မှု မရှိစေရန် ဖြစ်သည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w34-dm-4",
+          termEn: "Fair Test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair Test)",
+          matchEn:
+              "An investigation where only the independent variable changes, so any difference in the dependent variable can be trusted.",
+          matchMy:
+              "လွတ်လပ်ကိန်းရှင်တစ်ခုတည်းကိုသာ ပြောင်းလဲသော စမ်းသပ်မှုဖြစ်ပြီး ထို့ကြောင့် မှီခိုကိန်းရှင်ရှိ ကွာခြားမှုကို ယုံကြည်နိုင်သည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w34-dm-5",
+          termEn: "Repeat Reading",
+          termMy: "ထပ်ခါထပ်ခါ တိုင်းတာချက် (Repeat Reading)",
+          matchEn:
+              "Measuring the same trial more than once to check the result and catch mistakes.",
+          matchMy:
+              "ရလဒ်ကို စစ်ဆေးရန်နှင့် အမှားများကို ဖော်ထုတ်ရန် စမ်းသပ်မှုတစ်ခုတည်းကို တစ်ကြိမ်ထက်ပို၍ တိုင်းတာခြင်း။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w34-dm-6",
+          termEn: "Anomalous Result",
+          termMy: "ပုံမှန်မဟုတ်သော ရလဒ် (Anomalous Result)",
+          matchEn:
+              "A reading that doesn't fit the pattern of the other results, often caused by a mistake, and usually left out of an average.",
+          matchMy:
+              "အခြားရလဒ်များ၏ ပုံစံနှင့် မကိုက်ညီသော တိုင်းတာချက်တစ်ခုဖြစ်ပြီး မကြာခဏ အမှားတစ်ခုကြောင့် ဖြစ်ပေါ်ကာ ပျမ်းမျှတွက်ချက်ရာတွင် ပုံမှန်အားဖြင့် ချန်ထားလေ့ရှိသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Independent Variable or Control Variable?",
+      titleMy: "စီစစ်ကြမည် - လွတ်လပ်ကိန်းရှင်လား၊ ထိန်းချုပ်ကိန်းရှင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Independent Variable (Changed on Purpose)",
+          "Control Variable (Kept the Same)",
+        ],
+        bucketsMy: [
+          "လွတ်လပ်ကိန်းရှင် (တမင်ပြောင်းလဲသည်)",
+          "ထိန်းချုပ်ကိန်းရှင် (တူညီအောင်ထားသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w34-sort-1",
+            labelEn: "The amount of force applied to Kaung's trolley each time",
+            labelMy: "အကြိမ်တိုင်း ကောင်း၏ လှည်းငယ်အပေါ် သက်ရောက်သော အားပမာဏ",
+            correctBucketEn: "Independent Variable (Changed on Purpose)",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင် (တမင်ပြောင်းလဲသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-2",
+            labelEn: "Whether Aye Aye's water is hot, warm, or cold",
+            labelMy: "အေးအေး၏ ရေသည် ပူသလား၊ နွေးသလား၊ အေးသလား ဆိုသည်",
+            correctBucketEn: "Independent Variable (Changed on Purpose)",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင် (တမင်ပြောင်းလဲသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-3",
+            labelEn: "Whether Su Su's seedling receives full sunlight or shade",
+            labelMy: "စုစု၏ အပင်ငယ်သည် နေရောင်ခြည်အပြည့် (သို့) အရိပ် ရရှိမည်ဆိုသည်",
+            correctBucketEn: "Independent Variable (Changed on Purpose)",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင် (တမင်ပြောင်းလဲသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-4",
+            labelEn:
+                "How many minutes Thiha's classmates exercise before their pulse is measured",
+            labelMy:
+                "သီဟ၏ အတန်းဖော်များ နှလုံးခုန်နှုန်း မတိုင်းတာမီ ကိုယ်လက်လှုပ်ရှားမှု ပြုလုပ်ရသော မိနစ်အရေအတွက်",
+            correctBucketEn: "Independent Variable (Changed on Purpose)",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင် (တမင်ပြောင်းလဲသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-5",
+            labelEn: "The trolley's mass in every trial",
+            labelMy: "စမ်းသပ်မှုတိုင်းရှိ လှည်းငယ်၏ အလေးချိန်",
+            correctBucketEn: "Control Variable (Kept the Same)",
+            correctBucketMy: "ထိန်းချုပ်ကိန်းရှင် (တူညီအောင်ထားသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-6",
+            labelEn: "The surface the trolley rolls across",
+            labelMy: "လှည်းငယ် လှိမ့်ရာ မျက်နှာပြင်",
+            correctBucketEn: "Control Variable (Kept the Same)",
+            correctBucketMy: "ထိန်းချုပ်ကိန်းရှင် (တူညီအောင်ထားသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-7",
+            labelEn: "The amount of sugar placed in each cup",
+            labelMy: "ဖန်ခွက်တစ်ခုစီတွင် ထည့်သော သကြားပမာဏ",
+            correctBucketEn: "Control Variable (Kept the Same)",
+            correctBucketMy: "ထိန်းချုပ်ကိန်းရှင် (တူညီအောင်ထားသည်)",
+          ),
+          SortingItem(
+            id: "s1sci-w34-sort-8",
+            labelEn: "The amount of water Su Su gives both seedlings",
+            labelMy: "စုစု အပင်နှစ်ပင်စလုံးကို ပေးသော ရေပမာဏ",
+            correctBucketEn: "Control Variable (Kept the Same)",
+            correctBucketMy: "ထိန်းချုပ်ကိန်းရှင် (တူညီအောင်ထားသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung's Trolley Investigation",
+      titleMy: "စာဖတ်ခြင်း - ကောင်း၏ လှည်းငယ် စူးစမ်းလေ့လာမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung's Trolley Investigation",
+        titleMy: "ကောင်း၏ လှည်းငယ် စူးစမ်းလေ့လာမှု",
+        passageEn:
+            "For the Founders' Day Science Fair, Kaung chose forces (Week 3) as his topic. His question was simple: does the force applied to a trolley affect how far it rolls before stopping? He wrote his hypothesis carefully: \"If a bigger force is applied to the trolley, then it will travel farther before stopping, because a bigger push causes a bigger change in motion.\" His independent variable was the force, measured in newtons with a force meter; his dependent variable was the distance travelled, measured with a measuring tape.\n\nBefore testing, Kaung listed his control variables: the same trolley every time (so its mass never changed), the same smooth patch of floor, the same starting line marked with tape, and the same measuring tape for every reading. \"If I let any of these change too,\" he reminded himself, remembering Week 1's fair test, \"I won't be able to trust that the force alone caused any difference.\"\n\nKaung tested three force settings -- 2 N, 4 N, and 6 N -- repeating each one three times to catch any mistakes. At 2 N, the trolley travelled 46 cm, 50 cm, and 48 cm, so he averaged them to 48 cm. At 6 N, it travelled 168 cm, 172 cm, and 176 cm, averaging to 172 cm. But at 4 N, something odd happened: two readings, 104 cm and 112 cm, were close together, while a third reading was only 61 cm. Kaung realised the trolley had probably bumped the table leg during that third trial, so he marked 61 cm as an anomalous result and left it out, averaging only the other two to about 108 cm.\n\nLooking at his final table -- 48 cm at 2 N, about 108 cm at 4 N, and 172 cm at 6 N -- Kaung could see a clear pattern: more force meant more distance, exactly as his hypothesis had predicted. He also realised something else: if he hadn't repeated each trial three times, that one anomalous 61 cm reading might have thrown off his whole conclusion. Repeating trials, he decided, wasn't just extra work -- it was what made his fair test trustworthy.",
+        passageMy:
+            "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲအတွက် ကောင်းသည် အားများ (Week 3) ကို သူ့ခေါင်းစဉ်အဖြစ် ရွေးချယ်ခဲ့သည်။ သူ၏ မေးခွန်းမှာ ရိုးရှင်းသည် - လှည်းငယ်တစ်စီးအပေါ် သက်ရောက်သောအားသည် ၎င်း ရပ်တန့်မီ မည်မျှလှိမ့်မည်ကို သက်ရောက်မှုရှိမလား။ သူသည် သူ့ယူဆချက်ကို ဂရုတစိုက် ရေးသားခဲ့သည် - \"လှည်းငယ်အပေါ် ပိုမိုကြီးမားသောအား သက်ရောက်ပါက ၎င်းသည် ရပ်တန့်မီ ပို၍ဝေးစွာ ခရီးသွားလိမ့်မည်၊ အကြောင်းမှာ ပိုမိုကြီးမားသောတွန်းအားက ရွေ့လျားမှုတွင် ပိုမိုကြီးမားသောပြောင်းလဲမှုကို ဖြစ်ပေါ်စေကြောင်းဖြစ်သည်။\" သူ၏ လွတ်လပ်ကိန်းရှင်မှာ နယူတန်မီတာဖြင့် နယူတန်ယူနစ်ဖြင့် တိုင်းတာသော အားဖြစ်ပြီး သူ၏ မှီခိုကိန်းရှင်မှာ တိုင်းတာတိပ်ဖြင့် တိုင်းတာသော ခရီးအကွာအဝေးဖြစ်သည်။\n\nစမ်းသပ်မှု မပြုလုပ်မီ ကောင်းသည် သူ့ ထိန်းချုပ်ကိန်းရှင်များကို စာရင်းပြုစုခဲ့သည် - အကြိမ်တိုင်း တူညီသော လှည်းငယ် (ထို့ကြောင့် ၎င်း၏ အလေးချိန် ဘယ်တော့မှ မပြောင်းလဲ)၊ တူညီသော ချောမွေ့သည့် ကြမ်းပြင်ဧရိယာ၊ တိပ်ဖြင့် အမှတ်အသားပြုထားသော တူညီသော အစပြုမျဉ်း၊ နှင့် တိုင်းတာချက်တိုင်းအတွက် တူညီသော တိုင်းတာတိပ်။ \"ဤအရာများထဲက တစ်ခုခုကိုပါ ငါ ပြောင်းလဲခွင့်ပြုလိုက်ပါက\" ဟု Week 1 ၏ တရားမျှတသောစမ်းသပ်မှုကို ပြန်သတိရလျက် သူ သတိပေးလိုက်သည်၊ \"အားတစ်ခုတည်းက ကွာခြားမှုကို ဖြစ်ပေါ်စေကြောင်း ငါ ယုံကြည်နိုင်တော့မည် မဟုတ်ပါ။\"\n\nကောင်းသည် အားသတ်မှတ်ချက်သုံးမျိုး -- 2 N၊ 4 N နှင့် 6 N -- ကို စမ်းသပ်ခဲ့ပြီး အမှားများကို ဖော်ထုတ်ရန် တစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ စမ်းသပ်ခဲ့သည်။ 2 N တွင် လှည်းငယ်သည် 46 cm၊ 50 cm နှင့် 48 cm ခရီးသွားခဲ့ပြီး ၎င်းတို့ကို ပျမ်းမျှ 48 cm ဟု တွက်ချက်ခဲ့သည်။ 6 N တွင် ၎င်းသည် 168 cm၊ 172 cm နှင့် 176 cm ခရီးသွားခဲ့ပြီး ပျမ်းမျှ 172 cm ဖြစ်ခဲ့သည်။ သို့သော် 4 N တွင် ထူးဆန်းသောအရာတစ်ခု ဖြစ်ပျက်ခဲ့သည် - တိုင်းတာချက်နှစ်ခု၊ 104 cm နှင့် 112 cm တို့သည် အနီးကပ် ရှိနေခဲ့သော်လည်း တတိယတိုင်းတာချက်မှာ 61 cm သာ ရှိခဲ့သည်။ ထိုတတိယစမ်းသပ်မှုအတွင်း လှည်းငယ်သည် စားပွဲခြေထောက်ကို ရှိန်ထိမိဟန်ရှိကြောင်း ကောင်း သဘောပေါက်လိုက်ပြီး 61 cm ကို ပုံမှန်မဟုတ်သောရလဒ်အဖြစ် အမှတ်အသားပြုကာ ချန်ထားခဲ့ကာ ကျန်နှစ်ခုကိုသာ ပျမ်းမျှ 108 cm ခန့် တွက်ချက်ခဲ့သည်။\n\nသူ့ နောက်ဆုံးဇယား -- 2 N တွင် 48 cm၊ 4 N တွင် 108 cm ခန့်နှင့် 6 N တွင် 172 cm -- ကို ကြည့်ရှုသောအခါ ကောင်းသည် ရှင်းလင်းသောပုံစံတစ်ခုကို မြင်နိုင်ခဲ့သည် - အားပိုများလေ၊ အကွာအဝေး ပိုများလေဖြစ်ပြီး ၎င်းသည် သူ့ယူဆချက်က ခန့်မှန်းခဲ့သည့်အတိုင်းပင် ဖြစ်ခဲ့သည်။ သူသည် အခြားအရာတစ်ခုကိုလည်း သဘောပေါက်လိုက်သည် - တစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ မစမ်းသပ်ခဲ့လျှင် ထို 61 cm ပုံမှန်မဟုတ်သောရလဒ်တစ်ခုက သူ့ကောက်ချက်တစ်ခုလုံးကို လွဲမှားစေနိုင်ခဲ့သည်။ စမ်းသပ်မှုများကို ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းသည် အပိုအလုပ်တစ်ခုမျှသာ မဟုတ်ဘဲ သူ့ တရားမျှတသောစမ်းသပ်မှုကို ယုံကြည်စိတ်ချရအောင် ပြုလုပ်ပေးသောအရာဖြစ်ကြောင်း သူ ဆုံးဖြတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was Kaung's full hypothesis, according to the first paragraph?",
+            questionMy: "ပထမစာပိုဒ်အရ ကောင်း၏ ယူဆချက်အပြည့်အစုံမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "If a bigger force is applied to the trolley, then it will travel farther before stopping, because a bigger push causes a bigger change in motion.",
+              "The trolley will always travel exactly 50 cm, no matter the force.",
+              "Force has nothing to do with how far the trolley travels.",
+              "He made no hypothesis at all.",
+            ],
+            optionsMy: [
+              "လှည်းငယ်အပေါ် ပိုမိုကြီးမားသောအား သက်ရောက်ပါက ၎င်းသည် ရပ်တန့်မီ ပို၍ဝေးစွာ ခရီးသွားလိမ့်မည်၊ အကြောင်းမှာ ပိုမိုကြီးမားသောတွန်းအားက ရွေ့လျားမှုတွင် ပိုမိုကြီးမားသောပြောင်းလဲမှုကို ဖြစ်ပေါ်စေကြောင်းဖြစ်သည်။",
+              "လှည်းငယ်သည် အားနှင့်မသက်ဆိုင်ဘဲ အမြဲတမ်း အတိအကျ 50 cm ခရီးသွားလိမ့်မည်။",
+              "အားသည် လှည်းငယ် မည်မျှဝေးစွာ ခရီးသွားမည်နှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+              "သူ ယူဆချက်တစ်ခုမျှ လုံးဝ မပြုလုပ်ခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph, which quotes Kaung's hypothesis directly.",
+              "This is the same if/then/because structure practised in Week 33.",
+            ],
+            hintsMy: [
+              "ကောင်း၏ ယူဆချက်ကို တိုက်ရိုက်ကိုးကားထားသော ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 33 တွင် လေ့ကျင့်ခဲ့သော if/then/because ဖွဲ့စည်းပုံတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, why did Kaung use the same trolley, floor, starting line, and measuring tape every time?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ ကောင်းသည် အကြိမ်တိုင်း အဘယ့်ကြောင့် တူညီသော လှည်းငယ်၊ ကြမ်းပြင်၊ အစပြုမျဉ်းနှင့် တိုင်းတာတိပ်ကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "So he could trust that the force alone, not some other changing factor, caused any difference in distance.",
+              "Because he only owned one of each item.",
+              "It was simply a coincidence with no real reason.",
+              "Because the trolley could not roll on any other floor.",
+            ],
+            optionsMy: [
+              "အားတစ်ခုတည်းက -- အခြားပြောင်းလဲနေသောအချက်တစ်ခုမဟုတ်ဘဲ -- အကွာအဝေးရှိ ကွာခြားမှုကို ဖြစ်ပေါ်စေကြောင်း ယုံကြည်နိုင်ရန်။",
+              "အရာဝတ္ထုတစ်ခုစီကို တစ်ခုစီသာ ပိုင်ဆိုင်ခဲ့သောကြောင့်။",
+              "၎င်းသည် အမှန်တကယ်အကြောင်းရင်းမပါဘဲ ကျပန်းဖြစ်ခဲ့ခြင်းသာ ဖြစ်သည်။",
+              "လှည်းငယ်သည် အခြားကြမ်းပြင်ပေါ်တွင် လှိမ့်၍ မရသောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which explains this directly, echoing Week 1's fair test.",
+              "This is the same reasoning as Day 1's third question about control variables.",
+            ],
+            hintsMy: [
+              "Week 1 ၏ တရားမျှတသောစမ်းသပ်မှုကို ထပ်ဆင့်၍ ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ထိန်းချုပ်ကိန်းရှင်များအကြောင်း ပထမနေ့ တတိယမေးခွန်းမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Kaung leave the 61 cm reading out of his average at 4 N, according to the third paragraph?",
+            questionMy:
+                "တတိယစာပိုဒ်အရ ကောင်းသည် 4 N တွင် 61 cm တိုင်းတာချက်ကို ၎င်း၏ ပျမ်းမျှမှ အဘယ့်ကြောင့် ချန်ထားခဲ့သနည်း။",
+            optionsEn: [
+              "It didn't fit the pattern of the other two close readings, and was likely caused by the trolley bumping the table leg.",
+              "He simply forgot to write it down.",
+              "It was the largest of the three readings.",
+              "He always leaves out the last reading of any trial, no matter what.",
+            ],
+            optionsMy: [
+              "၎င်းသည် အနီးကပ်ရှိနေသော အခြားတိုင်းတာချက်နှစ်ခု၏ ပုံစံနှင့် မကိုက်ညီဘဲ လှည်းငယ် စားပွဲခြေထောက်ကို ရှိန်ထိမိသောကြောင့် ဖြစ်နိုင်ဆုံးဖြစ်သည်။",
+              "၎င်းကို ရေးမှတ်ရန် ရိုးရိုးမေ့သွားခဲ့ခြင်းသာ ဖြစ်သည်။",
+              "၎င်းသည် တိုင်းတာချက်သုံးခုအနက် အကြီးဆုံးဖြစ်ခဲ့သည်။",
+              "မည်သည့်အခြေအနေမဆို သူသည် စမ်းသပ်မှုတိုင်း၏ နောက်ဆုံးတိုင်းတာချက်ကို အမြဲ ချန်ထားလေ့ရှိသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which explains this directly.",
+              "This is the same idea as the anomalous result definition from Day 2's matching activity.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဒုတိယနေ့ ကိုက်ညီစွာတွဲချိတ်ခြင်းလေ့ကျင့်ခန်းမှ ပုံမှန်မဟုတ်သောရလဒ် အဓိပ္ပာယ်ဖွင့်ဆိုချက်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Kaung realise repeating each trial three times had protected him from?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ စမ်းသပ်မှုတစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းက အဘယ်အရာမှ သူ့ကို ကာကွယ်ပေးခဲ့ကြောင်း ကောင်း သဘောပေါက်လိုက်သနည်း။",
+            optionsEn: [
+              "Letting one anomalous reading (61 cm) throw off his whole conclusion.",
+              "Having to buy a new trolley.",
+              "Running out of time before the fair.",
+              "Nothing at all -- repeating trials made no real difference.",
+            ],
+            optionsMy: [
+              "ပုံမှန်မဟုတ်သောရလဒ်တစ်ခု (61 cm) က သူ့ကောက်ချက်တစ်ခုလုံးကို လွဲမှားစေခြင်း။",
+              "လှည်းငယ်အသစ်တစ်စီး ဝယ်ယူရခြင်း။",
+              "ပြပွဲမတိုင်မီ အချိန်ကုန်သွားခြင်း။",
+              "မည်သည့်အရာမျှ မဟုတ်ပါ -- ထပ်ခါထပ်ခါစမ်းသပ်ခြင်းက အမှန်တကယ် ကွာခြားစေခြင်း မရှိပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which states this directly.",
+              "This is the same idea from Day 2's matching activity's repeat-reading and anomalous-result definitions, working together.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဒုတိယနေ့ ကိုက်ညီစွာတွဲချိတ်ခြင်းလေ့ကျင့်ခန်းမှ ထပ်ခါထပ်ခါတိုင်းတာချက်နှင့် ပုံမှန်မဟုတ်သောရလဒ် အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ အတူတကွ လုပ်ဆောင်ပုံတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Designing a Fair Test",
+      titleMy: "အပတ်စဉ် ၃၄ ပြန်လည်သုံးသပ်ခြင်း - တရားမျှတသော စမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is an independent variable?",
+          questionMy: "လွတ်လပ်ကိန်းရှင်ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The one variable a scientist deliberately changes between trials",
+            "A variable that must never change",
+            "The result a scientist measures",
+            "A mistake made during an experiment",
+          ],
+          optionsMy: [
+            "သိပ္ပံပညာရှင်တစ်ဦးက စမ်းသပ်မှုတစ်ခုစီကြား တမင်ပြောင်းလဲသော ကိန်းရှင်တစ်ခုတည်း",
+            "ဘယ်တော့မှ မပြောင်းလဲသင့်သော ကိန်းရှင်",
+            "သိပ္ပံပညာရှင်တစ်ဦး တိုင်းတာသော ရလဒ်",
+            "စမ်းသပ်မှုတစ်ခုအတွင်း ပြုလုပ်မိသော အမှားတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Kaung's own force meter.",
+            "Recall Day 2's matching activity -- this is the variable the scientist changes on purpose.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် ကောင်း၏ ကိုယ်ပိုင်နယူတန်မီတာကို သတိရပါ။",
+            "ဒုတိယနေ့ ကိုက်ညီစွာတွဲချိတ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ၎င်းသည် သိပ္ပံပညာရှင်က တမင်ပြောင်းလဲသော ကိန်းရှင်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Kaung's investigation, why did he keep the trolley's mass, the surface, and the starting point the same in every trial?",
+          questionMy:
+              "ကောင်း၏ စမ်းသပ်မှုတွင် သူသည် အကြိမ်တိုင်း လှည်းငယ်၏ အလေးချိန်၊ မျက်နှာပြင်နှင့် အစပြုနေရာကို အဘယ့်ကြောင့် တူညီအောင် ထားခဲ့သနည်း။",
+          optionsEn: [
+            "So only the force could explain any difference in distance -- keeping the test fair",
+            "Because he forgot to change them",
+            "Because those variables have nothing to do with the trolley at all",
+            "Because changing them would have been against the rules of the fair",
+          ],
+          optionsMy: [
+            "အားတစ်ခုတည်းကသာ အကွာအဝေးရှိ ကွာခြားမှုကို ရှင်းပြနိုင်ရန် -- စမ်းသပ်မှုကို တရားမျှတစေရန်",
+            "၎င်းတို့ကို ပြောင်းလဲရန် မေ့သွားခဲ့သောကြောင့်",
+            "ထိုကိန်းရှင်များသည် လှည်းငယ်နှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+            "၎င်းတို့ကို ပြောင်းလဲခြင်းသည် ပြပွဲ၏ စည်းမျဉ်းများကို ဖီဆန်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and the reading passage's second paragraph.",
+            "This is the same fair-test principle Su Su used in Week 1.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် စာဖတ်ခန်း၏ ဒုတိယစာပိုဒ်ကို သတိရပါ။",
+            "၎င်းသည် Week 1 တွင် စုစု အသုံးပြုခဲ့သော တရားမျှတသောစမ်းသပ်မှု အခြေခံမူတစ်ခုတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why did Kaung repeat each force setting three times?",
+          questionMy: "ကောင်းသည် အားသတ်မှတ်ချက်တစ်ခုစီကို အဘယ့်ကြောင့် သုံးကြိမ် ထပ်ခါထပ်ခါ စမ်းသပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "To catch mistakes and calculate a more reliable average distance",
+            "Because the rules of the fair required exactly three attempts",
+            "It made no real difference to his results",
+            "Because he enjoyed pushing the trolley",
+          ],
+          optionsMy: [
+            "အမှားများကို ဖော်ထုတ်ရန်နှင့် ပို၍ယုံကြည်ရသော ပျမ်းမျှအကွာအဝေးကို တွက်ချက်ရန်",
+            "ပြပွဲ၏ စည်းမျဉ်းများက အတိအကျ သုံးကြိမ်ကြိုးစားရန် သတ်မှတ်ထားသောကြောင့်",
+            "သူ့ ရလဒ်များအပေါ် အမှန်တကယ် ကွာခြားမှု မရှိစေခဲ့ပါ",
+            "လှည်းငယ်ကို တွန်းရသည်ကို ပျော်ရွှင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's matching activity -- repeat readings help catch anomalous results.",
+            "Recall the reading passage's third and fourth paragraphs -- the 61 cm anomaly at 4 N is the perfect example.",
+          ],
+          hintsMy: [
+            "ဒုတိယနေ့ ကိုက်ညီစွာတွဲချိတ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ထပ်ခါထပ်ခါတိုင်းတာချက်များက ပုံမှန်မဟုတ်သောရလဒ်များကို ဖော်ထုတ်ရာတွင် ကူညီသည်။",
+            "စာဖတ်ခန်း၏ တတိယနှင့် စတုတ္ထစာပိုဒ်များကို သတိရပါ -- 4 N တွင် 61 cm ပုံမှန်မဟုတ်သောရလဒ်သည် အထူးကောင်းသောဥပမာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Aye Aye's sugar-dissolving investigation, which variable is the dependent variable?",
+          questionMy:
+              "အေးအေး၏ သကြားအရည်ပျော်ခြင်း စမ်းသပ်မှုတွင် မှီခိုကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The time taken for the sugar cube to dissolve",
+            "The temperature of the water",
+            "The amount of sugar in the cube",
+            "The colour of the cup",
+          ],
+          optionsMy: [
+            "သကြားတုံး အရည်ပျော်ရန် ကြာချိန်",
+            "ရေ၏ အပူချိန်",
+            "သကြားတုံးအတွင်းရှိ သကြားပမာဏ",
+            "ဖန်ခွက်၏ အရောင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question -- the dependent variable is what is measured as a result, not what is changed on purpose.",
+            "Water temperature is what Aye Aye changes; dissolving time is what she measures because of that change.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ -- မှီခိုကိန်းရှင်ဆိုသည်မှာ တမင်ပြောင်းလဲသောအရာမဟုတ်ဘဲ ရလဒ်အနေဖြင့် တိုင်းတာသောအရာဖြစ်သည်။",
+            "ရေအပူချိန်သည် အေးအေး ပြောင်းလဲသောအရာဖြစ်ပြီး အရည်ပျော်ချိန်သည် ထိုပြောင်းလဲမှုကြောင့် သူ တိုင်းတာသောအရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, how do independent, dependent, and control variables work together to make a test fair?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် လွတ်လပ်ကိန်းရှင်၊ မှီခိုကိန်းရှင်နှင့် ထိန်းချုပ်ကိန်းရှင်တို့သည် စမ်းသပ်မှုတစ်ခုကို တရားမျှတစေရန် အတူတကွ မည်ကဲ့သို့ လုပ်ဆောင်ကြသနည်း။",
+          optionsEn: [
+            "Only the independent variable is deliberately changed, the dependent variable is measured as the result, and every control variable is kept identical, so any change in the result can be trusted to come from the independent variable alone.",
+            "All three kinds of variable should be changed together in every trial.",
+            "Control variables are the most important thing to change, not to keep the same.",
+            "These three ideas have nothing to do with each other.",
+          ],
+          optionsMy: [
+            "လွတ်လပ်ကိန်းရှင်တစ်ခုတည်းသာ တမင်ပြောင်းလဲပြီး မှီခိုကိန်းရှင်ကို ရလဒ်အနေဖြင့် တိုင်းတာကာ ထိန်းချုပ်ကိန်းရှင်တိုင်းကို တူညီအောင် ထားသဖြင့် ရလဒ်ရှိ ပြောင်းလဲမှုကို လွတ်လပ်ကိန်းရှင်တစ်ခုတည်းမှ ဖြစ်ပေါ်သည်ဟု ယုံကြည်နိုင်သည်။",
+            "ကိန်းရှင်သုံးမျိုးလုံးကို စမ်းသပ်မှုတိုင်းတွင် အတူတကွ ပြောင်းလဲသင့်သည်။",
+            "ထိန်းချုပ်ကိန်းရှင်များသည် တူညီအောင်ထားရန်ထက် ပြောင်းလဲရန် အရေးအကြီးဆုံးအရာဖြစ်သည်။",
+            "ဤအယူအဆသုံးခုသည် တစ်ခုနှင့်တစ်ခု လုံးဝ မသက်ဆိုင်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kaung's own trolley investigation, which used all three kinds of variable together, and Day 3's sorting activity.",
+            "This is exactly why next week's lesson moves from designing a fair test to recording and presenting the data it produces.",
+          ],
+          hintsMy: [
+            "ကိန်းရှင်သုံးမျိုးလုံးကို အတူတကွ အသုံးပြုခဲ့သော ကောင်း၏ ကိုယ်ပိုင်လှည်းငယ်စမ်းသပ်မှုနှင့် တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ။",
+            "ဤအကြောင်းကြောင့်ပင် နောက်ပတ်၏သင်ခန်းစာသည် တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်းမှ ၎င်းထုတ်လုပ်သော အချက်အလက်များကို မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်းသို့ ရွှေ့ပြောင်းသွားမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 9, Week 35: "Recording and Presenting Data"
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek35 = CourseWeekDef(
+  id: "course-secondary1-science-w35",
+  weekNumber: 35,
+  titleEn: "Recording and Presenting Data",
+  titleMy: "အချက်အလက်များ မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w35-d1",
+      dayNumber: 1,
+      titleEn: "Recording and Presenting Data Quiz",
+      titleMy: "အချက်အလက်များ မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်း ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Kaung's trolley data at 4 N (Week 34) included three readings: 104 cm, 112 cm, and an anomalous 61 cm that he left out. Why is calculating an average from repeat readings more reliable than trusting just one single reading?",
+          questionMy:
+              "ကောင်း၏ 4 N ရှိ လှည်းငယ်အချက်အလက် (Week 34) တွင် တိုင်းတာချက်သုံးခု ပါဝင်ခဲ့သည် - 104 cm၊ 112 cm နှင့် ၎င်း ချန်ထားခဲ့သော ပုံမှန်မဟုတ်သော 61 cm။ ထပ်ခါထပ်ခါတိုင်းတာချက်များမှ ပျမ်းမျှတွက်ချက်ခြင်းသည် တိုင်းတာချက်တစ်ခုတည်းကိုသာ ယုံကြည်ခြင်းထက် အဘယ့်ကြောင့် ပို၍ယုံကြည်ရသနည်း။",
+          optionsEn: [
+            "Repeating reduces the effect of a single mistake or unusual reading, so the average is a more trustworthy value.",
+            "It just makes the experiment take longer, with no other benefit.",
+            "Only the very first reading a scientist takes actually matters.",
+            "An average is always exactly equal to the largest reading.",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါစမ်းသပ်ခြင်းက အမှားတစ်ခု (သို့) ထူးဆန်းသောတိုင်းတာချက်တစ်ခု၏ သက်ရောက်မှုကို လျှော့ချပေးသောကြောင့် ပျမ်းမျှသည် ပို၍ယုံကြည်ရသောတန်ဖိုးတစ်ခု ဖြစ်သည်။",
+            "၎င်းသည် အခြားအကျိုးကျေးဇူး မရှိဘဲ စမ်းသပ်မှုကို ပို၍ကြာမြင့်စေရုံသာ ဖြစ်သည်။",
+            "သိပ္ပံပညာရှင်တစ်ဦး ယူသောပထမဆုံးတိုင်းတာချက်တစ်ခုတည်းကသာ အရေးကြီးသည်။",
+            "ပျမ်းမျှတန်ဖိုးသည် အမြဲတမ်း အကြီးဆုံးတိုင်းတာချက်နှင့် အတိအကျ ညီမျှသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's anomalous result definition -- a single unusual reading can throw off a conclusion if it isn't caught by repeating the trial.",
+            "Kaung's average of 104 cm and 112 cm (about 108 cm) is far more trustworthy than the lone 61 cm reading would have been alone.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ ပုံမှန်မဟုတ်သောရလဒ် အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- စမ်းသပ်မှုကို ထပ်ခါထပ်ခါ မလုပ်ပါက ထူးဆန်းသောတိုင်းတာချက်တစ်ခုတည်းက ကောက်ချက်တစ်ခုကို လွဲမှားစေနိုင်သည်။",
+            "104 cm နှင့် 112 cm (ခန့်မှန်းခြေ 108 cm) ၏ ပျမ်းမျှသည် 61 cm တစ်ခုတည်း ရှိခဲ့လျှင်ထက် ပို၍များစွာ ယုံကြည်ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking at Kaung's final results table -- 48 cm at 2 N, about 108 cm at 4 N, and 172 cm at 6 N -- what pattern do the results show?",
+          questionMy:
+              "ကောင်း၏ နောက်ဆုံးရလဒ်ဇယား -- 2 N တွင် 48 cm၊ 4 N တွင် ခန့်မှန်းခြေ 108 cm နှင့် 6 N တွင် 172 cm -- ကို ကြည့်ရှုသောအခါ ရလဒ်များက မည်သည့်ပုံစံကို ပြသနေသနည်း။",
+          optionsEn: [
+            "As the force applied increases, the distance the trolley travels also increases.",
+            "Force has no effect on distance at all.",
+            "Distance decreases as force increases.",
+            "The results show no pattern at all.",
+          ],
+          optionsMy: [
+            "သက်ရောက်စေသော အားမြှင့်တက်လာလေ၊ လှည်းငယ် ခရီးသွားသော အကွာအဝေးလည်း မြင့်တက်လာလေဖြစ်သည်။",
+            "အားသည် အကွာအဝေးအပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ။",
+            "အားမြှင့်တက်လာလေ၊ အကွာအဝေး လျော့ကျလာလေဖြစ်သည်။",
+            "ရလဒ်များတွင် ပုံစံမည်သည့်တစ်ခုမျှ မပြသပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's reading passage -- Kaung himself noticed this exact pattern in his own table.",
+            "Compare the three distances in order: 48 cm, 108 cm, 172 cm -- each one is larger than the last, matching each larger force.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ စာဖတ်ခန်းကို သတိရပါ -- ကောင်း ကိုယ်တိုင် သူ့ဇယားတွင် ဤအတိအကျပုံစံကို တွေ့ရှိခဲ့သည်။",
+            "အကွာအဝေးသုံးခုကို အစဉ်လိုက် နှိုင်းယှဉ်ကြည့်ပါ - 48 cm၊ 108 cm၊ 172 cm -- တစ်ခုစီသည် အားပိုကြီးလေ၊ ယခင်ထက် ပိုကြီးလေဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student records three repeat readings for how long a sugar cube takes to dissolve in warm water: 118 seconds, 121 seconds, and 55 seconds. Which reading is most likely anomalous?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် သကြားတုံးတစ်ခု နွေးသောရေထဲတွင် အရည်ပျော်ရန် ကြာချိန်အတွက် ထပ်ခါထပ်ခါတိုင်းတာချက်သုံးခုကို မှတ်တမ်းတင်ထားသည် - စက္ကန့် 118၊ စက္ကန့် 121 နှင့် စက္ကန့် 55။ မည်သည့်တိုင်းတာချက်သည် ပုံမှန်မဟုတ်သောရလဒ် ဖြစ်နိုင်ဆုံးနည်း။",
+          optionsEn: [
+            "55 seconds, because it doesn't fit the close pattern of the other two readings.",
+            "118 seconds, because it's the smaller of the two close readings.",
+            "121 seconds, because it's the largest overall reading.",
+            "None of them -- all three should be treated as equally valid.",
+          ],
+          optionsMy: [
+            "စက္ကန့် 55၊ အခြားတိုင်းတာချက်နှစ်ခု၏ အနီးကပ်ပုံစံနှင့် မကိုက်ညီသောကြောင့်။",
+            "စက္ကန့် 118၊ အနီးကပ်တိုင်းတာချက်နှစ်ခုအနက် ငယ်သောတန်ဖိုးဖြစ်သောကြောင့်။",
+            "စက္ကန့် 121၊ အားလုံးအနက် အကြီးဆုံးတိုင်းတာချက်ဖြစ်သောကြောင့်။",
+            "မည်သည့်တစ်ခုမျှ မဟုတ်ပါ -- သုံးခုစလုံးကို တန်းတူသက်တမ်းရှိသည်ဟု သတ်မှတ်သင့်သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Kaung's own 61 cm anomalous result from Week 34 -- the same reasoning applies here: two readings sit close together, and one is far away.",
+            "118 seconds and 121 seconds are close together, forming the pattern -- 55 seconds is the outlier that doesn't fit it.",
+          ],
+          hintsMy: [
+            "Week 34 မှ ကောင်း၏ ကိုယ်ပိုင် 61 cm ပုံမှန်မဟုတ်သောရလဒ်ကို သတိရပါ -- အတူတူသောယုတ္တိသည် ဤနေရာတွင်လည်း အကျုံးဝင်သည် - တိုင်းတာချက်နှစ်ခု အနီးကပ်ရှိနေပြီး တစ်ခုကမူ ဝေးကွာနေသည်။",
+            "စက္ကန့် 118 နှင့် စက္ကန့် 121 တို့သည် အနီးကပ်ရှိနေကာ ပုံစံတစ်ခုကို ဖွဲ့စည်းထားသည် -- စက္ကန့် 55 သည် ၎င်းနှင့် မကိုက်ညီသော ပြင်ပတန်ဖိုးတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When Aye Aye draws a graph of Kaung's results, which variable (Week 34) should go on which axis, and why?",
+          questionMy:
+              "အေးအေးသည် ကောင်း၏ ရလဒ်များကို ဂရပ်ဆွဲသောအခါ မည်သည့်ကိန်းရှင် (Week 34) ကို မည်သည့်ဝင်ရိုးမျဉ်းတွင် ထားသင့်ပြီး အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "The independent variable (force) on the horizontal axis, and the dependent variable (distance) on the vertical axis, because distance is what changed as a result.",
+            "The dependent variable on the horizontal axis and the independent variable on the vertical axis.",
+            "Both variables should go on the same single axis.",
+            "Axes don't need labels or units at all.",
+          ],
+          optionsMy: [
+            "လွတ်လပ်ကိန်းရှင် (အား) ကို အလျားလိုက်ဝင်ရိုးမျဉ်းတွင်၊ မှီခိုကိန်းရှင် (အကွာအဝေး) ကို ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ထားသင့်သည်၊ အကြောင်းမှာ အကွာအဝေးသည် ရလဒ်အနေဖြင့် ပြောင်းလဲသောအရာဖြစ်သောကြောင့်ဖြစ်သည်။",
+            "မှီခိုကိန်းရှင်ကို အလျားလိုက်ဝင်ရိုးမျဉ်းတွင်၊ လွတ်လပ်ကိန်းရှင်ကို ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ထားသင့်သည်။",
+            "ကိန်းရှင်နှစ်ခုစလုံးကို ဝင်ရိုးမျဉ်းတစ်ခုတည်းပေါ်တွင် ထားသင့်သည်။",
+            "ဝင်ရိုးမျဉ်းများသည် အညွှန်း (သို့) ယူနစ် လုံးဝမလိုအပ်ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's independent/dependent variable distinction -- the variable a scientist deliberately changes usually sits on the horizontal axis.",
+            "Distance depends on force (it's the dependent variable), which is exactly why it belongs on the vertical axis.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ လွတ်လပ်/မှီခိုကိန်းရှင် ခွဲခြားချက်ကို သတိရပါ -- သိပ္ပံပညာရှင်က တမင်ပြောင်းလဲသောကိန်းရှင်သည် ပုံမှန်အားဖြင့် အလျားလိုက်ဝင်ရိုးမျဉ်းတွင် ရှိသည်။",
+            "အကွာအဝေးသည် အားပေါ် မှီခိုနေသည် (၎င်းသည် မှီခိုကိန်းရှင် ဖြစ်သည်)၊ ထို့ကြောင့်ပင် ၎င်းသည် ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ပိုင်ဆိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match the Data-Handling Terms",
+      titleMy: "အချက်အလက်ကိုင်တွယ်မှု ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w35-dm-1",
+          termEn: "Data Table",
+          termMy: "အချက်အလက်ဇယား (Data Table)",
+          matchEn:
+              "A grid of rows and columns used to record measurements clearly during an investigation.",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခုအတွင်း တိုင်းတာချက်များကို ရှင်းလင်းစွာ မှတ်တမ်းတင်ရန် အသုံးပြုသော အတန်းနှင့် တိုင်များဖြင့်ဖွဲ့စည်းထားသော ဇယား။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w35-dm-2",
+          termEn: "Line Graph",
+          termMy: "မျဉ်းဂရပ် (Line Graph)",
+          matchEn:
+              "A graph joining plotted points with a line, useful for showing how a dependent variable changes as an independent variable increases.",
+          matchMy:
+              "အမှတ်များကို မျဉ်းတစ်ခုဖြင့် ချိတ်ဆက်ထားသော ဂရပ်ဖြစ်ပြီး လွတ်လပ်ကိန်းရှင်မြင့်တက်လာသည်နှင့်အမျှ မှီခိုကိန်းရှင် မည်ကဲ့သို့ ပြောင်းလဲသည်ကို ပြသရန် အသုံးဝင်သည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w35-dm-3",
+          termEn: "Axis",
+          termMy: "ဝင်ရိုးမျဉ်း (Axis)",
+          matchEn:
+              "One of the two labelled edges of a graph -- the independent variable usually goes on the horizontal axis, the dependent variable on the vertical axis.",
+          matchMy:
+              "ဂရပ်၏ အညွှန်းတပ်ထားသော အစွန်းနှစ်ခုအနက် တစ်ခု -- လွတ်လပ်ကိန်းရှင်သည် ပုံမှန်အားဖြင့် အလျားလိုက်ဝင်ရိုးမျဉ်းတွင်၊ မှီခိုကိန်းရှင်သည် ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ရှိသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w35-dm-4",
+          termEn: "Average (Mean)",
+          termMy: "ပျမ်းမျှ (Average)",
+          matchEn:
+              "A single typical value found by adding up several repeat readings and dividing by how many there are.",
+          matchMy:
+              "ထပ်ခါထပ်ခါတိုင်းတာချက်များစွာကို ပေါင်းလိုက်ပြီး ၎င်းတို့၏ အရေအတွက်ဖြင့် စားခြင်းအားဖြင့် ရှာတွေ့ရသော တစ်ခုတည်းသော ပုံမှန်တန်ဖိုး။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w35-dm-5",
+          termEn: "Anomalous Result",
+          termMy: "ပုံမှန်မဟုတ်သော ရလဒ် (Anomalous Result)",
+          matchEn:
+              "A repeat reading that clearly doesn't match the others, usually excluded before calculating an average.",
+          matchMy:
+              "အခြားတိုင်းတာချက်များနှင့် ရှင်းလင်းစွာ မကိုက်ညီသော ထပ်ခါထပ်ခါတိုင်းတာချက်တစ်ခုဖြစ်ပြီး ပျမ်းမျှတွက်ချက်ရာတွင် ပုံမှန်အားဖြင့် ချန်ထားလေ့ရှိသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w35-dm-6",
+          termEn: "Pattern (Trend)",
+          termMy: "ပုံစံ (Pattern)",
+          matchEn:
+              "A relationship that becomes clear once several results are compared, such as distance increasing as force increases.",
+          matchMy:
+              "အားမြှင့်တက်လာသည်နှင့်အမျှ အကွာအဝေးလည်း မြင့်တက်လာခြင်းကဲ့သို့ ရလဒ်များစွာကို နှိုင်းယှဉ်ကြည့်ပြီးမှ ရှင်းလင်းလာသော ဆက်စပ်မှု။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Poor Data-Recording Practice?",
+      titleMy: "စီစစ်ကြမည် - ကောင်းသော (သို့) ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Good Data-Recording Practice",
+          "Poor Data-Recording Practice",
+        ],
+        bucketsMy: [
+          "ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          "ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "s1sci-w35-sort-1",
+            labelEn:
+                "Repeating each measurement three times and averaging the results.",
+            labelMy: "တိုင်းတာချက်တစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ တိုင်းတာပြီး ရလဒ်များကို ပျမ်းမျှတွက်ချက်ခြင်း။",
+            correctBucketEn: "Good Data-Recording Practice",
+            correctBucketMy: "ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-2",
+            labelEn: "Taking only one measurement and trusting it completely.",
+            labelMy: "တိုင်းတာချက်တစ်ခုတည်းသာ ယူပြီး ၎င်းကို လုံးလုံးယုံကြည်ခြင်း။",
+            correctBucketEn: "Poor Data-Recording Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-3",
+            labelEn: "Labelling both axes of a graph with their units.",
+            labelMy: "ဂရပ်၏ ဝင်ရိုးမျဉ်းနှစ်ခုစလုံးတွင် ၎င်းတို့၏ယူနစ်ဖြင့် အညွှန်းတပ်ခြင်း။",
+            correctBucketEn: "Good Data-Recording Practice",
+            correctBucketMy: "ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-4",
+            labelEn: "Drawing a graph with no axis labels at all.",
+            labelMy: "ဝင်ရိုးမျဉ်းအညွှန်း လုံးဝမပါဘဲ ဂရပ်ဆွဲခြင်း။",
+            correctBucketEn: "Poor Data-Recording Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-5",
+            labelEn:
+                "Recording an anomalous result honestly, then deciding whether to repeat that trial.",
+            labelMy:
+                "ပုံမှန်မဟုတ်သောရလဒ်တစ်ခုကို ရိုးသားစွာ မှတ်တမ်းတင်ပြီး ထိုစမ်းသပ်မှုကို ထပ်ပြန်လုပ်ရမလားဆုံးဖြတ်ခြင်း။",
+            correctBucketEn: "Good Data-Recording Practice",
+            correctBucketMy: "ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-6",
+            labelEn:
+                "Quietly changing a result to match what was expected instead of what was measured.",
+            labelMy:
+                "တိုင်းတာခဲ့သောရလဒ်အစား မျှော်လင့်ထားသောရလဒ်နှင့် ကိုက်ညီအောင် တိတ်တဆိတ် ပြောင်းလဲပြင်ဆင်ခြင်း။",
+            correctBucketEn: "Poor Data-Recording Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-7",
+            labelEn: "Using a ruler correctly and reading it at eye level.",
+            labelMy: "ပေတံကို မှန်ကန်စွာ အသုံးပြု၍ မျက်လုံးအမြင့်တွင် ဖတ်ခြင်း။",
+            correctBucketEn: "Good Data-Recording Practice",
+            correctBucketMy: "ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+          SortingItem(
+            id: "s1sci-w35-sort-8",
+            labelEn: "Rounding each measurement differently with no consistent method.",
+            labelMy: "တစ်သမတ်တည်းမရှိသော နည်းလမ်းဖြင့် တိုင်းတာချက်တစ်ခုစီကို ကွဲပြားစွာ ဆွေးလုံးခြင်း။",
+            correctBucketEn: "Poor Data-Recording Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aye Aye's Results Table",
+      titleMy: "စာဖတ်ခြင်း - အေးအေး၏ ရလဒ်ဇယား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye's Results Table",
+        titleMy: "အေးအေး၏ ရလဒ်ဇယား",
+        passageEn:
+            "For the Founders' Day Science Fair, Aye Aye finally ran the sugar-dissolving investigation she had planned back in Week 34: does water temperature affect how quickly a sugar cube dissolves? She set up three cups -- cold, warm, and hot water -- keeping the amount of water, the sugar cube's size, and her stirring identical in every cup, and repeated each temperature three times.\n\nSitting down with her notebook, Aye Aye drew a data table with a row for each temperature and a column for each repeat reading. Her warm-water readings were 118 seconds, 121 seconds, and 55 seconds. The 55-second reading stood out immediately -- it didn't fit the close pattern of the other two at all. Aye Aye guessed she must have stirred that cup harder by accident, so she marked it anomalous, left it out, and averaged only 118 and 121 seconds to about 120 seconds.\n\nWith a clean average for each temperature -- cold water slowest, hot water fastest, warm water in between -- Aye Aye drew a line graph, plotting water temperature along the horizontal axis and dissolving time along the vertical axis, exactly the way Week 34's independent and dependent variables were supposed to be arranged. The line sloped clearly downward: as temperature rose, dissolving time fell.\n\nAye Aye's conclusion connected straight back to Week 2's particle model: hotter water means faster-moving particles, and faster-moving water particles collide with the sugar cube's surface more often and more forcefully, breaking it apart and spreading its particles through the water more quickly. Looking at her clean data table and clear graph, Aye Aye thought back to her old Week 13 garden investigation, ticking boxes on a simple checklist -- and realised just how far her scientific skills had come since then.",
+        passageMy:
+            "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲအတွက် အေးအေးသည် Week 34 ကတည်းက စီစဉ်ထားခဲ့သော သကြားအရည်ပျော်ခြင်း စမ်းသပ်မှုကို နောက်ဆုံး ပြုလုပ်ခဲ့သည် - ရေအပူချိန်သည် သကြားတုံးတစ်ခု မည်မျှမြန်ဆန်စွာ အရည်ပျော်မည်ကို သက်ရောက်မှုရှိမလား။ သူသည် ဖန်ခွက်သုံးခု -- အေးသောရေ၊ နွေးသောရေနှင့် ပူသောရေ -- ကို ပြင်ဆင်ခဲ့ပြီး ဖန်ခွက်တိုင်းတွင် ရေပမာဏ၊ သကြားတုံး၏ အရွယ်အစားနှင့် ၎င်း၏ လှော်ခြင်းကို တူညီအောင်ထားကာ အပူချိန်တစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ စမ်းသပ်ခဲ့သည်။\n\nသူ့မှတ်စုစာအုပ်ဖြင့် ထိုင်ပြီး အေးအေးသည် အပူချိန်တစ်ခုစီအတွက် အတန်းတစ်ခုနှင့် ထပ်ခါထပ်ခါတိုင်းတာချက်တစ်ခုစီအတွက် တိုင်တစ်ခုပါသော အချက်အလက်ဇယားတစ်ခု ဆွဲခဲ့သည်။ သူ့နွေးသောရေတိုင်းတာချက်များမှာ စက္ကန့် 118၊ စက္ကန့် 121 နှင့် စက္ကန့် 55 ဖြစ်ခဲ့သည်။ စက္ကန့် 55 တိုင်းတာချက်သည် ချက်ချင်းပင် ထူးထူးခြားခြား ပေါ်လွင်နေခဲ့သည် -- ၎င်းသည် အခြားနှစ်ခု၏ အနီးကပ်ပုံစံနှင့် လုံးဝ မကိုက်ညီခဲ့ပါ။ ထိုဖန်ခွက်ကို မတော်တဆ ပို၍ပြင်းထန်စွာ လှော်မိခဲ့သည်ဟု အေးအေး ခန့်မှန်းခဲ့ပြီး ၎င်းကို ပုံမှန်မဟုတ်သောရလဒ်အဖြစ် အမှတ်အသားပြုကာ ချန်ထားခဲ့ကာ 118 နှင့် 121 ကိုသာ ပျမ်းမျှ 120 ခန့် တွက်ချက်ခဲ့သည်။\n\nအပူချိန်တစ်ခုစီအတွက် သန့်ရှင်းသောပျမ်းမျှတန်ဖိုးဖြင့် -- အေးသောရေ အနှေးဆုံး၊ ပူသောရေ အမြန်ဆုံး၊ နွေးသောရေ အလယ်အလတ် -- အေးအေးသည် မျဉ်းဂရပ်တစ်ခုကို ဆွဲခဲ့ပြီး Week 34 ၏ လွတ်လပ်ကိန်းရှင်နှင့် မှီခိုကိန်းရှင်တို့ကို စီစဉ်ရမည့်အတိုင်းပင် ရေအပူချိန်ကို အလျားလိုက်ဝင်ရိုးမျဉ်းတွင်၊ အရည်ပျော်ချိန်ကို ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ကျ ရေးချယ်ခဲ့သည်။ မျဉ်းသည် ရှင်းလင်းစွာ အောက်သို့ စောင်းကျခဲ့သည် - အပူချိန်မြင့်လာလေ၊ အရည်ပျော်ချိန် လျော့ကျလာလေဖြစ်သည်။\n\nအေးအေး၏ ကောက်ချက်သည် Week 2 ၏ အနုမြူပုံစံသို့ တိုက်ရိုက် ဆက်စပ်ခဲ့သည် - ရေပူလေ အနုမြူများ ပိုမြန်ဆန်စွာ ရွေ့လျားလေဖြစ်ပြီး ပိုမြန်ဆန်စွာ ရွေ့လျားသော ရေအနုမြူများသည် သကြားတုံး၏ မျက်နှာပြင်ကို ပို၍မကြာခဏ၊ ပို၍ပြင်းထန်စွာ တိုက်ခိုက်ကာ ၎င်းကို ကွဲသွားစေပြီး ၎င်း၏ အနုမြူများကို ရေထဲသို့ ပို၍မြန်ဆန်စွာ ပျံ့နှံ့စေသည်။ သူ့ သန့်ရှင်းသော အချက်အလက်ဇယားနှင့် ရှင်းလင်းသောဂရပ်ကို ကြည့်ရင်း အေးအေးသည် Week 13 ရှိ သူ့ ရှေးဟောင်း ဥယျာဉ်စူးစမ်းလေ့လာမှု၊ ရိုးရှင်းသော စစ်ဆေးရေးစာရင်းတွင် အကွက်များ အမှန်ခြစ်နေခဲ့ခြင်းကို ပြန်တွေးမိပြီး ထိုအချိန်ကတည်းက သူ့ သိပ္ပံနည်းကျ ကျွမ်းကျင်မှုများ မည်မျှ ကြီးထွားလာခဲ့ကြောင်း သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what did Aye Aye keep identical in every cup of her investigation?",
+            questionMy:
+                "ပထမစာပိုဒ်အရ အေးအေးသည် သူ့စမ်းသပ်မှု၏ ဖန်ခွက်တိုင်းတွင် အဘယ်ကို တူညီအောင် ထားခဲ့သနည်း။",
+            optionsEn: [
+              "The amount of water, the sugar cube's size, and her stirring.",
+              "The colour of each cup.",
+              "The time of day she ran each trial.",
+              "Nothing was kept the same at all.",
+            ],
+            optionsMy: [
+              "ရေပမာဏ၊ သကြားတုံး၏ အရွယ်အစားနှင့် ၎င်း၏ လှော်ခြင်း။",
+              "ဖန်ခွက်တစ်ခုစီ၏ အရောင်။",
+              "စမ်းသပ်မှုတစ်ခုစီ ပြုလုပ်သောနေ့ချိန်။",
+              "မည်သည့်အရာမျှ တူညီအောင် မထားခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph, which lists these control variables directly.",
+              "This is the same fair-test principle Kaung used with his trolley in Week 34.",
+            ],
+            hintsMy: [
+              "ဤထိန်းချုပ်ကိန်းရှင်များကို တိုက်ရိုက် စာရင်းပြုစုထားသော ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 34 တွင် ကောင်း သူ့လှည်းငယ်နှင့် အသုံးပြုခဲ့သော တရားမျှတသောစမ်းသပ်မှု အခြေခံမူတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Aye Aye leave the 55-second reading out of her warm-water average, according to the second paragraph?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ အေးအေးသည် သူ့ နွေးသောရေပျမ်းမျှမှ စက္ကန့် 55 တိုင်းတာချက်ကို အဘယ့်ကြောင့် ချန်ထားခဲ့သနည်း။",
+            optionsEn: [
+              "It didn't fit the close pattern of the other two readings, likely because she stirred that cup harder by accident.",
+              "She simply lost that piece of paper.",
+              "It was the largest of the three readings.",
+              "She always removes the last reading of any trial, no matter what.",
+            ],
+            optionsMy: [
+              "၎င်းသည် အခြားတိုင်းတာချက်နှစ်ခု၏ အနီးကပ်ပုံစံနှင့် မကိုက်ညီခဲ့ပြီး ထိုဖန်ခွက်ကို မတော်တဆ ပို၍ပြင်းထန်စွာ လှော်မိခဲ့ခြင်းကြောင့် ဖြစ်နိုင်ဆုံးဖြစ်သည်။",
+              "ထိုစာရွက်ကို ရိုးရိုးပျောက်သွားခဲ့ခြင်းသာ ဖြစ်သည်။",
+              "၎င်းသည် တိုင်းတာချက်သုံးခုအနက် အကြီးဆုံးဖြစ်ခဲ့သည်။",
+              "မည်သည့်အခြေအနေမဆို သူသည် စမ်းသပ်မှုတိုင်း၏ နောက်ဆုံးတိုင်းတာချက်ကို အမြဲ ဖယ်ရှားလေ့ရှိသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which explains this directly.",
+              "This is the same anomalous-result reasoning practised in Day 1's third question.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ တတိယမေးခွန်းတွင် လေ့ကျင့်ခဲ့သော ပုံမှန်မဟုတ်သောရလဒ် ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the third paragraph, which variable did Aye Aye plot on the horizontal axis of her graph?",
+            questionMy:
+                "တတိယစာပိုဒ်အရ အေးအေးသည် သူ့ဂရပ်၏ အလျားလိုက်ဝင်ရိုးမျဉ်းတွင် မည်သည့်ကိန်းရှင်ကို ရေးချယ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Water temperature, her independent variable.",
+              "Dissolving time, her dependent variable.",
+              "The colour of the sugar cube.",
+              "She did not draw a graph at all.",
+            ],
+            optionsMy: [
+              "ရေအပူချိန်၊ သူ၏ လွတ်လပ်ကိန်းရှင်။",
+              "အရည်ပျော်ချိန်၊ သူ၏ မှီခိုကိန်းရှင်။",
+              "သကြားတုံး၏ အရောင်။",
+              "သူ ဂရပ်ဘယ်တော့မှ မဆွဲခဲ့ပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which names both axes directly.",
+              "This is the same axis-arrangement idea from Day 1's fourth question.",
+            ],
+            hintsMy: [
+              "ဝင်ရိုးမျဉ်းနှစ်ခုစလုံးကို တိုက်ရိုက် အမည်တွင်ထားသော တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ပထမနေ့ စတုတ္ထမေးခွန်းမှ ဝင်ရိုးမျဉ်းစီစဉ်ခြင်း အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Aye Aye's conclusion connect back to Week 2's particle model?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ အေးအေး၏ ကောက်ချက်သည် Week 2 ၏ အနုမြူပုံစံသို့ မည်ကဲ့သို့ ဆက်စပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Hotter water's faster-moving particles collide with the sugar cube more often and more forcefully, dissolving it faster.",
+              "Particles have nothing to do with dissolving at all.",
+              "Cold water particles move faster than hot water particles.",
+              "The sugar cube's particles stop moving completely once dissolved.",
+            ],
+            optionsMy: [
+              "ရေပူ၏ ပိုမြန်ဆန်စွာ ရွေ့လျားသော အနုမြူများသည် သကြားတုံးကို ပို၍မကြာခဏ၊ ပို၍ပြင်းထန်စွာ တိုက်ခိုက်ကာ ပို၍မြန်ဆန်စွာ အရည်ပျော်စေသည်။",
+              "အနုမြူများသည် အရည်ပျော်ခြင်းနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+              "ရေအေး၏ အနုမြူများသည် ရေပူ၏ အနုမြူများထက် ပိုမြန်စွာ ရွေ့လျားသည်။",
+              "သကြားတုံး၏ အနုမြူများသည် အရည်ပျော်ပြီးသည်နှင့် လုံးဝ ရွေ့လျားခြင်း ရပ်တန့်သွားသည်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which explains this connection directly.",
+              "This is the same particle-model reasoning explored back in Day 1's fourth question of Week 34.",
+            ],
+            hintsMy: [
+              "ဤဆက်စပ်မှုကို တိုက်ရိုက် ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 34 ၏ ပထမနေ့ စတုတ္ထမေးခွန်းတွင် လေ့လာခဲ့သော အနုမြူပုံစံ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Recording and Presenting Data",
+      titleMy: "အပတ်စဉ် ၃၅ ပြန်လည်သုံးသပ်ခြင်း - အချက်အလက်များ မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why do scientists repeat readings and calculate an average?",
+          questionMy: "သိပ္ပံပညာရှင်များသည် တိုင်းတာချက်များကို အဘယ့်ကြောင့် ထပ်ခါထပ်ခါလုပ်ပြီး ပျမ်းမျှတွက်ချက်ကြသနည်း။",
+          optionsEn: [
+            "To reduce the effect of mistakes or anomalous results and get a more reliable value",
+            "To make the experiment take as long as possible",
+            "Because only the first reading ever matters",
+            "There is no real reason at all",
+          ],
+          optionsMy: [
+            "အမှားများ (သို့) ပုံမှန်မဟုတ်သောရလဒ်များ၏ သက်ရောက်မှုကို လျှော့ချကာ ပို၍ယုံကြည်ရသောတန်ဖိုးတစ်ခု ရရှိစေရန်",
+            "စမ်းသပ်မှုကို တတ်နိုင်သမျှ ကြာမြင့်စေရန်",
+            "ပထမတိုင်းတာချက်တစ်ခုတည်းကသာ အရေးကြီးသောကြောင့်",
+            "အမှန်တကယ် အကြောင်းရင်း မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question and Kaung's own 61 cm anomalous result from Week 34.",
+            "Recall Aye Aye's own 55-second reading -- averaging the other two gave her a far more trustworthy value.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ ပထမမေးခွန်းနှင့် Week 34 မှ ကောင်း၏ ကိုယ်ပိုင် 61 cm ပုံမှန်မဟုတ်သောရလဒ်ကို သတိရပါ။",
+            "အေးအေး၏ ကိုယ်ပိုင် 55 စက္ကန့် တိုင်းတာချက်ကို သတိရပါ -- အခြားနှစ်ခုကို ပျမ်းမျှတွက်ချက်ခြင်းက ပို၍ယုံကြည်ရသောတန်ဖိုးကို ပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "On a graph, which variable usually goes on the horizontal axis?",
+          questionMy: "ဂရပ်တစ်ခုပေါ်တွင် မည်သည့်ကိန်းရှင်သည် ပုံမှန်အားဖြင့် အလျားလိုက်ဝင်ရိုးမျဉ်းတွင် ရှိလေ့ရှိသနည်း။",
+          optionsEn: [
+            "The independent variable",
+            "The dependent variable",
+            "Neither variable ever appears on a graph",
+            "Both variables share the exact same axis",
+          ],
+          optionsMy: [
+            "လွတ်လပ်ကိန်းရှင်",
+            "မှီခိုကိန်းရှင်",
+            "ကိန်းရှင်တစ်ခုမျှ ဂရပ်ပေါ်တွင် ဘယ်တော့မှ မပေါ်ပါ",
+            "ကိန်းရှင်နှစ်ခုစလုံးသည် ဝင်ရိုးမျဉ်းတစ်ခုတည်းကို မျှဝေအသုံးပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and Aye Aye's own graph of Kaung's results.",
+            "The dependent variable, which changes as a result, goes on the vertical axis instead.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ စတုတ္ထမေးခွန်းနှင့် အေးအေး၏ ကောင်း ရလဒ်များကို ဂရပ်ဆွဲခဲ့ခြင်းကို သတိရပါ။",
+            "ရလဒ်အနေဖြင့် ပြောင်းလဲသော မှီခိုကိန်းရှင်ကမူ ဒေါင်လိုက်ဝင်ရိုးမျဉ်းတွင် ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is good data-recording practice?",
+          questionMy: "အောက်ပါတို့အနက် ကောင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်းလေ့ကျင့်ခန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Recording an anomalous result honestly, then deciding whether to repeat it",
+            "Quietly changing a result to match what was expected",
+            "Taking only one measurement and trusting it completely",
+            "Rounding every measurement differently, with no consistent method",
+          ],
+          optionsMy: [
+            "ပုံမှန်မဟုတ်သောရလဒ်တစ်ခုကို ရိုးသားစွာ မှတ်တမ်းတင်ပြီး ၎င်းကို ထပ်ပြန်လုပ်ရမလားဆုံးဖြတ်ခြင်း",
+            "တိုင်းတာခဲ့သောရလဒ်အစား မျှော်လင့်ထားသောရလဒ်နှင့် ကိုက်ညီအောင် တိတ်တဆိတ် ပြောင်းလဲခြင်း",
+            "တိုင်းတာချက်တစ်ခုတည်းသာ ယူပြီး ၎င်းကို လုံးလုံးယုံကြည်ခြင်း",
+            "တစ်သမတ်တည်းမရှိသော နည်းလမ်းဖြင့် တိုင်းတာချက်တိုင်းကို ကွဲပြားစွာ ဆွေးလုံးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 3's sorting activity.",
+            "Honesty about anomalous results, not hiding them, is what makes data trustworthy.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ။",
+            "ပုံမှန်မဟုတ်သောရလဒ်များကို ဖျောက်ဖျက်ခြင်းမဟုတ်ဘဲ ၎င်းတို့အကြောင်း ရိုးသားခြင်းသည် အချက်အလက်ကို ယုံကြည်ရစေသည့်အရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What did Aye Aye's conclusion connect Week 34's fair test to?",
+          questionMy: "အေးအေး၏ ကောက်ချက်သည် Week 34 ၏ တရားမျှတသောစမ်းသပ်မှုကို အဘယ်နှင့် ဆက်စပ်ပေးခဲ့သနည်း။",
+          optionsEn: [
+            "Week 2's particle model -- hotter water's faster particles dissolve sugar more quickly",
+            "Week 27's rock cycle",
+            "Week 12's electromagnet",
+            "Nothing at all -- her conclusion stood completely alone",
+          ],
+          optionsMy: [
+            "Week 2 ၏ အနုမြူပုံစံ -- ရေပူ၏ ပိုမြန်ဆန်သော အနုမြူများသည် သကြားကို ပို၍မြန်ဆန်စွာ အရည်ပျော်စေသည်",
+            "Week 27 ၏ ကျောက်စက်ဝန်း",
+            "Week 12 ၏ လျှပ်စစ်သံလိုက်",
+            "မည်သည့်အရာမျှ မဟုတ်ပါ -- သူ့ ကောက်ချက်သည် လုံးဝ တစ်ခုတည်း ရပ်တည်နေခဲ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage's final paragraph and Day 1's fourth question.",
+            "Recall Week 34's own particle-model reasoning behind Aye Aye's hypothesis.",
+          ],
+          hintsMy: [
+            "စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်နှင့် ပထမနေ့ စတုတ္ထမေးခွန်းကို သတိရပါ။",
+            "Week 34 တွင် အေးအေး၏ ယူဆချက်နောက်ကွယ်ရှိ အနုမြူပုံစံ ယုတ္တိကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this whole week, why does honest, careful data recording matter more than just getting the answer a scientist expects?",
+          questionMy:
+              "ဤအပတ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် ရိုးသား၊ ဂရုတစိုက် အချက်အလက်မှတ်တမ်းတင်ခြင်းသည် သိပ္ပံပညာရှင်တစ်ဦး မျှော်လင့်ထားသောအဖြေကို ရရှိရုံထက် အဘယ့်ကြောင့် ပို၍ အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Because science depends on trustworthy evidence -- changing results to fit expectations would make the whole conclusion, and every hypothesis it's meant to test, unreliable.",
+            "It doesn't matter at all, as long as the final answer looks correct.",
+            "Careful recording is only needed if the experiment goes wrong.",
+            "Honesty only matters at a science fair, never in real research.",
+          ],
+          optionsMy: [
+            "အကြောင်းမှာ သိပ္ပံသည် ယုံကြည်ရသော သက်သေအထောက်အထားများအပေါ် မှီခိုနေသောကြောင့် ဖြစ်သည် -- မျှော်လင့်ချက်နှင့် ကိုက်ညီအောင် ရလဒ်များကို ပြောင်းလဲခြင်းက ကောက်ချက်တစ်ခုလုံးနှင့် ၎င်းစမ်းသပ်ရန်ရည်ရွယ်သော ယူဆချက်တိုင်းကို မယုံကြည်ရအောင် ပြုလုပ်လိမ့်မည်။",
+            "နောက်ဆုံးအဖြေသည် မှန်ကန်သည်ဟု ထင်ရသလောက် မည်သို့ပင်ဖြစ်စေ အရေးမကြီးပါ။",
+            "စမ်းသပ်မှု မှားယွင်းမှသာ ဂရုတစိုက် မှတ်တမ်းတင်ရန် လိုအပ်သည်။",
+            "ရိုးသားမှုသည် သိပ္ပံပြပွဲတွင်သာ အရေးကြီးပြီး စစ်မှန်သော သုတေသနတွင် ဘယ်တော့မှ အရေးမကြီးပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 3's sorting activity and Aye Aye's own honest handling of her anomalous 55-second reading.",
+            "This is exactly why next week's Founders' Day Science Fair puts hypotheses, fair tests and honest data all together in one final project.",
+          ],
+          hintsMy: [
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းနှင့် အေးအေး၏ ကိုယ်ပိုင် 55 စက္ကန့် ပုံမှန်မဟုတ်သောရလဒ်ကို ရိုးသားစွာ ကိုင်တွယ်ခဲ့ပုံကို သတိရပါ။",
+            "ဤအကြောင်းကြောင့်ပင် နောက်ပတ်၏ တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲသည် ယူဆချက်များ၊ တရားမျှတသောစမ်းသပ်မှုများနှင့် ရိုးသားသောအချက်အလက်များအားလုံးကို နောက်ဆုံးစီမံကိန်းတစ်ခုတည်းတွင် ပေါင်းစပ်ပေးမည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Science -- Term 9, Week 36: "The Founders' Day Science
+// Fair" -- Capstone
+// =====================================================================
+
+const CourseWeekDef _secondary1ScienceWeek36 = CourseWeekDef(
+  id: "course-secondary1-science-w36",
+  weekNumber: 36,
+  titleEn: "The Founders' Day Science Fair",
+  titleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-science-w36-d1",
+      dayNumber: 1,
+      titleEn: "The Founders' Day Science Fair Quiz",
+      titleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At Su Su's booth, visitors see two tomato seedlings, one that received full sunlight and one that received shade, next to a hypothesis card reading: 'If a seedling receives more sunlight, then it will grow taller, because plants use light to photosynthesise.' Which variable is Su Su's independent variable?",
+          questionMy:
+              "စုစု၏ ဆိုင်ခန်းတွင် လာလည်သူများသည် ခရမ်းချဉ်သီးအပင်ငယ်နှစ်ပင်ကို တွေ့ရသည်၊ တစ်ပင်သည် နေရောင်ခြည်အပြည့်ရရှိပြီး တစ်ပင်ကမူ အရိပ်ရရှိသည်၊ ၎င်းတို့အနီးတွင် ယူဆချက်ကတ်တစ်ခုတွင် - 'အပင်ငယ်တစ်ပင်သည် ပိုမိုများပြားသော နေရောင်ခြည်ကို ရရှိပါက ပိုမြင့်စွာ ကြီးထွားလိမ့်မည်၊ အကြောင်းမှာ အပင်များသည် အလင်းကို အသုံးပြု၍ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ကြောင်းဖြစ်သည်' ဟု ရေးထားသည်။ စုစု၏ လွတ်လပ်ကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The amount of sunlight each seedling receives.",
+            "The height each seedling grows.",
+            "The amount of water given to each seedling.",
+            "The colour of each seedling's pot.",
+          ],
+          optionsMy: [
+            "အပင်ငယ်တစ်ပင်စီ ရရှိသော နေရောင်ခြည်ပမာဏ။",
+            "အပင်ငယ်တစ်ပင်စီ ကြီးထွားသော အမြင့်။",
+            "အပင်ငယ်တစ်ပင်စီကို ပေးသော ရေပမာဏ။",
+            "အပင်ငယ်တစ်ပင်စီ၏ အိုး၏ အရောင်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's hypothesis and Week 1's original investigation -- sunlight is what Su Su deliberately changes between the two seedlings.",
+            "The height grown is the dependent variable -- it's measured as the result, not changed on purpose.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ ယူဆချက်နှင့် Week 1 ၏ မူလစမ်းသပ်မှုကို သတိရပါ -- နေရောင်ခြည်သည် စုစုက အပင်ငယ်နှစ်ပင်ကြား တမင်ပြောင်းလဲသောအရာ ဖြစ်သည်။",
+            "ကြီးထွားသောအမြင့်သည် မှီခိုကိန်းရှင်ဖြစ်ပြီး ရလဒ်အနေဖြင့် တိုင်းတာသောအရာဖြစ်ကာ တမင်ပြောင်းလဲသောအရာ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At Kaung's booth, a graph shows the trolley's distance increasing as more force is applied, built from three repeated trials at each force setting. What did repeating each trial three times let Kaung do?",
+          questionMy:
+              "ကောင်း၏ ဆိုင်ခန်းတွင် အားသတ်မှတ်ချက်တစ်ခုစီအတွက် သုံးကြိမ်စီ ထပ်ခါထပ်ခါစမ်းသပ်ချက်များမှ တည်ဆောက်ထားသော ဂရပ်တစ်ခုက အားပိုသက်ရောက်လာလေ၊ လှည်းငယ်၏ အကွာအဝေး ပိုများလာလေဖြစ်ကြောင်း ပြသနေသည်။ စမ်းသပ်မှုတစ်ခုစီကို သုံးကြိမ် ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းက ကောင်းကို အဘယ်ကို ပြုလုပ်နိုင်စေခဲ့သနည်း။",
+          optionsEn: [
+            "Calculate a more reliable average distance for each force, reducing the effect of any one anomalous reading.",
+            "Nothing useful -- repeating trials made no real difference.",
+            "Make his test less fair.",
+            "Replace the need for a hypothesis altogether.",
+          ],
+          optionsMy: [
+            "ပုံမှန်မဟုတ်သော တိုင်းတာချက်တစ်ခု၏ သက်ရောက်မှုကို လျှော့ချကာ အားတစ်ခုစီအတွက် ပို၍ယုံကြည်ရသော ပျမ်းမျှအကွာအဝေးကို တွက်ချက်ခြင်း။",
+            "အသုံးဝင်သောအရာ မရှိပါ -- ထပ်ခါထပ်ခါစမ်းသပ်ခြင်းက အမှန်တကယ် ကွာခြားစေခြင်း မရှိပါ။",
+            "သူ့စမ်းသပ်မှုကို ပို၍ မတရားစေသည်။",
+            "ယူဆချက်တစ်ခု လိုအပ်ခြင်းကို လုံးလုံးအစားထိုးသည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's trolley investigation and Week 35's discussion of averaging repeat readings.",
+            "Kaung's own 61 cm anomalous result at 4 N is the exact reason repeating trials matters.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ လှည်းငယ်စမ်းသပ်မှုနှင့် Week 35 ၏ ထပ်ခါထပ်ခါတိုင်းတာချက်များ ပျမ်းမျှတွက်ချက်ခြင်းအကြောင်း ဆွေးနွေးချက်ကို သတိရပါ။",
+            "4 N ရှိ ကောင်း၏ ကိုယ်ပိုင် 61 cm ပုံမှန်မဟုတ်သောရလဒ်သည် ထပ်ခါထပ်ခါစမ်းသပ်ခြင်း အရေးကြီးရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At Aye Aye's booth, a table shows sugar dissolving fastest in hot water and slowest in cold water. Which variable did Aye Aye keep the same -- a control variable -- across all three cups?",
+          questionMy:
+              "အေးအေး၏ ဆိုင်ခန်းတွင် ဇယားတစ်ခုက သကြားသည် ရေပူထဲတွင် အမြန်ဆုံးအရည်ပျော်ပြီး ရေအေးထဲတွင် အနှေးဆုံး အရည်ပျော်ကြောင်း ပြသနေသည်။ ဖန်ခွက်သုံးခုစလုံးတွင် အေးအေး မည်သည့်ကိန်းရှင် -- ထိန်းချုပ်ကိန်းရှင် -- ကို တူညီအောင် ထားခဲ့သနည်း။",
+          optionsEn: [
+            "The amount of water and the size of the sugar cube in every cup.",
+            "The temperature of the water.",
+            "The dissolving time.",
+            "Nothing was kept the same across the cups.",
+          ],
+          optionsMy: [
+            "ဖန်ခွက်တိုင်းရှိ ရေပမာဏနှင့် သကြားတုံး၏ အရွယ်အစား။",
+            "ရေ၏ အပူချိန်။",
+            "အရည်ပျော်ချိန်။",
+            "ဖန်ခွက်များတစ်လျှောက် မည်သည့်အရာမျှ တူညီအောင် မထားခဲ့ပါ။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Weeks 34 and 35's own control variables for Aye Aye's investigation.",
+            "Temperature is her independent variable, and dissolving time is her dependent variable -- neither one is a control variable.",
+          ],
+          hintsMy: [
+            "Week 34 နှင့် Week 35 တို့မှ အေးအေး၏ စမ်းသပ်မှု ကိုယ်ပိုင် ထိန်းချုပ်ကိန်းရှင်များကို သတိရပါ။",
+            "အပူချိန်သည် သူ၏ လွတ်လပ်ကိန်းရှင်ဖြစ်ပြီး အရည်ပျော်ချိန်သည် သူ၏ မှီခိုကိန်းရှင်ဖြစ်သည် -- နှစ်ခုစလုံးသည် ထိန်းချုပ်ကိန်းရှင် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At Thiha's booth, visitors have their pulse measured before and after one minute of star jumps, tying together Week 16's respiration and Week 30's muscle contraction. Which variable is Thiha's dependent variable?",
+          questionMy:
+              "သီဟ၏ ဆိုင်ခန်းတွင် လာလည်သူများသည် ကြယ်ခုန်ခြင်း တစ်မိနစ် မပြုလုပ်မီနှင့် ပြုလုပ်ပြီးနောက် ၎င်းတို့၏ နှလုံးခုန်နှုန်းကို တိုင်းတာခံရသည်၊ Week 16 ၏ အသက်ရှုမှုနှင့် Week 30 ၏ ကြွက်သားကျုံ့ခြင်းတို့ကို ချိတ်ဆက်ထားသည်။ သီဟ၏ မှီခိုကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The visitor's heart rate (pulse), measured before and after exercise.",
+            "The one minute of star jumps itself.",
+            "The visitor's height.",
+            "The time of day the visitor arrives at the booth.",
+          ],
+          optionsMy: [
+            "လာလည်သူ၏ နှလုံးခုန်နှုန်း (pulse) ကို ကိုယ်လက်လှုပ်ရှားမှုမပြုမီနှင့် ပြုလုပ်ပြီးနောက် တိုင်းတာသည်။",
+            "ကြယ်ခုန်ခြင်း တစ်မိနစ်ကိုယ်တိုင်။",
+            "လာလည်သူ၏ အရပ်အမြင့်။",
+            "လာလည်သူ ဆိုင်ခန်းသို့ ရောက်ရှိသောနေ့ချိန်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's dependent variable definition -- it's what is measured as a result, not what a scientist changes on purpose.",
+            "Whether a visitor does the star jumps is what Thiha changes; heart rate is what changes because of that, exactly like Su Su's sprint from Week 30's own reading passage.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ မှီခိုကိန်းရှင် အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို သတိရပါ -- ၎င်းသည် သိပ္ပံပညာရှင်က တမင်ပြောင်းလဲသောအရာမဟုတ်ဘဲ ရလဒ်အနေဖြင့် တိုင်းတာသောအရာ ဖြစ်သည်။",
+            "ကြယ်ခုန်ခြင်း ပြုလုပ်ခြင်း (သို့) မပြုလုပ်ခြင်းသည် သီဟ ပြောင်းလဲသောအရာဖြစ်ပြီး နှလုံးခုန်နှုန်းသည် ထိုပြောင်းလဲမှုကြောင့် ပြောင်းလဲသောအရာဖြစ်ကာ Week 30 ၏ ကိုယ်ပိုင်စာဖတ်ခန်းမှ စုစု၏ ပြေးလွှားမှုနှင့်ပင် အတိအကျ တူညီသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match the Fair's Booths",
+      titleMy: "ပြပွဲ၏ ဆိုင်ခန်းများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1sci-w36-dm-1",
+          termEn: "Su Su's Booth",
+          termMy: "စုစု၏ ဆိုင်ခန်း",
+          matchEn:
+              "Sunlight and tomato seedling height, spiralling back to Weeks 1 and 15.",
+          matchMy:
+              "နေရောင်ခြည်နှင့် ခရမ်းချဉ်သီးအပင်ငယ်၏ အမြင့်၊ Weeks 1 နှင့် 15 သို့ ပြန်လှည့်ဆက်စပ်ထားသည်။",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1sci-w36-dm-2",
+          termEn: "Kaung's Booth",
+          termMy: "ကောင်း၏ ဆိုင်ခန်း",
+          matchEn:
+              "Force and trolley distance, spiralling back to Weeks 3 and 34.",
+          matchMy: "အားနှင့် လှည်းငယ်၏ အကွာအဝေး၊ Weeks 3 နှင့် 34 သို့ ပြန်လှည့်ဆက်စပ်ထားသည်။",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1sci-w36-dm-3",
+          termEn: "Aye Aye's Booth",
+          termMy: "အေးအေး၏ ဆိုင်ခန်း",
+          matchEn:
+              "Water temperature and sugar-dissolving time, spiralling back to Week 2's particle model.",
+          matchMy:
+              "ရေအပူချိန်နှင့် သကြားအရည်ပျော်ချိန်၊ Week 2 ၏ အနုမြူပုံစံသို့ ပြန်လှည့်ဆက်စပ်ထားသည်။",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "s1sci-w36-dm-4",
+          termEn: "Thiha's Booth",
+          termMy: "သီဟ၏ ဆိုင်ခန်း",
+          matchEn:
+              "Exercise and heart rate, spiralling back to Weeks 16 and 30.",
+          matchMy: "ကိုယ်လက်လှုပ်ရှားမှုနှင့် နှလုံးခုန်နှုန်း၊ Weeks 16 နှင့် 30 သို့ ပြန်လှည့်ဆက်စပ်ထားသည်။",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1sci-w36-dm-5",
+          termEn: "Hypothesis",
+          termMy: "ယူဆချက် (Hypothesis)",
+          matchEn:
+              "A statement predicting a result and explaining the scientific reason for it, pinned above every booth at the fair.",
+          matchMy:
+              "ရလဒ်တစ်ခုကို ခန့်မှန်း၍ ၎င်း၏ သိပ္ပံနည်းကျအကြောင်းရင်းကိုပါ ရှင်းပြသော ဖော်ပြချက်ဖြစ်ပြီး ပြပွဲရှိ ဆိုင်ခန်းတိုင်းအပေါ်တွင် ကပ်ထားသည်။",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1sci-w36-dm-6",
+          termEn: "Fair Test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair Test)",
+          matchEn:
+              "An investigation where only the independent variable changes and every control variable stays the same, the standard every booth was judged against.",
+          matchMy:
+              "လွတ်လပ်ကိန်းရှင်တစ်ခုတည်းသာ ပြောင်းလဲပြီး ထိန်းချုပ်ကိန်းရှင်တိုင်း တူညီအောင်ထားသော စမ်းသပ်မှုဖြစ်ပြီး ဆိုင်ခန်းတိုင်းကို ဤစံနှုန်းဖြင့် တရားသူကြီးများက အမှတ်ပေးခဲ့ကြသည်။",
+          colorValue: 0xFF7271F7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Independent or Dependent Variable?",
+      titleMy: "စီစစ်ကြမည် - လွတ်လပ်ကိန်းရှင်လား၊ မှီခိုကိန်းရှင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Independent Variable", "Dependent Variable"],
+        bucketsMy: ["လွတ်လပ်ကိန်းရှင်", "မှီခိုကိန်းရှင်"],
+        items: [
+          SortingItem(
+            id: "s1sci-w36-sort-1",
+            labelEn: "The amount of sunlight Su Su's seedlings received",
+            labelMy: "စုစု၏ အပင်ငယ်များ ရရှိသော နေရောင်ခြည်ပမာဏ",
+            correctBucketEn: "Independent Variable",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-2",
+            labelEn: "The height Su Su's seedlings grew",
+            labelMy: "စုစု၏ အပင်ငယ်များ ကြီးထွားသော အမြင့်",
+            correctBucketEn: "Dependent Variable",
+            correctBucketMy: "မှီခိုကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-3",
+            labelEn: "The force Kaung applied to his trolley",
+            labelMy: "ကောင်း သူ့လှည်းငယ်အပေါ် သက်ရောက်စေသော အား",
+            correctBucketEn: "Independent Variable",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-4",
+            labelEn: "The distance Kaung's trolley travelled",
+            labelMy: "ကောင်း၏ လှည်းငယ် ခရီးသွားသော အကွာအဝေး",
+            correctBucketEn: "Dependent Variable",
+            correctBucketMy: "မှီခိုကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-5",
+            labelEn: "The temperature of Aye Aye's water",
+            labelMy: "အေးအေး၏ ရေ၏ အပူချိန်",
+            correctBucketEn: "Independent Variable",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-6",
+            labelEn: "The time Aye Aye's sugar cube took to dissolve",
+            labelMy: "အေးအေး၏ သကြားတုံး အရည်ပျော်ရန် ကြာချိန်",
+            correctBucketEn: "Dependent Variable",
+            correctBucketMy: "မှီခိုကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-7",
+            labelEn:
+                "Whether a visitor did the one minute of star jumps at Thiha's booth",
+            labelMy: "သီဟ၏ ဆိုင်ခန်းတွင် လာလည်သူတစ်ဦး ကြယ်ခုန်ခြင်း တစ်မိနစ် ပြုလုပ်မပြုလုပ်ဆိုသည်",
+            correctBucketEn: "Independent Variable",
+            correctBucketMy: "လွတ်လပ်ကိန်းရှင်",
+          ),
+          SortingItem(
+            id: "s1sci-w36-sort-8",
+            labelEn: "The heart rate Thiha measured afterward",
+            labelMy: "ပြီးနောက် သီဟ တိုင်းတာသော နှလုံးခုန်နှုန်း",
+            correctBucketEn: "Dependent Variable",
+            correctBucketMy: "မှီခိုကိန်းရှင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Founders' Day Science Fair",
+      titleMy: "စာဖတ်ခြင်း - တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Founders' Day Science Fair",
+        titleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
+        passageEn:
+            "The school gym had been transformed into the Founders' Day Science Fair, four booths arranged in a wide circle, each one topped with a hand-written hypothesis card. Judges moved from booth to booth with clipboards, scoring each project on its hypothesis, its fair test, its honest data, and its conclusion -- not on which topic in physics, chemistry, or biology it happened to cover.\n\nAt the first two booths, a visitor watched Su Su point to her two tomato seedlings, one tall and one short, explaining that sunlight was the only thing she had changed between them, while water and pot size had stayed identical the whole time. Right next to her, Kaung's graph curved upward across three force settings, each point an average of three repeated trials -- he proudly explained how one anomalous 61 cm reading had almost thrown off his whole conclusion, until repeating the trial caught it.\n\nFurther round, Aye Aye's table showed sugar dissolving in seconds across three water temperatures, hot water fastest of all, and she explained how she'd traced her result straight back to Week 2's particle model. At the final booth, the visitor rolled up a sleeve and let Thiha count their pulse for fifteen seconds before and after one minute of star jumps -- the number leapt upward, and Thiha explained it exactly the way Week 16's respiration and Week 30's muscles had taught him: exercising muscles need more energy, and a faster heartbeat delivers the extra oxygen respiration needs to release it.\n\nStanding in the middle of the gym at the end of the afternoon, the head judge announced that every single booth, however different its topic, had followed the exact same underlying method: ask a testable question, write a reasoned hypothesis, design a fair test with one changing variable and everything else controlled, record honest data even when it included an odd result, and draw a conclusion the evidence actually supported. Forces, particles, sunlight, and heartbeats were four completely different topics -- but scientific enquiry itself, the judge said, was the one skill underneath all of it, the same one this whole first year of science had been building toward since Week 1.",
+        passageMy:
+            "ကျောင်း၏ လေ့ကျင့်ခန်းခန်းမကြီးသည် တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲအဖြစ် ပြောင်းလဲသွားခဲ့ပြီး ဆိုင်ခန်းလေးခန်းကို စက်ဝိုင်းကျယ်ကျယ်ဖြင့် စီစဉ်ထားကာ တစ်ခုစီအပေါ်တွင် လက်ရေးဖြင့်ရေးထားသော ယူဆချက်ကတ်တစ်ခုစီ ကပ်ထားသည်။ တရားသူကြီးများသည် clipboard များကိုင်ကာ ဆိုင်ခန်းမှ ဆိုင်ခန်းသို့ ရွေ့လျားလျက် စီမံကိန်းတစ်ခုစီကို ၎င်း၏ ယူဆချက်၊ တရားမျှတသောစမ်းသပ်မှု၊ ရိုးသားသောအချက်အလက်နှင့် ကောက်ချက်တို့ဖြင့် -- ရူပဗေဒ၊ ဓာတုဗေဒ (သို့) ဇီဝဗေဒမှ မည်သည့်ခေါင်းစဉ်ဖြစ်သည်ကို မဟုတ်ဘဲ -- အမှတ်ပေးနေကြသည်။\n\nပထမဆိုင်ခန်းနှစ်ခုတွင် လာလည်သူတစ်ဦးက စုစုသည် ၎င်း၏ ခရမ်းချဉ်သီးအပင်ငယ်နှစ်ပင်၊ တစ်ပင်မြင့်ပြီး တစ်ပင်နိမ့်သည်ကို ညွှန်ပြလျက် နေရောင်ခြည်သာလျှင် ၎င်းတို့ကြား ပြောင်းလဲခဲ့သော တစ်ခုတည်းသောအရာဖြစ်ကြောင်း၊ ရေနှင့် အိုးအရွယ်အစားကမူ တစ်ချိန်လုံး တူညီနေခဲ့ကြောင်း ရှင်းပြနေသည်ကို စောင့်ကြည့်ခဲ့သည်။ သူမနံဘေးတွင် ကောင်း၏ ဂရပ်သည် အားသတ်မှတ်ချက်သုံးခုတစ်လျှောက် အပေါ်သို့ ကွေးတက်နေသည်၊ အမှတ်တစ်ခုစီသည် ထပ်ခါထပ်ခါစမ်းသပ်ချက်သုံးကြိမ်၏ ပျမ်းမျှတန်ဖိုးဖြစ်သည် -- သူသည် ပုံမှန်မဟုတ်သော 61 cm တိုင်းတာချက်တစ်ခုက သူ့ကောက်ချက်တစ်ခုလုံးကို လွဲမှားစေခါနီး ဖြစ်ခဲ့ကြောင်း၊ စမ်းသပ်မှုကို ထပ်ခါထပ်ခါလုပ်ခြင်းက ၎င်းကို ဖော်ထုတ်ပေးခဲ့ကြောင်း ဂုဏ်ယူစွာ ရှင်းပြခဲ့သည်။\n\nထပ်ဝိုင်းသို့ ဆက်လျှောက်သွားသောအခါ အေးအေး၏ ဇယားသည် ရေအပူချိန်သုံးမျိုးတစ်လျှောက် သကြားအရည်ပျော်ချိန်ကို စက္ကန့်ဖြင့် ပြသနေပြီး ရေပူသည် အားလုံးထက် အမြန်ဆုံးဖြစ်ကာ သူသည် သူ့ရလဒ်ကို Week 2 ၏ အနုမြူပုံစံသို့ တိုက်ရိုက် ပြန်ဆက်စပ်ပေးနိုင်ခဲ့ပုံကို ရှင်းပြခဲ့သည်။ နောက်ဆုံးဆိုင်ခန်းတွင် လာလည်သူသည် လက်ရှည်ကို လိမ်တင်ကာ ကြယ်ခုန်ခြင်း တစ်မိနစ် မပြုလုပ်မီနှင့် ပြုလုပ်ပြီးနောက် သီဟကို သူ့နှလုံးခုန်နှုန်းကို စက္ကန့် ၁၅ ကြာ ရေတွက်ခွင့်ပြုခဲ့သည် -- ဂဏန်းသည် အပေါ်သို့ ခုန်တက်သွားခဲ့ပြီး သီဟသည် Week 16 ၏ အသက်ရှုမှုနှင့် Week 30 ၏ ကြွက်သားများက သူ့ကို သင်ကြားပေးခဲ့သည့်အတိုင်းပင် ရှင်းပြခဲ့သည် - ကိုယ်လက်လှုပ်ရှားနေသော ကြွက်သားများသည် စွမ်းအင် ပိုမိုလိုအပ်ပြီး ပိုမြန်ဆန်သော နှလုံးခုန်ခြင်းက အသက်ရှုမှု ထိုစွမ်းအင်ကို ထုတ်ပေးရန် လိုအပ်သော အပိုအောက်စီဂျင်ကို ပေးပို့ပေးသည်။\n\nနေ့လယ်ခင်း အဆုံးတွင် လေ့ကျင့်ခန်းခန်းမ၏ အလယ်တွင် ရပ်နေစဉ် အကြီးအကဲ တရားသူကြီးက ဆိုင်ခန်းတိုင်းသည် ၎င်း၏ ခေါင်းစဉ် မည်မျှကွာခြားစေကာမူ အောက်ခံအတူတူသော နည်းလမ်းတစ်ခုတည်းကို လိုက်နာခဲ့ကြောင်း ကြေညာခဲ့သည် - စမ်းသပ်နိုင်သောမေးခွန်းတစ်ခု မေးခြင်း၊ ယုတ္တိရှိသောယူဆချက်တစ်ခု ရေးသားခြင်း၊ ကိန်းရှင်တစ်ခုတည်း ပြောင်းလဲပြီး အခြားအားလုံး ထိန်းချုပ်ထားသော တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း၊ ထူးဆန်းသောရလဒ်တစ်ခု ပါဝင်ခဲ့လင့်ကစား ရိုးသားသောအချက်အလက်ကို မှတ်တမ်းတင်ခြင်းနှင့် သက်သေအထောက်အထားက အမှန်တကယ် ထောက်ခံသော ကောက်ချက်တစ်ခု ချမှတ်ခြင်း တို့ဖြစ်သည်။ အားများ၊ အနုမြူများ၊ နေရောင်ခြည်နှင့် နှလုံးခုန်ခြင်းများသည် လုံးဝကွဲပြားသော ခေါင်းစဉ်လေးခုဖြစ်သော်လည်း -- သိပ္ပံနည်းကျ စူးစမ်းလေ့လာမှုကိုယ်တိုင်ကမူ ၎င်းအားလုံး၏ အောက်ခံကျွမ်းကျင်မှုတစ်ခုတည်းသာဖြစ်ကြောင်း၊ Week 1 ကတည်းက ဤပထမဆုံးနှစ်တစ်ခုလုံးသည် တည်ဆောက်ခဲ့သည့် ကျွမ်းကျင်မှုတစ်ခုတည်းပင် ဖြစ်ကြောင်း တရားသူကြီးက ပြောကြားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what did judges actually score each project on?",
+            questionMy:
+                "ပထမစာပိုဒ်အရ တရားသူကြီးများသည် စီမံကိန်းတစ်ခုစီကို အမှန်တကယ် အဘယ်ဖြင့် အမှတ်ပေးခဲ့ကြသနည်း။",
+            optionsEn: [
+              "Its hypothesis, fair test, honest data, and conclusion -- not which science topic it covered.",
+              "Only how colourful each booth's poster looked.",
+              "Only which topic (physics, chemistry, or biology) it covered.",
+              "How loudly each student could explain their project.",
+            ],
+            optionsMy: [
+              "၎င်း၏ ယူဆချက်၊ တရားမျှတသောစမ်းသပ်မှု၊ ရိုးသားသောအချက်အလက်နှင့် ကောက်ချက် -- မည်သည့်သိပ္ပံခေါင်းစဉ်ဖြစ်သည်ကို မဟုတ်ပါ။",
+              "ဆိုင်ခန်းတစ်ခုစီ၏ ပိုစတာ မည်မျှလှပသနည်းဆိုသည်ကိုသာ။",
+              "မည်သည့်ခေါင်းစဉ် (ရူပဗေဒ၊ ဓာတုဗေဒ (သို့) ဇီဝဗေဒ) ဖြစ်သည်ကိုသာ။",
+              "ကျောင်းသားတစ်ဦးစီ သူ့စီမံကိန်းကို မည်မျှကျယ်လောင်စွာ ရှင်းပြနိုင်သနည်းဆိုသည်ကို။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the first paragraph, which lists these four scoring criteria directly.",
+              "This is the same four-part idea running through Weeks 33-35: hypothesis, fair test, honest data, conclusion.",
+            ],
+            hintsMy: [
+              "ဤစံနှုန်းလေးခုကို တိုက်ရိုက် စာရင်းပြုစုထားသော ပထမစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Weeks 33-35 တစ်လျှောက် ဆက်လက်တည်ရှိနေသော လေးပိုင်းအတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် - ယူဆချက်၊ တရားမျှတသောစမ်းသပ်မှု၊ ရိုးသားသောအချက်အလက်၊ ကောက်ချက်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what did Kaung explain proudly about his own investigation?",
+            questionMy:
+                "ဒုတိယစာပိုဒ်အရ ကောင်းသည် သူ့ ကိုယ်ပိုင်စမ်းသပ်မှုအကြောင်း အဘယ်ကို ဂုဏ်ယူစွာ ရှင်းပြခဲ့သနည်း။",
+            optionsEn: [
+              "How a single anomalous 61 cm reading had almost thrown off his whole conclusion, until repeating the trial caught it.",
+              "How he had never repeated any trial at all.",
+              "How he had changed his trolley's mass between every trial.",
+              "How his hypothesis had turned out to be completely wrong.",
+            ],
+            optionsMy: [
+              "ပုံမှန်မဟုတ်သော 61 cm တိုင်းတာချက်တစ်ခုတည်းက သူ့ကောက်ချက်တစ်ခုလုံးကို လွဲမှားစေခါနီး ဖြစ်ခဲ့ကြောင်း၊ စမ်းသပ်မှုကို ထပ်ခါထပ်ခါလုပ်ခြင်းက ၎င်းကို ဖော်ထုတ်ပေးခဲ့ကြောင်း။",
+              "စမ်းသပ်မှုမည်သည့်တစ်ခုကိုမျှ ဘယ်တော့မှ ထပ်ခါထပ်ခါ မလုပ်ခဲ့ကြောင်း။",
+              "လှည်းငယ်၏ အလေးချိန်ကို စမ်းသပ်မှုတိုင်းကြား ပြောင်းလဲခဲ့ကြောင်း။",
+              "သူ့ယူဆချက်သည် လုံးဝ မှားယွင်းကြောင်း သိရှိခဲ့ရကြောင်း။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the second paragraph, which explains this directly, echoing Week 34's reading passage.",
+              "This is the same idea from Day 1's second question of this week.",
+            ],
+            hintsMy: [
+              "Week 34 ၏ စာဖတ်ခန်းကို ထပ်ဆင့်၍ ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် ဤအပတ်၏ ပထမနေ့ ဒုတိယမေးခွန်းမှ အတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the third paragraph, why did the visitor's pulse leap upward at Thiha's booth?",
+            questionMy:
+                "တတိယစာပိုဒ်အရ သီဟ၏ ဆိုင်ခန်းတွင် လာလည်သူ၏ နှလုံးခုန်နှုန်း အဘယ့်ကြောင့် အပေါ်သို့ ခုန်တက်သွားခဲ့သနည်း။",
+            optionsEn: [
+              "Exercising muscles need more energy, so a faster heartbeat delivers the extra oxygen respiration needs to release it.",
+              "The visitor was simply frightened by Thiha.",
+              "Pulse has nothing to do with exercise at all.",
+              "The measuring device was broken.",
+            ],
+            optionsMy: [
+              "ကိုယ်လက်လှုပ်ရှားနေသော ကြွက်သားများသည် စွမ်းအင် ပိုမိုလိုအပ်ပြီး ပိုမြန်ဆန်သော နှလုံးခုန်ခြင်းက အသက်ရှုမှု ထိုစွမ်းအင်ကို ထုတ်ပေးရန် လိုအပ်သော အပိုအောက်စီဂျင်ကို ပေးပို့ပေးသောကြောင့်။",
+              "လာလည်သူသည် သီဟကို ရိုးရိုးကြောက်ရွံ့ခဲ့ခြင်းသာ ဖြစ်သည်။",
+              "နှလုံးခုန်နှုန်းသည် ကိုယ်လက်လှုပ်ရှားမှုနှင့် လုံးဝ မသက်ဆိုင်ပါ။",
+              "တိုင်းတာသည့်ကိရိယာ ပျက်စီးနေခဲ့သောကြောင့်။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the third paragraph, which explains this directly, citing Weeks 16 and 30.",
+              "This is the same reasoning from Week 32's leopard sprint and Week 30's Su Su sprint.",
+            ],
+            hintsMy: [
+              "Weeks 16 နှင့် 30 ကို ကိုးကားလျက် ဤအချက်ကို တိုက်ရိုက် ရှင်းပြထားသော တတိယစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Week 32 ၏ ကျောက်ကုလားအုပ်ပြေးလွှားမှုနှင့် Week 30 ၏ စုစုပြေးလွှားမှုမှ ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what single skill did the head judge say every booth actually shared, despite their different topics?",
+            questionMy:
+                "နောက်ဆုံးစာပိုဒ်အရ ဆိုင်ခန်းအားလုံးသည် ခေါင်းစဉ်ကွဲပြားစေကာမူ အမှန်တကယ် မျှဝေထားသော ကျွမ်းကျင်မှုတစ်ခုတည်းကို အကြီးအကဲ တရားသူကြီး အဘယ်ဟု ဆိုခဲ့သနည်း။",
+            optionsEn: [
+              "Scientific enquiry -- asking a testable question, writing a reasoned hypothesis, designing a fair test, recording honest data, and drawing a supported conclusion.",
+              "Only knowing facts about forces.",
+              "Only knowing facts about the particle model.",
+              "There was no shared skill at all -- every booth was completely unrelated.",
+            ],
+            optionsMy: [
+              "သိပ္ပံနည်းကျ စူးစမ်းလေ့လာမှု -- စမ်းသပ်နိုင်သောမေးခွန်းတစ်ခု မေးခြင်း၊ ယုတ္တိရှိသောယူဆချက်တစ်ခု ရေးသားခြင်း၊ တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း၊ ရိုးသားသောအချက်အလက် မှတ်တမ်းတင်ခြင်းနှင့် ထောက်ခံချက်ရှိသော ကောက်ချက်တစ်ခု ချမှတ်ခြင်း။",
+              "အားများအကြောင်း အချက်အလက်များကိုသာ သိရှိခြင်း။",
+              "အနုမြူပုံစံအကြောင်း အချက်အလက်များကိုသာ သိရှိခြင်း။",
+              "မျှဝေထားသော ကျွမ်းကျင်မှု လုံးဝ မရှိပါ -- ဆိုင်ခန်းတိုင်းသည် လုံးဝ မဆက်စပ်ကြပါ။",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Re-read the final paragraph, which states this directly.",
+              "This is the same five-step spine running through Weeks 33-36: question, hypothesis, fair test, honest data, conclusion.",
+            ],
+            hintsMy: [
+              "ဤအချက်ကို တိုက်ရိုက် ဖော်ပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ပါ။",
+              "၎င်းသည် Weeks 33-36 တစ်လျှောက် ဆက်လက်တည်ရှိနေသော ငါးဆင့် ဗဟိုအတွေးအခေါ်တစ်ခုတည်းပင် ဖြစ်သည် - မေးခွန်း၊ ယူဆချက်၊ တရားမျှတသောစမ်းသပ်မှု၊ ရိုးသားသောအချက်အလက်၊ ကောက်ချက်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-science-w36-d5",
+      dayNumber: 5,
+      titleEn:
+          "Week 36 Recap: The Founders' Day Science Fair -- Term 9 Capstone",
+      titleMy:
+          "အပတ်စဉ် ၃၆ ပြန်လည်သုံးသပ်ခြင်း - တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ -- နဝမနှစ်ဝက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a hypothesis explain that a plain prediction does not?",
+          questionMy: "ယူဆချက်တစ်ခုသည် ရိုးရှင်းသောခန့်မှန်းချက်တစ်ခု မရှင်းပြသောအရာကို အဘယ်ကို ရှင်းပြသနည်း။",
+          optionsEn: [
+            "The scientific reason (the 'because') behind the predicted result",
+            "Nothing -- the two words mean exactly the same thing",
+            "The exact date the investigation will finish",
+            "Which student will win the science fair",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းထားသောရလဒ်နောက်ကွယ်ရှိ သိပ္ပံနည်းကျအကြောင်းရင်း ('အကြောင်းမှာ' အပိုင်း)",
+            "မည်သည့်အရာမျှ မဟုတ်ပါ -- စကားလုံးနှစ်ခုသည် အတိအကျ အဓိပ္ပာယ်တူသည်",
+            "စမ်းသပ်မှု ပြီးဆုံးမည့် အတိအကျနေ့စွဲ",
+            "သိပ္ပံပြပွဲကို မည်သည့်ကျောင်းသားက အနိုင်ရမည်ဆိုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's hypothesis lesson and every booth's own hypothesis card at the fair.",
+            "Su Su's card explicitly named photosynthesis as the 'because' behind her prediction.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ ယူဆချက်သင်ခန်းစာနှင့် ပြပွဲရှိ ဆိုင်ခန်းတိုင်း၏ ကိုယ်ပိုင်ယူဆချက်ကတ်ကို သတိရပါ။",
+            "စုစု၏ ကတ်သည် သူ့ ခန့်မှန်းချက်နောက်ကွယ်ရှိ 'အကြောင်းမှာ' အနေဖြင့် အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ရှင်းလင်းစွာ အမည်တွင်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At Aye Aye's booth, which variable did she deliberately change between her three cups?",
+          questionMy: "အေးအေး၏ ဆိုင်ခန်းတွင် ဖန်ခွက်သုံးခုကြား သူ တမင်ပြောင်းလဲခဲ့သော ကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The temperature of the water (her independent variable)",
+            "The time taken for the sugar to dissolve (her dependent variable)",
+            "The amount of sugar (a control variable)",
+            "Nothing was ever changed",
+          ],
+          optionsMy: [
+            "ရေ၏ အပူချိန် (သူ၏ လွတ်လပ်ကိန်းရှင်)",
+            "သကြား အရည်ပျော်ရန် ကြာချိန် (သူ၏ မှီခိုကိန်းရှင်)",
+            "သကြားပမာဏ (ထိန်းချုပ်ကိန်းရှင်)",
+            "မည်သည့်အရာကိုမျှ ဘယ်တော့မှ မပြောင်းလဲခဲ့ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question and Weeks 34-35's own sugar-cube investigation.",
+            "Recall Day 3's sorting activity -- water temperature was sorted as an independent variable.",
+          ],
+          hintsMy: [
+            "ပထမနေ့ တတိယမေးခွန်းနှင့် Weeks 34-35 ၏ ကိုယ်ပိုင် သကြားတုံးစမ်းသပ်မှုကို သတိရပါ။",
+            "တတိယနေ့ စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- ရေအပူချိန်ကို လွတ်လပ်ကိန်းရှင်အဖြစ် စီစစ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did every booth at the fair need a control variable, no matter its topic?",
+          questionMy:
+              "ပြပွဲရှိ ဆိုင်ခန်းတိုင်းသည် ၎င်း၏ ခေါင်းစဉ်မည်သို့ပင်ဖြစ်စေ ထိန်းချုပ်ကိန်းရှင် အဘယ့်ကြောင့် လိုအပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "So that only the independent variable could explain any change in the result, keeping the test fair",
+            "Control variables are only needed in biology, never physics or chemistry",
+            "They aren't actually needed at all",
+            "So that every project would look exactly the same",
+          ],
+          optionsMy: [
+            "လွတ်လပ်ကိန်းရှင်တစ်ခုတည်းကသာ ရလဒ်ရှိ ပြောင်းလဲမှုကို ရှင်းပြနိုင်ရန်၊ စမ်းသပ်မှုကို တရားမျှတစေရန်",
+            "ထိန်းချုပ်ကိန်းရှင်များသည် ဇီဝဗေဒတွင်သာ လိုအပ်ပြီး ရူပဗေဒ (သို့) ဓာတုဗေဒတွင် ဘယ်တော့မှ မလိုအပ်ပါ",
+            "၎င်းတို့ကို အမှန်တကယ် လုံးဝ မလိုအပ်ပါ",
+            "စီမံကိန်းတိုင်း အတိအကျ တူညီအောင် ကြည့်ရသည်ဖြစ်စေရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's fair test principle -- Kaung's trolley, Aye Aye's sugar, Su Su's seedlings, and Thiha's pulse test all used control variables the same way.",
+            "Recall Day 2's matching activity -- fair test's definition applies to every booth, regardless of subject.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ တရားမျှတသောစမ်းသပ်မှု အခြေခံမူကို သတိရပါ -- ကောင်း၏လှည်းငယ်၊ အေးအေး၏သကြား၊ စုစု၏အပင်ငယ်နှင့် သီဟ၏ နှလုံးခုန်နှုန်းစမ်းသပ်မှု အားလုံးသည် ထိန်းချုပ်ကိန်းရှင်များကို နည်းလမ်းတူတူ အသုံးပြုခဲ့ကြသည်။",
+            "ဒုတိယနေ့ ကိုက်ညီစွာတွဲချိတ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ -- တရားမျှတသောစမ်းသပ်မှု၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်သည် ဘာသာရပ်မည်သို့ပင်ဖြစ်စေ ဆိုင်ခန်းတိုင်းအတွက် အကျုံးဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the head judge praise honest data recording, even when a result (like Kaung's 61 cm) was odd?",
+          questionMy:
+              "ရလဒ်တစ်ခု (ကောင်း၏ 61 cm ကဲ့သို့) ထူးဆန်းသည့်တိုင် အကြီးအကဲ တရားသူကြီးသည် ရိုးသားသော အချက်အလက်မှတ်တမ်းတင်ခြင်းကို အဘယ့်ကြောင့် ချီးမွမ်းခဲ့သနည်း။",
+          optionsEn: [
+            "Because trustworthy conclusions depend on honest data, including anomalous results that are recorded and then fairly excluded",
+            "Because odd results should always be hidden from judges",
+            "Because only perfect results without any anomalies are ever acceptable",
+            "Honest recording was never actually mentioned",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရသောကောက်ချက်များသည် မှတ်တမ်းတင်ပြီး တရားမျှတစွာ ချန်ထားခဲ့သော ပုံမှန်မဟုတ်သောရလဒ်များအပါအဝင် ရိုးသားသောအချက်အလက်များအပေါ် မှီခိုနေသောကြောင့်",
+            "ထူးဆန်းသောရလဒ်များကို တရားသူကြီးများထံမှ အမြဲ ဖျောက်ဖျက်ထားသင့်သောကြောင့်",
+            "ပုံမှန်မဟုတ်သောရလဒ် လုံးဝမပါသော ပြည့်စုံသောရလဒ်များကိုသာ လက်ခံနိုင်သောကြောင့်",
+            "ရိုးသားသောမှတ်တမ်းတင်ခြင်းအကြောင်း တကယ်တမ်း ဘယ်တော့မှ မပြောကြားခဲ့ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 35's sorting activity on good and poor data-recording practice.",
+            "Recall Kaung's own honest handling of his anomalous 61 cm reading, described in this week's reading passage.",
+          ],
+          hintsMy: [
+            "Week 35 ၏ ကောင်းသော/ညံ့ဖျင်းသော အချက်အလက်မှတ်တမ်းတင်ခြင်းအကြောင်း စီစစ်ခြင်းလေ့ကျင့်ခန်းကို သတိရပါ။",
+            "ဤအပတ်၏ စာဖတ်ခန်းတွင် ဖော်ပြထားသော ကောင်း၏ ပုံမှန်မဟုတ်သော 61 cm တိုင်းတာချက်ကို ရိုးသားစွာ ကိုင်တွယ်ခဲ့ပုံကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across this whole year -- Term 1's forces, Term 2's chemical reactions, Term 3's electromagnets, Term 4's respiration, Term 5's ecosystems, Term 6's light and sound, Term 7's rocks, Term 8's body systems and classification, and now Term 9's science fair -- what single idea ties the entire year together?",
+          questionMy:
+              "ဤနှစ်တစ်ခုလုံးကို ပြန်ကြည့်လျှင် -- Term 1 ၏ အားများ၊ Term 2 ၏ ဓာတုတုန့်ပြန်မှုများ၊ Term 3 ၏ လျှပ်စစ်သံလိုက်များ၊ Term 4 ၏ အသက်ရှုမှု၊ Term 5 ၏ သဘာဝဝန်းကျင်စနစ်များ၊ Term 6 ၏ အလင်းနှင့်အသံ၊ Term 7 ၏ ကျောက်များ၊ Term 8 ၏ ခန္ဓာကိုယ်စနစ်များနှင့် ခွဲခြားသတ်မှတ်ခြင်းနှင့် ယခု Term 9 ၏ သိပ္ပံပြပွဲ -- ဤနှစ်တစ်ခုလုံးကို ဆက်စပ်ပေးသော အယူအဆတစ်ခုတည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Every one of these very different topics was discovered and can still be checked using the exact same method: a testable question, a reasoned hypothesis, a fair test, honest data, and an evidence-based conclusion.",
+            "The nine terms have absolutely nothing in common with each other.",
+            "Only Term 9's science fair actually used real science; every earlier term was just memorisation.",
+            "Every term studied exactly the same single topic, with no real variety at all.",
+          ],
+          optionsMy: [
+            "ဤလွန်စွာကွဲပြားသော ခေါင်းစဉ်တိုင်းသည် အတိအကျ နည်းလမ်းတစ်ခုတည်းဖြင့် ရှာဖွေတွေ့ရှိခဲ့ပြီး ယခုထက်တိုင် စစ်ဆေးနိုင်ဆဲဖြစ်သည် - စမ်းသပ်နိုင်သောမေးခွန်းတစ်ခု၊ ယုတ္တိရှိသောယူဆချက်တစ်ခု၊ တရားမျှတသောစမ်းသပ်မှုတစ်ခု၊ ရိုးသားသောအချက်အလက်နှင့် သက်သေအထောက်အထားအခြေခံသော ကောက်ချက်တစ်ခု။",
+            "Term ကိုးခုတွင် တစ်ခုနှင့်တစ်ခု ဘုံတူညီချက် လုံးဝမရှိပါ။",
+            "Term 9 ၏ သိပ္ပံပြပွဲသာလျှင် စစ်မှန်သောသိပ္ပံကို အသုံးပြုခဲ့ပြီး ယခင် Term တိုင်းသည် အလွတ်ကျက်မှတ်ခြင်းသာ ဖြစ်ခဲ့သည်။",
+            "Term တိုင်းသည် အမှန်တကယ် အကွဲပြားမရှိဘဲ ခေါင်းစဉ်တစ်ခုတည်းကိုသာ လေ့လာခဲ့သည်။",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage's final paragraph, where the head judge names exactly this idea.",
+            "This is the same spiral pattern as Week 32's and Week 28's capstones -- a small set of big ideas explaining an ever-widening range of phenomena, now including the method that discovered every one of them.",
+          ],
+          hintsMy: [
+            "အကြီးအကဲ တရားသူကြီး ဤအတွေးအခေါ်ကို အတိအကျ အမည်တွင်ထားသော စာဖတ်ခန်း၏ နောက်ဆုံးစာပိုဒ်ကို သတိရပါ။",
+            "၎င်းသည် Week 32 နှင့် Week 28 ၏ အနှစ်ချုပ်သင်ခန်းစာများကဲ့သို့ ပုံစံတူတူပင် ဖြစ်သည် -- ကြီးမားသောအတွေးအခေါ်ငယ်လေးအစုအဝေးတစ်ခုက ပို၍ကျယ်ပြန့်လာနေသော ဖြစ်စဉ်အပိုင်းအခြားတစ်ခုကို ရှင်းပြပေးပြီး ယခုအခါ ၎င်းတို့အားလုံးကို ရှာဖွေတွေ့ရှိစေသော နည်းလမ်းကိုပါ ထည့်သွင်းထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Term 9: "The Founders' Day Science Fair" (Weeks 33-36) closes the
+/// pathway's first full academic year with a Scientific Enquiry capstone
+/// rather than new physics/chemistry/biology content: Week 33 introduces
+/// the hypothesis as a reasoned "if...then...because" upgrade to Week 1's
+/// simple prediction, revisiting Su Su's own Week 1 tomato-seedling fair
+/// test and Week 15's photosynthesis as the scientific reason behind her
+/// new hypothesis, and practises telling testable scientific questions
+/// apart from matters of opinion using examples drawn from Week 9's
+/// reactions, Week 27's rock cycle, Week 3's forces and Weeks 16/30's
+/// exercise; Week 34 names independent, dependent and control variables
+/// explicitly for the first time, using Kaung's own trolley-and-force-
+/// meter fair test (Week 3) as the main worked example and Aye Aye's
+/// water-temperature-and-dissolving sugar cube (Week 2's particle model)
+/// as a second, cross-domain application; Week 35 teaches data tables,
+/// line graphs, axis labelling, averaging repeat readings and spotting
+/// anomalous results, directly reusing Kaung's own trolley data (including
+/// his 61 cm anomaly) and Aye Aye's own dissolving-sugar data as the
+/// worked datasets; Week 36 is the term's -- and the whole 36-week
+/// pathway's -- capstone, bringing Su Su, Kaung, Aye Aye and Thiha
+/// together at a Founders' Day Science Fair where each of their four
+/// projects (sunlight and plant growth from Weeks 1/15, force and
+/// distance from Weeks 3/34, water temperature and dissolving from Week
+/// 2, and exercise and heart rate from Weeks 16/30) is judged not on its
+/// topic but on the same shared scientific-enquiry method the whole term
+/// has been building: a testable question, a reasoned hypothesis, a fair
+/// test, honest data, and an evidence-based conclusion.
+const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
+  id: "course-secondary1-science-t9",
+  termNumber: 9,
+  titleEn: "The Founders' Day Science Fair",
+  titleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
+  certificateTitleEn: "The Founders' Day Science Fair",
+  certificateTitleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
+  weeks: [
+    _secondary1ScienceWeek33,
+    _secondary1ScienceWeek34,
+    _secondary1ScienceWeek35,
+    _secondary1ScienceWeek36,
+  ],
+);
+
 /// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
@@ -47515,14 +54108,21 @@ const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
 /// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8),
 /// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12), Term 4
 /// ("Cells and Life Processes", Weeks 13-16, this pathway's first biology
-/// strand), Term 5 ("Nutrition and Ecosystems", Weeks 17-20) and Term 6
+/// strand), Term 5 ("Nutrition and Ecosystems", Weeks 17-20), Term 6
 /// ("Light and Sound", Weeks 21-24, a new physics strand breaking up the
-/// Term 4-5 biology run) are authored so far; see [_secondary1ScienceTerm1]'s,
+/// Term 4-5 biology run), Term 7 ("Earth and Space", Weeks 25-28), and
+/// Term 8 ("The Human Body and Classification", Weeks 29-32) are all
+/// authored; Term 9 ("The Founders' Day Science Fair", Weeks 33-36) closes
+/// out the full 36-week pathway with a Scientific Enquiry capstone rather
+/// than new content -- see [_secondary1ScienceTerm1]'s,
 /// [_secondary1ScienceTerm2]'s, [_secondary1ScienceTerm3]'s,
-/// [_secondary1ScienceTerm4]'s, [_secondary1ScienceTerm5]'s and
-/// [_secondary1ScienceTerm6]'s own doc comments for the week-by-week
-/// spiral. [totalWeeks] stays 36 for the same "honest progress bar" reason
-/// [secondary1ComputingPathway]'s did while only a handful of weeks exist.
+/// [_secondary1ScienceTerm4]'s, [_secondary1ScienceTerm5]'s,
+/// [_secondary1ScienceTerm7]'s, [_secondary1ScienceTerm8]'s and
+/// [_secondary1ScienceTerm9]'s own doc comments (Term 6's spiral is
+/// documented directly above [_secondary1ScienceWeek21]) for the
+/// week-by-week spiral. All 36 weeks now exist, so [totalWeeks] being 36
+/// finally matches the pathway's actual content, the same milestone
+/// [year4SciencePathway] and [secondary1ComputingPathway] already reached.
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   id: "course-secondary1-science",
   subject: "science",
@@ -47530,9 +54130,9 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration, Term 5 builds outward to human nutrition, digestion, and ecosystems, closing with a capstone tracing energy flow from the Sun through a whole food chain, and Term 6 opens a new physics strand covering how light travels in straight lines and forms shadows, reflection and mirrors, and how sound is produced and travels as vibrations through a medium, closing with a capstone tying light and sound together through a thunderstorm.",
+      "The first academic-year science course: daily bite-sized lessons building core physics and chemistry foundations, starting with the scientific method, measurement and laboratory safety, then moving into the states of matter and the particle model, forces and their effects, and a capstone combining energy, heat and forces, before Term 2 classifies elements, compounds and mixtures, explores acids, bases and indicators, names the different energy stores and transfers, and closes with a capstone on chemical reactions and energy changes, Term 3 deepens chemical reactions with word equations and conservation of mass, introduces electricity and magnetism, and closes with a capstone on electromagnets, Term 4 opens the course's first biology strand -- characteristics of living things, cells, photosynthesis -- and closes with a capstone on respiration, Term 5 builds outward to human nutrition, digestion, and ecosystems, closing with a capstone tracing energy flow from the Sun through a whole food chain, Term 6 opens a new physics strand covering how light travels in straight lines and forms shadows, reflection and mirrors, and how sound is produced and travels as vibrations through a medium, closing with a capstone tying light and sound together through a thunderstorm, Term 7 opens Earth and space -- the Solar System and gravity, day/night and the seasons, and Earth's structure and the rock cycle -- closing with a capstone combining a planetarium visit and a quarry visit, Term 8 returns to biology with the skeletal and muscular systems and the classification of living things, closing with a zoo-trip capstone tying bones, muscles and classification together, and Term 9 closes the whole first year with a Scientific Enquiry capstone -- writing a proper hypothesis, designing a fair test with independent, dependent and control variables, recording and presenting honest data -- building toward a Founders' Day Science Fair where students plan, run and present investigations of their own, drawing on forces, the particle model, photosynthesis and respiration from earlier terms as their evidence.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဆဌမနှစ်ဝက်တွင် အလင်းသည် ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားပုံနှင့် အရိပ်ဖြစ်ပေါ်ပုံ၊ ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ၊ အသံ ဖြစ်ပေါ်ပုံနှင့် အလယ်အလတ်ပစ္စည်းတစ်ခုကို ဖြတ်၍ တုန်ခါမှုအဖြစ် ခရီးသွားပုံတို့ကို လေ့လာသော ရူပဗေဒနယ်ပယ်အသစ်တစ်ခုကို ဖွင့်လှစ်ပြီး မိုးကြိုးမုန်တိုင်းတစ်ခုမှတစ်ဆင့် အလင်းနှင့်အသံကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဆဌမနှစ်ဝက်တွင် အလင်းသည် ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားပုံနှင့် အရိပ်ဖြစ်ပေါ်ပုံ၊ ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ၊ အသံ ဖြစ်ပေါ်ပုံနှင့် အလယ်အလတ်ပစ္စည်းတစ်ခုကို ဖြတ်၍ တုန်ခါမှုအဖြစ် ခရီးသွားပုံတို့ကို လေ့လာသော ရူပဗေဒနယ်ပယ်အသစ်တစ်ခုကို ဖွင့်လှစ်ပြီး မိုးကြိုးမုန်တိုင်းတစ်ခုမှတစ်ဆင့် အလင်းနှင့်အသံကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ သတ္တမနှစ်ဝက်တွင် နေစနစ်နှင့် ဆွဲငင်အား၊ နေ့ညနှင့်ရာသီများ၊ ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် ကျောက်စက်ဝန်းတို့ကို ဖွင့်လှစ်ပြီး ကြယ်စင်ခန်းသွားလည်ခြင်းနှင့် ကျောက်တွင်းသွားလည်ခြင်းကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ အဌမနှစ်ဝက်တွင် အရိုးစနစ်နှင့် ကြွက်သားစနစ်၊ သက်ရှိများကို ခွဲခြားသတ်မှတ်ခြင်းဖြင့် ဇီဝဗေဒသို့ ပြန်လှည့်ကာ အရိုး၊ ကြွက်သားနှင့် ခွဲခြားသတ်မှတ်ခြင်းတို့ကို ပေါင်းစပ်ပေးသော တိရစ္ဆာန်ဥယျာဉ်ခရီးစဉ် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ နဝမနှစ်ဝက်တွင် ပထမနှစ်တစ်ခုလုံးကို သိပ္ပံနည်းကျ စူးစမ်းလေ့လာမှု အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပိတ်သိမ်းသည် -- မှန်ကန်သော ယူဆချက်တစ်ခု ရေးသားခြင်း၊ လွတ်လပ်ကိန်းရှင်၊ မှီခိုကိန်းရှင်နှင့် ထိန်းချုပ်ကိန်းရှင်များပါသော တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း၊ ရိုးသားသောအချက်အလက်များကို မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်းတို့ကို လေ့လာကာ ကျောင်းသားများ ကိုယ်ပိုင်စူးစမ်းလေ့လာမှုများကို စီစဉ်၊ လုပ်ဆောင်၊ တင်ပြရသော တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲတစ်ခုသို့ တည်ဆောက်ပေးပြီး ယခင် Term များမှ အားများ၊ အနုမြူပုံစံ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် အသက်ရှုမှုတို့ကို ၎င်းတို့၏ သက်သေအထောက်အထားအဖြစ် ရယူသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
     _secondary1ScienceTerm1,
@@ -47541,6 +54141,9 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
     _secondary1ScienceTerm4,
     _secondary1ScienceTerm5,
     _secondary1ScienceTerm6,
+    _secondary1ScienceTerm7,
+    _secondary1ScienceTerm8,
+    _secondary1ScienceTerm9,
   ],
 );
 
