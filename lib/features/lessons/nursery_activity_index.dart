@@ -3,6 +3,7 @@ import 'nursery_kg_activity_bank.dart';
 import 'nursery_kg_flashcards_bank.dart';
 import 'nursery_kg_listening_bank.dart';
 import 'nursery_kg_memory_bank.dart';
+import 'nursery_kg_quantum_flash_bank.dart';
 import 'nursery_kg_rhymes_bank.dart';
 import 'nursery_kg_storytelling_bank.dart';
 
@@ -86,6 +87,19 @@ List<NurseryActivitySummary> allNurseryActivitySummaries() => [
       subject: a.subject,
       grade: a.grade,
       kind: NurseryActivityKind.rhymes,
+      titleEn: a.titleEn,
+      titleMy: a.titleMy,
+      descriptionEn: a.descriptionEn,
+      descriptionMy: a.descriptionMy,
+      starsReward: a.starsReward,
+      emoji: a.emoji,
+    ),
+  for (final a in nurseryKgQuantumFlashBank)
+    NurseryActivitySummary(
+      id: a.id,
+      subject: a.subject,
+      grade: a.grade,
+      kind: NurseryActivityKind.quantumFlash,
       titleEn: a.titleEn,
       titleMy: a.titleMy,
       descriptionEn: a.descriptionEn,

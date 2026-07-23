@@ -20,6 +20,7 @@ import '../features/lessons/nursery_kg_activity_bank.dart';
 import '../features/lessons/nursery_kg_flashcards_bank.dart';
 import '../features/lessons/nursery_kg_listening_bank.dart';
 import '../features/lessons/nursery_kg_memory_bank.dart';
+import '../features/lessons/nursery_kg_quantum_flash_bank.dart';
 import '../features/lessons/nursery_kg_rhymes_bank.dart';
 import '../features/lessons/nursery_kg_storytelling_bank.dart';
 import '../features/lessons/nursery_flashcards_screen.dart';
@@ -29,6 +30,7 @@ import '../features/lessons/nursery_memory_screen.dart';
 import '../features/lessons/nursery_rhymes_screen.dart';
 import '../features/lessons/nursery_storytelling_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
+import '../features/lessons/quantum_flash_screen.dart';
 import '../features/lessons/reading_screen.dart';
 import '../features/lessons/sorting_screen.dart';
 import '../features/profiles/profile_selection_screen.dart';
@@ -63,6 +65,11 @@ class AppRoutes {
   static const lessonNurseryFlashcards = '/lesson/nursery/flashcards';
   static const lessonNurseryStory = '/lesson/nursery/story';
   static const lessonNurseryRhymes = '/lesson/nursery/rhymes';
+
+  /// The Nova Quantum Flash Engine: a timed auto-advance flash pass (dot
+  /// cards or word/emoji cards) plus a tap-to-recall mini-game -- see
+  /// `NurseryActivityKind.quantumFlash` and `quantum_flash_screen.dart`.
+  static const lessonNurseryQuantumFlash = '/lesson/nursery/quantum-flash';
 
   /// Shown instead of jumping straight to one of the lesson routes above
   /// whenever a tapped Nursery/KG subject has 2+ authored activities
@@ -272,6 +279,17 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             return NurseryRhymesScreen(subjectLabel: subject.label, def: def);
           }
           return const NurseryRhymesScreen();
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonNurseryQuantumFlash,
+        builder: (context, state) {
+          final extra = state.extra;
+          if (extra is (SubjectVisual, QuantumFlashDeckDef?)) {
+            final (subject, def) = extra;
+            return QuantumFlashScreen(subjectLabel: subject.label, def: def);
+          }
+          return const QuantumFlashScreen();
         },
       ),
       GoRoute(

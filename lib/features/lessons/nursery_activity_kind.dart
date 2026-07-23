@@ -2,10 +2,15 @@ import '../../models/child_model.dart';
 
 /// Discriminates which Nursery/KG interactive widget an activity plays as.
 /// [pictureMatching] is the original drag-and-drop game
-/// (`nursery_lesson_screen.dart`); the other five back the "1-Year Full
-/// Course" widget architecture: Listening Comprehension (audio-driven),
-/// Memory Challenge (card-flip), Digital Flashcards, Interactive
-/// Storytelling, and Singing/Rhymes.
+/// (`nursery_lesson_screen.dart`); [listening] through [rhymes] back the
+/// "1-Year Full Course" widget architecture: Listening Comprehension
+/// (audio-driven), Memory Challenge (card-flip), Digital Flashcards,
+/// Interactive Storytelling, and Singing/Rhymes. [quantumFlash] is the
+/// Nova Quantum Flash Engine: a timed, auto-advancing high-speed flash
+/// pass (numeracy dot-cards or vocabulary word/emoji cards) followed by a
+/// tap-to-recall mini-game -- see `nursery_kg_quantum_flash_bank.dart` and
+/// `quantum_flash_screen.dart`. It is the first Nursery/KG activity kind
+/// that persists real stars/streak completion via `markModuleCompleted`.
 enum NurseryActivityKind {
   pictureMatching,
   listening,
@@ -13,6 +18,7 @@ enum NurseryActivityKind {
   flashcards,
   storytelling,
   rhymes,
+  quantumFlash,
 }
 
 /// The `LearningModuleModel.contentType` string [seedDatabase] writes for
@@ -34,6 +40,8 @@ String contentTypeForNurseryKind(NurseryActivityKind kind) {
       return 'storytelling';
     case NurseryActivityKind.rhymes:
       return 'rhymes';
+    case NurseryActivityKind.quantumFlash:
+      return 'quantumflash';
   }
 }
 

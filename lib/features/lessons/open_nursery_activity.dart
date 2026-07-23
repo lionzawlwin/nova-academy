@@ -8,6 +8,7 @@ import 'nursery_kg_activity_bank.dart';
 import 'nursery_kg_flashcards_bank.dart';
 import 'nursery_kg_listening_bank.dart';
 import 'nursery_kg_memory_bank.dart';
+import 'nursery_kg_quantum_flash_bank.dart';
 import 'nursery_kg_rhymes_bank.dart';
 import 'nursery_kg_storytelling_bank.dart';
 
@@ -58,6 +59,11 @@ void openNurseryActivity(
       context.push(
         AppRoutes.lessonNurseryRhymes,
         extra: (subject, rhymeDefForModule(summary.id)),
+      );
+    case NurseryActivityKind.quantumFlash:
+      context.push(
+        AppRoutes.lessonNurseryQuantumFlash,
+        extra: (subject, quantumFlashDefForModule(summary.id)),
       );
   }
 }
