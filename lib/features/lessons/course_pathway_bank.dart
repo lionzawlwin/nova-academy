@@ -66858,9 +66858,9 @@ const CoursePathwayDef year1SciencePathway = CoursePathwayDef(
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမတန်း သင်တန်း",
   descriptionEn:
-      "The first academic-year Year 1 science course: daily bite-sized lessons opening with the five senses -- sight, hearing, smell, taste, and touch -- and which sense is used to observe which kind of thing, before Week 2 builds on that observational grounding to classify living and non-living things using simple, age-appropriate criteria (living things grow, need food and water, and can move by themselves), Week 3 narrows into living things specifically with the parts of a plant -- root, stem, leaf, and flower -- and what a plant needs to grow -- sunlight, water, air, and soil -- and Term 1 closes with a Week 4 capstone combining senses, living/non-living classification, and plant knowledge in one real-world story. Term 2 continues with an animal-focused strand: Week 5 groups common Myanmar-context animals into pets and wild animals, Week 6 covers how animals move and what covers their bodies (fur, feathers, scales, flying vs. not flying), Week 7 mirrors Term 1's plant-needs structure for animals -- food, water, air, shelter, and a person's care -- and Term 2 closes with a Week 8 capstone combining all three animal strands in one story. Term 3 shifts to everyday materials: Week 9 introduces common materials (wood, plastic, metal, glass, fabric, paper) and what familiar objects are made of, Week 10 teaches simple material properties (hard/soft, rough/smooth, bendy/stiff, waterproof/not waterproof), Week 11 ties those properties to real-world reasoning about why a material is chosen for a job, and Term 3 closes with a Week 12 capstone combining material types, properties, and job-fit reasoning in one project-style story. Term 4 covers weather grounded in Myanmar's actual climate: Week 13 introduces observable weather types (sunny, rainy, cloudy, windy, stormy), Week 14 teaches Myanmar's three real seasons -- Hot, Rainy, and Cool (explicitly not a snowy winter) -- Week 15 ties weather/season knowledge to choosing the right clothing and preparation, and Term 4 closes with a Week 16 capstone combining weather observation, seasons, and preparation in one story. Term 5 covers light and dark, deliberately guarding against common misconceptions: Week 17 introduces light sources (sun, torch, candle) versus reflectors (a mirror, and the moon, which never makes its own light), Week 18 covers day and night at a simple, age-appropriate level, Week 19 covers how shadows form when a solid object blocks light, and Term 5 closes with a Week 20 capstone combining light sources, day/night, and shadows in one story. Term 6 covers sound: Week 21 introduces sound as caused by vibration (a drum, a plucked string, vocal cords, a bell), Week 22 teaches that loud/quiet (volume) and high/low (pitch) are two different properties, Week 23 covers identifying everyday environmental sounds and how sound can be muffled, and Term 6 closes with a Week 24 capstone combining vibration, volume/pitch, and everyday sounds in one story. Term 7 covers forces: Week 25 introduces push (moves something away) and pull (moves something toward you), Week 26 teaches that a force can start/stop/speed up/slow down/change the direction of motion, Week 27 covers floating and sinking grounded in specific example materials (rejecting the misconception that size alone determines floating/sinking), and Term 7 closes with a Week 28 capstone combining push/pull, motion changes, and floating/sinking in one story.",
+      "The first academic-year Year 1 science course: daily bite-sized lessons opening with the five senses -- sight, hearing, smell, taste, and touch -- and which sense is used to observe which kind of thing, before Week 2 builds on that observational grounding to classify living and non-living things using simple, age-appropriate criteria (living things grow, need food and water, and can move by themselves), Week 3 narrows into living things specifically with the parts of a plant -- root, stem, leaf, and flower -- and what a plant needs to grow -- sunlight, water, air, and soil -- and Term 1 closes with a Week 4 capstone combining senses, living/non-living classification, and plant knowledge in one real-world story. Term 2 continues with an animal-focused strand: Week 5 groups common Myanmar-context animals into pets and wild animals, Week 6 covers how animals move and what covers their bodies (fur, feathers, scales, flying vs. not flying), Week 7 mirrors Term 1's plant-needs structure for animals -- food, water, air, shelter, and a person's care -- and Term 2 closes with a Week 8 capstone combining all three animal strands in one story. Term 3 shifts to everyday materials: Week 9 introduces common materials (wood, plastic, metal, glass, fabric, paper) and what familiar objects are made of, Week 10 teaches simple material properties (hard/soft, rough/smooth, bendy/stiff, waterproof/not waterproof), Week 11 ties those properties to real-world reasoning about why a material is chosen for a job, and Term 3 closes with a Week 12 capstone combining material types, properties, and job-fit reasoning in one project-style story. Term 4 covers weather grounded in Myanmar's actual climate: Week 13 introduces observable weather types (sunny, rainy, cloudy, windy, stormy), Week 14 teaches Myanmar's three real seasons -- Hot, Rainy, and Cool (explicitly not a snowy winter) -- Week 15 ties weather/season knowledge to choosing the right clothing and preparation, and Term 4 closes with a Week 16 capstone combining weather observation, seasons, and preparation in one story. Term 5 covers light and dark, deliberately guarding against common misconceptions: Week 17 introduces light sources (sun, torch, candle) versus reflectors (a mirror, and the moon, which never makes its own light), Week 18 covers day and night at a simple, age-appropriate level, Week 19 covers how shadows form when a solid object blocks light, and Term 5 closes with a Week 20 capstone combining light sources, day/night, and shadows in one story. Term 6 covers sound: Week 21 introduces sound as caused by vibration (a drum, a plucked string, vocal cords, a bell), Week 22 teaches that loud/quiet (volume) and high/low (pitch) are two different properties, Week 23 covers identifying everyday environmental sounds and how sound can be muffled, and Term 6 closes with a Week 24 capstone combining vibration, volume/pitch, and everyday sounds in one story. Term 7 covers forces: Week 25 introduces push (moves something away) and pull (moves something toward you), Week 26 teaches that a force can start/stop/speed up/slow down/change the direction of motion, Week 27 covers floating and sinking grounded in specific example materials (rejecting the misconception that size alone determines floating/sinking), and Term 7 closes with a Week 28 capstone combining push/pull, motion changes, and floating/sinking in one story. Term 8 shifts to health and the human body: Week 29 covers the everyday body parts -- eyes, ears, nose, hands, and legs and feet -- and the specific job each one does, Week 30 distinguishes growing foods like rice, vegetables, fish, and fruit from sometimes treats like candy and fizzy drinks, Week 31 covers keeping clean (hand washing, bathing, brushing teeth), getting enough rest, and staying active through exercise, and Term 8 closes with a Week 32 capstone combining body parts, growing foods versus treats, and healthy habits in one story. Term 9 introduces a brand-new growth-and-life-cycle strand: Week 33 compares what a baby can do to what a growing child like Moe Moe or Nay Chi can do now, tracing the baby-toddler-child progression, Week 34 covers baby animal life cycles using concrete examples (egg to chick to hen, tadpole to frog, puppy to dog, kitten to cat, calf to cow), Week 35 reflects on personal growth (growing taller, losing a baby tooth, learning new skills) and explicitly ties that growth back to Term 8's healthy habits, and the Year 1 Science course closes with a Week 36 capstone combining baby-to-child growth, baby animal life cycles, and personal growth in one final story.",
   descriptionMy:
-      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သိပ္ပံသင်တန်း -- ဣန္ဒြေငါးပါး ဖြစ်သည့် အမြင်၊ အကြား၊ အနံ့၊ အရသာနှင့် အထိအတွေ့တို့ဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ၊ မည်သည့်ဣန္ဒြေဖြင့် မည်သည့်အရာမျိုးကို ရိပ်စားနိုင်သည်ကို လေ့လာပြီး၊ ဒုတိယအပတ်တွင် ထိုလေ့ကျင့်မှုကို အခြေခံကာ ရိုးရှင်းသော အသက်အရွယ်နှင့် ကိုက်ညီသည့် စံနှုန်းများ (သက်ရှိအရာများသည် ကြီးထွားနိုင်ခြင်း၊ အစားအစာနှင့် ရေလိုအပ်ခြင်း၊ ကိုယ်တိုင်ရွေ့လျားနိုင်ခြင်း) ဖြင့် သက်ရှိနှင့် သက်မဲ့အရာများကို ခွဲခြားသတ်မှတ်ကာ၊ တတိယအပတ်တွင် အပင်၏ အစိတ်အပိုင်းများ -- အမြစ်၊ ပင်စည်၊ အရွက်နှင့် ပန်း -- ကိုလည်းကောင်း၊ အပင်တစ်ပင် ကြီးထွားရန် လိုအပ်သည့်အရာများ -- နေရောင်ခြည်၊ ရေ၊ လေနှင့် မြေဆီလွှာ -- ကိုလည်းကောင်း ဦးစားပေးလေ့လာပြီး၊ ပထမနှစ်ဝက်ကို စတုတ္ထအပတ်တွင် ဣန္ဒြေများ၊ သက်ရှိ/သက်မဲ့ ခွဲခြားခြင်းနှင့် အပင်ဆိုင်ရာ အသိပညာများကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်တွင် တိရစ္ဆာန်ဆိုင်ရာ အပိုင်းကို ဆက်လက်လေ့လာသည် -- ပဉ္စမအပတ်တွင် မြန်မာ့ပတ်ဝန်းကျင်ရှိ တိရစ္ဆာန်များကို အိမ်မွေးတိရစ္ဆာန်နှင့် သားရဲတိရစ္ဆာန်အဖြစ် ခွဲခြားပြီး၊ ဆဌမအပတ်တွင် တိရစ္ဆာန်များ မည်သို့ ရွေ့လျားပုံနှင့် ခန္ဓာကိုယ်ဖုံးအုပ်ပုံ (အမွေး၊ တောင်ပံ၊ အကြေးမွှား၊ ပျံနိုင်ခြင်း/မပျံနိုင်ခြင်း) ကိုလည်းကောင်း၊ သတ္တမအပတ်တွင် ပထမနှစ်ဝက်၏ အပင်လိုအပ်ချက် ပုံစံကို တိရစ္ဆာန်များအတွက် ပြန်လည်အသုံးချကာ အစားအစာ၊ ရေ၊ လေ၊ ခိုလှုံရာနေရာနှင့် လူတစ်ဦး၏ ဂရုစိုက်မှုတို့ကိုလည်းကောင်း လေ့လာပြီး၊ ဒုတိယနှစ်ဝက်ကို အဌမအပတ်တွင် တိရစ္ဆာန်ဆိုင်ရာ အပိုင်းသုံးခုလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်တွင် နေ့စဉ်သုံးပစ္စည်းများသို့ ကူးပြောင်းသည် -- နဝမအပတ်တွင် ပစ္စည်းအမျိုးအစားများ (သစ်သား၊ ပလတ်စတစ်၊ သတ္တု၊ ဖန်၊ အထည်၊ စက္ကူ) နှင့် ပစ္စည်းများ ဘာဖြင့်ပြုလုပ်ထားသည်ကို မိတ်ဆက်ပြီး၊ ဒသမအပတ်တွင် ရိုးရှင်းသော ပစ္စည်းဂုဏ်သတ္တိများ (မာခြင်း/နူးညံ့ခြင်း၊ ကြမ်းတမ်းခြင်း/ချောမွေ့ခြင်း၊ ကွေးနိုင်ခြင်း/မာကျောခြင်း၊ ရေစိုခံခြင်း/မခံခြင်း) ကို သင်ကြားပြီး၊ ဧကာဒသမအပတ်တွင် ထိုဂုဏ်သတ္တိများကို အလုပ်တစ်ခုအတွက် ပစ္စည်းရွေးချယ်ခြင်းဆိုင်ရာ လက်တွေ့ဘဝ ကျိုးကြောင်းဆီလျော်မှုနှင့် ဆက်စပ်ပြီး၊ တတိယနှစ်ဝက်ကို ဒွါဒသမအပတ်တွင် ပစ္စည်းအမျိုးအစား၊ ဂုဏ်သတ္တိနှင့် အလုပ်နှင့်ကိုက်ညီမှု ကျိုးကြောင်းဆီလျော်မှုတို့ကို ပေါင်းစပ်ထားသည့် စီမံကိန်းပုံစံ ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်တွင် မြန်မာနိုင်ငံ၏ အမှန်တကယ်ရာသီဥတုအခြေအနေအပေါ် အခြေခံ၍ ရာသီဥတုကို လေ့လာသည် -- တေရသမအပတ်တွင် တွေ့မြင်နိုင်သော ရာသီဥတုအမျိုးအစားများ (နေသာခြင်း၊ မိုးရွာခြင်း၊ တိမ်ထူခြင်း၊ လေတိုက်ခြင်း၊ မုန်တိုင်းခြင်း) ကို မိတ်ဆက်ပြီး၊ စတုဒ္ဒသအပတ်တွင် မြန်မာ့ရာသီသုံးမျိုး -- နွေရာသီ၊ မိုးရာသီနှင့် ဆောင်းရာသီ (မိုးပွင့်ဆောင်းရာသီ မဟုတ်ကြောင်း ရှင်းလင်းစွာဖော်ပြသည်) -- ကိုလည်းကောင်း၊ ပဉ္စဒသမအပတ်တွင် ရာသီဥတု/ရာသီဆိုင်ရာ အသိပညာကို မှန်ကန်သော အဝတ်အစားရွေးချယ်ခြင်းနှင့် ပြင်ဆင်ခြင်းနှင့် ဆက်စပ်ကာလည်းကောင်း လေ့လာပြီး၊ စတုတ္ထနှစ်ဝက်ကို ဆောဠသအပတ်တွင် ရာသီဥတုစောင့်ကြည့်ခြင်း၊ ရာသီများနှင့် ပြင်ဆင်ခြင်းတို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်တွင် အလင်းနှင့် အမှောင်ကို လေ့လာပြီး၊ အများအားဖြင့် ကလေးများ နားလည်မှားတတ်သော အချက်များကို သတိထားရှောင်ရှားသည် -- အပတ် ၁၇ တွင် ကိုယ်တိုင်အလင်းရောင်ထုတ်လုပ်သော ရင်းမြစ်များ (နေ၊ လက်နှိပ်ဓာတ်မီး၊ ဖယောင်းတိုင်) နှင့် အလင်းရောင်ကို ရောင်ပြန်ဟပ်သာပေးသော အရာများ (မှန်၊ ကိုယ်တိုင်အလင်းရောင် ဘယ်တော့မှ မထုတ်လုပ်သော လ) ကို မိတ်ဆက်ပြီး၊ အပတ် ၁၈ တွင် နေ့နှင့်ညကို ရိုးရှင်းသော အသက်အရွယ်နှင့်ကိုက်ညီသည့် ပုံစံဖြင့် သင်ကြားကာ၊ အပတ် ၁၉ တွင် အခိုင်အမာအရာတစ်ခုက အလင်းရောင်ကို ပိတ်ဆို့သောအခါ အရိပ်ဖြစ်ပေါ်လာပုံကို လေ့လာပြီး၊ ပဉ္စမနှစ်ဝက်ကို အပတ် ၂၀ တွင် အလင်းရင်းမြစ်များ၊ နေ့ညနှင့် အရိပ်တို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်တွင် အသံကို လေ့လာသည် -- အပတ် ၂၁ တွင် တုန်ခါမှုကြောင့် အသံဖြစ်ပေါ်ပုံ (စည်၊ ကြိုးတစ်ချောင်း၊ အသံကြိုးများ၊ ခေါင်းလောင်း) ကို မိတ်ဆက်ပြီး၊ အပတ် ၂၂ တွင် အသံကျယ်/အသံငြိမ့် (အသံအားနှင့်ပတ်သက်) နှင့် အသံမြင့်/အသံနိမ့် (အသံအနိမ့်အမြင့်နှင့်ပတ်သက်) တို့သည် ကွဲပြားသော ဂုဏ်သတ္တိနှစ်ခုဖြစ်ကြောင်း သင်ကြားကာ၊ အပတ် ၂၃ တွင် နေ့စဉ်ပတ်ဝန်းကျင်ရှိ အသံများကို ခွဲခြားသိမြင်ခြင်းနှင့် အသံကို မည်သို့ ပိတ်ဆို့နိုင်သည်ကို လေ့လာပြီး၊ ဆဌမနှစ်ဝက်ကို အပတ် ၂၄ တွင် တုန်ခါမှု၊ အသံအား/အနိမ့်အမြင့်နှင့် နေ့စဉ်အသံများကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်တွင် အင်အားများကို လေ့လာသည် -- အပတ် ၂၅ တွင် တွန်းခြင်း (ဝေးရာသို့ ရွေ့စေခြင်း) နှင့် ဆွဲခြင်း (နီးရာသို့ ရွေ့စေခြင်း) ကို မိတ်ဆက်ပြီး၊ အပတ် ၂၆ တွင် အင်အားတစ်ခုက ရွေ့လျားမှုကို စတင်/ရပ်တန့်/မြန်လာ/နှေးလာ/လမ်းကြောင်းပြောင်းလဲ စေနိုင်ကြောင်း သင်ကြားကာ၊ အပတ် ၂၇ တွင် ရေပေါ်မျောခြင်းနှင့် ရေထဲနစ်ခြင်းကို သီးခြားပစ္စည်းများအပေါ် အခြေခံ၍ လေ့လာပြီး (အရွယ်အစားအရ မျော/နစ် ဆုံးဖြတ်သည်ဟူသော အထင်အမှားကို ငြင်းပယ်ကာ)၊ သတ္တမနှစ်ဝက်ကို အပတ် ၂၈ တွင် တွန်းခြင်း/ဆွဲခြင်း၊ ရွေ့လျားမှု ပြောင်းလဲခြင်းနှင့် မျော/နစ်ခြင်းတို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
+      "ပထမတန်း၏ ပထမဆုံး ပညာသင်နှစ် သိပ္ပံသင်တန်း -- ဣန္ဒြေငါးပါး ဖြစ်သည့် အမြင်၊ အကြား၊ အနံ့၊ အရသာနှင့် အထိအတွေ့တို့ဖြင့် စတင်သည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ၊ မည်သည့်ဣန္ဒြေဖြင့် မည်သည့်အရာမျိုးကို ရိပ်စားနိုင်သည်ကို လေ့လာပြီး၊ ဒုတိယအပတ်တွင် ထိုလေ့ကျင့်မှုကို အခြေခံကာ ရိုးရှင်းသော အသက်အရွယ်နှင့် ကိုက်ညီသည့် စံနှုန်းများ (သက်ရှိအရာများသည် ကြီးထွားနိုင်ခြင်း၊ အစားအစာနှင့် ရေလိုအပ်ခြင်း၊ ကိုယ်တိုင်ရွေ့လျားနိုင်ခြင်း) ဖြင့် သက်ရှိနှင့် သက်မဲ့အရာများကို ခွဲခြားသတ်မှတ်ကာ၊ တတိယအပတ်တွင် အပင်၏ အစိတ်အပိုင်းများ -- အမြစ်၊ ပင်စည်၊ အရွက်နှင့် ပန်း -- ကိုလည်းကောင်း၊ အပင်တစ်ပင် ကြီးထွားရန် လိုအပ်သည့်အရာများ -- နေရောင်ခြည်၊ ရေ၊ လေနှင့် မြေဆီလွှာ -- ကိုလည်းကောင်း ဦးစားပေးလေ့လာပြီး၊ ပထမနှစ်ဝက်ကို စတုတ္ထအပတ်တွင် ဣန္ဒြေများ၊ သက်ရှိ/သက်မဲ့ ခွဲခြားခြင်းနှင့် အပင်ဆိုင်ရာ အသိပညာများကို ပေါင်းစပ်ထားသည့် လက်တွေ့ဘဝ ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်တွင် တိရစ္ဆာန်ဆိုင်ရာ အပိုင်းကို ဆက်လက်လေ့လာသည် -- ပဉ္စမအပတ်တွင် မြန်မာ့ပတ်ဝန်းကျင်ရှိ တိရစ္ဆာန်များကို အိမ်မွေးတိရစ္ဆာန်နှင့် သားရဲတိရစ္ဆာန်အဖြစ် ခွဲခြားပြီး၊ ဆဌမအပတ်တွင် တိရစ္ဆာန်များ မည်သို့ ရွေ့လျားပုံနှင့် ခန္ဓာကိုယ်ဖုံးအုပ်ပုံ (အမွေး၊ တောင်ပံ၊ အကြေးမွှား၊ ပျံနိုင်ခြင်း/မပျံနိုင်ခြင်း) ကိုလည်းကောင်း၊ သတ္တမအပတ်တွင် ပထမနှစ်ဝက်၏ အပင်လိုအပ်ချက် ပုံစံကို တိရစ္ဆာန်များအတွက် ပြန်လည်အသုံးချကာ အစားအစာ၊ ရေ၊ လေ၊ ခိုလှုံရာနေရာနှင့် လူတစ်ဦး၏ ဂရုစိုက်မှုတို့ကိုလည်းကောင်း လေ့လာပြီး၊ ဒုတိယနှစ်ဝက်ကို အဌမအပတ်တွင် တိရစ္ဆာန်ဆိုင်ရာ အပိုင်းသုံးခုလုံးကို ပေါင်းစပ်ထားသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်တွင် နေ့စဉ်သုံးပစ္စည်းများသို့ ကူးပြောင်းသည် -- နဝမအပတ်တွင် ပစ္စည်းအမျိုးအစားများ (သစ်သား၊ ပလတ်စတစ်၊ သတ္တု၊ ဖန်၊ အထည်၊ စက္ကူ) နှင့် ပစ္စည်းများ ဘာဖြင့်ပြုလုပ်ထားသည်ကို မိတ်ဆက်ပြီး၊ ဒသမအပတ်တွင် ရိုးရှင်းသော ပစ္စည်းဂုဏ်သတ္တိများ (မာခြင်း/နူးညံ့ခြင်း၊ ကြမ်းတမ်းခြင်း/ချောမွေ့ခြင်း၊ ကွေးနိုင်ခြင်း/မာကျောခြင်း၊ ရေစိုခံခြင်း/မခံခြင်း) ကို သင်ကြားပြီး၊ ဧကာဒသမအပတ်တွင် ထိုဂုဏ်သတ္တိများကို အလုပ်တစ်ခုအတွက် ပစ္စည်းရွေးချယ်ခြင်းဆိုင်ရာ လက်တွေ့ဘဝ ကျိုးကြောင်းဆီလျော်မှုနှင့် ဆက်စပ်ပြီး၊ တတိယနှစ်ဝက်ကို ဒွါဒသမအပတ်တွင် ပစ္စည်းအမျိုးအစား၊ ဂုဏ်သတ္တိနှင့် အလုပ်နှင့်ကိုက်ညီမှု ကျိုးကြောင်းဆီလျော်မှုတို့ကို ပေါင်းစပ်ထားသည့် စီမံကိန်းပုံစံ ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်တွင် မြန်မာနိုင်ငံ၏ အမှန်တကယ်ရာသီဥတုအခြေအနေအပေါ် အခြေခံ၍ ရာသီဥတုကို လေ့လာသည် -- တေရသမအပတ်တွင် တွေ့မြင်နိုင်သော ရာသီဥတုအမျိုးအစားများ (နေသာခြင်း၊ မိုးရွာခြင်း၊ တိမ်ထူခြင်း၊ လေတိုက်ခြင်း၊ မုန်တိုင်းခြင်း) ကို မိတ်ဆက်ပြီး၊ စတုဒ္ဒသအပတ်တွင် မြန်မာ့ရာသီသုံးမျိုး -- နွေရာသီ၊ မိုးရာသီနှင့် ဆောင်းရာသီ (မိုးပွင့်ဆောင်းရာသီ မဟုတ်ကြောင်း ရှင်းလင်းစွာဖော်ပြသည်) -- ကိုလည်းကောင်း၊ ပဉ္စဒသမအပတ်တွင် ရာသီဥတု/ရာသီဆိုင်ရာ အသိပညာကို မှန်ကန်သော အဝတ်အစားရွေးချယ်ခြင်းနှင့် ပြင်ဆင်ခြင်းနှင့် ဆက်စပ်ကာလည်းကောင်း လေ့လာပြီး၊ စတုတ္ထနှစ်ဝက်ကို ဆောဠသအပတ်တွင် ရာသီဥတုစောင့်ကြည့်ခြင်း၊ ရာသီများနှင့် ပြင်ဆင်ခြင်းတို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်တွင် အလင်းနှင့် အမှောင်ကို လေ့လာပြီး၊ အများအားဖြင့် ကလေးများ နားလည်မှားတတ်သော အချက်များကို သတိထားရှောင်ရှားသည် -- အပတ် ၁၇ တွင် ကိုယ်တိုင်အလင်းရောင်ထုတ်လုပ်သော ရင်းမြစ်များ (နေ၊ လက်နှိပ်ဓာတ်မီး၊ ဖယောင်းတိုင်) နှင့် အလင်းရောင်ကို ရောင်ပြန်ဟပ်သာပေးသော အရာများ (မှန်၊ ကိုယ်တိုင်အလင်းရောင် ဘယ်တော့မှ မထုတ်လုပ်သော လ) ကို မိတ်ဆက်ပြီး၊ အပတ် ၁၈ တွင် နေ့နှင့်ညကို ရိုးရှင်းသော အသက်အရွယ်နှင့်ကိုက်ညီသည့် ပုံစံဖြင့် သင်ကြားကာ၊ အပတ် ၁၉ တွင် အခိုင်အမာအရာတစ်ခုက အလင်းရောင်ကို ပိတ်ဆို့သောအခါ အရိပ်ဖြစ်ပေါ်လာပုံကို လေ့လာပြီး၊ ပဉ္စမနှစ်ဝက်ကို အပတ် ၂၀ တွင် အလင်းရင်းမြစ်များ၊ နေ့ညနှင့် အရိပ်တို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်တွင် အသံကို လေ့လာသည် -- အပတ် ၂၁ တွင် တုန်ခါမှုကြောင့် အသံဖြစ်ပေါ်ပုံ (စည်၊ ကြိုးတစ်ချောင်း၊ အသံကြိုးများ၊ ခေါင်းလောင်း) ကို မိတ်ဆက်ပြီး၊ အပတ် ၂၂ တွင် အသံကျယ်/အသံငြိမ့် (အသံအားနှင့်ပတ်သက်) နှင့် အသံမြင့်/အသံနိမ့် (အသံအနိမ့်အမြင့်နှင့်ပတ်သက်) တို့သည် ကွဲပြားသော ဂုဏ်သတ္တိနှစ်ခုဖြစ်ကြောင်း သင်ကြားကာ၊ အပတ် ၂၃ တွင် နေ့စဉ်ပတ်ဝန်းကျင်ရှိ အသံများကို ခွဲခြားသိမြင်ခြင်းနှင့် အသံကို မည်သို့ ပိတ်ဆို့နိုင်သည်ကို လေ့လာပြီး၊ ဆဌမနှစ်ဝက်ကို အပတ် ၂၄ တွင် တုန်ခါမှု၊ အသံအား/အနိမ့်အမြင့်နှင့် နေ့စဉ်အသံများကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်တွင် အင်အားများကို လေ့လာသည် -- အပတ် ၂၅ တွင် တွန်းခြင်း (ဝေးရာသို့ ရွေ့စေခြင်း) နှင့် ဆွဲခြင်း (နီးရာသို့ ရွေ့စေခြင်း) ကို မိတ်ဆက်ပြီး၊ အပတ် ၂၆ တွင် အင်အားတစ်ခုက ရွေ့လျားမှုကို စတင်/ရပ်တန့်/မြန်လာ/နှေးလာ/လမ်းကြောင်းပြောင်းလဲ စေနိုင်ကြောင်း သင်ကြားကာ၊ အပတ် ၂၇ တွင် ရေပေါ်မျောခြင်းနှင့် ရေထဲနစ်ခြင်းကို သီးခြားပစ္စည်းများအပေါ် အခြေခံ၍ လေ့လာပြီး (အရွယ်အစားအရ မျော/နစ် ဆုံးဖြတ်သည်ဟူသော အထင်အမှားကို ငြင်းပယ်ကာ)၊ သတ္တမနှစ်ဝက်ကို အပတ် ၂၈ တွင် တွန်းခြင်း/ဆွဲခြင်း၊ ရွေ့လျားမှု ပြောင်းလဲခြင်းနှင့် မျော/နစ်ခြင်းတို့ကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်တွင် ကျန်းမာရေးနှင့် လူ့ခန္ဓာကိုယ်ဆီသို့ ကူးပြောင်းသည် -- အပတ် ၂၉ တွင် နေ့စဉ်အသုံးများသော ခန္ဓာကိုယ်အစိတ်အပိုင်းများ -- မျက်လုံး၊ နား၊ နှာခေါင်း၊ လက်များနှင့် ခြေထောက်များနှင့် ခြေဖျားများ -- နှင့် တစ်ခုစီ၏ တိကျသောတာဝန်ကို လေ့လာပြီး၊ အပတ် ၃၀ တွင် ထမင်း၊ ဟင်းသီးဟင်းရွက်၊ ငါးနှင့် အသီးအနှံကဲ့သို့ ကြီးထွားစေသောအစာများနှင့် သကြားလုံးနှင့် ဖျော်ရည်ဗူးကဲ့သို့ တစ်ခါတစ်ရံအထူးပြုများကို ခွဲခြားပြီး၊ အပတ် ၃၁ တွင် သန့်ရှင်းစွာနေထိုင်ခြင်း (လက်ဆေးခြင်း၊ ရေချိုးခြင်း၊ သွားတိုက်ခြင်း)၊ အနားယူခြင်း အလုံအလောက်ရရှိခြင်းနှင့် လေ့ကျင့်ခန်းဖြင့် လှုပ်ရှားနေထိုင်ခြင်းကို လေ့လာပြီး၊ အဌမနှစ်ဝက်ကို အပတ် ၃၂ တွင် ခန္ဓာကိုယ်အစိတ်အပိုင်းများ၊ ကြီးထွားစေသောအစာနှင့် တစ်ခါတစ်ရံအထူးပြု ခွဲခြားခြင်းနှင့် ကျန်းမာသောအလေ့အထများကို ပေါင်းစပ်ထားသည့် ဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်တွင် ကြီးထွားမှုနှင့် ဘဝသံသရာဆိုင်ရာ လုံးဝအသစ်သော အပိုင်းတစ်ခုကို မိတ်ဆက်သည် -- အပတ် ၃၃ တွင် မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သည်နှင့် မိုးမိုး (သို့) နေချည်ကဲ့သို့ ကြီးထွားနေသော ကလေးတစ်ဦး ယခုလုပ်နိုင်သည်ကို နှိုင်းယှဉ်ကာ မွေးကင်းစ-လမ်းစတမ်း-ကလေးအရွယ် တိုးတက်မှုကို ခြေရာခံပြီး၊ အပတ် ၃၄ တွင် တိရစ္ဆာန်ကလေးများ၏ဘဝသံသရာကို တိကျသောဥပမာများ (ဥမှ ကြက်ကလေးသို့ ကြက်မ၊ ဖားပုတီးမှ ဖား၊ ခွေးကလေးမှ ခွေး၊ ကြောင်ကလေးမှ ကြောင်၊ နွားငယ်လေးမှ နွား) ဖြင့် လေ့လာပြီး၊ အပတ် ၃၅ တွင် ကိုယ်ပိုင်ကြီးထွားမှု (ပိုမြင့်လာခြင်း၊ သွားကလွတ်ကျွတ်ထွက်ခြင်း၊ ကျွမ်းကျင်မှုအသစ်များ သင်ယူခြင်း) ကို ပြန်လည်သုံးသပ်ကာ ထိုကြီးထွားမှုကို အဌမနှစ်ဝက်၏ ကျန်းမာသောအလေ့အထများနှင့် ရှင်းလင်းစွာ ဆက်စပ်ပြီး၊ ပထမတန်း သိပ္ပံသင်တန်းကို အပတ် ၃၆ တွင် မွေးကင်းစမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်း၊ တိရစ္ဆာန်ကလေးများ၏ဘဝသံသရာနှင့် ကိုယ်ပိုင်ကြီးထွားမှုတို့ကို ပေါင်းစပ်ထားသည့် နောက်ဆုံးဇာတ်လမ်းတစ်ခုနှင့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _year1ScienceTerm1,
@@ -66870,6 +66870,8 @@ const CoursePathwayDef year1SciencePathway = CoursePathwayDef(
     _year1ScienceTerm5,
     _year1ScienceTerm6,
     _year1ScienceTerm7,
+    _year1ScienceTerm8,
+    _year1ScienceTerm9,
   ],
 );
 
@@ -131869,5 +131871,3958 @@ const CourseTermDef _year4EnglishTerm9 = CourseTermDef(
     _year4EnglishWeek34,
     _year4EnglishWeek35,
     _year4EnglishWeek36,
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 8, Week 29: "Our Amazing Body Parts"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek29 = CourseWeekDef(
+  id: "course-year1-science-w29",
+  weekNumber: 29,
+  titleEn: "Our Amazing Body Parts",
+  titleMy: "ကျွန်ုပ်တို့၏ အံ့သြဖွယ် ခန္ဓာကိုယ်အစိတ်အပိုင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w29-d1",
+      dayNumber: 1,
+      titleEn: "What Does Each Body Part Do?",
+      titleMy: "ခန္ဓာကိုယ်အစိတ်အပိုင်းတစ်ခုစီ ဘာလုပ်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Moe Moe wants to catch a ball that Nay Chi throws to her. Which body parts does Moe Moe use first to see the ball coming and then to catch it?",
+          questionMy:
+              "မိုးမိုးသည် နေချည် ပစ်လိုက်သော ဘောလုံးကို ဖမ်းလိုသည်။ ဘောလုံးလာနေသည်ကို မြင်ရန်နှင့် ဖမ်းရန် မိုးမိုးသည် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းများကို အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Her eyes to see it, then her hands to catch it",
+            "Her nose to see it, then her feet to catch it",
+            "Her ears to see it, then her mouth to catch it",
+            "Her hair to see it, then her knees to catch it",
+          ],
+          optionsMy: [
+            "မြင်ရန် မျက်လုံးနှင့် ဖမ်းရန် လက်များ",
+            "မြင်ရန် နှာခေါင်းနှင့် ဖမ်းရန် ခြေထောက်များ",
+            "မြင်ရန် နားနှင့် ဖမ်းရန် ပါးစပ်",
+            "မြင်ရန် ဆံပင်နှင့် ဖမ်းရန် ဒူးများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which body part lets you watch something moving toward you.",
+            "Think about which body parts you use to grip and hold onto something, like a ball.",
+          ],
+          hintsMy: [
+            "ကိုယ့်ဘက်သို့ ရွေ့လာနေသောအရာကို ကြည့်ရှုနိုင်ရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းက ကူညီသနည်းဟု စဉ်းစားပါ။",
+            "ဘောလုံးလိုအရာတစ်ခုကို ဆုပ်ကိုင်ဖမ်းစားရန် မည်သည့်အစိတ်အပိုင်းများကို အသုံးပြုသနည်းဟု စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's mother is cooking curry in the kitchen. Nay Chi can tell it is delicious even before she tastes it, because a wonderful smell fills the whole house. Which body part is Nay Chi using?",
+          questionMy:
+              "နေချည်၏ အမေသည် မီးဖိုချောင်တွင် ဟင်းလျာချက်ပြုတ်နေသည်။ နေချည်သည် မြည်းစမ်းမကြည့်မီပင် ကောင်းမွန်စွာ ရရနံ့တစ်ခုက အိမ်တစ်လုံးလုံးကို ပျံ့နှံ့သောကြောင့် စားစရာကောင်းမည်ဟု သိနိုင်သည်။ နေချည်သည် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုနေသနည်း။",
+          optionsEn: [
+            "Her nose, to smell the curry",
+            "Her ears, to smell the curry",
+            "Her elbows, to smell the curry",
+            "Her hair, to smell the curry",
+          ],
+          optionsMy: [
+            "အနံ့ခံရန် နှာခေါင်း",
+            "အနံ့ခံရန် နား",
+            "အနံ့ခံရန် တံတောင်ဆစ်",
+            "အနံ့ခံရန် ဆံပင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 1's lesson on the five senses -- which sense is for smelling things?",
+            "Think about the body part in the middle of your face that you breathe through.",
+          ],
+          hintsMy: [
+            "Term 1 ၏ ဣန္ဒြေငါးပါးသင်ခန်းစာကို ပြန်လည်သတိရပါ -- မည်သည့်ဣန္ဒြေက အနံ့ခံရန်ဖြစ်သနည်း။",
+            "မျက်နှာအလယ်တွင်ရှိပြီး သင်အသက်ရှူသောအစိတ်အပိုင်းကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At school, Moe Moe's teacher rings a small bell to tell the class it is time to line up. Moe Moe hears the bell from across the playground. Which body part lets her hear it?",
+          questionMy:
+              "ကျောင်းတွင် မိုးမိုး၏ ဆရာမက အတန်းအား တန်းစီရန် အချိန်ရောက်ကြောင်း ခေါင်းလောင်းငယ်တစ်ခု ဆွဲသည်။ မိုးမိုးသည် ကစားကွင်းတစ်ဖက်မှ ခေါင်းလောင်းသံကို ကြားရသည်။ ကြားနိုင်ရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းက ကူညီသနည်း။",
+          optionsEn: [
+            "Her ears",
+            "Her elbows",
+            "Her knees",
+            "Her tongue",
+          ],
+          optionsMy: [
+            "သူ၏ နား",
+            "သူ၏ တံတောင်ဆစ်",
+            "သူ၏ ဒူး",
+            "သူ၏ လျှာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 21's lesson on sound -- which body part lets you hear a bell ringing?",
+            "Think about the body part on each side of your head.",
+          ],
+          hintsMy: [
+            "Week 21 ၏ အသံသင်ခန်းစာကို ပြန်လည်သတိရပါ -- ခေါင်းလောင်းသံကြားရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းက ကူညီသနည်း။",
+            "သင့်ဦးခေါင်း၏ နှစ်ဖက်တွင်ရှိသော အစိတ်အပိုင်းကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi wants to run to the other side of the playground to join her friends. Which body parts does she use most to run there?",
+          questionMy:
+              "နေချည်သည် ကစားကွင်း တစ်ဖက်ခြမ်းရှိ သူငယ်ချင်းများထံ ပြေးသွားလိုသည်။ ထိုနေရာသို့ ပြေးရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းများကို အများဆုံး အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Her legs and feet",
+            "Her nose and mouth",
+            "Her eyes and ears only",
+            "Her hair and elbows",
+          ],
+          optionsMy: [
+            "သူ၏ ခြေထောက်များနှင့် ခြေဖျားများ",
+            "သူ၏ နှာခေါင်းနှင့် ပါးစပ်",
+            "သူ၏ မျက်လုံးနှင့် နားသာ",
+            "သူ၏ ဆံပင်နှင့် တံတောင်ဆစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which body parts push against the ground to move your whole body forward.",
+            "Legs and feet work together for walking, running, and jumping.",
+          ],
+          hintsMy: [
+            "ခန္ဓာကိုယ်တစ်ကိုယ်လုံးကို ရှေ့သို့ ရွေ့စေရန် မည်သည့်အစိတ်အပိုင်းများက မြေပြင်ကို တွန်းအားပေးသနည်းဟု စဉ်းစားပါ။",
+            "လမ်းလျှောက်ခြင်း၊ ပြေးခြင်းနှင့် ခုန်ခြင်းအတွက် ခြေထောက်နှင့် ခြေဖျားတို့ ပူးပေါင်းအလုပ်လုပ်ကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w29-d2",
+      dayNumber: 2,
+      titleEn: "Body Part Match-Up",
+      titleMy: "ခန္ဓာကိုယ်အစိတ်အပိုင်း တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w29-dm-1",
+          termEn: "Eyes",
+          termMy: "မျက်လုံး",
+          matchEn: "The body part you use to see the colors and shapes around you.",
+          matchMy: "သင့်ပတ်ဝန်းကျင်ရှိ အရောင်များနှင့် ပုံသဏ္ဌာန်များကို မြင်ရန် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w29-dm-2",
+          termEn: "Ears",
+          termMy: "နား",
+          matchEn: "The body part on each side of your head that lets you hear sounds.",
+          matchMy: "ဦးခေါင်း၏ နှစ်ဖက်တွင်ရှိပြီး အသံများကို ကြားစေသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w29-dm-3",
+          termEn: "Nose",
+          termMy: "နှာခေါင်း",
+          matchEn: "The body part in the middle of your face used for smelling and breathing.",
+          matchMy: "မျက်နှာအလယ်တွင်ရှိပြီး အနံ့ခံခြင်းနှင့် အသက်ရှူခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w29-dm-4",
+          termEn: "Hands",
+          termMy: "လက်များ",
+          matchEn: "The body parts at the end of your arms used for holding, catching, and touching things.",
+          matchMy: "လက်မောင်းအဆုံးတွင်ရှိပြီး ကိုင်ဆွဲခြင်း၊ ဖမ်းစားခြင်းနှင့် ထိတွေ့ခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w29-dm-5",
+          termEn: "Legs and Feet",
+          termMy: "ခြေထောက်များနှင့် ခြေဖျားများ",
+          matchEn: "The body parts used for walking, running, and jumping from place to place.",
+          matchMy: "တစ်နေရာမှ တစ်နေရာသို့ လမ်းလျှောက်ခြင်း၊ ပြေးခြင်းနှင့် ခုန်ခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFFFF8A65,
+        ),
+        DragMatchPair(
+          id: "y1sci-w29-dm-6",
+          termEn: "Mouth",
+          termMy: "ပါးစပ်",
+          matchEn: "The body part used for eating, tasting, and speaking to others.",
+          matchMy: "စားခြင်း၊ အရသာခံခြင်းနှင့် အခြားသူများနှင့် စကားပြောခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFFE57373,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w29-d3",
+      dayNumber: 3,
+      titleEn: "Which Body Part Does This Job?",
+      titleMy: "ဤအလုပ်ကို မည်သည့်ခန္ဓာကိုယ်အစိတ်အပိုင်းက လုပ်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Seeing and Hearing", "Moving and Holding"],
+        bucketsMy: ["မြင်ခြင်းနှင့် ကြားခြင်း", "ရွေ့လျားခြင်းနှင့် ကိုင်ဆွဲခြင်း"],
+        items: [
+          SortingItem(
+            id: "y1sci-w29-sort-1",
+            labelEn: "Eyes",
+            labelMy: "မျက်လုံး",
+            correctBucketEn: "Seeing and Hearing",
+            correctBucketMy: "မြင်ခြင်းနှင့် ကြားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-2",
+            labelEn: "Legs",
+            labelMy: "ခြေထောက်",
+            correctBucketEn: "Moving and Holding",
+            correctBucketMy: "ရွေ့လျားခြင်းနှင့် ကိုင်ဆွဲခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-3",
+            labelEn: "Ears",
+            labelMy: "နား",
+            correctBucketEn: "Seeing and Hearing",
+            correctBucketMy: "မြင်ခြင်းနှင့် ကြားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-4",
+            labelEn: "Hands",
+            labelMy: "လက်များ",
+            correctBucketEn: "Moving and Holding",
+            correctBucketMy: "ရွေ့လျားခြင်းနှင့် ကိုင်ဆွဲခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-5",
+            labelEn: "Feet",
+            labelMy: "ခြေဖျား",
+            correctBucketEn: "Moving and Holding",
+            correctBucketMy: "ရွေ့လျားခြင်းနှင့် ကိုင်ဆွဲခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-6",
+            labelEn: "Arms",
+            labelMy: "လက်မောင်း",
+            correctBucketEn: "Moving and Holding",
+            correctBucketMy: "ရွေ့လျားခြင်းနှင့် ကိုင်ဆွဲခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-7",
+            labelEn: "Eyes for reading",
+            labelMy: "စာဖတ်ရန် မျက်လုံး",
+            correctBucketEn: "Seeing and Hearing",
+            correctBucketMy: "မြင်ခြင်းနှင့် ကြားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w29-sort-8",
+            labelEn: "Ears for music",
+            labelMy: "တေးဂီတအတွက် နား",
+            correctBucketEn: "Seeing and Hearing",
+            correctBucketMy: "မြင်ခြင်းနှင့် ကြားခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w29-d4",
+      dayNumber: 4,
+      titleEn: "Moe Moe's Busy Body",
+      titleMy: "မိုးမိုး၏ လှုပ်ရှားနေသော ခန္ဓာကိုယ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Busy Body",
+        titleMy: "မိုးမိုး၏ လှုပ်ရှားနေသော ခန္ဓာကိုယ်",
+        passageEn:
+            "On Monday morning, Moe Moe woke up when she heard her mother calling her name from the kitchen. She opened her eyes and looked at the bright sunlight coming through the window. Before getting out of bed, she stretched her arms and legs, wiggling her fingers and toes to wake her whole body up. Her mother had already made breakfast, and Moe Moe could smell the delicious rice porridge from her bedroom. She followed the smell all the way to the kitchen table, where a warm bowl was waiting for her.\n\nAt school, Moe Moe's teacher held up a big picture book and asked the class to look closely at the pictures. Moe Moe used her eyes to spot a small bird hiding behind a tree in the picture, and she raised her hand to answer. Later, during music time, the teacher played a drum, and every student had to listen carefully with their ears and clap along with the beat. Moe Moe loved this part of the day, tapping her feet under her chair to the rhythm of the drum.\n\nDuring break time, Nay Chi invited Moe Moe to play catch in the playground. Moe Moe used her legs to run to a good spot, then watched the ball carefully with her eyes as Nay Chi threw it. She reached out both hands and caught it firmly, laughing with joy. After playing, the girls were thirsty, so they used their hands to hold their water bottles and drank plenty of water before going back to class.\n\nThat evening, Moe Moe's mother asked her what she had learned that day. Moe Moe thought about everything her body had done -- seeing pictures with her eyes, hearing the drum with her ears, smelling breakfast with her nose, running and catching with her legs and hands, and even tasting her favorite curry with her mouth at dinner. She smiled and told her mother that every part of her body had a special job, and together they helped her learn and play all day long.",
+        passageMy:
+            "တနင်္လာနေ့ မနက်တွင် မိုးမိုးသည် မီးဖိုချောင်မှ အမေက သူ့နာမည်ကို ခေါ်နေသံကို ကြားပြီး နိုးထလာသည်။ သူမ မျက်လုံးဖွင့်လိုက်ပြီး ပြတင်းပေါက်မှ ဝင်လာသော အလင်းရောင်ကို ကြည့်လိုက်သည်။ အိပ်ရာမထမီ လက်နှင့်ခြေများကို ဆန့်ကာ လက်ချောင်းများနှင့် ခြေချောင်းများကို လှုပ်ရှားစေခြင်းဖြင့် ခန္ဓာကိုယ်တစ်ခုလုံးကို နိုးထစေသည်။ အမေက မနက်စာကို ရှေ့ကတည်းက ချက်ပြုတ်ထားပြီးဖြစ်၍ မိုးမိုးသည် သူ့အိပ်ခန်းမှပင် စွယ်စားသော ထမင်းပြုတ်ရနံ့ကို ရရှိသည်။ သူမသည် ထိုရနံ့ကို လိုက်ကာ မီးဖိုချောင်စားပွဲထိ ရောက်သွားပြီး ချက်ပြီးသား ပန်းကန်တစ်ခွက်ကို တွေ့ရသည်။\n\nကျောင်းတွင် မိုးမိုး၏ ဆရာမသည် ရုပ်ပုံစာအုပ်ကြီးတစ်အုပ်ကို ကိုင်ဆွဲပြီး ပုံများကို သေချာကြည့်ရန် အတန်းသားများအား တောင်းဆိုသည်။ မိုးမိုးသည် ပုံထဲရှိ သစ်ပင်နောက်တွင် ဝှက်ထားသော ငှက်ငယ်တစ်ကောင်ကို မျက်လုံးဖြင့် ရှာတွေ့ပြီး လက်မြှောက်ကာ ဖြေကြားသည်။ နောက်ပိုင်း တေးဂီတအချိန်တွင် ဆရာမက စည်ကို ရိုက်ပြီး ကျောင်းသားတိုင်း နားစွင့်ကာ စည်သံနှင့်အညီ လက်ခုပ်တီးကြရသည်။ မိုးမိုးသည် ဤအပိုင်းကို အလွန်နှစ်သက်ပြီး ကုလားထိုင်အောက်တွင် သူ့ခြေဖျားနှင့် စည်ဂီတအချိန်ကိုက်ကာ ဆတ်နေသည်။\n\nအနားယူချိန်တွင် နေချည်သည် မိုးမိုးအား ကစားကွင်း၌ ဘောလုံးဖမ်းကစားရန် ဖိတ်ခေါ်သည်။ မိုးမိုးသည် ခြေထောက်ဖြင့် ကောင်းသောနေရာသို့ ပြေးသွားပြီး နေချည်ပစ်လိုက်သော ဘောလုံးကို မျက်လုံးဖြင့် သေချာစောင့်ကြည့်သည်။ သူမသည် လက်နှစ်ဖက်ကို ဆန့်ပြီး ခိုင်မာစွာ ဖမ်းလိုက်ကာ ဝမ်းမြောက်စွာ ရယ်မောသည်။ ကစားပြီးနောက် ကလေးမနှစ်ယောက် ရေငတ်လာသောကြောင့် လက်များဖြင့် ရေဗူးကို ကိုင်ကာ အတန်းသို့ မပြန်မီ ရေအလုံအလောက် သောက်ကြသည်။\n\nထိုည မိုးမိုး၏ အမေသည် ထိုနေ့ ဘာများ သင်ယူခဲ့ရသနည်းဟု မေးမြန်းသည်။ မိုးမိုးသည် သူ့ခန္ဓာကိုယ်လုပ်ဆောင်ခဲ့သမျှကို တွေးမိသည် -- မျက်လုံးဖြင့် ပုံများကို မြင်ခြင်း၊ နားဖြင့် စည်သံကို ကြားခြင်း၊ နှာခေါင်းဖြင့် မနက်စာရနံ့ကို ရသိခြင်း၊ ခြေထောက်နှင့် လက်များဖြင့် ပြေးဖမ်းခြင်း၊ ညစာတွင် အကြိုက်ဆုံးဟင်းကို ပါးစပ်ဖြင့် မြည်းစမ်းခြင်းအထိ ဖြစ်သည်။ သူမသည် ပြုံးမောပြီး သူ့ခန္ဓာကိုယ်၏ အစိတ်အပိုင်းတိုင်းသည် အထူးအလုပ်တစ်ခုစီရှိကြပြီး၊ ထိုအစိတ်အပိုင်းများ အားလုံးသည် တစ်နေ့လုံး သူမ သင်ယူနိုင်စေရန်နှင့် ကစားနိုင်စေရန် အတူတကွ ကူညီပေးကြောင်း အမေကို ပြောပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what did Moe Moe do with her arms and legs before getting out of bed?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ အိပ်ရာမထမီ မိုးမိုးသည် သူ၏ လက်နှင့်ခြေများကို ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She stretched them to wake her whole body up",
+              "She hid them under the blanket all morning",
+              "She washed them in the kitchen sink",
+              "She used them to cook breakfast",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်တစ်ခုလုံးကို နိုးထစေရန် ဆန့်ခဲ့သည်",
+              "မနက်တစ်ခွင် စောင်အောက်တွင် ဖုံးထားခဲ့သည်",
+              "မီးဖိုချောင်ရေကန်တွင် ဆေးကြောခဲ့သည်",
+              "မနက်စာချက်ရန် အသုံးပြုခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the first paragraph, right after Moe Moe opens her eyes.",
+              "Think about what people often do with their arms and legs right after waking up.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး မျက်လုံးဖွင့်ပြီးချက်ချင်း။",
+              "နိုးထပြီးချက်ချင်း လူများ လက်နှင့်ခြေများကို ဘာလုပ်လေ့ရှိသနည်းဟု စဉ်းစားပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In the second paragraph, which body part did Moe Moe use to spot the bird hiding in the picture book?",
+            questionMy:
+                "ဒုတိယပုဒ်မတွင်၊ ရုပ်ပုံစာအုပ်ထဲရှိ ဝှက်ထားသော ငှက်ကို ရှာတွေ့ရန် မိုးမိုးသည် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: ["Her eyes", "Her nose", "Her ears", "Her feet"],
+            optionsMy: ["သူ၏ မျက်လုံး", "သူ၏ နှာခေါင်း", "သူ၏ နား", "သူ၏ ခြေဖျား"],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the second paragraph, during the picture book activity.",
+              "Think about which body part lets you spot something small hiding in a picture.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ရုပ်ပုံစာအုပ် လှုပ်ရှားမှုအချိန်။",
+              "ပုံထဲတွင် ဝှက်ထားသော အသေးလေးတစ်ခုကို ရှာတွေ့ရန် မည်သည့်အစိတ်အပိုင်းက ကူညီသနည်းဟု စဉ်းစားပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the third paragraph, what two body parts did Moe Moe use to catch the ball Nay Chi threw?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ နေချည်ပစ်လိုက်သော ဘောလုံးကို ဖမ်းရန် မိုးမိုးသည် မည်သည့်အစိတ်အပိုင်းနှစ်ခုကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Her eyes to watch it, and her hands to catch it",
+              "Her nose to watch it, and her feet to catch it",
+              "Her mouth to watch it, and her ears to catch it",
+              "Her hair to watch it, and her elbows to catch it",
+            ],
+            optionsMy: [
+              "ကြည့်ရန် မျက်လုံးနှင့် ဖမ်းရန် လက်များ",
+              "ကြည့်ရန် နှာခေါင်းနှင့် ဖမ်းရန် ခြေဖျားများ",
+              "ကြည့်ရန် ပါးစပ်နှင့် ဖမ်းရန် နား",
+              "ကြည့်ရန် ဆံပင်နှင့် ဖမ်းရန် တံတောင်ဆစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the third paragraph, during the playground game of catch.",
+              "This matches Day 1's question about catching a ball -- watching first, then holding on with your hands.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ကစားကွင်း ဘောလုံးဖမ်းကစားချိန်။",
+              "Day 1 ၏ ဘောလုံးဖမ်းခြင်းဆိုင်ရာ မေးခွန်းနှင့် ဆင်တူသည် -- အရင်ကြည့်ပြီးမှ လက်ဖြင့် ဆုပ်ကိုင်ခြင်း။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w29-d5",
+      dayNumber: 5,
+      titleEn: "Our Amazing Body Parts Recap",
+      titleMy: "ကျွန်ုပ်တို့၏ အံ့သြဖွယ် ခန္ဓာကိုယ်အစိတ်အပိုင်းများ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which body part do you use to see a rainbow in the sky?",
+          questionMy: "မိုးကောင်းကင်ရှိ သက်တံ့ကို မြင်ရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုသနည်း။",
+          optionsEn: ["Eyes", "Ears", "Nose", "Feet"],
+          optionsMy: ["မျက်လုံး", "နား", "နှာခေါင်း", "ခြေဖျား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's question about catching a ball -- the same body part lets you watch it.",
+            "Think about the body part that lets you tell colors and shapes apart.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဘောလုံးဖမ်းခြင်းမေးခွန်းကို သတိရပါ -- ကြည့်ရှုနိုင်ရန် ထိုအစိတ်အပိုင်းတူညီပါသည်။",
+            "အရောင်များနှင့် ပုံသဏ္ဌာန်များကို ခွဲခြားနိုင်စေသော ခန္ဓာကိုယ်အစိတ်အပိုင်းကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which body part do you use to hear your friend calling your name?",
+          questionMy: "သူငယ်ချင်းက သင့်နာမည်ခေါ်နေသည်ကို ကြားရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုသနည်း။",
+          optionsEn: ["Ears", "Eyes", "Hands", "Nose"],
+          optionsMy: ["နား", "မျက်လုံး", "လက်", "နှာခေါင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's question about hearing the school bell.",
+            "Think about the body parts on each side of your head.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ကျောင်းခေါင်းလောင်းသံ ကြားခြင်းမေးခွန်းကို သတိရပါ။",
+            "ဦးခေါင်း၏ နှစ်ဖက်တွင်ရှိသော အစိတ်အပိုင်းများကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which body parts help you run all the way across the playground?",
+          questionMy: "ကစားကွင်းတစ်ဖက်စွန်းသို့ ပြေးနိုင်ရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းများက ကူညီသနည်း။",
+          optionsEn: ["Legs and feet", "Nose and mouth", "Eyes only", "Ears only"],
+          optionsMy: ["ခြေထောက်နှင့် ခြေဖျား", "နှာခေါင်းနှင့် ပါးစပ်", "မျက်လုံးသာ", "နားသာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's question about running to join friends.",
+            "Think about which body parts push against the ground when you run.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ သူငယ်ချင်းများထံ ပြေးသွားခြင်းမေးခွန်းကို သတိရပါ။",
+            "ပြေးသောအခါ မည်သည့်အစိတ်အပိုင်းများက မြေပြင်ကို တွန်းအားပေးသနည်းဟု စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which body part do you use to taste your favorite curry at dinner?",
+          questionMy: "ညစာတွင် အကြိုက်ဆုံးဟင်းကို မြည်းစမ်းရန် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုသနည်း။",
+          optionsEn: ["Mouth", "Ears", "Elbows", "Knees"],
+          optionsMy: ["ပါးစပ်", "နား", "တံတောင်ဆစ်", "ဒူး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the reading passage's final paragraph about Moe Moe's dinner.",
+            "Think about the body part you use for eating and tasting food.",
+          ],
+          hintsMy: [
+            "ဖတ်စာပုဒ်မ၏ နောက်ဆုံးပုဒ်မ၊ မိုးမိုး၏ ညစာအကြောင်းကို သတိရပါ။",
+            "အစားအစာကို စားခြင်းနှင့် အရသာခံခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်းကို စဉ်းစားပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 8, Week 30: "Healthy Food, Happy Body"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek30 = CourseWeekDef(
+  id: "course-year1-science-w30",
+  weekNumber: 30,
+  titleEn: "Healthy Food, Happy Body",
+  titleMy: "ကျန်းမာသောအစားအစာ၊ ပျော်ရွှင်သောခန္ဓာကိုယ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w30-d1",
+      dayNumber: 1,
+      titleEn: "Growing Food or a Treat?",
+      titleMy: "ကြီးထွားစေသောအစာ သို့မဟုတ် အစားအစာအထူးပြုလား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For lunch, Moe Moe's mother packs steamed rice, boiled vegetables, and a small piece of fish in her lunchbox. Nay Chi's box only has three pieces of candy. Whose lunch will help her body grow strong?",
+          questionMy:
+              "နေ့လယ်စာအတွက် မိုးမိုး၏အမေသည် ထမင်းငွေ့ငွေ့၊ ပြုတ်ထားသောဟင်းသီးဟင်းရွက်နှင့် ငါးအနည်းငယ်ကို လင်းပန်းထဲထည့်ပေးသည်။ နေချည်၏ လင်းပန်းထဲတွင်မူ သကြားလုံးသုံးလုံးသာ ပါသည်။ မည်သူ၏ နေ့လယ်စာက ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေမည်နည်း။",
+          optionsEn: [
+            "Moe Moe's lunch, because rice, vegetables, and fish help the body grow",
+            "Nay Chi's lunch, because candy is sweet and tasty",
+            "Both lunches are exactly the same for growing",
+            "Neither lunch helps the body at all",
+          ],
+          optionsMy: [
+            "မိုးမိုး၏ နေ့လယ်စာ၊ အဘယ်ကြောင့်ဆိုသော် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးတို့သည် ခန္ဓာကိုယ်ကို ကြီးထွားစေသောကြောင့်ဖြစ်သည်",
+            "နေချည်၏ နေ့လယ်စာ၊ အဘယ်ကြောင့်ဆိုသော် သကြားလုံးသည် ချိုမြိန်ပြီး အရသာရှိသောကြောင့်ဖြစ်သည်",
+            "နေ့လယ်စာနှစ်ခုစလုံး ကြီးထွားရန်အတွက် လုံးဝတူညီသည်",
+            "နေ့လယ်စာနှစ်ခုစလုံး ခန္ဓာကိုယ်ကို လုံးဝမကူညီပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which foods -- rice, vegetables, and fish, or candy -- give the body what it needs to grow.",
+            "Candy can be enjoyed sometimes as a treat, but it is not a growing food a body needs every day.",
+          ],
+          hintsMy: [
+            "ထမင်း၊ ဟင်းသီးဟင်းရွက်၊ ငါး သို့မဟုတ် သကြားလုံး -- မည်သည့်အစားအစာက ခန္ဓာကိုယ်ကို ကြီးထွားရန် လိုအပ်သောအရာများပေးသနည်းဟု စဉ်းစားပါ။",
+            "သကြားလုံးကို တစ်ခါတစ်ရံ အထူးပြုအနေဖြင့် စားနိုင်သော်လည်း ခန္ဓာကိုယ်က နေ့စဉ်လိုအပ်သော ကြီးထွားစေသောအစာမဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "It is a very hot afternoon, and Nay Chi has been playing outside for an hour. Her mouth feels dry and she feels tired. What should Nay Chi drink to help her body feel better?",
+          questionMy:
+              "နေ့လယ်ခင်း နေပူပြင်းစွာအေးနေချိန်တွင် နေချည်သည် အပြင်ဘက်၌ တစ်နာရီကြာ ကစားနေခဲ့သည်။ သူမပါးစပ်သည် ခြောက်ကပ်နေပြီး ပင်ပန်းနေသည်။ ခန္ဓာကိုယ် ပိုမိုကောင်းမွန်စေရန် နေချည် ဘာသောက်သင့်သနည်း။",
+          optionsEn: [
+            "Plenty of clean water",
+            "A cup of dry sand",
+            "Extra candy instead of water",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "သန့်ရှင်းသော ရေအလုံအလောက်",
+            "ခြောက်သွေ့သော သဲတစ်ခွက်",
+            "ရေအစား သကြားလုံးထပ်စားခြင်း",
+            "ဘာမျှ မသောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what your body needs most after playing outside in the heat and feeling tired.",
+            "Water helps a hot, tired body feel refreshed and healthy again.",
+          ],
+          hintsMy: [
+            "နေပူထဲတွင် ကစားပြီး ပင်ပန်းနေသောအခါ ခန္ဓာကိုယ်က အဘယ်အရာကို အများဆုံးလိုအပ်သနည်းဟု စဉ်းစားပါ။",
+            "ရေသည် နေပူပြီး ပင်ပန်းနေသော ခန္ဓာကိုယ်ကို ပြန်လည်သစ်လွင်ကျန်းမာစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "At the market, Moe Moe's grandmother buys mangoes, bananas, and papayas to bring home. Which group of food is she buying?",
+          questionMy:
+              "စျေးတွင် မိုးမိုး၏ အဖွားသည် သင်္ဘောသီး၊ ငှက်ပျောသီးနှင့် သင်္ဘောသီးရွက် ဝယ်ယူ အိမ်သို့ ယူဆောင်လာသည်။ သူသည် မည်သည့်အစားအစာအုပ်စုကို ဝယ်ယူနေသနည်း။",
+          optionsEn: [
+            "Fruit",
+            "Candy",
+            "Fizzy drinks",
+            "Metal toys",
+          ],
+          optionsMy: [
+            "အသီးအနှံ",
+            "သကြားလုံး",
+            "ဖျော်ရည်ဗူး",
+            "သတ္တုကစားစရာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Mangoes, bananas, and papayas are all sweet, juicy foods that grow on plants.",
+            "Think about the food group name for foods like these that help you stay healthy.",
+          ],
+          hintsMy: [
+            "သင်္ဘောသီး၊ ငှက်ပျောသီးနှင့် သင်္ဘောသီးရွက်သည် အပင်များပေါ်တွင် ရင့်သည့် ချိုမြိန်စွမ်း ရေဓာတ်ပါသောအစားအစာများဖြစ်သည်။",
+            "သင့်ကို ကျန်းမာစေသော ဤကဲ့သို့ အစားအစာများ၏ အုပ်စုအမည်ကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's mother tells her that a treat like a chocolate bar is fine once in a while, but eating candy at every single meal instead of rice and vegetables is not healthy. Why might this be true?",
+          questionMy:
+              "နေချည်၏အမေက ချောကလက်တံဆိပ်ကဲ့သို့ အထူးအစားအစာသည် တစ်ခါတစ်ရံ စားရန် ကောင်းသော်လည်း ထမင်းနှင့် ဟင်းသီးဟင်းရွက်အစား အစားအစာတိုင်းတွင် သကြားလုံးသာစားနေခြင်းသည် ကျန်းမာရေးနှင့် မညီညွတ်ကြောင်း ပြောပြသည်။ ဤသည်မှာ ဘာကြောင့် မှန်ကန်နိုင်သနည်း။",
+          optionsEn: [
+            "Because the body needs rice, vegetables, and other growing foods every day, not just sweet treats",
+            "Because candy makes people grow taller faster than rice does",
+            "Because rice and vegetables are not real food",
+            "Because eating only candy has no effect on the body at all",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်သည် ချိုမြိန်သောအထူးအစားအစာသာမက ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် အခြားကြီးထွားစေသောအစာများကို နေ့စဉ် လိုအပ်သောကြောင့်ဖြစ်သည်",
+            "သကြားလုံးက ထမင်းထက် ပိုမြန်စွာ ကြီးထွားစေသောကြောင့်ဖြစ်သည်",
+            "ထမင်းနှင့် ဟင်းသီးဟင်းရွက်တို့သည် အစားအစာအမှန် မဟုတ်ကြသောကြောင့်ဖြစ်သည်",
+            "သကြားလုံးသာ စားခြင်းက ခန္ဓာကိုယ်အပေါ် လုံးဝ သက်ရောက်မှုမရှိသောကြောင့်ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question -- which foods actually help a body grow strong?",
+            "Think about what would happen to your body if it never got rice, vegetables, or fish, and only ever got sweet treats.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်းကို သတိရပါ -- မည်သည့်အစားအစာများက ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသနည်း။",
+            "ထမင်း၊ ဟင်းသီးဟင်းရွက် သို့မဟုတ် ငါးကို ဘယ်တော့မှ မရဘဲ ချိုမြိန်သောအထူးအစားအစာသာ ရလျှင် သင့်ခန္ဓာကိုယ်တွင် ဘာဖြစ်လာနိုင်သနည်းဟု စဉ်းစားပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w30-d2",
+      dayNumber: 2,
+      titleEn: "Food Group Match-Up",
+      titleMy: "အစားအစာအုပ်စု တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w30-dm-1",
+          termEn: "Rice",
+          termMy: "ထမင်း",
+          matchEn: "A growing food most Myanmar families eat at almost every meal for energy.",
+          matchMy: "မြန်မာမိသားစုအများစုက ခွန်အားအတွက် ဟင်းတိုင်းလိုလိုစားသုံးသော ကြီးထွားစေသောအစား။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w30-dm-2",
+          termEn: "Vegetables",
+          termMy: "ဟင်းသီးဟင်းရွက်",
+          matchEn: "A growing food, like leafy greens and gourds, that keeps the body strong and healthy.",
+          matchMy: "အရွက်စိမ်းများနှင့် ဖရုံများကဲ့သို့ ခန္ဓာကိုယ်ကို ကျန်းမာအားကောင်းစေသော ကြီးထွားစေသောအစား။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w30-dm-3",
+          termEn: "Fruit",
+          termMy: "အသီးအနှံ",
+          matchEn: "A sweet, juicy growing food, like mangoes and bananas, that also helps the body stay healthy.",
+          matchMy: "သင်္ဘောသီးနှင့် ငှက်ပျောသီးကဲ့သို့ ချိုမြိန်ရေဓာတ်ပါသော ခန္ဓာကိုယ်ကို ကျန်းမာစေသည့် ကြီးထွားစေသောအစား။",
+          colorValue: 0xFFFF8A65,
+        ),
+        DragMatchPair(
+          id: "y1sci-w30-dm-4",
+          termEn: "Fish",
+          termMy: "ငါး",
+          matchEn: "A growing food caught from rivers or ponds that helps muscles grow strong.",
+          matchMy: "မြစ်များ သို့မဟုတ် ရေကန်များမှ ဖမ်းဆီးရသော ကြွက်သားများကို ခွန်အားရှိစွာ ကြီးထွားစေသော အစား။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w30-dm-5",
+          termEn: "Water",
+          termMy: "ရေ",
+          matchEn: "A clean drink the body needs every single day, especially after playing or on a hot day.",
+          matchMy: "ကစားပြီးနောက် သို့မဟုတ် နေပူသောနေ့တွင် အထူးသဖြင့် ခန္ဓာကိုယ်က နေ့စဉ် လိုအပ်သော သန့်ရှင်းသော သောက်စရာ။",
+          colorValue: 0xFF64B5F6,
+        ),
+        DragMatchPair(
+          id: "y1sci-w30-dm-6",
+          termEn: "Candy",
+          termMy: "သကြားလုံး",
+          matchEn: "A sweet treat that is fine once in a while, but not a growing food to eat at every meal.",
+          matchMy: "တစ်ခါတစ်ရံ စားရန် ကောင်းသော်လည်း ဟင်းတိုင်းတွင် စားရန် ကြီးထွားစေသောအစာမဟုတ်သည့် ချိုမြိန်သောအထူးအစားအစာ။",
+          colorValue: 0xFFE57373,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w30-d3",
+      dayNumber: 3,
+      titleEn: "Growing Foods or Sometimes Treats?",
+      titleMy: "ကြီးထွားစေသောအစာများလား၊ တစ်ခါတစ်ရံအထူးပြုများလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Growing Foods", "Sometimes Treats"],
+        bucketsMy: ["ကြီးထွားစေသောအစာများ", "တစ်ခါတစ်ရံအထူးပြုများ"],
+        items: [
+          SortingItem(
+            id: "y1sci-w30-sort-1",
+            labelEn: "Rice",
+            labelMy: "ထမင်း",
+            correctBucketEn: "Growing Foods",
+            correctBucketMy: "ကြီးထွားစေသောအစာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-2",
+            labelEn: "Candy",
+            labelMy: "သကြားလုံး",
+            correctBucketEn: "Sometimes Treats",
+            correctBucketMy: "တစ်ခါတစ်ရံအထူးပြုများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-3",
+            labelEn: "Fish",
+            labelMy: "ငါး",
+            correctBucketEn: "Growing Foods",
+            correctBucketMy: "ကြီးထွားစေသောအစာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-4",
+            labelEn: "Fizzy drink",
+            labelMy: "ဖျော်ရည်ဗူး",
+            correctBucketEn: "Sometimes Treats",
+            correctBucketMy: "တစ်ခါတစ်ရံအထူးပြုများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-5",
+            labelEn: "Leafy vegetables",
+            labelMy: "အရွက်စိမ်းများ",
+            correctBucketEn: "Growing Foods",
+            correctBucketMy: "ကြီးထွားစေသောအစာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-6",
+            labelEn: "Chocolate bar",
+            labelMy: "ချောကလက်တံဆိပ်",
+            correctBucketEn: "Sometimes Treats",
+            correctBucketMy: "တစ်ခါတစ်ရံအထူးပြုများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-7",
+            labelEn: "Banana",
+            labelMy: "ငှက်ပျောသီး",
+            correctBucketEn: "Growing Foods",
+            correctBucketMy: "ကြီးထွားစေသောအစာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w30-sort-8",
+            labelEn: "Potato curry",
+            labelMy: "အာလူးဟင်း",
+            correctBucketEn: "Growing Foods",
+            correctBucketMy: "ကြီးထွားစေသောအစာများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w30-d4",
+      dayNumber: 4,
+      titleEn: "Nay Chi's Market Day",
+      titleMy: "နေချည်၏ စျေးသွားရက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Market Day",
+        titleMy: "နေချည်၏ စျေးသွားရက်",
+        passageEn:
+            "Every Saturday morning, Nay Chi walks with her grandmother to the busy village market to buy food for the week. Baskets of fresh vegetables line the market stalls -- bright green leafy greens, orange pumpkins, and long green beans. Nay Chi's grandmother carefully chooses the freshest vegetables, explaining that these foods will help Nay Chi's body grow strong and stay healthy all week long.\n\nNext, they stop at a stall piled high with fruit -- yellow bananas, sweet mangoes, and round papayas. Nay Chi's grandmother buys a little of each, saying that fruit is a delicious growing food, full of the goodness the body needs, and a much better choice than sugary candy for a snack. Nay Chi picks out her favorite mango and holds it carefully in the basket so it does not get bruised on the walk home.\n\nAt the very last stall, a fisherman is selling fresh fish caught that morning from the river. Nay Chi's grandmother buys two fish, explaining that fish helps make strong muscles, just like the rice and vegetables help the whole body grow. On the way home, Nay Chi feels thirsty from the hot sun, so her grandmother buys a bottle of clean water rather than a sweet fizzy drink, reminding her that water is what a tired, thirsty body truly needs.\n\nBack home, Nay Chi helps her grandmother wash the vegetables and put the food away. She notices there is no candy in any of the baskets, but she does not mind, because her grandmother promised she could have one small piece of candy as a treat after finishing all her vegetables at dinner. Nay Chi smiles, proud that she now understands the difference between the growing foods her body needs every day and the sweet treats that are just fine once in a while.",
+        passageMy:
+            "စနေနေ့ မနက်တိုင်း နေချည်သည် တစ်ပတ်စာ အစားအစာဝယ်ယူရန် လူစည်ကားသော ရွာစျေးကြီးသို့ အဖွားနှင့်အတူ လမ်းလျှောက်သွားလေ့ရှိသည်။ ဟင်းသီးဟင်းရွက် သစ်လွင်စိမ်းများပါသော ခြင်းတောင်းများသည် စျေးဆိုင်တန်းများတစ်လျှောက် တန်းစီနေသည် -- စိမ်းစိုသော အရွက်စိမ်းများ၊ လိမ္မော်ရောင် ဖရုံသီးများနှင့် ရှည်လျားသော ပဲအသီးရှည်များ။ နေချည်၏ အဖွားသည် ဤအစားအစာများက နေချည်၏ ခန္ဓာကိုယ်ကို တစ်ပတ်လုံး ခွန်အားရှိစွာ ကျန်းမာအောင် ကြီးထွားစေမည်ဟု ရှင်းပြရင်း အသစ်လွင်ဆုံးဟင်းသီးဟင်းရွက်များကို သေချာစွာ ရွေးချယ်သည်။\n\nထို့နောက် သူတို့သည် အသီးအနှံများ စုပုံထားသော ဆိုင်တန်းတစ်ခု၌ ရပ်ကြသည် -- ဝါရောင် ငှက်ပျောသီးများ၊ ချိုမြိန်သော သင်္ဘောသီးများနှင့် ဝိုင်းသော သင်္ဘောသီးရွက်များ။ နေချည်၏ အဖွားသည် တစ်ခုစီ အနည်းငယ်ဝယ်ကာ အသီးအနှံသည် အရသာရှိပြီး ခန္ဓာကိုယ် လိုအပ်သော ကောင်းကျိုးများနှင့် ပြည့်စုံသော ကြီးထွားစေသောအစာဖြစ်ကြောင်း၊ သကြားလုံးထက် အဆာပြေအတွက် ပိုကောင်းသော ရွေးချယ်မှုဖြစ်ကြောင်း ပြောပြသည်။ နေချည်သည် သူ့အကြိုက်ဆုံးသင်္ဘောသီးကို ရွေးထုတ်ပြီး အိမ်ပြန်လမ်းတွင် မထိခိုက်စေရန် ခြင်းတောင်းထဲတွင် သေချာစွာ ကိုင်ဆွဲသွားသည်။\n\nနောက်ဆုံးဆိုင်တန်းတွင် တံငါသည်တစ်ဦးသည် ထိုနေ့မနက် မြစ်ထဲမှ ဖမ်းဆီးလာသော ငါးသစ်လွင်များကို ရောင်းချနေသည်။ နေချည်၏ အဖွားသည် ငါးနှစ်ကောင် ဝယ်ယူကာ ငါးသည် ထမင်းနှင့် ဟင်းသီးဟင်းရွက်ကဲ့သို့ ခန္ဓာကိုယ်တစ်ခုလုံးကို ကြီးထွားစေသလို ကြွက်သားများကိုလည်း ခွန်အားရှိစေကြောင်း ရှင်းပြသည်။ အိမ်ပြန်လမ်းတွင် နေပူပြင်းသောကြောင့် နေချည် ရေငတ်လာသဖြင့် အဖွားသည် ချိုမြိန်သော ဖျော်ရည်ဗူးအစား သန့်ရှင်းသောရေဗူးကို ဝယ်ပေးကာ ရေသည် ပင်ပန်းရေငတ်နေသော ခန္ဓာကိုယ်အမှန်တကယ် လိုအပ်သောအရာဖြစ်ကြောင်း သတိပေးသည်။\n\nအိမ်ပြန်ရောက်သောအခါ နေချည်သည် အဖွားအား ဟင်းသီးဟင်းရွက်များ ဆေးကြောပြီး အစားအစာများ သိမ်းဆည်းရန် ကူညီသည်။ ခြင်းတောင်းများထဲတွင် သကြားလုံး လုံးဝမပါကြောင်း သတိထားမိသော်လည်း စိတ်မဆိုးပါ၊ အဘယ်ကြောင့်ဆိုသော် ညစာတွင် ဟင်းသီးဟင်းရွက်အားလုံးစားပြီးမှသာ အထူးပြုသကြားလုံးတစ်လုံး စားရမည်ဟု အဖွားက ကတိပြုထားသောကြောင့်ဖြစ်သည်။ ခန္ဓာကိုယ်နေ့စဉ်လိုအပ်သော ကြီးထွားစေသောအစာများနှင့် တစ်ခါတစ်ရံသာ စားသင့်သော ချိုမြိန်သောအထူးအစားအစာများ ကွာခြားချက်ကို ယခုနားလည်သဘောပေါက်နေပြီဖြစ်၍ နေချည် ဂုဏ်ယူစွာ ပြုံးလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, why did Nay Chi's grandmother carefully choose the freshest vegetables?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ နေချည်၏အဖွားသည် အသစ်လွင်ဆုံးဟင်းသီးဟင်းရွက်များကို ဘာကြောင့် သေချာစွာရွေးချယ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Because they help Nay Chi's body grow strong and stay healthy",
+              "Because green vegetables are the most colorful",
+              "Because vegetables are cheaper than candy",
+              "Because her grandmother does not like fruit",
+            ],
+            optionsMy: [
+              "နေချည်၏ ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားပြီး ကျန်းမာစေရန်ဖြစ်သောကြောင့်",
+              "အစိမ်းရောင် ဟင်းသီးဟင်းရွက်များသည် အလှဆုံးဖြစ်သောကြောင့်",
+              "ဟင်းသီးဟင်းရွက်များသည် သကြားလုံးထက် စျေးသက်သာသောကြောင့်",
+              "အဖွားသည် အသီးအနှံများကို မကြိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the first paragraph, where the grandmother explains her choice.",
+              "This matches Day 1's first question about which foods help a body grow strong.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ အဖွားက သူ့ရွေးချယ်မှုကို ရှင်းပြသည့်နေရာ။",
+              "Day 1 ၏ ပထမမေးခွန်းနှင့် ဆင်တူသည် -- မည်သည့်အစားအစာများက ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသနည်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In the third paragraph, why did the grandmother buy Nay Chi water instead of a fizzy drink?",
+            questionMy:
+                "တတိယပုဒ်မတွင်၊ အဖွားသည် ဖျော်ရည်ဗူးအစား ရေကို နေချည်အတွက် ဘာကြောင့် ဝယ်ပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because water is what a tired, thirsty body truly needs",
+              "Because fizzy drinks were not sold at the market",
+              "Because water costs more money than a fizzy drink",
+              "Because Nay Chi does not like fizzy drinks at all",
+            ],
+            optionsMy: [
+              "ရေသည် ပင်ပန်းရေငတ်နေသော ခန္ဓာကိုယ်အမှန်တကယ် လိုအပ်သောအရာဖြစ်သောကြောင့်",
+              "စျေးတွင် ဖျော်ရည်ဗူး မရောင်းသောကြောင့်",
+              "ရေက ဖျော်ရည်ဗူးထက် ဈေးကြီးသောကြောင့်",
+              "နေချည်သည် ဖျော်ရည်ဗူးကို လုံးဝ မကြိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the third paragraph, on the walk home from the market.",
+              "This matches Day 1's second question about what a hot, tired body should drink.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ စျေးမှ အိမ်ပြန်လမ်းတွင်။",
+              "Day 1 ၏ ဒုတိယမေးခွန်းနှင့် ဆင်တူသည် -- နေပူပြီး ပင်ပန်းနေသော ခန္ဓာကိုယ် ဘာသောက်သင့်သနည်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the fourth paragraph, when did Nay Chi's grandmother promise she could have a small piece of candy?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ နေချည် အထူးပြုသကြားလုံးတစ်လုံး စားနိုင်မည်ဟု အဖွားက မည်သည့်အချိန်တွင် ကတိပြုထားသနည်း။",
+            optionsEn: [
+              "After finishing all her vegetables at dinner",
+              "Right when they arrived at the market",
+              "Before eating any vegetables at all",
+              "Only on days when it does not rain",
+            ],
+            optionsMy: [
+              "ညစာတွင် ဟင်းသီးဟင်းရွက်အားလုံးစားပြီးနောက်",
+              "စျေးရောက်သည်နှင့် ချက်ချင်း",
+              "ဟင်းသီးဟင်းရွက် လုံးဝမစားမီ",
+              "မိုးမရွာသောနေ့များတွင်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the fourth paragraph, back home after the market trip.",
+              "This matches Day 1's fourth question about candy being fine once in a while, not at every meal.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ စျေးမှ အိမ်ပြန်ရောက်ပြီးနောက်။",
+              "Day 1 ၏ စတုတ္ထမေးခွန်းနှင့် ဆင်တူသည် -- သကြားလုံးသည် ဟင်းတိုင်းတွင်မဟုတ်ဘဲ တစ်ခါတစ်ရံသာ စားသင့်ကြောင်း။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w30-d5",
+      dayNumber: 5,
+      titleEn: "Healthy Food, Happy Body Recap",
+      titleMy: "ကျန်းမာသောအစားအစာ၊ ပျော်ရွှင်သောခန္ဓာကိုယ် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which of these is a growing food that helps your body stay strong?",
+          questionMy: "အောက်ပါတို့အနက် သင့်ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာနေစေသော ကြီးထွားစေသောအစာမှာ အဘယ်နည်း။",
+          optionsEn: ["Fish", "A pile of dry leaves", "A plastic toy", "A cotton towel"],
+          optionsMy: ["ငါး", "ခြောက်သွေ့သောအရွက်စု", "ပလတ်စတစ်ကစားစရာ", "ချည်သားပုဝါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 2's drag-match -- fish helps muscles grow strong.",
+            "Think about which of these is actually food at all.",
+          ],
+          hintsMy: [
+            "Day 2 ၏ drag-match ကို သတိရပါ -- ငါးသည် ကြွက်သားများကို ခွန်အားရှိစွာ ကြီးထွားစေသည်။",
+            "ဤအရာများထဲမှ မည်သည်က အစားအစာအမှန် ဖြစ်သနည်းဟု စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What should you drink most after playing outside on a hot day?",
+          questionMy: "နေပူသောနေ့တွင် အပြင်ဘက်ကစားပြီးနောက် အများဆုံး ဘာသောက်သင့်သနည်း။",
+          optionsEn: ["Water", "A fizzy drink only", "Nothing at all", "Dry sand"],
+          optionsMy: ["ရေ", "ဖျော်ရည်ဗူးသာ", "ဘာမျှ မသောက်ခြင်း", "ခြောက်သွေ့သောသဲ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question about Nay Chi feeling thirsty after playing.",
+            "Recall the reading passage's third paragraph, about what the grandmother bought on the walk home.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယမေးခွန်း၊ ကစားပြီးနောက် ရေငတ်နေသော နေချည်ကို သတိရပါ။",
+            "ဖတ်စာပုဒ်မ၏ တတိယပုဒ်မ၊ အဖွား အိမ်ပြန်လမ်းတွင် ဘာဝယ်ပေးခဲ့သနည်းကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Is it okay to eat a small piece of candy once in a while?",
+          questionMy: "တစ်ခါတစ်ရံ သကြားလုံးအနည်းငယ် စားခြင်းသည် ကောင်းပါသလား။",
+          optionsEn: [
+            "Yes, as a treat sometimes, but not instead of growing foods every meal",
+            "No, candy must never be eaten at all",
+            "Yes, it should replace rice and vegetables at every meal",
+            "No, only water may ever be consumed",
+          ],
+          optionsMy: [
+            "ဟုတ်ပါသည်၊ တစ်ခါတစ်ရံ အထူးပြုအနေနှင့် သော်လည်း ဟင်းတိုင်း ကြီးထွားစေသောအစာအစား မဟုတ်ပါ",
+            "မဟုတ်ပါ၊ သကြားလုံးကို လုံးဝ မစားရပါ",
+            "ဟုတ်ပါသည်၊ ဟင်းတိုင်းတွင် ထမင်းနှင့် ဟင်းသီးဟင်းရွက်အစား အစားထိုးသင့်သည်",
+            "မဟုတ်ပါ၊ ရေကိုသာ သောက်နိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question and the reading passage's ending about Nay Chi's promised treat.",
+            "Think about balance -- growing foods every day, sweet treats just sometimes.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ စတုတ္ထမေးခွန်းနှင့် ဖတ်စာပုဒ်မ၏ အဆုံးသတ်၊ နေချည်၏ အထူးပြုကတိကို သတိရပါ။",
+            "ဟန်ချက်ညီမှုကို စဉ်းစားပါ -- ကြီးထွားစေသောအစာများကို နေ့စဉ်၊ ချိုမြိန်သောအထူးအစားအစာများကို တစ်ခါတစ်ရံသာ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which food group do mangoes, bananas, and papayas belong to?",
+          questionMy: "သင်္ဘောသီး၊ ငှက်ပျောသီးနှင့် သင်္ဘောသီးရွက်တို့သည် မည်သည့်အစားအစာအုပ်စုတွင် ပါဝင်သနည်း။",
+          optionsEn: ["Fruit", "Fish", "Candy", "Rice"],
+          optionsMy: ["အသီးအနှံ", "ငါး", "သကြားလုံး", "ထမင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about what Moe Moe's grandmother bought at the market.",
+            "These are all sweet, juicy foods that grow on trees or plants.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ တတိယမေးခွန်း၊ မိုးမိုး၏ အဖွား စျေးတွင် ဘာဝယ်ခဲ့သနည်းကို သတိရပါ။",
+            "ဤအရာများသည် သစ်ပင်များ သို့မဟုတ် အပင်များပေါ်တွင် ရင့်သော ချိုမြိန်ရေဓာတ်ပါသောအစားအစာများ ဖြစ်ကြသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 8, Week 31: "Clean, Rested, and Active"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek31 = CourseWeekDef(
+  id: "course-year1-science-w31",
+  weekNumber: 31,
+  titleEn: "Clean, Rested, and Active",
+  titleMy: "သန့်ရှင်းခြင်း၊ အနားယူခြင်းနှင့် လှုပ်ရှားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w31-d1",
+      dayNumber: 1,
+      titleEn: "Staying Healthy Every Day",
+      titleMy: "နေ့စဉ် ကျန်းမာစွာနေထိုင်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before lunch, Moe Moe's teacher reminds the whole class to go to the sink and rub soap over their hands, then rinse well before eating. Why is this an important habit?",
+          questionMy:
+              "နေ့လယ်စာမမီ မိုးမိုး၏ ဆရာမက အတန်းသားအားလုံးအား ရေကန်သို့သွားပြီး ဆပ်ပြာဖြင့် လက်များကို ပွတ်တိုက်ကာ ဆေးကြောပြီးမှ စားရန် သတိပေးသည်။ ဤအလေ့အထသည် ဘာကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "It washes away germs that could make the body sick",
+            "It makes hands smell like soap for no reason",
+            "It has nothing to do with staying healthy",
+            "It only matters on rainy days",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်ကို နာမကျန်းဖြစ်စေနိုင်သော ရောဂါပိုးများကို ဆေးကြောပစ်နိုင်သောကြောင့်ဖြစ်သည်",
+            "အကြောင်းမဲ့ လက်များကို ဆပ်ပြာအနံ့ ရစေရန်ဖြစ်သည်",
+            "ကျန်းမာစွာနေထိုင်ခြင်းနှင့် လုံးဝသက်ဆိုင်ခြင်းမရှိပါ",
+            "မိုးရွာသောနေ့တွင်သာ အရေးကြီးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what could be on your hands after playing outside or touching things all morning.",
+            "Washing hands before eating stops those tiny germs from getting into your body with your food.",
+          ],
+          hintsMy: [
+            "မနက်တစ်ခွင် အပြင်ဘက်ကစားပြီးနောက် သို့မဟုတ် အရာဝတ္ထုများ ထိတွေ့ပြီးနောက် သင့်လက်ပေါ်တွင် ဘာများ ရှိနိုင်သနည်းဟု စဉ်းစားပါ။",
+            "စားခြင်းမပြုမီ လက်ဆေးခြင်းက ထိုသေးငယ်သော ရောဂါပိုးများကို အစားအစာနှင့်အတူ ခန္ဓာကိုယ်ထဲသို့ ဝင်ခြင်းမှ တားဆီးပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every night before bed, Nay Chi's mother reminds her to brush her teeth for two minutes. Why does Nay Chi need to do this every day?",
+          questionMy:
+              "ညတိုင်း အိပ်ရာမဝင်မီ နေချည်၏ အမေက သူ့သွားများကို မိနစ်နှစ်မိနစ်ကြာ တိုက်ရန် သတိပေးသည်။ နေချည်သည် ဤအလေ့အထကို ဘာကြောင့် နေ့စဉ်လုပ်ရသနည်း။",
+          optionsEn: [
+            "To keep her teeth clean and healthy",
+            "To make her teeth grow bigger overnight",
+            "It has no real purpose at all",
+            "So her teeth will turn a different color",
+          ],
+          optionsMy: [
+            "သွားများကို သန့်ရှင်းကျန်းမာအောင် ထိန်းသိမ်းရန်ဖြစ်သည်",
+            "တစ်ညချင်း သွားများကို ကြီးထွားစေရန်ဖြစ်သည်",
+            "ဘာအဓိပ္ပာယ်မှ မရှိပါ",
+            "သွားများကို အရောင်ပြောင်းစေရန်ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what happens to food bits left on your teeth if you never brush them away.",
+            "Brushing teeth is another kind of cleaning, like washing hands, that keeps your body healthy.",
+          ],
+          hintsMy: [
+            "သွားပေါ်တွင် ကျန်ရစ်နေသော အစားအစာအမှုန်များကို ဘယ်တော့မှ မတိုက်ဖယ်ခဲ့လျှင် ဘာဖြစ်လာနိုင်သနည်းဟု စဉ်းစားပါ။",
+            "သွားတိုက်ခြင်းသည် လက်ဆေးခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို ကျန်းမာစေသော နောက်ထပ် သန့်ရှင်းရေးအမျိုးအစားတစ်ခုဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe stayed up very late watching TV last night and only slept for a few hours. The next morning at school, she feels sleepy and finds it hard to pay attention. What does Moe Moe's body need most right now?",
+          questionMy:
+              "မိုးမိုးသည် ယမန်နေ့ည တီဗီကို အလွန်နောက်ကျအောင် ကြည့်ပြီး နာရီအနည်းငယ်သာ အိပ်စက်ခဲ့သည်။ နောက်တစ်နေ့ ကျောင်းတွင် သူမ အိပ်ငိုက်ကာ အာရုံစိုက်ရခက်ခဲသည်။ ယခုအခါ မိုးမိုး၏ ခန္ဓာကိုယ်က အဘယ်အရာကို အများဆုံးလိုအပ်နေသနည်း။",
+          optionsEn: [
+            "More rest and enough sleep",
+            "More candy to eat",
+            "Less water to drink",
+            "A new toy to play with",
+          ],
+          optionsMy: [
+            "ပိုမိုအနားယူခြင်းနှင့် အိပ်စက်ခြင်း အလုံအလောက်",
+            "သကြားလုံးပိုစားခြင်း",
+            "ရေသောက်ခြင်း လျော့ချခြင်း",
+            "ကစားစရာအသစ်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about how you feel at school after not sleeping enough the night before.",
+            "Just like food and water, the body needs enough rest and sleep every night to work well the next day.",
+          ],
+          hintsMy: [
+            "ညက ဂရုတစိုက် အိပ်စက်မှု မလုံလောက်ခဲ့ပါက နောက်တစ်နေ့ ကျောင်းတွင် မည်သို့ခံစားရသနည်းဟု စဉ်းစားပါ။",
+            "အစားအစာနှင့် ရေကဲ့သို့ပင် ခန္ဓာကိုယ်သည် နောက်တစ်နေ့ ကောင်းစွာ အလုပ်လုပ်နိုင်ရန် ညတိုင်း အနားယူခြင်းနှင့် အိပ်စက်ခြင်း အလုံအလောက် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On Sunday, Nay Chi's father takes the family to the park to run, jump rope, and play badminton for an hour. How does this exercise help Nay Chi's body?",
+          questionMy:
+              "တနင်္ဂနွေနေ့တွင် နေချည်၏ အဖေသည် မိသားစုတစ်ခုလုံးကို ပန်းခြံသို့ ခေါ်ဆောင်ကာ တစ်နာရီကြာ ပြေးခြင်း၊ ကြိုးခုန်ခြင်းနှင့် ဘတ်စကားကစားရန် ခေါ်သွားသည်။ ဤလေ့ကျင့်ခန်းက နေချည်၏ ခန္ဓာကိုယ်ကို မည်သို့ကူညီသနည်း။",
+          optionsEn: [
+            "It keeps her body strong, active, and healthy",
+            "It makes her body weaker every time",
+            "It has no effect on her body at all",
+            "It only helps her hair grow faster",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ၊ လှုပ်ရှားကျန်းမာစွာ ထားစေသည်",
+            "ခန္ဓာကိုယ်ကို တစ်ကြိမ်စီ အားနည်းစေသည်",
+            "ခန္ဓာကိုယ်အပေါ် လုံးဝ သက်ရောက်မှုမရှိပါ",
+            "ဆံပင်ပိုမြန်စွာ ကြီးထွားစေရုံသာ ကူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 26's lesson on forces -- running and jumping use pushes and pulls from your own muscles.",
+            "Moving your body often, like running and playing, is called exercise, and it keeps the body strong.",
+          ],
+          hintsMy: [
+            "Week 26 ၏ အင်အားသင်ခန်းစာကို သတိရပါ -- ပြေးခြင်းနှင့် ခုန်ခြင်းသည် ကိုယ်ပိုင်ကြွက်သားများ၏ တွန်း/ဆွဲအားများကို အသုံးပြုသည်။",
+            "ပြေးခြင်း၊ ကစားခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို မကြာခဏ လှုပ်ရှားစေခြင်းကို လေ့ကျင့်ခန်းဟု ခေါ်ပြီး ခန္ဓာကိုယ်ကို ခွန်အားရှိစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w31-d2",
+      dayNumber: 2,
+      titleEn: "Healthy Habits Match-Up",
+      titleMy: "ကျန်းမာသောအလေ့အထများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w31-dm-1",
+          termEn: "Washing hands",
+          termMy: "လက်ဆေးခြင်း",
+          matchEn: "Rubbing soap and water over your hands before eating to wash away germs.",
+          matchMy: "ရောဂါပိုးများကို ဆေးကြောပစ်ရန် စားခြင်းမပြုမီ ဆပ်ပြာနှင့်ရေကို လက်ပေါ်တွင် ပွတ်တိုက်ခြင်း။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w31-dm-2",
+          termEn: "Brushing teeth",
+          termMy: "သွားတိုက်ခြင်း",
+          matchEn: "Cleaning your teeth every morning and night to keep them healthy.",
+          matchMy: "သွားများကို ကျန်းမာစေရန် နံနက်နှင့်ညတိုင်း သန့်ရှင်းစေခြင်း။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w31-dm-3",
+          termEn: "Sleeping enough",
+          termMy: "အိပ်စက်ခြင်း အလုံအလောက်",
+          matchEn: "Resting your body with a full night's sleep so it works well the next day.",
+          matchMy: "နောက်တစ်နေ့ ကောင်းစွာအလုပ်လုပ်နိုင်ရန် ညတစ်ညလုံး အိပ်စက်ကာ ခန္ဓာကိုယ်ကို အနားပေးခြင်း။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w31-dm-4",
+          termEn: "Exercise",
+          termMy: "လေ့ကျင့်ခန်း",
+          matchEn: "Moving your body, like running or playing sports, to keep it strong and active.",
+          matchMy: "ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ လှုပ်ရှားနေစေရန် ပြေးခြင်း သို့မဟုတ် အားကစားကစားခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို ရွေ့လျားစေခြင်း။",
+          colorValue: 0xFFFF8A65,
+        ),
+        DragMatchPair(
+          id: "y1sci-w31-dm-5",
+          termEn: "Bathing",
+          termMy: "ရေချိုးခြင်း",
+          matchEn: "Washing your whole body with water and soap to keep your skin clean.",
+          matchMy: "အရေပြားကို သန့်ရှင်းစေရန် ခန္ဓာကိုယ်တစ်ကိုယ်လုံးကို ရေနှင့်ဆပ်ပြာဖြင့် ဆေးကြောခြင်း။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w31-dm-6",
+          termEn: "Resting",
+          termMy: "အနားယူခြင်း",
+          matchEn: "Sitting or lying quietly for a while so a tired body can feel better again.",
+          matchMy: "ပင်ပန်းနေသောခန္ဓာကိုယ် ပြန်လည်သက်သာစေရန် ခဏတာ ငြိမ်ဝပ်စွာ ထိုင်ခြင်း သို့မဟုတ် လှဲနေခြင်း။",
+          colorValue: 0xFFE57373,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w31-d3",
+      dayNumber: 3,
+      titleEn: "Keeping Clean or Staying Active?",
+      titleMy: "သန့်ရှင်းအောင်ထားခြင်းလား၊ လှုပ်ရှားနေခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Keeping Clean", "Staying Active"],
+        bucketsMy: ["သန့်ရှင်းအောင်ထားခြင်း", "လှုပ်ရှားနေခြင်း"],
+        items: [
+          SortingItem(
+            id: "y1sci-w31-sort-1",
+            labelEn: "Washing hands",
+            labelMy: "လက်ဆေးခြင်း",
+            correctBucketEn: "Keeping Clean",
+            correctBucketMy: "သန့်ရှင်းအောင်ထားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-2",
+            labelEn: "Playing badminton",
+            labelMy: "ဘတ်စကားကစားခြင်း",
+            correctBucketEn: "Staying Active",
+            correctBucketMy: "လှုပ်ရှားနေခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-3",
+            labelEn: "Brushing teeth",
+            labelMy: "သွားတိုက်ခြင်း",
+            correctBucketEn: "Keeping Clean",
+            correctBucketMy: "သန့်ရှင်းအောင်ထားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-4",
+            labelEn: "Running in the park",
+            labelMy: "ပန်းခြံတွင် ပြေးခြင်း",
+            correctBucketEn: "Staying Active",
+            correctBucketMy: "လှုပ်ရှားနေခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-5",
+            labelEn: "Bathing",
+            labelMy: "ရေချိုးခြင်း",
+            correctBucketEn: "Keeping Clean",
+            correctBucketMy: "သန့်ရှင်းအောင်ထားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-6",
+            labelEn: "Jumping rope",
+            labelMy: "ကြိုးခုန်ခြင်း",
+            correctBucketEn: "Staying Active",
+            correctBucketMy: "လှုပ်ရှားနေခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-7",
+            labelEn: "Cutting fingernails",
+            labelMy: "လက်သည်းညှပ်ခြင်း",
+            correctBucketEn: "Keeping Clean",
+            correctBucketMy: "သန့်ရှင်းအောင်ထားခြင်း",
+          ),
+          SortingItem(
+            id: "y1sci-w31-sort-8",
+            labelEn: "Playing catch",
+            labelMy: "ဘောလုံးဖမ်းကစားခြင်း",
+            correctBucketEn: "Staying Active",
+            correctBucketMy: "လှုပ်ရှားနေခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w31-d4",
+      dayNumber: 4,
+      titleEn: "Nay Chi's Healthy Sunday",
+      titleMy: "နေချည်၏ ကျန်းမာသော တနင်္ဂနွေနေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Healthy Sunday",
+        titleMy: "နေချည်၏ ကျန်းမာသော တနင်္ဂနွေနေ့",
+        passageEn:
+            "Nay Chi woke up early on Sunday morning after a full night of sleep, feeling wide awake and ready for the day. Before breakfast, she went straight to the bathroom, rubbed soap over her hands, and washed them carefully under running water, just as her teacher had taught her. Her mother smiled and said that starting the day clean was the best way to keep germs away.\n\nAfter breakfast, Nay Chi's father announced that the family would spend the morning at the park. Nay Chi put on her sports shoes, and soon she was running across the grass with her little brother, laughing as they chased each other around the trees. Later, they jumped rope together, counting out loud each time the rope passed under their feet, and then played a lively game of badminton until their legs felt pleasantly tired.\n\nBy midday, the sun was very hot, so the family found a shady spot under a big tree to rest. Nay Chi's mother reminded everyone to drink plenty of water and sit quietly for a while, explaining that a body needs rest after exercising just as much as it needs to move. Nay Chi lay back on the grass, closed her eyes, and listened to the birds singing, feeling calm and happy.\n\nThat night, after a warm bath and a careful two minutes of brushing her teeth, Nay Chi climbed into bed feeling wonderfully tired in a good way. Her mother tucked her in and reminded her that sleeping enough tonight would help her wake up full of energy again tomorrow. Nay Chi thought about her whole day -- washing her hands, running and jumping at the park, resting in the shade, bathing, brushing her teeth, and now sleeping -- and realized that every single one of these habits had helped keep her body clean, strong, and healthy.",
+        passageMy:
+            "နေချည်သည် တနင်္ဂနွေနေ့မနက် ညစာလုံးလုံး ကောင်းစွာအိပ်စက်ပြီးနောက် စောစောနိုးထလာသည်၊ လန်းဆန်းစွာ နိုးထလျက် ထိုနေ့အတွက် အသင့်ဖြစ်နေသည်။ မနက်စာမမီ သူမသည် ရေချိုးခန်းသို့ တည့်တည့်သွားပြီး ဆပ်ပြာကို လက်ပေါ်တွင် ပွတ်တိုက်ကာ ဆရာမ သင်ပေးခဲ့သည့်အတိုင်း စီးဆင်းနေသောရေအောက်တွင် သေချာစွာ ဆေးကြောသည်။ သူ့အမေက ပြုံးလျက် ရက်ကို သန့်ရှင်းစွာ စတင်ခြင်းသည် ရောဂါပိုးများကို ဝေးဝေးထားနိုင်သော အကောင်းဆုံးနည်းလမ်းဖြစ်ကြောင်း ပြောသည်။\n\nမနက်စာစားပြီးနောက် နေချည်၏ အဖေသည် မနက်ခင်းတစ်ခုလုံးကို မိသားစုတစ်ခုလုံး ပန်းခြံတွင် ကုန်ဆုံးမည်ဟု ကြေညာသည်။ နေချည်သည် အားကစားဖိနပ်များစီးလိုက်ပြီး မကြာမီ သူ့ညီငယ်နှင့်အတူ မြက်ခင်းပေါ်တွင် ပြေးလွှားနေကာ သစ်ပင်များပတ်လည် တစ်ယောက်ကိုတစ်ယောက် လိုက်ဖမ်းကာ ရယ်မောနေသည်။ ထို့နောက် သူတို့သည် အတူတကွ ကြိုးခုန်ကြပြီး၊ ကြိုးက ခြေဖျားအောက်ဖြတ်တိုင်း အသံထွက် ရေတွက်ကာ၊ ခြေထောက်များ ပျော်ရွှင်စွာ ပင်ပန်းလာသည်အထိ ဘတ်စကားကစားနွှင့် ဆက်လက်ကစားကြသည်။\n\nနေ့လယ်ရောက်လာသောအခါ နေအလွန်ပူသောကြောင့် မိသားစုသည် သစ်ပင်ကြီးတစ်ပင်၏ အရိပ်အောက်တွင် အနားယူရန် နေရာတစ်ခုကို ရှာတွေ့ကြသည်။ နေချည်၏ အမေက လေ့ကျင့်ခန်းလုပ်ပြီးနောက် ခန္ဓာကိုယ်သည် ရွေ့လျားရသလောက် အနားယူခြင်းလည်း လိုအပ်ကြောင်း ရှင်းပြရင်း အားလုံးအား ရေအလုံအလောက် သောက်ပြီး ခဏတာ ငြိမ်ဝပ်စွာ ထိုင်ရန် သတိပေးသည်။ နေချည်သည် မြက်ခင်းပေါ်တွင် လှဲကာ မျက်လုံးမှိတ်ကာ ငှက်များအော်သီဆိုသံကို နားစွင့်လျက် အေးချမ်းပျော်ရွှင်စွာ ခံစားနေသည်။\n\nထိုည နွေးထွေးသော ရေချိုးပြီးနောက်၊ သွားနှစ်မိနစ်ကြာ သေချာစွာ တိုက်ပြီးနောက် နေချည်သည် ကောင်းသောနည်းဖြင့် အံ့ဩဖွယ် ပင်ပန်းနေလျက် အိပ်ရာသို့ တက်သွားသည်။ သူ့အမေက စောင်ခြုံပေးရင်း ယနေ့ည အလုံအလောက်အိပ်ခြင်းက နက်ဖြန် ခွန်အားပြည့်ပြည့်နှင့် ပြန်နိုးလာနိုင်ရန် ကူညီပေးမည်ဟု သတိပေးသည်။ နေချည်သည် သူ့တစ်နေ့လုံးအကြောင်း တွေးမိသည် -- လက်ဆေးခြင်း၊ ပန်းခြံတွင် ပြေး/ခုန်ခြင်း၊ အရိပ်တွင် အနားယူခြင်း၊ ရေချိုးခြင်း၊ သွားတိုက်ခြင်းနှင့် ယခုအိပ်စက်တော့မည့်ခြင်း -- ဤအလေ့အထတိုင်းသည် သူ့ခန္ဓာကိုယ်ကို သန့်ရှင်း၊ ခွန်အားရှိပြီး ကျန်းမာအောင် ကူညီပေးခဲ့ကြောင်း သဘောပေါက်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what did Nay Chi do before breakfast, and why?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ မနက်စာမမီ နေချည် ဘာလုပ်ခဲ့ပြီး ဘာကြောင့် လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She washed her hands with soap to keep germs away",
+              "She brushed her hair for an hour",
+              "She ran three times around the house",
+              "She watered the garden plants",
+            ],
+            optionsMy: [
+              "ရောဂါပိုးများကို ဝေးဝေးထားရန် ဆပ်ပြာဖြင့် လက်ဆေးခဲ့သည်",
+              "တစ်နာရီကြာ ဆံပင်ဖြီးခဲ့သည်",
+              "အိမ်ကို သုံးကြိမ် ပတ်ပြေးခဲ့သည်",
+              "ဥယျာဉ်အပင်များကို ရေဖြန်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the first paragraph, right after Nay Chi wakes up.",
+              "This matches Day 1's first question about washing hands before eating.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ နေချည် နိုးထပြီးချက်ချင်း။",
+              "Day 1 ၏ ပထမမေးခွန်းနှင့် ဆင်တူသည် -- စားခြင်းမပြုမီ လက်ဆေးခြင်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In the third paragraph, why did Nay Chi's mother remind the family to rest and drink water under the tree?",
+            questionMy:
+                "တတိယပုဒ်မတွင်၊ သစ်ပင်အောက်တွင် အနားယူပြီး ရေသောက်ရန် နေချည်၏အမေက မိသားစုအား ဘာကြောင့် သတိပေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because a body needs rest after exercising, just as much as it needs to move",
+              "Because trees make people sleepy immediately",
+              "Because it was raining very hard",
+              "Because water is bad for a tired body",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်သည် ရွေ့လျားရသလောက် လေ့ကျင့်ခန်းလုပ်ပြီးနောက် အနားယူခြင်းလည်း လိုအပ်ကြောင်းဖြစ်သောကြောင့်",
+              "သစ်ပင်များက လူများကို ချက်ချင်း အိပ်ငိုက်စေသောကြောင့်",
+              "မိုးအလွန် သည်းထန်စွာ ရွာနေသောကြောင့်",
+              "ရေသည် ပင်ပန်းနေသောခန္ဓာကိုယ်အတွက် မကောင်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the third paragraph, after playing badminton in the hot sun.",
+              "This matches Day 1's third question about Moe Moe needing more rest after not sleeping enough.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ နေပူထဲတွင် ဘတ်စကား ကစားပြီးနောက်။",
+              "Day 1 ၏ တတိယမေးခွန်းနှင့် ဆင်တူသည် -- အိပ်ခြင်းမလုံလောက်ခဲ့သော မိုးမိုးက ပိုမိုအနားယူရန် လိုအပ်ခြင်း။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the fourth paragraph, what did Nay Chi's mother say sleeping enough tonight would help her do tomorrow?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ ယနေ့ည အလုံအလောက် အိပ်ခြင်းသည် နက်ဖြန်အတွက် ဘာလုပ်ရန် ကူညီမည်ဟု နေချည်၏အမေက ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Wake up full of energy again",
+              "Grow a whole foot taller overnight",
+              "Never need to eat breakfast again",
+              "Forget everything she learned that day",
+            ],
+            optionsMy: [
+              "ခွန်အားပြည့်ပြည့်နှင့် ပြန်နိုးလာခြင်း",
+              "တစ်ညချင်း ခြေတစ်ဖတ်စာ ပိုမြင့်လာခြင်း",
+              "မနက်စာ ထပ်မစားရတော့ခြင်း",
+              "ထိုနေ့ သင်ယူခဲ့သမျှကို မေ့ပျောက်သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall the fourth paragraph, as Nay Chi's mother tucks her into bed.",
+              "This matches Day 1's third question about Moe Moe's body needing rest and sleep to work well.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ အမေက စောင်ခြုံပေးသည့်အချိန်။",
+              "Day 1 ၏ တတိယမေးခွန်းနှင့် ဆင်တူသည် -- ကောင်းစွာအလုပ်လုပ်နိုင်ရန် ခန္ဓာကိုယ်က အနားယူခြင်းနှင့် အိပ်စက်ခြင်း လိုအပ်ခြင်း။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w31-d5",
+      dayNumber: 5,
+      titleEn: "Clean, Rested, and Active Recap",
+      titleMy: "သန့်ရှင်းခြင်း၊ အနားယူခြင်းနှင့် လှုပ်ရှားခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why should you wash your hands before eating?",
+          questionMy: "စားခြင်းမပြုမီ လက်ကို ဘာကြောင့် ဆေးကြောသင့်သနည်း။",
+          optionsEn: [
+            "To wash away germs that could make you sick",
+            "To make your hands cold",
+            "It makes no real difference",
+            "Only to make your hands smell nice",
+          ],
+          optionsMy: [
+            "နာမကျန်းဖြစ်စေနိုင်သော ရောဂါပိုးများကို ဆေးကြောပစ်ရန်",
+            "လက်များကို အေးစေရန်",
+            "ဘာမျှ ကွာခြားမှုမရှိပါ",
+            "လက်များကို အနံ့ကောင်းစေရန်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question about the teacher reminding the class to wash hands.",
+            "Think about the tiny things soap and water wash away that you cannot see.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်း၊ ဆရာမ လက်ဆေးရန် သတိပေးခဲ့ခြင်းကို သတိရပါ။",
+            "ဆပ်ပြာနှင့်ရေက မျက်စိမမြင်နိုင်သော အသေးလေးများကို မည်သို့ ဆေးကြောပစ်နိုင်သနည်းဟု စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a tired body need after a busy day of playing?",
+          questionMy: "ကစားနေသော လှုပ်ရှားရက်တစ်ရက်ပြီးနောက် ပင်ပန်းနေသောခန္ဓာကိုယ်က ဘာလိုအပ်သနည်း။",
+          optionsEn: ["Enough rest and sleep", "Less water", "More running immediately", "No food at all"],
+          optionsMy: ["အနားယူခြင်းနှင့် အိပ်စက်ခြင်း အလုံအလောက်", "ရေသောက်ခြင်း လျော့ချ", "ချက်ချင်း ထပ်ပြေးခြင်း", "အစားအစာ လုံးဝမစား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about Moe Moe feeling sleepy after not sleeping enough.",
+            "Recall the reading passage's third paragraph, about resting under the tree.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ တတိယမေးခွန်း၊ အိပ်ခြင်းမလုံလောက်ခဲ့သော မိုးမိုးကို သတိရပါ။",
+            "ဖတ်စာပုဒ်မ၏ တတိယပုဒ်မ၊ သစ်ပင်အောက်တွင် အနားယူခြင်းကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a good example of exercise?",
+          questionMy: "အောက်ပါတို့အနက် လေ့ကျင့်ခန်း၏ ကောင်းသောဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: ["Running and jumping rope", "Sleeping all day", "Sitting still for hours", "Washing dishes only"],
+          optionsMy: ["ပြေးခြင်းနှင့် ကြိုးခုန်ခြင်း", "တစ်နေကုန် အိပ်နေခြင်း", "နာရီပေါင်းများစွာ တိတ်ဆိတ်စွာထိုင်နေခြင်း", "ပန်းကန်ဆေးခြင်းသာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question about Nay Chi's family at the park.",
+            "Recall Day 2's drag-match definition of exercise -- moving your body to keep it strong.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ စတုတ္ထမေးခွန်း၊ နေချည်မိသားစု ပန်းခြံတွင် ရှိနေခြင်းကို သတိရပါ။",
+            "Day 2 ၏ drag-match တွင် လေ့ကျင့်ခန်း အနက်ဖွင့်ချက်ကို သတိရပါ -- ခန္ဓာကိုယ်ကို ခွန်အားရှိစေရန် ရွေ့လျားစေခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Why does Nay Chi brush her teeth every night?",
+          questionMy: "နေချည်သည် ညတိုင်း သူ့သွားများကို ဘာကြောင့် တိုက်သနည်း။",
+          optionsEn: [
+            "To keep her teeth clean and healthy",
+            "To make her teeth grow overnight",
+            "Because it has no purpose",
+            "To change the color of her teeth",
+          ],
+          optionsMy: [
+            "သွားများကို သန့်ရှင်းကျန်းမာအောင် ထိန်းသိမ်းရန်",
+            "သွားများကို တစ်ညချင်း ကြီးထွားစေရန်",
+            "ဘာအဓိပ္ပာယ်မှ မရှိသောကြောင့်",
+            "သွားများ၏အရောင်ကို ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question about Nay Chi's mother reminding her to brush her teeth.",
+            "Recall the reading passage's fourth paragraph, about Nay Chi's bedtime routine.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယမေးခွန်း၊ အမေက သွားတိုက်ရန် သတိပေးခဲ့ခြင်းကို သတိရပါ။",
+            "ဖတ်စာပုဒ်မ၏ စတုတ္ထပုဒ်မ၊ နေချည်၏ အိပ်ရာမဝင်မီ အလေ့အထကို သတိရပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 8, Week 32: "Putting It Together: Our Bodies
+// and Keeping Healthy"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek32 = CourseWeekDef(
+  id: "course-year1-science-w32",
+  weekNumber: 32,
+  titleEn: "Putting It Together: Our Bodies and Keeping Healthy",
+  titleMy:
+      "စုစည်းကြည့်ရအောင်: ကျွန်ုပ်တို့၏ ခန္ဓာကိုယ်နှင့် ကျန်းမာရေးထိန်းသိမ်းခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w32-d1",
+      dayNumber: 1,
+      titleEn: "Our Bodies and Keeping Healthy Challenge",
+      titleMy:
+          "ကျွန်ုပ်တို့၏ ခန္ဓာကိုယ်နှင့် ကျန်းမာရေးထိန်းသိမ်းခြင်း ကျွမ်းကျင်မှု ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At lunchtime, Moe Moe looks into her lunchbox with her eyes and smells the curry with her nose. She sees rice, vegetables, and fish inside. Which body parts is she using, and is this food a growing food or a sometimes treat?",
+          questionMy:
+              "နေ့လယ်စာအချိန်တွင် မိုးမိုးသည် သူ့လင်းပန်းထဲကို မျက်လုံးဖြင့်ကြည့်ပြီး ဟင်းလျာကို နှာခေါင်းဖြင့် နမ်းကြည့်သည်။ သူသည် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကို လင်းပန်းထဲတွင် တွေ့ရသည်။ သူသည် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းများကို အသုံးပြုနေပြီး၊ ဤအစားအစာသည် ကြီးထွားစေသောအစာလား သို့မဟုတ် တစ်ခါတစ်ရံအထူးပြုလား။",
+          optionsEn: [
+            "Her eyes and nose; it is a growing food that helps her body grow strong",
+            "Her ears and mouth; it is a sometimes treat, not a growing food",
+            "Her eyes and nose; it is a sometimes treat, not a growing food",
+            "Her hands only; food has nothing to do with growing",
+          ],
+          optionsMy: [
+            "သူ၏ မျက်လုံးနှင့် နှာခေါင်း၊ ဤအစားအစာသည် ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသော ကြီးထွားစေသောအစာဖြစ်သည်",
+            "သူ၏ နားနှင့် ပါးစပ်၊ ဤအစားအစာသည် ကြီးထွားစေသောအစာမဟုတ်ဘဲ တစ်ခါတစ်ရံအထူးပြုဖြစ်သည်",
+            "သူ၏ မျက်လုံးနှင့် နှာခေါင်း၊ ဤအစားအစာသည် ကြီးထွားစေသောအစာမဟုတ်ဘဲ တစ်ခါတစ်ရံအထူးပြုဖြစ်သည်",
+            "သူ၏ လက်များသာဖြစ်ပြီး အစားအစာသည် ကြီးထွားခြင်းနှင့် လုံးဝမသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 29's lesson on body parts -- eyes are for seeing and the nose is for smelling.",
+            "Recall Week 30's lesson on growing foods -- rice, vegetables, and fish all help a body grow strong.",
+          ],
+          hintsMy: [
+            "Week 29 ၏ ခန္ဓာကိုယ်အစိတ်အပိုင်းသင်ခန်းစာကို သတိရပါ -- မျက်လုံးသည် မြင်ရန်၊ နှာခေါင်းသည် အနံ့ခံရန်ဖြစ်သည်။",
+            "Week 30 ၏ ကြီးထွားစေသောအစာများသင်ခန်းစာကို သတိရပါ -- ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးအားလုံးသည် ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Before dinner, Nay Chi rubs soap over her hands and rinses them well under running water. Which body parts is she cleaning, and why is this important before she eats with them?",
+          questionMy:
+              "ညစာမမီ နေချည်သည် သူ့လက်များကို ဆပ်ပြာဖြင့်ပွတ်ပြီး စီးဆင်းနေသောရေအောက်တွင် သေချာစွာ ဆေးကြောသည်။ သူသည် မည်သည့် ခန္ဓာကိုယ်အစိတ်အပိုင်းကို သန့်ရှင်းနေပြီး၊ ထိုအစိတ်အပိုင်းဖြင့် စားရန် မတိုင်မီ ဤသို့ ဆေးကြောခြင်းက ဘာကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Her hands; washing them stops germs from getting into her mouth with her food",
+            "Her feet; washing them stops germs from getting into her ears",
+            "Her ears; washing them stops germs from getting into her nose",
+            "Her hands; but washing them has no effect on germs at all",
+          ],
+          optionsMy: [
+            "သူ၏ လက်များ၊ ဆေးကြောခြင်းက ရောဂါပိုးများ အစားအစာနှင့်အတူ သူ့ပါးစပ်ထဲသို့ ဝင်ခြင်းကို တားဆီးသည်",
+            "သူ၏ ခြေထောက်များ၊ ဆေးကြောခြင်းက ရောဂါပိုးများ သူ့နားထဲသို့ ဝင်ခြင်းကို တားဆီးသည်",
+            "သူ၏ နား၊ ဆေးကြောခြင်းက ရောဂါပိုးများ သူ့နှာခေါင်းထဲသို့ ဝင်ခြင်းကို တားဆီးသည်",
+            "သူ၏ လက်များ၊ သို့သော် ဆေးကြောခြင်းက ရောဂါပိုးများအပေါ် လုံးဝ သက်ရောက်မှုမရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's lesson on washing hands -- soap and water wash germs away before they can reach your food.",
+            "Recall Week 29's lesson on body parts -- the mouth is the body part used for eating.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ လက်ဆေးခြင်းသင်ခန်းစာကို သတိရပါ -- ဆပ်ပြာနှင့်ရေက ရောဂါပိုးများ အစားအစာသို့ မရောက်မီ ဆေးကြောပစ်သည်။",
+            "Week 29 ၏ ခန္ဓာကိုယ်အစိတ်အပိုင်းသင်ခန်းစာကို သတိရပါ -- ပါးစပ်သည် စားရန်အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်းဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On Sunday, Moe Moe uses her legs and feet to run and jump rope at the park for a whole hour, and feels pleasantly tired afterward. What is Moe Moe doing, and how does it help her body?",
+          questionMy:
+              "တနင်္ဂနွေနေ့တွင် မိုးမိုးသည် ပန်းခြံတွင် တစ်နာရီလုံး ခြေထောက်နှင့် ခြေဖျားများဖြင့် ပြေးခြင်းနှင့် ကြိုးခုန်ခြင်းများကို ပြုလုပ်ပြီး ထို့နောက် ပျော်ရွှင်စွာ ပင်ပန်းနေသည်။ မိုးမိုးသည် ဘာလုပ်နေပြီး ၎င်းက သူ၏ခန္ဓာကိုယ်ကို မည်သို့ ကူညီသနည်း။",
+          optionsEn: [
+            "She is exercising; it keeps her body strong and active",
+            "She is exercising; it makes her body grow weaker every time",
+            "She is resting; it makes her fall asleep immediately",
+            "She is eating; it fills her stomach with food",
+          ],
+          optionsMy: [
+            "သူသည် လေ့ကျင့်ခန်းလုပ်နေခြင်းဖြစ်ပြီး ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ လှုပ်ရှားကျန်းမာစွာ ထားစေသည်",
+            "သူသည် လေ့ကျင့်ခန်းလုပ်နေခြင်းဖြစ်ပြီး ခန္ဓာကိုယ်ကို တစ်ကြိမ်စီ ပိုအားနည်းစေသည်",
+            "သူသည် အနားယူနေခြင်းဖြစ်ပြီး ချက်ချင်းအိပ်ပျော်စေသည်",
+            "သူသည် စားနေခြင်းဖြစ်ပြီး ဗိုက်ကို အစားအစာနှင့် ပြည့်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's lesson on exercise -- moving your body often, like running and jumping, keeps it strong.",
+            "Recall Week 29's lesson on body parts -- legs and feet are the body parts used for running and jumping.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ လေ့ကျင့်ခန်းသင်ခန်းစာကို သတိရပါ -- ပြေးခြင်း၊ ခုန်ခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို မကြာခဏ လှုပ်ရှားစေခြင်းက ခွန်အားရှိစေသည်။",
+            "Week 29 ၏ ခန္ဓာကိုယ်အစိတ်အပိုင်းသင်ခန်းစာကို သတိရပါ -- ခြေထောက်နှင့် ခြေဖျားများသည် ပြေးခြင်း၊ ခုန်ခြင်းအတွက် အသုံးပြုသောအစိတ်အပိုင်းများဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After eating a big bowl of rice, vegetables, and fish for dinner, and sleeping a full night, Nay Chi wakes up the next morning feeling full of energy for school. Why does she feel this way?",
+          questionMy:
+              "ညစာအတွက် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးအပြည့်ကို စားပြီး ညတစ်ညလုံး အိပ်စက်ပြီးနောက် နေချည်သည် နောက်တစ်နေ့မနက် ကျောင်းသွားရန် ခွန်အားပြည့်ပြည့်နှင့် နိုးထလာသည်။ ဘာကြောင့် သူ ဤသို့ ခံစားရသနည်း။",
+          optionsEn: [
+            "Because she ate growing foods and got enough sleep, both of which her body needs",
+            "Because she only ate candy the night before instead of dinner",
+            "Because she stayed up very late watching TV instead of sleeping",
+            "Because she skipped dinner entirely and slept on an empty stomach",
+          ],
+          optionsMy: [
+            "ကြီးထွားစေသောအစာများ စားခဲ့ပြီး အိပ်စက်ခြင်း အလုံအလောက်ရရှိခဲ့သောကြောင့်ဖြစ်ပြီး ၎င်းနှစ်ခုစလုံးကို ခန္ဓာကိုယ်က လိုအပ်သည်",
+            "ညစာအစား သကြားလုံးသာ စားခဲ့သောကြောင့်ဖြစ်သည်",
+            "မအိပ်ဘဲ တီဗီကို အလွန်နောက်ကျအောင် ကြည့်ခဲ့သောကြောင့်ဖြစ်သည်",
+            "ညစာကို လုံးဝ မစားဘဲ ဗိုက်ဗလာနှင့် အိပ်ခဲ့သောကြောင့်ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods -- rice, vegetables, and fish give a body what it needs.",
+            "Recall Week 31's lesson on sleep -- a full night's rest helps the body work well and feel energetic the next day.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာများသင်ခန်းစာကို သတိရပါ -- ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးက ခန္ဓာကိုယ် လိုအပ်သောအရာများကို ပေးသည်။",
+            "Week 31 ၏ အိပ်စက်ခြင်းသင်ခန်းစာကို သတိရပါ -- ညတစ်ညလုံး အနားယူခြင်းက နောက်တစ်နေ့ ခန္ဓာကိုယ် ကောင်းစွာ အလုပ်လုပ်ပြီး ခွန်အားရှိစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w32-d2",
+      dayNumber: 2,
+      titleEn: "Body, Food, and Habits Match-Up",
+      titleMy: "ခန္ဓာကိုယ်၊ အစားအစာနှင့် အလေ့အထများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w32-dm-1",
+          termEn: "Eyes",
+          termMy: "မျက်လုံး",
+          matchEn:
+              "The body part you use to see the colors and shapes around you.",
+          matchMy:
+              "သင့်ပတ်ဝန်းကျင်ရှိ အရောင်များနှင့် ပုံသဏ္ဌာန်များကို မြင်ရန် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w32-dm-2",
+          termEn: "Legs and Feet",
+          termMy: "ခြေထောက်များနှင့် ခြေဖျားများ",
+          matchEn:
+              "The body parts used for walking, running, and jumping from place to place.",
+          matchMy:
+              "တစ်နေရာမှ တစ်နေရာသို့ လမ်းလျှောက်ခြင်း၊ ပြေးခြင်းနှင့် ခုန်ခြင်းအတွက် အသုံးပြုသော ခန္ဓာကိုယ်အစိတ်အပိုင်း။",
+          colorValue: 0xFFFF8A65,
+        ),
+        DragMatchPair(
+          id: "y1sci-w32-dm-3",
+          termEn: "Vegetables",
+          termMy: "ဟင်းသီးဟင်းရွက်",
+          matchEn:
+              "A growing food, like leafy greens and gourds, that keeps the body strong and healthy.",
+          matchMy:
+              "အရွက်စိမ်းများနှင့် ဖရုံများကဲ့သို့ ခန္ဓာကိုယ်ကို ကျန်းမာအားကောင်းစေသော ကြီးထွားစေသောအစား။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w32-dm-4",
+          termEn: "Candy",
+          termMy: "သကြားလုံး",
+          matchEn:
+              "A sweet treat that is fine once in a while, but not a growing food to eat at every meal.",
+          matchMy:
+              "တစ်ခါတစ်ရံ စားရန် ကောင်းသော်လည်း ဟင်းတိုင်းတွင် စားရန် ကြီးထွားစေသောအစာမဟုတ်သည့် ချိုမြိန်သောအထူးအစားအစာ။",
+          colorValue: 0xFFE57373,
+        ),
+        DragMatchPair(
+          id: "y1sci-w32-dm-5",
+          termEn: "Washing Hands",
+          termMy: "လက်ဆေးခြင်း",
+          matchEn:
+              "Rubbing soap and water over your hands before eating to wash away germs.",
+          matchMy:
+              "ရောဂါပိုးများကို ဆေးကြောပစ်ရန် စားခြင်းမပြုမီ ဆပ်ပြာနှင့်ရေကို လက်ပေါ်တွင် ပွတ်တိုက်ခြင်း။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w32-dm-6",
+          termEn: "Exercise",
+          termMy: "လေ့ကျင့်ခန်း",
+          matchEn:
+              "Moving your body, like running or playing sports, to keep it strong and active.",
+          matchMy:
+              "ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ လှုပ်ရှားနေစေရန် ပြေးခြင်း သို့မဟုတ် အားကစားကစားခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို ရွေ့လျားစေခြင်း။",
+          colorValue: 0xFFFFD54F,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w32-d3",
+      dayNumber: 3,
+      titleEn: "Healthy Every Day or Only Sometimes?",
+      titleMy: "နေ့စဉ်ကျန်းမာစေသလား၊ တစ်ခါတစ်ရံသာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Keeps My Body Healthy Every Day",
+          "Not a Healthy Daily Habit",
+        ],
+        bucketsMy: [
+          "နေ့စဉ် ကျန်းမာစေသော အလေ့အထ",
+          "ကျန်းမာသော နေ့စဉ်အလေ့အထ မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y1sci-w32-sort-1",
+            labelEn: "Eating vegetables at every meal",
+            labelMy: "ဟင်းတိုင်းတွင် ဟင်းသီးဟင်းရွက်စားခြင်း",
+            correctBucketEn: "Keeps My Body Healthy Every Day",
+            correctBucketMy: "နေ့စဉ် ကျန်းမာစေသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-2",
+            labelEn: "Eating a chocolate bar as a treat",
+            labelMy: "အထူးပြု ချောကလက်တံဆိပ်စားခြင်း",
+            correctBucketEn: "Not a Healthy Daily Habit",
+            correctBucketMy: "ကျန်းမာသော နေ့စဉ်အလေ့အထ မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-3",
+            labelEn: "Washing hands with soap before eating",
+            labelMy: "စားခြင်းမပြုမီ ဆပ်ပြာဖြင့် လက်ဆေးခြင်း",
+            correctBucketEn: "Keeps My Body Healthy Every Day",
+            correctBucketMy: "နေ့စဉ် ကျန်းမာစေသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-4",
+            labelEn: "Drinking a fizzy drink instead of water",
+            labelMy: "ရေအစား ဖျော်ရည်ဗူးသောက်ခြင်း",
+            correctBucketEn: "Not a Healthy Daily Habit",
+            correctBucketMy: "ကျန်းမာသော နေ့စဉ်အလေ့အထ မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-5",
+            labelEn: "Running and playing outside",
+            labelMy: "အပြင်ဘက်တွင် ပြေးကစားခြင်း",
+            correctBucketEn: "Keeps My Body Healthy Every Day",
+            correctBucketMy: "နေ့စဉ် ကျန်းမာစေသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-6",
+            labelEn: "Staying up very late every night watching TV",
+            labelMy: "ညတိုင်း တီဗီကို အလွန်နောက်ကျအောင် ကြည့်ခြင်း",
+            correctBucketEn: "Not a Healthy Daily Habit",
+            correctBucketMy: "ကျန်းမာသော နေ့စဉ်အလေ့အထ မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-7",
+            labelEn: "Sleeping a full night before school",
+            labelMy: "ကျောင်းမတက်မီ ညတစ်ညလုံး အိပ်စက်ခြင်း",
+            correctBucketEn: "Keeps My Body Healthy Every Day",
+            correctBucketMy: "နေ့စဉ် ကျန်းမာစေသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y1sci-w32-sort-8",
+            labelEn: "Skipping a bath for many days in a row",
+            labelMy: "ရက်ပေါင်းများစွာ ဆက်တိုက် ရေမချိုးဘဲနေခြင်း",
+            correctBucketEn: "Not a Healthy Daily Habit",
+            correctBucketMy: "ကျန်းမာသော နေ့စဉ်အလေ့အထ မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w32-d4",
+      dayNumber: 4,
+      titleEn: "A Healthy Day for Moe Moe and Nay Chi",
+      titleMy: "မိုးမိုးနှင့် နေချည်တို့၏ ကျန်းမာသောတစ်နေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Healthy Day for Moe Moe and Nay Chi",
+        titleMy: "မိုးမိုးနှင့် နေချည်တို့၏ ကျန်းမာသောတစ်နေ့",
+        passageEn:
+            "On Saturday morning, Moe Moe woke up and opened her eyes to the sunlight streaming through her window. She used her nose to smell the warm rice porridge her mother was cooking, and hurried to the kitchen. Before sitting down to eat, she went to the sink and rubbed soap over her hands, rinsing them well under running water, just as she always did before a meal. Her breakfast bowl was full of rice porridge with vegetables, and Moe Moe knew this was exactly the kind of growing food her body needed to start the day.\n\nAt school, Moe Moe met Nay Chi at the canteen during snack time. The canteen aunty offered two choices: a plate of sliced cucumber or a small bag of candy. Nay Chi looked at both with her eyes and remembered that vegetables like cucumber were a growing food, while candy was only a sometimes treat. She chose the cucumber, and Moe Moe did the same, saving her candy money for another day.\n\nAfter school, the two girls went to the park with Nay Chi's father. Using their legs and feet, they ran across the grass, jumped rope together, and played a lively game of badminton for almost an hour. By the time they finished, both girls were pleasantly tired, and they drank plenty of water to cool down before walking home together.\n\nThat night, Moe Moe took a warm bath, brushed her teeth for two full minutes, and climbed into bed early. As her mother tucked her in, Moe Moe thought about her whole day -- eating growing foods, washing her hands, running and jumping at the park, and now getting ready for a full night's sleep. She smiled, realizing that every one of these habits was helping her body grow strong, stay clean, and feel healthy.",
+        passageMy:
+            "စနေနေ့ မနက်တွင် မိုးမိုးသည် နိုးထလာပြီး ပြတင်းပေါက်မှ ဝင်လာသော နေရောင်ခြည်ကို မျက်လုံးဖွင့်ကြည့်လိုက်သည်။ သူသည် အမေချက်ပြုတ်နေသော နွေးထွေးသောထမင်းပြုတ်ရနံ့ကို နှာခေါင်းဖြင့် ရရှိပြီး မီးဖိုချောင်သို့ အလျင်စလို သွားခဲ့သည်။ ထိုင်မစားမီ သူသည် ရေကန်ဆီသွားပြီး ဆပ်ပြာကို လက်ပေါ်တွင် ပွတ်တိုက်ကာ စီးဆင်းနေသောရေအောက်တွင် ဟင်းတိုင်းမစားမီ အမြဲပြုလုပ်လေ့ရှိသည့်အတိုင်း သေချာစွာ ဆေးကြောသည်။ သူ၏ မနက်စာခွက်တွင် ဟင်းသီးဟင်းရွက်ပါသော ထမင်းပြုတ်အပြည့်ရှိပြီး၊ ဤသည်မှာ ခန္ဓာကိုယ်က တစ်နေ့ကို စတင်ရန် လိုအပ်သော ကြီးထွားစေသောအစာအမျိုးအစားပင်ဖြစ်ကြောင်း မိုးမိုး သိသည်။\n\nကျောင်းတွင် မိုးမိုးသည် အဆာပြေအချိန်တွင် စားသောက်ဆိုင်၌ နေချည်နှင့် တွေ့သည်။ စားသောက်ဆိုင်အန်တီက သခွားသီးလှီးအပြားနှင့် သကြားလုံးအိတ်ငယ်တစ်ခု -- ရွေးချယ်စရာနှစ်ခု ပေးသည်။ နေချည်သည် နှစ်ခုစလုံးကို မျက်လုံးဖြင့်ကြည့်ပြီး သခွားသီးကဲ့သို့ ဟင်းသီးဟင်းရွက်များသည် ကြီးထွားစေသောအစာဖြစ်ပြီး သကြားလုံးမှာ တစ်ခါတစ်ရံအထူးပြုသာ ဖြစ်ကြောင်း သတိရသည်။ သူသည် သခွားသီးကို ရွေးချယ်ခဲ့ပြီး မိုးမိုးလည်း အလားတူပင် ရွေးချယ်ကာ သူ့သကြားလုံးဝယ်ရန် ငွေကို နောက်တစ်ရက်အတွက် စုမှီးထားခဲ့သည်။\n\nကျောင်းပြီးနောက် ကလေးမနှစ်ယောက်သည် နေချည်၏ အဖေနှင့်အတူ ပန်းခြံသို့ သွားကြသည်။ သူတို့သည် ခြေထောက်နှင့် ခြေဖျားများကို အသုံးပြုကာ မြက်ခင်းပေါ်တွင် ပြေးလွှားကြပြီး၊ အတူတကွ ကြိုးခုန်ကာ၊ နီးပါးတစ်နာရီလုံး ဘတ်စကား ရွှင်လန်းစွာ ကစားခဲ့ကြသည်။ ကစားပြီးသောအခါ ကလေးမနှစ်ယောက်စလုံး ပျော်ရွှင်စွာ ပင်ပန်းနေပြီး၊ အိမ်ပြန်လမ်းမတက်မီ အေးဆေးရန် ရေအလုံအလောက် သောက်ခဲ့ကြသည်။\n\nထိုည မိုးမိုးသည် ရေနွေးချိုးပြီး၊ သွားကို မိနစ်နှစ်မိနစ်အပြည့် တိုက်ကာ စောစောအိပ်ရာဝင်ခဲ့သည်။ အမေက စောင်ခြုံပေးရင်း မိုးမိုးသည် သူ့တစ်နေ့လုံးအကြောင်း တွေးမိသည် -- ကြီးထွားစေသောအစာများ စားခြင်း၊ လက်ဆေးခြင်း၊ ပန်းခြံတွင် ပြေး/ခုန်ခြင်းနှင့် ယခုအခါ ညတစ်ညလုံး အိပ်စက်ရန် အသင့်ဖြစ်နေခြင်း။ ဤအလေ့အထတိုင်းသည် သူ့ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေပြီး၊ သန့်ရှင်းစေကာ ကျန်းမာစွာ ခံစားစေကြောင်း သူ သဘောပေါက်လာသဖြင့် ပြုံးလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Moe Moe do with her hands before eating breakfast?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ မနက်စာမမီ မိုးမိုး သူ့လက်များကို ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She washed them with soap under running water",
+              "She ate without washing them at all",
+              "She wiped them on her clothes only",
+              "She put on a pair of gloves",
+            ],
+            optionsMy: [
+              "စီးဆင်းနေသောရေအောက်တွင် ဆပ်ပြာဖြင့် ဆေးကြောခဲ့သည်",
+              "လုံးဝ မဆေးကြောဘဲ စားခဲ့သည်",
+              "အဝတ်ပေါ်တွင်သာ သုတ်ခဲ့သည်",
+              "လက်အိတ်တစ်စုံ ဝတ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 1, where Moe Moe goes to the sink before eating.",
+              "Recall Day 1's second question about Nay Chi washing her hands before dinner, and Week 31's lesson on hand washing.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး စားခြင်းမပြုမီ ရေကန်ဆီသွားသည့်နေရာ။",
+              "Day 1 ၏ ဒုတိယမေးခွန်း၊ နေချည် ညစာမမီ လက်ဆေးခြင်းနှင့် Week 31 ၏ လက်ဆေးခြင်းသင်ခန်းစာကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Nay Chi choose the sliced cucumber instead of the candy?",
+            questionMy:
+                "ဒုတိယပုဒ်မအရ၊ နေချည်သည် သကြားလုံးအစား သခွားသီးလှီးအပြားကို ဘာကြောင့် ရွေးချယ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Cucumber is a growing food, while candy is only a sometimes treat",
+              "She does not like the taste of candy at all",
+              "The candy at the canteen cost too much money",
+              "Cucumber tastes much sweeter than candy",
+            ],
+            optionsMy: [
+              "သခွားသီးသည် ကြီးထွားစေသောအစာဖြစ်ပြီး သကြားလုံးမှာ တစ်ခါတစ်ရံအထူးပြုသာ ဖြစ်သောကြောင့်",
+              "သူသည် သကြားလုံးအရသာကို လုံးဝ မကြိုက်သောကြောင့်",
+              "စားသောက်ဆိုင်ရှိ သကြားလုံးက ဈေးကြီးလွန်းသောကြောင့်",
+              "သခွားသီးသည် သကြားလုံးထက် ပိုချိုမြိန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 2, during snack time at the canteen.",
+              "Recall Day 1's first question about growing foods, and Week 30's lesson on growing foods versus sometimes treats.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ စားသောက်ဆိုင် အဆာပြေအချိန်။",
+              "Day 1 ၏ ပထမမေးခွန်းနှင့် Week 30 ၏ ကြီးထွားစေသောအစာနှင့် တစ်ခါတစ်ရံအထူးပြု သင်ခန်းစာကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which body parts did Moe Moe and Nay Chi use most to run and jump rope at the park?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ ပန်းခြံတွင် ပြေးရန်နှင့် ကြိုးခုန်ရန် မိုးမိုးနှင့် နေချည် မည်သည့်ခန္ဓာကိုယ်အစိတ်အပိုင်းများကို အများဆုံးအသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Their legs and feet",
+              "Their ears and nose",
+              "Their hair and elbows",
+              "Their mouths only",
+            ],
+            optionsMy: [
+              "သူတို့၏ ခြေထောက်များနှင့် ခြေဖျားများ",
+              "သူတို့၏ နားနှင့် နှာခေါင်း",
+              "သူတို့၏ ဆံပင်နှင့် တံတောင်ဆစ်",
+              "သူတို့၏ ပါးစပ်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 3, at the park after school.",
+              "Recall Day 1's third question about exercise, and Week 29's lesson on legs and feet.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ကျောင်းပြီးနောက် ပန်းခြံအချိန်။",
+              "Day 1 ၏ တတိယမေးခွန်းနှင့် Week 29 ၏ ခြေထောက်နှင့် ခြေဖျားသင်ခန်းစာကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did Moe Moe do that night before getting into bed?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ အိပ်ရာမဝင်မီ ထိုည မိုးမိုး ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She took a warm bath and brushed her teeth for two minutes",
+              "She watched TV and ate candy until very late",
+              "She skipped her bath and went straight to bed",
+              "She ran around the house one more time",
+            ],
+            optionsMy: [
+              "ရေနွေးချိုးပြီး သွားကို မိနစ်နှစ်မိနစ်ကြာ တိုက်ခဲ့သည်",
+              "တီဗီကြည့်ပြီး သကြားလုံးကို အလွန်နောက်ကျအောင် စားခဲ့သည်",
+              "ရေချိုးခြင်းကို ကျော်ကာ တည့်တည့် အိပ်ရာဝင်ခဲ့သည်",
+              "အိမ်ပတ်လည် နောက်တစ်ကြိမ် ပြေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 4, as Moe Moe gets ready for bed.",
+              "Recall Day 1's fourth question about sleep and energy, and Week 31's lesson on bathing, brushing teeth, and sleeping enough.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး အိပ်ရာဝင်ရန် အသင့်ပြင်ချိန်။",
+              "Day 1 ၏ စတုတ္ထမေးခွန်းနှင့် Week 31 ၏ ရေချိုးခြင်း၊ သွားတိုက်ခြင်းနှင့် အိပ်စက်ခြင်း အလုံအလောက်သင်ခန်းစာကို သတိရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term Our Bodies and Keeping Healthy Recap",
+      titleMy:
+          "ခန္ဓာကိုယ်နှင့် ကျန်းမာရေးထိန်းသိမ်းခြင်း အပတ်စဉ်ပြန်လှန် ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which body part do you use to smell your favorite curry cooking in the kitchen?",
+          questionMy:
+              "မီးဖိုချောင်တွင် ချက်ပြုတ်နေသော အကြိုက်ဆုံးဟင်းလျာကို အနံ့ခံရန် မည်သည့်ခန္ဓာကိုယ်အစိတ်အပိုင်းကို အသုံးပြုသနည်း။",
+          optionsEn: ["Nose", "Ears", "Elbows", "Knees"],
+          optionsMy: ["နှာခေါင်း", "နား", "တံတောင်ဆစ်", "ဒူး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 29's lesson on body parts -- the nose is for smelling.",
+            "Recall this week's Day 1 question about Moe Moe smelling the curry in her lunchbox.",
+          ],
+          hintsMy: [
+            "Week 29 ၏ ခန္ဓာကိုယ်အစိတ်အပိုင်းသင်ခန်းစာကို သတိရပါ -- နှာခေါင်းသည် အနံ့ခံရန်ဖြစ်သည်။",
+            "ဤအပတ်၏ Day 1 တွင် မိုးမိုး ဟင်းလျာကို နမ်းကြည့်သည့်မေးခွန်းကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Is candy a growing food that your body needs to eat at every single meal?",
+          questionMy:
+              "သကြားလုံးသည် ဟင်းတိုင်းတွင် သင့်ခန္ဓာကိုယ် စားရန်လိုအပ်သော ကြီးထွားစေသောအစာလား။",
+          optionsEn: [
+            "No, it is only a sometimes treat, not a daily growing food",
+            "Yes, candy should replace rice at every meal",
+            "Yes, candy is the most important growing food",
+            "No, food has no connection to growing at all",
+          ],
+          optionsMy: [
+            "မဟုတ်ပါ၊ တစ်ခါတစ်ရံအထူးပြုသာဖြစ်ပြီး နေ့စဉ်ကြီးထွားစေသောအစာမဟုတ်ပါ",
+            "ဟုတ်ပါသည်၊ သကြားလုံးက ဟင်းတိုင်းတွင် ထမင်းအစား အစားထိုးသင့်သည်",
+            "ဟုတ်ပါသည်၊ သကြားလုံးသည် အရေးအကြီးဆုံး ကြီးထွားစေသောအစာဖြစ်သည်",
+            "မဟုတ်ပါ၊ အစားအစာသည် ကြီးထွားခြင်းနှင့် လုံးဝမသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods versus sometimes treats.",
+            "Recall this week's Day 2 drag-match pairing for Candy.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာနှင့် တစ်ခါတစ်ရံအထူးပြု သင်ခန်းစာကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Candy အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should you wash your hands with soap and water before you eat?",
+          questionMy:
+              "စားခြင်းမပြုမီ ဆပ်ပြာနှင့်ရေဖြင့် လက်ကို ဘာကြောင့် ဆေးကြောသင့်သနည်း။",
+          optionsEn: [
+            "To wash away germs before they can get into your mouth with your food",
+            "To make your hands feel cold",
+            "It makes no real difference to your health",
+            "Only to make your hands smell nice",
+          ],
+          optionsMy: [
+            "ရောဂါပိုးများ အစားအစာနှင့်အတူ ပါးစပ်ထဲသို့ မဝင်မီ ဆေးကြောပစ်ရန်",
+            "လက်များကို အေးစေရန်",
+            "ကျန်းမာရေးအပေါ် ဘာမျှ ကွာခြားမှုမရှိပါ",
+            "လက်များကို အနံ့ကောင်းစေရန်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's lesson on washing hands before eating.",
+            "Recall this week's Day 1 question about Nay Chi washing her hands before dinner.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ စားခြင်းမပြုမီ လက်ဆေးခြင်းသင်ခန်းစာကို သတိရပါ။",
+            "ဤအပတ်၏ Day 1 တွင် နေချည် ညစာမမီ လက်ဆေးသည့်မေးခွန်းကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does running, jumping rope, and playing outside help your body do?",
+          questionMy:
+              "ပြေးခြင်း၊ ကြိုးခုန်ခြင်းနှင့် အပြင်ဘက်ကစားခြင်းက သင့်ခန္ဓာကိုယ်ကို မည်သို့ကူညီသနည်း။",
+          optionsEn: [
+            "Stay strong and active",
+            "Grow weaker every time",
+            "Fall asleep immediately",
+            "Feel hungry for candy only",
+          ],
+          optionsMy: [
+            "ခွန်အားရှိစွာ လှုပ်ရှားကျန်းမာစွာ ထားစေသည်",
+            "တစ်ကြိမ်စီ ပိုအားနည်းစေသည်",
+            "ချက်ချင်းအိပ်ပျော်စေသည်",
+            "သကြားလုံးကိုသာ ဆာလောင်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's lesson on exercise, and this week's Day 1 question about Moe Moe at the park.",
+            "Recall this week's Day 2 drag-match pairing for Exercise.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ လေ့ကျင့်ခန်းသင်ခန်းစာနှင့် ဤအပတ်၏ Day 1 တွင် ပန်းခြံရှိ မိုးမိုးကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Exercise အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at Weeks 29 to 32, which of these is TRUE about keeping your body healthy?",
+          questionMy:
+              "Week 29 မှ 32 အထိကို ပြန်ကြည့်လျှင် သင့်ခန္ဓာကိုယ်ကို ကျန်းမာစေခြင်းနှင့် ပတ်သက်၍ အဘယ်စကားက မှန်ကန်သနည်း။",
+          optionsEn: [
+            "Eating growing foods, washing your hands, exercising, and sleeping enough all work together to keep your body healthy and strong",
+            "Only eating food matters, and nothing else has any effect",
+            "None of these habits actually make any difference to your body",
+            "Only eating candy every day keeps a body healthy",
+          ],
+          optionsMy: [
+            "ကြီးထွားစေသောအစာစားခြင်း၊ လက်ဆေးခြင်း၊ လေ့ကျင့်ခန်းလုပ်ခြင်းနှင့် အိပ်စက်ခြင်း အလုံအလောက်ရရှိခြင်းတို့သည် သင့်ခန္ဓာကိုယ်ကို ကျန်းမာအားကောင်းစွာထားရန် အတူတကွ ပူးပေါင်းအလုပ်လုပ်ကြသည်",
+            "အစားအစာစားခြင်းသာ အရေးကြီးပြီး အခြားအရာများ ဘာသက်ရောက်မှုမှ မရှိပါ",
+            "ဤအလေ့အထများထဲမှ မည်သည့်တစ်ခုမျှ ခန္ဓာကိုယ်အပေါ် ဘာမျှကွာခြားမှု မဖြစ်စေပါ",
+            "သကြားလုံးကို နေ့စဉ်စားခြင်းသာ ခန္ဓာကိုယ်ကို ကျန်းမာစေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods and Week 31's lesson on hygiene, sleep, and exercise.",
+            "Recall this week's Day 1 questions and Day 4 reading, where Moe Moe combined all four habits in one healthy day.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာသင်ခန်းစာနှင့် Week 31 ၏ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများကို သတိရပါ။",
+            "ဤအပတ်၏ Day 1 မေးခွန်းများနှင့် Day 4 ဖတ်စာကို သတိရပါ -- မိုးမိုးသည် ဤအလေ့အထလေးခုစလုံးကို ကျန်းမာသောတစ်နေ့တွင် ပေါင်းစပ်ခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year1ScienceTerm8 = CourseTermDef(
+  id: "course-year1-science-t8",
+  termNumber: 8,
+  titleEn: "Our Bodies and Keeping Healthy",
+  titleMy: "ကျွန်ုပ်တို့၏ ခန္ဓာကိုယ်နှင့် ကျန်းမာရေးထိန်းသိမ်းခြင်း",
+  certificateTitleEn: "Our Bodies and Keeping Healthy",
+  certificateTitleMy: "ကျွန်ုပ်တို့၏ ခန္ဓာကိုယ်နှင့် ကျန်းမာရေးထိန်းသိမ်းခြင်း",
+  weeks: [
+    _year1ScienceWeek29,
+    _year1ScienceWeek30,
+    _year1ScienceWeek31,
+    _year1ScienceWeek32,
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 9, Week 33: "Growing From Baby to Child"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek33 = CourseWeekDef(
+  id: "course-year1-science-w33",
+  weekNumber: 33,
+  titleEn: "Growing From Baby to Child",
+  titleMy: "မွေးကင်းစကလေးမှ ကလေးအရွယ်အထိ ကြီးထွားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w33-d1",
+      dayNumber: 1,
+      titleEn: "What Can a Baby Do, What Can I Do?",
+      titleMy: "မွေးကင်းစကလေးက ဘာလုပ်နိုင်သနည်း၊ ကျွန်ုပ်က ဘာလုပ်နိုင်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Moe Moe visits her baby cousin, who can only crawl on the floor and cannot walk yet. Moe Moe herself can walk, run, and even jump rope. What does this show about how children's bodies change as they grow older?",
+          questionMy:
+              "မိုးမိုးသည် သူ့ဝမ်းကွဲညီမငယ်ထံ လည်ပတ်သည်။ ထိုကလေးငယ်သည် ကြမ်းပြင်ပေါ်တွင် လေးဖက်ထောက်ဖြင့်သာ တွားနိုင်ပြီး လမ်းမလျှောက်နိုင်သေးပါ။ မိုးမိုးကိုယ်တိုင်မူ လမ်းလျှောက်နိုင်၊ ပြေးနိုင်ပြီး ကြိုးခုန်ပင် ခုန်နိုင်သည်။ ဤသည်က ကလေးများ၏ခန္ဓာကိုယ် အသက်ကြီးလာသည်နှင့်အမျှ မည်သို့ပြောင်းလဲကြောင်းကို ပြသနေသနည်း။",
+          optionsEn: [
+            "As children grow older, their bodies learn to do more things than a baby's body can do",
+            "Babies can already run and jump faster than any child",
+            "A baby's body and a child's body never change at all",
+            "Growing older makes a body forget how to move",
+          ],
+          optionsMy: [
+            "ကလေးများ အသက်ကြီးလာသည်နှင့်အမျှ သူတို့ခန္ဓာကိုယ်သည် မွေးကင်းစကလေးထက် ပိုများသောအရာများကို လုပ်တတ်လာသည်",
+            "မွေးကင်းစကလေးများသည် ကလေးမည်သူ့ထက်မဆို ပိုမြန်စွာ ပြေးနိုင်ခုန်နိုင်သည်",
+            "မွေးကင်းစကလေး၏ ခန္ဓာကိုယ်နှင့် ကလေး၏ခန္ဓာကိုယ်သည် ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "အသက်ကြီးလာခြင်းက ခန္ဓာကိုယ်ကို ရွေ့လျားနည်းလမ်း မေ့သွားစေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what a tiny baby can do compared to what Moe Moe can do now.",
+            "As a body grows from baby to toddler to child, it gains new abilities like walking, running, and jumping.",
+          ],
+          hintsMy: [
+            "မွေးကင်းစကလေးငယ်တစ်ဦး ဘာလုပ်နိုင်ကြောင်းနှင့် မိုးမိုး ယခုဘာလုပ်နိုင်ကြောင်းကို နှိုင်းယှဉ်စဉ်းစားပါ။",
+            "ခန္ဓာကိုယ်တစ်ခုသည် မွေးကင်းစကလေးမှ လမ်းစတမ်းကလေးသို့၊ ထို့နောက် ကလေးအရွယ်သို့ ကြီးထွားလာသည်နှင့်အမျှ လမ်းလျှောက်ခြင်း၊ ပြေးခြင်းနှင့် ခုန်ခြင်းကဲ့သို့ စွမ်းရည်အသစ်များ ရရှိလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe's baby cousin drinks only milk and cannot chew rice or vegetables yet, but Moe Moe eats rice, vegetables, and fish at every meal. What does this show about growing from a baby into a child?",
+          questionMy:
+              "မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် နို့သာသောက်ပြီး ထမင်း (သို့) ဟင်းသီးဟင်းရွက်ကို မဝါးနိုင်သေးပါ၊ သို့သော် မိုးမိုးမူ ဟင်းတိုင်းတွင် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကို စားနိုင်သည်။ ဤသည်က မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်းနှင့် ပတ်သက်၍ ဘာကို ပြသနေသနည်း။",
+          optionsEn: [
+            "As a body grows older, it learns to eat more kinds of food than just milk",
+            "Babies always eat more rice than children do",
+            "Milk is a sometimes treat, not something babies need",
+            "Growing older means a body needs to drink only milk forever",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခု အသက်ကြီးလာသည်နှင့်အမျှ နို့တစ်မျိုးတည်းမက အစားအစာများစွာကို စားတတ်လာသည်",
+            "မွေးကင်းစကလေးများသည် ကလေးများထက် ထမင်းကို အမြဲ ပိုစားတတ်သည်",
+            "နို့သည် တစ်ခါတစ်ရံအထူးပြုသာဖြစ်ပြီး မွေးကင်းစကလေးများ မလိုအပ်ပါ",
+            "အသက်ကြီးလာခြင်းဆိုသည်မှာ ခန္ဓာကိုယ်သည် နို့တစ်မျိုးတည်းကိုသာ ထာဝရသောက်ရမည်ဟု ဆိုလိုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods -- rice, vegetables, and fish are foods a growing child can eat.",
+            "A very young baby cannot chew yet, but as a body grows, it learns to eat more kinds of food.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာများသင်ခန်းစာကို သတိရပါ -- ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးသည် ကြီးထွားနေသော ကလေးတစ်ဦး စားနိုင်သော အစားအစာများဖြစ်သည်။",
+            "အလွန်ငယ်ရွယ်သော မွေးကင်းစကလေးငယ်သည် မဝါးနိုင်သေးသော်လည်း ခန္ဓာကိုယ် ကြီးထွားလာသည်နှင့်အမျှ အစားအစာမျိုးစုံကို စားတတ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe's baby cousin cannot talk yet and only makes cooing sounds, but Nay Chi can talk, sing songs, and tell her friends a whole story. What does this show about growing older?",
+          questionMy:
+              "မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် စကားမပြောနိုင်သေးဘဲ ရွှင်လန်းသောအသံငယ်များသာ ပြုလုပ်သည်၊ သို့သော် နေချည်မူ စကားပြောနိုင်၊ သီချင်းဆိုနိုင်ပြီး သူငယ်ချင်းများကို ဇာတ်လမ်းတစ်ပုဒ်လုံး ပြောပြနိုင်သည်။ ဤသည်က အသက်ကြီးလာခြင်းနှင့် ပတ်သက်၍ ဘာကို ပြသနေသနည်း။",
+          optionsEn: [
+            "As a body grows older, it learns new skills like talking that a tiny baby cannot do yet",
+            "Babies can already talk better than any child",
+            "Talking has nothing to do with growing older",
+            "A baby's cooing sounds are exactly the same as talking",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခု အသက်ကြီးလာသည်နှင့်အမျှ မွေးကင်းစကလေးငယ်တစ်ဦး မလုပ်နိုင်သေးသော စကားပြောခြင်းကဲ့သို့ ကျွမ်းကျင်မှုအသစ်များကို သင်ယူလာသည်",
+            "မွေးကင်းစကလေးများသည် ကလေးမည်သူ့ထက်မဆို စကားကို ပိုကောင်းစွာ ပြောနိုင်ပြီးသားဖြစ်သည်",
+            "စကားပြောခြင်းသည် အသက်ကြီးလာခြင်းနှင့် လုံးဝမသက်ဆိုင်ပါ",
+            "မွေးကင်းစကလေး၏ ရွှင်လန်းသောအသံငယ်များသည် စကားပြောခြင်းနှင့် အတိအကျ တူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about what a very young baby can say compared to what Nay Chi can say now.",
+            "Talking, singing, and telling stories are skills a body learns as it grows from a baby into a child.",
+          ],
+          hintsMy: [
+            "အလွန်ငယ်ရွယ်သော မွေးကင်းစကလေးငယ်တစ်ဦး ဘာပြောနိုင်ကြောင်းနှင့် နေချည် ယခုဘာပြောနိုင်ကြောင်းကို စဉ်းစားပါ။",
+            "စကားပြောခြင်း၊ သီချင်းဆိုခြင်းနှင့် ဇာတ်လမ်းပြောခြင်းတို့သည် မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားလာသည်နှင့်အမျှ ခန္ဓာကိုယ် သင်ယူလာသော ကျွမ်းကျင်မှုများဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe's baby cousin sleeps for most of the day and cannot yet go to school, but Moe Moe wakes up, goes to school, learns, and plays every day. What does this show about the difference between a baby and a child?",
+          questionMy:
+              "မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် တစ်နေ့တာ၏ အများစုကို အိပ်ပျော်နေတတ်ပြီး ကျောင်းသွားနိုင်သေးမည် မဟုတ်ပါ၊ သို့သော် မိုးမိုးမူ နေ့စဉ် နိုးထ၊ ကျောင်းသွား၊ သင်ယူပြီး ကစားသည်။ ဤသည်က မွေးကင်းစကလေးနှင့် ကလေးအရွယ်ကြား ကွာခြားချက်ကို ဘာဖြင့်ပြသနေသနည်း။",
+          optionsEn: [
+            "A growing child's body needs less sleep and can do far more during the day than a tiny baby's body",
+            "Babies and children need to sleep exactly the same number of hours",
+            "Going to school makes a body stop growing",
+            "A baby sleeps because it does not like to play",
+          ],
+          optionsMy: [
+            "ကြီးထွားနေသော ကလေးတစ်ဦး၏ ခန္ဓာကိုယ်သည် အိပ်ချိန် နည်းလာပြီး မွေးကင်းစကလေးငယ်၏ ခန္ဓာကိုယ်ထက် တစ်နေ့တာအတွင်း ပိုများသောအရာများကို လုပ်နိုင်သည်",
+            "မွေးကင်းစကလေးများနှင့် ကလေးများသည် နာရီအရေအတွက် အတိအကျ တူညီစွာ အိပ်ရမည်",
+            "ကျောင်းသွားခြင်းက ခန္ဓာကိုယ်ကို ကြီးထွားခြင်းမှ ရပ်တန့်စေသည်",
+            "မွေးကင်းစကလေးငယ်သည် ကစားရန် မကြိုက်သောကြောင့် အိပ်နေခြင်းဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 31's lesson on sleep -- everyone needs rest, but a growing child's body can stay awake and active longer than a tiny baby's.",
+            "Think about all the things Moe Moe can do in one day that her baby cousin cannot do yet.",
+          ],
+          hintsMy: [
+            "Week 31 ၏ အိပ်စက်ခြင်းသင်ခန်းစာကို သတိရပါ -- လူတိုင်း အနားယူရန်လိုအပ်သော်လည်း ကြီးထွားနေသော ကလေးတစ်ဦး၏ ခန္ဓာကိုယ်သည် မွေးကင်းစကလေးငယ်ထက် ပိုနိုးထလှုပ်ရှားနေနိုင်သည်။",
+            "မိုးမိုး တစ်နေ့တာအတွင်း လုပ်နိုင်ပြီး သူ့ဝမ်းကွဲညီမငယ် မလုပ်နိုင်သေးသော အရာအားလုံးကို စဉ်းစားပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w33-d2",
+      dayNumber: 2,
+      titleEn: "Growing Up Words Match-Up",
+      titleMy: "ကြီးထွားခြင်းဆိုင်ရာ ဝေါဟာရများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w33-dm-1",
+          termEn: "Baby",
+          termMy: "မွေးကင်းစကလေး",
+          matchEn:
+              "A very young human who mostly sleeps, drinks milk, and cannot walk or talk yet.",
+          matchMy:
+              "အများအားဖြင့် အိပ်ပျော်နေတတ်၊ နို့သောက်ပြီး လမ်းလျှောက်ခြင်း (သို့) စကားပြောခြင်း မတတ်သေးသော အလွန်ငယ်ရွယ်သည့်လူသား။",
+          colorValue: 0xFFF06292,
+        ),
+        DragMatchPair(
+          id: "y1sci-w33-dm-2",
+          termEn: "Toddler",
+          termMy: "လမ်းစတမ်းကလေး",
+          matchEn:
+              "A young child who has just learned to stand up and take a few wobbly steps.",
+          matchMy:
+              "ရပ်ခြင်းနှင့် တဒယက်ဒယက် ခြေလှမ်းအနည်းငယ် လှမ်းခြင်းကို လတ်တလော သင်ယူခဲ့သော ငယ်ရွယ်သည့်ကလေး။",
+          colorValue: 0xFFFFB74D,
+        ),
+        DragMatchPair(
+          id: "y1sci-w33-dm-3",
+          termEn: "Child",
+          termMy: "ကလေးအရွယ်",
+          matchEn:
+              "An older boy or girl, like Moe Moe or Nay Chi, who can walk, run, talk, and go to school.",
+          matchMy:
+              "မိုးမိုး (သို့) နေချည်ကဲ့သို့ လမ်းလျှောက်နိုင်၊ ပြေးနိုင်၊ စကားပြောနိုင်ပြီး ကျောင်းတက်နိုင်သော အသက်ကြီးပြီးသား ကလေးသူငယ်။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w33-dm-4",
+          termEn: "Crawling",
+          termMy: "တွားခြင်း",
+          matchEn:
+              "Moving around on hands and knees, something a baby learns to do before it can walk.",
+          matchMy:
+              "မွေးကင်းစကလေးတစ်ဦး လမ်းမလျှောက်မီ ပထမဆုံးသင်ယူသော လက်နှင့်ဒူးများဖြင့် ရွေ့လျားခြင်း။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w33-dm-5",
+          termEn: "Walking",
+          termMy: "လမ်းလျှောက်ခြင်း",
+          matchEn:
+              "Moving along on two feet, something most children learn to do as toddlers.",
+          matchMy:
+              "လမ်းစတမ်းကလေးအရွယ်တွင် ကလေးအများစု သင်ယူလေ့ရှိသော ခြေထောက်နှစ်ဖက်ဖြင့် ရွေ့လျားခြင်း။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w33-dm-6",
+          termEn: "Talking",
+          termMy: "စကားပြောခြင်း",
+          matchEn:
+              "Using real words to speak, something a growing child can do that a tiny baby cannot do yet.",
+          matchMy:
+              "ကြီးထွားနေသော ကလေးတစ်ဦး လုပ်နိုင်သော်လည်း အလွန်ငယ်ရွယ်သည့် မွေးကင်းစကလေးငယ် မလုပ်နိုင်သေးသော အစစ်အမှန်စကားလုံးများဖြင့် ပြောဆိုခြင်း။",
+          colorValue: 0xFFFFD54F,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w33-d3",
+      dayNumber: 3,
+      titleEn: "Baby or Child?",
+      titleMy: "မွေးကင်းစကလေးလား၊ ကလေးအရွယ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["What a Baby Can Do", "What Moe Moe and Nay Chi Can Do Now"],
+        bucketsMy: [
+          "မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သောအရာများ",
+          "မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သောအရာများ",
+        ],
+        items: [
+          SortingItem(
+            id: "y1sci-w33-sort-1",
+            labelEn: "Drink only milk",
+            labelMy: "နို့သာသောက်ခြင်း",
+            correctBucketEn: "What a Baby Can Do",
+            correctBucketMy: "မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-2",
+            labelEn: "Eat rice, vegetables, and fish",
+            labelMy: "ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးစားခြင်း",
+            correctBucketEn: "What Moe Moe and Nay Chi Can Do Now",
+            correctBucketMy: "မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-3",
+            labelEn: "Crawl on the floor",
+            labelMy: "ကြမ်းပြင်ပေါ်တွင် တွားခြင်း",
+            correctBucketEn: "What a Baby Can Do",
+            correctBucketMy: "မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-4",
+            labelEn: "Run and jump rope at the park",
+            labelMy: "ပန်းခြံတွင် ပြေးခြင်းနှင့် ကြိုးခုန်ခြင်း",
+            correctBucketEn: "What Moe Moe and Nay Chi Can Do Now",
+            correctBucketMy: "မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-5",
+            labelEn: "Sleep for most of the day",
+            labelMy: "တစ်နေ့တာ၏အများစု အိပ်ပျော်နေခြင်း",
+            correctBucketEn: "What a Baby Can Do",
+            correctBucketMy: "မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-6",
+            labelEn: "Go to school and learn to read",
+            labelMy: "ကျောင်းသွားပြီး စာဖတ်တတ်အောင် သင်ယူခြင်း",
+            correctBucketEn: "What Moe Moe and Nay Chi Can Do Now",
+            correctBucketMy: "မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-7",
+            labelEn: "Cry to ask for something",
+            labelMy: "တစ်ခုခုတောင်းရန် ငိုယိုခြင်း",
+            correctBucketEn: "What a Baby Can Do",
+            correctBucketMy: "မွေးကင်းစကလေးတစ်ဦး လုပ်နိုင်သောအရာများ",
+          ),
+          SortingItem(
+            id: "y1sci-w33-sort-8",
+            labelEn: "Tell a friend a whole story",
+            labelMy: "သူငယ်ချင်းကို ဇာတ်လမ်းတစ်ပုဒ်လုံး ပြောပြခြင်း",
+            correctBucketEn: "What Moe Moe and Nay Chi Can Do Now",
+            correctBucketMy: "မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သောအရာများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w33-d4",
+      dayNumber: 4,
+      titleEn: "Moe Moe's Baby Cousin",
+      titleMy: "မိုးမိုး၏ ဝမ်းကွဲညီမငယ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe's Baby Cousin",
+        titleMy: "မိုးမိုး၏ ဝမ်းကွဲညီမငယ်",
+        passageEn:
+            "On Sunday, Moe Moe's family visited her aunt's house to see her new baby cousin, who was only a few months old. Moe Moe knelt down beside the mat where the baby lay and watched her cousin kick her tiny legs and wave her tiny arms, but the baby could not sit up or crawl anywhere on her own yet. Moe Moe remembered that she herself could not always walk and run the way she could now.\n\nAt lunchtime, Moe Moe's aunt fed the baby only milk from a bottle, since the baby could not chew rice or vegetables yet. Moe Moe, sitting nearby with her own plate, ate rice, vegetables, and a small piece of fish, just like she did every day. She realized that as her baby cousin grew bigger, month by month, she would slowly learn to eat more kinds of food too.\n\nWhen Moe Moe tried to talk to her baby cousin, the baby only made soft cooing sounds and smiled, unable to say any real words back. Moe Moe laughed and told her cousin all about her day at school anyway, then sang her a favorite song. She thought about how she herself could now talk, sing, and tell whole stories to her friends, none of which she could do as a tiny baby.\n\nBy the afternoon, the baby had fallen asleep again, just as she did many times throughout the day. Moe Moe's mother explained that babies sleep a great deal because their bodies are working hard to grow, and that in time, the baby would grow from a baby into a toddler who could stand and take her first wobbly steps, and later into a child just like Moe Moe -- able to walk, run, talk, eat a full meal, and go to school every single day.",
+        passageMy:
+            "တနင်္ဂနွေနေ့တွင် မိုးမိုးမိသားစုသည် လနည်းငယ်အရွယ်သာရှိသော ဝမ်းကွဲညီမငယ်ကို လည်ခဲ့ကြရန် အန်တီအိမ်သို့ လည်ပတ်ခဲ့ကြသည်။ မိုးမိုးသည် ကလေးငယ် လှဲထားသော ကုတင်ဘေးတွင် ဒူးထောက်ကာ သူ့ညီမငယ် ခြေထောက်ငယ်လေးများကို ကန်ကာ လက်ငယ်လေးများကို လှုပ်ရှားနေသည်ကို ကြည့်နေခဲ့သည်၊ သို့သော် ကလေးငယ်သည် ကိုယ်တိုင် ထိုင်နိုင်ခြင်း (သို့) မည်သည့်နေရာသို့မျှ တွားနိုင်ခြင်း မရှိသေးပါ။ မိုးမိုးသည် သူကိုယ်တိုင်ပင် ယခုကဲ့သို့ အမြဲ လမ်းလျှောက်နိုင်၊ ပြေးနိုင်ခြင်း မရှိခဲ့ကြောင်း သတိရမိသည်။\n\nနေ့လယ်စာအချိန်တွင် မိုးမိုး၏အန်တီသည် ကလေးငယ် ထမင်း (သို့) ဟင်းသီးဟင်းရွက် မဝါးနိုင်သေးသောကြောင့် ပုလင်းနို့ကိုသာ ကျွေးသည်။ အနားတွင် ထိုင်နေသော မိုးမိုးမူ သူ့ပန်းကန်မှ ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးအနည်းငယ်ကို နေ့စဉ်ပြုလုပ်လေ့ရှိသည့်အတိုင်း စားသည်။ သူ့ဝမ်းကွဲညီမငယ် လနှင့်အမျှ ကြီးထွားလာသည်နှင့်အမျှ အစားအစာမျိုးစုံကို ဖြည်းညင်းစွာ စားတတ်လာမည်ဟု သူ သဘောပေါက်လာသည်။\n\nမိုးမိုး သူ့ဝမ်းကွဲညီမငယ်နှင့် စကားပြောကြည့်သောအခါ ကလေးငယ်သည် ပြုံးရင်း ရွှင်လန်းသောအသံငယ်များသာ ပြုလုပ်ပြီး အစစ်အမှန်စကားလုံးများကို ပြန်ပြောနိုင်ခြင်း မရှိပါ။ မိုးမိုးသည် ရယ်မောရင်း ကျောင်းတွင်ဖြစ်ခဲ့သည်များကို ညီမငယ်အား ပြောပြပြီး သူအကြိုက်ဆုံးသီချင်းကို ဆိုပြသည်။ သူကိုယ်တိုင်ပင် ယခုအခါ စကားပြောနိုင်၊ သီချင်းဆိုနိုင်ပြီး သူငယ်ချင်းများကို ဇာတ်လမ်းအပြည့် ပြောပြနိုင်ကြောင်း၊ ၎င်းအားလုံးကို မွေးကင်းစကလေးငယ်အနေနှင့် မလုပ်နိုင်ခဲ့ကြောင်း တွေးမိသည်။\n\nနေ့လည်ခင်းရောက်သောအခါ ကလေးငယ်သည် တစ်နေ့တာအတွင်း အကြိမ်များစွာ အိပ်ပျော်လေ့ရှိသည့်အတိုင်း တဖန် အိပ်ပျော်သွားပြန်သည်။ မိုးမိုး၏အမေက မွေးကင်းစကလေးများသည် ခန္ဓာကိုယ် ကြီးထွားရန် လေးနက်စွာ အလုပ်လုပ်နေသောကြောင့် များစွာအိပ်တတ်ကြောင်းနှင့် အချိန်တန်လျှင် ကလေးငယ်သည် မွေးကင်းစကလေးမှ ရပ်နိုင်ပြီး ပထမဆုံး တဒယက်ဒယက် ခြေလှမ်းများ လှမ်းနိုင်သော လမ်းစတမ်းကလေးအဖြစ်သို့ ကြီးထွားလာမည်ဖြစ်ပြီး၊ ထို့နောက် မိုးမိုးကဲ့သို့ လမ်းလျှောက်နိုင်၊ ပြေးနိုင်၊ စကားပြောနိုင်၊ အစားအစာအပြည့်စားနိုင်ပြီး နေ့စဉ်ကျောင်းတက်နိုင်သော ကလေးအရွယ်သို့ ရောက်ရှိလာမည်ဟု ရှင်းပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what could Moe Moe's baby cousin not yet do on her own?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် ကိုယ်တိုင် မလုပ်နိုင်သေးသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Sit up or crawl anywhere on her own",
+              "Kick her legs or wave her arms",
+              "Lie down on the mat",
+              "Smile at Moe Moe",
+            ],
+            optionsMy: [
+              "ကိုယ်တိုင် ထိုင်ခြင်း (သို့) မည်သည့်နေရာသို့မျှ တွားခြင်း",
+              "ခြေထောက်ကန်ခြင်း (သို့) လက်ငယ်များ လှုပ်ရှားခြင်း",
+              "ကုတင်ပေါ်တွင် လှဲနေခြင်း",
+              "မိုးမိုးကို ပြုံးပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 1, where Moe Moe watches her baby cousin on the mat.",
+              "Recall Day 1's first question about the baby cousin only crawling and not walking yet.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး ကလေးငယ်ကို ကုတင်ပေါ်တွင် ကြည့်နေသည့်နေရာ။",
+              "Day 1 ၏ ပထမမေးခွန်း၊ ဝမ်းကွဲညီမငယ် တွားနိုင်ရုံသာဖြစ်ပြီး လမ်းမလျှောက်နိုင်သေးခြင်းကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Moe Moe's aunt feed the baby only milk from a bottle?",
+            questionMy:
+                "ဒုတိယပုဒ်မအရ၊ မိုးမိုး၏အန်တီသည် ကလေးငယ်ကို ပုလင်းနို့ကိုသာ ဘာကြောင့် ကျွေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because the baby could not chew rice or vegetables yet",
+              "Because milk is a sometimes treat, not a real food",
+              "Because the family had no rice that day",
+              "Because the baby did not like the taste of fish",
+            ],
+            optionsMy: [
+              "ကလေးငယ်သည် ထမင်း (သို့) ဟင်းသီးဟင်းရွက် မဝါးနိုင်သေးသောကြောင့်",
+              "နို့သည် တစ်ခါတစ်ရံအထူးပြုသာဖြစ်ပြီး အစားအစာအစစ်မဟုတ်သောကြောင့်",
+              "ထိုနေ့ မိသားစုတွင် ထမင်းမရှိသောကြောင့်",
+              "ကလေးငယ်သည် ငါးအရသာကို မကြိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 2, at lunchtime with the baby.",
+              "Recall Day 1's second question about the baby drinking only milk while Moe Moe eats rice, vegetables, and fish.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ကလေးငယ်နှင့် နေ့လယ်စာအချိန်။",
+              "Day 1 ၏ ဒုတိယမေးခွန်း၊ ကလေးငယ် နို့သာသောက်ပြီး မိုးမိုးမူ ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးစားသည်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the baby respond when Moe Moe tried to talk to her?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ မိုးမိုးက စကားပြောကြည့်သောအခါ ကလေးငယ် မည်သို့ တုံ့ပြန်ခဲ့သနည်း။",
+            optionsEn: [
+              "She only made soft cooing sounds and smiled",
+              "She told Moe Moe a whole story back",
+              "She sang a song back to Moe Moe",
+              "She said several real words clearly",
+            ],
+            optionsMy: [
+              "ပြုံးရင်း ရွှင်လန်းသောအသံငယ်များသာ ပြုလုပ်ခဲ့သည်",
+              "မိုးမိုးကို ဇာတ်လမ်းအပြည့် ပြန်ပြောပြခဲ့သည်",
+              "မိုးမိုးကို သီချင်းတစ်ပုဒ် ပြန်ဆိုပေးခဲ့သည်",
+              "အစစ်အမှန်စကားလုံးများစွာကို ရှင်းလင်းစွာ ပြောခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 3, when Moe Moe talks and sings to her baby cousin.",
+              "Recall Day 1's third question about the baby only making cooing sounds while Nay Chi can talk, sing, and tell stories.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး ညီမငယ်နှင့် စကားပြော၊ သီချင်းဆိုသည့်နေရာ။",
+              "Day 1 ၏ တတိယမေးခွန်း၊ ကလေးငယ် ရွှင်လန်းသောအသံငယ်များသာပြုလုပ်ပြီး နေချည်မူ စကားပြောနိုင်၊ သီချင်းဆိုနိုင်၊ ဇာတ်လမ်းပြောနိုင်ခြင်းကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did Moe Moe's mother say the baby would grow into after being a toddler?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ ကလေးငယ်သည် လမ်းစတမ်းကလေးအရွယ်ပြီးနောက် ဘာအဖြစ်သို့ ကြီးထွားလာမည်ဟု မိုးမိုး၏အမေက ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "A child like Moe Moe, who can walk, run, talk, eat a full meal, and go to school",
+              "A toddler forever, never growing any further",
+              "An animal that lives on a farm",
+              "Someone who can only ever drink milk",
+            ],
+            optionsMy: [
+              "မိုးမိုးကဲ့သို့ လမ်းလျှောက်နိုင်၊ ပြေးနိုင်၊ စကားပြောနိုင်၊ အစားအစာအပြည့်စားနိုင်ပြီး ကျောင်းတက်နိုင်သော ကလေးအရွယ်",
+              "ဘယ်တော့မှ ဆက်မကြီးဘဲ လမ်းစတမ်းကလေးအရွယ်တွင်ပင် ထာဝရနေရစ်ခြင်း",
+              "စိုက်ခင်းတွင် နေထိုင်သော တိရစ္ဆာန်တစ်ကောင်",
+              "နို့ကိုသာ ထာဝရသောက်ရမည့်သူ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 4, where Moe Moe's mother explains how the baby will grow.",
+              "Recall Day 2's drag-match pairing for Toddler and Child, and this week's title about growing from baby to child.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး၏အမေ ကလေးငယ် မည်သို့ကြီးထွားမည်ကို ရှင်းပြသည့်နေရာ။",
+              "Day 2 ၏ drag-match တွင် Toddler နှင့် Child အတွက် တွဲထားသည်နှင့် ဤအပတ်၏ ခေါင်းစဉ်ကို သတိရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w33-d5",
+      dayNumber: 5,
+      titleEn: "Growing From Baby to Child Recap",
+      titleMy: "မွေးကင်းစကလေးမှ ကလေးအရွယ်အထိ ကြီးထွားခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a baby move around on before it learns to walk?",
+          questionMy: "မွေးကင်းစကလေးတစ်ဦး လမ်းမလျှောက်တတ်မီ ဘာဖြင့် ရွေ့လျားသနည်း။",
+          optionsEn: ["Crawling on hands and knees", "Riding a bicycle", "Jumping rope", "Swimming"],
+          optionsMy: ["လက်နှင့်ဒူးများဖြင့် တွားခြင်း", "စက်ဘီးစီးခြင်း", "ကြိုးခုန်ခြင်း", "ရေကူးခြင်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question about the baby cousin crawling on the floor.",
+            "Recall this week's Day 2 drag-match pairing for Crawling.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်း၊ ဝမ်းကွဲညီမငယ် ကြမ်းပြင်ပေါ်တွင် တွားခြင်းကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Crawling အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a toddler?",
+          questionMy: "လမ်းစတမ်းကလေးဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A young child who has just learned to stand and take a few wobbly steps",
+            "A tiny baby who cannot move at all",
+            "An adult who has finished growing",
+            "A kind of food a growing body needs",
+          ],
+          optionsMy: [
+            "ရပ်ခြင်းနှင့် တဒယက်ဒယက် ခြေလှမ်းအနည်းငယ်လှမ်းခြင်းကို လတ်တလောသင်ယူခဲ့သော ငယ်ရွယ်သည့်ကလေး",
+            "လုံးဝ မရွေ့လျားနိုင်သော မွေးကင်းစကလေးငယ်",
+            "ကြီးထွားခြင်း ပြီးဆုံးသွားသော လူကြီးတစ်ဦး",
+            "ကြီးထွားနေသော ခန္ဓာကိုယ် လိုအပ်သည့် အစားအစာအမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 2 drag-match pairing for Toddler.",
+            "Recall Day 4's reading, where Moe Moe's mother explains the baby will grow into a toddler next.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ Day 2 drag-match တွင် Toddler အတွက် တွဲထားသည်ကို သတိရပါ။",
+            "Day 4 ၏ ဖတ်စာကို သတိရပါ -- မိုးမိုး၏အမေက ကလေးငယ် နောက်တစ်ဆင့် လမ်းစတမ်းကလေးအဖြစ် ကြီးထွားမည်ဟု ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these can a growing child like Moe Moe do that a tiny baby cannot do yet?",
+          questionMy:
+              "အောက်ပါတို့အနက် မိုးမိုးကဲ့သို့ ကြီးထွားနေသော ကလေးတစ်ဦး လုပ်နိုင်သော်လည်း မွေးကင်းစကလေးငယ် မလုပ်နိုင်သေးသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Walk, run, and talk",
+            "Sleep for a while",
+            "Kick its legs",
+            "Grow bigger",
+          ],
+          optionsMy: [
+            "လမ်းလျှောက်ခြင်း၊ ပြေးခြင်းနှင့် စကားပြောခြင်း",
+            "ခဏတာ အိပ်စက်ခြင်း",
+            "ခြေထောက်ကန်ခြင်း",
+            "ကြီးထွားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's questions comparing what the baby can do to what Moe Moe and Nay Chi can do now.",
+            "Recall this week's Day 3 sorting activity.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ မေးခွန်းများ၊ ကလေးငယ် လုပ်နိုင်သည်နှင့် မိုးမိုးနှင့် နေချည် ယခုလုပ်နိုင်သည်ကို နှိုင်းယှဉ်ခြင်းကို သတိရပါ။",
+            "ဤအပတ်၏ Day 3 စိစစ်ခွဲခြားခြင်းကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a growing child's body need to eat rice, vegetables, and fish instead of only milk?",
+          questionMy:
+              "ကြီးထွားနေသော ကလေးတစ်ဦး၏ ခန္ဓာကိုယ်သည် နို့တစ်မျိုးတည်းအစား ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကို ဘာကြောင့် စားရန် လိုအပ်သနည်း။",
+          optionsEn: [
+            "Because as a body grows, it needs more kinds of growing food to grow strong",
+            "Because milk is bad for a baby's body",
+            "Because rice and vegetables taste like milk",
+            "Because a growing body should stop eating altogether",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခု ကြီးထွားလာသည်နှင့်အမျှ ခွန်အားရှိစွာ ကြီးထွားရန် ကြီးထွားစေသောအစာမျိုးစုံ ပိုလိုအပ်လာသောကြောင့်",
+            "နို့သည် မွေးကင်းစကလေး၏ ခန္ဓာကိုယ်အတွက် မကောင်းသောကြောင့်",
+            "ထမင်းနှင့် ဟင်းသီးဟင်းရွက်တို့သည် နို့ကဲ့သို့ အရသာရှိသောကြောင့်",
+            "ကြီးထွားနေသော ခန္ဓာကိုယ်တစ်ခုသည် လုံးဝ စားခြင်းကို ရပ်တန့်သင့်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods, and this week's Day 1 second question about the baby drinking only milk.",
+            "Recall Day 4's reading, where Moe Moe's baby cousin will slowly learn to eat more kinds of food as she grows.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာများသင်ခန်းစာနှင့် ဤအပတ်၏ Day 1 ဒုတိယမေးခွန်းကို သတိရပါ။",
+            "Day 4 ၏ ဖတ်စာကို သတိရပါ -- မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် ကြီးထွားလာသည်နှင့်အမျှ အစားအစာမျိုးစုံကို ဖြည်းညင်းစွာ စားတတ်လာမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is TRUE about how a human body changes from a baby into a child?",
+          questionMy:
+              "လူ့ခန္ဓာကိုယ်တစ်ခု မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ မည်သို့ပြောင်းလဲကြောင်းနှင့်ပတ်သက်၍ အဘယ်စကားက မှန်ကန်သနည်း။",
+          optionsEn: [
+            "It slowly learns new abilities, like crawling, then walking, then talking, running, and eating a full meal",
+            "It never changes at all from the day it is born",
+            "It loses abilities as it gets older",
+            "It only changes its clothes, never its abilities",
+          ],
+          optionsMy: [
+            "တွားခြင်း၊ ထို့နောက် လမ်းလျှောက်ခြင်း၊ ထို့နောက် စကားပြောခြင်း၊ ပြေးခြင်းနှင့် အစားအစာအပြည့်စားခြင်းကဲ့သို့ စွမ်းရည်အသစ်များကို ဖြည်းညင်းစွာ သင်ယူသည်",
+            "မွေးဖွားသည့်နေ့မှစ၍ ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "အသက်ကြီးလာသည်နှင့်အမျှ စွမ်းရည်များကို ဆုံးရှုံးသွားသည်",
+            "အဝတ်အစားများကိုသာ ပြောင်းလဲပြီး စွမ်းရည်များကို ဘယ်တော့မှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 1 questions and Day 4 reading, where Moe Moe compares her baby cousin's abilities to her own.",
+            "Recall this week's Day 2 drag-match, where Baby, Toddler, and Child each described a different stage.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ Day 1 မေးခွန်းများနှင့် Day 4 ဖတ်စာကို သတိရပါ -- မိုးမိုးသည် သူ့ဝမ်းကွဲညီမငယ်၏ စွမ်းရည်များကို သူ့ကိုယ်ပိုင်စွမ်းရည်များနှင့် နှိုင်းယှဉ်သည်။",
+            "ဤအပတ်၏ Day 2 drag-match ကို သတိရပါ -- Baby, Toddler နှင့် Child တစ်ခုစီသည် အဆင့်မတူညီကြောင်း ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 9, Week 34: "Baby Animals Grow Up"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek34 = CourseWeekDef(
+  id: "course-year1-science-w34",
+  weekNumber: 34,
+  titleEn: "Baby Animals Grow Up",
+  titleMy: "တိရစ္ဆာန်ကလေးများ ကြီးထွားလာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w34-d1",
+      dayNumber: 1,
+      titleEn: "Which Animal Will This Baby Grow Into?",
+      titleMy: "ဤတိရစ္ဆာန်ကလေးသည် ဘာအဖြစ်သို့ ကြီးထွားသွားမည်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's family hen sits on her eggs to keep them warm, and one morning a fluffy little chick hatches out of one. What will this chick grow up into?",
+          questionMy:
+              "နေချည်၏ မိသားစုကြက်မသည် ကြက်ဥများကို နွေးအောင် ထိုင်ပေးပြီး တစ်နေ့မနက် ကြက်ဥတစ်လုံးမှ အမွှေးအမွှာလေးများနှင့် ကြက်ကလေးတစ်ကောင် ပေါက်လာသည်။ ဤကြက်ကလေးသည် ဘာအဖြစ်သို့ ကြီးထွားသွားမည်နည်း။",
+          optionsEn: [
+            "A grown-up hen",
+            "A grown-up frog",
+            "A grown-up dog",
+            "A grown-up cat",
+          ],
+          optionsMy: ["အရွယ်ရောက်ကြက်မ", "အရွယ်ရောက်ဖား", "အရွယ်ရောက်ခွေး", "အရွယ်ရောက်ကြောင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's lesson on animals -- a hen lays eggs, and a chick hatches from an egg.",
+            "Think about which grown-up animal a fluffy little chick looks most similar to.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ တိရစ္ဆာန်များသင်ခန်းစာကို သတိရပါ -- ကြက်မသည် ဥများခ၍ ကြက်ကလေးသည် ကြက်ဥမှ ပေါက်လာသည်။",
+            "အမွှေးအမွှာလေးများနှင့် ကြက်ကလေးတစ်ကောင်သည် မည်သည့်အရွယ်ရောက်တိရစ္ဆာန်နှင့် အသဏ္ဌာန်တူညီဆုံးနည်းကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe watches a tiny tadpole swimming in the pond behind her house, wiggling its tail through the water with no legs at all yet. What will this tadpole grow up into?",
+          questionMy:
+              "မိုးမိုးသည် သူ့အိမ်နောက်ဘက်ရေကန်တွင် ခြေထောက်လုံးဝမရှိသေးဘဲ အမြီးလှုပ်ရှားရင်း ရေကူးနေသော ဖားပုတီးလေးတစ်ကောင်ကို ကြည့်နေသည်။ ဤဖားပုတီးလေးသည် ဘာအဖြစ်သို့ ကြီးထွားသွားမည်နည်း။",
+          optionsEn: [
+            "A grown-up frog",
+            "A grown-up hen",
+            "A grown-up cow",
+            "A grown-up cat",
+          ],
+          optionsMy: ["အရွယ်ရောက်ဖား", "အရွယ်ရောက်ကြက်မ", "အရွယ်ရောက်နွား", "အရွယ်ရောက်ကြောင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which animal starts life swimming in water with no legs and later grows legs and hops on land.",
+            "A tadpole lives in water and slowly grows into an animal that can both swim and hop.",
+          ],
+          hintsMy: [
+            "မည်သည့်တိရစ္ဆာန်သည် ခြေထောက်မရှိဘဲ ရေထဲတွင် အသက်ရှင်စတင်ပြီး နောက်ပိုင်း ခြေထောက်ပေါက်ကာ ကုန်းပေါ်တွင် ခုန်တတ်လာသည်ကို စဉ်းစားပါ။",
+            "ဖားပုတီးသည် ရေထဲတွင် နေထိုင်ပြီး ရေကူးလည်းနိုင်၊ ခုန်လည်းနိုင်သော တိရစ္ဆာန်တစ်ကောင်အဖြစ် ဖြည်းညင်းစွာ ကြီးထွားလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's neighbor has a small wobbly puppy that follows her around, barking in a tiny voice. What will this puppy grow up into?",
+          questionMy:
+              "နေချည်၏အိမ်နီးချင်းတွင် သူ့ကို လိုက်ပါလာသော အသံငယ်ငယ်နှင့် ဟောင်နေသော လှုပ်ရှားနေသေးငယ်သည့် ခွေးကလေးတစ်ကောင် ရှိသည်။ ဤခွေးကလေးသည် ဘာအဖြစ်သို့ ကြီးထွားသွားမည်နည်း။",
+          optionsEn: [
+            "A grown-up dog",
+            "A grown-up cat",
+            "A grown-up hen",
+            "A grown-up frog",
+          ],
+          optionsMy: ["အရွယ်ရောက်ခွေး", "အရွယ်ရောက်ကြောင်", "အရွယ်ရောက်ကြက်မ", "အရွယ်ရောက်ဖား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's lesson on pets -- a puppy is a baby dog.",
+            "Think about which grown-up pet animal a barking puppy will one day become.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ အိမ်မွေးတိရစ္ဆာန်များသင်ခန်းစာကို သတိရပါ -- ခွေးကလေးသည် ခွေးမွေးကင်းစဖြစ်သည်။",
+            "ဟောင်နေသော ခွေးကလေးသည် တစ်နေ့ ဘာအရွယ်ရောက် အိမ်မွေးတိရစ္ဆာန်ဖြစ်လာမည်ကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a visit to a farm, Moe Moe sees a small calf standing shakily beside its mother, drinking milk from her. What will this calf grow up into?",
+          questionMy:
+              "စိုက်ခင်းသို့ လည်ပတ်ချိန်တွင် မိုးမိုးသည် သူ့မိခင်ဘေးတွင် တုန်တုန်ရင်း ရပ်ကာ နို့စို့နေသော နွားငယ်လေးတစ်ကောင်ကို တွေ့ရသည်။ ဤနွားငယ်လေးသည် ဘာအဖြစ်သို့ ကြီးထွားသွားမည်နည်း။",
+          optionsEn: [
+            "A grown-up cow",
+            "A grown-up dog",
+            "A grown-up chick",
+            "A grown-up tadpole",
+          ],
+          optionsMy: ["အရွယ်ရောက်နွား", "အရွယ်ရောက်ခွေး", "အရွယ်ရောက်ကြက်ကလေး", "အရွယ်ရောက်ဖားပုတီး"],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about which farm animal a small calf drinking its mother's milk will grow up into.",
+            "A calf is a baby cow, just like a chick is a baby hen.",
+          ],
+          hintsMy: [
+            "မိခင်နို့စို့နေသော နွားငယ်လေးတစ်ကောင်သည် ဘာအရွယ်ရောက် စိုက်ခင်းတိရစ္ဆာန်ဖြစ်လာမည်ကို စဉ်းစားပါ။",
+            "ကြက်ကလေးသည် ကြက်မ၏ မွေးကင်းစဖြစ်သကဲ့သို့ နွားငယ်လေးသည်လည်း နွား၏ မွေးကင်းစဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w34-d2",
+      dayNumber: 2,
+      titleEn: "Baby Animal Match-Up",
+      titleMy: "တိရစ္ဆာန်ကလေးများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w34-dm-1",
+          termEn: "Egg",
+          termMy: "ဥ",
+          matchEn:
+              "What a hen sits on and keeps warm until a baby chick hatches out of it.",
+          matchMy:
+              "ကြက်မတစ်ကောင် ထိုင်ပေးကာ ကြက်ကလေးတစ်ကောင် ပေါက်လာသည့်အထိ နွေးထားပေးသောအရာ။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w34-dm-2",
+          termEn: "Chick",
+          termMy: "ကြက်ကလေး",
+          matchEn:
+              "A baby hen that hatches from an egg and slowly grows into a grown-up hen.",
+          matchMy:
+              "ကြက်ဥမှ ပေါက်လာပြီး အရွယ်ရောက်ကြက်မတစ်ကောင်အဖြစ် ဖြည်းညင်းစွာ ကြီးထွားလာသော ကြက်မွေးကင်းစ။",
+          colorValue: 0xFFFFB74D,
+        ),
+        DragMatchPair(
+          id: "y1sci-w34-dm-3",
+          termEn: "Tadpole",
+          termMy: "ဖားပုတီး",
+          matchEn:
+              "A baby frog that lives in water with no legs at first and later grows into a grown-up frog.",
+          matchMy:
+              "ပထမတွင် ခြေထောက်မရှိဘဲ ရေထဲတွင် နေထိုင်ပြီး နောက်ပိုင်း အရွယ်ရောက်ဖားတစ်ကောင်အဖြစ် ကြီးထွားလာသော ဖားမွေးကင်းစ။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w34-dm-4",
+          termEn: "Puppy",
+          termMy: "ခွေးကလေး",
+          matchEn: "A baby dog that grows into a grown-up dog.",
+          matchMy: "အရွယ်ရောက်ခွေးတစ်ကောင်အဖြစ် ကြီးထွားလာသော ခွေးမွေးကင်းစ။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w34-dm-5",
+          termEn: "Kitten",
+          termMy: "ကြောင်ကလေး",
+          matchEn: "A baby cat that grows into a grown-up cat.",
+          matchMy: "အရွယ်ရောက်ကြောင်တစ်ကောင်အဖြစ် ကြီးထွားလာသော ကြောင်မွေးကင်းစ။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w34-dm-6",
+          termEn: "Calf",
+          termMy: "နွားငယ်လေး",
+          matchEn:
+              "A baby cow that drinks its mother's milk and grows into a grown-up cow.",
+          matchMy:
+              "မိခင်နို့စို့ပြီး အရွယ်ရောက်နွားတစ်ကောင်အဖြစ် ကြီးထွားလာသော နွားမွေးကင်းစ။",
+          colorValue: 0xFFE57373,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w34-d3",
+      dayNumber: 3,
+      titleEn: "Baby Animal or Grown-Up Animal?",
+      titleMy: "တိရစ္ဆာန်ကလေးလား၊ အရွယ်ရောက်တိရစ္ဆာန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Baby Animal", "Grown-Up Animal"],
+        bucketsMy: ["တိရစ္ဆာန်ကလေး", "အရွယ်ရောက်တိရစ္ဆာန်"],
+        items: [
+          SortingItem(
+            id: "y1sci-w34-sort-1",
+            labelEn: "Chick",
+            labelMy: "ကြက်ကလေး",
+            correctBucketEn: "Baby Animal",
+            correctBucketMy: "တိရစ္ဆာန်ကလေး",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-2",
+            labelEn: "Hen",
+            labelMy: "ကြက်မ",
+            correctBucketEn: "Grown-Up Animal",
+            correctBucketMy: "အရွယ်ရောက်တိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-3",
+            labelEn: "Tadpole",
+            labelMy: "ဖားပုတီး",
+            correctBucketEn: "Baby Animal",
+            correctBucketMy: "တိရစ္ဆာန်ကလေး",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-4",
+            labelEn: "Frog",
+            labelMy: "ဖား",
+            correctBucketEn: "Grown-Up Animal",
+            correctBucketMy: "အရွယ်ရောက်တိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-5",
+            labelEn: "Puppy",
+            labelMy: "ခွေးကလေး",
+            correctBucketEn: "Baby Animal",
+            correctBucketMy: "တိရစ္ဆာန်ကလေး",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-6",
+            labelEn: "Dog",
+            labelMy: "ခွေး",
+            correctBucketEn: "Grown-Up Animal",
+            correctBucketMy: "အရွယ်ရောက်တိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-7",
+            labelEn: "Kitten",
+            labelMy: "ကြောင်ကလေး",
+            correctBucketEn: "Baby Animal",
+            correctBucketMy: "တိရစ္ဆာန်ကလေး",
+          ),
+          SortingItem(
+            id: "y1sci-w34-sort-8",
+            labelEn: "Cow",
+            labelMy: "နွား",
+            correctBucketEn: "Grown-Up Animal",
+            correctBucketMy: "အရွယ်ရောက်တိရစ္ဆာန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w34-d4",
+      dayNumber: 4,
+      titleEn: "A Trip to Grandfather's Farm",
+      titleMy: "အဖိုးအိမ် စိုက်ခင်းသို့ လည်ပတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Trip to Grandfather's Farm",
+        titleMy: "အဖိုးအိမ် စိုက်ခင်းသို့ လည်ပတ်ခြင်း",
+        passageEn:
+            "On Saturday, Moe Moe and Nay Chi visited Nay Chi's grandfather's farm in the countryside. The very first thing they saw was a hen sitting quietly on a nest of eggs in the henhouse. Nay Chi's grandfather explained that the hen kept the eggs warm every day, and just as he finished speaking, a tiny fluffy chick pushed its way out of one of the eggs. He told the girls that this little chick would grow bigger and bigger until one day it became a hen just like its mother.\n\nNext, the girls walked to a small pond at the edge of the farm, where dozens of tiny tadpoles wriggled through the water with no legs at all. Moe Moe watched one swim in circles, its long tail swishing back and forth. Nay Chi's grandfather said that in a few weeks, each tadpole would grow legs, lose its tail, and hop out onto land as a fully grown frog.\n\nNear the farmhouse, a wobbly puppy came running up to greet them, barking in a tiny excited voice, followed closely by a small kitten that meowed and rubbed against Moe Moe's leg. Nay Chi's grandfather laughed and said the puppy would grow into a big dog just like the one guarding the gate, and the kitten would grow into a full-sized cat just like the one sleeping on the porch.\n\nLast of all, the girls visited the cow shed, where a small calf stood close beside its mother, drinking her milk. Moe Moe gently stroked the calf's soft head and asked how big it would get. Nay Chi's grandfather smiled and said that, just like the chick, the tadpole, the puppy, and the kitten, this little calf would keep growing bigger every month until it became a full-grown cow, giving milk of its own one day.",
+        passageMy:
+            "စနေနေ့တွင် မိုးမိုးနှင့် နေချည်တို့သည် ကျေးလက်ရှိ နေချည်၏အဖိုးစိုက်ခင်းကြီးသို့ လည်ပတ်ခဲ့ကြသည်။ ပထမဆုံးတွေ့မြင်ခဲ့ရသည်မှာ ကြက်အိမ်ထဲရှိ ကြက်ဥအသိုက်ပေါ်တွင် တိတ်ဆိတ်စွာ ထိုင်နေသော ကြက်မတစ်ကောင်ဖြစ်သည်။ နေချည်၏အဖိုးက ကြက်မသည် ဥများကို နေ့စဉ်နွေးထားပေးကြောင်း ရှင်းပြပြီးချက်ချင်း ကြက်ဥတစ်လုံးမှ အမွှေးအမွှာလေးများနှင့် ကြက်ကလေးတစ်ကောင် ဖျစ်ကနဲပေါ်လာသည်။ သူသည် ဤကြက်ကလေးလေးသည် တစ်နေ့ တစ်နေ့ ကြီးလာပြီး တစ်နေ့ သူ့မိခင်ကဲ့သို့ ကြက်မတစ်ကောင်ဖြစ်လာမည်ဟု ကလေးမနှစ်ယောက်ကို ပြောပြသည်။\n\nထို့နောက် ကလေးမနှစ်ယောက်သည် စိုက်ခင်းအစွန်ရှိ ရေကန်ငယ်ဆီသို့ လျှောက်သွားကြရာ ခြေထောက်လုံးဝမရှိသေးသော ဖားပုတီးလေးများစွာ ရေထဲတွင် လှုပ်ရှားနေသည်ကို တွေ့ရသည်။ မိုးမိုးသည် ဖားပုတီးတစ်ကောင်၏ ရှည်လျားသောအမြီးက ဟိုဘက်ဒီဘက် ဂယက်ရိုက်ရင်း ဝိုင်းဝန်းရေကူးနေသည်ကို ကြည့်နေသည်။ နေချည်၏အဖိုးက ရက်သတ္တပတ်အနည်းငယ်အတွင်း ဖားပုတီးတစ်ကောင်စီသည် ခြေထောက်ပေါက်ကာ အမြီးပျောက်ပြီး အရွယ်ရောက်ဖားတစ်ကောင်အဖြစ် ကုန်းပေါ်သို့ ခုန်ထွက်လာမည်ဟု ပြောပြသည်။\n\nစိုက်ခင်းအိမ်အနီးတွင် အသံငယ်ငယ်ဖြင့် ရွှင်လန်းစွာ ဟောင်ရင်း လှုပ်ရှားနေသေးငယ်သည့် ခွေးကလေးတစ်ကောင် လာကြိုဆိုပြီး ပါးစပ်ဖြင့် အသံပြု ကတုံးကတိန်းလုပ်ရင်း မိုးမိုးခြေထောက်ကို ပွတ်တိုက်သော ကြောင်ကလေးတစ်ကောင်လည်း အနီးတွင် ပါလာသည်။ နေချည်၏အဖိုးက ရယ်မောရင်း ခွေးကလေးလေးသည် တံခါးဝတွင် စောင့်ကြည့်နေသော ခွေးကြီးလိုပင် ခွေးကြီးတစ်ကောင်အဖြစ် ကြီးထွားလာမည်ဖြစ်ပြီး ကြောင်ကလေးလည်း ဝရံတာပေါ်တွင် အိပ်နေသော ကြောင်ကြီးလိုပင် အရွယ်ရောက်ကြောင်တစ်ကောင်ဖြစ်လာမည်ဟု ပြောပြသည်။\n\nနောက်ဆုံးတွင် ကလေးမနှစ်ယောက်သည် နွားခြံသို့ လည်ပတ်ကြရာ နွားငယ်လေးတစ်ကောင် သူ့မိခင်ဘေးတွင် နီးကပ်စွာရပ်ကာ နို့စို့နေသည်ကို တွေ့ရသည်။ မိုးမိုးသည် နွားငယ်လေး၏ နူးညံ့သောဦးခေါင်းကို ညင်သာစွာ ပွတ်သပ်ရင်း မည်မျှကြီးလာမည်နည်းဟု မေးသည်။ နေချည်၏အဖိုးက ပြုံးရင်း ကြက်ကလေး၊ ဖားပုတီး၊ ခွေးကလေးနှင့် ကြောင်ကလေးများကဲ့သို့ ဤနွားငယ်လေးလေးသည် လစဉ် ကြီးထွားလာပြီး တစ်နေ့ ကိုယ်ပိုင်နို့ထွက်နိုင်သော အရွယ်ရောက်နွားတစ်ကောင် ဖြစ်လာမည်ဟု ပြောပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what happened just as Nay Chi's grandfather finished explaining about the hen?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ နေချည်၏အဖိုး ကြက်မအကြောင်း ရှင်းပြပြီးချက်ချင်း ဘာဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "A tiny fluffy chick hatched out of one of the eggs",
+              "A tadpole swam past the henhouse",
+              "The hen flew away from the nest",
+              "A puppy ran into the henhouse",
+            ],
+            optionsMy: [
+              "ကြက်ဥတစ်လုံးမှ အမွှေးအမွှာလေးများနှင့် ကြက်ကလေးတစ်ကောင် ပေါက်လာသည်",
+              "ဖားပုတီးတစ်ကောင် ကြက်အိမ်အနီးမှ ရေကူးဖြတ်သွားသည်",
+              "ကြက်မသည် အသိုက်မှ ပျံသန်းထွက်သွားသည်",
+              "ခွေးကလေးတစ်ကောင် ကြက်အိမ်ထဲသို့ ပြေးဝင်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 1, at the henhouse.",
+              "Recall Day 1's first question about the hen sitting on her eggs.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ ကြက်အိမ်တွင်။",
+              "Day 1 ၏ ပထမမေးခွန်း၊ ကြက်မ ဥများကို ထိုင်ပေးနေသည်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's grandfather say would happen to each tadpole in a few weeks?",
+            questionMy:
+                "ဒုတိယပုဒ်မအရ၊ ဖားပုတီးတစ်ကောင်စီအား ရက်သတ္တပတ်အနည်းငယ်အတွင်း ဘာဖြစ်လာမည်ဟု နေချည်၏အဖိုးက ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "It would grow legs, lose its tail, and hop out onto land as a frog",
+              "It would grow feathers and fly away",
+              "It would stay exactly the same forever",
+              "It would turn into a chick",
+            ],
+            optionsMy: [
+              "ခြေထောက်ပေါက်ကာ အမြီးပျောက်ပြီး ဖားတစ်ကောင်အဖြစ် ကုန်းပေါ်သို့ ခုန်ထွက်လာမည်",
+              "တောင်ပံပေါက်ကာ ပျံသန်းထွက်သွားမည်",
+              "ထာဝရ အတိအကျ တူတူပင်ရှိနေမည်",
+              "ကြက်ကလေးတစ်ကောင်အဖြစ် ပြောင်းလဲသွားမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 2, at the pond with the tadpoles.",
+              "Recall Day 1's second question about the tadpole growing into a frog.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ဖားပုတီးများနှင့် ရေကန်။",
+              "Day 1 ၏ ဒုတိယမေးခွန်း၊ ဖားပုတီး ဖားတစ်ကောင်အဖြစ် ကြီးထွားလာသည်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the puppy and kitten do when the girls arrived near the farmhouse?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ ကလေးမများ စိုက်ခင်းအိမ်အနီးရောက်သောအခါ ခွေးကလေးနှင့် ကြောင်ကလေး ဘာလုပ်ခဲ့ကြသနည်း။",
+            optionsEn: [
+              "The puppy barked and ran to greet them, and the kitten rubbed against Moe Moe's leg",
+              "They both hid inside the henhouse",
+              "They both jumped into the pond",
+              "They ignored the girls completely",
+            ],
+            optionsMy: [
+              "ခွေးကလေးက ဟောင်ရင်း လာကြိုဆိုပြီး ကြောင်ကလေးက မိုးမိုးခြေထောက်ကို ပွတ်တိုက်ခဲ့သည်",
+              "နှစ်ကောင်စလုံး ကြက်အိမ်ထဲတွင် ပုန်းခဲ့ကြသည်",
+              "နှစ်ကောင်စလုံး ရေကန်ထဲသို့ ခုန်ဝင်ခဲ့ကြသည်",
+              "ကလေးမများကို လုံးဝ လျစ်လျူရှုခဲ့ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 3, near the farmhouse.",
+              "Recall Day 1's third question about the puppy that will grow into a dog.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ စိုက်ခင်းအိမ်အနီး။",
+              "Day 1 ၏ တတိယမေးခွန်း၊ ခွေးကလေးဖြစ်လာမည့် ခွေးအရွယ်ရောက်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what was the calf doing when Moe Moe and Nay Chi saw it in the cow shed?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ မိုးမိုးနှင့် နေချည် နွားခြံတွင် တွေ့ရသောအခါ နွားငယ်လေး ဘာလုပ်နေသနည်း။",
+            optionsEn: [
+              "Standing close beside its mother, drinking her milk",
+              "Sleeping alone in the corner of the shed",
+              "Running around the farmhouse",
+              "Swimming in the pond with the tadpoles",
+            ],
+            optionsMy: [
+              "မိခင်ဘေးတွင် နီးကပ်စွာရပ်ကာ နို့စို့နေခြင်း",
+              "ခြံတစ်ထောင့်တွင် တစ်ကောင်တည်း အိပ်စက်နေခြင်း",
+              "စိုက်ခင်းအိမ်ပတ်လည် ပြေးလွှားနေခြင်း",
+              "ဖားပုတီးများနှင့်အတူ ရေကန်ထဲတွင် ရေကူးနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 4, at the cow shed.",
+              "Recall Day 1's fourth question about the calf drinking milk from its mother.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ နွားခြံတွင်။",
+              "Day 1 ၏ စတုတ္ထမေးခွန်း၊ နွားငယ်လေး မိခင်နို့စို့နေခြင်းကို သတိရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w34-d5",
+      dayNumber: 5,
+      titleEn: "Baby Animals Grow Up Recap",
+      titleMy: "တိရစ္ဆာန်ကလေးများ ကြီးထွားလာခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a chick grow up into?",
+          questionMy: "ကြက်ကလေးတစ်ကောင်သည် ဘာအဖြစ်သို့ ကြီးထွားသွားသနည်း။",
+          optionsEn: ["A hen", "A frog", "A dog", "A cow"],
+          optionsMy: ["ကြက်မ", "ဖား", "ခွေး", "နွား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question about the chick that hatched from an egg.",
+            "Recall this week's Day 2 drag-match pairing for Chick.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်း၊ ကြက်ဥမှ ပေါက်လာသော ကြက်ကလေးကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Chick အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a tadpole grow up into?",
+          questionMy: "ဖားပုတီးတစ်ကောင်သည် ဘာအဖြစ်သို့ ကြီးထွားသွားသနည်း။",
+          optionsEn: ["A frog", "A hen", "A cat", "A cow"],
+          optionsMy: ["ဖား", "ကြက်မ", "ကြောင်", "နွား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question about the tadpole swimming with no legs yet.",
+            "Recall this week's Day 4 reading, where the grandfather explains what a tadpole grows into.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယမေးခွန်း၊ ခြေထောက်မရှိသေးဘဲ ရေကူးနေသော ဖားပုတီးကို သတိရပါ။",
+            "ဤအပတ်၏ Day 4 ဖတ်စာကို သတိရပါ -- အဖိုးက ဖားပုတီး ဘာအဖြစ်ကြီးထွားမည်ကို ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A puppy is a baby version of which animal?",
+          questionMy: "ခွေးကလေးသည် မည်သည့်တိရစ္ဆာန်၏ မွေးကင်းစဖြစ်သနည်း။",
+          optionsEn: ["A dog", "A cat", "A hen", "A frog"],
+          optionsMy: ["ခွေး", "ကြောင်", "ကြက်မ", "ဖား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about the wobbly barking puppy.",
+            "Recall this week's Day 2 drag-match pairing for Puppy.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ တတိယမေးခွန်း၊ ဟောင်နေသော ခွေးကလေးကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Puppy အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a calf?",
+          questionMy: "နွားငယ်လေးဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A baby cow that drinks its mother's milk",
+            "A baby cat that grows into a cat",
+            "A baby hen that hatches from an egg",
+            "A baby frog that lives in water",
+          ],
+          optionsMy: [
+            "မိခင်နို့စို့သော နွား၏မွေးကင်းစ",
+            "ကြောင်တစ်ကောင်အဖြစ် ကြီးထွားလာမည့် ကြောင်၏မွေးကင်းစ",
+            "ကြက်ဥမှ ပေါက်လာသော ကြက်၏မွေးကင်းစ",
+            "ရေထဲတွင် နေထိုင်သော ဖား၏မွေးကင်းစ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question about the calf drinking milk from its mother.",
+            "Recall this week's Day 2 drag-match pairing for Calf.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ စတုတ္ထမေးခွန်း၊ နွားငယ်လေး မိခင်နို့စို့နေခြင်းကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Calf အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at this week's farm visit, which of these pairs correctly matches a baby animal with its grown-up form?",
+          questionMy:
+              "ဤအပတ်၏ စိုက်ခင်းလည်ပတ်မှုကို ပြန်ကြည့်လျှင် အောက်ပါတို့အနက် တိရစ္ဆာန်ကလေးနှင့် ၎င်း၏ အရွယ်ရောက်ပုံစံကို မှန်ကန်စွာ တွဲထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Kitten grows into a cat",
+            "Chick grows into a dog",
+            "Tadpole grows into a cow",
+            "Calf grows into a hen",
+          ],
+          optionsMy: [
+            "ကြောင်ကလေးသည် ကြောင်တစ်ကောင်အဖြစ် ကြီးထွားသည်",
+            "ကြက်ကလေးသည် ခွေးတစ်ကောင်အဖြစ် ကြီးထွားသည်",
+            "ဖားပုတီးသည် နွားတစ်ကောင်အဖြစ် ကြီးထွားသည်",
+            "နွားငယ်လေးသည် ကြက်မတစ်ကောင်အဖြစ် ကြီးထွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 3 sorting activity pairing baby animals with grown-up animals.",
+            "Recall this week's Day 2 drag-match pairing for Kitten.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ Day 3 စိစစ်ခွဲခြားခြင်း၊ တိရစ္ဆာန်ကလေးများနှင့် အရွယ်ရောက်တိရစ္ဆာန်များ တွဲထားသည်ကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Kitten အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 9, Week 35: "How I Have Changed"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek35 = CourseWeekDef(
+  id: "course-year1-science-w35",
+  weekNumber: 35,
+  titleEn: "How I Have Changed",
+  titleMy: "ကျွန်ုပ် မည်သို့ပြောင်းလဲလာသနည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w35-d1",
+      dayNumber: 1,
+      titleEn: "Look How Much I Have Grown!",
+      titleMy: "ကျွန်ုပ် မည်မျှကြီးထွားလာပြီလဲ!",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Moe Moe stands next to a photo of herself from last year and notices she is now much taller, since she has been eating growing foods like rice, vegetables, and fish every day. What helped her body grow taller?",
+          questionMy:
+              "မိုးမိုးသည် ယမန်နှစ်က သူ့ဓာတ်ပုံဘေးတွင် ရပ်ကြည့်ရာ သူ့ကိုယ်ခန္ဓာ ယခုပိုမိုမြင့်တက်လာသည်ကို တွေ့ရသည်၊ အကြောင်းမှာ သူသည် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကဲ့သို့ ကြီးထွားစေသောအစာများကို နေ့စဉ် စားခဲ့သောကြောင့်ဖြစ်သည်။ သူ့ခန္ဓာကိုယ် ပိုမိုမြင့်တက်ရန် ဘာက ကူညီခဲ့သနည်း။",
+          optionsEn: [
+            "Eating growing foods every day",
+            "Never eating anything at all",
+            "Staying in bed all day without moving",
+            "Only eating candy every meal",
+          ],
+          optionsMy: [
+            "ကြီးထွားစေသောအစာများကို နေ့စဉ်စားခြင်း",
+            "ဘာမျှ လုံးဝ မစားခြင်း",
+            "မလှုပ်ရှားဘဲ တစ်နေကုန် အိပ်ရာတွင် နေခြင်း",
+            "ဟင်းတိုင်းတွင် သကြားလုံးကိုသာ စားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 30's lesson on growing foods -- rice, vegetables, and fish help a body grow strong.",
+            "Recall Week 32's capstone, where Moe Moe combined growing foods, hygiene, exercise, and sleep into one healthy day.",
+          ],
+          hintsMy: [
+            "Week 30 ၏ ကြီးထွားစေသောအစာများသင်ခန်းစာကို သတိရပါ -- ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးက ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသည်။",
+            "Week 32 ၏ အနှစ်ချုပ်သင်ခန်းစာကို သတိရပါ -- မိုးမိုးသည် ကြီးထွားစေသောအစာများ၊ သန့်ရှင်းရေး၊ လေ့ကျင့်ခန်းနှင့် အိပ်စက်ခြင်းတို့ကို ကျန်းမာသောတစ်နေ့တွင် ပေါင်းစပ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi wiggles a loose tooth with her tongue, and that evening it finally falls out while she is eating dinner. What will happen to the empty space where the baby tooth was?",
+          questionMy:
+              "နေချည်သည် သွားကလွတ်တစ်ချောင်းကို လျှာဖြင့် ချော့ကြည့်ရာ ထိုည ညစာစားနေစဉ် နောက်ဆုံးကျွတ်ထွက်သွားသည်။ သွားကလွတ်ရှိခဲ့သောနေရာလွတ်တွင် ဘာဖြစ်လာမည်နည်း။",
+          optionsEn: [
+            "A new tooth will slowly grow in to take its place",
+            "The gap will stay empty forever",
+            "Her whole mouth will disappear",
+            "A new finger will grow there instead",
+          ],
+          optionsMy: [
+            "နေရာယူရန် သွားသစ်တစ်ချောင်း ဖြည်းညင်းစွာ ပေါက်လာလိမ့်မည်",
+            "ထိုကွက်လပ်သည် ထာဝရ ဗလာနေလိမ့်မည်",
+            "သူ့ပါးစပ်တစ်ခုလုံး ပျောက်ကွယ်သွားလိမ့်မည်",
+            "ထိုနေရာတွင် လက်ချောင်းသစ်တစ်ချောင်း ပေါက်လာလိမ့်မည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Losing a baby tooth is a normal part of a child's body growing and changing.",
+            "Think about what you have seen happen to other children after they lose a baby tooth.",
+          ],
+          hintsMy: [
+            "သွားကလွတ်ကျွတ်ထွက်ခြင်းသည် ကလေးတစ်ဦး၏ ခန္ဓာကိုယ် ကြီးထွားပြောင်းလဲရာတွင် ပုံမှန်ဖြစ်ရိုးဖြစ်စဉ်တစ်ခုဖြစ်သည်။",
+            "အခြားကလေးများ သွားကလွတ်ကျွတ်ထွက်ပြီးနောက် ဘာဖြစ်လာသည်ကို သင်တွေ့ဖူးသလိုစဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Last year, Nay Chi could not tie her own shoelaces, but now she can tie them all by herself every morning before school. What does this new skill show about Nay Chi?",
+          questionMy:
+              "ယမန်နှစ်က နေချည်သည် သူ့ဖိနပ်ကြိုးကို ကိုယ်တိုင်မချည်နိုင်ခဲ့ပါ၊ သို့သော် ယခုအခါ ကျောင်းမတက်မီ နေ့စဉ်မနက် ကိုယ်တိုင် ချည်နိုင်ပြီဖြစ်သည်။ ဤစွမ်းရည်အသစ်က နေချည်နှင့်ပတ်သက်၍ ဘာကို ပြသနေသနည်း။",
+          optionsEn: [
+            "She has grown and learned a new skill she could not do before",
+            "She has forgotten how to walk",
+            "She has become a baby again",
+            "Shoelaces have nothing to do with growing",
+          ],
+          optionsMy: [
+            "သူသည် ကြီးထွားလာပြီး ယခင်ကမလုပ်နိုင်ခဲ့သော ကျွမ်းကျင်မှုအသစ်တစ်ခု သင်ယူခဲ့ပြီ",
+            "လမ်းလျှောက်နည်းကို မေ့သွားခဲ့ပြီ",
+            "မွေးကင်းစကလေးငယ် ပြန်ဖြစ်သွားခဲ့ပြီ",
+            "ဖိနပ်ကြိုးချည်ခြင်းသည် ကြီးထွားခြင်းနှင့် လုံးဝမသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's lesson on growing from baby to child -- a growing child's body learns new skills over time.",
+            "Think about other new skills Moe Moe and Nay Chi have learned as they have grown older.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်းသင်ခန်းစာကို သတိရပါ -- ကြီးထွားနေသော ကလေးတစ်ဦး၏ ခန္ဓာကိုယ်သည် အချိန်ကြာလာသည်နှင့်အမျှ ကျွမ်းကျင်မှုအသစ်များ သင်ယူသည်။",
+            "မိုးမိုးနှင့် နေချည် အသက်ကြီးလာသည်နှင့်အမျှ သင်ယူခဲ့သော ကျွမ်းကျင်မှုအသစ်များကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moe Moe's mother says that eating growing foods, sleeping enough every night, and playing outside every day are the three things that have helped Moe Moe grow taller and stronger this year. Which term's lessons is her mother describing?",
+          questionMy:
+              "မိုးမိုးအမေက ကြီးထွားစေသောအစာစားခြင်း၊ ညတိုင်းအိပ်စက်ခြင်းအလုံအလောက်ရရှိခြင်းနှင့် နေ့စဉ်အပြင်ဘက်ကစားခြင်း သုံးခုသည် ဤနှစ်တွင် မိုးမိုးကို ပိုမြင့်ပြီး ပိုအားကောင်းလာအောင် ကူညီခဲ့သောအရာများဖြစ်ကြောင်း ပြောသည်။ သူ့အမေ ရည်ညွှန်းနေသည်မှာ မည်သည့်နှစ်ဝက်၏ သင်ခန်းစာများနည်း။",
+          optionsEn: [
+            "Term 8's lessons on growing foods, hygiene, sleep, and exercise",
+            "Term 3's lessons on materials like wood and plastic",
+            "Term 6's lessons on sound and vibration",
+            "Term 4's lessons on weather and seasons",
+          ],
+          optionsMy: [
+            "Term 8 ၏ ကြီးထွားစေသောအစာ၊ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများ",
+            "Term 3 ၏ သစ်သားနှင့် ပလတ်စတစ်ကဲ့သို့ ပစ္စည်းဆိုင်ရာသင်ခန်းစာများ",
+            "Term 6 ၏ အသံနှင့် တုန်ခါမှုသင်ခန်းစာများ",
+            "Term 4 ၏ ရာသီဥတုနှင့် ရာသီများသင်ခန်းစာများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 8 (Weeks 29 to 32), which covered growing foods, hand washing, exercise, and sleep.",
+            "Recall Week 32's capstone recap question about growing foods, washing hands, exercising, and sleeping enough working together.",
+          ],
+          hintsMy: [
+            "Term 8 (Week 29 မှ 32) ကို သတိရပါ -- ကြီးထွားစေသောအစာ၊ လက်ဆေးခြင်း၊ လေ့ကျင့်ခန်းနှင့် အိပ်စက်ခြင်းတို့ကို ဖော်ပြထားသည်။",
+            "Week 32 ၏ အနှစ်ချုပ်ပြန်လှန်မေးခွန်းကို သတိရပါ -- ကြီးထွားစေသောအစာစားခြင်း၊ လက်ဆေးခြင်း၊ လေ့ကျင့်ခန်းလုပ်ခြင်းနှင့် အိပ်စက်ခြင်းအလုံအလောက်တို့သည် အတူတကွ ပူးပေါင်းအလုပ်လုပ်ကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w35-d2",
+      dayNumber: 2,
+      titleEn: "Ways I Have Changed Match-Up",
+      titleMy: "ကျွန်ုပ်ပြောင်းလဲလာပုံများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w35-dm-1",
+          termEn: "Grown Taller",
+          termMy: "ပိုမြင့်တက်လာခြင်း",
+          matchEn:
+              "A change a body shows over time, especially when it eats growing foods and sleeps enough.",
+          matchMy:
+              "အထူးသဖြင့် ကြီးထွားစေသောအစာစားပြီး အိပ်စက်ခြင်းအလုံအလောက်ရရှိသောအခါ ခန္ဓာကိုယ်တစ်ခု အချိန်ကြာလာသည်နှင့်အမျှ ပြသသော ပြောင်းလဲမှုတစ်ခု။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w35-dm-2",
+          termEn: "Lost a Baby Tooth",
+          termMy: "သွားကလွတ် ကျွတ်ထွက်ခြင်း",
+          matchEn:
+              "When an old tooth falls out on its own and a new tooth slowly grows in to take its place.",
+          matchMy:
+              "သွားဟောင်းတစ်ချောင်း ကိုယ်တိုင်ကျွတ်ထွက်ပြီး သွားသစ်တစ်ချောင်း နေရာယူရန် ဖြည်းညင်းစွာ ပေါက်လာချိန်။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w35-dm-3",
+          termEn: "Learned a New Skill",
+          termMy: "ကျွမ်းကျင်မှုအသစ် သင်ယူခြင်း",
+          matchEn:
+              "Being able to do something you could not do before, like tying your own shoelaces.",
+          matchMy:
+              "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်းကဲ့သို့ ယခင်ကမလုပ်နိုင်ခဲ့သော အရာတစ်ခုကို ယခုလုပ်နိုင်လာခြင်း။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w35-dm-4",
+          termEn: "Eating Growing Foods",
+          termMy: "ကြီးထွားစေသောအစာစားခြင်း",
+          matchEn:
+              "A healthy habit, like eating rice, vegetables, and fish, that helps a body grow strong.",
+          matchMy:
+              "ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးစားခြင်းကဲ့သို့ ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေသော ကျန်းမာသောအလေ့အထတစ်ခု။",
+          colorValue: 0xFFFF8A65,
+        ),
+        DragMatchPair(
+          id: "y1sci-w35-dm-5",
+          termEn: "Sleeping Enough",
+          termMy: "အိပ်စက်ခြင်း အလုံအလောက်",
+          matchEn:
+              "A healthy habit that gives a growing body the rest it needs to grow and work well.",
+          matchMy:
+              "ကြီးထွားနေသော ခန္ဓာကိုယ်ကို ကြီးထွားရန်နှင့် ကောင်းစွာအလုပ်လုပ်ရန် လိုအပ်သော အနားကို ပေးသော ကျန်းမာသောအလေ့အထတစ်ခု။",
+          colorValue: 0xFFBA68C8,
+        ),
+        DragMatchPair(
+          id: "y1sci-w35-dm-6",
+          termEn: "Playing Outside",
+          termMy: "အပြင်ဘက်ကစားခြင်း",
+          matchEn:
+              "A healthy habit, a kind of exercise, that helps a growing body stay strong and active.",
+          matchMy:
+              "ကြီးထွားနေသော ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ လှုပ်ရှားကျန်းမာစွာ ထားစေသော လေ့ကျင့်ခန်းတစ်မျိုးဖြစ်သော ကျန်းမာသောအလေ့အထတစ်ခု။",
+          colorValue: 0xFFE57373,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w35-d3",
+      dayNumber: 3,
+      titleEn: "Ways I Have Changed or Habits That Help Me Grow?",
+      titleMy: "ကျွန်ုပ်ပြောင်းလဲပုံများလား၊ ကြီးထွားစေသောအလေ့အထများလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ways I Have Changed", "Habits That Help Me Grow"],
+        bucketsMy: ["ကျွန်ုပ်ပြောင်းလဲလာပုံများ", "ကျွန်ုပ်ကို ကြီးထွားစေသော အလေ့အထများ"],
+        items: [
+          SortingItem(
+            id: "y1sci-w35-sort-1",
+            labelEn: "Grew taller than last year",
+            labelMy: "ယမန်နှစ်ကထက် ပိုမြင့်လာခြင်း",
+            correctBucketEn: "Ways I Have Changed",
+            correctBucketMy: "ကျွန်ုပ်ပြောင်းလဲလာပုံများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-2",
+            labelEn: "Eating rice, vegetables, and fish every day",
+            labelMy: "နေ့စဉ် ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးစားခြင်း",
+            correctBucketEn: "Habits That Help Me Grow",
+            correctBucketMy: "ကျွန်ုပ်ကို ကြီးထွားစေသော အလေ့အထများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-3",
+            labelEn: "Lost a baby tooth",
+            labelMy: "သွားကလွတ်ကျွတ်ထွက်ခြင်း",
+            correctBucketEn: "Ways I Have Changed",
+            correctBucketMy: "ကျွန်ုပ်ပြောင်းလဲလာပုံများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-4",
+            labelEn: "Sleeping a full night every night",
+            labelMy: "ညတိုင်း ညတစ်ညလုံး အိပ်စက်ခြင်း",
+            correctBucketEn: "Habits That Help Me Grow",
+            correctBucketMy: "ကျွန်ုပ်ကို ကြီးထွားစေသော အလေ့အထများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-5",
+            labelEn: "Learned to tie my own shoelaces",
+            labelMy: "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်တတ်လာခြင်း",
+            correctBucketEn: "Ways I Have Changed",
+            correctBucketMy: "ကျွန်ုပ်ပြောင်းလဲလာပုံများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-6",
+            labelEn: "Running and playing outside every day",
+            labelMy: "နေ့စဉ် အပြင်ဘက်တွင် ပြေးကစားခြင်း",
+            correctBucketEn: "Habits That Help Me Grow",
+            correctBucketMy: "ကျွန်ုပ်ကို ကြီးထွားစေသော အလေ့အထများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-7",
+            labelEn: "Can now write my own name",
+            labelMy: "ကိုယ့်နာမည်ကို ကိုယ်တိုင် ရေးတတ်လာခြင်း",
+            correctBucketEn: "Ways I Have Changed",
+            correctBucketMy: "ကျွန်ုပ်ပြောင်းလဲလာပုံများ",
+          ),
+          SortingItem(
+            id: "y1sci-w35-sort-8",
+            labelEn: "Washing hands with soap before every meal",
+            labelMy: "ဟင်းတိုင်းမစားမီ ဆပ်ပြာဖြင့် လက်ဆေးခြင်း",
+            correctBucketEn: "Habits That Help Me Grow",
+            correctBucketMy: "ကျွန်ုပ်ကို ကြီးထွားစေသော အလေ့အထများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w35-d4",
+      dayNumber: 4,
+      titleEn: "How Nay Chi Has Changed",
+      titleMy: "နေချည် မည်သို့ပြောင်းလဲလာသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "How Nay Chi Has Changed",
+        titleMy: "နေချည် မည်သို့ပြောင်းလဲလာသနည်း",
+        passageEn:
+            "One evening, Nay Chi's mother took out an old photo album and showed her a picture from exactly one year ago. Nay Chi laughed at how small she looked in the photo, standing beside the same door she now stood beside, which no longer even reached the top of her head. Her mother measured her against the wall and marked a new height line well above last year's mark, smiling proudly at how much Nay Chi had grown.\n\nAs they looked through more photos, Nay Chi noticed she was smiling with a full row of teeth in the old picture, but in the mirror right now, she had a small gap where a wobbly tooth had fallen out just last week. Her mother reminded her that a new tooth was already growing in slowly to fill the space, just as it did for every child who lost a baby tooth.\n\nNay Chi's mother then reminded her of something else -- in the old photo, Nay Chi could not yet tie her own shoelaces or write her own name, but now she did both every single morning before school without any help at all. Nay Chi smiled proudly, remembering how hard she had practiced to learn each new skill.\n\nBefore bed, Nay Chi asked her mother what had helped her grow so much taller and learn so many new things in just one year. Her mother explained that eating growing foods like rice, vegetables, and fish, sleeping a full night almost every night, and playing and running outside regularly had all worked together to help Nay Chi's body grow strong -- the very same healthy habits they had learned about together not long ago. Nay Chi hugged the old photo album and looked forward to seeing how much more she would grow by next year.",
+        passageMy:
+            "တစ်ညတွင် နေချည်၏အမေသည် ဓာတ်ပုံစုစာအုပ်ဟောင်းတစ်အုပ်ကို ထုတ်ပြီး အတိအကျ တစ်နှစ်ကျော်က ဓာတ်ပုံတစ်ပုံကို ပြသည်။ နေချည်သည် ယခုသူရပ်နေသော တံခါးအတိုင်းပင် ရပ်နေသော်လည်း သူ့ဦးခေါင်းထိပ်ကို ယခုမမှီတော့သော တံခါးအနီးတွင် သူ့အရွယ်လေးကို မြင်ရသဖြင့် ရယ်မောလိုက်သည်။ အမေက သူ့ကို နံရံနှင့် ထပ်တူတိုင်းတာပြီး ယမန်နှစ်၏ အမှတ်အသားထက် ပိုမြင့်သော အမှတ်အသားသစ်တစ်ခုကို ခံနှိပ်ကာ နေချည် မည်မျှကြီးထွားလာသနည်းကို ဂုဏ်ယူစွာ ပြုံးကြည့်သည်။\n\nဓာတ်ပုံများ ထပ်ကြည့်ရင်း နေချည်သည် ဓာတ်ပုံဟောင်းတွင် သွားတန်းအပြည့်ဖြင့် ပြုံးနေသော်လည်း ယခု မှန်ထဲကို ကြည့်လျှင် ယခင်အပတ်က သွားကလွတ်တစ်ချောင်း ကျွတ်ထွက်သွားခဲ့သောကြောင့် ကွက်လပ်ငယ်လေးတစ်ခု ရှိနေသည်ကို သတိထားမိသည်။ အမေက သွားကလွတ် ကျွတ်ထွက်သွားသည့် ကလေးတိုင်းအတွက်ကဲ့သို့ ထိုနေရာတွင် သွားသစ်တစ်ချောင်း ဖြည်းညင်းစွာ ပေါက်လာနေပြီဖြစ်ကြောင်း သတိပေးသည်။\n\nနေချည်၏အမေသည် နောက်ထပ်အရာတစ်ခုကိုလည်း သတိပေးသည် -- ဓာတ်ပုံဟောင်းတွင် နေချည်သည် ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်း (သို့) ကိုယ့်နာမည်ကိုယ်တိုင်ရေးခြင်း မတတ်ခဲ့ပါ၊ သို့သော် ယခုအခါ ကျောင်းမတက်မီ နေ့စဉ်မနက် အကူအညီမပါဘဲ နှစ်ခုစလုံးကို လုပ်နိုင်ပြီဖြစ်သည်။ နေချည်သည် ကျွမ်းကျင်မှုအသစ်တစ်ခုစီကို သင်ယူရန် မည်မျှကြိုးစားလေ့ကျင့်ခဲ့ရသည်ကို သတိရရင်း ဂုဏ်ယူစွာ ပြုံးလိုက်သည်။\n\nအိပ်ရာမဝင်မီ နေချည်သည် ဤတစ်နှစ်တာအတွင်း သူ့ကို ဤမျှမြင့်တက်စွာ ကြီးထွားစေပြီး အရာအသစ်များစွာ သင်ယူစေရန် ဘာက ကူညီခဲ့သနည်းဟု အမေကို မေးသည်။ အမေက ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကဲ့သို့ ကြီးထွားစေသောအစာများစားခြင်း၊ ညတိုင်းနီးပါး ညတစ်ညလုံး အိပ်စက်ခြင်းနှင့် ပုံမှန်အပြင်ဘက်တွင် ကစား/ပြေးခြင်းတို့ အားလုံးသည် နေချည်၏ ခန္ဓာကိုယ်ကို ခွန်အားရှိစွာ ကြီးထွားစေရန် အတူတကွ ပူးပေါင်းအလုပ်လုပ်ခဲ့ကြောင်း -- ကြာမြင့်စွာမကျသေးမီက သူတို့အတူတကွ လေ့လာခဲ့သည့် ကျန်းမာသောအလေ့အထများအတိအကျပင်ဖြစ်ကြောင်း ရှင်းပြသည်။ နေချည်သည် ဓာတ်ပုံစုစာအုပ်ဟောင်းကို ဖက်ကိုင်လိုက်ပြီး လာမည့်နှစ်တွင် နောက်ထပ် မည်မျှ ကြီးထွားလာဦးမည်ကို စောင့်မျှော်ကြည့်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nay Chi's mother do with the wall and the old photo?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ နေချည်၏အမေသည် နံရံနှင့် ဓာတ်ပုံဟောင်းကို ဘာလုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "She measured Nay Chi and marked a new, taller height line on the wall",
+              "She threw the old photo away",
+              "She hid the photo album under the bed",
+              "She drew a picture of a door on the wall",
+            ],
+            optionsMy: [
+              "နေချည်ကို တိုင်းတာပြီး နံရံပေါ်တွင် အမှတ်အသားသစ်တစ်ခု ပိုမြင့်စွာ ခံနှိပ်ခဲ့သည်",
+              "ဓာတ်ပုံဟောင်းကို စွန့်ပစ်ခဲ့သည်",
+              "ဓာတ်ပုံစုစာအုပ်ကို ကုတင်အောက်တွင် ဝှက်ထားခဲ့သည်",
+              "နံရံပေါ်တွင် တံခါးပုံတစ်ပုံ ဆွဲခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 1, where Nay Chi's mother marks her height on the wall.",
+              "Recall Day 1's first question about growing taller through eating growing foods.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ အမေ နံရံပေါ်တွင် အမြင့်အမှတ်အသားခံနှိပ်သည့်နေရာ။",
+              "Day 1 ၏ ပထမမေးခွန်း၊ ကြီးထွားစေသောအစာစားခြင်းအားဖြင့် ပိုမြင့်လာခြင်းကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's mother remind her about the gap in her teeth?",
+            questionMy:
+                "ဒုတိယပုဒ်မအရ၊ သွားကွက်လပ်နှင့်ပတ်သက်၍ နေချည်၏အမေက ဘာသတိပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A new tooth was already growing in slowly to fill the space",
+              "The gap would stay empty forever",
+              "She should never smile again",
+              "The tooth would grow back the very next morning",
+            ],
+            optionsMy: [
+              "သွားသစ်တစ်ချောင်း ထိုနေရာဖြည့်ရန် ဖြည်းညင်းစွာ ပေါက်လာနေပြီဖြစ်ကြောင်း",
+              "ထိုကွက်လပ်သည် ထာဝရ ဗလာနေလိမ့်မည်",
+              "နောက်တစ်ဖန် ဘယ်တော့မှ မပြုံးသင့်ကြောင်း",
+              "သွားသည် နောက်တစ်နေ့မနက်ချင်းပင် ပြန်ပေါက်လာမည်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 2, when Nay Chi notices the gap in her teeth.",
+              "Recall Day 1's second question about the new tooth that will slowly grow in.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ နေချည် သွားကွက်လပ်ကို သတိထားမိသည့်နေရာ။",
+              "Day 1 ၏ ဒုတိယမေးခွန်း၊ သွားသစ်တစ်ချောင်း ဖြည်းညင်းစွာ ပေါက်လာသည်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two new skills could Nay Chi now do every morning without any help?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ နေချည်သည် အကူအညီမပါဘဲ နေ့စဉ်မနက် ယခုလုပ်နိုင်သော ကျွမ်းကျင်မှုအသစ်နှစ်ခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Tying her own shoelaces and writing her own name",
+              "Cooking breakfast and washing the dishes",
+              "Riding a bicycle and swimming",
+              "Reading a whole book and singing an opera",
+            ],
+            optionsMy: [
+              "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်းနှင့် ကိုယ့်နာမည်ကိုယ်တိုင်ရေးခြင်း",
+              "မနက်စာချက်ခြင်းနှင့် ပန်းကန်ဆေးခြင်း",
+              "စက်ဘီးစီးခြင်းနှင့် ရေကူးခြင်း",
+              "စာအုပ်တစ်အုပ်လုံးဖတ်ခြင်းနှင့် ဩပရာသီချင်းဆိုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 3, about the old photo compared to now.",
+              "Recall Day 1's third question about Nay Chi learning to tie her own shoelaces.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ ဓာတ်ပုံဟောင်းနှင့် ယခုကို နှိုင်းယှဉ်ချက်။",
+              "Day 1 ၏ တတိယမေးခွန်း၊ နေချည် ဖိနပ်ကြိုးကိုယ်တိုင်ချည်တတ်လာခြင်းကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, which three habits did Nay Chi's mother say worked together to help her grow?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ နေချည် ကြီးထွားရန် ကူညီရန် အတူတကွ ပူးပေါင်းအလုပ်လုပ်ခဲ့သည်ဟု အမေက ပြောသော အလေ့အထသုံးခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Eating growing foods, sleeping a full night, and playing outside regularly",
+              "Watching TV, eating candy, and staying up late",
+              "Reading books, drawing pictures, and singing songs",
+              "Wearing new clothes, cutting hair, and painting nails",
+            ],
+            optionsMy: [
+              "ကြီးထွားစေသောအစာများစားခြင်း၊ ညတစ်ညလုံးအိပ်စက်ခြင်းနှင့် ပုံမှန်အပြင်ဘက်ကစားခြင်း",
+              "တီဗီကြည့်ခြင်း၊ သကြားလုံးစားခြင်းနှင့် နောက်ကျမှအိပ်ခြင်း",
+              "စာအုပ်ဖတ်ခြင်း၊ ပုံဆွဲခြင်းနှင့် သီချင်းဆိုခြင်း",
+              "အဝတ်အစားသစ်ဝတ်ခြင်း၊ ဆံပင်ညှပ်ခြင်းနှင့် လက်သည်းဆေးသုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 4, where Nay Chi's mother explains what helped her grow.",
+              "Recall Day 1's fourth question about Term 8's lessons on growing foods, hygiene, sleep, and exercise.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ အမေ သူ့ကို ကြီးထွားစေခဲ့သောအရာများကို ရှင်းပြသည့်နေရာ။",
+              "Day 1 ၏ စတုတ္ထမေးခွန်း၊ Term 8 ၏ ကြီးထွားစေသောအစာ၊ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများကို သတိရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w35-d5",
+      dayNumber: 5,
+      titleEn: "How I Have Changed Recap",
+      titleMy: "ကျွန်ုပ် မည်သို့ပြောင်းလဲလာသနည်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What happens after a baby tooth falls out?",
+          questionMy: "သွားကလွတ်တစ်ချောင်း ကျွတ်ထွက်ပြီးနောက် ဘာဖြစ်လာသနည်း။",
+          optionsEn: [
+            "A new tooth slowly grows in to take its place",
+            "The gap stays empty forever",
+            "The whole mouth disappears",
+            "A new finger grows there instead",
+          ],
+          optionsMy: [
+            "သွားသစ်တစ်ချောင်း နေရာယူရန် ဖြည်းညင်းစွာ ပေါက်လာသည်",
+            "ကွက်လပ်သည် ထာဝရ ဗလာနေသည်",
+            "ပါးစပ်တစ်ခုလုံး ပျောက်ကွယ်သွားသည်",
+            "ထိုနေရာတွင် လက်ချောင်းသစ်တစ်ချောင်း ပေါက်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's second question about Nay Chi's loose tooth falling out.",
+            "Recall this week's Day 2 drag-match pairing for Lost a Baby Tooth.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ဒုတိယမေးခွန်း၊ နေချည်၏ သွားကလွတ် ကျွတ်ထွက်ခြင်းကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Lost a Baby Tooth အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which habit helps a growing body grow taller and stronger?",
+          questionMy: "မည်သည့်အလေ့အထက ကြီးထွားနေသောခန္ဓာကိုယ်ကို ပိုမြင့်ပြီး ပိုအားကောင်းလာအောင် ကူညီသနည်း။",
+          optionsEn: [
+            "Eating growing foods like rice, vegetables, and fish",
+            "Never eating anything at all",
+            "Staying in bed all day without moving",
+            "Only eating candy every meal",
+          ],
+          optionsMy: [
+            "ထမင်း၊ ဟင်းသီးဟင်းရွက်နှင့် ငါးကဲ့သို့ ကြီးထွားစေသောအစာစားခြင်း",
+            "ဘာမျှ လုံးဝ မစားခြင်း",
+            "မလှုပ်ရှားဘဲ တစ်နေကုန် အိပ်ရာတွင် နေခြင်း",
+            "ဟင်းတိုင်းတွင် သကြားလုံးကိုသာ စားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's first question about Moe Moe growing taller.",
+            "Recall Week 30's lesson on growing foods, and this week's Day 2 drag-match pairing for Eating Growing Foods.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ ပထမမေးခွန်း၊ မိုးမိုး ပိုမြင့်လာခြင်းကို သတိရပါ။",
+            "Week 30 ၏ ကြီးထွားစေသောအစာသင်ခန်းစာနှင့် ဤအပတ်၏ Day 2 drag-match တွင် Eating Growing Foods အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is an example of a new skill a growing child might learn?",
+          questionMy: "ကြီးထွားနေသော ကလေးတစ်ဦး သင်ယူနိုင်သော ကျွမ်းကျင်မှုအသစ်တစ်ခု၏ ဥပမာသည် အဘယ်နည်း။",
+          optionsEn: [
+            "Tying your own shoelaces",
+            "Forgetting how to walk",
+            "Sleeping all day every day",
+            "Losing the ability to talk",
+          ],
+          optionsMy: [
+            "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်း",
+            "လမ်းလျှောက်နည်းကို မေ့သွားခြင်း",
+            "နေ့တိုင်း တစ်နေကုန် အိပ်နေခြင်း",
+            "စကားပြောနိုင်စွမ်း ဆုံးရှုံးသွားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's third question about Nay Chi learning to tie her own shoelaces.",
+            "Recall this week's Day 2 drag-match pairing for Learned a New Skill.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ တတိယမေးခွန်း၊ နေချည် ဖိနပ်ကြိုးကိုယ်တိုင်ချည်တတ်လာခြင်းကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Learned a New Skill အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term's lessons on eating growing foods, hygiene, sleep, and exercise are the healthy habits that help a body grow?",
+          questionMy:
+              "ကြီးထွားစေသောအစာစားခြင်း၊ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများ ပါဝင်သော ခန္ဓာကိုယ်ကို ကြီးထွားစေသည့် ကျန်းမာသောအလေ့အထများသည် မည်သည့်နှစ်ဝက်၏ သင်ခန်းစာများနည်း။",
+          optionsEn: [
+            "Term 8's lessons",
+            "Term 5's lessons",
+            "Term 2's lessons",
+            "Term 4's lessons",
+          ],
+          optionsMy: ["Term 8 ၏ သင်ခန်းစာများ", "Term 5 ၏ သင်ခန်းစာများ", "Term 2 ၏ သင်ခန်းစာများ", "Term 4 ၏ သင်ခန်းစာများ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Day 1's fourth question about Term 8's lessons on growing foods, hygiene, sleep, and exercise.",
+            "Recall Week 32's capstone, which combined all of Term 8's healthy habits into one story.",
+          ],
+          hintsMy: [
+            "Day 1 ၏ စတုတ္ထမေးခွန်း၊ Term 8 ၏ ကြီးထွားစေသောအစာ၊ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများကို သတိရပါ။",
+            "Week 32 ၏ အနှစ်ချုပ်သင်ခန်းစာကို သတိရပါ -- Term 8 ၏ ကျန်းမာသောအလေ့အထများအားလုံးကို ဇာတ်လမ်းတစ်ခုတွင် ပေါင်းစပ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is TRUE about how growing older changes a child's body, according to this week?",
+          questionMy:
+              "ဤအပတ်အရ အသက်ကြီးလာခြင်းက ကလေးတစ်ဦး၏ ခန္ဓာကိုယ်ကို မည်သို့ပြောင်းလဲစေကြောင်းနှင့်ပတ်သက်၍ အဘယ်စကားက မှန်ကန်သနည်း။",
+          optionsEn: [
+            "A body grows taller, loses baby teeth, and learns new skills, and healthy habits help this happen",
+            "A body never changes at all once it is born",
+            "Growing older makes a body forget everything it knew",
+            "Only food matters, and sleep and exercise do nothing",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခု ပိုမြင့်တက်လာ၊ သွားကလွတ်ကျွတ်ထွက်ပြီး ကျွမ်းကျင်မှုအသစ်များ သင်ယူလာသည်၊ ကျန်းမာသောအလေ့အထများက ဤအရာကို ဖြစ်စေရန် ကူညီသည်",
+            "မွေးဖွားပြီးနောက် ခန္ဓာကိုယ်တစ်ခု ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "အသက်ကြီးလာခြင်းက ခန္ဓာကိုယ်ကို သိခဲ့သမျှအားလုံးကို မေ့သွားစေသည်",
+            "အစားအစာသာ အရေးကြီးပြီး အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းက ဘာမျှ မလုပ်ပေးပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall this week's Day 1 questions and Day 4 reading, where Nay Chi grew taller, lost a tooth, and learned new skills.",
+            "Recall this week's Day 3 sorting, which separated ways Nay Chi has changed from the habits that helped her grow.",
+          ],
+          hintsMy: [
+            "ဤအပတ်၏ Day 1 မေးခွန်းများနှင့် Day 4 ဖတ်စာကို သတိရပါ -- နေချည် ပိုမြင့်လာ၊ သွားကလွတ်ကျွတ်ထွက်ပြီး ကျွမ်းကျင်မှုအသစ်များ သင်ယူခဲ့သည်။",
+            "ဤအပတ်၏ Day 3 စိစစ်ခွဲခြားခြင်းကို သတိရပါ -- နေချည်ပြောင်းလဲပုံများနှင့် သူ့ကိုကြီးထွားစေသောအလေ့အထများကို ခွဲခြားထားသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 1 Science -- Term 9, Week 36: "Putting It Together: Growing and
+// Changing"
+// =====================================================================
+const CourseWeekDef _year1ScienceWeek36 = CourseWeekDef(
+  id: "course-year1-science-w36",
+  weekNumber: 36,
+  titleEn: "Putting It Together: Growing and Changing",
+  titleMy: "စုစည်းကြည့်ရအောင်: ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y1-sci-w36-d1",
+      dayNumber: 1,
+      titleEn: "Growing and Changing Challenge",
+      titleMy: "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း ကျွမ်းကျင်မှု ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At the farm, Moe Moe watches a newly hatched chick that cannot fly yet, and thinks of her baby cousin who cannot walk yet either. What do both of these babies have in common?",
+          questionMy:
+              "စိုက်ခင်းတွင် မိုးမိုးသည် ပျံမနိုင်သေးသော ကြက်ကလေးသစ်တစ်ကောင်ကို ကြည့်နေရင်း လမ်းမလျှောက်နိုင်သေးသော သူ့ဝမ်းကွဲညီမငယ်ကို သတိရသည်။ ဤမွေးကင်းစနှစ်ကောင်စလုံးတွင် တူညီသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Both will grow and learn new abilities over time, each at its own pace",
+            "Both will stay exactly the same forever",
+            "Neither one will ever change at all",
+            "They are actually the very same kind of animal",
+          ],
+          optionsMy: [
+            "နှစ်ကောင်စလုံးသည် အချိန်ကြာလာသည်နှင့်အမျှ မိမိအလျင်ဖြင့် ကြီးထွားပြီး စွမ်းရည်အသစ်များ သင်ယူသွားမည်",
+            "နှစ်ကောင်စလုံးသည် ထာဝရ အတိအကျ တူတူပင်ရှိနေမည်",
+            "မည်သည့်တစ်ကောင်မျှ ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "သူတို့သည် တိရစ္ဆာန်တစ်မျိုးတည်းသာ အမှန်ဖြစ်ကြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's lesson on growing from baby to child -- Moe Moe's baby cousin will slowly gain new abilities.",
+            "Recall Week 34's lesson on baby animals -- a newly hatched chick will slowly grow into a hen that can do much more.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်းသင်ခန်းစာကို သတိရပါ -- မိုးမိုး၏ ဝမ်းကွဲညီမငယ်သည် စွမ်းရည်အသစ်များကို ဖြည်းညင်းစွာ ရရှိလာမည်။",
+            "Week 34 ၏ တိရစ္ဆာန်ကလေးများသင်ခန်းစာကို သတိရပါ -- အသစ်ပေါက်လာသော ကြက်ကလေးသည် ပိုများသောအရာများ လုပ်နိုင်သော ကြက်မတစ်ကောင်အဖြစ် ဖြည်းညင်းစွာ ကြီးထွားလာမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi shows her baby cousin a photo of herself from last year, pointing out that she is now taller and has a new tooth growing in, while her baby cousin has not even started crawling yet. What does this comparison show about growing?",
+          questionMy:
+              "နေချည်သည် သူ့ဝမ်းကွဲညီမငယ်ကို ယမန်နှစ်က သူ့ဓာတ်ပုံကို ပြသရင်း ယခုပိုမြင့်လာပြီး သွားသစ်တစ်ချောင်း ပေါက်နေကြောင်း ညွှန်ပြသည်၊ သို့သော် ဝမ်းကွဲညီမငယ်မူ တွားနိုင်ခြင်းပင် မစတင်နိုင်သေးပါ။ ဤနှိုင်းယှဉ်ချက်က ကြီးထွားခြင်းနှင့်ပတ်သက်၍ ဘာကို ပြသနေသနည်း။",
+          optionsEn: [
+            "Every growing body changes over time, but each one grows at its own pace and stage",
+            "All bodies grow at exactly the same speed as each other",
+            "Growing older always means losing an ability",
+            "A baby and a child never change at all",
+          ],
+          optionsMy: [
+            "ကြီးထွားနေသော ခန္ဓာကိုယ်တိုင်း အချိန်ကြာလာသည်နှင့်အမျှ ပြောင်းလဲသော်လည်း တစ်ခုစီသည် မိမိအလျင်နှင့် မိမိအဆင့်ဖြင့် ကြီးထွားသည်",
+            "ခန္ဓာကိုယ်အားလုံးသည် အချင်းချင်း အတိအကျ တူညီသောအလျင်ဖြင့် ကြီးထွားသည်",
+            "အသက်ကြီးလာခြင်းဆိုသည်မှာ အမြဲတမ်း စွမ်းရည်တစ်ခု ဆုံးရှုံးခြင်းကို ဆိုလိုသည်",
+            "မွေးကင်းစကလေးငယ်နှင့် ကလေးအရွယ်သည် ဘယ်တော့မှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 35's lesson on how Nay Chi has changed -- growing taller and losing a tooth are signs of growth.",
+            "Recall Week 33's lesson on growing from baby to child -- a baby cousin is still at the very start of the same journey.",
+          ],
+          hintsMy: [
+            "Week 35 ၏ နေချည် မည်သို့ပြောင်းလဲလာသနည်းသင်ခန်းစာကို သတိရပါ -- ပိုမြင့်လာခြင်းနှင့် သွားကလွတ်ကျွတ်ထွက်ခြင်းသည် ကြီးထွားမှု၏ လက္ခဏာများဖြစ်သည်။",
+            "Week 33 ၏ မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်းသင်ခန်းစာကို သတိရပါ -- ဝမ်းကွဲညီမငယ်သည် ထိုခရီးတူ၏ အစပိုင်းတွင်ပင် ရှိသေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's grandfather feeds the farm calf plenty of milk and takes good care of it every day, explaining that a healthy calf grows into a strong cow, just as healthy foods help Nay Chi grow strong herself. What does this show?",
+          questionMy:
+              "နေချည်၏အဖိုးက စိုက်ခင်းနွားငယ်လေးကို နို့အလုံအလောက်ကျွေးပြီး နေ့စဉ် ကောင်းစွာဂရုစိုက်ကာ ကျန်းမာသောနွားငယ်လေးသည် အားကောင်းသောနွားတစ်ကောင်အဖြစ် ကြီးထွားသကဲ့သို့ ကျန်းမာသောအစားအစာများက နေချည်ကိုယ်တိုင်ကိုလည်း ခွန်အားရှိစွာ ကြီးထွားစေသည်ဟု ရှင်းပြသည်။ ဤသည်က ဘာကို ပြသနေသနည်း။",
+          optionsEn: [
+            "Good food and care help growing bodies -- both animal and human -- grow strong",
+            "Only humans need good food to grow, animals do not",
+            "Animals never need any food at all to grow",
+            "Milk is bad for a growing calf's body",
+          ],
+          optionsMy: [
+            "ကောင်းသောအစားအစာနှင့် ဂရုစိုက်ခြင်းက ကြီးထွားနေသောခန္ဓာကိုယ်များကို -- တိရစ္ဆာန်ဖြစ်စေ၊ လူဖြစ်စေ -- ခွန်အားရှိစွာ ကြီးထွားစေသည်",
+            "လူများသာ ကြီးထွားရန် ကောင်းသောအစားအစာလိုအပ်ပြီး တိရစ္ဆာန်များ မလိုအပ်ပါ",
+            "တိရစ္ဆာန်များသည် ကြီးထွားရန် မည်သည့်အစားအစာမျှ လုံးဝမလိုအပ်ပါ",
+            "နို့သည် ကြီးထွားနေသော နွားငယ်လေး၏ ခန္ဓာကိုယ်အတွက် မကောင်းပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's lesson on baby animals -- a calf drinks its mother's milk and grows into a strong cow.",
+            "Recall Week 30's lesson on growing foods and Week 35's lesson on healthy habits helping a body grow -- the same idea applies to animals too.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ တိရစ္ဆာန်ကလေးများသင်ခန်းစာကို သတိရပါ -- နွားငယ်လေးသည် မိခင်နို့စို့ပြီး အားကောင်းသောနွားတစ်ကောင်အဖြစ် ကြီးထွားသည်။",
+            "Week 30 ၏ ကြီးထွားစေသောအစာသင်ခန်းစာနှင့် Week 35 ၏ ကျန်းမာသောအလေ့အထများက ခန္ဓာကိုယ်ကို ကြီးထွားစေသည့်သင်ခန်းစာကို သတိရပါ -- ထိုသဘောတရားကို တိရစ္ဆာန်များအတွက်လည်း သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Thinking about the chick, the calf, Moe Moe's baby cousin, and Nay Chi herself, what do they all have in common?",
+          questionMy:
+              "ကြက်ကလေး၊ နွားငယ်လေး၊ မိုးမိုး၏ ဝမ်းကွဲညီမငယ်နှင့် နေချည်ကိုယ်တိုင်တို့အကြောင်း စဉ်းစားကြည့်လျှင် သူတို့အားလုံးတွင် တူညီသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "They are all living things that grow and change through stages over time",
+            "None of them will ever grow any bigger than they are now",
+            "They are all exactly the same age as each other",
+            "Only humans grow -- animals never grow at all",
+          ],
+          optionsMy: [
+            "သူတို့အားလုံးသည် အချိန်ကြာလာသည်နှင့်အမျှ အဆင့်များဖြင့် ကြီးထွားပြောင်းလဲကြသော သက်ရှိအရာများဖြစ်ကြသည်",
+            "သူတို့အနက် မည်သူမျှ ယခုထက်ပို၍ ဘယ်တော့မှ ကြီးထွားလာမည်မဟုတ်ပါ",
+            "သူတို့အားလုံးသည် အချင်းချင်း အသက်တူညီကြသည်",
+            "လူများသာ ကြီးထွားပြီး တိရစ္ဆာန်များ လုံးဝ မကြီးထွားပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 1's lesson on living and non-living things -- living things grow, and all four of these are living things.",
+            "Recall Weeks 33, 34, and 35 together -- humans and animals both grow and change through stages over time.",
+          ],
+          hintsMy: [
+            "Week 1 ၏ သက်ရှိနှင့်သက်မဲ့သင်ခန်းစာကို သတိရပါ -- သက်ရှိအရာများသည် ကြီးထွားနိုင်ပြီး ဤလေးမျိုးလုံးသည် သက်ရှိအရာများဖြစ်ကြသည်။",
+            "Week 33၊ 34 နှင့် 35 တို့ကို အတူတကွ သတိရပါ -- လူနှင့် တိရစ္ဆာန်နှစ်မျိုးစလုံးသည် အချိန်ကြာလာသည်နှင့်အမျှ အဆင့်များဖြင့် ကြီးထွားပြောင်းလဲကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w36-d2",
+      dayNumber: 2,
+      titleEn: "Growing and Changing Words Match-Up",
+      titleMy: "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း ဝေါဟာရများ တွဲဖက်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y1sci-w36-dm-1",
+          termEn: "Toddler",
+          termMy: "လမ်းစတမ်းကလေး",
+          matchEn:
+              "A young child who has just learned to stand up and take a few wobbly steps.",
+          matchMy:
+              "ရပ်ခြင်းနှင့် တဒယက်ဒယက် ခြေလှမ်းအနည်းငယ် လှမ်းခြင်းကို လတ်တလော သင်ယူခဲ့သော ငယ်ရွယ်သည့်ကလေး။",
+          colorValue: 0xFFFFB74D,
+        ),
+        DragMatchPair(
+          id: "y1sci-w36-dm-2",
+          termEn: "Talking",
+          termMy: "စကားပြောခြင်း",
+          matchEn:
+              "Using real words to speak, something a growing child can do that a tiny baby cannot do yet.",
+          matchMy:
+              "ကြီးထွားနေသော ကလေးတစ်ဦး လုပ်နိုင်သော်လည်း အလွန်ငယ်ရွယ်သည့် မွေးကင်းစကလေးငယ် မလုပ်နိုင်သေးသော အစစ်အမှန်စကားလုံးများဖြင့် ပြောဆိုခြင်း။",
+          colorValue: 0xFF4FC3F7,
+        ),
+        DragMatchPair(
+          id: "y1sci-w36-dm-3",
+          termEn: "Chick",
+          termMy: "ကြက်ကလေး",
+          matchEn:
+              "A baby hen that hatches from an egg and slowly grows into a grown-up hen.",
+          matchMy:
+              "ကြက်ဥမှ ပေါက်လာပြီး အရွယ်ရောက်ကြက်မတစ်ကောင်အဖြစ် ဖြည်းညင်းစွာ ကြီးထွားလာသော ကြက်မွေးကင်းစ။",
+          colorValue: 0xFFFFD54F,
+        ),
+        DragMatchPair(
+          id: "y1sci-w36-dm-4",
+          termEn: "Calf",
+          termMy: "နွားငယ်လေး",
+          matchEn:
+              "A baby cow that drinks its mother's milk and grows into a grown-up cow.",
+          matchMy:
+              "မိခင်နို့စို့ပြီး အရွယ်ရောက်နွားတစ်ကောင်အဖြစ် ကြီးထွားလာသော နွားမွေးကင်းစ။",
+          colorValue: 0xFFE57373,
+        ),
+        DragMatchPair(
+          id: "y1sci-w36-dm-5",
+          termEn: "Grown Taller",
+          termMy: "ပိုမြင့်တက်လာခြင်း",
+          matchEn:
+              "A change a body shows over time, especially when it eats growing foods and sleeps enough.",
+          matchMy:
+              "အထူးသဖြင့် ကြီးထွားစေသောအစာစားပြီး အိပ်စက်ခြင်းအလုံအလောက်ရရှိသောအခါ ခန္ဓာကိုယ်တစ်ခု အချိန်ကြာလာသည်နှင့်အမျှ ပြသသော ပြောင်းလဲမှုတစ်ခု။",
+          colorValue: 0xFF81C784,
+        ),
+        DragMatchPair(
+          id: "y1sci-w36-dm-6",
+          termEn: "Learned a New Skill",
+          termMy: "ကျွမ်းကျင်မှုအသစ် သင်ယူခြင်း",
+          matchEn:
+              "Being able to do something you could not do before, like tying your own shoelaces.",
+          matchMy:
+              "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်းကဲ့သို့ ယခင်ကမလုပ်နိုင်ခဲ့သော အရာတစ်ခုကို ယခုလုပ်နိုင်လာခြင်း။",
+          colorValue: 0xFFBA68C8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w36-d3",
+      dayNumber: 3,
+      titleEn: "Just Starting Out or Grown Older?",
+      titleMy: "အစပိုင်းမှာလား၊ အသက်ကြီးလာပြီလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Just Starting Out", "Grown Older"],
+        bucketsMy: ["အစပိုင်းမှာ", "အသက်ကြီးလာပြီ"],
+        items: [
+          SortingItem(
+            id: "y1sci-w36-sort-1",
+            labelEn: "A baby cousin who can only crawl",
+            labelMy: "တွားနိုင်ရုံသာရှိသော ဝမ်းကွဲညီမငယ်",
+            correctBucketEn: "Just Starting Out",
+            correctBucketMy: "အစပိုင်းမှာ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-2",
+            labelEn: "Nay Chi, who can walk, run, and talk",
+            labelMy: "လမ်းလျှောက်၊ ပြေး၊ စကားပြောနိုင်သော နေချည်",
+            correctBucketEn: "Grown Older",
+            correctBucketMy: "အသက်ကြီးလာပြီ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-3",
+            labelEn: "A newly hatched chick",
+            labelMy: "အသစ်ပေါက်လာသော ကြက်ကလေး",
+            correctBucketEn: "Just Starting Out",
+            correctBucketMy: "အစပိုင်းမှာ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-4",
+            labelEn: "A grown-up hen",
+            labelMy: "အရွယ်ရောက်ကြက်မ",
+            correctBucketEn: "Grown Older",
+            correctBucketMy: "အသက်ကြီးလာပြီ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-5",
+            labelEn: "A tiny tadpole with no legs yet",
+            labelMy: "ခြေထောက်မရှိသေးသော ဖားပုတီးလေး",
+            correctBucketEn: "Just Starting Out",
+            correctBucketMy: "အစပိုင်းမှာ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-6",
+            labelEn: "A grown-up frog",
+            labelMy: "အရွယ်ရောက်ဖား",
+            correctBucketEn: "Grown Older",
+            correctBucketMy: "အသက်ကြီးလာပြီ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-7",
+            labelEn: "A wobbly puppy that just started walking",
+            labelMy: "လမ်းလျှောက်ရုံသာစတင်သော လှုပ်ရှားနေသေးငယ်သည့် ခွေးကလေး",
+            correctBucketEn: "Just Starting Out",
+            correctBucketMy: "အစပိုင်းမှာ",
+          ),
+          SortingItem(
+            id: "y1sci-w36-sort-8",
+            labelEn: "Moe Moe, who can tie her own shoelaces and write her name",
+            labelMy: "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ပြီး နာမည်ကိုယ်တိုင်ရေးနိုင်သော မိုးမိုး",
+            correctBucketEn: "Grown Older",
+            correctBucketMy: "အသက်ကြီးလာပြီ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w36-d4",
+      dayNumber: 4,
+      titleEn: "Moe Moe and Nay Chi's Growing Day",
+      titleMy: "မိုးမိုးနှင့် နေချည်တို့၏ ကြီးထွားခြင်းနေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Moe and Nay Chi's Growing Day",
+        titleMy: "မိုးမိုးနှင့် နေချည်တို့၏ ကြီးထွားခြင်းနေ့",
+        passageEn:
+            "On Sunday morning, Moe Moe visited her baby cousin, who could still only crawl across the floor and drink milk from a bottle. Moe Moe knelt beside her and remembered that she herself could not always walk, talk, and eat a full meal the way she could now. She gently told her baby cousin that one day, step by step, she would grow into a toddler and then a child, just like Moe Moe had.\n\nThat afternoon, Moe Moe met Nay Chi at Nay Chi's grandfather's farm, where they watched a newly hatched chick wobble around near the henhouse and a small calf drinking milk beside its mother in the cow shed. Nay Chi's grandfather reminded the girls that the chick would grow into a hen and the calf would grow into a cow, just as surely as Nay Chi's baby cousin would grow into a bigger child -- every living thing needed time, and good food and care, to grow.\n\nOn the walk home, Nay Chi pulled out an old photo of herself from last year and pointed at the gap in her own smile where a baby tooth used to be, now replaced by a new tooth growing in. She reminded Moe Moe that she had grown taller too, and that both of them could now tie their own shoelaces, something neither girl could do a year before. Moe Moe agreed that eating growing foods, sleeping enough, washing their hands, and playing outside every day -- all the healthy habits they had learned about together -- were exactly what had helped their bodies grow so much this year.\n\nThat evening, Moe Moe thought about her baby cousin, the chick, the calf, and how much she and Nay Chi had both changed since last year. She realized that every living thing -- whether a tiny baby, a fluffy chick, a wobbly calf, or a growing child like herself -- moved through its own stages of growing and changing, a little more each day, helped along by good food, rest, and care.",
+        passageMy:
+            "တနင်္ဂနွေနေ့ မနက်တွင် မိုးမိုးသည် သူ့ဝမ်းကွဲညီမငယ်ထံ လည်ပတ်ခဲ့ရာ ထိုကလေးငယ်သည် ကြမ်းပြင်ပေါ်တွင် တွားနေဆဲ၊ ပုလင်းနှင့်နို့သောက်ဆဲပင်ဖြစ်နေသေးသည်။ မိုးမိုးသည် သူ့ဘေးတွင် ဒူးထောက်ရင်း သူကိုယ်တိုင်ပင် ယခုကဲ့သို့ အမြဲလမ်းလျှောက်၊ စကားပြော၊ အစားအစာအပြည့်စားနိုင်ခြင်း မရှိခဲ့ကြောင်း သတိရမိသည်။ သူသည် ဝမ်းကွဲညီမငယ်ကို တစ်နေ့ ဆင့်ကဲဆင့်ကဲ လမ်းစတမ်းကလေးအဖြစ်ကို၊ ထို့နောက် မိုးမိုးကဲ့သို့ ကလေးအရွယ်အဖြစ် ကြီးထွားလာလိမ့်မည်ဟု ညင်သာစွာ ပြောပြသည်။\n\nထိုနေ့လယ်ခင်း မိုးမိုးသည် နေချည်၏အဖိုးစိုက်ခင်းတွင် နေချည်နှင့် တွေ့ဆုံခဲ့ရာ ကြက်အိမ်အနီးတွင် တဒယက်ဒယက် လှုပ်ရှားနေသော အသစ်ပေါက်ကြက်ကလေးတစ်ကောင်နှင့် နွားခြံထဲရှိ မိခင်ဘေးတွင် နို့စို့နေသော နွားငယ်လေးတစ်ကောင်ကို ကလေးမနှစ်ယောက်စလုံး ကြည့်နေခဲ့ကြသည်။ နေချည်၏အဖိုးက ကြက်ကလေးသည် ကြက်မတစ်ကောင်အဖြစ်၊ နွားငယ်လေးသည် နွားတစ်ကောင်အဖြစ် ကြီးထွားလာမည်ဖြစ်ပြီး၊ နေချည်၏ ဝမ်းကွဲညီမငယ် ကလေးအရွယ်ကြီးသို့ ကြီးထွားလာမည်နှင့် ထပ်တူပင်ဖြစ်ကြောင်း -- သက်ရှိအရာတိုင်းသည် အချိန်နှင့် ကောင်းသောအစားအစာ၊ ဂရုစိုက်မှု လိုအပ်ကြောင်း ကလေးမနှစ်ယောက်ကို သတိပေးသည်။\n\nအိမ်ပြန်လမ်းတွင် နေချည်သည် ယမန်နှစ်က သူ့ဓာတ်ပုံဟောင်းကို ထုတ်ပြီး သွားကလွတ်ရှိခဲ့ရာနေရာတွင် ယခုအခါ သွားသစ်တစ်ချောင်း ပေါက်နေသည့် ကွက်လပ်ကို ညွှန်ပြသည်။ သူသည် ပိုမြင့်လာသည်ကိုလည်း မိုးမိုးအား သတိပေးပြီး၊ ကလေးမနှစ်ယောက်စလုံး ယခုအခါ ဖိနပ်ကြိုးကိုယ်တိုင် ချည်နိုင်ပြီဖြစ်ကြောင်း၊ တစ်နှစ်ကျော်က ကလေးမနှစ်ဦးလုံး မလုပ်နိုင်ခဲ့ကြောင်း ပြောပြသည်။ မိုးမိုးက ကြီးထွားစေသောအစာစားခြင်း၊ အိပ်စက်ခြင်းအလုံအလောက်ရရှိခြင်း၊ လက်ဆေးခြင်းနှင့် နေ့စဉ်အပြင်ဘက်ကစားခြင်း -- သူတို့ အတူတကွ သင်ယူခဲ့သော ကျန်းမာသောအလေ့အထများအားလုံးသည် ဤနှစ်တွင် သူတို့ခန္ဓာကိုယ်ကို ဤမျှကြီးထွားစေရန် ကူညီခဲ့သည့်အရာများပင်ဖြစ်ကြောင်း သဘောတူသည်။\n\nထိုည မိုးမိုးသည် သူ့ဝမ်းကွဲညီမငယ်၊ ကြက်ကလေး၊ နွားငယ်လေးနှင့် သူနှင့် နေချည် ယမန်နှစ်ကတည်းက မည်မျှပြောင်းလဲလာသည်ကို တွေးမိသည်။ သက်ရှိအရာတိုင်း -- ငယ်ရွယ်သော မွေးကင်းစကလေးဖြစ်စေ၊ အမွှေးအမွှာကြက်ကလေးဖြစ်စေ၊ လှုပ်ရှားနေသေးငယ်သည့် နွားငယ်လေးဖြစ်စေ သို့မဟုတ် သူကဲ့သို့ ကြီးထွားနေသော ကလေးတစ်ဦးဖြစ်စေ -- ကောင်းသောအစားအစာ၊ အနားယူခြင်းနှင့် ဂရုစိုက်မှုက ကူညီပေးသည့် ၎င်းကိုယ်ပိုင် ကြီးထွားပြောင်းလဲမှုအဆင့်များကို နေ့စဉ် အနည်းငယ်စီ ဖြတ်သန်းသွားကြောင်း သူ သဘောပေါက်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Moe Moe promise her baby cousin would happen one day?",
+            questionMy:
+                "ပထမပုဒ်မအရ၊ တစ်နေ့ ဘာဖြစ်လာလိမ့်မည်ဟု မိုးမိုးက သူ့ဝမ်းကွဲညီမငယ်ကို ကတိပြုခဲ့သနည်း။",
+            optionsEn: [
+              "She would grow, step by step, into a toddler and then a child",
+              "She would stay a crawling baby forever",
+              "She would immediately become an adult overnight",
+              "She would forget how to drink milk",
+            ],
+            optionsMy: [
+              "ဆင့်ကဲဆင့်ကဲ လမ်းစတမ်းကလေးအဖြစ်၊ ထို့နောက် ကလေးအရွယ်အဖြစ် ကြီးထွားလာမည်",
+              "တွားနေသော မွေးကင်းစကလေးငယ်အဖြစ် ထာဝရနေရစ်မည်",
+              "တစ်ညချင်း ချက်ချင်း လူကြီးတစ်ဦး ဖြစ်သွားမည်",
+              "နို့သောက်တတ်နည်းကို မေ့သွားမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 1, where Moe Moe visits her baby cousin.",
+              "Recall Week 33's lesson on growing from baby to toddler to child.",
+            ],
+            hintsMy: [
+              "ပထမပုဒ်မကို ပြန်လည်သတိရပါ၊ မိုးမိုး သူ့ဝမ်းကွဲညီမငယ်ထံ လည်ပတ်သည့်နေရာ။",
+              "Week 33 ၏ မွေးကင်းစကလေးမှ လမ်းစတမ်းကလေးသို့၊ ကလေးအရွယ်သို့ ကြီးထွားခြင်းသင်ခန်းစာကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's grandfather say every living thing needed in order to grow?",
+            questionMy:
+                "ဒုတိယပုဒ်မအရ၊ ကြီးထွားရန် သက်ရှိအရာတိုင်း ဘာလိုအပ်ကြောင်း နေချည်၏အဖိုးက ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Time, and good food and care",
+              "Only sunlight and nothing else",
+              "New clothes every single day",
+              "Loud music playing all the time",
+            ],
+            optionsMy: [
+              "အချိန်နှင့် ကောင်းသောအစားအစာ၊ ဂရုစိုက်မှု",
+              "နေရောင်ခြည်ကိုသာ",
+              "နေ့တိုင်း အဝတ်အစားသစ်",
+              "အချိန်တိုင်း ကျယ်လောင်သော သီချင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 2, at Nay Chi's grandfather's farm.",
+              "Recall Week 34's lesson on baby animals, and this week's Day 1 third question about the calf needing good food and care.",
+            ],
+            hintsMy: [
+              "ဒုတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ နေချည်၏အဖိုးစိုက်ခင်းတွင်။",
+              "Week 34 ၏ တိရစ္ဆာန်ကလေးများသင်ခန်းစာနှင့် ဤအပတ်၏ Day 1 တတိယမေးခွန်း၊ နွားငယ်လေး ကောင်းသောအစားအစာနှင့် ဂရုစိုက်မှု လိုအပ်ခြင်းကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what could both Moe Moe and Nay Chi now do that neither girl could do a year before?",
+            questionMy:
+                "တတိယပုဒ်မအရ၊ တစ်နှစ်ကျော်က ကလေးမနှစ်ဦးလုံး မလုပ်နိုင်ခဲ့သော်လည်း ယခုအခါ နှစ်ယောက်စလုံး လုပ်နိုင်သည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Tie their own shoelaces",
+              "Fly like a bird",
+              "Cook a full dinner alone",
+              "Speak a foreign language fluently",
+            ],
+            optionsMy: [
+              "ဖိနပ်ကြိုးကိုယ်တိုင်ချည်ခြင်း",
+              "ငှက်ကဲ့သို့ ပျံသန်းခြင်း",
+              "ညစာအပြည့်အစုံ တစ်ကိုယ်တည်းချက်ခြင်း",
+              "နိုင်ငံခြားဘာသာစကား ကျွမ်းကျင်စွာပြောခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 3, on the walk home from the farm.",
+              "Recall Week 35's lesson on new skills, and this week's Day 2 drag-match pairing for Learned a New Skill.",
+            ],
+            hintsMy: [
+              "တတိယပုဒ်မကို ပြန်လည်သတိရပါ၊ စိုက်ခင်းမှ အိမ်ပြန်လမ်း။",
+              "Week 35 ၏ ကျွမ်းကျင်မှုအသစ်သင်ခန်းစာနှင့် ဤအပတ်၏ Day 2 drag-match တွင် Learned a New Skill အတွက် တွဲထားသည်ကို သတိရပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did Moe Moe realize every living thing had, whether a baby, a chick, a calf, or a growing child?",
+            questionMy:
+                "စတုတ္ထပုဒ်မအရ၊ မွေးကင်းစဖြစ်စေ၊ ကြက်ကလေးဖြစ်စေ၊ နွားငယ်လေးဖြစ်စေ သို့မဟုတ် ကြီးထွားနေသော ကလေးဖြစ်စေ သက်ရှိအရာတိုင်းတွင် ဘာရှိကြောင်း မိုးမိုး သဘောပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Its own stages of growing and changing, helped along by good food, rest, and care",
+              "The exact same body shape as every other living thing",
+              "No ability to ever change at all",
+              "A need to stay a baby forever",
+            ],
+            optionsMy: [
+              "ကောင်းသောအစားအစာ၊ အနားယူခြင်းနှင့် ဂရုစိုက်မှုက ကူညီပေးသည့် ၎င်းကိုယ်ပိုင် ကြီးထွားပြောင်းလဲမှုအဆင့်များ",
+              "အခြားသက်ရှိအရာများနှင့် အတိအကျ တူညီသော ခန္ဓာကိုယ်ပုံသဏ္ဌာန်",
+              "ဘယ်တော့မှ မပြောင်းလဲနိုင်သော စွမ်းရည်",
+              "ထာဝရ မွေးကင်းစအဖြစ် ရှိနေရန် လိုအပ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Recall paragraph 4, Moe Moe's final reflection that evening.",
+              "Recall this week's Day 1 fourth question about the chick, the calf, the baby cousin, and Nay Chi all being living things that grow through stages.",
+            ],
+            hintsMy: [
+              "စတုတ္ထပုဒ်မကို ပြန်လည်သတိရပါ၊ ထိုည မိုးမိုး၏ နောက်ဆုံးတွေးတောချက်။",
+              "ဤအပတ်၏ Day 1 စတုတ္ထမေးခွန်း၊ ကြက်ကလေး၊ နွားငယ်လေး၊ ဝမ်းကွဲညီမငယ်နှင့် နေချည်တို့ အားလုံး အဆင့်များဖြင့် ကြီးထွားသော သက်ရှိအရာများဖြစ်ကြောင်းကို သတိရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y1-sci-w36-d5",
+      dayNumber: 5,
+      titleEn: "Term Growing and Changing Recap Quiz",
+      titleMy: "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း အပတ်စဉ်ပြန်လှန် ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What can a toddler do that a tiny baby cannot do yet?",
+          questionMy: "မွေးကင်းစကလေးငယ် မလုပ်နိုင်သေးသော်လည်း လမ်းစတမ်းကလေး လုပ်နိုင်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Stand up and take a few wobbly steps",
+            "Sleep for most of the day",
+            "Drink only milk",
+            "Cry to ask for something",
+          ],
+          optionsMy: [
+            "ရပ်ခြင်းနှင့် တဒယက်ဒယက် ခြေလှမ်းအနည်းငယ်လှမ်းခြင်း",
+            "တစ်နေ့တာ၏အများစု အိပ်ပျော်နေခြင်း",
+            "နို့သာသောက်ခြင်း",
+            "တစ်ခုခုတောင်းရန် ငိုယိုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's lesson on the toddler stage.",
+            "Recall this week's Day 2 drag-match pairing for Toddler.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ လမ်းစတမ်းကလေးအဆင့်သင်ခန်းစာကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Toddler အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a chick grow up into?",
+          questionMy: "ကြက်ကလေးတစ်ကောင်သည် ဘာအဖြစ်သို့ ကြီးထွားသွားသနည်း။",
+          optionsEn: ["A hen", "A frog", "A dog", "A cow"],
+          optionsMy: ["ကြက်မ", "ဖား", "ခွေး", "နွား"],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 34's lesson on baby animals -- a chick hatches from an egg.",
+            "Recall this week's Day 2 drag-match pairing for Chick.",
+          ],
+          hintsMy: [
+            "Week 34 ၏ တိရစ္ဆာန်ကလေးများသင်ခန်းစာကို သတိရပါ -- ကြက်ကလေးသည် ကြက်ဥမှ ပေါက်လာသည်။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Chick အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a sign that a growing child's body is changing?",
+          questionMy: "ကြီးထွားနေသော ကလေးတစ်ဦး၏ ခန္ဓာကိုယ် ပြောင်းလဲနေကြောင်း ပြသသော လက္ခဏာတစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Growing taller and losing a baby tooth",
+            "Never growing at all",
+            "Forgetting how to talk",
+            "Sleeping all day, every day",
+          ],
+          optionsMy: [
+            "ပိုမြင့်တက်လာခြင်းနှင့် သွားကလွတ်ကျွတ်ထွက်ခြင်း",
+            "လုံးဝ မကြီးထွားခြင်း",
+            "စကားပြောနည်းကို မေ့သွားခြင်း",
+            "နေ့တိုင်း တစ်နေကုန် အိပ်နေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 35's lesson on how Nay Chi has changed.",
+            "Recall this week's Day 2 drag-match pairing for Grown Taller.",
+          ],
+          hintsMy: [
+            "Week 35 ၏ နေချည် မည်သို့ပြောင်းလဲလာသနည်းသင်ခန်းစာကို သတိရပါ။",
+            "ဤအပတ်၏ Day 2 drag-match တွင် Grown Taller အတွက် တွဲထားသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which habits, learned back in Term 8, help both growing children and growing animals stay healthy and strong?",
+          questionMy:
+              "Term 8 တွင် ယခင်ကလေ့လာခဲ့သော မည်သည့်အလေ့အထများက ကြီးထွားနေသောကလေးများနှင့် ကြီးထွားနေသောတိရစ္ဆာန်များနှစ်မျိုးစလုံးကို ကျန်းမာအားကောင်းစေရန် ကူညီသနည်း။",
+          optionsEn: [
+            "Eating good food, staying clean, resting, and exercising",
+            "Staying up very late every night",
+            "Eating only candy every meal",
+            "Never moving or playing at all",
+          ],
+          optionsMy: [
+            "ကောင်းသောအစားအစာစားခြင်း၊ သန့်ရှင်းစွာနေထိုင်ခြင်း၊ အနားယူခြင်းနှင့် လေ့ကျင့်ခန်းလုပ်ခြင်း",
+            "ညတိုင်း အလွန်နောက်ကျအောင် မအိပ်ဘဲနေခြင်း",
+            "ဟင်းတိုင်းတွင် သကြားလုံးကိုသာ စားခြင်း",
+            "လုံးဝ မလှုပ်ရှားဘဲ ကစားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 8's lessons on growing foods, hygiene, sleep, and exercise.",
+            "Recall this week's Day 1 third question about the calf and Nay Chi both being helped to grow strong by good food and care.",
+          ],
+          hintsMy: [
+            "Term 8 ၏ ကြီးထွားစေသောအစာ၊ သန့်ရှင်းရေး၊ အိပ်စက်ခြင်းနှင့် လေ့ကျင့်ခန်းသင်ခန်းစာများကို သတိရပါ။",
+            "ဤအပတ်၏ Day 1 တတိယမေးခွန်း၊ နွားငယ်လေးနှင့် နေချည် နှစ်ဦးစလုံးကို ကောင်းသောအစားအစာနှင့် ဂရုစိုက်မှုက ခွန်အားရှိစွာ ကြီးထွားစေရန် ကူညီသည်ကို သတိရပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back at Weeks 33 to 36, which of these is TRUE about growing and changing?",
+          questionMy:
+              "Week 33 မှ 36 အထိကို ပြန်ကြည့်လျှင် ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်းနှင့် ပတ်သက်၍ အဘယ်စကားက မှန်ကန်သနည်း။",
+          optionsEn: [
+            "Living things -- humans and animals alike -- move through stages of growth over time, helped by good food, rest, and care",
+            "Only humans grow; animals stay the same their whole lives",
+            "A body stops changing completely once it is a few months old",
+            "Growing and changing has nothing to do with food, sleep, or exercise",
+          ],
+          optionsMy: [
+            "သက်ရှိအရာများ -- လူနှင့် တိရစ္ဆာန်နှစ်မျိုးစလုံး -- သည် ကောင်းသောအစားအစာ၊ အနားယူခြင်းနှင့် ဂရုစိုက်မှုက ကူညီပေးသည့် အချိန်ကြာလာသည်နှင့်အမျှ ကြီးထွားမှုအဆင့်များကို ဖြတ်သန်းကြသည်",
+            "လူများသာ ကြီးထွားပြီး တိရစ္ဆာန်များသည် တစ်သက်လုံး တူတူပင်နေကြသည်",
+            "လအနည်းငယ်အရွယ်ရောက်လျှင် ခန္ဓာကိုယ်တစ်ခု လုံးဝ ပြောင်းလဲခြင်း ရပ်တန့်သွားသည်",
+            "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်းသည် အစားအစာ၊ အိပ်စက်ခြင်း (သို့) လေ့ကျင့်ခန်းနှင့် လုံးဝမသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 33's baby-to-child growth, Week 34's baby animal life cycles, and Week 35's personal reflection tied to Term 8's healthy habits.",
+            "Recall this week's Day 1 questions and Day 4 reading, where Moe Moe realized every living thing grows through its own stages, helped by good food, rest, and care.",
+          ],
+          hintsMy: [
+            "Week 33 ၏ မွေးကင်းစကလေးမှ ကလေးအရွယ်သို့ ကြီးထွားခြင်း၊ Week 34 ၏ တိရစ္ဆာန်ကလေးများ၏ဘဝသံသရာနှင့် Week 35 ၏ Term 8 ၏ ကျန်းမာသောအလေ့အထများနှင့် ဆက်စပ်ထားသော ကိုယ်ပိုင်တွေးတောချက်ကို သတိရပါ။",
+            "ဤအပတ်၏ Day 1 မေးခွန်းများနှင့် Day 4 ဖတ်စာကို သတိရပါ -- သက်ရှိအရာတိုင်းသည် ကောင်းသောအစားအစာ၊ အနားယူခြင်းနှင့် ဂရုစိုက်မှုက ကူညီပေးသည့် ၎င်းကိုယ်ပိုင်အဆင့်များဖြင့် ကြီးထွားကြောင်း မိုးမိုး သဘောပေါက်ခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year1ScienceTerm9 = CourseTermDef(
+  id: "course-year1-science-t9",
+  termNumber: 9,
+  titleEn: "Growing and Changing",
+  titleMy: "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း",
+  certificateTitleEn: "Growing and Changing",
+  certificateTitleMy: "ကြီးထွားခြင်းနှင့် ပြောင်းလဲခြင်း",
+  weeks: [
+    _year1ScienceWeek33,
+    _year1ScienceWeek34,
+    _year1ScienceWeek35,
+    _year1ScienceWeek36,
   ],
 );
