@@ -31243,17 +31243,24 @@ const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
   ],
 );
 
-/// Secondary 1 Mathematics's pathway (Grade [Grade.secondary1]) -- a new,
-/// independent subject pathway alongside [secondary1ComputingPathway]
-/// rather than more terms grafted onto it: same grade, different subject.
-/// Term 1 ("Number Foundations", Weeks 1-4), Term 2 ("Algebra
-/// Foundations", Weeks 5-8), and Term 3 ("Fractions, Decimals and
-/// Percentages", Weeks 9-12) are authored so far; see
-/// [_secondary1MathematicsTerm1]'s, [_secondary1MathematicsTerm2]'s, and
-/// [_secondary1MathematicsTerm3]'s own doc comments for the week-by-week
-/// spiral. [totalWeeks] stays 36 for the same "honest progress bar"
-/// reason [secondary1ComputingPathway]'s did while only a handful of
-/// weeks exist.
+/// Secondary 1 Mathematics's full-year pathway (Grade [Grade.secondary1])
+/// -- a new, independent subject pathway alongside
+/// [secondary1ComputingPathway] rather than more terms grafted onto it:
+/// same grade, different subject. All 9 terms (Weeks 1-36) are now
+/// represented, completing the full [totalWeeks] roadmap for real: Term 1
+/// ("Number Foundations"), Term 2 ("Algebra Foundations"), and Term 3
+/// ("Fractions, Decimals and Percentages") were authored freehand before
+/// Terms 4-9 had a blueprint; Terms 4-9 ("Angles and Lines" through
+/// triangles/quadrilaterals/constructions/architecture, "Equations and
+/// Sequences", "Statistics and Data", "Ratio and Proportion",
+/// "Transformations and 3D Shapes", and "Probability and Year Review")
+/// were authored from `ai_data_bridge/year7_maths_all_terms.dart` as the
+/// authoritative topic source, reconciled against Terms 1-3's existing
+/// (non-blueprint) topic order -- blueprint Term 3 ("Geometry & Measure")
+/// slots into this pathway's Term 4 since this pathway's own Term 3
+/// already covered blueprint Term 4's FDP content; Terms 5-9 then map
+/// 1:1 onto blueprint Terms 5-9. See each [CourseTermDef]'s own doc
+/// comment for its week-by-week spiral.
 const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   id: "course-secondary1-mathematics",
   subject: "mathematics",
@@ -31261,14 +31268,20 @@ const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမနှစ် သင်တန်း",
   descriptionEn:
-      "The first academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations, then moving into algebra -- variables, expressions, simplifying, and solving linear equations -- and on into fractions, decimals and percentages.",
+      "The full academic-year mathematics course: daily bite-sized lessons building core number skills, starting with directed numbers, factors, multiples, primes, powers, roots and the order of operations, then moving into algebra -- variables, expressions, simplifying, and solving linear equations -- and on into fractions, decimals and percentages. The course then turns to geometry (angles, triangles and quadrilaterals, compass-and-ruler constructions, and applying it all to architecture), equations and sequences (balancing equations, expanding brackets, term-to-term and nth-term rules), statistics (collecting data, averages and range, charts and graphs), ratio and proportion (simplifying ratios, direct proportion, scaling recipes), transformations and 3D shapes (symmetry, reflection, translation, rotation, nets and surface area), and closes with probability and a full end-of-year review.",
   descriptionMy:
-      "ပထမမြောက် ပညာသင်နှစ် သင်္ချာသင်တန်း -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်းများသို့ ဆက်လက်ရောက်ရှိသွားသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
+      "ပညာသင်နှစ်တစ်နှစ်လုံးအတွက် သင်္ချာသင်တန်းအပြည့်အစုံ -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်းများသို့ ဆက်လက်ရောက်ရှိသွားသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ထို့နောက် ဂျီဩမေတြီ (ထောင့်များ၊ တြိဂံနှင့်စတုဂံများ၊ ကွန်ပါနှင့်ပေတံ တည်ဆောက်နည်းနှင့် ဗိသုကာပညာသို့ အသုံးချခြင်း)၊ ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ (ညီမျှခြင်း ဟန်ချက်ညှိခြင်း၊ ကွင်းဖြန့်ခြင်း၊ ကိန်းစဉ်စည်းမျဉ်းများ)၊ စာရင်းအင်း (အချက်အလက်ကောက်ယူခြင်း၊ ပျမ်းမျှကိန်းနှင့်သက်ရောက်နယ်၊ ဇယားနှင့်ဂရပ်များ)၊ အချိုးနှင့် အချိုးကျခြင်း (အချိုးရှင်းလင်းခြင်း၊ တိုက်ရိုက်အချိုးကျခြင်း၊ ဟင်းချက်နည်း အချိုးအဆများ)၊ ပြောင်းလဲမှုများနှင့် ၃-ဖက်မြင်ပုံများ (အချိုးညီခြင်း၊ အလင်းပြန်ခြင်း၊ ရွေ့လျားခြင်း၊ လှည့်ခြင်း၊ ဖြန့်ပုံများနှင့် မျက်နှာပြင်ဧရိယာ) သို့ ဆက်လက်ရောက်ရှိသွားပြီး၊ ဖြစ်နိုင်ခြေနှင့် တစ်နှစ်တာလုံး ပြန်လည်သုံးသပ်ခြင်းဖြင့် နိဂုံးချုပ်မည်။",
   totalWeeks: 36,
   terms: [
     _secondary1MathematicsTerm1,
     _secondary1MathematicsTerm2,
     _secondary1MathematicsTerm3,
+    _secondary1MathematicsTerm4,
+    _secondary1MathematicsTerm5,
+    _secondary1MathematicsTerm6,
+    _secondary1MathematicsTerm7,
+    _secondary1MathematicsTerm8,
+    _secondary1MathematicsTerm9,
   ],
 );
 
@@ -142427,5 +142440,8928 @@ const CourseTermDef _year1ScienceTerm9 = CourseTermDef(
     _year1ScienceWeek34,
     _year1ScienceWeek35,
     _year1ScienceWeek36,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 4, Week 13: "Angles and Lines"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek13 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w13",
+  weekNumber: 13,
+  titleEn: "Angles and Lines",
+  titleMy: "ထောင့်များ နှင့် မျဉ်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w13-d1",
+      dayNumber: 1,
+      titleEn: "Measuring and Naming Angles",
+      titleMy: "ထောင့်များကို တိုင်းတာခြင်းနှင့် အမည်ပေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An angle measures 35°. What type of angle is it?",
+          questionMy:
+              "ထောင့်တစ်ခုသည် ၃၅ ဒီဂရီ ရှိပါက ၎င်းသည် မည်သည့်ထောင့်အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Acute angle",
+            "Right angle",
+            "Obtuse angle",
+            "Reflex angle",
+          ],
+          optionsMy: [
+            "ချွန်ထောင့် (acute angle)",
+            "ထောင့်မှန် (right angle)",
+            "ထောင့်ကျယ် (obtuse angle)",
+            "ကျော်ထောင့် (reflex angle)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An angle measures 120°. What type of angle is it?",
+          questionMy:
+              "ထောင့်တစ်ခုသည် ၁၂၀ ဒီဂရီ ရှိပါက ၎င်းသည် မည်သည့်ထောင့်အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Acute angle",
+            "Right angle",
+            "Obtuse angle",
+            "Reflex angle",
+          ],
+          optionsMy: [
+            "ချွန်ထောင့် (acute angle)",
+            "ထောင့်မှန် (right angle)",
+            "ထောင့်ကျယ် (obtuse angle)",
+            "ကျော်ထောင့် (reflex angle)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two angles lie on a straight line. One angle is 65°. What is the size of the other angle?",
+          questionMy:
+              "ထောင့်နှစ်ခုသည် ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်တွင် ရှိနေပြီး၊ တစ်ခုသည် ၆၅ ဒီဂရီ ရှိသည်။ အခြားထောင့်တစ်ခု၏ အရွယ်အစားမှာ မည်မျှနည်း။",
+          optionsEn: ["115°", "65°", "135°", "180°"],
+          optionsMy: ["115°", "65°", "135°", "180°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two angles on a straight line measure 3x° and 60°. Using Week 7's equation-solving skill, find x.",
+          questionMy:
+              "ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်ရှိ ထောင့်နှစ်ခုသည် 3x° နှင့် 60° ဖြစ်သည်။ Week 7 ၏ ညီမျှခြင်းဖြေရှင်းနည်း ကျွမ်းကျင်မှုကိုသုံးပြီး x ကိုရှာပါ။",
+          optionsEn: ["x = 40", "x = 30", "x = 60", "x = 120"],
+          optionsMy: ["x = 40", "x = 30", "x = 60", "x = 120"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which instrument is used to measure the size of an angle in degrees?",
+          questionMy:
+              "ထောင့်တစ်ခု၏ ဒီဂရီအရွယ်အစားကို တိုင်းတာရန် မည်သည့်ကိရိယာကို အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Ruler (ပေတံ)",
+            "Protractor (ထောင့်တိုင်းကိရိယာ)",
+            "Compass (ကွန်ပါ)",
+            "Set square (ထောင့်မှန်ပေတံ)",
+          ],
+          optionsMy: [
+            "ပေတံ (Ruler)",
+            "ထောင့်တိုင်းကိရိယာ (Protractor)",
+            "ကွန်ပါ (Compass)",
+            "ထောင့်မှန်ပေတံ (Set square)",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match the Angle Vocabulary",
+      titleMy: "ထောင့်ဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w13-dm-1",
+          termEn: "Acute angle",
+          termMy: "ချွန်ထောင့် (Acute angle)",
+          matchEn: "An angle that measures less than 90°, e.g. 40°",
+          matchMy: "90 ဒီဂရီ ထက်နည်းသော ထောင့်၊ ဥပမာ 40°",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w13-dm-2",
+          termEn: "Right angle",
+          termMy: "ထောင့်မှန် (Right angle)",
+          matchEn:
+              "An angle that measures exactly 90°, often marked with a small square",
+          matchMy:
+              "အတိအကျ 90 ဒီဂရီ ရှိသောထောင့်၊ အများအားဖြင့် စတုရန်းငယ်ဖြင့် အမှတ်အသားပြုလေ့ရှိသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w13-dm-3",
+          termEn: "Obtuse angle",
+          termMy: "ထောင့်ကျယ် (Obtuse angle)",
+          matchEn: "An angle that measures more than 90° but less than 180°",
+          matchMy: "90 ဒီဂရီ ထက်ကြီး၊ 180 ဒီဂရီ ထက်နည်းသော ထောင့်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w13-dm-4",
+          termEn: "Straight angle",
+          termMy: "ပြားထောင့် (Straight angle)",
+          matchEn:
+              "An angle that measures exactly 180°, forming a straight line",
+          matchMy:
+              "အတိအကျ 180 ဒီဂရီ ရှိပြီး ဖြောင့်မျဉ်းတစ်ကြောင်း ဖြစ်စေသောထောင့်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w13-dm-5",
+          termEn: "Reflex angle",
+          termMy: "ကျော်ထောင့် (Reflex angle)",
+          matchEn: "An angle that measures more than 180° but less than 360°",
+          matchMy: "180 ဒီဂရီ ထက်ကြီး၊ 360 ဒီဂရီ ထက်နည်းသော ထောင့်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w13-dm-6",
+          termEn: "Protractor",
+          termMy: "ထောင့်တိုင်းကိရိယာ (Protractor)",
+          matchEn: "The tool used to measure and draw angles in degrees",
+          matchMy:
+              "ထောင့်များကို ဒီဂရီဖြင့် တိုင်းတာပြီး ဆွဲရန် အသုံးပြုသောကိရိယာ",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acute or Obtuse?",
+      titleMy: "စီစစ်ကြမည် - ချွန်ထောင့်လား ထောင့်ကျယ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Acute (Less than 90°)", "Obtuse (Between 90° and 180°)"],
+        bucketsMy: [
+          "ချွန်ထောင့် (90 ဒီဂရီ ထက်နည်း)",
+          "ထောင့်ကျယ် (90 နှင့် 180 ဒီဂရီကြား)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w13-sort-1",
+            labelEn: "A 30° angle at the tip of a slice of watermelon",
+            labelMy: "သခွားသီးအလွှာဖျား၏ 30° ထောင့်",
+            correctBucketEn: "Acute (Less than 90°)",
+            correctBucketMy: "ချွန်ထောင့် (90 ဒီဂရီ ထက်နည်း)",
+          ),
+          SortingItem(
+            id: "s1math-w13-sort-2",
+            labelEn: "A 150° angle where a reclined chair leans back",
+            labelMy: "လှဲလျောင်းသော ကုလားထိုင် နောက်ဆုတ်ရာ 150° ထောင့်",
+            correctBucketEn: "Obtuse (Between 90° and 180°)",
+            correctBucketMy: "ထောင့်ကျယ် (90 နှင့် 180 ဒီဂရီကြား)",
+          ),
+          SortingItem(
+            id: "s1math-w13-sort-3",
+            labelEn: "The 60° angle inside an equilateral triangle",
+            labelMy:
+                "ဘက်သုံးဘက်ညီတြိဂံ (equilateral triangle) အတွင်းရှိ 60° ထောင့်",
+            correctBucketEn: "Acute (Less than 90°)",
+            correctBucketMy: "ချွန်ထောင့် (90 ဒီဂရီ ထက်နည်း)",
+          ),
+          SortingItem(
+            id: "s1math-w13-sort-4",
+            labelEn: "A 100° angle where an open laptop screen tilts back",
+            labelMy:
+                "ဖွင့်ထားသော လက်ပ်တော့စကရင် ရှေ့သို့စောင်းနေသော 100° ထောင့်",
+            correctBucketEn: "Obtuse (Between 90° and 180°)",
+            correctBucketMy: "ထောင့်ကျယ် (90 နှင့် 180 ဒီဂရီကြား)",
+          ),
+          SortingItem(
+            id: "s1math-w13-sort-5",
+            labelEn: "A 45° angle cut for a picture-frame corner",
+            labelMy: "ပုံဘောင်ထောင့်အတွက် ဖြတ်ထားသော 45° ထောင့်",
+            correctBucketEn: "Acute (Less than 90°)",
+            correctBucketMy: "ချွန်ထောင့် (90 ဒီဂရီ ထက်နည်း)",
+          ),
+          SortingItem(
+            id: "s1math-w13-sort-6",
+            labelEn: "A 135° angle of a folded paper fan",
+            labelMy: "ခေါက်ထားသော စက္ကူပန်ကာ၏ 135° ထောင့်",
+            correctBucketEn: "Obtuse (Between 90° and 180°)",
+            correctBucketMy: "ထောင့်ကျယ် (90 နှင့် 180 ဒီဂရီကြား)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Angles at the Mohinga Stall",
+      titleMy: "စာဖတ်ခြင်း - မုန့်ဟင်းခါးဆိုင်ရှိ ထောင့်များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Straight-Line Roof",
+        titleMy: "စုစု၏ ဖြောင့်မျဉ်းသွယ် အမိုးဒီဇိုင်း",
+        passageEn:
+            "Su Su's family mohinga stall in Mandalay needed a new awning before the rainy season arrived, so her mother bought a protractor and a bundle of wooden beams to build a simple sloped roof frame. Before Su Su could help nail anything together, her mother asked her to check every angle first, since a roof that is cut at the wrong angle can leak or even collapse. Su Su placed the protractor's centre point on each corner where two beams met and read off the degree mark where the second beam crossed the scale.\n\nThe first beam she checked leaned against the back wall at 35°, which Su Su correctly called an acute angle because it measured less than 90°. The beam holding up the front edge of the awning met the horizontal support at 120°, an obtuse angle, since it measured more than 90° but less than 180°. Then Su Su noticed something useful: the sawn edge of one long beam formed a straight line across its width, and the two angles on either side of her pencil mark had to add up to exactly 180°, no matter how she cut it. When she measured one of those angles at 65°, she did not even need the protractor for the other — she simply calculated 180° − 65° = 115°, and her protractor confirmed she was right.\n\nThe trickiest beam of all had an unknown angle written on her mother's sketch as 3x°, sitting on a straight line right next to a marked 60° angle. Su Su remembered Week 7's equation-solving skill: since the two angles together had to make 180°, she wrote 3x + 60 = 180, subtracted 60 from both sides to get 3x = 120, and divided both sides by 3 to find x = 40. She checked her protractor reading on the actual beam — 40° exactly — and smiled, realising that the algebra she had learned in Term 2 and the angle facts she was learning now fit together perfectly, whether the wood was measured with a protractor or worked out with an equation.",
+        passageMy:
+            "မန္တလေးမြို့ရှိ စုစု၏မိသားစု မုန့်ဟင်းခါးဆိုင်သည် မိုးရာသီမတိုင်မီ အမိုးအသစ်တစ်ခု လိုအပ်နေသဖြင့် သူမ၏အမေသည် ထောင့်တိုင်းကိရိယာ (protractor) တစ်ခုနှင့် သစ်သားတန်းများကို ဝယ်ယူကာ ရိုးရှင်းသော စောင်းအမိုးဘောင်တစ်ခု တည်ဆောက်ရန် ပြင်ဆင်ခဲ့သည်။ တစ်ခုမှ ကြေးမ ရိုက်တင်မီ အမေက သားတန်းများနှစ်ခု ဆုံရာထောင့်တိုင်းကို အရင်ဆုံး စစ်ဆေးပါဟု စုစုအား တောင်းဆိုခဲ့သည်၊ အကြောင်းမှာ မှားယွင်းသောထောင့်ဖြင့် ဖြတ်ထားသောအမိုးသည် ရေယိုစိမ့်ခြင်း (သို့) ပြိုကျခြင်းအထိ ဖြစ်စေနိုင်သောကြောင့်ဖြစ်သည်။ စုစုသည် ထောင့်တိုင်းကိရိယာ၏ ဗဟိုအမှတ်ကို သားတန်းနှစ်ခု ဆုံရာထောင့်တိုင်း၌ တင်ကာ ဒုတိယသားတန်းက စကေးကိုဖြတ်သွားရာ ဒီဂရီအမှတ်ကို ဖတ်ခဲ့သည်။\n\nစစ်ဆေးသည့်ပထမသားတန်းသည် နောက်ဘက်နံရံနှင့် 35° အနေအထားဖြင့် မှီနေခဲ့ပြီး၊ 90 ဒီဂရီ ထက်နည်းသောကြောင့် စုစုက ချွန်ထောင့် (acute angle) ဟု မှန်ကန်စွာ ခေါ်ခဲ့သည်။ အမိုးရှေ့စွန်းကို ထောက်ထားသော သားတန်းသည် ပြင်ညီထောက်ကန့်နှင့် 120° တွင် ဆုံခဲ့ပြီး၊ 90 ဒီဂရီ ထက်ကြီး၊ 180 ဒီဂရီ ထက်နည်းသောကြောင့် ထောင့်ကျယ် (obtuse angle) ဖြစ်သည်။ ထို့နောက် စုစုသည် အသုံးဝင်သောအချက်တစ်ခုကို သတိပြုမိခဲ့သည် - သားတန်းရှည်တစ်ခု၏ ဖြတ်ထားသောအနားသည် အကျယ်တစ်လျှောက် ဖြောင့်မျဉ်းတစ်ကြောင်းဖြစ်နေပြီး၊ သူမ၏ခဲတံအမှတ်၏ ဘက်နှစ်ဖက်ရှိ ထောင့်နှစ်ခုသည် မည်သို့ဖြတ်ဖြတ် ပေါင်းလဒ် အတိအကျ 180° ဖြစ်ရမည်ဖြစ်သည်။ ထိုထောင့်တစ်ခုကို 65° ဟု တိုင်းရသောအခါ၊ အခြားထောင့်ကို ထောင့်တိုင်းကိရိယာဖြင့် တိုင်းရန်မလိုတော့ဘဲ 180° − 65° = 115° ဟု တွက်ချက်ခဲ့ရုံသာဖြစ်ပြီး၊ ၎င်း၏ထောင့်တိုင်းကိရိယာကလည်း မှန်ကန်ကြောင်း အတည်ပြုပေးခဲ့သည်။\n\nအခက်ခဲဆုံး သားတန်းမှာ သူမအမေ၏ ပုံကြမ်းတွင် အမည်မသိထောင့် 3x° ဟုရေးထားပြီး၊ မှတ်ထားသော 60° ထောင့်နှင့် ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်တွင် ယှဉ်တွဲရှိနေသည်။ စုစုသည် Week 7 ၏ ညီမျှခြင်းဖြေရှင်းနည်း ကျွမ်းကျင်မှုကို သတိရခဲ့သည် - ထောင့်နှစ်ခုစုစုပေါင်းသည် 180° ဖြစ်ရမည်ဖြစ်၍ 3x + 60 = 180 ဟု ရေးချကာ၊ ဘက်နှစ်ဖက်စလုံးမှ 60 ကို နုတ်လိုက်ရာ 3x = 120 ရရှိပြီး၊ ဘက်နှစ်ဖက်စလုံးကို 3 ဖြင့်စားလိုက်ရာ x = 40 ဟု ရရှိသည်။ သူမသည် တကယ့်သားတန်းပေါ်ရှိ ထောင့်တိုင်းကိရိယာဖတ်ချက်ကို ပြန်စစ်ကြည့်ရာ 40° အတိအကျဖြစ်နေသည်ကို တွေ့ခဲ့ပြီး၊ Term 2 တွင်သင်ခဲ့သော အက္ခရာသင်္ချာနှင့် ယခုသင်နေသော ထောင့်ဆိုင်ရာအချက်အလက်များသည် သစ်သားကို ထောင့်တိုင်းကိရိယာဖြင့် တိုင်းသည်ဖြစ်စေ၊ ညီမျှခြင်းဖြင့် တွက်ချက်သည်ဖြစ်စေ အတူတကွ အံဝင်ခွင်ကျ ဖြစ်နေကြောင်း သဘောပေါက်ကာ ပြုံးမိလေတော့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su's mother want a new awning built for the mohinga stall?",
+            questionMy:
+                "စုစု၏အမေသည် မုန့်ဟင်းခါးဆိုင်အတွက် အမိုးအသစ် အဘယ်ကြောင့် တည်ဆောက်လိုခဲ့သနည်း။",
+            optionsEn: [
+              "Because the rainy season was coming and the roof needed to be built correctly",
+              "Because she wanted a bigger stall for more customers",
+              "Because the old awning was the wrong colour",
+              "Because Su Su asked for a new roof as a gift",
+            ],
+            optionsMy: [
+              "မိုးရာသီနီးကပ်လာပြီး အမိုးကို မှန်ကန်စွာ တည်ဆောက်ရန်လိုအပ်သောကြောင့်",
+              "ဖောက်သည်ပိုများစေရန် ဆိုင်ခန်းကို ကျယ်ကျယ်ဝန်းဝန်း လုပ်လိုသောကြောင့်",
+              "အမိုးဟောင်း၏ အရောင်မှားနေသောကြောင့်",
+              "စုစုက လက်ဆောင်အဖြစ် အမိုးအသစ်တောင်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what do two angles on a straight line always add up to?",
+            questionMy:
+                "ဇာတ်လမ်းအရ ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်ရှိ ထောင့်နှစ်ခု၏ ပေါင်းလဒ်သည် အမြဲအဘယ်မျှ ဖြစ်သနည်း။",
+            optionsEn: ["180°", "90°", "360°", "270°"],
+            optionsMy: ["180°", "90°", "360°", "270°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Su Su measured one angle as 3x° and the adjacent angle on the same straight line as 60°. Using Week 7's equation-solving skill, what is the value of x?",
+            questionMy:
+                "စုစုသည် ထောင့်တစ်ခုကို 3x° ဟု တိုင်းရပြီး တူညီသောဖြောင့်မျဉ်းပေါ်ရှိ နီးစပ်ထောင့်ကို 60° ဟု တိုင်းရသည်။ Week 7 ၏ ညီမျှခြင်းဖြေရှင်းနည်းကို သုံးပြီး x ၏တန်ဖိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["x = 40", "x = 30", "x = 60", "x = 120"],
+            optionsMy: ["x = 40", "x = 30", "x = 60", "x = 120"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What tool did Su Su use to measure the angles of the roof beams?",
+            questionMy:
+                "စုစုသည် အမိုးသားတန်းများ၏ ထောင့်များကို တိုင်းတာရန် မည်သည့်ကိရိယာကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A protractor",
+              "A compass",
+              "A calculator",
+              "A ruler only",
+            ],
+            optionsMy: [
+              "ထောင့်တိုင်းကိရိယာ (Protractor)",
+              "ကွန်ပါ (Compass)",
+              "ဂဏန်းတွက်စက်",
+              "ပေတံသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which type of angle measures more than 90° but less than 180°, like the beam Su Su found at 120°?",
+            questionMy:
+                "90 ဒီဂရီ ထက်ကြီး၊ 180 ဒီဂရီ ထက်နည်းသော ထောင့်အမျိုးအစားမှာ အဘယ်နည်း၊ စုစု တွေ့ရှိသော 120° သားတန်းကဲ့သို့ပင်။",
+            optionsEn: [
+              "Obtuse angle",
+              "Acute angle",
+              "Right angle",
+              "Reflex angle",
+            ],
+            optionsMy: [
+              "ထောင့်ကျယ် (Obtuse angle)",
+              "ချွန်ထောင့် (Acute angle)",
+              "ထောင့်မှန် (Right angle)",
+              "ကျော်ထောင့် (Reflex angle)",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Angles and Lines",
+      titleMy: "အပတ်စဉ် ၁၃ ပြန်လည်သုံးသပ်ခြင်း - ထောင့်များနှင့် မျဉ်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A door is opened so the angle between the door and the wall is 95°. What type of angle is this?",
+          questionMy:
+              "တံခါးကို ဖွင့်လိုက်ရာ တံခါးနှင့်နံရံကြား ထောင့်သည် 95° ရှိသည်။ ဤသည်မှာ မည်သည့်ထောင့်အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Acute angle",
+            "Right angle",
+            "Obtuse angle",
+            "Reflex angle",
+          ],
+          optionsMy: [
+            "ချွန်ထောင့် (Acute angle)",
+            "ထောင့်မှန် (Right angle)",
+            "ထောင့်ကျယ် (Obtuse angle)",
+            "ကျော်ထောင့် (Reflex angle)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two angles lie on a straight line. One is 110°. What is the other?",
+          questionMy:
+              "ထောင့်နှစ်ခုသည် ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်ရှိသည်။ တစ်ခုသည် 110° ဖြစ်သည်။ အခြားတစ်ခုမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["70°", "110°", "90°", "180°"],
+          optionsMy: ["70°", "110°", "90°", "180°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two angles on a straight line are 2x° and 40°. Find x.",
+          questionMy:
+              "ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်ရှိ ထောင့်နှစ်ခုသည် 2x° နှင့် 40° ဖြစ်သည်။ x ကိုရှာပါ။",
+          optionsEn: ["x = 70", "x = 110", "x = 35", "x = 140"],
+          optionsMy: ["x = 70", "x = 110", "x = 35", "x = 140"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which tool measures an angle in degrees?",
+          questionMy: "မည်သည့်ကိရိယာက ထောင့်တစ်ခု၏ ဒီဂရီကို တိုင်းတာသနည်း။",
+          optionsEn: ["Ruler", "Compass", "Protractor", "Set square"],
+          optionsMy: [
+            "ပေတံ (Ruler)",
+            "ကွန်ပါ (Compass)",
+            "ထောင့်တိုင်းကိရိယာ (Protractor)",
+            "ထောင့်မှန်ပေတံ (Set square)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is the size of a straight angle?",
+          questionMy: "ပြားထောင့် (straight angle) ၏ အရွယ်အစားမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["90°", "180°", "270°", "360°"],
+          optionsMy: ["90°", "180°", "270°", "360°"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 4, Week 14: "Triangles and
+// Quadrilaterals"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek14 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w14",
+  weekNumber: 14,
+  titleEn: "Triangles and Quadrilaterals",
+  titleMy: "တြိဂံများ နှင့် စတုဂံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w14-d1",
+      dayNumber: 1,
+      titleEn: "Angle Sums in Triangles and Quadrilaterals",
+      titleMy: "တြိဂံနှင့် စတုဂံများရှိ ထောင့်ပေါင်းလဒ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the sum of the interior angles of any triangle?",
+          questionMy: "တြိဂံတစ်ခု၏ အတွင်းထောင့်များ ပေါင်းလဒ်မှာ အဘယ်မျှနည်း။",
+          optionsEn: ["180°", "90°", "270°", "360°"],
+          optionsMy: ["180°", "90°", "270°", "360°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has angles 50°, 60°, and x°. Using Week 7's equation-solving skill, find x.",
+          questionMy:
+              "တြိဂံတစ်ခု၏ ထောင့်များမှာ 50°၊ 60° နှင့် x° ဖြစ်သည်။ Week 7 ၏ ညီမျှခြင်းဖြေရှင်းနည်းကို သုံးပြီး x ကိုရှာပါ။",
+          optionsEn: ["x = 70", "x = 60", "x = 50", "x = 110"],
+          optionsMy: ["x = 70", "x = 60", "x = 50", "x = 110"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the sum of the interior angles of any quadrilateral?",
+          questionMy: "စတုဂံတစ်ခု၏ အတွင်းထောင့်များ ပေါင်းလဒ်မှာ အဘယ်မျှနည်း။",
+          optionsEn: ["180°", "270°", "360°", "450°"],
+          optionsMy: ["180°", "270°", "360°", "450°"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A quadrilateral has angles 90°, 90°, 80°, and x°. Find x.",
+          questionMy:
+              "စတုဂံတစ်ခု၏ ထောင့်များမှာ 90°၊ 90°၊ 80° နှင့် x° ဖြစ်သည်။ x ကိုရှာပါ။",
+          optionsEn: ["x = 100", "x = 90", "x = 80", "x = 110"],
+          optionsMy: ["x = 100", "x = 90", "x = 80", "x = 110"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle with all three sides of different lengths and all three angles of different sizes is called a ___ triangle.",
+          questionMy:
+              "ဘက်သုံးဘက်လုံး အရှည်မတူ၊ ထောင့်သုံးခုလုံးလည်း အရွယ်အစားမတူသော တြိဂံကို ___ တြိဂံဟု ခေါ်သည်။",
+          optionsEn: ["equilateral", "isosceles", "scalene", "right-angled"],
+          optionsMy: [
+            "ဘက်သုံးဘက်ညီ (equilateral)",
+            "ဘက်နှစ်ဘက်ညီ (isosceles)",
+            "ဘက်မညီ (scalene)",
+            "ထောင့်မှန်ပါ (right-angled)",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match the Triangle and Quadrilateral Vocabulary",
+      titleMy: "တြိဂံနှင့် စတုဂံ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w14-dm-1",
+          termEn: "Equilateral triangle",
+          termMy: "ဘက်သုံးဘက်ညီတြိဂံ (Equilateral triangle)",
+          matchEn: "A triangle with 3 equal sides and 3 equal 60° angles",
+          matchMy: "ဘက်သုံးဘက်စလုံး ညီပြီး ထောင့်သုံးခုစလုံး 60° ညီညာသော တြိဂံ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w14-dm-2",
+          termEn: "Isosceles triangle",
+          termMy: "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles triangle)",
+          matchEn: "A triangle with exactly 2 equal sides and 2 equal angles",
+          matchMy: "ဘက်နှစ်ဘက် တိတိညီပြီး ထောင့်နှစ်ခုညီညာသော တြိဂံ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w14-dm-3",
+          termEn: "Scalene triangle",
+          termMy: "ဘက်မညီတြိဂံ (Scalene triangle)",
+          matchEn:
+              "A triangle with 3 sides of different lengths and 3 different angles",
+          matchMy: "ဘက်သုံးဘက်လုံး အရှည်မတူ၊ ထောင့်သုံးခုလုံးလည်း မတူသောတြိဂံ",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w14-dm-4",
+          termEn: "Square",
+          termMy: "စတုရန်း (Square)",
+          matchEn: "A quadrilateral with 4 equal sides and 4 right angles",
+          matchMy:
+              "ဘက်လေးဘက်လုံးညီပြီး ထောင့်လေးခုလုံး ထောင့်မှန် (90°) ဖြစ်သော စတုဂံ",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w14-dm-5",
+          termEn: "Parallelogram",
+          termMy: "ဘက်ပြိုင်စတုဂံ (Parallelogram)",
+          matchEn:
+              "A quadrilateral with 2 pairs of parallel sides and opposite angles equal",
+          matchMy: "ဘက်ပြိုင် ၂ စုံရှိပြီး ဆန့်ကျင်ဘက်ထောင့်များ ညီညာသော စတုဂံ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w14-dm-6",
+          termEn: "Trapezium",
+          termMy: "ဘက်ပြိုင်တစ်စုံသာရှိသောစတုဂံ (Trapezium)",
+          matchEn: "A quadrilateral with exactly 1 pair of parallel sides",
+          matchMy: "ဘက်ပြိုင် ၁ စုံသာ တိတိရှိသော စတုဂံ",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Triangle or Quadrilateral?",
+      titleMy: "စီစစ်ကြမည် - တြိဂံလား စတုဂံလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Triangle (3 sides, angles sum to 180°)",
+          "Quadrilateral (4 sides, angles sum to 360°)",
+        ],
+        bucketsMy: [
+          "တြိဂံ (ဘက် ၃ ဘက်၊ ထောင့်ပေါင်းလဒ် 180°)",
+          "စတုဂံ (ဘက် ၄ ဘက်၊ ထောင့်ပေါင်းလဒ် 360°)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w14-sort-1",
+            labelEn: "A slice of pizza with 3 straight edges",
+            labelMy: "အနားဖြောင့် ၃ ဘက်ရှိသော ပီဇာအလွှာ",
+            correctBucketEn: "Triangle (3 sides, angles sum to 180°)",
+            correctBucketMy: "တြိဂံ (ဘက် ၃ ဘက်၊ ထောင့်ပေါင်းလဒ် 180°)",
+          ),
+          SortingItem(
+            id: "s1math-w14-sort-2",
+            labelEn: "A kite shape with 4 straight sides",
+            labelMy: "အနားဖြောင့် ၄ ဘက်ရှိသော လေယာဉ်ငယ် (kite) ပုံသဏ္ဍာန်",
+            correctBucketEn: "Quadrilateral (4 sides, angles sum to 360°)",
+            correctBucketMy: "စတုဂံ (ဘက် ၄ ဘက်၊ ထောင့်ပေါင်းလဒ် 360°)",
+          ),
+          SortingItem(
+            id: "s1math-w14-sort-3",
+            labelEn: "A set square used in geometry class",
+            labelMy: "ဂျီဩမေတြီအတန်းတွင်သုံးသော ထောင့်မှန်ပေတံ (set square)",
+            correctBucketEn: "Triangle (3 sides, angles sum to 180°)",
+            correctBucketMy: "တြိဂံ (ဘက် ၃ ဘက်၊ ထောင့်ပေါင်းလဒ် 180°)",
+          ),
+          SortingItem(
+            id: "s1math-w14-sort-4",
+            labelEn: "A rectangular exercise book cover",
+            labelMy: "ထောင့်မှန်စတုဂံပုံသဏ္ဍာန် လက်စာအုပ်မျက်နှာဖုံး",
+            correctBucketEn: "Quadrilateral (4 sides, angles sum to 360°)",
+            correctBucketMy: "စတုဂံ (ဘက် ၄ ဘက်၊ ထောင့်ပေါင်းလဒ် 360°)",
+          ),
+          SortingItem(
+            id: "s1math-w14-sort-5",
+            labelEn: "The triangular roof truss of a house",
+            labelMy:
+                "အိမ်တစ်လုံး၏ တြိဂံပုံသဏ္ဍာန် အမိုးထောက်ဘောင် (roof truss)",
+            correctBucketEn: "Triangle (3 sides, angles sum to 180°)",
+            correctBucketMy: "တြိဂံ (ဘက် ၃ ဘက်၊ ထောင့်ပေါင်းလဒ် 180°)",
+          ),
+          SortingItem(
+            id: "s1math-w14-sort-6",
+            labelEn: "A square floor tile",
+            labelMy: "စတုရန်းပုံသဏ္ဍာန် ကြမ်းပြားခင်း",
+            correctBucketEn: "Quadrilateral (4 sides, angles sum to 360°)",
+            correctBucketMy: "စတုဂံ (ဘက် ၄ ဘက်၊ ထောင့်ပေါင်းလဒ် 360°)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Checking the Stall's New Furniture",
+      titleMy: "စာဖတ်ခြင်း - ဆိုင်၏ ပရိဘောဂအသစ်များကို စစ်ဆေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Checks the Truss and the Table",
+        titleMy: "စုစု၏ အမိုးထောက်ဘောင်နှင့် စားပွဲစစ်ဆေးမှု",
+        passageEn:
+            "With the roof beams cut correctly, Su Su's mother next asked a carpenter to build a triangular truss to support the middle of the new awning, plus a new wooden table for customers to eat their mohinga at. Su Su, proud of what she had learned about angles the week before, offered to check both shapes with her protractor before anyone paid the carpenter.\n\nFor the truss, Su Su measured two of its three angles: 50° and 65°. Remembering that every triangle's interior angles must add up to 180°, she calculated the third angle as 180° − 50° − 65° = 65°. Since two of the truss's angles were both 65°, Su Su realised the truss was an isosceles triangle — a triangle with exactly two equal angles (and two equal sides to match). She told the carpenter it looked strong and well balanced, exactly the shape her mother had asked for.\n\nNext came the table, a four-sided quadrilateral. Su Su measured three of its corners: 90°, 90°, and 85°. She knew a quadrilateral's four interior angles must always add up to 360°, so she calculated the fourth corner as 360° − 90° − 90° − 85° = 95°. Her mother wanted every corner to measure exactly 90° so the table would sit flat and square against the wall, so Su Su pointed out that the fourth corner, at 95°, needed to be sanded down slightly before the table was finished. The carpenter thanked her for catching the mistake early, saying that a table with even one wrong angle could wobble for years if nobody checked it first.",
+        passageMy:
+            "အမိုးသားတန်းများကို မှန်ကန်စွာ ဖြတ်ပြီးသည်နှင့် စုစု၏အမေသည် လက်သမားတစ်ဦးအား အမိုးအသစ်၏ အလယ်ပိုင်းကို ထောက်ကန့်ပေးမည့် တြိဂံပုံသဏ္ဍာန် အထောက်ဘောင် (truss) တစ်ခုနှင့် ဖောက်သည်များ မုန့်ဟင်းခါးစားသုံးရန် စားပွဲအသစ်တစ်ခု ပြုလုပ်ပေးရန် တောင်းဆိုခဲ့သည်။ ယခင်အပတ်က ထောင့်များအကြောင်း သင်ယူခဲ့ရသည်ကို ဂုဏ်ယူနေသော စုစုသည် လက်သမားကို ငွေမပေးချေမီ ပုံသဏ္ဍာန်နှစ်ခုစလုံးကို သူမ၏ ထောင့်တိုင်းကိရိယာဖြင့် စစ်ဆေးပေးမည်ဟု ကမ်းလှမ်းခဲ့သည်။\n\nအထောက်ဘောင်အတွက် စုစုသည် ထောင့်သုံးခုအနက် နှစ်ခုကို တိုင်းတာခဲ့သည် - 50° နှင့် 65°။ တြိဂံတိုင်း၏ အတွင်းထောင့်ပေါင်းလဒ်သည် 180° ဖြစ်ရမည်ကို သတိရလျက် သူမသည် တတိယထောင့်ကို 180° − 50° − 65° = 65° ဟု တွက်ချက်ခဲ့သည်။ အထောက်ဘောင်၏ ထောင့်နှစ်ခုစလုံးသည် 65° ဖြစ်နေသောကြောင့် စုစုသည် ၎င်းသည် ဘက်နှစ်ဘက်ညီတြိဂံ (isosceles triangle) — ထောင့်နှစ်ခု တိတိညီညာပြီး ဘက်နှစ်ဘက်လည်း ညီညာသော တြိဂံ — ဖြစ်ကြောင်း သိရှိခဲ့သည်။ သူမက လက်သမားအား ၎င်းသည် အမေတောင်းဆိုခဲ့သည့်ပုံသဏ္ဍာန်အတိုင်း ခိုင်ခံ့ပြီး ဟန်ချက်ညီနေကြောင်း ပြောပြခဲ့သည်။\n\nနောက်တစ်ခုမှာ ဘက်လေးဘက်ရှိသော စတုဂံ ပုံသဏ္ဍာန်ဖြစ်သော စားပွဲဖြစ်သည်။ စုစုသည် ထောင့်ချောင်းသုံးခုကို တိုင်းတာခဲ့သည် - 90°၊ 90° နှင့် 85°။ စတုဂံတစ်ခု၏ အတွင်းထောင့်လေးခု ပေါင်းလဒ်သည် အမြဲ 360° ဖြစ်ရမည်ကို သိသောကြောင့် သူမသည် စတုတ္ထထောင့်ကို 360° − 90° − 90° − 85° = 95° ဟု တွက်ချက်ခဲ့သည်။ သူမ၏အမေသည် စားပွဲကို နံရံနှင့် ညီညာစွာ တည်နေစေရန် ထောင့်တိုင်း အတိအကျ 90° ဖြစ်စေလိုသောကြောင့် စုစုသည် စတုတ္ထထောင့် 95° ကို ပြီးဆုံးမီ အနည်းငယ် တိုက်ချွန်ပေးရန် လိုအပ်ကြောင်း ညွှန်ပြခဲ့သည်။ လက်သမားက ထိုအမှားကို စောစီးစွာ တွေ့ရှိပေးသည့်အတွက် ကျေးဇူးတင်ကြောင်း ပြောကာ၊ ထောင့်တစ်ခုမျှမှားနေသော စားပွဲသည် တစ်စုံတစ်ဦးမှ ကြိုတင်စစ်ဆေးခြင်းမပြုပါက နှစ်ပေါင်းများစွာ လှုပ်ရွှားနေနိုင်ကြောင်း ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the third angle of the truss triangle, if two of its angles measured 50° and 65°?",
+            questionMy:
+                "အထောက်ဘောင်တြိဂံ၏ ထောင့်နှစ်ခုသည် 50° နှင့် 65° ရှိသည်ဆိုပါက တတိယထောင့်မှာ အဘယ်မျှနည်း။",
+            optionsEn: ["65°", "50°", "60°", "70°"],
+            optionsMy: ["65°", "50°", "60°", "70°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Since two of the truss triangle's angles were both 65°, what type of triangle is it?",
+            questionMy:
+                "အထောက်ဘောင်တြိဂံ၏ ထောင့်နှစ်ခုစလုံးသည် 65° ဖြစ်နေသဖြင့် ၎င်းသည် မည်သည့်တြိဂံအမျိုးအစား ဖြစ်သနည်း။",
+            optionsEn: [
+              "Isosceles triangle",
+              "Equilateral triangle",
+              "Scalene triangle",
+              "Right-angled triangle",
+            ],
+            optionsMy: [
+              "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles)",
+              "ဘက်သုံးဘက်ညီတြိဂံ (Equilateral)",
+              "ဘက်မညီတြိဂံ (Scalene)",
+              "ထောင့်မှန်တြိဂံ (Right-angled)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the sum of the interior angles of a quadrilateral, as Su Su used to check the table?",
+            questionMy:
+                "စုစုက စားပွဲကို စစ်ဆေးရန်သုံးခဲ့သော စတုဂံတစ်ခု၏ အတွင်းထောင့်ပေါင်းလဒ်မှာ အဘယ်မျှနည်း။",
+            optionsEn: ["360°", "180°", "270°", "400°"],
+            optionsMy: ["360°", "180°", "270°", "400°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Three corners of the table measured 90°, 90°, and 85°. What is the fourth corner's angle?",
+            questionMy:
+                "စားပွဲ၏ ထောင့်ချောင်းသုံးခုသည် 90°၊ 90° နှင့် 85° ရှိသည်။ စတုတ္ထထောင့်၏ အရွယ်အစားမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["95°", "85°", "90°", "105°"],
+            optionsMy: ["95°", "85°", "90°", "105°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su's mother want every corner of the table to measure exactly 90°?",
+            questionMy:
+                "စုစု၏အမေသည် စားပွဲ၏ ထောင့်တိုင်း အတိအကျ 90° ဖြစ်စေလိုသည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "So the table would sit flat and square against the wall",
+              "So the table would look more colourful",
+              "So the table would be cheaper to build",
+              "So the table would be lighter to carry",
+            ],
+            optionsMy: [
+              "စားပွဲသည် နံရံနှင့် ညီညာစွာ ပြားညီစွာ တည်နေစေရန်",
+              "စားပွဲကို ပိုမိုရောင်စုံလှစေရန်",
+              "စားပွဲကို ဈေးသက်သာစွာ လုပ်နိုင်ရန်",
+              "စားပွဲကို ပိုမိုပေါ့ပါးစွာ သယ်နိုင်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Triangles and Quadrilaterals",
+      titleMy: "အပတ်စဉ် ၁၄ ပြန်လည်သုံးသပ်ခြင်း - တြိဂံများနှင့် စတုဂံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A triangle has angles of 35° and 85°. What is the third angle?",
+          questionMy:
+              "တြိဂံတစ်ခု၏ ထောင့်များမှာ 35° နှင့် 85° ဖြစ်သည်။ တတိယထောင့်မှာ အဘယ်မျှနည်း။",
+          optionsEn: ["60°", "55°", "70°", "65°"],
+          optionsMy: ["60°", "55°", "70°", "65°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has three equal angles of 60° each. What type of triangle is this?",
+          questionMy:
+              "တြိဂံတစ်ခုသည် 60° စီ ညီညာသောထောင့်သုံးခု ရှိသည်။ ၎င်းသည် မည်သည့်တြိဂံအမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Equilateral triangle",
+            "Isosceles triangle",
+            "Scalene triangle",
+            "Right-angled triangle",
+          ],
+          optionsMy: [
+            "ဘက်သုံးဘက်ညီတြိဂံ (Equilateral)",
+            "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles)",
+            "ဘက်မညီတြိဂံ (Scalene)",
+            "ထောင့်မှန်တြိဂံ (Right-angled)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A quadrilateral has angles 100°, 80°, 90°, and x°. Find x.",
+          questionMy:
+              "စတုဂံတစ်ခု၏ ထောင့်များမှာ 100°၊ 80°၊ 90° နှင့် x° ဖြစ်သည်။ x ကိုရှာပါ။",
+          optionsEn: ["x = 90", "x = 100", "x = 80", "x = 110"],
+          optionsMy: ["x = 90", "x = 100", "x = 80", "x = 110"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A quadrilateral with exactly one pair of parallel sides is called a ___.",
+          questionMy: "ဘက်ပြိုင်တစ်စုံသာ တိတိရှိသော စတုဂံကို ___ ဟုခေါ်သည်။",
+          optionsEn: ["Trapezium", "Parallelogram", "Square", "Rectangle"],
+          optionsMy: [
+            "Trapezium (ဘက်ပြိုင်တစ်စုံသာရှိသောစတုဂံ)",
+            "Parallelogram (ဘက်ပြိုင်စတုဂံ)",
+            "Square (စတုရန်း)",
+            "Rectangle (ထောင့်မှန်စတုဂံ)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has one angle of 90°. What type of triangle is this?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် ထောင့်တစ်ခု 90° ရှိသည်။ ၎င်းသည် မည်သည့်တြိဂံအမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Right-angled triangle",
+            "Equilateral triangle",
+            "Isosceles triangle",
+            "Scalene triangle",
+          ],
+          optionsMy: [
+            "ထောင့်မှန်တြိဂံ (Right-angled)",
+            "ဘက်သုံးဘက်ညီတြိဂံ (Equilateral)",
+            "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles)",
+            "ဘက်မညီတြိဂံ (Scalene)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 4, Week 15: "Constructing Shapes"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek15 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w15",
+  weekNumber: 15,
+  titleEn: "Constructing Shapes",
+  titleMy: "ပုံများ ဆွဲသားတည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w15-d1",
+      dayNumber: 1,
+      titleEn: "Compass, Ruler and Perpendicular Lines",
+      titleMy: "ကွန်ပါ၊ ပေတံနှင့် ထောင့်မှန်ဖြတ်မျဉ်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which tool is used to draw a perfect circle or arc of a fixed radius?",
+          questionMy:
+              "အချင်းဝက် (radius) သတ်မှတ်ထားသော စက်ဝိုင်း (သို့) ခွေးမျဉ်း (arc) တိကျစွာ ရေးဆွဲရန် မည်သည့်ကိရိယာကို အသုံးပြုသနည်း။",
+          optionsEn: ["Ruler", "Protractor", "Compass", "Set square"],
+          optionsMy: [
+            "ပေတံ (Ruler)",
+            "ထောင့်တိုင်းကိရိယာ (Protractor)",
+            "ကွန်ပါ (Compass)",
+            "ထောင့်မှန်ပေတံ (Set square)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is a perpendicular line?",
+          questionMy:
+              "ထောင့်မှန်ဖြတ်မျဉ်း (perpendicular line) ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A line parallel to another line",
+            "A line that crosses another line at exactly 90°",
+            "A line of a fixed length",
+            "A line with no end points",
+          ],
+          optionsMy: [
+            "အခြားမျဉ်းတစ်ကြောင်းနှင့် ဘက်ပြိုင်သောမျဉ်း",
+            "အခြားမျဉ်းတစ်ကြောင်းနှင့် အတိအကျ 90° တွင် ဖြတ်သန်းသောမျဉ်း",
+            "အတိအကျ အလျားရှိသောမျဉ်း",
+            "အဆုံးအမှတ်မရှိသောမျဉ်း",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To construct a triangle when you know all three side lengths (SSS), which tools do you use to mark off each side accurately?",
+          questionMy:
+              "ဘက်သုံးဘက်၏ အရှည်ကို အသိသိထားပြီး တြိဂံတစ်ခု ရေးဆွဲရန် (SSS) ဘက်တစ်ဘက်စီ၏ အရှည်ကို တိကျစွာ အမှတ်ခြစ်ရန် မည်သည့်ကိရိယာများကို အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Protractor only",
+            "Compass and ruler",
+            "Set square only",
+            "Eraser",
+          ],
+          optionsMy: [
+            "ထောင့်တိုင်းကိရိယာသာ",
+            "ကွန်ပါနှင့် ပေတံ",
+            "ထောင့်မှန်ပေတံသာ",
+            "ခဲဖျက်",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An equilateral triangle has sides of 5 cm each. When constructing it with a compass set to a 5 cm radius, how many arcs must you draw from the two ends of the base line to find the third vertex?",
+          questionMy:
+              "ဘက်သုံးဘက်ညီတြိဂံတစ်ခု၏ ဘက်တစ်ဘက်စီသည် 5 cm ဖြစ်သည်။ ကွန်ပါကို 5 cm အချင်းဝက်ဖြင့် ချိန်ညှိပြီး တည်ဆောက်သောအခါ၊ တတိယထောင့်ဖျား (vertex) ကိုရှာရန် အခြေခံမျဉ်း၏ အစွန်းနှစ်ဖက်မှ ခွေးမျဉ်း (arc) ဘယ်နှစ်ကြောင်း ဆွဲရမည်နည်း။",
+          optionsEn: ["1 arc", "2 arcs", "3 arcs", "4 arcs"],
+          optionsMy: ["1 ကြောင်း", "2 ကြောင်း", "3 ကြောင်း", "4 ကြောင်း"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these pairs of lines are perpendicular to each other?",
+          questionMy:
+              "အောက်ပါမျဉ်းအတွဲများအနက် အဘယ်တွဲသည် တစ်ခုနှင့်တစ်ခု ထောင့်မှန်ဖြတ်နေသနည်း။",
+          optionsEn: [
+            "Two lines crossing at 45°",
+            "Two lines crossing at 60°",
+            "Two lines crossing at 90°",
+            "Two lines that never cross",
+          ],
+          optionsMy: [
+            "45° တွင် ဖြတ်သန်းသောမျဉ်းနှစ်ကြောင်း",
+            "60° တွင် ဖြတ်သန်းသောမျဉ်းနှစ်ကြောင်း",
+            "90° တွင် ဖြတ်သန်းသောမျဉ်းနှစ်ကြောင်း",
+            "တစ်ခါမှ မဖြတ်သန်းသောမျဉ်းနှစ်ကြောင်း",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match the Construction Vocabulary",
+      titleMy: "တည်ဆောက်ခြင်းဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w15-dm-1",
+          termEn: "Compass",
+          termMy: "ကွန်ပါ (Compass)",
+          matchEn:
+              "A tool used to draw circles, arcs, and mark off equal lengths",
+          matchMy:
+              "စက်ဝိုင်း၊ ခွေးမျဉ်း (arc) ဆွဲရန်နှင့် အလားတူအရှည်များ အမှတ်ခြစ်ရန် အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w15-dm-2",
+          termEn: "Perpendicular lines",
+          termMy: "ထောင့်မှန်ဖြတ်မျဉ်းများ (Perpendicular lines)",
+          matchEn: "Two lines that meet at exactly a 90° angle",
+          matchMy: "အတိအကျ 90° ထောင့်ဖြင့် ဆုံနေသော မျဉ်းနှစ်ကြောင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w15-dm-3",
+          termEn: "Arc",
+          termMy: "ခွေးမျဉ်း (Arc)",
+          matchEn: "A curved part of a circle drawn with a compass",
+          matchMy: "ကွန်ပါဖြင့် ရေးဆွဲထားသော စက်ဝိုင်း၏ ကွေ့သောအပိုင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w15-dm-4",
+          termEn: "Vertex",
+          termMy: "ထောင့်ဖျား (Vertex)",
+          matchEn: "The point where two sides of a shape meet",
+          matchMy: "ပုံသဏ္ဍာန်တစ်ခု၏ ဘက်နှစ်ဘက် ဆုံရာအမှတ်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w15-dm-5",
+          termEn: "Set square",
+          termMy: "ထောင့်မှန်ပေတံ (Set square)",
+          matchEn:
+              "A triangular tool used to draw right angles and other fixed angles accurately",
+          matchMy:
+              "ထောင့်မှန်နှင့် အခြားသတ်မှတ်ထောင့်များကို တိကျစွာ ရေးဆွဲရန် အသုံးပြုသော တြိဂံပုံသဏ္ဍာန်ကိရိယာ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w15-dm-6",
+          termEn: "Construction",
+          termMy: "တိကျစွာ တည်ဆောက်ခြင်း (Construction)",
+          matchEn:
+              "Drawing a shape accurately using only a ruler and compass, following exact steps",
+          matchMy:
+              "ပေတံနှင့် ကွန်ပါကိုသာ အသုံးပြု၍ အဆင့်ဆင့် အတိအကျလိုက်နာလျက် ပုံသဏ္ဍာန်တစ်ခုကို ရေးဆွဲခြင်း",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Compass or Protractor?",
+      titleMy: "စီစစ်ကြမည် - ကွန်ပါလား ထောင့်တိုင်းကိရိယာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Uses a Compass", "Uses a Protractor"],
+        bucketsMy: [
+          "ကွန်ပါကို အသုံးပြုသည်",
+          "ထောင့်တိုင်းကိရိယာကို အသုံးပြုသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w15-sort-1",
+            labelEn: "Drawing an arc to mark a fixed distance from a point",
+            labelMy:
+                "အမှတ်တစ်ခုမှ အလားတူအကွာအဝေးကို အမှတ်ခြစ်ရန် ခွေးမျဉ်း (arc) ဆွဲခြင်း",
+            correctBucketEn: "Uses a Compass",
+            correctBucketMy: "ကွန်ပါကို အသုံးပြုသည်",
+          ),
+          SortingItem(
+            id: "s1math-w15-sort-2",
+            labelEn: "Measuring that an angle is exactly 40°",
+            labelMy: "ထောင့်တစ်ခုသည် အတိအကျ 40° ဖြစ်ကြောင်း တိုင်းတာခြင်း",
+            correctBucketEn: "Uses a Protractor",
+            correctBucketMy: "ထောင့်တိုင်းကိရိယာကို အသုံးပြုသည်",
+          ),
+          SortingItem(
+            id: "s1math-w15-sort-3",
+            labelEn: "Constructing a triangle with 3 given side lengths (SSS)",
+            labelMy:
+                "ဘက်သုံးဘက်၏ အရှည် (SSS) ပေးထားသော တြိဂံတစ်ခု တည်ဆောက်ခြင်း",
+            correctBucketEn: "Uses a Compass",
+            correctBucketMy: "ကွန်ပါကို အသုံးပြုသည်",
+          ),
+          SortingItem(
+            id: "s1math-w15-sort-4",
+            labelEn: "Checking whether an angle is acute or obtuse",
+            labelMy:
+                "ထောင့်တစ်ခုသည် ချွန်ထောင့် (သို့) ထောင့်ကျယ် ဖြစ်မဖြစ် စစ်ဆေးခြင်း",
+            correctBucketEn: "Uses a Protractor",
+            correctBucketMy: "ထောင့်တိုင်းကိရိယာကို အသုံးပြုသည်",
+          ),
+          SortingItem(
+            id: "s1math-w15-sort-5",
+            labelEn: "Drawing a circle with a 4 cm radius",
+            labelMy: "4 cm အချင်းဝက်ရှိ စက်ဝိုင်းတစ်ခု ဆွဲခြင်း",
+            correctBucketEn: "Uses a Compass",
+            correctBucketMy: "ကွန်ပါကို အသုံးပြုသည်",
+          ),
+          SortingItem(
+            id: "s1math-w15-sort-6",
+            labelEn: "Drawing an angle of exactly 65° from a straight line",
+            labelMy: "ဖြောင့်မျဉ်းတစ်ကြောင်းမှ အတိအကျ 65° ထောင့်တစ်ခု ဆွဲခြင်း",
+            correctBucketEn: "Uses a Protractor",
+            correctBucketMy: "ထောင့်တိုင်းကိရိယာကို အသုံးပြုသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building the Isosceles Support Exactly Right",
+      titleMy: "စာဖတ်ခြင်း - ဘက်နှစ်ဘက်ညီ ထောက်ကန့်ကို တိကျစွာ တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Compass and the Perpendicular Post",
+        titleMy: "စုစု၏ ကွန်ပါနှင့် ထောင့်မှန်ဖြတ် တိုင်",
+        passageEn:
+            "For the final piece of the awning, the carpenter needed one more triangular support with sides of exactly 5 cm, 7 cm, and 7 cm — an isosceles triangle, just like the truss Su Su had checked the week before. Instead of guessing the shape by eye, Su Su asked if she could try constructing it herself using a compass and ruler, the way her teacher had shown the class.\n\nFirst, Su Su drew a straight base line 5 cm long using her ruler. Then she set her compass to a radius of exactly 7 cm and drew an arc from one end of the base line. Without changing the compass at all, she drew a second 7 cm arc from the other end of the base line. The two arcs crossed at exactly one point above the base line — that crossing point became the triangle's third vertex. Joining that point to both ends of the base line with her ruler gave a triangle with sides of 5 cm, 7 cm, and 7 cm exactly, far more accurate than anything she could have drawn by eye.\n\nNext, the carpenter needed the support post to stand perfectly upright, meeting the horizontal beam at exactly 90° — a perpendicular line. Su Su placed her set square against the beam and slid the post until its edge lined up exactly with the set square's right-angle corner, confirming the post was perpendicular to the beam. Her mother checked it once more with the protractor from two weeks earlier, and it read exactly 90°. Between the compass constructions and the perpendicular post, Su Su realised that geometry was not just about measuring shapes that already existed — it was also a set of exact steps for building new ones correctly the first time.",
+        passageMy:
+            "အမိုး၏ နောက်ဆုံးအစိတ်အပိုင်းတစ်ခုအတွက် လက်သမားသည် အတိအကျ 5 cm၊ 7 cm နှင့် 7 cm ဘက်များရှိသော တြိဂံပုံသဏ္ဍာန် ထောက်ကန့်တစ်ခု ထပ်မံလိုအပ်ခဲ့သည် — ယခင်အပတ်က စုစု စစ်ဆေးခဲ့သော အထောက်ဘောင်ကဲ့သို့ ဘက်နှစ်ဘက်ညီတြိဂံ (isosceles triangle) ဖြစ်သည်။ ပုံသဏ္ဍာန်ကို မျက်စိအဆင်ဖြင့်သာ ခန့်မှန်းမည့်အစား ဆရာမက အတန်းသားများကို ပြသခဲ့သည့်နည်းအတိုင်း ကွန်ပါနှင့် ပေတံကိုသုံးပြီး ကိုယ်တိုင်တည်ဆောက်ကြည့်ရန် စုစု တောင်းဆိုခဲ့သည်။\n\nပထမဦးစွာ စုစုသည် ပေတံဖြင့် 5 cm ရှည်သော ဖြောင့်မျဉ်း အခြေခံလိုင်းတစ်ကြောင်း ဆွဲခဲ့သည်။ ထို့နောက် ကွန်ပါကို အတိအကျ 7 cm အချင်းဝက်ဖြင့် ချိန်ညှိပြီး အခြေခံလိုင်း၏ တစ်ဖက်စွန်းမှ ခွေးမျဉ်း (arc) တစ်ကြောင်း ဆွဲခဲ့သည်။ ကွန်ပါကို လုံးဝမပြောင်းလဲဘဲ အခြေခံလိုင်း၏ အခြားစွန်းမှ ဒုတိယ 7 cm ခွေးမျဉ်းတစ်ကြောင်း ထပ်ဆွဲခဲ့သည်။ ခွေးမျဉ်းနှစ်ကြောင်းသည် အခြေခံလိုင်းအပေါ်ဘက်ရှိ အမှတ်တစ်ခုတည်းတွင် တိတိကျကျ ဆုံခဲ့ပြီး၊ ထိုဆုံချက်အမှတ်သည် တြိဂံ၏ တတိယထောင့်ဖျား (vertex) ဖြစ်လာခဲ့သည်။ ထိုအမှတ်ကို ပေတံဖြင့် အခြေခံလိုင်း၏ စွန်းနှစ်ဖက်စလုံးနှင့် ဆက်စပ်ဆွဲလိုက်သောအခါ 5 cm၊ 7 cm နှင့် 7 cm အတိအကျရှိသော တြိဂံတစ်ခု ရရှိလာခဲ့ပြီး၊ မျက်စိအဆင်ဖြင့် ဆွဲနိုင်မည့် မည်သည့်ပုံသဏ္ဍာန်ထက်မဆို ပိုမိုတိကျခဲ့သည်။\n\nထို့နောက် လက်သမားသည် ထောက်ကန့်တိုင်ကို ပြင်ညီသားတန်းနှင့် အတိအကျ 90° တွင် ဆုံစေရန် — ထောင့်မှန်ဖြတ်မျဉ်း (perpendicular line) ဖြစ်စေရန် — ဒေါင်လိုက်တည့်မတ်စွာ ရပ်တည်စေလိုခဲ့သည်။ စုစုသည် ထောင့်မှန်ပေတံ (set square) ကို သားတန်းနှင့်ကပ်ထားပြီး ၎င်း၏အနားသည် ထောင့်မှန်ပေတံ၏ ထောင့်မှန်ထောင့်နှင့် အတိအကျ ကိုက်ညီသည်အထိ တိုင်ကို ရွှေ့ခဲ့ကာ တိုင်သည် သားတန်းနှင့် ထောင့်မှန်ဖြတ်နေကြောင်း အတည်ပြုခဲ့သည်။ သူမ၏အမေသည် ၂ပတ်က သုံးခဲ့သော ထောင့်တိုင်းကိရိယာဖြင့် တစ်ကြိမ်ထပ်၍ စစ်ဆေးရာ 90° အတိအကျ ဖတ်ရရှိခဲ့သည်။ ကွန်ပါဖြင့် တည်ဆောက်မှုများနှင့် ထောင့်မှန်ဖြတ် တိုင်တို့ကြားတွင် ဂျီဩမေတြီသည် ရှိပြီးသားပုံသဏ္ဍာန်များကို တိုင်းတာခြင်းသက်သက်မဟုတ်ဘဲ၊ ပုံသဏ္ဍာန်အသစ်များကို ပထမကြိမ်တွင်ပင် မှန်ကန်စွာ တည်ဆောက်ရန် အတိအကျ လုပ်ဆောင်ရမည့် အဆင့်များအစုအဝေးလည်း ဖြစ်ကြောင်း စုစု သဘောပေါက်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su use a compass instead of just estimating the triangle's shape by eye?",
+            questionMy:
+                "စုစုသည် တြိဂံပုံသဏ္ဍာန်ကို မျက်စိအဆင်ဖြင့်သာ ခန့်မှန်းမည့်အစား ကွန်ပါကိုသုံးခဲ့ခြင်းမှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "To make the triangle's side lengths exact and accurate",
+              "Because a compass is faster to carry than a ruler",
+              "Because her mother told her to only use a compass",
+              "Because the carpenter did not own a ruler",
+            ],
+            optionsMy: [
+              "တြိဂံ၏ ဘက်များအရှည်ကို တိကျမှန်ကန်စေရန်",
+              "ကွန်ပါသည် ပေတံထက် သယ်ဆောင်ရလွယ်ကူသောကြောင့်",
+              "အမေက ကွန်ပါသာ သုံးရန် ပြောထားသောကြောင့်",
+              "လက်သမားတွင် ပေတံမရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "The support triangle needed sides of 5 cm, 7 cm, and 7 cm. What type of triangle is this?",
+            questionMy:
+                "ထောက်ကန့်တြိဂံသည် 5 cm၊ 7 cm နှင့် 7 cm ဘက်များ လိုအပ်ခဲ့သည်။ ၎င်းသည် မည်သည့်တြိဂံအမျိုးအစား ဖြစ်သနည်း။",
+            optionsEn: [
+              "Isosceles triangle",
+              "Equilateral triangle",
+              "Scalene triangle",
+              "Right-angled triangle",
+            ],
+            optionsMy: [
+              "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles)",
+              "ဘက်သုံးဘက်ညီတြိဂံ (Equilateral)",
+              "ဘက်မညီတြိဂံ (Scalene)",
+              "ထောင့်မှန်တြိဂံ (Right-angled)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "To construct the two 7 cm sides accurately, what radius should Su Su set her compass to?",
+            questionMy:
+                "7 cm ဘက်နှစ်ဘက်ကို တိကျစွာ တည်ဆောက်ရန် စုစု၏ ကွန်ပါကို မည်သည့်အချင်းဝက်ဖြင့် ချိန်ညှိရမည်နည်း။",
+            optionsEn: ["7 cm", "5 cm", "12 cm", "14 cm"],
+            optionsMy: ["7 cm", "5 cm", "12 cm", "14 cm"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the mathematical name for the line Su Su's mother checked meeting the beam at exactly 90°?",
+            questionMy:
+                "စုစု၏အမေ သားတန်းနှင့် အတိအကျ 90° တွင် ဆုံကြောင်း စစ်ဆေးခဲ့သော မျဉ်းအတွက် သင်္ချာအမည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Perpendicular line",
+              "Parallel line",
+              "Diagonal line",
+              "Curved line",
+            ],
+            optionsMy: [
+              "ထောင့်မှန်ဖြတ်မျဉ်း (Perpendicular line)",
+              "ဘက်ပြိုင်မျဉ်း (Parallel line)",
+              "ထောင့်ဖြတ်မျဉ်း (Diagonal line)",
+              "ကွေ့မျဉ်း (Curved line)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which tool did Su Su use to first confirm the post stood at a right angle to the beam?",
+            questionMy:
+                "တိုင်သည် သားတန်းနှင့် ထောင့်မှန်ဖြင့် ရပ်တည်ကြောင်း ပထမဆုံး အတည်ပြုရန် စုစု မည်သည့်ကိရိယာကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A set square",
+              "A compass only",
+              "A ruler only",
+              "A calculator",
+            ],
+            optionsMy: [
+              "ထောင့်မှန်ပေတံ (Set square)",
+              "ကွန်ပါသာ",
+              "ပေတံသာ",
+              "ဂဏန်းတွက်စက်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Constructing Shapes",
+      titleMy: "အပတ်စဉ် ၁၅ ပြန်လည်သုံးသပ်ခြင်း - ပုံများ ဆွဲသားတည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which tool is used to draw arcs and mark off equal lengths accurately?",
+          questionMy:
+              "ခွေးမျဉ်း (arc) ဆွဲရန်နှင့် အလားတူအရှည်များကို တိကျစွာ အမှတ်ခြစ်ရန် မည်သည့်ကိရိယာကို အသုံးပြုသနည်း။",
+          optionsEn: ["Compass", "Protractor", "Set square only", "Eraser"],
+          optionsMy: [
+            "ကွန်ပါ (Compass)",
+            "ထောင့်တိုင်းကိရိယာ (Protractor)",
+            "ထောင့်မှန်ပေတံသာ",
+            "ခဲဖျက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two lines that meet at exactly 90° are called ___ lines.",
+          questionMy:
+              "အတိအကျ 90° တွင် ဆုံသောမျဉ်းနှစ်ကြောင်းကို ___ မျဉ်းများဟု ခေါ်သည်။",
+          optionsEn: ["Perpendicular", "Parallel", "Curved", "Diagonal"],
+          optionsMy: [
+            "ထောင့်မှန်ဖြတ် (Perpendicular)",
+            "ဘက်ပြိုင် (Parallel)",
+            "ကွေ့ (Curved)",
+            "ထောင့်ဖြတ် (Diagonal)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To construct a triangle when all three side lengths are known (SSS), which two tools are needed?",
+          questionMy:
+              "ဘက်သုံးဘက်၏ အရှည်ကို သိထားသည့် တြိဂံတစ်ခု (SSS) တည်ဆောက်ရန် မည်သည့်ကိရိယာနှစ်မျိုး လိုအပ်သနည်း။",
+          optionsEn: [
+            "Compass and ruler",
+            "Protractor and eraser",
+            "Set square and pencil only",
+            "Ruler only",
+          ],
+          optionsMy: [
+            "ကွန်ပါနှင့် ပေတံ",
+            "ထောင့်တိုင်းကိရိယာနှင့် ခဲဖျက်",
+            "ထောင့်မှန်ပေတံနှင့် ခဲတံသာ",
+            "ပေတံသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the curved part of a circle drawn with a compass called?",
+          questionMy:
+              "ကွန်ပါဖြင့် ရေးဆွဲထားသော စက်ဝိုင်း၏ ကွေ့သောအပိုင်းကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["An arc", "A vertex", "A radius line", "A tangent"],
+          optionsMy: [
+            "ခွေးမျဉ်း (Arc)",
+            "ထောင့်ဖျား (Vertex)",
+            "အချင်းဝက်မျဉ်း",
+            "တင်ဂျင့်မျဉ်း (Tangent)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To construct a triangle with a 6 cm side using a compass, what should the compass radius be set to?",
+          questionMy:
+              "ကွန်ပါကိုသုံးပြီး 6 cm ဘက်တစ်ခုပါရှိသော တြိဂံတစ်ခု တည်ဆောက်ရန် ကွန်ပါ၏ အချင်းဝက်ကို မည်မျှသတ်မှတ်ရမည်နည်း။",
+          optionsEn: ["6 cm", "3 cm", "12 cm", "9 cm"],
+          optionsMy: ["6 cm", "3 cm", "12 cm", "9 cm"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 4, Week 16: "Geometry in Architecture"
+// (Term 4 capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek16 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w16",
+  weekNumber: 16,
+  titleEn: "Geometry in Architecture",
+  titleMy: "ဗိသုကာပညာရှိ ဂျီဩမေတြီ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w16-d1",
+      dayNumber: 1,
+      titleEn: "Geometry in Architecture: Capstone Quiz",
+      titleMy: "ဗိသုကာပညာရှိ ဂျီဩမေတြီ - နိဂုံးချုပ် ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A building's roofline forms two angles on a straight line: 2x° and 100°. Using Week 13's straight-line skill and Week 7's equation-solving skill, find x.",
+          questionMy:
+              "အဆောက်အအုံ၏ အမိုးမျဉ်းသည် ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်တွင် ထောင့်နှစ်ခုဖြစ်စေသည် - 2x° နှင့် 100°။ Week 13 ၏ ဖြောင့်မျဉ်းထောင့်ကျွမ်းကျင်မှုနှင့် Week 7 ၏ ညီမျှခြင်းဖြေရှင်းနည်းကို သုံးပြီး x ကိုရှာပါ။",
+          optionsEn: ["x = 40", "x = 50", "x = 80", "x = 140"],
+          optionsMy: ["x = 40", "x = 50", "x = 80", "x = 140"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An A-frame roof triangle has angles of 45°, 45°, and x°. Using Week 14's skill, find x and name the triangle type.",
+          questionMy:
+              "'A' ပုံသဏ္ဍာန် အမိုးတြိဂံတွင် ထောင့်များမှာ 45°၊ 45° နှင့် x° ဖြစ်သည်။ Week 14 ၏ ကျွမ်းကျင်မှုကို သုံးပြီး x ကိုရှာပြီး တြိဂံအမျိုးအစားကို အမည်ပေးပါ။",
+          optionsEn: [
+            "x = 90° (a right-angled isosceles triangle)",
+            "x = 90° (an equilateral triangle)",
+            "x = 45° (a scalene triangle)",
+            "x = 135° (an obtuse triangle)",
+          ],
+          optionsMy: [
+            "x = 90° (ထောင့်မှန်ပါသော ဘက်နှစ်ဘက်ညီတြိဂံ)",
+            "x = 90° (ဘက်သုံးဘက်ညီတြိဂံ)",
+            "x = 45° (ဘက်မညီတြိဂံ)",
+            "x = 135° (ထောင့်ကျယ်တြိဂံ)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An architect needs to draw a wall that meets the foundation at exactly 90°. Which Week 15 skill ensures this perpendicular line is accurate?",
+          questionMy:
+              "ဗိသုကာတစ်ဦးသည် အုတ်မြစ်နှင့် အတိအကျ 90° တွင် ဆုံမည့် နံရံတစ်ခုကို ဆွဲလိုသည်။ ဤထောင့်မှန်ဖြတ်မျဉ်း တိကျစေရန် Week 15 ၏ မည်သည့်ကျွမ်းကျင်မှုက အာမခံပေးသနည်း။",
+          optionsEn: [
+            "A set square or a compass-and-ruler construction",
+            "Guessing the angle by eye",
+            "A protractor set to 45°",
+            "Drawing quickly without checking",
+          ],
+          optionsMy: [
+            "ထောင့်မှန်ပေတံ (သို့) ကွန်ပါနှင့်ပေတံ တည်ဆောက်နည်း",
+            "ထောင့်ကို မျက်စိအဆင်ဖြင့် ခန့်မှန်းခြင်း",
+            "45° ချိန်ညှိထားသော ထောင့်တိုင်းကိရိယာ",
+            "စစ်ဆေးခြင်းမပြုဘဲ လျင်မြန်စွာ ဆွဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A square window has how many lines of symmetry?",
+          questionMy:
+              "စတုရန်းပုံသဏ္ဍာန် ပြတင်းပေါက်တစ်ခုတွင် အလားတူထပ်မျဉ်း (line of symmetry) ဘယ်နှစ်ကြောင်း ရှိသနည်း။",
+          optionsEn: ["1", "2", "4", "8"],
+          optionsMy: ["1", "2", "4", "8"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rectangular (non-square) door has how many lines of symmetry, and what is the sum of its interior angles (Week 14)?",
+          questionMy:
+              "စတုရန်းမဟုတ်သော ထောင့်မှန်စတုဂံ တံခါးတစ်ခုတွင် အလားတူထပ်မျဉ်း ဘယ်နှစ်ကြောင်းရှိပြီး Week 14 အရ ၎င်း၏ အတွင်းထောင့်ပေါင်းလဒ်မှာ အဘယ်မျှနည်း။",
+          optionsEn: [
+            "2 lines of symmetry; angles sum to 360°",
+            "4 lines of symmetry; angles sum to 360°",
+            "2 lines of symmetry; angles sum to 180°",
+            "1 line of symmetry; angles sum to 360°",
+          ],
+          optionsMy: [
+            "အလားတူထပ်မျဉ်း 2 ကြောင်း၊ ထောင့်ပေါင်းလဒ် 360°",
+            "အလားတူထပ်မျဉ်း 4 ကြောင်း၊ ထောင့်ပေါင်းလဒ် 360°",
+            "အလားတူထပ်မျဉ်း 2 ကြောင်း၊ ထောင့်ပေါင်းလဒ် 180°",
+            "အလားတူထပ်မျဉ်း 1 ကြောင်း၊ ထောင့်ပေါင်းလဒ် 360°",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match the Architecture and Symmetry Vocabulary",
+      titleMy: "ဗိသုကာနှင့် အလားတူမှု ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w16-dm-1",
+          termEn: "Line of symmetry",
+          termMy: "အလားတူထပ်မျဉ်း (Line of symmetry)",
+          matchEn: "A line that divides a shape into two mirror-image halves",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို မှန်ရိပ်တူညီသော ထက်ဝက်နှစ်ခု ခွဲပေးသောမျဉ်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w16-dm-2",
+          termEn: "Rotational symmetry",
+          termMy: "အလှည့်အလားတူမှု (Rotational symmetry)",
+          matchEn:
+              "When a shape looks the same after being turned less than a full circle around its centre",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို ဗဟိုချက်ဝန်းရံ လှည့်ပတ်လိုက်သောအခါ တစ်ပတ်မပြည့်မီပင် မူရင်းပုံသဏ္ဍာန်ကဲ့သို့ ပုံမှန်ပြန်တွေ့ရခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w16-dm-3",
+          termEn: "Perpendicular line",
+          termMy: "ထောင့်မှန်ဖြတ်မျဉ်း (Perpendicular line)",
+          matchEn: "A line meeting another at exactly 90°",
+          matchMy: "အခြားမျဉ်းတစ်ကြောင်းနှင့် အတိအကျ 90° တွင် ဆုံသောမျဉ်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w16-dm-4",
+          termEn: "Isosceles triangle",
+          termMy: "ဘက်နှစ်ဘက်ညီတြိဂံ (Isosceles triangle)",
+          matchEn: "A triangle with exactly 2 equal sides and 2 equal angles",
+          matchMy: "ဘက်နှစ်ဘက် တိတိညီပြီး ထောင့်နှစ်ခုညီညာသော တြိဂံ",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w16-dm-5",
+          termEn: "Angles on a straight line",
+          termMy: "ဖြောင့်မျဉ်းပေါ်ရှိ ထောင့်များ (Angles on a straight line)",
+          matchEn: "Two or more angles that together add up to 180°",
+          matchMy: "ပေါင်းလဒ် 180° ဖြစ်သော ထောင့်နှစ်ခု (သို့) ထို့ထက်ပို၍",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w16-dm-6",
+          termEn: "Compass construction",
+          termMy: "ကွန်ပါဖြင့် တည်ဆောက်ခြင်း (Compass construction)",
+          matchEn:
+              "Drawing a shape accurately with fixed-radius arcs instead of estimating by eye",
+          matchMy:
+              "မျက်စိအဆင်ဖြင့် ခန့်မှန်းမည့်အစား သတ်မှတ်အချင်းဝက် ခွေးမျဉ်းများဖြင့် ပုံသဏ္ဍာန်ကို တိကျစွာ ရေးဆွဲခြင်း",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Line Symmetry or No Line Symmetry?",
+      titleMy: "စီစစ်ကြမည် - အလားတူထပ်မျဉ်း ရှိလား မရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Has Line Symmetry", "No Line Symmetry"],
+        bucketsMy: ["အလားတူထပ်မျဉ်း ရှိသည်", "အလားတူထပ်မျဉ်း မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "s1math-w16-sort-1",
+            labelEn: "A square window",
+            labelMy: "စတုရန်းပုံသဏ္ဍာန် ပြတင်းပေါက်",
+            correctBucketEn: "Has Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w16-sort-2",
+            labelEn: "An isosceles triangular gable end",
+            labelMy: "ဘက်နှစ်ဘက်ညီတြိဂံပုံသဏ္ဍာန် အမိုးထိပ် (gable)",
+            correctBucketEn: "Has Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w16-sort-3",
+            labelEn: "A rectangular door",
+            labelMy: "ထောင့်မှန်စတုဂံပုံသဏ္ဍာန် တံခါး",
+            correctBucketEn: "Has Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w16-sort-4",
+            labelEn:
+                "A scalene triangle decorative panel (3 different side lengths)",
+            labelMy: "ဘက်သုံးဘက် အရှည်မတူသော ဘက်မညီတြိဂံ အလှဆင်ပြားချပ်",
+            correctBucketEn: "No Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "s1math-w16-sort-5",
+            labelEn:
+                "An irregular L-shaped extension with no equal sides or angles",
+            labelMy:
+                "ဘက်များနှင့် ထောင့်များ မညီညွတ်သော L-ပုံသဏ္ဍာန် တိုးချဲ့ဆောက်လုပ်ရာနေရာ",
+            correctBucketEn: "No Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "s1math-w16-sort-6",
+            labelEn: "A parallelogram-shaped skylight (not a rectangle)",
+            labelMy:
+                "ဘက်ပြိုင်စတုဂံပုံသဏ္ဍာန် (ထောင့်မှန်စတုဂံမဟုတ်) မိုးပေါက်ပြတင်းပေါက်",
+            correctBucketEn: "No Line Symmetry",
+            correctBucketMy: "အလားတူထပ်မျဉ်း မရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Architect's Visit",
+      titleMy: "စာဖတ်ခြင်း - ဗိသုကာပညာရှင်၏ လာရောက်လည်ပတ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Meets the Architect",
+        titleMy: "စုစုနှင့် ဗိသုကာပညာရှင် တွေ့ဆုံမှု",
+        passageEn:
+            "By the time the awning, the truss, and the table were finished, word of Su Su's careful angle-checking had reached Daw Aye Aye, an architect who sometimes ate at the mohinga stall on her way to work. Impressed, Daw Aye Aye invited Su Su to see the blueprint for a small community library she was designing nearby, and to check a few of its angles for practice, the same way a real architect would.\n\nThe library's front gable — the triangular section under the roof's peak — had two base angles of 50° each, sitting on a straight eave line right next to two 130° angles on either side. Su Su checked the straight-line fact first, using Week 13's skill: 50° + 130° = 180°, exactly as it should be for angles on a straight line. Then, using Week 14's skill, she added up the triangle's three interior angles: 50° + 50° + x° = 180°, giving x = 80° for the angle at the very top of the gable. Daw Aye Aye confirmed the blueprint's measurements matched Su Su's calculation exactly.\n\nDaw Aye Aye explained that every wall in the library had to be built perpendicular to the floor, checked with the same compass-and-set-square methods Su Su had used for the awning post in Week 15, so nothing would lean or wobble over time. She also pointed to the library's round window, framed by a square panel with a vertical line of symmetry running straight down its middle and a horizontal line of symmetry running straight across, for four lines of symmetry in total — Week 16's new idea. 'Buildings that use angles, triangles, quadrilaterals, accurate construction, and symmetry together don't just look pleasing,' Daw Aye Aye told Su Su, 'they also stand strong for a very long time.' Su Su left proud, realising that everything she had learned this term — from a protractor at a mohinga stall to a blueprint for a library — was really just one connected set of ideas.",
+        passageMy:
+            "အမိုး၊ အထောက်ဘောင်နှင့် စားပွဲ ပြီးစီးချိန်တွင် စုစု၏ သေချာစွာ ထောင့်စစ်ဆေးခဲ့မှုသတင်းသည် အလုပ်သွားရာလမ်းတွင် တစ်ခါတစ်ရံ မုန့်ဟင်းခါးဆိုင်တွင် စားသုံးလေ့ရှိသော ဗိသုကာပညာရှင် ဒေါ်အေးအေးထံ ရောက်ရှိသွားခဲ့သည်။ အထင်ကြီးသွားသော ဒေါ်အေးအေးသည် အနီးအနားရှိ လူထုစာကြည့်တိုက်ငယ်တစ်ခု ဒီဇိုင်းအတွက် ရေးဆွဲထားသော ပုံစံကြမ်း (blueprint) ကို ကြည့်ရှုစေရန်နှင့် အမှန်တကယ်ဗိသုကာပညာရှင်တစ်ဦးလုပ်သကဲ့သို့ ၎င်း၏ ထောင့်အနည်းငယ်ကို လေ့ကျင့်ရန် စစ်ဆေးစေရန် စုစုအား ဖိတ်ခေါ်ခဲ့သည်။\n\nစာကြည့်တိုက်၏ ရှေ့ဘက် အမိုးထိပ် (gable) — အမိုးထိပ်အောက်ရှိ တြိဂံပုံသဏ္ဍာန်အပိုင်း — သည် အောက်ခြေထောင့် 50° စီရှိပြီး၊ ဘက်နှစ်ဘက်ရှိ 130° ထောင့်များနှင့် ဖြောင့်မျဉ်းအမိုးအနားမျဉ်း (eave line) ပေါ်တွင် ယှဉ်တွဲရှိနေသည်။ စုစုသည် Week 13 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး ဖြောင့်မျဉ်းအချက်ကို ဦးစွာစစ်ဆေးခဲ့သည် - 50° + 130° = 180°၊ ဖြောင့်မျဉ်းပေါ်ရှိ ထောင့်များအတွက် မှန်ကန်စွာ ဖြစ်နေသည်။ ထို့နောက် Week 14 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး တြိဂံ၏ အတွင်းထောင့်သုံးခုကို ပေါင်းလိုက်သည် - 50° + 50° + x° = 180°၊ ရလဒ်အနေဖြင့် အမိုးထိပ်၏ အထွတ်အထိပ်ရှိထောင့် x = 80° ဖြစ်ခဲ့သည်။ ဒေါ်အေးအေးက ပုံစံကြမ်း၏ တိုင်းတာချက်များသည် စုစု၏ တွက်ချက်မှုနှင့် အတိအကျ ကိုက်ညီကြောင်း အတည်ပြုပေးခဲ့သည်။\n\nဒေါ်အေးအေးသည် စာကြည့်တိုက်ရှိ နံရံတိုင်းသည် ကြမ်းနှင့် ထောင့်မှန်ဖြတ် ဖြစ်ရမည်ဖြစ်ပြီး၊ Week 15 တွင် စုစု အမိုးတိုင်အတွက် သုံးခဲ့သော ကွန်ပါနှင့် ထောင့်မှန်ပေတံ (set square) နည်းလမ်းအတိုင်း စစ်ဆေးမှသာ အချိန်ကြာလာသည်နှင့်အမျှ မလှည့်ဘဲ မလှုပ်ဘဲ ခိုင်ခံ့နေမည်ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။ သူသည် စာကြည့်တိုက်၏ စက်ဝိုင်းပြတင်းပေါက်ကိုလည်း ညွှန်ပြခဲ့သည် — စတုရန်းဘောင်ဖြင့် ခြုံထားပြီး အလယ်ဗဟိုမှတည့်မတ်စွာ ဒေါင်လိုက်ဆင်းသွားသော အလားတူထပ်မျဉ်းတစ်ကြောင်းနှင့် အလျားလိုက် ဖြတ်သန်းသွားသော အလားတူထပ်မျဉ်းတစ်ကြောင်းတို့ဖြင့် စုစုပေါင်း အလားတူထပ်မျဉ်း လေးကြောင်းရှိသည် — Week 16 ၏ အယူအဆအသစ်ဖြစ်သည်။ 'ထောင့်များ၊ တြိဂံများ၊ စတုဂံများ၊ တိကျသောတည်ဆောက်မှုနှင့် အလားတူမှုတို့ကို အတူတကွသုံးထားသော အဆောက်အအုံများသည် ကြည့်ကောင်းရုံသာမက၊' ဒေါ်အေးအေးက စုစုအား ပြောပြခဲ့သည်၊ 'အချိန်ကြာရှည်စွာလည်း ခိုင်ခံ့စွာ တည်ရှိနေကြပါသည်။' စုစုသည် ဤ Term တွင် သင်ယူခဲ့သမျှသည် — မုန့်ဟင်းခါးဆိုင်ရှိ ထောင့်တိုင်းကိရိယာမှသည် စာကြည့်တိုက်၏ ပုံစံကြမ်းအထိ — တကယ်တော့ အချင်းချင်း ဆက်စပ်နေသော အယူအဆတစ်ခုတည်းသာ ဖြစ်ကြောင်း သဘောပေါက်ကာ ဂုဏ်ယူစွာ ပြန်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Using Week 13's skill, what do the library gable's 50° and 130° angles on the straight eave line add up to?",
+            questionMy:
+                "Week 13 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး၊ စာကြည့်တိုက်အမိုးထိပ်၏ ဖြောင့်မျဉ်းအမိုးအနားမျဉ်းပေါ်ရှိ 50° နှင့် 130° ထောင့်များ၏ ပေါင်းလဒ်မှာ အဘယ်မျှနည်း။",
+            optionsEn: ["180°", "150°", "200°", "80°"],
+            optionsMy: ["180°", "150°", "200°", "80°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 14's skill, if the gable triangle has two 50° angles, what is the angle at the top of the gable?",
+            questionMy:
+                "Week 14 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး အမိုးထိပ်တြိဂံတွင် 50° ထောင့်နှစ်ခုရှိပါက အမိုးထိပ်ထောင့်၏ အရွယ်အစားမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["80°", "50°", "100°", "130°"],
+            optionsMy: ["80°", "50°", "100°", "130°"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which Week 15 tools did the architect use to make sure every wall stood perpendicular to the floor?",
+            questionMy:
+                "ဇာတ်လမ်းအရ နံရံတိုင်းသည် ကြမ်းနှင့် ထောင့်မှန်ဖြတ် ရပ်တည်ကြောင်း သေချာစေရန် ဗိသုကာပညာရှင် Week 15 ၏ မည်သည့်ကိရိယာများကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Compass and set square",
+              "Only a calculator",
+              "Only their eyes",
+              "A protractor set to 45° only",
+            ],
+            optionsMy: [
+              "ကွန်ပါနှင့် ထောင့်မှန်ပေတံ",
+              "ဂဏန်းတွက်စက်သာ",
+              "မျက်စိသာ",
+              "45° ချိန်ညှိထားသော ထောင့်တိုင်းကိရိယာသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 16's new idea, how many lines of symmetry does the library's square-framed round window have in total?",
+            questionMy:
+                "Week 16 ၏ အယူအဆအသစ်ကိုသုံးပြီး၊ စာကြည့်တိုက်၏ စတုရန်းဘောင်ခြုံထားသော စက်ဝိုင်းပြတင်းပေါက်တွင် စုစုပေါင်း အလားတူထပ်မျဉ်း ဘယ်နှစ်ကြောင်း ရှိသနည်း။",
+            optionsEn: ["4", "2", "1", "0"],
+            optionsMy: ["4", "2", "1", "0"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Daw Aye Aye, why do buildings that combine angles, shapes, accurate construction, and symmetry stand strong for a long time?",
+            questionMy:
+                "ဒေါ်အေးအေး၏ ဆိုသည့်အတိုင်း ထောင့်များ၊ ပုံသဏ္ဍာန်များ၊ တိကျသောတည်ဆောက်မှုနှင့် အလားတူမှုတို့ကို ပေါင်းစပ်အသုံးပြုသော အဆောက်အအုံများသည် အဘယ့်ကြောင့် ကြာရှည်ခိုင်ခံ့ကြသနည်း။",
+            optionsEn: [
+              "Because combining all of these mathematical ideas correctly makes a building both accurate and stable",
+              "Because they use only expensive materials",
+              "Because they are always painted bright colours",
+              "Because they are built quickly without checking",
+            ],
+            optionsMy: [
+              "ဤသင်္ချာအယူအဆများကို မှန်ကန်စွာ ပေါင်းစပ်အသုံးပြုခြင်းက အဆောက်အအုံကို တိကျပြီး ခိုင်ခံ့စေသောကြောင့်",
+              "ဈေးကြီးသောပစ္စည်းများသာ အသုံးပြုသောကြောင့်",
+              "အမြဲတမ်း တောက်ပသောအရောင်များ ပန်းထားသောကြောင့်",
+              "စစ်ဆေးခြင်းမပြုဘဲ လျင်မြန်စွာ တည်ဆောက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Grand Recap: Geometry in Architecture",
+      titleMy:
+          "Term 4 နိဂုံးချုပ် ပြန်လည်သုံးသပ်ခြင်း - ဗိသုကာပညာရှိ ဂျီဩမေတြီ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Week 13's skill (angles on a straight line) and Week 7's skill (solving equations), find x: 4x° and 20° lie on a straight line.",
+          questionMy:
+              "Week 13 ၏ ကျွမ်းကျင်မှု (ဖြောင့်မျဉ်းပေါ်ရှိ ထောင့်များ) နှင့် Week 7 ၏ ကျွမ်းကျင်မှု (ညီမျှခြင်း ဖြေရှင်းခြင်း) ကိုသုံးပြီး x ကိုရှာပါ - 4x° နှင့် 20° သည် ဖြောင့်မျဉ်းတစ်ကြောင်းပေါ်တွင် ရှိသည်။",
+          optionsEn: ["x = 40", "x = 45", "x = 50", "x = 160"],
+          optionsMy: ["x = 40", "x = 45", "x = 50", "x = 160"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 14's skill, a triangle has angles 55°, 55°, and x°. Find x and name the triangle type.",
+          questionMy:
+              "Week 14 ၏ ကျွမ်းကျင်မှုကို သုံးပြီး၊ တြိဂံတစ်ခု၏ ထောင့်များမှာ 55°၊ 55° နှင့် x° ဖြစ်သည်။ x ကိုရှာပြီး တြိဂံအမျိုးအစားကို အမည်ပေးပါ။",
+          optionsEn: [
+            "x = 70° (isosceles triangle)",
+            "x = 70° (equilateral triangle)",
+            "x = 125° (scalene triangle)",
+            "x = 70° (right-angled triangle)",
+          ],
+          optionsMy: [
+            "x = 70° (ဘက်နှစ်ဘက်ညီတြိဂံ)",
+            "x = 70° (ဘက်သုံးဘက်ညီတြိဂံ)",
+            "x = 125° (ဘက်မညီတြိဂံ)",
+            "x = 70° (ထောင့်မှန်တြိဂံ)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 15's skill, which construction method guarantees an accurate equilateral triangle with 6 cm sides?",
+          questionMy:
+              "Week 15 ၏ ကျွမ်းကျင်မှုကို သုံးပြီး 6 cm ဘက်များပါသော ဘက်သုံးဘက်ညီတြိဂံကို တိကျစွာ အာမခံရန် မည်သည့်တည်ဆောက်နည်းကို သုံးရမည်နည်း။",
+          optionsEn: [
+            "Set the compass to 6 cm and draw arcs from both ends of a 6 cm base line",
+            "Estimate three lines of about the same length by eye",
+            "Use only a ruler with no compass",
+            "Use a protractor set to 90° only",
+          ],
+          optionsMy: [
+            "ကွန်ပါကို 6 cm ချိန်ညှိပြီး 6 cm အခြေခံလိုင်း၏ စွန်းနှစ်ဖက်စလုံးမှ ခွေးမျဉ်းများ ဆွဲခြင်း",
+            "မျက်စိအဆင်ဖြင့် အလားတူအရှည်ရှိသော မျဉ်းသုံးကြောင်းကို ခန့်မှန်းခြင်း",
+            "ကွန်ပါမပါဘဲ ပေတံသာ အသုံးပြုခြင်း",
+            "90° ချိန်ညှိထားသော ထောင့်တိုင်းကိရိယာသာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 16's skill, how many lines of symmetry does a rectangle (non-square) have?",
+          questionMy:
+              "Week 16 ၏ ကျွမ်းကျင်မှုကို သုံးပြီး၊ စတုရန်းမဟုတ်သော ထောင့်မှန်စတုဂံတစ်ခုတွင် အလားတူထပ်မျဉ်း ဘယ်နှစ်ကြောင်း ရှိသနည်း။",
+          optionsEn: ["2", "1", "4", "0"],
+          optionsMy: ["2", "1", "4", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An architect designs a triangular roof gable with base angles of 50° each, sitting on a straight eave line next to a 130° angle, built accurately with a compass-and-ruler construction (Week 15) and finished with a vertical line of symmetry (Week 16). Using Week 13's and Week 14's skills together, find the angle at the top of the gable.",
+          questionMy:
+              "ဗိသုကာပညာရှင်တစ်ဦးသည် အောက်ခြေထောင့် 50° စီရှိသော တြိဂံပုံသဏ္ဍာန် အမိုးထိပ် (gable) ကို ဒီဇိုင်းရေးဆွဲသည်၊ ၎င်းသည် 130° ထောင့်နှင့် ယှဉ်တွဲလျက် ဖြောင့်မျဉ်းအမိုးအနားမျဉ်းပေါ်တွင် ရှိပြီး၊ ကွန်ပါနှင့်ပေတံ တည်ဆောက်နည်း (Week 15) ဖြင့် တိကျစွာ တည်ဆောက်ကာ ဒေါင်လိုက်အလားတူထပ်မျဉ်း (Week 16) ဖြင့် ပြီးဆုံးအောင်ပြုလုပ်ထားသည်။ Week 13 နှင့် Week 14 ၏ ကျွမ်းကျင်မှုများကို အတူတကွသုံးပြီး အမိုးထိပ်၏ အထွတ်အထိပ်ထောင့်ကို ရှာပါ။",
+          optionsEn: ["80°", "100°", "130°", "50°"],
+          optionsMy: ["80°", "100°", "130°", "50°"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 4: "Geometry and Measure" -- the fourth
+/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// this pathway's first dedicated geometry strand after three terms of
+/// number, algebra, and fraction/decimal/percentage work. Week 13
+/// introduces angles from scratch (measuring with a protractor,
+/// classifying acute/right/obtuse/straight/reflex, and the
+/// angles-on-a-straight-line-sum-to-180° fact), explicitly folding Term
+/// 2 Week 7's equation-solving skill into finding an unknown angle
+/// written algebraically; Week 14 extends that into triangles and
+/// quadrilaterals (interior angle sums of 180°/360°, and triangle/
+/// quadrilateral types), again calling back Week 7's equation-solving
+/// for missing angles; Week 15 shifts from measuring existing angles to
+/// constructing new shapes accurately with a compass, ruler, and set
+/// square (SSS triangle construction, perpendicular lines), explicitly
+/// distinguishing protractor-measuring (Week 13) from
+/// compass-constructing; Week 16 is the term's capstone, introducing
+/// line and rotational symmetry for the first time and combining it
+/// with every other week's skill -- straight-line angles (Week 13) and
+/// algebra (Term 2 Week 7), triangle/quadrilateral angle sums (Week
+/// 14), and accurate compass-and-set-square construction (Week 15) --
+/// inside one architecture-themed reading passage and quiz set.
+const CourseTermDef _secondary1MathematicsTerm4 = CourseTermDef(
+  id: "course-secondary1-mathematics-t4",
+  termNumber: 4,
+  titleEn: "Geometry and Measure",
+  titleMy: "ဂျီဩမေတြီနှင့် တိုင်းတာမှု",
+  certificateTitleEn: "Geometry and Measure",
+  certificateTitleMy: "ဂျီဩမေတြီနှင့် တိုင်းတာမှု",
+  weeks: [
+    _secondary1MathematicsWeek13,
+    _secondary1MathematicsWeek14,
+    _secondary1MathematicsWeek15,
+    _secondary1MathematicsWeek16,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 5, Week 17: "Solving Simple Equations"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek17 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w17",
+  weekNumber: 17,
+  titleEn: "Solving Simple Equations",
+  titleMy: "ရိုးရှင်းသောညီမျှခြင်းများ ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w17-d1",
+      dayNumber: 1,
+      titleEn: "Solving One-Step and Two-Step Equations",
+      titleMy: "တစ်ဆင့်နှင့် နှစ်ဆင့် ညီမျှခြင်းများ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve for x: x + 7 = 15",
+          questionMy: "x ကိုရှာပါ - x + 7 = 15",
+          optionsEn: ["x = 22", "x = 8", "x = -8", "x = 7"],
+          optionsMy: ["x = 22", "x = 8", "x = -8", "x = 7"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 3x = 21",
+          questionMy: "x ကိုရှာပါ - 3x = 21",
+          optionsEn: ["x = 18", "x = 3", "x = 7", "x = 63"],
+          optionsMy: ["x = 18", "x = 3", "x = 7", "x = 63"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 2x + 5 = 17",
+          questionMy: "x ကိုရှာပါ - 2x + 5 = 17",
+          optionsEn: ["x = 11", "x = 6", "x = 8.5", "x = 22"],
+          optionsMy: ["x = 11", "x = 6", "x = 8.5", "x = 22"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which operation is the inverse of addition?",
+          questionMy:
+              "အပေါင်း၏ ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် (inverse operation) မှာ အဘယ်နည်း။",
+          optionsEn: ["Multiplication", "Division", "Subtraction", "Addition"],
+          optionsMy: [
+            "အမြှောက် (Multiplication)",
+            "အစား (Division)",
+            "အနုတ် (Subtraction)",
+            "အပေါင်း (Addition)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To keep an equation balanced, whatever you do to one side you must also do to the other side. Solve: x - 4 = 9",
+          questionMy:
+              "ညီမျှခြင်းကို ဆက်လက်ညီစေရန် တစ်ဖက်တွင်ပြုလုပ်သမျှကို အခြားတစ်ဖက်တွင်လည်း ပြုလုပ်ရမည်။ ဖြေရှင်းပါ - x - 4 = 9",
+          optionsEn: ["x = 5", "x = -13", "x = 36", "x = 13"],
+          optionsMy: ["x = 5", "x = -13", "x = 36", "x = 13"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match the Equation Vocabulary",
+      titleMy: "ညီမျှခြင်းဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w17-dm-1",
+          termEn: "Equation",
+          termMy: "ညီမျှခြင်း (Equation)",
+          matchEn:
+              "A mathematical statement with an equals sign showing two expressions are equal, e.g. x + 7 = 15",
+          matchMy:
+              "ညီမျှခြင်းလက္ခဏာပါသော သင်္ချာဖော်ပြချက်၊ အသုံးအနှုန်းနှစ်ခု ညီမျှကြောင်းပြသသည်၊ ဥပမာ - x + 7 = 15",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w17-dm-2",
+          termEn: "Unknown / Variable",
+          termMy: "အမည်မသိ / ကိန်းရှင် (Unknown / Variable)",
+          matchEn:
+              "A letter, usually x, that stands for a missing number in an equation",
+          matchMy:
+              "ညီမျှခြင်းတစ်ခုအတွင်း ပျောက်နေသောကိန်းဂဏန်းကို ကိုယ်စားပြုသော အက္ခရာ၊ များသောအားဖြင့် x",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w17-dm-3",
+          termEn: "Inverse Operation",
+          termMy: "ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် (Inverse Operation)",
+          matchEn:
+              "The opposite operation that undoes another, e.g. subtraction undoes addition",
+          matchMy:
+              "အခြားလုပ်ဆောင်ချက်တစ်ခုကို ပြန်ပြင်ပေးသော ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက်၊ ဥပမာ - အနုတ်သည် အပေါင်းကို ပြန်ပြင်ပေးသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w17-dm-4",
+          termEn: "Balancing",
+          termMy: "ချိန်ခွင်ညီအောင်ထားခြင်း (Balancing)",
+          matchEn:
+              "Doing the same operation to both sides of an equation to keep it true",
+          matchMy:
+              "ညီမျှခြင်းကို မှန်ကန်နေစေရန် ဘက်နှစ်ဖက်စလုံးတွင် လုပ်ဆောင်ချက်တူညီစွာ ပြုလုပ်ခြင်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w17-dm-5",
+          termEn: "Solution",
+          termMy: "အဖြေ (Solution)",
+          matchEn:
+              "The value of the unknown that makes an equation true, e.g. x = 8 for x + 7 = 15",
+          matchMy:
+              "ညီမျှခြင်းတစ်ခုကို မှန်ကန်စေသော အမည်မသိ၏တန်ဖိုး၊ ဥပမာ - x + 7 = 15 အတွက် x = 8",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w17-dm-6",
+          termEn: "Two-step Equation",
+          termMy: "နှစ်ဆင့်ညီမျှခြင်း (Two-step Equation)",
+          matchEn:
+              "An equation that needs two inverse operations to solve, e.g. 2x + 5 = 17",
+          matchMy:
+              "ဖြေရှင်းရန် ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် နှစ်ခုလိုအပ်သော ညီမျှခြင်း၊ ဥပမာ - 2x + 5 = 17",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: One-step or Two-step Equation?",
+      titleMy: "စီစစ်ကြမည် - တစ်ဆင့်လား နှစ်ဆင့်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "One-step Equation (needs 1 inverse operation)",
+          "Two-step Equation (needs 2 inverse operations)",
+        ],
+        bucketsMy: [
+          "တစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၁ခု လိုအပ်)",
+          "နှစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၂ခု လိုအပ်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w17-sort-1",
+            labelEn: "x + 9 = 20",
+            labelMy: "x + 9 = 20",
+            correctBucketEn: "One-step Equation (needs 1 inverse operation)",
+            correctBucketMy:
+                "တစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၁ခု လိုအပ်)",
+          ),
+          SortingItem(
+            id: "s1math-w17-sort-2",
+            labelEn: "3x + 4 = 19",
+            labelMy: "3x + 4 = 19",
+            correctBucketEn: "Two-step Equation (needs 2 inverse operations)",
+            correctBucketMy:
+                "နှစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၂ခု လိုအပ်)",
+          ),
+          SortingItem(
+            id: "s1math-w17-sort-3",
+            labelEn: "x - 5 = 12",
+            labelMy: "x - 5 = 12",
+            correctBucketEn: "One-step Equation (needs 1 inverse operation)",
+            correctBucketMy:
+                "တစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၁ခု လိုအပ်)",
+          ),
+          SortingItem(
+            id: "s1math-w17-sort-4",
+            labelEn: "5x - 2 = 18",
+            labelMy: "5x - 2 = 18",
+            correctBucketEn: "Two-step Equation (needs 2 inverse operations)",
+            correctBucketMy:
+                "နှစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၂ခု လိုအပ်)",
+          ),
+          SortingItem(
+            id: "s1math-w17-sort-5",
+            labelEn: "4x = 32",
+            labelMy: "4x = 32",
+            correctBucketEn: "One-step Equation (needs 1 inverse operation)",
+            correctBucketMy:
+                "တစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၁ခု လိုအပ်)",
+          ),
+          SortingItem(
+            id: "s1math-w17-sort-6",
+            labelEn: "2x + 7 = 21",
+            labelMy: "2x + 7 = 21",
+            correctBucketEn: "Two-step Equation (needs 2 inverse operations)",
+            correctBucketMy:
+                "နှစ်ဆင့်ညီမျှခြင်း (ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ၂ခု လိုအပ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Balances the Scales",
+      titleMy: "စာဖတ်ခြင်း - စုစု ချိန်ခွင်ညီအောင် ချိန်ညှိခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Balances the Scales",
+        titleMy: "စုစု ချိန်ခွင်ညီအောင် ချိန်ညှိခြင်း",
+        passageEn:
+            "Su Su's family mohinga stall in Mandalay received a bulk delivery of dried rice-noodle packets one morning, packed into sealed boxes and counted with an old two-pan balance scale that the delivery uncle always brought along. Su Su watched as he placed a sealed box on one side and a small stack of counting weights on the other, only satisfied once both sides hung level. 'An equation is just like this scale,' her mother explained. 'Whatever is on the left side must always weigh the same as whatever is on the right side, or it isn't balanced -- and it isn't true.'\n\nThe delivery uncle's paperwork said that one sealed box of noodle packets, plus 7 loose spare packets he had added on top, should balance a counting weight marked 15. Su Su wrote this as an equation, letting x stand for the unknown number of packets inside the sealed box: x + 7 = 15. To keep the scale -- and the equation -- balanced, she subtracted 7 from both sides, just as if she were lifting 7 spare packets off both pans at once: x = 15 - 7, so x = 8. Sure enough, when the uncle finally opened the box to double-check, it held exactly 8 packets.\n\nNext, her mother asked Su Su to check the cost of the delivery. Three identical boxes of quail eggs cost 21 (thousand kyats) altogether, so Su Su wrote 3x = 21 and divided both sides by 3 to find one box cost x = 7 (thousand kyats). Then came a trickier bill: two identical bottles of fish sauce plus a fixed 5 (thousand kyat) delivery fee came to 17 (thousand kyats) in total. Su Su set up 2x + 5 = 17, used inverse operations in the correct order -- subtracting 5 from both sides first to get 2x = 12, then dividing both sides by 2 -- and found that one bottle of fish sauce cost x = 6 (thousand kyats). 'Whether it's a balance scale or a line of algebra,' Su Su told her mother proudly, 'keeping both sides equal is the secret to finding the missing number every time.'",
+        passageMy:
+            "မန္တလေးမြို့ရှိ စုစု၏မိသားစု မုန့်ဟင်းခါးဆိုင်သို့ တစ်နေ့မနက်တွင် ခြောက်သွေ့သောအကြာဇံထုပ်များကို ပိတ်ထားသောသေတ္တာများဖြင့် အထုပ်ကြီးတစ်ခု ပို့ဆောင်လာခဲ့သည်၊ ပို့ဆောင်လာသည့်ဦးလေးသည် အမြဲယူဆောင်လာလေ့ရှိသော ရှေးဟောင်းချိန်ခွင် (two-pan balance scale) ဖြင့် အရေအတွက်ကို စစ်ဆေးခဲ့သည်။ သူသည် ပိတ်ထားသောသေတ္တာတစ်လုံးကို တစ်ဖက်တွင်တင်ပြီး၊ တွက်ချက်ရန် အလေးများငယ်တစ်စုကို အခြားတစ်ဖက်တွင်တင်ကာ ဘက်နှစ်ဖက်စလုံး တန်းညီစွာ ချိန်မှသာ ကျေနပ်ခဲ့သည်ကို စုစု ကြည့်နေမိသည်။ 'ညီမျှခြင်း (equation) ဆိုတာ ဒီချိန်ခွင်နဲ့ အတူတူပဲ' ဟု သူမ၏အမေက ရှင်းပြသည်။ 'ဘယ်ဘက်ရှိအရာဟာ ညာဘက်ရှိအရာနဲ့ အလေးချိန်အမြဲတူရမယ်၊ မဟုတ်ရင် ချိန်ခွင်ညီမှာမဟုတ်သလို -- မမှန်ကန်တော့ဘူး'။\n\nပို့ဆောင်လာသည့်ဦးလေး၏ စာရွက်စာတမ်းအရ ပိတ်ထားသောအကြာဇံသေတ္တာတစ်လုံးနှင့် အပေါ်တွင် ထပ်ထည့်ထားသော အပိုအကြာဇံထုပ်ငယ် 7ထုပ်ကို ပေါင်းလိုက်ပါက 15 ဟုအမှတ်အသားပြုထားသော တွက်ချက်ရန်အလေးနှင့် ညီမျှရမည်ဖြစ်သည်။ စုစုသည် သေတ္တာအတွင်းရှိ အကြာဇံထုပ်အရေအတွက် အမည်မသိကို x ဟုသတ်မှတ်ကာ ဤညီမျှခြင်းကို ရေးချခဲ့သည် - x + 7 = 15။ ချိန်ခွင် -- နှင့် ညီမျှခြင်း -- ကို ဆက်လက်ညီစေရန် သူမသည် ဘက်နှစ်ဖက်စလုံးမှ 7 ကို နုတ်ခဲ့သည်၊ ဒင်္ဂါးချိန်ခွင်ပန်းကန်နှစ်ခုစလုံးမှ အပိုအကြာဇံထုပ် 7ထုပ်ကို တစ်ပြိုင်နက် ချထားသကဲ့သို့ပင် - x = 15 - 7၊ ထို့ကြောင့် x = 8 ဖြစ်သည်။ ဦးလေးက နောက်ဆုံးတွင် သေတ္တာကိုဖွင့်၍ ပြန်စစ်ကြည့်သောအခါ အတိအကျ 8ထုပ် ပါဝင်နေသည်ကို တွေ့ခဲ့ရသည်။\n\nထို့နောက် သူမ၏အမေက ပို့ဆောင်မှု၏ ကုန်ကျစရိတ်ကို စစ်ဆေးပေးရန် စုစုအား တောင်းဆိုခဲ့သည်။ တစ်မျိုးတည်းသော ဂုံးဥသေတ္တာ 3လုံးသည် စုစုပေါင်း 21 (ထောင်ကျပ်) ကျသင့်သည်ဖြစ်၍ စုစုသည် 3x = 21 ဟု ရေးချကာ ဘက်နှစ်ဖက်စလုံးကို 3 ဖြင့်စားလိုက်ရာ သေတ္တာတစ်လုံးလျှင် x = 7 (ထောင်ကျပ်) ကျသင့်ကြောင်း ရရှိခဲ့သည်။ ထို့နောက် ပိုမိုခက်ခဲသော ငွေတောင်းခံလွှာတစ်ခုလာသည် - တစ်မျိုးတည်းသော ငံပြာရည်ပုလင်း 2ပုလင်းနှင့် သတ်မှတ်ထားသော ပို့ဆောင်ခ 5 (ထောင်ကျပ်) ပေါင်းလိုက်ပါက စုစုပေါင်း 17 (ထောင်ကျပ်) ဖြစ်သည်။ စုစုသည် 2x + 5 = 17 ဟု ရေးချကာ ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက်များကို မှန်ကန်သောအစီအစဉ်ဖြင့် သုံးခဲ့သည် -- ဦးစွာ ဘက်နှစ်ဖက်စလုံးမှ 5 ကို နုတ်ပြီး 2x = 12 ရရှိကာ၊ ထို့နောက် ဘက်နှစ်ဖက်စလုံးကို 2 ဖြင့်စားလိုက်ရာ -- ငံပြာရည်ပုလင်းတစ်ပုလင်းလျှင် x = 6 (ထောင်ကျပ်) ကျသင့်ကြောင်း ရရှိခဲ့သည်။ 'ချိန်ခွင်ဖြစ်ဖြစ်၊ အက္ခရာသင်္ချာစာကြောင်းတစ်ကြောင်းဖြစ်ဖြစ်' ဟု စုစုက သူမ၏အမေကို ဂုဏ်ယူစွာ ပြောပြခဲ့သည်၊ 'ဘက်နှစ်ဖက်ကို ညီအောင်ထားခြင်းဟာ ပျောက်နေသောကိန်းဂဏန်းကို အမြဲတွေ့ရှိစေတဲ့ လျှို့ဝှက်ချက်ပဲ'။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What did the delivery uncle use to check the noodle packet count?",
+            questionMy:
+                "ပို့ဆောင်လာသည့်ဦးလေးသည် အကြာဇံထုပ်အရေအတွက် စစ်ဆေးရန် မည်သည့်ကိရိယာကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A two-pan balance scale",
+              "A calculator",
+              "A ruler",
+              "A protractor",
+            ],
+            optionsMy: [
+              "ချိန်ခွင် (Two-pan balance scale)",
+              "ဂဏန်းတွက်စက်",
+              "ပေတံ",
+              "ထောင့်တိုင်းကိရိယာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "In the equation x + 7 = 15, what does x represent?",
+            questionMy:
+                "ညီမျှခြင်း x + 7 = 15 တွင် x သည် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+            optionsEn: [
+              "The number of packets in the sealed box",
+              "The number of boxes delivered",
+              "The delivery uncle's age",
+              "The price of the noodles",
+            ],
+            optionsMy: [
+              "ပိတ်ထားသောသေတ္တာအတွင်းရှိ ထုပ်အရေအတွက်",
+              "ပို့ဆောင်လာသော သေတ္တာအရေအတွက်",
+              "ပို့ဆောင်ဦးလေး၏ အသက်",
+              "အကြာဇံ၏ စျေးနှုန်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the value of x in x + 7 = 15, as found by Su Su?",
+            questionMy:
+                "x + 7 = 15 တွင် စုစုရှာတွေ့သော x ၏ တန်ဖိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["x = 22", "x = 8", "x = 7", "x = 15"],
+            optionsMy: ["x = 22", "x = 8", "x = 7", "x = 15"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the cost of one box of quail eggs, from 3x = 21?",
+            questionMy:
+                "3x = 21 မှ ဂုံးဥသေတ္တာတစ်လုံး၏ ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+            optionsEn: [
+              "21 (thousand kyats)",
+              "7 (thousand kyats)",
+              "3 (thousand kyats)",
+              "14 (thousand kyats)",
+            ],
+            optionsMy: [
+              "21 (ထောင်ကျပ်)",
+              "7 (ထောင်ကျပ်)",
+              "3 (ထောင်ကျပ်)",
+              "14 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the cost of one bottle of fish sauce, from 2x + 5 = 17?",
+            questionMy:
+                "2x + 5 = 17 မှ ငံပြာရည်ပုလင်းတစ်ပုလင်း၏ ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+            optionsEn: [
+              "12 (thousand kyats)",
+              "17 (thousand kyats)",
+              "6 (thousand kyats)",
+              "5 (thousand kyats)",
+            ],
+            optionsMy: [
+              "12 (ထောင်ကျပ်)",
+              "17 (ထောင်ကျပ်)",
+              "6 (ထောင်ကျပ်)",
+              "5 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 2,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Solving Simple Equations",
+      titleMy:
+          "အပတ်စဉ် ၁၇ ပြန်လည်သုံးသပ်ခြင်း - ရိုးရှင်းသောညီမျှခြင်းများ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve for x: x + 10 = 18",
+          questionMy: "x ကိုရှာပါ - x + 10 = 18",
+          optionsEn: ["x = 28", "x = 8", "x = -8", "x = 18"],
+          optionsMy: ["x = 28", "x = 8", "x = -8", "x = 18"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 4x = 28",
+          questionMy: "x ကိုရှာပါ - 4x = 28",
+          optionsEn: ["x = 7", "x = 24", "x = 32", "x = 4"],
+          optionsMy: ["x = 7", "x = 24", "x = 32", "x = 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 2x + 3 = 13",
+          questionMy: "x ကိုရှာပါ - 2x + 3 = 13",
+          optionsEn: ["x = 8", "x = 5", "x = 10", "x = 6.5"],
+          optionsMy: ["x = 8", "x = 5", "x = 10", "x = 6.5"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "What is the inverse operation of multiplication?",
+          questionMy: "အမြှောက်၏ ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: ["Addition", "Subtraction", "Division", "Multiplication"],
+          optionsMy: [
+            "အပေါင်း (Addition)",
+            "အနုတ် (Subtraction)",
+            "အစား (Division)",
+            "အမြှောက် (Multiplication)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: x - 6 = 11",
+          questionMy: "x ကိုရှာပါ - x - 6 = 11",
+          optionsEn: ["x = 5", "x = 17", "x = -17", "x = 66"],
+          optionsMy: ["x = 5", "x = 17", "x = -17", "x = 66"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 5, Week 18: "Equations with Brackets"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek18 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w18",
+  weekNumber: 18,
+  titleEn: "Equations with Brackets",
+  titleMy: "ကွင်းပါ ညီမျှခြင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w18-d1",
+      dayNumber: 1,
+      titleEn: "Expanding and Solving Bracket Equations",
+      titleMy: "ကွင်းများ ဖြန့်ချိခြင်းနှင့် ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Expand: 3(x + 4)",
+          questionMy: "ဖြန့်ချိပါ - 3(x + 4)",
+          optionsEn: ["3x + 4", "3x + 12", "x + 12", "3x + 7"],
+          optionsMy: ["3x + 4", "3x + 12", "x + 12", "3x + 7"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Expand: 2(x - 5)",
+          questionMy: "ဖြန့်ချိပါ - 2(x - 5)",
+          optionsEn: ["2x - 5", "2x + 10", "2x - 10", "x - 10"],
+          optionsMy: ["2x - 5", "2x + 10", "2x - 10", "x - 10"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 2(x + 3) = 16",
+          questionMy: "x ကိုရှာပါ - 2(x + 3) = 16",
+          optionsEn: ["x = 8", "x = 5", "x = 11", "x = 2"],
+          optionsMy: ["x = 8", "x = 5", "x = 11", "x = 2"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 4(x - 2) = 20",
+          questionMy: "x ကိုရှာပါ - 4(x - 2) = 20",
+          optionsEn: ["x = 5", "x = 12", "x = 7", "x = 3"],
+          optionsMy: ["x = 5", "x = 12", "x = 7", "x = 3"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 3(x + 4) = 27",
+          questionMy: "x ကိုရှာပါ - 3(x + 4) = 27",
+          optionsEn: ["x = 9", "x = 13", "x = 1", "x = 5"],
+          optionsMy: ["x = 9", "x = 13", "x = 1", "x = 5"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match the Bracket Vocabulary",
+      titleMy: "ကွင်းဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w18-dm-1",
+          termEn: "Bracket",
+          termMy: "ကွင်း (Bracket)",
+          matchEn:
+              "A pair of symbols ( ) used to group terms together, e.g. (x + 4)",
+          matchMy:
+              "အသုံးအနှုန်းများကို အုပ်စုဖွဲ့ရန်သုံးသော သင်္ကေတတွဲ ( )၊ ဥပမာ - (x + 4)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w18-dm-2",
+          termEn: "Expand",
+          termMy: "ဖြန့်ချိခြင်း (Expand)",
+          matchEn:
+              "To multiply out a bracket by distributing the outside term to every term inside",
+          matchMy:
+              "အပြင်ဘက်ရှိ အသုံးအနှုန်းကို ကွင်းအတွင်းရှိ အသုံးအနှုန်းတိုင်းသို့ ဖြန့်ချိပြီး မြှောက်ခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w18-dm-3",
+          termEn: "Distributive Law",
+          termMy: "ဖြန့်ချိသောစည်းမျဉ်း (Distributive Law)",
+          matchEn: "The rule a(b + c) = ab + ac used to expand a bracket",
+          matchMy: "ကွင်းကို ဖြန့်ချိရန်သုံးသော စည်းမျဉ်း a(b + c) = ab + ac",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w18-dm-4",
+          termEn: "Like Terms",
+          termMy: "တူညီအသုံးအနှုန်းများ (Like Terms)",
+          matchEn:
+              "Terms with the same variable and power that can be combined, e.g. 3x and 5x",
+          matchMy:
+              "ပေါင်းစည်းနိုင်သော ကိန်းရှင်နှင့် ထပ်ကိန်း တူညီသောအသုံးအနှုန်းများ၊ ဥပမာ - 3x နှင့် 5x",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w18-dm-5",
+          termEn: "Simplify",
+          termMy: "ရိုးရှင်းအောင်ပြုလုပ်ခြင်း (Simplify)",
+          matchEn:
+              "To write an expression in its shortest, clearest form after expanding or combining terms",
+          matchMy:
+              "ကွင်းဖြန့်ချိပြီး (သို့) အသုံးအနှုန်းများပေါင်းစည်းပြီးနောက် အတိုချုံးဆုံးပုံစံဖြင့် ရေးသားခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w18-dm-6",
+          termEn: "Forming an Equation",
+          termMy: "ညီမျှခြင်းတည်ဆောက်ခြင်း (Forming an Equation)",
+          matchEn:
+              "Writing a real situation as a mathematical equation using unknowns and, sometimes, brackets",
+          matchMy:
+              "လက်တွေ့အခြေအနေတစ်ခုကို အမည်မသိများနှင့် တစ်ခါတစ်ရံ ကွင်းများသုံးပြီး သင်္ချာညီမျှခြင်းအဖြစ် ရေးသားခြင်း",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correctly or Incorrectly Expanded?",
+      titleMy: "စီစစ်ကြမည် - မှန်ကန်စွာ ဖြန့်ချိထားလား မမှန်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correctly Expanded", "Incorrectly Expanded"],
+        bucketsMy: ["မှန်ကန်စွာ ဖြန့်ချိထားသည်", "မှားယွင်းစွာ ဖြန့်ချိထားသည်"],
+        items: [
+          SortingItem(
+            id: "s1math-w18-sort-1",
+            labelEn: "3(x + 4) = 3x + 12",
+            labelMy: "3(x + 4) = 3x + 12",
+            correctBucketEn: "Correctly Expanded",
+            correctBucketMy: "မှန်ကန်စွာ ဖြန့်ချိထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w18-sort-2",
+            labelEn: "2(x + 5) = 2x + 5",
+            labelMy: "2(x + 5) = 2x + 5",
+            correctBucketEn: "Incorrectly Expanded",
+            correctBucketMy: "မှားယွင်းစွာ ဖြန့်ချိထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w18-sort-3",
+            labelEn: "5(x - 2) = 5x - 10",
+            labelMy: "5(x - 2) = 5x - 10",
+            correctBucketEn: "Correctly Expanded",
+            correctBucketMy: "မှန်ကန်စွာ ဖြန့်ချိထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w18-sort-4",
+            labelEn: "4(x + 3) = 4x + 3",
+            labelMy: "4(x + 3) = 4x + 3",
+            correctBucketEn: "Incorrectly Expanded",
+            correctBucketMy: "မှားယွင်းစွာ ဖြန့်ချိထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w18-sort-5",
+            labelEn: "2(x - 6) = 2x - 12",
+            labelMy: "2(x - 6) = 2x - 12",
+            correctBucketEn: "Correctly Expanded",
+            correctBucketMy: "မှန်ကန်စွာ ဖြန့်ချိထားသည်",
+          ),
+          SortingItem(
+            id: "s1math-w18-sort-6",
+            labelEn: "3(x - 1) = 3x - 1",
+            labelMy: "3(x - 1) = 3x - 1",
+            correctBucketEn: "Incorrectly Expanded",
+            correctBucketMy: "မှားယွင်းစွာ ဖြန့်ချိထားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Prices the Party Order",
+      titleMy: "စာဖတ်ခြင်း - စုစု ပွဲစားအော်ဒါ ဈေးနှုန်းတွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Prices the Party Order",
+        titleMy: "စုစု ပွဲစားအော်ဒါ ဈေးနှုန်းတွက်ချက်ခြင်း",
+        passageEn:
+            "For a big birthday party order, Su Su's mother needed to work out the cost of mohinga per bowl before quoting a price to the customer. Every bowl needed a fixed extra 4 (hundred kyats) of garnish -- crispy chickpea fritters, coriander, and a squeeze of lime -- added on top of whatever the noodles themselves cost. If x stood for the cost of noodles in a single bowl (in hundreds of kyats), the total cost of one bowl was (x + 4). For a small tasting order of 3 bowls, the total bill came to 27 (hundred kyats), so Su Su wrote 3(x + 4) = 27.\n\nBefore solving, Su Su remembered this week's new skill: expanding the bracket first, using the distributive law, so that 3(x + 4) became 3x + 12. Her equation was now 3x + 12 = 27. From here, it was just like the balancing she had learned the week before -- she subtracted 12 from both sides to get 3x = 15, then divided both sides by 3 to find x = 5. So the noodles alone cost 5 (hundred kyats) per bowl, and the fixed garnish added another 4 (hundred kyats) -- a total of 9 (hundred kyats) per bowl, which matched perfectly with 27 divided by 3 bowls.\n\nLater that afternoon, a second customer asked about a soup dish that needed 2 identical portions plus a fixed 3 (hundred kyat) side of pickled vegetables, for a total of 16 (hundred kyats): 2(x + 3) = 16. This time, Su Su expanded first to get 2x + 6 = 16, subtracted 6 from both sides to get 2x = 10, and divided by 2 to find x = 5 again -- the same portion cost as before! 'Expanding the bracket first turns a tricky-looking equation into one I already know how to solve,' Su Su told her mother, proud that Week 17's balancing skill and this week's bracket-expanding skill worked perfectly together.",
+        passageMy:
+            "မွေးနေ့ပွဲကြီးတစ်ခုအတွက် အော်ဒါကြီးတစ်ခုအတွက် စုစု၏အမေသည် ဖောက်သည်ကို စျေးနှုန်းမပြောမီ တစ်ခွက်လျှင် မုန့်ဟင်းခါးဈေးနှုန်းကို တွက်ချက်ရန် လိုအပ်ခဲ့သည်။ ခွက်တိုင်းတွင် အသင့်ကြော်ထားသောကုလားပဲအိတ်လုံ (chickpea fritters)၊ နံနံပင်နှင့် သံပုရာသီးနယ်ချက် ပါဝင်သော ပုံသေအလှဆင်ကုန်ကျစရိတ် 4 (ရာကျပ်) ကို အကြာဇံကိုယ်တိုင်၏ ကုန်ကျစရိတ်နှင့် ပေါင်းထည့်ရပါသည်။ x ကို ခွက်တစ်ခွက်၏ အကြာဇံကုန်ကျစရိတ် (ရာကျပ်ဖြင့်) ဟု သတ်မှတ်ပါက ခွက်တစ်ခွက်၏ စုစုပေါင်းကုန်ကျစရိတ်မှာ (x + 4) ဖြစ်သည်။ ခွက် 3ခွက်ပါသော အနံ့အရသာစမ်းသပ်အော်ဒါငယ်တစ်ခုအတွက် စုစုပေါင်းငွေတောင်းခံမှုမှာ 27 (ရာကျပ်) ဖြစ်ခဲ့သဖြင့် စုစုသည် 3(x + 4) = 27 ဟု ရေးချခဲ့သည်။\n\nဖြေရှင်းခြင်းမပြုမီ စုစုသည် ဤအပတ်၏ ကျွမ်းကျင်မှုအသစ်ကို သတိရခဲ့သည် - ဖြန့်ချိသောစည်းမျဉ်း (distributive law) ကိုသုံးပြီး ကွင်းကို ဦးစွာဖြန့်ချိရမည်ဖြစ်၍ 3(x + 4) သည် 3x + 12 ဖြစ်သွားသည်။ သူမ၏ ညီမျှခြင်းသည် ယခု 3x + 12 = 27 ဖြစ်သွားသည်။ ယခုမှစတင်ပြီး ယခင်အပတ်က သင်ယူခဲ့သော ချိန်ခွင်ညီအောင်ထားခြင်းနှင့် အတူတူပင်ဖြစ်သည် -- ဘက်နှစ်ဖက်စလုံးမှ 12 ကို နုတ်ပြီး 3x = 15 ရရှိကာ၊ ထို့နောက် ဘက်နှစ်ဖက်စလုံးကို 3 ဖြင့်စားလိုက်ရာ x = 5 ရရှိခဲ့သည်။ ထို့ကြောင့် အကြာဇံသက်သက်သည် ခွက်တစ်ခွက်လျှင် 5 (ရာကျပ်) ကျသင့်ပြီး ပုံသေအလှဆင်ကုန်ကျစရိတ်က နောက်ထပ် 4 (ရာကျပ်) ပေါင်းထည့်ရာ -- ခွက်တစ်ခွက်လျှင် စုစုပေါင်း 9 (ရာကျပ်) ဖြစ်ကာ 27 ကို ခွက် 3ခွက်ဖြင့်စားလျှင်ရသောအဖြေနှင့် အတိအကျကိုက်ညီခဲ့သည်။\n\nထိုနေ့ညနေပိုင်းတွင် ဖောက်သည်ဒုတိယတစ်ဦးက တစ်မျိုးတည်းသော အစိတ် 2ခုနှင့် ပုံသေဈေးနှုန်း 3 (ရာကျပ်) ရှိသော နနွင်းစိမ်ဟင်းသီးဟင်းရွက်တစ်ခွက်ပါဝင်သော ဟင်းချိုတစ်မျိုးအကြောင်း စုံစမ်းခဲ့သည်၊ စုစုပေါင်း 16 (ရာကျပ်) ဖြစ်သည် - 2(x + 3) = 16။ ယခုတစ်ကြိမ်တွင် စုစုသည် ဦးစွာဖြန့်ချိကာ 2x + 6 = 16 ရရှိပြီး ဘက်နှစ်ဖက်စလုံးမှ 6 ကို နုတ်၍ 2x = 10 ရရှိကာ 2 ဖြင့်စားလိုက်ရာ x = 5 ကို ထပ်မံရရှိခဲ့သည် -- ယခင်ကအတိုင်း အစိတ်တစ်ခု၏ ကုန်ကျစရိတ်တူညီနေသည်။ 'ကွင်းကို ဦးစွာဖြန့်ချိလိုက်တာက ခက်ခဲပုံပေါက်နေတဲ့ ညီမျှခြင်းတစ်ခုကို ငါဖြေတတ်ပြီးသားပုံစံအဖြစ် ပြောင်းပေးတယ်' ဟု စုစုက သူမ၏အမေကို ပြောပြခဲ့သည်၊ Week 17 ၏ ချိန်ခွင်ညီအောင်ထားသော ကျွမ်းကျင်မှုနှင့် ဤအပတ်၏ ကွင်းဖြန့်ချိသောကျွမ်းကျင်မှုတို့ ပေါင်းစပ်ပြီး ပြီးပြည့်စုံစွာ အလုပ်လုပ်ကြောင်း ဂုဏ်ယူစွာ ခံစားရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What was the fixed garnish cost added to every bowl?",
+            questionMy:
+                "ခွက်တိုင်းတွင် ပေါင်းထည့်ရသော ပုံသေအလှဆင်ကုန်ကျစရိတ်မှာ အဘယ်မျှနည်း။",
+            optionsEn: [
+              "4 (hundred kyats)",
+              "3 (hundred kyats)",
+              "12 (hundred kyats)",
+              "27 (hundred kyats)",
+            ],
+            optionsMy: [
+              "4 (ရာကျပ်)",
+              "3 (ရာကျပ်)",
+              "12 (ရာကျပ်)",
+              "27 (ရာကျပ်)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is 3(x + 4) equal to when expanded?",
+            questionMy: "3(x + 4) ကို ဖြန့်ချိပါက အဘယ်နှင့် ညီမျှသနည်း။",
+            optionsEn: ["3x + 4", "x + 12", "3x + 12", "3x + 7"],
+            optionsMy: ["3x + 4", "x + 12", "3x + 12", "3x + 7"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the value of x (noodle cost per bowl) that Su Su found from 3(x + 4) = 27?",
+            questionMy:
+                "3(x + 4) = 27 မှ စုစုရှာတွေ့သော x (ခွက်တစ်ခွက်၏ အကြာဇံဈေးနှုန်း) ၏ တန်ဖိုးမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "9 (hundred kyats)",
+              "5 (hundred kyats)",
+              "12 (hundred kyats)",
+              "27 (hundred kyats)",
+            ],
+            optionsMy: [
+              "9 (ရာကျပ်)",
+              "5 (ရာကျပ်)",
+              "12 (ရာကျပ်)",
+              "27 (ရာကျပ်)",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What law did Su Su use to expand the bracket?",
+            questionMy:
+                "စုစုသည် ကွင်းကို ဖြန့်ချိရန် မည်သည့်စည်းမျဉ်းကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "The distributive law",
+              "The commutative law",
+              "The associative law",
+              "The inverse law",
+            ],
+            optionsMy: [
+              "ဖြန့်ချိသောစည်းမျဉ်း (Distributive law)",
+              "လဲလှယ်ဆီလျော်မှုစည်းမျဉ်း (Commutative law)",
+              "ပေါင်းစပ်ဆီလျော်မှုစည်းမျဉ်း (Associative law)",
+              "ဆန့်ကျင်ဘက်စည်းမျဉ်း (Inverse law)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "In the soup dish equation 2(x + 3) = 16, what was the value of x?",
+            questionMy:
+                "ဟင်းချိုညီမျှခြင်း 2(x + 3) = 16 တွင် x ၏ တန်ဖိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["x = 8", "x = 5", "x = 10", "x = 3"],
+            optionsMy: ["x = 8", "x = 5", "x = 10", "x = 3"],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Equations with Brackets",
+      titleMy: "အပတ်စဉ် ၁၈ ပြန်လည်သုံးသပ်ခြင်း - ကွင်းပါ ညီမျှခြင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Expand: 4(x + 2)",
+          questionMy: "ဖြန့်ချိပါ - 4(x + 2)",
+          optionsEn: ["4x + 2", "4x + 8", "x + 8", "4x + 6"],
+          optionsMy: ["4x + 2", "4x + 8", "x + 8", "4x + 6"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Expand: 5(x - 3)",
+          questionMy: "ဖြန့်ချိပါ - 5(x - 3)",
+          optionsEn: ["5x - 15", "5x - 3", "x - 15", "5x + 15"],
+          optionsMy: ["5x - 15", "5x - 3", "x - 15", "5x + 15"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 2(x + 5) = 18",
+          questionMy: "x ကိုရှာပါ - 2(x + 5) = 18",
+          optionsEn: ["x = 9", "x = 4", "x = 13", "x = 6"],
+          optionsMy: ["x = 9", "x = 4", "x = 13", "x = 6"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Solve for x: 3(x - 1) = 15",
+          questionMy: "x ကိုရှာပါ - 3(x - 1) = 15",
+          optionsEn: ["x = 6", "x = 4", "x = 16", "x = 5"],
+          optionsMy: ["x = 6", "x = 4", "x = 16", "x = 5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the correct expansion of 2(x + 5)?",
+          questionMy: "2(x + 5) ၏ မှန်ကန်သော ဖြန့်ချိချက်မှာ အဘယ်နည်း။",
+          optionsEn: ["2x + 5", "2x + 10", "x + 10", "2x + 7"],
+          optionsMy: ["2x + 5", "2x + 10", "x + 10", "2x + 7"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 5, Week 19: "Number Sequences"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek19 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w19",
+  weekNumber: 19,
+  titleEn: "Number Sequences",
+  titleMy: "ကိန်းစဉ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w19-d1",
+      dayNumber: 1,
+      titleEn: "Term-to-Term and Position-to-Term Rules",
+      titleMy: "Term-to-Term နှင့် Position-to-Term စည်းမျဉ်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the term-to-term rule for the sequence 5, 8, 11, 14, ...?",
+          questionMy:
+              "ကိန်းစဉ် 5, 8, 11, 14, ... ၏ term-to-term rule မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Add 3 each time",
+            "Multiply by 3 each time",
+            "Add 5 each time",
+            "Subtract 3 each time",
+          ],
+          optionsMy: [
+            "အကြိမ်တိုင်း 3 ပေါင်းပါ",
+            "အကြိမ်တိုင်း 3 မြှောက်ပါ",
+            "အကြိမ်တိုင်း 5 ပေါင်းပါ",
+            "အကြိမ်တိုင်း 3 နုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Using the nth term 3n + 2, find the 4th term.",
+          questionMy: "nth term 3n + 2 ကိုသုံးပြီး 4ခုမြောက်ကိန်းကို ရှာပါ။",
+          optionsEn: ["11", "14", "17", "12"],
+          optionsMy: ["11", "14", "17", "12"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Using the nth term 3n + 2, find the 10th term.",
+          questionMy: "nth term 3n + 2 ကိုသုံးပြီး 10ခုမြောက်ကိန်းကို ရှာပါ။",
+          optionsEn: ["30", "29", "35", "32"],
+          optionsMy: ["30", "29", "35", "32"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sequence starts at 4, and the term-to-term rule is 'add 6 each time'. What is the 3rd term?",
+          questionMy:
+              "ကိန်းစဉ်တစ်ခုသည် 4 မှစတင်ပြီး term-to-term rule မှာ 'အကြိမ်တိုင်း 6 ပေါင်းပါ' ဖြစ်သည်။ 3ခုမြောက်ကိန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["10", "16", "22", "14"],
+          optionsMy: ["10", "16", "22", "14"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which nth-term rule generates the sequence 5, 8, 11, 14, ...?",
+          questionMy:
+              "ကိန်းစဉ် 5, 8, 11, 14, ... ကို ဖန်တီးပေးသော nth-term rule မှာ အဘယ်နည်း။",
+          optionsEn: ["3n - 1", "n + 4", "3n + 2", "2n + 3"],
+          optionsMy: ["3n - 1", "n + 4", "3n + 2", "2n + 3"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match the Sequence Vocabulary",
+      titleMy: "ကိန်းစဉ်ဆိုင်ရာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w19-dm-1",
+          termEn: "Sequence",
+          termMy: "ကိန်းစဉ် (Sequence)",
+          matchEn:
+              "An ordered list of numbers following a pattern, e.g. 5, 8, 11, 14",
+          matchMy:
+              "ပုံစံတစ်ခုအတိုင်း စီစဉ်ထားသော ကိန်းဂဏန်းစာရင်း၊ ဥပမာ - 5, 8, 11, 14",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w19-dm-2",
+          termEn: "Term",
+          termMy: "ကိန်း (Term)",
+          matchEn: "One single number in a sequence",
+          matchMy: "ကိန်းစဉ်တစ်ခုအတွင်း ကိန်းတစ်ခုချင်းစီ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w19-dm-3",
+          termEn: "Term-to-term Rule",
+          termMy: "Term-to-Term Rule",
+          matchEn:
+              "The rule describing how to get from one term to the next, e.g. 'add 3'",
+          matchMy:
+              "ကိန်းတစ်ခုမှ နောက်တစ်ခုသို့ ရောက်ရှိရန် ဖော်ပြသောစည်းမျဉ်း၊ ဥပမာ - 'add 3'",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w19-dm-4",
+          termEn: "Position-to-term Rule (nth term)",
+          termMy: "Position-to-Term Rule (nth term)",
+          matchEn:
+              "A formula that finds any term directly from its position number, e.g. 3n + 2",
+          matchMy:
+              "ကိန်း၏ နေရာနံပါတ်မှ တိုက်ရိုက်ရှာနိုင်သော ဖော်မြူလာ၊ ဥပမာ - 3n + 2",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w19-dm-5",
+          termEn: "Common Difference",
+          termMy: "ပုံသေကွာခြားချက် (Common Difference)",
+          matchEn:
+              "The fixed amount added or subtracted between consecutive terms in a sequence",
+          matchMy:
+              "ကိန်းစဉ်တစ်ခုအတွင်း ဆက်တိုက်ကိန်းများကြား ပေါင်း (သို့) နုတ်သော ပုံသေပမာဏ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w19-dm-6",
+          termEn: "Position Number (n)",
+          termMy: "နေရာနံပါတ် (n)",
+          matchEn:
+              "Which place a term holds in the sequence, e.g. n = 1 is the first term",
+          matchMy:
+              "ကိန်းတစ်ခု ကိန်းစဉ်တွင် ရှိသော နေရာ၊ ဥပမာ - n = 1 သည် ပထမကိန်းဖြစ်သည်",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increasing or Decreasing Sequence?",
+      titleMy: "စီစစ်ကြမည် - တိုးနေလား လျော့နေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Sequence Increases (adds each time)",
+          "Sequence Decreases (subtracts each time)",
+        ],
+        bucketsMy: [
+          "ကိန်းစဉ် တိုးနေသည် (အကြိမ်တိုင်း ပေါင်းသည်)",
+          "ကိန်းစဉ် လျော့နေသည် (အကြိမ်တိုင်း နုတ်သည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w19-sort-1",
+            labelEn: "2, 6, 10, 14, ...",
+            labelMy: "2, 6, 10, 14, ...",
+            correctBucketEn: "Sequence Increases (adds each time)",
+            correctBucketMy: "ကိန်းစဉ် တိုးနေသည် (အကြိမ်တိုင်း ပေါင်းသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w19-sort-2",
+            labelEn: "30, 25, 20, 15, ...",
+            labelMy: "30, 25, 20, 15, ...",
+            correctBucketEn: "Sequence Decreases (subtracts each time)",
+            correctBucketMy: "ကိန်းစဉ် လျော့နေသည် (အကြိမ်တိုင်း နုတ်သည်)",
+          ),
+          SortingItem(
+            id: "s1math-w19-sort-3",
+            labelEn: "5, 8, 11, 14, ...",
+            labelMy: "5, 8, 11, 14, ...",
+            correctBucketEn: "Sequence Increases (adds each time)",
+            correctBucketMy: "ကိန်းစဉ် တိုးနေသည် (အကြိမ်တိုင်း ပေါင်းသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w19-sort-4",
+            labelEn: "50, 42, 34, 26, ...",
+            labelMy: "50, 42, 34, 26, ...",
+            correctBucketEn: "Sequence Decreases (subtracts each time)",
+            correctBucketMy: "ကိန်းစဉ် လျော့နေသည် (အကြိမ်တိုင်း နုတ်သည်)",
+          ),
+          SortingItem(
+            id: "s1math-w19-sort-5",
+            labelEn: "1, 5, 9, 13, ...",
+            labelMy: "1, 5, 9, 13, ...",
+            correctBucketEn: "Sequence Increases (adds each time)",
+            correctBucketMy: "ကိန်းစဉ် တိုးနေသည် (အကြိမ်တိုင်း ပေါင်းသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w19-sort-6",
+            labelEn: "100, 90, 80, 70, ...",
+            labelMy: "100, 90, 80, 70, ...",
+            correctBucketEn: "Sequence Decreases (subtracts each time)",
+            correctBucketMy: "ကိန်းစဉ် လျော့နေသည် (အကြိမ်တိုင်း နုတ်သည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Savings Jar",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ငွေစုအိတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Savings Jar",
+        titleMy: "စုစု၏ ငွေစုအိတ်",
+        passageEn:
+            "Every Saturday, Su Su helps her mother at the mohinga stall, washing bowls and carrying trays, and her mother rewards her with 3 (thousand kyats) added to a small savings jar at the end of each week. Before she started this arrangement, Su Su already had 2 (thousand kyats) saved up from her birthday money. After the very first week of helping, her jar held 2 + 3 = 5 (thousand kyats). After the second week, it held 5 + 3 = 8 (thousand kyats), and after the third week, 8 + 3 = 11 (thousand kyats). Su Su noticed the amount always went up by exactly 3 (thousand kyats) each week -- the term-to-term rule for her savings sequence was simply 'add 3'.\n\nCounting one week at a time was slow, so Su Su's teacher showed her a faster way: a position-to-term rule, also called the nth term. Since the jar started with 2 (thousand kyats) before any weeks of saving, and gained 3 (thousand kyats) for every week n, the total after n weeks could be found directly with the formula 3n + 2. Su Su tested it against what she already knew: for n = 4 (the 4th week), 3(4) + 2 = 14 (thousand kyats) -- and sure enough, adding 3 four times to her starting jar gave the very same answer.\n\nSu Su's mother then asked a bigger question: how much would be in the jar after 10 whole weeks of helping, if Su Su kept saving all the way through the school holidays? Rather than adding 3 ten separate times, Su Su simply used the nth-term rule: 3(10) + 2 = 32 (thousand kyats). 'I don't need to count every single week anymore,' Su Su told her mother happily. 'The position-to-term rule jumps straight to any week I want to know about -- even week 10, or week 50, without adding one single time.'",
+        passageMy:
+            "စနေနေ့တိုင်း စုစုသည် သူမ၏အမေကို မုန့်ဟင်းခါးဆိုင်တွင် ခွက်ဆေးခြင်း၊ ဗန်းများသယ်ဆောင်ခြင်း စသည်တို့ဖြင့် ကူညီပေးလေ့ရှိပြီး အမေက အပတ်စဉ်အဆုံးတွင် ငွေစုအိတ်ငယ်ထဲသို့ 3 (ထောင်ကျပ်) ထည့်ပေးလေ့ရှိသည်။ ဤသဘောတူညီချက်မစတင်မီ စုစုတွင် မွေးနေ့ရရှိသောငွေမှ 2 (ထောင်ကျပ်) စုမှတ်ထားပြီးသားရှိနှင့်ပြီးဖြစ်သည်။ ကူညီပေးသော ပထမအပတ်ပြီးနောက် သူမ၏အိတ်တွင် 2 + 3 = 5 (ထောင်ကျပ်) ရှိလာသည်။ ဒုတိယအပတ်ပြီးနောက် 5 + 3 = 8 (ထောင်ကျပ်) ရှိလာပြီး၊ တတိယအပတ်ပြီးနောက် 8 + 3 = 11 (ထောင်ကျပ်) ရှိလာသည်။ စုစုသည် ငွေပမာဏသည် အပတ်တိုင်း အတိအကျ 3 (ထောင်ကျပ်) စီ တိုးလာနေကြောင်း သတိပြုမိသည် -- သူမ၏ငွေစုစဉ်၏ term-to-term rule မှာ ရိုးရှင်းစွာ 'add 3' ဖြစ်သည်။\n\nတစ်ပတ်ချင်း ရေတွက်ခြင်းသည် နှေးကွေးသောကြောင့် စုစု၏ဆရာမက ပိုမိုမြန်ဆန်သောနည်းလမ်း - position-to-term rule (nth term ဟုလည်းခေါ်သည်) ကို ပြသပေးခဲ့သည်။ ငွေစုအိတ်သည် မည်သည့်အပတ်မှ မစုမီတွင် 2 (ထောင်ကျပ်) ဖြင့် စတင်ခဲ့ပြီး၊ အပတ် n တိုင်းအတွက် 3 (ထောင်ကျပ်) စီ ရရှိနေသောကြောင့် n အပတ်ပြီးနောက် စုစုပေါင်းငွေကို ဖော်မြူလာ 3n + 2 ဖြင့် တိုက်ရိုက်ရှာနိုင်သည်။ စုစုသည် သူမ ယခင်သိထားပြီးသားနှင့် နှိုင်းယှဉ်စမ်းသပ်ကြည့်သည် - n = 4 (စတုတ္ထအပတ်) အတွက် 3(4) + 2 = 14 (ထောင်ကျပ်) -- စတင်ငွေစုအိတ်တွင် 3 ကို လေးကြိမ် ပေါင်းထည့်လိုက်ချိန်တွင်လည်း အဖြေတူညီစွာ ရရှိခဲ့သည်။\n\nထို့နောက် စုစု၏အမေက ပိုကြီးသောမေးခွန်းတစ်ခု မေးမြန်းခဲ့သည် - ကျောင်းပိတ်ရက်များအတွင်းလုံး စုစုက ဆက်လက်စုမှတ်ပါက အပတ် 10ပတ်လုံး ကူညီပြီးနောက် အိတ်ထဲတွင် မည်မျှရှိမည်နည်း။ 3ကို ဆယ်ကြိမ် သီးခြားစီ ပေါင်းမည့်အစား စုစုသည် nth-term rule ကို တိုက်ရိုက်သုံးခဲ့သည် - 3(10) + 2 = 32 (ထောင်ကျပ်)။ 'ငါ အပတ်တိုင်းကို ရေတွက်စရာ မလိုတော့ဘူး' ဟု စုစုက ဝမ်းသာစွာ အမေကို ပြောပြခဲ့သည်။ 'Position-to-term rule ကို သုံးရင် ငါသိချင်တဲ့ မည်သည့်အပတ်ကိုမဆို တစ်ခါတည်း ခုန်ရောက်နိုင်တယ် -- အပတ် 10 ဖြစ်ဖြစ်၊ အပတ် 50 ဖြစ်ဖြစ် တစ်ကြိမ်တစ်ခါမှ မပေါင်းဘဲနဲ့ပဲ'။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "How much did Su Su's savings jar grow by each week?",
+            questionMy: "စုစု၏ ငွေစုအိတ်သည် အပတ်တိုင်း မည်မျှ တိုးလာသနည်း။",
+            optionsEn: [
+              "3 (thousand kyats)",
+              "2 (thousand kyats)",
+              "5 (thousand kyats)",
+              "8 (thousand kyats)",
+            ],
+            optionsMy: [
+              "3 (ထောင်ကျပ်)",
+              "2 (ထောင်ကျပ်)",
+              "5 (ထောင်ကျပ်)",
+              "8 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How much did Su Su already have saved before she started helping at the stall?",
+            questionMy:
+                "စုစု ဆိုင်တွင် ကူညီစတင်မီ မည်မျှ စုမှတ်ထားပြီးသားရှိနှင့်ပြီးနည်း။",
+            optionsEn: [
+              "3 (thousand kyats)",
+              "5 (thousand kyats)",
+              "2 (thousand kyats)",
+              "11 (thousand kyats)",
+            ],
+            optionsMy: [
+              "3 (ထောင်ကျပ်)",
+              "5 (ထောင်ကျပ်)",
+              "2 (ထောင်ကျပ်)",
+              "11 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the nth-term formula for Su Su's total savings after n weeks?",
+            questionMy:
+                "n အပတ်ပြီးနောက် စုစု၏ စုစုပေါင်းငွေစုမှုအတွက် nth-term ဖော်မြူလာမှာ အဘယ်နည်း။",
+            optionsEn: ["3n + 2", "2n + 3", "n + 5", "3n - 2"],
+            optionsMy: ["3n + 2", "2n + 3", "n + 5", "3n - 2"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using the nth-term rule, how much was in the jar after 4 weeks?",
+            questionMy:
+                "nth-term rule ကိုသုံးပြီး 4ပတ်ပြီးနောက် အိတ်ထဲတွင် မည်မျှရှိသနည်း။",
+            optionsEn: [
+              "11 (thousand kyats)",
+              "14 (thousand kyats)",
+              "17 (thousand kyats)",
+              "12 (thousand kyats)",
+            ],
+            optionsMy: [
+              "11 (ထောင်ကျပ်)",
+              "14 (ထောင်ကျပ်)",
+              "17 (ထောင်ကျပ်)",
+              "12 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using the nth-term rule, how much was in the jar after 10 weeks?",
+            questionMy:
+                "nth-term rule ကိုသုံးပြီး 10ပတ်ပြီးနောက် အိတ်ထဲတွင် မည်မျှရှိသနည်း။",
+            optionsEn: [
+              "30 (thousand kyats)",
+              "35 (thousand kyats)",
+              "32 (thousand kyats)",
+              "29 (thousand kyats)",
+            ],
+            optionsMy: [
+              "30 (ထောင်ကျပ်)",
+              "35 (ထောင်ကျပ်)",
+              "32 (ထောင်ကျပ်)",
+              "29 (ထောင်ကျပ်)",
+            ],
+            correctIndex: 2,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Number Sequences",
+      titleMy: "အပတ်စဉ် ၁၉ ပြန်လည်သုံးသပ်ခြင်း - ကိန်းစဉ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the term-to-term rule for the sequence 4, 9, 14, 19, ...?",
+          questionMy:
+              "ကိန်းစဉ် 4, 9, 14, 19, ... ၏ term-to-term rule မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Add 5 each time",
+            "Add 4 each time",
+            "Multiply by 2 each time",
+            "Subtract 5 each time",
+          ],
+          optionsMy: [
+            "အကြိမ်တိုင်း 5 ပေါင်းပါ",
+            "အကြိမ်တိုင်း 4 ပေါင်းပါ",
+            "အကြိမ်တိုင်း 2 မြှောက်ပါ",
+            "အကြိမ်တိုင်း 5 နုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Using the nth term 2n + 3, find the 5th term.",
+          questionMy: "nth term 2n + 3 ကိုသုံးပြီး 5ခုမြောက်ကိန်းကို ရှာပါ။",
+          optionsEn: ["11", "13", "10", "15"],
+          optionsMy: ["11", "13", "10", "15"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Using the nth term 4n - 1, find the 3rd term.",
+          questionMy: "nth term 4n - 1 ကိုသုံးပြီး 3ခုမြောက်ကိန်းကို ရှာပါ။",
+          optionsEn: ["11", "9", "12", "7"],
+          optionsMy: ["11", "9", "12", "7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sequence starts at 10, and the term-to-term rule is 'subtract 2 each time'. What is the 4th term?",
+          questionMy:
+              "ကိန်းစဉ်တစ်ခုသည် 10 မှစတင်ပြီး term-to-term rule မှာ 'အကြိမ်တိုင်း 2 နုတ်ပါ' ဖြစ်သည်။ 4ခုမြောက်ကိန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["6", "4", "8", "2"],
+          optionsMy: ["6", "4", "8", "2"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which nth-term rule generates the sequence 4, 7, 10, 13, ...?",
+          questionMy:
+              "ကိန်းစဉ် 4, 7, 10, 13, ... ကို ဖန်တီးပေးသော nth-term rule မှာ အဘယ်နည်း။",
+          optionsEn: ["3n - 1", "n + 3", "3n + 1", "4n"],
+          optionsMy: ["3n - 1", "n + 3", "3n + 1", "4n"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 5, Week 20: "The Algebra Code"
+// (Term 5 capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek20 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w20",
+  weekNumber: 20,
+  titleEn: "The Algebra Code",
+  titleMy: "အက္ခရာသင်္ချာ ကုဒ်",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w20-d1",
+      dayNumber: 1,
+      titleEn: "The Algebra Code: Capstone Quiz",
+      titleMy: "အက္ခရာသင်္ချာကုဒ် - နိဂုံးချုပ် ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A puzzle box shows the clue: 'Take a number, add 9, and the result is 20.' Using Week 17's balancing skill, form and solve an equation to find the unknown number.",
+          questionMy:
+              "ပဟေဠိသေတ္တာတွင် ဤအရိပ်အမြွက်ပါရှိသည် - 'ဂဏန်းတစ်ခုကို ယူပြီး 9 ပေါင်းလိုက်လျှင် ရလဒ်သည် 20 ဖြစ်သည်'။ Week 17 ၏ ချိန်ခွင်ညီအောင်ထားသောကျွမ်းကျင်မှုကိုသုံးပြီး ညီမျှခြင်းတည်ဆောက်ကာ အမည်မသိဂဏန်းကို ရှာပါ။",
+          optionsEn: ["x = 29", "x = 11", "x = 9", "x = 20"],
+          optionsMy: ["x = 29", "x = 11", "x = 9", "x = 20"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A second clue reads: 'Three groups of a hidden number plus 2, equals 30', written with a bracket as 3(x + 2) = 30. Using Week 18's bracket-expanding skill, find x.",
+          questionMy:
+              "ဒုတိယအရိပ်အမြွက်က ဤသို့ဆိုသည် - 'ဂဏန်းဝှက်တစ်ခုနှင့် 2 ပေါင်းထားသည့်အုပ်စု 3ခု ပေါင်းလိုက်လျှင် 30 ရသည်'၊ ကွင်းဖြင့် 3(x + 2) = 30 ဟုရေးထားသည်။ Week 18 ၏ ကွင်းဖြန့်ချိသောကျွမ်းကျင်မှုကိုသုံးပြီး x ကိုရှာပါ။",
+          optionsEn: ["x = 10", "x = 6", "x = 8", "x = 28"],
+          optionsMy: ["x = 10", "x = 6", "x = 8", "x = 28"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The final lock uses a sequence clue: 'The code is the 6th term of the sequence with nth term 4n + 1.' Using Week 19's position-to-term skill, find the code.",
+          questionMy:
+              "နောက်ဆုံးသော့ခွက်တွင် ကိန်းစဉ်အရိပ်အမြွက် ပါဝင်သည် - 'ကုဒ်သည် nth term က 4n + 1 ဖြစ်သော ကိန်းစဉ်၏ 6ခုမြောက်ကိန်းဖြစ်သည်'။ Week 19 ၏ position-to-term ကျွမ်းကျင်မှုကိုသုံးပြီး ကုဒ်ကို ရှာပါ။",
+          optionsEn: ["24", "23", "26", "25"],
+          optionsMy: ["24", "23", "26", "25"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A treasure box holds coins. Three times the number of coins, minus 4, equals 26. Using Week 17's inverse-operations skill, write and solve the equation for the number of coins.",
+          questionMy:
+              "ရတနာသေတ္တာတွင် အမ်းငွေဒင်္ဂါးများ ပါဝင်သည်။ ဒင်္ဂါးအရေအတွက်၏ 3ဆကို 4 နုတ်လျှင် 26 ရသည်။ Week 17 ၏ ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ကျွမ်းကျင်မှုကိုသုံးပြီး ဒင်္ဂါးအရေအတွက်အတွက် ညီမျှခြင်းကို ရေးချကာ ဖြေရှင်းပါ။",
+          optionsEn: ["x = 22", "x = 8", "x = 10", "x = 30"],
+          optionsMy: ["x = 22", "x = 8", "x = 10", "x = 30"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A locked chest opens only if you compute: the value of x in 2(x + 5) = 22, ADDED to the 3rd term of the sequence with nth term 5n - 2. Using Week 18's and Week 19's skills together, what is the final unlocking number?",
+          questionMy:
+              "သော့ခတ်ထားသော ရတနာသေတ္တာသည် ဤကို တွက်ချက်မှသာ ဖွင့်နိုင်သည် - 2(x + 5) = 22 ရှိ x ၏ တန်ဖိုးကို nth term က 5n - 2 ဖြစ်သော ကိန်းစဉ်၏ 3ခုမြောက်ကိန်းနှင့် ပေါင်းလိုက်ပါ။ Week 18 နှင့် Week 19 ၏ ကျွမ်းကျင်မှုများကို အတူတကွသုံးပြီး နောက်ဆုံးဖွင့်ရန် ကိန်းဂဏန်းမှာ အဘယ်နည်း။",
+          optionsEn: ["17", "13", "21", "19"],
+          optionsMy: ["17", "13", "21", "19"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match the Word Problem Vocabulary",
+      titleMy: "ပုစ္ဆာစကားလုံး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w20-dm-1",
+          termEn: "Word Problem",
+          termMy: "ပုစ္ဆာစကားလုံး (Word Problem)",
+          matchEn:
+              "A real situation described in words that can be translated into an equation",
+          matchMy:
+              "ညီမျှခြင်းအဖြစ် ဘာသာပြန်နိုင်သော စကားလုံးများဖြင့် ဖော်ပြထားသည့် လက်တွေ့အခြေအနေ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w20-dm-2",
+          termEn: "Translate",
+          termMy: "ဘာသာပြန်ခြင်း (Translate)",
+          matchEn:
+              "To change words like 'a number' or 'times' into algebraic symbols such as x and +",
+          matchMy:
+              "'ဂဏန်းတစ်ခု' သို့မဟုတ် 'ဆ' ကဲ့သို့သော စကားလုံးများကို x, + ကဲ့သို့သော အက္ခရာသင်္ချာသင်္ကေတများအဖြစ် ပြောင်းလဲခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w20-dm-3",
+          termEn: "Let x represent...",
+          termMy: "Let x represent...",
+          matchEn:
+              "The starting phrase used to name the unknown quantity in a word problem",
+          matchMy:
+              "ပုစ္ဆာစကားလုံးတစ်ခုအတွင်း အမည်မသိပမာဏကို အမည်ပေးရန်သုံးသော အစပိုဒ်စာစု",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w20-dm-4",
+          termEn: "Code / Cipher",
+          termMy: "ကုဒ် / လျှို့ဝှက်ကုဒ် (Code / Cipher)",
+          matchEn:
+              "A hidden message or number that can be uncovered by solving an equation correctly",
+          matchMy:
+              "ညီမျှခြင်းကို မှန်ကန်စွာ ဖြေရှင်းခြင်းဖြင့် ဖေါ်ထုတ်နိုင်သော ဝှက်ထားသည့်စာတမ်း (သို့) ဂဏန်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w20-dm-5",
+          termEn: "Check the Solution",
+          termMy: "အဖြေ ပြန်စစ်ဆေးခြင်း (Check the Solution)",
+          matchEn:
+              "Substituting the answer back into the original equation to make sure both sides balance",
+          matchMy:
+              "ဘက်နှစ်ဖက်စလုံး ညီမျှကြောင်း သေချာစေရန် အဖြေကို မူရင်းညီမျှခြင်းအတွင်းသို့ ပြန်ထည့်စစ်ဆေးခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w20-dm-6",
+          termEn: "Multi-step Problem",
+          termMy: "အဆင့်များစွာပါ ပုစ္ဆာ (Multi-step Problem)",
+          matchEn:
+              "A word problem that needs more than one type of skill, like brackets and balancing together, to solve",
+          matchMy:
+              "ဖြေရှင်းရန် ကွင်းနှင့် ချိန်ခွင်ညီအောင်ထားခြင်း ကဲ့သို့ ကျွမ်းကျင်မှုတစ်မျိုးထက်ပို၍ လိုအပ်သော ပုစ္ဆာစကားလုံး",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Translation?",
+      titleMy: "စီစစ်ကြမည် - ဘာသာပြန်ချက် မှန်လား မမှန်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Translation", "Incorrect Translation"],
+        bucketsMy: ["မှန်ကန်သော ဘာသာပြန်ချက်", "မှားယွင်းသော ဘာသာပြန်ချက်"],
+        items: [
+          SortingItem(
+            id: "s1math-w20-sort-1",
+            labelEn: "'A number plus 5 equals 12' translated as x + 5 = 12",
+            labelMy:
+                "'ဂဏန်းတစ်ခုနှင့် 5 ပေါင်းလိုက်လျှင် 12 ရသည်' ကို x + 5 = 12 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Correct Translation",
+            correctBucketMy: "မှန်ကန်သော ဘာသာပြန်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w20-sort-2",
+            labelEn: "'3 times a number equals 21' translated as x + 3 = 21",
+            labelMy:
+                "'ဂဏန်းတစ်ခု၏ 3ဆသည် 21 ရသည်' ကို x + 3 = 21 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Incorrect Translation",
+            correctBucketMy: "မှားယွင်းသော ဘာသာပြန်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w20-sort-3",
+            labelEn:
+                "'A number, doubled, then add 4, equals 18' translated as 2x + 4 = 18",
+            labelMy:
+                "'ဂဏန်းတစ်ခုကို နှစ်ဆလုပ်ပြီး 4 ပေါင်းလိုက်လျှင် 18 ရသည်' ကို 2x + 4 = 18 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Correct Translation",
+            correctBucketMy: "မှန်ကန်သော ဘာသာပြန်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w20-sort-4",
+            labelEn: "'5 less than a number equals 9' translated as 5 - x = 9",
+            labelMy:
+                "'ဂဏန်းတစ်ခုထက် 5 နည်းလျှင် 9 ရသည်' ကို 5 - x = 9 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Incorrect Translation",
+            correctBucketMy: "မှားယွင်းသော ဘာသာပြန်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w20-sort-5",
+            labelEn:
+                "'3 groups of a number plus 2, equals 21' translated as 3(x + 2) = 21",
+            labelMy:
+                "'ဂဏန်းတစ်ခုနှင့် 2 ပေါင်းထားသည့်အုပ်စု 3ခု ပေါင်းလိုက်လျှင် 21 ရသည်' ကို 3(x + 2) = 21 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Correct Translation",
+            correctBucketMy: "မှန်ကန်သော ဘာသာပြန်ချက်",
+          ),
+          SortingItem(
+            id: "s1math-w20-sort-6",
+            labelEn: "'A number minus 7 equals 15' translated as 7 - x = 15",
+            labelMy:
+                "'ဂဏန်းတစ်ခုမှ 7 နုတ်လိုက်လျှင် 15 ရသည်' ကို 7 - x = 15 ဟု ဘာသာပြန်ထားသည်",
+            correctBucketEn: "Incorrect Translation",
+            correctBucketMy: "မှားယွင်းသော ဘာသာပြန်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Cracks the Cash Box Code",
+      titleMy: "စာဖတ်ခြင်း - စုစု ငွေသေတ္တာကုဒ် ဖေါက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Cracks the Cash Box Code",
+        titleMy: "စုစု ငွေသေတ္တာကုဒ် ဖေါက်ခြင်း",
+        passageEn:
+            "Su Su's mother kept the mohinga stall's coin float in an old combination cash box with three dials, each needing a separate number to line up before the box would open. One morning, the box jammed, and Su Su's mother laughingly said she'd forgotten which numbers she had set -- but she still had the three clues written on a scrap of paper from when she first locked it.\n\nThe first clue read: 'Take a number, add 9, and you get 20.' Su Su recognised this instantly as a job for Week 17's balancing skill: she wrote x + 9 = 20, subtracted 9 from both sides, and found the first dial's number was 11. The second clue was trickier: 'Three groups of a number plus 2, equals 30' -- written as 3(x + 2) = 30. Using Week 18's bracket-expanding skill, Su Su expanded the bracket to get 3x + 6 = 30, subtracted 6 from both sides to get 3x = 24, and divided by 3 to find the second dial's number was 8.\n\nThe third and final clue read: 'The dial number is the 6th term of a sequence, where the nth term is 4n + 1.' Su Su used Week 19's position-to-term skill directly: 4(6) + 1 = 25. She set the three dials to 11, 8, and 25, and the old lock clicked open on the very first try. 'It's like the cash box was speaking in algebra,' Su Su told her mother, grinning. 'Balancing, brackets, and sequences -- once you know all three, you can crack almost any code.' Her mother laughed and said that from now on, she would trust Su Su with the combination whenever the box acted up again.",
+        passageMy:
+            "စုစု၏အမေသည် မုန့်ဟင်းခါးဆိုင်၏ ပြောင်းလဲငွေများကို ဒိုင်ခွက် (dial) သုံးခုပါသော ရှေးဟောင်း ကုဒ်သော့ခတ်ငွေသေတ္တာတစ်လုံးတွင် သိုလှောင်ထားလေ့ရှိသည်၊ သေတ္တာဖွင့်ရန် ဒိုင်ခွက်တိုင်းအတွက် သီးခြားနံပါတ်တစ်ခု အသင့်ချိန်ညှိရမည်ဖြစ်သည်။ တစ်နေ့မနက်တွင် သေတ္တာသည် ပိတ်နေသောကြောင့် စုစု၏အမေက ချိန်ညှိထားသောနံပါတ်များကို မေ့သွားပြီဟု ရယ်မောစွာပြောပြသည် -- သို့သော် သူသော့ခတ်ချိန်က ရေးထားသော အရိပ်အမြွက်စာရွက်ငယ်သုံးခုကို ဆက်ထားနေဆဲဖြစ်သည်။\n\nပထမအရိပ်အမြွက်က 'ဂဏန်းတစ်ခုကို 9 ပေါင်းလိုက်ရင် 20 ရတယ်' ဟု ဆိုသည်။ စုစုသည် ၎င်းကို Week 17 ၏ ချိန်ခွင်ညီအောင်ထားသောကျွမ်းကျင်မှုအတွက် ချက်ချင်းသိလိုက်သည် - x + 9 = 20 ဟု ရေးချကာ ဘက်နှစ်ဖက်စလုံးမှ 9 ကို နုတ်၍ ပထမဒိုင်ခွက်၏ နံပါတ်သည် 11 ဖြစ်ကြောင်း ရရှိခဲ့သည်။ ဒုတိယအရိပ်အမြွက်က ပိုမိုခက်ခဲသည် - 'ဂဏန်းတစ်ခုနှင့် 2 ပေါင်းထားသည့်အုပ်စု 3ခု ပေါင်းလိုက်ရင် 30 ရတယ်' -- 3(x + 2) = 30 ဟု ရေးထားသည်။ Week 18 ၏ ကွင်းဖြန့်ချိသောကျွမ်းကျင်မှုကိုသုံး၍ စုစုသည် ကွင်းကိုဖြန့်ချိကာ 3x + 6 = 30 ရရှိပြီး၊ ဘက်နှစ်ဖက်စလုံးမှ 6 ကို နုတ်၍ 3x = 24 ရရှိကာ 3 ဖြင့်စားလိုက်ရာ ဒုတိယဒိုင်ခွက်၏ နံပါတ်သည် 8 ဖြစ်ကြောင်း ရရှိခဲ့သည်။\n\nတတိယနှင့် နောက်ဆုံးအရိပ်အမြွက်က 'ဒိုင်ခွက်နံပါတ်သည် nth term က 4n + 1 ဖြစ်သော ကိန်းစဉ်၏ 6ခုမြောက်ကိန်းဖြစ်သည်' ဟု ဆိုသည်။ စုစုသည် Week 19 ၏ position-to-term ကျွမ်းကျင်မှုကို တိုက်ရိုက်သုံးခဲ့သည် - 4(6) + 1 = 25။ သူမသည် ဒိုင်ခွက်သုံးခုကို 11၊ 8 နှင့် 25 သို့ ချိန်ညှိလိုက်ပြီး ရှေးဟောင်းသော့သည် ပထမကြိမ်တွင်ပင် ကလစ်ခနဲ ဖွင့်သွားခဲ့သည်။ 'သေတ္တာက အက္ခရာသင်္ချာနဲ့ ပြောနေသလိုပဲ' ဟု စုစုက ပြုံးရွှင်စွာ အမေကို ပြောပြခဲ့သည်။ 'ချိန်ခွင်ညီအောင်ထားခြင်း၊ ကွင်းများနှင့် ကိန်းစဉ်များ -- ဒီသုံးခုလုံးကို သိထားရင် ကုဒ်ဆိုတာ အားလုံးနီးပါးကို ဖေါက်နိုင်တယ်'။ သူမ၏အမေက ရယ်မောကာ ယခုမှစပြီး သေတ္တာချို့ယွင်းတိုင်း ကုဒ်ကို စုစုကို ယုံကြည်စွာ အပ်နှံမည်ဟု ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What kind of lock did Su Su's mother's cash box have?",
+            questionMy:
+                "စုစု၏အမေ၏ ငွေသေတ္တာသည် မည်သည့်အမျိုးအစား သော့ကို အသုံးပြုထားသနည်း။",
+            optionsEn: [
+              "A combination lock with 3 dials",
+              "A key lock",
+              "A digital password lock",
+              "A padlock with no numbers",
+            ],
+            optionsMy: [
+              "ဒိုင်ခွက် 3ခုပါသော ကုဒ်သော့",
+              "သော့ခေါင်း",
+              "ဒစ်ဂျစ်တယ်လျှို့ဝှက်နံပါတ်သော့",
+              "နံပါတ်မပါသော သော့ခလောက်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 17's skill, what was the first dial's number, from x + 9 = 20?",
+            questionMy:
+                "Week 17 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး x + 9 = 20 မှ ပထမဒိုင်ခွက်နံပါတ်မှာ အဘယ်နည်း။",
+            optionsEn: ["9", "20", "11", "29"],
+            optionsMy: ["9", "20", "11", "29"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the second dial's number, from 3(x + 2) = 30, using Week 18's skill?",
+            questionMy:
+                "Week 18 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး 3(x + 2) = 30 မှ ဒုတိယဒိုင်ခွက်နံပါတ်မှာ အဘယ်နည်း။",
+            optionsEn: ["6", "10", "8", "24"],
+            optionsMy: ["6", "10", "8", "24"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 19's skill, what was the third dial's number, the 6th term of nth term 4n + 1?",
+            questionMy:
+                "Week 19 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး nth term 4n + 1 ၏ 6ခုမြောက်ကိန်းဖြစ်သော တတိယဒိုင်ခွက်နံပါတ်မှာ အဘယ်နည်း။",
+            optionsEn: ["21", "25", "24", "26"],
+            optionsMy: ["21", "25", "24", "26"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what three skills together let her 'crack almost any code'?",
+            questionMy:
+                "စုစု၏ ဆိုသည့်အတိုင်း 'ကုဒ်ဆိုတာ အားလုံးနီးပါးကို ဖေါက်နိုင်' စေသော ကျွမ်းကျင်မှုသုံးမျိုးမှာ အဘယ်တို့နည်း။",
+            optionsEn: [
+              "Balancing, brackets, and sequences",
+              "Addition, subtraction, and multiplication only",
+              "Guessing, checking, and estimating",
+              "Drawing, measuring, and constructing",
+            ],
+            optionsMy: [
+              "ချိန်ခွင်ညီအောင်ထားခြင်း၊ ကွင်းများနှင့် ကိန်းစဉ်များ",
+              "အပေါင်း၊ အနုတ်နှင့် အမြှောက်သာ",
+              "ခန့်မှန်းခြင်း၊ စစ်ဆေးခြင်းနှင့် ခန့်ခွဲတွက်ချက်ခြင်း",
+              "ပုံဆွဲခြင်း၊ တိုင်းတာခြင်းနှင့် တည်ဆောက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Grand Recap: Equations and Sequences",
+      titleMy:
+          "Term 5 နိဂုံးချုပ် ပြန်လည်သုံးသပ်ခြင်း - ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Using Week 17's balancing skill, solve: x + 12 = 30.",
+          questionMy:
+              "Week 17 ၏ ချိန်ခွင်ညီအောင်ထားသောကျွမ်းကျင်မှုကိုသုံးပြီး ဖြေရှင်းပါ - x + 12 = 30။",
+          optionsEn: ["x = 42", "x = 18", "x = 22", "x = 15"],
+          optionsMy: ["x = 42", "x = 18", "x = 22", "x = 15"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 18's bracket-expanding skill, solve: 2(x + 4) = 24.",
+          questionMy:
+              "Week 18 ၏ ကွင်းဖြန့်ချိသောကျွမ်းကျင်မှုကိုသုံးပြီး ဖြေရှင်းပါ - 2(x + 4) = 24။",
+          optionsEn: ["x = 16", "x = 4", "x = 8", "x = 12"],
+          optionsMy: ["x = 16", "x = 4", "x = 8", "x = 12"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 19's skill, find the 5th term of the sequence with nth term 2n + 7.",
+          questionMy:
+              "Week 19 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး nth term 2n + 7 ဖြစ်သော ကိန်းစဉ်၏ 5ခုမြောက်ကိန်းကို ရှာပါ။",
+          optionsEn: ["19", "15", "12", "17"],
+          optionsMy: ["19", "15", "12", "17"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A puzzle says: '4 times a number, minus 3, equals 29.' Using Week 17's inverse-operations skill, find the number.",
+          questionMy:
+              "ပဟေဠိတစ်ခုက ဤသို့ဆိုသည် - 'ဂဏန်းတစ်ခု၏ 4ဆကို 3 နုတ်လျှင် 29 ရသည်'။ Week 17 ၏ ဆန့်ကျင်ဘက်လုပ်ဆောင်ချက် ကျွမ်းကျင်မှုကိုသုံးပြီး ဂဏန်းကို ရှာပါ။",
+          optionsEn: ["x = 32", "x = 8", "x = 7.25", "x = 26"],
+          optionsMy: ["x = 32", "x = 8", "x = 7.25", "x = 26"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 18's and Week 19's skills together, find the sum of x in 3(x + 1) = 21 and the 4th term of the sequence with nth term 5n - 3.",
+          questionMy:
+              "Week 18 နှင့် Week 19 ၏ ကျွမ်းကျင်မှုများကို အတူတကွသုံးပြီး 3(x + 1) = 21 ရှိ x ကို nth term 5n - 3 ဖြစ်သော ကိန်းစဉ်၏ 4ခုမြောက်ကိန်းနှင့် ပေါင်းလိုက်ပါက ရလဒ်မှာ အဘယ်နည်း။",
+          optionsEn: ["23", "20", "26", "17"],
+          optionsMy: ["23", "20", "26", "17"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 5: "Equations and Sequences" -- the fifth
+/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// the pathway's second dedicated algebra strand after Term 4's geometry
+/// focus. Week 17 introduces solving one-step and two-step linear
+/// equations from scratch (balancing both sides, inverse operations),
+/// framed through a mohinga-stall delivery's balance scale; Week 18
+/// extends this into equations that open with a bracket, teaching the
+/// distributive law to expand a(b + c) before falling back on Week 17's
+/// balancing skill to finish solving; Week 19 shifts from equations to
+/// number sequences, covering both the term-to-term rule and the more
+/// powerful position-to-term (nth term) rule; Week 20 is the term's
+/// capstone, framing a combination cash box's three dials as a
+/// real-world "algebra code" that explicitly requires Week 17's
+/// balancing skill, Week 18's bracket-expanding skill, and Week 19's
+/// position-to-term skill together to crack.
+const CourseTermDef _secondary1MathematicsTerm5 = CourseTermDef(
+  id: "course-secondary1-mathematics-t5",
+  termNumber: 5,
+  titleEn: "Equations and Sequences",
+  titleMy: "ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ",
+  certificateTitleEn: "Equations and Sequences",
+  certificateTitleMy: "ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ",
+  weeks: [
+    _secondary1MathematicsWeek17,
+    _secondary1MathematicsWeek18,
+    _secondary1MathematicsWeek19,
+    _secondary1MathematicsWeek20,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 6, Week 21: "Collecting Data"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek21 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w21",
+  weekNumber: 21,
+  titleEn: "Collecting Data",
+  titleMy: "အချက်အလက် စုဆောင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w21-d1",
+      dayNumber: 1,
+      titleEn: "Tally Charts and Frequency Tables",
+      titleMy: "မှတ်တံဇယားများနှင့် ကြိမ်နှုန်းဇယားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a tally chart, what number does a group of four strokes with a fifth stroke drawn across them represent?",
+          questionMy:
+              "မှတ်တံဇယားတစ်ခုတွင် မှတ်တံလေးလုံးအပေါ် ပဉ္စမမှတ်တံဖြင့် ဖြတ်၍ရေးထားသော အုပ်စုတစ်ခုသည် မည်သည့်ဂဏန်းကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["3", "4", "5", "10"],
+          optionsMy: ["၃", "၄", "၅", "၁၀"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Su wants to find out which mohinga topping customers prefer. What is the best tool for asking many customers the same set of questions?",
+          questionMy:
+              "စုစုသည် ဖောက်သည်များ မည်သည့် မုန့်ဟင်းခါးထပ်ဆင့်ပစ္စည်းကို ပိုနှစ်သက်သည်ကို သိလိုသည်။ ဖောက်သည်များစွာအား မေးခွန်းအတူတူများကို မေးရန် အကောင်းဆုံးကိရိယာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A tally chart",
+            "A frequency table",
+            "A questionnaire",
+            "A bar chart",
+          ],
+          optionsMy: [
+            "မှတ်တံဇယား (Tally chart)",
+            "ကြိမ်နှုန်းဇယား (Frequency table)",
+            "မေးခွန်းလွှာ (Questionnaire)",
+            "ဘားဂရပ် (Bar chart)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A tally chart for 'egg mohinga orders' shows |||| |||| ||. What is the frequency?",
+          questionMy:
+              "'ကြက်ဥ မုန့်ဟင်းခါး မှာယူမှု' အတွက် မှတ်တံဇယားတွင် |||| |||| || ဟုပြထားသည်။ ကြိမ်နှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["10", "11", "12", "13"],
+          optionsMy: ["၁၀", "၁၁", "၁၂", "၁၃"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do people use tally marks instead of writing the full number every time an event happens?",
+          questionMy:
+              "လူများသည် အဖြစ်အပျက်တစ်ခုဖြစ်ပေါ်တိုင်း ဂဏန်းအပြည့်အစုံရေးမည့်အစား မှတ်တံများကို အသုံးပြုကြသည်မှာ အဘယ့်ကြောင့်နည်း။",
+          optionsEn: [
+            "Because it is faster to make a quick stroke and count in groups of 5 afterwards",
+            "Because tally marks look more colourful",
+            "Because tally marks use fewer numbers than letters",
+            "Because tally marks are only used for money",
+          ],
+          optionsMy: [
+            "မှတ်တံတစ်ချက်ကို လျင်မြန်စွာရေးပြီး နောက်မှ ၅ လုံးတစ်စုံအလိုက် ရေတွက်ရန် ပိုမိုမြန်ဆန်သောကြောင့်",
+            "မှတ်တံများသည် ပိုမိုရောင်စုံလှသောကြောင့်",
+            "မှတ်တံများသည် စာလုံးများထက် ဂဏန်းနည်းနည်းသာသုံးသောကြောင့်",
+            "မှတ်တံများကို ငွေကြေးအတွက်သာ အသုံးပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A frequency table lists 'Plain mohinga: 6, Egg mohinga: 12, Chickpea mohinga: 8'. Which category has the highest frequency?",
+          questionMy:
+              "ကြိမ်နှုန်းဇယားတွင် 'ဟင်းရည်သီးသန့် မုန့်ဟင်းခါး - ၆၊ ကြက်ဥ မုန့်ဟင်းခါး - ၁၂၊ ပဲကြော် မုန့်ဟင်းခါး - ၈' ဟုစာရင်းပြထားသည်။ မည်သည့်အမျိုးအစားက အမြင့်ဆုံးကြိမ်နှုန်းရှိသနည်း။",
+          optionsEn: [
+            "Plain mohinga",
+            "Egg mohinga",
+            "Chickpea mohinga",
+            "They are all equal",
+          ],
+          optionsMy: [
+            "ဟင်းရည်သီးသန့် မုန့်ဟင်းခါး",
+            "ကြက်ဥ မုန့်ဟင်းခါး",
+            "ပဲကြော် မုန့်ဟင်းခါး",
+            "အားလုံး ညီမျှသည်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match the Data Collection Vocabulary",
+      titleMy: "အချက်အလက်စုဆောင်းခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w21-dm-1",
+          termEn: "Tally Chart",
+          termMy: "မှတ်တံဇယား (Tally Chart)",
+          matchEn:
+              "A chart that records data using single strokes, grouped in fives, as it is collected",
+          matchMy:
+              "အချက်အလက်များကို စုဆောင်းရင်း ငါးလုံးတစ်စုံအလိုက် မှတ်တံများဖြင့် မှတ်တမ်းတင်သောဇယား",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w21-dm-2",
+          termEn: "Tally Mark",
+          termMy: "မှတ်တံ (Tally Mark)",
+          matchEn:
+              "A single stroke used to record one count; the fifth mark is drawn across the first four",
+          matchMy:
+              "အရေအတွက်တစ်ခုကို မှတ်တမ်းတင်ရန် သုံးသောမှတ်တံတစ်ချက်၊ ပဉ္စမမှတ်တံကို ပထမလေးချက်အပေါ်တွင် ဖြတ်၍ရေးသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w21-dm-3",
+          termEn: "Frequency Table",
+          termMy: "ကြိမ်နှုန်းဇယား (Frequency Table)",
+          matchEn:
+              "A table listing each category alongside the number of times it occurs",
+          matchMy:
+              "အမျိုးအစားတစ်ခုစီနှင့် ၎င်းဖြစ်ပေါ်သည့်အကြိမ်အရေအတွက်ကို ယှဉ်တွဲစာရင်းပြုစုထားသောဇယား",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w21-dm-4",
+          termEn: "Frequency",
+          termMy: "ကြိမ်နှုန်း (Frequency)",
+          matchEn:
+              "The number of times a particular value or category occurs in a set of data",
+          matchMy:
+              "အချက်အလက်အစုတစ်ခုတွင် တန်ဖိုးတစ်ခု (သို့) အမျိုးအစားတစ်ခု ဖြစ်ပေါ်သည့် အကြိမ်အရေအတွက်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w21-dm-5",
+          termEn: "Questionnaire",
+          termMy: "မေးခွန်းလွှာ (Questionnaire)",
+          matchEn:
+              "A set of written questions used to collect data or opinions from a group of people",
+          matchMy:
+              "လူအုပ်စုတစ်ခုထံမှ အချက်အလက် (သို့) အမြင်များကို စုဆောင်းရန် သုံးသော ရေးသားထားသောမေးခွန်းစု",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w21-dm-6",
+          termEn: "Data",
+          termMy: "အချက်အလက် (Data)",
+          matchEn:
+              "Facts, numbers, or information collected for a purpose, such as customer preferences",
+          matchMy:
+              "ဖောက်သည်နှစ်သက်မှုကဲ့သို့ ရည်ရွယ်ချက်တစ်ခုအတွက် စုဆောင်းထားသော အချက်အလက်၊ ဂဏန်း (သို့) သတင်းအချက်အလက်များ",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Poor Questionnaire Question?",
+      titleMy: "စီစစ်ကြမည် - ကောင်းသောမေးခွန်းလား ညံ့သောမေးခွန်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Good Questionnaire Question (Clear and fair)",
+          "Poor Questionnaire Question (Vague or leading)",
+        ],
+        bucketsMy: [
+          "ကောင်းသော မေးခွန်းလွှာမေးခွန်း (ရှင်းလင်းပြီး ဘက်လိုက်မှုမရှိ)",
+          "ညံ့သော မေးခွန်းလွှာမေးခွန်း (မရှင်းလင်း သို့မဟုတ် ဦးတည်ဖော်ပြသော)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w21-sort-1",
+            labelEn:
+                "How many bowls of mohinga do you eat in a typical week? (0, 1-2, 3-4, 5+)",
+            labelMy:
+                "ပုံမှန်အားဖြင့် တစ်ပတ်လျှင် မုန့်ဟင်းခါးမည်မျှစားလေ့ရှိပါသနည်း။ (၀၊ ၁-၂၊ ၃-၄၊ ၅+)",
+            correctBucketEn: "Good Questionnaire Question (Clear and fair)",
+            correctBucketMy:
+                "ကောင်းသော မေးခွန်းလွှာမေးခွန်း (ရှင်းလင်းပြီး ဘက်လိုက်မှုမရှိ)",
+          ),
+          SortingItem(
+            id: "s1math-w21-sort-2",
+            labelEn:
+                "Don't you agree that mohinga is the best breakfast in Mandalay?",
+            labelMy:
+                "မန္တလေးမှာ မုန့်ဟင်းခါးက အကောင်းဆုံး မနက်စာပဲလို့ သဘောမတူပါဘူးလား။",
+            correctBucketEn: "Poor Questionnaire Question (Vague or leading)",
+            correctBucketMy:
+                "ညံ့သော မေးခွန်းလွှာမေးခွန်း (မရှင်းလင်း သို့မဟုတ် ဦးတည်ဖော်ပြသော)",
+          ),
+          SortingItem(
+            id: "s1math-w21-sort-3",
+            labelEn:
+                "Which topping do you prefer: egg, chickpea fritter, or fried onion?",
+            labelMy:
+                "မည်သည့်ထပ်ဆင့်ပစ္စည်းကို ပိုနှစ်သက်ပါသနည်း - ကြက်ဥ၊ ပဲကြော်၊ (သို့) ကြက်သွန်ကြော်။",
+            correctBucketEn: "Good Questionnaire Question (Clear and fair)",
+            correctBucketMy:
+                "ကောင်းသော မေးခွန်းလွှာမေးခွန်း (ရှင်းလင်းပြီး ဘက်လိုက်မှုမရှိ)",
+          ),
+          SortingItem(
+            id: "s1math-w21-sort-4",
+            labelEn: "How do you feel about food in general?",
+            labelMy: "အစားအစာနှင့်ပတ်သက်၍ ယေဘုယျအားဖြင့် မည်သို့ခံစားရပါသနည်း။",
+            correctBucketEn: "Poor Questionnaire Question (Vague or leading)",
+            correctBucketMy:
+                "ညံ့သော မေးခွန်းလွှာမေးခွန်း (မရှင်းလင်း သို့မဟုတ် ဦးတည်ဖော်ပြသော)",
+          ),
+          SortingItem(
+            id: "s1math-w21-sort-5",
+            labelEn: "On a scale of 1 to 5, how would you rate today's soup?",
+            labelMy:
+                "၁ မှ ၅ အထိရှိသော အဆင့်သတ်မှတ်ချက်ဖြင့် ဒီနေ့ ဟင်းရည်ကို မည်သို့အဆင့်သတ်မှတ်မည်နည်း။",
+            correctBucketEn: "Good Questionnaire Question (Clear and fair)",
+            correctBucketMy:
+                "ကောင်းသော မေးခွန်းလွှာမေးခွန်း (ရှင်းလင်းပြီး ဘက်လိုက်မှုမရှိ)",
+          ),
+          SortingItem(
+            id: "s1math-w21-sort-6",
+            labelEn: "Isn't the crispy fritter obviously the tastiest topping?",
+            labelMy:
+                "ကြွပ်ကြွပ်ပဲကြော်က အအရသာရှိဆုံးထပ်ဆင့်ပစ္စည်း ရှင်းရှင်းလင်းလင်းပဲမဟုတ်လား။",
+            correctBucketEn: "Poor Questionnaire Question (Vague or leading)",
+            correctBucketMy:
+                "ညံ့သော မေးခွန်းလွှာမေးခွန်း (မရှင်းလင်း သို့မဟုတ် ဦးတည်ဖော်ပြသော)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Topping Questionnaire",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ထပ်ဆင့်ပစ္စည်း နှစ်သက်မှု မေးခွန်းလွှာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Topping Questionnaire",
+        titleMy: "စုစု၏ ထပ်ဆင့်ပစ္စည်း နှစ်သက်မှု မေးခွန်းလွှာ",
+        passageEn:
+            "Su Su's mother wanted to know which mohinga topping -- boiled egg, crispy chickpea fritter, or fried onion -- was most popular with customers, so that she could buy the right amount of each ingredient every morning. Su Su suggested designing a short questionnaire instead of just guessing, since a fair set of questions asked to many customers would give a much more reliable answer than one or two opinions. She wrote a single clear question on a small card: \"Which topping do you like best on your mohinga: egg, chickpea fritter, or fried onion?\" and pinned a pencil beside it so customers could tick their answer quickly.\n\nRather than write out every single answer in full, Su Su used a tally chart taped to the side of the counter, with one column for each topping. Every time a customer answered, she added one tally mark to the matching column, grouping every fifth mark with a stroke across the first four so the marks stayed easy to count. By the end of the morning, the egg column showed |||| |||| ||, the chickpea column showed |||| |||, and the fried onion column showed |||| .\n\nAt lunchtime, Su Su converted her tally chart into a frequency table so her mother could read it at a glance: egg mohinga had a frequency of 12, chickpea fritter had a frequency of 8, and fried onion had a frequency of 5. Her mother was delighted -- now she knew exactly how many eggs to boil and how much chickpea fritter to prepare each morning, all because Su Su had turned a simple questionnaire and a tally chart into real data she could act on.",
+        passageMy:
+            "စုစု၏အမေသည် ကြက်ဥပြုတ်၊ ကြွပ်ကြွပ်ပဲကြော်၊ (သို့) ကြက်သွန်ကြော် -- မည်သည့် မုန့်ဟင်းခါးထပ်ဆင့်ပစ္စည်းကို ဖောက်သည်များ ပိုနှစ်သက်သည်ကို သိလိုပြီး၊ နေ့တိုင်းမနက် ပစ္စည်းတစ်ခုစီကို မှန်ကန်သောပမာဏ ဝယ်ယူနိုင်ရန် ရည်ရွယ်ခဲ့သည်။ စုစုက ခန့်မှန်းရုံသက်သက်ထက် မေးခွန်းလွှာတိုတောင်းတစ်ခု ရေးဆွဲရန် အကြံပြုခဲ့သည်၊ အကြောင်းမှာ ဖောက်သည်များစွာကို ဘက်လိုက်မှုမရှိသောမေးခွန်းများ မေးခြင်းသည် အမြင်တစ်ခု (သို့) နှစ်ခုထက် ပို၍ ယုံကြည်စိတ်ချရသောအဖြေကို ပေးနိုင်သောကြောင့်ဖြစ်သည်။ သူမသည် ကတ်ပြားငယ်တစ်ချပ်ပေါ်တွင် ရှင်းလင်းသောမေးခွန်းတစ်ခုတည်းကို ရေးချခဲ့သည် - \"သင်၏ မုန့်ဟင်းခါးပေါ်တွင် မည်သည့်ထပ်ဆင့်ပစ္စည်းကို အနှစ်သက်ဆုံးနည်း - ကြက်ဥ၊ ပဲကြော်၊ (သို့) ကြက်သွန်ကြော်။\" ထို့နောက် ဖောက်သည်များ အလျင်အမြန် အဖြေအမှတ်ခြစ်နိုင်ရန် ခဲတံတစ်ချောင်းကို ဘေးတွင် ချိတ်ဆွဲထားခဲ့သည်။\n\nအဖြေတစ်ခုစီကို အပြည့်အစုံရေးမည့်အစား စုစုသည် ကောင်တာဘေးတွင် ကပ်ထားသော မှတ်တံဇယားတစ်ခုကို သုံးခဲ့ပြီး ထပ်ဆင့်ပစ္စည်းတစ်ခုစီအတွက် ကော်လံတစ်ခုစီ ခွဲထားခဲ့သည်။ ဖောက်သည်တစ်ဦးဖြေတိုင်း သက်ဆိုင်ရာကော်လံတွင် မှတ်တံတစ်ချက် ထပ်ထည့်ခဲ့ပြီး၊ မှတ်တံများကို ရေတွက်ရလွယ်ကူစေရန် ပဉ္စမမှတ်တံတိုင်း ပထမလေးချက်အပေါ် ဖြတ်၍ရေးခဲ့သည်။ မနက်ခင်းအဆုံးတွင် ကြက်ဥကော်လံသည် |||| |||| || ဟု၊ ပဲကြော်ကော်လံသည် |||| ||| ဟု၊ ကြက်သွန်ကြော်ကော်လံသည် |||| ဟု ပြသနေခဲ့သည်။\n\nနေ့လယ်စာအချိန်တွင် စုစုသည် သူမ၏အမေ တစ်ချက်ကြည့်ရုံနှင့် ဖတ်နိုင်ရန် မှတ်တံဇယားကို ကြိမ်နှုန်းဇယားအဖြစ် ပြောင်းလဲပေးခဲ့သည် - ကြက်ဥ မုန့်ဟင်းခါး၏ ကြိမ်နှုန်းမှာ ၁၂ ဖြစ်ပြီး၊ ပဲကြော်၏ ကြိမ်နှုန်းမှာ ၈ ဖြစ်ကာ ကြက်သွန်ကြော်၏ ကြိမ်နှုန်းမှာ ၅ ဖြစ်ခဲ့သည်။ သူမ၏အမေသည် အလွန်ပျော်ရွှင်သွားခဲ့သည် -- ယခုအခါ နေ့တိုင်းမနက် ကြက်ဥမည်မျှပြုတ်ရမည်၊ ပဲကြော်မည်မျှပြင်ဆင်ရမည်ကို အတိအကျသိရှိသွားခဲ့ပြီး၊ ၎င်းအားလုံးသည် စုစုက ရိုးရှင်းသောမေးခွန်းလွှာနှင့် မှတ်တံဇယားတစ်ခုကို သူ၏အမေ လက်တွေ့အသုံးချနိုင်သော အချက်အလက်အစစ်အဖြစ် ပြောင်းလဲပေးခဲ့သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su suggest designing a questionnaire instead of guessing which topping was most popular?",
+            questionMy:
+                "စုစုသည် မည်သည့်ထပ်ဆင့်ပစ္စည်း ပိုနှစ်သက်သည်ကို ခန့်မှန်းမည့်အစား မေးခွန်းလွှာတစ်ခု ရေးဆွဲရန် အဘယ့်ကြောင့် အကြံပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Because asking many customers a fair set of questions gives a more reliable answer than one or two opinions",
+              "Because a questionnaire is faster to draw than a tally chart",
+              "Because her mother told her to skip the tally chart",
+              "Because questionnaires are cheaper than pencils",
+            ],
+            optionsMy: [
+              "ဖောက်သည်များစွာကို ဘက်လိုက်မှုမရှိသောမေးခွန်းများ မေးခြင်းသည် အမြင်တစ်ခု (သို့) နှစ်ခုထက် ပို၍ ယုံကြည်စိတ်ချရသောအဖြေပေးနိုင်သောကြောင့်",
+              "မေးခွန်းလွှာသည် မှတ်တံဇယားထက် ရေးဆွဲရလွယ်ကူသောကြောင့်",
+              "သူမ၏အမေက မှတ်တံဇယားကို ကျော်သွားရန် ပြောခဲ့သောကြောင့်",
+              "မေးခွန်းလွှာများသည် ခဲတံများထက် စျေးသက်သာသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Su Su use to record each customer's answer quickly, without writing out full words?",
+            questionMy:
+                "စုစုသည် ဖောက်သည်တစ်ဦးစီ၏အဖြေကို စကားလုံးအပြည့်အစုံရေးစရာမလိုဘဲ အလျင်အမြန်မှတ်တမ်းတင်ရန် အဘယ်ကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A frequency table",
+              "A tally chart",
+              "A pie chart",
+              "A line graph",
+            ],
+            optionsMy: [
+              "ကြိမ်နှုန်းဇယား (Frequency table)",
+              "မှတ်တံဇယား (Tally chart)",
+              "စက်ဝိုင်းဂရပ် (Pie chart)",
+              "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many tally marks did the egg topping column show by the end of the morning?",
+            questionMy:
+                "စာပိုဒ်အရ မနက်ခင်းအဆုံးတွင် ကြက်ဥထပ်ဆင့်ပစ္စည်းကော်လံသည် မှတ်တံမည်မျှ ပြသခဲ့သနည်း။",
+            optionsEn: ["12", "8", "5", "10"],
+            optionsMy: ["၁၂", "၈", "၅", "၁၀"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Su Su convert her tally chart into so her mother could read the results at a glance?",
+            questionMy:
+                "သူမ၏အမေ တစ်ချက်ကြည့်ရုံနှင့် ရလဒ်များကို ဖတ်နိုင်ရန် စုစုသည် သူမ၏ မှတ်တံဇယားကို အဘယ်အဖြစ် ပြောင်းလဲပေးခဲ့သနည်း။",
+            optionsEn: [
+              "A frequency table",
+              "A pie chart",
+              "A line graph",
+              "A questionnaire",
+            ],
+            optionsMy: [
+              "ကြိမ်နှုန်းဇယား (Frequency table)",
+              "စက်ဝိုင်းဂရပ် (Pie chart)",
+              "မျဉ်းကြောင်းဂရပ် (Line graph)",
+              "မေးခွန်းလွှာ (Questionnaire)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the frequency table in the passage, which topping was the least popular?",
+            questionMy:
+                "စာပိုဒ်ရှိ ကြိမ်နှုန်းဇယားအရ မည်သည့်ထပ်ဆင့်ပစ္စည်းသည် အနည်းဆုံးနှစ်သက်ခံရသနည်း။",
+            optionsEn: [
+              "Fried onion",
+              "Egg",
+              "Chickpea fritter",
+              "They were all equally popular",
+            ],
+            optionsMy: [
+              "ကြက်သွန်ကြော်",
+              "ကြက်ဥ",
+              "ပဲကြော်",
+              "အားလုံး ညီမျှစွာ နှစ်သက်ခံရသည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Collecting Data",
+      titleMy: "အပတ်စဉ် ၂၁ ပြန်လည်သုံးသပ်ခြင်း - အချက်အလက် စုဆောင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A tally chart for 'fried onion orders' shows |||| |||| |. What is the frequency?",
+          questionMy:
+              "'ကြက်သွန်ကြော် မှာယူမှု' အတွက် မှတ်တံဇယားတွင် |||| |||| | ဟုပြထားသည်။ ကြိမ်နှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["9", "10", "11", "12"],
+          optionsMy: ["၉", "၁၀", "၁၁", "၁၂"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is the best tool for collecting the same set of opinions from many different customers?",
+          questionMy:
+              "ဖောက်သည်အမျိုးမျိုးထံမှ အမြင်တူညီသောအစုကို စုဆောင်းရန် အောက်ပါတို့အနက် အကောင်းဆုံးကိရိယာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A bar chart",
+            "A questionnaire",
+            "A line graph",
+            "A pie chart",
+          ],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "မေးခွန်းလွှာ (Questionnaire)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A frequency table shows 'Tea: 15, Coffee: 9'. Which drink has the lower frequency?",
+          questionMy:
+              "ကြိမ်နှုန်းဇယားတွင် 'လက်ဖက်ရည် - ၁၅၊ ကော်ဖီ - ၉' ဟုပြထားသည်။ မည်သည့်ဖျော်ရည်က ကြိမ်နှုန်းနည်းသနည်း။",
+          optionsEn: [
+            "Tea",
+            "Coffee",
+            "They are equal",
+            "Cannot be worked out",
+          ],
+          optionsMy: ["လက်ဖက်ရည်", "ကော်ဖီ", "ညီမျှသည်", "တွက်ချက်၍မရပါ"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"How do you feel about food?\" is a poor questionnaire question because it is:",
+          questionMy:
+              "\"အစားအစာနှင့်ပတ်သက်၍ မည်သို့ခံစားရသနည်း\" သည် ညံ့သောမေးခွန်းဖြစ်ရခြင်းမှာ:",
+          optionsEn: [
+            "Too vague to give a clear, useful answer",
+            "Too short to read",
+            "Written in the wrong language",
+            "Only for adults to answer",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းပြီး အသုံးဝင်သောအဖြေရရှိနိုင်ရန် အလွန်မရှင်းလင်းသောကြောင့်",
+            "ဖတ်ရန် အလွန်တိုတောင်းသောကြောင့်",
+            "မှားယွင်းသောဘာသာစကားဖြင့် ရေးထားသောကြောင့်",
+            "လူကြီးများသာ ဖြေဆိုနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the first step before you can start filling in a tally chart during data collection?",
+          questionMy:
+              "အချက်အလက်စုဆောင်းစဉ် မှတ်တံဇယားကို ဖြည့်စွက်စတင်နိုင်ရန် ပထမဆုံးအဆင့်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Decide on the categories or questions you are collecting data about",
+            "Draw a pie chart first",
+            "Calculate the mean of the data",
+            "Draw a line graph first",
+          ],
+          optionsMy: [
+            "အချက်အလက်စုဆောင်းမည့် အမျိုးအစားများ (သို့) မေးခွန်းများကို ဆုံးဖြတ်ရန်",
+            "ဦးစွာ စက်ဝိုင်းဂရပ်ဆွဲရန်",
+            "အချက်အလက်၏ ပျမ်းမျှကိန်းကို တွက်ချက်ရန်",
+            "ဦးစွာ မျဉ်းကြောင်းဂရပ်ဆွဲရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 6, Week 22: "Averages and Range"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek22 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w22",
+  weekNumber: 22,
+  titleEn: "Averages and Range",
+  titleMy: "ပျမ်းမျှတန်ဖိုးများနှင့် ကွာခြားမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w22-d1",
+      dayNumber: 1,
+      titleEn: "Mean, Median, Mode and Range",
+      titleMy: "ပျမ်းမျှကိန်း၊ အလယ်ကိန်း၊ အများဆုံးကိန်းနှင့် ကွာခြားမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the mean of this data set: 4, 6, 8.",
+          questionMy: "ဤအချက်အလက်အစု၏ ပျမ်းမျှကိန်းကို ရှာပါ - 4, 6, 8.",
+          optionsEn: ["6", "18", "4", "8"],
+          optionsMy: ["6", "18", "4", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the median of this ordered data set: 3, 5, 7, 9, 11.",
+          questionMy:
+              "ဤစီစဉ်ထားသောအချက်အလက်အစု၏ အလယ်ကိန်းကို ရှာပါ - 3, 5, 7, 9, 11.",
+          optionsEn: ["9", "5", "7", "11"],
+          optionsMy: ["9", "5", "7", "11"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Find the mode of this data set: 2, 2, 3, 5, 5, 5.",
+          questionMy:
+              "ဤအချက်အလက်အစု၏ အများဆုံးကိန်းကို ရှာပါ - 2, 2, 3, 5, 5, 5.",
+          optionsEn: ["2", "3", "5", "There is no mode"],
+          optionsMy: ["2", "3", "5", "အများဆုံးကိန်း မရှိပါ"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Find the range of this data set: 10, 3, 8, 15, 6.",
+          questionMy: "ဤအချက်အလက်အစု၏ ကွာခြားမှုကို ရှာပါ - 10, 3, 8, 15, 6.",
+          optionsEn: ["12", "15", "3", "18"],
+          optionsMy: ["12", "15", "3", "18"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The ordered data set 2, 4, 7, 9 has an even number of values. What is its median?",
+          questionMy:
+              "စီစဉ်ထားသောအချက်အလက်အစု 2, 4, 7, 9 တွင် တန်ဖိုးအရေအတွက်သည် စုံကိန်းဖြစ်သည်။ ၎င်း၏ အလယ်ကိန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["5.5", "4", "7", "11"],
+          optionsMy: ["5.5", "4", "7", "11"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match the Averages Vocabulary",
+      titleMy: "ပျမ်းမျှတန်ဖိုးများ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w22-dm-1",
+          termEn: "Mean",
+          termMy: "ပျမ်းမျှကိန်း (Mean)",
+          matchEn:
+              "The sum of all the values in a data set divided by how many values there are",
+          matchMy:
+              "အချက်အလက်အစုတစ်ခုရှိ တန်ဖိုးအားလုံး၏ ပေါင်းလဒ်ကို တန်ဖိုးအရေအတွက်ဖြင့် စားလိုက်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w22-dm-2",
+          termEn: "Median",
+          termMy: "အလယ်ကိန်း (Median)",
+          matchEn:
+              "The middle value of a data set once all the values are placed in order",
+          matchMy: "တန်ဖိုးအားလုံးကို စီစဉ်ပြီးနောက် ရရှိသော အလယ်ဗဟိုတန်ဖိုး",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w22-dm-3",
+          termEn: "Mode",
+          termMy: "အများဆုံးကိန်း (Mode)",
+          matchEn: "The value that appears most often in a data set",
+          matchMy: "အချက်အလက်အစုတစ်ခုတွင် အများဆုံးပေါ်နေသော တန်ဖိုး",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w22-dm-4",
+          termEn: "Range",
+          termMy: "ကွာခြားမှု (Range)",
+          matchEn:
+              "The difference between the largest and smallest value in a data set",
+          matchMy:
+              "အချက်အလက်အစုတစ်ခုတွင် အကြီးဆုံးတန်ဖိုးနှင့် အငယ်ဆုံးတန်ဖိုး၏ ကွာခြားချက်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w22-dm-5",
+          termEn: "Ordered Data",
+          termMy: "စီစဉ်ထားသောအချက်အလက် (Ordered Data)",
+          matchEn:
+              "Data arranged from smallest to largest, needed before finding the median",
+          matchMy:
+              "အလယ်ကိန်းမရှာမီ လိုအပ်သော၊ အငယ်ဆုံးမှ အကြီးဆုံးအထိ စီစဉ်ထားသောအချက်အလက်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w22-dm-6",
+          termEn: "Sum",
+          termMy: "ပေါင်းလဒ် (Sum)",
+          matchEn:
+              "The total obtained by adding every value together, the first step in finding the mean",
+          matchMy:
+              "တန်ဖိုးတိုင်းကို အတူတကွပေါင်းလိုက်ခြင်းဖြင့် ရရှိသောစုစုပေါင်း၊ ပျမ်းမျှကိန်းရှာရန် ပထမအဆင့်",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Average or Spread?",
+      titleMy: "စီစစ်ကြမည် - ပျမ်းမျှတန်ဖိုးလား ကွဲပြားမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Measure of Average (Mean, Median or Mode)",
+          "Measure of Spread (Range)",
+        ],
+        bucketsMy: [
+          "ပျမ်းမျှတန်ဖိုး တိုင်းတာမှု (Mean, Median သို့မဟုတ် Mode)",
+          "ကွဲပြားမှု တိုင်းတာမှု (Range)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w22-sort-1",
+            labelEn:
+                "Adding up 7 days' takings and dividing by 7 to find the typical daily amount",
+            labelMy:
+                "၇ ရက်စာ ဝင်ငွေကို ပေါင်းပြီး ၇ ဖြင့်စားကာ ပုံမှန်နေ့စဉ်ပမာဏကို ရှာခြင်း",
+            correctBucketEn: "Measure of Average (Mean, Median or Mode)",
+            correctBucketMy:
+                "ပျမ်းမျှတန်ဖိုး တိုင်းတာမှု (Mean, Median သို့မဟုတ် Mode)",
+          ),
+          SortingItem(
+            id: "s1math-w22-sort-2",
+            labelEn:
+                "The middle sales figure when 7 days' takings are lined up from lowest to highest",
+            labelMy:
+                "၇ ရက်စာ ဝင်ငွေကို အနည်းဆုံးမှ အများဆုံးအထိ စီထားသောအခါ အလယ်ဗဟိုတန်ဖိုး",
+            correctBucketEn: "Measure of Average (Mean, Median or Mode)",
+            correctBucketMy:
+                "ပျမ်းမျှတန်ဖိုး တိုင်းတာမှု (Mean, Median သို့မဟုတ် Mode)",
+          ),
+          SortingItem(
+            id: "s1math-w22-sort-3",
+            labelEn: "The topping ordered most often by customers this week",
+            labelMy: "ဒီအပတ် ဖောက်သည်များ အများဆုံးမှာယူသော ထပ်ဆင့်ပစ္စည်း",
+            correctBucketEn: "Measure of Average (Mean, Median or Mode)",
+            correctBucketMy:
+                "ပျမ်းမျှတန်ဖိုး တိုင်းတာမှု (Mean, Median သို့မဟုတ် Mode)",
+          ),
+          SortingItem(
+            id: "s1math-w22-sort-4",
+            labelEn:
+                "The difference between the highest day's takings and the lowest day's takings",
+            labelMy:
+                "အများဆုံးရရှိသောနေ့ ဝင်ငွေနှင့် အနည်းဆုံးရရှိသောနေ့ ဝင်ငွေ၏ ကွာခြားချက်",
+            correctBucketEn: "Measure of Spread (Range)",
+            correctBucketMy: "ကွဲပြားမှု တိုင်းတာမှု (Range)",
+          ),
+          SortingItem(
+            id: "s1math-w22-sort-5",
+            labelEn:
+                "How far apart the busiest day and the quietest day were in number of bowls sold",
+            labelMy:
+                "အလုပ်ရှုပ်ဆုံးနေ့နှင့် အနှေးဆုံးနေ့ ရောင်းချသောပွဲရေ ကွာခြားမှု",
+            correctBucketEn: "Measure of Spread (Range)",
+            correctBucketMy: "ကွဲပြားမှု တိုင်းတာမှု (Range)",
+          ),
+          SortingItem(
+            id: "s1math-w22-sort-6",
+            labelEn:
+                "The gap between the most bowls sold in one day and the fewest bowls sold in one day",
+            labelMy:
+                "တစ်နေ့တည်းတွင် အများဆုံးရောင်းချသောပွဲရေနှင့် အနည်းဆုံးရောင်းချသောပွဲရေ၏ ကွာခြားချက်",
+            correctBucketEn: "Measure of Spread (Range)",
+            correctBucketMy: "ကွဲပြားမှု တိုင်းတာမှု (Range)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Week of Sales",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ရောင်းအား တစ်ပတ်စာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Week of Sales",
+        titleMy: "စုစု၏ ရောင်းအား တစ်ပတ်စာ",
+        passageEn:
+            "After a month of running her topping questionnaire, Su Su's mother asked a new question: how many bowls of mohinga did the stall typically sell in a day, and how much did that number change from day to day? Su Su decided to record the number of bowls sold each day for one full week: Monday 40, Tuesday 45, Wednesday 60, Thursday 50, Friday 55, Saturday 70, and Sunday 40.\n\nTo find the typical number of bowls sold per day, Su Su calculated the mean: she added all seven numbers together (40 + 45 + 60 + 50 + 55 + 70 + 40 = 360) and divided by 7, giving a mean of about 51 bowls a day (360 ÷ 7 = 51.4, rounded to the nearest whole bowl). Next, she found the median by writing the numbers in order -- 40, 40, 45, 50, 55, 60, 70 -- and picking the middle value, which was 50. She also noticed that 40 appeared twice, more than any other number, making 40 the mode.\n\nFinally, Su Su calculated the range to see how much the daily sales varied: the busiest day, Saturday, sold 70 bowls, and the quietest days, Monday and Sunday, sold 40 bowls each, so the range was 70 - 40 = 30 bowls. She told her mother that although the average day sold about 50 bowls, the stall needed to prepare for swings of up to 30 bowls between its busiest and quietest days -- proof that a single average number does not tell the whole story.",
+        passageMy:
+            "ထပ်ဆင့်ပစ္စည်း မေးခွန်းလွှာကို တစ်လကြာ လုပ်ဆောင်ပြီးနောက် စုစု၏အမေသည် မေးခွန်းအသစ်တစ်ခု မေးမြန်းခဲ့သည် - ဆိုင်သည် ပုံမှန်တစ်နေ့လျှင် မုန့်ဟင်းခါးပွဲရေ မည်မျှရောင်းချနိုင်ပြီး၊ ထိုအရေအတွက်သည် နေ့စဉ် မည်မျှပြောင်းလဲနေသနည်း။ စုစုသည် တစ်ပတ်စာ နေ့စဉ်ရောင်းချသောပွဲရေကို မှတ်တမ်းတင်ရန် ဆုံးဖြတ်ခဲ့သည် - တနင်္လာနေ့ ၄၀၊ အင်္ဂါနေ့ ၄၅၊ ဗုဒ္ဓဟူးနေ့ ၆၀၊ ကြာသပတေးနေ့ ၅၀၊ သောကြာနေ့ ၅၅၊ စနေနေ့ ၇၀၊ တနင်္ဂနွေနေ့ ၄၀။\n\nတစ်နေ့လျှင် ပုံမှန်ရောင်းချသောပွဲရေကို ရှာရန် စုစုသည် ပျမ်းမျှကိန်းကို တွက်ချက်ခဲ့သည် - ခုနှစ်ရက်စာ ဂဏန်းအားလုံးကို ပေါင်းလိုက်ရာ (၄၀ + ၄၅ + ၆၀ + ၅၀ + ၅၅ + ၇၀ + ၄၀ = ၃၆၀) ၇ ဖြင့်စားလိုက်ရာ တစ်ရက်လျှင် ပျမ်းမျှ ပွဲရေ ၅၁ ခန့် ရရှိခဲ့သည် (၃၆၀ ÷ ၇ = ၅၁.၄၊ အနီးဆုံးပွဲအဖြစ် ရေတွက်လိုက်ခြင်းဖြစ်သည်)။ ထို့နောက် သူမသည် ဂဏန်းများကို စီစဉ်ရေးချခဲ့ပြီး -- ၄၀၊ ၄၀၊ ၄၅၊ ၅၀၊ ၅၅၊ ၆၀၊ ၇၀ -- အလယ်ဗဟိုတန်ဖိုးဖြစ်သည့် ၅၀ ကို ရွေးချယ်ကာ အလယ်ကိန်းအဖြစ်ရှာတွေ့ခဲ့သည်။ သူမသည် အခြားဂဏန်းများထက် ၄၀ သည် နှစ်ကြိမ်ပေါ်နေကြောင်း သတိပြုမိကာ ၄၀ ကို အများဆုံးကိန်းအဖြစ် သတ်မှတ်ခဲ့သည်။\n\nနောက်ဆုံးတွင် စုစုသည် နေ့စဉ်ရောင်းအား မည်မျှကွဲပြားသည်ကို ကြည့်ရန် ကွာခြားမှုကို တွက်ချက်ခဲ့သည် - အလုပ်ရှုပ်ဆုံးနေ့ဖြစ်သော စနေနေ့တွင် ပွဲရေ ၇၀ ရောင်းချနိုင်ပြီး၊ အနှေးဆုံးနေ့များဖြစ်သော တနင်္လာနေ့နှင့် တနင်္ဂနွေနေ့တွင် ပွဲရေ ၄၀ စီသာ ရောင်းချနိုင်ခဲ့သောကြောင့် ကွာခြားမှုမှာ ၇၀ - ၄၀ = ၃၀ ပွဲ ဖြစ်ခဲ့သည်။ သူမသည် ပျမ်းမျှတစ်နေ့လျှင် ပွဲရေ ၅၀ ခန့်သာ ရောင်းချနိုင်သော်လည်း၊ ဆိုင်သည် အလုပ်ရှုပ်ဆုံးနေ့နှင့် အနှေးဆုံးနေ့ကြား ပွဲရေ ၃၀ အထိ ကွာခြားနိုင်သည့်အတွက် ပြင်ဆင်ထားရမည်ဖြစ်ကြောင်း -- ပျမ်းမျှဂဏန်းတစ်ခုတည်းက အကြောင်းအရာအားလုံးကို မဖော်ပြနိုင်ကြောင်း အထောက်အထား -- သူမ၏အမေအား ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the mean number of bowls sold per day, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ တစ်ရက်လျှင် ပျမ်းမျှရောင်းချသောပွဲရေမှာ အဘယ်မျှနည်း။",
+            optionsEn: [
+              "About 51 bowls",
+              "About 40 bowls",
+              "About 70 bowls",
+              "About 30 bowls",
+            ],
+            optionsMy: [
+              "ပွဲရေ ၅၁ ခန့်",
+              "ပွဲရေ ၄၀ ခန့်",
+              "ပွဲရေ ၇၀ ခန့်",
+              "ပွဲရေ ၃၀ ခန့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the median of the week's sales?",
+            questionMy: "ဤအပတ်စာ ရောင်းအား၏ အလယ်ကိန်းမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["50", "40", "70", "51"],
+            optionsMy: ["၅၀", "၄၀", "၇၀", "၅၁"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which number was the mode of the week's sales?",
+            questionMy:
+                "ဤအပတ်စာ ရောင်းအား၏ အများဆုံးကိန်းမှာ မည်သည့်ဂဏန်းဖြစ်သနည်း။",
+            optionsEn: ["40", "50", "70", "45"],
+            optionsMy: ["၄၀", "၅၀", "၇၀", "၄၅"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the range of the week's sales?",
+            questionMy: "ဤအပတ်စာ ရောင်းအား၏ ကွာခြားမှုမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["30 bowls", "70 bowls", "40 bowls", "51 bowls"],
+            optionsMy: ["ပွဲရေ ၃၀", "ပွဲရေ ၇၀", "ပွဲရေ ၄၀", "ပွဲရေ ၅၁"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Su Su say a single average number does not tell the whole story?",
+            questionMy:
+                "စာပိုဒ်အရ ပျမ်းမျှဂဏန်းတစ်ခုတည်းက အကြောင်းအရာအားလုံးကို မဖော်ပြနိုင်ကြောင်း စုစု အဘယ့်ကြောင့် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "Because it does not show how much the daily sales varied between the busiest and quietest days",
+              "Because the mean is always the wrong number",
+              "Because averages cannot be calculated for money",
+              "Because her mother did not believe in mathematics",
+            ],
+            optionsMy: [
+              "အလုပ်ရှုပ်ဆုံးနေ့နှင့် အနှေးဆုံးနေ့ကြား နေ့စဉ်ရောင်းအား မည်မျှကွာခြားသည်ကို မပြသနိုင်သောကြောင့်",
+              "ပျမ်းမျှကိန်းသည် အမြဲမှားယွင်းသောဂဏန်းဖြစ်သောကြောင့်",
+              "ငွေကြေးအတွက် ပျမ်းမျှတန်ဖိုးကို တွက်ချက်၍မရသောကြောင့်",
+              "သူမ၏အမေသည် သင်္ချာကို မယုံကြည်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Averages and Range",
+      titleMy:
+          "အပတ်စဉ် ၂၂ ပြန်လည်သုံးသပ်ခြင်း - ပျမ်းမျှတန်ဖိုးများနှင့် ကွာခြားမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the mean of this data set: 5, 9, 13.",
+          questionMy: "ဤအချက်အလက်အစု၏ ပျမ်းမျှကိန်းကို ရှာပါ - 5, 9, 13.",
+          optionsEn: ["9", "27", "13", "5"],
+          optionsMy: ["9", "27", "13", "5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the median of this ordered data set: 2, 4, 6, 8, 10.",
+          questionMy:
+              "ဤစီစဉ်ထားသောအချက်အလက်အစု၏ အလယ်ကိန်းကို ရှာပါ - 2, 4, 6, 8, 10.",
+          optionsEn: ["6", "4", "8", "5"],
+          optionsMy: ["6", "4", "8", "5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Find the mode of this data set: 7, 8, 8, 9, 9, 9.",
+          questionMy:
+              "ဤအချက်အလက်အစု၏ အများဆုံးကိန်းကို ရှာပါ - 7, 8, 8, 9, 9, 9.",
+          optionsEn: ["9", "8", "7", "There is no mode"],
+          optionsMy: ["9", "8", "7", "အများဆုံးကိန်း မရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Find the range of this data set: 22, 5, 18, 30, 12.",
+          questionMy: "ဤအချက်အလက်အစု၏ ကွာခြားမှုကို ရှာပါ - 22, 5, 18, 30, 12.",
+          optionsEn: ["25", "30", "5", "35"],
+          optionsMy: ["25", "30", "5", "35"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which measure tells you the value that appears most often in a data set?",
+          questionMy:
+              "အချက်အလက်အစုတစ်ခုတွင် အများဆုံးပေါ်နေသောတန်ဖိုးကို မည်သည့်တိုင်းတာမှုက ပြသသနည်း။",
+          optionsEn: ["Mode", "Mean", "Median", "Range"],
+          optionsMy: [
+            "အများဆုံးကိန်း (Mode)",
+            "ပျမ်းမျှကိန်း (Mean)",
+            "အလယ်ကိန်း (Median)",
+            "ကွာခြားမှု (Range)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 6, Week 23: "Charts and Graphs"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek23 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w23",
+  weekNumber: 23,
+  titleEn: "Charts and Graphs",
+  titleMy: "ဇယားများနှင့် ဂရပ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w23-d1",
+      dayNumber: 1,
+      titleEn: "Reading and Building Charts",
+      titleMy: "ဇယားများ ဖတ်ခြင်းနှင့် တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which type of chart uses rectangular bars to compare the size of different categories?",
+          questionMy:
+              "မည်သည့်ဇယားအမျိုးအစားက အမျိုးအစားများ၏ အရွယ်အစားကို နှိုင်းယှဉ်ရန် ထောင့်မှန်ဘားများကို အသုံးပြုသနည်း။",
+          optionsEn: ["Bar chart", "Pie chart", "Line graph", "Tally chart"],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of chart uses a circle divided into slices to show each category's proportion of a whole?",
+          questionMy:
+              "မည်သည့်ဇယားအမျိုးအစားက အမျိုးအစားတစ်ခုစီ၏ စုစုပေါင်းအနက်ပါဝင်သော အချိုးအစားကို ပြသရန် ပိုင်းခြားထားသော စက်ဝိုင်းတစ်ခုကို အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Bar chart",
+            "Pie chart",
+            "Line graph",
+            "Frequency table",
+          ],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "ကြိမ်နှုန်းဇယား (Frequency table)",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of graph is best for showing how a value changes over time, such as daily takings across a week?",
+          questionMy:
+              "တစ်ပတ်စာ နေ့စဉ်ဝင်ငွေကဲ့သို့ တန်ဖိုးတစ်ခု အချိန်နှင့်အမျှ မည်သို့ပြောင်းလဲသည်ကို ပြသရန် မည်သည့်ဂရပ်အမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: ["Bar chart", "Pie chart", "Line graph", "Tally chart"],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A pie chart's full circle represents 360°. If one topping makes up half of all orders, how many degrees should its slice measure?",
+          questionMy:
+              "စက်ဝိုင်းဂရပ်တစ်ခု၏ စက်ဝိုင်းအပြည့်သည် 360° ကို ကိုယ်စားပြုသည်။ ထပ်ဆင့်ပစ္စည်းတစ်ခုသည် မှာယူမှုအားလုံး၏ ထက်ဝက်ရှိပါက ၎င်း၏ အပိုင်းသည် ဒီဂရီမည်မျှရှိသင့်သနည်း။",
+          optionsEn: ["90°", "180°", "270°", "360°"],
+          optionsMy: ["90°", "180°", "270°", "360°"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a bar chart, what does the height of each bar represent?",
+          questionMy:
+              "ဘားဂရပ်တစ်ခုတွင် ဘားတစ်ခုစီ၏ အမြင့်သည် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "The frequency or value for that category",
+            "The colour of the category",
+            "The order the bars were drawn in",
+            "The total number of bars",
+          ],
+          optionsMy: [
+            "ထိုအမျိုးအစား၏ ကြိမ်နှုန်း (သို့) တန်ဖိုး",
+            "အမျိုးအစား၏ အရောင်",
+            "ဘားများ ဆွဲထားသောအစီအစဉ်",
+            "ဘားစုစုပေါင်းအရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match the Charts and Graphs Vocabulary",
+      titleMy: "ဇယားများနှင့် ဂရပ်များ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w23-dm-1",
+          termEn: "Bar Chart",
+          termMy: "ဘားဂရပ် (Bar Chart)",
+          matchEn:
+              "A chart using rectangular bars of different heights to compare categories",
+          matchMy:
+              "အမျိုးအစားများကို နှိုင်းယှဉ်ရန် အမြင့်အမျိုးမျိုးရှိသော ထောင့်မှန်ဘားများကို အသုံးပြုသောဇယား",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w23-dm-2",
+          termEn: "Pie Chart",
+          termMy: "စက်ဝိုင်းဂရပ် (Pie Chart)",
+          matchEn:
+              "A circular chart divided into slices, each slice showing a category's share of the whole 360°",
+          matchMy:
+              "အပိုင်းများခွဲပိုင်းထားသော စက်ဝိုင်းပုံသဏ္ဍာန်ဇယား၊ အပိုင်းတစ်ခုစီက စုစုပေါင်း 360° အနက် အမျိုးအစားတစ်ခု၏ ဝေစုကို ပြသသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w23-dm-3",
+          termEn: "Line Graph",
+          termMy: "မျဉ်းကြောင်းဂရပ် (Line Graph)",
+          matchEn:
+              "A graph that joins points with a line to show how data changes over time",
+          matchMy:
+              "အချက်အလက် အချိန်နှင့်အမျှ မည်သို့ပြောင်းလဲသည်ကို ပြသရန် အမှတ်များကို မျဉ်းဖြင့်ဆက်ပေးသောဂရပ်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w23-dm-4",
+          termEn: "Axis",
+          termMy: "ဝင်ရိုးမျဉ်း (Axis)",
+          matchEn:
+              "A labelled reference line, horizontal or vertical, used to read values off a chart",
+          matchMy:
+              "ဇယားတစ်ခုမှ တန်ဖိုးများကို ဖတ်ရန် သုံးသော အလျားလိုက် (သို့) ဒေါင်လိုက် အမည်တပ်ထားသောရည်ညွှန်းမျဉ်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w23-dm-5",
+          termEn: "Proportion",
+          termMy: "အချိုးအစား (Proportion)",
+          matchEn:
+              "A category's share of the data, shown as a slice's angle out of a pie chart's 360°",
+          matchMy:
+              "စက်ဝိုင်းဂရပ်တစ်ခု၏ 360° အနက် အပိုင်းတစ်ခု၏ ထောင့်ဖြင့် ပြသသော အမျိုးအစားတစ်ခု၏ အချက်အလက်ဝေစု",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w23-dm-6",
+          termEn: "Trend",
+          termMy: "လမ်းကြောင်းအလားအလာ (Trend)",
+          matchEn:
+              "The general direction data moves in over time, such as rising, falling, or staying steady",
+          matchMy:
+              "အချိန်နှင့်အမျှ တက်လာခြင်း၊ ကျဆင်းခြင်း (သို့) တည်ငြိမ်နေခြင်းကဲ့သို့ အချက်အလက်၏ ယေဘုယျရွေ့လျားလမ်းကြောင်း",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bar/Pie Chart or Line Graph?",
+      titleMy: "စီစစ်ကြမည် - ဘား/စက်ဝိုင်းဂရပ်လား မျဉ်းကြောင်းဂရပ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Best Shown on a Bar or Pie Chart",
+          "Best Shown on a Line Graph",
+        ],
+        bucketsMy: [
+          "ဘားဂရပ် (သို့) စက်ဝိုင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          "မျဉ်းကြောင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w23-sort-1",
+            labelEn:
+                "Comparing how many bowls of egg, chickpea, and plain mohinga were sold today",
+            labelMy:
+                "ဒီနေ့ ကြက်ဥ၊ ပဲကြော်နှင့် ဟင်းရည်သီးသန့် မုန့်ဟင်းခါး ပွဲရေ မည်မျှစီရောင်းချသနည်း နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Best Shown on a Bar or Pie Chart",
+            correctBucketMy:
+                "ဘားဂရပ် (သို့) စက်ဝိုင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+          SortingItem(
+            id: "s1math-w23-sort-2",
+            labelEn:
+                "Showing the stall's daily takings across every day of the week",
+            labelMy: "ဆိုင်၏ တစ်ပတ်လုံး နေ့စဉ်ဝင်ငွေကို ပြသခြင်း",
+            correctBucketEn: "Best Shown on a Line Graph",
+            correctBucketMy: "မျဉ်းကြောင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+          SortingItem(
+            id: "s1math-w23-sort-3",
+            labelEn:
+                "Showing what proportion of this week's customers preferred each topping",
+            labelMy:
+                "ဒီအပတ် ဖောက်သည်များ ထပ်ဆင့်ပစ္စည်းတစ်ခုစီကို မည်မျှအချိုးအစားနှစ်သက်သည်ကို ပြသခြင်း",
+            correctBucketEn: "Best Shown on a Bar or Pie Chart",
+            correctBucketMy:
+                "ဘားဂရပ် (သို့) စက်ဝိုင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+          SortingItem(
+            id: "s1math-w23-sort-4",
+            labelEn:
+                "Tracking how the price of rice noodles has changed month by month this year",
+            labelMy:
+                "ဒီနှစ် ဆန်ခေါက်ဆွဲစျေးနှုန်း လစဉ်မည်သို့ပြောင်းလဲနေသည်ကို ခြေရာခံခြင်း",
+            correctBucketEn: "Best Shown on a Line Graph",
+            correctBucketMy: "မျဉ်းကြောင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+          SortingItem(
+            id: "s1math-w23-sort-5",
+            labelEn:
+                "Comparing the number of customers who visited on Monday, Wednesday, and Friday",
+            labelMy:
+                "တနင်္လာ၊ ဗုဒ္ဓဟူးနှင့် သောကြာနေ့များတွင် လာရောက်သောဖောက်သည်အရေအတွက် နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Best Shown on a Bar or Pie Chart",
+            correctBucketMy:
+                "ဘားဂရပ် (သို့) စက်ဝိုင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+          SortingItem(
+            id: "s1math-w23-sort-6",
+            labelEn:
+                "Showing how the number of morning customers changed hour by hour from 6am to 10am",
+            labelMy:
+                "မနက် ၆ နာရီမှ ၁၀ နာရီအထိ ဖောက်သည်အရေအတွက် နာရီအလိုက် မည်သို့ပြောင်းလဲသည်ကို ပြသခြင်း",
+            correctBucketEn: "Best Shown on a Line Graph",
+            correctBucketMy: "မျဉ်းကြောင်းဂရပ်ဖြင့် ပြသရန် အသင့်တော်ဆုံး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Draws the Stall's Charts",
+      titleMy: "စာဖတ်ခြင်း - စုစု ဆိုင်၏ ဂရပ်များ ရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Draws the Stall's Charts",
+        titleMy: "စုစု ဆိုင်၏ ဂရပ်များ ရေးဆွဲခြင်း",
+        passageEn:
+            "With her frequency table (egg: 12, chickpea: 8, fried onion: 5) and her week of daily sales figures still in her notebook, Su Su decided it was time to turn the numbers into pictures her whole family could understand at a glance. She started with a bar chart: along the bottom she wrote the three toppings, and up the side she marked numbers from 0 to 14, then drew a bar for each topping as tall as its frequency -- the egg bar reaching up to 12, the chickpea bar up to 8, and the fried onion bar up to 5. Anyone could see instantly, without reading a single number, that egg mohinga was the stall's clear favourite.\n\nNext, Su Su drew a pie chart to show what proportion of the total 25 orders each topping represented. She remembered that a full circle is 360°, so she calculated each topping's slice: egg was 12 out of 25 orders, which is 12/25 x 360 degrees is about 173 degrees; chickpea was 8 out of 25, or 8/25 x 360 degrees is about 115 degrees; and fried onion was 5 out of 25, or 5/25 x 360 degrees, which is exactly 72 degrees. The three slices together filled the whole circle, giving her mother an instant visual sense of proportion that the frequency table's plain numbers could not show as clearly.\n\nFinally, for her week of daily sales (40, 45, 60, 50, 55, 70, 40 bowls from Monday to Sunday), Su Su chose a line graph instead of a bar chart, since she wanted to show the trend across the week rather than compare separate categories. She plotted a point for each day and joined them with a line, and the rising-and-falling shape made it obvious that sales climbed toward the weekend and dipped again on Sunday -- a pattern that would have been much harder to spot by reading a table of numbers alone.",
+        passageMy:
+            "ကြိမ်နှုန်းဇယား (ကြက်ဥ - ၁၂၊ ပဲကြော် - ၈၊ ကြက်သွန်ကြော် - ၅) နှင့် တစ်ပတ်စာနေ့စဉ်ရောင်းအားဂဏန်းများ သူမ၏မှတ်စုစာအုပ်ထဲတွင် ရှိနေဆဲဖြစ်သည့်အတွက် စုစုသည် ဂဏန်းများကို သူမမိသားစုတစ်ချက်ကြည့်ရုံနှင့် နားလည်နိုင်မည့် ပုံရိပ်များအဖြစ် ပြောင်းလဲရန် အချိန်ကျရောက်ပြီဟု ဆုံးဖြတ်ခဲ့သည်။ သူမသည် ဘားဂရပ်ဖြင့် စတင်ခဲ့သည် - အောက်ခြေတွင် ထပ်ဆင့်ပစ္စည်းသုံးမျိုးကို ရေးချပြီး၊ ဘေးဘက်တွင် ၀ မှ ၁၄ အထိ ဂဏန်းများကို မှတ်သားကာ၊ ထပ်ဆင့်ပစ္စည်းတစ်ခုစီ၏ ကြိမ်နှုန်းအမြင့်ရှိသည့် ဘားများကို ရေးဆွဲခဲ့သည် -- ကြက်ဥဘားသည် ၁၂ အထိ၊ ပဲကြော်ဘားသည် ၈ အထိ၊ ကြက်သွန်ကြော်ဘားသည် ၅ အထိ ရောက်ခဲ့သည်။ မည်သူမဆို ဂဏန်းတစ်လုံးမျှ မဖတ်ဘဲ ကြက်ဥ မုန့်ဟင်းခါးသည် ဆိုင်၏ ရှင်းရှင်းလင်းလင်း အနှစ်သက်ဆုံးဖြစ်ကြောင်း ချက်ချင်းမြင်နိုင်ခဲ့သည်။\n\nထို့နောက် စုစုသည် စုစုပေါင်းမှာယူမှု ၂၅ ခုအနက် ထပ်ဆင့်ပစ္စည်းတစ်ခုစီ၏ ကိုယ်စားပြုအချိုးအစားကို ပြသရန် စက်ဝိုင်းဂရပ်တစ်ခု ရေးဆွဲခဲ့သည်။ စက်ဝိုင်းအပြည့်သည် 360° ဖြစ်ကြောင်း သတိရသဖြင့် ထပ်ဆင့်ပစ္စည်းတစ်ခုစီ၏ အပိုင်းကို တွက်ချက်ခဲ့သည် - ကြက်ဥသည် ၂၅ ခုအနက် ၁၂ ခုဖြစ်ပြီး 12/25 x 360° သည် ခန့်မှန်း 173° ခန့်ဖြစ်သည်၊ ပဲကြော်သည် ၂၅ ခုအနက် ၈ ခုဖြစ်ပြီး 8/25 x 360° သည် ခန့်မှန်း 115° ခန့်ဖြစ်သည်၊ ကြက်သွန်ကြော်သည် ၂၅ ခုအနက် ၅ ခုဖြစ်ပြီး 5/25 x 360° သည် အတိအကျ 72° ဖြစ်ခဲ့သည်။ အပိုင်းသုံးပိုင်းစုပေါင်းလိုက်သောအခါ စက်ဝိုင်းတစ်ခုလုံးကို ပြည့်ဝစွာဖုံးလွှမ်းနိုင်ခဲ့ပြီး၊ ကြိမ်နှုန်းဇယား၏ ရိုးရိုးဂဏန်းများ ထိုမျှရှင်းလင်းစွာ မပြသနိုင်သော ချက်ချင်းမြင်ယောင်နိုင်သည့် အချိုးအစားအသိကို သူမ၏အမေအား ပေးနိုင်ခဲ့သည်။\n\nနောက်ဆုံးတွင် တစ်ပတ်စာနေ့စဉ်ရောင်းအား (တနင်္လာမှ တနင်္ဂနွေအထိ ၄၀၊ ၄၅၊ ၆၀၊ ၅၀၊ ၅၅၊ ၇၀၊ ၄၀ ပွဲ) အတွက် စုစုသည် သီးခြားအမျိုးအစားများကို နှိုင်းယှဉ်မည့်အစား တစ်ပတ်စာလမ်းကြောင်းအလားအလာကို ပြသလိုသောကြောင့် ဘားဂရပ်အစား မျဉ်းကြောင်းဂရပ်တစ်ခုကို ရွေးချယ်ခဲ့သည်။ သူမသည် နေ့တစ်နေ့စီအတွက် အမှတ်တစ်ခုစီ ကွက်ထားပြီး မျဉ်းတစ်ကြောင်းဖြင့် ဆက်စပ်ခဲ့ရာ တက်ကျနေသော ပုံသဏ္ဍာန်က ရောင်းအားသည် သီတင်းပတ်ကုန်ဆီသို့ တက်လာပြီး တနင်္ဂနွေနေ့တွင် ပြန်ကျဆင်းသွားကြောင်း ရှင်းရှင်းလင်းလင်း တွေ့နိုင်ခဲ့သည် -- ၎င်းသည် ဂဏန်းဇယားတစ်ခုတည်းကို ဖတ်ခြင်းဖြင့် ပိုမိုတွေ့ရှိရခက်မည့် ပုံစံတစ်ခုဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Which chart did Su Su use first to compare the frequency of each topping?",
+            questionMy:
+                "ထပ်ဆင့်ပစ္စည်းတစ်ခုစီ၏ ကြိမ်နှုန်းကို နှိုင်းယှဉ်ရန် စုစုသည် မည်သည့်ဇယားကို ဦးစွာ အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A bar chart",
+              "A pie chart",
+              "A line graph",
+              "A tally chart",
+            ],
+            optionsMy: [
+              "ဘားဂရပ် (Bar chart)",
+              "စက်ဝိုင်းဂရပ် (Pie chart)",
+              "မျဉ်းကြောင်းဂရပ် (Line graph)",
+              "မှတ်တံဇယား (Tally chart)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "On the bar chart, how tall was the bar for egg mohinga?",
+            questionMy:
+                "ဘားဂရပ်တွင် ကြက်ဥ မုန့်ဟင်းခါး၏ ဘားသည် မည်မျှအမြင့်ရှိသနည်း။",
+            optionsEn: ["12", "8", "5", "25"],
+            optionsMy: ["၁၂", "၈", "၅", "၂၅"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Su Su use to show what proportion of the total 25 orders each topping represented?",
+            questionMy:
+                "စာပိုဒ်အရ စုစုပေါင်းမှာယူမှု ၂၅ ခုအနက် ထပ်ဆင့်ပစ္စည်းတစ်ခုစီ၏ ကိုယ်စားပြုအချိုးအစားကို ပြသရန် စုစုသည် အဘယ်ကို အသုံးပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A pie chart",
+              "A bar chart",
+              "A tally chart",
+              "A frequency table",
+            ],
+            optionsMy: [
+              "စက်ဝိုင်းဂရပ် (Pie chart)",
+              "ဘားဂရပ် (Bar chart)",
+              "မှတ်တံဇယား (Tally chart)",
+              "ကြိမ်နှုန်းဇယား (Frequency table)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su choose a line graph rather than a bar chart for her week of daily sales?",
+            questionMy:
+                "စုစုသည် တစ်ပတ်စာနေ့စဉ်ရောင်းအားအတွက် ဘားဂရပ်အစား မျဉ်းကြောင်းဂရပ်ကို ရွေးချယ်ခဲ့သည်မှာ အဘယ့်ကြောင့်နည်း။",
+            optionsEn: [
+              "Because she wanted to show the trend across the week rather than compare separate categories",
+              "Because line graphs are easier to colour in",
+              "Because bar charts cannot show numbers",
+              "Because her mother preferred the colour of lines",
+            ],
+            optionsMy: [
+              "သီးခြားအမျိုးအစားများကို နှိုင်းယှဉ်မည့်အစား တစ်ပတ်စာလမ်းကြောင်းအလားအလာကို ပြသလိုသောကြောင့်",
+              "မျဉ်းကြောင်းဂရပ်များသည် အရောင်ခြယ်ရလွယ်ကူသောကြောင့်",
+              "ဘားဂရပ်များသည် ဂဏန်းများကို မပြသနိုင်သောကြောင့်",
+              "သူမ၏အမေသည် မျဉ်းများ၏ အရောင်ကို ပိုနှစ်သက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what pattern did the line graph reveal about sales across the week?",
+            questionMy:
+                "စာပိုဒ်အရ မျဉ်းကြောင်းဂရပ်က တစ်ပတ်စာ ရောင်းအားနှင့်ပတ်သက်၍ မည်သည့်ပုံစံကို ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "Sales climbed toward the weekend and dipped again on Sunday",
+              "Sales stayed exactly the same every day",
+              "Sales fell every single day of the week",
+              "Sales could not be plotted on a line graph",
+            ],
+            optionsMy: [
+              "ရောင်းအားသည် သီတင်းပတ်ကုန်ဆီသို့ တက်လာပြီး တနင်္ဂနွေနေ့တွင် ပြန်ကျဆင်းသွားသည်",
+              "ရောင်းအားသည် နေ့တိုင်း အတိအကျ တူညီနေသည်",
+              "ရောင်းအားသည် တစ်ပတ်လုံး နေ့စဉ်ကျဆင်းနေသည်",
+              "ရောင်းအားကို မျဉ်းကြောင်းဂရပ်ပေါ်တွင် ကွက်၍မရပါ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Charts and Graphs",
+      titleMy: "အပတ်စဉ် ၂၃ ပြန်လည်သုံးသပ်ခြင်း - ဇယားများနှင့် ဂရပ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which chart type uses slices of a circle to show proportion?",
+          questionMy:
+              "မည်သည့်ဇယားအမျိုးအစားက အချိုးအစားပြသရန် စက်ဝိုင်း၏ အပိုင်းများကို အသုံးပြုသနည်း။",
+          optionsEn: ["Pie chart", "Bar chart", "Line graph", "Tally chart"],
+          optionsMy: [
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "ဘားဂရပ် (Bar chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which chart type is best for showing a trend over time?",
+          questionMy:
+              "အချိန်နှင့်အမျှ လမ်းကြောင်းအလားအလာကို ပြသရန် မည်သည့်ဇယားအမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Line graph",
+            "Pie chart",
+            "Tally chart",
+            "Frequency table",
+          ],
+          optionsMy: [
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "မှတ်တံဇယား (Tally chart)",
+            "ကြိမ်နှုန်းဇယား (Frequency table)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A pie chart's full circle represents 360°. If one category makes up a quarter of all data, how many degrees should its slice measure?",
+          questionMy:
+              "စက်ဝိုင်းဂရပ်တစ်ခု၏ စက်ဝိုင်းအပြည့်သည် 360° ကို ကိုယ်စားပြုသည်။ အမျိုးအစားတစ်ခုသည် အချက်အလက်အားလုံး၏ လေးပုံတစ်ပုံရှိပါက ၎င်း၏အပိုင်းသည် ဒီဂရီမည်မျှရှိသင့်သနည်း။",
+          optionsEn: ["90°", "180°", "45°", "360°"],
+          optionsMy: ["90°", "180°", "45°", "360°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a bar chart, which axis usually lists the categories being compared?",
+          questionMy:
+              "ဘားဂရပ်တွင် နှိုင်းယှဉ်နေသော အမျိုးအစားများကို ပုံမှန်အားဖြင့် မည်သည့်ဝင်ရိုးမျဉ်းက ဖော်ပြသနည်း။",
+          optionsEn: [
+            "The horizontal (bottom) axis",
+            "The vertical (side) axis",
+            "There is no axis on a bar chart",
+            "Both axes show the same thing",
+          ],
+          optionsMy: [
+            "အလျားလိုက် (အောက်ခြေ) ဝင်ရိုးမျဉ်း",
+            "ဒေါင်လိုက် (ဘေးဘက်) ဝင်ရိုးမျဉ်း",
+            "ဘားဂရပ်တွင် ဝင်ရိုးမျဉ်း မရှိပါ",
+            "ဝင်ရိုးမျဉ်းနှစ်ခုစလုံးက အတူတူပြသသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of chart would best compare how many bowls of three different soups were sold in one day?",
+          questionMy:
+              "တစ်နေ့တည်းတွင် ဟင်းချိုသုံးမျိုး ပွဲရေမည်မျှစီရောင်းချသည်ကို နှိုင်းယှဉ်ရန် မည်သည့်ဇယားအမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Bar chart",
+            "Line graph",
+            "Tally chart",
+            "Questionnaire",
+          ],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+            "မေးခွန်းလွှာ (Questionnaire)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 6, Week 24: "Data Detective"
+// (Term 6 capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek24 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w24",
+  weekNumber: 24,
+  titleEn: "Data Detective",
+  titleMy: "အချက်အလက် စုံစမ်းရေးသမား",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w24-d1",
+      dayNumber: 1,
+      titleEn: "Data Detective: Capstone Quiz",
+      titleMy: "အချက်အလက် စုံစမ်းရေးသမား - နိဂုံးချုပ် ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Week 21's tally-chart skill, a tally for 'egg mohinga orders' shows |||| |||| ||. What is the frequency?",
+          questionMy:
+              "Week 21 ၏ မှတ်တံဇယားကျွမ်းကျင်မှုကိုသုံးပြီး 'ကြက်ဥ မုန့်ဟင်းခါး မှာယူမှု' အတွက် မှတ်တံဇယားတွင် |||| |||| || ဟုပြထားသည်။ ကြိမ်နှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["10", "11", "12", "13"],
+          optionsMy: ["၁၀", "၁၁", "၁၂", "၁၃"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 22's mean-calculating skill, daily bowls sold this week were 40, 45, 50, 55, 60. What is the mean?",
+          questionMy:
+              "Week 22 ၏ ပျမ်းမျှကိန်းတွက်ချက်နည်းကျွမ်းကျင်မှုကိုသုံးပြီး ဒီအပတ် နေ့စဉ်ရောင်းချသောပွဲရေမှာ 40, 45, 50, 55, 60 ဖြစ်သည်။ ပျမ်းမျှကိန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["50", "45", "55", "250"],
+          optionsMy: ["50", "45", "55", "250"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 22's range skill and the same data (40, 45, 50, 55, 60), what is the range?",
+          questionMy:
+              "Week 22 ၏ ကွာခြားမှုကျွမ်းကျင်မှုနှင့် အထက်ပါ အချက်အလက်တူ (40, 45, 50, 55, 60) ကိုသုံးပြီး ကွာခြားမှုမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["20", "60", "40", "10"],
+          optionsMy: ["20", "60", "40", "10"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 23's chart skill, which type of graph would best show how Su Su's daily takings changed across the 7 days of the week?",
+          questionMy:
+              "Week 23 ၏ ဇယားကျွမ်းကျင်မှုကိုသုံးပြီး စုစု၏ တစ်ပတ် ၇ ရက်စာ နေ့စဉ်ဝင်ငွေ မည်သို့ပြောင်းလဲသည်ကို ပြသရန် မည်သည့်ဂရပ်အမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Line graph",
+            "Pie chart",
+            "Tally chart",
+            "Frequency table",
+          ],
+          optionsMy: [
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "စက်ဝိုင်းဂရပ် (Pie chart)",
+            "မှတ်တံဇယား (Tally chart)",
+            "ကြိမ်နှုန်းဇယား (Frequency table)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 21's frequency table skill and Week 23's chart skill: a frequency table shows Egg: 12, Chickpea: 8, Plain: 5. Which chart type best compares these three categories side by side?",
+          questionMy:
+              "Week 21 ၏ ကြိမ်နှုန်းဇယားကျွမ်းကျင်မှုနှင့် Week 23 ၏ ဇယားကျွမ်းကျင်မှုကို ပေါင်းစပ်၍ - ကြိမ်နှုန်းဇယားတွင် ကြက်ဥ - 12၊ ပဲကြော် - 8၊ ဟင်းရည်သီးသန့် - 5 ဟုပြထားသည်။ ဤအမျိုးအစားသုံးမျိုးကို ယှဉ်တွဲနှိုင်းယှဉ်ရန် မည်သည့်ဇယားအမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Bar chart",
+            "Line graph",
+            "Tally chart",
+            "Questionnaire",
+          ],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+            "မေးခွန်းလွှာ (Questionnaire)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 6 Skills",
+      titleMy: "Term 6 ကျွမ်းကျင်မှုများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w24-dm-1",
+          termEn:
+              "Week 21 skill: A single stroke used to record one count in a tally chart",
+          termMy:
+              "Week 21 ကျွမ်းကျင်မှု - မှတ်တံဇယားတွင် အရေအတွက်တစ်ခုကို မှတ်တမ်းတင်ရန်သုံးသော ချက်တစ်ချက်",
+          matchEn: "Tally mark",
+          matchMy: "မှတ်တံ (Tally mark)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w24-dm-2",
+          termEn:
+              "Week 21 skill: Converting tally marks into this table shows how often each category occurs",
+          termMy:
+              "Week 21 ကျွမ်းကျင်မှု - မှတ်တံများကို ဤဇယားအဖြစ် ပြောင်းလဲခြင်းက အမျိုးအစားတစ်ခုစီ ဖြစ်ပေါ်သည့်ကြိမ်ရေကို ပြသည်",
+          matchEn: "Frequency table",
+          matchMy: "ကြိမ်နှုန်းဇယား (Frequency table)",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w24-dm-3",
+          termEn:
+              "Week 22 skill: Sum of all values divided by how many values there are",
+          termMy:
+              "Week 22 ကျွမ်းကျင်မှု - တန်ဖိုးအားလုံး၏ ပေါင်းလဒ်ကို တန်ဖိုးအရေအတွက်ဖြင့် စားလိုက်ခြင်း",
+          matchEn: "Mean",
+          matchMy: "ပျမ်းမျှကိန်း (Mean)",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w24-dm-4",
+          termEn:
+              "Week 22 skill: Difference between the highest and lowest value in a data set",
+          termMy:
+              "Week 22 ကျွမ်းကျင်မှု - အချက်အလက်အစုတစ်ခုတွင် အကြီးဆုံးနှင့် အငယ်ဆုံးတန်ဖိုး၏ ကွာခြားချက်",
+          matchEn: "Range",
+          matchMy: "ကွာခြားမှု (Range)",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w24-dm-5",
+          termEn:
+              "Week 23 skill: The type of chart best suited to showing change over time",
+          termMy:
+              "Week 23 ကျွမ်းကျင်မှု - အချိန်နှင့်အမျှ အပြောင်းအလဲကို ပြသရန် အသင့်တော်ဆုံးဇယားအမျိုးအစား",
+          matchEn: "Line graph",
+          matchMy: "မျဉ်းကြောင်းဂရပ် (Line graph)",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w24-dm-6",
+          termEn:
+              "Week 23 skill: The type of chart that uses slices of a circle to show proportion",
+          termMy:
+              "Week 23 ကျွမ်းကျင်မှု - အချိုးအစားပြသရန် စက်ဝိုင်း၏ အပိုင်းများကို အသုံးပြုသောဇယားအမျိုးအစား",
+          matchEn: "Pie chart",
+          matchMy: "စက်ဝိုင်းဂရပ် (Pie chart)",
+          colorValue: 0xFF5CC8A8,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Data Collection/Averages or Charts?",
+      titleMy: "စီစစ်ကြမည် - အချက်အလက်စုဆောင်း/ပျမ်းမျှတန်ဖိုးလား ဇယားများလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Data Collection and Averages (Weeks 21-22)",
+          "Charts and Graphs (Week 23)",
+        ],
+        bucketsMy: [
+          "အချက်အလက်စုဆောင်းခြင်းနှင့် ပျမ်းမျှတန်ဖိုးများ (Weeks 21-22)",
+          "ဇယားများနှင့် ဂရပ်များ (Week 23)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w24-sort-1",
+            labelEn: "Recording customer topping orders using tally marks",
+            labelMy:
+                "ဖောက်သည်များ၏ ထပ်ဆင့်ပစ္စည်းမှာယူမှုကို မှတ်တံများဖြင့် မှတ်တမ်းတင်ခြင်း",
+            correctBucketEn: "Data Collection and Averages (Weeks 21-22)",
+            correctBucketMy:
+                "အချက်အလက်စုဆောင်းခြင်းနှင့် ပျမ်းမျှတန်ဖိုးများ (Weeks 21-22)",
+          ),
+          SortingItem(
+            id: "s1math-w24-sort-2",
+            labelEn:
+                "Calculating the mean number of bowls sold per day this week",
+            labelMy:
+                "ဒီအပတ် တစ်ရက်လျှင် ပျမ်းမျှရောင်းချသောပွဲရေကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Data Collection and Averages (Weeks 21-22)",
+            correctBucketMy:
+                "အချက်အလက်စုဆောင်းခြင်းနှင့် ပျမ်းမျှတန်ဖိုးများ (Weeks 21-22)",
+          ),
+          SortingItem(
+            id: "s1math-w24-sort-3",
+            labelEn:
+                "Finding the range between the busiest day and the quietest day",
+            labelMy:
+                "အလုပ်ရှုပ်ဆုံးနေ့နှင့် အနှေးဆုံးနေ့ကြား ကွာခြားမှုကို ရှာခြင်း",
+            correctBucketEn: "Data Collection and Averages (Weeks 21-22)",
+            correctBucketMy:
+                "အချက်အလက်စုဆောင်းခြင်းနှင့် ပျမ်းမျှတန်ဖိုးများ (Weeks 21-22)",
+          ),
+          SortingItem(
+            id: "s1math-w24-sort-4",
+            labelEn: "Drawing a pie chart of topping preferences",
+            labelMy: "ထပ်ဆင့်ပစ္စည်းနှစ်သက်မှု စက်ဝိုင်းဂရပ်တစ်ခု ရေးဆွဲခြင်း",
+            correctBucketEn: "Charts and Graphs (Week 23)",
+            correctBucketMy: "ဇယားများနှင့် ဂရပ်များ (Week 23)",
+          ),
+          SortingItem(
+            id: "s1math-w24-sort-5",
+            labelEn: "Plotting a line graph of the week's daily takings",
+            labelMy: "တစ်ပတ်စာ နေ့စဉ်ဝင်ငွေ မျဉ်းကြောင်းဂရပ်တစ်ခု ကွက်ခြင်း",
+            correctBucketEn: "Charts and Graphs (Week 23)",
+            correctBucketMy: "ဇယားများနှင့် ဂရပ်များ (Week 23)",
+          ),
+          SortingItem(
+            id: "s1math-w24-sort-6",
+            labelEn: "Building a bar chart comparing topping frequencies",
+            labelMy:
+                "ထပ်ဆင့်ပစ္စည်းကြိမ်နှုန်းများကို နှိုင်းယှဉ်သော ဘားဂရပ်တစ်ခု တည်ဆောက်ခြင်း",
+            correctBucketEn: "Charts and Graphs (Week 23)",
+            correctBucketMy: "ဇယားများနှင့် ဂရပ်များ (Week 23)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su, Data Detective",
+      titleMy: "စာဖတ်ခြင်း - စုစု၊ အချက်အလက် စုံစမ်းရေးသမား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su, Data Detective",
+        titleMy: "စုစု၊ အချက်အလက် စုံစမ်းရေးသမား",
+        passageEn:
+            "One evening, Su Su's mother had a real decision to make: should the stall start opening an hour earlier, and should it buy extra eggs for the coming week? Instead of guessing, Su Su offered to play \"data detective\" and work through everything she had learned in Term 6 to find the answer. She began with Week 21's skill, pulling out a fresh tally chart she had kept taped to the counter for the past week, recording every topping order as it came in, then converting the tally marks into a frequency table: egg 14, chickpea 9, fried onion 6 -- 29 orders in total.\n\nNext, Su Su turned to Week 22's skills. The stall's daily bowl counts for the week were 42, 48, 65, 55, 60, 75, and 45. She calculated the mean (42 + 48 + 65 + 55 + 60 + 75 + 45 = 390, divided by 7 is about 56 bowls a day) and the range (75 - 42 = 33 bowls), noting that Saturday was consistently the busiest day and Monday the quietest. Then, using Week 23's skill, she drew a quick line graph of the seven days and spotted a clear trend: sales rose steadily from Monday through to Saturday before dropping again on Sunday, exactly the kind of pattern a line graph is best at revealing.\n\nPutting all three weeks together, Su Su wrote her mother a short report: the frequency table showed egg mohinga was still the clear favourite, so buying extra eggs made sense; the mean of 56 bowls a day showed steady demand, while the range of 33 bowls proved that Saturday needed far more preparation than Monday; and the line graph's rising trend suggested that opening an hour earlier on Friday and Saturday -- the two busiest days -- might catch even more customers before they went elsewhere for breakfast. Her mother read the report and smiled: \"You didn't just collect numbers,\" she said, \"you turned them into a decision\" -- and from that day on, the stall opened an hour earlier on Fridays and Saturdays, with extra eggs boiling every single morning.",
+        passageMy:
+            "တစ်ညနေတွင် စုစု၏အမေတွင် အမှန်တကယ် ဆုံးဖြတ်ချက်တစ်ခု ချရန်ရှိခဲ့သည် - ဆိုင်ကို တစ်နာရီစောစော ဖွင့်သင့်သလား၊ လာမည့်အပတ်အတွက် ကြက်ဥအပိုဝယ်သင့်သလား။ ခန့်မှန်းမည့်အစား စုစုက Term 6 တွင် သင်ယူခဲ့သမျှကို လုပ်ဆောင်ပြီး အဖြေရှာရန် \"အချက်အလက်စုံစမ်းရေးသမား\" ကစားမည်ဟု ကမ်းလှမ်းခဲ့သည်။ သူမသည် Week 21 ၏ ကျွမ်းကျင်မှုဖြင့် စတင်ခဲ့ပြီး၊ ပြီးခဲ့သောအပတ်တစ်ခုလုံး ကောင်တာတွင် ကပ်ထားခဲ့သော မှတ်တံဇယားအသစ်တစ်ခုကို ထုတ်ယူကာ ထပ်ဆင့်ပစ္စည်းမှာယူမှုတိုင်းကို ရောက်ရှိတိုင်း မှတ်တမ်းတင်ပြီးနောက် မှတ်တံများကို ကြိမ်နှုန်းဇယားအဖြစ် ပြောင်းလဲခဲ့သည် - ကြက်ဥ ၁၄၊ ပဲကြော် ၉၊ ကြက်သွန်ကြော် ၆ -- စုစုပေါင်း မှာယူမှု ၂၉ ခု။\n\nထို့နောက် စုစုသည် Week 22 ၏ ကျွမ်းကျင်မှုများသို့ ဦးလှည့်ခဲ့သည်။ ဆိုင်၏ တစ်ပတ်စာ နေ့စဉ်ပွဲရေအရေအတွက်များမှာ 42, 48, 65, 55, 60, 75, 45 ဖြစ်ခဲ့သည်။ သူမသည် ပျမ်းမျှကိန်းကို တွက်ချက်ခဲ့သည် (42 + 48 + 65 + 55 + 60 + 75 + 45 = 390၊ ၇ ဖြင့်စားလိုက်ရာ တစ်ရက်လျှင် ပွဲရေ ၅၆ ခန့်ရရှိသည်) ကွာခြားမှုကိုလည်း တွက်ချက်ခဲ့သည် (75 - 42 = 33 ပွဲ)၊ စနေနေ့သည် အလုပ်ရှုပ်ဆုံးနေ့ဖြစ်ပြီး တနင်္လာနေ့သည် အနှေးဆုံးနေ့ဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ ထို့နောက် Week 23 ၏ ကျွမ်းကျင်မှုကိုသုံးပြီး ခုနှစ်ရက်စာ မျဉ်းကြောင်းဂရပ်တစ်ခု လျင်မြန်စွာ ရေးဆွဲခဲ့ပြီး ရှင်းလင်းသောလမ်းကြောင်းအလားအလာကို တွေ့ရှိခဲ့သည် - ရောင်းအားသည် တနင်္လာနေ့မှ စနေနေ့အထိ တဖြည်းဖြည်းတက်လာပြီး တနင်္ဂနွေနေ့တွင် ပြန်ကျဆင်းသွားသည်၊ ၎င်းသည် မျဉ်းကြောင်းဂရပ်တစ်ခု အကောင်းဆုံးဖော်ပြနိုင်သော ပုံစံအတိအကျဖြစ်သည်။\n\nသုံးပတ်စလုံးကို ပေါင်းစပ်လိုက်ပြီးနောက် စုစုသည် သူမ၏အမေအတွက် အစီရင်ခံစာတိုတစ်ခု ရေးသားခဲ့သည် - ကြိမ်နှုန်းဇယားက ကြက်ဥ မုန့်ဟင်းခါးသည် အနှစ်သက်ဆုံးဖြစ်ဆဲကြောင်း ပြသနေသောကြောင့် ကြက်ဥအပိုဝယ်ခြင်းသည် အကျိုးရှိသည်၊ တစ်ရက်လျှင် ပွဲရေ ၅၆ ပျမ်းမျှကိန်းက ဝယ်လိုအားတည်ငြိမ်ကြောင်းပြသပြီး၊ ပွဲရေ ၃၃ ကွာခြားမှုက စနေနေ့သည် တနင်္လာနေ့ထက် ပြင်ဆင်မှုပိုလိုအပ်ကြောင်း သက်သေပြသည်၊ ထို့ပြင် မျဉ်းကြောင်းဂရပ်၏ တက်လာနေသောလမ်းကြောင်းအလားအလာက သောကြာနေ့နှင့် စနေနေ့ -- အလုပ်ရှုပ်ဆုံးနေ့နှစ်နေ့ -- တွင် တစ်နာရီစောစော ဖွင့်ပါက ဖောက်သည်များ အခြားနေရာသို့ မနက်စာစားရန်မသွားမီ ပို၍ဆွဲဆောင်နိုင်ကြောင်း အကြံပြုခဲ့သည်။ သူမ၏အမေသည် အစီရင်ခံစာကို ဖတ်ပြီး ပြုံးလိုက်သည် - \"မင်းဟာ ဂဏန်းတွေကို စုဆောင်းရုံသက်သက်မဟုတ်ဘူး\" ဟု အမေက ပြောသည်၊ \"မင်းဟာ ၎င်းတို့ကို ဆုံးဖြတ်ချက်တစ်ခုအဖြစ် ပြောင်းလဲပေးခဲ့တာပဲ\" -- ထိုနေ့မှစ၍ ဆိုင်သည် သောကြာနှင့် စနေနေ့များတွင် တစ်နာရီစောစော ဖွင့်ခဲ့ပြီး၊ နေ့တိုင်းမနက် ကြက်ဥအပိုပြုတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Using Week 21's tally-and-frequency skill, how many topping orders did Su Su record in total?",
+            questionMy:
+                "Week 21 ၏ မှတ်တံနှင့် ကြိမ်နှုန်းကျွမ်းကျင်မှုကိုသုံးပြီး စုစုသည် ထပ်ဆင့်ပစ္စည်းမှာယူမှု စုစုပေါင်း မည်မျှမှတ်တမ်းတင်ခဲ့သနည်း။",
+            optionsEn: ["29", "20", "23", "35"],
+            optionsMy: ["၂၉", "၂၀", "၂၃", "၃၅"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 22's mean-calculating skill, what was the mean number of bowls sold per day that week?",
+            questionMy:
+                "Week 22 ၏ ပျမ်းမျှကိန်းတွက်ချက်နည်းကျွမ်းကျင်မှုကိုသုံးပြီး ထိုအပတ်တွင် တစ်ရက်လျှင် ပျမ်းမျှရောင်းချသောပွဲရေမှာ အဘယ်မျှနည်း။",
+            optionsEn: [
+              "About 56 bowls",
+              "About 33 bowls",
+              "About 42 bowls",
+              "About 75 bowls",
+            ],
+            optionsMy: [
+              "ပွဲရေ ၅၆ ခန့်",
+              "ပွဲရေ ၃၃ ခန့်",
+              "ပွဲရေ ၄၂ ခန့်",
+              "ပွဲရေ ၇၅ ခန့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 22's range skill, what was the range of the week's daily bowl counts?",
+            questionMy:
+                "Week 22 ၏ ကွာခြားမှုကျွမ်းကျင်မှုကိုသုံးပြီး ဤအပတ်၏ နေ့စဉ်ပွဲရေ ကွာခြားမှုမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["33 bowls", "42 bowls", "75 bowls", "7 bowls"],
+            optionsMy: ["ပွဲရေ ၃၃", "ပွဲရေ ၄၂", "ပွဲရေ ၇၅", "ပွဲရေ ၇"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using Week 23's chart skill, which chart did Su Su draw to spot the week's sales trend?",
+            questionMy:
+                "Week 23 ၏ ဇယားကျွမ်းကျင်မှုကိုသုံးပြီး ဤအပတ်၏ ရောင်းအားလမ်းကြောင်းအလားအလာကို တွေ့ရှိရန် စုစုသည် မည်သည့်ဇယားကို ရေးဆွဲခဲ့သနည်း။",
+            optionsEn: [
+              "A line graph",
+              "A pie chart",
+              "A tally chart",
+              "A questionnaire",
+            ],
+            optionsMy: [
+              "မျဉ်းကြောင်းဂရပ် (Line graph)",
+              "စက်ဝိုင်းဂရပ် (Pie chart)",
+              "မှတ်တံဇယား (Tally chart)",
+              "မေးခွန်းလွှာ (Questionnaire)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Combining all three weeks' skills, what business decision did Su Su's report help her mother make?",
+            questionMy:
+                "သုံးပတ်စလုံး၏ ကျွမ်းကျင်မှုများကို ပေါင်းစပ်၍ စုစု၏ အစီရင်ခံစာက သူမ၏အမေအား မည်သည့် စီးပွားရေးဆုံးဖြတ်ချက်ချရန် ကူညီခဲ့သနည်း။",
+            optionsEn: [
+              "Open an hour earlier on the busiest days and buy extra eggs",
+              "Close the stall on weekends",
+              "Stop selling chickpea fritter completely",
+              "Raise all the prices by half",
+            ],
+            optionsMy: [
+              "အလုပ်ရှုပ်ဆုံးနေ့များတွင် တစ်နာရီစောစော ဖွင့်ပြီး ကြက်ဥအပိုဝယ်ခြင်း",
+              "သီတင်းပတ်ကုန်များတွင် ဆိုင်ပိတ်ခြင်း",
+              "ပဲကြော်ရောင်းချခြင်းကို လုံးဝရပ်ဆိုင်းခြင်း",
+              "ဈေးနှုန်းအားလုံးကို ထက်ဝက် တိုးမြှင့်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Grand Recap: Data Detective",
+      titleMy:
+          "Term 6 နိဂုံးချုပ် ပြန်လည်သုံးသပ်ခြင်း - အချက်အလက် စုံစမ်းရေးသမား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "(Week 21) A tally chart shows |||| |||| |||| for 'chickpea fritter orders'. What is the frequency?",
+          questionMy:
+              "(Week 21) 'ပဲကြော် မှာယူမှု' အတွက် မှတ်တံဇယားတွင် |||| |||| |||| ဟုပြထားသည်။ ကြိမ်နှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["14", "15", "10", "12"],
+          optionsMy: ["၁၄", "၁၅", "၁၀", "၁၂"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Week 22) Find the mean of this data set: 10, 20, 30, 40.",
+          questionMy:
+              "(Week 22) ဤအချက်အလက်အစု၏ ပျမ်းမျှကိန်းကို ရှာပါ - 10, 20, 30, 40.",
+          optionsEn: ["25", "30", "20", "100"],
+          optionsMy: ["25", "30", "20", "100"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Week 22) Find the range of this data set: 12, 25, 8, 30, 15.",
+          questionMy:
+              "(Week 22) ဤအချက်အလက်အစု၏ ကွာခြားမှုကို ရှာပါ - 12, 25, 8, 30, 15.",
+          optionsEn: ["22", "30", "8", "38"],
+          optionsMy: ["22", "30", "8", "38"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Week 23) Which chart type is best for comparing the sales of three different toppings side by side?",
+          questionMy:
+              "(Week 23) ထပ်ဆင့်ပစ္စည်းသုံးမျိုး၏ ရောင်းအားကို ယှဉ်တွဲနှိုင်းယှဉ်ရန် မည်သည့်ဇယားအမျိုးအစားက အကောင်းဆုံးဖြစ်သနည်း။",
+          optionsEn: [
+            "Bar chart",
+            "Line graph",
+            "Tally chart",
+            "None of these",
+          ],
+          optionsMy: [
+            "ဘားဂရပ် (Bar chart)",
+            "မျဉ်းကြောင်းဂရပ် (Line graph)",
+            "မှတ်တံဇယား (Tally chart)",
+            "အထက်ပါ တစ်ခုမျှမဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Weeks 21-24) Which of these best describes how Term 6 built your statistics skills?",
+          questionMy:
+              "(Weeks 21-24) Term 6 သည် သင်၏ စာရင်းအင်းကျွမ်းကျင်မှုကို မည်သို့တည်ဆောက်ပေးခဲ့ကြောင်း အကောင်းဆုံးဖော်ပြထားသည့်အချက်ကို ရွေးပါ။",
+          optionsEn: [
+            "Collecting data with tally charts and questionnaires, calculating averages and range, building charts and graphs, then combining all three to analyse real data like a data detective",
+            "Only memorising multiplication tables",
+            "Only learning about probability",
+            "Only drawing pictures without any numbers",
+          ],
+          optionsMy: [
+            "မှတ်တံဇယားနှင့် မေးခွန်းလွှာများဖြင့် အချက်အလက်စုဆောင်းခြင်း၊ ပျမ်းမျှတန်ဖိုးနှင့် ကွာခြားမှုတွက်ချက်ခြင်း၊ ဇယားများနှင့် ဂရပ်များ တည်ဆောက်ခြင်းနှင့် ထို့နောက် သုံးခုစလုံးကို ပေါင်းစပ်၍ အချက်အလက်စုံစမ်းရေးသမားကဲ့သို့ အချက်အလက်အစစ်ကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+            "မြှောက်ဇယားများကိုသာ ကျက်မှတ်ခြင်း",
+            "ဖြစ်နိုင်ခြေအကြောင်းကိုသာ သင်ယူခြင်း",
+            "ဂဏန်းမပါဘဲ ပုံများကိုသာ ရေးဆွဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 6: "Statistics and Data" -- the sixth
+/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// this pathway's first dedicated statistics strand. Week 21 introduces
+/// data collection from scratch (tally charts, tally marks, frequency
+/// tables, and designing a fair questionnaire), using Su Su's mohinga
+/// stall topping preferences as the running example; Week 22 moves from
+/// collecting data to summarising it with the mean, median, mode, and
+/// range, contrasting "measures of average" against the "measure of
+/// spread" using a week of the stall's daily bowl counts; Week 23 turns
+/// the same kind of data into pictures with bar charts, pie charts
+/// (including simple 360°-proportion reasoning), and line graphs,
+/// deliberately distinguishing category-comparison charts (bar/pie) from
+/// time-based charts (line graph); Week 24 is the term's capstone, an
+/// explicit "data detective" framing that combines Week 21's tally-and-
+/// frequency skill, Week 22's mean-and-range skill, and Week 23's
+/// chart-building skill inside one running story where Su Su analyses a
+/// full week of the stall's sales data to help her mother make a real
+/// business decision.
+const CourseTermDef _secondary1MathematicsTerm6 = CourseTermDef(
+  id: "course-secondary1-mathematics-t6",
+  termNumber: 6,
+  titleEn: "Statistics and Data",
+  titleMy: "စာရင်းအင်းနှင့် အချက်အလက်",
+  certificateTitleEn: "Statistics and Data",
+  certificateTitleMy: "စာရင်းအင်းနှင့် အချက်အလက်",
+  weeks: [
+    _secondary1MathematicsWeek21,
+    _secondary1MathematicsWeek22,
+    _secondary1MathematicsWeek23,
+    _secondary1MathematicsWeek24,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 7, Week 25: "Understanding Ratio"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek25 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w25",
+  weekNumber: 25,
+  titleEn: "Understanding Ratio",
+  titleMy: "အချိုးကို နားလည်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w25-d1",
+      dayNumber: 1,
+      titleEn: "Writing and Comparing Ratios",
+      titleMy: "အချိုးများ ရေးသားခြင်းနှင့် နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A fruit basket contains 5 apples and 7 oranges. What is the ratio of apples to oranges?",
+          questionMy:
+              "အသီးတောင်းတစ်လုံးတွင် ပန်းသီး ၅ လုံးနှင့် လိမ္မော်သီး ၇ လုံး ပါဝင်ပါသည်။ ပန်းသီးမှ လိမ္မော်သီးသို့ အချိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["7:5", "5:7", "5:12", "12:5"],
+          optionsMy: ["7:5", "5:7", "5:12", "12:5"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which ratio correctly compares 8 pencils to 3 pens (pencils : pens)?",
+          questionMy:
+              "ခဲတံ ၈ချောင်းမှ ဘောပင် ၃ချောင်းသို့ (ခဲတံ : ဘောပင်) အချိုးကို မှန်ကန်စွာ နှိုင်းယှဉ်ထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: ["3:8", "8:11", "8:3", "11:8"],
+          optionsMy: ["3:8", "8:11", "8:3", "11:8"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The ratio of tea to milk in a cup is 4:1. For every 1 part milk, how many parts tea are there?",
+          questionMy:
+              "ခွက်တစ်ခွက်ရှိ လက်ဖက်ရည်မှ နို့ဆီသို့ အချိုးသည် 4:1 ဖြစ်ပါသည်။ နို့ဆီ ၁ အစိတ်အပိုင်းတိုင်းအတွက် လက်ဖက်ရည် မည်မျှ အစိတ်အပိုင်းရှိသနည်း။",
+          optionsEn: ["1", "4", "5", "3"],
+          optionsMy: ["1", "4", "5", "3"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Su shares 24 pencils with her cousin in the ratio 3:5. How many equal parts does the ratio split the pencils into?",
+          questionMy:
+              "သုသုသည် ခဲတံ ၂၄ချောင်းကို သူမ၏ဝမ်းကွဲမောင်နှမနှင့် အချိုး 3:5 ဖြင့် ခွဲဝေပါသည်။ ဤအချိုးသည် ခဲတံများကို အညီအမျှ အစိတ်အပိုင်း မည်မျှ ခွဲထားသနည်း။",
+          optionsEn: ["3", "5", "8", "24"],
+          optionsMy: ["3", "5", "8", "24"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ratio bar model shows 3:2 using 5 equal boxes in total. How many boxes represent the first quantity?",
+          questionMy:
+              "အချိုး ဘားပုံစံတစ်ခုသည် 3:2 ကို ဘောင်ကွက် ၅ခု (စုစုပေါင်း) ဖြင့် ပြသထားပါသည်။ ပထမပမာဏကို ကိုယ်စားပြုသော ဘောင်ကွက် မည်မျှရှိသနည်း။",
+          optionsEn: ["3", "2", "5", "1"],
+          optionsMy: ["3", "2", "5", "1"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match the Ratio Vocabulary",
+      titleMy: "အချိုးဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w25-dm-1",
+          termEn: "Ratio",
+          termMy: "အချိုး",
+          matchEn:
+              "A way of comparing two or more quantities by division, written with a colon, e.g. 3:5",
+          matchMy:
+              "ပမာဏနှစ်ခု သို့မဟုတ် ထိုထက်ပိုသောပမာဏများကို စားခြင်းဖြင့် နှိုင်းယှဉ်သည့်နည်းလမ်း၊ ကော်လံသင်္ကေတဖြင့် ရေးသားသည်၊ ဥပမာ 3:5",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w25-dm-2",
+          termEn: "Part",
+          termMy: "အစိတ်အပိုင်း",
+          matchEn:
+              "One share of a ratio, e.g. in 2:3 there are 2 parts and 3 parts",
+          matchMy:
+              "အချိုး၏ တစ်ဝေစုတစ်ခု၊ ဥပမာ 2:3 တွင် အစိတ်အပိုင်း ၂ ခုနှင့် ၃ ခု ရှိသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w25-dm-3",
+          termEn: "Total Parts (Whole)",
+          termMy: "အစိတ်အပိုင်းစုစုပေါင်း (တစ်ခုလုံး)",
+          matchEn:
+              "The sum of all parts in a ratio, e.g. in 2:3 the whole is 2+3=5 parts",
+          matchMy:
+              "အချိုးတစ်ခုရှိ အစိတ်အပိုင်းအားလုံး၏ ပေါင်းလဒ်၊ ဥပမာ 2:3 တွင် တစ်ခုလုံးမှာ 2+3=5 အစိတ်အပိုင်း ဖြစ်သည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w25-dm-4",
+          termEn: "Order",
+          termMy: "အစီအစဉ်",
+          matchEn:
+              "The sequence in which quantities are written in a ratio -- swapping it changes the meaning, e.g. 2:3 is not the same as 3:2",
+          matchMy:
+              "အချိုးတစ်ခုတွင် ပမာဏများကို ရေးသားသည့် အစီအစဉ် -- ၎င်းကို ပြောင်းလဲလိုက်ပါက အဓိပ္ပာယ်ပြောင်းသွားသည်၊ ဥပမာ 2:3 သည် 3:2 နှင့် မတူပါ",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w25-dm-5",
+          termEn: "Bar Model",
+          termMy: "ဘားပုံစံ",
+          matchEn:
+              "A diagram using equal boxes to visualize the parts of a ratio",
+          matchMy:
+              "အချိုး၏ အစိတ်အပိုင်းများကို မြင်ယောင်ကြည့်ရန် အညီအမျှ ဘောင်ကွက်များကို အသုံးပြုသည့် ပုံစံတစ်ခု",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w25-dm-6",
+          termEn: "One Part (Unit)",
+          termMy: "တစ်ခုအစိတ်အပိုင်း (ယူနစ်)",
+          matchEn:
+              "The value of a single equal share once the whole has been divided by the total number of parts",
+          matchMy:
+              "တစ်ခုလုံးကို အစိတ်အပိုင်းစုစုပေါင်းဖြင့် စားပြီးနောက် ရရှိသော တစ်ဝေစုတည်း၏ တန်ဖိုး",
+          colorValue: 0xFF5CC9A7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Ratio Order?",
+      titleMy: "စီစစ်ကြမည် - အချိုးအစီအစဉ် မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Written Correctly (Order Matches the Words)",
+          "Written Incorrectly (Order Swapped)",
+        ],
+        bucketsMy: [
+          "မှန်ကန်စွာ ရေးထားသည် (စကားလုံးအစီအစဉ်နှင့် ကိုက်ညီသည်)",
+          "မှားယွင်းစွာ ရေးထားသည် (အစီအစဉ် ပြောင်းလဲထားသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w25-sort-1",
+            labelEn: "Boys to girls is 5 to 8, written as 5:8",
+            labelMy:
+                "ယောက်ျားလေးမှ မိန်းကလေးအချိုးသည် ၅ မှ ၈ ဖြစ်ပြီး 5:8 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Correctly (Order Matches the Words)",
+            correctBucketMy:
+                "မှန်ကန်စွာ ရေးထားသည် (စကားလုံးအစီအစဉ်နှင့် ကိုက်ညီသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w25-sort-2",
+            labelEn: "Cats to dogs is 3 to 7, written as 7:3",
+            labelMy: "ကြောင်မှ ခွေးအချိုးသည် ၃ မှ ၇ ဖြစ်ပြီး 7:3 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Incorrectly (Order Swapped)",
+            correctBucketMy: "မှားယွင်းစွာ ရေးထားသည် (အစီအစဉ် ပြောင်းလဲထားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w25-sort-3",
+            labelEn: "Flour to sugar is 2 to 1, written as 2:1",
+            labelMy:
+                "မုန့်ညက်မှ သကြားအချိုးသည် ၂ မှ ၁ ဖြစ်ပြီး 2:1 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Correctly (Order Matches the Words)",
+            correctBucketMy:
+                "မှန်ကန်စွာ ရေးထားသည် (စကားလုံးအစီအစဉ်နှင့် ကိုက်ညီသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w25-sort-4",
+            labelEn: "Red to blue paint is 4 to 9, written as 9:4",
+            labelMy:
+                "အနီရောင်ဆေးမှ အပြာရောင်ဆေးအချိုးသည် ၄ မှ ၉ ဖြစ်ပြီး 9:4 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Incorrectly (Order Swapped)",
+            correctBucketMy: "မှားယွင်းစွာ ရေးထားသည် (အစီအစဉ် ပြောင်းလဲထားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w25-sort-5",
+            labelEn: "Tea to milk is 5 to 2, written as 5:2",
+            labelMy:
+                "လက်ဖက်ရည်မှ နို့ဆီအချိုးသည် ၅ မှ ၂ ဖြစ်ပြီး 5:2 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Correctly (Order Matches the Words)",
+            correctBucketMy:
+                "မှန်ကန်စွာ ရေးထားသည် (စကားလုံးအစီအစဉ်နှင့် ကိုက်ညီသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w25-sort-6",
+            labelEn: "Pens to pencils is 6 to 11, written as 11:6",
+            labelMy:
+                "ဘောပင်မှ ခဲတံအချိုးသည် ၆ မှ ၁၁ ဖြစ်ပြီး 11:6 ဟု ရေးသားသည်",
+            correctBucketEn: "Written Incorrectly (Order Swapped)",
+            correctBucketMy: "မှားယွင်းစွာ ရေးထားသည် (အစီအစဉ် ပြောင်းလဲထားသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su and the Mango Harvest",
+      titleMy: "စာဖတ်ခြင်း - သုသုနှင့် သရက်သီးရိတ်သိမ်းချိန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su and the Mango Harvest",
+        titleMy: "သုသုနှင့် သရက်သီးရိတ်သိမ်းချိန်",
+        passageEn:
+            "Su Su's family runs a small fruit stall in Yangon, and every mango season, her grandfather brings baskets of mangoes from the family's orchard outside the city to sell. This year, the orchard produced 40 mangoes on one particular morning, and Su Su's grandfather wanted to share them between two market stalls -- his own stall and his brother's stall -- according to how many customers each stall usually served. He told Su Su, 'My stall gets 3 customers for every 5 customers my brother's stall gets, so let's split the mangoes the same way: 3 to 5.'\n\nSu Su wrote the ratio down as 3:5, being careful to write it in the same order her grandfather said the numbers -- her stall first, then her brother's stall. She knew that writing 5:3 instead would completely change the meaning, giving her brother's stall the smaller share instead of the larger one. To visualize the split, Su Su drew a bar model with 8 equal boxes in a row, since 3 + 5 = 8 total parts. She shaded the first 3 boxes for her own stall and left the remaining 5 boxes for her brother's stall, and could immediately see that her brother's stall would receive more mangoes just by looking at the picture.\n\nTo find out exactly how many mangoes each stall should get, Su Su reasoned that since there were 8 parts in total and 40 mangoes to share, each part must be worth 40 ÷ 8 = 5 mangoes. Her stall, with 3 parts, would receive 3 × 5 = 15 mangoes, and her brother's stall, with 5 parts, would receive 5 × 5 = 25 mangoes. Su Su checked her work by adding 15 and 25 together to make sure the total came back to 40 -- and it did. She realized that sharing in a ratio always works the same way: add the parts to find the whole, divide to find the value of one part, and then multiply by each share's number of parts.",
+        passageMy:
+            "သုသု၏မိသားစုသည် ရန်ကုန်တွင် အသီးအနှံဆိုင်ခန်းငယ်တစ်ခု လုပ်ကိုင်ပါသည်၊ သရက်သီးရာသီတိုင်းတွင် သူမ၏အဘိုးသည် မြို့ပြင်ရှိ မိသားစုသစ်ဥယျာဉ်မှ သရက်သီးတောင်းများကို ရောင်းရန် ယူဆောင်လာပါသည်။ ဤနှစ်တွင် ဥယျာဉ်ကနေ တစ်နေ့မနက်တွင် သရက်သီး ၄၀ လုံး ထွက်ရှိခဲ့ပြီး၊ သုသု၏အဘိုးသည် ၎င်းတို့ကို ဈေးဆိုင်ခန်းနှစ်ခု -- သူ၏ဆိုင်ခန်းနှင့် သူ့ညီအစ်ကို၏ဆိုင်ခန်း -- ကြားတွင် ဆိုင်ခန်းတစ်ခုချင်းစီ ပုံမှန်ဝန်ဆောင်ပေးရသော ဖောက်သည်အရေအတွက်နှင့်အညီ ခွဲဝေလိုပါသည်။ သူသုသုအား 'ငါ့ဆိုင်ခန်းက ညီအစ်ကိုရဲ့ ဆိုင်ခန်းရဲ့ ဖောက်သည် ၅ ယောက်တိုင်းအတွက် ၃ယောက်ရတယ်၊ ဒါကြောင့် သရက်သီးတွေကို အလားတူပဲ 3 မှ 5 ဆိုပြီး ခွဲကြရအောင်' ဟု ပြောပါသည်။\n\nသုသုသည် အဘိုးပြောသည့် ဂဏန်းအစီအစဉ်အတိုင်း -- သူမ၏ဆိုင်ခန်းကို ပထမ၊ ညီအစ်ကို၏ဆိုင်ခန်းကို ဒုတိယ -- ဂရုတစိုက် 3:5 ဟု အချိုးကို ချရေးခဲ့ပါသည်။ 5:3 ဟု ရေးလိုက်ပါက အဓိပ္ပာယ်လုံးဝပြောင်းသွားပြီး ညီအစ်ကို၏ဆိုင်ခန်းအား ဝေစုကြီးအစား ဝေစုငယ်ပေးလိုက်ရာရောက်မည်ကို သူမ သိပါသည်။ ခွဲဝေမှုကို မြင်ယောင်ကြည့်ရန် 3 + 5 = 8 အစိတ်အပိုင်းစုစုပေါင်းရှိသောကြောင့် သုသုသည် တန်းတစ်တန်းတွင် အညီအမျှဘောင်ကွက် ၈ခုပါသော ဘားပုံစံတစ်ခုကို ဆွဲခဲ့ပါသည်။ သူမ၏ဆိုင်ခန်းအတွက် ပထမဘောင်ကွက် ၃ခုကို အရောင်ဖြည့်ပြီး ကျန်ဘောင်ကွက် ၅ခုကို ညီအစ်ကို၏ဆိုင်ခန်းအတွက် ချန်ထားခဲ့ရာ၊ ပုံကိုကြည့်ရုံဖြင့် ညီအစ်ကို၏ဆိုင်ခန်းက သရက်သီးပိုများစွာ ရရှိမည်ကို ချက်ချင်းမြင်နိုင်ခဲ့ပါသည်။\n\nဆိုင်ခန်းတစ်ခုချင်းစီ သရက်သီးမည်မျှစီရမည်ကို အတိအကျ သိရှိရန် သုသုသည် အစိတ်အပိုင်း စုစုပေါင်း ၈ခုရှိပြီး ခွဲဝေရန် သရက်သီး ၄၀လုံးရှိသောကြောင့် အစိတ်အပိုင်းတစ်ခုစီသည် 40 ÷ 8 = 5 လုံး တန်ဖိုးရှိရမည်ဟု ဆင်ခြင်ခဲ့ပါသည်။ အစိတ်အပိုင်း ၃ခုပါသော သူမ၏ဆိုင်ခန်းသည် 3 × 5 = 15 လုံး ရရှိမည်ဖြစ်ပြီး၊ အစိတ်အပိုင်း ၅ခုပါသော ညီအစ်ကို၏ဆိုင်ခန်းသည် 5 × 5 = 25 လုံး ရရှိမည်ဖြစ်ပါသည်။ သုသုသည် 15 နှင့် 25 ကို ပေါင်းကြည့်ပြီး စုစုပေါင်းသည် 40 ပြန်ရောက်မရောက် စစ်ဆေးခဲ့ရာ -- ရောက်ခဲ့ပါသည်။ အချိုးအလိုက် ခွဲဝေခြင်းသည် အမြဲတမ်း တစ်နည်းတည်း အလုပ်လုပ်ကြောင်း သူမ သဘောပေါက်လာခဲ့ပါသည် -- အစိတ်အပိုင်းများကို ပေါင်းပြီး တစ်ခုလုံးကို ရှာရန်၊ စားပြီး တစ်ခုအစိတ်အပိုင်း၏ တန်ဖိုးကို ရှာရန်၊ ထို့နောက် ဝေစုတစ်ခုစီ၏ အစိတ်အပိုင်းအရေအတွက်ဖြင့် မြှောက်ရန် ဖြစ်ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What ratio did Su Su's grandfather want to use to split the mangoes?",
+            questionMy:
+                "သုသု၏အဘိုးသည် သရက်သီးများကို ခွဲဝေရန် မည်သည့်အချိုးကို သုံးလိုသနည်း။",
+            optionsEn: ["5:3", "3:5", "3:8", "8:5"],
+            optionsMy: ["5:3", "3:5", "3:8", "8:5"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "Why did Su Su write the ratio as 3:5 and not 5:3?",
+            questionMy:
+                "သုသုသည် အဘယ်ကြောင့် အချိုးကို 5:3 အစား 3:5 ဟု ရေးခဲ့သနည်း။",
+            optionsEn: [
+              "Because 5:3 would give the wrong total",
+              "Because the order must match her stall first, then her brother's stall, as her grandfather said it",
+              "Because ratios must always start with the smaller number",
+              "Because 3:5 uses fewer digits",
+            ],
+            optionsMy: [
+              "5:3 က စုစုပေါင်းကို မှားစေမည်ဖြစ်၍",
+              "အဘိုးပြောသည့်အတိုင်း သူမ၏ဆိုင်ခန်းကို ပထမ၊ ညီအစ်ကို၏ဆိုင်ခန်းကို ဒုတိယ အစီအစဉ်နှင့် ကိုက်ညီရမည်ဖြစ်၍",
+              "အချိုးများသည် အမြဲ ဂဏန်းငယ်ဖြင့် အစပြုရမည်ဖြစ်၍",
+              "3:5 သည် ဂဏန်းလုံးရေ နည်းသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many total equal parts did Su Su's bar model have?",
+            questionMy:
+                "သုသု၏ ဘားပုံစံတွင် အညီအမျှ အစိတ်အပိုင်း စုစုပေါင်း မည်မျှရှိသနည်း။",
+            optionsEn: ["3", "5", "8", "40"],
+            optionsMy: ["3", "5", "8", "40"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn: "What was the value of one part of the ratio?",
+            questionMy: "အချိုး၏ တစ်ခုအစိတ်အပိုင်း တန်ဖိုးမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["3", "5", "8", "40"],
+            optionsMy: ["3", "5", "8", "40"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "How many mangoes did Su Su's own stall receive?",
+            questionMy:
+                "သုသု၏ကိုယ်ပိုင်ဆိုင်ခန်းသည် သရက်သီး မည်မျှ ရရှိခဲ့သနည်း။",
+            optionsEn: ["25", "15", "20", "5"],
+            optionsMy: ["25", "15", "20", "5"],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Understanding Ratio",
+      titleMy: "အပတ်စဉ် ၂၅ ပြန်လည်သုံးသပ်ခြင်း - အချိုးကို နားလည်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Write the ratio of 6 red counters to 9 blue counters (red to blue).",
+          questionMy:
+              "အနီရောင် ကောင်တာ ၆ခုမှ အပြာရောင် ကောင်တာ ၉ခုသို့ (အနီမှ အပြာ) အချိုးကို ရေးပါ။",
+          optionsEn: ["9:6", "6:9", "6:15", "15:6"],
+          optionsMy: ["9:6", "6:9", "6:15", "15:6"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "In the ratio 4:7, how many total parts are there?",
+          questionMy: "အချိုး 4:7 တွင် အစိတ်အပိုင်း စုစုပေါင်း မည်မျှရှိသနည်း။",
+          optionsEn: ["7", "4", "11", "28"],
+          optionsMy: ["7", "4", "11", "28"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bar model for the ratio 3:4 uses how many equal boxes in total?",
+          questionMy:
+              "အချိုး 3:4 အတွက် ဘားပုံစံတွင် အညီအမျှ ဘောင်ကွက် စုစုပေါင်း မည်မျှ အသုံးပြုသနည်း။",
+          optionsEn: ["4", "3", "7", "12"],
+          optionsMy: ["4", "3", "7", "12"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two friends share 30 sweets in the ratio 2:3. What is the value of one part?",
+          questionMy:
+              "သူငယ်ချင်းနှစ်ဦးသည် အချိုပွင့် ၃၀ ကို အချိုး 2:3 ဖြင့် ခွဲဝေသည်။ တစ်ခုအစိတ်အပိုင်း၏ တန်ဖိုးမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["10", "6", "5", "15"],
+          optionsMy: ["10", "6", "5", "15"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using the same ratio 2:3 sharing 30 sweets, how many sweets does the friend with the larger share get?",
+          questionMy:
+              "အချိုး 2:3 ဖြင့် အချိုပွင့် ၃၀ ကို ခွဲဝေရာတွင် ဝေစုပိုများသော သူငယ်ချင်းသည် အချိုပွင့် မည်မျှ ရရှိသနည်း။",
+          optionsEn: ["12", "20", "18", "15"],
+          optionsMy: ["12", "20", "18", "15"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 7, Week 26: "Simplifying Ratios"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek26 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w26",
+  weekNumber: 26,
+  titleEn: "Simplifying Ratios",
+  titleMy: "အချိုးများကို ရှင်းလင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w26-d1",
+      dayNumber: 1,
+      titleEn: "Simplify Ratios Using the HCF",
+      titleMy: "HCF သုံး၍ အချိုးများကို ရှင်းလင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Week 2's HCF method (finding prime factors), simplify the ratio 12:18 to its simplest form.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ HCF နည်းလမ်း (ပင်ရင်းကိန်းချေများ ရှာခြင်း) ကိုသုံးပြီး အချိုး 12:18 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["3:2", "2:3", "6:9", "4:6"],
+          optionsMy: ["3:2", "2:3", "6:9", "4:6"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Using Week 2's HCF method, simplify the ratio 24:36.",
+          questionMy:
+              "၂ပတ်မြောက်ရဲ့ HCF နည်းလမ်းကိုသုံးပြီး အချိုး 24:36 ကို ရှင်းလင်းပါ။",
+          optionsEn: ["4:6", "3:4", "2:3", "1:2"],
+          optionsMy: ["4:6", "3:4", "2:3", "1:2"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Which ratio is equivalent to 3:5?",
+          questionMy: "မည်သည့်အချိုးသည် 3:5 နှင့် ညီမျှသနည်း။",
+          optionsEn: ["12:15", "12:20", "15:12", "20:12"],
+          optionsMy: ["12:15", "12:20", "15:12", "20:12"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify the ratio 15:25 to its simplest form.",
+          questionMy: "အချိုး 15:25 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["5:3", "1:2", "3:5", "5:10"],
+          optionsMy: ["5:3", "1:2", "3:5", "5:10"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recipe uses flour to water in the ratio 20:30. Simplify this ratio, then state how many parts water there are for every 2 parts flour.",
+          questionMy:
+              "ဟင်းလျာတစ်ခုသည် မုန့်ညက်မှ ရေသို့ အချိုး 20:30 ကို သုံးပါသည်။ ဤအချိုးကို ရှင်းလင်းပြီး၊ မုန့်ညက် ၂ အစိတ်အပိုင်းတိုင်းအတွက် ရေ မည်မျှ အစိတ်အပိုင်းရှိသည်ကို ဖော်ပြပါ။",
+          optionsEn: ["2", "10", "5", "3"],
+          optionsMy: ["2", "10", "5", "3"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match the Simplifying Ratios Vocabulary",
+      titleMy: "အချိုးရှင်းလင်းခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w26-dm-1",
+          termEn: "Simplify a Ratio",
+          termMy: "အချိုးတစ်ခုကို ရှင်းလင်းခြင်း",
+          matchEn:
+              "Divide every part of the ratio by their Highest Common Factor (HCF)",
+          matchMy:
+              "အချိုး၏ အစိတ်အပိုင်းတိုင်းကို ၎င်းတို့၏ အများဆုံးဘုံကိန်းချေ (HCF) ဖြင့် စားခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w26-dm-2",
+          termEn: "Equivalent Ratios",
+          termMy: "ညီမျှသောအချိုးများ",
+          matchEn:
+              "Ratios that simplify to the same simplest form, e.g. 4:6 and 2:3",
+          matchMy:
+              "အရှင်းဆုံးပုံစံ တူညီအောင် ရှင်းလင်းနိုင်သော အချိုးများ၊ ဥပမာ 4:6 နှင့် 2:3",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w26-dm-3",
+          termEn: "Simplest Form",
+          termMy: "အရှင်းဆုံးပုံစံ",
+          matchEn:
+              "A ratio where the parts share no common factor other than 1",
+          matchMy: "အစိတ်အပိုင်းများသည် 1 မှလွဲ၍ ဘုံကိန်းချေ မရှိသော အချိုး",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w26-dm-4",
+          termEn: "Highest Common Factor (HCF)",
+          termMy: "အများဆုံးဘုံကိန်းချေ (HCF)",
+          matchEn:
+              "The largest number that divides exactly into every part of a ratio",
+          matchMy:
+              "အချိုး၏ အစိတ်အပိုင်းတိုင်းကို အကြွင်းမဲ့ စားနိုင်သော အကြီးဆုံးဂဏန်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w26-dm-5",
+          termEn: "Scale Up",
+          termMy: "တိုးချဲ့ခြင်း",
+          matchEn:
+              "Multiply every part of a ratio by the same number to make an equivalent ratio",
+          matchMy:
+              "ညီမျှသောအချိုးတစ်ခု ဖြစ်ပေါ်စေရန် အချိုး၏ အစိတ်အပိုင်းတိုင်းကို ဂဏန်းတစ်ခုတည်းဖြင့် မြှောက်ခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w26-dm-6",
+          termEn: "Scale Down",
+          termMy: "လျှော့ချခြင်း",
+          matchEn:
+              "Divide every part of a ratio by the same number to make an equivalent ratio",
+          matchMy:
+              "ညီမျှသောအချိုးတစ်ခု ဖြစ်ပေါ်စေရန် အချိုး၏ အစိတ်အပိုင်းတိုင်းကို ဂဏန်းတစ်ခုတည်းဖြင့် စားခြင်း",
+          colorValue: 0xFF5CC9A7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Simplest Form or Not?",
+      titleMy: "စီစစ်ကြမည် - အရှင်းဆုံးပုံစံလား မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Already in Simplest Form", "Can Be Simplified Further"],
+        bucketsMy: [
+          "အရှင်းဆုံးပုံစံ ဖြစ်နှင့်ပြီးသား",
+          "ထပ်မံ ရှင်းလင်းနိုင်သေးသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w26-sort-1",
+            labelEn: "The ratio 5:8",
+            labelMy: "အချိုး 5:8",
+            correctBucketEn: "Already in Simplest Form",
+            correctBucketMy: "အရှင်းဆုံးပုံစံ ဖြစ်နှင့်ပြီးသား",
+          ),
+          SortingItem(
+            id: "s1math-w26-sort-2",
+            labelEn: "The ratio 10:15",
+            labelMy: "အချိုး 10:15",
+            correctBucketEn: "Can Be Simplified Further",
+            correctBucketMy: "ထပ်မံ ရှင်းလင်းနိုင်သေးသည်",
+          ),
+          SortingItem(
+            id: "s1math-w26-sort-3",
+            labelEn: "The ratio 7:9",
+            labelMy: "အချိုး 7:9",
+            correctBucketEn: "Already in Simplest Form",
+            correctBucketMy: "အရှင်းဆုံးပုံစံ ဖြစ်နှင့်ပြီးသား",
+          ),
+          SortingItem(
+            id: "s1math-w26-sort-4",
+            labelEn: "The ratio 16:24",
+            labelMy: "အချိုး 16:24",
+            correctBucketEn: "Can Be Simplified Further",
+            correctBucketMy: "ထပ်မံ ရှင်းလင်းနိုင်သေးသည်",
+          ),
+          SortingItem(
+            id: "s1math-w26-sort-5",
+            labelEn: "The ratio 3:11",
+            labelMy: "အချိုး 3:11",
+            correctBucketEn: "Already in Simplest Form",
+            correctBucketMy: "အရှင်းဆုံးပုံစံ ဖြစ်နှင့်ပြီးသား",
+          ),
+          SortingItem(
+            id: "s1math-w26-sort-6",
+            labelEn: "The ratio 18:30",
+            labelMy: "အချိုး 18:30",
+            correctBucketEn: "Can Be Simplified Further",
+            correctBucketMy: "ထပ်မံ ရှင်းလင်းနိုင်သေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Simplifies the Paint Ratio",
+      titleMy: "စာဖတ်ခြင်း - သုသု ဆေးရောင်အချိုးကို ရှင်းလင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Simplifies the Paint Ratio",
+        titleMy: "သုသု ဆေးရောင်အချိုးကို ရှင်းလင်းခြင်း",
+        passageEn:
+            "For the school's Independence Day mural, Su Su's art teacher mixed a large batch of blue paint using 24 parts blue dye to 36 parts white base, measured out in small cups. When a younger student asked how much blue and white paint to mix for a smaller batch, Su Su realized that saying '24 parts blue to 36 parts white' was confusing -- nobody wanted to count out 24 and 36 cups. She remembered the HCF method from Week 2, where she had learned to break numbers into their prime factors to find the highest common factor.\n\nSu Su wrote 24 as 2 × 2 × 2 × 3 and 36 as 2 × 2 × 3 × 3. The common prime factors were 2 × 2 × 3 = 12, so the HCF of 24 and 36 was 12. Dividing both parts of the ratio by 12, she simplified 24:36 down to 2:3 -- a much easier ratio to remember and explain. Now she could tell the younger student, 'For every 2 cups of blue dye, mix in 3 cups of white base,' and it would work for any size batch, as long as the two amounts stayed in the same 2:3 ratio.\n\nTo check her simplified ratio still matched the original mixture, Su Su multiplied both parts of 2:3 back up: 2 × 12 = 24 and 3 × 12 = 36, which matched the teacher's original batch exactly. She explained to the class that ratios like 24:36, 12:18, 8:12, and 2:3 are all called equivalent ratios, because they all simplify down to the same simplest form. From then on, whenever a ratio looked like it had large, awkward numbers, Su Su's classmates started asking, 'What's the HCF?' before mixing a single drop of paint.",
+        passageMy:
+            "ကျောင်း၏ လွတ်လပ်ရေးနေ့ နံရံပန်းချီအတွက် သုသု၏ အနုပညာဆရာမသည် အပြာရောင်ဆေး အစိတ်အပိုင်း ၂၄ မှ အဖြူရောင်ဆေးရင်း အစိတ်အပိုင်း ၃၆ ကို ခွက်ငယ်များဖြင့် တိုင်း၍ အပြာရောင်ဆေး အစုအဝေးကြီးတစ်ခု ရောစပ်ခဲ့ပါသည်။ ကျောင်းသားငယ်တစ်ဦးက အစုအဝေးငယ်တစ်ခုအတွက် အပြာရောင်နှင့် အဖြူရောင်ဆေး မည်မျှ ရောစပ်ရမည်ကို မေးလာသောအခါ 'အပြာ ၂၄ အစိတ်အပိုင်းမှ အဖြူ ၃၆ အစိတ်အပိုင်း' ဟု ပြောရန် ရှုပ်ထွေးနေကြောင်း သုသု သဘောပေါက်ခဲ့ပါသည် -- မည်သူမျှ ခွက် ၂၄ နှင့် ၃၆ ကို ရေတွက်လိုမည် မဟုတ်ပါ။ ပင်ရင်းကိန်းချေများ ခွဲထုတ်ပြီး အများဆုံးဘုံကိန်းချေ ရှာနည်းကို သင်ယူခဲ့သည့် ၂ပတ်မြောက်ရဲ့ HCF နည်းလမ်းကို သူမ သတိရလာခဲ့ပါသည်။\n\nသုသုသည် 24 ကို 2 × 2 × 2 × 3 ဟူ၍လည်းကောင်း၊ 36 ကို 2 × 2 × 3 × 3 ဟူ၍လည်းကောင်း ရေးခဲ့ပါသည်။ ဘုံပင်ရင်းကိန်းချေများမှာ 2 × 2 × 3 = 12 ဖြစ်သောကြောင့် 24 နှင့် 36 ၏ HCF မှာ 12 ဖြစ်ပါသည်။ အချိုး၏ အစိတ်အပိုင်းနှစ်ခုစလုံးကို 12 ဖြင့်စားခြင်းအားဖြင့် 24:36 ကို 2:3 အဖြစ် ရှင်းလင်းလိုက်ရာ -- မှတ်ရန်နှင့် ရှင်းပြရန် ပိုမိုလွယ်ကူသော အချိုးတစ်ခု ရရှိခဲ့ပါသည်။ ယခုအခါ သူမသည် ကျောင်းသားငယ်အား 'အပြာရောင်ဆေး ၂ ခွက်တိုင်းအတွက် အဖြူရောင်ဆေးရင်း ၃ ခွက် ရောပါ' ဟု ပြောနိုင်ပြီဖြစ်ပြီး၊ ပမာဏနှစ်ခုသည် 2:3 အချိုးတည်တည် ရှိနေသရွေ့ အစုအဝေးအရွယ်အစား မည်သို့ပင်ရှိစေကာမူ အလုပ်ဖြစ်ပါသည်။\n\nရှင်းလင်းလိုက်သော အချိုးသည် မူလရောစပ်မှုနှင့် ကိုက်ညီနေသေးမနေသေး စစ်ဆေးရန် သုသုသည် 2:3 ၏ အစိတ်အပိုင်းနှစ်ခုစလုံးကို ပြန်မြှောက်ခဲ့ပါသည် -- 2 × 12 = 24 နှင့် 3 × 12 = 36 ဖြစ်ပြီး ဆရာမ၏ မူလအစုအဝေးနှင့် အတိအကျ ကိုက်ညီခဲ့ပါသည်။ 24:36၊ 12:18၊ 8:12 နှင့် 2:3 ကဲ့သို့သော အချိုးများသည် အားလုံး အရှင်းဆုံးပုံစံတူညီအောင် ရှင်းလင်းနိုင်သောကြောင့် ညီမျှသောအချိုးများ ဟုခေါ်ကြောင်း သူမ အတန်းကို ရှင်းပြခဲ့ပါသည်။ ထို့နောက် အချိုးတစ်ခုသည် ကြီးမား၊ ရှုပ်ထွေးသော ဂဏန်းများပါဝင်နေသည်ဟု ထင်ရသည့်အခါတိုင်း သုသု၏ အတန်းဖော်များသည် ဆေးရည်စက်တစ်စက်မျှ မရောစပ်မီ 'HCF က ဘာလဲ' ဟု မေးခြင်းကို စတင်ခဲ့ကြပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the original ratio of blue dye to white base?",
+            questionMy:
+                "အပြာရောင်ဆေးမှ အဖြူရောင်ဆေးရင်းသို့ မူလအချိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["24:36", "36:24", "12:18", "2:3"],
+            optionsMy: ["24:36", "36:24", "12:18", "2:3"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What method did Su Su use to simplify the ratio?",
+            questionMy:
+                "အချိုးကို ရှင်းလင်းရန် သုသု မည်သည့်နည်းလမ်းကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "Guessing randomly",
+              "Finding the HCF using prime factorization",
+              "Adding both parts together",
+              "Asking her teacher for the answer",
+            ],
+            optionsMy: [
+              "ကျပန်းခန့်မှန်းခြင်း",
+              "ပင်ရင်းကိန်းချေဖြင့် HCF ရှာခြင်း",
+              "အစိတ်အပိုင်းနှစ်ခုကို ပေါင်းခြင်း",
+              "ဆရာမထံ အဖြေမေးခြင်း",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What is the HCF of 24 and 36?",
+            questionMy: "24 နှင့် 36 ၏ HCF မှာ အဘယ်မျှနည်း။",
+            optionsEn: ["6", "12", "4", "8"],
+            optionsMy: ["6", "12", "4", "8"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "What is the simplified ratio in simplest form?",
+            questionMy:
+                "အရှင်းဆုံးပုံစံဖြင့် ရှင်းလင်းထားသော အချိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["2:3", "3:2", "4:6", "1:2"],
+            optionsMy: ["2:3", "3:2", "4:6", "1:2"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which of these ratios is NOT equivalent to 2:3?",
+            questionMy:
+                "အောက်ပါအချိုးများအနက် 2:3 နှင့် မညီမျှသည်မှာ အဘယ်နည်း။",
+            optionsEn: ["4:6", "8:12", "24:36", "5:9"],
+            optionsMy: ["4:6", "8:12", "24:36", "5:9"],
+            correctIndex: 3,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Simplifying Ratios",
+      titleMy: "အပတ်စဉ် ၂၆ ပြန်လည်သုံးသပ်ခြင်း - အချိုးများကို ရှင်းလင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify the ratio 8:12 to its simplest form.",
+          questionMy: "အချိုး 8:12 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["4:6", "2:3", "3:4", "1:2"],
+          optionsMy: ["4:6", "2:3", "3:4", "1:2"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify the ratio 30:45 to its simplest form.",
+          questionMy: "အချိုး 30:45 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["3:2", "2:3", "5:6", "6:9"],
+          optionsMy: ["3:2", "2:3", "5:6", "6:9"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which ratio is equivalent to 5:6?",
+          questionMy: "မည်သည့်အချိုးသည် 5:6 နှင့် ညီမျှသနည်း။",
+          optionsEn: ["15:18", "18:15", "10:11", "15:24"],
+          optionsMy: ["15:18", "18:15", "10:11", "15:24"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ratio simplifies to 3:4 after dividing both parts by 5. What was the original ratio?",
+          questionMy:
+              "အချိုးတစ်ခုကို အစိတ်အပိုင်းနှစ်ခုစလုံး 5 ဖြင့်စားပြီးနောက် 3:4 အဖြစ်ရှင်းလင်းရရှိသည်။ မူလအချိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["15:20", "20:15", "8:9", "9:12"],
+          optionsMy: ["15:20", "20:15", "8:9", "9:12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which pair of numbers has an HCF of 9?",
+          questionMy: "မည်သည့်ဂဏန်းအတွဲသည် HCF 9 ရှိသနည်း။",
+          optionsEn: ["18 and 27", "12 and 20", "14 and 21", "16 and 24"],
+          optionsMy: [
+            "18 နှင့် 27",
+            "12 နှင့် 20",
+            "14 နှင့် 21",
+            "16 နှင့် 24",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 7, Week 27: "Direct Proportion"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek27 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w27",
+  weekNumber: 27,
+  titleEn: "Direct Proportion",
+  titleMy: "တိုက်ရိုက်အချိုးကျခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w27-d1",
+      dayNumber: 1,
+      titleEn: "Scaling and the Unitary Method",
+      titleMy: "တိုးချဲ့/လျှော့ချခြင်းနှင့် ယူနစ်နည်းလမ်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If 3 pens cost 1,500 kyats, using the unitary method, what is the cost of 1 pen?",
+          questionMy:
+              "ဘောပင် ၃ချောင်း ၁,၅၀၀ ကျပ် ကျသင့်ပါက ယူနစ်နည်းလမ်းကိုသုံး၍ ဘောပင် ၁ချောင်း၏ ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["300", "500", "450", "600"],
+          optionsMy: ["300", "500", "450", "600"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using your answer from the last question, what would 7 pens cost at 500 kyats each?",
+          questionMy:
+              "ယခင်ပုစ္ဆာ၏ အဖြေကို သုံး၍ ဘောပင် ၁ချောင်းလျှင် ၅၀၀ ကျပ်နှုန်းဖြင့် ဘောပင် ၇ချောင်း ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["3000", "3500", "4000", "3200"],
+          optionsMy: ["3000", "3500", "4000", "3200"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Shop A sells 5 eggs for 1,000 kyats. Shop B sells 8 eggs for 1,800 kyats. Which shop offers the better value per egg?",
+          questionMy:
+              "ဆိုင် A သည် ကြက်ဥ ၅လုံးကို ၁,၀၀၀ ကျပ်ဖြင့် ရောင်းသည်။ ဆိုင် B သည် ကြက်ဥ ၈လုံးကို ၁,၈၀၀ ကျပ်ဖြင့် ရောင်းသည်။ တစ်လုံးလျှင် မည်သည့်ဆိုင်က အတန်ဆုံးတန်ဖိုး ပေးသနည်း။",
+          optionsEn: [
+            "Shop B",
+            "Shop A",
+            "Both the same",
+            "Cannot be determined",
+          ],
+          optionsMy: [
+            "ဆိုင် B",
+            "ဆိုင် A",
+            "နှစ်ဆိုင်စလုံး တူညီသည်",
+            "ဆုံးဖြတ်၍မရပါ",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A photo measuring 4cm by 6cm is enlarged in direct proportion so the width becomes 10cm. What is the new height?",
+          questionMy:
+              "စင်တီမီတာ ၄ x ၆ ရှိသော ဓာတ်ပုံတစ်ပုံကို တိုက်ရိုက်အချိုးကျဖြင့် ချဲ့သောအခါ အနံသည် ၁၀စင်တီမီတာ ဖြစ်လာသည်။ အမြင့်အသစ်မှာ အဘယ်မျှနည်း။",
+          optionsEn: ["12 cm", "15 cm", "10 cm", "20 cm"],
+          optionsMy: ["12 cm", "15 cm", "10 cm", "20 cm"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is true about direct proportion between two quantities x and y?",
+          questionMy:
+              "ပမာဏ x နှင့် y နှစ်ခုကြား တိုက်ရိုက်အချိုးကျခြင်းနှင့် ပတ်သက်၍ မှန်ကန်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "As x increases, y decreases",
+            "y stays the same regardless of x",
+            "As x increases, y increases at the same rate (y/x stays constant)",
+            "x and y are always equal",
+          ],
+          optionsMy: [
+            "x တိုးလာလျှင် y လျော့ကျသည်",
+            "x မည်သို့ပင်ရှိစေ y မပြောင်းလဲပါ",
+            "x တိုးလာလျှင် y သည်လည်း တူညီသောနှုန်းဖြင့် တိုးလာသည် (y/x တည်ငြိမ်နေသည်)",
+            "x နှင့် y သည် အမြဲ ညီမျှသည်",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match the Direct Proportion Vocabulary",
+      titleMy: "တိုက်ရိုက်အချိုးကျခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w27-dm-1",
+          termEn: "Direct Proportion",
+          termMy: "တိုက်ရိုက်အချိုးကျခြင်း",
+          matchEn:
+              "A relationship where two quantities increase or decrease together at the same rate",
+          matchMy:
+              "ပမာဏနှစ်ခုသည် တူညီသောနှုန်းဖြင့် အတူတကွ တိုးလာသည် သို့မဟုတ် လျော့ကျသည့် ဆက်စပ်မှု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w27-dm-2",
+          termEn: "Unitary Method",
+          termMy: "ယူနစ်နည်းလမ်း",
+          matchEn:
+              "Finding the value of one unit first, then multiplying to find the value of any number of units",
+          matchMy:
+              "ယူနစ်တစ်ခု၏ တန်ဖိုးကို ဦးစွာရှာပြီး ယူနစ်အရေအတွက် မည်မျှ၏ တန်ဖိုးကိုမဆို ရှာရန် မြှောက်ခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w27-dm-3",
+          termEn: "Scale Factor",
+          termMy: "စကေးအချိုး",
+          matchEn:
+              "The number you multiply (or divide) by to enlarge or reduce a quantity in proportion",
+          matchMy:
+              "ပမာဏတစ်ခုကို အချိုးကျ ချဲ့ခြင်း သို့မဟုတ် လျှော့ချခြင်းအတွက် မြှောက်ခြင်း (သို့မဟုတ် စားခြင်း) ပြုလုပ်သည့် ဂဏန်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w27-dm-4",
+          termEn: "Unit Price",
+          termMy: "ယူနစ်တစ်ခုဈေးနှုန်း",
+          matchEn:
+              "The cost of a single item, e.g. the price of just 1 kg of rice",
+          matchMy:
+              "ပစ္စည်းတစ်ခုတည်း၏ ဈေးနှုန်း၊ ဥပမာ ဆန် ၁ကီလိုဂရမ်၏ ဈေးနှုန်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w27-dm-5",
+          termEn: "Value for Money",
+          termMy: "အတန်ဆုံးတန်ဖိုး",
+          matchEn:
+              "Comparing unit prices to decide which option costs less per item",
+          matchMy:
+              "ပစ္စည်းတစ်ခုစီအတွက် မည်သည့်ရွေးချယ်မှုက ပိုသက်သာသည်ကို ဆုံးဖြတ်ရန် ယူနစ်ဈေးနှုန်းများကို နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w27-dm-6",
+          termEn: "Constant Ratio",
+          termMy: "တည်ငြိမ်သောအချိုး",
+          matchEn:
+              "In direct proportion, the ratio between the two quantities always stays the same",
+          matchMy:
+              "တိုက်ရိုက်အချိုးကျခြင်းတွင် ပမာဏနှစ်ခုကြား အချိုးသည် အမြဲတည်ငြိမ်နေသည်",
+          colorValue: 0xFF5CC9A7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct Proportion or Not?",
+      titleMy: "စီစစ်ကြမည် - တိုက်ရိုက်အချိုးကျခြင်း ဟုတ်သလား မဟုတ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Direct Proportion", "NOT Direct Proportion"],
+        bucketsMy: [
+          "တိုက်ရိုက်အချိုးကျခြင်း",
+          "တိုက်ရိုက်အချိုးကျခြင်း မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w27-sort-1",
+            labelEn:
+                "The more hours you work, the more money you earn at a fixed hourly rate",
+            labelMy:
+                "အလုပ်လုပ်ချိန်ပိုများလေ၊ တစ်နာရီလျှင် ဂဏန်းသတ်ခဲ့ဖြင့် ပိုငွေရလေ",
+            correctBucketEn: "Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w27-sort-2",
+            labelEn:
+                "The more people share a fixed pizza, the smaller each slice becomes",
+            labelMy: "ပီဇာအသတ်ကို ဝေမျှသူ ပိုများလေ၊ တစ်ချပ်စီ ပိုသေးလေ",
+            correctBucketEn: "NOT Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "s1math-w27-sort-3",
+            labelEn:
+                "The more notebooks you buy, the more you pay at a fixed price each",
+            labelMy:
+                "မှတ်စုစာအုပ် ပိုဝယ်လေ၊ တစ်အုပ်စီ ဈေးသတ်ဖြင့် ပိုငွေကုန်လေ",
+            correctBucketEn: "Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w27-sort-4",
+            labelEn:
+                "The faster you travel a fixed distance, the less time it takes",
+            labelMy: "အကွာအဝေးသတ်ကို ပိုမြန်စွာ သွားလေ၊ အချိန် ပိုနည်းလေ",
+            correctBucketEn: "NOT Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "s1math-w27-sort-5",
+            labelEn:
+                "The more kilometres a taxi travels, the higher the fare at a fixed rate per km",
+            labelMy:
+                "ဒုံးကားသည် ကီလိုမီတာ ပိုသွားလေ၊ တစ်ကီလိုမီတာလျှင် နှုန်းသတ်ဖြင့် ခရီးစဉ်ခ ပိုများလေ",
+            correctBucketEn: "Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း",
+          ),
+          SortingItem(
+            id: "s1math-w27-sort-6",
+            labelEn:
+                "The more workers building a wall, the less time it takes to finish",
+            labelMy: "နံရံဆောက်လုပ်သူ ပိုများလေ၊ ပြီးစီးရန် အချိန် ပိုနည်းလေ",
+            correctBucketEn: "NOT Direct Proportion",
+            correctBucketMy: "တိုက်ရိုက်အချိုးကျခြင်း မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Finds the Best Value for Money",
+      titleMy: "စာဖတ်ခြင်း - သုသု အတန်ဆုံးတန်ဖိုးကို ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Finds the Best Value for Money",
+        titleMy: "သုသု အတန်ဆုံးတန်ဖိုးကို ရှာဖွေခြင်း",
+        passageEn:
+            "Su Su's mother sent her to the market with a list and a fixed amount of money, reminding her, 'Don't just look at the total price -- work out the price for one unit each time, so you can compare properly.' At the first stall, a bag of 4 notebooks cost 2,000 kyats. At the second stall, a bag of 6 identical notebooks cost 2,700 kyats. Su Su used the unitary method she had learned in Week 27's lessons: she divided the total price by the number of notebooks to find the unit price. At the first stall, 2,000 ÷ 4 = 500 kyats per notebook. At the second stall, 2,700 ÷ 6 = 450 kyats per notebook. Even though the second bag cost more in total, each notebook inside it was actually cheaper, so Su Su bought from the second stall.\n\nNext, Su Su needed cooking oil. The recipe her mother wanted required an amount in direct proportion to how many people it fed. A recipe card said 2 people need 300 millilitres of oil. Su Su was cooking for 7 people, so she first found the unit amount: 300 ÷ 2 = 150 millilitres of oil per person. Then, since the amount of oil needed and the number of people are in direct proportion -- more people always means proportionally more oil, never less -- she multiplied: 150 × 7 = 1,050 millilitres of oil for 7 people.\n\nOn her way home, Su Su compared two bus fares posted at the stop: a fare card showing 3 stops for 900 kyats, and a longer trip showing 8 stops for 2,000 kyats. She divided each fare by its number of stops to compare a fair unit rate: 900 ÷ 3 = 300 kyats per stop, and 2,000 ÷ 8 = 250 kyats per stop. The longer trip actually cost less per stop. Su Su told her mother later that day that the unitary method wasn't just for schoolwork -- it helped her get better value for money everywhere she went.",
+        passageMy:
+            "သုသု၏အမေသည် သူမအား စာရင်းတစ်ခုနှင့် ငွေပမာဏသတ်တစ်ခုပေး၍ ဈေးဆိုင်သို့ စေလွှတ်ခဲ့ပြီး 'စုစုပေါင်းဈေးနှုန်းကိုသာ မကြည့်နဲ့ -- မှန်ကန်စွာ နှိုင်းယှဉ်နိုင်ဖို့ အကြိမ်တိုင်း ယူနစ်တစ်ခုစီ၏ ဈေးနှုန်းကို တွက်ချက်ကြည့်ပါ' ဟု သတိပေးခဲ့ပါသည်။ ပထမဆိုင်တွင် မှတ်စုစာအုပ် ၄အုပ်ပါ အိတ်တစ်အိတ်သည် ၂,၀၀၀ ကျပ် ကျသင့်ခဲ့ပါသည်။ ဒုတိယဆိုင်တွင် တူညီသော မှတ်စုစာအုပ် ၆အုပ်ပါ အိတ်တစ်အိတ်သည် ၂,၇၀၀ ကျပ် ကျသင့်ခဲ့ပါသည်။ သုသုသည် ၂၇ပတ်မြောက် သင်ခန်းစာများတွင် သင်ယူခဲ့သည့် ယူနစ်နည်းလမ်းကို သုံးခဲ့ပါသည် -- ယူနစ်ဈေးနှုန်းကို ရှာရန် စုစုပေါင်းဈေးနှုန်းကို မှတ်စုစာအုပ်အရေအတွက်ဖြင့် စားခဲ့ပါသည်။ ပထမဆိုင်တွင် 2,000 ÷ 4 = 500 ကျပ် (မှတ်စုစာအုပ်တစ်အုပ်လျှင်)။ ဒုတိယဆိုင်တွင် 2,700 ÷ 6 = 450 ကျပ် (မှတ်စုစာအုပ်တစ်အုပ်လျှင်)။ ဒုတိယအိတ်သည် စုစုပေါင်းဈေးနှုန်း ပိုများသော်လည်း အထဲရှိ မှတ်စုစာအုပ်တစ်အုပ်စီမှာ တကယ်တော့ ပိုသက်သာသောကြောင့် သုသုသည် ဒုတိယဆိုင်မှ ဝယ်ယူခဲ့ပါသည်။\n\nထို့နောက် သုသုသည် ချက်ပြုတ်ဆီ လိုအပ်ခဲ့ပါသည်။ သူမအမေလိုချင်သော ဟင်းလျာသည် စားသုံးမည့်လူဦးရေနှင့် တိုက်ရိုက်အချိုးကျသော ပမာဏ လိုအပ်ပါသည်။ ဟင်းလျာကတ်ပြားတွင် လူ ၂ဦးအတွက် ဆီ ၃၀၀ မီလီလီတာ လိုအပ်ကြောင်း ဖော်ပြထားပါသည်။ သုသုသည် လူ ၇ဦးအတွက် ချက်ပြုတ်နေခြင်းဖြစ်၍ ဦးစွာ ယူနစ်ပမာဏကို ရှာခဲ့ပါသည် -- 300 ÷ 2 = 150 မီလီလီတာ (လူတစ်ဦးလျှင်)။ ထို့နောက် လိုအပ်သော ဆီပမာဏနှင့် လူဦးရေသည် တိုက်ရိုက်အချိုးကျသောကြောင့် -- လူဦးရေ ပိုများလေ ဆီလည်း အချိုးကျ ပိုများလေ၊ ဘယ်တော့မှ ပိုနည်းမည် မဟုတ်ပါ -- သူမ 150 × 7 = 1,050 ဟု မြှောက်ခဲ့ပါသည်၊ လူ ၇ဦးအတွက် ဆီ မီလီလီတာ ၁,၀၅၀ ဖြစ်ပါသည်။\n\nအိမ်ပြန်လမ်းတွင် သုသုသည် ဘတ်စ်ကားမှတ်တိုင်တွင် ကပ်ထားသော ခရီးစဉ်ခနှစ်ခုကို နှိုင်းယှဉ်ခဲ့ပါသည် -- မှတ်တိုင် ၃ခုအတွက် ၉၀၀ ကျပ်ဟု ဖော်ပြသည့် ကတ်ပြားတစ်ခုနှင့် မှတ်တိုင် ၈ခုအတွက် ၂,၀၀၀ ကျပ်ဟု ဖော်ပြသည့် ခရီးရှည်တစ်ခု။ တရားမျှတသော ယူနစ်နှုန်းကို နှိုင်းယှဉ်ရန် ခရီးစဉ်ခတစ်ခုစီကို မှတ်တိုင်အရေအတွက်ဖြင့် စားခဲ့ပါသည် -- 900 ÷ 3 = 300 ကျပ် (မှတ်တိုင်တစ်ခုလျှင်)၊ 2,000 ÷ 8 = 250 ကျပ် (မှတ်တိုင်တစ်ခုလျှင်)။ တကယ်တော့ ခရီးရှည်ကသာ မှတ်တိုင်တစ်ခုလျှင် ဈေးသက်သာခဲ့ပါသည်။ ယူနစ်နည်းလမ်းသည် ကျောင်းစာအတွက်သာမကဘဲ -- သွားလေရာရာတွင် အတန်ဆုံးတန်ဖိုးရရှိစေရန် ကူညီပေးကြောင်း သုသုသည် ထိုနေ့ နောက်ပိုင်း သူမအမေအား ပြောပြခဲ့ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "At the first stall, what was the price of one notebook?",
+            questionMy:
+                "ပထမဆိုင်တွင် မှတ်စုစာအုပ်တစ်အုပ်၏ ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+            optionsEn: ["450", "500", "400", "600"],
+            optionsMy: ["450", "500", "400", "600"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "Which stall offered the cheaper price per notebook?",
+            questionMy:
+                "မည်သည့်ဆိုင်က မှတ်စုစာအုပ်တစ်အုပ်လျှင် ဈေးပိုသက်သာသနည်း။",
+            optionsEn: [
+              "The first stall",
+              "The second stall",
+              "Both the same",
+              "Cannot be determined",
+            ],
+            optionsMy: [
+              "ပထမဆိုင်",
+              "ဒုတိယဆိုင်",
+              "နှစ်ဆိုင်စလုံး တူညီသည်",
+              "ဆုံးဖြတ်၍မရပါ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "How much oil does the recipe need for 1 person?",
+            questionMy: "ဟင်းလျာသည် လူ ၁ဦးအတွက် ဆီ မည်မျှလိုအပ်သနည်း။",
+            optionsEn: ["300 ml", "150 ml", "100 ml", "200 ml"],
+            optionsMy: ["300 ml", "150 ml", "100 ml", "200 ml"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "How much oil did Su Su need for 7 people?",
+            questionMy: "သုသုသည် လူ ၇ဦးအတွက် ဆီ မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["1050 ml", "1500 ml", "900 ml", "700 ml"],
+            optionsMy: ["1050 ml", "1500 ml", "900 ml", "700 ml"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which bus fare had the cheaper cost per stop?",
+            questionMy:
+                "မည်သည့်ဘတ်စ်ကားခရီးစဉ်ခသည် မှတ်တိုင်တစ်ခုလျှင် ဈေးပိုသက်သာသနည်း။",
+            optionsEn: [
+              "The 3-stop fare (900 kyats)",
+              "The 8-stop fare (2,000 kyats)",
+              "Both the same",
+              "Cannot be determined",
+            ],
+            optionsMy: [
+              "မှတ်တိုင် ၃ခု ခရီးစဉ်ခ (၉၀၀ ကျပ်)",
+              "မှတ်တိုင် ၈ခု ခရီးစဉ်ခ (၂,၀၀၀ ကျပ်)",
+              "နှစ်ခုစလုံး တူညီသည်",
+              "ဆုံးဖြတ်၍မရပါ",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Direct Proportion",
+      titleMy: "အပတ်စဉ် ၂၇ ပြန်လည်သုံးသပ်ခြင်း - တိုက်ရိုက်အချိုးကျခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If 5 kg of rice costs 7,500 kyats, using the unitary method, what is the price per kg?",
+          questionMy:
+              "ဆန် ၅ကီလိုဂရမ် ၇,၅၀၀ ကျပ် ကျသင့်ပါက ယူနစ်နည်းလမ်းကိုသုံး၍ တစ်ကီလိုဂရမ်ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["1200", "1500", "1000", "2000"],
+          optionsMy: ["1200", "1500", "1000", "2000"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using that unit price, how much would 9 kg of rice cost?",
+          questionMy:
+              "ထိုယူနစ်ဈေးနှုန်းကို သုံး၍ ဆန် ၉ကီလိုဂရမ် မည်မျှ ကျသင့်မည်နည်း။",
+          optionsEn: ["12000", "13500", "15000", "13000"],
+          optionsMy: ["12000", "13500", "15000", "13000"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Shop X sells 4 soaps for 2,000 kyats. Shop Y sells 6 soaps for 3,300 kyats. Which offers better value?",
+          questionMy:
+              "ဆိုင် X သည် ဆပ်ပြာ ၄လုံးကို ၂,၀၀၀ ကျပ်ဖြင့် ရောင်းသည်။ ဆိုင် Y သည် ဆပ်ပြာ ၆လုံးကို ၃,၃၀၀ ကျပ်ဖြင့် ရောင်းသည်။ မည်သည့်ဆိုင်က အတန်ဆုံးတန်ဖိုး ပေးသနည်း။",
+          optionsEn: ["Shop Y", "Shop X", "Both equal", "Cannot tell"],
+          optionsMy: [
+            "ဆိုင် Y",
+            "ဆိုင် X",
+            "နှစ်ဆိုင်စလုံး တူညီသည်",
+            "ဆုံးဖြတ်၍မရပါ",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A map scale shows 2 cm representing 50 km real distance, in direct proportion. How many km does 5 cm represent?",
+          questionMy:
+              "မြေပုံစကေးတွင် ၂စင်တီမီတာသည် တကယ့်အကွာအဝေး ၅၀ကီလိုမီတာကို ကိုယ်စားပြုသည်။ ၅စင်တီမီတာသည် အဘယ်မျှ ကီလိုမီတာကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["100 km", "125 km", "150 km", "110 km"],
+          optionsMy: ["100 km", "125 km", "150 km", "110 km"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which statement describes direct proportion correctly?",
+          questionMy:
+              "မည်သည့်ဖော်ပြချက်သည် တိုက်ရိုက်အချိုးကျခြင်းကို မှန်ကန်စွာ ဖော်ပြသနည်း။",
+          optionsEn: [
+            "When one quantity doubles, the other stays the same",
+            "When one quantity doubles, the other quantity also doubles.",
+            "When one quantity doubles, the other is halved",
+            "When one quantity increases, the other always decreases",
+          ],
+          optionsMy: [
+            "ပမာဏတစ်ခု နှစ်ဆတိုးလာလျှင် အခြားတစ်ခုက မပြောင်းလဲပါ",
+            "ပမာဏတစ်ခု နှစ်ဆတိုးလာလျှင် အခြားပမာဏတစ်ခုသည်လည်း နှစ်ဆ တိုးလာသည်။",
+            "ပမာဏတစ်ခု နှစ်ဆတိုးလာလျှင် အခြားတစ်ခုက တစ်ဝက်ကျသွားသည်",
+            "ပမာဏတစ်ခု တိုးလာလျှင် အခြားတစ်ခုက အမြဲ လျော့ကျသည်",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 7, Week 28: "Recipe Maths" (capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek28 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w28",
+  weekNumber: 28,
+  titleEn: "Recipe Maths",
+  titleMy: "ဟင်းချက်နည်း သင်္ချာ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w28-d1",
+      dayNumber: 1,
+      titleEn: "Combined Ratio and Proportion Challenge",
+      titleMy: "ပေါင်းစပ် အချိုးနှင့် အချိုးကျခြင်း စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A pancake recipe (Week 25) uses flour to milk in the ratio 2:3. If you use 6 cups of flour, how many cups of milk are needed, keeping the same ratio?",
+          questionMy:
+              "မုန့်ပြားဟင်းလျာတစ်ခု (၂၅ပတ်မြောက်) သည် မုန့်ညက်မှ နို့ဆီသို့ အချိုး 2:3 ကို သုံးပါသည်။ မုန့်ညက် ၆ခွက် သုံးပါက အချိုးအတိုင်း ထိန်းထားရန် နို့ဆီ မည်မျှခွက် လိုအပ်မည်နည်း။",
+          optionsEn: ["6", "9", "12", "8"],
+          optionsMy: ["6", "9", "12", "8"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Week 26's simplifying skill: A paint mixture uses 18 parts red to 24 parts yellow. Simplify this ratio to its simplest form.",
+          questionMy:
+              "၂၆ပတ်မြောက်ရဲ့ ရှင်းလင်းခြင်းကျွမ်းကျင်မှုကို သတိရပါ - ဆေးရောင်ရောစပ်မှုတစ်ခုသည် အနီရောင် အစိတ်အပိုင်း ၁၈ မှ အဝါရောင် အစိတ်အပိုင်း ၂၄ ကို သုံးပါသည်။ ဤအချိုးကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["3:4", "2:3", "6:8", "9:12"],
+          optionsMy: ["3:4", "2:3", "6:8", "9:12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 27's unitary method, if 4 identical cake tins need 800g of batter in total, how much batter does 1 tin need?",
+          questionMy:
+              "၂၇ပတ်မြောက်ရဲ့ ယူနစ်နည်းလမ်းကိုသုံး၍ တူညီသောကိတ်မုန့်အိုးခွက် ၄ခုအတွက် မုန့်ညက်ရော ၈၀၀ဂရမ် စုစုပေါင်းလိုအပ်ပါက အိုးခွက်တစ်ခုအတွက် မည်မျှဂရမ် လိုအပ်မည်နည်း။",
+          optionsEn: ["150g", "200g", "250g", "400g"],
+          optionsMy: ["150g", "200g", "250g", "400g"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recipe ratio of 12:16 (sugar to butter) is simplified first (Week 26), then scaled up (Week 27) to make a large batch using 15 parts sugar. How many parts butter are needed?",
+          questionMy:
+              "ဟင်းလျာ အချိုး 12:16 (သကြားမှ ထောပတ်) ကို ဦးစွာ ရှင်းလင်း (၂၆ပတ်မြောက်) ပြီးမှ သကြား ၁၅ အစိတ်အပိုင်းသုံးသည့် အစုအဝေးကြီးတစ်ခု ပြုလုပ်ရန် တိုးချဲ့ (၂၇ပတ်မြောက်) ပါသည်။ ထောပတ် မည်မျှ အစိတ်အပိုင်း လိုအပ်မည်နည်း။",
+          optionsEn: ["15", "20", "16", "24"],
+          optionsMy: ["15", "20", "16", "24"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A furniture designer scales a chair blueprint using a ratio of 2:5 (model : real chair) for length. If the model chair leg is 8 cm, how long is the real chair leg? (Weeks 25 and 27 combined)",
+          questionMy:
+              "ပရိဘောဂဒီဇိုင်နာတစ်ဦးသည် ကုလားထိုင်ပုံစံကို အရှည်အတွက် 2:5 (ပုံစံ : တကယ့်ကုလားထိုင်) အချိုးဖြင့် တိုးချဲ့သည်။ ပုံစံကုလားထိုင်ခြေရင်းသည် ၈စင်တီမီတာရှိပါက တကယ့်ကုလားထိုင်ခြေရင်းမှာ မည်မျှရှည်မည်နည်း။ (၂၅ပတ်မြောက်နှင့် ၂၇ပတ်မြောက် ပေါင်းစပ်)",
+          optionsEn: ["16 cm", "20 cm", "24 cm", "10 cm"],
+          optionsMy: ["16 cm", "20 cm", "24 cm", "10 cm"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match the Recipe Maths Skills",
+      titleMy: "ဟင်းချက်နည်းသင်္ချာ ကျွမ်းကျင်မှုများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w28-dm-1",
+          termEn:
+              "Week 25 skill: Write the ratio of 9 spoons of sugar to 15 spoons of flour",
+          termMy:
+              "၂၅ပတ်မြောက် ကျွမ်းကျင်မှု - သကြားဇွန်း ၉ဇွန်းမှ မုန့်ညက်ဇွန်း ၁၅ဇွန်းသို့ အချိုးကို ရေးပါ",
+          matchEn: "9:15",
+          matchMy: "9:15",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w28-dm-2",
+          termEn: "Week 26 skill: Simplify the ratio 9:15 to its simplest form",
+          termMy:
+              "၂၆ပတ်မြောက် ကျွမ်းကျင်မှု - အချိုး 9:15 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ",
+          matchEn: "3:5",
+          matchMy: "3:5",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w28-dm-3",
+          termEn:
+              "Week 27 skill: 4 muffins need 200g of mixture in total -- find the unitary amount for 1 muffin",
+          termMy:
+              "၂၇ပတ်မြောက် ကျွမ်းကျင်မှု - မာဖင်မုန့် ၄လုံးအတွက် ရောစပ်ဆေး ၂၀၀ဂရမ် စုစုပေါင်း လိုအပ်သည် -- မာဖင်မုန့် ၁လုံးအတွက် ယူနစ်ပမာဏကို ရှာပါ",
+          matchEn: "50g",
+          matchMy: "50g",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w28-dm-4",
+          termEn:
+              "Weeks 25 + 26: Simplify the ratio 20:30 and state the total number of parts in simplest form",
+          termMy:
+              "၂၅ပတ်မြောက် + ၂၆ပတ်မြောက် - အချိုး 20:30 ကို ရှင်းလင်းပြီး အရှင်းဆုံးပုံစံရှိ အစိတ်အပိုင်းစုစုပေါင်းကို ဖော်ပြပါ",
+          matchEn: "5",
+          matchMy: "5",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w28-dm-5",
+          termEn:
+              "Week 27 skill: A model bridge uses a scale ratio of 1:20. If the model is 15cm long, find the real bridge length",
+          termMy:
+              "၂၇ပတ်မြောက် ကျွမ်းကျင်မှု - တံတားပုံစံသည် 1:20 စကေးအချိုးကို သုံးသည်။ ပုံစံသည် ၁၅စင်တီမီတာ ရှည်ပါက တကယ့်တံတားအရှည်ကို ရှာပါ",
+          matchEn: "300cm",
+          matchMy: "300cm",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w28-dm-6",
+          termEn:
+              "Week 26 skill: Which ratio, when simplified, equals 4:7? Simplify 16:28",
+          termMy:
+              "၂၆ပတ်မြောက် ကျွမ်းကျင်မှု - ရှင်းလင်းသောအခါ 4:7 ဖြစ်စေသော အချိုးကား? 16:28 ကို ရှင်းလင်းပါ",
+          matchEn: "4:7",
+          matchMy: "4:7",
+          colorValue: 0xFF5CC9A7,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correctly Scaled or Not?",
+      titleMy: "စီစစ်ကြမည် - အချိုးကျ တိုးချဲ့ထားသလား မထားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Correctly Scaled (Same Ratio Kept)",
+          "Incorrectly Scaled (Ratio Changed)",
+        ],
+        bucketsMy: [
+          "မှန်ကန်စွာ တိုးချဲ့ထားသည် (အချိုးတူထားသည်)",
+          "မှားယွင်းစွာ တိုးချဲ့ထားသည် (အချိုးပြောင်းသွားသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w28-sort-1",
+            labelEn: "Original ratio 2:3 scaled to 4:6",
+            labelMy: "မူလအချိုး 2:3 ကို 4:6 အဖြစ် တိုးချဲ့ထားသည်",
+            correctBucketEn: "Correctly Scaled (Same Ratio Kept)",
+            correctBucketMy: "မှန်ကန်စွာ တိုးချဲ့ထားသည် (အချိုးတူထားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w28-sort-2",
+            labelEn: "Original ratio 2:3 scaled to 6:9",
+            labelMy: "မူလအချိုး 2:3 ကို 6:9 အဖြစ် တိုးချဲ့ထားသည်",
+            correctBucketEn: "Correctly Scaled (Same Ratio Kept)",
+            correctBucketMy: "မှန်ကန်စွာ တိုးချဲ့ထားသည် (အချိုးတူထားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w28-sort-3",
+            labelEn: "Original ratio 2:3 scaled to 10:15",
+            labelMy: "မူလအချိုး 2:3 ကို 10:15 အဖြစ် တိုးချဲ့ထားသည်",
+            correctBucketEn: "Correctly Scaled (Same Ratio Kept)",
+            correctBucketMy: "မှန်ကန်စွာ တိုးချဲ့ထားသည် (အချိုးတူထားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w28-sort-4",
+            labelEn: "Original ratio 2:3 changed to 4:5",
+            labelMy: "မူလအချိုး 2:3 ကို 4:5 အဖြစ် ပြောင်းလဲထားသည်",
+            correctBucketEn: "Incorrectly Scaled (Ratio Changed)",
+            correctBucketMy:
+                "မှားယွင်းစွာ တိုးချဲ့ထားသည် (အချိုးပြောင်းသွားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w28-sort-5",
+            labelEn: "Original ratio 2:3 changed to 2:6",
+            labelMy: "မူလအချိုး 2:3 ကို 2:6 အဖြစ် ပြောင်းလဲထားသည်",
+            correctBucketEn: "Incorrectly Scaled (Ratio Changed)",
+            correctBucketMy:
+                "မှားယွင်းစွာ တိုးချဲ့ထားသည် (အချိုးပြောင်းသွားသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w28-sort-6",
+            labelEn: "Original ratio 2:3 changed to 6:3",
+            labelMy: "မူလအချိုး 2:3 ကို 6:3 အဖြစ် ပြောင်းလဲထားသည်",
+            correctBucketEn: "Incorrectly Scaled (Ratio Changed)",
+            correctBucketMy:
+                "မှားယွင်းစွာ တိုးချဲ့ထားသည် (အချိုးပြောင်းသွားသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Recipe for the School Fair",
+      titleMy: "စာဖတ်ခြင်း - ကျောင်းပွဲတော်အတွက် သုသု၏ ဟင်းလျာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Recipe for the School Fair",
+        titleMy: "ကျောင်းပွဲတော်အတွက် သုသု၏ ဟင်းလျာ",
+        passageEn:
+            "This week, we bring together everything you learned in Weeks 25 to 27! In Week 25, you learned how to write ratios correctly and share a whole amount according to a ratio, using bar models to picture the split. In Week 26, you learned how to simplify a ratio to its lowest terms using the HCF method, and how to recognize equivalent ratios. In Week 27, you learned the unitary method -- finding the value of one unit first -- and how to compare unit prices to find the best value for money.\n\nSu Su was in charge of scaling up her family's pancake recipe for the school charity fair. The original recipe, written for 4 people, used flour to milk in the ratio 2:3, needing 200g of flour and 300ml of milk. Since the fair expected 20 people, Su Su first worked out the scale factor using Week 27's unitary method: 20 people is 5 times as many as the original 4 people (20 ÷ 4 = 5), so every ingredient needed to be multiplied by 5. That meant 200g × 5 = 1,000g of flour and 300ml × 5 = 1,500ml of milk -- and she checked that 1,000:1,500 still simplified back down to 2:3 using Week 26's HCF method, confirming the ratio hadn't changed even though the amounts had grown.\n\nWhile shopping for the ingredients, Su Su compared two shops selling flour. Shop A sold 2kg bags for 3,000 kyats, and Shop B sold 5kg bags for 7,000 kyats. Using the unitary method again, she found the price per kilogram at each shop: Shop A cost 3,000 ÷ 2 = 1,500 kyats per kg, while Shop B cost 7,000 ÷ 5 = 1,400 kyats per kg. Shop B offered slightly better value for money, so Su Su bought her flour there, saving a little money for the charity fair's overall budget.",
+        passageMy:
+            "ဒီပတ်မှာ ၂၅ပတ်မြောက်ကနေ ၂၇ပတ်မြောက်အထိ သင်ခဲ့တဲ့ ဗဟုသုတအားလုံးကို ပေါင်းစပ်လိုက်ကြရအောင်! ၂၅ပတ်မြောက်မှာ အချိုးများကို မှန်ကန်စွာ ရေးသားနည်းနှင့် ဘားပုံစံများသုံးပြီး ခွဲဝေမှုကို ပုံဖော်၍ တစ်ခုလုံးကို အချိုးအလိုက် ခွဲဝေနည်းကို သင်ယူခဲ့ကြပါတယ်။ ၂၆ပတ်မြောက်မှာတော့ HCF နည်းလမ်းသုံးပြီး အချိုးတစ်ခုကို အနိမ့်ဆုံးအသွင်အဖြစ် ရှင်းလင်းနည်းနှင့် ညီမျှသောအချိုးများကို မှတ်မိနည်းကို သင်ယူခဲ့ကြပါတယ်။ ၂၇ပတ်မြောက်မှာတော့ ယူနစ်နည်းလမ်း -- ယူနစ်တစ်ခု၏ တန်ဖိုးကို ဦးစွာရှာခြင်း -- နှင့် အတန်ဆုံးတန်ဖိုးရှာရန် ယူနစ်ဈေးနှုန်းများကို နှိုင်းယှဉ်နည်းကို သင်ယူခဲ့ကြပါတယ်။\n\nသုသုသည် ကျောင်း၏ အလှူငွေထောက်ပံ့ရေးပွဲတော်အတွက် သူမမိသားစု၏ မုန့်ပြားဟင်းလျာကို တိုးချဲ့ရန် တာဝန်ယူခဲ့ပါသည်။ လူ ၄ဦးအတွက် ရေးထားသော မူလဟင်းလျာသည် မုန့်ညက်မှ နို့ဆီသို့ အချိုး 2:3 ကို သုံးပြီး မုန့်ညက် ၂၀၀ဂရမ်နှင့် နို့ဆီ ၃၀၀မီလီလီတာ လိုအပ်ခဲ့ပါသည်။ ပွဲတော်တွင် လူ ၂၀ ဦး လာရောက်မည်ဟု မျှော်လင့်ထားသောကြောင့် သုသုသည် ၂၇ပတ်မြောက်ရဲ့ ယူနစ်နည်းလမ်းကိုသုံး၍ စကေးအချိုးကို ဦးစွာ တွက်ချက်ခဲ့ပါသည် -- လူ ၂၀ ဦးသည် မူလလူ ၄ဦး၏ ၅ဆ ဖြစ်သည် (20 ÷ 4 = 5)၊ ထို့ကြောင့် ပါဝင်ပစ္စည်းတိုင်းကို ၅ဖြင့် မြှောက်ရန် လိုအပ်ပါသည်။ ဆိုလိုသည်မှာ 200g × 5 = 1,000g မုန့်ညက်နှင့် 300ml × 5 = 1,500ml နို့ဆီ ဖြစ်ပါသည် -- ၂၆ပတ်မြောက်ရဲ့ HCF နည်းလမ်းကိုသုံး၍ 1,000:1,500 သည် 2:3 အဖြစ် ပြန်ရှင်းလင်းနိုင်သေးကြောင်း သူမ စစ်ဆေးခဲ့ရာ၊ ပမာဏများ ကြီးလာသော်လည်း အချိုးမပြောင်းလဲကြောင်း အတည်ပြုနိုင်ခဲ့ပါသည်။\n\nပါဝင်ပစ္စည်းများ ဝယ်ယူနေစဉ် သုသုသည် မုန့်ညက်ရောင်းသော ဆိုင်နှစ်ဆိုင်ကို နှိုင်းယှဉ်ခဲ့ပါသည်။ ဆိုင် A သည် ၂ကီလိုဂရမ်အိတ်ကို ၃,၀၀၀ ကျပ်ဖြင့် ရောင်းပြီး ဆိုင် B သည် ၅ကီလိုဂရမ်အိတ်ကို ၇,၀၀၀ ကျပ်ဖြင့် ရောင်းခဲ့ပါသည်။ ယူနစ်နည်းလမ်းကို ထပ်မံသုံး၍ ဆိုင်တစ်ခုစီ၏ တစ်ကီလိုဂရမ်ဈေးနှုန်းကို ရှာခဲ့ပါသည် -- ဆိုင် A မှာ 3,000 ÷ 2 = 1,500 ကျပ် (ကီလိုဂရမ်တစ်ခုလျှင်)၊ ဆိုင် B မှာ 7,000 ÷ 5 = 1,400 ကျပ် (ကီလိုဂရမ်တစ်ခုလျှင်)။ ဆိုင် B က အနည်းငယ် ပိုမိုအတန်ဆုံးတန်ဖိုး ပေးသောကြောင့် သုသုသည် ထိုဆိုင်မှ မုန့်ညက်ကို ဝယ်ယူခဲ့ပြီး အလှူငွေပွဲတော်၏ စုစုပေါင်းဘတ်ဂျက်အတွက် ငွေအနည်းငယ် ချွေတာနိုင်ခဲ့ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the original flour-to-milk ratio in Su Su's recipe (for 4 people)?",
+            questionMy:
+                "သုသု၏ဟင်းလျာ (လူ ၄ဦးအတွက်) တွင် မူလ မုန့်ညက်မှ နို့ဆီသို့ အချိုးမှာ အဘယ်နည်း။",
+            optionsEn: ["3:2", "2:3", "4:5", "1:2"],
+            optionsMy: ["3:2", "2:3", "4:5", "1:2"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What scale factor did Su Su use to go from 4 people to 20 people?",
+            questionMy:
+                "လူ ၄ဦးမှ ၂၀ဦးသို့ ရောက်ရန် သုသု မည်သည့်စကေးအချိုးကို သုံးခဲ့သနည်း။",
+            optionsEn: ["4", "5", "10", "20"],
+            optionsMy: ["4", "5", "10", "20"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "How much flour did Su Su need in total for 20 people?",
+            questionMy:
+                "လူ ၂၀ဦးအတွက် သုသု မုန့်ညက် စုစုပေါင်း မည်မျှ လိုအပ်ခဲ့သနည်း။",
+            optionsEn: ["800g", "1,000g", "1,500g", "500g"],
+            optionsMy: ["800g", "1,000g", "1,500g", "500g"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "When simplified using the HCF method, what does 1,000:1,500 reduce to?",
+            questionMy:
+                "HCF နည်းလမ်းကိုသုံး၍ ရှင်းလင်းသောအခါ 1,000:1,500 သည် မည်သို့ ရှင်းလင်းသွားသနည်း။",
+            optionsEn: ["1:2", "2:3", "3:4", "4:5"],
+            optionsMy: ["1:2", "2:3", "3:4", "4:5"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which shop offered better value for money per kilogram of flour?",
+            questionMy:
+                "မုန့်ညက် တစ်ကီလိုဂရမ်လျှင် မည်သည့်ဆိုင်က အတန်ဆုံးတန်ဖိုး ပေးသနည်း။",
+            optionsEn: [
+              "Shop A",
+              "Shop B",
+              "Both the same",
+              "Cannot be determined",
+            ],
+            optionsMy: [
+              "ဆိုင် A",
+              "ဆိုင် B",
+              "နှစ်ဆိုင်စလုံး တူညီသည်",
+              "ဆုံးဖြတ်၍မရပါ",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Ratio and Proportion Capstone",
+      titleMy:
+          "အပတ်စဉ် ၂၈ ပြန်လည်သုံးသပ်ခြင်း - အချိုးနှင့် အချိုးကျခြင်း အကျဉ်းချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Two classes share 45 pencils in the ratio 4:5. What is the value of one part?",
+          questionMy:
+              "အတန်းနှစ်တန်းသည် ခဲတံ ၄၅ချောင်းကို အချိုး 4:5 ဖြင့် ခွဲဝေသည်။ တစ်ခုအစိတ်အပိုင်း၏ တန်ဖိုးမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["4", "5", "9", "45"],
+          optionsMy: ["4", "5", "9", "45"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify the ratio 16:20 to its simplest form.",
+          questionMy: "အချိုး 16:20 ကို အရှင်းဆုံးပုံစံအဖြစ် ရှင်းလင်းပါ။",
+          optionsEn: ["4:5", "2:3", "5:4", "8:10"],
+          optionsMy: ["4:5", "2:3", "5:4", "8:10"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If 6 metres of cloth costs 9,000 kyats, using the unitary method, what does 1 metre cost?",
+          questionMy:
+              "အထည် ၆မီတာ ၉,၀၀၀ ကျပ် ကျသင့်ပါက ယူနစ်နည်းလမ်းကိုသုံး၍ ၁မီတာ၏ ဈေးနှုန်းမှာ အဘယ်မျှနည်း။",
+          optionsEn: ["1,000", "1,500", "2,000", "1,200"],
+          optionsMy: ["1,000", "1,500", "2,000", "1,200"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recipe scaled from 3 servings to 9 servings needs its ingredients multiplied by what scale factor?",
+          questionMy:
+              "ဟင်းလျာတစ်ခုကို ၃ဦးစာမှ ၉ဦးစာသို့ တိုးချဲ့ပါက ပါဝင်ပစ္စည်းများကို မည်သည့်စကေးအချိုးဖြင့် မြှောက်ရမည်နည်း။",
+          optionsEn: ["2", "3", "6", "9"],
+          optionsMy: ["2", "3", "6", "9"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A necklace uses beads in the ratio 6:9 (blue to white). What is this ratio in simplest form, and how many total parts does the simplified ratio have?",
+          questionMy:
+              "လည်ဆွဲတစ်ခုသည် ပုတီးများကို အချိုး 6:9 (အပြာမှ အဖြူ) ဖြင့် သုံးသည်။ ဤအချိုးကို အရှင်းဆုံးပုံစံဖြင့် ပြသပါက၊ ရှင်းလင်းထားသော အချိုး၏ အစိတ်အပိုင်း စုစုပေါင်း မည်မျှရှိသနည်း။",
+          optionsEn: [
+            "2:3, 5 parts",
+            "3:2, 5 parts",
+            "2:3, 3 parts",
+            "6:9, 5 parts",
+          ],
+          optionsMy: [
+            "2:3, အစိတ်အပိုင်း ၅ခု",
+            "3:2, အစိတ်အပိုင်း ၅ခု",
+            "2:3, အစိတ်အပိုင်း ၃ခု",
+            "6:9, အစိတ်အပိုင်း ၅ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 7: "Ratio and Proportion" -- the seventh
+/// milestone of the pathway (see [secondary1MathematicsPathway]), following
+/// Term 6's statistics breadth strand with a return to core numeracy. Week
+/// 25 introduces ratio from scratch (writing ratios in the correct order,
+/// sharing a whole amount according to a ratio using the unitary "value of
+/// one part" method, and visualizing ratios with bar models); Week 26
+/// teaches simplifying ratios and recognizing equivalent ratios, explicitly
+/// folding Term 1 Week 2's HCF-via-prime-factorization skill (already
+/// reused for fractions in Term 3 Week 9) into ratio simplification; Week
+/// 27 introduces direct proportion and the unitary method, applying it to
+/// scaling quantities up and down and comparing unit prices to find the
+/// best value for money; Week 28 closes the term with a "Recipe Maths"
+/// capstone applying all three -- writing/sharing ratios (Week 25),
+/// simplifying and equivalent ratios (Week 26), and the unitary method/
+/// scale factors (Week 27) -- together in real-world recipe-scaling,
+/// paint-mixing, and proportional-design problems, plus explicit Week
+/// 25-27 callbacks in the closing recap quiz.
+const CourseTermDef _secondary1MathematicsTerm7 = CourseTermDef(
+  id: "course-secondary1-mathematics-t7",
+  termNumber: 7,
+  titleEn: "Ratio and Proportion",
+  titleMy: "အချိုးနှင့် အချိုးကျခြင်း",
+  certificateTitleEn: "Ratio and Proportion",
+  certificateTitleMy: "အချိုးနှင့် အချိုးကျခြင်း",
+  weeks: [
+    _secondary1MathematicsWeek25,
+    _secondary1MathematicsWeek26,
+    _secondary1MathematicsWeek27,
+    _secondary1MathematicsWeek28,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 8, Week 29: "Symmetry and Reflection"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek29 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w29",
+  weekNumber: 29,
+  titleEn: "Symmetry and Reflection",
+  titleMy: "အချိုးညီခြင်း နှင့် အလင်းပြန်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w29-d1",
+      dayNumber: 1,
+      titleEn: "Lines of Symmetry and Reflecting Points",
+      titleMy: "အချိုးညီမျဉ်းများနှင့် အမှတ်များ အလင်းပြန်ဆွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "How many lines of symmetry does a regular hexagon have?",
+          questionMy:
+              "ပုံမှန်ခြောက်ထောင့်ပုံ (regular hexagon) တွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["6", "3", "4", "12"],
+          optionsMy: ["6", "3", "4", "12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An isosceles triangle (with exactly two equal sides, not three) has how many lines of symmetry?",
+          questionMy:
+              "ဘက်နှစ်ဘက်သာ ညီသော သုံးထောင့်ပုံ (isosceles triangle) တွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["0", "1", "2", "3"],
+          optionsMy: ["0", "1", "2", "3"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reflect the point (2, 5) in the x-axis. What are the new coordinates?",
+          questionMy:
+              "အမှတ် (2, 5) ကို x-ဝင်ရိုးတွင် အလင်းပြန်ဆွဲပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(2, -5)", "(-2, 5)", "(5, 2)", "(-2, -5)"],
+          optionsMy: ["(2, -5)", "(-2, 5)", "(5, 2)", "(-2, -5)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reflect the point (4, -3) in the y-axis. What are the new coordinates?",
+          questionMy:
+              "အမှတ် (4, -3) ကို y-ဝင်ရိုးတွင် အလင်းပြန်ဆွဲပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(-4, -3)", "(4, 3)", "(-4, 3)", "(4, -3)"],
+          optionsMy: ["(-4, -3)", "(4, 3)", "(-4, 3)", "(4, -3)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a shape is reflected across a mirror line, which of the following is true about the reflected image?",
+          questionMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို မှန်ပြောင်းမျဉ်းတစ်လျှောက် အလင်းပြန်ဆွဲသောအခါ ရလဒ်ပုံ (image) နှင့် ပတ်သက်၍ အောက်ပါတို့တွင် မှန်ကန်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It is the same size and shape, just flipped -- a mirror image",
+            "It becomes larger than the original shape",
+            "It becomes a distorted, different shape",
+            "Its area doubles",
+          ],
+          optionsMy: [
+            "မူရင်းနှင့် အရွယ်အစားနှင့်ပုံသဏ္ဍာန် တူညီပြီး ပြောင်းပြန်ဖြစ်နေသော မှန်ရိပ်ပုံ",
+            "မူရင်းပုံထက် ကြီးလာသည်",
+            "ပုံပျက်၍ မတူညီသောပုံဖြစ်သွားသည်",
+            "ဧရိယာ နှစ်ဆတိုးလာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match the Symmetry and Reflection Terms",
+      titleMy:
+          "အချိုးညီခြင်းနှင့် အလင်းပြန်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w29-dm-1",
+          termEn: "Line of Symmetry",
+          termMy: "အချိုးညီမျဉ်း (Line of Symmetry)",
+          matchEn:
+              "A line that divides a shape into two matching mirror-image halves",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို တူညီသော မှန်ရိပ်ခွက်နှစ်ခုအဖြစ် ပိုင်းခြားပေးသောမျဉ်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w29-dm-2",
+          termEn: "Mirror Line",
+          termMy: "မှန်ပြောင်းမျဉ်း (Mirror Line)",
+          matchEn:
+              "The line a shape is reflected across -- also called the axis of reflection",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို အလင်းပြန်ဆွဲရာတွင် သုံးသောမျဉ်း -- reflection axis ဟုလည်းခေါ်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w29-dm-3",
+          termEn: "Reflection",
+          termMy: "အလင်းပြန်ခြင်း (Reflection)",
+          matchEn:
+              "A transformation that flips a shape to create a mirror image of it",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို ပြောင်းပြန်လှန်၍ မှန်ရိပ်ပုံတစ်ခု ဖန်တီးပေးသော ပြောင်းလဲမှု",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w29-dm-4",
+          termEn: "Congruent",
+          termMy: "အရွယ်အစားနှင့် ပုံသဏ္ဍာန် တူညီသော (Congruent)",
+          matchEn: "Having exactly the same size and shape as another figure",
+          matchMy:
+              "အခြားပုံသဏ္ဍာန်တစ်ခုနှင့် အရွယ်အစားနှင့်ပုံသဏ္ဍာန် အတိအကျ တူညီသော",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w29-dm-5",
+          termEn: "Symmetrical",
+          termMy: "အချိုးညီသော (Symmetrical)",
+          matchEn: "Looking identical on both sides of a line of symmetry",
+          matchMy: "အချိုးညီမျဉ်း၏ ဘက်နှစ်ဘက်စလုံးတွင် အတူတူဖြစ်နေသော",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w29-dm-6",
+          termEn: "Image",
+          termMy: "ရလဒ်ပုံ (Image)",
+          matchEn:
+              "The new shape produced after a transformation, such as a reflection, is applied",
+          matchMy:
+              "အလင်းပြန်ခြင်းကဲ့သို့ ပြောင်းလဲမှုတစ်ခု အသုံးပြုပြီးနောက် ရရှိလာသော ပုံသဏ္ဍာန်အသစ်",
+          colorValue: 0xFF4FC3A1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Line of Symmetry or Not?",
+      titleMy: "စီစစ်ကြမည် - အချိုးညီမျဉ်း ရှိလား မရှိဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Has a Line of Symmetry", "No Line of Symmetry"],
+        bucketsMy: ["အချိုးညီမျဉ်း ရှိသည်", "အချိုးညီမျဉ်း မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "s1math-w29-sort-1",
+            labelEn: "The capital letter A (has one vertical line of symmetry)",
+            labelMy:
+                "အင်္ဂလိပ်အက္ခရာစာလုံးကြီး A (ဒေါင်လိုက်အချိုးညီမျဉ်း တစ်ခုရှိသည်)",
+            correctBucketEn: "Has a Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w29-sort-2",
+            labelEn:
+                "The capital letter N (no line of symmetry -- only turning symmetry)",
+            labelMy:
+                "အင်္ဂလိပ်အက္ခရာစာလုံးကြီး N (အချိုးညီမျဉ်း မရှိပါ -- လှည့်ညီမှုသာရှိသည်)",
+            correctBucketEn: "No Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "s1math-w29-sort-3",
+            labelEn: "A regular pentagon (has five lines of symmetry)",
+            labelMy:
+                "ပုံမှန်ငါးထောင့်ပုံ (regular pentagon) (အချိုးညီမျဉ်း ငါးခုရှိသည်)",
+            correctBucketEn: "Has a Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w29-sort-4",
+            labelEn: "A scalene triangle (all three sides different lengths)",
+            labelMy:
+                "ဘက်မညီသုံးထောင့်ပုံ (scalene triangle) (ဘက်သုံးဘက်လုံး အရှည်မတူညီ)",
+            correctBucketEn: "No Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "s1math-w29-sort-5",
+            labelEn:
+                "A rectangle that is not a square (has two lines of symmetry)",
+            labelMy:
+                "စတုရန်းမဟုတ်သော ထောင့်မှန်စတုဂံ (အချိုးညီမျဉ်း နှစ်ခုရှိသည်)",
+            correctBucketEn: "Has a Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း ရှိသည်",
+          ),
+          SortingItem(
+            id: "s1math-w29-sort-6",
+            labelEn:
+                "A parallelogram that is not a rectangle (no line of symmetry)",
+            labelMy:
+                "ထောင့်မှန်စတုဂံမဟုတ်သော ပါရာလယ်လိုဂရမ် (parallelogram) (အချိုးညီမျဉ်း မရှိပါ)",
+            correctBucketEn: "No Line of Symmetry",
+            correctBucketMy: "အချိုးညီမျဉ်း မရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w29-d4",
+      dayNumber: 4,
+      titleEn: "Su Su's Butterfly Design",
+      titleMy: "သုသုရဲ့ လိပ်ပြာပုံ ဒီဇိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Butterfly Design",
+        titleMy: "သုသုရဲ့ လိပ်ပြာပုံ ဒီဇိုင်း",
+        passageEn:
+            "Su Su's school was holding a festival, and she volunteered to design a large paper butterfly banner to hang above the stage. She wanted both wings to match perfectly, so her teacher explained that she needed to design around a line of symmetry -- an imaginary line running straight down the butterfly's body that would divide it into two matching mirror-image halves.\n\nWorking on squared grid paper, Su Su drew the right wing first, marking the tip of the wing at the point (3, 4), with the butterfly's body running along the y-axis. Her teacher reminded her that when a shape is reflected across a mirror line, every point and its reflected image are the same distance from the mirror line, just on opposite sides. Using the reflection rule for the y-axis, (x, y) becomes (-x, y), Su Su calculated that the left wingtip needed to go at (-3, 4) -- exactly 3 units to the left of the body, matching the right wingtip's 3 units to the right.\n\nWhen Su Su finished drawing, she folded her paper butterfly exactly along the mirror line to check her work. The two wings lined up perfectly, edge to edge! Her teacher pointed out that, like most real butterflies, Su Su's design had exactly one line of symmetry -- unlike a regular hexagon or square, which have several lines of symmetry, most living things and many real-world designs have just one.",
+        passageMy:
+            "သုသုတို့ကျောင်းတွင် ပွဲတော်တစ်ခု ကျင်းပမည်ဖြစ်ပြီး၊ သုသုက စင်မြင့်အပေါ်တွင် ချိတ်ဆွဲရန် စက္ကူလိပ်ပြာပုံ ကြီးတစ်ခု ဒီဇိုင်းဆွဲပေးရန် စေတနာ့ဝန်ထမ်းလုပ်ခဲ့သည်။ သူမသည် အတောင်ပံနှစ်ခုစလုံး တိကျစွာ ကိုက်ညီစေချင်သောကြောင့်၊ ဆရာမက လိပ်ပြာ၏ ခန္ဓာကိုယ်တစ်လျှောက် တိုက်ရိုက်ဆွဲထားသော စိတ်ကူးမျဉ်း -- အချိုးညီမျဉ်းတစ်ခု -- ကို အခြေခံ၍ ဒီဇိုင်းဆွဲရန် ရှင်းပြပေးခဲ့သည်။ ထိုမျဉ်းသည် လိပ်ပြာကို တူညီသော မှန်ရိပ်ခွက်နှစ်ခုအဖြစ် ပိုင်းခြားပေးမည်ဖြစ်သည်။\n\nဂရစ်ကွက်စက္ကူပေါ်တွင် အလုပ်လုပ်ရင်း၊ သုသုသည် ညာဘက်အတောင်ပံကို အရင်ဆွဲပြီး၊ အတောင်ပံဖျား၏အမှတ်ကို (3, 4) တွင်မှတ်သားပြီး၊ လိပ်ပြာခန္ဓာကိုယ်ကို y-ဝင်ရိုးတစ်လျှောက် ဆွဲထားခဲ့သည်။ ဆရာမက ပုံသဏ္ဍာန်တစ်ခုကို မှန်ပြောင်းမျဉ်းတစ်လျှောက် အလင်းပြန်ဆွဲသောအခါ၊ အမှတ်တိုင်းနှင့် ၎င်း၏ ရလဒ်ပုံအမှတ်သည် မှန်ပြောင်းမျဉ်းမှ အကွာအဝေးတူညီပြီး ဘက်ဆန့်ကျင်ဘက်တွင်သာ ရှိသည်ဟု ပြန်လည်သတိပေးခဲ့သည်။ y-ဝင်ရိုးအတွက် အလင်းပြန်ဆွဲခြင်း စည်းမျဉ်း (x, y) မှ (-x, y) ကိုသုံးပြီး၊ သုသုက ဘယ်ဘက်အတောင်ပံဖျားကို (-3, 4) တွင် ထားရမည်ဟု တွက်ချက်ခဲ့သည် -- ခန္ဓာကိုယ်၏ ဘယ်ဘက်သို့ ၃ယူနစ်အကွာ၊ ညာဘက်အတောင်ပံဖျား၏ ၃ယူနစ်အကွာနှင့် အတိအကျကိုက်ညီသည်။\n\nသုသုဆွဲပြီးသောအခါ၊ သူမ၏ လုပ်ငန်းကို စစ်ဆေးရန် မှန်ပြောင်းမျဉ်းအတိုင်း စက္ကူကို တိကျစွာ ခေါက်ကြည့်ခဲ့သည်။ အတောင်ပံနှစ်ခုသည် အနားချင်းအတိအကျ ကိုက်ညီသွားခဲ့သည်! ဆရာမက အစစ်အမှန် လိပ်ပြာအများစုကဲ့သို့ပင်၊ သုသု၏ ဒီဇိုင်းတွင် အချိုးညီမျဉ်း တစ်ခုတည်းသာ ရှိကြောင်း ထောက်ပြခဲ့သည် -- ပုံမှန်ခြောက်ထောင့်ပုံ သို့မဟုတ် စတုရန်းကဲ့သို့ အချိုးညီမျဉ်းများစွာရှိသော ပုံသဏ္ဍာန်များနှင့်မတူဘဲ၊ သက်ရှိအများစုနှင့် လက်တွေ့ဒီဇိုင်းအများစုတွင် အချိုးညီမျဉ်း တစ်ခုတည်းသာ ရှိလေ့ရှိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su need to design her butterfly around a line of symmetry?",
+            questionMy:
+                "သုသုသည် လိပ်ပြာကို အချိုးညီမျဉ်းအခြေခံ၍ ဒီဇိုင်းဆွဲရန် အဘယ်ကြောင့် လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "So both wings would match exactly, like real mirror images",
+              "So the butterfly would be bigger than her friend's",
+              "Because paper cannot be folded otherwise",
+              "Because her teacher told her to use only straight lines",
+            ],
+            optionsMy: [
+              "အတောင်ပံနှစ်ခုစလုံး မှန်ရိပ်ပုံအစစ်များကဲ့သို့ အတိအကျကိုက်ညီစေရန်",
+              "သူငယ်ချင်း၏ လိပ်ပြာထက် ပိုကြီးစေရန်",
+              "စက္ကူကို အခြားနည်းနှင့် မခေါက်နိုင်သောကြောင့်",
+              "ဆရာမက မျဉ်းဖြောင့်များကိုသာ သုံးရမည်ဟု ပြောခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "If the right wingtip is at (3, 4) and the mirror line is the y-axis, where does the reflected left wingtip go?",
+            questionMy:
+                "ညာဘက်အတောင်ပံဖျားသည် (3, 4) တွင်ရှိပြီး မှန်ပြောင်းမျဉ်းက y-ဝင်ရိုးဖြစ်ပါက ဘယ်ဘက်အတောင်ပံဖျား၏ ရလဒ်ပုံအမှတ်သည် မည်သည့်နေရာတွင် ရှိမည်နည်း။",
+            optionsEn: ["(-3, 4)", "(3, -4)", "(-3, -4)", "(4, 3)"],
+            optionsMy: ["(-3, 4)", "(3, -4)", "(-3, -4)", "(4, 3)"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, when a shape is reflected in a mirror line, a point and its image are ___.",
+            questionMy:
+                "စာပိုဒ်အရ ပုံသဏ္ဍာန်တစ်ခုကို မှန်ပြောင်းမျဉ်းတွင် အလင်းပြန်ဆွဲသောအခါ အမှတ်တစ်ခုနှင့် ၎င်း၏ ရလဒ်ပုံအမှတ်သည် ___ ဖြစ်သည်။",
+            optionsEn: [
+              "the same distance from the mirror line, on opposite sides",
+              "always touching the mirror line",
+              "always the same point",
+              "twice as far apart as the shape's width",
+            ],
+            optionsMy: [
+              "မှန်ပြောင်းမျဉ်းမှ အကွာအဝေးတူညီပြီး ဘက်ဆန့်ကျင်ဘက်တွင်ရှိသည်",
+              "မှန်ပြောင်းမျဉ်းကို အမြဲထိနေသည်",
+              "အမြဲတမ်းအမှတ်တစ်ခုတည်းဖြစ်နေသည်",
+              "ပုံသဏ္ဍာန်၏ အကျယ်ထက် နှစ်ဆကွာဝေးသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How did Su Su check that her finished butterfly had a line of symmetry?",
+            questionMy:
+                "ပြီးစီးသွားသော လိပ်ပြာတွင် အချိုးညီမျဉ်းရှိကြောင်း သုသု မည်သို့စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: [
+              "She folded the paper along the mirror line and checked the wings matched",
+              "She measured the wings with a ruler only",
+              "She asked her friend to guess",
+              "She compared it to a photo of a real butterfly",
+            ],
+            optionsMy: [
+              "မှန်ပြောင်းမျဉ်းအတိုင်း စက္ကူကို ခေါက်ပြီး အတောင်ပံများ ကိုက်ညီမှုကို စစ်ဆေးခဲ့သည်",
+              "ပေတံဖြင့် အတောင်ပံများကိုသာ တိုင်းတာခဲ့သည်",
+              "သူငယ်ချင်းအား ခန့်မှန်းခိုင်းခဲ့သည်",
+              "အစစ်အမှန်လိပ်ပြာဓာတ်ပုံနှင့် နှိုင်းယှဉ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many lines of symmetry does Su Su's butterfly design have, like most real butterflies?",
+            questionMy:
+                "အစစ်အမှန်လိပ်ပြာများကဲ့သို့ပင် သုသု၏ လိပ်ပြာဒီဇိုင်းတွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+            optionsEn: ["1", "2", "4", "6"],
+            optionsMy: ["1", "2", "4", "6"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Symmetry and Reflection",
+      titleMy:
+          "၂၉ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - အချိုးညီခြင်းနှင့် အလင်းပြန်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "How many lines of symmetry does an equilateral triangle (all three sides equal) have?",
+          questionMy:
+              "ဘက်အားလုံးညီသော သုံးထောင့်ပုံ (equilateral triangle) တွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["3", "1", "2", "0"],
+          optionsMy: ["3", "1", "2", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reflect the point (5, 2) in the x-axis. What are the new coordinates?",
+          questionMy:
+              "အမှတ် (5, 2) ကို x-ဝင်ရိုးတွင် အလင်းပြန်ဆွဲပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(5, -2)", "(-5, 2)", "(2, 5)", "(-5, -2)"],
+          optionsMy: ["(5, -2)", "(-5, 2)", "(2, 5)", "(-5, -2)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reflect the point (-3, 6) in the y-axis. What are the new coordinates?",
+          questionMy:
+              "အမှတ် (-3, 6) ကို y-ဝင်ရိုးတွင် အလင်းပြန်ဆွဲပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(3, 6)", "(-3, -6)", "(6, -3)", "(3, -6)"],
+          optionsMy: ["(3, 6)", "(-3, -6)", "(6, -3)", "(3, -6)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a shape is reflected in a mirror line, the distance from each point to the mirror line is ___ on the reflected side.",
+          questionMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို မှန်ပြောင်းမျဉ်းတွင် အလင်းပြန်ဆွဲသောအခါ၊ အမှတ်တစ်ခုစီမှ မှန်ပြောင်းမျဉ်းအထိ အကွာအဝေးသည် ရလဒ်ဘက်တွင် ___ ဖြစ်သည်။",
+          optionsEn: [
+            "equal to the original distance",
+            "double the original distance",
+            "half the original distance",
+            "unrelated to the original distance",
+          ],
+          optionsMy: [
+            "မူရင်းအကွာအဝေးနှင့် ညီမျှသည်",
+            "မူရင်းအကွာအဝေး၏ နှစ်ဆ",
+            "မူရင်းအကွာအဝေး၏ တစ်ဝက်",
+            "မူရင်းအကွာအဝေးနှင့် မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these shapes has no lines of symmetry at all?",
+          questionMy:
+              "အောက်ပါပုံသဏ္ဍာန်များအနက် အချိုးညီမျဉ်း လုံးဝမရှိသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Square",
+            "Isosceles triangle",
+            "Scalene triangle",
+            "Rectangle",
+          ],
+          optionsMy: [
+            "စတုရန်း",
+            "ဘက်နှစ်ဘက်ညီသုံးထောင့်ပုံ",
+            "ဘက်မညီသုံးထောင့်ပုံ",
+            "ထောင့်မှန်စတုဂံ",
+          ],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 8, Week 30: "Translation and Rotation"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek30 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w30",
+  weekNumber: 30,
+  titleEn: "Translation and Rotation",
+  titleMy: "ရွေ့လျားခြင်း နှင့် လှည့်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w30-d1",
+      dayNumber: 1,
+      titleEn: "Sliding and Turning Shapes on a Grid",
+      titleMy: "ဂရစ်ကွက်ပေါ်တွင် ပုံသဏ္ဍာန်များ ရွေ့လျားခြင်းနှင့် လှည့်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Translate the point (1, 4) by the vector (3, -2). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (1, 4) ကို ဗက်တာ (3, -2) ဖြင့် ရွေ့လျားပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(4, 2)", "(4, 6)", "(-2, 2)", "(1, 2)"],
+          optionsMy: ["(4, 2)", "(4, 6)", "(-2, 2)", "(1, 2)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Just like Week 1's directed numbers, translation vectors can have negative parts. Translate the point (-2, 5) by the vector (-3, 1). What are the new coordinates?",
+          questionMy:
+              "Week 1 ၏ ဦးတည်ဂဏန်း (directed numbers) များကဲ့သို့ပင် ရွေ့လျားမှု ဗက်တာများတွင်လည်း အနုတ်အစိတ်အပိုင်းများ ပါဝင်နိုင်သည်။ အမှတ် (-2, 5) ကို ဗက်တာ (-3, 1) ဖြင့် ရွေ့လျားပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(-5, 6)", "(1, 6)", "(-5, 4)", "(5, 6)"],
+          optionsMy: ["(-5, 6)", "(1, 6)", "(-5, 4)", "(5, 6)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What vector translates the point (2, 2) to the point (7, -1)?",
+          questionMy:
+              "အမှတ် (2, 2) ကို အမှတ် (7, -1) သို့ ရွေ့လျားပေးသော ဗက်တာမှာ အဘယ်နည်း။",
+          optionsEn: ["(5, -3)", "(5, 3)", "(-5, -3)", "(9, 1)"],
+          optionsMy: ["(5, -3)", "(5, 3)", "(-5, -3)", "(9, 1)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rotate the point (3, 1) 90° clockwise about the origin, using the rule (x, y) becomes (y, -x). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (3, 1) ကို မူလအမှတ် (origin) ပတ်လည် ၉၀° နာရီလက်တံအတိုင်း လှည့်ပါ၊ (x, y) မှ (y, -x) စည်းမျဉ်းကို သုံးပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(1, -3)", "(-1, 3)", "(-3, -1)", "(3, -1)"],
+          optionsMy: ["(1, -3)", "(-1, 3)", "(-3, -1)", "(3, -1)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rotate the point (2, 5) 180° about the origin, using the rule (x, y) becomes (-x, -y). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (2, 5) ကို မူလအမှတ်ပတ်လည် ၁၈၀° လှည့်ပါ၊ (x, y) မှ (-x, -y) စည်းမျဉ်းကို သုံးပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(-2, -5)", "(2, -5)", "(-2, 5)", "(5, 2)"],
+          optionsMy: ["(-2, -5)", "(2, -5)", "(-2, 5)", "(5, 2)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match the Translation and Rotation Terms",
+      titleMy:
+          "ရွေ့လျားခြင်းနှင့် လှည့်ခြင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w30-dm-1",
+          termEn: "Translation",
+          termMy: "ရွေ့လျားခြင်း (Translation)",
+          matchEn:
+              "A transformation that slides every point of a shape the same distance, the same direction",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခု၏ အမှတ်တိုင်းကို အကွာအဝေးတူညီစွာ၊ ဦးတည်ချက်တူညီစွာ ရွေ့လျားပေးသော ပြောင်းလဲမှု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w30-dm-2",
+          termEn: "Rotation",
+          termMy: "လှည့်ခြင်း (Rotation)",
+          matchEn:
+              "A transformation that turns a shape around a fixed point by a given angle",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခုကို သတ်မှတ်ထောင့်ဖြင့် ပုံသေအမှတ်တစ်ခုပတ်လည် လှည့်ပေးသော ပြောင်းလဲမှု",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w30-dm-3",
+          termEn: "Centre of Rotation",
+          termMy: "လှည့်ဗဟိုချက် (Centre of Rotation)",
+          matchEn:
+              "The fixed point that a shape turns around during a rotation",
+          matchMy: "လှည့်ခြင်းအတွင်း ပုံသဏ္ဍာန်တစ်ခု ပတ်လည်လှည့်သော ပုံသေအမှတ်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w30-dm-4",
+          termEn: "Vector",
+          termMy: "ဗက်တာ (Vector)",
+          matchEn:
+              "An instruction for movement, written as (x, y) -- e.g. right 3 and up 2",
+          matchMy:
+              "ရွေ့လျားမှုအတွက် ညွှန်ကြားချက်၊ (x, y) ဖြင့်ရေး -- ဥပမာ ညာဘက် ၃ နှင့် အပေါ် ၂",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w30-dm-5",
+          termEn: "Angle of Rotation",
+          termMy: "လှည့်ထောင့် (Angle of Rotation)",
+          matchEn: "The amount a shape is turned, e.g. 90°, 180°, or 270°",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခု လှည့်ရသော ပမာဏ၊ ဥပမာ ၉၀°၊ ၁၈၀° သို့မဟုတ် ၂၇၀°",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w30-dm-6",
+          termEn: "Clockwise",
+          termMy: "နာရီလက်တံအတိုင်း (Clockwise)",
+          matchEn:
+              "The direction a clock's hands move -- the opposite of anticlockwise",
+          matchMy:
+              "နာရီလက်တံများ လှုပ်ရှားရာ ဦးတည်ချက် -- anticlockwise ၏ ဆန့်ကျင်ဘက်",
+          colorValue: 0xFF4FC3A1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Translation or Rotation?",
+      titleMy: "စီစစ်ကြမည် - ရွေ့လျားခြင်းလား လှည့်ခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Translation", "Rotation"],
+        bucketsMy: ["ရွေ့လျားခြင်း (Translation)", "လှည့်ခြင်း (Rotation)"],
+        items: [
+          SortingItem(
+            id: "s1math-w30-sort-1",
+            labelEn: "Sliding a chess piece straight across the board",
+            labelMy:
+                "စစ်တုရင်ရုပ်တစ်ခုကို ဘုတ်ပေါ်တွင် ဖြောင့်တန်းစွာ ရွှေ့ခြင်း",
+            correctBucketEn: "Translation",
+            correctBucketMy: "ရွေ့လျားခြင်း (Translation)",
+          ),
+          SortingItem(
+            id: "s1math-w30-sort-2",
+            labelEn: "Turning a steering wheel around its centre",
+            labelMy: "စက်ကားလက်ဝိုင်း တစ်ခုကို ၎င်း၏ဗဟိုပတ်လည် လှည့်ခြင်း",
+            correctBucketEn: "Rotation",
+            correctBucketMy: "လှည့်ခြင်း (Rotation)",
+          ),
+          SortingItem(
+            id: "s1math-w30-sort-3",
+            labelEn: "Moving a book 5 cm to the right on a shelf",
+            labelMy:
+                "စာအုပ်တစ်အုပ်ကို စင်ပေါ်တွင် ညာဘက်သို့ ၅ စင်တီမီတာ ရွှေ့ခြင်း",
+            correctBucketEn: "Translation",
+            correctBucketMy: "ရွေ့လျားခြင်း (Translation)",
+          ),
+          SortingItem(
+            id: "s1math-w30-sort-4",
+            labelEn: "Spinning a ceiling fan around its centre point",
+            labelMy: "မိုးမီးပန်ကာတစ်ခုကို ၎င်း၏ဗဟိုအမှတ်ပတ်လည် လှည့်ခြင်း",
+            correctBucketEn: "Rotation",
+            correctBucketMy: "လှည့်ခြင်း (Rotation)",
+          ),
+          SortingItem(
+            id: "s1math-w30-sort-5",
+            labelEn:
+                "Every point on the shape moves the same distance, in the same direction",
+            labelMy:
+                "ပုံသဏ္ဍာန်ပေါ်ရှိ အမှတ်တိုင်းသည် အကွာအဝေးတူညီစွာ၊ ဦးတည်ချက်တူညီစွာ ရွှေ့သွားသည်",
+            correctBucketEn: "Translation",
+            correctBucketMy: "ရွေ့လျားခြင်း (Translation)",
+          ),
+          SortingItem(
+            id: "s1math-w30-sort-6",
+            labelEn:
+                "Every point on the shape turns through the same angle around a fixed centre",
+            labelMy:
+                "ပုံသဏ္ဍာန်ပေါ်ရှိ အမှတ်တိုင်းသည် ပုံသေဗဟိုအမှတ်ပတ်လည် ထောင့်တူညီစွာ လှည့်သွားသည်",
+            correctBucketEn: "Rotation",
+            correctBucketMy: "လှည့်ခြင်း (Rotation)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w30-d4",
+      dayNumber: 4,
+      titleEn: "Su Su's Pinwheel and Board Game",
+      titleMy: "သုသုရဲ့ လေတိုက်တလေလေ နှင့် ဘုတ်အားကစား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Pinwheel and Board Game",
+        titleMy: "သုသုရဲ့ လေတိုက်တလေလေ နှင့် ဘုတ်အားကစား",
+        passageEn:
+            "At the school fair, Su Su bought a paper pinwheel toy on a stick. When the wind blew, its four blades spun around the pin in the centre. Su Su noticed that every point on each blade turned through the same angle around that one fixed pin -- the pin itself never moved. Her teacher told her this fixed point is called the centre of rotation, and the whole motion is called a rotation.\n\nWhile waiting for her friend Aung, Su Su played a grid board game. She had to move her token from square (2, 3) to square (6, 1). The game card explained this movement using a vector: right 4, down 2, written as (4, -2). Unlike the spinning pinwheel, every point of Su Su's token slid the same distance in the same direction without turning at all -- this is called a translation.\n\nThat evening, doing her maths homework, Su Su summed up the difference in her notebook: translation slides a shape without turning it, while rotation turns a shape around a fixed centre without sliding it anywhere. To practise, she rotated the point (4, 0) by 90° clockwise about the origin on her grid paper, using the rule (x, y) becomes (y, -x), and correctly worked out the new point was (0, -4).",
+        passageMy:
+            "ကျောင်းပွဲတော်တွင် သုသုသည် တုတ်ချောင်းတပ် စက္ကူ လေတိုက်တလေလေ (pinwheel) အရုပ်တစ်ခု ဝယ်ခဲ့သည်။ လေတိုက်သောအခါ ၎င်း၏ အတောင်ပံလေးခုသည် အလယ်ရှိ ချိတ်ချောင်းပတ်လည် လှည့်နေသည်ကို တွေ့ရသည်။ အတောင်ပံတစ်ခုစီပေါ်ရှိ အမှတ်တိုင်းသည် ထိုပုံသေချိတ်ချောင်းတစ်ခုတည်းပတ်လည် ထောင့်တူညီစွာ လှည့်နေကြောင်း သုသုသတိပြုမိသည် -- ချိတ်ချောင်းကိုယ်တိုင်ကမူ လုံးဝမရွှေ့ချေ။ ဆရာမက ဤပုံသေအမှတ်ကို လှည့်ဗဟိုချက် (centre of rotation) ဟုခေါ်ပြီး၊ ဤအလှုပ်ရှားမှုတစ်ခုလုံးကို လှည့်ခြင်း (rotation) ဟုခေါ်ကြောင်း ပြောပြခဲ့သည်။\n\nသူငယ်ချင်း အောင်ကို စောင့်နေစဉ် သုသုသည် ဂရစ်ကွက် ဘုတ်အားကစားတစ်ခု ကစားခဲ့သည်။ သူမသည် ကစားရုပ်ကို ကွက် (2, 3) မှ ကွက် (6, 1) သို့ ရွှေ့ရမည်ဖြစ်သည်။ ဂိမ်းကတ်တွင် ဤရွေ့လျားမှုကို ဗက်တာဖြင့် ရှင်းပြထားသည် -- ညာဘက် ၄၊ အောက် ၂၊ (4, -2) ဟုရေးသားသည်။ လှည့်နေသော လေတိုက်တလေလေနှင့်မတူဘဲ၊ သုသု၏ ကစားရုပ်ပေါ်ရှိ အမှတ်တိုင်းသည် လှည့်ခြင်းလုံးဝမပါဘဲ အကွာအဝေးတူညီစွာ၊ ဦးတည်ချက်တူညီစွာသာ ရွှေ့သွားသည် -- ဤသို့ ရွေ့လျားခြင်းကို ရွေ့လျားခြင်း (translation) ဟုခေါ်သည်။\n\nထိုညနေ သင်္ချာအိမ်စာလုပ်ရင်း သုသုသည် ကွာခြားချက်ကို မှတ်စုစာအုပ်တွင် အနှစ်ချုပ်ရေးမှတ်ခဲ့သည် -- ရွေ့လျားခြင်း (translation) သည် ပုံသဏ္ဍာန်တစ်ခုကို လှည့်ခြင်းမရှိဘဲ ရွှေ့ပေးပြီး၊ လှည့်ခြင်း (rotation) သည် ပုံသဏ္ဍာန်တစ်ခုကို မည်သည့်နေရာသို့မျှ မရွှေ့ဘဲ ပုံသေဗဟိုချက်ပတ်လည် လှည့်ပေးသည်။ လေ့ကျင့်ရန်အတွက် သူမသည် ဂရစ်ကွက်စက္ကူပေါ်တွင် အမှတ် (4, 0) ကို မူလအမှတ်ပတ်လည် ၉၀° နာရီလက်တံအတိုင်း (x, y) မှ (y, -x) စည်းမျဉ်းကိုသုံး၍ လှည့်ကြည့်ပြီး၊ အမှတ်အသစ်မှာ (0, -4) ဖြစ်ကြောင်း မှန်ကန်စွာ တွက်ချက်နိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What is the name of the fixed point that the pinwheel's blades turn around?",
+            questionMy:
+                "လေတိုက်တလေလေ၏ အတောင်ပံများ ပတ်လည်လှည့်သော ပုံသေအမှတ်ကို ဘယ်လိုခေါ်သနည်း။",
+            optionsEn: [
+              "Centre of rotation",
+              "Mirror line",
+              "Vector",
+              "Line of symmetry",
+            ],
+            optionsMy: [
+              "လှည့်ဗဟိုချက် (Centre of Rotation)",
+              "မှန်ပြောင်းမျဉ်း (Mirror Line)",
+              "ဗက်တာ (Vector)",
+              "အချိုးညီမျဉ်း (Line of Symmetry)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What vector moved Su Su's token from square (2, 3) to square (6, 1)?",
+            questionMy:
+                "သုသု၏ ကစားရုပ်ကို ကွက် (2, 3) မှ ကွက် (6, 1) သို့ မည်သည့်ဗက်တာက ရွှေ့ပေးခဲ့သနည်း။",
+            optionsEn: ["(4, -2)", "(4, 2)", "(-4, -2)", "(8, 4)"],
+            optionsMy: ["(4, -2)", "(4, 2)", "(-4, -2)", "(8, 4)"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the key difference between translation and rotation?",
+            questionMy:
+                "စာပိုဒ်အရ ရွေ့လျားခြင်းနှင့် လှည့်ခြင်း၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Translation slides without turning; rotation turns around a fixed point without sliding",
+              "Translation and rotation are exactly the same thing",
+              "Translation only works on triangles, rotation only works on squares",
+              "Rotation always makes a shape bigger",
+            ],
+            optionsMy: [
+              "ရွေ့လျားခြင်းသည် လှည့်ခြင်းမရှိဘဲ ရွှေ့ပြီး၊ လှည့်ခြင်းသည် ရွှေ့ခြင်းမရှိဘဲ ပုံသေအမှတ်ပတ်လည် လှည့်သည်",
+              "ရွေ့လျားခြင်းနှင့် လှည့်ခြင်းသည် လုံးဝတူညီသော အရာဖြစ်သည်",
+              "ရွေ့လျားခြင်းသည် သုံးထောင့်ပုံတွင်သာ အလုပ်လုပ်ပြီး လှည့်ခြင်းသည် စတုရန်းတွင်သာ အလုပ်လုပ်သည်",
+              "လှည့်ခြင်းသည် ပုံသဏ္ဍာန်ကို အမြဲကြီးလာစေသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Using the rule (x, y) becomes (y, -x) for a 90° clockwise rotation about the origin, what does the point (4, 0) become?",
+            questionMy:
+                "မူလအမှတ်ပတ်လည် ၉၀° နာရီလက်တံအတိုင်း လှည့်ရန် (x, y) မှ (y, -x) စည်းမျဉ်းကိုသုံးပါက၊ အမှတ် (4, 0) သည် မည်သို့ဖြစ်သွားမည်နည်း။",
+            optionsEn: ["(0, -4)", "(-4, 0)", "(0, 4)", "(4, 0)"],
+            optionsMy: ["(0, -4)", "(-4, 0)", "(0, 4)", "(4, 0)"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which of these is true about a translation, based on the passage?",
+            questionMy:
+                "စာပိုဒ်အပေါ်အခြေခံ၍ ရွေ့လျားခြင်းနှင့်ပတ်သက်သည့် အောက်ပါတို့တွင် မှန်ကန်သည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Every point moves the same distance in the same direction, with no turning",
+              "It always requires a fixed centre point",
+              "It changes the size of the shape",
+              "It only moves shapes diagonally",
+            ],
+            optionsMy: [
+              "အမှတ်တိုင်းသည် အကွာအဝေးတူညီစွာ၊ ဦးတည်ချက်တူညီစွာ ရွှေ့ပြီး လှည့်ခြင်းလုံးဝမပါ",
+              "ပုံသေဗဟိုအမှတ်တစ်ခု အမြဲလိုအပ်သည်",
+              "ပုံသဏ္ဍာန်၏ အရွယ်အစားကို ပြောင်းလဲစေသည်",
+              "ပုံသဏ္ဍာန်များကို ထောင့်စောင်းသို့သာ ရွှေ့ပေးသည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Translation and Rotation",
+      titleMy:
+          "၃၀ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - ရွေ့လျားခြင်းနှင့် လှည့်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Translate the point (0, 0) by the vector (5, -3). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (0, 0) ကို ဗက်တာ (5, -3) ဖြင့် ရွေ့လျားပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(5, -3)", "(-5, 3)", "(0, 0)", "(5, 3)"],
+          optionsMy: ["(5, -3)", "(-5, 3)", "(0, 0)", "(5, 3)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which transformation slides a shape without turning it or flipping it?",
+          questionMy:
+              "မည်သည့် ပြောင်းလဲမှုသည် ပုံသဏ္ဍာန်တစ်ခုကို လှည့်ခြင်းသို့မဟုတ် ပြောင်းပြန်လှန်ခြင်း မရှိဘဲ ရွှေ့ပေးသနည်း။",
+          optionsEn: ["Translation", "Rotation", "Reflection", "Enlargement"],
+          optionsMy: [
+            "ရွေ့လျားခြင်း (Translation)",
+            "လှည့်ခြင်း (Rotation)",
+            "အလင်းပြန်ခြင်း (Reflection)",
+            "ချဲ့ခြင်း (Enlargement)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rotate the point (4, 0) 90° anticlockwise about the origin, using the rule (x, y) becomes (-y, x). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (4, 0) ကို မူလအမှတ်ပတ်လည် ၉၀° နာရီလက်တံနှင့် ဆန့်ကျင်ဘက် လှည့်ပါ၊ (x, y) မှ (-y, x) စည်းမျဉ်းကိုသုံးပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(0, 4)", "(4, 0)", "(0, -4)", "(-4, 0)"],
+          optionsMy: ["(0, 4)", "(4, 0)", "(0, -4)", "(-4, 0)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the name given to the fixed point that a shape rotates around?",
+          questionMy:
+              "ပုံသဏ္ဍာန်တစ်ခု ပတ်လည်လှည့်သော ပုံသေအမှတ်ကို ဘယ်လိုခေါ်သနည်း။",
+          optionsEn: [
+            "Centre of rotation",
+            "Mirror line",
+            "Vector",
+            "Translation point",
+          ],
+          optionsMy: [
+            "လှည့်ဗဟိုချက် (Centre of Rotation)",
+            "မှန်ပြောင်းမျဉ်း (Mirror Line)",
+            "ဗက်တာ (Vector)",
+            "ရွေ့လျားမှုအမှတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Translate the point (-1, -4) using the vector (6, 2). What are the new coordinates?",
+          questionMy:
+              "အမှတ် (-1, -4) ကို ဗက်တာ (6, 2) ဖြင့် ရွေ့လျားပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(5, -2)", "(5, -6)", "(-7, -6)", "(5, 2)"],
+          optionsMy: ["(5, -2)", "(5, -6)", "(-7, -6)", "(5, 2)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 8, Week 31: "3D Shapes and Nets"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek31 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w31",
+  weekNumber: 31,
+  titleEn: "3D Shapes and Nets",
+  titleMy: "၃-ဖက်မြင်ပုံများ နှင့် ဖြန့်ပုံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w31-d1",
+      dayNumber: 1,
+      titleEn: "Faces, Edges, Vertices and Surface Area",
+      titleMy: "မျက်နှာပြင်များ၊ အနားများ၊ ထောင့်များနှင့် မျက်နှာပြင်ဧရိယာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "How many faces does a cube have?",
+          questionMy: "ကုဗ (Cube) တစ်ခုတွင် မျက်နှာပြင် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["6", "8", "12", "4"],
+          optionsMy: ["6", "8", "12", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How many edges does a triangular prism have?",
+          questionMy:
+              "တြိဂံ ပရစ်ဇမ် (Triangular Prism) တစ်ခုတွင် အနား မည်မျှ ရှိသနည်း။",
+          optionsEn: ["9", "6", "12", "5"],
+          optionsMy: ["9", "6", "12", "5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How many vertices does a square-based pyramid have?",
+          questionMy:
+              "စတုရန်းအခြေရှိ ပိရမစ် (Square-based Pyramid) တစ်ခုတွင် ထောင့် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["5", "4", "8", "6"],
+          optionsMy: ["5", "4", "8", "6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cuboid has length 5 cm, width 3 cm and height 2 cm. Using surface area = 2(lw + lh + wh), find its surface area.",
+          questionMy:
+              "အကျပ်ပုံ (Cuboid) တစ်ခု၏ အလျား 5 cm၊ အကျယ် 3 cm၊ အမြင့် 2 cm ရှိသည်။ မျက်နှာပြင်ဧရိယာ = 2(lw + lh + wh) ကို သုံး၍ ၎င်း၏ မျက်နှာပြင်ဧရိယာကို ရှာပါ။",
+          optionsEn: ["62 cm²", "60 cm²", "30 cm²", "124 cm²"],
+          optionsMy: ["62 cm²", "60 cm²", "30 cm²", "124 cm²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which 3D shape's net is made of 2 triangles and 3 rectangles?",
+          questionMy:
+              "မည်သည့် ၃-ဖက်မြင်ပုံ၏ ဖြန့်ပုံသည် တြိဂံ ၂ ခုနှင့် ထောင့်မှန်စတုဂံ ၃ ခုဖြင့် ဖွဲ့စည်းထားသနည်း။",
+          optionsEn: [
+            "Triangular prism",
+            "Square-based pyramid",
+            "Cube",
+            "Cylinder",
+          ],
+          optionsMy: [
+            "တြိဂံ ပရစ်ဇမ် (Triangular Prism)",
+            "စတုရန်းအခြေရှိ ပိရမစ် (Square-based Pyramid)",
+            "ကုဗ (Cube)",
+            "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match the 3D Shapes and Nets Terms",
+      titleMy:
+          "၃-ဖက်မြင်ပုံများနှင့် ဖြန့်ပုံများ ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w31-dm-1",
+          termEn: "Face",
+          termMy: "မျက်နှာပြင် (Face)",
+          matchEn: "A flat or curved surface of a 3D shape",
+          matchMy:
+              "၃-ဖက်မြင်ပုံတစ်ခု၏ ပြားချပ်သော (သို့) ကွေးညွှတ်သော မျက်နှာပြင်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w31-dm-2",
+          termEn: "Edge",
+          termMy: "အနား (Edge)",
+          matchEn: "The line where two faces of a 3D shape meet",
+          matchMy: "၃-ဖက်မြင်ပုံတစ်ခု၏ မျက်နှာပြင်နှစ်ခု ဆုံသည့်မျဉ်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w31-dm-3",
+          termEn: "Vertex",
+          termMy: "ထောင့် (Vertex)",
+          matchEn: "A corner point where edges meet (plural: vertices)",
+          matchMy: "အနားများ ဆုံသည့်ထောင့်အမှတ် (အများကိန်း: vertices)",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w31-dm-4",
+          termEn: "Net",
+          termMy: "ဖြန့်ပုံ (Net)",
+          matchEn: "A 2D flat shape that folds up to form a 3D solid",
+          matchMy:
+              "ခေါက်လိုက်လျှင် ၃-ဖက်မြင်အခဲအဖြစ် ဖွဲ့စည်းပေးသော ၂-ဖက်မြင် ပြားချပ်ပုံသဏ္ဍာန်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w31-dm-5",
+          termEn: "Surface Area",
+          termMy: "မျက်နှာပြင်ဧရိယာ (Surface Area)",
+          matchEn:
+              "The total area of all the faces of a 3D shape added together",
+          matchMy: "၃-ဖက်မြင်ပုံတစ်ခု၏ မျက်နှာပြင်အားလုံး၏ ဧရိယာစုစုပေါင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w31-dm-6",
+          termEn: "Prism",
+          termMy: "ပရစ်ဇမ် (Prism)",
+          matchEn:
+              "A 3D shape with two identical parallel end faces joined by flat rectangular sides",
+          matchMy:
+              "အစွန်းမျက်နှာပြင် တူညီပြီး ပြိုင်နေသော ၂ ခုကို ထောင့်မှန်ဘေးမျက်နှာပြင်များဖြင့် ချိတ်ဆက်ထားသော ၃-ဖက်မြင်ပုံ",
+          colorValue: 0xFF4FC3A1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Flat Faces or a Curved Surface?",
+      titleMy: "စီစစ်ကြမည် - ပြားချပ်မျက်နှာပြင်လား ကွေးညွှတ်မျက်နှာပြင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Polyhedron (All Flat Faces)", "Has a Curved Surface"],
+        bucketsMy: [
+          "ပြားချပ်မျက်နှာပြင်သာ ရှိသော ပုံသဏ္ဍာန်",
+          "ကွေးညွှတ်မျက်နှာပြင် ပါဝင်သော ပုံသဏ္ဍာန်",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w31-sort-1",
+            labelEn: "Cube",
+            labelMy: "ကုဗ (Cube)",
+            correctBucketEn: "Polyhedron (All Flat Faces)",
+            correctBucketMy: "ပြားချပ်မျက်နှာပြင်သာ ရှိသော ပုံသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "s1math-w31-sort-2",
+            labelEn: "Cylinder",
+            labelMy: "လုံးဝိုင်းတိုင်ပုံ (Cylinder)",
+            correctBucketEn: "Has a Curved Surface",
+            correctBucketMy: "ကွေးညွှတ်မျက်နှာပြင် ပါဝင်သော ပုံသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "s1math-w31-sort-3",
+            labelEn: "Triangular prism",
+            labelMy: "တြိဂံ ပရစ်ဇမ် (Triangular Prism)",
+            correctBucketEn: "Polyhedron (All Flat Faces)",
+            correctBucketMy: "ပြားချပ်မျက်နှာပြင်သာ ရှိသော ပုံသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "s1math-w31-sort-4",
+            labelEn: "Cone",
+            labelMy: "ဦးထုပ်ပုံ (Cone)",
+            correctBucketEn: "Has a Curved Surface",
+            correctBucketMy: "ကွေးညွှတ်မျက်နှာပြင် ပါဝင်သော ပုံသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "s1math-w31-sort-5",
+            labelEn: "Square-based pyramid",
+            labelMy: "စတုရန်းအခြေရှိ ပိရမစ် (Square-based Pyramid)",
+            correctBucketEn: "Polyhedron (All Flat Faces)",
+            correctBucketMy: "ပြားချပ်မျက်နှာပြင်သာ ရှိသော ပုံသဏ္ဍာန်",
+          ),
+          SortingItem(
+            id: "s1math-w31-sort-6",
+            labelEn: "Sphere",
+            labelMy: "အလုံးပုံ (Sphere)",
+            correctBucketEn: "Has a Curved Surface",
+            correctBucketMy: "ကွေးညွှတ်မျက်နှာပြင် ပါဝင်သော ပုံသဏ္ဍာန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w31-d4",
+      dayNumber: 4,
+      titleEn: "Su Su's Gift Box",
+      titleMy: "သုသုရဲ့ လက်ဆောင်ဘူး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Gift Box",
+        titleMy: "သုသုရဲ့ လက်ဆောင်ဘူး",
+        passageEn:
+            "For her friend's birthday, Su Su decided to make a cube-shaped gift box instead of buying one. She started with a net -- a flat, 2D shape made of 6 identical squares arranged in a cross-like pattern -- and carefully folded it along its lines until the squares came together to form a solid cube.\n\nOnce the box was folded, Su Su counted its parts. She found 6 flat square faces, 12 edges where two faces met in a straight line, and 8 vertices, the sharp corner points where three edges met at once. She noticed that different nets fold into different solids: a net of 2 triangles and 3 rectangles would have folded into a triangular prism instead, not a cube.\n\nBefore wrapping the box in decorative paper, Su Su needed to know how much paper to buy, so she calculated the box's surface area. Each side of her cube measured 8 cm, so she used the formula surface area = 6 × side²: 8² = 64, and 6 × 64 = 384 cm². She bought a sheet of decorative paper with an area of 400 cm², which was more than enough to wrap her cube-shaped gift box neatly.",
+        passageMy:
+            "သူငယ်ချင်း၏ မွေးနေ့အတွက် သုသုသည် လက်ဆောင်ဘူးတစ်ခု ဝယ်မည့်အစား ကုဗ (Cube) ပုံသဏ္ဍာန် လက်ဆောင်ဘူး ကိုယ်တိုင်လုပ်ဖို့ ဆုံးဖြတ်ခဲ့သည်။ သူမသည် ဖြန့်ပုံ (net) တစ်ခု -- စတုရန်း ၆ ခုကို ကက်ရိုက်ကွက်ပုံသဏ္ဍာန်နှင့် စီစဉ်ထားသော ပြားချပ် ၂-ဖက်မြင်ပုံ -- ဖြင့် အစပြုပြီး၊ စတုရန်းများ ပေါင်းစပ်ကာ ခိုင်မာသော ကုဗတစ်ခု ဖြစ်လာသည်အထိ ၎င်း၏မျဉ်းများအတိုင်း သေချာစွာ ခေါက်ခဲ့သည်။\n\nဘူးခေါက်ပြီးသောအခါ သုသုသည် ၎င်း၏ အစိတ်အပိုင်းများကို ရေတွက်ကြည့်ခဲ့သည်။ ပြားချပ်စတုရန်း မျက်နှာပြင် ၆ ခု၊ မျက်နှာပြင်နှစ်ခု တိုက်ရိုက်မျဉ်းဖြင့် ဆုံသည့်နေရာ အနား ၁၂ ခု၊ နှင့် အနားသုံးခု တစ်ပြိုင်နက် ဆုံသည့် ချွန်ထက်သောထောင့်အမှတ် ထောင့် ၈ ခု တွေ့ရသည်။ ဖြန့်ပုံများ မတူညီလျှင် အခဲသဏ္ဍာန်များလည်း မတူညီကြောင်း သတိပြုမိသည် -- တြိဂံ ၂ ခုနှင့် ထောင့်မှန်စတုဂံ ၃ ခုပါသော ဖြန့်ပုံတစ်ခုသည် ကုဗအစား တြိဂံ ပရစ်ဇမ်တစ်ခု ဖြစ်လာမည်ဖြစ်သည်။\n\nဘူးကို အလှဆင်စက္ကူဖြင့် ထုပ်ပိုးခြင်းမပြုမီ၊ သုသုသည် စက္ကူ မည်မျှဝယ်ရမည်ကို သိရန် ဘူး၏ မျက်နှာပြင်ဧရိယာကို တွက်ချက်ခဲ့သည်။ သူမ၏ ကုဗ၏ တစ်ဘက်စီသည် 8 cm ရှိသောကြောင့် မျက်နှာပြင်ဧရိယာ = 6 × side² ဟူသော ပုံသေနည်းကို သုံးခဲ့သည် - 8² = 64၊ ပြီး 6 × 64 = 384 cm² ရရှိသည်။ သူမသည် 400 cm² ရှိသော အလှဆင်စက္ကူတစ်ရွက်ကို ဝယ်ခဲ့ရာ ၎င်း၏ ကုဗပုံလက်ဆောင်ဘူးကို သပ်သပ်ရပ်ရပ် ထုပ်ပိုးရန်အတွက် လုံလောက်ပြီး ပိုလျှံနေသေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What is a \"net\", as described in the passage?",
+            questionMy:
+                "စာပိုဒ်တွင် ဖော်ပြထားသည့် \"ဖြန့်ပုံ (net)\" ဆိုသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A flat, 2D shape that folds up to make a 3D solid",
+              "A type of decorative wrapping paper",
+              "A tool for measuring angles",
+              "Another name for a cube",
+            ],
+            optionsMy: [
+              "၃-ဖက်မြင် အခဲအဖြစ် ခေါက်နိုင်သော ပြားချပ် ၂-ဖက်မြင်ပုံသဏ္ဍာန်",
+              "အလှဆင် ထုပ်ပိုးစက္ကူ အမျိုးအစားတစ်ခု",
+              "ထောင့်တိုင်းရန် ကိရိယာတစ်ခု",
+              "ကုဗ (cube) ၏ အခြားအမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many faces does Su Su's cube gift box have?",
+            questionMy: "သုသု၏ ကုဗလက်ဆောင်ဘူးတွင် မျက်နှာပြင် မည်မျှ ရှိသနည်း။",
+            optionsEn: ["6", "8", "12", "4"],
+            optionsMy: ["6", "8", "12", "4"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How many edges does the finished cube box have?",
+            questionMy: "ပြီးစီးသွားသော ကုဗဘူးတွင် အနား မည်မျှ ရှိသနည်း။",
+            optionsEn: ["12", "6", "8", "10"],
+            optionsMy: ["12", "6", "8", "10"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the surface area of the cube box, if each side is 8 cm?",
+            questionMy:
+                "ကုဗဘူး၏ တစ်ဘက်စီ 8 cm ရှိပါက ၎င်း၏ မျက်နှာပြင်ဧရိယာမှာ အဘယ်နည်း။",
+            optionsEn: ["384 cm²", "64 cm²", "192 cm²", "48 cm²"],
+            optionsMy: ["384 cm²", "64 cm²", "192 cm²", "48 cm²"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su need to calculate the box's surface area?",
+            questionMy:
+                "ဘူး၏ မျက်နှာပြင်ဧရိယာကို သုသု အဘယ်ကြောင့် တွက်ချက်ရန် လိုအပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "To know how much decorative paper to buy to wrap the box",
+              "To know how heavy the box would be",
+              "To know how many gifts could fit inside",
+              "To know the price of the box",
+            ],
+            optionsMy: [
+              "ဘူးကို ထုပ်ပိုးရန် အလှဆင်စက္ကူ မည်မျှ ဝယ်ရမည်ကို သိရန်",
+              "ဘူးက အလေးချိန် မည်မျှ ရှိမည်ကို သိရန်",
+              "အထဲတွင် လက်ဆောင် မည်မျှ ထည့်နိုင်မည်ကို သိရန်",
+              "ဘူး၏ ဈေးနှုန်းကို သိရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: 3D Shapes and Nets",
+      titleMy:
+          "၃၁ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - ၃-ဖက်မြင်ပုံများနှင့် ဖြန့်ပုံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "How many vertices does a cube have?",
+          questionMy: "ကုဗ (Cube) တစ်ခုတွင် ထောင့် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["8", "6", "12", "4"],
+          optionsMy: ["8", "6", "12", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many faces does a triangular-based pyramid (tetrahedron) have?",
+          questionMy:
+              "တြိဂံအခြေရှိ ပိရမစ် (tetrahedron) တစ်ခုတွင် မျက်နှာပြင် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["4", "5", "6", "8"],
+          optionsMy: ["4", "5", "6", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Week 3's order of operations, which squares before multiplying: find the surface area of a cube with side length 3 cm, using surface area = 6 × side².",
+          questionMy:
+              "Week 3 ၏ တွက်ချက်မှုအစီအစဉ်ကို ပြန်သတိရပါ -- မြှောက်ခြင်းမပြုမီ စတုရန်းပြုရသည်ကို -- side length 3 cm ရှိသော ကုဗ၏ မျက်နှာပြင်ဧရိယာကို surface area = 6 × side² ဖြင့် ရှာပါ။",
+          optionsEn: ["54 cm²", "18 cm²", "27 cm²", "36 cm²"],
+          optionsMy: ["54 cm²", "18 cm²", "27 cm²", "36 cm²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How many edges does a square-based pyramid have?",
+          questionMy:
+              "စတုရန်းအခြေရှိ ပိရမစ် (Square-based Pyramid) တစ်ခုတွင် အနား မည်မျှ ရှိသနည်း။",
+          optionsEn: ["8", "5", "4", "12"],
+          optionsMy: ["8", "5", "4", "12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which net folds up into a cylinder?",
+          questionMy:
+              "မည်သည့်ဖြန့်ပုံသည် ခေါက်လိုက်လျှင် လုံးဝိုင်းတိုင်ပုံ (Cylinder) ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "2 circles and 1 curved rectangle",
+            "6 squares",
+            "2 triangles and 3 rectangles",
+            "1 square and 4 triangles",
+          ],
+          optionsMy: [
+            "စက်ဝိုင်း ၂ ခုနှင့် ကွေးညွှတ်ထောင့်မှန်စတုဂံ ၁ ခု",
+            "စတုရန်း ၆ ခု",
+            "တြိဂံ ၂ ခုနှင့် ထောင့်မှန်စတုဂံ ၃ ခု",
+            "စတုရန်း ၁ ခုနှင့် တြိဂံ ၄ ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 8, Week 32: "Spatial Designer" (Capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek32 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w32",
+  weekNumber: 32,
+  titleEn: "Spatial Designer",
+  titleMy: "နေရာလွတ် ဒီဇိုင်နာ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w32-d1",
+      dayNumber: 1,
+      titleEn: "Transformations Meet 3D Shapes Quiz",
+      titleMy: "ပြောင်းလဲမှုများနှင့် ၃-ဖက်မြင်ပုံများ ပဟေဋ္ဌိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Recall Week 29: how many lines of symmetry does a square have?",
+          questionMy:
+              "Week 29 ကို သတိရပါ - စတုရန်းတစ်ခုတွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["4", "2", "1", "8"],
+          optionsMy: ["4", "2", "1", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Week 30: rotate the point (3, 2) 90° clockwise about the origin, using (x, y) becomes (y, -x). What are the new coordinates?",
+          questionMy:
+              "Week 30 ကို သတိရပါ - အမှတ် (3, 2) ကို မူလအမှတ်ပတ်လည် ၉၀° နာရီလက်တံအတိုင်း လှည့်ပါ၊ (x, y) မှ (y, -x) စည်းမျဉ်းကိုသုံးပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(2, -3)", "(-2, 3)", "(3, -2)", "(-3, -2)"],
+          optionsMy: ["(2, -3)", "(-2, 3)", "(3, -2)", "(-3, -2)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Recall Week 31: how many edges does a cube have?",
+          questionMy: "Week 31 ကို သတိရပါ - ကုဗတစ်ခုတွင် အနား မည်မျှ ရှိသနည်း။",
+          optionsEn: ["12", "8", "6", "10"],
+          optionsMy: ["12", "8", "6", "10"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 29 and Week 30: reflect the point (4, -2) in the y-axis, then translate the image by the vector (1, 3). What are the final coordinates?",
+          questionMy:
+              "Week 29 နှင့် Week 30 ကို ပေါင်းစပ်ပါ - အမှတ် (4, -2) ကို y-ဝင်ရိုးတွင် အလင်းပြန်ဆွဲပြီး၊ ရလဒ်ပုံကို ဗက်တာ (1, 3) ဖြင့် ရွေ့လျားပါ။ နောက်ဆုံးကိုဩဒိနိတ်များမှာ အဘယ်နည်း။",
+          optionsEn: ["(-3, 1)", "(-3, -5)", "(5, 1)", "(-5, 1)"],
+          optionsMy: ["(-3, 1)", "(-3, -5)", "(5, 1)", "(-5, 1)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 31's surface area formula with Week 1's order of operations: a cuboid packaging box has length 4 cm, width 2 cm and height 3 cm. Find its surface area using surface area = 2(lw + lh + wh).",
+          questionMy:
+              "Week 31 ၏ မျက်နှာပြင်ဧရိယာ ပုံသေနည်းနှင့် Week 1 ၏ တွက်ချက်မှုအစီအစဉ်ကို ပေါင်းစပ်ပါ - အကျပ်ပုံ ထုပ်ပိုးဘူးတစ်ခု၏ အလျား 4 cm၊ အကျယ် 2 cm၊ အမြင့် 3 cm ရှိသည်။ surface area = 2(lw + lh + wh) ကိုသုံး၍ ၎င်း၏ မျက်နှာပြင်ဧရိယာကို ရှာပါ။",
+          optionsEn: ["52 cm²", "26 cm²", "24 cm²", "104 cm²"],
+          optionsMy: ["52 cm²", "26 cm²", "24 cm²", "104 cm²"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match the Packaging Design Terms",
+      titleMy: "ထုပ်ပိုးမှု ဒီဇိုင်း ဝေါဟာရများ ကိုက်ညီစွာ တွဲချိတ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w32-dm-1",
+          termEn: "Net",
+          termMy: "ဖြန့်ပုံ (Net)",
+          matchEn: "A 2D shape that folds up into a 3D solid (Week 31)",
+          matchMy:
+              "ခေါက်လိုက်လျှင် ၃-ဖက်မြင်အခဲဖြစ်လာသော ၂-ဖက်မြင်ပုံသဏ္ဍာန် (Week 31)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w32-dm-2",
+          termEn: "Transformation",
+          termMy: "ပြောင်းလဲမှု (Transformation)",
+          matchEn:
+              "A change in a shape's position, such as a reflection, translation, or rotation",
+          matchMy:
+              "အလင်းပြန်ခြင်း၊ ရွေ့လျားခြင်း၊ လှည့်ခြင်း စသည့် ပုံသဏ္ဍာန်၏ တည်နေရာပြောင်းလဲမှု",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w32-dm-3",
+          termEn: "Symmetry",
+          termMy: "အချိုးညီမှု (Symmetry)",
+          matchEn:
+              "When a shape looks identical on both sides of a line, or matches itself after a rotation",
+          matchMy:
+              "ပုံသဏ္ဍာန်တစ်ခု မျဉ်းတစ်ခု၏ ဘက်နှစ်ဘက်တွင် အတူတူဖြစ်ခြင်း သို့မဟုတ် လှည့်ပြီးနောက် ကိုယ့်ကိုယ်ကို ကိုက်ညီခြင်း",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w32-dm-4",
+          termEn: "Packaging Design",
+          termMy: "ထုပ်ပိုးမှု ဒီဇိုင်း (Packaging Design)",
+          matchEn:
+              "Using nets and transformations to plan the shape and pattern of a box or container",
+          matchMy:
+              "ဘူး သို့မဟုတ် ဗူးတစ်ခု၏ ပုံသဏ္ဍာန်နှင့် ပုံစံကို စီစဉ်ရန် ဖြန့်ပုံများနှင့် ပြောင်းလဲမှုများကို အသုံးပြုခြင်း",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w32-dm-5",
+          termEn: "Tessellation",
+          termMy: "ကွက်လပ်မဲ့ ဖုံးအုပ်ပုံစံ (Tessellation)",
+          matchEn:
+              "A repeating pattern of shapes that fits together with no gaps or overlaps",
+          matchMy:
+              "ကွက်လပ် သို့မဟုတ် ထပ်နေမှု မရှိဘဲ ချိတ်ဆက်နေသော ပုံသဏ္ဍာန်များ၏ ထပ်ခါထပ်ခါပုံစံ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w32-dm-6",
+          termEn: "Prototype",
+          termMy: "နမူနာပုံစံ (Prototype)",
+          matchEn:
+              "An early sample model of a design, used to test and improve it before the final version",
+          matchMy:
+              "နောက်ဆုံးပုံစံမတိုင်မီ စမ်းသပ်ပြီး တိုးတက်စေရန် အသုံးပြုသော ဒီဇိုင်း၏ အစောပိုင်း နမူနာပုံစံ",
+          colorValue: 0xFF4FC3A1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Transformation or 3D Shape Property?",
+      titleMy: "စီစစ်ကြမည် - ပြောင်းလဲမှုလား ၃-ဖက်မြင်ပုံ ဂုဏ်သတ္တိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Transformation (Weeks 29-30)",
+          "3D Shape Property (Week 31)",
+        ],
+        bucketsMy: [
+          "ပြောင်းလဲမှု (Week 29-30)",
+          "၃-ဖက်မြင်ပုံ ဂုဏ်သတ္တိ (Week 31)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w32-sort-1",
+            labelEn: "Reflection",
+            labelMy: "အလင်းပြန်ခြင်း (Reflection)",
+            correctBucketEn: "Transformation (Weeks 29-30)",
+            correctBucketMy: "ပြောင်းလဲမှု (Week 29-30)",
+          ),
+          SortingItem(
+            id: "s1math-w32-sort-2",
+            labelEn: "Face",
+            labelMy: "မျက်နှာပြင် (Face)",
+            correctBucketEn: "3D Shape Property (Week 31)",
+            correctBucketMy: "၃-ဖက်မြင်ပုံ ဂုဏ်သတ္တိ (Week 31)",
+          ),
+          SortingItem(
+            id: "s1math-w32-sort-3",
+            labelEn: "Rotation",
+            labelMy: "လှည့်ခြင်း (Rotation)",
+            correctBucketEn: "Transformation (Weeks 29-30)",
+            correctBucketMy: "ပြောင်းလဲမှု (Week 29-30)",
+          ),
+          SortingItem(
+            id: "s1math-w32-sort-4",
+            labelEn: "Edge",
+            labelMy: "အနား (Edge)",
+            correctBucketEn: "3D Shape Property (Week 31)",
+            correctBucketMy: "၃-ဖက်မြင်ပုံ ဂုဏ်သတ္တိ (Week 31)",
+          ),
+          SortingItem(
+            id: "s1math-w32-sort-5",
+            labelEn: "Translation",
+            labelMy: "ရွေ့လျားခြင်း (Translation)",
+            correctBucketEn: "Transformation (Weeks 29-30)",
+            correctBucketMy: "ပြောင်းလဲမှု (Week 29-30)",
+          ),
+          SortingItem(
+            id: "s1math-w32-sort-6",
+            labelEn: "Vertex",
+            labelMy: "ထောင့် (Vertex)",
+            correctBucketEn: "3D Shape Property (Week 31)",
+            correctBucketMy: "၃-ဖက်မြင်ပုံ ဂုဏ်သတ္တိ (Week 31)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w32-d4",
+      dayNumber: 4,
+      titleEn: "Su Su's Packaging Design Project",
+      titleMy: "သုသုရဲ့ ထုပ်ပိုးမှု ဒီဇိုင်း စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Packaging Design Project",
+        titleMy: "သုသုရဲ့ ထုပ်ပိုးမှု ဒီဇိုင်း စီမံကိန်း",
+        passageEn:
+            "For the school's design competition, Su Su decided to design a snack box shaped like a cuboid. She started, just like she had with her gift box, by drawing and folding a net -- this time made of 6 rectangles -- to check the cuboid's shape before decorating it.\n\nFor the decoration, Su Su drew one small triangle motif, then used a translation to repeat it in a straight row across one face of the box, sliding it the same distance each time so the triangles tiled the surface with no gaps -- a pattern called a tessellation. On the lid, she used a 180° rotation about a centre point to turn a pair of triangles into a spinning pinwheel-like pattern, just like the toy pinwheel she remembered from Week 30.\n\nBefore printing her final design, Su Su checked that the lid's pattern had a line of symmetry down the middle, so it would look balanced from every angle, just as she had learned to check in Week 29. Finally, she calculated the surface area of her box, which measured 12 cm long, 5 cm wide and 4 cm tall, using Week 31's formula: surface area = 2(lw + lh + wh) = 2(60 + 48 + 20) = 2 × 128 = 256 cm². Now she knew exactly how much printed wrapping film to order for her finished packaging design.",
+        passageMy:
+            "ကျောင်း၏ ဒီဇိုင်းယှဉ်ပြိုင်ပွဲအတွက် သုသုသည် အကျပ်ပုံ (cuboid) သဏ္ဍာန်ရှိသော သရေစာဘူးတစ်ခု ဒီဇိုင်းဆွဲရန် ဆုံးဖြတ်ခဲ့သည်။ သူမ၏ လက်ဆောင်ဘူးနှင့် အလားတူပင် ဖြန့်ပုံတစ်ခု -- ယခုတစ်ကြိမ် ထောင့်မှန်စတုဂံ ၆ ခုဖြင့် ဖွဲ့စည်း -- ကို ဆွဲပြီး အလှမဆင်မီ အကျပ်ပုံ၏ ပုံသဏ္ဍာန်ကို စစ်ဆေးရန် ခေါက်ခဲ့သည်။\n\nအလှဆင်ရန်အတွက် သုသုသည် သေးငယ်သော တြိဂံ ပုံစံတစ်ခု ဆွဲပြီး၊ ဘူး၏ မျက်နှာပြင်တစ်ခုတစ်လျှောက် အတန်းဖြောင့်ဖြင့် ထပ်ခါထပ်ခါ ဆွဲရန် ရွေ့လျားခြင်း (translation) ကိုသုံးခဲ့သည် -- တစ်ကြိမ်စီ အကွာအဝေးတူညီစွာ ရွှေ့ကာ တြိဂံများသည် ကွက်လပ်မရှိဘဲ မျက်နှာပြင်ကို ဖုံးအုပ်ခဲ့သည် -- ဤပုံစံအမျိုးအစားကို ကွက်လပ်မဲ့ ဖုံးအုပ်ပုံစံ (tessellation) ဟုခေါ်သည်။ ဘူးအဖုံးပေါ်တွင်မူ Week 30 ၌ မှတ်မိထားသော လေတိုက်တလေလေ အရုပ်ကဲ့သို့ တြိဂံနှစ်ခုကို လှည့်နေသော ပုံစံအဖြစ် ပြောင်းလဲရန် ဗဟိုအမှတ်ပတ်လည် ၁၈၀° လှည့်ခြင်း (rotation) ကို သုံးခဲ့သည်။\n\nနောက်ဆုံးဒီဇိုင်းကို ပုံနှိပ်မီ Su Su သည် Week 29 ၌ စစ်ဆေးနည်း သင်ခဲ့သကဲ့သို့ပင်၊ ဘူးအဖုံး၏ ပုံစံသည် ထောင့်ဒေါင့်တိုင်းမှ ချိန်ညီစွာ ရှုမြင်ရစေရန် အလယ်တစ်လျှောက် အချိုးညီမျဉ်း ရှိမရှိ စစ်ဆေးခဲ့သည်။ နောက်ဆုံးတွင် သူမသည် ၎င်း၏ ဘူး၏ မျက်နှာပြင်ဧရိယာကို -- အလျား 12 cm၊ အကျယ် 5 cm၊ အမြင့် 4 cm -- Week 31 ၏ ပုံသေနည်းဖြင့် တွက်ချက်ခဲ့သည် - surface area = 2(lw + lh + wh) = 2(60 + 48 + 20) = 2 × 128 = 256 cm²။ ယခု သူမသည် ပြီးစီးသွားသော ထုပ်ပိုးမှုဒီဇိုင်းအတွက် ပုံနှိပ် ထုပ်ပိုးအထုတ် မည်မျှ မှာယူရမည်ကို အတိအကျ သိရှိလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the first step Su Su took before decorating her packaging box?",
+            questionMy: "ဘူးကို အလှမဆင်မီ သုသု၏ ပထမဆုံးအဆင့်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Drawing and folding the net to check the cuboid's shape",
+              "Choosing the colour of the paint",
+              "Calculating the price of the box",
+              "Weighing the empty box",
+            ],
+            optionsMy: [
+              "အကျပ်ပုံ၏ ပုံသဏ္ဍာန်ကို စစ်ဆေးရန် ဖြန့်ပုံကို ဆွဲပြီး ခေါက်ခြင်း",
+              "ဆေးဆိုးရန် အရောင်ကို ရွေးချယ်ခြင်း",
+              "ဘူး၏ ဈေးနှုန်းကို တွက်ချက်ခြင်း",
+              "ဗလာဘူးကို အလေးချိန်ချိန်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which transformation did Su Su use to repeat her triangle motif in a straight row with no gaps?",
+            questionMy:
+                "တြိဂံ ပုံစံကို ကွက်လပ်မရှိဘဲ အတန်းဖြောင့်ဖြင့် ထပ်ခါထပ်ခါ ဆွဲရန် သုသု မည်သည့် ပြောင်းလဲမှုကို သုံးခဲ့သနည်း။",
+            optionsEn: ["Translation", "Rotation", "Reflection", "Enlargement"],
+            optionsMy: [
+              "ရွေ့လျားခြင်း (Translation)",
+              "လှည့်ခြင်း (Rotation)",
+              "အလင်းပြန်ခြင်း (Reflection)",
+              "ချဲ့ခြင်း (Enlargement)",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Su Su use to create a spinning pinwheel-like pattern on the lid?",
+            questionMy:
+                "ဘူးအဖုံးပေါ်တွင် လှည့်နေသော လေတိုက်တလေလေပုံစံ ဖန်တီးရန် သုသု မည်သည်ကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "A 180° rotation about a centre point",
+              "A translation only",
+              "A line of symmetry",
+              "A larger net",
+            ],
+            optionsMy: [
+              "ဗဟိုအမှတ်ပတ်လည် ၁၈၀° လှည့်ခြင်း",
+              "ရွေ့လျားခြင်းသာ",
+              "အချိုးညီမျဉ်း",
+              "ပိုကြီးသော ဖြန့်ပုံ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the surface area of Su Su's box, which is 12 cm long, 5 cm wide and 4 cm tall?",
+            questionMy:
+                "အလျား 12 cm၊ အကျယ် 5 cm၊ အမြင့် 4 cm ရှိသော သုသု၏ ဘူး၏ မျက်နှာပြင်ဧရိယာမှာ အဘယ်နည်း။",
+            optionsEn: ["256 cm²", "128 cm²", "240 cm²", "60 cm²"],
+            optionsMy: ["256 cm²", "128 cm²", "240 cm²", "60 cm²"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Su Su check for a line of symmetry on her lid design?",
+            questionMy:
+                "ဘူးအဖုံး ဒီဇိုင်းတွင် အချိုးညီမျဉ်းရှိမရှိ သုသု အဘယ်ကြောင့် စစ်ဆေးခဲ့သနည်း။",
+            optionsEn: [
+              "So the pattern would look balanced from every angle",
+              "So the box would be lighter",
+              "So the box would hold more snacks",
+              "So the pattern would use fewer colours",
+            ],
+            optionsMy: [
+              "ပုံစံသည် ထောင့်ဒေါင့်တိုင်းမှ ချိန်ညီစွာ ရှုမြင်ရစေရန်",
+              "ဘူးက ပိုပေါ့စေရန်",
+              "ဘူးက သရေစာ ပိုထည့်နိုင်စေရန်",
+              "ပုံစံက အရောင် နည်းနည်းသာ သုံးစေရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Term 8 Capstone",
+      titleMy: "၃၂ပတ်မြောက် ပြန်လည်သုံးသပ်ခြင်း - Term 8 အကျဉ်းချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Recall Week 29: how many lines of symmetry does a regular hexagon have?",
+          questionMy:
+              "Week 29 ကို သတိရပါ - ပုံမှန်ခြောက်ထောင့်ပုံတစ်ခုတွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["6", "3", "4", "12"],
+          optionsMy: ["6", "3", "4", "12"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Week 30: translate the point (-3, 4) by the vector (5, -6). What are the new coordinates?",
+          questionMy:
+              "Week 30 ကို သတိရပါ - အမှတ် (-3, 4) ကို ဗက်တာ (5, -6) ဖြင့် ရွေ့လျားပါ။ ကိုဩဒိနိတ်အသစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["(2, -2)", "(2, 10)", "(-8, 10)", "(2, -6)"],
+          optionsMy: ["(2, -2)", "(2, 10)", "(-8, 10)", "(2, -6)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Recall Week 31: how many faces does a triangular prism have?",
+          questionMy:
+              "Week 31 ကို သတိရပါ - တြိဂံ ပရစ်ဇမ်တစ်ခုတွင် မျက်နှာပြင် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["5", "6", "9", "4"],
+          optionsMy: ["5", "6", "9", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining Week 29 and Week 31: a cube's net is unfolded into 6 square faces. How many lines of symmetry does each square face have?",
+          questionMy:
+              "Week 29 နှင့် Week 31 ကို ပေါင်းစပ်ပါ - ကုဗတစ်ခု၏ ဖြန့်ပုံသည် စတုရန်း မျက်နှာပြင် ၆ ခုအဖြစ် ဖြန့်ချထားသည်။ စတုရန်း မျက်နှာပြင်တစ်ခုစီတွင် အချိုးညီမျဉ်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["4", "2", "1", "8"],
+          optionsMy: ["4", "2", "1", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Bringing together this term's Spatial Designer skills: Su Su is designing a cereal box (cuboid) that is 10 cm long, 6 cm wide and 20 cm tall. Using Week 31's formula, what is its total surface area?",
+          questionMy:
+              "ဒီ Term ၏ Spatial Designer ကျွမ်းကျင်မှုများကို ပေါင်းစပ်ပါ - သုသုသည် အလျား 10 cm၊ အကျယ် 6 cm၊ အမြင့် 20 cm ရှိသော ဆီးရီရယ်ဘူး (cuboid) ကို ဒီဇိုင်းဆွဲနေသည်။ Week 31 ၏ ပုံသေနည်းကိုသုံး၍ ၎င်း၏ စုစုပေါင်း မျက်နှာပြင်ဧရိယာမှာ အဘယ်နည်း။",
+          optionsEn: ["760 cm²", "380 cm²", "1200 cm²", "260 cm²"],
+          optionsMy: ["760 cm²", "380 cm²", "1200 cm²", "260 cm²"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 8: "Transformations and 3D Shapes" -- the
+/// eighth milestone of the pathway (see [secondary1MathematicsPathway]),
+/// following Term 7's ratio and proportion strand with a geometry-focused
+/// breadth strand. Week 29 introduces lines of symmetry and reflecting
+/// shapes/points across a mirror line on a coordinate grid (the pathway's
+/// first coordinate-geometry work); Week 30 extends the same coordinate
+/// grid into translation (sliding shapes with a vector) and rotation
+/// (turning shapes about a fixed centre), explicitly folding Term 1 Week
+/// 1's directed-number skill into vectors and rotated coordinates with
+/// negative parts; Week 31 shifts from 2D transformations to 3D solids --
+/// faces, edges, vertices, drawing/recognising nets, and an introduction to
+/// surface area that explicitly folds Term 1 Week 3's order-of-operations
+/// and squaring skill into the surface-area formula; Week 32 closes the
+/// term with a "Spatial Designer" capstone that combines all three --
+/// reflecting and translating a point in one combined problem, and
+/// calculating a packaging box's surface area -- while the closing recap
+/// quiz explicitly calls back Weeks 29, 30 and 31 by number, mirroring how
+/// [_secondary1MathematicsTerm1]'s, [_secondary1MathematicsTerm2]'s, and
+/// [_secondary1MathematicsTerm3]'s own capstone weeks (4, 8, 12) close out
+/// their terms.
+const CourseTermDef _secondary1MathematicsTerm8 = CourseTermDef(
+  id: "course-secondary1-mathematics-t8",
+  termNumber: 8,
+  titleEn: "Transformations and 3D Shapes",
+  titleMy: "ပြောင်းလဲမှုများ နှင့် ၃-ဖက်မြင်ပုံများ",
+  certificateTitleEn: "Transformations and 3D Shapes",
+  certificateTitleMy: "ပြောင်းလဲမှုများ နှင့် ၃-ဖက်မြင်ပုံများ",
+  weeks: [
+    _secondary1MathematicsWeek29,
+    _secondary1MathematicsWeek30,
+    _secondary1MathematicsWeek31,
+    _secondary1MathematicsWeek32,
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 9, Week 33: "Language of Probability"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek33 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w33",
+  weekNumber: 33,
+  titleEn: "Language of Probability",
+  titleMy: "ဖြစ်နိုင်ခြေ ဝေါဟာရများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w33-d1",
+      dayNumber: 1,
+      titleEn: "Certain, Impossible and Likely",
+      titleMy: "သေချာမှု၊ မဖြစ်နိုင်မှုနှင့် ဖြစ်တန်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which word describes an event that will definitely happen?",
+          questionMy:
+              "မုချဖြစ်ပေါ်မည့် အဖြစ်အပျက်တစ်ခုကို ဖော်ပြသည့် ဝေါဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Impossible", "Unlikely", "Certain", "Even chance"],
+          optionsMy: [
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "မဖြစ်တန်ပါ (Unlikely)",
+            "သေချာသည် (Certain)",
+            "အခွင့်အလမ်းတူညီသည် (Even chance)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "Which word describes an event that can never happen?",
+          questionMy:
+              "ဘယ်တော့မှ မဖြစ်ပေါ်နိုင်သော အဖြစ်အပျက်ကို ဖော်ပြသည့် ဝေါဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Likely", "Impossible", "Certain", "Evens"],
+          optionsMy: [
+            "ဖြစ်တန်သည် (Likely)",
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "သေချာသည် (Certain)",
+            "ထက်ဝက်ဖြစ်နိုင်ခြေ (Evens)",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a probability scale from 0 to 1, where does an impossible event sit?",
+          questionMy:
+              "0 မှ 1 အထိရှိသော ဖြစ်နိုင်ခြေစကေးပေါ်တွင် မဖြစ်နိုင်သောအဖြစ်အပျက်သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+          optionsEn: ["At 1", "At 0.5", "At 0", "Above 1"],
+          optionsMy: ["1 တွင်", "0.5 တွင်", "0 တွင်", "1 ထက်ကျော်လွန်၍"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a probability scale from 0 to 1, where does a certain event sit?",
+          questionMy:
+              "0 မှ 1 အထိရှိသော ဖြစ်နိုင်ခြေစကေးပေါ်တွင် သေချာဖြစ်ပေါ်မည့်အဖြစ်အပျက်သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+          optionsEn: ["At 0", "At 0.5", "Below 0", "At 1"],
+          optionsMy: ["0 တွင်", "0.5 တွင်", "0 အောက်တွင်", "1 တွင်"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these events has an even chance (probability 0.5) of happening?",
+          questionMy:
+              "အောက်ပါအဖြစ်အပျက်များအနက် ထက်ဝက်ဖြစ်နိုင်ခြေ (probability 0.5) ရှိသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Rolling a die and getting a 6",
+            "Flipping a coin and getting Heads",
+            "The sun rising tomorrow",
+            "Picking a red ball from a bag of only blue balls",
+          ],
+          optionsMy: [
+            "အန်စာတုံးလှိမ့်၍ 6 ရခြင်း",
+            "ဒင်္ဂါးပြားလှန်၍ ခေါင်းရခြင်း",
+            "မနက်ဖြန်နေထွက်ခြင်း",
+            "အပြာရောင်ဘောလုံးများသာပါသောအိတ်မှ အနီရောင်ဘောလုံးထုတ်ယူခြင်း",
+          ],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match the Probability Words",
+      titleMy: "ဖြစ်နိုင်ခြေဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w33-dm-1",
+          termEn: "Certain",
+          termMy: "သေချာသည်",
+          matchEn:
+              "An event that will definitely happen, e.g. the sun rising tomorrow",
+          matchMy: "မုချဖြစ်ပေါ်မည့် အဖြစ်အပျက်၊ ဥပမာ - မနက်ဖြန်နေထွက်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w33-dm-2",
+          termEn: "Impossible",
+          termMy: "မဖြစ်နိုင်ပါ",
+          matchEn:
+              "An event that can never happen, e.g. rolling a 7 on a normal die",
+          matchMy:
+              "ဘယ်တော့မှမဖြစ်နိုင်သော အဖြစ်အပျက်၊ ဥပမာ - ပုံမှန်အန်စာတုံးဖြင့် 7 လှိမ့်ရခြင်း",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w33-dm-3",
+          termEn: "Likely",
+          termMy: "ဖြစ်တန်သည်",
+          matchEn:
+              "An event with a good chance of happening -- closer to certain than impossible",
+          matchMy:
+              "ဖြစ်ပေါ်ရန် အခွင့်အလမ်းများသော အဖြစ်အပျက် -- မဖြစ်နိုင်မှုထက် သေချာမှုနှင့် ပိုနီးသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w33-dm-4",
+          termEn: "Unlikely",
+          termMy: "မဖြစ်တန်ပါ",
+          matchEn:
+              "An event with only a small chance of happening -- closer to impossible than certain",
+          matchMy:
+              "ဖြစ်ပေါ်ရန် အခွင့်အလမ်းနည်းပါးသော အဖြစ်အပျက် -- သေချာမှုထက် မဖြစ်နိုင်မှုနှင့် ပိုနီးသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w33-dm-5",
+          termEn: "Even Chance",
+          termMy: "အခွင့်အလမ်းတူညီသည်",
+          matchEn:
+              "An event with exactly a 50-50 (0.5) chance of happening, e.g. flipping Heads",
+          matchMy:
+              "အတိအကျ 50-50 (0.5) ဖြစ်နိုင်ခြေရှိသော အဖြစ်အပျက်၊ ဥပမာ - ဒင်္ဂါးပြားလှန်၍ ခေါင်းရခြင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w33-dm-6",
+          termEn: "Probability Scale",
+          termMy: "ဖြစ်နိုင်ခြေစကေး",
+          matchEn:
+              "A line from 0 (impossible) to 1 (certain) used to show how likely an event is",
+          matchMy:
+              "အဖြစ်အပျက်တစ်ခု၏ ဖြစ်နိုင်ခြေအတိုင်းအတာကို ပြသရန်သုံးသော 0 (မဖြစ်နိုင်) မှ 1 (သေချာ) အထိ မျဉ်းတစ်ကြောင်း",
+          colorValue: 0xFF5FD68C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Likely or Unlikely?",
+      titleMy: "စီစစ်ကြမည် - ဖြစ်တန်သလား မဖြစ်တန်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Likely or Certain (Closer to 1)",
+          "Unlikely or Impossible (Closer to 0)",
+        ],
+        bucketsMy: [
+          "ဖြစ်တန်သည် သို့မဟုတ် သေချာသည် (1 နှင့်နီးသည်)",
+          "မဖြစ်တန်ပါ သို့မဟုတ် မဖြစ်နိုင်ပါ (0 နှင့်နီးသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w33-sort-1",
+            labelEn: "The sun rising tomorrow morning",
+            labelMy: "မနက်ဖြန်မနက်ခင်း နေထွက်ခြင်း",
+            correctBucketEn: "Likely or Certain (Closer to 1)",
+            correctBucketMy: "ဖြစ်တန်သည် သို့မဟုတ် သေချာသည် (1 နှင့်နီးသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w33-sort-2",
+            labelEn:
+                "Picking a red ball from a bag that contains only blue balls",
+            labelMy:
+                "အပြာရောင်ဘောလုံးများသာပါသောအိတ်မှ အနီရောင်ဘောလုံးထုတ်ယူခြင်း",
+            correctBucketEn: "Unlikely or Impossible (Closer to 0)",
+            correctBucketMy:
+                "မဖြစ်တန်ပါ သို့မဟုတ် မဖြစ်နိုင်ပါ (0 နှင့်နီးသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w33-sort-3",
+            labelEn:
+                "It raining somewhere in Myanmar during the rainy season (June-September)",
+            labelMy:
+                "မိုးရာသီ (ဇွန်-စက်တင်ဘာ) အတွင်း မြန်မာနိုင်ငံတစ်နေရာနေရာတွင် မိုးရွာခြင်း",
+            correctBucketEn: "Likely or Certain (Closer to 1)",
+            correctBucketMy: "ဖြစ်တန်သည် သို့မဟုတ် သေချာသည် (1 နှင့်နီးသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w33-sort-4",
+            labelEn: "Rolling a die and getting a number bigger than 20",
+            labelMy: "အန်စာတုံးလှိမ့်၍ 20 ထက်ကြီးသောနံပါတ် ရရှိခြင်း",
+            correctBucketEn: "Unlikely or Impossible (Closer to 0)",
+            correctBucketMy:
+                "မဖြစ်တန်ပါ သို့မဟုတ် မဖြစ်နိုင်ပါ (0 နှင့်နီးသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w33-sort-5",
+            labelEn:
+                "A school day this week having a mathematics lesson, based on a typical timetable",
+            labelMy:
+                "ပုံမှန်အချိန်ဇယားအရ ဒီအပတ်ကျောင်းနေ့တွင် သင်္ချာသင်ခန်းစာပါဝင်ခြင်း",
+            correctBucketEn: "Likely or Certain (Closer to 1)",
+            correctBucketMy: "ဖြစ်တန်သည် သို့မဟုတ် သေချာသည် (1 နှင့်နီးသည်)",
+          ),
+          SortingItem(
+            id: "s1math-w33-sort-6",
+            labelEn:
+                "Flipping a coin ten times and getting Heads all ten times",
+            labelMy:
+                "ဒင်္ဂါးပြားကို ဆယ်ကြိမ်လှန်ပြီး ဆယ်ကြိမ်လုံး ခေါင်းရရှိခြင်း",
+            correctBucketEn: "Unlikely or Impossible (Closer to 0)",
+            correctBucketMy:
+                "မဖြစ်တန်ပါ သို့မဟုတ် မဖြစ်နိုင်ပါ (0 နှင့်နီးသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Rainy Season Diary",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ မိုးရာသီမှတ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Rainy Season Diary",
+        titleMy: "စုစု၏ မိုးရာသီမှတ်တမ်း",
+        passageEn:
+            "During the rainy season, Su Su keeps a small notebook where she writes down whether it rains each day. After two weeks, she notices it rained on 12 out of 14 days. Her teacher explains that this is a good real-life example of the language of probability: because it rained on so many days, we say it is very likely to rain again tomorrow -- though not perfectly certain, since a rainy season can still have the odd dry day.\n\nIn class the next day, the teacher draws a probability scale on the board, a line from 0 to 1, just like the number line Su Su used for directed numbers back in Week 1. She explains that an impossible event, like the classroom ceiling turning into a football pitch overnight, sits right at 0. A certain event, like tomorrow eventually arriving, sits right at 1. Events described as \"likely\" sit closer to 1, and events described as \"unlikely\" sit closer to 0. An event with an even chance, like flipping a coin and getting Heads, sits exactly in the middle at 0.5.\n\nSu Su's classmate then asks about picking a red pencil from a pencil case that only has blue pencils inside. \"That's impossible,\" Su Su answers confidently, \"so its probability is 0, right at the very start of the scale.\" She realises the language of probability lets her describe everyday chances -- the weather, games, and even pencil cases -- using precise mathematical words instead of vague guesses.",
+        passageMy:
+            "မိုးရာသီအတွင်း စုစုသည် နေ့စဉ်မိုးရွာသည်ဖြစ်စေ မရွာသည်ဖြစ်စေ မှတ်တမ်းတင်ရန် မှတ်စုစာအုပ်ငယ်တစ်အုပ်ထားရှိပါသည်။ နှစ်ပတ်ကြာသောအခါ ၁၄ရက်ထဲမှ ၁၂ရက်တွင် မိုးရွာခဲ့ကြောင်း သတိထားမိပါသည်။ ဆရာမက ၎င်းသည် ဖြစ်နိုင်ခြေဝေါဟာရများ၏ လက်တွေ့ဥပမာကောင်းတစ်ခုဖြစ်ကြောင်း ရှင်းပြပါသည် - ရက်များစွာမိုးရွာခဲ့သောကြောင့် မနက်ဖြန်လည်း မိုးရွာဖွယ်ရှိသည်ဟု ဆိုနိုင်ပါသည် -- သို့သော် မိုးရာသီတွင်ပင် တစ်ခါတစ်ရံ မိုးမရွာသောနေ့လည်း ရှိနိုင်သောကြောင့် အတိအကျသေချာသည်ဟု မဆိုနိုင်ပါ။\n\nနောက်တစ်နေ့ စာသင်ခန်းတွင် ဆရာမက ၁ပတ်မြောက်တွင် စုစုသုံးခဲ့သော ဂဏန်းမျဉ်းနှင့်တူသည့် 0 မှ 1 အထိရှိသော ဖြစ်နိုင်ခြေစကေးမျဉ်းကို ဘုတ်ပေါ်တွင်ရေးဆွဲပြပါသည်။ တစ်ညအတွင်း စာသင်ခန်းအမိုးသည် ဘောလုံးကွင်းအဖြစ် ပြောင်းသွားခြင်းကဲ့သို့ မဖြစ်နိုင်သောအဖြစ်အပျက်သည် 0 တွင်တည်ရှိကြောင်း၊ နောက်တစ်နေ့ ရောက်ရှိလာမည်ဆိုသည့် သေချာဖြစ်ပေါ်မည့်အဖြစ်အပျက်သည် 1 တွင်တည်ရှိကြောင်း ရှင်းပြပါသည်။ \"ဖြစ်တန်သည်\" ဟုဖော်ပြသောအဖြစ်အပျက်များသည် 1 နှင့်ပိုနီးပြီး \"မဖြစ်တန်ပါ\" ဟုဖော်ပြသောအဖြစ်အပျက်များသည် 0 နှင့်ပိုနီးပါသည်။ ဒင်္ဂါးပြားလှန်၍ ခေါင်းရခြင်းကဲ့သို့ ထက်ဝက်ဖြစ်နိုင်ခြေရှိသောအဖြစ်အပျက်သည် အလယ်တွင် 0.5 ၌ အတိအကျတည်ရှိပါသည်။\n\nထို့နောက် စုစု၏အတန်းဖော်တစ်ဦးက အပြာရောင်ခဲတံများသာပါသော ခဲတံအိတ်မှ အနီရောင်ခဲတံတစ်ချောင်းထုတ်ယူခြင်းအကြောင်း မေးမြန်းပါသည်။ \"အဲဒါ မဖြစ်နိုင်ပါဘူး\" ဟု စုစုက ယုံကြည်စွာဖြေကြားပါသည်၊ \"ဒါကြောင့် ၎င်း၏ဖြစ်နိုင်ခြေက 0 ဖြစ်ပြီး၊ စကေး၏အစတွင်ပင် ရှိပါတယ်\"။ ဖြစ်နိုင်ခြေဝေါဟာရများသည် ရာသီဥတု၊ ဂိမ်းများနှင့် ခဲတံအိတ်များအထိ နေ့စဉ်အခွင့်အလမ်းများကို ခန့်မှန်းချက်များအစား တိကျသော သင်္ချာစကားလုံးများဖြင့် ဖော်ပြနိုင်ကြောင်း သူမ သဘောပေါက်လာပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many days out of 14 did it rain in Su Su's notebook?",
+            questionMy:
+                "စုစု၏ မှတ်စုစာအုပ်တွင် ၁၄ရက်အနက် မည်မျှရက် မိုးရွာခဲ့သနည်း။",
+            optionsEn: ["14 days", "2 days", "12 days", "7 days"],
+            optionsMy: ["၁၄ ရက်", "၂ ရက်", "၁၂ ရက်", "၇ ရက်"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, where does an impossible event sit on the probability scale?",
+            questionMy:
+                "စာပိုဒ်အရ ဖြစ်နိုင်ခြေစကေးပေါ်တွင် မဖြစ်နိုင်သောအဖြစ်အပျက်သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+            optionsEn: ["At 1", "At 0", "At 0.5", "At 2"],
+            optionsMy: ["1 တွင်", "0 တွင်", "0.5 တွင်", "2 တွင်"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Where does a certain event sit on the probability scale?",
+            questionMy:
+                "ဖြစ်နိုင်ခြေစကေးပေါ်တွင် သေချာဖြစ်ပေါ်မည့်အဖြစ်အပျက်သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+            optionsEn: [
+              "At 0",
+              "At 1",
+              "At 0.5",
+              "It cannot be placed on the scale",
+            ],
+            optionsMy: [
+              "0 တွင်",
+              "1 တွင်",
+              "0.5 တွင်",
+              "စကေးပေါ်တွင် မထားနိုင်ပါ",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the probability of picking a red pencil from a case that only has blue pencils?",
+            questionMy:
+                "အပြာရောင်ခဲတံများသာပါသောအိတ်မှ အနီရောင်ခဲတံထုတ်ယူရခြင်း၏ ဖြစ်နိုင်ခြေမှာ အဘယ်နည်း။",
+            optionsEn: ["1", "0.5", "0", "It cannot be worked out"],
+            optionsMy: ["1", "0.5", "0", "တွက်ချက်၍မရပါ"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, an event with an even chance (like flipping Heads) sits at which point on the scale?",
+            questionMy:
+                "စာပိုဒ်အရ ထက်ဝက်ဖြစ်နိုင်ခြေရှိသောအဖြစ်အပျက် (ခေါင်းရရှိခြင်းကဲ့သို့) သည် စကေး၏ မည်သည့်အမှတ်တွင် ရှိသနည်း။",
+            optionsEn: [
+              "0 (at the start)",
+              "1 (at the end)",
+              "0.5 (exactly in the middle)",
+              "It changes every time",
+            ],
+            optionsMy: [
+              "0 (အစတွင်)",
+              "1 (အဆုံးတွင်)",
+              "0.5 (အလယ်တွင် အတိအကျ)",
+              "အချိန်တိုင်း ပြောင်းလဲနေသည်",
+            ],
+            correctIndex: 2,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Language of Probability",
+      titleMy: "အပတ်စဉ် ၃၃ ပြန်လည်သုံးသပ်ခြင်း - ဖြစ်နိုင်ခြေဝေါဟာရများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which word describes an event that will definitely happen?",
+          questionMy:
+              "မုချဖြစ်ပေါ်မည့် အဖြစ်အပျက်တစ်ခုကို ဖော်ပြသည့် ဝေါဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Unlikely", "Certain", "Impossible", "Even chance"],
+          optionsMy: [
+            "မဖြစ်တန်ပါ (Unlikely)",
+            "သေချာသည် (Certain)",
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "အခွင့်အလမ်းတူညီသည် (Even chance)",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Which word describes an event that can never happen?",
+          questionMy:
+              "ဘယ်တော့မှ မဖြစ်ပေါ်နိုင်သော အဖြစ်အပျက်ကို ဖော်ပြသည့် ဝေါဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Certain", "Likely", "Impossible", "Evens"],
+          optionsMy: [
+            "သေချာသည် (Certain)",
+            "ဖြစ်တန်သည် (Likely)",
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "ထက်ဝက်ဖြစ်နိုင်ခြေ (Evens)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On the probability scale (0 to 1), where does 'likely' sit?",
+          questionMy:
+              "ဖြစ်နိုင်ခြေစကေး (0 မှ 1) ပေါ်တွင် 'ဖြစ်တန်သည်' သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+          optionsEn: [
+            "Closer to 0",
+            "Exactly at 0.5",
+            "Closer to 1",
+            "Below 0",
+          ],
+          optionsMy: [
+            "0 နှင့်ပိုနီးသည်",
+            "0.5 တွင် အတိအကျ",
+            "1 နှင့်ပိုနီးသည်",
+            "0 အောက်တွင်",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On the probability scale (0 to 1), where does 'unlikely' sit?",
+          questionMy:
+              "ဖြစ်နိုင်ခြေစကေး (0 မှ 1) ပေါ်တွင် 'မဖြစ်တန်ပါ' သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+          optionsEn: ["Closer to 1", "Closer to 0", "Exactly at 1", "Above 1"],
+          optionsMy: [
+            "1 နှင့်ပိုနီးသည်",
+            "0 နှင့်ပိုနီးသည်",
+            "1 တွင် အတိအကျ",
+            "1 ထက်ကျော်လွန်၍",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the probability of an event with an 'even chance' of happening?",
+          questionMy:
+              "'အခွင့်အလမ်းတူညီသည်' ဟုဆိုသောအဖြစ်အပျက်၏ ဖြစ်နိုင်ခြေမှာ အဘယ်နည်း။",
+          optionsEn: ["0", "1", "2", "0.5"],
+          optionsMy: ["0", "1", "2", "0.5"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 9, Week 34: "Calculating Probability"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek34 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w34",
+  weekNumber: 34,
+  titleEn: "Calculating Probability",
+  titleMy: "ဖြစ်နိုင်ခြေ တွက်ချက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w34-d1",
+      dayNumber: 1,
+      titleEn: "Calculating Probability as a Fraction",
+      titleMy: "ဖြစ်နိုင်ခြေကို အပိုင်းကိန်းဖြင့် တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A fair coin is flipped once. What is P(Heads)?",
+          questionMy:
+              "မျှတသောဒင်္ဂါးပြားတစ်ချပ်ကို တစ်ကြိမ်လှန်ပါက P(ခေါင်း) မှာ အဘယ်နည်း။",
+          optionsEn: ["1", "1/3", "0", "1/2"],
+          optionsMy: ["1", "1/3", "0", "1/2"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A fair six-sided die is rolled once. What is P(rolling a 5)?",
+          questionMy:
+              "မျှတသော ခြောက်မျက်နှာအန်စာတုံးတစ်တုံးကို တစ်ကြိမ်လှိမ့်ပါက P(5 ရရှိခြင်း) မှာ အဘယ်နည်း။",
+          optionsEn: ["1/2", "1/5", "1/6", "5/6"],
+          optionsMy: ["1/2", "1/5", "1/6", "5/6"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A fair die is rolled. What is P(rolling an even number), in simplest form?",
+          questionMy:
+              "မျှတသောအန်စာတုံးကို လှိမ့်ပါက P(စုံကိန်းရရှိခြင်း) မှာ အရိုးရှင်းဆုံးပုံစံဖြင့် အဘယ်နည်း။",
+          optionsEn: ["1/3", "2/3", "1/6", "1/2"],
+          optionsMy: ["1/3", "2/3", "1/6", "1/2"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bag contains 3 red balls and 7 blue balls (10 total). What is P(picking a red ball)?",
+          questionMy:
+              "အိတ်တစ်လုံးတွင် အနီရောင်ဘောလုံး 3လုံးနှင့် အပြာရောင်ဘောလုံး 7လုံး (စုစုပေါင်း 10လုံး) ရှိပါသည်။ P(အနီရောင်ဘောလုံးထုတ်ယူရခြင်း) မှာ အဘယ်နည်း။",
+          optionsEn: ["3/10", "7/10", "1/10", "3/7"],
+          optionsMy: ["3/10", "7/10", "1/10", "3/7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A normal six-sided die is rolled. What is P(rolling a 7)?",
+          questionMy:
+              "ပုံမှန်ခြောက်မျက်နှာအန်စာတုံးကို လှိမ့်ပါက P(7 ရရှိခြင်း) မှာ အဘယ်နည်း။",
+          optionsEn: ["0", "1/7", "1", "1/6"],
+          optionsMy: ["0", "1/7", "1", "1/6"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match the Probability Calculations",
+      titleMy: "ဖြစ်နိုင်ခြေတွက်ချက်မှုများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w34-dm-1",
+          termEn: "Probability of an Event",
+          termMy: "အဖြစ်အပျက်တစ်ခု၏ ဖြစ်နိုင်ခြေ",
+          matchEn:
+              "Number of favourable outcomes divided by total number of outcomes",
+          matchMy:
+              "လိုချင်သောရလဒ်အရေအတွက်ကို ရလဒ်အားလုံးအရေအတွက်ဖြင့် စားလိုက်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w34-dm-2",
+          termEn: "Sample Space",
+          termMy: "ဖြစ်နိုင်သည့်ရလဒ်စု",
+          matchEn:
+              "The set of all possible outcomes of an experiment, e.g. {1,2,3,4,5,6} for a die",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခု၏ ဖြစ်နိုင်သောရလဒ်အားလုံးပါဝင်သောအစု၊ ဥပမာ - အန်စာတုံးအတွက် {1,2,3,4,5,6}",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w34-dm-3",
+          termEn: "P(Heads) when flipping a fair coin",
+          termMy: "မျှတသောဒင်္ဂါးပြားလှန်ပါက P(ခေါင်း)",
+          matchEn: "1/2",
+          matchMy: "1/2",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w34-dm-4",
+          termEn: "P(rolling a 3) on a fair six-sided die",
+          termMy: "မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(3 ရရှိခြင်း)",
+          matchEn: "1/6",
+          matchMy: "1/6",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w34-dm-5",
+          termEn: "Equally Likely Outcomes",
+          termMy: "ညီမျှစွာဖြစ်နိုင်သောရလဒ်များ",
+          matchEn:
+              "Outcomes that all have the same chance of happening, e.g. each face of a fair die",
+          matchMy:
+              "အားလုံးတူညီသောဖြစ်နိုင်ခြေရှိသောရလဒ်များ၊ ဥပမာ - မျှတသောအန်စာတုံး၏ မျက်နှာစီးတိုင်း",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w34-dm-6",
+          termEn: "Complementary Event (1 minus P)",
+          termMy: "ဆန့်ကျင်ဘက်အဖြစ်အပျက် (1 မှနုတ်ခြင်း)",
+          matchEn: "The probability that an event does NOT happen",
+          matchMy: "အဖြစ်အပျက်တစ်ခု မဖြစ်ပေါ်ခြင်း၏ ဖြစ်နိုင်ခြေ",
+          colorValue: 0xFF5FD68C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: 1/2 or 1/6?",
+      titleMy: "စီစစ်ကြမည် - 1/2 လား 1/6 လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Probability = 1/2", "Probability = 1/6"],
+        bucketsMy: ["ဖြစ်နိုင်ခြေ = 1/2", "ဖြစ်နိုင်ခြေ = 1/6"],
+        items: [
+          SortingItem(
+            id: "s1math-w34-sort-1",
+            labelEn: "Flipping a fair coin and getting Heads",
+            labelMy: "မျှတသောဒင်္ဂါးပြားလှန်ပြီး ခေါင်းရရှိခြင်း",
+            correctBucketEn: "Probability = 1/2",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/2",
+          ),
+          SortingItem(
+            id: "s1math-w34-sort-2",
+            labelEn: "Rolling a fair die and getting a 4",
+            labelMy: "မျှတသောအန်စာတုံးလှိမ့်ပြီး 4 ရရှိခြင်း",
+            correctBucketEn: "Probability = 1/6",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/6",
+          ),
+          SortingItem(
+            id: "s1math-w34-sort-3",
+            labelEn: "Flipping a fair coin and getting Tails",
+            labelMy: "မျှတသောဒင်္ဂါးပြားလှန်ပြီး အမြီးရရှိခြင်း",
+            correctBucketEn: "Probability = 1/2",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/2",
+          ),
+          SortingItem(
+            id: "s1math-w34-sort-4",
+            labelEn: "Rolling a fair die and getting a 1",
+            labelMy: "မျှတသောအန်စာတုံးလှိမ့်ပြီး 1 ရရှိခြင်း",
+            correctBucketEn: "Probability = 1/6",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/6",
+          ),
+          SortingItem(
+            id: "s1math-w34-sort-5",
+            labelEn: "Rolling a fair die and getting an odd number (1, 3 or 5)",
+            labelMy:
+                "မျှတသောအန်စာတုံးလှိမ့်ပြီး အနည်းကိန်း (1၊ 3 သို့မဟုတ် 5) ရရှိခြင်း",
+            correctBucketEn: "Probability = 1/2",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/2",
+          ),
+          SortingItem(
+            id: "s1math-w34-sort-6",
+            labelEn: "Rolling a fair die and getting a 6",
+            labelMy: "မျှတသောအန်စာတုံးလှိမ့်ပြီး 6 ရရှိခြင်း",
+            correctBucketEn: "Probability = 1/6",
+            correctBucketMy: "ဖြစ်နိုင်ခြေ = 1/6",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Dice Game",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ အန်စာတုံးဂိမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Dice Game",
+        titleMy: "စုစု၏ အန်စာတုံးဂိမ်း",
+        passageEn:
+            "Su Su and her cousins play a board game with a fair six-sided die every Saturday afternoon. Her cousin says, \"I bet I'll roll a 6!\" Remembering Week 33's language of probability, Su Su explains that rolling a 6 is neither certain nor impossible -- it is just one out of six equally likely outcomes, so P(rolling a 6) = 1/6.\n\nLater, Su Su's cousin needs to roll an even number to move her piece to the finish square. Su Su lists the even numbers on the die: 2, 4 and 6 -- three out of six faces. She writes the probability as 3/6, then remembers Week 11's fraction-simplifying skill to write it in its simplest form: 3/6 = 1/2. \"That's an even chance,\" Su Su says, \"exactly halfway on the probability scale from Week 33.\"\n\nSu Su's little brother then asks what the chance is of rolling a 7. Su Su smiles and says a normal die only has faces numbered 1 to 6, so rolling a 7 is impossible -- its probability is 0, sitting right at the very start of the scale. By combining what she learned about the language of probability with the fraction skills from earlier in the year, Su Su could work out and explain any probability her family asked about.",
+        passageMy:
+            "စုစုနှင့် သူမ၏ ဝမ်းကွဲများသည် စနေနေ့နေ့လယ်တိုင်း မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် ဘုတ်အားကစားတစ်ခုကို ကစားလေ့ရှိကြသည်။ သူမ၏ ဝမ်းကွဲက \"ငါ 6 လှိမ့်ရမယ်လို့ လောင်းကြေးထပ်မယ်\" ဟု ပြောပါသည်။ ၃၃ပတ်မြောက်၏ ဖြစ်နိုင်ခြေဝေါဟာရများကို သတိရသော စုစုက 6 လှိမ့်ရခြင်းသည် သေချာသော်လည်းကောင်း၊ မဖြစ်နိုင်သော်လည်းကောင်း မဟုတ်ဘဲ ခြောက်ခုအနက် ညီမျှစွာဖြစ်နိုင်ခြေရှိသော ရလဒ်တစ်ခုသာဖြစ်ကြောင်း၊ ထို့ကြောင့် P(6 ရရှိခြင်း) = 1/6 ဖြစ်ကြောင်း ရှင်းပြပါသည်။\n\nထို့နောက် စုစု၏ ဝမ်းကွဲသည် သူမ၏ကစားတုံးကို အဆုံးနေရာသို့ ရွှေ့ရန် စုံကိန်းတစ်ခု လှိမ့်ရရန်လိုအပ်ပါသည်။ စုစုသည် အန်စာတုံးပေါ်ရှိ စုံကိန်းများကို ဖော်ပြသည် - 2၊ 4 နှင့် 6 -- မျက်နှာစီး ခြောက်ခုအနက် သုံးခု။ သူမသည် ဖြစ်နိုင်ခြေကို 3/6 ဟုရေးချပြီး ၁၁ပတ်မြောက်၏ အပိုင်းကိန်းရိုးရှင်းအောင်ပြုလုပ်ခြင်းကျွမ်းကျင်မှုကို သတိရကာ အရိုးရှင်းဆုံးပုံစံဖြင့် ရေးပြန်သည် - 3/6 = 1/2။ \"အဲဒါက အခွင့်အလမ်းတူညီတဲ့ ဖြစ်နိုင်ခြေပဲ\" ဟု စုစုက ပြောသည်၊ \"၃၃ပတ်မြောက်ရဲ့ ဖြစ်နိုင်ခြေစကေးပေါ်မှာ အတိအကျ တစ်ဝက်ပဲ\"။\n\nထို့နောက် စုစု၏ ညီလေးက 7 လှိမ့်ရခြင်း၏ အခွင့်အလမ်းကို မေးမြန်းပါသည်။ စုစုက ပုံမှန်အန်စာတုံးတွင် 1 မှ 6 အထိသာ မျက်နှာစီးများပါဝင်သောကြောင့် 7 လှိမ့်ရခြင်းသည် မဖြစ်နိုင်ကြောင်း ပြုံးရွှင်စွာ ဖြေကြားသည် -- ၎င်း၏ဖြစ်နိုင်ခြေသည် 0 ဖြစ်ပြီး စကေး၏အစတွင်ပင် ရှိသည်။ ဖြစ်နိုင်ခြေဝေါဟာရများကို နှစ်ဦးအစောပိုင်းက အပိုင်းကိန်းကျွမ်းကျင်မှုနှင့် ပေါင်းစပ်အသုံးချခြင်းအားဖြင့် စုစုသည် သူမမိသားစုမေးသမျှ ဖြစ်နိုင်ခြေမှန်သမျှကို တွက်ချက်ရှင်းပြနိုင်ခဲ့ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What is P(rolling a 6) on a fair six-sided die, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(6 ရရှိခြင်း) မှာ အဘယ်နည်း။",
+            optionsEn: ["1/3", "1/6", "6/6", "0"],
+            optionsMy: ["1/3", "1/6", "6/6", "0"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn: "How many even numbers are there on a six-sided die?",
+            questionMy: "ခြောက်မျက်နှာအန်စာတုံးတွင် စုံကိန်းမည်မျှ ရှိသနည်း။",
+            optionsEn: ["2", "4", "3", "6"],
+            optionsMy: ["2", "4", "3", "6"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the simplified probability of rolling an even number, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ စုံကိန်းရရှိခြင်း၏ ရိုးရှင်းအောင်ပြုလုပ်ထားသောဖြစ်နိုင်ခြေမှာ အဘယ်နည်း။",
+            optionsEn: ["2/6", "1/6", "2/3", "1/2"],
+            optionsMy: ["2/6", "1/6", "2/3", "1/2"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why is rolling a 7 impossible on a normal six-sided die, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ ပုံမှန်ခြောက်မျက်နှာအန်စာတုံးဖြင့် 7 လှိမ့်ရခြင်းသည် အဘယ်ကြောင့် မဖြစ်နိုင်သနည်း။",
+            optionsEn: [
+              "Because 7 is an even number",
+              "Because a die only has faces numbered 1 to 6",
+              "Because the die is not fair",
+              "Because 7 is too large to write",
+            ],
+            optionsMy: [
+              "7 သည် စုံကိန်းဖြစ်သောကြောင့်",
+              "အန်စာတုံးတွင် 1 မှ 6 အထိသာ မျက်နှာစီးပါဝင်သောကြောင့်",
+              "အန်စာတုံးက မျှတမှုမရှိသောကြောင့်",
+              "7 ကို ရေးရန် ကြီးလွန်းသောကြောင့်",
+            ],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Where does an impossible event sit on the probability scale, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ ဖြစ်နိုင်ခြေစကေးပေါ်တွင် မဖြစ်နိုင်သောအဖြစ်အပျက်သည် မည်သည့်နေရာတွင်ရှိသနည်း။",
+            optionsEn: [
+              "At 1",
+              "At 0.5",
+              "At 0",
+              "It cannot be placed on the scale",
+            ],
+            optionsMy: [
+              "1 တွင်",
+              "0.5 တွင်",
+              "0 တွင်",
+              "စကေးပေါ်တွင် မထားနိုင်ပါ",
+            ],
+            correctIndex: 2,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Calculating Probability",
+      titleMy: "အပတ်စဉ် ၃၄ ပြန်လည်သုံးသပ်ခြင်း - ဖြစ်နိုင်ခြေ တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is P(Tails) when flipping a fair coin?",
+          questionMy: "မျှတသောဒင်္ဂါးပြားလှန်ပါက P(အမြီး) မှာ အဘယ်နည်း။",
+          optionsEn: ["1", "0", "1/4", "1/2"],
+          optionsMy: ["1", "0", "1/4", "1/2"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "A fair die is rolled. What is P(rolling a 2)?",
+          questionMy:
+              "မျှတသောအန်စာတုံးကို လှိမ့်ပါက P(2 ရရှိခြင်း) မှာ အဘယ်နည်း။",
+          optionsEn: ["1/2", "1/3", "1/6", "1/4"],
+          optionsMy: ["1/2", "1/3", "1/6", "1/4"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bag has 4 green and 6 yellow balls (10 total). What is P(picking a yellow ball), in simplest form?",
+          questionMy:
+              "အိတ်တစ်လုံးတွင် အစိမ်းရောင် 4လုံးနှင့် အဝါရောင် 6လုံး (စုစုပေါင်း 10လုံး) ရှိပါသည်။ P(အဝါရောင်ဘောလုံးထုတ်ယူရခြင်း) ကို အရိုးရှင်းဆုံးပုံစံဖြင့် ရှာပါ။",
+          optionsEn: ["2/5", "1/2", "3/5", "3/10"],
+          optionsMy: ["2/5", "1/2", "3/5", "3/10"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is P(rolling a number greater than 4) on a fair six-sided die, in simplest form?",
+          questionMy:
+              "မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(4 ထက်ကြီးသောနံပါတ်ရရှိခြင်း) ကို အရိုးရှင်းဆုံးပုံစံဖြင့် ရှာပါ။",
+          optionsEn: ["1/2", "1/3", "2/3", "1/6"],
+          optionsMy: ["1/2", "1/3", "2/3", "1/6"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Week 33's language of probability, what do we call an event with probability exactly 0.5?",
+          questionMy:
+              "၃၃ပတ်မြောက်၏ ဖြစ်နိုင်ခြေဝေါဟာရများအရ အတိအကျ 0.5 ဖြစ်နိုင်ခြေရှိသောအဖြစ်အပျက်ကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["Certain", "Impossible", "Unlikely", "Even chance"],
+          optionsMy: [
+            "သေချာသည် (Certain)",
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "မဖြစ်တန်ပါ (Unlikely)",
+            "အခွင့်အလမ်းတူညီသည် (Even chance)",
+          ],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 9, Week 35: "Year 7 Maths Review"
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek35 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w35",
+  weekNumber: 35,
+  titleEn: "Year 7 Maths Review",
+  titleMy: "Year 7 သင်္ချာ ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w35-d1",
+      dayNumber: 1,
+      titleEn: "Algebra and Number Review",
+      titleMy: "အက္ခရာသင်္ချာနှင့် ဂဏန်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve for x: x + 9 = 15",
+          questionMy: "x ကိုရှာပါ - x + 9 = 15",
+          optionsEn: ["24", "6", "-6", "5"],
+          optionsMy: ["24", "6", "-6", "5"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate: -8 + 3 x 2",
+          questionMy: "တွက်ချက်ပါ - -8 + 3 x 2",
+          optionsEn: ["-2", "-10", "22", "-22"],
+          optionsMy: ["-2", "-10", "22", "-22"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has angles 65 degrees and 70 degrees. What is the third angle?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် ထောင့် 65 ဒီဂရီနှင့် 70 ဒီဂရီ ရှိပါသည်။ တတိယထောင့်မှာ အဘယ်နည်း။",
+          optionsEn: ["55 degrees", "35 degrees", "45 degrees", "135 degrees"],
+          optionsMy: ["55 ဒီဂရီ", "35 ဒီဂရီ", "45 ဒီဂရီ", "135 ဒီဂရီ"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is the LCM of 4 and 6?",
+          questionMy: "4 နှင့် 6 ၏ LCM မှာ အဘယ်နည်း။",
+          optionsEn: ["24", "12", "10", "2"],
+          optionsMy: ["24", "12", "10", "2"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 3x + 5x - 2x",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ - 3x + 5x - 2x",
+          optionsEn: ["10x", "8x", "6", "6x"],
+          optionsMy: ["10x", "8x", "6", "6x"],
+          correctIndex: 3,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match the Year 7 Maths Terms",
+      titleMy: "Year 7 သင်္ချာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w35-dm-1",
+          termEn: "Variable (Week 5)",
+          termMy: "ကိန်းရှင် (၅ပတ်မြောက်)",
+          matchEn:
+              "A letter that represents an unknown or changing number, e.g. x",
+          matchMy:
+              "မသိသော သို့မဟုတ် ပြောင်းလဲနေသောကိန်းကို ကိုယ်စားပြုသောအက္ခရာ၊ ဥပမာ - x",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w35-dm-2",
+          termEn: "Coefficient (Week 5)",
+          termMy: "ကိန်းဂဏန်းကိန်းရှင် (၅ပတ်မြောက်)",
+          matchEn: "The number multiplied by a variable, e.g. the 3 in 3x",
+          matchMy: "ကိန်းရှင်ကို မြှောက်ထားသောနံပါတ်၊ ဥပမာ - 3x ရှိ 3",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w35-dm-3",
+          termEn: "HCF of 12 and 18 (Week 2)",
+          termMy: "12 နှင့် 18 ၏ HCF (၂ပတ်မြောက်)",
+          matchEn: "6",
+          matchMy: "6",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w35-dm-4",
+          termEn: "Order of Operations (Week 3)",
+          termMy: "တွက်ချက်မှုအစီအစဉ် (၃ပတ်မြောက်)",
+          matchEn:
+              "Brackets first, then multiplication/division, then addition/subtraction",
+          matchMy:
+              "ကွင်းစကွက်ကို အရင်ဖြေ၊ ပြီးရင် မြှောက်/စား၊ နောက်ဆုံးမှ ပေါင်း/နုတ်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w35-dm-5",
+          termEn: "Angle Sum of a Triangle (Week 14)",
+          termMy: "တြိဂံ၏ ထောင့်ပေါင်း (၁၄ပတ်မြောက်)",
+          matchEn: "180 degrees",
+          matchMy: "180 ဒီဂရီ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w35-dm-6",
+          termEn: "Equilateral Triangle (Week 14)",
+          termMy: "ညီမျှဘက်တြိဂံ (၁၄ပတ်မြောက်)",
+          matchEn: "A triangle with all three sides and all three angles equal",
+          matchMy: "ဘက်သုံးဘက်နှင့် ထောင့်သုံးထောင့် အားလုံးညီမျှသောတြိဂံ",
+          colorValue: 0xFF5FD68C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Algebra & Number or Geometry?",
+      titleMy: "စီစစ်ကြမည် - အက္ခရာနှင့်ဂဏန်းလား ဂျီသြမေတြီလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Algebra & Number Skills", "Geometry Skills"],
+        bucketsMy: [
+          "အက္ခရာနှင့် ဂဏန်းကျွမ်းကျင်မှုများ",
+          "ဂျီသြမေတြီ ကျွမ်းကျင်မှုများ",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w35-sort-1",
+            labelEn: "Solving 3x + 5 = 20 to find x (Week 17)",
+            labelMy: "x ရှာရန် 3x + 5 = 20 ကို ဖြေရှင်းခြင်း (၁၇ပတ်မြောက်)",
+            correctBucketEn: "Algebra & Number Skills",
+            correctBucketMy: "အက္ခရာနှင့် ဂဏန်းကျွမ်းကျင်မှုများ",
+          ),
+          SortingItem(
+            id: "s1math-w35-sort-2",
+            labelEn:
+                "Finding the HCF of 18 and 24 using prime factors (Week 2)",
+            labelMy:
+                "ပင်ရင်းကိန်းချေများသုံး၍ 18 နှင့် 24 ၏ HCF ကိုရှာခြင်း (၂ပတ်မြောက်)",
+            correctBucketEn: "Algebra & Number Skills",
+            correctBucketMy: "အက္ခရာနှင့် ဂဏန်းကျွမ်းကျင်မှုများ",
+          ),
+          SortingItem(
+            id: "s1math-w35-sort-3",
+            labelEn:
+                "Evaluating -6 + 4 x (-2) using order of operations (Weeks 1 and 3)",
+            labelMy:
+                "တွက်ချက်မှုအစီအစဉ်သုံး၍ -6 + 4 x (-2) ကို ဖြေရှင်းခြင်း (၁ပတ်မြောက်နှင့် ၃ပတ်မြောက်)",
+            correctBucketEn: "Algebra & Number Skills",
+            correctBucketMy: "အက္ခရာနှင့် ဂဏန်းကျွမ်းကျင်မှုများ",
+          ),
+          SortingItem(
+            id: "s1math-w35-sort-4",
+            labelEn:
+                "Finding the missing angle in a triangle with angles 50 degrees and 70 degrees (Week 14)",
+            labelMy:
+                "ထောင့် 50 ဒီဂရီနှင့် 70 ဒီဂရီရှိသောတြိဂံ၏ ပျောက်ဆုံးထောင့်ကိုရှာခြင်း (၁၄ပတ်မြောက်)",
+            correctBucketEn: "Geometry Skills",
+            correctBucketMy: "ဂျီသြမေတြီ ကျွမ်းကျင်မှုများ",
+          ),
+          SortingItem(
+            id: "s1math-w35-sort-5",
+            labelEn:
+                "Identifying a shape with 4 equal sides and 4 right angles (Week 14)",
+            labelMy:
+                "ညီမျှသောဘက် 4ဘက်နှင့် ဖြောင့်ထောင့် 4ထောင့်ရှိသောပုံသဏ္ဍာန်ကို ခွဲခြားသိမြင်ခြင်း (၁၄ပတ်မြောက်)",
+            correctBucketEn: "Geometry Skills",
+            correctBucketMy: "ဂျီသြမေတြီ ကျွမ်းကျင်မှုများ",
+          ),
+          SortingItem(
+            id: "s1math-w35-sort-6",
+            labelEn:
+                "Constructing an equilateral triangle with a ruler and compass (Week 15)",
+            labelMy:
+                "ပေတံနှင့် ကွန်ပတ်သုံး၍ ညီမျှဘက်တြိဂံတစ်ခုကို တည်ဆောက်ခြင်း (၁၅ပတ်မြောက်)",
+            correctBucketEn: "Geometry Skills",
+            correctBucketMy: "ဂျီသြမေတြီ ကျွမ်းကျင်မှုများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su Gets Ready for the School Fair",
+      titleMy: "စာဖတ်ခြင်း - စုစု ကျောင်းပွဲအတွက် အသင့်ပြင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su Gets Ready for the School Fair",
+        titleMy: "စုစု ကျောင်းပွဲအတွက် အသင့်ပြင်ခြင်း",
+        passageEn:
+            "With exams finishing, Su Su's class is preparing stalls for the school's end-of-year fair. Su Su's group has 15,000 kyats to spend and wants to know how many balloons, costing 500 kyats each (x of them), they can buy if they also need to set aside 5,000 kyats for a banner. She writes an equation, just like the ones from Week 17: 500x + 5000 = 15000. Subtracting 5000 from both sides gives 500x = 10000, then dividing both sides by 500 gives x = 20 balloons.\n\nNext, Su Su's group needs to cut two ribbons -- one 18 metres long and one 24 metres long -- into equal pieces as long as possible, with none left over, to decorate the stall poles. Remembering Week 2's HCF method, Su Su breaks both numbers into prime factors: 18 = 2 x 3 squared and 24 = 2 cubed x 3, so HCF = 2 x 3 = 6. Each ribbon piece will be 6 metres long.\n\nFinally, the stall's sign needs a triangular support frame. Su Su measures two of the angles as 55 degrees and 65 degrees, and remembers Week 14's rule that the angles in a triangle always add up to 180 degrees. So the third angle must be 180 minus 55 minus 65, which is 60 degrees. By combining algebra, number skills, and geometry from across the whole year, Su Su and her group finished their stall in plenty of time for the fair.",
+        passageMy:
+            "စာမေးပွဲများ ပြီးဆုံးလာသောကြောင့် စုစု၏အတန်းသည် ကျောင်း၏ နှစ်ကုန်ပွဲအတွက် ဆိုင်ခန်းများကို ပြင်ဆင်နေကြပါသည်။ စုစု၏အုပ်စုတွင် သုံးစွဲရန် ငွေ 15,000ကျပ် ရှိပြီး၊ ဆိုင်းဘုတ်အတွက် 5,000ကျပ် သီးသန့်ချန်ထားရန်လိုပါသည်။ တစ်လုံးလျှင် 500ကျပ်ကျသော လေပူဖောင်း x လုံး ဝယ်ယူနိုင်ရန် ၁၇ပတ်မြောက်ကလိုပင် ညီမျှခြင်းတစ်ခုကို ရေးချသည် - 500x + 5000 = 15000။ ဘက်နှစ်ဖက်စလုံးမှ 5000 ကိုနုတ်လျှင် 500x = 10000 ရရှိပြီး၊ ဘက်နှစ်ဖက်စလုံးကို 500ဖြင့်စားလျှင် x = 20 လေပူဖောင်း ရရှိသည်။\n\nထို့နောက် စုစု၏အုပ်စုသည် ဆိုင်ခန်းတိုင်များကို အလှဆင်ရန် ကြိုးနှစ်ချောင်း -- 18မီတာနှင့် 24မီတာ -- ကို အကြွင်းအကျန်မရှိအောင် အရှည်ဆုံးအညီအမျှ ဖြတ်ရန်လိုအပ်ပါသည်။ ၂ပတ်မြောက်၏ HCF နည်းလမ်းကို သတိရသော စုစုသည် ကိန်းနှစ်လုံးလုံးကို ပင်ရင်းကိန်းချေများအဖြစ် ဖြန့်ခွဲသည် - 18 = 2 x 3², 24 = 2³ x 3၊ ထို့ကြောင့် HCF = 2 x 3 = 6။ ကြိုးအပိုင်းတစ်ခုစီသည် 6မီတာ ရှိမည်ဖြစ်သည်။\n\nနောက်ဆုံးတွင် ဆိုင်ခန်း၏ ဆိုင်းဘုတ်အတွက် တြိဂံပုံ ထောက်ကန့်ဘောင်တစ်ခု လိုအပ်ပါသည်။ စုစုသည် ထောင့်နှစ်ခုကို 55ဒီဂရီနှင့် 65ဒီဂရီ တိုင်းတာပြီး ၁၄ပတ်မြောက်၏ တြိဂံထောင့်ပေါင်းသည် အမြဲ 180ဒီဂရီ ရှိသည့်စည်းမျဉ်းကို သတိရသည်။ ထို့ကြောင့် တတိယထောင့်သည် 180 - 55 - 65 ဖြစ်ပြီး 60ဒီဂရီ ဖြစ်ရမည်ဖြစ်သည်။ တစ်နှစ်တာလုံးမှ အက္ခရာသင်္ချာ၊ ဂဏန်းကျွမ်းကျင်မှုနှင့် ဂျီသြမေတြီတို့ကို ပေါင်းစပ်အသုံးချခြင်းအားဖြင့် စုစုနှင့်သူမ၏အုပ်စုသည် ပွဲအချိန်မတိုင်မီ ဆိုင်ခန်းကို အချိန်မီပြီးစီးအောင် လုပ်ဆောင်နိုင်ခဲ့ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many balloons could Su Su's group buy, according to the equation 500x + 5000 = 15000?",
+            questionMy:
+                "500x + 5000 = 15000 ညီမျှခြင်းအရ စုစု၏အုပ်စု လေပူဖောင်း မည်မျှလုံး ဝယ်ယူနိုင်သနည်း။",
+            optionsEn: ["15", "30", "20", "10"],
+            optionsMy: ["15", "30", "20", "10"],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn: "What is the HCF of 18 and 24, as found by Su Su?",
+            questionMy: "စုစုရှာတွေ့တဲ့ 18 နှင့် 24 ၏ HCF က ဘယ်လောက်လဲ။",
+            optionsEn: ["6", "12", "3", "9"],
+            optionsMy: ["6", "12", "3", "9"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How long was each ribbon piece after cutting?",
+            questionMy:
+                "ဖြတ်ပြီးနောက် ကြိုးအပိုင်းတစ်ခုစီသည် မည်မျှအရှည်ရှိသနည်း။",
+            optionsEn: ["18 metres", "6 metres", "24 metres", "3 metres"],
+            optionsMy: ["18 မီတာ", "6 မီတာ", "24 မီတာ", "3 မီတာ"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "The triangular frame had angles of 55 degrees and 65 degrees. What was the third angle?",
+            questionMy:
+                "တြိဂံဘောင်တွင် ထောင့် 55ဒီဂရီနှင့် 65ဒီဂရီ ရှိပါသည်။ တတိယထောင့်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "70 degrees",
+              "50 degrees",
+              "120 degrees",
+              "60 degrees",
+            ],
+            optionsMy: ["70 ဒီဂရီ", "50 ဒီဂရီ", "120 ဒီဂရီ", "60 ဒီဂရီ"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three areas of maths did Su Su's group combine to finish their stall?",
+            questionMy:
+                "ဆိုင်ခန်းပြီးစီးရန် စုစု၏အုပ်စုသည် သင်္ချာနယ်ပယ်သုံးခုကို ပေါင်းစပ်အသုံးချခဲ့ကြသနည်း။",
+            optionsEn: [
+              "Algebra, number skills, and geometry",
+              "Fractions, decimals, and percentages",
+              "Statistics, ratio, and 3D shapes",
+              "Only geometry",
+            ],
+            optionsMy: [
+              "အက္ခရာသင်္ချာ၊ ဂဏန်းကျွမ်းကျင်မှုနှင့် ဂျီသြမေတြီ",
+              "အပိုင်းကိန်း၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်း",
+              "စာရင်းအင်း၊ အချိုးနှင့် 3D ပုံသဏ္ဍာန်",
+              "ဂျီသြမေတြီတစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Year 7 Maths Review",
+      titleMy:
+          "အပတ်စဉ် ၃၅ ပြန်လည်သုံးသပ်ခြင်း - Year 7 သင်္ချာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve for x: 2x - 4 = 10",
+          questionMy: "x ကိုရှာပါ - 2x - 4 = 10",
+          optionsEn: ["3", "14", "7", "-7"],
+          optionsMy: ["3", "14", "7", "-7"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn: "What is -9 - (-4)?",
+          questionMy: "-9 - (-4) မှာ အဘယ်နည်း။",
+          optionsEn: ["-13", "-5", "5", "13"],
+          optionsMy: ["-13", "-5", "5", "13"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has angles 90 degrees and 40 degrees. What is the third angle?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် ထောင့် 90 ဒီဂရီနှင့် 40 ဒီဂရီ ရှိပါသည်။ တတိယထောင့်မှာ အဘယ်နည်း။",
+          optionsEn: ["50 degrees", "130 degrees", "40 degrees", "60 degrees"],
+          optionsMy: ["50 ဒီဂရီ", "130 ဒီဂရီ", "40 ဒီဂရီ", "60 ဒီဂရီ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the LCM of 5 and 8?",
+          questionMy: "5 နှင့် 8 ၏ LCM မှာ အဘယ်နည်း။",
+          optionsEn: ["13", "5", "8", "40"],
+          optionsMy: ["13", "5", "8", "40"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn: "Simplify: 7y - 2y + y",
+          questionMy: "ရိုးရှင်းအောင်ပြုလုပ်ပါ - 7y - 2y + y",
+          optionsEn: ["10y", "6y", "4y", "6"],
+          optionsMy: ["10y", "6y", "4y", "6"],
+          correctIndex: 1,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Mathematics -- Term 9, Week 36: "The Ultimate Maths
+// Challenge" (Term 9 capstone)
+// =====================================================================
+
+const CourseWeekDef _secondary1MathematicsWeek36 = CourseWeekDef(
+  id: "course-secondary1-mathematics-w36",
+  weekNumber: 36,
+  titleEn: "The Ultimate Maths Challenge",
+  titleMy: "အမြင့်ဆုံး သင်္ချာစိန်ခေါ်မှု",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-s1-mathematics-w36-d1",
+      dayNumber: 1,
+      titleEn: "The Ultimate Multi-Topic Quiz",
+      titleMy: "ဘာသာရပ်ပေါင်းစုံ အမြင့်ဆုံးပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Remembering Week 33's language of probability, what do we call an event that can never happen, such as rolling a 9 on a normal six-sided die (Week 34)?",
+          questionMy:
+              "၃၃ပတ်မြောက်၏ ဖြစ်နိုင်ခြေဝေါဟာရများကို သတိရပြီး ပုံမှန်ခြောက်မျက်နှာအန်စာတုံးဖြင့် 9 လှိမ့်ရခြင်း (၃၄ပတ်မြောက်) ကဲ့သို့ ဘယ်တော့မှမဖြစ်နိုင်သောအဖြစ်အပျက်ကို အဘယ်ဟုခေါ်သနည်း။",
+          optionsEn: ["Certain", "Even chance", "Impossible", "Likely"],
+          optionsMy: [
+            "သေချာသည် (Certain)",
+            "အခွင့်အလမ်းတူညီသည် (Even chance)",
+            "မဖြစ်နိုင်ပါ (Impossible)",
+            "ဖြစ်တန်သည် (Likely)",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 34's method, what is P(rolling an even number) on a fair six-sided die, in simplest form?",
+          questionMy:
+              "၃၄ပတ်မြောက်၏ နည်းလမ်းသုံး၍ မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(စုံကိန်းရရှိခြင်း) ကို အရိုးရှင်းဆုံးပုံစံဖြင့် ရှာပါ။",
+          optionsEn: ["1/6", "1/2", "1/3", "2/3"],
+          optionsMy: ["1/6", "1/2", "1/3", "2/3"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 35's equation-solving skill, solve for x: 4x + 6 = 26",
+          questionMy:
+              "၃၅ပတ်မြောက်၏ ညီမျှခြင်းဖြေရှင်းနည်းသုံး၍ x ကိုရှာပါ - 4x + 6 = 26",
+          optionsEn: ["5", "8", "20", "4"],
+          optionsMy: ["5", "8", "20", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Week 35's geometry review, a triangle has angles 48 degrees and 82 degrees. What is the third angle?",
+          questionMy:
+              "၃၅ပတ်မြောက်၏ ဂျီသြမေတြီပြန်လည်သုံးသပ်ခြင်းသုံး၍ တြိဂံတစ်ခုတွင် ထောင့် 48 ဒီဂရီနှင့် 82 ဒီဂရီ ရှိပါသည်။ တတိယထောင့်မှာ အဘယ်နည်း။",
+          optionsEn: ["130 degrees", "48 degrees", "82 degrees", "50 degrees"],
+          optionsMy: ["130 ဒီဂရီ", "48 ဒီဂရီ", "82 ဒီဂရီ", "50 ဒီဂရီ"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spinner has 4 equal sections numbered 1 to 4. Combining Week 33's language and Week 34's calculation skill, what is P(spinning a number greater than 2)?",
+          questionMy:
+              "လှည့်ဘီးတစ်ခုတွင် 1 မှ 4 အထိ ညီမျှသော အပိုင်း 4ပိုင်း ရှိပါသည်။ ၃၃ပတ်မြောက်၏ ဝေါဟာရနှင့် ၃၄ပတ်မြောက်၏ တွက်ချက်မှုကျွမ်းကျင်မှုကို ပေါင်းစပ်၍ P(2 ထက်ကြီးသောနံပါတ် လှည့်ရခြင်း) ကို ရှာပါ။",
+          optionsEn: ["1/4", "3/4", "1/2", "1"],
+          optionsMy: ["1/4", "3/4", "1/2", "1"],
+          correctIndex: 2,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 9 Skills",
+      titleMy: "Term 9 ကျွမ်းကျင်မှုများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "s1math-w36-dm-1",
+          termEn:
+              "Week 33 skill: Name for an event with probability exactly 0.5",
+          termMy:
+              "၃၃ပတ်မြောက် ကျွမ်းကျင်မှု - အတိအကျ 0.5 ဖြစ်နိုင်ခြေရှိသောအဖြစ်အပျက်၏ အမည်",
+          matchEn: "Even chance",
+          matchMy: "အခွင့်အလမ်းတူညီသည် (Even chance)",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "s1math-w36-dm-2",
+          termEn: "Week 34 skill: P(Heads) when flipping a fair coin",
+          termMy:
+              "၃၄ပတ်မြောက် ကျွမ်းကျင်မှု - မျှတသောဒင်္ဂါးပြားလှန်ပါက P(ခေါင်း)",
+          matchEn: "1/2",
+          matchMy: "1/2",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "s1math-w36-dm-3",
+          termEn: "Week 34 skill: P(rolling a 6) on a fair six-sided die",
+          termMy:
+              "၃၄ပတ်မြောက် ကျွမ်းကျင်မှု - မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(6 ရရှိခြင်း)",
+          matchEn: "1/6",
+          matchMy: "1/6",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "s1math-w36-dm-4",
+          termEn: "Week 35 skill: Solve for x in 3x + 2 = 14",
+          termMy: "၃၅ပတ်မြောက် ကျွမ်းကျင်မှု - 3x + 2 = 14 တွင် x ကိုရှာပါ",
+          matchEn: "x = 4",
+          matchMy: "x = 4",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "s1math-w36-dm-5",
+          termEn: "Week 35 skill: Angle sum of a triangle",
+          termMy: "၃၅ပတ်မြောက် ကျွမ်းကျင်မှု - တြိဂံ၏ ထောင့်ပေါင်း",
+          matchEn: "180 degrees",
+          matchMy: "180 ဒီဂရီ",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "s1math-w36-dm-6",
+          termEn: "Week 35 skill: HCF of 16 and 24",
+          termMy: "၃၅ပတ်မြောက် ကျွမ်းကျင်မှု - 16 နှင့် 24 ၏ HCF",
+          matchEn: "8",
+          matchMy: "8",
+          colorValue: 0xFF5FD68C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Probability or Review Skill?",
+      titleMy: "စီစစ်ကြမည် - ဖြစ်နိုင်ခြေလား ပြန်လည်သုံးသပ်မှုကျွမ်းကျင်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Probability Skills (Weeks 33-34)",
+          "Number, Algebra and Geometry Skills (Week 35)",
+        ],
+        bucketsMy: [
+          "ဖြစ်နိုင်ခြေကျွမ်းကျင်မှုများ (၃၃-၃၄ပတ်မြောက်)",
+          "ဂဏန်း၊ အက္ခရာနှင့် ဂျီသြမေတြီကျွမ်းကျင်မှုများ (၃၅ပတ်မြောက်)",
+        ],
+        items: [
+          SortingItem(
+            id: "s1math-w36-sort-1",
+            labelEn: "Finding P(rolling an odd number) on a fair die",
+            labelMy: "မျှတသောအန်စာတုံးဖြင့် P(အနည်းကိန်းရရှိခြင်း) ကိုရှာခြင်း",
+            correctBucketEn: "Probability Skills (Weeks 33-34)",
+            correctBucketMy: "ဖြစ်နိုင်ခြေကျွမ်းကျင်မှုများ (၃၃-၃၄ပတ်မြောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w36-sort-2",
+            labelEn: "Naming an event as 'likely' or 'unlikely'",
+            labelMy:
+                "အဖြစ်အပျက်တစ်ခုကို 'ဖြစ်တန်သည်' သို့မဟုတ် 'မဖြစ်တန်ပါ' ဟု အမည်ပေးခြင်း",
+            correctBucketEn: "Probability Skills (Weeks 33-34)",
+            correctBucketMy: "ဖြစ်နိုင်ခြေကျွမ်းကျင်မှုများ (၃၃-၃၄ပတ်မြောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w36-sort-3",
+            labelEn: "Solving 5x - 3 = 17 for x",
+            labelMy: "x ရှာရန် 5x - 3 = 17 ကို ဖြေရှင်းခြင်း",
+            correctBucketEn: "Number, Algebra and Geometry Skills (Week 35)",
+            correctBucketMy:
+                "ဂဏန်း၊ အက္ခရာနှင့် ဂျီသြမေတြီကျွမ်းကျင်မှုများ (၃၅ပတ်မြောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w36-sort-4",
+            labelEn: "Finding the LCM of 6 and 10",
+            labelMy: "6 နှင့် 10 ၏ LCM ကိုရှာခြင်း",
+            correctBucketEn: "Number, Algebra and Geometry Skills (Week 35)",
+            correctBucketMy:
+                "ဂဏန်း၊ အက္ခရာနှင့် ဂျီသြမေတြီကျွမ်းကျင်မှုများ (၃၅ပတ်မြောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w36-sort-5",
+            labelEn: "Finding a missing angle in a triangle",
+            labelMy: "တြိဂံတစ်ခု၏ ပျောက်ဆုံးထောင့်ကိုရှာခြင်း",
+            correctBucketEn: "Number, Algebra and Geometry Skills (Week 35)",
+            correctBucketMy:
+                "ဂဏန်း၊ အက္ခရာနှင့် ဂျီသြမေတြီကျွမ်းကျင်မှုများ (၃၅ပတ်မြောက်)",
+          ),
+          SortingItem(
+            id: "s1math-w36-sort-6",
+            labelEn: "Calculating P(Tails) when flipping a coin",
+            labelMy: "ဒင်္ဂါးပြားလှန်ပါက P(အမြီး) ကိုတွက်ချက်ခြင်း",
+            correctBucketEn: "Probability Skills (Weeks 33-34)",
+            correctBucketMy: "ဖြစ်နိုင်ခြေကျွမ်းကျင်မှုများ (၃၃-၃၄ပတ်မြောက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Lucky Dip Game Booth",
+      titleMy: "စာဖတ်ခြင်း - စုစု၏ ကံစမ်းဂိမ်းစားပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Lucky Dip Game Booth",
+        titleMy: "စုစု၏ ကံစမ်းဂိမ်းစားပွဲ",
+        passageEn:
+            "At the school fair, Su Su's group runs a \"Lucky Dip\" game booth using a spinner they built. The spinner has 5 equal sections, numbered 1 to 5, and players win a prize if they land on a number greater than 3. Remembering Week 33's language of probability and Week 34's calculation method, Su Su works out that numbers greater than 3 are 4 and 5 -- two out of five sections -- so P(winning) = 2/5.\n\nTo set the entry fee, Su Su's group uses Week 35's algebra review. Their total costs for prizes were 20,000 kyats, and they want to charge a fee, f, so that 50 players paying f kyats each covers the costs with 5,000 kyats left over for the class fund: 50f = 20000 + 5000. Solving: 50f = 25000, so f = 500 kyats per play.\n\nBy the end of the fair, exactly 50 children had played the Lucky Dip. Su Su also used Week 35's geometry skills to help build the booth's triangular sign, checking that its angles of 40 degrees, 60 degrees, and 80 degrees added up to 180 degrees exactly. Combining probability, algebra, and geometry from every week of Term 9, Su Su's booth was the most popular game at the fair -- and it stayed perfectly balanced on its budget too.",
+        passageMy:
+            "ကျောင်းပွဲတွင် စုစု၏အုပ်စုသည် ၎င်းတို့ တည်ဆောက်ထားသော လှည့်ဘီးဖြင့် \"ကံစမ်းဂိမ်း\" စားပွဲတစ်ခုကို လုပ်ဆောင်ကြသည်။ လှည့်ဘီးတွင် 1 မှ 5 အထိ ညီမျှသော အပိုင်း 5ပိုင်း ရှိပြီး၊ ကစားသူတစ်ဦးသည် 3 ထက်ကြီးသောနံပါတ်တွင် ရပ်တန့်ပါက ဆုရရှိမည်ဖြစ်သည်။ ၃၃ပတ်မြောက်၏ ဖြစ်နိုင်ခြေဝေါဟာရများနှင့် ၃၄ပတ်မြောက်၏ တွက်ချက်မှုနည်းလမ်းကို သတိရသော စုစုသည် 3ထက်ကြီးသောနံပါတ်များမှာ 4နှင့် 5 ဖြစ်ကြောင်း -- အပိုင်း 5ပိုင်းအနက် နှစ်ပိုင်း -- ရှာတွေ့ကာ P(အနိုင်ရရှိခြင်း) = 2/5 ဟု တွက်ချက်ခဲ့သည်။\n\nဝင်ကြေးသတ်မှတ်ရန် စုစု၏အုပ်စုသည် ၃၅ပတ်မြောက်၏ အက္ခရာသင်္ချာပြန်လည်သုံးသပ်ခြင်းကို အသုံးပြုသည်။ ဆုများအတွက် စုစုပေါင်း ကုန်ကျစရိတ် 20,000ကျပ် ရှိပြီး၊ ကလေး 50ဦးက f ကျပ်စီပေးဆောင်ကစားပါက ကုန်ကျစရိတ်ကို ကျော်လွန်ပြီး အတန်းရန်ပုံငွေအတွက် 5,000ကျပ် ကျန်ရှိစေရန် ဝင်ကြေး f ကို သတ်မှတ်လိုသည် - 50f = 20000 + 5000။ ဖြေရှင်းရာ - 50f = 25000၊ ထို့ကြောင့် f = 500ကျပ် (တစ်ကြိမ်လျှင်) ဖြစ်သည်။\n\nပွဲပြီးဆုံးချိန်တွင် ကလေး 50ဦးတိတိ ကံစမ်းဂိမ်းကို ကစားခဲ့ကြသည်။ စုစုသည် ၃၅ပတ်မြောက်၏ ဂျီသြမေတြီကျွမ်းကျင်မှုကို စားပွဲ၏ တြိဂံပုံဆိုင်းဘုတ် တည်ဆောက်ရာတွင်လည်း သုံးခဲ့ပြီး ၎င်း၏ထောင့် 40ဒီဂရီ၊ 60ဒီဂရီနှင့် 80ဒီဂရီတို့သည် 180ဒီဂရီ အတိအကျ ပေါင်းမိကြောင်း စစ်ဆေးခဲ့သည်။ Term 9 ၏ ပတ်တိုင်းမှ ဖြစ်နိုင်ခြေ၊ အက္ခရာသင်္ချာနှင့် ဂျီသြမေတြီကို ပေါင်းစပ်အသုံးချခြင်းဖြင့် စုစု၏စားပွဲသည် ပွဲတွင် အကျော်ကြားဆုံးဂိမ်းဖြစ်လာခဲ့ပြီး ၎င်း၏ဘတ်ဂျက်ကိုလည်း စနစ်တကျ ထိန်းသိမ်းနိုင်ခဲ့ပါသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "On Su Su's 5-section spinner, what is P(landing on a number greater than 3)?",
+            questionMy:
+                "စုစု၏ အပိုင်း 5ပိုင်းရှိလှည့်ဘီးတွင် P(3 ထက်ကြီးသောနံပါတ်ပေါ် ရပ်တန့်ခြင်း) မှာ အဘယ်နည်း။",
+            optionsEn: ["1/5", "2/5", "3/5", "4/5"],
+            optionsMy: ["1/5", "2/5", "3/5", "4/5"],
+            correctIndex: 1,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the entry fee, f, that Su Su's group charged per play?",
+            questionMy:
+                "စုစု၏အုပ်စု တစ်ကြိမ်လျှင် ကောက်ခံသော ဝင်ကြေး f မှာ မည်မျှနည်း။",
+            optionsEn: ["500 kyats", "250 kyats", "1000 kyats", "5000 kyats"],
+            optionsMy: ["500 ကျပ်", "250 ကျပ်", "1000 ကျပ်", "5000 ကျပ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many children played the Lucky Dip by the end of the fair?",
+            questionMy:
+                "ပွဲပြီးဆုံးချိန်တွင် ကလေးမည်မျှဦး ကံစမ်းဂိမ်းကို ကစားခဲ့ကြသနည်း။",
+            optionsEn: ["20", "500", "5", "50"],
+            optionsMy: ["20", "500", "5", "50"],
+            correctIndex: 3,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What were the three angles of the booth's triangular sign?",
+            questionMy:
+                "စားပွဲ၏ တြိဂံပုံဆိုင်းဘုတ်တွင် ထောင့်သုံးခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "30 degrees, 60 degrees, and 90 degrees",
+              "45 degrees, 45 degrees, and 90 degrees",
+              "40 degrees, 60 degrees, and 80 degrees",
+              "50 degrees, 60 degrees, and 70 degrees",
+            ],
+            optionsMy: [
+              "30 ဒီဂရီ၊ 60 ဒီဂရီနှင့် 90 ဒီဂရီ",
+              "45 ဒီဂရီ၊ 45 ဒီဂရီနှင့် 90 ဒီဂရီ",
+              "40 ဒီဂရီ၊ 60 ဒီဂရီနှင့် 80 ဒီဂရီ",
+              "50 ဒီဂရီ၊ 60 ဒီဂရီနှင့် 70 ဒီဂရီ",
+            ],
+            correctIndex: 2,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three areas of maths did Su Su combine to run her Lucky Dip booth successfully?",
+            questionMy:
+                "ကံစမ်းဂိမ်းစားပွဲကို အောင်မြင်စွာ လုပ်ဆောင်ရန် စုစုသည် သင်္ချာနယ်ပယ်သုံးခုကို ပေါင်းစပ်အသုံးချခဲ့သနည်း။",
+            optionsEn: [
+              "Only probability",
+              "Probability, algebra, and geometry",
+              "Fractions and decimals only",
+              "Statistics and ratio",
+            ],
+            optionsMy: [
+              "ဖြစ်နိုင်ခြေတစ်ခုတည်း",
+              "ဖြစ်နိုင်ခြေ၊ အက္ခရာသင်္ချာနှင့် ဂျီသြမေတြီ",
+              "အပိုင်းကိန်းနှင့် ဒသမကိန်းသာ",
+              "စာရင်းအင်းနှင့် အချိုး",
+            ],
+            correctIndex: 1,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-s1-mathematics-w36-d5",
+      dayNumber: 5,
+      titleEn: "Week 36 Recap: The Ultimate Maths Challenge",
+      titleMy: "အပတ်စဉ် ၃၆ ပြန်လည်သုံးသပ်ခြင်း - အမြင့်ဆုံး သင်္ချာစိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "(Weeks 33-34) What is P(rolling a number less than 3) on a fair six-sided die, in simplest form?",
+          questionMy:
+              "(၃၃-၃၄ပတ်မြောက်) မျှတသောခြောက်မျက်နှာအန်စာတုံးဖြင့် P(3 ထက်ငယ်သောနံပါတ်ရရှိခြင်း) ကို အရိုးရှင်းဆုံးပုံစံဖြင့် ရှာပါ။",
+          optionsEn: ["1/3", "1/2", "1/6", "2/3"],
+          optionsMy: ["1/3", "1/2", "1/6", "2/3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(Week 35) Solve for x: 6x - 9 = 21",
+          questionMy: "(၃၅ပတ်မြောက်) x ကိုရှာပါ - 6x - 9 = 21",
+          optionsEn: ["2", "6", "5", "30"],
+          optionsMy: ["2", "6", "5", "30"],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Week 35) A triangle has angles 35 degrees and 95 degrees. What is the third angle?",
+          questionMy:
+              "(၃၅ပတ်မြောက်) တြိဂံတစ်ခုတွင် ထောင့် 35 ဒီဂရီနှင့် 95 ဒီဂရီ ရှိပါသည်။ တတိယထောင့်မှာ အဘယ်နည်း။",
+          optionsEn: ["60 degrees", "50 degrees", "40 degrees", "130 degrees"],
+          optionsMy: ["60 ဒီဂရီ", "50 ဒီဂရီ", "40 ဒီဂရီ", "130 ဒီဂရီ"],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Week 34) A bag has 5 yellow and 15 blue counters (20 total). What is P(picking a yellow counter), in simplest form?",
+          questionMy:
+              "(၃၄ပတ်မြောက်) အိတ်တစ်လုံးတွင် အဝါရောင်ကွက်ပြား 5ခုနှင့် အပြာရောင်ကွက်ပြား 15ခု (စုစုပေါင်း 20ခု) ရှိပါသည်။ P(အဝါရောင်ကွက်ပြားထုတ်ယူခြင်း) ကို အရိုးရှင်းဆုံးပုံစံဖြင့် ရှာပါ။",
+          optionsEn: ["1/5", "1/2", "3/4", "1/4"],
+          optionsMy: ["1/5", "1/2", "3/4", "1/4"],
+          correctIndex: 3,
+        ),
+        QuizQuestion(
+          questionEn:
+              "(Weeks 33-36) Which of these best describes how Term 9 built your maths skills this year?",
+          questionMy:
+              "(၃၃-၃၆ပတ်မြောက်) Term 9 သည် ဤနှစ်တွင် သင်၏သင်္ချာကျွမ်းကျင်မှုကို မည်သို့တည်ဆောက်ပေးခဲ့ကြောင်း အကောင်းဆုံးဖော်ပြထားသည့်အချက်ကို ရွေးပါ။",
+          optionsEn: [
+            "Learning the language and calculation of probability, then reviewing and combining number, algebra, and geometry skills from across Year 7",
+            "Only learning new algebra formulas",
+            "Only memorizing multiplication tables",
+            "Learning geometry for the first time",
+          ],
+          optionsMy: [
+            "ဖြစ်နိုင်ခြေဝေါဟာရနှင့် တွက်ချက်နည်းကို သင်ယူပြီးနောက် Year 7 တစ်နှစ်လုံးမှ ဂဏန်း၊ အက္ခရာသင်္ချာနှင့် ဂျီသြမေတြီကျွမ်းကျင်မှုများကို ပြန်လည်သုံးသပ်ကာ ပေါင်းစပ်အသုံးချခြင်း",
+            "အက္ခရာသင်္ချာဖော်မြူလာအသစ်များကိုသာ သင်ယူခြင်း",
+            "မြှောက်ဇယားများကိုသာ ကျက်မှတ်ခြင်း",
+            "ဂျီသြမေတြီကို ပထမဆုံးအကြိမ်သင်ယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Secondary 1 Mathematics's Term 9: "Probability and Year Review" -- the
+/// ninth and final milestone of the pathway authored so far (see
+/// [secondary1MathematicsPathway]), picking up after Term 8's
+/// transformations-and-3D-shapes strand with a brand-new statistics-
+/// adjacent strand: probability. Week 33 introduces the language of
+/// probability from scratch -- certain, impossible, likely, unlikely,
+/// even chance -- and the 0-to-1 probability scale, deliberately echoing
+/// Week 1's directed-number-line visual in a new context; Week 34
+/// narrows to actually calculating probability as a fraction of favourable
+/// outcomes over total outcomes, folding in Term 3's fraction-simplifying
+/// skill (Week 11) when a probability like 3/6 needs reducing to 1/2;
+/// Week 35 is a deliberate breadth/consolidation week rather than new
+/// content -- reviewing Term 1's number skills (directed numbers, HCF/LCM,
+/// order of operations), Term 2's algebra (variables, coefficients,
+/// solving equations), and Term 4's geometry (angle sums, shape
+/// properties) side by side; Week 36 closes both the term and the full
+/// Year 7 course with a capstone that explicitly combines all three of
+/// this term's threads -- probability language and calculation from
+/// Weeks 33-34 alongside the number/algebra/geometry review from Week 35
+/// -- inside one running story (a school fair game booth) and one final
+/// multi-topic quiz.
+const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
+  id: "course-secondary1-mathematics-t9",
+  termNumber: 9,
+  titleEn: "Probability and Year Review",
+  titleMy: "ဖြစ်နိုင်ခြေနှင့် နှစ်တစ်နှစ် ပြန်လည်သုံးသပ်ခြင်း",
+  certificateTitleEn: "Probability and Year Review",
+  certificateTitleMy: "ဖြစ်နိုင်ခြေနှင့် နှစ်တစ်နှစ် ပြန်လည်သုံးသပ်ခြင်း",
+  weeks: [
+    _secondary1MathematicsWeek33,
+    _secondary1MathematicsWeek34,
+    _secondary1MathematicsWeek35,
+    _secondary1MathematicsWeek36,
   ],
 );
