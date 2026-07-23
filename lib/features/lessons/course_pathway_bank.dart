@@ -117638,8 +117638,15 @@ const CourseTermDef _year4EnglishTerm1 = CourseTermDef(
 /// synonyms and antonyms; Week 6 teaches the prefixes "un-"/"re-" and
 /// suffixes "-ful"/"-less"; Week 7 teaches compound words; Week 8, the
 /// capstone ("The Nova School Word Builders Market"), reuses every
-/// skill from Weeks 5-7 across market stalls. See [_year4EnglishTerm1]
-/// and [_year4EnglishTerm2] for the week-by-week arc; further terms are
+/// skill from Weeks 5-7 across market stalls. Term 3 ("Story Elements
+/// and Narrative Writing", Weeks 9-12) builds narrative literacy: Week
+/// 9 teaches story elements (character, setting, plot, conflict); Week
+/// 10 teaches the five senses as tools for descriptive writing; Week 11
+/// teaches sequencing words that order a story's beginning, middle,
+/// and end; Week 12, the capstone ("The Nova School Storytelling
+/// Festival"), reuses every skill from Weeks 9-11 across festival
+/// stages. See [_year4EnglishTerm1], [_year4EnglishTerm2], and
+/// [_year4EnglishTerm3] for the week-by-week arc; further terms are
 /// still to be authored.
 const CoursePathwayDef year4EnglishPathway = CoursePathwayDef(
   id: "course-year4-english",
@@ -117648,11 +117655,11 @@ const CoursePathwayDef year4EnglishPathway = CoursePathwayDef(
   titleEn: "English — Year 4 Course",
   titleMy: "အင်္ဂလိပ်စာ — စတုတ္ထတန်း သင်တန်း",
   descriptionEn:
-      "The Year 4 English course opens with Term 1, Words and Sentences: Week 1 teaches the three core word jobs -- nouns name a person, place, or thing; verbs show an action or state of being; adjectives describe nouns -- through everyday sentences about Moe Moe, Nay Chi, and Tin. Week 2, Types of Sentences, teaches the four sentence types -- statements, questions, exclamations, and commands -- and the punctuation mark that ends each one, following Tin's own question game at lunchtime. Week 3, Building Better Sentences, layers in adverbs (words that describe how an action happens, often ending in \"-ly\") and the capitalization rules every sentence and every name must follow, illustrated through Ms. Thandar baking the best mango cake. Week 4, the term's capstone (\"The Nova School Word Wizards Fair\"), reuses every skill from Weeks 1-3 across a fair of word-game booths, closing with a synthesis question: words have different jobs, and how we choose and arrange them shapes the meaning and feeling of every sentence. Term 2, Vocabulary and Word Building, opens with Week 5, Synonyms and Antonyms: a synonym means the same as another word (\"happy\" and \"joyful\"), while an antonym means the opposite (\"hot\" and \"cold\"), explored through Nay Chi and Tin's twin word game. Week 6, Prefixes and Suffixes, teaches how adding \"un-\" (not/opposite) or \"re-\" (again) to the start of a word, or \"-ful\" (full of) or \"-less\" (without) to its end, builds a new related word, illustrated through Tin's broken kite being repaired. Week 7, Compound Words, teaches how two small words join to build one new word, like \"sun\" and \"flower\" making \"sunflower\", explored through a visit to the Nova School garden. Week 8, the term's capstone (\"The Nova School Word Builders Market\"), reuses every skill from Weeks 5-7 across three market stalls, closing with a synthesis question: words can be understood, combined, and reshaped to create new meanings.",
+      "The Year 4 English course opens with Term 1, Words and Sentences: Week 1 teaches the three core word jobs -- nouns name a person, place, or thing; verbs show an action or state of being; adjectives describe nouns -- through everyday sentences about Moe Moe, Nay Chi, and Tin. Week 2, Types of Sentences, teaches the four sentence types -- statements, questions, exclamations, and commands -- and the punctuation mark that ends each one, following Tin's own question game at lunchtime. Week 3, Building Better Sentences, layers in adverbs (words that describe how an action happens, often ending in \"-ly\") and the capitalization rules every sentence and every name must follow, illustrated through Ms. Thandar baking the best mango cake. Week 4, the term's capstone (\"The Nova School Word Wizards Fair\"), reuses every skill from Weeks 1-3 across a fair of word-game booths, closing with a synthesis question: words have different jobs, and how we choose and arrange them shapes the meaning and feeling of every sentence. Term 2, Vocabulary and Word Building, opens with Week 5, Synonyms and Antonyms: a synonym means the same as another word (\"happy\" and \"joyful\"), while an antonym means the opposite (\"hot\" and \"cold\"), explored through Nay Chi and Tin's twin word game. Week 6, Prefixes and Suffixes, teaches how adding \"un-\" (not/opposite) or \"re-\" (again) to the start of a word, or \"-ful\" (full of) or \"-less\" (without) to its end, builds a new related word, illustrated through Tin's broken kite being repaired. Week 7, Compound Words, teaches how two small words join to build one new word, like \"sun\" and \"flower\" making \"sunflower\", explored through a visit to the Nova School garden. Week 8, the term's capstone (\"The Nova School Word Builders Market\"), reuses every skill from Weeks 5-7 across three market stalls, closing with a synthesis question: words can be understood, combined, and reshaped to create new meanings. Term 3, Story Elements and Narrative Writing, opens with Week 9, Story Elements: every story has characters (the people or animals it is about), a setting (the time and place), and a plot (the main events), often built around a conflict, explored through Moe Moe's search for her lost library book. Week 10, Descriptive Writing, teaches the five senses -- sight, sound, smell, taste, and touch -- as tools for vivid description, illustrated through Tin's walk through the Nova market. Week 11, Story Sequencing, teaches sequencing words -- First, Next, Then, After that, Finally -- that order a story's beginning, middle, and end, following Nay Chi's garden project. Week 12, the term's capstone (\"The Nova School Storytelling Festival\"), reuses every skill from Weeks 9-11 across festival stages, closing with a synthesis question: a great story combines clear characters, settings, and events with vivid sensory details, told in a clear order from beginning to end.",
   descriptionMy:
-      "စတုတ္ထတန်း အင်္ဂလိပ်စာသင်တန်းသည် ပထမ Term၊ စကားလုံးများနှင့် ဝါကျများဖြင့် စတင်သည် -- Week 1 သည် မိုးမိုး၊ နေချည်နှင့် တင်တို့၏ နေ့စဉ်ဝါကျများမှတစ်ဆင့် အဓိက စကားလုံးတာဝန်သုံးမျိုးကို သင်ကြားသည် -- နာမ်သည် လူ၊ နေရာ (သို့) အရာဝတ္ထုကို အမည်တပ်ပြီး၊ ကြိယာသည် လုပ်ဆောင်ချက် (သို့) အခြေအနေတစ်ခုကို ပြသကာ၊ နာမဝိသေသနသည် နာမ်ကို ဖော်ပြသည်။ Week 2၊ ဝါကျအမျိုးအစားများသည် တင်၏ နေ့လယ်စာအချိန် မေးခွန်းဂိမ်းကို လိုက်၍ ဝါကျအမျိုးအစားလေးမျိုး -- ဖော်ပြဝါကျ၊ မေးခွန်းဝါကျ၊ အံ့သြဝါကျနှင့် အမိန့်ပေးဝါကျ -- နှင့် တစ်ခုစီကို အဆုံးသတ်သော ပုဒ်ဖြတ်ပုဒ်ရပ်ကို သင်ကြားသည်။ Week 3၊ ပိုမိုကောင်းမွန်သော ဝါကျများ တည်ဆောက်ခြင်းသည် ဆရာမ သန္တာ အကောင်းဆုံးသရက်သီးကိတ်မုန့် ဖုတ်ခြင်းကို ဥပမာပြု၍ ကြိယာဝိသေသနများ (လုပ်ဆောင်ချက် မည်သို့ဖြစ်ပေါ်သည်ကို ဖော်ပြပြီး မကြာခဏ \"-ly\" ဖြင့် အဆုံးသတ်သော စကားလုံးများ) နှင့် ဝါကျနှင့် အမည်တိုင်း လိုက်နာရမည့် စာလုံးအကြီးသုံးစွဲမှုစည်းမျဉ်းများကို ထပ်လောင်းသင်ကြားသည်။ Week 4၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးမှော်ဆရာ ပွဲတော်\") သည် Week 1 မှ 3 အထိ ကျွမ်းကျင်မှုအားလုံးကို စကားလုံးဂိမ်းဖျန်ရုံများပါသော ပွဲတော်တစ်ခုတွင် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများသည် မတူညီသော တာဝန်များ ရှိပြီး ၎င်းတို့ကို ရွေးချယ်၊ စီစဉ်ပုံက ဝါကျတိုင်း၏ အဓိပ္ပာယ်နှင့် ခံစားချက်ကို ပုံဖော်ပေးကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ ဒုတိယ Term၊ ဝေါဟာရနှင့် စကားလုံးတည်ဆောက်ခြင်းသည် နေချည်နှင့် တင်တို့၏ အမြွှာစကားလုံးဂိမ်းကို လိုက်၍ Week 5၊ အဓိပ္ပာယ်တူစကားလုံးနှင့် ဆန့်ကျင်ဘက်စကားလုံးများဖြင့် စတင်သည် -- အဓိပ္ပာယ်တူစကားလုံးသည် \"happy\" နှင့် \"joyful\" ကဲ့သို့ အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူပြီး၊ ဆန့်ကျင်ဘက်စကားလုံးသည် \"hot\" နှင့် \"cold\" ကဲ့သို့ ဆန့်ကျင်ဘက်ကို ဆိုလိုသည်။ Week 6၊ ရှေ့ဆက်နှင့် နောက်ဆက်များသည် တင်၏ ကျိုးပဲ့သွားသောလေယာဉ်ပုံစံလေးကို ပြင်ဆင်ခြင်းကို ဥပမာပြု၍ စကားလုံးတစ်လုံး၏ အစတွင် \"un-\" (မ.../ဆန့်ကျင်ဘက်) (သို့) \"re-\" (ထပ်၍) ထပ်ဆင့်ခြင်း၊ (သို့) အဆုံးတွင် \"-ful\" (ပြည့်နှက်) (သို့) \"-less\" (မရှိ) ထပ်ဆင့်ခြင်းက စကားလုံးဆက်စပ်သစ်တစ်ခုကို မည်သို့ တည်ဆောက်ပေးကြောင်း သင်ကြားသည်။ Week 7၊ ပေါင်းစပ်စကားလုံးများသည် Nova ကျောင်းဥယျာဉ်သို့ လည်ပတ်ခြင်းကို ဥပမာပြု၍ \"sun\" နှင့် \"flower\" ပေါင်းစပ်ကာ \"sunflower\" ဖြစ်လာသကဲ့သို့ စကားလုံးသေးလေးနှစ်လုံး ပေါင်းစပ်ကာ စကားလုံးသစ်တစ်လုံး မည်သို့တည်ဆောက်ကြောင်း သင်ကြားသည်။ Week 8၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးတည်ဆောက်သူများ ဈေးပွဲတော်\") သည် Week 5 မှ 7 အထိ ကျွမ်းကျင်မှုအားလုံးကို ဈေးပွဲဆိုင်ခန်းသုံးခုတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများကို နားလည်၊ ပေါင်းစပ်ပြီး အဓိပ္ပာယ်သစ်များ ဖန်တီးရန် ပြန်လည် ပုံဖော်နိုင်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။",
+      "စတုတ္ထတန်း အင်္ဂလိပ်စာသင်တန်းသည် ပထမ Term၊ စကားလုံးများနှင့် ဝါကျများဖြင့် စတင်သည် -- Week 1 သည် မိုးမိုး၊ နေချည်နှင့် တင်တို့၏ နေ့စဉ်ဝါကျများမှတစ်ဆင့် အဓိက စကားလုံးတာဝန်သုံးမျိုးကို သင်ကြားသည် -- နာမ်သည် လူ၊ နေရာ (သို့) အရာဝတ္ထုကို အမည်တပ်ပြီး၊ ကြိယာသည် လုပ်ဆောင်ချက် (သို့) အခြေအနေတစ်ခုကို ပြသကာ၊ နာမဝိသေသနသည် နာမ်ကို ဖော်ပြသည်။ Week 2၊ ဝါကျအမျိုးအစားများသည် တင်၏ နေ့လယ်စာအချိန် မေးခွန်းဂိမ်းကို လိုက်၍ ဝါကျအမျိုးအစားလေးမျိုး -- ဖော်ပြဝါကျ၊ မေးခွန်းဝါကျ၊ အံ့သြဝါကျနှင့် အမိန့်ပေးဝါကျ -- နှင့် တစ်ခုစီကို အဆုံးသတ်သော ပုဒ်ဖြတ်ပုဒ်ရပ်ကို သင်ကြားသည်။ Week 3၊ ပိုမိုကောင်းမွန်သော ဝါကျများ တည်ဆောက်ခြင်းသည် ဆရာမ သန္တာ အကောင်းဆုံးသရက်သီးကိတ်မုန့် ဖုတ်ခြင်းကို ဥပမာပြု၍ ကြိယာဝိသေသနများ (လုပ်ဆောင်ချက် မည်သို့ဖြစ်ပေါ်သည်ကို ဖော်ပြပြီး မကြာခဏ \"-ly\" ဖြင့် အဆုံးသတ်သော စကားလုံးများ) နှင့် ဝါကျနှင့် အမည်တိုင်း လိုက်နာရမည့် စာလုံးအကြီးသုံးစွဲမှုစည်းမျဉ်းများကို ထပ်လောင်းသင်ကြားသည်။ Week 4၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးမှော်ဆရာ ပွဲတော်\") သည် Week 1 မှ 3 အထိ ကျွမ်းကျင်မှုအားလုံးကို စကားလုံးဂိမ်းဖျန်ရုံများပါသော ပွဲတော်တစ်ခုတွင် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများသည် မတူညီသော တာဝန်များ ရှိပြီး ၎င်းတို့ကို ရွေးချယ်၊ စီစဉ်ပုံက ဝါကျတိုင်း၏ အဓိပ္ပာယ်နှင့် ခံစားချက်ကို ပုံဖော်ပေးကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ ဒုတိယ Term၊ ဝေါဟာရနှင့် စကားလုံးတည်ဆောက်ခြင်းသည် နေချည်နှင့် တင်တို့၏ အမြွှာစကားလုံးဂိမ်းကို လိုက်၍ Week 5၊ အဓိပ္ပာယ်တူစကားလုံးနှင့် ဆန့်ကျင်ဘက်စကားလုံးများဖြင့် စတင်သည် -- အဓိပ္ပာယ်တူစကားလုံးသည် \"happy\" နှင့် \"joyful\" ကဲ့သို့ အခြားစကားလုံးတစ်လုံးနှင့် အဓိပ္ပာယ်တူပြီး၊ ဆန့်ကျင်ဘက်စကားလုံးသည် \"hot\" နှင့် \"cold\" ကဲ့သို့ ဆန့်ကျင်ဘက်ကို ဆိုလိုသည်။ Week 6၊ ရှေ့ဆက်နှင့် နောက်ဆက်များသည် တင်၏ ကျိုးပဲ့သွားသောလေယာဉ်ပုံစံလေးကို ပြင်ဆင်ခြင်းကို ဥပမာပြု၍ စကားလုံးတစ်လုံး၏ အစတွင် \"un-\" (မ.../ဆန့်ကျင်ဘက်) (သို့) \"re-\" (ထပ်၍) ထပ်ဆင့်ခြင်း၊ (သို့) အဆုံးတွင် \"-ful\" (ပြည့်နှက်) (သို့) \"-less\" (မရှိ) ထပ်ဆင့်ခြင်းက စကားလုံးဆက်စပ်သစ်တစ်ခုကို မည်သို့ တည်ဆောက်ပေးကြောင်း သင်ကြားသည်။ Week 7၊ ပေါင်းစပ်စကားလုံးများသည် Nova ကျောင်းဥယျာဉ်သို့ လည်ပတ်ခြင်းကို ဥပမာပြု၍ \"sun\" နှင့် \"flower\" ပေါင်းစပ်ကာ \"sunflower\" ဖြစ်လာသကဲ့သို့ စကားလုံးသေးလေးနှစ်လုံး ပေါင်းစပ်ကာ စကားလုံးသစ်တစ်လုံး မည်သို့တည်ဆောက်ကြောင်း သင်ကြားသည်။ Week 8၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း စကားလုံးတည်ဆောက်သူများ ဈေးပွဲတော်\") သည် Week 5 မှ 7 အထိ ကျွမ်းကျင်မှုအားလုံးကို ဈေးပွဲဆိုင်ခန်းသုံးခုတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ စကားလုံးများကို နားလည်၊ ပေါင်းစပ်ပြီး အဓိပ္ပာယ်သစ်များ ဖန်တီးရန် ပြန်လည် ပုံဖော်နိုင်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။ တတိယ Term၊ ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဇာတ်လမ်းရေးသားခြင်းသည် မိုးမိုး၏ ပျောက်ဆုံးနေသော စာကြည့်တိုက်စာအုပ်ကို ရှာဖွေခြင်းကို ဥပမာပြု၍ Week 9၊ ဇာတ်လမ်းအစိတ်အပိုင်းများဖြင့် စတင်သည် -- ဇာတ်လမ်းတိုင်းတွင် ဇာတ်ကောင်များ (ဇာတ်လမ်း ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များ)၊ နောက်ခံအခင်းအကျင်း (အချိန်နှင့်နေရာ) နှင့် ဇာတ်ကြောင်း (အဓိကဖြစ်ရပ်များ) ရှိပြီး၊ မကြာခဏ ပြဿနာ (conflict) ပတ်လည် တည်ဆောက်လေ့ရှိသည်။ Week 10၊ ဖော်ပြရေးသားခြင်းသည် တင်၏ Nova ဈေးထဲ လမ်းလျှောက်ခြင်းကို ဥပမာပြု၍ ကြွယ်ဝသော ဖော်ပြချက်အတွက် အာရုံငါးမျိုး -- အမြင်၊ အကြား၊ အနံ့၊ အရသာနှင့် အထိအတွေ့ -- ကို သင်ကြားသည်။ Week 11၊ ဇာတ်လမ်း အစီအစဉ်ဆက်ခြင်းသည် နေချည်၏ ဥယျာဉ်စီမံကိန်းကို လိုက်၍ ဇာတ်လမ်း၏ အစ၊ အလယ်နှင့် အဆုံးကို စီစဉ်ပေးသော စီစဉ်စကားလုံးများ -- First, Next, Then, After that, Finally -- ကို သင်ကြားသည်။ Week 12၊ Term ၏ အနှစ်ချုပ် (\"Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်\") သည် Week 9 မှ 11 အထိ ကျွမ်းကျင်မှုအားလုံးကို ပွဲတော်စင်မြင့်များတစ်လျှောက် ပြန်လည်အသုံးချပြီး၊ ကောင်းမွန်သောဇာတ်လမ်းတစ်ပုဒ်သည် ကွက်ကွင်းထင်ရှားသော ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဖြစ်ရပ်များကို ကွက်ကွင်းထင်ရှားသော အာရုံဆိုင်ရာ အသေးစိတ်များနှင့် ပေါင်းစပ်ကာ အစမှအဆုံးအထိ ရှင်းလင်းသော အစီအစဉ်ဖြင့် ပြောပြခြင်းဖြစ်ကြောင်း အနှစ်ချုပ်ဖြင့် ပြီးဆုံးစေသည်။",
   totalWeeks: 36,
-  terms: [_year4EnglishTerm1, _year4EnglishTerm2],
+  terms: [_year4EnglishTerm1, _year4EnglishTerm2, _year4EnglishTerm3],
 );
 
 // =====================================================================
@@ -119168,5 +119175,1676 @@ const CourseTermDef _year4EnglishTerm2 = CourseTermDef(
     _year4EnglishWeek6,
     _year4EnglishWeek7,
     _year4EnglishWeek8,
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 3, Week 9: "Story Elements"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek9 = CourseWeekDef(
+  id: "course-year4-english-w9",
+  weekNumber: 9,
+  titleEn: "Story Elements",
+  titleMy: "ဇာတ်လမ်း အစိတ်အပိုင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w9-d1",
+      dayNumber: 1,
+      titleEn: "Character, Setting, and Plot",
+      titleMy: "ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဇာတ်ကြောင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a story, the people or animals it is about are called...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ပါဝင်သော လူများ (သို့) တိရစ္ဆာန်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["characters", "settings", "plots", "titles"],
+          optionsMy: ["characters", "settings", "plots", "titles"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The time and place where a story happens is called the...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ် ဖြစ်ပေါ်သော အချိန်နှင့်နေရာကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["setting", "character", "plot", "ending"],
+          optionsMy: ["setting", "character", "plot", "ending"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The main events that happen in a story are called the...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ဖြစ်ပေါ်သော အဓိကဖြစ်ရပ်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["plot", "setting", "character", "cover"],
+          optionsMy: ["plot", "setting", "character", "cover"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"Once upon a time, a brave girl lived in a tall castle,\" who is the character?",
+          questionMy:
+              "\"Once upon a time, a brave girl lived in a tall castle\" တွင် ဇာတ်ကောင်မှာ မည်သူနည်း။",
+          optionsEn: [
+            "The brave girl",
+            "The castle",
+            "Once upon a time",
+            "A tall castle",
+          ],
+          optionsMy: [
+            "The brave girl",
+            "The castle",
+            "Once upon a time",
+            "A tall castle",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the same sentence, what is the setting?",
+          questionMy: "အထက်ပါဝါကျတွင် နောက်ခံအခင်းအကျင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A tall castle",
+            "The brave girl",
+            "Once upon a time",
+            "Brave",
+          ],
+          optionsMy: [
+            "A tall castle",
+            "The brave girl",
+            "Once upon a time",
+            "Brave",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A story usually has a problem that the character must solve. This problem is often called the...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ဇာတ်ကောင် ဖြေရှင်းရမည့် ပြဿနာတစ်ခု ရှိလေ့ရှိသည်။ ဒီပြဿနာကို ဘယ်လို ခေါ်လေ့ရှိသနည်း။",
+          optionsEn: ["conflict", "setting", "title", "ending"],
+          optionsMy: ["conflict", "setting", "title", "ending"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is an example of a setting?",
+          questionMy:
+              "အောက်ပါတို့အနက် နောက်ခံအခင်းအကျင်းဥပမာဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A dark forest at midnight",
+            "A brave knight",
+            "A dragon",
+            "A magic sword",
+          ],
+          optionsMy: [
+            "A dark forest at midnight",
+            "A brave knight",
+            "A dragon",
+            "A magic sword",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is an example of a character?",
+          questionMy: "အောက်ပါတို့အနက် ဇာတ်ကောင်ဥပမာဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A curious fox",
+            "A sunny beach",
+            "A rainy morning",
+            "A tall mountain",
+          ],
+          optionsMy: [
+            "A curious fox",
+            "A sunny beach",
+            "A rainy morning",
+            "A tall mountain",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match the Story Element",
+      titleMy: "ဇာတ်လမ်းအစိတ်အပိုင်းကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w9-dm-1",
+          termEn: "Moe Moe",
+          termMy: "Moe Moe",
+          matchEn: "A character -- the main person the story is about",
+          matchMy: "ဇာတ်ကောင် -- ဇာတ်လမ်း၏ အဓိကလူ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-2",
+          termEn: "the Nova School library",
+          termMy: "the Nova School library",
+          matchEn: "A setting -- the place where the story happens",
+          matchMy: "နောက်ခံအခင်းအကျင်း -- ဇာတ်လမ်း ဖြစ်ပေါ်သောနေရာ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-3",
+          termEn: "finding a lost book",
+          termMy: "finding a lost book",
+          matchEn: "A plot event -- something that happens in the story",
+          matchMy: "ဇာတ်ကြောင်းဖြစ်ရပ် -- ဇာတ်လမ်းထဲတွင် ဖြစ်ပေါ်သောအရာ",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-4",
+          termEn: "a dark, stormy night",
+          termMy: "a dark, stormy night",
+          matchEn: "A setting -- tells us the time and weather",
+          matchMy: "နောက်ခံအခင်းအကျင်း -- အချိန်နှင့်ရာသီဥတုကို ပြသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-5",
+          termEn: "a clever mouse",
+          termMy: "a clever mouse",
+          matchEn: "A character -- an animal the story is about",
+          matchMy: "ဇာတ်ကောင် -- ဇာတ်လမ်း၏ တိရစ္ဆာန်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-6",
+          termEn: "losing the way home",
+          termMy: "losing the way home",
+          matchEn: "A plot event -- the problem the character must solve",
+          matchMy: "ဇာတ်ကြောင်းဖြစ်ရပ် -- ဇာတ်ကောင် ဖြေရှင်းရမည့် ပြဿနာ",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-7",
+          termEn: "a sunny mountain village",
+          termMy: "a sunny mountain village",
+          matchEn: "A setting -- the place where the story happens",
+          matchMy: "နောက်ခံအခင်းအကျင်း -- ဇာတ်လမ်း ဖြစ်ပေါ်သောနေရာ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w9-dm-8",
+          termEn: "a kind old fisherman",
+          termMy: "a kind old fisherman",
+          matchEn: "A character -- a person the story is about",
+          matchMy: "ဇာတ်ကောင် -- ဇာတ်လမ်း၏ လူ",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w9-d3",
+      dayNumber: 3,
+      titleEn: "The Lost Library Book",
+      titleMy: "ပျောက်ဆုံးသွားသော စာကြည့်တိုက်စာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Lost Library Book",
+        titleMy: "ပျောက်ဆုံးသွားသော စာကြည့်တိုက်စာအုပ်",
+        passageEn:
+            "One rainy afternoon, Moe Moe searched the Nova School library. She could not find her favorite book about dragons. \"Where could it be?\" she wondered. She looked under the reading table and behind the tall bookshelf. Finally, she found it hidden inside her own school bag! Moe Moe laughed at herself and hurried to class before the bell rang.",
+        passageMy:
+            "မိုးရွာနေသော နေ့လယ်ခင်းတစ်ခုတွင် မိုးမိုးသည် Nova ကျောင်း စာကြည့်တိုက်ကို ရှာဖွေခဲ့သည်။ သူမသည် နဂါးများအကြောင်း သူမ အကြိုက်ဆုံးစာအုပ်ကို ရှာမတွေ့ခဲ့ပါ။ \"ဘယ်နေရာမှာ ရှိနေမလဲ\" ဟု သူမ တွေးမိသည်။ သူမသည် စာဖတ်စားပွဲအောက်နှင့် အမြင့်ကြီးစာအုပ်စင်နောက်ကွယ်တို့ကို ရှာဖွေခဲ့သည်။ နောက်ဆုံးတွင် သူမ ကိုယ်တိုင်၏ ကျောင်းအိတ်ထဲတွင် ဖုံးကွယ်နေသည်ကို တွေ့ခဲ့သည်! မိုးမိုးသည် သူမကိုယ်သူမ ရယ်မောလိုက်ပြီး ခေါင်းလောင်းမမြည်ခင် အတန်းသို့ အလျင်စလို သွားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Who is the main character in this story?",
+            questionMy: "ဒီဇာတ်လမ်းရဲ့ အဓိကဇာတ်ကောင်က မည်သူနည်း။",
+            optionsEn: ["Moe Moe", "Nay Chi", "Tin", "Ms. Thandar"],
+            optionsMy: ["Moe Moe", "Nay Chi", "Tin", "Ms. Thandar"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Where does this story take place?",
+            questionMy: "ဒီဇာတ်လမ်း ဘယ်နေရာတွင် ဖြစ်ပျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "The Nova School library",
+              "A dark forest",
+              "A sunny beach",
+              "A castle",
+            ],
+            optionsMy: [
+              "The Nova School library",
+              "A dark forest",
+              "A sunny beach",
+              "A castle",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was the problem (plot) in this story?",
+            questionMy: "ဒီဇာတ်လမ်းရဲ့ ပြဿနာ (ဇာတ်ကြောင်း) က အဘယ်နည်း။",
+            optionsEn: [
+              "Moe Moe could not find her book",
+              "Moe Moe was lost",
+              "Moe Moe broke a book",
+              "Moe Moe missed the bus",
+            ],
+            optionsMy: [
+              "Moe Moe could not find her book",
+              "Moe Moe was lost",
+              "Moe Moe broke a book",
+              "Moe Moe missed the bus",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Where did Moe Moe finally find the book?",
+            questionMy:
+                "မိုးမိုးသည် နောက်ဆုံးတွင် စာအုပ်ကို ဘယ်နေရာမှာ တွေ့ခဲ့သနည်း။",
+            optionsEn: [
+              "Inside her own school bag",
+              "Under the table",
+              "On a shelf",
+              "In the garden",
+            ],
+            optionsMy: [
+              "Inside her own school bag",
+              "Under the table",
+              "On a shelf",
+              "In the garden",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What kind of afternoon was it?",
+            questionMy: "ဘယ်လိုနေ့လယ်ခင်းမျိုး ဖြစ်ခဲ့သနည်း။",
+            optionsEn: [
+              "A rainy afternoon",
+              "A sunny afternoon",
+              "A windy afternoon",
+              "A snowy afternoon",
+            ],
+            optionsMy: [
+              "A rainy afternoon",
+              "A sunny afternoon",
+              "A windy afternoon",
+              "A snowy afternoon",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w9-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Story Elements",
+      titleMy: "ဇာတ်လမ်းအစိတ်အပိုင်းများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Character", "Setting", "Plot Event"],
+        bucketsMy: ["ဇာတ်ကောင်", "နောက်ခံအခင်းအကျင်း", "ဇာတ်ကြောင်းဖြစ်ရပ်"],
+        items: [
+          SortingItem(
+            id: "y4eng-w9-sort-1",
+            labelEn: "a curious fox",
+            labelMy: "a curious fox",
+            correctBucketEn: "Character",
+            correctBucketMy: "ဇာတ်ကောင်",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-2",
+            labelEn: "a sunny beach",
+            labelMy: "a sunny beach",
+            correctBucketEn: "Setting",
+            correctBucketMy: "နောက်ခံအခင်းအကျင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-3",
+            labelEn: "finding a treasure map",
+            labelMy: "finding a treasure map",
+            correctBucketEn: "Plot Event",
+            correctBucketMy: "ဇာတ်ကြောင်းဖြစ်ရပ်",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-4",
+            labelEn: "a kind teacher",
+            labelMy: "a kind teacher",
+            correctBucketEn: "Character",
+            correctBucketMy: "ဇာတ်ကောင်",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-5",
+            labelEn: "a snowy mountain",
+            labelMy: "a snowy mountain",
+            correctBucketEn: "Setting",
+            correctBucketMy: "နောက်ခံအခင်းအကျင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-6",
+            labelEn: "losing a pet",
+            labelMy: "losing a pet",
+            correctBucketEn: "Plot Event",
+            correctBucketMy: "ဇာတ်ကြောင်းဖြစ်ရပ်",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-7",
+            labelEn: "a brave knight",
+            labelMy: "a brave knight",
+            correctBucketEn: "Character",
+            correctBucketMy: "ဇာတ်ကောင်",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-8",
+            labelEn: "a busy city street",
+            labelMy: "a busy city street",
+            correctBucketEn: "Setting",
+            correctBucketMy: "နောက်ခံအခင်းအကျင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w9-sort-9",
+            labelEn: "winning a race",
+            labelMy: "winning a race",
+            correctBucketEn: "Plot Event",
+            correctBucketMy: "ဇာတ်ကြောင်းဖြစ်ရပ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w9-d5",
+      dayNumber: 5,
+      titleEn: "Story Elements Recap",
+      titleMy: "ဇာတ်လမ်းအစိတ်အပိုင်းများ ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The people or animals a story is about are called...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["characters", "settings", "plots", "titles"],
+          optionsMy: ["characters", "settings", "plots", "titles"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The time and place of a story is called the...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်၏ အချိန်နှင့်နေရာကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["setting", "character", "plot", "ending"],
+          optionsMy: ["setting", "character", "plot", "ending"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main events of a story are called the...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်၏ အဓိကဖြစ်ရပ်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["plot", "setting", "character", "cover"],
+          optionsMy: ["plot", "setting", "character", "cover"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"A clever fox lived in a quiet forest,\" what is the setting?",
+          questionMy:
+              "\"A clever fox lived in a quiet forest\" တွင် နောက်ခံအခင်းအကျင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["A quiet forest", "A clever fox", "Lived", "Once"],
+          optionsMy: ["A quiet forest", "A clever fox", "Lived", "Once"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In \"A clever fox lived in a quiet forest,\" who is the character?",
+          questionMy:
+              "\"A clever fox lived in a quiet forest\" တွင် ဇာတ်ကောင်မှာ မည်သူနည်း။",
+          optionsEn: ["A clever fox", "A quiet forest", "Lived", "Once"],
+          optionsMy: ["A clever fox", "A quiet forest", "Lived", "Once"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 3, Week 10: "Descriptive Writing"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek10 = CourseWeekDef(
+  id: "course-year4-english-w10",
+  weekNumber: 10,
+  titleEn: "Descriptive Writing",
+  titleMy: "ဖော်ပြရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w10-d1",
+      dayNumber: 1,
+      titleEn: "The Five Senses",
+      titleMy: "အာရုံခံစားမှုငါးမျိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which sense do we use to notice the color of a flower?",
+          questionMy:
+              "ပန်းတစ်ပွင့်၏ အရောင်ကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Sight", "Sound", "Smell", "Taste"],
+          optionsMy: ["Sight", "Sound", "Smell", "Taste"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense do we use to notice a loud drum?",
+          questionMy:
+              "ကျယ်လောင်သော ပတ်သာသံကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Sound", "Sight", "Taste", "Touch"],
+          optionsMy: ["Sound", "Sight", "Taste", "Touch"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sense do we use to notice the smell of fresh bread?",
+          questionMy:
+              "လတ်ဆတ်သော ပေါင်မုန့်၏ အနံ့ကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Smell", "Sight", "Taste", "Sound"],
+          optionsMy: ["Smell", "Sight", "Taste", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense do we use to notice a sour lemon?",
+          questionMy: "ချဉ်သောသံပုရာသီးကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Taste", "Smell", "Sight", "Sound"],
+          optionsMy: ["Taste", "Smell", "Sight", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense do we use to notice a soft blanket?",
+          questionMy: "နူးညံ့သော စောင်ကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Touch", "Sight", "Smell", "Taste"],
+          optionsMy: ["Touch", "Sight", "Smell", "Taste"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses sight to describe a sunset?",
+          questionMy:
+              "ဘယ်ဝါကျသည် နေဝင်ချိန်ကို sight (မြင်စွမ်း) အသုံးပြု၍ ဖော်ပြထားသနည်း။",
+          optionsEn: [
+            "The sky glowed orange and pink.",
+            "The sky was quiet.",
+            "The sky smelled sweet.",
+            "The sky felt warm.",
+          ],
+          optionsMy: [
+            "The sky glowed orange and pink.",
+            "The sky was quiet.",
+            "The sky smelled sweet.",
+            "The sky felt warm.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses sound to describe a storm?",
+          questionMy:
+              "ဘယ်ဝါကျသည် မိုးသက်မုန်တိုင်းကို sound (ကြားစွမ်း) အသုံးပြု၍ ဖော်ပြထားသနည်း။",
+          optionsEn: [
+            "Thunder crashed loudly overhead.",
+            "The storm looked grey.",
+            "The rain tasted fresh.",
+            "The wind felt cold.",
+          ],
+          optionsMy: [
+            "Thunder crashed loudly overhead.",
+            "The storm looked grey.",
+            "The rain tasted fresh.",
+            "The wind felt cold.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Good descriptive writing uses the five senses to help the reader...",
+          questionMy:
+              "ကောင်းမွန်သော ဖော်ပြရေးသားချက်သည် စာဖတ်သူကို ကူညီရန် အာရုံငါးမျိုးကို အသုံးပြုသည်...",
+          optionsEn: [
+            "Imagine the scene clearly",
+            "Skip the story quickly",
+            "Ignore the details",
+            "Guess the ending",
+          ],
+          optionsMy: [
+            "Imagine the scene clearly",
+            "Skip the story quickly",
+            "Ignore the details",
+            "Guess the ending",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match the Sense",
+      titleMy: "အာရုံကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w10-dm-1",
+          termEn: "the golden sunset",
+          termMy: "the golden sunset",
+          matchEn: "Sight -- describes how something looks",
+          matchMy: "Sight -- တစ်ခုခု ဘယ်လိုမြင်ရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-2",
+          termEn: "the crashing thunder",
+          termMy: "the crashing thunder",
+          matchEn: "Sound -- describes how something sounds",
+          matchMy: "Sound -- တစ်ခုခု ဘယ်လိုကြားရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-3",
+          termEn: "the sweet smell of mangoes",
+          termMy: "the sweet smell of mangoes",
+          matchEn: "Smell -- describes how something smells",
+          matchMy: "Smell -- တစ်ခုခု ဘယ်လိုအနံ့ရှိသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-4",
+          termEn: "the sour taste of a lemon",
+          termMy: "the sour taste of a lemon",
+          matchEn: "Taste -- describes how something tastes",
+          matchMy: "Taste -- တစ်ခုခု ဘယ်လိုအရသာရှိသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-5",
+          termEn: "the soft, fluffy blanket",
+          termMy: "the soft, fluffy blanket",
+          matchEn: "Touch -- describes how something feels",
+          matchMy: "Touch -- တစ်ခုခု ဘယ်လိုခံစားရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-6",
+          termEn: "the bright, colorful kite",
+          termMy: "the bright, colorful kite",
+          matchEn: "Sight -- describes how something looks",
+          matchMy: "Sight -- တစ်ခုခု ဘယ်လိုမြင်ရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-7",
+          termEn: "the buzzing bees",
+          termMy: "the buzzing bees",
+          matchEn: "Sound -- describes how something sounds",
+          matchMy: "Sound -- တစ်ခုခု ဘယ်လိုကြားရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w10-dm-8",
+          termEn: "the rough tree bark",
+          termMy: "the rough tree bark",
+          matchEn: "Touch -- describes how something feels",
+          matchMy: "Touch -- တစ်ခုခု ဘယ်လိုခံစားရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w10-d3",
+      dayNumber: 3,
+      titleEn: "A Walk Through the Market",
+      titleMy: "ဈေးထဲကို လမ်းလျှောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Walk Through the Market",
+        titleMy: "ဈေးထဲကို လမ်းလျှောက်ခြင်း",
+        passageEn:
+            "Tin walked slowly through the busy Nova market. Bright red tomatoes and golden mangoes filled the wooden stalls. Vendors shouted cheerfully, and bicycle bells jingled nearby. The sweet smell of fried banana cakes drifted through the air. Tin tasted a juicy slice of watermelon, cool and refreshing. He touched a soft basket woven from dried grass. Every corner of the market felt alive with color, sound, and smell.",
+        passageMy:
+            "တင်သည် အလုပ်များနေသော Nova ဈေးထဲကို ဖြည်းညှင်းစွာ လမ်းလျှောက်ခဲ့သည်။ တောက်ပနီရဲသော ခရမ်းချဉ်သီးများနှင့် ရွှေရောင် သရက်သီးများသည် သစ်သားဆိုင်ခန်းများကို ဖြည့်ဆည်းထားသည်။ ရောင်းသူများသည် ရွှင်လန်းစွာ အော်ဟစ်ခဲ့ကြပြီး စက်ဘီးမီးခေါင်းလောင်းများ အနီးတွင် လှိုက်စေ့တီးမှုတ်ခဲ့သည်။ ကြော်ငှက်ပျောသီးမုန့်၏ ချိုမြိန်သောအနံ့သည် လေထုတစ်လျှောက် ပျံ့လွင့်နေသည်။ တင်သည် အေးမြပြီး အားဖြည့်ပေးသော ပက်စမွန်သီးအပိုင်းငယ်တစ်ခုကို စားကြည့်ခဲ့သည်။ သူသည် သစ်ခြောက်မျှင်ဖြင့် ရက်လုပ်ထားသော နူးညံ့သောခြင်းတောင်းတစ်ခုကို ထိတွေ့ခဲ့သည်။ ဈေး၏ ထောင့်တိုင်းသည် အရောင်၊ အသံနှင့် အနံ့တို့ဖြင့် ရှင်သန်နေသကဲ့သို့ ခံစားရသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What colors were mentioned in the story?",
+            questionMy: "ဒီပုံပြင်ထဲတွင် ဘယ်အရောင်များ ပါဝင်ခဲ့သနည်း။",
+            optionsEn: [
+              "Red and gold",
+              "Blue and green",
+              "Black and white",
+              "Purple and pink",
+            ],
+            optionsMy: [
+              "Red and gold",
+              "Blue and green",
+              "Black and white",
+              "Purple and pink",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which sense is used in \"vendors shouted cheerfully\"?",
+            questionMy:
+                "\"vendors shouted cheerfully\" တွင် ဘယ်အာရုံကို အသုံးပြုထားသနည်း။",
+            optionsEn: ["Sound", "Sight", "Smell", "Taste"],
+            optionsMy: ["Sound", "Sight", "Smell", "Taste"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What smell drifted through the market?",
+            questionMy: "ဈေးထဲတွင် ဘယ်အနံ့ ပျံ့လွင့်နေခဲ့သနည်း။",
+            optionsEn: [
+              "Fried banana cakes",
+              "Fresh flowers",
+              "Wet grass",
+              "Burning wood",
+            ],
+            optionsMy: [
+              "Fried banana cakes",
+              "Fresh flowers",
+              "Wet grass",
+              "Burning wood",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Tin taste?",
+            questionMy: "တင်သည် ဘာကို စားကြည့်ခဲ့သနည်း။",
+            optionsEn: [
+              "A juicy slice of watermelon",
+              "A sour lemon",
+              "A sweet mango",
+              "Fried rice",
+            ],
+            optionsMy: [
+              "A juicy slice of watermelon",
+              "A sour lemon",
+              "A sweet mango",
+              "Fried rice",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did the soft basket feel like?",
+            questionMy: "နူးညံ့သောခြင်းတောင်းသည် ဘယ်လို ခံစားရသနည်း။",
+            optionsEn: [
+              "Woven from dried grass",
+              "Made of hard plastic",
+              "Made of cold metal",
+              "Wrapped in paper",
+            ],
+            optionsMy: [
+              "Woven from dried grass",
+              "Made of hard plastic",
+              "Made of cold metal",
+              "Wrapped in paper",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w10-d4",
+      dayNumber: 4,
+      titleEn: "Sort by the Five Senses",
+      titleMy: "အာရုံငါးမျိုးအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sight", "Sound", "Smell", "Taste", "Touch"],
+        bucketsMy: ["Sight", "Sound", "Smell", "Taste", "Touch"],
+        items: [
+          SortingItem(
+            id: "y4eng-w10-sort-1",
+            labelEn: "the golden sunset",
+            labelMy: "the golden sunset",
+            correctBucketEn: "Sight",
+            correctBucketMy: "Sight",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-2",
+            labelEn: "the bright kite",
+            labelMy: "the bright kite",
+            correctBucketEn: "Sight",
+            correctBucketMy: "Sight",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-3",
+            labelEn: "the crashing thunder",
+            labelMy: "the crashing thunder",
+            correctBucketEn: "Sound",
+            correctBucketMy: "Sound",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-4",
+            labelEn: "the buzzing bees",
+            labelMy: "the buzzing bees",
+            correctBucketEn: "Sound",
+            correctBucketMy: "Sound",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-5",
+            labelEn: "the sweet mango smell",
+            labelMy: "the sweet mango smell",
+            correctBucketEn: "Smell",
+            correctBucketMy: "Smell",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-6",
+            labelEn: "the fresh bread smell",
+            labelMy: "the fresh bread smell",
+            correctBucketEn: "Smell",
+            correctBucketMy: "Smell",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-7",
+            labelEn: "the sour lemon",
+            labelMy: "the sour lemon",
+            correctBucketEn: "Taste",
+            correctBucketMy: "Taste",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-8",
+            labelEn: "the sweet watermelon",
+            labelMy: "the sweet watermelon",
+            correctBucketEn: "Taste",
+            correctBucketMy: "Taste",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-9",
+            labelEn: "the soft blanket",
+            labelMy: "the soft blanket",
+            correctBucketEn: "Touch",
+            correctBucketMy: "Touch",
+          ),
+          SortingItem(
+            id: "y4eng-w10-sort-10",
+            labelEn: "the rough bark",
+            labelMy: "the rough bark",
+            correctBucketEn: "Touch",
+            correctBucketMy: "Touch",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w10-d5",
+      dayNumber: 5,
+      titleEn: "Five Senses Recap",
+      titleMy: "အာရုံငါးမျိုး ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which sense notices color?",
+          questionMy: "ဘယ်အာရုံက အရောင်ကို သတိထားမိသနည်း။",
+          optionsEn: ["Sight", "Sound", "Smell", "Taste"],
+          optionsMy: ["Sight", "Sound", "Smell", "Taste"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense notices a loud drum?",
+          questionMy: "ဘယ်အာရုံက ကျယ်လောင်သော ပတ်သာသံကို သတိထားမိသနည်း။",
+          optionsEn: ["Sound", "Sight", "Taste", "Touch"],
+          optionsMy: ["Sound", "Sight", "Taste", "Touch"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense notices a sweet smell?",
+          questionMy: "ဘယ်အာရုံက ချိုမြိန်သောအနံ့ကို သတိထားမိသနည်း။",
+          optionsEn: ["Smell", "Sight", "Taste", "Sound"],
+          optionsMy: ["Smell", "Sight", "Taste", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense notices a sour taste?",
+          questionMy: "ဘယ်အာရုံက ချဉ်သောအရသာကို သတိထားမိသနည်း။",
+          optionsEn: ["Taste", "Smell", "Sight", "Sound"],
+          optionsMy: ["Taste", "Smell", "Sight", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Good descriptive writing uses the five senses to...",
+          questionMy:
+              "ကောင်းမွန်သော ဖော်ပြရေးသားချက်သည် အာရုံငါးမျိုးကို ဘယ်အတွက် အသုံးပြုသနည်း။",
+          optionsEn: [
+            "help the reader imagine the scene clearly",
+            "make the story shorter",
+            "hide the story's meaning",
+            "avoid using adjectives",
+          ],
+          optionsMy: [
+            "help the reader imagine the scene clearly",
+            "make the story shorter",
+            "hide the story's meaning",
+            "avoid using adjectives",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 3, Week 11: "Story Sequencing"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek11 = CourseWeekDef(
+  id: "course-year4-english-w11",
+  weekNumber: 11,
+  titleEn: "Story Sequencing",
+  titleMy: "ဇာတ်လမ်း အစီအစဉ်ဆက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w11-d1",
+      dayNumber: 1,
+      titleEn: "Beginning, Middle, and End",
+      titleMy: "အစ၊ အလယ်နှင့် အဆုံး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Every story has a beginning, a middle, and an...",
+          questionMy: "ဇာတ်လမ်းတိုင်းသည် အစ၊ အလယ်နှင့် ...ရှိသည်။",
+          optionsEn: ["end", "character", "setting", "title"],
+          optionsMy: ["end", "character", "setting", "title"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sequencing word usually starts a story?",
+          questionMy:
+              "ဘယ်စီစဉ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["First", "Finally", "Then", "After"],
+          optionsMy: ["First", "Finally", "Then", "After"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sequencing word usually ends a story?",
+          questionMy:
+              "ဘယ်စီစဉ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် အဆုံးသတ်လေ့ရှိသနည်း။",
+          optionsEn: ["Finally", "First", "Next", "Then"],
+          optionsMy: ["Finally", "First", "Next", "Then"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the beginning of a story, we usually meet the...",
+          questionMy:
+              "ဇာတ်လမ်း၏ အစပိုင်းတွင် ငါတို့ ပုံမှန်အားဖြင့် ...ကို တွေ့ကြရသည်။",
+          optionsEn: [
+            "characters and setting",
+            "ending",
+            "conflict resolution",
+            "title only",
+          ],
+          optionsMy: [
+            "characters and setting",
+            "ending",
+            "conflict resolution",
+            "title only",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the middle of a story, we usually see the...",
+          questionMy:
+              "ဇာတ်လမ်း၏ အလယ်ပိုင်းတွင် ငါတို့ ပုံမှန်အားဖြင့် ...ကို တွေ့ကြရသည်။",
+          optionsEn: [
+            "main problem or events",
+            "the very end",
+            "the title",
+            "nothing important",
+          ],
+          optionsMy: [
+            "main problem or events",
+            "the very end",
+            "the title",
+            "nothing important",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the end of a story, the problem is usually...",
+          questionMy:
+              "ဇာတ်လမ်း၏ အဆုံးတွင် ပြဿနာသည် ပုံမှန်အားဖြင့် ...ဖြစ်သည်။",
+          optionsEn: ["solved", "forgotten", "made worse forever", "hidden"],
+          optionsMy: ["solved", "forgotten", "made worse forever", "hidden"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses a sequencing word?",
+          questionMy: "ဘယ်ဝါကျသည် စီစဉ်စကားလုံး အသုံးပြုထားသနည်း။",
+          optionsEn: [
+            "Next, she packed her bag.",
+            "She has a red bag.",
+            "The bag is heavy.",
+            "A bag is useful.",
+          ],
+          optionsMy: [
+            "Next, she packed her bag.",
+            "She has a red bag.",
+            "The bag is heavy.",
+            "A bag is useful.",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Put these in order: \"Then\", \"First\", \"Finally\" -- which comes first?",
+          questionMy:
+              "\"Then\"၊ \"First\"၊ \"Finally\" -- ဘယ်ဟာက ပထမဆုံး လာသနည်း။",
+          optionsEn: ["First", "Then", "Finally", "None"],
+          optionsMy: ["First", "Then", "Finally", "None"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match the Sequencing Word",
+      titleMy: "စီစဉ်စကားလုံးကို ချိတ်ဆက်ပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w11-dm-1",
+          termEn: "First",
+          termMy: "First",
+          matchEn: "Used at the beginning -- to start telling the story",
+          matchMy: "အစပိုင်းတွင် သုံးသည် -- ဇာတ်လမ်းကို စတင်ပြောပြရန်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-2",
+          termEn: "Next",
+          termMy: "Next",
+          matchEn: "Used in the middle -- to show what happens after the start",
+          matchMy: "အလယ်ပိုင်းတွင် သုံးသည် -- အစပြီးနောက် ဘာဖြစ်သည်ကို ပြသရန်",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-3",
+          termEn: "Then",
+          termMy: "Then",
+          matchEn: "Used in the middle -- to link one event to the next",
+          matchMy:
+              "အလယ်ပိုင်းတွင် သုံးသည် -- ဖြစ်ရပ်တစ်ခုကို နောက်တစ်ခုနှင့် ဆက်စပ်ပေးရန်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-4",
+          termEn: "After that",
+          termMy: "After that",
+          matchEn: "Used in the middle -- to show another event follows",
+          matchMy:
+              "အလယ်ပိုင်းတွင် သုံးသည် -- နောက်ထပ်ဖြစ်ရပ်တစ်ခု ဆက်လက်ဖြစ်ပေါ်ကြောင်း ပြသရန်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-5",
+          termEn: "Finally",
+          termMy: "Finally",
+          matchEn: "Used at the end -- to show the last event",
+          matchMy: "အဆုံးတွင် သုံးသည် -- နောက်ဆုံးဖြစ်ရပ်ကို ပြသရန်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-6",
+          termEn: "Beginning",
+          termMy: "Beginning",
+          matchEn:
+              "The first part of a story -- introduces characters and setting",
+          matchMy:
+              "ဇာတ်လမ်း၏ ပထမပိုင်း -- ဇာတ်ကောင်နှင့် နောက်ခံအခင်းအကျင်းကို မိတ်ဆက်သည်",
+          colorValue: 0xFF6FCF97,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-7",
+          termEn: "Middle",
+          termMy: "Middle",
+          matchEn: "The main part of a story -- where the problem happens",
+          matchMy: "ဇာတ်လမ်း၏ အဓိကပိုင်း -- ပြဿနာဖြစ်ပေါ်သည့်နေရာ",
+          colorValue: 0xFF56CCF2,
+        ),
+        DragMatchPair(
+          id: "y4eng-w11-dm-8",
+          termEn: "End",
+          termMy: "End",
+          matchEn: "The last part of a story -- where the problem is solved",
+          matchMy: "ဇာတ်လမ်း၏ နောက်ဆုံးပိုင်း -- ပြဿနာ ဖြေရှင်းပြီးသည့်နေရာ",
+          colorValue: 0xFFF2C94C,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w11-d3",
+      dayNumber: 3,
+      titleEn: "Nay Chi's Garden Project",
+      titleMy: "နေချည်၏ ဥယျာဉ်စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Garden Project",
+        titleMy: "နေချည်၏ ဥယျာဉ်စီမံကိန်း",
+        passageEn:
+            "First, Nay Chi chose a sunny spot in the school garden. Next, she planted small bean seeds in the soft soil. Then, she watered the seeds every morning before class. After that, tiny green shoots began to appear above the ground. Finally, after three weeks, Nay Chi harvested her very first beans and shared them proudly with her classmates.",
+        passageMy:
+            "ပထမဦးစွာ နေချည်သည် ကျောင်းဥယျာဉ်ထဲမှ နေရောင်ခြည်ကောင်းသောနေရာတစ်ခုကို ရွေးချယ်ခဲ့သည်။ ထို့နောက် သူမသည် နူးညံ့သောမြေဆီလွှာထဲတွင် ပဲစေ့သေးလေးများကို စိုက်ပျိုးခဲ့သည်။ ထို့နောက် သူမသည် အတန်းမတက်ခင် နံနက်တိုင်း မျိုးစေ့များကို ရေလောင်းခဲ့သည်။ ထို့နောက် အညှောက်စိမ်းလေးများ မြေပြင်အထက်တွင် ပေါ်လာစပြုခဲ့သည်။ နောက်ဆုံးတွင် သုံးပတ်အကြာတွင် နေချည်သည် သူမ၏ ပထမဆုံးပဲသီးများကို ရိတ်သိမ်းပြီး အတန်းဖော်များနှင့် ဂုဏ်ယူစွာ ခွဲဝေပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What did Nay Chi do first?",
+            questionMy: "နေချည်သည် ဘာကို ဦးစွာ လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Chose a sunny spot",
+              "Watered the seeds",
+              "Harvested the beans",
+              "Planted the seeds",
+            ],
+            optionsMy: [
+              "Chose a sunny spot",
+              "Watered the seeds",
+              "Harvested the beans",
+              "Planted the seeds",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What did Nay Chi do next, after choosing the spot?",
+            questionMy: "နေရာရွေးချယ်ပြီးနောက် နေချည်သည် ဘာဆက်လုပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "Planted small bean seeds",
+              "Watered the seeds",
+              "Harvested the beans",
+              "Shared with classmates",
+            ],
+            optionsMy: [
+              "Planted small bean seeds",
+              "Watered the seeds",
+              "Harvested the beans",
+              "Shared with classmates",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "When did tiny green shoots begin to appear?",
+            questionMy: "အညှောက်စိမ်းလေးများ ဘယ်အချိန်တွင် ပေါ်လာစပြုသနည်း။",
+            optionsEn: [
+              "After watering every morning",
+              "On the very first day",
+              "Before planting",
+              "After harvesting",
+            ],
+            optionsMy: [
+              "After watering every morning",
+              "On the very first day",
+              "Before planting",
+              "After harvesting",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What happened finally, after three weeks?",
+            questionMy: "သုံးပတ်အကြာတွင် နောက်ဆုံး ဘာဖြစ်ပျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Nay Chi harvested her beans",
+              "Nay Chi planted new seeds",
+              "Nay Chi moved the garden",
+              "Nay Chi stopped watering",
+            ],
+            optionsMy: [
+              "Nay Chi harvested her beans",
+              "Nay Chi planted new seeds",
+              "Nay Chi moved the garden",
+              "Nay Chi stopped watering",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which sequencing word does the story use to describe the very last event?",
+            questionMy:
+                "ဒီပုံပြင်သည် နောက်ဆုံးဖြစ်ရပ်ကို ဖော်ပြရန် ဘယ်စီစဉ်စကားလုံးကို သုံးထားသနည်း။",
+            optionsEn: ["Finally", "First", "Next", "Then"],
+            optionsMy: ["Finally", "First", "Next", "Then"],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w11-d4",
+      dayNumber: 4,
+      titleEn: "Sort the Story Parts",
+      titleMy: "ဇာတ်လမ်းအပိုင်းများကို ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Beginning", "Middle", "End"],
+        bucketsMy: ["အစ", "အလယ်", "အဆုံး"],
+        items: [
+          SortingItem(
+            id: "y4eng-w11-sort-1",
+            labelEn: "Nay Chi chose a sunny spot",
+            labelMy: "Nay Chi chose a sunny spot",
+            correctBucketEn: "Beginning",
+            correctBucketMy: "အစ",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-2",
+            labelEn: "She planted small bean seeds",
+            labelMy: "She planted small bean seeds",
+            correctBucketEn: "Beginning",
+            correctBucketMy: "အစ",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-3",
+            labelEn: "She met her classmates in the garden",
+            labelMy: "She met her classmates in the garden",
+            correctBucketEn: "Beginning",
+            correctBucketMy: "အစ",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-4",
+            labelEn: "She watered the seeds every morning",
+            labelMy: "She watered the seeds every morning",
+            correctBucketEn: "Middle",
+            correctBucketMy: "အလယ်",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-5",
+            labelEn: "Tiny green shoots appeared",
+            labelMy: "Tiny green shoots appeared",
+            correctBucketEn: "Middle",
+            correctBucketMy: "အလယ်",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-6",
+            labelEn: "She pulled out weeds carefully",
+            labelMy: "She pulled out weeds carefully",
+            correctBucketEn: "Middle",
+            correctBucketMy: "အလယ်",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-7",
+            labelEn: "She harvested her first beans",
+            labelMy: "She harvested her first beans",
+            correctBucketEn: "End",
+            correctBucketMy: "အဆုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-8",
+            labelEn: "She shared beans with classmates",
+            labelMy: "She shared beans with classmates",
+            correctBucketEn: "End",
+            correctBucketMy: "အဆုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w11-sort-9",
+            labelEn: "She celebrated her garden success",
+            labelMy: "She celebrated her garden success",
+            correctBucketEn: "End",
+            correctBucketMy: "အဆုံး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w11-d5",
+      dayNumber: 5,
+      titleEn: "Sequencing Recap",
+      titleMy: "အစီအစဉ်ဆက်ခြင်း ပြန်လှန်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Every story has a beginning, a middle, and an...",
+          questionMy: "ဇာတ်လမ်းတိုင်းသည် အစ၊ အလယ်နှင့် ...ရှိသည်။",
+          optionsEn: ["end", "character", "setting", "title"],
+          optionsMy: ["end", "character", "setting", "title"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word usually starts a story?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["First", "Finally", "Then", "After"],
+          optionsMy: ["First", "Finally", "Then", "After"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which word usually ends a story?",
+          questionMy:
+              "ဘယ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် အဆုံးသတ်လေ့ရှိသနည်း။",
+          optionsEn: ["Finally", "First", "Next", "Then"],
+          optionsMy: ["Finally", "First", "Next", "Then"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the middle of a story, we usually see the...",
+          questionMy:
+              "ဇာတ်လမ်း၏ အလယ်ပိုင်းတွင် ငါတို့ ပုံမှန်အားဖြင့် ...ကို တွေ့ကြရသည်။",
+          optionsEn: [
+            "main problem or events",
+            "the very end",
+            "the title",
+            "nothing important",
+          ],
+          optionsMy: [
+            "main problem or events",
+            "the very end",
+            "the title",
+            "nothing important",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sentence uses a sequencing word?",
+          questionMy: "ဘယ်ဝါကျသည် စီစဉ်စကားလုံး အသုံးပြုထားသနည်း။",
+          optionsEn: [
+            "Next, she packed her bag.",
+            "She has a red bag.",
+            "The bag is heavy.",
+            "A bag is useful.",
+          ],
+          optionsMy: [
+            "Next, she packed her bag.",
+            "She has a red bag.",
+            "The bag is heavy.",
+            "A bag is useful.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 4 English -- Term 3, Week 12 (Capstone): "The Nova School
+// Storytelling Festival"
+// =====================================================================
+
+const CourseWeekDef _year4EnglishWeek12 = CourseWeekDef(
+  id: "course-year4-english-w12",
+  weekNumber: 12,
+  titleEn: "The Nova School Storytelling Festival",
+  titleMy: "Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y4-english-w12-d1",
+      dayNumber: 1,
+      titleEn: "Storytelling Warm-Up",
+      titleMy: "ပုံပြင်ပြောပြခြင်း နွေးထွေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The people or animals a story is about are called...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["characters", "settings", "plots", "titles"],
+          optionsMy: ["characters", "settings", "plots", "titles"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense do we use to notice a sweet smell?",
+          questionMy: "ချိုမြိန်သောအနံ့ကို သတိထားမိရန် ဘယ်အာရုံကို သုံးသနည်း။",
+          optionsEn: ["Smell", "Sight", "Taste", "Sound"],
+          optionsMy: ["Smell", "Sight", "Taste", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sequencing word usually starts a story?",
+          questionMy:
+              "ဘယ်စီစဉ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် စတင်လေ့ရှိသနည်း။",
+          optionsEn: ["First", "Finally", "Then", "After"],
+          optionsMy: ["First", "Finally", "Then", "After"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The time and place of a story is called the...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်၏ အချိန်နှင့်နေရာကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["setting", "character", "plot", "ending"],
+          optionsMy: ["setting", "character", "plot", "ending"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Every story has a beginning, a middle, and an...",
+          questionMy: "ဇာတ်လမ်းတိုင်းသည် အစ၊ အလယ်နှင့် ...ရှိသည်။",
+          optionsEn: ["end", "character", "setting", "title"],
+          optionsMy: ["end", "character", "setting", "title"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w12-d2",
+      dayNumber: 2,
+      titleEn: "The Festival Stage",
+      titleMy: "ပွဲတော်စင်မြင့်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y4eng-w12-dm-1",
+          termEn: "a brave young girl",
+          termMy: "a brave young girl",
+          matchEn: "A character -- the story's main person",
+          matchMy: "ဇာတ်ကောင် -- ဇာတ်လမ်း၏ အဓိကလူ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y4eng-w12-dm-2",
+          termEn: "an old wooden ship",
+          termMy: "an old wooden ship",
+          matchEn: "A setting -- where the story takes place",
+          matchMy: "နောက်ခံအခင်းအကျင်း -- ဇာတ်လမ်း ဖြစ်ပေါ်သောနေရာ",
+          colorValue: 0xFFFF7F91,
+        ),
+        DragMatchPair(
+          id: "y4eng-w12-dm-3",
+          termEn: "the golden treasure chest",
+          termMy: "the golden treasure chest",
+          matchEn: "Sight detail -- describes how something looks",
+          matchMy: "Sight အသေးစိတ် -- တစ်ခုခု ဘယ်လိုမြင်ရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFFFFBF3C,
+        ),
+        DragMatchPair(
+          id: "y4eng-w12-dm-4",
+          termEn: "the creaking floorboards",
+          termMy: "the creaking floorboards",
+          matchEn: "Sound detail -- describes how something sounds",
+          matchMy: "Sound အသေးစိတ် -- တစ်ခုခု ဘယ်လိုကြားရသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF7271F7,
+        ),
+        DragMatchPair(
+          id: "y4eng-w12-dm-5",
+          termEn: "First",
+          termMy: "First",
+          matchEn: "A sequencing word -- starts the story",
+          matchMy: "စီစဉ်စကားလုံး -- ဇာတ်လမ်းကို စတင်ပေးသည်",
+          colorValue: 0xFFB5B557,
+        ),
+        DragMatchPair(
+          id: "y4eng-w12-dm-6",
+          termEn: "Finally",
+          termMy: "Finally",
+          matchEn: "A sequencing word -- ends the story",
+          matchMy: "စီစဉ်စကားလုံး -- ဇာတ်လမ်းကို အဆုံးသတ်ပေးသည်",
+          colorValue: 0xFF6FCF97,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort by Storytelling Tool",
+      titleMy: "ပုံပြင်ပြောပြသည့် ကိရိယာအလိုက် ခွဲခြားပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Story Element", "Sense Word", "Sequencing Word"],
+        bucketsMy: ["ဇာတ်လမ်းအစိတ်အပိုင်း", "အာရုံစကားလုံး", "စီစဉ်စကားလုံး"],
+        items: [
+          SortingItem(
+            id: "y4eng-w12-sort-1",
+            labelEn: "character",
+            labelMy: "character",
+            correctBucketEn: "Story Element",
+            correctBucketMy: "ဇာတ်လမ်းအစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-2",
+            labelEn: "setting",
+            labelMy: "setting",
+            correctBucketEn: "Story Element",
+            correctBucketMy: "ဇာတ်လမ်းအစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-3",
+            labelEn: "plot",
+            labelMy: "plot",
+            correctBucketEn: "Story Element",
+            correctBucketMy: "ဇာတ်လမ်းအစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-4",
+            labelEn: "sight",
+            labelMy: "sight",
+            correctBucketEn: "Sense Word",
+            correctBucketMy: "အာရုံစကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-5",
+            labelEn: "smell",
+            labelMy: "smell",
+            correctBucketEn: "Sense Word",
+            correctBucketMy: "အာရုံစကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-6",
+            labelEn: "touch",
+            labelMy: "touch",
+            correctBucketEn: "Sense Word",
+            correctBucketMy: "အာရုံစကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-7",
+            labelEn: "First",
+            labelMy: "First",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "စီစဉ်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-8",
+            labelEn: "Next",
+            labelMy: "Next",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "စီစဉ်စကားလုံး",
+          ),
+          SortingItem(
+            id: "y4eng-w12-sort-9",
+            labelEn: "Finally",
+            labelMy: "Finally",
+            correctBucketEn: "Sequencing Word",
+            correctBucketMy: "စီစဉ်စကားလုံး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w12-d4",
+      dayNumber: 4,
+      titleEn: "The Nova School Storytelling Festival",
+      titleMy: "Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Nova School Storytelling Festival",
+        titleMy: "Nova ကျောင်း ပုံပြင်ပြောပြပွဲတော်",
+        passageEn:
+            "Nova School held a Storytelling Festival. First, Ms. Thandar explained that every good story needs a character, a setting, and a plot. Next, Tin told a story about a curious mouse (character) who lived in a giant library (setting) and searched for a magic book (plot). Then, Nay Chi added rich sensory details -- the dusty smell of old pages, the soft whisper of turning pages, and the golden glow of candlelight. Finally, Moe Moe closed the festival with a story that used First, Then, and Finally to guide her audience clearly from beginning to end. \"Great stories connect characters, settings, senses, and order into one exciting journey!\" said Ms. Thandar proudly.",
+        passageMy:
+            "Nova ကျောင်းသည် ပုံပြင်ပြောပြပွဲတော်တစ်ခု ကျင်းပခဲ့သည်။ ပထမဦးစွာ ကောင်းမွန်သောဇာတ်လမ်းတိုင်းသည် ဇာတ်ကောင်၊ နောက်ခံအခင်းအကျင်းနှင့် ဇာတ်ကြောင်း လိုအပ်ကြောင်း ဆရာမ သန္တာက ရှင်းပြခဲ့သည်။ ထို့နောက် တင်သည် ကြီးမားသော စာကြည့်တိုက် (နောက်ခံအခင်းအကျင်း) ထဲတွင် နေထိုင်ပြီး မှော်စာအုပ်တစ်အုပ်ကို ရှာဖွေနေသော (ဇာတ်ကြောင်း) စူးစမ်းလိုစိတ်ရှိသော ကြွက်တစ်ကောင် (ဇာတ်ကောင်) အကြောင်း ဇာတ်လမ်းတစ်ပုဒ်ကို ပြောပြခဲ့သည်။ ထို့နောက် နေချည်သည် သိမ်မွေ့သော အာရုံအသေးစိတ်များကို ထည့်သွင်းခဲ့သည် -- စာမျက်နှာဟောင်းများ၏ ဖုန်မှုန့်အနံ့၊ စာမျက်နှာလှန်သောအခါ နူးညံ့စွာ ကြားရသောအသံနှင့် ဖယောင်းတိုင်အလင်း၏ ရွှေရောင်တောက်ပမှု တို့ ဖြစ်သည်။ နောက်ဆုံးတွင် မိုးမိုးသည် First၊ Then နှင့် Finally တို့ကို အသုံးပြု၍ သူမ၏ ပရိသတ်ကို အစမှ အဆုံးအထိ ရှင်းလင်းစွာ လမ်းညွှန်ပေးသော ဇာတ်လမ်းတစ်ပုဒ်ဖြင့် ပွဲတော်ကို ပိတ်ပင်ခဲ့သည်။ \"ကောင်းမွန်သောဇာတ်လမ်းများသည် ဇာတ်ကောင်များ၊ နောက်ခံအခင်းအကျင်းများ၊ အာရုံများနှင့် အစီအစဉ်ကို စိတ်လှုပ်ရှားစရာ ခရီးစဉ်တစ်ခုအဖြစ် ဆက်စပ်ပေးတယ်!\" ဟု ဆရာမ သန္တာက ဂုဏ်ယူစွာ ပြောလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What three things did Ms. Thandar say every good story needs?",
+            questionMy:
+                "ဆရာမ သန္တာသည် ကောင်းမွန်သောဇာတ်လမ်းတိုင်း လိုအပ်သော အချက်သုံးချက်ကို ဘာဟု ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "A character, a setting, and a plot",
+              "A title, a picture, and a cover",
+              "A beginning, a middle, and money",
+              "A hero, a villain, and a castle",
+            ],
+            optionsMy: [
+              "A character, a setting, and a plot",
+              "A title, a picture, and a cover",
+              "A beginning, a middle, and money",
+              "A hero, a villain, and a castle",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What was Tin's character in his story?",
+            questionMy: "တင်၏ ဇာတ်လမ်းထဲက ဇာတ်ကောင်က ဘာဖြစ်သနည်း။",
+            optionsEn: [
+              "A curious mouse",
+              "A brave knight",
+              "A kind teacher",
+              "A wise old owl",
+            ],
+            optionsMy: [
+              "A curious mouse",
+              "A brave knight",
+              "A kind teacher",
+              "A wise old owl",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What sensory detail did Nay Chi add about the pages?",
+            questionMy:
+                "နေချည်သည် စာမျက်နှာများအကြောင်း ဘယ်အာရုံအသေးစိတ်ကို ထည့်သွင်းခဲ့သနည်း။",
+            optionsEn: [
+              "The dusty smell of old pages",
+              "The taste of the pages",
+              "The color of the pages",
+              "The sound of the pages",
+            ],
+            optionsMy: [
+              "The dusty smell of old pages",
+              "The taste of the pages",
+              "The color of the pages",
+              "The sound of the pages",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Which sequencing words did Moe Moe use in her story?",
+            questionMy:
+                "မိုးမိုးသည် သူမ၏ဇာတ်လမ်းတွင် ဘယ်စီစဉ်စကားလုံးများကို သုံးခဲ့သနည်း။",
+            optionsEn: [
+              "First, Then, and Finally",
+              "Once, Now, and Later",
+              "Up, Down, and Around",
+              "Before, During, and After",
+            ],
+            optionsMy: [
+              "First, Then, and Finally",
+              "Once, Now, and Later",
+              "Up, Down, and Around",
+              "Before, During, and After",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "According to Ms. Thandar, great stories connect...",
+            questionMy:
+                "ဆရာမ သန္တာပြောသည့်အတိုင်း ကောင်းမွန်သောဇာတ်လမ်းများသည် ...ကို ဆက်စပ်ပေးသည်။",
+            optionsEn: [
+              "Characters, settings, senses, and order",
+              "Only pictures and colors",
+              "Only long sentences",
+              "Only funny jokes",
+            ],
+            optionsMy: [
+              "Characters, settings, senses, and order",
+              "Only pictures and colors",
+              "Only long sentences",
+              "Only funny jokes",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y4-english-w12-d5",
+      dayNumber: 5,
+      titleEn: "Storytelling Grand Finale",
+      titleMy: "ပုံပြင်ပြောပြခြင်း ကြီးမားသောအဆုံးသတ်ပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The people or animals a story is about are called...",
+          questionMy:
+              "ဇာတ်လမ်းတစ်ပုဒ်တွင် ပါဝင်သော လူ (သို့) တိရစ္ဆာန်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["characters", "settings", "plots", "titles"],
+          optionsMy: ["characters", "settings", "plots", "titles"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sense notices a sweet smell?",
+          questionMy: "ဘယ်အာရုံက ချိုမြိန်သောအနံ့ကို သတိထားမိသနည်း။",
+          optionsEn: ["Smell", "Sight", "Taste", "Sound"],
+          optionsMy: ["Smell", "Sight", "Taste", "Sound"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which sequencing word usually ends a story?",
+          questionMy:
+              "ဘယ်စီစဉ်စကားလုံးသည် ဇာတ်လမ်းကို ပုံမှန်အားဖြင့် အဆုံးသတ်လေ့ရှိသနည်း။",
+          optionsEn: ["Finally", "First", "Next", "Then"],
+          optionsMy: ["Finally", "First", "Next", "Then"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main events of a story are called the...",
+          questionMy: "ဇာတ်လမ်းတစ်ပုဒ်၏ အဓိကဖြစ်ရပ်များကို ဘယ်လို ခေါ်သနည်း။",
+          optionsEn: ["plot", "setting", "character", "cover"],
+          optionsMy: ["plot", "setting", "character", "cover"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This term, we learned about story elements, descriptive senses, and story sequencing. What is the big idea that connects everything we learned about telling a great story this term?",
+          questionMy:
+              "ဒီ Term မှာ ဇာတ်လမ်းအစိတ်အပိုင်းများ၊ ဖော်ပြရေးသားခြင်းအာရုံများနှင့် ဇာတ်လမ်းအစီအစဉ်ဆက်ခြင်းအကြောင်း သင်ကြားခဲ့ကြသည်။ ဒီ Term တစ်လျှောက် ကောင်းမွန်သောဇာတ်လမ်းတစ်ပုဒ် ပြောပြခြင်းအကြောင်း သင်ယူခဲ့သမျှကို ဆက်စပ်ပေးသော အကြီးမားဆုံးအယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A great story combines clear characters, settings, and events with vivid sensory details, told in a clear order from beginning to end.",
+            "A story only needs a title and nothing else.",
+            "The order of events in a story never matters.",
+            "Descriptive details are not important in stories.",
+          ],
+          optionsMy: [
+            "A great story combines clear characters, settings, and events with vivid sensory details, told in a clear order from beginning to end.",
+            "A story only needs a title and nothing else.",
+            "The order of events in a story never matters.",
+            "Descriptive details are not important in stories.",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year4EnglishTerm3 = CourseTermDef(
+  id: "course-year4-english-t3",
+  termNumber: 3,
+  titleEn: "Story Elements and Narrative Writing",
+  titleMy: "ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဇာတ်လမ်းရေးသားခြင်း",
+  certificateTitleEn: "Story Elements and Narrative Writing",
+  certificateTitleMy: "ဇာတ်လမ်းအစိတ်အပိုင်းများနှင့် ဇာတ်လမ်းရေးသားခြင်း",
+  weeks: [
+    _year4EnglishWeek9,
+    _year4EnglishWeek10,
+    _year4EnglishWeek11,
+    _year4EnglishWeek12,
   ],
 );
