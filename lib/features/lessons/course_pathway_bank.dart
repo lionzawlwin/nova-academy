@@ -14866,6 +14866,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   year5SciencePathway,
   year5HumanitiesPathway,
   year6MathematicsPathway,
+  year6SciencePathway,
 ];
 
 /// Finds the [DailyLessonDef] with [id] across every pathway/term/week, or
@@ -207828,6 +207829,16056 @@ const CoursePathwayDef year6MathematicsPathway = CoursePathwayDef(
     _year6MathematicsTerm7,
     _year6MathematicsTerm8,
     _year6MathematicsTerm9,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Terms 1-9 (Weeks 1-36)
+// =====================================================================
+
+// =====================================================================
+// Year 6 Science -- Term 1, Week 1: "Classifying Living Things"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek1 = CourseWeekDef(
+  id: "course-year6-science-w1",
+  weekNumber: 1,
+  titleEn: "Classifying Living Things",
+  titleMy: "သက်ရှိများကို အုပ်စုခွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w1-d1",
+      dayNumber: 1,
+      titleEn: "The Seven Life Processes",
+      titleMy: "ဘဝလုပ်ငန်းစဉ် ခုနစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is one of the seven life processes shared by all living things?",
+          questionMy:
+              "အောက်ပါတို့အနက် သက်ရှိအားလုံး ဝေမျှသော ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုအနက် တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Respiration",
+            "Watching television",
+            "Riding a bicycle",
+            "Painting a picture",
+          ],
+          optionsMy: [
+            "အသက်ရှူခြင်း",
+            "ရုပ်မြင်သံကြားကြည့်ခြင်း",
+            "စက်ဘီးစီးခြင်း",
+            "ပန်းချီရေးဆွဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which life process means producing offspring of the same kind?",
+          questionMy:
+              "မိမိမျိုးနွယ်တူ သားသမီးများ ထုတ်လုပ်ခြင်းကို ရည်ညွှန်းသော ဘဝလုပ်ငန်းစဉ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Nutrition", "Excretion", "Reproduction", "Growth"],
+          optionsMy: [
+            "အာဟာရ",
+            "စွန့်ထုတ်ခြင်း",
+            "မျိုးပွားခြင်း",
+            "ကြီးထွားခြင်း",
+          ],
+          correctIndex: 2,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cactus bending towards sunlight is an example of which life process?",
+          questionMy:
+              "ကက်တပ်စ်ပင်တစ်ပင် နေရောင်ဘက်သို့ ကွေးညွှတ်ခြင်းသည် မည်သည့် ဘဝလုပ်ငန်းစဉ်၏ ဥပမာဖြစ်သနည်း။",
+          optionsEn: [
+            "Excretion",
+            "Sensitivity",
+            "Movement of a car",
+            "Reproduction",
+          ],
+          optionsMy: [
+            "စွန့်ထုတ်ခြင်း",
+            "ထိတွေ့သိမြင်မှု",
+            "ကားလှုပ်ရှားမှု",
+            "မျိုးပွားခြင်း",
+          ],
+          correctIndex: 1,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which process describes a living thing getting rid of waste it no longer needs?",
+          questionMy:
+              "သက်ရှိတစ်ခုသည် မလိုအပ်တော့သော စွန့်ပစ်ပစ္စည်းများကို ထုတ်ပယ်ခြင်းကို ဖော်ပြသော လုပ်ငန်းစဉ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Excretion", "Nutrition", "Growth", "Respiration"],
+          optionsMy: [
+            "စွန့်ထုတ်ခြင်း",
+            "အာဟာရ",
+            "ကြီးထွားခြင်း",
+            "အသက်ရှူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai says a rock cannot be alive because it fails all seven life processes. Which life process would a rock most obviously fail?",
+          questionMy:
+              "ကျောက်တုံးတစ်ခုသည် ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုစလုံးကို ရှုံးနိမ့်သောကြောင့် အသက်မရှင်ဟု နှင်းဝေက ပြောသည်။ ကျောက်တုံးတစ်ခု အထင်ရှားဆုံး ရှုံးနိမ့်မည့် ဘဝလုပ်ငန်းစဉ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Growth from within itself",
+            "Being heavy",
+            "Being grey",
+            "Being found outdoors",
+          ],
+          optionsMy: [
+            "မိမိကိုယ်တိုင်အတွင်းမှ ကြီးထွားခြင်း",
+            "လေးလံခြင်း",
+            "မီးခိုးရောင်ဖြစ်ခြင်း",
+            "အပြင်တွင် တွေ့ရခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match the Classification Vocabulary",
+      titleMy: "အုပ်စုခွဲခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w1-dm-1",
+          termEn: "Vertebrate",
+          termMy: "ကျောရိုးရှိတိရစ္ဆာန် (Vertebrate)",
+          matchEn: "An animal that has a backbone",
+          matchMy: "ကျောရိုးရှိသော တိရစ္ဆာန်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w1-dm-2",
+          termEn: "Invertebrate",
+          termMy: "ကျောရိုးမဲ့တိရစ္ဆာန် (Invertebrate)",
+          matchEn: "An animal that has no backbone",
+          matchMy: "ကျောရိုးမရှိသော တိရစ္ဆာန်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w1-dm-3",
+          termEn: "Species",
+          termMy: "မျိုးစိတ် (Species)",
+          matchEn: "A group of living things that can breed together",
+          matchMy: "အတူတကွ မျိုးပွားနိုင်သော သက်ရှိအုပ်စု",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w1-dm-4",
+          termEn: "Mammal",
+          termMy: "နို့တိုက်တိရစ္ဆာန် (Mammal)",
+          matchEn: "A warm-blooded vertebrate that feeds young with milk",
+          matchMy: "ကလေးငယ်ကို နို့တိုက်ကျွေးသော သွေးနွေးတိရစ္ဆာန်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w1-dm-5",
+          termEn: "Amphibian",
+          termMy: "ရေကုန်းနှစ်ဖြာနေတိရစ္ဆာန် (Amphibian)",
+          matchEn:
+              "A vertebrate that lives part of its life in water and part on land",
+          matchMy:
+              "ဘဝတစ်ဝက်ကို ရေတွင်းနှင့် ကျန်တစ်ဝက်ကို ကုန်းပေါ်တွင် နေထိုင်သော ကျောရိုးရှိတိရစ္ဆာန်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w1-dm-6",
+          termEn: "Micro-organism",
+          termMy: "အဏုဇီဝဖြစ်စဉ် (Micro-organism)",
+          matchEn: "A living thing too small to see without a microscope",
+          matchMy: "အဏုစုံကိရိယာမပါဘဲ မမြင်နိုင်လောက်အောင် သေးငယ်သော သက်ရှိ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Vertebrate or Invertebrate?",
+      titleMy: "စီစစ်ကြမည် - ကျောရိုးရှိလား၊ မရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Vertebrate", "Invertebrate"],
+        bucketsMy: ["ကျောရိုးရှိတိရစ္ဆာန်", "ကျောရိုးမဲ့တိရစ္ဆာန်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w1-sort-1",
+            labelEn: "Elephant",
+            labelMy: "ဆင်",
+            correctBucketEn: "Vertebrate",
+            correctBucketMy: "ကျောရိုးရှိတိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y6sci-w1-sort-2",
+            labelEn: "Earthworm",
+            labelMy: "နန်းမြွေ",
+            correctBucketEn: "Invertebrate",
+            correctBucketMy: "ကျောရိုးမဲ့တိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y6sci-w1-sort-3",
+            labelEn: "Eagle",
+            labelMy: "လင်းယုန်",
+            correctBucketEn: "Vertebrate",
+            correctBucketMy: "ကျောရိုးရှိတိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y6sci-w1-sort-4",
+            labelEn: "Jellyfish",
+            labelMy: "ပင်လယ်စွန်",
+            correctBucketEn: "Invertebrate",
+            correctBucketMy: "ကျောရိုးမဲ့တိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y6sci-w1-sort-5",
+            labelEn: "Frog",
+            labelMy: "ဖား",
+            correctBucketEn: "Vertebrate",
+            correctBucketMy: "ကျောရိုးရှိတိရစ္ဆာန်",
+          ),
+          SortingItem(
+            id: "y6sci-w1-sort-6",
+            labelEn: "Spider",
+            labelMy: "ပင့်ကူ",
+            correctBucketEn: "Invertebrate",
+            correctBucketMy: "ကျောရိုးမဲ့တိရစ္ဆာန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Backyard Survey",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အိမ်ဝန်းအတွင်း သတ္တဝါစာရင်းကောက်ယူမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Backyard Survey",
+        titleMy: "နှင်းဝေ၏ အိမ်ဝန်းအတွင်း သတ္တဝါစာရင်းကောက်ယူမှု",
+        passageEn:
+            "Hnin Wai is now a Year 6 student at Nova School, and her science teacher has given the class a new project: spend one weekend counting every living thing found in a small patch of the school garden. Armed with a notebook and a magnifying glass, Hnin Wai starts by looking for animals with backbones. She spots a skink lizard basking on a warm stone and a sparrow pecking at seeds near the fence -- both vertebrates, she notes, one a reptile and one a bird.\n\nNext, Hnin Wai turns over a damp log and gasps at how much life is hiding underneath. Dozens of woodlice scuttle away, a fat earthworm stretches back into the soil, and a line of ants marches past carrying crumbs. None of these animals have a backbone, so Hnin Wai carefully writes 'invertebrate' next to each one in her notebook. She notices that the woodlice and ants both have jointed legs and hard outer coverings, which reminds her of what her teacher called arthropods.\n\nFinally, Hnin Wai presses her magnifying glass close to a patch of mould growing on a fallen mango. Her teacher explained that mould is neither a plant nor an animal -- it belongs to its own kingdom, the fungi, and grows from spores too small to see with the naked eye. By the end of the survey, Hnin Wai has filled three pages with vertebrates, invertebrates, and even a fungus, and she realises that a single patch of garden can hold an entire miniature classification chart.",
+        passageMy:
+            "နှင်းဝေသည် ယခုအခါ Nova School ၏ Year 6 ကျောင်းသူဖြစ်လာပြီး ၎င်း၏ သိပ္ပံဆရာမက စီမံကိန်းသစ်တစ်ခု ပေးအပ်လိုက်သည် - စနေ၊ တနင်္ဂနွေတစ်ခုကို အသုံးပြု၍ ကျောင်းဥယျာဉ်၏ နေရာငယ်တစ်ခုတွင် တွေ့ရှိသမျှ သက်ရှိအားလုံးကို ရေတွက်ရန်ဖြစ်သည်။ မှတ်စုစာအုပ်နှင့် မှန်ပြောင်းကိုင်၍ နှင်းဝေသည် ကျောရိုးရှိသော တိရစ္ဆာန်များကို ရှာဖွေခြင်းဖြင့် စတင်သည်။ နွေးထွေးသော ကျောက်တုံးပေါ်တွင် နေလှုံနေသော အုပ်ငှက်တစ်ကောင်နှင့် ခြံစည်းရိုးအနီးတွင် မျိုးစေ့ကောက်စားနေသော စာငှက်တစ်ကောင်ကို တွေ့ရသည် - နှစ်ကောင်စလုံးသည် ကျောရိုးရှိသော တိရစ္ဆာန်များဖြစ်ပြီး တစ်ကောင်က တွားသွားသတ္တဝါ၊ တစ်ကောင်က ငှက်ဖြစ်ကြောင်း မှတ်သားလိုက်သည်။\n\nထို့နောက် စိုစွတ်နေသော သစ်ကုန်းတုံးတစ်ခုကို လှန်ကြည့်ရာ အောက်တွင် သက်ရှိများ မည်မျှများပြားနေသည်ကို တွေ့ရသောကြောင့် အံ့သြသွားသည်။ ကျားချေမွှေးများ ဒါဇင်နှင့်ချီ၍ ပြေးထွက်သွားသည်၊ ဝဲ့ကြီးတစ်ကောင် မြေဩဇာသို့ ပြန်တွန်းသွားသည်၊ ပရွက်ဆိတ်တန်းတစ်ခုသည် အစာစအမှုန့်များကို သယ်ဆောင်၍ ဖြတ်သန်းသွားသည်။ ဤတိရစ္ဆာန်များထဲမှ မည်သည့်တစ်ကောင်မျှ ကျောရိုးမရှိသောကြောင့် နှင်းဝေသည် တစ်ကောင်စီအနီးတွင် 'ကျောရိုးမဲ့' ဟု မှတ်စုတွင် ဂရုတစိုက် ရေးမှတ်လိုက်သည်။ ကျားချေမွှေးများနှင့် ပရွက်ဆိတ်တို့၏ အဆစ်ရှိသော ခြေထောက်များနှင့် မာကျောသော အပြင်အခွံများကို သတိပြုမိသောအခါ ဆရာမပြောခဲ့သော arthropod များကို သတိရမိသည်။\n\nနောက်ဆုံးတွင် ကျရောက်နေသော သရက်သီးတစ်လုံးပေါ်တွင် ပေါက်ရောက်နေသော အမှိုက်တက်ကို မှန်ပြောင်းဖြင့် အနီးကပ် ကြည့်ရှုသည်။ အမှိုက်တက်သည် အပင်လည်းမဟုတ်၊ တိရစ္ဆာန်လည်းမဟုတ်ဘဲ ၎င်း၏ကိုယ်ပိုင်နိုင်ငံ ဖြစ်သော မှိုမျိုးစိတ်တွင် ပါဝင်ပြီး မျက်စိဖြင့်မမြင်နိုင်လောက်အောင် သေးငယ်သည့် spore များမှ ကြီးထွားလာကြောင်း ဆရာမက ရှင်းပြခဲ့သည်။ စစ်တမ်းကောက်ယူမှု အဆုံးတွင် နှင်းဝေသည် ကျောရိုးရှိတိရစ္ဆာန်၊ ကျောရိုးမဲ့တိရစ္ဆာန်နှင့် မှိုတစ်မျိုးအထိပါ စာမျက်နှာသုံးမျက်နှာ ရေးမှတ်ပြီးဖြစ်ကာ ဥယျာဉ်နေရာငယ်တစ်ခုတည်းတွင်ပင် အုပ်စုခွဲခြင်း ဇယားတစ်ခုလုံး ဖုံးအုပ်နေနိုင်ကြောင်း သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What two vertebrates does Hnin Wai spot first in the passage?",
+            questionMy:
+                "စာပိုဒ်ထဲတွင် နှင်းဝေ ဦးဆုံးတွေ့ရသော ကျောရိုးရှိတိရစ္ဆာန် နှစ်မျိုးမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A skink lizard and a sparrow",
+              "An eagle and a frog",
+              "A dog and a cat",
+              "A fish and a snake",
+            ],
+            optionsMy: [
+              "တွားသွားသတ္တဝါနှင့် စာငှက်",
+              "လင်းယုန်နှင့် ဖား",
+              "ခွေးနှင့် ကြောင်",
+              "ငါးနှင့် မြွေ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai find when she turns over the damp log?",
+            questionMy:
+                "စိုစွတ်သော သစ်ကုန်းတုံးကို လှန်ကြည့်သောအခါ နှင်းဝေ အဘယ်အရာကို တွေ့ရသနည်း။",
+            optionsEn: [
+              "Woodlice, an earthworm and ants",
+              "A skink lizard",
+              "A sparrow's nest",
+              "A patch of mould only",
+            ],
+            optionsMy: [
+              "ကျားချေမွှေး၊ ဝဲ့နှင့် ပရွက်ဆိတ်များ",
+              "တွားသွားသတ္တဝါ",
+              "စာငှက်၏ အသိုက်",
+              "အမှိုက်တက် တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai write 'invertebrate' next to the woodlice, earthworm and ants?",
+            questionMy:
+                "ကျားချေမွှေး၊ ဝဲ့နှင့် ပရွက်ဆိတ်များအနီးတွင် နှင်းဝေ 'ကျောရိုးမဲ့' ဟု အဘယ်ကြောင့် ရေးမှတ်သနည်း။",
+            optionsEn: [
+              "None of them have a backbone",
+              "They are all the same colour",
+              "They all live underground",
+              "They all can fly",
+            ],
+            optionsMy: [
+              "၎င်းတို့ မည်သည့်တစ်ကောင်မျှ ကျောရိုးမရှိသောကြောင့်",
+              "အားလုံး အရောင်တူသောကြောင့်",
+              "အားလုံး မြေအောက်တွင် နေထိုင်သောကြောင့်",
+              "အားလုံး ပျံနိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which kingdom does the mould on the fallen mango belong to?",
+            questionMy:
+                "စာပိုဒ်အရ ကျရောက်နေသော သရက်သီးပေါ်ရှိ အမှိုက်တက်သည် မည်သည့် နိုင်ငံအုပ်စုတွင် ပါဝင်သနည်း။",
+            optionsEn: ["Fungi", "Animals", "Plants", "Micro-organisms only"],
+            optionsMy: ["မှို", "တိရစ္ဆာန်", "အပင်", "အဏုဇီဝဖြစ်စဉ်သာ"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise by the end of her backyard survey?",
+            questionMy:
+                "အိမ်ဝန်းစစ်တမ်း အဆုံးတွင် နှင်းဝေ အဘယ်အရာကို သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "A single patch of garden can hold an entire miniature classification chart",
+              "Only vertebrates live in gardens",
+              "Fungi are a type of animal",
+              "Woodlice are vertebrates",
+            ],
+            optionsMy: [
+              "ဥယျာဉ်နေရာငယ်တစ်ခုတည်းတွင်ပင် အုပ်စုခွဲခြင်း ဇယားတစ်ခုလုံး ဖုံးအုပ်နေနိုင်ခြင်း",
+              "ဥယျာဉ်များတွင် ကျောရိုးရှိတိရစ္ဆာန်များသာ နေထိုင်ခြင်း",
+              "မှိုသည် တိရစ္ဆာန်တစ်မျိုးဖြစ်ခြင်း",
+              "ကျားချေမွှေးများသည် ကျောရိုးရှိတိရစ္ဆာန်များဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w1-d5",
+      dayNumber: 5,
+      titleEn: "Living Things Round-Up",
+      titleMy: "သက်ရှိများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which group includes frogs and toads?",
+          questionMy: "ဖားနှင့် ဖားကြီးများ ပါဝင်သည့် အုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: ["Amphibians", "Mammals", "Insects", "Fungi"],
+          optionsMy: [
+            "ရေကုန်းနှစ်ဖြာနေတိရစ္ဆာန်",
+            "နို့တိုက်တိရစ္ဆာန်",
+            "ပိုးဆွေး",
+            "မှို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a micro-organism?",
+          questionMy: "အောက်ပါတို့အနက် အဏုဇီဝဖြစ်စဉ် တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: ["Bacteria", "Elephant", "Oak tree", "Eagle"],
+          optionsMy: ["ဘက်တီးရီးယား", "ဆင်", "သစ်ပင်", "လင်းယုန်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A shark and a goldfish are both classified as which vertebrate group?",
+          questionMy:
+              "ငါးမန်းနှင့် ငါးရွှေတို့ကို ကျောရိုးရှိတိရစ္ဆာန်၏ မည်သည့်အုပ်စုအဖြစ် အုပ်စုခွဲသနည်း။",
+          optionsEn: ["Fish", "Mammals", "Birds", "Reptiles"],
+          optionsMy: ["ငါး", "နို့တိုက်တိရစ္ဆာန်", "ငှက်", "တွားသွားသတ္တဝါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which characteristic do all species within the same species share?",
+          questionMy:
+              "မျိုးစိတ်တူသော သက်ရှိများသည် မည်သည့် ဂုဏ်သတ္တိကို ဝေမျှကြသနည်း။",
+          optionsEn: [
+            "The ability to breed with one another and produce fertile offspring",
+            "The same favourite food",
+            "Living in the same country",
+            "Being the same colour",
+          ],
+          optionsMy: [
+            "တစ်ကောင်နှင့်တစ်ကောင် မျိုးပွား၍ မျိုးဆက်ပွားနိုင်သော သားသမီးများ ရရှိနိုင်စွမ်း",
+            "အကြိုက်ဆုံးအစားအစာ တူညီခြင်း",
+            "တိုင်းပြည်တစ်ခုတည်းတွင် နေထိုင်ခြင်း",
+            "အရောင်တူညီခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "During her backyard survey, which of Hnin Wai's finds belonged to neither the plant nor the animal kingdom?",
+          questionMy:
+              "အိမ်ဝန်းစစ်တမ်းကောက်ယူစဉ် နှင်းဝေ တွေ့ရှိသောအရာများအနက် အပင်နှင့် တိရစ္ဆာန် နိုင်ငံနှစ်ခုစလုံးတွင် မပါဝင်သော အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The mould on the fallen mango",
+            "The sparrow",
+            "The skink lizard",
+            "The earthworm",
+          ],
+          optionsMy: [
+            "ကျရောက်နေသော သရက်သီးပေါ်ရှိ အမှိုက်တက်",
+            "စာငှက်",
+            "တွားသွားသတ္တဝါ",
+            "ဝဲ့",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 1, Week 2: "Micro-organisms: Friend or Foe"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek2 = CourseWeekDef(
+  id: "course-year6-science-w2",
+  weekNumber: 2,
+  titleEn: "Micro-organisms: Friend or Foe",
+  titleMy: "အဏုဇီဝဖြစ်စဉ်များ - မိတ်ဆွေလား၊ ရန်သူလား",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w2-d1",
+      dayNumber: 1,
+      titleEn: "Bacteria, Viruses and Fungi",
+      titleMy: "ဘက်တီးရီးယား၊ ဗိုင်းရပ်စ်နှင့် မှို",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is a micro-organism used to make bread rise and yoghurt set?",
+          questionMy:
+              "ပေါင်မုန့်ဖောင်းစေရန်နှင့် ဒိန်ချဉ်အေးစေရန် အသုံးပြုသော အဏုဇီဝဖြစ်စဉ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Yeast and bacteria", "Sand", "Salt crystals", "Plastic"],
+          optionsMy: ["တိုးနှင့် ဘက်တီးရီးယား", "သဲ", "ဆားပုလင်း", "ပလတ်စတစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which micro-organism causes illnesses like colds and flu, and can only reproduce inside living cells?",
+          questionMy:
+              "အအေးမိခြင်းနှင့် တုပ်ကွေးကဲ့သို့ ဖျားနာမှုများကို ဖြစ်စေပြီး သက်ရှိဆဲလ်များအတွင်း၌သာ မျိုးပွားနိုင်သော အဏုဇီဝဖြစ်စဉ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Viruses", "Yeast", "Mushrooms", "Mould"],
+          optionsMy: ["ဗိုင်းရပ်စ်", "တိုး", "မှို", "အမှိုက်တက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a helpful use of fungi?",
+          questionMy:
+              "အောက်ပါတို့အနက် မှို၏ အသုံးဝင်သော အသုံးချမှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Making penicillin, an antibiotic medicine",
+            "Spoiling all food instantly",
+            "Causing every human disease",
+            "Polluting rivers",
+          ],
+          optionsMy: [
+            "ပဋိဇီဝဆေး ပင်နီစီလင်း ထုတ်လုပ်ခြင်း",
+            "အစားအစာအားလုံးကို ချက်ချင်း ပုပ်စေခြင်း",
+            "လူ့ရောဂါအားလုံးကို ဖြစ်စေခြင်း",
+            "မြစ်များကို ညစ်ညမ်းစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do people wash their hands with soap before eating?",
+          questionMy:
+              "လူများသည် အစားမစားမီ ဆပ်ပြာဖြင့် လက်ဆေးကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To remove harmful bacteria and viruses that could make them ill",
+            "To make their hands smell nice only",
+            "Because soap tastes good",
+            "To cool their hands down",
+          ],
+          optionsMy: [
+            "ဖျားနာစေနိုင်သော အန္တရာယ်ရှိ ဘက်တီးရီးယားနှင့် ဗိုင်းရပ်စ်များ ဖယ်ရှားရန်",
+            "လက်များကို အနံ့ကောင်းစေရန်သာ",
+            "ဆပ်ပြာအရသာ ကောင်းသောကြောင့်",
+            "လက်များကို အအေးဖြစ်စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's teacher says not all micro-organisms are harmful. Which example from class best supports this statement?",
+          questionMy:
+              "အဏုဇီဝဖြစ်စဉ်အားလုံးသည် အန္တရာယ်ရှိသည်မဟုတ်ဟု နှင်းဝေ၏ဆရာမက ပြောသည်။ ဤဆိုချက်ကို အထောက်အကူဆုံး ဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Yeast helping bread dough rise",
+            "A virus causing a cold",
+            "Bacteria spoiling milk",
+            "A fungus causing athlete's foot",
+          ],
+          optionsMy: [
+            "ပေါင်မုန့်မှုန့်ညက် ဖောင်းစေရန် တိုးက ကူညီခြင်း",
+            "အအေးမိခြင်းကို ဖြစ်စေသော ဗိုင်းရပ်စ်",
+            "နို့ကို ပုပ်စေသော ဘက်တီးရီးယား",
+            "ခြေဖျားရောင်ရောဂါကို ဖြစ်စေသော မှို",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match the Micro-organism Vocabulary",
+      titleMy: "အဏုဇီဝဖြစ်စဉ် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w2-dm-1",
+          termEn: "Bacteria",
+          termMy: "ဘက်တီးရီးယား (Bacteria)",
+          matchEn: "Single-celled micro-organisms found almost everywhere",
+          matchMy: "နေရာအနှံ့တွင် တွေ့ရသော ဆဲလ်တစ်ခုတည်းပါ အဏုဇီဝဖြစ်စဉ်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w2-dm-2",
+          termEn: "Virus",
+          termMy: "ဗိုင်းရပ်စ် (Virus)",
+          matchEn:
+              "A micro-organism that can only reproduce inside a living cell",
+          matchMy: "သက်ရှိဆဲလ်အတွင်း၌သာ မျိုးပွားနိုင်သော အဏုဇီဝဖြစ်စဉ်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w2-dm-3",
+          termEn: "Fungus",
+          termMy: "မှို (Fungus)",
+          matchEn:
+              "A living thing such as mould or mushroom that feeds by absorbing nutrients",
+          matchMy:
+              "အာဟာရများ စုပ်ယူ၍ စားသောက်သော အမှိုက်တက် သို့မဟုတ် မှိုကဲ့သို့သော သက်ရှိ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w2-dm-4",
+          termEn: "Antibiotic",
+          termMy: "ပဋိဇီဝဆေး (Antibiotic)",
+          matchEn:
+              "A medicine, often made from fungi, that fights bacterial infections",
+          matchMy:
+              "ဘက်တီးရီးယား ရောဂါပိုးများကို တိုက်ဖျက်ပေးသော မှိုမှ ထုတ်လုပ်လေ့ရှိသည့် ဆေးဝါး",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w2-dm-5",
+          termEn: "Decomposer",
+          termMy: "ဖျက်ဆီးသူ (Decomposer)",
+          matchEn: "An organism that breaks down dead plants and animals",
+          matchMy:
+              "သေဆုံးသွားသော အပင်နှင့် တိရစ္ဆာန်များကို ဖြိုခွဲပေးသော သက်ရှိ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w2-dm-6",
+          termEn: "Infection",
+          termMy: "ရောဂါကူးစက်မှု (Infection)",
+          matchEn: "When harmful micro-organisms enter the body and multiply",
+          matchMy:
+              "အန္တရာယ်ရှိ အဏုဇီဝဖြစ်စဉ်များ ခန္ဓာကိုယ်ထဲသို့ ဝင်ရောက်ပြီး မျိုးပွားချိန်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Helpful or Harmful Micro-organism?",
+      titleMy: "စီစစ်ကြမည် - အသုံးဝင်လား၊ အန္တရာယ်ရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helpful", "Harmful"],
+        bucketsMy: ["အသုံးဝင်သည်", "အန္တရာယ်ရှိသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w2-sort-1",
+            labelEn: "Yeast used to bake bread",
+            labelMy: "ပေါင်မုန့်ဖုတ်ရန် အသုံးပြုသော တိုး",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အသုံးဝင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w2-sort-2",
+            labelEn: "The flu virus",
+            labelMy: "တုပ်ကွေး ဗိုင်းရပ်စ်",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "အန္တရာယ်ရှိသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w2-sort-3",
+            labelEn: "Bacteria used to make yoghurt",
+            labelMy: "ဒိန်ချဉ်ပြုလုပ်ရန် အသုံးပြုသော ဘက်တီးရီးယား",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အသုံးဝင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w2-sort-4",
+            labelEn: "Mould that spoils bread",
+            labelMy: "ပေါင်မုန့်ကို ပုပ်စေသော အမှိုက်တက်",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "အန္တရာယ်ရှိသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w2-sort-5",
+            labelEn: "Fungus that makes penicillin",
+            labelMy: "ပင်နီစီလင်း ထုတ်လုပ်ပေးသော မှို",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အသုံးဝင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w2-sort-6",
+            labelEn: "Bacteria that causes food poisoning",
+            labelMy: "အစာအဆိပ်သင့်မှု ဖြစ်စေသော ဘက်တီးရီးယား",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "အန္တရာယ်ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Bread Experiment",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ပေါင်မုန့် စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Bread Experiment",
+        titleMy: "နှင်းဝေ၏ ပေါင်မုန့် စမ်းသပ်မှု",
+        passageEn:
+            "In science class, Hnin Wai's teacher hands out small packets of a fine brown powder and asks the students to mix it with warm water and a spoonful of sugar. Within minutes, the mixture in Hnin Wai's cup begins to bubble and froth, releasing a faint yeasty smell. \"That powder is yeast,\" the teacher explains, \"a living fungus made of millions of tiny cells. It is feeding on the sugar and releasing carbon dioxide gas as it grows -- that is exactly what makes bread dough rise.\"\n\nHnin Wai is fascinated that something too small to see could cause so many bubbles. Her teacher then shows the class two slices of bread left out for a week: one kept dry in a sealed bag, and one left slightly damp on a plate. The damp slice is covered in fuzzy green and white patches. \"That is mould, another type of fungus,\" the teacher says, \"and unlike the yeast we want in our dough, this mould has spoiled the bread and made it unsafe to eat.\"\n\nAt home that evening, Hnin Wai tells her mother that fungi are neither simply good nor simply bad -- it depends on which fungus it is and where it grows. She decides to test her idea further by keeping a jar of plain water next to a jar with a pinch of yeast and sugar, checking each morning to see which one bubbles and which one stays perfectly still, proving to herself that living micro-organisms, unlike ordinary water, are always busy carrying out their own life processes.",
+        passageMy:
+            "သိပ္ပံအတန်းတွင် နှင်းဝေ၏ဆရာမသည် အညိုရောင် အမှုန့်ညက်ငယ်များပါသော အထုပ်ငယ်များကို ဖြန့်ပေးပြီး နွေးထွေးသောရေနှင့် သကြားစပ်ရှစ်ချက်ချိုစ်တစ်ခုကို ရောနှောရန် ကျောင်းသားများအား တောင်းဆိုသည်။ မိနစ်အနည်းငယ်အတွင်း နှင်းဝေ၏ခွက်ထဲရှိ ရောနှောကုန်ကြမ်းသည် ပွက်ထလာပြီး မွှေးရနံ့သီးငယ်တစ်မျိုး ထွက်လာသည်။ \"အဲဒီအမှုန့်ကတော့ တိုးပါ\" ဟု ဆရာမ ရှင်းပြသည်၊ \"ဆဲလ်သန်းချီရှိသော အသက်ရှင်သည့် မှိုတစ်မျိုးဖြစ်ပြီး သကြားကို စားသောက်ကာ ကြီးထွားစဉ် ကာဗွန်ဒိုင်အောက်ဆိုက် ဓာတ်ငွေ့ထုတ်လွှတ်နေခြင်းဖြစ်သည် - ဒါဟာ ပေါင်မုန့်မှုန့်ညက်ကို ဖောင်းစေတဲ့အရာအတိအကျပါပဲ\"။\n\nမျက်စိနှင့်မမြင်နိုင်လောက်အောင် သေးငယ်သော အရာတစ်ခုက ပူပွက်ဖုတ်များစွာ ဖြစ်ပေါ်စေနိုင်သည်ကို နှင်းဝေ စိတ်ဝင်စားသွားသည်။ ထို့နောက် ဆရာမသည် တစ်ပတ်လောက် ချန်ထားသော ပေါင်မုန့်အချပ်နှစ်ချပ်ကို ကျောင်းသားများအား ပြသည် - တစ်ချပ်ကို အိတ်ပိတ်ထဲတွင် ခြောက်သွေ့စွာ ထားပြီး၊ ကျန်တစ်ချပ်ကို ပန်းကန်ပြားပေါ်တွင် အနည်းငယ် စိုစွတ်စေထားသည်။ စိုစွတ်နေသော အချပ်သည် အစိမ်းရောင်နှင့် အဖြူရောင် ဖုန်းကွက်များနှင့် လွှမ်းအုပ်နေသည်။ \"အဲဒါ အမှိုက်တက်ပါ၊ မှိုတစ်မျိုးထပ်ဖြစ်တယ်\" ဟု ဆရာမ ပြောသည်၊ \"ကျွန်တော်တို့ မုန့်ညက်ထဲမှာ လိုချင်တဲ့ တိုးနဲ့မတူဘဲ ဒီအမှိုက်တက်က ပေါင်မုန့်ကို ပုပ်ပျက်စေပြီး စားသုံးရန် မလုံခြုံစေတော့ဘူး\"။\n\nထိုနေ့ ညနေခင်းတွင် နှင်းဝေသည် မိမိ၏အမေအား မှိုများသည် ကောင်းသည်၊ ဆိုးသည် ရိုးရှင်းစွာ ခွဲခြားလို့မရဘဲ မည်သည့်မှိုမျိုး၊ မည်သည့်နေရာတွင် ပေါက်သည်ပေါ်တွင် မူတည်ကြောင်း ပြောပြသည်။ သူမ၏အတွေးကို ထပ်စမ်းသပ်ရန် ရေသန့်ဖန်ပုလင်းတစ်ခုကို တိုးနှင့် သကြားအနည်းငယ်ပါသော ဖန်ပုလင်းတစ်ခုနှင့် ဘေးချင်းယှဉ်ထားပြီး၊ မည်သည့်တစ်ခုက ပွက်ထပြီး မည်သည့်တစ်ခုက လုံးဝ ငြိမ်နေသည်ကို နံနက်တိုင်း စစ်ဆေးကာ အသက်ရှင်သော အဏုဇီဝဖြစ်စဉ်များသည် သာမန်ရေနှင့်မတူဘဲ မိမိကိုယ်ပိုင် ဘဝလုပ်ငန်းစဉ်များကို အမြဲလုပ်ဆောင်နေကြောင်း သက်သေပြလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What does the yeast feed on in Hnin Wai's cup?",
+            questionMy: "နှင်းဝေ၏ခွက်ထဲတွင် တိုးသည် အဘယ်အရာကို စားသောက်သနည်း။",
+            optionsEn: ["Sugar", "Salt", "Sand", "Plastic"],
+            optionsMy: ["သကြား", "ဆား", "သဲ", "ပလတ်စတစ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What gas does the yeast release that makes bread dough rise?",
+            questionMy:
+                "ပေါင်မုန့်မှုန့်ညက်ကို ဖောင်းစေသော တိုးထုတ်လွှတ်သည့် ဓာတ်ငွေ့မှာ အဘယ်နည်း။",
+            optionsEn: ["Carbon dioxide", "Oxygen", "Helium", "Hydrogen"],
+            optionsMy: [
+              "ကာဗွန်ဒိုင်အောက်ဆိုက်",
+              "အောက်ဆီဂျင်",
+              "ဟီလီယမ်",
+              "ဟိုက်ဒရိုဂျင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What covers the damp slice of bread left out for a week?",
+            questionMy:
+                "တစ်ပတ်လောက် စိုစွတ်စွာ ချန်ထားသော ပေါင်မုန့်အချပ်ကို အဘယ်အရာ လွှမ်းအုပ်နေသနည်း။",
+            optionsEn: ["Mould", "Sugar crystals", "Salt", "Fresh yeast"],
+            optionsMy: ["အမှိုက်တက်", "သကြားအလုံးများ", "ဆား", "တိုးအသစ်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the key difference between the yeast and the mould?",
+            questionMy:
+                "စာပိုဒ်အရ တိုးနှင့် အမှိုက်တက်တို့၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The yeast helps bread rise while the mould spoils it",
+              "The yeast is not alive but the mould is alive",
+              "The mould is used to bake bread",
+              "There is no difference between them",
+            ],
+            optionsMy: [
+              "တိုးသည် ပေါင်မုန့်ကို ဖောင်းစေပြီး အမှိုက်တက်သည် ပုပ်ပျက်စေခြင်း",
+              "တိုးသည် အသက်မရှင်ဘဲ အမှိုက်တက်ကသာ အသက်ရှင်ခြင်း",
+              "အမှိုက်တက်ကို ပေါင်မုန့်ဖုတ်ရန် အသုံးပြုခြင်း",
+              "၎င်းတို့ကြား ကွာခြားချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai conclude about fungi at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် နှင်းဝေသည် မှိုများအကြောင်း အဘယ်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "Fungi are neither simply good nor simply bad -- it depends on the fungus",
+              "All fungi are harmful",
+              "All fungi are helpful",
+              "Fungi are not living things",
+            ],
+            optionsMy: [
+              "မှိုများသည် ကောင်းသည်၊ ဆိုးသည် ရိုးရှင်းစွာ ခွဲခြားမရဘဲ မှိုမျိုးပေါ်တွင် မူတည်ခြင်း",
+              "မှိုအားလုံးသည် အန္တရာယ်ရှိခြင်း",
+              "မှိုအားလုံးသည် အသုံးဝင်ခြင်း",
+              "မှိုသည် သက်ရှိမဟုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w2-d5",
+      dayNumber: 5,
+      titleEn: "Micro-organisms Round-Up",
+      titleMy: "အဏုဇီဝဖြစ်စဉ်များ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which micro-organism is used to make antibiotics like penicillin?",
+          questionMy:
+              "ပင်နီစီလင်းကဲ့သို့သော ပဋိဇီဝဆေးများ ထုတ်လုပ်ရန် အသုံးပြုသော အဏုဇီဝဖြစ်စဉ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Fungi", "Rocks", "Plastic", "Metal"],
+          optionsMy: ["မှို", "ကျောက်", "ပလတ်စတစ်", "သတ္တု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following best describes a decomposer's role?",
+          questionMy:
+              "ဖျက်ဆီးသူ၏ အခန်းကဏ္ဍကို အကောင်းဆုံးဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Breaking down dead plants and animals so nutrients return to the soil",
+            "Making food spoil faster than usual",
+            "Making people ill",
+            "Producing electricity",
+          ],
+          optionsMy: [
+            "အာဟာရများ မြေထဲသို့ ပြန်ရောက်စေရန် သေဆုံးသွားသော အပင်နှင့် တိရစ္ဆာန်များကို ဖြိုခွဲပေးခြင်း",
+            "အစားအစာကို ပုံမှန်ထက် ပိုမြန်စွာ ပုပ်ပျက်စေခြင်း",
+            "လူများကို ဖျားနာစေခြင်း",
+            "လျှပ်စစ်ဓာတ်အား ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's bread experiment, why did she compare a jar of plain water with a jar of yeast and sugar?",
+          questionMy:
+              "နှင်းဝေ၏ ပေါင်မုန့် စမ်းသပ်မှုတွင် ရေသန့်ဖန်ပုလင်းနှင့် တိုးနှင့်သကြားပါသော ဖန်ပုလင်းကို အဘယ်ကြောင့် နှိုင်းယှဉ်ခဲ့သနည်း။",
+          optionsEn: [
+            "To prove that living micro-organisms are always carrying out life processes, unlike plain water",
+            "To see which jar looked prettier",
+            "To make more bread",
+            "To cool the water down",
+          ],
+          optionsMy: [
+            "ရေသန့်နှင့်မတူဘဲ အသက်ရှင်သော အဏုဇီဝဖြစ်စဉ်များသည် ဘဝလုပ်ငန်းစဉ်များကို အမြဲလုပ်ဆောင်နေကြောင်း သက်သေပြရန်",
+            "မည်သည့်ဖန်ပုလင်းက ပိုလှသည်ကို ကြည့်ရန်",
+            "ပေါင်မုန့် ပိုလုပ်ရန်",
+            "ရေကို အအေးဖြစ်စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these micro-organisms would you NOT want growing on your lunch?",
+          questionMy:
+              "အောက်ပါ အဏုဇီဝဖြစ်စဉ်များအနက် သင့်နေ့လယ်စာပေါ်တွင် မကြီးထွားစေလိုသော အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mould that spoils food",
+            "Yeast in bread you already baked",
+            "Bacteria used to make yoghurt",
+            "None of these are harmful",
+          ],
+          optionsMy: [
+            "အစားအစာကို ပုပ်ပျက်စေသော အမှိုက်တက်",
+            "ဖုတ်ပြီးသား ပေါင်မုန့်ထဲက တိုး",
+            "ဒိန်ချဉ်ပြုလုပ်ရန် အသုံးပြုသော ဘက်တီးရီးယား",
+            "ဤအရာများအနက် အန္တရာယ်ရှိသည် တစ်ခုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the main lesson Hnin Wai's teacher wants the class to learn from the bread and mould demonstration?",
+          questionMy:
+              "ပေါင်မုန့်နှင့် အမှိုက်တက် သရုပ်ပြမှုမှ ကျောင်းသားများ သင်ယူစေလိုသော အဓိကသင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Different micro-organisms can be either helpful or harmful depending on the situation",
+            "All micro-organisms are exactly the same",
+            "Bread should never be eaten",
+            "Only bacteria can be helpful, never fungi",
+          ],
+          optionsMy: [
+            "ကွာခြားသော အဏုဇီဝဖြစ်စဉ်များသည် အခြေအနေပေါ်မူတည်၍ အသုံးဝင်လည်းဖြစ်နိုင်၊ အန္တရာယ်လည်းရှိနိုင်ခြင်း",
+            "အဏုဇီဝဖြစ်စဉ်အားလုံးသည် လုံးဝတူညီခြင်း",
+            "ပေါင်မုန့်ကို လုံးဝ မစားသင့်ခြင်း",
+            "ဘက်တီးရီးယားသာ အသုံးဝင်နိုင်ပြီး မှိုမူ အသုံးမဝင်နိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 1, Week 3: "Using Classification Keys"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek3 = CourseWeekDef(
+  id: "course-year6-science-w3",
+  weekNumber: 3,
+  titleEn: "Using Classification Keys",
+  titleMy: "အုပ်စုခွဲ သော့ချက်များ အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w3-d1",
+      dayNumber: 1,
+      titleEn: "How Classification Keys Work",
+      titleMy: "အုပ်စုခွဲ သော့ချက်များ အလုပ်လုပ်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a classification key used for?",
+          questionMy: "အုပ်စုခွဲ သော့ချက်ကို အဘယ်အတွက် အသုံးပြုသနည်း။",
+          optionsEn: [
+            "To identify and group living things using a series of yes/no questions",
+            "To measure the weight of an animal",
+            "To count the number of leaves on a tree",
+            "To paint a picture of a plant",
+          ],
+          optionsMy: [
+            "ဟုတ်/မဟုတ် မေးခွန်းစဉ်များကို အသုံးပြု၍ သက်ရှိများကို ဖော်ထုတ်အုပ်စုခွဲရန်",
+            "တိရစ္ဆာန်၏ အလေးချိန် တိုင်းတာရန်",
+            "သစ်ပင်တစ်ပင်၏ အရွက်အရေအတွက် ရေတွက်ရန်",
+            "အပင်တစ်ပင်၏ ပုံကို ရေးဆွဲရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A branching (tree) classification key asks a series of what kind of questions?",
+          questionMy:
+              "ကိုင်းရိုးကား (သစ်ပင်ပုံစံ) အုပ်စုခွဲ သော့ချက်သည် မည်သည့်အမျိုးအစား မေးခွန်းများကို အစဉ်လိုက် မေးသနည်း။",
+          optionsEn: [
+            "Yes/no or either/or questions",
+            "Multiplication questions",
+            "Spelling questions",
+            "History questions",
+          ],
+          optionsMy: [
+            "ဟုတ်/မဟုတ် သို့မဟုတ် တစ်ခုခု ရွေးချယ်ရသော မေးခွန်းများ",
+            "မြှောက်ဆိုင်ရာ မေးခွန်းများ",
+            "စာလုံးပေါင်း မေးခွန်းများ",
+            "သမိုင်းဆိုင်ရာ မေးခွန်းများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a key asks \"Does it have wings?\" and an animal has none, which branch should you follow?",
+          questionMy:
+              "သော့ချက်တွင် \"အတောင်ရှိသလား\" ဟု မေးထားပြီး တိရစ္ဆာန်တွင် အတောင်မရှိပါက မည်သည့်ကိုင်းရိုးကို လိုက်သင့်သနည်း။",
+          optionsEn: [
+            "The \"no\" branch",
+            "The \"yes\" branch",
+            "Both branches at once",
+            "Neither branch",
+          ],
+          optionsMy: [
+            "\"မဟုတ်\" ကိုင်းရိုး",
+            "\"ဟုတ်\" ကိုင်းရိုး",
+            "ကိုင်းရိုးနှစ်ခုစလုံး တစ်ပြိုင်နက်",
+            "ကိုင်းရိုး မည်သည့်တစ်ခုမျှ မလိုက်ရ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are classification keys useful to scientists studying a new, unfamiliar animal?",
+          questionMy:
+              "မရင်းနှီးသေးသော တိရစ္ဆာန်သစ်တစ်ကောင်ကို လေ့လာနေသော သိပ္ပံပညာရှင်များအတွက် အုပ်စုခွဲ သော့ချက်များ အဘယ်ကြောင့် အသုံးဝင်သနည်း။",
+          optionsEn: [
+            "They help identify which group the animal most likely belongs to",
+            "They tell scientists the animal's exact age",
+            "They tell scientists what the animal ate for breakfast",
+            "They are only used for plants, never animals",
+          ],
+          optionsMy: [
+            "တိရစ္ဆာန်သည် မည်သည့်အုပ်စုတွင် အလားအလားရှိဆုံး ပါဝင်ကြောင်း ဖော်ထုတ်ရာတွင် အကူအညီပေးခြင်း",
+            "တိရစ္ဆာန်၏ အတိအကျအသက်ကို ပြောပြခြင်း",
+            "တိရစ္ဆာန် မနက်စာ အဘယ်အရာစားခဲ့သည်ကို ပြောပြခြင်း",
+            "အပင်များအတွက်သာ အသုံးပြုပြီး တိရစ္ဆာန်အတွက် လုံးဝမသုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai builds a key that first asks \"Does it have feathers?\" Which animal would immediately follow the \"yes\" branch?",
+          questionMy:
+              "နှင်းဝေသည် ဦးဆုံး \"အမွှေးရှိသလား\" ဟု မေးသော သော့ချက်တစ်ခု တည်ဆောက်သည်။ မည်သည့်တိရစ္ဆာန်သည် \"ဟုတ်\" ကိုင်းရိုးကို ချက်ချင်းလိုက်သနည်း။",
+          optionsEn: ["A parrot", "A fish", "A frog", "A spider"],
+          optionsMy: ["ကျီးလန်းငှက်", "ငါး", "ဖား", "ပင့်ကူ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match the Classification Key Vocabulary",
+      titleMy: "အုပ်စုခွဲ သော့ချက် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w3-dm-1",
+          termEn: "Classification key",
+          termMy: "အုပ်စုခွဲ သော့ချက် (Classification key)",
+          matchEn: "A tool of yes/no questions that identifies a living thing",
+          matchMy: "သက်ရှိတစ်ခုကို ဖော်ထုတ်ပေးသော ဟုတ်/မဟုတ် မေးခွန်း ကိရိယာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w3-dm-2",
+          termEn: "Branching key",
+          termMy: "ကိုင်းရိုးကား သော့ချက် (Branching key)",
+          matchEn:
+              "A key shaped like a tree, splitting into two branches at each question",
+          matchMy:
+              "မေးခွန်းတိုင်းတွင် ကိုင်းရိုးနှစ်ခု ခွဲထွက်သော သစ်ပင်ပုံစံ သော့ချက်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w3-dm-3",
+          termEn: "Characteristic",
+          termMy: "ဂုဏ်သတ္တိ (Characteristic)",
+          matchEn:
+              "A feature of a living thing, such as having fur or laying eggs",
+          matchMy:
+              "အမွှေးရှိခြင်း သို့မဟုတ် ဥဥခြင်းကဲ့သို့သော သက်ရှိ၏ ဂုဏ်သတ္တိ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w3-dm-4",
+          termEn: "Taxonomist",
+          termMy: "အုပ်စုခွဲပညာရှင် (Taxonomist)",
+          matchEn: "A scientist who classifies and names living things",
+          matchMy: "သက်ရှိများကို အုပ်စုခွဲပြီး အမည်ပေးသော သိပ္ပံပညာရှင်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w3-dm-5",
+          termEn: "Kingdom",
+          termMy: "နိုင်ငံအုပ်စု (Kingdom)",
+          matchEn:
+              "One of the largest groups living things are sorted into, such as animals or fungi",
+          matchMy:
+              "တိရစ္ဆာန် သို့မဟုတ် မှိုကဲ့သို့သော သက်ရှိများ ပါဝင်သော အကြီးဆုံးအုပ်စုများအနက် တစ်ခု",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w3-dm-6",
+          termEn: "Identify",
+          termMy: "ဖော်ထုတ်ခြင်း (Identify)",
+          matchEn: "To work out exactly what species a living thing is",
+          matchMy:
+              "သက်ရှိတစ်ခုသည် တိကျစွာ မည်သည့်မျိုးစိတ်ဖြစ်သည်ကို ရှာဖွေရန်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Has Feathers or No Feathers?",
+      titleMy: "စီစစ်ကြမည် - အမွှေးရှိလား၊ မရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Has feathers", "No feathers"],
+        bucketsMy: ["အမွှေးရှိသည်", "အမွှေးမရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w3-sort-1",
+            labelEn: "Parrot",
+            labelMy: "ကျီးလန်းငှက်",
+            correctBucketEn: "Has feathers",
+            correctBucketMy: "အမွှေးရှိသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w3-sort-2",
+            labelEn: "Cat",
+            labelMy: "ကြောင်",
+            correctBucketEn: "No feathers",
+            correctBucketMy: "အမွှေးမရှိပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w3-sort-3",
+            labelEn: "Owl",
+            labelMy: "ဇီးကွက်",
+            correctBucketEn: "Has feathers",
+            correctBucketMy: "အမွှေးရှိသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w3-sort-4",
+            labelEn: "Snake",
+            labelMy: "မြွေ",
+            correctBucketEn: "No feathers",
+            correctBucketMy: "အမွှေးမရှိပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w3-sort-5",
+            labelEn: "Duck",
+            labelMy: "ဘဲ",
+            correctBucketEn: "Has feathers",
+            correctBucketMy: "အမွှေးရှိသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w3-sort-6",
+            labelEn: "Rabbit",
+            labelMy: "ယုန်",
+            correctBucketEn: "No feathers",
+            correctBucketMy: "အမွှေးမရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Mystery Bug Key",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ပုံမသိပိုးမွှား သော့ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Mystery Bug Key",
+        titleMy: "နှင်းဝေ၏ ပုံမသိပိုးမွှား သော့ချက်",
+        passageEn:
+            "For her weekend homework, Hnin Wai photographs six different minibeasts crawling around the school field, then challenges herself to build a branching classification key that could identify any one of them. She starts with the broadest question she can think of: \"Does it have six legs?\" Following the \"yes\" branch, she groups together an ant, a ladybird, and a grasshopper -- all insects. Following the \"no\" branch, she groups a spider, a woodlouse, and a snail.\n\nHnin Wai then needs a second question to split the insect group further. She notices the ladybird has hard, shiny wing cases while the ant and grasshopper do not, so her next question becomes \"Does it have hard wing cases?\" This neatly separates the ladybird from the ant and grasshopper. For the second group, she asks \"Does it have a shell?\" which instantly separates the snail from the spider and woodlouse.\n\nWhen Hnin Wai tests her finished key on her younger brother, he is able to correctly identify all six minibeasts just by answering her yes/no questions in order, without ever needing to know their names beforehand. Hnin Wai realises that a good classification key does not require the user to already recognise the living thing -- it only requires careful observation of characteristics, one branching question at a time, until only one possible answer remains.",
+        passageMy:
+            "စနေ၊ တနင်္ဂနွေ အိမ်စာအတွက် နှင်းဝေသည် ကျောင်းကွင်းအနီးတွင် တွားသွားနေသော ပိုးမွှားငယ်ခြောက်မျိုးကို ဓာတ်ပုံရိုက်ပြီး ၎င်းတို့အနက် မည်သည့်တစ်ကောင်ကိုမဆို ဖော်ထုတ်နိုင်မည့် ကိုင်းရိုးကား အုပ်စုခွဲ သော့ချက်တစ်ခု တည်ဆောက်ရန် စိန်ခေါ်လိုက်သည်။ သူမ တွေးနိုင်သမျှ ကျယ်ပြန့်ဆုံး မေးခွန်းဖြင့် စတင်သည် - \"ခြေခြောက်ချောင်းရှိသလား\"။ \"ဟုတ်\" ကိုင်းရိုးကို လိုက်လျှင် ပရွက်ဆိတ်၊ ပိတုန်းလှေးနှင့် ကျိုင်းကောင်တစ်ကောင်ကို အုပ်စုတစ်ခုတည်း ရောက်ပြီး - အားလုံးသည် ပိုးဆွေးများဖြစ်သည်။ \"မဟုတ်\" ကိုင်းရိုးကိုလိုက်လျှင် ပင့်ကူ၊ ကျားချေမွှေးနှင့် ခရုတို့ကို အုပ်စုတစ်ခု ရောက်သည်။\n\nထို့နောက် ပိုးဆွေးအုပ်စုကို ထပ်ခွဲရန် ဒုတိယမေးခွန်းတစ်ခု လိုအပ်သည်။ ပိတုန်းလှေးတွင် မာကျောတောက်ပသော အတောင်အခွံရှိပြီး ပရွက်ဆိတ်နှင့် ကျိုင်းကောင်တွင် မရှိကြောင်း သတိပြုမိသောကြောင့် နောက်မေးခွန်းမှာ \"မာကျော အတောင်အခွံရှိသလား\" ဖြစ်လာသည်။ ဤမေးခွန်းက ပိတုန်းလှေးကို ပရွက်ဆိတ်နှင့် ကျိုင်းကောင်မှ သပ်သပ်ခွဲထုတ်ပေးသည်။ ဒုတိယအုပ်စုအတွက်မူ \"အခွံရှိသလား\" ဟု မေးရာ ခရုကို ပင့်ကူနှင့် ကျားချေမွှေးမှ ချက်ချင်းသပ်သပ်ခွဲထုတ်ပေးသည်။\n\nနှင်းဝေ ပြီးစီးသော သော့ချက်ကို ညီလေးပေါ်တွင် စမ်းသပ်ကြည့်သောအခါ ပိုးမွှားခြောက်မျိုးလုံးကို ကြိုတင်အမည်မသိဘဲ ၎င်း၏ ဟုတ်/မဟုတ် မေးခွန်းများကို အစဉ်လိုက် ဖြေဆိုရုံဖြင့် မှန်ကန်စွာ ဖော်ထုတ်နိုင်ခဲ့သည်။ ကောင်းမွန်သော အုပ်စုခွဲ သော့ချက်တစ်ခုသည် သက်ရှိကို ကြိုတင်သိရန် မလိုအပ်ဘဲ ဂုဏ်သတ္တိများကို ဂရုတစိုက် လေ့လာခြင်း၊ ကိုင်းရိုးမေးခွန်းတစ်ခုချင်းစီကို အဖြေတစ်ခုတည်း ကျန်သည်အထိ လိုက်ဖြေခြင်းသာ လိုအပ်ကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What is the first, broadest question Hnin Wai's key asks?",
+            questionMy:
+                "နှင်းဝေ၏ သော့ချက်၏ ပထမဆုံး၊ ကျယ်ပြန့်ဆုံး မေးခွန်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Does it have six legs?",
+              "Does it have a shell?",
+              "Is it green?",
+              "Can it fly?",
+            ],
+            optionsMy: [
+              "ခြေခြောက်ချောင်းရှိသလား",
+              "အခွံရှိသလား",
+              "အစိမ်းရောင်ဖြစ်သလား",
+              "ပျံနိုင်သလား",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three minibeasts follow the \"yes\" branch of the six-legs question?",
+            questionMy:
+                "ခြေခြောက်ချောင်း မေးခွန်း၏ \"ဟုတ်\" ကိုင်းရိုးကို လိုက်သော ပိုးမွှားငယ် သုံးမျိုးမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Ant, ladybird and grasshopper",
+              "Spider, woodlouse and snail",
+              "Snail, ant and spider",
+              "Woodlouse, ladybird and snail",
+            ],
+            optionsMy: [
+              "ပရွက်ဆိတ်၊ ပိတုန်းလှေးနှင့် ကျိုင်းကောင်",
+              "ပင့်ကူ၊ ကျားချေမွှေးနှင့် ခရု",
+              "ခရု၊ ပရွက်ဆိတ်နှင့် ပင့်ကူ",
+              "ကျားချေမွှေး၊ ပိတုန်းလှေးနှင့် ခရု",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What second question does Hnin Wai use to separate the ladybird from the ant and grasshopper?",
+            questionMy:
+                "ပိတုန်းလှေးကို ပရွက်ဆိတ်နှင့် ကျိုင်းကောင်မှ ခွဲထုတ်ရန် နှင်းဝေ အသုံးပြုသော ဒုတိယမေးခွန်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Does it have hard wing cases?",
+              "Does it have a shell?",
+              "Does it have six legs?",
+              "Can it swim?",
+            ],
+            optionsMy: [
+              "မာကျော အတောင်အခွံရှိသလား",
+              "အခွံရှိသလား",
+              "ခြေခြောက်ချောင်းရှိသလား",
+              "ရေကူးနိုင်သလား",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai test whether her finished classification key works?",
+            questionMy:
+                "မိမိ၏ ပြီးစီးသော အုပ်စုခွဲ သော့ချက် အလုပ်လုပ်မလုပ် နှင်းဝေ မည်သို့ စမ်းသပ်သနည်း။",
+            optionsEn: [
+              "By having her younger brother identify the minibeasts using it",
+              "By asking her teacher to grade it",
+              "By throwing it away",
+              "By memorising all the minibeast names first",
+            ],
+            optionsMy: [
+              "ညီလေးအား ၎င်းကို အသုံးပြု၍ ပိုးမွှားငယ်များ ဖော်ထုတ်စေခြင်းဖြင့်",
+              "ဆရာမအား အမှတ်ပေးရန် တောင်းဆိုခြင်းဖြင့်",
+              "ပစ်ပယ်ခြင်းဖြင့်",
+              "ပိုးမွှားငယ်အမည်များအားလုံးကို ဦးစွာ အလွတ်ကျက်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise a good classification key does NOT require?",
+            questionMy:
+                "ကောင်းမွန်သော အုပ်စုခွဲ သော့ချက်တစ်ခုသည် အဘယ်အရာ မလိုအပ်ကြောင်း နှင်းဝေ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "Already knowing the living thing's name beforehand",
+              "Careful observation of characteristics",
+              "Answering questions in order",
+              "Reaching one final possible answer",
+            ],
+            optionsMy: [
+              "သက်ရှိ၏ အမည်ကို ကြိုတင်သိထားရန်",
+              "ဂုဏ်သတ္တိများကို ဂရုတစိုက် လေ့လာခြင်း",
+              "မေးခွန်းများကို အစဉ်လိုက် ဖြေဆိုခြင်း",
+              "နောက်ဆုံး ဖြစ်နိုင်သော အဖြေတစ်ခုတည်းသို့ ရောက်ရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w3-d5",
+      dayNumber: 5,
+      titleEn: "Classification Keys Round-Up",
+      titleMy: "အုပ်စုခွဲ သော့ချက်များ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What shape does a branching classification key usually resemble?",
+          questionMy:
+              "ကိုင်းရိုးကား အုပ်စုခွဲ သော့ချက်တစ်ခုသည် များသောအားဖြင့် မည်သည့်ပုံစံနှင့် ဆင်တူသနည်း။",
+          optionsEn: [
+            "A tree with branches",
+            "A perfect circle",
+            "A straight line only",
+            "A single dot",
+          ],
+          optionsMy: [
+            "ကိုင်းရိုးများပါသော သစ်ပင်",
+            "စက်ဝိုင်းစစ်စစ်",
+            "ဖြောင့်တန်းသော မျဉ်းတစ်ခုတည်း",
+            "အစက်တစ်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If you answer \"no\" to \"Does it have a shell?\", which minibeast from Hnin Wai's key could it still be?",
+          questionMy:
+              "\"အခွံရှိသလား\" ကို \"မဟုတ်\" ဟု ဖြေလျှင် နှင်းဝေ၏ သော့ချက်မှ မည်သည့်ပိုးမွှားငယ်ဖြစ်နိုင်ဦးမည်နည်း။",
+          optionsEn: [
+            "A spider or a woodlouse",
+            "A snail only",
+            "A ladybird only",
+            "An ant only",
+          ],
+          optionsMy: [
+            "ပင့်ကူ သို့မဟုတ် ကျားချေမွှေး",
+            "ခရုတစ်မျိုးတည်း",
+            "ပိတုန်းလှေးတစ်မျိုးတည်း",
+            "ပရွက်ဆိတ်တစ်မျိုးတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do taxonomists rely on classification keys rather than guessing?",
+          questionMy:
+              "အုပ်စုခွဲပညာရှင်များသည် ခန့်မှန်းခြင်းအစား အုပ်စုခွဲ သော့ချက်များကို မှီခိုအားထားသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Keys use observable characteristics to reach a reliable, repeatable answer",
+            "Guessing is always faster and more accurate",
+            "Keys are only used for decoration",
+            "Taxonomists are not allowed to observe animals directly",
+          ],
+          optionsMy: [
+            "သော့ချက်များသည် ယုံကြည်စိတ်ချရ၍ ထပ်ခါထပ်ခါ ရနိုင်သော အဖြေရရန် တွေ့မြင်ရသော ဂုဏ်သတ္တိများကို အသုံးပြုခြင်း",
+            "ခန့်မှန်းခြင်းသည် အမြဲတမ်း ပိုမြန်ပြီး ပိုမှန်ကန်ခြင်း",
+            "သော့ချက်များကို အလှဆင်ရန်သာ အသုံးပြုခြင်း",
+            "အုပ်စုခွဲပညာရှင်များသည် တိရစ္ဆာန်များကို တိုက်ရိုက် လေ့လာခွင့် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What was the purpose of Hnin Wai's weekend homework project?",
+          questionMy:
+              "နှင်းဝေ၏ စနေ၊ တနင်္ဂနွေ အိမ်စာ စီမံကိန်း၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To build a branching classification key for six minibeasts",
+            "To collect as many minibeasts as possible",
+            "To paint pictures of the school field",
+            "To memorise Latin animal names",
+          ],
+          optionsMy: [
+            "ပိုးမွှားငယ် ခြောက်မျိုးအတွက် ကိုင်းရိုးကား အုပ်စုခွဲ သော့ချက်တစ်ခု တည်ဆောက်ရန်",
+            "ပိုးမွှားငယ်များကို တတ်နိုင်သမျှ စုဆောင်းရန်",
+            "ကျောင်းကွင်း၏ ပုံများကို ရေးဆွဲရန်",
+            "လက်တင် တိရစ္ဆာန်အမည်များကို အလွတ်ကျက်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which lesson best sums up the whole week's learning about classification keys?",
+          questionMy:
+              "အုပ်စုခွဲ သော့ချက်များအကြောင်း တစ်ပတ်စာ သင်ခန်းစာကို အကောင်းဆုံးအကျဉ်းချုပ်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful yes/no questions about characteristics can identify any living thing, even without knowing its name first",
+            "Every animal must be named before it can be studied",
+            "Classification keys only work for insects",
+            "Guessing is more reliable than using a key",
+          ],
+          optionsMy: [
+            "ဂုဏ်သတ္တိများအကြောင်း ဂရုတစိုက် ဟုတ်/မဟုတ် မေးခွန်းများသည် အမည်ကို ကြိုတင်မသိဘဲ သက်ရှိမည်သည်ကိုမဆို ဖော်ထုတ်နိုင်ခြင်း",
+            "တိရစ္ဆာန်တိုင်းကို လေ့လာမီ အမည်ပေးရမည်ဖြစ်ခြင်း",
+            "အုပ်စုခွဲ သော့ချက်များသည် ပိုးဆွေးများအတွက်သာ အသုံးဝင်ခြင်း",
+            "ခန့်မှန်းခြင်းသည် သော့ချက်သုံးခြင်းထက် ပိုယုံကြည်စိတ်ချရခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 1, Week 4 (Capstone): "Nova School Living Things
+// Classification Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek4 = CourseWeekDef(
+  id: "course-year6-science-w4",
+  weekNumber: 4,
+  titleEn: "Nova School Living Things Classification Studio",
+  titleMy: "Nova ကျောင်း သက်ရှိများ အုပ်စုခွဲခြင်း အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w4-d1",
+      dayNumber: 1,
+      titleEn: "Life Processes and Groups Review",
+      titleMy: "ဘဝလုပ်ငန်းစဉ်များနှင့် အုပ်စုများ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly lists TWO of the seven life processes?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုမှ နှစ်ခုကို မှန်ကန်စွာ ဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Respiration and reproduction",
+            "Painting and singing",
+            "Reading and writing",
+            "Cooking and cleaning",
+          ],
+          optionsMy: [
+            "အသက်ရှူခြင်းနှင့် မျိုးပွားခြင်း",
+            "ပန်းချီနှင့် သီချင်းဆိုခြင်း",
+            "ဖတ်ခြင်းနှင့် ရေးခြင်း",
+            "ဟင်းချက်ခြင်းနှင့် သန့်ရှင်းရေးလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A snake and a lizard both belong to which vertebrate group?",
+          questionMy:
+              "မြွေနှင့် ပုတ်သင်တို့ကို ကျောရိုးရှိတိရစ္ဆာန်၏ မည်သည့်အုပ်စုတွင် ခွဲထားသနည်း။",
+          optionsEn: ["Reptiles", "Amphibians", "Mammals", "Birds"],
+          optionsMy: [
+            "တွားသွားသတ္တဝါ",
+            "ရေကုန်းနှစ်ဖြာနေတိရစ္ဆာန်",
+            "နို့တိုက်တိရစ္ဆာန်",
+            "ငှက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these micro-organisms can only reproduce inside a living cell?",
+          questionMy:
+              "ဤအဏုဇီဝဖြစ်စဉ်များအနက် သက်ရှိဆဲလ်အတွင်း၌သာ မျိုးပွားနိုင်သော အရာမှာ အဘယ်နည်း။",
+          optionsEn: ["Virus", "Yeast", "Mushroom", "Mould"],
+          optionsMy: ["ဗိုင်းရပ်စ်", "တိုး", "မှို", "အမှိုက်တက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the first question you would ask in a branching key to split animals into insects and non-insects?",
+          questionMy:
+              "တိရစ္ဆာန်များကို ပိုးဆွေးနှင့် ပိုးဆွေးမဟုတ်သည်ဟူ၍ ခွဲရန် ကိုင်းရိုးကား သော့ချက်တွင် ဦးဆုံးမေးမည့် မေးခွန်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Does it have six legs?",
+            "Does it like water?",
+            "Is it green?",
+            "Can it sing?",
+          ],
+          optionsMy: [
+            "ခြေခြောက်ချောင်းရှိသလား",
+            "ရေကို ကြိုက်သလား",
+            "အစိမ်းရောင်ဖြစ်သလား",
+            "သီချင်းဆိုနိုင်သလား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Yeast helping bread rise and mould spoiling bread are both examples of what?",
+          questionMy:
+              "ပေါင်မုန့်ကို ဖောင်းစေသော တိုးနှင့် ပေါင်မုန့်ကို ပုပ်ပျက်စေသော အမှိုက်တက်တို့သည် အဘယ်အရာ၏ ဥပမာများဖြစ်ကြသနည်း။",
+          optionsEn: [
+            "Fungi affecting our lives in different ways",
+            "Two identical micro-organisms",
+            "Bacteria only",
+            "Viruses only",
+          ],
+          optionsMy: [
+            "ကျွန်ုပ်တို့ဘဝကို ကွဲပြားစွာ သက်ရောက်စေသော မှိုများ",
+            "အတူတူဖြစ်သော အဏုဇီဝဖြစ်စဉ်နှစ်ခု",
+            "ဘက်တီးရီးယားသာ",
+            "ဗိုင်းရပ်စ်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 1 Vocabulary",
+      titleMy: "Term 1 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w4-dm-1",
+          termEn: "Life process",
+          termMy: "ဘဝလုပ်ငန်းစဉ် (Life process)",
+          matchEn:
+              "One of seven activities, like respiration, shared by all living things",
+          matchMy: "သက်ရှိအားလုံး ဝေမျှသော လုပ်ငန်းစဉ်ခုနစ်ခုအနက် တစ်ခု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w4-dm-2",
+          termEn: "Vertebrate",
+          termMy: "ကျောရိုးရှိတိရစ္ဆာန် (Vertebrate)",
+          matchEn: "An animal with a backbone",
+          matchMy: "ကျောရိုးရှိသော တိရစ္ဆာန်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w4-dm-3",
+          termEn: "Micro-organism",
+          termMy: "အဏုဇီဝဖြစ်စဉ် (Micro-organism)",
+          matchEn: "A living thing too small to see without a microscope",
+          matchMy: "အဏုစုံကိရိယာမပါဘဲ မမြင်နိုင်လောက်အောင် သေးငယ်သော သက်ရှိ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w4-dm-4",
+          termEn: "Fungus",
+          termMy: "မှို (Fungus)",
+          matchEn:
+              "A living thing such as mould or mushroom that absorbs nutrients to feed",
+          matchMy: "အာဟာရများ စုပ်ယူ၍ စားသောက်သော မှိုကဲ့သို့သော သက်ရှိ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w4-dm-5",
+          termEn: "Classification key",
+          termMy: "အုပ်စုခွဲ သော့ချက် (Classification key)",
+          matchEn: "A set of yes/no questions used to identify a living thing",
+          matchMy:
+              "သက်ရှိတစ်ခုကို ဖော်ထုတ်ရန် အသုံးပြုသော ဟုတ်/မဟုတ် မေးခွန်းအစုံ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w4-dm-6",
+          termEn: "Species",
+          termMy: "မျိုးစိတ် (Species)",
+          matchEn: "A group of living things that can breed together",
+          matchMy: "အတူတကွ မျိုးပွားနိုင်သော သက်ရှိအုပ်စု",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Living or Non-living?",
+      titleMy: "စီစစ်ကြမည် - သက်ရှိလား၊ သက်မဲ့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Living", "Non-living"],
+        bucketsMy: ["သက်ရှိ", "သက်မဲ့"],
+        items: [
+          SortingItem(
+            id: "y6sci-w4-sort-1",
+            labelEn: "Mushroom",
+            labelMy: "မှို",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "y6sci-w4-sort-2",
+            labelEn: "A smartphone",
+            labelMy: "စမတ်ဖုန်း",
+            correctBucketEn: "Non-living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+          SortingItem(
+            id: "y6sci-w4-sort-3",
+            labelEn: "Bacteria",
+            labelMy: "ဘက်တီးရီးယား",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "y6sci-w4-sort-4",
+            labelEn: "A wooden chair",
+            labelMy: "သစ်သားထိုင်ခုံ",
+            correctBucketEn: "Non-living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+          SortingItem(
+            id: "y6sci-w4-sort-5",
+            labelEn: "A spider",
+            labelMy: "ပင့်ကူ",
+            correctBucketEn: "Living",
+            correctBucketMy: "သက်ရှိ",
+          ),
+          SortingItem(
+            id: "y6sci-w4-sort-6",
+            labelEn: "A plastic toy",
+            labelMy: "ပလတ်စတစ် ကစားစရာ",
+            correctBucketEn: "Non-living",
+            correctBucketMy: "သက်မဲ့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Classification Exhibition",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အုပ်စုခွဲခြင်း ပြပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Classification Exhibition",
+        titleMy: "နှင်းဝေ၏ အုပ်စုခွဲခြင်း ပြပွဲ",
+        passageEn:
+            "At the end of Term 1, Nova School holds a Living Things Classification Exhibition, and Hnin Wai's class is asked to build a display combining everything they have learned about life processes, vertebrates and invertebrates, micro-organisms, and classification keys. Hnin Wai volunteers to design the centrepiece: a giant branching key on poster paper that visitors can follow with their finger, starting from \"Is it alive?\" all the way down to specific groups like insects, fungi, and mammals.\n\nAs she plans the poster, Hnin Wai remembers her backyard survey of vertebrates and invertebrates, her bread experiment showing how yeast and mould are both fungi with very different effects, and her mystery bug key that correctly identified six minibeasts. She decides to weave all three stories into small labelled photographs pinned around the edges of her giant key, so visitors can see real examples next to each branching question.\n\nOn exhibition day, a younger student from Year 3 stops at Hnin Wai's poster and asks how a rock is different from a mushroom. Hnin Wai walks her through the seven life processes one by one, showing that the mushroom grows, reproduces with spores, and needs nutrients, while the rock does none of these things. The younger student leaves grinning, tracing her own finger along the branching key to sort a beetle she saw outside that morning -- proof, Hnin Wai thinks, that a good classification system can turn anyone into a scientist for an afternoon.",
+        passageMy:
+            "Term 1 အဆုံးတွင် Nova School သည် သက်ရှိများ အုပ်စုခွဲခြင်း ပြပွဲကို ကျင်းပပြီး နှင်းဝေ၏ အတန်းသည် ဘဝလုပ်ငန်းစဉ်များ၊ ကျောရိုးရှိ/ကျောရိုးမဲ့ တိရစ္ဆာန်များ၊ အဏုဇီဝဖြစ်စဉ်များနှင့် အုပ်စုခွဲ သော့ချက်များအကြောင်း သင်ယူခဲ့သမျှကို ပေါင်းစပ်ထားသော ပြခန်းတစ်ခု တည်ဆောက်ရန် တောင်းဆိုခံရသည်။ နှင်းဝေသည် အဓိကပြခန်းကို ဒီဇိုင်းရေးဆွဲရန် စေတနာ့ဝန်ထမ်းလုပ်လိုက်သည် - ဧည့်သည်များ လက်ချောင်းဖြင့် လိုက်နိုင်မည့် ပိုစတာစာရွက်ပေါ်ရှိ ကြီးမားသော ကိုင်းရိုးကား သော့ချက်တစ်ခုဖြစ်ပြီး \"အသက်ရှင်သလား\" မှစတင်ကာ ပိုးဆွေး၊ မှိုနှင့် နို့တိုက်တိရစ္ဆာန်ကဲ့သို့သော တိကျသောအုပ်စုများအထိ ရောက်ရှိသည်။\n\nပိုစတာစီစဉ်နေစဉ် နှင်းဝေသည် မိမိ၏ အိမ်ဝန်း ကျောရိုးရှိ/ကျောရိုးမဲ့ တိရစ္ဆာန် စစ်တမ်း၊ တိုးနှင့် အမှိုက်တက်နှစ်ခုစလုံးသည် မှိုမျိုးဖြစ်သော်လည်း အကျိုးသက်ရောက်မှု လုံးဝကွာခြားကြောင်း ပြသခဲ့သော ပေါင်မုန့် စမ်းသပ်မှု၊ ပိုးမွှားငယ်ခြောက်မျိုးကို မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သော ပုံမသိပိုးမွှား သော့ချက်တို့ကို သတိရလာသည်။ ဤပုံပြင်သုံးခုစလုံးကို ၎င်း၏ ကြီးမားသော သော့ချက်၏ အနားပတ်လည်တွင် ချိတ်ဆွဲထားသော ခေါင်းစဉ်တပ် ဓာတ်ပုံငယ်များဖြင့် ရောနှောထည့်သွင်းရန် ဆုံးဖြတ်လိုက်သည်။ ဤသို့ဖြင့် ဧည့်သည်များသည် ကိုင်းရိုးမေးခွန်းတစ်ခုချင်းစီအနီးတွင် တကယ့်ဥပမာများကို မြင်နိုင်ကြမည်ဖြစ်သည်။\n\nပြပွဲကျင်းပသောနေ့တွင် Year 3 မှ ကျောင်းသူငယ်တစ်ဦးသည် နှင်းဝေ၏ ပိုစတာအနီးတွင် ရပ်တန့်ပြီး ကျောက်တုံးတစ်ခုနှင့် မှိုတစ်ခုတို့ မည်သို့ ကွာခြားသည်ကို မေးလိုက်သည်။ နှင်းဝေသည် ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုကို တစ်ခုချင်းစီ ရှင်းပြပေးရာ မှိုသည် ကြီးထွားခြင်း၊ spore များဖြင့် မျိုးပွားခြင်းနှင့် အာဟာရ လိုအပ်ခြင်းများ ရှိသော်လည်း ကျောက်တုံးသည် ဤအရာများ တစ်ခုမျှ မလုပ်ဆောင်ကြောင်း ပြသပေးသည်။ ကျောင်းသူငယ်သည် ပြုံးရွှင်စွာ ထွက်သွားပြီး နံနက်က အပြင်တွင် တွေ့ခဲ့သော ပိုးဟပ်တစ်ကောင်ကို အုပ်စုခွဲရန် ကိုင်းရိုးကား သော့ချက်ပေါ်တွင် မိမိ၏ လက်ချောင်းဖြင့် ရှာဖွေကြည့်သည် - ကောင်းမွန်သော အုပ်စုခွဲစနစ်တစ်ခုသည် တစ်နေ့ခင်းတာလောက် မည်သူ့ကိုမဆို သိပ္ပံပညာရှင်တစ်ဦး ဖြစ်စေနိုင်ကြောင်း သက်သေအထင်အရှားရှိကြောင်း နှင်းဝေ တွေးမိလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai volunteer to design for the exhibition?",
+            questionMy:
+                "ပြပွဲအတွက် နှင်းဝေ ဒီဇိုင်းရေးဆွဲရန် စေတနာ့ဝန်ထမ်းလုပ်သောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A giant branching classification key",
+              "A poem about fungi",
+              "A song about vertebrates",
+              "A model volcano",
+            ],
+            optionsMy: [
+              "ကြီးမားသော ကိုင်းရိုးကား အုပ်စုခွဲ သော့ချက်",
+              "မှိုအကြောင်း ကဗျာ",
+              "ကျောရိုးရှိတိရစ္ဆာန်အကြောင်း သီချင်း",
+              "ရုပ်ပြ ဗီဇူးဗီယမ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does Hnin Wai's giant key begin with?",
+            questionMy:
+                "နှင်းဝေ၏ ကြီးမားသော သော့ချက်သည် အဘယ်အရာဖြင့် စတင်သနည်း။",
+            optionsEn: [
+              "\"Is it alive?\"",
+              "\"Does it have wings?\"",
+              "\"Is it big?\"",
+              "\"Can it swim?\"",
+            ],
+            optionsMy: [
+              "\"အသက်ရှင်သလား\"",
+              "\"အတောင်ရှိသလား\"",
+              "\"ကြီးမားသလား\"",
+              "\"ရေကူးနိုင်သလား\"",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which three earlier stories does Hnin Wai weave into her poster?",
+            questionMy:
+                "နှင်းဝေသည် မိမိ၏ ပိုစတာထဲသို့ ဖော်ညှပ်ထည့်သွင်းသော အစောပိုင်း ပုံပြင်သုံးခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The backyard survey, the bread experiment, and the mystery bug key",
+              "A trip to the zoo, a football match, and a music concert",
+              "Three unrelated maths problems",
+              "A poem, a painting, and a dance",
+            ],
+            optionsMy: [
+              "အိမ်ဝန်းစစ်တမ်း၊ ပေါင်မုန့် စမ်းသပ်မှုနှင့် ပုံမသိပိုးမွှား သော့ချက်",
+              "တိရစ္ဆာန်ဥယျာဉ် ခရီးစဉ်၊ ဘောလုံးပွဲနှင့် ဂီတဖျော်ဖြေပွဲ",
+              "မသက်ဆိုင်သော သင်္ချာ ပြဿနာသုံးခု",
+              "ကဗျာ၊ ပန်းချီနှင့် ကခုန်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai explain the difference between a rock and a mushroom to the younger student?",
+            questionMy:
+                "ကျောက်တုံးနှင့် မှိုတို့ ကွာခြားချက်ကို ကျောင်းသူငယ်ထံ နှင်းဝေ မည်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "By showing that the mushroom carries out life processes like growth and reproduction, while the rock does not",
+              "By saying rocks are always bigger than mushrooms",
+              "By saying they are exactly the same",
+              "By saying mushrooms can talk",
+            ],
+            optionsMy: [
+              "မှိုသည် ကြီးထွားခြင်းနှင့် မျိုးပွားခြင်းကဲ့သို့သော ဘဝလုပ်ငန်းစဉ်များကို လုပ်ဆောင်သော်လည်း ကျောက်တုံးက မလုပ်ဆောင်ကြောင်း ပြသခြင်းဖြင့်",
+              "ကျောက်တုံးများသည် မှိုများထက် အမြဲ ပိုကြီးကြောင်း ပြောခြင်းဖြင့်",
+              "၎င်းတို့ လုံးဝတူညီကြောင်း ပြောခြင်းဖြင့်",
+              "မှိုများသည် စကားပြောနိုင်ကြောင်း ပြောခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai conclude at the end of the passage about a good classification system?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် ကောင်းမွန်သော အုပ်စုခွဲစနစ်တစ်ခုအကြောင်း နှင်းဝေ မည်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "It can turn anyone into a scientist for an afternoon",
+              "It is only useful for adults",
+              "It only works for insects",
+              "It cannot be used by young children",
+            ],
+            optionsMy: [
+              "တစ်နေ့ခင်းတာလောက် မည်သူ့ကိုမဆို သိပ္ပံပညာရှင်တစ်ဦး ဖြစ်စေနိုင်ခြင်း",
+              "လူကြီးများအတွက်သာ အသုံးဝင်ခြင်း",
+              "ပိုးဆွေးများအတွက်သာ အလုပ်ဖြစ်ခြင်း",
+              "ကလေးငယ်များ အသုံးမပြုနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone Challenge",
+      titleMy: "Term 1 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's exhibition poster starts with \"Is it alive?\" -- which life process would best help answer that question?",
+          questionMy:
+              "နှင်းဝေ၏ ပြပွဲပိုစတာသည် \"အသက်ရှင်သလား\" ဖြင့်စတင်သည် - ထိုမေးခွန်းကို အကောင်းဆုံး ဖြေရှင်းပေးနိုင်မည့် ဘဝလုပ်ငန်းစဉ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Checking for growth, reproduction, and other life processes",
+            "Checking the colour only",
+            "Checking the size only",
+            "Checking the smell only",
+          ],
+          optionsMy: [
+            "ကြီးထွားခြင်း၊ မျိုးပွားခြင်းနှင့် အခြားဘဝလုပ်ငန်းစဉ်များ ရှိမရှိ စစ်ဆေးခြင်း",
+            "အရောင်တစ်ခုတည်း စစ်ဆေးခြင်း",
+            "အရွယ်အစားတစ်ခုတည်း စစ်ဆေးခြင်း",
+            "အနံ့တစ်ခုတည်း စစ်ဆေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which group would a mushroom fall into on Hnin Wai's giant classification key?",
+          questionMy:
+              "နှင်းဝေ၏ ကြီးမားသော အုပ်စုခွဲ သော့ချက်ပေါ်တွင် မှိုတစ်ခုသည် မည်သည့်အုပ်စုတွင် ကျရောက်မည်နည်း။",
+          optionsEn: ["Fungi", "Vertebrates", "Insects", "Mammals"],
+          optionsMy: [
+            "မှို",
+            "ကျောရိုးရှိတိရစ္ဆာန်",
+            "ပိုးဆွေး",
+            "နို့တိုက်တိရစ္ဆာန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of Hnin Wai's earlier discoveries showed that not all fungi affect us the same way?",
+          questionMy:
+              "မှိုအားလုံးသည် ကျွန်ုပ်တို့ကို အတူတူ သက်ရောက်မှုမရှိကြောင်း ပြသခဲ့သော နှင်းဝေ၏ အစောပိုင်းတွေ့ရှိချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The bread experiment comparing yeast and mould",
+            "The backyard survey of vertebrates",
+            "The mystery bug classification key",
+            "None of these",
+          ],
+          optionsMy: [
+            "တိုးနှင့် အမှိုက်တက်ကို နှိုင်းယှဉ်သော ပေါင်မုန့် စမ်းသပ်မှု",
+            "ကျောရိုးရှိတိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်း",
+            "ပုံမသိပိုးမွှား အုပ်စုခွဲ သော့ချက်",
+            "ဤအရာများအနက် မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Hnin Wai pin small labelled photographs around the edges of her giant key?",
+          questionMy:
+              "မိမိ၏ ကြီးမားသော သော့ချက် အနားပတ်လည်တွင် ခေါင်းစဉ်တပ် ဓာတ်ပုံငယ်များကို နှင်းဝေ အဘယ်ကြောင့် ချိတ်ဆွဲသနည်း။",
+          optionsEn: [
+            "So visitors can see real examples next to each branching question",
+            "To make the poster heavier",
+            "Because she ran out of space elsewhere",
+            "To hide the classification key from view",
+          ],
+          optionsMy: [
+            "ဧည့်သည်များသည် ကိုင်းရိုးမေးခွန်းတစ်ခုချင်းစီအနီးတွင် တကယ့်ဥပမာများကို မြင်နိုင်ရန်",
+            "ပိုစတာကို ပိုလေးလံစေရန်",
+            "အခြားနေရာတွင် နေရာမလုံလောက်တော့သောကြောင့်",
+            "အုပ်စုခွဲ သော့ချက်ကို မမြင်နိုင်အောင် ဖုံးကွယ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 1 -- life processes, classification, micro-organisms, and keys?",
+          questionMy:
+              "Term 1 တစ်ခုလုံး - ဘဝလုပ်ငန်းစဉ်များ၊ အုပ်စုခွဲခြင်း၊ အဏုဇီဝဖြစ်စဉ်များနှင့် သော့ချက်များကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful observation of shared and different characteristics lets scientists organise and understand living things",
+            "All living things look exactly the same",
+            "Classification is only useful for insects",
+            "Micro-organisms are not really alive",
+          ],
+          optionsMy: [
+            "ဝေမျှသော နှင့် ကွာခြားသော ဂုဏ်သတ္တိများကို ဂရုတစိုက် လေ့လာခြင်းသည် သိပ္ပံပညာရှင်များအား သက်ရှိများကို စနစ်တကျ ထားနားလည်စေခြင်း",
+            "သက်ရှိအားလုံးသည် အတိအကျ တူညီစွာ ရှိခြင်း",
+            "အုပ်စုခွဲခြင်းသည် ပိုးဆွေးများအတွက်သာ အသုံးဝင်ခြင်း",
+            "အဏုဇီဝဖြစ်စဉ်များသည် တကယ့်အသက်ရှင်ခြင်း မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm1 = CourseTermDef(
+  id: "course-year6-science-t1",
+  termNumber: 1,
+  titleEn: "Classification of Living Things",
+  titleMy: "သက်ရှိများ အုပ်စုခွဲခြင်း",
+  certificateTitleEn: "Classification of Living Things",
+  certificateTitleMy: "သက်ရှိများ အုပ်စုခွဲခြင်း",
+  weeks: [
+    _year6ScienceWeek1,
+    _year6ScienceWeek2,
+    _year6ScienceWeek3,
+    _year6ScienceWeek4,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 2, Week 5: "The Heart and Circulatory System"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek5 = CourseWeekDef(
+  id: "course-year6-science-w5",
+  weekNumber: 5,
+  titleEn: "The Heart and Circulatory System",
+  titleMy: "နှလုံးနှင့် သွေးလည်ပတ်မှု စနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w5-d1",
+      dayNumber: 1,
+      titleEn: "How the Heart Pumps Blood",
+      titleMy: "နှလုံးက သွေးကို မည်သို့ တွန်းအားပေးသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the main job of the heart?",
+          questionMy: "နှလုံး၏ အဓိကတာဝန်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To pump blood around the body",
+            "To digest food",
+            "To filter air",
+            "To store memories",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးကို ပို့ဆောင်ရန်",
+            "အစားအစာ ဒေဟခြင်း",
+            "လေကို စစ်ထုတ်ခြင်း",
+            "မှတ်ဉာဏ်များ သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The heart is mostly made of which type of tissue?",
+          questionMy:
+              "နှလုံးသည် အများစုအားဖြင့် မည်သည့်တစ်ရှူးဖြင့် ဖွဲ့စည်းထားသနည်း။",
+          optionsEn: ["Muscle", "Bone", "Fat", "Skin"],
+          optionsMy: ["ကြွက်သား", "အရိုး", "အဆီ", "အရေပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Blood pumped away from the heart travels through which type of blood vessel?",
+          questionMy:
+              "နှလုံးမှ အပေါက်သွားသော သွေးသည် မည်သည့် သွေးကြောအမျိုးအစားမှ ဖြတ်သန်းသနည်း။",
+          optionsEn: ["Arteries", "Veins", "Capillaries only", "Nerves"],
+          optionsMy: [
+            "သွေးလှောင်ကြော",
+            "သွေးကြော",
+            "သွေးဖျားကြော သီးသန့်",
+            "အာရုံကြော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What causes the 'lub-dub' sound doctors hear through a stethoscope?",
+          questionMy:
+              "ဆရာဝန်များ နားစွင့်ကိရိယာဖြင့် ကြားရသော 'လပ်-ဒပ်' အသံကို အဘယ်အရာက ဖြစ်စေသနည်း။",
+          optionsEn: [
+            "The heart valves closing as they pump blood",
+            "Blood boiling inside the heart",
+            "Air escaping from the lungs",
+            "Muscles in the arm moving",
+          ],
+          optionsMy: [
+            "သွေးကို တွန်းအားပေးစဉ် နှလုံးအိတ်ဝများ ပိတ်ခြင်း",
+            "နှလုံးအတွင်း သွေးဆူပွက်ခြင်း",
+            "အဆုတ်မှ လေထွက်သွားခြင်း",
+            "လက်မောင်းရှိ ကြွက်သားများ လှုပ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai counts her pulse and notices it beats faster right after she runs up the stairs. Why does her heart rate increase?",
+          questionMy:
+              "နှင်းဝေသည် မိမိ၏ သွေးခုန်နှုန်းကို ရေတွက်ရာ လှေကားထစ် တက်ပြီးချက်ချင်း ပိုမြန်စွာ ခုန်နေသည်ကို သတိပြုမိသည်။ ၎င်း၏ နှလုံးခုန်နှုန်း တိုးလာသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Her muscles need more oxygen and nutrients delivered quickly",
+            "Her heart is broken",
+            "She is scared of the stairs",
+            "Running always slows the heart down",
+          ],
+          optionsMy: [
+            "၎င်း၏ ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုမိုမြန်ဆန်စွာ ပေးပို့ရန် လိုအပ်သောကြောင့်",
+            "၎င်း၏ နှလုံး ပျက်စီးနေသောကြောင့်",
+            "လှေကားကို ကြောက်နေသောကြောင့်",
+            "အပြေးအလွှား လုပ်ခြင်းက နှလုံးကို အမြဲတမ်း နှေးစေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match the Circulatory System Vocabulary",
+      titleMy: "သွေးလည်ပတ်မှု စနစ် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w5-dm-1",
+          termEn: "Artery",
+          termMy: "သွေးလှောင်ကြော (Artery)",
+          matchEn: "A blood vessel carrying blood away from the heart",
+          matchMy: "နှလုံးမှ အပေါက် သွေးသယ်ဆောင်ပေးသော သွေးကြော",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w5-dm-2",
+          termEn: "Vein",
+          termMy: "သွေးကြော (Vein)",
+          matchEn: "A blood vessel carrying blood back to the heart",
+          matchMy: "နှလုံးဆီသို့ သွေးပြန်သယ်ဆောင်ပေးသော သွေးကြော",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w5-dm-3",
+          termEn: "Capillary",
+          termMy: "သွေးဖျားကြော (Capillary)",
+          matchEn:
+              "A tiny blood vessel where oxygen and nutrients pass into cells",
+          matchMy:
+              "အောက်ဆီဂျင်နှင့် အာဟာရများ ဆဲလ်များအတွင်းသို့ ဖြတ်သန်းရာ သွေးကြောငယ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w5-dm-4",
+          termEn: "Pulse",
+          termMy: "သွေးခုန်နှုန်း (Pulse)",
+          matchEn:
+              "The rhythmic beat you can feel where an artery is close to the skin",
+          matchMy:
+              "သွေးလှောင်ကြောသည် အရေပြားအနီးရောက်နေသောနေရာတွင် ခံစားရသော ရစ်သမ်တစ်ခုန်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w5-dm-5",
+          termEn: "Heart valve",
+          termMy: "နှလုံးအိတ်ဝ (Heart valve)",
+          matchEn: "A flap that stops blood flowing backwards inside the heart",
+          matchMy: "နှလုံးအတွင်း သွေးပြန်စီးမှုကို ရပ်တန့်ပေးသော အခွက်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w5-dm-6",
+          termEn: "Circulatory system",
+          termMy: "သွေးလည်ပတ်မှု စနစ် (Circulatory system)",
+          matchEn:
+              "The heart, blood, and blood vessels working together to transport substances",
+          matchMy:
+              "ပစ္စည်းများကို သယ်ဆောင်ရန် အတူတကွ လုပ်ဆောင်သော နှလုံး၊ သွေးနှင့် သွေးကြောများ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Towards the Heart or Away From the Heart?",
+      titleMy: "စီစစ်ကြမည် - နှလုံးဆီသို့လား၊ နှလုံးမှအပေါက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Towards the heart", "Away from the heart"],
+        bucketsMy: ["နှလုံးဆီသို့", "နှလုံးမှအပေါက်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w5-sort-1",
+            labelEn: "Vein carrying blood from the leg",
+            labelMy: "ခြေထောက်မှ သွေးသယ်ဆောင်သော သွေးကြော",
+            correctBucketEn: "Towards the heart",
+            correctBucketMy: "နှလုံးဆီသို့",
+          ),
+          SortingItem(
+            id: "y6sci-w5-sort-2",
+            labelEn: "Artery carrying blood to the arm",
+            labelMy: "လက်မောင်းသို့ သွေးသယ်ဆောင်သော သွေးလှောင်ကြော",
+            correctBucketEn: "Away from the heart",
+            correctBucketMy: "နှလုံးမှအပေါက်",
+          ),
+          SortingItem(
+            id: "y6sci-w5-sort-3",
+            labelEn: "Pulmonary vein bringing blood from the lungs",
+            labelMy: "အဆုတ်မှ သွေးယူဆောင်လာသော pulmonary သွေးကြော",
+            correctBucketEn: "Towards the heart",
+            correctBucketMy: "နှလုံးဆီသို့",
+          ),
+          SortingItem(
+            id: "y6sci-w5-sort-4",
+            labelEn: "Aorta carrying blood to the whole body",
+            labelMy: "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးသယ်ဆောင်သော aorta",
+            correctBucketEn: "Away from the heart",
+            correctBucketMy: "နှလုံးမှအပေါက်",
+          ),
+          SortingItem(
+            id: "y6sci-w5-sort-5",
+            labelEn: "Vein carrying blood from the hand",
+            labelMy: "လက်ဖဝါးမှ သွေးသယ်ဆောင်သော သွေးကြော",
+            correctBucketEn: "Towards the heart",
+            correctBucketMy: "နှလုံးဆီသို့",
+          ),
+          SortingItem(
+            id: "y6sci-w5-sort-6",
+            labelEn: "Artery carrying blood to the stomach",
+            labelMy: "အစာအိမ်သို့ သွေးသယ်ဆောင်သော သွေးလှောင်ကြော",
+            correctBucketEn: "Away from the heart",
+            correctBucketMy: "နှလုံးမှအပေါက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Pulse Investigation",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ သွေးခုန်နှုန်း စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Pulse Investigation",
+        titleMy: "နှင်းဝေ၏ သွေးခုန်နှုန်း စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "In science class, Hnin Wai's teacher asks everyone to press two fingers gently against the inside of their wrist and count how many beats they feel in fifteen seconds. Hnin Wai counts eighteen beats while sitting still, then multiplies by four to estimate her resting heart rate: seventy-two beats per minute. Her teacher explains that this steady beat is the pulse, caused by blood being pushed through her arteries every time her heart contracts.\n\nNext, the class is asked to jog on the spot for one minute before measuring their pulse again. Hnin Wai's heart is pounding, and this time she counts thirty-two beats in fifteen seconds -- a resting rate suddenly jumped to well over a hundred beats per minute. Her teacher explains that during exercise, muscles need extra oxygen and nutrients, so the heart beats faster and harder to pump more oxygen-rich blood to them through the arteries, while used blood returns through the veins to be refreshed.\n\nCurious about how quickly her heart rate can recover, Hnin Wai sits down and measures her pulse again every minute. She notices it drops steadily, reaching close to her resting rate again after about five minutes. She writes in her notebook that a fit heart usually recovers faster than an unfit one, and decides to test this idea on her whole family over the next week, timing everyone's recovery after the same short burst of jogging.",
+        passageMy:
+            "သိပ္ပံအတန်းတွင် နှင်းဝေ၏ဆရာမသည် လက်ကောက်ဝတ်၏ အတွင်းဘက်ကို လက်ချောင်းနှစ်ချောင်းဖြင့် ပွတ်တင်ပြီး စက္ကန့်တစ်ဆယ့်ငါးအတွင်း ခံစားရသော ခုန်ရေကို ရေတွက်ခိုင်းသည်။ နှင်းဝေသည် တည်ငြိမ်စွာထိုင်နေစဉ် ခုန်ရေတစ်ဆယ့်ရှစ်ကြိမ် ရေတွက်ရရှိပြီး ၄ ဖြင့် မြှောက်၍ ၎င်း၏ အနားယူချိန် နှလုံးခုန်နှုန်းကို ခန့်မှန်းသည် - တစ်မိနစ်လျှင် ခုန်ချက် ခုနစ်ဆယ့်နှစ်ကြိမ်။ ဆရာမက ဤတည်ငြိမ်သော ခုန်ချက်သည် သွေးခုန်နှုန်းဖြစ်ပြီး နှလုံးကျုံ့လိုက်တိုင်း သွေးလှောင်ကြောများမှ တွန်းအားပေးသော သွေးကြောင့် ဖြစ်ကြောင်း ရှင်းပြသည်။\n\nထို့နောက် အတန်းသားများကို တစ်နေရာတည်း တစ်မိနစ် လျင်လျင်ခုန်ခိုင်းပြီးမှ သွေးခုန်နှုန်းကို ပြန်တိုင်းခိုင်းသည်။ နှင်းဝေ၏ နှလုံးသည် ပြင်းစွာခုန်နေပြီး ဤအကြိမ်တွင် စက္ကန့်တစ်ဆယ့်ငါးအတွင်း သုံးဆယ့်နှစ်ကြိမ် ရေတွက်ရရှိသည် - တစ်မိနစ်လျှင် ရာကျော်အထိ ရုတ်တရက် ခုန်တက်သွားသည်။ လေ့ကျင့်ခန်းလုပ်စဉ် ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ထပ်လိုအပ်သောကြောင့် နှလုံးသည် ပိုမိုမြန်ဆန်စွာနှင့် ပြင်းအားထက်စွာ ခုန်ပြီး အောက်ဆီဂျင်ကြွယ်ဝသော သွေးကို သွေးလှောင်ကြောများမှတစ်ဆင့် ပို့ဆောင်ကာ၊ အသုံးပြုပြီးသား သွေးများသည် သွေးကြောများမှတစ်ဆင့် ပြန်လည်လန်းဆန်းစေရန် ပြန်လာသည်ဟု ဆရာမက ရှင်းပြသည်။\n\nနှလုံးခုန်နှုန်း မည်မျှမြန်ဆန်စွာ ပြန်လည်ကောင်းမွန်လာနိုင်သည်ကို စိတ်ဝင်စားသောကြောင့် နှင်းဝေသည် ထိုင်ချပြီး မိနစ်တိုင်း သွေးခုန်နှုန်းကို ပြန်တိုင်းသည်။ ၎င်းသည် တဖြည်းဖြည်း ကျဆင်းလာပြီး ငါးမိနစ်ခန့်အကြာတွင် အနားယူချိန် နှုန်းအနီးသို့ ပြန်ရောက်လာသည်ကို သတိပြုမိသည်။ ကျန်းမာသန်စွမ်းသော နှလုံးသည် မကျန်းမာသေးသောနှလုံးထက် ပိုမိုမြန်ဆန်စွာ ပြန်ကောင်းလေ့ရှိကြောင်း မှတ်စုတွင် ရေးမှတ်ပြီး၊ ဤအတွေးကို လာမည့်တစ်ပတ်အတွင်း မိသားစုတစ်ခုလုံးအပေါ် စမ်းသပ်ရန် ဆုံးဖြတ်ကာ တူညီသော တိုတောင်းသည့် ခုန်ခြင်းလှုပ်ရှားမှုတစ်ခုပြီးနောက် အသီးသီး၏ ပြန်ကောင်းချိန်ကို တိုင်းတာမည်ဟု စိတ်ကူးထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "How does Hnin Wai estimate her resting heart rate?",
+            questionMy:
+                "မိမိ၏ အနားယူချိန် နှလုံးခုန်နှုန်းကို နှင်းဝေ မည်သို့ ခန့်မှန်းသနည်း။",
+            optionsEn: [
+              "By counting beats for fifteen seconds and multiplying by four",
+              "By guessing randomly",
+              "By asking her teacher",
+              "By running for an hour first",
+            ],
+            optionsMy: [
+              "စက္ကန့်တစ်ဆယ့်ငါးအတွင်း ခုန်ချက်ရေတွက်ပြီး ၄ ဖြင့် မြှောက်ခြင်းဖြင့်",
+              "ကျပန်းခန့်မှန်းခြင်းဖြင့်",
+              "ဆရာမအား မေးမြန်းခြင်းဖြင့်",
+              "တစ်နာရီ ဦးစွာ ပြေးခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai's heart beat faster after jogging on the spot?",
+            questionMy:
+                "တစ်နေရာတည်း ခုန်ပြီးနောက် နှင်းဝေ၏ နှလုံး ပိုမြန်စွာ ခုန်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Her muscles need extra oxygen and nutrients delivered quickly",
+              "Her heart is malfunctioning",
+              "Jogging always slows the heart down",
+              "She is nervous about the test",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုမိုမြန်ဆန်စွာ လိုအပ်သောကြောင့်",
+              "၎င်း၏ နှလုံး ချို့ယွင်းနေသောကြောင့်",
+              "ခုန်ခြင်းက နှလုံးကို အမြဲတမ်း နှေးစေသောကြောင့်",
+              "စာမေးပွဲအတွက် စိုးရိမ်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What carries used blood back to the heart, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ အသုံးပြုပြီးသား သွေးကို နှလုံးဆီသို့ အဘယ်အရာက သယ်ဆောင်ပြန်သနည်း။",
+            optionsEn: ["Veins", "Arteries", "Bones", "Nerves"],
+            optionsMy: [
+              "သွေးကြောများ",
+              "သွေးလှောင်ကြောများ",
+              "အရိုးများ",
+              "အာရုံကြောများ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai measure after her heart rate spikes from jogging?",
+            questionMy:
+                "ခုန်ခြင်းကြောင့် နှလုံးခုန်နှုန်း တက်လာပြီးနောက် နှင်းဝေ အဘယ်အရာကို တိုင်းတာသနည်း။",
+            optionsEn: [
+              "How quickly her heart rate recovers each minute",
+              "How tall she is",
+              "How much she weighs",
+              "How loudly she can shout",
+            ],
+            optionsMy: [
+              "မိနစ်တိုင်း နှလုံးခုန်နှုန်း မည်မျှမြန်စွာ ပြန်ကောင်းလာသည်",
+              "ဘယ်လောက်အရပ်ရှိသည်",
+              "ဘယ်လောက်အလေးချိန်ရှိသည်",
+              "ဘယ်လောက်ကျယ်ကျယ် အော်နိုင်သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does Hnin Wai plan to test on her whole family?",
+            questionMy:
+                "မိသားစုတစ်ခုလုံးအပေါ် နှင်းဝေ စမ်းသပ်ရန် စီစဉ်ထားသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "How quickly each person's heart rate recovers after jogging",
+              "Who can run the fastest",
+              "Who has the loudest voice",
+              "Who eats the most food",
+            ],
+            optionsMy: [
+              "ခုန်ခြင်းပြီးနောက် လူတစ်ဦးချင်းစီ၏ နှလုံးခုန်နှုန်း မည်မျှမြန်ဆန်စွာ ပြန်ကောင်းလာသည်",
+              "မည်သူ အမြန်ဆုံး ပြေးနိုင်သည်",
+              "မည်သူ အသံအကျယ်ဆုံးဖြစ်သည်",
+              "မည်သူ အစားအစာ အများဆုံးစားသည်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w5-d5",
+      dayNumber: 5,
+      titleEn: "Heart and Circulation Round-Up",
+      titleMy: "နှလုံးနှင့် သွေးလည်ပတ်မှု အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which blood vessel carries blood away from the heart to the whole body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ နှလုံးမှ အပေါက် သွေးသယ်ဆောင်ပေးသော သွေးကြောမှာ အဘယ်နည်း။",
+          optionsEn: ["The aorta, an artery", "A vein", "A nerve", "A bone"],
+          optionsMy: [
+            "Aorta ဟုခေါ်သော သွေးလှောင်ကြော",
+            "သွေးကြော",
+            "အာရုံကြော",
+            "အရိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do heart valves matter?",
+          questionMy: "နှလုံးအိတ်ဝများ အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "They stop blood from flowing backwards inside the heart",
+            "They make the heart lighter",
+            "They control breathing",
+            "They store nutrients",
+          ],
+          optionsMy: [
+            "နှလုံးအတွင်း သွေးပြန်စီးမှုကို တားဆီးပေးခြင်း",
+            "နှလုံးကို ပေါ့လျော့စေခြင်း",
+            "အသက်ရှူခြင်းကို ထိန်းချုပ်ခြင်း",
+            "အာဟာရများ သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's investigation, roughly how long did it take her heart rate to return close to resting after jogging?",
+          questionMy:
+              "နှင်းဝေ၏ စုံစမ်းစစ်ဆေးမှုတွင် ခုန်ပြီးနောက် နှလုံးခုန်နှုန်း အနားယူချိန်အနီးသို့ ပြန်ရောက်ရန် ခန့်မှန်းအားဖြင့် မည်မျှကြာသနည်း။",
+          optionsEn: [
+            "About five minutes",
+            "About one second",
+            "About one hour",
+            "It never recovers",
+          ],
+          optionsMy: [
+            "ငါးမိနစ်ခန့်",
+            "စက္ကန့်တစ်ခုခန့်",
+            "တစ်နာရီခန့်",
+            "ဘယ်တော့မှ ပြန်မကောင်းပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the pulse a sign of?",
+          questionMy: "သွေးခုန်နှုန်းသည် အဘယ်အရာ၏ လက္ခဏာဖြစ်သနည်း။",
+          optionsEn: [
+            "Blood being pushed through the arteries as the heart beats",
+            "The lungs filling with air",
+            "The stomach digesting food",
+            "The brain thinking",
+          ],
+          optionsMy: [
+            "နှလုံးခုန်ချက်တိုင်း သွေးလှောင်ကြောများမှတစ်ဆင့် သွေးတွန်းအားပေးခံရခြင်း",
+            "အဆုတ်တွင် လေဖြည့်ခြင်း",
+            "အစာအိမ်တွင် အစားအစာဒေဟခြင်း",
+            "ဦးနှောက် တွေးခေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall idea does Hnin Wai's pulse investigation demonstrate?",
+          questionMy:
+              "နှင်းဝေ၏ သွေးခုန်နှုန်း စုံစမ်းစစ်ဆေးမှုက ပြသနေသော ယေဘူယျအယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The heart works harder and faster when the body's muscles need more oxygen",
+            "The heart never changes speed",
+            "Exercise has no effect on the body",
+            "Blood only flows when a person is asleep",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်၏ ကြွက်သားများ အောက်ဆီဂျင် ပိုလိုအပ်သောအခါ နှလုံးသည် ပိုပင်ပန်းစွာနှင့် ပိုမြန်စွာ အလုပ်လုပ်ခြင်း",
+            "နှလုံးသည် အမြဲတမ်း အမြန်နှုန်းမပြောင်းလဲခြင်း",
+            "လေ့ကျင့်ခန်းက ခန္ဓာကိုယ်အပေါ် ဘာမျှ သက်ရောက်မှုမရှိခြင်း",
+            "သွေးသည် လူတစ်ဦး အိပ်ပျော်နေချိန်တွင်သာ စီးဆင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 2, Week 6: "Blood and Blood Vessels"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek6 = CourseWeekDef(
+  id: "course-year6-science-w6",
+  weekNumber: 6,
+  titleEn: "Blood and Blood Vessels",
+  titleMy: "သွေးနှင့် သွေးကြောများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w6-d1",
+      dayNumber: 1,
+      titleEn: "What Blood Is Made Of",
+      titleMy: "သွေးကို မည်သည့်အရာများဖြင့် ဖွဲ့စည်းထားသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which blood cells carry oxygen around the body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ အောက်ဆီဂျင် သယ်ဆောင်ပေးသော သွေးဆဲလ်များမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Red blood cells",
+            "White blood cells",
+            "Platelets only",
+            "Skin cells",
+          ],
+          optionsMy: [
+            "သွေးနီဥများ",
+            "သွေးဖြူဥများ",
+            "platelet များသာ",
+            "အရေပြားဆဲလ်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which part of the blood fights off infections?",
+          questionMy:
+              "ရောဂါကူးစက်မှုများကို တိုက်ဖျက်ပေးသော သွေး၏ အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "White blood cells",
+            "Red blood cells",
+            "Plasma only",
+            "Platelets only",
+          ],
+          optionsMy: [
+            "သွေးဖြူဥများ",
+            "သွေးနီဥများ",
+            "plasma သာ",
+            "platelet များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What helps blood clot when you get a small cut?",
+          questionMy:
+              "အနာငယ်တစ်ခု ရသောအခါ သွေးခဲစေရန် ကူညီပေးသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Platelets",
+            "White blood cells",
+            "Plasma alone",
+            "Bone marrow alone",
+          ],
+          optionsMy: [
+            "Platelet များ",
+            "သွေးဖြူဥများ",
+            "plasma တစ်ခုတည်း",
+            "အရိုးတွင်းချေး တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is plasma?",
+          questionMy: "Plasma ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The pale yellow liquid part of blood that carries cells and nutrients",
+            "A type of bone",
+            "A type of muscle",
+            "A type of skin",
+          ],
+          optionsMy: [
+            "ဆဲလ်များနှင့် အာဟာရများကို သယ်ဆောင်ပေးသော ဖျော့ဖျော့ဝါရောင် အရည်",
+            "အရိုးတစ်မျိုး",
+            "ကြွက်သားတစ်မျိုး",
+            "အရေပြားတစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai learns that a drop of blood the size of a pinhead contains millions of red blood cells. Why does the body need so many?",
+          questionMy:
+              "အပ်ချောင်းထိပ်ရွယ် သွေးစက်တစ်စက်တွင် သွေးနီဥ သန်းချီ ပါဝင်ကြောင်း နှင်းဝေ သိရှိသည်။ ခန္ဓာကိုယ်တွင် ဤမျှများစွာ လိုအပ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To carry enough oxygen to every cell in the body",
+            "To make blood look red",
+            "To keep bones strong",
+            "To help with digestion",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်ရှိ ဆဲလ်တိုင်းသို့ လုံလောက်သော အောက်ဆီဂျင် သယ်ဆောင်ပေးရန်",
+            "သွေးကို အနီရောင် ဖြစ်စေရန်",
+            "အရိုးများကို ခိုင်ခံ့စေရန်",
+            "အစာကြေခြင်းကို ကူညီရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match the Blood Vocabulary",
+      titleMy: "သွေး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w6-dm-1",
+          termEn: "Red blood cell",
+          termMy: "သွေးနီဥ (Red blood cell)",
+          matchEn: "A blood cell that carries oxygen around the body",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ အောက်ဆီဂျင် သယ်ဆောင်ပေးသော သွေးဆဲလ်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w6-dm-2",
+          termEn: "White blood cell",
+          termMy: "သွေးဖြူဥ (White blood cell)",
+          matchEn: "A blood cell that fights infection",
+          matchMy: "ရောဂါကူးစက်မှုများကို တိုက်ဖျက်ပေးသော သွေးဆဲလ်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w6-dm-3",
+          termEn: "Platelet",
+          termMy: "Platelet",
+          matchEn: "A tiny blood fragment that helps blood clot after a cut",
+          matchMy: "အနာရပြီးနောက် သွေးခဲစေရန် ကူညီပေးသော သွေးအပိုင်းအစငယ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w6-dm-4",
+          termEn: "Plasma",
+          termMy: "Plasma",
+          matchEn: "The pale yellow liquid part of blood",
+          matchMy: "သွေး၏ ဖျော့ဖျော့ဝါရောင် အရည်အစိတ်အပိုင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w6-dm-5",
+          termEn: "Blood clot",
+          termMy: "သွေးခဲ (Blood clot)",
+          matchEn: "A solid lump that forms to seal a wound and stop bleeding",
+          matchMy:
+              "ဒဏ်ရာတစ်ခုကို ပိတ်ပြီး သွေးဆုံးရပ်စေရန် ဖြစ်ပေါ်လာသော အစိုင်အခဲ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w6-dm-6",
+          termEn: "Oxygen",
+          termMy: "အောက်ဆီဂျင် (Oxygen)",
+          matchEn:
+              "A gas red blood cells carry from the lungs to every part of the body",
+          matchMy:
+              "အဆုတ်မှ ခန္ဓာကိုယ်၏ အစိတ်အပိုင်းတိုင်းသို့ သွေးနီဥများ သယ်ဆောင်ပေးသော ဓာတ်ငွေ့",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Job of Red Blood Cell or White Blood Cell?",
+      titleMy: "စီစစ်ကြမည် - သွေးနီဥ၏ အလုပ်လား၊ သွေးဖြူဥ၏ အလုပ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Job of red blood cell", "Job of white blood cell"],
+        bucketsMy: ["သွေးနီဥ၏ အလုပ်", "သွေးဖြူဥ၏ အလုပ်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w6-sort-1",
+            labelEn: "Carrying oxygen from the lungs",
+            labelMy: "အဆုတ်မှ အောက်ဆီဂျင် သယ်ဆောင်ခြင်း",
+            correctBucketEn: "Job of red blood cell",
+            correctBucketMy: "သွေးနီဥ၏ အလုပ်",
+          ),
+          SortingItem(
+            id: "y6sci-w6-sort-2",
+            labelEn: "Attacking harmful bacteria",
+            labelMy: "အန္တရာယ်ရှိ ဘက်တီးရီးယားများကို တိုက်ခိုက်ခြင်း",
+            correctBucketEn: "Job of white blood cell",
+            correctBucketMy: "သွေးဖြူဥ၏ အလုပ်",
+          ),
+          SortingItem(
+            id: "y6sci-w6-sort-3",
+            labelEn: "Giving blood its red colour",
+            labelMy: "သွေးကို အနီရောင် ဖြစ်စေခြင်း",
+            correctBucketEn: "Job of red blood cell",
+            correctBucketMy: "သွေးနီဥ၏ အလုပ်",
+          ),
+          SortingItem(
+            id: "y6sci-w6-sort-4",
+            labelEn: "Fighting off a viral infection",
+            labelMy: "ဗိုင်းရပ်စ် ကူးစက်မှုကို တိုက်ဖျက်ခြင်း",
+            correctBucketEn: "Job of white blood cell",
+            correctBucketMy: "သွေးဖြူဥ၏ အလုပ်",
+          ),
+          SortingItem(
+            id: "y6sci-w6-sort-5",
+            labelEn: "Delivering oxygen to leg muscles",
+            labelMy: "ခြေထောက်ကြွက်သားများသို့ အောက်ဆီဂျင် ပေးပို့ခြင်း",
+            correctBucketEn: "Job of red blood cell",
+            correctBucketMy: "သွေးနီဥ၏ အလုပ်",
+          ),
+          SortingItem(
+            id: "y6sci-w6-sort-6",
+            labelEn: "Recognising and destroying germs",
+            labelMy: "ရောဂါပိုးများကို မှတ်မိပြီး ဖျက်ဆီးခြင်း",
+            correctBucketEn: "Job of white blood cell",
+            correctBucketMy: "သွေးဖြူဥ၏ အလုပ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Cut Finger",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ လက်ချောင်းရာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Cut Finger",
+        titleMy: "နှင်းဝေ၏ လက်ချောင်းရာ",
+        passageEn:
+            "While slicing a mango for her family, Hnin Wai's knife slips and nicks the tip of her finger. A bright bead of blood appears immediately, and her mother rushes over with a tissue. As Hnin Wai presses down, she remembers her science lesson on blood: tiny cell fragments called platelets are already rushing to the wound, clumping together with strands of protein to form a plug that will soon harden into a scab.\n\nHer mother cleans the small cut and covers it with a plaster. Hnin Wai recalls that her white blood cells are now on patrol around the wound, ready to attack any bacteria that might have entered through the broken skin, while her red blood cells continue delivering oxygen everywhere else in her body as if nothing happened. She finds it remarkable that a single drop of blood contains millions of workers, each one doing a completely different job.\n\nThree days later, Hnin Wai peels back the plaster to check on her finger. The scab has formed a hard, dark seal over the cut, and there is no redness or swelling to suggest infection -- a sign, her mother says, that her platelets sealed the wound quickly and her white blood cells kept any germs from taking hold. Hnin Wai decides that blood is far more than a red liquid; it is really a busy transport and defence system working every second, even during something as ordinary as slicing a mango.",
+        passageMy:
+            "မိသားစုအတွက် သရက်သီးလှီးနေစဉ် နှင်းဝေ၏ ဓါးသည် ချော်လိုက်ပြီး လက်ချောင်းထိပ်ကို ရှခြစ်လိုက်သည်။ တောက်ပသော သွေးစက်တစ်စက် ချက်ချင်း ပေါ်လာပြီး မိခင်သည် တစ်ရှူးဖြင့် အလျင်အမြန် ဝင်ရောက်ကူညီသည်။ နှင်းဝေသည် အနာကို ဖိထားစဉ် သွေးအကြောင်း သိပ္ပံသင်ခန်းစာကို သတိရသည် - platelet ဟုခေါ်သော ဆဲလ်အပိုင်းအစငယ်များသည် ဒဏ်ရာသို့ ချက်ချင်း ပြေးဝင်ကာ ပရိုတင်းကြိုးများနှင့် စုပုံလျက် သွေးခဲ ဖုံးအုပ်ရန် ပလပ်တစ်ခု ဖွဲ့စည်းနေသည်။\n\nမိခင်သည် အနာငယ်ကို သန့်ရှင်းရေးလုပ်ပြီး ပလာစတာဖြင့် ဖုံးအုပ်ပေးသည်။ ၎င်း၏ သွေးဖြူဥများသည် ယခုအခါ ဒဏ်ရာအနီးတွင် ကင်းလှည့်နေပြီး ကွဲအက်နေသော အရေပြားမှတစ်ဆင့် ဝင်ရောက်လာနိုင်သော ဘက်တီးရီးယားကို တိုက်ခိုက်ရန် အသင့်ရှိကြောင်း၊ ၎င်း၏ သွေးနီဥများမူ ခန္ဓာကိုယ်၏ အခြားနေရာများသို့ အောက်ဆီဂျင် ဆက်လက်ပေးပို့နေဆဲဖြစ်ကြောင်း နှင်းဝေ သတိရသည်။ သွေးစက်တစ်စက်တွင် လုပ်သားသန်းချီ ပါဝင်ပြီး တစ်ဦးစီသည် လုံးဝကွာခြားသော အလုပ်ကို လုပ်ဆောင်နေကြောင်း အံ့ဩဖွယ် တွေ့ရသည်။\n\nသုံးရက်ကြာသောအခါ နှင်းဝေသည် ပလာစတာကို ဖွင့်ကြည့်၍ လက်ချောင်းကို စစ်ဆေးသည်။ အနာရာသည် မာကျော၊ အမှောင်ရောင် အဖုံးတစ်ခု ဖွဲ့စည်းထားပြီး ရောဂါကူးစက်မှုကို ညွှန်ပြသော နီရဲမှု သို့မဟုတ် ရောင်ရမ်းမှု လုံးဝမရှိပါ - platelet များသည် ဒဏ်ရာကို လျင်မြန်စွာ ပိတ်ခဲ့ပြီး သွေးဖြူဥများက ရောဂါပိုးများကို ဝင်ရောက်ခွင့်မပေးခဲ့ကြောင်း လက္ခဏာတစ်ခုဖြစ်သည်ဟု မိခင်က ပြောသည်။ သွေးသည် အနီရောင် အရည်တစ်မျိုးထက် အများကြီး ပိုပြီး - သရက်သီးလှီးခြင်းကဲ့သို့ သာမန်အလုပ်တစ်ခုအတွင်းတောင် စက္ကန့်တိုင်း အလုပ်များနေသော သယ်ယူပို့ဆောင်ရေးနှင့် ကာကွယ်ရေးစနစ်တစ်ခု အမှန်တကယ်ဖြစ်ကြောင်း နှင်းဝေ ဆုံးဖြတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What rushes to Hnin Wai's cut finger to help form a plug?",
+            questionMy:
+                "ပလပ် ဖွဲ့စည်းရန် ကူညီရန် နှင်းဝေ၏ လက်ချောင်းရာသို့ အဘယ်အရာ ပြေးဝင်လာသနည်း။",
+            optionsEn: [
+              "Platelets",
+              "White blood cells only",
+              "Bones",
+              "Muscles",
+            ],
+            optionsMy: [
+              "Platelet များ",
+              "သွေးဖြူဥများသာ",
+              "အရိုးများ",
+              "ကြွက်သားများ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What are Hnin Wai's white blood cells doing around the wound?",
+            questionMy:
+                "ဒဏ်ရာအနီးတွင် နှင်းဝေ၏ သွေးဖြူဥများ အဘယ်အရာ လုပ်ဆောင်နေသနည်း။",
+            optionsEn: [
+              "Patrolling and ready to attack any bacteria",
+              "Carrying oxygen only",
+              "Forming a scab alone",
+              "Doing nothing at all",
+            ],
+            optionsMy: [
+              "ကင်းလှည့်ပြီး ဘက်တီးရီးယားကို တိုက်ခိုက်ရန် အသင့်ရှိခြင်း",
+              "အောက်ဆီဂျင်ကိုသာ သယ်ဆောင်ခြင်း",
+              "အနာဖုံးကို တစ်ကောင်တည်း ဖွဲ့စည်းခြင်း",
+              "ဘာမျှ မလုပ်ဆောင်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What sign shows that Hnin Wai's finger has NOT become infected three days later?",
+            questionMy:
+                "သုံးရက်အကြာတွင် နှင်းဝေ၏ လက်ချောင်း ရောဂါကူးစက်မှု မဖြစ်ကြောင်း ပြသသော လက္ခဏာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "There is no redness or swelling",
+              "The finger has turned green",
+              "The finger has fallen off",
+              "The plaster has disappeared",
+            ],
+            optionsMy: [
+              "နီရဲမှု သို့မဟုတ် ရောင်ရမ်းမှု လုံးဝမရှိခြင်း",
+              "လက်ချောင်းသည် အစိမ်းရောင် ပြောင်းသွားခြင်း",
+              "လက်ချောင်း ကျွတ်ကျသွားခြင်း",
+              "ပလာစတာ ပျောက်သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what continues happening in Hnin Wai's body while her finger heals?",
+            questionMy:
+                "စာပိုဒ်အရ လက်ချောင်းပျောက်ကင်းနေစဉ် နှင်းဝေ၏ ခန္ဓာကိုယ်ထဲတွင် ဆက်လက်ဖြစ်ပျက်နေသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Red blood cells continue delivering oxygen everywhere else in her body",
+              "Her whole body stops working",
+              "Her heart stops beating",
+              "Her blood stops flowing entirely",
+            ],
+            optionsMy: [
+              "သွေးနီဥများသည် ခန္ဓာကိုယ်၏ အခြားနေရာများသို့ အောက်ဆီဂျင် ဆက်လက်ပေးပို့နေခြင်း",
+              "ခန္ဓာကိုယ်တစ်ခုလုံး လုပ်ဆောင်မှု ရပ်တန့်သွားခြင်း",
+              "နှလုံး ခုန်ခြင်း ရပ်တန့်သွားခြင်း",
+              "သွေးစီးဆင်းမှု လုံးဝ ရပ်တန့်သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does Hnin Wai finally decide blood really is?",
+            questionMy:
+                "နောက်ဆုံးတွင် သွေးသည် အမှန်တကယ် မည်သို့သော အရာဖြစ်သည်ဟု နှင်းဝေ ဆုံးဖြတ်သနည်း။",
+            optionsEn: [
+              "A busy transport and defence system working every second",
+              "Simply a red liquid with no other function",
+              "A type of bone",
+              "Something only found in cuts",
+            ],
+            optionsMy: [
+              "စက္ကန့်တိုင်း အလုပ်များနေသော သယ်ယူပို့ဆောင်ရေးနှင့် ကာကွယ်ရေးစနစ်တစ်ခု",
+              "အခြားလုပ်ဆောင်ချက် မရှိသော အနီရောင် အရည်တစ်မျိုးသာ",
+              "အရိုးတစ်မျိုး",
+              "အနာများတွင်သာ တွေ့ရသောအရာ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w6-d5",
+      dayNumber: 5,
+      titleEn: "Blood Components Round-Up",
+      titleMy: "သွေး၏ အစိတ်အပိုင်းများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which liquid part of blood carries cells and nutrients around the body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ ဆဲလ်များနှင့် အာဟာရများ သယ်ဆောင်ပေးသော သွေး၏ အရည်အစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Plasma", "Bone marrow", "Skin", "Cartilage"],
+          optionsMy: ["Plasma", "အရိုးတွင်းချေး", "အရေပြား", "အရိုးချောင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which blood component would you expect to increase temporarily while your body fights off a cold?",
+          questionMy:
+              "ခန္ဓာကိုယ်သည် အအေးမိခြင်းကို တိုက်ဖျက်နေစဉ် ယာယီတိုးလာမည်ဟု မျှော်လင့်ရသော သွေးအစိတ်အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "White blood cells",
+            "Red blood cells only",
+            "Bones only",
+            "Muscles only",
+          ],
+          optionsMy: [
+            "သွေးဖြူဥများ",
+            "သွေးနီဥများသာ",
+            "အရိုးများသာ",
+            "ကြွက်သားများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's cut-finger story, what forms over the wound after a few days?",
+          questionMy:
+              "နှင်းဝေ၏ လက်ချောင်းရာ ပုံပြင်တွင် ရက်အနည်းငယ်ကြာပြီးနောက် ဒဏ်ရာပေါ်တွင် အဘယ်အရာ ဖွဲ့စည်းလာသနည်း။",
+          optionsEn: ["A scab", "A new bone", "A new muscle", "Nothing at all"],
+          optionsMy: ["အနာဖုံး", "အရိုးအသစ်", "ကြွက်သားအသစ်", "ဘာမျှမရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these best describes the role of platelets?",
+          questionMy:
+              "Platelet ၏ အခန်းကဏ္ဍကို အကောင်းဆုံးဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Clumping together to seal a wound and stop bleeding",
+            "Carrying oxygen to muscles",
+            "Fighting off viruses",
+            "Making blood the colour red",
+          ],
+          optionsMy: [
+            "ဒဏ်ရာကို ပိတ်ပြီး သွေးဆုံးရပ်စေရန် စုပုံခြင်း",
+            "ကြွက်သားများသို့ အောက်ဆီဂျင် သယ်ဆောင်ခြင်း",
+            "ဗိုင်းရပ်စ်များကို တိုက်ဖျက်ခြင်း",
+            "သွေးကို အနီရောင်ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's cut-finger story teach about blood?",
+          questionMy:
+              "နှင်းဝေ၏ လက်ချောင်းရာ ပုံပြင်သည် သွေးအကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Blood is a busy system with different cells doing different jobs at once",
+            "Blood only carries oxygen and does nothing else",
+            "Cuts never heal on their own",
+            "White blood cells only exist in the arm",
+          ],
+          optionsMy: [
+            "သွေးသည် ကွဲပြားသောဆဲလ်များ ကွဲပြားသောအလုပ်များကို တစ်ပြိုင်နက် လုပ်ဆောင်နေသော လှုပ်ရှားနေသည့်စနစ်တစ်ခုဖြစ်ခြင်း",
+            "သွေးသည် အောက်ဆီဂျင်ကိုသာ သယ်ဆောင်ပြီး အခြားဘာမျှ မလုပ်ဆောင်ခြင်း",
+            "အနာများသည် မိမိကိုယ်တိုင် ဘယ်တော့မှ မပျောက်ကင်းခြင်း",
+            "သွေးဖြူဥများသည် လက်မောင်းတွင်သာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 2, Week 7: "Nutrients, Water and Transport in
+// the Body"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek7 = CourseWeekDef(
+  id: "course-year6-science-w7",
+  weekNumber: 7,
+  titleEn: "Nutrients, Water and Transport in the Body",
+  titleMy: "ခန္ဓာကိုယ်အတွင်း အာဟာရ၊ ရေနှင့် သယ်ယူပို့ဆောင်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w7-d1",
+      dayNumber: 1,
+      titleEn: "How Nutrients Travel Around the Body",
+      titleMy: "အာဟာရများ ခန္ဓာကိုယ်တစ်ခုလုံးသို့ မည်သို့ ခရီးသွားသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "After food is digested, where do nutrients mostly pass into the blood?",
+          questionMy:
+              "အစားအစာ ဒေဟပြီးနောက် အာဟာရများသည် အများစုအားဖြင့် မည်သည့်နေရာမှ သွေးထဲသို့ ဝင်ရောက်သနည်း။",
+          optionsEn: [
+            "The small intestine",
+            "The mouth",
+            "The lungs",
+            "The skin",
+          ],
+          optionsMy: ["အူသိမ်", "ပါးစပ်", "အဆုတ်", "အရေပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which system carries digested nutrients to every cell in the body?",
+          questionMy:
+              "ဒေဟထားသော အာဟာရများကို ခန္ဓာကိုယ်ရှိ ဆဲလ်တိုင်းသို့ သယ်ဆောင်ပေးသော စနစ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The circulatory system",
+            "The skeletal system only",
+            "The nervous system alone",
+            "The muscular system alone",
+          ],
+          optionsMy: [
+            "သွေးလည်ပတ်မှု စနစ်",
+            "အရိုးစနစ်တစ်ခုတည်း",
+            "အာရုံကြောစနစ်တစ်ခုတည်း",
+            "ကြွက်သားစနစ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does the body need water in addition to food?",
+          questionMy:
+              "ခန္ဓာကိုယ်သည် အစားအစာအပြင် ရေကိုပါ လိုအပ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Water helps transport substances and keeps cells working properly",
+            "Water has no real purpose in the body",
+            "Water only helps hair grow",
+            "Water replaces the need for nutrients entirely",
+          ],
+          optionsMy: [
+            "ရေသည် ပစ္စည်းများ သယ်ဆောင်ရန် ကူညီပြီး ဆဲလ်များကို ကောင်းမွန်စွာ အလုပ်လုပ်စေခြင်း",
+            "ရေသည် ခန္ဓာကိုယ်တွင် တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+            "ရေသည် ဆံပင်ပေါက်ရန်သာ ကူညီခြင်း",
+            "ရေသည် အာဟာရလိုအပ်ချက်ကို လုံးဝအစားထိုးနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Where in the body does waste from digestion that is NOT absorbed eventually leave?",
+          questionMy:
+              "ဒေဟမှု ဖြစ်စဉ်တွင် စုပ်ယူမခံရသော စွန့်ပစ်ပစ္စည်းများသည် နောက်ဆုံးတွင် ခန္ဓာကိုယ်၏ မည်သည့်နေရာမှ ထွက်သွားသနည်း။",
+          optionsEn: [
+            "The large intestine",
+            "The lungs",
+            "The brain",
+            "The heart",
+          ],
+          optionsMy: ["အူမကြီး", "အဆုတ်", "ဦးနှောက်", "နှလုံး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai forgets to drink water on a hot day and feels dizzy and tired by the afternoon. What is the most likely reason?",
+          questionMy:
+              "နှင်းဝေသည် နေပူသောနေ့တစ်နေ့တွင် ရေသောက်ရန် မေ့သွားပြီး ညနေခင်းတွင် မူးဝေ ပင်ပန်းသည်ကို ခံစားရသည်။ အဖြစ်များဆုံးအကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Not enough water in her body slowed transport of nutrients and other substances",
+            "She ate too much fruit",
+            "She read too many books",
+            "She wore the wrong colour clothes",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တွင် ရေလုံလုံလောက်လောက် မရှိသောကြောင့် အာဟာရနှင့် အခြားပစ္စည်းများ သယ်ဆောင်မှု နှေးကွေးသွားခြင်း",
+            "အသီးအနှံ များများ စားခဲ့သောကြောင့်",
+            "စာအုပ်များများ ဖတ်ခဲ့သောကြောင့်",
+            "အဝတ်အစားအရောင် မှားနေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match the Nutrients and Transport Vocabulary",
+      titleMy: "အာဟာရနှင့် သယ်ယူပို့ဆောင်မှု ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w7-dm-1",
+          termEn: "Nutrient",
+          termMy: "အာဟာရ (Nutrient)",
+          matchEn: "A substance from food the body needs to grow and function",
+          matchMy:
+              "ကြီးထွားရန်နှင့် အလုပ်လုပ်ရန် ခန္ဓာကိုယ် လိုအပ်သော အစားအစာမှ ဓာတ်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w7-dm-2",
+          termEn: "Small intestine",
+          termMy: "အူသိမ် (Small intestine)",
+          matchEn:
+              "The organ where most digested nutrients pass into the blood",
+          matchMy: "ဒေဟထားသော အာဟာရ အများစု သွေးထဲသို့ ဝင်ရောက်ရာ အင်္ဂါ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w7-dm-3",
+          termEn: "Large intestine",
+          termMy: "အူမကြီး (Large intestine)",
+          matchEn: "The organ that absorbs water and forms solid waste",
+          matchMy:
+              "ရေကို စုပ်ယူပြီး အစိုင်အခဲ စွန့်ပစ်ပစ္စည်းများ ဖွဲ့စည်းပေးသော အင်္ဂါ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w7-dm-4",
+          termEn: "Dehydration",
+          termMy: "ရေဓာတ်ခန်းခြောက်ခြင်း (Dehydration)",
+          matchEn: "The condition of not having enough water in the body",
+          matchMy: "ခန္ဓာကိုယ်တွင် ရေဓာတ် လုံလုံလောက်လောက် မရှိသော အခြေအနေ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w7-dm-5",
+          termEn: "Carbohydrate",
+          termMy: "ကာဗိုဟိုက်ဒရိတ် (Carbohydrate)",
+          matchEn: "A nutrient that gives the body most of its energy",
+          matchMy: "ခန္ဓာကိုယ်အား စွမ်းအင်အများစု ပေးသော အာဟာရ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w7-dm-6",
+          termEn: "Protein",
+          termMy: "ပရိုတင်း (Protein)",
+          matchEn: "A nutrient needed to build and repair muscles and cells",
+          matchMy:
+              "ကြွက်သားနှင့် ဆဲလ်များ တည်ဆောက်ပြီး ပြုပြင်ရန် လိုအပ်သော အာဟာရ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Nutrient Type",
+      titleMy: "စီစစ်ကြမည် - အာဟာရအမျိုးအစား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mostly carbohydrate", "Mostly protein"],
+        bucketsMy: ["ကာဗိုဟိုက်ဒရိတ် အများစု", "ပရိုတင်း အများစု"],
+        items: [
+          SortingItem(
+            id: "y6sci-w7-sort-1",
+            labelEn: "Rice",
+            labelMy: "ထမင်း",
+            correctBucketEn: "Mostly carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် အများစု",
+          ),
+          SortingItem(
+            id: "y6sci-w7-sort-2",
+            labelEn: "Chicken",
+            labelMy: "ကြက်သား",
+            correctBucketEn: "Mostly protein",
+            correctBucketMy: "ပရိုတင်း အများစု",
+          ),
+          SortingItem(
+            id: "y6sci-w7-sort-3",
+            labelEn: "Bread",
+            labelMy: "ပေါင်မုန့်",
+            correctBucketEn: "Mostly carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် အများစု",
+          ),
+          SortingItem(
+            id: "y6sci-w7-sort-4",
+            labelEn: "Fish",
+            labelMy: "ငါး",
+            correctBucketEn: "Mostly protein",
+            correctBucketMy: "ပရိုတင်း အများစု",
+          ),
+          SortingItem(
+            id: "y6sci-w7-sort-5",
+            labelEn: "Potato",
+            labelMy: "အာလူး",
+            correctBucketEn: "Mostly carbohydrate",
+            correctBucketMy: "ကာဗိုဟိုက်ဒရိတ် အများစု",
+          ),
+          SortingItem(
+            id: "y6sci-w7-sort-6",
+            labelEn: "Eggs",
+            labelMy: "ကြက်ဥ",
+            correctBucketEn: "Mostly protein",
+            correctBucketMy: "ပရိုတင်း အများစု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Sports Day Water Bottle",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အားကစားနေ့ ရေဗူး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Sports Day Water Bottle",
+        titleMy: "နှင်းဝေ၏ အားကစားနေ့ ရေဗူး",
+        passageEn:
+            "On Nova School's Sports Day, Hnin Wai is chosen to run the four-hundred-metre relay under the midday sun. Before her race, her PE teacher reminds every runner to drink water regularly throughout the morning, not just right before the event. Hnin Wai remembers her science lesson: water helps carry nutrients and other substances around the body, and without enough of it, the blood becomes thicker and harder for the heart to pump.\n\nDuring the long wait between events, Hnin Wai notices some of her classmates skipping water breaks because they are too busy chatting and watching other races. By early afternoon, one boy from her class complains of a headache and feeling dizzy -- classic signs, her teacher explains, of mild dehydration from sweating out water in the heat without replacing it. The teacher gives him water and asks him to rest in the shade, and within twenty minutes his colour and energy return.\n\nHnin Wai, who has been sipping water steadily all day exactly as instructed, runs her relay leg confidently and finishes strong. Afterwards, she tells her mother that nutrients from her breakfast rice and eggs gave her muscles energy and material to repair themselves, but it was the water carrying everything through her bloodstream that let her body actually use what she had eaten -- proof, she thinks, that food and water work as a team, not as two separate jobs.",
+        passageMy:
+            "Nova School ၏ အားကစားနေ့တွင် နှင်းဝေသည် နေ့လယ်နေရောင်အောက် လေးရာမီတာ relay ပြေးရန် ရွေးချယ်ခံရသည်။ ပြေးမီ ကိုယ်ကာယဆရာမက ပြေးသူတိုင်းအား ပြိုင်ပွဲမတိုင်မီသာ မဟုတ်ဘဲ မနက်ခင်းတစ်ခုလုံး ပုံမှန် ရေသောက်ရန် သတိပေးသည်။ နှင်းဝေသည် သိပ္ပံသင်ခန်းစာကို သတိရသည် - ရေသည် ခန္ဓာကိုယ်တစ်ခုလုံးသို့ အာဟာရနှင့် အခြားပစ္စည်းများ သယ်ဆောင်ရန် ကူညီပေးပြီး ရေမလုံလောက်ပါက သွေးသည် ပိုထူထဲလာကာ နှလုံးက ပိုတွန်းအားပေးရန် ခက်ခဲလာသည်။\n\nပွဲများကြား ကြာရှည်စွာ စောင့်ဆိုင်းနေစဉ် ၎င်း၏ အတန်းဖော်အချို့သည် စကားပြောခြင်း၊ ပြိုင်ပွဲများကြည့်ရှုခြင်းနှင့် အလုပ်များနေသောကြောင့် ရေသောက်ချိန်များကို ကျော်လွှားနေသည်ကို သတိပြုမိသည်။ ညနေခင်းတွင် အတန်းမှ ကောင်ကလေးတစ်ဦးသည် ခေါင်းကိုက်ခြင်းနှင့် မူးဝေခြင်းကို ညည်းညူသည် - ရေအပူဒဏ်ဖြင့် ချွေးထွက်ပြီးမှ ပြန်ဖြည့်တင်းမပေးခြင်းကြောင့် ဖြစ်ပေါ်လာသော ရေဓာတ်ခန်းခြောက်မှု အနည်းငယ်၏ ဓမ္မတာလက္ခဏာများဖြစ်ကြောင်း ဆရာမက ရှင်းပြသည်။ ဆရာမသည် သူ့ကို ရေပေးပြီး အရိပ်တွင် နားခိုင်းရာ မိနစ်နှစ်ဆယ်အတွင်း သူ၏ အသားအရောင်နှင့် စွမ်းအင် ပြန်ရောက်လာသည်။\n\nတစ်နေ့လုံး ညွှန်ကြားချက်အတိုင်း တစ်ဆက်တည်း ရေသောက်ခဲ့သော နှင်းဝေသည် ၎င်း၏ relay အလှည့်ကို ယုံကြည်စိတ်ချစွာ ပြေးပြီး ခိုင်မာစွာ အဆုံးသတ်သည်။ ထို့နောက် မိမိ၏ မနက်စာ ထမင်းနှင့် ကြက်ဥမှ အာဟာရများသည် ၎င်း၏ ကြွက်သားများအား စွမ်းအင်နှင့် ပြုပြင်ရန် ပစ္စည်းများ ပေးခဲ့သော်လည်း၊ ခန္ဓာကိုယ်သည် စားသုံးထားသည့်အရာကို အမှန်တကယ် အသုံးချစေခဲ့သည်မှာ အရာအားလုံးကို သွေးစီးတစ်လျှောက် သယ်ဆောင်ပေးခဲ့သော ရေကြောင့်သာ ဖြစ်ကြောင်း မိခင်အား ပြောပြသည် - အစားအစာနှင့် ရေသည် အလုပ်နှစ်ခု သီးခြားစီအဖြစ်မဟုတ်ဘဲ အသင်းတစ်ခုအဖြစ် အတူတကွ လုပ်ဆောင်ကြောင်း သက်သေဖြစ်သည်ဟု ၎င်း တွေးမိလိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's PE teacher remind runners to do before the race?",
+            questionMy:
+                "ပြေးမီ ပြေးသူများအား ကိုယ်ကာယဆရာမ သတိပေးသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Drink water regularly throughout the morning",
+              "Skip breakfast entirely",
+              "Avoid drinking water before racing",
+              "Eat only sweets before running",
+            ],
+            optionsMy: [
+              "မနက်ခင်းတစ်ခုလုံး ပုံမှန် ရေသောက်ရန်",
+              "မနက်စာကို လုံးဝ ကျော်လွှားရန်",
+              "မပြိုင်ခင် ရေမသောက်ရန်",
+              "မပြေးခင် အချိုမျိုးသာ စားရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does a classmate feel dizzy with a headache by early afternoon?",
+            questionMy:
+                "ညနေစောစောတွင် အတန်းဖော်တစ်ဦး ခေါင်းကိုက်ပြီး မူးဝေသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Mild dehydration from sweating out water without replacing it",
+              "He ate too much rice",
+              "He slept too much the night before",
+              "He wore the wrong shoes",
+            ],
+            optionsMy: [
+              "ချွေးထွက်ပြီးမှ ရေပြန်မဖြည့်တင်းခြင်းကြောင့် ဖြစ်ပေါ်လာသော ရေဓာတ်ခန်းခြောက်မှု အနည်းငယ်",
+              "ထမင်းစားသည် အလွန်များခဲ့ခြင်း",
+              "ညက အလွန်များများ အိပ်ခဲ့ခြင်း",
+              "ဖိနပ်မှားဝတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What helps the dizzy classmate recover within twenty minutes?",
+            questionMy:
+                "မူးဝေနေသော အတန်းဖော်ကို မိနစ်နှစ်ဆယ်အတွင်း ပြန်ကောင်းစေရန် ကူညီပေးသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Water and rest in the shade",
+              "More running",
+              "Skipping lunch",
+              "Standing in direct sunlight longer",
+            ],
+            optionsMy: [
+              "ရေနှင့် အရိပ်တွင် နားခြင်း",
+              "ပိုပြေးခြင်း",
+              "နေ့လယ်စာ ကျော်လွှားခြင်း",
+              "နေရောင်တိုက်ရိုက်တွင် ကာကြာစွာ ရပ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Hnin Wai, what let her body actually use the nutrients from her breakfast?",
+            questionMy:
+                "နှင်းဝေအလို မနက်စာမှ အာဟာရများကို ခန္ဓာကိုယ် အမှန်တကယ် အသုံးချစေခဲ့သောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The water carrying everything through her bloodstream",
+              "Skipping breakfast entirely",
+              "Running very slowly",
+              "Standing still all morning",
+            ],
+            optionsMy: [
+              "အရာအားလုံးကို သွေးစီးတစ်လျှောက် သယ်ဆောင်ပေးခဲ့သော ရေ",
+              "မနက်စာကို လုံးဝ ကျော်လွှားခြင်း",
+              "အလွန်ဖြည်းညင်းစွာ ပြေးခြင်း",
+              "မနက်တစ်ခုလုံး ငြိမ်ရပ်နေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What overall conclusion does Hnin Wai reach about food and water?",
+            questionMy:
+                "အစားအစာနှင့် ရေအကြောင်း နှင်းဝေ ရရှိသော ယေဘူယျ ကောက်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Food and water work as a team, not as two separate jobs",
+              "Water is completely unnecessary for the body",
+              "Food alone is enough without water",
+              "Water alone is enough without food",
+            ],
+            optionsMy: [
+              "အစားအစာနှင့် ရေသည် အလုပ်နှစ်ခု သီးခြားစီအဖြစ်မဟုတ်ဘဲ အသင်းတစ်ခုအဖြစ် လုပ်ဆောင်ခြင်း",
+              "ရေသည် ခန္ဓာကိုယ်အတွက် လုံးဝမလိုအပ်ခြင်း",
+              "အစားအစာတစ်ခုတည်းသည် ရေမပါဘဲ လုံလောက်ခြင်း",
+              "ရေတစ်ခုတည်းသည် အစားအစာမပါဘဲ လုံလောက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w7-d5",
+      dayNumber: 5,
+      titleEn: "Nutrients and Transport Round-Up",
+      titleMy: "အာဟာရနှင့် သယ်ယူပို့ဆောင်မှု အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which organ absorbs most digested nutrients into the blood?",
+          questionMy:
+              "ဒေဟထားသော အာဟာရအများစုကို သွေးထဲသို့ စုပ်ယူပေးသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The small intestine",
+            "The heart",
+            "The brain",
+            "The skin",
+          ],
+          optionsMy: ["အူသိမ်", "နှလုံး", "ဦးနှောက်", "အရေပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens to blood when the body does not have enough water?",
+          questionMy:
+              "ခန္ဓာကိုယ်တွင် ရေလုံလုံလောက်လောက် မရှိသောအခါ သွေးအပေါ် အဘယ်အရာဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It becomes thicker and harder for the heart to pump",
+            "It turns into water",
+            "It stops carrying nutrients faster",
+            "Nothing changes at all",
+          ],
+          optionsMy: [
+            "ပိုထူထဲလာပြီး နှလုံးက ပိုတွန်းအားပေးရန် ခက်ခဲလာခြင်း",
+            "ရေအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "အာဟာရများ ပိုမြန်စွာ သယ်ဆောင်ခြင်း",
+            "ဘာမျှ မပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the sports day story, which classmate ran their relay leg confidently and finished strong?",
+          questionMy:
+              "အားကစားနေ့ ပုံပြင်တွင် မိမိ၏ relay အလှည့်ကို ယုံကြည်စိတ်ချစွာ ပြေးပြီး ခိုင်မာစွာ အဆုံးသတ်သော အတန်းဖော်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Hnin Wai, who drank water steadily all day",
+            "The boy who skipped water breaks",
+            "No one finished the race",
+            "The PE teacher",
+          ],
+          optionsMy: [
+            "တစ်နေ့လုံး တစ်ဆက်တည်း ရေသောက်ခဲ့သော နှင်းဝေ",
+            "ရေသောက်ချိန်များ ကျော်လွှားခဲ့သော ကောင်ကလေး",
+            "မည်သူမျှ ပြိုင်ပွဲမပြီးဆုံးခြင်း",
+            "ကိုယ်ကာယဆရာမ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which nutrient mainly helps repair and build muscles after exercise?",
+          questionMy:
+              "လေ့ကျင့်ခန်းလုပ်ပြီးနောက် ကြွက်သားများ ပြုပြင်တည်ဆောက်ရန် အဓိကကူညီပေးသော အာဟာရမှာ အဘယ်နည်း။",
+          optionsEn: ["Protein", "Water alone", "Air alone", "Salt alone"],
+          optionsMy: ["ပရိုတင်း", "ရေတစ်ခုတည်း", "လေတစ်ခုတည်း", "ဆားတစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning teach about nutrients, water, and transport?",
+          questionMy:
+              "ဤအပတ်စာ သင်ခန်းစာသည် အာဟာရ၊ ရေနှင့် သယ်ယူပို့ဆောင်မှုအကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Nutrients need water and the circulatory system to actually reach every cell in the body",
+            "Nutrients reach cells without any transport at all",
+            "Water has no connection to nutrients",
+            "The body does not need nutrients if it drinks enough water",
+          ],
+          optionsMy: [
+            "အာဟာရများသည် ခန္ဓာကိုယ်ရှိ ဆဲလ်တိုင်းသို့ အမှန်တကယ် ရောက်ရှိရန် ရေနှင့် သွေးလည်ပတ်မှု စနစ် လိုအပ်ခြင်း",
+            "အာဟာရများသည် သယ်ယူပို့ဆောင်မှု မလိုဘဲ ဆဲလ်များသို့ ရောက်ရှိခြင်း",
+            "ရေသည် အာဟာရနှင့် ဆက်စပ်မှု မရှိခြင်း",
+            "ရေလုံလောက်စွာ သောက်လျှင် ခန္ဓာကိုယ် အာဟာရ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 2, Week 8 (Capstone): "Nova School Healthy
+// Heart Investigation Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek8 = CourseWeekDef(
+  id: "course-year6-science-w8",
+  weekNumber: 8,
+  titleEn: "Nova School Healthy Heart Investigation Studio",
+  titleMy: "Nova ကျောင်း ကျန်းမာသော နှလုံး စုံစမ်းစစ်ဆေးမှု အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w8-d1",
+      dayNumber: 1,
+      titleEn: "Circulatory System Review",
+      titleMy: "သွေးလည်ပတ်မှု စနစ် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which organ pumps blood around the whole body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးကို တွန်းအားပေးသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: ["The heart", "The stomach", "The brain", "The skin"],
+          optionsMy: ["နှလုံး", "အစာအိမ်", "ဦးနှောက်", "အရေပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which blood cells carry oxygen, and which fight infection?",
+          questionMy:
+              "မည်သည့် သွေးဆဲလ်များက အောက်ဆီဂျင် သယ်ဆောင်ပြီး မည်သည့်တို့က ရောဂါကူးစက်မှုကို တိုက်ဖျက်ကြသနည်း။",
+          optionsEn: [
+            "Red blood cells carry oxygen; white blood cells fight infection",
+            "White blood cells carry oxygen; red blood cells fight infection",
+            "Both carry oxygen only",
+            "Neither has any function",
+          ],
+          optionsMy: [
+            "သွေးနီဥများက အောက်ဆီဂျင် သယ်ဆောင်ပြီး သွေးဖြူဥများက ရောဂါကူးစက်မှုကို တိုက်ဖျက်ခြင်း",
+            "သွေးဖြူဥများက အောက်ဆီဂျင် သယ်ဆောင်ပြီး သွေးနီဥများက ရောဂါကူးစက်မှုကို တိုက်ဖျက်ခြင်း",
+            "နှစ်မျိုးစလုံးသည် အောက်ဆီဂျင်ကိုသာ သယ်ဆောင်ခြင်း",
+            "နှစ်မျိုးစလုံးတွင် လုပ်ဆောင်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What role does water play in the circulatory system?",
+          questionMy:
+              "သွေးလည်ပတ်မှု စနစ်တွင် ရေသည် မည်သည့် အခန်းကဏ္ဍ ပါဝင်သနည်း။",
+          optionsEn: [
+            "It helps blood carry nutrients and other substances efficiently",
+            "It has no role at all",
+            "It replaces the need for red blood cells",
+            "It only affects the skin",
+          ],
+          optionsMy: [
+            "အာဟာရနှင့် အခြားပစ္စည်းများကို ထိရောက်စွာ သယ်ဆောင်ရန် သွေးကို ကူညီပေးခြင်း",
+            "ဘာမျှ အခန်းကဏ္ဍ မပါဝင်ခြင်း",
+            "သွေးနီဥ လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            "အရေပြားကိုသာ သက်ရောက်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does the heart beat faster during exercise?",
+          questionMy:
+              "လေ့ကျင့်ခန်းလုပ်စဉ် နှလုံး ပိုမြန်စွာ ခုန်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Muscles need more oxygen and nutrients delivered quickly",
+            "The heart always slows down during exercise",
+            "Exercise stops the heart from beating",
+            "It has no connection to muscle activity",
+          ],
+          optionsMy: [
+            "ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုမိုမြန်ဆန်စွာ လိုအပ်ခြင်း",
+            "နှလုံးသည် လေ့ကျင့်ခန်းလုပ်စဉ် အမြဲတမ်း နှေးသွားခြင်း",
+            "လေ့ကျင့်ခန်းက နှလုံးခုန်ခြင်းကို ရပ်တန့်စေခြင်း",
+            "ကြွက်သား လှုပ်ရှားမှုနှင့် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Hnin Wai's cut-finger story show about platelets and white blood cells?",
+          questionMy:
+              "နှင်းဝေ၏ လက်ချောင်းရာ ပုံပြင်သည် Platelet နှင့် သွေးဖြူဥများအကြောင်း အဘယ်အရာကို ပြသခဲ့သနည်း။",
+          optionsEn: [
+            "Platelets seal wounds while white blood cells fight off germs",
+            "Platelets fight germs while white blood cells seal wounds",
+            "Neither has any real function",
+            "Both only carry oxygen",
+          ],
+          optionsMy: [
+            "Platelet များက ဒဏ်ရာကို ပိတ်ပြီး သွေးဖြူဥများက ရောဂါပိုးများကို တိုက်ဖျက်ခြင်း",
+            "Platelet များက ရောဂါပိုးများကို တိုက်ဖျက်ပြီး သွေးဖြူဥများက ဒဏ်ရာကို ပိတ်ခြင်း",
+            "နှစ်မျိုးစလုံးတွင် တကယ့်လုပ်ဆောင်ချက် မရှိခြင်း",
+            "နှစ်မျိုးစလုံးသည် အောက်ဆီဂျင်ကိုသာ သယ်ဆောင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 2 Vocabulary",
+      titleMy: "Term 2 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w8-dm-1",
+          termEn: "Heart",
+          termMy: "နှလုံး (Heart)",
+          matchEn: "The muscular organ that pumps blood around the body",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးကို တွန်းအားပေးသော ကြွက်သားအင်္ဂါ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w8-dm-2",
+          termEn: "Pulse",
+          termMy: "သွေးခုန်နှုန်း (Pulse)",
+          matchEn:
+              "The rhythmic beat felt where an artery is close to the skin",
+          matchMy:
+              "သွေးလှောင်ကြောသည် အရေပြားအနီးရောက်နေသောနေရာတွင် ခံစားရသော ရစ်သမ်တစ်ခုန်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w8-dm-3",
+          termEn: "Platelet",
+          termMy: "Platelet",
+          matchEn: "A blood fragment that helps blood clot after a wound",
+          matchMy: "ဒဏ်ရာရပြီးနောက် သွေးခဲစေရန် ကူညီပေးသော သွေးအပိုင်းအစငယ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w8-dm-4",
+          termEn: "Nutrient",
+          termMy: "အာဟာရ (Nutrient)",
+          matchEn: "A substance from food the body needs to grow and function",
+          matchMy:
+              "ကြီးထွားရန်နှင့် အလုပ်လုပ်ရန် ခန္ဓာကိုယ် လိုအပ်သော အစားအစာမှ ဓာတ်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w8-dm-5",
+          termEn: "Dehydration",
+          termMy: "ရေဓာတ်ခန်းခြောက်ခြင်း (Dehydration)",
+          matchEn: "The condition of not having enough water in the body",
+          matchMy: "ခန္ဓာကိုယ်တွင် ရေဓာတ် လုံလုံလောက်လောက် မရှိသော အခြေအနေ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w8-dm-6",
+          termEn: "Circulatory system",
+          termMy: "သွေးလည်ပတ်မှု စနစ် (Circulatory system)",
+          matchEn:
+              "The heart, blood, and blood vessels working together to transport substances",
+          matchMy:
+              "ပစ္စည်းများကို သယ်ဆောင်ရန် အတူတကွ လုပ်ဆောင်သော နှလုံး၊ သွေးနှင့် သွေးကြောများ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Helps the Heart or Harms the Heart?",
+      titleMy: "စီစစ်ကြမည် - နှလုံးကို ကူညီသလား၊ ထိခိုက်စေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helps the heart", "Harms the heart"],
+        bucketsMy: ["နှလုံးကို ကူညီသည်", "နှလုံးကို ထိခိုက်စေသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w8-sort-1",
+            labelEn: "Regular exercise",
+            labelMy: "ပုံမှန် လေ့ကျင့်ခန်း",
+            correctBucketEn: "Helps the heart",
+            correctBucketMy: "နှလုံးကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w8-sort-2",
+            labelEn: "Never drinking enough water",
+            labelMy: "ရေ ဘယ်တော့မှ လုံလောက်စွာ မသောက်ခြင်း",
+            correctBucketEn: "Harms the heart",
+            correctBucketMy: "နှလုံးကို ထိခိုက်စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w8-sort-3",
+            labelEn: "Eating balanced meals with protein and carbohydrates",
+            labelMy:
+                "ပရိုတင်းနှင့် ကာဗိုဟိုက်ဒရိတ်ပါသော ဟန်ချက်ညီ အစားအစာစားခြင်း",
+            correctBucketEn: "Helps the heart",
+            correctBucketMy: "နှလုံးကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w8-sort-4",
+            labelEn: "Sitting still all day, every day",
+            labelMy: "နေ့တိုင်း တစ်နေ့လုံး လှုပ်ရှားမှုမရှိဘဲ ထိုင်နေခြင်း",
+            correctBucketEn: "Harms the heart",
+            correctBucketMy: "နှလုံးကို ထိခိုက်စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w8-sort-5",
+            labelEn: "Getting enough sleep",
+            labelMy: "လုံလောက်စွာ အိပ်ခြင်း",
+            correctBucketEn: "Helps the heart",
+            correctBucketMy: "နှလုံးကို ကူညီသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w8-sort-6",
+            labelEn: "Ignoring signs of dehydration during exercise",
+            labelMy:
+                "လေ့ကျင့်ခန်းလုပ်စဉ် ရေဓာတ်ခန်းခြောက်ခြင်း လက္ခဏာများကို လျစ်လျူရှုခြင်း",
+            correctBucketEn: "Harms the heart",
+            correctBucketMy: "နှလုံးကို ထိခိုက်စေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Heart Health Fair",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ နှလုံးကျန်းမာရေး ပြပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Heart Health Fair",
+        titleMy: "နှင်းဝေ၏ နှလုံးကျန်းမာရေး ပြပွဲ",
+        passageEn:
+            "To finish Term 2, Nova School holds a Heart Health Fair, and Hnin Wai's group is asked to design a stand that ties together the heart, blood, and nutrient transport. Hnin Wai suggests they build a giant paper model of the circulatory system, with red wool for arteries carrying oxygen-rich blood away from a cardboard heart, and blue wool for veins carrying it back.\n\nAt the stand, Hnin Wai demonstrates the pulse-taking activity from earlier in the term, inviting visitors to measure their own heart rate before and after ten jumping jacks. She explains that muscles working harder need more oxygen and nutrients, so the heart beats faster to keep up, exactly as she discovered during her stair-climbing and sports day experiences. A younger student is amazed to feel their own pulse jump from resting to racing in under a minute.\n\nNext to the model, Hnin Wai's teammate has set up a table with real foods -- rice, chicken, and a jug of water -- labelling which give carbohydrates, which give protein, and reminding visitors that none of these nutrients can reach a single cell without the circulatory system and enough water to carry them there. By the end of the fair, several younger students leave saying they finally understand why doctors always ask two questions: how much water do you drink, and how much do you move your body -- both are really questions about keeping the heart and its transport system working well.",
+        passageMy:
+            "Term 2 ပြီးဆုံးရန် Nova School သည် နှလုံးကျန်းမာရေး ပြပွဲကို ကျင်းပပြီး နှင်းဝေ၏ အုပ်စုသည် နှလုံး၊ သွေးနှင့် အာဟာရ သယ်ယူပို့ဆောင်မှုကို ပေါင်းစပ်ထားသော ပြခန်းတစ်ခု တည်ဆောက်ရန် တောင်းဆိုခံရသည်။ နှင်းဝေက ကတ်ထူဖြင့်ပြုလုပ်ထားသော နှလုံးမှ အောက်ဆီဂျင်ကြွယ်ဝသော သွေးကို အပေါက် သယ်ဆောင်ပေးသော သွေးလှောင်ကြောများအတွက် အနီရောင် ကြိုးနှင့် ပြန်လာသော သွေးကြောများအတွက် အပြာရောင်ကြိုးဖြင့် သွေးလည်ပတ်မှုစနစ်၏ ကြီးမားသော စာရွက်ပုံစံတစ်ခု တည်ဆောက်ကြရန် အကြံပြုသည်။\n\nပြခန်းတွင် နှင်းဝေသည် ဤအခန်း၏ အစောပိုင်းက သွေးခုန်နှုန်း တိုင်းတာခြင်း လှုပ်ရှားမှုကို သရုပ်ပြပြီး ဧည့်သည်များအား jumping jack ဆယ်ချက်မလုပ်မီနှင့် လုပ်ပြီးနောက် မိမိတို့၏ နှလုံးခုန်နှုန်းကို တိုင်းတာခိုင်းသည်။ ကြွက်သားများ ပိုပင်ပန်းစွာ အလုပ်လုပ်သောအခါ အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုလိုအပ်သောကြောင့် နှလုံးသည် ဆက်လိုက်ရန် ပိုမြန်စွာ ခုန်ကြောင်း ရှင်းပြသည် - ၎င်း၏ လှေကားတက်ခြင်းနှင့် အားကစားနေ့ အတွေ့အကြုံများအတွင်း တွေ့ရှိခဲ့သည်နှင့် အတိအကျတူညီသည်။ ကျောင်းသူငယ်တစ်ဦးသည် မိမိ၏ သွေးခုန်နှုန်း တစ်မိနစ်အောက် အနားယူချိန်မှ ပြေးလွှားချိန်သို့ ခုန်တက်သွားသည်ကို ခံစားရသောအခါ အံ့ဩသွားသည်။\n\nပုံစံအနီးတွင် နှင်းဝေ၏ အသင်းဖော်သည် တကယ့်အစားအစာများ - ထမင်း၊ ကြက်သားနှင့် ရေအိုးတစ်လုံးပါသော စားပွဲတစ်ခု ပြင်ဆင်ထားပြီး မည်သည့်အရာက ကာဗိုဟိုက်ဒရိတ် ပေးသည်၊ မည်သည့်အရာက ပရိုတင်း ပေးသည် ခေါင်းစဉ်တပ်ကာ ဤအာဟာရများ တစ်ခုမျှ သွေးလည်ပတ်မှု စနစ်နှင့် ၎င်းတို့ကို သယ်ဆောင်ပေးရန် လုံလောက်သော ရေမပါဘဲ ဆဲလ်တစ်ခုတည်းသို့ ရောက်ရှိနိုင်မည်မဟုတ်ကြောင်း ဧည့်သည်များအား သတိပေးသည်။ ပြပွဲအဆုံးတွင် ကျောင်းသူငယ်များစွာသည် ဆရာဝန်များ အမြဲမေးလေ့ရှိသော မေးခွန်းနှစ်ခု - ရေဘယ်လောက်သောက်သလဲ၊ ခန္ဓာကိုယ်ကို ဘယ်လောက် လှုပ်ရှားပေးသလဲ ဆိုသည်ကို နောက်ဆုံး သဘောပေါက်သွားကြောင်း ပြောကြသည် - နှစ်ခုစလုံးသည် နှလုံးနှင့် ၎င်း၏ သယ်ယူပို့ဆောင်ရေးစနစ်ကို ကောင်းမွန်စွာ လုပ်ဆောင်နေစေရန် စောင့်ရှောက်ခြင်းအကြောင်း မေးခွန်းများ အမှန်တကယ်ဖြစ်ကြောင်း သဘောပေါက်ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What colour wool does Hnin Wai's group use for arteries in their model?",
+            questionMy:
+                "မော်ဒယ်ထဲရှိ သွေးလှောင်ကြောများအတွက် နှင်းဝေ၏ အုပ်စု အသုံးပြုသော ကြိုးအရောင်မှာ အဘယ်နည်း။",
+            optionsEn: ["Red", "Blue", "Green", "Yellow"],
+            optionsMy: ["အနီရောင်", "အပြာရောင်", "အစိမ်းရောင်", "အဝါရောင်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What activity does Hnin Wai demonstrate at the fair?",
+            questionMy:
+                "ပြပွဲတွင် နှင်းဝေ သရုပ်ပြသော လှုပ်ရှားမှုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Measuring pulse before and after ten jumping jacks",
+              "Baking bread with yeast",
+              "Building a classification key",
+              "Sorting minibeasts",
+            ],
+            optionsMy: [
+              "Jumping jack ဆယ်ချက် မလုပ်မီနှင့် လုပ်ပြီးနောက် သွေးခုန်နှုန်း တိုင်းတာခြင်း",
+              "တိုးဖြင့် ပေါင်မုန့်ဖုတ်ခြင်း",
+              "အုပ်စုခွဲ သော့ချက် တည်ဆောက်ခြင်း",
+              "ပိုးမွှားငယ်များ စီစစ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What foods does Hnin Wai's teammate use to demonstrate nutrients at the fair?",
+            questionMy:
+                "ပြပွဲတွင် အာဟာရများကို သရုပ်ပြရန် နှင်းဝေ၏ အသင်းဖော် အသုံးပြုသော အစားအစာများမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Rice, chicken, and water",
+              "Cake and sweets only",
+              "Only vegetables",
+              "Only fruit juice",
+            ],
+            optionsMy: [
+              "ထမင်း၊ ကြက်သားနှင့် ရေ",
+              "ကိတ်နှင့် အချိုမျိုးသာ",
+              "ဟင်းသီးဟင်းရွက်သာ",
+              "အသီးဖျော်ရည်သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what do none of the nutrients on the table reach a cell without?",
+            questionMy:
+                "စာပိုဒ်အရ စားပွဲပေါ်ရှိ အာဟာရများ တစ်ခုမျှ အဘယ်အရာမပါဘဲ ဆဲလ်တစ်ခုတည်းသို့ ရောက်ရှိနိုင်မည်မဟုတ်ကြောင်း ဖော်ပြထားသနည်း။",
+            optionsEn: [
+              "The circulatory system and enough water",
+              "A microscope",
+              "A classification key",
+              "A pair of scissors",
+            ],
+            optionsMy: [
+              "သွေးလည်ပတ်မှု စနစ်နှင့် လုံလောက်သော ရေ",
+              "မှန်ပြောင်း",
+              "အုပ်စုခွဲ သော့ချက်",
+              "ကတ်ကြေးရှည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What two questions do younger students realise doctors are really asking about?",
+            questionMy:
+                "ဆရာဝန်များ အမှန်တကယ် မေးနေသည်ဟု ကျောင်းသူငယ်များ သဘောပေါက်လာသော မေးခွန်းနှစ်ခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "How much water you drink, and how much you move your body",
+              "What your favourite colour is, and how tall you are",
+              "How many friends you have, and where you live",
+              "What subject you like best, and your birthday",
+            ],
+            optionsMy: [
+              "ရေဘယ်လောက်သောက်သလဲနှင့် ခန္ဓာကိုယ်ကို ဘယ်လောက်လှုပ်ရှားပေးသလဲ",
+              "ကြိုက်နှစ်သက်သော အရောင်နှင့် အရပ်",
+              "မိတ်ဆွေဘယ်နှစ်ယောက်ရှိသလဲနှင့် နေထိုင်ရာ",
+              "ကြိုက်နှစ်သက်ဆုံး ဘာသာရပ်နှင့် မွေးနေ့",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone Challenge",
+      titleMy: "Term 2 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which structure in Hnin Wai's fair model represents blood returning to the heart?",
+          questionMy:
+              "နှင်းဝေ၏ ပြပွဲမော်ဒယ်တွင် နှလုံးဆီသို့ ပြန်လာသော သွေးကို ကိုယ်စားပြုသော ဖွဲ့စည်းပုံမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Blue wool representing veins",
+            "Red wool representing arteries",
+            "The cardboard heart alone",
+            "A paper lung",
+          ],
+          optionsMy: [
+            "သွေးကြောများကို ကိုယ်စားပြုသော အပြာရောင် ကြိုး",
+            "သွေးလှောင်ကြောများကို ကိုယ်စားပြုသော အနီရောင် ကြိုး",
+            "ကတ်ထူနှလုံးတစ်ခုတည်း",
+            "စာရွက်ဖြင့်ပြုလုပ်သော အဆုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a visitor's pulse jump quickly after ten jumping jacks?",
+          questionMy:
+              "ဧည့်သည်တစ်ဦး၏ သွေးခုန်နှုန်းသည် jumping jack ဆယ်ချက်ပြီးနောက် လျင်မြန်စွာ တက်လာသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Working muscles need more oxygen and nutrients delivered quickly",
+            "The heart always beats at the same speed",
+            "Jumping jacks slow the heart down",
+            "It has nothing to do with muscle activity",
+          ],
+          optionsMy: [
+            "အလုပ်လုပ်နေသော ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုမိုမြန်ဆန်စွာ လိုအပ်ခြင်း",
+            "နှလုံးသည် အမြဲတမ်း တူညီသော အမြန်နှုန်းဖြင့် ခုန်ခြင်း",
+            "Jumping jack များက နှလုံးကို နှေးစေခြင်း",
+            "ကြွက်သား လှုပ်ရှားမှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the food table at the fair remind visitors about?",
+          questionMy:
+              "ပြပွဲမှ အစားအစာစားပွဲသည် ဧည့်သည်များအား အဘယ်အရာကို သတိပေးသနည်း။",
+          optionsEn: [
+            "Nutrients need the circulatory system and water to reach cells",
+            "Food alone is enough without any transport",
+            "Water has no connection to nutrients",
+            "Rice contains no nutrients at all",
+          ],
+          optionsMy: [
+            "အာဟာရများသည် ဆဲလ်များသို့ ရောက်ရှိရန် သွေးလည်ပတ်မှု စနစ်နှင့် ရေ လိုအပ်ခြင်း",
+            "အစားအစာတစ်ခုတည်းသည် သယ်ယူပို့ဆောင်မှု မလိုဘဲ လုံလောက်ခြင်း",
+            "ရေသည် အာဟာရနှင့် ဆက်စပ်မှု မရှိခြင်း",
+            "ထမင်းတွင် အာဟာရ လုံးဝမပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of Hnin Wai's earlier experiences connects most directly to the pulse-taking activity at the fair?",
+          questionMy:
+              "ပြပွဲမှ သွေးခုန်နှုန်း တိုင်းတာခြင်း လှုပ်ရှားမှုနှင့် အဆက်စပ်ဆုံး နှင်းဝေ၏ အစောပိုင်း အတွေ့အကြုံမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Her pulse investigation after running up the stairs and jogging",
+            "Her backyard survey of vertebrates",
+            "Her mystery bug classification key",
+            "Her bread experiment with yeast",
+          ],
+          optionsMy: [
+            "လှေကားတက်ခြင်းနှင့် ခုန်ခြင်းပြီးနောက် ၎င်း၏ သွေးခုန်နှုန်း စုံစမ်းစစ်ဆေးမှု",
+            "ကျောရိုးရှိတိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်း",
+            "ပုံမသိပိုးမွှား အုပ်စုခွဲ သော့ချက်",
+            "တိုးဖြင့် ပေါင်မုန့် စမ်းသပ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 2 -- heart, blood, and nutrient transport?",
+          questionMy:
+              "Term 2 တစ်ခုလုံး - နှလုံး၊ သွေးနှင့် အာဟာရ သယ်ယူပို့ဆောင်မှုကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The heart, blood, and water work together as one transport system that keeps every cell supplied",
+            "The heart works completely alone with no help from blood or water",
+            "Nutrients travel without needing any transport system",
+            "Water and blood have no connection to each other",
+          ],
+          optionsMy: [
+            "နှလုံး၊ သွေးနှင့် ရေသည် ဆဲလ်တိုင်းကို ထောက်ပံ့ပေးနေသော သယ်ယူပို့ဆောင်ရေးစနစ် တစ်ခုတည်းအဖြစ် အတူတကွ လုပ်ဆောင်ခြင်း",
+            "နှလုံးသည် သွေး သို့မဟုတ် ရေမှ အကူအညီမပါဘဲ လုံးဝ တစ်ကောင်တည်း အလုပ်လုပ်ခြင်း",
+            "အာဟာရများသည် သယ်ယူပို့ဆောင်ရေးစနစ် မလိုဘဲ ခရီးသွားခြင်း",
+            "ရေနှင့် သွေးသည် တစ်ခုနှင့်တစ်ခု ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm2 = CourseTermDef(
+  id: "course-year6-science-t2",
+  termNumber: 2,
+  titleEn: "The Human Body: Circulatory System and Nutrition",
+  titleMy: "လူ့ခန္ဓာကိုယ် - သွေးလည်ပတ်မှု စနစ်နှင့် အာဟာရ",
+  certificateTitleEn: "The Human Body: Circulatory System and Nutrition",
+  certificateTitleMy: "လူ့ခန္ဓာကိုယ် - သွေးလည်ပတ်မှု စနစ်နှင့် အာဟာရ",
+  weeks: [
+    _year6ScienceWeek5,
+    _year6ScienceWeek6,
+    _year6ScienceWeek7,
+    _year6ScienceWeek8,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 3, Week 9: "Diet and Exercise"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek9 = CourseWeekDef(
+  id: "course-year6-science-w9",
+  weekNumber: 9,
+  titleEn: "Diet and Exercise",
+  titleMy: "အစားအစာနှင့် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w9-d1",
+      dayNumber: 1,
+      titleEn: "Balanced Diets and Energy",
+      titleMy: "ဟန်ချက်ညီ အစားအစာနှင့် စွမ်းအင်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a balanced diet mean?",
+          questionMy: "ဟန်ချက်ညီ အစားအစာဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Eating the right amounts of different food groups the body needs",
+            "Eating only one type of food every day",
+            "Eating as much as possible at every meal",
+            "Never eating fruit or vegetables",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်လိုအပ်သော အစားအစာအုပ်စု ကွဲပြားစွာကို မှန်ကန်သောပမာဏဖြင့် စားသုံးခြင်း",
+            "နေ့စဉ် အစားအစာတစ်မျိုးတည်းသာ စားခြင်း",
+            "အစားအစာစားချိန်တိုင်း တတ်နိုင်သမျှ များများ စားခြင်း",
+            "အသီးအနှံနှင့် ဟင်းသီးဟင်းရွက် ဘယ်တော့မှ မစားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does the body need exercise regularly?",
+          questionMy:
+              "ခန္ဓာကိုယ်သည် ပုံမှန် လေ့ကျင့်ခန်း လိုအပ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It strengthens the heart, muscles and bones",
+            "It makes the body need less water",
+            "It stops the heart from beating",
+            "It has no effect on health at all",
+          ],
+          optionsMy: [
+            "နှလုံး၊ ကြွက်သားနှင့် အရိုးများကို ခိုင်ခံ့စေခြင်း",
+            "ခန္ဓာကိုယ်အား ရေနည်းနည်းသာ လိုအပ်စေခြင်း",
+            "နှလုံးခုန်ခြင်းကို ရပ်တန့်စေခြင်း",
+            "ကျန်းမာရေးအပေါ် ဘာမျှ သက်ရောက်မှုမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens if a person regularly eats far more energy (calories) than they use?",
+          questionMy:
+              "လူတစ်ဦးသည် အသုံးပြုသည်ထက် ပိုများသော စွမ်းအင် (ကယ်လိုရီ) ကို ပုံမှန် စားသုံးလျှင် အဘယ်အရာ ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "The extra energy is stored as body fat",
+            "The body automatically burns it off with no effect",
+            "The person becomes taller instantly",
+            "Nothing happens to the body",
+          ],
+          optionsMy: [
+            "ပိုလျှံသော စွမ်းအင်ကို ခန္ဓာကိုယ်အဆီအဖြစ် သိမ်းဆည်းခြင်း",
+            "ခန္ဓာကိုယ်က အလိုအလျောက် လောင်ကျွမ်းစေပြီး ဘာမျှ သက်ရောက်မှုမရှိခြင်း",
+            "လူသည် ချက်ချင်း ပိုမြင့်လာခြင်း",
+            "ခန္ဓာကိုယ်အပေါ် ဘာမျှ မဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which food group provides fibre that helps digestion?",
+          questionMy:
+              "အစာကြေခြင်းကို ကူညီပေးသော အမျှင်ဓာတ်ကို ပေးသော အစားအစာအုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Fruits and vegetables",
+            "Sweets only",
+            "Fried oil only",
+            "Salt only",
+          ],
+          optionsMy: [
+            "အသီးအနှံနှင့် ဟင်းသီးဟင်းရွက်",
+            "အချိုမျိုးသာ",
+            "ကြော်ဆီသာ",
+            "ဆားသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai notices her friend eats fried snacks every day and rarely exercises. Which health risk is most closely linked to this pattern over time?",
+          questionMy:
+              "နှင်းဝေသည် ၎င်း၏ သူငယ်ချင်းသည် နေ့စဉ် ကြော်စားစားပြီး ရှားရှားပါးပါးသာ လေ့ကျင့်ခန်း လုပ်ကြောင်း သတိပြုမိသည်။ ဤပုံစံသည် အချိန်ကြာလာသောအခါ မည်သည့် ကျန်းမာရေး အန္တရာယ်နှင့် အနီးစပ်ဆုံး ဆက်စပ်နေသနည်း။",
+          optionsEn: [
+            "Excess weight gain and heart strain",
+            "Faster hair growth",
+            "Better eyesight",
+            "Longer fingernails",
+          ],
+          optionsMy: [
+            "အလွန်အကျွံ အလေးချိန်တက်ခြင်းနှင့် နှလုံးအပေါ် ဖိအားများခြင်း",
+            "ဆံပင် ပိုမြန်စွာ ကြီးထွားခြင်း",
+            "မျက်စိအမြင် ပိုကောင်းလာခြင်း",
+            "လက်သည်း ပိုရှည်လာခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match the Diet and Exercise Vocabulary",
+      titleMy: "အစားအစာနှင့် လေ့ကျင့်ခန်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w9-dm-1",
+          termEn: "Balanced diet",
+          termMy: "ဟန်ချက်ညီ အစားအစာ (Balanced diet)",
+          matchEn: "Eating the right amounts of different food groups",
+          matchMy:
+              "အစားအစာအုပ်စု ကွဲပြားစွာကို မှန်ကန်သောပမာဏဖြင့် စားသုံးခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w9-dm-2",
+          termEn: "Calorie",
+          termMy: "ကယ်လိုရီ (Calorie)",
+          matchEn: "A unit used to measure the energy in food",
+          matchMy: "အစားအစာတွင်ပါဝင်သော စွမ်းအင်ကို တိုင်းတာသည့် ယူနစ်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w9-dm-3",
+          termEn: "Fibre",
+          termMy: "အမျှင်ဓာတ် (Fibre)",
+          matchEn: "A part of plant food that helps digestion",
+          matchMy: "အစာကြေခြင်းကို ကူညီပေးသော အပင်အစားအစာမှ အစိတ်အပိုင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w9-dm-4",
+          termEn: "Obesity",
+          termMy: "အဝလွန်ခြင်း (Obesity)",
+          matchEn: "A condition of carrying an unhealthy amount of body fat",
+          matchMy:
+              "ကျန်းမာရေးနှင့်မညီညွတ်သော ခန္ဓာကိုယ်အဆီပမာဏ ရှိနေသော အခြေအနေ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w9-dm-5",
+          termEn: "Metabolism",
+          termMy: "ဇီဝဖြစ်စဉ် (Metabolism)",
+          matchEn:
+              "The chemical processes in the body that turn food into energy",
+          matchMy:
+              "အစားအစာကို စွမ်းအင်အဖြစ် ပြောင်းလဲပေးသော ခန္ဓာကိုယ်အတွင်းရှိ ဓာတုဖြစ်စဉ်များ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w9-dm-6",
+          termEn: "Endurance",
+          termMy: "ခံနိုင်ရည်စွမ်း (Endurance)",
+          matchEn: "The ability of the body to keep exercising for a long time",
+          matchMy: "ကြာရှည်စွာ လေ့ကျင့်ခန်းလုပ်နိုင်စေသော ခန္ဓာကိုယ်၏ စွမ်းရည်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Healthy Habit or Unhealthy Habit?",
+      titleMy: "စီစစ်ကြမည် - ကျန်းမာသော အလေ့အထလား၊ မကျန်းမာသော အလေ့အထလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Healthy habit", "Unhealthy habit"],
+        bucketsMy: ["ကျန်းမာသော အလေ့အထ", "မကျန်းမာသော အလေ့အထ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w9-sort-1",
+            labelEn: "Eating fruit and vegetables daily",
+            labelMy: "နေ့စဉ် အသီးနှင့် ဟင်းသီးဟင်းရွက် စားခြင်း",
+            correctBucketEn: "Healthy habit",
+            correctBucketMy: "ကျန်းမာသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w9-sort-2",
+            labelEn: "Eating fried snacks every single day",
+            labelMy: "နေ့တိုင်း ကြော်စားစား ခြင်း",
+            correctBucketEn: "Unhealthy habit",
+            correctBucketMy: "မကျန်းမာသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w9-sort-3",
+            labelEn: "Playing sport several times a week",
+            labelMy: "တစ်ပတ်လျှင် အကြိမ်များစွာ အားကစားကစားခြင်း",
+            correctBucketEn: "Healthy habit",
+            correctBucketMy: "ကျန်းမာသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w9-sort-4",
+            labelEn: "Sitting still watching screens all day",
+            labelMy: "တစ်နေ့လုံး ဖန်သားပြင်ကြည့်ရင်း ငြိမ်ထိုင်နေခြင်း",
+            correctBucketEn: "Unhealthy habit",
+            correctBucketMy: "မကျန်းမာသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w9-sort-5",
+            labelEn: "Drinking plenty of water",
+            labelMy: "ရေများများ သောက်ခြင်း",
+            correctBucketEn: "Healthy habit",
+            correctBucketMy: "ကျန်းမာသော အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w9-sort-6",
+            labelEn: "Skipping meals then overeating later",
+            labelMy: "အစားအစာကျော်လွှားပြီး နောက်မှ အလွန်အကျွံ စားခြင်း",
+            correctBucketEn: "Unhealthy habit",
+            correctBucketMy: "မကျန်းမာသော အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Football Training Diary",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Football Training Diary",
+        titleMy: "နှင်းဝေ၏ ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်း",
+        passageEn:
+            "Hnin Wai has joined the Nova School football club and, to prepare for the upcoming tournament, decides to keep a training diary tracking what she eats and how much she exercises each day. In the first week, she notices that on days she eats mostly fried snacks and sugary drinks, she feels sluggish during practice and tires quickly during sprints.\n\nHer coach suggests she try swapping some fried snacks for rice, chicken, and vegetables, and to make sure she drinks water throughout the day rather than only during matches. Within a week, Hnin Wai notices a real difference: she has more energy in the second half of practice, and her legs no longer feel heavy after only ten minutes of running.\n\nHer coach also reminds the whole team that fitness is not only about what they eat -- regular exercise strengthens the heart and muscles over time, making even everyday tasks like climbing stairs feel easier. Hnin Wai starts jogging twice a week in addition to football practice, and after a month, she notices her resting pulse -- something she remembers measuring in her earlier circulatory system lessons -- has dropped slightly, a sign her heart has become more efficient at pumping blood. She writes in her diary that diet and exercise are not separate goals but two halves of the same habit of taking care of her body.",
+        passageMy:
+            "နှင်းဝေသည် Nova School ဘောလုံးကလပ်သို့ ဝင်ရောက်ပြီး လာမည့် ပြိုင်ပွဲအတွက် ပြင်ဆင်ရန် နေ့စဉ် စားသောက်သည့်အရာနှင့် လေ့ကျင့်ခန်းလုပ်ပုံကို ခြေရာခံမည့် လေ့ကျင့်ရေး မှတ်တမ်းတစ်ခု ထားရန် ဆုံးဖြတ်လိုက်သည်။ ပထမပတ်တွင် ကြော်စားစားများနှင့် အချိုရည်များကို အများစု စားနေသောနေ့များတွင် လေ့ကျင့်ခန်းအတွင်း ပင်ပန်းစိတ်ညစ်ပြီး လျင်မြန်စွာပြေးရာ၌ လျင်စွာ မောသွားသည်ကို သတိပြုမိသည်။\n\n၎င်း၏ ကိုချ်သည် ကြော်စားစား အချို့ကို ထမင်း၊ ကြက်သားနှင့် ဟင်းသီးဟင်းရွက်ဖြင့် လဲလှယ်ကြည့်ရန်နှင့် ပြိုင်ပွဲအတွင်း တစ်ခေါက်တည်းမဟုတ်ဘဲ တစ်နေ့လုံး ရေများများ သောက်ရန် အကြံပြုသည်။ တစ်ပတ်အတွင်း နှင်းဝေသည် တကယ့်ကွာခြားချက်ကို သတိပြုမိသည် - လေ့ကျင့်ခန်း ဒုတိယပိုင်းတွင် စွမ်းအင်ပိုရှိလာပြီး ပြေးလွှားခြင်း မိနစ်တစ်ဆယ်ကြာသောအခါ ခြေထောက်များ လေးလံနေခြင်း မခံစားရတော့ပါ။\n\n၎င်း၏ ကိုချ်သည် ကျန်းမာရေးသန်စွမ်းမှုသည် စားသောက်သည့်အရာတစ်ခုတည်း မဟုတ်ဘဲ - ပုံမှန် လေ့ကျင့်ခန်းသည် အချိန်ကြာလာသည်နှင့်အမျှ နှလုံးနှင့် ကြွက်သားများကို ခိုင်ခံ့စေကာ လှေကားတက်ခြင်းကဲ့သို့ နေ့စဉ်လုပ်ငန်းများကိုပင် ပိုမိုလွယ်ကူစေကြောင်း အသင်းတစ်ခုလုံးအား သတိပေးသည်။ နှင်းဝေသည် ဘောလုံးလေ့ကျင့်ခန်းအပြင် တစ်ပတ်လျှင် နှစ်ကြိမ် အပိုပြေးလွှားစတင်ပြီး တစ်လကြာသောအခါ ၎င်း၏ အနားယူချိန် သွေးခုန်နှုန်း - အစောပိုင်း သွေးလည်ပတ်မှုစနစ် သင်ခန်းစာများတွင် တိုင်းတာခဲ့ဖူးသောအရာ - အနည်းငယ် ကျဆင်းသွားသည်ကို သတိပြုမိသည်၊ ၎င်း၏ နှလုံးသည် သွေးကို ပိုထိရောက်စွာ တွန်းအားပေးနိုင်လာကြောင်း လက္ခဏာတစ်ခု ဖြစ်သည်။ အစားအစာနှင့် လေ့ကျင့်ခန်းသည် သီးခြားပန်းတိုင်များ မဟုတ်ဘဲ ခန္ဓာကိုယ်ကို ဂရုစိုက်ခြင်း အလေ့အထတစ်ခုတည်း၏ တစ်ဝက်စီသာ ဖြစ်ကြောင်း မှတ်တမ်းတွင် ရေးမှတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "Why does Hnin Wai keep a training diary?",
+            questionMy:
+                "နှင်းဝေ လေ့ကျင့်ရေး မှတ်တမ်းထားသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "To track what she eats and how much she exercises",
+              "To record her friends' phone numbers",
+              "To plan a birthday party",
+              "To study for a maths test",
+            ],
+            optionsMy: [
+              "စားသောက်သည့်အရာနှင့် လေ့ကျင့်ခန်းလုပ်ပုံကို ခြေရာခံရန်",
+              "သူငယ်ချင်းများ၏ ဖုန်းနံပါတ်ကို မှတ်တမ်းတင်ရန်",
+              "မွေးနေ့ပါတီစီစဉ်ရန်",
+              "သင်္ချာစာမေးပွဲအတွက် လေ့လာရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai feel on days she eats mostly fried snacks and sugary drinks?",
+            questionMy:
+                "ကြော်စားစားများနှင့် အချိုရည်များကို အများစု စားသောနေ့များတွင် နှင်းဝေ မည်သို့ ခံစားရသနည်း။",
+            optionsEn: [
+              "Sluggish and tires quickly",
+              "Extremely energetic",
+              "Unable to sleep",
+              "Taller than usual",
+            ],
+            optionsMy: [
+              "ပင်ပန်းစိတ်ညစ်ပြီး လျင်စွာ မောခြင်း",
+              "အလွန်စွမ်းအင်ပြည့်ဝခြင်း",
+              "အိပ်၍မရခြင်း",
+              "ပုံမှန်ထက် ပိုမြင့်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What change does her coach suggest to her diet?",
+            questionMy:
+                "မိမိ၏ အစားအစာကို ကိုချ် အဘယ်သို့ ပြောင်းလဲရန် အကြံပြုသနည်း။",
+            optionsEn: [
+              "Swapping fried snacks for rice, chicken and vegetables, and drinking water throughout the day",
+              "Eating only sweets",
+              "Never eating again before matches",
+              "Only drinking soft drinks",
+            ],
+            optionsMy: [
+              "ကြော်စားစားများကို ထမင်း၊ ကြက်သားနှင့် ဟင်းသီးဟင်းရွက်ဖြင့် လဲလှယ်ပြီး တစ်နေ့လုံး ရေသောက်ခြင်း",
+              "အချိုမျိုးသာ စားခြင်း",
+              "ပြိုင်ပွဲမတိုင်မီ ထပ်မံမစားခြင်း",
+              "အချိုရည်သာ သောက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai notice about her resting pulse after a month of extra jogging?",
+            questionMy:
+                "အပိုပြေးလွှားခြင်း တစ်လကြာပြီးနောက် ၎င်း၏ အနားယူချိန် သွေးခုန်နှုန်းအကြောင်း နှင်းဝေ အဘယ်အရာကို သတိပြုမိသနည်း။",
+            optionsEn: [
+              "It has dropped slightly, showing her heart is more efficient",
+              "It has doubled",
+              "It has disappeared completely",
+              "It has no connection to exercise",
+            ],
+            optionsMy: [
+              "အနည်းငယ် ကျဆင်းသွားပြီး နှလုံး ပိုထိရောက်လာကြောင်း ပြသခြင်း",
+              "နှစ်ဆ တိုးလာခြင်း",
+              "လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+              "လေ့ကျင့်ခန်းနှင့် ဆက်စပ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai conclude about diet and exercise at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် အစားအစာနှင့် လေ့ကျင့်ခန်းအကြောင်း နှင်းဝေ မည်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "They are two halves of the same habit of taking care of her body",
+              "They are completely unrelated goals",
+              "Only diet matters, not exercise",
+              "Only exercise matters, not diet",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်ကို ဂရုစိုက်ခြင်း အလေ့အထတစ်ခုတည်း၏ တစ်ဝက်စီဖြစ်ခြင်း",
+              "လုံးဝ မဆက်စပ်သော ပန်းတိုင်များ ဖြစ်ခြင်း",
+              "အစားအစာသာ အရေးကြီးပြီး လေ့ကျင့်ခန်းမလိုအပ်ခြင်း",
+              "လေ့ကျင့်ခန်းသာ အရေးကြီးပြီး အစားအစာမလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w9-d5",
+      dayNumber: 5,
+      titleEn: "Diet and Exercise Round-Up",
+      titleMy: "အစားအစာနှင့် လေ့ကျင့်ခန်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What did Hnin Wai notice after swapping fried snacks for rice, chicken and vegetables?",
+          questionMy:
+              "ကြော်စားစားများကို ထမင်း၊ ကြက်သားနှင့် ဟင်းသီးဟင်းရွက်ဖြင့် လဲလှယ်ပြီးနောက် နှင်းဝေ အဘယ်အရာကို သတိပြုမိသနည်း။",
+          optionsEn: [
+            "More energy during the second half of practice",
+            "Less energy overall",
+            "No difference at all",
+            "Feeling sleepy all day",
+          ],
+          optionsMy: [
+            "လေ့ကျင့်ခန်း ဒုတိယပိုင်းတွင် စွမ်းအင် ပိုရှိလာခြင်း",
+            "စွမ်းအင် ယေဘူယျအားဖြင့် နည်းလာခြင်း",
+            "ဘာမျှ ကွာခြားချက် မရှိခြင်း",
+            "တစ်နေ့လုံး အိပ်ချင်နေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which food group would best help someone recovering from intense exercise repair their muscles?",
+          questionMy:
+              "ပြင်းထန်သော လေ့ကျင့်ခန်းပြီးနောက် ကြွက်သားများ ပြုပြင်ရန် အကောင်းဆုံးကူညီပေးမည့် အစားအစာအုပ်စုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Protein-rich foods like chicken and eggs",
+            "Sweets only",
+            "Salt only",
+            "Ice only",
+          ],
+          optionsMy: [
+            "ကြက်သားနှင့် ကြက်ဥကဲ့သို့ ပရိုတင်းကြွယ်ဝသော အစားအစာများ",
+            "အချိုမျိုးသာ",
+            "ဆားသာ",
+            "ရေခဲသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What long-term change does regular exercise cause in a fit heart?",
+          questionMy:
+              "ပုံမှန် လေ့ကျင့်ခန်းသည် ကျန်းမာသန်စွမ်းသော နှလုံးတွင် ရေရှည် မည်သို့ ပြောင်းလဲမှု ဖြစ်စေသနည်း။",
+          optionsEn: [
+            "It becomes more efficient at pumping blood",
+            "It stops beating altogether",
+            "It shrinks in size for no reason",
+            "It has no long-term effect at all",
+          ],
+          optionsMy: [
+            "သွေးကို ပိုထိရောက်စွာ တွန်းအားပေးနိုင်လာခြင်း",
+            "လုံးဝ ခုန်ခြင်း ရပ်တန့်သွားခြင်း",
+            "အကြောင်းမရှိဘဲ အရွယ်အစား ငယ်လာခြင်း",
+            "ရေရှည်တွင် ဘာမျှ သက်ရောက်မှုမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these best describes the risk of eating far more calories than the body uses, day after day?",
+          questionMy:
+              "ခန္ဓာကိုယ် အသုံးပြုသည်ထက် ပိုများသော ကယ်လိုရီကို နေ့စဉ် စားသုံးခြင်း၏ အန္တရာယ်ကို အကောင်းဆုံးဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The extra energy is stored as fat, which can lead to obesity over time",
+            "The body always burns the extra energy off instantly",
+            "There is no risk at all",
+            "The body becomes taller",
+          ],
+          optionsMy: [
+            "ပိုလျှံသော စွမ်းအင်ကို အဆီအဖြစ် သိမ်းဆည်းပြီး အချိန်ကြာလာသောအခါ အဝလွန်ခြင်းသို့ ဦးတည်နိုင်ခြင်း",
+            "ခန္ဓာကိုယ်သည် ပိုလျှံသော စွမ်းအင်ကို အမြဲ ချက်ချင်း လောင်ကျွမ်းစေခြင်း",
+            "ဘာမျှ အန္တရာယ် မရှိခြင်း",
+            "ခန္ဓာကိုယ် ပိုမြင့်လာခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's football training diary teach?",
+          questionMy:
+              "နှင်းဝေ၏ ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်းသည် သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A good diet and regular exercise work together to keep the body healthy",
+            "Exercise alone is enough without any diet changes",
+            "Diet alone is enough without any exercise",
+            "Neither diet nor exercise affects the body",
+          ],
+          optionsMy: [
+            "ကောင်းမွန်သော အစားအစာနှင့် ပုံမှန် လေ့ကျင့်ခန်းသည် ခန္ဓာကိုယ်ကို ကျန်းမာစေရန် အတူတကွ လုပ်ဆောင်ခြင်း",
+            "အစားအစာ ပြောင်းလဲမှု မလိုဘဲ လေ့ကျင့်ခန်းတစ်ခုတည်းသာ လုံလောက်ခြင်း",
+            "လေ့ကျင့်ခန်း မလိုဘဲ အစားအစာတစ်ခုတည်းသာ လုံလောက်ခြင်း",
+            "အစားအစာနှင့် လေ့ကျင့်ခန်း နှစ်ခုစလုံးသည် ခန္ဓာကိုယ်အပေါ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 3, Week 10: "Drugs, Alcohol and Their Effects"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek10 = CourseWeekDef(
+  id: "course-year6-science-w10",
+  weekNumber: 10,
+  titleEn: "Drugs, Alcohol and Their Effects",
+  titleMy: "မူးယစ်ဆေးဝါးများ၊ အရက်နှင့် ၎င်းတို့၏ သက်ရောက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w10-d1",
+      dayNumber: 1,
+      titleEn: "How Drugs Affect the Body",
+      titleMy: "မူးယစ်ဆေးဝါးများသည် ခန္ဓာကိုယ်ကို မည်သို့ သက်ရောက်စေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is a drug, in the scientific sense used in this lesson?",
+          questionMy:
+              "ဤသင်ခန်းစာတွင် အသုံးပြုသော သိပ္ပံဆိုင်ရာ အဓိပ္ပာယ်တွင် မူးယစ်ဆေးဝါး ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Any substance that changes how the body or mind works",
+            "Only illegal substances sold on the street",
+            "Only food eaten at breakfast",
+            "Only water and juice",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ် သို့မဟုတ် စိတ်၏ အလုပ်လုပ်ပုံကို ပြောင်းလဲစေသော ပစ္စည်း မည်သည်မဆို",
+            "လမ်းပေါ်တွင် ရောင်းချသော တရားမဝင် ပစ္စည်းများသာ",
+            "မနက်စာအတွက် စားသုံးသော အစားအစာသာ",
+            "ရေနှင့် အသီးဖျော်ရည်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a legal drug that can still harm the body if misused?",
+          questionMy:
+              "မှားယွင်းစွာ အသုံးပြုပါက ခန္ဓာကိုယ်ကို ထိခိုက်နိုင်သေးသော တရားဝင် မူးယစ်ဆေးဝါးတစ်မျိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["Alcohol", "Water", "Rice", "Sunlight"],
+          optionsMy: ["အရက်", "ရေ", "ထမင်း", "နေရောင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which organ does alcohol mainly damage if a person drinks heavily over many years?",
+          questionMy:
+              "လူတစ်ဦးသည် နှစ်များစွာ ကြာအောင် အလွန်အကျွံ အရက်သောက်ပါက အဓိက ထိခိုက်စေသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The liver",
+            "The hair",
+            "The fingernails",
+            "The eyebrows",
+          ],
+          optionsMy: ["အသည်း", "ဆံပင်", "လက်သည်း", "မျက်ခုံးမွှေး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it dangerous for children and teenagers to smoke tobacco?",
+          questionMy:
+              "ကလေးများနှင့် လူငယ်များ ဆေးလိပ်သောက်ခြင်းသည် အန္တရာယ်ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It damages developing lungs and can harm the heart",
+            "It makes people grow taller",
+            "It has no effect on the body at all",
+            "It only affects adults, never children",
+          ],
+          optionsMy: [
+            "ကြီးထွားနေဆဲ အဆုတ်ကို ထိခိုက်စေပြီး နှလုံးကို ထိခိုက်စေနိုင်ခြင်း",
+            "လူများကို ပိုမြင့်စေခြင်း",
+            "ခန္ဓာကိုယ်အပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "လူကြီးများကိုသာ သက်ရောက်ပြီး ကလေးများကို လုံးဝ သက်ရောက်မှုမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's teacher explains that some medicines are drugs too, but are safe when used correctly. What makes the difference between a helpful medicine and a harmful drug?",
+          questionMy:
+              "အချို့သော ဆေးဝါးများသည် မူးယစ်ဆေးဝါးများပင်ဖြစ်သော်လည်း မှန်ကန်စွာ အသုံးပြုပါက ဘေးကင်းကြောင်း နှင်းဝေ၏ ဆရာမက ရှင်းပြသည်။ အသုံးဝင်သော ဆေးဝါးနှင့် အန္တရာယ်ရှိသော မူးယစ်ဆေးဝါးတို့ကြား ကွာခြားချက် ဖြစ်စေသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Whether it is used correctly, in the right amount, and for the right reason",
+            "Whether it tastes sweet or bitter",
+            "Whether it is expensive or cheap",
+            "Whether it is a solid or a liquid",
+          ],
+          optionsMy: [
+            "မှန်ကန်စွာ၊ မှန်ကန်သောပမာဏဖြင့်နှင့် မှန်ကန်သောအကြောင်းရင်းဖြင့် အသုံးပြုမပြု",
+            "ချိုသလား၊ ခါးသလား",
+            "စျေးကြီးသလား၊ စျေးပေါသလား",
+            "အစိုင်အခဲလား၊ အရည်လား",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match the Drugs and Health Vocabulary",
+      titleMy:
+          "မူးယစ်ဆေးဝါးများနှင့် ကျန်းမာရေး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w10-dm-1",
+          termEn: "Drug",
+          termMy: "မူးယစ်ဆေးဝါး (Drug)",
+          matchEn: "Any substance that changes how the body or mind works",
+          matchMy:
+              "ခန္ဓာကိုယ် သို့မဟုတ် စိတ်၏ အလုပ်လုပ်ပုံကို ပြောင်းလဲစေသော ပစ္စည်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w10-dm-2",
+          termEn: "Alcohol",
+          termMy: "အရက် (Alcohol)",
+          matchEn:
+              "A legal drug found in drinks that can damage the liver if overused",
+          matchMy:
+              "အလွန်အကျွံ သောက်ပါက အသည်းကို ထိခိုက်စေနိုင်သော ဖျော်ရည်များတွင် ပါဝင်သည့် တရားဝင် မူးယစ်ဆေးဝါး",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w10-dm-3",
+          termEn: "Tobacco",
+          termMy: "ဆေးရွက်ကြီး (Tobacco)",
+          matchEn:
+              "A plant smoked in cigarettes that damages the lungs and heart",
+          matchMy:
+              "အဆုတ်နှင့် နှလုံးကို ထိခိုက်စေသော ဆေးလိပ်တွင် သောက်သုံးသည့် အပင်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w10-dm-4",
+          termEn: "Medicine",
+          termMy: "ဆေးဝါး (Medicine)",
+          matchEn: "A drug used safely and correctly to treat illness",
+          matchMy:
+              "ဖျားနာမှုကို ကုသရန် ဘေးကင်းစွာနှင့် မှန်ကန်စွာ အသုံးပြုသော မူးယစ်ဆေးဝါး",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w10-dm-5",
+          termEn: "Liver",
+          termMy: "အသည်း (Liver)",
+          matchEn: "An organ that filters harmful substances out of the blood",
+          matchMy:
+              "သွေးထဲမှ အန္တရာယ်ရှိသော ပစ္စည်းများကို စစ်ထုတ်ပေးသော အင်္ဂါ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w10-dm-6",
+          termEn: "Addiction",
+          termMy: "စွဲလမ်းမှု (Addiction)",
+          matchEn:
+              "A strong, hard-to-control need to keep using a harmful substance",
+          matchMy:
+              "အန္တရာယ်ရှိသော ပစ္စည်းတစ်ခုကို ဆက်လက်အသုံးပြုလိုသော ထိန်းချုပ်ရခက်သည့် ပြင်းထန်သော လိုအင်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Helps the Body or Harms the Body?",
+      titleMy: "စီစစ်ကြမည် - ခန္ဓာကိုယ်ကို ကူညီသလား၊ ထိခိုက်စေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helps the body (used correctly)", "Harms the body"],
+        bucketsMy: [
+          "ခန္ဓာကိုယ်ကို ကူညီသည် (မှန်ကန်စွာသုံးပါက)",
+          "ခန္ဓာကိုယ်ကို ထိခိုက်စေသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w10-sort-1",
+            labelEn: "Taking prescribed medicine as the doctor advises",
+            labelMy:
+                "ဆရာဝန် ညွှန်ကြားချက်အတိုင်း ညွှန်းထားသော ဆေးကို သောက်ခြင်း",
+            correctBucketEn: "Helps the body (used correctly)",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ကူညီသည် (မှန်ကန်စွာသုံးပါက)",
+          ),
+          SortingItem(
+            id: "y6sci-w10-sort-2",
+            labelEn: "Smoking tobacco regularly",
+            labelMy: "ပုံမှန် ဆေးလိပ်သောက်ခြင်း",
+            correctBucketEn: "Harms the body",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ထိခိုက်စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w10-sort-3",
+            labelEn: "Taking the correct dose of medicine for a cold",
+            labelMy: "အအေးမိခြင်းအတွက် မှန်ကန်သော ဆေးပမာဏကို သောက်ခြင်း",
+            correctBucketEn: "Helps the body (used correctly)",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ကူညီသည် (မှန်ကန်စွာသုံးပါက)",
+          ),
+          SortingItem(
+            id: "y6sci-w10-sort-4",
+            labelEn: "Drinking large amounts of alcohol regularly",
+            labelMy: "ပုံမှန် အရက်အမြောက်အမြား သောက်ခြင်း",
+            correctBucketEn: "Harms the body",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ထိခိုက်စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w10-sort-5",
+            labelEn: "Following a doctor's instructions exactly",
+            labelMy: "ဆရာဝန်၏ ညွှန်ကြားချက်များကို အတိအကျ လိုက်နာခြင်း",
+            correctBucketEn: "Helps the body (used correctly)",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ကူညီသည် (မှန်ကန်စွာသုံးပါက)",
+          ),
+          SortingItem(
+            id: "y6sci-w10-sort-6",
+            labelEn: "Taking medicine that was not prescribed to you",
+            labelMy: "မိမိအတွက် ညွှန်းထားခြင်းမရှိသော ဆေးကို သောက်ခြင်း",
+            correctBucketEn: "Harms the body",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို ထိခိုက်စေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Grandfather's Warning",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အဖိုးဘက်မှ သတိပေးချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Grandfather's Warning",
+        titleMy: "နှင်းဝေ၏ အဖိုးဘက်မှ သတိပေးချက်",
+        passageEn:
+            "During a visit to her grandfather's house, Hnin Wai notices a small collection of medicine bottles neatly arranged on a shelf, each with a printed label showing the exact dose and time to take them. Her grandfather explains that he takes one tablet each morning for his blood pressure, prescribed carefully by his doctor -- taking more than the correct dose, he warns her, could actually be dangerous rather than helpful.\n\nHer grandfather then tells Hnin Wai about an old friend who smoked cigarettes for over thirty years and eventually developed serious lung problems that made even walking up a short flight of stairs difficult. \"Tobacco smoke damages the tiny air sacs in the lungs bit by bit,\" he explains, \"so the harm builds up slowly, which is why so many people ignore the warning until it is too late.\" He also mentions that drinking alcohol heavily for many years can seriously damage the liver, the organ responsible for filtering harmful substances out of the blood.\n\nHnin Wai asks why medicine is not considered as dangerous as tobacco or too much alcohol, and her grandfather explains that the key difference lies in dose, purpose, and following expert instructions: his blood pressure tablet is taken in a tiny, carefully measured amount for a clear medical reason, under a doctor's guidance, while cigarettes and excessive alcohol are used in ways that steadily harm the body with no medical benefit at all. Hnin Wai decides to write a short report for her science class titled 'Same Chemical Idea, Very Different Choices,' using her grandfather's medicine shelf and his old friend's story as her two central examples.",
+        passageMy:
+            "အဖိုးအိမ်သို့ သွားရောက်လည်ပတ်စဉ် နှင်းဝေသည် စင်ပေါ်တွင် သေသေသပ်သပ် စီစဉ်ထားသော ဆေးပုလင်းအစုအဝေးငယ်တစ်ခုကို တွေ့ရသည်၊ တစ်ခုစီတွင် သောက်သုံးရမည့် အတိအကျပမာဏနှင့် အချိန်ကို ပရင့်ထုတ်ထားသော လေဘယ်တစ်ခု ပါရှိသည်။ အဖိုးသည် ၎င်း၏ ဆရာဝန်က ဂရုတစိုက် ညွှန်းထားသော သွေးဖိအားအတွက် ဆေးတစ်ဆံကို နေ့စဉ်နံနက်တိုင်း သောက်ကြောင်း ရှင်းပြသည် - မှန်ကန်သောပမာဏထက် ပိုသောက်ပါက အကူအညီပေးမည့်အစား အန္တရာယ်ရှိနိုင်ကြောင်း သတိပေးသည်။\n\nထို့နောက် အဖိုးသည် သုံးဆယ်ကျော် ဆေးလိပ်သောက်ခဲ့ပြီး နောက်ဆုံးတွင် လှေကားထစ် တိုတောင်းသော အတက်တစ်ခုပင် ခက်ခဲစေခဲ့သော အဆုတ်ဆိုင်ရာ ပြင်းထန်သည့် ပြဿနာများ ဖြစ်ပွားခဲ့သော ရှေးအခါက မိတ်ဆွေတစ်ဦးအကြောင်း ပြောပြသည်။ \"ဆေးလိပ်ခိုးသည် အဆုတ်ရှိ လေအိတ်ငယ်များကို တဖြည်းဖြည်း ထိခိုက်စေသည်\" ဟု ရှင်းပြပြီး \"ထိုကြောင့် ထိခိုက်မှုသည် ဖြည်းညင်းစွာ တိုးလာသောကြောင့် လူများစွာသည် နောက်ကျမှသာ သတိပေးချက်ကို ဂရုပြုကြခြင်းဖြစ်သည်\" ဟု ဆက်ရှင်းပြသည်။ နှစ်များစွာ ကြာအောင် အလွန်အကျွံ အရက်သောက်ခြင်းသည် သွေးထဲမှ အန္တရာယ်ရှိသောပစ္စည်းများကို စစ်ထုတ်ပေးရသော အင်္ဂါဖြစ်သော အသည်းကို ပြင်းထန်စွာ ထိခိုက်စေနိုင်ကြောင်းလည်း ဖော်ပြသည်။\n\nဆေးဝါးသည် ဆေးလိပ် သို့မဟုတ် အလွန်အကျွံ အရက်သောက်ခြင်းလောက် အန္တရာယ်ရှိသည်ဟု အဘယ်ကြောင့် မယူဆကြောင်း နှင်းဝေ မေးရာ အဓိကကွာခြားချက်မှာ ပမာဏ၊ ရည်ရွယ်ချက်နှင့် ကျွမ်းကျင်သူညွှန်ကြားချက် လိုက်နာမှုတွင် တည်ရှိကြောင်း အဖိုးက ရှင်းပြသည် - ၎င်း၏ သွေးဖိအားဆေးဆံသည် ရှင်းလင်းသော ဆေးဘက်ဆိုင်ရာ အကြောင်းရင်းအတွက် ဆရာဝန်၏ ညွှန်ကြားချက်ဖြင့် ဂရုတစိုက် တိုင်းတာထားသော ပမာဏအနည်းငယ်ကို သောက်ရခြင်းဖြစ်သော်လည်း ဆေးလိပ်နှင့် အလွန်အကျွံ အရက်မူ ဆေးဘက်ဆိုင်ရာ အကျိုးကျေးဇူး လုံးဝမရှိဘဲ ခန္ဓာကိုယ်ကို တစ်ဖြည်းဖြည်း ထိခိုက်စေသောနည်းလမ်းများဖြင့် အသုံးပြုခြင်းဖြစ်သည်။ နှင်းဝေသည် ၎င်း၏ သိပ္ပံအတန်းအတွက် 'ဓာတုအယူအဆတူ၊ လုံးဝကွာခြားသော ရွေးချယ်မှုများ' ဟူသော ခေါင်းစဉ်ဖြင့် အစီရင်ခံစာတိုတစ်ခုကို အဖိုး၏ ဆေးစင်နှင့် ရှေးမိတ်ဆွေ၏ ပုံပြင်ကို ဥပမာနှစ်ခုအဖြစ် အသုံးပြု၍ ရေးရန် ဆုံးဖြတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What does Hnin Wai's grandfather take each morning?",
+            questionMy: "နှင်းဝေ၏ အဖိုးသည် နေ့စဉ်နံနက် အဘယ်အရာ သောက်သနည်း။",
+            optionsEn: [
+              "A blood pressure tablet prescribed by his doctor",
+              "A sweet only",
+              "Extra alcohol",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "ဆရာဝန်က ညွှန်းထားသော သွေးဖိအားဆေးဆံ",
+              "အချိုမျိုးသာ",
+              "အရက်ထပ်",
+              "ဘာမျှ မသောက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the grandfather's old friend develop after smoking for over thirty years?",
+            questionMy:
+                "သုံးဆယ်ကျော် ဆေးလိပ်သောက်ပြီးနောက် အဖိုး၏ ရှေးမိတ်ဆွေတွင် အဘယ်အရာ ဖြစ်ပွားလာသနည်း။",
+            optionsEn: [
+              "Serious lung problems",
+              "Perfect eyesight",
+              "Stronger bones",
+              "Longer hair",
+            ],
+            optionsMy: [
+              "ပြင်းထန်သော အဆုတ်ဆိုင်ရာ ပြဿနာများ",
+              "စုံလင်သော မျက်စိအမြင်",
+              "ပိုခိုင်ခံ့သော အရိုးများ",
+              "ပိုရှည်သော ဆံပင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which organ does the grandfather say heavy, long-term alcohol drinking damages?",
+            questionMy:
+                "အလွန်အကျွံ ရေရှည် အရက်သောက်ခြင်းသည် မည်သည့်အင်္ဂါကို ထိခိုက်စေကြောင်း အဖိုးက ပြောသနည်း။",
+            optionsEn: ["The liver", "The skin", "The hair", "The fingernails"],
+            optionsMy: ["အသည်း", "အရေပြား", "ဆံပင်", "လက်သည်း"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the grandfather, what is the key difference between his medicine and tobacco or excessive alcohol?",
+            questionMy:
+                "အဖိုးအလို ၎င်း၏ ဆေးနှင့် ဆေးလိပ် သို့မဟုတ် အလွန်အကျွံ အရက်ကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Dose, purpose, and following expert instructions",
+              "The colour of the substance",
+              "The price of the substance",
+              "There is no real difference",
+            ],
+            optionsMy: [
+              "ပမာဏ၊ ရည်ရွယ်ချက်နှင့် ကျွမ်းကျင်သူညွှန်ကြားချက် လိုက်နာမှု",
+              "ပစ္စည်း၏ အရောင်",
+              "ပစ္စည်း၏ စျေးနှုန်း",
+              "တကယ့်ကွာခြားချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai decide to title her science report?",
+            questionMy:
+                "မိမိ၏ သိပ္ပံအစီရင်ခံစာကို နှင်းဝေ မည်သည့်ခေါင်းစဉ်ဖြင့် အမည်ပေးရန် ဆုံးဖြတ်သနည်း။",
+            optionsEn: [
+              "\"Same Chemical Idea, Very Different Choices\"",
+              "\"Why I Love Football\"",
+              "\"My Favourite Foods\"",
+              "\"The History of Nova School\"",
+            ],
+            optionsMy: [
+              "\"ဓာတုအယူအဆတူ၊ လုံးဝကွာခြားသော ရွေးချယ်မှုများ\"",
+              "\"ကျွန်မ ဘောလုံးကို ချစ်ပုံ\"",
+              "\"ကျွန်မ ကြိုက်နှစ်သက်ဆုံး အစားအစာများ\"",
+              "\"Nova School သမိုင်း\"",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w10-d5",
+      dayNumber: 5,
+      titleEn: "Drugs and Alcohol Round-Up",
+      titleMy: "မူးယစ်ဆေးဝါးများနှင့် အရက် အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What made Hnin Wai's grandfather's medicine safe to take?",
+          questionMy:
+              "နှင်းဝေ၏ အဖိုး၏ ဆေးဝါးကို သောက်သုံးရန် ဘေးကင်းစေသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was taken at the correct dose, for a clear reason, following the doctor's instructions",
+            "It tasted sweet",
+            "It was expensive",
+            "It was taken in large amounts whenever he wanted",
+          ],
+          optionsMy: [
+            "ဆရာဝန်၏ ညွှန်ကြားချက်ကို လိုက်နာ၍ ရှင်းလင်းသော အကြောင်းရင်းဖြင့် မှန်ကန်သောပမာဏကို သောက်သုံးခြင်း",
+            "ချိုသောကြောင့်",
+            "စျေးကြီးသောကြောင့်",
+            "လိုချင်တိုင်း အများအပြား သောက်သုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does tobacco smoke's harm often go unnoticed for years?",
+          questionMy:
+              "ဆေးလိပ်ခိုး၏ ထိခိုက်မှုသည် နှစ်များစွာ ဂရုမပြုမိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It damages the lungs slowly, bit by bit, over time",
+            "It causes damage instantly and obviously",
+            "It has no effect on the lungs at all",
+            "It only affects the fingernails",
+          ],
+          optionsMy: [
+            "အဆုတ်ကို အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း ထိခိုက်စေခြင်း",
+            "ချက်ချင်းနှင့် ထင်ရှားစွာ ထိခိုက်စေခြင်း",
+            "အဆုတ်ကို ဘာမျှ မထိခိုက်စေခြင်း",
+            "လက်သည်းကိုသာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which organ filters harmful substances out of the blood?",
+          questionMy:
+              "သွေးထဲမှ အန္တရာယ်ရှိသော ပစ္စည်းများကို စစ်ထုတ်ပေးသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: ["The liver", "The skin", "The hair", "The eyes"],
+          optionsMy: ["အသည်း", "အရေပြား", "ဆံပင်", "မျက်စိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should children never take medicine that was not prescribed to them?",
+          questionMy:
+              "ကလေးများသည် မိမိအတွက် ညွှန်းထားခြင်းမရှိသော ဆေးကို ဘယ်တော့မှ မသောက်သင့်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The wrong dose or wrong medicine could be dangerous rather than helpful",
+            "All medicine tastes bad",
+            "It is against school rules only",
+            "It has no possible risk at all",
+          ],
+          optionsMy: [
+            "မှားယွင်းသောပမာဏ သို့မဟုတ် မှားယွင်းသောဆေးသည် အကူအညီပေးမည့်အစား အန္တရာယ်ရှိနိုင်ခြင်း",
+            "ဆေးအားလုံးသည် အရသာဆိုးခြင်း",
+            "ကျောင်းစည်းမျဉ်းနှင့်သာ ဆန့်ကျင်ခြင်း",
+            "ဘာမျှ ဖြစ်နိုင်ချေရှိသော အန္တရာယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's grandfather's warning teach about drugs?",
+          questionMy:
+              "နှင်းဝေ၏ အဖိုး၏ သတိပေးချက်သည် မူးယစ်ဆေးဝါးများအကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The same kind of substance can help or harm depending on dose, purpose, and expert guidance",
+            "All drugs are always completely safe",
+            "All drugs are always completely dangerous",
+            "Medicine and tobacco are exactly the same",
+          ],
+          optionsMy: [
+            "ပစ္စည်းအမျိုးအစားတူညီသော်လည်း ပမာဏ၊ ရည်ရွယ်ချက်နှင့် ကျွမ်းကျင်သူညွှန်ကြားချက်ပေါ်မူတည်၍ ကူညီနိုင်လည်းနိုင်၊ ထိခိုက်စေလည်း ထိခိုက်စေနိုင်ခြင်း",
+            "မူးယစ်ဆေးဝါးအားလုံးသည် အမြဲတမ်း လုံးဝဘေးကင်းခြင်း",
+            "မူးယစ်ဆေးဝါးအားလုံးသည် အမြဲတမ်း လုံးဝအန္တရာယ်ရှိခြင်း",
+            "ဆေးဝါးနှင့် ဆေးလိပ်သည် လုံးဝတူညီခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 3, Week 11: "Healthy Lifestyle Choices"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek11 = CourseWeekDef(
+  id: "course-year6-science-w11",
+  weekNumber: 11,
+  titleEn: "Healthy Lifestyle Choices",
+  titleMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ ရွေးချယ်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w11-d1",
+      dayNumber: 1,
+      titleEn: "Sleep, Hygiene and Wellbeing",
+      titleMy: "အိပ်စက်ခြင်း၊ သန့်ရှင်းရေးနှင့် ကျန်းမာချမ်းသာမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why does the body need enough sleep every night?",
+          questionMy:
+              "ခန္ဓာကိုယ်သည် ညစဉ် လုံလောက်သော အိပ်စက်ခြင်း လိုအပ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It allows the body and brain to rest, repair, and grow",
+            "It makes the body need less food",
+            "It stops the heart from beating",
+            "It has no real benefit",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်နှင့် ဦးနှောက်ကို နားရန်၊ ပြုပြင်ရန်နှင့် ကြီးထွားရန် ခွင့်ပြုပေးခြင်း",
+            "ခန္ဓာကိုယ်အား အစားအစာနည်းနည်းသာ လိုအပ်စေခြင်း",
+            "နှလုံးခုန်ခြင်းကို ရပ်တန့်စေခြင်း",
+            "တကယ့်အကျိုးကျေးဇူး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is washing hands with soap an important hygiene habit?",
+          questionMy:
+              "ဆပ်ပြာဖြင့် လက်ဆေးခြင်းသည် အရေးကြီးသော သန့်ရှင်းရေး အလေ့အထတစ်ခုဖြစ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It removes harmful bacteria and viruses that could cause illness",
+            "It has no effect on health",
+            "It only makes hands smell nice",
+            "It replaces the need for medicine entirely",
+          ],
+          optionsMy: [
+            "ဖျားနာမှု ဖြစ်စေနိုင်သော အန္တရာယ်ရှိ ဘက်တီးရီးယားနှင့် ဗိုင်းရပ်စ်များ ဖယ်ရှားခြင်း",
+            "ကျန်းမာရေးအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "လက်များကို အနံ့ကောင်းစေရန်သာ",
+            "ဆေးဝါး လိုအပ်ချက်ကို လုံးဝ အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which combination best describes a healthy lifestyle?",
+          questionMy:
+              "ကျန်းမာသော နေထိုင်မှုပုံစံကို အကောင်းဆုံးဖော်ပြသော ပေါင်းစပ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Balanced diet, regular exercise, enough sleep, and good hygiene",
+            "Only eating sweets and sitting still all day",
+            "Skipping sleep every night",
+            "Never washing hands",
+          ],
+          optionsMy: [
+            "ဟန်ချက်ညီ အစားအစာ၊ ပုံမှန် လေ့ကျင့်ခန်း၊ လုံလောက်သော အိပ်စက်ခြင်းနှင့် ကောင်းမွန်သော သန့်ရှင်းရေး",
+            "အချိုမျိုးသာ စားပြီး တစ်နေ့လုံး ငြိမ်ထိုင်နေခြင်း",
+            "ညတိုင်း အိပ်ချိန် ကျော်လွှားခြင်း",
+            "ဘယ်တော့မှ လက်မဆေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does exercise help mental wellbeing, not just physical health?",
+          questionMy:
+              "လေ့ကျင့်ခန်းသည် ရုပ်ပိုင်းဆိုင်ရာ ကျန်းမာရေးသာမက စိတ်ပိုင်းဆိုင်ရာ ကျန်းမာချမ်းသာမှုကို မည်သို့ ကူညီပေးသနည်း။",
+          optionsEn: [
+            "It can reduce stress and improve mood",
+            "It has no connection to mood at all",
+            "It only affects the fingernails",
+            "It always makes people feel worse",
+          ],
+          optionsMy: [
+            "စိတ်ဖိစီးမှုကို လျှော့ချပြီး စိတ်ခံစားချက်ကို ပိုကောင်းစေနိုင်ခြင်း",
+            "စိတ်ခံစားချက်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "လက်သည်းကိုသာ သက်ရောက်စေခြင်း",
+            "လူများကို အမြဲ ပိုဆိုးစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai stays up very late playing games before a school day and feels irritable and forgetful in class. What is most likely the cause?",
+          questionMy:
+              "နှင်းဝေသည် ကျောင်းသွားရမည့်နေ့မတိုင်မီ ညနက်အထိ ဂိမ်းကစားပြီး အတန်းထဲတွင် စိတ်တို၊ မေ့လျော့နေသည်ကို ခံစားရသည်။ အကြောင်းရင်း အဖြစ်များဆုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Lack of sleep affecting her brain's ability to rest and function well",
+            "Eating too many vegetables",
+            "Drinking too much water",
+            "Exercising too much that morning",
+          ],
+          optionsMy: [
+            "အိပ်စက်ခြင်း လုံလောက်စွာ မရသောကြောင့် ဦးနှောက်၏ နားနိုင်စွမ်းနှင့် ကောင်းမွန်စွာ လုပ်ဆောင်နိုင်စွမ်းကို ထိခိုက်ခြင်း",
+            "ဟင်းသီးဟင်းရွက် အလွန်များများ စားခဲ့ခြင်း",
+            "ရေ အလွန်များများ သောက်ခဲ့ခြင်း",
+            "ထိုနေ့မနက် လေ့ကျင့်ခန်း အလွန်များများ လုပ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match the Healthy Lifestyle Vocabulary",
+      titleMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w11-dm-1",
+          termEn: "Hygiene",
+          termMy: "သန့်ရှင်းရေး (Hygiene)",
+          matchEn:
+              "Habits like handwashing that keep the body clean and healthy",
+          matchMy:
+              "ခန္ဓာကိုယ်ကို သန့်ရှင်းပြီး ကျန်းမာစွာ ထားရှိစေသော လက်ဆေးခြင်းကဲ့သို့သော အလေ့အထများ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w11-dm-2",
+          termEn: "Lifestyle",
+          termMy: "နေထိုင်မှုပုံစံ (Lifestyle)",
+          matchEn:
+              "The way a person lives, including diet, exercise, and habits",
+          matchMy:
+              "အစားအစာ၊ လေ့ကျင့်ခန်းနှင့် အလေ့အထများအပါအဝင် လူတစ်ဦး နေထိုင်ပုံ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w11-dm-3",
+          termEn: "Wellbeing",
+          termMy: "ကျန်းမာချမ်းသာမှု (Wellbeing)",
+          matchEn:
+              "A state of feeling healthy and happy, both in body and mind",
+          matchMy:
+              "ခန္ဓာကိုယ်နှင့် စိတ်နှစ်ခုစလုံးတွင် ကျန်းမာပျော်ရွှင်နေသော အခြေအနေ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w11-dm-4",
+          termEn: "Rest",
+          termMy: "နားခြင်း (Rest)",
+          matchEn:
+              "A period of sleep or relaxation that lets the body repair itself",
+          matchMy:
+              "ခန္ဓာကိုယ် မိမိကိုယ်ကို ပြုပြင်နိုင်စေသော အိပ်စက်ခြင်း သို့မဟုတ် စိတ်ပေါ့ပါးခြင်း ကာလ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w11-dm-5",
+          termEn: "Stress",
+          termMy: "စိတ်ဖိစီးမှု (Stress)",
+          matchEn:
+              "A feeling of pressure or worry that can affect health if it lasts too long",
+          matchMy:
+              "ကြာရှည်လွန်းပါက ကျန်းမာရေးကို သက်ရောက်စေနိုင်သော ဖိအား သို့မဟုတ် စိုးရိမ်မှု ခံစားချက်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w11-dm-6",
+          termEn: "Prevention",
+          termMy: "ကာကွယ်ခြင်း (Prevention)",
+          matchEn: "Taking steps ahead of time to stop illness from happening",
+          matchMy:
+              "ဖျားနာမှု မဖြစ်ပွားမီ ကြိုတင် လုပ်ဆောင်သော ကာကွယ်ရေးအဆင့်များ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Part of a Healthy Lifestyle or Not?",
+      titleMy:
+          "စီစစ်ကြမည် - ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်းလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Part of a healthy lifestyle",
+          "Not part of a healthy lifestyle",
+        ],
+        bucketsMy: [
+          "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း",
+          "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း မဟုတ်",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w11-sort-1",
+            labelEn: "Sleeping around nine to eleven hours a night",
+            labelMy: "ညစဉ် ကိုးနာရီမှ တစ်ဆယ့်တစ်နာရီအထိ အိပ်ခြင်း",
+            correctBucketEn: "Part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y6sci-w11-sort-2",
+            labelEn: "Staying up very late playing games on school nights",
+            labelMy: "ကျောင်းသွားရမည့် ညများတွင် ညနက်အထိ ဂိမ်းကစားခြင်း",
+            correctBucketEn: "Not part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း မဟုတ်",
+          ),
+          SortingItem(
+            id: "y6sci-w11-sort-3",
+            labelEn: "Washing hands before eating",
+            labelMy: "အစားမစားမီ လက်ဆေးခြင်း",
+            correctBucketEn: "Part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y6sci-w11-sort-4",
+            labelEn: "Never brushing teeth",
+            labelMy: "သွားတိုက်ခြင်း ဘယ်တော့မှ မလုပ်ခြင်း",
+            correctBucketEn: "Not part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း မဟုတ်",
+          ),
+          SortingItem(
+            id: "y6sci-w11-sort-5",
+            labelEn: "Balancing schoolwork, exercise, and rest",
+            labelMy:
+                "ကျောင်းစာ၊ လေ့ကျင့်ခန်းနှင့် နားခြင်းကို ဟန်ချက်ညီစေခြင်း",
+            correctBucketEn: "Part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y6sci-w11-sort-6",
+            labelEn: "Ignoring signs of tiredness for weeks",
+            labelMy:
+                "ပင်ပန်းနွမ်းနယ်ခြင်း လက္ခဏာများကို ရက်သတ္တပတ်များစွာ လျစ်လျူရှုခြင်း",
+            correctBucketEn: "Not part of a healthy lifestyle",
+            correctBucketMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ၏ အစိတ်အပိုင်း မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Wellbeing Chart",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Wellbeing Chart",
+        titleMy: "နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယား",
+        passageEn:
+            "After a tiring week of forgetting homework, feeling irritable, and struggling to concentrate in class, Hnin Wai decides to make a wellbeing chart to track four things every day: hours of sleep, meals eaten, minutes of exercise, and how she feels on a scale from one to five. She quickly notices a pattern -- on the two nights she went to bed past eleven playing games, her chart shows only a two or three for how she felt the next day, alongside notes like \"forgot my pencil case\" and \"argued with my brother for no reason.\"\n\nDetermined to test whether sleep really was the problem, Hnin Wai sets a firm bedtime of nine-thirty for one week, alongside her usual balanced meals and evening walk with her dog. By the third day, her chart shows fours and fives every single day, and she notices she remembers her homework without being reminded and feels far more patient with her younger brother.\n\nHnin Wai shows her chart to her science teacher, who explains that sleep, diet, exercise, and hygiene do not work in isolation -- each supports the others, and neglecting even one can throw the whole system off balance. Hnin Wai decides to keep her wellbeing chart going for the rest of the term, treating it like the pulse and diet diaries from earlier weeks: a simple tool that turns an invisible habit into something she can actually see and improve.",
+        passageMy:
+            "အိမ်စာမေ့သည်၊ စိတ်တိုသည်၊ အတန်းထဲတွင် အာရုံစိုက်ရန် ခက်ခဲသည့် ပင်ပန်းစရာ တစ်ပတ်ပြီးနောက် နှင်းဝေသည် နေ့စဉ် အရာလေးခု - အိပ်စက်ချိန်၊ စားသုံးသော အစားအစာများ၊ လေ့ကျင့်ခန်းလုပ်သည့် မိနစ်များနှင့် တစ်မှငါးအထိ စကေးတွင် မိမိခံစားချက် - ကို ခြေရာခံမည့် ကျန်းမာချမ်းသာမှု ဇယားတစ်ခု ပြုလုပ်ရန် ဆုံးဖြတ်လိုက်သည်။ ဂိမ်းကစားရင်း ညတစ်ဆယ့်တစ်နာရီကျော် အိပ်ရာဝင်ခဲ့သော ညနှစ်ညတွင် နောက်တစ်နေ့ မိမိခံစားချက်အတွက် ဇယားက နှစ် သို့မဟုတ် သုံးမှတ်သာ ပြသည်ကို မကြာမီ သတိပြုမိပြီး \"ခဲတံအိတ်ကို မေ့ခဲ့ပြီ\" နှင့် \"ညီလေးနှင့် အကြောင်းမဲ့ ငြင်းခုန်ခဲ့ပြီ\" ကဲ့သို့သော မှတ်ချက်များ ပါဝင်လာသည်ကို တွေ့ရသည်။\n\nအိပ်စက်ခြင်း တကယ့်ပြဿနာဖြစ်မဖြစ် စမ်းသပ်ရန် စိတ်ပိုင်းဖြတ်ထားသော နှင်းဝေသည် ပုံမှန် ဟန်ချက်ညီ အစားအစာနှင့် ညနေခင်း ခွေးနှင့် လမ်းလျှောက်ခြင်းအပြင် တစ်ပတ်စာ ညကိုးနာရီခွဲ တိကျစွာ အိပ်ရာဝင်ချိန် သတ်မှတ်လိုက်သည်။ တတိယနေ့တွင် ၎င်း၏ ဇယားသည် နေ့စဉ် လေးမှတ်နှင့် ငါးမှတ်ကို ပြသလာပြီး၊ သတိမပေးပါဘဲ အိမ်စာကို မှတ်မိလာကာ ညီလေးအပေါ် ပိုသည်းခံနိုင်လာသည်ကို သတိပြုမိသည်။\n\nနှင်းဝေသည် ၎င်း၏ ဇယားကို သိပ္ပံဆရာမအား ပြပြသည့်အခါ၊ အိပ်စက်ခြင်း၊ အစားအစာ၊ လေ့ကျင့်ခန်းနှင့် သန့်ရှင်းရေးတို့သည် သီးခြားစီ အလုပ်မလုပ်ဘဲ - တစ်ခုနှင့်တစ်ခု အပြန်အလှန် ထောက်ပံ့ပေးကြပြီး တစ်ခုကိုမျှ လျစ်လျူရှုလိုက်လျှင် စနစ်တစ်ခုလုံးကို ဟန်ချက်ပျက်စေနိုင်ကြောင်း ဆရာမက ရှင်းပြသည်။ နှင်းဝေသည် အစောပိုင်း အပတ်များမှ သွေးခုန်နှုန်းနှင့် အစားအစာ မှတ်တမ်းများကဲ့သို့ပင် - မမြင်နိုင်သော အလေ့အထတစ်ခုကို မြင်နိုင်ပြီး တိုးတက်စေနိုင်သော ရိုးရှင်းသည့် ကိရိယာတစ်ခုအဖြစ် ဆက်လက်ကိုင်ဆောင်ထားရန် ၎င်း၏ ကျန်းမာချမ်းသာမှု ဇယားကို Term ကျန်တစ်ဝက်စာ ဆက်ထားရန် ဆုံးဖြတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What four things does Hnin Wai's wellbeing chart track?",
+            questionMy:
+                "နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယားသည် အဘယ်အရာလေးခုကို ခြေရာခံသနည်း။",
+            optionsEn: [
+              "Sleep, meals, exercise minutes, and how she feels",
+              "Only her homework grades",
+              "Only her friends' names",
+              "Only the weather",
+            ],
+            optionsMy: [
+              "အိပ်စက်ချိန်၊ အစားအစာများ၊ လေ့ကျင့်ခန်း မိနစ်များနှင့် ခံစားချက်",
+              "အိမ်စာအမှတ်များသာ",
+              "သူငယ်ချင်းအမည်များသာ",
+              "ရာသီဥတု သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What pattern does Hnin Wai notice on nights she went to bed past eleven playing games?",
+            questionMy:
+                "ဂိမ်းကစားရင်း တစ်ဆယ့်တစ်နာရီကျော် အိပ်ရာဝင်ခဲ့သော ညများတွင် နှင်းဝေ အဘယ်ပုံစံကို သတိပြုမိသနည်း။",
+            optionsEn: [
+              "Low wellbeing scores the next day, with forgetful or irritable notes",
+              "Perfect scores every time",
+              "No difference at all",
+              "Better memory the next day",
+            ],
+            optionsMy: [
+              "နောက်တစ်နေ့တွင် နိမ့်သော ကျန်းမာချမ်းသာမှု အမှတ်များနှင့် မေ့လျော့ခြင်း၊ စိတ်တိုခြင်း မှတ်ချက်များ",
+              "အကြိမ်တိုင်း ပြည့်စုံသော အမှတ်များ",
+              "ဘာမျှ ကွာခြားချက် မရှိခြင်း",
+              "နောက်တစ်နေ့တွင် ပိုကောင်းသော မှတ်ဉာဏ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai set for one week to test her idea about sleep?",
+            questionMy:
+                "အိပ်စက်ခြင်းအကြောင်း မိမိ၏ အတွေးကို စမ်းသပ်ရန် တစ်ပတ်စာ နှင်းဝေ အဘယ်အရာ သတ်မှတ်သနည်း။",
+            optionsEn: [
+              "A firm bedtime of nine-thirty",
+              "No bedtime at all",
+              "A bedtime of midnight",
+              "Skipping sleep entirely",
+            ],
+            optionsMy: [
+              "ကိုးနာရီခွဲ တိကျသော အိပ်ရာဝင်ချိန်",
+              "အိပ်ရာဝင်ချိန် လုံးဝမရှိခြင်း",
+              "သန်းခေါင်ယံ အိပ်ရာဝင်ချိန်",
+              "အိပ်စက်ခြင်းကို လုံးဝ ကျော်လွှားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's science teacher explain about sleep, diet, exercise and hygiene?",
+            questionMy:
+                "အိပ်စက်ခြင်း၊ အစားအစာ၊ လေ့ကျင့်ခန်းနှင့် သန့်ရှင်းရေးအကြောင်း သိပ္ပံဆရာမ အဘယ်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "They support each other, and neglecting one can throw the whole system off balance",
+              "They have nothing to do with one another",
+              "Only diet matters, nothing else",
+              "Only sleep matters, nothing else",
+            ],
+            optionsMy: [
+              "တစ်ခုနှင့်တစ်ခု အပြန်အလှန် ထောက်ပံ့ပေးကြပြီး တစ်ခုကို လျစ်လျူရှုလိုက်လျှင် စနစ်တစ်ခုလုံးကို ဟန်ချက်ပျက်စေနိုင်ခြင်း",
+              "တစ်ခုနှင့်တစ်ခု ဘာမျှ မဆက်စပ်ခြင်း",
+              "အစားအစာသာ အရေးကြီးပြီး အခြားဘာမျှ မကြီးခြင်း",
+              "အိပ်စက်ခြင်းသာ အရေးကြီးပြီး အခြားဘာမျှ မကြီးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai decide to do with her wellbeing chart at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် ကျန်းမာချမ်းသာမှု ဇယားနှင့်ပတ်သက်၍ နှင်းဝေ အဘယ်သို့ ဆုံးဖြတ်သနည်း။",
+            optionsEn: [
+              "Keep it going for the rest of the term, like her earlier pulse and diet diaries",
+              "Throw it away immediately",
+              "Only use it once and never again",
+              "Give it to her teacher permanently",
+            ],
+            optionsMy: [
+              "မိမိ၏ အစောပိုင်း သွေးခုန်နှုန်းနှင့် အစားအစာ မှတ်တမ်းများကဲ့သို့ Term ကျန်တစ်ဝက်စာ ဆက်ထားရန်",
+              "ချက်ချင်း ပစ်ပယ်ရန်",
+              "တစ်ကြိမ်တည်း အသုံးပြုပြီး နောက်တစ်ကြိမ် ဘယ်တော့မှ မသုံးရန်",
+              "ဆရာမအား အမြဲတမ်း ပေးအပ်ရန်",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w11-d5",
+      dayNumber: 5,
+      titleEn: "Healthy Lifestyle Round-Up",
+      titleMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does Hnin Wai's wellbeing chart show after she sets a firm bedtime?",
+          questionMy:
+              "တိကျသော အိပ်ရာဝင်ချိန် သတ်မှတ်ပြီးနောက် နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယားက အဘယ်အရာ ပြသနည်း။",
+          optionsEn: [
+            "Fours and fives every day",
+            "Ones and twos every day",
+            "No scores at all",
+            "The chart disappeared",
+          ],
+          optionsMy: [
+            "နေ့စဉ် လေးမှတ်နှင့် ငါးမှတ်",
+            "နေ့စဉ် တစ်မှတ်နှင့် နှစ်မှတ်",
+            "အမှတ် လုံးဝမရှိခြင်း",
+            "ဇယား ပျောက်ကွယ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these best summarises what a healthy lifestyle requires?",
+          questionMy:
+              "ကျန်းမာသော နေထိုင်မှုပုံစံ လိုအပ်သည်ကို အကောင်းဆုံး အနှစ်ချုပ်ဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Balancing diet, exercise, sleep and hygiene together",
+            "Only focusing on one habit and ignoring the rest",
+            "Avoiding all exercise",
+            "Sleeping as little as possible",
+          ],
+          optionsMy: [
+            "အစားအစာ၊ လေ့ကျင့်ခန်း၊ အိပ်စက်ခြင်းနှင့် သန့်ရှင်းရေးကို ဟန်ချက်ညီစွာ ပေါင်းစပ်ခြင်း",
+            "အလေ့အထတစ်ခုတည်းကိုသာ အာရုံစိုက်ပြီး ကျန်တာများကို လျစ်လျူရှုခြင်း",
+            "လေ့ကျင့်ခန်းအားလုံးကို ရှောင်ကြဉ်ခြင်း",
+            "တတ်နိုင်သမျှ နည်းနည်းသာ အိပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Hnin Wai's science teacher say neglecting sleep can affect other habits too?",
+          questionMy:
+              "အိပ်စက်ခြင်းကို လျစ်လျူရှုခြင်းသည် အခြားအလေ့အထများကိုပါ သက်ရောက်စေနိုင်သည်ဟု နှင်းဝေ၏ သိပ္ပံဆရာမ ဆိုသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Sleep, diet, exercise and hygiene all support each other as one system",
+            "Sleep has no connection to any other habit",
+            "Only exercise matters for wellbeing",
+            "Sleep is the only habit that matters",
+          ],
+          optionsMy: [
+            "အိပ်စက်ခြင်း၊ အစားအစာ၊ လေ့ကျင့်ခန်းနှင့် သန့်ရှင်းရေးအားလုံးသည် စနစ်တစ်ခုတည်းအဖြစ် အပြန်အလှန် ထောက်ပံ့ပေးကြခြင်း",
+            "အိပ်စက်ခြင်းသည် အခြားအလေ့အထများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ကျန်းမာချမ်းသာမှုအတွက် လေ့ကျင့်ခန်းသာ အရေးကြီးခြင်း",
+            "အိပ်စက်ခြင်းသာ တစ်ခုတည်း အရေးကြီးသော အလေ့အထ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which habit from earlier terms does Hnin Wai's wellbeing chart most closely resemble?",
+          questionMy:
+              "နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယားနှင့် အနီးစပ်ဆုံး တူညီသော အစောပိုင်း Term များမှ အလေ့အထမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Her pulse and diet diaries",
+            "Her mystery bug classification key",
+            "Her bread experiment",
+            "Her backyard survey of vertebrates",
+          ],
+          optionsMy: [
+            "၎င်း၏ သွေးခုန်နှုန်းနှင့် အစားအစာ မှတ်တမ်းများ",
+            "ပုံမသိပိုးမွှား အုပ်စုခွဲ သော့ချက်",
+            "ပေါင်မုန့် စမ်းသပ်မှု",
+            "ကျောရိုးရှိတိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning teach about healthy lifestyles?",
+          questionMy:
+              "ဤအပတ်စာ သင်ခန်းစာသည် ကျန်းမာသော နေထိုင်မှုပုံစံအကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Small daily habits, tracked and adjusted, can improve both body and mind",
+            "Healthy habits make no difference to daily life",
+            "Only adults need healthy habits",
+            "Wellbeing cannot be measured or improved",
+          ],
+          optionsMy: [
+            "ခြေရာခံပြီး ချိန်ညှိထားသော နေ့စဉ် အလေ့အထငယ်များသည် ခန္ဓာကိုယ်နှင့် စိတ်နှစ်ခုစလုံးကို တိုးတက်စေနိုင်ခြင်း",
+            "ကျန်းမာသော အလေ့အထများသည် နေ့စဉ်ဘဝကို ဘာမျှ ကွာခြားစေခြင်း မရှိခြင်း",
+            "လူကြီးများသာ ကျန်းမာသော အလေ့အထများ လိုအပ်ခြင်း",
+            "ကျန်းမာချမ်းသာမှုကို တိုင်းတာ၍ မရနိုင်ခြင်း သို့မဟုတ် တိုးတက်စေ၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 3, Week 12 (Capstone): "Nova School Healthy
+// Lifestyle Campaign Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek12 = CourseWeekDef(
+  id: "course-year6-science-w12",
+  weekNumber: 12,
+  titleEn: "Nova School Healthy Lifestyle Campaign Studio",
+  titleMy: "Nova ကျောင်း ကျန်းမာသော နေထိုင်မှုပုံစံ လှုံ့ဆော်ရေး အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w12-d1",
+      dayNumber: 1,
+      titleEn: "Diet, Drugs and Lifestyle Review",
+      titleMy: "အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် နေထိုင်မှုပုံစံ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What happens to extra energy the body does not use?",
+          questionMy:
+              "ခန္ဓာကိုယ် အသုံးမပြုသော ပိုလျှံသော စွမ်းအင်ကို အဘယ်အရာဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It is stored as body fat",
+            "It disappears instantly",
+            "It becomes water",
+            "It has no effect",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်အဆီအဖြစ် သိမ်းဆည်းခြင်း",
+            "ချက်ချင်း ပျောက်ကွယ်သွားခြင်း",
+            "ရေအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What makes Hnin Wai's grandfather's blood pressure medicine safe to take?",
+          questionMy:
+              "နှင်းဝေ၏ အဖိုး၏ သွေးဖိအားဆေးကို သောက်သုံးရန် ဘေးကင်းစေသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It is taken at the correct dose, for a clear reason, under a doctor's guidance",
+            "It is taken whenever he feels like it, in any amount",
+            "It tastes sweet",
+            "It is very cheap",
+          ],
+          optionsMy: [
+            "ဆရာဝန်၏ ညွှန်ကြားချက်ဖြင့် ရှင်းလင်းသော အကြောင်းရင်းအတွက် မှန်ကန်သောပမာဏကို သောက်သုံးခြင်း",
+            "လိုချင်တိုင်း မည်သည့်ပမာဏမဆို သောက်သုံးခြင်း",
+            "ချိုသောကြောင့်",
+            "အလွန်ဈေးပေါသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which habit did Hnin Wai's wellbeing chart show was linked to feeling irritable and forgetful?",
+          questionMy:
+              "နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယားသည် စိတ်တိုခြင်းနှင့် မေ့လျော့ခြင်းနှင့် ဆက်စပ်နေကြောင်း ပြသသော အလေ့အထမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Staying up late and losing sleep",
+            "Eating balanced meals",
+            "Regular exercise",
+            "Washing hands regularly",
+          ],
+          optionsMy: [
+            "ညနက်အထိ နိုးနေပြီး အိပ်စက်ခြင်းဆုံးရှုံးခြင်း",
+            "ဟန်ချက်ညီသော အစားအစာ စားခြင်း",
+            "ပုံမှန် လေ့ကျင့်ခန်း",
+            "ပုံမှန် လက်ဆေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is tobacco smoking especially dangerous for children and teenagers?",
+          questionMy:
+              "ဆေးလိပ်သောက်ခြင်းသည် ကလေးများနှင့် လူငယ်များအတွက် အထူးအန္တရာယ်ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It damages developing lungs and can harm the heart",
+            "It has no effect on young people",
+            "It makes children grow taller",
+            "It only affects adults over sixty",
+          ],
+          optionsMy: [
+            "ကြီးထွားနေဆဲ အဆုတ်ကို ထိခိုက်စေပြီး နှလုံးကို ထိခိုက်စေနိုင်ခြင်း",
+            "လူငယ်များအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "ကလေးများကို ပိုမြင့်စေခြင်း",
+            "အသက်ခြောက်ဆယ်ကျော် လူကြီးများကိုသာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best connects diet, drugs, and lifestyle choices this term?",
+          questionMy:
+              "ဤ Term အတွင်း အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် နေထိုင်မှုပုံစံ ရွေးချယ်မှုများကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Everyday choices, made consistently, build up over time to help or harm the body",
+            "Only one choice in life matters for health",
+            "The body is not affected by daily choices",
+            "Health is entirely determined by luck",
+          ],
+          optionsMy: [
+            "တစ်သမတ်တည်း ပြုလုပ်သော နေ့စဉ် ရွေးချယ်မှုများသည် အချိန်ကြာလာသည်နှင့်အမျှ ခန္ဓာကိုယ်ကို ကူညီခြင်း သို့မဟုတ် ထိခိုက်စေခြင်း ဖြစ်ပေါ်လာခြင်း",
+            "ဘဝတွင် ရွေးချယ်မှုတစ်ခုတည်းသာ ကျန်းမာရေးအတွက် အရေးကြီးခြင်း",
+            "ခန္ဓာကိုယ်သည် နေ့စဉ် ရွေးချယ်မှုများကြောင့် သက်ရောက်မှု မရှိခြင်း",
+            "ကျန်းမာရေးသည် ကံကြမ္မာအားဖြင့်သာ ဆုံးဖြတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 3 Vocabulary",
+      titleMy: "Term 3 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w12-dm-1",
+          termEn: "Balanced diet",
+          termMy: "ဟန်ချက်ညီ အစားအစာ (Balanced diet)",
+          matchEn: "Eating the right amounts of different food groups",
+          matchMy:
+              "အစားအစာအုပ်စု ကွဲပြားစွာကို မှန်ကန်သောပမာဏဖြင့် စားသုံးခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w12-dm-2",
+          termEn: "Obesity",
+          termMy: "အဝလွန်ခြင်း (Obesity)",
+          matchEn: "A condition of carrying an unhealthy amount of body fat",
+          matchMy:
+              "ကျန်းမာရေးနှင့်မညီညွတ်သော ခန္ဓာကိုယ်အဆီပမာဏ ရှိနေသော အခြေအနေ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w12-dm-3",
+          termEn: "Drug",
+          termMy: "မူးယစ်ဆေးဝါး (Drug)",
+          matchEn: "Any substance that changes how the body or mind works",
+          matchMy:
+              "ခန္ဓာကိုယ် သို့မဟုတ် စိတ်၏ အလုပ်လုပ်ပုံကို ပြောင်းလဲစေသော ပစ္စည်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w12-dm-4",
+          termEn: "Addiction",
+          termMy: "စွဲလမ်းမှု (Addiction)",
+          matchEn:
+              "A strong, hard-to-control need to keep using a harmful substance",
+          matchMy:
+              "အန္တရာယ်ရှိသော ပစ္စည်းတစ်ခုကို ဆက်လက်အသုံးပြုလိုသော ထိန်းချုပ်ရခက်သည့် ပြင်းထန်သော လိုအင်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w12-dm-5",
+          termEn: "Hygiene",
+          termMy: "သန့်ရှင်းရေး (Hygiene)",
+          matchEn:
+              "Habits like handwashing that keep the body clean and healthy",
+          matchMy:
+              "ခန္ဓာကိုယ်ကို သန့်ရှင်းပြီး ကျန်းမာစွာ ထားရှိစေသော လက်ဆေးခြင်းကဲ့သို့သော အလေ့အထများ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w12-dm-6",
+          termEn: "Wellbeing",
+          termMy: "ကျန်းမာချမ်းသာမှု (Wellbeing)",
+          matchEn:
+              "A state of feeling healthy and happy, both in body and mind",
+          matchMy:
+              "ခန္ဓာကိုယ်နှင့် စိတ်နှစ်ခုစလုံးတွင် ကျန်းမာပျော်ရွှင်နေသော အခြေအနေ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good for Health or Bad for Health?",
+      titleMy: "စီစစ်ကြမည် - ကျန်းမာရေးအတွက် ကောင်းသလား၊ ဆိုးသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good for health", "Bad for health"],
+        bucketsMy: ["ကျန်းမာရေးအတွက် ကောင်းသည်", "ကျန်းမာရေးအတွက် ဆိုးသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w12-sort-1",
+            labelEn: "Balanced meals and regular exercise",
+            labelMy: "ဟန်ချက်ညီ အစားအစာနှင့် ပုံမှန် လေ့ကျင့်ခန်း",
+            correctBucketEn: "Good for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w12-sort-2",
+            labelEn: "Smoking tobacco regularly",
+            labelMy: "ပုံမှန် ဆေးလိပ်သောက်ခြင်း",
+            correctBucketEn: "Bad for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ဆိုးသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w12-sort-3",
+            labelEn: "Enough sleep every night",
+            labelMy: "ညစဉ် လုံလောက်သော အိပ်စက်ခြင်း",
+            correctBucketEn: "Good for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w12-sort-4",
+            labelEn: "Heavy alcohol drinking for many years",
+            labelMy: "နှစ်များစွာ ကြာအောင် အလွန်အကျွံ အရက်သောက်ခြင်း",
+            correctBucketEn: "Bad for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ဆိုးသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w12-sort-5",
+            labelEn: "Washing hands with soap regularly",
+            labelMy: "ပုံမှန် ဆပ်ပြာဖြင့် လက်ဆေးခြင်း",
+            correctBucketEn: "Good for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w12-sort-6",
+            labelEn: "Taking medicine that was not prescribed to you",
+            labelMy: "မိမိအတွက် ညွှန်းထားခြင်းမရှိသော ဆေးကို သောက်ခြင်း",
+            correctBucketEn: "Bad for health",
+            correctBucketMy: "ကျန်းမာရေးအတွက် ဆိုးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Healthy Lifestyle Campaign",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ကျန်းမာသော နေထိုင်မှုပုံစံ လှုံ့ဆော်ရေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Healthy Lifestyle Campaign",
+        titleMy: "နှင်းဝေ၏ ကျန်းမာသော နေထိုင်မှုပုံစံ လှုံ့ဆော်ရေး",
+        passageEn:
+            "To close Term 3, Nova School asks each class to design a Healthy Lifestyle Campaign poster for the corridor, and Hnin Wai's group decides to build theirs around four simple pillars: eat well, move often, sleep enough, and stay clean. Hnin Wai insists on including her own football training diary as a real example, showing how swapping fried snacks for balanced meals gave her more energy on the pitch.\n\nHer teammate adds a section on why medicines are different from harmful drugs like tobacco and excessive alcohol, using Hnin Wai's grandfather's story about dose, purpose, and following expert instructions. Another group member contributes a simplified version of Hnin Wai's wellbeing chart, encouraging classmates to track their own sleep and mood for just one week to see the pattern for themselves.\n\nAt the campaign's unveiling, a teacher from another class asks Hnin Wai's group which single pillar they believe matters most. After a short discussion, the group agrees that no single pillar works alone -- someone who exercises constantly but never sleeps, or eats perfectly but never washes their hands, will still struggle to stay healthy. They settle on a final campaign slogan: 'Health is not one big decision -- it is many small ones, made every single day, working together.'",
+        passageMy:
+            "Term 3 ပြီးဆုံးရန် Nova School သည် လမ်းကြောင်းအတွက် ကျန်းမာသော နေထိုင်မှုပုံစံ လှုံ့ဆော်ရေး ပိုစတာတစ်ခု တစ်တန်းစီ ဒီဇိုင်းရေးဆွဲရန် တောင်းဆိုပြီး နှင်းဝေ၏ အုပ်စုသည် ၎င်းတို့၏ ပိုစတာကို ရိုးရှင်းသော အခြေခံလေးခု - ကောင်းမွန်စွာ စားခြင်း၊ ပုံမှန် လှုပ်ရှားခြင်း၊ လုံလောက်စွာ အိပ်ခြင်းနှင့် သန့်ရှင်းစွာနေခြင်း - ပတ်လည် တည်ဆောက်ရန် ဆုံးဖြတ်လိုက်သည်။ နှင်းဝေက ကြော်စားစားများကို ဟန်ချက်ညီ အစားအစာဖြင့် လဲလှယ်ခြင်းက ကွင်းပေါ်တွင် စွမ်းအင်ပိုရစေကြောင်း ပြသရန် ၎င်း၏ ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်းကို တကယ့်ဥပမာအဖြစ် ထည့်သွင်းရန် ခိုင်မြဲစွာ တောင်းဆိုသည်။\n\n၎င်း၏ အသင်းဖော်သည် ပမာဏ၊ ရည်ရွယ်ချက်နှင့် ကျွမ်းကျင်သူညွှန်ကြားချက် လိုက်နာမှုအကြောင်း နှင်းဝေ၏ အဖိုး၏ ပုံပြင်ကို အသုံးပြု၍ ဆေးဝါးများသည် ဆေးလိပ်နှင့် အလွန်အကျွံ အရက်ကဲ့သို့သော အန္တရာယ်ရှိသော မူးယစ်ဆေးဝါးများနှင့် မည်သို့ ကွာခြားကြောင်း ကဏ္ဍတစ်ခု ထပ်ထည့်သည်။ အခြားအုပ်စုဝင်တစ်ဦးက အတန်းဖော်များအား မိမိတို့၏ ပုံစံကို ကိုယ်တိုင်တွေ့မြင်နိုင်ရန် တစ်ပတ်စာသာ မိမိတို့၏ အိပ်စက်ခြင်းနှင့် စိတ်ခံစားချက်ကို ခြေရာခံကြည့်ရန် အားပေးလျက် နှင်းဝေ၏ ကျန်းမာချမ်းသာမှု ဇယား၏ ရိုးရှင်းသော ဗားရှင်းတစ်ခု ပါဝင်ရေးသားသည်။\n\nလှုံ့ဆော်ရေး ဖွင့်ပွဲတွင် အခြားအတန်းမှ ဆရာမတစ်ဦးက နှင်းဝေ၏ အုပ်စုအား မည်သည့် အခြေခံတစ်ခုတည်းက အရေးအကြီးဆုံးဟု ယုံကြည်ကြောင်း မေးမြန်းသည်။ တိုတောင်းသော ဆွေးနွေးမှုပြီးနောက် အုပ်စုသည် အခြေခံတစ်ခုတည်း အလုပ်မလုပ်ကြောင်း - အမြဲတမ်း လေ့ကျင့်ခန်းလုပ်သော်လည်း ဘယ်တော့မှ မအိပ်သူ၊ ကောင်းမွန်စွာစားသော်လည်း လက်ဆေးရန် ဘယ်တော့မှ မလုပ်သူသည် ကျန်းမာစွာနေရန် ဆက်လက်ခက်ခဲနေဦးမည်ဖြစ်ကြောင်း သဘောတူကြသည်။ နောက်ဆုံးတွင် လှုံ့ဆော်ရေး ရွေးချယ်စကားလုံးတစ်ခု ရရှိခဲ့သည် - \"ကျန်းမာရေးဆိုသည်မှာ ဆုံးဖြတ်ချက်ကြီးတစ်ခုတည်း မဟုတ်ဘဲ - နေ့စဉ် ပြုလုပ်သည့် ရွေးချယ်မှုငယ်များစွာ အတူတကွ လုပ်ဆောင်နေခြင်းသာ ဖြစ်သည်\"။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What four pillars does Hnin Wai's group build their poster around?",
+            questionMy:
+                "နှင်းဝေ၏ အုပ်စု၏ ပိုစတာကို တည်ဆောက်သော အခြေခံလေးခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Eat well, move often, sleep enough, and stay clean",
+              "Sleep all day, never move, and eat sweets",
+              "Only exercise, ignoring everything else",
+              "Only sleep, ignoring everything else",
+            ],
+            optionsMy: [
+              "ကောင်းမွန်စွာစားခြင်း၊ ပုံမှန်လှုပ်ရှားခြင်း၊ လုံလောက်စွာအိပ်ခြင်းနှင့် သန့်ရှင်းစွာနေခြင်း",
+              "တစ်နေ့လုံး အိပ်ခြင်း၊ ဘယ်တော့မှ မလှုပ်ရှားခြင်းနှင့် အချိုစားခြင်း",
+              "လေ့ကျင့်ခန်းကိုသာ၊ အခြားအားလုံးကို လျစ်လျူရှုခြင်း",
+              "အိပ်စက်ခြင်းကိုသာ၊ အခြားအားလုံးကို လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What real example does Hnin Wai insist on including in the poster?",
+            questionMy:
+                "ပိုစတာတွင် ထည့်သွင်းရန် နှင်းဝေ ခိုင်မြဲစွာ တောင်းဆိုသော တကယ့်ဥပမာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Her own football training diary",
+              "A poem about clouds",
+              "A story about a spaceship",
+              "A map of Nova School",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကိုယ်ပိုင် ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်း",
+              "တိမ်များအကြောင်း ကဗျာ",
+              "အာကာသယာဉ်အကြောင်း ပုံပြင်",
+              "Nova School မြေပုံ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Whose story does the poster use to explain why medicines differ from harmful drugs?",
+            questionMy:
+                "ဆေးဝါးများသည် အန္တရာယ်ရှိသော မူးယစ်ဆေးဝါးများနှင့် မည်သို့ကွာခြားကြောင်း ရှင်းပြရန် ပိုစတာက မည်သူ၏ ပုံပြင်ကို အသုံးပြုသနည်း။",
+            optionsEn: [
+              "Hnin Wai's grandfather's story",
+              "A stranger's story",
+              "A story from a different school",
+              "No story at all",
+            ],
+            optionsMy: [
+              "နှင်းဝေ၏ အဖိုး၏ ပုံပြင်",
+              "လူစိမ်းတစ်ဦး၏ ပုံပြင်",
+              "အခြားကျောင်းမှ ပုံပြင်",
+              "ပုံပြင်လုံးဝမရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's group conclude when asked which single pillar matters most?",
+            questionMy:
+                "မည်သည့် အခြေခံတစ်ခုတည်း အရေးအကြီးဆုံးဟု မေးမြန်းသောအခါ နှင်းဝေ၏ အုပ်စု အဘယ်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "No single pillar works alone -- they all work together",
+              "Only exercise matters, nothing else",
+              "Only sleep matters, nothing else",
+              "None of the four pillars matter at all",
+            ],
+            optionsMy: [
+              "အခြေခံတစ်ခုတည်း အလုပ်မလုပ်ဘဲ - အားလုံး အတူတကွ လုပ်ဆောင်ခြင်း",
+              "လေ့ကျင့်ခန်းသာ အရေးကြီးပြီး အခြားဘာမျှ မကြီးခြင်း",
+              "အိပ်စက်ခြင်းသာ အရေးကြီးပြီး အခြားဘာမျှ မကြီးခြင်း",
+              "အခြေခံလေးခုအနက် မည်သည့်တစ်ခုမျှ အရေးမကြီးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the final campaign slogan Hnin Wai's group settles on?",
+            questionMy:
+                "နှင်းဝေ၏ အုပ်စု ရရှိခဲ့သော နောက်ဆုံး လှုံ့ဆော်ရေး ရွေးချယ်စကားလုံးမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "\"Health is not one big decision -- it is many small ones, made every single day, working together\"",
+              "\"Health is only about eating vegetables\"",
+              "\"Health does not matter at school\"",
+              "\"Only doctors need to think about health\"",
+            ],
+            optionsMy: [
+              "\"ကျန်းမာရေးဆိုသည်မှာ ဆုံးဖြတ်ချက်ကြီးတစ်ခုတည်း မဟုတ်ဘဲ - နေ့စဉ် ပြုလုပ်သည့် ရွေးချယ်မှုငယ်များစွာ အတူတကွ လုပ်ဆောင်နေခြင်းသာ ဖြစ်သည်\"",
+              "\"ကျန်းမာရေးဆိုသည်မှာ ဟင်းသီးဟင်းရွက်စားခြင်းသာ ဖြစ်သည်\"",
+              "\"ကျန်းမာရေးသည် ကျောင်းတွင် အရေးမကြီးပါ\"",
+              "\"ဆရာဝန်များသာ ကျန်းမာရေးအကြောင်း တွေးရန် လိုအပ်သည်\"",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone Challenge",
+      titleMy: "Term 3 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which pillar of Hnin Wai's campaign poster connects most directly to her football training diary?",
+          questionMy:
+              "နှင်းဝေ၏ လှုံ့ဆော်ရေး ပိုစတာ၏ မည်သည့် အခြေခံသည် ၎င်း၏ ဘောလုံးလေ့ကျင့်ရေး မှတ်တမ်းနှင့် အနီးစပ်ဆုံး ဆက်စပ်နေသနည်း။",
+          optionsEn: [
+            "Eat well and move often",
+            "Stay clean only",
+            "Sleep enough only",
+            "None of the pillars",
+          ],
+          optionsMy: [
+            "ကောင်းမွန်စွာစားခြင်းနှင့် ပုံမှန်လှုပ်ရှားခြင်း",
+            "သန့်ရှင်းစွာနေခြင်းသာ",
+            "လုံလောက်စွာအိပ်ခြင်းသာ",
+            "အခြေခံများအနက် မည်သည့်တစ်ခုမျှ မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the campaign use Hnin Wai's grandfather's medicine story rather than just saying \"drugs are bad\"?",
+          questionMy:
+              "\"မူးယစ်ဆေးဝါးများသည် ဆိုးသည်\" ဟုသာ ပြောမည့်အစား လှုံ့ဆော်ရေးက နှင်းဝေ၏ အဖိုး၏ ဆေးဝါးပုံပြင်ကို အသုံးပြုသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It shows the real difference lies in dose, purpose, and expert guidance, not the substance alone",
+            "It is a funnier story",
+            "It has nothing to do with the topic",
+            "The grandfather asked them to include it",
+          ],
+          optionsMy: [
+            "တကယ့်ကွာခြားချက်သည် ပစ္စည်းတစ်ခုတည်းမဟုတ်ဘဲ ပမာဏ၊ ရည်ရွယ်ချက်နှင့် ကျွမ်းကျင်သူညွှန်ကြားချက်တွင် တည်ရှိကြောင်း ပြသခြင်း",
+            "ပိုရယ်စရာကောင်းသော ပုံပြင်ဖြစ်ခြင်း",
+            "ခေါင်းစဉ်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "အဖိုးက ထည့်သွင်းရန် တောင်းဆိုခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the simplified wellbeing chart in the campaign encourage classmates to do?",
+          questionMy:
+              "လှုံ့ဆော်ရေးထဲရှိ ရိုးရှင်းသော ကျန်းမာချမ်းသာမှု ဇယားသည် အတန်းဖော်များကို အဘယ်အရာ ပြုလုပ်ရန် အားပေးသနည်း။",
+          optionsEn: [
+            "Track their own sleep and mood for a week to see the pattern",
+            "Stop sleeping entirely",
+            "Ignore their own habits completely",
+            "Copy Hnin Wai's exact chart without checking their own habits",
+          ],
+          optionsMy: [
+            "ပုံစံကို ကိုယ်တိုင်တွေ့မြင်နိုင်ရန် တစ်ပတ်စာ မိမိတို့၏ အိပ်စက်ခြင်းနှင့် စိတ်ခံစားချက်ကို ခြေရာခံခြင်း",
+            "အိပ်စက်ခြင်းကို လုံးဝ ရပ်တန့်ခြင်း",
+            "မိမိတို့၏ အလေ့အထများကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "မိမိတို့၏ အလေ့အထများကို မစစ်ဆေးဘဲ နှင်းဝေ၏ ဇယားကို အတိအကျ ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What lesson from earlier in the term supports the campaign's claim that no single healthy habit works alone?",
+          questionMy:
+              "အခြေခံတစ်ခုတည်း အလုပ်မလုပ်ကြောင်း လှုံ့ဆော်ရေး၏ ဆိုချက်ကို ထောက်ခံသော Term အစောပိုင်းက သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Hnin Wai's science teacher explaining that sleep, diet, exercise and hygiene support each other",
+            "The bread and mould experiment",
+            "The mystery bug classification key",
+            "The backyard survey of vertebrates",
+          ],
+          optionsMy: [
+            "အိပ်စက်ခြင်း၊ အစားအစာ၊ လေ့ကျင့်ခန်းနှင့် သန့်ရှင်းရေးတို့သည် အပြန်အလှန် ထောက်ပံ့ပေးကြောင်း ရှင်းပြသော သိပ္ပံဆရာမ",
+            "ပေါင်မုန့်နှင့် အမှိုက်တက် စမ်းသပ်မှု",
+            "ပုံမသိပိုးမွှား အုပ်စုခွဲ သော့ချက်",
+            "ကျောရိုးရှိတိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 3 -- diet, drugs, and healthy lifestyle choices?",
+          questionMy:
+              "Term 3 တစ်ခုလုံး - အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် ကျန်းမာသော နေထိုင်မှုပုံစံ ရွေးချယ်မှုများကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Everyday choices about food, substances and habits add up to shape long-term health",
+            "Health is decided by a single choice made once in a lifetime",
+            "Diet, drugs, and lifestyle have nothing to do with each other",
+            "Only exercise affects long-term health",
+          ],
+          optionsMy: [
+            "အစားအစာ၊ ပစ္စည်းများနှင့် အလေ့အထများအကြောင်း နေ့စဉ် ရွေးချယ်မှုများသည် ရေရှည် ကျန်းမာရေးကို ပုံဖော်ပေးခြင်း",
+            "ကျန်းမာရေးသည် တစ်သက်တစ်ကျွန်း တစ်ကြိမ်တည်း ပြုလုပ်သော ရွေးချယ်မှုတစ်ခုတည်းဖြင့် ဆုံးဖြတ်ခြင်း",
+            "အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် နေထိုင်မှုပုံစံသည် တစ်ခုနှင့်တစ်ခု ဘာမျှ မဆက်စပ်ခြင်း",
+            "လေ့ကျင့်ခန်းတစ်ခုတည်းသာ ရေရှည် ကျန်းမာရေးကို သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm3 = CourseTermDef(
+  id: "course-year6-science-t3",
+  termNumber: 3,
+  titleEn: "Health: Diet, Drugs and Lifestyle",
+  titleMy: "ကျန်းမာရေး - အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် နေထိုင်မှုပုံစံ",
+  certificateTitleEn: "Health: Diet, Drugs and Lifestyle",
+  certificateTitleMy: "ကျန်းမာရေး - အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် နေထိုင်မှုပုံစံ",
+  weeks: [
+    _year6ScienceWeek9,
+    _year6ScienceWeek10,
+    _year6ScienceWeek11,
+    _year6ScienceWeek12,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 4, Week 13: "Inheritance and Variation"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek13 = CourseWeekDef(
+  id: "course-year6-science-w13",
+  weekNumber: 13,
+  titleEn: "Inheritance and Variation",
+  titleMy: "အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w13-d1",
+      dayNumber: 1,
+      titleEn: "How Offspring Inherit Traits",
+      titleMy: "သားသမီးများသည် ဂုဏ်သတ္တိများကို မည်သို့ အမွေဆက်ခံသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does it mean when offspring \"inherit\" characteristics from their parents?",
+          questionMy:
+              "သားသမီးများသည် မိဘများထံမှ ဂုဏ်သတ္တိများကို \"အမွေဆက်ခံသည်\" ဆိုသည်မှာ မည်သည့်အဓိပ္ပာယ်ရှိသနည်း။",
+          optionsEn: [
+            "They receive features passed down from their parents",
+            "They copy their parents' behaviour by watching them",
+            "They choose which features they want",
+            "They gain features only from their environment",
+          ],
+          optionsMy: [
+            "မိဘများထံမှ လက်ဆင့်ကမ်း လက္ခဏာများ ရရှိခြင်း",
+            "မိဘများ၏ အပြုအမူကို ကြည့်ပြီး တုပခြင်း",
+            "မိမိလိုချင်သော လက္ခဏာများကို ရွေးချယ်ခြင်း",
+            "ပတ်ဝန်းကျင်မှသာ လက္ခဏာများ ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is most likely an inherited characteristic, rather than a learned one?",
+          questionMy:
+              "သင်ယူရသော လက္ခဏာမဟုတ်ဘဲ အမွေဆက်ခံရသော လက္ခဏာဖြစ်နိုင်ဆုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Eye colour",
+            "Speaking a particular language",
+            "Knowing how to ride a bicycle",
+            "Favourite football team",
+          ],
+          optionsMy: [
+            "မျက်လုံးအရောင်",
+            "ဘာသာစကားတစ်ခု ပြောနိုင်ခြင်း",
+            "စက်ဘီးစီးတတ်ခြင်း",
+            "ကြိုက်နှစ်သက်သော ဘောလုံးအသင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is variation, in the context of living things?",
+          questionMy: "သက်ရှိများနှင့်ပတ်သက်၍ ကွဲပြားမှု ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Differences between individuals of the same species",
+            "The exact same features in every individual",
+            "A type of classification key",
+            "A type of micro-organism",
+          ],
+          optionsMy: [
+            "မျိုးစိတ်တူသော တစ်ဦးချင်းများအကြား ကွာခြားချက်များ",
+            "တစ်ဦးချင်းတိုင်းတွင် လုံးဝတူညီသော လက္ခဏာများ",
+            "အုပ်စုခွဲ သော့ချက် တစ်မျိုး",
+            "အဏုဇီဝဖြစ်စဉ် တစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do siblings from the same parents often look different from one another?",
+          questionMy:
+              "မိဘတူ ညီအစ်ကိုမောင်နှမများသည် တစ်ဦးနှင့်တစ်ဦး မကြာခဏ ကွဲပြားစွာ ရှိနေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Each inherits a different mix of characteristics from both parents",
+            "They always look completely identical",
+            "Only the eldest child inherits any traits",
+            "Variation never occurs within a family",
+          ],
+          optionsMy: [
+            "တစ်ဦးစီသည် မိဘနှစ်ပါးထံမှ ကွဲပြားသော ဂုဏ်သတ္တိပေါင်းစပ်မှုကို အမွေဆက်ခံရခြင်း",
+            "အမြဲတမ်း လုံးဝတူညီစွာ ရှိနေခြင်း",
+            "အကြီးဆုံးကလေးတစ်ဦးတည်းသာ လက္ခဏာများ အမွေဆက်ခံခြင်း",
+            "မိသားစုအတွင်း ကွဲပြားမှု ဘယ်တော့မှ မဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai notices that among a litter of kittens, some have short fur and some have long fur, even though they have the same parents. What best explains this?",
+          questionMy:
+              "နှင်းဝေသည် ကြောင်ကလေးများ မိဘတူသော်လည်း အချို့တွင် အမွှေးတို၊ အချို့တွင် အမွှေးရှည် ရှိနေသည်ကို သတိပြုမိသည်။ ဤအခြေအနေကို အကောင်းဆုံး ရှင်းပြနိုင်သောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Natural variation means offspring can inherit different combinations of traits",
+            "The kittens must have different parents",
+            "Fur length is only affected by diet",
+            "Fur length cannot be inherited at all",
+          ],
+          optionsMy: [
+            "သဘာဝ ကွဲပြားမှုက သားသမီးများသည် ကွဲပြားသော ဂုဏ်သတ္တိပေါင်းစပ်မှုများကို အမွေဆက်ခံနိုင်ကြောင်း ဆိုလိုခြင်း",
+            "ကြောင်ကလေးများ မိဘကွဲပြားနေရမည်ဖြစ်ခြင်း",
+            "အမွှေးအလျားသည် အစားအစာကြောင့်သာ သက်ရောက်ခြင်း",
+            "အမွှေးအလျားကို အမွေဆက်ခံ၍ လုံးဝမရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match the Inheritance Vocabulary",
+      titleMy: "အမွေဆက်ခံခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w13-dm-1",
+          termEn: "Inheritance",
+          termMy: "အမွေဆက်ခံခြင်း (Inheritance)",
+          matchEn: "The passing of characteristics from parents to offspring",
+          matchMy: "မိဘများမှ သားသမီးများသို့ ဂုဏ်သတ္တိများ လက်ဆင့်ကမ်းခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w13-dm-2",
+          termEn: "Variation",
+          termMy: "ကွဲပြားမှု (Variation)",
+          matchEn: "Differences between individuals of the same species",
+          matchMy: "မျိုးစိတ်တူသော တစ်ဦးချင်းများအကြား ကွာခြားချက်များ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w13-dm-3",
+          termEn: "Offspring",
+          termMy: "သားသမီး (Offspring)",
+          matchEn: "The young produced by a parent or parents",
+          matchMy: "မိဘတစ်ဦး သို့မဟုတ် မိဘများမှ ထုတ်လုပ်သော ကလေးငယ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w13-dm-4",
+          termEn: "Inherited characteristic",
+          termMy: "အမွေဆက်ခံ ဂုဏ်သတ္တိ (Inherited characteristic)",
+          matchEn:
+              "A feature passed from parent to offspring, such as eye colour",
+          matchMy:
+              "မျက်လုံးအရောင်ကဲ့သို့ မိဘမှ သားသမီးသို့ လက်ဆင့်ကမ်းသော လက္ခဏာ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w13-dm-5",
+          termEn: "Learned characteristic",
+          termMy: "သင်ယူရသော ဂုဏ်သတ္တိ (Learned characteristic)",
+          matchEn: "A skill or behaviour gained from experience, not inherited",
+          matchMy:
+              "အမွေဆက်ခံသည်မဟုတ်ဘဲ အတွေ့အကြုံမှ ရရှိသော ကျွမ်းကျင်မှု သို့မဟုတ် အပြုအမူ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w13-dm-6",
+          termEn: "Parent",
+          termMy: "မိဘ (Parent)",
+          matchEn: "A living thing that produces offspring",
+          matchMy: "သားသမီး ထုတ်လုပ်သော သက်ရှိ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Inherited or Learned?",
+      titleMy: "စီစစ်ကြမည် - အမွေဆက်ခံရသလား၊ သင်ယူရသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Inherited", "Learned"],
+        bucketsMy: ["အမွေဆက်ခံရသည်", "သင်ယူရသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w13-sort-1",
+            labelEn: "Hair colour",
+            labelMy: "ဆံပင်အရောင်",
+            correctBucketEn: "Inherited",
+            correctBucketMy: "အမွေဆက်ခံရသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w13-sort-2",
+            labelEn: "Speaking Burmese",
+            labelMy: "မြန်မာစကားပြောနိုင်ခြင်း",
+            correctBucketEn: "Learned",
+            correctBucketMy: "သင်ယူရသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w13-sort-3",
+            labelEn: "Height, based on parents' genes",
+            labelMy: "မိဘများ၏ မျိုးရိုးဗီဇအပေါ် မူတည်သော အရပ်အမြင့်",
+            correctBucketEn: "Inherited",
+            correctBucketMy: "အမွေဆက်ခံရသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w13-sort-4",
+            labelEn: "Playing the guitar",
+            labelMy: "ဂစ်တာတီးနိုင်ခြင်း",
+            correctBucketEn: "Learned",
+            correctBucketMy: "သင်ယူရသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w13-sort-5",
+            labelEn: "Skin colour",
+            labelMy: "အရေပြားအရောင်",
+            correctBucketEn: "Inherited",
+            correctBucketMy: "အမွေဆက်ခံရသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w13-sort-6",
+            labelEn: "Riding a bicycle",
+            labelMy: "စက်ဘီးစီးနိုင်ခြင်း",
+            correctBucketEn: "Learned",
+            correctBucketMy: "သင်ယူရသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Family Tree Project",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ မိသားစုစဉ် စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Family Tree Project",
+        titleMy: "နှင်းဝေ၏ မိသားစုစဉ် စီမံကိန်း",
+        passageEn:
+            "For a science and history combined project, Hnin Wai interviews her parents and grandparents to build a family tree, noting down a physical characteristic for each person: curly or straight hair, attached or unattached earlobes, and whether they can roll their tongue into a tube shape. She notices that her father and her paternal grandfather both have curly hair and can roll their tongues, while her mother and maternal grandmother have straight hair and cannot.\n\nHnin Wai herself has curly hair like her father, but she cannot roll her tongue like her mother -- a mix of traits from both sides of her family. Her younger brother, meanwhile, has straight hair and can roll his tongue, an entirely different combination. Their teacher explains that this is a perfect real-life example of variation: even siblings with the same two parents can inherit different combinations of characteristics.\n\nHnin Wai's grandmother reminds her that some family traits, like a talent for singing, might look inherited but could actually be learned by growing up surrounded by music -- something worth investigating separately from physical traits like hair type or earlobes. Hnin Wai decides to mark her family tree clearly, separating traits she is confident are inherited from ones that might simply run in the family because everyone learned them together.",
+        passageMy:
+            "သိပ္ပံနှင့် သမိုင်း ပေါင်းစပ်စီမံကိန်းအတွက် နှင်းဝေသည် မိသားစုစဉ် တည်ဆောက်ရန် မိဘများနှင့် အဖိုးအဖွားများကို မေးမြန်းပြီး တစ်ဦးစီအတွက် ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိတစ်ခုစီ - ဆံပင်ကောက်သလား၊ ဆံပင်ဖြောင့်သလား၊ နားပျဉ်စည်း ကပ်နေသလား၊ ကွာနေသလားနှင့် လျှာကို ပြွန်ပုံစံ လိပ်နိုင်သလား - ကို မှတ်သားသည်။ ၎င်း၏ ဖခင်နှင့် ဖခင်ဘက်မှ အဖိုး နှစ်ဦးစလုံးတွင် ဆံပင်ကောက်ပြီး လျှာလိပ်နိုင်ကြောင်း၊ မိခင်နှင့် မိခင်ဘက်မှ အဖွားတို့တွင် ဆံပင်ဖြောင့်ပြီး လျှာမလိပ်နိုင်ကြောင်း သတိပြုမိသည်။\n\nနှင်းဝေကိုယ်တိုင်တွင် ဖခင်ကဲ့သို့ ဆံပင်ကောက်သော်လည်း မိခင်ကဲ့သို့ လျှာလိပ်၍ မရပါ - မိသားစုနှစ်ဖက်စလုံးမှ ဂုဏ်သတ္တိပေါင်းစပ်မှုတစ်ခု ဖြစ်သည်။ ၎င်း၏ ညီလေးမူ ဆံပင်ဖြောင့်ပြီး လျှာလိပ်နိုင်ကာ လုံးဝကွဲပြားသော ပေါင်းစပ်မှုတစ်ခု ဖြစ်သည်။ ၎င်းတို့၏ ဆရာမက ၎င်းသည် ကွဲပြားမှု၏ ပကတိ ဥပမာစစ်စစ်ဖြစ်ကြောင်း - မိဘနှစ်ပါးတူသော ညီအစ်ကိုမောင်နှမများပင် ကွဲပြားသော ဂုဏ်သတ္တိပေါင်းစပ်မှုများကို အမွေဆက်ခံနိုင်ကြောင်း ရှင်းပြသည်။\n\nနှင်းဝေ၏ အဖွားက သီချင်းဆိုနိုင်စွမ်းကဲ့သို့သော မိသားစု ဂုဏ်သတ္တိအချို့သည် အမွေဆက်ခံရသည်ဟု ထင်ရသော်လည်း တကယ်တမ်း ဂီတဝန်းကျင်တွင် ကြီးပြင်းလာခြင်းကြောင့် သင်ယူရသည် ဖြစ်နိုင်ကြောင်း - ဆံပင်ပုံစံ သို့မဟုတ် နားပျဉ်ကဲ့သို့သော ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိများနှင့် သီးခြားစီ စုံစမ်းစစ်ဆေးရန် တန်ဖိုးရှိကြောင်း သတိပေးသည်။ နှင်းဝေသည် ၎င်း၏ မိသားစုစဉ်တွင် အမွေဆက်ခံကြောင်း ယုံကြည်သော ဂုဏ်သတ္တိများနှင့် အားလုံး အတူတကွ သင်ယူခဲ့ခြင်းကြောင့် မိသားစုတွင် ရိုးရာအဖြစ် တွေ့ရသာဖြစ်နိုင်သော ဂုဏ်သတ္တိများကို ရှင်းလင်းစွာ ခွဲခြားမှတ်သားရန် ဆုံးဖြတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What three characteristics does Hnin Wai record for each family member?",
+            questionMy:
+                "မိသားစုဝင် တစ်ဦးစီအတွက် နှင်းဝေ မှတ်တမ်းတင်သော ဂုဏ်သတ္တိသုံးခုမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Hair type, earlobes, and tongue-rolling ability",
+              "Favourite colour, favourite food, and height",
+              "Shoe size, birthday, and school grade",
+              "Phone number, address, and email",
+            ],
+            optionsMy: [
+              "ဆံပင်ပုံစံ၊ နားပျဉ်နှင့် လျှာလိပ်နိုင်စွမ်း",
+              "ကြိုက်နှစ်သက်သော အရောင်၊ ကြိုက်နှစ်သက်သော အစားအစာနှင့် အရပ်အမြင့်",
+              "ဖိနပ်အရွယ်၊ မွေးနေ့နှင့် ကျောင်းအတန်း",
+              "ဖုန်းနံပါတ်၊ လိပ်စာနှင့် အီးမေးလ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What mix of traits does Hnin Wai herself have?",
+            questionMy:
+                "နှင်းဝေကိုယ်တိုင်တွင် ဂုဏ်သတ္တိ မည်သည့်ရောနှောမှု ရှိနေသနည်း။",
+            optionsEn: [
+              "Curly hair like her father but cannot roll her tongue like her mother",
+              "Straight hair and can roll her tongue",
+              "Exactly identical to her brother",
+              "No traits at all from either parent",
+            ],
+            optionsMy: [
+              "ဖခင်ကဲ့သို့ ဆံပင်ကောက်သော်လည်း မိခင်ကဲ့သို့ လျှာမလိပ်နိုင်ခြင်း",
+              "ဆံပင်ဖြောင့်ပြီး လျှာလိပ်နိုင်ခြင်း",
+              "ညီလေးနှင့် အတိအကျ တူညီခြင်း",
+              "မိဘနှစ်ပါးထံမှ ဂုဏ်သတ္တိ လုံးဝမရရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the teacher say Hnin Wai's family tree is a perfect example of?",
+            questionMy:
+                "နှင်းဝေ၏ မိသားစုစဉ်သည် အဘယ်အရာ၏ ပကတိဥပမာဖြစ်ကြောင်း ဆရာမက ပြောသနည်း။",
+            optionsEn: [
+              "Variation among siblings",
+              "Classification keys",
+              "Micro-organisms",
+              "The circulatory system",
+            ],
+            optionsMy: [
+              "ညီအစ်ကိုမောင်နှမများအကြား ကွဲပြားမှု",
+              "အုပ်စုခွဲ သော့ချက်များ",
+              "အဏုဇီဝဖြစ်စဉ်များ",
+              "သွေးလည်ပတ်မှု စနစ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's grandmother point out might actually be a learned trait, not an inherited one?",
+            questionMy:
+                "အမွေဆက်ခံသည်မဟုတ်ဘဲ သင်ယူရသော ဂုဏ်သတ္တိ ဖြစ်နိုင်သည်ဟု နှင်းဝေ၏ အဖွား ထောက်ပြသည့်အရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A talent for singing",
+              "Eye colour",
+              "Hair colour",
+              "Earlobe shape",
+            ],
+            optionsMy: [
+              "သီချင်းဆိုနိုင်စွမ်း",
+              "မျက်လုံးအရောင်",
+              "ဆံပင်အရောင်",
+              "နားပျဉ်ပုံစံ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does Hnin Wai decide to do with her family tree?",
+            questionMy:
+                "မိမိ၏ မိသားစုစဉ်နှင့်ပတ်သက်၍ နှင်းဝေ အဘယ်သို့ ဆုံးဖြတ်သနည်း။",
+            optionsEn: [
+              "Clearly separate traits she is confident are inherited from ones that might just run in the family",
+              "Delete the project entirely",
+              "Only record her own traits, ignoring her family",
+              "Assume every trait is inherited without checking",
+            ],
+            optionsMy: [
+              "အမွေဆက်ခံကြောင်း ယုံကြည်သော ဂုဏ်သတ္တိများနှင့် မိသားစုတွင် ရိုးရာအဖြစ် တွေ့ရသာဖြစ်နိုင်သော ဂုဏ်သတ္တိများကို ရှင်းလင်းစွာ ခွဲခြားခြင်း",
+              "စီမံကိန်းကို လုံးဝ ဖျက်ပစ်ခြင်း",
+              "မိသားစုကို လျစ်လျူရှုပြီး မိမိ၏ ဂုဏ်သတ္တိများကိုသာ မှတ်တမ်းတင်ခြင်း",
+              "မစစ်ဆေးဘဲ ဂုဏ်သတ္တိတိုင်းသည် အမွေဆက်ခံသည်ဟု ယူဆခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w13-d5",
+      dayNumber: 5,
+      titleEn: "Inheritance and Variation Round-Up",
+      titleMy: "အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှု အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is passed from parent to offspring through inheritance?",
+          questionMy:
+              "အောက်ပါတို့အနက် အမွေဆက်ခံခြင်းမှတစ်ဆင့် မိဘမှ သားသမီးသို့ လက်ဆင့်ကမ်းသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Eye colour",
+            "Favourite hobby",
+            "A learned language",
+            "A best friend's name",
+          ],
+          optionsMy: [
+            "မျက်လုံးအရောင်",
+            "ကြိုက်နှစ်သက်သော ဝါသနာ",
+            "သင်ယူထားသော ဘာသာစကား",
+            "ရင်းနှီးသော သူငယ်ချင်း၏ အမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do siblings with the same parents show variation?",
+          questionMy:
+              "မိဘတူ ညီအစ်ကိုမောင်နှမများသည် ကွဲပြားမှု ပြသနေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Each inherits a different combination of characteristics",
+            "They must have different parents",
+            "Variation cannot exist within a family",
+            "They copy each other exactly",
+          ],
+          optionsMy: [
+            "တစ်ဦးစီသည် ကွဲပြားသော ဂုဏ်သတ္တိပေါင်းစပ်မှုကို အမွေဆက်ခံခြင်း",
+            "မိဘကွဲပြားနေရမည်ဖြစ်ခြင်း",
+            "မိသားစုအတွင်း ကွဲပြားမှု ရှိနိုင်မည်မဟုတ်ခြင်း",
+            "တစ်ဦးနှင့်တစ်ဦး အတိအကျ တုပနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which trait from Hnin Wai's project is most likely learned rather than inherited?",
+          questionMy:
+              "နှင်းဝေ၏ စီမံကိန်းမှ ဂုဏ်သတ္တိများအနက် အမွေဆက်ခံခြင်းမဟုတ်ဘဲ သင်ယူခြင်းဖြစ်နိုင်ဆုံးမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A talent for singing",
+            "Tongue-rolling ability",
+            "Earlobe shape",
+            "Hair type",
+          ],
+          optionsMy: [
+            "သီချင်းဆိုနိုင်စွမ်း",
+            "လျှာလိပ်နိုင်စွမ်း",
+            "နားပျဉ်ပုံစံ",
+            "ဆံပင်ပုံစံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does variation within a species provide, which becomes important in later lessons on evolution?",
+          questionMy:
+              "မျိုးစိတ်တစ်ခုအတွင်းရှိ ကွဲပြားမှုသည် နောက်ပိုင်း Evolution သင်ခန်းစာများတွင် အရေးကြီးလာသော အဘယ်အရာကို ပေးစွမ်းသနည်း။",
+          optionsEn: [
+            "A range of different traits that natural selection can act upon",
+            "No useful purpose at all",
+            "A guarantee that all offspring look identical",
+            "A way to prevent all differences between individuals",
+          ],
+          optionsMy: [
+            "သဘာဝ ရွေးချယ်ခြင်းက အလုပ်လုပ်နိုင်မည့် ကွဲပြားသော ဂုဏ်သတ္တိများ အပိုင်းအခြား",
+            "တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+            "သားသမီးအားလုံး တူညီစွာ ရှိနေရမည်ဟု အာမခံခြင်း",
+            "တစ်ဦးချင်းများအကြား ကွာခြားချက်အားလုံးကို ကာကွယ်ရန် နည်းလမ်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's family tree project teach about inheritance and variation?",
+          questionMy:
+              "နှင်းဝေ၏ မိသားစုစဉ် စီမံကိန်းသည် အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှုအကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Family members share traits but each inherits a unique combination",
+            "All family members are always identical",
+            "Inheritance never causes any variation",
+            "Learned traits are always inherited traits",
+          ],
+          optionsMy: [
+            "မိသားစုဝင်များသည် ဂုဏ်သတ္တိများ ဝေမျှသော်လည်း တစ်ဦးစီသည် ထူးခြားသော ပေါင်းစပ်မှုကို အမွေဆက်ခံခြင်း",
+            "မိသားစုဝင်အားလုံး အမြဲတမ်း လုံးဝတူညီခြင်း",
+            "အမွေဆက်ခံခြင်းသည် ကွဲပြားမှု ဘယ်တော့မှ မဖြစ်ပေါ်စေခြင်း",
+            "သင်ယူရသော ဂုဏ်သတ္တိများသည် အမြဲတမ်း အမွေဆက်ခံ ဂုဏ်သတ္တိများ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 4, Week 14: "Adaptation and Evolution"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek14 = CourseWeekDef(
+  id: "course-year6-science-w14",
+  weekNumber: 14,
+  titleEn: "Adaptation and Evolution",
+  titleMy: "လိုက်လျောညီထွေမှုနှင့် Evolution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w14-d1",
+      dayNumber: 1,
+      titleEn: "How Adaptations Help Living Things Survive",
+      titleMy:
+          "လိုက်လျောညီထွေမှုများသည် သက်ရှိများကို မည်သို့ အသက်ရှင်ကျန်ရစ်စေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is an adaptation?",
+          questionMy: "လိုက်လျောညီထွေမှု ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A feature that helps a living thing survive in its environment",
+            "A random feature with no benefit",
+            "A feature only found in classification keys",
+            "A type of micro-organism",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+            "အကျိုးမရှိသော ကျပန်း လက္ခဏာ",
+            "အုပ်စုခွဲ သော့ချက်တွင်သာ တွေ့ရသော လက္ခဏာ",
+            "အဏုဇီဝဖြစ်စဉ်တစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do polar bears have thick white fur?",
+          questionMy:
+              "ခေါင်းရေခဲပိုလာနားရှင်ဝက်ဝံများတွင် ထူထပ်သော ဖြူသောအမွှေးရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Thick fur keeps them warm and white fur camouflages them in the snow",
+            "It makes them look pretty for no functional reason",
+            "It slows them down while swimming",
+            "It has no connection to their environment",
+          ],
+          optionsMy: [
+            "ထူထပ်သော အမွှေးက နွေးထွေးစေပြီး ဖြူသောအမွှေးက နှင်းထဲတွင် ဖုံးကွယ်ပေးခြင်း",
+            "လုပ်ဆောင်ချက် မရှိဘဲ လှပစေရန်သာ",
+            "ရေကူးရာတွင် ကမောက်ကမ ဖြစ်စေခြင်း",
+            "ပတ်ဝန်းကျင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the main difference between adaptation and evolution?",
+          questionMy:
+              "လိုက်လျောညီထွေမှုနှင့် Evolution ၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An adaptation is a single useful feature; evolution is the gradual change of a whole species over many generations",
+            "They mean exactly the same thing",
+            "Adaptation happens only to plants, evolution only to animals",
+            "Evolution happens in a single day",
+          ],
+          optionsMy: [
+            "လိုက်လျောညီထွေမှုသည် အသုံးဝင်သော လက္ခဏာတစ်ခုတည်း ဖြစ်ပြီး Evolution သည် မျိုးဆက်များစွာအတွင်း မျိုးစိတ်တစ်ခုလုံး၏ တဖြည်းဖြည်း ပြောင်းလဲမှုဖြစ်ခြင်း",
+            "အဓိပ္ပာယ် လုံးဝတူညီခြင်း",
+            "လိုက်လျောညီထွေမှုသည် အပင်များတွင်သာ၊ Evolution သည် တိရစ္ဆာန်များတွင်သာ ဖြစ်ပေါ်ခြင်း",
+            "Evolution သည် တစ်ရက်တည်း ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do cactus plants have spines instead of broad leaves?",
+          questionMy:
+              "ကက်တပ်စ်ပင်များတွင် ကျယ်ပြန့်သော အရွက်များအစား အနှောင်လိုက်ကျောများ ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Spines reduce water loss in hot, dry environments",
+            "Spines help the plant fly",
+            "Spines have no functional benefit",
+            "Spines make the plant grow faster in wet climates",
+          ],
+          optionsMy: [
+            "ကျောများက ပူပြင်း ခြောက်သွေ့သော ပတ်ဝန်းကျင်များတွင် ရေဆုံးရှုံးမှုကို လျှော့ချပေးခြင်း",
+            "ကျောများက အပင်ကို ပျံသန်းစေခြင်း",
+            "ကျောများတွင် လုပ်ဆောင်ချက်ဆိုင်ရာ အကျိုးမရှိခြင်း",
+            "ကျောများက စိုစွတ်သော ရာသီဥတုတွင် အပင်ကို ပိုမြန်စွာ ကြီးထွားစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai learns that giraffes with slightly longer necks could reach more food during a drought long ago. Over many generations, why might giraffe necks have become longer on average?",
+          questionMy:
+              "ရှေးအခါက မိုးခေါင်ချိန်တွင် လည်ပင်း အနည်းငယ်ရှည်သော ခရုကရိကသည် အစားအစာ ပိုစားနိုင်ကြောင်း နှင်းဝေ သိရှိသည်။ မျိုးဆက်များစွာအတွင်း ခရုကရိက လည်ပင်းသည် ပျမ်းမျှအားဖြင့် ရှည်လာနိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Longer-necked giraffes survived and reproduced more, passing the trait on",
+            "Giraffes chose to grow longer necks on purpose",
+            "Neck length has nothing to do with survival",
+            "All giraffes always had exactly the same neck length",
+          ],
+          optionsMy: [
+            "လည်ပင်းရှည်သော ခရုကရိကများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုမျိုးပွားကာ လက္ခဏာကို လက်ဆင့်ကမ်းခြင်း",
+            "ခရုကရိကများက အလိုအလျောက် လည်ပင်း ရှည်အောင် ကြီးထွားရန် ရွေးချယ်ခြင်း",
+            "လည်ပင်းအလျားသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ခရုကရိကအားလုံးသည် အမြဲတမ်း အတိအကျ တူညီသော လည်ပင်းအလျား ရှိနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match the Adaptation and Evolution Vocabulary",
+      titleMy:
+          "လိုက်လျောညီထွေမှုနှင့် Evolution ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w14-dm-1",
+          termEn: "Adaptation",
+          termMy: "လိုက်လျောညီထွေမှု (Adaptation)",
+          matchEn:
+              "A feature that helps a living thing survive in its environment",
+          matchMy:
+              "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w14-dm-2",
+          termEn: "Evolution",
+          termMy: "Evolution",
+          matchEn: "The gradual change of a species over many generations",
+          matchMy:
+              "မျိုးဆက်များစွာအတွင်း မျိုးစိတ်တစ်ခု၏ တဖြည်းဖြည်း ပြောင်းလဲမှု",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w14-dm-3",
+          termEn: "Environment",
+          termMy: "ပတ်ဝန်းကျင် (Environment)",
+          matchEn: "The surroundings a living thing lives in",
+          matchMy: "သက်ရှိတစ်ခု နေထိုင်ရာ ပတ်ဝန်းကျင်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w14-dm-4",
+          termEn: "Camouflage",
+          termMy: "ဖုံးကွယ်ခြင်း (Camouflage)",
+          matchEn:
+              "Colouring or patterns that help a living thing blend into its surroundings",
+          matchMy:
+              "သက်ရှိတစ်ခု၏ ပတ်ဝန်းကျင်ထဲသို့ ရောနှောစေရန် ကူညီပေးသော အရောင် သို့မဟုတ် ပုံစံ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w14-dm-5",
+          termEn: "Generation",
+          termMy: "မျိုးဆက် (Generation)",
+          matchEn:
+              "One stage in the life of a family of living things, such as parents or offspring",
+          matchMy:
+              "မိဘများ သို့မဟုတ် သားသမီးများကဲ့သို့သော သက်ရှိမိသားစုတစ်ခု၏ ဘဝတွင် တစ်ဆင့်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w14-dm-6",
+          termEn: "Survival",
+          termMy: "အသက်ရှင်ကျန်ရစ်ခြင်း (Survival)",
+          matchEn: "Living long enough to grow and reproduce",
+          matchMy:
+              "ကြီးထွားရန်နှင့် မျိုးပွားရန် လုံလောက်စွာ ကြာအောင် အသက်ရှင်ခြင်း",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Desert Adaptation or Arctic Adaptation?",
+      titleMy:
+          "စီစစ်ကြမည် - သဲကန္တာရ လိုက်လျောညီထွေမှုလား၊ ရေခဲပိုလာ လိုက်လျောညီထွေမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Desert adaptation", "Arctic adaptation"],
+        bucketsMy: ["သဲကန္တာရ လိုက်လျောညီထွေမှု", "ရေခဲပိုလာ လိုက်လျောညီညီမှု"],
+        items: [
+          SortingItem(
+            id: "y6sci-w14-sort-1",
+            labelEn:
+                "A camel's ability to store fat in its hump for long journeys without water",
+            labelMy:
+                "ရေမပါဘဲ ခရီးရှည် သွားနိုင်ရန် ကုန်း၌ အဆီသိမ်းထားနိုင်သော ကုလားအုပ်၏ စွမ်းရည်",
+            correctBucketEn: "Desert adaptation",
+            correctBucketMy: "သဲကန္တာရ လိုက်လျောညီထွေမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w14-sort-2",
+            labelEn: "A polar bear's thick layer of blubber and fur for warmth",
+            labelMy:
+                "နွေးထွေးရန် ခေါင်းရေခဲပိုလာနားရှင်ဝက်ဝံ၏ ထူထပ်သော အဆီအလွှာနှင့် အမွှေး",
+            correctBucketEn: "Arctic adaptation",
+            correctBucketMy: "ရေခဲပိုလာ လိုက်လျောညီညီမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w14-sort-3",
+            labelEn: "A cactus's spines that reduce water loss",
+            labelMy: "ရေဆုံးရှုံးမှုကို လျှော့ချပေးသော ကက်တပ်စ်ပင်၏ ကျောများ",
+            correctBucketEn: "Desert adaptation",
+            correctBucketMy: "သဲကန္တာရ လိုက်လျောညီထွေမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w14-sort-4",
+            labelEn: "An Arctic fox's white winter coat for camouflage in snow",
+            labelMy:
+                "နှင်းထဲတွင် ဖုံးကွယ်ရန် ရေခဲပိုလာ တောခွေး၏ ဆောင်းရာသီ အဖြူရောင် အမွှေး",
+            correctBucketEn: "Arctic adaptation",
+            correctBucketMy: "ရေခဲပိုလာ လိုက်လျောညီညီမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w14-sort-5",
+            labelEn: "A fennec fox's large ears that release body heat",
+            labelMy:
+                "ခန္ဓာကိုယ် အပူကို ထုတ်လွှတ်ပေးသော ဖင်နက်ခ်တောခွေး၏ နားရွက်ကြီးများ",
+            correctBucketEn: "Desert adaptation",
+            correctBucketMy: "သဲကန္တာရ လိုက်လျောညီထွေမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w14-sort-6",
+            labelEn:
+                "A seal's thick blubber layer for insulation in cold water",
+            labelMy:
+                "အေးမြသော ရေထဲတွင် အပူလွန်ဆိုင်ရန် ဆီးလ်ငါးများ၏ ထူထပ်သော အဆီအလွှာ",
+            correctBucketEn: "Arctic adaptation",
+            correctBucketMy: "ရေခဲပိုလာ လိုက်လျောညီညီမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Documentary Night",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ မှတ်တမ်းရုပ်ရှင် ညနေခင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Documentary Night",
+        titleMy: "နှင်းဝေ၏ မှတ်တမ်းရုပ်ရှင် ညနေခင်း",
+        passageEn:
+            "On a rainy Friday evening, Hnin Wai's family watches a nature documentary about animals living in extreme environments, from the icy Arctic to the scorching Sahara Desert. Hnin Wai notices how differently the Arctic fox and the fennec fox are built, despite both being foxes: the Arctic fox has small, rounded ears and thick white fur, while the fennec fox has enormous ears and thin, sandy-coloured fur.\n\nHer father pauses the documentary and asks her why she thinks their ears are so different. Hnin Wai remembers her lesson on adaptation and explains that the fennec fox's huge ears release extra body heat in the hot desert, while the Arctic fox's small ears reduce heat loss in the freezing cold -- both features exist because they help each fox survive in its own environment.\n\nLater in the documentary, a narrator explains that these differences did not appear overnight; they built up gradually over countless generations, as foxes with slightly better-suited features survived and reproduced more successfully than others in their environment. Hnin Wai's mother remarks that this is exactly why Nova School's science teacher connected this week's lesson to last week's on inheritance and variation -- without natural variation between individual foxes, there would be nothing for their harsh environments to gradually select for over time.",
+        passageMy:
+            "မိုးရွာနေသော သောကြာနေ့ ညနေခင်းတွင် နှင်းဝေ၏ မိသားစုသည် ရေခဲထူထပ်သော ရေခဲပိုလာမှ ပူပြင်းသော ဆာဟာရ သဲကန္တာရအထိ အလွန်အမင်း ပတ်ဝန်းကျင်များတွင် နေထိုင်သော တိရစ္ဆာန်များအကြောင်း သဘာဝ မှတ်တမ်းရုပ်ရှင် ကြည့်ကြသည်။ ရေခဲပိုလာ တောခွေးနှင့် ဖင်နက်ခ်တောခွေး နှစ်ကောင်စလုံး တောခွေးများဖြစ်သော်လည်း လုံးဝကွာခြားစွာ တည်ဆောက်ထားခြင်းကို နှင်းဝေ သတိပြုမိသည် - ရေခဲပိုလာ တောခွေးတွင် နားရွက်သေးငယ်၊ ဝိုင်းလုံပြီး ထူထပ်သော ဖြူသောအမွှေးရှိသော်လည်း ဖင်နက်ခ်တောခွေးတွင် နားရွက်ကြီးမား၍ ပါးလွှာသော သဲရောင် အမွှေးရှိသည်။\n\n၎င်း၏ ဖခင်သည် မှတ်တမ်းရုပ်ရှင်ကို ခဏရပ်ပြီး ၎င်းတို့ နားရွက်များ အဘယ်ကြောင့် ကွာခြားနေသည်ဟု ထင်ကြောင်း မေးလိုက်သည်။ နှင်းဝေသည် လိုက်လျောညီထွေမှုအကြောင်း သင်ခန်းစာကို သတိရပြီး ဖင်နက်ခ်တောခွေး၏ နားရွက်ကြီးများသည် ပူပြင်းသော သဲကန္တာရတွင် ခန္ဓာကိုယ် အပူပိုကို ထုတ်လွှတ်ပေးပြီး ရေခဲပိုလာ တောခွေး၏ နားရွက်သေးငယ်သည် အေးမြသော အအေးဒဏ်တွင် အပူဆုံးရှုံးမှုကို လျှော့ချပေးကြောင်း - ဤလက္ခဏာနှစ်ခုစလုံးသည် တောခွေးတစ်ကောင်စီကို ၎င်း၏ ပတ်ဝန်းကျင်တွင် အသက်ရှင်ကျန်ရစ်စေရန် ကူညီပေးသောကြောင့် တည်ရှိနေခြင်းဖြစ်ကြောင်း ရှင်းပြသည်။\n\nမှတ်တမ်းရုပ်ရှင် နောက်ပိုင်းတွင် ဇာတ်ကြောင်းပြောသူက ဤကွာခြားချက်များသည် တစ်ညတည်း ပေါ်ပေါက်ခဲ့ခြင်းမဟုတ်ဘဲ - ၎င်းတို့၏ ပတ်ဝန်းကျင်တွင် အနည်းငယ် ပိုသင့်လျော်သော လက္ခဏာများရှိသော တောခွေးများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုအောင်မြင်စွာ မျိုးပွားခဲ့သောကြောင့် မျိုးဆက်ရေတွက်၍မကုန်နိုင်လောက်အောင် ကာလကြာရှည်စွာ တဖြည်းဖြည်း တည်ဆောက်လာခဲ့ခြင်းဖြစ်ကြောင်း ရှင်းပြသည်။ နှင်းဝေ၏ မိခင်က ဤအချက်ကြောင့်ပင် Nova School ၏ သိပ္ပံဆရာမသည် ဤအပတ်စာ သင်ခန်းစာကို ယခင်အပတ်က အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှုသင်ခန်းစာနှင့် ဆက်စပ်ခဲ့ခြင်းဖြစ်ကြောင်း သတိပေးသည် - တစ်ဦးချင်း တောခွေးများအကြား သဘာဝ ကွဲပြားမှု မရှိပါက ၎င်းတို့၏ ခက်ခဲသော ပတ်ဝန်းကျင်များအနေဖြင့် အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း ရွေးချယ်ရန် ဘာမျှ ရှိမည်မဟုတ်ပေ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "How do the Arctic fox's and fennec fox's ears differ?",
+            questionMy:
+                "ရေခဲပိုလာ တောခွေးနှင့် ဖင်နက်ခ်တောခွေး၏ နားရွက်များ မည်သို့ ကွာခြားနေသနည်း။",
+            optionsEn: [
+              "The Arctic fox has small ears; the fennec fox has enormous ears",
+              "Both have exactly the same size ears",
+              "Neither fox has any ears",
+              "The Arctic fox has larger ears than the fennec fox",
+            ],
+            optionsMy: [
+              "ရေခဲပိုလာ တောခွေးတွင် နားရွက်သေးငယ်ပြီး ဖင်နက်ခ်တောခွေးတွင် နားရွက်ကြီးမားခြင်း",
+              "နှစ်ကောင်စလုံးတွင် အရွယ်အစားတူညီသော နားရွက်ရှိခြင်း",
+              "တောခွေး နှစ်ကောင်စလုံးတွင် နားရွက် လုံးဝမရှိခြင်း",
+              "ရေခဲပိုလာ တောခွေးတွင် ဖင်နက်ခ်တောခွေးထက် နားရွက်ကြီးမားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why does the fennec fox have such large ears?",
+            questionMy:
+                "ဖင်နက်ခ်တောခွေးတွင် နားရွက်ကြီးမားစွာ ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "To release extra body heat in the hot desert",
+              "To help it hear better than any other animal",
+              "To make it look attractive",
+              "To help it swim faster",
+            ],
+            optionsMy: [
+              "ပူပြင်းသော သဲကန္တာရတွင် ခန္ဓာကိုယ် အပူပိုကို ထုတ်လွှတ်ပေးရန်",
+              "အခြားတိရစ္ဆာန်ထက် ပိုကောင်းစွာ ကြားစေရန်",
+              "ဆွဲဆောင်မှုရှိစေရန်",
+              "ပိုမြန်စွာ ရေကူးစေရန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the documentary, how did these differences between the two foxes appear?",
+            questionMy:
+                "မှတ်တမ်းရုပ်ရှင်အရ တောခွေးနှစ်ကောင်ကြား ဤကွာခြားချက်များ မည်သို့ ပေါ်ပေါက်ခဲ့သနည်း။",
+            optionsEn: [
+              "Gradually, over countless generations, through survival and reproduction",
+              "Overnight, in a single generation",
+              "By each fox choosing its own features",
+              "Randomly, with no connection to survival",
+            ],
+            optionsMy: [
+              "အသက်ရှင်ကျန်ရစ်မှုနှင့် မျိုးပွားမှုမှတစ်ဆင့် မျိုးဆက်ရေတွက်၍မကုန်နိုင်လောက်အောင် ကာလကြာရှည်စွာ တဖြည်းဖြည်း",
+              "တစ်ညတည်း၊ မျိုးဆက်တစ်ခုတည်းအတွင်း",
+              "တောခွေးတစ်ကောင်စီက မိမိ၏ လက္ခဏာများကို ရွေးချယ်ခြင်းဖြင့်",
+              "ကျပန်း၊ အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိဘဲ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai's mother connect this week's lesson to last week's lesson on inheritance and variation?",
+            questionMy:
+                "ဤအပတ်စာ သင်ခန်းစာကို ယခင်အပတ်က အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှုသင်ခန်းစာနှင့် နှင်းဝေ၏ မိခင် ဆက်စပ်ခြင်းမှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Without natural variation, environments would have nothing to gradually select for",
+              "The two lessons have nothing in common",
+              "Variation only matters for classification keys",
+              "Inheritance has no connection to adaptation",
+            ],
+            optionsMy: [
+              "သဘာဝ ကွဲပြားမှု မရှိပါက ပတ်ဝန်းကျင်များအနေဖြင့် တဖြည်းဖြည်း ရွေးချယ်ရန် ဘာမျှ ရှိမည်မဟုတ်ခြင်း",
+              "သင်ခန်းစာနှစ်ခုတွင် ဘာမျှ တူညီချက် မရှိခြင်း",
+              "ကွဲပြားမှုသည် အုပ်စုခွဲ သော့ချက်များအတွက်သာ အရေးကြီးခြင်း",
+              "အမွေဆက်ခံခြင်းသည် လိုက်လျောညီထွေမှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What overall idea does Hnin Wai's documentary night teach?",
+            questionMy:
+                "နှင်းဝေ၏ မှတ်တမ်းရုပ်ရှင် ညနေခင်းသည် သင်ကြားပေးသော ယေဘူယျ အယူအဆမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Different environments favour different adaptations, which build up gradually over generations",
+              "All animals in every environment look exactly the same",
+              "Adaptations appear overnight with no connection to survival",
+              "Ears have no purpose in any animal",
+            ],
+            optionsMy: [
+              "ကွဲပြားသော ပတ်ဝန်းကျင်များသည် ကွဲပြားသော လိုက်လျောညီထွေမှုများကို မျိုးဆက်များအတွင်း တဖြည်းဖြည်း တည်ဆောက်ပေးခြင်း",
+              "ပတ်ဝန်းကျင် တိုင်းရှိ တိရစ္ဆာန်အားလုံးသည် အတိအကျ တူညီစွာ ရှိနေခြင်း",
+              "လိုက်လျောညီထွေမှုများသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှုမရှိဘဲ တစ်ညတည်း ပေါ်ပေါက်ခြင်း",
+              "နားရွက်များသည် တိရစ္ဆာန်မည်သည့်တွင်မျှ ရည်ရွယ်ချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w14-d5",
+      dayNumber: 5,
+      titleEn: "Adaptation and Evolution Round-Up",
+      titleMy: "လိုက်လျောညီထွေမှုနှင့် Evolution အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why does a polar bear's white fur help it survive?",
+          questionMy:
+              "ခေါင်းရေခဲပိုလာနားရှင်ဝက်ဝံ၏ ဖြူသောအမွှေးသည် အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It camouflages the bear in the snow",
+            "It makes the bear faster underwater",
+            "It has no survival benefit",
+            "It attracts more prey",
+          ],
+          optionsMy: [
+            "ဝက်ဝံကို နှင်းထဲတွင် ဖုံးကွယ်ပေးခြင်း",
+            "ဝက်ဝံကို ရေအောက်တွင် ပိုမြန်စေခြင်း",
+            "အသက်ရှင်ကျန်ရစ်ရန် အကျိုးမရှိခြင်း",
+            "အစားအစာ ပိုစားနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Over many generations, why might a trait that helps survival become more common in a species?",
+          questionMy:
+              "မျိုးဆက်များစွာအတွင်း အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာတစ်ခု မျိုးစိတ်တစ်ခုတွင် ပိုတွေ့ရလာနိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Individuals with that trait survive and reproduce more successfully",
+            "The trait is chosen randomly with no connection to survival",
+            "Every individual always has the exact same traits",
+            "Traits never change across generations",
+          ],
+          optionsMy: [
+            "ထိုလက္ခဏာရှိသော တစ်ဦးချင်းများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုအောင်မြင်စွာ မျိုးပွားခြင်း",
+            "လက္ခဏာကို အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှုမရှိဘဲ ကျပန်း ရွေးချယ်ခြင်း",
+            "တစ်ဦးချင်းတိုင်းတွင် အမြဲတမ်း အတိအကျ တူညီသော လက္ခဏာများ ရှိနေခြင်း",
+            "လက္ခဏာများသည် မျိုးဆက်များအတွင်း ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Hnin Wai's documentary night reveal about the fennec fox's ears?",
+          questionMy:
+              "ဖင်နက်ခ်တောခွေး၏ နားရွက်များအကြောင်း နှင်းဝေ၏ မှတ်တမ်းရုပ်ရှင် ညနေခင်းက အဘယ်အရာ ဖော်ထုတ်ပြသနည်း။",
+          optionsEn: [
+            "Their large size helps release extra body heat in the desert",
+            "They are exactly the same size as the Arctic fox's ears",
+            "They have no connection to the desert environment",
+            "They evolved overnight with no gradual process",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ ကြီးမားမှုသည် သဲကန္တာရတွင် ခန္ဓာကိုယ် အပူပိုကို ထုတ်လွှတ်ပေးရန် ကူညီခြင်း",
+            "ရေခဲပိုလာ တောခွေး၏ နားရွက်များနှင့် အတိအကျ အရွယ်အစားတူညီခြင်း",
+            "သဲကန္တာရ ပတ်ဝန်းကျင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "တဖြည်းဖြည်း ဖြစ်စဉ် မရှိဘဲ တစ်ညတည်း Evolution ဖြစ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does variation between individuals matter for evolution to occur?",
+          questionMy:
+              "Evolution ဖြစ်ပေါ်ရန်အတွက် တစ်ဦးချင်းများအကြား ကွဲပြားမှု အရေးကြီးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It gives the environment different traits to select from over time",
+            "It prevents any change from ever happening",
+            "It has no connection to evolution at all",
+            "It only matters for micro-organisms",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင်အနေဖြင့် အချိန်ကြာလာသည်နှင့်အမျှ ရွေးချယ်ရန် ကွဲပြားသော လက္ခဏာများ ရှိစေခြင်း",
+            "ပြောင်းလဲမှု တစ်ခုမျှ ဘယ်တော့မှ မဖြစ်ပေါ်စေခြင်း",
+            "Evolution နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "အဏုဇီဝဖြစ်စဉ်များအတွက်သာ အရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on adaptation and evolution teach?",
+          questionMy:
+              "ဤအပတ်စာ လိုက်လျောညီထွေမှုနှင့် Evolution သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Useful features build up gradually over generations as individuals with them survive and reproduce more",
+            "All species stay exactly the same forever",
+            "Adaptations have no connection to the environment",
+            "Evolution happens instantly within one lifetime",
+          ],
+          optionsMy: [
+            "ထိုလက္ခဏာရှိသော တစ်ဦးချင်းများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုမျိုးပွားသောကြောင့် အသုံးဝင်သော လက္ခဏာများသည် မျိုးဆက်များအတွင်း တဖြည်းဖြည်း တည်ဆောက်လာခြင်း",
+            "မျိုးစိတ်အားလုံး အမြဲတမ်း အတိအကျ မပြောင်းလဲဘဲ ရှိနေခြင်း",
+            "လိုက်လျောညီထွေမှုများသည် ပတ်ဝန်းကျင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "Evolution သည် သက်တမ်းတစ်ခုတည်းအတွင်း ချက်ချင်း ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 4, Week 15: "Charles Darwin and Natural
+// Selection"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek15 = CourseWeekDef(
+  id: "course-year6-science-w15",
+  weekNumber: 15,
+  titleEn: "Charles Darwin and Natural Selection",
+  titleMy: "Charles Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w15-d1",
+      dayNumber: 1,
+      titleEn: "Darwin's Voyage and Big Idea",
+      titleMy: "Darwin ၏ သင်္ဘောခရီးနှင့် အယူအဆကြီး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What was Charles Darwin's famous scientific idea called?",
+          questionMy:
+              "Charles Darwin ၏ ကျော်ကြားသော သိပ္ပံဆိုင်ရာ အယူအဆကို မည်သို့ခေါ်သနည်း။",
+          optionsEn: [
+            "The theory of natural selection",
+            "The theory of gravity",
+            "The theory of relativity",
+            "The theory of plate tectonics",
+          ],
+          optionsMy: [
+            "သဘာဝ ရွေးချယ်ခြင်း သီအိုရီ",
+            "ဆွဲငင်အား သီအိုရီ",
+            "ဆက်စပ်မှု သီအိုရီ",
+            "ကမ္ဘာ့ခွက်ရွေ့လျားမှု သီအိုရီ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On which famous ship did Darwin travel and observe wildlife around the world?",
+          questionMy:
+              "Darwin သည် ကမ္ဘာတစ်ဝှမ်း တောရိုင်းတိရစ္ဆာန်များကို ခရီးသွားစောင့်ကြည့်ခဲ့သော ကျော်ကြားသော သင်္ဘောမှာ အဘယ်နည်း။",
+          optionsEn: ["HMS Beagle", "Titanic", "Nova Explorer", "Mayflower"],
+          optionsMy: ["HMS Beagle", "Titanic", "Nova Explorer", "Mayflower"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Darwin notice about the finches on different Galápagos Islands?",
+          questionMy:
+              "မတူညီသော Galápagos ကျွန်းများပေါ်ရှိ ငှက်ကလေးများအကြောင်း Darwin အဘယ်အရာ သတိပြုမိသနည်း။",
+          optionsEn: [
+            "Their beaks differed in shape depending on the food available on each island",
+            "They were all exactly identical on every island",
+            "They could not fly at all",
+            "They lived only underwater",
+          ],
+          optionsMy: [
+            "ကျွန်းတစ်ခုစီရှိ ရရှိနိုင်သော အစားအစာပေါ်မူတည်၍ ၎င်းတို့၏ ခေါင်းလွှာပုံစံ ကွဲပြားနေခြင်း",
+            "ကျွန်းတိုင်းတွင် အတိအကျ တူညီစွာ ရှိနေခြင်း",
+            "လုံးဝ ပျံနိုင်စွမ်း မရှိခြင်း",
+            "ရေအောက်တွင်သာ နေထိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What does natural selection describe?",
+          questionMy: "သဘာဝ ရွေးချယ်ခြင်းက အဘယ်အရာကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Individuals with helpful traits are more likely to survive and pass those traits on",
+            "Every individual survives equally regardless of traits",
+            "Living things choose their own traits on purpose",
+            "Traits never affect survival",
+          ],
+          optionsMy: [
+            "အသုံးဝင်သော လက္ခဏာရှိသော တစ်ဦးချင်းများသည် ပိုအသက်ရှင်ကျန်ရစ်ပြီး ထိုလက္ခဏာများကို လက်ဆင့်ကမ်းနိုင်ခြင်း",
+            "လက္ခဏာနှင့်မသက်ဆိုင်ဘဲ တစ်ဦးချင်းတိုင်း အညီအမျှ အသက်ရှင်ကျန်ရစ်ခြင်း",
+            "သက်ရှိများ မိမိတို့ လက္ခဏာကို ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ခြင်း",
+            "လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုကို ဘယ်တော့မှ မသက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's teacher says Darwin's finches idea connects directly to earlier lessons on variation and inheritance. Why is this connection important?",
+          questionMy:
+              "Darwin ၏ ငှက်ကလေးများ အယူအဆသည် အစောပိုင်း ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်း သင်ခန်းစာများနှင့် တိုက်ရိုက် ဆက်စပ်နေကြောင်း နှင်းဝေ၏ ဆရာမ ပြောသည်။ ဤဆက်စပ်မှု အရေးကြီးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Without natural variation and inheritance, natural selection would have nothing to act on or pass down",
+            "The three ideas are completely unrelated",
+            "Inheritance only matters for humans, never other animals",
+            "Variation prevents natural selection from ever happening",
+          ],
+          optionsMy: [
+            "သဘာဝ ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်း မရှိပါက သဘာဝ ရွေးချယ်ခြင်းအနေဖြင့် အလုပ်လုပ်ရန် သို့မဟုတ် လက်ဆင့်ကမ်းရန် ဘာမျှ ရှိမည်မဟုတ်ခြင်း",
+            "အယူအဆသုံးခုသည် လုံးဝ မဆက်စပ်ခြင်း",
+            "အမွေဆက်ခံခြင်းသည် လူသားများအတွက်သာ အရေးကြီးပြီး အခြားတိရစ္ဆာန်များအတွက် မဟုတ်ခြင်း",
+            "ကွဲပြားမှုသည် သဘာဝ ရွေးချယ်ခြင်း ဖြစ်ပေါ်ခြင်းကို ဘယ်တော့မှ ကာကွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match the Darwin and Natural Selection Vocabulary",
+      titleMy: "Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w15-dm-1",
+          termEn: "Natural selection",
+          termMy: "သဘာဝ ရွေးချယ်ခြင်း (Natural selection)",
+          matchEn:
+              "The process where helpful traits become more common because they aid survival",
+          matchMy:
+              "အသုံးဝင်သော လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုကို ကူညီသောကြောင့် ပိုတွေ့ရလာသော ဖြစ်စဉ်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w15-dm-2",
+          termEn: "Naturalist",
+          termMy: "သဘာဝသိပ္ပံပညာရှင် (Naturalist)",
+          matchEn:
+              "A scientist who studies plants, animals, and the natural world",
+          matchMy:
+              "အပင်များ၊ တိရစ္ဆာန်များနှင့် သဘာဝကမ္ဘာကို လေ့လာသော သိပ္ပံပညာရှင်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w15-dm-3",
+          termEn: "Voyage",
+          termMy: "ရေကြောင်းခရီး (Voyage)",
+          matchEn: "A long journey, especially by ship",
+          matchMy: "အထူးသဖြင့် သင်္ဘောဖြင့် ခရီးရှည်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w15-dm-4",
+          termEn: "Theory",
+          termMy: "သီအိုရီ (Theory)",
+          matchEn:
+              "A well-tested scientific explanation supported by lots of evidence",
+          matchMy:
+              "အထောက်အထားများစွာဖြင့် ထောက်ခံထားသော စမ်းသပ်ကောင်းသော သိပ္ပံဆိုင်ရာ ရှင်းလင်းချက်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w15-dm-5",
+          termEn: "Fossil",
+          termMy: "သက်ရှိရုပ်ကြွင်း (Fossil)",
+          matchEn: "The preserved remains of a living thing from long ago",
+          matchMy: "ရှေးအခါက သက်ရှိတစ်ခု၏ ထိန်းသိမ်းထားသော အကြွင်းအကျန်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w15-dm-6",
+          termEn: "Evidence",
+          termMy: "အထောက်အထား (Evidence)",
+          matchEn: "Facts and observations that support a scientific idea",
+          matchMy:
+              "သိပ္ပံဆိုင်ရာ အယူအဆတစ်ခုကို ထောက်ခံသော အချက်အလက်များနှင့် တွေ့ရှိချက်များ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Supports Natural Selection or Not?",
+      titleMy: "စီစစ်ကြမည် - သဘာဝ ရွေးချယ်ခြင်းကို ထောက်ခံသလား၊ မထောက်ခံသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Supports natural selection",
+          "Does not support natural selection",
+        ],
+        bucketsMy: [
+          "သဘာဝ ရွေးချယ်ခြင်းကို ထောက်ခံသည်",
+          "သဘာဝ ရွေးချယ်ခြင်းကို မထောက်ခံပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w15-sort-1",
+            labelEn: "Finches with beaks suited to local food surviving better",
+            labelMy:
+                "ဒေသန္တရ အစားအစာနှင့် ကိုက်ညီသော ခေါင်းလွှာရှိသည့် ငှက်ကလေးများ ပိုကောင်းစွာ အသက်ရှင်ကျန်ရစ်ခြင်း",
+            correctBucketEn: "Supports natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w15-sort-2",
+            labelEn:
+                "Every individual in a species being born completely identical",
+            labelMy:
+                "မျိုးစိတ်တစ်ခုရှိ တစ်ဦးချင်းတိုင်း အတိအကျ တူညီစွာ မွေးဖွားလာခြင်း",
+            correctBucketEn: "Does not support natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို မထောက်ခံပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w15-sort-3",
+            labelEn:
+                "Longer-necked giraffes reaching more food and reproducing more",
+            labelMy:
+                "လည်ပင်းရှည်သော ခရုကရိကများ အစားအစာ ပိုစားနိုင်ပြီး ပိုမျိုးပွားခြင်း",
+            correctBucketEn: "Supports natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w15-sort-4",
+            labelEn:
+                "Traits appearing randomly with no effect on survival at all",
+            labelMy:
+                "အသက်ရှင်ကျန်ရစ်မှုအပေါ် ဘာမျှ သက်ရောက်မှုမရှိဘဲ ကျပန်း ပေါ်ပေါက်လာသော လက္ခဏာများ",
+            correctBucketEn: "Does not support natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို မထောက်ခံပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w15-sort-5",
+            labelEn: "Camouflaged animals avoiding predators more successfully",
+            labelMy:
+                "ဖုံးကွယ်ထားသော တိရစ္ဆာန်များ သားကောင်ရှာသူများကို ပိုအောင်မြင်စွာ ရှောင်ရှားနိုင်ခြင်း",
+            correctBucketEn: "Supports natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w15-sort-6",
+            labelEn: "A species changing completely within a single day",
+            labelMy: "မျိုးစိတ်တစ်ခု တစ်ရက်တည်းအတွင်း လုံးဝ ပြောင်းလဲသွားခြင်း",
+            correctBucketEn: "Does not support natural selection",
+            correctBucketMy: "သဘာဝ ရွေးချယ်ခြင်းကို မထောက်ခံပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Darwin Presentation",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ Darwin တင်ပြချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Darwin Presentation",
+        titleMy: "နှင်းဝေ၏ Darwin တင်ပြချက်",
+        passageEn:
+            "For her science presentation, Hnin Wai chooses to research Charles Darwin, the naturalist whose five-year voyage aboard HMS Beagle in the 1830s took him around the world, including a stop at the Galápagos Islands. There, Darwin noticed something curious: finches on different islands had differently shaped beaks, seemingly matched to whatever food -- hard seeds, soft fruit, or insects -- was most available on that particular island.\n\nYears after returning home, Darwin combined this observation with what he already knew about variation and inheritance from breeding pigeons and studying farm animals. He proposed that individuals with traits better suited to their environment were more likely to survive, reproduce, and pass those traits to their offspring, while less suited individuals were less likely to do so. Over countless generations, this process -- which he called natural selection -- could gradually shape entire populations, and eventually entire species.\n\nHnin Wai explains to her class that Darwin's idea was so powerful precisely because it connected things her class had already studied separately: variation gives a population different traits to start with, inheritance passes successful traits to the next generation, and adaptation describes the traits that end up helping. Natural selection, she concludes in her presentation, is the process that ties all three together across time, turning small individual differences into the enormous diversity of life seen across the planet today.",
+        passageMy:
+            "မိမိ၏ သိပ္ပံတင်ပြချက်အတွက် နှင်းဝေသည် ၁၈၃၀ များတွင် HMS Beagle သင်္ဘောဖြင့် Galápagos ကျွန်းများသို့ ရပ်နားခြင်းအပါအဝင် ငါးနှစ်ကြာ ကမ္ဘာတစ်ဝှမ်း သင်္ဘောခရီးသွားခဲ့သော သဘာဝသိပ္ပံပညာရှင် Charles Darwin အကြောင်း လေ့လာရန် ရွေးချယ်လိုက်သည်။ ထိုနေရာတွင် Darwin သည် စိတ်ဝင်စားစရာ အရာတစ်ခုကို သတိပြုမိသည် - ကျွန်းအမျိုးမျိုးရှိ ငှက်ကလေးများတွင် ခေါင်းလွှာပုံစံ ကွဲပြားနေပြီး ကျွန်းတစ်ခုစီတွင် အများဆုံးရရှိနိုင်သော အစားအစာ - မာကျောသော မျိုးစေ့၊ နူးညံ့သော အသီးအနှံ သို့မဟုတ် ပိုးမွှားများ - နှင့် ကိုက်ညီပုံရသည်။\n\nအိမ်ပြန်ရောက်ပြီး နှစ်များစွာအကြာတွင် Darwin သည် ခို လိမ်လျင်ခြင်းနှင့် တောင်သူတိရစ္ဆာန်များကို လေ့လာခြင်းမှ ရရှိသော ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်းအကြောင်း ၎င်း သိရှိထားသည့် အသိပညာနှင့် ဤတွေ့ရှိချက်ကို ပေါင်းစပ်လိုက်သည်။ ၎င်းသည် ပတ်ဝန်းကျင်နှင့် ပိုသင့်လျော်သော လက္ခဏာရှိသော တစ်ဦးချင်းများသည် ပိုအသက်ရှင်ကျန်ရစ်ပြီး မျိုးပွားကာ ထိုလက္ခဏာများကို သားသမီးများသို့ လက်ဆင့်ကမ်းနိုင်ချေ ပိုများပြီး ပိုနည်းလျော့သော လက္ခဏာရှိသော တစ်ဦးချင်းများသည် ထိုသို့ ဖြစ်နိုင်ချေ ပိုနည်းကြောင်း အဆိုပြုခဲ့သည်။ မျိုးဆက်ရေတွက်၍မကုန်နိုင်လောက်အောင် ကာလကြာရှည်စွာအတွင်း ၎င်းက သဘာဝ ရွေးချယ်ခြင်းဟု ခေါ်သော ဤဖြစ်စဉ်သည် လူဦးရေတစ်ခုလုံးကို တဖြည်းဖြည်း ပုံဖော်နိုင်ပြီး နောက်ဆုံးတွင် မျိုးစိတ်တစ်ခုလုံးကိုပင် ပုံဖော်နိုင်သည်။\n\nနှင်းဝေသည် Darwin ၏ အယူအဆသည် ၎င်း၏ အတန်းက သီးခြားစီ လေ့လာခဲ့သောအရာများကို ဆက်စပ်ပေးခဲ့သောကြောင့် ဤမျှ အားကောင်းခဲ့ကြောင်း အတန်းသားများအား ရှင်းပြသည် - ကွဲပြားမှုက လူဦးရေတစ်ခုအား စတင်ရန် ကွဲပြားသော လက္ခဏာများ ပေးပြီး၊ အမွေဆက်ခံခြင်းက အောင်မြင်သော လက္ခဏာများကို နောက်မျိုးဆက်သို့ လက်ဆင့်ကမ်းကာ၊ လိုက်လျောညီထွေမှုက ကူညီပေးသော လက္ခဏာများကို ဖော်ပြသည်။ သဘာဝ ရွေးချယ်ခြင်းသည် ဤသုံးခုစလုံးကို အချိန်တစ်လျှောက် ဆက်စပ်ပေးသော ဖြစ်စဉ်ဖြစ်ကြောင်း၊ တစ်ဦးချင်းအသေးအဖွဲ ကွာခြားချက်များကို ယနေ့ ကမ္ဘာတစ်ဝှမ်း တွေ့ရသော ဘဝ၏ ကြီးမားသော ကွဲပြားမှုအဖြစ် ပြောင်းလဲပေးကြောင်း ၎င်း၏ တင်ပြချက်တွင် နိဂုံးချုပ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "On which ship did Darwin sail on his famous five-year voyage?",
+            questionMy:
+                "ကျော်ကြားသော ငါးနှစ်ကြာ ရေကြောင်းခရီးတွင် Darwin မည်သည့်သင်္ဘောဖြင့် သွားခဲ့သနည်း။",
+            optionsEn: ["HMS Beagle", "Titanic", "Nova Explorer", "Mayflower"],
+            optionsMy: ["HMS Beagle", "Titanic", "Nova Explorer", "Mayflower"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Darwin notice about finches on different Galápagos Islands?",
+            questionMy:
+                "မတူညီသော Galápagos ကျွန်းများပေါ်ရှိ ငှက်ကလေးများအကြောင်း Darwin အဘယ်အရာ သတိပြုမိသနည်း။",
+            optionsEn: [
+              "Their beaks were shaped to match the food available on each island",
+              "They were all identical everywhere",
+              "They could not fly",
+              "They only lived in water",
+            ],
+            optionsMy: [
+              "ကျွန်းတစ်ခုစီရှိ ရရှိနိုင်သော အစားအစာနှင့် ကိုက်ညီအောင် ခေါင်းလွှာပုံစံ ရှိနေခြင်း",
+              "နေရာတိုင်းတွင် အတိအကျ တူညီစွာ ရှိနေခြင်း",
+              "ပျံနိုင်စွမ်း မရှိခြင်း",
+              "ရေတွင်းသာ နေထိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Darwin combine his finch observations with to form his theory?",
+            questionMy:
+                "မိမိ၏ သီအိုရီကို ဖွဲ့စည်းရန် ငှက်ကလေးများ တွေ့ရှိချက်များနှင့် Darwin အဘယ်အရာကို ပေါင်းစပ်ခဲ့သနည်း။",
+            optionsEn: [
+              "What he knew about variation and inheritance from breeding pigeons and farm animals",
+              "Random guessing with no evidence",
+              "A dream he once had",
+              "A story told by a stranger",
+            ],
+            optionsMy: [
+              "ခို လိမ်လျင်ခြင်းနှင့် တောင်သူတိရစ္ဆာန်များမှ သိရှိထားသော ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်းအကြောင်း အသိပညာ",
+              "အထောက်အထားမရှိဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+              "တစ်ခါက မြင်ခဲ့သော အိပ်မက်",
+              "လူစိမ်းတစ်ဦး ပြောပြသော ပုံပြင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is natural selection, according to Hnin Wai's presentation?",
+            questionMy:
+                "နှင်းဝေ၏ တင်ပြချက်အရ သဘာဝ ရွေးချယ်ခြင်း ဆိုသည်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The process where better-suited individuals survive, reproduce, and pass on their traits",
+              "A process with no connection to survival",
+              "A process that happens only to plants",
+              "A process that happens in a single generation only",
+            ],
+            optionsMy: [
+              "ပိုသင့်လျော်သော တစ်ဦးချင်းများ အသက်ရှင်ကျန်ရစ်ပြီး မျိုးပွားကာ ၎င်းတို့၏ လက္ခဏာများကို လက်ဆင့်ကမ်းသော ဖြစ်စဉ်",
+              "အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှုမရှိသော ဖြစ်စဉ်",
+              "အပင်များအတွက်သာ ဖြစ်ပေါ်သော ဖြစ်စဉ်",
+              "မျိုးဆက်တစ်ခုတည်းအတွင်းသာ ဖြစ်ပေါ်သော ဖြစ်စဉ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai's presentation connect natural selection to variation, inheritance, and adaptation?",
+            questionMy:
+                "နှင်းဝေ၏ တင်ပြချက်သည် သဘာဝ ရွေးချယ်ခြင်းကို ကွဲပြားမှု၊ အမွေဆက်ခံခြင်းနှင့် လိုက်လျောညီထွေမှုတို့နှင့် မည်သို့ ဆက်စပ်ပေးသနည်း။",
+            optionsEn: [
+              "It ties all three together across time to explain the diversity of life",
+              "It says the three ideas are completely separate",
+              "It ignores variation and inheritance entirely",
+              "It says adaptation has no role in evolution",
+            ],
+            optionsMy: [
+              "ဘဝ၏ ကွဲပြားမှုကို ရှင်းပြရန် သုံးခုစလုံးကို အချိန်တစ်လျှောက် ဆက်စပ်ပေးခြင်း",
+              "အယူအဆသုံးခုသည် လုံးဝ သီးခြားစီ ဖြစ်ကြောင်း ဆိုခြင်း",
+              "ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "လိုက်လျောညီထွေမှုသည် Evolution တွင် ဘာမျှ အခန်းကဏ္ဍ မပါဝင်ကြောင်း ဆိုခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w15-d5",
+      dayNumber: 5,
+      titleEn: "Darwin and Natural Selection Round-Up",
+      titleMy: "Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What islands did Darwin famously visit while studying finches?",
+          questionMy:
+              "ငှက်ကလေးများကို လေ့လာစဉ် Darwin ကျော်ကြားစွာ လည်ပတ်ခဲ့သော ကျွန်းများမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Galápagos Islands",
+            "Hawaii",
+            "The British Isles",
+            "Iceland",
+          ],
+          optionsMy: [
+            "Galápagos ကျွန်းစု",
+            "ဟာဝိုင်ယီ",
+            "ဗြိတိသျှ ကျွန်းစု",
+            "အိုက်စလန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these three concepts does natural selection require to work?",
+          questionMy:
+              "သဘာဝ ရွေးချယ်ခြင်း အလုပ်လုပ်ရန် လိုအပ်သော သဘောတရားသုံးခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Variation and inheritance",
+            "Only classification keys",
+            "Only micro-organisms",
+            "Only the circulatory system",
+          ],
+          optionsMy: [
+            "ကွဲပြားမှုနှင့် အမွေဆက်ခံခြင်း",
+            "အုပ်စုခွဲ သော့ချက်များသာ",
+            "အဏုဇီဝဖြစ်စဉ်များသာ",
+            "သွေးလည်ပတ်မှု စနစ်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Darwin's theory, what happens to individuals with traits poorly suited to their environment?",
+          questionMy:
+              "Darwin ၏ သီအိုရီအရ ပတ်ဝန်းကျင်နှင့် မကိုက်ညီသော လက္ခဏာရှိသော တစ်ဦးချင်းများတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "They are less likely to survive and reproduce",
+            "They always survive better than others",
+            "Their traits have no effect on survival",
+            "They immediately die within one day",
+          ],
+          optionsMy: [
+            "အသက်ရှင်ကျန်ရစ်ပြီး မျိုးပွားနိုင်ချေ ပိုနည်းခြင်း",
+            "အခြားသူများထက် အမြဲတမ်း ပိုကောင်းစွာ အသက်ရှင်ကျန်ရစ်ခြင်း",
+            "၎င်းတို့၏ လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုကို ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "တစ်ရက်တည်းအတွင်း ချက်ချင်း သေဆုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does Hnin Wai say Darwin's idea was so powerful?",
+          questionMy:
+              "Darwin ၏ အယူအဆသည် ဤမျှ အားကောင်းခဲ့ကြောင်း နှင်းဝေ ပြောသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It connected variation, inheritance, and adaptation into one process across time",
+            "It was the first idea anyone ever had about animals",
+            "It had no connection to earlier science lessons",
+            "It only applied to birds, never other animals",
+          ],
+          optionsMy: [
+            "ကွဲပြားမှု၊ အမွေဆက်ခံခြင်းနှင့် လိုက်လျောညီထွေမှုကို အချိန်တစ်လျှောက် ဖြစ်စဉ်တစ်ခုတည်းအဖြစ် ဆက်စပ်ပေးခြင်း",
+            "တိရစ္ဆာန်များအကြောင်း တစ်ယောက်ယောက်တွေးခဲ့သော ပထမဆုံးအယူအဆဖြစ်ခြင်း",
+            "အစောပိုင်း သိပ္ပံသင်ခန်းစာများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ငှက်များအတွက်သာ သက်ဆိုင်ပြီး အခြားတိရစ္ဆာန်များအတွက် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on Darwin and natural selection teach?",
+          questionMy:
+              "ဤအပတ်စာ Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်း သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful observation and evidence can reveal how life gradually changes over time",
+            "Scientific theories are based on guesses with no evidence",
+            "All species remain unchanged forever",
+            "Natural selection has no connection to survival",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် လေ့လာခြင်းနှင့် အထောက်အထားများသည် ဘဝ အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း ပြောင်းလဲပုံကို ဖော်ထုတ်နိုင်ခြင်း",
+            "သိပ္ပံဆိုင်ရာ သီအိုရီများသည် အထောက်အထားမရှိဘဲ ခန့်မှန်းချက်များပေါ်တွင် အခြေခံခြင်း",
+            "မျိုးစိတ်အားလုံးသည် အမြဲတမ်း မပြောင်းလဲဘဲ ရှိနေခြင်း",
+            "သဘာဝ ရွေးချယ်ခြင်းသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 4, Week 16 (Capstone): "Nova School Evolution
+// Detectives Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek16 = CourseWeekDef(
+  id: "course-year6-science-w16",
+  weekNumber: 16,
+  titleEn: "Nova School Evolution Detectives Studio",
+  titleMy: "Nova ကျောင်း Evolution စုံထောက်များ အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w16-d1",
+      dayNumber: 1,
+      titleEn: "Evolution and Inheritance Review",
+      titleMy: "Evolution နှင့် အမွေဆက်ခံခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is passed from parent to offspring through inheritance?",
+          questionMy:
+              "အမွေဆက်ခံခြင်းမှတစ်ဆင့် မိဘမှ သားသမီးသို့ လက်ဆင့်ကမ်းသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Characteristics like eye colour",
+            "Only learned skills",
+            "Only friends",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "မျက်လုံးအရောင်ကဲ့သို့သော ဂုဏ်သတ္တိများ",
+            "သင်ယူထားသော ကျွမ်းကျင်မှုများသာ",
+            "သူငယ်ချင်းများသာ",
+            "ဘာမျှ မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do individuals within the same species show variation?",
+          questionMy:
+              "မျိုးစိတ်တူသော တစ်ဦးချင်းများသည် ကွဲပြားမှု ပြသနေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Each inherits a different combination of characteristics from its parents",
+            "They must have completely different species",
+            "Variation cannot happen within a species",
+            "They copy each other exactly",
+          ],
+          optionsMy: [
+            "တစ်ဦးစီသည် မိဘများထံမှ ကွဲပြားသော ဂုဏ်သတ္တိပေါင်းစပ်မှုကို အမွေဆက်ခံခြင်း",
+            "လုံးဝ ကွဲပြားသော မျိုးစိတ်များ ရှိနေရမည်ဖြစ်ခြင်း",
+            "မျိုးစိတ်တစ်ခုအတွင်း ကွဲပြားမှု ဘယ်တော့မှ မဖြစ်ပေါ်ခြင်း",
+            "တစ်ဦးနှင့်တစ်ဦး အတိအကျ တုပနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do fennec foxes have huge ears while Arctic foxes have small ears?",
+          questionMy:
+              "ဖင်နက်ခ်တောခွေးများတွင် နားရွက်ကြီးမားပြီး ရေခဲပိုလာ တောခွေးများတွင် နားရွက်သေးငယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Each adaptation helps the fox survive in its own environment",
+            "It has no connection to their environments",
+            "Both types of fox live in exactly the same climate",
+            "Ear size is only affected by diet",
+          ],
+          optionsMy: [
+            "လိုက်လျောညီထွေမှုတစ်ခုစီသည် တောခွေးကို ၎င်း၏ ပတ်ဝန်းကျင်တွင် အသက်ရှင်ကျန်ရစ်ရန် ကူညီခြင်း",
+            "၎င်းတို့၏ ပတ်ဝန်းကျင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "တောခွေး နှစ်မျိုးစလုံးသည် အတိအကျ တူညီသော ရာသီဥတုတွင် နေထိုင်ခြင်း",
+            "နားရွက်အရွယ်အစားသည် အစားအစာကြောင့်သာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Darwin observe about finches on different Galápagos Islands?",
+          questionMy:
+              "မတူညီသော Galápagos ကျွန်းများပေါ်ရှိ ငှက်ကလေးများအကြောင်း Darwin အဘယ်အရာ တွေ့ရှိခဲ့သနည်း။",
+          optionsEn: [
+            "Their beaks were shaped to match the food available on each island",
+            "They were all completely identical",
+            "They could not survive on any island",
+            "They only ate one type of food everywhere",
+          ],
+          optionsMy: [
+            "ကျွန်းတစ်ခုစီရှိ ရရှိနိုင်သော အစားအစာနှင့် ကိုက်ညီအောင် ခေါင်းလွှာပုံစံ ရှိနေခြင်း",
+            "အားလုံး အတိအကျ တူညီစွာ ရှိနေခြင်း",
+            "ကျွန်းမည်သည့်တွင်မျှ အသက်ရှင်ကျန်ရစ်နိုင်မည်မဟုတ်ခြင်း",
+            "နေရာတိုင်းတွင် အစားအစာတစ်မျိုးတည်းသာ စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea connects variation, inheritance, adaptation, and natural selection?",
+          questionMy:
+              "ကွဲပြားမှု၊ အမွေဆက်ခံခြင်း၊ လိုက်လျောညီထွေမှုနှင့် သဘာဝ ရွေးချယ်ခြင်းကို ဆက်စပ်ပေးသော တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Individuals with helpful, inherited traits survive and reproduce more, gradually changing a species",
+            "All species remain exactly the same forever",
+            "Traits have no connection to survival at all",
+            "Evolution happens overnight with no gradual process",
+          ],
+          optionsMy: [
+            "အသုံးဝင်ပြီး အမွေဆက်ခံရသော လက္ခဏာရှိသော တစ်ဦးချင်းများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုမျိုးပွားကာ မျိုးစိတ်တစ်ခုကို တဖြည်းဖြည်း ပြောင်းလဲစေခြင်း",
+            "မျိုးစိတ်အားလုံးသည် အမြဲတမ်း အတိအကျ မပြောင်းလဲဘဲ ရှိနေခြင်း",
+            "လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "Evolution သည် တဖြည်းဖြည်း ဖြစ်စဉ်မရှိဘဲ တစ်ညတည်း ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 4 Vocabulary",
+      titleMy: "Term 4 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w16-dm-1",
+          termEn: "Inheritance",
+          termMy: "အမွေဆက်ခံခြင်း (Inheritance)",
+          matchEn: "The passing of characteristics from parents to offspring",
+          matchMy: "မိဘများမှ သားသမီးများသို့ ဂုဏ်သတ္တိများ လက်ဆင့်ကမ်းခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w16-dm-2",
+          termEn: "Variation",
+          termMy: "ကွဲပြားမှု (Variation)",
+          matchEn: "Differences between individuals of the same species",
+          matchMy: "မျိုးစိတ်တူသော တစ်ဦးချင်းများအကြား ကွာခြားချက်များ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w16-dm-3",
+          termEn: "Adaptation",
+          termMy: "လိုက်လျောညီထွေမှု (Adaptation)",
+          matchEn:
+              "A feature that helps a living thing survive in its environment",
+          matchMy:
+              "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w16-dm-4",
+          termEn: "Evolution",
+          termMy: "Evolution",
+          matchEn: "The gradual change of a species over many generations",
+          matchMy:
+              "မျိုးဆက်များစွာအတွင်း မျိုးစိတ်တစ်ခု၏ တဖြည်းဖြည်း ပြောင်းလဲမှု",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w16-dm-5",
+          termEn: "Natural selection",
+          termMy: "သဘာဝ ရွေးချယ်ခြင်း (Natural selection)",
+          matchEn:
+              "The process where helpful traits become more common because they aid survival",
+          matchMy:
+              "အသုံးဝင်သော လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုကို ကူညီသောကြောင့် ပိုတွေ့ရလာသော ဖြစ်စဉ်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w16-dm-6",
+          termEn: "Fossil",
+          termMy: "သက်ရှိရုပ်ကြွင်း (Fossil)",
+          matchEn: "The preserved remains of a living thing from long ago",
+          matchMy: "ရှေးအခါက သက်ရှိတစ်ခု၏ ထိန်းသိမ်းထားသော အကြွင်းအကျန်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Inherited Trait or Environmental Adaptation?",
+      titleMy:
+          "စီစစ်ကြမည် - အမွေဆက်ခံရသော လက္ခဏာလား၊ ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Inherited trait", "Environmental adaptation"],
+        bucketsMy: ["အမွေဆက်ခံရသော လက္ခဏာ", "ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှု"],
+        items: [
+          SortingItem(
+            id: "y6sci-w16-sort-1",
+            labelEn: "A kitten's eye colour matching its mother's",
+            labelMy: "ကြောင်ကလေးတစ်ကောင်၏ မျက်လုံးအရောင် အမိနှင့် ကိုက်ညီခြင်း",
+            correctBucketEn: "Inherited trait",
+            correctBucketMy: "အမွေဆက်ခံရသော လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y6sci-w16-sort-2",
+            labelEn: "A cactus's spines that reduce water loss in the desert",
+            labelMy:
+                "သဲကန္တာရတွင် ရေဆုံးရှုံးမှုကို လျှော့ချပေးသော ကက်တပ်စ်ပင်၏ ကျောများ",
+            correctBucketEn: "Environmental adaptation",
+            correctBucketMy: "ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w16-sort-3",
+            labelEn: "A child's height reflecting both parents' genes",
+            labelMy:
+                "မိဘနှစ်ပါးစလုံး၏ မျိုးရိုးဗီဇကို ထင်ဟပ်သော ကလေးတစ်ဦး၏ အရပ်အမြင့်",
+            correctBucketEn: "Inherited trait",
+            correctBucketMy: "အမွေဆက်ခံရသော လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y6sci-w16-sort-4",
+            labelEn: "A polar bear's thick fur suited to Arctic cold",
+            labelMy:
+                "ရေခဲပိုလာ ချမ်းအေးမှုနှင့် ကိုက်ညီသော ခေါင်းရေခဲပိုလာနားရှင်ဝက်ဝံ၏ ထူထပ်သော အမွှေး",
+            correctBucketEn: "Environmental adaptation",
+            correctBucketMy: "ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှု",
+          ),
+          SortingItem(
+            id: "y6sci-w16-sort-5",
+            labelEn: "Curly hair passed down from a parent",
+            labelMy: "မိဘထံမှ လက်ဆင့်ကမ်းရရှိသော ဆံပင်ကောက်",
+            correctBucketEn: "Inherited trait",
+            correctBucketMy: "အမွေဆက်ခံရသော လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y6sci-w16-sort-6",
+            labelEn: "A fennec fox's large ears suited to hot desert climates",
+            labelMy:
+                "ပူပြင်းသော သဲကန္တာရ ရာသီဥတုနှင့် ကိုက်ညီသော ဖင်နက်ခ်တောခွေး၏ နားရွက်ကြီးများ",
+            correctBucketEn: "Environmental adaptation",
+            correctBucketMy: "ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Evolution Detectives Exhibition",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ Evolution စုံထောက်များ ပြပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Evolution Detectives Exhibition",
+        titleMy: "နှင်းဝေ၏ Evolution စုံထောက်များ ပြပွဲ",
+        passageEn:
+            "To close Term 4, Nova School holds an Evolution Detectives Exhibition, and each group must present a real animal or plant, explaining its traits as clues in a detective case: which parts are inherited, which are adaptations to environment, and how natural selection might have shaped them over time. Hnin Wai's group chooses the fennec fox, tracing a clear chain from her earlier lessons.\n\nAt their stand, Hnin Wai explains that fennec fox pups inherit certain traits from their parents, such as a tendency toward large ears -- this is inheritance. Variation means that some pups are born with slightly larger or smaller ears than others. In the hot desert environment, pups with larger ears release body heat more efficiently and are slightly more likely to survive and reproduce -- this is natural selection acting on an adaptation. Repeated over countless generations, this process gradually shaped fennec foxes into the large-eared animals seen today -- this is evolution.\n\nA judge visiting the exhibition asks Hnin Wai's group what would happen if all fennec fox pups were born with exactly identical ear sizes, with no variation at all. After a moment's thought, the group answers that natural selection would have nothing to select between, since every individual would be equally suited or unsuited to the environment -- proving, the judge says with a smile, that they have understood not just the vocabulary of evolution, but the logic connecting variation, inheritance, adaptation, and natural selection into a single, continuous story.",
+        passageMy:
+            "Term 4 ပြီးဆုံးရန် Nova School သည် Evolution စုံထောက်များ ပြပွဲကို ကျင်းပပြီး အုပ်စုတိုင်းသည် တကယ့်တိရစ္ဆာန် သို့မဟုတ် အပင်တစ်ခုကို တင်ပြရမည်ဖြစ်ကာ ၎င်း၏ လက္ခဏာများကို စုံထောက်အမှုတစ်ခု၏ အကွက်များအဖြစ် ရှင်းပြရမည်ဖြစ်သည် - မည်သည့်အစိတ်အပိုင်းများသည် အမွေဆက်ခံရသနည်း၊ မည်သည့်အစိတ်အပိုင်းများသည် ပတ်ဝန်းကျင် လိုက်လျောညီထွေမှုများဖြစ်သနည်း၊ ကာလကြာရှည်စွာအတွင်း သဘာဝ ရွေးချယ်ခြင်းသည် ၎င်းတို့ကို မည်သို့ ပုံဖော်ပေးခဲ့နိုင်သနည်း။ နှင်းဝေ၏ အုပ်စုသည် ဖင်နက်ခ်တောခွေးကို ရွေးချယ်ပြီး ၎င်း၏ အစောပိုင်း သင်ခန်းစာများမှ ရှင်းလင်းသော ကွင်းဆက်တစ်ခုကို လိုက်ဖော်ပြသည်။\n\n၎င်းတို့၏ ပြခန်းတွင် နှင်းဝေသည် ဖင်နက်ခ်တောခွေးကလေးများသည် မိဘများထံမှ နားရွက်ကြီးမားခြင်းသို့ ဦးတည်မှုကဲ့သို့ ဂုဏ်သတ္တိအချို့ကို အမွေဆက်ခံကြောင်း ရှင်းပြသည် - ၎င်းသည် အမွေဆက်ခံခြင်းဖြစ်သည်။ ကွဲပြားမှုသည် ကလေးအချို့တွင် အခြားကလေးများထက် အနည်းငယ်ကြီးမား သို့မဟုတ် သေးငယ်သော နားရွက်များနှင့် မွေးဖွားလာခြင်းကို ဆိုလိုသည်။ ပူပြင်းသော သဲကန္တာရ ပတ်ဝန်းကျင်တွင် နားရွက်ကြီးသော ကလေးများသည် ခန္ဓာကိုယ် အပူကို ပိုထိရောက်စွာ ထုတ်လွှတ်ပြီး ပိုအသက်ရှင်ကျန်ရစ်ကာ မျိုးပွားနိုင်ချေ အနည်းငယ်ပိုများသည် - ၎င်းသည် လိုက်လျောညီထွေမှုတစ်ခုအပေါ် အလုပ်လုပ်နေသော သဘာဝ ရွေးချယ်ခြင်းဖြစ်သည်။ မျိုးဆက်ရေတွက်၍မကုန်နိုင်လောက်အောင် ကြာရှည်စွာ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်ခဲ့ခြင်းကြောင့် ဤဖြစ်စဉ်သည် ဖင်နက်ခ်တောခွေးများကို ယနေ့ တွေ့ရသော နားရွက်ကြီးသည့် တိရစ္ဆာန်များအဖြစ် တဖြည်းဖြည်း ပုံဖော်ပေးခဲ့သည် - ၎င်းသည် Evolution ဖြစ်သည်။\n\nပြပွဲသို့ လာရောက်လည်ပတ်သော တရားသူကြီးတစ်ဦးသည် ဖင်နက်ခ်တောခွေး ကလေးအားလုံးသည် ကွဲပြားမှု လုံးဝမရှိဘဲ အတိအကျ တူညီသော နားရွက်အရွယ်အစားနှင့် မွေးဖွားလာလျှင် အဘယ်အရာ ဖြစ်ပျက်မည်ကို နှင်းဝေ၏ အုပ်စုအား မေးမြန်းသည်။ ခဏတွေးပြီးနောက် အုပ်စုက တစ်ဦးချင်းတိုင်းသည် ပတ်ဝန်းကျင်နှင့် အညီအမျှ သင့်လျော်သည် သို့မဟုတ် မသင့်လျော်သောကြောင့် သဘာဝ ရွေးချယ်ခြင်းအနေဖြင့် ရွေးချယ်ရန် ဘာမျှ ရှိမည်မဟုတ်ဟု ဖြေဆိုသည် - ၎င်းတို့သည် Evolution ၏ ဝေါဟာရများကိုသာမက ကွဲပြားမှု၊ အမွေဆက်ခံခြင်း၊ လိုက်လျောညီထွေမှုနှင့် သဘာဝ ရွေးချယ်ခြင်းကို ဆက်စပ်ပေးသော ယုတ္တိကိုပါ နားလည်ကြောင်း သက်သေပြသည်ဟု တရားသူကြီးက ပြုံးရင်း ပြောသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "Which animal does Hnin Wai's group choose for the Evolution Detectives Exhibition?",
+            questionMy:
+                "Evolution စုံထောက်များ ပြပွဲအတွက် နှင်းဝေ၏ အုပ်စု မည်သည့်တိရစ္ဆာန်ကို ရွေးချယ်သနည်း။",
+            optionsEn: [
+              "The fennec fox",
+              "The Arctic fox",
+              "A polar bear",
+              "A giraffe",
+            ],
+            optionsMy: [
+              "ဖင်နက်ခ်တောခွေး",
+              "ရေခဲပိုလာ တောခွေး",
+              "ခေါင်းရေခဲပိုလာနားရှင်ဝက်ဝံ",
+              "ခရုကရိက",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai identify as inheritance in the fennec fox example?",
+            questionMy:
+                "ဖင်နက်ခ်တောခွေး ဥပမာတွင် အမွေဆက်ခံခြင်းအဖြစ် နှင်းဝေ ဖော်ထုတ်သောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Pups inheriting a tendency toward large ears from their parents",
+              "Pups choosing their own ear size",
+              "Pups learning to have large ears from experience",
+              "All pups having exactly the same size ears with no variation",
+            ],
+            optionsMy: [
+              "မိဘများထံမှ နားရွက်ကြီးမားခြင်းသို့ ဦးတည်မှုကို ကလေးများ အမွေဆက်ခံခြင်း",
+              "ကလေးများ မိမိ၏ နားရွက်အရွယ်အစားကို ရွေးချယ်ခြင်း",
+              "ကလေးများ အတွေ့အကြုံမှ နားရွက်ကြီးရန် သင်ယူခြင်း",
+              "ကလေးအားလုံးတွင် ကွဲပြားမှု လုံးဝမရှိဘဲ အတိအကျ တူညီသော နားရွက်အရွယ်အစားရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why are larger-eared fennec fox pups slightly more likely to survive in the desert?",
+            questionMy:
+                "နားရွက်ကြီးသော ဖင်နက်ခ်တောခွေးကလေးများသည် သဲကန္တာရတွင် အနည်းငယ်ပို၍ အသက်ရှင်ကျန်ရစ်နိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Larger ears release body heat more efficiently",
+              "Larger ears help them hide from every predator",
+              "Larger ears have no connection to survival",
+              "Larger ears make them heavier",
+            ],
+            optionsMy: [
+              "နားရွက်ကြီးသည် ခန္ဓာကိုယ် အပူကို ပိုထိရောက်စွာ ထုတ်လွှတ်ခြင်း",
+              "နားရွက်ကြီးသည် သားကောင်ရှာသူတိုင်းထံမှ ဝှက်ကွယ်ရန် ကူညီခြင်း",
+              "နားရွက်ကြီးသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "နားရွက်ကြီးသည် ၎င်းတို့ကို ပိုလေးလံစေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does the judge ask Hnin Wai's group?",
+            questionMy: "တရားသူကြီးက နှင်းဝေ၏ အုပ်စုအား အဘယ်အရာ မေးမြန်းသနည်း။",
+            optionsEn: [
+              "What would happen if all pups were born with identical ear sizes, with no variation",
+              "What the fox's favourite food is",
+              "How old the fox is",
+              "How many pups a fox has each year",
+            ],
+            optionsMy: [
+              "ကလေးအားလုံးသည် ကွဲပြားမှု လုံးဝမရှိဘဲ တူညီသော နားရွက်အရွယ်အစားနှင့် မွေးဖွားလာလျှင် အဘယ်အရာဖြစ်ပျက်မည်",
+              "တောခွေး၏ ကြိုက်နှစ်သက်ဆုံး အစားအစာ",
+              "တောခွေး၏ အသက်",
+              "တောခွေးတစ်ကောင် နှစ်စဉ် ကလေးဘယ်နှစ်ကောင်ရှိသလဲ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's group answer, and what does the judge conclude?",
+            questionMy:
+                "နှင်းဝေ၏ အုပ်စု အဘယ်သို့ ဖြေဆိုပြီး တရားသူကြီး အဘယ်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "Natural selection would have nothing to select between, showing they understand how the concepts connect",
+              "Nothing would change at all",
+              "All foxes would immediately die",
+              "The question has no correct answer",
+            ],
+            optionsMy: [
+              "သဘာဝ ရွေးချယ်ခြင်းအနေဖြင့် ရွေးချယ်ရန် ဘာမျှ ရှိမည်မဟုတ်ကြောင်း ဖြေဆိုပြီး သဘောတရားများ မည်သို့ ဆက်စပ်ကြောင်း နားလည်ကြောင်း ပြသခြင်း",
+              "ဘာမျှ လုံးဝ ပြောင်းလဲမည်မဟုတ်ခြင်း",
+              "တောခွေးအားလုံး ချက်ချင်း သေဆုံးမည်ဖြစ်ခြင်း",
+              "မေးခွန်းတွင် မှန်ကန်သောအဖြေ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone Challenge",
+      titleMy: "Term 4 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's evolution case study, what represents variation?",
+          questionMy:
+              "နှင်းဝေ၏ Evolution ကိစ္စလေ့လာမှုတွင် ကွဲပြားမှုကို ကိုယ်စားပြုသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Some pups being born with slightly larger or smaller ears",
+            "Every pup being born identical",
+            "A pup learning to dig burrows",
+            "A pup choosing its own habitat",
+          ],
+          optionsMy: [
+            "ကလေးအချို့တွင် အနည်းငယ်ကြီးမား သို့မဟုတ် သေးငယ်သော နားရွက်များနှင့် မွေးဖွားလာခြင်း",
+            "ကလေးတိုင်း တူညီစွာ မွေးဖွားလာခြင်း",
+            "ကလေးတစ်ကောင် တွင်းတူးခြင်းကို သင်ယူခြင်း",
+            "ကလေးတစ်ကောင် မိမိ၏ နေထိုင်ရာကို ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What represents natural selection in the fennec fox example?",
+          questionMy:
+              "ဖင်နက်ခ်တောခွေး ဥပမာတွင် သဘာဝ ရွေးချယ်ခြင်းကို ကိုယ်စားပြုသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Larger-eared pups being slightly more likely to survive and reproduce",
+            "All pups surviving equally regardless of ear size",
+            "Pups choosing to grow larger ears",
+            "Ear size having no effect on survival",
+          ],
+          optionsMy: [
+            "နားရွက်ကြီးသော ကလေးများ အနည်းငယ်ပို၍ အသက်ရှင်ကျန်ရစ်ပြီး မျိုးပွားနိုင်ခြင်း",
+            "ကလေးအားလုံး နားရွက်အရွယ်အစားနှင့်မသက်ဆိုင်ဘဲ အညီအမျှ အသက်ရှင်ကျန်ရစ်ခြင်း",
+            "ကလေးများ နားရွက်ကြီးရန် ကြီးထွားရန် ရွေးချယ်ခြင်း",
+            "နားရွက်အရွယ်အစားသည် အသက်ရှင်ကျန်ရစ်မှုအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What would happen to natural selection if there were no variation at all in a population?",
+          questionMy:
+              "လူဦးရေတစ်ခုတွင် ကွဲပြားမှု လုံးဝမရှိပါက သဘာဝ ရွေးချယ်ခြင်းတွင် အဘယ်အရာ ဖြစ်ပျက်မည်နည်း။",
+          optionsEn: [
+            "It would have nothing to select between",
+            "It would work even faster than usual",
+            "It would only affect plants, not animals",
+            "It would still work exactly the same way",
+          ],
+          optionsMy: [
+            "ရွေးချယ်ရန် ဘာမျှ ရှိမည်မဟုတ်ခြင်း",
+            "ပုံမှန်ထက် ပိုမြန်စွာ အလုပ်လုပ်ခြင်း",
+            "အပင်များကိုသာ သက်ရောက်ပြီး တိရစ္ဆာန်များကို မသက်ရောက်ခြင်း",
+            "အတိအကျ တူညီသော နည်းလမ်းဖြင့် ဆက်လက် အလုပ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall process, repeated over generations, turns small differences into large ones like the fennec fox's ears?",
+          questionMy:
+              "ဖင်နက်ခ်တောခွေး၏ နားရွက်များကဲ့သို့ အသေးအဖွဲကွာခြားချက်များကို ကြီးမားသော ကွာခြားချက်များအဖြစ် မျိုးဆက်များတစ်လျှောက် ထပ်ခါထပ်ခါ ပြောင်းလဲပေးသော ဖြစ်စဉ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Evolution through natural selection",
+            "Classification alone",
+            "Digestion alone",
+            "Circulation alone",
+          ],
+          optionsMy: [
+            "သဘာဝ ရွေးချယ်ခြင်းမှတစ်ဆင့် Evolution",
+            "အုပ်စုခွဲခြင်းတစ်ခုတည်း",
+            "အစာကြေခြင်းတစ်ခုတည်း",
+            "သွေးလည်ပတ်မှုတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 4 -- inheritance, adaptation, and evolution?",
+          questionMy:
+              "Term 4 တစ်ခုလုံး - အမွေဆက်ခံခြင်း၊ လိုက်လျောညီထွေမှုနှင့် Evolution ကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Inherited variation, acted on by natural selection, gradually shapes species over generations",
+            "Species never change under any circumstances",
+            "Inheritance, adaptation, and evolution are completely unrelated ideas",
+            "Variation always prevents evolution from happening",
+          ],
+          optionsMy: [
+            "သဘာဝ ရွေးချယ်ခြင်းက အလုပ်လုပ်သော အမွေဆက်ခံ ကွဲပြားမှုသည် မျိုးဆက်များတစ်လျှောက် မျိုးစိတ်များကို တဖြည်းဖြည်း ပုံဖော်ပေးခြင်း",
+            "မျိုးစိတ်များသည် မည်သည့်အခြေအနေမျှ ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+            "အမွေဆက်ခံခြင်း၊ လိုက်လျောညီထွေမှုနှင့် Evolution သည် လုံးဝ မဆက်စပ်သော အယူအဆများ ဖြစ်ခြင်း",
+            "ကွဲပြားမှုသည် Evolution ဖြစ်ပေါ်ခြင်းကို အမြဲတမ်း ကာကွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm4 = CourseTermDef(
+  id: "course-year6-science-t4",
+  termNumber: 4,
+  titleEn: "Evolution and Inheritance",
+  titleMy: "Evolution နှင့် အမွေဆက်ခံခြင်း",
+  certificateTitleEn: "Evolution and Inheritance",
+  certificateTitleMy: "Evolution နှင့် အမွေဆက်ခံခြင်း",
+  weeks: [
+    _year6ScienceWeek13,
+    _year6ScienceWeek14,
+    _year6ScienceWeek15,
+    _year6ScienceWeek16,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 5, Week 17: "How Light Travels"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek17 = CourseWeekDef(
+  id: "course-year6-science-w17",
+  weekNumber: 17,
+  titleEn: "How Light Travels",
+  titleMy: "အလင်းရောင် ခရီးသွားပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w17-d1",
+      dayNumber: 1,
+      titleEn: "Light Sources and Straight Lines",
+      titleMy: "အလင်းရင်းမြစ်များနှင့် ဖြောင့်တန်းသော လမ်းကြောင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a light source?",
+          questionMy: "အလင်းရင်းမြစ် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Something that gives out its own light, like the Sun or a lamp",
+            "Anything that is bright coloured",
+            "Anything made of glass",
+            "Anything that can reflect light only",
+          ],
+          optionsMy: [
+            "နေ သို့မဟုတ် မီးအိမ်ကဲ့သို့ မိမိကိုယ်ပိုင် အလင်းရောင်ကို ထုတ်လွှတ်ပေးသောအရာ",
+            "တောက်ပသော အရောင်ရှိသည့် မည်သည့်အရာမဆို",
+            "မှန်ဖြင့်ပြုလုပ်ထားသော မည်သည့်အရာမဆို",
+            "အလင်းရောင်ကို ရောင်ပြန်ဟပ်ပေးနိုင်သာသည့် မည်သည့်အရာမဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In what shape does light generally travel?",
+          questionMy:
+              "အလင်းရောင်သည် ယေဘူယျအားဖြင့် မည်သည့်ပုံစံဖြင့် ခရီးသွားသနည်း။",
+          optionsEn: [
+            "In straight lines",
+            "In circles only",
+            "In zigzags only",
+            "It does not move at all",
+          ],
+          optionsMy: [
+            "ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့်",
+            "စက်ဝိုင်းများဖြင့်သာ",
+            "ဇစ်ဇက်များဖြင့်သာ",
+            "လုံးဝ မလှုပ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a light source, rather than an object that is simply lit up by light?",
+          questionMy:
+              "အလင်းရောင်ဖြင့် ထွန်းလင်းစေခံရသော အရာမဟုတ်ဘဲ အလင်းရင်းမြစ်ဖြစ်သောအရာမှာ အဘယ်နည်း။",
+          optionsEn: ["The Sun", "The Moon", "A mirror", "A book"],
+          optionsMy: ["နေ", "လ", "မှန်", "စာအုပ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can the Moon be seen at night even though it is not a light source itself?",
+          questionMy:
+              "လသည် အလင်းရင်းမြစ်တစ်ခုတည်း မဟုတ်သော်လည်း ညအချိန်တွင် မြင်နိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It reflects light from the Sun",
+            "It creates its own light like a lamp",
+            "It has no connection to light at all",
+            "It glows because it is very cold",
+          ],
+          optionsMy: [
+            "နေမှ အလင်းရောင်ကို ရောင်ပြန်ဟပ်ခြင်း",
+            "မီးအိမ်ကဲ့သို့ မိမိကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "အလွန်အေးမြသောကြောင့် တောက်ပခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai shines a torch at a wall through a narrow gap between two books and sees a straight beam of light. What does this best demonstrate?",
+          questionMy:
+              "နှင်းဝေသည် စာအုပ်နှစ်အုပ်ကြား ကျဉ်းမြောင်းသော ကွက်လပ်တစ်ခုကို ဖြတ်၍ တံခါးလိပ်မီးဖြင့် နံရံဆီသို့ ထိုးလိုက်သောအခါ ဖြောင့်တန်းသော အလင်းရောင်ရှုးလ်ကို မြင်ရသည်။ ၎င်းက အဘယ်အရာကို အကောင်းဆုံး သရုပ်ပြသနည်း။",
+          optionsEn: [
+            "Light travels in straight lines",
+            "Light always bends around corners",
+            "Light cannot pass through gaps",
+            "Light only travels at night",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+            "အလင်းရောင်သည် အမြဲတမ်း ထောင့်များအား ကွေ့ဝင်ခြင်း",
+            "အလင်းရောင်သည် ကွက်လပ်များကို ဖြတ်သန်းနိုင်မည်မဟုတ်ခြင်း",
+            "အလင်းရောင်သည် ညအချိန်တွင်သာ ခရီးသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match the Light Vocabulary",
+      titleMy: "အလင်းရောင် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w17-dm-1",
+          termEn: "Light source",
+          termMy: "အလင်းရင်းမြစ် (Light source)",
+          matchEn: "Something that gives out its own light",
+          matchMy: "မိမိကိုယ်ပိုင် အလင်းရောင်ကို ထုတ်လွှတ်ပေးသောအရာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w17-dm-2",
+          termEn: "Transparent",
+          termMy: "ပွင့်လင်းမြင်သာသော (Transparent)",
+          matchEn:
+              "Allowing almost all light to pass through, like clear glass",
+          matchMy:
+              "မှန်ကြည်လင်ကဲ့သို့ အလင်းရောင်အားလုံးနီးပါး ဖြတ်သန်းခွင့်ပြုသော",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w17-dm-3",
+          termEn: "Opaque",
+          termMy: "မမြင်သာသော (Opaque)",
+          matchEn: "Blocking all light from passing through",
+          matchMy: "အလင်းရောင် ဖြတ်သန်းမှု အားလုံးကို ပိတ်ဆို့သော",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w17-dm-4",
+          termEn: "Translucent",
+          termMy: "အနည်းငယ် ပွင့်လင်းသော (Translucent)",
+          matchEn:
+              "Allowing some light through but scattering it, like frosted glass",
+          matchMy:
+              "ဆီးနင်း မှန်ကဲ့သို့ အလင်းရောင်အနည်းငယ်ကို ဖြတ်သန်းခွင့်ပြုသော်လည်း ပြန့်ကျဲစေသော",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w17-dm-5",
+          termEn: "Beam",
+          termMy: "အလင်းရောင်တန်း (Beam)",
+          matchEn: "A narrow stream of light travelling in one direction",
+          matchMy:
+              "တစ်ခုတည်းသော ဦးတည်ရာသို့ ခရီးသွားသော ကျဉ်းမြောင်းသည့် အလင်းရောင်စီး",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w17-dm-6",
+          termEn: "Luminous",
+          termMy: "အလင်းရောင် ထုတ်လွှတ်သော (Luminous)",
+          matchEn: "Giving out its own light",
+          matchMy: "မိမိကိုယ်ပိုင် အလင်းရောင်ကို ထုတ်လွှတ်ပေးသော",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Light Source or Not a Light Source?",
+      titleMy: "စီစစ်ကြမည် - အလင်းရင်းမြစ်လား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Light source", "Not a light source"],
+        bucketsMy: ["အလင်းရင်းမြစ်", "အလင်းရင်းမြစ် မဟုတ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w17-sort-1",
+            labelEn: "The Sun",
+            labelMy: "နေ",
+            correctBucketEn: "Light source",
+            correctBucketMy: "အလင်းရင်းမြစ်",
+          ),
+          SortingItem(
+            id: "y6sci-w17-sort-2",
+            labelEn: "The Moon",
+            labelMy: "လ",
+            correctBucketEn: "Not a light source",
+            correctBucketMy: "အလင်းရင်းမြစ် မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w17-sort-3",
+            labelEn: "A burning candle",
+            labelMy: "မီးလောင်နေသော ဖယောင်းတိုင်",
+            correctBucketEn: "Light source",
+            correctBucketMy: "အလင်းရင်းမြစ်",
+          ),
+          SortingItem(
+            id: "y6sci-w17-sort-4",
+            labelEn: "A mirror",
+            labelMy: "မှန်",
+            correctBucketEn: "Not a light source",
+            correctBucketMy: "အလင်းရင်းမြစ် မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w17-sort-5",
+            labelEn: "A firefly",
+            labelMy: "မှိုင်းမီးပိုး",
+            correctBucketEn: "Light source",
+            correctBucketMy: "အလင်းရင်းမြစ်",
+          ),
+          SortingItem(
+            id: "y6sci-w17-sort-6",
+            labelEn: "A shiny spoon",
+            labelMy: "တောက်ပသော ဇွန်း",
+            correctBucketEn: "Not a light source",
+            correctBucketMy: "အလင်းရင်းမြစ် မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Torch Experiment",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ တံခါးလိပ်မီး စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Torch Experiment",
+        titleMy: "နှင်းဝေ၏ တံခါးလိပ်မီး စမ်းသပ်မှု",
+        passageEn:
+            "During a power cut one evening, Hnin Wai and her brother play with a torch, shining it around their dark living room. She notices that wherever she points the torch, the beam of light always travels in a perfectly straight line -- when she tries to bend it around the corner of a bookshelf without moving the torch itself, the light simply cannot reach the hidden side.\n\nCurious, Hnin Wai tests different materials by holding them in front of the torch. A sheet of clear plastic lets almost all the light through, letting her see a clear, bright circle on the wall -- this material is transparent. A piece of cardboard blocks the light completely, creating a dark, sharp-edged shadow -- this material is opaque. A thin paper napkin lets some light through, but it spreads out and softens, glowing gently rather than shining clearly -- this material is translucent.\n\nHer brother asks why the Moon seems to shine brightly at night if it is not actually a light source itself. Hnin Wai explains what she learned in class: the Moon has no light of its own, but its surface reflects sunlight back towards Earth, just like how the torch's light bounces off the wall and back into their eyes. She writes in her notebook that even though we cannot always see light travelling, testing it with a torch and everyday materials reveals that it always moves in straight lines until something blocks, scatters, or reflects it.",
+        passageMy:
+            "ညနေခင်းတစ်ခုတွင် ဓာတ်အားပြတ်တောက်နေစဉ် နှင်းဝေနှင့် ညီလေးသည် တံခါးလိပ်မီးဖြင့် ကစားကြပြီး ၎င်းတို့၏ မှောင်နေသော ဧည့်ခန်းတွင် ထိုးလှမ်းကစားကြသည်။ တံခါးလိပ်မီးကို မည်သည့်ဘက်သို့ ညွှန်ပြသည်ဖြစ်စေ အလင်းရောင်တန်းသည် အမြဲတမ်း အလွန်ဖြောင့်တန်းသော လမ်းကြောင်းဖြင့် ခရီးသွားနေသည်ကို သတိပြုမိသည် - တံခါးလိပ်မီးကိုယ်တိုင်ကို မရွှေ့ဘဲ စာအုပ်စင်၏ ထောင့်ကို ဖြတ်၍ ကွေးကြည့်ရာ ဝှက်ထားသော ဘက်သို့ အလင်းရောင် လုံးဝ မရောက်နိုင်ပါ။\n\nစိတ်ဝင်စားသောကြောင့် နှင်းဝေသည် တံခါးလိပ်မီးရှေ့တွင် ပစ္စည်းအမျိုးမျိုးကို ကိုင်ဆောင်၍ စမ်းသပ်သည်။ ကြည်လင်သော ပလတ်စတစ်စာရွက်တစ်ခုက အလင်းရောင်အားလုံးနီးပါးကို ဖြတ်သန်းခွင့်ပေးပြီး နံရံပေါ်တွင် ကြည်လင်တောက်ပသော စက်ဝိုင်းတစ်ခု မြင်ရသည် - ဤပစ္စည်းသည် ပွင့်လင်းမြင်သာသည်။ ကတ်ထူတစ်ချပ်က အလင်းရောင်ကို လုံးဝ ပိတ်ဆို့ပြီး မှောင်ကျပ်၊ အနားထက်သော အရိပ်တစ်ခု ဖြစ်ပေါ်စေသည် - ဤပစ္စည်းသည် မမြင်သာသည်။ ပါးလွှာသော စက္ကူပဲ့ပြင်တစ်ခုက အလင်းရောင်အနည်းငယ်ကို ဖြတ်သန်းခွင့်ပေးသော်လည်း ပြန့်ကျဲပြီး ကြည်လင်စွာ တောက်ပမည့်အစား နူးညံ့စွာ တောက်ပသည် - ဤပစ္စည်းသည် အနည်းငယ် ပွင့်လင်းသည်။\n\nညီလေးက လသည် တကယ့်အလင်းရင်းမြစ်တစ်ခုတည်း မဟုတ်ပါလျက် ညအချိန်တွင် တောက်ပစွာ ထွန်းလင်းနေပုံရသည်မှာ အဘယ်ကြောင့်နည်းဟု မေးလိုက်သည်။ နှင်းဝေသည် အတန်းတွင် သင်ယူခဲ့သည်ကို ရှင်းပြသည် - လတွင် ၎င်း၏ကိုယ်ပိုင် အလင်းရောင် မရှိသော်လည်း ၎င်း၏ မျက်နှာပြင်သည် နေရောင်ကို ကမ္ဘာဘက်သို့ ပြန်ရောင်ပြန်ဟပ်ပေးခြင်းဖြစ်ကြောင်း - တံခါးလိပ်မီး၏ အလင်းရောင် နံရံမှ ပြန်ခုန်ကာ ၎င်းတို့ မျက်လုံးထဲသို့ ပြန်ရောက်လာသည်ကဲ့သို့ပင်ဖြစ်သည်။ အလင်းရောင် ခရီးသွားနေသည်ကို အမြဲတွေ့မြင်နိုင်ချေမရှိသော်လည်း တံခါးလိပ်မီးနှင့် နေ့စဉ်ပစ္စည်းများဖြင့် စမ်းသပ်ခြင်းက ၎င်းသည် တစ်ခုခုက ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မလုပ်မချင်း အမြဲတမ်း ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားနေကြောင်း ဖော်ထုတ်ပြသကြောင်း မှတ်စုတွင် ရေးမှတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happens when Hnin Wai tries to bend the torch's beam around the bookshelf?",
+            questionMy:
+                "တံခါးလိပ်မီး၏ အလင်းရောင်တန်းကို စာအုပ်စင်ပတ်လည် ကွေးရန် ကြိုးစားသောအခါ အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "The light cannot reach the hidden side",
+              "The light bends easily around the corner",
+              "The light disappears completely",
+              "The light becomes brighter",
+            ],
+            optionsMy: [
+              "အလင်းရောင်သည် ဝှက်ထားသော ဘက်သို့ မရောက်နိုင်ခြင်း",
+              "အလင်းရောင်သည် ထောင့်ကို လွယ်ကူစွာ ကွေ့ဝင်ခြင်း",
+              "အလင်းရောင် လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+              "အလင်းရောင် ပိုတောက်ပလာခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which material lets almost all the torch's light through?",
+            questionMy:
+                "တံခါးလိပ်မီး၏ အလင်းရောင်အားလုံးနီးပါးကို ဖြတ်သန်းခွင့်ပြုသော ပစ္စည်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Clear plastic",
+              "Cardboard",
+              "A thick blanket",
+              "A wooden board",
+            ],
+            optionsMy: [
+              "ကြည်လင်သော ပလတ်စတစ်",
+              "ကတ်ထူ",
+              "ထူထပ်သော စောင်",
+              "သစ်သားပျဉ်ပြား",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What kind of shadow does the cardboard create?",
+            questionMy: "ကတ်ထူသည် မည်သည့်အမျိုးအစား အရိပ် ဖန်တီးပေးသနည်း။",
+            optionsEn: [
+              "A dark, sharp-edged shadow",
+              "No shadow at all",
+              "A bright, glowing shadow",
+              "A colourful rainbow",
+            ],
+            optionsMy: [
+              "မှောင်ကျပ်၊ အနားထက်သော အရိပ်",
+              "အရိပ် လုံးဝမရှိခြင်း",
+              "တောက်ပ ထွန်းလင်းသော အရိပ်",
+              "အရောင်စုံ သက်တံ့",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai explain why the Moon appears to shine at night?",
+            questionMy:
+                "လသည် ညအချိန်တွင် တောက်ပပုံရသည်ကို နှင်းဝေ မည်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "The Moon reflects sunlight back towards Earth",
+              "The Moon creates its own light like the Sun",
+              "The Moon has no connection to light at all",
+              "The Moon only shines during the day",
+            ],
+            optionsMy: [
+              "လသည် နေရောင်ကို ကမ္ဘာဘက်သို့ ပြန်ရောင်ပြန်ဟပ်ပေးခြင်း",
+              "လသည် နေကဲ့သို့ ၎င်း၏ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+              "လသည် အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "လသည် နေ့ချင်းသာ တောက်ပခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai conclude light always does until something blocks, scatters, or reflects it?",
+            questionMy:
+                "တစ်ခုခုက ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မလုပ်မချင်း အလင်းရောင်သည် အမြဲတမ်း အဘယ်အရာ ပြုလုပ်ကြောင်း နှင်းဝေ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "It moves in straight lines",
+              "It moves in circles",
+              "It stops moving entirely",
+              "It changes colour randomly",
+            ],
+            optionsMy: [
+              "ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+              "စက်ဝိုင်းများဖြင့် ခရီးသွားခြင်း",
+              "လုံးဝ ရပ်တန့်သွားခြင်း",
+              "ကျပန်း အရောင်ပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w17-d5",
+      dayNumber: 5,
+      titleEn: "Light Travel Round-Up",
+      titleMy: "အလင်းရောင် ခရီးသွားပုံ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which material would you expect to be translucent?",
+          questionMy:
+              "အနည်းငယ် ပွင့်လင်းသည်ဟု မျှော်လင့်ရသော ပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Frosted glass",
+            "Clear glass",
+            "A brick wall",
+            "A metal door",
+          ],
+          optionsMy: [
+            "ဆီးနင်း မှန်",
+            "ကြည်လင်သော မှန်",
+            "အုတ်နံရံ",
+            "သတ္တု တံခါး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a torch beam form a sharp shadow behind an opaque object?",
+          questionMy:
+              "မမြင်သာသော အရာတစ်ခု၏ နောက်ကွယ်တွင် တံခါးလိပ်မီးရောင်တန်းသည် အနားထက်သော အရိပ် ဖြစ်ပေါ်စေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Light travels in straight lines and cannot pass through the object",
+            "Light bends around opaque objects",
+            "Opaque objects create their own light",
+            "Shadows have nothing to do with light",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားပြီး ထိုအရာကို ဖြတ်သန်း၍ မရနိုင်ခြင်း",
+            "အလင်းရောင်သည် မမြင်သာသော အရာများပတ်လည် ကွေ့ဝင်ခြင်း",
+            "မမြင်သာသော အရာများသည် ၎င်းတို့၏ ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "အရိပ်များသည် အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Is the Moon a light source?",
+          questionMy: "လသည် အလင်းရင်းမြစ်တစ်ခုလား။",
+          optionsEn: [
+            "No, it reflects light from the Sun",
+            "Yes, it creates its own light",
+            "It has no connection to light",
+            "Only during the day",
+          ],
+          optionsMy: [
+            "မဟုတ်ပါ၊ နေမှ အလင်းရောင်ကို ရောင်ပြန်ဟပ်ခြင်းသာ",
+            "ဟုတ်ပါသည်၊ ၎င်း၏ ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "နေ့ချင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly lists the three material categories tested in Hnin Wai's experiment?",
+          questionMy:
+              "နှင်းဝေ၏ စမ်းသပ်မှုတွင် စမ်းသပ်ခဲ့သော ပစ္စည်းအမျိုးအစား သုံးခုကို မှန်ကန်စွာ ဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Transparent, translucent, and opaque",
+            "Loud, quiet, and silent",
+            "Hot, warm, and cold",
+            "Solid, liquid, and gas",
+          ],
+          optionsMy: [
+            "ပွင့်လင်းမြင်သာသော၊ အနည်းငယ်ပွင့်လင်းသောနှင့် မမြင်သာသော",
+            "အသံကျယ်၊ တိတ်ဆိတ်၊ လုံးဝတိတ်ဆိတ်",
+            "ပူ၊ နွေးထွေး၊ အေး",
+            "အစိုင်အခဲ၊ အရည်၊ ဓာတ်ငွေ့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's torch experiment teach about light?",
+          questionMy:
+              "နှင်းဝေ၏ တံခါးလိပ်မီး စမ်းသပ်မှုသည် အလင်းရောင်အကြောင်း သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light travels in straight lines until it is blocked, scattered, or reflected",
+            "Light always bends around every object",
+            "Light cannot be blocked by anything",
+            "Light only exists at night",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မခံရမချင်း ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+            "အလင်းရောင်သည် အမြဲတမ်း အရာတိုင်းပတ်လည် ကွေ့ဝင်ခြင်း",
+            "အလင်းရောင်ကို မည်သည့်အရာကမျှ ပိတ်ဆို့၍ မရနိုင်ခြင်း",
+            "အလင်းရောင်သည် ညအချိန်တွင်သာ ရှိနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 5, Week 18: "Shadows and Light Blocking"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek18 = CourseWeekDef(
+  id: "course-year6-science-w18",
+  weekNumber: 18,
+  titleEn: "Shadows and Light Blocking",
+  titleMy: "အရိပ်များနှင့် အလင်းရောင် ပိတ်ဆို့ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w18-d1",
+      dayNumber: 1,
+      titleEn: "How Shadows Form",
+      titleMy: "အရိပ်များ ဖြစ်ပေါ်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What causes a shadow to form?",
+          questionMy: "အရိပ်တစ်ခု ဖြစ်ပေါ်လာသည်မှာ အဘယ်အရာကြောင့်နည်း။",
+          optionsEn: [
+            "An opaque object blocking light from passing through",
+            "Light bending around an object",
+            "Sound waves bouncing off an object",
+            "Heat escaping from an object",
+          ],
+          optionsMy: [
+            "မမြင်သာသော အရာတစ်ခုက အလင်းရောင် ဖြတ်သန်းမှုကို ပိတ်ဆို့ခြင်း",
+            "အလင်းရောင်သည် အရာတစ်ခုပတ်လည် ကွေ့ဝင်ခြင်း",
+            "အသံလှိုင်းများ အရာတစ်ခုမှ ပြန်ခုန်ခြင်း",
+            "အရာတစ်ခုမှ အပူထွက်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a shadow become longer when the light source is lower in the sky?",
+          questionMy:
+              "အလင်းရင်းမြစ်သည် ကောင်းကင်တွင် နိမ့်နေသောအခါ အရိပ် ပိုရှည်လာသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Light rays hit the object at a shallower angle, stretching the shadow further",
+            "The object physically grows taller",
+            "Shadows always stay exactly the same length",
+            "The light source stops working",
+          ],
+          optionsMy: [
+            "အလင်းရောင်ရှုးလ်များသည် ရှားရှားပါးပါး ထောင့်ဖြင့် အရာကို ထိတွေ့ပြီး အရိပ်ကို ပိုဆန့်ထုတ်ပေးခြင်း",
+            "အရာဝတ္ထုသည် ရုပ်ပိုင်းဆိုင်ရာ ပိုမြင့်လာခြင်း",
+            "အရိပ်များသည် အမြဲတမ်း အတိအကျ တူညီသော အလျား ရှိနေခြင်း",
+            "အလင်းရင်းမြစ် အလုပ်လုပ်ခြင်း ရပ်တန့်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is the Sun's shadow shortest around midday?",
+          questionMy:
+              "နေ့လယ်ခန့်တွင် နေ၏အရိပ် အတိုဆုံးဖြစ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The Sun is highest in the sky at that time",
+            "The Sun disappears at midday",
+            "Objects shrink at midday",
+            "Shadows always stay the same length all day",
+          ],
+          optionsMy: [
+            "ထိုအချိန်တွင် နေသည် ကောင်းကင်တွင် အမြင့်ဆုံး ရှိနေခြင်း",
+            "နေ့လယ်ခန့်တွင် နေ ပျောက်ကွယ်သွားခြင်း",
+            "နေ့လယ်ခန့်တွင် အရာဝတ္ထုများ ကျုံ့ငယ်သွားခြင်း",
+            "အရိပ်များသည် တစ်နေ့လုံး အမြဲတမ်း တူညီသော အလျား ရှိနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What shape is a shadow generally similar to?",
+          questionMy:
+              "အရိပ်တစ်ခုသည် ယေဘူယျအားဖြင့် မည်သည့်ပုံစံနှင့် ဆင်တူသနည်း။",
+          optionsEn: [
+            "The outline of the object blocking the light",
+            "A perfect circle, no matter the object",
+            "A random shape unrelated to the object",
+            "The colour of the light source",
+          ],
+          optionsMy: [
+            "အလင်းရောင်ကို ပိတ်ဆို့နေသော အရာဝတ္ထု၏ ပုံသဏ္ဍာန်",
+            "အရာဝတ္ထုနှင့်မသက်ဆိုင်ဘဲ အမြဲတမ်း စက်ဝိုင်းစစ်စစ်",
+            "အရာဝတ္ထုနှင့် မဆက်စပ်သော ကျပန်း ပုံသဏ္ဍာန်",
+            "အလင်းရင်းမြစ်၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai measures her own shadow every hour during a sunny school day and records the results in a table. What pattern would she most likely observe?",
+          questionMy:
+              "နှင်းဝေသည် နေသာသော ကျောင်းနေ့တစ်ခုတွင် တစ်နာရီစီ မိမိ၏အရိပ်ကို တိုင်းတာပြီး ဇယားထဲသို့ ရလဒ်များကို မှတ်တမ်းတင်သည်။ ၎င်း အဖြစ်များဆုံး တွေ့ရမည့် ပုံစံမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The shadow shortens toward midday, then lengthens again in the afternoon",
+            "The shadow stays exactly the same length all day",
+            "The shadow disappears completely at noon",
+            "The shadow gets longer and longer all day with no change",
+          ],
+          optionsMy: [
+            "အရိပ်သည် နေ့လယ်ခန့်ဆီသို့ တိုလာပြီး ညနေခင်းတွင် ထပ်ရှည်လာခြင်း",
+            "အရိပ်သည် တစ်နေ့လုံး အတိအကျ တူညီသော အလျား ရှိနေခြင်း",
+            "အရိပ်သည် နေ့လယ်တွင် လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+            "အရိပ်သည် ပြောင်းလဲမှုမရှိဘဲ တစ်နေ့လုံး ရှည်လာနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match the Shadow Vocabulary",
+      titleMy: "အရိပ် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w18-dm-1",
+          termEn: "Shadow",
+          termMy: "အရိပ် (Shadow)",
+          matchEn: "A dark area formed when an object blocks light",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခုက အလင်းရောင်ကို ပိတ်ဆို့သောအခါ ဖြစ်ပေါ်လာသော မှောင်ကျပ်သည့်နေရာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w18-dm-2",
+          termEn: "Sundial",
+          termMy: "နေနာရီ (Sundial)",
+          matchEn: "A device that tells the time using the Sun's shadow",
+          matchMy: "နေ၏အရိပ်ကို အသုံးပြု၍ အချိန်ကို ဖော်ပြသော ကိရိယာ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w18-dm-3",
+          termEn: "Angle",
+          termMy: "ထောင့် (Angle)",
+          matchEn: "The direction light travels in relative to an object",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခုနှင့် နှိုင်းယှဉ်၍ အလင်းရောင် ခရီးသွားသော ဦးတည်ချက်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w18-dm-4",
+          termEn: "Eclipse",
+          termMy: "နေလ ကြတ်ခြင်း (Eclipse)",
+          matchEn:
+              "When one object blocks light from reaching another, such as the Moon blocking sunlight",
+          matchMy:
+              "လက နေရောင်ကို ပိတ်ဆို့သကဲ့သို့ အရာတစ်ခုက အလင်းရောင် ကျရောက်မှုကို ပိတ်ဆို့ခြင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w18-dm-5",
+          termEn: "Silhouette",
+          termMy: "အရိပ်ပုံစံ (Silhouette)",
+          matchEn:
+              "The dark outline shape of an object seen against a bright background",
+          matchMy:
+              "တောက်ပသော နောက်ခံရှေ့တွင် မြင်ရသော အရာဝတ္ထု၏ မှောင်ကျပ်သည့် ပုံသဏ္ဍာန်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w18-dm-6",
+          termEn: "Midday",
+          termMy: "နေ့လယ်ခန့် (Midday)",
+          matchEn: "The time when the Sun is highest and shadows are shortest",
+          matchMy: "နေသည် အမြင့်ဆုံးရှိပြီး အရိပ်များ အတိုဆုံးဖြစ်သော အချိန်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Longer Shadow or Shorter Shadow?",
+      titleMy: "စီစစ်ကြမည် - အရိပ်ရှည်လား၊ အရိပ်တိုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Longer shadow", "Shorter shadow"],
+        bucketsMy: ["အရိပ်ရှည်", "အရိပ်တို"],
+        items: [
+          SortingItem(
+            id: "y6sci-w18-sort-1",
+            labelEn: "Early morning, when the Sun is low",
+            labelMy: "နေနိမ့်နေသော မနက်စောစော",
+            correctBucketEn: "Longer shadow",
+            correctBucketMy: "အရိပ်ရှည်",
+          ),
+          SortingItem(
+            id: "y6sci-w18-sort-2",
+            labelEn: "Midday, when the Sun is high",
+            labelMy: "နေမြင့်နေသော နေ့လယ်ခန့်",
+            correctBucketEn: "Shorter shadow",
+            correctBucketMy: "အရိပ်တို",
+          ),
+          SortingItem(
+            id: "y6sci-w18-sort-3",
+            labelEn: "Late afternoon, when the Sun is low again",
+            labelMy: "နေနိမ့်ပြန်နေသော ညနေခင်း",
+            correctBucketEn: "Longer shadow",
+            correctBucketMy: "အရိပ်ရှည်",
+          ),
+          SortingItem(
+            id: "y6sci-w18-sort-4",
+            labelEn: "A lamp held directly above an object",
+            labelMy: "အရာဝတ္ထုတစ်ခု အပေါ်တွင် တိုက်ရိုက် ကိုင်ထားသော မီးအိမ်",
+            correctBucketEn: "Shorter shadow",
+            correctBucketMy: "အရိပ်တို",
+          ),
+          SortingItem(
+            id: "y6sci-w18-sort-5",
+            labelEn: "A lamp held low near the ground",
+            labelMy: "မြေပြင်အနီးတွင် နိမ့်စွာ ကိုင်ထားသော မီးအိမ်",
+            correctBucketEn: "Longer shadow",
+            correctBucketMy: "အရိပ်ရှည်",
+          ),
+          SortingItem(
+            id: "y6sci-w18-sort-6",
+            labelEn: "The Sun directly overhead",
+            labelMy: "တိုက်ရိုက်အထက်တွင် ရှိနေသော နေ",
+            correctBucketEn: "Shorter shadow",
+            correctBucketMy: "အရိပ်တို",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Shadow Clock",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အရိပ်နာရီ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Shadow Clock",
+        titleMy: "နှင်းဝေ၏ အရိပ်နာရီ",
+        passageEn:
+            "For a weekend science project, Hnin Wai plants a straight stick upright in the school garden and decides to trace the tip of its shadow with chalk every hour, starting at eight in the morning and finishing at four in the afternoon. At eight o'clock, the shadow stretches long across the ground, pointing away from the low morning Sun.\n\nAs the hours pass, Hnin Wai notices the shadow steadily shortening, reaching its shortest length at noon, when the Sun sits almost directly overhead. After midday, she watches the shadow grow longer again, this time pointing in the opposite direction as the Sun moves lower in the afternoon sky. By four o'clock, her chalk marks trace a curved path on the ground, similar to the shape of a fan spreading outward from the stick.\n\nHer teacher explains that ancient civilisations used exactly this principle to build sundials, telling the time from the position and length of a shadow long before mechanical clocks existed. Hnin Wai realises that her simple stick-and-chalk experiment recreates thousands of years of human observation, connecting her earlier lesson on how light travels in straight lines to a real, practical tool people once relied on every day.",
+        passageMy:
+            "စနေ၊ တနင်္ဂနွေ သိပ္ပံစီမံကိန်းအတွက် နှင်းဝေသည် ကျောင်းဥယျာဉ်တွင် တန်းလန်းသော တုတ်တစ်ချောင်းကို ဒေါင်လိုက် စိုက်ပြီး မနက် ရှစ်နာရီမှ ညနေ လေးနာရီအထိ တစ်နာရီတစ်ကြိမ် ၎င်း၏ အရိပ်ထိပ်ကို လေးထောက်စောက်ဖြင့် ခြေရာခံရန် ဆုံးဖြတ်လိုက်သည်။ ရှစ်နာရီအချိန်တွင် အရိပ်သည် နေနိမ့်နေသော နံနက် နေရောင်နှင့် ဆန့်ကျင်ဘက်သို့ ညွှန်ပြလျက် မြေပြင်ပေါ်တွင် ရှည်လျားစွာ ဆန့်ထွက်နေသည်။\n\nနာရီများ ကုန်လွန်လာသည်နှင့်အမျှ နှင်းဝေသည် အရိပ်သည် တဖြည်းဖြည်း တိုလာပြီး နေသည် ခေါင်းပေါ်တွင် ဒေါင်လိုက်နီးပါး ရှိနေသော နေ့လည်ခန့်တွင် အတိုဆုံးရောက်သည်ကို သတိပြုမိသည်။ နေ့လည်ခန့်ပြီးနောက် ညနေခင်း ကောင်းကင်တွင် နေ ပိုနိမ့်လာသည်နှင့်အမျှ ဤအကြိမ်တွင် ဆန့်ကျင်ဘက်သို့ ညွှန်ပြလျက် အရိပ် ထပ်ရှည်လာသည်ကို ကြည့်ရှုသည်။ ညနေ လေးနာရီအထိ ၎င်း၏ ဓနူသတ္တုတံ အမှတ်အသားများသည် တုတ်ချောင်းမှ ပြင်ပသို့ ပြန့်ကားနေသော ပန်ကာပုံသဏ္ဍာန်နှင့် ဆင်တူသော ကွေးသောလမ်းကြောင်းတစ်ခုကို မြေပြင်ပေါ်တွင် ခြေရာခံပေးသည်။\n\nရှေးသက္ကရာဇ်များက ဤသဘောတရားကို အတိအကျ အသုံးပြု၍ စက်ပစ္စည်း နာရီများ ပေါ်ပေါက်မလာမီ အရိပ်တည်နေရာနှင့် အလျားမှ အချိန်ကို ဖော်ပြသော နေနာရီများကို တည်ဆောက်ခဲ့ကြောင်း ဆရာမ ရှင်းပြသည်။ မိမိ၏ ရိုးရှင်းသော တုတ်ချောင်းနှင့် လေးထောက်စောက် စမ်းသပ်မှုသည် အလင်းရောင် ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားပုံအကြောင်း မိမိ၏ ယခင်သင်ခန်းစာကို လူတို့ တစ်ချိန်က နေ့စဉ် မှီခိုအားထားခဲ့သည့် တကယ့်လက်တွေ့ကျသော ကိရိယာတစ်ခုနှင့် ဆက်စပ်ပေးလျက် နှစ်ပေါင်းထောင်ချီ လူသား၏ လေ့လာချက်ကို ပြန်လည် တည်ဆောက်ပေးကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai use to trace the shadow's tip every hour?",
+            questionMy:
+                "တစ်နာရီစီ အရိပ်ထိပ်ကို ခြေရာခံရန် နှင်းဝေ အဘယ်အရာကို အသုံးပြုသနည်း။",
+            optionsEn: ["Chalk", "A camera", "A ruler only", "Paint"],
+            optionsMy: ["လေးထောက်စောက်", "ကင်မရာ", "ပေတံသာ", "ဆေးရည်"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "When is the shadow at its shortest length?",
+            questionMy: "အရိပ်သည် မည်သည့်အချိန်တွင် အတိုဆုံးဖြစ်သနည်း။",
+            optionsEn: [
+              "At noon, when the Sun is highest",
+              "At eight in the morning",
+              "At four in the afternoon",
+              "It never changes length",
+            ],
+            optionsMy: [
+              "နေမြင့်နေသော နေ့လည်ခန့်တွင်",
+              "မနက် ရှစ်နာရီတွင်",
+              "ညနေ လေးနာရီတွင်",
+              "အလျား ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What shape do Hnin Wai's chalk marks trace by the end of the day?",
+            questionMy:
+                "နေ့ကုန်ချိန်တွင် နှင်းဝေ၏ လေးထောက်စောက် အမှတ်အသားများသည် မည်သည့်ပုံသဏ္ဍာန်ကို ခြေရာခံပေးသနည်း။",
+            optionsEn: [
+              "A curved, fan-like path",
+              "A perfect straight line",
+              "A perfect square",
+              "No pattern at all",
+            ],
+            optionsMy: [
+              "ကွေးသော၊ ပန်ကာနှင့်ဆင်တူသော လမ်းကြောင်း",
+              "အတိအကျ ဖြောင့်တန်းသော မျဉ်း",
+              "အတိအကျ လေးထောင့်ကွက်",
+              "ပုံစံ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What ancient device did people build using this same shadow principle?",
+            questionMy:
+                "ဤအရိပ်သဘောတရားအတူတူကို အသုံးပြု၍ လူတို့ တည်ဆောက်ခဲ့သော ရှေးကိရိယာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "A sundial",
+              "A telescope",
+              "A microscope",
+              "A compass",
+            ],
+            optionsMy: [
+              "နေနာရီ",
+              "အလှမ်းကြည့်မှန်ပြောင်း",
+              "အဏုစုံကိရိယာ",
+              "အရပ်ညွှန်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What earlier lesson does this shadow experiment connect to, according to Hnin Wai?",
+            questionMy:
+                "ဤအရိပ် စမ်းသပ်မှုသည် နှင်းဝေ၏အလို မည်သည့် ယခင်သင်ခန်းစာနှင့် ဆက်စပ်ပေးသနည်း။",
+            optionsEn: [
+              "How light travels in straight lines",
+              "The circulatory system",
+              "Classification keys",
+              "Micro-organisms",
+            ],
+            optionsMy: [
+              "အလင်းရောင် ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားပုံ",
+              "သွေးလည်ပတ်မှု စနစ်",
+              "အုပ်စုခွဲ သော့ချက်များ",
+              "အဏုဇီဝဖြစ်စဉ်များ",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w18-d5",
+      dayNumber: 5,
+      titleEn: "Shadows Round-Up",
+      titleMy: "အရိပ်များ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What blocks light to create a shadow?",
+          questionMy:
+              "အရိပ်တစ်ခု ဖန်တီးရန် အလင်းရောင်ကို အဘယ်အရာက ပိတ်ဆို့သနည်း။",
+          optionsEn: [
+            "An opaque object",
+            "A transparent object",
+            "Sound waves",
+            "Heat",
+          ],
+          optionsMy: [
+            "မမြင်သာသော အရာဝတ္ထု",
+            "ပွင့်လင်းမြင်သာသော အရာဝတ္ထု",
+            "အသံလှိုင်းများ",
+            "အပူ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do shadows get longer in the late afternoon?",
+          questionMy:
+              "ညနေခင်း စောစောတွင် အရိပ်များ ရှည်လာသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The Sun sits lower in the sky, hitting objects at a shallower angle",
+            "The Sun disappears entirely",
+            "Objects physically grow bigger",
+            "Shadows always stay exactly the same length",
+          ],
+          optionsMy: [
+            "နေသည် ကောင်းကင်တွင် ပိုနိမ့်နေပြီး အရာဝတ္ထုများကို ရှားရှားပါးပါး ထောင့်ဖြင့် ထိတွေ့ခြင်း",
+            "နေ လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+            "အရာဝတ္ထုများ ရုပ်ပိုင်းဆိုင်ရာ ကြီးလာခြင်း",
+            "အရိပ်များသည် အမြဲတမ်း အတိအကျ တူညီသော အလျား ရှိနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did ancient civilisations use shadows for, according to Hnin Wai's teacher?",
+          questionMy:
+              "နှင်းဝေ၏ ဆရာမအလို ရှေးသက္ကရာဇ်များသည် အရိပ်များကို အဘယ်အတွက် အသုံးပြုခဲ့သနည်း။",
+          optionsEn: [
+            "Telling the time using sundials",
+            "Predicting the weather",
+            "Growing crops faster",
+            "Cooking food",
+          ],
+          optionsMy: [
+            "နေနာရီများဖြင့် အချိန်ကို ဖော်ပြရန်",
+            "ရာသီဥတု ခန့်မှန်းရန်",
+            "သီးနှံများ ပိုမြန်စွာ စိုက်ပျိုးရန်",
+            "အစားအစာ ချက်ပြုတ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What shape does a shadow generally resemble?",
+          questionMy:
+              "အရိပ်တစ်ခုသည် ယေဘူယျအားဖြင့် မည်သည့်ပုံစံနှင့် ဆင်တူသနည်း။",
+          optionsEn: [
+            "The outline of the object blocking the light",
+            "A perfect circle regardless of the object",
+            "The colour of the sky",
+            "A random, unrelated shape",
+          ],
+          optionsMy: [
+            "အလင်းရောင်ကို ပိတ်ဆို့နေသော အရာဝတ္ထု၏ ပုံသဏ္ဍာန်",
+            "အရာဝတ္ထုနှင့်မသက်ဆိုင်ဘဲ အမြဲတမ်း စက်ဝိုင်းစစ်စစ်",
+            "ကောင်းကင်၏ အရောင်",
+            "မဆက်စပ်သော ကျပန်း ပုံသဏ္ဍာန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's shadow clock experiment teach?",
+          questionMy:
+              "နှင်းဝေ၏ အရိပ်နာရီ စမ်းသပ်မှုသည် သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A shadow's length and position change predictably as the Sun's angle changes through the day",
+            "Shadows appear randomly with no connection to the Sun",
+            "Shadows only exist at midnight",
+            "Shadow length has nothing to do with light travelling in straight lines",
+          ],
+          optionsMy: [
+            "တစ်နေ့တာအတွင်း နေ၏ထောင့် ပြောင်းလဲလာသည်နှင့်အမျှ အရိပ်၏ အလျားနှင့် တည်နေရာသည် ခန့်မှန်းနိုင်စွာ ပြောင်းလဲခြင်း",
+            "အရိပ်များသည် နေနှင့် ဘာမျှ ဆက်စပ်မှုမရှိဘဲ ကျပန်း ပေါ်ပေါက်ခြင်း",
+            "အရိပ်များသည် သန်းခေါင်ယံတွင်သာ ရှိနေခြင်း",
+            "အရိပ်၏ အလျားသည် အလင်းရောင် ဖြောင့်တန်းစွာ ခရီးသွားခြင်းနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 5, Week 19: "Reflection and How We See"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek19 = CourseWeekDef(
+  id: "course-year6-science-w19",
+  weekNumber: 19,
+  titleEn: "Reflection and How We See",
+  titleMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့် မျက်စိဖြင့်မြင်ပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w19-d1",
+      dayNumber: 1,
+      titleEn: "How Reflection Lets Us See",
+      titleMy: "ရောင်ပြန်ဟပ်ခြင်းက ကျွန်ုပ်တို့ကို မည်သို့ မြင်စေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "How do we see most objects around us that are not light sources?",
+          questionMy:
+              "အလင်းရင်းမြစ်မဟုတ်သော ကျွန်ုပ်တို့ ပတ်ဝန်းကျင်ရှိ အများစုသော အရာများကို မည်သို့ မြင်ရသနည်း။",
+          optionsEn: [
+            "Light bounces off them and travels into our eyes",
+            "Objects create their own light",
+            "Our eyes send out light to touch objects",
+            "We cannot see objects that are not light sources",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ၎င်းတို့မှ ပြန်ခုန်ပြီး ကျွန်ုပ်တို့ မျက်လုံးထဲသို့ ခရီးသွားခြင်း",
+            "အရာဝတ္ထုများက ၎င်းတို့ ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "ကျွန်ုပ်တို့ မျက်လုံးများက အရာဝတ္ထုများကို ထိတွေ့ရန် အလင်းရောင် ထုတ်လွှတ်ခြင်း",
+            "အလင်းရင်းမြစ် မဟုတ်သော အရာဝတ္ထုများကို ကျွန်ုပ်တို့ လုံးဝ မမြင်နိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is reflection?",
+          questionMy: "ရောင်ပြန်ဟပ်ခြင်း ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light bouncing off a surface",
+            "Light being absorbed completely by a surface",
+            "Light bending around a corner",
+            "Light disappearing entirely",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင်တစ်ခုမှ အလင်းရောင် ပြန်ခုန်ခြင်း",
+            "မျက်နှာပြင်တစ်ခုက အလင်းရောင်ကို လုံးဝ စုပ်ယူခြင်း",
+            "အလင်းရောင်သည် ထောင့်တစ်ခုပတ်လည် ကွေ့ဝင်ခြင်း",
+            "အလင်းရောင် လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do mirrors produce such a clear reflection compared to a piece of paper?",
+          questionMy:
+              "မှန်များသည် စက္ကူတစ်ချပ်နှင့် နှိုင်းယှဉ်လျှင် ဤမျှ ကြည်လင်သော ရောင်ပြန်ဟပ်မှုကို ဖန်တီးပေးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Mirrors have a very smooth surface that reflects light in an organised way",
+            "Mirrors absorb all the light instead of reflecting it",
+            "Paper reflects light more clearly than mirrors",
+            "Mirrors do not reflect light at all",
+          ],
+          optionsMy: [
+            "မှန်များတွင် အလွန်ချောမွတ်သော မျက်နှာပြင်ရှိပြီး အလင်းရောင်ကို စနစ်တကျ ရောင်ပြန်ဟပ်ပေးခြင်း",
+            "မှန်များသည် အလင်းရောင်ကို ရောင်ပြန်ဟပ်မည့်အစား လုံးဝ စုပ်ယူခြင်း",
+            "စက္ကူသည် မှန်ထက် အလင်းရောင်ကို ပိုကြည်လင်စွာ ရောင်ပြန်ဟပ်ခြင်း",
+            "မှန်များသည် အလင်းရောင်ကို လုံးဝ မရောင်ပြန်ဟပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which part of the eye first lets light enter?",
+          questionMy:
+              "မျက်လုံး၏ မည်သည့်အစိတ်အပိုင်းက အလင်းရောင်ကို ဦးစွာ ဝင်ရောက်ခွင့်ပြုသနည်း။",
+          optionsEn: [
+            "The pupil",
+            "The eyebrow",
+            "The eyelash",
+            "The eyelid alone",
+          ],
+          optionsMy: ["မျက်ဆန်", "မျက်ခုံးမွှေး", "မျက်တောင်", "မျက်ခမ်းသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai sits in a completely dark room with no light source at all. Even though her eyes are open and healthy, she cannot see anything. What does this best show?",
+          questionMy:
+              "နှင်းဝေသည် အလင်းရင်းမြစ် လုံးဝမရှိသော အမှောင်ခန်းတွင် ထိုင်နေသည်။ ၎င်း၏ မျက်လုံးများ ဖွင့်ထားပြီး ကျန်းမာသော်လည်း ဘာမျှ မမြင်နိုင်ပါ။ ၎င်းက အဘယ်အရာကို အကောင်းဆုံး ပြသနေသနည်း။",
+          optionsEn: [
+            "Seeing requires light to reflect off objects and enter the eye",
+            "The eyes create their own light source",
+            "Darkness has nothing to do with light",
+            "Healthy eyes can always see even without any light",
+          ],
+          optionsMy: [
+            "မြင်ခြင်းသည် အရာဝတ္ထုများမှ ရောင်ပြန်ဟပ်ပြီး မျက်လုံးထဲသို့ ဝင်ရောက်ရန် အလင်းရောင် လိုအပ်ခြင်း",
+            "မျက်လုံးများက ၎င်းတို့၏ ကိုယ်ပိုင် အလင်းရင်းမြစ် ဖန်တီးခြင်း",
+            "အမှောင်သည် အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ကျန်းမာသော မျက်လုံးများသည် အလင်းရောင် လုံးဝမရှိသော်လည်း အမြဲတမ်း မြင်နိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match the Reflection and Eye Vocabulary",
+      titleMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့် မျက်လုံး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w19-dm-1",
+          termEn: "Reflection",
+          termMy: "ရောင်ပြန်ဟပ်ခြင်း (Reflection)",
+          matchEn: "Light bouncing off a surface",
+          matchMy: "မျက်နှာပြင်တစ်ခုမှ အလင်းရောင် ပြန်ခုန်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w19-dm-2",
+          termEn: "Pupil",
+          termMy: "မျက်ဆန် (Pupil)",
+          matchEn: "The opening in the eye that lets light in",
+          matchMy:
+              "အလင်းရောင်ကို ဝင်ရောက်ခွင့်ပြုသော မျက်လုံးရှိ ပွင့်နေသောနေရာ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w19-dm-3",
+          termEn: "Retina",
+          termMy: "ရက်တီးနား (Retina)",
+          matchEn: "The layer at the back of the eye that senses light",
+          matchMy: "အလင်းရောင်ကို ခံစားနိုင်သော မျက်လုံးနောက်ခြေရှိ လွှာ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w19-dm-4",
+          termEn: "Mirror",
+          termMy: "မှန် (Mirror)",
+          matchEn: "A smooth surface that produces a very clear reflection",
+          matchMy:
+              "အလွန်ကြည်လင်သော ရောင်ပြန်ဟပ်မှုကို ဖန်တီးပေးသော ချောမွတ်သည့် မျက်နှာပြင်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w19-dm-5",
+          termEn: "Periscope",
+          termMy: "ပါရီစကုပ် (Periscope)",
+          matchEn: "A device using mirrors to see around obstacles",
+          matchMy:
+              "အတားအဆီးများပတ်လည် မြင်နိုင်ရန် မှန်များကို အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w19-dm-6",
+          termEn: "Smooth surface",
+          termMy: "ချောမွတ်သော မျက်နှာပြင် (Smooth surface)",
+          matchEn:
+              "A flat, even surface that reflects light in an organised way",
+          matchMy:
+              "အလင်းရောင်ကို စနစ်တကျ ရောင်ပြန်ဟပ်ပေးသော ပြားညီသော မျက်နှာပြင်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Reflector or Poor Reflector?",
+      titleMy: "စီစစ်ကြမည် - ကောင်းစွာ ရောင်ပြန်ဟပ်နိုင်သလား၊ မကောင်းစွာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good reflector", "Poor reflector"],
+        bucketsMy: [
+          "ကောင်းစွာ ရောင်ပြန်ဟပ်နိုင်သည်",
+          "မကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w19-sort-1",
+            labelEn: "A flat mirror",
+            labelMy: "ပြားညီသော မှန်",
+            correctBucketEn: "Good reflector",
+            correctBucketMy: "ကောင်းစွာ ရောင်ပြန်ဟပ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w19-sort-2",
+            labelEn: "A rough towel",
+            labelMy: "ကြမ်းတမ်းသော မျက်နှာသုတ်ပုဝါ",
+            correctBucketEn: "Poor reflector",
+            correctBucketMy: "မကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "y6sci-w19-sort-3",
+            labelEn: "Still, calm water",
+            labelMy: "တည်ငြိမ်သော ရေ",
+            correctBucketEn: "Good reflector",
+            correctBucketMy: "ကောင်းစွာ ရောင်ပြန်ဟပ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w19-sort-4",
+            labelEn: "A woollen jumper",
+            labelMy: "သိုးမွှေးအင်္ကျီ",
+            correctBucketEn: "Poor reflector",
+            correctBucketMy: "မကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+          SortingItem(
+            id: "y6sci-w19-sort-5",
+            labelEn: "Polished metal",
+            labelMy: "တောက်ပအောင်ပွတ်ထားသော သတ္တု",
+            correctBucketEn: "Good reflector",
+            correctBucketMy: "ကောင်းစွာ ရောင်ပြန်ဟပ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w19-sort-6",
+            labelEn: "A cardboard box",
+            labelMy: "ကတ်ထူသေတ္တာ",
+            correctBucketEn: "Poor reflector",
+            correctBucketMy: "မကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Mirror Maze",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ မှန် ဝင့်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Mirror Maze",
+        titleMy: "နှင်းဝေ၏ မှန် ဝင့်ခြင်း",
+        passageEn:
+            "At a science fair visiting Nova School, Hnin Wai steps into a small mirror maze, where mirrors have been carefully angled to send her reflection bouncing left, right, and back again before it finally reaches her eyes from an unexpected direction. Confused for a moment, she remembers her earlier lesson: light does not curve on its own, but a mirror can redirect it in a new straight path each time it bounces.\n\nAfter the maze, a science demonstrator shows Hnin Wai a simple periscope made from a cardboard tube and two small mirrors fixed at angles inside it. Looking through the bottom opening, Hnin Wai can see over the top of a tall crate without standing on tiptoe -- light from the scene above bounces off the top mirror, travels down the tube, bounces off the second mirror, and reaches her eye at the bottom.\n\nThe demonstrator explains that seeing anything at all, from a mirror maze to an ordinary classroom, depends on the same basic process: light leaves a source, bounces off (or passes through) objects, and enters the eye, where the pupil lets it in and the retina senses it. Hnin Wai leaves the fair with a new appreciation for something she had never questioned before -- that the simple act of looking around a room is really countless straight lines of light, bouncing and bending exactly where mirrors and surfaces send them.",
+        passageMy:
+            "Nova School သို့ လာရောက်လည်ပတ်သော သိပ္ပံပြပွဲတွင် နှင်းဝေသည် မှန်ငယ်ဝင့်တစ်ခုအတွင်းသို့ ဝင်ရောက်သည်၊ ၎င်းတွင် ၎င်း၏ ရောင်ပြန်ဟပ်မှုကို ဘယ်ဘက်၊ ညာဘက်ကို ခုန်ပြီး နောက်ဆုံးတွင် မမျှော်လင့်ထားသော ဦးတည်ချက်တစ်ခုမှ ၎င်း၏ မျက်လုံးထဲသို့ ရောက်ရှိစေရန် မှန်များကို ဂရုတစိုက် ထောင့်ချသတ်မှတ်ထားသည်။ ခဏတာ ရှုပ်ထွေးသွားပြီးနောက် ၎င်း၏ ယခင်သင်ခန်းစာကို သတိရသည် - အလင်းရောင်သည် မိမိကိုယ်တိုင် မကွေ့ဝင်ပါ၊ သို့သော် မှန်တစ်ခုက ၎င်းကို ခုန်တိုင်း ဖြောင့်တန်းသော လမ်းကြောင်းအသစ်တစ်ခုသို့ ပြန်လမ်းညွှန်ပေးနိုင်သည်။\n\nဝင့်ကို ကျော်ဖြတ်ပြီးနောက် သိပ္ပံသရုပ်ပြသူသည် ကတ်ထူပြွန်တစ်ခုနှင့် ၎င်း၏အတွင်းတွင် ထောင့်ချ၍ ထောက်ထားသော မှန်ငယ်နှစ်ချပ်ဖြင့် ပြုလုပ်ထားသော ရိုးရှင်းသော ပါရီစကုပ်တစ်ခုကို နှင်းဝေအား ပြသည်။ အောက်ခြေမှ ကွက်လပ်ကို ကြည့်ကာ နှင်းဝေသည် ခြေဖမိုးမနင်းဘဲ မြင့်မားသော ကျည်ရင်းသေတ္တာတစ်ခု၏ ထိပ်ကို ကျော်၍ မြင်နိုင်သည် - အထက်ရှိ မြင်ကွင်းမှ အလင်းရောင်သည် ထိပ်ဆုံးမှန်မှ ပြန်ခုန်ပြီး ပြွန်ထဲသို့ ဆင်းသွားကာ ဒုတိယမှန်မှ ပြန်ခုန်ကာ အောက်ခြေ၌ ၎င်း၏ မျက်လုံးထဲသို့ ရောက်ရှိသည်။\n\nမှန်ငယ်ဝင့်တစ်ခုမှ အလွယ်တကူ သာမန်စာသင်ခန်းတစ်ခုအထိ မည်သည့်အရာကိုမဆို မြင်ခြင်းသည် အခြေခံ ဖြစ်စဉ်တူတူပေါ်တွင် မူတည်ကြောင်း သရုပ်ပြသူ ရှင်းပြသည် - အလင်းရောင်သည် ရင်းမြစ်တစ်ခုမှ ထွက်ခွာပြီး အရာဝတ္ထုများမှ ပြန်ခုန်ခြင်း (သို့မဟုတ် ဖြတ်သန်းခြင်း) ပြီးနောက် မျက်လုံးထဲသို့ ဝင်ရောက်ကာ မျက်ဆန်က ဝင်ရောက်ခွင့်ပြုပြီး ရက်တီးနားက ၎င်းကို ခံစားရသည်။ ဤအရာကို ယခင်က မေးခွန်းထုတ်ဖူးခြင်း လုံးဝမရှိခဲ့သော နှင်းဝေသည် - အခန်းတစ်ခန်းပတ်လည်ကို ကြည့်ရှုသည့် ရိုးရှင်းသော လုပ်ရပ်သည် မှန်များနှင့် မျက်နှာပြင်များက ၎င်းတို့ကို ပို့ဆောင်ရာ အတိအကျနေရာများတွင် ခုန်ကာ ကွေ့ဝင်နေသော ရေတွက်၍မကုန်နိုင်လောက်အောင် ဖြောင့်တန်းသော အလင်းရောင်လိုင်းများသာ ဖြစ်ကြောင်း အသိတရားအသစ်တစ်ခုနှင့်အတူ ပြပွဲမှ ထွက်ခွာသွားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does the mirror maze do to Hnin Wai's reflection?",
+            questionMy:
+                "မှန်ငယ်ဝင့်သည် နှင်းဝေ၏ ရောင်ပြန်ဟပ်မှုကို အဘယ်သို့ ပြုလုပ်ပေးသနည်း။",
+            optionsEn: [
+              "Bounces it left, right, and back again before reaching her eyes",
+              "Makes it disappear completely",
+              "Turns it into a shadow",
+              "Has no effect on it at all",
+            ],
+            optionsMy: [
+              "မျက်လုံးထဲသို့ မရောက်မီ ဘယ်ဘက်၊ ညာဘက်သို့ ခုန်ခြင်း",
+              "လုံးဝ ပျောက်ကွယ်သွားစေခြင်း",
+              "အရိပ်အဖြစ် ပြောင်းလဲစေခြင်း",
+              "ဘာမျှ သက်ရောက်မှု မရှိစေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is the periscope made from?",
+            questionMy: "ပါရီစကုပ်ကို အဘယ်အရာဖြင့် ပြုလုပ်ထားသနည်း။",
+            optionsEn: [
+              "A cardboard tube and two small mirrors",
+              "Only glass",
+              "Only metal",
+              "Only wood",
+            ],
+            optionsMy: [
+              "ကတ်ထူပြွန်နှင့် မှန်ငယ်နှစ်ချပ်",
+              "မှန်သာ",
+              "သတ္တုသာ",
+              "သစ်သားသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What can Hnin Wai see using the periscope?",
+            questionMy: "ပါရီစကုပ်ကို အသုံးပြု၍ နှင်းဝေ မည်သို့မြင်နိုင်သနည်း။",
+            optionsEn: [
+              "Over the top of a tall crate without standing on tiptoe",
+              "Underwater objects only",
+              "Nothing at all",
+              "Only objects behind her",
+            ],
+            optionsMy: [
+              "ခြေဖမိုးမနင်းဘဲ မြင့်မားသော ကျည်ရင်းသေတ္တာတစ်ခု၏ ထိပ်ကို ကျော်၍",
+              "ရေအောက်ရှိ အရာဝတ္ထုများသာ",
+              "ဘာမျှ မမြင်နိုင်ခြင်း",
+              "၎င်း၏နောက်ကွယ်ရှိ အရာဝတ္ထုများသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the demonstrator, what basic process does all seeing depend on?",
+            questionMy:
+                "သရုပ်ပြသူအလို မြင်ခြင်းအားလုံးသည် မည်သည့် အခြေခံ ဖြစ်စဉ်ပေါ်တွင် မူတည်သနည်း။",
+            optionsEn: [
+              "Light leaving a source, bouncing off or passing through objects, and entering the eye",
+              "Sound waves entering the ear",
+              "Heat entering the skin",
+              "A process unrelated to light entirely",
+            ],
+            optionsMy: [
+              "အလင်းရောင်သည် ရင်းမြစ်တစ်ခုမှ ထွက်ခွာပြီး အရာဝတ္ထုများမှ ပြန်ခုန်ခြင်း သို့မဟုတ် ဖြတ်သန်းကာ မျက်လုံးထဲသို့ ဝင်ရောက်ခြင်း",
+              "အသံလှိုင်းများ နားထဲသို့ ဝင်ရောက်ခြင်း",
+              "အပူ အရေပြားထဲသို့ ဝင်ရောက်ခြင်း",
+              "အလင်းရောင်နှင့် လုံးဝ မဆက်စပ်သော ဖြစ်စဉ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What new appreciation does Hnin Wai leave the fair with?",
+            questionMy:
+                "ပြပွဲမှ ထွက်ခွာသည့်အခါ နှင်းဝေ ရရှိသော အသိတရားအသစ်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Looking around a room is really countless straight lines of light bouncing and bending",
+              "Light does not exist in ordinary rooms",
+              "Mirrors have no connection to how we see",
+              "Seeing requires no light at all",
+            ],
+            optionsMy: [
+              "အခန်းတစ်ခန်းပတ်လည်ကို ကြည့်ရှုခြင်းသည် ရေတွက်၍မကုန်နိုင်လောက်အောင် ဖြောင့်တန်းသော အလင်းရောင်လိုင်းများ ခုန်ကာ ကွေ့ဝင်နေခြင်းဖြစ်ခြင်း",
+              "သာမန်အခန်းများတွင် အလင်းရောင် လုံးဝ မရှိခြင်း",
+              "မှန်များသည် ကျွန်ုပ်တို့ မြင်ပုံနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "မြင်ခြင်းသည် အလင်းရောင် လုံးဝမလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w19-d5",
+      dayNumber: 5,
+      titleEn: "Reflection and Seeing Round-Up",
+      titleMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့် မြင်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does a mirror produce a clearer reflection than a rough towel?",
+          questionMy:
+              "မှန်တစ်ခုသည် ကြမ်းတမ်းသော မျက်နှာသုတ်ပုဝါထက် ပိုကြည်လင်သော ရောင်ပြန်ဟပ်မှုကို ဖန်တီးပေးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Its smooth surface reflects light in an organised way",
+            "It absorbs all the light instead",
+            "Rough surfaces always reflect better",
+            "Mirrors do not reflect light",
+          ],
+          optionsMy: [
+            "၎င်း၏ ချောမွတ်သော မျက်နှာပြင်သည် အလင်းရောင်ကို စနစ်တကျ ရောင်ပြန်ဟပ်ပေးခြင်း",
+            "အလင်းရောင်အားလုံးကို အစားထိုး စုပ်ယူခြင်း",
+            "ကြမ်းတမ်းသော မျက်နှာပြင်များသည် အမြဲတမ်း ပိုကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+            "မှန်များသည် အလင်းရောင်ကို မရောင်ပြန်ဟပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a periscope let someone see over a tall obstacle?",
+          questionMy:
+              "ပါရီစကုပ်တစ်ခုသည် မြင့်မားသော အတားအဆီးတစ်ခုကို ကျော်၍ လူတစ်ဦးအား မည်သို့ မြင်စေသနည်း။",
+          optionsEn: [
+            "Two angled mirrors redirect light down a tube to the viewer's eye",
+            "It creates its own light source",
+            "It removes the obstacle completely",
+            "It has no connection to light at all",
+          ],
+          optionsMy: [
+            "ထောင့်ချထားသော မှန်နှစ်ချပ်က အလင်းရောင်ကို ပြွန်တစ်လျှောက် ကြည့်ရှုသူ၏ မျက်လုံးဆီသို့ ပြန်လမ်းညွှန်ပေးခြင်း",
+            "၎င်း ကိုယ်ပိုင် အလင်းရင်းမြစ် ဖန်တီးခြင်း",
+            "အတားအဆီးကို လုံးဝ ဖယ်ရှားခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which part of the eye senses the light that has entered?",
+          questionMy:
+              "ဝင်ရောက်လာသော အလင်းရောင်ကို မျက်လုံး၏ မည်သည့်အစိတ်အပိုင်းက ခံစားသနည်း။",
+          optionsEn: ["The retina", "The eyebrow", "The eyelash", "The eyelid"],
+          optionsMy: ["ရက်တီးနား", "မျက်ခုံးမွှေး", "မျက်တောင်", "မျက်ခမ်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why could Hnin Wai not see anything in a completely dark room?",
+          questionMy:
+              "လုံးဝ အမှောင်ကျသော အခန်းတွင် နှင်းဝေ ဘာမျှ မမြင်နိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "There was no light to bounce off objects and enter her eyes",
+            "Her eyes were closed",
+            "The room was too small",
+            "Seeing does not require light",
+          ],
+          optionsMy: [
+            "အရာဝတ္ထုများမှ ပြန်ခုန်ပြီး ၎င်း၏ မျက်လုံးထဲသို့ ဝင်ရောက်ရန် အလင်းရောင် မရှိခြင်း",
+            "၎င်း၏ မျက်လုံးများ ပိတ်ထားခြင်း",
+            "အခန်းသည် အလွန်သေးငယ်ခြင်း",
+            "မြင်ခြင်းသည် အလင်းရောင် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on reflection and seeing teach?",
+          questionMy:
+              "ဤအပတ်စာ ရောင်ပြန်ဟပ်ခြင်းနှင့် မြင်ခြင်း သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Seeing depends on light travelling from a source, reflecting off objects, and entering the eye",
+            "Seeing has nothing to do with light",
+            "All surfaces reflect light equally well",
+            "Eyes create their own light to see with",
+          ],
+          optionsMy: [
+            "မြင်ခြင်းသည် ရင်းမြစ်တစ်ခုမှ ခရီးသွားပြီး အရာဝတ္ထုများမှ ရောင်ပြန်ဟပ်ကာ မျက်လုံးထဲသို့ ဝင်ရောက်သော အလင်းရောင်ပေါ်တွင် မူတည်ခြင်း",
+            "မြင်ခြင်းသည် အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "မျက်နှာပြင်အားလုံးသည် အညီအမျှ ကောင်းစွာ ရောင်ပြန်ဟပ်ခြင်း",
+            "မျက်လုံးများသည် ၎င်းတို့၏ ကိုယ်ပိုင် အလင်းရောင်ဖြင့် မြင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 5, Week 20 (Capstone): "Nova School Periscope
+// and Light Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek20 = CourseWeekDef(
+  id: "course-year6-science-w20",
+  weekNumber: 20,
+  titleEn: "Nova School Periscope and Light Studio",
+  titleMy: "Nova ကျောင်း ပါရီစကုပ်နှင့် အလင်းရောင် အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w20-d1",
+      dayNumber: 1,
+      titleEn: "Light, Shadows and Reflection Review",
+      titleMy:
+          "အလင်းရောင်၊ အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In what shape does light usually travel?",
+          questionMy:
+              "အလင်းရောင်သည် များသောအားဖြင့် မည်သည့်ပုံစံဖြင့် ခရီးသွားသနည်း။",
+          optionsEn: [
+            "Straight lines",
+            "Circles only",
+            "Zigzags only",
+            "It does not travel at all",
+          ],
+          optionsMy: [
+            "ဖြောင့်တန်းသော လမ်းကြောင်းများ",
+            "စက်ဝိုင်းများသာ",
+            "ဇစ်ဇက်များသာ",
+            "လုံးဝ မခရီးသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does an opaque object create a shadow?",
+          questionMy:
+              "မမြင်သာသော အရာဝတ္ထုတစ်ခုသည် အရိပ်တစ်ခု ဖန်တီးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It blocks light from passing through",
+            "It creates its own light",
+            "It reflects all light perfectly",
+            "It has no connection to light",
+          ],
+          optionsMy: [
+            "အလင်းရောင် ဖြတ်သန်းမှုကို ပိတ်ဆို့ခြင်း",
+            "၎င်း ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "အလင်းရောင်အားလုံးကို ပြီးပြည့်စုံစွာ ရောင်ပြန်ဟပ်ခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a periscope let someone see around a corner or over an obstacle?",
+          questionMy:
+              "ပါရီစကုပ်တစ်ခုသည် ထောင့်တစ်ခုပတ်လည် သို့မဟုတ် အတားအဆီးတစ်ခုကို ကျော်၍ လူတစ်ဦးအား မည်သို့ မြင်စေသနည်း။",
+          optionsEn: [
+            "Angled mirrors redirect light along a new path",
+            "It removes the obstacle",
+            "It bends light around corners without mirrors",
+            "It has no connection to light at all",
+          ],
+          optionsMy: [
+            "ထောင့်ချထားသော မှန်များက အလင်းရောင်ကို လမ်းကြောင်းအသစ်တစ်ခုသို့ ပြန်လမ်းညွှန်ပေးခြင်း",
+            "အတားအဆီးကို ဖယ်ရှားခြင်း",
+            "မှန်များမပါဘဲ အလင်းရောင်ကို ထောင့်များပတ်လည် ကွေ့ဝင်စေခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is the Sun's shadow shortest around midday?",
+          questionMy:
+              "နေ့လယ်ခန့်တွင် နေ၏အရိပ် အတိုဆုံးဖြစ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The Sun is highest in the sky at that time",
+            "The Sun disappears at midday",
+            "Shadows always stay the same length",
+            "Objects shrink at midday",
+          ],
+          optionsMy: [
+            "ထိုအချိန်တွင် နေသည် ကောင်းကင်တွင် အမြင့်ဆုံး ရှိနေခြင်း",
+            "နေ့လယ်ခန့်တွင် နေ ပျောက်ကွယ်သွားခြင်း",
+            "အရိပ်များသည် အမြဲတမ်း တူညီသော အလျား ရှိနေခြင်း",
+            "နေ့လယ်ခန့်တွင် အရာဝတ္ထုများ ကျုံ့ငယ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Hnin Wai's mirror maze experience teach about light and mirrors?",
+          questionMy:
+              "နှင်းဝေ၏ မှန်ငယ်ဝင့် အတွေ့အကြုံသည် အလင်းရောင်နှင့် မှန်များအကြောင်း အဘယ်အရာ သင်ကြားပေးသနည်း။",
+          optionsEn: [
+            "Mirrors can redirect light along new straight paths",
+            "Light always disappears in mazes",
+            "Mirrors absorb all light",
+            "Light cannot reflect more than once",
+          ],
+          optionsMy: [
+            "မှန်များသည် အလင်းရောင်ကို ဖြောင့်တန်းသော လမ်းကြောင်းအသစ်များသို့ ပြန်လမ်းညွှန်ပေးနိုင်ခြင်း",
+            "အလင်းရောင်သည် ဝင့်များတွင် အမြဲတမ်း ပျောက်ကွယ်သွားခြင်း",
+            "မှန်များသည် အလင်းရောင်အားလုံးကို စုပ်ယူခြင်း",
+            "အလင်းရောင်သည် တစ်ကြိမ်ထက်ပို၍ ရောင်ပြန်ဟပ်၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 5 Vocabulary",
+      titleMy: "Term 5 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w20-dm-1",
+          termEn: "Light source",
+          termMy: "အလင်းရင်းမြစ် (Light source)",
+          matchEn: "Something that gives out its own light",
+          matchMy: "မိမိကိုယ်ပိုင် အလင်းရောင်ကို ထုတ်လွှတ်ပေးသောအရာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w20-dm-2",
+          termEn: "Opaque",
+          termMy: "မမြင်သာသော (Opaque)",
+          matchEn: "Blocking all light from passing through",
+          matchMy: "အလင်းရောင် ဖြတ်သန်းမှု အားလုံးကို ပိတ်ဆို့သော",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w20-dm-3",
+          termEn: "Shadow",
+          termMy: "အရိပ် (Shadow)",
+          matchEn: "A dark area formed when an object blocks light",
+          matchMy:
+              "အရာဝတ္ထုတစ်ခုက အလင်းရောင်ကို ပိတ်ဆို့သောအခါ ဖြစ်ပေါ်လာသော မှောင်ကျပ်သည့်နေရာ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w20-dm-4",
+          termEn: "Reflection",
+          termMy: "ရောင်ပြန်ဟပ်ခြင်း (Reflection)",
+          matchEn: "Light bouncing off a surface",
+          matchMy: "မျက်နှာပြင်တစ်ခုမှ အလင်းရောင် ပြန်ခုန်ခြင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w20-dm-5",
+          termEn: "Periscope",
+          termMy: "ပါရီစကုပ် (Periscope)",
+          matchEn: "A device using mirrors to see around obstacles",
+          matchMy:
+              "အတားအဆီးများပတ်လည် မြင်နိုင်ရန် မှန်များကို အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w20-dm-6",
+          termEn: "Retina",
+          termMy: "ရက်တီးနား (Retina)",
+          matchEn: "The layer at the back of the eye that senses light",
+          matchMy: "အလင်းရောင်ကို ခံစားနိုင်သော မျက်လုံးနောက်ခြေရှိ လွှာ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Related to Shadows or Related to Reflection?",
+      titleMy:
+          "စီစစ်ကြမည် - အရိပ်နှင့်ဆိုင်သလား၊ ရောင်ပြန်ဟပ်ခြင်းနှင့်ဆိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Related to shadows", "Related to reflection"],
+        bucketsMy: ["အရိပ်နှင့်ဆိုင်သည်", "ရောင်ပြန်ဟပ်ခြင်းနှင့်ဆိုင်သည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w20-sort-1",
+            labelEn: "A sundial telling the time",
+            labelMy: "အချိန်ဖော်ပြသော နေနာရီ",
+            correctBucketEn: "Related to shadows",
+            correctBucketMy: "အရိပ်နှင့်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w20-sort-2",
+            labelEn: "Seeing your face in a mirror",
+            labelMy: "မှန်ထဲတွင် မိမိမျက်နှာကို မြင်ခြင်း",
+            correctBucketEn: "Related to reflection",
+            correctBucketMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w20-sort-3",
+            labelEn: "A tall tree blocking sunlight on the ground",
+            labelMy: "မြေပြင်ပေါ်တွင် နေရောင်ကို ပိတ်ဆို့သော သစ်ပင်ကြီး",
+            correctBucketEn: "Related to shadows",
+            correctBucketMy: "အရိပ်နှင့်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w20-sort-4",
+            labelEn: "A periscope's angled mirrors",
+            labelMy: "ပါရီစကုပ်၏ ထောင့်ချထားသော မှန်များ",
+            correctBucketEn: "Related to reflection",
+            correctBucketMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w20-sort-5",
+            labelEn: "A shadow puppet show behind a screen",
+            labelMy: "ကန့်လန့်ကာနောက်ကွယ်မှ အရိပ်ရုပ်သေး ပြပွဲ",
+            correctBucketEn: "Related to shadows",
+            correctBucketMy: "အရိပ်နှင့်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w20-sort-6",
+            labelEn: "Still water reflecting the sky",
+            labelMy: "ကောင်းကင်ကို ရောင်ပြန်ဟပ်နေသော တည်ငြိမ်သောရေ",
+            correctBucketEn: "Related to reflection",
+            correctBucketMy: "ရောင်ပြန်ဟပ်ခြင်းနှင့်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai Builds a Periscope",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ ပါရီစကုပ် တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai Builds a Periscope",
+        titleMy: "နှင်းဝေ ပါရီစကုပ် တည်ဆောက်ခြင်း",
+        passageEn:
+            "To close Term 5, Nova School holds a Light Studio where every group must build a working periscope and explain how it uses everything learned this term: straight-line light travel, shadows, and reflection. Hnin Wai's group starts by cutting two slits into opposite ends of a long cardboard tube, then carefully gluing a small mirror into each slit at a forty-five-degree angle.\n\nBefore testing it, Hnin Wai's teammate worries the periscope will not work because light cannot bend around the tube's corners. Hnin Wai reminds him of her mirror-maze lesson: light does not need to bend at all -- each mirror simply reflects it onto a new straight path, first down through the tube and then out toward the eye. When they finally test it behind a tall bookshelf, the periscope works perfectly, showing a clear view of the classroom on the other side.\n\nAt the studio's showcase, a younger student asks Hnin Wai's group why their periscope shows the room the right way round instead of upside down, unlike a lesson she remembers about the human eye flipping images. Hnin Wai explains that the two mirrors in a periscope flip the image twice -- once at the top, once at the bottom -- so the two flips cancel out, unlike the eye and brain, which only flip the image once before the brain corrects it. The younger student laughs and says she never expected shadows, mirrors, and eyeballs to connect into one single idea about how light moves through the world.",
+        passageMy:
+            "Term 5 ပြီးဆုံးရန် Nova School သည် အလင်းရောင် အလုပ်ရုံကို ကျင်းပပြီး အုပ်စုတိုင်းသည် အလုပ်လုပ်သော ပါရီစကုပ်တစ်ခု တည်ဆောက်ရမည်ဖြစ်ကာ ဤ Term အတွင်း သင်ယူခဲ့သမျှကို မည်သို့ အသုံးပြုကြောင်း ရှင်းပြရမည်ဖြစ်သည် - ဖြောင့်တန်းသော အလင်းရောင် ခရီးသွားမှု၊ အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်း။ နှင်းဝေ၏ အုပ်စုသည် ရှည်လျားသော ကတ်ထူပြွန်တစ်ခု၏ ဆန့်ကျင်ဘက် အစွန်းနှစ်ခုတွင် ဖြတ်ကွက် နှစ်ခု ဖြတ်ခြင်းဖြင့် စတင်ပြီး ဖြတ်ကွက်တစ်ခုစီတွင် မှန်ငယ်တစ်ချပ်ကို လေးဆယ့်ငါးဒီဂရီ ထောင့်ဖြင့် ဂရုတစိုက် ကပ်ကြသည်။\n\nစမ်းသပ်ခြင်းမပြုမီ နှင်းဝေ၏ အသင်းဖော်တစ်ဦးသည် ပြွန်၏ ထောင့်များပတ်လည်ကို အလင်းရောင် ကွေ့ဝင်၍မရနိုင်သောကြောင့် ပါရီစကုပ် အလုပ်မလုပ်နိုင်ဟု စိုးရိမ်သည်။ နှင်းဝေသည် ၎င်း၏ မှန်ငယ်ဝင့် သင်ခန်းစာကို ၎င်းအား သတိပေးသည် - အလင်းရောင်သည် လုံးဝ ကွေ့ဝင်ရန် မလိုအပ်ပါ - မှန်တစ်ချပ်စီက ၎င်းကို ဖြောင့်တန်းသော လမ်းကြောင်းအသစ်တစ်ခုသို့ ရောင်ပြန်ဟပ်ပေးရုံသာ၊ ဦးစွာ ပြွန်ထဲသို့ ဆင်းသွားပြီး ထို့နောက် မျက်လုံးဆီသို့ ထွက်လာခြင်းဖြစ်သည်။ မြင့်မားသော စာအုပ်စင်တစ်ခုနောက်ကွယ်တွင် နောက်ဆုံးအခါ စမ်းသပ်ကြည့်ရာ ပါရီစကုပ်သည် ပြီးပြည့်စုံစွာ အလုပ်လုပ်ပြီး ကျောင်းအခြားဘက်ရှိ စာသင်ခန်းကို ကြည်လင်စွာ မြင်နိုင်စေသည်။\n\nအလုပ်ရုံ ပြသပွဲတွင် ကျောင်းသူငယ်တစ်ဦးသည် လူ့မျက်လုံးက ပုံရိပ်ကို ပြောင်းပြန်ဖန်တီးကြောင်း မှတ်မိသော သင်ခန်းစာနှင့်မတူဘဲ ၎င်းတို့၏ ပါရီစကုပ်သည် အခန်းကို ခေါင်းလှန်နေမည့်အစား မှန်ကန်စွာ အဘယ်ကြောင့် ပြသနေကြောင်း နှင်းဝေ၏ အုပ်စုအား မေးမြန်းသည်။ နှင်းဝေသည် ပါရီစကုပ်ထဲရှိ မှန်နှစ်ချပ်သည် ပုံရိပ်ကို နှစ်ကြိမ် ပြောင်းပြန်ဖန်တီးကြောင်း - တစ်ကြိမ်ထိပ်တွင်၊ တစ်ကြိမ် အောက်ခြေတွင် - ထိုကြောင့် ပြောင်းပြန်နှစ်ကြိမ်သည် အချင်းချင်း ပြန်ဖျက်ပေးကြောင်း၊ မျက်လုံးနှင့် ဦးနှောက်မူ ဦးနှောက်က ပြင်ဆင်မီ တစ်ကြိမ်တည်း ပြောင်းပြန်ဖန်တီးကြောင်း ရှင်းပြသည်။ ကျောင်းသူငယ်သည် ရယ်မောပြီး အရိပ်များ၊ မှန်များနှင့် မျက်လုံးများသည် အလင်းရောင် ကမ္ဘာတစ်ဝှမ်း ရွေ့လျားပုံအကြောင်း အယူအဆတစ်ခုတည်းသို့ ဆက်စပ်လာမည်ဟု ဘယ်တော့မှ မျှော်လင့်မထားခဲ့ကြောင်း ပြောသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "At what angle does Hnin Wai's group glue the mirrors into the periscope tube?",
+            questionMy:
+                "ပါရီစကုပ်ပြွန်ထဲသို့ နှင်းဝေ၏ အုပ်စု မှန်များကို မည်သည့်ထောင့်ဖြင့် ကပ်ထားသနည်း။",
+            optionsEn: [
+              "Forty-five degrees",
+              "Ninety degrees",
+              "Zero degrees",
+              "One hundred and eighty degrees",
+            ],
+            optionsMy: [
+              "လေးဆယ့်ငါးဒီဂရီ",
+              "ကိုးဆယ်ဒီဂရီ",
+              "သုညဒီဂရီ",
+              "တစ်ရာရှစ်ဆယ်ဒီဂရီ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai say the periscope will still work even though light cannot bend?",
+            questionMy:
+                "အလင်းရောင် ကွေ့ဝင်၍မရသော်လည်း ပါရီစကုပ် ဆက်လက် အလုပ်လုပ်နိုင်ကြောင်း နှင်းဝေ ပြောသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Each mirror reflects the light onto a new straight path",
+              "Light does not need mirrors to travel through tubes",
+              "The tube itself bends light",
+              "The periscope creates its own light",
+            ],
+            optionsMy: [
+              "မှန်တစ်ချပ်စီက အလင်းရောင်ကို ဖြောင့်တန်းသော လမ်းကြောင်းအသစ်တစ်ခုသို့ ရောင်ပြန်ဟပ်ပေးခြင်း",
+              "ပြွန်များ ဖြတ်သန်းရန် အလင်းရောင်သည် မှန်များ မလိုအပ်ခြင်း",
+              "ပြွန်ကိုယ်တိုင်က အလင်းရောင်ကို ကွေ့ဝင်စေခြင်း",
+              "ပါရီစကုပ်က ၎င်း၏ ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Where does Hnin Wai's group test their periscope?",
+            questionMy:
+                "နှင်းဝေ၏ အုပ်စု မိမိတို့၏ ပါရီစကုပ်ကို မည်သည့်နေရာတွင် စမ်းသပ်ကြသနည်း။",
+            optionsEn: [
+              "Behind a tall bookshelf",
+              "Underwater",
+              "In complete darkness",
+              "Outside at night",
+            ],
+            optionsMy: [
+              "မြင့်မားသော စာအုပ်စင်တစ်ခုနောက်ကွယ်တွင်",
+              "ရေအောက်တွင်",
+              "လုံးဝ အမှောင်ထဲတွင်",
+              "ညနေ အပြင်ဘက်တွင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does the periscope show the room the right way round, unlike the eye which flips images once?",
+            questionMy:
+                "မျက်လုံးက ပုံရိပ်ကို တစ်ကြိမ်တည်း ပြောင်းပြန်ဖန်တီးသည်နှင့်မတူဘဲ ပါရီစကုပ်သည် အခန်းကို မှန်ကန်စွာ ပြသသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Its two mirrors flip the image twice, so the flips cancel out",
+              "It only has one mirror",
+              "It does not use light at all",
+              "It flips the image three times",
+            ],
+            optionsMy: [
+              "၎င်း၏ မှန်နှစ်ချပ်သည် ပုံရိပ်ကို နှစ်ကြိမ် ပြောင်းပြန်ဖန်တီးသောကြောင့် ပြောင်းပြန်ဖန်တီးမှုများ အချင်းချင်း ပြန်ဖျက်ခြင်း",
+              "မှန်တစ်ချပ်သာ ပါဝင်ခြင်း",
+              "အလင်းရောင်ကို လုံးဝ အသုံးမပြုခြင်း",
+              "ပုံရိပ်ကို သုံးကြိမ် ပြောင်းပြန်ဖန်တီးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the younger student realise by the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် ကျောင်းသူငယ် အဘယ်အရာ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "Shadows, mirrors, and eyeballs connect into one single idea about how light moves",
+              "Shadows and mirrors have nothing in common",
+              "Periscopes have no connection to eyes",
+              "Light does not exist inside a periscope",
+            ],
+            optionsMy: [
+              "အရိပ်များ၊ မှန်များနှင့် မျက်လုံးများသည် အလင်းရောင် ရွေ့လျားပုံအကြောင်း အယူအဆတစ်ခုတည်းသို့ ဆက်စပ်နေခြင်း",
+              "အရိပ်များနှင့် မှန်များတွင် တူညီသည့်အရာ မရှိခြင်း",
+              "ပါရီစကုပ်များသည် မျက်လုံးများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "ပါရီစကုပ်တစ်ခုအတွင်း အလင်းရောင် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone Challenge",
+      titleMy: "Term 5 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the three main ideas from Term 5 explains why the periscope needs no bending light?",
+          questionMy:
+              "ပါရီစကုပ်တွင် အလင်းရောင် ကွေ့ဝင်ရန် မလိုအပ်ကြောင်း ရှင်းပြသော Term 5 ၏ အဓိက အယူအဆသုံးခုအနက် တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light travels in straight lines",
+            "Shadows form behind opaque objects",
+            "The eye has a retina",
+            "Micro-organisms cause disease",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+            "အရိပ်များသည် မမြင်သာသော အရာဝတ္ထုများနောက်ကွယ်တွင် ဖြစ်ပေါ်ခြင်း",
+            "မျက်လုံးတွင် ရက်တီးနား ရှိခြင်း",
+            "အဏုဇီဝဖြစ်စဉ်များက ရောဂါဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a periscope's mirror let a person see over a tall obstacle?",
+          questionMy:
+              "ပါရီစကုပ်၏ မှန်သည် လူတစ်ဦးအား မြင့်မားသော အတားအဆီးတစ်ခုကို ကျော်၍ မည်သို့ မြင်စေသနည်း။",
+          optionsEn: [
+            "It reflects light onto a new straight path down the tube",
+            "It removes the obstacle",
+            "It creates its own light",
+            "It has no connection to light",
+          ],
+          optionsMy: [
+            "အလင်းရောင်ကို ပြွန်အောက်ရှိ ဖြောင့်တန်းသော လမ်းကြောင်းအသစ်တစ်ခုသို့ ရောင်ပြန်ဟပ်ပေးခြင်း",
+            "အတားအဆီးကို ဖယ်ရှားခြင်း",
+            "၎င်း ကိုယ်ပိုင် အလင်းရောင် ဖန်တီးခြင်း",
+            "အလင်းရောင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do the two mirrors in a periscope cancel out each other's image-flipping effect?",
+          questionMy:
+              "ပါရီစကုပ်ရှိ မှန်နှစ်ချပ်သည် တစ်ချပ်နှင့်တစ်ချပ် ပုံရိပ်ပြောင်းပြန် ဖန်တီးမှုကို အချင်းချင်း ပြန်ဖျက်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The image is flipped twice, so the flips cancel out",
+            "Only one mirror actually reflects light",
+            "Mirrors cannot flip images at all",
+            "The tube itself flips the image",
+          ],
+          optionsMy: [
+            "ပုံရိပ်သည် နှစ်ကြိမ် ပြောင်းပြန်ဖန်တီးခံရသောကြောင့် ပြောင်းပြန်ဖန်တီးမှုများ အချင်းချင်း ပြန်ဖျက်ခြင်း",
+            "မှန်တစ်ချပ်သာ အလင်းရောင်ကို အမှန်တကယ် ရောင်ပြန်ဟပ်ခြင်း",
+            "မှန်များသည် ပုံရိပ်ကို လုံးဝ ပြောင်းပြန် မဖန်တီးနိုင်ခြင်း",
+            "ပြွန်ကိုယ်တိုင်က ပုံရိပ်ကို ပြောင်းပြန်ဖန်တီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which earlier experiment from this term also relied on light travelling in straight lines to work?",
+          questionMy:
+              "ဤ Term မှ ယခင် စမ်းသပ်မှုတစ်ခု အလင်းရောင် ဖြောင့်တန်းစွာ ခရီးသွားခြင်းအပေါ် အလုပ်လုပ်ရန် မှီခိုအားထားခဲ့သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Hnin Wai's shadow clock experiment",
+            "Hnin Wai's bread experiment",
+            "Hnin Wai's cut-finger story",
+            "Hnin Wai's family tree project",
+          ],
+          optionsMy: [
+            "နှင်းဝေ၏ အရိပ်နာရီ စမ်းသပ်မှု",
+            "နှင်းဝေ၏ ပေါင်မုန့် စမ်းသပ်မှု",
+            "နှင်းဝေ၏ လက်ချောင်းရာ ပုံပြင်",
+            "နှင်းဝေ၏ မိသားစုစဉ် စီမံကိန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 5 -- light travel, shadows, and reflection?",
+          questionMy:
+              "Term 5 တစ်ခုလုံး - အလင်းရောင် ခရီးသွားခြင်း၊ အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်းကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light always travels in straight lines until it is blocked, scattered, or reflected",
+            "Light bends freely around every object",
+            "Shadows and reflections have nothing in common",
+            "Seeing requires no light at all",
+          ],
+          optionsMy: [
+            "အလင်းရောင်သည် ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မခံရမချင်း အမြဲတမ်း ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+            "အလင်းရောင်သည် အရာတိုင်းပတ်လည် လွတ်လပ်စွာ ကွေ့ဝင်ခြင်း",
+            "အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်းတွင် တူညီသည့်အရာ မရှိခြင်း",
+            "မြင်ခြင်းသည် အလင်းရောင် လုံးဝမလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm5 = CourseTermDef(
+  id: "course-year6-science-t5",
+  termNumber: 5,
+  titleEn: "Light",
+  titleMy: "အလင်းရောင်",
+  certificateTitleEn: "Light",
+  certificateTitleMy: "အလင်းရောင်",
+  weeks: [
+    _year6ScienceWeek17,
+    _year6ScienceWeek18,
+    _year6ScienceWeek19,
+    _year6ScienceWeek20,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 6, Week 21: "Circuits and Components"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek21 = CourseWeekDef(
+  id: "course-year6-science-w21",
+  weekNumber: 21,
+  titleEn: "Circuits and Components",
+  titleMy: "ဆားကစ်များနှင့် အစိတ်အပိုင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w21-d1",
+      dayNumber: 1,
+      titleEn: "Building a Complete Circuit",
+      titleMy: "ပြီးပြည့်စုံသော ဆားကစ် တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is an electrical circuit?",
+          questionMy: "လျှပ်စစ် ဆားကစ် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A complete loop that electricity can flow around",
+            "A single wire with no connections",
+            "A type of light source only",
+            "A container for storing water",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပြီးပြည့်စုံသော ကွင်းလုံး",
+            "ဆက်စပ်မှု မရှိသော ကြိုးတစ်ချောင်းတည်း",
+            "အလင်းရင်းမြစ်တစ်မျိုးသာ",
+            "ရေသိမ်းဆည်းရန် ခွက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a bulb not light up if there is a gap anywhere in the circuit?",
+          questionMy:
+              "ဆားကစ်တစ်ခုအတွင်း နေရာတစ်ခုတွင် ကွက်လပ်ရှိနေပါက မီးအိမ် မထွန်းလင်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Electricity cannot flow through a broken, incomplete loop",
+            "The bulb is always broken",
+            "Gaps make electricity flow faster",
+            "Circuits do not need to be complete",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အားသည် ကျိုးပဲ့နေသော၊ မပြီးစီးသေးသော ကွင်းလုံးတစ်ခုကို ဖြတ်သန်း၍ မစီးနိုင်ခြင်း",
+            "မီးအိမ်သည် အမြဲတမ်း ပျက်စီးနေခြင်း",
+            "ကွက်လပ်များက လျှပ်စစ်ဓာတ်အား ပိုမြန်စွာ စီးစေခြင်း",
+            "ဆားကစ်များသည် ပြီးပြည့်စုံရန် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the job of a battery in a circuit?",
+          questionMy: "ဆားကစ်တစ်ခုအတွင်း ဘက်ထရီ၏ တာဝန်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It provides the energy that pushes electricity around the circuit",
+            "It blocks electricity from flowing",
+            "It only lights up on its own",
+            "It has no function in a circuit",
+          ],
+          optionsMy: [
+            "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို တွန်းအားပေးသော စွမ်းအင် ပေးအပ်ခြင်း",
+            "လျှပ်စစ်ဓာတ်အား စီးဆင်းမှုကို ပိတ်ဆို့ခြင်း",
+            "၎င်းကိုယ်တိုင် တစ်ခုတည်း ထွန်းလင်းခြင်း",
+            "ဆားကစ်တစ်ခုအတွင်း လုပ်ဆောင်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the job of a switch in a circuit?",
+          questionMy: "ဆားကစ်တစ်ခုအတွင်း ခလုတ်၏ တာဝန်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It opens or closes the circuit to turn the flow of electricity on or off",
+            "It creates its own electricity",
+            "It only decorates the circuit",
+            "It permanently blocks electricity forever",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အား စီးဆင်းမှုကို ဖွင့် သို့မဟုတ် ပိတ်ရန် ဆားကစ်ကို ဖွင့် သို့မဟုတ် ပိတ်ပေးခြင်း",
+            "၎င်း ကိုယ်ပိုင် လျှပ်စစ်ဓာတ်အား ဖန်တီးခြင်း",
+            "ဆားကစ်ကို အလှဆင်ရန်သာ",
+            "လျှပ်စစ်ဓာတ်အားကို ထာဝစဉ် ပိတ်ဆို့ထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai connects a battery, a bulb, and wires into a loop, but the bulb stays dark. She checks and finds one wire is not touching the battery terminal. What should she do?",
+          questionMy:
+              "နှင်းဝေသည် ဘက်ထရီ၊ မီးအိမ်နှင့် ကြိုးများကို ကွင်းလုံးတစ်ခုအဖြစ် ချိတ်ဆက်သော်လည်း မီးအိမ် မထွန်းလင်းပါ။ စစ်ဆေးကြည့်ရာ ကြိုးတစ်ချောင်းသည် ဘက်ထရီ၏ ထိပ်ဖျားကို မထိတွေ့ကြောင်း တွေ့ရသည်။ ၎င်း အဘယ်သို့ ပြုလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Reconnect the wire so it firmly touches the battery terminal, completing the loop",
+            "Buy a completely new battery",
+            "Add a second bulb instead",
+            "Give up because the circuit can never work",
+          ],
+          optionsMy: [
+            "ကွင်းလုံးကို ပြီးစီးစေရန် ကြိုးကို ဘက်ထရီ၏ ထိပ်ဖျားကို ခိုင်ခိုင်မာမာ ထိတွေ့စေရန် ပြန်ချိတ်ဆက်ခြင်း",
+            "ဘက်ထရီအသစ် လုံးဝ ဝယ်ယူခြင်း",
+            "ဒုတိယ မီးအိမ်ကို အစားထိုးထည့်ခြင်း",
+            "ဆားကစ်သည် ဘယ်တော့မှ အလုပ်မလုပ်နိုင်ကြောင်း ယူဆ၍ လက်လျှော့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match the Circuit Vocabulary",
+      titleMy: "ဆားကစ် ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w21-dm-1",
+          termEn: "Circuit",
+          termMy: "ဆားကစ် (Circuit)",
+          matchEn: "A complete loop that electricity can flow around",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပြီးပြည့်စုံသော ကွင်းလုံး",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w21-dm-2",
+          termEn: "Battery",
+          termMy: "ဘက်ထရီ (Battery)",
+          matchEn: "A component that provides electrical energy",
+          matchMy: "လျှပ်စစ်စွမ်းအင် ပေးအပ်သော အစိတ်အပိုင်း",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w21-dm-3",
+          termEn: "Switch",
+          termMy: "ခလုတ် (Switch)",
+          matchEn: "A component that opens or closes a circuit",
+          matchMy: "ဆားကစ်ကို ဖွင့် သို့မဟုတ် ပိတ်ပေးသော အစိတ်အပိုင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w21-dm-4",
+          termEn: "Bulb",
+          termMy: "မီးအိမ် (Bulb)",
+          matchEn:
+              "A component that gives out light when electricity flows through it",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ဖြတ်သန်းသောအခါ အလင်းရောင် ပေးသော အစိတ်အပိုင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w21-dm-5",
+          termEn: "Wire",
+          termMy: "ကြိုး (Wire)",
+          matchEn: "A conductor that connects circuit components together",
+          matchMy: "ဆားကစ် အစိတ်အပိုင်းများကို ချိတ်ဆက်ပေးသော လျှပ်ကူးပစ္စည်း",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w21-dm-6",
+          termEn: "Conductor",
+          termMy: "လျှပ်ကူးပစ္စည်း (Conductor)",
+          matchEn:
+              "A material, such as metal, that lets electricity flow through it easily",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား လွယ်ကူစွာ ဖြတ်သန်းနိုင်စေသော သတ္တုကဲ့သို့သော ပစ္စည်း",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Conductor or Insulator?",
+      titleMy: "စီစစ်ကြမည် - လျှပ်ကူးပစ္စည်းလား၊ လျှပ်စစ်မကူးပစ္စည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Conductor", "Insulator"],
+        bucketsMy: ["လျှပ်ကူးပစ္စည်း", "လျှပ်စစ်မကူးပစ္စည်း"],
+        items: [
+          SortingItem(
+            id: "y6sci-w21-sort-1",
+            labelEn: "Copper wire",
+            labelMy: "ကြေးနီကြိုး",
+            correctBucketEn: "Conductor",
+            correctBucketMy: "လျှပ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "y6sci-w21-sort-2",
+            labelEn: "Rubber",
+            labelMy: "ရာဘာ",
+            correctBucketEn: "Insulator",
+            correctBucketMy: "လျှပ်စစ်မကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "y6sci-w21-sort-3",
+            labelEn: "Iron nail",
+            labelMy: "သံချောင်း",
+            correctBucketEn: "Conductor",
+            correctBucketMy: "လျှပ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "y6sci-w21-sort-4",
+            labelEn: "Plastic ruler",
+            labelMy: "ပလတ်စတစ် ပေတံ",
+            correctBucketEn: "Insulator",
+            correctBucketMy: "လျှပ်စစ်မကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "y6sci-w21-sort-5",
+            labelEn: "Aluminium foil",
+            labelMy: "အလူမီနီယမ် ချောင်းငယ်",
+            correctBucketEn: "Conductor",
+            correctBucketMy: "လျှပ်ကူးပစ္စည်း",
+          ),
+          SortingItem(
+            id: "y6sci-w21-sort-6",
+            labelEn: "Wooden ruler",
+            labelMy: "သစ်သား ပေတံ",
+            correctBucketEn: "Insulator",
+            correctBucketMy: "လျှပ်စစ်မကူးပစ္စည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Torch Repair",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Torch Repair",
+        titleMy: "နှင်းဝေ၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း",
+        passageEn:
+            "When her old torch stops working during a power cut, Hnin Wai decides to open its plastic case and investigate rather than simply throwing it away. Inside, she finds two batteries, a small bulb, a metal spring, and a switch, all connected by short strips of metal running along the inside of the case.\n\nRemembering her science lesson, Hnin Wai reasons that if any single connection in this loop is broken, the whole circuit will fail and the bulb will stay dark, even if the batteries themselves still have plenty of energy left. She carefully checks each connection point and eventually finds that one of the metal strips has come loose from the spring, leaving a tiny but complete gap in the circuit.\n\nUsing a small screwdriver, Hnin Wai gently bends the metal strip back so it firmly touches the spring again, closing the gap. When she slides the switch and presses it, the bulb glows brightly at once. Her father, watching from across the room, asks how she knew where to look, and Hnin Wai explains that a circuit is only as reliable as its weakest connection -- everything from the battery's energy to the bulb's glow depends on one single, complete, unbroken loop.",
+        passageMy:
+            "ဓာတ်အားပြတ်တောက်နေစဉ် ၎င်း၏ တံခါးလိပ်မီးဟောင်း အလုပ်မလုပ်တော့သောအခါ နှင်းဝေသည် ရိုးရိုးရှင်းရှင်း ပစ်ပယ်မည့်အစား ၎င်း၏ ပလတ်စတစ်အခွံကို ဖွင့်ကြည့်ရန် ဆုံးဖြတ်လိုက်သည်။ အတွင်းတွင် ဘက်ထရီနှစ်ခု၊ မီးအိမ်ငယ်တစ်ခု၊ သတ္တုစပရင်တစ်ခုနှင့် ခလုတ်တစ်ခု၊ အားလုံးကို အခွံအတွင်းဘက်တစ်လျှောက် ပြေးနေသော သတ္တုအစင်းငယ်များဖြင့် ချိတ်ဆက်ထားသည်ကို တွေ့ရသည်။\n\n၎င်း၏ သိပ္ပံသင်ခန်းစာကို သတိရလျက် နှင်းဝေသည် ဤကွင်းလုံးရှိ ချိတ်ဆက်မှုတစ်ခုချင်းစီအနက် တစ်ခုမျှ ကျိုးပဲ့ခဲ့ပါက ဘက်ထရီများ ကိုယ်တိုင်တွင် စွမ်းအင် အလုံအလောက်ကျန်ရှိနေသေးသော်လည်း ဆားကစ်တစ်ခုလုံး ပျက်ကျပြီး မီးအိမ် မထွန်းလင်းတော့ကြောင်း ကောက်ချက်ချသည်။ ၎င်းသည် ချိတ်ဆက်မှုနေရာတစ်ခုချင်းစီကို ဂရုတစိုက် စစ်ဆေးပြီး နောက်ဆုံးတွင် သတ္တုအစင်းတစ်ခုသည် စပရင်မှ ကွာသွားကာ ဆားကစ်တွင် သေးငယ်သော်လည်း ပြီးပြည့်စုံသော ကွက်လပ်တစ်ခုကို ချန်ထားသည်ကို တွေ့ရသည်။\n\nဝက်အူငယ်တစ်ချောင်းကို အသုံးပြု၍ နှင်းဝေသည် သတ္တုအစင်းကို ဂရုတစိုက် ပြန်ကွေးကာ စပရင်ကို ခိုင်ခိုင်မာမာ ပြန်ထိတွေ့စေကာ ကွက်လပ်ကို ပိတ်ပေးသည်။ ခလုတ်ကို ရွှေ့ပြီး နှိပ်လိုက်သောအခါ မီးအိမ်သည် ချက်ချင်း တောက်ပစွာ ထွန်းလင်းလာသည်။ အခန်းတစ်ဖက်မှ ကြည့်နေသော ဖခင်သည် မည်သို့ ရှာဖွေရမည်ကို ၎င်း မည်သို့ သိရှိခဲ့သည်ကို မေးမြန်းရာ ဆားကစ်တစ်ခုသည် ၎င်း၏ အားနည်းဆုံး ချိတ်ဆက်မှုနှင့် တူညီစွာ ယုံကြည်စိတ်ချရသည်ဖြစ်ကြောင်း - ဘက်ထရီ၏ စွမ်းအင်မှ မီးအိမ်၏ တောက်ပမှုအထိ အားလုံးသည် ကွင်းလုံးတစ်ခုတည်းသာ ပြီးပြည့်စုံ၍ မကျိုးပဲ့ခြင်းပေါ်တွင် မူတည်ကြောင်း နှင်းဝေ ရှင်းပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "What does Hnin Wai find inside her old torch?",
+            questionMy:
+                "၎င်း၏ တံခါးလိပ်မီးဟောင်းအတွင်း နှင်းဝေ အဘယ်အရာ တွေ့ရသနည်း။",
+            optionsEn: [
+              "Two batteries, a bulb, a spring, and a switch",
+              "Only a light bulb",
+              "Only water",
+              "Only sand",
+            ],
+            optionsMy: [
+              "ဘက်ထရီနှစ်ခု၊ မီးအိမ်၊ စပရင်နှင့် ခလုတ်",
+              "မီးအိမ်တစ်ခုတည်း",
+              "ရေတစ်ခုတည်း",
+              "သဲတစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai eventually find wrong with the circuit?",
+            questionMy:
+                "ဆားကစ်တွင် မှားနေသည်ကို နှင်းဝေ နောက်ဆုံးတွင် အဘယ်အရာ တွေ့ရသနည်း။",
+            optionsEn: [
+              "A metal strip had come loose from the spring, leaving a gap",
+              "Both batteries were completely empty",
+              "The bulb was the wrong colour",
+              "The switch was missing entirely",
+            ],
+            optionsMy: [
+              "သတ္တုအစင်းတစ်ခုသည် စပရင်မှ ကွာသွားကာ ကွက်လပ်တစ်ခု ချန်ထားခဲ့ခြင်း",
+              "ဘက်ထရီနှစ်ခုစလုံး လုံးဝ ဗလာ ဖြစ်ခြင်း",
+              "မီးအိမ်၏ အရောင် မှားနေခြင်း",
+              "ခလုတ်ကို လုံးဝ ပျောက်ဆုံးနေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "How does Hnin Wai fix the circuit?",
+            questionMy: "ဆားကစ်ကို နှင်းဝေ မည်သို့ ပြုပြင်သနည်း။",
+            optionsEn: [
+              "By bending the metal strip back so it touches the spring again",
+              "By buying a completely new torch",
+              "By adding more batteries",
+              "By removing the switch entirely",
+            ],
+            optionsMy: [
+              "သတ္တုအစင်းကို စပရင်ကို ပြန်ထိတွေ့စေရန် ပြန်ကွေးခြင်းဖြင့်",
+              "တံခါးလိပ်မီးအသစ် လုံးဝ ဝယ်ယူခြင်းဖြင့်",
+              "ဘက်ထရီ ထပ်ထည့်ခြင်းဖြင့်",
+              "ခလုတ်ကို လုံးဝ ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happens as soon as Hnin Wai closes the gap and presses the switch?",
+            questionMy:
+                "ကွက်လပ်ကို ပိတ်ပြီး ခလုတ်ကို နှိပ်လိုက်သည်နှင့် ချက်ချင်း အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "The bulb glows brightly at once",
+              "Nothing happens at all",
+              "The batteries explode",
+              "The switch breaks completely",
+            ],
+            optionsMy: [
+              "မီးအိမ် ချက်ချင်း တောက်ပစွာ ထွန်းလင်းလာခြင်း",
+              "ဘာမျှ လုံးဝ မဖြစ်ပျက်ခြင်း",
+              "ဘက်ထရီများ ပေါက်ကွဲခြင်း",
+              "ခလုတ် လုံးဝ ကျိုးပဲ့သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai explain to her father about circuits?",
+            questionMy:
+                "ဆားကစ်များအကြောင်း ဖခင်အား နှင်းဝေ အဘယ်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "A circuit is only as reliable as its weakest connection",
+              "Circuits never need to be complete",
+              "Batteries never lose their energy",
+              "Switches have no real function",
+            ],
+            optionsMy: [
+              "ဆားကစ်တစ်ခုသည် ၎င်း၏ အားနည်းဆုံး ချိတ်ဆက်မှုနှင့် တူညီစွာ ယုံကြည်စိတ်ချရခြင်း",
+              "ဆားကစ်များသည် ပြီးပြည့်စုံရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+              "ဘက်ထရီများသည် ၎င်းတို့၏ စွမ်းအင်ကို ဘယ်တော့မှ ဆုံးရှုံးမည်မဟုတ်ခြင်း",
+              "ခလုတ်များတွင် တကယ့်လုပ်ဆောင်ချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w21-d5",
+      dayNumber: 5,
+      titleEn: "Circuits Round-Up",
+      titleMy: "ဆားကစ်များ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What must a circuit be for electricity to flow?",
+          questionMy:
+              "လျှပ်စစ်ဓာတ်အား စီးဆင်းရန် ဆားကစ်တစ်ခု မည်သို့ ဖြစ်ရမည်နည်း။",
+          optionsEn: [
+            "Complete, with no gaps",
+            "Made only of plastic",
+            "Very colourful",
+            "Extremely long",
+          ],
+          optionsMy: [
+            "ကွက်လပ် မရှိဘဲ ပြီးပြည့်စုံခြင်း",
+            "ပလတ်စတစ်ဖြင့်သာ ပြုလုပ်ခြင်း",
+            "အလွန်အရောင်စုံခြင်း",
+            "အလွန်ရှည်လျားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which material would work best as a wire in a circuit?",
+          questionMy:
+              "ဆားကစ်တစ်ခုတွင် ကြိုးအဖြစ် အကောင်းဆုံး အလုပ်လုပ်မည့် ပစ္စည်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Copper", "Rubber", "Wood", "Plastic"],
+          optionsMy: ["ကြေးနီ", "ရာဘာ", "သစ်သား", "ပလတ်စတစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's torch repair story, what was the actual problem with the torch?",
+          questionMy:
+              "နှင်းဝေ၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်တွင် တံခါးလိပ်မီး၏ တကယ့်ပြဿနာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A loose metal strip created a gap in the circuit",
+            "The bulb was the wrong colour",
+            "The torch was too heavy",
+            "The switch was missing",
+          ],
+          optionsMy: [
+            "ကွာသွားသော သတ္တုအစင်းတစ်ခုက ဆားကစ်တွင် ကွက်လပ်တစ်ခု ဖြစ်စေခြင်း",
+            "မီးအိမ်၏ အရောင် မှားနေခြင်း",
+            "တံခါးလိပ်မီး အလွန်လေးလံခြင်း",
+            "ခလုတ် ပျောက်ဆုံးနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the purpose of a switch in a circuit?",
+          questionMy: "ဆားကစ်တစ်ခုတွင် ခလုတ်၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To open or close the circuit, turning the flow on or off",
+            "To create electricity from nothing",
+            "To make the wire longer",
+            "To change the colour of the bulb",
+          ],
+          optionsMy: [
+            "စီးဆင်းမှုကို ဖွင့် သို့မဟုတ် ပိတ်ရန် ဆားကစ်ကို ဖွင့် သို့မဟုတ် ပိတ်ပေးခြင်း",
+            "ဘာမျှမရှိသည့်နေရာမှ လျှပ်စစ်ဓာတ်အား ဖန်တီးခြင်း",
+            "ကြိုးကို ပိုရှည်စေခြင်း",
+            "မီးအိမ်၏ အရောင်ကို ပြောင်းလဲစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does Hnin Wai's torch repair story teach?",
+          questionMy:
+              "နှင်းဝေ၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်သည် သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A circuit needs every connection intact to work at all",
+            "Circuits work even with several gaps",
+            "Batteries never run out of energy",
+            "Switches have no connection to circuits",
+          ],
+          optionsMy: [
+            "ဆားကစ်တစ်ခုသည် လုံးဝ အလုပ်လုပ်ရန် ချိတ်ဆက်မှုတိုင်း စုံလင်ရန် လိုအပ်ခြင်း",
+            "ဆားကစ်များသည် ကွက်လပ်များစွာနှင့်ပင် အလုပ်လုပ်ခြင်း",
+            "ဘက်ထရီများသည် ၎င်းတို့၏ စွမ်းအင် ဘယ်တော့မှ ကုန်ဆုံးမည်မဟုတ်ခြင်း",
+            "ခလုတ်များတွင် ဆားကစ်များနှင့် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 6, Week 22: "Voltage, Current, and Brightness"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek22 = CourseWeekDef(
+  id: "course-year6-science-w22",
+  weekNumber: 22,
+  titleEn: "Voltage, Current, and Brightness",
+  titleMy: "ဗို့အား၊ လျှပ်စီးနှင့် တောက်ပမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w22-d1",
+      dayNumber: 1,
+      titleEn: "How More Batteries Change a Circuit",
+      titleMy: "ဘက်ထရီ ပိုများခြင်းက ဆားကစ်ကို မည်သို့ ပြောင်းလဲစေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What generally happens to a bulb's brightness when more batteries are added to a simple circuit?",
+          questionMy:
+              "ရိုးရှင်းသော ဆားကစ်တစ်ခုတွင် ဘက်ထရီ ပိုထည့်လိုက်သောအခါ မီးအိမ်၏ တောက်ပမှုတွင် ယေဘူယျအားဖြင့် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It becomes brighter",
+            "It becomes dimmer",
+            "Nothing changes at all",
+            "The bulb turns off completely",
+          ],
+          optionsMy: [
+            "ပိုတောက်ပလာခြင်း",
+            "ပိုမှိန်လာခြင်း",
+            "ဘာမျှ မပြောင်းလဲခြင်း",
+            "မီးအိမ် လုံးဝ ပိတ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is voltage a measure of?",
+          questionMy: "ဗို့အားသည် အဘယ်အရာကို တိုင်းတာခြင်းဖြစ်သနည်း။",
+          optionsEn: [
+            "The push or energy driving electricity around a circuit",
+            "The colour of the wire",
+            "The weight of the battery",
+            "The size of the bulb",
+          ],
+          optionsMy: [
+            "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို မောင်းနှင်သော တွန်းအား သို့မဟုတ် စွမ်းအင်",
+            "ကြိုး၏ အရောင်",
+            "ဘက်ထရီ၏ အလေးချိန်",
+            "မီးအိမ်၏ အရွယ်အစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is electrical current?",
+          questionMy: "လျှပ်စီး ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The flow of electricity through a circuit",
+            "A type of switch",
+            "A type of insulator",
+            "The colour of a bulb",
+          ],
+          optionsMy: [
+            "ဆားကစ်တစ်ခုတစ်ဆင့် လျှပ်စစ်ဓာတ်အား စီးဆင်းခြင်း",
+            "ခလုတ်တစ်မျိုး",
+            "လျှပ်စစ်မကူးပစ္စည်း တစ်မျိုး",
+            "မီးအိမ်၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does adding two batteries in the same direction make a bulb brighter than one battery alone?",
+          questionMy:
+              "တစ်ဘက်တည်း ဦးတည်၍ ဘက်ထရီနှစ်ခု ထည့်ခြင်းသည် ဘက်ထရီတစ်ခုတည်းထက် မီးအိမ်ကို ပိုတောက်ပစေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The combined voltage pushes more current through the circuit",
+            "Two batteries always weigh less than one",
+            "It has no effect on brightness at all",
+            "It always makes the bulb dimmer instead",
+          ],
+          optionsMy: [
+            "ပေါင်းစည်းထားသော ဗို့အားက ဆားကစ်တစ်လျှောက် လျှပ်စီး ပိုစီးစေခြင်း",
+            "ဘက်ထရီနှစ်ခုသည် တစ်ခုထက် အမြဲတမ်း ပေါ့ပါးခြင်း",
+            "တောက်ပမှုအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "မီးအိမ်ကို ပိုမှိန်စေခြင်းသာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai builds two identical circuits, one with one battery and one with two batteries, keeping everything else the same. What result would she most likely observe?",
+          questionMy:
+              "နှင်းဝေသည် ကျန်အရာအားလုံးကို တူညီစွာ ထားရှိလျက် ဘက်ထရီတစ်ခုပါသော တစ်ခုနှင့် ဘက်ထရီနှစ်ခုပါသော တစ်ခု၊ တူညီသော ဆားကစ်နှစ်ခု တည်ဆောက်သည်။ ၎င်း အဖြစ်များဆုံး တွေ့ရမည့် ရလဒ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The two-battery circuit's bulb would shine brighter",
+            "Both bulbs would shine exactly the same",
+            "The one-battery circuit's bulb would shine brighter",
+            "Neither bulb would light up at all",
+          ],
+          optionsMy: [
+            "ဘက်ထရီနှစ်ခုပါသော ဆားကစ်၏ မီးအိမ် ပိုတောက်ပခြင်း",
+            "မီးအိမ်နှစ်ခုစလုံး အတိအကျ တူညီစွာ တောက်ပခြင်း",
+            "ဘက်ထရီတစ်ခုပါသော ဆားကစ်၏ မီးအိမ် ပိုတောက်ပခြင်း",
+            "မီးအိမ်နှစ်ခုစလုံး လုံးဝ မထွန်းလင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match the Voltage and Current Vocabulary",
+      titleMy: "ဗို့အားနှင့် လျှပ်စီး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w22-dm-1",
+          termEn: "Voltage",
+          termMy: "ဗို့အား (Voltage)",
+          matchEn: "The push or energy driving electricity around a circuit",
+          matchMy:
+              "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို မောင်းနှင်သော တွန်းအား သို့မဟုတ် စွမ်းအင်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w22-dm-2",
+          termEn: "Current",
+          termMy: "လျှပ်စီး (Current)",
+          matchEn: "The flow of electricity through a circuit",
+          matchMy: "ဆားကစ်တစ်ခုတစ်ဆင့် လျှပ်စစ်ဓာတ်အား စီးဆင်းခြင်း",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w22-dm-3",
+          termEn: "Series circuit",
+          termMy: "ဆီးရီးစ် ဆားကစ် (Series circuit)",
+          matchEn:
+              "A circuit where components are connected one after another in a single loop",
+          matchMy:
+              "ကွင်းလုံးတစ်ခုတည်းတွင် အစိတ်အပိုင်းများ တစ်ခုပြီးတစ်ခု ချိတ်ဆက်ထားသော ဆားကစ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w22-dm-4",
+          termEn: "Brightness",
+          termMy: "တောက်ပမှု (Brightness)",
+          matchEn:
+              "How strongly a bulb shines, affected by voltage and current",
+          matchMy:
+              "ဗို့အားနှင့် လျှပ်စီးက သက်ရောက်စေသော မီးအိမ်၏ တောက်ပမှု အားနည်းအားကောင်းအတိုင်းအတာ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w22-dm-5",
+          termEn: "Cell",
+          termMy: "ဆဲလ် (Cell)",
+          matchEn:
+              "A single unit that provides electrical energy, often called a battery",
+          matchMy:
+              "ဘက်ထရီဟု ခေါ်လေ့ရှိသော လျှပ်စစ်စွမ်းအင် ပေးအပ်သော ယူနစ်တစ်ခု",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w22-dm-6",
+          termEn: "Resistance",
+          termMy: "ခံနိုင်ရည် (Resistance)",
+          matchEn:
+              "Anything in a circuit that slows down the flow of electricity",
+          matchMy:
+              "ဆားကစ်တွင် လျှပ်စစ်ဓာတ်အား စီးဆင်းမှုကို နှေးစေသော မည်သည့်အရာမဆို",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases Brightness or Decreases Brightness?",
+      titleMy: "စီစစ်ကြမည် - တောက်ပမှု တိုးစေသလား၊ လျော့စေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases brightness", "Decreases brightness"],
+        bucketsMy: ["တောက်ပမှု တိုးစေသည်", "တောက်ပမှု လျော့စေသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w22-sort-1",
+            labelEn: "Adding a second battery in the same direction",
+            labelMy: "တစ်ဘက်တည်း ဦးတည်၍ ဒုတိယ ဘက်ထရီ ထည့်ခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w22-sort-2",
+            labelEn: "Adding a second bulb in series",
+            labelMy: "ဆီးရီးစ်တွင် ဒုတိယ မီးအိမ် ထည့်ခြင်း",
+            correctBucketEn: "Decreases brightness",
+            correctBucketMy: "တောက်ပမှု လျော့စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w22-sort-3",
+            labelEn: "Using a battery with a higher voltage",
+            labelMy: "ဗို့အားပိုမြင့်သော ဘက်ထရီကို အသုံးပြုခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w22-sort-4",
+            labelEn: "Using a weak, almost empty battery",
+            labelMy: "အားနည်းပြီး ဗလာနီးပါး ဘက်ထရီကို အသုံးပြုခြင်း",
+            correctBucketEn: "Decreases brightness",
+            correctBucketMy: "တောက်ပမှု လျော့စေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w22-sort-5",
+            labelEn: "Removing extra resistance from the circuit",
+            labelMy: "ဆားကစ်မှ ပိုလျှံသော ခံနိုင်ရည် ဖယ်ရှားခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w22-sort-6",
+            labelEn: "Adding extra resistance to the circuit",
+            labelMy: "ဆားကစ်တွင် ခံနိုင်ရည် ပိုထည့်ခြင်း",
+            correctBucketEn: "Decreases brightness",
+            correctBucketMy: "တောက်ပမှု လျော့စေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Battery Experiment",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ဘက်ထရီ စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Battery Experiment",
+        titleMy: "နှင်းဝေ၏ ဘက်ထရီ စမ်းသပ်မှု",
+        passageEn:
+            "For a science fair project, Hnin Wai decides to test how the number of batteries affects a bulb's brightness. She builds a simple circuit with one battery, a bulb, and a switch, noting that the bulb glows at a steady, moderate brightness when she closes the switch.\n\nNext, Hnin Wai carefully adds a second battery in the same direction as the first, keeping the bulb and switch unchanged. When she closes the switch this time, the bulb shines noticeably brighter than before. She reasons that the two batteries together provide more voltage, pushing a stronger current of electricity through the same circuit, which makes the bulb work harder and glow more intensely.\n\nCurious to test the opposite effect, Hnin Wai then adds a second bulb into the same circuit, connected one after another in a single loop. This time, both bulbs glow more dimly than the single bulb did with two batteries, since the same current now has to pass through two bulbs sharing the available energy instead of just one. Hnin Wai records her results in a table and concludes that brightness depends on a balance: more batteries increase brightness by adding voltage, while more bulbs in the same simple loop decrease each bulb's individual brightness by sharing the available current between them.",
+        passageMy:
+            "သိပ္ပံပြပွဲ စီမံကိန်းအတွက် ဘက်ထရီအရေအတွက်သည် မီးအိမ်၏ တောက်ပမှုကို မည်သို့ သက်ရောက်စေကြောင်း စမ်းသပ်ရန် နှင်းဝေ ဆုံးဖြတ်လိုက်သည်။ ၎င်းသည် ဘက်ထရီတစ်ခု၊ မီးအိမ်တစ်ခုနှင့် ခလုတ်တစ်ခုပါသော ရိုးရှင်းသော ဆားကစ်တစ်ခု တည်ဆောက်ပြီး ခလုတ်ကို ပိတ်လိုက်သောအခါ မီးအိမ်သည် တည်ငြိမ်၊ အလယ်အလတ် တောက်ပမှုဖြင့် ထွန်းလင်းသည်ကို မှတ်သားလိုက်သည်။\n\nထို့နောက် နှင်းဝေသည် မီးအိမ်နှင့် ခလုတ်ကို မပြောင်းလဲဘဲ ပထမဘက်ထရီနှင့် တစ်ဘက်တည်းဦးတည်၍ ဒုတိယ ဘက်ထရီကို ဂရုတစိုက် ထပ်ထည့်သည်။ ဤအကြိမ် ခလုတ်ကို ပိတ်လိုက်သောအခါ မီးအိမ်သည် ယခင်ထက် သတိထားမိလောက်စွာ ပိုတောက်ပစွာ ထွန်းလင်းသည်။ ဘက်ထရီနှစ်ခုသည် ဗို့အား ပိုပေးကာ ဆားကစ်တစ်ခုတည်းတစ်ဆင့် ပိုပြင်းအားရှိသော လျှပ်စီးကို တွန်းအားပေးသောကြောင့် မီးအိမ်ကို ပိုပင်ပန်းစွာ လုပ်ဆောင်စေပြီး ပိုပြင်းထန်စွာ ထွန်းလင်းစေခြင်းဖြစ်ကြောင်း ၎င်း ကောက်ချက်ချသည်။\n\nဆန့်ကျင်ဘက်သက်ရောက်မှုကို စမ်းသပ်ကြည့်ရန် စိတ်ဝင်စားလျက် နှင်းဝေသည် ကွင်းလုံးတစ်ခုတည်းတွင် တစ်ခုပြီးတစ်ခု ချိတ်ဆက်ထားသော ဒုတိယ မီးအိမ်တစ်ခုကို တူညီသော ဆားကစ်ထဲသို့ ထပ်ထည့်သည်။ ဤအကြိမ်တွင် မီးအိမ်နှစ်ခုစလုံးသည် ဘက်ထရီနှစ်ခုနှင့် မီးအိမ်တစ်ခုတည်း ရှိနေစဉ်ကထက် ပိုမှိန်စွာ ထွန်းလင်းသည်၊ တူညီသော လျှပ်စီးသည် ယခုအခါ တစ်ခုတည်းအစား မီးအိမ်နှစ်ခု ဝေမျှသုံးစွဲသော ရရှိနိုင်သော စွမ်းအင်ကို ဖြတ်သန်းရသောကြောင့်ဖြစ်သည်။ နှင်းဝေသည် ၎င်း၏ ရလဒ်များကို ဇယားထဲတွင် ရေးမှတ်ပြီး တောက်ပမှုသည် ဟန်ချက်တစ်ခုပေါ်တွင် မူတည်ကြောင်း ကောက်ချက်ချသည် - ဘက်ထရီပိုများခြင်းသည် ဗို့အား ထပ်ထည့်ပေးခြင်းဖြင့် တောက်ပမှုကို တိုးစေပြီး ရိုးရှင်းသော ကွင်းလုံးတစ်ခုတည်းတွင် မီးအိမ်ပိုများခြင်းသည် ရရှိနိုင်သော လျှပ်စီးကို ၎င်းတို့ကြား ဝေမျှစေခြင်းဖြင့် မီးအိမ်တစ်ခုချင်းစီ၏ တောက်ပမှုကို လျော့ကျစေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What happens to the bulb's brightness when Hnin Wai adds a second battery in the same direction?",
+            questionMy:
+                "တစ်ဘက်တည်းဦးတည်၍ ဒုတိယ ဘက်ထရီ ထပ်ထည့်လိုက်သောအခါ မီးအိမ်၏ တောက်ပမှုတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "The bulb shines noticeably brighter",
+              "The bulb becomes dimmer",
+              "Nothing changes at all",
+              "The bulb turns off",
+            ],
+            optionsMy: [
+              "မီးအိမ် သတိထားမိလောက်စွာ ပိုတောက်ပစွာ ထွန်းလင်းခြင်း",
+              "မီးအိမ် ပိုမှိန်လာခြင်း",
+              "ဘာမျှ မပြောင်းလဲခြင်း",
+              "မီးအိမ် ပိတ်သွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does adding a second battery make the bulb brighter?",
+            questionMy:
+                "ဒုတိယ ဘက်ထရီ ထပ်ထည့်ခြင်းသည် မီးအိမ်ကို ပိုတောက်ပစေသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "More voltage pushes a stronger current through the circuit",
+              "Batteries always make bulbs dimmer",
+              "It has no connection to voltage at all",
+              "The bulb changes colour instead",
+            ],
+            optionsMy: [
+              "ဗို့အား ပိုများခြင်းသည် ဆားကစ်တစ်လျှောက် ပိုပြင်းအားရှိသော လျှပ်စီးကို တွန်းအားပေးခြင်း",
+              "ဘက်ထရီများသည် မီးအိမ်များကို အမြဲတမ်း ပိုမှိန်စေခြင်း",
+              "ဗို့အားနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "မီးအိမ်၏ အရောင် ပြောင်းလဲသွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What happens when Hnin Wai adds a second bulb into the same simple circuit?",
+            questionMy:
+                "တူညီသော ရိုးရှင်းသော ဆားကစ်ထဲသို့ ဒုတိယ မီးအိမ် ထပ်ထည့်လိုက်သောအခါ အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "Both bulbs glow more dimly than the single bulb did",
+              "Both bulbs glow brighter than before",
+              "Only one bulb lights up",
+              "Both bulbs stop working entirely",
+            ],
+            optionsMy: [
+              "မီးအိမ်နှစ်ခုစလုံး တစ်ခုတည်းရှိစဉ်ကထက် ပိုမှိန်စွာ ထွန်းလင်းခြင်း",
+              "မီးအိမ်နှစ်ခုစလုံး ယခင်ထက် ပိုတောက်ပလာခြင်း",
+              "မီးအိမ်တစ်ခုသာ ထွန်းလင်းခြင်း",
+              "မီးအိမ်နှစ်ခုစလုံး လုံးဝ အလုပ်မလုပ်တော့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does adding a second bulb decrease each bulb's individual brightness?",
+            questionMy:
+                "ဒုတိယ မီးအိမ် ထပ်ထည့်ခြင်းသည် မီးအိမ်တစ်ခုချင်းစီ၏ တောက်ပမှုကို လျော့ကျစေသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "The same current is shared between two bulbs instead of one",
+              "Bulbs always glow brighter as more are added",
+              "It has no connection to current at all",
+              "Batteries stop working when two bulbs are present",
+            ],
+            optionsMy: [
+              "တူညီသော လျှပ်စီးကို တစ်ခုတည်းအစား မီးအိမ်နှစ်ခုကြား ဝေမျှစေခြင်း",
+              "မီးအိမ်ပိုများလာသည်နှင့်အမျှ အမြဲတမ်း ပိုတောက်ပလာခြင်း",
+              "လျှပ်စီးနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "မီးအိမ်နှစ်ခုရှိသောအခါ ဘက်ထရီများ အလုပ်မလုပ်တော့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What overall conclusion does Hnin Wai reach about brightness?",
+            questionMy:
+                "တောက်ပမှုအကြောင်း နှင်းဝေ ရရှိသော ယေဘူယျ ကောက်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "More batteries increase brightness, while more bulbs in the same loop decrease it",
+              "Batteries and bulbs have no effect on brightness",
+              "Only the colour of the wire affects brightness",
+              "Brightness never changes no matter what is added",
+            ],
+            optionsMy: [
+              "ဘက်ထရီပိုများခြင်းက တောက်ပမှုကို တိုးစေပြီး ကွင်းလုံးတစ်ခုတည်းတွင် မီးအိမ်ပိုများခြင်းက လျော့ကျစေခြင်း",
+              "ဘက်ထရီနှင့် မီးအိမ်များသည် တောက်ပမှုအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+              "ကြိုး၏ အရောင်တစ်ခုတည်းသာ တောက်ပမှုကို သက်ရောက်စေခြင်း",
+              "မည်သည့်အရာ ထပ်ထည့်သည်ဖြစ်စေ တောက်ပမှု ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w22-d5",
+      dayNumber: 5,
+      titleEn: "Voltage and Current Round-Up",
+      titleMy: "ဗို့အားနှင့် လျှပ်စီး အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does voltage measure in a circuit?",
+          questionMy: "ဆားကစ်တစ်ခုတွင် ဗို့အားက အဘယ်အရာကို တိုင်းတာသနည်း။",
+          optionsEn: [
+            "The push driving electricity around the circuit",
+            "The colour of the bulb",
+            "The weight of the wire",
+            "The size of the switch",
+          ],
+          optionsMy: [
+            "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို မောင်းနှင်သော တွန်းအား",
+            "မီးအိမ်၏ အရောင်",
+            "ကြိုး၏ အလေးချိန်",
+            "ခလုတ်၏ အရွယ်အစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does adding a second bulb in the same simple loop make each bulb dimmer?",
+          questionMy:
+              "တူညီသော ရိုးရှင်းသော ကွင်းလုံးထဲတွင် ဒုတိယ မီးအိမ် ထပ်ထည့်ခြင်းသည် မီးအိမ်တစ်ခုစီကို ပိုမှိန်စေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The same current is now shared between two bulbs",
+            "Bulbs always glow brighter when more are added",
+            "Adding bulbs increases the voltage",
+            "It has no effect on brightness",
+          ],
+          optionsMy: [
+            "တူညီသော လျှပ်စီးကို ယခုအခါ မီးအိမ်နှစ်ခုကြား ဝေမျှစေခြင်း",
+            "ပိုများလာသည်နှင့်အမျှ မီးအိမ်များသည် အမြဲတမ်း ပိုတောက်ပလာခြင်း",
+            "မီးအိမ်ထပ်ထည့်ခြင်းက ဗို့အားကို တိုးစေခြင်း",
+            "တောက်ပမှုအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's battery experiment, what did adding a second battery in the same direction do?",
+          questionMy:
+              "နှင်းဝေ၏ ဘက်ထရီ စမ်းသပ်မှုတွင် တစ်ဘက်တည်းဦးတည်၍ ဒုတိယ ဘက်ထရီ ထပ်ထည့်ခြင်းသည် အဘယ်အရာ ပြုလုပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Made the bulb shine brighter",
+            "Made the bulb turn off",
+            "Had no effect at all",
+            "Made the bulb change colour",
+          ],
+          optionsMy: [
+            "မီးအိမ်ကို ပိုတောက်ပစွာ ထွန်းလင်းစေခြင်း",
+            "မီးအိမ်ကို ပိတ်စေခြင်း",
+            "ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "မီးအိမ်၏ အရောင် ပြောင်းလဲစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is resistance in a circuit?",
+          questionMy: "ဆားကစ်တစ်ခုတွင် ခံနိုင်ရည် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Anything that slows down the flow of electricity",
+            "A type of battery",
+            "A type of bulb",
+            "The colour of a wire",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အား စီးဆင်းမှုကို နှေးစေသော မည်သည့်အရာမဆို",
+            "ဘက်ထရီတစ်မျိုး",
+            "မီးအိမ်တစ်မျိုး",
+            "ကြိုး၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on voltage and current teach?",
+          questionMy:
+              "ဤအပတ်စာ ဗို့အားနှင့် လျှပ်စီး သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Brightness depends on a balance between voltage supplied and how it is shared among components",
+            "Voltage and current have no connection to brightness",
+            "Adding batteries always makes bulbs dimmer",
+            "Adding bulbs always makes each bulb brighter",
+          ],
+          optionsMy: [
+            "တောက်ပမှုသည် ပေးအပ်သော ဗို့အားနှင့် အစိတ်အပိုင်းများကြား ၎င်းကို မည်သို့ ဝေမျှသည် ဆိုသည့် ဟန်ချက်ပေါ်တွင် မူတည်ခြင်း",
+            "ဗို့အားနှင့် လျှပ်စီးသည် တောက်ပမှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ဘက်ထရီ ထပ်ထည့်ခြင်းသည် အမြဲတမ်း မီးအိမ်များကို ပိုမှိန်စေခြင်း",
+            "မီးအိမ် ထပ်ထည့်ခြင်းသည် အမြဲတမ်း မီးအိမ်တစ်ခုစီကို ပိုတောက်ပစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 6, Week 23: "Circuit Symbols and Diagrams"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek23 = CourseWeekDef(
+  id: "course-year6-science-w23",
+  weekNumber: 23,
+  titleEn: "Circuit Symbols and Diagrams",
+  titleMy: "ဆားကစ် သင်္ကေတများနှင့် ပုံကားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w23-d1",
+      dayNumber: 1,
+      titleEn: "Reading Circuit Diagrams",
+      titleMy: "ဆားကစ် ပုံကားများ ဖတ်ရှုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do scientists use standard symbols to draw circuit diagrams?",
+          questionMy:
+              "သိပ္ပံပညာရှင်များသည် ဆားကစ် ပုံကားများ ရေးဆွဲရန် စံညွှန်းသင်္ကေတများ အသုံးပြုသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "So anyone can understand the circuit clearly, without drawing realistic pictures",
+            "To make the diagram look more colourful",
+            "Because realistic drawings are always required",
+            "Symbols have no real purpose",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကျသော ပုံများ ရေးဆွဲရန် မလိုအပ်ဘဲ မည်သူမဆို ဆားကစ်ကို ရှင်းလင်းစွာ နားလည်စေရန်",
+            "ပုံကားကို ပိုအရောင်စုံစေရန်",
+            "လက်တွေ့ကျသော ပုံများ အမြဲလိုအပ်သောကြောင့်",
+            "သင်္ကေတများတွင် တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a straight line usually represent in a circuit diagram?",
+          questionMy:
+              "ဆားကစ် ပုံကားတစ်ခုတွင် ဖြောင့်တန်းသော မျဉ်းတစ်ခုသည် များသောအားဖြင့် အဘယ်အရာကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["A wire", "A battery", "A bulb", "A switch"],
+          optionsMy: ["ကြိုး", "ဘက်ထရီ", "မီးအိမ်", "ခလုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a circuit diagram, which symbol usually shows a longer line next to a shorter line?",
+          questionMy:
+              "ဆားကစ် ပုံကားတစ်ခုတွင် မျဉ်းတိုတစ်ခုအနီးတွင် မျဉ်းရှည်တစ်ခုကို များသောအားဖြင့် ပြသော သင်္ကေတမှာ အဘယ်နည်း။",
+          optionsEn: ["A battery or cell", "A bulb", "A wire", "A switch"],
+          optionsMy: ["ဘက်ထရီ သို့မဟုတ် ဆဲလ်", "မီးအိမ်", "ကြိုး", "ခလုတ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What advantage does a circuit diagram have over a photograph of a real circuit?",
+          questionMy:
+              "ဆားကစ် ပုံကားတစ်ခုတွင် တကယ့်ဆားကစ်၏ ဓာတ်ပုံထက် အားသာချက် မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It clearly shows how components connect without unnecessary detail",
+            "It always shows the exact colours of the wires",
+            "It is always more difficult to understand",
+            "It cannot be understood by scientists in other countries",
+          ],
+          optionsMy: [
+            "မလိုအပ်သော အသေးစိတ်အချက်များ မပါဘဲ အစိတ်အပိုင်းများ မည်သို့ ချိတ်ဆက်ကြောင်း ရှင်းလင်းစွာ ပြသခြင်း",
+            "ကြိုးများ၏ တိကျသော အရောင်ကို အမြဲတမ်း ပြသခြင်း",
+            "အမြဲတမ်း နားလည်ရန် ပိုခက်ခဲခြင်း",
+            "အခြားနိုင်ငံများမှ သိပ္ပံပညာရှင်များ နားမလည်နိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai draws a circuit diagram showing a battery, a switch, and a bulb connected in a single loop using standard symbols. A student in another country, who does not speak her language, looks at the diagram. What is most likely true?",
+          questionMy:
+              "နှင်းဝေသည် စံညွှန်းသင်္ကေတများကို အသုံးပြု၍ ဘက်ထရီ၊ ခလုတ်နှင့် မီးအိမ်ကို ကွင်းလုံးတစ်ခုတည်းတွင် ချိတ်ဆက်ပြသော ဆားကစ် ပုံကားတစ်ခု ရေးဆွဲသည်။ ၎င်း၏ ဘာသာစကား မပြောနိုင်သော အခြားနိုင်ငံမှ ကျောင်းသားတစ်ဦးသည် ပုံကားကို ကြည့်ရှုသည်။ မှန်ကန်ဖွယ်ရှိဆုံးအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "They can still understand the circuit because the symbols are internationally standard",
+            "They cannot understand anything about the circuit at all",
+            "They would need to learn Burmese first",
+            "Circuit diagrams only work within one country",
+          ],
+          optionsMy: [
+            "သင်္ကေတများသည် နိုင်ငံတကာစံညွှန်း ဖြစ်သောကြောင့် ဆားကစ်ကို ဆက်လက် နားလည်နိုင်ခြင်း",
+            "ဆားကစ်အကြောင်း ဘာမျှ လုံးဝ နားမလည်နိုင်ခြင်း",
+            "မြန်မာစာကို ဦးစွာ သင်ယူရန် လိုအပ်ခြင်း",
+            "ဆားကစ် ပုံကားများသည် နိုင်ငံတစ်ခုတည်းတွင်သာ အလုပ်ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match the Circuit Diagram Vocabulary",
+      titleMy: "ဆားကစ် ပုံကား ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w23-dm-1",
+          termEn: "Circuit diagram",
+          termMy: "ဆားကစ် ပုံကား (Circuit diagram)",
+          matchEn:
+              "A drawing that shows how circuit components are connected using symbols",
+          matchMy:
+              "သင်္ကေတများကို အသုံးပြု၍ ဆားကစ် အစိတ်အပိုင်းများ မည်သို့ ချိတ်ဆက်ကြောင်း ပြသော ရေးဆွဲပုံ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w23-dm-2",
+          termEn: "Symbol",
+          termMy: "သင်္ကေတ (Symbol)",
+          matchEn: "A simple standard sign used to represent a component",
+          matchMy:
+              "အစိတ်အပိုင်းတစ်ခုကို ကိုယ်စားပြုရန် အသုံးပြုသော ရိုးရှင်းသော စံညွှန်းသင်္ကေတ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w23-dm-3",
+          termEn: "Component",
+          termMy: "အစိတ်အပိုင်း (Component)",
+          matchEn: "A single part of a circuit, such as a battery or a bulb",
+          matchMy:
+              "ဘက်ထရီ သို့မဟုတ် မီးအိမ်ကဲ့သို့သော ဆားကစ်၏ တစ်ခုချင်းစီ အစိတ်အပိုင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w23-dm-4",
+          termEn: "Standard",
+          termMy: "စံညွှန်း (Standard)",
+          matchEn: "Agreed upon and used the same way everywhere",
+          matchMy: "နေရာတိုင်းတွင် တူညီစွာ သဘောတူညီပြီး အသုံးပြုသော",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w23-dm-5",
+          termEn: "Loop",
+          termMy: "ကွင်းလုံး (Loop)",
+          matchEn: "A closed path electricity can flow around",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပိတ်ထားသော လမ်းကြောင်း",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w23-dm-6",
+          termEn: "Terminal",
+          termMy: "ထိပ်ဖျား (Terminal)",
+          matchEn: "The connection point on a battery where wires attach",
+          matchMy: "ကြိုးများ ကပ်ရာ ဘက်ထရီပေါ်ရှိ ချိတ်ဆက်နေရာ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Circuit Symbol or Not a Circuit Symbol?",
+      titleMy: "စီစစ်ကြမည် - ဆားကစ် သင်္ကေတလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Standard circuit symbol", "Not a circuit symbol"],
+        bucketsMy: ["စံညွှန်း ဆားကစ် သင်္ကေတ", "ဆားကစ် သင်္ကေတ မဟုတ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w23-sort-1",
+            labelEn: "A long and short parallel line for a battery",
+            labelMy: "ဘက်ထရီအတွက် ရှည်ပြီး တိုသော ပါရာလယ် မျဉ်း",
+            correctBucketEn: "Standard circuit symbol",
+            correctBucketMy: "စံညွှန်း ဆားကစ် သင်္ကေတ",
+          ),
+          SortingItem(
+            id: "y6sci-w23-sort-2",
+            labelEn: "A drawing of a real, coloured photograph",
+            labelMy: "တကယ့်၊ အရောင်ပါသော ဓာတ်ပုံ ရေးဆွဲပုံ",
+            correctBucketEn: "Not a circuit symbol",
+            correctBucketMy: "ဆားကစ် သင်္ကေတ မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w23-sort-3",
+            labelEn: "A circle with a cross inside for a bulb",
+            labelMy: "မီးအိမ်အတွက် အထဲတွင် ကြက်ခြေခတ်ပါသော စက်ဝိုင်း",
+            correctBucketEn: "Standard circuit symbol",
+            correctBucketMy: "စံညွှန်း ဆားကစ် သင်္ကေတ",
+          ),
+          SortingItem(
+            id: "y6sci-w23-sort-4",
+            labelEn: "A hand-drawn cartoon of a torch",
+            labelMy: "တံခါးလိပ်မီး၏ လက်ရေးဖြင့် ရေးဆွဲထားသော ကာတွန်း",
+            correctBucketEn: "Not a circuit symbol",
+            correctBucketMy: "ဆားကစ် သင်္ကေတ မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y6sci-w23-sort-5",
+            labelEn: "A break in a line with a small gap for a switch",
+            labelMy: "ခလုတ်အတွက် ကွက်လပ်ငယ်ပါသော မျဉ်း ကျိုးပြတ်ပြသည်",
+            correctBucketEn: "Standard circuit symbol",
+            correctBucketMy: "စံညွှန်း ဆားကစ် သင်္ကေတ",
+          ),
+          SortingItem(
+            id: "y6sci-w23-sort-6",
+            labelEn: "A painting of the whole science classroom",
+            labelMy: "သိပ္ပံစာသင်ခန်းတစ်ခုလုံး၏ ပန်းချီပုံ",
+            correctBucketEn: "Not a circuit symbol",
+            correctBucketMy: "ဆားကစ် သင်္ကေတ မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's International Pen Pal Circuit",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ နိုင်ငံတကာ စာပေါင်ဆက် ဆားကစ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's International Pen Pal Circuit",
+        titleMy: "နှင်းဝေ၏ နိုင်ငံတကာ စာပေါင်ဆက် ဆားကစ်",
+        passageEn:
+            "As part of a school exchange programme, Hnin Wai is paired with a pen pal from another country, and their teachers arrange for both classes to design the exact same simple circuit -- one battery, one switch, and one bulb -- then compare their drawings. Hnin Wai carefully draws her circuit diagram using standard symbols: a long and short line for the battery, a circle with a cross for the bulb, and a broken line for the switch.\n\nWhen the two classes exchange scanned copies of their diagrams, Hnin Wai is amazed to see that her pen pal's diagram, despite being labelled in an entirely different language, uses exactly the same symbols in exactly the same arrangement. Even though neither student can read the other's handwritten notes, both can immediately understand that the circuit is identical: one battery providing voltage, one switch controlling the flow, and one bulb lighting up when the loop is complete.\n\nHer teacher explains that this is precisely why scientists across the world adopted standard circuit symbols generations ago -- so that a diagram drawn in one country can be read and understood in any other, without needing any translation at all. Hnin Wai realises that circuit diagrams work a bit like her earlier lesson on classification keys: both use a small, agreed-upon set of symbols or questions to communicate complex information clearly, quickly, and without ambiguity, no matter who is reading them.",
+        passageMy:
+            "ကျောင်း အပြန်အလှန် လဲလှယ်ရေး အစီအစဉ်တစ်ခု၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် နှင်းဝေသည် အခြားနိုင်ငံမှ စာပေါင်ဆက်တစ်ဦးနှင့် တွဲစေခံရပြီး ၎င်းတို့ ဆရာမများသည် အတန်းနှစ်ခုစလုံးအား ရိုးရှင်းသော ဆားကစ်တူတူ - ဘက်ထရီတစ်ခု၊ ခလုတ်တစ်ခုနှင့် မီးအိမ်တစ်ခု - ဒီဇိုင်းရေးဆွဲခိုင်းပြီးမှ ၎င်းတို့၏ ရေးဆွဲပုံများကို နှိုင်းယှဉ်ကြရန် စီစဉ်ကြသည်။ နှင်းဝေသည် စံညွှန်း သင်္ကေတများ - ဘက်ထရီအတွက် ရှည်ပြီးတိုသော မျဉ်း၊ မီးအိမ်အတွက် ကြက်ခြေခတ်ပါသော စက်ဝိုင်းနှင့် ခလုတ်အတွက် ကျိုးပြတ်သော မျဉ်း - ကို အသုံးပြု၍ ၎င်း၏ ဆားကစ် ပုံကားကို ဂရုတစိုက် ရေးဆွဲသည်။\n\nအတန်းနှစ်ခုသည် ၎င်းတို့၏ ပုံကား စကင်ကူးထားသော မိတ္တူများကို လဲလှယ်ကြသောအခါ ၎င်း၏ စာပေါင်ဆက်၏ ပုံကားသည် လုံးဝကွဲပြားသော ဘာသာစကားဖြင့် ခေါင်းစဉ်တပ်ထားသော်လည်း အတိအကျ တူညီသော ချထားမှုတွင် အတိအကျ တူညီသော သင်္ကေတများကို အသုံးပြုထားသည်ကို တွေ့ရသောအခါ နှင်းဝေ အံ့ဩသွားသည်။ ကျောင်းသားနှစ်ဦးစလုံး တစ်ဦးနောက်တစ်ဦး၏ လက်ရေးမှတ်စုများကို ဖတ်၍မရနိုင်သော်လည်း ဆားကစ်သည် အတူတူဖြစ်ကြောင်း - ဗို့အား ပေးအပ်သော ဘက်ထရီတစ်ခု၊ စီးဆင်းမှုကို ထိန်းချုပ်သော ခလုတ်တစ်ခုနှင့် ကွင်းလုံးပြီးစီးသောအခါ ထွန်းလင်းသော မီးအိမ်တစ်ခု - ကို နှစ်ဦးစလုံး ချက်ချင်းနားလည်ကြသည်။\n\nဤသည်ကို ကျမ်းမူ ကမ္ဘာတစ်ဝှမ်းရှိ သိပ္ပံပညာရှင်များသည် မျိုးဆက်များစွာမတိုင်မီ စံညွှန်း ဆားကစ် သင်္ကေတများကို အတိအကျ ဤအကြောင်းကြောင့် လက်ခံခဲ့ကြခြင်းဖြစ်ကြောင်း - နိုင်ငံတစ်ခုတွင် ရေးဆွဲသော ပုံကားတစ်ခုကို ဘာသာပြန်မလိုအပ်ဘဲ အခြားမည်သည့်နိုင်ငံတွင်မဆို ဖတ်ရှုပြီး နားလည်နိုင်စေရန်ဖြစ်ကြောင်း ဆရာမက ရှင်းပြသည်။ ဆားကစ် ပုံကားများသည် ၎င်း၏ ယခင်သင်ခန်းစာဖြစ်သော အုပ်စုခွဲ သော့ချက်များနှင့် အနည်းငယ် ဆင်တူကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည် - နှစ်ခုစလုံးသည် ဖတ်ရှုသူ မည်သူဖြစ်စေ ရှုပ်ထွေးသော အချက်အလက်များကို ရှင်းလင်း၊ လျင်မြန်စွာနှင့် မသေချာမှု မရှိစေရန် ဆက်သွယ်ရန် သဘောတူညီပြီးသား သင်္ကေတများ သို့မဟုတ် မေးခွန်းများ အနည်းငယ်ကို အသုံးပြုကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What circuit do both classes design in the exchange programme?",
+            questionMy:
+                "အပြန်အလှန် လဲလှယ်ရေး အစီအစဉ်တွင် အတန်းနှစ်ခုစလုံး ဒီဇိုင်းရေးဆွဲသော ဆားကစ်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "One battery, one switch, and one bulb",
+              "Three batteries and no bulb",
+              "Only a switch with nothing else",
+              "A completely different circuit each",
+            ],
+            optionsMy: [
+              "ဘက်ထရီတစ်ခု၊ ခလုတ်တစ်ခုနှင့် မီးအိမ်တစ်ခု",
+              "ဘက်ထရီသုံးခုနှင့် မီးအိမ်မပါ",
+              "အခြားဘာမျှမပါဘဲ ခလုတ်တစ်ခုသာ",
+              "တစ်ခုစီ လုံးဝကွဲပြားသော ဆားကစ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai discover when she compares her diagram to her pen pal's?",
+            questionMy:
+                "၎င်း၏ ပုံကားကို စာပေါင်ဆက်၏ ပုံကားနှင့် နှိုင်းယှဉ်ကြည့်သောအခါ နှင်းဝေ အဘယ်အရာ တွေ့ရှိသနည်း။",
+            optionsEn: [
+              "Both use exactly the same symbols in the same arrangement",
+              "The two diagrams are completely different",
+              "Her pen pal's diagram makes no sense at all",
+              "Only her own diagram uses standard symbols",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် အတူတူချထားမှုတွင် အတိအကျ တူညီသော သင်္ကေတများကို အသုံးပြုခြင်း",
+              "ပုံကားနှစ်ခုသည် လုံးဝကွဲပြားခြင်း",
+              "စာပေါင်ဆက်၏ ပုံကားတွင် အဓိပ္ပာယ် လုံးဝမရှိခြင်း",
+              "မိမိ၏ ပုံကားသာ စံညွှန်း သင်္ကေတများကို အသုံးပြုခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why can both students understand each other's circuit diagram despite speaking different languages?",
+            questionMy:
+                "မတူညီသော ဘာသာစကားများ ပြောသော်လည်း ကျောင်းသားနှစ်ဦးစလုံး တစ်ဦးနောက်တစ်ဦး၏ ဆားကစ် ပုံကားကို နားလည်နိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Circuit symbols are internationally standard",
+              "They both happen to speak the same language secretly",
+              "The diagrams have no symbols at all",
+              "One of them translated the diagram first",
+            ],
+            optionsMy: [
+              "ဆားကစ် သင်္ကေတများသည် နိုင်ငံတကာစံညွှန်း ဖြစ်ခြင်း",
+              "နှစ်ဦးစလုံးသည် တူညီသော ဘာသာစကားကို လျှို့ဝှက်စွာ ပြောနိုင်ခြင်း",
+              "ပုံကားများတွင် သင်္ကေတ လုံးဝမပါခြင်း",
+              "တစ်ဦးဦးက ပုံကားကို ဦးစွာ ဘာသာပြန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did scientists across the world adopt standard circuit symbols, according to the teacher?",
+            questionMy:
+                "ဆရာမအလို ကမ္ဘာတစ်ဝှမ်းရှိ သိပ္ပံပညာရှင်များသည် စံညွှန်း ဆားကစ် သင်္ကေတများကို လက်ခံခဲ့သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "So a diagram can be read and understood anywhere without translation",
+              "To make diagrams look prettier",
+              "Because only one country was allowed to draw circuits",
+              "Standard symbols have no real purpose",
+            ],
+            optionsMy: [
+              "ဘာသာပြန်မလိုအပ်ဘဲ ပုံကားတစ်ခုကို နေရာတိုင်းတွင် ဖတ်ရှုပြီး နားလည်နိုင်စေရန်",
+              "ပုံကားများကို ပိုလှစေရန်",
+              "နိုင်ငံတစ်ခုတည်းသာ ဆားကစ်များ ရေးဆွဲခွင့်ရှိခြင်း",
+              "စံညွှန်း သင်္ကေတများတွင် တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What earlier lesson does Hnin Wai compare circuit diagrams to?",
+            questionMy:
+                "ဆားကစ် ပုံကားများကို နှင်းဝေ မည်သည့် ယခင်သင်ခန်းစာနှင့် နှိုင်းယှဉ်သနည်း။",
+            optionsEn: [
+              "Classification keys",
+              "The circulatory system",
+              "Micro-organisms",
+              "Natural selection",
+            ],
+            optionsMy: [
+              "အုပ်စုခွဲ သော့ချက်များ",
+              "သွေးလည်ပတ်မှု စနစ်",
+              "အဏုဇီဝဖြစ်စဉ်များ",
+              "သဘာဝ ရွေးချယ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w23-d5",
+      dayNumber: 5,
+      titleEn: "Circuit Symbols Round-Up",
+      titleMy: "ဆားကစ် သင်္ကေတများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What symbol usually represents a switch in a circuit diagram?",
+          questionMy:
+              "ဆားကစ် ပုံကားတစ်ခုတွင် ခလုတ်ကို များသောအားဖြင့် ကိုယ်စားပြုသော သင်္ကေတမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A break in a line with a small gap",
+            "A perfect circle",
+            "A wavy line",
+            "A solid triangle",
+          ],
+          optionsMy: [
+            "ကွက်လပ်ငယ်ပါသော မျဉ်း ကျိုးပြတ်ပြသည်",
+            "စက်ဝိုင်းစစ်စစ်",
+            "ရေလှိုင်းပုံစံ မျဉ်း",
+            "အစိုင်အခဲ တြိဂံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Hnin Wai's pen pal's diagram make sense to her, despite the language difference?",
+          questionMy:
+              "ဘာသာစကား ကွာခြားသော်လည်း စာပေါင်ဆက်၏ ပုံကားသည် ၎င်းအတွက် အဓိပ္ပာယ်ရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Circuit symbols are standard everywhere",
+            "She secretly understood the other language",
+            "The diagram had no symbols at all",
+            "Her teacher translated it for her",
+          ],
+          optionsMy: [
+            "ဆားကစ် သင်္ကေတများသည် နေရာတိုင်းတွင် စံညွှန်း ဖြစ်ခြင်း",
+            "အခြားဘာသာစကားကို လျှို့ဝှက်စွာ နားလည်ခြင်း",
+            "ပုံကားတွင် သင်္ကေတ လုံးဝမပါခြင်း",
+            "ဆရာမက ၎င်းအတွက် ဘာသာပြန်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a circuit diagram show that a photograph might not show as clearly?",
+          questionMy:
+              "ဓာတ်ပုံတစ်ခုက ရှင်းလင်းစွာ မပြသနိုင်သော်လည်း ဆားကစ် ပုံကားတစ်ခုက ပြသသော အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "How the components are connected",
+            "The exact colour of every wire",
+            "The brand name of the battery",
+            "The temperature of the room",
+          ],
+          optionsMy: [
+            "အစိတ်အပိုင်းများ မည်သို့ ချိတ်ဆက်ကြောင်း",
+            "ကြိုးတိုင်း၏ တိကျသော အရောင်",
+            "ဘက်ထရီ၏ ကုန်အမှတ်တံဆိပ်",
+            "အခန်း၏ အပူချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does Hnin Wai compare circuit diagrams to classification keys?",
+          questionMy:
+              "ဆားကစ် ပုံကားများကို အုပ်စုခွဲ သော့ချက်များနှင့် နှင်းဝေ မည်သို့ နှိုင်းယှဉ်သနည်း။",
+          optionsEn: [
+            "Both use a small, agreed-upon set of symbols or questions to communicate clearly",
+            "They have absolutely nothing in common",
+            "Only classification keys use symbols",
+            "Only circuit diagrams need agreement between people",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးသည် ရှင်းလင်းစွာ ဆက်သွယ်ရန် သဘောတူညီပြီးသား သင်္ကေတများ သို့မဟုတ် မေးခွန်းများ အနည်းငယ်ကို အသုံးပြုခြင်း",
+            "နှစ်ခုတွင် လုံးဝ တူညီသည့်အရာ မရှိခြင်း",
+            "အုပ်စုခွဲ သော့ချက်များသာ သင်္ကေတများ အသုံးပြုခြင်း",
+            "ဆားကစ် ပုံကားများသာ လူများအကြား သဘောတူညီမှု လိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on circuit diagrams teach?",
+          questionMy:
+              "ဤအပတ်စာ ဆားကစ် ပုံကား သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Standard symbols let people communicate complex ideas clearly across any language barrier",
+            "Circuit diagrams are only understood in one country",
+            "Symbols make circuits harder to understand",
+            "Only photographs can show how a circuit works",
+          ],
+          optionsMy: [
+            "စံညွှန်း သင်္ကေတများသည် ဘာသာစကား အတားအဆီးမည်သို့ ရှိစေ ရှုပ်ထွေးသော အယူအဆများကို ရှင်းလင်းစွာ ဆက်သွယ်နိုင်စေခြင်း",
+            "ဆားကစ် ပုံကားများကို နိုင်ငံတစ်ခုတည်းတွင်သာ နားလည်နိုင်ခြင်း",
+            "သင်္ကေတများက ဆားကစ်များကို နားလည်ရန် ပိုခက်ခဲစေခြင်း",
+            "ဆားကစ်တစ်ခု မည်သို့ အလုပ်လုပ်ကြောင်းကို ဓာတ်ပုံများသာ ပြသနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 6, Week 24 (Capstone): "Nova School Circuit
+// Design Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek24 = CourseWeekDef(
+  id: "course-year6-science-w24",
+  weekNumber: 24,
+  titleEn: "Nova School Circuit Design Studio",
+  titleMy: "Nova ကျောင်း ဆားကစ် ဒီဇိုင်း အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w24-d1",
+      dayNumber: 1,
+      titleEn: "Electricity Review",
+      titleMy: "လျှပ်စစ် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What must a circuit be for a bulb to light up?",
+          questionMy: "မီးအိမ် ထွန်းလင်းရန် ဆားကစ်တစ်ခု မည်သို့ ဖြစ်ရမည်နည်း။",
+          optionsEn: [
+            "Complete, with no gaps",
+            "Made only of plastic",
+            "Extremely long",
+            "Very colourful",
+          ],
+          optionsMy: [
+            "ကွက်လပ် မရှိဘဲ ပြီးပြည့်စုံခြင်း",
+            "ပလတ်စတစ်ဖြင့်သာ ပြုလုပ်ခြင်း",
+            "အလွန်ရှည်လျားခြင်း",
+            "အလွန်အရောင်စုံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens to a bulb's brightness when a second battery is added in the same direction?",
+          questionMy:
+              "တစ်ဘက်တည်းဦးတည်၍ ဒုတိယ ဘက်ထရီ ထပ်ထည့်လိုက်သောအခါ မီးအိမ်၏ တောက်ပမှုတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It becomes brighter",
+            "It becomes dimmer",
+            "Nothing changes",
+            "It turns off",
+          ],
+          optionsMy: [
+            "ပိုတောက်ပလာခြင်း",
+            "ပိုမှိန်လာခြင်း",
+            "ဘာမျှ မပြောင်းလဲခြင်း",
+            "ပိတ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do scientists use standard circuit symbols?",
+          questionMy:
+              "သိပ္ပံပညာရှင်များသည် စံညွှန်း ဆားကစ် သင်္ကေတများကို အသုံးပြုသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "So diagrams can be understood anywhere without translation",
+            "To make circuits look prettier",
+            "Because photographs are never allowed",
+            "Symbols have no real purpose",
+          ],
+          optionsMy: [
+            "ဘာသာပြန်မလိုအပ်ဘဲ ပုံကားများကို နေရာတိုင်းတွင် နားလည်နိုင်စေရန်",
+            "ဆားကစ်များကို ပိုလှစေရန်",
+            "ဓာတ်ပုံများကို ဘယ်တော့မှ ခွင့်မပြုသောကြောင့်",
+            "သင်္ကေတများတွင် တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What was the actual problem in Hnin Wai's torch repair story?",
+          questionMy:
+              "နှင်းဝေ၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်တွင် တကယ့်ပြဿနာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A loose metal strip created a gap in the circuit",
+            "The bulb was too bright",
+            "The switch was too big",
+            "The batteries were the wrong colour",
+          ],
+          optionsMy: [
+            "ကွာသွားသော သတ္တုအစင်းတစ်ခုက ဆားကစ်တွင် ကွက်လပ်တစ်ခု ဖြစ်စေခြင်း",
+            "မီးအိမ် အလွန်တောက်ပခြင်း",
+            "ခလုတ် အလွန်ကြီးခြင်း",
+            "ဘက်ထရီများ အရောင်မှားနေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea connects circuits, voltage/current, and circuit symbols this term?",
+          questionMy:
+              "ဤ Term အတွင်း ဆားကစ်များ၊ ဗို့အား/လျှပ်စီးနှင့် ဆားကစ် သင်္ကေတများကို ဆက်စပ်ပေးသော တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Electricity flows through complete, well-understood loops that can be measured and drawn clearly",
+            "Electricity has no connection to circuits at all",
+            "Only one country understands how circuits work",
+            "Circuits never need to be complete to function",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အားသည် တိုင်းတာနိုင်ပြီး ရှင်းလင်းစွာ ရေးဆွဲနိုင်သော ကောင်းစွာနားလည်ထားသော ပြီးပြည့်စုံသော ကွင်းလုံးများမှတစ်ဆင့် စီးဆင်းခြင်း",
+            "လျှပ်စစ်ဓာတ်အားသည် ဆားကစ်များနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "နိုင်ငံတစ်ခုတည်းသာ ဆားကစ်များ မည်သို့ အလုပ်လုပ်ကြောင်း နားလည်ခြင်း",
+            "ဆားကစ်များသည် အလုပ်လုပ်ရန် ပြီးပြည့်စုံရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 6 Vocabulary",
+      titleMy: "Term 6 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w24-dm-1",
+          termEn: "Circuit",
+          termMy: "ဆားကစ် (Circuit)",
+          matchEn: "A complete loop that electricity can flow around",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပြီးပြည့်စုံသော ကွင်းလုံး",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w24-dm-2",
+          termEn: "Voltage",
+          termMy: "ဗို့အား (Voltage)",
+          matchEn: "The push or energy driving electricity around a circuit",
+          matchMy:
+              "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို မောင်းနှင်သော တွန်းအား သို့မဟုတ် စွမ်းအင်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w24-dm-3",
+          termEn: "Current",
+          termMy: "လျှပ်စီး (Current)",
+          matchEn: "The flow of electricity through a circuit",
+          matchMy: "ဆားကစ်တစ်ခုတစ်ဆင့် လျှပ်စစ်ဓာတ်အား စီးဆင်းခြင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w24-dm-4",
+          termEn: "Conductor",
+          termMy: "လျှပ်ကူးပစ္စည်း (Conductor)",
+          matchEn: "A material that lets electricity flow through it easily",
+          matchMy: "လျှပ်စစ်ဓာတ်အား လွယ်ကူစွာ ဖြတ်သန်းနိုင်စေသော ပစ္စည်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w24-dm-5",
+          termEn: "Circuit diagram",
+          termMy: "ဆားကစ် ပုံကား (Circuit diagram)",
+          matchEn:
+              "A drawing that shows how circuit components are connected using symbols",
+          matchMy:
+              "သင်္ကေတများကို အသုံးပြု၍ ဆားကစ် အစိတ်အပိုင်းများ မည်သို့ ချိတ်ဆက်ကြောင်း ပြသော ရေးဆွဲပုံ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w24-dm-6",
+          termEn: "Switch",
+          termMy: "ခလုတ် (Switch)",
+          matchEn: "A component that opens or closes a circuit",
+          matchMy: "ဆားကစ်ကို ဖွင့် သို့မဟုတ် ပိတ်ပေးသော အစိတ်အပိုင်း",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases Brightness or Breaks the Circuit?",
+      titleMy: "စီစစ်ကြမည် - တောက်ပမှု တိုးစေသလား၊ ဆားကစ်ကို ချိုးဖျက်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases brightness", "Breaks the circuit"],
+        bucketsMy: ["တောက်ပမှု တိုးစေသည်", "ဆားကစ်ကို ချိုးဖျက်သည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w24-sort-1",
+            labelEn: "Adding a second battery in the same direction",
+            labelMy: "တစ်ဘက်တည်းဦးတည်၍ ဒုတိယ ဘက်ထရီ ထည့်ခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w24-sort-2",
+            labelEn: "A wire coming loose from a terminal",
+            labelMy: "ထိပ်ဖျားမှ ကြိုးတစ်ချောင်း ကွာသွားခြင်း",
+            correctBucketEn: "Breaks the circuit",
+            correctBucketMy: "ဆားကစ်ကို ချိုးဖျက်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w24-sort-3",
+            labelEn: "Using a higher-voltage battery",
+            labelMy: "ဗို့အားပိုမြင့်သော ဘက်ထရီ အသုံးပြုခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w24-sort-4",
+            labelEn: "Opening the switch to off",
+            labelMy: "ခလုတ်ကို ပိတ်ဘက်သို့ ဖွင့်ခြင်း",
+            correctBucketEn: "Breaks the circuit",
+            correctBucketMy: "ဆားကစ်ကို ချိုးဖျက်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w24-sort-5",
+            labelEn: "Removing extra resistance from the loop",
+            labelMy: "ကွင်းလုံးမှ ပိုလျှံသော ခံနိုင်ရည် ဖယ်ရှားခြင်း",
+            correctBucketEn: "Increases brightness",
+            correctBucketMy: "တောက်ပမှု တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w24-sort-6",
+            labelEn: "Cutting a wire in the middle of the loop",
+            labelMy: "ကွင်းလုံး အလယ်တွင် ကြိုးတစ်ချောင်းကို ဖြတ်ခြင်း",
+            correctBucketEn: "Breaks the circuit",
+            correctBucketMy: "ဆားကစ်ကို ချိုးဖျက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Circuit Design Fair",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ဆားကစ် ဒီဇိုင်း ပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Circuit Design Fair",
+        titleMy: "နှင်းဝေ၏ ဆားကစ် ဒီဇိုင်း ပွဲတော်",
+        passageEn:
+            "To close Term 6, Nova School holds a Circuit Design Studio where every group must build a working circuit, draw its diagram using standard symbols, and explain how changing its components changes its behaviour. Hnin Wai's group builds a simple circuit with two batteries, one switch, and one bulb, remembering her earlier experiment showing that two batteries make a bulb brighter than one.\n\nHer teammate draws the circuit diagram carefully, using a long-short line pair for each battery, a circle-and-cross for the bulb, and a break in the line for the switch -- exactly the standard symbols Hnin Wai's international pen pal used in a completely different country. When they test the real circuit, closing the switch instantly lights the bulb brightly, matching what the diagram predicted before they even built anything.\n\nA judge visiting their stand deliberately loosens one wire slightly, and the bulb immediately goes dark. Hnin Wai calmly checks each connection point, just as she did while repairing her old torch, and quickly finds and reconnects the loose wire. The judge, impressed, asks the group to summarise everything they learned this term in one sentence, and Hnin Wai answers: a circuit is a complete, predictable system where every component -- batteries, switches, bulbs, and the connections between them -- plays a specific role that can be drawn, tested, and fixed using the same universal symbols anywhere in the world.",
+        passageMy:
+            "Term 6 ပြီးဆုံးရန် Nova School သည် ဆားကစ် ဒီဇိုင်း အလုပ်ရုံကို ကျင်းပပြီး အုပ်စုတိုင်းသည် အလုပ်လုပ်သော ဆားကစ်တစ်ခု တည်ဆောက်ရမည်၊ ၎င်း၏ ပုံကားကို စံညွှန်း သင်္ကေတများကို အသုံးပြု၍ ရေးဆွဲရမည်နှင့် ၎င်း၏ အစိတ်အပိုင်းများ ပြောင်းလဲခြင်းသည် ၎င်း၏ အပြုအမူကို မည်သို့ ပြောင်းလဲစေကြောင်း ရှင်းပြရမည်ဖြစ်သည်။ နှင်းဝေ၏ အုပ်စုသည် ဘက်ထရီနှစ်ခု၊ ခလုတ်တစ်ခုနှင့် မီးအိမ်တစ်ခုပါသော ရိုးရှင်းသော ဆားကစ်တစ်ခု တည်ဆောက်ပြီး ဘက်ထရီနှစ်ခုသည် တစ်ခုထက် မီးအိမ်ကို ပိုတောက်ပစေကြောင်း ပြသခဲ့သော ၎င်း၏ အစောပိုင်း စမ်းသပ်မှုကို သတိရသည်။\n\n၎င်း၏ အသင်းဖော်သည် ဆားကစ် ပုံကားကို ဂရုတစိုက် ရေးဆွဲသည်၊ ဘက်ထရီတစ်ခုစီအတွက် ရှည်-တို မျဉ်းစုံ၊ မီးအိမ်အတွက် စက်ဝိုင်း-ကြက်ခြေခတ်နှင့် ခလုတ်အတွက် မျဉ်း ကျိုးပြတ်ခြင်း - နှင်းဝေ၏ နိုင်ငံတကာ စာပေါင်ဆက်က လုံးဝကွဲပြားသော နိုင်ငံတစ်ခုတွင် အသုံးပြုခဲ့သော စံညွှန်း သင်္ကေတများနှင့် အတိအကျ တူညီစွာ။ တကယ့်ဆားကစ်ကို စမ်းသပ်ကြည့်သောအခါ ခလုတ်ကို ပိတ်လိုက်ခြင်းသည် မီးအိမ်ကို ချက်ချင်း တောက်ပစွာ ထွန်းလင်းစေပြီး ဘာမှမတည်ဆောက်မီပင် ပုံကားက ခန့်မှန်းခဲ့သည်နှင့် ကိုက်ညီသည်။\n\nတရားသူကြီးတစ်ဦးသည် ၎င်းတို့၏ ပြခန်းသို့ လာရောက်စဉ် ကြိုးတစ်ချောင်းကို တမင် အနည်းငယ် ကွာစေလိုက်ရာ မီးအိမ် ချက်ချင်း အမှောင်ထဲကျသွားသည်။ နှင်းဝေသည် ၎င်း၏ တံခါးလိပ်မီးဟောင်းကို ပြုပြင်စဉ် ပြုလုပ်ခဲ့သည့်အတိုင်း ချိတ်ဆက်မှုနေရာတစ်ခုချင်းစီကို တည်ငြိမ်စွာ စစ်ဆေးပြီး ကွာနေသော ကြိုးကို လျင်မြန်စွာ တွေ့ရှိကာ ပြန်ချိတ်ဆက်သည်။ ကြည်နူးသွားသော တရားသူကြီးသည် ဤ Term တွင် သင်ယူခဲ့သမျှကို စာကြောင်းတစ်ကြောင်းဖြင့် အနှစ်ချုပ်ရန် အုပ်စုအား တောင်းဆိုသည်၊ နှင်းဝေက ဖြေဆိုသည် - ဆားကစ်တစ်ခုသည် ပြီးပြည့်စုံသော၊ ခန့်မှန်းနိုင်သော စနစ်တစ်ခုဖြစ်ပြီး အစိတ်အပိုင်းတစ်ခုစီ - ဘက်ထရီများ၊ ခလုတ်များ၊ မီးအိမ်များနှင့် ၎င်းတို့ကြား ချိတ်ဆက်မှုများ - သည် ကမ္ဘာပေါ်ရှိ မည်သည့်နေရာတွင်မဆို တူညီသော နိုင်ငံတကာ သင်္ကေတများကို အသုံးပြု၍ ရေးဆွဲ၊ စမ်းသပ်နှင့် ပြုပြင်နိုင်သော တိကျသော အခန်းကဏ္ဍတစ်ခု ပါဝင်ကြောင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What circuit does Hnin Wai's group build for the fair?",
+            questionMy:
+                "ပွဲတော်အတွက် နှင်းဝေ၏ အုပ်စု မည်သည့် ဆားကစ် တည်ဆောက်သနည်း။",
+            optionsEn: [
+              "Two batteries, one switch, and one bulb",
+              "Only a switch with nothing else",
+              "Ten bulbs and no battery",
+              "A circuit with no wires at all",
+            ],
+            optionsMy: [
+              "ဘက်ထရီနှစ်ခု၊ ခလုတ်တစ်ခုနှင့် မီးအိမ်တစ်ခု",
+              "အခြားဘာမျှမပါဘဲ ခလုတ်တစ်ခုသာ",
+              "မီးအိမ်ဆယ်ခုနှင့် ဘက်ထရီမပါ",
+              "ကြိုးလုံးဝမပါသော ဆားကစ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What symbols does the teammate use to draw the circuit diagram?",
+            questionMy:
+                "ဆားကစ် ပုံကားကို ရေးဆွဲရန် အသင်းဖော် မည်သည့် သင်္ကေတများ အသုံးပြုသနည်း။",
+            optionsEn: [
+              "The same standard symbols Hnin Wai's pen pal used",
+              "A completely new set of made-up symbols",
+              "Colourful photographs only",
+              "Random shapes with no meaning",
+            ],
+            optionsMy: [
+              "နှင်းဝေ၏ စာပေါင်ဆက် အသုံးပြုခဲ့သော စံညွှန်း သင်္ကေတများ အတူတူ",
+              "လုံးဝသစ်သော ကိုယ်တိုင်တီထွင်ထားသော သင်္ကေတများ",
+              "အရောင်စုံ ဓာတ်ပုံများသာ",
+              "အဓိပ္ပာယ် မရှိသော ကျပန်း ပုံသဏ္ဍာန်များ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the judge deliberately do to test the group's circuit?",
+            questionMy:
+                "အုပ်စု၏ ဆားကစ်ကို စမ်းသပ်ရန် တရားသူကြီး တမင် အဘယ်အရာ ပြုလုပ်သနည်း။",
+            optionsEn: [
+              "Loosens one wire slightly",
+              "Adds ten extra batteries",
+              "Removes the bulb entirely",
+              "Paints the circuit a new colour",
+            ],
+            optionsMy: [
+              "ကြိုးတစ်ချောင်းကို အနည်းငယ် ကွာစေခြင်း",
+              "ဘက်ထရီ ဆယ်ခု ထပ်ထည့်ခြင်း",
+              "မီးအိမ်ကို လုံးဝ ဖယ်ရှားခြင်း",
+              "ဆားကစ်ကို အရောင်သစ်ဖြင့် ဆေးသုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai fix the circuit when the judge loosens the wire?",
+            questionMy:
+                "တရားသူကြီးက ကြိုးကို ကွာစေလိုက်သောအခါ ဆားကစ်ကို နှင်းဝေ မည်သို့ ပြုပြင်သနည်း။",
+            optionsEn: [
+              "By calmly checking each connection point and reconnecting the loose wire",
+              "By buying an entirely new circuit",
+              "By giving up immediately",
+              "By adding more bulbs instead",
+            ],
+            optionsMy: [
+              "ချိတ်ဆက်မှုနေရာတစ်ခုချင်းစီကို တည်ငြိမ်စွာ စစ်ဆေးပြီး ကွာနေသော ကြိုးကို ပြန်ချိတ်ဆက်ခြင်းဖြင့်",
+              "ဆားကစ်အသစ် လုံးဝ ဝယ်ယူခြင်းဖြင့်",
+              "ချက်ချင်း လက်လျှော့ခြင်းဖြင့်",
+              "မီးအိမ်များ ထပ်ထည့်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai summarise the whole term in one sentence?",
+            questionMy:
+                "Term တစ်ခုလုံးကို နှင်းဝေ စာကြောင်းတစ်ကြောင်းဖြင့် မည်သို့ အနှစ်ချုပ်သနည်း။",
+            optionsEn: [
+              "A circuit is a complete, predictable system where every component plays a specific role, drawable with universal symbols",
+              "Circuits are random and unpredictable",
+              "Only one country can understand circuits",
+              "Circuits never need to be tested",
+            ],
+            optionsMy: [
+              "ဆားကစ်တစ်ခုသည် အစိတ်အပိုင်းတစ်ခုစီ တိကျသော အခန်းကဏ္ဍ ပါဝင်ပြီး နိုင်ငံတကာ သင်္ကေတများဖြင့် ရေးဆွဲနိုင်သော ပြီးပြည့်စုံသော၊ ခန့်မှန်းနိုင်သော စနစ်တစ်ခု ဖြစ်ခြင်း",
+              "ဆားကစ်များသည် ကျပန်းနှင့် ခန့်မှန်း၍မရနိုင်ခြင်း",
+              "နိုင်ငံတစ်ခုတည်းသာ ဆားကစ်များကို နားလည်နိုင်ခြင်း",
+              "ဆားကစ်များကို ဘယ်တော့မှ စမ်းသပ်ရန် မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone Challenge",
+      titleMy: "Term 6 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does closing a switch do in a working circuit?",
+          questionMy:
+              "အလုပ်လုပ်သော ဆားကစ်တစ်ခုတွင် ခလုတ်ကို ပိတ်ခြင်းသည် အဘယ်အရာ ပြုလုပ်သနည်း။",
+          optionsEn: [
+            "Completes the loop, letting electricity flow",
+            "Breaks the loop permanently",
+            "Creates a new battery",
+            "Changes the bulb's colour",
+          ],
+          optionsMy: [
+            "ကွင်းလုံးကို ပြီးစီးစေပြီး လျှပ်စစ်ဓာတ်အား စီးဆင်းစေခြင်း",
+            "ကွင်းလုံးကို ထာဝစဉ် ချိုးဖျက်ခြင်း",
+            "ဘက်ထရီအသစ် ဖန်တီးခြင်း",
+            "မီးအိမ်၏ အရောင် ပြောင်းလဲစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's fair story, what happened as soon as the judge loosened one wire?",
+          questionMy:
+              "နှင်းဝေ၏ ပွဲတော် ပုံပြင်တွင် တရားသူကြီးက ကြိုးတစ်ချောင်းကို ကွာစေလိုက်သည်နှင့် ချက်ချင်း အဘယ်အရာ ဖြစ်ပျက်ခဲ့သနည်း။",
+          optionsEn: [
+            "The bulb went dark immediately",
+            "The bulb became brighter",
+            "Nothing happened at all",
+            "A new battery appeared",
+          ],
+          optionsMy: [
+            "မီးအိမ် ချက်ချင်း အမှောင်ထဲကျသွားခြင်း",
+            "မီးအိမ် ပိုတောက်ပလာခြင်း",
+            "ဘာမျှ လုံးဝ မဖြစ်ပျက်ခြင်း",
+            "ဘက်ထရီအသစ် ပေါ်လာခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why could Hnin Wai's teammate's circuit diagram be understood by her international pen pal?",
+          questionMy:
+              "နှင်းဝေ၏ အသင်းဖော်၏ ဆားကစ် ပုံကားကို ၎င်း၏ နိုင်ငံတကာ စာပေါင်ဆက် နားလည်နိုင်ခဲ့သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Circuit symbols are internationally standard",
+            "They happened to speak the same language",
+            "The diagram had no symbols",
+            "The pen pal guessed randomly",
+          ],
+          optionsMy: [
+            "ဆားကစ် သင်္ကေတများသည် နိုင်ငံတကာစံညွှန်း ဖြစ်ခြင်း",
+            "တူညီသော ဘာသာစကား ပြောခြင်း ဖြစ်ကြခြင်း",
+            "ပုံကားတွင် သင်္ကေတ မပါခြင်း",
+            "စာပေါင်ဆက် ကျပန်း ခန့်မှန်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which two factors from this term both affect a bulb's brightness in opposite ways?",
+          questionMy:
+              "ဤ Term မှ အချက်နှစ်ခုသည် မီးအိမ်၏ တောက်ပမှုကို ဆန့်ကျင်ဘက်နည်းလမ်းများဖြင့် သက်ရောက်စေသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The number of batteries and the number of bulbs sharing the circuit",
+            "The colour of the wire and the shape of the switch",
+            "The weight of the battery and the length of the wire",
+            "The temperature of the room and the time of day",
+          ],
+          optionsMy: [
+            "ဘက်ထရီအရေအတွက်နှင့် ဆားကစ်ကို ဝေမျှသော မီးအိမ်အရေအတွက်",
+            "ကြိုး၏ အရောင်နှင့် ခလုတ်၏ ပုံသဏ္ဍာန်",
+            "ဘက်ထရီ၏ အလေးချိန်နှင့် ကြိုး၏ အလျား",
+            "အခန်း၏ အပူချိန်နှင့် နေ့၏ အချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 6 -- circuits, voltage/current, and circuit symbols?",
+          questionMy:
+              "Term 6 တစ်ခုလုံး - ဆားကစ်များ၊ ဗို့အား/လျှပ်စီးနှင့် ဆားကစ် သင်္ကေတများကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Electricity behaves predictably in complete circuits, and this predictable behaviour can be measured and communicated with universal symbols",
+            "Electricity behaves completely randomly with no pattern",
+            "Circuit diagrams and real circuits have no connection to each other",
+            "Only one type of circuit exists in the whole world",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အားသည် ပြီးပြည့်စုံသော ဆားကစ်များတွင် ခန့်မှန်းနိုင်စွာ အပြုအမူပြပြီး ဤခန့်မှန်းနိုင်သော အပြုအမူကို တိုင်းတာ၍ နိုင်ငံတကာ သင်္ကေတများဖြင့် ဆက်သွယ်နိုင်ခြင်း",
+            "လျှပ်စစ်ဓာတ်အားသည် ပုံစံမရှိဘဲ လုံးဝ ကျပန်း အပြုအမူပြခြင်း",
+            "ဆားကစ် ပုံကားများနှင့် တကယ့်ဆားကစ်များတွင် တစ်ခုနှင့်တစ်ခု ဆက်စပ်မှု မရှိခြင်း",
+            "ကမ္ဘာတစ်ဝှမ်းလုံးတွင် ဆားကစ် အမျိုးအစား တစ်ခုတည်းသာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm6 = CourseTermDef(
+  id: "course-year6-science-t6",
+  termNumber: 6,
+  titleEn: "Electricity",
+  titleMy: "လျှပ်စစ်",
+  certificateTitleEn: "Electricity",
+  certificateTitleMy: "လျှပ်စစ်",
+  weeks: [
+    _year6ScienceWeek21,
+    _year6ScienceWeek22,
+    _year6ScienceWeek23,
+    _year6ScienceWeek24,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 7, Week 25: "Properties of Materials and
+// Their Uses"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek25 = CourseWeekDef(
+  id: "course-year6-science-w25",
+  weekNumber: 25,
+  titleEn: "Properties of Materials and Their Uses",
+  titleMy: "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် အသုံးချမှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w25-d1",
+      dayNumber: 1,
+      titleEn: "Choosing Materials for a Job",
+      titleMy: "အလုပ်တစ်ခုအတွက် ပစ္စည်းများ ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why are cooking pots often made of metal rather than plastic?",
+          questionMy:
+              "ဟင်းချက်အိုးများကို ပလတ်စတစ်အစား သတ္တုဖြင့် များသောအားဖြင့် ပြုလုပ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Metal conducts heat well and can withstand high temperatures",
+            "Plastic is always more expensive than metal",
+            "Metal is always lighter than plastic",
+            "Plastic conducts heat better than metal",
+          ],
+          optionsMy: [
+            "သတ္တုက အပူကို ကောင်းစွာ ကူးစက်ပေးနိုင်ပြီး အပူချိန်မြင့်မားမှုကို ခံနိုင်ရည်ရှိခြင်း",
+            "ပလတ်စတစ်သည် သတ္တုထက် အမြဲတမ်း ဈေးကြီးခြင်း",
+            "သတ္တုသည် ပလတ်စတစ်ထက် အမြဲတမ်း ပေါ့ပါးခြင်း",
+            "ပလတ်စတစ်သည် သတ္တုထက် အပူ ပိုကူးစက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why are windows usually made of glass rather than wood?",
+          questionMy:
+              "ပြတင်းပေါက်များကို သစ်သားအစား ကြည်လင်သောမှန်ဖြင့် များသောအားဖြင့် ပြုလုပ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Glass is transparent, letting light through",
+            "Wood is always transparent",
+            "Glass is always the cheapest material",
+            "Glass is a good conductor of electricity",
+          ],
+          optionsMy: [
+            "ကြည်လင်သောမှန်သည် ပွင့်လင်းမြင်သာသောကြောင့် အလင်းရောင် ဖြတ်သန်းခွင့်ပြုခြင်း",
+            "သစ်သားသည် အမြဲတမ်း ပွင့်လင်းမြင်သာခြင်း",
+            "ကြည်လင်သောမှန်သည် အမြဲတမ်း အဈေးဆုံးပစ္စည်းဖြစ်ခြင်း",
+            "ကြည်လင်သောမှန်သည် လျှပ်စစ်ဓာတ်အားကို ကောင်းစွာ ကူးစက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which property makes rubber a good choice for the soles of shoes?",
+          questionMy:
+              "ဖိနပ်၏ ခြေအောက်ခံအတွက် ရာဘာကို ရွေးချယ်ကောင်းစေသော ဂုဏ်သတ္တိမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It is flexible and provides good grip",
+            "It is completely transparent",
+            "It conducts electricity very well",
+            "It is extremely brittle",
+          ],
+          optionsMy: [
+            "ဆွဲဆန့်နိုင်ပြီး ကောင်းမွန်သော ဆွဲကိုင်နိုင်စွမ်း ပေးခြင်း",
+            "လုံးဝ ပွင့်လင်းမြင်သာခြင်း",
+            "လျှပ်စစ်ဓာတ်အားကို အလွန်ကောင်းစွာ ကူးစက်ခြင်း",
+            "အလွန်ကျိုးပဲ့လွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are electrical wires usually covered in plastic rather than left bare?",
+          questionMy:
+              "လျှပ်စစ်ကြိုးများကို ဗလာမချန်ဘဲ ပလတ်စတစ်ဖြင့် များသောအားဖြင့် ဖုံးအုပ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Plastic is an insulator, preventing electric shocks",
+            "Plastic conducts electricity very well",
+            "Plastic makes the wire heavier",
+            "Bare wires are always safer",
+          ],
+          optionsMy: [
+            "ပလတ်စတစ်သည် လျှပ်စစ်မကူးပစ္စည်းဖြစ်ပြီး လျှပ်စစ်ဒဏ် မထိစေရန် ကာကွယ်ပေးခြင်း",
+            "ပလတ်စတစ်သည် လျှပ်စစ်ဓာတ်အားကို အလွန်ကောင်းစွာ ကူးစက်ခြင်း",
+            "ပလတ်စတစ်က ကြိုးကို ပိုလေးလံစေခြင်း",
+            "ဗလာကြိုးများသည် အမြဲတမ်း ပိုလုံခြုံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai's teacher asks the class to design an umbrella. Which material property would matter most for the fabric part of the umbrella?",
+          questionMy:
+              "ထီးတစ်ခု ဒီဇိုင်းရေးဆွဲရန် နှင်းဝေ၏ ဆရာမက အတန်းအား တောင်းဆိုသည်။ ထီး၏ အထည်ပိုင်းအတွက် အရေးအကြီးဆုံး ပစ္စည်းဂုဏ်သတ္တိမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Being waterproof",
+            "Being a good conductor of electricity",
+            "Being completely transparent",
+            "Being magnetic",
+          ],
+          optionsMy: [
+            "ရေစိုမခံခြင်း",
+            "လျှပ်စစ်ဓာတ်အားကို ကောင်းစွာ ကူးစက်ခြင်း",
+            "လုံးဝ ပွင့်လင်းမြင်သာခြင်း",
+            "သံလိုက်ဓာတ်ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match the Material Properties Vocabulary",
+      titleMy: "ပစ္စည်း ဂုဏ်သတ္တိများ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w25-dm-1",
+          termEn: "Property",
+          termMy: "ဂုဏ်သတ္တိ (Property)",
+          matchEn:
+              "A characteristic of a material, such as being hard or transparent",
+          matchMy:
+              "မာကျောခြင်း သို့မဟုတ် ပွင့်လင်းမြင်သာခြင်းကဲ့သို့သော ပစ္စည်းတစ်ခု၏ ဂုဏ်သတ္တိ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w25-dm-2",
+          termEn: "Flexible",
+          termMy: "ဆွဲဆန့်နိုင်သော (Flexible)",
+          matchEn: "Able to bend without breaking",
+          matchMy: "မကျိုးပဲ့ဘဲ ကွေးနိုင်သော",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w25-dm-3",
+          termEn: "Waterproof",
+          termMy: "ရေစိုမခံသော (Waterproof)",
+          matchEn: "Not allowing water to pass through",
+          matchMy: "ရေ ဖြတ်သန်းခွင့် မပြုသော",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w25-dm-4",
+          termEn: "Brittle",
+          termMy: "ကျိုးပဲ့လွယ်သော (Brittle)",
+          matchEn: "Likely to crack or shatter when force is applied",
+          matchMy:
+              "ဖိအားပေးလိုက်သောအခါ ကွဲအက်ခြင်း သို့မဟုတ် ကျိုးပဲ့ခြင်း ဖြစ်လွယ်သော",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w25-dm-5",
+          termEn: "Durable",
+          termMy: "ခံနိုင်ရည်ရှိသော (Durable)",
+          matchEn: "Able to last a long time without breaking down",
+          matchMy: "မပျက်စီးဘဲ အချိန်ကြာရှည်စွာ ခံနိုင်ရည်ရှိသော",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w25-dm-6",
+          termEn: "Insulator",
+          termMy: "လျှပ်စစ်မကူးပစ္စည်း (Insulator)",
+          matchEn:
+              "A material that does not let electricity or heat pass through easily",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား သို့မဟုတ် အပူကို လွယ်ကူစွာ ဖြတ်သန်းခွင့် မပြုသော ပစ္စည်း",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good for Cooking Pots or Good for Umbrellas?",
+      titleMy: "စီစစ်ကြမည် - ဟင်းအိုးအတွက်ကောင်းသလား၊ ထီးအတွက်ကောင်းသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good for cooking pots", "Good for umbrellas"],
+        bucketsMy: ["ဟင်းအိုးအတွက် ကောင်းသည်", "ထီးအတွက် ကောင်းသည်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w25-sort-1",
+            labelEn: "Metal that conducts heat well",
+            labelMy: "အပူကို ကောင်းစွာ ကူးစက်သော သတ္တု",
+            correctBucketEn: "Good for cooking pots",
+            correctBucketMy: "ဟင်းအိုးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w25-sort-2",
+            labelEn: "Waterproof fabric",
+            labelMy: "ရေစိုမခံသော အထည်",
+            correctBucketEn: "Good for umbrellas",
+            correctBucketMy: "ထီးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w25-sort-3",
+            labelEn: "Metal that withstands high temperatures",
+            labelMy: "အပူချိန်မြင့်မားမှုကို ခံနိုင်ရည်ရှိသော သတ္တု",
+            correctBucketEn: "Good for cooking pots",
+            correctBucketMy: "ဟင်းအိုးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w25-sort-4",
+            labelEn: "Lightweight, flexible material for the canopy",
+            labelMy: "ထီးအုပ်အတွက် ပေါ့ပါး၊ ဆွဲဆန့်နိုင်သော ပစ္စည်း",
+            correctBucketEn: "Good for umbrellas",
+            correctBucketMy: "ထီးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w25-sort-5",
+            labelEn: "A metal handle that stays cool",
+            labelMy: "အေးမြနေသော သတ္တုအိတ်ကိုင်",
+            correctBucketEn: "Good for cooking pots",
+            correctBucketMy: "ဟင်းအိုးအတွက် ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "y6sci-w25-sort-6",
+            labelEn: "A flexible metal frame that folds and unfolds",
+            labelMy: "ခေါက်နိုင်ပြီး ဖြန့်နိုင်သော ဆွဲဆန့်နိုင်သည့် သတ္တုဘောင်",
+            correctBucketEn: "Good for umbrellas",
+            correctBucketMy: "ထီးအတွက် ကောင်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Rainy Season Umbrella",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ မိုးရာသီ ထီး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Rainy Season Umbrella",
+        titleMy: "နှင်းဝေ၏ မိုးရာသီ ထီး",
+        passageEn:
+            "When Hnin Wai's old umbrella breaks during Myanmar's rainy season, her mother takes her to the market to choose a replacement, and Hnin Wai decides to examine several umbrellas carefully before picking one. She notices that every umbrella's canopy is made from a smooth, tightly woven fabric that beads water on its surface rather than soaking it up -- a clear sign of a waterproof coating.\n\nNext, Hnin Wai tests the folding frame of each umbrella, bending the metal ribs gently to see how they respond. The cheapest umbrella's ribs feel stiff and snap back sharply, while a slightly more expensive umbrella's ribs flex smoothly and spring back gently, suggesting better quality metal that will survive strong winds without becoming brittle and breaking.\n\nFinally, Hnin Wai checks the handle, choosing one made of a rubber-coated material rather than bare metal, since rubber provides better grip when her hands are wet. Back home, she explains to her younger brother why the umbrella was designed the way it was: the fabric needed to be waterproof to keep them dry, the frame needed to be flexible enough to survive gusts of wind without becoming brittle, and the handle needed enough grip to stay secure even in a downpour -- three completely different jobs, each solved by choosing a material with the right properties for that specific part.",
+        passageMy:
+            "မြန်မာနိုင်ငံ၏ မိုးရာသီအတွင်း နှင်းဝေ၏ ထီးဟောင်း ပျက်စီးသွားသောအခါ ၎င်း၏ မိခင်သည် အစားထိုးဝယ်ယူရန် ဈေးထဲသို့ ခေါ်သွားပြီး နှင်းဝေသည် တစ်ခုကို မရွေးချယ်မီ ထီးများစွာကို ဂရုတစိုက် စစ်ဆေးရန် ဆုံးဖြတ်လိုက်သည်။ ထီးတိုင်း၏ အုပ်ဖုံးသည် ရေကို စုပ်ယူမည့်အစား မျက်နှာပြင်ပေါ်တွင် ရေစက်ဖြစ်စေသော ချောမွတ်ပြီး ကျစ်လျစ်စွာ ရက်ထားသော အထည်ဖြင့် ပြုလုပ်ထားသည်ကို သတိပြုမိသည် - ရေစိုမခံအလွှာ၏ ရှင်းလင်းသော လက္ခဏာတစ်ခု။\n\nထို့နောက် နှင်းဝေသည် ထီးတစ်ခုစီ၏ ခေါက်နိုင်ဘောင်ကို စမ်းသပ်ကြည့်ပြီး သတ္တုအရိုးများကို ဂရုတစိုက် ကွေးကြည့်ကာ ၎င်းတို့ မည်သို့ တုံ့ပြန်သည်ကို ကြည့်ရှုသည်။ အဈေးအသက်သာဆုံး ထီး၏ အရိုးများသည် တောင့်တင်းနေပြီး ချက်ချင်း ပြန်ဆန့်ကာ ကွက်ခနဲ ခုန်ကြသည်၊ အနည်းငယ် ဈေးကြီးသော ထီးတစ်ခု၏ အရိုးများမူ ချောမွေ့စွာ ကွေးဆန့်ပြီး နူးညံ့စွာ ပြန်ဆန့်ကြသည်၊ ၎င်းသည် ခိုင်မာသော လေများကို ကျိုးပဲ့လွယ်ဘဲ ခံနိုင်ရည်ရှိမည့် ပိုကောင်းသော သတ္တုအရည်အသွေးကို ညွှန်ပြသည်။\n\nနောက်ဆုံးတွင် နှင်းဝေသည် အိတ်ကိုင်ကို စစ်ဆေးပြီး ဗလာသတ္တုအစား ရာဘာအလွှာ ကပ်ထားသော ပစ္စည်းဖြင့် ပြုလုပ်ထားသော တစ်ခုကို ရွေးချယ်သည်၊ ၎င်း၏ လက်များ စိုနေသောအခါ ရာဘာသည် ပိုကောင်းသော ဆွဲကိုင်နိုင်စွမ်း ပေးသောကြောင့်ဖြစ်သည်။ အိမ်ပြန်ရောက်သောအခါ ၎င်းသည် ထီးကို ထိုသို့ ဒီဇိုင်းရေးဆွဲခဲ့သည်မှာ အဘယ်ကြောင့်ကြောင်း ညီလေးအား ရှင်းပြသည် - အထည်သည် ၎င်းတို့ကို ရေစိုစိုစိုမနေစေရန် ရေစိုမခံရမည်၊ ဘောင်သည် ကျိုးပဲ့ဘဲ လေချောင်းများကို ခံနိုင်ရန် လုံလောက်စွာ ဆွဲဆန့်နိုင်ရမည်၊ အိတ်ကိုင်မှာ မိုးသည်းထန်စွာ ရွာနေချိန်တွင်ပင် ခိုင်မာစွာ ကိုင်ဆွဲထားနိုင်ရန် လုံလောက်သော ဆွဲကိုင်နိုင်စွမ်း ရှိရမည် - လုံးဝကွဲပြားသော အလုပ်သုံးခု၊ တစ်ခုစီအတွက် ထိုက်တန်သော အစိတ်အပိုင်းအတွက် မှန်ကန်သော ဂုဏ်သတ္တိရှိသည့် ပစ္စည်းကို ရွေးချယ်ခြင်းဖြင့် ဖြေရှင်းထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai notice about the umbrella canopy's fabric?",
+            questionMy:
+                "ထီးအုပ်ဖုံး၏ အထည်အကြောင်း နှင်းဝေ အဘယ်အရာ သတိပြုမိသနည်း။",
+            optionsEn: [
+              "It beads water rather than soaking it up",
+              "It absorbs water instantly",
+              "It is made entirely of metal",
+              "It has no waterproof coating at all",
+            ],
+            optionsMy: [
+              "ရေကို စုပ်ယူမည့်အစား ရေစက်ဖြစ်စေခြင်း",
+              "ရေကို ချက်ချင်း စုပ်ယူခြင်း",
+              "သတ္တုဖြင့် လုံးလုံး ပြုလုပ်ထားခြင်း",
+              "ရေစိုမခံအလွှာ လုံးဝမရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What difference does Hnin Wai notice between the cheap and slightly more expensive umbrella's ribs?",
+            questionMy:
+                "စျေးပေါသောနှင့် အနည်းငယ်ဈေးကြီးသော ထီး၏ အရိုးများကြား ကွာခြားချက်ကို နှင်းဝေ အဘယ်အရာ သတိပြုမိသနည်း။",
+            optionsEn: [
+              "The more expensive one flexes smoothly, suggesting better quality metal",
+              "Both are exactly identical",
+              "The cheap one bends more smoothly",
+              "Neither umbrella has any ribs",
+            ],
+            optionsMy: [
+              "ဈေးကြီးသည်က ချောမွေ့စွာ ဆွဲဆန့်ပြီး ပိုကောင်းသော အရည်အသွေးရှိသော သတ္တုကို ညွှန်ပြခြင်း",
+              "နှစ်ခုစလုံး အတိအကျ တူညီခြင်း",
+              "စျေးပေါသည်က ပိုချောမွေ့စွာ ကွေးခြင်း",
+              "ထီးတစ်ခုမျှ အရိုး လုံးဝမပါခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai choose a rubber-coated handle rather than bare metal?",
+            questionMy:
+                "ဗလာသတ္တုအစား ရာဘာအလွှာကပ်ထားသော အိတ်ကိုင်ကို နှင်းဝေ ရွေးချယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Rubber provides better grip when hands are wet",
+              "Rubber is always heavier than metal",
+              "Bare metal is always more waterproof",
+              "Rubber conducts electricity better",
+            ],
+            optionsMy: [
+              "လက်များ စိုနေသောအခါ ရာဘာက ပိုကောင်းသော ဆွဲကိုင်နိုင်စွမ်း ပေးခြင်း",
+              "ရာဘာသည် သတ္တုထက် အမြဲတမ်း ပိုလေးလံခြင်း",
+              "ဗလာသတ္တုသည် အမြဲတမ်း ပိုရေစိုမခံခြင်း",
+              "ရာဘာသည် လျှပ်စစ်ဓာတ်အားကို ပိုကောင်းစွာ ကူးစက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many different jobs does Hnin Wai identify for the three parts of her umbrella?",
+            questionMy:
+                "မိမိ၏ ထီး၏ အစိတ်အပိုင်းသုံးခုအတွက် နှင်းဝေ ဖော်ထုတ်သော အလုပ် ဘယ်နှစ်ခု ကွဲပြားသနည်း။",
+            optionsEn: [
+              "Three completely different jobs",
+              "Only one job",
+              "Ten different jobs",
+              "No jobs at all",
+            ],
+            optionsMy: [
+              "လုံးဝကွဲပြားသော အလုပ်သုံးခု",
+              "အလုပ်တစ်ခုတည်း",
+              "ကွဲပြားသော အလုပ်ဆယ်ခု",
+              "အလုပ် လုံးဝမရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What overall idea does Hnin Wai explain to her younger brother?",
+            questionMy: "ညီလေးအား နှင်းဝေ ရှင်းပြသော ယေဘူယျ အယူအဆမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Each part of the umbrella needed a material with the right properties for its specific job",
+              "All parts of an umbrella should be made of the same material",
+              "Properties of materials do not matter for umbrella design",
+              "Umbrellas do not need to be waterproof",
+            ],
+            optionsMy: [
+              "ထီး၏ အစိတ်အပိုင်းတစ်ခုစီသည် ၎င်း၏ တိကျသော အလုပ်အတွက် မှန်ကန်သော ဂုဏ်သတ္တိရှိသည့် ပစ္စည်း လိုအပ်ခြင်း",
+              "ထီး၏ အစိတ်အပိုင်းအားလုံးကို ပစ္စည်းတစ်မျိုးတည်းဖြင့် ပြုလုပ်သင့်ခြင်း",
+              "ထီးဒီဇိုင်းအတွက် ပစ္စည်းများ၏ ဂုဏ်သတ္တိများ အရေးမကြီးခြင်း",
+              "ထီးများသည် ရေစိုမခံရန် မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w25-d5",
+      dayNumber: 5,
+      titleEn: "Material Properties Round-Up",
+      titleMy: "ပစ္စည်းဂုဏ်သတ္တိများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why is rubber a good choice for shoe soles?",
+          questionMy:
+              "ဖိနပ်ခြေအောက်ခံအတွက် ရာဘာသည် ရွေးချယ်ကောင်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It is flexible and grips well",
+            "It is transparent",
+            "It conducts electricity well",
+            "It is extremely brittle",
+          ],
+          optionsMy: [
+            "ဆွဲဆန့်နိုင်ပြီး ကောင်းစွာ ဆွဲကိုင်နိုင်ခြင်း",
+            "ပွင့်လင်းမြင်သာခြင်း",
+            "လျှပ်စစ်ဓာတ်အားကို ကောင်းစွာ ကူးစက်ခြင်း",
+            "အလွန်ကျိုးပဲ့လွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why are electrical wires covered in plastic?",
+          questionMy:
+              "လျှပ်စစ်ကြိုးများကို ပလတ်စတစ်ဖြင့် ဖုံးအုပ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Plastic is an insulator, preventing shocks",
+            "Plastic conducts electricity well",
+            "Plastic is always transparent",
+            "Plastic is always magnetic",
+          ],
+          optionsMy: [
+            "ပလတ်စတစ်သည် လျှပ်စစ်မကူးပစ္စည်းဖြစ်ပြီး လျှပ်စစ်ဒဏ်ကို ကာကွယ်ခြင်း",
+            "ပလတ်စတစ်သည် လျှပ်စစ်ဓာတ်အားကို ကောင်းစွာ ကူးစက်ခြင်း",
+            "ပလတ်စတစ်သည် အမြဲတမ်း ပွင့်လင်းမြင်သာခြင်း",
+            "ပလတ်စတစ်သည် အမြဲတမ်း သံလိုက်ဓာတ်ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's umbrella story, why did she choose a rubber-coated handle?",
+          questionMy:
+              "နှင်းဝေ၏ ထီးပုံပြင်တွင် ရာဘာအလွှာကပ်ထားသော အိတ်ကိုင်ကို ရွေးချယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "For better grip when wet",
+            "Because it is cheaper",
+            "Because it is transparent",
+            "Because it is magnetic",
+          ],
+          optionsMy: [
+            "စိုသောအခါ ပိုကောင်းသော ဆွဲကိုင်နိုင်စွမ်းအတွက်",
+            "ဈေးပေါသောကြောင့်",
+            "ပွင့်လင်းမြင်သာသောကြောင့်",
+            "သံလိုက်ဓာတ်ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which property matters most for a material used to make windows?",
+          questionMy:
+              "ပြတင်းပေါက်များ ပြုလုပ်ရန် အသုံးပြုသော ပစ္စည်းအတွက် အရေးအကြီးဆုံး ဂုဏ်သတ္တိမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Being transparent",
+            "Being magnetic",
+            "Being flexible",
+            "Being a good conductor of heat",
+          ],
+          optionsMy: [
+            "ပွင့်လင်းမြင်သာခြင်း",
+            "သံလိုက်ဓာတ်ရှိခြင်း",
+            "ဆွဲဆန့်နိုင်ခြင်း",
+            "အပူကို ကောင်းစွာ ကူးစက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on material properties teach?",
+          questionMy:
+              "ဤအပတ်စာ ပစ္စည်း ဂုဏ်သတ္တိများ သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Different jobs require materials with different, specific properties",
+            "All materials are equally suited to every job",
+            "Material properties do not affect how useful something is",
+            "Only one material exists for every job",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော အလုပ်များအတွက် ကွဲပြား၊ တိကျသော ဂုဏ်သတ္တိများရှိသည့် ပစ္စည်းများ လိုအပ်ခြင်း",
+            "ပစ္စည်းအားလုံးသည် အလုပ်တိုင်းအတွက် အညီအမျှ သင့်လျော်ခြင်း",
+            "ပစ္စည်း ဂုဏ်သတ္တိများသည် အရာတစ်ခု မည်မျှ အသုံးဝင်ခြင်းကို သက်ရောက်မှု မရှိခြင်း",
+            "အလုပ်တိုင်းအတွက် ပစ္စည်းတစ်မျိုးတည်းသာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 7, Week 26: "Dissolving and Solutions"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek26 = CourseWeekDef(
+  id: "course-year6-science-w26",
+  weekNumber: 26,
+  titleEn: "Dissolving and Solutions",
+  titleMy: "ပျော်ဝင်ခြင်းနှင့် ဒြပ်ရောများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w26-d1",
+      dayNumber: 1,
+      titleEn: "What Happens When Something Dissolves",
+      titleMy: "အရာတစ်ခု ပျော်ဝင်ချိန် အဘယ်အရာဖြစ်ပျက်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does it mean when a solid dissolves in a liquid?",
+          questionMy:
+              "အစိုင်အခဲတစ်ခု အရည်တစ်ခုတွင် ပျော်ဝင်သည်ဆိုသည်မှာ မည်သည့်အဓိပ္ပာယ်ရှိသနည်း။",
+          optionsEn: [
+            "It spreads evenly through the liquid to form a solution and cannot easily be seen anymore",
+            "It sinks to the bottom without changing at all",
+            "It turns into a gas immediately",
+            "It disappears completely and is destroyed forever",
+          ],
+          optionsMy: [
+            "အရည်တစ်ခုလုံးတွင် တညီတည်းပျံ့နှံ့ပြီး ဒြပ်ရောတစ်ခု ဖွဲ့စည်းကာ ထပ်မံလွယ်ကူစွာ မမြင်နိုင်တော့ခြင်း",
+            "လုံးဝ မပြောင်းလဲဘဲ အောက်ခြေသို့ ကျသွားခြင်း",
+            "ချက်ချင်း ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲသွားခြင်း",
+            "ထာဝစဉ် ဖျက်ဆီးခံရပြီး လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a solution?",
+          questionMy: "ဒြပ်ရော ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A mixture formed when a substance dissolves completely in a liquid",
+            "A solid that has not dissolved at all",
+            "A type of electrical circuit",
+            "A type of classification key",
+          ],
+          optionsMy: [
+            "ဓာတ်တစ်ခုသည် အရည်တစ်ခုတွင် လုံးလုံးပျော်ဝင်ချိန် ဖွဲ့စည်းလာသော ရောနှောမှု",
+            "လုံးဝ မပျော်ဝင်သေးသော အစိုင်အခဲ",
+            "လျှပ်စစ် ဆားကစ်တစ်မျိုး",
+            "အုပ်စုခွဲ သော့ချက် တစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these will dissolve in water?",
+          questionMy: "ရေထဲတွင် ပျော်ဝင်မည့် အရာမှာ အဘယ်နည်း။",
+          optionsEn: ["Sugar", "Sand", "A stone", "A wooden spoon"],
+          optionsMy: ["သကြား", "သဲ", "ကျောက်ခဲ", "သစ်သားဇွန်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What generally helps a solid dissolve faster in water?",
+          questionMy:
+              "အစိုင်အခဲတစ်ခု ရေတွင် ပိုမြန်စွာ ပျော်ဝင်စေရန် ယေဘူယျအားဖြင့် ကူညီပေးသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Warming the water and stirring",
+            "Freezing the water solid",
+            "Adding more sand",
+            "Leaving it perfectly still in cold water",
+          ],
+          optionsMy: [
+            "ရေကို နွေးထွေးစေပြီး လှုပ်ခတ်ခြင်း",
+            "ရေကို အစိုင်အခဲအောင် အေးခဲစေခြင်း",
+            "သဲ ပိုထည့်ခြင်း",
+            "ရေအေးထဲတွင် လုံးဝ ငြိမ်ငြိမ်ချန်ထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai stirs sugar into a cup of hot tea and it disappears completely. A friend argues the sugar has been destroyed. What is a better explanation?",
+          questionMy:
+              "နှင်းဝေသည် လက်ဖက်ရည်နွေးထွေးထဲသို့ သကြားထည့်ကာ လှုပ်ခတ်ရာ လုံးဝ ပျောက်ကွယ်သွားသည်။ သူငယ်ချင်းတစ်ဦးက သကြား ဖျက်ဆီးခံရပြီဟု ငြင်းခုန်သည်။ ပိုကောင်းသော ရှင်းချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The sugar has dissolved and is still there, spread evenly through the tea",
+            "The sugar has been destroyed and no longer exists",
+            "The sugar turned into water",
+            "The sugar evaporated into the air",
+          ],
+          optionsMy: [
+            "သကြားသည် ပျော်ဝင်သွားပြီး လက်ဖက်ရည်ထဲတွင် တညီတည်း ပျံ့နှံ့နေဆဲဖြစ်ခြင်း",
+            "သကြားသည် ဖျက်ဆီးခံရပြီး နောက်ထပ် လုံးဝ မရှိတော့ခြင်း",
+            "သကြားသည် ရေအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "သကြားသည် လေထဲသို့ ငွေ့ပျံသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match the Dissolving Vocabulary",
+      titleMy: "ပျော်ဝင်ခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w26-dm-1",
+          termEn: "Dissolve",
+          termMy: "ပျော်ဝင်ခြင်း (Dissolve)",
+          matchEn: "To spread evenly through a liquid and form a solution",
+          matchMy:
+              "အရည်တစ်ခုတွင် တညီတည်း ပျံ့နှံ့ပြီး ဒြပ်ရောတစ်ခု ဖွဲ့စည်းရန်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w26-dm-2",
+          termEn: "Solution",
+          termMy: "ဒြပ်ရော (Solution)",
+          matchEn:
+              "A mixture formed when a substance dissolves completely in a liquid",
+          matchMy:
+              "ဓာတ်တစ်ခုသည် အရည်တစ်ခုတွင် လုံးလုံးပျော်ဝင်ချိန် ဖွဲ့စည်းလာသော ရောနှောမှု",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w26-dm-3",
+          termEn: "Solute",
+          termMy: "ပျော်ဝင်ခံပစ္စည်း (Solute)",
+          matchEn: "The substance that dissolves, such as sugar",
+          matchMy: "သကြားကဲ့သို့ ပျော်ဝင်သော ဓာတ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w26-dm-4",
+          termEn: "Solvent",
+          termMy: "ပျော်ဝင်စေသောအရည် (Solvent)",
+          matchEn: "The liquid that dissolves another substance, such as water",
+          matchMy: "ရေကဲ့သို့ ဓာတ်တစ်ခုကို ပျော်ဝင်စေသော အရည်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w26-dm-5",
+          termEn: "Soluble",
+          termMy: "ပျော်ဝင်နိုင်သော (Soluble)",
+          matchEn: "Able to dissolve in a particular liquid",
+          matchMy: "အရည်တစ်ခုတွင် ပျော်ဝင်နိုင်သော",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w26-dm-6",
+          termEn: "Insoluble",
+          termMy: "ပျော်ဝင်၍မရသော (Insoluble)",
+          matchEn: "Not able to dissolve in a particular liquid",
+          matchMy: "အရည်တစ်ခုတွင် ပျော်ဝင်၍မရသော",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Soluble in Water or Insoluble in Water?",
+      titleMy: "စီစစ်ကြမည် - ရေတွင် ပျော်ဝင်နိုင်သလား၊ ပျော်ဝင်၍မရသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Soluble in water", "Insoluble in water"],
+        bucketsMy: ["ရေတွင် ပျော်ဝင်နိုင်သည်", "ရေတွင် ပျော်ဝင်၍မရ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w26-sort-1",
+            labelEn: "Salt",
+            labelMy: "ဆား",
+            correctBucketEn: "Soluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w26-sort-2",
+            labelEn: "Sand",
+            labelMy: "သဲ",
+            correctBucketEn: "Insoluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်၍မရ",
+          ),
+          SortingItem(
+            id: "y6sci-w26-sort-3",
+            labelEn: "Sugar",
+            labelMy: "သကြား",
+            correctBucketEn: "Soluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w26-sort-4",
+            labelEn: "Cooking oil",
+            labelMy: "ချက်ပြုတ်ဆီ",
+            correctBucketEn: "Insoluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်၍မရ",
+          ),
+          SortingItem(
+            id: "y6sci-w26-sort-5",
+            labelEn: "Instant coffee powder",
+            labelMy: "ကော်ဖီအမှုန့်",
+            correctBucketEn: "Soluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y6sci-w26-sort-6",
+            labelEn: "Small pebbles",
+            labelMy: "ကျောက်စရစ်ငယ်များ",
+            correctBucketEn: "Insoluble in water",
+            correctBucketMy: "ရေတွင် ပျော်ဝင်၍မရ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Tea Shop Experiment",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ လက်ဖက်ရည်ဆိုင် စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Tea Shop Experiment",
+        titleMy: "နှင်းဝေ၏ လက်ဖက်ရည်ဆိုင် စမ်းသပ်မှု",
+        passageEn:
+            "Helping out at her uncle's tea shop one weekend, Hnin Wai notices that customers often ask for their condensed milk and sugar stirred quickly into hot tea, while iced tea takes much longer to sweeten evenly. Curious, she decides to test why temperature seems to matter so much for dissolving sugar.\n\nHnin Wai fills two identical glasses, one with hot water and one with cold water from the fridge, then adds an equal spoonful of sugar to each and stirs both at the same steady speed. The sugar in the hot water disappears within seconds, while the sugar in the cold water takes noticeably longer, leaving a visible cloudy swirl at the bottom of the glass for a while before it finally clears.\n\nHer uncle explains that warmer water molecules move faster and collide with the sugar more often, breaking it apart and spreading it through the liquid more quickly, while the slower-moving molecules in cold water take longer to do the same job. He also shows Hnin Wai that stirring speeds up dissolving in both glasses, since it constantly brings fresh water into contact with the sugar instead of leaving it to dissolve slowly in one spot. Hnin Wai realises that a busy tea shop, without anyone ever using the word 'science,' has been applying the exact principles of dissolving she is learning about in class every single day.",
+        passageMy:
+            "စနေ၊ တနင်္ဂနွေတစ်ခုတွင် ဦးလေး၏ လက်ဖက်ရည်ဆိုင်တွင် ကူညီနေစဉ် နှင်းဝေသည် ဖောက်သည်များသည် ရေနွေးနွေးလက်ဖက်ရည်ထဲသို့ ကွန်ဒင်းမစ်နှင့် သကြားကို လျင်မြန်စွာ လှုပ်ခတ်ထည့်ရန် မကြာခဏ တောင်းဆိုကြသော်လည်း ရေခဲလက်ဖက်ရည်မူ တညီတည်းချိုသည်အထိ ပိုကြာသည်ကို သတိပြုမိသည်။ စိတ်ဝင်စားသောကြောင့် အပူချိန်သည် သကြားပျော်ဝင်ခြင်းအတွက် ဤမျှ အရေးကြီးသည်မှာ အဘယ်ကြောင့်ကြောင်း စမ်းသပ်ကြည့်ရန် ဆုံးဖြတ်လိုက်သည်။\n\nနှင်းဝေသည် ဖန်ခွက် တူညီသောနှစ်ခုကို ဖြည့်သည် - တစ်ခုကို ရေနွေးနှင့် တစ်ခုကို ရေခဲသေတ္တာမှ ရေအေးဖြင့် ဖြည့်ပြီး တစ်ခုစီသို့ သကြား ဇွန်းညီ တစ်ချက်စီ ထည့်ကာ နှစ်ခုစလုံးကို တူညီသော အမြန်နှုန်းဖြင့် လှုပ်ခတ်သည်။ ရေနွေးထဲရှိ သကြားသည် စက္ကန့်အနည်းငယ်အတွင်း ပျောက်ကွယ်သွားပြီး ရေအေးထဲရှိ သကြားမူ သတိထားမိလောက်စွာ ပိုကြာသည်၊ ဖန်ခွက်၏ အောက်ခြေတွင် တစ်ခဏ ခဝပ်နေသော တိမ်ချောင်တစ်ခု မြင်ရသောနောက် နောက်ဆုံးတွင်သာ ကြည်လင်လာသည်။\n\nနွေးထွေးသော ရေအမှုန့်များသည် ပိုမြန်စွာ ရွေ့လျားပြီး သကြားနှင့် ပိုမကြာခဏ တိုက်မိကာ ၎င်းကို ပိုကွဲစေပြီး အရည်ထဲသို့ ပိုမြန်စွာ ပျံ့နှံ့စေကြောင်း၊ ရေအေးထဲရှိ ပိုနှေးသော ရွေ့လျားမှုသည် တူညီသော အလုပ်ကို ပြုလုပ်ရန် ပိုကြာကြောင်း ဦးလေး ရှင်းပြသည်။ လှုပ်ခတ်ခြင်းသည် ဖန်ခွက်နှစ်ခုစလုံးတွင် ပျော်ဝင်ခြင်းကို မြန်ဆန်စေကြောင်း၊ ၎င်းသည် သကြားကို နေရာတစ်ခုတည်းတွင် ဖြည်းညင်းစွာ ပျော်ဝင်စေမည့်အစား လတ်ဆတ်သော ရေကို သကြားနှင့် အမြဲထိတွေ့စေသောကြောင့်ဖြစ်ကြောင်း ဦးလေးက နှင်းဝေအား ပြသည်။ 'သိပ္ပံ' ဟူသော စကားလုံးကို မည်သူမျှ အသုံးမပြုဘဲ လှုပ်ရှားနေသော လက်ဖက်ရည်ဆိုင်တစ်ခုသည် ၎င်း အတန်းတွင် သင်ယူနေသော ပျော်ဝင်ခြင်း၏ အတိအကျ သဘောတရားများကို နေ့စဉ် အသုံးချနေခဲ့ကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai want to test at her uncle's tea shop?",
+            questionMy:
+                "ဦးလေး၏ လက်ဖက်ရည်ဆိုင်တွင် နှင်းဝေ စမ်းသပ်လိုသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Why temperature matters for dissolving sugar",
+              "How to make the tea taste better",
+              "How much money the shop earns",
+              "How many customers visit each day",
+            ],
+            optionsMy: [
+              "သကြားပျော်ဝင်ခြင်းအတွက် အပူချိန်သည် အဘယ်ကြောင့် အရေးကြီးသနည်း",
+              "လက်ဖက်ရည်ကို မည်သို့ ပိုအရသာကောင်းအောင် ပြုလုပ်ရမည်",
+              "ဆိုင်သည် ငွေမည်မျှ ရှာသည်",
+              "နေ့စဉ် ဖောက်သည် ဘယ်နှစ်ဦး လာသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What happens to the sugar in the hot water?",
+            questionMy: "ရေနွေးထဲရှိ သကြားတွင် အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+            optionsEn: [
+              "It disappears within seconds",
+              "It never dissolves at all",
+              "It sinks and stays solid",
+              "It turns into ice",
+            ],
+            optionsMy: [
+              "စက္ကန့်အနည်းငယ်အတွင်း ပျောက်ကွယ်သွားခြင်း",
+              "ဘယ်တော့မှ လုံးဝ ပျော်ဝင်ခြင်း မရှိခြင်း",
+              "ကျပြီး အစိုင်အခဲအဖြစ် ရှိနေခြင်း",
+              "ရေခဲအဖြစ် ပြောင်းလဲသွားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to her uncle, why does sugar dissolve faster in warm water?",
+            questionMy:
+                "ဦးလေးအလို သကြားသည် ရေနွေးတွင် ပိုမြန်စွာ ပျော်ဝင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Warmer water molecules move faster and collide with sugar more often",
+              "Warm water is always thicker than cold water",
+              "Cold water dissolves sugar faster instead",
+              "Temperature has no effect on dissolving",
+            ],
+            optionsMy: [
+              "နွေးထွေးသော ရေအမှုန့်များသည် ပိုမြန်စွာ ရွေ့လျားပြီး သကြားနှင့် ပိုမကြာခဏ တိုက်မိခြင်း",
+              "ရေနွေးသည် ရေအေးထက် အမြဲတမ်း ပိုထူထဲခြင်း",
+              "ရေအေးက သကြားကို ပိုမြန်စွာ ပျော်ဝင်စေခြင်း",
+              "အပူချိန်သည် ပျော်ဝင်ခြင်းအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why does stirring speed up dissolving?",
+            questionMy:
+                "လှုပ်ခတ်ခြင်းသည် ပျော်ဝင်ခြင်းကို မြန်ဆန်စေသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "It constantly brings fresh water into contact with the sugar",
+              "It removes the sugar entirely",
+              "It makes the water colder",
+              "It has no effect on dissolving speed",
+            ],
+            optionsMy: [
+              "လတ်ဆတ်သော ရေကို သကြားနှင့် အမြဲထိတွေ့စေခြင်း",
+              "သကြားကို လုံးဝ ဖယ်ရှားခြင်း",
+              "ရေကို ပိုအေးစေခြင်း",
+              "ပျော်ဝင်ခြင်း အမြန်နှုန်းအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise about the tea shop by the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် လက်ဖက်ရည်ဆိုင်အကြောင်း နှင်းဝေ အဘယ်အရာ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "It has been applying the exact principles of dissolving she learns in class every day",
+              "The tea shop has no connection to science at all",
+              "Dissolving only happens in science classrooms",
+              "Her uncle secretly studied science at university",
+            ],
+            optionsMy: [
+              "၎င်း အတန်းတွင် နေ့စဉ် သင်ယူနေသော ပျော်ဝင်ခြင်း၏ အတိအကျ သဘောတရားများကို အသုံးချနေခဲ့ခြင်း",
+              "လက်ဖက်ရည်ဆိုင်သည် သိပ္ပံနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "ပျော်ဝင်ခြင်းသည် သိပ္ပံစာသင်ခန်းများတွင်သာ ဖြစ်ပျက်ခြင်း",
+              "ဦးလေးသည် တက္ကသိုလ်တွင် သိပ္ပံကို လျှို့ဝှက်စွာ လေ့လာခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w26-d5",
+      dayNumber: 5,
+      titleEn: "Dissolving Round-Up",
+      titleMy: "ပျော်ဝင်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is formed when sugar dissolves completely in water?",
+          questionMy:
+              "သကြားသည် ရေထဲတွင် လုံးလုံးပျော်ဝင်ချိန် ဖွဲ့စည်းလာသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: ["A solution", "A gas", "A solid block", "Nothing at all"],
+          optionsMy: [
+            "ဒြပ်ရော",
+            "ဓာတ်ငွေ့",
+            "အစိုင်အခဲတုံး",
+            "ဘာမျှမဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which two factors speed up dissolving, according to Hnin Wai's tea shop experiment?",
+          questionMy:
+              "နှင်းဝေ၏ လက်ဖက်ရည်ဆိုင် စမ်းသပ်မှုအရ ပျော်ဝင်ခြင်းကို မြန်ဆန်စေသော အချက်နှစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Warmer water and stirring",
+            "Colder water and stillness",
+            "Adding more sand",
+            "Freezing the liquid",
+          ],
+          optionsMy: [
+            "ရေနွေးနှင့် လှုပ်ခတ်ခြင်း",
+            "ရေအေးနှင့် ငြိမ်ငြိမ်ချန်ထားခြင်း",
+            "သဲ ပိုထည့်ခြင်း",
+            "အရည်ကို အေးခဲစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is sand insoluble in water?",
+          questionMy: "သဲသည် ရေတွင် ပျော်ဝင်၍မရသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Its particles do not spread evenly through water to form a solution",
+            "It always turns into sugar in water",
+            "It evaporates instantly in water",
+            "It is a type of gas",
+          ],
+          optionsMy: [
+            "၎င်း၏ အမှုန်များသည် ဒြပ်ရောတစ်ခု ဖွဲ့စည်းရန် ရေထဲတွင် တညီတည်း မပျံ့နှံ့ခြင်း",
+            "ရေတွင် အမြဲတမ်း သကြားအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "ရေတွင် ချက်ချင်း ငွေ့ပျံသွားခြင်း",
+            "ဓာတ်ငွေ့တစ်မျိုး ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Is the sugar in a cup of sweet tea still there after it dissolves?",
+          questionMy:
+              "ချိုသော လက်ဖက်ရည်ခွက်တစ်ခုထဲရှိ သကြားသည် ပျော်ဝင်ပြီးနောက် ဆက်လက်ရှိနေဆဲလား။",
+          optionsEn: [
+            "Yes, spread evenly through the tea",
+            "No, it has been destroyed",
+            "No, it turned into water",
+            "No, it evaporated",
+          ],
+          optionsMy: [
+            "ဟုတ်ပါသည်၊ လက်ဖက်ရည်ထဲတွင် တညီတည်း ပျံ့နှံ့နေခြင်း",
+            "မဟုတ်ပါ၊ ဖျက်ဆီးခံရခြင်း",
+            "မဟုတ်ပါ၊ ရေအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "မဟုတ်ပါ၊ ငွေ့ပျံသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on dissolving teach?",
+          questionMy:
+              "ဤအပတ်စာ ပျော်ဝင်ခြင်း သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A dissolved substance still exists, spread evenly through a liquid rather than destroyed",
+            "Dissolved substances are completely destroyed",
+            "Only sugar can ever dissolve in any liquid",
+            "Temperature has no effect on how fast something dissolves",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်သွားသော ဓာတ်တစ်ခုသည် ဖျက်ဆီးခံရမည့်အစား အရည်တစ်ခုလုံးတွင် တညီတည်း ပျံ့နှံ့ကာ ဆက်လက် တည်ရှိနေဆဲဖြစ်ခြင်း",
+            "ပျော်ဝင်သွားသော ဓာတ်များသည် လုံးလုံး ဖျက်ဆီးခံရခြင်း",
+            "သကြားတစ်မျိုးတည်းသာ မည်သည့်အရည်တွင်မဆို ပျော်ဝင်နိုင်ခြင်း",
+            "အရာတစ်ခု မည်မျှမြန်စွာ ပျော်ဝင်သည်ကို အပူချိန် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 7, Week 27: "Separating Mixtures"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek27 = CourseWeekDef(
+  id: "course-year6-science-w27",
+  weekNumber: 27,
+  titleEn: "Separating Mixtures",
+  titleMy: "ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w27-d1",
+      dayNumber: 1,
+      titleEn: "Filtering, Sieving, and Evaporating",
+      titleMy: "စစ်ထုတ်ခြင်း၊ စစ်ကာဖြင့်စစ်ခြင်းနှင့် ငွေ့ပျံစေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which method would best separate sand from water?",
+          questionMy:
+              "သဲကို ရေမှ အကောင်းဆုံး ခွဲထုတ်နိုင်မည့် နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Filtering", "Dissolving", "Melting", "Freezing only"],
+          optionsMy: [
+            "စစ်ထုတ်ခြင်း",
+            "ပျော်ဝင်စေခြင်း",
+            "အရည်ဖြစ်စေခြင်း",
+            "အေးခဲစေခြင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which method uses a mesh with holes of a certain size to separate solids of different sizes?",
+          questionMy:
+              "အရွယ်အစား ကွဲပြားသော အစိုင်အခဲများကို ခွဲထုတ်ရန် သတ်မှတ်ထားသော အရွယ်အစား အပေါက်များပါသော ကွန်ရက်ကို အသုံးပြုသော နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Sieving", "Evaporating", "Dissolving", "Melting"],
+          optionsMy: [
+            "စစ်ကာဖြင့်စစ်ခြင်း",
+            "ငွေ့ပျံစေခြင်း",
+            "ပျော်ဝင်စေခြင်း",
+            "အရည်ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How can salt be recovered from salty water?",
+          questionMy: "ဆားရေမှ ဆားကို မည်သို့ ပြန်ရရှိနိုင်သနည်း။",
+          optionsEn: [
+            "By evaporating the water, leaving the salt behind",
+            "By filtering the water through paper",
+            "By freezing the water instantly",
+            "By sieving the water",
+          ],
+          optionsMy: [
+            "ရေကို ငွေ့ပျံစေပြီး ဆားကို ချန်ထားခြင်းဖြင့်",
+            "ရေကို စက္ကူဖြင့် စစ်ထုတ်ခြင်းဖြင့်",
+            "ရေကို ချက်ချင်း အေးခဲစေခြင်းဖြင့်",
+            "ရေကို စစ်ကာဖြင့်စစ်ခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can filtering not be used to separate salt from salty water?",
+          questionMy:
+              "ဆားရေမှ ဆားကို ခွဲထုတ်ရန် စစ်ထုတ်ခြင်းကို အသုံးမပြုနိုင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The dissolved salt particles are too small and pass through the filter with the water",
+            "Salt is always a solid that never dissolves",
+            "Filters always remove dissolved substances perfectly",
+            "Salty water contains no water at all",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်နေသော ဆားအမှုန်များသည် အလွန်သေးငယ်ပြီး ရေနှင့်အတူ စစ်ကိရိယာကို ဖြတ်သန်းသွားခြင်း",
+            "ဆားသည် ဘယ်တော့မှ မပျော်ဝင်သော အစိုင်အခဲအမြဲတမ်း ဖြစ်ခြင်း",
+            "စစ်ကိရိယာများသည် ပျော်ဝင်သော ဓာတ်များကို အမြဲတမ်း ပြီးပြည့်စုံစွာ ဖယ်ရှားခြင်း",
+            "ဆားရေတွင် ရေ လုံးဝမပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai has a mixture of rice, small pebbles, and salty water all mixed together. Which separation method should she use first to remove the large pebbles?",
+          questionMy:
+              "နှင်းဝေတွင် ထမင်းစပါး၊ ကျောက်စရစ်ငယ်များနှင့် ဆားရေ ရောနှောနေသော ရောနှောပစ္စည်းတစ်ခု ရှိသည်။ ကျောက်စရစ်ကြီးများကို ဖယ်ရှားရန် ဦးစွာ အသုံးပြုသင့်သော ခွဲထုတ်ခြင်း နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Sieving", "Evaporating", "Dissolving", "Melting"],
+          optionsMy: [
+            "စစ်ကာဖြင့်စစ်ခြင်း",
+            "ငွေ့ပျံစေခြင်း",
+            "ပျော်ဝင်စေခြင်း",
+            "အရည်ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match the Separation Vocabulary",
+      titleMy: "ခွဲထုတ်ခြင်း ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w27-dm-1",
+          termEn: "Filtering",
+          termMy: "စစ်ထုတ်ခြင်း (Filtering)",
+          matchEn:
+              "Using paper or a mesh to separate an insoluble solid from a liquid",
+          matchMy:
+              "ပျော်ဝင်၍မရသော အစိုင်အခဲကို အရည်မှ ခွဲထုတ်ရန် စက္ကူ သို့မဟုတ် ကွန်ရက် အသုံးပြုခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w27-dm-2",
+          termEn: "Sieving",
+          termMy: "စစ်ကာဖြင့်စစ်ခြင်း (Sieving)",
+          matchEn:
+              "Using a mesh with holes to separate solids of different sizes",
+          matchMy:
+              "ကွဲပြားသော အရွယ်အစားရှိ အစိုင်အခဲများကို ခွဲထုတ်ရန် အပေါက်ပါသော ကွန်ရက် အသုံးပြုခြင်း",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w27-dm-3",
+          termEn: "Evaporating",
+          termMy: "ငွေ့ပျံစေခြင်း (Evaporating)",
+          matchEn:
+              "Heating a solution so the liquid turns to gas, leaving the dissolved solid behind",
+          matchMy:
+              "အရည်ကို ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲစေရန် ဒြပ်ရောကို ပူစေပြီး ပျော်ဝင်နေသော အစိုင်အခဲကို ချန်ထားခြင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w27-dm-4",
+          termEn: "Mixture",
+          termMy: "ရောနှောပစ္စည်း (Mixture)",
+          matchEn:
+              "Two or more substances combined without a chemical reaction",
+          matchMy:
+              "ဓာတုတုံ့ပြန်မှု မပါဘဲ ပေါင်းစပ်ထားသော ဓာတ်နှစ်ခု သို့မဟုတ် ထို့ထက်ပို၍",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w27-dm-5",
+          termEn: "Residue",
+          termMy: "ကျန်ရှိအရာ (Residue)",
+          matchEn: "The solid left behind after filtering or evaporating",
+          matchMy:
+              "စစ်ထုတ်ခြင်း သို့မဟုတ် ငွေ့ပျံစေခြင်းပြီးနောက် ကျန်ရှိသော အစိုင်အခဲ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w27-dm-6",
+          termEn: "Filtrate",
+          termMy: "စစ်ထားပြီးအရည် (Filtrate)",
+          matchEn: "The liquid that has passed through a filter",
+          matchMy: "စစ်ကိရိယာကို ဖြတ်သန်းပြီးသား အရည်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Best Separated by Filtering or by Evaporating?",
+      titleMy:
+          "စီစစ်ကြမည် - စစ်ထုတ်ခြင်းဖြင့် ခွဲထုတ်ကောင်းသလား၊ ငွေ့ပျံစေခြင်းဖြင့်ခွဲထုတ်ကောင်းသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Best by filtering", "Best by evaporating"],
+        bucketsMy: [
+          "စစ်ထုတ်ခြင်းဖြင့် အကောင်းဆုံး",
+          "ငွေ့ပျံစေခြင်းဖြင့် အကောင်းဆုံး",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w27-sort-1",
+            labelEn: "Sand mixed with water",
+            labelMy: "ရေနှင့် ရောနှောထားသော သဲ",
+            correctBucketEn: "Best by filtering",
+            correctBucketMy: "စစ်ထုတ်ခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+          SortingItem(
+            id: "y6sci-w27-sort-2",
+            labelEn: "Salt dissolved in water",
+            labelMy: "ရေတွင် ပျော်ဝင်နေသော ဆား",
+            correctBucketEn: "Best by evaporating",
+            correctBucketMy: "ငွေ့ပျံစေခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+          SortingItem(
+            id: "y6sci-w27-sort-3",
+            labelEn: "Small pebbles mixed with water",
+            labelMy: "ရေနှင့် ရောနှောထားသော ကျောက်စရစ်ငယ်များ",
+            correctBucketEn: "Best by filtering",
+            correctBucketMy: "စစ်ထုတ်ခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+          SortingItem(
+            id: "y6sci-w27-sort-4",
+            labelEn: "Sugar dissolved in water",
+            labelMy: "ရေတွင် ပျော်ဝင်နေသော သကြား",
+            correctBucketEn: "Best by evaporating",
+            correctBucketMy: "ငွေ့ပျံစေခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+          SortingItem(
+            id: "y6sci-w27-sort-5",
+            labelEn: "Chalk dust mixed with water",
+            labelMy: "ရေနှင့် ရောနှောထားသော ကျောက်သင်ဖြူအမှုန့်",
+            correctBucketEn: "Best by filtering",
+            correctBucketMy: "စစ်ထုတ်ခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+          SortingItem(
+            id: "y6sci-w27-sort-6",
+            labelEn: "Sea salt dissolved in seawater",
+            labelMy: "ပင်လယ်ရေတွင် ပျော်ဝင်နေသော ပင်လယ်ဆား",
+            correctBucketEn: "Best by evaporating",
+            correctBucketMy: "ငွေ့ပျံစေခြင်းဖြင့် အကောင်းဆုံး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Salt Pan Visit",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ဆားချက်ကွင်း လည်ပတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Salt Pan Visit",
+        titleMy: "နှင်းဝေ၏ ဆားချက်ကွင်း လည်ပတ်ခြင်း",
+        passageEn:
+            "On a school trip to a coastal village, Hnin Wai visits a traditional salt pan, where wide, shallow ponds of seawater sit exposed under the strong sun for days at a time. Her guide explains that the seawater itself is a solution, with salt dissolved invisibly throughout it, just like the sugar Hnin Wai once dissolved in her tea.\n\nAs the days pass, Hnin Wai watches the water level in each pond slowly drop, and eventually a thin white crust of solid salt crystals begins forming along the pond's floor and edges. Her guide explains that the Sun's heat causes the water to evaporate, turning from liquid into water vapour that rises into the air, while the dissolved salt cannot evaporate and is left behind as a solid residue.\n\nHnin Wai notices workers scraping up the crystallised salt with wide wooden tools and setting it aside to dry further before it is packaged and sold. She realises that this entire traditional process, refined over generations without any modern laboratory equipment, is simply a large-scale version of the same evaporation method she used in class to recover salt from a small beaker of salty water -- proof that the science she studies at Nova School connects directly to real work happening in villages across Myanmar.",
+        passageMy:
+            "ပင်လယ်ကမ်းရွာတစ်ရွာသို့ ကျောင်းခရီးစဉ်တွင် နှင်းဝေသည် ရိုးရာ ဆားချက်ကွင်းတစ်ခုသို့ သွားရောက်လည်ပတ်ရာ ကျယ်ပြန့်၊ နက်နှိုင်းသော ပင်လယ်ရေအိုင်များသည် တစ်ကြိမ်လျှင် ရက်များစွာ ပြင်းထန်သော နေရောင်အောက်တွင် ဖော်ပြထားသည်ကို တွေ့ရသည်။ ၎င်း၏ လမ်းညွှန်က ပင်လယ်ရေသည် နှင်းဝေ တစ်ချိန်က လက်ဖက်ရည်ထဲသို့ ပျော်ဝင်စေခဲ့ဖူးသော သကြားကဲ့သို့ ဓာတ်ရော တစ်ခုတည်း ဖြစ်ပြီး ဆားသည် ၎င်းတစ်ခုလုံးတွင် မမြင်နိုင်လောက်အောင် ပျော်ဝင်နေကြောင်း ရှင်းပြသည်။\n\nနေ့ရက်များ ကုန်လွန်လာသည်နှင့်အမျှ နှင်းဝေသည် အိုင်တစ်ခုစီ၏ ရေအဆင့် တဖြည်းဖြည်း ကျဆင်းလာသည်ကို ကြည့်ရှုပြီး နောက်ဆုံးတွင် အစိုင်အခဲ ဆားရွက်ခြေးများ၏ ပါးလွှာသော အဖြူရောင် အခေါက်တစ်ခု အိုင်၏ ကြမ်းပြင်နှင့် အနားများတစ်လျှောက် ဖြစ်ပေါ်လာသည်ကို တွေ့ရသည်။ နေရောင်၏ အပူသည် ရေကို ငွေ့ပျံစေကာ အရည်မှ လေထဲသို့ တက်လာသော ရေငွေ့အဖြစ် ပြောင်းလဲစေသော်လည်း ပျော်ဝင်နေသော ဆားမှာ ငွေ့ပျံ၍မရဘဲ အစိုင်အခဲ ကျန်ရှိအရာအဖြစ် ချန်ထားသည်ကို ၎င်း၏ လမ်းညွှန်က ရှင်းပြသည်။\n\nလုပ်သားများက ဖွဲ့စည်းလာသော ဆားကို ကျယ်ပြန့်သော သစ်သားကိရိယာများဖြင့် ခြစ်တင်ပြီး ထုပ်ပိုးမရောင်းချမီ ထပ်မံ ခြောက်သွေ့စေရန် တစ်ဖက်တွင် ထားသည်ကို နှင်းဝေ သတိပြုမိသည်။ ခေတ်မီ ဓာတ်ခွဲခန်း ကိရိယာမပါဘဲ မျိုးဆက်များစွာအတွင်း ပြုပြင်ထားသော ဤရိုးရာ ဖြစ်စဉ်တစ်ခုလုံးသည် ဆားရေခွက်ငယ်တစ်ခုမှ ဆားကို ပြန်ရရှိရန် အတန်းတွင် အသုံးပြုခဲ့သည့် ငွေ့ပျံစေခြင်း နည်းလမ်းတူတူ၏ ကြီးမားသော ကုန်းအတိုင်းအတာ ဗားရှင်းတစ်ခုသာ ဖြစ်ကြောင်း သဘောပေါက်လိုက်သည် - Nova School တွင် လေ့လာနေသော သိပ္ပံသည် မြန်မာနိုင်ငံတစ်ဝှမ်းရှိ ကျေးရွာများတွင် တကယ့်ဖြစ်ပျက်နေသော အလုပ်များနှင့် တိုက်ရိုက် ဆက်စပ်နေကြောင်း သက်သေတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai's guide say the seawater is, in scientific terms?",
+            questionMy:
+                "ပင်လယ်ရေကို သိပ္ပံဆိုင်ရာ ဝေါဟာရဖြင့် အဘယ်အရာဟု နှင်းဝေ၏ လမ်းညွှန် ပြောသနည်း။",
+            optionsEn: [
+              "A solution, with salt dissolved throughout it",
+              "A pure gas",
+              "A solid block",
+              "A type of circuit",
+            ],
+            optionsMy: [
+              "ဆားတစ်ခုလုံးတွင် ပျော်ဝင်နေသော ဒြပ်ရော",
+              "ဓာတ်ငွေ့စစ်",
+              "အစိုင်အခဲတုံး",
+              "ဆားကစ်တစ်မျိုး",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What causes the water level in each pond to drop over time?",
+            questionMy:
+                "အချိန်တစ်လျှောက် အိုင်တစ်ခုစီ၏ ရေအဆင့် ကျဆင်းလာသည်မှာ အဘယ်အရာကြောင့်နည်း။",
+            optionsEn: [
+              "The Sun's heat causes the water to evaporate",
+              "The water freezes solid",
+              "The water dissolves into the salt",
+              "Workers pour the water out",
+            ],
+            optionsMy: [
+              "နေရောင်၏ အပူက ရေကို ငွေ့ပျံစေခြင်း",
+              "ရေသည် အစိုင်အခဲအဖြစ် အေးခဲသွားခြင်း",
+              "ရေသည် ဆားထဲသို့ ပျော်ဝင်သွားခြင်း",
+              "လုပ်သားများက ရေကို သွန်ချခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why is the dissolved salt left behind while the water disappears?",
+            questionMy:
+                "ရေ ပျောက်ကွယ်သွားစဉ် ပျော်ဝင်နေသော ဆား ကျန်ရှိနေသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "The salt cannot evaporate like the water can",
+              "The salt turns into gas along with the water",
+              "The salt disappears completely too",
+              "The salt was never actually dissolved",
+            ],
+            optionsMy: [
+              "ဆားသည် ရေကဲ့သို့ ငွေ့ပျံ၍ မရနိုင်ခြင်း",
+              "ဆားသည် ရေနှင့်အတူ ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲသွားခြင်း",
+              "ဆားသည် လုံးလုံး ပျောက်ကွယ်သွားခြင်း",
+              "ဆားသည် အမှန်တကယ် ပျော်ဝင်ခြင်း ဘယ်တော့မှ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What do workers use to gather the crystallised salt?",
+            questionMy:
+                "ဆားရွက်ခြေးများ ဖွဲ့စည်းလာသောအခါ လုပ်သားများ ၎င်းကို ကောက်ယူရန် အဘယ်အရာ အသုံးပြုသနည်း။",
+            optionsEn: [
+              "Wide wooden tools",
+              "Metal spoons",
+              "Plastic buckets only",
+              "Their bare hands only",
+            ],
+            optionsMy: [
+              "ကျယ်ပြန့်သော သစ်သားကိရိယာများ",
+              "သတ္တုဇွန်းများ",
+              "ပလတ်စတစ်ရေခွက်များသာ",
+              "လက်ချည်းသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What connection does Hnin Wai realise between the salt pan and her science class?",
+            questionMy:
+                "ဆားချက်ကွင်းနှင့် ၎င်း၏ သိပ္ပံအတန်းကြား ဆက်စပ်မှုကို နှင်းဝေ အဘယ်အရာ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "The salt pan is a large-scale version of the evaporation method she used in class",
+              "The salt pan has no connection to science at all",
+              "Salt pans only exist in laboratories",
+              "Her science class never taught anything about evaporation",
+            ],
+            optionsMy: [
+              "ဆားချက်ကွင်းသည် ၎င်း အတန်းတွင် အသုံးပြုခဲ့သည့် ငွေ့ပျံစေခြင်း နည်းလမ်း၏ ကြီးမားသော ကုန်းအတိုင်းအတာ ဗားရှင်းတစ်ခုသာ ဖြစ်ခြင်း",
+              "ဆားချက်ကွင်းသည် သိပ္ပံနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "ဆားချက်ကွင်းများသည် ဓာတ်ခွဲခန်းများတွင်သာ ရှိခြင်း",
+              "၎င်း၏ သိပ္ပံအတန်းသည် ငွေ့ပျံစေခြင်းအကြောင်း ဘယ်တော့မှ မသင်ကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w27-d5",
+      dayNumber: 5,
+      titleEn: "Separating Mixtures Round-Up",
+      titleMy: "ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which method best separates an insoluble solid from a liquid?",
+          questionMy:
+              "ပျော်ဝင်၍မရသော အစိုင်အခဲကို အရည်မှ အကောင်းဆုံး ခွဲထုတ်နိုင်မည့် နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Filtering",
+            "Evaporating only",
+            "Dissolving further",
+            "Melting",
+          ],
+          optionsMy: [
+            "စစ်ထုတ်ခြင်း",
+            "ငွေ့ပျံစေခြင်းသာ",
+            "ထပ်ပျော်ဝင်စေခြင်း",
+            "အရည်ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which method best recovers a dissolved solid from a solution?",
+          questionMy:
+              "ဒြပ်ရောတစ်ခုမှ ပျော်ဝင်နေသော အစိုင်အခဲကို အကောင်းဆုံး ပြန်ရရှိနိုင်မည့် နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Evaporating",
+            "Sieving only",
+            "Freezing only",
+            "Adding more water",
+          ],
+          optionsMy: [
+            "ငွေ့ပျံစေခြင်း",
+            "စစ်ကာဖြင့်စစ်ခြင်းသာ",
+            "အေးခဲစေခြင်းသာ",
+            "ရေ ပိုထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's salt pan story, what forms as the seawater evaporates?",
+          questionMy:
+              "နှင်းဝေ၏ ဆားချက်ကွင်း ပုံပြင်တွင် ပင်လယ်ရေ ငွေ့ပျံသွားစဉ် အဘယ်အရာ ဖွဲ့စည်းလာသနည်း။",
+          optionsEn: [
+            "A crust of solid salt crystals",
+            "More seawater",
+            "A new type of fish",
+            "A rainbow",
+          ],
+          optionsMy: [
+            "အစိုင်အခဲ ဆားရွက်ခြေးများ၏ အခေါက်",
+            "ပင်လယ်ရေ ပိုများလာခြင်း",
+            "ငါးအမျိုးအစားသစ်",
+            "သက်တံ့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which separation method would best remove large pebbles from a mixture of rice and pebbles?",
+          questionMy:
+              "ထမင်းစပါးနှင့် ကျောက်စရစ် ရောနှောထားသောအရာမှ ကျောက်စရစ်ကြီးများကို အကောင်းဆုံး ဖယ်ရှားနိုင်မည့် ခွဲထုတ်ခြင်း နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: ["Sieving", "Evaporating", "Dissolving", "Melting"],
+          optionsMy: [
+            "စစ်ကာဖြင့်စစ်ခြင်း",
+            "ငွေ့ပျံစေခြင်း",
+            "ပျော်ဝင်စေခြင်း",
+            "အရည်ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on separating mixtures teach?",
+          questionMy:
+              "ဤအပတ်စာ ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်း သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Different mixtures need different separation methods based on their properties",
+            "Only one separation method works for every mixture",
+            "Mixtures can never be separated once combined",
+            "Filtering and evaporating do exactly the same job",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော ရောနှောပစ္စည်းများသည် ၎င်းတို့၏ ဂုဏ်သတ္တိများပေါ်မူတည်၍ ကွဲပြားသော ခွဲထုတ်ခြင်း နည်းလမ်းများ လိုအပ်ခြင်း",
+            "ခွဲထုတ်ခြင်း နည်းလမ်းတစ်ခုတည်းသာ ရောနှောပစ္စည်းတိုင်းအတွက် အလုပ်ဖြစ်ခြင်း",
+            "ရောနှောပြီးသည့်နောက် ရောနှောပစ္စည်းများကို ဘယ်တော့မှ ခွဲထုတ်၍မရနိုင်ခြင်း",
+            "စစ်ထုတ်ခြင်းနှင့် ငွေ့ပျံစေခြင်းသည် အတိအကျ တူညီသော အလုပ်ကို လုပ်ဆောင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 7, Week 28 (Capstone): "Nova School Materials
+// Separation Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek28 = CourseWeekDef(
+  id: "course-year6-science-w28",
+  weekNumber: 28,
+  titleEn: "Nova School Materials Separation Studio",
+  titleMy: "Nova ကျောင်း ပစ္စည်းများ ခွဲထုတ်ခြင်း အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w28-d1",
+      dayNumber: 1,
+      titleEn: "Properties, Dissolving and Separation Review",
+      titleMy:
+          "ဂုဏ်သတ္တိများ၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်း ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why is metal a good choice for cooking pots?",
+          questionMy:
+              "ဟင်းချက်အိုးများအတွက် သတ္တုသည် ရွေးချယ်ကောင်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It conducts heat well and withstands high temperatures",
+            "It is always transparent",
+            "It floats on water",
+            "It dissolves in water",
+          ],
+          optionsMy: [
+            "အပူကို ကောင်းစွာ ကူးစက်ပေးနိုင်ပြီး အပူချိန်မြင့်မားမှုကို ခံနိုင်ရည်ရှိခြင်း",
+            "အမြဲတမ်း ပွင့်လင်းမြင်သာခြင်း",
+            "ရေပေါ်တွင် မျောနေခြင်း",
+            "ရေတွင် ပျော်ဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What happens when sugar dissolves in tea?",
+          questionMy:
+              "သကြားသည် လက်ဖက်ရည်ထဲတွင် ပျော်ဝင်ချိန် အဘယ်အရာဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It spreads evenly and is still there, just invisible",
+            "It is completely destroyed",
+            "It turns into water",
+            "It evaporates into the air",
+          ],
+          optionsMy: [
+            "တညီတည်းပျံ့နှံ့ပြီး ဆက်လက် ရှိနေသော်လည်း မမြင်ရတော့ခြင်း",
+            "လုံးလုံး ဖျက်ဆီးခံရခြင်း",
+            "ရေအဖြစ် ပြောင်းလဲသွားခြင်း",
+            "လေထဲသို့ ငွေ့ပျံသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "How is salt recovered from salty water at a traditional salt pan?",
+          questionMy:
+              "ရိုးရာ ဆားချက်ကွင်းတစ်ခုတွင် ဆားရေမှ ဆားကို မည်သို့ ပြန်ရရှိသနည်း။",
+          optionsEn: [
+            "By evaporating the water using the Sun's heat",
+            "By filtering the water through paper",
+            "By freezing the water",
+            "By sieving the water",
+          ],
+          optionsMy: [
+            "နေရောင်၏ အပူကို အသုံးပြု၍ ရေကို ငွေ့ပျံစေခြင်းဖြင့်",
+            "ရေကို စက္ကူဖြင့် စစ်ထုတ်ခြင်းဖြင့်",
+            "ရေကို အေးခဲစေခြင်းဖြင့်",
+            "ရေကို စစ်ကာဖြင့်စစ်ခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can filtering not separate dissolved salt from water?",
+          questionMy:
+              "ရေတွင်ပျော်ဝင်နေသော ဆားကို စစ်ထုတ်ခြင်းဖြင့် ခွဲထုတ်၍မရသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "The dissolved particles are too small and pass through with the water",
+            "Salt never actually dissolves in water",
+            "Filters remove all dissolved substances perfectly",
+            "Filtering only works on gases",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်နေသော အမှုန်များသည် အလွန်သေးငယ်ပြီး ရေနှင့်အတူ ဖြတ်သန်းသွားခြင်း",
+            "ဆားသည် ရေတွင် အမှန်တကယ် ဘယ်တော့မှ ပျော်ဝင်ခြင်း မရှိခြင်း",
+            "စစ်ကိရိယာများသည် ပျော်ဝင်သော ဓာတ်အားလုံးကို ပြီးပြည့်စုံစွာ ဖယ်ရှားခြင်း",
+            "စစ်ထုတ်ခြင်းသည် ဓာတ်ငွေ့များတွင်သာ အလုပ်ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea connects material properties, dissolving, and separation this term?",
+          questionMy:
+              "ဤ Term အတွင်း ပစ္စည်းဂုဏ်သတ္တိများ၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းကို ဆက်စပ်ပေးသော တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Understanding a material's properties lets us predict how it behaves and how to work with it",
+            "All materials behave in exactly the same way",
+            "Material properties have no connection to real-life uses",
+            "Mixtures can never be separated once combined",
+          ],
+          optionsMy: [
+            "ပစ္စည်းတစ်ခု၏ ဂုဏ်သတ္တိများကို နားလည်ခြင်းက ၎င်း မည်သို့ အပြုအမူပြမည်ကို ခန့်မှန်းနိုင်စေပြီး ၎င်းနှင့် မည်သို့ အလုပ်လုပ်ရမည်ကို ပြသခြင်း",
+            "ပစ္စည်းအားလုံးသည် အတိအကျ တူညီစွာ အပြုအမူပြခြင်း",
+            "ပစ္စည်း ဂုဏ်သတ္တိများသည် ဘဝတွင် အသုံးချမှုများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ရောနှောပြီးသည့်နောက် ရောနှောပစ္စည်းများကို ဘယ်တော့မှ ခွဲထုတ်၍မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 7 Vocabulary",
+      titleMy: "Term 7 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w28-dm-1",
+          termEn: "Property",
+          termMy: "ဂုဏ်သတ္တိ (Property)",
+          matchEn:
+              "A characteristic of a material, such as being hard or flexible",
+          matchMy:
+              "မာကျောခြင်း သို့မဟုတ် ဆွဲဆန့်နိုင်ခြင်းကဲ့သို့သော ပစ္စည်းတစ်ခု၏ ဂုဏ်သတ္တိ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w28-dm-2",
+          termEn: "Solution",
+          termMy: "ဒြပ်ရော (Solution)",
+          matchEn:
+              "A mixture formed when a substance dissolves completely in a liquid",
+          matchMy:
+              "ဓာတ်တစ်ခုသည် အရည်တစ်ခုတွင် လုံးလုံးပျော်ဝင်ချိန် ဖွဲ့စည်းလာသော ရောနှောမှု",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w28-dm-3",
+          termEn: "Soluble",
+          termMy: "ပျော်ဝင်နိုင်သော (Soluble)",
+          matchEn: "Able to dissolve in a particular liquid",
+          matchMy: "အရည်တစ်ခုတွင် ပျော်ဝင်နိုင်သော",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w28-dm-4",
+          termEn: "Filtering",
+          termMy: "စစ်ထုတ်ခြင်း (Filtering)",
+          matchEn:
+              "Using paper or a mesh to separate an insoluble solid from a liquid",
+          matchMy:
+              "ပျော်ဝင်၍မရသော အစိုင်အခဲကို အရည်မှ ခွဲထုတ်ရန် စက္ကူ သို့မဟုတ် ကွန်ရက် အသုံးပြုခြင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w28-dm-5",
+          termEn: "Evaporating",
+          termMy: "ငွေ့ပျံစေခြင်း (Evaporating)",
+          matchEn:
+              "Heating a solution so the liquid turns to gas, leaving the dissolved solid behind",
+          matchMy:
+              "အရည်ကို ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲစေရန် ဒြပ်ရောကို ပူစေပြီး ပျော်ဝင်နေသော အစိုင်အခဲကို ချန်ထားခြင်း",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w28-dm-6",
+          termEn: "Mixture",
+          termMy: "ရောနှောပစ္စည်း (Mixture)",
+          matchEn:
+              "Two or more substances combined without a chemical reaction",
+          matchMy:
+              "ဓာတုတုံ့ပြန်မှု မပါဘဲ ပေါင်းစပ်ထားသော ဓာတ်နှစ်ခု သို့မဟုတ် ထို့ထက်ပို၍",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Dissolving Question or Separation Question?",
+      titleMy:
+          "စီစစ်ကြမည် - ပျော်ဝင်ခြင်း မေးခွန်းလား၊ ခွဲထုတ်ခြင်း မေးခွန်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Dissolving question", "Separation question"],
+        bucketsMy: ["ပျော်ဝင်ခြင်း မေးခွန်း", "ခွဲထုတ်ခြင်း မေးခွန်း"],
+        items: [
+          SortingItem(
+            id: "y6sci-w28-sort-1",
+            labelEn: "Will sugar dissolve faster in hot or cold water?",
+            labelMy:
+                "သကြားသည် ရေနွေးနှင့် ရေအေးထဲတွင် မည်သည်ကို ပိုမြန်စွာ ပျော်ဝင်မည်နည်း",
+            correctBucketEn: "Dissolving question",
+            correctBucketMy: "ပျော်ဝင်ခြင်း မေးခွန်း",
+          ),
+          SortingItem(
+            id: "y6sci-w28-sort-2",
+            labelEn: "How can we get sand out of water?",
+            labelMy: "ရေမှ သဲကို မည်သို့ ရယူနိုင်မည်နည်း",
+            correctBucketEn: "Separation question",
+            correctBucketMy: "ခွဲထုတ်ခြင်း မေးခွန်း",
+          ),
+          SortingItem(
+            id: "y6sci-w28-sort-3",
+            labelEn: "Does salt dissolve in cooking oil?",
+            labelMy: "ဆားသည် ချက်ပြုတ်ဆီတွင် ပျော်ဝင်မည်လား",
+            correctBucketEn: "Dissolving question",
+            correctBucketMy: "ပျော်ဝင်ခြင်း မေးခွန်း",
+          ),
+          SortingItem(
+            id: "y6sci-w28-sort-4",
+            labelEn: "How can we recover salt from salty water?",
+            labelMy: "ဆားရေမှ ဆားကို မည်သို့ ပြန်ရရှိနိုင်မည်နည်း",
+            correctBucketEn: "Separation question",
+            correctBucketMy: "ခွဲထုတ်ခြင်း မေးခွန်း",
+          ),
+          SortingItem(
+            id: "y6sci-w28-sort-5",
+            labelEn: "Will stirring make coffee powder dissolve faster?",
+            labelMy:
+                "လှုပ်ခတ်ခြင်းသည် ကော်ဖီအမှုန့်ကို ပိုမြန်စွာ ပျော်ဝင်စေမည်လား",
+            correctBucketEn: "Dissolving question",
+            correctBucketMy: "ပျော်ဝင်ခြင်း မေးခွန်း",
+          ),
+          SortingItem(
+            id: "y6sci-w28-sort-6",
+            labelEn: "How can we separate rice from small pebbles?",
+            labelMy:
+                "ကျောက်စရစ်ငယ်များမှ ထမင်းစပါးကို မည်သို့ ခွဲထုတ်နိုင်မည်နည်း",
+            correctBucketEn: "Separation question",
+            correctBucketMy: "ခွဲထုတ်ခြင်း မေးခွန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Materials Fair",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ပစ္စည်းများ ပွဲတော်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Materials Fair",
+        titleMy: "နှင်းဝေ၏ ပစ္စည်းများ ပွဲတော်",
+        passageEn:
+            "To close Term 7, Nova School holds a Materials Fair where every group must present a real-world example combining material properties, dissolving, and separation. Hnin Wai's group chooses to recreate a miniature version of the salt pan she visited, using a shallow tray of salty water left in the sun over several days.\n\nAt their stand, Hnin Wai explains the three ideas working together: the tray itself is made of plastic, chosen for being waterproof and lightweight; the salt inside has dissolved completely into the water, forming an invisible solution just like sugar in tea; and evaporation, powered by the Sun's heat, will eventually separate the water from the salt, leaving solid crystals behind exactly as it does at a real salt pan.\n\nA younger student visiting the stand asks why they could not simply pour the salty water through a paper filter to get the salt out faster. Hnin Wai explains, using her earlier lesson, that filtering only works on solids that have not dissolved -- since the salt is dissolved and invisible throughout the water, only evaporation can separate it back out. The younger student nods, and Hnin Wai realises that connecting material choice, dissolving, and separation into one clear story -- rather than teaching them as three unrelated facts -- is exactly what turned her own understanding from memorised vocabulary into something she could apply to a real salt pan on the Myanmar coast.",
+        passageMy:
+            "Term 7 ပြီးဆုံးရန် Nova School သည် ပစ္စည်းများ ပွဲတော်ကို ကျင်းပပြီး အုပ်စုတိုင်းသည် ပစ္စည်းဂုဏ်သတ္တိများ၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းကို ပေါင်းစပ်ထားသော လက်တွေ့ကမ္ဘာ ဥပမာတစ်ခု တင်ပြရမည်ဖြစ်သည်။ နှင်းဝေ၏ အုပ်စုသည် ၎င်း လည်ပတ်ခဲ့ဖူးသော ဆားချက်ကွင်း၏ ငယ်စား ဗားရှင်းတစ်ခုကို ပြန်လည်ဖန်တီးရန် ရွေးချယ်ပြီး ရက်များစွာ ကာလကြာ နေရောင်အောက်တွင် ချထားသော ဆားရေ ထည့်ထားသည့် နက်မှုနည်းသော ခွက်တစ်ခုကို အသုံးပြုသည်။\n\nပြခန်းတွင် နှင်းဝေသည် ပေါင်းစပ်နေသော အယူအဆသုံးခုကို ရှင်းပြသည် - ခွက်ကိုယ်တိုင်ကို ရေစိုမခံနှင့် ပေါ့ပါးမှုအတွက် ရွေးချယ်ထားသော ပလတ်စတစ်ဖြင့် ပြုလုပ်ထားခြင်း၊ အတွင်းရှိ ဆားသည် လက်ဖက်ရည်ထဲရှိ သကြားကဲ့သို့ပင် မမြင်နိုင်သော ဒြပ်ရောတစ်ခု ဖွဲ့စည်း၍ ရေထဲတွင် လုံးလုံးပျော်ဝင်သွားခြင်းနှင့် နေရောင်၏ အပူဖြင့် မောင်းနှင်သော ငွေ့ပျံစေခြင်းသည် တကယ့်ဆားချက်ကွင်းတစ်ခုတွင် ပြုလုပ်သကဲ့သို့ ဆားနှင့် ရေကို နောက်ဆုံးတွင် ခွဲထုတ်ပေးမည်ဖြစ်ပြီး အစိုင်အခဲ ရွက်ခြေးများကို ကျန်ရစ်စေမည်ဖြစ်ခြင်း။\n\nပြခန်းသို့ လာရောက်လည်ပတ်သော ကျောင်းသူငယ်တစ်ဦးသည် ဆားကို ပိုမြန်စွာ ရယူရန် ဆားရေကို စက္ကူစစ်ကာဖြင့် အဘယ်ကြောင့် ရိုးရိုးရှင်းရှင်း မဖြတ်နိုင်ကြောင်း မေးမြန်းသည်။ နှင်းဝေသည် ၎င်း၏ ယခင်သင်ခန်းစာကို အသုံးပြု၍ စစ်ထုတ်ခြင်းသည် မပျော်ဝင်သေးသော အစိုင်အခဲများတွင်သာ အလုပ်ဖြစ်ကြောင်း - ဆားသည် ပျော်ဝင်ပြီး ရေတစ်ခုလုံးတွင် မမြင်နိုင်လောက်အောင် ရှိနေသောကြောင့် ငွေ့ပျံစေခြင်းကသာ ၎င်းကို ပြန်ခွဲထုတ်နိုင်ကြောင်း ရှင်းပြသည်။ ကျောင်းသူငယ်သည် ခေါင်းညိတ်ပြီး ပစ္စည်းရွေးချယ်ခြင်း၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းကို ဆက်စပ်မှုမရှိသော အချက်သုံးခုအဖြစ် သင်ကြားမည့်အစား ရှင်းလင်းသော ပုံပြင်တစ်ခုတည်းအဖြစ် ဆက်စပ်ပေးခြင်းသည် ၎င်း၏ ကိုယ်ပိုင် နားလည်မှုကို အလွတ်ကျက်ထားသော ဝေါဟာရများမှ မြန်မာနိုင်ငံ ကမ်းရိုးတန်းရှိ တကယ့်ဆားချက်ကွင်းတစ်ခုတွင် အသုံးချနိုင်သော အရာတစ်ခုအဖြစ် အတိအကျ ပြောင်းလဲပေးခဲ့ကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What miniature version does Hnin Wai's group recreate for the fair?",
+            questionMy:
+                "ပွဲတော်အတွက် နှင်းဝေ၏ အုပ်စု မည်သည့် ငယ်စား ဗားရှင်း ပြန်လည်ဖန်တီးသနည်း။",
+            optionsEn: [
+              "A salt pan using a tray of salty water in the sun",
+              "A working periscope",
+              "A classification key for animals",
+              "A circuit with batteries and bulbs",
+            ],
+            optionsMy: [
+              "နေရောင်တွင် ဆားရေခွက် အသုံးပြု၍ ဆားချက်ကွင်း",
+              "အလုပ်လုပ်သော ပါရီစကုပ်",
+              "တိရစ္ဆာန်များအတွက် အုပ်စုခွဲ သော့ချက်",
+              "ဘက်ထရီနှင့် မီးအိမ်ပါသော ဆားကစ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "Why was plastic chosen for the tray?",
+            questionMy: "ခွက်အတွက် ပလတ်စတစ်ကို ရွေးချယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "It is waterproof and lightweight",
+              "It dissolves easily in water",
+              "It conducts electricity well",
+              "It is always magnetic",
+            ],
+            optionsMy: [
+              "ရေစိုမခံနှင့် ပေါ့ပါးခြင်း",
+              "ရေတွင် လွယ်ကူစွာ ပျော်ဝင်ခြင်း",
+              "လျှပ်စစ်ဓာတ်အားကို ကောင်းစွာ ကူးစက်ခြင်း",
+              "အမြဲတမ်း သံလိုက်ဓာတ်ရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What does the younger student ask Hnin Wai's group?",
+            questionMy:
+                "ကျောင်းသူငယ်က နှင်းဝေ၏ အုပ်စုအား အဘယ်အရာ မေးမြန်းသနည်း။",
+            optionsEn: [
+              "Why they could not simply filter the salty water to get the salt out",
+              "How much the tray cost",
+              "What colour the water was",
+              "How many people visited the fair",
+            ],
+            optionsMy: [
+              "ဆားကို ရယူရန် ဆားရေကို ရိုးရိုးရှင်းရှင်း အဘယ်ကြောင့် စစ်ထုတ်၍မရနိုင်ကြောင်း",
+              "ခွက်ဈေးနှုန်း မည်မျှရှိသည်",
+              "ရေ၏ အရောင်",
+              "ပွဲတော်သို့ လူဘယ်နှစ်ဦး လာရောက်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai explain why filtering will not work on the salty water?",
+            questionMy:
+                "ဆားရေတွင် စစ်ထုတ်ခြင်း အလုပ်မဖြစ်ကြောင်း နှင်းဝေ မည်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "Filtering only works on solids that have not dissolved",
+              "Filtering removes water completely",
+              "Filtering only works on gases",
+              "Filtering is exactly the same as evaporating",
+            ],
+            optionsMy: [
+              "စစ်ထုတ်ခြင်းသည် မပျော်ဝင်သေးသော အစိုင်အခဲများတွင်သာ အလုပ်ဖြစ်ခြင်း",
+              "စစ်ထုတ်ခြင်းသည် ရေကို လုံးလုံး ဖယ်ရှားခြင်း",
+              "စစ်ထုတ်ခြင်းသည် ဓာတ်ငွေ့များတွင်သာ အလုပ်ဖြစ်ခြင်း",
+              "စစ်ထုတ်ခြင်းနှင့် ငွေ့ပျံစေခြင်းသည် အတိအကျ တူညီခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise about connecting the three ideas into one story?",
+            questionMy:
+                "အယူအဆသုံးခုကို ပုံပြင်တစ်ခုတည်းအဖြစ် ဆက်စပ်ခြင်းအကြောင်း နှင်းဝေ အဘယ်အရာ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "It turned memorised vocabulary into something she could apply to a real salt pan",
+              "It made the vocabulary harder to remember",
+              "It has no real benefit at all",
+              "It only works for salt, never other materials",
+            ],
+            optionsMy: [
+              "အလွတ်ကျက်ထားသော ဝေါဟာရများကို တကယ့်ဆားချက်ကွင်းတွင် အသုံးချနိုင်သောအရာအဖြစ် ပြောင်းလဲပေးခြင်း",
+              "ဝေါဟာရများကို မှတ်မိရန် ပိုခက်ခဲစေခြင်း",
+              "တကယ့်အကျိုးကျေးဇူး လုံးဝမရှိခြင်း",
+              "ဆားတစ်ခုတည်းအတွက်သာ အလုပ်ဖြစ်ပြီး အခြားပစ္စည်းများအတွက် မဟုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone Challenge",
+      titleMy: "Term 7 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's materials fair story, why was the tray made of plastic rather than paper?",
+          questionMy:
+              "နှင်းဝေ၏ ပစ္စည်းများ ပွဲတော် ပုံပြင်တွင် ခွက်ကို စက္ကူအစား ပလတ်စတစ်ဖြင့် ပြုလုပ်ခဲ့သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Plastic is waterproof, unlike paper",
+            "Paper conducts electricity better",
+            "Plastic dissolves faster",
+            "Paper is always heavier",
+          ],
+          optionsMy: [
+            "ပလတ်စတစ်သည် စက္ကူနှင့်မတူဘဲ ရေစိုမခံခြင်း",
+            "စက္ကူသည် လျှပ်စစ်ဓာတ်အားကို ပိုကောင်းစွာ ကူးစက်ခြင်း",
+            "ပလတ်စတစ်သည် ပိုမြန်စွာ ပျော်ဝင်ခြင်း",
+            "စက္ကူသည် အမြဲတမ်း ပိုလေးလံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens to the salt in the tray before evaporation begins?",
+          questionMy:
+              "ငွေ့ပျံစေခြင်း မစတင်မီ ခွက်ထဲရှိ ဆားတွင် အဘယ်အရာ ဖြစ်ပျက်နေသနည်း။",
+          optionsEn: [
+            "It has dissolved completely, forming an invisible solution",
+            "It sinks to the bottom as a solid",
+            "It has evaporated already",
+            "It has turned into sand",
+          ],
+          optionsMy: [
+            "မမြင်နိုင်သော ဒြပ်ရောတစ်ခု ဖွဲ့စည်း၍ လုံးလုံးပျော်ဝင်နေခြင်း",
+            "အစိုင်အခဲအဖြစ် အောက်ခြေသို့ ကျနေခြင်း",
+            "ငွေ့ပျံပြီးသွားခြင်း",
+            "သဲအဖြစ် ပြောင်းလဲသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can filtering not separate the dissolved salt from the water in the tray?",
+          questionMy:
+              "ခွက်ထဲရှိ ပျော်ဝင်နေသော ဆားကို ရေမှ စစ်ထုတ်ခြင်းဖြင့် ခွဲထုတ်၍မရသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Filtering only removes undissolved solids, not dissolved ones",
+            "Filtering removes all water instantly",
+            "Filtering only works on gases",
+            "Salt is never actually dissolved in water",
+          ],
+          optionsMy: [
+            "စစ်ထုတ်ခြင်းသည် မပျော်ဝင်သေးသော အစိုင်အခဲများကိုသာ ဖယ်ရှားပြီး ပျော်ဝင်ပြီးသားများကို မဖယ်ရှားနိုင်ခြင်း",
+            "စစ်ထုတ်ခြင်းသည် ရေအားလုံးကို ချက်ချင်း ဖယ်ရှားခြင်း",
+            "စစ်ထုတ်ခြင်းသည် ဓာတ်ငွေ့များတွင်သာ အလုပ်ဖြစ်ခြင်း",
+            "ဆားသည် ရေတွင် အမှန်တကယ် ဘယ်တော့မှ ပျော်ဝင်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What eventually separates the water from the salt in Hnin Wai's mini salt pan?",
+          questionMy:
+              "နှင်းဝေ၏ ငယ်စား ဆားချက်ကွင်းတွင် ရေနှင့် ဆားကို နောက်ဆုံးတွင် ခွဲထုတ်ပေးသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Evaporation powered by the Sun's heat",
+            "Filtering through paper",
+            "Sieving with a mesh",
+            "Freezing the tray",
+          ],
+          optionsMy: [
+            "နေရောင်၏ အပူဖြင့် မောင်းနှင်သော ငွေ့ပျံစေခြင်း",
+            "စက္ကူဖြင့် စစ်ထုတ်ခြင်း",
+            "ကွန်ရက်ဖြင့် စစ်ကာဖြင့်စစ်ခြင်း",
+            "ခွက်ကို အေးခဲစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 7 -- material properties, dissolving, and separation?",
+          questionMy:
+              "Term 7 တစ်ခုလုံး - ပစ္စည်းဂုဏ်သတ္တိများ၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Understanding how materials behave lets people choose, mix, and separate them purposefully",
+            "All materials behave identically regardless of their properties",
+            "Dissolving and separation have no connection to material properties",
+            "Once mixed, materials can never be separated again",
+          ],
+          optionsMy: [
+            "ပစ္စည်းများ မည်သို့ အပြုအမူပြသည်ကို နားလည်ခြင်းက လူများအား ၎င်းတို့ကို ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ခြင်း၊ ရောနှောခြင်းနှင့် ခွဲထုတ်ခြင်း ပြုလုပ်နိုင်စေခြင်း",
+            "ပစ္စည်းအားလုံးသည် ၎င်းတို့၏ ဂုဏ်သတ္တိများနှင့်မသက်ဆိုင်ဘဲ တူညီစွာ အပြုအမူပြခြင်း",
+            "ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းသည် ပစ္စည်းဂုဏ်သတ္တိများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "ရောနှောပြီးသည့်နောက် ပစ္စည်းများကို ဘယ်တော့မှ ပြန်ခွဲထုတ်၍မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm7 = CourseTermDef(
+  id: "course-year6-science-t7",
+  termNumber: 7,
+  titleEn: "Properties and Changes of Materials",
+  titleMy: "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် ပြောင်းလဲမှုများ",
+  certificateTitleEn: "Properties and Changes of Materials",
+  certificateTitleMy: "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် ပြောင်းလဲမှုများ",
+  weeks: [
+    _year6ScienceWeek25,
+    _year6ScienceWeek26,
+    _year6ScienceWeek27,
+    _year6ScienceWeek28,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 8, Week 29: "Planning Fair Tests and Variables"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek29 = CourseWeekDef(
+  id: "course-year6-science-w29",
+  weekNumber: 29,
+  titleEn: "Planning Fair Tests and Variables",
+  titleMy: "တရားမျှတသော စမ်းသပ်မှုများနှင့် ကိန်းရှင်များ စီစဉ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w29-d1",
+      dayNumber: 1,
+      titleEn: "What Makes a Test Fair",
+      titleMy: "စမ်းသပ်မှုတစ်ခုကို တရားမျှတစေသောအရာမှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a fair test?",
+          questionMy: "တရားမျှတသော စမ်းသပ်မှု ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A test where only one variable is changed at a time, keeping everything else the same",
+            "A test where everything is changed at once",
+            "A test with no rules at all",
+            "A test that is repeated exactly zero times",
+          ],
+          optionsMy: [
+            "ကျန်အရာအားလုံးကို တူညီစွာ ထားရှိလျက် ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသော စမ်းသပ်မှု",
+            "အရာအားလုံးကို တစ်ပြိုင်နက် ပြောင်းလဲသော စမ်းသပ်မှု",
+            "စည်းမျဉ်း လုံးဝမရှိသော စမ်းသပ်မှု",
+            "ဘယ်တော့မှ ထပ်ခါထပ်ခါ မလုပ်သော စမ်းသပ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the independent variable in an experiment?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုတွင် လွတ်လပ်သော ကိန်းရှင် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The one thing the scientist deliberately changes",
+            "The thing that is measured as a result",
+            "Something that is never changed at all",
+            "A random, uncontrolled factor",
+          ],
+          optionsMy: [
+            "သိပ္ပံပညာရှင်က ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲသော အရာတစ်ခု",
+            "ရလဒ်အဖြစ် တိုင်းတာသောအရာ",
+            "ဘယ်တော့မှ လုံးဝ မပြောင်းလဲသောအရာ",
+            "ထိန်းချုပ်မှုမရှိသော ကျပန်း အချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is the dependent variable in an experiment?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုတွင် မှီခိုသော ကိန်းရှင် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The result that is measured to see the effect of the change",
+            "The thing the scientist changes on purpose",
+            "A factor that is kept exactly the same",
+            "The name of the experiment",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲမှု၏ သက်ရောက်မှုကို ကြည့်ရန် တိုင်းတာသော ရလဒ်",
+            "သိပ္ပံပညာရှင်က ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲသောအရာ",
+            "အတိအကျ တူညီစွာ ထားရှိသော အချက်",
+            "စမ်းသပ်မှု၏ အမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What are controlled variables?",
+          questionMy: "ထိန်းချုပ်ထားသော ကိန်းရှင်များ ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Factors kept exactly the same so they do not affect the result",
+            "The one factor being deliberately changed",
+            "Factors that are never measured",
+            "Random factors that change on their own",
+          ],
+          optionsMy: [
+            "ရလဒ်ကို သက်ရောက်မှု မဖြစ်စေရန် အတိအကျ တူညီစွာ ထားရှိသော အချက်များ",
+            "ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲနေသော တစ်ခုတည်းသော အချက်",
+            "ဘယ်တော့မှ မတိုင်းတာသော အချက်များ",
+            "မိမိအလိုအလျောက် ပြောင်းလဲသော ကျပန်း အချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai wants to test whether plants grow taller with more sunlight. She gives one plant more sunlight and less water, and another plant less sunlight and more water. Why is this NOT a fair test?",
+          questionMy:
+              "နေရောင်ပိုရရှိလျှင် အပင်များ ပိုမြင့်စွာ ကြီးထွားမလားဟု စမ်းသပ်လိုသည်။ ၎င်းသည် အပင်တစ်ပင်ကို နေရောင် ပိုပေးပြီး ရေနည်းပေး၍ အခြားအပင်တစ်ပင်ကို နေရောင် နည်းပေးပြီး ရေပိုပေးသည်။ ၎င်းသည် တရားမျှတသော စမ်းသပ်မှု မဟုတ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Two variables (sunlight and water) are changed at once, so she cannot tell which one caused any difference",
+            "The plants are exactly identical in every way",
+            "Only sunlight was changed, nothing else",
+            "It is actually a perfectly fair test",
+          ],
+          optionsMy: [
+            "ကိန်းရှင်နှစ်ခု (နေရောင်နှင့် ရေ) ကို တစ်ပြိုင်နက် ပြောင်းလဲထားသောကြောင့် မည်သည့်တစ်ခုက ကွာခြားချက်ကို ဖြစ်စေကြောင်း မသိနိုင်ခြင်း",
+            "အပင်များသည် နည်းလမ်းတိုင်းတွင် အတိအကျ တူညီခြင်း",
+            "နေရောင်ကိုသာ ပြောင်းလဲထားပြီး အခြားဘာမျှ မပြောင်းလဲခြင်း",
+            "တကယ်တမ်း ပြီးပြည့်စုံသော တရားမျှတသည့် စမ်းသပ်မှု ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match the Investigation Vocabulary",
+      titleMy: "စုံစမ်းစစ်ဆေးမှု ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w29-dm-1",
+          termEn: "Fair test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair test)",
+          matchEn: "A test that changes only one variable at a time",
+          matchMy:
+              "ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w29-dm-2",
+          termEn: "Independent variable",
+          termMy: "လွတ်လပ်သော ကိန်းရှင် (Independent variable)",
+          matchEn: "The one thing the scientist deliberately changes",
+          matchMy: "သိပ္ပံပညာရှင်က ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲသော အရာတစ်ခု",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w29-dm-3",
+          termEn: "Dependent variable",
+          termMy: "မှီခိုသော ကိန်းရှင် (Dependent variable)",
+          matchEn: "The result measured to see the effect of a change",
+          matchMy: "ပြောင်းလဲမှု၏ သက်ရောက်မှုကို ကြည့်ရန် တိုင်းတာသော ရလဒ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w29-dm-4",
+          termEn: "Controlled variable",
+          termMy: "ထိန်းချုပ်ထားသော ကိန်းရှင် (Controlled variable)",
+          matchEn:
+              "A factor kept exactly the same so it does not affect the result",
+          matchMy:
+              "ရလဒ်ကို သက်ရောက်မှု မဖြစ်စေရန် အတိအကျ တူညီစွာ ထားရှိသော အချက်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w29-dm-5",
+          termEn: "Hypothesis",
+          termMy: "ယူဆချက် (Hypothesis)",
+          matchEn: "A testable prediction about what will happen",
+          matchMy:
+              "အဘယ်အရာ ဖြစ်ပျက်မည်ကို စမ်းသပ်နိုင်သော ကြိုတင်ခန့်မှန်းချက်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w29-dm-6",
+          termEn: "Investigation",
+          termMy: "စုံစမ်းစစ်ဆေးမှု (Investigation)",
+          matchEn:
+              "A planned process of testing to answer a scientific question",
+          matchMy:
+              "သိပ္ပံဆိုင်ရာ မေးခွန်းတစ်ခုကို ဖြေရှင်းရန် စီစဉ်ထားသော စမ်းသပ်ဖြစ်စဉ်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fair Test or Unfair Test?",
+      titleMy:
+          "စီစစ်ကြမည် - တရားမျှတသော စမ်းသပ်မှုလား၊ တရားမျှတမှုမရှိသော စမ်းသပ်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fair test", "Unfair test"],
+        bucketsMy: ["တရားမျှတသော စမ်းသပ်မှု", "တရားမျှတမှုမရှိသော စမ်းသပ်မှု"],
+        items: [
+          SortingItem(
+            id: "y6sci-w29-sort-1",
+            labelEn:
+                "Changing only the amount of sunlight, keeping water the same",
+            labelMy:
+                "ရေကို တူညီစွာ ထားရှိလျက် နေရောင် ပမာဏကိုသာ ပြောင်းလဲခြင်း",
+            correctBucketEn: "Fair test",
+            correctBucketMy: "တရားမျှတသော စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "y6sci-w29-sort-2",
+            labelEn: "Changing sunlight and water and soil type all at once",
+            labelMy:
+                "နေရောင်၊ ရေနှင့် မြေဩဇာအမျိုးအစား အားလုံးကို တစ်ပြိုင်နက် ပြောင်းလဲခြင်း",
+            correctBucketEn: "Unfair test",
+            correctBucketMy: "တရားမျှတမှုမရှိသော စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "y6sci-w29-sort-3",
+            labelEn:
+                "Testing two identical circuits, changing only the number of batteries",
+            labelMy:
+                "တူညီသော ဆားကစ်နှစ်ခုကို ဘက်ထရီအရေအတွက်ကိုသာ ပြောင်းလဲစမ်းသပ်ခြင်း",
+            correctBucketEn: "Fair test",
+            correctBucketMy: "တရားမျှတသော စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "y6sci-w29-sort-4",
+            labelEn:
+                "Testing two different bulbs with two different batteries at once",
+            labelMy:
+                "မီးအိမ်ကွဲပြားနှစ်ခုကို ဘက်ထရီကွဲပြားနှစ်ခုနှင့် တစ်ပြိုင်နက် စမ်းသပ်ခြင်း",
+            correctBucketEn: "Unfair test",
+            correctBucketMy: "တရားမျှတမှုမရှိသော စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "y6sci-w29-sort-5",
+            labelEn:
+                "Testing sugar dissolving speed, changing only water temperature",
+            labelMy:
+                "ရေအပူချိန်ကိုသာ ပြောင်းလဲပြီး သကြားပျော်ဝင်မှု အမြန်နှုန်း စမ်းသပ်ခြင်း",
+            correctBucketEn: "Fair test",
+            correctBucketMy: "တရားမျှတသော စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "y6sci-w29-sort-6",
+            labelEn:
+                "Testing dissolving speed with different temperatures, different stirring, and different amounts of sugar all together",
+            labelMy:
+                "အပူချိန်ကွဲပြား၊ လှုပ်ခတ်ခြင်း ကွဲပြားနှင့် သကြားပမာဏ ကွဲပြားအားလုံးကို အတူတကွ ပြောင်းလဲပြီး ပျော်ဝင်မှု အမြန်နှုန်း စမ်းသပ်ခြင်း",
+            correctBucketEn: "Unfair test",
+            correctBucketMy: "တရားမျှတမှုမရှိသော စမ်းသပ်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Plant Growth Investigation",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အပင်ကြီးထွားမှု စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Plant Growth Investigation",
+        titleMy: "နှင်းဝေ၏ အပင်ကြီးထွားမှု စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For her science project, Hnin Wai wants to find out whether plants grow taller with more sunlight. Her first idea is to place one bean plant on a sunny windowsill and another in a dim corner of her room, giving the sunny one slightly more water because she worries it might dry out faster. When her teacher reviews her plan, she points out a problem: if the sunny plant grows taller, Hnin Wai will not know whether it was because of the extra sunlight, the extra water, or both together.\n\nHnin Wai revises her plan to make it a proper fair test. She chooses four identical bean plants of the same age and species, planted in identical pots with the same amount of the same soil. She places two plants on the sunny windowsill and two in the dim corner, giving every single plant the exact same amount of water on the exact same schedule. The only thing that differs between the two groups is the amount of sunlight -- her independent variable -- while the plant height she will measure each week is her dependent variable.\n\nAfter four weeks, Hnin Wai records that the sunny plants have grown noticeably taller than the dim-corner plants, on average. Because water, soil, pot size, and plant age were all controlled variables kept identical, she can confidently conclude that the difference in height is caused by sunlight rather than any other factor. Hnin Wai writes in her final report that a fair test is not about being complicated -- it is about isolating exactly one cause so its effect can be clearly seen.",
+        passageMy:
+            "မိမိ၏ သိပ္ပံစီမံကိန်းအတွက် နှင်းဝေသည် နေရောင် ပိုရရှိလျှင် အပင်များ ပိုမြင့်စွာ ကြီးထွားမလားဟု ရှာဖွေလိုသည်။ ၎င်း၏ ပထမအတွေးမှာ ပဲပင်တစ်ပင်ကို နေရောင်ကျသော ပြတင်းရွက်ပေါ်နှင့် အခြားတစ်ပင်ကို ၎င်း၏ အခန်း မှောင်ကျသော ထောင့်တစ်ခုတွင် ထားရန်ဖြစ်ပြီး ခြောက်သွေ့မြန်နိုင်သည်ဟု စိုးရိမ်သောကြောင့် နေရောင်ရသော အပင်ကို ရေအနည်းငယ်ပို ပေးလိုက်သည်။ ဆရာမက ၎င်း၏ စီမံကိန်းကို ပြန်လည်စစ်ဆေးသောအခါ ပြဿနာတစ်ခုကို ညွှန်ပြသည် - နေရောင်ရသော အပင်က ပိုမြင့်ကြီးထွားလာလျှင် ၎င်းသည် ရောင်ပိုကြောင့်လား၊ ရေပိုကြောင့်လား သို့မဟုတ် နှစ်ခုစလုံးကြောင့်လား နှင်းဝေ သိရှိမည်မဟုတ်ပေ။\n\nနှင်းဝေသည် ၎င်း၏ စီမံကိန်းကို မှန်ကန်သော တရားမျှတသည့် စမ်းသပ်မှုတစ်ခုအဖြစ် ပြန်လည်ပြင်ဆင်သည်။ ၎င်းသည် အသက်နှင့် မျိုးစိတ်တူညီသော ပဲပင်လေးပင်ကို ရွေးချယ်ပြီး ရွေးချယ်ရာတွင် တူညီသော မြေဩဇာ ပမာဏတူသော ပုံစံတူ အိုးများတွင် စိုက်ပျိုးထားသည်။ ၎င်းသည် အပင်နှစ်ပင်ကို နေရောင်ကျသော ပြတင်းရွက်ပေါ်တွင်နှင့် နှစ်ပင်ကို မှောင်ကျသော ထောင့်တွင် ထားပြီး အပင်တစ်ပင်ချင်းစီကို အတိအကျ တူညီသော ရေပမာဏကို အတိအကျ တူညီသော အချိန်ဇယားအတိုင်း ပေးလိုက်သည်။ အုပ်စုနှစ်ခုကြား ကွာခြားသော တစ်ခုတည်းသောအရာမှာ ၎င်း၏ လွတ်လပ်သော ကိန်းရှင်ဖြစ်သော နေရောင်ပမာဏသာဖြစ်ပြီး တစ်ပတ်စီ တိုင်းတာမည့် အပင်အမြင့်သည် ၎င်း၏ မှီခိုသော ကိန်းရှင်ဖြစ်သည်။\n\nလေးပတ်ကြာသောအခါ နေရောင်ကျသော အပင်များသည် ပျမ်းမျှအားဖြင့် မှောင်ကျသော ထောင့်ရှိ အပင်များထက် သတိထားမိလောက်စွာ ပိုမြင့်ကြီးထွားလာသည်ကို နှင်းဝေ မှတ်တမ်းတင်သည်။ ရေ၊ မြေဩဇာ၊ အိုးအရွယ်အစားနှင့် အပင်အသက်တို့ကို ထိန်းချုပ်ထားသော ကိန်းရှင်များအဖြစ် အတိအကျ တူညီစွာ ထားရှိခဲ့သောကြောင့် အမြင့်ကွာခြားမှုသည် အခြားအချက်တစ်ခုမဟုတ်ဘဲ နေရောင်ကြောင့် ဖြစ်ကြောင်း ယုံကြည်စိတ်ချစွာ ကောက်ချက်ချနိုင်သည်။ တရားမျှတသော စမ်းသပ်မှုတစ်ခုသည် ရှုပ်ထွေးရန် မဟုတ်ဘဲ - ၎င်း၏ သက်ရောက်မှုကို ရှင်းလင်းစွာ တွေ့မြင်နိုင်ရန် အကြောင်းရင်းတစ်ခုတည်းကိုသာ ခွဲထုတ်ထားရန် ဖြစ်ကြောင်း ၎င်း၏ နောက်ဆုံး အစီရင်ခံစာတွင် ရေးမှတ်လိုက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What problem does Hnin Wai's teacher point out in her first plan?",
+            questionMy: "ပထမ စီမံကိန်းတွင် ဆရာမ ညွှန်ပြသော ပြဿနာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Two variables (sunlight and water) were changed at once",
+              "The plan had no plants at all",
+              "The plan used too many controlled variables",
+              "The plan was already perfectly fair",
+            ],
+            optionsMy: [
+              "ကိန်းရှင်နှစ်ခု (နေရောင်နှင့် ရေ) ကို တစ်ပြိုင်နက် ပြောင်းလဲထားခြင်း",
+              "စီမံကိန်းတွင် အပင် လုံးဝမပါခြင်း",
+              "စီမံကိန်းတွင် ထိန်းချုပ်ထားသော ကိန်းရှင် အလွန်များခြင်း",
+              "စီမံကိန်းသည် ပြီးပြည့်စုံသော တရားမျှတမှုရှိပြီးသားဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the independent variable in Hnin Wai's revised experiment?",
+            questionMy:
+                "နှင်းဝေ၏ ပြင်ဆင်ထားသော စမ်းသပ်မှုတွင် လွတ်လပ်သော ကိန်းရှင်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The amount of sunlight",
+              "The amount of water",
+              "The size of the pots",
+              "The species of plant",
+            ],
+            optionsMy: [
+              "နေရောင်ပမာဏ",
+              "ရေပမာဏ",
+              "အိုးအရွယ်အစား",
+              "အပင် မျိုးစိတ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What is the dependent variable in Hnin Wai's revised experiment?",
+            questionMy:
+                "နှင်းဝေ၏ ပြင်ဆင်ထားသော စမ်းသပ်မှုတွင် မှီခိုသော ကိန်းရှင်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The height of the plants",
+              "The colour of the pots",
+              "The number of plants",
+              "The time of day",
+            ],
+            optionsMy: [
+              "အပင်များ၏ အမြင့်",
+              "အိုးများ၏ အရောင်",
+              "အပင် အရေအတွက်",
+              "နေ့၏ အချိန်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Which factors does Hnin Wai keep exactly the same as controlled variables?",
+            questionMy:
+                "ထိန်းချုပ်ထားသော ကိန်းရှင်များအဖြစ် နှင်းဝေ အတိအကျ တူညီစွာ ထားရှိသော အချက်များမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Water, soil, pot size, and plant age",
+              "Only the amount of sunlight",
+              "Nothing at all was kept the same",
+              "The height of the plants",
+            ],
+            optionsMy: [
+              "ရေ၊ မြေဩဇာ၊ အိုးအရွယ်အစားနှင့် အပင်အသက်",
+              "နေရောင်ပမာဏသာ",
+              "ဘာမျှ တူညီစွာ မထားရှိခြင်း",
+              "အပင်များ၏ အမြင့်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai conclude a fair test is really about?",
+            questionMy:
+                "တရားမျှတသော စမ်းသပ်မှုတစ်ခုသည် တကယ်တမ်း အဘယ်အရာအကြောင်းဖြစ်ကြောင်း နှင်းဝေ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "Isolating exactly one cause so its effect can be clearly seen",
+              "Making the experiment as complicated as possible",
+              "Changing as many variables as possible at once",
+              "Never measuring any results at all",
+            ],
+            optionsMy: [
+              "ရလဒ်ကို ရှင်းလင်းစွာ တွေ့မြင်နိုင်ရန် အကြောင်းရင်းတစ်ခုတည်းကို ခွဲထုတ်ခြင်း",
+              "စမ်းသပ်မှုကို တတ်နိုင်သမျှ ရှုပ်ထွေးအောင် ပြုလုပ်ခြင်း",
+              "တတ်နိုင်သမျှ ကိန်းရှင်များစွာကို တစ်ပြိုင်နက် ပြောင်းလဲခြင်း",
+              "ရလဒ် မည်သည်ကိုမျှ ဘယ်တော့မှ မတိုင်းတာခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w29-d5",
+      dayNumber: 5,
+      titleEn: "Fair Tests Round-Up",
+      titleMy: "တရားမျှတသော စမ်းသပ်မှုများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why must a fair test change only one variable at a time?",
+          questionMy:
+              "တရားမျှတသော စမ်းသပ်မှုတစ်ခုသည် ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲရမည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "So the scientist can be sure which variable caused the result",
+            "To make the experiment take longer",
+            "Because rules require it with no real reason",
+            "So the results will always look the same",
+          ],
+          optionsMy: [
+            "မည်သည့်ကိန်းရှင်က ရလဒ်ကို ဖြစ်စေကြောင်း သိပ္ပံပညာရှင် သေချာနိုင်ရန်",
+            "စမ်းသပ်မှုကို ပိုကြာစေရန်",
+            "တကယ့်အကြောင်းရင်းမရှိဘဲ စည်းမျဉ်းက တောင်းဆိုသောကြောင့်",
+            "ရလဒ်များ အမြဲတမ်း တူညီစွာ ရှိစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's revised plant experiment, what was the only thing that differed between the two groups?",
+          questionMy:
+              "နှင်းဝေ၏ ပြင်ဆင်ထားသော အပင်စမ်းသပ်မှုတွင် အုပ်စုနှစ်ခုကြား ကွာခြားသော တစ်ခုတည်းသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The amount of sunlight",
+            "The species of plant",
+            "The pot size",
+            "The soil type",
+          ],
+          optionsMy: [
+            "နေရောင်ပမာဏ",
+            "အပင် မျိုးစိတ်",
+            "အိုးအရွယ်အစား",
+            "မြေဩဇာအမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is a hypothesis?",
+          questionMy: "ယူဆချက် ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A testable prediction about what will happen",
+            "A completed final result",
+            "A type of controlled variable",
+            "A random guess with no basis",
+          ],
+          optionsMy: [
+            "အဘယ်အရာ ဖြစ်ပျက်မည်ကို စမ်းသပ်နိုင်သော ကြိုတင်ခန့်မှန်းချက်",
+            "ပြီးစီးပြီးသား နောက်ဆုံးရလဒ်",
+            "ထိန်းချုပ်ထားသော ကိန်းရှင်တစ်မျိုး",
+            "အခြေခံမရှိသော ကျပန်း ခန့်မှန်းချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Hnin Wai's teacher say her first plan was not a fair test?",
+          questionMy:
+              "ပထမ စီမံကိန်းသည် တရားမျှတသော စမ်းသပ်မှုမဟုတ်ကြောင်း ဆရာမ ပြောသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Both sunlight and water were changed at the same time",
+            "It used too many identical plants",
+            "It measured the wrong plant part",
+            "It had no hypothesis at all",
+          ],
+          optionsMy: [
+            "နေရောင်နှင့် ရေ နှစ်ခုစလုံးကို တစ်ချိန်တည်း ပြောင်းလဲထားခြင်း",
+            "အတူတူသော အပင် အလွန်များများ အသုံးပြုခြင်း",
+            "မှားယွင်းသော အပင်အစိတ်အပိုင်းကို တိုင်းတာခြင်း",
+            "ယူဆချက် လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on fair tests teach?",
+          questionMy:
+              "ဤအပတ်စာ တရားမျှတသော စမ်းသပ်မှုများ သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A well-designed test isolates one variable so its true effect can be seen clearly",
+            "Every experiment should change as many things as possible",
+            "Controlled variables are unnecessary in science",
+            "Fair tests always give random, meaningless results",
+          ],
+          optionsMy: [
+            "ကောင်းစွာ ဒီဇိုင်းရေးဆွဲထားသော စမ်းသပ်မှုတစ်ခုသည် ၎င်း၏ အမှန်တကယ် သက်ရောက်မှုကို ရှင်းလင်းစွာ တွေ့မြင်နိုင်ရန် ကိန်းရှင်တစ်ခုကို ခွဲထုတ်ခြင်း",
+            "စမ်းသပ်မှုတိုင်းသည် တတ်နိုင်သမျှ အရာများစွာကို ပြောင်းလဲသင့်ခြင်း",
+            "ထိန်းချုပ်ထားသော ကိန်းရှင်များသည် သိပ္ပံတွင် မလိုအပ်ခြင်း",
+            "တရားမျှတသော စမ်းသပ်မှုများသည် အမြဲတမ်း ကျပန်း၊ အဓိပ္ပာယ်မရှိသော ရလဒ်များ ပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 8, Week 30: "Taking Measurements and
+// Recording Data"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek30 = CourseWeekDef(
+  id: "course-year6-science-w30",
+  weekNumber: 30,
+  titleEn: "Taking Measurements and Recording Data",
+  titleMy: "တိုင်းတာမှုများ ယူခြင်းနှင့် ဒေတာ မှတ်တမ်းတင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w30-d1",
+      dayNumber: 1,
+      titleEn: "Measuring Accurately",
+      titleMy: "တိကျစွာ တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it important to use the same measuring instrument throughout an experiment?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုတစ်လျှောက် တိုင်းတာသည့် ကိရိယာတစ်ခုတည်းကို အသုံးပြုရန် အရေးကြီးသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Different instruments might measure slightly differently, making results hard to compare",
+            "It makes the experiment take longer",
+            "It has no real effect on accuracy",
+            "Only expensive instruments give any results",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော ကိရိယာများသည် အနည်းငယ် ကွဲပြားစွာ တိုင်းတာနိုင်ပြီး ရလဒ်များကို နှိုင်းယှဉ်ရန် ခက်ခဲစေခြင်း",
+            "စမ်းသပ်မှုကို ပိုကြာစေခြင်း",
+            "တိကျမှုအပေါ် တကယ့်သက်ရောက်မှု မရှိခြင်း",
+            "ဈေးကြီးသော ကိရိယာများသာ ရလဒ်များ ပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an experiment be repeated several times rather than just once?",
+          questionMy:
+              "စမ်းသပ်မှုတစ်ခုကို တစ်ကြိမ်တည်းမဟုတ်ဘဲ အကြိမ်များစွာ ထပ်ခါလုပ်သင့်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To check the result is reliable and not just a one-off accident",
+            "Because repeating always changes the answer completely",
+            "To make the experiment take less time",
+            "Repetition is never useful in science",
+          ],
+          optionsMy: [
+            "ရလဒ်သည် ယုံကြည်စိတ်ချရပြီး တစ်ကြိမ်တည်း ကြုံတွေ့မှုတစ်ခုမျှ မဟုတ်ကြောင်း စစ်ဆေးရန်",
+            "ထပ်ခါလုပ်ခြင်းသည် အဖြေကို အမြဲတမ်း လုံးလုံး ပြောင်းလဲစေသောကြောင့်",
+            "စမ်းသပ်မှုကို အချိန် ပိုနည်းစေရန်",
+            "ထပ်ခါလုပ်ခြင်းသည် သိပ္ပံတွင် ဘယ်တော့မှ အသုံးမဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which unit would be most appropriate for measuring the mass of a small object in a science experiment?",
+          questionMy:
+              "သိပ္ပံ စမ်းသပ်မှုတစ်ခုတွင် အရာဝတ္ထုငယ်တစ်ခု၏ ကိုယ်ထည်ကို တိုင်းတာရန် အသင့်လျော်ဆုံး ယူနစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Grams", "Kilometres", "Litres", "Degrees"],
+          optionsMy: ["ဂရမ်", "ကီလိုမီတာ", "လီတာ", "ဒီဂရီ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the purpose of writing down measurements in a table as you go?",
+          questionMy:
+              "တိုင်းတာမှုများကို လုပ်ရင်း ဇယားထဲတွင် ရေးမှတ်ခြင်း၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It keeps an accurate, organised record that can be checked and analysed later",
+            "It has no real purpose",
+            "It makes the experiment take much longer for no benefit",
+            "It replaces the need for actually doing the experiment",
+          ],
+          optionsMy: [
+            "နောက်မှ စစ်ဆေးနိုင်ပြီး ခွဲခြမ်းစိတ်ဖြာနိုင်သော တိကျ၊ စနစ်တကျ မှတ်တမ်းတစ်ခု ထားရှိခြင်း",
+            "တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+            "အကျိုးမရှိဘဲ စမ်းသပ်မှုကို ပိုကြာစေခြင်း",
+            "စမ်းသပ်မှုကို အမှန်တကယ် လုပ်ဆောင်ရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai measures the same plant's height three times in one day using the same ruler and gets 15 cm, 15 cm, and 16 cm. What is the most likely explanation for the small difference?",
+          questionMy:
+              "နှင်းဝေသည် တစ်နေ့တည်းအတွင်း ပေတံတစ်ခုတည်းကို အသုံးပြု၍ အပင်တူတူ၏ အမြင့်ကို သုံးကြိမ် တိုင်းတာရာ ၁၅ စင်တီမီတာ၊ ၁၅ စင်တီမီတာနှင့် ၁၆ စင်တီမီတာ ရရှိသည်။ ဤအနည်းငယ်ကွာခြားချက်အတွက် အဖြစ်များဆုံး ရှင်းချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Small, normal measuring errors, not a real change in the plant",
+            "The plant grew ten times overnight",
+            "The ruler was completely broken",
+            "Measurement never has any small variation",
+          ],
+          optionsMy: [
+            "အပင်တွင် အမှန်တကယ် ပြောင်းလဲမှု မဟုတ်ဘဲ ငယ်၍ ပုံမှန် တိုင်းတာမှု အမှားများ",
+            "အပင်သည် တစ်ညတည်းအတွင်း ဆယ်ဆ ကြီးထွားသွားခြင်း",
+            "ပေတံ လုံးလုံး ကျိုးပဲ့သွားခြင်း",
+            "တိုင်းတာမှုတွင် ငယ်သော ကွာခြားချက် ဘယ်တော့မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match the Measurement and Data Vocabulary",
+      titleMy: "တိုင်းတာမှုနှင့် ဒေတာ ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w30-dm-1",
+          termEn: "Data",
+          termMy: "ဒေတာ (Data)",
+          matchEn: "Information collected during an investigation",
+          matchMy: "စုံစမ်းစစ်ဆေးမှုတစ်ခုအတွင်း ကောက်ယူသော အချက်အလက်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w30-dm-2",
+          termEn: "Accurate",
+          termMy: "တိကျသော (Accurate)",
+          matchEn: "Very close to the true, correct value",
+          matchMy: "အမှန်၊ မှန်ကန်သော တန်ဖိုးနှင့် အလွန်နီးစပ်သော",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w30-dm-3",
+          termEn: "Repeat",
+          termMy: "ထပ်ခါလုပ်ခြင်း (Repeat)",
+          matchEn: "To do the same test again to check reliability",
+          matchMy:
+              "ယုံကြည်စိတ်ချရမှုကို စစ်ဆေးရန် စမ်းသပ်မှုတူတူကို ထပ်ခါလုပ်ခြင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w30-dm-4",
+          termEn: "Table",
+          termMy: "ဇယား (Table)",
+          matchEn: "A grid used to organise and record data clearly",
+          matchMy:
+              "ဒေတာကို ရှင်းလင်းစွာ စနစ်တကျ စီစဉ်ပြီး မှတ်တမ်းတင်ရန် အသုံးပြုသော ကွက်ဇယား",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w30-dm-5",
+          termEn: "Anomaly",
+          termMy: "ပုံမမှန်တန်ဖိုး (Anomaly)",
+          matchEn:
+              "A result that does not fit the pattern of the other results",
+          matchMy: "အခြားရလဒ်များ၏ ပုံစံနှင့် မကိုက်ညီသော ရလဒ်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w30-dm-6",
+          termEn: "Instrument",
+          termMy: "ကိရိယာ (Instrument)",
+          matchEn:
+              "A tool used to take a measurement, such as a ruler or thermometer",
+          matchMy:
+              "ပေတံ သို့မဟုတ် ဒီဂရီတိုင်းကိရိယာကဲ့သို့ တိုင်းတာမှုတစ်ခု ယူရန် အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Measurement Practice or Poor Measurement Practice?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းမွန်သော တိုင်းတာမှု အလေ့အထလား၊ မကောင်းသော တိုင်းတာမှု အလေ့အထလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good measurement practice", "Poor measurement practice"],
+        bucketsMy: [
+          "ကောင်းမွန်သော တိုင်းတာမှု အလေ့အထ",
+          "မကောင်းသော တိုင်းတာမှု အလေ့အထ",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w30-sort-1",
+            labelEn: "Using the same ruler for every measurement",
+            labelMy: "တိုင်းတာမှုတိုင်းအတွက် ပေတံတစ်ခုတည်း အသုံးပြုခြင်း",
+            correctBucketEn: "Good measurement practice",
+            correctBucketMy: "ကောင်းမွန်သော တိုင်းတာမှု အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w30-sort-2",
+            labelEn: "Measuring only once and assuming it is perfectly correct",
+            labelMy:
+                "တစ်ကြိမ်တည်း တိုင်းတာပြီး ပြီးပြည့်စုံစွာ မှန်ကန်သည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Poor measurement practice",
+            correctBucketMy: "မကောင်းသော တိုင်းတာမှု အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w30-sort-3",
+            labelEn:
+                "Repeating a measurement three times and averaging the results",
+            labelMy:
+                "တိုင်းတာမှုကို သုံးကြိမ် ထပ်ခါလုပ်ပြီး ရလဒ်များကို ပျမ်းမျှတွက်ခြင်း",
+            correctBucketEn: "Good measurement practice",
+            correctBucketMy: "ကောင်းမွန်သော တိုင်းတာမှု အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w30-sort-4",
+            labelEn: "Using a different ruler for every single measurement",
+            labelMy: "တိုင်းတာမှုတိုင်းအတွက် ကွဲပြားသော ပေတံ အသုံးပြုခြင်း",
+            correctBucketEn: "Poor measurement practice",
+            correctBucketMy: "မကောင်းသော တိုင်းတာမှု အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w30-sort-5",
+            labelEn:
+                "Recording every measurement in an organised table immediately",
+            labelMy:
+                "တိုင်းတာမှုတိုင်းကို စနစ်တကျ ဇယားတွင် ချက်ချင်း ရေးမှတ်ခြင်း",
+            correctBucketEn: "Good measurement practice",
+            correctBucketMy: "ကောင်းမွန်သော တိုင်းတာမှု အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w30-sort-6",
+            labelEn:
+                "Trying to remember all results from memory instead of writing them down",
+            labelMy:
+                "ရေးမှတ်မည့်အစား ရလဒ်အားလုံးကို မှတ်ဉာဏ်မှသာ မှတ်ရန် ကြိုးစားခြင်း",
+            correctBucketEn: "Poor measurement practice",
+            correctBucketMy: "မကောင်းသော တိုင်းတာမှု အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Pulse Data Log",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ သွေးခုန်နှုန်း ဒေတာ မှတ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Pulse Data Log",
+        titleMy: "နှင်းဝေ၏ သွေးခုန်နှုန်း ဒေတာ မှတ်တမ်း",
+        passageEn:
+            "Building on her earlier pulse investigation from the circulatory system unit, Hnin Wai now wants to measure her resting pulse as carefully and reliably as possible, applying everything she has learned about data collection this term. Rather than measuring once and trusting the number blindly, she decides to take her pulse three separate times, sitting quietly for a full minute before each measurement to make sure her heart rate has settled.\n\nHer three measurements come out as 74, 73, and 75 beats per minute. Instead of picking just one number, Hnin Wai adds all three together and divides by three, calculating an average of 74 beats per minute -- a more reliable figure than any single measurement alone, since small, normal variations between individual measurements cancel each other out.\n\nHnin Wai records her results neatly in a table with clear column headings: attempt number, beats per minute, and notes. She leaves a note next to her second measurement explaining that she coughed partway through counting, which may explain why it came out one beat lower than the other two. Her teacher praises this note specifically, explaining that recording context alongside raw numbers helps future readers -- including Hnin Wai herself -- understand whether an unusual result is a genuine finding or simply an error worth investigating further.",
+        passageMy:
+            "သွေးလည်ပတ်မှုစနစ် ယူနစ်မှ ၎င်း၏ အစောပိုင်း သွေးခုန်နှုန်း စုံစမ်းစစ်ဆေးမှုကို အခြေခံ၍ နှင်းဝေသည် ဤ Term ဒေတာကောက်ယူခြင်းအကြောင်း သင်ယူခဲ့သမျှကို အသုံးချလျက် မိမိ၏ အနားယူချိန် သွေးခုန်နှုန်းကို တတ်နိုင်သမျှ ဂရုတစိုက်နှင့် ယုံကြည်စိတ်ချရအောင် တိုင်းတာလိုသည်။ တစ်ကြိမ်တည်း တိုင်းတာပြီး ကိန်းဂဏန်းကို ကန်စေတနာယုံကြည်မည့်အစား ၎င်းသည် သွေးခုန်နှုန်းကို သီးခြားသုံးကြိမ် ယူရန် ဆုံးဖြတ်ပြီး တိုင်းတာမှုတစ်ခုစီမလုပ်မီ ၎င်း၏ နှလုံးခုန်နှုန်း တည်ငြိမ်ကြောင်း သေချာစေရန် တစ်မိနစ်ပြည့် တိတ်ဆိတ်စွာ ထိုင်နေသည်။\n\n၎င်း၏ တိုင်းတာမှုသုံးကြိမ်သည် တစ်မိနစ်လျှင် ၇၄၊ ၇၃ နှင့် ၇၅ ကြိမ်ဟု ရရှိသည်။ ကိန်းဂဏန်းတစ်ခုတည်းကို ရွေးချယ်မည့်အစား နှင်းဝေသည် သုံးခုစလုံးကို ပေါင်းစည်းပြီး သုံးဖြင့် စား၍ တစ်မိနစ်လျှင် ၇၄ ကြိမ် ပျမ်းမျှတွက်ချက်သည် - တစ်ခုချင်းစီ တိုင်းတာမှုများကြား ငယ်၍ ပုံမှန် ကွာခြားချက်များ တစ်ခုနှင့်တစ်ခု ဖျက်သိမ်းပေးသောကြောင့် တစ်ခုတည်းသော တိုင်းတာမှုထက် ပိုယုံကြည်စိတ်ချရသော ကိန်းဂဏန်းတစ်ခု ဖြစ်သည်။\n\nနှင်းဝေသည် ၎င်း၏ ရလဒ်များကို ရှင်းလင်းသော ကော်လံ ခေါင်းစဉ်များ - ကြိုးစားမှုနံပါတ်၊ တစ်မိနစ်လျှင် ခုန်ချက်နှင့် မှတ်ချက်များ - ဖြင့် ဇယားထဲတွင် သေသေသပ်သပ် ရေးမှတ်သည်။ ၎င်း၏ ဒုတိယ တိုင်းတာမှုအနီးတွင် ရေတွက်နေစဉ် ချောင်းဆိုးမိသောကြောင့် ၎င်းသည် အခြားနှစ်ခုထက် တစ်ကြိမ်နည်းသွားနိုင်ကြောင်း ရှင်းပြသော မှတ်ချက်တစ်ခု ချန်ထားသည်။ ၎င်း၏ ဆရာမက ဤမှတ်ချက်ကို တိကျစွာ ချီးမွမ်းပြီး ကုန်ကြမ်း ကိန်းဂဏန်းများနှင့်အတူ ဆက်စပ်အခြေအနေကို မှတ်တမ်းတင်ခြင်းသည် ကျွန်ုပ်တို့ကိုယ်တိုင် အပါအဝင် နောက်ဖတ်သူများအား ထူးခြားသောရလဒ်တစ်ခု တကယ့်တွေ့ရှိချက်ဖြစ်သလား သို့မဟုတ် ထပ်မံစုံစမ်းစစ်ဆေးရန် ထိုက်တန်သော အမှားတစ်ခုသာလားကို နားလည်ရန် ကူညီပေးကြောင်း ရှင်းပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many times does Hnin Wai measure her pulse in this investigation?",
+            questionMy:
+                "ဤစုံစမ်းစစ်ဆေးမှုတွင် နှင်းဝေ ၎င်း၏ သွေးခုန်နှုန်းကို ဘယ်နှစ်ကြိမ် တိုင်းတာသနည်း။",
+            optionsEn: [
+              "Three times",
+              "Once only",
+              "Ten times",
+              "It was never measured",
+            ],
+            optionsMy: [
+              "သုံးကြိမ်",
+              "တစ်ကြိမ်တည်း",
+              "ဆယ်ကြိမ်",
+              "ဘယ်တော့မှ မတိုင်းတာဖူးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What average does Hnin Wai calculate from her three measurements?",
+            questionMy:
+                "၎င်း၏ တိုင်းတာမှုသုံးကြိမ်မှ နှင်းဝေ တွက်ချက်ရရှိသော ပျမ်းမျှမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "74 beats per minute",
+              "100 beats per minute",
+              "0 beats per minute",
+              "200 beats per minute",
+            ],
+            optionsMy: [
+              "တစ်မိနစ်လျှင် ၇၄ ကြိမ်",
+              "တစ်မိနစ်လျှင် ၁၀၀ ကြိမ်",
+              "တစ်မိနစ်လျှင် ၀ ကြိမ်",
+              "တစ်မိနစ်လျှင် ၂၀၀ ကြိမ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does taking an average of three measurements give a more reliable result than one measurement alone?",
+            questionMy:
+                "တိုင်းတာမှုသုံးကြိမ်၏ ပျမ်းမျှကို ယူခြင်းသည် တစ်ကြိမ်တည်း တိုင်းတာမှုထက် ပိုယုံကြည်စိတ်ချရသော ရလဒ် ပေးသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "Small, normal variations between measurements cancel each other out",
+              "Averaging always makes the number bigger",
+              "Only one measurement can ever be trusted",
+              "Averaging removes the need for measuring at all",
+            ],
+            optionsMy: [
+              "တိုင်းတာမှုများကြား ငယ်၍ ပုံမှန် ကွာခြားချက်များ တစ်ခုနှင့်တစ်ခု ဖျက်သိမ်းပေးခြင်း",
+              "ပျမ်းမျှတွက်ခြင်းသည် ကိန်းဂဏန်းကို အမြဲတမ်း ပိုကြီးစေခြင်း",
+              "တိုင်းတာမှု တစ်ခုတည်းသာ ယုံကြည်နိုင်ခြင်း",
+              "ပျမ်းမျှတွက်ခြင်းသည် တိုင်းတာရန် လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What note does Hnin Wai leave next to her second measurement?",
+            questionMy:
+                "၎င်း၏ ဒုတိယ တိုင်းတာမှုအနီးတွင် နှင်းဝေ ချန်ထားသော မှတ်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "That she coughed partway through counting",
+              "That the ruler was broken",
+              "That she forgot to measure at all",
+              "That she used a different clock",
+            ],
+            optionsMy: [
+              "ရေတွက်နေစဉ် ချောင်းဆိုးမိသည်",
+              "ပေတံ ကျိုးပဲ့သည်",
+              "တိုင်းတာရန် လုံးဝ မေ့သွားသည်",
+              "မတူညီသော နာရီကို အသုံးပြုသည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai's teacher praise the note about coughing?",
+            questionMy:
+                "ချောင်းဆိုးသည့်အကြောင်း မှတ်ချက်ကို ဆရာမ ချီးမွမ်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "It helps future readers understand whether an unusual result is genuine or an error",
+              "It makes the data table look longer",
+              "It has no real value at all",
+              "It replaces the need for repeating the measurement",
+            ],
+            optionsMy: [
+              "ထူးခြားသောရလဒ်တစ်ခု တကယ့်တွေ့ရှိချက်ဖြစ်သလား သို့မဟုတ် အမှားတစ်ခုလားကို နောက်ဖတ်သူများ နားလည်ရန် ကူညီပေးခြင်း",
+              "ဒေတာဇယားကို ပိုရှည်စေခြင်း",
+              "တကယ့်တန်ဖိုး လုံးဝမရှိခြင်း",
+              "တိုင်းတာမှုကို ထပ်ခါလုပ်ရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w30-d5",
+      dayNumber: 5,
+      titleEn: "Measurement and Data Round-Up",
+      titleMy: "တိုင်းတာမှုနှင့် ဒေတာ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does Hnin Wai take her pulse three times rather than once?",
+          questionMy:
+              "မိမိ၏ သွေးခုန်နှုန်းကို တစ်ကြိမ်တည်းမဟုတ်ဘဲ သုံးကြိမ် နှင်းဝေ ယူသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To get a more reliable average",
+            "Because one measurement is always wrong",
+            "To make the experiment more colourful",
+            "Because rules require exactly three attempts always",
+          ],
+          optionsMy: [
+            "ပိုယုံကြည်စိတ်ချရသော ပျမ်းမျှကို ရရှိရန်",
+            "တိုင်းတာမှုတစ်ကြိမ်တည်းသည် အမြဲတမ်း မှားနေသောကြောင့်",
+            "စမ်းသပ်မှုကို ပိုအရောင်စုံစေရန်",
+            "စည်းမျဉ်းက အမြဲတမ်း အတိအကျ သုံးကြိမ် ကြိုးစားမှု တောင်းဆိုသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is an anomaly?",
+          questionMy: "ပုံမမှန်တန်ဖိုး ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A result that does not fit the pattern of other results",
+            "The average of all results",
+            "A type of measuring instrument",
+            "A fair test",
+          ],
+          optionsMy: [
+            "အခြားရလဒ်များ၏ ပုံစံနှင့် မကိုက်ညီသော ရလဒ်",
+            "ရလဒ်အားလုံး၏ ပျမ်းမျှ",
+            "တိုင်းတာသည့် ကိရိယာတစ်မျိုး",
+            "တရားမျှတသော စမ်းသပ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is writing notes alongside data useful, as shown in Hnin Wai's pulse log?",
+          questionMy:
+              "နှင်းဝေ၏ သွေးခုန်နှုန်း မှတ်တမ်းတွင် ပြသထားသည့်အတိုင်း ဒေတာနှင့်အတူ မှတ်ချက်များ ရေးခြင်း အသုံးဝင်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It helps explain unusual results, such as a cough affecting a measurement",
+            "It has no effect on understanding the data",
+            "It replaces the need for taking any measurements",
+            "It only matters for very old experiments",
+          ],
+          optionsMy: [
+            "ချောင်းဆိုးမှုက တိုင်းတာမှုတစ်ခုကို သက်ရောက်ခြင်းကဲ့သို့ ထူးခြားသောရလဒ်များကို ရှင်းပြရန် ကူညီပေးခြင်း",
+            "ဒေတာကို နားလည်ရန် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+            "တိုင်းတာမှု ယူရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            "အလွန်ဟောင်းနွမ်းသော စမ်းသပ်မှုများအတွက်သာ အရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which unit would be most appropriate for measuring a plant's height in an investigation?",
+          questionMy:
+              "စုံစမ်းစစ်ဆေးမှုတစ်ခုတွင် အပင်တစ်ပင်၏ အမြင့်ကို တိုင်းတာရန် အသင့်လျော်ဆုံး ယူနစ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Centimetres", "Litres", "Degrees Celsius", "Kilograms"],
+          optionsMy: ["စင်တီမီတာ", "လီတာ", "ဒီဂရီ စင်တီဂရိတ်", "ကီလိုဂရမ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on measurement and data teach?",
+          questionMy:
+              "ဤအပတ်စာ တိုင်းတာမှုနှင့် ဒေတာ သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful, repeated, well-recorded measurements produce more trustworthy scientific results",
+            "One quick measurement is always good enough",
+            "Recording context alongside data has no value",
+            "Measuring instruments never need to be consistent",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက်၊ ထပ်ခါလုပ်ထားပြီး ကောင်းစွာ မှတ်တမ်းတင်ထားသော တိုင်းတာမှုများက ပိုယုံကြည်ရသော သိပ္ပံဆိုင်ရာ ရလဒ်များ ထုတ်လုပ်ပေးခြင်း",
+            "တိုင်းတာမှု အမြန်ချက်ချင်း တစ်ကြိမ်တည်း အမြဲတမ်း လုံလောက်ခြင်း",
+            "ဆက်စပ်အခြေအနေကို ဒေတာနှင့်အတူ မှတ်တမ်းတင်ခြင်းတွင် တန်ဖိုး မရှိခြင်း",
+            "တိုင်းတာသည့် ကိရိယာများသည် အမြဲတမ်း တသမတ်တည်း ဖြစ်နေရန် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 8, Week 31: "Presenting Data in Tables and
+// Graphs"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek31 = CourseWeekDef(
+  id: "course-year6-science-w31",
+  weekNumber: 31,
+  titleEn: "Presenting Data in Tables and Graphs",
+  titleMy: "ဒေတာကို ဇယားနှင့် ဂရပ်များတွင် ဖော်ပြခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w31-d1",
+      dayNumber: 1,
+      titleEn: "Choosing the Right Way to Show Data",
+      titleMy: "ဒေတာကို ပြသရန် မှန်ကန်သော နည်းလမ်း ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do scientists organise data into tables before graphing it?",
+          questionMy:
+              "ဂရပ်ဆွဲမီ သိပ္ပံပညာရှင်များသည် ဒေတာကို ဇယားအဖြစ် စီစဉ်ကြသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It keeps raw results organised and easy to check before turning them into a visual",
+            "Tables always look prettier than graphs",
+            "Tables replace the need for graphs entirely",
+            "It has no real purpose",
+          ],
+          optionsMy: [
+            "ရုပ်ပုံအဖြစ် မပြောင်းလဲမီ ကုန်ကြမ်း ရလဒ်များကို စနစ်တကျနှင့် စစ်ဆေးရန်လွယ်ကူစွာ ထားရှိခြင်း",
+            "ဇယားများသည် ဂရပ်များထက် အမြဲတမ်း ပိုလှခြင်း",
+            "ဇယားများသည် ဂရပ်များ လိုအပ်ချက်ကို လုံးလုံး အစားထိုးခြင်း",
+            "တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of graph is best for showing how something changes continuously over time?",
+          questionMy:
+              "အရာတစ်ခု အချိန်တစ်လျှောက် တစ်စဉ်ဆက်မပြတ် မည်သို့ ပြောင်းလဲကြောင်း ပြသရန် အကောင်းဆုံး ဂရပ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A line graph",
+            "A pie chart only",
+            "A bar chart of unrelated categories",
+            "No graph is ever needed",
+          ],
+          optionsMy: [
+            "မျဉ်းဂရပ်",
+            "ပိုင်ခြားဂရပ်သာ",
+            "မဆက်စပ်သော အမျိုးအစားများ ဘားဂရပ်",
+            "ဂရပ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of graph is best for comparing separate categories, like favourite subjects?",
+          questionMy:
+              "ကြိုက်နှစ်သက်ဆုံး ဘာသာရပ်များကဲ့သို့ သီးခြားအမျိုးအစားများကို နှိုင်းယှဉ်ရန် အကောင်းဆုံး ဂရပ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A bar chart",
+            "A line graph only",
+            "A single number with no chart",
+            "A microscope image",
+          ],
+          optionsMy: [
+            "ဘားဂရပ်",
+            "မျဉ်းဂရပ်သာ",
+            "ဂရပ်မပါသော ကိန်းဂဏန်းတစ်ခုတည်း",
+            "အဏုစုံကိရိယာ ပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What should every graph include to be read correctly?",
+          questionMy:
+              "ဂရပ်တိုင်းကို မှန်ကန်စွာ ဖတ်ရှုနိုင်ရန် မည်သည့်အရာ ပါဝင်သင့်သနည်း။",
+          optionsEn: [
+            "A clear title and labelled axes",
+            "As many colours as possible with no labels",
+            "No numbers at all",
+            "Random data with no organisation",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော ခေါင်းစဉ်နှင့် အမည်တပ်ထားသော အက္ခ",
+            "အခေါင်းစဉ်မပါဘဲ တတ်နိုင်သမျှ အရောင်များ",
+            "ကိန်းဂဏန်း လုံးဝမပါခြင်း",
+            "စနစ်မတကျသော ကျပန်း ဒေတာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai has data showing plant height measured every week for four weeks. Which type of graph would best show this trend over time?",
+          questionMy:
+              "နှင်းဝေတွင် လေးပတ်ကြာ တစ်ပတ်စီ တိုင်းတာထားသော အပင်အမြင့် ဒေတာ ရှိသည်။ ဤ trend ကို အချိန်တစ်လျှောက် အကောင်းဆုံး ပြသနိုင်မည့် ဂရပ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A line graph",
+            "A pie chart",
+            "A single bar with no comparison",
+            "No graph is needed at all",
+          ],
+          optionsMy: [
+            "မျဉ်းဂရပ်",
+            "ပိုင်ခြားဂရပ်",
+            "နှိုင်းယှဉ်မှု မပါသော ဘားတစ်ခု",
+            "ဂရပ် လုံးဝမလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match the Data Presentation Vocabulary",
+      titleMy: "ဒေတာဖော်ပြမှု ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w31-dm-1",
+          termEn: "Line graph",
+          termMy: "မျဉ်းဂရပ် (Line graph)",
+          matchEn: "A graph best used to show change over time",
+          matchMy:
+              "အချိန်တစ်လျှောက် ပြောင်းလဲမှုကို ပြသရန် အသင့်လျော်ဆုံး ဂရပ်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w31-dm-2",
+          termEn: "Bar chart",
+          termMy: "ဘားဂရပ် (Bar chart)",
+          matchEn: "A graph best used to compare separate categories",
+          matchMy:
+              "သီးခြားအမျိုးအစားများကို နှိုင်းယှဉ်ရန် အသင့်လျော်ဆုံး ဂရပ်",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w31-dm-3",
+          termEn: "Axis",
+          termMy: "အက္ခ (Axis)",
+          matchEn:
+              "A labelled line on a graph showing values, such as time or height",
+          matchMy:
+              "အချိန် သို့မဟုတ် အမြင့်ကဲ့သို့ တန်ဖိုးများကို ပြသော ဂရပ်ပေါ်ရှိ အမည်တပ် မျဉ်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w31-dm-4",
+          termEn: "Trend",
+          termMy: "Trend",
+          matchEn: "A general pattern or direction shown by a set of data",
+          matchMy: "ဒေတာအစုတစ်ခုက ပြသော ယေဘူယျ ပုံစံ သို့မဟုတ် ဦးတည်ချက်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w31-dm-5",
+          termEn: "Pie chart",
+          termMy: "ပိုင်ခြားဂရပ် (Pie chart)",
+          matchEn: "A circular chart showing how a whole is divided into parts",
+          matchMy:
+              "တစ်ခုလုံးကို အစိတ်အပိုင်းများအဖြစ် မည်သို့ ခွဲထားကြောင်း ပြသော စက်ဝိုင်း ဇယား",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w31-dm-6",
+          termEn: "Key",
+          termMy: "ရှင်းလင်းချက် (Key)",
+          matchEn: "A guide explaining what colours or symbols mean on a graph",
+          matchMy:
+              "ဂရပ်ပေါ်ရှိ အရောင် သို့မဟုတ် သင်္ကေတများ၏ အဓိပ္ပာယ်ကို ရှင်းပြသော လမ်းညွှန်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Best Shown as a Line Graph or Best Shown as a Bar Chart?",
+      titleMy:
+          "စီစစ်ကြမည် - မျဉ်းဂရပ်ဖြင့် ပြသကောင်းသလား၊ ဘားဂရပ်ဖြင့် ပြသကောင်းသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Best shown as a line graph", "Best shown as a bar chart"],
+        bucketsMy: [
+          "မျဉ်းဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          "ဘားဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+        ],
+        items: [
+          SortingItem(
+            id: "y6sci-w31-sort-1",
+            labelEn: "Plant height measured every week for a month",
+            labelMy: "တစ်လအတွင်း တစ်ပတ်စီ တိုင်းတာထားသော အပင်အမြင့်",
+            correctBucketEn: "Best shown as a line graph",
+            correctBucketMy: "မျဉ်းဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+          SortingItem(
+            id: "y6sci-w31-sort-2",
+            labelEn: "The number of students who like each subject",
+            labelMy: "ဘာသာရပ်တစ်ခုစီကို ကြိုက်နှစ်သက်သော ကျောင်းသားအရေအတွက်",
+            correctBucketEn: "Best shown as a bar chart",
+            correctBucketMy: "ဘားဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+          SortingItem(
+            id: "y6sci-w31-sort-3",
+            labelEn: "Daily temperature recorded across one week",
+            labelMy: "တစ်ပတ်တစ်လျှောက် နေ့စဉ်မှတ်တမ်းတင်ထားသော အပူချိန်",
+            correctBucketEn: "Best shown as a line graph",
+            correctBucketMy: "မျဉ်းဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+          SortingItem(
+            id: "y6sci-w31-sort-4",
+            labelEn: "The number of pets owned by each type of animal",
+            labelMy:
+                "တိရစ္ဆာန်အမျိုးအစားတစ်ခုစီ ပိုင်ဆိုင်သော ကျောင်းအိမ်မွေးတိရစ္ဆာန်အရေအတွက်",
+            correctBucketEn: "Best shown as a bar chart",
+            correctBucketMy: "ဘားဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+          SortingItem(
+            id: "y6sci-w31-sort-5",
+            labelEn: "A pulse rate recorded every minute during recovery",
+            labelMy: "ပြန်ကောင်းလာစဉ် မိနစ်စဉ်မှတ်တမ်းတင်ထားသော သွေးခုန်နှုန်း",
+            correctBucketEn: "Best shown as a line graph",
+            correctBucketMy: "မျဉ်းဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+          SortingItem(
+            id: "y6sci-w31-sort-6",
+            labelEn: "The number of pupils in each grade at Nova School",
+            labelMy: "Nova School ၏ အတန်းတစ်ခုစီရှိ ကျောင်းသား အရေအတွက်",
+            correctBucketEn: "Best shown as a bar chart",
+            correctBucketMy: "ဘားဂရပ်ဖြင့် အကောင်းဆုံး ပြသနိုင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Class Survey Graph",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ အတန်းစစ်တမ်း ဂရပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Class Survey Graph",
+        titleMy: "နှင်းဝေ၏ အတန်းစစ်တမ်း ဂရပ်",
+        passageEn:
+            "For a class project combining science and maths, Hnin Wai surveys every student in her class about their favourite school subject, recording the results in a simple table: Mathematics, Science, English, and Art, each with a tally of votes. Once every student has answered, she counts eight votes for Mathematics, twelve for Science, six for English, and four for Art.\n\nHnin Wai chooses to present this data as a bar chart rather than a line graph, since the four subjects are separate categories rather than a continuous change over time -- there is no meaningful 'in-between' value connecting Mathematics to Science the way there would be between one week's plant height and the next. She draws four bars of different heights, carefully labelling the vertical axis 'Number of votes' and the horizontal axis with each subject's name, and gives the whole chart a clear title: 'Nova School Class 6B's Favourite Subjects.'\n\nWhen her teacher reviews the finished chart, she points out that Hnin Wai correctly avoided a common mistake: drawing a line connecting the tops of the four bars, which would wrongly suggest some kind of trend or order between unrelated categories like Mathematics and Art. Hnin Wai remembers her earlier lesson comparing plant height over time, which correctly used a line graph precisely because time flows continuously between measurements -- proof that choosing the right graph type depends entirely on whether the data represents continuous change or separate, unconnected categories.",
+        passageMy:
+            "သိပ္ပံနှင့် သင်္ချာ ပေါင်းစပ်စီမံကိန်းအတွက် နှင်းဝေသည် ၎င်း၏ အတန်းရှိ ကျောင်းသား တစ်ဦးစီ၏ ကြိုက်နှစ်သက်ဆုံး ကျောင်းဘာသာရပ်ကို စစ်တမ်းကောက်ယူပြီး ရလဒ်များကို ရိုးရှင်းသော ဇယားတစ်ခုတွင် ရေးမှတ်သည် - သင်္ချာ၊ သိပ္ပံ၊ အင်္ဂလိပ်စာနှင့် အနုပညာ၊ တစ်ခုစီတွင် မဲရေတွက်ချက် ပါဝင်သည်။ ကျောင်းသားတိုင်း ဖြေဆိုပြီးသည့်အခါ သင်္ချာအတွက် မဲရှစ်ခု၊ သိပ္ပံအတွက် မဲတစ်ဆယ့်နှစ်ခု၊ အင်္ဂလိပ်စာအတွက် မဲခြောက်ခုနှင့် အနုပညာအတွက် မဲလေးခုကို ရေတွက်ရရှိသည်။\n\nဘာသာရပ်လေးခုသည် အချိန်တစ်လျှောက် တစ်စဉ်ဆက်မပြတ် ပြောင်းလဲမှုမဟုတ်ဘဲ သီးခြားအမျိုးအစားများသာဖြစ်သောကြောင့် နှင်းဝေသည် ဤဒေတာကို မျဉ်းဂရပ်ထက် ဘားဂရပ်တစ်ခုအဖြစ် တင်ပြရန် ရွေးချယ်သည် - တစ်ပတ်၏ အပင်အမြင့်နှင့် နောက်တစ်ပတ်ကြားရှိသကဲ့သို့ သင်္ချာနှင့် သိပ္ပံကို ဆက်ပေးသည့် အဓိပ္ပာယ်ရှိသော 'အကြားအလတ်' တန်ဖိုး မရှိပါ။ ၎င်းသည် ကွဲပြားသော အမြင့်ရှိသော ဘားလေးခုကို ရေးဆွဲပြီး ဒေါင်လိုက်အက္ခကို 'မဲရေအရေအတွက်' ဟူ၍ ဂရုတစိုက် အမည်တပ်ကာ ရေပြင်ညီအက္ခကို ဘာသာရပ်တစ်ခုစီ၏ အမည်ဖြင့် အမည်တပ်ပြီး ဇယားတစ်ခုလုံးကို 'Nova School Class 6B ၏ ကြိုက်နှစ်သက်ဆုံး ဘာသာရပ်များ' ဟူသော ရှင်းလင်းသော ခေါင်းစဉ် ပေးအပ်သည်။\n\nပြီးစီးသော ဇယားကို ဆရာမ ပြန်လည်စစ်ဆေးသောအခါ ၎င်းသည် ဘားလေးခု၏ ထိပ်များကို ဆက်ထားသော မျဉ်းတစ်ခု ရေးဆွဲခြင်းကဲ့သို့သော ဘုံအမှားကို နှင်းဝေ မှန်ကန်စွာ ရှောင်ရှားခဲ့ကြောင်း ညွှန်ပြသည်၊ ၎င်းသည် သင်္ချာနှင့် အနုပညာကဲ့သို့ မဆက်စပ်သော အမျိုးအစားများကြား trend သို့မဟုတ် အစဉ်လိုက်တစ်မျိုးမျိုး ရှိသည်ဟု မှားယွင်းစွာ ညွှန်ပြမည်ဖြစ်သည်။ နှင်းဝေသည် အချိန်သည် တိုင်းတာမှုများကြား တစ်စဉ်ဆက်မပြတ် စီးဆင်းသောကြောင့် မျဉ်းဂရပ်ကို မှန်ကန်စွာ အသုံးပြုခဲ့သော အချိန်တစ်လျှောက် အပင်အမြင့် နှိုင်းယှဉ်မှုအကြောင်း ၎င်း၏ အစောပိုင်း သင်ခန်းစာကို သတိရသည် - မှန်ကန်သော ဂရပ်အမျိုးအစားကို ရွေးချယ်ခြင်းသည် ဒေတာသည် တစ်စဉ်ဆက်မပြတ် ပြောင်းလဲမှုကို ကိုယ်စားပြုသလား သို့မဟုတ် သီးခြား၊ မဆက်စပ်သော အမျိုးအစားများကို ကိုယ်စားပြုသလား ဆိုသည်ပေါ်တွင် လုံးလုံး မူတည်ကြောင်း သက်သေဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many votes does Science receive in Hnin Wai's survey?",
+            questionMy: "နှင်းဝေ၏ စစ်တမ်းတွင် သိပ္ပံက မဲဘယ်နှစ်ခု ရရှိသနည်း။",
+            optionsEn: ["Twelve", "Eight", "Six", "Four"],
+            optionsMy: ["တစ်ဆယ့်နှစ်", "ရှစ်", "ခြောက်", "လေး"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai choose a bar chart rather than a line graph for this survey?",
+            questionMy:
+                "ဤစစ်တမ်းအတွက် မျဉ်းဂရပ်ထက် ဘားဂရပ်တစ်ခုကို နှင်းဝေ ရွေးချယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "The four subjects are separate categories, not a continuous change over time",
+              "Bar charts are always more colourful",
+              "Line graphs cannot show numbers at all",
+              "She flipped a coin to decide",
+            ],
+            optionsMy: [
+              "ဘာသာရပ်လေးခုသည် အချိန်တစ်လျှောက် တစ်စဉ်ဆက်မပြတ် ပြောင်းလဲမှုမဟုတ်ဘဲ သီးခြားအမျိုးအစားများ ဖြစ်ခြင်း",
+              "ဘားဂရပ်များသည် အမြဲတမ်း ပိုအရောင်စုံခြင်း",
+              "မျဉ်းဂရပ်များသည် ကိန်းဂဏန်း လုံးဝ ပြသ၍မရနိုင်ခြင်း",
+              "ဆုံးဖြတ်ရန် အဒါးလှုံ့ဆော်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What title does Hnin Wai give her chart?",
+            questionMy: "မိမိ၏ ဇယားကို နှင်းဝေ မည်သည့်ခေါင်းစဉ် ပေးအပ်သနည်း။",
+            optionsEn: [
+              "\"Nova School Class 6B's Favourite Subjects\"",
+              "\"My Favourite Colours\"",
+              "\"How Plants Grow\"",
+              "\"The History of Nova School\"",
+            ],
+            optionsMy: [
+              "\"Nova School Class 6B ၏ ကြိုက်နှစ်သက်ဆုံး ဘာသာရပ်များ\"",
+              "\"ကျွန်မ ကြိုက်နှစ်သက်ဆုံး အရောင်များ\"",
+              "\"အပင်များ ကြီးထွားပုံ\"",
+              "\"Nova School သမိုင်း\"",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What common mistake did Hnin Wai correctly avoid?",
+            questionMy:
+                "မည်သည့် ဘုံအမှားကို နှင်းဝေ မှန်ကန်စွာ ရှောင်ရှားခဲ့သနည်း။",
+            optionsEn: [
+              "Drawing a line connecting the tops of the bars, suggesting a false trend",
+              "Giving the chart a title",
+              "Labelling the axes clearly",
+              "Counting the votes accurately",
+            ],
+            optionsMy: [
+              "မှားယွင်းသော trend ညွှန်ပြသည့် ဘားများ၏ ထိပ်များကို ဆက်ထားသော မျဉ်း ရေးဆွဲခြင်း",
+              "ဇယားကို ခေါင်းစဉ် ပေးအပ်ခြင်း",
+              "အက္ခများကို ရှင်းလင်းစွာ အမည်တပ်ခြင်း",
+              "မဲများကို တိကျစွာ ရေတွက်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise determines whether to use a line graph or a bar chart?",
+            questionMy:
+                "မျဉ်းဂရပ် သို့မဟုတ် ဘားဂရပ် အသုံးပြုရန် ဆုံးဖြတ်ပေးသောအရာမှာ အဘယ်နည်းဟု နှင်းဝေ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "Whether the data represents continuous change or separate categories",
+              "Whether the data has more than five numbers",
+              "Whether the chart looks colourful",
+              "Whether the data was collected in the morning or afternoon",
+            ],
+            optionsMy: [
+              "ဒေတာသည် တစ်စဉ်ဆက်မပြတ် ပြောင်းလဲမှု သို့မဟုတ် သီးခြားအမျိုးအစားများကို ကိုယ်စားပြုသလား",
+              "ဒေတာတွင် ကိန်းဂဏန်း ငါးခုထက်ပို ရှိမရှိ",
+              "ဇယားက အရောင်စုံသလား",
+              "ဒေတာကို မနက်ပိုင်း သို့မဟုတ် ညနေပိုင်း ကောက်ယူခဲ့သလား",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w31-d5",
+      dayNumber: 5,
+      titleEn: "Graphs and Charts Round-Up",
+      titleMy: "ဂရပ်နှင့် ဇယားများ အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which graph type would best show a plant's height measured weekly over two months?",
+          questionMy:
+              "နှစ်လအတွင်း တစ်ပတ်စီ တိုင်းတာထားသော အပင်တစ်ပင်၏ အမြင့်ကို အကောင်းဆုံး ပြသနိုင်မည့် ဂရပ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A line graph",
+            "A pie chart",
+            "A single bar with no time axis",
+            "No graph is needed",
+          ],
+          optionsMy: [
+            "မျဉ်းဂရပ်",
+            "ပိုင်ခြားဂရပ်",
+            "အချိန်အက္ခမပါသော ဘားတစ်ခု",
+            "ဂရပ် လုံးဝမလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Hnin Wai avoid drawing a line connecting the bars in her subjects chart?",
+          questionMy:
+              "ဘာသာရပ် ဇယားတွင် ဘားများကို ဆက်ထားသော မျဉ်း ရေးဆွဲခြင်းကို နှင်းဝေ ရှောင်ရှားသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It would wrongly suggest a trend between unrelated categories",
+            "Lines are always harder to draw than bars",
+            "Her ruler broke",
+            "Teachers never allow lines on any chart",
+          ],
+          optionsMy: [
+            "မဆက်စပ်သော အမျိုးအစားများကြား trend တစ်ခုကို မှားယွင်းစွာ ညွှန်ပြမည်ဖြစ်ခြင်း",
+            "မျဉ်းများကို ဘားများထက် အမြဲတမ်း ရေးဆွဲရန် ပိုခက်ခဲခြင်း",
+            "ပေတံ ကျိုးပဲ့သွားခြင်း",
+            "ဆရာမများသည် ဇယားမည်သည့်တွင်မျှ မျဉ်းများကို ဘယ်တော့မှ ခွင့်မပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What should the vertical and horizontal axes of a graph always have?",
+          questionMy:
+              "ဂရပ်တစ်ခု၏ ဒေါင်လိုက်နှင့် ရေပြင်ညီ အက္ခများတွင် အမြဲတမ်း ရှိသင့်သောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Clear labels",
+            "No labels at all",
+            "Random colours only",
+            "Only decorative patterns",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော အမည်တပ်ခြင်း",
+            "အမည်တပ်ခြင်း လုံးဝမရှိခြင်း",
+            "ကျပန်း အရောင်များသာ",
+            "အလှဆင်ပုံစံများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Hnin Wai organise data into a table before drawing a graph?",
+          questionMy:
+              "ဂရပ်ရေးဆွဲမီ ဒေတာကို ဇယားအဖြစ် နှင်းဝေ စီစဉ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It keeps results organised and easy to check before visualising them",
+            "Tables always replace the need for graphs",
+            "It has no real purpose",
+            "It makes numbers disappear",
+          ],
+          optionsMy: [
+            "ရုပ်ပုံဖော်မီ ရလဒ်များကို စနစ်တကျနှင့် စစ်ဆေးရန်လွယ်ကူစွာ ထားရှိခြင်း",
+            "ဇယားများသည် အမြဲတမ်း ဂရပ်များ လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            "တကယ့်ရည်ရွယ်ချက် မရှိခြင်း",
+            "ကိန်းဂဏန်းများကို ပျောက်ကွယ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does this week's learning on presenting data teach?",
+          questionMy:
+              "ဤအပတ်စာ ဒေတာဖော်ပြမှု သင်ခန်းစာက သင်ကြားပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Choosing the right graph type depends on whether data is continuous or categorical",
+            "All data should always be shown as a pie chart",
+            "Graphs never need titles or labels",
+            "Line graphs and bar charts are always interchangeable",
+          ],
+          optionsMy: [
+            "မှန်ကန်သော ဂရပ်အမျိုးအစားကို ရွေးချယ်ခြင်းသည် ဒေတာသည် တစ်စဉ်ဆက်မပြတ် သို့မဟုတ် အမျိုးအစားခွဲထားခြင်း ဖြစ်သလားပေါ်တွင် မူတည်ခြင်း",
+            "ဒေတာအားလုံးကို ပိုင်ခြားဂရပ်အဖြစ် အမြဲတမ်း ပြသသင့်ခြင်း",
+            "ဂရပ်များသည် ခေါင်းစဉ် သို့မဟုတ် အမည်တပ်ခြင်း ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "မျဉ်းဂရပ်နှင့် ဘားဂရပ်သည် အမြဲတမ်း အစားထိုးနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 8, Week 32 (Capstone): "Nova School Science
+// Fair Investigation Studio"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek32 = CourseWeekDef(
+  id: "course-year6-science-w32",
+  weekNumber: 32,
+  titleEn: "Nova School Science Fair Investigation Studio",
+  titleMy: "Nova ကျောင်း သိပ္ပံပွဲတော် စုံစမ်းစစ်ဆေးမှု အလုပ်ရုံ",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w32-d1",
+      dayNumber: 1,
+      titleEn: "Investigation Skills Review",
+      titleMy: "စုံစမ်းစစ်ဆေးမှု စွမ်းရည်များ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What makes a test fair?",
+          questionMy: "စမ်းသပ်မှုတစ်ခုကို တရားမျှတစေသောအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Changing only one variable at a time",
+            "Changing everything at once",
+            "Never repeating any measurement",
+            "Ignoring all controlled variables",
+          ],
+          optionsMy: [
+            "ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲခြင်း",
+            "အရာအားလုံးကို တစ်ပြိုင်နက် ပြောင်းလဲခြင်း",
+            "တိုင်းတာမှု မည်သည်ကိုမျှ ဘယ်တော့မှ ထပ်ခါမလုပ်ခြင်း",
+            "ထိန်းချုပ်ထားသော ကိန်းရှင်အားလုံးကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does Hnin Wai take an average of three pulse measurements?",
+          questionMy:
+              "သွေးခုန်နှုန်း တိုင်းတာမှုသုံးကြိမ်၏ ပျမ်းမျှကို နှင်းဝေ ယူသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To get a more reliable result",
+            "Because one measurement is always wrong",
+            "To make the number bigger",
+            "Because averaging is required by law",
+          ],
+          optionsMy: [
+            "ပိုယုံကြည်စိတ်ချရသော ရလဒ်ကို ရရှိရန်",
+            "တိုင်းတာမှုတစ်ကြိမ်တည်းသည် အမြဲတမ်း မှားနေသောကြောင့်",
+            "ကိန်းဂဏန်းကို ပိုကြီးစေရန်",
+            "ပျမ်းမျှတွက်ခြင်းကို ဥပဒေက တောင်းဆိုသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which graph type is best for showing change over time?",
+          questionMy:
+              "အချိန်တစ်လျှောက် ပြောင်းလဲမှုကို ပြသရန် အကောင်းဆုံး ဂရပ်အမျိုးအစားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A line graph",
+            "A pie chart only",
+            "A single number with no chart",
+            "No graph is ever needed",
+          ],
+          optionsMy: [
+            "မျဉ်းဂရပ်",
+            "ပိုင်ခြားဂရပ်သာ",
+            "ဂရပ်မပါသော ကိန်းဂဏန်းတစ်ခုတည်း",
+            "ဂရပ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why should notes be recorded alongside raw data?",
+          questionMy:
+              "ကုန်ကြမ်း ဒေတာနှင့်အတူ မှတ်ချက်များကို မှတ်တမ်းတင်သင့်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "To help explain unusual results later",
+            "Notes have no value at all",
+            "To make the data table look longer",
+            "To replace the need for measuring",
+          ],
+          optionsMy: [
+            "ထူးခြားသောရလဒ်များကို နောက်မှ ရှင်းပြရန် ကူညီရန်",
+            "မှတ်ချက်များတွင် တကယ့်တန်ဖိုး လုံးဝမရှိခြင်း",
+            "ဒေတာဇယားကို ပိုရှည်စေရန်",
+            "တိုင်းတာရန် လိုအပ်ချက်ကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea connects fair tests, measurement, and data presentation this term?",
+          questionMy:
+              "ဤ Term အတွင်း တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဒေတာဖော်ပြမှုကို ဆက်စပ်ပေးသော တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful, systematic investigation lets scientists trust and clearly communicate their results",
+            "Investigation methods have no connection to real science",
+            "Only one variable ever needs to be considered in any experiment",
+            "Data presentation has no connection to how it was collected",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက်၊ စနစ်တကျ စုံစမ်းစစ်ဆေးမှုသည် သိပ္ပံပညာရှင်များအား ၎င်းတို့၏ ရလဒ်များကို ယုံကြည်ပြီး ရှင်းလင်းစွာ ဆက်သွယ်နိုင်စေခြင်း",
+            "စုံစမ်းစစ်ဆေးမှု နည်းလမ်းများသည် တကယ့်သိပ္ပံနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "စမ်းသပ်မှုမည်သည့်တွင်မဆို ကိန်းရှင်တစ်ခုတည်းကိုသာ ထည့်သွင်းစဉ်းစားရန် လိုအပ်ခြင်း",
+            "ဒေတာဖော်ပြမှုသည် ၎င်းကို မည်သို့ကောက်ယူခဲ့ကြောင်းနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match the Term 8 Vocabulary",
+      titleMy: "Term 8 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w32-dm-1",
+          termEn: "Fair test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair test)",
+          matchEn: "A test that changes only one variable at a time",
+          matchMy:
+              "ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w32-dm-2",
+          termEn: "Independent variable",
+          termMy: "လွတ်လပ်သော ကိန်းရှင် (Independent variable)",
+          matchEn: "The one thing the scientist deliberately changes",
+          matchMy: "သိပ္ပံပညာရှင်က ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲသော အရာတစ်ခု",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w32-dm-3",
+          termEn: "Dependent variable",
+          termMy: "မှီခိုသော ကိန်းရှင် (Dependent variable)",
+          matchEn: "The result measured to see the effect of a change",
+          matchMy: "ပြောင်းလဲမှု၏ သက်ရောက်မှုကို ကြည့်ရန် တိုင်းတာသော ရလဒ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w32-dm-4",
+          termEn: "Anomaly",
+          termMy: "ပုံမမှန်တန်ဖိုး (Anomaly)",
+          matchEn: "A result that does not fit the pattern of other results",
+          matchMy: "အခြားရလဒ်များ၏ ပုံစံနှင့် မကိုက်ညီသော ရလဒ်",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w32-dm-5",
+          termEn: "Line graph",
+          termMy: "မျဉ်းဂရပ် (Line graph)",
+          matchEn: "A graph best used to show change over time",
+          matchMy:
+              "အချိန်တစ်လျှောက် ပြောင်းလဲမှုကို ပြသရန် အသင့်လျော်ဆုံး ဂရပ်",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w32-dm-6",
+          termEn: "Bar chart",
+          termMy: "ဘားဂရပ် (Bar chart)",
+          matchEn: "A graph best used to compare separate categories",
+          matchMy:
+              "သီးခြားအမျိုးအစားများကို နှိုင်းယှဉ်ရန် အသင့်လျော်ဆုံး ဂရပ်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Scientific Practice or Poor Scientific Practice?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းမွန်သော သိပ္ပံ အလေ့အထလား၊ မကောင်းသော သိပ္ပံ အလေ့အထလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good scientific practice", "Poor scientific practice"],
+        bucketsMy: ["ကောင်းမွန်သော သိပ္ပံ အလေ့အထ", "မကောင်းသော သိပ္ပံ အလေ့အထ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w32-sort-1",
+            labelEn: "Changing only one variable and keeping the rest the same",
+            labelMy:
+                "ကိန်းရှင်တစ်ခုတည်းကိုသာ ပြောင်းလဲပြီး ကျန်အရာများကို တူညီစွာ ထားရှိခြင်း",
+            correctBucketEn: "Good scientific practice",
+            correctBucketMy: "ကောင်းမွန်သော သိပ္ပံ အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w32-sort-2",
+            labelEn:
+                "Changing several variables at once and guessing the cause",
+            labelMy:
+                "ကိန်းရှင်များစွာကို တစ်ပြိုင်နက် ပြောင်းလဲပြီး အကြောင်းရင်းကို ခန့်မှန်းခြင်း",
+            correctBucketEn: "Poor scientific practice",
+            correctBucketMy: "မကောင်းသော သိပ္ပံ အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w32-sort-3",
+            labelEn: "Repeating a measurement and taking the average",
+            labelMy: "တိုင်းတာမှုကို ထပ်ခါလုပ်ပြီး ပျမ်းမျှကို ယူခြင်း",
+            correctBucketEn: "Good scientific practice",
+            correctBucketMy: "ကောင်းမွန်သော သိပ္ပံ အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w32-sort-4",
+            labelEn: "Measuring only once and never checking the result",
+            labelMy: "တစ်ကြိမ်တည်း တိုင်းတာပြီး ရလဒ်ကို ဘယ်တော့မှ မစစ်ဆေးခြင်း",
+            correctBucketEn: "Poor scientific practice",
+            correctBucketMy: "မကောင်းသော သိပ္ပံ အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w32-sort-5",
+            labelEn: "Choosing a line graph for data that changes over time",
+            labelMy:
+                "အချိန်တစ်လျှောက် ပြောင်းလဲသော ဒေတာအတွက် မျဉ်းဂရပ်ကို ရွေးချယ်ခြင်း",
+            correctBucketEn: "Good scientific practice",
+            correctBucketMy: "ကောင်းမွန်သော သိပ္ပံ အလေ့အထ",
+          ),
+          SortingItem(
+            id: "y6sci-w32-sort-6",
+            labelEn: "Drawing a line connecting unrelated bar chart categories",
+            labelMy:
+                "မဆက်စပ်သော ဘားဂရပ် အမျိုးအစားများကို ဆက်ထားသော မျဉ်း ရေးဆွဲခြင်း",
+            correctBucketEn: "Poor scientific practice",
+            correctBucketMy: "မကောင်းသော သိပ္ပံ အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Science Fair Project",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ သိပ္ပံပွဲတော် စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Science Fair Project",
+        titleMy: "နှင်းဝေ၏ သိပ္ပံပွဲတော် စီမံကိန်း",
+        passageEn:
+            "To close Term 8, Nova School holds a full Science Fair Investigation Studio, and Hnin Wai decides to combine her plant growth study with everything else she has learned this term into one polished project. She writes a clear hypothesis -- plants given more sunlight will grow taller over four weeks than plants given less -- and carefully lists her independent variable, dependent variable, and controlled variables in a neat table at the top of her report.\n\nEach week, Hnin Wai measures every plant's height three times with the same ruler, records the results immediately with notes about anything unusual, and calculates an average height for each group. By the end of the four weeks, she has enough data to draw a line graph showing both groups' average height over time, with the horizontal axis labelled 'Week' and the vertical axis labelled 'Average height (cm),' plus a key explaining which line represents which group.\n\nAt the fair, a judge asks Hnin Wai why she did not simply describe her results in a paragraph instead of drawing a graph. Hnin Wai explains that the line graph lets anyone see the growing gap between the two groups at a single glance, something a paragraph of numbers could never show as clearly. The judge nods and asks one final question: what was the point of keeping soil, pot size, and water exactly the same between groups? Hnin Wai answers confidently that without those controlled variables, she could never be sure sunlight alone caused the height difference -- proof, the judge says, that she has mastered not just individual facts about fair tests, measurement, and graphs, but how they all work together as one connected process of scientific enquiry.",
+        passageMy:
+            "Term 8 ပြီးဆုံးရန် Nova School သည် သိပ္ပံပွဲတော် စုံစမ်းစစ်ဆေးမှု အလုပ်ရုံ အပြည့်အစုံကို ကျင်းပပြီး နှင်းဝေသည် ၎င်း၏ အပင်ကြီးထွားမှု လေ့လာမှုကို ဤ Term သင်ယူခဲ့သမျှ အခြားအရာများနှင့် စီမံကိန်းတစ်ခုတည်းအဖြစ် ပေါင်းစပ်ရန် ဆုံးဖြတ်လိုက်သည်။ ၎င်းသည် ရှင်းလင်းသော ယူဆချက်တစ်ခု ရေးသည် - နေရောင် ပိုရသော အပင်များသည် လေးပတ်အတွင်း နေရောင် နည်းရသော အပင်များထက် ပိုမြင့်ကြီးထွားမည် - ပြီး ၎င်း၏ လွတ်လပ်သော ကိန်းရှင်၊ မှီခိုသော ကိန်းရှင်နှင့် ထိန်းချုပ်ထားသော ကိန်းရှင်များကို ၎င်း၏ အစီရင်ခံစာ ထိပ်ဆုံးရှိ သေသေသပ်သပ် ဇယားတစ်ခုတွင် ဂရုတစိုက် စာရင်းပြုစုသည်။\n\nတစ်ပတ်စီ နှင်းဝေသည် အပင်တိုင်း၏ အမြင့်ကို ပေတံတစ်ခုတည်းနှင့် သုံးကြိမ် တိုင်းတာပြီး ရလဒ်များကို ထူးခြားသောအရာများနှင့် ပတ်သက်သော မှတ်ချက်များဖြင့် ချက်ချင်း ရေးမှတ်ကာ အုပ်စုတစ်ခုစီအတွက် ပျမ်းမျှ အမြင့်ကို တွက်ချက်သည်။ လေးပတ်ကုန်ဆုံးသည့်အခါ ရေပြင်ညီအက္ခကို 'ပတ်' ဟူ၍ ဒေါင်လိုက်အက္ခကို 'ပျမ်းမျှ အမြင့် (စင်တီမီတာ)' ဟူ၍ အမည်တပ်ထားသော အုပ်စုနှစ်ခုစလုံး၏ အချိန်တစ်လျှောက် ပျမ်းမျှ အမြင့်ကို ပြသော မျဉ်းဂရပ်တစ်ခု ရေးဆွဲရန် လုံလောက်သော ဒေတာ ရရှိထားပြီး မည်သည့်မျဉ်းက မည်သည့်အုပ်စုကို ကိုယ်စားပြုကြောင်း ရှင်းပြသော ရှင်းလင်းချက်တစ်ခုပါ ပါဝင်သည်။\n\nပွဲတော်တွင် တရားသူကြီးတစ်ဦးသည် ဂရပ်တစ်ခု ရေးဆွဲမည့်အစား ၎င်း၏ ရလဒ်များကို စာပိုဒ်တစ်ခုတွင် ရိုးရိုးရှင်းရှင်း ဖော်ပြမည့်အစား အဘယ်ကြောင့် မလုပ်ခဲ့ကြောင်း နှင်းဝေအား မေးမြန်းသည်။ မျဉ်းဂရပ်သည် ကြည့်တစ်ချက်တည်းဖြင့် အုပ်စုနှစ်ခုကြား ကြီးလာသော ကွာဟမှုကို မည်သူမဆို မြင်နိုင်စေကြောင်း၊ ကိန်းဂဏန်းများ စာပိုဒ်တစ်ခုကမူ ဤမျှ ရှင်းလင်းစွာ ဘယ်တော့မှ ပြသနိုင်မည်မဟုတ်ကြောင်း နှင်းဝေ ရှင်းပြသည်။ တရားသူကြီးသည် ခေါင်းညိတ်ပြီး နောက်ဆုံးမေးခွန်းတစ်ခု မေးသည် - မြေဩဇာ၊ အိုးအရွယ်အစားနှင့် ရေကို အုပ်စုများကြား အတိအကျ တူညီစွာ ထားရှိခြင်း၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။ ဤထိန်းချုပ်ထားသော ကိန်းရှင်များ မရှိပါက နေရောင်တစ်ခုတည်းက အမြင့်ကွာခြားမှုကို ဖြစ်စေကြောင်း ဘယ်တော့မှ ယုံကြည်စိတ်ချရမည်မဟုတ်ကြောင်း နှင်းဝေ ယုံကြည်စိတ်ချစွာ ဖြေဆိုသည် - ၎င်းသည် တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဂရပ်များအကြောင်း တစ်ခုချင်းစီ အချက်အလက်များကိုသာမက ၎င်းတို့ အားလုံး သိပ္ပံဆိုင်ရာ စုံစမ်းစစ်ဆေးမှု၏ ဆက်စပ်နေသော ဖြစ်စဉ်တစ်ခုတည်းအဖြစ် မည်သို့ အတူတကွ လုပ်ဆောင်ကြောင်းကိုပါ ကျွမ်းကျင်စွာ ကိုင်တွယ်ထားကြောင်း သက်သေဖြစ်သည်ဟု တရားသူကြီးက ပြောသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What is Hnin Wai's hypothesis for her science fair project?",
+            questionMy:
+                "မိမိ၏ သိပ္ပံပွဲတော် စီမံကိန်းအတွက် နှင်းဝေ၏ ယူဆချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Plants given more sunlight will grow taller than plants given less over four weeks",
+              "All plants grow at exactly the same rate regardless of sunlight",
+              "Water has no connection to plant growth",
+              "Sunlight always makes plants shorter",
+            ],
+            optionsMy: [
+              "နေရောင် ပိုရသော အပင်များသည် လေးပတ်အတွင်း နေရောင် နည်းရသော အပင်များထက် ပိုမြင့်ကြီးထွားမည်",
+              "အပင်အားလုံးသည် နေရောင်နှင့်မသက်ဆိုင်ဘဲ အတိအကျ တူညီသော နှုန်းဖြင့် ကြီးထွားခြင်း",
+              "ရေသည် အပင်ကြီးထွားမှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+              "နေရောင်သည် အပင်များကို အမြဲတမ်း ပိုတိုစေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How many times does Hnin Wai measure each plant's height every week?",
+            questionMy:
+                "အပတ်စဉ် အပင်တိုင်း၏ အမြင့်ကို နှင်းဝေ ဘယ်နှစ်ကြိမ် တိုင်းတာသနည်း။",
+            optionsEn: ["Three times", "Once only", "Ten times", "Never"],
+            optionsMy: ["သုံးကြိမ်", "တစ်ကြိမ်တည်း", "ဆယ်ကြိမ်", "ဘယ်တော့မှ"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does Hnin Wai choose a line graph for her final results?",
+            questionMy:
+                "မိမိ၏ နောက်ဆုံးရလဒ်များအတွက် မျဉ်းဂရပ်ကို နှင်းဝေ ရွေးချယ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "It lets anyone see the growing gap between groups at a single glance",
+              "Line graphs are always more colourful",
+              "Paragraphs are never allowed in science reports",
+              "Line graphs remove the need for real data",
+            ],
+            optionsMy: [
+              "ကြည့်တစ်ချက်တည်းဖြင့် အုပ်စုများကြား ကြီးလာသော ကွာဟမှုကို မည်သူမဆို မြင်နိုင်စေခြင်း",
+              "မျဉ်းဂရပ်များသည် အမြဲတမ်း ပိုအရောင်စုံခြင်း",
+              "စာပိုဒ်များကို သိပ္ပံအစီရင်ခံစာများတွင် ဘယ်တော့မှ ခွင့်မပြုခြင်း",
+              "မျဉ်းဂရပ်များသည် တကယ့်ဒေတာ လိုအပ်ချက်ကို ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Hnin Wai keep soil, pot size, and water exactly the same between the two groups?",
+            questionMy:
+                "အုပ်စုနှစ်ခုကြား မြေဩဇာ၊ အိုးအရွယ်အစားနှင့် ရေကို အတိအကျ တူညီစွာ နှင်းဝေ ထားရှိသည်မှာ အဘယ်ကြောင့်နည်း။",
+            optionsEn: [
+              "So she could be sure sunlight alone caused any height difference",
+              "Because it made the experiment take less time",
+              "Because her teacher required it with no explanation",
+              "It had no real purpose",
+            ],
+            optionsMy: [
+              "နေရောင်တစ်ခုတည်းက အမြင့်ကွာခြားမှုကို ဖြစ်စေကြောင်း သေချာစေရန်",
+              "စမ်းသပ်မှုကို အချိန် ပိုနည်းစေသောကြောင့်",
+              "ရှင်းလင်းချက်မပါဘဲ ဆရာမက တောင်းဆိုသောကြောင့်",
+              "တကယ့်ရည်ရွယ်ချက် လုံးဝမရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the judge conclude about Hnin Wai's understanding?",
+            questionMy:
+                "နှင်းဝေ၏ နားလည်မှုအကြောင်း တရားသူကြီး အဘယ်သို့ ကောက်ချက်ချသနည်း။",
+            optionsEn: [
+              "She has mastered how fair tests, measurement, and graphs work together as one process",
+              "She only understands individual facts with no connections",
+              "She does not understand fair tests at all",
+              "She only understands how to draw graphs, nothing else",
+            ],
+            optionsMy: [
+              "တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဂရပ်များသည် ဖြစ်စဉ်တစ်ခုတည်းအဖြစ် မည်သို့ အတူတကွ လုပ်ဆောင်ကြောင်းကို ကျွမ်းကျင်စွာ ကိုင်တွယ်ထားခြင်း",
+              "ဆက်စပ်မှုမရှိသော တစ်ခုချင်းစီ အချက်အလက်များကိုသာ နားလည်ခြင်း",
+              "တရားမျှတသော စမ်းသပ်မှုများကို လုံးဝ နားမလည်ခြင်း",
+              "ဂရပ်ရေးဆွဲနည်းကိုသာ နားလည်ပြီး အခြားဘာမျှ နားမလည်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone Challenge",
+      titleMy: "Term 8 အထွတ်အထိပ် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's science fair project, what is the independent variable?",
+          questionMy:
+              "နှင်းဝေ၏ သိပ္ပံပွဲတော် စီမံကိန်းတွင် လွတ်လပ်သော ကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The amount of sunlight",
+            "The plant's height",
+            "The type of ruler used",
+            "The colour of the pots",
+          ],
+          optionsMy: [
+            "နေရောင်ပမာဏ",
+            "အပင်၏ အမြင့်",
+            "အသုံးပြုသော ပေတံအမျိုးအစား",
+            "အိုးများ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the dependent variable in Hnin Wai's science fair project?",
+          questionMy:
+              "နှင်းဝေ၏ သိပ္ပံပွဲတော် စီမံကိန်းတွင် မှီခိုသော ကိန်းရှင်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The plant's average height",
+            "The amount of sunlight",
+            "The type of pot",
+            "The species of the plant",
+          ],
+          optionsMy: [
+            "အပင်၏ ပျမ်းမျှ အမြင့်",
+            "နေရောင်ပမာဏ",
+            "အိုးအမျိုးအစား",
+            "အပင် မျိုးစိတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the graph make the growing gap between the two plant groups easier to see than a paragraph of numbers?",
+          questionMy:
+              "ဂရပ်တစ်ခုသည် အပင်အုပ်စုနှစ်ခုကြား ကြီးလာသော ကွာဟမှုကို ကိန်းဂဏန်းစာပိုဒ်တစ်ခုထက် မြင်ရလွယ်ကူစေသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It shows the visual trend at a single glance",
+            "Graphs always use bigger numbers",
+            "Paragraphs never contain any real data",
+            "Graphs are required by law in every report",
+          ],
+          optionsMy: [
+            "ကြည့်တစ်ချက်တည်းဖြင့် trend ကို ရုပ်ပိုင်းဆိုင်ရာအားဖြင့် ပြသခြင်း",
+            "ဂရပ်များသည် အမြဲတမ်း ကြီးသော ကိန်းဂဏန်းများကို အသုံးပြုခြင်း",
+            "စာပိုဒ်များတွင် တကယ့်ဒေတာ ဘယ်တော့မှ မပါဝင်ခြင်း",
+            "ဂရပ်များကို အစီရင်ခံစာတိုင်းတွင် ဥပဒေက တောင်းဆိုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What would happen to Hnin Wai's conclusion if she had not kept soil, pot size, and water controlled?",
+          questionMy:
+              "မြေဩဇာ၊ အိုးအရွယ်အစားနှင့် ရေကို ထိန်းချုပ်၍မထားခဲ့ပါက နှင်းဝေ၏ ကောက်ချက်တွင် အဘယ်အရာ ဖြစ်ပျက်မည်နည်း။",
+          optionsEn: [
+            "She could not be sure sunlight alone caused the height difference",
+            "Her conclusion would be exactly as reliable",
+            "Her graph would look identical either way",
+            "It would have no effect on her results at all",
+          ],
+          optionsMy: [
+            "နေရောင်တစ်ခုတည်းက အမြင့်ကွာခြားမှုကို ဖြစ်စေကြောင်း ယုံကြည်စိတ်ချရမည်မဟုတ်ခြင်း",
+            "ကောက်ချက်သည် အတိအကျ ယုံကြည်စိတ်ချရဆဲ ဖြစ်ခြင်း",
+            "ဂရပ်သည် ဘယ်လိုပင်ဖြစ်စေ အတိအကျ တူညီစွာ ရှိနေခြင်း",
+            "မိမိ၏ ရလဒ်များအပေါ် ဘာမျှ သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Term 8 -- fair tests, measurement, and graphs?",
+          questionMy:
+              "Term 8 တစ်ခုလုံး - တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဂရပ်များကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful design, accurate measurement, and clear presentation together make a scientific finding trustworthy",
+            "Any one of these three steps alone is enough for good science",
+            "Fair tests, measurement, and graphs have nothing to do with each other",
+            "Scientific investigation does not require any planning",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် ဒီဇိုင်းရေးဆွဲခြင်း၊ တိကျသော တိုင်းတာမှုနှင့် ရှင်းလင်းသော တင်ပြမှုတို့ အတူတကွ သိပ္ပံဆိုင်ရာ တွေ့ရှိချက်တစ်ခုကို ယုံကြည်ရအောင် ပြုလုပ်ပေးခြင်း",
+            "ဤအဆင့်သုံးခုအနက် မည်သည့်တစ်ခုတည်းမဆို ကောင်းမွန်သော သိပ္ပံအတွက် လုံလောက်ခြင်း",
+            "တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဂရပ်များတွင် တစ်ခုနှင့်တစ်ခု ဆက်စပ်မှု မရှိခြင်း",
+            "သိပ္ပံဆိုင်ရာ စုံစမ်းစစ်ဆေးမှုသည် စီစဉ်ခြင်း မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm8 = CourseTermDef(
+  id: "course-year6-science-t8",
+  termNumber: 8,
+  titleEn: "Scientific Enquiry and Investigation Skills",
+  titleMy: "သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှုနှင့် စုံစမ်းစစ်ဆေးမှု စွမ်းရည်များ",
+  certificateTitleEn: "Scientific Enquiry and Investigation Skills",
+  certificateTitleMy:
+      "သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှုနှင့် စုံစမ်းစစ်ဆေးမှု စွမ်းရည်များ",
+  weeks: [
+    _year6ScienceWeek29,
+    _year6ScienceWeek30,
+    _year6ScienceWeek31,
+    _year6ScienceWeek32,
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 9, Week 33: "Review: Living Things, the Human
+// Body, and Evolution"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek33 = CourseWeekDef(
+  id: "course-year6-science-w33",
+  weekNumber: 33,
+  titleEn: "Review: Living Things, the Human Body, and Evolution",
+  titleMy: "ပြန်လည်သုံးသပ်ခြင်း - သက်ရှိများ၊ လူ့ခန္ဓာကိုယ်နှင့် Evolution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w33-d1",
+      dayNumber: 1,
+      titleEn: "Classification and the Human Body Review",
+      titleMy: "အုပ်စုခွဲခြင်းနှင့် လူ့ခန္ဓာကိုယ် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the seven life processes describes producing offspring of the same kind?",
+          questionMy:
+              "မိမိမျိုးနွယ်တူ သားသမီးများ ထုတ်လုပ်ခြင်းကို ဖော်ပြသော ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုအနက် တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: ["Reproduction", "Nutrition", "Excretion", "Growth"],
+          optionsMy: [
+            "မျိုးပွားခြင်း",
+            "အာဟာရ",
+            "စွန့်ထုတ်ခြင်း",
+            "ကြီးထွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What organ pumps blood around the whole body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ သွေးကို တွန်းအားပေးသော အင်္ဂါမှာ အဘယ်နည်း။",
+          optionsEn: ["The heart", "The stomach", "The brain", "The skin"],
+          optionsMy: ["နှလုံး", "အစာအိမ်", "ဦးနှောက်", "အရေပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why does the heart beat faster during exercise?",
+          questionMy:
+              "လေ့ကျင့်ခန်းလုပ်စဉ် နှလုံး ပိုမြန်စွာ ခုန်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Muscles need more oxygen and nutrients delivered quickly",
+            "The heart always slows down during exercise",
+            "Exercise stops the heart from beating",
+            "It has no connection to muscle activity",
+          ],
+          optionsMy: [
+            "ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် အာဟာရများ ပိုမိုမြန်ဆန်စွာ လိုအပ်ခြင်း",
+            "လေ့ကျင့်ခန်းလုပ်စဉ် နှလုံးသည် အမြဲတမ်း နှေးသွားခြင်း",
+            "လေ့ကျင့်ခန်းက နှလုံးခုန်ခြင်းကို ရပ်တန့်စေခြင်း",
+            "ကြွက်သား လှုပ်ရှားမှုနှင့် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why do fennec foxes have larger ears than Arctic foxes?",
+          questionMy:
+              "ဖင်နက်ခ်တောခွေးများတွင် ရေခဲပိုလာ တောခွေးများထက် နားရွက်ကြီးမားသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Larger ears help release body heat in the hot desert",
+            "It has no connection to their environment",
+            "Both foxes live in exactly the same climate",
+            "Ear size is only affected by diet",
+          ],
+          optionsMy: [
+            "နားရွက်ကြီးမားခြင်းက ပူပြင်းသော သဲကန္တာရတွင် ခန္ဓာကိုယ် အပူကို ထုတ်လွှတ်ရန် ကူညီခြင်း",
+            "၎င်းတို့၏ ပတ်ဝန်းကျင်နှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+            "တောခွေး နှစ်မျိုးစလုံးသည် အတိအကျ တူညီသော ရာသီဥတုတွင် နေထိုင်ခြင်း",
+            "နားရွက်အရွယ်အစားသည် အစားအစာကြောင့်သာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai reviews her Term 1-4 notes and sees the theme: classification, the human body, and evolution. Which single idea best connects all three?",
+          questionMy:
+              "နှင်းဝေသည် ၎င်း၏ Term 1-4 မှတ်စုများကို ပြန်လည်သုံးသပ်ပြီး အုပ်စုခွဲခြင်း၊ လူ့ခန္ဓာကိုယ်နှင့် Evolution ဟူသော အဓိကအကြောင်းအရာကို တွေ့ရသည်။ ဤအယူအဆသုံးခုစလုံးကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Living things share characteristics and processes that can be observed, classified, and traced across generations",
+            "All living things are exactly identical",
+            "Classification, the body, and evolution have nothing in common",
+            "Only humans have life processes",
+          ],
+          optionsMy: [
+            "သက်ရှိများသည် မျိုးဆက်များတစ်လျှောက် တွေ့မြင်နိုင်၊ အုပ်စုခွဲနိုင်ပြီး ခြေရာခံနိုင်သော ဂုဏ်သတ္တိများနှင့် လုပ်ငန်းစဉ်များ ဝေမျှခြင်း",
+            "သက်ရှိအားလုံး အတိအကျ တူညီခြင်း",
+            "အုပ်စုခွဲခြင်း၊ ခန္ဓာကိုယ်နှင့် Evolution တွင် တူညီသည့်အရာ မရှိခြင်း",
+            "လူသားများသာ ဘဝလုပ်ငန်းစဉ်များ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match the Terms 1-4 Vocabulary",
+      titleMy: "Term 1-4 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w33-dm-1",
+          termEn: "Vertebrate",
+          termMy: "ကျောရိုးရှိတိရစ္ဆာန် (Vertebrate)",
+          matchEn: "An animal with a backbone",
+          matchMy: "ကျောရိုးရှိသော တိရစ္ဆာန်",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w33-dm-2",
+          termEn: "Circulatory system",
+          termMy: "သွေးလည်ပတ်မှု စနစ် (Circulatory system)",
+          matchEn: "The heart, blood, and blood vessels working together",
+          matchMy: "အတူတကွ လုပ်ဆောင်သော နှလုံး၊ သွေးနှင့် သွေးကြောများ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w33-dm-3",
+          termEn: "Healthy lifestyle",
+          termMy: "ကျန်းမာသော နေထိုင်မှုပုံစံ (Healthy lifestyle)",
+          matchEn:
+              "A way of living that balances diet, exercise, sleep, and hygiene",
+          matchMy:
+              "အစားအစာ၊ လေ့ကျင့်ခန်း၊ အိပ်စက်ခြင်းနှင့် သန့်ရှင်းရေးကို ဟန်ချက်ညီစေသော နေထိုင်ပုံ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w33-dm-4",
+          termEn: "Inheritance",
+          termMy: "အမွေဆက်ခံခြင်း (Inheritance)",
+          matchEn: "The passing of characteristics from parents to offspring",
+          matchMy: "မိဘများမှ သားသမီးများသို့ ဂုဏ်သတ္တိများ လက်ဆင့်ကမ်းခြင်း",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w33-dm-5",
+          termEn: "Adaptation",
+          termMy: "လိုက်လျောညီထွေမှု (Adaptation)",
+          matchEn:
+              "A feature that helps a living thing survive in its environment",
+          matchMy:
+              "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w33-dm-6",
+          termEn: "Natural selection",
+          termMy: "သဘာဝ ရွေးချယ်ခြင်း (Natural selection)",
+          matchEn:
+              "The process where helpful traits become more common over generations",
+          matchMy:
+              "အသုံးဝင်သော လက္ခဏာများ မျိုးဆက်များတစ်လျှောက် ပိုတွေ့ရလာသော ဖြစ်စဉ်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: From Term 1-2 or From Term 3-4?",
+      titleMy: "စီစစ်ကြမည် - Term 1-2 မှလား၊ Term 3-4 မှလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["From Term 1-2", "From Term 3-4"],
+        bucketsMy: ["Term 1-2 မှ", "Term 3-4 မှ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w33-sort-1",
+            labelEn: "Classification keys",
+            labelMy: "အုပ်စုခွဲ သော့ချက်များ",
+            correctBucketEn: "From Term 1-2",
+            correctBucketMy: "Term 1-2 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w33-sort-2",
+            labelEn: "Charles Darwin and natural selection",
+            labelMy: "Charles Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်း",
+            correctBucketEn: "From Term 3-4",
+            correctBucketMy: "Term 3-4 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w33-sort-3",
+            labelEn: "The heart and circulatory system",
+            labelMy: "နှလုံးနှင့် သွေးလည်ပတ်မှု စနစ်",
+            correctBucketEn: "From Term 1-2",
+            correctBucketMy: "Term 1-2 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w33-sort-4",
+            labelEn: "Inheritance and variation",
+            labelMy: "အမွေဆက်ခံခြင်းနှင့် ကွဲပြားမှု",
+            correctBucketEn: "From Term 3-4",
+            correctBucketMy: "Term 3-4 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w33-sort-5",
+            labelEn: "Micro-organisms",
+            labelMy: "အဏုဇီဝဖြစ်စဉ်များ",
+            correctBucketEn: "From Term 1-2",
+            correctBucketMy: "Term 1-2 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w33-sort-6",
+            labelEn: "Adaptation and evolution",
+            labelMy: "လိုက်လျောညီထွေမှုနှင့် Evolution",
+            correctBucketEn: "From Term 3-4",
+            correctBucketMy: "Term 3-4 မှ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Half-Year Journal",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ တစ်နှစ်ခွဲစာ မှတ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Half-Year Journal",
+        titleMy: "နှင်းဝေ၏ တစ်နှစ်ခွဲစာ မှတ်တမ်း",
+        passageEn:
+            "Sitting down with a cup of tea one weekend, Hnin Wai flips back through her science notebook from the first half of Year 6, surprised by how much ground she has covered since her backyard survey of vertebrates and invertebrates in Term 1. She notices her handwriting has grown steadier across the pages, and so has her understanding -- what once felt like separate topics now reads more like chapters of a single, connected story.\n\nHer notes on classification keys from Term 1 remind her of a tool for organising the living world; her circulatory system diagrams from Term 2 remind her that the same living world depends on internal systems working together; her diet and lifestyle diary from Term 3 shows how everyday choices affect that system over time; and her family tree and fennec fox case study from Term 4 remind her that both individuals and whole species change and adapt across time.\n\nFlipping to a blank page, Hnin Wai decides to draw a simple timeline connecting all four terms with one arrow: classify a living thing, understand how its body works, consider how its daily choices affect its health, and finally trace how its characteristics were shaped by generations before it. She writes underneath: 'Science is not four separate boxes -- it is one long, connected question about how living things exist, survive, and change.' Satisfied, she closes her notebook, ready to review the second half of the year with the same connected thinking.",
+        passageMy:
+            "စနေ၊ တနင်္ဂနွေ တစ်ရက်တွင် လက်ဖက်ရည်တစ်ခွက်နှင့်အတူ ထိုင်ပြီး နှင်းဝေသည် Term 1 ကျောရိုးရှိ/ကျောရိုးမဲ့ တိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်းမှ စတင်၍ ၎င်း ဘယ်လောက် ခရီးဝေးဝေး လာခဲ့ပြီလဲဆိုသည်ကို အံ့သြဆွေးရင်း Year 6 ပထမတစ်ဝက်စာ ၎င်း၏ သိပ္ပံမှတ်စုစာအုပ်ကို ပြန်ဖတ်ကြည့်သည်။ စာမျက်နှာများတစ်လျှောက် ၎င်း၏ လက်ရေးက ပိုတည်ငြိမ်လာသည်ကို တွေ့ရပြီး ၎င်း၏ နားလည်မှုကလည်း ထိုနည်းတူပင် - တစ်ချိန်က သီးခြားခေါင်းစဉ်များဟု ခံစားခဲ့ရသောအရာများသည် ယခုအခါ ဆက်စပ်နေသော ပုံပြင်တစ်ခု၏ အခန်းများကဲ့သို့ ဖတ်ရသည်။\n\nTerm 1 မှ ၎င်း၏ အုပ်စုခွဲ သော့ချက် မှတ်စုများသည် သက်ရှိကမ္ဘာကို စနစ်တကျ ထားရန် ကိရိယာတစ်ခုကို သတိရစေသည်၊ Term 2 မှ ၎င်း၏ သွေးလည်ပတ်မှု စနစ် ပုံကားများသည် တူညီသော သက်ရှိကမ္ဘာသည် အတူတကွ လုပ်ဆောင်နေသော ပြည်တွင်းစနစ်များပေါ်တွင် မှီခိုနေကြောင်း သတိရစေသည်၊ Term 3 မှ ၎င်း၏ အစားအစာနှင့် နေထိုင်မှုပုံစံ မှတ်တမ်းသည် နေ့စဉ် ရွေးချယ်မှုများသည် ထိုစနစ်ကို အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ သက်ရောက်စေကြောင်း ပြသသည်၊ Term 4 မှ ၎င်း၏ မိသားစုစဉ်နှင့် ဖင်နက်ခ်တောခွေး ကိစ္စလေ့လာမှုသည် တစ်ဦးချင်းများနှင့် မျိုးစိတ်တစ်ခုလုံးစလုံးသည် အချိန်တစ်လျှောက် ပြောင်းလဲကာ လိုက်လျောညီထွေစေကြောင်း သတိရစေသည်။\n\nစာမျက်နှာလွတ်တစ်ခုသို့ ရောက်သွားသောအခါ နှင်းဝေသည် ကားချည်တစ်ခုတည်းဖြင့် Term လေးခုစလုံးကို ဆက်စပ်ပေးသော ရိုးရှင်းသော အချိန်ဇယားတစ်ခု ရေးဆွဲရန် ဆုံးဖြတ်လိုက်သည် - သက်ရှိတစ်ခုကို အုပ်စုခွဲပါ၊ ၎င်း၏ ခန္ဓာကိုယ် မည်သို့ အလုပ်လုပ်ကြောင်း နားလည်ပါ၊ ၎င်း၏ နေ့စဉ် ရွေးချယ်မှုများသည် ကျန်းမာရေးကို မည်သို့ သက်ရောက်စေကြောင်း စဉ်းစားပါ၊ ပြီးနောက် ၎င်း၏ ဂုဏ်သတ္တိများသည် ၎င်းမတိုင်မီ မျိုးဆက်များဖြင့် မည်သို့ ပုံဖော်ခံခဲ့ရကြောင်း ခြေရာခံပါ။ ၎င်းသည် အောက်တွင် ရေးမှတ်သည် - 'သိပ္ပံသည် သီးခြားသေတ္တာလေးခု မဟုတ်ဘဲ - သက်ရှိများ မည်သို့ တည်ရှိကြောင်း၊ အသက်ရှင်ကျန်ရစ်ကြောင်းနှင့် ပြောင်းလဲကြောင်း ရေရှည် ဆက်စပ်နေသော မေးခွန်းတစ်ခုသာ ဖြစ်သည်'။ ကျေနပ်သွားသော ၎င်းသည် မိမိ၏ မှတ်စုစာအုပ်ကို ပိတ်ကာ နှစ်ဝက်စာကို တူညီသော ဆက်စပ်တွေးခေါ်မှုနှင့် ပြန်လည်သုံးသပ်ရန် အသင့်ဖြစ်သွားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai notice has grown alongside her handwriting?",
+            questionMy:
+                "လက်ရေးနှင့်အတူ ကြီးထွားလာသည်ကို နှင်းဝေ တွေ့ရှိသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Her understanding of the connections between topics",
+              "Her handwriting speed only",
+              "Her collection of pens",
+              "Her school bag size",
+            ],
+            optionsMy: [
+              "ခေါင်းစဉ်များအကြား ဆက်စပ်မှုအကြောင်း ၎င်း၏ နားလည်မှု",
+              "လက်ရေး အမြန်နှုန်းသာ",
+              "ခဲတံစုဆောင်းမှု",
+              "ကျောင်းအိတ် အရွယ်အစား",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What do Hnin Wai's classification key notes from Term 1 remind her of?",
+            questionMy:
+                "Term 1 မှ ၎င်း၏ အုပ်စုခွဲ သော့ချက် မှတ်စုများသည် ၎င်းကို အဘယ်အရာ သတိရစေသနည်း။",
+            optionsEn: [
+              "A tool for organising the living world",
+              "A type of circulatory system",
+              "A recipe for a cake",
+              "A story about a fennec fox",
+            ],
+            optionsMy: [
+              "သက်ရှိကမ္ဘာကို စနစ်တကျ ထားရန် ကိရိယာတစ်ခု",
+              "သွေးလည်ပတ်မှု စနစ်တစ်မျိုး",
+              "ကိတ်မုန့်ချက်ပြုတ်နည်း",
+              "ဖင်နက်ခ်တောခွေးအကြောင်း ပုံပြင်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the Term 3 diet and lifestyle diary remind Hnin Wai of?",
+            questionMy:
+                "Term 3 အစားအစာနှင့် နေထိုင်မှုပုံစံ မှတ်တမ်းသည် နှင်းဝေကို အဘယ်အရာ သတိရစေသနည်း။",
+            optionsEn: [
+              "How everyday choices affect the body's systems over time",
+              "How to build a periscope",
+              "How electricity flows through circuits",
+              "How rocks are classified",
+            ],
+            optionsMy: [
+              "နေ့စဉ် ရွေးချယ်မှုများသည် အချိန်ကြာလာသည်နှင့်အမျှ ခန္ဓာကိုယ်၏ စနစ်များကို မည်သို့ သက်ရောက်စေကြောင်း",
+              "ပါရီစကုပ် တည်ဆောက်နည်း",
+              "လျှပ်စစ်ဓာတ်အား ဆားကစ်များတစ်ဆင့် မည်သို့ စီးဆင်းကြောင်း",
+              "ကျောက်များကို မည်သို့ အုပ်စုခွဲကြောင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What timeline does Hnin Wai draw connecting the four terms?",
+            questionMy:
+                "Term လေးခုကို ဆက်စပ်ပေးသော အချိန်ဇယားကို နှင်းဝေ မည်သို့ ရေးဆွဲသနည်း။",
+            optionsEn: [
+              "Classify, understand the body, consider daily choices, and trace inherited characteristics",
+              "A list of her favourite foods",
+              "A map of Nova School",
+              "A drawing of a circuit diagram",
+            ],
+            optionsMy: [
+              "အုပ်စုခွဲပါ၊ ခန္ဓာကိုယ်ကို နားလည်ပါ၊ နေ့စဉ်ရွေးချယ်မှုများကို စဉ်းစားပါ၊ အမွေဆက်ခံ ဂုဏ်သတ္တိများကို ခြေရာခံပါ",
+              "ကြိုက်နှစ်သက်ဆုံး အစားအစာများ စာရင်း",
+              "Nova School မြေပုံ",
+              "ဆားကစ် ပုံကား ရေးဆွဲပုံ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What conclusion does Hnin Wai write in her journal?",
+            questionMy:
+                "မိမိ၏ မှတ်တမ်းတွင် နှင်းဝေ ရေးမှတ်သော ကောက်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Science is one long, connected question, not four separate boxes",
+              "Science has no connection between topics at all",
+              "Each term should be studied completely separately forever",
+              "Classification is the only useful science topic",
+            ],
+            optionsMy: [
+              "သိပ္ပံသည် သီးခြားသေတ္တာလေးခု မဟုတ်ဘဲ ရေရှည် ဆက်စပ်နေသော မေးခွန်းတစ်ခုသာ ဖြစ်ခြင်း",
+              "သိပ္ပံတွင် ခေါင်းစဉ်များကြား ဆက်စပ်မှု လုံးဝမရှိခြင်း",
+              "Term တစ်ခုစီကို ထာဝစဉ် လုံးလုံး သီးခြားစီ လေ့လာသင့်ခြင်း",
+              "အုပ်စုခွဲခြင်းသာ တစ်ခုတည်း အသုံးဝင်သော သိပ္ပံခေါင်းစဉ် ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w33-d5",
+      dayNumber: 5,
+      titleEn: "Terms 1-4 Review Round-Up",
+      titleMy: "Term 1-4 ပြန်လည်သုံးသပ်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which term covered classification keys and micro-organisms?",
+          questionMy:
+              "အုပ်စုခွဲ သော့ချက်များနှင့် အဏုဇီဝဖြစ်စဉ်များကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 1", "Term 2", "Term 3", "Term 4"],
+          optionsMy: ["Term 1", "Term 2", "Term 3", "Term 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term covered the circulatory system and nutrients?",
+          questionMy:
+              "သွေးလည်ပတ်မှု စနစ်နှင့် အာဟာရများကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 2", "Term 1", "Term 3", "Term 4"],
+          optionsMy: ["Term 2", "Term 1", "Term 3", "Term 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term covered diet, drugs, and healthy lifestyle choices?",
+          questionMy:
+              "အစားအစာ၊ မူးယစ်ဆေးဝါးနှင့် ကျန်းမာသော နေထိုင်မှုပုံစံ ရွေးချယ်မှုများကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 3", "Term 1", "Term 2", "Term 4"],
+          optionsMy: ["Term 3", "Term 1", "Term 2", "Term 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term covered inheritance, adaptation, and Darwin's natural selection?",
+          questionMy:
+              "အမွေဆက်ခံခြင်း၊ လိုက်လျောညီထွေမှုနှင့် Darwin ၏ သဘာဝ ရွေးချယ်ခြင်းကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 4", "Term 1", "Term 2", "Term 3"],
+          optionsMy: ["Term 4", "Term 1", "Term 2", "Term 3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What overall theme connects Terms 1 through 4?",
+          questionMy:
+              "Term 1 မှ 4 ကို ဆက်စပ်ပေးသော ယေဘူယျ အဓိကအကြောင်းအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Understanding living things -- how they are classified, function, stay healthy, and change over time",
+            "Only how to build electrical circuits",
+            "Only how light travels and reflects",
+            "Only how to separate mixtures",
+          ],
+          optionsMy: [
+            "သက်ရှိများကို နားလည်ခြင်း - ၎င်းတို့ကို မည်သို့ အုပ်စုခွဲသည်၊ မည်သို့ လုပ်ဆောင်သည်၊ မည်သို့ ကျန်းမာစွာနေထိုင်သည်နှင့် အချိန်တစ်လျှောက် မည်သို့ ပြောင်းလဲသည်",
+            "လျှပ်စစ် ဆားကစ်များ တည်ဆောက်နည်းသာ",
+            "အလင်းရောင် ခရီးသွားပုံနှင့် ရောင်ပြန်ဟပ်ပုံသာ",
+            "ရောနှောပစ္စည်းများ ခွဲထုတ်နည်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 9, Week 34: "Review: Light, Electricity, and
+// Materials"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek34 = CourseWeekDef(
+  id: "course-year6-science-w34",
+  weekNumber: 34,
+  titleEn: "Review: Light, Electricity, and Materials",
+  titleMy: "ပြန်လည်သုံးသပ်ခြင်း - အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w34-d1",
+      dayNumber: 1,
+      titleEn: "Light, Electricity, and Materials Review",
+      titleMy: "အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In what shape does light usually travel?",
+          questionMy:
+              "အလင်းရောင်သည် များသောအားဖြင့် မည်သည့်ပုံစံဖြင့် ခရီးသွားသနည်း။",
+          optionsEn: [
+            "Straight lines",
+            "Circles only",
+            "Zigzags only",
+            "It does not travel",
+          ],
+          optionsMy: [
+            "ဖြောင့်တန်းသော လမ်းကြောင်းများ",
+            "စက်ဝိုင်းများသာ",
+            "ဇစ်ဇက်များသာ",
+            "မခရီးသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What must a circuit be for a bulb to light up?",
+          questionMy: "မီးအိမ် ထွန်းလင်းရန် ဆားကစ်တစ်ခု မည်သို့ ဖြစ်ရမည်နည်း။",
+          optionsEn: [
+            "Complete, with no gaps",
+            "Made only of plastic",
+            "Extremely long",
+            "Very colourful",
+          ],
+          optionsMy: [
+            "ကွက်လပ် မရှိဘဲ ပြီးပြည့်စုံခြင်း",
+            "ပလတ်စတစ်ဖြင့်သာ ပြုလုပ်ခြင်း",
+            "အလွန်ရှည်လျားခြင်း",
+            "အလွန်အရောင်စုံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why is metal a good choice for cooking pots?",
+          questionMy:
+              "ဟင်းချက်အိုးများအတွက် သတ္တုသည် ရွေးချယ်ကောင်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It conducts heat well and withstands high temperatures",
+            "It is always transparent",
+            "It floats on water",
+            "It dissolves in water",
+          ],
+          optionsMy: [
+            "အပူကို ကောင်းစွာ ကူးစက်ပေးနိုင်ပြီး အပူချိန်မြင့်မားမှုကို ခံနိုင်ရည်ရှိခြင်း",
+            "အမြဲတမ်း ပွင့်လင်းမြင်သာခြင်း",
+            "ရေပေါ်တွင် မျောနေခြင်း",
+            "ရေတွင် ပျော်ဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "How can salt be recovered from salty water?",
+          questionMy: "ဆားရေမှ ဆားကို မည်သို့ ပြန်ရရှိနိုင်သနည်း။",
+          optionsEn: [
+            "By evaporating the water",
+            "By filtering the water",
+            "By freezing the water instantly",
+            "By sieving the water",
+          ],
+          optionsMy: [
+            "ရေကို ငွေ့ပျံစေခြင်းဖြင့်",
+            "ရေကို စစ်ထုတ်ခြင်းဖြင့်",
+            "ရေကို ချက်ချင်း အေးခဲစေခြင်းဖြင့်",
+            "ရေကို စစ်ကာဖြင့်စစ်ခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hnin Wai reviews her Term 5-7 notes and sees the theme: light, electricity, and materials. Which single idea best connects all three?",
+          questionMy:
+              "နှင်းဝေသည် ၎င်း၏ Term 5-7 မှတ်စုများကို ပြန်လည်သုံးသပ်ပြီး အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ ဟူသော အဓိကအကြောင်းအရာကို တွေ့ရသည်။ ဤအယူအဆသုံးခုစလုံးကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Physical science topics behave in predictable, testable ways that people can use in everyday tools and designs",
+            "Light, electricity, and materials have nothing in common",
+            "Only living things can be studied scientifically",
+            "Physical phenomena are always completely random",
+          ],
+          optionsMy: [
+            "ရူပဝေဒဆိုင်ရာ ခေါင်းစဉ်များသည် လူများ နေ့စဉ်ကိရိယာများနှင့် ဒီဇိုင်းများတွင် အသုံးချနိုင်သော ခန့်မှန်းနိုင်၊ စမ်းသပ်နိုင်သော နည်းလမ်းများဖြင့် အပြုအမူပြခြင်း",
+            "အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများတွင် တူညီသည့်အရာ မရှိခြင်း",
+            "သက်ရှိများကိုသာ သိပ္ပံနည်းကျ လေ့လာနိုင်ခြင်း",
+            "ရူပဝေဒဆိုင်ရာ ဖြစ်စဉ်များသည် အမြဲတမ်း လုံးဝ ကျပန်း ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match the Terms 5-7 Vocabulary",
+      titleMy: "Term 5-7 ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w34-dm-1",
+          termEn: "Reflection",
+          termMy: "ရောင်ပြန်ဟပ်ခြင်း (Reflection)",
+          matchEn: "Light bouncing off a surface",
+          matchMy: "မျက်နှာပြင်တစ်ခုမှ အလင်းရောင် ပြန်ခုန်ခြင်း",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w34-dm-2",
+          termEn: "Voltage",
+          termMy: "ဗို့အား (Voltage)",
+          matchEn: "The push or energy driving electricity around a circuit",
+          matchMy: "ဆားကစ်ပတ်လည် လျှပ်စစ်ဓာတ်အားကို မောင်းနှင်သော တွန်းအား",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w34-dm-3",
+          termEn: "Circuit diagram",
+          termMy: "ဆားကစ် ပုံကား (Circuit diagram)",
+          matchEn:
+              "A drawing showing how circuit components are connected using symbols",
+          matchMy:
+              "သင်္ကေတများကို အသုံးပြု၍ ဆားကစ် အစိတ်အပိုင်းများ မည်သို့ ချိတ်ဆက်ကြောင်း ပြသော ရေးဆွဲပုံ",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w34-dm-4",
+          termEn: "Property",
+          termMy: "ဂုဏ်သတ္တိ (Property)",
+          matchEn:
+              "A characteristic of a material, such as being flexible or waterproof",
+          matchMy:
+              "ဆွဲဆန့်နိုင်ခြင်း သို့မဟုတ် ရေစိုမခံခြင်းကဲ့သို့သော ပစ္စည်းတစ်ခု၏ ဂုဏ်သတ္တိ",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w34-dm-5",
+          termEn: "Solution",
+          termMy: "ဒြပ်ရော (Solution)",
+          matchEn:
+              "A mixture formed when a substance dissolves completely in a liquid",
+          matchMy:
+              "ဓာတ်တစ်ခုသည် အရည်တစ်ခုတွင် လုံးလုံးပျော်ဝင်ချိန် ဖွဲ့စည်းလာသော ရောနှောမှု",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w34-dm-6",
+          termEn: "Evaporating",
+          termMy: "ငွေ့ပျံစေခြင်း (Evaporating)",
+          matchEn:
+              "Heating a solution so the liquid turns to gas, leaving the dissolved solid behind",
+          matchMy: "အရည်ကို ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲစေရန် ဒြပ်ရောကို ပူစေခြင်း",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: From Term 5-6 or From Term 7?",
+      titleMy: "စီစစ်ကြမည် - Term 5-6 မှလား၊ Term 7 မှလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["From Term 5-6", "From Term 7"],
+        bucketsMy: ["Term 5-6 မှ", "Term 7 မှ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w34-sort-1",
+            labelEn: "Shadows and reflection",
+            labelMy: "အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်း",
+            correctBucketEn: "From Term 5-6",
+            correctBucketMy: "Term 5-6 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w34-sort-2",
+            labelEn: "Dissolving and solutions",
+            labelMy: "ပျော်ဝင်ခြင်းနှင့် ဒြပ်ရောများ",
+            correctBucketEn: "From Term 7",
+            correctBucketMy: "Term 7 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w34-sort-3",
+            labelEn: "Circuits and circuit diagrams",
+            labelMy: "ဆားကစ်များနှင့် ဆားကစ် ပုံကားများ",
+            correctBucketEn: "From Term 5-6",
+            correctBucketMy: "Term 5-6 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w34-sort-4",
+            labelEn: "Separating mixtures",
+            labelMy: "ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်း",
+            correctBucketEn: "From Term 7",
+            correctBucketMy: "Term 7 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w34-sort-5",
+            labelEn: "Voltage, current, and brightness",
+            labelMy: "ဗို့အား၊ လျှပ်စီးနှင့် တောက်ပမှု",
+            correctBucketEn: "From Term 5-6",
+            correctBucketMy: "Term 5-6 မှ",
+          ),
+          SortingItem(
+            id: "y6sci-w34-sort-6",
+            labelEn: "Properties of materials and their uses",
+            labelMy: "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် အသုံးချမှုများ",
+            correctBucketEn: "From Term 7",
+            correctBucketMy: "Term 7 မှ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Physical Science Notebook",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ရူပဝေဒ သိပ္ပံ မှတ်စုစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Physical Science Notebook",
+        titleMy: "နှင်းဝေ၏ ရူပဝေဒ သိပ္ပံ မှတ်စုစာအုပ်",
+        passageEn:
+            "Continuing her half-year review, Hnin Wai turns to the second part of her science notebook, covering light, electricity, and materials from Terms 5 through 7. She notices these three terms feel different from the earlier living-things terms -- less about growth and change over generations, and more about objects behaving in reliable, testable ways.\n\nHer torch experiment from Term 5 showed her that light always travels in straight lines until something blocks, scatters, or reflects it; her torch repair story from Term 6 showed her that circuits only work when every connection forms one complete loop, and that voltage and current can be measured and predicted; her umbrella and salt pan stories from Term 7 showed her that materials have specific properties that make them suited to specific jobs, and that mixtures can be separated using methods matched to those properties.\n\nHnin Wai realises that although living things and physical materials seem completely different, both terms taught the same underlying scientific habit: observe carefully, look for patterns, and use those patterns to predict and explain what will happen next. She writes a short note at the top of this section of her notebook: 'Life science asks how things change over time; physical science asks how things behave right now -- but both need the same careful observation to answer their questions.'",
+        passageMy:
+            "တစ်နှစ်ခွဲစာ ပြန်လည်သုံးသပ်ခြင်းကို ဆက်လက်ကာ နှင်းဝေသည် Term 5 မှ 7 အထိ အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ ဖော်ပြထားသော ၎င်း၏ သိပ္ပံမှတ်စုစာအုပ်၏ ဒုတိယအပိုင်းသို့ လှည့်သည်။ ဤ Term သုံးခုသည် ယခင်က သက်ရှိများအကြောင်း Term များနှင့် ကွာခြားစွာ ခံစားရကြောင်း သတိပြုမိသည် - မျိုးဆက်များတစ်လျှောက် ကြီးထွားမှုနှင့် ပြောင်းလဲမှုအကြောင်း နည်းပြီး၊ ယုံကြည်ရ၊ စမ်းသပ်ရသော နည်းလမ်းများဖြင့် အပြုအမူပြသော အရာဝတ္ထုများအကြောင်း ပိုများသည်။\n\nTerm 5 မှ ၎င်း၏ တံခါးလိပ်မီး စမ်းသပ်မှုက အလင်းရောင်သည် တစ်ခုခုက ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မခံရမချင်း အမြဲတမ်း ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားကြောင်း ပြသခဲ့သည်၊ Term 6 မှ ၎င်း၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်က ဆားကစ်များသည် ချိတ်ဆက်မှုတိုင်း ကွင်းလုံးတစ်ခုတည်း ပြီးပြည့်စုံစွာ ဖွဲ့စည်းချိန်တွင်သာ အလုပ်ဖြစ်ကြောင်း၊ ဗို့အားနှင့် လျှပ်စီးကို တိုင်းတာနိုင်ပြီး ခန့်မှန်းနိုင်ကြောင်း ပြသခဲ့သည်၊ Term 7 မှ ၎င်း၏ ထီးနှင့် ဆားချက်ကွင်း ပုံပြင်များက ပစ္စည်းများတွင် ၎င်းတို့ကို တိကျသော အလုပ်များနှင့် သင့်လျော်စေသော တိကျသော ဂုဏ်သတ္တိများ ရှိကြောင်း၊ ထိုဂုဏ်သတ္တိများနှင့် ကိုက်ညီသော နည်းလမ်းများကို အသုံးပြု၍ ရောနှောပစ္စည်းများကို ခွဲထုတ်နိုင်ကြောင်း ပြသခဲ့သည်။\n\nသက်ရှိများနှင့် ရူပဝေဒဆိုင်ရာ ပစ္စည်းများသည် လုံးဝကွဲပြားသည်ဟု ထင်ရသော်လည်း Term နှစ်ခုစလုံးသည် တူညီသော အခြေခံ သိပ္ပံအလေ့အထကို သင်ကြားပေးခဲ့ကြောင်း နှင်းဝေ သဘောပေါက်လိုက်သည် - ဂရုတစိုက် လေ့လာပါ၊ ပုံစံများကို ရှာဖွေပါ၊ ထို့နောက် ဆက်ခံဖြစ်ပျက်မည့်အရာကို ခန့်မှန်း၍ ရှင်းပြရန် ထိုပုံစံများကို အသုံးပြုပါ။ ၎င်းသည် ၎င်း၏ မှတ်စုစာအုပ် ဤအပိုင်း ထိပ်ဆုံးတွင် ရှင်းလင်းသော မှတ်ချက်တစ်ခု ရေးမှတ်သည် - 'ဇီဝသိပ္ပံသည် အရာများ အချိန်တစ်လျှောက် မည်သို့ ပြောင်းလဲကြောင်း မေးမြန်းပြီး ရူပဝေဒသိပ္ပံသည် အရာများ ယခုအချိန် မည်သို့ အပြုအမူပြကြောင်း မေးမြန်းသည် - သို့သော် နှစ်ခုစလုံးသည် ၎င်းတို့၏ မေးခွန်းများကို ဖြေရှင်းရန် တူညီသော ဂရုတစိုက် လေ့လာမှု လိုအပ်သည်'။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai say Terms 5-7 feel different from earlier terms?",
+            questionMy:
+                "Term 5-7 သည် ယခင် Term များနှင့် မည်သို့ ကွာခြားစွာ ခံစားရကြောင်း နှင်းဝေ ပြောသနည်း။",
+            optionsEn: [
+              "Less about growth over generations, more about objects behaving reliably",
+              "Exactly the same in every way",
+              "About cooking recipes only",
+              "About sports and games only",
+            ],
+            optionsMy: [
+              "မျိုးဆက်များတစ်လျှောက် ကြီးထွားမှုအကြောင်း နည်းပြီး ယုံကြည်ရသော အရာဝတ္ထုများ အပြုအမူပြပုံအကြောင်း ပိုများခြင်း",
+              "နည်းလမ်းတိုင်းတွင် အတိအကျ တူညီခြင်း",
+              "ချက်ပြုတ်နည်းများအကြောင်းသာ",
+              "အားကစားနှင့် ကစားနည်းများအကြောင်းသာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Hnin Wai's torch experiment from Term 5 show her?",
+            questionMy:
+                "Term 5 မှ ၎င်း၏ တံခါးလိပ်မီး စမ်းသပ်မှုက ၎င်းအား အဘယ်အရာ ပြသခဲ့သနည်း။",
+            optionsEn: [
+              "Light always travels in straight lines until blocked, scattered, or reflected",
+              "Light always bends around corners",
+              "Light cannot pass through any material",
+              "Light only exists at night",
+            ],
+            optionsMy: [
+              "အလင်းရောင်သည် ပိတ်ဆို့ခြင်း၊ ပြန့်ကျဲခြင်း သို့မဟုတ် ရောင်ပြန်ဟပ်ခြင်း မခံရမချင်း အမြဲတမ်း ဖြောင့်တန်းသော လမ်းကြောင်းများဖြင့် ခရီးသွားခြင်း",
+              "အလင်းရောင်သည် အမြဲတမ်း ထောင့်များအား ကွေ့ဝင်ခြင်း",
+              "အလင်းရောင်သည် ပစ္စည်း မည်သည့်တစ်ခုကိုမျှ ဖြတ်သန်း၍ မရနိုင်ခြင်း",
+              "အလင်းရောင်သည် ညအချိန်တွင်သာ ရှိနေခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Hnin Wai's torch repair story from Term 6 show her about circuits?",
+            questionMy:
+                "Term 6 မှ ၎င်း၏ တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်က ဆားကစ်များအကြောင်း ၎င်းအား အဘယ်အရာ ပြသခဲ့သနည်း။",
+            optionsEn: [
+              "Circuits only work when every connection forms one complete loop",
+              "Circuits work even with several broken connections",
+              "Batteries never lose their energy",
+              "Switches have no real function",
+            ],
+            optionsMy: [
+              "ဆားကစ်များသည် ချိတ်ဆက်မှုတိုင်း ကွင်းလုံးတစ်ခုတည်း ပြီးပြည့်စုံစွာ ဖွဲ့စည်းချိန်တွင်သာ အလုပ်ဖြစ်ခြင်း",
+              "ဆားကစ်များသည် ချိတ်ဆက်မှု ကျိုးပဲ့မှုများစွာနှင့်ပင် အလုပ်ဖြစ်ခြင်း",
+              "ဘက်ထရီများသည် ၎င်းတို့၏ စွမ်းအင် ဘယ်တော့မှ ကုန်ဆုံးမည်မဟုတ်ခြင်း",
+              "ခလုတ်များတွင် တကယ့်လုပ်ဆောင်ချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Hnin Wai's umbrella and salt pan stories from Term 7 show her?",
+            questionMy:
+                "Term 7 မှ ၎င်း၏ ထီးနှင့် ဆားချက်ကွင်း ပုံပြင်များက ၎င်းအား အဘယ်အရာ ပြသခဲ့သနည်း။",
+            optionsEn: [
+              "Materials have specific properties suited to specific jobs, and mixtures can be separated using matched methods",
+              "All materials are identical in every way",
+              "Mixtures can never be separated once combined",
+              "Properties of materials have no real-world use",
+            ],
+            optionsMy: [
+              "ပစ္စည်းများတွင် တိကျသော အလုပ်များနှင့် သင့်လျော်စေသော တိကျသော ဂုဏ်သတ္တိများ ရှိပြီး ကိုက်ညီသော နည်းလမ်းများဖြင့် ရောနှောပစ္စည်းများကို ခွဲထုတ်နိုင်ခြင်း",
+              "ပစ္စည်းအားလုံးသည် နည်းလမ်းတိုင်းတွင် တူညီခြင်း",
+              "ရောနှောပြီးသည့်နောက် ပစ္စည်းများကို ဘယ်တော့မှ ခွဲထုတ်၍မရနိုင်ခြင်း",
+              "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများတွင် လက်တွေ့ကမ္ဘာ အသုံးဝင်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What note does Hnin Wai write comparing life science and physical science?",
+            questionMy:
+                "ဇီဝသိပ္ပံနှင့် ရူပဝေဒသိပ္ပံကို နှိုင်းယှဉ်ကာ နှင်းဝေ ရေးမှတ်သော မှတ်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Life science asks how things change over time; physical science asks how things behave now -- both need careful observation",
+              "Life science and physical science have absolutely nothing in common",
+              "Only physical science requires careful observation",
+              "Only life science can be tested scientifically",
+            ],
+            optionsMy: [
+              "ဇီဝသိပ္ပံသည် အရာများ အချိန်တစ်လျှောက် မည်သို့ ပြောင်းလဲကြောင်း မေးမြန်းပြီး ရူပဝေဒသိပ္ပံသည် အရာများ ယခုအချိန် မည်သို့ အပြုအမူပြကြောင်း မေးမြန်းသည် - နှစ်ခုစလုံးသည် ဂရုတစိုက် လေ့လာမှု လိုအပ်ခြင်း",
+              "ဇီဝသိပ္ပံနှင့် ရူပဝေဒသိပ္ပံတွင် လုံးဝ တူညီသည့်အရာ မရှိခြင်း",
+              "ရူပဝေဒသိပ္ပံသာ ဂရုတစိုက် လေ့လာမှု လိုအပ်ခြင်း",
+              "ဇီဝသိပ္ပံကိုသာ သိပ္ပံနည်းကျ စမ်းသပ်နိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w34-d5",
+      dayNumber: 5,
+      titleEn: "Terms 5-7 Review Round-Up",
+      titleMy: "Term 5-7 ပြန်လည်သုံးသပ်ခြင်း အနှစ်ချုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which term covered shadows and reflection?",
+          questionMy:
+              "အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်းကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 5", "Term 6", "Term 7", "Term 4"],
+          optionsMy: ["Term 5", "Term 6", "Term 7", "Term 4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term covered circuits, voltage, and circuit symbols?",
+          questionMy:
+              "ဆားကစ်များ၊ ဗို့အားနှင့် ဆားကစ် သင်္ကေတများကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 6", "Term 5", "Term 7", "Term 3"],
+          optionsMy: ["Term 6", "Term 5", "Term 7", "Term 3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which term covered material properties, dissolving, and separation?",
+          questionMy:
+              "ပစ္စည်းဂုဏ်သတ္တိများ၊ ပျော်ဝင်ခြင်းနှင့် ခွဲထုတ်ခြင်းကို ဖော်ပြခဲ့သော Term မှာ အဘယ်နည်း။",
+          optionsEn: ["Term 7", "Term 5", "Term 6", "Term 2"],
+          optionsMy: ["Term 7", "Term 5", "Term 6", "Term 2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What common scientific habit does Hnin Wai identify across all three physical science terms?",
+          questionMy:
+              "ရူပဝေဒသိပ္ပံ Term သုံးခုစလုံးတစ်လျှောက် နှင်းဝေ ဖော်ထုတ်သော ဘုံ သိပ္ပံအလေ့အထမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Observe carefully, look for patterns, and use them to predict what happens next",
+            "Never measure anything at all",
+            "Guess randomly without any observation",
+            "Ignore all patterns in the data",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် လေ့လာပါ၊ ပုံစံများကို ရှာဖွေပါ၊ ဆက်ခံဖြစ်ပျက်မည့်အရာကို ခန့်မှန်းရန် အသုံးပြုပါ",
+            "ဘာမျှ လုံးဝ မတိုင်းတာခြင်း",
+            "လေ့လာမှုမပါဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+            "ဒေတာရှိ ပုံစံများအားလုံးကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What overall theme connects Terms 5 through 7?",
+          questionMy:
+              "Term 5 မှ 7 ကို ဆက်စပ်ပေးသော ယေဘူယျ အဓိကအကြောင်းအရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Physical science topics -- light, electricity, and materials -- behaving in predictable, testable ways",
+            "Only how animals classify themselves",
+            "Only how the human body works",
+            "Only how species evolve over generations",
+          ],
+          optionsMy: [
+            "ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်များ - အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ - ခန့်မှန်းနိုင်၊ စမ်းသပ်နိုင်သော နည်းလမ်းများဖြင့် အပြုအမူပြခြင်း",
+            "တိရစ္ဆာန်များ မိမိကိုယ်ကို မည်သို့ အုပ်စုခွဲကြောင်းသာ",
+            "လူ့ခန္ဓာကိုယ် မည်သို့ အလုပ်လုပ်ကြောင်းသာ",
+            "မျိုးစိတ်များ မျိုးဆက်များတစ်လျှောက် မည်သို့ Evolution ဖြစ်ကြောင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 9, Week 35: "Mock Test: Full Year 6 Science
+// Review"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek35 = CourseWeekDef(
+  id: "course-year6-science-w35",
+  weekNumber: 35,
+  titleEn: "Mock Test: Full Year 6 Science Review",
+  titleMy: "ပုံစံတူစာမေးပွဲ - Year 6 သိပ္ပံ အပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mock Test Part 1: Living Things and the Body",
+      titleMy: "ပုံစံတူစာမေးပွဲ အပိုင်း ၁ - သက်ရှိများနှင့် ခန္ဓာကိုယ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly lists two of the seven life processes?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဘဝလုပ်ငန်းစဉ် ခုနစ်ခုမှ နှစ်ခုကို မှန်ကန်စွာ ဖော်ပြသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Respiration and reproduction",
+            "Painting and singing",
+            "Reading and writing",
+            "Cooking and cleaning",
+          ],
+          optionsMy: [
+            "အသက်ရှူခြင်းနှင့် မျိုးပွားခြင်း",
+            "ပန်းချီနှင့် သီချင်းဆိုခြင်း",
+            "ဖတ်ခြင်းနှင့် ရေးခြင်း",
+            "ဟင်းချက်ခြင်းနှင့် သန့်ရှင်းရေးလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which blood cells carry oxygen around the body?",
+          questionMy:
+              "ခန္ဓာကိုယ်တစ်ခုလုံးသို့ အောက်ဆီဂျင် သယ်ဆောင်ပေးသော သွေးဆဲလ်များမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Red blood cells",
+            "White blood cells",
+            "Platelets only",
+            "Skin cells",
+          ],
+          optionsMy: [
+            "သွေးနီဥများ",
+            "သွေးဖြူဥများ",
+            "platelet များသာ",
+            "အရေပြားဆဲလ်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall lesson does a balanced diet and regular exercise support?",
+          questionMy:
+              "ဟန်ချက်ညီ အစားအစာနှင့် ပုံမှန် လေ့ကျင့်ခန်းက ထောက်ပံ့ပေးသော ယေဘူယျ သင်ခန်းစာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A healthy lifestyle that supports the body's overall wellbeing",
+            "Nothing related to health at all",
+            "Only faster running speed",
+            "Only taller height",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်၏ ယေဘူယျ ကျန်းမာချမ်းသာမှုကို ထောက်ပံ့ပေးသော ကျန်းမာသော နေထိုင်မှုပုံစံ",
+            "ကျန်းမာရေးနှင့် ဘာမျှ မဆက်စပ်ခြင်း",
+            "ပိုမြန်သော ပြေးလွှားနှုန်းသာ",
+            "ပိုမြင့်သော အရပ်အမြင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "What is inheritance?",
+          questionMy: "အမွေဆက်ခံခြင်း ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The passing of characteristics from parents to offspring",
+            "A type of classification key",
+            "A type of micro-organism",
+            "A type of circuit",
+          ],
+          optionsMy: [
+            "မိဘများမှ သားသမီးများသို့ ဂုဏ်သတ္တိများ လက်ဆင့်ကမ်းခြင်း",
+            "အုပ်စုခွဲ သော့ချက် တစ်မျိုး",
+            "အဏုဇီဝဖြစ်စဉ်တစ်မျိုး",
+            "ဆားကစ်တစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Darwin's theory of natural selection, why do helpful traits become more common over generations?",
+          questionMy:
+              "Darwin ၏ သဘာဝ ရွေးချယ်ခြင်း သီအိုရီအရ အသုံးဝင်သော လက္ခဏာများသည် မျိုးဆက်များတစ်လျှောက် ပိုတွေ့ရလာသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Individuals with those traits are more likely to survive and reproduce",
+            "Traits never change across generations",
+            "Every individual has identical traits",
+            "Traits have no connection to survival",
+          ],
+          optionsMy: [
+            "ထိုလက္ခဏာရှိသော တစ်ဦးချင်းများ ပိုအသက်ရှင်ကျန်ရစ်ပြီး ပိုမျိုးပွားခြင်း",
+            "လက္ခဏာများသည် မျိုးဆက်များအတွင်း ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+            "တစ်ဦးချင်းတိုင်းတွင် တူညီသော လက္ခဏာများ ရှိနေခြင်း",
+            "လက္ခဏာများသည် အသက်ရှင်ကျန်ရစ်မှုနှင့် ဘာမျှ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w35-d2",
+      dayNumber: 2,
+      titleEn: "Mock Test Part 2: Physical Science Vocabulary",
+      titleMy: "ပုံစံတူစာမေးပွဲ အပိုင်း ၂ - ရူပဝေဒသိပ္ပံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w35-dm-1",
+          termEn: "Adaptation",
+          termMy: "လိုက်လျောညီထွေမှု (Adaptation)",
+          matchEn:
+              "A feature that helps a living thing survive in its environment",
+          matchMy:
+              "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w35-dm-2",
+          termEn: "Circuit",
+          termMy: "ဆားကစ် (Circuit)",
+          matchEn: "A complete loop that electricity can flow around",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပြီးပြည့်စုံသော ကွင်းလုံး",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w35-dm-3",
+          termEn: "Reflection",
+          termMy: "ရောင်ပြန်ဟပ်ခြင်း (Reflection)",
+          matchEn: "Light bouncing off a surface",
+          matchMy: "မျက်နှာပြင်တစ်ခုမှ အလင်းရောင် ပြန်ခုန်ခြင်း",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w35-dm-4",
+          termEn: "Soluble",
+          termMy: "ပျော်ဝင်နိုင်သော (Soluble)",
+          matchEn: "Able to dissolve in a particular liquid",
+          matchMy: "အရည်တစ်ခုတွင် ပျော်ဝင်နိုင်သော",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w35-dm-5",
+          termEn: "Fair test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair test)",
+          matchEn: "A test that changes only one variable at a time",
+          matchMy:
+              "ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w35-dm-6",
+          termEn: "Line graph",
+          termMy: "မျဉ်းဂရပ် (Line graph)",
+          matchEn: "A graph best used to show change over time",
+          matchMy:
+              "အချိန်တစ်လျှောက် ပြောင်းလဲမှုကို ပြသရန် အသင့်လျော်ဆုံး ဂရပ်",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w35-d3",
+      dayNumber: 3,
+      titleEn: "Mock Test Part 3: Sort by Term",
+      titleMy: "ပုံစံတူစာမေးပွဲ အပိုင်း ၃ - Term အလိုက် စီစစ်ခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Life science topic", "Physical science topic"],
+        bucketsMy: ["ဇီဝသိပ္ပံ ခေါင်းစဉ်", "ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်"],
+        items: [
+          SortingItem(
+            id: "y6sci-w35-sort-1",
+            labelEn: "Classification of living things",
+            labelMy: "သက်ရှိများ အုပ်စုခွဲခြင်း",
+            correctBucketEn: "Life science topic",
+            correctBucketMy: "ဇီဝသိပ္ပံ ခေါင်းစဉ်",
+          ),
+          SortingItem(
+            id: "y6sci-w35-sort-2",
+            labelEn: "Circuits and electricity",
+            labelMy: "ဆားကစ်များနှင့် လျှပ်စစ်",
+            correctBucketEn: "Physical science topic",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်",
+          ),
+          SortingItem(
+            id: "y6sci-w35-sort-3",
+            labelEn: "Evolution and natural selection",
+            labelMy: "Evolution နှင့် သဘာဝ ရွေးချယ်ခြင်း",
+            correctBucketEn: "Life science topic",
+            correctBucketMy: "ဇီဝသိပ္ပံ ခေါင်းစဉ်",
+          ),
+          SortingItem(
+            id: "y6sci-w35-sort-4",
+            labelEn: "Light and shadows",
+            labelMy: "အလင်းရောင်နှင့် အရိပ်များ",
+            correctBucketEn: "Physical science topic",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်",
+          ),
+          SortingItem(
+            id: "y6sci-w35-sort-5",
+            labelEn: "The circulatory system",
+            labelMy: "သွေးလည်ပတ်မှု စနစ်",
+            correctBucketEn: "Life science topic",
+            correctBucketMy: "ဇီဝသိပ္ပံ ခေါင်းစဉ်",
+          ),
+          SortingItem(
+            id: "y6sci-w35-sort-6",
+            labelEn: "Properties and changes of materials",
+            labelMy: "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် ပြောင်းလဲမှုများ",
+            correctBucketEn: "Physical science topic",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Mock Test Day",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ ပုံစံတူစာမေးပွဲ နေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Mock Test Day",
+        titleMy: "နှင်းဝေ၏ ပုံစံတူစာမေးပွဲ နေ့",
+        passageEn:
+            "On the morning of her Year 6 Science mock test, Hnin Wai wakes up early and reviews her notes one final time, tracing the arc of the whole year: classification and the human body from the first half, then light, electricity, and materials from the second half, all held together by the scientific enquiry skills she practised in Term 8.\n\nDuring the test, one question asks her to explain why a fennec fox's large ears and a mango tree's fruit-bearing flowers are both examples of the same broad scientific idea. Hnin Wai remembers her Term 4 evolution notes and writes that both are adaptations shaped by natural selection over many generations, even though one is an animal feature and the other a plant reproductive structure -- proof that a single underlying idea can explain very different living things.\n\nAnother question shows a simple circuit diagram and asks what would happen if a wire connection were loosened. Hnin Wai draws on her Term 6 torch repair story, explaining confidently that the circuit would break and the bulb would go dark, since electricity needs one complete, unbroken loop to flow. As she reaches the final question -- asking her to design a fair test for whether salt or sugar dissolves faster in water -- Hnin Wai realises she is not simply recalling isolated facts but applying the connected way of thinking she built up across all nine terms, exactly as her half-year journal predicted she would.",
+        passageMy:
+            "Year 6 သိပ္ပံ ပုံစံတူစာမေးပွဲ နေ့မနက်တွင် နှင်းဝေသည် စောစီးစွာ နိုးထပြီး ၎င်း၏ မှတ်စုများကို နောက်ဆုံးအကြိမ် ပြန်လည်သုံးသပ်ကာ တစ်နှစ်လုံး၏ ခရီးစဉ်ကို ခြေရာခံသည် - ပထမတစ်ဝက်မှ အုပ်စုခွဲခြင်းနှင့် လူ့ခန္ဓာကိုယ်၊ ထို့နောက် ဒုတိယတစ်ဝက်မှ အလင်းရောင်၊ လျှပ်စစ်နှင့် ပစ္စည်းများ၊ Term 8 တွင် လေ့ကျင့်ခဲ့သော သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှု စွမ်းရည်များက အားလုံးကို ဆက်စပ်ပေးထားသည်။\n\nစာမေးပွဲအတွင်း မေးခွန်းတစ်ခုက ဖင်နက်ခ်တောခွေး၏ နားရွက်ကြီးများနှင့် သရက်ပင်၏ အသီးသီးသော ပန်းပွင့်များသည် တူညီသော ကျယ်ပြန့်သော သိပ္ပံအယူအဆတစ်ခု၏ ဥပမာနှစ်ခု ဖြစ်ရသည်မှာ အဘယ်ကြောင့်ကြောင်း ရှင်းပြရန် ၎င်းအား တောင်းဆိုသည်။ နှင်းဝေသည် ၎င်း၏ Term 4 Evolution မှတ်စုများကို သတိရပြီး တစ်ခုသည် တိရစ္ဆာန်လက္ခဏာ၊ တစ်ခုသည် အပင် မျိုးပွား ဖွဲ့စည်းပုံဖြစ်သော်လည်း နှစ်ခုစလုံးသည် မျိုးဆက်များစွာအတွင်း သဘာဝ ရွေးချယ်ခြင်းက ပုံဖော်ပေးသော လိုက်လျောညီထွေမှုများဖြစ်ကြောင်း ရေးသည် - တစ်ခုတည်းသော အခြေခံ အယူအဆတစ်ခုသည် လုံးဝကွဲပြားသော သက်ရှိများကို ရှင်းပြနိုင်ကြောင်း သက်သေဖြစ်သည်။\n\nအခြားမေးခွန်းတစ်ခုက ရိုးရှင်းသော ဆားကစ် ပုံကားတစ်ခု ပြသပြီး ကြိုးချိတ်ဆက်မှုတစ်ခု ကွာသွားလျှင် အဘယ်အရာ ဖြစ်ပျက်မည်ကို မေးမြန်းသည်။ နှင်းဝေသည် ၎င်း၏ Term 6 တံခါးလိပ်မီး ပြုပြင်ခြင်း ပုံပြင်ကို အခြေခံပြီး ဆားကစ်သည် ကျိုးပဲ့ပြီး မီးအိမ် အမှောင်ထဲကျသွားမည်ဖြစ်ကြောင်း ယုံကြည်စိတ်ချစွာ ရှင်းပြသည်၊ လျှပ်စစ်ဓာတ်အား စီးဆင်းရန် ကွင်းလုံးတစ်ခုတည်း ပြီးပြည့်စုံ၊ မကျိုးပဲ့ရန် လိုအပ်သောကြောင့်ဖြစ်သည်။ ဆားနှင့် သကြားအနက် ရေထဲတွင် မည်သည်က ပိုမြန်စွာ ပျော်ဝင်ကြောင်း တရားမျှတသော စမ်းသပ်မှုတစ်ခု ဒီဇိုင်းရေးဆွဲရန် တောင်းဆိုသော နောက်ဆုံးမေးခွန်းသို့ ရောက်ရှိသောအခါ ၎င်းသည် သီးခြား အချက်အလက်များကို ရိုးရိုးရှင်းရှင်း သတိရနေသည်မဟုတ်ဘဲ Term ကိုးခုစလုံးတစ်လျှောက် ၎င်း တည်ဆောက်ခဲ့သော ဆက်စပ်တွေးခေါ်မှုနည်းကို အသုံးချနေကြောင်း သဘောပေါက်လိုက်သည် - ၎င်း၏ တစ်နှစ်ခွဲစာ မှတ်တမ်းက ခန့်မှန်းခဲ့သည့်အတိုင်းပင်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What connects the whole year's science topics, according to the passage?",
+            questionMy:
+                "စာပိုဒ်အရ တစ်နှစ်လုံး၏ သိပ္ပံခေါင်းစဉ်များကို ဆက်စပ်ပေးသောအရာမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The scientific enquiry skills Hnin Wai practised in Term 8",
+              "Nothing connects the topics at all",
+              "Only the classification topic from Term 1",
+              "Only the mock test itself",
+            ],
+            optionsMy: [
+              "Term 8 တွင် နှင်းဝေ လေ့ကျင့်ခဲ့သော သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှု စွမ်းရည်များ",
+              "ခေါင်းစဉ်များကို ဘာမျှ ဆက်စပ်မပေးခြင်း",
+              "Term 1 မှ အုပ်စုခွဲခြင်း ခေါင်းစဉ်တစ်ခုတည်း",
+              "ပုံစံတူစာမေးပွဲကိုယ်တိုင်သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "How does Hnin Wai explain that a fennec fox's ears and a mango tree's flowers are related?",
+            questionMy:
+                "ဖင်နက်ခ်တောခွေး၏ နားရွက်များနှင့် သရက်ပင်၏ ပန်းပွင့်များ ဆက်စပ်နေကြောင်း နှင်းဝေ မည်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "Both are adaptations shaped by natural selection over many generations",
+              "They have no connection to each other at all",
+              "Both are exactly the same physical structure",
+              "Neither is an example of adaptation",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် မျိုးဆက်များစွာအတွင်း သဘာဝ ရွေးချယ်ခြင်းက ပုံဖော်ပေးသော လိုက်လျောညီထွေမှုများ ဖြစ်ခြင်း",
+              "တစ်ခုနှင့်တစ်ခု ဘာမျှ ဆက်စပ်မှု လုံးဝမရှိခြင်း",
+              "နှစ်ခုစလုံးသည် အတိအကျ တူညီသော ရုပ်ပိုင်းဆိုင်ရာ ဖွဲ့စည်းပုံ ဖြစ်ခြင်း",
+              "နှစ်ခုစလုံးသည် လိုက်လျောညီထွေမှု ဥပမာ မဟုတ်ခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai answer about the loosened wire connection?",
+            questionMy:
+                "ကွာသွားသော ကြိုးချိတ်ဆက်မှုအကြောင်း နှင်းဝေ မည်သို့ ဖြေဆိုသနည်း။",
+            optionsEn: [
+              "The circuit would break and the bulb would go dark",
+              "Nothing would change at all",
+              "The bulb would become brighter",
+              "The battery would create more electricity",
+            ],
+            optionsMy: [
+              "ဆားကစ် ကျိုးပဲ့ပြီး မီးအိမ် အမှောင်ထဲကျသွားမည်",
+              "ဘာမျှ လုံးဝ မပြောင်းလဲမည်",
+              "မီးအိမ် ပိုတောက်ပလာမည်",
+              "ဘက်ထရီက လျှပ်စစ်ဓာတ်အား ပိုဖန်တီးမည်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does the final mock test question ask Hnin Wai to design?",
+            questionMy:
+                "နောက်ဆုံး ပုံစံတူစာမေးပွဲ မေးခွန်းက နှင်းဝေအား အဘယ်အရာ ဒီဇိုင်းရေးဆွဲရန် တောင်းဆိုသနည်း။",
+            optionsEn: [
+              "A fair test for whether salt or sugar dissolves faster in water",
+              "A new circuit diagram",
+              "A classification key for animals",
+              "A family tree",
+            ],
+            optionsMy: [
+              "ဆားနှင့် သကြားအနက် ရေထဲတွင် မည်သည်က ပိုမြန်စွာ ပျော်ဝင်ကြောင်း တရားမျှတသော စမ်းသပ်မှု",
+              "ဆားကစ် ပုံကားအသစ်",
+              "တိရစ္ဆာန်များအတွက် အုပ်စုခွဲ သော့ချက်",
+              "မိသားစုစဉ်",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does Hnin Wai realise as she answers the final question?",
+            questionMy:
+                "နောက်ဆုံးမေးခွန်းကို ဖြေဆိုနေစဉ် နှင်းဝေ အဘယ်အရာ သဘောပေါက်သနည်း။",
+            optionsEn: [
+              "She is applying the connected way of thinking she built up across all nine terms",
+              "She has forgotten everything she learned this year",
+              "The mock test has no connection to her earlier lessons",
+              "Science topics should always be studied in isolation",
+            ],
+            optionsMy: [
+              "Term ကိုးခုစလုံးတစ်လျှောက် ၎င်း တည်ဆောက်ခဲ့သော ဆက်စပ်တွေးခေါ်မှုနည်းကို အသုံးချနေကြောင်း",
+              "ဤနှစ်တွင် သင်ယူခဲ့သမျှကို လုံးလုံး မေ့သွားကြောင်း",
+              "ပုံစံတူစာမေးပွဲသည် ၎င်း၏ ယခင်သင်ခန်းစာများနှင့် ဘာမျှ ဆက်စပ်မှု မရှိကြောင်း",
+              "သိပ္ပံခေါင်းစဉ်များကို အမြဲတမ်း သီးခြားစီ လေ့လာသင့်ကြောင်း",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w35-d5",
+      dayNumber: 5,
+      titleEn: "Mock Test Part 4: Full Year Synthesis",
+      titleMy: "ပုံစံတူစာမေးပွဲ အပိုင်း ၄ - တစ်နှစ်လုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which topic from this year explains why some living things survive better in certain environments than others?",
+          questionMy:
+              "ဤနှစ်မှ မည်သည့်ခေါင်းစဉ်က သက်ရှိအချို့သည် ပတ်ဝန်းကျင်အချို့တွင် အခြားသူများထက် ပိုကောင်းစွာ အသက်ရှင်ကျန်ရစ်ကြောင်း ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Adaptation and natural selection",
+            "Circuit symbols",
+            "Dissolving and solutions",
+            "Line graphs",
+          ],
+          optionsMy: [
+            "လိုက်လျောညီထွေမှုနှင့် သဘာဝ ရွေးချယ်ခြင်း",
+            "ဆားကစ် သင်္ကေတများ",
+            "ပျော်ဝင်ခြင်းနှင့် ဒြပ်ရောများ",
+            "မျဉ်းဂရပ်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which topic explains why a torch's bulb stops working if a wire comes loose?",
+          questionMy:
+              "ကြိုးတစ်ချောင်း ကွာသွားလျှင် တံခါးလိပ်မီး၏ မီးအိမ် အလုပ်ရပ်တန့်ကြောင်း မည်သည့်ခေါင်းစဉ်က ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Circuits",
+            "Classification keys",
+            "Adaptation",
+            "Dissolving",
+          ],
+          optionsMy: [
+            "ဆားကစ်များ",
+            "အုပ်စုခွဲ သော့ချက်များ",
+            "လိုက်လျောညီထွေမှု",
+            "ပျော်ဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which topic explains how to recover salt from salty water?",
+          questionMy:
+              "ဆားရေမှ ဆားကို မည်သို့ ပြန်ရရှိကြောင်း မည်သည့်ခေါင်းစဉ်က ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Separating mixtures through evaporation",
+            "The circulatory system",
+            "Circuit diagrams",
+            "Natural selection",
+          ],
+          optionsMy: [
+            "ငွေ့ပျံစေခြင်းမှတစ်ဆင့် ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်း",
+            "သွေးလည်ပတ်မှု စနစ်",
+            "ဆားကစ် ပုံကားများ",
+            "သဘာဝ ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which topic explains why a fair test changes only one variable at a time?",
+          questionMy:
+              "တရားမျှတသော စမ်းသပ်မှုတစ်ခုသည် ကိန်းရှင်တစ်ခုတည်းကိုသာ ပြောင်းလဲသည်မှာ မည်သည့်ခေါင်းစဉ်က ရှင်းပြသနည်း။",
+          optionsEn: [
+            "Scientific enquiry and investigation skills",
+            "Circuit symbols",
+            "Reflection",
+            "Classification",
+          ],
+          optionsMy: [
+            "သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှုနှင့် စုံစမ်းစစ်ဆေးမှု စွမ်းရည်များ",
+            "ဆားကစ် သင်္ကေတများ",
+            "ရောင်ပြန်ဟပ်ခြင်း",
+            "အုပ်စုခွဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What overall idea best summarises everything Hnin Wai learned across the whole Year 6 Science course?",
+          questionMy:
+              "Year 6 သိပ္ပံသင်တန်း တစ်ခုလုံးတစ်လျှောက် နှင်းဝေ သင်ယူခဲ့သမျှကို အကောင်းဆုံး အနှစ်ချုပ်ပေးနိုင်မည့် ယေဘူယျ အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful observation, testing, and reasoning let us understand and predict how both living things and physical systems behave",
+            "Only living things can be studied scientifically",
+            "Only physical materials can be studied scientifically",
+            "Science topics have no connection to each other or to real life",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် လေ့လာခြင်း၊ စမ်းသပ်ခြင်းနှင့် ကျိုးကြောင်းဆင်ခြင်ခြင်းသည် သက်ရှိများနှင့် ရူပဝေဒစနစ်များ နှစ်ခုစလုံး မည်သို့ အပြုအမူပြကြောင်းကို နားလည်ပြီး ခန့်မှန်းနိုင်စေခြင်း",
+            "သက်ရှိများကိုသာ သိပ္ပံနည်းကျ လေ့လာနိုင်ခြင်း",
+            "ရူပဝေဒဆိုင်ရာ ပစ္စည်းများကိုသာ သိပ္ပံနည်းကျ လေ့လာနိုင်ခြင်း",
+            "သိပ္ပံခေါင်းစဉ်များတွင် တစ်ခုနှင့်တစ်ခု သို့မဟုတ် တကယ့်ဘဝနှင့် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Year 6 Science -- Term 9, Week 36 (Capstone): "Nova School Year 6
+// Science Graduation Festival"
+// =====================================================================
+
+const CourseWeekDef _year6ScienceWeek36 = CourseWeekDef(
+  id: "course-year6-science-w36",
+  weekNumber: 36,
+  titleEn: "Nova School Year 6 Science Graduation Festival",
+  titleMy: "Nova ကျောင်း Year 6 သိပ္ပံ ဘွဲ့နှင်းသဘင် ပွဲတော်",
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y6sci-w36-d1",
+      dayNumber: 1,
+      titleEn: "Full Year Final Review",
+      titleMy: "တစ်နှစ်လုံး နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is an adaptation?",
+          questionMy: "လိုက်လျောညီထွေမှု ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A feature that helps a living thing survive in its environment",
+            "A type of micro-organism",
+            "A type of circuit component",
+            "A unit of measurement",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင်တွင် သက်ရှိတစ်ခု အသက်ရှင်ကျန်ရစ်ရန် ကူညီပေးသော လက္ခဏာ",
+            "အဏုဇီဝဖြစ်စဉ်တစ်မျိုး",
+            "ဆားကစ် အစိတ်အပိုင်းတစ်မျိုး",
+            "တိုင်းတာမှု ယူနစ်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a circuit need to be complete for a bulb to light up?",
+          questionMy:
+              "မီးအိမ် ထွန်းလင်းရန် ဆားကစ်တစ်ခု ပြီးပြည့်စုံရန် လိုအပ်သည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Electricity cannot flow through a broken loop",
+            "Bulbs never need electricity",
+            "Circuits work better with gaps",
+            "Switches always block electricity",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဓာတ်အားသည် ကျိုးပဲ့နေသော ကွင်းလုံးကို ဖြတ်သန်း၍ မစီးနိုင်ခြင်း",
+            "မီးအိမ်များသည် လျှပ်စစ်ဓာတ်အား ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "ဆားကစ်များသည် ကွက်လပ်များနှင့် ပိုကောင်းစွာ အလုပ်ဖြစ်ခြင်း",
+            "ခလုတ်များသည် အမြဲတမ်း လျှပ်စစ်ဓာတ်အားကို ပိတ်ဆို့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is rubber a good choice for shoe soles and umbrella handles?",
+          questionMy:
+              "ဖိနပ်ခြေအောက်ခံနှင့် ထီးအိတ်ကိုင်အတွက် ရာဘာသည် ရွေးချယ်ကောင်းသည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "It is flexible and grips well",
+            "It conducts electricity very well",
+            "It is completely transparent",
+            "It dissolves easily in water",
+          ],
+          optionsMy: [
+            "ဆွဲဆန့်နိုင်ပြီး ကောင်းစွာ ဆွဲကိုင်နိုင်ခြင်း",
+            "လျှပ်စစ်ဓာတ်အားကို အလွန်ကောင်းစွာ ကူးစက်ခြင်း",
+            "လုံးဝ ပွင့်လင်းမြင်သာခြင်း",
+            "ရေတွင် လွယ်ကူစွာ ပျော်ဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must a fair test change only one variable at a time?",
+          questionMy:
+              "တရားမျှတသော စမ်းသပ်မှုတစ်ခုသည် ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲရမည်မှာ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "So the scientist can be sure which variable caused the result",
+            "To make the experiment take longer",
+            "Because rules require it with no reason",
+            "So results always look the same",
+          ],
+          optionsMy: [
+            "မည်သည့်ကိန်းရှင်က ရလဒ်ကို ဖြစ်စေကြောင်း သိပ္ပံပညာရှင် သေချာနိုင်ရန်",
+            "စမ်းသပ်မှုကို ပိုကြာစေရန်",
+            "တကယ့်အကြောင်းရင်းမရှိဘဲ စည်းမျဉ်းက တောင်းဆိုသောကြောင့်",
+            "ရလဒ်များ အမြဲတမ်း တူညီစွာ ရှိစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across the whole year, which single habit did Hnin Wai apply in every unit, from classification to circuits to fair tests?",
+          questionMy:
+              "တစ်နှစ်လုံးကို ပြန်ကြည့်လျှင် အုပ်စုခွဲခြင်းမှ ဆားကစ်များနှင့် တရားမျှတသော စမ်းသပ်မှုများအထိ ယူနစ်တိုင်းတွင် နှင်းဝေ အသုံးချခဲ့သော တစ်ခုတည်းသော အလေ့အထမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful observation followed by reasoning about patterns and causes",
+            "Guessing randomly without checking anything",
+            "Ignoring all evidence and following instinct alone",
+            "Memorising facts without understanding connections",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် လေ့လာခြင်းနောက်ပါ ပုံစံများနှင့် အကြောင်းရင်းများအကြောင်း ကျိုးကြောင်းဆင်ခြင်ခြင်း",
+            "ဘာမျှ မစစ်ဆေးဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+            "အထောက်အထားအားလုံးကို လျစ်လျူရှုပြီး စိတ်လိုသလို လုပ်ဆောင်ခြင်း",
+            "ဆက်စပ်မှုများကို နားမလည်ဘဲ အချက်အလက်များကို အလွတ်ကျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match the Full Year Vocabulary",
+      titleMy: "တစ်နှစ်လုံး ဝေါဟာရများ ကိုက်ညီအောင်ဆွဲယူပါ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y6sci-w36-dm-1",
+          termEn: "Classification key",
+          termMy: "အုပ်စုခွဲ သော့ချက် (Classification key)",
+          matchEn: "A set of yes/no questions used to identify a living thing",
+          matchMy:
+              "သက်ရှိတစ်ခုကို ဖော်ထုတ်ရန် အသုံးပြုသော ဟုတ်/မဟုတ် မေးခွန်းအစုံ",
+          colorValue: 0xFF94BDFF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w36-dm-2",
+          termEn: "Circulatory system",
+          termMy: "သွေးလည်ပတ်မှု စနစ် (Circulatory system)",
+          matchEn: "The heart, blood, and blood vessels working together",
+          matchMy: "အတူတကွ လုပ်ဆောင်သော နှလုံး၊ သွေးနှင့် သွေးကြောများ",
+          colorValue: 0xFFB0F2C2,
+        ),
+        DragMatchPair(
+          id: "y6sci-w36-dm-3",
+          termEn: "Natural selection",
+          termMy: "သဘာဝ ရွေးချယ်ခြင်း (Natural selection)",
+          matchEn:
+              "The process where helpful traits become more common over generations",
+          matchMy:
+              "အသုံးဝင်သော လက္ခဏာများ မျိုးဆက်များတစ်လျှောက် ပိုတွေ့ရလာသော ဖြစ်စဉ်",
+          colorValue: 0xFFFFD59E,
+        ),
+        DragMatchPair(
+          id: "y6sci-w36-dm-4",
+          termEn: "Circuit",
+          termMy: "ဆားကစ် (Circuit)",
+          matchEn: "A complete loop that electricity can flow around",
+          matchMy:
+              "လျှပ်စစ်ဓာတ်အား ပတ်လည်စီးဆင်းနိုင်သော ပြီးပြည့်စုံသော ကွင်းလုံး",
+          colorValue: 0xFFFFB0C7,
+        ),
+        DragMatchPair(
+          id: "y6sci-w36-dm-5",
+          termEn: "Property",
+          termMy: "ဂုဏ်သတ္တိ (Property)",
+          matchEn:
+              "A characteristic of a material, such as being flexible or waterproof",
+          matchMy:
+              "ဆွဲဆန့်နိုင်ခြင်း သို့မဟုတ် ရေစိုမခံခြင်းကဲ့သို့သော ပစ္စည်းတစ်ခု၏ ဂုဏ်သတ္တိ",
+          colorValue: 0xFFD8C4FF,
+        ),
+        DragMatchPair(
+          id: "y6sci-w36-dm-6",
+          termEn: "Fair test",
+          termMy: "တရားမျှတသော စမ်းသပ်မှု (Fair test)",
+          matchEn: "A test that changes only one variable at a time",
+          matchMy:
+              "ကိန်းရှင်တစ်ခုတည်းကိုသာ တစ်ကြိမ်လျှင် ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFFFFF0A6,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Life Science or Physical Science?",
+      titleMy: "စီစစ်ကြမည် - ဇီဝသိပ္ပံလား၊ ရူပဝေဒသိပ္ပံလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Life science", "Physical science"],
+        bucketsMy: ["ဇီဝသိပ္ပံ", "ရူပဝေဒသိပ္ပံ"],
+        items: [
+          SortingItem(
+            id: "y6sci-w36-sort-1",
+            labelEn: "The heart pumping blood",
+            labelMy: "သွေးတွန်းအားပေးသော နှလုံး",
+            correctBucketEn: "Life science",
+            correctBucketMy: "ဇီဝသိပ္ပံ",
+          ),
+          SortingItem(
+            id: "y6sci-w36-sort-2",
+            labelEn: "A bulb lighting up in a circuit",
+            labelMy: "ဆားကစ်တစ်ခုတွင် ထွန်းလင်းနေသော မီးအိမ်",
+            correctBucketEn: "Physical science",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ",
+          ),
+          SortingItem(
+            id: "y6sci-w36-sort-3",
+            labelEn: "A fennec fox's large ears",
+            labelMy: "ဖင်နက်ခ်တောခွေး၏ နားရွက်ကြီးများ",
+            correctBucketEn: "Life science",
+            correctBucketMy: "ဇီဝသိပ္ပံ",
+          ),
+          SortingItem(
+            id: "y6sci-w36-sort-4",
+            labelEn: "Salt crystals forming as seawater evaporates",
+            labelMy: "ပင်လယ်ရေ ငွေ့ပျံသွားစဉ် ဖွဲ့စည်းလာသော ဆားရွက်ခြေးများ",
+            correctBucketEn: "Physical science",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ",
+          ),
+          SortingItem(
+            id: "y6sci-w36-sort-5",
+            labelEn: "A family tree showing inherited traits",
+            labelMy: "အမွေဆက်ခံ လက္ခဏာများကို ပြသော မိသားစုစဉ်",
+            correctBucketEn: "Life science",
+            correctBucketMy: "ဇီဝသိပ္ပံ",
+          ),
+          SortingItem(
+            id: "y6sci-w36-sort-6",
+            labelEn: "A periscope redirecting light with mirrors",
+            labelMy:
+                "မှန်များဖြင့် အလင်းရောင်ကို ပြန်လမ်းညွှန်ပေးသော ပါရီစကုပ်",
+            correctBucketEn: "Physical science",
+            correctBucketMy: "ရူပဝေဒသိပ္ပံ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Wai's Year 6 Science Graduation",
+      titleMy: "စာဖတ်ခြင်း - နှင်းဝေ၏ Year 6 သိပ္ပံ ဘွဲ့နှင်းသဘင်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Wai's Year 6 Science Graduation",
+        titleMy: "နှင်းဝေ၏ Year 6 သိပ္ပံ ဘွဲ့နှင်းသဘင်",
+        passageEn:
+            "On the final day of Year 6 Science, Nova School holds a Graduation Festival celebrating a full year of learning, and Hnin Wai's class is asked to set up nine small stations, one for each term, that any younger student can visit and understand within a few minutes. Hnin Wai volunteers to run the connecting station in the middle, whose job is to explain how the other eight stations fit together into one story.\n\nAt her station, Hnin Wai draws a large diagram with two branches meeting at a single point. One branch traces classification, the human body, health, and evolution -- the living-things half of the year -- while the other traces light, electricity, materials, and scientific enquiry -- the physical-science half. She explains to visitors that both branches share the same root: careful observation leads to patterns, patterns lead to explanations, and explanations let people predict, build, and improve things, whether that thing is a classification key, a periscope, or a fair test.\n\nWhen a teacher from another class asks Hnin Wai what she is most proud of from the whole year, she does not pick a single fact -- she picks the connecting diagram itself, explaining that a year that once felt like nine separate topics now feels like one long argument about how careful thinking helps people understand the world, from a backyard survey of vertebrates in Term 1 to a fair test comparing salt and sugar in Term 9. As the festival ends and her Year 6 Science certificate is placed in her hands, Hnin Wai already finds herself wondering what new branches Secondary Science will add to the diagram she has spent a whole year building.",
+        passageMy:
+            "Year 6 သိပ္ပံ နောက်ဆုံးနေ့တွင် Nova School သည် တစ်နှစ်လုံး သင်ယူမှုကို ကျင်းပသော ဘွဲ့နှင်းသဘင် ပွဲတော်ကို ကျင်းပပြီး နှင်းဝေ၏ အတန်းသည် ကျောင်းသူငယ်တစ်ဦးမဆို မိနစ်အနည်းငယ်အတွင်း လာရောက်ကြည့်ရှုပြီး နားလည်နိုင်မည့် Term တစ်ခုစီအတွက် တစ်ခုစီ ဌာနငယ်ကိုးခု ထားရှိရန် တောင်းဆိုခံရသည်။ နှင်းဝေသည် အခြားဌာနငယ်ရှစ်ခု ပုံပြင်တစ်ခုတည်းအဖြစ် မည်သို့ ဆက်စပ်ကြောင်း ရှင်းပြရန် တာဝန်ဖြစ်သော အလယ်ဌာနကို လုပ်ကိုင်ရန် စေတနာ့ဝန်ထမ်းလုပ်လိုက်သည်။\n\n၎င်း၏ ဌာနတွင် နှင်းဝေသည် အမှတ်တစ်ခုတည်းတွင် ဆုံနေသော ကိုင်းရိုးနှစ်ခုပါသော ကြီးမားသော ပုံကားတစ်ခု ရေးဆွဲသည်။ ကိုင်းရိုးတစ်ခုသည် အုပ်စုခွဲခြင်း၊ လူ့ခန္ဓာကိုယ်၊ ကျန်းမာရေးနှင့် Evolution - ဤနှစ်၏ သက်ရှိများ တစ်ဝက် - ကို ခြေရာခံပြီး ကျန်တစ်ခုသည် အလင်းရောင်၊ လျှပ်စစ်၊ ပစ္စည်းများနှင့် သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှု - ရူပဝေဒသိပ္ပံ တစ်ဝက် - ကို ခြေရာခံသည်။ ကိုင်းရိုးနှစ်ခုစလုံးသည် တူညီသော အမြစ်ကို ဝေမျှကြောင်း ဧည့်သည်များအား ရှင်းပြသည် - ဂရုတစိုက် လေ့လာခြင်းက ပုံစံများသို့ ဦးတည်ပြီး ပုံစံများက ရှင်းလင်းချက်များသို့ ဦးတည်ကာ ရှင်းလင်းချက်များက ထိုအရာသည် အုပ်စုခွဲ သော့ချက်ဖြစ်စေ၊ ပါရီစကုပ်ဖြစ်စေ၊ တရားမျှတသော စမ်းသပ်မှုဖြစ်စေ လူများကို ခန့်မှန်း၊ တည်ဆောက်ကာ တိုးတက်စေနိုင်သည်။\n\nအခြားအတန်းမှ ဆရာမတစ်ဦးက တစ်နှစ်လုံးမှ အဘယ်အရာကို အများဆုံး ဂုဏ်ယူကြောင်း နှင်းဝေအား မေးမြန်းသောအခါ ၎င်းသည် အချက်အလက်တစ်ခုတည်းကို မရွေးချယ်ဘဲ - ဆက်စပ်ပေးသော ပုံကားကိုယ်တိုင်ကို ရွေးချယ်ပြီး တစ်ချိန်က သီးခြားခေါင်းစဉ်ကိုးခုဟု ခံစားခဲ့ရသော နှစ်တစ်နှစ်သည် ယခုအခါ Term 1 ကျောရိုးရှိ တိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်းမှ Term 9 ဆားနှင့်သကြားကို နှိုင်းယှဉ်သော တရားမျှတသော စမ်းသပ်မှုအထိ ဂရုတစိုက် တွေးခေါ်မှုသည် လူများကို ကမ္ဘာကို နားလည်ရန် မည်သို့ ကူညီပေးကြောင်း ရေရှည် ငြင်းခုန်မှုတစ်ခုတည်းကဲ့သို့ ခံစားရကြောင်း ရှင်းပြသည်။ ပွဲတော် ပြီးဆုံးပြီး ၎င်း၏ Year 6 သိပ္ပံ လက်မှတ်ကို ၎င်း၏ လက်ထဲသို့ ချထားသည့်အခါ Secondary Science သည် ၎င်း တစ်နှစ်လုံးတည်ဆောက်ခဲ့သော ပုံကားသို့ ကိုင်းရိုးအသစ်များ မည်မျှ ထပ်ထည့်ပေးမည်လဲဟု နှင်းဝေ တွေးရင်း ရှိနေသည်ကို တွေ့ရသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "How many small stations does Hnin Wai's class set up at the Graduation Festival?",
+            questionMy:
+                "ဘွဲ့နှင်းသဘင် ပွဲတော်တွင် နှင်းဝေ၏ အတန်း ဌာနငယ် ဘယ်နှစ်ခု ထားရှိသနည်း။",
+            optionsEn: ["Nine", "Four", "Twenty", "One"],
+            optionsMy: ["ကိုး", "လေး", "နှစ်ဆယ်", "တစ်ခု"],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What job does Hnin Wai volunteer for at the festival?",
+            questionMy:
+                "ပွဲတော်တွင် နှင်းဝေ မည်သည့်အလုပ်အတွက် စေတနာ့ဝန်ထမ်းလုပ်သနည်း။",
+            optionsEn: [
+              "Running the connecting station explaining how the other stations fit together",
+              "Selling snacks at the festival",
+              "Cleaning up after the festival",
+              "Taking photographs only",
+            ],
+            optionsMy: [
+              "အခြားဌာနများ မည်သို့ ဆက်စပ်ကြောင်း ရှင်းပြသော ဆက်စပ်ဌာနကို လုပ်ကိုင်ခြင်း",
+              "ပွဲတော်တွင် သရေစာ ရောင်းချခြင်း",
+              "ပွဲတော်ပြီးနောက် သန့်ရှင်းရေးလုပ်ခြင်း",
+              "ဓာတ်ပုံများသာ ရိုက်ကူးခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What two branches does Hnin Wai's diagram show?",
+            questionMy: "နှင်းဝေ၏ ပုံကားက ကိုင်းရိုးနှစ်ခုကို ပြသနည်း။",
+            optionsEn: [
+              "The living-things half and the physical-science half of the year",
+              "Only maths and English",
+              "Only games and sports",
+              "Only the first and last week of the year",
+            ],
+            optionsMy: [
+              "ဤနှစ်၏ သက်ရှိများ တစ်ဝက်နှင့် ရူပဝေဒသိပ္ပံ တစ်ဝက်",
+              "သင်္ချာနှင့် အင်္ဂလိပ်စာသာ",
+              "ကစားနည်းနှင့် အားကစားသာ",
+              "ဤနှစ်၏ ပထမနှင့် နောက်ဆုံးအပတ်သာ",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn:
+                "What shared root does Hnin Wai explain both branches have?",
+            questionMy:
+                "ကိုင်းရိုးနှစ်ခုစလုံးတွင် ဝေမျှသော အမြစ်ကို နှင်းဝေ မည်သို့ ရှင်းပြသနည်း။",
+            optionsEn: [
+              "Careful observation leading to patterns and explanations that let people predict and build things",
+              "Both branches have no connection to each other",
+              "Only memorising facts without any observation",
+              "Random guessing with no scientific method",
+            ],
+            optionsMy: [
+              "ပုံစံများနှင့် ရှင်းလင်းချက်များသို့ ဦးတည်ပြီး လူများကို ခန့်မှန်း၊ တည်ဆောက်နိုင်စေသော ဂရုတစိုက် လေ့လာမှု",
+              "ကိုင်းရိုးနှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု ဆက်စပ်မှု မရှိခြင်း",
+              "လေ့လာမှုမပါဘဲ အချက်အလက်များကိုသာ အလွတ်ကျက်ခြင်း",
+              "သိပ္ပံနည်းကျ နည်းလမ်းမပါဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+          ),
+          QuizQuestion(
+            questionEn: "What is Hnin Wai wondering as the festival ends?",
+            questionMy: "ပွဲတော် ပြီးဆုံးသောအခါ နှင်းဝေ အဘယ်အရာ တွေးနေသနည်း။",
+            optionsEn: [
+              "What new branches Secondary Science will add to her diagram",
+              "What she will eat for dinner",
+              "Whether she will pass her mock test",
+              "Whether her family will attend the ceremony",
+            ],
+            optionsMy: [
+              "Secondary Science သည် ၎င်း၏ ပုံကားသို့ ကိုင်းရိုးအသစ်များ မည်မျှ ထပ်ထည့်ပေးမည်",
+              "ညစာအတွက် မည်သည့်အရာ စားမည်",
+              "ပုံစံတူစာမေးပွဲကို အောင်မြင်မည်လား",
+              "မိသားစုသည် အခမ်းအနားသို့ တက်ရောက်မည်လား",
+            ],
+            correctIndex: 0,
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y6sci-w36-d5",
+      dayNumber: 5,
+      titleEn: "Year 6 Science Graduation Challenge",
+      titleMy: "Year 6 သိပ္ပံ ဘွဲ့နှင်းသဘင် စိန်ခေါ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Hnin Wai's connecting diagram, which branch does the human circulatory system belong to?",
+          questionMy:
+              "နှင်းဝေ၏ ဆက်စပ်ပုံကားတွင် လူ့သွေးလည်ပတ်မှု စနစ်သည် မည်သည့်ကိုင်းရိုးတွင် ပါဝင်သနည်း။",
+          optionsEn: [
+            "The living-things branch",
+            "The physical-science branch",
+            "Neither branch",
+            "Both branches equally",
+          ],
+          optionsMy: [
+            "သက်ရှိများ ကိုင်းရိုး",
+            "ရူပဝေဒသိပ္ပံ ကိုင်းရိုး",
+            "ကိုင်းရိုးမည်သည့်တစ်ခုမျှ မဟုတ်ခြင်း",
+            "ကိုင်းရိုးနှစ်ခုစလုံး အညီအမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which branch does the properties of materials and separating mixtures belong to?",
+          questionMy:
+              "ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်းသည် မည်သည့်ကိုင်းရိုးတွင် ပါဝင်သနည်း။",
+          optionsEn: [
+            "The physical-science branch",
+            "The living-things branch",
+            "Neither branch",
+            "Only the classification branch",
+          ],
+          optionsMy: [
+            "ရူပဝေဒသိပ္ပံ ကိုင်းရိုး",
+            "သက်ရှိများ ကိုင်းရိုး",
+            "ကိုင်းရိုးမည်သည့်တစ်ခုမျှ မဟုတ်ခြင်း",
+            "အုပ်စုခွဲခြင်း ကိုင်းရိုးသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Hnin Wai's graduation speech, what does careful observation lead to?",
+          questionMy:
+              "နှင်းဝေ၏ ဘွဲ့နှင်းသဘင် မိန့်ခွန်းအရ ဂရုတစိုက် လေ့လာခြင်းက အဘယ်အရာသို့ ဦးတည်စေသနည်း။",
+          optionsEn: [
+            "Patterns, which lead to explanations that let people predict and build things",
+            "Nothing useful at all",
+            "Only more confusion",
+            "The end of scientific thinking",
+          ],
+          optionsMy: [
+            "လူများကို ခန့်မှန်း၊ တည်ဆောက်နိုင်စေသော ရှင်းလင်းချက်များသို့ ဦးတည်ပေးသော ပုံစံများ",
+            "အသုံးဝင်သောအရာ လုံးဝမရှိခြင်း",
+            "ပိုရှုပ်ထွေးမှုသာ",
+            "သိပ္ပံနည်းကျ တွေးခေါ်မှု အဆုံးသတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What example from Term 1 does Hnin Wai mention connecting to her Term 9 fair test example?",
+          questionMy:
+              "Term 9 တရားမျှတသော စမ်းသပ်မှု ဥပမာနှင့် ဆက်စပ်ကြောင်း Term 1 မှ မည်သည့်ဥပမာကို နှင်းဝေ ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Her backyard survey of vertebrates",
+            "Her circuit diagram project",
+            "Her salt pan visit",
+            "Her family tree project",
+          ],
+          optionsMy: [
+            "ကျောရိုးရှိတိရစ္ဆာန်များ အိမ်ဝန်းစစ်တမ်း",
+            "ဆားကစ် ပုံကား စီမံကိန်း",
+            "ဆားချက်ကွင်း လည်ပတ်ခြင်း",
+            "မိသားစုစဉ် စီမံကိန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which single idea best ties together the whole of Year 6 Science?",
+          questionMy:
+              "Year 6 သိပ္ပံ တစ်ခုလုံးကို အကောင်းဆုံး ဆက်စပ်ပေးနိုင်မည့် တစ်ခုတည်းသော အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Careful observation and reasoning let people understand and predict how both living things and physical systems behave",
+            "Every term should be studied in complete isolation with no connections",
+            "Only physical science topics matter for real understanding",
+            "Science is simply a list of unrelated facts to memorise",
+          ],
+          optionsMy: [
+            "ဂရုတစိုက် လေ့လာခြင်းနှင့် ကျိုးကြောင်းဆင်ခြင်ခြင်းသည် သက်ရှိများနှင့် ရူပဝေဒစနစ်များ နှစ်ခုစလုံး မည်သို့ အပြုအမူပြကြောင်းကို လူများ နားလည်ပြီး ခန့်မှန်းနိုင်စေခြင်း",
+            "Term တစ်ခုစီကို ဆက်စပ်မှုမရှိဘဲ လုံးဝ သီးခြားစီ လေ့လာသင့်ခြင်း",
+            "တကယ့်နားလည်မှုအတွက် ရူပဝေဒသိပ္ပံ ခေါင်းစဉ်များသာ အရေးကြီးခြင်း",
+            "သိပ္ပံသည် အလွတ်ကျက်ရန် မဆက်စပ်သော အချက်အလက်များ စာရင်းတစ်ခုသာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _year6ScienceTerm9 = CourseTermDef(
+  id: "course-year6-science-t9",
+  termNumber: 9,
+  titleEn: "Review, Transition to Secondary Science, and Graduation",
+  titleMy:
+      "ပြန်လည်သုံးသပ်ခြင်း၊ Secondary Science သို့ အကူးအပြောင်းနှင့် ဘွဲ့နှင်းသဘင်",
+  certificateTitleEn: "Review, Transition to Secondary Science, and Graduation",
+  certificateTitleMy:
+      "ပြန်လည်သုံးသပ်ခြင်း၊ Secondary Science သို့ အကူးအပြောင်းနှင့် ဘွဲ့နှင်းသဘင်",
+  weeks: [
+    _year6ScienceWeek33,
+    _year6ScienceWeek34,
+    _year6ScienceWeek35,
+    _year6ScienceWeek36,
+  ],
+);
+
+
+/// Year 6 Science full-year pathway. Follows Hnin Wai, a Nova School
+/// student, across a full academic year of science topics: Term 1
+/// (Weeks 1-4) classification of living things, micro-organisms, and
+/// classification keys; Term 2 (Weeks 5-8) the human body's
+/// circulatory system, blood, and nutrient transport; Term 3 (Weeks
+/// 9-12) health, covering diet and exercise, drugs and alcohol, and
+/// healthy lifestyle choices; Term 4 (Weeks 13-16) evolution and
+/// inheritance, including Darwin and natural selection; Term 5 (Weeks
+/// 17-20) light, covering how it travels, shadows, and reflection;
+/// Term 6 (Weeks 21-24) electricity, covering circuits, voltage and
+/// current, and circuit symbols; Term 7 (Weeks 25-28) the properties
+/// and changes of materials, including dissolving and separating
+/// mixtures; Term 8 (Weeks 29-32) scientific enquiry and investigation
+/// skills, covering fair tests, measurement, and presenting data; and
+/// Term 9 (Weeks 33-36) a full review, mock test, and graduation. See
+/// [_year6ScienceTerm1] through [_year6ScienceTerm9] for the
+/// week-by-week arc.
+const CoursePathwayDef year6SciencePathway = CoursePathwayDef(
+  id: "course-year6-science",
+  subject: "science",
+  grade: Grade.year6,
+  titleEn: "Science — Year 6 Course",
+  titleMy: "သိပ္ပံ — ဆဌမတန်း သင်တန်း",
+  descriptionEn:
+      "The Year 6 Science course follows Hnin Wai, a Nova School student, across a full academic year. Term 1 covers classification of living things, micro-organisms, and classification keys. Term 2 covers the human body's circulatory system, blood, and nutrient transport. Term 3 covers health, including diet and exercise, drugs and alcohol, and healthy lifestyle choices. Term 4 covers evolution and inheritance, including Darwin and natural selection. Term 5 covers light, including how it travels, shadows, and reflection. Term 6 covers electricity, including circuits, voltage and current, and circuit symbols. Term 7 covers the properties and changes of materials, including dissolving and separating mixtures. Term 8 covers scientific enquiry and investigation skills, including fair tests, measurement, and presenting data. Term 9 reviews the whole year's concepts, runs a mock test, and closes with the Year 6 Science Graduation.",
+  descriptionMy:
+      "Year 6 သိပ္ပံသင်တန်းသည် Nova ကျောင်းသူ နှင်းဝေကို လိုက်ပါကာ ပညာသင်နှစ်တစ်ခုလုံးကို လွှမ်းခြုံသည်။ Term 1 သည် သက်ရှိများ အုပ်စုခွဲခြင်း၊ အဏုဇီဝဖြစ်စဉ်များနှင့် အုပ်စုခွဲ သော့ချက်များကို လွှမ်းခြုံသည်။ Term 2 သည် လူ့ခန္ဓာကိုယ်၏ သွေးလည်ပတ်မှု စနစ်၊ သွေးနှင့် အာဟာရ သယ်ယူပို့ဆောင်မှုကို လွှမ်းခြုံသည်။ Term 3 သည် အစားအစာနှင့် လေ့ကျင့်ခန်း၊ မူးယစ်ဆေးဝါးနှင့် အရက်၊ ကျန်းမာသော နေထိုင်မှုပုံစံ ရွေးချယ်မှုများအပါအဝင် ကျန်းမာရေးကို လွှမ်းခြုံသည်။ Term 4 သည် Darwin နှင့် သဘာဝ ရွေးချယ်ခြင်းအပါအဝင် Evolution နှင့် အမွေဆက်ခံခြင်းကို လွှမ်းခြုံသည်။ Term 5 သည် အလင်းရောင် ခရီးသွားပုံ၊ အရိပ်များနှင့် ရောင်ပြန်ဟပ်ခြင်းအပါအဝင် အလင်းရောင်ကို လွှမ်းခြုံသည်။ Term 6 သည် ဆားကစ်များ၊ ဗို့အားနှင့် လျှပ်စီး၊ ဆားကစ် သင်္ကေတများအပါအဝင် လျှပ်စစ်ကို လွှမ်းခြုံသည်။ Term 7 သည် ပျော်ဝင်ခြင်းနှင့် ရောနှောပစ္စည်းများ ခွဲထုတ်ခြင်းအပါအဝင် ပစ္စည်းများ၏ ဂုဏ်သတ္တိများနှင့် ပြောင်းလဲမှုများကို လွှမ်းခြုံသည်။ Term 8 သည် တရားမျှတသော စမ်းသပ်မှုများ၊ တိုင်းတာမှုနှင့် ဒေတာဖော်ပြခြင်းအပါအဝင် သိပ္ပံဆိုင်ရာ စုံစမ်းရှာဖွေမှုနှင့် စုံစမ်းစစ်ဆေးမှု စွမ်းရည်များကို လွှမ်းခြုံသည်။ Term 9 သည် တစ်နှစ်လုံး၏ သဘောတရားများကို ပြန်လည်သုံးသပ်ပြီး ပုံစံတူစာမေးပွဲ ဖြေဆိုကာ Year 6 သိပ္ပံ ဘွဲ့နှင်းသဘင်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    _year6ScienceTerm1,
+    _year6ScienceTerm2,
+    _year6ScienceTerm3,
+    _year6ScienceTerm4,
+    _year6ScienceTerm5,
+    _year6ScienceTerm6,
+    _year6ScienceTerm7,
+    _year6ScienceTerm8,
+    _year6ScienceTerm9,
   ],
 );
 // =====================================================================
