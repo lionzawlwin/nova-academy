@@ -9,6 +9,15 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  # ai_data_bridge/ holds curriculum blueprint/draft fragments awaiting
+  # integration into lib/features/lessons/course_pathway_bank.dart -- they
+  # reference that file's types without importing them and are never meant
+  # to compile standalone. Exclude so `flutter analyze` stays a meaningful
+  # gate on the actual app code in lib/.
+  exclude:
+    - ai_data_bridge/**
+
 linter:
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`
