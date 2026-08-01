@@ -257,6 +257,8 @@ class PrimaryHomeScreen extends ConsumerWidget {
         return Icons.public_rounded;
       case 'computing':
         return Icons.computer_rounded;
+      case 'humanities':
+        return Icons.public_rounded;
       case 'art':
         return Icons.palette_rounded;
       case 'phonics':

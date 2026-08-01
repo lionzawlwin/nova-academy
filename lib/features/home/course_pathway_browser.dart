@@ -25,6 +25,8 @@ IconData _iconForPathwaySubject(String subject) {
       return Icons.science_rounded;
     case 'english':
       return Icons.menu_book_rounded;
+    case 'humanities':
+      return Icons.public_rounded;
     default:
       return Icons.school_rounded;
   }

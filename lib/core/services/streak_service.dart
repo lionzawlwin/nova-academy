@@ -13,12 +13,11 @@ library;
 
 /// The recomputed streak fields, ready to be written verbatim (not via
 /// `FieldValue.increment`) into the `Children` document.
-typedef StreakUpdate =
-    ({
-      int currentStreakDays,
-      int longestStreakDays,
-      String lastActiveDateYyyymmdd,
-    });
+typedef StreakUpdate = ({
+  int currentStreakDays,
+  int longestStreakDays,
+  String lastActiveDateYyyymmdd,
+});
 
 /// Formats [dt] as `yyyyMMdd`, zero-padded -- the same convention
 /// `flushUsageTelemetry` (lib/providers/cost_telemetry_providers.dart) uses

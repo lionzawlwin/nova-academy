@@ -39,6 +39,7 @@ const List<_SubjectDef> _secondarySubjects = [
   _SubjectDef(key: 'computing', icon: Icons.computer_rounded),
   _SubjectDef(key: 'history', icon: Icons.history_edu_rounded),
   _SubjectDef(key: 'geography', icon: Icons.public_rounded),
+  _SubjectDef(key: 'humanities', icon: Icons.public_rounded),
 ];
 
 String _labelFor(AppLocalizations l10n, String key) {
@@ -65,6 +66,8 @@ String _labelFor(AppLocalizations l10n, String key) {
       return l10n.subjectHistory;
     case 'geography':
       return l10n.subjectGeography;
+    case 'humanities':
+      return l10n.subjectHumanities;
     default:
       return key;
   }

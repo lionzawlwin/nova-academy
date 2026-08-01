@@ -39,7 +39,10 @@ ParsedCurriculumBatch parseLearningModulesJson(String raw) {
   try {
     decoded = jsonDecode(raw);
   } catch (e) {
-    return ParsedCurriculumBatch(modules: const [], errors: ['Invalid JSON: $e']);
+    return ParsedCurriculumBatch(
+      modules: const [],
+      errors: ['Invalid JSON: $e'],
+    );
   }
 
   if (decoded is! List) {

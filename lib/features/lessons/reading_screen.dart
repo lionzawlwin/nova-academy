@@ -402,10 +402,7 @@ class _ComprehensionOptionTile extends StatelessWidget {
               ),
             ),
             if (state == _TileState.correct)
-              const Icon(
-                Icons.check_circle_rounded,
-                color: AppColors.secondary,
-              )
+              const Icon(Icons.check_circle_rounded, color: AppColors.secondary)
             else if (state == _TileState.incorrect)
               const Icon(Icons.cancel_rounded, color: AppColors.cherryCrush),
           ],

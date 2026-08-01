@@ -812,6 +812,12 @@ abstract class AppLocalizations {
   /// **'Computing'**
   String get subjectComputing;
 
+  /// No description provided for @subjectHumanities.
+  ///
+  /// In en, this message translates to:
+  /// **'Humanities'**
+  String get subjectHumanities;
+
   /// No description provided for @gatekeeperTitle.
   ///
   /// In en, this message translates to:

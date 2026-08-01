@@ -28,10 +28,10 @@ class ParentDashboardScreen extends ConsumerWidget {
     final userModel = ref.watch(currentUserModelProvider).valueOrNull;
     final isPremiumEntitled = ref.watch(isPremiumEntitledProvider);
     final totalChildrenStars =
-        ref.watch(childrenForCurrentUserProvider).valueOrNull?.fold<int>(
-          0,
-          (sum, child) => sum + child.totalStars,
-        ) ??
+        ref
+            .watch(childrenForCurrentUserProvider)
+            .valueOrNull
+            ?.fold<int>(0, (sum, child) => sum + child.totalStars) ??
         0;
 
     return Scaffold(

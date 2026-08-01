@@ -43,15 +43,18 @@ void main() {
       expect(result.modules.length, 2);
     });
 
-    test('invalid top-level JSON (not an array) returns one error and zero modules', () {
-      const raw = '{"subject": "fractions"}';
+    test(
+      'invalid top-level JSON (not an array) returns one error and zero modules',
+      () {
+        const raw = '{"subject": "fractions"}';
 
-      final result = parseLearningModulesJson(raw);
+        final result = parseLearningModulesJson(raw);
 
-      expect(result.hasErrors, isTrue);
-      expect(result.errors.length, 1);
-      expect(result.modules, isEmpty);
-    });
+        expect(result.hasErrors, isTrue);
+        expect(result.errors.length, 1);
+        expect(result.modules, isEmpty);
+      },
+    );
 
     test('malformed JSON syntax returns one error and zero modules', () {
       const raw = '[ { "subject": "fractions", ';
@@ -85,8 +88,10 @@ void main() {
       expect(result.errors.length, 1);
     });
 
-    test('entry missing a required field (subject) is a row error, not a thrown exception', () {
-      const raw = '''
+    test(
+      'entry missing a required field (subject) is a row error, not a thrown exception',
+      () {
+        const raw = '''
       [
         {
           "grade": "year4",
@@ -99,11 +104,12 @@ void main() {
       ]
       ''';
 
-      final result = parseLearningModulesJson(raw);
+        final result = parseLearningModulesJson(raw);
 
-      expect(result.modules, isEmpty);
-      expect(result.errors.length, 1);
-      expect(result.errors.first, contains('Row 1'));
-    });
+        expect(result.modules, isEmpty);
+        expect(result.errors.length, 1);
+        expect(result.errors.first, contains('Row 1'));
+      },
+    );
   });
 }
