@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -22,7 +21,7 @@ import 'home_shared_widgets.dart';
 /// app can get. Huge, brightly colored, bouncy touch targets carry all
 /// the meaning; text is limited to the child's own name and one short
 /// word per subject.
-class NurseryKgHomeScreen extends ConsumerWidget {
+class NurseryKgHomeScreen extends ConsumerStatefulWidget {
   const NurseryKgHomeScreen({super.key});
 
   static List<SubjectVisual> _subjects(AppLocalizations l10n) => [
@@ -98,10 +97,38 @@ class NurseryKgHomeScreen extends ConsumerWidget {
   ];
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<NurseryKgHomeScreen> createState() =>
+      _NurseryKgHomeScreenState();
+}
+
+class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
+    with SingleTickerProviderStateMixin {
+  /// One shared, continuously-repeating "breathe" animation driving every
+  /// subject tile's idle wobble, replacing what used to be up to ~10
+  /// independent `Timer.periodic` instances (one per tile) each firing its
+  /// own `setState` on an uncoordinated schedule -- a real source of
+  /// avoidable jank on lower-end Android hardware, since a single shared
+  /// `Ticker` costs one frame callback total instead of up to ten
+  /// independent ones interleaving unpredictably. Each tile reads this same
+  /// controller through [_NurseryTile.animation] and offsets its own phase
+  /// by index, so the row still looks alive/staggered rather than
+  /// pulsing in lockstep.
+  late final AnimationController _breatheController = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 2400),
+  )..repeat();
+
+  @override
+  void dispose() {
+    _breatheController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final child = ref.watch(activeChildProvider);
-    final subjects = _subjects(l10n);
+    final subjects = NurseryKgHomeScreen._subjects(l10n);
 
     return Scaffold(
       body: DecoratedBox(
@@ -140,14 +167,16 @@ class NurseryKgHomeScreen extends ConsumerWidget {
                           spacing: 22,
                           runSpacing: 22,
                           children: [
-                            for (final subject in subjects)
+                            for (var i = 0; i < subjects.length; i++)
                               _NurseryTile(
-                                visual: subject,
+                                visual: subjects[i],
+                                animation: _breatheController,
+                                phaseOffset: i / subjects.length,
                                 onTap: () => _openLesson(
                                   context,
                                   ref,
                                   child?.currentGrade,
-                                  subject,
+                                  subjects[i],
                                 ),
                               ),
                           ],
@@ -282,59 +311,40 @@ class _Header extends StatelessWidget {
 }
 
 /// One giant, bouncy subject button. Idles with a gentle rhythmic "breathe"
-/// -- Candy Core exaggerates this into a subtle 3D "wobble": the same
-/// scale pulse plus a small alternating rotation, both still driven by
-/// [AnimatedScale]/[AnimatedRotation] reacting to a single periodically
-/// flipped boolean, no [AnimationController] needed -- and hands press
-/// feedback off to [CandyBevelSurface]'s own two-layer bevel sink/spring
-/// animation instead of the old flat scale-down-on-press treatment.
-class _NurseryTile extends StatefulWidget {
-  const _NurseryTile({required this.visual, required this.onTap});
+/// -- Candy Core exaggerates this into a subtle 3D "wobble": a continuous
+/// scale pulse plus a small alternating rotation, both driven by a sine
+/// wave sampled from the parent's single shared, repeating [animation]
+/// (see [_NurseryKgHomeScreenState._breatheController]'s doc comment for
+/// why one shared ticker replaces what used to be one independent `Timer`
+/// per tile) -- and hands press feedback off to [CandyBevelSurface]'s own
+/// two-layer bevel sink/spring animation instead of the old flat
+/// scale-down-on-press treatment.
+class _NurseryTile extends StatelessWidget {
+  const _NurseryTile({
+    required this.visual,
+    required this.animation,
+    required this.phaseOffset,
+    required this.onTap,
+  });
 
   final SubjectVisual visual;
+
+  /// The parent's single shared, repeating 0->1 breathing animation.
+  final Animation<double> animation;
+
+  /// This tile's position (0..1) in the shared cycle, so a row of tiles
+  /// reads as a gentle staggered ripple rather than pulsing in lockstep.
+  final double phaseOffset;
+
   final VoidCallback onTap;
-
-  @override
-  State<_NurseryTile> createState() => _NurseryTileState();
-}
-
-class _NurseryTileState extends State<_NurseryTile> {
-  static const _breatheDuration = Duration(milliseconds: 650);
 
   /// ±1.5° expressed as a fraction of a full turn, per the design spec's
   /// "scale 1.0→1.04 AND ±1.5° rotation" wobble motion.
   static const _wobbleTurns = 1.5 / 360;
 
-  bool _breatheUp = false;
-  Timer? _timer;
-
-  @override
-  void initState() {
-    super.initState();
-    // Stagger the start of each tile's idle loop so a row of tiles doesn't
-    // all pulse in lockstep like a single blinking blob.
-    final startDelay = Duration(milliseconds: 150 + Random().nextInt(700));
-    _timer = Timer(startDelay, _startBreathing);
-  }
-
-  void _startBreathing() {
-    _timer = Timer.periodic(const Duration(milliseconds: 1200), (_) {
-      if (mounted) setState(() => _breatheUp = !_breatheUp);
-    });
-  }
-
-  @override
-  void dispose() {
-    _timer?.cancel();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final visual = widget.visual;
-    final scale = _breatheUp ? 1.04 : 1.0;
-    final wobbleTurns = _breatheUp ? _wobbleTurns : -_wobbleTurns;
     // 3 columns on a phone-width screen instead of the old fixed 140dp
     // tile (which only ever fit 2 per row and pushed later rows/subjects
     // below the fold) -- clamped so it still looks chunky on a tablet.
@@ -345,27 +355,32 @@ class _NurseryTileState extends State<_NurseryTile> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          AnimatedScale(
-            scale: scale,
-            duration: _breatheDuration,
-            curve: Curves.easeInOutSine,
-            child: AnimatedRotation(
-              turns: wobbleTurns,
-              duration: _breatheDuration,
-              curve: Curves.easeInOutSine,
-              child: CandyBevelSurface(
-                faceColor: visual.color,
-                bevelDepth: CandyBevelDepth.nursery,
-                borderRadius: tileSize * 0.28,
-                width: tileSize,
-                height: tileSize,
-                padding: EdgeInsets.zero,
-                onTap: widget.onTap,
-                child: Icon(
-                  visual.icon,
-                  color: Colors.white,
-                  size: tileSize * 0.48,
+          AnimatedBuilder(
+            animation: animation,
+            builder: (context, child) {
+              final wave = sin((animation.value + phaseOffset) * 2 * pi);
+              final scale = 1.0 + 0.04 * wave;
+              final wobbleTurns = _wobbleTurns * wave;
+              return Transform.scale(
+                scale: scale,
+                child: Transform.rotate(
+                  angle: wobbleTurns * 2 * pi,
+                  child: child,
                 ),
+              );
+            },
+            child: CandyBevelSurface(
+              faceColor: visual.color,
+              bevelDepth: CandyBevelDepth.nursery,
+              borderRadius: tileSize * 0.28,
+              width: tileSize,
+              height: tileSize,
+              padding: EdgeInsets.zero,
+              onTap: onTap,
+              child: Icon(
+                visual.icon,
+                color: Colors.white,
+                size: tileSize * 0.48,
               ),
             ),
           ),

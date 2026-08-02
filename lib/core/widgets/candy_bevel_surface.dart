@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../theme/app_theme.dart';
 
@@ -186,6 +187,12 @@ class _CandyBevelSurfaceState extends State<CandyBevelSurface>
       duration: _releaseDuration,
       curve: Curves.elasticOut,
     );
+    // A light haptic tick on every completed tap -- centralized here so
+    // every tappable button/tile/card/quiz-option built on this widget
+    // gets the same "feels premium" tactile feedback for free, rather
+    // than each of the ~15+ call sites needing to remember to add it
+    // individually.
+    HapticFeedback.lightImpact();
     widget.onTap?.call();
   }
 

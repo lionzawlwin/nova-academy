@@ -188,11 +188,11 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 260 modules', () {
-      // 252 pre-existing + 8 Nova Quantum Flash Engine decks (4 Nursery +
-      // 4 KG, across math dot-cards and phonics vocabulary) added in
-      // nursery_kg_quantum_flash_bank.dart.
-      expect(modules.length, 260);
+    test('has exactly 268 modules', () {
+      // 260 pre-existing + 8 more Nova Quantum Flash Engine decks (4 Nursery
+      // + 4 KG, spanning math/phonics/generalknowledge) added in a later
+      // nursery_kg_quantum_flash_bank.dart expansion.
+      expect(modules.length, 268);
     });
 
     test('every module id is unique, including against legacy modules', () {

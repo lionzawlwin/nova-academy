@@ -34,7 +34,9 @@ class NurseryFlashcardsScreen extends StatefulWidget {
 
 class _NurseryFlashcardsScreenState extends State<NurseryFlashcardsScreen> {
   late final List<FlashcardItem> _cards =
-      widget.def?.cards ?? fallbackFlashcards;
+      (widget.def?.cards.isNotEmpty ?? false)
+      ? widget.def!.cards
+      : fallbackFlashcards;
   late final Color _accent = Color(_cards.first.colorValue);
   final PageController _pageController = PageController();
 

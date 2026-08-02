@@ -55,6 +55,7 @@ class _NurseryListeningScreenState extends State<NurseryListeningScreen> {
   }
 
   void _playPassage() {
+    if (!mounted) return;
     final lc = Localizations.localeOf(context).languageCode;
     _tts.speak(_content.passage(lc), languageCode: lc);
   }

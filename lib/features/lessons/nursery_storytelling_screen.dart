@@ -53,6 +53,7 @@ class _NurseryStorytellingScreenState extends State<NurseryStorytellingScreen> {
   }
 
   void _speakCurrentPage() {
+    if (!mounted) return;
     final lc = Localizations.localeOf(context).languageCode;
     _tts.speak(_pages[_index].text(lc), languageCode: lc);
   }
@@ -92,64 +93,96 @@ class _NurseryStorytellingScreenState extends State<NurseryStorytellingScreen> {
                     child: GestureDetector(
                       onTap: _advance,
                       behavior: HitTestBehavior.opaque,
-                      child: AnimatedSwitcher(
-                        duration: const Duration(milliseconds: 320),
-                        transitionBuilder: (child, animation) => FadeTransition(
-                          opacity: animation,
-                          child: ScaleTransition(
-                            scale: Tween(
-                              begin: 0.92,
-                              end: 1.0,
-                            ).animate(animation),
-                            child: child,
-                          ),
-                        ),
-                        child: Padding(
-                          key: ValueKey(_index),
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 32,
-                            vertical: 12,
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 220,
-                                height: 220,
-                                decoration: BoxDecoration(
-                                  color: Colors.white.withValues(alpha: 0.9),
-                                  shape: BoxShape.circle,
-                                  boxShadow: AppShadows.floating(Colors.white),
-                                ),
-                                alignment: Alignment.center,
-                                child: Text(
-                                  page.emoji,
-                                  style: const TextStyle(fontSize: 108),
+                      child: SingleChildScrollView(
+                        physics: const BouncingScrollPhysics(),
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        child: AnimatedSwitcher(
+                          duration: const Duration(milliseconds: 320),
+                          transitionBuilder: (child, animation) =>
+                              FadeTransition(
+                                opacity: animation,
+                                child: ScaleTransition(
+                                  scale: Tween(
+                                    begin: 0.92,
+                                    end: 1.0,
+                                  ).animate(animation),
+                                  child: child,
                                 ),
                               ),
-                              const SizedBox(height: 28),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 20,
-                                  vertical: 16,
+                          child: Padding(
+                            key: ValueKey(_index),
+                            padding: const EdgeInsets.symmetric(horizontal: 32),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                // A fixed 220dp illustration plus a card of
+                                // story text used to hard-overflow
+                                // vertically on small phones -- especially
+                                // with longer Burmese passages or a larger
+                                // system text scale (see
+                                // test/nursery_kg_screens_overflow_test.dart)
+                                // -- so this now scales down on a shorter
+                                // viewport and the whole page scrolls as a
+                                // last resort rather than ever clipping.
+                                Builder(
+                                  builder: (context) {
+                                    final viewportHeight = MediaQuery.sizeOf(
+                                      context,
+                                    ).height;
+                                    final illustrationSize =
+                                        (viewportHeight * 0.28).clamp(
+                                          140.0,
+                                          220.0,
+                                        );
+                                    return Container(
+                                      width: illustrationSize,
+                                      height: illustrationSize,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white.withValues(
+                                          alpha: 0.9,
+                                        ),
+                                        shape: BoxShape.circle,
+                                        boxShadow: AppShadows.floating(
+                                          Colors.white,
+                                        ),
+                                      ),
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        page.emoji,
+                                        style: TextStyle(
+                                          fontSize: illustrationSize * 0.49,
+                                        ),
+                                      ),
+                                    );
+                                  },
                                 ),
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(
-                                    AppTheme.radiusLarge,
+                                const SizedBox(height: 24),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 20,
+                                    vertical: 16,
                                   ),
-                                  boxShadow: AppShadows.card(Brightness.light),
-                                ),
-                                child: Text(
-                                  page.text(lc),
-                                  textAlign: TextAlign.center,
-                                  style: theme.textTheme.titleMedium?.copyWith(
-                                    color: AppColors.primary,
-                                    fontWeight: FontWeight.w700,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(
+                                      AppTheme.radiusLarge,
+                                    ),
+                                    boxShadow: AppShadows.card(
+                                      Brightness.light,
+                                    ),
+                                  ),
+                                  child: Text(
+                                    page.text(lc),
+                                    textAlign: TextAlign.center,
+                                    style: theme.textTheme.titleMedium
+                                        ?.copyWith(
+                                          color: AppColors.primary,
+                                          fontWeight: FontWeight.w700,
+                                        ),
                                   ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       ),

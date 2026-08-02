@@ -31,8 +31,8 @@ void main() {
       }
     });
 
-    test('every deck subject is math or phonics', () {
-      const expected = {'math', 'phonics'};
+    test('every deck subject is math, phonics, or generalknowledge', () {
+      const expected = {'math', 'phonics', 'generalknowledge'};
       for (final deck in nurseryKgQuantumFlashBank) {
         expect(
           expected.contains(deck.subject),

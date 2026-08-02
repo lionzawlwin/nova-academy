@@ -48,10 +48,10 @@ class NurseryMemoryScreen extends StatefulWidget {
 
 class _NurseryMemoryScreenState extends State<NurseryMemoryScreen> {
   late final List<MemoryPairItem> _pairs =
-      widget.def?.pairs ?? fallbackMemoryPairs;
-  late final Color _accent = widget.def != null
-      ? Color(_pairs.first.colorValue)
-      : AppColors.nurseryPalette[2];
+      (widget.def?.pairs.isNotEmpty ?? false)
+      ? widget.def!.pairs
+      : fallbackMemoryPairs;
+  late final Color _accent = Color(_pairs.first.colorValue);
 
   late final List<_CardInstance> _cards = _buildShuffledDeck();
 
