@@ -818,6 +818,12 @@ abstract class AppLocalizations {
   /// **'Humanities'**
   String get subjectHumanities;
 
+  /// No description provided for @subjectGlobalPerspectives.
+  ///
+  /// In en, this message translates to:
+  /// **'Global Perspectives'**
+  String get subjectGlobalPerspectives;
+
   /// No description provided for @gatekeeperTitle.
   ///
   /// In en, this message translates to:

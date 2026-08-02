@@ -29,29 +29,37 @@ class _SubjectDef {
 
 const List<_SubjectDef> _secondarySubjects = [
   _SubjectDef(key: 'algebra', icon: Icons.functions_rounded),
+  _SubjectDef(key: 'mathematics', icon: Icons.calculate_rounded),
   _SubjectDef(key: 'physics', icon: Icons.bolt_rounded),
   _SubjectDef(key: 'chemistry', icon: Icons.biotech_rounded),
   _SubjectDef(key: 'biology', icon: Icons.eco_rounded),
+  _SubjectDef(key: 'science', icon: Icons.science_rounded),
   _SubjectDef(key: 'ict', icon: Icons.memory_rounded),
   _SubjectDef(key: 'socialstudies', icon: Icons.public_rounded),
   _SubjectDef(key: 'coding', icon: Icons.code_rounded),
   _SubjectDef(key: 'engineering', icon: Icons.precision_manufacturing_rounded),
   _SubjectDef(key: 'computing', icon: Icons.computer_rounded),
+  _SubjectDef(key: 'english', icon: Icons.menu_book_rounded),
   _SubjectDef(key: 'history', icon: Icons.history_edu_rounded),
   _SubjectDef(key: 'geography', icon: Icons.public_rounded),
   _SubjectDef(key: 'humanities', icon: Icons.public_rounded),
+  _SubjectDef(key: 'globalperspectives', icon: Icons.public_rounded),
 ];
 
 String _labelFor(AppLocalizations l10n, String key) {
   switch (key) {
     case 'algebra':
       return l10n.subjectAlgebra;
+    case 'mathematics':
+      return l10n.subjectMath;
     case 'physics':
       return l10n.subjectPhysics;
     case 'chemistry':
       return l10n.subjectChemistry;
     case 'biology':
       return l10n.subjectBiology;
+    case 'science':
+      return l10n.subjectScience;
     case 'ict':
       return l10n.subjectIct;
     case 'socialstudies':
@@ -62,12 +70,16 @@ String _labelFor(AppLocalizations l10n, String key) {
       return l10n.subjectEngineering;
     case 'computing':
       return l10n.subjectComputing;
+    case 'english':
+      return l10n.subjectEnglish;
     case 'history':
       return l10n.subjectHistory;
     case 'geography':
       return l10n.subjectGeography;
     case 'humanities':
       return l10n.subjectHumanities;
+    case 'globalperspectives':
+      return l10n.subjectGlobalPerspectives;
     default:
       return key;
   }

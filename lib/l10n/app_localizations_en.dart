@@ -374,6 +374,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get subjectHumanities => 'Humanities';
 
   @override
+  String get subjectGlobalPerspectives => 'Global Perspectives';
+
+  @override
   String get gatekeeperTitle => 'Grown-Ups Only';
 
   @override

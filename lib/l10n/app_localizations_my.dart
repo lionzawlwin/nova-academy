@@ -376,6 +376,9 @@ class AppLocalizationsMy extends AppLocalizations {
   String get subjectHumanities => 'လူမှုရေးဘာသာရပ်';
 
   @override
+  String get subjectGlobalPerspectives => 'ကမ္ဘာ့အမြင်';
+
+  @override
   String get gatekeeperTitle => 'လူကြီးများသာ';
 
   @override

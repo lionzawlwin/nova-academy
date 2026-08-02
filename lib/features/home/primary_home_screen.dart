@@ -222,6 +222,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
   IconData _iconForSubject(String subject) {
     switch (subject.toLowerCase()) {
       case 'math':
+      case 'mathematics':
       case 'fractions':
       case 'geometry':
       case 'algebra':
