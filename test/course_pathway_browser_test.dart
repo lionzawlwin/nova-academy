@@ -37,13 +37,18 @@ void main() {
       );
     });
 
-    test('a grade with no authored pathway yet (e.g. Year 3) sees no cards, '
-        'rather than falling back to another grade\'s pathways', () {
+    test('Year 3 (now authored) sees its own pathway cards, not another '
+        "grade's", () {
       final year3 = pathwaysForTierAndGrade(
         tier: HomeTier.primary,
         grade: Grade.year3,
       );
-      expect(year3, isEmpty);
+      expect(year3, isNotEmpty);
+      expect(
+        year3.every((p) => p.grade == Grade.year3),
+        isTrue,
+        reason: 'Year 3 must not see Year 1 (or any other grade) cards',
+      );
     });
 
     test('Year 2 (now authored) sees its own pathway cards, not another '
