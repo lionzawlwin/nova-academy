@@ -7418,6 +7418,444 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
     ],
   ),
 
+  // Secondary/IGCSE `engineering` depth batch: a second module per grade,
+  // matching the `geography`/`history`/`computing` depth rollout's cadence.
+  // ============================== SECONDARY 1 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary1-engineering-2',
+    subject: 'engineering',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'The Engineering Design Process and Simple Machines',
+    titleMy: 'အင်ဂျင်နီယာဒီဇိုင်းလုပ်ငန်းစဉ်နှင့် ရိုးရှင်းသောစက်ပစ္စည်းများ',
+    descriptionEn:
+        'Discover the step-by-step engineering design process—from defining a problem to testing and improving prototypes—and learn how levers, ramps, and wheel-and-axle systems make work easier.',
+    descriptionMy:
+        'ပြဿနာကို ရှင်းလင်းစွာသတ်မှတ်ခြင်းမှစတင်ပြီး ပရိုတိုတိုင်းများကို စမ်းသပ်တိုးတက်အောင်ပြုလုပ်ခြင်းအထိ အင်ဂျင်နီယာဒီဇိုင်းလုပ်ငန်းစဉ်ကို လေ့လာပြီး၊ လိုက်ဘား၊ စောင်း (ramp) နှင့် ဘီးနှင့်အောက်စ်ချောင်း (wheel and axle) များက အလုပ်ကို မည်သို့ ပိုမိုလွယ်ကူစေကြောင်း လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the very first step engineers take when starting the design process?',
+        questionMy:
+            'အင်ဂျင်နီယာများသည် ဒီဇိုင်းလုပ်ငန်းစဉ်ကို စတင်သောအခါ ပထမဆုံးအဆင့်အနေဖြင့် မည်သည့်အရာကို ပြုလုပ်ကြသနည်း။',
+        optionsEn: [
+          'Testing the prototype',
+          'Clearly defining the problem to be solved',
+          'Building the final product',
+          'Selling the finished design',
+        ],
+        optionsMy: [
+          'ပရိုတိုတိုင်းကို စမ်းသပ်ခြင်း',
+          'ဖြေရှင်းရမည့်ပြဿနာကို ရှင်းလင်းစွာ သတ်မှတ်ခြင်း',
+          'နောက်ဆုံးထုတ်ကုန်ကို တည်ဆောက်ခြင်း',
+          'ပြီးစီးသောဒီဇိုင်းကို ရောင်းချခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the design process, why do engineers test a prototype and then iterate (make improvements) instead of stopping after the first attempt?',
+        questionMy:
+            'ဒီဇိုင်းလုပ်ငန်းစဉ်တွင် အင်ဂျင်နီယာများသည် ပရိုတိုတိုင်းကို စမ်းသပ်ပြီးနောက် ပထမကြိမ်တွင်ရပ်တန့်မည့်အစား အဘယ်ကြောင့် ထပ်မံပြင်ဆင်တိုးတက်အောင် ပြုလုပ်ကြသနည်း။',
+        optionsEn: [
+          'Because the first prototype is always perfect',
+          'To find weaknesses in the design and make it work better with each round of changes',
+          'Because the rules require exactly two prototypes',
+          'To make the product a different color each time',
+        ],
+        optionsMy: [
+          'ပထမပရိုတိုတိုင်းသည် အမြဲတမ်း ပြီးပြည့်စုံသောကြောင့်',
+          'ဒီဇိုင်း၏အားနည်းချက်များကို ရှာဖွေပြီး အကြိမ်ကြိမ်ပြင်ဆင်ခြင်းဖြင့် ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ရန်',
+          'ပရိုတိုတိုင်း နှစ်ခုတိတိ ပြုလုပ်ရမည့်စည်းမျဉ်းရှိသောကြောင့်',
+          'ထုတ်ကုန်ကို အကြိမ်တိုင်း အရောင်ပြောင်းလဲရန်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which part of a lever makes it possible to lift a heavy object using less force?',
+        questionMy:
+            'လိုက်ဘား (lever) တစ်ခု၏ မည်သည့်အစိတ်အပိုင်းက အားနည်းသောအင်အားဖြင့် လေးလံသောအရာဝတ္ထုကို မော်တင်နိုင်စေသနည်း။',
+        optionsEn: [
+          'The length of the handle alone',
+          'The fulcrum, or pivot point, that the lever turns on',
+          'The size of the wheel attached to it',
+          'The angle of an inclined surface',
+        ],
+        optionsMy: [
+          'လက်ကိုင်၏ အရှည်တစ်ခုတည်း',
+          'လိုက်ဘားလှည့်နေသော တွင်တိုင် (fulcrum)',
+          '၎င်းနှင့်တွဲထားသော ဘီး၏အရွယ်အစား',
+          'စောင်းအနေအထား (inclined surface) ၏ ထောင့်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A ramp (inclined plane) makes it easier to slide a heavy box up onto a truck mainly because it:',
+        questionMy:
+            'စောင်း (ramp) တစ်ခုက လေးလံသောသေတ္တာကို ကားပေါ်သို့ တွန်းတင်ရာတွင် ပိုမိုလွယ်ကူစေသည့် အဓိကအကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Reduces the actual weight of the box',
+          'Lets the same amount of work be done over a longer distance, so less force is needed at any moment',
+          'Removes the need for any force at all',
+          'Increases the force needed but decreases the distance',
+        ],
+        optionsMy: [
+          'သေတ္တာ၏ အလေးချိန်ကို တကယ်တမ်းလျှော့ချပေးသောကြောင့်',
+          'တူညီသောအလုပ်ပမာဏကို ပိုရှည်သောအကွာအဝေးပေါ်တွင် ဖြန့်ကျက်ပေးသဖြင့် အချိန်တိုင်းတွင် လိုအပ်သည့်အားက လျော့နည်းသွားသောကြောင့်',
+          'မည်သည့်အားမျှ လုံးဝမလိုအပ်တော့သောကြောင့်',
+          'လိုအပ်သည့်အားကို တိုးစေပြီး အကွာအဝေးကို လျှော့ချသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A screwdriver turning a screw, or a doorknob turning a latch, are everyday examples of which simple machine?',
+        questionMy:
+            'ဝက်အူလိမ်ကို လှည့်သော စကရူးဒရိုက်ဘာ (screwdriver) သို့မဟုတ် တံခါးလက်ကိုင်ကို လှည့်၍ တံခါးကျင်ကိုဖွင့်ခြင်းသည် မည်သည့်ရိုးရှင်းသောစက်၏ နေ့စဉ်ဥပမာဖြစ်သနည်း။',
+        optionsEn: ['Inclined plane', 'Lever', 'Wheel and axle', 'Pulley'],
+        optionsMy: [
+          'စောင်း (inclined plane)',
+          'လိုက်ဘား (lever)',
+          'ဘီးနှင့်အောက်စ်ချောင်း (wheel and axle)',
+          'ကြိုးဆွဲစနစ် (pulley)',
+        ],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  // ============================== SECONDARY 2 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary2-engineering-2',
+    subject: 'engineering',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Mechanical Advantage: Levers, Gears, and Pulleys',
+    titleMy:
+        'အင်အားချွေတာပေးသော ရိုးရှင်းစက်ကိရိယာများ — လက်တံ၊ ဂီယာနှင့် ချိန်ချောင်း',
+    descriptionEn:
+        'Explore how levers, gears, and pulleys trade force for distance, and learn to reason about gear ratios and pulley systems using mechanical advantage.',
+    descriptionMy:
+        'လက်တံ၊ ဂီယာနှင့် ချိန်ချောင်းတို့သည် အားနှင့်အကွာအဝေးကို မည်သို့အပြန်အလှန်လဲလှယ်ကြောင်း လေ့လာပြီး ဂီယာအချိုးနှင့် ချိန်ချောင်းစနစ်များကို mechanical advantage သဘောတရားဖြင့် တွက်ချက်နိုင်စေသည်။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What does the term "mechanical advantage" of a simple machine describe?',
+        questionMy:
+            'ရိုးရှင်းသောစက်ကိရိယာတစ်ခု၏ "mechanical advantage" ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။',
+        optionsEn: [
+          'The ratio of output force to input force the machine provides',
+          'The total amount of energy the machine creates',
+          'The weight of the machine itself',
+          'The speed at which the machine operates',
+        ],
+        optionsMy: [
+          'စက်ကိရိယာက ထုတ်ပေးသည့်ပြင်ပအားနှင့် ထည့်ပေးရသည့်အားတို့၏ အချိုးကို ဆိုလိုသည်',
+          'စက်ကိရိယာက စွမ်းအင်အသစ်ဖန်တီးပေးနိုင်မှုကို ဆိုလိုသည်',
+          'စက်ကိရိယာ၏ ကိုယ်ပိုင်အလေးချိန်ကို ဆိုလိုသည်',
+          'စက်ကိရိယာလည်ပတ်သည့် အမြန်နှုန်းကို ဆိုလိုသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A wheelbarrow, where the wheel acts as the pivot, the load sits in the middle, and you lift the handles at the end, is an example of which class of lever?',
+        questionMy:
+            'လက်တွန်းလှည်း (wheelbarrow) တွင် ဘီးသည် အထောက်အပံ့ (fulcrum) အဖြစ်ရှိပြီး၊ အလေးဝန်ကို အလယ်တွင်တင်ကာ လက်ကိုင်များကို အဆုံးတွင် ချီပင့်ရသည့်ပုံစံမှာ လက်တံအမျိုးအစား မည်သည်နှင့် သက်ဆိုင်သနည်း။',
+        optionsEn: [
+          'Second-class lever, because the load is between the fulcrum and the effort',
+          'First-class lever, because the fulcrum is between the load and the effort',
+          'Third-class lever, because the effort is between the fulcrum and the load',
+          'Not a lever at all, since it has wheels',
+        ],
+        optionsMy: [
+          'ဒုတိယအမျိုးအစား လက်တံ ဖြစ်သည်၊ အလေးဝန်သည် အထောက်အပံ့နှင့် အားထည့်သည့်နေရာကြားတွင် ရှိနေသောကြောင့်ဖြစ်သည်',
+          'ပထမအမျိုးအစား လက်တံ ဖြစ်သည်၊ အထောက်အပံ့သည် အလေးဝန်နှင့် အားထည့်သည့်နေရာကြားတွင် ရှိနေသောကြောင့်ဖြစ်သည်',
+          'တတိယအမျိုးအစား လက်တံ ဖြစ်သည်၊ အားထည့်သည့်နေရာသည် အထောက်အပံ့နှင့် အလေးဝန်ကြားတွင် ရှိနေသောကြောင့်ဖြစ်သည်',
+          'ဘီးများပါဝင်သောကြောင့် လက်တံအမျိုးအစား လုံးဝ မဟုတ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a gear train, if a small driving gear with 10 teeth turns a larger driven gear with 40 teeth, what happens to the output speed and torque?',
+        questionMy:
+            'ဂီယာစနစ်တစ်ခုတွင် သွားစွန်း ၁၀ ချောင်းရှိသော သေးငယ်သည့် မောင်းနှင်ဂီယာ (driving gear) က သွားစွန်း ၄၀ ချောင်းရှိသည့် ကြီးမားသောဂီယာ (driven gear) ကို လှည့်ပေးနေသည်ဆိုပါက ရလဒ်အမြန်နှုန်းနှင့် လှည့်အား (torque) တို့တွင် မည်သို့ဖြစ်ပေါ်လာမည်နည်း။',
+        optionsEn: [
+          'The output speed decreases and the output torque increases',
+          'The output speed increases and the output torque decreases',
+          'Both output speed and torque stay exactly the same',
+          'Both output speed and torque increase',
+        ],
+        optionsMy: [
+          'ရလဒ်အမြန်နှုန်း လျော့ကျပြီး လှည့်အား တိုးများလာသည်',
+          'ရလဒ်အမြန်နှုန်း တိုးများပြီး လှည့်အား လျော့ကျသွားသည်',
+          'အမြန်နှုန်းနှင့် လှည့်အား နှစ်ခုစလုံး အတိအကျ မပြောင်းလဲပါ',
+          'အမြန်နှုန်းနှင့် လှည့်အား နှစ်ခုစလုံး တိုးများလာသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A movable pulley system uses 3 rope segments to support a 60 N load. Ignoring friction, approximately how much pulling force is needed to lift the load?',
+        questionMy:
+            'ရွေ့လျားနိုင်သော ချိန်ချောင်းစနစ် (movable pulley system) တစ်ခုတွင် ကြိုးအပိုင်း ၃ ခုက အလေးချိန် 60 N ကို ထောက်ပံ့ထားသည်။ ပွတ်တိုက်အားကို လျစ်လျူရှုလိုက်ပါက အလေးဝန်ကို ချီတင်ရန် ဆွဲအား မည်မျှ လိုအပ်မည်နည်း။',
+        optionsEn: [
+          'About 20 N, because the force needed is shared among the supporting rope segments',
+          '60 N, the same as the load, because pulleys do not change the force needed',
+          '180 N, because each rope segment adds to the pulling force required',
+          '60 N divided by zero, since pulleys eliminate the need for force entirely',
+        ],
+        optionsMy: [
+          '၂၀ N ခန့်သာ လိုအပ်သည်၊ လိုအပ်သည့်အားကို ထောက်ပံ့ကြိုးအပိုင်းများအလိုက် ခွဲဝေယူသောကြောင့်ဖြစ်သည်',
+          'အလေးချိန်နှင့်အတူတူပင် 60 N လိုအပ်သည်၊ ချိန်ချောင်းသည် လိုအပ်သောအားကို မပြောင်းလဲပေးနိုင်သောကြောင့်ဖြစ်သည်',
+          '180 N လိုအပ်သည်၊ ကြိုးအပိုင်းတစ်ခုစီက ဆွဲအားလိုအပ်ချက်ကို တိုးစေသောကြောင့်ဖြစ်သည်',
+          '60 N ကို သုညဖြင့် စားပြီး ရလာသောကြောင့် အားလိုအပ်ချက် လုံးဝ မရှိတော့ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A simple machine that multiplies force (gives a high mechanical advantage) always requires which trade-off, assuming no energy is lost to friction?',
+        questionMy:
+            'အားကို အဆများ တိုးမြှင့်ပေးသည့် (mechanical advantage မြင့်မားသည့်) ရိုးရှင်းသောစက်ကိရိယာတစ်ခုသည် ပွတ်တိုက်အားကြောင့် စွမ်းအင်ဆုံးရှုံးမှု မရှိဟု ယူဆလျှင် မည်သည့်အလဲအလှယ်ကို အမြဲလိုအပ်သနည်း။',
+        optionsEn: [
+          'The effort must move through a greater distance than the load moves',
+          'The machine must use less total energy than the task requires',
+          'The load must move faster than the effort moves',
+          'There is no trade-off; force and distance can both increase together',
+        ],
+        optionsMy: [
+          'အားထည့်သူသည် အလေးဝန်ရွေ့လျားသည်ထက် ပိုကြီးသောအကွာအဝေးအထိ ရွှေ့ရမည်ဖြစ်သည်',
+          'စက်ကိရိယာသည် လိုအပ်သည့်အလုပ်ထက် စွမ်းအင်ပိုနည်းစွာသာ အသုံးပြုရမည်ဖြစ်သည်',
+          'အလေးဝန်သည် အားထည့်သူ ရွေ့လျားသည်ထက် ပိုမြန်စွာ ရွေ့လျားရမည်ဖြစ်သည်',
+          'မည်သည့်အလဲအလှယ်မှ မရှိပါ၊ အားနှင့်အကွာအဝေး နှစ်ခုစလုံး တစ်ပြိုင်နက် တိုးလာနိုင်သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== SECONDARY 3 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary3-engineering-2',
+    subject: 'engineering',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Materials Science: Choosing the Right Material',
+    titleMy: 'ပစ္စည်းသိပ္ပံပညာ — မှန်ကန်သောပစ္စည်းရွေးချယ်ခြင်း',
+    descriptionEn:
+        'Learn how engineers judge strength, stiffness, and ductility to pick between steel, aluminum, concrete, and composites for a design.',
+    descriptionMy:
+        'အင်ဂျင်နီယာများသည် ဒီဇိုင်းတစ်ခုအတွက် သံမဏိ၊ အလူမီနီယမ်၊ ကွန်ကရစ်နှင့် ကွန်ပိုစိတ်တို့အနက် ရွေးချယ်ရန် ခိုင်ခံ့မှု၊ တင်းမာမှုနှင့် ဆွဲဆန့်နိုင်မှုတို့ကို မည်သို့ဆုံးဖြတ်သည်ကို လေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A material that can bend and stretch into a new shape before it snaps is described as having good...',
+        questionMy:
+            'ကျိုးမပြတ်မီ အသစ်တစ်မျိုးအဖြစ် ကွေးနိုင်ပြီး ဆန့်နိုင်သော ပစ္စည်းကို မည်သည့်ဂုဏ်သတ္တိကောင်းသည်ဟု ဆိုနိုင်သနည်း။',
+        optionsEn: ['Ductility', 'Density', 'Conductivity', 'Transparency'],
+        optionsMy: [
+          'ဆွဲဆန့်နိုင်စွမ်း (Ductility)',
+          'သိပ်သည်းဆ',
+          'လျှပ်စီးကူးနိုင်စွမ်း',
+          'ပွင့်လင်းမြင်နိုင်စွမ်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Stiffness describes a material\'s resistance to...',
+        questionMy:
+            'တင်းမာမှု (Stiffness) ဆိုသည်မှာ ပစ္စည်းတစ်ခု၏ မည်သည့်အရာကို ခုခံနိုင်စွမ်းကို ဖော်ပြသနည်း။',
+        optionsEn: [
+          'Bending or stretching out of shape under load',
+          'Rusting when wet',
+          'Melting at high temperature',
+          'Changing color in sunlight',
+        ],
+        optionsMy: [
+          'ဝန်ချိန်ကြောင့် ပုံသဏ္ဍာန်ကွေးညွတ်သွားခြင်းကို ခုခံနိုင်စွမ်း',
+          'စိုစွတ်သောအခါ သံချေးတက်ခြင်း',
+          'အပူချိန်မြင့်သောအခါ အရည်ပျော်ခြင်း',
+          'နေရောင်တွင် အရောင်ပြောင်းလဲခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Reinforced concrete combines concrete with steel bars mainly because plain concrete is...',
+        questionMy:
+            'အားဖြည့်ကွန်ကရစ် (Reinforced concrete) ကို ကွန်ကရစ်နှင့် သံချောင်းများ ပေါင်းစပ်ရသည့် အဓိကအကြောင်းရင်းမှာ ကွန်ကရစ်ချည်းသက်သက်သည်...',
+        optionsEn: [
+          'Strong in compression but weak in tension',
+          'Too light to use in buildings',
+          'A good electrical conductor',
+          'Too flexible to hold its shape',
+        ],
+        optionsMy: [
+          'ဖိအားကိုခံနိုင်သော်လည်း ဆွဲအားကို အားနည်းသောကြောင့်',
+          'အဆောက်အအုံများတွင် သုံးရန် ပေါ့လွန်းသောကြောင့်',
+          'လျှပ်စစ်ကောင်းစွာကူးနိုင်သောကြောင့်',
+          'ပုံသဏ္ဍာန်မတည်နိုင်အောင် ပျော့ပျောင်းလွန်းသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Aluminum is often chosen over steel for aircraft parts mainly because it offers a better...',
+        questionMy:
+            'လေယာဉ်ပစ္စည်းအစိတ်အပိုင်းများအတွက် သံမဏိထက် အလူမီနီယမ်ကို မကြာခဏရွေးချယ်ရသည့် အဓိကအကြောင်းရင်းမှာ...',
+        optionsEn: [
+          'Strength-to-weight ratio',
+          'Melting point',
+          'Cost per kilogram',
+          'Magnetic property',
+        ],
+        optionsMy: [
+          'အလေးချိန်နှင့် နှိုင်းယှဉ်သော ခိုင်ခံ့မှုအချိုး ပိုကောင်းသောကြောင့်',
+          'အရည်ပျော်မှတ် ပိုကောင်းသောကြောင့်',
+          'တစ်ကီလိုဂရမ်ဈေးနှုန်း ပိုသက်သာသောကြောင့်',
+          'သံလိုက်ဓာတ် ပိုကောင်းသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Carbon-fiber composites are attractive to designers mainly because they combine high strength with...',
+        questionMy:
+            'ကာဗွန်ဖိုက်ဘာ ကွန်ပိုစစ်ပစ္စည်းများကို ဒီဇိုင်နာများ နှစ်သက်ရသည့် အဓိကအကြောင်းရင်းမှာ ခိုင်ခံ့မှုမြင့်မားခြင်းနှင့်အတူ...',
+        optionsEn: [
+          'Very low weight',
+          'Very low cost',
+          'Easy recyclability',
+          'High electrical resistance',
+        ],
+        optionsMy: [
+          'အလွန်ပေါ့ပါးခြင်း ပေါင်းစပ်ပါဝင်သောကြောင့်',
+          'ဈေးနှုန်း အလွန်သက်သာသောကြောင့်',
+          'ပြန်လည်အသုံးပြုရန် လွယ်ကူသောကြောင့်',
+          'လျှပ်စစ်ခုခံအား မြင့်မားသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== IGCSE ==============================
+  SecondaryActivityDef(
+    id: 'mock-igcse-engineering-2',
+    subject: 'engineering',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn:
+        'Engineering Systems and Control: Feedback, Sensors and Sustainable Design',
+    titleMy:
+        'အင်ဂျင်နီယာဆိုင်ရာ ထိန်းချုပ်စနစ်များ — ဖီးဒ်ဘက်၊ အာရုံခံကိရိယာနှင့် ရေရှည်တည်တံ့သော ဒီဇိုင်း',
+    descriptionEn:
+        'Explore how feedback loops, sensors, and actuators work together in control systems, and examine the design tradeoffs engineers face when building sustainable and renewable technologies.',
+    descriptionMy:
+        'ဖီးဒ်ဘက်စက်ဝန်း၊ အာရုံခံကိရိယာနှင့် လှုပ်ရှားစေကိရိယာများသည် ထိန်းချုပ်စနစ်များတွင် မည်သို့ပူးပေါင်းလုပ်ဆောင်ကြောင်း လေ့လာပြီး၊ ရေရှည်တည်တံ့သော နည်းပညာများ ဒီဇိုင်းရေးဆွဲရာတွင် အင်ဂျင်နီယာများ ရင်ဆိုင်ရသော ဆုံးဖြတ်ချက်ချရခက်သည့် အချက်များကို လေ့လာပါမည်။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the main purpose of a feedback loop in a control system?',
+        questionMy:
+            'ထိန်းချုပ်စနစ်တစ်ခုတွင် ဖီးဒ်ဘက်စက်ဝန်း (feedback loop) ၏ အဓိကရည်ရွယ်ချက်ကား အဘယ်နည်း။',
+        optionsEn: [
+          'To store energy for later use',
+          'To compare the actual output with the desired output and adjust the system accordingly',
+          "To increase the system's speed regardless of accuracy",
+          'To convert electrical energy into mechanical energy',
+        ],
+        optionsMy: [
+          'နောင်အသုံးပြုရန် စွမ်းအင်သိုလှောင်ရန်',
+          'လက်ရှိရလဒ်ကို လိုချင်သောရလဒ်နှင့် နှိုင်းယှဉ်ပြီး စနစ်ကို ချိန်ညှိပေးရန်',
+          'တိကျမှုမရှိစေကာမူ စနစ်၏အလုပ်လုပ်နှုန်းကို မြှင့်တင်ရန်',
+          'လျှပ်စစ်စွမ်းအင်ကို စက်ပိုင်းဆိုင်ရာစွမ်းအင်အဖြစ် ပြောင်းလဲရန်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which statement best describes the role of a sensor in a control system?',
+        questionMy:
+            'ထိန်းချုပ်စနစ်တစ်ခုတွင် အာရုံခံကိရိယာ (sensor) ၏ အခန်းကဏ္ဍကို အကောင်းဆုံးဖော်ပြသည့် ဖော်ပြချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It converts electrical signals into physical movement',
+          'It stores data only for future analysis',
+          'It detects a physical quantity, such as temperature or light, and converts it into an electrical signal',
+          'It regulates the power supply voltage',
+        ],
+        optionsMy: [
+          'လျှပ်စစ်အချက်ပြမှုများကို ရုပ်ပိုင်းဆိုင်ရာ လှုပ်ရှားမှုအဖြစ် ပြောင်းလဲပေးသည်',
+          'အနာဂတ်လေ့လာရန်အတွက်သာ ဒေတာများကို သိမ်းဆည်းသည်',
+          'အပူချိန် သို့မဟုတ် အလင်းရောင်ကဲ့သို့သော ရုပ်ပိုင်းဆိုင်ရာပမာဏကို ရှာဖွေတွေ့ရှိပြီး လျှပ်စစ်အချက်ပြမှုအဖြစ် ပြောင်းလဲပေးသည်',
+          'လျှပ်စစ်ဖြန့်ဖြူးမှု ဗို့အားကို ထိန်းညှိပေးသည်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'What is the function of an actuator in a control system?',
+        questionMy:
+            'ထိန်းချုပ်စနစ်တစ်ခုတွင် လှုပ်ရှားစေကိရိယာ (actuator) ၏ လုပ်ဆောင်ချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It measures changes in the surrounding environment',
+          'It converts a control signal into physical action or movement',
+          'It compares the input signal with the output signal',
+          'It stores energy as a backup power source',
+        ],
+        optionsMy: [
+          'ပတ်ဝန်းကျင်ရှိ ပြောင်းလဲမှုများကို တိုင်းတာသည်',
+          'ထိန်းချုပ်အချက်ပြမှုကို ရုပ်ပိုင်းဆိုင်ရာ လုပ်ဆောင်ချက် (သို့) လှုပ်ရှားမှုအဖြစ် ပြောင်းလဲပေးသည်',
+          'ဖြည့်သွင်းအချက်ပြမှုနှင့် ထွက်ရှိအချက်ပြမှုကို နှိုင်းယှဉ်သည်',
+          'အရံစွမ်းအင်အဖြစ် စွမ်းအင်ကို သိမ်းဆည်းသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the key difference between a closed-loop (feedback) control system and an open-loop control system?',
+        questionMy:
+            'ပိတ်ပေါင်း (feedback) ထိန်းချုပ်စနစ်နှင့် ဖွင့်ပေါင်း (open-loop) ထိန်းချုပ်စနစ်တို့ကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A closed-loop system uses sensors to monitor its output and adjust its input, while an open-loop system does not',
+          'Open-loop systems are always more accurate',
+          'Closed-loop systems never require sensors',
+          'Open-loop systems use feedback to self-correct',
+        ],
+        optionsMy: [
+          'ပိတ်ပေါင်းစနစ်သည် ၎င်း၏ ထွက်ရှိမှုကို စောင့်ကြည့်၍ ဖြည့်သွင်းမှုကို ချိန်ညှိရန် အာရုံခံကိရိယာများကို အသုံးပြုသော်လည်း ဖွင့်ပေါင်းစနစ်တွင် ထိုသို့မလုပ်ဆောင်ပါ',
+          'ဖွင့်ပေါင်းစနစ်များသည် အမြဲတမ်း ပို၍တိကျသည်',
+          'ပိတ်ပေါင်းစနစ်များတွင် အာရုံခံကိရိယာ လုံးဝမလိုအပ်ပါ',
+          'ဖွင့်ပေါင်းစနစ်များသည် မိမိကိုယ်ကို ပြင်ဆင်ရန် ဖီးဒ်ဘက်ကို အသုံးပြုသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'When designing sustainable or renewable engineering systems, which of the following represents a real tradeoff engineers must weigh?',
+        questionMy:
+            'ရေရှည်တည်တံ့သော (သို့) ပြန်လည်ဖြစ်ထွန်းနိုင်သော အင်ဂျင်နီယာစနစ်များကို ဒီဇိုင်းရေးဆွဲရာတွင် အင်ဂျင်နီယာများ ချိန်ဆဆုံးဖြတ်ရမည့် အမှန်တကယ် ဆုံးဖြတ်ချက်ချရခက်သောအချက်မှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'Higher upfront cost of renewable technology weighed against long-term environmental and operational savings',
+          'Renewable energy systems always cost less to build than fossil-fuel systems',
+          'Sustainability has no real effect on engineering design decisions',
+          'Environmental impact only becomes relevant after a system is decommissioned',
+        ],
+        optionsMy: [
+          'ပြန်လည်ဖြစ်ထွန်းနိုင်သော နည်းပညာ၏ ကနဦးကုန်ကျစရိတ်ပိုများခြင်းနှင့် ရေရှည်ပတ်ဝန်းကျင်ထိန်းသိမ်းမှု၊ လည်ပတ်စရိတ်သက်သာမှုတို့ကို ချိန်ဆရခြင်း',
+          'ပြန်လည်ဖြစ်ထွန်းနိုင်သော စွမ်းအင်စနစ်များသည် ရေနံဆီစနစ်များထက် တည်ဆောက်ရန် အမြဲတမ်း ကုန်ကျစရိတ်သက်သာသည်',
+          'ရေရှည်တည်တံ့မှုသည် အင်ဂျင်နီယာဒီဇိုင်း ဆုံးဖြတ်ချက်များအပေါ် တကယ့်သက်ရောက်မှု မရှိပါ',
+          'ပတ်ဝန်းကျင်ထိခိုက်မှုသည် စနစ်ကို ရပ်ဆိုင်းပြီးမှသာ သက်ဆိုင်လာသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+
   // New `computing`/`history`/`geography` subjects: original bilingual
   // content covering IGCSE-aligned computer science, world history, and
   // geography topics, one quiz module per subject per grade (mirrors the
