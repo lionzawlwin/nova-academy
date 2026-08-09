@@ -11795,4 +11795,536 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // General knowledge depth batch 1: a second module per grade (Year
+  // 1-6), bringing `generalknowledge` from 1 module/grade to 2 -- the
+  // last Primary subject to reach depth parity with its siblings (see
+  // the "depth batch 1" blocks above for geography/history/computing/
+  // coding/engineering). Authored via a parallel content-generation
+  // workflow (one agent per grade), fact-checked for accuracy (world
+  // landmarks, animal facts, invention history, scientist/inventor
+  // achievements, and the Year6 economics reasoning) and kept strictly
+  // neutral/non-political throughout.
+  PrimaryActivityDef(
+    id: 'mock-year1-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'World Landmarks and Wonders',
+    titleMy: 'ကမ္ဘာ့ထင်ရှားသည့် အဆောက်အအုံများ',
+    descriptionEn:
+        'Learn about famous landmarks around the world and the countries they belong to.',
+    descriptionMy:
+        'ကမ္ဘာတစ်ဝှမ်းရှိ ထင်ရှားသည့်အဆောက်အအုံများနှင့် ၎င်းတို့တည်ရှိသည့်နိုင်ငံများအကြောင်း လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'The Shwedagon Pagoda is a famous golden landmark. Which country is it in?',
+        questionMy:
+            'ရွှေတိဂုံစေတီတော်သည် ကျော်ကြားသော ရွှေရောင်အဆောက်အအုံတစ်ခုဖြစ်သည်။ မည်သည့်နိုင်ငံတွင်ရှိသနည်း။',
+        optionsEn: ['Myanmar', 'Thailand', 'India', 'China'],
+        optionsMy: ['မြန်မာ', 'ထိုင်း', 'အိန္ဒိယ', 'တရုတ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Eiffel Tower is a tall metal tower landmark. Which country is it in?',
+        questionMy:
+            'အိုင်ဖယ်ရဲတိုင်သည် မြင့်မားသော သံမဏိရဲတိုင်အဆောက်အအုံတစ်ခုဖြစ်သည်။ မည်သည့်နိုင်ငံတွင်ရှိသနည်း။',
+        optionsEn: ['Japan', 'France', 'Germany', 'Spain'],
+        optionsMy: ['ဂျပန်', 'ပြင်သစ်', 'ဂျာမနီ', 'စပိန်'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Great Wall is a very long wall landmark. Which country is it in?',
+        questionMy:
+            'တံတိုင်းကြီးသည် အလွန်ရှည်လျားသည့် တံတိုင်းအဆောက်အအုံတစ်ခုဖြစ်သည်။ မည်သည့်နိုင်ငံတွင်ရှိသနည်း။',
+        optionsEn: ['China', 'India', 'Vietnam', 'Korea'],
+        optionsMy: ['တရုတ်', 'အိန္ဒိယ', 'ဗီယက်နမ်', 'ကိုရီးယား'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Pyramids are ancient triangle-shaped landmarks. Which country are they in?',
+        questionMy:
+            'ပိရမစ်များသည် ရှေးဟောင်းသုံးထောင့်ပုံသဏ္ဍာန် အဆောက်အအုံများဖြစ်သည်။ မည်သည့်နိုင်ငံတွင်ရှိသနည်း။',
+        optionsEn: ['Egypt', 'Kenya', 'Sudan', 'Morocco'],
+        optionsMy: ['အီဂျစ်', 'ကင်ညာ', 'ဆူဒန်', 'မော်ရိုကို'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Taj Mahal is a beautiful white landmark. Which country is it in?',
+        questionMy:
+            'တာဂျ်မဟာလ်သည် လှပသော အဖြူရောင်အဆောက်အအုံတစ်ခုဖြစ်သည်။ မည်သည့်နိုင်ငံတွင်ရှိသနည်း။',
+        optionsEn: ['Pakistan', 'Bangladesh', 'India', 'Nepal'],
+        optionsMy: ['ပါကစ္စတန်', 'ဘင်္ဂလားဒေ့ရှ်', 'အိန္ဒိယ', 'နီပေါ'],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Amazing Animals Around the World',
+    titleMy: 'ကမ္ဘာပေါ်ရှိ အံ့ဖွယ်တိရစ္ဆာန်များ',
+    descriptionEn:
+        'Learn about amazing animals such as the biggest and fastest in the world, and discover where different animals live, from oceans and deserts to the Arctic.',
+    descriptionMy:
+        'ကမ္ဘာပေါ်ရှိ အကြီးဆုံးနှင့် အမြန်ဆုံးကဲ့သို့သော အံ့ဖွယ်တိရစ္ဆာန်များအကြောင်း လေ့လာပြီး၊ ပင်လယ်နှင့် သဲကန္တာရမှသည် ခေါင်တိုင်ဒေသအထိ သူတို့နေထိုင်ရာနေရာများကို လေ့လာပါမည်။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the biggest animal in the world?',
+        questionMy: 'ကမ္ဘာပေါ်တွင် အကြီးဆုံးတိရစ္ဆာန်မှာ ဘာဖြစ်သနည်း။',
+        optionsEn: ['Blue Whale', 'Elephant', 'Giraffe', 'Lion'],
+        optionsMy: ['ပင်လယ်ကြင်း', 'ဆင်', 'ဂျီရာဖ်', 'ခြင်္သေ့'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which animal is the fastest on land?',
+        questionMy: 'မည်သည့်တိရစ္ဆာန်သည် ကုန်းမြေပေါ်တွင် အမြန်ဆုံးဖြစ်သနည်း။',
+        optionsEn: ['Cheetah', 'Turtle', 'Elephant', 'Snail'],
+        optionsMy: ['ချီတာ', 'လိပ်', 'ဆင်', 'ခရု'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which animal lives in the icy Arctic and has thick white fur to stay warm?',
+        questionMy:
+            'မည်သည့်တိရစ္ဆာန်သည် အေးမြသော ခေါင်တိုင်ဒေသတွင် နေထိုင်ပြီး ကိုယ်ကိုနွေးထွေးအောင် အဖြူရောင်အမွေးထူထူရှိသနည်း။',
+        optionsEn: ['Polar Bear', 'Camel', 'Monkey', 'Fish'],
+        optionsMy: ['ဝက်ဝံဖြူ', 'ကုလားအုတ်', 'မျောက်', 'ငါး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which animal is well suited to living in the hot, dry desert because it can go without water for a long time?',
+        questionMy:
+            'မည်သည့်တိရစ္ဆာန်သည် ရေမပါဘဲ ကြာရှည်နေနိုင်သောကြောင့် ပူပြင်း၍ ခြောက်သွေ့သည့် သဲကန္တာရတွင် နေထိုင်ရန်သင့်လျော်သနည်း။',
+        optionsEn: ['Camel', 'Penguin', 'Dolphin', 'Frog'],
+        optionsMy: ['ကုလားအုတ်', 'ပင်ဂွင်း', 'ဒေါ်ဖင်', 'ဖား'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these animals lives in the ocean and breathes air through a blowhole?',
+        questionMy:
+            'အောက်ပါတိရစ္ဆာန်များထဲမှ မည်သည်က ပင်လယ်ထဲတွင်နေထိုင်ပြီး လေအပေါက်မှတစ်ဆင့် အသက်ရှူသနည်း။',
+        optionsEn: ['Dolphin', 'Tiger', 'Eagle', 'Camel'],
+        optionsMy: ['ဒေါ်ဖင်', 'ကျား', 'လင်းယုန်', 'ကုလားအုတ်'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Inventions That Changed Everyday Life',
+    titleMy: 'နေ့စဉ်ဘဝကို ပြောင်းလဲစေသော တီထွင်မှုများ',
+    descriptionEn:
+        'Learn about the wheel, the telephone, the lightbulb, and the printing press, and how each invention changed the way people live.',
+    descriptionMy:
+        'ဘီး၊ ဖုန်း၊ မီးလုံးနှင့် ပုံနှိပ်စက်တို့အကြောင်း၊ ထိုတီထွင်မှုတစ်ခုစီက လူများ၏ ဘဝနေထိုင်မှုပုံစံကို မည်သို့ပြောင်းလဲစေခဲ့သည်ကို လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What was one of the very first great inventions that helped people move heavy things and travel faster?',
+        questionMy:
+            'လူများအား လေးလံသောပစ္စည်းများကို ရွှေ့ရန်နှင့် ပိုမြန်စွာ ခရီးသွားနိုင်ရန် ကူညီပေးခဲ့သည့် အစောဆုံး ကြီးမြတ်သော တီထွင်မှုတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The wheel',
+          'The telephone',
+          'The lightbulb',
+          'The printing press',
+        ],
+        optionsMy: ['ဘီး', 'ဖုန်း', 'မီးလုံး', 'ပုံနှိပ်စက်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What invention allows people to talk to someone who is far away by speaking into a device?',
+        questionMy:
+            'အဝေးရောက်နေသူတစ်ဦးနှင့် စက်ပစ္စည်းတစ်ခုကို ပြောဆိုခြင်းဖြင့် စကားပြောနိုင်စေသည့် တီထွင်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The telephone',
+          'The wheel',
+          'The printing press',
+          'The lightbulb',
+        ],
+        optionsMy: ['ဖုန်း', 'ဘီး', 'ပုံနှိပ်စက်', 'မီးလုံး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Before the lightbulb was invented, what did people mainly use to light their homes at night?',
+        questionMy:
+            'မီးလုံးမတီထွင်မီက လူများသည် ညအချိန်တွင် အိမ်ကို အလင်းရောင်ပေးရန် အဓိကအားဖြင့် အဘယ်အရာကို အသုံးပြုခဲ့သနည်း။',
+        optionsEn: [
+          'Candles and oil lamps',
+          'Solar panels',
+          'Batteries',
+          'Electric lamps',
+        ],
+        optionsMy: [
+          'ဖယောင်းတိုင်နှင့် ဆီမီးအိမ်များ',
+          'ဆိုလာအားသုံးပစ္စည်းများ',
+          'ဘက်ထရီများ',
+          'လျှပ်စစ်မီးအိမ်များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What did the printing press make it possible to do?',
+        questionMy: 'ပုံနှိပ်စက်ကြောင့် အဘယ်အရာကို ပြုလုပ်နိုင်လာခဲ့သနည်း။',
+        optionsEn: [
+          'Make many copies of books quickly instead of writing each one by hand',
+          'Send messages instantly through the air',
+          'Light up a whole city at night',
+          'Move heavy loads without any effort',
+        ],
+        optionsMy: [
+          'စာအုပ်တစ်အုပ်ချင်းကို လက်ဖြင့်ရေးနေမည့်အစား စာအုပ်များစွာကို လျင်မြန်စွာ မိတ္တူကူးနိုင်ခြင်း',
+          'လေထဲမှတစ်ဆင့် သတင်းများကို ချက်ချင်းပေးပို့ခြင်း',
+          'တစ်မြို့လုံးကို ညအချိန်တွင် အလင်းရောင်ပေးခြင်း',
+          'အားမစိုက်ဘဲ လေးလံသောပစ္စည်းများကို ရွှေ့ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is TRUE about how the wheel helped early people?',
+        questionMy:
+            'ဘီးသည် ရှေးလူများကို မည်သို့ကူညီခဲ့သည်နှင့်ပတ်သက်၍ အောက်ပါတို့တွင် မှန်ကန်သောအချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It made carts and vehicles able to carry loads more easily',
+          'It let people talk across long distances',
+          'It printed books for the first time',
+          'It replaced candles as a light source',
+        ],
+        optionsMy: [
+          'လှည်းများနှင့် ယာဉ်များကို ဝန်များပိုမိုလွယ်ကူစွာ သယ်ဆောင်နိုင်စေခဲ့သည်',
+          'လူများကို ဝေးလံသောနေရာများသို့ စကားပြောနိုင်စေခဲ့သည်',
+          'စာအုပ်များကို ပထမဆုံးအကြိမ် ပုံနှိပ်ပေးခဲ့သည်',
+          'ဖယောင်းတိုင်၏ အစားထိုးအလင်းရောင်အဖြစ် ရှိလာခဲ့သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Sports and Cultural Traditions Around the World',
+    titleMy: 'ကမ္ဘာ့အားကစားနှင့် ယဉ်ကျေးမှုအစဉ်အလာများ',
+    descriptionEn:
+        'Learn about the Olympic Games, popular sports from different countries, and cultural festivals celebrated around the world.',
+    descriptionMy:
+        'အိုလံပစ်ပွဲတော်ကြီး၊ နိုင်ငံအသီးသီးမှ လူကြိုက်များသော အားကစားများနှင့် ကမ္ဘာတစ်ဝှမ်းရှိ ယဉ်ကျေးမှုပွဲတော်များအကြောင်းကို လေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'How often are the Summer Olympic Games usually held?',
+        questionMy:
+            'နွေရာသီ အိုလံပစ်ပွဲတော်ကြီးကို ပုံမှန်အားဖြင့် မည်မျှကြာတိုင်း ကျင်းပလေ့ရှိသနည်း။',
+        optionsEn: [
+          'Every 4 years',
+          'Every year',
+          'Every 10 years',
+          'Every 2 years',
+        ],
+        optionsMy: [
+          'နှစ် ၄ နှစ်တစ်ကြိမ်',
+          'နှစ်စဉ်',
+          'နှစ် ၁၀ နှစ်တစ်ကြိမ်',
+          'နှစ် ၂ နှစ်တစ်ကြိမ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What symbol is famously associated with the Olympic Games?',
+        questionMy:
+            'အိုလံပစ်ပွဲတော်ကြီးနှင့် ကျော်ကြားစွာ ဆက်စပ်နေသော သင်္ကေတမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Five interlocking rings',
+          'A golden star',
+          'A red dragon',
+          'A blue triangle',
+        ],
+        optionsMy: [
+          'ဆက်စပ်နေသော စက်ဝိုင်း ၅ ခု',
+          'ရွှေကြယ်ပွင့်',
+          'အနီရောင် နဂါး',
+          'အပြာရောင် တြိဂံ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Sumo wrestling is a traditional sport most closely associated with which country?',
+        questionMy:
+            'ဆူမိုးသမိုင်းသတ်ပွဲသည် မည်သည့်နိုင်ငံနှင့် အနီးစပ်ဆုံး ဆက်စပ်နေသော ရိုးရာအားကစားဖြစ်သနည်း။',
+        optionsEn: ['Japan', 'Brazil', 'Canada', 'Egypt'],
+        optionsMy: [
+          'ဂျပန်နိုင်ငံ',
+          'ဘရာဇီးနိုင်ငံ',
+          'ကနေဒါနိုင်ငံ',
+          'အီဂျစ်နိုင်ငံ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which festival is well known for its colorful powders thrown during springtime celebrations in India?',
+        questionMy:
+            'အိန္ဒိယနိုင်ငံ၏ နွေဦးရာသီပွဲတော်များတွင် အရောင်စုံအမှုန့်များ ပက်ဖျန်းလေ့ရှိသော ကျော်ကြားသည့်ပွဲတော်မှာ အဘယ်နည်း။',
+        optionsEn: ['Holi', 'Diwali', 'Songkran', 'Thanksgiving'],
+        optionsMy: [
+          'ဟိုလီပွဲတော်',
+          'ဒီဝါလီပွဲတော်',
+          'ဆွန်ကရန်ပွဲတော်',
+          'သင့်စ်ဂစ်ဗင်းပွဲတော်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which sport is played at the FIFA World Cup, one of the most watched sporting events in the world?',
+        questionMy:
+            'ကမ္ဘာ့တွင် အကြည့်အရှုအများဆုံး အားကစားပွဲတော်များထဲမှ တစ်ခုဖြစ်သော ဖီဖာ ကမ္ဘာ့ဖလားတွင် မည်သည့်အားကစားကို ကစားကြသနည်း။',
+        optionsEn: ['Football (soccer)', 'Basketball', 'Tennis', 'Golf'],
+        optionsMy: ['ဘောလုံး', 'ဘတ်စကက်ဘော', 'တင်းနစ်', 'ဂေါက်သီး'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Scientists and Innovators Who Changed the World',
+    titleMy:
+        'ကမ္ဘာကြီးကို ပြောင်းလဲစေသော သိပ္ပံပညာရှင်များနှင့် တီထွင်ရှင်များ',
+    descriptionEn:
+        'Learn about famous scientists and inventors and the discoveries and inventions that changed how people live.',
+    descriptionMy:
+        'နာမည်ကြီးသိပ္ပံပညာရှင်များနှင့် တီထွင်ရှင်များအကြောင်း၊ လူတို့၏ဘဝနေထိုင်မှုပုံစံကို ပြောင်းလဲစေခဲ့သော သူတို့၏ရှာဖွေတွေ့ရှိမှုများနှင့် တီထွင်မှုများအကြောင်းကို လေ့လာပါမည်။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Marie Curie is famous for her research into which important scientific area?',
+        questionMy:
+            'မာရီကျူရီသည် မည်သည့်အရေးကြီးသိပ္ပံနယ်ပယ်ကို သုတေသနပြုခြင်းဖြင့် နာမည်ကျော်ခဲ့သနည်း။',
+        optionsEn: [
+          'Radioactivity',
+          'Ocean currents',
+          'Volcanoes',
+          'Dinosaur bones',
+        ],
+        optionsMy: [
+          'ရေဒီယိုသတ္တိကြွမှု',
+          'သမုဒ္ဒရာလှိုင်းရေစီးကြောင်းများ',
+          'မီးတောင်များ',
+          'ဒိုင်နိုဆောရ်ရိုးထုပ်များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Thomas Edison\'s invention of the practical electric lightbulb was important mainly because it',
+        questionMy:
+            'သောမတ်စ်အက်ဒီဆင်၏ လက်တွေ့သုံးနိုင်သော လျှပ်စစ်မီးလုံးတီထွင်မှုသည် အဘယ်ကြောင့်အရေးကြီးခဲ့သနည်း။',
+        optionsEn: [
+          'gave people a safe, long-lasting way to light their homes at night',
+          'helped ships sail faster across the ocean',
+          'allowed farmers to grow crops without soil',
+          'made telephones work without wires',
+        ],
+        optionsMy: [
+          'လူများအား ညအချိန်တွင် အိမ်များကို ဘေးကင်းပြီး ကြာရှည်စွာ အလင်းရောင်ရရှိစေသောကြောင့်',
+          'သင်္ဘောများကို ပင်လယ်ပြင်တွင် ပိုမြန်စွာ သွားလာနိုင်စေသောကြောင့်',
+          'လယ်သမားများအား မြေဩဇာမလိုဘဲ သီးနှံစိုက်ပျိုးနိုင်စေသောကြောင့်',
+          'ဖုန်းများကို ကြိုးမလိုဘဲ အလုပ်လုပ်စေသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What major achievement are the Wright brothers best known for?',
+        questionMy:
+            'ရိုက်ညီအစ်ကိုများသည် မည်သည့်အရေးကြီးအောင်မြင်မှုဖြင့် အသိအမှတ်အများဆုံးရရှိခဲ့သနည်း။',
+        optionsEn: [
+          'Building and flying the first successful powered airplane',
+          'Discovering electricity',
+          'Inventing the first computer',
+          'Building the first railway train',
+        ],
+        optionsMy: [
+          'ပထမဆုံးအောင်မြင်သော အင်ဂျင်တပ်လေယာဉ်ကို တည်ဆောက်၍ ပျံသန်းနိုင်ခဲ့ခြင်း',
+          'လျှပ်စစ်ဓာတ်အားကို ရှာဖွေတွေ့ရှိခဲ့ခြင်း',
+          'ပထမဆုံးကွန်ပျူတာကို တီထွင်ခဲ့ခြင်း',
+          'ပထမဆုံးရထားလမ်းကို တည်ဆောက်ခဲ့ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why was the Wright brothers\' powered flight in 1903 such an important moment in history?',
+        questionMy:
+            '၁၉၀၃ ခုနှစ်တွင် ရိုက်ညီအစ်ကိုများ၏ အင်ဂျင်တပ်လေယာဉ်ပျံသန်းမှုသည် သမိုင်းတွင် အဘယ်ကြောင့် အလွန်အရေးကြီးသော အခိုက်အတန့်တစ်ခုဖြစ်ခဲ့သနည်း။',
+        optionsEn: [
+          'It proved that controlled, powered flight was possible and opened the way for modern air travel',
+          'It ended the use of ships for travel completely',
+          'It was the first time humans used fire',
+          'It led to the invention of the wheel',
+        ],
+        optionsMy: [
+          'ထိန်းချုပ်နိုင်သော အင်ဂျင်တပ်လေယာဉ်ပျံသန်းမှု ဖြစ်နိုင်ကြောင်းသက်သေပြပြီး ခေတ်မီလေကြောင်းခရီးစဉ်များအတွက် လမ်းဖွင့်ပေးခဲ့သောကြောင့်',
+          'သင်္ဘောဖြင့်ခရီးသွားခြင်းကို လုံးဝရပ်တန့်သွားစေခဲ့သောကြောင့်',
+          'လူသားများ မီးကို ပထမဆုံးအသုံးပြုခဲ့သည့်အချိန်ဖြစ်သောကြောင့်',
+          'လှည်းဘီးတီထွင်မှုကို ဖြစ်ပေါ်စေခဲ့သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is Marie Curie\'s discovery about radioactivity considered so important for science?',
+        questionMy:
+            'မာရီကျူရီ၏ ရေဒီယိုသတ္တိကြွမှုဆိုင်ရာ ရှာဖွေတွေ့ရှိချက်ကို သိပ္ပံပညာအတွက် အဘယ်ကြောင့် အလွန်အရေးကြီးသည်ဟု ယူဆကြသနည်း။',
+        optionsEn: [
+          'It helped later scientists develop new ways to study and treat diseases like cancer',
+          'It helped sailors find new ocean routes',
+          'It made growing rice faster',
+          'It helped build taller buildings',
+        ],
+        optionsMy: [
+          'နောက်ပိုင်းသိပ္ပံပညာရှင်များအား ကင်ဆာကဲ့သို့သောရောဂါများကို လေ့လာရန်နှင့် ကုသရန် နည်းလမ်းသစ်များ ဖော်ထုတ်နိုင်ရန် ကူညီပေးခဲ့သောကြောင့်',
+          'သင်္ဘောသားများအား သမုဒ္ဒရာလမ်းကြောင်းအသစ်များ ရှာဖွေတွေ့ရှိနိုင်ရန် ကူညီပေးခဲ့သောကြောင့်',
+          'ဆန်စိုက်ပျိုးမှုကို ပိုမြန်စေခဲ့သောကြောင့်',
+          'အဆောက်အအုံများ ပိုမိုမြင့်မားစွာ တည်ဆောက်နိုင်ရန် ကူညီပေးခဲ့သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-generalknowledge-2',
+    subject: 'generalknowledge',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Understanding Economics: Money, Markets, and Trade',
+    titleMy: 'စီးပွားရေးနားလည်ခြင်း - ငွေကြေး၊ စျေးကွက်နှင့် ကုန်သွယ်မှု',
+    descriptionEn:
+        'Learn about supply and demand, the difference between needs and wants, and how scarcity affects prices in everyday markets.',
+    descriptionMy:
+        'ပေးသွင်းမှုနှင့် ဝယ်လိုအား၊ လိုအပ်ချက်နှင့် လိုချင်စိတ်တို့၏ ကွာခြားချက်၊ ရှားပါးမှုက ဈေးနှုန်းကို မည်သို့ ထိခိုက်စေသည်ကို နေ့စဉ်စျေးကွက်များတွင် လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of the following is an example of a \'need\' rather than a \'want\'?',
+        questionMy:
+            'အောက်ပါများထဲမှ \'လိုချင်စိတ် (want)\' မဟုတ်ဘဲ \'လိုအပ်ချက် (need)\' ဖြစ်သည့် ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Rice for daily meals',
+          'A new toy car',
+          'A video game console',
+          'Fancy sneakers',
+        ],
+        optionsMy: [
+          'နေ့စဉ်စားသောက်ရန် ထမင်း (ဆန်)',
+          'ကားကစားစရာ အရုပ်အသစ်',
+          'ဗီဒီယိုဂိမ်းစက်',
+          'ဖက်ရှင်ဖိနပ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a market, what usually happens to the price of a product when demand increases but supply stays the same?',
+        questionMy:
+            'စျေးကွက်တွင် ပေးသွင်းမှု တူညီစွာရှိနေစဉ် ဝယ်လိုအား တိုးလာလျှင် ကုန်ပစ္စည်းတစ်ခု၏ ဈေးနှုန်းသည် များသောအားဖြင့် မည်သို့ဖြစ်လာမည်နည်း။',
+        optionsEn: [
+          'The price rises',
+          'The price falls',
+          'The price stays exactly the same',
+          'The product disappears from shelves permanently',
+        ],
+        optionsMy: [
+          'ဈေးနှုန်း မြင့်တက်လာလိမ့်မည်',
+          'ဈေးနှုန်း ကျဆင်းလိမ့်မည်',
+          'ဈေးနှုန်း လုံးဝ မပြောင်းလဲဘဲ ရှိနေလိမ့်မည်',
+          'ကုန်ပစ္စည်းသည် စျေးကွက်မှ ထာဝစဉ် ပျောက်ကွယ်သွားလိမ့်မည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A drought damages much of the rice harvest, making rice scarce. What is the most likely effect on the price of rice?',
+        questionMy:
+            'မိုးခေါင်မှုကြောင့် ဆန်စပါးအထွက်နှုန်း များစွာပျက်စီးသွား၍ ဆန်ရှားပါးလာသည်။ ဆန်၏ဈေးနှုန်းအပေါ် အများဆုံး ဖြစ်လာနိုင်သည့် အကျိုးသက်ရောက်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The price of rice will likely rise',
+          'The price of rice will likely fall',
+          'The price of rice will not change at all',
+          'Rice will become free',
+        ],
+        optionsMy: [
+          'ဆန်ဈေးနှုန်း မြင့်တက်နိုင်ဖွယ်ရှိသည်',
+          'ဆန်ဈေးနှုန်း ကျဆင်းနိုင်ဖွယ်ရှိသည်',
+          'ဆန်ဈေးနှုန်း လုံးဝ မပြောင်းလဲပါ',
+          'ဆန်ကို အခမဲ့ ရရှိလာမည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Farmers have an unusually large harvest of vegetables this year, so there are far more vegetables for sale than usual. What is most likely to happen to vegetable prices?',
+        questionMy:
+            'ဤနှစ်တွင် တောင်သူများသည် ပုံမှန်ထက် အထွက်နှုန်းများစွာ ရရှိကြသဖြင့် စျေးကွက်တွင် ရောင်းရန် ဟင်းသီးဟင်းရွက်များ ပုံမှန်ထက် များစွာ ပိုမိုရရှိလာသည်။ ဟင်းသီးဟင်းရွက်ဈေးနှုန်းများအပေါ် အများဆုံး ဖြစ်လာနိုင်သည့်အရာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Prices will likely fall',
+          'Prices will likely rise sharply',
+          'Prices will stay exactly the same',
+          'Vegetables will disappear from the market',
+        ],
+        optionsMy: [
+          'ဈေးနှုန်းများ ကျဆင်းနိုင်ဖွယ်ရှိသည်',
+          'ဈေးနှုန်းများ သိသိသာသာ မြင့်တက်နိုင်ဖွယ်ရှိသည်',
+          'ဈေးနှုန်းများ လုံးဝ မပြောင်းလဲပါ',
+          'ဟင်းသီးဟင်းရွက်များ စျေးကွက်မှ ပျောက်ကွယ်သွားလိမ့်မည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is \'trade\'?',
+        questionMy: '\'ကုန်သွယ်မှု (trade)\' ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Exchanging goods or services with others to get what you need',
+          'Throwing away things you do not want',
+          'Keeping all your money in a piggy bank',
+          'Growing food only for yourself',
+        ],
+        optionsMy: [
+          'မိမိလိုအပ်သောအရာများ ရရှိစေရန် အခြားသူများနှင့် ကုန်ပစ္စည်း သို့မဟုတ် ဝန်ဆောင်မှုများ လဲလှယ်ခြင်း',
+          'မလိုချင်သောအရာများကို စွန့်ပစ်ခြင်း',
+          'ငွေအားလုံးကို ဝက်အိုးထဲတွင် သိမ်းထားခြင်း',
+          'မိမိကိုယ်တိုင်စားရန်အတွက်သာ အစားအစာ စိုက်ပျိုးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];

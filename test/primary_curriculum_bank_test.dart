@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('primaryCurriculumBank', () {
-    test('contains exactly 142 modules', () {
-      expect(primaryCurriculumBank.length, 142);
+    test('contains exactly 148 modules', () {
+      expect(primaryCurriculumBank.length, 148);
     });
 
     test('every module id is unique', () {
@@ -74,9 +74,9 @@ void main() {
       }
     });
 
-    test('has 18 modules per subject, except stem (22), geography/history/'
-        'computing/coding/engineering (12 each), and generalknowledge '
-        '(6, one per grade)', () {
+    test('has 18 modules per subject (math/english/science), except stem '
+        '(22) and geography/history/computing/coding/engineering/'
+        'generalknowledge (12 each)', () {
       // year5-stem and year6-stem each carry 2 extra real-Python-syntax
       // modules on top of the baseline 3 per grade, adding 4 to the stem
       // subject total (18 -> 22). The STEAM expansion added exactly one
@@ -87,10 +87,11 @@ void main() {
       // `generalknowledge` was authored in two slices (Year 1/Year 4 first,
       // then Year 2/3/5/6 -- see the doc comment above its block in
       // primary_curriculum_bank.dart) but now also totals 6, one per grade.
-      // `geography`, `history`, `computing`, `coding`, and `engineering`
-      // then each got a second module per grade (the "depth batch 1"
-      // blocks), bringing all five to 12; `generalknowledge` is the only
-      // one still at 6, one per grade.
+      // Every one of those six subjects then got a second module per grade
+      // (the "depth batch 1" blocks, generalknowledge's being the last),
+      // bringing all six to 12 -- full depth parity across Primary. Only
+      // math/english/science (still 3 modules/grade) and stem remain
+      // different.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
@@ -103,7 +104,7 @@ void main() {
         'history': 12,
         'geography': 12,
         'computing': 12,
-        'generalknowledge': 6,
+        'generalknowledge': 12,
       };
       for (final entry in counts.entries) {
         final expected = expectedOverrides[entry.key] ?? 18;
@@ -115,7 +116,7 @@ void main() {
       }
     });
 
-    test('has 23 modules per grade, except year5/year6 which have 25', () {
+    test('has 24 modules per grade, except year5/year6 which have 26', () {
       // Every grade's baseline is 12 (4 subjects x 3 modules); the STEAM
       // expansion adds exactly 2 more per grade (1 coding + 1 engineering),
       // bringing every grade to 14, except year5/year6 which already had 2
@@ -126,18 +127,18 @@ void main() {
       // at 19. `generalknowledge` then lands one module per grade
       // (authored in two slices -- see the doc comment above its block in
       // primary_curriculum_bank.dart), bringing every grade to 18, except
-      // year5/year6 which land at 20. The "geography/history/computing/
-      // coding/engineering depth batch 1" blocks each add one more module
-      // to every grade, bringing every grade to 23, except year5/year6
-      // which land at 25.
+      // year5/year6 which land at 20. The six "depth batch 1" blocks
+      // (geography/history/computing/coding/engineering/generalknowledge)
+      // each add one more module to every grade, bringing every grade to
+      // 24, except year5/year6 which land at 26.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
       }
       expect(counts.length, 6, reason: 'expected 6 grades');
-      const expectedOverrides = {'year5': 25, 'year6': 25};
+      const expectedOverrides = {'year5': 26, 'year6': 26};
       for (final entry in counts.entries) {
-        final expected = expectedOverrides[entry.key] ?? 23;
+        final expected = expectedOverrides[entry.key] ?? 24;
         expect(
           entry.value,
           expected,
@@ -147,8 +148,8 @@ void main() {
     });
 
     test('has 3 modules per grade+subject combination, except year5-stem/'
-        'year6-stem (5), every geography/history/computing/coding/'
-        'engineering combo (2), and every generalknowledge combo (1)', () {
+        'year6-stem (5) and every geography/history/computing/coding/'
+        'engineering/generalknowledge combo (2)', () {
       const expectedOverrides = {'year5-stem': 5, 'year6-stem': 5};
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
@@ -156,24 +157,19 @@ void main() {
         counts[key] = (counts[key] ?? 0) + 1;
       }
       expect(counts.length, 60, reason: 'expected 60 grade+subject combos');
-      const singleModuleSubjects = {'generalknowledge'};
       const twoModuleSubjects = {
         'geography',
         'history',
         'computing',
         'coding',
         'engineering',
+        'generalknowledge',
       };
       for (final entry in counts.entries) {
-        final isSingleModuleSubject = singleModuleSubjects.any(
-          (subject) => entry.key.endsWith('-$subject'),
-        );
         final isTwoModuleSubject = twoModuleSubjects.any(
           (subject) => entry.key.endsWith('-$subject'),
         );
-        final expected = isSingleModuleSubject
-            ? 1
-            : isTwoModuleSubject
+        final expected = isTwoModuleSubject
             ? 2
             : (expectedOverrides[entry.key] ?? 3);
         expect(
