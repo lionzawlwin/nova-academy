@@ -9498,4 +9498,371 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Secondary Computing depth batch 1: a second module per grade
+  // (secondary1/secondary2/secondary3/igcse), bringing `computing` from
+  // 1 module/grade to 2 -- mirroring the "Secondary Geography/History
+  // depth batch 1" blocks above. Authored via a parallel content-
+  // generation workflow (one agent per grade); every logic-gate truth
+  // table, stack/queue trace, and the IGCSE bubble-sort pass were
+  // independently hand-verified for correctness before insertion.
+  SecondaryActivityDef(
+    id: 'mock-secondary1-computing-2',
+    subject: 'computing',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Hardware & Software Basics',
+    titleMy: 'Hardware နှင့် Software အခြေခံများ',
+    descriptionEn:
+        'Learn the main hardware components inside a computer, and understand the difference between hardware, operating systems, and application software.',
+    descriptionMy:
+        'ကွန်ပျူတာတစ်လုံးအတွင်းရှိ အဓိက hardware အစိတ်အပိုင်းများကို လေ့လာပြီး hardware၊ operating system နှင့် application software တို့၏ကွာခြားချက်ကို နားလည်ပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is the component most often described as the "brain" of the computer, responsible for executing instructions?',
+        questionMy:
+            'ကွန်ပျူတာ၏ "ဦးနှောက်" ဟုမှတ်ယူပြီး ညွှန်ကြားချက်များကို လုပ်ဆောင်ပေးသော အစိတ်အပိုင်းမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'CPU (Central Processing Unit)',
+          'RAM',
+          'Hard disk',
+          'Monitor',
+        ],
+        optionsMy: [
+          'CPU (Central Processing Unit)',
+          'RAM',
+          'Hard disk',
+          'Monitor',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the main function of RAM (Random Access Memory) in a computer?',
+        questionMy:
+            'ကွန်ပျူတာတစ်လုံးတွင် RAM (Random Access Memory) ၏ အဓိကတာဝန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To temporarily hold data and instructions the CPU is currently using',
+          'To permanently store all files even after the power is off',
+          'To display images on the screen',
+          'To connect the computer to the internet',
+        ],
+        optionsMy: [
+          'CPU က ယခုအသုံးပြုနေသော ဒေတာနှင့် ညွှန်ကြားချက်များကို ခေတ္တသိမ်းဆည်းပေးရန်',
+          'လျှပ်စစ်ပိတ်ပြီးနောက်ပင် ဖိုင်များအားလုံးကို အမြဲတမ်းသိမ်းဆည်းရန်',
+          'မျက်နှာပြင်ပေါ်တွင် ပုံရိပ်များပြသရန်',
+          'ကွန်ပျူတာကို အင်တာနက်နှင့် ချိတ်ဆက်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these best describes the difference between RAM and storage (such as a hard disk or SSD)?',
+        questionMy:
+            'RAM နှင့် storage (hard disk သို့မဟုတ် SSD ကဲ့သို့) တို့၏ ကွာခြားချက်ကို အကောင်းဆုံးဖော်ပြသည့်အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'RAM loses its data when power is off, but storage keeps data permanently',
+          'RAM and storage are exactly the same thing',
+          'Storage loses its data when power is off, but RAM keeps data permanently',
+          'RAM is used only for printing documents',
+        ],
+        optionsMy: [
+          'RAM သည် လျှပ်စစ်ပိတ်လျှင် ဒေတာပျောက်သွားသော်လည်း storage က ဒေတာကို အမြဲတမ်း ထိန်းသိမ်းထားနိုင်သည်',
+          'RAM နှင့် storage သည် အတိအကျ တူညီသောအရာဖြစ်သည်',
+          'Storage သည် လျှပ်စစ်ပိတ်လျှင် ဒေတာပျောက်သွားသော်လည်း RAM က ဒေတာကို အမြဲတမ်း ထိန်းသိမ်းထားနိုင်သည်',
+          'RAM ကို စာရွက်စာတမ်းများ ပရင့်ထုတ်ရန်သာ အသုံးပြုသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of the following is an example of hardware rather than software?',
+        questionMy:
+            'အောက်ပါတို့အနက် software မဟုတ်ဘဲ hardware ဖြစ်သည့်အရာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A keyboard',
+          'A word processor app',
+          'A web browser program',
+          'An operating system',
+        ],
+        optionsMy: [
+          'Keyboard',
+          'Word processor app',
+          'Web browser ပရိုဂရမ်',
+          'Operating system',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the key difference between an operating system (like Windows or Android) and application software (like a photo editor)?',
+        questionMy:
+            'Operating system (Windows သို့မဟုတ် Android ကဲ့သို့) နှင့် application software (ဓာတ်ပုံတည်းဖြတ်ရေး app ကဲ့သို့) တို့၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The operating system manages the computer\'s hardware and resources, while application software lets the user perform specific tasks',
+          'There is no difference; both terms mean the same thing',
+          'Application software manages hardware, while the operating system only edits photos',
+          'The operating system is a physical part inside the computer case',
+        ],
+        optionsMy: [
+          'Operating system သည် ကွန်ပျူတာ၏ hardware နှင့် resource များကို စီမံခန့်ခွဲပေးပြီး application software က အသုံးပြုသူအား တာဝန်တိကျသောလုပ်ငန်းများ လုပ်ဆောင်နိုင်ရန် ကူညီပေးသည်',
+          'ကွာခြားချက်မရှိပါ၊ စကားလုံးနှစ်ခုစလုံးသည် အတူတူပင်ဖြစ်သည်',
+          'Application software က hardware ကို စီမံခန့်ခွဲပြီး operating system က ဓာတ်ပုံများကိုသာ တည်းဖြတ်သည်',
+          'Operating system ဆိုသည်မှာ ကွန်ပျူတာအိမ်ခြံအတွင်းရှိ ရုပ်ပိုင်းဆိုင်ရာ အစိတ်အပိုင်းတစ်ခုဖြစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-computing-2',
+    subject: 'computing',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Boolean Logic and Logic Gates',
+    titleMy: 'Boolean Logic နှင့် Logic Gates များ',
+    descriptionEn:
+        'Learn how AND, OR, and NOT logic gates use truth tables to make the decisions that power every computer circuit.',
+    descriptionMy:
+        'AND၊ OR နှင့် NOT logic gates များသည် ကွန်ပျူတာ circuit တိုင်းအတွက် ဆုံးဖြတ်ချက်များချရန် truth table များကို မည်သို့အသုံးပြုသည်ကို လေ့လာပါ။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which logic gate produces an output of 1 only when every one of its inputs is 1?',
+        questionMy:
+            'Logic gate တစ်ခုသည် input အားလုံး 1 ဖြစ်မှသာ output ကို 1 အဖြစ် ထုတ်ပေးပါသည်။ ၎င်းသည် မည်သည့် logic gate ဖြစ်သနည်း။',
+        optionsEn: ['NOT gate', 'OR gate', 'AND gate', 'Buffer gate'],
+        optionsMy: ['NOT gate', 'OR gate', 'AND gate', 'Buffer gate'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An OR gate has inputs A = 0 and B = 1. What is the output?',
+        questionMy:
+            'OR gate တစ်ခုတွင် input A = 0 နှင့် B = 1 ရှိသည်။ output တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['0', '1', 'Undefined', '2'],
+        optionsMy: ['0', '1', 'မသိရသေးပါ', '2'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'A NOT gate takes a single input and does what to it?',
+        questionMy:
+            'NOT gate သည် input တစ်ခုတည်းကို လက်ခံပြီး ၎င်းအား မည်သို့ပြုလုပ်ပေးသနည်း။',
+        optionsEn: [
+          'Doubles the value',
+          'Leaves it unchanged',
+          'Reverses (inverts) it',
+          'Adds one to it',
+        ],
+        optionsMy: [
+          'တန်ဖိုးကို နှစ်ဆတိုးပေးသည်',
+          'မပြောင်းလဲဘဲ ချန်ထားသည်',
+          'ပြောင်းပြန် (invert) ပြုလုပ်ပေးသည်',
+          'တန်ဖိုးကို တစ်ခုတိုးပေးသည်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In an AND gate\'s truth table, the row where A = 1 and B = 0 gives what output value?',
+        questionMy:
+            'AND gate ၏ truth table တွင် A = 1၊ B = 0 ဖြစ်သည့် row အတွက် output တန်ဖိုးမှာ အဘယ်နည်း။',
+        optionsEn: ['0', '1', 'Undefined', 'It depends on C'],
+        optionsMy: ['0', '1', 'မသိရသေးပါ', 'C အပေါ်မူတည်သည်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Evaluate the expression A OR (B AND NOT C) when A = 1, B = 0, C = 0. What is the result?',
+        questionMy:
+            'A = 1၊ B = 0၊ C = 0 ဖြစ်သောအခါ A OR (B AND NOT C) ဖော်ပြချက်ကို တွက်ချက်ပါ။ ရလဒ်မှာ အဘယ်နည်း။',
+        optionsEn: ['0', '1', '2', 'Undefined'],
+        optionsMy: ['0', '1', '2', 'မသိရသေးပါ'],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-computing-2',
+    subject: 'computing',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Programming Languages and Translators',
+    titleMy: 'ပရိုဂရမ်းမင်းဘာသာစကားများနှင့် ဘာသာပြန်ပရိုဂရမ်များ',
+    descriptionEn:
+        'Understand the difference between high-level and low-level programming languages, and how compilers, interpreters, and assemblers translate code into a form the computer can run.',
+    descriptionMy:
+        'high-level နှင့် low-level programming language များ၏ ကွာခြားချက်ကို နားလည်ပြီး၊ compiler၊ interpreter နှင့် assembler တို့က ကုဒ်ကို ကွန်ပျူတာအလုပ်လုပ်နိုင်သော ပုံစံသို့ မည်သို့ ဘာသာပြန်ပေးသည်ကို သင်ယူပါမည်။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is the main advantage of writing a program in a high-level language (such as Python or Java) rather than in assembly language?',
+        questionMy:
+            'Python သို့မဟုတ် Java ကဲ့သို့သော high-level language ဖြင့် ပရိုဂရမ်တစ်ခု ရေးသားခြင်း၏ assembly language ထက် အဓိက အားသာချက်မှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'It runs directly on the CPU without any translation step',
+          'It uses English-like words and mathematical notation, making it easier for humans to read, write, and be portable across different computer hardware',
+          'It gives the programmer direct control over individual CPU registers and memory addresses',
+          'It always produces smaller and faster machine code than assembly language',
+        ],
+        optionsMy: [
+          'ဘာသာပြန်ခြင်း အဆင့်မရှိဘဲ CPU ပေါ်တွင် တိုက်ရိုက် အလုပ်လုပ်သည်',
+          'အင်္ဂလိပ်စကားနှင့် ဆင်တူသော စကားလုံးများနှင့် သင်္ချာသင်္ကေတများကို အသုံးပြုသဖြင့် လူသားများ ဖတ်ရန်၊ ရေးရန် ပိုမိုလွယ်ကူပြီး ကွန်ပျူတာ hardware မတူညီသည့်တိုင် အသုံးပြုနိုင်သည် (portable)',
+          'programmer အား CPU register များနှင့် memory address များကို တိုက်ရိုက်ထိန်းချုပ်ခွင့် ပေးသည်',
+          'assembly language ထက် အမြဲတမ်း ပိုသေးငယ်ပြီး ပိုမြန်ဆန်သော machine code ကို ထုတ်ပေးသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A low-level assembly language instruction is closely tied to a specific CPU\'s instruction set. Which type of translator program converts assembly language into machine code?',
+        questionMy:
+            'Low-level assembly language ညွှန်ကြားချက်တစ်ခုသည် သီးခြား CPU တစ်ခု၏ instruction set နှင့် နီးကပ်စွာ ဆက်စပ်နေသည်။ assembly language ကို machine code သို့ ပြောင်းပေးသော ဘာသာပြန်ပရိုဂရမ်အမျိုးအစားမှာ အဘယ်နည်း။',
+        optionsEn: ['A compiler', 'An interpreter', 'An assembler', 'A linker'],
+        optionsMy: ['Compiler', 'Interpreter', 'Assembler', 'Linker'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A compiler translates the entire high-level source code into machine code before the program runs, producing a standalone executable file. Which statement correctly describes how an interpreter differs from this?',
+        questionMy:
+            'Compiler တစ်ခုသည် ပရိုဂရမ်မစတင်လည်ပတ်မီ high-level source code တစ်ခုလုံးကို machine code အဖြစ် ကြိုတင်ဘာသာပြန်ပြီး ကိုယ်ပိုင်ရပ်တည်နိုင်သော executable file တစ်ခု ထုတ်ပေးသည်။ interpreter သည် ၎င်းနှင့် မည်သို့ ကွာခြားသည်ကို မှန်ကန်စွာ ဖော်ပြထားသော အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'An interpreter also produces a standalone executable file that can run without the interpreter present',
+          'An interpreter translates and executes the source code line by line (or statement by statement) each time the program runs, without producing a saved executable file',
+          'An interpreter converts machine code back into high-level source code',
+          'An interpreter and a compiler are simply two names for the exact same translation process',
+        ],
+        optionsMy: [
+          'interpreter သည်လည်း interpreter မပါဘဲ လည်ပတ်နိုင်သော ကိုယ်ပိုင်ရပ်တည်သည့် executable file ကို ထုတ်ပေးသည်',
+          'interpreter သည် ပရိုဂရမ်ကို run တိုင်း source code ကို line တစ်ကြောင်းချင်း (သို့မဟုတ် statement တစ်ခုချင်း) ဘာသာပြန်ပြီး ချက်ချင်း အလုပ်လုပ်စေသည်၊ သိမ်းဆည်းထားသော executable file မထုတ်ပေးပါ',
+          'interpreter သည် machine code ကို high-level source code အဖြစ် ပြန်လည် ပြောင်းလဲပေးသည်',
+          'interpreter နှင့် compiler သည် တူညီသော ဘာသာပြန်ခြင်း လုပ်ငန်းစဉ်တစ်ခုတည်း၏ အမည်နှစ်ခုမျှသာ ဖြစ်သည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A programmer is developing and testing a new program, and wants to run each line as soon as it is written so any error is reported immediately at the exact line that caused it, before the rest of the code is checked. Which type of translator best suits this situation, and why?',
+        questionMy:
+            'Programmer တစ်ဦးသည် ပရိုဂရမ်အသစ်တစ်ခုကို ရေးဆွဲစမ်းသပ်နေပြီး၊ ကျန်ကုဒ်ကို မစစ်ဆေးမီ line တစ်ကြောင်းစီ ရေးပြီးသည်နှင့် ချက်ချင်းအလုပ်လုပ်စေကာ error ဖြစ်ပေါ်ပါက ဖြစ်ပွားစေသည့် line အတိအကျတွင် ချက်ချင်း အစီရင်ခံစေလိုသည်။ ဤအခြေအနေနှင့် အသင့်တော်ဆုံး ဘာသာပြန်ပရိုဂရမ်အမျိုးအစားမှာ အဘယ်နည်း၊ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'An assembler, because it works directly with CPU registers and can pinpoint hardware errors',
+          'An interpreter, because it executes code line by line and stops with an error message at the exact line where a fault occurs, which is useful during testing',
+          'A compiler, because it checks the entire program for errors only after producing a complete executable file',
+          'Any translator will behave identically in this situation, so the choice makes no difference',
+        ],
+        optionsMy: [
+          'Assembler, ဘာသာလွန် CPU register များနှင့် တိုက်ရိုက် လုပ်ဆောင်ပြီး hardware error များကို တိကျစွာ ညွှန်ပြနိုင်သောကြောင့်',
+          'Interpreter, ဘာသာလွန် ကုဒ်ကို line တစ်ကြောင်းချင်း အလုပ်လုပ်စေပြီး error ဖြစ်ပွားသည့် line အတိအကျတွင် error message ဖြင့် ရပ်တန့်စေသောကြောင့်၊ ၎င်းသည် စမ်းသပ်နေစဉ် အသုံးဝင်သည်',
+          'Compiler, ဘာသာလွန် ပရိုဂရမ်တစ်ခုလုံးကို executable file အပြည့်အစုံ ထုတ်ပေးပြီးမှသာ error များကို စစ်ဆေးသောကြောင့်',
+          'ဘာသာပြန်ပရိုဂရမ် မည်သည့်အမျိုးအစားမဆို ဤအခြေအနေတွင် အတူတူပင် လုပ်ဆောင်မည်ဖြစ်ရာ ရွေးချယ်မှုက ကွာခြားချက် မရှိပါ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A software company wants to sell a finished commercial application to customers so it runs at high speed and so customers cannot easily view or edit the original source code. Which translation approach is most appropriate, and why?',
+        questionMy:
+            'software ကုမ္ပဏီတစ်ခုသည် ပြီးစီးသော commercial application တစ်ခုကို ဖောက်သည်များအား ရောင်းချလိုသည်၊ ၎င်းသည် မြန်ဆန်စွာ အလုပ်လုပ်ရမည့်အပြင် ဖောက်သည်များ မူရင်း source code ကို လွယ်ကူစွာ ကြည့်ရှုတည်းဖြတ်နိုင်စေရန် မလိုလားပါ။ အသင့်တော်ဆုံး ဘာသာပြန်ဆောင်နည်းလမ်းနှင့် အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Compile the program into a standalone machine-code executable, because compiled programs run faster and do not require the original source code to be distributed or exposed',
+          'Interpret the program every time it runs, because interpreters keep the source code hidden from the CPU',
+          'Leave the program as assembly language source code and give it directly to customers, since assembly is already very fast',
+          'Distribute the high-level source code only, since customers cannot understand programming languages anyway',
+        ],
+        optionsMy: [
+          'ပရိုဂရမ်ကို ကိုယ်ပိုင်ရပ်တည်သည့် machine-code executable အဖြစ် compile လုပ်ပါ၊ ဘာသာလွန် compile လုပ်ထားသော ပရိုဂရမ်များသည် ပိုမြန်ဆန်ပြီး မူရင်း source code ကို ဖြန့်ဝေရန် သို့မဟုတ် ဖော်ပြရန် မလိုအပ်သောကြောင့်',
+          'ပရိုဂရမ်ကို run တိုင်း interpret လုပ်ပါ၊ ဘာသာလွန် interpreter များသည် source code ကို CPU မှ ဖုံးကွယ်ထားသောကြောင့်',
+          'ပရိုဂရမ်ကို assembly language source code အဖြစ်ပင် ချန်ထားပြီး ဖောက်သည်များထံ တိုက်ရိုက် ပေးအပ်ပါ၊ assembly သည် လျင်မြန်ပြီးသားဖြစ်သောကြောင့်',
+          'high-level source code ကိုသာ ဖြန့်ဝေပါ၊ ဖောက်သည်များသည် programming language ကို နားမလည်နိုင်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-computing-2',
+    subject: 'computing',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Data Structures & Sorting: Stacks, Queues, and Bubble Sort',
+    titleMy: 'ဒေတာဖွဲ့စည်းပုံနှင့် Sorting — Stack၊ Queue နှင့် Bubble Sort',
+    descriptionEn:
+        'Understand stacks and queues as fundamental data structures and trace how bubble sort reorders a list step by step.',
+    descriptionMy:
+        'Stack နှင့် Queue ကဲ့သို့သော အခြေခံ ဒေတာဖွဲ့စည်းပုံများကို နားလည်ပြီး Bubble Sort algorithm တစ်ခုက list တစ်ခုကို အဆင့်ဆင့် မည်သို့ပြန်လည်စီစဉ်ပေးသည်ကို လိုက်လံလေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which real-world scenario best illustrates a stack (LIFO) data structure?',
+        questionMy:
+            'အောက်ပါအခြေအနေများအနက် Stack (LIFO) ဒေတာဖွဲ့စည်းပုံကို အကောင်းဆုံးဖော်ပြသည့်ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A queue of customers at a bank counter, served in arrival order',
+          'A stack of plates where you always take the top plate first, and new plates are placed on top',
+          'A conveyor belt moving items in a fixed sequence',
+          'A round-robin scheduling of processes in an operating system',
+        ],
+        optionsMy: [
+          'ဘဏ်ကောင်တာတွင် ရောက်ရှိစဉ်အလိုက် ဝန်ဆောင်မှုပေးသည့် customer တန်းစီမှု',
+          'ထိပ်ဆုံးပန်းကန်ကို အမြဲယူပြီး၊ အသစ်ထားသည့်ပန်းကန်ကိုလည်း ထိပ်ဆုံးတွင်ထားသည့် ပန်းကန်အစုအပုံ',
+          'ပစ္စည်းများကို အစဉ်လိုက်တစ်ညီတည်း ရွှေ့ပေးနေသော conveyor belt',
+          'operating system တွင် process များကို အလှည့်ကျ scheduling ပြုလုပ်ခြင်း (round-robin)',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which scenario best illustrates a queue (FIFO) data structure?',
+        questionMy:
+            'အောက်ပါအခြေအနေများအနက် Queue (FIFO) ဒေတာဖွဲ့စည်းပုံကို အကောင်းဆုံးဖော်ပြသည့်ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The "Undo" feature in a text editor, which reverses the most recent action first',
+          'A print spooler that processes print jobs in the order they were submitted',
+          'A web browser\'s "Back" button history',
+          'A function call stack during recursive execution',
+        ],
+        optionsMy: [
+          'text editor ရှိ "Undo" လုပ်ဆောင်ချက်၊ နောက်ဆုံးလုပ်ဆောင်ချက်ကို အရင်ပြန်ပြင်ပေးသည်',
+          'print job များကို တင်သွင်းသည့်အစဉ်အတိုင်း လုပ်ဆောင်ပေးသော print spooler',
+          'web browser ၏ "Back" ခလုတ် history',
+          'recursive execution အတွင်း function call stack',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A stack starts empty. The operations PUSH(5), PUSH(9), PUSH(2), POP(), PUSH(7), POP() are performed in order. What is the top element of the stack after these operations?',
+        questionMy:
+            'Stack တစ်ခုသည် ဗလာအနေနှင့် စတင်သည်။ PUSH(5)၊ PUSH(9)၊ PUSH(2)၊ POP()၊ PUSH(7)၊ POP() operation များကို အစဉ်လိုက် ဆောင်ရွက်ပါသည်။ ထို operation များပြီးနောက် stack ၏ ထိပ်ဆုံးအစိတ်အပိုင်း (top element) မှာ မည်သည့်တန်ဖိုးဖြစ်မည်နည်း။',
+        optionsEn: ['5', '7', '9', '2'],
+        optionsMy: ['5', '7', '9', '2'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A queue starts empty. The operations ENQUEUE(3), ENQUEUE(6), ENQUEUE(1), DEQUEUE(), ENQUEUE(8), DEQUEUE() are performed in order. What is the front element of the queue after these operations?',
+        questionMy:
+            'Queue တစ်ခုသည် ဗလာအနေနှင့် စတင်သည်။ ENQUEUE(3)၊ ENQUEUE(6)၊ ENQUEUE(1)၊ DEQUEUE()၊ ENQUEUE(8)၊ DEQUEUE() operation များကို အစဉ်လိုက် ဆောင်ရွက်ပါသည်။ ထို operation များပြီးနောက် queue ၏ ရှေ့ဆုံးအစိတ်အပိုင်း (front element) မှာ မည်သည့်တန်ဖိုးဖြစ်မည်နည်း။',
+        optionsEn: ['3', '6', '1', '8'],
+        optionsMy: ['3', '6', '1', '8'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A bubble sort compares adjacent elements from left to right and swaps them if the left element is greater than the right one. After exactly ONE full pass over the list [8, 3, 5, 1], what is the resulting order?',
+        questionMy:
+            'Bubble sort သည် ကပ်လျက်ရှိသော element နှစ်ခုကို ဘယ်မှညာသို့ နှိုင်းယှဉ်ပြီး၊ ဘယ်ဘက်ရှိ element သည် ညာဘက်ရှိ element ထက်ကြီးလျှင် နေရာလဲပေးသည်။ list [8, 3, 5, 1] ကို တစ်ကြိမ်တည်း (one full pass) ဖြတ်သန်းပြီးနောက် ရရှိလာမည့် အစီအစဉ်မှာ အဘယ်နည်း။',
+        optionsEn: ['8, 3, 5, 1', '3, 8, 5, 1', '3, 5, 1, 8', '1, 3, 5, 8'],
+        optionsMy: ['8, 3, 5, 1', '3, 8, 5, 1', '3, 5, 1, 8', '1, 3, 5, 8'],
+        correctIndex: 2,
+      ),
+    ],
+  ),
 ];

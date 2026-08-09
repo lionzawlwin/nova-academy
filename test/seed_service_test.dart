@@ -343,8 +343,8 @@ void main() {
     final nurseryModules = mockSeedNurseryKgModules();
     final primaryModules = mockSeedPrimaryCurriculumModules();
 
-    test('has exactly 100 modules', () {
-      expect(modules.length, 100);
+    test('has exactly 104 modules', () {
+      expect(modules.length, 104);
     });
 
     test(
