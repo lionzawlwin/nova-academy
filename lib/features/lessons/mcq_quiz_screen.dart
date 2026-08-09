@@ -130,6 +130,23 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   /// to answer this question", not cumulative quiz time.
   final Stopwatch _questionStopwatch = Stopwatch()..start();
 
+  /// Answer within this many milliseconds of a question first appearing,
+  /// on the first try (no hint used), and it counts as a Speed Bonus --
+  /// see [_selectOption].
+  static const _speedBonusThresholdMs = 3000;
+
+  /// How many questions earned a Speed Bonus so far -- each is worth one
+  /// extra star on top of [_starsEarned]'s normal score-proportional
+  /// calculation (see that getter).
+  int _speedBonusCount = 0;
+
+  /// Ticks every 100ms while the current question is unanswered and still
+  /// inside the speed-bonus window, purely to redraw
+  /// [_QuestionView]'s countdown chip -- cancelled/not restarted once the
+  /// window closes or the question is answered, so it never runs
+  /// indefinitely on a slow-to-answer question.
+  Timer? _speedBonusTicker;
+
   @override
   void initState() {
     super.initState();
@@ -137,6 +154,36 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
       widget.args.moduleId,
       widget.args.subject,
     ).map(_shuffled).toList();
+    _startSpeedBonusTicker();
+  }
+
+  void _startSpeedBonusTicker() {
+    _speedBonusTicker?.cancel();
+    _speedBonusTicker = Timer.periodic(const Duration(milliseconds: 100), (
+      timer,
+    ) {
+      if (!mounted ||
+          _answered ||
+          _questionStopwatch.elapsedMilliseconds >= _speedBonusThresholdMs) {
+        timer.cancel();
+        // One final rebuild so the chip disappears/locks in at exactly
+        // the threshold instead of lingering one tick past it.
+        if (mounted) setState(() {});
+        return;
+      }
+      setState(() {});
+    });
+  }
+
+  /// Milliseconds left in the Speed Bonus window for the *current*
+  /// question, or `null` once it's answered or the window has closed --
+  /// in both cases [_QuestionView] should stop showing the countdown chip
+  /// rather than freeze it at `0`.
+  int? get _speedBonusRemainingMs {
+    if (_answered) return null;
+    final remaining =
+        _speedBonusThresholdMs - _questionStopwatch.elapsedMilliseconds;
+    return remaining > 0 ? remaining : null;
   }
 
   void _speak(String text) {
@@ -173,6 +220,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   @override
   void dispose() {
     _advanceTimer?.cancel();
+    _speedBonusTicker?.cancel();
     _tts.dispose();
     super.dispose();
   }
@@ -186,12 +234,18 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     if (isCorrect) {
       // A hint-assisted correct answer still counts as correct: the
       // student still reasoned their way to the right answer -- hints are
-      // scaffolding, not disqualification.
-      _perQuestionMillis.add(_questionStopwatch.elapsedMilliseconds);
+      // scaffolding, not disqualification. It does disqualify the Speed
+      // Bonus, though: a hint only ever appears after a prior wrong tap,
+      // so this was never a first-try-and-fast answer.
+      final elapsed = _questionStopwatch.elapsedMilliseconds;
+      _perQuestionMillis.add(elapsed);
+      final earnedSpeedBonus =
+          _hintsRevealed == 0 && elapsed <= _speedBonusThresholdMs;
       setState(() {
         _selectedIndex = index;
         _answered = true;
         _score++;
+        if (earnedSpeedBonus) _speedBonusCount++;
       });
       _advanceTimer = Timer(const Duration(milliseconds: 850), _advance);
       return;
@@ -248,12 +302,23 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     _questionStopwatch
       ..reset()
       ..start();
+    _startSpeedBonusTicker();
   }
 
-  int get _starsEarned {
+  /// Base stars, proportional to score -- the same calculation as before
+  /// the Speed Bonus existed, kept separate from [_starsEarned] so the
+  /// results screen can show the bonus as its own line rather than
+  /// folding it invisibly into one total.
+  int get _baseStarsEarned {
     if (_questions.isEmpty) return 0;
     return (_score / _questions.length * widget.args.stars).round();
   }
+
+  /// One extra star per question answered inside [_speedBonusThresholdMs]
+  /// on the first try -- see [_selectOption].
+  int get _speedBonusStars => _speedBonusCount;
+
+  int get _starsEarned => _baseStarsEarned + _speedBonusStars;
 
   /// Persists this quiz completion to the active student's `Children` doc
   /// (stars earned + completed-module id, via [markModuleCompleted]).
@@ -360,6 +425,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                 ghostTotalMillis: ghost?.totalMillis,
                 lessonId: widget.args.moduleId,
                 lessonTitle: widget.args.title,
+                speedBonusStars: _speedBonusStars,
               )
             : Padding(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
@@ -399,6 +465,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                         onSpeak: _speak,
                         triedWrong: _triedWrong,
                         hintsRevealed: _hintsRevealed,
+                        speedBonusRemainingMs: _speedBonusRemainingMs,
                       ),
                     ),
                   ],
@@ -532,6 +599,48 @@ class _GhostPaceChip extends StatelessWidget {
   }
 }
 
+/// The live Speed Bonus countdown: "answer within N.Ns for a bonus star".
+/// Purely a readout of `McqQuizScreen._speedBonusRemainingMs` -- it owns
+/// no timer of its own, so it only ever shows what the parent state
+/// already computed for this frame.
+class _SpeedBonusChip extends StatelessWidget {
+  const _SpeedBonusChip({required this.remainingMs});
+
+  final int remainingMs;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final seconds = (remainingMs / 1000).toStringAsFixed(1);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: AppColors.goldMedal.withValues(alpha: 0.16),
+        borderRadius: BorderRadius.circular(999),
+        border: Border.all(color: AppColors.goldMedal.withValues(alpha: 0.5)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(Icons.bolt_rounded, size: 16, color: AppColors.goldMedal),
+          const SizedBox(width: 4),
+          Text(
+            _t(
+              context,
+              'Speed Bonus: ${seconds}s left',
+              'အမြန်ဆု: $secondsစက္ကန့် ကျန်သည်',
+            ),
+            style: theme.textTheme.labelSmall?.copyWith(
+              color: AppColors.bevelShadowFor(AppColors.goldMedal),
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 class _QuestionView extends StatelessWidget {
   const _QuestionView({
     required this.question,
@@ -541,12 +650,18 @@ class _QuestionView extends StatelessWidget {
     required this.onSpeak,
     required this.triedWrong,
     required this.hintsRevealed,
+    required this.speedBonusRemainingMs,
   });
 
   final QuizQuestion question;
   final int? selectedIndex;
   final bool answered;
   final ValueChanged<int> onSelect;
+
+  /// Milliseconds left to answer for a Speed Bonus, or `null` to hide the
+  /// countdown chip entirely (already answered, or the window closed) --
+  /// see `McqQuizScreen._speedBonusRemainingMs`.
+  final int? speedBonusRemainingMs;
 
   /// Reads a piece of question/option text aloud (see `McqQuizScreen._speak`)
   /// -- threaded down here rather than each option owning its own
@@ -604,6 +719,10 @@ class _QuestionView extends StatelessWidget {
             ],
           ),
         ),
+        if (speedBonusRemainingMs != null) ...[
+          const SizedBox(height: 10),
+          _SpeedBonusChip(remainingMs: speedBonusRemainingMs!),
+        ],
         const SizedBox(height: 20),
         if (hintsRevealed > 0) ...[
           _HintPanel(hints: hints, hintsRevealed: hintsRevealed),
@@ -1095,6 +1214,7 @@ class _QuizResults extends StatelessWidget {
     this.ghostTotalMillis,
     this.lessonId,
     this.lessonTitle,
+    this.speedBonusStars = 0,
   });
 
   final int score;
@@ -1129,6 +1249,12 @@ class _QuizResults extends StatelessWidget {
   /// look up without a lesson id.
   final String? lessonId;
   final String? lessonTitle;
+
+  /// How many questions earned a Speed Bonus (see
+  /// `_McqQuizScreenState._speedBonusStars`) -- `0` shows no bonus line at
+  /// all, so a quiz nobody answered fast just looks like results always
+  /// did before the Speed Bonus existed.
+  final int speedBonusStars;
 
   @override
   Widget build(BuildContext context) {
@@ -1183,6 +1309,31 @@ class _QuizResults extends StatelessWidget {
           if (ghostTotalMillis != null) ...[
             const SizedBox(height: 12),
             _GhostResultBanner(beatGhost: beatGhost),
+          ],
+          if (speedBonusStars > 0) ...[
+            const SizedBox(height: 12),
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(
+                  Icons.bolt_rounded,
+                  size: 18,
+                  color: AppColors.goldMedal,
+                ),
+                const SizedBox(width: 6),
+                Text(
+                  _t(
+                    context,
+                    'Speed Bonus: +$speedBonusStars',
+                    'အမြန်ဆု: +$speedBonusStars',
+                  ),
+                  style: theme.textTheme.labelLarge?.copyWith(
+                    color: AppColors.bevelShadowFor(AppColors.goldMedal),
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ],
+            ),
           ],
           const SizedBox(height: 20),
           Container(
