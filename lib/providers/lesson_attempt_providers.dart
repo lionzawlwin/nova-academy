@@ -24,6 +24,10 @@ Future<void> recordLessonAttempt(
   required String kind,
   required int correctCount,
   required int totalCount,
+  /// Per-question timing for Ghost Mode -- omitted (stays `[]`) by every
+  /// pre-existing call site, which keeps writing untimed attempts exactly
+  /// as before. Only `McqQuizScreen`'s Ghost Mode run passes this.
+  List<int> perQuestionMillis = const [],
 }) async {
   final docRef = firestore
       .collection(AppConstants.lessonAttemptsCollection)
@@ -36,6 +40,7 @@ Future<void> recordLessonAttempt(
     correctCount: correctCount,
     totalCount: totalCount,
     completedAtMillis: DateTime.now().millisecondsSinceEpoch,
+    perQuestionMillis: perQuestionMillis,
   );
   await docRef.set(attempt.toJson()..remove('id'));
 }
@@ -85,6 +90,29 @@ Map<String, LessonAttemptModel> latestAttemptsByLesson(
   return latest;
 }
 
+/// The best prior timed attempt at [lessonId] -- highest [scorePercent],
+/// ties broken by lowest [totalMillis] -- or `null` if [attempts] has no
+/// [LessonAttemptModel.hasTiming] attempt at that lesson yet (first-ever
+/// play, or every prior attempt predates Ghost Mode). This is a "best
+/// run", not "most recent" like [latestAttemptsByLesson]: racing your own
+/// worst previous score wouldn't be much of a challenge.
+LessonAttemptModel? bestTimedAttemptForLesson(
+  List<LessonAttemptModel> attempts,
+  String lessonId,
+) {
+  LessonAttemptModel? best;
+  for (final attempt in attempts) {
+    if (attempt.lessonId != lessonId || !attempt.hasTiming) continue;
+    if (best == null ||
+        attempt.scorePercent > best.scorePercent ||
+        (attempt.scorePercent == best.scorePercent &&
+            attempt.totalMillis < best.totalMillis)) {
+      best = attempt;
+    }
+  }
+  return best;
+}
+
 /// Riverpod wrapper combining [childLessonAttemptsProvider] +
 /// [latestAttemptsByLesson] for the *active* child specifically, so
 /// mastery/remedial consumers don't each need to know the child id or
@@ -99,3 +127,23 @@ final activeChildLatestAttemptsProvider =
       final attemptsAsync = ref.watch(childLessonAttemptsProvider(child.id));
       return latestAttemptsByLesson(attemptsAsync.valueOrNull ?? const []);
     });
+
+/// The active child's Ghost Mode opponent for [lessonId] -- `null` for a
+/// self-profile preview (no child), before [childLessonAttemptsProvider]
+/// has emitted, or a genuine first-ever timed play of this lesson. Mirrors
+/// [activeChildLatestAttemptsProvider]'s shape/rationale, scoped to one
+/// lesson via [bestTimedAttemptForLesson] instead of reducing every
+/// lesson at once, since `McqQuizScreen` only ever needs its own lesson's
+/// ghost.
+final ghostAttemptProvider = Provider.family<LessonAttemptModel?, String>((
+  ref,
+  lessonId,
+) {
+  final child = ref.watch(activeChildProvider);
+  if (child == null) return null;
+  final attemptsAsync = ref.watch(childLessonAttemptsProvider(child.id));
+  return bestTimedAttemptForLesson(
+    attemptsAsync.valueOrNull ?? const [],
+    lessonId,
+  );
+});

@@ -11,6 +11,7 @@ import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/glossy_badge.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../models/child_model.dart';
+import '../../models/lesson_attempt_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
@@ -112,6 +113,19 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   /// fallback rationale).
   final TtsService _tts = TtsService();
 
+  /// Ghost Mode timing: elapsed milliseconds for each *finalized* question
+  /// so far, in order -- appended to in `_selectOption` the moment a
+  /// question locks in (correct, or wrong with no hints left), never
+  /// touched again afterward. Recorded via [recordLessonAttempt] on
+  /// completion so a future run can race against this one.
+  final List<int> _perQuestionMillis = [];
+
+  /// Wall-clock time the *current* question first became visible --
+  /// reset at the top of every question (initial load and each
+  /// `_advance`), so `_perQuestionMillis`' per-entry values measure "time
+  /// to answer this question", not cumulative quiz time.
+  final Stopwatch _questionStopwatch = Stopwatch()..start();
+
   @override
   void initState() {
     super.initState();
@@ -169,6 +183,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
       // A hint-assisted correct answer still counts as correct: the
       // student still reasoned their way to the right answer -- hints are
       // scaffolding, not disqualification.
+      _perQuestionMillis.add(_questionStopwatch.elapsedMilliseconds);
       setState(() {
         _selectedIndex = index;
         _answered = true;
@@ -199,6 +214,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     // as before. Only use the longer post-hint delay when a hint was
     // actually shown this question -- the true zero-hint case keeps
     // today's exact 850ms so it's byte-for-byte unchanged in timing.
+    _perQuestionMillis.add(_questionStopwatch.elapsedMilliseconds);
     setState(() {
       _triedWrong.add(index);
       _selectedIndex = index;
@@ -225,6 +241,9 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
       _triedWrong.clear();
       _hintsRevealed = 0;
     });
+    _questionStopwatch
+      ..reset()
+      ..start();
   }
 
   int get _starsEarned {
@@ -268,6 +287,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
       await recordLessonAttempt(
         ref.read(firestoreProvider),
         childId: activeProfile.child.id,
+        perQuestionMillis: _perQuestionMillis,
         lessonId: moduleId,
         kind: 'quiz',
         correctCount: _score,
@@ -278,9 +298,23 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     }
   }
 
+  /// Ghost Mode opponent for this lesson -- `null` for a self-profile
+  /// preview, a module-less quiz (see `_recordCompletion`'s same
+  /// `moduleId == null` gate), or a genuine first-ever timed play.
+  LessonAttemptModel? _ghost(WidgetRef ref) {
+    final moduleId = widget.args.moduleId;
+    if (moduleId == null) return null;
+    return ref.watch(ghostAttemptProvider(moduleId));
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final ghost = _ghost(ref);
+    final ghostQuestionMillis =
+        ghost != null && _currentIndex < ghost.perQuestionMillis.length
+        ? ghost.perQuestionMillis[_currentIndex]
+        : null;
 
     return Scaffold(
       appBar: AppBar(
@@ -297,6 +331,8 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                 shareCardKey: _shareCardKey,
                 childAliasName: _resultChild?.aliasName,
                 currentStreakDays: _resultChild?.currentStreakDays ?? 0,
+                totalMillis: _perQuestionMillis.fold(0, (a, b) => a + b),
+                ghostTotalMillis: ghost?.totalMillis,
               )
             : Padding(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
@@ -308,15 +344,23 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                       current: _currentIndex,
                     ),
                     const SizedBox(height: 8),
-                    Text(
-                      _t(
-                        context,
-                        'Question ${_currentIndex + 1} of ${_questions.length}',
-                        'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
-                      ),
-                      style: theme.textTheme.labelLarge?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            _t(
+                              context,
+                              'Question ${_currentIndex + 1} of ${_questions.length}',
+                              'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
+                            ),
+                            style: theme.textTheme.labelLarge?.copyWith(
+                              color: theme.colorScheme.onSurfaceVariant,
+                            ),
+                          ),
+                        ),
+                        if (ghostQuestionMillis != null)
+                          _GhostPaceChip(millis: ghostQuestionMillis),
+                      ],
                     ),
                     const SizedBox(height: 20),
                     Expanded(
@@ -413,6 +457,50 @@ class _SegmentedProgressBar extends StatelessWidget {
             ),
           ),
       ],
+    );
+  }
+}
+
+/// Ghost Mode's live pace target: "your best run answered this question in
+/// N.Ns" -- a small pill next to the question counter, shown only while a
+/// [ghostAttemptProvider] result exists for the current question index.
+/// Purely informational (no timer/countdown of its own): the race is felt
+/// by comparing this number to how long the student actually takes, not by
+/// this widget ticking down.
+class _GhostPaceChip extends StatelessWidget {
+  const _GhostPaceChip({required this.millis});
+
+  final int millis;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final seconds = (millis / 1000).toStringAsFixed(1);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: AppColors.deepCobalt.withValues(alpha: 0.12),
+        borderRadius: BorderRadius.circular(999),
+        border: Border.all(color: AppColors.deepCobalt.withValues(alpha: 0.35)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(
+            Icons.directions_run_rounded,
+            size: 14,
+            color: AppColors.deepCobalt,
+          ),
+          const SizedBox(width: 4),
+          Text(
+            _t(context, '${seconds}s', '$secondsစက္ကန့်'),
+            style: theme.textTheme.labelSmall?.copyWith(
+              color: AppColors.deepCobalt,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -917,6 +1005,56 @@ class _SheenTriangleClipper extends CustomClipper<Path> {
 
 /// The end-of-quiz results summary: score, stars earned, and a primary
 /// button that pops the screen.
+/// Ghost Mode's end-of-quiz verdict: a simple win/lose banner comparing
+/// this run's total time against the prior best. No numeric readout here
+/// (the per-question [_GhostPaceChip]s already showed the pace live) --
+/// just the outcome, so the takeaway is unambiguous for a young reader.
+class _GhostResultBanner extends StatelessWidget {
+  const _GhostResultBanner({required this.beatGhost});
+
+  final bool beatGhost;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final color = beatGhost ? AppColors.secondary : AppColors.deepCobalt;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.14),
+        borderRadius: BorderRadius.circular(999),
+        border: Border.all(color: color.withValues(alpha: 0.4)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(
+            beatGhost
+                ? Icons.emoji_events_rounded
+                : Icons.directions_run_rounded,
+            size: 18,
+            color: color,
+          ),
+          const SizedBox(width: 8),
+          Text(
+            beatGhost
+                ? _t(context, 'New best time!', 'အကောင်းဆုံး အချိန်သစ်!')
+                : _t(
+                    context,
+                    'So close — try again to beat your best time!',
+                    'အနီးကပ်ပဲ — အကောင်းဆုံးအချိန်ကို ဖြတ်သန်းဖို့ ထပ်စမ်းကြည့်ပါ!',
+                  ),
+            style: theme.textTheme.labelLarge?.copyWith(
+              color: color,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 class _QuizResults extends StatelessWidget {
   const _QuizResults({
     required this.score,
@@ -926,6 +1064,8 @@ class _QuizResults extends StatelessWidget {
     required this.shareCardKey,
     this.childAliasName,
     this.currentStreakDays = 0,
+    this.totalMillis = 0,
+    this.ghostTotalMillis,
   });
 
   final int score;
@@ -946,10 +1086,21 @@ class _QuizResults extends StatelessWidget {
   /// threaded down for [AchievementShareCard].
   final int currentStreakDays;
 
+  /// This run's total answering time (sum of `_perQuestionMillis`).
+  final int totalMillis;
+
+  /// The Ghost Mode opponent's total time for this lesson -- `null` when
+  /// there's no ghost (see `_McqQuizScreenState._ghost`), in which case no
+  /// Ghost Mode comparison renders at all.
+  final int? ghostTotalMillis;
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final isPerfect = total > 0 && score == total;
+    final ghostTotalMillis = this.ghostTotalMillis;
+    final beatGhost =
+        ghostTotalMillis != null && totalMillis < ghostTotalMillis;
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(24, 24, 24, 24),
@@ -993,6 +1144,10 @@ class _QuizResults extends StatelessWidget {
               fontWeight: FontWeight.w800,
             ),
           ),
+          if (ghostTotalMillis != null) ...[
+            const SizedBox(height: 12),
+            _GhostResultBanner(beatGhost: beatGhost),
+          ],
           const SizedBox(height: 20),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),

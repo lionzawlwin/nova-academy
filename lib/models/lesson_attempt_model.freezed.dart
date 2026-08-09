@@ -29,6 +29,14 @@ mixin _$LessonAttemptModel {
   int get totalCount => throw _privateConstructorUsedError;
   int get completedAtMillis => throw _privateConstructorUsedError;
 
+  /// Milliseconds spent on each question, in order, for `kind: 'quiz'`
+  /// attempts only (Ghost Mode racing needs a per-question pace, not
+  /// just a total) -- `@Default(<int>[])` rather than required so every
+  /// pre-existing `LessonAttempts` document (written before this field
+  /// existed) still deserializes cleanly via `fromJson`, and every
+  /// non-quiz `kind` can keep omitting it without a special case.
+  List<int> get perQuestionMillis => throw _privateConstructorUsedError;
+
   /// Serializes this LessonAttemptModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
 
@@ -54,6 +62,7 @@ abstract class $LessonAttemptModelCopyWith<$Res> {
     int correctCount,
     int totalCount,
     int completedAtMillis,
+    List<int> perQuestionMillis,
   });
 }
 
@@ -79,6 +88,7 @@ class _$LessonAttemptModelCopyWithImpl<$Res, $Val extends LessonAttemptModel>
     Object? correctCount = null,
     Object? totalCount = null,
     Object? completedAtMillis = null,
+    Object? perQuestionMillis = null,
   }) {
     return _then(
       _value.copyWith(
@@ -110,6 +120,10 @@ class _$LessonAttemptModelCopyWithImpl<$Res, $Val extends LessonAttemptModel>
                 ? _value.completedAtMillis
                 : completedAtMillis // ignore: cast_nullable_to_non_nullable
                       as int,
+            perQuestionMillis: null == perQuestionMillis
+                ? _value.perQuestionMillis
+                : perQuestionMillis // ignore: cast_nullable_to_non_nullable
+                      as List<int>,
           )
           as $Val,
     );
@@ -133,6 +147,7 @@ abstract class _$$LessonAttemptModelImplCopyWith<$Res>
     int correctCount,
     int totalCount,
     int completedAtMillis,
+    List<int> perQuestionMillis,
   });
 }
 
@@ -157,6 +172,7 @@ class __$$LessonAttemptModelImplCopyWithImpl<$Res>
     Object? correctCount = null,
     Object? totalCount = null,
     Object? completedAtMillis = null,
+    Object? perQuestionMillis = null,
   }) {
     return _then(
       _$LessonAttemptModelImpl(
@@ -188,6 +204,10 @@ class __$$LessonAttemptModelImplCopyWithImpl<$Res>
             ? _value.completedAtMillis
             : completedAtMillis // ignore: cast_nullable_to_non_nullable
                   as int,
+        perQuestionMillis: null == perQuestionMillis
+            ? _value._perQuestionMillis
+            : perQuestionMillis // ignore: cast_nullable_to_non_nullable
+                  as List<int>,
       ),
     );
   }
@@ -204,7 +224,8 @@ class _$LessonAttemptModelImpl implements _LessonAttemptModel {
     required this.correctCount,
     required this.totalCount,
     required this.completedAtMillis,
-  });
+    final List<int> perQuestionMillis = const <int>[],
+  }) : _perQuestionMillis = perQuestionMillis;
 
   factory _$LessonAttemptModelImpl.fromJson(Map<String, dynamic> json) =>
       _$$LessonAttemptModelImplFromJson(json);
@@ -224,9 +245,32 @@ class _$LessonAttemptModelImpl implements _LessonAttemptModel {
   @override
   final int completedAtMillis;
 
+  /// Milliseconds spent on each question, in order, for `kind: 'quiz'`
+  /// attempts only (Ghost Mode racing needs a per-question pace, not
+  /// just a total) -- `@Default(<int>[])` rather than required so every
+  /// pre-existing `LessonAttempts` document (written before this field
+  /// existed) still deserializes cleanly via `fromJson`, and every
+  /// non-quiz `kind` can keep omitting it without a special case.
+  final List<int> _perQuestionMillis;
+
+  /// Milliseconds spent on each question, in order, for `kind: 'quiz'`
+  /// attempts only (Ghost Mode racing needs a per-question pace, not
+  /// just a total) -- `@Default(<int>[])` rather than required so every
+  /// pre-existing `LessonAttempts` document (written before this field
+  /// existed) still deserializes cleanly via `fromJson`, and every
+  /// non-quiz `kind` can keep omitting it without a special case.
+  @override
+  @JsonKey()
+  List<int> get perQuestionMillis {
+    if (_perQuestionMillis is EqualUnmodifiableListView)
+      return _perQuestionMillis;
+    // ignore: implicit_dynamic_type
+    return EqualUnmodifiableListView(_perQuestionMillis);
+  }
+
   @override
   String toString() {
-    return 'LessonAttemptModel(id: $id, childId: $childId, lessonId: $lessonId, kind: $kind, correctCount: $correctCount, totalCount: $totalCount, completedAtMillis: $completedAtMillis)';
+    return 'LessonAttemptModel(id: $id, childId: $childId, lessonId: $lessonId, kind: $kind, correctCount: $correctCount, totalCount: $totalCount, completedAtMillis: $completedAtMillis, perQuestionMillis: $perQuestionMillis)';
   }
 
   @override
@@ -244,7 +288,11 @@ class _$LessonAttemptModelImpl implements _LessonAttemptModel {
             (identical(other.totalCount, totalCount) ||
                 other.totalCount == totalCount) &&
             (identical(other.completedAtMillis, completedAtMillis) ||
-                other.completedAtMillis == completedAtMillis));
+                other.completedAtMillis == completedAtMillis) &&
+            const DeepCollectionEquality().equals(
+              other._perQuestionMillis,
+              _perQuestionMillis,
+            ));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -258,6 +306,7 @@ class _$LessonAttemptModelImpl implements _LessonAttemptModel {
     correctCount,
     totalCount,
     completedAtMillis,
+    const DeepCollectionEquality().hash(_perQuestionMillis),
   );
 
   /// Create a copy of LessonAttemptModel
@@ -286,6 +335,7 @@ abstract class _LessonAttemptModel implements LessonAttemptModel {
     required final int correctCount,
     required final int totalCount,
     required final int completedAtMillis,
+    final List<int> perQuestionMillis,
   }) = _$LessonAttemptModelImpl;
 
   factory _LessonAttemptModel.fromJson(Map<String, dynamic> json) =
@@ -305,6 +355,15 @@ abstract class _LessonAttemptModel implements LessonAttemptModel {
   int get totalCount;
   @override
   int get completedAtMillis;
+
+  /// Milliseconds spent on each question, in order, for `kind: 'quiz'`
+  /// attempts only (Ghost Mode racing needs a per-question pace, not
+  /// just a total) -- `@Default(<int>[])` rather than required so every
+  /// pre-existing `LessonAttempts` document (written before this field
+  /// existed) still deserializes cleanly via `fromJson`, and every
+  /// non-quiz `kind` can keep omitting it without a special case.
+  @override
+  List<int> get perQuestionMillis;
 
   /// Create a copy of LessonAttemptModel
   /// with the given fields replaced by the non-null parameter values.

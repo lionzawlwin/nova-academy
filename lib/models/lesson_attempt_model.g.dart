@@ -16,6 +16,11 @@ _$LessonAttemptModelImpl _$$LessonAttemptModelImplFromJson(
   correctCount: (json['correctCount'] as num).toInt(),
   totalCount: (json['totalCount'] as num).toInt(),
   completedAtMillis: (json['completedAtMillis'] as num).toInt(),
+  perQuestionMillis:
+      (json['perQuestionMillis'] as List<dynamic>?)
+          ?.map((e) => (e as num).toInt())
+          .toList() ??
+      const <int>[],
 );
 
 Map<String, dynamic> _$$LessonAttemptModelImplToJson(
@@ -28,4 +33,5 @@ Map<String, dynamic> _$$LessonAttemptModelImplToJson(
   'correctCount': instance.correctCount,
   'totalCount': instance.totalCount,
   'completedAtMillis': instance.completedAtMillis,
+  'perQuestionMillis': instance.perQuestionMillis,
 };
