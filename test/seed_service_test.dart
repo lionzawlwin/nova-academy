@@ -257,8 +257,8 @@ void main() {
     final legacyModules = mockSeedLearningModules();
     final nurseryModules = mockSeedNurseryKgModules();
 
-    test('has exactly 136 modules', () {
-      expect(modules.length, 136);
+    test('has exactly 142 modules', () {
+      expect(modules.length, 142);
     });
 
     test(

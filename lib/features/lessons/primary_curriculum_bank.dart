@@ -11170,4 +11170,629 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Engineering depth batch 1: a second module per grade (Year 1-6),
+  // bringing `engineering` from 1 module/grade to 2, matching the
+  // "geography/history/computing/coding depth batch 1" blocks above.
+  // Authored via a parallel content-generation workflow (one agent per
+  // grade), with every physics/engineering claim (simple machines,
+  // bridge types, friction, circuits, structural stability including
+  // the Leaning Tower of Pisa's center-of-gravity explanation)
+  // independently fact-checked before being added here.
+  PrimaryActivityDef(
+    id: 'mock-year1-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Pulleys, Wedges, and Screws',
+    titleMy: 'ကြိုးဆွဲစနစ်၊ ခွက်နှင့် ဝက်အူများ',
+    descriptionEn:
+        'Learn about pulleys, wedges, and screws — simple machines that lift, split, and fasten things around us.',
+    descriptionMy:
+        'ပတ်ဝန်းကျင်တွင်ရှိသော အရာဝတ္ထုများကို ချီမြှောက်ခြင်း၊ ခွဲထုတ်ခြင်းနှင့် ကျပ်တည်းစေသော ကြိုးဆွဲစနစ်၊ ခွက်နှင့် ဝက်အူများအကြောင်း လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A pulley is a wheel with a rope around it. What does it help you do?',
+        questionMy:
+            'ကြိုးဆွဲစနစ် (pulley) သည် ကြိုးပတ်ထားသော ဘီးတစ်ခုဖြစ်သည်။ ၎င်းသည် သင့်အား အဘယ်အရာပြုလုပ်ရာတွင် ကူညီပေးသနည်း။',
+        optionsEn: [
+          'Lift or move things by pulling a rope',
+          'Cut paper into pieces',
+          'Make food taste sweet',
+          'Turn on a light bulb',
+        ],
+        optionsMy: [
+          'ကြိုးကိုဆွဲခြင်းဖြင့် အရာဝတ္ထုများကို ချီမြှောက်ခြင်း (သို့) ရွှေ့ခြင်း',
+          'စက္ကူများကို ဖြတ်ခြင်း',
+          'အစားအစာကို ချိုမြစေခြင်း',
+          'မီးလုံးကို ဖွင့်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'On a flagpole, a pulley at the top lets you...',
+        questionMy:
+            'အလံတိုင်ထိပ်ရှိ ကြိုးဆွဲစနစ်သည် သင့်အား မည်သည့်အရာကို ပြုလုပ်နိုင်စေသနည်း။',
+        optionsEn: [
+          'Raise or lower the flag by pulling a rope',
+          'Make the pole taller',
+          'Change the flag\'s color',
+          'Keep birds away',
+        ],
+        optionsMy: [
+          'ကြိုးကိုဆွဲခြင်းဖြင့် အလံကို မြှောက်ခြင်း (သို့) ချခြင်း',
+          'တိုင်ကို ပိုမြင့်စေခြင်း',
+          'အလံ၏အရောင်ကို ပြောင်းလဲစေခြင်း',
+          'ငှက်များကို ကာကွယ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A wedge is thick at one end and thin at the other. What is it good at doing?',
+        questionMy:
+            'ခွက် (wedge) သည် တစ်ဖက်တွင် ထူ၍ တစ်ဖက်တွင် ပါးသည်။ ၎င်းသည် အဘယ်အရာကို ကောင်းစွာပြုလုပ်နိုင်သနည်း။',
+        optionsEn: [
+          'Splitting or pushing things apart',
+          'Making music',
+          'Holding water',
+          'Growing plants',
+        ],
+        optionsMy: [
+          'အရာများကို ခွဲထုတ်ခြင်း (သို့) တွန်းဖယ်ခြင်း',
+          'ဂီတဖန်တီးခြင်း',
+          'ရေထိန်းသိမ်းခြင်း',
+          'အပင်စိုက်ပျိုးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of a wedge?',
+        questionMy: 'အောက်ပါတို့တွင် ခွက် (wedge) ၏ ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'An axe blade that splits wood',
+          'A rope on a flagpole',
+          'A jar lid',
+          'A skateboard wheel',
+        ],
+        optionsMy: [
+          'သစ်သားကိုခွဲသော ပုဆိန်သွား',
+          'အလံတိုင်ပေါ်ရှိ ကြိုး',
+          'ဗူးအဖုံး',
+          'စကိတ်ဘုတ်ဘီး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of a screw?',
+        questionMy: 'အောက်ပါတို့တွင် ဝက်အူ (screw) ၏ ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A jar lid that twists to close',
+          'A rope on a flagpole',
+          'An axe blade',
+          'A wooden ramp',
+        ],
+        optionsMy: [
+          'လှည့်ပိတ်ရသော ဗူးအဖုံး',
+          'အလံတိုင်ပေါ်ရှိ ကြိုး',
+          'ပုဆိန်သွား',
+          'သစ်သားစောင်းကုန်းလမ်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Materials Engineers Use',
+    titleMy: 'အင်ဂျင်နီယာများသုံးသော ပစ္စည်းများ',
+    descriptionEn:
+        'Learn about the properties of wood, metal, plastic, fabric, and glass, and discover how engineers pick the right material for each job.',
+    descriptionMy:
+        'သစ်သား၊ သတ္တု၊ ပလတ်စတစ်၊ အထည်နှင့် ဖန်တို့၏ ဂုဏ်သတ္တိများကို လေ့လာပြီး အင်ဂျင်နီယာများသည် လုပ်ငန်းတစ်ခုစီအတွက် သင့်လျော်သောပစ္စည်းကို မည်သို့ရွေးချယ်ကြောင်း ရှာဖွေလေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which material lets you see through it, so engineers use it for windows?',
+        questionMy:
+            'ပြတင်းပေါက်များအတွက် အင်ဂျင်နီယာများသုံးလေ့ရှိသော ဘေးကနေမြင်နိုင်သည့်ပစ္စည်းမှာ အဘယ်နည်း။',
+        optionsEn: ['Glass', 'Wood', 'Fabric', 'Metal'],
+        optionsMy: ['ဖန်', 'သစ်သား', 'အထည်', 'သတ္တု'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A raincoat needs to keep water out. Which property must its material have?',
+        questionMy:
+            'မိုးကာအင်္ကျီသည် ရေမဝင်အောင်ကာကွယ်ပေးရမည်။ ၎င်း၏ပစ္စည်းသည် မည်သည့်ဂုဏ်သတ္တိရှိရမည်နည်း။',
+        optionsEn: ['Waterproof', 'See-through', 'Breakable', 'Heavy'],
+        optionsMy: [
+          'ရေမဝင်နိုင်ခြင်း',
+          'ဘေးကနေမြင်နိုင်ခြင်း',
+          'အလွယ်တကူကျိုးပဲ့ခြင်း',
+          'လေးလံခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do engineers choose metal, not fabric, to build a bicycle frame?',
+        questionMy:
+            'စက်ဘီးဘောင်တည်ဆောက်ရန် အင်ဂျင်နီယာများသည် အထည်အစား သတ္တုကို ရွေးချယ်ကြသည်မှာ အဘယ့်ကြောင့်နည်း။',
+        optionsEn: [
+          'Metal is strong and holds its shape under weight',
+          'Metal is soft and stretchy',
+          'Metal is see-through',
+          'Metal floats on water',
+        ],
+        optionsMy: [
+          'သတ္တုသည်ခိုင်ခံ့ပြီး အလေးချိန်တင်သည့်တိုင် ပုံသဏ္ဌာန်မပျက်သောကြောင့်',
+          'သတ္တုသည် နူးညံ့ပြီး ဆန့်တန့်နိုင်သောကြောင့်',
+          'သတ္တုသည် ဘေးကနေမြင်နိုင်သောကြောင့်',
+          'သတ္တုသည် ရေပေါ်တွင်ပေါလွင်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which material would be the best choice for a bendy garden hose that needs to curve around corners?',
+        questionMy:
+            'ထောင့်များပတ်လည် ကွေ့ရမည့် ဆွယ်ဆွယ်ပေါက်နေသော ဥယျာဉ်ပိုက်တစ်ခုအတွက် ကောင်းမွန်ဆုံးရွေးချယ်မည့် ပစ္စည်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Flexible plastic',
+          'Solid glass',
+          'Rigid metal',
+          'Stiff wood',
+        ],
+        optionsMy: [
+          'ကွေ့ညွှတ်နိုင်သောပလတ်စတစ်',
+          'မာကျောသောဖန်',
+          'မာကျောသောသတ္တု',
+          'မာကျောသောသစ်သား',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A school desk needs a material that is strong and does not bend easily under books. Which material fits best?',
+        questionMy:
+            'ကျောင်းစာမေးများကို ခံနိုင်ရန် မကွေ့မညွတ်စေဘဲ ခိုင်မာသောပစ္စည်းလိုအပ်သော ကျောင်းစားပွဲအတွက် အသင့်လျော်ဆုံးပစ္စည်းမှာ အဘယ်နည်း။',
+        optionsEn: ['Wood', 'Soft fabric', 'Thin paper', 'Cotton wool'],
+        optionsMy: ['သစ်သား', 'နူးညံ့သောအထည်', 'ပါးလွှာသောစက္ကူ', 'ဂွမ်း'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Bridges and Their Types',
+    titleMy: 'တံတား အမျိုးအစားများ',
+    descriptionEn:
+        'Learn about beam, arch, and suspension bridges and discover what each type of bridge is best used for.',
+    descriptionMy:
+        'တန်းလျားတံတား၊ ကွေးတံတားနှင့် ကြိုးဆွဲတံတားအမျိုးအစားများအကြောင်း လေ့လာပြီး တံတားတစ်ခုစီကို မည်သည့်နေရာတွင် အကောင်းဆုံးအသုံးချနိုင်သည်ကို ရှာဖွေလေ့လာရမည်။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A beam bridge is a straight, flat bridge resting on supports called piers. What kind of gap is a beam bridge best suited for?',
+        questionMy:
+            'တန်းလျားတံတား (Beam Bridge) သည် \'ပီယာ\' ဟုခေါ်သော အထောက်များပေါ်တွင် တင်ထားသည့် ဖြောင့်တန်းပြီး ပြားသောတံတားဖြစ်သည်။ ၎င်းသည် မည်သည့်ကွာဟချက်အမျိုးအစားအတွက် အသင့်တော်ဆုံးဖြစ်သနည်း။',
+        optionsEn: [
+          'A short, straight distance, like across a small stream',
+          'A very wide ocean bay',
+          'A deep canyon with no room for supports',
+          'A gap that needs to open and close for boats',
+        ],
+        optionsMy: [
+          'ချောင်းငယ်တစ်ခုကို ဖြတ်ကျော်ရသကဲ့သို့ တိုတောင်းပြီး ဖြောင့်တန်းသောအကွာအဝေး',
+          'အလွန်ကျယ်ပြန့်သော ပင်လယ်ကွေ့',
+          'အထောက်များ တည်ဆောက်ရန်နေရာမရှိသော ချောက်ကြီးတစ်ခု',
+          'လှေများ ဖြတ်သန်းနိုင်ရန် ဖွင့်ပိတ်နိုင်ရသောနေရာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'An arch bridge has a curved shape. How does this curve help the bridge stay strong?',
+        questionMy:
+            'ကွေးတံတား (Arch Bridge) သည် ကွေးညွှတ်သောပုံသဏ္ဍာန်ရှိသည်။ ဤကွေးမှုသည် တံတားကို ခိုင်မာစေရန် မည်သို့ကူညီပေးသနည်း။',
+        optionsEn: [
+          'It spreads the weight outward and down through the sides to the ground',
+          'It lets the whole bridge float on water',
+          'It makes the bridge lighter than a paper airplane',
+          'It allows the bridge to bend upward whenever cars cross',
+        ],
+        optionsMy: [
+          'ဝန်ချိန်ကို တံတား၏ အနားနှစ်ဖက်မှတစ်ဆင့် အောက်သို့ ပျံ့နှံ့စေပြီး မြေကြီးထံ ရွှေ့ပြောင်းပေးသည်',
+          'တံတားတစ်ခုလုံးကို ရေပေါ်တွင် မျောစေသည်',
+          'တံတားကို စက္ကူလေယာဉ်ငယ်ထက် ပေါ့ပါးစေသည်',
+          'ကားများဖြတ်သန်းတိုင်း တံတားကို အပေါ်သို့ ကွေးစေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A suspension bridge has tall towers and thick cables. What is their job?',
+        questionMy:
+            'ကြိုးဆွဲတံတား (Suspension Bridge) တွင် မျှော်စင်မြင့်များနှင့် ကြိုးထူထူများ ပါဝင်သည်။ ၎င်းတို့၏ တာဝန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To hold up the road deck by hanging it from the cables',
+          'To pump rainwater away from the road',
+          'To light up the bridge at night',
+          'To collect tolls from cars crossing',
+        ],
+        optionsMy: [
+          'လမ်းကြမ်းပြင်ကို ကြိုးများမှ ချိတ်ဆွဲ၍ ထောက်ပံ့ပေးရန်',
+          'မိုးရေများကို လမ်းပေါ်မှ စုပ်ထုတ်ရန်',
+          'ညအချိန်တွင် တံတားကို မီးထွန်းညှိပေးရန်',
+          'တံတားဖြတ်ကျော်သော ကားများထံမှ အခွန်ကောက်ခံရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which type of bridge is best for crossing a very wide river or bay in one long stretch, with very few supports in the water?',
+        questionMy:
+            'ရေထဲတွင် အထောက်အနည်းငယ်သာထား၍ ကျယ်ပြန့်သောမြစ် သို့မဟုတ် ပင်လယ်ကွေ့ကို တစ်ကြောင်းတည်း ရှည်လျားစွာ ဖြတ်ကျော်ရန် မည်သည့်တံတားအမျိုးအစားက အသင့်တော်ဆုံးဖြစ်သနည်း။',
+        optionsEn: [
+          'Suspension bridge',
+          'Beam bridge',
+          'A simple wooden plank bridge',
+          'A stepping-stone crossing',
+        ],
+        optionsMy: [
+          'ကြိုးဆွဲတံတား (Suspension Bridge)',
+          'တန်းလျားတံတား (Beam Bridge)',
+          'ရိုးရှင်းသော သစ်သားပျဉ်ပြားတံတား',
+          'ကျောက်တုံးခွီများဖြင့် ဖြတ်ကျော်ရသည့်လမ်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which bridge type pushes weight out to strong supports at each end, making it a good choice for crossing a valley without needing supports in the middle?',
+        questionMy:
+            'ဝန်ချိန်ကို နှစ်ဖက်အစွန်းရှိ ခိုင်မာသောအထောက်များဆီသို့ တွန်းပို့ပေးပြီး၊ အလယ်တွင် အထောက်များ မလိုအပ်ဘဲ ချိုင့်ဝှမ်းတစ်ခုကို ဖြတ်ကျော်ရန် မည်သည့်တံတားအမျိုးအစားက သင့်တော်သနည်း။',
+        optionsEn: [
+          'Arch bridge',
+          'Beam bridge',
+          'Suspension bridge',
+          'Pontoon bridge',
+        ],
+        optionsMy: [
+          'ကွေးတံတား (Arch Bridge)',
+          'တန်းလျားတံတား (Beam Bridge)',
+          'ကြိုးဆွဲတံတား (Suspension Bridge)',
+          'ဖောင်တံတား (Pontoon Bridge)',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Push, Pull, and Friction',
+    titleMy: 'တွန်းအား၊ ဆွဲအားနှင့် ပွတ်တိုက်အား',
+    descriptionEn:
+        'Learn about push and pull forces and discover how friction slows things down when surfaces rub together.',
+    descriptionMy:
+        'တွန်းအားနှင့် ဆွဲအားများအကြောင်း လေ့လာပြီး မျက်နှာပြင်များ ပွတ်တိုက်သောအခါ ပွတ်တိုက်အားက အရာဝတ္ထုများကို မည်သို့နှေးစေကြောင်း ရှာဖွေလေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'A force that moves an object away from you is called a...',
+        questionMy:
+            'အရာဝတ္ထုတစ်ခုကို ကိုယ့်ထံမှ ဝေးအောင် ရွှေ့ပေးသည့်အားကို အဘယ်ဟုခေါ်သနည်း။',
+        optionsEn: ['Push', 'Pull', 'Friction', 'Gravity'],
+        optionsMy: ['တွန်းအား', 'ဆွဲအား', 'ပွတ်တိုက်အား', 'ဆွဲငင်အား'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which action is an example of a pull force?',
+        questionMy:
+            'အောက်ပါအချက်များထဲမှ ဆွဲအားကို သုံးသည့် လုပ်ဆောင်ချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Opening a drawer toward you',
+          'Kicking a ball forward',
+          'Pressing a doorbell',
+          'Closing a door by pushing it',
+        ],
+        optionsMy: [
+          'အံဆွဲကို ကိုယ့်ဘက်သို့ ဆွဲဖွင့်ခြင်း',
+          'ဘောလုံးကို ရှေ့သို့ကန်ခြင်း',
+          'ခေါင်းလောင်းကို ဖိနှိပ်ခြင်း',
+          'တံခါးကို တွန်း၍ပိတ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is friction?',
+        questionMy: 'ပွတ်တိုက်အားဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A force that slows things down when two surfaces rub together',
+          'A force that always speeds things up',
+          'A type of electricity',
+          'A force found only in water',
+        ],
+        optionsMy: [
+          'မျက်နှာပြင်နှစ်ခု ပွတ်တိုက်သောအခါ အရာဝတ္ထုများကို နှေးစေသည့်အား',
+          'အမြဲတမ်း အရာဝတ္ထုများကို မြန်စေသည့်အား',
+          'လျှပ်စစ်အမျိုးအစားတစ်ခု',
+          'ရေထဲတွင်သာ တွေ့ရသည့်အား',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A ball rolling on grass stops faster than the same ball rolling on ice because grass has...',
+        questionMy:
+            'ဘောလုံးတစ်လုံးကို မြက်ခင်းပေါ်နှင့် ရေခဲပြင်ပေါ်တွင် လှိမ့်လိုက်လျှင် မြက်ခင်းပေါ်ရှိဘောလုံးက ပိုမြန်ရပ်တန့်ရသည်မှာ မြက်ခင်း၌ အောက်ပါအရာ ပိုများသောကြောင့်ဖြစ်သည်။',
+        optionsEn: [
+          'More friction than the smooth ice',
+          'Less friction than the smooth ice',
+          'More gravity than the ice',
+          'No friction at all',
+        ],
+        optionsMy: [
+          'ချောမွေ့သော ရေခဲထက် ပွတ်တိုက်အား ပိုများခြင်း',
+          'ချောမွေ့သော ရေခဲထက် ပွတ်တိုက်အား ပိုနည်းခြင်း',
+          'ရေခဲထက် ဆွဲငင်အား ပိုများခြင်း',
+          'ပွတ်တိုက်အား လုံးဝမရှိခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which surface would let a toy car roll the farthest with the least slowing down?',
+        questionMy:
+            'အောက်ပါမျက်နှာပြင်များထဲမှ အဘယ်မျက်နှာပြင်တွင် ကစားစားကားတစ်စီးကို လှိမ့်ထားလျှင် အနည်းဆုံးနှေးကာ အဝေးဆုံးရောက်နိုင်မည်နည်း။',
+        optionsEn: [
+          'A smooth, polished tile floor',
+          'A rough sandy path',
+          'A thick woolen carpet',
+          'A gravel road',
+        ],
+        optionsMy: [
+          'ချောမွေ့ပြီး တောက်ပသောကြမ်းပြင်',
+          'ကြမ်းတမ်းသော သဲလမ်း',
+          'ထူထဲသော သိုးမွှေးကော်ဇော',
+          'ကျောက်စရစ်လမ်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Electrical Circuits: Let There Be Light',
+    titleMy: 'လျှပ်စစ်ပတ်လမ်း - အလင်းရောင်ဖြစ်လာပုံ',
+    descriptionEn:
+        'Learn what makes a simple electrical circuit work and discover the difference between conductors and insulators.',
+    descriptionMy:
+        'ရိုးရှင်းသောလျှပ်စစ်ပတ်လမ်းတစ်ခု အလုပ်လုပ်ပုံနှင့် လျှပ်စစ်သွယ်ဝိုက်ပစ္စည်းများနှင့် အကာအကွယ်ပစ္စည်းများ ကွာခြားပုံကို လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which four parts are needed to make a simple, working electrical circuit?',
+        questionMy:
+            'ရိုးရှင်းသော အလုပ်လုပ်နေသည့် လျှပ်စစ်ပတ်လမ်းတစ်ခုအတွက် လိုအပ်သော အစိတ်အပိုင်းလေးခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A battery, wires, a switch, and a bulb',
+          'A battery, paper, glue, and a switch',
+          'Wires, a magnet, water, and a bulb',
+          'A switch, a battery, sand, and wires',
+        ],
+        optionsMy: [
+          'ဘက်ထရီ၊ ဝါယာကြိုးများ၊ ခလုတ်၊ နှင့် မီးလုံး',
+          'ဘက်ထရီ၊ စက္ကူ၊ ကော်၊ နှင့် ခလုတ်',
+          'ဝါယာကြိုးများ၊ သံလိုက်၊ ရေ၊ နှင့် မီးလုံး',
+          'ခလုတ်၊ ဘက်ထရီ၊ သဲ၊ နှင့် ဝါယာကြိုးများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why does a light bulb fail to light up if there is a gap anywhere in the circuit\'s loop?',
+        questionMy:
+            'ပတ်လမ်းအဝိုင်းတွင် တစ်နေရာရာ၌ အကွာအဝေးပြတ်နေပါက မီးလုံးအလင်းမပေါ်ရသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'Electric current cannot flow if the path is not complete',
+          'The bulb becomes too hot to shine',
+          'The battery loses its color',
+          'Wires only work when they are bent',
+        ],
+        optionsMy: [
+          'လမ်းကြောင်းမပြည့်စုံပါက လျှပ်စစ်လျှပ်စီးကြောင်း စီးဆင်း၍ မရနိုင်သောကြောင့်',
+          'မီးလုံးသည် လွန်စွာပူလွန်း၍ အလင်းမထွက်တော့သောကြောင့်',
+          'ဘက်ထရီသည် အရောင်ပျောက်သွားသောကြောင့်',
+          'ဝါယာကြိုးများသည် ကွေးထားမှသာ အလုပ်လုပ်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A circuit has a battery, wires, and a bulb, but the switch is left open (turned off). What happens?',
+        questionMy:
+            'ပတ်လမ်းတစ်ခုတွင် ဘက်ထရီ၊ ဝါယာကြိုးများနှင့် မီးလုံးရှိသော်လည်း ခလုတ်ကို ဖွင့်ထားသည် (ပိတ်ထားသည်)။ ဘာဖြစ်မည်နည်း။',
+        optionsEn: [
+          'The circuit is incomplete, so the bulb stays off',
+          'The bulb shines brighter than usual',
+          'The battery charges itself faster',
+          'The wires change into insulators',
+        ],
+        optionsMy: [
+          'ပတ်လမ်းမပြည့်စုံသဖြင့် မီးလုံးသည် ငြိမ်နေမည်',
+          'မီးလုံးသည် ပုံမှန်ထက် ပိုတောက်ပလိမ့်မည်',
+          'ဘက်ထရီသည် ပိုမြန်စွာအားသွင်းလိမ့်မည်',
+          'ဝါယာကြိုးများသည် အကာအကွယ်ပစ္စည်းများအဖြစ် ပြောင်းသွားလိမ့်မည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do electricians use metals like copper for wires instead of plastic?',
+        questionMy:
+            'လျှပ်စစ်ပညာရှင်များသည် ဝါယာကြိုးများအတွက် ပလတ်စတစ်အစား ကြေးနီကဲ့သို့သော သတ္တုများကို အသုံးပြုကြသည်မှာ အဘယ်ကြောင့်နည်း။',
+        optionsEn: [
+          'Metals are good conductors that let electric current pass through easily',
+          'Metals are always cheaper than plastic',
+          'Metals are lighter in weight',
+          'Metals never get warm',
+        ],
+        optionsMy: [
+          'သတ္တုများသည် လျှပ်စစ်လျှပ်စီးကြောင်းကို အလွယ်တကူ စီးဆင်းနိုင်စေသော ကောင်းမွန်သည့် လျှပ်စစ်သွယ်ဝိုက်ပစ္စည်းများဖြစ်သောကြောင့်',
+          'သတ္တုများသည် ပလတ်စတစ်ထက် အမြဲစျေးသက်သာသောကြောင့်',
+          'သတ္တုများသည် အလေးချိန်ပေါ့သောကြောင့်',
+          'သတ္တုများသည် ဘယ်တော့မှမပူသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The plastic coating around a copper wire is an insulator. What is its job?',
+        questionMy:
+            'ကြေးနီဝါယာကြိုးကို ဝိုင်းရံထားသော ပလတ်စတစ်အခြုံသည် အကာအကွယ်ပစ္စည်းတစ်ခုဖြစ်သည်။ ၎င်း၏အလုပ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To stop electric current from escaping and to keep people safe from shocks',
+          'To help the current flow faster through the wire',
+          'To make the wire heavier',
+          'To turn the wire into a battery',
+        ],
+        optionsMy: [
+          'လျှပ်စစ်လျှပ်စီးကြောင်း ပေါက်ကြားထွက်ခြင်းကို တားဆီးပြီး လူများကို လျှပ်စစ်ရှော့မှ လုံခြုံစေရန်',
+          'ဝါယာကြိုးအတွင်း လျှပ်စီးကြောင်း ပိုမြန်စွာစီးဆင်းစေရန်',
+          'ဝါယာကြိုးကို ပိုလေးလံအောင်ပြုလုပ်ရန်',
+          'ဝါယာကြိုးကို ဘက်ထရီအဖြစ် ပြောင်းလဲပေးရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-engineering-2',
+    subject: 'engineering',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Why Things Stand or Fall: Structural Stability',
+    titleMy: 'အဆောက်အအုံ မတည်ငြိမ်မှု အကြောင်း လေ့လာခြင်း',
+    descriptionEn:
+        'Discover why a wide base, a low center of gravity, and triangular bracing keep structures stable and stop them from toppling.',
+    descriptionMy:
+        'ကျယ်ပြန့်သော အခြေခံအုတ်မြစ်၊ နိမ့်သော ဆွဲငင်အားဗဟိုအမှတ်နှင့် တြိဂံပုံ ထောက်ပံ့ဖွဲ့စည်းမှုများက အဆောက်အအုံများကို ဘာကြောင့် မတည်ငြိမ်စေပြီး လဲကျခြင်းမှ ကာကွယ်ပေးသည်ကို လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which base shape makes a tower LEAST likely to topple over?',
+        questionMy:
+            'မျှော်စင်တစ်ခုအား လဲကျနိုင်ခြေ အနည်းဆုံးဖြစ်စေမည့် အခြေခံအုတ်မြစ် ပုံသဏ္ဌာန်မှာ မည်သည်ဖြစ်သနည်း။',
+        optionsEn: [
+          'A narrow base with a tall, thin column',
+          'A wide, broad base spread out at the bottom',
+          'A base the same width as the top of the tower',
+          'A base that curves inward at the bottom',
+        ],
+        optionsMy: [
+          'ကျဉ်းမြောင်းသော အခြေခံနှင့် မြင့်၍ပါးလွှာသော ကော်လံ',
+          'အောက်ခြေတွင် ကျယ်ပြန့်စွာ ဖြန့်ကျင်းထားသော အခြေခံအုတ်မြစ်',
+          'မျှော်စင်၏ထိပ်ပိုင်းနှင့် အကျယ်တူညီသော အခြေခံ',
+          'အောက်ခြေတွင် အတွင်းသို့ ကွေ့ဝင်နေသော အခြေခံ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A structure is more stable when its center of gravity is placed how?',
+        questionMy:
+            'အဆောက်အအုံတစ်ခု၏ ဆွဲငင်အားဗဟိုအမှတ်ကို မည်သို့ထားရှိမှသာ ပို၍ တည်ငြိမ်မှုရှိသနည်း။',
+        optionsEn: [
+          'As high as possible above the base',
+          'As low as possible, close to the base',
+          'Off to one side, away from the center',
+          'It does not matter where the center of gravity is',
+        ],
+        optionsMy: [
+          'အခြေခံအုတ်မြစ်အထက်တွင် အနိုင်ဆုံး မြင့်စွာထားခြင်း',
+          'အခြေခံအုတ်မြစ်နှင့် နီးကပ်စွာ အနိုင်ဆုံးနိမ့်စွာထားခြင်း',
+          'အလယ်ဗဟိုမှ ဘေးတစ်ဖက်သို့ ရွှေ့၍ထားခြင်း',
+          'ဆွဲငင်အားဗဟိုအမှတ် မည်သည့်နေရာတွင်ရှိရှိ အရေးမကြီးပါ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do engineers add triangle shapes (bracing) inside bridges and towers?',
+        questionMy:
+            'အင်ဂျင်နီယာများသည် တံတားများနှင့် မျှော်စင်များအတွင်း တြိဂံပုံသဏ္ဌာန် (ထောက်ပံ့ကူချက်များ) ကို ဘာကြောင့် ထည့်သွင်းကြသနည်း။',
+        optionsEn: [
+          'Triangles look more decorative than squares',
+          'A triangle keeps its shape under pressure and does not easily bend out of shape, unlike a square',
+          'Triangles use more material, making the structure heavier and stronger',
+          'Triangles are cheaper to build than any other shape',
+        ],
+        optionsMy: [
+          'တြိဂံပုံသဏ္ဌာန်သည် စတုရန်းထက် ပိုမိုလှပသည်ဟု ယူဆသောကြောင့်',
+          'တြိဂံပုံသဏ္ဌာန်သည် စတုရန်းနှင့်မတူဘဲ ဖိအားကျရောက်သည့်တိုင် ပုံသဏ္ဌာန်မပျက်ဘဲ လွယ်ကူစွာမကွေ့ဘဲ ခံနိုင်ရည်ရှိသောကြောင့်',
+          'တြိဂံပုံသည် ပစ္စည်းပိုသုံးရသဖြင့် အဆောက်အအုံကို ပိုလေးလံ၍ ပိုခိုင်ခံ့စေသောကြောင့်',
+          'တြိဂံပုံသည် အခြားပုံသဏ္ဌာန်များထက် တည်ဆောက်ရန် ပိုစျေးသက်သာသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A toy tower has a wide base but all its heavy blocks are stacked at the very top. What is most likely to happen?',
+        questionMy:
+            'အရုပ်မျှော်စင်တစ်ခုတွင် အခြေခံအုတ်မြစ်ကျယ်သော်လည်း လေးသောအုတ်ပုံများအားလုံးကို အထိပ်ဆုံးတွင် စုပုံထားသည်။ မည်သို့ဖြစ်လာနိုင်ခြေအများဆုံးနည်း။',
+        optionsEn: [
+          'It will be extremely stable because the base is wide',
+          'It becomes easier to tip over because the center of gravity has moved high up',
+          'The width of the base no longer matters at all',
+          'It will automatically balance itself no matter what',
+        ],
+        optionsMy: [
+          'အခြေခံအုတ်မြစ်ကျယ်သောကြောင့် အလွန်တည်ငြိမ်မည်ဖြစ်သည်',
+          'ဆွဲငင်အားဗဟိုအမှတ် အထက်သို့ရွှေ့လာသဖြင့် ပို၍လွယ်ကူစွာ လှိမ့်လဲနိုင်သည်',
+          'အခြေခံအုတ်မြစ်၏ အကျယ်သည် လုံးဝ အရေးမကြီးတော့ချေ',
+          'မည်သို့ပင်ဖြစ်စေ အလိုအလျောက် ဟန်ချက်ညီသွားမည်ဖြစ်သည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Leaning Tower of Pisa tilts but has not fallen over for centuries. What best explains why it is still standing?',
+        questionMy:
+            'Pisa အနိမ့်စောင်းမျှော်စင်သည် စောင်းနေသော်လည်း ရာစုနှစ်များစွာ မလဲကျခဲ့ပါ။ ယနေ့တိုင် မတည်ငြိမ်မှု မပျောက်ဘဲ တည်ရှိနေခြင်း၏ အကောင်းဆုံးရှင်းလင်းချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Its center of gravity, though shifted by the lean, still falls within the area of its base',
+          'It has no weight at all, so gravity does not affect it',
+          'Leaning towers are always more stable than straight towers',
+          'Its center of gravity has moved completely outside its base but it is glued to the ground',
+        ],
+        optionsMy: [
+          'စောင်းနေသော်လည်း ၎င်း၏ ဆွဲငင်အားဗဟိုအမှတ်သည် အခြေခံအုတ်မြစ်ဧရိယာအတွင်း ကျရောက်နေဆဲဖြစ်သောကြောင့်',
+          '၎င်းတွင် အလေးချိန် လုံးဝမရှိသဖြင့် ဆွဲငင်အားကြောင့် သက်ရောက်မှုမရှိသောကြောင့်',
+          'စောင်းနေသော မျှော်စင်များသည် ဖြောင့်တန်းသော မျှော်စင်များထက် အမြဲပို၍တည်ငြိမ်သောကြောင့်',
+          'ဆွဲငင်အားဗဟိုအမှတ်သည် အခြေခံအုတ်မြစ်အပြင်ဘက်သို့ လုံးဝရွှေ့သွားသော်လည်း မြေပြင်နှင့် ကပ်ကပ်နေသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
