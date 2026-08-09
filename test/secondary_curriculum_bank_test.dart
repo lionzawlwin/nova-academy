@@ -5,8 +5,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('secondaryCurriculumBank', () {
-    test('contains exactly 92 modules', () {
-      expect(secondaryCurriculumBank.length, 92);
+    test('contains exactly 96 modules', () {
+      expect(secondaryCurriculumBank.length, 96);
     });
 
     test('every module id is unique', () {
@@ -74,14 +74,17 @@ void main() {
       }
     });
 
-    test('has 12 modules per subject, except the new coding/engineering/'
-        'history/geography/computing STEAM-expansion subjects (4 each)', () {
+    test('has 12 modules per subject, except the coding/engineering/'
+        'history/computing STEAM-expansion subjects (4 each) and geography '
+        '(8, two per grade)', () {
       // The STEAM expansion added exactly one `coding` and one
       // `engineering` module per Secondary/IGCSE grade (secondary1-3,
       // igcse), so those two subjects total 4 modules each. The
       // history/geography/computing rollout followed the same one-per-grade
-      // cadence, so those three subjects also total 4 modules each; every
-      // other subject stays at 12.
+      // cadence, so those three subjects also total 4 modules each.
+      // `geography` then got a second module per grade (the "secondary
+      // geography depth batch 1" block), bringing it to 8; every other
+      // subject stays at 12.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
@@ -91,7 +94,7 @@ void main() {
         'coding': 4,
         'engineering': 4,
         'history': 4,
-        'geography': 4,
+        'geography': 8,
         'computing': 4,
       };
       for (final entry in counts.entries) {
@@ -104,10 +107,11 @@ void main() {
       }
     });
 
-    test('has 23 modules per grade', () {
+    test('has 24 modules per grade', () {
       // Baseline 18 (6 subjects x 3 modules) plus 2 from the STEAM
       // expansion (1 coding + 1 engineering) plus 3 from the
-      // history/geography/computing rollout (1 each) per grade.
+      // history/geography/computing rollout (1 each) plus 1 more from the
+      // "secondary geography depth batch 1" block, per grade.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
@@ -116,14 +120,15 @@ void main() {
       for (final entry in counts.entries) {
         expect(
           entry.value,
-          23,
-          reason: '${entry.key} has ${entry.value} modules, expected 23',
+          24,
+          reason: '${entry.key} has ${entry.value} modules, expected 24',
         );
       }
     });
 
     test('has 3 modules per grade+subject combination, except every coding/'
-        'engineering/history/geography/computing combo (1)', () {
+        'engineering/history/computing combo (1) and every geography combo '
+        '(2)', () {
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         final key = '${module.grade.name}-${module.subject}';
@@ -134,14 +139,21 @@ void main() {
         'coding',
         'engineering',
         'history',
-        'geography',
         'computing',
       };
+      const twoModuleSubjects = {'geography'};
       for (final entry in counts.entries) {
         final isSingleModuleSubject = singleModuleSubjects.any(
           (subject) => entry.key.endsWith('-$subject'),
         );
-        final expected = isSingleModuleSubject ? 1 : 3;
+        final isTwoModuleSubject = twoModuleSubjects.any(
+          (subject) => entry.key.endsWith('-$subject'),
+        );
+        final expected = isSingleModuleSubject
+            ? 1
+            : isTwoModuleSubject
+            ? 2
+            : 3;
         expect(
           entry.value,
           expected,

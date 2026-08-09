@@ -8621,4 +8621,449 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Secondary Geography depth batch 1: a second module per grade
+  // (secondary1/secondary2/secondary3/igcse), bringing `geography` from
+  // 1 module/grade to 2 -- mirroring the Primary "depth batch 1" work in
+  // primary_curriculum_bank.dart. Authored via a parallel content-
+  // generation workflow (one agent per grade), calibrated to genuine
+  // IGCSE Geography syllabus rigor and fact-checked (climate zones,
+  // biome adaptations, push/pull migration factors, physical vs economic
+  // water scarcity, transboundary river management) before insertion.
+  SecondaryActivityDef(
+    id: 'mock-secondary1-geography-2',
+    subject: 'geography',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Weather and Climate Basics',
+    titleMy: 'ရာသီဥတုနှင့် ကမ္ဘာ့ဥတုဇုန်များ',
+    descriptionEn:
+        'Explore the difference between weather and climate, and examine how latitude, altitude, and distance from the sea shape the world\'s major climate zones.',
+    descriptionMy:
+        'ရာသီဥတုနှင့် ဥတုအခြေအနေ ကွာခြားချက်ကို လေ့လာပြီး၊ လတ္တီတွဒ်၊ ပင်လယ်ရေမျက်နှာပြင်အထက်အမြင့်နှင့် ပင်လယ်နှင့်ကွာဝေးမှုတို့က ကမ္ဘာ့ အဓိက ဥတုဇုန်များကို မည်သို့ပုံဖော်ကြောင်း လေ့လာပါ။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the main difference between weather and climate?',
+        questionMy: 'ရာသီဥတုနှင့် ဥတုအခြေအနေတို့၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Weather is the short-term condition of the atmosphere on a given day, while climate is the average pattern of weather over many years.',
+          'Weather only occurs in winter, while climate only occurs in summer.',
+          'Weather affects the whole world at once, while climate only affects small towns.',
+          'Weather and climate mean exactly the same thing and can be used interchangeably.',
+        ],
+        optionsMy: [
+          'ရာသီဥတုသည် သတ်မှတ်ရက်တစ်ရက်၏ ရေတိုကာလ လေထုအခြေအနေဖြစ်ပြီး၊ ဥတုအခြေအနေသည် နှစ်ပေါင်းများစွာအတွင်း ရာသီဥတု၏ ပျမ်းမျှပုံစံဖြစ်သည်။',
+          'ရာသီဥတုသည် ဆောင်းရာသီတွင်သာ ဖြစ်ပေါ်ပြီး ဥတုအခြေအနေသည် နွေရာသီတွင်သာ ဖြစ်ပေါ်သည်။',
+          'ရာသီဥတုသည် ကမ္ဘာတစ်ဝှမ်းလုံးကို တစ်ပြိုင်နက် သက်ရောက်ပြီး ဥတုအခြေအနေသည် မြို့ငယ်များကိုသာ သက်ရောက်သည်။',
+          'ရာသီဥတုနှင့် ဥတုအခြေအနေသည် အဓိပ္ပာယ်တူညီပြီး အပြန်အလှန် အစားထိုးသုံးနိုင်သည်။',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which climate zone lies near the Equator and typically has hot temperatures with heavy rainfall all year round?',
+        questionMy:
+            'အီကွေတာ (အီကွေတာမျဉ်း) အနီးတွင်တည်ရှိပြီး တစ်နှစ်ပတ်လုံး ပူနွေးသော အပူချိန်နှင့် မိုးရေချိန်များစွာ ရရှိလေ့ရှိသည့် ဥတုဇုန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Tropical zone',
+          'Temperate zone',
+          'Polar zone',
+          'Mediterranean zone',
+        ],
+        optionsMy: [
+          'အပူပိုင်းဇုန် (Tropical zone)',
+          'မွန်းတည့်ပိုင်းဇုန် (Temperate zone)',
+          'ဝင်ရိုးစွန်းဇုန် (Polar zone)',
+          'မက်ဒီတရေးနီယံဇုန် (Mediterranean zone)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which climate zone, found between the tropics and the polar regions, usually experiences four distinct seasons (spring, summer, autumn, and winter)?',
+        questionMy:
+            'အပူပိုင်းဇုန်နှင့် ဝင်ရိုးစွန်းဒေသများ ကြားတွင်တည်ရှိပြီး ဥတုရာသီလေးမျိုး (နွေဦး၊ နွေ၊ ဆောင်းဦး၊ ဆောင်း) ကွဲပြားစွာ ခံစားရလေ့ရှိသည့် ဥတုဇုန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Temperate zone',
+          'Tropical zone',
+          'Polar zone',
+          'Equatorial zone',
+        ],
+        optionsMy: [
+          'မွန်းတည့်ပိုင်းဇုန် (Temperate zone)',
+          'အပူပိုင်းဇုန် (Tropical zone)',
+          'ဝင်ရိုးစွန်းဇုန် (Polar zone)',
+          'အီကွေတာဇုန် (Equatorial zone)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which climate zone is found at high latitudes near the poles and is characterized by extremely cold temperatures and low precipitation throughout the year?',
+        questionMy:
+            'ဝင်ရိုးစွန်းဒေသများအနီး လတ္တီတွဒ်မြင့်သောနေရာများတွင်တည်ရှိပြီး တစ်နှစ်ပတ်လုံး အလွန်အေးခဲသော အပူချိန်နှင့် မိုးရေချိန်နည်းပါးမှု ရှိသည့် ဥတုဇုန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Polar (Arctic) zone',
+          'Tropical zone',
+          'Temperate zone',
+          'Mediterranean zone',
+        ],
+        optionsMy: [
+          'ဝင်ရိုးစွန်း (အာတိတ်) ဇုန် (Polar/Arctic zone)',
+          'အပူပိုင်းဇုန် (Tropical zone)',
+          'မွန်းတည့်ပိုင်းဇုန် (Temperate zone)',
+          'မက်ဒီတရေးနီယံဇုန် (Mediterranean zone)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Some mountains located near the Equator, such as Mount Kilimanjaro, have snow-capped peaks even though they are at a tropical latitude. Which factor best explains this?',
+        questionMy:
+            'ကီလီမန်ဂျာရိတောင်ကဲ့သို့ အီကွေတာအနီးရှိ တောင်အချို့သည် အပူပိုင်းလတ္တီတွဒ်တွင် တည်ရှိသော်လည်း ထိပ်ပိုင်းတွင် နှင်းများ ဖုံးလွှမ်းနေသည်။ ၎င်းကို အကောင်းဆုံး ရှင်းပြနိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Altitude — temperature decreases as height above sea level increases.',
+          'Latitude — the mountain is actually located near the poles.',
+          'Distance from the sea — the mountain is very close to the ocean.',
+          'Ocean currents — cold currents flow over the mountain peak.',
+        ],
+        optionsMy: [
+          'အမြင့် — ပင်လယ်ရေမျက်နှာပြင်အထက် အမြင့်တက်လေ အပူချိန်ကျဆင်းလေ ဖြစ်သည်။',
+          'လတ္တီတွဒ် — ထိုတောင်သည် အမှန်တကယ် ဝင်ရိုးစွန်းများအနီးတွင် တည်ရှိသည်။',
+          'ပင်လယ်နှင့်ကွာဝေးမှု — ထိုတောင်သည် သမုဒ္ဒရာနှင့် အလွန်နီးကပ်သည်။',
+          'သမုဒ္ဒရာရေစီးကြောင်း — အေးခဲသော ရေစီးကြောင်းများသည် တောင်ထိပ်ကို ဖြတ်စီးသည်။',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-geography-2',
+    subject: 'geography',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'World Biomes and Ecosystems',
+    titleMy: 'ကမ္ဘာ့ဇီဝဇုန်များနှင့် ဂေဟစနစ်များ',
+    descriptionEn:
+        'Compare the climate, vegetation, and adapted wildlife of the world\'s major biomes, and trace a simple food chain within one of them.',
+    descriptionMy:
+        'ကမ္ဘာ့အဓိကဇီဝဇုန်များ၏ ရာသီဥတု၊ အပင်များနှင့် လိုက်လျောညီထွေရှိသော တိရစ္ဆာန်များကို နှိုင်းယှဉ်လေ့လာပြီး ၎င်းတို့အနက် တစ်ခုအတွင်းရှိ ရိုးရှင်းသော အစားအစာကွင်းဆက်ကို ဆန်းစစ်ပါမည်။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which biome is characterized by high year-round temperatures and annual rainfall exceeding 2000mm, supporting the greatest biodiversity on Earth?',
+        questionMy:
+            'နှစ်ပတ်လုံး အပူချိန်မြင့်မားပြီး နှစ်စဉ်မိုးရေချိန် ၂၀၀၀ မီလီမီတာကျော် ရွာသွန်းကာ ကမ္ဘာပေါ်တွင် ဇီဝမျိုးစုံဆုံးဖြစ်သော ဇီဝဇုန်မှာ မည်သည်နည်း။',
+        optionsEn: [
+          'Tropical rainforest',
+          'Hot desert',
+          'Tundra',
+          'Temperate grassland',
+        ],
+        optionsMy: [
+          'အပူပိုင်းမိုးသစ်တော',
+          'ခြောက်သွေ့သဲကန္တာရ',
+          'တွန်ဒရာ',
+          'အပူပိုင်းမဟုတ်သောမြက်ခင်းဇုန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which adaptation helps an animal survive in a hot desert biome?',
+        questionMy:
+            'ခြောက်သွေ့သဲကန္တာရဇီဝဇုန်တွင် နေထိုင်သောတိရစ္ဆာန်တစ်ကောင် ရှင်သန်ရပ်တည်နိုင်ရန် အထောက်အကူပြုသည့် လိုက်လျောညီထွေမှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A thick fur and blubber layer to retain body heat',
+          'Large ears and efficient kidneys that conserve water and release excess heat',
+          'Broad, dark green leaves to capture maximum sunlight',
+          'Long-distance migration to escape freezing winters',
+        ],
+        optionsMy: [
+          'ကိုယ်အပူချိန်ထိန်းသိမ်းရန် ထူထဲသောအမွှေးအမှင်နှင့် အဆီလွှာ',
+          'ရေကို ခန့်ညှာစွာထိန်းသိမ်းပြီး အပူပိုလျှံမှုကို စွန့်ထုတ်ရန် နားရွက်ကြီးမားမှုနှင့် ကျောက်ကပ်ထိရောက်စွာအလုပ်လုပ်မှု',
+          'နေရောင်ခြည်ကို အများဆုံးရယူရန် အကျယ်ကြီးသော အရွက်ရင့်များ',
+          'အေးမြသောဆောင်းရာသီကို ရှောင်ရှားရန် ရေရှည်ဝေးကွာစွာ ရွှေ့ပြောင်းသွားလာမှု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which feature distinguishes the tundra biome from a temperate grassland?',
+        questionMy:
+            'တွန်ဒရာဇီဝဇုန်ကို အပူပိုင်းမဟုတ်သော မြက်ခင်းဇုန်နှင့် ခွဲခြားနိုင်စေသော အဓိကအင်္ဂါရပ်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Tundra has a permanently frozen subsoil layer called permafrost, while grassland does not',
+          'Tundra receives more annual rainfall than grassland',
+          'Tundra supports large forests of broadleaf trees',
+          'Tundra has a longer growing season than grassland',
+        ],
+        optionsMy: [
+          'တွန်ဒရာတွင် အမြဲထာဝရအေးခဲနေသော မြေအောက်လွှာ (ပါမာဖရော့စ်) ရှိသော်လည်း မြက်ခင်းတွင် မရှိပါ',
+          'တွန်ဒရာသည် မြက်ခင်းထက် နှစ်စဉ်မိုးရေချိန် ပိုများသည်',
+          'တွန်ဒရာတွင် ကျယ်ပြန့်သော အရွက်ကျယ်သစ်တောကြီးများ ရှိသည်',
+          'တွန်ဒရာသည် မြက်ခင်းထက် အပင်ပေါက်ရာသီ ပိုရှည်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a savanna food chain made up of grass, zebra, and lion, what role does the zebra play?',
+        questionMy:
+            'မြက်၊ မြင်းလားနှင့် ခြင်္သေ့ဖြင့်ဖွဲ့စည်းထားသော ဆာဗန်နာအစားအစာကွင်းဆက်တွင် မြင်းလား၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Producer',
+          'Primary consumer (herbivore)',
+          'Secondary consumer (carnivore)',
+          'Decomposer',
+        ],
+        optionsMy: [
+          'ထုတ်လုပ်သူ',
+          'ပထမဆင့်စားသုံးသူ (ကျက်စားသတ္တဝါ)',
+          'ဒုတိယဆင့်စားသုံးသူ (အသားစားသတ္တဝါ)',
+          'ပုပ်ပျက်အောင်လုပ်သူ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Both the hot desert and tundra biomes receive very low annual precipitation, yet desert vegetation is mostly thorny shrubs while tundra vegetation is mostly mosses and lichens. What mainly explains this difference?',
+        questionMy:
+            'ခြောက်သွေ့သဲကန္တာရနှင့် တွန်ဒရာဇီဝဇုန်နှစ်ခုစလုံးသည် နှစ်စဉ်မိုးရေချိန် အလွန်နည်းပါးသော်လည်း၊ သဲကန္တာရ၏အပင်များမှာ ဆူးများပါသောချုံနွယ်များဖြစ်ပြီး တွန်ဒရာ၏အပင်များမှာ ညှိပင်များနှင့် လိုက်ကင်းများသာဖြစ်ရခြင်း၏ အဓိကအကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Desert soil is rich in nutrients while tundra soil is infertile',
+          'Desert temperatures stay extremely high year-round while tundra temperatures stay extremely low with a frozen subsoil',
+          'Desert receives more hours of sunlight than tundra',
+          'Desert has more grazing animals than tundra',
+        ],
+        optionsMy: [
+          'သဲကန္တာရမြေဆီလွှာသည် အဆီဓာတ်ကြွယ်ဝပြီး တွန်ဒရာမြေဆီလွှာသည် ညံ့ဖျင်းသည်',
+          'သဲကန္တာရသည် နှစ်ပတ်လုံးအပူချိန်အလွန်မြင့်မားသော်လည်း တွန်ဒရာသည် အပူချိန်အလွန်နိမ့်ကျပြီး မြေအောက်လွှာအေးခဲနေသည်',
+          'သဲကန္တာရသည် တွန်ဒရာထက် နေရောင်ခြည်ရရှိချိန် ပိုများသည်',
+          'သဲကန္တာရတွင် တွန်ဒရာထက် ကျက်စားတိရစ္ဆာန်များ ပိုများသည်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-geography-2',
+    subject: 'geography',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Urbanization and Urban Challenges',
+    titleMy: 'မြို့ပြဖြစ်ထွန်းမှုနှင့် မြို့ပြပြဿနာများ',
+    descriptionEn:
+        'Examine why people migrate from rural areas to growing megacities and analyze the challenges rapid urban growth creates, such as informal settlements, congestion, and service provision.',
+    descriptionMy:
+        'လူများ ကျေးလက်ဒေသများမှ မြို့ကြီးများသို့ ပြောင်းရွှေ့ကြသည့် အကြောင်းရင်းများနှင့် လျင်မြန်စွာ ကြီးထွားလာသော မြို့ပြများ ရင်ဆိုင်ရသည့် စိန်ခေါ်မှုများကို လေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of the following is a \'push factor\' driving rural-to-urban migration?',
+        questionMy:
+            'အောက်ပါတို့တွင် ကျေးလက်မှမြို့ပြသို့ ပြောင်းရွှေ့မှုကို တွန်းအားပေးသော \'Push Factor\' မှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'Better job opportunities in the city',
+          'Lack of farmland and rural unemployment',
+          'Access to better entertainment',
+          'Higher city wages',
+        ],
+        optionsMy: [
+          'မြို့တွင်း၌ ပိုမိုကောင်းမွန်သော အလုပ်အကိုင်အခွင့်အလမ်းများ',
+          'လယ်ယာမြေမလုံလောက်ခြင်းနှင့် ကျေးလက်၌ အလုပ်အကိုင်အခွင့်အလမ်း ရှားပါးခြင်း',
+          'ပိုမိုကောင်းမွန်သော ဖျော်ဖြေရေး ရယူနိုင်မှု',
+          'မြို့ပြ၏ ပိုမိုမြင့်မားသော လုပ်ခလစာ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'What is a \'megacity\'?',
+        questionMy: '\'Megacity\' ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A city that is the capital of its country',
+          'A city with a population of over 10 million people',
+          'A city located on a coastline',
+          'A city with more than five universities',
+        ],
+        optionsMy: [
+          'တိုင်းပြည်၏ မြို့တော်ဖြစ်သော မြို့တစ်မြို့',
+          'လူဦးရေ ၁၀ သန်းကျော် ရှိသော မြို့တစ်မြို့',
+          'ပင်လယ်ကမ်းရိုးတန်း၌ တည်ရှိသော မြို့တစ်မြို့',
+          'တက္ကသိုလ်ငါးခုထက်ပိုပြီး ရှိသော မြို့တစ်မြို့',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Informal settlements (slums) typically develop on the edges of rapidly growing cities mainly because:',
+        questionMy:
+            'လျင်မြန်စွာ ကြီးထွားနေသော မြို့ကြီးများ၏ အနားစွန်းများတွင် မတရားနေထိုင်မှု ဒေသများ (slums) များ ပေါ်ပေါက်လာရသည့် အဓိက အကြောင်းရင်းမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'City governments deliberately plan them for tourism',
+          'Migrants arrive faster than affordable formal housing can be built',
+          'They are required by national law',
+          'Wealthy residents prefer to live there',
+        ],
+        optionsMy: [
+          'မြို့တော်အစိုးရများက ခရီးသွားလုပ်ငန်းအတွက် တမင်တကာ စီစဉ်ထားခြင်း ဖြစ်သည်',
+          'ပြောင်းရွှေ့လာသူများ ရောက်ရှိလာနှုန်းသည် တရားဝင် တန်ဘိုးနည်းအိမ်ရာများ တည်ဆောက်နိုင်နှုန်းထက် ပိုမြန်နေခြင်း ဖြစ်သည်',
+          'အမျိုးသားဥပဒေအရ ပြဋ္ဌာန်းထားခြင်း ဖြစ်သည်',
+          'ချမ်းသာသူများက ထိုနေရာတွင် နေထိုင်လိုကြသောကြောင့် ဖြစ်သည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Rapid, unplanned urban growth most directly causes traffic congestion because:',
+        questionMy:
+            'လျင်မြန်၍ စီစဉ်မှုမရှိသော မြို့ပြကြီးထွားမှုသည် ယာဉ်ကြောပိတ်ဆို့မှုကို တိုက်ရိုက်ဆုံးဖြစ်စေသည့် အကြောင်းရင်းမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'Road and transport infrastructure often fails to keep pace with population growth',
+          'Cities ban the use of public buses',
+          'Rural areas have more roads than cities',
+          'Fuel prices decrease as cities grow',
+        ],
+        optionsMy: [
+          'လမ်းနှင့် သယ်ယူပို့ဆောင်ရေး အခြေခံအဆောက်အအုံများသည် လူဦးရေတိုးတက်နှုန်းနှင့် အမျှ မီအောင်မဆောင်ရွက်နိုင်ခြင်း',
+          'မြို့ကြီးများက အများပြည်သူသုံး ဘတ်စ်ကားများကို တားမြစ်ထားသောကြောင့်',
+          'ကျေးလက်ဒေသများသည် မြို့ပြများထက် လမ်းများ ပိုမိုများပြားသောကြောင့်',
+          'မြို့ပြများ ကြီးထွားလာသည်နှင့်အမျှ လောင်စာဆီစျေးနှုန်းများ ကျဆင်းလာသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which challenge is most commonly faced by city authorities trying to provide services (water, sanitation, electricity) to a rapidly growing urban population?',
+        questionMy:
+            'လျင်မြန်စွာ တိုးပွားလာသော မြို့ပြလူဦးရေအား ဝန်ဆောင်မှုများ (ရေ၊ သန့်ရှင်းရေးနှင့် လျှပ်စစ်) ပေးအပ်ရန် ကြိုးပမ်းနေသော မြို့ပြအာဏာပိုင်များ အဖြစ်များဆုံး ရင်ဆိုင်ရသော စိန်ခေါ်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Infrastructure and budgets cannot expand fast enough to match population growth',
+          'There is too much unused electricity being wasted',
+          'Populations are shrinking faster than services can be removed',
+          'Rural areas demand the same services first',
+        ],
+        optionsMy: [
+          'အခြေခံအဆောက်အအုံနှင့် ဘတ်ဂျက်များသည် လူဦးရေတိုးတက်နှုန်းနှင့် ရင်ကြေအောင် လျင်မြန်စွာ တိုးချဲ့၍မရနိုင်ခြင်း',
+          'အသုံးမပြုသော လျှပ်စစ်ဓာတ်အား လွန်ကဲစွာ ဖြုန်းတီးနေခြင်း',
+          'ဝန်ဆောင်မှုများ ဖယ်ရှားနိုင်နှုန်းထက် လူဦးရေ ပိုမိုမြန်ဆန်စွာ လျော့ကျနေခြင်း',
+          'ကျေးလက်ဒေသများက ဝန်ဆောင်မှုများကို ပထမဆုံး တောင်းဆိုနေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-geography-2',
+    subject: 'geography',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Water Resources and Management',
+    titleMy: 'ရေအရင်းအမြစ်များနှင့် စီမံခန့်ခွဲမှု',
+    descriptionEn:
+        'Analyze global water scarcity and uneven water distribution, and evaluate management strategies such as dams, water transfer schemes, and conservation, including the need for international cooperation across shared water resources.',
+    descriptionMy:
+        'ကမ္ဘာ့ရေရှားပါးမှုနှင့် ရေအရင်းအမြစ် မညီမျှသောဖြန့်ဝေမှုကို လေ့လာပြီး၊ တာတမံများ၊ ရေလွှဲပြောင်းစီမံကိန်းများနှင့် ရေအရင်းအမြစ်ချွေတာမှု အစရှိသည့် စီမံခန့်ခွဲမှုနည်းဗျူဟာများကို နိုင်ငံတကာပူးပေါင်းဆောင်ရွက်မှု လိုအပ်ချက်နှင့်အတူ လေ့လာဆန်းစစ်ပါမည်။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A country has abundant renewable water resources, but many communities lack access to clean water because of insufficient wells, pipelines, and treatment plants. This situation is an example of:',
+        questionMy:
+            'နိုင်ငံတစ်ခုတွင် ပြန်လည်ဖြစ်ပေါ်နိုင်သော ရေအရင်းအမြစ်များ ပေါများသော်လည်း ရေတွင်း၊ ပိုက်လိုင်းနှင့် ရေသန့်စင်ရေးစက်ရုံများ မလုံလောက်သောကြောင့် ရပ်ရွာအများစုတွင် သန့်ရှင်းသောရေ မရရှိကြပါ။ ဤအခြေအနေသည် အောက်ပါတို့အနက် မည်သည့်အရာ၏ ဥပမာဖြစ်သနည်း။',
+        optionsEn: [
+          'Physical water scarcity',
+          'Economic water scarcity',
+          'Water stress',
+          'Water security',
+        ],
+        optionsMy: [
+          'ရုပ်ပိုင်းဆိုင်ရာ ရေရှားပါးမှု (Physical water scarcity)',
+          'စီးပွားရေးဆိုင်ရာ ရေရှားပါးမှု (Economic water scarcity)',
+          'ရေဖိစီးမှု (Water stress)',
+          'ရေလုံခြုံမှု (Water security)',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which factor best explains why some regions of the world experience severe water scarcity while others have abundant supplies?',
+        questionMy:
+            'ကမ္ဘာပေါ်ရှိ တချို့ဒေသများတွင် ပြင်းထန်သော ရေရှားပါးမှုကို ကြုံတွေ့နေရသော်လည်း အခြားဒေသများတွင် ရေအရင်းအမြစ် ပေါများနေခြင်းကို အကောင်းဆုံးရှင်းပြနိုင်သည့် အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Global precipitation patterns are highly uneven, and population distribution does not always match where water is most abundant',
+          'All countries receive similar annual rainfall but manage it differently',
+          'Only countries near the equator experience water shortages',
+          'Water scarcity only occurs in countries without access to the sea',
+        ],
+        optionsMy: [
+          'ကမ္ဘာ့မိုးရွာသွန်းမှု ပုံစံများသည် အလွန်မညီမျှဘဲ၊ လူဦးရေ ဖြန့်ဝေမှုသည် ရေအများဆုံးရရှိရာ ဒေသများနှင့် အမြဲတမ်း ကိုက်ညီနေခြင်း မရှိပါ',
+          'နိုင်ငံအားလုံးသည် နှစ်စဉ်မိုးရေချိန် တူညီစွာ ရရှိသော်လည်း စီမံခန့်ခွဲမှု ကွဲပြားကြသည်',
+          'အီကွေတာနှင့် နီးသောနိုင်ငံများတွင်သာ ရေရှားပါးမှု ဖြစ်ပေါ်တတ်သည်',
+          'ပင်လယ်နှင့် မနီးစပ်သော နိုင်ငံများတွင်သာ ရေရှားပါးမှု ဖြစ်ပွားသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A government builds a large multi-purpose dam on a major river to generate hydroelectric power and store water for irrigation. Which of the following is a likely disadvantage of this scheme?',
+        questionMy:
+            'အစိုးရတစ်ရပ်က ရေအားလျှပ်စစ် ထုတ်လုပ်ရန်နှင့် စိုက်ပျိုးရေးအတွက် ရေသိုလှောင်ရန်အတွက် အဓိကမြစ်ကြီးတစ်ခုပေါ်တွင် ရည်ရွယ်ချက်ပေါင်းစုံသုံး တာတမံကြီးတစ်ခုကို တည်ဆောက်သည်။ အောက်ပါတို့အနက် ဤစီမံကိန်း၏ ဖြစ်လာနိုင်သော အားနည်းချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It will have no effect on communities living downstream',
+          'Communities living in the area to be flooded by the reservoir may need to be resettled',
+          'It will improve the river\'s water quality with no negative impacts',
+          'It eliminates the need for any future water management strategies',
+        ],
+        optionsMy: [
+          'အောက်ဖက်တွင် နေထိုင်သူများအပေါ် မည်သည့်အကျိုးသက်ရောက်မှုမျှ ရှိမည်မဟုတ်ပါ',
+          'ရေလွှမ်းမည့် ဒေသတွင် နေထိုင်သူများကို ပြန်လည်နေရာချထားရန် လိုအပ်နိုင်သည်',
+          'ဆိုးကျိုးမည်သို့မျှ မရှိဘဲ မြစ်ရေအရည်အသွေးကို မြှင့်တင်ပေးမည်',
+          'အနာဂတ်ရေစီမံခန့်ခွဲမှု နည်းဗျူဟာများ လိုအပ်တော့မည် မဟုတ်ပါ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Water transfer schemes, such as China\'s South-North Water Transfer Project, are designed to:',
+        questionMy:
+            'တရုတ်နိုင်ငံ၏ တောင်-မြောက် ရေလွှဲပြောင်းစီမံကိန်း (South-North Water Transfer Project) ကဲ့သို့သော ရေလွှဲပြောင်းစီမံကိန်းများကို အောက်ပါ ရည်ရွယ်ချက်ဖြင့် ရေးဆွဲထားသည်။',
+        optionsEn: [
+          'Convert seawater into freshwater for coastal cities',
+          'Move water from river basins with a surplus to regions experiencing higher demand or scarcity',
+          'Reduce a country\'s total consumption of water by encouraging conservation',
+          'Prevent rivers from crossing international borders',
+        ],
+        optionsMy: [
+          'ကမ်းရိုးတန်း မြို့များအတွက် ပင်လယ်ရေကို သန့်ရှင်းရေအဖြစ် ပြောင်းလဲခြင်း',
+          'ရေပိုလျှံသော မြစ်ဝှမ်းဒေသများမှ ရေလိုအပ်ချက် သို့မဟုတ် ရေရှားပါးမှု ပိုများသော ဒေသများသို့ ရေကို ရွှေ့ပြောင်းပေးခြင်း',
+          'ရေချွေတာအသုံးပြုမှုကို အားပေးခြင်းဖြင့် နိုင်ငံ၏ စုစုပေါင်းရေသုံးစွဲမှုကို လျှော့ချခြင်း',
+          'မြစ်များ နိုင်ငံနယ်နိမိတ် ဖြတ်သန်းမှုကို တားဆီးခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'River X flows from Country A, through Country B, and into Country C before reaching the sea. Country A plans to build a large dam that will significantly reduce the river\'s flow into Country B. Why does this situation typically require international cooperation?',
+        questionMy:
+            'မြစ် X သည် နိုင်ငံ A မှ စတင်ပြီး နိုင်ငံ B ကိုဖြတ်၍ နိုင်ငံ C အထိ စီးဆင်းကာ ပင်လယ်ထဲသို့ ရောက်ရှိသည်။ နိုင်ငံ A သည် မြစ်၏ရေစီးဆင်းမှုကို သိသိသာသာ လျော့ကျစေမည့် တာတမံကြီးတစ်ခုကို တည်ဆောက်ရန် စီစဉ်နေသည်။ ဤအခြေအနေသည် အဘယ်ကြောင့် နိုင်ငံတကာ ပူးပေါင်းဆောင်ရွက်မှု လိုအပ်သနည်း။',
+        optionsEn: [
+          'Because rivers automatically stop flowing at international borders',
+          'Because actions taken upstream in one country can directly affect water availability for people and ecosystems in countries downstream',
+          'Because international law prevents any country from using river water within its own borders',
+          'Because only countries with a coastline are affected by river management decisions',
+        ],
+        optionsMy: [
+          'မြစ်များသည် နိုင်ငံနယ်နိမိတ်များတွင် အလိုအလျောက် စီးဆင်းရပ်တန့်သွားသောကြောင့်',
+          'အထက်ဖက်နိုင်ငံတစ်ခုတွင် ဆောင်ရွက်သည့် လုပ်ဆောင်ချက်များသည် အောက်ဖက်နိုင်ငံများရှိ လူများနှင့် ဂေဟစနစ်များအတွက် ရေရရှိမှုကို တိုက်ရိုက်ထိခိုက်စေနိုင်သောကြောင့်',
+          'နိုင်ငံတကာဥပဒေက မည်သည့်နိုင်ငံမျှ မိမိနယ်မြေအတွင်းရှိ မြစ်ရေကို အသုံးမပြုရန် တားမြစ်ထားသောကြောင့်',
+          'ပင်လယ်ကမ်းစပ်ရှိ နိုင်ငံများသာ မြစ်စီမံခန့်ခွဲမှု ဆုံးဖြတ်ချက်များကြောင့် ထိခိုက်နိုင်သောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
 ];
