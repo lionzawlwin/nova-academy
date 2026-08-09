@@ -8926,4 +8926,524 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Geography depth batch 1: a second module per grade (Year 1-6),
+  // bringing `geography` from 1 module/grade to 2, following the same
+  // "match sibling-subject depth" reasoning applied throughout this file.
+  // Authored via a parallel content-generation workflow (one agent per
+  // grade, each given the existing module's topic to avoid duplicating)
+  // and reviewed for factual accuracy and bilingual quality before being
+  // added here.
+  PrimaryActivityDef(
+    id: 'mock-year1-geography-2',
+    subject: 'geography',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Land and Water Around Us',
+    titleMy: 'ကျွန်ုပ်တို့ပတ်ဝန်းကျင်ရှိ ကုန်းမြေနှင့်ရေ',
+    descriptionEn:
+        'Learn about mountains, hills, rivers, lakes and the sea around us.',
+    descriptionMy:
+        'တောင်၊ ကုန်း၊ မြစ်၊ အင်းအိုင်နှင့် ပင်လယ်များအကြောင်း လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Which of these is very high and made of rock?',
+        questionMy:
+            'အောက်ပါအရာများထဲမှ အလွန်မြင့်၍ ကျောက်ခဲဖြင့်ဖြစ်သည့်အရာသည် အဘယ်နည်း။',
+        optionsEn: ['Mountain', 'River', 'Lake', 'Sea'],
+        optionsMy: ['တောင်', 'မြစ်', 'အင်းအိုင်', 'ပင်လယ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What do we call water that flows from the land to the sea?',
+        questionMy: 'ကုန်းမြေမှ ပင်လယ်ဆီသို့ စီးဆင်းသောရေကို မည်သို့ခေါ်သနည်း။',
+        optionsEn: ['River', 'Hill', 'Mountain', 'Lake'],
+        optionsMy: ['မြစ်', 'ကုန်း', 'တောင်', 'အင်းအိုင်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is smaller than a mountain but still higher than flat land?',
+        questionMy:
+            'တောင်ထက်ငယ်သော်လည်း ညီညာသောမြေထက် မြင့်နေဆဲဖြစ်သည့်အရာသည် အဘယ်နည်း။',
+        optionsEn: ['Hill', 'Sea', 'River', 'Lake'],
+        optionsMy: ['ကုန်း', 'ပင်လယ်', 'မြစ်', 'အင်းအိုင်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is a calm area of water with land all around it?',
+        questionMy:
+            'ပတ်လည်တွင်ကုန်းမြေရှိပြီး တည်ငြိမ်သောရေရှိသည့်နေရာသည် အဘယ်နည်း။',
+        optionsEn: ['Lake', 'Sea', 'Mountain', 'Hill'],
+        optionsMy: ['အင်းအိုင်', 'ပင်လယ်', 'တောင်', 'ကုန်း'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these has salty water and is very big?',
+        questionMy: 'ဆားငန်ရေရှိပြီး အလွန်ကျယ်ဝန်းသောနေရာသည် အဘယ်နည်း။',
+        optionsEn: ['Sea', 'River', 'Lake', 'Hill'],
+        optionsMy: ['ပင်လယ်', 'မြစ်', 'အင်းအိုင်', 'ကုန်း'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-geography-2',
+    subject: 'geography',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Where People Live',
+    titleMy: 'လူတို့နေထိုင်ရာနေရာများ',
+    descriptionEn:
+        'Learn about villages, towns, cities and the different kinds of homes people live in.',
+    descriptionMy:
+        'ကျေးရွာ၊ မြို့နှင့် မြို့ကြီးများအကြောင်းနှင့် လူတို့နေထိုင်ကြသော အိမ်အမျိုးမျိုးကို လေ့လာကြရအောင်။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'A small place where a few families live, often surrounded by farms, is called a ___.',
+        questionMy:
+            'လယ်ယာများနှင့် ဝန်းရံနေလေ့ရှိသော မိသားစုအနည်းငယ်နေထိုင်သည့် သေးငယ်သောနေရာကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['City', 'Village', 'Airport', 'Factory'],
+        optionsMy: ['မြို့ကြီး', 'ကျေးရွာ', 'လေဆိပ်', 'စက်ရုံ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is usually true about a city compared to a village?',
+        questionMy:
+            'ကျေးရွာနှင့်နှိုင်းယှဉ်လျှင် မြို့ကြီးတစ်ခုနှင့်ပတ်သက်၍ များသောအားဖြင့် မှန်ကန်သည့်အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A city has many more people and buildings',
+          'A city always has no roads',
+          'A city has fewer people than a village',
+          'A city has only farms',
+        ],
+        optionsMy: [
+          'မြို့ကြီးတွင် လူဦးရေနှင့် အဆောက်အအုံများ ပိုများသည်',
+          'မြို့ကြီးတွင် လမ်းများ လုံးဝမရှိပါ',
+          'မြို့ကြီးတွင် ကျေးရွာထက် လူနည်းသည်',
+          'မြို့ကြီးတွင် လယ်ယာများသာရှိသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Many families living close together inside one tall building live in a ___.',
+        questionMy:
+            'မိသားစုများစွာ တစ်ဆောက်အုံတည်းအတွင်း အနီးကပ်နေထိုင်သည့်နေရာကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Apartment building', 'Farm field', 'River', 'Forest'],
+        optionsMy: ['တိုက်ခန်း (တိုက်ကြီး)', 'လယ်ကွင်း', 'မြစ်', 'တောအုပ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In many Myanmar villages, farmers often live close to their ___.',
+        questionMy:
+            'မြန်မာနိုင်ငံ ကျေးရွာများစွာတွင် လယ်သမားများသည် များသောအားဖြင့် မိမိတို့၏ ___ အနီးတွင် နေထိုင်ကြသည်။',
+        optionsEn: ['Fields', 'Shopping malls', 'Airports', 'Train stations'],
+        optionsMy: [
+          'လယ်ကွင်းများ',
+          'စျေးဝယ်စင်တာများ',
+          'လေဆိပ်များ',
+          'ရထားဘူတာများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A place that is bigger than a village but smaller than a big city, with shops and schools, is called a ___.',
+        questionMy:
+            'ကျေးရွာထက်ကြီးပြီး မြို့ကြီးထက်သေးငယ်ကာ ဆိုင်များနှင့် ကျောင်းများပါရှိသောနေရာကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Town', 'Ocean', 'Desert', 'Cave'],
+        optionsMy: ['မြို့ငယ်', 'သမုဒ္ဒရာ', 'သဲကန္တာရ', 'ဂူ'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-geography-2',
+    subject: 'geography',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Rivers and Mountains of Myanmar',
+    titleMy: 'မြန်မာနိုင်ငံ၏ မြစ်များနှင့် တောင်တန်းများ',
+    descriptionEn:
+        'Learn about Myanmar\'s major rivers and mountain ranges, including the Ayeyarwady River and the country\'s highest peaks.',
+    descriptionMy:
+        'မြန်မာနိုင်ငံရှိ အဓိကမြစ်များနှင့် တောင်တန်းများ၊ ဧရာဝတီမြစ်နှင့် အမြင့်ဆုံးတောင်ထိပ်များအကြောင်းကို လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the name of the longest and most important river in Myanmar?',
+        questionMy:
+            'မြန်မာနိုင်ငံရှိ အရှည်ဆုံးနှင့် အရေးအကြီးဆုံးမြစ်၏ အမည်ကား အဘယ်နည်း။',
+        optionsEn: [
+          'Thanlwin River',
+          'Ayeyarwady River',
+          'Chindwin River',
+          'Sittaung River',
+        ],
+        optionsMy: [
+          'သံလွင်မြစ်',
+          'ဧရာဝတီမြစ်',
+          'ချင်းတွင်းမြစ်',
+          'စစ်တောင်းမြစ်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which mountain range runs along Myanmar\'s western border?',
+        questionMy:
+            'မြန်မာနိုင်ငံ၏ အနောက်ဘက်နယ်စပ်တစ်လျှောက် တည်ရှိသော တောင်တန်းကား အဘယ်နည်း။',
+        optionsEn: [
+          'Rakhine Yoma',
+          'Shan Plateau',
+          'Bago Yoma',
+          'Kachin Hills',
+        ],
+        optionsMy: [
+          'ရခိုင်ရိုးမ',
+          'ရှမ်းကုန်းပြင်မြင့်',
+          'ပဲခူးရိုးမ',
+          'ကချင်တောင်ကုန်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is the highest mountain in Myanmar (and all of Southeast Asia)?',
+        questionMy:
+            'အောက်ပါတို့အနက် မြန်မာနိုင်ငံ (နှင့် အရှေ့တောင်အာရှတစ်ခုလုံး) ၏ အမြင့်ဆုံးတောင်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Mount Popa',
+          'Mount Zwegabin',
+          'Hkakabo Razi',
+          'Mount Kyaiktiyo',
+        ],
+        optionsMy: [
+          'ပုပ္ပါးတောင်',
+          'ဇွဲကပင်တောင်',
+          'ခါကာဘိုရာဇီ',
+          'ကျိုက်ထီးရိုးတောင်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The Chindwin River flows into which major river of Myanmar?',
+        questionMy:
+            'ချင်းတွင်းမြစ်သည် မြန်မာနိုင်ငံ၏ မည်သည့်အဓိကမြစ်ကြီးထဲသို့ စီးဝင်သနည်း။',
+        optionsEn: [
+          'Thanlwin River',
+          'Sittaung River',
+          'Ayeyarwady River',
+          'Kaladan River',
+        ],
+        optionsMy: [
+          'သံလွင်မြစ်',
+          'စစ်တောင်းမြစ်',
+          'ဧရာဝတီမြစ်',
+          'ကုလားတန်မြစ်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which river forms much of the border between Myanmar and Thailand?',
+        questionMy:
+            'မြန်မာနိုင်ငံနှင့် ထိုင်းနိုင်ငံအကြား နယ်စပ်အများစုကို ဖွဲ့စည်းပေးသော မြစ်ကား အဘယ်နည်း။',
+        optionsEn: [
+          'Ayeyarwady River',
+          'Chindwin River',
+          'Thanlwin River',
+          'Bago River',
+        ],
+        optionsMy: ['ဧရာဝတီမြစ်', 'ချင်းတွင်းမြစ်', 'သံလွင်မြစ်', 'ပဲခူးမြစ်'],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-geography-2',
+    subject: 'geography',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Countries and Capitals of the World',
+    titleMy: 'ကမ္ဘာ့နိုင်ငံများနှင့် မြို့တော်များ',
+    descriptionEn:
+        'Learn about well-known countries around the world and the capital cities that govern them.',
+    descriptionMy:
+        'ကမ္ဘာ့နိုင်ငံကျော်များနှင့် ၎င်းတို့၏အုပ်ချုပ်ရေးဌာနချုပ်ဖြစ်သော မြို့တော်များအကြောင်းကို လေ့လာကြရအောင်။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the capital city of Myanmar?',
+        questionMy: 'မြန်မာနိုင်ငံ၏ မြို့တော်မှာ အဘယ်မြို့နည်း။',
+        optionsEn: ['Yangon', 'Naypyidaw', 'Mandalay', 'Bagan'],
+        optionsMy: ['ရန်ကုန်', 'နေပြည်တော်', 'မန္တလေး', 'ပုဂံ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which capital city is located in France?',
+        questionMy:
+            'အောက်ပါမြို့တော်များအနက် ပြင်သစ်နိုင်ငံတွင် တည်ရှိသော မြို့တော်မှာ အဘယ်မြို့နည်း။',
+        optionsEn: ['Paris', 'Rome', 'Berlin', 'Madrid'],
+        optionsMy: ['ပါရီမြို့', 'ရောမမြို့', 'ဘာလင်မြို့', 'မက်ဒရစ်မြို့'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Tokyo is the capital city of which country?',
+        questionMy: 'တိုကျိုမြို့သည် မည်သည့်နိုင်ငံ၏ မြို့တော်ဖြစ်သနည်း။',
+        optionsEn: ['China', 'South Korea', 'Japan', 'Thailand'],
+        optionsMy: [
+          'တရုတ်နိုင်ငံ',
+          'တောင်ကိုရီးယားနိုင်ငံ',
+          'ဂျပန်နိုင်ငံ',
+          'ထိုင်းနိုင်ငံ',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is the capital city of the United Kingdom?',
+        questionMy:
+            'အောက်ပါတို့အနက် ဗြိတိန်နိုင်ငံ (United Kingdom) ၏ မြို့တော်မှာ အဘယ်မြို့နည်း။',
+        optionsEn: ['Manchester', 'Liverpool', 'London', 'Dublin'],
+        optionsMy: [
+          'မန်ချက်စတာမြို့',
+          'လီဗာပူးမြို့',
+          'လန်ဒန်မြို့',
+          'ဒတ်ဗလင်မြို့',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'Canberra is the capital city of which country?',
+        questionMy: 'ကင်ဘယ်ရာမြို့သည် မည်သည့်နိုင်ငံ၏ မြို့တော်ဖြစ်သနည်း။',
+        optionsEn: ['New Zealand', 'Australia', 'South Africa', 'India'],
+        optionsMy: [
+          'နယူးဇီလန်နိုင်ငံ',
+          'သြစတြေးလျနိုင်ငံ',
+          'တောင်အာဖရိကနိုင်ငံ',
+          'အိန္ဒိယနိုင်ငံ',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-geography-2',
+    subject: 'geography',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Population and Settlements',
+    titleMy: 'လူဦးရေနှင့် ဒေသချထားမှုများ',
+    descriptionEn:
+        'Learn about why people cluster in cities and what makes a location good for a settlement, including the differences between urban and rural life.',
+    descriptionMy:
+        'လူများသည် အဘယ်ကြောင့် မြို့ကြီးများတွင် စုပြုံနေထိုင်ကြသည်ကို၎င်း၊ ဒေသချထားမှုအတွက် ကောင်းမွန်သောနေရာတွင် ရှိရမည့်အချက်များကို၎င်း၊ မြို့ပြနှင့် ကျေးလက်ဘဝကွာခြားချက်များကို၎င်း လေ့လာကြရအောင်။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is the MAIN reason people originally settled near rivers?',
+        questionMy:
+            'လူများသည် မူလက မြစ်များအနီးတွင် အဘယ်ကြောင့် အဓိကအားဖြင့် အခြေချနေထိုင်ခဲ့ကြသနည်း။',
+        optionsEn: [
+          'Rivers provide water for drinking, farming, and transport',
+          'Rivers make the weather colder',
+          'Rivers are quieter than mountains',
+          'Rivers attract more tourists',
+        ],
+        optionsMy: [
+          'မြစ်များသည် သောက်ရေ၊ လယ်ယာသုံးရေနှင့် သယ်ယူပို့ဆောင်ရေးအတွက် ရေပေးနိုင်သောကြောင့်',
+          'မြစ်များက ရာသီဥတုကို ပိုအေးစေသောကြောင့်',
+          'မြစ်များသည် တောင်များထက် ပိုတိတ်ဆိတ်သောကြောင့်',
+          'မြစ်များက ခရီးသွားများ ပိုများစေသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A flat area of fertile land is a good settlement site mainly because it is ___.',
+        questionMy:
+            'မြေညီညီသော မြေဆီလွှာကောင်းသည့်ဒေသသည် ဒေသချထားရန်နေရာကောင်းတစ်ခုဖြစ်ရခြင်းမှာ အဓိကအားဖြင့် ___ ဖြစ်သောကြောင့်ဖြစ်သည်။',
+        optionsEn: [
+          'easy to build on and good for growing crops',
+          'far away from all neighbours',
+          'always covered in snow',
+          'difficult to reach by road',
+        ],
+        optionsMy: [
+          'အဆောက်အအုံဆောက်ရလွယ်ကူပြီး သီးနှံစိုက်ပျိုးရန်ကောင်းမွန်သောကြောင့်',
+          'အိမ်နီးချင်းအားလုံးနှင့် အလွန်ဝေးကွာနေသောကြောင့်',
+          'နှင်းများနှင့် အမြဲအုပ်နေသောကြောင့်',
+          'လမ်းဖြင့် ရောက်ရှိရန် ခက်ခဲသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do many people move from rural areas to cities?',
+        questionMy:
+            'လူများစွာသည် ကျေးလက်ဒေသများမှ မြို့ကြီးများသို့ အဘယ်ကြောင့် ပြောင်းရွှေ့နေထိုင်ကြသနည်း။',
+        optionsEn: [
+          'To find more jobs, schools, and hospitals',
+          'Because cities have no buildings',
+          'Because farming is only possible in cities',
+          'Because cities have fewer people',
+        ],
+        optionsMy: [
+          'အလုပ်အကိုင်၊ ကျောင်းများနှင့် ဆေးရုံများ ပိုမိုရှာဖွေရန်',
+          'မြို့ကြီးများတွင် အဆောက်အအုံများ မရှိသောကြောင့်',
+          'လယ်ယာလုပ်ငန်းကို မြို့ကြီးများတွင်သာ ပြုလုပ်နိုင်သောကြောင့်',
+          'မြို့ကြီးများတွင် လူဦးရေ ပိုနည်းသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which is a typical feature of a rural settlement compared to an urban one?',
+        questionMy:
+            'မြို့ပြဒေသနှင့် နှိုင်းယှဉ်ပါက ကျေးလက်ဒေသ၏ ထူးခြားချက်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Fewer people and more farmland',
+          'Taller skyscrapers and heavier traffic',
+          'More factories than fields',
+          'A larger population than any city',
+        ],
+        optionsMy: [
+          'လူဦးရေနည်းပြီး လယ်ယာမြေများပိုများခြင်း',
+          'အမြင့်ရှည်သောအဆောက်အအုံများနှင့် ယာဉ်ကြောပိတ်ဆို့မှုပိုများခြင်း',
+          'လယ်ယာမြေများထက် စက်ရုံများပိုများခြင်း',
+          'မည်သည့်မြို့ထက်မဆို လူဦးရေပိုများခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A hilltop location is often chosen for a settlement mainly for ___.',
+        questionMy:
+            'တောင်ကုန်းထိပ်ရှိနေရာကို ဒေသချထားရန် ရွေးချယ်ရခြင်းမှာ အဓိကအားဖြင့် ___ အတွက်ဖြစ်သည်။',
+        optionsEn: [
+          'defence, since it is easier to see enemies approaching',
+          'growing rice in flooded fields',
+          'keeping the area cooler in winter',
+          'reducing the number of visitors',
+        ],
+        optionsMy: [
+          'ရန်သူများချဉ်းကပ်လာသည်ကို ပိုမြင်လွယ်သောကြောင့် ကာကွယ်ရေးအတွက်',
+          'ရေနစ်လယ်များတွင် ဆန်စပါးစိုက်ပျိုးရန်',
+          'ဆောင်းတွင်း ဒေသကို ပိုအေးမြစေရန်',
+          'လာရောက်လည်ပတ်သူအရေအတွက် လျှော့ချရန်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-geography-2',
+    subject: 'geography',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Global Trade and Our Connected World',
+    titleMy: 'ကမ္ဘာ့ကုန်သွယ်မှုနှင့် ဆက်စပ်နေသောကမ္ဘာကြီး',
+    descriptionEn:
+        'Learn about how goods and resources move between countries through imports and exports, and why nations depend on one another.',
+    descriptionMy:
+        'ကုန်ပစ္စည်းနှင့် သယံဇာတများသည် နိုင်ငံများအကြား တင်သွင်းမှုနှင့် တင်ပို့မှုများမှတစ်ဆင့် မည်သို့ရွေ့လျားကြောင်းနှင့် နိုင်ငံများအချင်းချင်း အဘယ်ကြောင့် အပြန်အလှန်မှီခိုနေရကြောင်းကို လေ့လာကြရအောင်။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the term for goods that a country buys from other countries and brings into its own country?',
+        questionMy:
+            'တိုင်းပြည်တစ်ခုက အခြားနိုင်ငံများထံမှ ဝယ်ယူပြီး မိမိနိုင်ငံအတွင်းသို့ ယူဆောင်လာသော ကုန်ပစ္စည်းများကို ခေါ်ဝေါ်သည့်အသုံးအနှုန်းမှာ အဘယ်နည်း။',
+        optionsEn: ['Exports', 'Imports', 'Surplus', 'Reserves'],
+        optionsMy: [
+          'တင်ပို့ကုန်များ',
+          'တင်သွင်းကုန်များ',
+          'ပိုလျှံငွေ',
+          'အရန်ငွေ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the term for goods that a country produces and sells to other countries?',
+        questionMy:
+            'တိုင်းပြည်တစ်ခုက ထုတ်လုပ်ပြီး အခြားနိုင်ငံများထံသို့ ရောင်းချသော ကုန်ပစ္စည်းများကို ခေါ်ဝေါ်သည့်အသုံးအနှုန်းမှာ အဘယ်နည်း။',
+        optionsEn: ['Exports', 'Imports', 'Tariffs', 'Losses'],
+        optionsMy: [
+          'တင်ပို့ကုန်များ',
+          'တင်သွင်းကုန်များ',
+          'အခွန်များ',
+          'အရှုံးများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Myanmar exports rice, teak, and natural gas to other countries. Why might a country like Myanmar still need to import machinery and electronics from other countries?',
+        questionMy:
+            'မြန်မာနိုင်ငံသည် ဆန်၊ သစ်ကုန်းနှင့် သဘာဝဓာတ်ငွေ့တို့ကို အခြားနိုင်ငံများသို့ တင်ပို့သည်။ မြန်မာကဲ့သို့သော နိုင်ငံသည် စက်ယန္တရားနှင့် အီလက်ထရွန်နစ်ပစ္စည်းများကို အခြားနိုင်ငံများမှ အဘယ်ကြောင့် ဆက်လက်တင်သွင်းရနိုင်သနည်း။',
+        optionsEn: [
+          'Because no country needs machinery or electronics',
+          'Because it may not have the factories, technology, or resources to produce those goods efficiently itself',
+          'Because exporting and importing the same goods is required by law',
+          'Because rice and teak cannot be sold to other countries',
+        ],
+        optionsMy: [
+          'မည်သည့်နိုင်ငံမျှ စက်ယန္တရား သို့မဟုတ် အီလက်ထရွန်နစ်ပစ္စည်းများ မလိုအပ်သောကြောင့်',
+          'ထိုကုန်ပစ္စည်းများကို ကျိုးကျိုးနပ်နပ်ထုတ်လုပ်နိုင်သည့် စက်ရုံ၊ နည်းပညာ သို့မဟုတ် သယံဇာတမရှိနိုင်သောကြောင့်',
+          'တူညီသောကုန်ပစ္စည်းများကို တင်ပို့ခြင်းနှင့် တင်သွင်းခြင်း နှစ်ခုလုံးကို ဥပဒေအရ လုပ်ရမည်ဖြစ်သောကြောင့်',
+          'ဆန်နှင့် သစ်ကုန်းတို့ကို အခြားနိုင်ငံများသို့ မရောင်းနိုင်သောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A container ship carries clothes made in a factory in one country to shops in another country. Which mode of transport is this an example of for moving trade goods across oceans?',
+        questionMy:
+            'ကွန်တိန်နာသင်္ဘောတစ်စင်းသည် နိုင်ငံတစ်ခုရှိ စက်ရုံတွင် ချုပ်လုပ်ထားသော အဝတ်အထည်များကို အခြားနိုင်ငံရှိ ဆိုင်များသို့ သယ်ဆောင်သည်။ ဤသည်မှာ ကုန်သွယ်ရေးပစ္စည်းများကို သမုဒ္ဒရာဖြတ်၍ ရွှေ့ပြောင်းရာတွင် အသုံးပြုသော သယ်ယူပို့ဆောင်ရေးပုံစံအနက် အဘယ်ပုံစံ၏ ဥပမာဖြစ်သနည်း။',
+        optionsEn: [
+          'Sea transport',
+          'Air transport only',
+          'Pipeline transport',
+          'Space transport',
+        ],
+        optionsMy: [
+          'ရေကြောင်းသယ်ယူပို့ဆောင်ရေး',
+          'လေကြောင်းသယ်ယူပို့ဆောင်ရေးသာ',
+          'ပိုက်လိုင်းသယ်ယူပို့ဆောင်ရေး',
+          'အာကာသသယ်ယူပို့ဆောင်ရေး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If a serious storm shuts down a major shipping port for several weeks, what is the most likely effect on countries that rely on that port for trade?',
+        questionMy:
+            'ပြင်းထန်သောမုန်တိုင်းတစ်ခုကြောင့် အဓိကရေကြောင်းဆိပ်ကမ်းတစ်ခုကို ရက်သတ္တပတ်များစွာ ပိတ်ထားရလျှင် ထိုဆိပ်ကမ်းကို ကုန်သွယ်ရေးအတွက် အားကိုးနေသော နိုင်ငံများအပေါ် အဖြစ်များဆုံး ဆိုးကျိုးသက်ရောက်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'No effect at all, because trade does not depend on ports',
+          'Goods may be delayed and prices may rise because supply chains are disrupted',
+          'Every country becomes fully self-sufficient overnight',
+          'Only the country that owns the port is affected',
+        ],
+        optionsMy: [
+          'ကုန်သွယ်ရေးသည် ဆိပ်ကမ်းများအပေါ် မမှီခိုသောကြောင့် ဘာမျှမထိခိုက်ပါ',
+          'ပေးသွင်းကွင်းဆက်များ အနှောင့်အယှက်ခံရသောကြောင့် ကုန်ပစ္စည်းများနောက်ကျပြီး စျေးနှုန်းများ မြင့်တက်နိုင်သည်',
+          'နိုင်ငံအားလုံးသည် တစ်ညချင်းအတွင်း လုံးဝကိုယ်ပိုင်ဖြည့်ဆည်းနိုင်စွမ်းရှိလာသည်',
+          'ဆိပ်ကမ်းပိုင်ဆိုင်သောနိုင်ငံသာ ထိခိုက်ခံရသည်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
 ];
