@@ -381,7 +381,7 @@ void main() {
       }
     });
 
-    test('every PhotoGuessQuestion has a non-empty imageAssetPath, '
+    test('every PhotoGuessQuestion has exactly one image source, '
         'matching-length bilingual options, and an in-bounds correctIndex', () {
       for (final pathway in allCoursePathways) {
         for (final term in pathway.terms) {
@@ -390,7 +390,19 @@ void main() {
               for (final q in lesson.photoGuessQuestions) {
                 final loc =
                     '${pathway.id} > ${week.id} > ${lesson.id} > ${q.id}';
-                expect(q.imageAssetPath, isNotEmpty, reason: loc);
+                expect(
+                  (q.imageAssetPath == null) != (q.imagePlaceholderUrl == null),
+                  isTrue,
+                  reason:
+                      '$loc: exactly one of imageAssetPath/'
+                      'imagePlaceholderUrl must be set',
+                );
+                if (q.imageAssetPath != null) {
+                  expect(q.imageAssetPath, isNotEmpty, reason: loc);
+                }
+                if (q.imagePlaceholderUrl != null) {
+                  expect(q.imagePlaceholderUrl, isNotEmpty, reason: loc);
+                }
                 expect(q.promptEn, isNotEmpty, reason: loc);
                 expect(q.promptMy, isNotEmpty, reason: loc);
                 expect(

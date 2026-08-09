@@ -218,22 +218,45 @@ class _PhotoGuessQuestionView extends StatelessWidget {
           borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
           child: AspectRatio(
             aspectRatio: 4 / 3,
-            child: Image.asset(
-              question.imageAssetPath,
-              fit: BoxFit.cover,
-              // A missing/unbundled asset must never crash the lesson --
-              // falls back to a plain placeholder tile so the round is
-              // still playable from the prompt/options text alone.
-              errorBuilder: (context, error, stackTrace) => Container(
-                color: theme.colorScheme.surfaceContainerHigh,
-                alignment: Alignment.center,
-                child: Icon(
-                  Icons.image_not_supported_rounded,
-                  size: 48,
-                  color: theme.colorScheme.onSurfaceVariant,
-                ),
-              ),
-            ),
+            // A missing/unbundled asset or failed network fetch must never
+            // crash the lesson -- both branches fall back to the same
+            // placeholder tile so the round stays playable from the
+            // prompt/options text alone.
+            child: question.imagePlaceholderUrl != null
+                ? Image.network(
+                    question.imagePlaceholderUrl!,
+                    fit: BoxFit.cover,
+                    loadingBuilder: (context, child, progress) =>
+                        progress == null
+                        ? child
+                        : Container(
+                            color: theme.colorScheme.surfaceContainerHigh,
+                            alignment: Alignment.center,
+                            child: const CircularProgressIndicator(),
+                          ),
+                    errorBuilder: (context, error, stackTrace) => Container(
+                      color: theme.colorScheme.surfaceContainerHigh,
+                      alignment: Alignment.center,
+                      child: Icon(
+                        Icons.image_not_supported_rounded,
+                        size: 48,
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  )
+                : Image.asset(
+                    question.imageAssetPath!,
+                    fit: BoxFit.cover,
+                    errorBuilder: (context, error, stackTrace) => Container(
+                      color: theme.colorScheme.surfaceContainerHigh,
+                      alignment: Alignment.center,
+                      child: Icon(
+                        Icons.image_not_supported_rounded,
+                        size: 48,
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
           ),
         ),
         if (attribution != null && attribution.isNotEmpty) ...[

@@ -160,33 +160,45 @@ class ReadingPassageModel {
 }
 
 /// One "Guess the Photo" round for [PhotoGuessScreen]
-/// (`photo_guess_screen.dart`, Task 6): a bundled image plus a
-/// multiple-choice prompt about it -- e.g. a landmark photo with "Which
-/// country is this in?".
+/// (`photo_guess_screen.dart`, Task 6): an image plus a multiple-choice
+/// prompt about it -- e.g. a landmark photo with "Which country is this
+/// in?". Exactly one of [imageAssetPath]/[imagePlaceholderUrl] is set,
+/// enforced by the constructor assert below.
+///
+/// ## Two image sources, two very different bars
 ///
 /// [imageAssetPath] is a bundled Flutter asset path (declared under
-/// `flutter: assets:` in `pubspec.yaml`), never a network URL -- this app
-/// has no image-hosting dependency (no `firebase_storage`, no third-party
-/// image API), so every photo ships inside the app binary.
-///
-/// ## Authoring bar -- read before adding a round
-///
-/// A photo only belongs in a [DailyLessonDef.photoGuessQuestions] list
-/// once all of the following are true for it: (1) it is genuinely
-/// public-domain, CC0, or CC-BY/CC-BY-SA licensed for commercial
-/// redistribution (Wikimedia Commons' PD/CC0 categories are the
-/// best-fit source for General Knowledge/Geography/Science/History
+/// `flutter: assets:` in `pubspec.yaml`) -- the production path. This app
+/// has no image-hosting dependency (no `firebase_storage`, no
+/// third-party image API) for anything else in it, so a bundled round
+/// works fully offline and never depends on a third party staying up.
+/// A photo only belongs here once all of the following are true for it:
+/// (1) it is genuinely public-domain, CC0, or CC-BY/CC-BY-SA licensed for
+/// commercial redistribution (Wikimedia Commons' PD/CC0 categories are
+/// the best-fit source for General Knowledge/Geography/Science/History
 /// content); (2) its attribution requirement, if the license has one, is
 /// recorded in [attributionEn]/[attributionMy] -- never silently dropped;
 /// (3) the image file has actually been added under `assets/photo_guess/`
 /// and `pubspec.yaml`'s asset list. None of that can be done responsibly
 /// by generating plausible-looking entries -- it requires sourcing and
-/// checking each image individually, which is why no [DailyLessonDef]
-/// is wired to [LessonKind.photoGuess] yet.
+/// checking each image individually.
+///
+/// [imagePlaceholderUrl] is an explicit, temporary stand-in loaded over
+/// the network (`Image.network`) -- used only to exercise this screen's
+/// plumbing before real assets exist, never for graded/real content. Two
+/// rules if you use this: never bake the correct answer into the
+/// placeholder's own text/label (a placeholder that visibly says the
+/// answer isn't a placeholder, it's a spoiler), and never pair it with a
+/// prompt whose correct answer depends on what the photo actually shows
+/// (a mismatched/random stock photo makes a real question unanswerable
+/// from the image, which is worse than no image at all). A round using
+/// this field requires network access to render and has no offline
+/// fallback beyond [PhotoGuessScreen]'s broken-image icon.
 class PhotoGuessQuestion {
   const PhotoGuessQuestion({
     required this.id,
-    required this.imageAssetPath,
+    this.imageAssetPath,
+    this.imagePlaceholderUrl,
     required this.promptEn,
     required this.promptMy,
     required this.optionsEn,
@@ -194,10 +206,18 @@ class PhotoGuessQuestion {
     required this.correctIndex,
     this.attributionEn,
     this.attributionMy,
-  });
+  }) : assert(
+         (imageAssetPath == null) != (imagePlaceholderUrl == null),
+         'Exactly one of imageAssetPath/imagePlaceholderUrl must be set',
+       );
 
   final String id;
-  final String imageAssetPath;
+  final String? imageAssetPath;
+
+  /// Temporary network placeholder -- see the class doc comment's "Two
+  /// image sources" section before using this for anything but proving
+  /// the screen renders.
+  final String? imagePlaceholderUrl;
   final String promptEn;
   final String promptMy;
 
