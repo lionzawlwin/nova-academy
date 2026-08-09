@@ -10608,4 +10608,566 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Coding depth batch 1: a second module per grade (Year 1-6), bringing
+  // `coding` from 1 module/grade to 2, matching the
+  // "geography/history/computing depth batch 1" blocks above. Authored
+  // via a parallel content-generation workflow (one agent per grade),
+  // with every logic-bearing question (loop traces, comparison results,
+  // debugging fixes) independently hand-verified for correctness before
+  // being added here.
+  PrimaryActivityDef(
+    id: 'mock-year1-coding-2',
+    subject: 'coding',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Fix the Wrong Order',
+    titleMy: 'မှားနေသော အစီအစဉ်ကို ပြင်ပါ',
+    descriptionEn:
+        'Learn to spot a step that\'s out of order in a sequence and figure out where it should really go.',
+    descriptionMy:
+        'အစီအစဉ်ထဲတွင် နေရာလွဲနေသော အဆင့်ကို ရှာဖွေပြီး မှန်ကန်သောနေရာကို ပြင်ဆင်တတ်အောင် လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Look at this order: 1) Dry hands 2) Turn on the tap 3) Put soap on hands 4) Rub hands together. One step is in the wrong place. Which step should move?',
+        questionMy:
+            'ဤအစီအစဉ်ကို ကြည့်ပါ- ၁) လက်ကိုသုတ်ခြင်း ၂) ရေပိုက်ဖွင့်ခြင်း ၃) လက်ဆေးဆပ်ပြာလိမ်းခြင်း ၄) လက်ကိုပွတ်တိုက်ခြင်း။ တစ်ဆင့်က နေရာမှားနေသည်။ မည်သည့်အဆင့်ကို ရွှေ့သင့်သနည်း။',
+        optionsEn: [
+          'Dry hands',
+          'Turn on the tap',
+          'Put soap on hands',
+          'Rub hands together',
+        ],
+        optionsMy: [
+          'လက်ကိုသုတ်ခြင်း',
+          'ရေပိုက်ဖွင့်ခြင်း',
+          'လက်ဆေးဆပ်ပြာလိမ်းခြင်း',
+          'လက်ကိုပွတ်တိုက်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Look at this order: 1) Put on shoes 2) Tie the shoelaces 3) Go outside 4) Put on socks. One step is in the wrong place. Which step should move?',
+        questionMy:
+            'ဤအစီအစဉ်ကို ကြည့်ပါ- ၁) ဖိနပ်စီးခြင်း ၂) ဖိနပ်ကြိုးစည်းခြင်း ၃) အပြင်ထွက်ခြင်း ၄) ခြေအိတ်စီးခြင်း။ တစ်ဆင့်က နေရာမှားနေသည်။ မည်သည့်အဆင့်ကို ရွှေ့သင့်သနည်း။',
+        optionsEn: [
+          'Put on shoes',
+          'Tie the shoelaces',
+          'Go outside',
+          'Put on socks',
+        ],
+        optionsMy: [
+          'ဖိနပ်စီးခြင်း',
+          'ဖိနပ်ကြိုးစည်းခြင်း',
+          'အပြင်ထွက်ခြင်း',
+          'ခြေအိတ်စီးခြင်း',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Look at this order: 1) Eat the food 2) Wash your hands 3) Sit at the table 4) Say thank you. One step is in the wrong place. Which step should move?',
+        questionMy:
+            'ဤအစီအစဉ်ကို ကြည့်ပါ- ၁) အစားအစာစားခြင်း ၂) လက်ဆေးခြင်း ၃) စားပွဲတွင်ထိုင်ခြင်း ၄) ကျေးဇူးတင်ကြောင်းပြောခြင်း။ တစ်ဆင့်က နေရာမှားနေသည်။ မည်သည့်အဆင့်ကို ရွှေ့သင့်သနည်း။',
+        optionsEn: [
+          'Eat the food',
+          'Wash your hands',
+          'Sit at the table',
+          'Say thank you',
+        ],
+        optionsMy: [
+          'အစားအစာစားခြင်း',
+          'လက်ဆေးခြင်း',
+          'စားပွဲတွင်ထိုင်ခြင်း',
+          'ကျေးဇူးတင်ကြောင်းပြောခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Look at this order: 1) Dig a hole 2) Cover with soil 3) Water the seed 4) Put the seed in the hole. One step is in the wrong place. Which step should move?',
+        questionMy:
+            'ဤအစီအစဉ်ကို ကြည့်ပါ- ၁) မြေတွင်းတူးခြင်း ၂) မြေဖုံးခြင်း ၃) မျိုးစေ့ကိုရေလောင်းခြင်း ၄) မျိုးစေ့ကိုတွင်းထဲထည့်ခြင်း။ တစ်ဆင့်က နေရာမှားနေသည်။ မည်သည့်အဆင့်ကို ရွှေ့သင့်သနည်း။',
+        optionsEn: [
+          'Dig a hole',
+          'Cover with soil',
+          'Water the seed',
+          'Put the seed in the hole',
+        ],
+        optionsMy: [
+          'မြေတွင်းတူးခြင်း',
+          'မြေဖုံးခြင်း',
+          'မျိုးစေ့ကိုရေလောင်းခြင်း',
+          'မျိုးစေ့ကိုတွင်းထဲထည့်ခြင်း',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Look at this order: 1) Take out the bread 2) Close the sandwich 3) Put butter on the bread 4) Add cheese. One step is in the wrong place. Which step should move?',
+        questionMy:
+            'ဤအစီအစဉ်ကို ကြည့်ပါ- ၁) ပေါင်မုန့်ထုတ်ယူခြင်း ၂) ဆန်းဒိုက်ချ်ကိုပိတ်ခြင်း ၃) ပေါင်မုန့်ပေါ်ထောပတ်လိမ်းခြင်း ၄) ချိစ်ထည့်ခြင်း။ တစ်ဆင့်က နေရာမှားနေသည်။ မည်သည့်အဆင့်ကို ရွှေ့သင့်သနည်း။',
+        optionsEn: [
+          'Take out the bread',
+          'Close the sandwich',
+          'Put butter on the bread',
+          'Add cheese',
+        ],
+        optionsMy: [
+          'ပေါင်မုန့်ထုတ်ယူခြင်း',
+          'ဆန်းဒိုက်ချ်ကိုပိတ်ခြင်း',
+          'ပေါင်မုန့်ပေါ်ထောပတ်လိမ်းခြင်း',
+          'ချိစ်ထည့်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-coding-2',
+    subject: 'coding',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Events: What Makes Things Start?',
+    titleMy: 'Events - အရာများကို ဘာက စတင်စေသနည်း',
+    descriptionEn:
+        'Learn about events and triggers, and how one action can make another thing happen right away.',
+    descriptionMy:
+        'Event နှင့် Trigger များအကြောင်း၊ လုပ်ဆောင်မှုတစ်ခုက အခြားအရာတစ်ခုကို ချက်ချင်းဖြစ်ပေါ်စေပုံကို လေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'In coding, an action like pressing a button or tapping an icon that makes something happen is called a...',
+        questionMy:
+            'ခလုတ်နှိပ်ခြင်း (သို့) icon ကို tap လုပ်ခြင်းကဲ့သို့ တစ်စုံတစ်ခုကို ဖြစ်ပေါ်စေသော လုပ်ဆောင်ချက်ကို ကုတ်ရေးရာတွင် ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['An event', 'A color', 'A picture', 'A number'],
+        optionsMy: ['Event', 'အရောင်', 'ပုံ', 'ဂဏန်း'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'You tap a game icon on a tablet and the game opens. What triggered the game to open?',
+        questionMy:
+            'သင်သည် tablet ပေါ်တွင် game icon ကို tap လုပ်လိုက်ပြီး game ပွင့်လာသည်။ game ကို ဖွင့်ပေးခဲ့သည့် trigger က ဘာနည်း။',
+        optionsEn: [
+          'Tapping the icon',
+          'The color of the screen',
+          'The weight of the tablet',
+          'The name of the game',
+        ],
+        optionsMy: [
+          'Icon ကို tap လုပ်ခြင်း',
+          'စခရင်၏အရောင်',
+          'tablet ၏အလေးချိန်',
+          'game ၏အမည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A kitchen timer beeps after 5 minutes, and that beep tells you to take the cake out of the oven. What is the event here?',
+        questionMy:
+            'မီးဖိုချောင်သုံး timer သည် ၅ မိနစ်ကြာပြီးနောက် အသံမြည်ပြီး ၎င်းအသံက ကိတ်မုန့်ကို မီးဖိုမှထုတ်ရန် သတိပေးသည်။ ဤနေရာတွင် event က ဘာနည်း။',
+        optionsEn: [
+          'The timer beeping',
+          'The size of the cake',
+          'The color of the oven',
+          'The name of the baker',
+        ],
+        optionsMy: [
+          'Timer အသံမြည်ခြင်း',
+          'ကိတ်မုန့်၏အရွယ်အစား',
+          'မီးဖို၏အရောင်',
+          'မုန့်ဖုတ်သူ၏အမည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In a game, when a character clicks a "jump" button, the character jumps. Which part is the trigger and which is the result?',
+        questionMy:
+            'ဂိမ်းတစ်ခုတွင် ဇာတ်ကောင်က "jump" ခလုတ်ကို click လုပ်သောအခါ ဇာတ်ကောင်သည် ခုန်သည်။ မည်သည့်အပိုင်းက trigger ဖြစ်ပြီး မည်သည့်အပိုင်းက ရလဒ်ဖြစ်သနည်း။',
+        optionsEn: [
+          'Clicking the button is the trigger, jumping is the result',
+          'Jumping is the trigger, clicking is the result',
+          'Both are triggers',
+          'Neither is a trigger',
+        ],
+        optionsMy: [
+          'ခလုတ် click လုပ်ခြင်းက trigger ဖြစ်ပြီး ခုန်ခြင်းက ရလဒ်ဖြစ်သည်',
+          'ခုန်ခြင်းက trigger ဖြစ်ပြီး click လုပ်ခြင်းက ရလဒ်ဖြစ်သည်',
+          'နှစ်ခုစလုံးက trigger ဖြစ်သည်',
+          'မည်သည့်တစ်ခုမျှ trigger မဟုတ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is an example of an event starting an action?',
+        questionMy:
+            'အောက်ပါတို့အနက် event တစ်ခုက လုပ်ဆောင်ချက်တစ်ခုကို စတင်စေသည့် ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Pressing a doorbell button makes it ring',
+          'A book sitting quietly on a shelf',
+          'A picture hanging on the wall',
+          'A chair standing in the room',
+        ],
+        optionsMy: [
+          'ဒေါင်းဘဲ ခလုတ်ကို နှိပ်လိုက်သောအခါ အသံမြည်ခြင်း',
+          'စာအုပ်တစ်အုပ် စင်ပေါ်တွင် တိတ်ဆိတ်စွာ ရှိနေခြင်း',
+          'နံရံပေါ်ရှိ ပုံတစ်ပုံ',
+          'အခန်းထဲရှိ ကုလားထိုင်တစ်လုံး',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-coding-2',
+    subject: 'coding',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Sprites and Coordinates',
+    titleMy: 'Sprite နှင့် Coordinate များ',
+    descriptionEn:
+        'Learn what a sprite is and how x/y coordinates describe where it is and how it moves on the screen.',
+    descriptionMy:
+        'Sprite ဆိုသည်မှာ အဘယ်နည်း၊ x/y coordinate များက sprite ၏ တည်နေရာနှင့် ရွေ့လျားပုံကို မည်သို့ဖော်ပြသည်ကို လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'In coding programs like Scratch, what is a "sprite"?',
+        questionMy:
+            'Scratch ကဲ့သို့သော coding ပရိုဂရမ်များတွင် "sprite" ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A sound effect used in games',
+          'A character or object you can move and control on screen',
+          'A type of loop that repeats forever',
+          'A color used to decorate the screen',
+        ],
+        optionsMy: [
+          'ဂိမ်းများတွင် အသုံးပြုသော အသံအထူးပြင်ဆင်ချက်တစ်ခု',
+          'စခရင်ပေါ်တွင် ရွေ့လျား၍ ထိန်းချုပ်နိုင်သော ဇာတ်ကောင် (သို့) အရာဝတ္ထုတစ်ခု',
+          'အမြဲထပ်ခါထပ်ခါ လုပ်ဆောင်သော loop အမျိုးအစားတစ်ခု',
+          'စခရင်ကို အလှဆင်ရန်အသုံးပြုသော အရောင်တစ်ခု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In an x/y coordinate system, what does the x-coordinate tell you?',
+        questionMy:
+            'x/y coordinate စနစ်တွင် x-coordinate က သင့်အား ဘာကိုပြောပြသနည်း။',
+        optionsEn: [
+          'How big a sprite is',
+          'How fast a sprite moves',
+          'How far left or right a point is',
+          'How many colors are used',
+        ],
+        optionsMy: [
+          'sprite တစ်ခု ဘယ်လောက်ကြီးသည်',
+          'sprite တစ်ခု ဘယ်လောက်မြန်စွာ ရွေ့လျားသည်',
+          'အမှတ်တစ်ခုသည် ဘယ် (သို့) ညာ ဘယ်လောက်ဝေးသည်',
+          'အရောင်ဘယ်နှစ်မျိုးအသုံးပြုသည်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What does the y-coordinate tell you about a sprite\'s position?',
+        questionMy:
+            'y-coordinate က sprite တစ်ခု၏ တည်နေရာအကြောင်း ဘာကိုပြောပြသနည်း။',
+        optionsEn: [
+          'What color it is',
+          'How far up or down it is',
+          'How many times it repeats',
+          'How loud a sound is',
+        ],
+        optionsMy: [
+          '၎င်း၏ အရောင်ဘာဖြစ်သည်',
+          '၎င်းသည် အပေါ် (သို့) အောက် ဘယ်လောက်ဝေးသည်',
+          '၎င်းသည် ဘယ်နှစ်ကြိမ်ထပ်ခါလုပ်သည်',
+          'အသံ ဘယ်လောက်ကျယ်သည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'On the Scratch stage, the coordinate (0, 0) is located at...',
+        questionMy:
+            'Scratch stage ပေါ်တွင် coordinate (0, 0) သည် မည်သည့်နေရာတွင် တည်ရှိသနည်း။',
+        optionsEn: [
+          'The top-left corner',
+          'The bottom-right corner',
+          'Outside the stage',
+          'The center of the stage',
+        ],
+        optionsMy: [
+          'ဘယ်ဘက်အပေါ်ထောင့်',
+          'ညာဘက်အောက်ထောင့်',
+          'stage ၏ ပြင်ပတွင်',
+          'stage ၏ အလယ်ဗဟို',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A sprite starts at (0, 0) and moves to (10, 0). In which direction did it move?',
+        questionMy:
+            'sprite တစ်ခုသည် (0, 0) မှစတင်ပြီး (10, 0) သို့ ရွေ့လျားသည်။ ၎င်းသည် မည်သည့်ဘက်သို့ ရွေ့လျားခဲ့သနည်း။',
+        optionsEn: ['Upward', 'To the left', 'To the right', 'Downward'],
+        optionsMy: ['အပေါ်ဘက်သို့', 'ဘယ်ဘက်သို့', 'ညာဘက်သို့', 'အောက်ဘက်သို့'],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-coding-2',
+    subject: 'coding',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Comparing Values: Bigger, Smaller, or Equal?',
+    titleMy: 'တန်ဖိုးများ နှိုင်းယှဉ်ခြင်း — ကြီးသလား၊ ငယ်သလား၊ ညီသလား',
+    descriptionEn:
+        'Learn about comparison operators and how programs use greater than, less than, and equal to checks to compare two values.',
+    descriptionMy:
+        'Comparison operator များအကြောင်းနှင့် Program များသည် တန်ဖိုးနှစ်ခုကို ကြီးသည်၊ ငယ်သည်၊ ညီသည် စစ်ဆေးရန် မည်သို့အသုံးပြုကြောင်းကို လေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What do programs use comparison operators for?',
+        questionMy:
+            'ပရိုဂရမ်များသည် Comparison operator များကို အဘယ်အတွက် အသုံးပြုကြသနည်း။',
+        optionsEn: [
+          'To compare two values and decide true or false',
+          'To store a value in memory',
+          'To repeat an action many times',
+          'To draw shapes on the screen',
+        ],
+        optionsMy: [
+          'တန်ဖိုးနှစ်ခုကို နှိုင်းယှဉ်ပြီး မှန်/မှား ဆုံးဖြတ်ရန်',
+          'တန်ဖိုးတစ်ခုကို memory တွင် သိမ်းဆည်းရန်',
+          'လုပ်ဆောင်ချက်တစ်ခုကို အကြိမ်များစွာ ထပ်ခါထပ်ခါလုပ်ရန်',
+          'မျက်နှာပြင်ပေါ်တွင် ပုံများဆွဲရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which symbol means \'greater than\' in most programming languages?',
+        questionMy:
+            'ပရိုဂရမ်းမင်းဘာသာစကားအများစုတွင် "ကြီးသည်" ဟု ဆိုလိုသော သင်္ကေတမှာ အဘယ်နည်း။',
+        optionsEn: ['>', '<', '=', '+'],
+        optionsMy: ['>', '<', '=', '+'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What does the comparison 7 > 4 evaluate to?',
+        questionMy: 'Comparison 7 > 4 ကို အကဲဖြတ်လျှင် ရလဒ်မှာ အဘယ်နည်း။',
+        optionsEn: ['True', 'False', '7', '4'],
+        optionsMy: ['True', 'False', '7', '4'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What does the comparison 5 < 3 evaluate to?',
+        questionMy: 'Comparison 5 < 3 ကို အကဲဖြတ်လျှင် ရလဒ်မှာ အဘယ်နည်း။',
+        optionsEn: ['False', 'True', '5', '3'],
+        optionsMy: ['False', 'True', '5', '3'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which symbol checks whether two values are equal in code (not just assigning a value)?',
+        questionMy:
+            'ကုဒ်တွင် တန်ဖိုးနှစ်ခု ညီမညီ စစ်ဆေးရန် အသုံးပြုသော သင်္ကေတမှာ အဘယ်နည်း (Value သတ်မှတ်ရုံမျှ မဟုတ်ပါ)။',
+        optionsEn: ['==', '=', '!=', '<>'],
+        optionsMy: ['==', '=', '!=', '<>'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-coding-2',
+    subject: 'coding',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Loops in Code: For and While',
+    titleMy: 'ကုဒ်ထဲက Loop များ- For နှင့် While',
+    descriptionEn:
+        'Learn about tracing simple for and while loops in code and predicting how many times they repeat or what they print.',
+    descriptionMy:
+        'ရိုးရှင်းသော for နှင့် while loop ကုဒ်များကို ခြေရာခံဖတ်ပြီး ၎င်းတို့ ဘယ်နှစ်ကြိမ်ထပ်ခါတလဲလဲ လုပ်ဆောင်မည်၊ ဘာပြသမည်ကို ခန့်မှန်းတတ်စေရန် သင်ယူပါမည်။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Code: for i in range(4): print("Hi"). How many times does "Hi" print?',
+        questionMy:
+            'ကုဒ်- for i in range(4)- print("Hi") ။ "Hi" ကို ဘယ်နှစ်ကြိမ် ပြသမည်နည်း။',
+        optionsEn: ['4', '3', '5', '1'],
+        optionsMy: ['4', '3', '5', '1'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Code: count = 0, while count < 3: print(count), count = count + 1. What does this print?',
+        questionMy:
+            'ကုဒ်- count = 0, while count < 3- print(count), count = count + 1 ။ ဒါက ဘာများ ပြသမည်နည်း။',
+        optionsEn: ['0, 1, 2', '1, 2, 3', '0, 1, 2, 3', '3, 2, 1'],
+        optionsMy: ['0, 1, 2', '1, 2, 3', '0, 1, 2, 3', '3, 2, 1'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Code: total = 0, for i in range(5): total = total + 1. What is the value of total after the loop finishes?',
+        questionMy:
+            'ကုဒ်- total = 0, for i in range(5)- total = total + 1 ။ loop ပြီးဆုံးပြီးနောက် total ၏တန်ဖိုးမှာ မည်သို့ဖြစ်မည်နည်း။',
+        optionsEn: ['5', '4', '0', '10'],
+        optionsMy: ['5', '4', '0', '10'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the main difference between a "for" loop and a "while" loop?',
+        questionMy:
+            '"for" loop နှင့် "while" loop ၏ အဓိကကွာခြားချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A for loop usually repeats a set number of times; a while loop repeats until a condition becomes false',
+          'A for loop never repeats; a while loop always repeats forever',
+          'A for loop only works with words; a while loop only works with numbers',
+          'There is no difference, they always do the same thing',
+        ],
+        optionsMy: [
+          'for loop သည် သတ်မှတ်ကြိမ်ဦးရေအတိုင်း ပုံမှန်ထပ်ခါလုပ်ဆောင်ပြီး၊ while loop သည် အခြေအနေတစ်ခု false ဖြစ်သွားသည်အထိ ထပ်ခါလုပ်ဆောင်သည်',
+          'for loop သည် ဘယ်တော့မှ ထပ်ခါမလုပ်ဘဲ၊ while loop သည် အမြဲတမ်းအဆုံးမရှိ ထပ်ခါလုပ်နေသည်',
+          'for loop သည် စာလုံးများနှင့်သာ အလုပ်လုပ်ပြီး၊ while loop သည် နံပါတ်များနှင့်သာ အလုပ်လုပ်သည်',
+          'ကွာခြားချက် လုံးဝမရှိပါ၊ နှစ်ခုစလုံး တစ်ခုတည်းအလုပ်လုပ်ကြသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Code: n = 5, while n > 0: print(n), n = n - 2. What is the last number printed before the loop stops?',
+        questionMy:
+            'ကုဒ်- n = 5, while n > 0- print(n), n = n - 2 ။ loop ရပ်တန့်ခင် နောက်ဆုံးပြသသော နံပါတ်မှာ အဘယ်နည်း။',
+        optionsEn: ['1', '0', '-1', '3'],
+        optionsMy: ['1', '0', '-1', '3'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-coding-2',
+    subject: 'coding',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Debugging: Find the Bug',
+    titleMy: 'Debugging - ကုဒ်ရှိ အမှားကို ရှာဖွေခြင်း',
+    descriptionEn:
+        'Learn how to read short pseudocode snippets, spot common bugs, and work out how to fix them.',
+    descriptionMy:
+        'Pseudocode အတိုများကို ဖတ်ကာ သာမန်ကြုံရတတ်သည့် အမှားများကို ရှာဖွေပြီး မည်သို့ပြင်ဆင်ရမည်ကို လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'This code should print the numbers 1 to 5, but it stops too early:\nFOR i = 1 TO 4\n  PRINT i\nEND FOR\nWhat is the bug, and how should it be fixed?',
+        questionMy:
+            'ဤကုဒ်သည် ၁ မှ ၅ အထိ ကိန်းဂဏန်းများကို ပြသသင့်သော်လည်း စောစီးစွာ ရပ်သွားသည်။\nFOR i = 1 TO 4\n  PRINT i\nEND FOR\nအမှားက ဘာလဲ၊ မည်သို့ ပြင်ဆင်သင့်သနည်း။',
+        optionsEn: [
+          'The loop should start at i = 0',
+          'PRINT i should be outside the loop',
+          'The loop should be FOR i = 1 TO 5',
+          'The loop should use WHILE instead of FOR',
+        ],
+        optionsMy: [
+          'Loop ကို i = 0 မှ စတင်ရမည်',
+          'PRINT i ကို loop အပြင်ဘက်တွင် ထားရမည်',
+          'Loop ကို FOR i = 1 TO 5 ဟု ပြောင်းရမည်',
+          'FOR အစား WHILE ကို သုံးရမည်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A score of 50 or more should count as a Pass. A student scores exactly 50:\nIF score > 50 THEN\n  PRINT "Pass"\nELSE\n  PRINT "Fail"\nEND IF\nWhat does this code print for that student, and what is the fix?',
+        questionMy:
+            'အမှတ် ၅၀ (သို့) ၎င်းထက်ပိုလျှင် Pass ဟု မှတ်သင့်သည်။ ကျောင်းသားတစ်ဦးက အမှတ် ၅၀ အတိအကျ ရသည်။\nIF score > 50 THEN\n  PRINT "Pass"\nELSE\n  PRINT "Fail"\nEND IF\nထိုကျောင်းသားအတွက် ဤကုဒ်က ဘာပြသမည်နည်း၊ မည်သို့ပြင်ဆင်ရမည်နည်း။',
+        optionsEn: [
+          'It prints "Pass" for 50; no fix is needed',
+          'It prints "Fail" for 50; change IF to WHILE',
+          'It prints "Pass" for 49; change ELSE to IF',
+          'It prints "Fail" for 50; change > to >=',
+        ],
+        optionsMy: [
+          'အမှတ် ၅၀ အတွက် "Pass" ဟုပြသသည်၊ ပြင်ဆင်စရာမလိုပါ',
+          'အမှတ် ၅၀ အတွက် "Fail" ဟုပြသသည်၊ IF ကို WHILE သို့ ပြောင်းရမည်',
+          'အမှတ် ၄၉ အတွက် "Pass" ဟုပြသသည်၊ ELSE ကို IF သို့ ပြောင်းရမည်',
+          'အမှတ် ၅၀ အတွက် "Fail" ဟုပြသသည်၊ > ကို >= သို့ ပြောင်းရမည်',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'This code should calculate and print the area of a rectangle:\nPRINT area\narea = length * width\nWhat is wrong with it?',
+        questionMy:
+            'ဤကုဒ်သည် စတုဂံ၏ဧရိယာကို တွက်ချက်ပြီး ပြသသင့်သည်။\nPRINT area\narea = length * width\nဒါက ဘာအမှားရှိသနည်း။',
+        optionsEn: [
+          'It multiplies the wrong two numbers',
+          'It prints area before calculating it; PRINT area must come after area = length * width',
+          'It uses ADD instead of MULTIPLY',
+          'The variable name "area" is not allowed in code',
+        ],
+        optionsMy: [
+          'မှားယွင်းသော ကိန်းဂဏန်းနှစ်ခုကို မြှောက်နေသည်',
+          'Area ကို မတွက်ခင်မှာ ပြသနေသည်၊ PRINT area ကို area = length * width ၏ နောက်တွင် ထားရမည်',
+          'MULTIPLY အစား ADD ကို သုံးနေသည်',
+          '"area" ဟူသော variable အမည်ကို ကုဒ်တွင် အသုံးပြု၍မရပါ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'This code should add 1 + 2 + 3 and print the total (expected answer: 6):\ntotal = 1\nFOR i = 1 TO 3\n  total = total + i\nEND FOR\nPRINT total\nBut it prints 7. What is the bug?',
+        questionMy:
+            'ဤကုဒ်သည် ၁ + ၂ + ၃ ကို ပေါင်းပြီး စုစုပေါင်းကို ပြသသင့်သည် (မှန်ကန်သောအဖြေ - ၆)။\ntotal = 1\nFOR i = 1 TO 3\n  total = total + i\nEND FOR\nPRINT total\nသို့သော် ၇ ဟု ပြသနေသည်။ အမှားက ဘာလဲ။',
+        optionsEn: [
+          'The FOR loop should go TO 4 instead of TO 3',
+          'i should start at 0 instead of 1',
+          'The PRINT statement should be inside the loop',
+          'total starts at 1 instead of 0, adding one extra; it should start at total = 0',
+        ],
+        optionsMy: [
+          'FOR loop သည် TO 3 အစား TO 4 အထိ ဖြစ်သင့်သည်',
+          'i သည် 1 အစား 0 မှ စတင်သင့်သည်',
+          'PRINT statement ကို loop အတွင်းတွင် ထားသင့်သည်',
+          'total သည် 0 အစား 1 မှ စတင်နေသဖြင့် တစ်ခုပိုပေါင်းမိသည်၊ total = 0 မှ စတင်ရမည်',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'This code should swap the values of x and y (before: x = 3, y = 7):\nx = y\ny = x\nAfter running it, what are the final values of x and y, and why is that wrong?',
+        questionMy:
+            'ဤကုဒ်သည် x နှင့် y ၏ တန်ဖိုးများကို လဲလှယ်ပေးသင့်သည် (မလဲလှယ်မီ - x = 3, y = 7)။\nx = y\ny = x\nဒါကိုအလုပ်လုပ်ပြီးနောက် x နှင့် y ၏ နောက်ဆုံးတန်ဖိုးများက ဘာဖြစ်မည်နည်း၊ ဘာကြောင့်မှားနေသနည်း။',
+        optionsEn: [
+          'x = 3 and y = 7 (unchanged) — the code has no effect',
+          'x = 7 and y = 3 (correctly swapped) — the code works fine',
+          'x = 7 and y = 7 (both become 7) — x\'s original value is lost before y can use it; a temporary variable is needed',
+          'x = 0 and y = 0 — the code resets both variables',
+        ],
+        optionsMy: [
+          'x = 3 နှင့် y = 7 (မပြောင်းလဲပါ) — ကုဒ်က မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိပါ',
+          'x = 7 နှင့် y = 3 (မှန်ကန်စွာ လဲလှယ်ပြီး) — ကုဒ်က မှန်ကန်စွာအလုပ်လုပ်သည်',
+          'x = 7 နှင့် y = 7 (နှစ်ခုစလုံး 7 ဖြစ်သွားသည်) — y အသုံးမပြုခင် x ၏ မူလတန်ဖိုးကို ဆုံးရှုံးသွားသည်၊ temporary variable တစ်ခု လိုအပ်သည်',
+          'x = 0 နှင့် y = 0 — ကုဒ်က variable နှစ်ခုစလုံးကို ပြန်လည်သတ်မှတ်သည်',
+        ],
+        correctIndex: 2,
+      ),
+    ],
+  ),
 ];
