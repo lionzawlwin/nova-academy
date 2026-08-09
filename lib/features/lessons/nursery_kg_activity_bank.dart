@@ -4208,4 +4208,414 @@ const List<NurseryActivityDef> nurseryKgActivityBank = [
       ),
     ],
   ),
+
+  // ===================== NEW SUBJECT: SCIENCE =====================
+  // Fills a genuine content gap: `science` had zero Nursery/KG modules
+  // (unlike every other subject here, which already had at least 4 per
+  // grade) even though Primary Year 1-6 has had `science` modules all
+  // along (see `primary_curriculum_bank.dart`). 4 modules per grade,
+  // matching the standard per-grade count this file otherwise holds to.
+  // Grade.kg modules step up in complexity from their Grade.nursery
+  // counterparts, following the same convention as the Round 1 expansion
+  // above.
+  NurseryActivityDef(
+    id: 'mock-nursery-science-1',
+    subject: 'science',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Weather Around Us',
+    titleMy: 'ကျွန်ုပ်တို့ပတ်ဝန်းကျင်ရာသီဥတု',
+    descriptionEn:
+        'The child drags each weather picture to match its correct name.',
+    descriptionMy:
+        'ကလေးငယ်သည် ရာသီဥတုပုံများကို မှန်ကန်သောအမည်နှင့် ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'weather-sun',
+        emoji: '☀️',
+        colorValue: 0xFFFFD93D,
+        labelEn: 'Sun',
+        labelMy: 'နေ',
+      ),
+      MatchPairItem(
+        id: 'weather-rain',
+        emoji: '🌧️',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Rain',
+        labelMy: 'မိုး',
+      ),
+      MatchPairItem(
+        id: 'weather-cloud',
+        emoji: '☁️',
+        colorValue: 0xFF9FB4C7,
+        labelEn: 'Cloud',
+        labelMy: 'တိမ်',
+      ),
+      MatchPairItem(
+        id: 'weather-wind',
+        emoji: '🍃',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Wind',
+        labelMy: 'လေ',
+      ),
+      MatchPairItem(
+        id: 'weather-rainbow',
+        emoji: '🌈',
+        colorValue: 0xFF9600FF,
+        labelEn: 'Rainbow',
+        labelMy: 'သက်တံ့',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-nursery-science-2',
+    subject: 'science',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Our Five Senses',
+    titleMy: 'ကျွန်ုပ်တို့၏ အာရုံငါးပါး',
+    descriptionEn:
+        'The child drags each body part to the sense it uses to explore the world.',
+    descriptionMy:
+        'ကလေးငယ်သည် ကိုယ်ခန္ဓာအစိတ်အပိုင်းများကို ၎င်းတို့အသုံးပြုသော အာရုံခံစားမှုနှင့် ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'sense-eye',
+        emoji: '👀',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Eyes See',
+        labelMy: 'မျက်စိဖြင့် မြင်သည်',
+      ),
+      MatchPairItem(
+        id: 'sense-ear',
+        emoji: '👂',
+        colorValue: 0xFFFF9F1C,
+        labelEn: 'Ears Hear',
+        labelMy: 'နားဖြင့် ကြားသည်',
+      ),
+      MatchPairItem(
+        id: 'sense-nose',
+        emoji: '👃',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Nose Smells',
+        labelMy: 'နှာခေါင်းဖြင့် အနံ့ခံသည်',
+      ),
+      MatchPairItem(
+        id: 'sense-tongue',
+        emoji: '👅',
+        colorValue: 0xFFFF6891,
+        labelEn: 'Tongue Tastes',
+        labelMy: 'လျှာဖြင့် အရသာခံသည်',
+      ),
+      MatchPairItem(
+        id: 'sense-hand',
+        emoji: '✋',
+        colorValue: 0xFFC2A357,
+        labelEn: 'Hands Touch',
+        labelMy: 'လက်ဖြင့် တို့ထိသည်',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-nursery-science-3',
+    subject: 'science',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Plants Grow',
+    titleMy: 'အပင်များ ကြီးထွားခြင်း',
+    descriptionEn:
+        'The child drags each picture to match the stages a plant goes through as it grows.',
+    descriptionMy:
+        'ကလေးငယ်သည် အပင်တစ်ပင် ကြီးထွားလာစဉ် ဖြတ်သန်းရသော အဆင့်များကို ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'plant-seed',
+        emoji: '🌰',
+        colorValue: 0xFFC2A357,
+        labelEn: 'Seed',
+        labelMy: 'မျိုးစေ့',
+      ),
+      MatchPairItem(
+        id: 'plant-water',
+        emoji: '💧',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Water',
+        labelMy: 'ရေ',
+      ),
+      MatchPairItem(
+        id: 'plant-sprout',
+        emoji: '🌱',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Sprout',
+        labelMy: 'အညှောက်',
+      ),
+      MatchPairItem(
+        id: 'plant-flower',
+        emoji: '🌸',
+        colorValue: 0xFFFF6891,
+        labelEn: 'Flower',
+        labelMy: 'ပန်း',
+      ),
+      MatchPairItem(
+        id: 'plant-tree',
+        emoji: '🌳',
+        colorValue: 0xFF2E8B57,
+        labelEn: 'Tree',
+        labelMy: 'သစ်ပင်',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-nursery-science-4',
+    subject: 'science',
+    grade: Grade.nursery,
+    contentType: 'interactive',
+    titleEn: 'Day and Night',
+    titleMy: 'နေ့နှင့် ညဉ့်',
+    descriptionEn:
+        'The child drags each picture to match things we see by day or by night.',
+    descriptionMy:
+        'ကလေးငယ်သည် နေ့အချိန်နှင့် ညအချိန်တွင် မြင်ရသောအရာများကို ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 6,
+    items: [
+      MatchPairItem(
+        id: 'day-sun',
+        emoji: '☀️',
+        colorValue: 0xFFFFD93D,
+        labelEn: 'Sun (Day)',
+        labelMy: 'နေ (နေ့ခင်း)',
+      ),
+      MatchPairItem(
+        id: 'night-moon',
+        emoji: '🌙',
+        colorValue: 0xFF29C4F5,
+        labelEn: 'Moon (Night)',
+        labelMy: 'လ (ညအချိန်)',
+      ),
+      MatchPairItem(
+        id: 'night-star',
+        emoji: '⭐',
+        colorValue: 0xFF9600FF,
+        labelEn: 'Star (Night)',
+        labelMy: 'ကြယ် (ညအချိန်)',
+      ),
+      MatchPairItem(
+        id: 'night-owl',
+        emoji: '🦉',
+        colorValue: 0xFF6B4F3A,
+        labelEn: 'Owl (Night)',
+        labelMy: 'ဇီးကွက် (ညအချိန်)',
+      ),
+      MatchPairItem(
+        id: 'day-rooster',
+        emoji: '🐓',
+        colorValue: 0xFFFF9F1C,
+        labelEn: 'Rooster (Day)',
+        labelMy: 'ကြက်ဖ (နေ့ခင်း)',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-science-1',
+    subject: 'science',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'Magnets and Materials',
+    titleMy: 'သံလိုက်နှင့် ပစ္စည်းမျိုးစိတ်များ',
+    descriptionEn:
+        'The child drags each object to match whether a magnet can pull it or not.',
+    descriptionMy:
+        'ကလေးငယ်သည် သံလိုက်ဆွဲငင်နိုင် သို့မဟုတ် မဆွဲငင်နိုင်သော ပစ္စည်းများကို ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 8,
+    items: [
+      MatchPairItem(
+        id: 'magnet-magnet',
+        emoji: '🧲',
+        colorValue: 0xFFE64545,
+        labelEn: 'Magnet',
+        labelMy: 'သံလိုက်',
+      ),
+      MatchPairItem(
+        id: 'magnet-nail',
+        emoji: '🔩',
+        colorValue: 0xFF9FB4C7,
+        labelEn: 'Metal Nail',
+        labelMy: 'သံမှို',
+      ),
+      MatchPairItem(
+        id: 'magnet-paperclip',
+        emoji: '📎',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Paperclip',
+        labelMy: 'စက္ကူညှပ်',
+      ),
+      MatchPairItem(
+        id: 'magnet-wood',
+        emoji: '🪵',
+        colorValue: 0xFFC2A357,
+        labelEn: 'Wooden Block',
+        labelMy: 'သစ်သားတုံး',
+      ),
+      MatchPairItem(
+        id: 'magnet-ball',
+        emoji: '⚽',
+        colorValue: 0xFF4CB963,
+        labelEn: 'Rubber Ball',
+        labelMy: 'ဘောလုံး',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-science-2',
+    subject: 'science',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'The Water Cycle',
+    titleMy: 'ရေလည်ပတ်မှုစက်ဝန်း',
+    descriptionEn:
+        'The child drags each picture to match the steps water takes from sun to sea and back.',
+    descriptionMy:
+        'ကလေးငယ်သည် နေရောင်မှသည် ပင်လယ်အထိနှင့် ပြန်လည်ရေလည်ပတ်ရသော အဆင့်များကို ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 8,
+    items: [
+      MatchPairItem(
+        id: 'water-cycle-sun',
+        emoji: '☀️',
+        colorValue: 0xFFFFD93D,
+        labelEn: 'Sun Warms Water',
+        labelMy: 'နေရောင်က ရေကိုနွေးစေသည်',
+      ),
+      MatchPairItem(
+        id: 'water-cycle-cloud',
+        emoji: '☁️',
+        colorValue: 0xFF9FB4C7,
+        labelEn: 'Cloud Forms',
+        labelMy: 'တိမ်ဖွဲ့သည်',
+      ),
+      MatchPairItem(
+        id: 'water-cycle-rain',
+        emoji: '🌧️',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Rain Falls',
+        labelMy: 'မိုးရွာသည်',
+      ),
+      MatchPairItem(
+        id: 'water-cycle-river',
+        emoji: '🏞️',
+        colorValue: 0xFF4CB963,
+        labelEn: 'River Flows',
+        labelMy: 'မြစ်စီးဆင်းသည်',
+      ),
+      MatchPairItem(
+        id: 'water-cycle-ocean',
+        emoji: '🌊',
+        colorValue: 0xFF29C4F5,
+        labelEn: 'Ocean Collects Water',
+        labelMy: 'သမုဒ္ဒရာက ရေကို စုပေါင်းသည်',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-science-3',
+    subject: 'science',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'Living and Non-Living Things',
+    titleMy: 'သက်ရှိနှင့် သက်မဲ့ အရာများ',
+    descriptionEn:
+        'The child drags each picture to match whether the thing is living or non-living.',
+    descriptionMy:
+        'ကလေးငယ်သည် အရာဝတ္ထုတစ်ခုသည် သက်ရှိ သို့မဟုတ် သက်မဲ့ ဖြစ်မဖြစ် ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 8,
+    items: [
+      MatchPairItem(
+        id: 'living-tree',
+        emoji: '🌳',
+        colorValue: 0xFF2E8B57,
+        labelEn: 'Tree (Living)',
+        labelMy: 'သစ်ပင် (သက်ရှိ)',
+      ),
+      MatchPairItem(
+        id: 'living-dog',
+        emoji: '🐶',
+        colorValue: 0xFFFF6891,
+        labelEn: 'Dog (Living)',
+        labelMy: 'ခွေး (သက်ရှိ)',
+      ),
+      MatchPairItem(
+        id: 'nonliving-rock',
+        emoji: '🪨',
+        colorValue: 0xFF9FB4C7,
+        labelEn: 'Rock (Non-Living)',
+        labelMy: 'ကျောက်တုံး (သက်မဲ့)',
+      ),
+      MatchPairItem(
+        id: 'nonliving-chair',
+        emoji: '🪑',
+        colorValue: 0xFFC2A357,
+        labelEn: 'Chair (Non-Living)',
+        labelMy: 'ကုလားထိုင် (သက်မဲ့)',
+      ),
+      MatchPairItem(
+        id: 'living-flower',
+        emoji: '🌸',
+        colorValue: 0xFFFF9F1C,
+        labelEn: 'Flower (Living)',
+        labelMy: 'ပန်း (သက်ရှိ)',
+      ),
+    ],
+  ),
+  NurseryActivityDef(
+    id: 'mock-kg-science-4',
+    subject: 'science',
+    grade: Grade.kg,
+    contentType: 'interactive',
+    titleEn: 'Amazing Human Body',
+    titleMy: 'အံ့ဩဖွယ် လူ့ခန္ဓာကိုယ်',
+    descriptionEn:
+        'The child drags each body part to match what job it does inside the body.',
+    descriptionMy:
+        'ကလေးငယ်သည် ခန္ဓာကိုယ်အစိတ်အပိုင်းတစ်ခုစီ၏ လုပ်ဆောင်ချက်နှင့် ဆွဲယူတွဲစပ်ကြည့်ရမည်။',
+    starsReward: 8,
+    items: [
+      MatchPairItem(
+        id: 'body-brain',
+        emoji: '🧠',
+        colorValue: 0xFFFF6891,
+        labelEn: 'Brain Thinks',
+        labelMy: 'ဦးနှောက်က တွေးခေါ်သည်',
+      ),
+      MatchPairItem(
+        id: 'body-heart',
+        emoji: '❤️',
+        colorValue: 0xFFE64545,
+        labelEn: 'Heart Pumps Blood',
+        labelMy: 'နှလုံးက သွေးကို တွန်းပို့သည်',
+      ),
+      MatchPairItem(
+        id: 'body-bone',
+        emoji: '🦴',
+        colorValue: 0xFFEDEDED,
+        labelEn: 'Bones Support Us',
+        labelMy: 'အရိုးများက ခန္ဓာကိုယ်ကို ထောက်ပံ့သည်',
+      ),
+      MatchPairItem(
+        id: 'body-muscle',
+        emoji: '💪',
+        colorValue: 0xFFC2A357,
+        labelEn: 'Muscles Help Us Move',
+        labelMy: 'ကြွက်သားများက ရွေ့လျားရန် ကူညီသည်',
+      ),
+      MatchPairItem(
+        id: 'body-lungs',
+        emoji: '🫁',
+        colorValue: 0xFF4EA7F7,
+        labelEn: 'Lungs Help Us Breathe',
+        labelMy: 'အဆုတ်များက အသက်ရှုရန် ကူညီသည်',
+      ),
+    ],
+  ),
 ];

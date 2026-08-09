@@ -188,11 +188,13 @@ void main() {
     final modules = mockSeedNurseryKgModules();
     final legacyModules = mockSeedLearningModules();
 
-    test('has exactly 268 modules', () {
+    test('has exactly 276 modules', () {
       // 260 pre-existing + 8 more Nova Quantum Flash Engine decks (4 Nursery
       // + 4 KG, spanning math/phonics/generalknowledge) added in a later
-      // nursery_kg_quantum_flash_bank.dart expansion.
-      expect(modules.length, 268);
+      // nursery_kg_quantum_flash_bank.dart expansion, + 8 more `science`
+      // modules (4 Nursery + 4 KG) filling that subject's previously-empty
+      // Nursery/KG coverage.
+      expect(modules.length, 276);
     });
 
     test('every module id is unique, including against legacy modules', () {
@@ -210,23 +212,27 @@ void main() {
       }
     });
 
-    test('every module subject is one of the ten expected Nursery/KG keys', () {
-      const expected = {
-        'phonics',
-        'math',
-        'generalknowledge',
-        'stem',
-        'coding',
-        'engineering',
-        'history',
-        'geography',
-        'computing',
-        'art',
-      };
-      for (final module in modules) {
-        expect(expected.contains(module.subject), isTrue, reason: module.id);
-      }
-    });
+    test(
+      'every module subject is one of the eleven expected Nursery/KG keys',
+      () {
+        const expected = {
+          'phonics',
+          'math',
+          'generalknowledge',
+          'stem',
+          'coding',
+          'engineering',
+          'history',
+          'geography',
+          'computing',
+          'art',
+          'science',
+        };
+        for (final module in modules) {
+          expect(expected.contains(module.subject), isTrue, reason: module.id);
+        }
+      },
+    );
 
     test('every module has non-empty bilingual title and description', () {
       for (final module in modules) {
@@ -251,8 +257,8 @@ void main() {
     final legacyModules = mockSeedLearningModules();
     final nurseryModules = mockSeedNurseryKgModules();
 
-    test('has exactly 88 modules', () {
-      expect(modules.length, 106);
+    test('has exactly 108 modules', () {
+      expect(modules.length, 108);
     });
 
     test(
@@ -285,7 +291,7 @@ void main() {
       }
     });
 
-    test('every module subject is one of the six expected Primary keys', () {
+    test('every module subject is one of the ten expected Primary keys', () {
       const expected = {
         'math',
         'english',
@@ -296,6 +302,7 @@ void main() {
         'history',
         'geography',
         'computing',
+        'generalknowledge',
       };
       for (final module in modules) {
         expect(expected.contains(module.subject), isTrue, reason: module.id);

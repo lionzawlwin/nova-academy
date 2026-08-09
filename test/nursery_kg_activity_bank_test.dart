@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('nurseryKgActivityBank', () {
-    test('contains exactly 82 modules', () {
-      expect(nurseryKgActivityBank.length, 82);
+    test('contains exactly 90 modules', () {
+      expect(nurseryKgActivityBank.length, 90);
     });
 
     test('every module id is unique', () {
@@ -45,6 +45,7 @@ void main() {
         'geography',
         'computing',
         'art',
+        'science',
       };
       for (final module in nurseryKgActivityBank) {
         expect(
@@ -70,7 +71,7 @@ void main() {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
-      expect(counts.length, 20, reason: 'expected 20 grade+subject combos');
+      expect(counts.length, 22, reason: 'expected 22 grade+subject combos');
       for (final entry in counts.entries) {
         final expected = expectedOverrides[entry.key] ?? 4;
         expect(

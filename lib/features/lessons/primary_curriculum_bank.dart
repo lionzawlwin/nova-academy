@@ -8394,4 +8394,154 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // New `generalknowledge` subject: fills a genuine content gap -- Year 1
+  // and Year 4 previously had zero grade-specific General Knowledge
+  // modules and silently fell back to `quizQuestionsForSubject`'s shared,
+  // non-grade-specific bank (see `mock_quiz_data.dart`). One module per
+  // targeted grade, following the same one-per-grade cadence as the
+  // history/geography/computing rollout above.
+  PrimaryActivityDef(
+    id: 'mock-year1-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Getting to Know Our World',
+    titleMy: 'ကျွန်ုပ်တို့၏ကမ္ဘာကို လေ့လာခြင်း',
+    descriptionEn:
+        'Learn everyday facts about Myanmar, time, colors, and the world around us.',
+    descriptionMy:
+        'မြန်မာနိုင်ငံ၊ အချိန်၊ အရောင်များနှင့် ကျွန်ုပ်တို့ပတ်ဝန်းကျင်ကမ္ဘာအကြောင်း နေ့စဉ်အသိပညာများကို လေ့လာပါ။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is the capital city of Myanmar?',
+        questionMy: 'မြန်မာနိုင်ငံ၏ မြို့တော်မှာ အဘယ်မြို့နည်း။',
+        optionsEn: ['Naypyidaw', 'Yangon', 'Mandalay', 'Bago'],
+        optionsMy: ['နေပြည်တော်', 'ရန်ကုန်', 'မန္တလေး', 'ပဲခူး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which meal do we usually eat first thing in the morning?',
+        questionMy: 'မနက်စောစော ပထမဆုံး အစားစားရသော အစားအစာကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Breakfast', 'Lunch', 'Dinner', 'Snack'],
+        optionsMy: ['မနက်စာ', 'နေ့လယ်စာ', 'ညစာ', 'သရေစာ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "Which color means 'stop' on a traffic light?",
+        questionMy: "မီးပွိုင့်တွင် 'ရပ်ပါ' ကိုဆိုလိုသော အရောင်မှာ အဘယ်နည်း။",
+        optionsEn: ['Red', 'Green', 'Yellow', 'Blue'],
+        optionsMy: ['အနီရောင်', 'အစိမ်းရောင်', 'အဝါရောင်', 'အပြာရောင်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'How many months are there in a year?',
+        questionMy: 'တစ်နှစ်တွင် လပေါင်းမည်မျှ ရှိသနည်း။',
+        optionsEn: ['12', '10', '7', '24'],
+        optionsMy: ['၁၂', '၁၀', '၇', '၂၄'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What do we call the place where we borrow books to read?',
+        questionMy: 'စာအုပ်များ ငှားယူဖတ်ရှုနိုင်သော နေရာကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Library', 'Hospital', 'Market', 'Zoo'],
+        optionsMy: ['စာကြည့်တိုက်', 'ဆေးရုံ', 'စျေး', 'တိရစ္ဆာန်ဥယျာဉ်'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'World and Community Knowledge',
+    titleMy: 'ကမ္ဘာနှင့် အသိုင်းအဝိုင်း အသိပညာ',
+    descriptionEn:
+        "Learn about Myanmar's currency, good citizenship, ASEAN, and staying informed about the world.",
+    descriptionMy:
+        'မြန်မာငွေကြေး၊ ကောင်းမွန်သော နိုင်ငံသားကျင့်ဝတ်၊ အာဆီယံနှင့် ကမ္ဘာ့သတင်းအချက်အလက်များကို လေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: "What is the name of Myanmar's currency?",
+        questionMy: 'မြန်မာနိုင်ငံ၏ ငွေကြေးအမည်ကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Kyat', 'Baht', 'Rupee', 'Dollar'],
+        optionsMy: ['ကျပ်', 'ဘတ်', 'ရူပီး', 'ဒေါ်လာ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is a basic responsibility of every good citizen?',
+        questionMy:
+            'ကောင်းမွန်သော နိုင်ငံသားတိုင်း၏ အခြေခံတာဝန်မှာ အဘယ်အရာနည်း။',
+        optionsEn: [
+          'Following rules and laws',
+          'Ignoring the rules',
+          'Littering in public places',
+          'Being unkind to others',
+        ],
+        optionsMy: [
+          'စည်းမျဉ်းစည်းကမ်းနှင့် ဥပဒေများကို လိုက်နာခြင်း',
+          'စည်းကမ်းများကို လျစ်လျူရှုခြင်း',
+          'အများပြည်သူနေရာများတွင် အမှိုက်ပစ်ခြင်း',
+          'သူတစ်ပါးအား မကြင်နာဘဲ ပြုမူခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What do we call the group of Southeast Asian countries, including Myanmar, that work together?',
+        questionMy:
+            'မြန်မာနိုင်ငံအပါအဝင် အတူတကွ ပူးပေါင်းဆောင်ရွက်ကြသော အရှေ့တောင်အာရှနိုင်ငံများ အဖွဲ့ကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['ASEAN', 'UN', 'NATO', 'EU'],
+        optionsMy: [
+          'အာဆီယံ (ASEAN)',
+          'ကုလသမဂ္ဂ (UN)',
+          'နေတို (NATO)',
+          'အီးယူ (EU)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these shows good manners when meeting someone new?',
+        questionMy:
+            'လူသစ်တစ်ဦးနှင့် တွေ့ဆုံသည့်အခါ ကောင်းမွန်သော အမူအကျင့်ကို ပြသသည့်အရာက အဘယ်နည်း။',
+        optionsEn: [
+          'Greeting them politely',
+          'Ignoring them completely',
+          'Interrupting them while they speak',
+          'Shouting at them',
+        ],
+        optionsMy: [
+          'ယဉ်ကျေးစွာ နှုတ်ဆက်ခြင်း',
+          'လုံးဝ လျစ်လျူရှုထားခြင်း',
+          'သူပြောနေစဉ် ဖြတ်ပြောခြင်း',
+          'အော်ဟစ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is a good way to stay informed about events happening around the world?',
+        questionMy:
+            'ကမ္ဘာတစ်ဝှမ်းတွင် ဖြစ်ပျက်နေသော အဖြစ်အပျက်များကို သိရှိရန် ကောင်းမွန်သော နည်းလမ်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Reading or watching the news',
+          'Ignoring everything happening around you',
+          'Only playing games all day',
+          'Sleeping all day',
+        ],
+        optionsMy: [
+          'သတင်းများကို ဖတ်ခြင်း သို့မဟုတ် ကြည့်ခြင်း',
+          'ပတ်ဝန်းကျင်တွင် ဖြစ်ပျက်နေသမျှကို လျစ်လျူရှုခြင်း',
+          'တစ်နေ့လုံး ဂိမ်းသာ ကစားခြင်း',
+          'တစ်နေ့လုံး အိပ်နေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
