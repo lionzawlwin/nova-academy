@@ -9066,4 +9066,436 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Secondary History depth batch 1: a second module per grade
+  // (secondary1/secondary2/secondary3/igcse), bringing `history` from 1
+  // module/grade to 2 -- mirroring the "Secondary Geography depth batch
+  // 1" block above. Authored via a parallel content-generation workflow
+  // (one agent per grade), fact-checked for historical accuracy, with
+  // the Cold War and United Nations modules deliberately kept strictly
+  // neutral and factual (no siding on modern political disputes).
+  SecondaryActivityDef(
+    id: 'mock-secondary1-history-2',
+    subject: 'history',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'The Renaissance and Scientific Revolution',
+    titleMy: 'ပြန်လည်ရှင်သန်ခေတ်နှင့် သိပ္ပံပြောင်းလဲမှုကြီး',
+    descriptionEn:
+        'Explore the flourishing of art and learning during the Renaissance and examine how scientists like Copernicus and Galileo transformed our understanding of the universe.',
+    descriptionMy:
+        'ပြန်လည်ရှင်သန်ခေတ်တွင် အနုပညာနှင့် ပညာရေးဖွံ့ဖြိုးတိုးတက်လာပုံကို လေ့လာပြီး ကိုပါနီကပ်စ်နှင့် ဂါလီလီယိုကဲ့သို့သော သိပ္ပံပညာရှင်များက စကြဝဠာအကြောင်း နားလည်မှုအသစ်ကို မည်သို့ဖန်တီးခဲ့ကြောင်း လေ့လာမည်။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'In which country did the Renaissance begin during the 14th century?',
+        questionMy:
+            '၁၄ ရာစုတွင် ပြန်လည်ရှင်သန်ခေတ် (Renaissance) သည် မည်သည့်နိုင်ငံတွင် စတင်ခဲ့သနည်း။',
+        optionsEn: ['Italy', 'France', 'England', 'Germany'],
+        optionsMy: ['အီတလီ', 'ပြင်သစ်', 'အင်္ဂလန်', 'ဂျာမနီ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which astronomer proposed that the Earth and other planets revolve around the Sun, challenging the old belief that Earth was the center of the universe?',
+        questionMy:
+            'ကမ္ဘာနှင့် အခြားဂြိုဟ်များသည် နေကိုပတ်၍ လှည့်ပတ်နေကြောင်း၊ ကမ္ဘာသည် စကြဝဠာ၏ ဗဟိုချက်ဖြစ်သည်ဟူသော အဟောင်းယူဆချက်ကို ကျော်လွန်တင်ပြခဲ့သည့် နက္ခတ္တဗေဒပညာရှင်မှာ မည်သူနည်း။',
+        optionsEn: [
+          'Nicolaus Copernicus',
+          'Galileo Galilei',
+          'Isaac Newton',
+          'Aristotle',
+        ],
+        optionsMy: [
+          'နီကိုးလပ် ကိုပါနီကပ်စ်',
+          'ဂါလီလီယို ဂါလီလေး',
+          'အိုက်ဇက် နယူတန်',
+          'အရစ္စတိုတယ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What invention by Johannes Gutenberg helped spread Renaissance ideas rapidly across Europe?',
+        questionMy:
+            'ဂျိုဟန်နက် ဂူတန်ဘတ်၏ မည်သည့်တီထွင်မှုသည် ပြန်လည်ရှင်သန်ခေတ်၏ အယူအဆများကို ဥရောပတစ်ခွင် လျင်မြန်စွာ ပျံ့နှံ့စေရန် ကူညီခဲ့သနည်း။',
+        optionsEn: [
+          'The printing press',
+          'The telescope',
+          'The compass',
+          'The steam engine',
+        ],
+        optionsMy: [
+          'ပုံနှိပ်စက်',
+          'အဝေးကြည့်မှန်ပြောင်း',
+          'အရပ်ညွှန်ကိရိယာ',
+          'ရေနွေးငွေ့စက်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Galileo Galilei used an improved telescope to discover four moons orbiting a planet, providing strong evidence against the idea that everything in space revolves around Earth. Which planet\'s moons did he discover?',
+        questionMy:
+            'ဂါလီလီယို ဂါလီလေးသည် တိုးတက်အောင်ပြုပြင်ထားသော အဝေးကြည့်မှန်ပြောင်းကို အသုံးပြု၍ ဂြိုဟ်တစ်လုံးကို လှည့်ပတ်နေသော လနံလေးလုံးကို တွေ့ရှိခဲ့ပြီး၊ အာကာသရှိအရာအားလုံးသည် ကမ္ဘာကိုပတ်၍ လှည့်ပတ်နေသည်ဟူသော အယူအဆကို ဆန့်ကျင်သည့် ခိုင်မာသောသက်သေအထောက်အထားပေးခဲ့သည်။ သူတွေ့ရှိခဲ့သည့် လများသည် မည်သည့်ဂြိုဟ်၏ လများဖြစ်သနည်း။',
+        optionsEn: ['Jupiter', 'Saturn', 'Mars', 'Venus'],
+        optionsMy: [
+          'ကြာသပတေးဂြိုဟ် (Jupiter)',
+          'စနေဂြိုဟ် (Saturn)',
+          'အင်္ဂါဂြိုဟ် (Mars)',
+          'သောကြာဂြိုဟ် (Venus)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the term for the old theory, supported by the Church for centuries, that placed a stationary Earth at the center of the universe with the Sun and planets orbiting around it?',
+        questionMy:
+            'ရာစုနှစ်များစွာ ချာ့ခ်ျ၏ ထောက်ခံမှုကို ရရှိခဲ့ပြီး ရပ်တည်နေသော ကမ္ဘာကို စကြဝဠာ၏ ဗဟိုချက်တွင်ထား၍ နေနှင့်ဂြိုဟ်များသည် ၎င်းကို ပတ်၍ လှည့်ပတ်နေသည်ဟု ယူဆသော အဟောင်းသီအိုရီကို မည်သို့ခေါ်သနည်း။',
+        optionsEn: [
+          'The geocentric model',
+          'The heliocentric model',
+          'The Big Bang theory',
+          'The atomic theory',
+        ],
+        optionsMy: [
+          'ဘူမိဗဟိုပြု အယူအဆ (Geocentric Model)',
+          'နေဗဟိုပြု အယူအဆ (Heliocentric Model)',
+          'ဗစ်ဘန်း သီအိုရီ',
+          'အက်တမ်သီအိုရီ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary2-history-2',
+    subject: 'history',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Revolutions and New Ideas: America and France Rise Up',
+    titleMy: 'တော်လှန်ရေးများနှင့် အယူအဆသစ်များ: အမေရိကန်နှင့် ပြင်သစ်ထကြွမှု',
+    descriptionEn:
+        'Examine Enlightenment ideas about liberty and rights, and compare why the American colonies rebelled against Britain and why the French Revolution overthrew the monarchy.',
+    descriptionMy:
+        'ပညာရေးထွန်းလင်းခေတ်၏ လွတ်လပ်ခွင့်နှင့် အခွင့်အရေးဆိုင်ရာ အယူအဆများကို လေ့လာပြီး၊ အမေရိကန်ကိုလိုနီများ ဗြိတိန်ကို အဘယ်ကြောင့် ပုန်ကန်ခဲ့သည်နှင့် ပြင်သစ်တော်လှန်ရေးက ဘုရင့်အစိုးရကို အဘယ်ကြောင့် ဖြိုချခဲ့သည်ကို နှိုင်းယှဉ်လေ့လာပါမည်။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which Enlightenment idea most directly inspired both the American and French revolutionaries to challenge their rulers?',
+        questionMy:
+            'အမေရိကန်နှင့် ပြင်သစ်တော်လှန်ရေးသမားများ နှစ်ဖက်စလုံးအား သူတို့၏ အုပ်ချုပ်သူများကို စိန်ခေါ်ရန် တိုက်ရိုက်လှုံ့ဆော်ပေးခဲ့သည့် ပညာရေးထွန်းလင်းခေတ် အယူအဆမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The idea that monarchs rule by divine right and cannot be questioned',
+          'The idea that legitimate government requires the consent of the governed and must protect natural rights',
+          'The idea that only nobles and clergy should hold political power',
+          'The idea that colonies exist solely to enrich the mother country',
+        ],
+        optionsMy: [
+          'ဘုရင်များသည် ဘုရားသခင်ပေးအပ်သော အခွင့်အာဏာဖြင့် အုပ်ချုပ်ကြပြီး မေးခွန်းထုတ်၍မရ ဟူသောအယူအဆ',
+          'တရားဝင်အစိုးရဖြစ်ရန် အုပ်ချုပ်ခံပြည်သူများ၏ သဘောတူညီချက်လိုအပ်ပြီး သဘာဝအခွင့်အရေးများကို ကာကွယ်ပေးရမည် ဟူသောအယူအဆ',
+          'မင်းညီမင်းသားနှင့် ဘာသာရေးအကြီးအကဲများသာ နိုင်ငံရေးအာဏာ ကိုင်စွဲသင့်သည် ဟူသောအယူအဆ',
+          'ကိုလိုနီများသည် မိခင်နိုင်ငံကို ချမ်းသာစေရန်အတွက်သာ တည်ရှိသည် ဟူသောအယူအဆ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            '"No taxation without representation" was a rallying cry of the American colonists. What did this slogan directly protest?',
+        questionMy:
+            '"ကိုယ်စားပြုခွင့်မရှိဘဲ အခွန်မတောင်းခံရ" ဆိုသည်မှာ အမေရိကန်ကိုလိုနီများ၏ ပန်ကြားချက်ဖြစ်သည်။ ဤဆိုင်းဘုတ်စကားသည် အဘယ်အရာကို တိုက်ရိုက်ဆန့်ကျင်ခဲ့သနည်း။',
+        optionsEn: [
+          'Britain taxing the colonies while denying them seats in Parliament',
+          'France\'s decision to tax its own nobility for the first time',
+          'The colonies\' refusal to pay any taxes to fund their own local governments',
+          'Britain\'s decision to lower taxes on tea imported to the colonies',
+        ],
+        optionsMy: [
+          'ကိုလိုနီများကို ပါလီမန်တွင် နေရာမပေးဘဲ ဗြိတိန်က အခွန်ကောက်ခံခြင်း',
+          'ပြင်သစ်က မိမိတို့၏ မင်းညီမင်းသားများကို ပထမဆုံးအကြိမ် အခွန်ကောက်ရန် ဆုံးဖြတ်ခြင်း',
+          'ကိုလိုနီများက မိမိတို့ဒေသန္တရ အစိုးရများအား ငွေကြေးထောက်ပံ့ရန် မည်သည့်အခွန်ကိုမျှ မပေးဆောင်ရန် ငြင်းဆန်ခြင်း',
+          'ကိုလိုနီများသို့ တင်သွင်းသော လက်ဖက်ရည်ခွန်ကို ဗြိတိန်က လျှော့ချရန် ဆုံးဖြတ်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'France in the 1780s was divided into three Estates. Why did the Third Estate\'s grievances become the spark for revolution?',
+        questionMy:
+            '၁၇၈၀ ပြည့်လွန်နှစ်များတွင် ပြင်သစ်ကို အလွှာသုံးလွှာအဖြစ် ခွဲခြားထားခဲ့သည်။ တတိယအလွှာ၏ မကျေနပ်ချက်များသည် တော်လှန်ရေး၏ မီးကြိုးဖြစ်လာခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It included the vast majority of the population yet bore most of the tax burden while having little political power',
+          'It consisted entirely of wealthy merchants who wanted lower import tariffs',
+          'It was made up of clergy who wanted the Catholic Church abolished',
+          'It represented foreign investors demanding repayment of war debts',
+        ],
+        optionsMy: [
+          'လူဦးရေအများစုကို ကိုယ်စားပြုသော်လည်း အခွန်ဝန်အများစုကို ထမ်းရွက်ရပြီး နိုင်ငံရေးအာဏာ အနည်းငယ်သာ ရှိခြင်း',
+          'တင်သွင်းအခွန်နှုန်း လျှော့ချလိုသော သူဌေးကုန်သည်များသာ ပါဝင်ခြင်း',
+          'ကက်သလစ်ဘာသာရေးအဖွဲ့ကို ဖျက်သိမ်းစေလိုသော ဘုန်းတော်ကြီးများသာ ပါဝင်ခြင်း',
+          'စစ်ကြွေးများ ပြန်ဆပ်ရန် တောင်းဆိုနေသော နိုင်ငံခြားရင်းနှီးမြှုပ်နှံသူများကို ကိုယ်စားပြုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Both revolutions produced landmark documents declaring rights. Which pairing correctly matches each revolution to its document?',
+        questionMy:
+            'တော်လှန်ရေးနှစ်ခုစလုံးသည် အခွင့်အရေးများကို ကြေညာသည့် သမိုင်းဝင်စာတမ်းများကို ထုတ်ပြန်ခဲ့ကြသည်။ တော်လှန်ရေးတစ်ခုစီကို ၎င်း၏စာတမ်းနှင့် မှန်ကန်စွာ ချိတ်ဆက်ထားသည့် အဖြေမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'America produced the Declaration of Independence (1776); France produced the Declaration of the Rights of Man and of the Citizen (1789)',
+          'America produced the Magna Carta; France produced the Treaty of Versailles',
+          'America produced the Communist Manifesto; France produced the Bill of Rights',
+          'America produced the Declaration of the Rights of Man; France produced the Mayflower Compact',
+        ],
+        optionsMy: [
+          'အမေရိကန်က လွတ်လပ်ရေးကြေညာစာတမ်း (၁၇၇၆) ထုတ်ပြန်ခဲ့ပြီး၊ ပြင်သစ်က လူနှင့်နိုင်ငံသားအခွင့်အရေးများ ကြေညာစာတမ်း (၁၇၈၉) ထုတ်ပြန်ခဲ့သည်',
+          'အမေရိကန်က မဂ္ဂနာကာတာ ထုတ်ပြန်ခဲ့ပြီး၊ ပြင်သစ်က ဗာဆိုင်းစာချုပ် ထုတ်ပြန်ခဲ့သည်',
+          'အမေရိကန်က ကွန်မြူနစ်ကြေညာစာတမ်း ထုတ်ပြန်ခဲ့ပြီး၊ ပြင်သစ်က အခွင့်အရေးဥပဒေကြမ်း ထုတ်ပြန်ခဲ့သည်',
+          'အမေရိကန်က လူ့အခွင့်အရေးကြေညာစာတမ်း ထုတ်ပြန်ခဲ့ပြီး၊ ပြင်သစ်က မေးဖလားဝါစာချုပ် ထုတ်ပြန်ခဲ့သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A key difference between the two revolutions is that the American Revolution was primarily a war against a distant colonial ruler, while the French Revolution was primarily what?',
+        questionMy:
+            'တော်လှန်ရေးနှစ်ခု၏ အဓိကကွာခြားချက်တစ်ခုမှာ အမေရိကန်တော်လှန်ရေးသည် အဓိကအားဖြင့် ဝေးလံသော ကိုလိုနီအုပ်ချုပ်သူကို ဆန့်ကျင်သည့်စစ်ပွဲဖြစ်ခဲ့ပြီး ပြင်သစ်တော်လှန်ရေးမှာမူ အဘယ်အရာက အဓိကဖြစ်ခဲ့သနည်း။',
+        optionsEn: [
+          'An internal uprising by its own people against their own domestic monarchy and social system',
+          'A naval conflict fought entirely outside French territory',
+          'A religious war between Catholics and Protestants for control of the government',
+          'A war fought to gain new overseas colonies in Africa',
+        ],
+        optionsMy: [
+          'ကိုယ့်ပြည်တွင်း ဘုရင့်အုပ်ချုပ်ရေးစနစ်နှင့် လူမှုစနစ်ကို ဆန့်ကျင်သည့် ပြည်သူများ၏ ပြည်တွင်းပုန်ကန်မှု',
+          'ပြင်သစ်နယ်မြေအပြင်ဘက်တွင်သာ ဖြစ်ပွားခဲ့သော ရေတပ်ပဋိပက္ခ',
+          'အစိုးရအာဏာကို ထိန်းချုပ်ရန် ကက်သလစ်နှင့် ပရိုတက်စတင့်ဘာသာဝင်များကြား ဘာသာရေးစစ်ပွဲ',
+          'အာဖရိကတွင် ကိုလိုနီအသစ်များ ရရှိရန် တိုက်ခိုက်ခဲ့သောစစ်ပွဲ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-secondary3-history-2',
+    subject: 'history',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'The Cold War: Rivalry and Key Events',
+    titleMy: 'စစ်အေးတိုက်ပွဲ - အင်အားပြိုင်ဆိုင်မှုနှင့် အရေးကြီးဖြစ်ရပ်များ',
+    descriptionEn:
+        'Examine the ideological rivalry between the United States and the Soviet Union after World War II and key events such as the Berlin Wall and the Cuban Missile Crisis.',
+    descriptionMy:
+        'ဒုတိယကမ္ဘာစစ်ပြီးနောက် အမေရိကန်ပြည်ထောင်စုနှင့် ဆိုဗီယက်ယူနီယံအကြား အယူဝါဒဆိုင်ရာ အင်အားပြိုင်ဆိုင်မှုနှင့် ဘာလင်တံတိုင်း၊ ကျူးဘားဒုံးကျည်အကျပ်အတည်းကဲ့သို့သော အရေးကြီးဖြစ်ရပ်များကို လေ့လာပါ။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What best describes the fundamental ideological divide at the heart of the Cold War?',
+        questionMy:
+            'စစ်အေးတိုက်ပွဲ၏ အခြေခံအယူဝါဒဆိုင်ရာ ကွဲလွဲမှုကို အကောင်းဆုံးဖော်ပြသည့် အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Capitalism and democracy promoted by the United States versus communism promoted by the Soviet Union',
+          'A dispute over which country would host the Olympic Games',
+          'A religious conflict between two branches of the same faith',
+          'A disagreement about which language should be used in trade',
+        ],
+        optionsMy: [
+          'အမေရိကန်ပြည်ထောင်စုမှ မြှင့်တင်သော အရင်းရှင်စနစ်နှင့် ဒီမိုကရေစီ ဆိုဗီယက်ယူနီယံမှ မြှင့်တင်သော ကွန်မြူနစ်စနစ်နှင့် ဆန့်ကျင်',
+          'အိုလံပစ်ပြိုင်ပွဲကို မည်သည့်နိုင်ငံက လက်ခံကျင်းပမည်ဆိုသည့် အငြင်းပွားမှု',
+          'ယုံကြည်ချက်တစ်ခုတည်း၏ အဖွဲ့ခွဲနှစ်ခုအကြား ဘာသာရေးပဋိပက္ခ',
+          'ကုန်သွယ်ရေးတွင် မည်သည့်ဘာသာစကားသုံးရမည်ဆိုသည့် သဘောကွဲလွဲမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'The Berlin Wall, built in 1961, primarily served to...',
+        questionMy:
+            '၁၉၆၁ ခုနှစ်တွင် တည်ဆောက်ခဲ့သော ဘာလင်တံတိုင်းသည် အဓိကအားဖြင့် မည်သည့်ရည်ရွယ်ချက်အတွက် ဖြစ်ခဲ့သနည်း။',
+        optionsEn: [
+          'Stop East Germans from fleeing to West Berlin and the non-communist West',
+          'Protect Berlin from a foreign naval invasion',
+          'Serve as a new international trade route',
+          'Mark the boundary of a new Olympic stadium',
+        ],
+        optionsMy: [
+          'အရှေ့ဂျာမနီလူထုများ အနောက်ဘာလင်နှင့် ကွန်မြူနစ်မဟုတ်သော အနောက်ဘက်သို့ ထွက်ပြေးခြင်းကို တားဆီးရန်',
+          'ဘာလင်မြို့ကို နိုင်ငံခြားရေတပ်ဖြင့် ကျူးကျော်မှုမှ ကာကွယ်ရန်',
+          'နိုင်ငံတကာကုန်သွယ်ရေးလမ်းကြောင်းအသစ်တစ်ခုအဖြစ် လုပ်ဆောင်ရန်',
+          'အိုလံပစ်ကွင်းအသစ်တစ်ခု၏ နယ်နိမိတ်ကို သတ်မှတ်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The 1962 Cuban Missile Crisis was triggered when the Soviet Union placed nuclear missiles in Cuba, which the United States viewed as a direct threat because...',
+        questionMy:
+            '၁၉၆၂ ခုနှစ် ကျူးဘားဒုံးကျည်အကျပ်အတည်းသည် ဆိုဗီယက်ယူနီယံက ကျူးဘားတွင် နျူကလီးယားဒုံးကျည်များ ထားရှိခဲ့ခြင်းကြောင့် ဖြစ်ပေါ်ခဲ့ပြီး၊ အမေရိကန်ပြည်ထောင်စုက ၎င်းကို တိုက်ရိုက်ခြိမ်းခြောက်မှုအဖြစ် ရှုမြင်ခဲ့သည့်အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Cuba\'s proximity to the United States meant the missiles could strike major American cities with little warning',
+          'Cuba had declared war on the United States directly',
+          'The missiles were intended for use in the Vietnam War',
+          'The United States wanted control of Cuba\'s sugar exports',
+        ],
+        optionsMy: [
+          'ကျူးဘားသည် အမေရိကန်ပြည်ထောင်စုနှင့် နီးကပ်သောကြောင့် ဒုံးကျည်များသည် အသိပေးချက်အနည်းငယ်ဖြင့် အမေရိကန်မြို့ကြီးများကို တိုက်ခိုက်နိုင်ခြင်း',
+          'ကျူးဘားက အမေရိကန်ပြည်ထောင်စုကို တိုက်ရိုက်စစ်ကြေညာခဲ့ခြင်း',
+          'ထိုဒုံးကျည်များကို ဗီယက်နမ်စစ်ပွဲတွင် အသုံးပြုရန် ရည်ရွယ်ခဲ့ခြင်း',
+          'အမေရိကန်ပြည်ထောင်စုက ကျူးဘားသကြားထုတ်ကုန်များကို ထိန်းချုပ်လိုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The term "Iron Curtain," popularized by Winston Churchill, described...',
+        questionMy:
+            'ဝင်စတန်ချာချီလ်က ပျံ့နှံ့စေခဲ့သော "သံခေတ္တင်း" ဟူသော ဝေါဟာရသည် မည်သည့်အရာကို ဖော်ပြခဲ့သနည်း။',
+        optionsEn: [
+          'The political and military division separating communist Eastern Europe from the democratic West',
+          'A new type of military tank used in Europe',
+          'A trade barrier between France and Germany',
+          'A physical wall built across the Atlantic Ocean',
+        ],
+        optionsMy: [
+          'ကွန်မြူနစ်ဥရောပအရှေ့ပိုင်းကို ဒီမိုကရေစီအနောက်ပိုင်းနှင့် ခွဲခြားသော နိုင်ငံရေးနှင့် စစ်ရေးဆိုင်ရာ ခွဲခြားမှု',
+          'ဥရောပတွင် အသုံးပြုသော စစ်ကားအမျိုးအစားသစ်',
+          'ပြင်သစ်နှင့် ဂျာမနီအကြား ကုန်သွယ်ရေးအတားအဆီး',
+          'အတ္တလန္တိတ်သမုဒ္ဒရာကို ဖြတ်တည်ဆောက်ထားသော ရုပ်ပိုင်းဆိုင်ရာ တံတိုင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is the Cold War described as a conflict fought largely through indirect means such as espionage, proxy wars, and an arms race, rather than direct war between the two superpowers?',
+        questionMy:
+            'စစ်အေးတိုက်ပွဲကို ကျယ်ပြန့်စွာအာဏာရှင်နိုင်ငံနှစ်ခုအကြား တိုက်ရိုက်စစ်ပွဲထက် သူလျှိုလုပ်ငန်း၊ ကိုယ်စားပြုစစ်ပွဲများနှင့် လက်နက်အင်အားပြိုင်ဆိုင်မှုကဲ့သို့ သွယ်ဝိုက်နည်းလမ်းများဖြင့် တိုက်ခိုက်ခဲ့သော ပဋိပက္ခအဖြစ် ဖော်ပြရသည့်အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Both sides possessed nuclear weapons, and direct war risked mutual destruction on a catastrophic scale',
+          'Neither country had a functioning military at the time',
+          'International law made all forms of war illegal after 1945',
+          'The two countries were located too far apart for any war to be possible',
+        ],
+        optionsMy: [
+          'နှစ်ဖက်စလုံးတွင် နျူကလီးယားလက်နက်များ ရှိနေသဖြင့် တိုက်ရိုက်စစ်ပွဲသည် ကြီးမားသော အပြန်အလှန်ဖျက်ဆီးမှုကို ဖြစ်စေနိုင်သည်',
+          'ထိုအချိန်တွင် နှစ်နိုင်ငံစလုံးတွင် အသုံးဝင်သော စစ်တပ်မရှိခဲ့ခြင်း',
+          'နိုင်ငံတကာဥပဒေက ၁၉၄၅ ခုနှစ်နောက်ပိုင်း စစ်ပွဲအမျိုးအစားအားလုံးကို တရားမဝင်ဟု သတ်မှတ်ခဲ့ခြင်း',
+          'နှစ်နိုင်ငံစလုံးသည် အလွန်ဝေးကွာနေသဖြင့် မည်သည့်စစ်ပွဲမျှ ဖြစ်ပွားနိုင်ခြင်းမရှိ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  SecondaryActivityDef(
+    id: 'mock-igcse-history-2',
+    subject: 'history',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'The United Nations and International Peacekeeping',
+    titleMy: 'ကုလသမဂ္ဂနှင့် နိုင်ငံတကာ ငြိမ်းချမ်းရေးထိန်းသိမ်းမှု',
+    descriptionEn:
+        'Examine why the United Nations was formed after the Second World War, how it is structured, and how its peacekeeping role has succeeded and been limited in practice.',
+    descriptionMy:
+        'ဒုတိယကမ္ဘာစစ်အပြီးတွင် ကုလသမဂ္ဂကို အဘယ်ကြောင့် တည်ထောင်ခဲ့သည်၊ ၎င်း၏ဖွဲ့စည်းပုံ မည်သို့ရှိသည်၊ နှင့် ငြိမ်းချမ်းရေးထိန်းသိမ်းမှုလုပ်ငန်းများတွင် အောင်မြင်ချက်များနှင့် ကန့်သတ်ချက်များကို လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'The United Nations was established in 1945 mainly in response to which failure?',
+        questionMy:
+            'ကုလသမဂ္ဂကို ၁၉၄၅ ခုနှစ်တွင် တည်ထောင်ခဲ့ရသည်မှာ အဘယ်ကျရှုံးမှုကြောင့် အဓိကဖြစ်သနည်း။',
+        optionsEn: [
+          'The League of Nations\' inability to prevent the outbreak of the Second World War',
+          'The failure of the Treaty of Versailles to end the First World War',
+          'The collapse of the Congress of Vienna system in Europe',
+          'The breakdown of the Marshall Plan in Western Europe',
+        ],
+        optionsMy: [
+          'ဒုတိယကမ္ဘာစစ်ဖြစ်ပွားမှုကို ကာကွယ်ရန် ကျရှုံးခဲ့သော ကုလသမဂ္ဂအဖွဲ့ချုပ် (League of Nations)',
+          'ပထမကမ္ဘာစစ်ကို အဆုံးသတ်ရန် ကျရှုံးခဲ့သော Versailles စာချုပ်',
+          'ဥရောပတွင် Congress of Vienna စနစ်၏ ပြိုကွဲမှု',
+          'အနောက်ဥရောပရှိ Marshall Plan ၏ ပြိုကွဲမှု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which UN body holds primary responsibility for maintaining international peace and security, including authorising peacekeeping missions?',
+        questionMy:
+            'နိုင်ငံတကာငြိမ်းချမ်းရေးနှင့် လုံခြုံရေးထိန်းသိမ်းမှု အပါအဝင် ငြိမ်းချမ်းရေးထိန်းသိမ်းရေးလုပ်ငန်းများကို အတည်ပြုပိုင်ခွင့်ရှိသော ကုလသမဂ္ဂအဖွဲ့အစည်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The Security Council',
+          'The General Assembly',
+          'The Economic and Social Council',
+          'The International Court of Justice',
+        ],
+        optionsMy: [
+          'လုံခြုံရေးကောင်စီ (Security Council)',
+          'အထွေထွေညီလာခံ (General Assembly)',
+          'စီးပွားရေးနှင့် လူမှုရေးကောင်စီ (Economic and Social Council)',
+          'နိုင်ငံတကာတရားရုံး (International Court of Justice)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'The veto power held by the five permanent members of the Security Council means that...',
+        questionMy:
+            'လုံခြုံရေးကောင်စီ၏ အမြဲတမ်းအဖွဲ့ဝင်နိုင်ငံငါးခုတွင်ရှိသော ဗီတိုအာဏာသည် အဘယ်အရာကို ဆိုလိုသနည်း။',
+        optionsEn: [
+          'Any one of those five nations can block a substantive resolution even if all other members support it',
+          'Only the General Assembly can overrule a Security Council decision',
+          'Permanent members must all agree before the General Assembly can vote',
+          'Veto power can only be used to approve, not to block, a resolution',
+        ],
+        optionsMy: [
+          'ထိုနိုင်ငံငါးခုအနက် တစ်နိုင်ငံတည်းကပင် အခြားအဖွဲ့ဝင်များအားလုံး ထောက်ခံသော်လည်း အဓိကဆုံးဖြတ်ချက်တစ်ခုကို ပိတ်ဆို့နိုင်သည်',
+          'အထွေထွေညီလာခံသာလျှင် လုံခြုံရေးကောင်စီ၏ ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်နိုင်သည်',
+          'အထွေထွေညီလာခံမဲခွဲခြင်းမပြုမီ အမြဲတမ်းအဖွဲ့ဝင်များအားလုံး သဘောတူရမည်',
+          'ဗီတိုအာဏာကို ဆုံးဖြတ်ချက်တစ်ခု အတည်ပြုရန်သာ အသုံးပြုနိုင်ပြီး ပိတ်ဆို့ရန် အသုံးမပြုနိုင်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'UN peacekeeping forces are most accurately described as troops that...',
+        questionMy:
+            'ကုလသမဂ္ဂ ငြိမ်းချမ်းရေးထိန်းသိမ်းမှုတပ်ဖွဲ့များအား အတိကျဆုံးဖော်ပြသည်မှာ မည်သို့သော စစ်သားများဖြစ်သနည်း။',
+        optionsEn: [
+          'Are contributed by member states and deployed, usually with the parties\' consent, to monitor ceasefires and protect civilians',
+          'Belong to a single permanent UN army with its own independent air force and navy',
+          'Are automatically sent to any country experiencing internal conflict without Security Council approval',
+          'Replace the national government of a country until elections can be arranged',
+        ],
+        optionsMy: [
+          'အဖွဲ့ဝင်နိုင်ငံများမှ ပံ့ပိုးပေးထားပြီး သက်ဆိုင်ရာအဖွဲ့များ၏ သဘောတူညီချက်ဖြင့် သေနတ်ရပ်စဲရေးကို စောင့်ကြည့်ကာ အရပ်သားများကို ကာကွယ်ရန် နေရာချထားသော တပ်ဖွဲ့များ',
+          'ကုလသမဂ္ဂ ကိုယ်ပိုင်လေတပ်နှင့် ရေတပ်ရှိသော အမြဲတမ်းစစ်တပ်တစ်ခုတည်း၏ တပ်ဖွဲ့ဝင်များ',
+          'လုံခြုံရေးကောင်စီ၏ အတည်ပြုချက်မရှိဘဲ ပြည်တွင်းပဋိပက္ခဖြစ်နေသော နိုင်ငံတိုင်းသို့ အလိုအလျောက်စေလွှတ်ခြင်းခံရသော တပ်ဖွဲ့များ',
+          'ရွေးကောက်ပွဲမကျင်းပမီအထိ နိုင်ငံတစ်နိုင်ငံ၏ အစိုးရနေရာကို အစားထိုးသည့် တပ်ဖွဲ့များ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A widely recognised limitation of the UN\'s ability to prevent conflict is that...',
+        questionMy:
+            'ကုလသမဂ္ဂ၏ ပဋိပက္ခကာကွယ်နိုင်စွမ်းနှင့်ပတ်သက်၍ ကျယ်ကျယ်ပြန့်ပြန့် အသိအမှတ်ပြုထားသော ကန့်သတ်ချက်တစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'It has no army of its own and depends on member states voluntarily contributing troops, funding, and political will',
+          'It has full legal authority to overrule any national government at any time',
+          'It has never successfully organised a peacekeeping mission anywhere in the world',
+          'All of its resolutions are automatically binding and enforced by an independent UN police force',
+        ],
+        optionsMy: [
+          'ကုလသမဂ္ဂတွင် မိမိကိုယ်ပိုင်စစ်တပ်မရှိဘဲ အဖွဲ့ဝင်နိုင်ငံများ၏ စေတနာအလျောက် ပံ့ပိုးမှု၊ ရန်ပုံငွေနှင့် နိုင်ငံရေးဆန္ဒအပေါ် မှီခိုနေရသည်',
+          'မည်သည့်အချိန်တွင်မဆို မည်သည့်နိုင်ငံအစိုးရကိုမဆို ပယ်ဖျက်ပိုင်ခွင့်ရှိသော အပြည့်အဝ တရားဥပဒေအာဏာ ရှိသည်',
+          'ကမ္ဘာပေါ်ရှိ မည်သည့်နေရာတွင်မျှ ငြိမ်းချမ်းရေးထိန်းသိမ်းမှုလုပ်ငန်းကို အောင်မြင်စွာ စီစဉ်ဆောင်ရွက်ခဲ့ခြင်း မရှိသေးပါ',
+          'ကုလသမဂ္ဂ၏ ဆုံးဖြတ်ချက်အားလုံးသည် အလိုအလျောက် စည်းနှောင်အာဏာရှိပြီး လွတ်လပ်သော ကုလသမဂ္ဂရဲတပ်ဖွဲ့ဖြင့် အတင်းအကျပ် အကောင်အထည်ဖော်ခံရသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
