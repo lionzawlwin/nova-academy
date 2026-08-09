@@ -158,3 +158,65 @@ class ReadingPassageModel {
   final String passageMy;
   final List<QuizQuestion> comprehensionQuestions;
 }
+
+/// One "Guess the Photo" round for [PhotoGuessScreen]
+/// (`photo_guess_screen.dart`, Task 6): a bundled image plus a
+/// multiple-choice prompt about it -- e.g. a landmark photo with "Which
+/// country is this in?".
+///
+/// [imageAssetPath] is a bundled Flutter asset path (declared under
+/// `flutter: assets:` in `pubspec.yaml`), never a network URL -- this app
+/// has no image-hosting dependency (no `firebase_storage`, no third-party
+/// image API), so every photo ships inside the app binary.
+///
+/// ## Authoring bar -- read before adding a round
+///
+/// A photo only belongs in a [DailyLessonDef.photoGuessQuestions] list
+/// once all of the following are true for it: (1) it is genuinely
+/// public-domain, CC0, or CC-BY/CC-BY-SA licensed for commercial
+/// redistribution (Wikimedia Commons' PD/CC0 categories are the
+/// best-fit source for General Knowledge/Geography/Science/History
+/// content); (2) its attribution requirement, if the license has one, is
+/// recorded in [attributionEn]/[attributionMy] -- never silently dropped;
+/// (3) the image file has actually been added under `assets/photo_guess/`
+/// and `pubspec.yaml`'s asset list. None of that can be done responsibly
+/// by generating plausible-looking entries -- it requires sourcing and
+/// checking each image individually, which is why no [DailyLessonDef]
+/// is wired to [LessonKind.photoGuess] yet.
+class PhotoGuessQuestion {
+  const PhotoGuessQuestion({
+    required this.id,
+    required this.imageAssetPath,
+    required this.promptEn,
+    required this.promptMy,
+    required this.optionsEn,
+    required this.optionsMy,
+    required this.correctIndex,
+    this.attributionEn,
+    this.attributionMy,
+  });
+
+  final String id;
+  final String imageAssetPath;
+  final String promptEn;
+  final String promptMy;
+
+  /// Same-length/same-order bilingual convention as
+  /// [QuizQuestion.optionsEn]/[QuizQuestion.optionsMy].
+  final List<String> optionsEn;
+  final List<String> optionsMy;
+  final int correctIndex;
+
+  /// Photo credit line shown small beneath the image, e.g. "Photo: Jane
+  /// Doe / Wikimedia Commons, CC BY-SA 4.0" -- required by attribution
+  /// licenses (the CC-BY family); `null` for public-domain/CC0 sources
+  /// that impose no attribution requirement. Never omit this for an image
+  /// whose license requires it.
+  final String? attributionEn;
+  final String? attributionMy;
+
+  String prompt(String languageCode) =>
+      languageCode == 'my' ? promptMy : promptEn;
+  String? attribution(String languageCode) =>
+      languageCode == 'my' ? attributionMy : attributionEn;
+}

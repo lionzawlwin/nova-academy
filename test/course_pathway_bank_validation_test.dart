@@ -210,6 +210,7 @@ void main() {
                     isNull,
                     reason: '$loc: quiz day should not populate readingPassage',
                   );
+                  expect(lesson.photoGuessQuestions, isEmpty, reason: loc);
                 case LessonKind.dragMatch:
                   expect(
                     lesson.dragMatchPairs,
@@ -219,6 +220,7 @@ void main() {
                   expect(lesson.quizQuestions, isEmpty, reason: loc);
                   expect(lesson.sortingActivity, isNull, reason: loc);
                   expect(lesson.readingPassage, isNull, reason: loc);
+                  expect(lesson.photoGuessQuestions, isEmpty, reason: loc);
                 case LessonKind.sorting:
                   expect(
                     lesson.sortingActivity,
@@ -228,6 +230,7 @@ void main() {
                   expect(lesson.quizQuestions, isEmpty, reason: loc);
                   expect(lesson.dragMatchPairs, isEmpty, reason: loc);
                   expect(lesson.readingPassage, isNull, reason: loc);
+                  expect(lesson.photoGuessQuestions, isEmpty, reason: loc);
                 case LessonKind.reading:
                   expect(
                     lesson.readingPassage,
@@ -237,6 +240,17 @@ void main() {
                   expect(lesson.quizQuestions, isEmpty, reason: loc);
                   expect(lesson.dragMatchPairs, isEmpty, reason: loc);
                   expect(lesson.sortingActivity, isNull, reason: loc);
+                  expect(lesson.photoGuessQuestions, isEmpty, reason: loc);
+                case LessonKind.photoGuess:
+                  expect(
+                    lesson.photoGuessQuestions,
+                    isNotEmpty,
+                    reason: '$loc: photoGuess day has no photoGuessQuestions',
+                  );
+                  expect(lesson.quizQuestions, isEmpty, reason: loc);
+                  expect(lesson.dragMatchPairs, isEmpty, reason: loc);
+                  expect(lesson.sortingActivity, isNull, reason: loc);
+                  expect(lesson.readingPassage, isNull, reason: loc);
               }
             }
           }
@@ -361,6 +375,35 @@ void main() {
                 isNotEmpty,
                 reason: '$loc: readingPassage has no comprehensionQuestions',
               );
+            }
+          }
+        }
+      }
+    });
+
+    test('every PhotoGuessQuestion has a non-empty imageAssetPath, '
+        'matching-length bilingual options, and an in-bounds correctIndex', () {
+      for (final pathway in allCoursePathways) {
+        for (final term in pathway.terms) {
+          for (final week in term.weeks) {
+            for (final lesson in week.dailyLessons) {
+              for (final q in lesson.photoGuessQuestions) {
+                final loc =
+                    '${pathway.id} > ${week.id} > ${lesson.id} > ${q.id}';
+                expect(q.imageAssetPath, isNotEmpty, reason: loc);
+                expect(q.promptEn, isNotEmpty, reason: loc);
+                expect(q.promptMy, isNotEmpty, reason: loc);
+                expect(
+                  q.optionsEn.length,
+                  q.optionsMy.length,
+                  reason: '$loc: optionsEn/optionsMy length mismatch',
+                );
+                expect(
+                  q.correctIndex,
+                  inInclusiveRange(0, q.optionsEn.length - 1),
+                  reason: '$loc: correctIndex out of bounds',
+                );
+              }
             }
           }
         }

@@ -13,6 +13,7 @@ import '../../routing/app_router.dart';
 import 'course_pathway_bank.dart';
 import 'drag_match_screen.dart';
 import 'mcq_quiz_screen.dart';
+import 'photo_guess_screen.dart';
 import 'reading_screen.dart';
 import 'sorting_screen.dart';
 
@@ -154,6 +155,15 @@ class CoursePathwayWeekScreen extends ConsumerWidget {
         context.push(
           AppRoutes.lessonReading,
           extra: ReadingArgs(
+            title: title,
+            stars: lesson.xpReward,
+            moduleId: lesson.id,
+          ),
+        );
+      case LessonKind.photoGuess:
+        context.push(
+          AppRoutes.lessonPhotoGuess,
+          extra: PhotoGuessArgs(
             title: title,
             stars: lesson.xpReward,
             moduleId: lesson.id,
@@ -379,6 +389,7 @@ class _DayNode extends StatelessWidget {
     LessonKind.dragMatch => Icons.swap_horiz_rounded,
     LessonKind.sorting => Icons.sort_rounded,
     LessonKind.reading => Icons.auto_stories_rounded,
+    LessonKind.photoGuess => Icons.image_search_rounded,
   };
 
   @override

@@ -31,6 +31,7 @@ import '../features/lessons/nursery_rhymes_screen.dart';
 import '../features/lessons/nursery_storytelling_screen.dart';
 import '../features/lessons/leaderboard_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
+import '../features/lessons/photo_guess_screen.dart';
 import '../features/lessons/quantum_flash_screen.dart';
 import '../features/lessons/reading_screen.dart';
 import '../features/lessons/sorting_screen.dart';
@@ -84,6 +85,10 @@ class AppRoutes {
   static const lessonDragMatch = '/lesson/drag-match';
   static const lessonSorting = '/lesson/sorting';
   static const lessonReading = '/lesson/reading';
+
+  /// Task 6's "Guess the Photo" lesson kind -- see `PhotoGuessScreen`.
+  /// Expects a [PhotoGuessArgs] via `extra`.
+  static const lessonPhotoGuess = '/lesson/photo-guess';
 
   /// Task 6's async leaderboard -- see `LeaderboardScreen`. Expects a
   /// [LeaderboardArgs] via `extra`.
@@ -368,6 +373,17 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             args: args is ReadingArgs
                 ? args
                 : const ReadingArgs(title: '', moduleId: ''),
+          );
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonPhotoGuess,
+        builder: (context, state) {
+          final args = state.extra;
+          return PhotoGuessScreen(
+            args: args is PhotoGuessArgs
+                ? args
+                : const PhotoGuessArgs(title: '', moduleId: ''),
           );
         },
       ),
