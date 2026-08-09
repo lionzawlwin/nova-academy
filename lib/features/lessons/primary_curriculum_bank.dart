@@ -8395,12 +8395,15 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
     ],
   ),
 
-  // New `generalknowledge` subject: fills a genuine content gap -- Year 1
-  // and Year 4 previously had zero grade-specific General Knowledge
+  // New `generalknowledge` subject: fills a genuine content gap -- every
+  // Primary grade previously had zero grade-specific General Knowledge
   // modules and silently fell back to `quizQuestionsForSubject`'s shared,
   // non-grade-specific bank (see `mock_quiz_data.dart`). One module per
-  // targeted grade, following the same one-per-grade cadence as the
-  // history/geography/computing rollout above.
+  // grade (Year 1-6), following the same one-per-grade cadence as the
+  // history/geography/computing rollout above, with difficulty and
+  // starsReward scaling by grade the same way those subjects do. Year 1
+  // and Year 4 were authored first (a scoped first slice); Year 2, 3, 5,
+  // and 6 below complete the subject to full Year1-6 coverage.
   PrimaryActivityDef(
     id: 'mock-year1-generalknowledge-1',
     subject: 'generalknowledge',
@@ -8539,6 +8542,385 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
           'ပတ်ဝန်းကျင်တွင် ဖြစ်ပျက်နေသမျှကို လျစ်လျူရှုခြင်း',
           'တစ်နေ့လုံး ဂိမ်းသာ ကစားခြင်း',
           'တစ်နေ့လုံး အိပ်နေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Community Helpers and Everyday Life',
+    titleMy: 'အသိုင်းအဝိုင်း အကူအညီပေးသူများနှင့် နေ့စဉ်ဘဝ',
+    descriptionEn:
+        'Learn about the people who help our community and simple habits that keep us safe and healthy.',
+    descriptionMy:
+        'ကျွန်ုပ်တို့အသိုင်းအဝိုင်းကို ကူညီပေးသူများနှင့် ကျန်းမာလုံခြုံစွာနေထိုင်ရန် ရိုးရှင်းသောအလေ့အထများကို လေ့လာပါ။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Who helps keep us safe by putting out fires?',
+        questionMy:
+            'မီးလောင်မှုများကို ငြိမ်းသတ်ပေးခြင်းဖြင့် ကျွန်ုပ်တို့ကို လုံခြုံအောင် ကူညီပေးသူမှာ မည်သူနည်း။',
+        optionsEn: ['Firefighter', 'Teacher', 'Farmer', 'Chef'],
+        optionsMy: ['မီးသတ်သမား', 'ဆရာ/ဆရာမ', 'လယ်သမား', 'စားဖိုမှူး'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What do we call the person who teaches us at school?',
+        questionMy:
+            'ကျောင်းတွင် ကျွန်ုပ်တို့ကို သင်ကြားပေးသူကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Teacher', 'Doctor', 'Pilot', 'Driver'],
+        optionsMy: ['ဆရာ/ဆရာမ', 'ဆရာဝန်', 'လေယာဉ်မှူး', 'ကားမောင်းသူ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these jobs helps sick people get better?',
+        questionMy:
+            'အောက်ပါအလုပ်များထဲမှ မည်သည့်အလုပ်သည် နာမကျန်းသူများကို ပြန်လည်ကျန်းမာအောင် ကူညီပေးသနည်း။',
+        optionsEn: ['Doctor', 'Farmer', 'Painter', 'Singer'],
+        optionsMy: ['ဆရာဝန်', 'လယ်သမား', 'ပန်းချီဆရာ', 'သီချင်းဆိုသူ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is a healthy habit?',
+        questionMy:
+            'အောက်ပါတို့ထဲမှ ကျန်းမာရေးနှင့်ညီညွတ်သော အလေ့အထမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Washing your hands before eating',
+          'Eating too much candy',
+          'Never brushing your teeth',
+          'Staying up all night',
+        ],
+        optionsMy: [
+          'အစားမစားမီ လက်ဆေးခြင်း',
+          'သကြားလုံးများ အလွန်အကျွံစားခြင်း',
+          'သွားကို လုံးဝ မပွတ်ခြင်း',
+          'တစ်ညလုံး အိပ်မပျော်ဘဲနေခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these should you do if you get lost in a public place?',
+        questionMy:
+            'အများပြည်သူနေရာတစ်ခုတွင် လမ်းပျောက်သွားပါက ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Find a helper, like a police officer or staff member',
+          'Wander off alone',
+          'Hide and tell no one',
+          'Go somewhere with a stranger',
+        ],
+        optionsMy: [
+          'ရဲအရာရှိ (သို့) ဝန်ထမ်းကဲ့သို့ ကူညီပေးမည့်သူကို ရှာဖွေခြင်း',
+          'တစ်ကိုယ်တည်း လှည့်လည်သွားလာခြင်း',
+          'ဖျောက်ကွယ်၍ မည်သူ့ကိုမျှ မပြောခြင်း',
+          'မသိကျွမ်းသူတစ်ဦးနှင့် တစ်နေရာသို့ လိုက်ပါသွားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Rules, Money, and Community Life',
+    titleMy: 'စည်းမျဉ်းများ၊ ငွေကြေးနှင့် အသိုင်းအဝိုင်းဘဝ',
+    descriptionEn:
+        'Learn why we have rules, how money and saving work, and what good teamwork looks like.',
+    descriptionMy:
+        'ကျွန်ုပ်တို့ဘာကြောင့် စည်းမျဉ်းများရှိသလဲ၊ ငွေကြေးနှင့် စုဆောင်းမှု မည်သို့အလုပ်လုပ်သလဲ၊ ကောင်းမွန်သော အဖွဲ့လိုက်လုပ်ဆောင်မှု ဘယ်လိုပုံစံလဲဆိုတာ လေ့လာပါ။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What do we use to pay for things we buy, like food or toys?',
+        questionMy:
+            'အစားအစာ (သို့) ကစားစရာများကဲ့သို့ ဝယ်ယူသည့်အရာများအတွက် ငွေပေးချေရန် ဘာကို အသုံးပြုသနည်း။',
+        optionsEn: ['Money', 'Leaves', 'Paper only', 'Rocks'],
+        optionsMy: ['ငွေ', 'အရွက်များ', 'စက္ကူသက်သက်', 'ကျောက်ခဲများ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do we have rules and laws in our community?',
+        questionMy:
+            'ကျွန်ုပ်တို့ အသိုင်းအဝိုင်းတွင် စည်းမျဉ်းများနှင့် ဥပဒေများ အဘယ့်ကြောင့် ရှိရသနည်း။',
+        optionsEn: [
+          'To keep everyone safe and treat people fairly',
+          'To make life difficult',
+          'So only some people can be happy',
+          'They are not important',
+        ],
+        optionsMy: [
+          'လူတိုင်းလုံခြုံပြီး တရားမျှတစွာ ဆက်ဆံနိုင်ရန်',
+          'ဘဝကို ခက်ခဲစေရန်',
+          'လူအချို့သာ ပျော်ရွှင်နိုင်ရန်',
+          '၎င်းတို့သည် အရေးမကြီးပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is it called when you save money instead of spending it right away?',
+        questionMy:
+            'ငွေကို ချက်ချင်းမသုံးဘဲ စုဆောင်းထားခြင်းကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: ['Saving', 'Spending', 'Losing', 'Borrowing'],
+        optionsMy: [
+          'စုဆောင်းခြင်း',
+          'သုံးစွဲခြင်း',
+          'ပျောက်ဆုံးခြင်း',
+          'ချေးငှားခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is an example of teamwork?',
+        questionMy: 'အောက်ပါတို့ထဲမှ အဖွဲ့လိုက်လုပ်ဆောင်မှု ဥပမာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Working together with others to finish a task',
+          'Doing everything alone and ignoring others',
+          'Refusing to help your classmates',
+          "Taking credit for someone else's work",
+        ],
+        optionsMy: [
+          'အလုပ်တစ်ခုပြီးမြောက်ရန် သူများနှင့်အတူတကွ ပူးပေါင်းလုပ်ဆောင်ခြင်း',
+          'အားလုံးကို တစ်ကိုယ်တည်း လုပ်ပြီး သူများကို လျစ်လျူရှုခြင်း',
+          'စာသင်ဖော်များကို ကူညီရန် ငြင်းဆန်ခြင်း',
+          'သူများ၏အလုပ်ကို ကိုယ်ပိုင်ဟု ယူဆခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What should you do before crossing a busy road?',
+        questionMy: 'ကားများသွားလာမှုများသော လမ်းကို မဖြတ်ခင် ဘာလုပ်သင့်သနည်း။',
+        optionsEn: [
+          'Look both ways and use a crosswalk if there is one',
+          'Run across quickly without looking',
+          'Cross while looking at your phone',
+          'Close your eyes and walk',
+        ],
+        optionsMy: [
+          'ဘေးနှစ်ဖက်ကို ကြည့်ပြီး ရှိလျှင် လမ်းဖြတ်ကျားကို အသုံးပြုခြင်း',
+          'မကြည့်ဘဲ လျင်မြန်စွာ ပြေးဖြတ်ခြင်း',
+          'ဖုန်းကို ကြည့်နေစဉ် လမ်းဖြတ်ခြင်း',
+          'မျက်စိမှိတ်ပြီး လမ်းလျှောက်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Global Awareness and Responsible Choices',
+    titleMy: 'ကမ္ဘာ့သတိပေးမှုနှင့် တာဝန်သိသော ရွေးချယ်မှုများ',
+    descriptionEn:
+        'Learn about international cooperation, protecting the environment, and being a responsible digital citizen.',
+    descriptionMy:
+        'နိုင်ငံတကာ ပူးပေါင်းဆောင်ရွက်မှု၊ သဘာဝပတ်ဝန်းကျင် ကာကွယ်ခြင်းနှင့် တာဝန်သိသော ဒစ်ဂျစ်တယ်နိုင်ငံသား ဖြစ်ခြင်းအကြောင်း လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            "What is the name of the organization made up of nearly all the world's countries that works for peace and cooperation?",
+        questionMy:
+            'ကမ္ဘာ့နိုင်ငံအနီးကပ် အားလုံးပါဝင်ပြီး ငြိမ်းချမ်းရေးနှင့် ပူးပေါင်းဆောင်ရွက်မှုအတွက် လုပ်ဆောင်နေသော အဖွဲ့အစည်း၏ အမည်ကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: [
+          'The United Nations (UN)',
+          "A single country's army",
+          'A private company',
+          'A local sports club',
+        ],
+        optionsMy: [
+          'ကုလသမဂ္ဂ (UN)',
+          'နိုင်ငံတစ်ခု၏ တပ်မတော်',
+          'ပုဂ္ဂလိကကုမ္ပဏီတစ်ခု',
+          'ဒေသန္တရ အားကစားကလပ်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these actions helps protect the environment?',
+        questionMy:
+            'အောက်ပါအလုပ်များထဲမှ မည်သည်က သဘာဝပတ်ဝန်းကျင်ကို ကာကွယ်ရန် ကူညီပေးသနည်း။',
+        optionsEn: [
+          'Reducing, reusing, and recycling',
+          'Throwing all rubbish into rivers',
+          'Cutting down forests without planting new trees',
+          'Wasting water and electricity',
+        ],
+        optionsMy: [
+          'လျှော့ချခြင်း၊ ပြန်လည်အသုံးပြုခြင်းနှင့် ပြန်လည်ထုတ်လုပ်ခြင်း',
+          'အမှိုက်အားလုံးကို မြစ်များထဲသို့ ပစ်ချခြင်း',
+          'အပင်အသစ် မစိုက်ဘဲ တောများခုတ်ထွင်ခြင်း',
+          'ရေနှင့် လျှပ်စစ်ကို ဖြုန်းတီးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "What does it mean to be a 'responsible digital citizen'?",
+        questionMy:
+            "'တာဝန်သိသော ဒစ်ဂျစ်တယ်နိုင်ငံသား' ဖြစ်ခြင်းဆိုသည်မှာ ဘာကိုဆိုလိုသနည်း။",
+        optionsEn: [
+          'Using technology safely, kindly, and honestly online',
+          'Sharing anything without thinking',
+          'Being rude to people online',
+          'Ignoring online safety rules',
+        ],
+        optionsMy: [
+          'အွန်လိုင်းတွင် နည်းပညာကို လုံခြုံစွာ၊ ကြင်နာစွာနှင့် ရိုးသားစွာ အသုံးပြုခြင်း',
+          'မစဉ်းစားဘဲ မည်သည့်အရာကိုမဆို မျှဝေခြင်း',
+          'အွန်လိုင်းတွင် သူများကို ရိုင်းစိုင်းစွာ ဆက်ဆံခြင်း',
+          'အွန်လိုင်း လုံခြုံရေးစည်းမျဉ်းများကို လျစ်လျူရှုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "Which of these best describes 'diversity' in a community?",
+        questionMy:
+            "အသိုင်းအဝိုင်းတစ်ခု၏ 'ကွဲပြားမှု' ကို အသင့်တော်ဆုံး ဖော်ပြသည့်အရာက အဘယ်နည်း။",
+        optionsEn: [
+          'People with different backgrounds, cultures, and ideas living together',
+          'Everyone must look and think the same way',
+          'Only one culture is allowed',
+          'Ignoring people who are different from you',
+        ],
+        optionsMy: [
+          'မတူညီသော နောက်ခံ၊ ယဉ်ကျေးမှုနှင့် အတွေးအမြင်ရှိသူများ အတူတကွနေထိုင်ခြင်း',
+          'လူတိုင်း အသွင်အပြင်နှင့် အတွေးအမြင် တူညီရမည်',
+          'ယဉ်ကျေးမှုတစ်ခုသာ ခွင့်ပြုသည်',
+          'သင်နှင့် ကွဲပြားသူများကို လျစ်လျူရှုခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is it important to fact-check information before believing or sharing it?',
+        questionMy:
+            'အချက်အလက်တစ်ခုကို မယုံကြည်မီ (သို့) မမျှဝေမီ အမှန်တကယ် စစ်ဆေးရန် အဘယ့်ကြောင့် အရေးကြီးသနည်း။',
+        optionsEn: [
+          'Because not everything we see online or hear is true',
+          'Because it wastes time',
+          'Because all information is always correct',
+          'Because only adults need to check facts',
+        ],
+        optionsMy: [
+          'ကျွန်ုပ်တို့ အွန်လိုင်းတွင် မြင်ရ သို့မဟုတ် ကြားရသမျှသည် မှန်ကန်မှု မရှိသောကြောင့်',
+          'အချိန်ဖြုန်းစေသောကြောင့်',
+          'အချက်အလက်အားလုံးသည် အမြဲမှန်ကန်သောကြောင့်',
+          'လူကြီးများသာ အချက်အလက်များကို စစ်ဆေးရန် လိုအပ်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-generalknowledge-1',
+    subject: 'generalknowledge',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'Global Citizenship and Critical Thinking',
+    titleMy: 'ကမ္ဘာ့နိုင်ငံသားဖြစ်မှုနှင့် ဝေဖန်ဆန်းစစ်တွေးခေါ်မှု',
+    descriptionEn:
+        'Learn about international cooperation, human rights, sustainability, and evaluating information critically.',
+    descriptionMy:
+        'နိုင်ငံတကာ ပူးပေါင်းဆောင်ရွက်မှု၊ လူ့အခွင့်အရေး၊ ရေရှည်တည်တံ့ခြင်းနှင့် အချက်အလက်များကို ဝေဖန်ဆန်းစစ်ခြင်းအကြောင်း လေ့လာပါ။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is the term for working together with people from other countries to solve shared problems, like climate change?',
+        questionMy:
+            'ရာသီဥတုပြောင်းလဲမှုကဲ့သို့ ဘုံပြဿနာများကို ဖြေရှင်းရန် တခြားနိုင်ငံများမှလူများနှင့် အတူတကွ လုပ်ဆောင်ခြင်းကို ဘာဟုခေါ်သနည်း။',
+        optionsEn: [
+          'International cooperation',
+          'Working alone',
+          'Ignoring other countries',
+          'Competing without sharing information',
+        ],
+        optionsMy: [
+          'နိုင်ငံတကာ ပူးပေါင်းဆောင်ရွက်မှု',
+          'တစ်ကိုယ်တည်း လုပ်ဆောင်ခြင်း',
+          'အခြားနိုင်ငံများကို လျစ်လျူရှုခြင်း',
+          'အချက်အလက် မမျှဝေဘဲ ယှဉ်ပြိုင်ခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these is considered a basic human right?',
+        questionMy:
+            'အောက်ပါတို့ထဲမှ အခြေခံလူ့အခွင့်အရေး တစ်ခုအဖြစ် သတ်မှတ်ရသည့်အရာက အဘယ်နည်း။',
+        optionsEn: [
+          'The right to education',
+          'The right to ignore others',
+          'The right to take from others without asking',
+          'The right to break the law',
+        ],
+        optionsMy: [
+          'ပညာသင်ယူခွင့်',
+          'သူများကို လျစ်လျူရှုခွင့်',
+          'မတောင်းဘဲ သူများထံမှ ယူခွင့်',
+          'ဥပဒေချိုးဖောက်ခွင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "What is 'sustainability'?",
+        questionMy: "'ရေရှည်တည်တံ့ခြင်း' ဆိုသည်မှာ အဘယ်နည်း။",
+        optionsEn: [
+          "Using resources in a way that meets today's needs without harming the future",
+          'Using as many resources as possible right now',
+          'Ignoring the needs of future generations',
+          'Wasting resources without thinking ahead',
+        ],
+        optionsMy: [
+          'နောင်လာနောင်သားများကို မထိခိုက်စေဘဲ ယနေ့လိုအပ်ချက်များကို ဖြည့်ဆည်းနိုင်သော နည်းဖြင့် အရင်းအမြစ်များကို အသုံးပြုခြင်း',
+          'ယခုချက်ချင်း အရင်းအမြစ်များကို တတ်နိုင်သမျှ အသုံးပြုခြင်း',
+          'နောင်မျိုးဆက်များ၏ လိုအပ်ချက်များကို လျစ်လျူရှုခြင်း',
+          'ရှေ့ကို မစဉ်းစားဘဲ အရင်းအမြစ်များကို ဖြုန်းတီးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is the best way to evaluate whether a news source is reliable?',
+        questionMy:
+            'သတင်းရင်းမြစ်တစ်ခု ယုံကြည်စိတ်ချရမရရ အကဲဖြတ်ရန် အကောင်းဆုံးနည်းလမ်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Checking if the information is backed by evidence and multiple trustworthy sources',
+          'Believing anything that is shared many times',
+          'Trusting a source just because it looks official',
+          'Never checking any information at all',
+        ],
+        optionsMy: [
+          'အချက်အလက်သည် သက်သေအထောက်အထားနှင့် ယုံကြည်ရသော ရင်းမြစ်များစွာက ထောက်ခံမထောက်ခံ စစ်ဆေးခြင်း',
+          'အကြိမ်ရေများစွာ မျှဝေထားသည့်အရာကို ယုံကြည်ခြင်း',
+          'ရင်းမြစ်တစ်ခုကို တရားဝင်ပုံရသောကြောင့်သာ ယုံကြည်ခြင်း',
+          'မည်သည့်အချက်အလက်ကိုမျှ လုံးဝ မစစ်ဆေးခြင်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: "What does it mean to have 'empathy' for someone?",
+        questionMy:
+            "တစ်စုံတစ်ဦးအပေါ် 'စာနာမှု' ရှိခြင်းဆိုသည်မှာ ဘာကိုဆိုလိုသနည်း။",
+        optionsEn: [
+          'Understanding and sharing how another person feels',
+          'Ignoring how other people feel',
+          'Only caring about your own feelings',
+          "Making fun of someone's feelings",
+        ],
+        optionsMy: [
+          'အခြားတစ်ဦး၏ ခံစားချက်ကို နားလည်ပြီး မျှဝေခံစားပေးခြင်း',
+          'အခြားသူများ၏ ခံစားချက်ကို လျစ်လျူရှုခြင်း',
+          'ကိုယ့်ကိုယ်ကိုယ် ခံစားချက်ကိုသာ ဂရုစိုက်ခြင်း',
+          'တစ်စုံတစ်ဦး၏ ခံစားချက်ကို ပြောင်လှောင်ခြင်း',
         ],
         correctIndex: 0,
       ),
