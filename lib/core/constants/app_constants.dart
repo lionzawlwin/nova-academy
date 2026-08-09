@@ -35,6 +35,14 @@ class AppConstants {
   /// `UsageTelemetry` section.
   static const String usageTelemetryCollection = 'UsageTelemetry';
 
+  /// Async, Spark-plan-friendly leaderboard: one *upserted* document per
+  /// `(lessonId, childId)` pair (doc id `"{lessonId}_{childId}"`), holding
+  /// only that child's best-ever score/time for that lesson -- never one
+  /// document per attempt, so replaying a lesson many times costs at most
+  /// one write, not one per play. See `docs/firestore_schema.md`'s
+  /// `LeaderboardEntries` section.
+  static const String leaderboardEntriesCollection = 'LeaderboardEntries';
+
   /// App display name.
   static const String appName = 'Nova Academy';
 }

@@ -4,6 +4,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/services/tts_service.dart';
 import '../../core/theme/app_theme.dart';
@@ -15,8 +16,11 @@ import '../../models/lesson_attempt_model.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
+import '../../providers/leaderboard_providers.dart';
 import '../../providers/lesson_attempt_providers.dart';
+import '../../routing/app_router.dart';
 import 'achievement_share_card.dart';
+import 'leaderboard_screen.dart';
 import 'mock_quiz_data.dart';
 import 'primary_curriculum_bank.dart';
 
@@ -296,6 +300,27 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
     } catch (e) {
       debugPrint('[McqQuizScreen] recordLessonAttempt FAILED: $e');
     }
+
+    // Only a timed run (a real Ghost Mode play, not a malformed/empty
+    // attempt) is leaderboard-eligible -- an untimed entry would look
+    // artificially fastest against `totalMillis` comparisons elsewhere
+    // (see `LessonAttemptModel.totalMillis`'s doc comment).
+    if (_perQuestionMillis.isNotEmpty) {
+      try {
+        await upsertLeaderboardEntry(
+          ref.read(firestoreProvider),
+          lessonId: moduleId,
+          childId: activeProfile.child.id,
+          aliasName: activeProfile.child.aliasName,
+          scorePercent: _questions.isEmpty
+              ? 0
+              : ((_score / _questions.length) * 100).round(),
+          totalMillis: _perQuestionMillis.fold(0, (a, b) => a + b),
+        );
+      } catch (e) {
+        debugPrint('[McqQuizScreen] upsertLeaderboardEntry FAILED: $e');
+      }
+    }
   }
 
   /// Ghost Mode opponent for this lesson -- `null` for a self-profile
@@ -333,6 +358,8 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                 currentStreakDays: _resultChild?.currentStreakDays ?? 0,
                 totalMillis: _perQuestionMillis.fold(0, (a, b) => a + b),
                 ghostTotalMillis: ghost?.totalMillis,
+                lessonId: widget.args.moduleId,
+                lessonTitle: widget.args.title,
               )
             : Padding(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
@@ -1066,6 +1093,8 @@ class _QuizResults extends StatelessWidget {
     this.currentStreakDays = 0,
     this.totalMillis = 0,
     this.ghostTotalMillis,
+    this.lessonId,
+    this.lessonTitle,
   });
 
   final int score;
@@ -1093,6 +1122,13 @@ class _QuizResults extends StatelessWidget {
   /// there's no ghost (see `_McqQuizScreenState._ghost`), in which case no
   /// Ghost Mode comparison renders at all.
   final int? ghostTotalMillis;
+
+  /// The originating `McqQuizArgs.moduleId`/`.title` -- `null` for a
+  /// module-less quiz (same gate `_recordCompletion` already uses), in
+  /// which case no "View Leaderboard" button renders: there is nothing to
+  /// look up without a lesson id.
+  final String? lessonId;
+  final String? lessonTitle;
 
   @override
   Widget build(BuildContext context) {
@@ -1185,6 +1221,20 @@ class _QuizResults extends StatelessWidget {
             const SizedBox(height: 12),
           ] else
             const SizedBox(height: 36),
+          if (lessonId != null) ...[
+            TextButton.icon(
+              onPressed: () => context.push(
+                AppRoutes.lessonLeaderboard,
+                extra: LeaderboardArgs(
+                  title: lessonTitle ?? '',
+                  lessonId: lessonId!,
+                ),
+              ),
+              icon: const Icon(Icons.leaderboard_rounded),
+              label: Text(_t(context, 'View Leaderboard', 'ဂိုးဇယားကြည့်ရန်')),
+            ),
+            const SizedBox(height: 12),
+          ],
           SizedBox(
             width: double.infinity,
             child: CandyBevelSurface(

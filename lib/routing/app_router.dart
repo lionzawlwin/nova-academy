@@ -29,6 +29,7 @@ import '../features/lessons/nursery_lesson_screen.dart';
 import '../features/lessons/nursery_memory_screen.dart';
 import '../features/lessons/nursery_rhymes_screen.dart';
 import '../features/lessons/nursery_storytelling_screen.dart';
+import '../features/lessons/leaderboard_screen.dart';
 import '../features/lessons/mcq_quiz_screen.dart';
 import '../features/lessons/quantum_flash_screen.dart';
 import '../features/lessons/reading_screen.dart';
@@ -83,6 +84,10 @@ class AppRoutes {
   static const lessonDragMatch = '/lesson/drag-match';
   static const lessonSorting = '/lesson/sorting';
   static const lessonReading = '/lesson/reading';
+
+  /// Task 6's async leaderboard -- see `LeaderboardScreen`. Expects a
+  /// [LeaderboardArgs] via `extra`.
+  static const lessonLeaderboard = '/lesson/leaderboard';
 
   /// Vertical-slice "Academic Year" course-pathway week view -- see
   /// `course_pathway_bank.dart`'s doc comment. Expects a [CourseWeekDef]
@@ -363,6 +368,17 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             args: args is ReadingArgs
                 ? args
                 : const ReadingArgs(title: '', moduleId: ''),
+          );
+        },
+      ),
+      GoRoute(
+        path: AppRoutes.lessonLeaderboard,
+        builder: (context, state) {
+          final args = state.extra;
+          return LeaderboardScreen(
+            args: args is LeaderboardArgs
+                ? args
+                : const LeaderboardArgs(title: '', lessonId: ''),
           );
         },
       ),

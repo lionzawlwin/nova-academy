@@ -140,6 +140,25 @@ service cloud.firestore {
     }
 
     // ---------------------------------------------------------------------
+    // LeaderboardEntries
+    // ---------------------------------------------------------------------
+    // One upserted document per (lessonId, childId) pair holding a child's
+    // best-ever attempt at that lesson (see docs/firestore_schema.md's
+    // `LeaderboardEntries` section and `LeaderboardEntryModel`'s doc
+    // comment). Readable by any signed-in user -- a leaderboard is
+    // meant to be seen by every child racing on it, not just its owner --
+    // but `create`/`update` (an upsert can legitimately be either,
+    // depending on whether a prior entry exists) stay scoped to the
+    // entry's own child, same ownership check as `LessonAttempts`. No
+    // `delete` path beyond the owner: a leaderboard entry is superseded by
+    // a better upsert, never removed.
+    match /LeaderboardEntries/{entryId} {
+      allow read: if isSignedIn();
+      allow create, update: if isOwner() || ownsChild(request.resource.data.childId);
+      allow delete: if isOwner();
+    }
+
+    // ---------------------------------------------------------------------
     // BillingEvents
     // ---------------------------------------------------------------------
     // Append-only revenue ledger -- one immutable document per subscription

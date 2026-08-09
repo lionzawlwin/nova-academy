@@ -299,6 +299,61 @@ themselves).
 
 ---
 
+## 7. `LeaderboardEntries`
+
+Document id == `"{lessonId}_{childId}"` (one document per child per lesson,
+deterministic so an upsert is a single `.doc(id).set()`/transaction, never
+a query-then-write). Task 6's async, Spark-plan-friendly alternative to a
+real-time multiplayer leaderboard -- see
+`lib/providers/leaderboard_providers.dart`'s `upsertLeaderboardEntry`.
+
+| Field                | Type     | Notes |
+|-----------------------|----------|-------|
+| `id`                  | `string` | Denormalized copy of the doc id. |
+| `lessonId`            | `string` | Same `DailyLessonDef.id`/`LearningModuleModel.id` convention as `LessonAttempts.lessonId`. |
+| `childId`             | `string` | The `Children` doc id this entry belongs to. |
+| `aliasName`           | `string` | Denormalized copy of `Children.aliasName` at write time -- never a legal name -- so rendering a leaderboard needs zero extra reads against `Children`. |
+| `scorePercent`        | `int`    | 0-100, this child's best-ever score at this lesson. |
+| `totalMillis`         | `int`    | Total answering time for that best-scoring attempt (ties in `scorePercent` are broken by the faster time). |
+| `updatedAtMillis`     | `int`    | `DateTime.now().millisecondsSinceEpoch` at the write that last improved this entry. |
+
+### Design note: upsert-only, one document per child per lesson
+
+The load-bearing decision, same shape as `UsageTelemetry`'s upsert
+pattern: a child who replays a lesson 50 times still owns exactly **one**
+`LeaderboardEntries` document, since `upsertLeaderboardEntry` only writes
+when the new attempt's score/time actually beats the existing entry
+(inside a transaction, so two rapid completions can't race each other into
+overwriting a better score with a worse one). Storage and leaderboard-read
+volume both stay flat regardless of replay count, unlike an append-only
+collection that would grow with every attempt.
+
+### Indexes
+
+- **Required**, not merely recommended (unlike every other collection's
+  index notes in this document): a composite index on `(lessonId ASC,
+  scorePercent DESC, totalMillis ASC)`, declared in
+  `firestore.indexes.json` and deployed via `firebase deploy --only
+  firestore:indexes` -- `leaderboardTopEntriesProvider`'s ranked query
+  (`where(lessonId) + orderBy(scorePercent, desc) + orderBy(totalMillis)`)
+  fails outright without it. Composite indexes are free on the Spark plan.
+
+### Security rules (guidance)
+
+- `read` is open to any signed-in user (not just the entry's owner) --
+  the entire point of a leaderboard is that every child racing on it can
+  see where they stand against others, unlike every other collection in
+  this schema.
+- `create`/`update` scoped to the entry's own child via the same
+  `ownsChild` helper `LessonAttempts` uses -- an upsert can legitimately
+  be either operation depending on whether a prior entry exists, so both
+  are allowed (unlike `LessonAttempts`' `create`-only, immutable-record
+  rule).
+- No `delete` path beyond the owner: an entry is superseded by a better
+  upsert, never removed by a client.
+
+---
+
 ## Free-tier read/write budget notes
 
 - Prefer **snapshot listeners** (`.snapshots()`) over repeated
