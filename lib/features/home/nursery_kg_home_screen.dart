@@ -9,6 +9,7 @@ import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/child_model.dart';
+import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../../routing/app_router.dart';
@@ -202,16 +203,39 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
   /// tolerates a null/missing content lookup) or, when 2+ activities match
   /// (of any kind), pushes [NurseryActivityBrowserScreen] so the child can
   /// pick which one to play instead of only ever reaching the first.
-  void _openLesson(
+  ///
+  /// Awaits [learningModulesForGradeProvider]/[learningModulesProvider]'s
+  /// first snapshot (`.future`) rather than reading `.valueOrNull`
+  /// synchronously: on a cold read -- the very first tap for a given grade
+  /// this app session, before that grade's `StreamProvider` has delivered
+  /// anything yet -- `.valueOrNull` is `null` regardless of whether real
+  /// content exists, which `?? const []` then silently treated as "no
+  /// seeded module for this subject," routing into the hardcoded
+  /// picture-matching fallback instead of the subject's real content/menu.
+  /// Every later tap for that same grade hit the provider's cached value
+  /// and worked correctly, which is exactly the "close and reopen fixes
+  /// it" symptom this was causing.
+  Future<void> _openLesson(
     BuildContext context,
     WidgetRef ref,
     Grade? grade,
     SubjectVisual subject,
-  ) {
-    final allModules = grade != null
-        ? ref.read(learningModulesForGradeProvider(grade)).valueOrNull ??
-              const []
-        : ref.read(learningModulesProvider).valueOrNull ?? const [];
+  ) async {
+    final List<LearningModuleModel> allModules;
+    try {
+      allModules = grade != null
+          ? await ref.read(learningModulesForGradeProvider(grade).future)
+          : await ref.read(learningModulesProvider.future);
+    } catch (_) {
+      // A genuine stream error (offline with no cache, permissions, etc.)
+      // -- fall through to the same "no seeded module" dead-end-avoidance
+      // path below rather than leaving the tap stuck mid-navigation.
+      if (!context.mounted) return;
+      _openFallback(context, subject);
+      return;
+    }
+    if (!context.mounted) return;
+
     final seededIds = allModules
         .where((m) => m.grade == grade && m.subject == subject.subjectKey)
         .map((m) => m.id)
@@ -235,16 +259,22 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
     }
 
     if (activities.isEmpty) {
-      // No matching seeded module for this grade/subject yet -- fall back
-      // to the picture-matching screen's own hardcoded fallback set (via a
-      // `null` pairs extra) so a tile never shows a dead end, exactly the
-      // pre-existing behavior this replaces.
-      const List<MatchPairItem>? noPairs = null;
-      context.push(AppRoutes.lessonNursery, extra: (subject, noPairs));
+      _openFallback(context, subject);
       return;
     }
 
     openNurseryActivity(context, activities.first, subject);
+  }
+
+  /// No matching seeded module for this grade/subject -- falls back to the
+  /// picture-matching screen's own hardcoded fallback set (via a `null`
+  /// pairs extra) so a tile never shows a dead end. Shared by both the
+  /// genuine "nothing seeded yet" case and a stream-read error in
+  /// [_openLesson], since both mean the same thing to the child: there's
+  /// nothing to route to but the fallback activity.
+  void _openFallback(BuildContext context, SubjectVisual subject) {
+    const List<MatchPairItem>? noPairs = null;
+    context.push(AppRoutes.lessonNursery, extra: (subject, noPairs));
   }
 }
 
