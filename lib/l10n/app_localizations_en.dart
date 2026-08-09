@@ -582,6 +582,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeLessonLocked => 'Complete the previous lesson first!';
 
   @override
+  String get homeChallengeZoneTitle => '🎮 Challenge Zone';
+
+  @override
+  String get homeChallengeZoneSubtitle => 'Fast-tap games — jump straight in!';
+
+  @override
+  String get homeChallengeZoneComingSoon =>
+      'More challenges for this grade are coming soon!';
+
+  @override
+  String get homeChallengeZoneGhostHint =>
+      'Play again for Ghost Mode — race your last run!';
+
+  @override
   String get homeCoursePathwaysTitle => 'Course Pathways';
 
   @override

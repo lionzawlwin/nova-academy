@@ -13,6 +13,7 @@ import '../../providers/children_providers.dart';
 import '../../providers/course_progress_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../lessons/lesson_navigation.dart';
+import 'challenge_zone_section.dart';
 import 'course_pathway_browser.dart';
 import 'home_shared_widgets.dart';
 
@@ -123,6 +124,17 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
           children: [
             _Header(child: child, locale: locale),
             const SizedBox(height: 20),
+            ChallengeZoneSection(
+              items: _secondaryChallengeZoneItems(l10n),
+              onTapItem: (item) => _handleChallengeTap(
+                context,
+                l10n,
+                locale,
+                gradeModules,
+                item,
+              ),
+            ),
+            const SizedBox(height: 20),
             _ProgressSummary(
               stars: child?.totalStars ?? 0,
               moduleCount: gradeModules.length,
@@ -215,6 +227,67 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
           ],
         ),
       ),
+    );
+  }
+
+  /// The four gamified quiz subjects surfaced in the Challenge Zone, per
+  /// the product directive: General Knowledge, Science, Geography, History
+  /// -- every Secondary/IGCSE grade has real seeded content for all four
+  /// after the depth-parity rollout (`secondary_curriculum_bank.dart`).
+  List<ChallengeZoneItem> _secondaryChallengeZoneItems(AppLocalizations l10n) => [
+    ChallengeZoneItem(
+      label: l10n.subjectGeneralKnowledge,
+      icon: Icons.emoji_objects_rounded,
+      color: AppColors.cherryCrush,
+      subjectKey: 'generalknowledge',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectScience,
+      icon: Icons.science_rounded,
+      color: AppColors.goldMedal,
+      subjectKey: 'science',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectGeography,
+      icon: Icons.public_rounded,
+      color: AppColors.deepCobalt,
+      subjectKey: 'geography',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectHistory,
+      icon: Icons.history_edu_rounded,
+      color: AppColors.candyPrimary,
+      subjectKey: 'history',
+    ),
+  ];
+
+  /// One-tap Challenge Zone entry -- mirrors `PrimaryHomeScreen`'s handler:
+  /// finds this grade's first seeded module for [item.subjectKey] and
+  /// starts it immediately via [pushLessonForModule], no intermediate
+  /// picker screen.
+  void _handleChallengeTap(
+    BuildContext context,
+    AppLocalizations l10n,
+    String locale,
+    List<LearningModuleModel> gradeModules,
+    ChallengeZoneItem item,
+  ) {
+    final matches = gradeModules
+        .where((m) => m.subject.toLowerCase() == item.subjectKey)
+        .toList();
+    if (matches.isEmpty) {
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(l10n.homeChallengeZoneComingSoon)));
+      return;
+    }
+    final module = matches.first;
+    pushLessonForModule(
+      context,
+      module: module,
+      title: locale == 'my' ? module.titleMy : module.titleEn,
+      subjectKey: item.subjectKey,
+      stars: module.starsReward,
     );
   }
 }

@@ -15,6 +15,7 @@ import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/learning_module_providers.dart';
 import '../lessons/lesson_navigation.dart';
+import 'challenge_zone_section.dart';
 import 'course_pathway_browser.dart';
 import 'home_shared_widgets.dart';
 
@@ -97,6 +98,9 @@ class PrimaryHomeScreen extends ConsumerWidget {
       modulesAsync.valueOrNull,
       child?.completedModuleIds.toSet() ?? const <String>{},
     );
+    final gradeModules = (modulesAsync.valueOrNull ?? const <LearningModuleModel>[])
+        .where((m) => grade == null || m.grade == grade)
+        .toList();
 
     return Scaffold(
       body: SafeArea(
@@ -106,6 +110,21 @@ class PrimaryHomeScreen extends ConsumerWidget {
               child: _HeroHeader(
                 childName: child?.aliasName,
                 stars: child?.totalStars ?? 0,
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 18, 16, 4),
+                child: ChallengeZoneSection(
+                  items: _challengeZoneItems(l10n),
+                  onTapItem: (item) => _handleChallengeTap(
+                    context,
+                    l10n,
+                    locale,
+                    gradeModules,
+                    item,
+                  ),
+                ),
               ),
             ),
             SliverToBoxAdapter(
@@ -217,6 +236,70 @@ class PrimaryHomeScreen extends ConsumerWidget {
           isLocked: false,
         ),
     ];
+  }
+
+  /// The four gamified quiz subjects surfaced in the Challenge Zone, per
+  /// the product directive: General Knowledge, Science, Geography, History
+  /// -- every Primary grade (Year 1-6) has real seeded content for all
+  /// four after the depth-parity rollout.
+  List<ChallengeZoneItem> _challengeZoneItems(AppLocalizations l10n) => [
+    ChallengeZoneItem(
+      label: l10n.subjectGeneralKnowledge,
+      icon: Icons.emoji_objects_rounded,
+      color: AppColors.cherryCrush,
+      subjectKey: 'generalknowledge',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectScience,
+      icon: Icons.science_rounded,
+      color: AppColors.goldMedal,
+      subjectKey: 'science',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectGeography,
+      icon: Icons.public_rounded,
+      color: AppColors.deepCobalt,
+      subjectKey: 'geography',
+    ),
+    ChallengeZoneItem(
+      label: l10n.subjectHistory,
+      icon: Icons.history_edu_rounded,
+      color: AppColors.candyPrimary,
+      subjectKey: 'history',
+    ),
+  ];
+
+  /// One-tap Challenge Zone entry: finds this grade's first seeded module
+  /// for [item.subjectKey] and starts it immediately via
+  /// [pushLessonForModule] -- no intermediate picker screen, per the
+  /// directive's "one tap to start playing". A grade with no seeded module
+  /// for that subject yet (shouldn't happen after the depth rollout, but
+  /// stays honest rather than routing to an empty quiz) shows a brief
+  /// "coming soon" hint instead of a dead tap.
+  void _handleChallengeTap(
+    BuildContext context,
+    AppLocalizations l10n,
+    String locale,
+    List<LearningModuleModel> gradeModules,
+    ChallengeZoneItem item,
+  ) {
+    final matches = gradeModules
+        .where((m) => m.subject.toLowerCase() == item.subjectKey)
+        .toList();
+    if (matches.isEmpty) {
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(l10n.homeChallengeZoneComingSoon)));
+      return;
+    }
+    final module = matches.first;
+    pushLessonForModule(
+      context,
+      module: module,
+      title: locale == 'my' ? module.titleMy : module.titleEn,
+      subjectKey: item.subjectKey,
+      stars: module.starsReward,
+    );
   }
 
   IconData _iconForSubject(String subject) {

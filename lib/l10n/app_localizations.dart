@@ -1184,6 +1184,30 @@ abstract class AppLocalizations {
   /// **'Complete the previous lesson first!'**
   String get homeLessonLocked;
 
+  /// No description provided for @homeChallengeZoneTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'🎮 Challenge Zone'**
+  String get homeChallengeZoneTitle;
+
+  /// No description provided for @homeChallengeZoneSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Fast-tap games — jump straight in!'**
+  String get homeChallengeZoneSubtitle;
+
+  /// No description provided for @homeChallengeZoneComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'More challenges for this grade are coming soon!'**
+  String get homeChallengeZoneComingSoon;
+
+  /// No description provided for @homeChallengeZoneGhostHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Play again for Ghost Mode — race your last run!'**
+  String get homeChallengeZoneGhostHint;
+
   /// No description provided for @homeCoursePathwaysTitle.
   ///
   /// In en, this message translates to:

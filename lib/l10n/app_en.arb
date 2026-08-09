@@ -247,6 +247,11 @@
   },
   "homeLessonLocked": "Complete the previous lesson first!",
 
+  "homeChallengeZoneTitle": "🎮 Challenge Zone",
+  "homeChallengeZoneSubtitle": "Fast-tap games — jump straight in!",
+  "homeChallengeZoneComingSoon": "More challenges for this grade are coming soon!",
+  "homeChallengeZoneGhostHint": "Play again for Ghost Mode — race your last run!",
+
   "homeCoursePathwaysTitle": "Course Pathways",
   "homeCoursePathwaysSubtitle": "Full academic-year courses, week by week",
   "homeCoursePathwayWeeksReady": "{authored} of {total} weeks ready",

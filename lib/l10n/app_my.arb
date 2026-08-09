@@ -205,6 +205,11 @@
   "homeModulesAvailable": "မော်ဂျူး {count} ခု ရရှိနိုင်သည်",
   "homeLessonLocked": "ယခင်သင်ခန်းစာကို အရင်ပြီးအောင်လုပ်ပါ။",
 
+  "homeChallengeZoneTitle": "🎮 စိန်ခေါ်မှုဇုန်",
+  "homeChallengeZoneSubtitle": "လျင်မြန်သောဂိမ်းများ — တန်းကစားလိုက်ပါ!",
+  "homeChallengeZoneComingSoon": "ဒီအတန်းအတွက် နောက်ထပ်စိန်ခေါ်ဂိမ်းများ မကြာမီရောက်ရှိလာပါမည်!",
+  "homeChallengeZoneGhostHint": "ပြန်ကစားပြီး Ghost Mode ဖြင့် ယခင်ရမှတ်ကို ပြိုင်ကြည့်ပါ!",
+
   "homeCoursePathwaysTitle": "သင်တန်းလမ်းကြောင်းများ",
   "homeCoursePathwaysSubtitle": "ပညာသင်နှစ်တစ်ခုလုံး သင်တန်းများ၊ ပတ်အလိုက်",
   "homeCoursePathwayWeeksReady": "စုစုပေါင်း ပတ် {total} အနက် {authored} ပတ် အသင့်ဖြစ်ပြီ",

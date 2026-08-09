@@ -16,6 +16,7 @@ import '../../routing/app_router.dart';
 import '../lessons/nursery_activity_index.dart';
 import '../lessons/nursery_kg_activity_bank.dart' show MatchPairItem;
 import '../lessons/open_nursery_activity.dart';
+import 'challenge_zone_section.dart';
 import 'home_shared_widgets.dart';
 
 /// The Nursery/KG student home: as close to zero reading as a bilingual
@@ -162,7 +163,22 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
                           childName: child?.aliasName ?? l10n.appName,
                           stars: child?.totalStars ?? 0,
                         ),
-                        const SizedBox(height: 28),
+                        const SizedBox(height: 24),
+                        ChallengeZoneSection(
+                          items: _challengeZoneItems(subjects),
+                          onTapItem: (item) => _openLesson(
+                            context,
+                            ref,
+                            child?.currentGrade,
+                            SubjectVisual(
+                              label: item.label,
+                              icon: item.icon,
+                              color: item.color,
+                              subjectKey: item.subjectKey,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 24),
                         Wrap(
                           alignment: WrapAlignment.center,
                           spacing: 22,
@@ -193,6 +209,34 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
         ),
       ),
     );
+  }
+
+  /// Picks the four gamified quiz subjects for the Challenge Zone out of
+  /// the full nursery subject grid, in a fixed order -- General
+  /// Knowledge, STEM (this tier's closest match to "Science" -- Nursery/KG
+  /// content is seeded under the `stem` subject key, not a separate
+  /// `science` one), Geography, History. Reuses each tile's existing
+  /// [SubjectVisual] (label/icon/color) rather than re-deriving them, so
+  /// the Challenge Zone cards match the main subject grid below exactly.
+  static const _challengeZoneKeys = [
+    'generalknowledge',
+    'stem',
+    'geography',
+    'history',
+  ];
+
+  List<ChallengeZoneItem> _challengeZoneItems(List<SubjectVisual> subjects) {
+    final byKey = {for (final s in subjects) s.subjectKey: s};
+    return [
+      for (final key in _challengeZoneKeys)
+        if (byKey[key] case final visual?)
+          ChallengeZoneItem(
+            label: visual.label,
+            icon: visual.icon,
+            color: visual.color,
+            subjectKey: visual.subjectKey,
+          ),
+    ];
   }
 
   /// Looks up the real seeded module(s) for [grade]/[subject.subjectKey]

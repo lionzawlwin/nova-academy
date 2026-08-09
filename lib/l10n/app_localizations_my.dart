@@ -589,6 +589,21 @@ class AppLocalizationsMy extends AppLocalizations {
   String get homeLessonLocked => 'ယခင်သင်ခန်းစာကို အရင်ပြီးအောင်လုပ်ပါ။';
 
   @override
+  String get homeChallengeZoneTitle => '🎮 စိန်ခေါ်မှုဇုန်';
+
+  @override
+  String get homeChallengeZoneSubtitle =>
+      'လျင်မြန်သောဂိမ်းများ — တန်းကစားလိုက်ပါ!';
+
+  @override
+  String get homeChallengeZoneComingSoon =>
+      'ဒီအတန်းအတွက် နောက်ထပ်စိန်ခေါ်ဂိမ်းများ မကြာမီရောက်ရှိလာပါမည်!';
+
+  @override
+  String get homeChallengeZoneGhostHint =>
+      'ပြန်ကစားပြီး Ghost Mode ဖြင့် ယခင်ရမှတ်ကို ပြိုင်ကြည့်ပါ!';
+
+  @override
   String get homeCoursePathwaysTitle => 'သင်တန်းလမ်းကြောင်းများ';
 
   @override
