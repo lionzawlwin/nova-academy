@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/services/tts_service.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/glossy_badge.dart';
@@ -105,6 +106,12 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   /// `_QuizResults`) purely so it survives `_QuizResults` rebuilds.
   final GlobalKey _shareCardKey = GlobalKey();
 
+  /// Reads the question/option text aloud on tap -- same bare
+  /// per-screen-owned wrapper `NurseryRhymesScreen` already uses (see that
+  /// class and `TtsService`'s own doc comment for the Burmese-voice
+  /// fallback rationale).
+  final TtsService _tts = TtsService();
+
   @override
   void initState() {
     super.initState();
@@ -112,6 +119,11 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
       widget.args.moduleId,
       widget.args.subject,
     ).map(_shuffled).toList();
+  }
+
+  void _speak(String text) {
+    final lc = Localizations.localeOf(context).languageCode;
+    unawaited(_tts.speak(text, languageCode: lc));
   }
 
   /// Returns a copy of [q] with its options shuffled into a random order
@@ -143,6 +155,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
   @override
   void dispose() {
     _advanceTimer?.cancel();
+    _tts.dispose();
     super.dispose();
   }
 
@@ -199,6 +212,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
 
   void _advance() {
     if (!mounted) return;
+    unawaited(_tts.stop());
     if (_currentIndex >= _questions.length - 1) {
       setState(() => _finished = true);
       unawaited(_recordCompletion());
@@ -311,6 +325,7 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
                         selectedIndex: _selectedIndex,
                         answered: _answered,
                         onSelect: _selectOption,
+                        onSpeak: _speak,
                         triedWrong: _triedWrong,
                         hintsRevealed: _hintsRevealed,
                       ),
@@ -408,6 +423,7 @@ class _QuestionView extends StatelessWidget {
     required this.selectedIndex,
     required this.answered,
     required this.onSelect,
+    required this.onSpeak,
     required this.triedWrong,
     required this.hintsRevealed,
   });
@@ -416,6 +432,13 @@ class _QuestionView extends StatelessWidget {
   final int? selectedIndex;
   final bool answered;
   final ValueChanged<int> onSelect;
+
+  /// Reads a piece of question/option text aloud (see `McqQuizScreen._speak`)
+  /// -- threaded down here rather than each option owning its own
+  /// `TtsService`, so every speaker tap on this question shares the one
+  /// screen-lifetime engine instance and naturally interrupts whichever
+  /// text was playing before it.
+  final ValueChanged<String> onSpeak;
 
   /// Indices already tapped and found wrong for this question -- rendered
   /// (and kept) as `_OptionState.incorrect` regardless of `answered`.
@@ -438,7 +461,7 @@ class _QuestionView extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.fromLTRB(20, 20, 8, 20),
           decoration: BoxDecoration(
             gradient: AppGradients.hero(theme.colorScheme),
             borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
@@ -447,12 +470,23 @@ class _QuestionView extends StatelessWidget {
               brightness: theme.brightness,
             ),
           ),
-          child: Text(
-            questionText,
-            style: theme.textTheme.titleLarge?.copyWith(
-              color: Colors.white,
-              fontWeight: FontWeight.w800,
-            ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Text(
+                  questionText,
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+              _SpeakerButton(
+                onTap: () => onSpeak(questionText),
+                iconColor: Colors.white,
+              ),
+            ],
           ),
         ),
         const SizedBox(height: 20),
@@ -468,6 +502,7 @@ class _QuestionView extends StatelessWidget {
               label: options[i],
               state: _optionState(i),
               onTap: () => onSelect(i),
+              onSpeak: () => onSpeak(options[i]),
             ),
           ),
       ],
@@ -558,6 +593,28 @@ class _HintPanel extends StatelessWidget {
 
 enum _OptionState { idle, correct, incorrect, disabled }
 
+/// A small "read this aloud" tap target -- its own [IconButton] so a tap
+/// on the speaker is consumed there and never falls through to whatever
+/// tappable surface it's layered on (the question hero container, an
+/// [_OptionCard]'s [CandyBevelSurface]).
+class _SpeakerButton extends StatelessWidget {
+  const _SpeakerButton({required this.onTap, required this.iconColor});
+
+  final VoidCallback onTap;
+  final Color iconColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      onPressed: onTap,
+      icon: Icon(Icons.volume_up_rounded, color: iconColor),
+      tooltip: _t(context, 'Read aloud', 'အသံထွက်ဖတ်ရန်'),
+      visualDensity: VisualDensity.compact,
+      splashRadius: 22,
+    );
+  }
+}
+
 /// The quiz answer tile -- the design spec's fully-specified "sample
 /// component" (see the spec's "Sample component: quiz answer tile"
 /// section). Full-width pill-shaped [CandyBevelSurface] at the spec's
@@ -578,12 +635,19 @@ class _OptionCard extends StatefulWidget {
     required this.label,
     required this.state,
     required this.onTap,
+    required this.onSpeak,
   });
 
   final int index;
   final String label;
   final _OptionState state;
   final VoidCallback onTap;
+
+  /// Reads [label] aloud -- only surfaced (see `build`) while [state] is
+  /// [_OptionState.idle], since once an answer's been tried the
+  /// correct/incorrect icon already occupies that trailing slot and the
+  /// student has their feedback.
+  final VoidCallback onSpeak;
 
   @override
   State<_OptionCard> createState() => _OptionCardState();
@@ -772,6 +836,11 @@ class _OptionCardState extends State<_OptionCard>
                             ),
                           ),
                         ),
+                        if (widget.state == _OptionState.idle)
+                          _SpeakerButton(
+                            onTap: widget.onSpeak,
+                            iconColor: foregroundColor,
+                          ),
                       ],
                     ),
                   ),
