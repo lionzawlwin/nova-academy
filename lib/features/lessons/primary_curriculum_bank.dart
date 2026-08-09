@@ -9446,4 +9446,588 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // History depth batch 1: a second module per grade (Year 1-6), bringing
+  // `history` from 1 module/grade to 2, matching the "geography depth
+  // batch 1" block above. Authored via a parallel content-generation
+  // workflow (one agent per grade), reviewed for factual accuracy and
+  // bilingual quality before being added here -- the Year1/Year4 modules
+  // touch Myanmar's independence history and were checked against
+  // standard textbook facts (Independence Day 1948, the 1947 Panglong
+  // Conference, U Nu as first Prime Minister) and kept strictly neutral,
+  // with no modern political commentary.
+  PrimaryActivityDef(
+    id: 'mock-year1-history-2',
+    subject: 'history',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Independence Day & National Heroes',
+    titleMy: 'လွတ်လပ်ရေးနေ့နှင့် အမျိုးသားသူရဲကောင်းများ',
+    descriptionEn:
+        'Learn about Myanmar\'s Independence Day and the national hero who worked for freedom.',
+    descriptionMy:
+        'မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးနေ့နှင့် လွတ်လပ်ရေးအတွက် ကြိုးပမ်းခဲ့သော အမျိုးသားသူရဲကောင်းအကြောင်း လေ့လာရမည်။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What date is Myanmar\'s Independence Day?',
+        questionMy: 'မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးနေ့ကို ဘယ်နေ့မှာ ကျင်းပသနည်း။',
+        optionsEn: [
+          'February 12th',
+          'March 27th',
+          'January 4th',
+          'December 25th',
+        ],
+        optionsMy: [
+          'ဖေဖော်ဝါရီ ၁၂ ရက်',
+          'မတ် ၂၇ ရက်',
+          'ဇန်နဝါရီ ၄ ရက်',
+          'ဒီဇင်ဘာ ၂၅ ရက်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Who is remembered as Myanmar\'s national hero who worked for independence?',
+        questionMy:
+            'မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးအတွက် ကြိုးပမ်းခဲ့သော အမျိုးသားသူရဲကောင်းသည် မည်သူနည်း။',
+        optionsEn: [
+          'King Anawrahta',
+          'Bogyoke Aung San',
+          'U Thant',
+          'Queen Shin Sawbu',
+        ],
+        optionsMy: [
+          'အနော်ရထာမင်း',
+          'ဗိုလ်ချုပ်အောင်ဆန်း',
+          'ဦးသန့်',
+          'ရှင်စောပု',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'What does Myanmar celebrate on Independence Day?',
+        questionMy:
+            'မြန်မာနိုင်ငံသည် လွတ်လပ်ရေးနေ့တွင် အဘယ်အရာကို ကျင်းပကြသနည်း။',
+        optionsEn: [
+          'The Buddhist New Year',
+          'A big harvest',
+          'Freedom from colonial rule',
+          'The start of the school year',
+        ],
+        optionsMy: [
+          'သင်္ကြန်နှစ်သစ်ကူး',
+          'စပါးရိတ်သိမ်းချိန်ကြီး',
+          'ကိုလိုနီအုပ်ချုပ်ရေးမှ လွတ်မြောက်ခြင်း',
+          'ကျောင်းစတင်သည့်နှစ်',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Aung San is often called \'Bogyoke.\' What does this title mean?',
+        questionMy:
+            'အောင်ဆန်းအား \'ဗိုလ်ချုပ်\' ဟု မကြာခဏ ခေါ်ကြသည်။ ဤဂုဏ်ပုဒ်၏ အနက်အဓိပ္ပာယ်မှာ အဘယ်အရာဖြစ်သနည်း။',
+        optionsEn: ['Teacher', 'General', 'Doctor', 'Farmer'],
+        optionsMy: ['ဆရာ', 'ဗိုလ်ချုပ်', 'ဆရာဝန်', 'လယ်သမား'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'What do people often do on Myanmar\'s Independence Day?',
+        questionMy:
+            'မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးနေ့တွင် လူများ အဘယ်အရာကို ပြုလုပ်လေ့ရှိကြသနည်း။',
+        optionsEn: [
+          'Plant rice in the fields',
+          'Raise the Myanmar flag',
+          'Go to school for exams',
+          'Clean the temple only',
+        ],
+        optionsMy: [
+          'လယ်ကွင်းတွင် စပါးစိုက်ပျိုးခြင်း',
+          'မြန်မာနိုင်ငံအလံကို လွှင့်ထူခြင်း',
+          'စာမေးပွဲအတွက် ကျောင်းသွားခြင်း',
+          'ဘုရားကိုသာ သန့်ရှင်းရေးလုပ်ခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-history-2',
+    subject: 'history',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Old Buildings and Special Places',
+    titleMy: 'ရှေးဟောင်းအဆောက်အအုံများနှင့် အထူးနေရာများ',
+    descriptionEn:
+        'Learn about pagodas, palaces, and museums, and discover why we take care of old buildings.',
+    descriptionMy:
+        'ဘုရားစေတီများ၊ နန်းတော်များနှင့် ပြတိုက်များအကြောင်း လေ့လာပြီး ရှေးဟောင်းအဆောက်အအုံများကို အဘယ်ကြောင့် ထိန်းသိမ်းထားရသည်ကို လေ့လာပါမည်။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is a tall, golden building where people go to pray called?',
+        questionMy:
+            'လူများ ဆုတောင်းရန် သွားလေ့ရှိသော အမြင့်ကြီး ရွှေရောင် အဆောက်အအုံကို ဘာခေါ်သနည်း။',
+        optionsEn: ['School', 'Pagoda', 'Market', 'Hospital'],
+        optionsMy: ['ကျောင်း', 'ဘုရားစေတီ', 'စျေး', 'ဆေးရုံ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Long ago, who used to live in a palace?',
+        questionMy: 'ရှေးအခါက နန်းတော်တွင် မည်သူများ နေထိုင်ခဲ့ကြသနည်း။',
+        optionsEn: ['Farmers', 'Kings and queens', 'Teachers', 'Fishermen'],
+        optionsMy: [
+          'လယ်သမားများ',
+          'ဘုရင်နှင့် မိဖုရားများ',
+          'ဆရာများ',
+          'တံငါများ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Where can we go to see old objects from the past kept safe for people to learn from?',
+        questionMy:
+            'ရှေးဟောင်းပစ္စည်းများကို လူများ လေ့လာနိုင်ရန် ဘေးကင်းစွာ ထိန်းသိမ်းထားသော နေရာသည် အဘယ်နေရာဖြစ်သနည်း။',
+        optionsEn: [
+          'A playground',
+          'A supermarket',
+          'A museum',
+          'A bus station',
+        ],
+        optionsMy: ['ကစားကွင်း', 'စူပါမားကတ်', 'ပြတိုက်', 'ဘတ်စ်ကားဂိတ်'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What is the ancient city of Bagan in Myanmar famous for having thousands of?',
+        questionMy:
+            'မြန်မာနိုင်ငံရှိ ရှေးဟောင်းမြို့တော် ပုဂံသည် အဘယ်အရာ ထောင်ပေါင်းများစွာ ရှိသဖြင့် ကျော်ကြားသနည်း။',
+        optionsEn: [
+          'Modern hospitals',
+          'Old pagodas',
+          'Big factories',
+          'New schools',
+        ],
+        optionsMy: [
+          'ခေတ်မီဆေးရုံများ',
+          'ရှေးဟောင်းဘုရားစေတီများ',
+          'စက်ရုံကြီးများ',
+          'ကျောင်းအသစ်များ',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why do we take care of old buildings instead of knocking them down?',
+        questionMy:
+            'အဆောက်အအုံဟောင်းများကို ဖျက်သိမ်းမည့်အစား အဘယ်ကြောင့် ထိန်းသိမ်းထားကြသနည်း။',
+        optionsEn: [
+          'Because they are cheap to build',
+          'To remember and learn about the past',
+          'To use them as car parks',
+          'Because new buildings are not allowed',
+        ],
+        optionsMy: [
+          'တည်ဆောက်ရန် စျေးသက်သာသောကြောင့်',
+          'အတိတ်ကာလကို သတိရ၍ လေ့လာနိုင်ရန်',
+          'ကားရပ်နားရန် အသုံးပြုရန်',
+          'အဆောက်အအုံသစ် တည်ဆောက်ခွင့်မရှိသောကြောင့်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-history-2',
+    subject: 'history',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Early Kingdoms of Myanmar',
+    titleMy: 'မြန်မာ့ရှေးဟောင်းနိုင်ငံများ',
+    descriptionEn:
+        'Learn about the ancient Pyu city-states and the Kingdom of Bagan, and discover why Bagan\'s many temples make it so historically important.',
+    descriptionMy:
+        'ရှေးဟောင်းပျူမြို့ပြနိုင်ငံများနှင့် ပုဂံဘုရင့်နိုင်ငံတော်အကြောင်း၊ ပုဂံရှိ ဘုရားပုထိုးများစွာသည် သမိုင်းအရေးပါသည့်အကြောင်းရင်းကို လေ့လာရမည်ဖြစ်သည်။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What were the Pyu people known for building in ancient Myanmar?',
+        questionMy:
+            'ရှေးခေတ်မြန်မာနိုင်ငံတွင် ပျူလူမျိုးများသည် အဘယ်အရာကို တည်ဆောက်ခြင်းဖြင့် လူသိများခဲ့သနည်း။',
+        optionsEn: [
+          'Walled city-states',
+          'Underground railways',
+          'Snow palaces',
+          'Floating islands',
+        ],
+        optionsMy: [
+          'တံတိုင်းရံထားသော မြို့ပြနိုင်ငံများ',
+          'မြေအောက်ရထားလမ်းများ',
+          'နှင်းနန်းတော်များ',
+          'ရေပေါ်ကျွန်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which famous kingdom was founded in Bagan?',
+        questionMy: 'ပုဂံတွင် တည်ထောင်ခဲ့သည့် နာမည်ကြီးနိုင်ငံသည် အဘယ်နည်း။',
+        optionsEn: [
+          'The Kingdom of Bagan',
+          'The Kingdom of Rome',
+          'The Kingdom of Siam',
+          'The Kingdom of Nepal',
+        ],
+        optionsMy: [
+          'ပုဂံနိုင်ငံတော်',
+          'ရောမနိုင်ငံတော်',
+          'သျှမ်းနိုင်ငံတော်',
+          'နီပေါနိုင်ငံတော်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is Bagan famous for having thousands of?',
+        questionMy: 'ပုဂံသည် ထောင်ချီရှိသော အဘယ်အရာများဖြင့် နာမည်ကြီးသနည်း။',
+        optionsEn: [
+          'Temples and pagodas',
+          'Tall skyscrapers',
+          'Football stadiums',
+          'Ice rinks',
+        ],
+        optionsMy: [
+          'ဘုရားနှင့် ဘုရားပုထိုးများ',
+          'မိုးမျှော်တိုက်များ',
+          'ဘောလုံးကွင်းများ',
+          'ရေခဲကွင်းများ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why is Bagan historically important to Myanmar?',
+        questionMy: 'ပုဂံသည် မြန်မာ့သမိုင်းတွင် အဘယ်ကြောင့် အရေးပါသနည်း။',
+        optionsEn: [
+          'It was one of the first great kingdoms to unite much of Myanmar',
+          'It was the last village ever built',
+          'It was a small fishing hut',
+          'It had no people living there',
+        ],
+        optionsMy: [
+          'မြန်မာနိုင်ငံ၏ အများစုကို ပထမဆုံး စည်းလုံးအောင် တည်ထောင်နိုင်ခဲ့သည့် နိုင်ငံတော်ကြီးများထဲမှ တစ်ခုဖြစ်သောကြောင့်',
+          'နောက်ဆုံးတည်ဆောက်သော ရွာငယ်လေးဖြစ်သောကြောင့်',
+          'ငါးဖမ်းသည့် တဲငယ်လေးဖြစ်သောကြောင့်',
+          'မည်သူမျှ နေထိုင်ခြင်းမရှိသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In ancient Myanmar, which came first: the Pyu city-states or the Kingdom of Bagan?',
+        questionMy:
+            'ရှေးခေတ်မြန်မာနိုင်ငံတွင် ပျူမြို့ပြနိုင်ငံများနှင့် ပုဂံနိုင်ငံတော်တို့အနက် အဘယ်ကို ပိုမိုစော်စွာတည်ရှိခဲ့သနည်း။',
+        optionsEn: [
+          'The Pyu city-states',
+          'The Kingdom of Bagan',
+          'They started on the exact same day',
+          'Neither ever existed',
+        ],
+        optionsMy: [
+          'ပျူမြို့ပြနိုင်ငံများ',
+          'ပုဂံနိုင်ငံတော်',
+          'နှစ်ခုစလုံး တစ်ရက်တည်းတွင် စတင်ခဲ့သည်',
+          'နှစ်ခုလုံး တည်ရှိခဲ့ခြင်းမရှိပါ',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-history-2',
+    subject: 'history',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Myanmar\'s Path to Independence',
+    titleMy: 'မြန်မာ့လွတ်လပ်ရေးခရီး',
+    descriptionEn:
+        'Learn about how Myanmar gained independence from colonial rule and the national leaders who made it happen.',
+    descriptionMy:
+        'မြန်မာနိုင်ငံ ကိုလိုနီအုပ်ချုပ်မှုမှ လွတ်လပ်ရေးရရှိလာပုံနှင့် ထိုအတွက်ကြိုးပမ်းခဲ့ကြသော အမျိုးသားခေါင်းဆောင်များအကြောင်း လေ့လာရမည်။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'On what date did Myanmar gain independence from British rule?',
+        questionMy:
+            'မြန်မာနိုင်ငံသည် ဗြိတိသျှအုပ်ချုပ်မှုမှ မည်သည့်နေ့ရက်တွင် လွတ်လပ်ရေးရရှိခဲ့သနည်း။',
+        optionsEn: [
+          'January 4, 1938',
+          'January 4, 1948',
+          'August 4, 1948',
+          'January 4, 1958',
+        ],
+        optionsMy: [
+          'ဇန်နဝါရီ ၄ ရက်၊ ၁၉၃၈ ခုနှစ်',
+          'ဇန်နဝါရီ ၄ ရက်၊ ၁၉၄၈ ခုနှစ်',
+          'သြဂုတ် ၄ ရက်၊ ၁၉၄၈ ခုနှစ်',
+          'ဇန်နဝါရီ ၄ ရက်၊ ၁၉၅၈ ခုနှစ်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which national leader is remembered as the chief architect of Myanmar\'s independence movement?',
+        questionMy:
+            'မြန်မာနိုင်ငံ၏ လွတ်လပ်ရေးလှုပ်ရှားမှုကို ဦးဆောင်ခဲ့သော အဓိကခေါင်းဆောင်မှာ မည်သူဖြစ်သနည်း။',
+        optionsEn: ['U Nu', 'General Aung San', 'U Thant', 'King Thibaw'],
+        optionsMy: ['ဦးနု', 'ဗိုလ်ချုပ်အောင်ဆန်း', 'ဦးသန့်', 'ဘုရင်သီးဘော'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which country ruled Myanmar as a colony before it gained independence?',
+        questionMy:
+            'လွတ်လပ်ရေးမရမီ မြန်မာနိုင်ငံကို ကိုလိုနီနိုင်ငံအဖြစ် အုပ်ချုပ်ခဲ့သည့်နိုင်ငံမှာ မည်သည်နည်း။',
+        optionsEn: ['France', 'Portugal', 'Britain', 'Japan'],
+        optionsMy: ['ပြင်သစ်', 'ပေါ်တူဂီ', 'ဗြိတိန်', 'ဂျပန်'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In what year was the Panglong Conference held, where ethnic leaders agreed to unite with Aung San for independence?',
+        questionMy:
+            'ဗိုလ်ချုပ်အောင်ဆန်းနှင့်အတူ တိုင်းရင်းသားခေါင်းဆောင်များ စည်းလုံးညီညွတ်စွာ လွတ်လပ်ရေးရယူရန် သဘောတူညီခဲ့ကြသော ပင်လုံညီလာခံကို မည်သည့်နှစ်တွင် ကျင်းပခဲ့သနည်း။',
+        optionsEn: ['1945', '1950', '1948', '1947'],
+        optionsMy: ['၁၉၄၅ ခုနှစ်', '၁၉၅၀ ခုနှစ်', '၁၉၄၈ ခုနှစ်', '၁၉၄၇ ခုနှစ်'],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Who became Myanmar\'s first Prime Minister after independence in 1948?',
+        questionMy:
+            '၁၉၄၈ ခုနှစ် လွတ်လပ်ရေးရပြီးနောက် မြန်မာနိုင်ငံ၏ ပထမဆုံးဝန်ကြီးချုပ်ဖြစ်လာသူမှာ မည်သူနည်း။',
+        optionsEn: ['General Aung San', 'U Nu', 'General Ne Win', 'U Thant'],
+        optionsMy: [
+          'ဗိုလ်ချုပ်အောင်ဆန်း',
+          'ဦးနု',
+          'ဗိုလ်ချုပ်ကြီးနေဝင်း',
+          'ဦးသန့်',
+        ],
+        correctIndex: 1,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-history-2',
+    subject: 'history',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn:
+        'Ancient Civilizations of Asia: The Indus Valley and Ancient China',
+    titleMy:
+        'အာရှရှေးဟောင်းယဉ်ကျေးမှုများ - အင်ဒပ်စ်ချိုင့်ဝှမ်းနှင့် ရှေးဟောင်းတရုတ်ပြည်',
+    descriptionEn:
+        'Learn about the achievements and inventions of the Indus Valley Civilization and Ancient China, and see how they compare to Ancient Egypt.',
+    descriptionMy:
+        'အင်ဒပ်စ်ချိုင့်ဝှမ်းယဉ်ကျေးမှုနှင့် ရှေးဟောင်းတရုတ်ပြည်၏ အောင်မြင်မှုများနှင့် တီထွင်မှုများအကြောင်း လေ့လာပြီး ၎င်းတို့ကို ရှေးဟောင်းအီဂျစ်နှင့် ဘယ်လိုနှိုင်းယှဉ်နိုင်သည်ကို လေ့လာပါ။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'The Indus Valley Civilization grew along the banks of which river?',
+        questionMy:
+            'အင်ဒပ်စ်ချိုင့်ဝှမ်းယဉ်ကျေးမှုသည် မည်သည့်မြစ်ကမ်းတလျှောက်တွင် ဖွံ့ဖြိုးခဲ့သနည်း။',
+        optionsEn: [
+          'The Indus River',
+          'The Nile River',
+          'The Yellow River',
+          'The Ganges River',
+        ],
+        optionsMy: ['အင်ဒပ်စ်မြစ်', 'နိုင်းမြစ်', 'မြစ်ဝါ', 'ဂင်္ဂါမြစ်'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is a major achievement of Indus Valley cities such as Mohenjo-daro and Harappa?',
+        questionMy:
+            'မိုဟင်ဂျိုဒါရိုနှင့် ဟာရပ္ပါကဲ့သို့ အင်ဒပ်စ်ချိုင့်ဝှမ်းမြို့များ၏ အဓိကအောင်မြင်မှုမှာ အောက်ပါတို့အနက် မည်သည့်အရာဖြစ်သနည်း။',
+        optionsEn: [
+          'Carefully planned streets with advanced drainage and sewer systems',
+          'Giant pyramids built as tombs for kings',
+          'The invention of paper money',
+          'A great wall built to stop invaders',
+        ],
+        optionsMy: [
+          'အဆင့်မြင့်ရေမြောင်းနှင့် စွန့်ပစ်ရေစနစ်များပါဝင်သော စနစ်တကျစီစဉ်ထားသည့်လမ်းများ',
+          'ဘုရင်များ၏ သင်္ချိုင်းများအဖြစ် ဆောက်လုပ်ထားသော ပိရမစ်ကြီးများ',
+          'စက္ကူငွေတီထွင်မှု',
+          'ကျူးကျော်သူများကို တားဆီးရန် ဆောက်လုပ်ထားသော တံတိုင်းကြီး',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why was the Yellow River (Huang He) important to Ancient Chinese civilization, even though it could also be dangerous?',
+        questionMy:
+            'ရှေးဟောင်းတရုတ်ယဉ်ကျေးမှုအတွက် မြစ်ဝါ (Huang He) သည် အန္တရာယ်ရှိနိုင်သော်လည်း အဘယ်ကြောင့် အရေးကြီးခဲ့သနည်း။',
+        optionsEn: [
+          'It brought fertile silt that made the land good for farming, though it could also flood destructively',
+          'It was completely safe and never caused any floods',
+          'It was too salty for any crops to grow near it',
+          'It kept Ancient China completely cut off from all trade',
+        ],
+        optionsMy: [
+          'ရေကြီးမှုကြောင့် ပျက်စီးမှုဖြစ်စေနိုင်သော်လည်း စိုက်ပျိုးရန်ကောင်းမွန်သော မြေဆီလွှာများ ယူဆောင်လာသောကြောင့်',
+          'လုံးဝဘေးကင်းပြီး ရေကြီးမှု တစ်ခါမျှ မဖြစ်စေသောကြောင့်',
+          'ကမ်းနားတွင် သီးနှံများ စိုက်ပျိုးရန် ငန်လွန်းသောကြောင့်',
+          'ရှေးဟောင်းတရုတ်ပြည်ကို ကုန်သွယ်မှုအားလုံးမှ လုံးဝဖြတ်တောက်ထားသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which is a reason that Ancient Chinese inventions such as silk and paper became so valuable to other civilizations?',
+        questionMy:
+            'ပိတ်ချောနှင့် စက္ကူကဲ့သို့ ရှေးဟောင်းတရုတ်တီထွင်မှုများသည် အခြားယဉ်ကျေးမှုများအတွက် အလွန်တန်ဖိုးရှိလာရသည့် အကြောင်းရင်းတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'They were useful, well-made goods that could be traded along routes connecting China to distant lands',
+          'Every ancient civilization already made the same goods',
+          'They had no practical use to anyone',
+          'They were only ever buried in tombs and never traded',
+        ],
+        optionsMy: [
+          'အသုံးဝင်ပြီး ကောင်းစွာပြုလုပ်ထားသော ကုန်ပစ္စည်းများဖြစ်ကာ ဝေးကွာသောနိုင်ငံများသို့ ချိတ်ဆက်ပေးသည့် ကုန်သွယ်လမ်းကြောင်းများဖြင့် ရောင်းဝယ်နိုင်ခဲ့သောကြောင့်',
+          'ရှေးဟောင်းယဉ်ကျေးမှုတိုင်းက ထိုကုန်ပစ္စည်းများကို ရှိပြီးသားဖြစ်နေသောကြောင့်',
+          'မည်သူ့အတွက်မျှ လက်တွေ့အသုံးဝင်မှု မရှိသောကြောင့်',
+          'သင်္ချိုင်းများတွင်သာ မြှုပ်နှံခဲ့ပြီး ဘယ်တော့မှ ရောင်းဝယ်မှု မရှိခဲ့သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which statement best compares Ancient Egypt, the Indus Valley Civilization, and Ancient China?',
+        questionMy:
+            'ရှေးဟောင်းအီဂျစ်၊ အင်ဒပ်စ်ချိုင့်ဝှမ်းယဉ်ကျေးမှုနှင့် ရှေးဟောင်းတရုတ်တို့ကို နှိုင်းယှဉ်ရာတွင် အကောင်းဆုံးဖော်ပြသည့်အချက်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'All three grew along fertile river valleys that supported farming, cities, and trade',
+          'None of the three ever built any cities',
+          'None of the three ever developed a writing system',
+          'All three built pyramids as their main type of monument',
+        ],
+        optionsMy: [
+          'သုံးမျိုးလုံးသည် စိုက်ပျိုးရေး၊ မြို့ပြများနှင့် ကုန်သွယ်မှုကို ထောက်ပံ့ပေးသည့် မြေသြဇာကောင်းသော မြစ်ချိုင့်ဝှမ်းများတလျှောက် ဖွံ့ဖြိုးခဲ့ကြသည်',
+          'သုံးမျိုးလုံးသည် မြို့ပြများကို လုံးဝ မတည်ဆောက်ခဲ့ကြပေ',
+          'သုံးမျိုးလုံးသည် စာရေးစနစ်ကို လုံးဝ မတီထွင်ခဲ့ကြပေ',
+          'သုံးမျိုးလုံးသည် ၎င်းတို့၏ အဓိကအထိမ်းအမှတ်အဆောက်အအုံအဖြစ် ပိရမစ်များကိုသာ ဆောက်လုပ်ခဲ့ကြသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-history-2',
+    subject: 'history',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'The Industrial Revolution: Inventions That Changed the World',
+    titleMy: 'စက်မှုတော်လှန်ရေး: ကမ္ဘာကို ပြောင်းလဲခဲ့သော တီထွင်မှုများ',
+    descriptionEn:
+        'Learn about the major inventions of the Industrial Revolution and how they changed the way people live and work today.',
+    descriptionMy:
+        'စက်မှုတော်လှန်ရေးကာလ၏ အဓိကတီထွင်မှုများနှင့် ၎င်းတို့သည် လူများ၏ ယနေ့ခေတ် နေထိုင်လုပ်ကိုင်ပုံကို မည်သို့ပြောင်းလဲစေခဲ့သည်ကို လေ့လာပါမည်။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What was the main change brought about by the Industrial Revolution?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေးက ဘာအဓိကပြောင်းလဲမှုကို ဖြစ်ပေါ်စေခဲ့သနည်း။',
+        optionsEn: [
+          'People began using machines in factories instead of making goods by hand',
+          'People stopped using money and started trading only with goods',
+          'People began growing all their food using machines only',
+          'People stopped building any new towns or cities',
+        ],
+        optionsMy: [
+          'လူများသည် လက်ဖြင့်ထုတ်လုပ်မည့်အစား စက်ရုံများတွင် စက်များကို အသုံးပြု၍ ပစ္စည်းများထုတ်လုပ်လာကြသည်',
+          'လူများသည် ငွေကြေးအသုံးပြုမှုကို ရပ်ဆိုင်း၍ ပစ္စည်းချင်းလဲလှယ်ရောင်းဝယ်ခြင်းသာ ပြုလုပ်လာကြသည်',
+          'လူများသည် အစားအစာအားလုံးကို စက်များဖြင့်သာ စိုက်ပျိုးလာကြသည်',
+          'လူများသည် မြို့သစ်များထပ်မံတည်ဆောက်ခြင်း ရပ်ဆိုင်းခဲ့ကြသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Where and when did the Industrial Revolution begin?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေးသည် မည်သည့်နေရာနှင့် မည်သည့်အချိန်တွင် အစပြုခဲ့သနည်း။',
+        optionsEn: [
+          'In Britain, in the late 1700s',
+          'In Japan, in the 1990s',
+          'In the United States, in the 1500s',
+          'In Egypt, in ancient times',
+        ],
+        optionsMy: [
+          '၁၇၀၀ ပြည့်နှစ်များ နှောင်းပိုင်းတွင် ဗြိတိန်နိုင်ငံ၌',
+          '၁၉၉၀ ပြည့်နှစ်များတွင် ဂျပန်နိုင်ငံ၌',
+          '၁၅၀၀ ပြည့်နှစ်များတွင် အမေရိကန်ပြည်ထောင်စု၌',
+          'ရှေးခေတ်တွင် အီဂျစ်နိုင်ငံ၌',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which invention helped power factories and trains during the Industrial Revolution?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေးကာလအတွင်း စက်ရုံများနှင့် ရထားများကို စွမ်းအင်ဖြည့်ဆည်းပေးရန် အထောက်အကူဖြစ်စေခဲ့သော တီထွင်မှုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The steam engine',
+          'The mobile phone',
+          'The television',
+          'The computer',
+        ],
+        optionsMy: ['အငွေ့စက်', 'လက်ကိုင်ဖုန်း', 'ရုပ်မြင်သံကြား', 'ကွန်ပျူတာ'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Before the Industrial Revolution, why did most people live and work in the countryside?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေးမတိုင်မီက လူအများစုသည် အဘယ်ကြောင့် ကျေးလက်ဒေသများတွင် နေထိုင်၍ အလုပ်လုပ်ကြသနည်း။',
+        optionsEn: [
+          'Because most people worked on farms growing food',
+          'Because factories did not allow people to live in cities',
+          'Because cities had not been invented yet',
+          'Because trains could not travel to cities',
+        ],
+        optionsMy: [
+          'လူအများစုသည် လယ်ယာများတွင် စိုက်ပျိုးရေးလုပ်ငန်းများ လုပ်ကိုင်နေခဲ့ကြသောကြောင့်',
+          'စက်ရုံများက လူများကို မြို့တွင်းနေထိုင်ခွင့် မပြုသောကြောင့်',
+          'မြို့များ မတည်ရှိသေးသောကြောင့်',
+          'ရထားများက မြို့များသို့ မသွားနိုင်သေးသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What was one lasting effect of the Industrial Revolution on how people live today?',
+        questionMy:
+            'စက်မှုတော်လှန်ရေး၏ ယနေ့ခေတ်လူနေမှုပုံစံအပေါ် ကျန်ရစ်ခဲ့သော အကျိုးသက်ရောက်မှုတစ်ခုမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Many people moved from villages to cities to work in factories, and goods began to be produced in large numbers',
+          'People stopped using tools completely',
+          'Farming became the only way to make a living',
+          'Countries stopped building roads and railways',
+        ],
+        optionsMy: [
+          'လူအများသည် ကျေးရွာများမှ မြို့များသို့ ပြောင်းရွှေ့၍ စက်ရုံများတွင် အလုပ်လုပ်ကြပြီး ပစ္စည်းများကို အများအပြားထုတ်လုပ်လာကြသည်',
+          'လူများသည် ကိရိယာများကို လုံးဝ အသုံးမပြုတော့ချေ',
+          'စိုက်ပျိုးရေးသည် အသက်မွေးဝမ်းကျောင်းတစ်ခုတည်းသာ ဖြစ်လာသည်',
+          'နိုင်ငံများသည် လမ်းနှင့် မီးရထားလမ်းများ တည်ဆောက်ခြင်း ရပ်ဆိုင်းခဲ့သည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
 ];
