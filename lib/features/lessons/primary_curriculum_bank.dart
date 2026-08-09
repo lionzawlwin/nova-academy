@@ -10030,4 +10030,582 @@ const List<PrimaryActivityDef> primaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Computing depth batch 1: a second module per grade (Year 1-6),
+  // bringing `computing` from 1 module/grade to 2, matching the
+  // "geography/history depth batch 1" blocks above. Authored via a
+  // parallel content-generation workflow (one agent per grade), reviewed
+  // for technical accuracy (Year6's binary-to-decimal conversions were
+  // independently verified: 10b=2, 11b=3, 100b=4) and bilingual quality
+  // before being added here.
+  PrimaryActivityDef(
+    id: 'mock-year1-computing-2',
+    subject: 'computing',
+    grade: Grade.year1,
+    contentType: 'quiz',
+    titleEn: 'Inputs and Outputs Around Us',
+    titleMy: 'ကျွန်ုပ်တို့ပတ်ဝန်းကျင်ရှိ Input နှင့် Output များ',
+    descriptionEn:
+        'Learn about input devices that send information into a computer and output devices that show information back to us.',
+    descriptionMy:
+        'ကွန်ပျူတာထဲသို့ အချက်အလက်ပို့ပေးသည့် Input စက်ပစ္စည်းများနှင့် ကျွန်ုပ်တို့ကို အချက်အလက်ပြန်ပြသည့် Output စက်ပစ္စည်းများအကြောင်း လေ့လာပါမည်။',
+    starsReward: 10,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'Which of these is an INPUT device that lets you type letters into a computer?',
+        questionMy:
+            'ကွန်ပျူတာထဲသို့ စာလုံးများ ရိုက်ထည့်နိုင်သော Input စက်ပစ္စည်းမှာ ဘယ်ဟာလဲ။',
+        optionsEn: ['Keyboard', 'Speaker', 'Screen', 'Printer'],
+        optionsMy: [
+          'ကီးဘုတ် (Keyboard)',
+          'စပီကာ (Speaker)',
+          'မျက်နှာပြင် (Screen)',
+          'ပရင်တာ (Printer)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'A mouse is an example of which kind of device?',
+        questionMy: 'မောက်စ် (Mouse) သည် ဘယ်လိုစက်ပစ္စည်းအမျိုးအစားဖြစ်သနည်း။',
+        optionsEn: ['Output device', 'Input device', 'Printer', 'Speaker'],
+        optionsMy: ['Output စက်ပစ္စည်း', 'Input စက်ပစ္စည်း', 'ပရင်တာ', 'စပီကာ'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which device lets a computer SHOW pictures and words to us?',
+        questionMy:
+            'ကွန်ပျူတာက ကျွန်ုပ်တို့ကို ပုံများနှင့် စာသားများ ပြသနိုင်စေသည့် စက်ပစ္စည်းမှာ ဘယ်ဟာလဲ။',
+        optionsEn: ['Microphone', 'Keyboard', 'Screen', 'Mouse'],
+        optionsMy: [
+          'မိုက်ခရိုဖုန်း (Microphone)',
+          'ကီးဘုတ် (Keyboard)',
+          'မျက်နှာပြင် (Screen)',
+          'မောက်စ် (Mouse)',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A microphone lets us give our voice to a computer. What kind of device is it?',
+        questionMy:
+            'မိုက်ခရိုဖုန်းသည် ကျွန်ုပ်တို့၏ အသံကို ကွန်ပျူတာထဲသို့ ပို့ပေးနိုင်သည်။ ၎င်းသည် ဘယ်လိုစက်ပစ္စည်းအမျိုးအစားဖြစ်သနည်း။',
+        optionsEn: [
+          'Input device',
+          'Output device',
+          'Screen device',
+          'Printer device',
+        ],
+        optionsMy: [
+          'Input စက်ပစ္စည်း',
+          'Output စက်ပစ္စည်း',
+          'မျက်နှာပြင်စက်ပစ္စည်း',
+          'ပရင်တာစက်ပစ္စည်း',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Which device turns your computer work into paper copies?',
+        questionMy:
+            'ကွန်ပျူတာရှိ အလုပ်ကို စက္ကူပေါ်သို့ ပြောင်းပေးနိုင်သော စက်ပစ္စည်းမှာ ဘယ်ဟာလဲ။',
+        optionsEn: ['Printer', 'Keyboard', 'Mouse', 'Microphone'],
+        optionsMy: [
+          'ပရင်တာ (Printer)',
+          'ကီးဘုတ် (Keyboard)',
+          'မောက်စ် (Mouse)',
+          'မိုက်ခရိုဖုန်း (Microphone)',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year2-computing-2',
+    subject: 'computing',
+    grade: Grade.year2,
+    contentType: 'quiz',
+    titleEn: 'Programs and Apps: What They Do',
+    titleMy: 'ပရိုဂရမ်များနှင့် အက်ပ်များ - ၎င်းတို့ဘာလုပ်ကြသလဲ',
+    descriptionEn:
+        'Learn about common apps and programs and match each one to the job it helps you do.',
+    descriptionMy:
+        'အသုံးများသော အက်ပ်များနှင့် ပရိုဂရမ်များအကြောင်း လေ့လာပြီး၊ တစ်ခုစီက မည်သည့်အလုပ်ကို ကူညီဆောင်ရွက်ပေးသည်ကို တွဲချိတ်လေ့ကျင့်ပါမည်။',
+    starsReward: 12,
+    questions: [
+      QuizQuestion(
+        questionEn: 'Which app would you use to draw a picture on a tablet?',
+        questionMy:
+            'တက်ဘလက်ပေါ်တွင် ပုံတစ်ပုံဆွဲရန် မည်သည့်အက်ပ်ကို သုံးမည်နည်း။',
+        optionsEn: [
+          'A drawing app',
+          'A calculator app',
+          'A music player app',
+          'A clock app',
+        ],
+        optionsMy: [
+          'ပုံဆွဲအက်ပ်',
+          'ဂဏန်းတွက်စက်အက်ပ်',
+          'တေးဂီတဖွင့်အက်ပ်',
+          'နာရီအက်ပ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What job does a calculator app help you do?',
+        questionMy:
+            'ဂဏန်းတွက်စက်အက်ပ်သည် မည်သည့်အလုပ်ကို ကူညီဆောင်ရွက်ပေးသနည်း။',
+        optionsEn: [
+          'Solve number problems like adding and subtracting',
+          'Play a video',
+          'Draw a picture',
+          'Listen to songs',
+        ],
+        optionsMy: [
+          'ပေါင်းခြင်းနှင့် နုတ်ခြင်းကဲ့သို့ ဂဏန်းပြဿနာများ ဖြေရှင်းရန်',
+          'ဗီဒီယိုဖွင့်ကြည့်ရန်',
+          'ပုံဆွဲရန်',
+          'သီချင်းနားထောင်ရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'If you want to listen to your favorite songs, which app should you open?',
+        questionMy:
+            'သင်ကြိုက်နှစ်သက်သော သီချင်းများ နားထောင်လိုပါက မည်သည့်အက်ပ်ကို ဖွင့်သင့်သနည်း။',
+        optionsEn: [
+          'A music player app',
+          'A calculator app',
+          'A drawing app',
+          'A camera app',
+        ],
+        optionsMy: [
+          'တေးဂီတဖွင့်အက်ပ်',
+          'ဂဏန်းတွက်စက်အက်ပ်',
+          'ပုံဆွဲအက်ပ်',
+          'ကင်မရာအက်ပ်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A game app on a computer or tablet is mainly used for what?',
+        questionMy:
+            'ကွန်ပျူတာ သို့မဟုတ် တက်ဘလက်ပေါ်ရှိ ဂိမ်းအက်ပ်ကို အဓိကအားဖြင့် မည်သည့်အတွက် အသုံးပြုသနည်း။',
+        optionsEn: [
+          'Having fun and playing',
+          'Doing math homework',
+          'Writing an email',
+          'Checking the weather',
+        ],
+        optionsMy: [
+          'ပျော်ရွှင်စွာ ကစားရန်',
+          'သင်္ချာအိမ်စာလုပ်ရန်',
+          'အီးမေးလ်ရေးရန်',
+          'ရာသီဥတုစစ်ဆေးရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these is an example of an app that helps you count and calculate numbers?',
+        questionMy:
+            'အောက်ပါတို့အနက် ဂဏန်းများကို ရေတွက်ရန်နှင့် တွက်ချက်ရန် ကူညီပေးသော အက်ပ်မှာ မည်သည့်တစ်ခုနည်း။',
+        optionsEn: [
+          'Calculator app',
+          'Drawing app',
+          'Music player app',
+          'Game app',
+        ],
+        optionsMy: [
+          'ဂဏန်းတွက်စက်အက်ပ်',
+          'ပုံဆွဲအက်ပ်',
+          'တေးဂီတဖွင့်အက်ပ်',
+          'ဂိမ်းအက်ပ်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year3-computing-2',
+    subject: 'computing',
+    grade: Grade.year3,
+    contentType: 'quiz',
+    titleEn: 'Networks: How Devices Connect',
+    titleMy: 'ကွန်ရက်များ – စက်ပစ္စည်းများ ချိတ်ဆက်ပုံ',
+    descriptionEn:
+        'Learn about what a network is and how WiFi connects devices to the internet.',
+    descriptionMy:
+        'ကွန်ရက်ဆိုတာ ဘာလဲ၊ WiFi က စက်ပစ္စည်းများကို အင်တာနက်နှင့် ဘယ်လိုချိတ်ဆက်ပေးသလဲဆိုတာကို လေ့လာကြရအောင်။',
+    starsReward: 14,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is a network?',
+        questionMy: 'ကွန်ရက် (Network) ဆိုတာ ဘာလဲ။',
+        optionsEn: [
+          'A single computer that works completely alone',
+          'A video game you play on a tablet',
+          'A group of devices connected together to share information',
+          'A folder used to store pictures',
+        ],
+        optionsMy: [
+          'တစ်ယောက်တည်း အလုပ်လုပ်နေတဲ့ ကွန်ပျူတာတစ်လုံး',
+          'တက်ဘလက်ပေါ်မှာ ကစားတဲ့ ဗီဒီယိုဂိမ်းတစ်ခု',
+          'အချက်အလက်များ မျှဝေနိုင်ရန် ချိတ်ဆက်ထားသော စက်ပစ္စည်းအုပ်စု',
+          'ဓာတ်ပုံများ သိမ်းဆည်းရန် သုံးသော ဖိုင်တွဲတစ်ခု',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn: 'What does WiFi allow a device to do?',
+        questionMy: 'WiFi က စက်ပစ္စည်းတစ်ခုကို ဘာလုပ်ခွင့်ပေးသလဲ။',
+        optionsEn: [
+          'Make the device\'s battery last longer',
+          'Connect to the internet without using any wires',
+          'Print papers more quickly',
+          'Turn the screen a brighter color',
+        ],
+        optionsMy: [
+          'ဘက်ထရီ ပိုကြာအောင် အသုံးပြုနိုင်စေခြင်း',
+          'ကြိုးမပါဘဲ အင်တာနက်နှင့် ချိတ်ဆက်နိုင်စေခြင်း',
+          'စာရွက်များကို ပိုမြန်မြန် ပရင့်ထုတ်နိုင်စေခြင်း',
+          'စခရင်ကို ပိုတောက်ပအောင် ပြောင်းပေးခြင်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of these activities needs a network connection?',
+        questionMy:
+            'အောက်ပါလုပ်ဆောင်ချက်များထဲက ဘယ်ဟာက ကွန်ရက်ဆက်သွယ်မှု လိုအပ်သလဲ။',
+        optionsEn: [
+          'Reading a paper storybook',
+          'Drawing a picture with crayons',
+          'Writing a letter with a pencil',
+          'Sending an online message to a friend',
+        ],
+        optionsMy: [
+          'စာအုပ်တစ်အုပ်ကို ဖတ်ခြင်း',
+          'ခရေယွန်နှင့် ပုံဆွဲခြင်း',
+          'ခဲတံနှင့် စာတစ်စောင် ရေးခြင်း',
+          'သူငယ်ချင်းတစ်ဦးကို အွန်လိုင်းမှတစ်ဆင့် မက်ဆေ့ချ်ပို့ခြင်း',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn: 'Which of the following is an example of a network?',
+        questionMy: 'အောက်ပါတို့ထဲက ကွန်ရက်တစ်ခု၏ ဥပမာက ဘယ်ဟာလဲ။',
+        optionsEn: [
+          'Several classroom computers connected to the same WiFi',
+          'One pencil sitting on a desk',
+          'A single book on a shelf',
+          'A calculator that is switched off',
+        ],
+        optionsMy: [
+          'WiFi တစ်ခုတည်းကို ချိတ်ဆက်ထားသော စာသင်ခန်းရှိ ကွန်ပျူတာများစွာ',
+          'စားပွဲပေါ်ရှိ ခဲတံတစ်ချောင်း',
+          'စာအုပ်စင်ပေါ်ရှိ စာအုပ်တစ်အုပ်',
+          'ပိတ်ထားသော ဂဏန်းတွက်စက်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Why do we need an internet connection to open a website?',
+        questionMy:
+            'ဝက်ဘ်ဆိုက်တစ်ခုကို ဖွင့်ရန် ဘာကြောင့် အင်တာနက်ဆက်သွယ်မှု လိုအပ်သလဲ။',
+        optionsEn: [
+          'Because every website is already stored inside the device',
+          'Because opening a website needs a printer',
+          'So the device can connect with other computers to get the website\'s information',
+          'Because the internet makes the screen louder',
+        ],
+        optionsMy: [
+          'ဝက်ဘ်ဆိုက်တိုင်းသည် စက်ထဲတွင် ရှိပြီးသား ဖြစ်သောကြောင့်',
+          'ဝက်ဘ်ဆိုက်ဖွင့်ရန် ပရင်တာ လိုအပ်သောကြောင့်',
+          'စက်ပစ္စည်းက အခြားကွန်ပျူတာများနှင့် ချိတ်ဆက်ပြီး ဝက်ဘ်ဆိုက်၏ အချက်အလက်ကို ရယူနိုင်ရန်',
+          'အင်တာနက်က စခရင်အသံကို ပိုကျယ်စေသောကြောင့်',
+        ],
+        correctIndex: 2,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year4-computing-2',
+    subject: 'computing',
+    grade: Grade.year4,
+    contentType: 'quiz',
+    titleEn: 'Searching the Internet Wisely',
+    titleMy: 'အင်တာနက်ပေါ်တွင် ပညာရှိစွာ ရှာဖွေခြင်း',
+    descriptionEn:
+        'Learn about how search engines find results and how to judge whether a search result looks trustworthy before you click it.',
+    descriptionMy:
+        'ရှာဖွေရေးအင်ဂျင်များ ရလဒ်ရှာဖွေပုံနှင့် ကလစ်မနှိပ်မီ ရလဒ်တစ်ခု ယုံကြည်စိတ်ချရမရ မည်သို့ ဆုံးဖြတ်ရမည်ကို လေ့လာပါ။',
+    starsReward: 16,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What does a search engine do when you type in keywords?',
+        questionMy:
+            'ရှာဖွေရေးစာလုံးများ ရိုက်ထည့်လိုက်သောအခါ ရှာဖွေရေးအင်ဂျင်သည် ဘာလုပ်ပါသလဲ။',
+        optionsEn: [
+          'It looks through billions of web pages and shows the ones that match best',
+          'It writes a brand new web page just for you',
+          'It calls someone at the website to ask for permission',
+          'It deletes old websites from the internet',
+        ],
+        optionsMy: [
+          'ဝဘ်ဆိုက်ဘီလီယံများစွာကို စစ်ဆေးပြီး အကိုက်ညီဆုံးရလဒ်များကို ပြသပေးသည်',
+          'သင့်အတွက်သီးသန့် ဝဘ်ဆိုက်အသစ်တစ်ခု ရေးပေးသည်',
+          'ခွင့်ပြုချက်တောင်းရန် ဝဘ်ဆိုက်ပိုင်ရှင်ကို ဖုန်းခေါ်သည်',
+          'အင်တာနက်ပေါ်ရှိ ဝဘ်ဆိုက်ဟောင်းများကို ဖျက်ပစ်သည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which is the best set of keywords to search for information about volcanoes for a school project?',
+        questionMy:
+            'ကျောင်းစီမံကိန်းအတွက် မီးတောင်များအကြောင်း အချက်အလက်ရှာဖွေရန် အကောင်းဆုံးသော ရှာဖွေရေးစာလုံးများမှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          '"volcano facts for kids"',
+          '"a hot thing"',
+          '"why why why"',
+          '"a a a a"',
+        ],
+        optionsMy: [
+          '"ကလေးများအတွက် မီးတောင်အချက်အလက်များ"',
+          '"ပူသောအရာ"',
+          '"ဘာဖြစ်လို့လဲ ဘာဖြစ်လို့လဲ ဘာဖြစ်လို့လဲ"',
+          '"က က က က"',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which sign suggests a search result might NOT be trustworthy?',
+        questionMy:
+            'ရှာဖွေမှုရလဒ်တစ်ခုကို ယုံကြည်၍မရနိုင်ကြောင်း ဖော်ပြသော လက္ခဏာမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The website is full of spelling mistakes and asks you to enter your password to "win a prize"',
+          'The website is run by a well-known school or government organization',
+          'The article gives the author\'s name and the date it was published',
+          'The information matches what several other trusted websites say',
+        ],
+        optionsMy: [
+          'ဝဘ်ဆိုက်တွင် စာလုံးပေါင်းအမှားများစွာရှိပြီး "ဆုရရန်" သင့်စကားဝှက်ကို ထည့်သွင်းရန် တောင်းဆိုနေသည်',
+          'ဝဘ်ဆိုက်ကို လူသိများသော ကျောင်း သို့မဟုတ် အစိုးရအဖွဲ့အစည်းက စီမံခန့်ခွဲသည်',
+          'ဆောင်းပါးတွင် စာရေးသူအမည်နှင့် ထုတ်ဝေသည့်ရက်စွဲကို ဖော်ပြထားသည်',
+          'ထိုအချက်အလက်သည် ယုံကြည်ရသော အခြားဝဘ်ဆိုက်များစွာနှင့် ကိုက်ညီနေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'You search "how do plants grow" and get many results. What is the best way to decide which ones to click first?',
+        questionMy:
+            '"အပင်များ ဘယ်လိုကြီးထွားသလဲ" ဟု ရှာဖွေလိုက်ရာ ရလဒ်များစွာ ရရှိသည်။ မည်သည့်ရလဒ်ကို အရင်ဆုံးနှိပ်ရမည်ကို ဆုံးဖြတ်ရန် အကောင်းဆုံးနည်းလမ်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Look at the ones from trusted sources like educational or government websites near the top',
+          'Click the very last result on the page',
+          'Click the one with the most exclamation marks in the title',
+          'Click the first advertisement you see',
+        ],
+        optionsMy: [
+          'ထိပ်ဆုံးအနီးရှိ ပညာရေး သို့မဟုတ် အစိုးရဝဘ်ဆိုက်ကဲ့သို့ ယုံကြည်ရသော အရင်းအမြစ်များမှ ရလဒ်များကို ကြည့်ပါ',
+          'စာမျက်နှာ၏ အနောက်ဆုံးရလဒ်ကို နှိပ်ပါ',
+          'ခေါင်းစဉ်တွင် အံ့ဩသံများ (!) အများဆုံးပါသော ရလဒ်ကို နှိပ်ပါ',
+          'မြင်ရသော ပထမဆုံးကြော်ငြာကို နှိပ်ပါ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is it a bad idea to use only one or two words that are too general, like "animal", when searching?',
+        questionMy:
+            '"animal" ကဲ့သို့ အလွန်ယေဘုယျဖြစ်သော စကားလုံးတစ်ခု သို့မဟုတ် နှစ်ခုတည်းကို ရှာဖွေရာတွင် အသုံးပြုခြင်းသည် အဘယ့်ကြောင့် မကောင်းသောနည်းလမ်း ဖြစ်သနည်း။',
+        optionsEn: [
+          'The results will be too broad and include too much unrelated information',
+          'The search engine will not understand English',
+          'The internet will run out of results',
+          'The computer will search slower with fewer words',
+        ],
+        optionsMy: [
+          'ရလဒ်များသည် အလွန်ကျယ်ပြန့်ပြီး မဆိုင်သောအချက်အလက်များ အများကြီးပါဝင်လာလိမ့်မည်',
+          'ရှာဖွေရေးအင်ဂျင်သည် အင်္ဂလိပ်စာကို နားမလည်တော့ပါ',
+          'အင်တာနက်တွင် ရလဒ်များ ကုန်သွားလိမ့်မည်',
+          'စကားလုံးနည်းလျှင် ကွန်ပျူတာက ပိုနှေးစွာ ရှာဖွေလိမ့်မည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year5-computing-2',
+    subject: 'computing',
+    grade: Grade.year5,
+    contentType: 'quiz',
+    titleEn: 'Websites & Web Browsers',
+    titleMy: 'ဝဘ်ဆိုက်နှင့် ဝဘ်ဘရောက်ဆာများ',
+    descriptionEn:
+        'Learn about what websites and web browsers are, how web addresses work, and how to browse the internet safely.',
+    descriptionMy:
+        'ဝဘ်ဆိုက်နှင့် ဝဘ်ဘရောက်ဆာများဆိုတာ ဘာလဲ၊ ဝဘ်လိပ်စာများ ဘယ်လိုအလုပ်လုပ်သလဲ၊ ဘေးကင်းစွာ အင်တာနက်ကြည့်ရှုနည်းများကို လေ့လာပါမည်။',
+    starsReward: 18,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is a website?',
+        questionMy: 'ဝဘ်ဆိုက် (website) ဆိုတာ ဘာလဲ။',
+        optionsEn: [
+          'A collection of related web pages stored on the internet',
+          'A physical device that connects to the internet',
+          'A type of computer virus',
+          'An email account',
+        ],
+        optionsMy: [
+          'အင်တာနက်ပေါ်တွင် သိမ်းဆည်းထားသော ဆက်စပ်ဝဘ်စာမျက်နှာများ အစုအဝေး',
+          'အင်တာနက်နှင့်ချိတ်ဆက်သည့် ရုပ်ပိုင်းဆိုင်ရာ ကိရိယာတစ်ခု',
+          'ကွန်ပျူတာဗိုင်းရပ်စ်တစ်မျိုး',
+          'အီးမေးလ်အကောင့်တစ်ခု',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is the main job of a web browser?',
+        questionMy: 'ဝဘ်ဘရောက်ဆာ (web browser) ၏ အဓိကတာဝန်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'To display websites and let you navigate the internet',
+          'To store files on your hard drive',
+          'To print documents',
+          'To play only music files',
+        ],
+        optionsMy: [
+          'ဝဘ်ဆိုက်များကို ပြသပေးပြီး အင်တာနက်ပေါ်တွင် လမ်းညွှန်ကူညီပေးရန်',
+          'ဟာ့ဒ်ဒစ်ခ်ပေါ်တွင် ဖိုင်များ သိမ်းဆည်းရန်',
+          'စာရွက်စာတမ်းများ ပရင့်ထုတ်ရန်',
+          'ဂီတဖိုင်များကိုသာ ဖွင့်ပေးရန်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'A web address starting with "https://" is safer than one starting with "http://". Which is the reason for this?',
+        questionMy:
+            'https:// ဖြင့်စသော ဝဘ်လိပ်စာသည် http:// ဖြင့်စသောလိပ်စာထက် ပိုမိုဘေးကင်းသည်။ ၎င်း၏ အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'The "s" means the connection is encrypted, which protects your data',
+          'The "s" makes the website load faster',
+          'The "s" means the website has more pictures',
+          'The "s" means the website is free to use',
+        ],
+        optionsMy: [
+          '\'s\' အက္ခရာသည် ချိတ်ဆက်မှုကို ကုဒ်ဝှက်ထားပြီး သင့်ဒေတာကို ကာကွယ်ပေးသောကြောင့်',
+          '\'s\' အက္ခရာသည် ဝဘ်ဆိုက်ကို ပိုမြန်ဖွင့်ပေးသောကြောင့်',
+          '\'s\' အက္ခရာသည် ဝဘ်ဆိုက်တွင် ပုံများ ပိုများစေသောကြောင့်',
+          '\'s\' အက္ခရာသည် ဝဘ်ဆိုက်ကို အခမဲ့အသုံးပြုနိုင်စေသောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In the web address www.novaacademy.com, which part tells you which website (organization) you are visiting?',
+        questionMy:
+            'www.novaacademy.com ဆိုသော ဝဘ်လိပ်စာတွင် သင်ဝင်ရောက်နေသော ဝဘ်ဆိုက် (အဖွဲ့အစည်း) ကို ဖော်ပြသည့်အပိုင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'novaacademy.com (the domain name)',
+          'www',
+          'just the ".com" part',
+          'https',
+        ],
+        optionsMy: [
+          'novaacademy.com (ဒိုမိန်းအမည်)',
+          'www',
+          '.com အပိုင်းသာ',
+          'https',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why should you ask a trusted adult before clicking a pop-up or an unknown link while browsing?',
+        questionMy:
+            'အင်တာနက်ကြည့်ရှုနေစဉ် ပေါ့ပ်အပ်များ (သို့မဟုတ်) မသိသောလင့်ခ်များကို မနှိပ်မီ ယုံကြည်ရသူကြီးတစ်ဦးကို မေးသင့်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။',
+        optionsEn: [
+          'Pop-ups and unknown links can lead to unsafe websites or harmful downloads',
+          'Pop-ups make the browser look nicer',
+          'Clicking links uses less internet data',
+          'Trusted adults enjoy clicking links',
+        ],
+        optionsMy: [
+          'ပေါ့ပ်အပ်များနှင့် မသိသောလင့်ခ်များသည် မဘေးကင်းသောဝဘ်ဆိုက်များ (သို့မဟုတ်) အန္တရာယ်ရှိသော ဒေါင်းလုဒ်များသို့ ဦးတည်စေနိုင်သောကြောင့်',
+          'ပေါ့ပ်အပ်များသည် ဘရောက်ဆာကို ပိုလှပေါက်စေသောကြောင့်',
+          'လင့်ခ်များနှိပ်ခြင်းသည် အင်တာနက်ဒေတာ ပိုနည်းသုံးစေသောကြောင့်',
+          'ယုံကြည်ရသူကြီးများသည် လင့်ခ်နှိပ်ရတာကို နှစ်သက်သောကြောင့်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  PrimaryActivityDef(
+    id: 'mock-year6-computing-2',
+    subject: 'computing',
+    grade: Grade.year6,
+    contentType: 'quiz',
+    titleEn: 'How Computers Store Information: Introducing Binary',
+    titleMy: 'ကွန်ပျူတာများ အချက်အလက် သိမ်းဆည်းပုံ – ဘိုင်နရီ နိယာမ မိတ်ဆက်',
+    descriptionEn:
+        'Learn about how computers store everything using only 0s and 1s, and how to count in binary.',
+    descriptionMy:
+        'ကွန်ပျူတာများသည် အချက်အလက်အားလုံးကို 0 နှင့် 1 များဖြင့်သာ မည်သို့ သိမ်းဆည်းသည်ကို လေ့လာပြီး ဘိုင်နရီစနစ်ဖြင့် ဂဏန်းရေတွက်နည်းကို လေ့လာပါမည်။',
+    starsReward: 20,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What are the only two digits computers use to store all information?',
+        questionMy:
+            'ကွန်ပျူတာများသည် အချက်အလက်အားလုံးကို သိမ်းဆည်းရန် အသုံးပြုသော ဂဏန်းနှစ်လုံးမှာ အဘယ်နည်း။',
+        optionsEn: ['0 and 1', '1 and 2', 'A and B', '2 and 3'],
+        optionsMy: ['0 နှင့် 1', '1 နှင့် 2', 'A နှင့် B', '2 နှင့် 3'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'What is a single binary digit (0 or 1) called?',
+        questionMy:
+            'ဘိုင်နရီဂဏန်းတစ်လုံးချင်း (0 သို့မဟုတ် 1) ကို အဘယ်ဟုခေါ်သနည်း။',
+        optionsEn: ['A bit', 'A byte', 'A pixel', 'A code'],
+        optionsMy: [
+          'bit (ဘစ်)',
+          'byte (ဘိုက်)',
+          'pixel (ပစ်ဇယ်)',
+          'code (ကုဒ်)',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In binary, what does the number "10" equal in our normal decimal counting system?',
+        questionMy:
+            'ဘိုင်နရီစနစ်တွင် "10" ဆိုသည်မှာ ပုံမှန်ဒဿမစနစ်၌ မည်သည့်ဂဏန်းနှင့် ညီမျှသနည်း။',
+        optionsEn: ['10', '2', '1', '20'],
+        optionsMy: ['10', '2', '1', '20'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'In binary, what does the number "11" equal in decimal?',
+        questionMy:
+            'ဘိုင်နရီစနစ်တွင် "11" ဆိုသည်မှာ ဒဿမစနစ်၌ မည်သည့်ဂဏန်းနှင့် ညီမျှသနည်း။',
+        optionsEn: ['11', '2', '3', '4'],
+        optionsMy: ['11', '2', '3', '4'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Binary counting goes 1, 10, 11, then 100. What decimal number does binary "100" equal?',
+        questionMy:
+            'ဘိုင်နရီစနစ်တွင် 1, 10, 11 နောက်တွင် 100 လာသည်။ ဘိုင်နရီ "100" သည် ဒဿမစနစ်တွင် မည်သည့်ဂဏန်းနှင့် ညီမျှသနည်း။',
+        optionsEn: ['3', '4', '10', '100'],
+        optionsMy: ['3', '4', '10', '100'],
+        correctIndex: 1,
+      ),
+    ],
+  ),
 ];
