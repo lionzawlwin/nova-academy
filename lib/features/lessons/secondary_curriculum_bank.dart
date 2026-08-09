@@ -7327,6 +7327,386 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
       ),
     ],
   ),
+
+  // Secondary/IGCSE `coding` depth batch: a second module per grade,
+  // matching the `engineering`/`geography`/`history`/`computing` depth
+  // rollout's cadence.
+  // ============================== SECONDARY 1 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary1-coding-2',
+    subject: 'coding',
+    grade: Grade.secondary1,
+    contentType: 'quiz',
+    titleEn: 'Making Decisions: if/else and Boolean Logic in Python',
+    titleMy:
+        'Python ဖြင့် if/else နှင့် Boolean Logic သုံး၍ ဆုံးဖြတ်ချက်ချခြင်း',
+    descriptionEn:
+        'Learn how Python programs use if/else statements and boolean operators (AND, OR, NOT) to test conditions and make decisions that control what the program does next.',
+    descriptionMy:
+        'Python ပရိုဂရမ်များသည် if/else statement နှင့် boolean operator (AND, OR, NOT) များကို အသုံးပြု၍ အခြေအနေများကို စစ်ဆေးပြီး နောက်တစ်ဆင့် မည်သို့ဆက်လုပ်ရမည်ကို ဆုံးဖြတ်ပုံကို လေ့လာပါမည်။',
+    starsReward: 22,
+    questions: [
+      QuizQuestion(
+        questionEn: 'What is "selection" in programming?',
+        questionMy: 'ပရိုဂရမ်းမင်းတွင် "Selection" ဆိုသည်မှာ အဘယ်နည်း။',
+        optionsEn: [
+          'A structure that lets a program choose different actions based on a condition',
+          'A structure that repeats an action multiple times',
+          'A structure that stores data in variables',
+          'A structure that defines reusable blocks of code',
+        ],
+        optionsMy: [
+          'အခြေအနေ (condition) ပေါ်မူတည်၍ မတူညီသော လုပ်ဆောင်ချက်များကို ရွေးချယ်ဆောင်ရွက်နိုင်စေသော ဖွဲ့စည်းပုံ',
+          'လုပ်ဆောင်ချက်တစ်ခုကို အကြိမ်ကြိမ် ထပ်ခါထပ်ခါ လုပ်ဆောင်စေသော ဖွဲ့စည်းပုံ',
+          'ဒေတာများကို variable များတွင် သိမ်းဆည်းပေးသော ဖွဲ့စည်းပုံ',
+          'ထပ်ခါသုံးနိုင်သော code အပိုင်းအစများကို သတ်မှတ်ပေးသော ဖွဲ့စည်းပုံ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'In Python, which keyword lets you test another condition after an `if` is False, before an optional `else`?',
+        questionMy:
+            'Python တွင် `if` condition သည် False ဖြစ်နေချိန်၊ `else` မတိုင်မီ နောက်ထပ် condition တစ်ခုကို စစ်ဆေးရန် မည်သည့် keyword ကို သုံးသနည်း။',
+        optionsEn: ['elif', 'else if', 'elseif', 'elthen'],
+        optionsMy: ['elif', 'else if', 'elseif', 'elthen'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What does the expression `5 > 3 and 2 > 4` evaluate to in Python?',
+        questionMy:
+            'Python တွင် `5 > 3 and 2 > 4` ဆိုသော expression သည် မည်သည့်တန်ဖိုးကို ရရှိမည်နည်း။',
+        optionsEn: ['True', 'False', '5', 'Error'],
+        optionsMy: ['True', 'False', '5', 'Error'],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'If `x = 7`, what does `x < 5 or x > 6` evaluate to?',
+        questionMy:
+            '`x = 7` ဖြစ်ပါက `x < 5 or x > 6` သည် မည်သည့်တန်ဖိုးကို ရရှိမည်နည်း။',
+        optionsEn: ['True', 'False', '7', 'None'],
+        optionsMy: ['True', 'False', '7', 'None'],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'If `x = 10`, what does `not (x == 10)` evaluate to?',
+        questionMy:
+            '`x = 10` ဖြစ်ပါက `not (x == 10)` သည် မည်သည့်တန်ဖိုးကို ရရှိမည်နည်း။',
+        optionsEn: ['False', 'True', '10', 'Error'],
+        optionsMy: ['False', 'True', '10', 'Error'],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== SECONDARY 2 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary2-coding-2',
+    subject: 'coding',
+    grade: Grade.secondary2,
+    contentType: 'quiz',
+    titleEn: 'Working with Strings in Python',
+    titleMy: 'Python တွင် စာသားများ (Strings) နှင့် လုပ်ဆောင်ခြင်း',
+    descriptionEn:
+        'Learn how to join, index, slice, and format strings in Python, and how to get input from users and print formatted output.',
+    descriptionMy:
+        'Python တွင် string များကို ပေါင်းစပ်ခြင်း၊ index ခြင်း၊ slice ဖြတ်ခြင်း၊ ပုံစံချမှတ်ခြင်းနှင့် user ထံမှ input ရယူပြီး output ထုတ်ပြသနည်းများကို လေ့လာပါမည်။',
+    starsReward: 24,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            "What does the '+' operator do when used between two string values in Python?",
+        questionMy:
+            "Python တွင် string နှစ်ခုကြားမှာ '+' operator ကိုသုံးရင် ဘာဖြစ်သွားလဲ။",
+        optionsEn: [
+          'It adds their numeric values together',
+          'It joins (concatenates) the two strings into one',
+          'It compares the two strings for equality',
+          'It causes a syntax error',
+        ],
+        optionsMy: [
+          '၎င်းတို့၏ ကိန်းဂဏန်းတန်ဖိုးများကို အတူပေါင်းသည်',
+          'string နှစ်ခုကို ဆက်စပ်ပေါင်းစည်း (concatenate) ပြီး တစ်ခုတည်းဖြစ်စေသည်',
+          'string နှစ်ခုကို တူညီမှုရှိမရှိ နှိုင်းယှဉ်သည်',
+          'syntax error တက်စေသည်',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: 'Given name = "Python", what does name[0] return?',
+        questionMy:
+            'name = "Python" ဟူ၍ ရှိသည့်အခါ name[0] က ဘာကို ပြန်ပေးမလဲ။',
+        optionsEn: [
+          "'P'",
+          "'n'",
+          "'Python'",
+          'An error, because indexing starts at 1',
+        ],
+        optionsMy: [
+          "'P'",
+          "'n'",
+          "'Python'",
+          'index သည် 1 မှစသောကြောင့် error',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn: 'Given word = "Coding", what does word[1:4] return?',
+        questionMy:
+            'word = "Coding" ဟူ၍ ရှိသည့်အခါ word[1:4] က ဘာကို ပြန်ပေးမလဲ။',
+        optionsEn: ["'odi'", "'Codi'", "'oding'", "'ding'"],
+        optionsMy: ["'odi'", "'Codi'", "'oding'", "'ding'"],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What data type does the input() function always return, even if the user types a number?',
+        questionMy:
+            'user က ဂဏန်းတစ်ခု ရိုက်ထည့်လိုက်ရင်တောင် input() function က မည်သည့် data type အနေဖြင့် အမြဲပြန်ပေးလဲ။',
+        optionsEn: ['int', 'float', 'str', 'bool'],
+        optionsMy: ['int', 'float', 'str', 'bool'],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Which of these correctly prints a formatted greeting using an f-string, given name = "Mya" and age = 12?',
+        questionMy:
+            'name = "Mya", age = 12 ဟူ၍ ရှိသည့်အခါ f-string သုံး၍ format လုပ်ထားသော greeting ကို မှန်ကန်စွာ print လုပ်နိုင်သည့် ကုဒ်မှာ အောက်ပါတို့အနက် အဘယ်နည်း။',
+        optionsEn: [
+          'print(f"Hi {name}, you are {age} years old")',
+          'print("Hi name, you are age years old")',
+          'print(f"Hi (name), you are (age) years old")',
+          'print(f"Hi \$name, you are \$age years old")',
+        ],
+        optionsMy: [
+          'print(f"Hi {name}, you are {age} years old")',
+          'print("Hi name, you are age years old")',
+          'print(f"Hi (name), you are (age) years old")',
+          'print(f"Hi \$name, you are \$age years old")',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== SECONDARY 3 ==============================
+  SecondaryActivityDef(
+    id: 'mock-secondary3-coding-2',
+    subject: 'coding',
+    grade: Grade.secondary3,
+    contentType: 'quiz',
+    titleEn: 'Searching and Sorting Algorithms',
+    titleMy: 'ရှာဖွေခြင်းနှင့် စီစဉ်ခြင်း အယ်လဂိုရီသမ်များ',
+    descriptionEn:
+        'Learn how linear search, binary search, and bubble sort work, and compare their efficiency for finding and ordering data.',
+    descriptionMy:
+        'Linear search၊ binary search နှင့် bubble sort အယ်လဂိုရီသမ်များ ဘယ်လိုအလုပ်လုပ်သလဲဆိုတာကို လေ့လာပြီး ဒေတာရှာဖွေခြင်းနှင့် စီစဉ်ခြင်းအတွက် ၎င်းတို့၏ ထိရောက်မှုကို နှိုင်းယှဉ်ကြည့်ပါမည်။',
+    starsReward: 26,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            'What is required before you can perform a binary search on a list?',
+        questionMy:
+            'စာရင်းတစ်ခုပေါ်တွင် binary search ကို အသုံးပြုနိုင်ရန် ဘယ်အချက်ကို အရင်ပြည့်မှီထားရမလဲ။',
+        optionsEn: [
+          'The list must already be sorted',
+          'The list must contain only numbers',
+          'The list must be reversed first',
+          'The list must have an even number of items',
+        ],
+        optionsMy: [
+          'စာရင်းကို sort လုပ်ပြီးသား ဖြစ်နေရမည်',
+          'စာရင်းတွင် နံပါတ်များသာ ပါဝင်ရမည်',
+          'စာရင်းကို ပထမဆုံး ပြောင်းပြန်လှန်ထားရမည်',
+          'စာရင်းတွင် item အရေအတွက် စုံကိန်းဖြစ်ရမည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Using linear search on a list of n items, how many comparisons might be needed in the worst case?',
+        questionMy:
+            'Linear search ဖြင့် item n ခုပါသော စာရင်းတစ်ခုကို ရှာသည့်အခါ အဆိုးဆုံးအခြေအနေတွင် နှိုင်းယှဉ်မှု (comparison) ဘယ်နှစ်ကြိမ်အထိ လိုအပ်နိုင်သလဲ။',
+        optionsEn: [
+          'n comparisons',
+          'log2(n) comparisons',
+          'Always exactly n/2 comparisons',
+          'Only 1 comparison',
+        ],
+        optionsMy: [
+          'n ကြိမ်',
+          'log2(n) ကြိမ်',
+          'အမြဲတမ်း n/2 ကြိမ်အတိအကျ',
+          '၁ ကြိမ်သာ',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'How does binary search locate a target value in a sorted list?',
+        questionMy:
+            'Binary search သည် sort လုပ်ထားသော စာရင်းထဲမှ target value ကို ဘယ်လိုနည်းဖြင့် ရှာဖွေသလဲ။',
+        optionsEn: [
+          'By repeatedly checking the middle element and eliminating half of the remaining list',
+          'By checking every element one by one from the start',
+          'By randomly picking elements until the target is found',
+          'By sorting the list again before every check',
+        ],
+        optionsMy: [
+          'အလယ်ဗဟို element ကို စစ်ဆေးပြီး ကျန်ရှိသည့် ထက်ဝက်ကို ထုတ်ပယ်ကာ ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းဖြင့်',
+          'အစမှစပြီး element တစ်ခုချင်းစီကို အစဉ်လိုက် စစ်ဆေးခြင်းဖြင့်',
+          'element များကို ကျပန်းရွေးချယ်ကာ တွေ့သည်အထိ ရှာခြင်းဖြင့်',
+          'စစ်ဆေးမှုတိုင်းမတိုင်း စာရင်းကို ပြန်လည် sort လုပ်ခြင်းဖြင့်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'What happens during one pass of the bubble sort algorithm?',
+        questionMy: 'Bubble sort algorithm ၏ pass တစ်ခုအတွင်း ဘာဖြစ်ပျက်သလဲ။',
+        optionsEn: [
+          'Adjacent elements are compared and swapped if they are in the wrong order',
+          'The list is split into two equal halves',
+          'The middle element is compared with the target value',
+          'All elements become fully sorted instantly',
+        ],
+        optionsMy: [
+          'အနီးကပ် (adjacent) element နှစ်ခုကို နှိုင်းယှဉ်ပြီး အစဉ်လိုက်မှားနေလျှင် swap လုပ်ပေးသည်',
+          'စာရင်းကို ညီမျှသော ထက်ဝက်နှစ်ပိုင်းအဖြစ် ခွဲပေးသည်',
+          'အလယ်ဗဟို element ကို target value နှင့် နှိုင်းယှဉ်သည်',
+          'element အားလုံးကို ချက်ချင်း အပြီးအစီး sort ဖြစ်သွားစေသည်',
+        ],
+        correctIndex: 0,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is binary search generally much more efficient than linear search for large sorted lists?',
+        questionMy:
+            'စာရင်းကြီးများ (sorted list) အတွက် binary search သည် linear search ထက် အဘယ်ကြောင့် များစွာပို၍ ထိရောက်သလဲ။',
+        optionsEn: [
+          'Each comparison eliminates half of the remaining items, so far fewer steps are needed',
+          'Binary search checks every single item, so it never misses the target',
+          'Binary search does not require the list to be in any particular order',
+          'Binary search always finds the answer in exactly one step',
+        ],
+        optionsMy: [
+          'နှိုင်းယှဉ်မှုတစ်ခုချင်းစီတိုင်းတွင် ကျန်ရှိသည့် item များ၏ ထက်ဝက်ကို ဖယ်ရှားပစ်နိုင်သဖြင့် အဆင့်အနည်းငယ်ဖြင့်သာ ပြီးသွားသည်',
+          'Binary search သည် item တိုင်းကို စစ်ဆေးသောကြောင့် target ကို လွဲမှားနိုင်ခြေ လုံးဝမရှိပါ',
+          'Binary search သည် စာရင်းကို မည်သည့်အစီအစဉ်ဖြင့်မဆို ရှိနေခြင်းကို လိုအပ်ခြင်း မရှိပါ',
+          'Binary search သည် အမြဲတမ်း တစ်ဆင့်တည်းဖြင့် အဖြေရရှိသည်',
+        ],
+        correctIndex: 0,
+      ),
+    ],
+  ),
+  // ============================== IGCSE ==============================
+  SecondaryActivityDef(
+    id: 'mock-igcse-coding-2',
+    subject: 'coding',
+    grade: Grade.igcse,
+    contentType: 'quiz',
+    titleEn: 'Object-Oriented Programming: Classes and Objects',
+    titleMy: 'အော်ဂျက်အခြေပြု ပရိုဂရမ်းမင်းအခြေခံ - Class နှင့် Object များ',
+    descriptionEn:
+        'Learn how classes and objects use attributes and methods to organize larger programs into reusable, manageable pieces.',
+    descriptionMy:
+        'Class နှင့် Object များသည် attribute နှင့် method များကို အသုံးပြု၍ ပရိုဂရမ်းကြီးများကို ပိုမိုစနစ်တကျ၊ ပြန်လည်အသုံးပြုနိုင်အောင် ဘယ်လိုစီစဉ်ပေးကြောင်း လေ့လာပါ။',
+    starsReward: 28,
+    questions: [
+      QuizQuestion(
+        questionEn:
+            "What best describes a 'class' in object-oriented programming?",
+        questionMy:
+            "အော်ဂျက်အခြေပြု ပရိုဂရမ်းမင်းတွင် 'Class' ဆိုသည်မှာ အဘယ်အရာအား အကောင်းဆုံးဖော်ပြသနည်း။",
+        optionsEn: [
+          'A file that stores images',
+          'A blueprint or template used to create objects',
+          'A loop that repeats code',
+          'A single value stored in memory',
+        ],
+        optionsMy: [
+          'ပုံများသိမ်းဆည်းသော ဖိုင်တစ်ခု',
+          'Object များဖန်တီးရန် အသုံးပြုသည့် ပုံစံ (blueprint/template) တစ်ခု',
+          'ကုဒ်ကို ထပ်ခါထပ်ခါ လုပ်ဆောင်ပေးသော loop တစ်ခု',
+          'မှတ်ဉာဏ်ထဲတွင် သိမ်းထားသည့် တန်ဖိုးတစ်ခုတည်း',
+        ],
+        correctIndex: 1,
+      ),
+      QuizQuestion(
+        questionEn: "What is an 'object' in object-oriented programming?",
+        questionMy:
+            "အော်ဂျက်အခြေပြု ပရိုဂရမ်းမင်းတွင် 'Object' ဆိုသည်မှာ မည်သည့်အရာနည်း။",
+        optionsEn: [
+          'A syntax error found by the compiler',
+          'A comment used to explain the code',
+          'A specific instance created from a class, with its own data',
+          'A type of loop that repeats forever',
+        ],
+        optionsMy: [
+          'Compiler မှတွေ့ရှိသော syntax error တစ်ခု',
+          'ကုဒ်ကို ရှင်းပြရန်အသုံးပြုသည့် comment တစ်ခု',
+          'Class တစ်ခုမှ ဖန်တီးထားသော၊ မိမိကိုယ်ပိုင်ဒေတာရှိသည့် instance တစ်ခုချင်းစီ',
+          'အဆုံးမရှိ ထပ်ခါထပ်ခါ လည်ပတ်နေသော loop အမျိုးအစားတစ်ခု',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            "In a class such as 'Car', which of the following would be an example of an attribute?",
+        questionMy:
+            "'Car' ကဲ့သို့သော class တစ်ခုတွင် အောက်ပါတို့အနက် မည်သည်က attribute တစ်ခု၏ ဥပမာဖြစ်မည်နည်း။",
+        optionsEn: [
+          'calculateSpeed() — a function that returns the current speed',
+          'import statement at the top of the file',
+          'printMessage() — a function that displays text',
+          'brand and color — properties that describe the car',
+        ],
+        optionsMy: [
+          'calculateSpeed() — လက်ရှိအမြန်နှုန်းကို ပြန်ပေးသည့် function',
+          'ဖိုင်၏ထိပ်ပိုင်းရှိ import statement',
+          'printMessage() — စာသားပြသပေးသည့် function',
+          'brand နှင့် color — ကားကိုဖော်ပြပေးသော ဂုဏ်သတ္တိများ (properties)',
+        ],
+        correctIndex: 3,
+      ),
+      QuizQuestion(
+        questionEn: "What best describes a 'method' inside a class?",
+        questionMy:
+            "Class တစ်ခုအတွင်းရှိ 'method' ဆိုသည်မှာ အဘယ်အရာအား အကောင်းဆုံးဖော်ပြသနည်း။",
+        optionsEn: [
+          'A variable that only stores whole numbers',
+          'An error message displayed when the program crashes',
+          'A function defined inside a class that defines what an object can do',
+          'A separate program file unrelated to the class',
+        ],
+        optionsMy: [
+          'ကိန်းပြည့်များကိုသာ သိမ်းထားသော variable တစ်ခု',
+          'ပရိုဂရမ်ပျက်သွားသည့်အခါ ပြသသည့် error message',
+          'Object တစ်ခုလုပ်ဆောင်နိုင်သည်များကို သတ်မှတ်ပေးသော class အတွင်းရှိ function တစ်ခု',
+          'Class နှင့်မသက်ဆိုင်သော ခွဲထားသည့် ပရိုဂရမ်ဖိုင်တစ်ခု',
+        ],
+        correctIndex: 2,
+      ),
+      QuizQuestion(
+        questionEn:
+            'Why is OOP especially useful for organizing large programs?',
+        questionMy:
+            'OOP သည် ပရိုဂရမ်ကြီးများကို စီစဉ်ရာတွင် အဘယ်ကြောင့် အထူးအသုံးဝင်သနည်း။',
+        optionsEn: [
+          'It requires every variable to be a global variable',
+          'It removes the need to use functions',
+          'It prevents the program from ever needing to be updated',
+          'It bundles related data and actions into reusable objects, making code easier to manage and extend',
+        ],
+        optionsMy: [
+          'Variable တိုင်းကို global variable ဖြစ်ရန် လိုအပ်သောကြောင့်',
+          'Function များအသုံးပြုရန် မလိုအပ်တော့သောကြောင့်',
+          'ပရိုဂရမ်ကို နောင်တွင် update လုပ်ရန် လုံးဝမလိုအပ်စေသောကြောင့်',
+          'ဆက်စပ်သော ဒေတာနှင့် လုပ်ဆောင်ချက်များကို ပြန်လည်အသုံးပြုနိုင်သည့် object များအဖြစ် ပေါင်းစည်းပေးသောကြောင့် ကုဒ်ကို ပိုမိုစီမံခန့်ခွဲရလွယ်ကူစေပြီး တိုးချဲ့ရလွယ်ကူစေသည်',
+        ],
+        correctIndex: 3,
+      ),
+    ],
+  ),
   SecondaryActivityDef(
     id: 'mock-igcse-engineering-1',
     subject: 'engineering',

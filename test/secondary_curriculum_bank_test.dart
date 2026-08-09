@@ -5,8 +5,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('secondaryCurriculumBank', () {
-    test('contains exactly 108 modules', () {
-      expect(secondaryCurriculumBank.length, 108);
+    test('contains exactly 112 modules', () {
+      expect(secondaryCurriculumBank.length, 112);
     });
 
     test('every module id is unique', () {
@@ -74,23 +74,22 @@ void main() {
       }
     });
 
-    test('has 12 modules per subject, except the coding STEAM-expansion '
-        'subject (4) and engineering/geography/history/computing '
-        '(8 each, two per grade)', () {
+    test('has 12 modules per subject, except coding/engineering/geography/'
+        'history/computing (8 each, two per grade)', () {
       // The STEAM expansion added exactly one `coding` and one
       // `engineering` module per Secondary/IGCSE grade (secondary1-3,
       // igcse). The history/geography/computing rollout followed the same
-      // one-per-grade cadence. `engineering`, `geography`, `history`, and
-      // `computing` then each got a second module per grade (the "secondary
-      // depth batch" blocks), bringing all four to 8; `coding` has not yet
-      // been deepened and stays at 4; every other subject stays at 12.
+      // one-per-grade cadence. `coding`, `engineering`, `geography`,
+      // `history`, and `computing` then each got a second module per grade
+      // (the "secondary depth batch" blocks), bringing all five to 8; every
+      // other subject stays at 12.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
       }
       expect(counts.length, 11, reason: 'expected 11 subjects');
       const expectedOverrides = {
-        'coding': 4,
+        'coding': 8,
         'engineering': 8,
         'history': 8,
         'geography': 8,
@@ -106,12 +105,12 @@ void main() {
       }
     });
 
-    test('has 27 modules per grade', () {
+    test('has 28 modules per grade', () {
       // Baseline 18 (6 subjects x 3 modules) plus 2 from the STEAM
       // expansion (1 coding + 1 engineering) plus 3 from the
-      // history/geography/computing rollout (1 each) plus 4 more from the
-      // "secondary engineering/geography/history/computing depth batch"
-      // blocks, per grade.
+      // history/geography/computing rollout (1 each) plus 5 more from the
+      // "secondary coding/engineering/geography/history/computing depth
+      // batch" blocks, per grade.
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
@@ -120,40 +119,32 @@ void main() {
       for (final entry in counts.entries) {
         expect(
           entry.value,
-          27,
-          reason: '${entry.key} has ${entry.value} modules, expected 27',
+          28,
+          reason: '${entry.key} has ${entry.value} modules, expected 28',
         );
       }
     });
 
-    test('has 3 modules per grade+subject combination, except every coding '
-        'combo (1) and every engineering/geography/history/computing combo '
-        '(2)', () {
+    test('has 3 modules per grade+subject combination, except every coding/'
+        'engineering/geography/history/computing combo (2)', () {
       final counts = <String, int>{};
       for (final module in secondaryCurriculumBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
       expect(counts.length, 44, reason: 'expected 44 grade+subject combos');
-      const singleModuleSubjects = {'coding'};
       const twoModuleSubjects = {
+        'coding',
         'geography',
         'history',
         'computing',
         'engineering',
       };
       for (final entry in counts.entries) {
-        final isSingleModuleSubject = singleModuleSubjects.any(
-          (subject) => entry.key.endsWith('-$subject'),
-        );
         final isTwoModuleSubject = twoModuleSubjects.any(
           (subject) => entry.key.endsWith('-$subject'),
         );
-        final expected = isSingleModuleSubject
-            ? 1
-            : isTwoModuleSubject
-            ? 2
-            : 3;
+        final expected = isTwoModuleSubject ? 2 : 3;
         expect(
           entry.value,
           expected,
