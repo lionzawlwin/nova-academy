@@ -55,6 +55,9 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
     widget.args.moduleId,
   )?.readingPassage;
 
+  late final List<QuizQuestion> _questions =
+      _passage?.comprehensionQuestions.map(_shuffled).toList() ?? const [];
+
   bool _passageRead = false;
   int _currentIndex = 0;
   int _score = 0;
@@ -63,14 +66,31 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
   bool _finished = false;
   Timer? _advanceTimer;
 
+  /// Returns a copy of [q] with its options shuffled into a random order and
+  /// [QuizQuestion.correctIndex] remapped to match -- the exact same
+  /// once-per-question-load shuffle pattern `McqQuizScreen._shuffled` and
+  /// `FillBlankScreen._shuffled` use (see those methods' doc comments).
+  /// Comprehension questions are almost always authored with the correct
+  /// answer first, which made "always tap option A" a winning strategy here
+  /// too.
+  static QuizQuestion _shuffled(QuizQuestion q) {
+    final order = List<int>.generate(q.optionsEn.length, (i) => i)..shuffle();
+    return QuizQuestion(
+      questionEn: q.questionEn,
+      questionMy: q.questionMy,
+      optionsEn: [for (final i in order) q.optionsEn[i]],
+      optionsMy: [for (final i in order) q.optionsMy[i]],
+      correctIndex: order.indexOf(q.correctIndex),
+      hintsEn: q.hintsEn,
+      hintsMy: q.hintsMy,
+    );
+  }
+
   @override
   void dispose() {
     _advanceTimer?.cancel();
     super.dispose();
   }
-
-  List<QuizQuestion> get _questions =>
-      _passage?.comprehensionQuestions ?? const [];
 
   void _selectOption(int index) {
     if (_answered) return;
@@ -372,8 +392,12 @@ class _ComprehensionOptionTile extends StatelessWidget {
         borderColor = theme.colorScheme.outlineVariant;
         faceColor = theme.colorScheme.surfaceContainerHigh;
       case _TileState.correct:
-        borderColor = AppColors.secondary;
-        faceColor = AppColors.secondary.withValues(alpha: 0.16);
+        // Matches the gold correct-answer treatment `McqQuizScreen`,
+        // `FillBlankScreen`, and `DragMatchScreen` all use -- this tile
+        // previously used AppColors.secondary (teal), the one inconsistent
+        // correct-answer color across the app's interactive lesson screens.
+        borderColor = AppColors.bevelShadowFor(AppColors.goldMedal);
+        faceColor = AppColors.goldMedal.withValues(alpha: 0.16);
       case _TileState.incorrect:
         borderColor = AppColors.cherryCrush;
         faceColor = AppColors.cherryCrush.withValues(alpha: 0.16);
@@ -402,7 +426,10 @@ class _ComprehensionOptionTile extends StatelessWidget {
               ),
             ),
             if (state == _TileState.correct)
-              const Icon(Icons.check_circle_rounded, color: AppColors.secondary)
+              const Icon(
+                Icons.check_circle_rounded,
+                color: AppColors.charcoalNavy,
+              )
             else if (state == _TileState.incorrect)
               const Icon(Icons.cancel_rounded, color: AppColors.cherryCrush),
           ],
