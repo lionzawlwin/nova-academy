@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -161,6 +161,54 @@ class _StudentGateState {
   String? lastPath;
 }
 
+/// Shown instead of a Nursery/KG activity route's real content when
+/// `state.extra` doesn't match the shape that route's [GoRoute.builder]
+/// expects. Every in-app call site (`NurseryKgHomeScreen._openLesson`,
+/// `openNurseryActivity`) always supplies a matching `extra`, so this only
+/// triggers from navigation that bypasses those call sites entirely -- a
+/// Flutter Web page refresh or browser back/forward, since `extra` is never
+/// part of the URL and is lost on both. Every affected `GoRoute.builder`
+/// used to fall back to that screen's bare default constructor instead
+/// (e.g. `NurseryLessonScreen()`'s hardcoded fruit-matching game) -- which
+/// silently showed a real, playable, but *wrong* activity rather than
+/// failing safely, easy to mistake for "the app remembered my last game"
+/// (Mission-tracked as a Riverpod state-leak report; the actual cause is
+/// this fallback, not stale provider state -- there is no long-lived
+/// provider caching "last played activity" anywhere in this app). This pops
+/// back to whatever pushed the route instead, the moment it can, so nothing
+/// wrong is ever shown to tap through.
+class _RecoverFromMissingExtra extends StatefulWidget {
+  const _RecoverFromMissingExtra();
+
+  @override
+  State<_RecoverFromMissingExtra> createState() =>
+      _RecoverFromMissingExtraState();
+}
+
+class _RecoverFromMissingExtraState extends State<_RecoverFromMissingExtra> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final navigator = Navigator.of(context);
+      if (navigator.canPop()) {
+        navigator.pop();
+      } else {
+        // Nothing beneath this route (e.g. it was the initial page loaded
+        // directly, such as a refreshed/shared URL) -- splash's own
+        // redirect logic sends the user wherever they actually belong.
+        GoRouter.of(context).go(AppRoutes.splash);
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(body: Center(child: CircularProgressIndicator()));
+  }
+}
+
 /// The app's single [GoRouter] instance, rebuilt only when its provider
 /// dependencies actually change (see [_RouterRefreshNotifier]).
 final goRouterProvider = Provider<GoRouter>((ref) {
@@ -224,7 +272,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               pairs: pairs,
             );
           }
-          return const NurseryLessonScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -238,7 +286,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               def: def,
             );
           }
-          return const NurseryListeningScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -249,7 +297,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             final (subject, def) = extra;
             return NurseryMemoryScreen(subjectLabel: subject.label, def: def);
           }
-          return const NurseryMemoryScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -263,7 +311,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               def: def,
             );
           }
-          return const NurseryFlashcardsScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -277,7 +325,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               def: def,
             );
           }
-          return const NurseryStorytellingScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -288,7 +336,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             final (subject, def) = extra;
             return NurseryRhymesScreen(subjectLabel: subject.label, def: def);
           }
-          return const NurseryRhymesScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -299,7 +347,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
             final (subject, def) = extra;
             return QuantumFlashScreen(subjectLabel: subject.label, def: def);
           }
-          return const QuantumFlashScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(
@@ -314,11 +362,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               activities: activities,
             );
           }
-          // Defensive fallback for a malformed/missing `extra` -- mirrors
-          // `lessonNursery`'s own defensive builder just above, which has
-          // the same "never crash on a bad navigation" fallback to the
-          // same screen.
-          return const NurseryLessonScreen();
+          return const _RecoverFromMissingExtra();
         },
       ),
       GoRoute(

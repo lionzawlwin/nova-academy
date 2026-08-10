@@ -104,6 +104,16 @@ class AppColors {
   /// alongside [goldMedal], not just a shadow.
   static const Color goldMedalHighlight = Color(0xFFFFF3C4);
 
+  /// Correct-answer state for `McqQuizScreen` and `PhotoGuessScreen` only --
+  /// an explicit, deliberate product override choosing green there instead
+  /// of [goldMedal], which every other screen's correct-answer state
+  /// (`FillInTheBlankScreen`, `ReadingScreen`) still uses. Chosen at a
+  /// similar brightness/saturation to [goldMedal] so it reads as the same
+  /// "candy" visual language, just a different hue; pairs with
+  /// [AppColors.charcoalNavy] text/icons for the same ~8.6:1 contrast
+  /// margin [goldMedal]'s pairing was audited for.
+  static const Color correctGreen = Color(0xFF3DDC84);
+
   /// Incorrect quiz answer state and destructive actions -- kept as
   /// saturated as the positive palette rather than desaturated, so feedback
   /// reads instantly to young kids.

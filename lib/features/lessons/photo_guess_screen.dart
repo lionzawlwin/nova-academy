@@ -384,8 +384,11 @@ class _PhotoGuessOptionTile extends StatelessWidget {
         borderColor = theme.colorScheme.outlineVariant;
         faceColor = theme.colorScheme.surfaceContainerHigh;
       case _TileState.correct:
-        borderColor = AppColors.bevelShadowFor(AppColors.goldMedal);
-        faceColor = AppColors.goldMedal.withValues(alpha: 0.16);
+        // Deliberate override: green here (and in McqQuizScreen), not the
+        // gold every other screen's correct-answer state uses -- see
+        // AppColors.correctGreen's doc comment.
+        borderColor = AppColors.bevelShadowFor(AppColors.correctGreen);
+        faceColor = AppColors.correctGreen.withValues(alpha: 0.16);
       case _TileState.incorrect:
         borderColor = AppColors.cherryCrush;
         faceColor = AppColors.cherryCrush.withValues(alpha: 0.16);

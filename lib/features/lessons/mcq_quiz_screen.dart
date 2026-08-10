@@ -976,7 +976,7 @@ class _OptionCardState extends State<_OptionCard>
         _hovering
             ? AppColors.candyPrimary.withValues(alpha: 0.4)
             : scheme.outlineVariant,
-      _OptionState.correct => AppColors.bevelShadowFor(AppColors.goldMedal),
+      _OptionState.correct => AppColors.bevelShadowFor(AppColors.correctGreen),
       _OptionState.incorrect => AppColors.cherryCrush,
       _OptionState.disabled => Colors.transparent,
     };
@@ -1030,7 +1030,7 @@ class _OptionCardState extends State<_OptionCard>
                     bevelDepth: bevelDepth,
                     borderRadius: radius,
                     state: bevelState,
-                    correctColor: AppColors.goldMedal,
+                    correctColor: AppColors.correctGreen,
                     incorrectColor: AppColors.cherryCrush,
                     correctIcon: const Icon(
                       Icons.check_circle_rounded,
