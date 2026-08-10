@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('primaryCurriculumBank', () {
-    test('contains exactly 181 modules', () {
-      expect(primaryCurriculumBank.length, 181);
+    test('contains exactly 192 modules', () {
+      expect(primaryCurriculumBank.length, 192);
     });
 
     test('every module id is unique', () {
@@ -75,23 +75,16 @@ void main() {
     });
 
     test('has the expected module count per subject', () {
-      // Baseline before the "content-parity" batch: math/english/science
-      // at 18, stem at 22 (year5/year6 carry 2 extra real-Python-syntax
-      // modules each), and geography/history/computing/coding/engineering/
-      // generalknowledge at 12 each (full one-per-grade-then-second-module
-      // depth parity, reached via several prior rollouts -- see git log for
-      // that history). The content-parity batch then added a further,
-      // *uneven* number of modules to generalknowledge/geography/history/
-      // science for Year 1-4 only (not Year 5/6, and not every grade+subject
-      // pair equally -- some pairs' generated content failed adversarial
-      // fact/translation review and were deliberately not shipped; see the
-      // doc comment above that batch's block in primary_curriculum_bank.dart
-      // for exactly what was rejected and why). A follow-up "history
-      // shortfall" batch then filled every Year 1-4 History pair up to 5
-      // modules each (+1/+1/+3/+3), which is why history now cleanly adds
-      // 8 on top of the content-parity batch's total while
-      // generalknowledge/geography/science stay exactly as that batch left
-      // them.
+      // coding/computing/engineering: 2/grade x 6 grades = 12 each.
+      // math/english: 3/grade x 6 grades = 18 each.
+      // The Year 1-4 "content-parity" effort (several batches -- see git
+      // log) brought generalknowledge/geography/history/science up to 5
+      // modules per grade for Year 1-4 specifically, while Year 5/6 stayed
+      // at their pre-parity baseline (2 each for generalknowledge/geography/
+      // history, 3 for science) and instead carry stem's own pre-existing
+      // 2-extra-modules bump (5 vs 3 elsewhere) -- untouched by the parity
+      // effort. That's 5*4 + 2*2 = 24 for generalknowledge/geography/
+      // history, 5*4 + 3*2 = 26 for science, and 3*4 + 5*2 = 22 for stem.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
@@ -100,14 +93,14 @@ void main() {
       const expected = {
         'math': 18,
         'english': 18,
-        'science': 23,
+        'science': 26,
         'stem': 22,
         'coding': 12,
         'engineering': 12,
         'computing': 12,
         'history': 24,
-        'geography': 19,
-        'generalknowledge': 21,
+        'geography': 24,
+        'generalknowledge': 24,
       };
       for (final entry in counts.entries) {
         expect(
@@ -120,21 +113,22 @@ void main() {
     });
 
     test('has the expected module count per grade', () {
-      // Every grade was 24 (26 for year5/year6, which carry stem's 2 extra
-      // modules) before the content-parity batch. That batch only touched
-      // Year 1-4, and unevenly per grade (some generated modules failed
-      // adversarial review) -- see the per-subject count test's comment
-      // above for the full rationale. Year 5/6 are untouched and still 26.
+      // Year 1-4 are now identical to each other (the content-parity effort
+      // finished bringing every one of them to the same depth): 2+2+2 for
+      // coding/computing/engineering, 3+3 for math/english, 5+5+5+5 for
+      // generalknowledge/geography/history/science, 3 for stem = 35. Year
+      // 5/6 are also identical to each other, untouched by the parity
+      // effort: same baseline minus stem's extra 2 = 26.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.grade.name] = (counts[module.grade.name] ?? 0) + 1;
       }
       expect(counts.length, 6, reason: 'expected 6 grades');
       const expected = {
-        'year1': 31,
-        'year2': 34,
-        'year3': 32,
-        'year4': 32,
+        'year1': 35,
+        'year2': 35,
+        'year3': 35,
+        'year4': 35,
         'year5': 26,
         'year6': 26,
       };
@@ -149,86 +143,54 @@ void main() {
     });
 
     test('has the expected module count per grade+subject combination', () {
-      // coding/computing/engineering stayed at 2 per grade, math/english/
-      // stem at 3 (5 for year5/year6-stem) throughout -- untouched by the
-      // content-parity batch. generalknowledge/geography/history/science
-      // for Year 1-4 vary per pair now (see the per-subject count test's
-      // comment above); Year 5/6's generalknowledge/geography/history are
-      // still 2 and science still 3, also untouched.
+      // Now expressible as a clean formula instead of a hand-maintained
+      // per-pair table: coding/computing/engineering are 2 in every grade,
+      // math/english are 3 in every grade. generalknowledge/geography/
+      // history/science are 5 for Year 1-4 (the content-parity target) and
+      // back to their pre-parity baseline (2/2/2/3) for Year 5/6, which the
+      // parity effort never touched. stem is 3 everywhere except Year 5/6,
+      // which carry 2 pre-existing extra modules (5) unrelated to parity.
+      const flatSubjects = {'coding': 2, 'computing': 2, 'engineering': 2};
+      const threeSubjects = {'english': 3, 'math': 3};
+      const parityTargetSubjects = {
+        'generalknowledge',
+        'geography',
+        'history',
+        'science',
+      };
+      const parityBaseline = {
+        'generalknowledge': 2,
+        'geography': 2,
+        'history': 2,
+        'science': 3,
+      };
+      const parityGrades = {'year1', 'year2', 'year3', 'year4'};
+
+      int expectedFor(String grade, String subject) {
+        if (flatSubjects.containsKey(subject)) return flatSubjects[subject]!;
+        if (threeSubjects.containsKey(subject)) return threeSubjects[subject]!;
+        if (subject == 'stem') return parityGrades.contains(grade) ? 3 : 5;
+        if (parityTargetSubjects.contains(subject)) {
+          return parityGrades.contains(grade) ? 5 : parityBaseline[subject]!;
+        }
+        throw StateError('unexpected subject "$subject"');
+      }
+
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         final key = '${module.grade.name}-${module.subject}';
         counts[key] = (counts[key] ?? 0) + 1;
       }
       expect(counts.length, 60, reason: 'expected 60 grade+subject combos');
-      const expected = {
-        'year1-coding': 2,
-        'year1-computing': 2,
-        'year1-engineering': 2,
-        'year1-english': 3,
-        'year1-generalknowledge': 4,
-        'year1-geography': 2,
-        'year1-history': 5,
-        'year1-math': 3,
-        'year1-science': 5,
-        'year1-stem': 3,
-        'year2-coding': 2,
-        'year2-computing': 2,
-        'year2-engineering': 2,
-        'year2-english': 3,
-        'year2-generalknowledge': 5,
-        'year2-geography': 4,
-        'year2-history': 5,
-        'year2-math': 3,
-        'year2-science': 5,
-        'year2-stem': 3,
-        'year3-coding': 2,
-        'year3-computing': 2,
-        'year3-engineering': 2,
-        'year3-english': 3,
-        'year3-generalknowledge': 4,
-        'year3-geography': 4,
-        'year3-history': 5,
-        'year3-math': 3,
-        'year3-science': 4,
-        'year3-stem': 3,
-        'year4-coding': 2,
-        'year4-computing': 2,
-        'year4-engineering': 2,
-        'year4-english': 3,
-        'year4-generalknowledge': 4,
-        'year4-geography': 5,
-        'year4-history': 5,
-        'year4-math': 3,
-        'year4-science': 3,
-        'year4-stem': 3,
-        'year5-coding': 2,
-        'year5-computing': 2,
-        'year5-engineering': 2,
-        'year5-english': 3,
-        'year5-generalknowledge': 2,
-        'year5-geography': 2,
-        'year5-history': 2,
-        'year5-math': 3,
-        'year5-science': 3,
-        'year5-stem': 5,
-        'year6-coding': 2,
-        'year6-computing': 2,
-        'year6-engineering': 2,
-        'year6-english': 3,
-        'year6-generalknowledge': 2,
-        'year6-geography': 2,
-        'year6-history': 2,
-        'year6-math': 3,
-        'year6-science': 3,
-        'year6-stem': 5,
-      };
       for (final entry in counts.entries) {
+        final parts = entry.key.split('-');
+        final grade = parts[0];
+        final subject = parts.sublist(1).join('-');
+        final expected = expectedFor(grade, subject);
         expect(
           entry.value,
-          expected[entry.key],
-          reason:
-              '${entry.key} has ${entry.value} modules, expected ${expected[entry.key]}',
+          expected,
+          reason: '${entry.key} has ${entry.value} modules, expected $expected',
         );
       }
     });

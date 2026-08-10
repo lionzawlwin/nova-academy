@@ -45,5 +45,4 @@ Firebase/Vercel/Android CI deployment details (targets, secrets, signing, seed-d
 
 ## Known Gaps (check before assuming a feature works end-to-end)
 
-- `pubspec.yaml` has a load-bearing `dependency_overrides` block pinning `analyzer: 7.6.0` / `analyzer_plugin: 0.13.4` — required for `build_runner`/`custom_lint` to work with the current `riverpod_lint`/`custom_lint` versions. Don't remove it without re-deriving compatible versions if you bump Riverpod tooling (e.g. to Riverpod 3.x).
 - Secondary/IGCSE curriculum content is complete (`secondary_curriculum_bank.dart`), alongside Nursery–Year6 — full grade coverage Nursery through IGCSE exists across all curriculum banks.
