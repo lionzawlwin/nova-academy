@@ -1,0 +1,27 @@
+{
+  "_instructions": "See scripts/download_assets/README.md for the full guide. Each key below becomes the image id, the output filename (assets/photo_guess/<id>.jpg), and PhotoGuessQuestion.id -- keep it lowercase_with_underscores. Delete these three template entries before adding your own real ones. Keys starting with '_' (like this one) are ignored by the script.",
+
+  "apple_fruit": {
+    "url": "https://example.com/replace-with-real-apple-photo.jpg",
+    "promptEn": "What fruit is this?",
+    "promptMy": "ဒါဘာအသီးလဲ",
+    "optionsEn": ["Apple", "Banana", "Orange", "Grape"],
+    "optionsMy": ["ပန်းသီး", "ငှက်ပျောသီး", "လိမ္မော်သီး", "စပျစ်သီး"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "eiffel_tower": {
+    "url": "https://example.com/replace-with-real-eiffel-tower-photo.jpg",
+    "promptEn": "Which city is this landmark in?",
+    "promptMy": "ဒီအမှတ်လက္ခဏာက ဘယ်မြို့မှာလဲ",
+    "optionsEn": ["Paris", "London", "Rome", "Cairo"],
+    "optionsMy": ["ပါရီ", "လန်ဒန်", "ရောမ", "ကိုင်ရို"],
+    "correctIndex": 0,
+    "attributionEn": "Photo: Jane Doe / Wikimedia Commons, CC BY-SA 4.0",
+    "attributionMy": "ဓာတ်ပုံ: Jane Doe / Wikimedia Commons, CC BY-SA 4.0"
+  },
+
+  "quick_placeholder_only": "https://example.com/replace-with-real-photo.jpg"
+}
