@@ -16,6 +16,8 @@ import '../../routing/app_router.dart';
 import '../lessons/nursery_activity_index.dart';
 import '../lessons/nursery_kg_activity_bank.dart' show MatchPairItem;
 import '../lessons/open_nursery_activity.dart';
+import '../lessons/photo_guess_bank.dart';
+import '../lessons/photo_guess_screen.dart' show PhotoGuessArgs;
 import 'challenge_zone_section.dart';
 import 'home_shared_widgets.dart';
 
@@ -165,18 +167,20 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
                         ),
                         const SizedBox(height: 24),
                         ChallengeZoneSection(
-                          items: _challengeZoneItems(subjects),
-                          onTapItem: (item) => _openLesson(
-                            context,
-                            ref,
-                            child?.currentGrade,
-                            SubjectVisual(
-                              label: item.label,
-                              icon: item.icon,
-                              color: item.color,
-                              subjectKey: item.subjectKey,
-                            ),
-                          ),
+                          items: _challengeZoneItems(l10n, subjects),
+                          onTapItem: (item) => item.subjectKey == 'photoguess'
+                              ? _openPhotoGuess(context, item.label)
+                              : _openLesson(
+                                  context,
+                                  ref,
+                                  child?.currentGrade,
+                                  SubjectVisual(
+                                    label: item.label,
+                                    icon: item.icon,
+                                    color: item.color,
+                                    subjectKey: item.subjectKey,
+                                  ),
+                                ),
                         ),
                         const SizedBox(height: 24),
                         Wrap(
@@ -211,13 +215,15 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
     );
   }
 
-  /// Picks the four gamified quiz subjects for the Challenge Zone out of
+  /// Picks four of the gamified quiz subjects for the Challenge Zone out of
   /// the full nursery subject grid, in a fixed order -- General
   /// Knowledge, STEM (this tier's closest match to "Science" -- Nursery/KG
   /// content is seeded under the `stem` subject key, not a separate
   /// `science` one), Geography, History. Reuses each tile's existing
   /// [SubjectVisual] (label/icon/color) rather than re-deriving them, so
   /// the Challenge Zone cards match the main subject grid below exactly.
+  /// [_challengeZoneItems] appends a fifth, `photoguess`, that isn't part
+  /// of this list -- see that method.
   static const _challengeZoneKeys = [
     'generalknowledge',
     'stem',
@@ -225,7 +231,10 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
     'history',
   ];
 
-  List<ChallengeZoneItem> _challengeZoneItems(List<SubjectVisual> subjects) {
+  List<ChallengeZoneItem> _challengeZoneItems(
+    AppLocalizations l10n,
+    List<SubjectVisual> subjects,
+  ) {
     final byKey = {for (final s in subjects) s.subjectKey: s};
     return [
       for (final key in _challengeZoneKeys)
@@ -236,7 +245,29 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
             color: visual.color,
             subjectKey: visual.subjectKey,
           ),
+      // Not derived from `subjects`/`_challengeZoneKeys` like the four
+      // items above -- `photoguess` has no Firestore-seeded module and no
+      // entry in the main subject grid. Handled directly in `onTapItem`
+      // above via `_openPhotoGuess`, matching `primary_home_screen.dart`'s
+      // same treatment of this card.
+      ChallengeZoneItem(
+        label: l10n.subjectPhotoGuess,
+        icon: Icons.photo_camera_rounded,
+        color: AppColors.secondary,
+        subjectKey: 'photoguess',
+      ),
     ];
+  }
+
+  /// Pushes [PhotoGuessScreen] directly with `photo_guess_bank.dart`'s
+  /// first general-knowledge set, bypassing [_openLesson]'s Firestore/
+  /// `allNurseryActivitySummaries()` lookup entirely -- there is no seeded
+  /// content for this feature, by design (see `photo_guess_bank.dart`).
+  void _openPhotoGuess(BuildContext context, String title) {
+    context.push(
+      AppRoutes.lessonPhotoGuess,
+      extra: PhotoGuessArgs(title: title, moduleId: photoGuessSets.first.id),
+    );
   }
 
   /// Looks up the real seeded module(s) for [grade]/[subject.subjectKey]
