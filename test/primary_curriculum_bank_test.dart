@@ -4,8 +4,8 @@ import 'package:nova_academy/models/child_model.dart';
 
 void main() {
   group('primaryCurriculumBank', () {
-    test('contains exactly 173 modules', () {
-      expect(primaryCurriculumBank.length, 173);
+    test('contains exactly 181 modules', () {
+      expect(primaryCurriculumBank.length, 181);
     });
 
     test('every module id is unique', () {
@@ -86,10 +86,12 @@ void main() {
       // pair equally -- some pairs' generated content failed adversarial
       // fact/translation review and were deliberately not shipped; see the
       // doc comment above that batch's block in primary_curriculum_bank.dart
-      // for exactly what was rejected and why), which is why these four
-      // subjects' totals no longer follow a clean formula the way the
-      // untouched ones (math/english/coding/computing/engineering/stem)
-      // still do.
+      // for exactly what was rejected and why). A follow-up "history
+      // shortfall" batch then filled every Year 1-4 History pair up to 5
+      // modules each (+1/+1/+3/+3), which is why history now cleanly adds
+      // 8 on top of the content-parity batch's total while
+      // generalknowledge/geography/science stay exactly as that batch left
+      // them.
       final counts = <String, int>{};
       for (final module in primaryCurriculumBank) {
         counts[module.subject] = (counts[module.subject] ?? 0) + 1;
@@ -103,7 +105,7 @@ void main() {
         'coding': 12,
         'engineering': 12,
         'computing': 12,
-        'history': 16,
+        'history': 24,
         'geography': 19,
         'generalknowledge': 21,
       };
@@ -129,10 +131,10 @@ void main() {
       }
       expect(counts.length, 6, reason: 'expected 6 grades');
       const expected = {
-        'year1': 30,
-        'year2': 33,
-        'year3': 29,
-        'year4': 29,
+        'year1': 31,
+        'year2': 34,
+        'year3': 32,
+        'year4': 32,
         'year5': 26,
         'year6': 26,
       };
@@ -166,7 +168,7 @@ void main() {
         'year1-english': 3,
         'year1-generalknowledge': 4,
         'year1-geography': 2,
-        'year1-history': 4,
+        'year1-history': 5,
         'year1-math': 3,
         'year1-science': 5,
         'year1-stem': 3,
@@ -176,7 +178,7 @@ void main() {
         'year2-english': 3,
         'year2-generalknowledge': 5,
         'year2-geography': 4,
-        'year2-history': 4,
+        'year2-history': 5,
         'year2-math': 3,
         'year2-science': 5,
         'year2-stem': 3,
@@ -186,7 +188,7 @@ void main() {
         'year3-english': 3,
         'year3-generalknowledge': 4,
         'year3-geography': 4,
-        'year3-history': 2,
+        'year3-history': 5,
         'year3-math': 3,
         'year3-science': 4,
         'year3-stem': 3,
@@ -196,7 +198,7 @@ void main() {
         'year4-english': 3,
         'year4-generalknowledge': 4,
         'year4-geography': 5,
-        'year4-history': 2,
+        'year4-history': 5,
         'year4-math': 3,
         'year4-science': 3,
         'year4-stem': 3,
