@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/services/tts_service.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
@@ -100,6 +101,17 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
   /// rebuilds.
   final GlobalKey _shareCardKey = GlobalKey();
 
+  /// Reads the sentence/word-bank text aloud on tap -- same bare
+  /// per-screen-owned wrapper `McqQuizScreen`/`ReadingScreen`/
+  /// `PhotoGuessScreen` already use (see `TtsService`'s own doc comment
+  /// for the Burmese-voice fallback rationale).
+  final TtsService _tts = TtsService();
+
+  void _speak(String text) {
+    final lc = Localizations.localeOf(context).languageCode;
+    unawaited(_tts.speak(text, languageCode: lc));
+  }
+
   @override
   void initState() {
     super.initState();
@@ -135,6 +147,7 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
   @override
   void dispose() {
     _advanceTimer?.cancel();
+    _tts.dispose();
     super.dispose();
   }
 
@@ -191,6 +204,7 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
 
   void _advance() {
     if (!mounted) return;
+    unawaited(_tts.stop());
     if (_currentIndex >= _questions.length - 1) {
       setState(() => _finished = true);
       unawaited(_recordCompletion());
@@ -286,6 +300,7 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
                         onSelect: _selectOption,
                         triedWrong: _triedWrong,
                         hintsRevealed: _hintsRevealed,
+                        onSpeak: _speak,
                       ),
                     ),
                   ],
@@ -371,6 +386,31 @@ class _SegmentedProgressBar extends StatelessWidget {
   }
 }
 
+/// A small "read this aloud" tap target -- its own [IconButton] so a tap
+/// on the speaker is consumed there and never falls through to whatever
+/// tappable surface it's layered on (the sentence hero container, a
+/// [_WordChip]'s [CandyBevelSurface]). Mirrors `McqQuizScreen`'s private
+/// `_SpeakerButton` widget of the same shape.
+class _FillBlankSpeakerButton extends StatelessWidget {
+  const _FillBlankSpeakerButton({
+    required this.onTap,
+    required this.iconColor,
+  });
+
+  final VoidCallback onTap;
+  final Color iconColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      onPressed: onTap,
+      icon: Icon(Icons.volume_up_rounded, color: iconColor),
+      tooltip: _t(context, 'Read aloud', 'အသံထွက်ဖတ်ရန်'),
+      visualDensity: VisualDensity.compact,
+    );
+  }
+}
+
 /// The idle/correct/incorrect/disabled visual state of one word-bank chip
 /// -- same shape as `McqQuizScreen`'s private `_OptionState` enum, kept as
 /// a local copy since it's file-private there too.
@@ -387,6 +427,7 @@ class _FillBlankQuestionView extends StatelessWidget {
     required this.onSelect,
     required this.triedWrong,
     required this.hintsRevealed,
+    required this.onSpeak,
   });
 
   final FillBlankQuestion question;
@@ -400,6 +441,8 @@ class _FillBlankQuestionView extends StatelessWidget {
 
   /// How many of `question.hintsEn`/`hintsMy` to reveal right now.
   final int hintsRevealed;
+
+  final ValueChanged<String> onSpeak;
 
   static const _blankToken = '___';
 
@@ -428,7 +471,7 @@ class _FillBlankQuestionView extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.fromLTRB(20, 20, 8, 20),
           decoration: BoxDecoration(
             gradient: AppGradients.hero(theme.colorScheme),
             borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
@@ -437,29 +480,45 @@ class _FillBlankQuestionView extends StatelessWidget {
               brightness: theme.brightness,
             ),
           ),
-          child: Wrap(
-            crossAxisAlignment: WrapCrossAlignment.center,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              if (before.isNotEmpty)
-                Text(
-                  before,
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w800,
-                  ),
+              Expanded(
+                child: Wrap(
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: [
+                    if (before.isNotEmpty)
+                      Text(
+                        before,
+                        style: theme.textTheme.titleLarge?.copyWith(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                    _BlankSlot(
+                      word: filledWord,
+                      isCorrect: answered ? isCorrect : null,
+                    ),
+                    if (after.isNotEmpty)
+                      Text(
+                        after,
+                        style: theme.textTheme.titleLarge?.copyWith(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                  ],
                 ),
-              _BlankSlot(
-                word: filledWord,
-                isCorrect: answered ? isCorrect : null,
               ),
-              if (after.isNotEmpty)
-                Text(
-                  after,
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w800,
-                  ),
+              _FillBlankSpeakerButton(
+                // The blank token reads as a natural pause rather than the
+                // literal "___" -- there's no answer word to fill in yet
+                // (or ever, if this speaker is tapped before answering).
+                onTap: () => onSpeak(
+                  sentence.replaceAll(_blankToken, '...').trim(),
                 ),
+                iconColor: Colors.white,
+              ),
             ],
           ),
         ),
@@ -488,6 +547,7 @@ class _FillBlankQuestionView extends StatelessWidget {
                 label: options[i],
                 state: _optionState(i),
                 onTap: () => onSelect(i),
+                onSpeak: () => onSpeak(options[i]),
               ),
           ],
         ),
@@ -638,11 +698,13 @@ class _WordChip extends StatefulWidget {
     required this.label,
     required this.state,
     required this.onTap,
+    required this.onSpeak,
   });
 
   final String label;
   final _OptionState state;
   final VoidCallback onTap;
+  final VoidCallback onSpeak;
 
   @override
   State<_WordChip> createState() => _WordChipState();
@@ -768,17 +830,23 @@ class _WordChipState extends State<_WordChip> with TickerProviderStateMixin {
                   size: 20,
                 ),
                 border: Border.all(color: borderColor, width: 2),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 14,
-                ),
+                padding: const EdgeInsets.fromLTRB(20, 8, 8, 8),
                 onTap: widget.state == _OptionState.idle ? widget.onTap : null,
-                child: Text(
-                  widget.label,
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    color: foregroundColor,
-                    fontWeight: FontWeight.w700,
-                  ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      widget.label,
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: foregroundColor,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    _FillBlankSpeakerButton(
+                      onTap: widget.onSpeak,
+                      iconColor: foregroundColor,
+                    ),
+                  ],
                 ),
               ),
             ),

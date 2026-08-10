@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/services/tts_service.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
@@ -66,6 +67,17 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
   bool _finished = false;
   Timer? _advanceTimer;
 
+  /// Reads the question/option text aloud on tap -- same bare
+  /// per-screen-owned wrapper `McqQuizScreen`/`FillBlankScreen`/
+  /// `PhotoGuessScreen` already use (see `TtsService`'s own doc comment
+  /// for the Burmese-voice fallback rationale).
+  final TtsService _tts = TtsService();
+
+  void _speak(String text) {
+    final lc = Localizations.localeOf(context).languageCode;
+    unawaited(_tts.speak(text, languageCode: lc));
+  }
+
   /// Returns a copy of [q] with its options shuffled into a random order and
   /// [QuizQuestion.correctIndex] remapped to match -- the exact same
   /// once-per-question-load shuffle pattern `McqQuizScreen._shuffled` and
@@ -89,6 +101,7 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
   @override
   void dispose() {
     _advanceTimer?.cancel();
+    _tts.dispose();
     super.dispose();
   }
 
@@ -105,6 +118,7 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
 
   void _advance() {
     if (!mounted) return;
+    unawaited(_tts.stop());
     if (_currentIndex >= _questions.length - 1) {
       setState(() => _finished = true);
       unawaited(_recordCompletion());
@@ -214,6 +228,7 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
                         selectedIndex: _selectedIndex,
                         answered: _answered,
                         onSelect: _selectOption,
+                        onSpeak: _speak,
                       ),
                     ),
                   ],
@@ -313,12 +328,14 @@ class _ComprehensionQuestionView extends StatelessWidget {
     required this.selectedIndex,
     required this.answered,
     required this.onSelect,
+    required this.onSpeak,
   });
 
   final QuizQuestion question;
   final int? selectedIndex;
   final bool answered;
   final ValueChanged<int> onSelect;
+  final ValueChanged<String> onSpeak;
 
   @override
   Widget build(BuildContext context) {
@@ -331,7 +348,7 @@ class _ComprehensionQuestionView extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.fromLTRB(20, 20, 8, 20),
           decoration: BoxDecoration(
             gradient: AppGradients.hero(theme.colorScheme),
             borderRadius: BorderRadius.circular(AppTheme.radiusLarge),
@@ -340,12 +357,23 @@ class _ComprehensionQuestionView extends StatelessWidget {
               brightness: theme.brightness,
             ),
           ),
-          child: Text(
-            questionText,
-            style: theme.textTheme.titleLarge?.copyWith(
-              color: Colors.white,
-              fontWeight: FontWeight.w800,
-            ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Text(
+                  questionText,
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+              _ReadingSpeakerButton(
+                onTap: () => onSpeak(questionText),
+                iconColor: Colors.white,
+              ),
+            ],
           ),
         ),
         const SizedBox(height: 20),
@@ -362,6 +390,7 @@ class _ComprehensionQuestionView extends StatelessWidget {
                   ? _TileState.incorrect
                   : _TileState.disabled,
               onTap: () => onSelect(i),
+              onSpeak: () => onSpeak(options[i]),
             ),
           ),
       ],
@@ -376,11 +405,13 @@ class _ComprehensionOptionTile extends StatelessWidget {
     required this.label,
     required this.state,
     required this.onTap,
+    required this.onSpeak,
   });
 
   final String label;
   final _TileState state;
   final VoidCallback onTap;
+  final VoidCallback onSpeak;
 
   @override
   Widget build(BuildContext context) {
@@ -425,6 +456,10 @@ class _ComprehensionOptionTile extends StatelessWidget {
                 ),
               ),
             ),
+            _ReadingSpeakerButton(
+              onTap: onSpeak,
+              iconColor: theme.colorScheme.onSurfaceVariant,
+            ),
             if (state == _TileState.correct)
               const Icon(
                 Icons.check_circle_rounded,
@@ -435,6 +470,28 @@ class _ComprehensionOptionTile extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// A small "read this aloud" tap target -- its own [IconButton] so a tap
+/// on the speaker is consumed there and never falls through to whatever
+/// tappable surface it's layered on (the question hero container, an
+/// [_ComprehensionOptionTile]'s [CandyBevelSurface]). Mirrors
+/// `McqQuizScreen`'s private `_SpeakerButton` widget of the same shape.
+class _ReadingSpeakerButton extends StatelessWidget {
+  const _ReadingSpeakerButton({required this.onTap, required this.iconColor});
+
+  final VoidCallback onTap;
+  final Color iconColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      onPressed: onTap,
+      icon: Icon(Icons.volume_up_rounded, color: iconColor),
+      tooltip: _t(context, 'Read aloud', 'အသံထွက်ဖတ်ရန်'),
+      visualDensity: VisualDensity.compact,
     );
   }
 }

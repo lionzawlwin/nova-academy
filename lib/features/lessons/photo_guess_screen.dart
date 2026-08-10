@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/services/tts_service.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/candy_bevel_surface.dart';
 import '../../core/widgets/language_toggle_button.dart';
@@ -50,9 +51,36 @@ class PhotoGuessScreen extends ConsumerStatefulWidget {
 
 class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
   late final List<PhotoGuessQuestion> _questions =
-      courseDailyLessonById(widget.args.moduleId)?.photoGuessQuestions ??
-      photoGuessQuestionsForSetId(widget.args.moduleId) ??
-      const [];
+      (courseDailyLessonById(widget.args.moduleId)?.photoGuessQuestions ??
+              photoGuessQuestionsForSetId(widget.args.moduleId) ??
+              const [])
+          .map(_shuffled)
+          .toList();
+
+  /// Returns a copy of [q] with its options shuffled into a random order
+  /// and [PhotoGuessQuestion.correctIndex] remapped to match -- the exact
+  /// same once-per-question-load shuffle pattern `McqQuizScreen._shuffled`,
+  /// `FillBlankScreen._shuffled`, and `ReadingScreen._shuffled` use (see
+  /// those methods' doc comments). Every `photo_guess_bank.dart` entry
+  /// authored so far happens to list the correct answer first, which would
+  /// make "always tap option A" a winning strategy here too without this.
+  static PhotoGuessQuestion _shuffled(PhotoGuessQuestion q) {
+    final order = List<int>.generate(q.optionsEn.length, (i) => i)..shuffle();
+    return PhotoGuessQuestion(
+      id: q.id,
+      imageAssetPath: q.imageAssetPath,
+      imagePlaceholderUrl: q.imagePlaceholderUrl,
+      promptEn: q.promptEn,
+      promptMy: q.promptMy,
+      optionsEn: [for (final i in order) q.optionsEn[i]],
+      optionsMy: [for (final i in order) q.optionsMy[i]],
+      correctIndex: order.indexOf(q.correctIndex),
+      // Carried through unchanged -- these don't index into the shuffled
+      // options, so there's nothing to remap.
+      attributionEn: q.attributionEn,
+      attributionMy: q.attributionMy,
+    );
+  }
 
   int _currentIndex = 0;
   int _score = 0;
@@ -61,9 +89,21 @@ class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
   bool _finished = false;
   Timer? _advanceTimer;
 
+  /// Reads the prompt/option text aloud on tap -- same bare
+  /// per-screen-owned wrapper `McqQuizScreen`/`FillBlankScreen`/
+  /// `ReadingScreen` already use (see `TtsService`'s own doc comment for
+  /// the Burmese-voice fallback rationale).
+  final TtsService _tts = TtsService();
+
+  void _speak(String text) {
+    final lc = Localizations.localeOf(context).languageCode;
+    unawaited(_tts.speak(text, languageCode: lc));
+  }
+
   @override
   void dispose() {
     _advanceTimer?.cancel();
+    _tts.dispose();
     super.dispose();
   }
 
@@ -80,6 +120,7 @@ class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
 
   void _advance() {
     if (!mounted) return;
+    unawaited(_tts.stop());
     if (_currentIndex >= _questions.length - 1) {
       setState(() => _finished = true);
       unawaited(_recordCompletion());
@@ -184,6 +225,7 @@ class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
                         selectedIndex: _selectedIndex,
                         answered: _answered,
                         onSelect: _selectOption,
+                        onSpeak: _speak,
                       ),
                     ),
                   ],
@@ -200,12 +242,14 @@ class _PhotoGuessQuestionView extends StatelessWidget {
     required this.selectedIndex,
     required this.answered,
     required this.onSelect,
+    required this.onSpeak,
   });
 
   final PhotoGuessQuestion question;
   final int? selectedIndex;
   final bool answered;
   final ValueChanged<int> onSelect;
+  final ValueChanged<String> onSpeak;
 
   @override
   Widget build(BuildContext context) {
@@ -213,6 +257,7 @@ class _PhotoGuessQuestionView extends StatelessWidget {
     final lc = Localizations.localeOf(context).languageCode;
     final options = lc == 'my' ? question.optionsMy : question.optionsEn;
     final attribution = question.attribution(lc);
+    final promptText = question.prompt(lc);
 
     return ListView(
       children: [
@@ -271,11 +316,22 @@ class _PhotoGuessQuestionView extends StatelessWidget {
           ),
         ],
         const SizedBox(height: 16),
-        Text(
-          question.prompt(lc),
-          style: theme.textTheme.titleLarge?.copyWith(
-            fontWeight: FontWeight.w800,
-          ),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              child: Text(
+                promptText,
+                style: theme.textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ),
+            _PhotoGuessSpeakerButton(
+              onTap: () => onSpeak(promptText),
+              iconColor: theme.colorScheme.onSurfaceVariant,
+            ),
+          ],
         ),
         const SizedBox(height: 16),
         for (var i = 0; i < options.length; i++)
@@ -291,6 +347,7 @@ class _PhotoGuessQuestionView extends StatelessWidget {
                   ? _TileState.incorrect
                   : _TileState.disabled,
               onTap: () => onSelect(i),
+              onSpeak: () => onSpeak(options[i]),
             ),
           ),
       ],
@@ -309,11 +366,13 @@ class _PhotoGuessOptionTile extends StatelessWidget {
     required this.label,
     required this.state,
     required this.onTap,
+    required this.onSpeak,
   });
 
   final String label;
   final _TileState state;
   final VoidCallback onTap;
+  final VoidCallback onSpeak;
 
   @override
   Widget build(BuildContext context) {
@@ -354,6 +413,10 @@ class _PhotoGuessOptionTile extends StatelessWidget {
                 ),
               ),
             ),
+            _PhotoGuessSpeakerButton(
+              onTap: onSpeak,
+              iconColor: theme.colorScheme.onSurfaceVariant,
+            ),
             if (state == _TileState.correct)
               const Icon(
                 Icons.check_circle_rounded,
@@ -364,6 +427,28 @@ class _PhotoGuessOptionTile extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// A small "read this aloud" tap target -- its own [IconButton] so a tap
+/// on the speaker is consumed there and never falls through to whatever
+/// tappable surface it's layered on (the prompt row, an
+/// [_PhotoGuessOptionTile]'s [CandyBevelSurface]). Mirrors
+/// `McqQuizScreen`'s private `_SpeakerButton` widget of the same shape.
+class _PhotoGuessSpeakerButton extends StatelessWidget {
+  const _PhotoGuessSpeakerButton({required this.onTap, required this.iconColor});
+
+  final VoidCallback onTap;
+  final Color iconColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      onPressed: onTap,
+      icon: Icon(Icons.volume_up_rounded, color: iconColor),
+      tooltip: _t(context, 'Read aloud', 'အသံထွက်ဖတ်ရန်'),
+      visualDensity: VisualDensity.compact,
     );
   }
 }
