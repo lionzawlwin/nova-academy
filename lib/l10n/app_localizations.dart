@@ -776,6 +776,12 @@ abstract class AppLocalizations {
   /// **'General Knowledge'**
   String get subjectGeneralKnowledge;
 
+  /// No description provided for @subjectPhotoGuess.
+  ///
+  /// In en, this message translates to:
+  /// **'Guess the Photo'**
+  String get subjectPhotoGuess;
+
   /// No description provided for @subjectStem.
   ///
   /// In en, this message translates to:

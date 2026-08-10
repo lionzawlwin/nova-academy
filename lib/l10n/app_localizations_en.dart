@@ -353,6 +353,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get subjectGeneralKnowledge => 'General Knowledge';
 
   @override
+  String get subjectPhotoGuess => 'Guess the Photo';
+
+  @override
   String get subjectStem => 'STEM';
 
   @override

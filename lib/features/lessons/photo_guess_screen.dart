@@ -12,6 +12,7 @@ import '../../providers/firebase_providers.dart';
 import '../../providers/lesson_attempt_providers.dart';
 import 'course_pathway_bank.dart';
 import 'interactive_content_models.dart';
+import 'photo_guess_bank.dart';
 
 /// Bilingual UI-chrome copy, following the same `*En`/`*My` local-`_t()`
 /// convention as the sibling lesson screens.
@@ -50,6 +51,7 @@ class PhotoGuessScreen extends ConsumerStatefulWidget {
 class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
   late final List<PhotoGuessQuestion> _questions =
       courseDailyLessonById(widget.args.moduleId)?.photoGuessQuestions ??
+      photoGuessQuestionsForSetId(widget.args.moduleId) ??
       const [];
 
   int _currentIndex = 0;
