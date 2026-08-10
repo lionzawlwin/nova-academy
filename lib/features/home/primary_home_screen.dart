@@ -125,6 +125,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
                     context,
                     l10n,
                     locale,
+                    grade,
                     gradeModules,
                     item,
                   ),
@@ -294,6 +295,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
     BuildContext context,
     AppLocalizations l10n,
     String locale,
+    Grade? grade,
     List<LearningModuleModel> gradeModules,
     ChallengeZoneItem item,
   ) {
@@ -302,7 +304,7 @@ class PrimaryHomeScreen extends ConsumerWidget {
         AppRoutes.lessonPhotoGuess,
         extra: PhotoGuessArgs(
           title: item.label,
-          moduleId: photoGuessSets.first.id,
+          moduleId: photoGuessSetIdForGrade(grade),
         ),
       );
       return;

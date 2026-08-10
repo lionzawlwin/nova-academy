@@ -67,5 +67,139 @@
     "correctIndex": 0,
     "attributionEn": null,
     "attributionMy": null
+  },
+
+  "_sourcing_note_2": "The 12 entries below (Primary Upper + Secondary sets) were sourced by Claude on 2026-08-10 with the same process: license + direct URL verified per file via WebFetch, image visually re-checked with Read after downloading. All 12 are public domain or CC0 -- no attribution required for any of them. Visual verification caught two real issues this batch: electric_circuit.jpg first downloaded as solid black due to a script bug (RGBA-with-transparency PNGs need compositing onto a white background before dropping alpha, not just discarding it -- fixed in download_photo_assets.py, all images re-downloaded after the fix); and plate_tectonics.jpg turned out to be a seafloor-spreading cross-section diagram rather than a plain world map, so its prompt/options were rewritten to match what the image actually shows instead of what was originally assumed.",
+
+  "eiffel_tower": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Eiffel_tower_paris_france.jpg",
+    "promptEn": "Which famous landmark is this?",
+    "promptMy": "ဒါဘယ်နာမည်ကြီး အထင်ကရအဆောက်အအုံလဲ",
+    "optionsEn": ["The Eiffel Tower", "Big Ben", "The Great Wall of China", "The Statue of Liberty"],
+    "optionsMy": ["အိုင်ဖယ်လ်တာဝါ", "ဘစ်ဂ်ဘန်နာရီ", "တရုတ်မြို့ရိုးကြီး", "လွတ်လပ်ရေးရုပ်တု"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "pyramids_giza": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pyramids_in_Giza_-_Egypt.jpg",
+    "promptEn": "Which famous landmark is this?",
+    "promptMy": "ဒါဘယ်နာမည်ကြီး အထင်ကရအဆောက်အအုံလဲ",
+    "optionsEn": ["The Pyramids of Giza", "The Eiffel Tower", "The Great Wall of China", "Big Ben"],
+    "optionsMy": ["ဂီဇာပိရမစ်များ", "အိုင်ဖယ်လ်တာဝါ", "တရုတ်မြို့ရိုးကြီး", "ဘစ်ဂ်ဘန်နာရီ"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "saturn_planet": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Saturn_%28planet%29_large.jpg",
+    "promptEn": "Which planet is this?",
+    "promptMy": "ဒါဘယ်ဂြိုဟ်လဲ",
+    "optionsEn": ["Saturn", "Jupiter", "Mars", "Earth"],
+    "optionsMy": ["စနေဂြိုဟ်", "ကြာသပတေးဂြိုဟ်", "အင်္ဂါဂြိုဟ်", "ကမ္ဘာ"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "earth_space": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+    "promptEn": "Which planet is this?",
+    "promptMy": "ဒါဘယ်ဂြိုဟ်လဲ",
+    "optionsEn": ["Earth", "Mars", "Venus", "Saturn"],
+    "optionsMy": ["ကမ္ဘာ", "အင်္ဂါဂြိုဟ်", "သောကြာဂြိုဟ်", "စနေဂြိုဟ်"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "lightning_storm": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lightning_NOAA.jpg",
+    "promptEn": "What weather phenomenon is this?",
+    "promptMy": "ဒါဘယ်ရာသီဥတုဖြစ်စဉ်လဲ",
+    "optionsEn": ["Lightning", "A rainbow", "Snow", "Fog"],
+    "optionsMy": ["လျှပ်စီး", "သက်တံ", "နှင်း", "မြူ"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "rainbow_sky": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Rainbow_landscape.jpg",
+    "promptEn": "What weather phenomenon is this?",
+    "promptMy": "ဒါဘယ်ရာသီဥတုဖြစ်စဉ်လဲ",
+    "optionsEn": ["A rainbow", "Lightning", "Snow", "Fog"],
+    "optionsMy": ["သက်တံ", "လျှပ်စီး", "နှင်း", "မြူ"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "animal_cell": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Animal_Cell.svg/1280px-Animal_Cell.svg.png",
+    "promptEn": "What is shown in this diagram?",
+    "promptMy": "ဒီပုံတွင် ဘာကိုပြသနေပါသလဲ",
+    "optionsEn": ["An animal cell", "A plant cell", "A bacterium", "A virus"],
+    "optionsMy": ["တိရစ္ဆာန်ဆဲလ်", "အပင်ဆဲလ်", "ဘက်တီးရီးယား", "ဗိုင်းရပ်စ်"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "dna_helix": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/DNA_Double_Helix_by_NHGRI.jpg",
+    "promptEn": "What structure is shown here?",
+    "promptMy": "ဒီဖွဲ့စည်းပုံက ဘာလဲ",
+    "optionsEn": ["A DNA double helix", "A protein chain", "A cell membrane", "A chromosome"],
+    "optionsMy": ["DNA double helix ဖွဲ့စည်းပုံ", "ပရိုတင်းကွင်းဆက်", "ဆဲလ်အမြှေး", "ခရိုမိုဆုမ်း"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "prism_light": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Prism_flat_rainbow.jpg",
+    "promptEn": "What physics concept does this photo demonstrate?",
+    "promptMy": "ဒီဓာတ်ပုံက ဘယ်ရူပဗေဒသဘောတရားကို ပြသနေပါသလဲ",
+    "optionsEn": ["Light dispersion through a prism", "Reflection off a mirror", "Gravity", "Magnetism"],
+    "optionsMy": ["ပရစ်ဇင်မှတဆင့် အလင်းအရောင်ခွဲထုတ်ခြင်း", "မှန်ပြင်ပေါ်ရောင်ပြန်ဟပ်ခြင်း", "ဆွဲငင်အား", "သံလိုက်အား"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "electric_circuit": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Circuit_diagram_%E2%80%93_pictorial_and_schematic.png",
+    "promptEn": "What does this diagram show?",
+    "promptMy": "ဒီပုံတွင် ဘာကိုပြသနေပါသလဲ",
+    "optionsEn": ["An electric circuit", "A water pipe system", "A road map", "A family tree"],
+    "optionsMy": ["လျှပ်စစ်ဆားကစ်", "ရေပိုက်စနစ်", "လမ်းမြေပုံ", "မျိုးရိုးဆွေစဉ်မျိုးဆက်"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "volcano_eruption": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Sarychev_Volcano_edit.jpg",
+    "promptEn": "What natural event is shown here?",
+    "promptMy": "ဒါဘယ်သဘာဝဖြစ်စဉ်လဲ",
+    "optionsEn": ["A volcanic eruption", "An earthquake", "A tsunami", "A tornado"],
+    "optionsMy": ["မီးတောင်ပေါက်ကွဲမှု", "ငလျင်လှုပ်ခြင်း", "ဆူနာမီလှိုင်းကြီး", "လေဒဏ်မုန်တိုင်း"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "plate_tectonics": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tectonic_plate_boundaries_clean.png",
+    "promptEn": "What geological process does this diagram show?",
+    "promptMy": "ဒီပုံသည် ဘယ်ပထဝီဗေဒဆိုင်ရာ ဖြစ်စဉ်ကို ပြသနေပါသလဲ",
+    "optionsEn": ["Seafloor spreading (plate tectonics)", "River erosion", "The water cycle", "Photosynthesis"],
+    "optionsMy": ["ပင်လယ်ကြမ်းပြင် ကွဲထွက်မှု (တက်တွန်းပြား လှုပ်ရှားမှု)", "မြစ်ကြောင်းတိုက်စားမှု", "ရေသံသရာ", "အလင်းပေါင်းစပ်ခြင်း"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
   }
 }

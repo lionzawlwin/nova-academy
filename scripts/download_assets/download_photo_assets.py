@@ -55,7 +55,18 @@ def resize_and_save(image_bytes: bytes, dest_path: Path) -> None:
     # Apply EXIF orientation before dropping EXIF entirely below, so photos
     # taken sideways/upside-down don't end up rotated in the app.
     image = ImageOps.exif_transpose(image)
-    if image.mode != "RGB":
+    if image.mode in ("RGBA", "LA") or (
+        image.mode == "P" and "transparency" in image.info
+    ):
+        # convert("RGB") on a transparent image discards the alpha channel
+        # but keeps whatever RGB values sit underneath it -- many PNGs store
+        # black there, which renders as solid black once alpha is dropped.
+        # Compositing onto a white background first avoids that.
+        rgba = image.convert("RGBA")
+        background = Image.new("RGB", rgba.size, (255, 255, 255))
+        background.paste(rgba, mask=rgba.split()[-1])
+        image = background
+    elif image.mode != "RGB":
         image = image.convert("RGB")
     if image.width > MAX_WIDTH:
         new_height = round(image.height * (MAX_WIDTH / image.width))

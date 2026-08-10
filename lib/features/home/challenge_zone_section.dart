@@ -31,14 +31,15 @@ class ChallengeZoneItem {
 /// Ghost Mode isn't a separate destination -- it auto-activates on replay
 /// inside `McqQuizScreen` (see that screen's `ghostAttemptProvider` usage)
 /// -- so this section surfaces it as a one-line hint instead of a card.
-/// Photo Guessing has a card on the Primary (Year 1-6) and Nursery/KG tiers
-/// (see `primary_home_screen.dart`'s and `nursery_kg_home_screen.dart`'s
-/// `photoguess` items, both backed by `photo_guess_bank.dart`'s first
-/// general-knowledge set and both bypassing their tier's normal
-/// Firestore-seeded module lookup, since there's no seeded content for this
-/// feature). Secondary/IGCSE still omits it -- no general-knowledge photo
-/// content exists for that tier yet, and wiring a card to a
-/// guaranteed-empty screen would just trade one dead end for another.
+/// Photo Guessing has a card on every tier now -- Nursery/KG,
+/// Primary (Year 1-6), and Secondary/IGCSE (see each home screen's
+/// `photoguess` item, all bypassing that tier's normal Firestore-seeded
+/// module lookup, since there's no seeded content for this feature).
+/// `photo_guess_bank.dart` holds three difficulty-banded sets and picks
+/// between them by grade via `photoGuessSetIdForGrade` -- fruits/animals/
+/// weather for Nursery/KG and Primary Lower (Year 1-3), landmarks/planets/
+/// weather phenomena for Primary Upper (Year 4-6), and Biology/Physics/
+/// Geography concepts for Secondary/IGCSE.
 class ChallengeZoneSection extends StatelessWidget {
   const ChallengeZoneSection({
     super.key,

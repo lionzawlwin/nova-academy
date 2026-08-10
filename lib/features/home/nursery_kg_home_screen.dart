@@ -169,7 +169,11 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
                         ChallengeZoneSection(
                           items: _challengeZoneItems(l10n, subjects),
                           onTapItem: (item) => item.subjectKey == 'photoguess'
-                              ? _openPhotoGuess(context, item.label)
+                              ? _openPhotoGuess(
+                                  context,
+                                  item.label,
+                                  child?.currentGrade,
+                                )
                               : _openLesson(
                                   context,
                                   ref,
@@ -263,10 +267,13 @@ class _NurseryKgHomeScreenState extends ConsumerState<NurseryKgHomeScreen>
   /// first general-knowledge set, bypassing [_openLesson]'s Firestore/
   /// `allNurseryActivitySummaries()` lookup entirely -- there is no seeded
   /// content for this feature, by design (see `photo_guess_bank.dart`).
-  void _openPhotoGuess(BuildContext context, String title) {
+  void _openPhotoGuess(BuildContext context, String title, Grade? grade) {
     context.push(
       AppRoutes.lessonPhotoGuess,
-      extra: PhotoGuessArgs(title: title, moduleId: photoGuessSets.first.id),
+      extra: PhotoGuessArgs(
+        title: title,
+        moduleId: photoGuessSetIdForGrade(grade),
+      ),
     );
   }
 

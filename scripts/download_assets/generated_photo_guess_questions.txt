@@ -61,3 +61,123 @@ PhotoGuessQuestion(
   optionsMy: ['မိုးရွာနေသည်', 'နှင်းကျနေသည်', 'နေသာနေသည်', 'လေတိုက်နေသည်'],
   correctIndex: 0,
 ),
+
+PhotoGuessQuestion(
+  id: 'eiffel_tower',
+  imageAssetPath: 'assets/photo_guess/eiffel_tower.jpg',
+  promptEn: 'Which famous landmark is this?',
+  promptMy: 'ဒါဘယ်နာမည်ကြီး အထင်ကရအဆောက်အအုံလဲ',
+  optionsEn: ['The Eiffel Tower', 'Big Ben', 'The Great Wall of China', 'The Statue of Liberty'],
+  optionsMy: ['အိုင်ဖယ်လ်တာဝါ', 'ဘစ်ဂ်ဘန်နာရီ', 'တရုတ်မြို့ရိုးကြီး', 'လွတ်လပ်ရေးရုပ်တု'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'pyramids_giza',
+  imageAssetPath: 'assets/photo_guess/pyramids_giza.jpg',
+  promptEn: 'Which famous landmark is this?',
+  promptMy: 'ဒါဘယ်နာမည်ကြီး အထင်ကရအဆောက်အအုံလဲ',
+  optionsEn: ['The Pyramids of Giza', 'The Eiffel Tower', 'The Great Wall of China', 'Big Ben'],
+  optionsMy: ['ဂီဇာပိရမစ်များ', 'အိုင်ဖယ်လ်တာဝါ', 'တရုတ်မြို့ရိုးကြီး', 'ဘစ်ဂ်ဘန်နာရီ'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'saturn_planet',
+  imageAssetPath: 'assets/photo_guess/saturn_planet.jpg',
+  promptEn: 'Which planet is this?',
+  promptMy: 'ဒါဘယ်ဂြိုဟ်လဲ',
+  optionsEn: ['Saturn', 'Jupiter', 'Mars', 'Earth'],
+  optionsMy: ['စနေဂြိုဟ်', 'ကြာသပတေးဂြိုဟ်', 'အင်္ဂါဂြိုဟ်', 'ကမ္ဘာ'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'earth_space',
+  imageAssetPath: 'assets/photo_guess/earth_space.jpg',
+  promptEn: 'Which planet is this?',
+  promptMy: 'ဒါဘယ်ဂြိုဟ်လဲ',
+  optionsEn: ['Earth', 'Mars', 'Venus', 'Saturn'],
+  optionsMy: ['ကမ္ဘာ', 'အင်္ဂါဂြိုဟ်', 'သောကြာဂြိုဟ်', 'စနေဂြိုဟ်'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'lightning_storm',
+  imageAssetPath: 'assets/photo_guess/lightning_storm.jpg',
+  promptEn: 'What weather phenomenon is this?',
+  promptMy: 'ဒါဘယ်ရာသီဥတုဖြစ်စဉ်လဲ',
+  optionsEn: ['Lightning', 'A rainbow', 'Snow', 'Fog'],
+  optionsMy: ['လျှပ်စီး', 'သက်တံ', 'နှင်း', 'မြူ'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'rainbow_sky',
+  imageAssetPath: 'assets/photo_guess/rainbow_sky.jpg',
+  promptEn: 'What weather phenomenon is this?',
+  promptMy: 'ဒါဘယ်ရာသီဥတုဖြစ်စဉ်လဲ',
+  optionsEn: ['A rainbow', 'Lightning', 'Snow', 'Fog'],
+  optionsMy: ['သက်တံ', 'လျှပ်စီး', 'နှင်း', 'မြူ'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'animal_cell',
+  imageAssetPath: 'assets/photo_guess/animal_cell.jpg',
+  promptEn: 'What is shown in this diagram?',
+  promptMy: 'ဒီပုံတွင် ဘာကိုပြသနေပါသလဲ',
+  optionsEn: ['An animal cell', 'A plant cell', 'A bacterium', 'A virus'],
+  optionsMy: ['တိရစ္ဆာန်ဆဲလ်', 'အပင်ဆဲလ်', 'ဘက်တီးရီးယား', 'ဗိုင်းရပ်စ်'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'dna_helix',
+  imageAssetPath: 'assets/photo_guess/dna_helix.jpg',
+  promptEn: 'What structure is shown here?',
+  promptMy: 'ဒီဖွဲ့စည်းပုံက ဘာလဲ',
+  optionsEn: ['A DNA double helix', 'A protein chain', 'A cell membrane', 'A chromosome'],
+  optionsMy: ['DNA double helix ဖွဲ့စည်းပုံ', 'ပရိုတင်းကွင်းဆက်', 'ဆဲလ်အမြှေး', 'ခရိုမိုဆုမ်း'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'prism_light',
+  imageAssetPath: 'assets/photo_guess/prism_light.jpg',
+  promptEn: 'What physics concept does this photo demonstrate?',
+  promptMy: 'ဒီဓာတ်ပုံက ဘယ်ရူပဗေဒသဘောတရားကို ပြသနေပါသလဲ',
+  optionsEn: ['Light dispersion through a prism', 'Reflection off a mirror', 'Gravity', 'Magnetism'],
+  optionsMy: ['ပရစ်ဇင်မှတဆင့် အလင်းအရောင်ခွဲထုတ်ခြင်း', 'မှန်ပြင်ပေါ်ရောင်ပြန်ဟပ်ခြင်း', 'ဆွဲငင်အား', 'သံလိုက်အား'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'electric_circuit',
+  imageAssetPath: 'assets/photo_guess/electric_circuit.jpg',
+  promptEn: 'What does this diagram show?',
+  promptMy: 'ဒီပုံတွင် ဘာကိုပြသနေပါသလဲ',
+  optionsEn: ['An electric circuit', 'A water pipe system', 'A road map', 'A family tree'],
+  optionsMy: ['လျှပ်စစ်ဆားကစ်', 'ရေပိုက်စနစ်', 'လမ်းမြေပုံ', 'မျိုးရိုးဆွေစဉ်မျိုးဆက်'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'volcano_eruption',
+  imageAssetPath: 'assets/photo_guess/volcano_eruption.jpg',
+  promptEn: 'What natural event is shown here?',
+  promptMy: 'ဒါဘယ်သဘာဝဖြစ်စဉ်လဲ',
+  optionsEn: ['A volcanic eruption', 'An earthquake', 'A tsunami', 'A tornado'],
+  optionsMy: ['မီးတောင်ပေါက်ကွဲမှု', 'ငလျင်လှုပ်ခြင်း', 'ဆူနာမီလှိုင်းကြီး', 'လေဒဏ်မုန်တိုင်း'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'plate_tectonics',
+  imageAssetPath: 'assets/photo_guess/plate_tectonics.jpg',
+  promptEn: 'What geological process does this diagram show?',
+  promptMy: 'ဒီပုံသည် ဘယ်ပထဝီဗေဒဆိုင်ရာ ဖြစ်စဉ်ကို ပြသနေပါသလဲ',
+  optionsEn: ['Seafloor spreading (plate tectonics)', 'River erosion', 'The water cycle', 'Photosynthesis'],
+  optionsMy: ['ပင်လယ်ကြမ်းပြင် ကွဲထွက်မှု (တက်တွန်းပြား လှုပ်ရှားမှု)', 'မြစ်ကြောင်းတိုက်စားမှု', 'ရေသံသရာ', 'အလင်းပေါင်းစပ်ခြင်း'],
+  correctIndex: 0,
+),

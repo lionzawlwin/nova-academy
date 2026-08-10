@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/constants/home_tier.dart';
 import '../../core/theme/app_theme.dart';
@@ -12,7 +13,10 @@ import '../../models/learning_module_model.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/course_progress_providers.dart';
 import '../../providers/learning_module_providers.dart';
+import '../../routing/app_router.dart';
 import '../lessons/lesson_navigation.dart';
+import '../lessons/photo_guess_bank.dart';
+import '../lessons/photo_guess_screen.dart' show PhotoGuessArgs;
 import 'challenge_zone_section.dart';
 import 'course_pathway_browser.dart';
 import 'home_shared_widgets.dart';
@@ -130,6 +134,7 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
                 context,
                 l10n,
                 locale,
+                grade,
                 gradeModules,
                 item,
               ),
@@ -259,6 +264,16 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
       color: AppColors.candyPrimary,
       subjectKey: 'history',
     ),
+    // Not backed by a seeded LearningModuleModel like the four items above
+    // -- mirrors `PrimaryHomeScreen`'s/`NurseryKgHomeScreen`'s same
+    // `photoguess` treatment: special-cased in `_handleChallengeTap` to push
+    // straight to PhotoGuessScreen with a local `photo_guess_bank.dart` set.
+    ChallengeZoneItem(
+      label: l10n.subjectPhotoGuess,
+      icon: Icons.photo_camera_rounded,
+      color: AppColors.secondary,
+      subjectKey: 'photoguess',
+    ),
   ];
 
   /// One-tap Challenge Zone entry -- mirrors `PrimaryHomeScreen`'s handler:
@@ -269,9 +284,20 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
     BuildContext context,
     AppLocalizations l10n,
     String locale,
+    Grade? grade,
     List<LearningModuleModel> gradeModules,
     ChallengeZoneItem item,
   ) {
+    if (item.subjectKey == 'photoguess') {
+      context.push(
+        AppRoutes.lessonPhotoGuess,
+        extra: PhotoGuessArgs(
+          title: item.label,
+          moduleId: photoGuessSetIdForGrade(grade),
+        ),
+      );
+      return;
+    }
     final matches = gradeModules
         .where((m) => m.subject.toLowerCase() == item.subjectKey)
         .toList();
