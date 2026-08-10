@@ -1,0 +1,63 @@
+PhotoGuessQuestion(
+  id: 'apple_fruit',
+  imageAssetPath: 'assets/photo_guess/apple_fruit.jpg',
+  promptEn: 'What fruit is this?',
+  promptMy: 'ဒါဘာအသီးလဲ',
+  optionsEn: ['Apple', 'Banana', 'Orange', 'Grape'],
+  optionsMy: ['ပန်းသီး', 'ငှက်ပျောသီး', 'လိမ္မော်သီး', 'စပျစ်သီး'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'banana_fruit',
+  imageAssetPath: 'assets/photo_guess/banana_fruit.jpg',
+  promptEn: 'What fruit is this?',
+  promptMy: 'ဒါဘာအသီးလဲ',
+  optionsEn: ['Banana', 'Apple', 'Mango', 'Pineapple'],
+  optionsMy: ['ငှက်ပျောသီး', 'ပန်းသီး', 'သရက်သီး', 'နာနတ်သီး'],
+  correctIndex: 0,
+  attributionEn: 'Photo: Evan-Amos / Wikimedia Commons, CC BY-SA 3.0',
+  attributionMy: 'ဓာတ်ပုံ: Evan-Amos / Wikimedia Commons, CC BY-SA 3.0',
+),
+
+PhotoGuessQuestion(
+  id: 'cat_animal',
+  imageAssetPath: 'assets/photo_guess/cat_animal.jpg',
+  promptEn: 'What animal is this?',
+  promptMy: 'ဒါဘာတိရစ္ဆာန်လဲ',
+  optionsEn: ['Cat', 'Dog', 'Rabbit', 'Bird'],
+  optionsMy: ['ကြောင်', 'ခွေး', 'ယုန်', 'ငှက်'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'dog_animal',
+  imageAssetPath: 'assets/photo_guess/dog_animal.jpg',
+  promptEn: 'What animal is this?',
+  promptMy: 'ဒါဘာတိရစ္ဆာန်လဲ',
+  optionsEn: ['Dog', 'Cat', 'Cow', 'Horse'],
+  optionsMy: ['ခွေး', 'ကြောင်', 'နွား', 'မြင်း'],
+  correctIndex: 0,
+),
+
+PhotoGuessQuestion(
+  id: 'sun_weather',
+  imageAssetPath: 'assets/photo_guess/sun_weather.jpg',
+  promptEn: 'What is in the sky in this photo?',
+  promptMy: 'ဒီဓာတ်ပုံထဲမှာ ကောင်းကင်ပေါ်က ဘာလဲ',
+  optionsEn: ['The sun', 'The moon', 'A star', 'A cloud'],
+  optionsMy: ['နေ', 'လ', 'ကြယ်', 'တိမ်'],
+  correctIndex: 0,
+  attributionEn: 'Photo: Kreuzschnabel / Wikimedia Commons, CC BY-SA 3.0',
+  attributionMy: 'ဓာတ်ပုံ: Kreuzschnabel / Wikimedia Commons, CC BY-SA 3.0',
+),
+
+PhotoGuessQuestion(
+  id: 'rain_weather',
+  imageAssetPath: 'assets/photo_guess/rain_weather.jpg',
+  promptEn: 'What weather is shown here?',
+  promptMy: 'ဒီဓာတ်ပုံမှာ ဘယ်လိုရာသီဥတုပြထားလဲ',
+  optionsEn: ['Rain', 'Snow', 'Sunshine', 'Wind'],
+  optionsMy: ['မိုးရွာနေသည်', 'နှင်းကျနေသည်', 'နေသာနေသည်', 'လေတိုက်နေသည်'],
+  correctIndex: 0,
+),

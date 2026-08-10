@@ -1,8 +1,10 @@
 {
-  "_instructions": "See scripts/download_assets/README.md for the full guide. Each key below becomes the image id, the output filename (assets/photo_guess/<id>.jpg), and PhotoGuessQuestion.id -- keep it lowercase_with_underscores. Delete these three template entries before adding your own real ones. Keys starting with '_' (like this one) are ignored by the script.",
+  "_instructions": "See scripts/download_assets/README.md for the full guide. Each key below becomes the image id, the output filename (assets/photo_guess/<id>.jpg), and PhotoGuessQuestion.id -- keep it lowercase_with_underscores. Keys starting with '_' (like this one) are ignored by the script.",
+
+  "_sourcing_note": "The 6 entries below were sourced from Wikimedia Commons by Claude on 2026-08-10 (public domain / CC0 / CC-BY-SA-3.0 only), with license and direct-file-URL verified per file via WebFetch on each Commons file page before inclusion. Each downloaded image was also visually re-checked with the Read tool after running the script. This is still worth a human glance before it ships to real students -- see the chat summary for exactly which file pages were checked.",
 
   "apple_fruit": {
-    "url": "https://example.com/replace-with-real-apple-photo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Beautiful_red_apple.jpg",
     "promptEn": "What fruit is this?",
     "promptMy": "ဒါဘာအသီးလဲ",
     "optionsEn": ["Apple", "Banana", "Orange", "Grape"],
@@ -12,16 +14,58 @@
     "attributionMy": null
   },
 
-  "eiffel_tower": {
-    "url": "https://example.com/replace-with-real-eiffel-tower-photo.jpg",
-    "promptEn": "Which city is this landmark in?",
-    "promptMy": "ဒီအမှတ်လက္ခဏာက ဘယ်မြို့မှာလဲ",
-    "optionsEn": ["Paris", "London", "Rome", "Cairo"],
-    "optionsMy": ["ပါရီ", "လန်ဒန်", "ရောမ", "ကိုင်ရို"],
+  "banana_fruit": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
+    "promptEn": "What fruit is this?",
+    "promptMy": "ဒါဘာအသီးလဲ",
+    "optionsEn": ["Banana", "Apple", "Mango", "Pineapple"],
+    "optionsMy": ["ငှက်ပျောသီး", "ပန်းသီး", "သရက်သီး", "နာနတ်သီး"],
     "correctIndex": 0,
-    "attributionEn": "Photo: Jane Doe / Wikimedia Commons, CC BY-SA 4.0",
-    "attributionMy": "ဓာတ်ပုံ: Jane Doe / Wikimedia Commons, CC BY-SA 4.0"
+    "attributionEn": "Photo: Evan-Amos / Wikimedia Commons, CC BY-SA 3.0",
+    "attributionMy": "ဓာတ်ပုံ: Evan-Amos / Wikimedia Commons, CC BY-SA 3.0"
   },
 
-  "quick_placeholder_only": "https://example.com/replace-with-real-photo.jpg"
+  "cat_animal": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cat_domestic.jpg",
+    "promptEn": "What animal is this?",
+    "promptMy": "ဒါဘာတိရစ္ဆာန်လဲ",
+    "optionsEn": ["Cat", "Dog", "Rabbit", "Bird"],
+    "optionsMy": ["ကြောင်", "ခွေး", "ယုန်", "ငှက်"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "dog_animal": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Black_dog.jpg",
+    "promptEn": "What animal is this?",
+    "promptMy": "ဒါဘာတိရစ္ဆာန်လဲ",
+    "optionsEn": ["Dog", "Cat", "Cow", "Horse"],
+    "optionsMy": ["ခွေး", "ကြောင်", "နွား", "မြင်း"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  },
+
+  "sun_weather": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sun-in-the-sky.jpg",
+    "promptEn": "What is in the sky in this photo?",
+    "promptMy": "ဒီဓာတ်ပုံထဲမှာ ကောင်းကင်ပေါ်က ဘာလဲ",
+    "optionsEn": ["The sun", "The moon", "A star", "A cloud"],
+    "optionsMy": ["နေ", "လ", "ကြယ်", "တိမ်"],
+    "correctIndex": 0,
+    "attributionEn": "Photo: Kreuzschnabel / Wikimedia Commons, CC BY-SA 3.0",
+    "attributionMy": "ဓာတ်ပုံ: Kreuzschnabel / Wikimedia Commons, CC BY-SA 3.0"
+  },
+
+  "rain_weather": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Rain_drops_%28Unsplash%29.jpg",
+    "promptEn": "What weather is shown here?",
+    "promptMy": "ဒီဓာတ်ပုံမှာ ဘယ်လိုရာသီဥတုပြထားလဲ",
+    "optionsEn": ["Rain", "Snow", "Sunshine", "Wind"],
+    "optionsMy": ["မိုးရွာနေသည်", "နှင်းကျနေသည်", "နေသာနေသည်", "လေတိုက်နေသည်"],
+    "correctIndex": 0,
+    "attributionEn": null,
+    "attributionMy": null
+  }
 }
