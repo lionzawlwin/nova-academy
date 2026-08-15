@@ -1608,6 +1608,1444 @@ const CourseWeekDef _igcseChemWeek4 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 5: "Formulae and Balanced Equations"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek5 = CourseWeekDef(
+  id: "course-igcse-chem-w5",
+  weekNumber: 5,
+  titleEn: "Formulae and Balanced Equations",
+  titleMy: "ဖော်မြူလာများနှင့် ချိန်ညှိထားသော ဓာတုညီမျှခြင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w5-d1",
+      dayNumber: 1,
+      titleEn: "Writing Chemical Formulae",
+      titleMy: "ဓာတုဖော်မြူလာများ ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the correct formula for magnesium oxide, given Mg2+ and O2-?",
+          questionMy:
+              "Mg2+ နှင့် O2- ကို အခြေခံ၍ မဂ္ဂနီဆီယမ်အောက်ဆိုဒ်၏ မှန်ကန်သော ဖော်မြူလာမှာ အဘယ်နည်း။",
+          optionsEn: ["MgO", "Mg2O", "MgO2", "Mg2O2"],
+          optionsMy: ["MgO", "Mg2O", "MgO2", "Mg2O2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ionic formulae balance so that the total positive charge equals the total negative charge.",
+            "Mg2+ and O2- have equal but opposite charges, so a 1:1 ratio balances them exactly.",
+          ],
+          hintsMy: [
+            "Ionic ဖော်မြူလာများသည် စုစုပေါင်း အပြုသဘော တာဝန်ခံအားက စုစုပေါင်း အနုတ်သဘော တာဝန်ခံအားနှင့် ညီမျှစေရန် ချိန်ညှိသည်။",
+            "Mg2+ နှင့် O2- သည် ညီမျှသော်လည်း ဆန့်ကျင်ဘက် တာဝန်ခံအားရှိသောကြောင့် 1:1 အချိုးက အတိအကျ ချိန်ညှိပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the correct formula for calcium chloride, given Ca2+ and Cl-?",
+          questionMy:
+              "Ca2+ နှင့် Cl- ကို အခြေခံ၍ ကယ်လစီယမ်ကလိုရိုဒ်၏ မှန်ကန်သော ဖော်မြူလာမှာ အဘယ်နည်း။",
+          optionsEn: ["CaCl2", "CaCl", "Ca2Cl", "Ca2Cl2"],
+          optionsMy: ["CaCl2", "CaCl", "Ca2Cl", "Ca2Cl2"],
+          correctIndex: 0,
+          hintsEn: [
+            "One Ca2+ ion needs two Cl- ions to balance its charge, since each chloride only carries a single negative charge.",
+          ],
+          hintsMy: [
+            "Ca2+ Ion တစ်ခုသည် Cl- Ion နှစ်ခု လိုအပ်သည်၊ အကြောင်းမှာ ကလိုရိုဒ်တစ်ခုစီသည် အနုတ်သဘော တာဝန်ခံအား တစ်ခုသာ ဆောင်သောကြောင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the balanced equation Mg + 2HCl -> MgCl2 + H2, what does the number '2' in front of HCl indicate?",
+          questionMy:
+              "ချိန်ညှိထားသော ညီမျှခြင်း Mg + 2HCl -> MgCl2 + H2 တွင် HCl ရှေ့ရှိ '2' ဂဏန်းက အဘယ်ကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "2 moles (or particles) of HCl react for every 1 mole of Mg",
+            "There are 2 chlorine atoms in a single HCl molecule",
+            "The reaction produces 2 grams of product",
+            "The reaction happens twice as fast as normal",
+          ],
+          optionsMy: [
+            "Mg ၁ မိုးလ်နှင့် HCl ၂ မိုးလ် (သို့မဟုတ် အမှုန် ၂ ခု) ဓာတ်ပြုသည်",
+            "HCl မော်လီကျူးတစ်ခုတွင် ကလိုရင် အက်တမ် ၂ ခု ရှိသည်",
+            "ဓာတ်ပြုမှုက ရလဒ်ပစ္စည်း ဂရမ် ၂ ကို ထုတ်ပေးသည်",
+            "ဓာတ်ပြုမှုသည် ပုံမှန်ထက် နှစ်ဆ မြန်ဆန်စွာ ဖြစ်ပွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Coefficients in a balanced equation represent mole ratios, not atom counts within a single molecule.",
+          ],
+          hintsMy: [
+            "ချိန်ညှိထားသော ညီမျှခြင်းရှိ Coefficient များသည် မော်လီကျူးတစ်ခုအတွင်းရှိ အက်တမ်အရေအတွက် မဟုတ်ဘဲ Mole အချိုးများကို ကိုယ်စားပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Formulae and Equations Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဖော်မြူလာနှင့် ညီမျှခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w5-dm-1",
+          termEn: "Chemical formula",
+          termMy: "Chemical Formula",
+          matchEn:
+              "A notation showing the elements and ratio of atoms in a compound",
+          matchMy:
+              "ဒြပ်ပေါင်းတစ်ခုရှိ ဒြပ်စင်များနှင့် အက်တမ် အချိုးကို ပြသသော သင်္ကေတစနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w5-dm-2",
+          termEn: "Balanced equation",
+          termMy: "Balanced Equation",
+          matchEn:
+              "An equation where atom counts match on both sides, obeying conservation of mass",
+          matchMy:
+              "ဘေးနှစ်ဖက်စလုံးတွင် အက်တမ်အရေအတွက် ကိုက်ညီပြီး Mass ထိန်းသိမ်းမှု ဥပဒေအတိုင်း လိုက်နာသော ညီမျှခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w5-dm-3",
+          termEn: "Ionic equation",
+          termMy: "Ionic Equation",
+          matchEn:
+              "An equation showing only the ions that actually take part in a reaction",
+          matchMy:
+              "ဓာတ်ပြုမှုတွင် အမှန်တကယ် ပါဝင်သော Ion များကိုသာ ပြသသော ညီမျှခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w5-dm-4",
+          termEn: "Spectator ion",
+          termMy: "Spectator Ion",
+          matchEn:
+              "An ion present in the reaction mixture that does not change or take part",
+          matchMy:
+              "ဓာတ်ပြု အရောအနှောတွင် ရှိနေသော်လည်း မပြောင်းလဲဘဲ ပါဝင်ဆောင်ရွက်ခြင်း မရှိသော Ion",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w5-dm-5",
+          termEn: "Coefficient",
+          termMy: "Coefficient",
+          matchEn:
+              "The number placed in front of a formula in an equation to balance it",
+          matchMy: "ညီမျှခြင်းကို ချိန်ညှိရန် ဖော်မြူလာရှေ့တွင် ထားသော ဂဏန်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Balanced or Unbalanced?",
+      titleMy: "စီစစ်ကြမည် - ချိန်ညှိပြီးလား၊ မချိန်ညှိရသေးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Balanced", "Unbalanced"],
+        bucketsMy: ["ချိန်ညှိပြီး", "မချိန်ညှိရသေး"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w5-sort-1",
+            labelEn: "2H2 + O2 -> 2H2O (4 H and 2 O atoms on each side)",
+            labelMy:
+                "2H2 + O2 -> 2H2O (ဘက်နှစ်ဖက်စလုံးတွင် H ၄ ခုနှင့် O ၂ ခု)",
+            correctBucketEn: "Balanced",
+            correctBucketMy: "ချိန်ညှိပြီး",
+          ),
+          SortingItem(
+            id: "igcsechem-w5-sort-2",
+            labelEn:
+                "H2 + O2 -> H2O (2 H atoms but 2 O atoms on the left, only 1 O on the right)",
+            labelMy:
+                "H2 + O2 -> H2O (ဘယ်ဘက်တွင် H ၂ ခု၊ O ၂ ခု ရှိသော်လည်း ညာဘက်တွင် O ၁ ခုသာ ရှိသည်)",
+            correctBucketEn: "Unbalanced",
+            correctBucketMy: "မချိန်ညှိရသေး",
+          ),
+          SortingItem(
+            id: "igcsechem-w5-sort-3",
+            labelEn: "N2 + 3H2 -> 2NH3 (2 N and 6 H atoms on each side)",
+            labelMy:
+                "N2 + 3H2 -> 2NH3 (ဘက်နှစ်ဖက်စလုံးတွင် N ၂ ခုနှင့် H ၆ ခု)",
+            correctBucketEn: "Balanced",
+            correctBucketMy: "ချိန်ညှိပြီး",
+          ),
+          SortingItem(
+            id: "igcsechem-w5-sort-4",
+            labelEn:
+                "Mg + HCl -> MgCl2 + H2 (1 Cl atom on the left but 2 Cl atoms on the right)",
+            labelMy:
+                "Mg + HCl -> MgCl2 + H2 (ဘယ်ဘက်တွင် Cl ၁ ခုသာ ရှိသော်လည်း ညာဘက်တွင် Cl ၂ ခု ရှိသည်)",
+            correctBucketEn: "Unbalanced",
+            correctBucketMy: "မချိန်ညှိရသေး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Engineer Ko Htet Balances the Ammonia Plant Equation",
+      titleMy:
+          "စာဖတ်ခြင်း - အင်ဂျင်နီယာ ကိုထက်၏ အမိုးနီးယား စက်ရုံ ညီမျှခြင်း ချိန်ညှိခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Engineer Ko Htet Balances the Ammonia Plant Equation",
+        titleMy:
+            "အင်ဂျင်နီယာ ကိုထက်၏ အမိုးနီးယား စက်ရုံ ညီမျှခြင်း ချိန်ညှိခြင်း",
+        passageEn:
+            "Ko Htet, a chemical process engineer at a fertiliser plant, was training a new graduate on the plant's core reaction: nitrogen gas combining with hydrogen gas to produce ammonia, used to make fertiliser. He wrote the unbalanced skeleton equation on the whiteboard: N2 + H2 -> NH3, and asked the trainee what was wrong with it.\n\nThe trainee counted atoms carefully: on the left side, there were 2 nitrogen atoms and 2 hydrogen atoms. On the right side, there was only 1 nitrogen atom and 3 hydrogen atoms. Since atoms cannot be created or destroyed in a chemical reaction -- the law of conservation of mass -- the equation as written was impossible; the same number of each type of atom must appear on both sides.\n\nKo Htet then explained the systematic process: since there were 2 nitrogen atoms on the left but only 1 on the right, he placed a coefficient of 2 in front of NH3, giving N2 + H2 -> 2NH3. This fixed nitrogen (2 on each side) but now created 6 hydrogen atoms on the right (2 x 3), while the left side still only had 2. To fix this, he placed a coefficient of 3 in front of H2 on the left, giving the fully balanced equation: N2 + 3H2 -> 2NH3. Now both sides had exactly 2 nitrogen atoms and 6 hydrogen atoms.\n\nKo Htet emphasised that this coefficient of 3 in front of H2 was not arbitrary -- it meant that for every 1 mole of nitrogen gas that reacted, exactly 3 moles of hydrogen gas were required, producing exactly 2 moles of ammonia. He told the trainee that this precise mole ratio, read directly from the balanced equation, was exactly what plant engineers used to calculate how much hydrogen gas to pump into the reactor for a given quantity of nitrogen -- getting the ratio wrong meant wasted raw material or a stalled reaction.",
+        passageMy:
+            "မြေဩဇာစက်ရုံရှိ ဓာတု လုပ်ငန်းစဉ် အင်ဂျင်နီယာ ကိုထက်သည် ဘွဲ့ရသစ်တစ်ဦးအား စက်ရုံ၏ အဓိက ဓာတ်ပြုမှုအကြောင်း လေ့ကျင့်ပေးနေခဲ့သည်- နိုက်ထရိုဂျင် ဓာတ်ငွေ့သည် ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့နှင့် ပေါင်းစပ်ကာ မြေဩဇာလုပ်ရန် အသုံးပြုသည့် အမိုးနီးယား ထုတ်ပေးသည်။ သူသည် ချိန်ညှိမထားသော ညီမျှခြင်း၏ အကြမ်းပုံစံကို Whiteboard ပေါ်တွင် ရေးခဲ့သည်- N2 + H2 -> NH3၊ ပြီးလျှင် ၎င်းတွင် မှားနေသည်ကို လေ့ကျင့်သူအား မေးမြန်းခဲ့သည်။\n\nလေ့ကျင့်သူသည် အက်တမ်များကို ဂရုတစိုက် ရေတွက်ခဲ့သည်- ဘယ်ဘက်တွင် နိုက်ထရိုဂျင် အက်တမ် ၂ ခုနှင့် ဟိုက်ဒရိုဂျင် အက်တမ် ၂ ခု ရှိသည်။ ညာဘက်တွင် နိုက်ထရိုဂျင် အက်တမ် ၁ ခုသာ ရှိပြီး ဟိုက်ဒရိုဂျင် အက်တမ် ၃ ခု ရှိသည်။ ဓာတုဓာတ်ပြုမှု တစ်ခုအတွင်း အက်တမ်များကို ဖန်တီး၍မရ ဖျက်ဆီး၍မရသောကြောင့် -- Mass ထိန်းသိမ်းမှု ဥပဒေ -- ရေးထားသည့်အတိုင်း ညီမျှခြင်းသည် မဖြစ်နိုင်ပါ၊ အက်တမ် အမျိုးအစားတစ်ခုစီ၏ အရေအတွက် တူညီစွာ ဘက်နှစ်ဖက်စလုံးတွင် ပေါ်နေရမည်။\n\nထို့နောက် ကိုထက်က စနစ်တကျ လုပ်ငန်းစဉ်ကို ရှင်းပြခဲ့သည်- ဘယ်ဘက်တွင် နိုက်ထရိုဂျင် ၂ ခု ရှိသော်လည်း ညာဘက်တွင် ၁ ခုသာ ရှိသောကြောင့် သူသည် NH3 ရှေ့တွင် Coefficient ၂ ကို ထားခဲ့သည်၊ N2 + H2 -> 2NH3 ကို ပေးခဲ့သည်။ ၎င်းက နိုက်ထရိုဂျင်ကို ပြင်ဆင်ပေးခဲ့သော်လည်း (ဘက်နှစ်ဖက်စလုံးတွင် ၂ စီ) ယခု ညာဘက်တွင် ဟိုက်ဒရိုဂျင် အက်တမ် ၆ ခု ဖြစ်လာခဲ့သည် (2 x 3)၊ ဘယ်ဘက်တွင်မူ ၂ ခုသာ ရှိနေဆဲ ဖြစ်သည်။ ၎င်းကို ပြင်ဆင်ရန် သူသည် ဘယ်ဘက်ရှိ H2 ရှေ့တွင် Coefficient ၃ ကို ထားခဲ့ကာ အပြည့်အဝ ချိန်ညှိထားသော ညီမျှခြင်းကို ရရှိခဲ့သည်- N2 + 3H2 -> 2NH3။ ယခု ဘက်နှစ်ဖက်စလုံးတွင် နိုက်ထရိုဂျင် အက်တမ် ၂ ခုနှင့် ဟိုက်ဒရိုဂျင် အက်တမ် ၆ ခု အတိအကျ ရှိလာခဲ့သည်။\n\nH2 ရှေ့ရှိ ဤ Coefficient ၃ သည် ကျပန်း မဟုတ်ကြောင်း ကိုထက် အလေးထား ဖော်ပြခဲ့သည် -- ၎င်းက ဓာတ်ပြုသော နိုက်ထရိုဂျင် ဓာတ်ငွေ့ ၁ မိုးလ်တိုင်းအတွက် ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ ၃ မိုးလ် အတိအကျ လိုအပ်ကာ အမိုးနီးယား ၂ မိုးလ် အတိအကျ ထုတ်ပေးကြောင်း ဆိုလိုသည်။ ချိန်ညှိထားသော ညီမျှခြင်းမှ တိုက်ရိုက် ဖတ်ရှုရသော ဤ တိကျသော Mole အချိုးသည် ပေးထားသော နိုက်ထရိုဂျင် ပမာဏအတွက် ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ မည်မျှ Reactor ထဲသို့ ထည့်ရမည်ကို တွက်ချက်ရန် စက်ရုံ အင်ဂျင်နီယာများ အသုံးပြုသည့်အရာပင် ဖြစ်ကြောင်း လေ့ကျင့်သူအား ပြောကြားခဲ့သည် -- အချိုးကို မှားယွင်းစွာ ချမှတ်ခြင်းသည် ကုန်ကြမ်း ဆုံးရှုံးခြင်း သို့မဟုတ် ဓာတ်ပြုမှု ရပ်တန့်ခြင်းကို ဆိုလိုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why must a chemical equation have equal numbers of each atom on both sides?",
+            questionMy:
+                "ဓာတုညီမျှခြင်းတစ်ခုတွင် အက်တမ် အမျိုးအစားတစ်ခုစီ၏ အရေအတွက် ဘက်နှစ်ဖက်စလုံးတွင် ညီမျှရမည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Atoms cannot be created or destroyed in a chemical reaction (conservation of mass)",
+              "It makes the equation look neater",
+              "Nitrogen gas is dangerous otherwise",
+              "It is only a suggestion, not a rule",
+            ],
+            optionsMy: [
+              "ဓာတုဓာတ်ပြုမှုတစ်ခုအတွင်း အက်တမ်များကို ဖန်တီး၍မရ ဖျက်ဆီး၍မရသောကြောင့် (Mass ထိန်းသိမ်းမှု)",
+              "ညီမျှခြင်းကို ပိုပြီး သပ်ရပ်အောင် လုပ်ပေးသောကြောင့်",
+              "နိုက်ထရိုဂျင် ဓာတ်ငွေ့သည် အန္တရာယ်ရှိသောကြောင့်",
+              "ဥပဒေ မဟုတ်ဘဲ အကြံပြုချက်တစ်ခုသာ ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explicitly naming the law of conservation of mass.",
+            ],
+            hintsMy: [
+              "Mass ထိန်းသိမ်းမှု ဥပဒေကို တိတိကျကျ ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the final, fully balanced form of the ammonia equation?",
+            questionMy:
+                "အမိုးနီးယား ညီမျှခြင်း၏ နောက်ဆုံး အပြည့်အဝ ချိန်ညှိထားသော ပုံစံကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "N2 + 3H2 -> 2NH3",
+              "N2 + H2 -> NH3",
+              "N2 + 2H2 -> 2NH3",
+              "2N2 + 3H2 -> NH3",
+            ],
+            optionsMy: [
+              "N2 + 3H2 -> 2NH3",
+              "N2 + H2 -> NH3",
+              "N2 + 2H2 -> 2NH3",
+              "2N2 + 3H2 -> NH3",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence stating the fully balanced equation directly.",
+            ],
+            hintsMy: [
+              "အပြည့်အဝ ချိန်ညှိထားသော ညီမျှခြင်းကို တိုက်ရိုက် ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the balanced equation, how many moles of hydrogen gas are needed for every 1 mole of nitrogen gas?",
+            questionMy:
+                "ချိန်ညှိထားသော ညီမျှခြင်းအရ နိုက်ထရိုဂျင် ဓာတ်ငွေ့ ၁ မိုးလ်တိုင်းအတွက် ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ မိုးလ် မည်မျှ လိုအပ်သနည်း။",
+            optionsEn: ["3 moles", "1 mole", "2 moles", "6 moles"],
+            optionsMy: ["၃ မိုးလ်", "၁ မိုးလ်", "၂ မိုးလ်", "၆ မိုးလ်"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph explaining the mole ratio read from the coefficients.",
+            ],
+            hintsMy: [
+              "Coefficient များမှ ဖတ်ရှုရသော Mole အချိုးကို ရှင်းပြထားသော နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens if plant engineers get the mole ratio wrong?",
+            questionMy:
+                "စက်ရုံ အင်ဂျင်နီယာများသည် Mole အချိုးကို မှားယွင်းစွာ ချမှတ်ပါက အဘယ်ကြောင့် ဖြစ်လာသနည်း။",
+            optionsEn: [
+              "Wasted raw material or a stalled reaction",
+              "The plant becomes more efficient",
+              "Nothing changes at all",
+              "The ammonia becomes a different colour",
+            ],
+            optionsMy: [
+              "ကုန်ကြမ်း ဆုံးရှုံးခြင်း သို့မဟုတ် ဓာတ်ပြုမှု ရပ်တန့်ခြင်း",
+              "စက်ရုံသည် ပို၍ ထိရောက်လာသည်",
+              "မည်သည့်အရာမျှ မပြောင်းလဲပါ",
+              "အမိုးနီးယား၏ အရောင် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Formulae and Equations",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဖော်မြူလာနှင့် ညီမျှခြင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Chemical equations must be balanced to obey which law?",
+          questionMy:
+              "ဓာတုညီမျှခြင်းများသည် မည်သည့် ဥပဒေကို လိုက်နာရန် ချိန်ညှိရသနည်း",
+          optionsEn: [
+            "Conservation of mass",
+            "Conservation of energy only",
+            "Gravity",
+            "Newton's third law",
+          ],
+          optionsMy: [
+            "Mass ထိန်းသိမ်းမှု ဥပဒေ",
+            "စွမ်းအင် ထိန်းသိမ်းမှု ဥပဒေသာ",
+            "ဆွဲငင်အား",
+            "နယူတန်၏ တတိယ ဥပဒေ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A spectator ion in an ionic equation is one that...",
+          questionMy: "Ionic Equation တစ်ခုတွင် Spectator Ion ဆိုသည်မှာ...",
+          optionsEn: [
+            "Does not take part in the reaction",
+            "Reacts fastest",
+            "Turns into a gas",
+            "Changes colour",
+          ],
+          optionsMy: [
+            "ဓာတ်ပြုမှုတွင် ပါဝင်ဆောင်ရွက်ခြင်း မရှိ",
+            "အမြန်ဆုံး ဓာတ်ပြု",
+            "ဓာတ်ငွေ့ ဖြစ်သွား",
+            "အရောင် ပြောင်းလဲသွား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a balanced equation, the coefficients represent the...",
+          questionMy:
+              "ချိန်ညှိထားသော ညီမျှခြင်းတစ်ခုတွင် Coefficient များသည်...",
+          optionsEn: [
+            "Mole ratio between reactants and products",
+            "Colour of each substance",
+            "Temperature of the reaction",
+            "Weight in kilograms",
+          ],
+          optionsMy: [
+            "Reactant များနှင့် Product များကြား Mole အချိုး",
+            "ပစ္စည်းတစ်ခုစီ၏ အရောင်",
+            "ဓာတ်ပြုမှု၏ အပူချိန်",
+            "ကီလိုဂရမ်ဖြင့် အလေးချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 6: "The Mole Concept and Calculations"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek6 = CourseWeekDef(
+  id: "course-igcse-chem-w6",
+  weekNumber: 6,
+  titleEn: "The Mole Concept and Calculations",
+  titleMy: "မိုးလ် (Mole) သဘောတရားနှင့် တွက်ချက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Mole and Avogadro's Constant",
+      titleMy: "မိုးလ်နှင့် Avogadro ကိန်းသေ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does one mole of any substance represent?",
+          questionMy:
+              "မည်သည့် ပစ္စည်း၏ မိုးလ် တစ်ခုသည် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Avogadro's number (6.02 x 10^23) of particles of that substance",
+            "Exactly 1 gram of the substance, always",
+            "Exactly 1 litre of the substance, always",
+            "A random small amount of the substance",
+          ],
+          optionsMy: [
+            "ထို ပစ္စည်း၏ Avogadro ကိန်း (6.02 x 10^23) အမှုန်များ",
+            "ထို ပစ္စည်း၏ ဂရမ် ၁ ခု အတိအကျ၊ အမြဲတမ်း",
+            "ထို ပစ္စည်း၏ လီတာ ၁ ခု အတိအကျ၊ အမြဲတမ်း",
+            "ထို ပစ္စည်း၏ ကျပန်း ပမာဏ အနည်းငယ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A mole is a counting unit, like a 'dozen', but for an enormous number of particles.",
+            "Avogadro's constant is approximately 6.02 x 10^23 particles per mole.",
+          ],
+          hintsMy: [
+            "Mole သည် 'ဒါဇင်' ကဲ့သို့ ရေတွက်ရေးယူနစ်တစ်ခုဖြစ်သော်လည်း အလွန်များပြားသော အမှုန်အရေအတွက်အတွက် ဖြစ်သည်။",
+            "Avogadro ကိန်းသေသည် မိုးလ်တစ်ခုလျှင် အမှုန် 6.02 x 10^23 ခန့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many moles are there in 20 g of a substance with a relative formula mass (Mr) of 40?",
+          questionMy:
+              "Relative Formula Mass (Mr) 40 ရှိသော ပစ္စည်း ၂၀ ဂရမ်တွင် မိုးလ် မည်မျှ ရှိသနည်း။",
+          optionsEn: ["0.5 mol", "2 mol", "20 mol", "40 mol"],
+          optionsMy: ["0.5 mol", "2 mol", "20 mol", "40 mol"],
+          correctIndex: 0,
+          hintsEn: [
+            "Moles = mass (g) ÷ relative formula mass (Mr).",
+            "20 ÷ 40 = 0.5.",
+          ],
+          hintsMy: [
+            "Mole = Mass (g) ÷ Relative Formula Mass (Mr)",
+            "20 ÷ 40 = 0.5",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the relative formula mass (Mr) of water, H2O? (Ar: H = 1, O = 16)",
+          questionMy:
+              "ရေ H2O ၏ Relative Formula Mass (Mr) မှာ အဘယ်နည်း။ (Ar: H = 1, O = 16)",
+          optionsEn: ["18", "17", "16", "2"],
+          optionsMy: ["18", "17", "16", "2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Add up the relative atomic masses of every atom in the formula: 2 hydrogens plus 1 oxygen.",
+            "(2 x 1) + 16 = 18.",
+          ],
+          hintsMy: [
+            "ဖော်မြူလာရှိ အက်တမ်တိုင်း၏ Relative Atomic Mass ကို ပေါင်းလိုက်ပါ - ဟိုက်ဒရိုဂျင် ၂ ခုနှင့် အောက်ဆီဂျင် ၁ ခု",
+            "(2 x 1) + 16 = 18",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mole Concept Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mole သဘောတရား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w6-dm-1",
+          termEn: "Mole",
+          termMy: "Mole",
+          matchEn:
+              "The SI unit for the amount of a substance, containing Avogadro's number of particles",
+          matchMy:
+              "Avogadro ကိန်းအရေအတွက် အမှုန်များ ပါဝင်သော ပစ္စည်းပမာဏအတွက် SI ယူနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w6-dm-2",
+          termEn: "Avogadro's constant",
+          termMy: "Avogadro's Constant",
+          matchEn: "6.02 x 10^23 particles per mole",
+          matchMy: "မိုးလ်တစ်ခုလျှင် အမှုန် 6.02 x 10^23 ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w6-dm-3",
+          termEn: "Relative formula mass (Mr)",
+          termMy: "Relative Formula Mass (Mr)",
+          matchEn:
+              "The sum of the relative atomic masses of all atoms in a formula",
+          matchMy:
+              "ဖော်မြူလာရှိ အက်တမ်အားလုံး၏ Relative Atomic Mass များ၏ ပေါင်းလဒ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w6-dm-4",
+          termEn: "Percentage yield",
+          termMy: "Percentage Yield",
+          matchEn:
+              "The actual amount of product obtained divided by the theoretical maximum, as a percentage",
+          matchMy:
+              "ရရှိသော အမှန်တကယ် ရလဒ်ပစ္စည်း ပမာဏကို သီအိုရီအရ အများဆုံး ပမာဏဖြင့် စားပြီး ရာခိုင်နှုန်းအဖြစ် ပြသခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w6-dm-5",
+          termEn: "Percentage purity",
+          termMy: "Percentage Purity",
+          matchEn:
+              "The mass of a pure substance in a sample divided by the total sample mass, as a percentage",
+          matchMy:
+              "နမူနာတစ်ခုရှိ သန့်ရှင်းသော ပစ္စည်း၏ Mass ကို နမူနာစုစုပေါင်း Mass ဖြင့် စားပြီး ရာခိုင်နှုန်းအဖြစ် ပြသခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mole, Mass, or Formula Term?",
+      titleMy: "စီစစ်ကြမည် - Mole၊ Mass သို့မဟုတ် ဖော်မြူလာ ဝေါဟာရ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mole-related", "Mass/Formula-related"],
+        bucketsMy: ["Mole ဆိုင်ရာ", "Mass/ဖော်မြူလာ ဆိုင်ရာ"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w6-sort-1",
+            labelEn: "Avogadro's constant, 6.02 x 10^23",
+            labelMy: "Avogadro ကိန်းသေ, 6.02 x 10^23",
+            correctBucketEn: "Mole-related",
+            correctBucketMy: "Mole ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsechem-w6-sort-2",
+            labelEn: "Relative formula mass (Mr) of a compound",
+            labelMy: "ဒြပ်ပေါင်းတစ်ခု၏ Relative Formula Mass (Mr)",
+            correctBucketEn: "Mass/Formula-related",
+            correctBucketMy: "Mass/ဖော်မြူလာ ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsechem-w6-sort-3",
+            labelEn: "Moles = mass ÷ Mr",
+            labelMy: "Mole = Mass ÷ Mr",
+            correctBucketEn: "Mole-related",
+            correctBucketMy: "Mole ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsechem-w6-sort-4",
+            labelEn: "Percentage purity of a sample",
+            labelMy: "နမူနာတစ်ခု၏ ရာခိုင်နှုန်း သန့်ရှင်းမှု",
+            correctBucketEn: "Mass/Formula-related",
+            correctBucketMy: "Mass/ဖော်မြူလာ ဆိုင်ရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Pharmacist Daw Hnin's Aspirin Yield Problem",
+      titleMy: "စာဖတ်ခြင်း - ဆေးဝါးပညာရှင် ဒေါ်နှင်း၏ Aspirin ရလဒ် ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Pharmacist Daw Hnin's Aspirin Yield Problem",
+        titleMy: "ဆေးဝါးပညာရှင် ဒေါ်နှင်း၏ Aspirin ရလဒ် ပြဿနာ",
+        passageEn:
+            "Daw Hnin, a pharmaceutical chemist, was training a laboratory technician in a small drug-manufacturing facility. Their task was to synthesise a batch of aspirin and check the reaction's efficiency. According to the balanced equation and starting quantities, the theoretical maximum yield -- the greatest possible mass of aspirin obtainable if the reaction went perfectly with no losses -- was calculated to be 50 g.\n\nWhen the technician actually weighed the purified aspirin crystals collected at the end of the process, the mass was only 42 g. Daw Hnin explained that this shortfall was completely normal and expected in real laboratory conditions: some product is always lost during transfers between containers, some remains dissolved in the solution during filtration, and some side reactions inevitably produce different, unwanted products instead of pure aspirin.\n\nTo quantify exactly how efficient the reaction had been, Daw Hnin calculated the percentage yield: (actual yield ÷ theoretical yield) x 100%. Substituting the numbers gave (42 ÷ 50) x 100% = 84%. She explained that a percentage yield of 84% was actually quite good for a student-run synthesis -- industrial pharmaceutical processes aim even higher, but losses can never be reduced to exactly zero in practice.\n\nThe technician then asked a follow-up question: what if the starting aspirin sample itself was contaminated with unreacted starting material? Daw Hnin explained that this was a separate calculation entirely -- percentage purity -- which measured what fraction of a given sample was the pure substance itself, calculated as (mass of pure substance ÷ total mass of sample) x 100%. She noted that a batch could have a high percentage yield from the reaction, yet still have a low percentage purity if it were poorly purified afterward -- the two calculations, she stressed, answered genuinely different questions and were never interchangeable.",
+        passageMy:
+            "ဆေးဝါးပညာရှင် ဒေါ်နှင်းသည် ဆေးဝါး ထုတ်လုပ်ရေး လုပ်ငန်းငယ်တစ်ခုတွင် ဓာတ်ခွဲခန်း နည်းပညာရှင်တစ်ဦးအား လေ့ကျင့်ပေးနေခဲ့သည်။ သူတို့၏ အလုပ်မှာ Aspirin အသုတ်တစ်ခု ရေတည်ကာ ဓာတ်ပြုမှု၏ ထိရောက်မှုကို စစ်ဆေးရန် ဖြစ်သည်။ ချိန်ညှိထားသော ညီမျှခြင်းနှင့် အစပမာဏများအရ သီအိုရီအရ အများဆုံး ရလဒ် -- ဓာတ်ပြုမှုသည် ဆုံးရှုံးမှု လုံးဝမရှိဘဲ ပြီးပြည့်စုံစွာ ဖြစ်ပါက ရရှိနိုင်သော Aspirin Mass အများဆုံး -- ကို ၅၀ ဂရမ် ဖြစ်ကြောင်း တွက်ချက်ခဲ့သည်။\n\nနည်းပညာရှင်သည် လုပ်ငန်းစဉ် အဆုံးတွင် စုဆောင်းရရှိသော သန့်စင် Aspirin ဓာတ်သလင်းများကို အမှန်တကယ် ချိန်ကြည့်သည့်အခါ Mass မှာ ၄၂ ဂရမ်သာ ရှိခဲ့သည်။ ဤ ကျဆင်းမှုသည် အမှန်တကယ် ဓာတ်ခွဲခန်း အခြေအနေများတွင် လုံးဝ ပုံမှန်ဖြစ်ပြီး မျှော်လင့်ထားသည့်အတိုင်း ဖြစ်ကြောင်း ဒေါ်နှင်း ရှင်းပြခဲ့သည်- ရလဒ်ပစ္စည်း အချို့သည် ပုံးများကြား ရွှေ့ပြောင်းစဉ် အမြဲတမ်း ဆုံးရှုံးတတ်ပြီး၊ အချို့ကလည်း ပါးစပ်ခံစစ်ခြင်းစဉ် ပျော်ရည်ထဲတွင် ကျန်ရှိနေတတ်ကာ၊ အချို့ ဘေးဓာတ်ပြုမှုများက သန့်ရှင်းသော Aspirin အစား လိုချင်မဲ့ ကွဲပြားသော ရလဒ်ပစ္စည်းများကို မလွှဲမရှောင်သာ ထုတ်ပေးတတ်သည်။\n\nဓာတ်ပြုမှု မည်မျှ ထိရောက်ခဲ့ကြောင်း အတိအကျ ချိန်ညှိတွက်ချက်ရန် ဒေါ်နှင်းသည် ရာခိုင်နှုန်း ရလဒ်ကို တွက်ချက်ခဲ့သည်- (အမှန်တကယ် ရလဒ် ÷ သီအိုရီအရ ရလဒ်) x 100%။ ဂဏန်းများကို အစားထိုးလိုက်သည့်အခါ (42 ÷ 50) x 100% = 84% ကို ရရှိခဲ့သည်။ ကျောင်းသား လုပ်ဆောင်သော ရေတည်မှုတစ်ခုအတွက် ရာခိုင်နှုန်း ရလဒ် ၈၄% သည် အမှန်တကယ် ကောင်းမွန်ကြောင်း သူမ ရှင်းပြခဲ့သည် -- စက်မှု ဆေးဝါး လုပ်ငန်းစဉ်များသည် ပို၍မြင့်မားစွာ ရည်မှန်းကြသော်လည်း လက်တွေ့တွင် ဆုံးရှုံးမှုများကို သုညအထိ ဘယ်တော့မှ လျှော့ချ၍ မရနိုင်ပါ။\n\nနည်းပညာရှင်သည် ဆက်လက်၍ မေးခွန်းတစ်ခု မေးခဲ့သည်- Aspirin နမူနာ အစသည် ဓာတ်မပြုရသေးသော အစပစ္စည်းဖြင့် ညစ်ညမ်းနေခဲ့ပါက အဘယ်သို့ ဖြစ်မည်နည်း။ ၎င်းသည် လုံးဝ သီးခြား တွက်ချက်မှုတစ်ခု -- ရာခိုင်နှုန်း သန့်ရှင်းမှု -- ဖြစ်ကြောင်း ဒေါ်နှင်း ရှင်းပြခဲ့သည်၊ ၎င်းသည် ပေးထားသော နမူနာတစ်ခု၏ မည်မျှသော အပိုင်းသည် သန့်ရှင်းသော ပစ္စည်းကိုယ်တိုင် ဖြစ်ကြောင်း တိုင်းတာပေးသည်၊ (သန့်ရှင်းသော ပစ္စည်း Mass ÷ နမူနာ စုစုပေါင်း Mass) x 100% ဖြင့် တွက်ချက်သည်။ အသုတ်တစ်ခုသည် ဓာတ်ပြုမှုမှ ရာခိုင်နှုန်း ရလဒ် မြင့်မားစွာ ရရှိနိုင်သော်လည်း နောက်ပိုင်း သန့်စင်မှု ညံ့ဖျင်းပါက ရာခိုင်နှုန်း သန့်ရှင်းမှု နိမ့်ကျနေနိုင်ကြောင်း ဒေါ်နှင်း မှတ်ချက်ပြုခဲ့သည် -- တွက်ချက်မှု နှစ်ခုသည် လုံးဝ ကွဲပြားသော မေးခွန်းများကို ဖြေဆိုပေးပြီး ဘယ်တော့မှ အပြန်အလှန် အသုံးပြု၍ မရကြောင်း သူမ အလေးထားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what is the theoretical yield?",
+            questionMy:
+                "သီအိုရီအရ ရလဒ် (Theoretical Yield) ဆိုသည်မှာ အဘယ်နည်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The greatest possible mass of product obtainable if the reaction went perfectly with no losses",
+              "The mass of product actually collected in the lab",
+              "The mass of the starting materials only",
+              "A random guess with no calculation",
+            ],
+            optionsMy: [
+              "ဓာတ်ပြုမှုသည် ဆုံးရှုံးမှု လုံးဝမရှိဘဲ ပြီးပြည့်စုံစွာ ဖြစ်ပါက ရရှိနိုင်သော ရလဒ်ပစ္စည်း Mass အများဆုံး",
+              "ဓာတ်ခွဲခန်းတွင် အမှန်တကယ် စုဆောင်းရရှိသော ရလဒ်ပစ္စည်း Mass",
+              "အစပစ္စည်းများ၏ Mass သာ",
+              "တွက်ချက်မှု မပါသော ကျပန်း ခန့်မှန်းချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence defining 'theoretical maximum yield'.",
+            ],
+            hintsMy: [
+              "'သီအိုရီအရ အများဆုံး ရလဒ်' ကို အနက်ဖွင့်ဆိုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the calculated percentage yield of the aspirin batch?",
+            questionMy:
+                "Aspirin အသုတ်၏ တွက်ချက်ထားသော ရာခိုင်နှုန်း ရလဒ်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["84%", "50%", "42%", "100%"],
+            optionsMy: ["84%", "50%", "42%", "100%"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence performing the calculation (42 ÷ 50) x 100%.",
+            ],
+            hintsMy: [
+              "(42 ÷ 50) x 100% တွက်ချက်မှု ပြုလုပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why is 100% percentage yield essentially never achieved in real labs?",
+            questionMy:
+                "အမှန်တကယ် ဓာတ်ခွဲခန်းများတွင် ရာခိုင်နှုန်း ရလဒ် ၁၀၀% ကို အခြေခံအားဖြင့် ဘယ်တော့မှ မရနိုင်ခြင်း အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Product is lost during transfers, some remains dissolved during filtration, and side reactions occur",
+              "The equation used was wrong from the start",
+              "Aspirin cannot actually be made this way",
+              "The scale was broken",
+            ],
+            optionsMy: [
+              "ရွှေ့ပြောင်းစဉ် ရလဒ်ပစ္စည်း ဆုံးရှုံးခြင်း၊ ပါးစပ်ခံစစ်ခြင်းစဉ် ပျော်ရည်ထဲတွင် ကျန်ရှိခြင်းနှင့် ဘေးဓာတ်ပြုမှုများ ဖြစ်ပွားခြင်း",
+              "အသုံးပြုထားသော ညီမျှခြင်းသည် အစကတည်းက မှားနေခြင်း",
+              "Aspirin ကို ဤနည်းဖြင့် အမှန်တကယ် ပြုလုပ်၍ မရနိုင်ခြင်း",
+              "အလေးချိန်ကိရိယာ ပျက်စီးနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing the three reasons for product loss.",
+            ],
+            hintsMy: [
+              "ရလဒ်ပစ္စည်း ဆုံးရှုံးရသည့် အကြောင်းရင်း သုံးခုကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, can a batch have a high percentage yield but a low percentage purity?",
+            questionMy:
+                "အသုတ်တစ်ခုသည် ရာခိုင်နှုန်း ရလဒ် မြင့်မားပြီး ရာခိုင်နှုန်း သန့်ရှင်းမှု နိမ့်ကျနိုင်ပါသလား၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Yes -- if the reaction went well but the product was poorly purified afterward",
+              "No -- the two values are always identical",
+              "No -- high yield always guarantees high purity",
+              "The passage does not address this",
+            ],
+            optionsMy: [
+              "ဖြစ်နိုင်သည် -- ဓာတ်ပြုမှု ကောင်းမွန်စွာ ဖြစ်ခဲ့သော်လည်း ရလဒ်ပစ္စည်းကို နောက်ပိုင်း ညံ့ဖျင်းစွာ သန့်စင်ခဲ့ပါက",
+              "မဖြစ်နိုင်ပါ -- တန်ဖိုးနှစ်ခုသည် အမြဲတမ်း တူညီသည်",
+              "မဖြစ်နိုင်ပါ -- ရလဒ်မြင့်မားခြင်းက သန့်ရှင်းမှု မြင့်မားခြင်းကို အမြဲ အာမခံသည်",
+              "စာပိုဒ်က ၎င်းကို မဖော်ပြထားပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last two sentences of the passage."],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံး စာကြောင်း နှစ်ကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: The Mole Concept",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Mole သဘောတရား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Moles = mass (g) ÷ ...",
+          questionMy: "Mole = Mass (g) ÷ ...",
+          optionsEn: [
+            "Relative formula mass (Mr)",
+            "Temperature",
+            "Volume in litres",
+            "Number of atoms",
+          ],
+          optionsMy: [
+            "Relative Formula Mass (Mr)",
+            "အပူချိန်",
+            "လီတာဖြင့် ထုထည်",
+            "အက်တမ် အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Percentage yield compares...",
+          questionMy: "ရာခိုင်နှုန်း ရလဒ်သည် ...ကို နှိုင်းယှဉ်သည်",
+          optionsEn: [
+            "Actual yield to theoretical yield",
+            "Purity to colour",
+            "Mass to volume only",
+            "Time to temperature",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် ရလဒ်ကို သီအိုရီအရ ရလဒ်နှင့်",
+            "သန့်ရှင်းမှုကို အရောင်နှင့်",
+            "Mass ကို ထုထည်နှင့်သာ",
+            "အချိန်ကို အပူချိန်နှင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Avogadro's constant is approximately...",
+          questionMy: "Avogadro ကိန်းသေသည် ခန့်မှန်းခြေ...",
+          optionsEn: [
+            "6.02 x 10^23 per mole",
+            "1 x 10^3 per mole",
+            "100 per mole",
+            "3.14 per mole",
+          ],
+          optionsMy: [
+            "Mole တစ်ခုလျှင် 6.02 x 10^23",
+            "Mole တစ်ခုလျှင် 1 x 10^3",
+            "Mole တစ်ခုလျှင် 100",
+            "Mole တစ်ခုလျှင် 3.14",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 7: "Gas Volumes and Concentration Calculations"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek7 = CourseWeekDef(
+  id: "course-igcse-chem-w7",
+  weekNumber: 7,
+  titleEn: "Gas Volumes and Concentration Calculations",
+  titleMy: "ဓာတ်ငွေ့ ထုထည်နှင့် ပျော်ရည် အာဟာရပါဝင်မှု တွက်ချက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w7-d1",
+      dayNumber: 1,
+      titleEn: "Molar Gas Volume and Concentration",
+      titleMy: "Molar Gas Volume နှင့် ပျော်ရည် အာဟာရပါဝင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At room temperature and pressure (r.t.p.), what volume does 1 mole of any gas occupy?",
+          questionMy:
+              "အခန်းအပူချိန်နှင့် ဖိအား (r.t.p.) တွင် မည်သည့် ဓာတ်ငွေ့မဆို ၁ မိုးလ်သည် ထုထည် မည်မျှ ယူသနည်း။",
+          optionsEn: [
+            "24 dm3 (24,000 cm3)",
+            "1 dm3",
+            "1 litre only for hydrogen",
+            "It depends heavily on which gas it is",
+          ],
+          optionsMy: [
+            "24 dm3 (24,000 cm3)",
+            "1 dm3",
+            "ဟိုက်ဒရိုဂျင်အတွက်သာ လီတာ ၁ လီတာ",
+            "မည်သည့် ဓာတ်ငွေ့ ဖြစ်သည်ပေါ် များစွာ မူတည်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a key IGCSE constant: the molar gas volume at r.t.p. is the same for any gas, regardless of identity.",
+          ],
+          hintsMy: [
+            "၎င်းသည် IGCSE အဓိက ကိန်းသေတစ်ခုဖြစ်သည် - r.t.p. တွင် Molar Gas Volume သည် ဓာတ်ငွေ့ မည်သို့ပင် ဖြစ်စေ တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What volume would 0.5 moles of oxygen gas occupy at r.t.p.?",
+          questionMy:
+              "r.t.p. တွင် အောက်ဆီဂျင် ဓာတ်ငွေ့ ၀.၅ မိုးလ်သည် ထုထည် မည်မျှ ယူမည်နည်း။",
+          optionsEn: ["12 dm3", "24 dm3", "48 dm3", "6 dm3"],
+          optionsMy: ["12 dm3", "24 dm3", "48 dm3", "6 dm3"],
+          correctIndex: 0,
+          hintsEn: ["Volume = moles x 24 dm3.", "0.5 x 24 = 12."],
+          hintsMy: ["Volume = Mole x 24 dm3", "0.5 x 24 = 12"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the concentration (in mol/dm3) of a solution containing 2 moles of solute dissolved in 4 dm3 of solution?",
+          questionMy:
+              "ပျော်ရည် 4 dm3 တွင် ပျော်ဝင်ထားသော Solute 2 mole ပါဝင်သည့် ပျော်ရည်၏ Concentration (mol/dm3 ဖြင့်) မှာ အဘယ်နည်း။",
+          optionsEn: ["0.5 mol/dm3", "2 mol/dm3", "8 mol/dm3", "6 mol/dm3"],
+          optionsMy: ["0.5 mol/dm3", "2 mol/dm3", "8 mol/dm3", "6 mol/dm3"],
+          correctIndex: 0,
+          hintsEn: [
+            "Concentration = moles of solute ÷ volume of solution (in dm3).",
+            "2 ÷ 4 = 0.5.",
+          ],
+          hintsMy: [
+            "Concentration = Solute ၏ Mole ÷ ပျော်ရည် ထုထည် (dm3 ဖြင့်)",
+            "2 ÷ 4 = 0.5",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gas and Solution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဓာတ်ငွေ့နှင့် ပျော်ရည် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w7-dm-1",
+          termEn: "Molar gas volume",
+          termMy: "Molar Gas Volume",
+          matchEn:
+              "The volume occupied by 1 mole of any gas at r.t.p., approximately 24 dm3",
+          matchMy:
+              "r.t.p. တွင် ဓာတ်ငွေ့ မည်သည့် ၁ မိုးလ်ဖြစ်စေ ယူသော ထုထည်, ခန့်မှန်းခြေ 24 dm3",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w7-dm-2",
+          termEn: "Concentration",
+          termMy: "Concentration",
+          matchEn:
+              "The amount of solute (in moles) dissolved per unit volume of solution",
+          matchMy:
+              "ပျော်ရည် ထုထည် ယူနစ်တစ်ခုလျှင် ပျော်ဝင်ထားသော Solute ပမာဏ (Mole ဖြင့်)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w7-dm-3",
+          termEn: "Titration",
+          termMy: "Titration",
+          matchEn:
+              "A technique using a burette to find the exact volume needed to neutralise a solution",
+          matchMy:
+              "ပျော်ရည်တစ်ခုကို ကျေအေးစေရန် လိုအပ်သော ထုထည် အတိအကျကို ရှာဖွေရန် Burette အသုံးပြုသည့် နည်းပညာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w7-dm-4",
+          termEn: "Burette",
+          termMy: "Burette",
+          matchEn:
+              "A graduated glass tube used to deliver precise, measured volumes of liquid",
+          matchMy:
+              "အရည်၏ တိကျ၍ တိုင်းတာထားသော ထုထည်များကို ပေးရန် အသုံးပြုသော အတိုင်းအတာအမှတ်ပါ ဖန်ပြွန်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w7-dm-5",
+          termEn: "End point",
+          termMy: "End Point",
+          matchEn:
+              "The moment in a titration when the indicator changes colour, signalling exact neutralisation",
+          matchMy:
+              "Titration တစ်ခုအတွင်း Indicator က အရောင် ပြောင်းလဲပြီး အတိအကျ ကျေအေးမှုကို အချက်ပြသည့် အခိုက်အတန့်",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gas Volume, Concentration, or Titration?",
+      titleMy:
+          "စီစစ်ကြမည် - ဓာတ်ငွေ့ ထုထည်လား၊ Concentration လား၊ Titration လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Gas Volume", "Concentration", "Titration"],
+        bucketsMy: ["ဓာတ်ငွေ့ ထုထည်", "Concentration", "Titration"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w7-sort-1",
+            labelEn: "1 mole of any gas occupies 24 dm3 at r.t.p.",
+            labelMy: "ဓာတ်ငွေ့ ၁ မိုးလ်သည် r.t.p. တွင် 24 dm3 ယူသည်",
+            correctBucketEn: "Gas Volume",
+            correctBucketMy: "ဓာတ်ငွေ့ ထုထည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w7-sort-2",
+            labelEn: "Moles of solute per dm3 of solution",
+            labelMy: "ပျော်ရည် dm3 လျှင် Solute ၏ Mole",
+            correctBucketEn: "Concentration",
+            correctBucketMy: "Concentration",
+          ),
+          SortingItem(
+            id: "igcsechem-w7-sort-3",
+            labelEn:
+                "Using a burette to find the volume needed to reach the end point",
+            labelMy:
+                "End Point သို့ ရောက်ရန် လိုအပ်သော ထုထည်ကို ရှာဖွေရန် Burette အသုံးပြုခြင်း",
+            correctBucketEn: "Titration",
+            correctBucketMy: "Titration",
+          ),
+          SortingItem(
+            id: "igcsechem-w7-sort-4",
+            labelEn:
+                "Calculating the volume of CO2 gas produced in a reaction from its moles",
+            labelMy:
+                "ဓာတ်ပြုမှုတစ်ခုမှ ထုတ်ပေးသော CO2 ဓာတ်ငွေ့ ထုထည်ကို ၎င်း၏ Mole မှ တွက်ချက်ခြင်း",
+            correctBucketEn: "Gas Volume",
+            correctBucketMy: "ဓာတ်ငွေ့ ထုထည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Lab Technician Ko Aung's Titration Challenge",
+      titleMy:
+          "စာဖတ်ခြင်း - ဓာတ်ခွဲခန်း နည်းပညာရှင် ကိုအောင်၏ Titration စိန်ခေါ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Lab Technician Ko Aung's Titration Challenge",
+        titleMy: "ဓာတ်ခွဲခန်း နည်းပညာရှင် ကိုအောင်၏ Titration စိန်ခေါ်မှု",
+        passageEn:
+            "Ko Aung, a school laboratory technician, was preparing a titration demonstration to find the unknown concentration of a hydrochloric acid solution. He explained the setup to his students: a burette filled with the hydrochloric acid was mounted above a flask containing a measured 25 cm3 volume of sodium hydroxide solution of known concentration, 0.1 mol/dm3, along with a few drops of phenolphthalein indicator, which turns from pink to colourless at the exact point of neutralisation.\n\nHe slowly added acid from the burette, swirling the flask constantly, watching closely as the pink colour faded. The moment the solution turned permanently colourless -- the end point -- he read the burette scale and recorded that exactly 20 cm3 of hydrochloric acid had been added to reach neutralisation.\n\nKo Aung then walked through the calculation with his students step by step. First, he calculated the moles of sodium hydroxide that had reacted: moles = concentration x volume (in dm3), so 0.1 mol/dm3 x 0.025 dm3 = 0.0025 mol of NaOH. Since the balanced equation for this reaction, NaOH + HCl -> NaCl + H2O, showed a 1:1 mole ratio between sodium hydroxide and hydrochloric acid, exactly 0.0025 mol of HCl must also have reacted.\n\nFinally, he calculated the unknown concentration of the hydrochloric acid: concentration = moles ÷ volume (in dm3). The volume of acid used was 20 cm3, which is 0.020 dm3, so concentration = 0.0025 ÷ 0.020 = 0.125 mol/dm3. Ko Aung emphasised that this exact process -- reacting a known concentration against an unknown one, using the mole ratio from the balanced equation as the bridge -- was the fundamental logic behind every titration calculation in the IGCSE syllabus, no matter which acid or base was involved.",
+        passageMy:
+            "ကျောင်း ဓာတ်ခွဲခန်း နည်းပညာရှင် ကိုအောင်သည် ဟိုက်ဒရိုကလိုရစ် အက်ဆစ် ပျော်ရည်၏ မသိရသေးသော Concentration ကို ရှာဖွေရန် Titration သရုပ်ပြမှုတစ်ခု ပြင်ဆင်နေခဲ့သည်။ သူသည် ကျောင်းသားများအား ပြင်ဆင်မှုကို ရှင်းပြခဲ့သည်- ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်ဖြင့် ဖြည့်ထားသော Burette ကို သိရှိပြီးသား Concentration 0.1 mol/dm3 ဖြင့် ဆိုဒီယမ် ဟိုက်ဒရောက်ဆိုဒ် ပျော်ရည် 25 cm3 ပါဝင်သော ဖလပ်တစ်ခု အထက်တွင် တပ်ဆင်ထားပြီး Phenolphthalein Indicator စက်အနည်းငယ် ထည့်ထားသည်၊ ၎င်းသည် ကျေအေးမှု အတိအကျ အချက်တွင် ပန်းရောင်မှ အရောင်ကင်းမဲ့ ပြောင်းလဲသွားသည်။\n\nသူသည် Burette မှ အက်ဆစ်ကို ဖြည်းညှင်းစွာ ထည့်သွင်းကာ ဖလပ်ကို အမြဲတမ်း လှုပ်ရှားနေစေပြီး ပန်းရောင် ပျောက်ကွယ်သွားသည်ကို အနီးကပ် စောင့်ကြည့်ခဲ့သည်။ ပျော်ရည်သည် အမြဲတမ်း အရောင်ကင်းမဲ့ ပြောင်းသွားသော အခိုက်အတန့် -- End Point -- တွင် သူသည် Burette စကေးကို ဖတ်ရှုကာ ကျေအေးမှုသို့ ရောက်ရန် ဟိုက်ဒရိုကလိုရစ် အက်ဆစ် 20 cm3 အတိအကျ ထည့်သွင်းခဲ့ကြောင်း မှတ်တမ်းတင်ခဲ့သည်။\n\nထို့နောက် ကိုအောင်သည် တွက်ချက်မှုကို ကျောင်းသားများနှင့်အတူ အဆင့်ဆင့် လျှောက်လှမ်းခဲ့သည်။ ပထမဦးစွာ ဓာတ်ပြုသွားသော ဆိုဒီယမ် ဟိုက်ဒရောက်ဆိုဒ် ၏ Mole ကို တွက်ချက်ခဲ့သည်- Mole = Concentration x Volume (dm3 ဖြင့်), ထို့ကြောင့် 0.1 mol/dm3 x 0.025 dm3 = NaOH 0.0025 mol။ ဤဓာတ်ပြုမှုအတွက် ချိန်ညှိထားသော ညီမျှခြင်း NaOH + HCl -> NaCl + H2O သည် ဆိုဒီယမ် ဟိုက်ဒရောက်ဆိုဒ်နှင့် ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်ကြား 1:1 Mole အချိုးကို ပြသသောကြောင့် HCl 0.0025 mol အတိအကျလည်း ဓာတ်ပြုခဲ့ရမည် ဖြစ်သည်။\n\nနောက်ဆုံးတွင် သူသည် ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်၏ မသိရသေးသော Concentration ကို တွက်ချက်ခဲ့သည်- Concentration = Mole ÷ Volume (dm3 ဖြင့်)။ အသုံးပြုခဲ့သော အက်ဆစ်၏ ထုထည်မှာ 20 cm3 ဖြစ်ပြီး ၎င်းသည် 0.020 dm3 ဖြစ်သောကြောင့် Concentration = 0.0025 ÷ 0.020 = 0.125 mol/dm3 ဖြစ်သည်။ သိရှိပြီးသား Concentration တစ်ခုကို မသိရသေးသော တစ်ခုနှင့် ဓာတ်ပြုစေကာ ချိန်ညှိထားသော ညီမျှခြင်းမှ Mole အချိုးကို တံတားအဖြစ် အသုံးပြုသော ဤ အတိအကျ လုပ်ငန်းစဉ်သည် မည်သည့် အက်ဆစ် သို့မဟုတ် ဘေ့စ် ပါဝင်သည်ဖြစ်စေ IGCSE သင်ရိုးရှိ Titration တွက်ချက်မှု တိုင်း၏ အခြေခံ ယုတ္တိဗေဒ ဖြစ်ကြောင်း ကိုအောင် အလေးထား ဖော်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what signals the 'end point' of this titration?",
+            questionMy:
+                "ဤ Titration ၏ 'End Point' ကို အဘယ်အရာက အချက်ပြသနည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The solution turning permanently colourless",
+              "The burette running completely empty",
+              "The flask becoming hot",
+              "A loud sound from the flask",
+            ],
+            optionsMy: [
+              "ပျော်ရည် အမြဲတမ်း အရောင်ကင်းမဲ့ ပြောင်းလဲသွားခြင်း",
+              "Burette လုံးဝ အလွတ် ကျန်ရှိသွားခြင်း",
+              "ဖလပ် ပူလာခြင်း",
+              "ဖလပ်မှ အသံကျယ်ကျယ် ထွက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence defining the end point in this experiment.",
+            ],
+            hintsMy: [
+              "ဤ စမ်းသပ်ချက်တွင် End Point ကို အနက်ဖွင့်ဆိုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how many moles of NaOH had reacted?",
+            questionMy:
+                "ဓာတ်ပြုသွားသော NaOH ၏ Mole မည်မျှ ရှိသနည်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["0.0025 mol", "0.025 mol", "0.1 mol", "25 mol"],
+            optionsMy: ["0.0025 mol", "0.025 mol", "0.1 mol", "25 mol"],
+            correctIndex: 0,
+            hintsEn: ["Reread the calculation 0.1 mol/dm3 x 0.025 dm3."],
+            hintsMy: ["0.1 mol/dm3 x 0.025 dm3 တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did exactly 0.0025 mol of HCl also react (the same as the moles of NaOH)?",
+            questionMy:
+                "HCl 0.0025 mol အတိအကျ (NaOH ၏ Mole အတူတူ) ဓာတ်ပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The balanced equation shows a 1:1 mole ratio between NaOH and HCl",
+              "Acids always react in exactly 2:1 ratios",
+              "It was a random coincidence",
+              "The indicator forced this ratio",
+            ],
+            optionsMy: [
+              "ချိန်ညှိထားသော ညီမျှခြင်းက NaOH နှင့် HCl ကြား 1:1 Mole အချိုးကို ပြသသောကြောင့်",
+              "အက်ဆစ်များသည် အမြဲတမ်း 2:1 အချိုးဖြင့် ဓာတ်ပြုသောကြောင့်",
+              "ကျပန်း တိုက်ဆိုင်မှု ဖြစ်သောကြောင့်",
+              "Indicator က ဤအချိုးကို အတင်းအကျပ် ဖြစ်စေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence referencing the balanced equation's mole ratio.",
+            ],
+            hintsMy: [
+              "ချိန်ညှိထားသော ညီမျှခြင်း၏ Mole အချိုးကို ရည်ညွှန်းထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final calculation, what is the concentration of the hydrochloric acid?",
+            questionMy:
+                "နောက်ဆုံး တွက်ချက်မှုအရ ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်၏ Concentration မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "0.125 mol/dm3",
+              "0.1 mol/dm3",
+              "0.025 mol/dm3",
+              "1.25 mol/dm3",
+            ],
+            optionsMy: [
+              "0.125 mol/dm3",
+              "0.1 mol/dm3",
+              "0.025 mol/dm3",
+              "1.25 mol/dm3",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation: 0.0025 ÷ 0.020."],
+            hintsMy: [
+              "နောက်ဆုံး တွက်ချက်မှု 0.0025 ÷ 0.020 ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Gas and Solution Calculations",
+      titleMy:
+          "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဓာတ်ငွေ့နှင့် ပျော်ရည် တွက်ချက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "1 mole of any gas at r.t.p. occupies approximately...",
+          questionMy:
+              "r.t.p. တွင် ဓာတ်ငွေ့ မည်သည့် ၁ မိုးလ်ဖြစ်စေ ခန့်မှန်းခြေ ...ယူသည်",
+          optionsEn: ["24 dm3", "1 dm3", "100 dm3", "6 dm3"],
+          optionsMy: ["24 dm3", "1 dm3", "100 dm3", "6 dm3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Concentration (mol/dm3) = moles of solute ÷ ...",
+          questionMy: "Concentration (mol/dm3) = Solute ၏ Mole ÷ ...",
+          optionsEn: [
+            "Volume of solution in dm3",
+            "Mass of solvent",
+            "Temperature",
+            "Time taken",
+          ],
+          optionsMy: [
+            "dm3 ဖြင့် ပျော်ရည် ထုထည်",
+            "Solvent ၏ Mass",
+            "အပူချိန်",
+            "ကြာချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a titration, the end point is reached when...",
+          questionMy: "Titration တစ်ခုတွင် End Point ရောက်ရှိသည်မှာ...",
+          optionsEn: [
+            "The indicator changes colour, showing exact neutralisation",
+            "The burette is completely full",
+            "One hour has passed",
+            "The flask breaks",
+          ],
+          optionsMy: [
+            "Indicator က အရောင် ပြောင်းလဲကာ အတိအကျ ကျေအေးမှုကို ပြသသော အခါ",
+            "Burette လုံးဝ ပြည့်နေသော အခါ",
+            "တစ်နာရီ ကုန်လွန်သွားသော အခါ",
+            "ဖလပ် ကွဲသွားသော အခါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 8 (Capstone): "Stoichiometry Masterclass Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek8 = CourseWeekDef(
+  id: "course-igcse-chem-w8",
+  weekNumber: 8,
+  titleEn: "Stoichiometry Masterclass Studio",
+  titleMy: "စတိုင်ကျီအိုမေတြီ အထူးသင်ခန်းစာ အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w8-d1",
+      dayNumber: 1,
+      titleEn: "Complex Mole Problems and Limiting Reactants",
+      titleMy: "ရှုပ်ထွေးသော Mole ပြဿနာများနှင့် Limiting Reactant များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a limiting reactant?",
+          questionMy: "Limiting Reactant ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The reactant that runs out first, stopping the reaction and limiting the amount of product formed",
+            "The reactant with the largest mass at the start",
+            "The reactant that is always in excess",
+            "A reactant that does not take part in the reaction at all",
+          ],
+          optionsMy: [
+            "ဦးစွာ ကုန်ဆုံးသွားပြီး ဓာတ်ပြုမှုကို ရပ်တန့်စေကာ ရလဒ်ပစ္စည်း ပမာဏကို ကန့်သတ်ပေးသော Reactant",
+            "အစတွင် Mass အများဆုံးရှိသော Reactant",
+            "အမြဲတမ်း ပိုလျှံနေသော Reactant",
+            "ဓာတ်ပြုမှုတွင် လုံးဝ ပါဝင်ဆောင်ရွက်ခြင်း မရှိသော Reactant",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of it like a recipe: if you run out of one ingredient, you cannot make more product even if other ingredients remain.",
+          ],
+          hintsMy: [
+            "ချက်ပြုတ်နည်း တစ်ခုကဲ့သို့ စဉ်းစားကြည့်ပါ - ပါဝင်ပစ္စည်းတစ်ခု ကုန်သွားပါက အခြားပါဝင်ပစ္စည်းများ ကျန်ရှိနေသော်လည်း ရလဒ်ပစ္စည်း ပို၍ မလုပ်နိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a reaction requires 2 moles of A for every 1 mole of B, and you have 3 moles of A and 2 moles of B, which reactant is limiting?",
+          questionMy:
+              "ဓာတ်ပြုမှုတစ်ခုသည် B ၁ မိုးလ်တိုင်းအတွက် A ၂ မိုးလ် လိုအပ်ပြီး သင့်တွင် A ၃ မိုးလ်နှင့် B ၂ မိုးလ် ရှိပါက မည်သည့် Reactant က Limiting ဖြစ်သနည်း။",
+          optionsEn: [
+            "A (only 3 moles available, but 4 moles would be needed to react with all of B)",
+            "B",
+            "Both react completely with none left over",
+            "Neither -- there is no limiting reactant",
+          ],
+          optionsMy: [
+            "A (၃ မိုးလ်သာ ရှိပြီး B အားလုံးနှင့် ဓာတ်ပြုရန် ၄ မိုးလ် လိုအပ်မည်)",
+            "B",
+            "နှစ်ခုလုံး လုံးဝ ဓာတ်ပြုပြီး ဘာမှ မကျန်ပါ",
+            "မည်သည့် Reactant မျှ Limiting မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "2 moles of B would need 4 moles of A to fully react, but only 3 moles of A are available.",
+            "Since A runs out first, A is the limiting reactant.",
+          ],
+          hintsMy: [
+            "B ၂ မိုးလ် အပြည့်အဝ ဓာတ်ပြုရန် A ၄ မိုးလ် လိုအပ်မည်၊ သို့သော် A ၃ မိုးလ်သာ ရှိသည်။",
+            "A က ဦးစွာ ကုန်ဆုံးသွားသောကြောင့် A သည် Limiting Reactant ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do exam questions often ask you to identify the limiting reactant before calculating product mass?",
+          questionMy:
+              "စာမေးပွဲ မေးခွန်းများသည် ရလဒ်ပစ္စည်း Mass မတွက်ချက်မီ Limiting Reactant ကို ဖော်ထုတ်ခိုင်းလေ့ရှိသည် အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "Because product mass must be calculated from the limiting reactant, not the reactant in excess",
+            "Because the excess reactant is always toxic",
+            "Because limiting reactants are always solids",
+            "It is just an arbitrary exam tradition with no scientific reason",
+          ],
+          optionsMy: [
+            "ရလဒ်ပစ္စည်း Mass ကို ပိုလျှံနေသော Reactant မှ မဟုတ်ဘဲ Limiting Reactant မှ တွက်ချက်ရသောကြောင့်",
+            "ပိုလျှံနေသော Reactant သည် အမြဲတမ်း အဆိပ်သင့်သောကြောင့်",
+            "Limiting Reactant များသည် အမြဲတမ်း အစိုင်အခဲများ ဖြစ်သောကြောင့်",
+            "သိပ္ပံနည်းကျ အကြောင်းရင်း မရှိဘဲ ကျပန်း စာမေးပွဲ ထုံးတမ်း တစ်ခုသာ ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The limiting reactant determines the maximum possible amount of product -- calculating from the excess reactant would give a wrong, inflated answer.",
+          ],
+          hintsMy: [
+            "Limiting Reactant က ရလဒ်ပစ္စည်း အများဆုံး ဖြစ်နိုင်သော ပမာဏကို ဆုံးဖြတ်ပေးသည် -- ပိုလျှံနေသော Reactant မှ တွက်ချက်ပါက မှားယွင်း၍ ပို၍ ကြီးမားသော အဖြေကို ပေးလိမ့်မည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1-2 Stoichiometry Recap",
+      titleMy:
+          "တွဲစပ်ကြမည် - ပထမတန်း-ဒုတိယတန်း Stoichiometry ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w8-dm-1",
+          termEn: "Limiting reactant",
+          termMy: "Limiting Reactant",
+          matchEn:
+              "The reactant that runs out first and determines the maximum product formed",
+          matchMy:
+              "ဦးစွာ ကုန်ဆုံးပြီး ရလဒ်ပစ္စည်း အများဆုံး ဖြစ်နိုင်သည်ကို ဆုံးဖြတ်ပေးသော Reactant",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w8-dm-2",
+          termEn: "Excess reactant",
+          termMy: "Excess Reactant",
+          matchEn:
+              "The reactant that remains partially unreacted once the limiting reactant runs out",
+          matchMy:
+              "Limiting Reactant ကုန်ဆုံးသွားသည့်အခါ တစ်စိတ်တစ်ပိုင်း ဓာတ်မပြုဘဲ ကျန်ရှိနေသော Reactant",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w8-dm-3",
+          termEn: "Empirical formula",
+          termMy: "Empirical Formula",
+          matchEn:
+              "The simplest whole-number ratio of atoms of each element in a compound",
+          matchMy:
+              "ဒြပ်ပေါင်းတစ်ခုရှိ ဒြပ်စင်တစ်ခုစီ၏ အက်တမ်များ၏ အရိုးရှင်းဆုံး ကိန်းပြည့် အချိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w8-dm-4",
+          termEn: "Molecular formula",
+          termMy: "Molecular Formula",
+          matchEn:
+              "The actual whole number of atoms of each element in one molecule of a compound",
+          matchMy:
+              "ဒြပ်ပေါင်းတစ်ခု၏ မော်လီကျူးတစ်ခုအတွင်းရှိ ဒြပ်စင်တစ်ခုစီ၏ အက်တမ် အမှန်တကယ် ကိန်းပြည့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w8-dm-5",
+          termEn: "Stoichiometry",
+          termMy: "Stoichiometry",
+          matchEn:
+              "The study of the quantitative relationships between reactants and products in a reaction",
+          matchMy:
+              "ဓာတ်ပြုမှုတစ်ခုရှိ Reactant များနှင့် Product များကြား ပမာဏဆိုင်ရာ ဆက်စပ်မှုများကို လေ့လာခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Calculation Type?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် တွက်ချက်မှု အမျိုးအစား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Mole/Mass Calculation",
+          "Gas Volume Calculation",
+          "Concentration/Titration Calculation",
+        ],
+        bucketsMy: [
+          "Mole/Mass တွက်ချက်မှု",
+          "ဓာတ်ငွေ့ ထုထည် တွက်ချက်မှု",
+          "Concentration/Titration တွက်ချက်မှု",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsechem-w8-sort-1",
+            labelEn: "Finding moles from mass and Mr",
+            labelMy: "Mass နှင့် Mr မှ Mole ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Mole/Mass Calculation",
+            correctBucketMy: "Mole/Mass တွက်ချက်မှု",
+          ),
+          SortingItem(
+            id: "igcsechem-w8-sort-2",
+            labelEn:
+                "Finding the volume of gas produced from a known number of moles",
+            labelMy:
+                "သိရှိပြီးသား Mole အရေအတွက်မှ ထုတ်ပေးသော ဓာတ်ငွေ့ ထုထည်ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Gas Volume Calculation",
+            correctBucketMy: "ဓာတ်ငွေ့ ထုထည် တွက်ချက်မှု",
+          ),
+          SortingItem(
+            id: "igcsechem-w8-sort-3",
+            labelEn:
+                "Finding an unknown acid concentration from a titration's end point volume",
+            labelMy:
+                "Titration ၏ End Point ထုထည်မှ မသိရသေးသော အက်ဆစ် Concentration ကို ရှာဖွေခြင်း",
+            correctBucketEn: "Concentration/Titration Calculation",
+            correctBucketMy: "Concentration/Titration တွက်ချက်မှု",
+          ),
+          SortingItem(
+            id: "igcsechem-w8-sort-4",
+            labelEn:
+                "Calculating percentage yield from actual and theoretical mass",
+            labelMy:
+                "အမှန်တကယ်နှင့် သီအိုရီအရ Mass မှ ရာခိုင်နှုန်း ရလဒ်ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Mole/Mass Calculation",
+            correctBucketMy: "Mole/Mass တွက်ချက်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Limiting Reactant Bake Sale",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ Limiting Reactant ကိတ်မုန့် အရောင်းပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Limiting Reactant Bake Sale",
+        titleMy: "ရှင်သန့်၏ Limiting Reactant ကိတ်မုန့် အရောင်းပွဲ",
+        passageEn:
+            "Shin Thant, now well into her second term of IGCSE chemistry, was helping organise her school's bake sale when Ko Zaw, passing by, noticed she had a large bag of flour but only two eggs left, while her recipe called for 2 cups of flour and 1 egg per cake. She had 6 cups of flour but only 2 eggs. Ko Zaw smiled and asked: how many cakes could she actually make, and which ingredient was 'limiting' her?\n\nShin Thant worked through it just like a stoichiometry problem. With 6 cups of flour, and 2 cups needed per cake, the flour alone could support 6 ÷ 2 = 3 cakes. But with only 2 eggs, and 1 egg needed per cake, the eggs could only support 2 ÷ 1 = 2 cakes. Since the eggs would run out first, limiting her to just 2 cakes even though there was enough flour for 3, the eggs were the limiting reactant -- and the flour, with 2 cups left over after 2 cakes, was in excess.\n\nKo Zaw pointed out that this was exactly the logic behind limiting reactant problems in real chemical reactions: you calculate how much product each reactant could theoretically support on its own, and whichever reactant supports the smallest amount of product is the one that actually limits the reaction. Any 'leftover' of the other reactant, just like Shin Thant's extra 2 cups of flour, is the excess reactant.\n\nHe then extended the challenge: if each cake used exactly 100 g of sugar as well, and Shin Thant had only 150 g of sugar, would sugar also need to be checked? She quickly calculated that 150 g of sugar would only support 150 ÷ 100 = 1.5 cakes -- meaning sugar, not eggs, was actually the true limiting ingredient, since 1.5 was smaller than both 2 and 3. Shin Thant realised she could only bake 1 whole cake (since you cannot bake half a cake using half the required eggs and flour), a small but exact illustration of why chemists must check every reactant before declaring a limiting one.",
+        passageMy:
+            "IGCSE ဓာတုဗေဒ ဒုတိယတန်း ကောင်းစွာ ရောက်ရှိနေပြီဖြစ်သော ရှင်သန့်သည် ကျောင်း ကိတ်မုန့် အရောင်းပွဲကို စီစဉ်ပေးနေစဉ် ကမ်းလှမ်းသွားသော ကိုဇော်က သူမတွင် မုန့်ညက် အိတ်ကြီးတစ်ခု ရှိသော်လည်း ကြက်ဥ ၂ လုံးသာ ကျန်ရှိနေကြောင်း သတိထားမိခဲ့သည်၊ သူမ၏ ချက်ပြုတ်နည်းက ကိတ်မုန့်တစ်ခုလျှင် မုန့်ညက် ခွက် ၂ ခွက်နှင့် ကြက်ဥ ၁ လုံး လိုအပ်သည်။ သူမတွင် မုန့်ညက် ၆ ခွက် ရှိသော်လည်း ကြက်ဥ ၂ လုံးသာ ရှိသည်။ ကိုဇော် ပြုံးလိုက်ပြီး သူမ ကိတ်မုန့် မည်မျှ အမှန်တကယ် ပြုလုပ်နိုင်ကြောင်းနှင့် မည်သည့် ပါဝင်ပစ္စည်းက သူမကို 'Limiting' ဖြစ်စေကြောင်း မေးခဲ့သည်။\n\nရှင်သန့်သည် Stoichiometry ပြဿနာတစ်ခုကဲ့သို့ပင် လုပ်ဆောင်ခဲ့သည်။ မုန့်ညက် ၆ ခွက်ဖြင့် ကိတ်မုန့်တစ်ခုလျှင် ခွက် ၂ ခွက် လိုအပ်သဖြင့် မုန့်ညက်တစ်ခုတည်းက ကိတ်မုန့် 6 ÷ 2 = 3 ခု ထောက်ပံ့နိုင်သည်။ သို့သော် ကြက်ဥ ၂ လုံးသာ ရှိပြီး ကိတ်မုန့်တစ်ခုလျှင် ကြက်ဥ ၁ လုံး လိုအပ်သဖြင့် ကြက်ဥက ကိတ်မုန့် 2 ÷ 1 = 2 ခုသာ ထောက်ပံ့နိုင်သည်။ ကြက်ဥက ဦးစွာ ကုန်ဆုံးသွားမည်ဖြစ်ကာ ကိတ်မုန့် ၃ ခုအတွက် မုန့်ညက် လုံလောက်နေသော်လည်း ကိတ်မုန့် ၂ ခုသို့သာ ကန့်သတ်ထားသောကြောင့် ကြက်ဥသည် Limiting Reactant ဖြစ်ခဲ့ပြီး ကိတ်မုန့် ၂ ခု ပြီးနောက် ကျန်ရှိနေသော မုန့်ညက် ၂ ခွက်သည် ပိုလျှံနေခြင်း ဖြစ်သည်။\n\nဤသည်ပင် အမှန်တကယ် ဓာတုဓာတ်ပြုမှုများတွင် Limiting Reactant ပြဿနာများ၏ ယုတ္တိဗေဒ အတိအကျ ဖြစ်ကြောင်း ကိုဇော် ထောက်ပြခဲ့သည်- Reactant တစ်ခုစီက သီအိုရီအရ ထောက်ပံ့နိုင်မည့် ရလဒ်ပစ္စည်း ပမာဏကို တွက်ချက်ကာ အနည်းဆုံး ရလဒ်ပစ္စည်းကို ထောက်ပံ့နိုင်သော Reactant သည် ဓာတ်ပြုမှုကို အမှန်တကယ် ကန့်သတ်ပေးသော Reactant ဖြစ်သည်။ ရှင်သန့်၏ မုန့်ညက် ခွက် ၂ ခွက် ပိုလျှံနေသကဲ့သို့ အခြား Reactant ၏ 'ကျန်ရှိနေသည့်' ပမာဏသည် ပိုလျှံနေသော Reactant ဖြစ်သည်။\n\nထို့နောက် သူသည် စိန်ခေါ်မှုကို ဆက်လက် ချဲ့ထွင်ခဲ့သည်- ကိတ်မုန့်တစ်ခုစီတွင် သကြား 100 g အတိအကျ အသုံးပြုပါက၊ ရှင်သန့်တွင် သကြား 150 g သာ ရှိပါက သကြားကိုလည်း စစ်ဆေးရန် လိုအပ်ပါသလား။ သူမသည် 150 g သကြားက ကိတ်မုန့် 150 ÷ 100 = 1.5 ခုသာ ထောက်ပံ့နိုင်ကြောင်း လျင်မြန်စွာ တွက်ချက်ခဲ့သည် -- ဆိုလိုသည်မှာ ကြက်ဥ မဟုတ်ဘဲ သကြားသည် ၁.၅ က ၂ နှင့် ၃ ထက် ငယ်သောကြောင့် အမှန်တကယ် Limiting ပါဝင်ပစ္စည်း ဖြစ်ခဲ့သည်။ ရှင်သန့်သည် ကိတ်မုန့် ၁ ခုလုံးသာ ပြုလုပ်နိုင်ကြောင်း (လိုအပ်သော ကြက်ဥနှင့် မုန့်ညက်၏ တစ်ဝက်ဖြင့် ကိတ်မုန့် တစ်ဝက်ကို ပြုလုပ်၍ မရနိုင်သောကြောင့်) သဘောပေါက်ခဲ့ပြီး ဓာတုပညာရှင်များသည် Limiting Reactant တစ်ခုကို ကြေညာမီ Reactant တိုင်းကို အဘယ်ကြောင့် စစ်ဆေးရမည် ဖြစ်ကြောင်း သေးငယ်သော်လည်း အတိအကျ ပုံဆောင်ချက်တစ်ခု ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many cakes could the flour alone support?",
+            questionMy:
+                "မုန့်ညက်တစ်ခုတည်းက ကိတ်မုန့် မည်မျှ ထောက်ပံ့နိုင်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["3 cakes", "2 cakes", "6 cakes", "1 cake"],
+            optionsMy: [
+              "ကိတ်မုန့် ၃ ခု",
+              "ကိတ်မုန့် ၂ ခု",
+              "ကိတ်မုန့် ၆ ခု",
+              "ကိတ်မုန့် ၁ ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence: 6 ÷ 2 = 3."],
+            hintsMy: ["6 ÷ 2 = 3 ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why were the eggs the limiting reactant?",
+            questionMy:
+                "ကြက်ဥများသည် Limiting Reactant ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They could only support 2 cakes, fewer than the 3 cakes the flour could support",
+              "They were more expensive than flour",
+              "They spoiled faster than flour",
+              "Shin Thant preferred using more eggs",
+            ],
+            optionsMy: [
+              "မုန့်ညက်က ထောက်ပံ့နိုင်သော ကိတ်မုန့် ၃ ခုထက် နည်းသော ကိတ်မုန့် ၂ ခုသာ ထောက်ပံ့နိုင်သောကြောင့်",
+              "မုန့်ညက်ထက် ဈေးကြီးသောကြောင့်",
+              "မုန့်ညက်ထက် ပိုမြန်စွာ ပုပ်သိုးသောကြောင့်",
+              "ရှင်သန့်က ကြက်ဥ ပိုသုံးလိုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing the 2 cakes vs. 3 cakes calculation.",
+            ],
+            hintsMy: [
+              "ကိတ်မုန့် ၂ ခုနှင့် ၃ ခု တွက်ချက်မှုကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 3, what general rule did Ko Zaw describe for finding the limiting reactant?",
+            questionMy:
+                "Limiting Reactant ကို ရှာဖွေရန် ကိုဇော် ဖော်ပြခဲ့သော ယေဘုယျ စည်းမျဉ်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whichever reactant supports the smallest amount of product is the limiting one",
+              "The reactant with the largest total mass is always limiting",
+              "The most expensive ingredient is always limiting",
+              "The first ingredient added is always limiting",
+            ],
+            optionsMy: [
+              "အနည်းဆုံး ရလဒ်ပစ္စည်းကို ထောက်ပံ့နိုင်သော Reactant သည် Limiting ဖြစ်သည်",
+              "စုစုပေါင်း Mass အများဆုံးရှိသော Reactant သည် အမြဲတမ်း Limiting ဖြစ်သည်",
+              "အဖိုးအခ အများဆုံး ပါဝင်ပစ္စည်းသည် အမြဲတမ်း Limiting ဖြစ်သည်",
+              "ဦးစွာ ထည့်သွင်းသော ပါဝင်ပစ္စည်းသည် အမြဲတမ်း Limiting ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence stating the general logic behind limiting reactant problems.",
+            ],
+            hintsMy: [
+              "Limiting Reactant ပြဿနာများ၏ ယေဘုယျ ယုတ္တိဗေဒကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 4, why was sugar actually the true limiting ingredient, not eggs?",
+            questionMy:
+                "ကြက်ဥ မဟုတ်ဘဲ သကြားသည် အမှန်တကယ် Limiting ပါဝင်ပစ္စည်း ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "150 g of sugar could only support 1.5 cakes, fewer than either flour (3) or eggs (2)",
+              "Sugar is always the limiting ingredient in baking",
+              "Sugar dissolved faster than flour",
+              "Eggs were actually unlimited",
+            ],
+            optionsMy: [
+              "သကြား 150 g သည် ကိတ်မုန့် ၁.၅ ခုသာ ထောက်ပံ့နိုင်ပြီး မုန့်ညက် (၃) သို့မဟုတ် ကြက်ဥ (၂) ထက် နည်းသောကြောင့်",
+              "သကြားသည် ကိတ်မုန့်ဖုတ်ခြင်းတွင် အမြဲတမ်း Limiting ပါဝင်ပစ္စည်း ဖြစ်သောကြောင့်",
+              "သကြားသည် မုန့်ညက်ထက် ပိုမြန်စွာ ပျော်ဝင်သောကြောင့်",
+              "ကြက်ဥများသည် အမှန်တကယ် အကန့်အသတ် မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with the calculation 150 ÷ 100 = 1.5.",
+            ],
+            hintsMy: [
+              "150 ÷ 100 = 1.5 ပါဝင်သော တွက်ချက်မှု စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Recap: Stoichiometry",
+      titleMy: "ဒုတိယတန်း ပြန်လည်သုံးသပ်ခြင်း - Stoichiometry",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The limiting reactant is the one that...",
+          questionMy: "Limiting Reactant ဆိုသည်မှာ...",
+          optionsEn: [
+            "Runs out first and limits the product formed",
+            "Has the largest mass",
+            "Never reacts",
+            "Is always a gas",
+          ],
+          optionsMy: [
+            "ဦးစွာ ကုန်ဆုံးပြီး ရလဒ်ပစ္စည်းကို ကန့်သတ်ပေးသည်",
+            "Mass အများဆုံး ရှိသည်",
+            "ဘယ်တော့မှ ဓာတ်မပြု",
+            "အမြဲတမ်း ဓာတ်ငွေ့ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Product mass must always be calculated using the...",
+          questionMy: "ရလဒ်ပစ္စည်း Mass ကို ...အသုံးပြု၍ အမြဲတမ်း တွက်ချက်ရမည်",
+          optionsEn: [
+            "Limiting reactant",
+            "Excess reactant",
+            "Average of both reactants",
+            "Temperature of the reaction",
+          ],
+          optionsMy: [
+            "Limiting Reactant",
+            "Excess Reactant",
+            "Reactant နှစ်ခု၏ ပျမ်းမျှ",
+            "ဓာတ်ပြုမှု၏ အပူချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Stoichiometry studies the quantitative relationship between...",
+          questionMy:
+              "Stoichiometry သည် ...ကြား ပမာဏဆိုင်ရာ ဆက်စပ်မှုကို လေ့လာသည်",
+          optionsEn: [
+            "Reactants and products",
+            "Colours and smells only",
+            "Temperature and pressure only",
+            "Time and location",
+          ],
+          optionsMy: [
+            "Reactant များနှင့် Product များ",
+            "အရောင်နှင့် အနံ့သာ",
+            "အပူချိန်နှင့် ဖိအားသာ",
+            "အချိန်နှင့် တည်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
@@ -1619,11 +3057,21 @@ const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   weeks: [_igcseChemWeek1, _igcseChemWeek2, _igcseChemWeek3, _igcseChemWeek4],
 );
 
-/// IGCSE Chemistry pathway -- Term 1 of 9 authored so far (Terms 2-9 to
-/// follow: Stoichiometry; Electricity/Energetics; Rates & Equilibrium;
-/// Acids/Bases/Periodic Table; Metals & Environment; Organic Chemistry;
-/// Experimental Skills; Exam Prep & Graduation). `totalWeeks: 36` reflects
-/// the full 9-term aspirational course length.
+const CourseTermDef igcseChemistryTerm2 = CourseTermDef(
+  id: "course-igcse-chem-term2",
+  termNumber: 2,
+  titleEn: "Stoichiometry and Chemical Calculations",
+  titleMy: "Stoichiometry နှင့် ဓာတုဗေဒ တွက်ချက်မှုများ",
+  certificateTitleEn: "IGCSE Chemistry Term 2 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ ဒုတိယတန်း အောင်လက်မှတ်",
+  weeks: [_igcseChemWeek5, _igcseChemWeek6, _igcseChemWeek7, _igcseChemWeek8],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-2 of 9 authored so far (Terms 3-9 to
+/// follow: Electricity/Energetics; Rates & Equilibrium; Acids/Bases/Periodic
+/// Table; Metals & Environment; Organic Chemistry; Experimental Skills; Exam
+/// Prep & Graduation). `totalWeeks: 36` reflects the full 9-term
+/// aspirational course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -1635,5 +3083,5 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   descriptionMy:
       "အမှုန်ဒြပ်ဝတ္ထု၊ အက်တမ်ဖွဲ့စည်းပုံ၊ တွဲစပ်မှု၊ Stoichiometry၊ Energetics၊ ဓာတ်ပြုမြန်နှုန်း၊ အက်ဆစ်နှင့် ဘေ့စ်၊ Periodic Table၊ ဇီဝဓာတုဗေဒနှင့် လက်တွေ့စမ်းသပ်မှု နည်းစနစ်များကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE ဓာတုဗေဒ လမ်းကြောင်း။",
   totalWeeks: 36,
-  terms: [igcseChemistryTerm1],
+  terms: [igcseChemistryTerm1, igcseChemistryTerm2],
 );
