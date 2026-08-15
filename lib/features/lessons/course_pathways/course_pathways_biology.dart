@@ -8762,17 +8762,1590 @@ const CourseTermDef igcseBiologyTerm5 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 21: "Gas Exchange in Humans"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek21 = CourseWeekDef(
+  id: "course-igcse-bio-w21",
+  weekNumber: 21,
+  titleEn: "Gas Exchange in Humans",
+  titleMy: "လူသားတို့၏ ဓာတ်ငွေ့လဲလှယ်မှု (Gas Exchange)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w21-d1",
+      dayNumber: 1,
+      titleEn: "Alveoli: Built for Gas Exchange",
+      titleMy: "Alveoli - ဓာတ်ငွေ့ဖလှယ်မှုအတွက် ဒီဇိုင်းထုတ်ထားသော",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is NOT an adaptation of the alveoli for efficient gas exchange?",
+          questionMy:
+              "ထိရောက်သော ဓာတ်ငွေ့ဖလှယ်မှုအတွက် Alveoli ၏ လိုက်လျောညီထွေမှု မဟုတ်သည့်အရာမှာ အောက်ပါတို့အနက် အဘယ်နည်း။",
+          optionsEn: [
+            "Thick, tough walls to resist damage",
+            "Walls only one cell thick, for a short diffusion path",
+            "A large total surface area from millions of alveoli",
+            "A moist lining and a good blood supply from surrounding capillaries",
+          ],
+          optionsMy: [
+            "ပျက်စီးမှုကို ခံနိုင်ရန် ထူထပ်၍ ခိုင်မာသော နံရံ",
+            "ဓာတ်ငွေ့ Diffuse ဖြတ်သန်းရသည့်အကွာအဝေး တိုတောင်းစေရန် ဆဲလ်တစ်ခုသာ ထူသော နံရံ",
+            "Alveoli သန်းချီရှိခြင်းမှ ရလာသော စုစုပေါင်း မျက်နှာပြင်ဧရိယာ ကြီးမားခြင်း",
+            "စိုစွတ်သော အလွှာနှင့် ဝန်းရံနေသော Capillary များမှ ကောင်းမွန်သော သွေးထောက်ပံ့မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Thick walls would make diffusion slower, not faster -- the opposite of an adaptation for gas exchange.",
+            "Alveoli walls are specifically thin, not thick, to speed up diffusion.",
+          ],
+          hintsMy: [
+            "နံရံထူလျှင် Diffusion ပို၍ ပိုမြန်မည့်အစား ပိုနှေးစေမည် -- ဓာတ်ငွေ့ဖလှယ်မှုအတွက် လိုက်လျောညီထွေမှု၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။",
+            "Alveoli နံရံများသည် Diffusion မြန်ဆန်စေရန် ထူသည့်အစား ပါးလွှာသော နံရံ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During inhalation, what happens to the volume of the thorax (chest cavity)?",
+          questionMy:
+              "Inhalation (ရှူသွင်းခြင်း) စဉ် ရင်ဘတ်ခေါင်း (Thorax) ၏ ဝင်ရိုးဆမ်း အဘယ်ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "It increases, causing pressure inside to decrease",
+            "It decreases",
+            "It stays exactly the same",
+            "It disappears completely",
+          ],
+          optionsMy: [
+            "ကြီးလာပြီး အတွင်းဖိအား လျော့ကျစေသည်",
+            "လျော့ကျသွားသည်",
+            "အတိအကျ တူညီနေသည်",
+            "လုံးဝ ပျောက်ကွယ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The intercostal muscles contract, moving the ribcage up and out, while the diaphragm contracts and flattens.",
+            "A larger volume in the same enclosed space means lower pressure, drawing air in from outside.",
+          ],
+          hintsMy: [
+            "Intercostal ကြွက်သားများ တွန့်ကျုံ့ကာ ရင်ခြေထင်းကို အထက်နှင့် အပြင်ဘက်သို့ ရွှေ့ပြီး Diaphragm ကလည်း တွန့်ကျုံ့ကာ ညီညာသွားသည်။",
+            "တူညီသော ပိတ်ထားသောနေရာတွင် ဝင်ရိုးဆမ်းကြီးလာလျှင် ဖိအားနိမ့်လာပြီး အပြင်ဘက်မှ လေကို ဆွဲသွင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which muscle moves downward and flattens during inhalation, then relaxes back into a dome shape during exhalation?",
+          questionMy:
+              "Inhalation စဉ် အောက်သို့ ရွေ့ပြီး ညီညာသွားကာ Exhalation စဉ် ပြန်ပြေလျော့ကာ ဒုံးပုံသဏ္ဌာန်သို့ ပြန်သွားသော ကြွက်သားမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The diaphragm",
+            "The intercostal muscles only",
+            "The heart",
+            "The trachea",
+          ],
+          optionsMy: [
+            "Diaphragm",
+            "Intercostal ကြွက်သားများသာ",
+            "နှလုံး",
+            "လေပြွန် (Trachea)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This sheet of muscle sits below the lungs, separating the thorax from the abdomen.",
+            "When it contracts, it flattens; when it relaxes, it domes upward again.",
+          ],
+          hintsMy: [
+            "ဤကြွက်သားလွှာသည် အဆုတ်များ၏ အောက်တွင် ရှိပြီး ရင်ဘတ်ခေါင်းနှင့် ဝမ်းဗိုက်ကို ခွဲခြားပေးသည်။",
+            "တွန့်ကျုံ့သောအခါ ညီညာသွားပြီး ပြေလျော့သောအခါ ဒုံးပုံသို့ ပြန်ဖောင်းလာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Respiratory System Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အသက်ရှူလမ်းကြောင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w21-dm-1",
+          termEn: "Alveoli",
+          termMy: "Alveoli",
+          matchEn: "Tiny air sacs in the lungs where gas exchange takes place",
+          matchMy: "ဓာတ်ငွေ့ဖလှယ်မှု ဖြစ်ပေါ်ရာ အဆုတ်ရှိ လေအိတ်ငယ်လေးများ",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w21-dm-2",
+          termEn: "Trachea",
+          termMy: "Trachea",
+          matchEn:
+              "The windpipe, a tube supported by rings of cartilage that carries air to the bronchi",
+          matchMy:
+              "Cartilage အဝိုင်းများဖြင့် ထောက်ပံ့ထားပြီး Bronchi ဆီသို့ လေကို ပို့ဆောင်ပေးသော လေပြွန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w21-dm-3",
+          termEn: "Diaphragm",
+          termMy: "Diaphragm",
+          matchEn:
+              "The sheet of muscle below the lungs that contracts and flattens during inhalation",
+          matchMy:
+              "Inhalation စဉ် တွန့်ကျုံ့ကာ ညီညာသွားသော အဆုတ်များ၏ အောက်ရှိ ကြွက်သားလွှာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w21-dm-4",
+          termEn: "Intercostal muscles",
+          termMy: "Intercostal ကြွက်သားများ",
+          matchEn:
+              "Muscles between the ribs that contract to move the ribcage up and out during inhalation",
+          matchMy:
+              "Inhalation စဉ် ရင်ခြေထင်းကို အထက်နှင့် အပြင်ဘက်သို့ ရွှေ့ရန် တွန့်ကျုံ့သော နံရိုးများကြား ကြွက်သားများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w21-dm-5",
+          termEn: "Bronchi / bronchioles",
+          termMy: "Bronchi / Bronchioles",
+          matchEn:
+              "The branching tubes that carry air from the trachea to the alveoli",
+          matchMy:
+              "Trachea မှ Alveoli ဆီသို့ လေကို ပို့ဆောင်ပေးသော ကွက်ကွက်ခွဲထားသော ပြွန်များ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Inhalation or Exhalation?",
+      titleMy: "စီစစ်ကြမည် - Inhalation လား Exhalation လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Happens During Inhalation", "Happens During Exhalation"],
+        bucketsMy: ["Inhalation စဉ် ဖြစ်ပေါ်သည်", "Exhalation စဉ် ဖြစ်ပေါ်သည်"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w21-sort-1",
+            labelEn: "The diaphragm contracts and flattens",
+            labelMy: "Diaphragm တွန့်ကျုံ့ကာ ညီညာသွားခြင်း",
+            correctBucketEn: "Happens During Inhalation",
+            correctBucketMy: "Inhalation စဉ် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w21-sort-2",
+            labelEn:
+                "The intercostal muscles relax, and the ribcage moves down and in",
+            labelMy:
+                "Intercostal ကြွက်သားများ ပြေလျော့ကာ ရင်ခြေထင်း အောက်နှင့် အတွင်းသို့ ရွေ့လျားခြင်း",
+            correctBucketEn: "Happens During Exhalation",
+            correctBucketMy: "Exhalation စဉ် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w21-sort-3",
+            labelEn:
+                "Thorax volume increases and pressure decreases, drawing air in",
+            labelMy:
+                "Thorax ဝင်ရိုးဆမ်း ကြီးလာပြီး ဖိအား လျော့ကျကာ လေကို ဆွဲသွင်းခြင်း",
+            correctBucketEn: "Happens During Inhalation",
+            correctBucketMy: "Inhalation စဉ် ဖြစ်ပေါ်သည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w21-sort-4",
+            labelEn:
+                "Thorax volume decreases and pressure increases, pushing air out",
+            labelMy:
+                "Thorax ဝင်ရိုးဆမ်း လျော့ကျပြီး ဖိအား တိုးလာကာ လေကို တွန်းထုတ်ခြင်း",
+            correctBucketEn: "Happens During Exhalation",
+            correctBucketMy: "Exhalation စဉ် ဖြစ်ပေါ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Coach Zaw Lin Explains Breathing",
+      titleMy: "စာဖတ်ခြင်း - နည်းပြ ဇော်လင်း၏ အသက်ရှူခြင်း ရှင်းလင်းချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Coach Zaw Lin Explains Breathing",
+        titleMy: "နည်းပြ ဇော်လင်း၏ အသက်ရှူခြင်း ရှင်းလင်းချက်",
+        passageEn:
+            "After a hard training session, one of Coach Zaw Lin's runners asked why she felt herself breathing so much deeper and faster than usual, and the coach used the moment as an impromptu Biology lesson, since he had studied the respiratory system himself years earlier. He explained that every breath in, or inhalation, begins with two sets of muscles working together: the intercostal muscles between the ribs contract, pulling the ribcage up and outward, while the diaphragm below the lungs contracts and flattens from its usual dome shape.\n\nTogether, he explained, these two movements increase the volume of the thorax, the sealed cavity containing the lungs. Following basic physics, increasing the volume of a sealed space decreases the pressure inside it, so with the pressure inside the thorax now lower than the air pressure outside the body, air rushes in through the nose and mouth, down the trachea, and into the lungs to equalise the pressure. Exhalation simply reverses this: the intercostal muscles and diaphragm relax, the thorax volume decreases, the internal pressure rises above atmospheric pressure, and air is pushed back out.\n\nThe runner then asked why she needed to breathe faster and more deeply after hard exercise specifically. Coach Zaw Lin explained that her muscles were respiring faster to release the extra energy needed for running, using up oxygen and producing carbon dioxide more quickly than at rest. Faster, deeper breathing increases the volume of air moving in and out of the alveoli per minute, which speeds up the rate of gas exchange -- bringing in oxygen and removing carbon dioxide fast enough to keep up with her muscles' increased demand.",
+        passageMy:
+            "လေ့ကျင့်မှုပြင်းထန်ခဲ့ပြီးနောက် နည်းပြ ဇော်လင်း၏ ပြေးသားတစ်ဦးက ပုံမှန်ထက် ပို၍ နက်ရှိုင်း၍ မြန်ဆန်စွာ အသက်ရှူနေသည်ကို ခံစားရသည့် အကြောင်းရင်းကို မေးခဲ့ပြီး၊ နည်းပြက နှစ်ပေါင်းများစွာအလို ကိုယ်တိုင် အသက်ရှူလမ်းကြောင်းစနစ်ကို လေ့လာဖူးသောကြောင့် ဤအခိုက်အတန့်ကို ရုတ်တရက် ဇီဝဗေဒသင်ခန်းစာအဖြစ် အသုံးချခဲ့သည်။ Inhalation (ရှူသွင်းခြင်း) တစ်ခုစီသည် ကြွက်သားနှစ်စု အတူတကွ အလုပ်လုပ်ခြင်းဖြင့် စတင်ကြောင်း သူ ရှင်းပြခဲ့သည်- နံရိုးများကြား Intercostal ကြွက်သားများ တွန့်ကျုံ့ကာ ရင်ခြေထင်းကို အထက်နှင့် အပြင်ဘက်သို့ ဆွဲတင်ပြီး၊ အဆုတ်များ အောက်ရှိ Diaphragm ကလည်း တွန့်ကျုံ့၍ ၎င်း၏ ပုံမှန် ဒုံးပုံသဏ္ဌာန်မှ ညီညာသွားသည်။\n\nဤလှုပ်ရှားမှုနှစ်ခု အတူတကွ Thorax ၏ ဝင်ရိုးဆမ်း၊ အဆုတ်များ ပါဝင်သော ပိတ်ထားသော ခေါင်းအိတ်ကို တိုးမြှင့်ပေးကြောင်း သူ ရှင်းပြခဲ့သည်။ အခြေခံ ရူပဗေဒနိယာမအရ ပိတ်ထားသောနေရာ၏ ဝင်ရိုးဆမ်းကို တိုးမြှင့်လိုက်ခြင်းက အတွင်းဖိအားကို လျော့ကျစေသောကြောင့်၊ Thorax အတွင်း ဖိအားသည် ခန္ဓာကိုယ်ပြင်ပ လေဖိအားထက် ယခုအခါ ပိုနိမ့်နေသဖြင့် လေသည် ခံတွင်းနှင့် နှာခေါင်းမှတစ်ဆင့် Trachea ကို ဆင်း၍ ဖိအားညီမျှစေရန် အဆုတ်ထဲသို့ ဆက်တိုက် ဝင်ရောက်လာသည်။ Exhalation (ရှူထုတ်ခြင်း) က ဤအရာကို ရိုးရှင်းစွာ ပြောင်းပြန်လုပ်ဆောင်သည်- Intercostal ကြွက်သားများနှင့် Diaphragm ပြေလျော့ကာ Thorax ဝင်ရိုးဆမ်း လျော့ကျပြီး အတွင်းဖိအား လေထုဖိအားထက် တက်လာကာ လေကို ပြန်တွန်းထုတ်လိုက်သည်။\n\nပြေးသားသည် ကိုယ်လက်လှုပ်ရှားမှု ပြင်းထန်ပြီးနောက် အထူးသဖြင့် အဘယ်ကြောင့် ပို၍ မြန်ဆန်၍ နက်ရှိုင်းစွာ အသက်ရှူရသနည်းဟု ဆက်လက် မေးမြန်းခဲ့သည်။ သူမ၏ ကြွက်သားများသည် ပြေးလွှားရန် လိုအပ်သော အပိုစွမ်းအင် ထုတ်လွှတ်ရန် ပို၍ မြန်ဆန်စွာ အသက်ရှူ (Respire) နေကြောင်း၊ နားနေချိန်ထက် အောက်ဆီဂျင် ပို၍ မြန်ဆန်စွာ သုံးစွဲကာ ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပို၍ ထုတ်လုပ်နေကြောင်း နည်းပြ ဇော်လင်းက ရှင်းပြခဲ့သည်။ ပို၍ မြန်ဆန်၍ နက်ရှိုင်းသော အသက်ရှူခြင်းသည် တစ်မိနစ်လျှင် Alveoli ထဲသို့ ဝင်/ထွက်သော လေ ဝင်ရိုးဆမ်းကို တိုးမြှင့်ပေးပြီး ဓာတ်ငွေ့ဖလှယ်မှု နှုန်းကို မြန်ဆန်စေသည် -- ကြွက်သားများ၏ တိုးလာသော လိုအပ်ချက်ကို လိုက်မီအောင် အောက်ဆီဂျင်ကို လုံလောက်စွာ ယူဆောင်ပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို ဖယ်ရှားပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, which two sets of muscles work together during inhalation?",
+            questionMy:
+                "Inhalation စဉ် အတူတကွ အလုပ်လုပ်သော ကြွက်သားနှစ်စုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The intercostal muscles and the diaphragm",
+              "The heart and the lungs",
+              "The trachea and the alveoli",
+              "The arms and the legs",
+            ],
+            optionsMy: [
+              "Intercostal ကြွက်သားများနှင့် Diaphragm",
+              "နှလုံးနှင့် အဆုတ်",
+              "Trachea နှင့် Alveoli",
+              "လက်နှင့် ခြေထောက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 1 describing what begins inhalation.",
+              "One set is between the ribs; the other sits below the lungs.",
+            ],
+            hintsMy: [
+              "Inhalation စတင်ကြောင်း ဖော်ပြသော စာပိုဒ် ၁ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "တစ်စုသည် နံရိုးများကြားတွင် ရှိပြီး နောက်တစ်စုသည် အဆုတ်များအောက်တွင် ရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does air rush into the lungs during inhalation?",
+            questionMy:
+                "Inhalation စဉ် လေသည် အဆုတ်ထဲသို့ အဘယ်ကြောင့် ဆက်တိုက် ဝင်ရောက်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The pressure inside the thorax becomes lower than the pressure outside the body",
+              "The lungs actively suck air in using muscles inside them",
+              "The trachea expands to twice its size",
+              "Air is always moving into the lungs regardless of pressure",
+            ],
+            optionsMy: [
+              "Thorax အတွင်း ဖိအားသည် ခန္ဓာကိုယ်ပြင်ပ ဖိအားထက် နိမ့်လာသောကြောင့်",
+              "အဆုတ်များ ကိုယ်တိုင် ၎င်းတို့အတွင်းရှိ ကြွက်သားများသုံး၍ လေကို စုပ်ယူသောကြောင့်",
+              "Trachea သည် ၎င်း၏ အရွယ်အစား နှစ်ဆ ကျယ်လာသောကြောင့်",
+              "ဖိအားနှင့် မသက်ဆိုင်ဘဲ လေသည် အဆုတ်ထဲသို့ အမြဲ ဝင်ရောက်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the explanation involving basic physics about volume and pressure.",
+              "Gases move from higher pressure to lower pressure, just like the pressure difference described here.",
+            ],
+            hintsMy: [
+              "ဝင်ရိုးဆမ်းနှင့် ဖိအားနှင့်ပတ်သက်သော အခြေခံ ရူပဗေဒနိယာမ ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဓာတ်ငွေ့များသည် ဖိအားမြင့်ရာမှ နိမ့်ရာသို့ ရွေ့လျားသည်၊ ဤနေရာတွင် ဖော်ပြထားသော ဖိအားကွာခြားမှုကဲ့သို့ပင်ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the runner's muscles need faster gas exchange after hard exercise?",
+            questionMy:
+                "ကိုယ်လက်လှုပ်ရှားမှု ပြင်းထန်ပြီးနောက် ပြေးသား၏ ကြွက်သားများ ပို၍ မြန်ဆန်သော ဓာတ်ငွေ့ဖလှယ်မှု အဘယ်ကြောင့် လိုအပ်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Muscles were respiring faster, using more oxygen and producing more carbon dioxide",
+              "Her muscles stopped needing oxygen entirely",
+              "The alveoli had shrunk in size",
+              "Her heart stopped beating temporarily",
+            ],
+            optionsMy: [
+              "ကြွက်သားများ ပို၍ မြန်ဆန်စွာ Respire နေပြီး အောက်ဆီဂျင် ပို၍ သုံးကာ ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပို၍ ထုတ်လုပ်နေသောကြောင့်",
+              "သူမ၏ ကြွက်သားများ အောက်ဆီဂျင် လုံးဝ မလိုအပ်တော့သောကြောင့်",
+              "Alveoli များ အရွယ်အစား ကျုံ့သွားသောကြောင့်",
+              "သူမ၏ နှလုံး ယာယီ ရပ်တန့်သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the coach's explanation about muscles respiring faster during exercise.",
+              "More respiration means more oxygen used and more carbon dioxide produced, both needing removal/delivery.",
+            ],
+            hintsMy: [
+              "ကိုယ်လက်လှုပ်ရှားမှုစဉ် ကြွက်သားများ ပို၍ မြန်ဆန်စွာ Respire ကြောင်း နည်းပြ၏ ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Respiration ပို၍များလျှင် အောက်ဆီဂျင် ပို၍သုံးပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပို၍ ထုတ်လုပ်သဖြင့် နှစ်ခုစလုံး ဖယ်ရှား/ထောက်ပံ့ရန် လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What effect does faster, deeper breathing have on gas exchange, according to paragraph 3?",
+            questionMy:
+                "ပို၍ မြန်ဆန်၍ နက်ရှိုင်းသော အသက်ရှူခြင်းသည် ဓာတ်ငွေ့ဖလှယ်မှုအပေါ် မည်သည့်အကျိုးသက်ရောက်မှု ရှိကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It increases the volume of air moving through the alveoli per minute, speeding up gas exchange",
+              "It has no effect on gas exchange at all",
+              "It slows down gas exchange",
+              "It stops the alveoli from working",
+            ],
+            optionsMy: [
+              "တစ်မိနစ်လျှင် Alveoli ထဲသို့ ဝင်/ထွက်သော လေ ဝင်ရိုးဆမ်းကို တိုးမြှင့်ပေးပြီး ဓာတ်ငွေ့ဖလှယ်မှုကို မြန်ဆန်စေခြင်း",
+              "ဓာတ်ငွေ့ဖလှယ်မှုအပေါ် လုံးဝ အကျိုးသက်ရောက်မှု မရှိခြင်း",
+              "ဓာတ်ငွေ့ဖလှယ်မှုကို နှေးကွေးစေခြင်း",
+              "Alveoli များ အလုပ်လုပ်ခြင်းကို ရပ်တန့်စေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "More air movement per minute means more oxygen delivered and more carbon dioxide removed.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "တစ်မိနစ်လျှင် လေရွေ့လျားမှု ပိုများလျှင် အောက်ဆီဂျင် ပိုရရှိပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပိုဖယ်ရှားနိုင်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Gas Exchange",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဓာတ်ငွေ့လဲလှယ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Gas exchange in the lungs takes place at the...",
+          questionMy: "အဆုတ်တွင် ဓာတ်ငွေ့ဖလှယ်မှု ဖြစ်ပေါ်ရာနေရာမှာ...",
+          optionsEn: ["Alveoli", "Trachea", "Diaphragm", "Larynx"],
+          optionsMy: ["Alveoli", "Trachea", "Diaphragm", "Larynx"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "During exhalation, the diaphragm...",
+          questionMy: "Exhalation စဉ် Diaphragm သည်...",
+          optionsEn: [
+            "Relaxes and domes upward",
+            "Contracts and flattens",
+            "Disappears",
+            "Turns into cartilage",
+          ],
+          optionsMy: [
+            "ပြေလျော့ကာ ဒုံးပုံသို့ ဖောင်းလာသည်",
+            "တွန့်ကျုံ့ကာ ညီညာသွားသည်",
+            "ပျောက်ကွယ်သွားသည်",
+            "Cartilage အဖြစ် ပြောင်းလဲသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Why are alveoli walls only one cell thick?",
+          questionMy: "Alveoli နံရံများသည် ဆဲလ်တစ်ခုသာ ဘာကြောင့် ထူသနည်း",
+          optionsEn: [
+            "To keep the diffusion path for gases as short as possible",
+            "To make them stronger",
+            "To store more blood",
+            "To produce mucus",
+          ],
+          optionsMy: [
+            "ဓာတ်ငွေ့များ Diffuse ဖြတ်ရသည့်အကွာအဝေးကို တတ်နိုင်သမျှ တိုတောင်းစေရန်",
+            "ပို၍ ခိုင်ခံ့စေရန်",
+            "သွေး ပို၍ သိုလှောင်ရန်",
+            "Mucus ထုတ်လုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 22: "Tobacco Smoke and Respiratory Health"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek22 = CourseWeekDef(
+  id: "course-igcse-bio-w22",
+  weekNumber: 22,
+  titleEn: "Tobacco Smoke and Respiratory Health",
+  titleMy: "ဆေးလိပ်ခိုးငွေ့နှင့် အဆုတ်ကျန်းမာရေး",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w22-d1",
+      dayNumber: 1,
+      titleEn: "Harmful Substances in Tobacco Smoke",
+      titleMy: "ဆေးလိပ်ခိုးငွေ့ရှိ အန္တရာယ်ရှိသော ပစ္စည်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which substance in tobacco smoke is addictive and raises heart rate and blood pressure?",
+          questionMy:
+              "ဆေးလိပ်ခိုးငွေ့ရှိ မည်သည့်ပစ္စည်းသည် စွဲလန်းစေပြီး နှလုံးခုန်နှုန်းနှင့် သွေးဖိအားကို မြင့်တက်စေသနည်း။",
+          optionsEn: ["Nicotine", "Tar", "Carbon monoxide", "Oxygen"],
+          optionsMy: ["Nicotine", "Tar", "ကာဗွန်မိုနောက်ဆိုဒ်", "အောက်ဆီဂျင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the substance that makes smoking so difficult to quit.",
+            "It stimulates the nervous system, increasing heart rate and blood pressure.",
+          ],
+          hintsMy: [
+            "ဤပစ္စည်းသည် ဆေးလိပ်ကို ရပ်ရန် ခက်ခဲစေသော ပစ္စည်း ဖြစ်သည်။",
+            "၎င်းသည် အာရုံကြောစနစ်ကို လှုံ့ဆော်ပေးပြီး နှလုံးခုန်နှုန်းနှင့် သွေးဖိအားကို မြင့်တက်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does carbon monoxide in tobacco smoke reduce the blood's ability to carry oxygen?",
+          questionMy:
+              "ဆေးလိပ်ခိုးငွေ့ရှိ ကာဗွန်မိုနောက်ဆိုဒ်သည် သွေး၏ အောက်ဆီဂျင်သယ်ဆောင်နိုင်စွမ်းကို မည်သို့ လျော့ကျစေသနည်း။",
+          optionsEn: [
+            "It binds to haemoglobin more strongly than oxygen does, blocking oxygen from binding",
+            "It destroys red blood cells completely",
+            "It cools the blood down",
+            "It has no effect on the blood at all",
+          ],
+          optionsMy: [
+            "အောက်ဆီဂျင်ထက် Haemoglobin နှင့် ပိုခိုင်မာစွာ ချိတ်ဆက်ကာ အောက်ဆီဂျင် ချိတ်ဆက်ခြင်းကို တားဆီးသည်",
+            "သွေးနီဥများကို လုံးဝ ဖျက်ဆီးလိုက်သည်",
+            "သွေးကို အေးစေသည်",
+            "သွေးအပေါ် မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Carbon monoxide competes with oxygen for the same binding site on haemoglobin, and usually wins.",
+            "Haemoglobin bound to carbon monoxide cannot also carry oxygen.",
+          ],
+          hintsMy: [
+            "ကာဗွန်မိုနောက်ဆိုဒ်သည် Haemoglobin ပေါ်ရှိ ချိတ်ဆက်နေရာတစ်ခုတည်းအတွက် အောက်ဆီဂျင်နှင့် ယှဉ်ပြိုင်ပြီး ပုံမှန်အားဖြင့် အနိုင်ရသည်။",
+            "ကာဗွန်မိုနောက်ဆိုဒ်နှင့် ချိတ်ဆက်ထားသော Haemoglobin သည် အောက်ဆီဂျင်ကို ထပ်၍ ချိတ်ဆက်၍ မရနိုင်တော့ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Tar in tobacco smoke is most closely linked to which health effect?",
+          questionMy:
+              "ဆေးလိပ်ခိုးငွေ့ရှိ Tar သည် မည်သည့်ကျန်းမာရေးဆိုးကျိုးနှင့် အနီးစပ်ဆုံး ဆက်စပ်သနည်း။",
+          optionsEn: [
+            "Lung cancer, since it contains carcinogens",
+            "Improved lung capacity",
+            "Faster wound healing",
+            "Stronger bones",
+          ],
+          optionsMy: [
+            "ကင်ဆာဖြစ်စေသော ပစ္စည်းများ ပါဝင်သောကြောင့် အဆုတ်ကင်ဆာ",
+            "အဆုတ်စွမ်းရည် တိုးတက်မှု",
+            "ဒဏ်ရာ ပို၍ မြန်ဆန်စွာ ပျောက်ကင်းမှု",
+            "အရိုးများ ပို၍ ခိုင်ခံ့မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Tar is a sticky substance that coats the alveoli and airways.",
+            "It contains chemicals known to cause cancer, called carcinogens.",
+          ],
+          hintsMy: [
+            "Tar သည် Alveoli နှင့် လေလမ်းကြောင်းများကို ဖုံးအုပ်သော စေးကပ်သောပစ္စည်း ဖြစ်သည်။",
+            "၎င်းတွင် ကင်ဆာဖြစ်စေတတ်ကြောင်း သိရှိထားသော ဓာတုပစ္စည်းများ (Carcinogens) ပါဝင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Smoking-Related Disease Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆေးလိပ်ဆိုင်ရာ ရောဂါ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w22-dm-1",
+          termEn: "Emphysema",
+          termMy: "Emphysema",
+          matchEn:
+              "A disease in which alveoli walls break down, reducing the surface area for gas exchange",
+          matchMy:
+              "Alveoli နံရံများ ပျက်စီးကာ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် မျက်နှာပြင်ဧရိယာကို လျော့ကျစေသော ရောဂါ",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w22-dm-2",
+          termEn: "Bronchitis",
+          termMy: "Bronchitis",
+          matchEn:
+              "Inflammation of the bronchi, causing excess mucus production and a persistent cough",
+          matchMy:
+              "Mucus အလွန်အကျွံ ထုတ်လုပ်မှုနှင့် ရေရှည် ချောင်းဆိုးခြင်းကို ဖြစ်စေသော Bronchi ရောင်ရမ်းမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w22-dm-3",
+          termEn: "Carcinogen",
+          termMy: "Carcinogen",
+          matchEn: "A substance known to cause cancer by damaging cell DNA",
+          matchMy:
+              "ဆဲလ် DNA ကို ပျက်စီးစေကာ ကင်ဆာဖြစ်စေတတ်ကြောင်း သိရှိထားသော ပစ္စည်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w22-dm-4",
+          termEn: "Nicotine",
+          termMy: "Nicotine",
+          matchEn:
+              "The addictive chemical in tobacco that raises heart rate and blood pressure",
+          matchMy:
+              "စွဲလန်းစေပြီး နှလုံးခုန်နှုန်းနှင့် သွေးဖိအားကို မြင့်တက်စေသော ဆေးရွက်ကြီးရှိ ဓာတုပစ္စည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Harmful Substance?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် အန္တရာယ်ရှိသော ပစ္စည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Nicotine", "Tar", "Carbon Monoxide"],
+        bucketsMy: ["Nicotine", "Tar", "ကာဗွန်မိုနောက်ဆိုဒ်"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w22-sort-1",
+            labelEn:
+                "Binds to haemoglobin, reducing the blood's oxygen-carrying capacity",
+            labelMy:
+                "Haemoglobin နှင့် ချိတ်ဆက်ကာ သွေး၏ အောက်ဆီဂျင်သယ်ဆောင်နိုင်စွမ်းကို လျော့ကျစေခြင်း",
+            correctBucketEn: "Carbon Monoxide",
+            correctBucketMy: "ကာဗွန်မိုနောက်ဆိုဒ်",
+          ),
+          SortingItem(
+            id: "igcsebio-w22-sort-2",
+            labelEn: "Makes it hard for a smoker to quit due to addiction",
+            labelMy:
+                "စွဲလန်းမှုကြောင့် ဆေးလိပ်သောက်သူတစ်ဦးအတွက် ရပ်ရန် ခက်ခဲစေခြင်း",
+            correctBucketEn: "Nicotine",
+            correctBucketMy: "Nicotine",
+          ),
+          SortingItem(
+            id: "igcsebio-w22-sort-3",
+            labelEn:
+                "A sticky substance containing carcinogens that coats the lungs",
+            labelMy:
+                "အဆုတ်များကို ဖုံးအုပ်သော ကင်ဆာဖြစ်စေတတ်သည့် ပစ္စည်းပါဝင်သော စေးကပ်သောပစ္စည်း",
+            correctBucketEn: "Tar",
+            correctBucketMy: "Tar",
+          ),
+          SortingItem(
+            id: "igcsebio-w22-sort-4",
+            labelEn:
+                "Increases heart rate and blood pressure by stimulating the nervous system",
+            labelMy:
+                "အာရုံကြောစနစ်ကို လှုံ့ဆော်ကာ နှလုံးခုန်နှုန်းနှင့် သွေးဖိအားကို မြင့်တက်စေခြင်း",
+            correctBucketEn: "Nicotine",
+            correctBucketMy: "Nicotine",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Dr. Htet Htet's Lung X-Ray",
+      titleMy: "စာဖတ်ခြင်း - ဒေါက်တာထက်ထက်၏ အဆုတ် X-Ray",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Dr. Htet Htet's Lung X-Ray",
+        titleMy: "ဒေါက်တာထက်ထက်၏ အဆုတ် X-Ray",
+        passageEn:
+            "Dr. Htet Htet returned to Khin Sanda's school for another career-day talk, this time bringing two lung X-rays: one from a healthy non-smoker, and one from a patient who had smoked heavily for over twenty years. The healthy lung X-ray showed clear, evenly spread lung tissue, while the smoker's lung showed noticeably darker, patchy areas where the doctor explained the alveoli walls had broken down over years of exposure to tobacco smoke -- a condition called emphysema.\n\nShe explained that emphysema develops gradually: repeated exposure to the chemicals in tobacco smoke damages and eventually destroys the thin walls between neighbouring alveoli, causing many small air sacs to merge into fewer, larger ones. Since gas exchange depends on having a large total surface area of alveoli walls in contact with capillaries, this merging permanently reduces that surface area, meaning the patient's lungs could absorb far less oxygen with each breath than a healthy person's lungs, even though the total lung volume looked similar on the X-ray.\n\nA student asked whether the patient could recover if she quit smoking immediately. Dr. Htet Htet explained an important distinction: unlike bronchitis, where inflammation and excess mucus production can improve once smoking stops, the alveoli damage in emphysema is permanent, since destroyed alveoli walls do not regenerate. Quitting smoking would stop the damage from getting worse and reduce the risk of further complications like lung cancer, but it could not restore the surface area that had already been lost -- which is exactly why doctors emphasise prevention and early quitting over waiting to see visible symptoms before taking tobacco's health risks seriously.",
+        passageMy:
+            "ဒေါက်တာထက်ထက်သည် နောက်ထပ် Career Day ဟောပြောပွဲအတွက် ခင်စန္ဒာ၏ ကျောင်းသို့ ပြန်လည်ရောက်ရှိလာခဲ့ပြီး၊ ဤအကြိမ်တွင် အဆုတ် X-Ray ပုံနှစ်ပုံကို ယူဆောင်လာခဲ့သည်- တစ်ပုံမှာ ကျန်းမာသော ဆေးလိပ်မသောက်သူထံမှ၊ နောက်တစ်ပုံမှာ နှစ်ပေါင်း ၂၀ ကျော် ဆေးလိပ်ပြင်းထန်စွာ သောက်ခဲ့ဖူးသည့် လူနာထံမှ ဖြစ်သည်။ ကျန်းမာသော အဆုတ် X-Ray ပုံသည် ရှင်းလင်း၍ တစ်ညီတစ်ညာ ပျံ့နှံ့နေသော အဆုတ်တစ်ရှူးကို ပြသခဲ့ပြီး၊ ဆေးလိပ်သောက်သူ၏ အဆုတ်မူ သိသိသာသာ ပို၍ နက်၍ အနှက်ကွက်ကွက် နေရာများ ပြသသည်ကို ဆရာဝန်က ဆေးလိပ်ခိုးငွေ့ကို နှစ်ပေါင်းများစွာ ထိတွေ့ခံခဲ့ရသဖြင့် Alveoli နံရံများ ပျက်စီးသွားခြင်း ဖြစ်ကြောင်း -- Emphysema ဟု ခေါ်သော အခြေအနေတစ်ခု ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။\n\nEmphysema သည် တဖြည်းဖြည်း တိုးတက်ဖြစ်ပွားလာကြောင်း သူ ရှင်းပြခဲ့သည်- ဆေးလိပ်ခိုးငွေ့ရှိ ဓာတုပစ္စည်းများကို ထပ်ခါထပ်ခါ ထိတွေ့ခံရခြင်းက အနီးအနားရှိ Alveoli များကြား ပါးလွှာသော နံရံများကို ပျက်စီးစေပြီး နောက်ဆုံးတွင် ဖျက်ဆီးလိုက်သဖြင့် လေအိတ်ငယ်များစွာ ပေါင်းစည်း၍ လေအိတ်ကြီးအနည်းငယ်သာ ကျန်ရစ်စေသည်။ ဓာတ်ငွေ့ဖလှယ်မှုသည် Capillary များနှင့် ထိတွေ့နေသော Alveoli နံရံများ၏ စုစုပေါင်း မျက်နှာပြင်ဧရိယာကြီးမားမှုပေါ် မှီခိုနေသောကြောင့်၊ ဤပေါင်းစည်းမှုသည် ထိုမျက်နှာပြင်ဧရိယာကို အမြဲတမ်း လျော့ကျစေပြီး၊ X-Ray ပေါ်တွင် စုစုပေါင်း အဆုတ်ဝင်ရိုးဆမ်း ဆင်တူပုံပေါ်နေသော်လည်း လူနာ၏ အဆုတ်သည် ကျန်းမာသောလူတစ်ဦး၏ အဆုတ်ထက် အသက်ရှူတစ်ချက်လျှင် အောက်ဆီဂျင် ပို၍ နည်းစွာသာ စုပ်ယူနိုင်ကြောင်း ဆိုလိုသည်။\n\nကျောင်းသားတစ်ဦးက လူနာသည် ဆေးလိပ်ကို ချက်ချင်း ဖြတ်လိုက်ပါက ပြန်ကောင်းမလားဟု မေးမြန်းခဲ့သည်။ ဒေါက်တာထက်ထက်က အရေးကြီးသော ကွာခြားချက်တစ်ခုကို ရှင်းပြခဲ့သည်- ဆေးလိပ်ရပ်ပြီးနောက် ရောင်ရမ်းမှုနှင့် Mucus အလွန်အကျွံ ထုတ်လုပ်မှု ပြန်ကောင်းလာနိုင်သော Bronchitis နှင့် မတူဘဲ၊ ပျက်စီးသွားသော Alveoli နံရံများသည် ပြန်လည် မဖြစ်ပေါ်နိုင်တော့သောကြောင့် Emphysema ၏ Alveoli ပျက်စီးမှုသည် အမြဲတမ်း ဖြစ်သည်။ ဆေးလိပ်ဖြတ်ခြင်းသည် ပျက်စီးမှု ပို၍ ဆိုးရွားလာခြင်းကို ရပ်တန့်စေပြီး အဆုတ်ကင်ဆာကဲ့သို့ ပို၍ ရှုပ်ထွေးသော ရောဂါဆက်တွဲဖြစ်ခြင်းအန္တရာယ်ကို လျော့ချပေးနိုင်သော်လည်း၊ ရှေးက ဆုံးရှုံးသွားခဲ့ပြီးသား မျက်နှာပြင်ဧရိယာကို ပြန်လည် ထူထောင်ပေးနိုင်မည် မဟုတ်ပါ -- ၎င်းသည် ဆရာဝန်များက မြင်ရသော လက္ခဏာများကို စောင့်ကြည့်ခြင်းထက် ဆေးလိပ်၏ ကျန်းမာရေးအန္တရာယ်များကို လေးလေးနက်နက် ဆောင်ရွက်ရန်နှင့် စောလျင်စွာ ရပ်တန့်ခြင်းကို ဦးစားပေးအလေးထားရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what physically happens to alveoli in emphysema?",
+            questionMy:
+                "Emphysema တွင် Alveoli များအတွင်း ရုပ်ပိုင်းဆိုင်ရာ အဘယ်ဖြစ်ပေါ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Thin walls between neighbouring alveoli break down, merging many small sacs into fewer, larger ones",
+              "Alveoli multiply rapidly, increasing surface area",
+              "Alveoli turn into cartilage",
+              "Alveoli become thicker and stronger",
+            ],
+            optionsMy: [
+              "အနီးအနားရှိ Alveoli များကြား ပါးလွှာသော နံရံများ ပျက်စီးကာ လေအိတ်ငယ်များစွာ ပေါင်းစည်း၍ လေအိတ်ကြီးအနည်းငယ်သာ ကျန်ရစ်ခြင်း",
+              "Alveoli များ လျင်မြန်စွာ မွှားများပြီး မျက်နှာပြင်ဧရိယာကို တိုးမြှင့်ခြင်း",
+              "Alveoli များ Cartilage အဖြစ် ပြောင်းလဲသွားခြင်း",
+              "Alveoli များ ပို၍ ထူ၍ ပို၍ ခိုင်ခံ့လာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the walls breaking down and merging into larger sacs.",
+              "This is the opposite of what a healthy adaptation for gas exchange would look like.",
+            ],
+            hintsMy: [
+              "နံရံများ ပျက်စီးကာ လေအိတ်ကြီးများသို့ ပေါင်းစည်းသွားကြောင်း ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် ကျန်းမာသော လိုက်လျောညီထွေမှု၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does emphysema reduce the amount of oxygen a patient's lungs can absorb?",
+            questionMy:
+                "Emphysema သည် လူနာ၏ အဆုတ်များ စုပ်ယူနိုင်သော အောက်ဆီဂျင် ပမာဏကို အဘယ်ကြောင့် လျော့ကျစေကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The total surface area of alveoli walls in contact with capillaries is permanently reduced",
+              "The lungs become completely blocked",
+              "The heart stops pumping blood to the lungs",
+              "The trachea collapses",
+            ],
+            optionsMy: [
+              "Capillary များနှင့် ထိတွေ့နေသော Alveoli နံရံများ၏ စုစုပေါင်း မျက်နှာပြင်ဧရိယာ အမြဲတမ်း လျော့ကျခြင်း",
+              "အဆုတ်များ လုံးဝ ပိတ်ဆို့သွားခြင်း",
+              "နှလုံးသည် အဆုတ်ဆီသို့ သွေးပန့်ခြင်း ရပ်တန့်သွားခြင်း",
+              "Trachea ပြိုကျသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what gas exchange depends on.",
+              "Less surface area means less room for oxygen to diffuse into the blood.",
+            ],
+            hintsMy: [
+              "ဓာတ်ငွေ့ဖလှယ်မှု မည်သည့်အချက်ပေါ် မှီခိုနေကြောင်း ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "မျက်နှာပြင်ဧရိယာ နည်းလျှင် အောက်ဆီဂျင် သွေးထဲသို့ Diffuse ဝင်ရန် နေရာ နည်းသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how does emphysema differ from bronchitis in terms of recovery?",
+            questionMy:
+                "ပြန်လည်ကောင်းမွန်မှု ကိစ္စတွင် Emphysema သည် Bronchitis နှင့် မည်သို့ ကွဲပြားကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bronchitis symptoms can improve after quitting; emphysema's alveoli damage is permanent",
+              "Both conditions are always permanent",
+              "Both conditions always fully reverse after quitting",
+              "Emphysema improves faster than bronchitis",
+            ],
+            optionsMy: [
+              "Bronchitis လက္ခဏာများ ဆေးလိပ်ရပ်ပြီးနောက် ကောင်းမွန်လာနိုင်သော်လည်း Emphysema ၏ Alveoli ပျက်စီးမှုမှာ အမြဲတမ်း ဖြစ်ခြင်း",
+              "အခြေအနေနှစ်ခုစလုံး အမြဲတမ်း ဖြစ်ခြင်း",
+              "အခြေအနေနှစ်ခုစလုံး ဆေးလိပ်ရပ်ပြီးနောက် အပြည့်အဝ ပြန်ကောင်းလာခြင်း",
+              "Emphysema သည် Bronchitis ထက် ပို၍ မြန်ဆန်စွာ ကောင်းမွန်လာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence directly contrasting bronchitis and emphysema.",
+              "Destroyed alveoli walls do not regenerate, unlike inflamed bronchi tissue.",
+            ],
+            hintsMy: [
+              "Bronchitis နှင့် Emphysema ကို တိုက်ရိုက် နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ရောင်ရမ်းနေသော Bronchi တစ်ရှူးနှင့် မတူဘဲ ပျက်စီးသွားသော Alveoli နံရံများသည် ပြန်လည် မဖြစ်ပေါ်နိုင်တော့ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Dr. Htet Htet say quitting smoking WOULD still achieve, even though the damage was permanent?",
+            questionMy:
+                "ပျက်စီးမှုသည် အမြဲတမ်းဖြစ်နေသော်လည်း ဆေးလိပ်ဖြတ်ခြင်းက မည်သည်ကို ရရှိစေနိုင်ကြောင်း ဒေါက်တာထက်ထက် ပြောခဲ့သနည်း။",
+            optionsEn: [
+              "It would stop the damage from getting worse and reduce the risk of further complications",
+              "It would completely restore lost surface area",
+              "It would have no benefit at all",
+              "It would make emphysema worse",
+            ],
+            optionsMy: [
+              "ပျက်စီးမှု ပို၍ ဆိုးရွားလာခြင်းကို ရပ်တန့်စေပြီး ရောဂါဆက်တွဲဖြစ်ခြင်း အန္တရာယ်ကို လျော့ချပေးမည်",
+              "ဆုံးရှုံးသွားခဲ့ပြီးသား မျက်နှာပြင်ဧရိယာကို အပြည့်အဝ ပြန်လည် ထူထောင်ပေးမည်",
+              "မည်သည့်အကျိုးကျေးဇူးမျှ လုံးဝ မရှိပါ",
+              "Emphysema ကို ပို၍ ဆိုးရွားစေမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining the benefit of quitting despite permanent damage.",
+              "Stopping further damage is still valuable, even if past damage cannot be undone.",
+            ],
+            hintsMy: [
+              "ပျက်စီးမှု အမြဲတမ်းဖြစ်နေသော်လည်း ဆေးလိပ်ဖြတ်ခြင်း၏ အကျိုးကျေးဇူးကို ရှင်းပြသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ယခင်ပျက်စီးမှုကို ပြန်ပြင်၍ မရနိုင်သော်လည်း နောက်ထပ်ပျက်စီးမှုကို ရပ်တန့်ခြင်းသည် အထောက်အကူ ဖြစ်နေဆဲ ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Tobacco Smoke",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆေးလိပ်ခိုးငွေ့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which tobacco smoke chemical reduces the blood's oxygen-carrying capacity?",
+          questionMy:
+              "ဆေးလိပ်ခိုးငွေ့ရှိ မည်သည့်ဓာတုပစ္စည်းက သွေး၏ အောက်ဆီဂျင်သယ်ဆောင်နိုင်စွမ်းကို လျော့ကျစေသနည်း",
+          optionsEn: ["Carbon monoxide", "Nicotine", "Water vapour", "Oxygen"],
+          optionsMy: [
+            "ကာဗွန်မိုနောက်ဆိုဒ်",
+            "Nicotine",
+            "ရေငွေ့",
+            "အောက်ဆီဂျင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Emphysema damage to alveoli is best described as...",
+          questionMy:
+              "Alveoli များအပေါ် Emphysema ၏ ပျက်စီးမှုကို အကောင်းဆုံးဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "Permanent -- destroyed walls do not regenerate",
+            "Fully reversible within days",
+            "Not serious at all",
+            "Beneficial to lung function",
+          ],
+          optionsMy: [
+            "အမြဲတမ်း -- ပျက်စီးသွားသော နံရံများ ပြန်မဖြစ်ပေါ်ပါ",
+            "ရက်အနည်းငယ်အတွင်း အပြည့်အဝ ပြန်ကောင်းနိုင်ခြင်း",
+            "လုံးဝ ပြင်းထန်မှု မရှိခြင်း",
+            "အဆုတ်လုပ်ငန်းဆောင်တာအတွက် အကျိုးရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Tar in tobacco smoke contains chemicals known as...",
+          questionMy:
+              "ဆေးလိပ်ခိုးငွေ့ရှိ Tar တွင် ...ဟု လူသိများသော ဓာတုပစ္စည်းများ ပါဝင်သည်",
+          optionsEn: [
+            "Carcinogens (cancer-causing substances)",
+            "Vitamins",
+            "Antibodies",
+            "Enzymes",
+          ],
+          optionsMy: [
+            "Carcinogens (ကင်ဆာဖြစ်စေသော ပစ္စည်းများ)",
+            "Vitamins",
+            "Antibodies",
+            "Enzymes",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 23: "Respiration and Energy Release"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek23 = CourseWeekDef(
+  id: "course-igcse-bio-w23",
+  weekNumber: 23,
+  titleEn: "Respiration and Energy Release",
+  titleMy: "အသက်ရှူခြင်း (Respiration) နှင့် စွမ်းအင် ထုတ်လွှတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w23-d1",
+      dayNumber: 1,
+      titleEn: "Aerobic Respiration",
+      titleMy: "Aerobic Respiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which word equation correctly represents aerobic respiration?",
+          questionMy:
+              "Aerobic Respiration ကို မှန်ကန်စွာ ကိုယ်စားပြုသော Word Equation မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Glucose + oxygen -> carbon dioxide + water (+ energy)",
+            "Carbon dioxide + water -> glucose + oxygen (+ energy)",
+            "Glucose -> ethanol + carbon dioxide (+ energy)",
+            "Glucose -> lactic acid (+ energy)",
+          ],
+          optionsMy: [
+            "ဂလူးကို့စ် + အောက်ဆီဂျင် -> ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ (+ စွမ်းအင်)",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ -> ဂလူးကို့စ် + အောက်ဆီဂျင် (+ စွမ်းအင်)",
+            "ဂလူးကို့စ် -> Ethanol + ကာဗွန်ဒိုင်အောက်ဆိုဒ် (+ စွမ်းအင်)",
+            "ဂလူးကို့စ် -> Lactic Acid (+ စွမ်းအင်)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Aerobic means 'with oxygen' -- oxygen is a raw material, not a product.",
+            "Notice this equation is exactly the reverse of photosynthesis's word equation.",
+          ],
+          hintsMy: [
+            "Aerobic ဆိုသည်မှာ 'အောက်ဆီဂျင်ပါ၍' ဆိုလိုသည် -- အောက်ဆီဂျင်သည် Product မဟုတ်ဘဲ ကုန်ကြမ်းတစ်ခု ဖြစ်သည်။",
+            "ဤ Equation သည် Photosynthesis ၏ Word Equation ၏ အတိအကျ ပြောင်းပြန် ဖြစ်ကြောင်း သတိပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Aerobic respiration takes place mainly in which cell structure?",
+          questionMy:
+              "Aerobic Respiration သည် မည်သည့် ဆဲလ်ဖွဲ့စည်းပုံတွင် အဓိက ဖြစ်ပေါ်သနည်း။",
+          optionsEn: [
+            "Mitochondria",
+            "Chloroplasts",
+            "The nucleus",
+            "The cell wall",
+          ],
+          optionsMy: ["Mitochondria", "Chloroplasts", "Nucleus", "ဆဲလ်နံရံ"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same organelle mentioned in the Term 2 lesson on active transport's energy source.",
+            "This organelle is often called the 'powerhouse' of the cell.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Active Transport ၏ စွမ်းအင်အရင်းအမြစ်အကြောင်း ဒုတိယနှစ်ဝက် သင်ခန်းစာတွင် ဖော်ပြခဲ့သော ဆဲလ်ကလာပ်စည်းတစ်ခုတည်းပင် ဖြစ်သည်။",
+            "ဤဆဲလ်ကလာပ်စည်းကို ဆဲလ်၏ 'စွမ်းအင်စက်ရုံ' ဟု မကြာခဏ ခေါ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Compared to anaerobic respiration, aerobic respiration releases...",
+          questionMy:
+              "Anaerobic Respiration နှင့်နှိုင်းယှဉ်လျှင် Aerobic Respiration က ထုတ်လွှတ်သည်မှာ...",
+          optionsEn: [
+            "Much more energy from the same amount of glucose",
+            "Exactly the same amount of energy",
+            "Much less energy",
+            "No energy at all",
+          ],
+          optionsMy: [
+            "ဂလူးကို့စ် ပမာဏတူတူမှ ပို၍ များစွာသော စွမ်းအင်",
+            "အတိအကျ တူညီသော စွမ်းအင်ပမာဏ",
+            "စွမ်းအင် ပို၍ နည်း",
+            "စွမ်းအင် လုံးဝ မထုတ်လွှတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Aerobic respiration fully breaks down glucose using oxygen, releasing far more energy per glucose molecule.",
+            "Anaerobic respiration only partially breaks down glucose, releasing much less energy.",
+          ],
+          hintsMy: [
+            "Aerobic Respiration သည် အောက်ဆီဂျင်ကို သုံး၍ ဂလူးကို့စ်ကို အပြည့်အစုံ ချေဖျက်ပြီး ဂလူးကို့စ်မော်လီကျူးတစ်ခုစီမှ ပို၍ များစွာသော စွမ်းအင်ကို ထုတ်လွှတ်ပေးသည်။",
+            "Anaerobic Respiration သည် ဂလူးကို့စ်ကို တစ်စိတ်တစ်ပိုင်းသာ ချေဖျက်ပြီး စွမ်းအင် ပို၍ နည်းစွာသာ ထုတ်လွှတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Respiration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Respiration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w23-dm-1",
+          termEn: "Anaerobic respiration",
+          termMy: "Anaerobic Respiration",
+          matchEn:
+              "Respiration that happens without oxygen, releasing much less energy than aerobic respiration",
+          matchMy:
+              "အောက်ဆီဂျင်မပါဘဲ ဖြစ်ပေါ်ပြီး Aerobic Respiration ထက် စွမ်းအင် ပို၍ နည်းစွာသာ ထုတ်လွှတ်သော Respiration",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w23-dm-2",
+          termEn: "Lactic acid",
+          termMy: "Lactic Acid",
+          matchEn: "The product of anaerobic respiration in human muscle cells",
+          matchMy: "လူ့ကြွက်သားဆဲလ်များတွင် Anaerobic Respiration ၏ Product",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w23-dm-3",
+          termEn: "Fermentation",
+          termMy: "Fermentation",
+          matchEn:
+              "Anaerobic respiration in yeast, producing ethanol and carbon dioxide",
+          matchMy:
+              "Ethanol နှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ် ထုတ်လုပ်သော တဆေးမှ Anaerobic Respiration",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w23-dm-4",
+          termEn: "Oxygen debt",
+          termMy: "Oxygen Debt",
+          matchEn:
+              "The extra oxygen needed after exercise to break down lactic acid built up during anaerobic respiration",
+          matchMy:
+              "Anaerobic Respiration စဉ် စုပုံနေသော Lactic Acid ကို ချေဖျက်ရန် ကိုယ်လက်လှုပ်ရှားမှုပြီးနောက် လိုအပ်သော အောက်ဆီဂျင်အပို",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w23-dm-5",
+          termEn: "Mitochondrion",
+          termMy: "Mitochondrion",
+          matchEn: "The organelle where most aerobic respiration takes place",
+          matchMy: "Aerobic Respiration အများစု ဖြစ်ပေါ်ရာ ဆဲလ်ကလာပ်စည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Aerobic or Anaerobic?",
+      titleMy: "စီစစ်ကြမည် - Aerobic လား Anaerobic လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Aerobic Respiration", "Anaerobic Respiration"],
+        bucketsMy: ["Aerobic Respiration", "Anaerobic Respiration"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w23-sort-1",
+            labelEn:
+                "A jogger breathing steadily during a light, comfortable run",
+            labelMy:
+                "အလွယ်တကူ၊ ချောမွေ့စွာ ပြေးလွှားနေစဉ် တည်ငြိမ်စွာ အသက်ရှူနေသော ပြေးသမား",
+            correctBucketEn: "Aerobic Respiration",
+            correctBucketMy: "Aerobic Respiration",
+          ),
+          SortingItem(
+            id: "igcsebio-w23-sort-2",
+            labelEn:
+                "A sprinter's leg muscles during an intense 100-metre dash, producing lactic acid",
+            labelMy:
+                "ပြင်းထန်သော ၁၀၀ မီတာ ပြေးအားထုတ်ရင်း Lactic Acid ထုတ်လုပ်နေသော ပြေးလျားသမား၏ ခြေထောက်ကြွက်သားများ",
+            correctBucketEn: "Anaerobic Respiration",
+            correctBucketMy: "Anaerobic Respiration",
+          ),
+          SortingItem(
+            id: "igcsebio-w23-sort-3",
+            labelEn:
+                "Yeast fermenting sugar into ethanol and carbon dioxide while brewing",
+            labelMy:
+                "အရက်ချက်ရာတွင် တဆေးက သကြားကို Ethanol နှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ်အဖြစ် ခြေဖျက်နေခြင်း",
+            correctBucketEn: "Anaerobic Respiration",
+            correctBucketMy: "Anaerobic Respiration",
+          ),
+          SortingItem(
+            id: "igcsebio-w23-sort-4",
+            labelEn:
+                "A person's cells respiring at rest, fully breaking down glucose using plenty of oxygen",
+            labelMy:
+                "နားနေချိန် လူတစ်ဦး၏ ဆဲလ်များက အောက်ဆီဂျင် လုံလောက်စွာ သုံး၍ ဂလူးကို့စ်ကို အပြည့်အစုံ ချေဖျက်နေခြင်း",
+            correctBucketEn: "Aerobic Respiration",
+            correctBucketMy: "Aerobic Respiration",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Baker U Tin Maung's Bread Dough",
+      titleMy: "စာဖတ်ခြင်း - မုန့်ဖုတ်သမား ဦးတင်မောင်၏ မုန့်ညက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Baker U Tin Maung's Bread Dough",
+        titleMy: "မုန့်ဖုတ်သမား ဦးတင်မောင်၏ မုန့်ညက်",
+        passageEn:
+            "U Tin Maung had run a small bakery for over thirty years, and when his granddaughter's Biology class visited to see how bread was made, he showed them how he mixed flour, water, sugar, and a small packet of dried yeast into a soft dough, then set it aside in a warm corner of the kitchen to rise. Within an hour, the dough had noticeably doubled in size, filled with small air pockets.\n\nHis granddaughter's teacher explained to the class that the rising dough was direct evidence of yeast respiring anaerobically, since the dough was mixed thickly enough that little oxygen could reach the yeast cells trapped inside. Without oxygen, the yeast fermented the sugar, breaking it down into ethanol and carbon dioxide gas -- and it was this carbon dioxide, trapped as tiny bubbles throughout the sticky dough, that caused the dough to expand and become light and airy rather than dense.\n\nU Tin Maung added a practical detail from decades of experience: dough left to rise too long, or in a kitchen that was too warm, would sometimes develop a slightly sour, alcoholic smell -- his teacher explained this was the ethanol produced by fermentation becoming more noticeable as more sugar was converted. Most of that ethanol, along with excess carbon dioxide, would evaporate away during baking as the oven's heat killed the yeast and set the bread's final structure, which is exactly why the finished loaf never tasted alcoholic even though the rising process that gave it its light texture depended entirely on an anaerobic reaction that produced alcohol as a by-product.",
+        passageMy:
+            "ဦးတင်မောင်သည် နှစ်ပေါင်း ၃၀ ကျော် မုန့်ဆိုင်ငယ်တစ်ဆိုင်ကို လုပ်ကိုင်ခဲ့ပြီး၊ ၎င်း၏ မြေး၏ ဇီဝဗေဒအတန်းက ပေါင်မုန့် မည်သို့ ပြုလုပ်ကြောင်း ကြည့်ရှုရန် လာရောက်ခဲ့သောအခါ၊ မုန့်ညက်၊ ရေ၊ သကြားနှင့် တဆေးအေး ထုပ်ငယ်တစ်ခုကို ရောစပ်၍ ပျော့ပျောင်းသော မုန့်ညက်ရရှိအောင် ပြုလုပ်ပုံနှင့် ၎င်းကို မီးဖိုချောင်၏ နွေးထွေးသော ထောင့်တစ်ခုတွင် ဖောင်းလာစေရန် ထားလေ့ရှိပုံကို ပြသခဲ့သည်။ တစ်နာရီအတွင်း မုန့်ညက်သည် သိသိသာသာ နှစ်ဆ ကြီးလာခဲ့ပြီး လေအိတ်ငယ်များနှင့် ပြည့်နှက်နေခဲ့သည်။\n\nမုန့်ညက်ဖောင်းလာခြင်းသည် တဆေးက Anaerobically Respire ဖြစ်နေကြောင်း တိုက်ရိုက် သက်သေအထောက်အထားဖြစ်ကြောင်း ၎င်း၏ မြေး၏ ဆရာမက အတန်းကို ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ မုန့်ညက်ကို ထူထပ်စွာ ရောစပ်ထားသဖြင့် အတွင်းရှိ ချုပ်နေသော တဆေးဆဲလ်များထံ အောက်ဆီဂျင် အနည်းငယ်သာ ရောက်ရှိနိုင်သောကြောင့် ဖြစ်သည်။ အောက်ဆီဂျင် မရှိသောကြောင့် တဆေးသည် သကြားကို Ferment ပြုလုပ်ကာ Ethanol နှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့အဖြစ် ချေဖျက်ခဲ့သည် -- စေးကပ်သော မုန့်ညက်တစ်ခုလုံးတွင် ပူဖောင်းငယ်လေးများအဖြစ် ချုပ်နေသော ဤကာဗွန်ဒိုင်အောက်ဆိုဒ်ပင် မုန့်ညက်ကို ကျစ်လျစ်စွာအစား ချဲ့ထွင်ပြီး ပေါ့ပါး၊ လေဝင်နေသကဲ့သို့ ဖြစ်စေခဲ့သည်။\n\nဆယ်စုနှစ်များစွာ ကြုံတွေ့ခဲ့ဖူးသော အတွေ့အကြုံအရ ဦးတင်မောင်က လက်တွေ့အသေးစိတ်တစ်ခု ထပ်ဖြည့်ခဲ့သည်- ကြာကြာလွန်း ဖောင်းစေထားသော သို့မဟုတ် နွေးလွန်းသော မီးဖိုချောင်တွင် ထားသော မုန့်ညက်သည် တစ်ခါတစ်ရံ အနည်းငယ် ချဉ်သော၊ အရက်ရနံ့ရှိသော အနံ့ ဖွံ့ဖြိုးလာနိုင်သည် -- သကြား ပို၍ ပြောင်းလဲသွားသည်နှင့်အမျှ Fermentation မှ ထုတ်လုပ်သော Ethanol ပို၍ ထင်ရှားလာခြင်းဖြစ်ကြောင်း ဆရာမက ရှင်းပြခဲ့သည်။ ထို Ethanol အများစုသည် အပိုကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့်အတူ မုန့်ဖုတ်ခြင်းအတွင်း အပူချိန်က တဆေးကို သတ်ပြီး ပေါင်မုန့်၏ နောက်ဆုံး ဖွဲ့စည်းပုံကို သတ်မှတ်လိုက်သည်နှင့်အမျှ ငွေ့ပျံထွက်ကုန်သည် -- ၎င်းသည် ပေါ့ပါးသော ဖွဲ့စည်းပုံကို ပေးခဲ့သော ဖောင်းလာခြင်းဖြစ်စဉ်သည် အရက်ဓာတ်ကို Co-product အဖြစ် ထုတ်လုပ်သော Anaerobic တုံ့ပြန်မှုတစ်ခုအပေါ် လုံးဝ မှီခိုနေသော်လည်း ပြီးစီးသော မုန့်တစ်လုံးသည် အရက်ဓာတ် လုံးဝ မရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does yeast respire anaerobically inside the dough?",
+            questionMy:
+                "မုန့်ညက်အတွင်း တဆေးသည် Anaerobically Respire ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The dough is too thick for much oxygen to reach the yeast cells trapped inside",
+              "Yeast never respires with oxygen under any conditions",
+              "The oven is too hot for aerobic respiration",
+              "Flour blocks all oxygen from entering the kitchen",
+            ],
+            optionsMy: [
+              "မုန့်ညက်သည် ထူလွန်းသဖြင့် အတွင်းရှိ ချုပ်နေသော တဆေးဆဲလ်များထံ အောက်ဆီဂျင် အနည်းငယ်သာ ရောက်ရှိနိုင်သောကြောင့်",
+              "မည်သည့်အခြေအနေတွင်မဆို တဆေးသည် အောက်ဆီဂျင်ဖြင့် လုံးဝ Respire မဖြစ်သောကြောင့်",
+              "Aerobic Respiration အတွက် မီးဖို အလွန်ပူသောကြောင့်",
+              "မုန့်ညက်က မီးဖိုချောင်ထဲသို့ အောက်ဆီဂျင် ဝင်ခြင်း လုံးဝ ပိတ်ဆို့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the reason given for why oxygen can't reach the trapped yeast cells.",
+              "Thick dough limits diffusion of oxygen to the cells inside it.",
+            ],
+            hintsMy: [
+              "ချုပ်နေသော တဆေးဆဲလ်များထံ အောက်ဆီဂျင် အဘယ်ကြောင့် မရောက်ရှိနိုင်ကြောင်း ပေးထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ထူသော မုန့်ညက်သည် ၎င်း၏ အတွင်းရှိ ဆဲလ်များထံ အောက်ဆီဂျင် Diffusion ကို ကန့်သတ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what causes the dough to expand and become light and airy?",
+            questionMy:
+                "မုန့်ညက်ချဲ့ထွင်ပြီး ပေါ့ပါး၊ လေဝင်နေသကဲ့သို့ ဖြစ်စေသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Carbon dioxide gas trapped as bubbles throughout the dough",
+              "Extra flour added by the baker",
+              "The dough absorbing water",
+              "Oxygen bubbles from aerobic respiration",
+            ],
+            optionsMy: [
+              "မုန့်ညက်တစ်ခုလုံးတွင် ပူဖောင်းများအဖြစ် ချုပ်နေသော ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့",
+              "မုန့်ဖုတ်သမားက ထည့်လိုက်သော မုန့်ညက်အပို",
+              "မုန့်ညက်က ရေကို စုပ်ယူခြင်း",
+              "Aerobic Respiration မှ အောက်ဆီဂျင် ပူဖောင်းများ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the specific gas that expands the dough.",
+              "This gas is a product of yeast's fermentation of sugar.",
+            ],
+            hintsMy: [
+              "မုန့်ညက်ကို ချဲ့ထွင်ပေးသော တိတိကျကျ ဓာတ်ငွေ့ကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤဓာတ်ငွေ့သည် တဆေး၏ သကြား Fermentation ၏ Product ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what causes the sour, alcoholic smell in dough left to rise too long?",
+            questionMy:
+                "ကြာကြာလွန်းဖောင်းစေထားသော မုန့်ညက်တွင် ချဉ်သော၊ အရက်ရနံ့ရှိသော အနံ့ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Ethanol produced by fermentation becomes more noticeable as more sugar is converted",
+              "The flour has gone bad",
+              "Too much water was added",
+              "The oven was too cold",
+            ],
+            optionsMy: [
+              "သကြား ပို၍ ပြောင်းလဲသွားသည်နှင့်အမျှ Fermentation မှ ထုတ်လုပ်သော Ethanol ပို၍ ထင်ရှားလာခြင်း",
+              "မုန့်ညက် ပုပ်သွားခြင်း",
+              "ရေ လွန်ကဲစွာ ထည့်ခဲ့ခြင်း",
+              "မီးဖို အလွန်အေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the teacher's explanation of the sour smell.",
+              "More time fermenting means more ethanol accumulates.",
+            ],
+            hintsMy: [
+              "ချဉ်သောအနံ့အကြောင်း ဆရာမ၏ ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Fermentation ကြာချိန် ပို၍များလျှင် Ethanol ပို၍ စုပုံလာသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does the finished baked bread not taste alcoholic, according to paragraph 3?",
+            questionMy:
+                "ပြီးစီးသော ပေါင်မုန့်တွင် အရက်ဓာတ် အဘယ်ကြောင့် မရှိတော့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Most of the ethanol evaporates away during baking as the oven's heat kills the yeast",
+              "Yeast never actually produces ethanol",
+              "The flour absorbs all the ethanol permanently",
+              "Ethanol turns into sugar during baking",
+            ],
+            optionsMy: [
+              "မီးဖို၏ အပူချိန်က တဆေးကို သတ်ပြီး မုန့်ဖုတ်ခြင်းအတွင်း Ethanol အများစု ငွေ့ပျံထွက်ကုန်ခြင်း",
+              "တဆေးသည် Ethanol ကို အမှန်တကယ် လုံးဝ မထုတ်လုပ်ခြင်း",
+              "မုန့်ညက်က Ethanol အားလုံးကို အမြဲတမ်း စုပ်ယူထားခြင်း",
+              "မုန့်ဖုတ်ခြင်းအတွင်း Ethanol သည် သကြားအဖြစ် ပြောင်းလဲသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining what happens to the ethanol during baking.",
+              "Heat causes evaporation, and the oven's heat also stops the yeast's activity.",
+            ],
+            hintsMy: [
+              "မုန့်ဖုတ်ခြင်းအတွင်း Ethanol မည်သို့ ဖြစ်သွားကြောင်း ရှင်းပြသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အပူချိန်က ငွေ့ပျံမှုကို ဖြစ်စေပြီး မီးဖို၏ အပူချိန်က တဆေး၏ လှုပ်ရှားမှုကိုလည်း ရပ်တန့်စေသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Respiration",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Respiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Anaerobic respiration in yeast produces which two products?",
+          questionMy:
+              "တဆေးတွင် Anaerobic Respiration က Product နှစ်မျိုးကို ထုတ်လုပ်ပေးသည်၊ ၎င်းတို့မှာ အဘယ်နည်း",
+          optionsEn: [
+            "Ethanol and carbon dioxide",
+            "Lactic acid and oxygen",
+            "Glucose and water",
+            "Oxygen and nitrogen",
+          ],
+          optionsMy: [
+            "Ethanol နှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+            "Lactic Acid နှင့် အောက်ဆီဂျင်",
+            "ဂလူးကို့စ်နှင့် ရေ",
+            "အောက်ဆီဂျင်နှင့် နိုက်ထရိုဂျင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Anaerobic respiration in human muscle cells produces...",
+          questionMy:
+              "လူ့ကြွက်သားဆဲလ်များတွင် Anaerobic Respiration က ထုတ်လုပ်ပေးသည်မှာ...",
+          optionsEn: ["Lactic acid", "Ethanol", "Oxygen", "Starch"],
+          optionsMy: ["Lactic Acid", "Ethanol", "အောက်ဆီဂျင်", "Starch"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Aerobic respiration releases far more energy than anaerobic respiration because...",
+          questionMy:
+              "Aerobic Respiration သည် Anaerobic Respiration ထက် စွမ်းအင် ပို၍ များစွာ ထုတ်လွှတ်သည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It fully breaks down glucose using oxygen",
+            "It uses no glucose at all",
+            "It happens faster than anaerobic respiration",
+            "It only happens in plants",
+          ],
+          optionsMy: [
+            "အောက်ဆီဂျင်ကို သုံး၍ ဂလူးကို့စ်ကို အပြည့်အစုံ ချေဖျက်သောကြောင့်",
+            "ဂလူးကို့စ် လုံးဝ မသုံးသောကြောင့်",
+            "Anaerobic Respiration ထက် ပို၍ မြန်ဆန်စွာ ဖြစ်ပေါ်သောကြောင့်",
+            "အပင်များတွင်သာ ဖြစ်ပွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 24 (Capstone): "Respiration Practical Lab"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek24 = CourseWeekDef(
+  id: "course-igcse-bio-w24",
+  weekNumber: 24,
+  titleEn: "Respiration Practical Lab",
+  titleMy: "အသက်ရှူခြင်း ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w24-d1",
+      dayNumber: 1,
+      titleEn: "Measuring Respiration Rate",
+      titleMy: "Respiration နှုန်း တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A respirometer measures the rate of respiration by tracking...",
+          questionMy:
+              "Respirometer တစ်လုံးသည် ...ကို ခြေရာခံခြင်းဖြင့် Respiration နှုန်းကို တိုင်းတာသည်",
+          optionsEn: [
+            "The volume of oxygen consumed by an organism over time",
+            "The colour of the organism's skin",
+            "The number of cells in the organism",
+            "The organism's exact body temperature",
+          ],
+          optionsMy: [
+            "အချိန်အတိုင်းအတာတစ်ခုအတွင်း သက်ရှိတစ်ခု သုံးစွဲသော အောက်ဆီဂျင်ပမာဏ",
+            "သက်ရှိ၏ အရေပြားအရောင်",
+            "သက်ရှိတွင် ပါဝင်သော ဆဲလ်အရေအတွက်",
+            "သက်ရှိ၏ အတိအကျ ခန္ဓာကိုယ်အပူချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A common design uses soda lime to absorb carbon dioxide produced, so only oxygen consumption causes a volume change.",
+            "As oxygen is used up, the resulting pressure/volume change moves a coloured liquid marker along a scale.",
+          ],
+          hintsMy: [
+            "ထုတ်လုပ်သော ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို Soda Lime က စုပ်ယူသဖြင့် အောက်ဆီဂျင်သုံးစွဲမှုက ဝင်ရိုးဆမ်း အပြောင်းအလဲကို ဖြစ်စေသည့် ဒီဇိုင်းတစ်မျိုး အသုံးများသည်။",
+            "အောက်ဆီဂျင် သုံးစွဲသွားသည်နှင့်အမျှ ရလာသော ဖိအား/ဝင်ရိုးဆမ်း အပြောင်းအလဲသည် စကေးတစ်လျှောက် အရောင်ပါသော အရည်အမှတ်အသားကို ရွှေ့လျားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is soda lime often included in a respirometer setup?",
+          questionMy:
+              "Respirometer တပ်ဆင်ပုံတွင် Soda Lime ကို ဘာကြောင့် မကြာခဏ ထည့်သွင်းသနည်း။",
+          optionsEn: [
+            "It absorbs carbon dioxide, so only oxygen consumption causes the measurable change",
+            "It produces extra oxygen for the organism",
+            "It kills the organism being tested",
+            "It colours the liquid marker",
+          ],
+          optionsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို စုပ်ယူသဖြင့် အောက်ဆီဂျင်သုံးစွဲမှုတစ်ခုတည်းသာ တိုင်းတာနိုင်သော အပြောင်းအလဲကို ဖြစ်စေခြင်း",
+            "စမ်းသပ်ခံနေသော သက်ရှိအတွက် အောက်ဆီဂျင်အပို ထုတ်လုပ်ပေးခြင်း",
+            "စမ်းသပ်ခံနေသော သက်ရှိကို သတ်ပစ်ခြင်း",
+            "အရည်အမှတ်အသားကို အရောင်တင်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without removing CO2, oxygen used and CO2 produced could roughly cancel each other's volume change out.",
+            "Soda lime chemically absorbs CO2 gas, isolating oxygen consumption as the only variable affecting volume.",
+          ],
+          hintsMy: [
+            "CO2 ကို ဖယ်ရှားခြင်းမရှိပါက အောက်ဆီဂျင်သုံးစွဲမှုနှင့် CO2 ထုတ်လုပ်မှုတို့သည် ဝင်ရိုးဆမ်း အပြောင်းအလဲကို အကြမ်းဖျင်း ဖျက်ပစ်နိုင်သည်။",
+            "Soda Lime သည် CO2 ဓာတ်ငွေ့ကို ဓာတုနည်းအားဖြင့် စုပ်ယူပြီး ဝင်ရိုးဆမ်းကို သက်ရောက်သော Variable တစ်ခုတည်းအဖြစ် အောက်ဆီဂျင်သုံးစွဲမှုကို သီးခြားစီ ခွဲထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a yeast respiration experiment, why might researchers count carbon dioxide bubbles produced per minute at different temperatures?",
+          questionMy:
+              "တဆေး Respiration စမ်းသပ်မှုတွင် သုတေသီများသည် အပူချိန် မတူညီမှုများတွင် တစ်မိနစ်လျှင် ထုတ်လုပ်သော ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပူဖောင်းအရေအတွက်ကို ဘာကြောင့် ရေတွက်နိုင်သနည်း။",
+          optionsEn: [
+            "To investigate how temperature affects the rate of anaerobic respiration in yeast",
+            "Bubbles have no connection to respiration rate at all",
+            "To measure the exact mass of the yeast",
+            "To determine the colour of the yeast",
+          ],
+          optionsMy: [
+            "အပူချိန်သည် တဆေး၏ Anaerobic Respiration နှုန်းကို မည်သို့ သက်ရောက်ကြောင်း စူးစမ်းရန်",
+            "ပူဖောင်းများသည် Respiration နှုန်းနှင့် လုံးဝ ဆက်စပ်မှု မရှိပါ",
+            "တဆေး၏ အတိအကျ အလေးချိန်ကို တိုင်းတာရန်",
+            "တဆေး၏ အရောင်ကို ဆုံးဖြတ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Faster carbon dioxide production indicates a faster rate of anaerobic respiration/fermentation.",
+            "This is another example of using temperature as an independent variable in an experiment.",
+          ],
+          hintsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပို၍ မြန်ဆန်စွာ ထုတ်လုပ်ခြင်းသည် Anaerobic Respiration/Fermentation နှုန်း ပို၍ မြန်ကြောင်း ညွှန်ပြသည်။",
+            "ဤသည်မှာ စမ်းသပ်မှုတစ်ခုတွင် အပူချိန်ကို Independent Variable အဖြစ် သုံးသော နောက်ထပ် ဥပမာတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Key Terms",
+      titleMy: "တွဲစပ်ကြမည် - ဆဌမနှစ်ဝက် သော့ချက်စကားလုံးများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w24-dm-1",
+          termEn: "Respirometer",
+          termMy: "Respirometer",
+          matchEn:
+              "Apparatus that measures the rate of respiration, usually via oxygen consumption",
+          matchMy:
+              "များသောအားဖြင့် အောက်ဆီဂျင်သုံးစွဲမှုမှတစ်ဆင့် Respiration နှုန်းကို တိုင်းတာသော ကိရိယာ",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w24-dm-2",
+          termEn: "Soda lime",
+          termMy: "Soda Lime",
+          matchEn:
+              "A chemical that absorbs carbon dioxide gas, used to isolate oxygen consumption in respirometer experiments",
+          matchMy:
+              "ကာဗွန်ဒိုင်အောက်ဆိုဒ်ဓာတ်ငွေ့ကို စုပ်ယူသော ဓာတုပစ္စည်းတစ်ခု၊ Respirometer စမ်းသပ်မှုများတွင် အောက်ဆီဂျင်သုံးစွဲမှုကို သီးခြားစီ ခွဲထုတ်ရန် သုံးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w24-dm-3",
+          termEn: "Fermentation",
+          termMy: "Fermentation",
+          matchEn:
+              "Anaerobic respiration in yeast, tracked in experiments by counting bubbles of carbon dioxide",
+          matchMy:
+              "ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပူဖောင်းများကို ရေတွက်ခြင်းဖြင့် စမ်းသပ်မှုများတွင် ခြေရာခံသော တဆေး၏ Anaerobic Respiration",
+          colorValue: 0xFFFF9800,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gas Exchange, Smoking, or Respiration Topic?",
+      titleMy:
+          "စီစစ်ကြမည် - Gas Exchange, ဆေးလိပ်, သို့မဟုတ် Respiration ဆိုင်ရာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Gas Exchange Topic",
+          "Smoking Health Topic",
+          "Respiration Topic",
+        ],
+        bucketsMy: [
+          "Gas Exchange ဆိုင်ရာ",
+          "ဆေးလိပ်ကျန်းမာရေး ဆိုင်ရာ",
+          "Respiration ဆိုင်ရာ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w24-sort-1",
+            labelEn:
+                "Explaining how the diaphragm and intercostal muscles change thorax volume",
+            labelMy:
+                "Diaphragm နှင့် Intercostal ကြွက်သားများက Thorax ဝင်ရိုးဆမ်းကို မည်သို့ ပြောင်းလဲကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Gas Exchange Topic",
+            correctBucketMy: "Gas Exchange ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w24-sort-2",
+            labelEn:
+                "Explaining why emphysema permanently reduces alveoli surface area",
+            labelMy:
+                "Emphysema က Alveoli မျက်နှာပြင်ဧရိယာကို အမြဲတမ်း အဘယ်ကြောင့် လျော့ကျစေကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Smoking Health Topic",
+            correctBucketMy: "ဆေးလိပ်ကျန်းမာရေး ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w24-sort-3",
+            labelEn:
+                "Comparing the energy released by aerobic versus anaerobic respiration",
+            labelMy:
+                "Aerobic နှင့် Anaerobic Respiration က ထုတ်လွှတ်သော စွမ်းအင်ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Respiration Topic",
+            correctBucketMy: "Respiration ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w24-sort-4",
+            labelEn: "Explaining how carbon monoxide binds to haemoglobin",
+            labelMy:
+                "ကာဗွန်မိုနောက်ဆိုဒ်က Haemoglobin နှင့် မည်သို့ ချိတ်ဆက်ကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Smoking Health Topic",
+            correctBucketMy: "ဆေးလိပ်ကျန်းမာရေး ဆိုင်ရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myat's Germinating Seeds Experiment",
+      titleMy: "စာဖတ်ခြင်း - အောင်မြတ်၏ အညှောက်ထွက်မျိုးစေ့ စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myat's Germinating Seeds Experiment",
+        titleMy: "အောင်မြတ်၏ အညှောက်ထွက်မျိုးစေ့ စမ်းသပ်မှု",
+        passageEn:
+            "For his final practical assessment, Aung Myat set up a simple respirometer using two boiling tubes connected to a U-shaped glass tube containing a drop of coloured liquid. In the first boiling tube, he placed germinating pea seeds, actively respiring, packed in cotton wool with a layer of soda lime beneath them to absorb carbon dioxide. In the second, identical tube, he placed the same volume of glass beads instead of seeds, with soda lime as well, to act as a control that accounted for any temperature or pressure changes unrelated to respiration.\n\nAs the germinating seeds respired aerobically, they consumed oxygen from the sealed air inside their tube, and since the soda lime absorbed the carbon dioxide they produced, the overall gas volume inside that tube decreased. This drop in volume created a slightly lower pressure inside the seed tube compared to the control tube, causing the coloured liquid marker in the connecting U-tube to move steadily toward the seed side. Aung Myat timed how far the marker moved over five minutes, then repeated the whole experiment at three different temperatures to see how temperature affected the seeds' respiration rate.\n\nHis results showed the marker moving fastest at the intermediate, warmer temperature and more slowly at both the cold and very hot extremes -- a pattern that reminded him immediately of the enzyme activity graphs from Term 3, since respiration itself depends on enzyme-controlled reactions inside the seeds' cells. Aung Myat concluded in his write-up that the glass bead control tube was essential to his experiment's validity: without it, he could not have been certain that the marker's movement was caused specifically by the seeds' oxygen consumption, rather than by unrelated changes in room temperature or atmospheric pressure during the five-minute trial.",
+        passageMy:
+            "နောက်ဆုံး လက်တွေ့ အကဲဖြတ်မှုအတွက် အောင်မြတ်သည် အရောင်ပါသော အရည်တစ်စက် ပါဝင်သော U ပုံသဏ္ဌာန်ဖန်ပြွန်နှင့် ချိတ်ဆက်ထားသော စမ်းသပ်ပြွန်နှစ်ခုကို သုံး၍ ရိုးရှင်းသော Respirometer တစ်လုံးကို တပ်ဆင်ခဲ့သည်။ ပထမစမ်းသပ်ပြွန်တွင် အညှောက်ထွက်၍ တက်ကြွစွာ Respire ဖြစ်နေသော ပဲမျိုးစေ့များကို ချည်သားမှုန့်ဖြင့် ထုပ်ပြီး၊ ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို စုပ်ယူရန် Soda Lime အလွှာကို ၎င်းတို့အောက်တွင် ထားခဲ့သည်။ ဒုတိယ၊ တူညီသော ပြွန်တွင်မူ မျိုးစေ့များအစား ဖန်စေ့ တူညီသော ပမာဏကို Soda Lime အတူတကွ ထားခဲ့ပြီး၊ Respiration နှင့် မသက်ဆိုင်သော အပူချိန် သို့မဟုတ် ဖိအား အပြောင်းအလဲများကို ထည့်သွင်းစဉ်းစားပေးသော Control တစ်ခုအဖြစ် သုံးခဲ့သည်။\n\nအညှောက်ထွက်မျိုးစေ့များ Aerobically Respire ဖြစ်ရင်း ၎င်းတို့၏ ပြွန်အတွင်းရှိ ပိတ်ထားသော လေမှ အောက်ဆီဂျင်ကို သုံးစွဲခဲ့ပြီး၊ Soda Lime က ၎င်းတို့ ထုတ်လုပ်သော ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို စုပ်ယူသဖြင့် ထိုပြွန်အတွင်း စုစုပေါင်း ဓာတ်ငွေ့ ဝင်ရိုးဆမ်း လျော့ကျသွားခဲ့သည်။ ဝင်ရိုးဆမ်း ဤသို့ ကျဆင်းမှုက Control ပြွန်နှင့် နှိုင်းယှဉ်လျှင် မျိုးစေ့ပြွန်အတွင်း ဖိအားအနည်းငယ် နိမ့်စေခဲ့ပြီး၊ ချိတ်ဆက်ထားသော U ပြွန်ရှိ အရောင်ပါသော အရည်အမှတ်အသားကို မျိုးစေ့ဘက်သို့ တည်ငြိမ်စွာ ရွေ့လျားစေခဲ့သည်။ အောင်မြတ်သည် အရေးအသားကို မိနစ် ၅ မိနစ်အတွင်း မည်မျှ ရွေ့လျားကြောင်း အချိန်ယူပြီး၊ အပူချိန် သုံးမျိုးဖြင့် စမ်းသပ်မှုတစ်ခုလုံးကို ထပ်ခါထပ်ခါ ပြုလုပ်ကာ အပူချိန်သည် မျိုးစေ့များ၏ Respiration နှုန်းကို မည်သို့ သက်ရောက်ကြောင်း ကြည့်ခဲ့သည်။\n\nသူ၏ ရလဒ်များက အရင့်အလယ်၊ ပို၍ နွေးသော အပူချိန်တွင် အရေးအသား အမြန်ဆုံး ရွေ့လျားပြီး အေးသောနှင့် အပူပြင်းသော အစွန်းနှစ်ဖက်စလုံးတွင် ပို၍ နှေးကွေးစွာ ရွေ့လျားကြောင်း ပြသခဲ့သည် -- ဤပုံစံသည် Respiration ကိုယ်တိုင်သည် မျိုးစေ့ဆဲလ်များအတွင်း Enzyme-ထိန်းချုပ်သော တုံ့ပြန်မှုများပေါ် မှီခိုနေသောကြောင့် တတိယနှစ်ဝက်မှ Enzyme Activity ဂရပ်များကို ချက်ချင်း သတိရစေခဲ့သည်။ အောင်မြတ်သည် ၎င်း၏ အရေးအသားတွင် ဖန်စေ့ Control ပြွန်သည် စမ်းသပ်မှု၏ ခိုင်လုံမှုအတွက် မရှိမဖြစ် ဖြစ်ကြောင်း ကောက်ချက်ချခဲ့သည်- ၎င်း မရှိပါက အရေးအသား၏ ရွေ့လျားမှုသည် မိနစ် ၅ မိနစ် စမ်းသပ်မှုအတွင်း အခန်းအပူချိန် သို့မဟုတ် လေထုဖိအား၏ မသက်ဆိုင်သော အပြောင်းအလဲများကြောင့် မဟုတ်ဘဲ မျိုးစေ့များ၏ အောက်ဆီဂျင်သုံးစွဲမှုကြောင့် တိတိကျကျ ဖြစ်ကြောင်း သူ သေချာနိုင်မည် မဟုတ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was the purpose of the glass beads tube?",
+            questionMy: "ဖန်စေ့ပြွန်၏ ရည်ရွယ်ချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To act as a control accounting for changes unrelated to respiration",
+              "To provide extra oxygen to the seeds",
+              "To speed up the seeds' germination",
+              "To colour the liquid marker",
+            ],
+            optionsMy: [
+              "Respiration နှင့် မသက်ဆိုင်သော အပြောင်းအလဲများကို ထည့်သွင်းစဉ်းစားပေးသော Control အဖြစ် လုပ်ဆောင်ရန်",
+              "မျိုးစေ့များအတွက် အောက်ဆီဂျင်အပို ထောက်ပံ့ရန်",
+              "မျိုးစေ့များ အညှောက်ထွက်မှုကို မြန်ဆန်စေရန်",
+              "အရည်အမှတ်အသားကို အရောင်တင်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the glass bead tube was 'a control that accounted for'.",
+              "This lets the researcher isolate seed respiration as the specific cause of the marker's movement.",
+            ],
+            hintsMy: [
+              "ဖန်စေ့ပြွန်သည် 'ဘာအတွက် Control' ဖြစ်ကြောင်း ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်က သုတေသီအား အရေးအသား ရွေ့လျားမှု၏ တိတိကျကျ အကြောင်းရင်းအဖြစ် မျိုးစေ့ Respiration ကို သီးခြားစီ ခွဲထုတ်နိုင်စေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the coloured liquid marker move toward the seed side?",
+            questionMy:
+                "အရောင်ပါသော အရည်အမှတ်အသား မျိုးစေ့ဘက်သို့ ရွေ့လျားရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxygen consumption plus carbon dioxide absorption by soda lime lowered the pressure in the seed tube",
+              "The seeds pushed the liquid directly",
+              "The control tube produced extra gas",
+              "The temperature dropped suddenly",
+            ],
+            optionsMy: [
+              "အောက်ဆီဂျင်သုံးစွဲမှုနှင့် Soda Lime ၏ ကာဗွန်ဒိုင်အောက်ဆိုဒ် စုပ်ယူမှုက မျိုးစေ့ပြွန်ရှိ ဖိအားကို လျော့ကျစေခြင်း",
+              "မျိုးစေ့များက အရည်ကို တိုက်ရိုက် တွန်းခြင်း",
+              "Control ပြွန်က ဓာတ်ငွေ့အပို ထုတ်လုပ်ခြင်း",
+              "အပူချိန် ရုတ်တရက် ကျဆင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence connecting the volume drop to the pressure difference between the two tubes.",
+              "Gas moves toward lower pressure, pulling the liquid marker with it.",
+            ],
+            hintsMy: [
+              "ဝင်ရိုးဆမ်း ကျဆင်းမှုကို ပြွန်နှစ်ခုကြား ဖိအားကွာခြားချက်နှင့် ဆက်စပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဓာတ်ငွေ့သည် ဖိအားနိမ့်ရာသို့ ရွေ့လျားပြီး အရည်အမှတ်အသားကို ၎င်းနှင့်အတူ ဆွဲသွားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what pattern did Aung Myat notice across the three temperatures?",
+            questionMy:
+                "အပူချိန်သုံးမျိုးတစ်လျှောက် အောင်မြတ် သတိပြုမိသော ပုံစံကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fastest movement at an intermediate warm temperature, slower at both cold and very hot extremes",
+              "The marker moved at exactly the same speed at every temperature",
+              "The marker moved fastest at the coldest temperature",
+              "The marker never moved at any temperature",
+            ],
+            optionsMy: [
+              "အလယ်အလတ် နွေးသော အပူချိန်တွင် အမြန်ဆုံးရွေ့လျားပြီး အေးသောနှင့် အပူပြင်းသော အစွန်းများတွင် ပို၍ နှေးကွေး",
+              "အရေးအသားသည် အပူချိန်တိုင်းတွင် အတိအကျ တူညီသော အမြန်နှုန်းဖြင့် ရွေ့လျားခြင်း",
+              "အရေးအသားသည် အအေးဆုံးအပူချိန်တွင် အမြန်ဆုံး ရွေ့လျားခြင်း",
+              "အရေးအသားသည် မည်သည့်အပူချိန်တွင်မျှ လုံးဝ မရွေ့လျားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the marker's speed at the three temperatures tested.",
+              "This pattern matches the enzyme activity vs. temperature graph shape from Term 3.",
+            ],
+            hintsMy: [
+              "စမ်းသပ်ခဲ့သော အပူချိန်သုံးမျိုးတွင် အရေးအသား၏ အမြန်နှုန်းကို ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤပုံစံသည် တတိယနှစ်ဝက်မှ Enzyme Activity vs Temperature ဂရပ်ပုံသဏ္ဌာန်နှင့် ကိုက်ညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Aung Myat conclude the control tube was essential, according to paragraph 3?",
+            questionMy:
+                "Control ပြွန် မရှိမဖြစ် ဖြစ်ကြောင်း အောင်မြတ် အဘယ်ကြောင့် ကောက်ချက်ချခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Without it, he could not be certain the marker's movement was caused specifically by seed respiration",
+              "It made the experiment take less time",
+              "It was required by law",
+              "It made the seeds germinate faster",
+            ],
+            optionsMy: [
+              "၎င်း မရှိပါက အရေးအသား၏ ရွေ့လျားမှုသည် မျိုးစေ့ Respiration ကြောင့် တိတိကျကျ ဖြစ်ကြောင်း သေချာနိုင်မည် မဟုတ်ပါ",
+              "စမ်းသပ်မှုကို အချိန် ပို၍ တိုတောင်းစေသောကြောင့်",
+              "ဥပဒေအရ လိုအပ်သောကြောင့်",
+              "မျိုးစေ့များ ပို၍ မြန်ဆန်စွာ အညှောက်ထွက်စေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "Without a control, other factors like room temperature changes could explain the result instead.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Control မရှိပါက အခန်းအပူချိန် ပြောင်းလဲမှုကဲ့သို့သော အခြားအချက်များက ရလဒ်ကို ရှင်းပြနိုင်သည့်အစား ဖြစ်နိုင်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Recap: Gas Exchange and Respiration",
+      titleMy:
+          "ဆဌမအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Where does gas exchange happen in the human lungs?",
+          questionMy:
+              "လူ့အဆုတ်တွင် ဓာတ်ငွေ့ဖလှယ်မှု မည်သည့်နေရာ၌ ဖြစ်ပေါ်သနည်း",
+          optionsEn: ["Alveoli", "Trachea", "Diaphragm", "Larynx"],
+          optionsMy: ["Alveoli", "Trachea", "Diaphragm", "Larynx"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Carbon monoxide is dangerous because it...",
+          questionMy: "ကာဗွန်မိုနောက်ဆိုဒ် အန္တရာယ်ရှိသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Binds haemoglobin more strongly than oxygen",
+            "Is a type of vitamin",
+            "Helps blood clot",
+            "Is produced by photosynthesis",
+          ],
+          optionsMy: [
+            "Haemoglobin နှင့် အောက်ဆီဂျင်ထက် ပိုခိုင်မာစွာ ချိတ်ဆက်ခြင်း",
+            "Vitamin အမျိုးအစားတစ်ခု ဖြစ်ခြင်း",
+            "သွေးခဲအောင် ကူညီပေးခြင်း",
+            "Photosynthesis မှ ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The waste product of anaerobic respiration in human muscles is...",
+          questionMy:
+              "လူ့ကြွက်သားများတွင် Anaerobic Respiration ၏ စွန့်ပစ်ပစ္စည်းမှာ...",
+          optionsEn: ["Lactic acid", "Ethanol", "Carbon monoxide", "Nicotine"],
+          optionsMy: [
+            "Lactic Acid",
+            "Ethanol",
+            "ကာဗွန်မိုနောက်ဆိုဒ်",
+            "Nicotine",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A respirometer with soda lime measures respiration rate by tracking...",
+          questionMy:
+              "Soda Lime ပါသော Respirometer တစ်လုံးသည် ...ကို ခြေရာခံခြင်းဖြင့် Respiration နှုန်းကို တိုင်းတာသည်",
+          optionsEn: [
+            "Oxygen consumption",
+            "Carbon dioxide production only",
+            "Body temperature",
+            "Heart rate",
+          ],
+          optionsMy: [
+            "အောက်ဆီဂျင်သုံးစွဲမှု",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်ထုတ်လုပ်မှုသာ",
+            "ခန္ဓာကိုယ်အပူချိန်",
+            "နှလုံးခုန်နှုန်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 6: "Gas Exchange and Respiration"
+// (Weeks 21-24)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm6 = CourseTermDef(
+  id: "course-igcse-bio-t6",
+  termNumber: 6,
+  titleEn: "Gas Exchange and Respiration",
+  titleMy: "ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration",
+  certificateTitleEn: "Gas Exchange and Respiration",
+  certificateTitleMy: "ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration",
+  weeks: [_igcseBioWeek21, _igcseBioWeek22, _igcseBioWeek23, _igcseBioWeek24],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-5
+/// The IGCSE Biology course's full-year pathway. Terms 1-6
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
 /// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
 /// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
 /// Transport in Plants, Weeks 13-16; Transport in Animals and Disease,
-/// Weeks 17-20) are authored so far, following the blueprint at
-/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 6-9 are not yet
-/// authored. `terms` below intentionally lists only Terms 1-5, and
+/// Weeks 17-20; Gas Exchange and Respiration, Weeks 21-24) are
+/// authored so far, following the blueprint at
+/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 7-9 are not yet
+/// authored. `terms` below intentionally lists only Terms 1-6, and
 /// `totalWeeks: 36` reflects the full planned year, following the same
 /// convention as every other in-progress pathway in this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
@@ -8782,9 +10355,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Terms 6-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Terms 7-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
   terms: [
     igcseBiologyTerm1,
@@ -8792,5 +10365,6 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
     igcseBiologyTerm3,
     igcseBiologyTerm4,
     igcseBiologyTerm5,
+    igcseBiologyTerm6,
   ],
 );
