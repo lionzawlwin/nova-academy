@@ -14,6 +14,8 @@ export 'course_pathways/course_pathways_computing.dart';
 export 'course_pathways/course_pathways_humanities.dart';
 export 'course_pathways/course_pathways_global_perspectives.dart';
 export 'course_pathways/course_pathways_biology.dart';
+export 'course_pathways/course_pathways_chemistry.dart';
+export 'course_pathways/course_pathways_physics.dart';
 
 import 'course_pathways/course_pathways_core.dart';
 import 'course_pathways/course_pathways_mathematics.dart';
@@ -23,6 +25,8 @@ import 'course_pathways/course_pathways_computing.dart';
 import 'course_pathways/course_pathways_humanities.dart';
 import 'course_pathways/course_pathways_global_perspectives.dart';
 import 'course_pathways/course_pathways_biology.dart';
+import 'course_pathways/course_pathways_chemistry.dart';
+import 'course_pathways/course_pathways_physics.dart';
 
 /// Every defined course pathway -- extend this list as more subjects/
 /// grades get authored beyond this vertical slice.
@@ -70,6 +74,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   secondary2SciencePathway,
   igcseMathematicsPathway,
   igcseBiologyPathway,
+  igcseChemistryPathway,
   year3MathematicsPathway,
   year3SciencePathway,
   year3EnglishPathway,
