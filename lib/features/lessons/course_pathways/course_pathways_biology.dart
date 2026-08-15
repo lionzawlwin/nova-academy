@@ -3905,17 +3905,1705 @@ const CourseTermDef igcseBiologyTerm2 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 9: "Enzyme Action and Catalysis"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek9 = CourseWeekDef(
+  id: "course-igcse-bio-w9",
+  weekNumber: 9,
+  titleEn: "Enzyme Action and Catalysis",
+  titleMy: "အင်ဇိုင်း လုပ်ဆောင်ချက်နှင့် ဓာတ်ကူမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w9-d1",
+      dayNumber: 1,
+      titleEn: "Enzymes as Biological Catalysts",
+      titleMy: "ဇီဝ ဓာတ်ကူများအဖြစ် အင်ဇိုင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following best describes an enzyme's role as a catalyst?",
+          questionMy:
+              "ဓာတ်ကူတစ်ခုအနေဖြင့် အင်ဇိုင်း၏ အခန်းကဏ္ဍကို အောက်ပါတို့အနက် အကောင်းဆုံး ဖော်ပြသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It speeds up a chemical reaction without being used up itself",
+            "It is used up and destroyed after each reaction",
+            "It slows down reactions to protect the cell",
+            "It only works outside living cells",
+          ],
+          optionsMy: [
+            "ကိုယ်တိုင် မကုန်ဆုံးဘဲ ဓာတုတုံ့ပြန်မှုတစ်ခုကို မြန်ဆန်စေသည်",
+            "တုံ့ပြန်မှုတစ်ခုစီ ပြီးတိုင်း ကုန်ဆုံးပျက်စီးသွားသည်",
+            "ဆဲလ်ကို ကာကွယ်ရန် တုံ့ပြန်မှုများကို နှေးကွေးစေသည်",
+            "သက်ရှိဆဲလ်များ အပြင်ဘက်တွင်သာ အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A catalyst by definition is not permanently changed by the reaction it speeds up.",
+            "This means one enzyme molecule can be used again and again for many reactions.",
+          ],
+          hintsMy: [
+            "ဓာတ်ကူတစ်ခု၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်အရ ၎င်းက မြန်ဆန်စေသော တုံ့ပြန်မှုကြောင့် အမြဲတမ်း ပြောင်းလဲမသွားပါ။",
+            "ဆိုလိုသည်မှာ အင်ဇိုင်းမော်လီကျူးတစ်ခုကို တုံ့ပြန်မှုများစွာအတွက် ထပ်ခါထပ်ခါ အသုံးပြုနိုင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the 'lock and key' model of enzyme action, what does the 'key' represent?",
+          questionMy:
+              "အင်ဇိုင်းလုပ်ဆောင်ချက်၏ 'Lock and Key' Model တွင် 'Key' က အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "The substrate, which fits into the enzyme's active site",
+            "The enzyme itself",
+            "The product formed after the reaction",
+            "The temperature of the reaction",
+          ],
+          optionsMy: [
+            "အင်ဇိုင်း၏ Active Site ထဲသို့ ကိုက်ညီစွာ ဝင်ရောက်သော Substrate",
+            "အင်ဇိုင်း ကိုယ်တိုင်",
+            "တုံ့ပြန်မှုပြီးနောက် ဖြစ်ပေါ်လာသော Product",
+            "တုံ့ပြန်မှု၏ အပူချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In this analogy, the enzyme is the 'lock' and its active site is shaped to fit one specific 'key'.",
+            "The substrate is the molecule that the enzyme acts upon.",
+          ],
+          hintsMy: [
+            "ဤဥပမာတွင် အင်ဇိုင်းသည် 'Lock' ဖြစ်ပြီး ၎င်း၏ Active Site သည် Key တစ်ခုတည်းနှင့်သာ ကိုက်ညီအောင် ပုံသဏ္ဌာန်ရှိသည်။",
+            "Substrate ဆိုသည်မှာ အင်ဇိုင်းက လုပ်ဆောင်ပေးသော မော်လီကျူး ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is an enzyme's active site described as being a specific shape?",
+          questionMy:
+              "အင်ဇိုင်း၏ Active Site ကို တိတိကျကျပုံသဏ္ဌာန်ရှိသည်ဟု ဖော်ပြရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "So that only a substrate with a complementary shape can bind to it",
+            "So that it can bind to any molecule regardless of shape",
+            "So that it can change shape randomly every second",
+            "So that it never reacts with anything",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဘက် ကိုက်ညီသော ပုံသဏ္ဌာန်ရှိသည့် Substrate တစ်ခုတည်းသာ ချိတ်ဆက်နိုင်ရန်",
+            "ပုံသဏ္ဌာန်မည်သို့ပင်ရှိစေ မော်လီကျူးမည်သည်နှင့်မဆို ချိတ်ဆက်နိုင်ရန်",
+            "စက္ကန့်တိုင်း ကျပန်း ပုံသဏ္ဌာန်ပြောင်းနိုင်ရန်",
+            "မည်သည့်အရာနှင့်မျှ ဓာတ်မပြုနိုင်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This specific-shape property is why each enzyme usually only works on one type of substrate.",
+            "This is called enzyme specificity.",
+          ],
+          hintsMy: [
+            "ဤ တိတိကျကျပုံသဏ္ဌာန် ဂုဏ်သတ္တိကြောင့် အင်ဇိုင်းတစ်ခုစီသည် များသောအားဖြင့် Substrate တစ်မျိုးတည်းနှင့်သာ အလုပ်လုပ်သည်။",
+            "ဤအရာကို Enzyme Specificity ဟုခေါ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Enzyme Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အင်ဇိုင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w9-dm-1",
+          termEn: "Enzyme",
+          termMy: "အင်ဇိုင်း (Enzyme)",
+          matchEn:
+              "A biological catalyst, made of protein, that speeds up a specific chemical reaction",
+          matchMy:
+              "ပရိုတင်းဖြင့် ဖွဲ့စည်းထားပြီး တိတိကျကျ ဓာတုတုံ့ပြန်မှုတစ်ခုကို မြန်ဆန်စေသော ဇီဝ ဓာတ်ကူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w9-dm-2",
+          termEn: "Substrate",
+          termMy: "Substrate",
+          matchEn:
+              "The molecule that an enzyme acts on and binds to at the active site",
+          matchMy:
+              "အင်ဇိုင်းက Active Site တွင် ချိတ်ဆက်ပြီး လုပ်ဆောင်ပေးသော မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w9-dm-3",
+          termEn: "Active site",
+          termMy: "Active Site",
+          matchEn:
+              "The specifically shaped region of an enzyme where the substrate binds",
+          matchMy:
+              "Substrate ချိတ်ဆက်ရာ အင်ဇိုင်း၏ တိတိကျကျပုံသဏ္ဌာန်ရှိသော နေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w9-dm-4",
+          termEn: "Catalyst",
+          termMy: "ဓာတ်ကူ (Catalyst)",
+          matchEn:
+              "A substance that speeds up a reaction without being permanently changed",
+          matchMy:
+              "အမြဲတမ်း ပြောင်းလဲမသွားဘဲ တုံ့ပြန်မှုတစ်ခုကို မြန်ဆန်စေသော ပစ္စည်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w9-dm-5",
+          termEn: "Product",
+          termMy: "Product",
+          matchEn:
+              "The new substance formed after an enzyme has acted on its substrate",
+          matchMy:
+              "အင်ဇိုင်းက Substrate ကို လုပ်ဆောင်ပြီးနောက် ဖြစ်ပေါ်လာသော ပစ္စည်းသစ်",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Enzyme or Not an Enzyme?",
+      titleMy: "စီစစ်ကြမည် - အင်ဇိုင်းလား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Behaves Like an Enzyme", "Does NOT Behave Like an Enzyme"],
+        bucketsMy: ["အင်ဇိုင်းကဲ့သို့ ပြုမူသည်", "အင်ဇိုင်းကဲ့သို့ မပြုမူပါ"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w9-sort-1",
+            labelEn:
+                "A protein that speeds up starch digestion and is reused afterward",
+            labelMy:
+                "Starch အစာချေဖျက်မှုကို မြန်ဆန်စေပြီး ပြီးနောက် ပြန်အသုံးပြုနိုင်သော ပရိုတင်း",
+            correctBucketEn: "Behaves Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ ပြုမူသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w9-sort-2",
+            labelEn:
+                "A substance that is permanently used up and destroyed after one reaction",
+            labelMy:
+                "တုံ့ပြန်မှုတစ်ခုပြီးနောက် အမြဲတမ်း ကုန်ဆုံးပျက်စီးသွားသော ပစ္စည်း",
+            correctBucketEn: "Does NOT Behave Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ မပြုမူပါ",
+          ),
+          SortingItem(
+            id: "igcsebio-w9-sort-3",
+            labelEn:
+                "A molecule with a specific shape that only binds one particular substrate",
+            labelMy:
+                "Substrate တစ်ခုတည်းနှင့်သာ ချိတ်ဆက်သော တိတိကျကျပုံသဏ္ဌာန်ရှိသည့် မော်လီကျူး",
+            correctBucketEn: "Behaves Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ ပြုမူသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w9-sort-4",
+            labelEn: "A substance that slows down every reaction it touches",
+            labelMy: "ထိတွေ့သမျှ တုံ့ပြန်မှုတိုင်းကို နှေးကွေးစေသော ပစ္စည်း",
+            correctBucketEn: "Does NOT Behave Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ မပြုမူပါ",
+          ),
+          SortingItem(
+            id: "igcsebio-w9-sort-5",
+            labelEn:
+                "Amylase, which speeds up the breakdown of starch into sugars",
+            labelMy:
+                "Starch ကို သကြားများအဖြစ် ချေဖျက်ရာတွင် မြန်ဆန်စေသော Amylase",
+            correctBucketEn: "Behaves Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ ပြုမူသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w9-sort-6",
+            labelEn: "A rock that never reacts with any biological molecule",
+            labelMy:
+                "ဇီဝမော်လီကျူး မည်သည်နှင့်မျှ လုံးဝ ဓာတ်မပြုသော ကျောက်တုံး",
+            correctBucketEn: "Does NOT Behave Like an Enzyme",
+            correctBucketMy: "အင်ဇိုင်းကဲ့သို့ မပြုမူပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aye Aye Mon's Fruit Juice Question",
+      titleMy: "စာဖတ်ခြင်း - အေအေမွန်၏ သစ်သီးဖျော်ရည် မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye Mon's Fruit Juice Question",
+        titleMy: "အေအေမွန်၏ သစ်သီးဖျော်ရည် မေးခွန်း",
+        passageEn:
+            "Aye Aye Mon's aunt ran a small fruit juice stall, and one afternoon Aye Aye Mon noticed a label on a bag of white powder that her aunt added to freshly pressed apple juice: 'pectinase enzyme -- clarifies juice.' Curious, she asked her aunt why the juice turned from cloudy to perfectly clear after the powder was stirred in and left for a while.\n\nHer aunt didn't know the biology, but Aye Aye Mon remembered her lesson on enzymes and worked it out herself. Cloudy apple juice contains pectin, a substance in plant cell walls that makes the juice thick and hazy. The pectinase enzyme's active site has a shape that specifically fits pectin molecules, like a key fitting a lock, allowing the enzyme to break the pectin down into smaller, soluble pieces. Once broken down, the pectin no longer scatters light the way it did before, so the juice becomes clear.\n\nWhat fascinated Aye Aye Mon most was that her aunt only ever needed a tiny pinch of the powder for a whole bucket of juice. She realised this made sense because of a key property of enzymes: since each enzyme molecule is not used up or destroyed by the reaction, a single pectinase molecule can break down one pectin molecule, be released unchanged, and then immediately bind to another pectin molecule to repeat the process -- over and over, thousands of times, which is exactly why only a small amount of enzyme is needed to process a large amount of substrate.",
+        passageMy:
+            "အေအေမွန်၏ အန်တီသည် သစ်သီးဖျော်ရည် ဆိုင်ငယ်တစ်ဆိုင် လုပ်ကိုင်ခဲ့ပြီး၊ တစ်နေ့လည်ခင်းတွင် အေအေမွန်သည် သူမ၏ အန်တီက စက်ဖျော်ထားသော ပန်းသီးဖျော်ရည်ထဲသို့ ထည့်လိုက်သော အဖြူရောင်မှုန့်အိတ်တွင် 'Pectinase Enzyme -- ဖျော်ရည်ကို ကြည်လင်စေသည်' ဟူသော အညွှန်းကို တွေ့ရှိခဲ့သည်။ စိတ်ဝင်စားစွာ မှုန့်ကို ရောစပ်ပြီး အနည်းငယ်ကြာမှသာ ဖျော်ရည်သည် ဝါဝါနောက်ဝါးမှ လုံးဝကြည်လင်သွားသည့် အကြောင်းရင်းကို သူမ အန်တီအား မေးမြန်းခဲ့သည်။\n\nအန်တီသည် ဇီဝဗေဒကို မသိသော်လည်း၊ အေအေမွန်က အင်ဇိုင်းများအကြောင်း သင်ခန်းစာကို သတိရမိပြီး ကိုယ်တိုင် ဖြေရှင်းကြည့်ခဲ့သည်။ ဝါနေသော ပန်းသီးဖျော်ရည်တွင် Pectin ပါဝင်ပြီး ၎င်းသည် အပင်ဆဲလ်နံရံရှိ ပစ္စည်းတစ်ခုဖြစ်ပြီး ဖျော်ရည်ကို ထူထပ်၍ ဝါစေသည်။ Pectinase Enzyme ၏ Active Site သည် Pectin မော်လီကျူးများနှင့် ကိုက်ညီသော ပုံသဏ္ဌာန်ရှိသည်၊ Key တစ်ခု Lock တစ်ခုနှင့် ကိုက်ညီသကဲ့သို့ပင်ဖြစ်ပြီး၊ အင်ဇိုင်းအား Pectin ကို ပိုသေးငယ်၍ ပျော်ဝင်နိုင်သော အစိတ်အပိုင်းများအဖြစ် ချေဖျက်နိုင်စေသည်။ ချေဖျက်ပြီးနောက် Pectin သည် အရင်ကအတိုင်း အလင်းကို မဖြန့်ကြဲတော့သဖြင့် ဖျော်ရည်သည် ကြည်လင်သွားသည်။\n\nအေအေမွန်ကို အထူးစိတ်ဝင်စားစေသည်မှာ ၎င်း၏ အန်တီသည် ဖျော်ရည်ပုံးတစ်ပုံးလုံးအတွက် မှုန့် အနည်းငယ်သာ လိုအပ်ခြင်းပင်ဖြစ်သည်။ ၎င်းသည် အင်ဇိုင်းများ၏ အဓိကဂုဏ်သတ္တိတစ်ခုကြောင့် ဖြစ်ကြောင်း သူမ သဘောပေါက်လာခဲ့သည်- အင်ဇိုင်းမော်လီကျူးတစ်ခုစီသည် တုံ့ပြန်မှုကြောင့် ကုန်ဆုံးပျက်စီးမသွားသောကြောင့်၊ Pectinase မော်လီကျူးတစ်ခုသည် Pectin မော်လီကျူးတစ်ခုကို ချေဖျက်ပြီးနောက် မပြောင်းလဲဘဲ ပြန်လွှတ်ပေးကာ ချက်ချင်းပင် နောက် Pectin မော်လီကျူးတစ်ခုနှင့် ချိတ်ဆက်ပြီး ဤဖြစ်စဉ်ကို ထပ်ခါထပ်ခါ ထောင်ချီအကြိမ် ပြန်လုပ်နိုင်သည် -- ၎င်းသည် Substrate ပမာဏများစွာကို ဆောင်ရွက်ရန် အင်ဇိုင်း အနည်းငယ်သာ လိုအပ်ရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does the apple juice turn from cloudy to clear?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ ပန်းသီးဖျော်ရည်သည် ဝါမှ ကြည်လင်စေသို့ အဘယ်ကြောင့် ပြောင်းလဲသနည်း။",
+            optionsEn: [
+              "Pectinase breaks down pectin into smaller pieces that no longer scatter light",
+              "The juice is heated until it boils",
+              "Pectin turns into sugar and dissolves completely",
+              "The powder absorbs all the colour from the juice",
+            ],
+            optionsMy: [
+              "Pectinase က Pectin ကို အလင်းမဖြန့်ကြဲတော့သော ပိုသေးငယ်သည့် အစိတ်အပိုင်းများအဖြစ် ချေဖျက်သောကြောင့်",
+              "ဖျော်ရည်ကို ဆူအောင် အပူပေးသောကြောင့်",
+              "Pectin သည် သကြားအဖြစ် ပြောင်းလဲပြီး လုံးဝ ပျော်ဝင်သွားသောကြောင့်",
+              "မှုန့်က ဖျော်ရည်ထဲမှ အရောင်အားလုံးကို စုပ်ယူလိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what happens once the pectin is broken down.",
+              "Cloudiness is caused by pectin scattering light -- once it's broken down, this stops.",
+            ],
+            hintsMy: [
+              "Pectin ကို ချေဖျက်ပြီးနောက် အဘယ်အရာ ဖြစ်ပေါ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဝါခြင်းသည် Pectin က အလင်းကို ဖြန့်ကြဲသောကြောင့် ဖြစ်ပြီး -- ချေဖျက်ပြီးလျှင် ရပ်တန့်သွားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In paragraph 2, the 'key fitting a lock' comparison refers to which relationship?",
+            questionMy:
+                "စာပိုဒ် ၂ တွင် 'Key တစ်ခု Lock တစ်ခုနှင့် ကိုက်ညီခြင်း' နှိုင်းယှဉ်ချက်သည် မည်သည့်ဆက်နွယ်မှုကို ရည်ညွှန်းသနည်း။",
+            optionsEn: [
+              "The active site of pectinase and the shape of the pectin molecule",
+              "The colour of the juice and the colour of the powder",
+              "The size of the bucket and the amount of powder used",
+              "The temperature of the juice and the speed of clarifying",
+            ],
+            optionsMy: [
+              "Pectinase ၏ Active Site နှင့် Pectin မော်လီကျူး၏ ပုံသဏ္ဌာန်",
+              "ဖျော်ရည်၏ အရောင်နှင့် မှုန့်၏ အရောင်",
+              "ပုံး၏ အရွယ်အစားနှင့် သုံးစွဲသော မှုန့်ပမာဏ",
+              "ဖျော်ရည်၏ အပူချိန်နှင့် ကြည်လင်စေသည့် အမြန်နှုန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is the lock-and-key model of enzyme specificity applied to pectinase and pectin.",
+              "The active site (lock) has a shape that specifically fits the substrate (key).",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ Pectinase နှင့် Pectin တွင် အသုံးချထားသော Enzyme Specificity ၏ Lock-and-Key Model ဖြစ်သည်။",
+              "Active Site (Lock) သည် Substrate (Key) နှင့် တိတိကျကျ ကိုက်ညီသော ပုံသဏ္ဌာန်ရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does only a tiny amount of pectinase powder clarify a whole bucket of juice?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ Pectinase မှုန့် အနည်းငယ်သာဖြင့် ဖျော်ရည်ပုံးတစ်ပုံးလုံးကို အဘယ်ကြောင့် ကြည်လင်စေနိုင်သနည်း။",
+            optionsEn: [
+              "Each enzyme molecule is not used up and can repeat the reaction on new substrate molecules over and over",
+              "The powder dissolves and multiplies itself in the juice",
+              "The pectin destroys itself without any enzyme needed",
+              "The bucket is actually much smaller than it appears",
+            ],
+            optionsMy: [
+              "အင်ဇိုင်းမော်လီကျူးတစ်ခုစီသည် မကုန်ဆုံးဘဲ Substrate မော်လီကျူးသစ်များပေါ်တွင် တုံ့ပြန်မှုကို ထပ်ခါထပ်ခါ ပြန်လုပ်နိုင်သောကြောင့်",
+              "မှုန့်သည် ဖျော်ရည်ထဲတွင် ပျော်ဝင်ပြီး ကိုယ့်ကိုယ်ကို မွှားများသောကြောင့်",
+              "Pectin သည် အင်ဇိုင်း မလိုအပ်ဘဲ ကိုယ်တိုင် ဖျက်ဆီးသွားသောကြောင့်",
+              "ပုံးသည် အမြင်ထက် အမှန်တကယ် ပိုသေးငယ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This links back to the key property that catalysts are not permanently changed by the reaction.",
+              "One molecule can react again and again, thousands of times.",
+            ],
+            hintsMy: [
+              "ဓာတ်ကူများသည် တုံ့ပြန်မှုကြောင့် အမြဲတမ်း ပြောင်းလဲမသွားကြောင်း အဓိကဂုဏ်သတ္တိနှင့် ချိတ်ဆက်ထားသည်။",
+              "မော်လီကျူးတစ်ခုသည် ထောင်ချီအကြိမ် ထပ်ခါထပ်ခါ ဓာတ်ပြုနိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the whole passage, what type of substance is pectin?",
+            questionMy:
+                "စာပိုဒ်တစ်ခုလုံးအရ Pectin သည် မည်သည့်ပစ္စည်းအမျိုးအစား ဖြစ်သနည်း။",
+            optionsEn: [
+              "The substrate that the pectinase enzyme acts upon",
+              "The enzyme that breaks down the juice",
+              "A type of sugar added by the aunt",
+              "A dye used to colour the juice",
+            ],
+            optionsMy: [
+              "Pectinase Enzyme က လုပ်ဆောင်ပေးသော Substrate",
+              "ဖျော်ရည်ကို ချေဖျက်ပေးသော Enzyme",
+              "အန်တီက ထည့်ခဲ့သော သကြားအမျိုးအစား",
+              "ဖျော်ရည်ကို အရောင်တင်ရန် သုံးသော အရောင်ပစ္စည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Pectin is what the enzyme breaks down -- so it plays the 'key' role in the lock-and-key model.",
+              "Pectinase is the enzyme; pectin is the substrate it acts on.",
+            ],
+            hintsMy: [
+              "Pectin သည် Enzyme က ချေဖျက်ပေးသောအရာဖြစ်၍ -- Lock-and-Key Model တွင် 'Key' အခန်းကဏ္ဍဖြင့် ပါဝင်သည်။",
+              "Pectinase သည် Enzyme ဖြစ်ပြီး Pectin သည် ၎င်းက လုပ်ဆောင်ပေးသော Substrate ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Enzymes",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - အင်ဇိုင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Enzymes are made of which biological molecule?",
+          questionMy:
+              "အင်ဇိုင်းများကို မည်သည့် ဇီဝမော်လီကျူးဖြင့် ဖွဲ့စည်းထားသနည်း",
+          optionsEn: ["Protein", "Carbohydrate", "Lipid", "Water"],
+          optionsMy: ["ပရိုတင်း", "ကာဗိုဟိုက်ဒရိတ်", "Lipid", "ရေ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The molecule an enzyme acts upon is called the...",
+          questionMy: "အင်ဇိုင်းက လုပ်ဆောင်ပေးသော မော်လီကျူးကို ဘာဟု ခေါ်သနည်း",
+          optionsEn: ["Substrate", "Product", "Catalyst", "Solvent"],
+          optionsMy: ["Substrate", "Product", "Catalyst", "Solvent"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can a single enzyme molecule process many substrate molecules over time?",
+          questionMy:
+              "အင်ဇိုင်းမော်လီကျူးတစ်ခုတည်းက အချိန်ကြာလာသည်နှင့်အမျှ Substrate မော်လီကျူးများစွာကို အဘယ်ကြောင့် ဆောင်ရွက်နိုင်သနည်း",
+          optionsEn: [
+            "It is not used up or permanently changed by the reaction",
+            "It multiplies itself after each reaction",
+            "It absorbs energy from the substrate to grow bigger",
+            "It only works once and then disappears",
+          ],
+          optionsMy: [
+            "တုံ့ပြန်မှုကြောင့် မကုန်ဆုံးဘဲ အမြဲတမ်း ပြောင်းလဲမသွားခြင်း",
+            "တုံ့ပြန်မှုတစ်ခုစီပြီးနောက် ကိုယ့်ကိုယ်ကို မွှားခြင်း",
+            "ပိုကြီးလာရန် Substrate မှ စွမ်းအင်ကို စုပ်ယူခြင်း",
+            "တစ်ကြိမ်သာ အလုပ်လုပ်ပြီး ပျောက်ကွယ်သွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 10: "Factors Affecting Enzyme Activity"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek10 = CourseWeekDef(
+  id: "course-igcse-bio-w10",
+  weekNumber: 10,
+  titleEn: "Factors Affecting Enzyme Activity",
+  titleMy: "အင်ဇိုင်း လုပ်ဆောင်ချက်အပေါ် သက်ရောက်သော အကြောင်းရင်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w10-d1",
+      dayNumber: 1,
+      titleEn: "Temperature and Denaturation",
+      titleMy: "အပူချိန်နှင့် Denaturation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "As temperature rises towards an enzyme's optimum temperature, what usually happens to the rate of reaction?",
+          questionMy:
+              "အပူချိန်သည် အင်ဇိုင်း၏ Optimum Temperature ဆီသို့ မြင့်တက်လာသည်နှင့်အမျှ တုံ့ပြန်နှုန်းတွင် ပုံမှန်အားဖြင့် အဘယ်ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "It increases, as particles move faster and collide more often",
+            "It always stays exactly the same",
+            "It decreases steadily from the very start",
+            "It becomes completely random",
+          ],
+          optionsMy: [
+            "အမှုန်များ ပိုမြန်စွာ လှုပ်ရှား၍ ပိုမြင့်တိုးထိတွေ့မှုများသောကြောင့် တိုးလာသည်",
+            "အမြဲတမ်း အတိအကျ တူညီနေသည်",
+            "အစကတည်းက တဖြည်းဖြည်း လျော့ကျလာသည်",
+            "လုံးဝကျပန်း ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher temperature gives both the enzyme and substrate molecules more kinetic energy.",
+            "More kinetic energy means more frequent, successful collisions between enzyme and substrate.",
+          ],
+          hintsMy: [
+            "အပူချိန်ပိုမြင့်လျှင် အင်ဇိုင်းနှင့် Substrate မော်လီကျူးများ နှစ်ခုစလုံးတွင် Kinetic Energy ပိုများလာသည်။",
+            "Kinetic Energy ပိုများခြင်းက အင်ဇိုင်းနှင့် Substrate အကြား အောင်မြင်သော ထိတွေ့မှုများကို ပို၍ ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What happens to an enzyme when it becomes denatured?",
+          questionMy:
+              "အင်ဇိုင်းတစ်ခု Denatured ဖြစ်သွားသောအခါ အဘယ်ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Its active site changes shape permanently, so the substrate can no longer bind",
+            "It temporarily stops working but returns to normal after cooling",
+            "It becomes more effective at binding substrate",
+            "It turns into a different type of molecule entirely",
+          ],
+          optionsMy: [
+            "၎င်း၏ Active Site ပုံသဏ္ဌာန် အမြဲတမ်း ပြောင်းလဲသွားသဖြင့် Substrate နှင့် နောက်ထပ် မချိတ်ဆက်နိုင်တော့ပါ",
+            "ယာယီ ရပ်တန့်သွားသော်လည်း အအေးခံပြီးနောက် ပုံမှန်အခြေအနေသို့ ပြန်ရောက်သည်",
+            "Substrate နှင့် ချိတ်ဆက်ရန် ပိုထိရောက်လာသည်",
+            "လုံးဝ မော်လီကျူးအမျိုးအစားတစ်မျိုးအဖြစ် ပြောင်းလဲသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Denaturation is usually permanent and irreversible.",
+            "Once the active site's shape is destroyed, the substrate no longer fits, like a broken lock.",
+          ],
+          hintsMy: [
+            "Denaturation သည် များသောအားဖြင့် အမြဲတမ်း ဖြစ်ပြီး ပြန်လှည့်၍မရနိုင်တော့ပါ။",
+            "Active Site ၏ ပုံသဏ္ဌာန် ပျက်စီးသွားပြီးလျှင် Substrate နှင့် ကိုက်ညီတော့မည် မဟုတ်ပါ၊ ပျက်နေသော Lock တစ်ခုကဲ့သို့ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A graph of enzyme activity against temperature typically rises to a peak and then falls sharply. What causes the sharp fall after the peak?",
+          questionMy:
+              "အပူချိန်ကို လိုက်၍ အင်ဇိုင်းလုပ်ဆောင်ချက် ဂရပ်သည် ပုံမှန်အားဖြင့် အထွတ်အထိပ်တစ်ခုသို့ တက်ပြီး ချက်ချင်း ကျဆင်းသွားသည်။ အထွတ်အထိပ်ပြီးနောက် ချက်ချင်းကျဆင်းရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The enzyme starts to denature at high temperatures",
+            "The substrate runs out completely",
+            "The enzyme starts working faster than the substrate can supply",
+            "The reaction reaches equilibrium",
+          ],
+          optionsMy: [
+            "အပူချိန်မြင့်လာသောအခါ အင်ဇိုင်း Denature စတင်ဖြစ်ပွားလာသည်",
+            "Substrate လုံးဝ ကုန်ဆုံးသွားသည်",
+            "Substrate ထောက်ပံ့နိုင်သည်ထက် အင်ဇိုင်းက ပို၍ မြန်စွာ အလုပ်လုပ်စတင်လာသည်",
+            "တုံ့ပြန်မှုသည် Equilibrium သို့ ရောက်ရှိသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The peak of the graph is the optimum temperature -- beyond that, heat starts to damage the enzyme.",
+            "This damage is denaturation, which permanently stops the enzyme from working.",
+          ],
+          hintsMy: [
+            "ဂရပ်၏ အထွတ်အထိပ်သည် Optimum Temperature ဖြစ်ပြီး -- ၎င်းထက်ကျော်လွန်လျှင် အပူချိန်က အင်ဇိုင်းကို ပျက်စီးစေသည်။",
+            "ဤပျက်စီးမှုသည် Denaturation ဖြစ်ပြီး အင်ဇိုင်းကို အမြဲတမ်း အလုပ်မလုပ်နိုင်အောင် ရပ်တန့်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Enzyme Factors Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အင်ဇိုင်း အကြောင်းရင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w10-dm-1",
+          termEn: "Optimum temperature",
+          termMy: "Optimum Temperature",
+          matchEn: "The temperature at which an enzyme works fastest",
+          matchMy: "အင်ဇိုင်းတစ်ခု အမြန်ဆုံး အလုပ်လုပ်နိုင်သည့် အပူချိန်",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w10-dm-2",
+          termEn: "Denaturation",
+          termMy: "Denaturation",
+          matchEn:
+              "A permanent change to an enzyme's active site shape, caused by high temperature or extreme pH, that stops it working",
+          matchMy:
+              "အပူချိန်မြင့်ခြင်း သို့မဟုတ် pH အလွန်အကျွံခြင်းကြောင့် အင်ဇိုင်း၏ Active Site ပုံသဏ္ဌာန် အမြဲတမ်း ပျက်စီးပြီး အလုပ်ရပ်သွားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w10-dm-3",
+          termEn: "Optimum pH",
+          termMy: "Optimum pH",
+          matchEn: "The pH at which an enzyme works fastest",
+          matchMy: "အင်ဇိုင်းတစ်ခု အမြန်ဆုံး အလုပ်လုပ်နိုင်သည့် pH",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w10-dm-4",
+          termEn: "Rate of reaction",
+          termMy: "တုံ့ပြန်နှုန်း (Rate of Reaction)",
+          matchEn:
+              "How quickly a reaction produces its products, often measured in product formed per unit time",
+          matchMy:
+              "တုံ့ပြန်မှုတစ်ခု Product ကို မည်မျှမြန်ဆန်စွာ ထုတ်ပေးသနည်းဆိုသည့် အချက်၊ များသောအားဖြင့် တစ်ယူနစ်အချိန်ပါ Product ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Enzyme Working or Denatured?",
+      titleMy: "စီစစ်ကြမည် - အင်ဇိုင်းအလုပ်လုပ်နေသလား၊ Denatured ဖြစ်နေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Enzyme is Still Working Normally",
+          "Enzyme is Likely Denatured",
+        ],
+        bucketsMy: [
+          "အင်ဇိုင်း ပုံမှန်အလုပ်လုပ်နေဆဲ",
+          "အင်ဇိုင်း Denatured ဖြစ်နိုင်ချေရှိသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w10-sort-1",
+            labelEn:
+                "A human digestive enzyme at 37 degrees Celsius, its optimum temperature",
+            labelMy:
+                "လူ့ခန္ဓာကိုယ် Optimum Temperature ၃၇ ဒီဂရီဆဲလ်စီးယပ်တွင် ရှိသော အစာခြေအင်ဇိုင်း",
+            correctBucketEn: "Enzyme is Still Working Normally",
+            correctBucketMy: "အင်ဇိုင်း ပုံမှန်အလုပ်လုပ်နေဆဲ",
+          ),
+          SortingItem(
+            id: "igcsebio-w10-sort-2",
+            labelEn:
+                "The same enzyme boiled at 100 degrees Celsius for several minutes",
+            labelMy:
+                "တူညီသော အင်ဇိုင်းကို ဒီဂရီ ၁၀၀ ဆဲလ်စီးယပ်တွင် မိနစ်များစွာ ပြုတ်ထားခြင်း",
+            correctBucketEn: "Enzyme is Likely Denatured",
+            correctBucketMy: "အင်ဇိုင်း Denatured ဖြစ်နိုင်ချေရှိသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w10-sort-3",
+            labelEn:
+                "An enzyme placed in a strongly acidic solution far below its optimum pH",
+            labelMy:
+                "အင်ဇိုင်းတစ်ခုကို ၎င်း၏ Optimum pH ထက် များစွာ နိမ့်သော အက်ဆစ်ပြင်းသော ရည်ထဲတွင် ထားခြင်း",
+            correctBucketEn: "Enzyme is Likely Denatured",
+            correctBucketMy: "အင်ဇိုင်း Denatured ဖြစ်နိုင်ချေရှိသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w10-sort-4",
+            labelEn:
+                "Pepsin working in the acidic environment of the stomach at its optimum pH",
+            labelMy:
+                "အစာအိမ်၏ Optimum pH ရှိသော အက်ဆစ်ပတ်ဝန်းကျင်တွင် Pepsin အလုပ်လုပ်ခြင်း",
+            correctBucketEn: "Enzyme is Still Working Normally",
+            correctBucketMy: "အင်ဇိုင်း ပုံမှန်အလုပ်လုပ်နေဆဲ",
+          ),
+          SortingItem(
+            id: "igcsebio-w10-sort-5",
+            labelEn:
+                "An enzyme cooled to a low temperature, slowing but not damaging it",
+            labelMy:
+                "အင်ဇိုင်းတစ်ခုကို အပူချိန်နိမ့်စွာ အအေးခံထားခြင်း၊ နှေးသွားသော်လည်း ပျက်စီးမသွားခြင်း",
+            correctBucketEn: "Enzyme is Still Working Normally",
+            correctBucketMy: "အင်ဇိုင်း ပုံမှန်အလုပ်လုပ်နေဆဲ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zaw Min Htet's Boiled Egg Experiment",
+      titleMy: "စာဖတ်ခြင်း - ဇော်မင်းထက်၏ ကြက်ဥပြုတ် စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zaw Min Htet's Boiled Egg Experiment",
+        titleMy: "ဇော်မင်းထက်၏ ကြက်ဥပြုတ် စမ်းသပ်မှု",
+        passageEn:
+            "Zaw Min Htet's teacher set the class a challenge: design an experiment to investigate how temperature affects the rate of an enzyme-controlled reaction, using catalase, an enzyme found in liver, which breaks down hydrogen peroxide into water and oxygen gas. His group decided to measure the volume of oxygen gas produced in one minute at five different water bath temperatures: 10, 20, 37, 50, and 80 degrees Celsius.\n\nAt 10 degrees Celsius, bubbles of oxygen formed very slowly. At 20 degrees, they formed a little faster. At 37 degrees, bubbles formed rapidly and the group collected the most gas of any trial -- this, Zaw Min Htet realised, must be close to catalase's optimum temperature. But at 50 degrees, gas production had already dropped noticeably compared to 37 degrees, and at 80 degrees almost no bubbles formed at all, even though there was plenty of hydrogen peroxide substrate remaining untouched in the test tube.\n\nWriting up his conclusion, Zaw Min Htet explained that the rise in reaction rate from 10 to 37 degrees happened because the enzyme and substrate molecules had more kinetic energy at higher temperatures, causing more frequent, successful collisions between catalase's active site and hydrogen peroxide. But the collapse in rate above 37 degrees was not simply the reaction 'slowing down' -- it was evidence that the high heat had permanently changed the shape of catalase's active site, denaturing it so that hydrogen peroxide molecules could no longer bind, regardless of how much substrate remained available.",
+        passageMy:
+            "ဇော်မင်းထက်၏ ဆရာမက အတန်းကို စိန်ခေါ်မှုတစ်ခု ပေးအပ်ခဲ့သည်- ဟိုက်ဒရိုဂျင်ပါရောက်ဆိုဒ်ကို ရေနှင့် အောက်ဆီဂျင်ဓာတ်ငွေ့အဖြစ် ချေဖျက်ပေးသော အသည်းတွင် တွေ့ရှိရသော အင်ဇိုင်း Catalase ကို သုံး၍ အပူချိန်သည် အင်ဇိုင်းထိန်းချုပ်တုံ့ပြန်မှုနှုန်းကို မည်သို့ သက်ရောက်ကြောင်း စူးစမ်းရန် စမ်းသပ်မှုတစ်ခု ဒီဇိုင်းဆွဲရန် ဖြစ်သည်။ သူ၏ အုပ်စုက ရေအေးကန် အပူချိန် ၅ မျိုး -- ၁၀၊ ၂၀၊ ၃၇၊ ၅၀ နှင့် ၈၀ ဒီဂရီဆဲလ်စီးယပ် -- တွင် မိနစ်တစ်မိနစ်အတွင်း ထွက်ရှိသော အောက်ဆီဂျင်ဓာတ်ငွေ့ ပမာဏကို တိုင်းတာရန် ဆုံးဖြတ်ခဲ့သည်။\n\nဒီဂရီ ၁၀ တွင် အောက်ဆီဂျင် ပူဖောင်းများ အလွန်နှေးကွေးစွာ ဖြစ်ပေါ်ခဲ့သည်။ ဒီဂရီ ၂၀ တွင် အနည်းငယ် ပိုမြန်ခဲ့သည်။ ဒီဂရီ ၃၇ တွင် ပူဖောင်းများ လျင်မြန်စွာ ဖြစ်ပေါ်ခဲ့ပြီး အုပ်စုက စမ်းသပ်မှုအားလုံးထဲမှ အများဆုံး ဓာတ်ငွေ့ရရှိခဲ့သည် -- ၎င်းသည် Catalase ၏ Optimum Temperature နှင့် နီးစပ်ကြောင်း ဇော်မင်းထက် သဘောပေါက်ခဲ့သည်။ သို့သော် ဒီဂရီ ၅၀ တွင် ဒီဂရီ ၃၇ နှင့်နှိုင်းယှဉ်လျှင် ဓာတ်ငွေ့ထုတ်လုပ်မှု သိသိသာသာ ကျဆင်းခဲ့ပြီးဖြစ်ကာ၊ ဒီဂရီ ၈၀ တွင်မူ စမ်းသပ်ပြွန်ထဲတွင် ဟိုက်ဒရိုဂျင်ပါရောက်ဆိုဒ် Substrate များစွာ ရှင်သန်ကျန်ရှိနေသော်လည်း ပူဖောင်း အနည်းငယ်မျှသာ ဖြစ်ပေါ်ခဲ့သည်။\n\nသူ၏ ကောက်ချက်ကို ရေးသားရာတွင် ဇော်မင်းထက်က ဒီဂရီ ၁၀ မှ ၃၇ အထိ တုံ့ပြန်နှုန်း မြင့်တက်လာခြင်းသည် အင်ဇိုင်းနှင့် Substrate မော်လီကျူးများသည် အပူချိန်ပိုမြင့်လာသောအခါ Kinetic Energy ပိုများလာသောကြောင့် Catalase ၏ Active Site နှင့် ဟိုက်ဒရိုဂျင်ပါရောက်ဆိုဒ်ကြား ထိတွေ့မှု ပိုမြင့်တိုးလာသောကြောင့် ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။ သို့သော် ဒီဂရီ ၃၇ ကျော်လွန်ပြီးနောက် နှုန်းကျဆင်းမှုမှာ တုံ့ပြန်မှု 'နှေးလာခြင်း' တစ်ခုတည်း မဟုတ်ပါ -- ၎င်းသည် အပူချိန်ပြင်းထန်မှုက Catalase ၏ Active Site ပုံသဏ္ဌာန်ကို အမြဲတမ်း ပြောင်းလဲပစ်လိုက်ပြီး Denature ဖြစ်စေကာ၊ Substrate မည်မျှ ကျန်ရှိစေ ဟိုက်ဒရိုဂျင်ပါရောက်ဆိုဒ် မော်လီကျူးများ နောက်ထပ် မချိတ်ဆက်နိုင်တော့ကြောင်း သက်သေအထောက်အထားဖြစ်ကြောင်း ဇော်မင်းထက်က ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, at which temperature did the group collect the most gas?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ မည်သည့်အပူချိန်တွင် အုပ်စုက ဓာတ်ငွေ့အများဆုံး ရရှိခဲ့သနည်း။",
+            optionsEn: [
+              "37 degrees Celsius",
+              "10 degrees Celsius",
+              "50 degrees Celsius",
+              "80 degrees Celsius",
+            ],
+            optionsMy: [
+              "ဒီဂရီ ၃၇ ဆဲလ်စီးယပ်",
+              "ဒီဂရီ ၁၀ ဆဲလ်စီးယပ်",
+              "ဒီဂရီ ၅၀ ဆဲလ်စီးယပ်",
+              "ဒီဂရီ ၈၀ ဆဲလ်စီးယပ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The passage says bubbles formed rapidly and the most gas was collected at this temperature.",
+              "This is described as close to catalase's optimum temperature.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်က ပူဖောင်းများ လျင်မြန်စွာ ဖြစ်ပေါ်ပြီး ဓာတ်ငွေ့အများဆုံးကို ဤအပူချိန်တွင် ရရှိခဲ့ကြောင်း ဖော်ပြထားသည်။",
+              "ဤအပူချိန်ကို Catalase ၏ Optimum Temperature နှင့် နီးစပ်သည်ဟု ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the reaction rate rise between 10 and 37 degrees?",
+            questionMy:
+                "ဒီဂရီ ၁၀ မှ ၃၇ ကြား တုံ့ပြန်နှုန်း အဘယ်ကြောင့် မြင့်တက်ခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Higher kinetic energy caused more frequent, successful collisions between enzyme and substrate",
+              "The hydrogen peroxide became a different chemical",
+              "The test tubes became larger at higher temperatures",
+              "The catalase multiplied itself",
+            ],
+            optionsMy: [
+              "Kinetic Energy ပိုများခြင်းက အင်ဇိုင်းနှင့် Substrate ကြား ပိုမြင့်တိုးအောင်မြင်သော ထိတွေ့မှုများကို ဖြစ်ပေါ်စေသောကြောင့်",
+              "ဟိုက်ဒရိုဂျင်ပါရောက်ဆိုဒ်သည် ဓာတုပစ္စည်း တစ်မျိုးသို့ ပြောင်းလဲသွားသောကြောင့်",
+              "အပူချိန်ပိုမြင့်လာသောအခါ စမ်းသပ်ပြွန်များ ပိုကြီးလာသောကြောင့်",
+              "Catalase သည် ကိုယ့်ကိုယ်ကို မွှားများသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is the general rule for how temperature affects reaction rates below the optimum.",
+              "More kinetic energy means particles move and collide more often.",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ Optimum အောက်တွင် အပူချိန်က တုံ့ပြန်နှုန်းကို မည်သို့ သက်ရောက်ကြောင်း ယေဘုယျ စည်းမျဉ်းဖြစ်သည်။",
+              "Kinetic Energy ပိုများခြင်းသည် အမှုန်များ ပိုမြန်စွာ လှုပ်ရှား၍ ပိုမြင့်တိုးထိတွေ့စေသည်ဟု ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what does the collapse in rate above 37 degrees actually show, despite plenty of substrate remaining?",
+            questionMy:
+                "Substrate များစွာ ကျန်ရှိနေသော်လည်း ဒီဂရီ ၃၇ ကျော်လွန်ပြီးနောက် နှုန်းကျဆင်းမှုသည် အမှန်တကယ် အဘယ်ကို ပြသကြောင်း စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The enzyme's active site was permanently changed (denatured), so it could no longer bind substrate",
+              "The substrate had turned into oxygen already",
+              "The test was simply run for too short a time",
+              "The temperature reading was inaccurate",
+            ],
+            optionsMy: [
+              "အင်ဇိုင်း၏ Active Site သည် အမြဲတမ်း ပြောင်းလဲသွားပြီး (Denatured) Substrate နှင့် နောက်ထပ် မချိတ်ဆက်နိုင်တော့ခြင်း",
+              "Substrate သည် အောက်ဆီဂျင်အဖြစ် ပြီးသားပြောင်းလဲသွားခြင်း",
+              "စမ်းသပ်မှုကို အချိန် တိုတောင်းစွာသာ လုပ်ဆောင်ခဲ့ခြင်း",
+              "အပူချိန် ဖတ်စာသည် တိကျမှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The passage explicitly names this as evidence of denaturation, not simple slowing.",
+              "'Regardless of how much substrate remained available' is the key phrase to reread.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်က ဤအရာကို ရိုးရှင်းသော နှေးကွေးမှုတစ်ခုတည်း မဟုတ်ဘဲ Denaturation ၏ သက်သေအထောက်အထားအဖြစ် တိတိကျကျ ဖော်ပြထားသည်။",
+              "'Substrate မည်မျှ ကျန်ရှိစေ' ဆိုသော စကားစုသည် ပြန်ဖတ်ရမည့် အဓိကစကားစု ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the independent variable in Zaw Min Htet's group's experiment?",
+            questionMy:
+                "ဇော်မင်းထက်၏ အုပ်စု စမ်းသပ်မှုတွင် Independent Variable မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "The water bath temperature",
+              "The colour of the test tubes",
+              "The time of day the experiment was run",
+              "The name of the enzyme",
+            ],
+            optionsMy: [
+              "ရေအေးကန် အပူချိန်",
+              "စမ်းသပ်ပြွန်များ၏ အရောင်",
+              "စမ်းသပ်မှု လုပ်ဆောင်သည့် နေ့အချိန်",
+              "အင်ဇိုင်း၏ အမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The independent variable is the one thing the group deliberately changed between trials.",
+              "They tested five different values of this one variable.",
+            ],
+            hintsMy: [
+              "Independent Variable ဆိုသည်မှာ အုပ်စုက စမ်းသပ်မှုအကြားတွင် တမင်ရွေးချယ် ပြောင်းလဲသော အရာတစ်ခုတည်းဖြစ်သည်။",
+              "ဤအပြောင်းအလဲတစ်ခုတည်း၏ တန်ဖိုးငါးမျိုးကို သူတို့ စမ်းသပ်ခဲ့ကြသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Factors Affecting Enzymes",
+      titleMy:
+          "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - အင်ဇိုင်းကို သက်ရောက်သော အကြောင်းရင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What happens to an enzyme's rate of reaction well above its optimum temperature?",
+          questionMy:
+              "Optimum Temperature ထက် များစွာမြင့်သော အပူချိန်တွင် အင်ဇိုင်း၏ တုံ့ပြန်နှုန်းသည် အဘယ်ဖြစ်ပေါ်လာသနည်း",
+          optionsEn: [
+            "It drops sharply because the enzyme denatures",
+            "It keeps increasing forever",
+            "It stays exactly the same",
+            "It becomes negative",
+          ],
+          optionsMy: [
+            "အင်ဇိုင်း Denature ဖြစ်သောကြောင့် ချက်ချင်းကျဆင်းသည်",
+            "အစဉ် တိုးလာနေဆဲဖြစ်သည်",
+            "အတိအကျ တူညီနေဆဲ",
+            "အနှုတ်လက္ခဏာ ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these best defines denaturation?",
+          questionMy:
+              "အောက်ပါတို့အနက် Denaturation ကို အကောင်းဆုံး ဖွင့်ဆိုသည့်အရာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "A permanent change to an enzyme's shape that stops it working",
+            "A temporary pause in enzyme activity",
+            "The normal way enzymes are made in cells",
+            "The process of enzymes multiplying",
+          ],
+          optionsMy: [
+            "အင်ဇိုင်း၏ ပုံသဏ္ဌာန်ကို အမြဲတမ်း ပြောင်းလဲစေပြီး အလုပ်ရပ်စေခြင်း",
+            "အင်ဇိုင်း လုပ်ဆောင်ချက် ယာယီရပ်တန့်ခြင်း",
+            "ဆဲလ်များတွင် အင်ဇိုင်းများ ပုံမှန်ထုတ်လုပ်ပုံ",
+            "အင်ဇိုင်းများ မွှားများခြင်း ဖြစ်စဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Pepsin, a stomach enzyme, works best in strongly acidic conditions. This is an example of...",
+          questionMy:
+              "အစာအိမ် အင်ဇိုင်းဖြစ်သော Pepsin သည် အက်ဆစ်ပြင်းသော အခြေအနေတွင် အကောင်းဆုံး အလုပ်လုပ်သည်။ ၎င်းသည် ...၏ ဥပမာဖြစ်သည်",
+          optionsEn: [
+            "Enzymes having different optimum pH values depending on where they work",
+            "All enzymes always needing an alkaline environment",
+            "Denaturation happening at low temperatures",
+            "Enzymes never being affected by pH",
+          ],
+          optionsMy: [
+            "အင်ဇိုင်းများသည် ၎င်းတို့ အလုပ်လုပ်ရာနေရာပေါ် မူတည်၍ Optimum pH မတူညီခြင်း",
+            "အင်ဇိုင်းအားလုံးသည် အယ်လကလိုင်း ပတ်ဝန်းကျင်ကိုသာ လိုအပ်ခြင်း",
+            "Denaturation သည် အပူချိန်နိမ့်ရာတွင် ဖြစ်ပွားခြင်း",
+            "အင်ဇိုင်းများသည် pH ၏ သက်ရောက်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 11: "Photosynthesis and Leaf Structure"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek11 = CourseWeekDef(
+  id: "course-igcse-bio-w11",
+  weekNumber: 11,
+  titleEn: "Photosynthesis and Leaf Structure",
+  titleMy: "အလင်းမှီစုဖွဲ့ခြင်း (Photosynthesis) နှင့် အရွက် ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w11-d1",
+      dayNumber: 1,
+      titleEn: "The Word Equation for Photosynthesis",
+      titleMy: "Photosynthesis ၏ Word Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which word equation correctly represents photosynthesis?",
+          questionMy:
+              "Photosynthesis ကို မှန်ကန်စွာ ကိုယ်စားပြုသော Word Equation မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Carbon dioxide + water --(light energy)--> glucose + oxygen",
+            "Glucose + oxygen --(light energy)--> carbon dioxide + water",
+            "Oxygen + water --(light energy)--> carbon dioxide + glucose",
+            "Carbon dioxide + glucose --(light energy)--> water + oxygen",
+          ],
+          optionsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ --(အလင်းစွမ်းအင်)--> ဂလူးကို့စ် + အောက်ဆီဂျင်",
+            "ဂလူးကို့စ် + အောက်ဆီဂျင် --(အလင်းစွမ်းအင်)--> ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ရေ",
+            "အောက်ဆီဂျင် + ရေ --(အလင်းစွမ်းအင်)--> ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ဂလူးကို့စ်",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ် + ဂလူးကို့စ် --(အလင်းစွမ်းအင်)--> ရေ + အောက်ဆီဂျင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Plants take in two raw materials from their environment: a gas and a liquid.",
+            "Photosynthesis produces a sugar (glucose) that the plant uses, and releases a gas as a by-product.",
+          ],
+          hintsMy: [
+            "အပင်များသည် ပတ်ဝန်းကျင်မှ ကုန်ကြမ်းနှစ်မျိုးကို ရယူသည်- ဓာတ်ငွေ့တစ်မျိုးနှင့် အရည်တစ်မျိုး။",
+            "Photosynthesis က အပင်သုံးသော သကြား (ဂလူးကို့စ်) ကို ထုတ်လုပ်ပေးပြီး ဓာတ်ငွေ့တစ်မျိုးကို ကုန်ထုတ်ပစ္စည်းအဖြစ် လွှတ်ထုတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which pigment absorbs light energy for photosynthesis and is found inside chloroplasts?",
+          questionMy:
+              "Photosynthesis အတွက် အလင်းစွမ်းအင်ကို စုပ်ယူပြီး Chloroplast များအတွင်း တွေ့ရှိရသော အရောင်ဓာတ်မှာ အဘယ်နည်း။",
+          optionsEn: ["Chlorophyll", "Haemoglobin", "Melanin", "Carotene only"],
+          optionsMy: [
+            "Chlorophyll",
+            "Haemoglobin",
+            "Melanin",
+            "Carotene တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This pigment gives most leaves their green colour.",
+            "It is contained within the chloroplasts of palisade and spongy mesophyll cells.",
+          ],
+          hintsMy: [
+            "ဤအရောင်ဓာတ်က အရွက်အများစုကို အစိမ်းရောင် ဖြစ်စေသည်။",
+            "၎င်းသည် Palisade နှင့် Spongy Mesophyll ဆဲလ်များ၏ Chloroplast အတွင်း ပါဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the balanced chemical equation for photosynthesis, 6CO2 + 6H2O -> C6H12O6 + 6O2, what does C6H12O6 represent?",
+          questionMy:
+              "Photosynthesis ၏ Balanced Chemical Equation ဖြစ်သော 6CO2 + 6H2O -> C6H12O6 + 6O2 တွင် C6H12O6 က အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["Glucose", "Oxygen", "Water", "Carbon dioxide"],
+          optionsMy: [
+            "ဂလူးကို့စ်",
+            "အောက်ဆီဂျင်",
+            "ရေ",
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the sugar product of photosynthesis, made of carbon, hydrogen, and oxygen atoms.",
+            "O2 (without other elements attached) represents oxygen gas instead.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ကာဗွန်၊ ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင် အက်တမ်များဖြင့် ဖွဲ့စည်းထားသော Photosynthesis ၏ သကြား Product ဖြစ်သည်။",
+            "O2 (အခြားဒြပ်စင် မပါဘဲ) သည် အောက်ဆီဂျင်ဓာတ်ငွေ့ကို ကိုယ်စားပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Leaf Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အရွက် ဖွဲ့စည်းပုံ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w11-dm-1",
+          termEn: "Palisade mesophyll",
+          termMy: "Palisade Mesophyll",
+          matchEn:
+              "The tightly packed upper layer of leaf cells, containing many chloroplasts, where most photosynthesis happens",
+          matchMy:
+              "Chloroplast များစွာ ပါဝင်ပြီး Photosynthesis အများစု ဖြစ်ပေါ်ရာ ကျစ်လျစ်စွာ အထပ်ထားသော အရွက်ဆဲလ် အပေါ်ဆုံးအလွှာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w11-dm-2",
+          termEn: "Spongy mesophyll",
+          termMy: "Spongy Mesophyll",
+          matchEn:
+              "The loosely packed lower layer of leaf cells with large air spaces, allowing gases to move easily",
+          matchMy:
+              "ဓာတ်ငွေ့များ လွယ်ကူစွာ ရွေ့လျားနိုင်ရန် လေအလွတ်နေရာကြီးများ ရှိသော ကျစ်ကျစ်မထားသော အရွက်ဆဲလ် အောက်ဆုံးအလွှာ",
+          colorValue: 0xFF8BC34A,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w11-dm-3",
+          termEn: "Stomata",
+          termMy: "Stomata",
+          matchEn:
+              "Small pores, mostly on the lower epidermis, that allow gas exchange and control water loss",
+          matchMy:
+              "ဓာတ်ငွေ့ဖလှယ်မှု ခွင့်ပြုပြီး ရေဆုံးရှုံးမှုကို ထိန်းချုပ်ပေးသည့် အောက်ဘက် Epidermis တွင် အများဆုံးတွေ့ရသော အပေါက်ငယ်များ",
+          colorValue: 0xFF00BCD4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w11-dm-4",
+          termEn: "Guard cells",
+          termMy: "Guard Cells",
+          matchEn:
+              "The pair of cells surrounding each stoma that open and close it",
+          matchMy: "Stoma တစ်ခုစီကို ဝန်းရံပြီး ဖွင့်/ပိတ်ပေးသော ဆဲလ်တွဲ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w11-dm-5",
+          termEn: "Cuticle",
+          termMy: "Cuticle",
+          matchEn:
+              "A waxy, waterproof layer on the upper surface of a leaf that reduces water loss",
+          matchMy:
+              "ရေဆုံးရှုံးမှုကို လျှော့ချပေးသော အရွက်၏ အပေါ်မျက်နှာပြင်ရှိ ဖယောင်းဖြင့်ရေခံအလွှာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w11-dm-6",
+          termEn: "Vascular bundle (vein)",
+          termMy: "Vascular Bundle (အကြောသေး)",
+          matchEn:
+              "The xylem and phloem tissue in a leaf that transports water and dissolved food",
+          matchMy:
+              "ရေနှင့် ပျော်ဝင်ထားသောအစာကို သယ်ဆောင်ပေးသော အရွက်ရှိ Xylem နှင့် Phloem ဆဲလ်ရွက်",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Leaf Layer?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် အရွက်အလွှာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Upper Epidermis / Cuticle",
+          "Palisade Mesophyll",
+          "Spongy Mesophyll",
+          "Lower Epidermis (with Stomata)",
+        ],
+        bucketsMy: [
+          "အပေါ် Epidermis / Cuticle",
+          "Palisade Mesophyll",
+          "Spongy Mesophyll",
+          "အောက် Epidermis (Stomata ပါသော)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w11-sort-1",
+            labelEn:
+                "The waxy, transparent, waterproof outer layer at the top of the leaf",
+            labelMy:
+                "အရွက်ထိပ်ရှိ ဖယောင်းရေခံ၊ ပွင့်လင်းမြင်နိုင်သော အပြင်ဘက်အလွှာ",
+            correctBucketEn: "Upper Epidermis / Cuticle",
+            correctBucketMy: "အပေါ် Epidermis / Cuticle",
+          ),
+          SortingItem(
+            id: "igcsebio-w11-sort-2",
+            labelEn:
+                "Tightly packed, column-shaped cells with the most chloroplasts",
+            labelMy:
+                "Chloroplast အများဆုံးရှိသော ကျစ်လျစ်စွာ တနေ့ တောင်းပုံစံ ဆဲလ်များ",
+            correctBucketEn: "Palisade Mesophyll",
+            correctBucketMy: "Palisade Mesophyll",
+          ),
+          SortingItem(
+            id: "igcsebio-w11-sort-3",
+            labelEn:
+                "Irregularly shaped cells with large air spaces between them",
+            labelMy:
+                "ကြားရှိ လေအလွတ်နေရာကြီးများနှင့် မမှန်သော ပုံသဏ္ဌာန်ရှိသည့် ဆဲလ်များ",
+            correctBucketEn: "Spongy Mesophyll",
+            correctBucketMy: "Spongy Mesophyll",
+          ),
+          SortingItem(
+            id: "igcsebio-w11-sort-4",
+            labelEn:
+                "The layer containing most of the leaf's stomata and guard cells",
+            labelMy: "အရွက်၏ Stomata နှင့် Guard Cell အများစုပါဝင်သော အလွှာ",
+            correctBucketEn: "Lower Epidermis (with Stomata)",
+            correctBucketMy: "အောက် Epidermis (Stomata ပါသော)",
+          ),
+          SortingItem(
+            id: "igcsebio-w11-sort-5",
+            labelEn:
+                "The main site of photosynthesis, positioned to receive the most light",
+            labelMy:
+                "အလင်းအများဆုံး ရရှိနိုင်ရန် နေရာချထားသော Photosynthesis အဓိက ဖြစ်ပေါ်ရာနေရာ",
+            correctBucketEn: "Palisade Mesophyll",
+            correctBucketMy: "Palisade Mesophyll",
+          ),
+          SortingItem(
+            id: "igcsebio-w11-sort-6",
+            labelEn:
+                "The layer whose air spaces allow carbon dioxide to reach the mesophyll cells easily",
+            labelMy:
+                "ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို Mesophyll ဆဲလ်များထံ လွယ်ကူစွာ ရောက်ရှိနိုင်စေသော လေအလွတ်နေရာများပါဝင်သည့် အလွှာ",
+            correctBucketEn: "Spongy Mesophyll",
+            correctBucketMy: "Spongy Mesophyll",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri Nandar's Leaf Cross-Section",
+      titleMy: "စာဖတ်ခြင်း - သီရိနန္ဒာ၏ အရွက် ဖြတ်ပိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri Nandar's Leaf Cross-Section",
+        titleMy: "သီရိနန္ဒာ၏ အရွက် ဖြတ်ပိုင်း",
+        passageEn:
+            "Thiri Nandar's Biology class spent an afternoon examining a prepared microscope slide showing a thin cross-section of a leaf, and her teacher asked each student to identify and sketch every visible layer, starting from the top and working down. At the very top, Thiri Nandar noticed a thin, glassy layer with no visible cells inside it -- her teacher explained this was the waxy cuticle, sitting on top of the upper epidermis, and that its job was purely to reduce water loss from the leaf's surface, not to photosynthesise.\n\nJust below the epidermis, Thiri Nandar saw neat columns of tall, rectangular cells packed tightly together, each one crowded with small green circles. These were palisade mesophyll cells, and the green circles were chloroplasts -- her teacher pointed out that this layer being positioned right at the top of the leaf, closest to the sun, made sense given that photosynthesis needs light, and that packing so many chloroplasts into these cells maximised the leaf's ability to absorb that light.\n\nBelow the palisade layer, the cells looked completely different: loosely arranged, irregularly shaped, with large gaps of empty space between them. This was the spongy mesophyll, and Thiri Nandar's teacher explained that those large air spaces were not empty by accident -- they created a network of internal air channels connected to the stomata on the leaf's lower surface, allowing carbon dioxide to diffuse in and oxygen to diffuse out with very little resistance, since gases diffuse far more easily through air than through solid tissue. Finally, at the very bottom, Thiri Nandar identified pairs of bean-shaped guard cells surrounding small pores -- the stomata -- through which this gas exchange actually took place.",
+        passageMy:
+            "သီရိနန္ဒာ၏ ဇီဝဗေဒအတန်းသည် အရွက်တစ်ချပ်၏ ပါးလွှာသော ဖြတ်ပိုင်းကို ပြသသော ပြင်ဆင်ထားသည့် အဏုကြည့်မှန်ပြားကို နေ့လည်တစ်ခုလုံး စစ်ဆေးကြည့်ရှုခဲ့ရာ၊ ဆရာမက ကျောင်းသားတိုင်းအား အပေါ်ဆုံးမှ အစပြု၍ မြင်ကွင်းရှိ အလွှာတိုင်းကို ဖော်ထုတ်ပြီး ပုံဆွဲစေခဲ့သည်။ အထက်ဆုံးတွင် သီရိနန္ဒာသည် ဆဲလ်များ မြင်ရသော ပါးလွှာသည့် ဖန်ပွင့်လင်းမြင်ရသောအလွှာကို တွေ့ရှိခဲ့သည် -- ဆရာမက ၎င်းသည် အပေါ် Epidermis ပေါ်တွင်ရှိသော ဖယောင်းရေခံ Cuticle ဖြစ်ပြီး ၎င်း၏ အလုပ်မှာ Photosynthesis လုပ်ရန် မဟုတ်ဘဲ အရွက်၏ မျက်နှာပြင်မှ ရေဆုံးရှုံးမှုကို လျှော့ချရန်သာ ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။\n\nEpidermis ၏ ကနေ့ ချက်ချင်းအောက်တွင် သီရိနန္ဒာသည် အစိမ်းရောင် စက်ဝိုင်းငယ်များနှင့် ထူထပ်နေသော၊ ကျစ်လျစ်စွာ ထပ်ထားသော မြင့်မားသော၊ လေးထောင့်ကွက် ဆဲလ်တန်းစဉ်များကို တွေ့ရှိခဲ့သည်။ ၎င်းတို့သည် Palisade Mesophyll ဆဲလ်များဖြစ်ပြီး အစိမ်းရောင် စက်ဝိုင်းများသည် Chloroplast များ ဖြစ်သည် -- ဆရာမက ဤအလွှာကို အရွက်၏ အထက်ဆုံးတွင် နေနှင့် အနီးစပ်ဆုံး နေရာချထားခြင်းသည် Photosynthesis တွင် အလင်း လိုအပ်ကြောင်းနှင့် ကိုက်ညီပြီး၊ ဤဆဲလ်များထဲသို့ Chloroplast များစွာ ထည့်သွင်းထားခြင်းသည် အလင်းစုပ်ယူနိုင်စွမ်းကို အများဆုံး ဖြစ်စေကြောင်း ညွှန်ပြခဲ့သည်။\n\nPalisade အလွှာအောက်တွင် ဆဲလ်များသည် လုံးဝ ကွဲပြားစွာ ပေါ်ခဲ့သည်- ကျစ်ကျစ်မထားဘဲ၊ မမှန်သော ပုံသဏ္ဌာန်ရှိပြီး ၎င်းတို့ကြား လွတ်နေသော နေရာကြီးများ ရှိသည်။ ၎င်းသည် Spongy Mesophyll ဖြစ်ပြီး သီရိနန္ဒာ၏ ဆရာမက ထိုလေအလွတ်နေရာကြီးများသည် ကျပန်းလွတ်နေခြင်း မဟုတ်ဘဲ -- ၎င်းတို့သည် အရွက်၏ အောက်ဘက် မျက်နှာပြင်ရှိ Stomata များနှင့် ချိတ်ဆက်ထားသော အတွင်းလေလမ်းကြောင်း ကွန်ရက်တစ်ခုကို ဖန်တီးထားပြီး၊ ဓာတ်ငွေ့များသည် အခိုင်အမာသော တစ်ရှူးများထက် လေထဲတွင် ပိုမိုလွယ်ကူစွာ Diffuse ဖြစ်နိုင်သောကြောင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ် ဝင်ရောက်ခြင်းနှင့် အောက်ဆီဂျင် ထွက်ခွာခြင်းကို ခုခံမှု အနည်းငယ်မျှသာဖြင့် ခွင့်ပြုပေးကြောင်း ရှင်းပြခဲ့သည်။ နောက်ဆုံးတွင် အောက်ဆုံးအလွှာတွင် သီရိနန္ဒာသည် ပဲပုံသဏ္ဌာန်ရှိသော Guard Cell တွဲများ အပေါက်ငယ်များကို ဝန်းရံထားသည်ကို ဖော်ထုတ်ခဲ့သည် -- ၎င်းတို့သည် Stomata ဖြစ်ပြီး ဤဓာတ်ငွေ့ဖလှယ်မှု အမှန်တကယ် ဖြစ်ပေါ်ရာနေရာဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what is the main function of the cuticle?",
+            questionMy: "စာပိုဒ် ၁ အရ Cuticle ၏ အဓိကလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "To reduce water loss from the leaf's surface",
+              "To carry out photosynthesis",
+              "To absorb carbon dioxide",
+              "To transport glucose around the plant",
+            ],
+            optionsMy: [
+              "အရွက်မျက်နှာပြင်မှ ရေဆုံးရှုံးမှုကို လျှော့ချရန်",
+              "Photosynthesis ပြုလုပ်ရန်",
+              "ကာဗွန်ဒိုင်အောက်ဆိုဒ် စုပ်ယူရန်",
+              "ဂလူးကို့စ်ကို အပင်တစ်ဝန်း သယ်ဆောင်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The passage explicitly states the cuticle's job is 'purely' this one thing.",
+              "It does not photosynthesise.",
+            ],
+            hintsMy: [
+              "Cuticle ၏ အလုပ်သည် ဤတစ်ခုတည်း 'သာ' ဖြစ်ကြောင်း စာပိုဒ်က တိတိကျကျ ဖော်ပြထားသည်။",
+              "၎င်းသည် Photosynthesis မလုပ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does it make sense, according to paragraph 2, that palisade mesophyll is positioned near the top of the leaf?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ Palisade Mesophyll ကို အရွက်၏ ထိပ်ပိုင်းအနီးတွင် နေရာချထားခြင်းသည် အဘယ်ကြောင့် ကိုက်ညီသနည်း။",
+            optionsEn: [
+              "Photosynthesis needs light, so being closest to the sun maximises light absorption",
+              "It needs to be far from the roots",
+              "It keeps the leaf cooler",
+              "It is easier for insects to reach",
+            ],
+            optionsMy: [
+              "Photosynthesis တွင် အလင်းလိုအပ်သောကြောင့် နေနှင့် အနီးဆုံးရှိခြင်းက အလင်းစုပ်ယူမှုကို အများဆုံးဖြစ်စေသောကြောင့်",
+              "အမြစ်များနှင့် ဝေးဝေး ရှိရန် လိုအပ်သောကြောင့်",
+              "အရွက်ကို ပိုအေးစေသောကြောင့်",
+              "ပိုးမွှားများ ပို၍ ရောက်ရှိလွယ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence linking the layer's position to what photosynthesis needs.",
+              "The most chloroplasts are packed here specifically to catch the most sunlight.",
+            ],
+            hintsMy: [
+              "ဤအလွှာ၏ တည်နေရာကို Photosynthesis လိုအပ်ချက်နှင့် ဆက်စပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Chloroplast အများဆုံးကို နေရောင်ကို အများဆုံးဖမ်းယူနိုင်ရန် ဤနေရာတွင် ထည့်သွင်းထားခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why are the large air spaces in the spongy mesophyll useful?",
+            questionMy:
+                "Spongy Mesophyll ရှိ လေအလွတ်နေရာကြီးများ အဘယ်ကြောင့် အသုံးဝင်ကြောင်း စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They let gases diffuse easily to and from the stomata, since gases move faster through air than solid tissue",
+              "They make the leaf lighter so it can float on water",
+              "They store extra water for the plant",
+              "They protect the leaf from insects",
+            ],
+            optionsMy: [
+              "ဓာတ်ငွေ့များသည် အခိုင်အမာသော တစ်ရှူးများထက် လေထဲတွင် ပိုမြန်စွာ ရွေ့လျားသောကြောင့် Stomata သို့/မှ လွယ်ကူစွာ Diffuse ဖြစ်စေခြင်း",
+              "အရွက်ကို ပေါ့ပါးစေပြီး ရေပေါ်တွင် ပေါလောပေါ်နိုင်ရန်",
+              "အပင်အတွက် ရေအပို သိမ်းဆည်းရန်",
+              "အရွက်ကို ပိုးမွှားများမှ ကာကွယ်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the explanation about gases diffusing more easily through air than through solid tissue.",
+              "These air spaces connect internally to the stomata.",
+            ],
+            hintsMy: [
+              "ဓာတ်ငွေ့များသည် အခိုင်အမာသော တစ်ရှူးများထက် လေထဲတွင် ပိုမိုလွယ်ကူစွာ Diffuse ဖြစ်ကြောင်း ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤ လေအလွတ်နေရာများသည် Stomata များနှင့် အတွင်းပိုင်း ချိတ်ဆက်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What structure did Thiri Nandar identify at the very bottom of the leaf cross-section?",
+            questionMy:
+                "အရွက် ဖြတ်ပိုင်း၏ အောက်ဆုံးတွင် သီရိနန္ဒာ ဖော်ထုတ်ခဲ့သော ဖွဲ့စည်းပုံမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Guard cells surrounding the stomata",
+              "The waxy cuticle",
+              "Palisade mesophyll cells",
+              "Vascular bundles only",
+            ],
+            optionsMy: [
+              "Stomata ကို ဝန်းရံထားသော Guard Cells",
+              "ဖယောင်းရေခံ Cuticle",
+              "Palisade Mesophyll ဆဲလ်များ",
+              "Vascular Bundle များသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+              "These are bean-shaped cells surrounding small pores.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "၎င်းတို့သည် အပေါက်ငယ်များကို ဝန်းရံထားသော ပဲပုံသဏ္ဌာန်ရှိသော ဆဲလ်များ ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Photosynthesis and Leaf Structure",
+      titleMy:
+          "ဧကရာဇ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Photosynthesis နှင့် အရွက်ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which gas is a raw material for photosynthesis?",
+          questionMy:
+              "Photosynthesis အတွက် ကုန်ကြမ်းဖြစ်သော ဓာတ်ငွေ့မှာ အဘယ်နည်း",
+          optionsEn: ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+          optionsMy: [
+            "ကာဗွန်ဒိုင်အောက်ဆိုဒ်",
+            "အောက်ဆီဂျင်",
+            "နိုက်ထရိုဂျင်",
+            "ဟိုက်ဒရိုဂျင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which leaf layer contains the most chloroplasts?",
+          questionMy: "မည်သည့် အရွက်အလွှာတွင် Chloroplast အများဆုံး ပါဝင်သနည်း",
+          optionsEn: [
+            "Palisade mesophyll",
+            "Spongy mesophyll",
+            "Upper epidermis only",
+            "Lower epidermis only",
+          ],
+          optionsMy: [
+            "Palisade Mesophyll",
+            "Spongy Mesophyll",
+            "အပေါ် Epidermis သာ",
+            "အောက် Epidermis သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Stomata are mainly controlled by which structure?",
+          questionMy:
+              "Stomata များကို မည်သည့်ဖွဲ့စည်းပုံက အဓိက ထိန်းချုပ်သနည်း",
+          optionsEn: [
+            "Guard cells",
+            "Palisade cells",
+            "Xylem vessels",
+            "Root hair cells",
+          ],
+          optionsMy: [
+            "Guard Cells",
+            "Palisade Cells",
+            "Xylem Vessels",
+            "အမြစ်ဆံပင်ဆဲလ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 12 (Capstone): "Plant Nutrition Practical Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek12 = CourseWeekDef(
+  id: "course-igcse-bio-w12",
+  weekNumber: 12,
+  titleEn: "Plant Nutrition Practical Studio",
+  titleMy: "အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w12-d1",
+      dayNumber: 1,
+      titleEn: "Testing a Leaf for Starch",
+      titleMy: "အရွက်တစ်ချပ်ကို Starch အတွက် စမ်းသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the standard test for starch in a leaf, why is the leaf boiled in ethanol (in a water bath, not over a direct flame)?",
+          questionMy:
+              "အရွက်တွင် Starch အတွက် စံစမ်းသပ်မှုတွင် အရွက်ကို Ethanol ဖြင့် (ရေနွေးကန်တွင်၊ တိုက်ရိုက်မီးလျှံမပေါ်) ဘာကြောင့် ပြုတ်ရသနည်း။",
+          optionsEn: [
+            "To remove the green chlorophyll so the colour change with iodine is easier to see",
+            "To kill any insects on the leaf",
+            "To add more starch to the leaf",
+            "To make the leaf grow faster",
+          ],
+          optionsMy: [
+            "Iodine ဖြင့် အရောင်ပြောင်းလဲမှုကို ပို၍ မြင်လွယ်စေရန် အစိမ်းရောင် Chlorophyll ကို ဖယ်ရှားရန်",
+            "အရွက်ပေါ်ရှိ ပိုးမွှားများကို သတ်ရန်",
+            "အရွက်ထဲသို့ Starch ပို၍ ထည့်ရန်",
+            "အရွက်ကို ပို၍ မြန်စွာ ကြီးထွားစေရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A leaf's natural green colour would make it hard to see the blue-black colour change caused by iodine and starch.",
+            "Ethanol dissolves chlorophyll out of the leaf, leaving it pale/white.",
+          ],
+          hintsMy: [
+            "အရွက်၏ သဘာဝ အစိမ်းရောင်ကြောင့် Iodine နှင့် Starch ဖြစ်ပေါ်စေသော အပြာ-အနက်ရောင် အပြောင်းအလဲကို မြင်ရန် ခက်ခဲစေမည်။",
+            "Ethanol က Chlorophyll ကို အရွက်ထဲမှ ပျော်ဝင်ဖယ်ရှားစေပြီး ရွက်ကို ဖျော့လာစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is a boiled, decolourised leaf dipped briefly in hot water before adding iodine solution?",
+          questionMy:
+              "Iodine Solution မထည့်မီ ပြုတ်ပြီး အရောင်ဖယ်ရှားထားသော အရွက်ကို ရေနွေးထဲတွင် တိုတိုတိုငင် ဘာကြောင့် နှစ်ရသနည်း။",
+          optionsEn: [
+            "To soften the leaf, which has become brittle from the ethanol",
+            "To add back the chlorophyll that was removed",
+            "To destroy any remaining starch",
+            "To colour the leaf blue",
+          ],
+          optionsMy: [
+            "Ethanol ကြောင့် ကြွပ်ဆတ်လာသော အရွက်ကို ပျော့ပြောင်းစေရန်",
+            "ဖယ်ရှားထားသော Chlorophyll ကို ပြန်ထည့်ရန်",
+            "ကျန်ရှိနေသေးသော Starch ကို ဖျက်ဆီးရန်",
+            "အရွက်ကို အပြာရောင် သွင်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ethanol makes the leaf hard and brittle, which could tear when handled.",
+            "Hot water softens the leaf again so it can be spread out flat on a tile.",
+          ],
+          hintsMy: [
+            "Ethanol က အရွက်ကို မာကျော ကြွပ်ဆတ်စေပြီး ကိုင်တွယ်ရာတွင် စုတ်ပြတ်နိုင်သည်။",
+            "ရေနွေးက အရွက်ကို ပြန်ပျော့ပြောင်းစေသဖြင့် အင်ကြင်းပြားပေါ်တွင် ညီညီညာညာ ဖြန့်ချထားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A leaf tested with iodine solution stays orange-brown instead of turning blue-black. What does this tell you?",
+          questionMy:
+              "Iodine Solution ဖြင့် စမ်းသပ်ထားသော အရွက်တစ်ချပ်သည် အပြာ-အနက်သို့ မပြောင်းဘဲ လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေသည်။ ၎င်းက အဘယ်ကို ပြောပြနေသနည်း။",
+          optionsEn: [
+            "The leaf did not contain any starch",
+            "The leaf contained a very large amount of starch",
+            "The leaf was still green",
+            "The iodine solution was contaminated",
+          ],
+          optionsMy: [
+            "အရွက်တွင် Starch လုံးဝ မပါဝင်ခြင်း",
+            "အရွက်တွင် Starch အလွန်များစွာ ပါဝင်ခြင်း",
+            "အရွက်သည် အစိမ်းရောင် ဆက်ရှိနေခြင်း",
+            "Iodine Solution ညစ်ညမ်းနေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "No colour change with iodine means a negative result.",
+            "This is exactly the same logic used in the Term 2 food tests.",
+          ],
+          hintsMy: [
+            "Iodine တွင် အရောင်ပြောင်းလဲမှု မရှိခြင်းသည် Negative ရလဒ်ကို ဆိုလိုသည်။",
+            "ဤသည်မှာ ဒုတိယနှစ်ဝက် အစားအစာစမ်းသပ်မှုများတွင် သုံးခဲ့သည့် တွေးခေါ်ပုံနှင့် အတိအကျ တူညီသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Limiting Factors Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Limiting Factors ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w12-dm-1",
+          termEn: "Limiting factor",
+          termMy: "Limiting Factor",
+          matchEn:
+              "A factor that, when in short supply, restricts the rate of photosynthesis even if other factors are plentiful",
+          matchMy:
+              "ရှားပါးသောအခါ အခြားအချက်များ ပေါများသော်လည်း Photosynthesis နှုန်းကို ကန့်သတ်ပေးသော အချက်",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w12-dm-2",
+          termEn: "Light intensity",
+          termMy: "Light Intensity",
+          matchEn:
+              "One of the three main factors that can limit the rate of photosynthesis",
+          matchMy:
+              "Photosynthesis နှုန်းကို ကန့်သတ်နိုင်သော အဓိကအချက်သုံးမျိုးထဲမှ တစ်ခု",
+          colorValue: 0xFFFFC107,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w12-dm-3",
+          termEn: "Carbon dioxide concentration",
+          termMy: "Carbon Dioxide Concentration",
+          matchEn:
+              "A raw material for photosynthesis that can also act as a limiting factor if too low",
+          matchMy:
+              "နည်းလွန်းလျှင် Limiting Factor တစ်ခုအဖြစ်လည်း လုပ်ဆောင်နိုင်သော Photosynthesis ကုန်ကြမ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w12-dm-4",
+          termEn: "Destarching",
+          termMy: "Destarching",
+          matchEn:
+              "Leaving a plant in the dark for 24-48 hours before an experiment, so any existing starch is used up",
+          matchMy:
+              "စမ်းသပ်မှုမတိုင်မီ ရှိပြီးသား Starch ကုန်ဆုံးအောင် ၂၄-၄၈ နာရီ အမှောင်တွင် အပင်ကို ထားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Limiting Factor?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Limiting Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Light Intensity",
+          "Carbon Dioxide Concentration",
+          "Temperature",
+        ],
+        bucketsMy: [
+          "Light Intensity",
+          "Carbon Dioxide Concentration",
+          "Temperature",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w12-sort-1",
+            labelEn:
+                "A plant grown in a shaded corner of a room photosynthesises slowly, but speeds up when moved to a sunny windowsill",
+            labelMy:
+                "အခန်းအရိပ်ထဲတွင် စိုက်ထားသော အပင်တစ်ပင်သည် နှေးကွေးစွာ Photosynthesise ဖြစ်သော်လည်း နေရောင်ရသော ပြတင်းပေါက်သို့ ရွှေ့လိုက်လျှင် ပိုမြန်လာသည်",
+            correctBucketEn: "Light Intensity",
+            correctBucketMy: "Light Intensity",
+          ),
+          SortingItem(
+            id: "igcsebio-w12-sort-2",
+            labelEn:
+                "A greenhouse crop grows faster after extra CO2 gas is pumped into the air inside",
+            labelMy:
+                "အခန်းတွင်းသို့ CO2 ဓာတ်ငွေ့ အပို ထည့်သွင်းပြီးနောက် မြက်ခင်းအိမ်ရှိ သီးနှံသည် ပို၍ မြန်စွာ ကြီးထွားလာသည်",
+            correctBucketEn: "Carbon Dioxide Concentration",
+            correctBucketMy: "Carbon Dioxide Concentration",
+          ),
+          SortingItem(
+            id: "igcsebio-w12-sort-3",
+            labelEn:
+                "Photosynthesis rate drops sharply when the temperature falls close to freezing",
+            labelMy:
+                "အပူချိန်သည် အေးခဲအနီးသို့ ကျဆင်းလာသောအခါ Photosynthesis နှုန်း ချက်ချင်း ကျဆင်းသွားသည်",
+            correctBucketEn: "Temperature",
+            correctBucketMy: "Temperature",
+          ),
+          SortingItem(
+            id: "igcsebio-w12-sort-4",
+            labelEn:
+                "On a cloudy day, the amount of sunlight reaching the plant's leaves decreases",
+            labelMy:
+                "တိမ်လွှမ်းသောနေ့တွင် အပင်၏ အရွက်များထံ ရောက်ရှိသော နေရောင်ပမာဏ လျော့ကျသွားသည်",
+            correctBucketEn: "Light Intensity",
+            correctBucketMy: "Light Intensity",
+          ),
+          SortingItem(
+            id: "igcsebio-w12-sort-5",
+            labelEn:
+                "Photosynthesis rate increases when the enzymes involved work faster at a warmer temperature, up to their optimum",
+            labelMy:
+                "ပါဝင်သော အင်ဇိုင်းများသည် Optimum အထိ ပိုနွေးသော အပူချိန်တွင် ပိုမြန်စွာ အလုပ်လုပ်သောအခါ Photosynthesis နှုန်း တိုးလာသည်",
+            correctBucketEn: "Temperature",
+            correctBucketMy: "Temperature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Myat's Variegated Leaf",
+      titleMy: "စာဖတ်ခြင်း - ကောင်းမြတ်၏ အစိမ်း-အဖြူ ရောယှက် အရွက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Myat's Variegated Leaf",
+        titleMy: "ကောင်းမြတ်၏ အစိမ်း-အဖြူ ရောယှက် အရွက်",
+        passageEn:
+            "Kaung Myat's teacher brought in a variegated plant for the class practical -- one whose leaves had patches of white alongside the normal green, since the white patches lacked chlorophyll entirely. Before the experiment, the plant had been left in a dark cupboard for two full days, a process his teacher called destarching, so that any starch already stored in the leaves from earlier photosynthesis would be used up and none would be left to confuse the results.\n\nAfter destarching, the plant was placed in bright sunlight for several hours to allow photosynthesis to occur, then Kaung Myat's group picked one leaf and carried out the standard starch test: boiling it first in water, then in ethanol to remove all the chlorophyll (which conveniently made the whole leaf pale, so the white and green patches could no longer be told apart by colour alone), softening it in hot water, and finally flooding it with iodine solution on a white tile.\n\nThe result mapped out exactly where the leaf's original green patches had been: those areas turned a deep blue-black, showing starch was present, while the areas that had originally been white patches stayed orange-brown, showing no starch had formed there at all. Kaung Myat's group concluded that this proved chlorophyll is essential for photosynthesis to occur -- since the only difference between the two types of patches was the presence or absence of chlorophyll, and only the chlorophyll-containing regions had photosynthesised and produced starch.",
+        passageMy:
+            "ကောင်းမြတ်၏ ဆရာမက အတန်း လက်တွေ့အတွက် အစိမ်း-အဖြူ ရောယှက် အပင်တစ်ပင်ကို ယူဆောင်လာခဲ့သည် -- ၎င်း၏ အရွက်များတွင် ပုံမှန်အစိမ်းရောင်နှင့် အတူ အဖြူရောင် နေရာများ ရှိပြီး၊ အဖြူရောင် နေရာများတွင် Chlorophyll လုံးဝ မပါဝင်ခဲ့ပါ။ စမ်းသပ်မှု မတိုင်မီ အပင်ကို ရက်ပြည့် နှစ်ရက် အမှောင်ဗီရိုတွင် ထားခဲ့ပြီး၊ ဤဖြစ်စဉ်ကို ဆရာမက Destarching ဟု ခေါ်ခဲ့သည်၊ ရှေးကမူလ Photosynthesis မှ အရွက်များတွင် ရှိပြီးသား Starch ကို ကုန်ဆုံးစေရန်နှင့် ရလဒ်များကို ရှုပ်ထွေးစေမည့် Starch မကျန်ရှိစေရန် ရည်ရွယ်ခြင်း ဖြစ်သည်။\n\nDestarching ပြီးနောက် အပင်ကို Photosynthesis ဖြစ်ပေါ်စေရန် နေရောင်ထွန်းလင်းသော နေရာတွင် နာရီများစွာ ထားခဲ့ပြီး၊ ကောင်းမြတ်၏ အုပ်စုက အရွက်တစ်ချပ်ကို ခူးယူကာ စံ Starch စစ်ဆေးမှုကို ပြုလုပ်ခဲ့သည်- ပထမဆုံး ရေထဲတွင် ပြုတ်ပြီး၊ ထို့နောက် Chlorophyll အားလုံးကို ဖယ်ရှားရန် Ethanol ထဲတွင် ပြုတ်ခဲ့သည် (၎င်းက အရွက်တစ်ချပ်လုံးကို ဖျော့လာစေသောကြောင့် အဖြူနှင့်အစိမ်းရောင် နေရာများကို အရောင်တစ်ခုတည်းဖြင့် နောက်ထပ် ခွဲခြား၍မရနိုင်တော့ပါ)၊ ရေနွေးထဲတွင် ပြန်ပျော့ပြောင်းစေပြီး နောက်ဆုံးတွင် အင်ကြင်းပြားပေါ်တွင် Iodine Solution ဖြင့် လွှမ်းမိုးခဲ့သည်။\n\nရလဒ်သည် အရွက်၏ မူလ အစိမ်းရောင် နေရာများ ရှိရာကို အတိအကျ ဖော်ပြခဲ့သည်- ထိုနေရာများသည် အပြာနက်ရောင်သို့ ပြောင်းလဲသွားပြီး Starch ရှိနေကြောင်း ပြသခဲ့ပြီး၊ မူလ အဖြူရောင် နေရာများမူ လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေကာ ထိုနေရာများတွင် Starch လုံးဝ မဖြစ်ပေါ်ခဲ့ကြောင်း ပြသခဲ့သည်။ ကောင်းမြတ်၏ အုပ်စုက ဤအရာသည် Chlorophyll သည် Photosynthesis ဖြစ်ပေါ်ရန် မရှိမဖြစ် လိုအပ်ကြောင်း သက်သေပြသည်ဟု ကောက်ချက်ချခဲ့သည် -- အကြောင်းမှာ နေရာအမျိုးအစားနှစ်ခုကြား တစ်ခုတည်းသော ကွာခြားချက်မှာ Chlorophyll ရှိ/မရှိသာ ဖြစ်ပြီး၊ Chlorophyll ပါဝင်သော ဒေသများသာလျှင် Photosynthesise ဖြစ်ကာ Starch ထုတ်လုပ်ခဲ့သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why was the plant destarched before the experiment?",
+            questionMy:
+                "စမ်းသပ်မှုမတိုင်မီ အပင်ကို အဘယ်ကြောင့် Destarch လုပ်ခဲ့ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "So no leftover starch from earlier photosynthesis would confuse the results",
+              "To make the leaves grow faster",
+              "To kill the plant's chlorophyll",
+              "To make the leaves turn white permanently",
+            ],
+            optionsMy: [
+              "ရှေးကမူလ Photosynthesis မှ ကျန်ရှိနေသေးသော Starch က ရလဒ်များကို ရှုပ်ထွေးစေမည် မဟုတ်စေရန်",
+              "အရွက်များ ပို၍ မြန်စွာ ကြီးထွားလာစေရန်",
+              "အပင်၏ Chlorophyll ကို သတ်ရန်",
+              "အရွက်များကို အမြဲတမ်း အဖြူရောင် သွင်းရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the reason given directly after 'destarching' is defined.",
+              "Old starch left in the leaf could give a false positive result even without new photosynthesis.",
+            ],
+            hintsMy: [
+              "'Destarching' ကို အဓိပ္ပာယ်ဖွင့်ဆိုပြီးနောက် တိုက်ရိုက်ပေးထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အရွက်ထဲတွင် ကျန်ရှိနေသော Starch ဟောင်းသည် Photosynthesis အသစ် မရှိသော်လည်း False Positive ရလဒ် ပေးနိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was boiling the leaf in ethanol useful for reading the final result, in addition to removing chlorophyll?",
+            questionMy:
+                "Chlorophyll ဖယ်ရှားခြင်းအပြင် အရွက်ကို Ethanol ဖြင့် ပြုတ်ခြင်းသည် နောက်ဆုံးရလဒ် ဖတ်ရန် အဘယ်ကြောင့် အသုံးဝင်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It made the whole leaf pale, so white and green patches could no longer be distinguished by colour before the iodine test",
+              "It turned the leaf a permanent blue colour",
+              "It added starch evenly across the whole leaf",
+              "It made the leaf transparent so light could pass through",
+            ],
+            optionsMy: [
+              "အရွက်တစ်ချပ်လုံးကို ဖျော့လာစေသဖြင့် Iodine Test မတိုင်မီ အဖြူနှင့်အစိမ်းရောင် နေရာများကို အရောင်ဖြင့် နောက်ထပ် ခွဲခြားမရနိုင်တော့ပါ",
+              "အရွက်ကို အမြဲတမ်း အပြာရောင် သွင်းလိုက်သည်",
+              "အရွက်တစ်ချပ်လုံးတွင် Starch တစ်တန်းတည်း ထည့်သွင်းလိုက်သည်",
+              "အလင်းကို ထိုးဖောက်နိုင်ရန် အရွက်ကို ပွင့်လင်းမြင်နိုင်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the parenthetical explanation in paragraph 2 about why removing chlorophyll was 'convenient'.",
+              "Without removing the green colour, it would be hard to tell if a blue-black colour change had happened.",
+            ],
+            hintsMy: [
+              "Chlorophyll ဖယ်ရှားခြင်း 'အဆင်ပြေ' ကြောင်း စာပိုဒ် ၂ ၏ ကွင်းစကွင်းပိတ်ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အစိမ်းရောင်ကို မဖယ်ရှားလျှင် အပြာနက်ရောင် အပြောင်းအလဲ ဖြစ်ပေါ်ခဲ့မခဲ့ကို ခွဲခြားရန် ခက်ခဲစေမည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the originally white patches show when tested with iodine?",
+            questionMy:
+                "မူလ အဖြူရောင် နေရာများသည် Iodine ဖြင့် စမ်းသပ်ချိန်တွင် အဘယ်အရာကို ပြသခဲ့ကြောင်း စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They stayed orange-brown, showing no starch had formed there",
+              "They turned blue-black, showing lots of starch",
+              "They turned bright green again",
+              "They dissolved completely",
+            ],
+            optionsMy: [
+              "လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေခဲ့ပြီး Starch မဖြစ်ပေါ်ခဲ့ကြောင်း ပြသခဲ့သည်",
+              "အပြာနက်ရောင်သို့ ပြောင်းလဲသွားခဲ့ပြီး Starch များစွာကို ပြသခဲ့သည်",
+              "အစိမ်းလင်းရောင် ပြန်ဖြစ်လာခဲ့သည်",
+              "လုံးဝ ပျော်ဝင်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The white patches lacked chlorophyll, so they could not photosynthesise.",
+              "No photosynthesis means no starch was produced there.",
+            ],
+            hintsMy: [
+              "အဖြူရောင် နေရာများသည် Chlorophyll မပါဝင်သောကြောင့် Photosynthesise မဖြစ်နိုင်ခဲ့ပါ။",
+              "Photosynthesis မဖြစ်ခြင်းက ထိုနေရာတွင် Starch မထုတ်လုပ်ခဲ့ကြောင်း ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What conclusion did Kaung Myat's group reach from comparing the two types of patches?",
+            questionMy:
+                "နေရာအမျိုးအစားနှစ်ခုကို နှိုင်းယှဉ်ခြင်းမှ ကောင်းမြတ်၏ အုပ်စု မည်သည့်ကောက်ချက် ချခဲ့သနည်း။",
+            optionsEn: [
+              "Chlorophyll is essential for photosynthesis to occur",
+              "Iodine solution destroys chlorophyll",
+              "White patches always contain more starch than green patches",
+              "Destarching is unnecessary for this experiment",
+            ],
+            optionsMy: [
+              "Photosynthesis ဖြစ်ပေါ်ရန် Chlorophyll သည် မရှိမဖြစ် လိုအပ်ကြောင်း",
+              "Iodine Solution က Chlorophyll ကို ဖျက်ဆီးကြောင်း",
+              "အဖြူရောင်နေရာများတွင် အစိမ်းရောင်နေရာများထက် Starch ပို၍ အမြဲပါဝင်ကြောင်း",
+              "ဤစမ်းသပ်မှုအတွက် Destarching မလိုအပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining the group's conclusion.",
+              "The only difference between the patches was chlorophyll -- and only chlorophyll-containing areas photosynthesised.",
+            ],
+            hintsMy: [
+              "အုပ်စု၏ ကောက်ချက်ကို ရှင်းပြသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "နေရာများကြား တစ်ခုတည်းသော ကွာခြားချက်မှာ Chlorophyll ဖြစ်ပြီး -- Chlorophyll ပါဝင်သောနေရာများသာ Photosynthesise ဖြစ်ခဲ့သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Recap: Enzymes and Plant Nutrition",
+      titleMy:
+          "တတိယအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - အင်ဇိုင်းများနှင့် အပင် အာဟာရ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Enzymes speed up reactions without being...",
+          questionMy:
+              "အင်ဇိုင်းများသည် ...မဖြစ်ဘဲ တုံ့ပြန်မှုများကို မြန်ဆန်စေသည်",
+          optionsEn: [
+            "Used up or permanently changed",
+            "Made of protein",
+            "Specific to one substrate",
+            "Affected by temperature",
+          ],
+          optionsMy: [
+            "ကုန်ဆုံးခြင်း သို့မဟုတ် အမြဲတမ်းပြောင်းလဲခြင်း",
+            "ပရိုတင်းဖြင့် ဖွဲ့စည်းခြင်း",
+            "Substrate တစ်ခုတည်းအတွက် တိတိကျကျဖြစ်ခြင်း",
+            "အပူချိန်ကြောင့် သက်ရောက်ခံရခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which colour change with iodine solution shows starch is present?",
+          questionMy:
+              "Starch ရှိကြောင်း ပြသသော Iodine Solution ၏ အရောင်ပြောင်းလဲမှုမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Orange-brown to blue-black",
+            "Blue to brick-red",
+            "Blue to purple",
+            "Colourless to pink",
+          ],
+          optionsMy: [
+            "လိမ္မော်-အညို မှ အပြာ-အနက်",
+            "အပြာ မှ အုတ်ရောင်",
+            "အပြာ မှ ခရမ်း",
+            "အရောင်မရှိ မှ ပန်းရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is NOT one of the three main limiting factors of photosynthesis?",
+          questionMy:
+              "Photosynthesis ၏ အဓိက Limiting Factor သုံးမျိုးတွင် မပါဝင်သော အချက်မှာ အောက်ပါတို့အနက် အဘယ်နည်း",
+          optionsEn: [
+            "Soil colour",
+            "Light intensity",
+            "Carbon dioxide concentration",
+            "Temperature",
+          ],
+          optionsMy: [
+            "မြေဆီလွှာအရောင်",
+            "Light Intensity",
+            "Carbon Dioxide Concentration",
+            "Temperature",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which leaf structure has the largest air spaces, aiding gas diffusion?",
+          questionMy:
+              "မည်သည့် အရွက်ဖွဲ့စည်းပုံတွင် လေအလွတ်နေရာအကြီးဆုံးရှိပြီး ဓာတ်ငွေ့ Diffusion ကို ကူညီသနည်း",
+          optionsEn: [
+            "Spongy mesophyll",
+            "Palisade mesophyll",
+            "Upper epidermis",
+            "Cuticle",
+          ],
+          optionsMy: [
+            "Spongy Mesophyll",
+            "Palisade Mesophyll",
+            "အပေါ် Epidermis",
+            "Cuticle",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 3: "Enzymes and Plant Nutrition"
+// (Weeks 9-12)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm3 = CourseTermDef(
+  id: "course-igcse-bio-t3",
+  termNumber: 3,
+  titleEn: "Enzymes and Plant Nutrition",
+  titleMy: "အင်ဇိုင်းများနှင့် အပင် အာဟာရ",
+  certificateTitleEn: "Enzymes and Plant Nutrition",
+  certificateTitleMy: "အင်ဇိုင်းများနှင့် အပင် အာဟာရ",
+  weeks: [_igcseBioWeek9, _igcseBioWeek10, _igcseBioWeek11, _igcseBioWeek12],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-2
+/// The IGCSE Biology course's full-year pathway. Terms 1-3
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
-/// Movement In and Out of Cells and Biological Molecules, Weeks 5-8)
-/// are authored so far, following the blueprint at
-/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 3-9 are not yet
-/// authored. `terms` below intentionally lists only Terms 1-2, and
-/// `totalWeeks: 36` reflects the full planned year, following the same
-/// convention as every other in-progress pathway in this file.
+/// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
+/// Enzymes and Plant Nutrition, Weeks 9-12) are authored so far,
+/// following the blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`.
+/// Terms 4-9 are not yet authored. `terms` below intentionally lists
+/// only Terms 1-3, and `totalWeeks: 36` reflects the full planned year,
+/// following the same convention as every other in-progress pathway in
+/// this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   id: "course-igcse-biology",
   subject: "biology",
@@ -3923,9 +5611,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Terms 3-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Terms 4-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
-  terms: [igcseBiologyTerm1, igcseBiologyTerm2],
+  terms: [igcseBiologyTerm1, igcseBiologyTerm2, igcseBiologyTerm3],
 );
