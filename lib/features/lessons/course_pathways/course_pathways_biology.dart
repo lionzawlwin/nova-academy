@@ -2168,14 +2168,1752 @@ const CourseTermDef igcseBiologyTerm1 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 5: "Diffusion and Osmosis"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek5 = CourseWeekDef(
+  id: "course-igcse-bio-w5",
+  weekNumber: 5,
+  titleEn: "Diffusion and Osmosis",
+  titleMy: "ပျံ့နှံ့ခြင်း (Diffusion) နှင့် ရေစိမ့်ဝင်ခြင်း (Osmosis)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w5-d1",
+      dayNumber: 1,
+      titleEn: "What is Diffusion?",
+      titleMy: "ပျံ့နှံ့ခြင်း (Diffusion) ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following is the best definition of diffusion?",
+          questionMy:
+              "အောက်ပါတို့အနက် ပျံ့နှံ့ခြင်း (Diffusion) ၏ အကောင်းဆုံး အဓိပ္ပာယ်ဖွင့်ဆိုချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The net movement of particles from a region of higher concentration to a region of lower concentration, down a concentration gradient, due to the random movement of particles",
+            "The movement of water only, from a low concentration to a high concentration",
+            "The movement of particles that always requires energy from respiration",
+            "The movement of an entire organism from one place to another",
+          ],
+          optionsMy: [
+            "အမှုန်များ၏ ကျပန်းလှုပ်ရှားမှုကြောင့် သိပ်သည်းဆမြင့်ရာမှ သိပ်သည်းဆနိမ့်ရာသို့ သိပ်သည်းဆကွာဟမှု အတိုင်း အမှုန်များ၏ အသားတင် ရွေ့လျားမှု",
+            "ရေသာ သိပ်သည်းဆနိမ့်ရာမှ မြင့်ရာသို့ ရွေ့လျားခြင်း",
+            "အသက်ရှုခြင်းမှ စွမ်းအင် အမြဲလိုအပ်သော အမှုန်များ ရွေ့လျားခြင်း",
+            "သက်ရှိတစ်ကောင်လုံး တစ်နေရာမှ တစ်နေရာသို့ ရွေ့လျားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Diffusion is a passive process -- it does not use energy from respiration.",
+            "Particles move down their concentration gradient, from where there are more of them to where there are fewer.",
+          ],
+          hintsMy: [
+            "Diffusion သည် Passive ဖြစ်စဉ်ဖြစ်သည် -- အသက်ရှုခြင်းမှ စွမ်းအင် မသုံးပါ။",
+            "အမှုန်များသည် ၎င်းတို့၏ သိပ်သည်းဆကွာဟမှု အတိုင်း၊ များရာမှ နည်းရာသို့ ရွေ့လျားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these factors would INCREASE the rate of diffusion?",
+          questionMy:
+              "အောက်ပါ အကြောင်းရင်းများအနက် ပျံ့နှံ့နှုန်းကို မြှင့်တင်ပေးမည့်အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Increasing the temperature",
+            "Increasing the distance the particles must travel",
+            "Decreasing the concentration gradient",
+            "Decreasing the surface area available",
+          ],
+          optionsMy: [
+            "အပူချိန်ကို မြှင့်တင်ခြင်း",
+            "အမှုန်များ ခရီးသွားရမည့် အကွာအဝေးကို တိုးမြှင့်ခြင်း",
+            "သိပ်သည်းဆကွာဟမှုကို လျှော့ချခြင်း",
+            "ရရှိနိုင်သော မျက်နှာပြင်ဧရိယာကို လျှော့ချခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher temperature gives particles more kinetic energy, so they move around faster.",
+            "The other three options would all slow diffusion down, not speed it up.",
+          ],
+          hintsMy: [
+            "အပူချိန်မြင့်လျှင် အမှုန်များတွင် Kinetic Energy ပိုမိုရရှိပြီး ပိုမြန်စွာ လှုပ်ရှားကြသည်။",
+            "ကျန်ရွေးချယ်စရာသုံးခုစလုံးသည် Diffusion ကို လျှော့ချစေမည့် အချက်များဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the lungs, oxygen diffuses from the air in the alveoli into the blood. What must be true for this diffusion to happen?",
+          questionMy:
+              "အဆုတ်တွင် အောက်ဆီဂျင်သည် Alveoli အတွင်းရှိ လေမှ သွေးထဲသို့ ပျံ့နှံ့ဝင်ရောက်သည်။ ဤ Diffusion ဖြစ်ပေါ်ရန် အဘယ်အချက် မှန်ကန်ရမည်နည်း။",
+          optionsEn: [
+            "The concentration of oxygen in the alveolar air must be higher than in the blood",
+            "The concentration of oxygen in the blood must be higher than in the alveolar air",
+            "Oxygen must be actively pumped by the alveoli using ATP",
+            "The blood must be moving faster than the air",
+          ],
+          optionsMy: [
+            "Alveoli အတွင်းလေရှိ အောက်ဆီဂျင် သိပ်သည်းဆသည် သွေးထက် မြင့်ရမည်",
+            "သွေးထဲရှိ အောက်ဆီဂျင် သိပ်သည်းဆသည် Alveoli လေထက် မြင့်ရမည်",
+            "အောက်ဆီဂျင်ကို Alveoli က ATP သုံး၍ တက်ကြွစွာ ပို့ရမည်",
+            "သွေးသည် လေထက် ပိုမြန်စွာ စီးဆင်းနေရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Diffusion always moves particles from high concentration to low concentration.",
+            "For oxygen to diffuse INTO the blood, the blood must start with less oxygen than the air.",
+          ],
+          hintsMy: [
+            "Diffusion သည် အမှုန်များကို သိပ်သည်းဆမြင့်ရာမှ နိမ့်ရာသို့ အမြဲရွေ့လျားစေသည်။",
+            "အောက်ဆီဂျင် သွေးထဲသို့ ဝင်ရန်အတွက် သွေးတွင် လေထက် အောက်ဆီဂျင် နည်းရမည်ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Diffusion and Osmosis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Diffusion နှင့် Osmosis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w5-dm-1",
+          termEn: "Osmosis",
+          termMy: "ရေစိမ့်ဝင်ခြင်း (Osmosis)",
+          matchEn:
+              "The diffusion of water molecules from a region of higher water potential to a region of lower water potential, through a partially permeable membrane",
+          matchMy:
+              "အစိတ်ပိုင်း စိမ့်ဝင်နိုင်သော အမြှေးပါးတစ်ခုမှတစ်ဆင့် ရေအလားအလာ မြင့်ရာမှ နိမ့်ရာသို့ ရေမော်လီကျူးများ ပျံ့နှံ့ခြင်း",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w5-dm-2",
+          termEn: "Concentration gradient",
+          termMy: "သိပ်သည်းဆ ကွာဟမှု (Concentration Gradient)",
+          matchEn:
+              "The difference in the concentration of particles between two regions",
+          matchMy: "ဒေသနှစ်ခုကြား အမှုန်များ၏ သိပ်သည်းဆ ကွာခြားချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w5-dm-3",
+          termEn: "Partially permeable membrane",
+          termMy: "အစိတ်ပိုင်း စိမ့်ဝင်နိုင်သော အမြှေးပါး",
+          matchEn:
+              "A membrane that allows small molecules like water through, but not larger molecules",
+          matchMy:
+              "ရေကဲ့သို့ မော်လီကျူးသေးငယ်များကို ဖြတ်ခွင့်ပြုသော်လည်း ကြီးမားသော မော်လီကျူးများကို မဖြတ်ခွင့်ပြုသည့် အမြှေးပါး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w5-dm-4",
+          termEn: "Turgid",
+          termMy: "ရေဖောင်းနေခြင်း (Turgid)",
+          matchEn:
+              "A plant cell that has absorbed water by osmosis and become firm and swollen",
+          matchMy: "Osmosis ဖြင့် ရေစုပ်ယူပြီး မာကျောစွာ ဖောင်းလာသော အပင်ဆဲလ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w5-dm-5",
+          termEn: "Plasmolysis",
+          termMy: "ဆဲလ်အတွင်း အရည်ခန်းကျုံ့ခြင်း (Plasmolysis)",
+          matchEn:
+              "The shrinking of a plant cell's cytoplasm away from its cell wall after losing water by osmosis",
+          matchMy:
+              "Osmosis ဖြင့် ရေဆုံးရှုံးပြီးနောက် အပင်ဆဲလ်၏ ဆဲလ်ရည် ဆဲလ်နံရံမှ ခွာ၍ ကျုံ့ဝင်သွားခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w5-dm-6",
+          termEn: "Flaccid",
+          termMy: "နုံ့နဲ့ခြင်း (Flaccid)",
+          matchEn:
+              "A plant cell that has lost water by osmosis and become soft, with the cytoplasm no longer pressing firmly on the cell wall",
+          matchMy:
+              "Osmosis ဖြင့် ရေဆုံးရှုံးပြီး ပျော့ပျောင်းလာကာ ဆဲလ်ရည်က ဆဲလ်နံရံကို မာကျောစွာ မဖိအားပေးတော့သည့် အပင်ဆဲလ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Diffusion or Osmosis?",
+      titleMy: "စီစစ်ကြမည် - Diffusion လား Osmosis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["An Example of Diffusion", "An Example of Osmosis"],
+        bucketsMy: ["Diffusion ၏ ဥပမာ", "Osmosis ၏ ဥပမာ"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w5-sort-1",
+            labelEn: "A drop of ink spreading out through still water",
+            labelMy: "မင်စက်တစ်စက် ငြိမ်နေသောရေထဲတွင် ပျံ့နှံ့သွားခြင်း",
+            correctBucketEn: "An Example of Diffusion",
+            correctBucketMy: "Diffusion ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-2",
+            labelEn:
+                "Digested glucose molecules moving from the small intestine into the blood",
+            labelMy:
+                "အစာချေဖျက်ပြီး ဂလူးကို့စ်များ သိမ်ငယ်အူမှ သွေးထဲသို့ ရွေ့လျားခြင်း",
+            correctBucketEn: "An Example of Diffusion",
+            correctBucketMy: "Diffusion ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-3",
+            labelEn:
+                "A red blood cell placed in distilled water swelling and bursting",
+            labelMy:
+                "ဆီးချေးရည်ရေထဲတွင် ထားလိုက်သော သွေးနီဥ တစ်လုံး ဖောင်းကားပေါက်ကွဲသွားခြင်း",
+            correctBucketEn: "An Example of Osmosis",
+            correctBucketMy: "Osmosis ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-4",
+            labelEn: "Water moving from the soil into a plant's root hair cell",
+            labelMy: "မြေဆီလွှာရှိရေ အပင်၏ အမြစ်ဆံပင်ဆဲလ်ထဲသို့ ဝင်ရောက်ခြင်း",
+            correctBucketEn: "An Example of Osmosis",
+            correctBucketMy: "Osmosis ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-5",
+            labelEn: "Carbon dioxide diffusing out of a leaf cell into the air",
+            labelMy: "ကာဗွန်ဒိုင်အောက်ဆိုဒ် အရွက်ဆဲလ်မှ လေထဲသို့ ထွက်ခြင်း",
+            correctBucketEn: "An Example of Diffusion",
+            correctBucketMy: "Diffusion ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-6",
+            labelEn:
+                "A plant cell placed in concentrated salt solution becoming plasmolysed",
+            labelMy:
+                "စိုက်ဆားရည် ပြင်းသောရည်ထဲတွင် ထားလိုက်သော အပင်ဆဲလ် Plasmolysed ဖြစ်ခြင်း",
+            correctBucketEn: "An Example of Osmosis",
+            correctBucketMy: "Osmosis ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-7",
+            labelEn: "The smell of cooking spreading through a house",
+            labelMy: "ဟင်းချက်ရနံ့ အိမ်တစ်လျှောက် ပျံ့နှံ့သွားခြင်း",
+            correctBucketEn: "An Example of Diffusion",
+            correctBucketMy: "Diffusion ၏ ဥပမာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w5-sort-8",
+            labelEn:
+                "A wilted plant becoming firm again after its roots absorb water",
+            labelMy:
+                "ညှိုးနွမ်းနေသော အပင်တစ်ပင် အမြစ်များ ရေစုပ်ယူပြီးနောက် ပြန်၍ မာကျောလာခြင်း",
+            correctBucketEn: "An Example of Osmosis",
+            correctBucketMy: "Osmosis ၏ ဥပမာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Potato Experiment",
+      titleMy: "စာဖတ်ခြင်း - စုမြတ်နိုး၏ အာလူးစမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Potato Experiment",
+        titleMy: "စုမြတ်နိုး၏ အာလူးစမ်းသပ်မှု",
+        passageEn:
+            "For her Biology practical assignment, Su Myat Noe cut five identical chips from the same potato, measured and weighed each one carefully, then placed one chip into each of five test tubes containing sugar solutions of different concentrations -- from pure distilled water up to a very concentrated sugar solution. After thirty minutes, she removed each chip, gently blotted it dry, and measured its length and mass again.\n\nThe chip left in distilled water had grown slightly longer and heavier, and felt firm and stiff when she pressed it -- her teacher explained this meant the cell had absorbed water by osmosis and become turgid, since the water potential inside the potato cells was lower than the water potential of the pure water outside. The chip left in the most concentrated sugar solution, however, had shrunk and felt soft and floppy: its cells had lost water to the surrounding solution, since the water potential outside was now lower than inside the cells, and had become plasmolysed.\n\nSu Myat Noe plotted her results on a graph with sugar concentration on one axis and percentage change in mass on the other, and found the line crossed zero at one particular concentration -- the point where the solution's water potential exactly matched the water potential inside the potato cells, so no net movement of water occurred in either direction. Her teacher praised her for realising that this single experiment demonstrated osmosis, water potential gradients, and the difference between turgid and plasmolysed cells all at once.",
+        passageMy:
+            "စုမြတ်နိုး၏ ဇီဝဗေဒ လက်တွေ့လုပ်ငန်းအတွက် သူမသည် တူညီသော အာလူးတစ်လုံးတည်းမှ အာလူးချောင်း ၅ ချောင်းကို ဖြတ်ယူပြီး၊ တစ်ချောင်းစီကို သေချာစွာ တိုင်းတာချိန်ချိန်ပြီးနောက် သကြားရည် သိပ်သည်းဆ မတူညီသော ရေချိုးအိုးငယ် ၅ လုံးအတွင်း -- ဆီးချေးရေစင်စစ်မှ အလွန်ပြင်းသော သကြားရည်အထိ -- တစ်ချောင်းစီ ထည့်လိုက်သည်။ မိနစ် ၃၀ ကြာပြီးနောက် အာလူးချောင်းတစ်ခုစီကို ထုတ်ယူပြီး ဖျော့ဖျော့ညက်ညက် သုတ်သုတ်ခြောက်စေကာ အလျားနှင့် အလေးချိန်ကို ထပ်မံတိုင်းတာလိုက်သည်။\n\nဆီးချေးရေထဲတွင် ထားခဲ့သော အာလူးချောင်းသည် အနည်းငယ် ပိုရှည်ပြီး ပိုလေးလာကာ ဖိကြည့်လျှင် မာကျောစွာ ခံစားရသည် -- ဆရာမက ဤအရာသည် ဆဲလ်က Osmosis ဖြင့် ရေစုပ်ယူပြီး Turgid ဖြစ်လာကြောင်း ဆိုလိုကြောင်း ရှင်းပြသည်၊ အကြောင်းမှာ အာလူးဆဲလ်များ၏ အတွင်းရေအလားအလာသည် အပြင်ဘက် ရေစင်စစ်ထက် နိမ့်နေသောကြောင့် ဖြစ်သည်။ သို့သော် အပြင်းဆုံး သကြားရည်ထဲတွင် ထားခဲ့သော အာလူးချောင်းမူကား ကျုံ့သေးသွားပြီး ပျော့ပျောင်းစွာ ခံစားရသည် -- ၎င်း၏ ဆဲလ်များသည် ပတ်ဝန်းကျင်ရည်သို့ ရေဆုံးရှုံးခဲ့ရသည်၊ အကြောင်းမှာ အပြင်ဘက်ရေအလားအလာသည် ယခုအခါ ဆဲလ်အတွင်းထက် နိမ့်နေသောကြောင့်ဖြစ်ပြီး Plasmolysed ဖြစ်သွားခဲ့သည်။\n\nစုမြတ်နိုးသည် သူမ၏ ရလဒ်များကို သကြားရည်သိပ်သည်းဆကို တစ်ဘက်ဝင်ရိုးတွင်နှင့် အလေးချိန် ရာခိုင်နှုန်း အပြောင်းအလဲကို တစ်ဘက်ဝင်ရိုးတွင် ဂရပ်ဆွဲခဲ့ရာ မျဉ်းသည် အထူးသိပ်သည်းဆတစ်ခုတွင် သုညကို ဖြတ်သန်းသွားသည်ကို တွေ့ရှိခဲ့သည် -- ၎င်းသည် ရည်၏ ရေအလားအလာသည် အာလူးဆဲလ်အတွင်းရှိ ရေအလားအလာနှင့် အတိအကျ ညီမျှသွားသောနေရာ ဖြစ်ပြီး၊ ဒီနေရာတွင် ရေ ဘယ်ဘက်ကိုမှ အသားတင် ရွေ့လျားမှု မရှိတော့ပေ။ ဆရာမက ဤစမ်းသပ်မှု တစ်ခုတည်းက Osmosis၊ ရေအလားအလာကွာဟမှုနှင့် Turgid/Plasmolysed ဆဲလ်များ၏ ကွာခြားချက်ကို တစ်ပြိုင်နက် ဖော်ပြနိုင်ကြောင်း သိရှိခဲ့ရသဖြင့် သူမကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the chip in distilled water become turgid?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ ဆီးချေးရေထဲမှ အာလူးချောင်းသည် အဘယ်ကြောင့် Turgid ဖြစ်လာသနည်း။",
+            optionsEn: [
+              "The water potential inside the cells was lower than outside, so water entered by osmosis",
+              "The chip absorbed sugar from the water",
+              "The chip lost water to the surrounding solution",
+              "The water potential was equal inside and outside the cells",
+            ],
+            optionsMy: [
+              "ဆဲလ်အတွင်း ရေအလားအလာသည် အပြင်ဘက်ထက် နိမ့်နေသဖြင့် Osmosis ဖြင့် ရေဝင်ရောက်လာခြင်း",
+              "အာလူးချောင်းက ရေထဲမှ သကြားစုပ်ယူခြင်း",
+              "အာလူးချောင်းက ပတ်ဝန်းကျင်ရည်ဆီသို့ ရေဆုံးရှုံးခြင်း",
+              "ဆဲလ်အတွင်းနှင့်အပြင် ရေအလားအလာ ညီမျှနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Water always moves by osmosis from higher water potential to lower water potential.",
+              "Pure distilled water has a very high water potential.",
+            ],
+            hintsMy: [
+              "ရေသည် Osmosis ဖြင့် ရေအလားအလာမြင့်ရာမှ နိမ့်ရာသို့ အမြဲ ရွေ့လျားသည်။",
+              "ဆီးချေးရေစင်စစ်တွင် ရေအလားအလာ အလွန်မြင့်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What does 'plasmolysed' mean, based on paragraph 2?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ 'Plasmolysed' ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။",
+            optionsEn: [
+              "The cell's cytoplasm has shrunk away from the cell wall after losing water",
+              "The cell has absorbed too much water and become firm",
+              "The cell has divided into two new cells",
+              "The cell has produced more sugar than normal",
+            ],
+            optionsMy: [
+              "ဆဲလ်ရည်သည် ရေဆုံးရှုံးပြီးနောက် ဆဲလ်နံရံမှ ခွာကျုံ့သွားခြင်း",
+              "ဆဲလ်သည် ရေအလွန်အကျွံ စုပ်ယူပြီး မာကျောလာခြင်း",
+              "ဆဲလ်သည် ဆဲလ်နှစ်ခုအဖြစ် ကွဲထွက်ခြင်း",
+              "ဆဲလ်သည် ပုံမှန်ထက် သကြားပို၍ ထုတ်လုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second half of paragraph 2, describing the chip in the most concentrated solution.",
+              "This is the opposite of turgid.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၂ ၏ ဒုတိယတစ်ဝက်ကို ပြန်ဖတ်ကြည့်ပါ၊ အပြင်းဆုံးရည်ထဲမှ အာလူးချောင်းအကြောင်း ဖော်ပြထားသည်။",
+              "ဤသည်မှာ Turgid ၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the point where the graph line crossed zero represent?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ ဂရပ်မျဉ်း သုညကို ဖြတ်သန်းသွားသည့်နေရာသည် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+            optionsEn: [
+              "The concentration where the solution's water potential matched the potato cells' water potential",
+              "The concentration with the most sugar",
+              "The point where the potato chip dissolved completely",
+              "The starting concentration before the experiment began",
+            ],
+            optionsMy: [
+              "ရည်၏ ရေအလားအလာသည် အာလူးဆဲလ်၏ ရေအလားအလာနှင့် ညီမျှသည့် သိပ်သည်းဆ",
+              "သကြားအများဆုံးပါဝင်သော သိပ်သည်းဆ",
+              "အာလူးချောင်း လုံးဝပျော်ဝင်သွားသည့်အချက်",
+              "စမ်းသပ်မှု မစတင်မီ မူလသိပ်သည်းဆ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "At this point there was no net movement of water in or out of the cells.",
+              "This happens when the water potential is equal on both sides of the membrane.",
+            ],
+            hintsMy: [
+              "ဤအချက်တွင် ဆဲလ်ထဲသို့ ဝင်ခြင်း/ထွက်ခြင်း ရေ အသားတင် ရွေ့လျားမှု မရှိပါ။",
+              "ဤသည်မှာ အမြှေးပါး နှစ်ဖက်လုံးတွင် ရေအလားအလာ ညီမျှသောအခါ ဖြစ်ပေါ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the purpose of measuring the mass and length of each chip both before and after the experiment?",
+            questionMy:
+                "စမ်းသပ်မှု မတိုင်မီနှင့် ပြီးနောက် အာလူးချောင်းတစ်ခုစီ၏ အလေးချိန်နှင့် အလျားကို တိုင်းတာခြင်း၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "To calculate the change caused by osmosis in each solution",
+              "To check the chips were all the same colour",
+              "To find out how much sugar was in the potato",
+              "To time how fast each chip cooked",
+            ],
+            optionsMy: [
+              "ရည်တစ်ခုစီတွင် Osmosis ကြောင့် ဖြစ်ပေါ်သော အပြောင်းအလဲကို တွက်ချက်ရန်",
+              "အာလူးချောင်းများ အရောင်တူညီမှု ရှိမရှိ စစ်ဆေးရန်",
+              "အာလူးထဲတွင် သကြားဘယ်လောက်ပါသည်ကို ရှာဖွေရန်",
+              "အာလူးချောင်းတစ်ခုစီ ချက်ပြုတ်ချိန် တိုင်းတာရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Comparing 'before' and 'after' measurements is how you calculate a change.",
+              "A change in mass and length after osmosis shows whether water moved in or out.",
+            ],
+            hintsMy: [
+              "'မတိုင်မီ' နှင့် 'ပြီးနောက်' တိုင်းတာချက်များကို နှိုင်းယှဉ်ခြင်းသည် အပြောင်းအလဲကို တွက်ချက်ရာနည်းလမ်းဖြစ်သည်။",
+              "Osmosis ပြီးနောက် အလေးချိန်နှင့် အလျား အပြောင်းအလဲသည် ရေ ဝင်/ထွက် ရွေ့လျားမှုကို ပြသသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Diffusion and Osmosis",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Diffusion နှင့် Osmosis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Osmosis is a special case of diffusion. What makes it 'special'?",
+          questionMy:
+              "Osmosis သည် Diffusion ၏ အထူးကိစ္စတစ်ခု ဖြစ်သည်။ ၎င်းကို 'အထူး' ဖြစ်စေသည့်အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It specifically describes water moving through a partially permeable membrane",
+            "It only happens in animal cells, never plant cells",
+            "It always requires energy from ATP",
+            "It only happens to gases, never liquids",
+          ],
+          optionsMy: [
+            "အစိတ်ပိုင်း စိမ့်ဝင်နိုင်သော အမြှေးပါးမှတစ်ဆင့် ရေ ရွေ့လျားခြင်းကို တိတိကျကျ ဖော်ပြသောကြောင့်",
+            "တိရစ္ဆာန်ဆဲလ်တွင်သာ ဖြစ်ပွား၍ အပင်ဆဲလ်တွင် လုံးဝမဖြစ်ပွားသောကြောင့်",
+            "ATP မှ စွမ်းအင် အမြဲလိုအပ်သောကြောင့်",
+            "ဓာတ်ငွေ့တွင်သာ ဖြစ်ပွား၍ အရည်တွင် လုံးဝမဖြစ်ပွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A plant cell placed in pure water will become...",
+          questionMy: "ရေစင်စစ်ထဲတွင် ထားလိုက်သော အပင်ဆဲလ်သည် ...",
+          optionsEn: [
+            "Turgid, because water enters the cell by osmosis",
+            "Plasmolysed, because water leaves the cell",
+            "Unchanged, because plant cells cannot absorb water",
+            "Smaller, because the cell wall shrinks",
+          ],
+          optionsMy: [
+            "Turgid ဖြစ်လိမ့်မည်၊ အကြောင်းမှာ ရေသည် Osmosis ဖြင့် ဆဲလ်ထဲသို့ ဝင်ရောက်သောကြောင့်",
+            "Plasmolysed ဖြစ်လိမ့်မည်၊ အကြောင်းမှာ ရေသည် ဆဲလ်မှ ထွက်ခွာသောကြောင့်",
+            "မပြောင်းလဲပါ၊ အကြောင်းမှာ အပင်ဆဲလ်များသည် ရေကို စုပ်ယူ၍မရသောကြောင့်",
+            "ပိုသေးလာလိမ့်မည်၊ အကြောင်းမှာ ဆဲလ်နံရံ ကျုံ့သွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which pair correctly matches the factor with its effect on the rate of diffusion?",
+          questionMy:
+              "အောက်ပါတို့အနက် အကြောင်းရင်းနှင့် Diffusion နှုန်းအပေါ် သက်ရောက်မှုကို မှန်ကန်စွာ တွဲစပ်ထားသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Larger surface area -> faster diffusion",
+            "Larger surface area -> slower diffusion",
+            "Shorter distance -> slower diffusion",
+            "Steeper concentration gradient -> slower diffusion",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင်ဧရိယာ ပိုကြီး -> Diffusion ပိုမြန်",
+            "မျက်နှာပြင်ဧရိယာ ပိုကြီး -> Diffusion ပိုနှေး",
+            "အကွာအဝေး ပိုတို -> Diffusion ပိုနှေး",
+            "သိပ်သည်းဆကွာဟမှု ပိုပြင်းထန် -> Diffusion ပိုနှေး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Root hair cells absorbing water from moist soil is best described as...",
+          questionMy:
+              "အမြစ်ဆံပင်ဆဲလ်များသည် စိုစွတ်သော မြေဆီလွှာမှ ရေစုပ်ယူခြင်းကို အကောင်းဆုံး ဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "Osmosis, since the soil water has a higher water potential than the cell",
+            "Active transport, since it requires ATP",
+            "Diffusion of mineral ions, not water",
+            "A process that only happens in animal roots",
+          ],
+          optionsMy: [
+            "Osmosis ဖြစ်သည်၊ အကြောင်းမှာ မြေဆီလွှာရေသည် ဆဲလ်ထက် ရေအလားအလာ ပိုမြင့်သောကြောင့်",
+            "Active Transport ဖြစ်သည်၊ အကြောင်းမှာ ATP လိုအပ်သောကြောင့်",
+            "သတ္တု အိုင်းယွန်းများ၏ Diffusion ဖြစ်ပြီး ရေ မဟုတ်ပါ",
+            "တိရစ္ဆာန် အမြစ်များတွင်သာ ဖြစ်ပွားသော ဖြစ်စဉ်ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 6: "Active Transport"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek6 = CourseWeekDef(
+  id: "course-igcse-bio-w6",
+  weekNumber: 6,
+  titleEn: "Active Transport",
+  titleMy: "တက်ကြွစွာ သယ်ယူခြင်း (Active Transport)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w6-d1",
+      dayNumber: 1,
+      titleEn: "What is Active Transport?",
+      titleMy: "Active Transport ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following correctly describes active transport?",
+          questionMy:
+              "အောက်ပါတို့အနက် Active Transport ကို မှန်ကန်စွာ ဖော်ပြသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The movement of particles from a region of lower concentration to a region of higher concentration, using energy from respiration",
+            "The movement of particles from a region of higher concentration to a region of lower concentration, using no energy",
+            "The movement of water only, through a partially permeable membrane",
+            "The movement of an organism away from a harmful stimulus",
+          ],
+          optionsMy: [
+            "အသက်ရှုခြင်းမှ စွမ်းအင်ကို သုံး၍ အမှုန်များကို သိပ်သည်းဆနိမ့်ရာမှ မြင့်ရာသို့ ရွေ့လျားခြင်း",
+            "စွမ်းအင် လုံးဝမသုံးဘဲ အမှုန်များကို သိပ်သည်းဆမြင့်ရာမှ နိမ့်ရာသို့ ရွေ့လျားခြင်း",
+            "ရေသာ အစိတ်ပိုင်း စိမ့်ဝင်နိုင်သော အမြှေးပါးမှတစ်ဆင့် ရွေ့လျားခြင်း",
+            "သက်ရှိတစ်ကောင် အန္တရာယ်ရှိသော လှုံ့ဆော်မှုမှ ရှောင်ထွက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Active transport moves particles AGAINST their concentration gradient -- the opposite direction to diffusion.",
+            "Because it works against the gradient, active transport needs energy; diffusion and osmosis do not.",
+          ],
+          hintsMy: [
+            "Active Transport သည် အမှုန်များကို ၎င်းတို့၏ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်၍ ရွေ့လျားစေသည် -- Diffusion ၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။",
+            "ကွာဟမှုကို ဆန့်ကျင်ရသောကြောင့် Active Transport တွင် စွမ်းအင်လိုအပ်သည်၊ Diffusion နှင့် Osmosis တွင်မူ မလိုအပ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Where does the energy for active transport come from?",
+          questionMy:
+              "Active Transport အတွက် စွမ်းအင်ကို မည်သည့်နေရာမှ ရရှိသနည်း။",
+          optionsEn: [
+            "Respiration inside the cell, which produces ATP",
+            "Sunlight absorbed directly by the cell membrane",
+            "Heat energy from the surrounding environment",
+            "The concentration gradient itself",
+          ],
+          optionsMy: [
+            "ဆဲလ်အတွင်း အသက်ရှုခြင်းမှ ATP ထုတ်လုပ်ခြင်း",
+            "ဆဲလ်အမြှေးပါးက တိုက်ရိုက်စုပ်ယူသော နေရောင်",
+            "ပတ်ဝန်းကျင်မှ အပူစွမ်းအင်",
+            "သိပ်သည်းဆကွာဟမှု ကိုယ်တိုင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cells that carry out a lot of active transport, like root hair cells, have many mitochondria.",
+            "Mitochondria are the site of respiration, which releases energy as ATP.",
+          ],
+          hintsMy: [
+            "အမြစ်ဆံပင်ဆဲလ်ကဲ့သို့ Active Transport များစွာ ပြုလုပ်သော ဆဲလ်များတွင် Mitochondria များစွာ ရှိသည်။",
+            "Mitochondria သည် အသက်ရှုခြင်းဖြစ်ပေါ်ရာနေရာဖြစ်ပြီး ATP အဖြစ် စွမ်းအင်ထွက်ရှိစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Root hair cells often absorb nitrate ions from soil where the soil has a LOWER concentration of nitrate than the cell already does. How is this possible?",
+          questionMy:
+              "အမြစ်ဆံပင်ဆဲလ်များသည် ဆဲလ်ထက် နိုက်ထရိတ် သိပ်သည်းဆ နိမ့်သော မြေဆီလွှာမှ နိုက်ထရိတ်အိုင်းယွန်းများကို မကြာခဏ စုပ်ယူသည်။ ၎င်းသည် မည်သို့ ဖြစ်နိုင်သနည်း။",
+          optionsEn: [
+            "Protein carriers use energy to pump the ions in by active transport, against the concentration gradient",
+            "The ions diffuse in naturally, since diffusion always happens regardless of concentration",
+            "Osmosis carries the ions in along with water molecules",
+            "The soil concentration is actually always higher, so this scenario is impossible",
+          ],
+          optionsMy: [
+            "ပရိုတင်း Carrier များက သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်ပြီး Active Transport ဖြင့် အိုင်းယွန်းများကို ပို့ရန် စွမ်းအင်သုံးသည်",
+            "သိပ်သည်းဆနှင့် မသက်ဆိုင်ဘဲ Diffusion သည် အမြဲ ဖြစ်ပေါ်သောကြောင့် အိုင်းယွန်းများ သဘာဝအတိုင်း Diffuse ဝင်ခြင်း",
+            "Osmosis က ရေမော်လီကျူးများနှင့်အတူ အိုင်းယွန်းများကိုပါ သယ်ဆောင်ခြင်း",
+            "မြေဆီလွှာသိပ်သည်းဆသည် အမှန်တကယ် အမြဲပိုမြင့်နေသဖြင့် ဤအခြေအနေမှာ မဖြစ်နိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is moving AGAINST the concentration gradient (low to high), which diffusion cannot do.",
+            "Only active transport, using protein carriers and ATP energy, can move particles against a gradient.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်ခြင်း (နိမ့်မှမြင့်သို့) ဖြစ်ပြီး Diffusion က ဤသို့ မလုပ်နိုင်ပါ။",
+            "ပရိုတင်း Carrier များနှင့် ATP စွမ်းအင်သုံးသည့် Active Transport တစ်ခုတည်းသာ ကွာဟမှုကို ဆန့်ကျင်၍ အမှုန်များကို ရွှေ့နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Active Transport Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Active Transport ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w6-dm-1",
+          termEn: "ATP",
+          termMy: "ATP",
+          matchEn:
+              "The molecule produced by respiration that stores and releases usable energy for cell processes",
+          matchMy:
+              "အသက်ရှုခြင်းမှ ထုတ်လုပ်ပြီး ဆဲလ်ဖြစ်စဉ်များအတွက် အသုံးဝင်သော စွမ်းအင်ကို သိုလှောင်ပြီး ထုတ်ပေးသော မော်လီကျူး",
+          colorValue: 0xFFFF5722,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w6-dm-2",
+          termEn: "Protein carrier",
+          termMy: "ပရိုတင်း Carrier",
+          matchEn:
+              "A protein in the cell membrane that binds to a specific particle and pumps it across the membrane",
+          matchMy:
+              "ဆဲလ်အမြှေးပါးရှိ အထူးအမှုန်တစ်ခုနှင့် ဆက်သွယ်ပြီး အမြှေးပါးကို ဖြတ်၍ ပို့ဆောင်ပေးသော ပရိုတင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w6-dm-3",
+          termEn: "Root hair cell",
+          termMy: "အမြစ်ဆံပင်ဆဲလ်",
+          matchEn:
+              "A specialised plant cell with a long, thin extension that increases surface area for absorbing water and mineral ions",
+          matchMy:
+              "ရေနှင့် သတ္တု အိုင်းယွန်းများ စုပ်ယူရန် မျက်နှာပြင်ဧရိယာ တိုးမြှင့်ပေးသည့် ရှည်လျားပါးလွှာသော အထူးပြု အပင်ဆဲလ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w6-dm-4",
+          termEn: "Mitochondrion",
+          termMy: "Mitochondrion",
+          matchEn:
+              "The cell organelle where respiration takes place, releasing energy as ATP",
+          matchMy:
+              "အသက်ရှုခြင်း ဖြစ်ပေါ်ပြီး ATP အဖြစ် စွမ်းအင်ထုတ်ပေးသော ဆဲလ်ကလာပ်စည်း",
+          colorValue: 0xFFFFC107,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w6-dm-5",
+          termEn: "Against the concentration gradient",
+          termMy: "သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်",
+          matchEn:
+              "Movement from a region of low concentration to a region of high concentration",
+          matchMy: "သိပ်သည်းဆနိမ့်ရာမှ မြင့်ရာသို့ ရွေ့လျားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Passive or Active?",
+      titleMy: "စီစစ်ကြမည် - Passive လား Active လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Passive (No Energy Needed -- Diffusion/Osmosis)",
+          "Active (Needs Energy -- Active Transport)",
+        ],
+        bucketsMy: [
+          "Passive (စွမ်းအင် မလိုအပ် -- Diffusion/Osmosis)",
+          "Active (စွမ်းအင် လိုအပ် -- Active Transport)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w6-sort-1",
+            labelEn:
+                "Root hair cells absorbing nitrate ions from soil with a lower nitrate concentration than the cell",
+            labelMy:
+                "ဆဲလ်ထက် နိုက်ထရိတ် သိပ်သည်းဆ နိမ့်သော မြေဆီလွှာမှ အမြစ်ဆံပင်ဆဲလ်များ နိုက်ထရိတ် အိုင်းယွန်းများ စုပ်ယူခြင်း",
+            correctBucketEn: "Active (Needs Energy -- Active Transport)",
+            correctBucketMy: "Active (စွမ်းအင် လိုအပ် -- Active Transport)",
+          ),
+          SortingItem(
+            id: "igcsebio-w6-sort-2",
+            labelEn: "Oxygen diffusing from the alveoli into the blood",
+            labelMy: "Alveoli မှ သွေးထဲသို့ အောက်ဆီဂျင် Diffuse ဝင်ခြင်း",
+            correctBucketEn: "Passive (No Energy Needed -- Diffusion/Osmosis)",
+            correctBucketMy: "Passive (စွမ်းအင် မလိုအပ် -- Diffusion/Osmosis)",
+          ),
+          SortingItem(
+            id: "igcsebio-w6-sort-3",
+            labelEn:
+                "The kidney reabsorbing glucose from urine back into the blood against a concentration gradient",
+            labelMy:
+                "ကျောက်ကပ်က ဆီးထဲမှ ဂလူးကို့စ်ကို သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်၍ သွေးထဲသို့ ပြန်စုပ်ယူခြင်း",
+            correctBucketEn: "Active (Needs Energy -- Active Transport)",
+            correctBucketMy: "Active (စွမ်းအင် လိုအပ် -- Active Transport)",
+          ),
+          SortingItem(
+            id: "igcsebio-w6-sort-4",
+            labelEn: "Water entering a root hair cell from moist soil",
+            labelMy:
+                "စိုစွတ်သော မြေဆီလွှာမှ အမြစ်ဆံပင်ဆဲလ်ထဲသို့ ရေဝင်ရောက်ခြင်း",
+            correctBucketEn: "Passive (No Energy Needed -- Diffusion/Osmosis)",
+            correctBucketMy: "Passive (စွမ်းအင် မလိုအပ် -- Diffusion/Osmosis)",
+          ),
+          SortingItem(
+            id: "igcsebio-w6-sort-5",
+            labelEn: "Carbon dioxide diffusing out of respiring cells",
+            labelMy:
+                "အသက်ရှုနေသော ဆဲလ်များမှ ကာဗွန်ဒိုင်အောက်ဆိုဒ် Diffuse ထွက်ခြင်း",
+            correctBucketEn: "Passive (No Energy Needed -- Diffusion/Osmosis)",
+            correctBucketMy: "Passive (စွမ်းအင် မလိုအပ် -- Diffusion/Osmosis)",
+          ),
+          SortingItem(
+            id: "igcsebio-w6-sort-6",
+            labelEn:
+                "Nerve cells pumping sodium and potassium ions across the membrane using protein pumps",
+            labelMy:
+                "အာရုံကြောဆဲလ်များက ပရိုတင်း Pump များသုံး၍ ဆိုဒီယမ်နှင့် ပိုတက်စီယမ် အိုင်းယွန်းများကို အမြှေးပါးဖြတ်၍ ပို့ဆောင်ခြင်း",
+            correctBucketEn: "Active (Needs Energy -- Active Transport)",
+            correctBucketMy: "Active (စွမ်းအင် လိုအပ် -- Active Transport)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura Aung's Rice Field Question",
+      titleMy: "စာဖတ်ခြင်း - သူရအောင်၏ လယ်ကွက်ဆိုင်ရာ မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura Aung's Rice Field Question",
+        titleMy: "သူရအောင်၏ လယ်ကွက်ဆိုင်ရာ မေးခွန်း",
+        passageEn:
+            "Thura Aung's grandfather had grown rice for forty years in the fields outside their village, and one evening Thura Aung asked him a question that had been bothering him since Biology class: 'Grandfather, our soil is often quite poor in nutrients, so the nitrate concentration in the mud is usually lower than the concentration inside the rice roots already. How do the roots manage to take in more nitrate from soil that has less of it than the plant already has?' His grandfather smiled and said he had wondered the same thing as a young farmer, before a visiting agricultural officer explained it to him.\n\nThura Aung's Biology teacher answered the question properly the next day. She explained that if the roots relied on diffusion alone, nitrate would only ever move from high concentration to low concentration -- meaning it would leak OUT of the roots into the poor soil, not in. Instead, the root hair cells use special protein carriers embedded in their cell membranes, which act like tiny pumps. These pumps use energy released by respiration, in the form of ATP, to force nitrate ions into the cell against the concentration gradient -- a process called active transport.\n\nShe added that this was exactly why root hair cells are packed with an unusually large number of mitochondria compared to other plant cells: since pumping ions against a gradient is energetically expensive, the cell needs a constant, reliable supply of ATP from respiration to keep the protein pumps working. Thura Aung finally understood why his grandfather always said healthy roots need to 'breathe well' -- without enough oxygen for respiration, the roots could not generate enough ATP, and active transport of nitrate would slow down, leaving the rice plants short of the nutrients they needed to grow.",
+        passageMy:
+            "သူရအောင်၏ အဖိုးသည် ရွာအပြင်ဘက်ရှိ လယ်ကွက်များတွင် နှစ်ပေါင်း ၄၀ ဆန်စပါး စိုက်ပျိုးခဲ့သည်၊ တစ်ညနေ သူရအောင်သည် ဇီဝဗေဒအတန်းမှ စတင်စိတ်ညစ်စေခဲ့သော မေးခွန်းတစ်ခုကို အဖိုးအား မေးမြန်းခဲ့သည်- 'အဖိုးရေ၊ ကျွန်တော်တို့ မြေဆီလွှာသည် အစာရေစာ ဆင်းရဲသော်လည်း ရွှံ့ထဲက နိုက်ထရိတ် သိပ်သည်းဆသည် ဆန်စပါးအမြစ်ထဲက သိပ်သည်းဆထက် များသောအခါများစွာ ပိုနိမ့်ပါသည်။ အမြစ်များက ၎င်းတို့ထက် နိုက်ထရိတ် နည်းသော မြေဆီလွှာမှ နိုက်ထရိတ်ကို ပို၍ မည်သို့ ရယူနိုင်ပါသနည်း။' အဖိုးက ပြုံးပြီး လူငယ်လယ်သမားဘဝတုန်းက စိုက်ပျိုးရေးအရာရှိတစ်ဦး လာရောက်ရှင်းပြခြင်းမခံရမီ ၎င်းလည်း တူညီသောအရာကို တွေးတောခဲ့ဖူးကြောင်း ပြောပြသည်။\n\nနောက်တစ်နေ့ သူရအောင်၏ ဇီဝဗေဒဆရာမက မေးခွန်းကို မှန်ကန်စွာ ဖြေကြားပေးခဲ့သည်။ အမြစ်များသည် Diffusion တစ်ခုတည်းကိုသာ မှီခိုအားထားပါက၊ နိုက်ထရိတ်သည် သိပ်သည်းဆမြင့်ရာမှ နိမ့်ရာသို့သာ အမြဲ ရွေ့လျားမည်ဖြစ်ပြီး -- ဆိုလိုသည်မှာ ဆင်းရဲသော မြေဆီလွှာသို့ အမြစ်ထဲမှ ထွက်ပေါက်ကာ ဝင်ရောက်လာမည် မဟုတ်ဟု ဆိုလိုသည်ဟု ရှင်းပြသည်။ ယင်းအစား အမြစ်ဆံပင်ဆဲလ်များသည် ၎င်းတို့၏ ဆဲလ်အမြှေးပါးများတွင် တွယ်ကပ်နေသော ပန့်ငယ်လေးများကဲ့သို့ လုပ်ဆောင်သည့် အထူးပရိုတင်း Carrier များကို အသုံးပြုသည်။ ဤ Pump များသည် ATP အဖြစ် အသက်ရှုခြင်းမှ ထွက်ရှိသော စွမ်းအင်ကို သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်ကာ နိုက်ထရိတ် အိုင်းယွန်းများကို ဆဲလ်ထဲသို့ တွန်းသွင်းပေးသည် -- ဤဖြစ်စဉ်ကို Active Transport ဟု ခေါ်သည်။\n\nအခြားအပင်ဆဲလ်များနှင့်နှိုင်းယှဉ်လျှင် အမြစ်ဆံပင်ဆဲလ်များတွင် Mitochondria များစွာ ထူထပ်နေခြင်း၏ အကြောင်းရင်းမှာ ဤအချက်ကြောင့်ပင် ဖြစ်ကြောင်း ဆက်ရှင်းပြသည်- ကွာဟမှုကို ဆန့်ကျင်၍ အိုင်းယွန်းများကို ပို့ဆောင်ရန် စွမ်းအင် အလွန်များစွာ ကုန်ကျသောကြောင့်၊ ပရိုတင်း Pump များ ဆက်လက် အလုပ်လုပ်နိုင်ရန် ဆဲလ်တွင် အသက်ရှုခြင်းမှ ATP စဉ်ဆက်မပြတ် ယုံကြည်စိတ်ချရအောင် ထောက်ပံ့ပေးရန် လိုအပ်သည်။ သူရအောင်သည် အဖိုးက 'ကျန်းမာသော အမြစ်များသည် ကောင်းစွာ 'အသက်ရှူ' ရန် လိုသည်' ဟု အမြဲပြောလေ့ရှိသည့် အကြောင်းရင်းကို နောက်ဆုံးတွင် နားလည်လာခဲ့သည် -- အသက်ရှုခြင်းအတွက် အောက်ဆီဂျင် လုံလောက်စွာ မရရှိပါက အမြစ်များသည် ATP လုံလောက်စွာ မထုတ်လုပ်နိုင်ဘဲ၊ နိုက်ထရိတ်၏ Active Transport နှေးလာကာ ဆန်စပါးပင်များ ကြီးထွားရန် လိုအပ်သော အာဟာရများ ချို့တဲ့သွားနိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can't diffusion alone explain how nitrate enters the roots?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ Diffusion တစ်ခုတည်းက နိုက်ထရိတ် အမြစ်ထဲသို့ ဝင်ရောက်ပုံကို အဘယ်ကြောင့် ရှင်းပြ၍ မရနိုင်သနည်း။",
+            optionsEn: [
+              "Diffusion would move nitrate out of the roots, not in, since the roots already have a higher concentration",
+              "Diffusion is too slow for plants to use",
+              "Nitrate cannot diffuse through any membrane",
+              "Diffusion only works for gases, not ions",
+            ],
+            optionsMy: [
+              "အမြစ်များတွင် သိပ်သည်းဆ ပိုမြင့်နေပြီးဖြစ်သဖြင့် Diffusion သည် နိုက်ထရိတ်ကို အမြစ်ထဲမှ ထွက်စေလိမ့်မည်၊ ဝင်စေမည် မဟုတ်ပါ",
+              "အပင်များအတွက် Diffusion သည် အလွန်နှေးသောကြောင့်",
+              "နိုက်ထရိတ်သည် မည်သည့်အမြှေးပါးကိုမျှ Diffuse ဖြတ်၍မရနိုင်သောကြောင့်",
+              "Diffusion သည် ဓာတ်ငွေ့များအတွက်သာ အလုပ်လုပ်၍ အိုင်းယွန်းများအတွက် မလုပ်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Remember: diffusion always moves particles from high concentration to low concentration.",
+              "The roots already have MORE nitrate than the soil, so diffusion would work the wrong way.",
+            ],
+            hintsMy: [
+              "မှတ်ထားပါ- Diffusion သည် အမှုန်များကို သိပ်သည်းဆမြင့်ရာမှ နိမ့်ရာသို့ အမြဲ ရွေ့လျားစေသည်။",
+              "အမြစ်များတွင် မြေဆီလွှာထက် နိုက်ထရိတ် ပို၍ ရှိနှင့်ပြီးသားဖြစ်၍ Diffusion သည် ဆန့်ကျင်ဘက်သို့သာ အလုပ်လုပ်လိမ့်မည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In paragraph 2, what role do the protein carriers play?",
+            questionMy:
+                "စာပိုဒ် ၂ တွင် ပရိုတင်း Carrier များ၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "They act like pumps, using ATP energy to force nitrate ions into the cell against the gradient",
+              "They store water for the plant during droughts",
+              "They convert nitrate into oxygen for respiration",
+              "They allow water to evaporate faster from the leaves",
+            ],
+            optionsMy: [
+              "ATP စွမ်းအင်သုံး၍ ကွာဟမှုကို ဆန့်ကျင်ကာ နိုက်ထရိတ်အိုင်းယွန်းများကို ဆဲလ်ထဲသို့ တွန်းသွင်းပေးသည့် Pump များအလား လုပ်ဆောင်သည်",
+              "မိုးခေါင်ချိန်တွင် အပင်အတွက် ရေကို သိမ်းဆည်းပေးသည်",
+              "နိုက်ထရိတ်ကို အသက်ရှုခြင်းအတွက် အောက်ဆီဂျင်အဖြစ် ပြောင်းပေးသည်",
+              "အရွက်များမှ ရေငွေ့ပျံမှုကို ပိုမြန်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what the carriers do with ATP energy.",
+              "They are described as acting like 'tiny pumps'.",
+            ],
+            hintsMy: [
+              "Carrier များက ATP စွမ်းအင်ဖြင့် မည်သို့လုပ်ဆောင်ကြောင်း ဖော်ပြသောစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "'ပန့်ငယ်လေးများ' အလား လုပ်ဆောင်သည်ဟု ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why do root hair cells contain an unusually large number of mitochondria?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ အမြစ်ဆံပင်ဆဲလ်များတွင် Mitochondria များ အထူးအားဖြင့် ဘာကြောင့် များစွာ ပါဝင်သနည်း။",
+            optionsEn: [
+              "Active transport of ions requires a large, constant supply of ATP from respiration",
+              "Mitochondria help the roots absorb sunlight",
+              "Mitochondria store nitrate ions directly",
+              "Root hair cells do not actually need more mitochondria than other cells",
+            ],
+            optionsMy: [
+              "အိုင်းယွန်းများ၏ Active Transport သည် အသက်ရှုခြင်းမှ ATP အများကြီးနှင့် စဉ်ဆက်မပြတ် ထောက်ပံ့မှု လိုအပ်သောကြောင့်",
+              "Mitochondria က အမြစ်များအား နေရောင်ကို စုပ်ယူရန် ကူညီသောကြောင့်",
+              "Mitochondria က နိုက်ထရိတ် အိုင်းယွန်းများကို တိုက်ရိုက် သိမ်းဆည်းသောကြောင့်",
+              "အမြစ်ဆံပင်ဆဲလ်များတွင် အခြားဆဲလ်များထက် Mitochondria ပိုမလိုအပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Active transport is described as 'energetically expensive'.",
+              "Mitochondria are where respiration happens, producing the ATP that active transport needs.",
+            ],
+            hintsMy: [
+              "Active Transport ကို 'စွမ်းအင်သုံးစွဲမှု များစွာကုန်ကျ' ဟု ဖော်ပြထားသည်။",
+              "Mitochondria သည် Active Transport အတွက်လိုအပ်သော ATP ကို ထုတ်ပေးသည့် အသက်ရှုခြင်း ဖြစ်ပေါ်ရာနေရာဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 3, what would happen to active transport in the roots if the soil became waterlogged and short of oxygen?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ မြေဆီလွှာသည် ရေလွှမ်းမိုးပြီး အောက်ဆီဂျင် ရှားပါးလာပါက အမြစ်များရှိ Active Transport တွင် အဘယ်အရာ ဖြစ်လာမည်နည်း။",
+            optionsEn: [
+              "It would slow down, since less oxygen means less respiration and less ATP",
+              "It would speed up, since the plant would work harder to compensate",
+              "It would be unaffected, since active transport does not need oxygen",
+              "It would switch to using diffusion instead",
+            ],
+            optionsMy: [
+              "အောက်ဆီဂျင်နည်းလျှင် အသက်ရှုခြင်း နည်းပြီး ATP နည်းသဖြင့် နှေးလာလိမ့်မည်",
+              "အပင်က ပြန်လျော်ညီအောင် ပို၍ကြိုးစားသဖြင့် ပိုမြန်လာလိမ့်မည်",
+              "Active Transport တွင် အောက်ဆီဂျင် မလိုအပ်သဖြင့် မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိပါ",
+              "Diffusion ကို အစားထိုး အသုံးပြုလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Respiration needs oxygen, and active transport needs ATP from respiration.",
+              "The passage explicitly says roots need to 'breathe well' for active transport to work.",
+            ],
+            hintsMy: [
+              "အသက်ရှုခြင်းတွင် အောက်ဆီဂျင် လိုအပ်ပြီး Active Transport တွင် အသက်ရှုခြင်းမှ ATP လိုအပ်သည်။",
+              "အမြစ်များ Active Transport အလုပ်လုပ်ရန် 'ကောင်းစွာ အသက်ရှူ' ရမည်ဖြစ်ကြောင်း ဖော်ပြထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Active Transport",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Active Transport",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between active transport and diffusion?",
+          questionMy:
+              "Active Transport နှင့် Diffusion ကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Active transport moves particles against the concentration gradient and needs energy; diffusion does not",
+            "Diffusion only happens in plants; active transport only happens in animals",
+            "Active transport is always faster than diffusion",
+            "There is no real difference between the two processes",
+          ],
+          optionsMy: [
+            "Active Transport သည် သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်၍ ရွေ့လျားပြီး စွမ်းအင်လိုအပ်သည်၊ Diffusion တွင်မူ မလိုအပ်ပါ",
+            "Diffusion သည် အပင်များတွင်သာ ဖြစ်ပွား၍ Active Transport သည် တိရစ္ဆာန်များတွင်သာ ဖြစ်ပွားသည်",
+            "Active Transport သည် Diffusion ထက် အမြဲပိုမြန်သည်",
+            "ဤဖြစ်စဉ်နှစ်ခုကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which cell structure is most closely linked to providing energy for active transport?",
+          questionMy:
+              "Active Transport အတွက် စွမ်းအင်ပေးရန် အနီးစပ်ဆုံး ဆက်စပ်နေသော ဆဲလ်ဖွဲ့စည်းပုံမှာ အဘယ်နည်း။",
+          optionsEn: ["Mitochondrion", "Cell wall", "Vacuole", "Chloroplast"],
+          optionsMy: ["Mitochondrion", "ဆဲလ်နံရံ", "Vacuole", "Chloroplast"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Protein carriers involved in active transport are best described as...",
+          questionMy:
+              "Active Transport တွင် ပါဝင်သော ပရိုတင်း Carrier များကို အကောင်းဆုံး ဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "Pumps in the cell membrane that use ATP to move specific particles across",
+            "Structures found only in the nucleus",
+            "Sugars that provide energy directly",
+            "Pores that let any molecule pass through freely",
+          ],
+          optionsMy: [
+            "အထူးအမှုန်များကို ATP သုံး၍ ဖြတ်ပို့ပေးသော ဆဲလ်အမြှေးပါးရှိ Pump များ",
+            "နျူကလိယပ်စ်တွင်သာ တွေ့ရသော ဖွဲ့စည်းပုံများ",
+            "စွမ်းအင်ကို တိုက်ရိုက်ပေးသော သကြားများ",
+            "မည်သည့် မော်လီကျူးမဆို လွတ်လပ်စွာ ဖြတ်သန်းခွင့်ပြုသော အပေါက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 7: "Biological Molecules and Food Tests"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek7 = CourseWeekDef(
+  id: "course-igcse-bio-w7",
+  weekNumber: 7,
+  titleEn: "Biological Molecules and Food Tests",
+  titleMy: "ဇီဝ မော်လီကျူးများနှင့် အစားအစာ စမ်းသပ်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w7-d1",
+      dayNumber: 1,
+      titleEn: "The Building Blocks of Life",
+      titleMy: "အသက်ရှင်ခြင်း၏ ဓာတုအခြေခံ တည်ဆောက်ပုံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Carbohydrates are built from repeating units of...",
+          questionMy:
+              "ကာဗိုဟိုက်ဒရိတ်များသည် ထပ်ခါထပ်ခါ ရှိနေသော ...မှ တည်ဆောက်ထားသည်",
+          optionsEn: [
+            "Simple sugars (such as glucose)",
+            "Amino acids",
+            "Fatty acids and glycerol",
+            "Water molecules",
+          ],
+          optionsMy: [
+            "ရိုးရှင်းသော သကြားများ (ဂလူးကို့စ်ကဲ့သို့)",
+            "အမိုင်နိုအက်ဆစ်များ",
+            "Fatty acids နှင့် Glycerol",
+            "ရေမော်လီကျူးများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Starch and glycogen are both large carbohydrates made of many smaller units joined together.",
+            "That smaller repeating unit is a simple sugar, glucose.",
+          ],
+          hintsMy: [
+            "Starch နှင့် Glycogen နှစ်ခုလုံးသည် အသေးငယ်တစ်ခုနှင့်တစ်ခု ဆက်စပ်ထားသော ကြီးမားသော ကာဗိုဟိုက်ဒရိတ်များဖြစ်သည်။",
+            "ထိုအသေးငယ် ထပ်ခါထပ်ခါ ရှိနေသော ယူနစ်မှာ ရိုးရှင်းသောသကြား ဂလူးကို့စ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Proteins are made up of long chains of...",
+          questionMy:
+              "ပရိုတင်းများသည် ရှည်လျားသော ...ကွင်းဆက်များဖြင့် ဖွဲ့စည်းထားသည်",
+          optionsEn: [
+            "Amino acids",
+            "Glucose molecules",
+            "Fatty acids",
+            "Nitrogen atoms only",
+          ],
+          optionsMy: [
+            "အမိုင်နိုအက်ဆစ်များ",
+            "ဂလူးကို့စ် မော်လီကျူးများ",
+            "Fatty acids များ",
+            "နိုက်ထရိုဂျင် အက်တမ်များသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "There are about twenty different types of this building block found in the human body.",
+            "Long chains of these fold up to form a protein's final shape.",
+          ],
+          hintsMy: [
+            "လူ့ခန္ဓာကိုယ်တွင် ဤတည်ဆောက်ပုံ အမျိုးအစား အလုံးဆယ်ခန့် ရှိသည်။",
+            "ဤအရာများ၏ ရှည်လျားသောကွင်းဆက်များသည် ခေါက်ချိုးလိမ်၍ ပရိုတင်း၏ နောက်ဆုံးပုံသဏ္ဌာန်ကို ဖွဲ့စည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following best explains why water is described as a good solvent for many biological reactions?",
+          questionMy:
+              "ဇီဝဓာတုတုံ့ပြန်မှုများစွာအတွက် ရေကို ကောင်းမွန်သော solvent တစ်ခုအဖြစ် ဖော်ပြရသည့် အကြောင်းရင်းကို အောက်ပါတို့အနက် အကောင်းဆုံး ရှင်းပြသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Many important substances can dissolve in it, allowing them to be transported and to react together",
+            "It never reacts with any other substance",
+            "It is the only molecule found in living cells",
+            "It always stays at the same temperature",
+          ],
+          optionsMy: [
+            "အရေးကြီးသော ပစ္စည်းအမျိုးမျိုးကို ဖျော်ဝင်နိုင်စေပြီး ၎င်းတို့ကို သယ်ယူနိုင်ရုံသာမက အတူတကွ ဓာတ်ပြုနိုင်စေသောကြောင့်",
+            "အခြားပစ္စည်းများနှင့် လုံးဝ ဓာတ်မပြုသောကြောင့်",
+            "သက်ရှိဆဲလ်များတွင် တွေ့ရှိရသော တစ်ခုတည်းသော မော်လီကျူးဖြစ်သောကြောင့်",
+            "အမြဲ အပူချိန်တူညီနေသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about how substances travel around the body, e.g. dissolved in blood plasma.",
+            "A solvent is a substance that other things can dissolve in.",
+          ],
+          hintsMy: [
+            "ပစ္စည်းများသည် ခန္ဓာကိုယ်တစ်ဝန်း မည်သို့ သယ်ယူဆောင်ရွက်ကြောင်း စဉ်းစားကြည့်ပါ၊ ဥပမာ သွေးရည်ကြည်တွင် ပျော်ဝင်ခြင်း။",
+            "Solvent ဆိုသည်မှာ အခြားအရာများ ပျော်ဝင်နိုင်သော ပစ္စည်းတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Biological Molecule Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇီဝ မော်လီကျူး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w7-dm-1",
+          termEn: "Glucose",
+          termMy: "ဂလူးကို့စ် (Glucose)",
+          matchEn:
+              "A simple sugar that is the basic building block of starch and glycogen",
+          matchMy:
+              "Starch နှင့် Glycogen ၏ အခြေခံ တည်ဆောက်ပုံ ဖြစ်သော ရိုးရှင်းသောသကြား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w7-dm-2",
+          termEn: "Amino acid",
+          termMy: "အမိုင်နိုအက်ဆစ် (Amino Acid)",
+          matchEn:
+              "The basic building block that joins together in long chains to form a protein",
+          matchMy:
+              "ပရိုတင်းတစ်ခု ဖွဲ့စည်းရန် ရှည်လျားသောကွင်းဆက်ဖြင့် ပေါင်းစည်းသော အခြေခံ တည်ဆောက်ပုံ",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w7-dm-3",
+          termEn: "Fatty acid and glycerol",
+          termMy: "Fatty Acid နှင့် Glycerol",
+          matchEn:
+              "The two building blocks that join together to form a lipid (fat or oil)",
+          matchMy:
+              "Lipid (အဆီ သို့မဟုတ် ဆီ) တစ်ခု ဖွဲ့စည်းရန် ပေါင်းစည်းသော တည်ဆောက်ပုံနှစ်မျိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w7-dm-4",
+          termEn: "Solvent",
+          termMy: "Solvent",
+          matchEn:
+              "A substance, such as water, in which other substances can dissolve",
+          matchMy: "အခြားပစ္စည်းများ ပျော်ဝင်နိုင်သော ရေကဲ့သို့သော ပစ္စည်း",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w7-dm-5",
+          termEn: "Starch",
+          termMy: "Starch",
+          matchEn:
+              "A large carbohydrate made of many glucose molecules joined together, used by plants to store energy",
+          matchMy:
+              "အပင်များက စွမ်းအင်သိုလှောင်ရန် သုံးသော ဂလူးကို့စ် မော်လီကျူးများစွာ ပေါင်းစည်းထားသည့် ကြီးမားသော ကာဗိုဟိုက်ဒရိတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w7-dm-6",
+          termEn: "Lipid",
+          termMy: "Lipid",
+          matchEn: "A fat or oil, used by organisms mainly as an energy store",
+          matchMy:
+              "သက်ရှိများက စွမ်းအင်သိုလှောင်ရန် အဓိကသုံးသော အဆီ သို့မဟုတ် ဆီ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Nutrient Group?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် အာဟာရအုပ်စု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Mainly Carbohydrate",
+          "Mainly Protein",
+          "Mainly Lipid (Fat)",
+        ],
+        bucketsMy: [
+          "အဓိက ကာဗိုဟိုက်ဒရိတ်",
+          "အဓိက ပရိုတင်း",
+          "အဓိက Lipid (အဆီ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w7-sort-1",
+            labelEn: "White rice",
+            labelMy: "ဆန်ဖြူ",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "အဓိက ကာဗိုဟိုက်ဒရိတ်",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-2",
+            labelEn: "Grilled fish",
+            labelMy: "ငါးကင်",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "အဓိက ပရိုတင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-3",
+            labelEn: "Cooking oil",
+            labelMy: "ချက်ပြုတ်ဆီ",
+            correctBucketEn: "Mainly Lipid (Fat)",
+            correctBucketMy: "အဓိက Lipid (အဆီ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-4",
+            labelEn: "Boiled eggs",
+            labelMy: "ကြက်ဥပြုတ်",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "အဓိက ပရိုတင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-5",
+            labelEn: "White bread",
+            labelMy: "ပေါင်မုန့်ဖြူ",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "အဓိက ကာဗိုဟိုက်ဒရိတ်",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-6",
+            labelEn: "Butter",
+            labelMy: "ထောပတ်",
+            correctBucketEn: "Mainly Lipid (Fat)",
+            correctBucketMy: "အဓိက Lipid (အဆီ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-7",
+            labelEn: "Boiled chickpeas",
+            labelMy: "ကုလားပဲပြုတ်",
+            correctBucketEn: "Mainly Protein",
+            correctBucketMy: "အဓိက ပရိုတင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w7-sort-8",
+            labelEn: "Granulated sugar",
+            labelMy: "သကြားသဲ",
+            correctBucketEn: "Mainly Carbohydrate",
+            correctBucketMy: "အဓိက ကာဗိုဟိုက်ဒရိတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hnin Ei Ei's Kitchen Science",
+      titleMy: "စာဖတ်ခြင်း - နှင်းအိအိ၏ မီးဖိုချောင် သိပ္ပံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hnin Ei Ei's Kitchen Science",
+        titleMy: "နှင်းအိအိ၏ မီးဖိုချောင် သိပ္ပံ",
+        passageEn:
+            "Hnin Ei Ei loved helping her mother cook on weekends, but after a week of Biology lessons on nutrients, she started noticing the kitchen differently. While washing rice, she thought about how each tiny white grain was mostly starch -- a large carbohydrate built from thousands of glucose molecules joined end to end, which the plant used to store energy in its seeds. She realised this was exactly why rice, bread, and potatoes were all described as 'carbohydrate-rich' foods: they were all storing the same basic building block, glucose, just packaged differently.\n\nWhen her mother handed her a bowl of soaked chickpeas to add to the curry, Hnin Ei Ei remembered that beans and pulses are known for being protein-rich. Her teacher had explained that proteins are built from long chains of amino acids, and unlike carbohydrates and fats, proteins always contain nitrogen as well as carbon, hydrogen, and oxygen -- which is why foods like beans, fish, and eggs are especially important for growth and repairing damaged tissue in the body.\n\nFinally, as the cooking oil sizzled in the wok, Hnin Ei Ei asked her mother why oil left such a different, greasy mark on paper compared to water. Her mother didn't know the biological answer, but Hnin Ei Ei remembered from class that lipids -- fats and oils -- are made from fatty acids joined to glycerol, and unlike carbohydrates and proteins, they don't dissolve in water at all. That single property, she realised, was exactly what the food tests they were about to learn in the next lesson would rely on to identify lipids in unknown food samples.",
+        passageMy:
+            "နှင်းအိအိသည် စနေ၊ တနင်္ဂနွေများတွင် အမေနှင့်အတူ ချက်ပြုတ်ရန် ကူညီရသည်ကို နှစ်သက်ခဲ့သော်လည်း၊ အာဟာရအကြောင်း ဇီဝဗေဒသင်ခန်းစာတစ်ပတ်လုံးနောက်ပိုင်း၊ သူမသည် မီးဖိုချောင်ကို မတူညီစွာ သတိထားမိလာခဲ့သည်။ ဆန်ဆေးနေစဉ် ဆန်စေ့သေးလေးတစ်ခုစီသည် အဓိကအားဖြင့် Starch ဖြစ်ကြောင်း -- အပင်က ၎င်း၏ မျိုးစေ့များတွင် စွမ်းအင်သိုလှောင်ရန် သုံးသော ဂလူးကို့စ်မော်လီကျူး ထောင်ချီ ပေါင်းစည်းထားသော ကြီးမားသော ကာဗိုဟိုက်ဒရိတ်တစ်ခုဖြစ်ကြောင်း သူမ တွေးမိခဲ့သည်။ ဆန်၊ ပေါင်မုန့်နှင့် အာလူးများကို 'ကာဗိုဟိုက်ဒရိတ်ကြွယ်ဝသော' အစားအစာများဟု ဖော်ပြရသည့် အကြောင်းရင်းကို သူမ သိရှိလာခဲ့သည် -- ၎င်းတို့ အားလုံးသည် အခြေခံ တည်ဆောက်ပုံ ဂလူးကို့စ် တစ်မျိုးတည်းကိုပင် ကွဲပြားစွာ ထုပ်ပိုးထားခြင်း ဖြစ်သည်။\n\nအမေက ကုလားပဲစိမ်ထားသော ခွက်တစ်ခွက်ကို ဟင်းထဲထည့်ရန် ပေးအပ်သောအခါ၊ နှင်းအိအိသည် ပဲနှင့် ကုလားပဲအမျိုးမျိုးသည် ပရိုတင်းကြွယ်ဝသည်ဟု လူသိများကြောင်း သတိရမိခဲ့သည်။ ပရိုတင်းများသည် ရှည်လျားသော အမိုင်နိုအက်ဆစ် ကွင်းဆက်များမှ တည်ဆောက်ထားပြီး၊ ကာဗိုဟိုက်ဒရိတ်နှင့် အဆီများနှင့် မတူဘဲ ပရိုတင်းများသည် ကာဗွန်၊ ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်အပြင် နိုက်ထရိုဂျင်ကိုပါ အမြဲ ပါဝင်ကြောင်း ဆရာမ ရှင်းပြခဲ့သည် -- ဤအကြောင်းရင်းကြောင့် ပဲ၊ ငါးနှင့် ကြက်ဥကဲ့သို့သော အစားအစာများသည် ခန္ဓာကိုယ်ကြီးထွားမှုနှင့် ပျက်စီးသွားသော တစ်ရှူးများ ပြန်လည်ပြုပြင်ရန်အတွက် အထူးအရေးကြီးသည်။\n\nနောက်ဆုံးတွင် ချက်ပြုတ်ဆီ ကရမ်းထဲမှာ ချွတ်ချွတ်မြည်နေစဉ်၊ နှင်းအိအိက ဆီသည် ရေနှင့်နှိုင်းယှဉ်လျှင် စက္ကူပေါ်တွင် အဘယ်ကြောင့် ကွဲပြားသော ဆီပေဖျင်းသော အမှတ်အသားချန်ထားခဲ့ကြောင်း အမေကို မေးမြန်းခဲ့သည်။ အမေက ဇီဝဗေဒဆိုင်ရာ အဖြေကို မသိသော်လည်း၊ နှင်းအိအိက Lipids -- အဆီနှင့်ဆီများ -- ကို Fatty Acid များ Glycerol နှင့် ပေါင်းစည်းထား၍ ဖန်တီးထားသည်ကို အတန်းမှ သတိရမိခဲ့သည်၊ ကာဗိုဟိုက်ဒရိတ်နှင့် ပရိုတင်းများနှင့် မတူဘဲ ၎င်းတို့သည် ရေထဲတွင် လုံးဝ မပျော်ဝင်ပါ။ ထိုပစ္စည်းတစ်ခုတည်း၏ ဂုဏ်သတ္တိသည် နောက်သင်ခန်းစာတွင် သင်ကြားရမည့် အစားအစာစမ်းသပ်မှုများက အမည်မသိ အစားအစာနမူနာများထဲမှ Lipids ကို ဖော်ထုတ်ရန် အားထားရသော အချက်ပင်ဖြစ်ကြောင်း သူမ သဘောပေါက်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why are rice, bread, and potatoes all described as carbohydrate-rich?",
+            questionMy:
+                "စာပိုဒ် ၁ အရ ဆန်၊ ပေါင်မုန့်နှင့် အာလူးများကို ကာဗိုဟိုက်ဒရိတ်ကြွယ်ဝသည်ဟု အဘယ်ကြောင့် ဖော်ပြသနည်း။",
+            optionsEn: [
+              "They all store the same building block, glucose, in different forms",
+              "They all contain the same amount of protein",
+              "They are all grown in the same season",
+              "They all taste sweet",
+            ],
+            optionsMy: [
+              "အားလုံးသည် အခြေခံတည်ဆောက်ပုံ ဂလူးကို့စ်တစ်မျိုးတည်းကို ပုံစံမတူဘဲ သိုလှောင်ထားသောကြောင့်",
+              "အားလုံးသည် ပရိုတင်း ပမာဏ တူညီစွာ ပါဝင်သောကြောင့်",
+              "အားလုံးကို ရာသီတူတူ စိုက်ပျိုးသောကြောင့်",
+              "အားလုံးသည် ချိုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the end of paragraph 1 about starch being made of glucose.",
+              "The passage says they are 'the same basic building block, glucose, just packaged differently'.",
+            ],
+            hintsMy: [
+              "Starch သည် ဂလူးကို့စ်မှ ပြုလုပ်ထားခြင်းအကြောင်း စာပိုဒ် ၁ ၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "စာပိုဒ်က ၎င်းတို့သည် 'ပုံစံမတူဘဲ ထုပ်ပိုးထားသော အခြေခံတည်ဆောက်ပုံ ဂလူးကို့စ်တစ်မျိုးတည်း' ဖြစ်သည်ဟု ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what element do proteins contain that carbohydrates and fats do not?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ ကာဗိုဟိုက်ဒရိတ်နှင့် အဆီများတွင် မပါဝင်သော်လည်း ပရိုတင်းများတွင် ပါဝင်သော ဓာတ်သတ္တိမှာ အဘယ်နည်း။",
+            optionsEn: ["Nitrogen", "Carbon", "Hydrogen", "Oxygen"],
+            optionsMy: [
+              "နိုက်ထရိုဂျင်",
+              "ကာဗွန်",
+              "ဟိုက်ဒရိုဂျင်",
+              "အောက်ဆီဂျင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Carbon, hydrogen, and oxygen are shared by all three types of biological molecule.",
+              "This element is specifically mentioned as unique to proteins in paragraph 2.",
+            ],
+            hintsMy: [
+              "ကာဗွန်၊ ဟိုက်ဒရိုဂျင်နှင့် အောက်ဆီဂျင်တို့ကို ဇီဝမော်လီကျူး သုံးမျိုးစလုံးက အတူတကွ ပါဝင်သည်။",
+              "ဤဓာတ်ကို စာပိုဒ် ၂ တွင် ပရိုတင်းအတွက်သာ ထူးခြားသည်ဟု တိတိကျကျ ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "In paragraph 3, why does the oil leave a greasy mark on paper that water does not?",
+            questionMy:
+                "စာပိုဒ် ၃ တွင် ရေမပြုနိုင်သော ဆီပေဖျင်းသော အမှတ်အသားကို ဆီက စက္ကူပေါ်တွင် အဘယ်ကြောင့် ချန်ထားခဲ့သနည်း။",
+            optionsEn: [
+              "Because lipids do not dissolve in water",
+              "Because water always evaporates faster than oil",
+              "Because oil is heavier than water",
+              "Because oil contains amino acids",
+            ],
+            optionsMy: [
+              "Lipids များသည် ရေထဲတွင် မပျော်ဝင်သောကြောင့်",
+              "ရေသည် ဆီထက် ရေငွေ့ပျံမှု အမြဲပိုမြန်သောကြောင့်",
+              "ဆီသည် ရေထက် ပိုလေးသောကြောင့်",
+              "ဆီတွင် အမိုင်နိုအက်ဆစ်များ ပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This property of lipids is stated directly at the end of paragraph 3.",
+              "Unlike carbohydrates and proteins, lipids are not soluble in water.",
+            ],
+            hintsMy: [
+              "Lipids ၏ ဤဂုဏ်သတ္တိကို စာပိုဒ် ၃ ၏ အဆုံးတွင် တိုက်ရိုက် ဖော်ပြထားသည်။",
+              "ကာဗိုဟိုက်ဒရိတ်နှင့် ပရိုတင်းများနှင့် မတူဘဲ Lipids များသည် ရေတွင် ပျော်ဝင်ခြင်း မရှိပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What does paragraph 3 suggest will be the focus of the next lesson?",
+            questionMy:
+                "နောက်သင်ခန်းစာ၏ အဓိကအကြောင်းအရာကို စာပိုဒ် ၃ က မည်သို့ အကြံပြုသနည်း။",
+            optionsEn: [
+              "Food tests that use lipids' properties to identify them in unknown samples",
+              "How to cook different dishes",
+              "The history of cooking oil",
+              "How plants make their own food",
+            ],
+            optionsMy: [
+              "Lipids ၏ ဂုဏ်သတ္တိကို သုံး၍ အမည်မသိနမူနာများထဲမှ ဖော်ထုတ်ရန် အစားအစာစမ်းသပ်မှုများ",
+              "ဟင်းလျာအမျိုးမျိုး ချက်ပြုတ်နည်း",
+              "ချက်ပြုတ်ဆီ၏ သမိုင်း",
+              "အပင်များ မိမိတို့အစားအစာကို မည်သို့ ပြုလုပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence about what the next lesson's food tests will rely on.",
+              "The passage links lipids' insolubility in water directly to identifying them in food tests.",
+            ],
+            hintsMy: [
+              "နောက်သင်ခန်းစာ၏ အစားအစာစမ်းသပ်မှုများ မည်သည့်အချက်ကို အားထားမည်ဆိုသည့် နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Lipids ၏ ရေတွင် မပျော်ဝင်သော ဂုဏ်သတ္တိကို အစားအစာစမ်းသပ်မှုများတွင် ဖော်ထုတ်ရန်နှင့် တိုက်ရိုက် ဆက်စပ်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Biological Molecules",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဇီဝ မော်လီကျူးများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which building block makes up carbohydrates?",
+          questionMy:
+              "ကာဗိုဟိုက်ဒရိတ်များကို မည်သည့် တည်ဆောက်ပုံက ဖွဲ့စည်းသနည်း။",
+          optionsEn: [
+            "Simple sugars",
+            "Amino acids",
+            "Fatty acids",
+            "Nitrogen bases",
+          ],
+          optionsMy: [
+            "ရိုးရှင်းသောသကြားများ",
+            "အမိုင်နိုအက်ဆစ်များ",
+            "Fatty acids",
+            "နိုက်ထရိုဂျင်ဘေ့စ်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these foods would you expect to be richest in protein?",
+          questionMy:
+              "ဤအစားအစာများအနက် ပရိုတင်း အကြွယ်ဝဆုံးဖြစ်လိမ့်မည်ဟု ခန့်မှန်းရမည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: ["Grilled chicken", "White rice", "Cooking oil", "Sugar"],
+          optionsMy: ["ကြက်သားကင်", "ဆန်ဖြူ", "ချက်ပြုတ်ဆီ", "သကြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lipids are built from fatty acids and...",
+          questionMy:
+              "Lipids များကို Fatty Acids နှင့် ...တို့မှ တည်ဆောက်ထားသည်",
+          optionsEn: ["Glycerol", "Glucose", "Amino acids", "Water"],
+          optionsMy: ["Glycerol", "ဂလူးကို့စ်", "အမိုင်နိုအက်ဆစ်များ", "ရေ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 8 (Capstone): "Biological Molecules Practical Lab"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek8 = CourseWeekDef(
+  id: "course-igcse-bio-w8",
+  weekNumber: 8,
+  titleEn: "Biological Molecules Practical Lab",
+  titleMy: "ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w8-d1",
+      dayNumber: 1,
+      titleEn: "The Four Food Tests",
+      titleMy: "အစားအစာ စမ်းသပ်မှု လေးမျိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A food sample is heated with Benedict's solution and turns brick-red. What does this indicate?",
+          questionMy:
+              "အစားအစာနမူနာတစ်ခုကို Benedict's Solution နှင့် အပူပေးရာ အုတ်ရောင်အဖြစ် ပြောင်းသွားသည်။ ၎င်းက အဘယ်ကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "The presence of a reducing sugar",
+            "The presence of starch",
+            "The presence of protein",
+            "The presence of a lipid",
+          ],
+          optionsMy: [
+            "Reducing Sugar ပါဝင်ကြောင်း",
+            "Starch ပါဝင်ကြောင်း",
+            "ပရိုတင်း ပါဝင်ကြောင်း",
+            "Lipid ပါဝင်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Benedict's solution starts off blue and is used specifically to test for one type of biological molecule.",
+            "A colour change through green, yellow, orange, to brick-red (with heating) is the positive result for reducing sugars.",
+          ],
+          hintsMy: [
+            "Benedict's Solution သည် စတင်စဉ် အပြာရောင်ရှိပြီး ဇီဝမော်လီကျူး တစ်မျိုးတည်းအတွက် တိတိကျကျ သုံးသည်။",
+            "အပူပေးစဉ် အစိမ်း၊ အဝါ၊ လိမ္မော်မှ အုတ်ရောင်သို့ အရောင်ပြောင်းလဲမှုသည် Reducing Sugar အတွက် Positive ရလဒ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which food test is used to detect the presence of starch, and what colour change indicates a positive result?",
+          questionMy:
+              "Starch ပါဝင်မှုကို ရှာဖွေရန် မည်သည့် စမ်းသပ်မှုကို သုံးပြီး Positive ရလဒ်သည် မည်သည့် အရောင်ပြောင်းလဲမှုကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "The iodine test, which turns from orange-brown to blue-black",
+            "The Biuret test, which turns from blue to purple",
+            "Benedict's test, which turns from blue to brick-red",
+            "The ethanol test, which produces a cloudy white emulsion",
+          ],
+          optionsMy: [
+            "Iodine Test ဖြစ်ပြီး လိမ္မော်-အညိုမှ အပြာ-အနက်သို့ ပြောင်းလဲသည်",
+            "Biuret Test ဖြစ်ပြီး အပြာမှ ခရမ်းသို့ ပြောင်းလဲသည်",
+            "Benedict's Test ဖြစ်ပြီး အပြာမှ အုတ်ရောင်သို့ ပြောင်းလဲသည်",
+            "Ethanol Test ဖြစ်ပြီး အဖြူရောင် ရေနှစ်ငင်ရည် (Emulsion) ဖြစ်ပေါ်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Iodine solution's normal colour is orange-brown before it reacts with starch.",
+            "Starch turns iodine solution a very dark, almost black-blue colour.",
+          ],
+          hintsMy: [
+            "Iodine Solution ၏ ပုံမှန်အရောင်သည် Starch နှင့် မဓာတ်ပြုမီ လိမ္မော်-အညိုရောင် ဖြစ်သည်။",
+            "Starch က Iodine Solution ကို အလွန်နက်သော၊ အနက်နီးပါး အပြာရောင်သို့ ပြောင်းလဲစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which food test would you use to check whether a food sample contains protein?",
+          questionMy:
+              "အစားအစာနမူနာတွင် ပရိုတင်း ပါဝင်မှုစစ်ဆေးရန် မည်သည့် စမ်းသပ်မှုကို သုံးမည်နည်း။",
+          optionsEn: [
+            "The Biuret test",
+            "The iodine test",
+            "Benedict's test",
+            "The ethanol emulsion test",
+          ],
+          optionsMy: [
+            "Biuret Test",
+            "Iodine Test",
+            "Benedict's Test",
+            "Ethanol Emulsion Test",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This test uses a blue solution that turns purple (lilac) when protein is present.",
+            "The name of the test is different from the name of the biological molecule it tests for.",
+          ],
+          hintsMy: [
+            "ဤစမ်းသပ်မှုသည် ပရိုတင်း ရှိသောအခါ ခရမ်းရောင် (Lilac) သို့ ပြောင်းလဲသွားသော အပြာရောင် Solution ကို သုံးသည်။",
+            "စမ်းသပ်မှု၏ အမည်သည် ၎င်းက စစ်ဆေးသော ဇီဝမော်လီကျူး၏ အမည်နှင့် မတူပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Test and Positive Result",
+      titleMy: "တွဲစပ်ကြမည် - စမ်းသပ်မှုနှင့် Positive ရလဒ်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w8-dm-1",
+          termEn: "Benedict's test (for reducing sugars)",
+          termMy: "Benedict's Test (Reducing Sugar အတွက်)",
+          matchEn:
+              "Blue solution turns green, yellow, orange, or brick-red when heated",
+          matchMy:
+              "အပြာရောင် Solution ကို အပူပေးသောအခါ အစိမ်း၊ အဝါ၊ လိမ္မော် သို့မဟုတ် အုတ်ရောင်သို့ ပြောင်းလဲသည်",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w8-dm-2",
+          termEn: "Iodine test (for starch)",
+          termMy: "Iodine Test (Starch အတွက်)",
+          matchEn: "Orange-brown solution turns blue-black",
+          matchMy: "လိမ္မော်-အညိုရောင် Solution ကို အပြာ-အနက်သို့ ပြောင်းလဲသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w8-dm-3",
+          termEn: "Biuret test (for protein)",
+          termMy: "Biuret Test (ပရိုတင်းအတွက်)",
+          matchEn: "Blue solution turns purple (lilac)",
+          matchMy:
+              "အပြာရောင် Solution ကို ခရမ်းရောင် (Lilac) သို့ ပြောင်းလဲသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w8-dm-4",
+          termEn: "Ethanol emulsion test (for lipids)",
+          termMy: "Ethanol Emulsion Test (Lipid အတွက်)",
+          matchEn: "A cloudy white emulsion forms when mixed with water",
+          matchMy:
+              "ရေနှင့် ရောစပ်လိုက်သောအခါ ဖြူဖတ်လာသော ရေနှစ်ငင်ရည် (Emulsion) ဖြစ်ပေါ်လာသည်",
+          colorValue: 0xFFFFC107,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Test Result?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် စမ်းသပ်ချက်ရလဒ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Indicates a Reducing Sugar",
+          "Indicates Starch",
+          "Indicates Protein",
+          "Indicates a Lipid",
+        ],
+        bucketsMy: [
+          "Reducing Sugar ကို ညွှန်ပြသည်",
+          "Starch ကို ညွှန်ပြသည်",
+          "ပရိုတင်း ကို ညွှန်ပြသည်",
+          "Lipid ကို ညွှန်ပြသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w8-sort-1",
+            labelEn: "Iodine solution turns blue-black",
+            labelMy: "Iodine Solution က အပြာ-အနက်သို့ ပြောင်းလဲခြင်း",
+            correctBucketEn: "Indicates Starch",
+            correctBucketMy: "Starch ကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w8-sort-2",
+            labelEn: "Benedict's solution turns brick-red after heating",
+            labelMy:
+                "အပူပေးပြီးနောက် Benedict's Solution က အုတ်ရောင်သို့ ပြောင်းလဲခြင်း",
+            correctBucketEn: "Indicates a Reducing Sugar",
+            correctBucketMy: "Reducing Sugar ကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w8-sort-3",
+            labelEn: "Biuret solution turns purple",
+            labelMy: "Biuret Solution က ခရမ်းရောင်သို့ ပြောင်းလဲခြင်း",
+            correctBucketEn: "Indicates Protein",
+            correctBucketMy: "ပရိုတင်း ကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w8-sort-4",
+            labelEn:
+                "A cloudy white emulsion forms after shaking with ethanol and adding water",
+            labelMy:
+                "Ethanol နှင့် လှုပ်ရှားပြီး ရေထည့်ပြီးနောက် ဖြူဖတ်သော Emulsion ဖြစ်ပေါ်လာခြင်း",
+            correctBucketEn: "Indicates a Lipid",
+            correctBucketMy: "Lipid ကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w8-sort-5",
+            labelEn:
+                "Iodine solution stays orange-brown after being added to the sample",
+            labelMy:
+                "နမူနာထဲ ထည့်ပြီးနောက် Iodine Solution လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေခြင်း",
+            correctBucketEn: "Indicates a Reducing Sugar",
+            correctBucketMy: "Reducing Sugar ကို ညွှန်ပြသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w8-sort-6",
+            labelEn: "Benedict's solution stays blue after heating",
+            labelMy:
+                "အပူပေးပြီးနောက် Benedict's Solution အပြာရောင်အတိုင်း ဆက်ရှိနေခြင်း",
+            correctBucketEn: "Indicates Starch",
+            correctBucketMy: "Starch ကို ညွှန်ပြသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko Ko's Mystery Sample",
+      titleMy: "စာဖတ်ခြင်း - ဇင်ကိုကို၏ လျှို့ဝှက်နမူနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko Ko's Mystery Sample",
+        titleMy: "ဇင်ကိုကို၏ လျှို့ဝှက်နမူနာ",
+        passageEn:
+            "For the practical exam, Zin Ko Ko's teacher handed every student an unlabelled test tube containing a crushed, liquefied food sample and asked them to identify which biological molecules it contained using all four food tests. Zin Ko Ko decided to work through the tests one at a time, recording every colour change carefully in his practical notebook.\n\nFirst, he added a few drops of iodine solution to a small sample -- it stayed orange-brown, showing no starch was present. Next, he heated a fresh sample with Benedict's solution in a water bath: after a few minutes, the solution turned from blue through green and orange to a definite brick-red precipitate, confirming a reducing sugar was present in a fairly high concentration, since the strength of the colour change roughly indicated how much sugar was there. He then tested a third sample with Biuret solution at room temperature (no heating needed for this test) and watched it turn a clear lilac-purple, confirming protein. Finally, he shook a sample with ethanol, then poured the mixture into a test tube of water -- a cloudy white emulsion formed at the top, confirming a lipid was also present.\n\nPutting his four results together, Zin Ko Ko concluded that his unknown sample contained a reducing sugar, protein, and lipid, but no starch. When his teacher revealed the samples afterward, his group's sample turned out to be crushed peanuts blended with milk -- and Zin Ko Ko realised his four test results matched perfectly: milk sugar (lactose, a reducing sugar) and milk protein explained two results, while the fats naturally present in both peanuts and milk explained the positive lipid test, and the absence of starch made sense since neither peanuts nor milk are starchy foods.",
+        passageMy:
+            "လက်တွေ့စာမေးပွဲအတွက် ဇင်ကိုကို၏ ဆရာမက ကျောင်းသားတိုင်းအား စာအမည်မတပ်ထားသော ချေဖျက်၍ အရည်ပြောင်းထားသော အစားအစာနမူနာပါ စမ်းသပ်ပြွန်တစ်ခုစီ ပေးအပ်ပြီး၊ အစားအစာစမ်းသပ်မှု လေးမျိုးလုံးကို သုံးပြီး မည်သည့် ဇီဝမော်လီကျူးများ ပါဝင်ကြောင်း ခွဲခြားစေခဲ့သည်။ ဇင်ကိုကိုက စမ်းသပ်မှုများကို တစ်ခုပြီးတစ်ခု အဆင့်ဆင့် လုပ်ဆောင်ရန် ဆုံးဖြတ်ပြီး၊ အရောင်ပြောင်းလဲမှု တိုင်းကို သူ၏ လက်တွေ့မှတ်စုစာအုပ်တွင် သေချာစွာ မှတ်တမ်းတင်ခဲ့သည်။\n\nပထမဆုံး Iodine Solution အနည်းငယ်ကို နမူနာသေးလေးတစ်ခုပေါ်တွင် စမ်းသပ်ခဲ့ရာ -- လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေခဲ့ပြီး Starch မပါဝင်ကြောင်း ပြသခဲ့သည်။ ထို့နောက် သူသည် သစ်လွင်နမူနာတစ်ခုကို Benedict's Solution ဖြင့် ရေနွေးကန်တွင် အပူပေးခဲ့ရာ- မိနစ်အနည်းငယ်ကြာပြီးနောက် Solution သည် အပြာမှ အစိမ်းနှင့် လိမ္မော်ကို ဖြတ်ပြီး ရှင်းလင်းသော အုတ်ရောင် ဒြပ်ကျခက် (Precipitate) အဖြစ် ပြောင်းလဲခဲ့ကာ၊ အရောင်ပြောင်းလဲမှု အားကောင်းမှုက ထိုနေရာတွင် သကြားပမာဏ မည်မျှရှိကြောင်း အကြမ်းဖျင်း ညွှန်ပြသောကြောင့် Reducing Sugar အတန်အသင့်များများ ပါဝင်ကြောင်း အတည်ပြုခဲ့သည်။ ထို့နောက် သူသည် တတိယနမူနာကို Biuret Solution ဖြင့် အခန်းအပူချိန်တွင် (ဤစမ်းသပ်မှုအတွက် အပူပေးရန် မလိုအပ်ပါ) စမ်းသပ်ခဲ့ရာ ရှင်းလင်းသော Lilac-Purple ရောင်သို့ ပြောင်းလဲသွားသည်ကို တွေ့ရှိခဲ့ပြီး ပရိုတင်းကို အတည်ပြုခဲ့သည်။ နောက်ဆုံးတွင် သူသည် နမူနာတစ်ခုကို Ethanol နှင့် လှုပ်ရှားခဲ့ပြီး၊ ထို့နောက် ရေစမ်းသပ်ပြွန်ထဲသို့ ရောစပ်ချထည့်ခဲ့ရာ -- ဖျော့ဖျော့ဖြူသော ရေနှစ်ငင်ရည် (Emulsion) သည် အပေါ်ဘက်တွင် ဖြစ်ပေါ်လာပြီး Lipid ပါဝင်ကြောင်းလည်း အတည်ပြုခဲ့သည်။\n\nသူ၏ ရလဒ်လေးမျိုးကို ပေါင်းစပ်ကြည့်ခဲ့ရာ၊ ဇင်ကိုကိုက သူ၏ အမည်မသိနမူနာတွင် Reducing Sugar၊ ပရိုတင်းနှင့် Lipid ပါဝင်သော်လည်း Starch မပါဝင်ကြောင်း ကောက်ချက်ချခဲ့သည်။ နမူနာများကို ဆရာမက နောက်ပိုင်း ဖော်ပြသောအခါ၊ သူ၏ အုပ်စု၏ နမူနာသည် နွားနို့နှင့် ရောစပ်ထားသော ချေဖျက်ထားသည့် မြေပဲအဖြစ် သိရှိခဲ့ရသည် -- ဇင်ကိုကိုက သူ၏ ရလဒ်လေးမျိုးလုံး အတိအကျ ကိုက်ညီနေကြောင်း သဘောပေါက်လာခဲ့သည်- နွားနို့သကြား (Lactose၊ Reducing Sugar တစ်မျိုး) နှင့် နွားနို့ပရိုတင်းက ရလဒ်နှစ်ခုကို ရှင်းပြပေးပြီး၊ မြေပဲနှင့် နွားနို့နှစ်ခုစလုံးတွင် သဘာဝအလျောက် ပါဝင်သော အဆီများက Lipid Positive ရလဒ်ကို ရှင်းပြပေးကာ၊ မြေပဲနှင့် နွားနို့နှစ်ခုစလုံးသည် Starch များသော အစားအစာများ မဟုတ်သောကြောင့် Starch မတွေ့ရခြင်းသည်လည်း ကိုက်ညီနေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the iodine test result tell Zin Ko Ko?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ Iodine Test ရလဒ်က ဇင်ကိုကိုအား အဘယ်ကို ပြောပြသနည်း။",
+            optionsEn: [
+              "No starch was present in the sample",
+              "A lot of starch was present",
+              "The sample contained protein",
+              "The sample was contaminated",
+            ],
+            optionsMy: [
+              "နမူနာတွင် Starch မပါဝင်ကြောင်း",
+              "Starch များစွာ ပါဝင်ကြောင်း",
+              "နမူနာတွင် ပရိုတင်း ပါဝင်ကြောင်း",
+              "နမူနာသည် ညစ်ညမ်းနေကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The iodine solution stayed the same colour it started as.",
+              "No colour change with iodine solution means a negative result -- no starch.",
+            ],
+            hintsMy: [
+              "Iodine Solution သည် စတင်စဉ်ကအရောင်အတိုင်းပင် ဆက်ရှိနေခဲ့သည်။",
+              "Iodine Solution တွင် အရောင်ပြောင်းလဲမှု မရှိခြင်းသည် Negative ရလဒ်ကို ဆိုလိုသည် -- Starch မရှိပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how could Zin Ko Ko tell that a fairly high concentration of reducing sugar was present?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ Reducing Sugar အတန်အသင့်များများ ပါဝင်ကြောင်းကို ဇင်ကိုကို မည်သို့ သိရှိနိုင်ခဲ့သနည်း။",
+            optionsEn: [
+              "The Benedict's test produced a definite brick-red precipitate, a strong colour change",
+              "The sample bubbled vigorously",
+              "The sample turned a bright green immediately with no further change",
+              "He measured the sample's mass before and after",
+            ],
+            optionsMy: [
+              "Benedict's Test က ရှင်းလင်းသော အုတ်ရောင် ဒြပ်ကျခက်ကို ဖြစ်ပေါ်စေခဲ့ပြီး အားကောင်းသော အရောင်ပြောင်းလဲမှုဖြစ်သောကြောင့်",
+              "နမူနာသည် ပွက်ပွက်ဆူနေခဲ့သောကြောင့်",
+              "နမူနာသည် ချက်ချင်း စိမ်းလင်းစိမ်းစိုရောင်သို့ ပြောင်းပြီး နောက်ထပ် ပြောင်းလဲမှု မရှိခဲ့သောကြောင့်",
+              "သူသည် နမူနာ၏ အလေးချိန်ကို မတိုင်းမီနှင့် ပြီးနောက် တိုင်းတာခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The passage says the strength of the colour change roughly indicated how much sugar was present.",
+              "Brick-red is the strongest positive colour on the Benedict's test scale.",
+            ],
+            hintsMy: [
+              "အရောင်ပြောင်းလဲမှု၏ အားကောင်းမှုက သကြားပမာဏ မည်မျှရှိကြောင်း အကြမ်းဖျင်း ညွှန်ပြသည်ဟု စာပိုဒ်က ဖော်ပြထားသည်။",
+              "Benedict's Test စကေးပေါ်တွင် အုတ်ရောင်သည် အားအကောင်းဆုံး Positive အရောင်ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what is different about the Biuret test compared to Benedict's test?",
+            questionMy:
+                "Benedict's Test နှင့် နှိုင်းယှဉ်လျှင် Biuret Test ၏ ကွာခြားချက်မှာ စာပိုဒ် ၂ အရ အဘယ်နည်း။",
+            optionsEn: [
+              "The Biuret test does not need heating",
+              "The Biuret test needs much more heating",
+              "The Biuret test uses iodine solution",
+              "The Biuret test only works on liquids",
+            ],
+            optionsMy: [
+              "Biuret Test တွင် အပူပေးရန် မလိုအပ်ပါ",
+              "Biuret Test တွင် ပို၍ အပူများများ လိုအပ်သည်",
+              "Biuret Test တွင် Iodine Solution သုံးသည်",
+              "Biuret Test သည် အရည်များတွင်သာ အလုပ်လုပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the Biuret test being carried out at room temperature.",
+              "The passage explicitly notes 'no heating needed for this test'.",
+            ],
+            hintsMy: [
+              "Biuret Test ကို အခန်းအပူချိန်တွင် ပြုလုပ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "စာပိုဒ်က 'ဤစမ်းသပ်မှုအတွက် အပူပေးရန် မလိုအပ်ပါ' ဟု တိတိကျကျ ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 3, why did peanuts blended with milk produce a positive result for protein, reducing sugar, and lipid, but not starch?",
+            questionMy:
+                "စာပိုဒ် ၃ အရ နွားနို့နှင့်ရောစပ်ထားသော မြေပဲသည် ပရိုတင်း၊ Reducing Sugar နှင့် Lipid အတွက် Positive ရလဒ်ရသော်လည်း Starch အတွက် အဘယ်ကြောင့် မရသနည်း။",
+            optionsEn: [
+              "Milk and peanuts naturally contain sugar, protein, and fat, but neither is a starchy food",
+              "The teacher made a mistake preparing the sample",
+              "Peanuts contain starch but milk destroyed it",
+              "The ethanol test always gives a false positive for lipids",
+            ],
+            optionsMy: [
+              "နွားနို့နှင့် မြေပဲတို့သည် သဘာဝအလျောက် သကြား၊ ပရိုတင်းနှင့် အဆီ ပါဝင်သော်လည်း နှစ်ခုစလုံးသည် Starch များသော အစားအစာ မဟုတ်သောကြောင့်",
+              "ဆရာမက နမူနာ ပြင်ဆင်ရာတွင် အမှားလုပ်မိသောကြောင့်",
+              "မြေပဲတွင် Starch ပါဝင်သော်လည်း နွားနို့က ဖျက်ဆီးလိုက်သောကြောင့်",
+              "Ethanol Test သည် Lipid အတွက် False Positive အမြဲပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining why each of the four results matched the actual sample.",
+              "The passage explicitly says neither peanuts nor milk are starchy foods.",
+            ],
+            hintsMy: [
+              "ရလဒ်လေးမျိုးလုံး အမှန်တကယ် နမူနာနှင့် အဘယ်ကြောင့် ကိုက်ညီနေကြောင်း ရှင်းပြသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "မြေပဲနှင့် နွားနို့နှစ်ခုစလုံးသည် Starch များသော အစားအစာ မဟုတ်ကြောင်း စာပိုဒ်က တိတိကျကျ ဖော်ပြထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Recap: Movement, Molecules and Food Tests",
+      titleMy:
+          "ဒုတိယအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - ရွေ့လျားမှု၊ မော်လီကျူးများနှင့် အစားအစာစမ်းသပ်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which process requires energy: diffusion, osmosis, or active transport?",
+          questionMy:
+              "Diffusion, Osmosis, Active Transport တို့ထဲမှ မည်သည့်ဖြစ်စဉ်တွင် စွမ်းအင် လိုအပ်သနည်း",
+          optionsEn: [
+            "Active transport",
+            "Diffusion",
+            "Osmosis",
+            "None of them",
+          ],
+          optionsMy: [
+            "Active Transport",
+            "Diffusion",
+            "Osmosis",
+            "မည်သည့်တစ်ခုမျှ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which test would you use to check if a food sample contains starch?",
+          questionMy:
+              "အစားအစာနမူနာတွင် Starch ပါဝင်မရှိ စစ်ဆေးရန် မည်သည့် Test ကို သုံးမည်နည်း",
+          optionsEn: [
+            "Iodine test",
+            "Biuret test",
+            "Benedict's test",
+            "Ethanol test",
+          ],
+          optionsMy: [
+            "Iodine Test",
+            "Biuret Test",
+            "Benedict's Test",
+            "Ethanol Test",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A plant cell placed in a very concentrated salt solution is likely to become...",
+          questionMy:
+              "အလွန်ပြင်းသော ဆားရည်ထဲတွင် ထားလိုက်သော အပင်ဆဲလ်သည် ဖြစ်လာနိုင်ချေအမြင့်ဆုံးအရာမှာ...",
+          optionsEn: ["Plasmolysed", "Turgid", "Larger", "Unaffected"],
+          optionsMy: [
+            "Plasmolysed",
+            "Turgid",
+            "ပိုကြီးလာခြင်း",
+            "မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Proteins are unique among the three biological molecule groups because they always contain...",
+          questionMy:
+              "ဇီဝမော်လီကျူးအုပ်စု သုံးမျိုးအနက် ပရိုတင်းများ ထူးခြားသည့်အကြောင်းရင်းမှာ အမြဲပါဝင်သော...",
+          optionsEn: ["Nitrogen", "Extra water", "No carbon", "Only sugar"],
+          optionsMy: [
+            "နိုက်ထရိုဂျင်",
+            "ရေ ပိုပါဝင်ခြင်း",
+            "ကာဗွန် လုံးဝမပါဝင်ခြင်း",
+            "သကြားသာ ပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 2: "Movement In and Out of Cells and Biological Molecules"
+// (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm2 = CourseTermDef(
+  id: "course-igcse-bio-t2",
+  termNumber: 2,
+  titleEn: "Movement In and Out of Cells and Biological Molecules",
+  titleMy: "ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများ",
+  certificateTitleEn: "Movement In and Out of Cells and Biological Molecules",
+  certificateTitleMy: "ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများ",
+  weeks: [_igcseBioWeek5, _igcseBioWeek6, _igcseBioWeek7, _igcseBioWeek8],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Only Term 1
-/// (Characteristics and Classification of Living Organisms, Weeks 1-4)
-/// is authored so far, following the blueprint at
-/// `ai_data_bridge/_generated/igcse_biology_term1.dart`. Terms 2-9 are
-/// not yet authored. `terms` below intentionally lists only Term 1, and
+/// The IGCSE Biology course's full-year pathway. Terms 1-2
+/// (Characteristics and Classification of Living Organisms, Weeks 1-4;
+/// Movement In and Out of Cells and Biological Molecules, Weeks 5-8)
+/// are authored so far, following the blueprint at
+/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 3-9 are not yet
+/// authored. `terms` below intentionally lists only Terms 1-2, and
 /// `totalWeeks: 36` reflects the full planned year, following the same
 /// convention as every other in-progress pathway in this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
@@ -2185,9 +3923,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/_generated/igcse_biology_term1.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Terms 2-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Terms 3-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/_generated/igcse_biology_term1.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
-  terms: [igcseBiologyTerm1],
+  terms: [igcseBiologyTerm1, igcseBiologyTerm2],
 );
