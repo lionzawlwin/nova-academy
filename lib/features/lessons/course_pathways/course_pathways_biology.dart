@@ -13434,22 +13434,1690 @@ const CourseTermDef igcseBiologyTerm8 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 33: "Biotechnology and Genetic Modification"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek33 = CourseWeekDef(
+  id: "course-igcse-bio-w33",
+  weekNumber: 33,
+  titleEn: "Biotechnology and Genetic Modification",
+  titleMy: "ဇီဝနည်းပညာနှင့် မျိုးဗီဇ ပြုပြင်ခြင်း (Genetic Modification)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w33-d1",
+      dayNumber: 1,
+      titleEn: "Yeast, Penicillin, and Genetic Engineering",
+      titleMy: "တဆေး၊ Penicillin နှင့် Genetic Engineering",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Penicillin, an important antibiotic, is naturally produced by which type of organism?",
+          questionMy:
+              "အရေးကြီးသော Antibiotic တစ်ခုဖြစ်သော Penicillin ကို မည်သည့်သက်ရှိအမျိုးအစားက သဘာဝအလျောက် ထုတ်လုပ်သနည်း။",
+          optionsEn: [
+            "A mould (a type of fungus)",
+            "A virus",
+            "A green plant",
+            "A bacterium",
+          ],
+          optionsMy: [
+            "မှို (Fungus အမျိုးအစားတစ်ခု)",
+            "ဗိုင်းရပ်စ်",
+            "အပင်စိမ်း",
+            "ဘက်တီးရီးယား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mould is grown industrially in large fermenters to mass-produce the antibiotic.",
+            "Penicillium is the genus name of this mould.",
+          ],
+          hintsMy: [
+            "ဤမှိုကို Antibiotic ကို အစုလိုက်ထုတ်လုပ်ရန် ကြီးမားသော Fermenter များတွင် စက်မှုနည်းအလျောက် စိုက်ပျိုးသည်။",
+            "Penicillium သည် ဤမှို၏ မျိုးရင်းအမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In genetic engineering, what is a plasmid commonly used for?",
+          questionMy:
+              "Genetic Engineering တွင် Plasmid ကို မည်သည့်အတွက် အများအားဖြင့် သုံးသနည်း။",
+          optionsEn: [
+            "As a vector to carry a useful gene into a bacterium",
+            "As a source of energy for the bacterium",
+            "As a type of antibiotic",
+            "As a waste product to be removed",
+          ],
+          optionsMy: [
+            "အသုံးဝင်သော Gene ကို ဘက်တီးရီးယားထဲသို့ သယ်ဆောင်ပေးသော Vector အဖြစ်",
+            "ဘက်တီးရီးယားအတွက် စွမ်းအင်အရင်းအမြစ်အဖြစ်",
+            "Antibiotic အမျိုးအစားတစ်ခုအဖြစ်",
+            "ဖယ်ရှားရမည့် စွန့်ပစ်ပစ္စည်းအဖြစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A plasmid is a small, circular piece of DNA found in bacteria, separate from the main chromosome.",
+            "Scientists cut a useful gene (such as the human insulin gene) and insert it into a plasmid using enzymes.",
+          ],
+          hintsMy: [
+            "Plasmid သည် ဘက်တီးရီးယားတွင် တွေ့ရှိရသော အဓိက Chromosome နှင့် သီးခြားဖြစ်သော သေးငယ်ပြီး စက်ဝိုင်းပုံသဏ္ဌာန်ရှိသော DNA အပိုင်း ဖြစ်သည်။",
+            "သိပ္ပံပညာရှင်များသည် အသုံးဝင်သော Gene (လူ့ Insulin Gene ကဲ့သို့) ကို ဖြတ်၍ Enzyme များသုံး၍ Plasmid ထဲသို့ ထည့်သွင်းကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is genetically engineered human insulin, produced by bacteria, preferred over insulin extracted from animal pancreases?",
+          questionMy:
+              "ဘက်တီးရီးယားက ထုတ်လုပ်သော Genetically Engineered လူ့ Insulin ကို တိရစ္ဆာန် Pancreas မှ ထုတ်ယူသော Insulin ထက် ဘာကြောင့် ပို၍ ရွေးချယ်ကြသနည်း။",
+          optionsEn: [
+            "It is identical to natural human insulin, cheaper to produce at scale, and less likely to trigger an immune reaction",
+            "It is more expensive but tastes better",
+            "Animal insulin does not exist",
+            "Bacteria cannot actually produce insulin",
+          ],
+          optionsMy: [
+            "သဘာဝ လူ့ Insulin နှင့် အတိအကျ တူညီပြီး အစုလိုက် ထုတ်လုပ်ရန် ပို၍ ဈေးသက်သာကာ ကိုယ်ခံအားစနစ် တုံ့ပြန်မှု ဖြစ်နိုင်ချေ ပို၍ နည်းသည်",
+            "ပို၍ ဈေးကြီးသော်လည်း အရသာ ပို၍ ကောင်းသည်",
+            "တိရစ္ဆာန် Insulin လုံးဝ မရှိပါ",
+            "ဘက်တီးရီးယားများသည် Insulin ကို အမှန်တကယ် ထုတ်လုပ်၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since the human insulin gene itself was inserted, the protein produced is chemically identical to what a human pancreas makes.",
+            "Animal-derived insulin differs slightly and can occasionally trigger immune reactions in some patients.",
+          ],
+          hintsMy: [
+            "လူ့ Insulin Gene ကိုယ်တိုင် ထည့်သွင်းခြင်းဖြစ်သောကြောင့် ထုတ်လုပ်ထားသော ပရိုတင်းသည် လူ့ Pancreas ထုတ်လုပ်သည်နှင့် ဓာတုနည်းအားဖြင့် အတိအကျ တူညီသည်။",
+            "တိရစ္ဆာန်မှ ရရှိသော Insulin သည် အနည်းငယ် ကွဲပြားပြီး လူနာအချို့တွင် တစ်ခါတစ်ရံ ကိုယ်ခံအားစနစ် တုံ့ပြန်မှု ဖြစ်စေနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Biotechnology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇီဝနည်းပညာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w33-dm-1",
+          termEn: "Plasmid",
+          termMy: "Plasmid",
+          matchEn:
+              "A small, circular piece of bacterial DNA used as a vector in genetic engineering",
+          matchMy:
+              "Genetic Engineering တွင် Vector အဖြစ် သုံးသော ဘက်တီးရီးယား DNA ၏ သေးငယ်ပြီး စက်ဝိုင်းပုံသဏ္ဌာန်ရှိသော အပိုင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w33-dm-2",
+          termEn: "Genetic engineering",
+          termMy: "Genetic Engineering",
+          matchEn:
+              "The process of transferring a gene from one organism into another to give it a new characteristic",
+          matchMy:
+              "သက်ရှိတစ်ခုအား လက္ခဏာသစ်တစ်ခု ပေးအပ်ရန် Gene တစ်ခုကို သက်ရှိတစ်ခုမှ အခြားတစ်ခုသို့ လွှဲပြောင်းသော ဖြစ်စဉ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w33-dm-3",
+          termEn: "Fermenter",
+          termMy: "Fermenter",
+          matchEn:
+              "A large industrial vessel used to grow microorganisms on a large scale under controlled conditions",
+          matchMy:
+              "ထိန်းချုပ်ထားသော အခြေအနေများအောက်တွင် အဏုဇီဝပိုးမွှားများကို အစုလိုက် ကြီးထွားစေရန် သုံးသော စက်မှု ခွက်ကြီး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w33-dm-4",
+          termEn: "Penicillium",
+          termMy: "Penicillium",
+          matchEn:
+              "The mould genus that naturally produces the antibiotic penicillin",
+          matchMy:
+              "Antibiotic Penicillin ကို သဘာဝအလျောက် ထုတ်လုပ်ပေးသော မှို မျိုးရင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Traditional or Modern Biotechnology?",
+      titleMy: "စီစစ်ကြမည် - ရိုးရာလား ခေတ်မီဇီဝနည်းပညာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Traditional Biotechnology (Fermentation)",
+          "Modern Biotechnology (Genetic Engineering)",
+        ],
+        bucketsMy: [
+          "ရိုးရာ ဇီဝနည်းပညာ (Fermentation)",
+          "ခေတ်မီ ဇီဝနည်းပညာ (Genetic Engineering)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w33-sort-1",
+            labelEn: "Yeast fermenting sugar to make bread rise",
+            labelMy:
+                "ပေါင်မုန့်ဖောင်းစေရန် တဆေးက သကြားကို Ferment ပြုလုပ်ခြင်း",
+            correctBucketEn: "Traditional Biotechnology (Fermentation)",
+            correctBucketMy: "ရိုးရာ ဇီဝနည်းပညာ (Fermentation)",
+          ),
+          SortingItem(
+            id: "igcsebio-w33-sort-2",
+            labelEn:
+                "Inserting the human insulin gene into a bacterial plasmid",
+            labelMy:
+                "လူ့ Insulin Gene ကို ဘက်တီးရီးယား Plasmid ထဲသို့ ထည့်သွင်းခြင်း",
+            correctBucketEn: "Modern Biotechnology (Genetic Engineering)",
+            correctBucketMy: "ခေတ်မီ ဇီဝနည်းပညာ (Genetic Engineering)",
+          ),
+          SortingItem(
+            id: "igcsebio-w33-sort-3",
+            labelEn: "Growing Penicillium mould to harvest penicillin",
+            labelMy: "Penicillin ရိတ်သိမ်းရန် Penicillium မှို စိုက်ပျိုးခြင်း",
+            correctBucketEn: "Traditional Biotechnology (Fermentation)",
+            correctBucketMy: "ရိုးရာ ဇီဝနည်းပညာ (Fermentation)",
+          ),
+          SortingItem(
+            id: "igcsebio-w33-sort-4",
+            labelEn:
+                "Modifying a bacterium's DNA so it produces a human protein",
+            labelMy:
+                "ဘက်တီးရီးယားတစ်ကောင်၏ DNA ကို လူ့ပရိုတင်း ထုတ်လုပ်စေရန် ပြုပြင်ခြင်း",
+            correctBucketEn: "Modern Biotechnology (Genetic Engineering)",
+            correctBucketMy: "ခေတ်မီ ဇီဝနည်းပညာ (Genetic Engineering)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Researcher Dr. Zin's Insulin Factory",
+      titleMy: "စာဖတ်ခြင်း - သုတေသီ ဒေါက်တာဇင်၏ Insulin စက်ရုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Researcher Dr. Zin's Insulin Factory",
+        titleMy: "သုတေသီ ဒေါက်တာဇင်၏ Insulin စက်ရုံ",
+        passageEn:
+            "Dr. Zin, a biotechnology researcher, gave an online talk to a Biology class explaining how the insulin used by diabetic patients today, including the boy Dr. Htet Htet had described in an earlier lesson, is actually produced. Before genetic engineering became widespread, she explained, insulin was extracted directly from the pancreases of pigs and cows, a process that was expensive, required enormous numbers of animals, and occasionally caused allergic reactions since animal insulin differs slightly from human insulin.\n\nShe then described the modern process step by step. Scientists first identify and cut out the human gene responsible for producing insulin, using specific enzymes that act like molecular scissors. This gene is then inserted into a bacterial plasmid, a small circular loop of DNA, which acts as a vector to carry the gene into a bacterium such as E. coli. Once inside, the bacterium's own cellular machinery reads the inserted human gene as if it were its own, and begins producing human insulin protein -- genetically and chemically identical to the insulin a human pancreas would make.\n\nDr. Zin explained that because bacteria reproduce extremely quickly, doubling in number every twenty minutes or so under good conditions, a single successfully engineered bacterium can be grown in a large industrial fermenter into billions of insulin-producing bacteria within days, all descended from that one genetically modified cell. This approach solved multiple problems at once: it eliminated the need for animal pancreases entirely, produced insulin chemically identical to the human hormone (eliminating most allergic reactions), and could be scaled up almost indefinitely to meet growing global demand -- which is exactly why nearly all insulin used in modern medicine today is produced this way rather than extracted from animals.",
+        passageMy:
+            "ဇီဝနည်းပညာ သုတေသီ ဒေါက်တာဇင်သည် ယနေ့ ဆီးချိုလူနာများ (ယခင်သင်ခန်းစာတစ်ခုတွင် ဒေါက်တာထက်ထက် ဖော်ပြခဲ့သော ယောကျ်ားလေးလည်း ပါဝင်) အသုံးပြုနေသော Insulin ကို မည်သို့ အမှန်တကယ် ထုတ်လုပ်ကြောင်း ရှင်းပြသည့် Online ဟောပြောချက်တစ်ခုကို ဇီဝဗေဒအတန်းသို့ ပေးခဲ့သည်။ Genetic Engineering ကျယ်ပြန့်စွာ အသုံးမပြုမီ Insulin ကို ဝက်နှင့် နွားများ၏ Pancreas မှ တိုက်ရိုက် ထုတ်ယူခဲ့ကြောင်း၊ ဤဖြစ်စဉ်သည် ဈေးကြီးပြီး တိရစ္ဆာန်များစွာ လိုအပ်ကာ တိရစ္ဆာန် Insulin သည် လူ့ Insulin နှင့် အနည်းငယ် ကွဲပြားသောကြောင့် တစ်ခါတစ်ရံ Allergic Reaction ဖြစ်စေခဲ့ကြောင်း သူမ ရှင်းပြခဲ့သည်။\n\nထို့နောက် သူမသည် ခေတ်မီဖြစ်စဉ်ကို အဆင့်ဆင့် ဖော်ပြခဲ့သည်။ သိပ္ပံပညာရှင်များသည် Insulin ထုတ်လုပ်ရန် တာဝန်ရှိသော လူ့ Gene ကို ဦးစွာ ဖော်ထုတ်ပြီး Molecular Scissor များကဲ့သို့ လုပ်ဆောင်သော အထူး Enzyme များသုံး၍ ဖြတ်ယူသည်။ ဤ Gene ကို ထို့နောက် ဘက်တီးရီးယား Plasmid၊ DNA ၏ သေးငယ်ပြီး စက်ဝိုင်းပုံသဏ္ဌာန်ရှိသော ကွင်းတစ်ခုထဲသို့ ထည့်သွင်းပြီး ၎င်းသည် E. coli ကဲ့သို့သော ဘက်တီးရီးယားထဲသို့ Gene ကို သယ်ဆောင်ပေးသော Vector အဖြစ် လုပ်ဆောင်သည်။ အတွင်းသို့ ရောက်ရှိပြီးနောက် ဘက်တီးရီးယား၏ ကိုယ်ပိုင် ဆဲလ်ယန္တရားသည် ထည့်သွင်းထားသော လူ့ Gene ကို ၎င်း၏ ကိုယ်ပိုင်ဟု ယူဆကာ လူ့ Insulin ပရိုတင်းကို ထုတ်လုပ်စတင်သည် -- လူ့ Pancreas ထုတ်လုပ်မည့် Insulin နှင့် Genetically နှင့် ဓာတုနည်းအားဖြင့် အတိအကျ တူညီသည်။\n\nဘက်တီးရီးယားများသည် အလွန်လျင်မြန်စွာ မျိုးပွားသဖြင့်၊ အခြေအနေကောင်းများအောက်တွင် မိနစ် ၂၀ ခန့်တိုင်း အရေအတွက် နှစ်ဆတိုးလာသဖြင့် အောင်မြင်စွာ Engineer လုပ်ထားသော ဘက်တီးရီးယားတစ်ကောင်တည်းကို ကြီးမားသော စက်မှု Fermenter တစ်ခုတွင် စိုက်ပျိုးလိုက်ရုံဖြင့် ရက်အနည်းငယ်အတွင်း ထိုတစ်ကောင်တည်း Genetically Modified ဆဲလ်မှ ဆင်းသက်လာသော Insulin ထုတ်လုပ်နေသော ဘက်တီးရီးယား ဘီလီယံချီ ရရှိနိုင်ကြောင်း ဒေါက်တာဇင် ရှင်းပြခဲ့သည်။ ဤနည်းလမ်းသည် ပြဿနာများစွာကို တစ်ပြိုင်နက် ဖြေရှင်းပေးခဲ့သည်- တိရစ္ဆာန် Pancreas လိုအပ်ခြင်းကို လုံးဝ ဖယ်ရှားပေးပြီး၊ လူ့ Hormone နှင့် ဓာတုနည်းအားဖြင့် တူညီသော Insulin ထုတ်လုပ်ပေးကာ (Allergic Reaction အများစုကို ဖယ်ရှားပေး) ကမ္ဘာလုံးဆိုင်ရာ လိုအပ်ချက် တိုးလာမှုကို ဖြည့်ဆည်းရန် လုံးဝနီးပါး အကန့်အသတ်မရှိ အတိုင်းအတာ တိုးချဲ့နိုင်သည် -- ၎င်းသည် ယနေ့ ခေတ်မီဆေးပညာတွင် သုံးနေသော Insulin လုံးလုံးနီးပါးကို တိရစ္ဆာန်များမှ ထုတ်ယူသည့်အစား ဤနည်းလမ်းဖြင့် ထုတ်လုပ်နေရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problems did animal-extracted insulin have?",
+            questionMy:
+                "တိရစ္ဆာန်မှ ထုတ်ယူသော Insulin တွင် မည်သည့်ပြဿနာများ ရှိခဲ့ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was expensive, required many animals, and could cause allergic reactions",
+              "It was completely free to produce",
+              "It worked perfectly with no downsides",
+              "It could only be used once per patient",
+            ],
+            optionsMy: [
+              "ဈေးကြီးပြီး တိရစ္ဆာန်များစွာ လိုအပ်ကာ Allergic Reaction ဖြစ်စေနိုင်ခြင်း",
+              "ထုတ်လုပ်ရန် လုံးဝ အခမဲ့ ဖြစ်ခြင်း",
+              "ချို့ယွင်းချက် လုံးဝမရှိဘဲ ပြီးပြည့်စုံစွာ အလုပ်လုပ်ခြင်း",
+              "လူနာတစ်ဦးလျှင် တစ်ကြိမ်သာ အသုံးပြု၍ ရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing the drawbacks of animal-extracted insulin.",
+              "Cost, animal numbers, and allergic reactions are all mentioned.",
+            ],
+            hintsMy: [
+              "တိရစ္ဆာန်မှ ထုတ်ယူသော Insulin ၏ ချို့ယွင်းချက်များကို စာရင်းပြုစုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဈေးနှုန်း၊ တိရစ္ဆာန်အရေအတွက်နှင့် Allergic Reaction တို့ကို ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what role does the plasmid play in the process?",
+            questionMy:
+                "ဖြစ်စဉ်တွင် Plasmid ၏ အခန်းကဏ္ဍကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It acts as a vector, carrying the human insulin gene into the bacterium",
+              "It directly produces insulin itself without any bacterium",
+              "It destroys the bacterium's own DNA",
+              "It has no real role in the process",
+            ],
+            optionsMy: [
+              "Vector အဖြစ် လုပ်ဆောင်ကာ လူ့ Insulin Gene ကို ဘက်တီးရီးယားထဲသို့ သယ်ဆောင်ပေးခြင်း",
+              "ဘက်တီးရီးယား မပါဘဲ Insulin ကို ကိုယ်တိုင် တိုက်ရိုက် ထုတ်လုပ်ခြင်း",
+              "ဘက်တီးရီးယား၏ ကိုယ်ပိုင် DNA ကို ဖျက်ဆီးခြင်း",
+              "ဖြစ်စဉ်တွင် အမှန်တကယ် အခန်းကဏ္ဍ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explicitly describing the plasmid's job.",
+              "Vectors carry genetic material from one place to another.",
+            ],
+            hintsMy: [
+              "Plasmid ၏ တာဝန်ကို တိတိကျကျ ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Vector များသည် Genetic ပစ္စည်းများကို နေရာတစ်ခုမှ တစ်ခုသို့ သယ်ဆောင်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why can a single engineered bacterium produce billions of copies within days?",
+            questionMy:
+                "Engineer လုပ်ထားသော ဘက်တီးရီးယားတစ်ကောင်တည်းသည် ရက်အနည်းငယ်အတွင်း ဘီလီယံချီ မိတ္တူများ ထုတ်လုပ်နိုင်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bacteria reproduce extremely quickly, doubling roughly every twenty minutes",
+              "Bacteria never reproduce at all",
+              "The plasmid multiplies itself without the bacterium",
+              "Scientists manually copy each bacterium by hand",
+            ],
+            optionsMy: [
+              "ဘက်တီးရီးယားများသည် အလွန်လျင်မြန်စွာ မျိုးပွားပြီး မိနစ် ၂၀ ခန့်တိုင်း အရေအတွက် နှစ်ဆ တိုးလာသောကြောင့်",
+              "ဘက်တီးရီးယားများသည် လုံးဝ မျိုးမပွားခြင်း",
+              "Plasmid သည် ဘက်တီးရီးယား မပါဘဲ ၎င်းကိုယ်တိုင် မွှားများခြင်း",
+              "သိပ္ပံပညာရှင်များက ဘက်တီးရီးယားတစ်ကောင်ချင်းစီကို လက်ဖြင့် ကူးယူပေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about bacteria's reproduction rate under good conditions.",
+              "Rapid doubling means exponential growth in a short time.",
+            ],
+            hintsMy: [
+              "အခြေအနေကောင်းများအောက်တွင် ဘက်တီးရီးယား၏ မျိုးပွားနှုန်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "လျင်မြန်စွာ နှစ်ဆတိုးခြင်းက အချိန်တိုအတွင်း Exponential ကြီးထွားမှုကို ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what three problems did this approach solve at once?",
+            questionMy:
+                "ဤနည်းလမ်းက တစ်ပြိုင်နက် ဖြေရှင်းပေးခဲ့သော ပြဿနာသုံးမျိုးကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Eliminated animal pancreases, matched human insulin exactly, and could scale up to meet demand",
+              "Made insulin taste better, cheaper packaging, and faster delivery",
+              "It solved no problems at all",
+              "It only worked for one patient at a time",
+            ],
+            optionsMy: [
+              "တိရစ္ဆာန် Pancreas လိုအပ်ခြင်းကို ဖယ်ရှားပေးပြီး လူ့ Insulin နှင့် အတိအကျ ကိုက်ညီကာ လိုအပ်ချက်ကို ဖြည့်ဆည်းရန် တိုးချဲ့နိုင်ခြင်း",
+              "Insulin အရသာ ပို၍ ကောင်းစေပြီး ထုပ်ပိုးမှု ဈေးသက်သာကာ ပို့ဆောင်မှု ပို၍ မြန်ဆန်ခြင်း",
+              "မည်သည့်ပြဿနာကိုမျှ လုံးဝ မဖြေရှင်းခဲ့ခြင်း",
+              "တစ်ကြိမ်လျှင် လူနာတစ်ဦးအတွက်သာ အလုပ်လုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence listing what this approach eliminated and enabled.",
+              "This is why almost all modern insulin is produced this way.",
+            ],
+            hintsMy: [
+              "ဤနည်းလမ်းက ဖယ်ရှားပေးခဲ့သည့်နှင့် ဖြစ်စေနိုင်သည့်အရာများကို စာရင်းပြုစုထားသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ခေတ်မီ Insulin လုံးလုံးနီးပါးကို ဤနည်းဖြင့် ထုတ်လုပ်နေရသည့် အကြောင်းရင်းဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Biotechnology",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - ဇီဝနည်းပညာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Penicillin is naturally produced by...",
+          questionMy: "Penicillin ကို သဘာဝအလျောက် ...က ထုတ်လုပ်သည်",
+          optionsEn: [
+            "A mould (Penicillium)",
+            "A virus",
+            "A green plant",
+            "A human cell",
+          ],
+          optionsMy: [
+            "မှို (Penicillium)",
+            "ဗိုင်းရပ်စ်",
+            "အပင်စိမ်း",
+            "လူ့ဆဲလ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A plasmid used in genetic engineering acts as a...",
+          questionMy:
+              "Genetic Engineering တွင် သုံးသော Plasmid သည် ...အဖြစ် လုပ်ဆောင်သည်",
+          optionsEn: [
+            "Vector carrying a gene into a bacterium",
+            "Type of antibiotic",
+            "Source of glucose",
+            "Waste product",
+          ],
+          optionsMy: [
+            "Gene ကို ဘက်တီးရီးယားထဲသို့ သယ်ဆောင်ပေးသော Vector",
+            "Antibiotic အမျိုးအစား",
+            "ဂလူးကို့စ် အရင်းအမြစ်",
+            "စွန့်ပစ်ပစ္စည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Genetically engineered human insulin is preferred because it is...",
+          questionMy:
+              "Genetically Engineered လူ့ Insulin ကို ရွေးချယ်ကြသည့်အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Chemically identical to natural human insulin",
+            "Always more expensive than animal insulin",
+            "Made entirely of sugar",
+            "Never used in modern medicine",
+          ],
+          optionsMy: [
+            "သဘာဝ လူ့ Insulin နှင့် ဓာတုနည်းအားဖြင့် အတိအကျ တူညီခြင်း",
+            "တိရစ္ဆာန် Insulin ထက် အမြဲ ပို၍ ဈေးကြီးခြင်း",
+            "သကြားဖြင့် လုံးလုံး ပြုလုပ်ထားခြင်း",
+            "ခေတ်မီဆေးပညာတွင် ဘယ်တော့မှ မသုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 34: "Ecosystems and Biodiversity"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek34 = CourseWeekDef(
+  id: "course-igcse-bio-w34",
+  weekNumber: 34,
+  titleEn: "Ecosystems and Biodiversity",
+  titleMy: "ဂေဟစနစ်များနှင့် ဇီဝမျိုးစုံမျိုးကွဲများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w34-d1",
+      dayNumber: 1,
+      titleEn: "Food Chains and Energy Flow",
+      titleMy: "အစားအစာ ကွင်းဆက်များနှင့် စွမ်းအင် စီးဆင်းမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a food chain, an arrow between two organisms shows...",
+          questionMy:
+              "အစားအစာ ကွင်းဆက်တစ်ခုတွင် သက်ရှိနှစ်ခုကြား မြှားတစ်ခုက ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "The direction of energy flow, from what is eaten to what eats it",
+            "Which organism is bigger",
+            "Which organism lives longer",
+            "The direction of water flow only",
+          ],
+          optionsMy: [
+            "စွမ်းအင် စီးဆင်းမှု ဦးတည်ချက်၊ စားခံရသောအရာမှ စားသောအရာဆီသို့",
+            "မည်သည့်သက်ရှိ ပို၍ ကြီးမားကြောင်း",
+            "မည်သည့်သက်ရှိ ပို၍ သက်တမ်းရှည်ကြောင်း",
+            "ရေစီးဆင်းမှု ဦးတည်ချက်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A food chain always starts with a producer, such as a green plant.",
+            "The arrow points from the organism being eaten to the organism eating it.",
+          ],
+          hintsMy: [
+            "အစားအစာ ကွင်းဆက်တစ်ခုသည် အပင်စိမ်းကဲ့သို့သော Producer တစ်ခုနှင့် အမြဲ စတင်သည်။",
+            "မြှားသည် စားခံရသော သက်ရှိမှ စားသော သက်ရှိဆီသို့ ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Approximately what percentage of energy is typically transferred from one trophic level to the next?",
+          questionMy:
+              "Trophic Level တစ်ခုမှ နောက်တစ်ခုသို့ ပုံမှန်အားဖြင့် စွမ်းအင် ရာခိုင်နှုန်း မည်မျှခန့် လွှဲပြောင်းလေ့ရှိသနည်း။",
+          optionsEn: ["About 10%", "About 90%", "Exactly 100%", "0%"],
+          optionsMy: ["၁၀% ခန့်", "၉၀% ခန့်", "၁၀၀% အတိအကျ", "၀%"],
+          correctIndex: 0,
+          hintsEn: [
+            "Most energy is lost as heat through respiration, or lost in movement and undigested material.",
+            "This is why food chains rarely have more than four or five levels -- there isn't enough energy left to support more.",
+          ],
+          hintsMy: [
+            "စွမ်းအင်အများစုသည် Respiration မှတစ်ဆင့် အပူအဖြစ် ဆုံးရှုံးသွားခြင်း၊ သို့မဟုတ် လှုပ်ရှားမှုနှင့် မချေဖျက်နိုင်သော ပစ္စည်းအဖြစ် ဆုံးရှုံးသွားသည်။",
+            "ဤသည်မှာ အစားအစာ ကွင်းဆက်များ လေးခု သို့မဟုတ် ငါးခုထက် ပို၍ ရှားရှားပါးပါးသာ ရှိသည့် အကြောင်းရင်းဖြစ်သည် -- ပို၍ ထောက်ပံ့ရန် စွမ်းအင် မလုံလောက်တော့ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a trophic level?",
+          questionMy: "Trophic Level ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A feeding position in a food chain, such as producer or primary consumer",
+            "A type of soil",
+            "A measure of temperature",
+            "A type of rock",
+          ],
+          optionsMy: [
+            "Producer သို့မဟုတ် Primary Consumer ကဲ့သို့သော အစားအစာကွင်းဆက်ရှိ ကျွေးမွေးမှု နေရာ",
+            "မြေဆီလွှာအမျိုးအစားတစ်ခု",
+            "အပူချိန် တိုင်းတာမှု",
+            "ကျောက်အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Producers are the first trophic level, primary consumers the second, and so on.",
+            "Each step along a food chain represents one trophic level.",
+          ],
+          hintsMy: [
+            "Producer များသည် ပထမ Trophic Level ဖြစ်ပြီး Primary Consumer များသည် ဒုတိယ Trophic Level ဖြစ်သည်။",
+            "အစားအစာ ကွင်းဆက်တစ်လျှောက် အဆင့်တစ်ခုစီသည် Trophic Level တစ်ခုကို ကိုယ်စားပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ecosystem Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဂေဟစနစ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w34-dm-1",
+          termEn: "Producer",
+          termMy: "Producer",
+          matchEn:
+              "An organism, usually a green plant, that makes its own food through photosynthesis",
+          matchMy:
+              "Photosynthesis မှတစ်ဆင့် ၎င်း၏ ကိုယ်ပိုင် အစားအစာကို ပြုလုပ်ပေးသော သက်ရှိ၊ ပုံမှန်အားဖြင့် အပင်စိမ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w34-dm-2",
+          termEn: "Primary consumer",
+          termMy: "Primary Consumer",
+          matchEn: "An animal that eats producers directly (a herbivore)",
+          matchMy: "Producer များကို တိုက်ရိုက် စားသော တိရစ္ဆာန် (Herbivore)",
+          colorValue: 0xFF8BC34A,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w34-dm-3",
+          termEn: "Food web",
+          termMy: "Food Web",
+          matchEn:
+              "A network of interconnected food chains within an ecosystem",
+          matchMy:
+              "ဂေဟစနစ်တစ်ခုအတွင်း ချိတ်ဆက်နေသော အစားအစာကွင်းဆက်များ ကွန်ရက်",
+          colorValue: 0xFF00BCD4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w34-dm-4",
+          termEn: "Decomposer",
+          termMy: "Decomposer",
+          matchEn:
+              "An organism that breaks down dead material, releasing nutrients back into the ecosystem",
+          matchMy:
+              "သေဆုံးသော ပစ္စည်းများကို ချေဖျက်ကာ အာဟာရများကို ဂေဟစနစ်ထဲသို့ ပြန်လွှတ်ပေးသော သက်ရှိ",
+          colorValue: 0xFF795548,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w34-dm-5",
+          termEn: "Nitrogen fixation",
+          termMy: "Nitrogen Fixation",
+          matchEn:
+              "The conversion of nitrogen gas into a usable form, such as nitrates, by certain bacteria",
+          matchMy:
+              "ဘက်တီးရီးယားအချို့မှ နိုက်ထရိုဂျင်ဓာတ်ငွေ့ကို Nitrate ကဲ့သို့ အသုံးဝင်သော ပုံစံသို့ ပြောင်းလဲပေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Trophic Level?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Trophic Level",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Producer", "Primary Consumer", "Secondary Consumer"],
+        bucketsMy: ["Producer", "Primary Consumer", "Secondary Consumer"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w34-sort-1",
+            labelEn: "Grass in a field, making its own food by photosynthesis",
+            labelMy:
+                "လယ်ကွင်းရှိ မြက်ခင်း၊ Photosynthesis ဖြင့် ၎င်း၏ကိုယ်ပိုင် အစားအစာ ပြုလုပ်ခြင်း",
+            correctBucketEn: "Producer",
+            correctBucketMy: "Producer",
+          ),
+          SortingItem(
+            id: "igcsebio-w34-sort-2",
+            labelEn: "A rabbit eating grass",
+            labelMy: "မြက်ခင်း စားနေသော ယုန်တစ်ကောင်",
+            correctBucketEn: "Primary Consumer",
+            correctBucketMy: "Primary Consumer",
+          ),
+          SortingItem(
+            id: "igcsebio-w34-sort-3",
+            labelEn: "A fox eating a rabbit",
+            labelMy: "ယုန်ကို စားနေသော ခွေးအမှိုက်စား",
+            correctBucketEn: "Secondary Consumer",
+            correctBucketMy: "Secondary Consumer",
+          ),
+          SortingItem(
+            id: "igcsebio-w34-sort-4",
+            labelEn: "Phytoplankton in the ocean, photosynthesising",
+            labelMy:
+                "ပင်လယ်ရေထဲရှိ Phytoplankton, Photosynthesis ပြုလုပ်နေခြင်း",
+            correctBucketEn: "Producer",
+            correctBucketMy: "Producer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ranger Ma Hla's Forest Survey",
+      titleMy: "စာဖတ်ခြင်း - တောစောင့် မလှ၏ တောလေ့လာမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ranger Ma Hla's Forest Survey",
+        titleMy: "တောစောင့် မလှ၏ တောလေ့လာမှု",
+        passageEn:
+            "Ma Hla, a forest ranger, led a Biology class through a nature reserve to map out a local food web, and she began by asking the students to record every feeding relationship they could observe. They noted grass and other plants being eaten by grasshoppers and deer, grasshoppers being eaten by small birds, deer and small birds both being preyed on by a resident wildcat, and dead leaves and animal droppings everywhere being broken down by fungi and bacteria in the soil.\n\nBack at the ranger station, Ma Hla explained that this collection of feeding relationships formed a food web rather than a single food chain, since most animals in the reserve ate more than one type of food and were eaten by more than one type of predator -- the wildcat, for instance, ate both deer and small birds, making it part of two different chains within the same web. She then asked the class to estimate how much of the energy captured by the grass through photosynthesis would eventually reach the wildcat, several trophic levels away.\n\nUsing the rule that roughly only 10% of energy transfers successfully from one trophic level to the next, a student calculated that grass capturing 10,000 units of energy would pass only about 1,000 units to the grasshoppers and deer that ate it, then only about 100 units to the birds and the wildcat's other prey, and finally only around 10 units of the original 10,000 would actually reach the wildcat itself. Ma Hla confirmed this was roughly accurate and explained why: most energy at each level is lost as heat through respiration, used for movement, or locked up in materials like bone and fur that the next consumer cannot digest -- which is exactly why food chains rarely extend beyond four or five trophic levels, and why top predators like the wildcat are naturally much rarer than the grass supporting the entire food web beneath them.",
+        passageMy:
+            "တောစောင့် မလှသည် ဒေသန္တရ အစားအစာကွန်ရက်တစ်ခုကို ရေးဆွဲရန် ဇီဝဗေဒအတန်းကို သဘာဝထိန်းသိမ်းမှုနယ်မြေတစ်ခုတစ်လျှောက် ဦးဆောင်ခဲ့ပြီး၊ ကျောင်းသားများအား တွေ့မြင်နိုင်သမျှ ကျွေးမွေးမှု ဆက်နွှယ်မှုတိုင်းကို မှတ်တမ်းတင်ရန် တောင်းဆိုခြင်းဖြင့် စတင်ခဲ့သည်။ ကျိုင်းကောင်များနှင့် ဒရယ်များက မြက်နှင့် အခြားအပင်များကို စားနေခြင်း၊ ငှက်ငယ်များက ကျိုင်းကောင်များကို စားနေခြင်း၊ ဒရယ်နှင့် ငှက်ငယ်နှစ်ခုစလုံးကို ဒေသခံ ကြောင်တောတစ်ကောင်က ဖမ်းစားနေခြင်း၊ နှင့် အရွက်သေများနှင့် တိရစ္ဆာန်ချေးများကို မြေဆီလွှာရှိ မှိုနှင့် ဘက်တီးရီးယားများက ရှိသမျှနေရာတိုင်းတွင် ချေဖျက်နေခြင်းကို သူတို့ မှတ်တမ်းတင်ခဲ့ကြသည်။\n\nတောစောင့်စခန်းသို့ ပြန်ရောက်သောအခါ ကျွေးမွေးမှု ဆက်နွှယ်မှု စုစည်းမှုသည် အစားအစာကွင်းဆက်တစ်ခုတည်းအစား အစားအစာကွန်ရက်တစ်ခု ဖွဲ့စည်းထားကြောင်း မလှက ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ထိန်းသိမ်းမှုနယ်မြေရှိ တိရစ္ဆာန်အများစုသည် အစားအစာအမျိုးအစား တစ်မျိုးထက်ပို၍ စားပြီး အမဲစားတိရစ္ဆာန် တစ်မျိုးထက်ပို၍ ဖမ်းစားခံခဲ့ရသောကြောင့် ဖြစ်သည် -- ဥပမာ ကြောင်တောသည် ဒရယ်နှင့် ငှက်ငယ်နှစ်မျိုးလုံးကို စားသဖြင့် တူညီသော ကွန်ရက်အတွင်း ကွင်းဆက်နှစ်ခု၏ အစိတ်အပိုင်းဖြစ်လာသည်။ ထို့နောက် Photosynthesis မှတစ်ဆင့် မြက်ရရှိသော စွမ်းအင် မည်မျှသည် Trophic Level များစွာ ကွာဝေးနေသော ကြောင်တောဆီသို့ နောက်ဆုံးတွင် ရောက်ရှိနိုင်ကြောင်း ခန့်မှန်းရန် အတန်းကို တောင်းဆိုခဲ့သည်။\n\nTrophic Level တစ်ခုမှ နောက်တစ်ခုသို့ စွမ်းအင်၏ ၁၀% ခန့်သာ အောင်မြင်စွာ လွှဲပြောင်းသည့် စည်းမျဉ်းကို သုံး၍ ကျောင်းသားတစ်ဦးက မြက်သည် စွမ်းအင် ယူနစ် ၁၀,၀၀၀ ရရှိပါက ၎င်းကို စားသော ကျိုင်းကောင်များနှင့် ဒရယ်များထံသို့ ယူနစ် ၁,၀၀၀ ခန့်သာ လွှဲပြောင်းပေးမည်၊ ထို့နောက် ငှက်များနှင့် ကြောင်တော၏ အခြားအမဲကောင်များထံသို့ ယူနစ် ၁၀၀ ခန့်သာ၊ နောက်ဆုံးတွင် မူလ ၁၀,၀၀၀ ၏ ယူနစ် ၁၀ ခန့်သာ ကြောင်တောထံသို့ အမှန်တကယ် ရောက်ရှိမည်ဟု တွက်ချက်ခဲ့သည်။ မလှက ဤသည် အကြမ်းဖျင်း မှန်ကန်ကြောင်း အတည်ပြုပြီး အကြောင်းရင်းကို ရှင်းပြခဲ့သည်- အဆင့်တစ်ခုစီရှိ စွမ်းအင်အများစုသည် Respiration မှတစ်ဆင့် အပူအဖြစ် ဆုံးရှုံးသွားသည်၊ လှုပ်ရှားမှုအတွက် သုံးစွဲသည်၊ သို့မဟုတ် နောက်ထပ် Consumer က မချေဖျက်နိုင်သော အရိုးနှင့် အမွှေးကဲ့သို့သော ပစ္စည်းများထဲတွင် ချုပ်ထားရသည် -- ဤသည်မှာ အစားအစာကွင်းဆက်များ လေးခု သို့မဟုတ် ငါးခု Trophic Level ကို ရှားရှားပါးပါးသာ ကျော်လွန်သည့် အကြောင်းရင်းနှင့် ကြောင်တောကဲ့သို့ ထိပ်ဆုံးအမဲစားတိရစ္ဆာန်များသည် အောက်ဆုံးရှိ အစားအစာကွန်ရက်တစ်ခုလုံးကို ထောက်ပံ့နေသော မြက်ထက် သဘာဝအလျောက် ပို၍ ရှားပါးသည့် အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the wildcat's feeding relationships form a web rather than a single chain?",
+            questionMy:
+                "ကြောင်တော၏ ကျွေးမွေးမှု ဆက်နွှယ်မှုများသည် ကွင်းဆက်တစ်ခုတည်းအစား ကွန်ရက်တစ်ခု ဖွဲ့စည်းရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The wildcat ate more than one type of prey, connecting multiple chains",
+              "The wildcat only ate one type of food",
+              "There were no other animals in the reserve",
+              "Food webs and food chains are exactly the same thing",
+            ],
+            optionsMy: [
+              "ကြောင်တောသည် အမဲကောင် တစ်မျိုးထက်ပို၍ စားသဖြင့် ကွင်းဆက်များစွာကို ချိတ်ဆက်ပေးခဲ့ခြင်း",
+              "ကြောင်တောသည် အစားအစာတစ်မျိုးတည်းသာ စားခြင်း",
+              "ထိန်းသိမ်းမှုနယ်မြေတွင် အခြားတိရစ္ဆာန် လုံးဝ မရှိခြင်း",
+              "Food Web နှင့် Food Chain သည် အတိအကျ တူညီသော အရာတစ်ခုတည်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the wildcat's role as an example.",
+              "Eating both deer and small birds connects it to two different chains.",
+            ],
+            hintsMy: [
+              "ကြောင်တော၏ အခန်းကဏ္ဍကို ဥပမာအဖြစ် ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဒရယ်နှင့် ငှက်ငယ် နှစ်မျိုးလုံးကို စားခြင်းက ၎င်းကို ကွင်းဆက်နှစ်ခုနှင့် ချိတ်ဆက်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how many energy units out of the original 10,000 reached the wildcat?",
+            questionMy:
+                "မူလ ၁၀,၀၀၀ ထဲမှ စွမ်းအင် ယူနစ် မည်မျှ ကြောင်တောထံသို့ ရောက်ရှိခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "About 10 units",
+              "All 10,000 units",
+              "About 5,000 units",
+              "0 units",
+            ],
+            optionsMy: [
+              "ယူနစ် ၁၀ ခန့်",
+              "ယူနစ် ၁၀,၀၀၀ လုံး",
+              "ယူနစ် ၅,၀၀၀ ခန့်",
+              "ယူနစ် ၀",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the calculation tracing energy through each trophic level.",
+              "Roughly 10% is lost at each of the three transfers.",
+            ],
+            hintsMy: [
+              "Trophic Level တစ်ခုစီ တစ်လျှောက် စွမ်းအင်ကို ခြေရာခံသော တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အလွှဲပြောင်းသုံးကြိမ်လျှင် အကြမ်းဖျင်း ၁၀% စီ ဆုံးရှုံးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, where does most of the 'lost' energy actually go at each trophic level?",
+            questionMy:
+                "Trophic Level တစ်ခုစီတွင် 'ဆုံးရှုံးသော' စွမ်းအင်အများစု အမှန်တကယ် မည်သို့ သွားရောက်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Lost as heat through respiration, used for movement, or locked in indigestible material",
+              "It simply vanishes without a trace",
+              "It is stored permanently in the soil",
+              "It transfers completely to the next level with no loss",
+            ],
+            optionsMy: [
+              "Respiration မှတစ်ဆင့် အပူအဖြစ် ဆုံးရှုံးခြင်း၊ လှုပ်ရှားမှုအတွက် သုံးစွဲခြင်း၊ သို့မဟုတ် မချေဖျက်နိုင်သော ပစ္စည်းထဲတွင် ချုပ်ထားခြင်း",
+              "ရိုးရိုးရှင်းရှင်း ခြေရာမခံဘဲ ပျောက်ကွယ်သွားခြင်း",
+              "မြေဆီလွှာထဲတွင် အမြဲတမ်း သိမ်းဆည်းထားခြင်း",
+              "ဆုံးရှုံးမှု လုံးဝမရှိဘဲ နောက်တစ်ဆင့်သို့ လုံးလုံး လွှဲပြောင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Ma Hla's explanation of where the energy goes.",
+              "Respiration, movement, and indigestible material like bone and fur are all mentioned.",
+            ],
+            hintsMy: [
+              "စွမ်းအင် မည်သို့ သွားရောက်ကြောင်း ရှင်းပြသော မလှ၏ ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Respiration, လှုပ်ရှားမှုနှင့် အရိုး/အမွှေးကဲ့သို့ မချေဖျက်နိုင်သော ပစ္စည်းများကို ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why are top predators like the wildcat naturally rarer than grass?",
+            questionMy:
+                "ကြောင်တောကဲ့သို့ ထိပ်ဆုံးအမဲစားတိရစ္ဆာန်များသည် မြက်ထက် သဘာဝအလျောက် ပို၍ ရှားပါးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only a small fraction of the original energy survives the multiple transfers to reach them",
+              "Wildcats reproduce much slower than grass grows",
+              "Grass is protected by law",
+              "Wildcats do not need any energy at all",
+            ],
+            optionsMy: [
+              "မူလစွမ်းအင်၏ အစိတ်အပိုင်းငယ်တစ်ခုသာ လွှဲပြောင်းမှုများစွာကို ကျော်ကာ ၎င်းတို့ထံသို့ ရောက်ရှိသောကြောင့်",
+              "ကြောင်တောများသည် မြက်ကြီးထွားနှုန်းထက် များစွာ နှေးကွေးစွာ မျိုးပွားသောကြောင့်",
+              "မြက်ကို ဥပဒေက ကာကွယ်ထားသောကြောင့်",
+              "ကြောင်တောများသည် စွမ်းအင် လုံးဝ မလိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This directly follows from the 10% energy transfer rule explained earlier in the paragraph.",
+              "Less available energy at higher trophic levels can only support fewer individuals.",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ စာပိုဒ်အစောပိုင်းက ရှင်းပြထားသော ၁၀% စွမ်းအင်လွှဲပြောင်းမှု စည်းမျဉ်းမှ တိုက်ရိုက် ဆင်းသက်လာသည်။",
+              "Trophic Level မြင့်လေ ရရှိနိုင်သော စွမ်းအင် နည်းလေဖြစ်ပြီး ပုဂ္ဂိုလ်ရေးအရေအတွက် နည်းသာ ထောက်ပံ့နိုင်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Ecosystems",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - ဂေဟစနစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Producers make their own food through...",
+          questionMy:
+              "Producer များသည် ...မှတစ်ဆင့် ၎င်းတို့၏ ကိုယ်ပိုင် အစားအစာ ပြုလုပ်ကြသည်",
+          optionsEn: [
+            "Photosynthesis",
+            "Respiration",
+            "Digestion",
+            "Excretion",
+          ],
+          optionsMy: [
+            "Photosynthesis",
+            "Respiration",
+            "Digestion",
+            "Excretion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Roughly how much energy transfers between trophic levels?",
+          questionMy:
+              "Trophic Level များကြား စွမ်းအင် မည်မျှခန့် လွှဲပြောင်းလေ့ရှိသနည်း",
+          optionsEn: ["About 10%", "About 100%", "About 50%", "About 1%"],
+          optionsMy: ["၁၀% ခန့်", "၁၀၀% ခန့်", "၅၀% ခန့်", "၁% ခန့်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Decomposers help ecosystems by...",
+          questionMy: "Decomposer များသည် ...ဖြင့် ဂေဟစနစ်များကို ကူညီပေးသည်",
+          optionsEn: [
+            "Breaking down dead material and releasing nutrients back into the ecosystem",
+            "Producing their own food through photosynthesis",
+            "Hunting large prey animals",
+            "Preventing all decay from happening",
+          ],
+          optionsMy: [
+            "သေဆုံးသော ပစ္စည်းများကို ချေဖျက်ကာ အာဟာရများကို ဂေဟစနစ်ထဲသို့ ပြန်လွှတ်ပေးခြင်း",
+            "Photosynthesis မှတစ်ဆင့် ၎င်းတို့၏ ကိုယ်ပိုင် အစားအစာ ပြုလုပ်ခြင်း",
+            "အမဲကောင်ကြီးများကို လိုက်လံဖမ်းဆီးခြင်း",
+            "ပုပ်ပျက်မှု အားလုံး ဖြစ်ပေါ်ခြင်းကို ကာကွယ်တားဆီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 35: "Full Past Paper Mock Examinations"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek35 = CourseWeekDef(
+  id: "course-igcse-bio-w35",
+  weekNumber: 35,
+  titleEn: "Full Past Paper Mock Examinations",
+  titleMy: "မေးခွန်းဟောင်း ပုံစံတူ စာမေးပွဲ အစုံအလင် ဖြေဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mock Paper 1: Cells, Nutrition and Transport",
+      titleMy: "Mock Paper 1: ဆဲလ်များ၊ အာဟာရနှင့် သယ်ယူပို့ဆောင်ရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A plant cell placed in a concentrated sugar solution becomes plasmolysed. Which process caused this?",
+          questionMy:
+              "ပြင်းသော သကြားရည်ထဲတွင် ထားလိုက်သော အပင်ဆဲလ်တစ်ခု Plasmolysed ဖြစ်သွားသည်။ မည်သည့်ဖြစ်စဉ်က ဤသို့ ဖြစ်စေသနည်း။",
+          optionsEn: [
+            "Osmosis",
+            "Active transport",
+            "Diffusion of sugar into the cell",
+            "Respiration",
+          ],
+          optionsMy: [
+            "Osmosis",
+            "Active Transport",
+            "ဆဲလ်ထဲသို့ သကြား Diffuse ဝင်ခြင်း",
+            "Respiration",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Water left the cell because the surrounding solution had a lower water potential.",
+            "This is the process from Term 2's diffusion and osmosis lessons.",
+          ],
+          hintsMy: [
+            "ပတ်ဝန်းကျင်ရည်တွင် ရေအလားအလာ နိမ့်နေသောကြောင့် ရေသည် ဆဲလ်မှ ထွက်ခွာသွားခဲ့သည်။",
+            "ဤသည်မှာ ဒုတိယနှစ်ဝက် Diffusion နှင့် Osmosis သင်ခန်းစာများမှ ဖြစ်စဉ်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which food test would confirm the presence of protein in a sample?",
+          questionMy:
+              "နမူနာတစ်ခုတွင် ပရိုတင်း ပါဝင်ကြောင်း မည်သည့် အစားအစာစမ်းသပ်မှုက အတည်ပြုမည်နည်း။",
+          optionsEn: [
+            "Biuret test",
+            "Iodine test",
+            "Benedict's test",
+            "Ethanol emulsion test",
+          ],
+          optionsMy: [
+            "Biuret Test",
+            "Iodine Test",
+            "Benedict's Test",
+            "Ethanol Emulsion Test",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This test turns from blue to purple (lilac) when protein is present.",
+            "This was covered in Term 2's food tests lesson.",
+          ],
+          hintsMy: [
+            "ဤ Test သည် ပရိုတင်းရှိသောအခါ အပြာမှ ခရမ်းရောင် (Lilac) သို့ ပြောင်းလဲသည်။",
+            "ဤအရာကို ဒုတိယနှစ်ဝက် အစားအစာစမ်းသပ်မှု သင်ခန်းစာတွင် ဖုံးအုပ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Xylem tissue is adapted for its function by being made of dead cells. Why is this an advantage?",
+          questionMy:
+              "Xylem တစ်ရှူးသည် ဆဲလ်သေများဖြင့် ဖွဲ့စည်းထားခြင်းဖြင့် ၎င်း၏ လုပ်ဆောင်ချက်အတွက် လိုက်လျောညီထွေမှု ရှိသည်။ ဤသည် အားသာချက် ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Dead cells with no cell contents form hollow, unobstructed tubes for water to flow through easily",
+            "Dead cells are heavier and sink better",
+            "Dead cells can still carry out photosynthesis",
+            "Dead cells produce more oxygen",
+          ],
+          optionsMy: [
+            "ဆဲလ်တွင်းပါဝင်ပစ္စည်း မရှိသော ဆဲလ်သေများသည် ရေ လွယ်ကူစွာ စီးဆင်းနိုင်ရန် လွတ်ပြီး အတားအဆီးမရှိသော ပြွန်များ ဖွဲ့စည်းပေးခြင်း",
+            "ဆဲလ်သေများသည် ပို၍ လေးလံပြီး ပို၍ ကောင်းစွာ နစ်ခြင်း",
+            "ဆဲလ်သေများသည် Photosynthesis ကို ဆက်လက် ပြုလုပ်နိုင်ခြင်း",
+            "ဆဲလ်သေများသည် အောက်ဆီဂျင် ပို၍ ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same reasoning covered in Term 4's transport in plants lesson.",
+            "Empty tubes offer less resistance to water flow than tubes full of living cell contents.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ စတုတ္ထနှစ်ဝက် Transport in Plants သင်ခန်းစာတွင် ဖုံးအုပ်ခဲ့သော ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            "လွတ်နေသော ပြွန်များသည် အသက်ရှင်ဆဲလ်ပါဝင်ပစ္စည်းများ ပြည့်နေသော ပြွန်များထက် ရေစီးဆင်းမှုကို ခုခံမှု နည်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mixed Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - ရောစပ် ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w35-dm-1",
+          termEn: "Denaturation",
+          termMy: "Denaturation",
+          matchEn:
+              "A permanent change to an enzyme's active site shape caused by heat or extreme pH",
+          matchMy:
+              "အပူချိန် သို့မဟုတ် pH အလွန်အကျွံကြောင့် အင်ဇိုင်း၏ Active Site ပုံသဏ္ဌာန် အမြဲတမ်း ပြောင်းလဲခြင်း",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w35-dm-2",
+          termEn: "Double circulation",
+          termMy: "Double Circulation",
+          matchEn:
+              "Blood passing through the heart twice on one full circuit of the body",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ဝန်း ပတ်ချာလှည့်တစ်ကြိမ်တွင် သွေးသည် နှလုံးကို နှစ်ကြိမ် ဖြတ်ကျော်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w35-dm-3",
+          termEn: "Negative feedback",
+          termMy: "Negative Feedback",
+          matchEn:
+              "A control system that reverses a change to bring conditions back to normal",
+          matchMy:
+              "အခြေအနေများကို ပုံမှန်သို့ ပြန်ခေါ်ဆောင်ရန် ပြောင်းလဲမှုကို ပြောင်းပြန်လှန်ပေးသော ထိန်းချုပ်မှုစနစ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w35-dm-4",
+          termEn: "Genotype",
+          termMy: "Genotype",
+          matchEn:
+              "The genetic makeup of an organism, expressed as its alleles (e.g. Tt)",
+          matchMy:
+              "Allele များ (ဥပမာ Tt) အဖြစ် ဖော်ပြသော သက်ရှိတစ်ခု၏ Genetic ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w35-dm-5",
+          termEn: "Trophic level",
+          termMy: "Trophic Level",
+          matchEn:
+              "A feeding position within a food chain, such as producer or primary consumer",
+          matchMy:
+              "Producer သို့မဟုတ် Primary Consumer ကဲ့သို့သော အစားအစာကွင်းဆက်ရှိ ကျွေးမွေးမှုနေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w35-dm-6",
+          termEn: "Vector (genetic engineering)",
+          termMy: "Vector (Genetic Engineering)",
+          matchEn:
+              "A plasmid or other carrier used to transfer a gene into an organism",
+          matchMy:
+              "Gene တစ်ခုကို သက်ရှိတစ်ခုထဲသို့ လွှဲပြောင်းရန် သုံးသော Plasmid သို့မဟုတ် အခြား သယ်ဆောင်ပေးသူ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Unit Does This Belong To?",
+      titleMy: "စီစစ်ကြမည် - ဤအရာသည် မည်သည့်ယူနစ်တွင် ပါဝင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Cells, Molecules and Enzymes (Terms 1-3)",
+          "Nutrition and Transport (Terms 4-5)",
+          "Gas Exchange, Coordination and Genetics (Terms 6-8)",
+        ],
+        bucketsMy: [
+          "ဆဲလ်များ၊ မော်လီကျူးများနှင့် အင်ဇိုင်းများ (တစ်ဆယ့်တစ်-သုံး)",
+          "အာဟာရနှင့် သယ်ယူပို့ဆောင်ရေး (လေး-ငါး)",
+          "ဓာတ်ငွေ့ဖလှယ်မှု၊ ညှိနှိုင်းမှုနှင့် မျိုးရိုးဗီဇ (ခြောက်-အဌမ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w35-sort-1",
+            labelEn: "The lock-and-key model of enzyme action",
+            labelMy: "အင်ဇိုင်း လုပ်ဆောင်ချက်၏ Lock-and-Key Model",
+            correctBucketEn: "Cells, Molecules and Enzymes (Terms 1-3)",
+            correctBucketMy:
+                "ဆဲလ်များ၊ မော်လီကျူးများနှင့် အင်ဇိုင်းများ (တစ်ဆယ့်တစ်-သုံး)",
+          ),
+          SortingItem(
+            id: "igcsebio-w35-sort-2",
+            labelEn: "Bile emulsifying fats in the small intestine",
+            labelMy: "သိမ်ငယ်အူတွင် Bile က အဆီများကို Emulsify ပြုလုပ်ခြင်း",
+            correctBucketEn: "Nutrition and Transport (Terms 4-5)",
+            correctBucketMy: "အာဟာရနှင့် သယ်ယူပို့ဆောင်ရေး (လေး-ငါး)",
+          ),
+          SortingItem(
+            id: "igcsebio-w35-sort-3",
+            labelEn: "A reflex arc protecting the hand from a hot surface",
+            labelMy: "Reflex Arc တစ်ခုက လက်ကို ပူသောမျက်နှာပြင်မှ ကာကွယ်ခြင်း",
+            correctBucketEn:
+                "Gas Exchange, Coordination and Genetics (Terms 6-8)",
+            correctBucketMy:
+                "ဓာတ်ငွေ့ဖလှယ်မှု၊ ညှိနှိုင်းမှုနှင့် မျိုးရိုးဗီဇ (ခြောက်-အဌမ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w35-sort-4",
+            labelEn: "The binomial system of naming species",
+            labelMy: "မျိုးစိတ်များ အမည်တပ်ရန် ဒွိနာမ် စနစ်",
+            correctBucketEn: "Cells, Molecules and Enzymes (Terms 1-3)",
+            correctBucketMy:
+                "ဆဲလ်များ၊ မော်လီကျူးများနှင့် အင်ဇိုင်းများ (တစ်ဆယ့်တစ်-သုံး)",
+          ),
+          SortingItem(
+            id: "igcsebio-w35-sort-5",
+            labelEn: "Punnett squares predicting offspring ratios",
+            labelMy: "မျိုးဆက် အချိုးများ ခန့်မှန်းသော Punnett Square များ",
+            correctBucketEn:
+                "Gas Exchange, Coordination and Genetics (Terms 6-8)",
+            correctBucketMy:
+                "ဓာတ်ငွေ့ဖလှယ်မှု၊ ညှိနှိုင်းမှုနှင့် မျိုးရိုးဗီဇ (ခြောက်-အဌမ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w35-sort-6",
+            labelEn: "The heart's double circulation",
+            labelMy: "နှလုံး၏ Double Circulation",
+            correctBucketEn: "Nutrition and Transport (Terms 4-5)",
+            correctBucketMy: "အာဟာရနှင့် သယ်ယူပို့ဆောင်ရေး (လေး-ငါး)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri Nandar's Exam Strategy",
+      titleMy: "စာဖတ်ခြင်း - သီရိနန္ဒာ၏ စာမေးပွဲ နည်းဗျူဟာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri Nandar's Exam Strategy",
+        titleMy: "သီရိနန္ဒာ၏ စာမေးပွဲ နည်းဗျူဟာ",
+        passageEn:
+            "With her real IGCSE Biology exam only weeks away, Thiri Nandar, who had first appeared back in Term 3 examining a leaf cross-section under a microscope, sat down with her teacher to build a revision strategy for tackling past papers under timed conditions. Her teacher's first piece of advice was to read every question twice before answering: many marks were lost not from a lack of knowledge, but from misreading a command word like 'describe' as 'explain', or missing a crucial detail such as a question asking specifically about a plant cell rather than an animal cell.\n\nHer teacher then explained command words in detail. 'Describe' meant stating what happens, in order, without necessarily saying why; 'explain' meant giving reasons, often using words like 'because' or 'so that'; and 'compare' meant identifying both similarities and differences between two things, not just listing facts about each one separately. Thiri Nandar realised she had lost marks on a practice paper the previous week by writing a pure description of osmosis when the question had actually asked her to explain why a potato chip in salt water had lost mass -- she had described the process without connecting it to the specific example.\n\nFinally, her teacher recommended a simple time-management technique: divide the total marks available by the total time allowed to calculate roughly how many minutes each mark was worth, then use that figure to avoid spending fifteen minutes on a three-mark question while leaving no time for a six-mark question later in the paper. Thiri Nandar practised this on a full mock paper, checking her watch after each section, and found that pacing herself this way let her attempt every question with time to spare for checking her answers -- a stark contrast to a previous mock paper where she had run out of time and left the final two questions completely blank.",
+        passageMy:
+            "သူမ၏ တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲ ရက်သတ္တပတ်အနည်းငယ်သာ ကျန်တော့သည့်အချိန်တွင်၊ တတိယနှစ်ဝက်က အရွက်ဖြတ်ပိုင်းကို အဏုကြည့်မှန်ပြောင်းအောက်တွင် ပထမဆုံး စစ်ဆေးကြည့်ရှုခဲ့သော သီရိနန္ဒာသည် အချိန်ကန့်သတ်ချက်များအောက်တွင် စာမေးပွဲဟောင်းများကို ရင်ဆိုင်ဖြေရှင်းရန် ပြန်လည်ကျက်မှတ်ရေး နည်းဗျူဟာတစ်ခု တည်ဆောက်ရန် သူမ၏ ဆရာမနှင့်အတူ ထိုင်ခဲ့သည်။ သူမ၏ ဆရာမ၏ ပထမဆုံး အကြံဉာဏ်မှာ ဖြေဆိုမီ မေးခွန်းတိုင်းကို နှစ်ကြိမ် ဖတ်ရှုရန် ဖြစ်သည်- Command Word တစ်ခု 'Describe' ကို 'Explain' ဟု မှားဖတ်မိခြင်း သို့မဟုတ် အပင်ဆဲလ်နှင့် ပတ်သက်၍ တိတိကျကျ မေးထားသော မေးခွန်းတစ်ခုကို တိရစ္ဆာန်ဆဲလ်နှင့် ရောထွေးမိခြင်းကဲ့သို့သော အရေးကြီးသော အသေးစိတ်ကို လွတ်ကျွင်းခဲ့ခြင်းစသည်တို့ကြောင့် Marks များစွာ ဆုံးရှုံးရသည်ကို အသိပညာ အားနည်းခြင်းကြောင့် မဟုတ်ဘဲ ဖြစ်တတ်ကြောင်း ဖော်ပြခဲ့သည်။\n\nသူမ၏ ဆရာမက Command Word များကို အသေးစိတ် ရှင်းပြခဲ့သည်။ 'Describe' က အဘယ်ကြောင့်ဟု အကြောင်းရင်း မဖော်ပြဘဲ အစီအစဉ်အလိုက် အဘယ်ဖြစ်ပေါ်ကြောင်းကို ဆိုလိုပြီး 'Explain' က 'because' သို့မဟုတ် 'so that' ကဲ့သို့သော စကားလုံးများ မကြာခဏ သုံး၍ အကြောင်းရင်းများ ပေးအပ်ရန် ဆိုလိုသည်၊ 'Compare' က နှစ်ခုတစ်ခုစီအကြောင်း အချက်များကို သီးခြားစီ စာရင်းပြုစုရုံသာ မဟုတ်ဘဲ နှစ်ခုကြား တူညီချက်နှင့် ကွာခြားချက် နှစ်ခုစလုံးကို ဖော်ထုတ်ရန် ဆိုလိုသည်။ ယခင်တစ်ပတ်က လက်တွေ့စမ်းသပ်မှုစာရွက်တွင် Osmosis ၏ ရိုးရှင်းသော Description ကို ရေးသားခဲ့ရာ Marks ဆုံးရှုံးခဲ့ကြောင်း သီရိနန္ဒာ သဘောပေါက်လာခဲ့သည်၊ မေးခွန်းက အာလူးချောင်းတစ်ခု ဆားရည်ထဲတွင် အလေးချိန် အဘယ်ကြောင့် ဆုံးရှုံးခဲ့ကြောင်း Explain ပြုလုပ်ရန် တောင်းဆိုထားခဲ့ခြင်း ဖြစ်သည် -- သူမသည် ဖြစ်စဉ်ကို တိတိကျကျ ဥပမာနှင့် မချိတ်ဆက်ဘဲ Describe ရေးသားခဲ့ခြင်း ဖြစ်သည်။\n\nနောက်ဆုံးတွင် သူမ၏ ဆရာမက ရိုးရှင်းသော အချိန်စီမံခန့်ခွဲမှု နည်းစနစ်တစ်ခုကို အကြံပြုခဲ့သည်- ရရှိနိုင်သော Marks စုစုပေါင်းကို ခွင့်ပြုထားသော အချိန်စုစုပေါင်းနှင့် စား၍ Marks တစ်ခုစီ မိနစ် မည်မျှတန်ကြောင်း အကြမ်းဖျင်း တွက်ချက်ပြီး၊ Marks သုံးမှတ်ရှိသော မေးခွန်းတစ်ခုတွင် မိနစ် ၁၅ မိနစ် အသုံးမပြုမိစေရန် ထို Figure ကို အသုံးပြုကာ စာရွက်နောက်ပိုင်းရှိ Marks ခြောက်မှတ်ရှိသော မေးခွန်းတစ်ခုအတွက် အချိန် လုံးဝ မကျန်စေရန် ရှောင်ရှားရန် အကြံပြုခဲ့သည်။ သီရိနန္ဒာသည် ဤအကြောင်းကို Mock Paper အပြည့်အစုံတစ်ခုတွင် လေ့ကျင့်ခဲ့ပြီး၊ အပိုင်းတစ်ခုစီပြီးနောက် သူမ၏ နာရီကို စစ်ဆေးကာ၊ ဤသို့ ခြေလှမ်းချိန်ညှိခြင်းက သူမအား ဖြေဆိုချက်များ ပြန်စစ်ဆေးရန် အချိန်ကျန်စွာဖြင့် မေးခွန်းတိုင်းကို ကြိုးစားဖြေဆိုနိုင်စေကြောင်း တွေ့ရှိခဲ့သည် -- အချိန်ကုန်သွားပြီး နောက်ဆုံးမေးခွန်းနှစ်ခုကို လုံးလုံး အလွတ်ချန်ခဲ့ရသော ယခင် Mock Paper တစ်ခုနှင့် ပြောင်းပြန် ကွဲပြားစွာ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did the teacher say marks were often lost?",
+            questionMy:
+                "Marks များစွာ မကြာခဏ ဆုံးရှုံးရသည့် အကြောင်းရင်းကို ဆရာမက အဘယ်သို့ ပြောခဲ့ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Misreading command words or missing crucial question details, not from lack of knowledge",
+              "Students never studied at all",
+              "The exams were always too easy",
+              "Students wrote too much detail every time",
+            ],
+            optionsMy: [
+              "Command Word များ မှားဖတ်ခြင်း သို့မဟုတ် အရေးကြီးသော မေးခွန်းအသေးစိတ်များ လွတ်ကျွင်းခြင်းကြောင့်၊ အသိပညာ အားနည်းခြင်းကြောင့် မဟုတ်ခြင်း",
+              "ကျောင်းသားများ လုံးဝ လေ့လာမှု မပြုလုပ်ခဲ့ခြင်း",
+              "စာမေးပွဲများ အမြဲ လွယ်ကူလွန်းခြင်း",
+              "ကျောင်းသားများ အချိန်တိုင်း အသေးစိတ် လွန်ကဲစွာ ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why marks were lost.",
+              "Misreading 'describe' as 'explain' is given as a specific example.",
+            ],
+            hintsMy: [
+              "Marks ဆုံးရှုံးရသည့် အကြောင်းရင်းကို ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "'Describe' ကို 'Explain' ဟု မှားဖတ်ခြင်းကို တိတိကျကျ ဥပမာအဖြစ် ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does the command word 'compare' require?",
+            questionMy:
+                "Command Word 'Compare' က အဘယ်ကို တောင်းဆိုကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Identifying both similarities and differences between two things",
+              "Listing facts about only one thing",
+              "Drawing a diagram only",
+              "Giving no reasons at all",
+            ],
+            optionsMy: [
+              "နှစ်ခုကြား တူညီချက်နှင့် ကွာခြားချက် နှစ်ခုစလုံးကို ဖော်ထုတ်ခြင်း",
+              "တစ်ခုတည်းအကြောင်း အချက်များကိုသာ စာရင်းပြုစုခြင်း",
+              "ပုံကြမ်းကိုသာ ဆွဲခြင်း",
+              "အကြောင်းရင်း လုံးဝ မပေးအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the definition of 'compare' given by the teacher.",
+              "This is different from simply describing each thing separately.",
+            ],
+            hintsMy: [
+              "ဆရာမ ပေးထားသော 'Compare' ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ တစ်ခုစီကို သီးခြားစီ ရိုးရှင်းစွာ Describe ပြုလုပ်ခြင်းနှင့် ကွဲပြားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Thiri Nandar make on her previous practice paper?",
+            questionMy:
+                "ယခင် လက်တွေ့စမ်းသပ်မှုစာရွက်တွင် သီရိနန္ဒာ မည်သည့် အမှား ပြုလုပ်ခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She wrote a pure description of osmosis when the question asked her to explain a specific example",
+              "She left the entire paper blank",
+              "She used the wrong colour pen",
+              "She answered every question perfectly",
+            ],
+            optionsMy: [
+              "မေးခွန်းက တိတိကျကျ ဥပမာတစ်ခုကို Explain ပြုလုပ်ရန် တောင်းဆိုနေစဉ် Osmosis ၏ ရိုးရှင်းသော Description ကို ရေးသားခဲ့ခြင်း",
+              "စာရွက်တစ်ခုလုံးကို အလွတ်ချန်ခဲ့ခြင်း",
+              "မှားယွင်းသော ခဲတံအရောင် သုံးခဲ့ခြင်း",
+              "မေးခွန်းတိုင်းကို ပြီးပြည့်စုံစွာ ဖြေဆိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing her specific mistake with the potato chip question.",
+              "She described the process without connecting it to the specific example asked about.",
+            ],
+            hintsMy: [
+              "အာလူးချောင်းမေးခွန်းနှင့်ပတ်သက်သော သူမ၏ တိတိကျကျ အမှားကို ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "သူမသည် မေးထားသော တိတိကျကျ ဥပမာနှင့် မချိတ်ဆက်ဘဲ ဖြစ်စဉ်ကို Describe ပြုလုပ်ခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the benefit of Thiri Nandar's time-management technique?",
+            questionMy:
+                "သီရိနန္ဒာ၏ အချိန်စီမံခန့်ခွဲမှု နည်းစနစ်၏ အကျိုးကျေးဇူးကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It let her attempt every question with time left over to check her answers",
+              "It made the exam twice as long",
+              "It caused her to skip half the paper",
+              "It had no effect on her performance",
+            ],
+            optionsMy: [
+              "ဖြေဆိုချက်များ ပြန်စစ်ဆေးရန် အချိန်ကျန်စွာဖြင့် မေးခွန်းတိုင်းကို ကြိုးစားဖြေဆိုနိုင်စေခြင်း",
+              "စာမေးပွဲကို နှစ်ဆ ရှည်စေခြင်း",
+              "စာရွက်ထက်ဝက်ကို ကျော်သွားစေခြင်း",
+              "သူမ၏ စွမ်းဆောင်ရည်အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence contrasting this mock paper with a previous one.",
+              "This is contrasted with a previous mock paper where she ran out of time.",
+            ],
+            hintsMy: [
+              "ဤ Mock Paper ကို ယခင်တစ်ခုနှင့် နှိုင်းယှဉ်ထားသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို အချိန်ကုန်သွားခဲ့သော ယခင် Mock Paper တစ်ခုနှင့် နှိုင်းယှဉ်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Exam Technique",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - စာမေးပွဲ နည်းပညာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The command word 'explain' requires you to...",
+          questionMy: "Command Word 'Explain' က သင့်အား ...ရန် တောင်းဆိုသည်",
+          optionsEn: [
+            "Give reasons for something",
+            "Only draw a diagram",
+            "List facts with no reasons",
+            "Ignore the question",
+          ],
+          optionsMy: [
+            "တစ်စုံတစ်ခုအတွက် အကြောင်းရင်းများ ပေးအပ်ရန်",
+            "ပုံကြမ်းကိုသာ ဆွဲရန်",
+            "အကြောင်းရင်း မပါဘဲ အချက်များ စာရင်းပြုစုရန်",
+            "မေးခွန်းကို လျစ်လျူရှုရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good time-management strategy in an exam is to...",
+          questionMy:
+              "စာမေးပွဲတစ်ခုတွင် ကောင်းမွန်သော အချိန်စီမံခန့်ခွဲမှု နည်းဗျူဟာမှာ...",
+          optionsEn: [
+            "Allocate time roughly based on the marks available for each question",
+            "Spend all your time on the first question",
+            "Never check your watch",
+            "Leave the last few questions blank on purpose",
+          ],
+          optionsMy: [
+            "မေးခွန်းတစ်ခုစီအတွက် ရရှိနိုင်သော Marks အပေါ်မူတည်၍ အချိန်ကို အကြမ်းဖျင်း ခွဲဝေခြင်း",
+            "အချိန်အားလုံးကို ပထမမေးခွန်းအတွက် သုံးစွဲခြင်း",
+            "နာရီကို ဘယ်တော့မှ မစစ်ဆေးခြင်း",
+            "နောက်ဆုံး မေးခွန်းအနည်းငယ်ကို တမင်တကာ အလွတ်ချန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a food chain, energy transfer efficiency between trophic levels is roughly...",
+          questionMy:
+              "အစားအစာကွင်းဆက်တစ်ခုတွင် Trophic Level များကြား စွမ်းအင် လွှဲပြောင်းမှု ထိရောက်မှုမှာ အကြမ်းဖျင်း...",
+          optionsEn: ["10%", "90%", "50%", "100%"],
+          optionsMy: ["၁၀%", "၉၀%", "၅၀%", "၁၀၀%"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 36 (Capstone): "IGCSE Biology Graduation"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek36 = CourseWeekDef(
+  id: "course-igcse-bio-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Biology Graduation",
+  titleMy: "IGCSE ဇီဝဗေဒ ဘွဲ့နှင်းသဘင် အထိမ်းအမှတ်",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w36-d1",
+      dayNumber: 1,
+      titleEn: "Whole-Course Review: Terms 1-5",
+      titleMy: "သင်တန်းတစ်ခုလုံး ပြန်လည်သုံးသပ်ခြင်း - ပထမ-ပဉ္စမနှစ်ဝက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "MRS GREN is a mnemonic for the seven characteristics of...",
+          questionMy: "MRS GREN သည် ...၏ လက္ခဏာခုနစ်ခုအတွက် မှတ်ဉာဏ်ကူ ဖြစ်သည်",
+          optionsEn: [
+            "Living organisms",
+            "Rocks",
+            "Chemical elements",
+            "Weather patterns",
+          ],
+          optionsMy: [
+            "သက်ရှိသတ္တဝါများ",
+            "ကျောက်များ",
+            "ဓာတုဒြပ်စင်များ",
+            "ရာသီဥတု ပုံစံများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these correctly describes an enzyme?",
+          questionMy:
+              "အင်ဇိုင်းတစ်ခုကို မှန်ကန်စွာ ဖော်ပြသည့်အရာမှာ အောက်ပါတို့အနက် အဘယ်နည်း",
+          optionsEn: [
+            "A protein that speeds up a specific reaction without being used up",
+            "A type of sugar",
+            "A hormone produced only by the pancreas",
+            "A structure found only in animal cells",
+          ],
+          optionsMy: [
+            "ကိုယ်တိုင် မကုန်ဆုံးဘဲ တိတိကျကျ တုံ့ပြန်မှုတစ်ခုကို မြန်ဆန်စေသော ပရိုတင်း",
+            "သကြားအမျိုးအစားတစ်ခု",
+            "Pancreas တစ်ခုတည်းမှ ထုတ်လုပ်သော Hormone",
+            "တိရစ္ဆာန်ဆဲလ်များတွင်သာ တွေ့ရသော ဖွဲ့စည်းပုံ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The human alimentary canal's five stages, in order, are ingestion, digestion, absorption, assimilation, and...",
+          questionMy:
+              "လူ့အစာချေလမ်းကြောင်း၏ အဆင့်ငါးဆင့်၊ အစီအစဉ်အလိုက် Ingestion, Digestion, Absorption, Assimilation နှင့်...",
+          optionsEn: [
+            "Egestion",
+            "Fertilisation",
+            "Ovulation",
+            "Photosynthesis",
+          ],
+          optionsMy: [
+            "Egestion",
+            "Fertilisation",
+            "Ovulation",
+            "Photosynthesis",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The heart's left ventricle has the thickest wall because it must...",
+          questionMy:
+              "နှလုံး၏ ဘယ်ဘက် Ventricle သည် နံရံအထူဆုံးရှိသည့် အကြောင်းရင်းမှာ ၎င်းသည် ...ရမည်ဖြစ်သောကြောင့်",
+          optionsEn: [
+            "Pump blood all the way around the whole body",
+            "Only pump blood to the nearby lungs",
+            "Store extra blood",
+            "Produce hormones",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခုလုံးကို သွေးပန့်",
+            "အနီးရှိ အဆုတ်ဆီသို့သာ သွေးပန့်",
+            "သွေးအပို သိမ်းဆည်း",
+            "Hormone များ ထုတ်လုပ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: A-Level Biology Preview",
+      titleMy: "တွဲစပ်ကြမည် - A-Level ဇီဝဗေဒ အကြိုကြည့်ရှုခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w36-dm-1",
+          termEn: "Cell membranes and transport (A-Level)",
+          termMy: "Cell Membranes and Transport (A-Level)",
+          matchEn:
+              "A-Level topic exploring membrane structure and transport in far greater molecular detail than IGCSE",
+          matchMy:
+              "IGCSE ထက် မော်လီကျူးအသေးစိတ် ပို၍ ကျယ်ပြန့်စွာ Membrane ဖွဲ့စည်းပုံနှင့် Transport ကို စူးစမ်းသော A-Level ဘာသာရပ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w36-dm-2",
+          termEn: "Nucleic acids and protein synthesis (A-Level)",
+          termMy: "Nucleic Acids and Protein Synthesis (A-Level)",
+          matchEn:
+              "A-Level topic covering how DNA's code is read and translated to build proteins",
+          matchMy:
+              "DNA ၏ Code ကို မည်သို့ ဖတ်ရှု၍ ပရိုတင်းများ တည်ဆောက်ရန် ဘာသာပြန်ကြောင်း ဖုံးအုပ်သော A-Level ဘာသာရပ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w36-dm-3",
+          termEn: "The mitotic cell cycle (A-Level)",
+          termMy: "The Mitotic Cell Cycle (A-Level)",
+          matchEn:
+              "A-Level topic examining the detailed stages a cell passes through during mitosis",
+          matchMy:
+              "Mitosis စဉ်အတွင်း ဆဲလ်တစ်ခု ဖြတ်သန်းသွားသော အသေးစိတ် အဆင့်များကို စစ်ဆေးသော A-Level ဘာသာရပ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w36-dm-4",
+          termEn: "Genetic technology (A-Level)",
+          termMy: "Genetic Technology (A-Level)",
+          matchEn:
+              "A-Level topic extending IGCSE's genetic engineering into gene sequencing and gene therapy",
+          matchMy:
+              "IGCSE ၏ Genetic Engineering ကို Gene Sequencing နှင့် Gene Therapy သို့ တိုးချဲ့သော A-Level ဘာသာရပ်",
+          colorValue: 0xFFFF9800,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This?",
+      titleMy: "စီစစ်ကြမည် - ဤအရာကို မည်သည့်နှစ်ဝက်က ဖုံးအုပ်ခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Term 1-3 (Cells, Molecules, Enzymes, Plants)",
+          "Term 4-6 (Nutrition, Transport, Disease, Respiration)",
+          "Term 7-8 (Coordination, Homeostasis, Genetics)",
+        ],
+        bucketsMy: [
+          "တစ်ဆယ့်တစ်-သုံး (ဆဲလ်များ၊ မော်လီကျူးများ၊ အင်ဇိုင်းများ၊ အပင်များ)",
+          "လေး-ခြောက် (အာဟာရ၊ သယ်ယူပို့ဆောင်ရေး၊ ရောဂါ၊ Respiration)",
+          "ခုနစ်-အဌမ (ညှိနှိုင်းမှု၊ Homeostasis၊ မျိုးရိုးဗီဇ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w36-sort-1",
+            labelEn: "The five-kingdom classification system",
+            labelMy: "ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်",
+            correctBucketEn: "Term 1-3 (Cells, Molecules, Enzymes, Plants)",
+            correctBucketMy:
+                "တစ်ဆယ့်တစ်-သုံး (ဆဲလ်များ၊ မော်လီကျူးများ၊ အင်ဇိုင်းများ၊ အပင်များ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w36-sort-2",
+            labelEn: "Diseases and their transmission routes",
+            labelMy: "ရောဂါများနှင့် ၎င်းတို့၏ ကူးစက်မှု လမ်းကြောင်းများ",
+            correctBucketEn:
+                "Term 4-6 (Nutrition, Transport, Disease, Respiration)",
+            correctBucketMy:
+                "လေး-ခြောက် (အာဟာရ၊ သယ်ယူပို့ဆောင်ရေး၊ ရောဂါ၊ Respiration)",
+          ),
+          SortingItem(
+            id: "igcsebio-w36-sort-3",
+            labelEn: "Pedigree charts and inheritance patterns",
+            labelMy: "Pedigree Chart များနှင့် မျိုးရိုးလိုက်ခြင်း ပုံစံများ",
+            correctBucketEn: "Term 7-8 (Coordination, Homeostasis, Genetics)",
+            correctBucketMy:
+                "ခုနစ်-အဌမ (ညှိနှိုင်းမှု၊ Homeostasis၊ မျိုးရိုးဗီဇ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w36-sort-4",
+            labelEn: "Aerobic and anaerobic respiration",
+            labelMy: "Aerobic နှင့် Anaerobic Respiration",
+            correctBucketEn:
+                "Term 4-6 (Nutrition, Transport, Disease, Respiration)",
+            correctBucketMy:
+                "လေး-ခြောက် (အာဟာရ၊ သယ်ယူပို့ဆောင်ရေး၊ ရောဂါ၊ Respiration)",
+          ),
+          SortingItem(
+            id: "igcsebio-w36-sort-5",
+            labelEn: "The pupil reflex and hormones versus nerves",
+            labelMy: "Pupil Reflex နှင့် Hormones vs Nerves",
+            correctBucketEn: "Term 7-8 (Coordination, Homeostasis, Genetics)",
+            correctBucketMy:
+                "ခုနစ်-အဌမ (ညှိနှိုင်းမှု၊ Homeostasis၊ မျိုးရိုးဗီဇ)",
+          ),
+          SortingItem(
+            id: "igcsebio-w36-sort-6",
+            labelEn: "Testing a leaf for starch",
+            labelMy: "အရွက်တစ်ချပ်ကို Starch အတွက် စမ်းသပ်ခြင်း",
+            correctBucketEn: "Term 1-3 (Cells, Molecules, Enzymes, Plants)",
+            correctBucketMy:
+                "တစ်ဆယ့်တစ်-သုံး (ဆဲလ်များ၊ မော်လီကျူးများ၊ အင်ဇိုင်းများ၊ အပင်များ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nandar Win's Full Circle",
+      titleMy: "စာဖတ်ခြင်း - နန္ဒာဝင်း၏ ပြည့်စုံသော စက်ဝန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nandar Win's Full Circle",
+        titleMy: "နန္ဒာဝင်း၏ ပြည့်စုံသော စက်ဝန်း",
+        passageEn:
+            "On the last day of the course, Nandar Win found her very first notebook entry from Term 1, Week 1: a short paragraph about her Biology Club nature walk along the Ayeyarwady riverbank, where she had first learned the mnemonic MRS GREN and marvelled at the idea that a motionless banyan tree and a hunting heron were both, in the same scientific sense, alive. Reading it again now, thirty-six weeks later, she was struck by how much had built on that single foundation.\n\nShe traced the thread forward in her mind: the seven life processes she had learned in Week 1 led directly into the cell structures responsible for carrying them out, which led into the enzymes controlling the chemical reactions inside those cells, which led into the digestive and circulatory systems distributing the products of those reactions around a whole body, which led into the nervous and hormonal systems coordinating how that whole body responded to its environment, and finally into the genetic instructions, passed from parents to offspring, that built a new organism capable of doing all of this from scratch. What had once felt like nine separate, disconnected terms now read to her as a single continuous argument, each part resting on the part before it.\n\nHer teacher, closing the final lesson, reminded the class that IGCSE Biology was not an ending but a foundation -- the same way Term 1's MRS GREN had turned out to underpin everything that followed, concepts like cell membranes, DNA, and enzymes would resurface in A-Level Biology in far greater depth, for any student who chose to continue. Nandar Win closed her notebook, thought once more about the grey heron on the riverbank, Ardea cinerea, and realised that learning its binomial name all those months ago had been her very first step into a way of thinking about the living world that she now, unmistakably, had made her own.",
+        passageMy:
+            "သင်တန်း၏ နောက်ဆုံးနေ့တွင် နန္ဒာဝင်းသည် သူမ၏ ပထမဆုံး မှတ်စုစာအုပ် ရေးသွင်းချက်ကို ရှာတွေ့ခဲ့သည် - ပထမနှစ်ဝက်၊ ပထမပတ်မှ ဧရာဝတီမြစ်ကမ်းတစ်လျှောက် သူမ၏ ဇီဝဗေဒအသင်း သဘာဝလမ်းလျှောက်ခရီးအကြောင်း စာပိုဒ်တိုတစ်ခု၊ ထိုနေရာတွင် သူမသည် MRS GREN မှတ်ဉာဏ်ကူကို ပထမဆုံး သင်ယူခဲ့ပြီး ငြိမ်သက်နေသော ညောင်ပင်ကြီးတစ်ပင်နှင့် အမဲလိုက်နေသော ဒီရင်းငှက်တစ်ကောင်တို့သည် သိပ္ပံနည်းတူ တူညီသော အနက်အားဖြင့် သက်ရှိနှစ်ကောင်စလုံး ဖြစ်ကြောင်း အယူအဆကို အံ့ဩခဲ့ခဲ့သည်။ ယခု ၃၆ ပတ်ကြာပြီးနောက် ၎င်းကို ပြန်ဖတ်ကြည့်ရာ ထိုအခြေခံတစ်ခုတည်းပေါ်တွင် မည်မျှများစွာ တည်ဆောက်ထားခဲ့ကြောင်းကို သူမ ထိတ်လန့်တွေ့ရှိခဲ့သည်။\n\nသူမသည် ချည်ကြိုးကို စိတ်ထဲမှ ရှေ့သို့ ခြေရာခံခဲ့သည်- ပထမပတ်တွင် သင်ယူခဲ့သော သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုသည် ၎င်းတို့ကို ဆောင်ရွက်ရန် တာဝန်ရှိသော ဆဲလ်ဖွဲ့စည်းပုံများဆီသို့ တိုက်ရိုက် ဦးတည်ခဲ့ပြီး၊ ထိုဆဲလ်များအတွင်း ဓာတုတုံ့ပြန်မှုများကို ထိန်းချုပ်သော အင်ဇိုင်းများဆီသို့ ဦးတည်ခဲ့ကာ၊ ထိုတုံ့ပြန်မှုများ၏ ရလဒ်များကို ခန္ဓာကိုယ်တစ်ခုလုံးတစ်ဝန်း ဖြန့်ဝေပေးသော အစာချေစနစ်နှင့် သွေးလည်ပတ်မှုစနစ်ဆီသို့ ဦးတည်ခဲ့ပြီး၊ ထိုခန္ဓာကိုယ်တစ်ခုလုံးက ၎င်း၏ ပတ်ဝန်းကျင်အား မည်သို့ တုံ့ပြန်ကြောင်း ညှိနှိုင်းပေးသော အာရုံကြောနှင့် ဟိုမုန်းစနစ်များဆီသို့ ဦးတည်ခဲ့ကာ၊ နောက်ဆုံးတွင် ဤအရာအားလုံးကို အစအဆုံးလုပ်ဆောင်နိုင်စွမ်းရှိသော သက်ရှိသစ်တစ်ခုကို တည်ဆောက်ပေးသော မိဘများမှ မျိုးဆက်ဆီသို့ ဆက်ခံခဲ့သော မျိုးရိုးဗီဇညွှန်ကြားချက်များဆီသို့ ဦးတည်ခဲ့သည်။ တစ်ချိန်က သီးခြား၊ ချိတ်ဆက်မှုမရှိသော နှစ်ဝက်ကိုးခုကဲ့သို့ ခံစားခဲ့ရသော အရာသည် ယခု သူမအတွက် တစ်ခုနှင့်တစ်ခု အခြေခံပေးနေသော ဆက်တိုက် ငြင်းချက်တစ်ခုတည်းအဖြစ် ဖတ်ရှုနိုင်လာခဲ့သည်။\n\nနောက်ဆုံးသင်ခန်းစာကို ပိတ်လိုက်စဉ် သူမ၏ ဆရာမက IGCSE ဇီဝဗေဒသည် အဆုံးသတ်တစ်ခု မဟုတ်ဘဲ အခြေခံအုတ်မြစ်တစ်ခု ဖြစ်ကြောင်း အတန်းအား ပြန်သတိပေးခဲ့သည် -- ပထမနှစ်ဝက် MRS GREN သည် နောက်ဆက်တွဲအားလုံးကို ထောက်ပံ့ပေးသကဲ့သို့ပင်၊ ဆက်လက်လေ့လာရန် ရွေးချယ်သော ကျောင်းသားတိုင်းအတွက် Cell Membrane, DNA နှင့် Enzyme ကဲ့သို့သော သဘောတရားများသည် A-Level ဇီဝဗေဒတွင် ပို၍ ကျယ်ပြန့်သော အနက်ရှိုင်းအတွင်း ပြန်လည် ပေါ်ထွက်လာလိမ့်မည်။ နန္ဒာဝင်းသည် သူမ၏ မှတ်စုစာအုပ်ကို ပိတ်လိုက်ပြီး၊ မြစ်ကမ်းစပ်ရှိ ပြာညိုရောင်ဒီရင်းငှက် Ardea cinerea အကြောင်း တစ်ကြိမ်ထပ်မံ တွေးတောကာ၊ လများစွာအလို ၎င်း၏ ဒွိနာမ်အမည်ကို သင်ယူခဲ့ခြင်းသည် ယခု ကျယ်ကျယ်ပြန့်ပြန့် သူမကိုယ်ပိုင် ဖြစ်လာခဲ့ပြီးဖြစ်သော သက်ရှိလောကအကြောင်း တွေးခေါ်ပုံ တစ်မျိုးဆီသို့ သူမ၏ ပထမဆုံး ခြေလှမ်းပင်ဖြစ်ခဲ့ကြောင်း သဘောပေါက်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nandar Win find on the last day of the course?",
+            questionMy:
+                "သင်တန်း၏ နောက်ဆုံးနေ့တွင် နန္ဒာဝင်း အဘယ်ကို ရှာတွေ့ခဲ့ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her very first notebook entry from Term 1, Week 1",
+              "A brand new textbook",
+              "A letter from her teacher",
+              "A map of the school",
+            ],
+            optionsMy: [
+              "ပထမနှစ်ဝက်၊ ပထမပတ်မှ သူမ၏ ပထမဆုံး မှတ်စုစာအုပ် ရေးသွင်းချက်",
+              "စာအုပ်အသစ်တစ်အုပ်",
+              "သူမ၏ ဆရာမထံမှ စာတစ်စောင်",
+              "ကျောင်း၏ မြေပုံတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 1.",
+              "This connects back to the very first reading passage of the whole course.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၁ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ သင်တန်းတစ်ခုလုံး၏ ပထမဆုံး စာဖတ်ခြင်း အပိုင်းနှင့် ပြန်ချိတ်ဆက်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nandar Win now see the nine terms of the course?",
+            questionMy:
+                "သင်တန်း၏ နှစ်ဝက်ကိုးခုကို နန္ဒာဝင်း ယခုအခါ မည်သို့ မြင်လာခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a single continuous argument, each part resting on the part before it",
+              "As nine completely unrelated subjects",
+              "As a waste of time",
+              "As something she wanted to forget immediately",
+            ],
+            optionsMy: [
+              "တစ်ခုနှင့်တစ်ခု အခြေခံပေးနေသော ဆက်တိုက် ငြင်းချက်တစ်ခုတည်းအဖြစ်",
+              "လုံးဝ မသက်ဆိုင်သော ဘာသာရပ် ကိုးခုအဖြစ်",
+              "အချိန်ဖြုန်းမှုတစ်ခုအဖြစ်",
+              "ချက်ချင်း မေ့ချင်သော အရာတစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2.",
+              "This reflects how each term's content built on the previous one's foundation.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို နှစ်ဝက်တစ်ခုစီ၏ အကြောင်းအရာသည် ယခင်တစ်ခု၏ အခြေခံအုတ်မြစ်ပေါ်တွင် မည်သို့ တည်ဆောက်ခဲ့ကြောင်း ထင်ဟပ်စေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher say about IGCSE Biology's relationship to A-Level Biology?",
+            questionMy:
+                "IGCSE ဇီဝဗေဒနှင့် A-Level ဇီဝဗေဒ၏ ဆက်နွှယ်မှုအကြောင်း ဆရာမ မည်သို့ ပြောခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "IGCSE was a foundation, and its concepts would resurface in A-Level in greater depth",
+              "A-Level Biology has nothing to do with IGCSE Biology",
+              "Students should forget everything they learned in IGCSE",
+              "IGCSE Biology is more advanced than A-Level Biology",
+            ],
+            optionsMy: [
+              "IGCSE သည် အခြေခံအုတ်မြစ်တစ်ခုဖြစ်ပြီး ၎င်း၏ သဘောတရားများသည် A-Level တွင် ပို၍ ကျယ်ပြန့်သော အနက်ရှိုင်းအတွင်း ပြန်လည် ပေါ်ထွက်လာမည်",
+              "A-Level ဇီဝဗေဒသည် IGCSE ဇီဝဗေဒနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+              "ကျောင်းသားများသည် IGCSE တွင် သင်ယူခဲ့သမျှကို မေ့ရမည်",
+              "IGCSE ဇီဝဗေဒသည် A-Level ဇီဝဗေဒထက် ပို၍ အဆင့်မြင့်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining IGCSE Biology as a foundation, not an ending.",
+              "Cell membranes, DNA, and enzymes are given as specific examples that will resurface.",
+            ],
+            hintsMy: [
+              "IGCSE ဇီဝဗေဒကို အဆုံးသတ်တစ်ခု မဟုတ်ဘဲ အခြေခံအုတ်မြစ်တစ်ခုအဖြစ် ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Cell Membrane, DNA နှင့် Enzyme တို့ကို ပြန်လည် ပေါ်ထွက်လာမည့် တိတိကျကျ ဥပမာများအဖြစ် ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What realisation did Nandar Win reach about the heron's binomial name, Ardea cinerea, at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် ဒီရင်းငှက်၏ ဒွိနာမ်အမည် Ardea cinerea အကြောင်း နန္ဒာဝင်း မည်သည့် သဘောပေါက်မှုသို့ ရောက်ရှိခဲ့သနည်း။",
+            optionsEn: [
+              "Learning it had been her very first step into a way of thinking about the living world that was now her own",
+              "She had completely forgotten the name",
+              "The name was actually incorrect",
+              "It had no connection to her learning journey at all",
+            ],
+            optionsMy: [
+              "၎င်းကို သင်ယူခဲ့ခြင်းသည် ယခု ကျယ်ကျယ်ပြန့်ပြန့် သူမကိုယ်ပိုင် ဖြစ်လာခဲ့ပြီးဖြစ်သော သက်ရှိလောကအကြောင်း တွေးခေါ်ပုံ တစ်မျိုးဆီသို့ သူမ၏ ပထမဆုံး ခြေလှမ်းပင် ဖြစ်ခဲ့ခြင်း",
+              "သူမသည် အမည်ကို လုံးဝ မေ့ပျောက်သွားခဲ့ခြင်း",
+              "အမည်သည် အမှန်တကယ် မှားယွင်းနေခြင်း",
+              "သူမ၏ သင်ယူမှု ခရီးစဉ်နှင့် လုံးဝ ဆက်စပ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "This connects the very first lesson of the course to its final reflection.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို သင်တန်း၏ ပထမဆုံးသင်ခန်းစာကို ၎င်း၏ နောက်ဆုံး ပြန်လည်သုံးသပ်ချက်နှင့် ချိတ်ဆက်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Biology Final Capstone",
+      titleMy: "IGCSE ဇီဝဗေဒ နောက်ဆုံး အထွတ်အထိပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Osmosis is the diffusion of water through a partially permeable membrane, from...",
+          questionMy:
+              "Osmosis သည် အစိတ်ပိုင်း စိမ့်ဝင်နိုင်သော အမြှေးပါးတစ်ခုကို ဖြတ်၍ ...မှ ရေ Diffuse ဖြစ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Higher water potential to lower water potential",
+            "Lower water potential to higher water potential",
+            "Hot to cold only",
+            "Light to dark only",
+          ],
+          optionsMy: [
+            "ရေအလားအလာ မြင့်ရာမှ နိမ့်ရာသို့",
+            "ရေအလားအလာ နိမ့်ရာမှ မြင့်ရာသို့",
+            "ပူရာမှ အေးရာသို့သာ",
+            "အလင်းမှ အမှောင်သို့သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which pair correctly matches a hormone with its effect on blood glucose?",
+          questionMy:
+              "Hormone တစ်ခုနှင့် သွေးဂလူးကို့စ်အပေါ် ၎င်း၏ သက်ရောက်မှုကို မှန်ကန်စွာ တွဲစပ်ထားသည့်အရာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Insulin lowers blood glucose; glucagon raises it",
+            "Insulin raises blood glucose; glucagon lowers it",
+            "Both insulin and glucagon raise blood glucose",
+            "Neither hormone affects blood glucose",
+          ],
+          optionsMy: [
+            "Insulin က သွေးဂလူးကို့စ်ကို လျှော့ချသည်၊ Glucagon က မြှင့်တင်သည်",
+            "Insulin က သွေးဂလူးကို့စ်ကို မြှင့်တင်သည်၊ Glucagon က လျှော့ချသည်",
+            "Insulin နှင့် Glucagon နှစ်ခုစလုံး သွေးဂလူးကို့စ်ကို မြှင့်တင်သည်",
+            "Hormone နှစ်မျိုးလုံး သွေးဂလူးကို့စ်အပေါ် သက်ရောက်မှု မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recessive condition appearing in a child of two unaffected parents shows that...",
+          questionMy:
+              "မထိခိုက်သော မိဘနှစ်ဦး၏ ကလေးတွင် Recessive အခြေအနေတစ်ခု ပေါ်ထွက်ခြင်းက ပြသသည်မှာ...",
+          optionsEn: [
+            "Both parents must be carriers of the recessive allele",
+            "One parent must be affected too",
+            "This is genetically impossible",
+            "Neither parent carries the allele",
+          ],
+          optionsMy: [
+            "မိဘနှစ်ဦးစလုံးသည် Recessive Allele ၏ Carrier ဖြစ်ရမည်",
+            "မိဘတစ်ဦးလည်း ထိခိုက်ရမည်",
+            "ဤသည် Genetically မဖြစ်နိုင်ပါ",
+            "မိဘတစ်ဦးမျှ Allele ကို မသယ်ဆောင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In natural selection, an advantageous variation tends to become more common in a population because...",
+          questionMy:
+              "Natural Selection တွင် အားသာချက်ရှိသော Variation တစ်ခုသည် လူဦးရေထဲတွင် ပို၍ ပုံမှန်ဖြစ်လာလေ့ရှိသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Organisms carrying it survive and reproduce more successfully",
+            "Organisms carrying it always die immediately",
+            "The environment never changes",
+            "It has no effect on survival at all",
+          ],
+          optionsMy: [
+            "၎င်းကို သယ်ဆောင်သော သက်ရှိများ ပို၍ အောင်မြင်စွာ ရှင်သန်ကာ မျိုးပွားလေ့ရှိသောကြောင့်",
+            "၎င်းကို သယ်ဆောင်သော သက်ရှိများ အမြဲ ချက်ချင်း သေဆုံးလေ့ရှိသောကြောင့်",
+            "ပတ်ဝန်းကျင်သည် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်",
+            "ရှင်သန်နိုင်စွမ်းအပေါ် မည်သည့်အကျိုးသက်ရောက်မှုမျှ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Congratulations on completing IGCSE Biology Term 1 through Term 9! Which best describes the overall structure of the course you just finished?",
+          questionMy:
+              "IGCSE ဇီဝဗေဒ ပထမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိ ပြီးမြောက်အောင် မကြာခဏ ချီးမြှင့်ပါသည်! ယခုပြီးစီးခဲ့သော သင်တန်း၏ အလုံးစုံဖွဲ့စည်းပုံကို အကောင်းဆုံးဖော်ပြသည့်အရာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Cell biology and molecules built toward whole-organism systems, which built toward genetics and ecology",
+            "Nine completely random, unrelated topics",
+            "A course covering only plants, with no mention of animals or genetics",
+            "A course with no practical or exam-focused content at all",
+          ],
+          optionsMy: [
+            "ဆဲလ်ဇီဝဗေဒနှင့် မော်လီကျူးများသည် သတ္တဝါတစ်ကောင်လုံး၏ စနစ်များဆီသို့ တည်ဆောက်ပြီး ၎င်းက မျိုးရိုးဗီဇနှင့် ဂေဟဗေဒဆီသို့ တည်ဆောက်ခဲ့ခြင်း",
+            "လုံးဝ ကျပန်း၊ မသက်ဆိုင်သော ဘာသာရပ် ကိုးခု",
+            "အပင်များကိုသာ ဖုံးအုပ်ပြီး တိရစ္ဆာန် သို့မဟုတ် မျိုးရိုးဗီဇအကြောင်း လုံးဝ ဖော်ပြခြင်းမရှိသော သင်တန်း",
+            "လက်တွေ့ သို့မဟုတ် စာမေးပွဲအာရုံစိုက်သော အကြောင်းအရာ လုံးဝ မပါဝင်သော သင်တန်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 9: "Biotechnology, Ecosystems and Final Exam Prep"
+// (Weeks 33-36)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm9 = CourseTermDef(
+  id: "course-igcse-bio-t9",
+  termNumber: 9,
+  titleEn: "Biotechnology, Ecosystems and Final Exam Prep",
+  titleMy: "ဇီဝနည်းပညာ၊ ဂေဟစနစ်များနှင့် နောက်ဆုံး စာမေးပွဲပြင်ဆင်မှု",
+  certificateTitleEn: "Biotechnology, Ecosystems and Final Exam Prep",
+  certificateTitleMy:
+      "ဇီဝနည်းပညာ၊ ဂေဟစနစ်များနှင့် နောက်ဆုံး စာမေးပွဲပြင်ဆင်မှု",
+  weeks: [_igcseBioWeek33, _igcseBioWeek34, _igcseBioWeek35, _igcseBioWeek36],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-8
-/// (Characteristics and Classification of Living Organisms, Weeks 1-4;
-/// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
-/// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
-/// Transport in Plants, Weeks 13-16; Transport in Animals and Disease,
-/// Weeks 17-20; Gas Exchange and Respiration, Weeks 21-24;
-/// Coordination, Response and Homeostasis, Weeks 25-28; Reproduction
-/// and Genetics, Weeks 29-32) are authored so far, following the
-/// blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`. Term 9
-/// is not yet authored. `terms` below intentionally lists only Terms
-/// 1-8, and `totalWeeks: 36` reflects the full planned year, following
-/// the same convention as every other in-progress pathway in this
-/// file.
+/// The IGCSE Biology course's full-year pathway. All 9 terms (Weeks
+/// 1-36) are now authored: Term 1 (Characteristics and Classification
+/// of Living Organisms), Term 2 (Movement In and Out of Cells and
+/// Biological Molecules), Term 3 (Enzymes and Plant Nutrition), Term 4
+/// (Human Nutrition and Transport in Plants), Term 5 (Transport in
+/// Animals and Disease), Term 6 (Gas Exchange and Respiration), Term 7
+/// (Coordination, Response and Homeostasis), Term 8 (Reproduction and
+/// Genetics), and Term 9 (Biotechnology, Ecosystems and Final Exam
+/// Prep, closing with a Week 36 IGCSE Biology Graduation capstone),
+/// following the blueprint at
+/// `ai_data_bridge/igcse_biology_all_terms.dart`.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   id: "course-igcse-biology",
   subject: "biology",
@@ -13457,9 +15125,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Term 8, Reproduction and Genetics, covers asexual/sexual reproduction with pollination and the human reproductive system, DNA/genes/chromosomes with mitosis versus meiosis and monohybrid Punnett-square crosses, and continuous/discontinuous variation with natural selection and selective breeding, closing with a Genetics Problem-Solving Studio capstone on test crosses and pedigree chart analysis. Term 9 is not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Term 8, Reproduction and Genetics, covers asexual/sexual reproduction with pollination and the human reproductive system, DNA/genes/chromosomes with mitosis versus meiosis and monohybrid Punnett-square crosses, and continuous/discontinuous variation with natural selection and selective breeding, closing with a Genetics Problem-Solving Studio capstone on test crosses and pedigree chart analysis. Term 9, Biotechnology, Ecosystems and Final Exam Prep, covers biotechnology and genetic engineering (plasmids, fermenters, and genetically engineered insulin), food chains/webs and the roughly 10% energy transfer between trophic levels, and a Week 35 full past-paper mock exam week revising every prior term, closing with a Week 36 IGCSE Biology Graduation capstone reflecting on the whole course and previewing A-Level Biology.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇသည် Pollination နှင့် လူ့မျိုးပွားစနစ် ပါဝင်သော Asexual/Sexual Reproduction၊ Mitosis vs Meiosis နှင့် Monohybrid Punnett-Square Cross ပါဝင်သော DNA/Gene/Chromosome၊ Natural Selection နှင့် Selective Breeding ပါဝင်သော Continuous/Discontinuous Variation ကို ဖုံးအုပ်ပြီး Test Cross များနှင့် Pedigree Chart ခွဲခြမ်းစိတ်ဖြာခြင်းအကြောင်း မျိုးရိုးဗီဇ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်ကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇသည် Pollination နှင့် လူ့မျိုးပွားစနစ် ပါဝင်သော Asexual/Sexual Reproduction၊ Mitosis vs Meiosis နှင့် Monohybrid Punnett-Square Cross ပါဝင်သော DNA/Gene/Chromosome၊ Natural Selection နှင့် Selective Breeding ပါဝင်သော Continuous/Discontinuous Variation ကို ဖုံးအုပ်ပြီး Test Cross များနှင့် Pedigree Chart ခွဲခြမ်းစိတ်ဖြာခြင်းအကြောင်း မျိုးရိုးဗီဇ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ ဇီဝနည်းပညာ၊ ဂေဟစနစ်များနှင့် နောက်ဆုံး စာမေးပွဲပြင်ဆင်မှုသည် ဇီဝနည်းပညာနှင့် Genetic Engineering (Plasmid, Fermenter နှင့် Genetically Engineered Insulin)၊ အစားအစာကွင်းဆက်/ကွန်ရက်များနှင့် Trophic Level များကြား ၁၀% ခန့် စွမ်းအင်လွှဲပြောင်းမှု၊ ယခင်နှစ်ဝက်တိုင်းကို ပြန်လည်ကျက်မှတ်သော Week 35 မေးခွန်းဟောင်းပုံစံတူ စာမေးပွဲအပတ်တစ်ခုလုံးကို ဖုံးအုပ်ပြီး၊ သင်တန်းတစ်ခုလုံးကို ပြန်လည်သုံးသပ်ကာ A-Level ဇီဝဗေဒကို အကြိုကြည့်ရှုသော Week 36 IGCSE ဇီဝဗေဒ ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     igcseBiologyTerm1,
@@ -13470,5 +15138,6 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
     igcseBiologyTerm6,
     igcseBiologyTerm7,
     igcseBiologyTerm8,
+    igcseBiologyTerm9,
   ],
 );
