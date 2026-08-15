@@ -7161,19 +7161,1620 @@ const CourseTermDef igcseBiologyTerm4 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 17: "The Human Circulatory System"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek17 = CourseWeekDef(
+  id: "course-igcse-bio-w17",
+  weekNumber: 17,
+  titleEn: "The Human Circulatory System",
+  titleMy: "လူ့သွေးလည်ပတ်မှု စနစ် (Circulatory System)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w17-d1",
+      dayNumber: 1,
+      titleEn: "The Structure of the Heart",
+      titleMy: "နှလုံး၏ ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "How many chambers does the human heart have?",
+          questionMy: "လူ့နှလုံးတွင် အခန်းစုစုပေါင်း မည်မျှ ရှိသနည်း။",
+          optionsEn: ["Four", "Two", "Three", "Six"],
+          optionsMy: ["လေးခန်း", "နှစ်ခန်း", "သုံးခန်း", "ခြောက်ခန်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "There are two atria (upper chambers) and two ventricles (lower chambers).",
+            "The heart is divided into a left side and a right side, each with two chambers.",
+          ],
+          hintsMy: [
+            "အထက်ပိုင်းအခန်း (Atria) နှစ်ခန်းနှင့် အောက်ပိုင်းအခန်း (Ventricles) နှစ်ခန်း ရှိသည်။",
+            "နှလုံးကို ဘယ်ဘက်နှင့် ညာဘက်ခွဲထားပြီး တစ်ဖက်စီတွင် အခန်းနှစ်ခန်းစီ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the main function of the valves inside the heart?",
+          questionMy:
+              "နှလုံးအတွင်းရှိ Valve များ၏ အဓိကလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To prevent blood from flowing backward",
+            "To pump blood around the body",
+            "To produce red blood cells",
+            "To filter waste from the blood",
+          ],
+          optionsMy: [
+            "သွေးကို နောက်ပြန်စီးဆင်းမှုမှ ကာကွယ်ရန်",
+            "ခန္ဓာကိုယ်တစ်ဝန်း သွေးကို ပန့်ပေးရန်",
+            "သွေးနီဥများ ထုတ်လုပ်ရန်",
+            "သွေးမှ စွန့်ပစ်ပစ္စည်းကို စစ်ထုတ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Valves act like one-way doors between chambers and major vessels.",
+            "Without valves, blood could flow the wrong way when the heart relaxes.",
+          ],
+          hintsMy: [
+            "Valve များသည် အခန်းများနှင့် အဓိက သွေးကြောများကြား တစ်ဖက်သွားတံခါးများကဲ့သို့ လုပ်ဆောင်သည်။",
+            "Valve များ မရှိပါက နှလုံး ပြေလျော့သောအခါ သွေးသည် လမ်းမှားစီးဆင်းနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which chamber of the heart pumps oxygenated blood out to the whole body?",
+          questionMy:
+              "နှလုံး၏ မည်သည့်အခန်းက အောက်ဆီဂျင်ပါသော သွေးကို ခန္ဓာကိုယ်တစ်ခုလုံးဆီသို့ ပန့်ပေးသနည်း။",
+          optionsEn: [
+            "The left ventricle",
+            "The right ventricle",
+            "The left atrium",
+            "The right atrium",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက် Ventricle",
+            "ညာဘက် Ventricle",
+            "ဘယ်ဘက် Atrium",
+            "ညာဘက် Atrium",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This chamber has the thickest, most muscular wall, since it must pump blood the farthest, around the whole body.",
+            "The right ventricle only pumps blood the short distance to the lungs.",
+          ],
+          hintsMy: [
+            "ဤအခန်းသည် ခန္ဓာကိုယ်တစ်ခုလုံးကို သွေးအဝေးဆုံးအထိ ပန့်ရမည်ဖြစ်သောကြောင့် အထူထပ်ဆုံး၊ ကြွက်သားအားအကောင်းဆုံး နံရံရှိသည်။",
+            "ညာဘက် Ventricle က အဆုတ်ဆီသို့ အကွာအဝေးတိုတို ရှိသော သွေးကိုသာ ပန့်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Blood Vessel Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သွေးကြော ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w17-dm-1",
+          termEn: "Artery",
+          termMy: "Artery",
+          matchEn:
+              "A thick-walled vessel that carries blood away from the heart under high pressure",
+          matchMy:
+              "ဖိအားမြင့်စွာဖြင့် နှလုံးမှ သွေးကို သယ်ဆောင်ပေးသော နံရံထူသော သွေးကြော",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w17-dm-2",
+          termEn: "Vein",
+          termMy: "Vein",
+          matchEn:
+              "A thin-walled vessel, containing valves, that carries blood back to the heart under low pressure",
+          matchMy:
+              "ဖိအားနိမ့်စွာဖြင့် သွေးကို နှလုံးဆီသို့ ပြန်ပို့ပေးပြီး Valve များပါရှိသော နံရံပါးသော သွေးကြော",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w17-dm-3",
+          termEn: "Capillary",
+          termMy: "Capillary",
+          matchEn:
+              "A tiny vessel, one cell thick, where substances are exchanged between blood and tissues",
+          matchMy:
+              "ဆဲလ်တစ်ခုသာ ထူသော ငယ်စိတ်သွေးကြောငယ်၊ သွေးနှင့် တစ်ရှူးများကြား ပစ္စည်းများ ဖလှယ်ရာနေရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w17-dm-4",
+          termEn: "Double circulation",
+          termMy: "Double Circulation",
+          matchEn:
+              "Blood passing through the heart twice on one full circuit of the body -- once for the lungs, once for the body",
+          matchMy:
+              "ခန္ဓာကိုယ်တစ်ဝန်း ပတ်ချာလှည့်ရာတွင် သွေးသည် နှလုံးကို နှစ်ကြိမ်ဖြတ်ကျော်ခြင်း -- အဆုတ်အတွက် တစ်ကြိမ်၊ ခန္ဓာကိုယ်အတွက် တစ်ကြိမ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w17-dm-5",
+          termEn: "Septum",
+          termMy: "Septum",
+          matchEn:
+              "The muscular wall that separates the left and right sides of the heart",
+          matchMy: "နှလုံး၏ ဘယ်ဘက်နှင့် ညာဘက်ကို ခွဲခြားပေးသော ကြွက်သားနံရံ",
+          colorValue: 0xFFFF9800,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Artery, Vein, or Capillary?",
+      titleMy: "စီစစ်ကြမည် - Artery, Vein, သို့မဟုတ် Capillary",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Artery", "Vein", "Capillary"],
+        bucketsMy: ["Artery", "Vein", "Capillary"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w17-sort-1",
+            labelEn:
+                "Has thick, muscular, elastic walls to withstand high pressure",
+            labelMy:
+                "ဖိအားမြင့်ကို ခံနိုင်ရန် ထူထပ်၊ ကြွက်သားများနှင့် ပျော့ပျောင်းသော နံရံရှိသည်",
+            correctBucketEn: "Artery",
+            correctBucketMy: "Artery",
+          ),
+          SortingItem(
+            id: "igcsebio-w17-sort-2",
+            labelEn: "Contains valves to stop blood flowing backward",
+            labelMy: "သွေးနောက်ပြန်စီးဆင်းမှုကို တားဆီးရန် Valve များ ပါဝင်သည်",
+            correctBucketEn: "Vein",
+            correctBucketMy: "Vein",
+          ),
+          SortingItem(
+            id: "igcsebio-w17-sort-3",
+            labelEn:
+                "Walls are only one cell thick, allowing easy diffusion of oxygen and nutrients",
+            labelMy:
+                "နံရံသည် ဆဲလ်တစ်ခုသာ ထူပြီး အောက်ဆီဂျင်နှင့် အာဟာရများ Diffusion အလွယ်တကူ ဖြစ်စေသည်",
+            correctBucketEn: "Capillary",
+            correctBucketMy: "Capillary",
+          ),
+          SortingItem(
+            id: "igcsebio-w17-sort-4",
+            labelEn: "Carries blood away from the heart under high pressure",
+            labelMy:
+                "ဖိအားမြင့်စွာဖြင့် နှလုံးမှ သွေးကို ဝေးရာသို့ သယ်ဆောင်သည်",
+            correctBucketEn: "Artery",
+            correctBucketMy: "Artery",
+          ),
+          SortingItem(
+            id: "igcsebio-w17-sort-5",
+            labelEn: "Has a wide lumen and lower blood pressure than an artery",
+            labelMy: "ကျယ်ဝန်းသော Lumen ရှိပြီး Artery ထက် သွေးဖိအား နိမ့်သည်",
+            correctBucketEn: "Vein",
+            correctBucketMy: "Vein",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nan Ei Ei's Heart Diagram",
+      titleMy: "စာဖတ်ခြင်း - နန်းအိအိ၏ နှလုံးပုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nan Ei Ei's Heart Diagram",
+        titleMy: "နန်းအိအိ၏ နှလုံးပုံ",
+        passageEn:
+            "For her exam revision, Nan Ei Ei drew a large diagram of the heart and traced the path of a single drop of blood all the way around the body, labelling every structure it passed through. She started in the right atrium, where deoxygenated blood arrives back from the body through two large veins, the vena cavae. From there, the blood passed through a valve into the right ventricle, which pumped it out to the lungs through the pulmonary artery -- one of the few arteries in the body that actually carries deoxygenated blood.\n\nAt the lungs, the blood picked up oxygen and released carbon dioxide, then returned to the heart through the pulmonary vein -- again unusual, since this is one of the few veins that carries oxygenated blood -- entering the left atrium. From there it passed through another valve into the left ventricle, the chamber with the thickest, most muscular wall in the entire heart, because it needed to generate enough pressure to pump blood all the way around the whole body, not just the short distance to the nearby lungs.\n\nNan Ei Ei's teacher pointed out that this whole journey -- heart to lungs to heart to body to heart again -- is exactly why the human circulatory system is called a double circulation: blood passes through the heart twice for every complete circuit of the body, once to be pumped to the lungs (the pulmonary circuit) and once to be pumped to the rest of the body (the systemic circuit). Her teacher explained that this double-pump system keeps oxygenated and deoxygenated blood almost completely separate, and allows the blood returning from the lungs to be given a fresh, powerful push by the left ventricle before setting out on its much longer journey around the body.",
+        passageMy:
+            "စာမေးပွဲ ပြန်လည်ကျက်မှတ်ရန်အတွက် နန်းအိအိသည် နှလုံး၏ ကြီးမားသော ပုံကြီးတစ်ပုံကို ဆွဲခဲ့ပြီး၊ သွေးစက်တစ်စက်၏ ခန္ဓာကိုယ်တစ်ဝန်း ခရီးလမ်းကို ဖြတ်သန်းရာ ဖွဲ့စည်းပုံတိုင်း အမည်တပ်ကာ ခြေရာခံခဲ့သည်။ သူမသည် ညာဘက် Atrium မှ စတင်ခဲ့ပြီး၊ ၎င်းသည် Oxygen မပါသော သွေးသည် ကြီးမားသော Vein နှစ်ခု (Vena Cavae) မှတစ်ဆင့် ခန္ဓာကိုယ်မှ ပြန်ရောက်ရှိရာ နေရာဖြစ်သည်။ ထိုနေရာမှ သွေးသည် Valve တစ်ခုကို ဖြတ်ကျော်ကာ ညာဘက် Ventricle ထဲသို့ ဝင်ခဲ့ပြီး၊ ညာဘက် Ventricle က ၎င်းကို Pulmonary Artery မှတစ်ဆင့် အဆုတ်ဆီသို့ ပန့်ပေးခဲ့သည် -- ၎င်းသည် Oxygen မပါသော သွေးကို အမှန်တကယ် သယ်ဆောင်သည့် ခန္ဓာကိုယ်ရှိ Artery အနည်းငယ်ထဲမှ တစ်ခု ဖြစ်သည်။\n\nအဆုတ်တွင် သွေးသည် Oxygen ကို ရယူပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို လွှတ်ထုတ်ကာ Pulmonary Vein မှတစ်ဆင့် နှလုံးဆီသို့ ပြန်လာခဲ့သည် -- ၎င်းသည်လည်း Oxygen ပါသော သွေးကို သယ်ဆောင်သည့် Vein အနည်းငယ်ထဲမှ တစ်ခုဖြစ်၍ ထူးခြားသည် -- ဘယ်ဘက် Atrium ထဲသို့ ဝင်ရောက်ခဲ့သည်။ ထိုနေရာမှ ၎င်းသည် နောက်ထပ် Valve တစ်ခုကို ဖြတ်ကျော်ကာ ဘယ်ဘက် Ventricle ထဲသို့ ဝင်ရောက်ခဲ့သည်၊ ၎င်းသည် နှလုံးတစ်ခုလုံးတွင် အထူထပ်ဆုံး၊ ကြွက်သားအားအကောင်းဆုံး နံရံရှိသော အခန်းဖြစ်သည်၊ အကြောင်းမှာ အနီးအနားရှိ အဆုတ်ဆီသို့ အကွာအဝေးတိုတိုသာ မဟုတ်ဘဲ ခန္ဓာကိုယ်တစ်ခုလုံးကို ပတ်ရန် လုံလောက်သော ဖိအား ဖန်တီးရန် လိုအပ်သောကြောင့် ဖြစ်သည်။\n\nဤခရီးလမ်းတစ်ခုလုံး -- နှလုံးမှ အဆုတ်၊ အဆုတ်မှ နှလုံး၊ နှလုံးမှ ခန္ဓာကိုယ်၊ ခန္ဓာကိုယ်မှ နှလုံးသို့ ပြန်လည် -- သည် လူ့သွေးလည်ပတ်မှုစနစ်ကို Double Circulation ဟု ခေါ်ရသည့် အတိအကျ အကြောင်းရင်းဖြစ်ကြောင်း နန်းအိအိ၏ ဆရာမက ညွှန်ပြခဲ့သည်- ခန္ဓာကိုယ်တစ်ဝန်း ပြည့်စုံသော ပတ်ချာလှည့်တစ်ကြိမ်တိုင်းအတွက် သွေးသည် နှလုံးကို နှစ်ကြိမ် ဖြတ်ကျော်သည်၊ တစ်ကြိမ်မှာ အဆုတ်ဆီသို့ ပန့်ခံရန် (Pulmonary Circuit) နှင့် တစ်ကြိမ်မှာ ခန္ဓာကိုယ်ကျန်အစိတ်အပိုင်းဆီသို့ ပန့်ခံရန် (Systemic Circuit) ဖြစ်သည်။ ဤ Double-Pump စနစ်သည် Oxygen ပါသော နှင့် မပါသော သွေးများကို လုံးဝနီးပါး သီးခြားစွာ ထားရှိပေးပြီး၊ အဆုတ်မှ ပြန်ရောက်လာသော သွေးအား ခန္ဓာကိုယ်တစ်ဝန်း ပို၍ ရှည်လျားသော ခရီးစတင်မီ ဘယ်ဘက် Ventricle က လတ်ဆတ်ပြီး အားကောင်းသော တွန်းအားတစ်ခု ထပ်မံပေးနိုင်ကြောင်း သူမ၏ ဆရာမက ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why is the pulmonary artery unusual compared to most other arteries?",
+            questionMy:
+                "Pulmonary Artery သည် အခြား Artery အများစုနှင့် နှိုင်းယှဉ်လျှင် အဘယ်ကြောင့် ထူးခြားကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It carries deoxygenated blood, while most arteries carry oxygenated blood",
+              "It is the only vessel with valves",
+              "It only carries blood at night",
+              "It is thinner than any vein",
+            ],
+            optionsMy: [
+              "အများစု Artery များက Oxygen ပါသောသွေးကို သယ်ဆောင်ပြီး ၎င်းက Oxygen မပါသော သွေးကို သယ်ဆောင်သောကြောင့်",
+              "Valve ရှိသော သွေးကြောတစ်ခုတည်း ဖြစ်သောကြောင့်",
+              "ညအချိန်တွင်သာ သွေးကို သယ်ဆောင်သောကြောင့်",
+              "Vein မည်သည့်တစ်ခုထက်မဆို ပါးလွှာသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The passage explicitly calls this one of the few exceptions among arteries.",
+              "Most arteries carry oxygenated blood; this one carries deoxygenated blood to the lungs.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်က ၎င်းကို Artery များအနက် ခြွင်းချက်အနည်းငယ်ထဲမှ တစ်ခုဟု တိတိကျကျ ခေါ်ထားသည်။",
+              "Artery အများစုက Oxygen ပါသောသွေးကို သယ်ဆောင်ပြီး ၎င်းကမူ Oxygen မပါသောသွေးကို အဆုတ်သို့ သယ်ဆောင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does the left ventricle have the thickest, most muscular wall in the heart?",
+            questionMy:
+                "ဘယ်ဘက် Ventricle သည် နှလုံးတွင် အထူထပ်ဆုံး၊ ကြွက်သားအားအကောင်းဆုံး နံရံရှိသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It must generate enough pressure to pump blood all the way around the whole body",
+              "It only pumps blood to the nearby lungs",
+              "It is the smallest chamber in the heart",
+              "It does not need to pump blood at all",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်တစ်ခုလုံးကို ပတ်ရန် လုံလောက်သော ဖိအား ဖန်တီးရမည်ဖြစ်သောကြောင့်",
+              "အနီးအနားရှိ အဆုတ်ဆီသို့သာ သွေးကို ပန့်ပေးသောကြောင့်",
+              "နှလုံးတွင် အသေးငယ်ဆုံးအခန်း ဖြစ်သောကြောင့်",
+              "သွေးကို လုံးဝ ပန့်ပေးရန် မလိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Compare the distance to the lungs (short) versus the distance around the whole body (much longer).",
+              "More distance and more resistance require more pumping force.",
+            ],
+            hintsMy: [
+              "အဆုတ်ဆီသို့ အကွာအဝေး (တိုတို) နှင့် ခန္ဓာကိုယ်တစ်ခုလုံးကို ပတ်ရန် အကွာအဝေး (ပို၍ ရှည်) ကို နှိုင်းယှဉ်ကြည့်ပါ။",
+              "အကွာအဝေးနှင့် ခုခံအား ပိုများလျှင် ပန့်ပေးသည့် အားလည်း ပိုများ လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what does 'double circulation' mean?",
+            questionMy:
+                "'Double Circulation' ဆိုသည်မှာ အဘယ်ကို ဆိုလိုကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Blood passes through the heart twice for every complete circuit of the body",
+              "The heart has two separate hearts inside it",
+              "Blood only travels through the lungs twice a day",
+              "There are two hearts in the human body",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်တစ်ဝန်း ပြည့်စုံသော ပတ်ချာလှည့်တစ်ကြိမ်တိုင်းအတွက် သွေးသည် နှလုံးကို နှစ်ကြိမ် ဖြတ်ကျော်ခြင်း",
+              "နှလုံးအတွင်း သီးခြားနှလုံးနှစ်လုံး ရှိခြင်း",
+              "သွေးသည် တစ်နေ့လျှင် အဆုတ်ကို နှစ်ကြိမ်သာ ဖြတ်သန်းခြင်း",
+              "လူ့ခန္ဓာကိုယ်တွင် နှလုံးနှစ်လုံး ရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence defining double circulation directly.",
+              "Once for the pulmonary circuit, once for the systemic circuit.",
+            ],
+            hintsMy: [
+              "Double Circulation ကို တိုက်ရိုက် အဓိပ္ပာယ်ဖွင့်ဆိုသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Pulmonary Circuit အတွက် တစ်ကြိမ်၊ Systemic Circuit အတွက် တစ်ကြိမ်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what advantage does the double-pump system give the blood returning from the lungs?",
+            questionMy:
+                "Double-Pump စနစ်က အဆုတ်မှ ပြန်ရောက်လာသော သွေးအား မည်သည့် အားသာချက် ပေးကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The left ventricle gives it a fresh, powerful push before its longer journey around the body",
+              "It skips the heart entirely and goes straight to the body",
+              "It loses all its oxygen before continuing",
+              "It has to wait 24 hours before continuing",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ်ပတ်ရန် ရှည်လျားသော ခရီးမတိုင်မီ ဘယ်ဘက် Ventricle က လတ်ဆတ်ပြီး အားကောင်းသော တွန်းအား ထပ်ပေးခြင်း",
+              "နှလုံးကို လုံးဝ ကျော်ဖြတ်ပြီး ခန္ဓာကိုယ်ဆီသို့ တိုက်ရိုက်သွားခြင်း",
+              "ဆက်လက်မသွားမီ Oxygen အားလုံး ဆုံးရှုံးသွားခြင်း",
+              "ဆက်လက်မသွားမီ ၂၄ နာရီ စောင့်ရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "This is why the blood goes back through the heart before continuing around the body.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ခန္ဓာကိုယ်ပတ်ရန် ဆက်မသွားမီ သွေးသည် နှလုံးကို ပြန်ဖြတ်သန်းရသည့် အကြောင်းရင်းဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: The Circulatory System",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သွေးလည်ပတ်မှုစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which blood vessel type has walls only one cell thick?",
+          questionMy:
+              "မည်သည့် သွေးကြောအမျိုးအစားတွင် ဆဲလ်တစ်ခုသာ ထူသော နံရံ ရှိသနည်း",
+          optionsEn: ["Capillary", "Artery", "Vein", "Aorta"],
+          optionsMy: ["Capillary", "Artery", "Vein", "Aorta"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The left ventricle pumps blood to...",
+          questionMy: "ဘယ်ဘက် Ventricle က သွေးကို ...ဆီသို့ ပန့်ပေးသည်",
+          optionsEn: [
+            "The whole body",
+            "Only the lungs",
+            "Only the right atrium",
+            "Nowhere -- it does not pump",
+          ],
+          optionsMy: [
+            "ခန္ဓာကိုယ်တစ်ခုလုံး",
+            "အဆုတ်သာ",
+            "ညာဘက် Atrium သာ",
+            "မည်သည့်နေရာမျှ -- ၎င်းက မပန့်ပေးပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In double circulation, how many times does blood pass through the heart per full body circuit?",
+          questionMy:
+              "Double Circulation တွင် ခန္ဓာကိုယ် ပတ်ချာလှည့်တစ်ကြိမ်လျှင် သွေးသည် နှလုံးကို မည်မျှကြိမ် ဖြတ်ကျော်သနည်း",
+          optionsEn: ["Twice", "Once", "Three times", "Never"],
+          optionsMy: [
+            "နှစ်ကြိမ်",
+            "တစ်ကြိမ်",
+            "သုံးကြိမ်",
+            "လုံးဝမဖြတ်ကျော်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 18: "Blood and Immunity"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek18 = CourseWeekDef(
+  id: "course-igcse-bio-w18",
+  weekNumber: 18,
+  titleEn: "Blood and Immunity",
+  titleMy: "သွေးနှင့် ကိုယ်ခံအားစနစ် (Immunity)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w18-d1",
+      dayNumber: 1,
+      titleEn: "What is in Blood?",
+      titleMy: "သွေးထဲတွင် အဘယ်အရာ ပါဝင်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which blood component carries oxygen around the body?",
+          questionMy:
+              "မည်သည့် သွေးအစိတ်အပိုင်းက ခန္ဓာကိုယ်တစ်ဝန်း အောက်ဆီဂျင်ကို သယ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Red blood cells",
+            "White blood cells",
+            "Platelets",
+            "Plasma alone",
+          ],
+          optionsMy: ["သွေးနီဥ", "သွေးဖြူဥ", "Platelets", "Plasma တစ်ခုတည်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "These cells contain haemoglobin, a red pigment that binds to oxygen.",
+            "Their biconcave, disc-like shape and lack of a nucleus maximise the surface area for carrying oxygen.",
+          ],
+          hintsMy: [
+            "ဤဆဲလ်များတွင် အောက်ဆီဂျင်နှင့် ချိတ်ဆက်သော အနီရောင် အရောင်ဓာတ် Haemoglobin ပါဝင်သည်။",
+            "၎င်းတို့၏ Biconcave ဒစ်ကလေးပုံသဏ္ဌာန်နှင့် Nucleus မပါခြင်းသည် အောက်ဆီဂျင်သယ်ဆောင်ရန် မျက်နှာပြင်ဧရိယာကို အများဆုံး ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the main role of platelets in the blood?",
+          questionMy: "သွေးထဲရှိ Platelets ၏ အဓိကလုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Helping blood to clot at a wound",
+            "Carrying oxygen",
+            "Fighting pathogens directly",
+            "Transporting digested food",
+          ],
+          optionsMy: [
+            "ဒဏ်ရာတွင် သွေးခဲစေရန် ကူညီခြင်း",
+            "အောက်ဆီဂျင် သယ်ဆောင်ခြင်း",
+            "ရောဂါပိုးများကို တိုက်ရိုက် တိုက်ထုတ်ခြင်း",
+            "ချေဖျက်ပြီး အစားအစာကို သယ်ဆောင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "When you cut yourself, these cell fragments help form a clot to seal the wound and stop bleeding.",
+            "They are not full cells, but small fragments involved in the clotting process.",
+          ],
+          hintsMy: [
+            "ဒဏ်ရာရသောအခါ ဤဆဲလ်အပိုင်းအစများသည် ဒဏ်ရာကို ပိတ်ဆို့ပြီး သွေးရပ်ရန် သွေးခဲအောင် ကူညီပေးသည်။",
+            "၎င်းတို့သည် ဆဲလ်ပြည့်စုံများ မဟုတ်ဘဲ သွေးခဲခြင်းဖြစ်စဉ်တွင် ပါဝင်သော အပိုင်းအစငယ်များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Plasma is best described as...",
+          questionMy: "Plasma ကို အကောင်းဆုံးဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "The pale yellow liquid part of blood that transports dissolved substances",
+            "A type of white blood cell",
+            "A solid clot-forming fragment",
+            "The pigment that gives blood its red colour",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်ထားသော ပစ္စည်းများကို သယ်ဆောင်ပေးသော သွေး၏ အဝါဖျော့ရောင် အရည်ပိုင်း",
+            "သွေးဖြူဥ အမျိုးအစားတစ်ခု",
+            "သွေးခဲစေသော အစိုင်အခဲအပိုင်းအစ",
+            "သွေးကို အနီရောင် ဖြစ်စေသော အရောင်ဓာတ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Plasma carries dissolved glucose, amino acids, hormones, carbon dioxide, and other substances.",
+            "It is the liquid that the blood cells and platelets float within.",
+          ],
+          hintsMy: [
+            "Plasma သည် ပျော်ဝင်ထားသော ဂလူးကို့စ်၊ အမိုင်နိုအက်ဆစ်၊ ဟိုမုန်း၊ ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် အခြားပစ္စည်းများကို သယ်ဆောင်ပေးသည်။",
+            "၎င်းသည် သွေးဆဲလ်များနှင့် Platelets များ မျောနေသော အရည်ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Immunity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Immunity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w18-dm-1",
+          termEn: "Phagocytosis",
+          termMy: "Phagocytosis",
+          matchEn:
+              "The process by which a white blood cell engulfs and digests a pathogen",
+          matchMy:
+              "သွေးဖြူဥတစ်ခုက ရောဂါပိုးတစ်ခုကို ဝိုင်းအုပ်ပြီး ချေဖျက်ခြင်း ဖြစ်စဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w18-dm-2",
+          termEn: "Antibody",
+          termMy: "Antibody",
+          matchEn:
+              "A protein produced by lymphocytes that specifically targets a particular antigen on a pathogen",
+          matchMy:
+              "ရောဂါပိုးတစ်ခုပေါ်ရှိ တိတိကျကျ Antigen တစ်ခုကို ရည်ရွယ်၍ Lymphocyte များက ထုတ်လုပ်သော ပရိုတင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w18-dm-3",
+          termEn: "Active immunity",
+          termMy: "Active Immunity",
+          matchEn:
+              "Immunity gained when the body produces its own antibodies, through infection or vaccination",
+          matchMy:
+              "ရောဂါကူးစက်ခံရခြင်း သို့မဟုတ် ကာကွယ်ဆေးထိုးခြင်းမှတစ်ဆင့် ခန္ဓာကိုယ်ကိုယ်တိုင် Antibody ထုတ်လုပ်ရာမှ ရရှိသော ကိုယ်ခံအား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w18-dm-4",
+          termEn: "Passive immunity",
+          termMy: "Passive Immunity",
+          matchEn:
+              "Immunity gained when antibodies are given from an outside source, such as from a mother to a baby, without the body making its own",
+          matchMy:
+              "ခန္ဓာကိုယ်ကိုယ်တိုင် Antibody မထုတ်လုပ်ဘဲ အမေမှ ကလေးဆီသို့ကဲ့သို့ အပြင်ဘက်အရင်းအမြစ်မှ Antibody များ ပေးအပ်ရာမှ ရရှိသော ကိုယ်ခံအား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w18-dm-5",
+          termEn: "Antigen",
+          termMy: "Antigen",
+          matchEn:
+              "A marker on the surface of a pathogen that the immune system recognises as foreign",
+          matchMy:
+              "ကိုယ်ခံအားစနစ်က ပြင်ပပစ္စည်းအဖြစ် မှတ်သားသော ရောဂါပိုးမျက်နှာပြင်ရှိ အမှတ်အသား",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Active or Passive Immunity?",
+      titleMy: "စီစစ်ကြမည် - Active လား Passive Immunity လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Active Immunity", "Passive Immunity"],
+        bucketsMy: ["Active Immunity", "Passive Immunity"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w18-sort-1",
+            labelEn:
+                "A child receives a vaccination and their body produces its own antibodies",
+            labelMy:
+                "ကလေးတစ်ဦးသည် ကာကွယ်ဆေး ထိုးခံရပြီး ၎င်း၏ ခန္ဓာကိုယ်ကိုယ်တိုင် Antibody ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Active Immunity",
+            correctBucketMy: "Active Immunity",
+          ),
+          SortingItem(
+            id: "igcsebio-w18-sort-2",
+            labelEn:
+                "A newborn baby receives antibodies from its mother through breast milk",
+            labelMy:
+                "မွေးကင်းစကလေးသည် နို့ရည်မှတစ်ဆင့် အမေထံမှ Antibody များ ရရှိခြင်း",
+            correctBucketEn: "Passive Immunity",
+            correctBucketMy: "Passive Immunity",
+          ),
+          SortingItem(
+            id: "igcsebio-w18-sort-3",
+            labelEn:
+                "A person recovers from chickenpox and now has long-lasting immunity to it",
+            labelMy:
+                "လူတစ်ဦးသည် ကျားကွက်ရောဂါမှ ပြန်လည်ကောင်းမွန်ပြီး ၎င်းအပေါ် ကြာရှည်ခံ ကိုယ်ခံအား ရရှိခြင်း",
+            correctBucketEn: "Active Immunity",
+            correctBucketMy: "Active Immunity",
+          ),
+          SortingItem(
+            id: "igcsebio-w18-sort-4",
+            labelEn:
+                "A patient is given an injection of ready-made antibodies for immediate, short-term protection",
+            labelMy:
+                "လူနာတစ်ဦးသည် ချက်ချင်း၊ ကာလတိုကာလ ကာကွယ်မှုအတွက် အသင့်ပြင်ဆင်ထားသော Antibody ဆေးထိုးခံရခြင်း",
+            correctBucketEn: "Passive Immunity",
+            correctBucketMy: "Passive Immunity",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Khin Sanda's Newborn Question",
+      titleMy: "စာဖတ်ခြင်း - ခင်စန္ဒာ၏ မွေးကင်းစကလေး မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Khin Sanda's Newborn Question",
+        titleMy: "ခင်စန္ဒာ၏ မွေးကင်းစကလေး မေးခွန်း",
+        passageEn:
+            "Khin Sanda's aunt had just given birth, and during a visit, Khin Sanda noticed her aunt breastfeeding and remembered that her Biology teacher had mentioned breast milk contains antibodies. She asked her aunt's midwife why a newborn baby, whose own immune system is still immature, would need antibodies from somewhere else at all.\n\nThe midwife, who had studied basic biology herself, explained that a newborn's own lymphocytes have not yet encountered most pathogens, so the baby cannot yet produce many antibodies of its own -- this is why babies are especially vulnerable to infection in their first months. To bridge this gap, the mother's antibodies, built up over her own lifetime of infections and vaccinations, pass to the baby both before birth (across the placenta) and after birth (through breast milk), giving the baby immediate protection against diseases the mother has already encountered.\n\nKhin Sanda's teacher later explained the trade-off in class: because the baby did not make these antibodies itself, no memory cells are created, so this protection -- passive immunity -- fades within weeks to months, rather than lasting a lifetime. In contrast, once the baby is later exposed to a real infection or given a vaccination and produces antibodies through its own immune response, that active immunity, complete with memory cells, lasts far longer -- sometimes for life. Khin Sanda realised passive immunity from her aunt's breast milk was not meant to replace the baby's own immune system permanently, but rather to protect the baby just long enough for that system to mature and start working on its own.",
+        passageMy:
+            "ခင်စန္ဒာ၏ အန်တီသည် ကလေးမွေးဖွားခါစ ဖြစ်ခဲ့ပြီး၊ လာရောက်လည်ပတ်ချိန်တွင် ခင်စန္ဒာသည် အန်တီ နို့တိုက်နေသည်ကို သတိပြုမိကာ သူမ၏ ဇီဝဗေဒဆရာမက နို့ရည်တွင် Antibody များ ပါဝင်ကြောင်း ဖော်ပြခဲ့ဖူးသည်ကို သတိရမိခဲ့သည်။ ကိုယ်ခံအားစနစ် မရင့်ကျက်သေးသော မွေးကင်းစကလေးတစ်ဦးသည် အခြားတစ်နေရာမှ Antibody များ အဘယ်ကြောင့် လိုအပ်နေကြောင်းကို သူမ၏ အန်တီ၏ ဝန်ထမ်းဆရာမကြီးအား မေးမြန်းခဲ့သည်။\n\nဇီဝဗေဒ အခြေခံကို ကိုယ်တိုင် လေ့လာဖူးသော ဝန်ထမ်းဆရာမကြီးက မွေးကင်းစကလေးတစ်ဦး၏ Lymphocyte များသည် ရောဂါပိုးအများစုနှင့် မကြုံတွေ့ဖူးသေးသောကြောင့် ကလေးသည် Antibody များစွာ ကိုယ်တိုင် မထုတ်လုပ်နိုင်သေးကြောင်း -- ၎င်းသည် ကလေးငယ်များ ပထမလများတွင် ရောဂါကူးစက်မှုကို အထူးထိခိုက်လွယ်ရသည့် အကြောင်းရင်းဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။ ဤကွာဟမှုကို ချိတ်ဆက်ပေးရန် အမေ၏ ကိုယ်တိုင် ရောဂါကူးစက်ခံခဲ့ရခြင်းနှင့် ကာကွယ်ဆေးများ တစ်သက်တာတွင် တည်ဆောက်ထားသော Antibody များသည် မွေးဖွားမီ (Placenta ကိုဖြတ်၍) နှင့် မွေးဖွားပြီးနောက် (နို့ရည်မှတစ်ဆင့်) နှစ်မျိုးစလုံး ကလေးထံသို့ ရောက်ရှိပြီး၊ အမေ ရင်ဆိုင်ခဲ့ဖူးသော ရောဂါများအပေါ် ကလေးအား ချက်ချင်း ကာကွယ်မှုပေးသည်။\n\nနောက်ပိုင်း ခင်စန္ဒာ၏ ဆရာမက ဤအားလျော့ချက်ကို အတန်းတွင် ရှင်းပြခဲ့သည်- ကလေးက ဤ Antibody များကို ကိုယ်တိုင် ထုတ်လုပ်ခြင်း မဟုတ်သောကြောင့် Memory Cell များ ဖန်တီးမပေးနိုင်၍၊ ဤကာကွယ်မှု -- Passive Immunity -- သည် တစ်သက်တာမကြာဘဲ ရက်သတ္တပတ်များမှ လများအတွင်း ကျဆင်းသွားသည်။ ဆန့်ကျင်ဘက်အားဖြင့် ကလေးသည် နောက်ပိုင်းတွင် တကယ့်ရောဂါကူးစက်မှု ခံရခြင်း သို့မဟုတ် ကာကွယ်ဆေး ထိုးခံရပြီး ၎င်းကိုယ်တိုင်၏ ကိုယ်ခံအားတုံ့ပြန်မှုမှတစ်ဆင့် Antibody ထုတ်လုပ်လိုက်သောအခါ Memory Cell များနှင့်အတူ ထိုအားတက်ကြွသော ကိုယ်ခံအား (Active Immunity) သည် ပို၍ ကြာရှည်ခံသည် -- တစ်ခါတစ်ရံ တစ်သက်တာအထိ ကြာရှည်ခံနိုင်သည်။ ခင်စန္ဒာသည် သူမ၏ အန်တီ၏ နို့ရည်မှ Passive Immunity သည် ကလေး၏ ကိုယ်ပိုင် ကိုယ်ခံအားစနစ်ကို အမြဲတမ်း အစားထိုးရန် ရည်ရွယ်ချက် မဟုတ်ဘဲ၊ ထိုစနစ် ရင့်ကျက်ပြီး ကိုယ်တိုင် အလုပ်စတင်လုပ်ဆောင်နိုင်သည်အထိ ကလေးကို လုံလောက်စွာသာ ကာကွယ်ပေးရန် ရည်ရွယ်ကြောင်း သဘောပေါက်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can't a newborn baby produce many antibodies of its own yet?",
+            questionMy:
+                "မွေးကင်းစကလေးတစ်ဦး Antibody များစွာ ကိုယ်တိုင် အဘယ်ကြောင့် မထုတ်လုပ်နိုင်သေးကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its lymphocytes have not yet encountered most pathogens",
+              "It has no blood yet",
+              "Its heart is not fully formed",
+              "It has too many white blood cells already",
+            ],
+            optionsMy: [
+              "ကလေး၏ Lymphocyte များသည် ရောဂါပိုးအများစုနှင့် မကြုံတွေ့ဖူးသေးသောကြောင့်",
+              "ကလေးတွင် သွေး မရှိသေးသောကြောင့်",
+              "ကလေး၏ နှလုံး လုံးဝ မဖွဲ့စည်းရသေးသောကြောင့်",
+              "ကလေးတွင် သွေးဖြူဥ လွန်ကဲစွာ ရှိပြီးဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the reason the midwife gives directly after explaining babies are vulnerable.",
+              "Making antibodies requires having encountered the specific pathogen first.",
+            ],
+            hintsMy: [
+              "ကလေးများသည် ထိခိုက်လွယ်ကြောင်း ရှင်းပြပြီးနောက် ဝန်ထမ်းဆရာမကြီးပေးသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Antibody ထုတ်လုပ်ရန်အတွက် သီးခြား ရောဂါပိုးနှင့် အရင်ဆုံး ကြုံတွေ့ရန် လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, through which two routes do a mother's antibodies reach her baby?",
+            questionMy:
+                "အမေ၏ Antibody များသည် ကလေးဆီသို့ မည်သည့် လမ်းကြောင်းနှစ်ခုမှ ရောက်ရှိကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Across the placenta before birth, and through breast milk after birth",
+              "Only through injections",
+              "Only through the umbilical cord after birth",
+              "Only through the air",
+            ],
+            optionsMy: [
+              "မွေးဖွားမီ Placenta ကိုဖြတ်၍ နှင့် မွေးဖွားပြီးနောက် နို့ရည်မှတစ်ဆင့်",
+              "ဆေးထိုးခြင်းမှတစ်ဆင့်သာ",
+              "မွေးဖွားပြီးနောက် သားချက်ကြိုးမှတစ်ဆင့်သာ",
+              "လေထုမှတစ်ဆင့်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the two routes 'both before birth ... and after birth'.",
+              "These are the two routes mentioned in paragraph 2.",
+            ],
+            hintsMy: [
+              "'မွေးဖွားမီ ... နှင့် မွေးဖွားပြီးနောက်' ဟူသော လမ်းကြောင်းနှစ်ခုကို ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ စာပိုဒ် ၂ တွင် ဖော်ပြထားသော လမ်းကြောင်းနှစ်ခုပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does passive immunity fade after weeks or months, unlike active immunity?",
+            questionMy:
+                "Active Immunity နှင့် မတူဘဲ Passive Immunity သည် ရက်သတ္တပတ် သို့မဟုတ် လများအတွင်း အဘယ်ကြောင့် ကျဆင်းသွားကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The baby did not make the antibodies itself, so no memory cells are created",
+              "The mother's antibodies are weaker than normal",
+              "Breast milk destroys antibodies over time",
+              "The baby's blood type changes",
+            ],
+            optionsMy: [
+              "ကလေးက ဤ Antibody များကို ကိုယ်တိုင် မထုတ်လုပ်ခဲ့သောကြောင့် Memory Cell များ မဖန်တီးနိုင်ခြင်း",
+              "အမေ၏ Antibody များသည် ပုံမှန်ထက် အားနည်းသောကြောင့်",
+              "နို့ရည်က Antibody များကို အချိန်ကြာလာသည်နှင့်အမျှ ဖျက်ဆီးသောကြောင့်",
+              "ကလေး၏ သွေးအုပ်စု ပြောင်းလဲသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the explanation directly linking 'no memory cells' to the antibodies fading quickly.",
+              "Memory cells are what makes active immunity long-lasting.",
+            ],
+            hintsMy: [
+              "'Memory Cell မဖန်တီးနိုင်ခြင်း' ကို Antibody များ လျင်မြန်စွာ ကျဆင်းသွားခြင်းနှင့် တိုက်ရိုက် ဆက်စပ်ထားသော ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Memory Cell များသည် Active Immunity ကို ကြာရှည်ခံစေသော အချက်ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What did Khin Sanda conclude about the purpose of passive immunity from breast milk?",
+            questionMy:
+                "နို့ရည်မှ Passive Immunity ၏ ရည်ရွယ်ချက်အကြောင်း ခင်စန္ဒာ မည်သို့ ကောက်ချက်ချခဲ့သနည်း။",
+            optionsEn: [
+              "To protect the baby just long enough for its own immune system to mature",
+              "To permanently replace the baby's immune system",
+              "To make the baby immune to every disease forever",
+              "It serves no real purpose",
+            ],
+            optionsMy: [
+              "ကလေး၏ ကိုယ်ပိုင်ကိုယ်ခံအားစနစ် ရင့်ကျက်သည်အထိ လုံလောက်စွာသာ ကာကွယ်ရန်",
+              "ကလေး၏ ကိုယ်ခံအားစနစ်ကို အမြဲတမ်း အစားထိုးရန်",
+              "ကလေးအား ရောဂါတိုင်းအတွက် အမြဲတမ်း ကိုယ်ခံအားရှိစေရန်",
+              "အမှန်တကယ် ရည်ရွယ်ချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "This is a temporary bridge, not a permanent replacement.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ အမြဲတမ်း အစားထိုးမှု မဟုတ်ဘဲ ယာယီ ချိတ်ဆက်ပေးမှု တစ်ခု ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Blood and Immunity",
+      titleMy: "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သွေးနှင့် ကိုယ်ခံအားစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which blood cells engulf and digest pathogens?",
+          questionMy:
+              "မည်သည့်သွေးဆဲလ်များက ရောဂါပိုးများကို ဝိုင်းအုပ်ပြီး ချေဖျက်သနည်း",
+          optionsEn: [
+            "White blood cells (phagocytes)",
+            "Red blood cells",
+            "Platelets",
+            "Plasma cells only",
+          ],
+          optionsMy: [
+            "သွေးဖြူဥ (Phagocytes)",
+            "သွေးနီဥ",
+            "Platelets",
+            "Plasma Cells သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Vaccination provides which type of immunity?",
+          questionMy:
+              "ကာကွယ်ဆေးထိုးခြင်းက မည်သည့်အမျိုးအစား ကိုယ်ခံအားကို ပေးအပ်သနည်း",
+          optionsEn: [
+            "Active immunity",
+            "Passive immunity",
+            "No immunity at all",
+            "Temporary immunity only, lasting a few hours",
+          ],
+          optionsMy: [
+            "Active Immunity",
+            "Passive Immunity",
+            "ကိုယ်ခံအား လုံးဝ မရှိပါ",
+            "နာရီအနည်းငယ်သာ ကြာသော ယာယီကိုယ်ခံအား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which blood component would be reduced in a person who bruises and bleeds unusually easily?",
+          questionMy:
+              "ပုံမှန်မဟုတ်ဘဲ လွယ်ကူစွာ ညိုတက်ပြီး သွေးထွက်သောသူတစ်ဦးတွင် မည်သည့် သွေးအစိတ်အပိုင်း လျော့နည်းနေဖွယ်ရှိသနည်း",
+          optionsEn: [
+            "Platelets",
+            "Red blood cells",
+            "Plasma",
+            "White blood cells",
+          ],
+          optionsMy: ["Platelets", "သွေးနီဥ", "Plasma", "သွေးဖြူဥ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 19: "Diseases and Pathogens"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek19 = CourseWeekDef(
+  id: "course-igcse-bio-w19",
+  weekNumber: 19,
+  titleEn: "Diseases and Pathogens",
+  titleMy: "ရောဂါများနှင့် ရောဂါပိုးများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w19-d1",
+      dayNumber: 1,
+      titleEn: "What is a Pathogen?",
+      titleMy: "Pathogen ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a pathogen?",
+          questionMy: "Pathogen ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A microorganism that causes disease",
+            "Any type of white blood cell",
+            "A type of antibody",
+            "A vitamin found in food",
+          ],
+          optionsMy: [
+            "ရောဂါဖြစ်စေသော အဏုဇီဝပိုးမွှား",
+            "သွေးဖြူဥ အမျိုးအစားတစ်ခု",
+            "Antibody အမျိုးအစားတစ်ခု",
+            "အစားအစာတွင် တွေ့ရသော Vitamin တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Bacteria, viruses, fungi, and some protoctista can all be pathogens.",
+            "This is the general term for any disease-causing organism.",
+          ],
+          hintsMy: [
+            "ဘက်တီးရီးယား၊ ဗိုင်းရပ်စ်၊ မှို-များနှင့် Protoctista အချို့သည် Pathogen ဖြစ်နိုင်ကြသည်။",
+            "ဤသည်မှာ ရောဂါဖြစ်စေသော သက်ရှိတိုင်းအတွက် ယေဘုယျအမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is an example of direct contact disease transmission?",
+          questionMy:
+              "အောက်ပါတို့အနက် တိုက်ရိုက် ထိတွေ့မှု ရောဂါကူးစက်ခြင်း၏ ဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Touching an infected person's skin",
+            "Drinking contaminated water",
+            "Being bitten by a mosquito",
+            "Breathing in droplets from a cough across a room",
+          ],
+          optionsMy: [
+            "ရောဂါကူးစက်ခံရသူ၏ အရေပြားကို ထိတွေ့ခြင်း",
+            "ညစ်ညမ်းသော ရေကို သောက်ခြင်း",
+            "ခြင်ကိုက်ခံရခြင်း",
+            "အခန်းတစ်ဝှမ်းမှ ချောင်းဆိုးမှု ရေစက်များကို ရှူသွင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Direct contact means physical touch between an infected person and another person.",
+            "The other three options all involve an indirect route (water, a vector, or airborne droplets).",
+          ],
+          hintsMy: [
+            "တိုက်ရိုက် ထိတွေ့မှုဆိုသည်မှာ ကူးစက်ခံရသူနှင့် အခြားလူတစ်ဦးကြား ရုပ်ပိုင်းဆိုင်ရာ ထိတွေ့မှုကို ဆိုလိုသည်။",
+            "ကျန်ရွေးချယ်စရာသုံးခုစလုံးသည် သွယ်ဝိုက်လမ်းကြောင်း (ရေ၊ Vector, သို့မဟုတ် လေထုမှ ရေစက်များ) ပါဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Malaria is transmitted to humans through which vector?",
+          questionMy:
+              "Malaria ရောဂါသည် မည်သည့် Vector မှတစ်ဆင့် လူသားများသို့ ကူးစက်သနည်း။",
+          optionsEn: ["Mosquitoes", "Houseflies only", "Rats", "Birds"],
+          optionsMy: ["ခြင်များ", "ယင်များသာ", "ကြွက်များ", "ငှက်များ"],
+          correctIndex: 0,
+          hintsEn: [
+            "A vector is an organism that carries a pathogen from one host to another without becoming ill itself.",
+            "The female Anopheles mosquito is the specific vector for the malaria parasite.",
+          ],
+          hintsMy: [
+            "Vector ဆိုသည်မှာ ကိုယ်တိုင် ဖျားနာမသွားဘဲ Pathogen ကို Host တစ်ခုမှ တစ်ခုသို့ သယ်ဆောင်ပေးသော သက်ရှိတစ်ခု ဖြစ်သည်။",
+            "Malaria ပါရာဆိုက်အတွက် တိတိကျကျ Vector မှာ မိန်းမ Anopheles ခြင် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Disease Transmission Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရောဂါကူးစက်မှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w19-dm-1",
+          termEn: "Pathogen",
+          termMy: "Pathogen",
+          matchEn:
+              "A microorganism (bacterium, virus, fungus, or protoctist) that causes disease",
+          matchMy:
+              "ရောဂါဖြစ်စေသော အဏုဇီဝပိုးမွှား (ဘက်တီးရီးယား၊ ဗိုင်းရပ်စ်၊ မှို သို့မဟုတ် Protoctist)",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w19-dm-2",
+          termEn: "Vector",
+          termMy: "Vector",
+          matchEn:
+              "An organism that carries a pathogen from one host to another without itself becoming ill",
+          matchMy:
+              "ကိုယ်တိုင် ဖျားနာမသွားဘဲ Pathogen ကို Host တစ်ခုမှ တစ်ခုသို့ သယ်ဆောင်ပေးသော သက်ရှိ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w19-dm-3",
+          termEn: "Droplet infection",
+          termMy: "Droplet Infection",
+          matchEn:
+              "The spread of disease through tiny droplets released by coughing or sneezing",
+          matchMy:
+              "ချောင်းဆိုးခြင်း သို့မဟုတ် နှာချေခြင်းမှတစ်ဆင့် ထွက်လာသော ရေစက်ငယ်များမှတစ်ဆင့် ရောဂါ ပျံ့နှံ့ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w19-dm-4",
+          termEn: "Sanitation",
+          termMy: "Sanitation",
+          matchEn:
+              "Systems for safely managing clean water and sewage to prevent disease spread",
+          matchMy:
+              "ရောဂါပျံ့နှံ့မှု ကာကွယ်ရန် သန့်ရှင်းသောရေနှင့် ရေဆိုးကို လုံခြုံစွာ စီမံခန့်ခွဲသော စနစ်များ",
+          colorValue: 0xFF00BCD4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w19-dm-5",
+          termEn: "Isolation",
+          termMy: "Isolation",
+          matchEn:
+              "Keeping an infected person away from others to prevent a disease from spreading further",
+          matchMy:
+              "ရောဂါ ပို၍ ပျံ့နှံ့မှု မဖြစ်စေရန် ကူးစက်ခံရသူကို အခြားသူများနှင့် ခွဲထားခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Transmission Route?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် ကူးစက်မှု လမ်းကြောင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Direct Contact",
+          "Droplet Infection",
+          "Contaminated Water or Food",
+          "Vector-Borne",
+        ],
+        bucketsMy: [
+          "တိုက်ရိုက် ထိတွေ့မှု",
+          "Droplet Infection",
+          "ညစ်ညမ်းသော ရေ သို့မဟုတ် အစားအစာ",
+          "Vector မှတစ်ဆင့်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w19-sort-1",
+            labelEn: "Shaking hands with someone who has a skin infection",
+            labelMy: "အရေပြားကူးစက်မှု ရှိသူတစ်ဦးနှင့် လက်ဆွဲနှုတ်ဆက်ခြင်း",
+            correctBucketEn: "Direct Contact",
+            correctBucketMy: "တိုက်ရိုက် ထိတွေ့မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w19-sort-2",
+            labelEn:
+                "Breathing in droplets released when a sick person sneezes nearby",
+            labelMy:
+                "အနီးအနားတွင် ဖျားနာနေသူတစ်ဦး နှာချေသောအခါ ထွက်လာသော ရေစက်များကို ရှူသွင်းခြင်း",
+            correctBucketEn: "Droplet Infection",
+            correctBucketMy: "Droplet Infection",
+          ),
+          SortingItem(
+            id: "igcsebio-w19-sort-3",
+            labelEn: "Drinking water from a well contaminated with sewage",
+            labelMy: "ရေဆိုးဖြင့် ညစ်ညမ်းနေသော ရေတွင်းမှ ရေသောက်ခြင်း",
+            correctBucketEn: "Contaminated Water or Food",
+            correctBucketMy: "ညစ်ညမ်းသော ရေ သို့မဟုတ် အစားအစာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w19-sort-4",
+            labelEn: "Being bitten by a mosquito carrying the malaria parasite",
+            labelMy: "Malaria ပါရာဆိုက် သယ်ဆောင်နေသော ခြင်ကိုက်ခံရခြင်း",
+            correctBucketEn: "Vector-Borne",
+            correctBucketMy: "Vector မှတစ်ဆင့်",
+          ),
+          SortingItem(
+            id: "igcsebio-w19-sort-5",
+            labelEn:
+                "Eating undercooked food contaminated with harmful bacteria",
+            labelMy:
+                "အန္တရာယ်ရှိသော ဘက်တီးရီးယားပါဝင်သော ကျက်မမှည့်သေးသည့် အစားအစာစားခြင်း",
+            correctBucketEn: "Contaminated Water or Food",
+            correctBucketMy: "ညစ်ညမ်းသော ရေ သို့မဟုတ် အစားအစာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Health Worker Ma Ma Lay's Village Visit",
+      titleMy: "စာဖတ်ခြင်း - ကျန်းမာရေးဝန်ထမ်း မမလေး၏ ရွာလာရောက်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Health Worker Ma Ma Lay's Village Visit",
+        titleMy: "ကျန်းမာရေးဝန်ထမ်း မမလေး၏ ရွာလာရောက်မှု",
+        passageEn:
+            "A community health worker named Ma Ma Lay visited a rural school to talk about why the village had experienced a wave of diarrhoeal illness the previous month. She explained to the students that the outbreak had started after a well used for drinking water became contaminated with sewage during heavy rains, allowing bacteria from human waste to spread through the water supply and infect anyone who drank from it without boiling it first.\n\nMa Ma Lay explained that this route of transmission -- pathogens spreading through contaminated water -- is very different from how a disease like the common cold spreads, which travels mainly through droplet infection when an infected person coughs or sneezes nearby. Both routes are considered indirect, since the pathogen does not need direct skin-to-skin contact to spread, but the prevention methods are completely different: boiling or treating drinking water and improving sewage sanitation prevents waterborne diseases, while covering your mouth when coughing and regular handwashing helps prevent droplet-spread diseases.\n\nBy the end of her talk, Ma Ma Lay had outlined three practical changes for the village: building a proper latrine system away from the well to prevent sewage contamination, boiling all drinking water until a safer well could be dug, and teaching regular handwashing with soap, since hands that touch contaminated water or surfaces can then spread pathogens to food or directly into the mouth. She emphasised that understanding exactly how a disease spreads is essential before designing any prevention plan, since a strategy that works for one transmission route -- like handwashing for direct contact diseases -- might do little to stop a disease spreading mainly through contaminated water.",
+        passageMy:
+            "ကျန်းမာရေးဝန်ထမ်း မမလေးဟု အမည်ရှိသူသည် ကျေးလက် ကျောင်းတစ်ကျောင်းကို လာရောက်ကာ ယခင်လက ရွာတွင် ဝမ်းလျှောရောဂါ လှိုင်းလုံးကြီးတစ်ခု ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းအကြောင်း ပြောကြားခဲ့သည်။ မိုးသည်းထန်စွာ ရွာနေချိန်တွင် သောက်ရေအတွက် သုံးနေသော ရေတွင်းတစ်ခု ရေဆိုးဖြင့် ညစ်ညမ်းသွားပြီးနောက် ဖြစ်ပွားခဲ့ခြင်းဖြစ်ကြောင်း၊ လူ့စွန့်ပစ်ပစ္စည်းမှ ဘက်တီးရီးယားများသည် ရေထောက်ပံ့မှုစနစ်တစ်လျှောက် ပျံ့နှံ့ကာ ရေကို မပြုတ်ဘဲ သောက်သုံးသူတိုင်းကို ကူးစက်ခဲ့ကြောင်း ကျောင်းသားများအား ရှင်းပြခဲ့သည်။\n\nဤကူးစက်လမ်းကြောင်း -- ညစ်ညမ်းသောရေမှတစ်ဆင့် ရောဂါပိုးများ ပျံ့နှံ့ခြင်း -- သည် အေးမြရောဂါကဲ့သို့သော ရောဂါ ပျံ့နှံ့ပုံနှင့် လုံးဝ ကွဲပြားကြောင်း၊ ၎င်းသည် အဓိကအားဖြင့် ကူးစက်ခံရသူ အနီးအနားတွင် ချောင်းဆိုးခြင်း သို့မဟုတ် နှာချေခြင်းမှတစ်ဆင့် Droplet Infection ဖြင့် ပျံ့နှံ့ကြောင်း မမလေးက ရှင်းပြခဲ့သည်။ Pathogen သည် ပျံ့နှံ့ရန် အရေပြား-မှ-အရေပြား တိုက်ရိုက်ထိတွေ့မှု မလိုအပ်သောကြောင့် လမ်းကြောင်းနှစ်ခုစလုံးကို Indirect ဟု သတ်မှတ်ရသော်လည်း၊ ကာကွယ်နည်းများမှာ လုံးဝ ကွဲပြားသည်- သောက်ရေကို ပြုတ်ခြင်း သို့မဟုတ် ကုသခြင်းနှင့် ရေဆိုးစနစ် တိုးတက်စေခြင်းသည် ရေမှတစ်ဆင့် ကူးစက်သော ရောဂါများကို ကာကွယ်ပေးပြီး၊ ချောင်းဆိုးသောအခါ ခံတွင်းကို ဖုံးအုပ်ခြင်းနှင့် ပုံမှန် လက်ဆေးခြင်းသည် Droplet-Spread ရောဂါများကို ကာကွယ်ရန် ကူညီသည်။\n\n၎င်း၏ ဟောပြောချက် အဆုံးတွင် မမလေးသည် ရွာအတွက် လက်တွေ့ ပြောင်းလဲမှုသုံးခုကို ဖော်ထုတ်ခဲ့သည်- ရေဆိုးညစ်ညမ်းမှုကို ကာကွယ်ရန် ရေတွင်းနှင့် ဝေးသော နေရာတွင် သင့်တော်သော အိမ်သာစနစ် တည်ဆောက်ခြင်း၊ ပို၍ ဘေးကင်းသော ရေတွင်းအသစ် တူးဖော်နိုင်သည်အထိ သောက်ရေအားလုံးကို ပြုတ်ခြင်းနှင့်၊ ညစ်ညမ်းသောရေ သို့မဟုတ် မျက်နှာပြင်များကို ထိတွေ့သော လက်များသည် အစားအစာ သို့မဟုတ် ခံတွင်းထဲသို့ တိုက်ရိုက် Pathogen များကို ပျံ့နှံ့စေနိုင်သောကြောင့် ဆပ်ပြာဖြင့် ပုံမှန် လက်ဆေးခြင်းကို သင်ကြားပေးခြင်း တို့ဖြစ်သည်။ ရောဂါတစ်ခု ပျံ့နှံ့ပုံကို အတိအကျ နားလည်ခြင်းသည် ကာကွယ်ရေးအစီအစဉ် တစ်ခုခုကို ဒီဇိုင်းဆွဲမီ မရှိမဖြစ် လိုအပ်ကြောင်း သူမက အလေးထား ဖော်ပြခဲ့သည်၊ အကြောင်းမှာ ကူးစက်လမ်းကြောင်းတစ်ခုအတွက် အလုပ်ဖြစ်သော နည်းဗျူဟာ -- တိုက်ရိုက်ထိတွေ့မှု ရောဂါများအတွက် လက်ဆေးခြင်းကဲ့သို့ -- သည် အဓိကအားဖြင့် ညစ်ညမ်းသောရေမှ ပျံ့နှံ့သော ရောဂါတစ်ခုကို ရပ်တန့်ရန် အနည်းငယ်သာ ထိရောက်နိုင်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did the well become a source of infection?",
+            questionMy:
+                "ရေတွင်းသည် ကူးစက်မှု၏ အရင်းအမြစ်တစ်ခု အဘယ်သို့ ဖြစ်လာကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It became contaminated with sewage during heavy rains",
+              "It ran completely dry",
+              "It was filled with too much salt",
+              "Someone poisoned it deliberately",
+            ],
+            optionsMy: [
+              "မိုးသည်းထန်စွာ ရွာနေချိန်တွင် ရေဆိုးဖြင့် ညစ်ညမ်းသွားခြင်း",
+              "လုံးဝ ခန်းခြောက်သွားခြင်း",
+              "ဆားလွန်ကဲစွာ ပါဝင်သွားခြင်း",
+              "တစ်စုံတစ်ဦးက တမင်တကာ အဆိပ်ခတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 1 describing the outbreak's origin.",
+              "This is a case of waterborne disease transmission.",
+            ],
+            hintsMy: [
+              "ကူးစက်ပွားလှိုင်းကြီး၏ အစကို ဖော်ပြသော စာပိုဒ် ၁ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ရေမှတစ်ဆင့် ကူးစက်သော ရောဂါ၏ ဥပမာတစ်ခု ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why are both waterborne and droplet-spread diseases considered 'indirect' transmission?",
+            questionMy:
+                "ရေမှတစ်ဆင့်နှင့် Droplet မှတစ်ဆင့် ပျံ့နှံ့သော ရောဂါနှစ်မျိုးလုံးကို 'Indirect' ကူးစက်မှုဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Neither requires direct skin-to-skin contact to spread",
+              "Both only happen at night",
+              "Both are caused by the same exact pathogen",
+              "Neither can be prevented",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံး ပျံ့နှံ့ရန် အရေပြား-မှ-အရေပြား တိုက်ရိုက် ထိတွေ့မှု မလိုအပ်ခြင်း",
+              "နှစ်ခုစလုံး ညအချိန်တွင်သာ ဖြစ်ပွားခြင်း",
+              "နှစ်ခုစလုံးကို Pathogen တစ်မျိုးတည်းက ဖြစ်စေခြင်း",
+              "နှစ်ခုစလုံးကို ကာကွယ်၍ မရနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why both routes are indirect.",
+              "Direct contact would require touching, which neither route requires.",
+            ],
+            hintsMy: [
+              "လမ်းကြောင်းနှစ်ခုစလုံး Indirect ဖြစ်သည့် အကြောင်းရင်းကို ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Direct Contact အတွက် ထိတွေ့မှု လိုအပ်မည်ဖြစ်ပြီး လမ်းကြောင်းနှစ်ခုစလုံးတွင် မလိုအပ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which prevention method is specific to droplet-spread diseases, not waterborne ones?",
+            questionMy:
+                "ရေမှတစ်ဆင့် ပျံ့နှံ့သော ရောဂါများ မဟုတ်ဘဲ Droplet-Spread ရောဂါများအတွက် တိတိကျကျ ကာကွယ်နည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Covering your mouth when coughing",
+              "Boiling drinking water",
+              "Improving sewage sanitation",
+              "Digging a new well",
+            ],
+            optionsMy: [
+              "ချောင်းဆိုးသောအခါ ခံတွင်းကို ဖုံးအုပ်ခြင်း",
+              "သောက်ရေကို ပြုတ်ခြင်း",
+              "ရေဆိုးစနစ် တိုးတက်စေခြင်း",
+              "ရေတွင်းအသစ် တူးဖော်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The other three options all address waterborne disease prevention.",
+              "This action directly targets stopping droplets from spreading through the air.",
+            ],
+            hintsMy: [
+              "ကျန်ရွေးချယ်စရာသုံးခုစလုံးသည် ရေမှတစ်ဆင့် ကူးစက်သော ရောဂါ ကာကွယ်ရေးကို ဖြေရှင်းသည်။",
+              "ဤလုပ်ဆောင်ချက်သည် လေထုမှတစ်ဆင့် ရေစက်များ ပျံ့နှံ့မှု ရပ်တန့်ရန် တိုက်ရိုက် ရည်ရွယ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What key lesson did Ma Ma Lay emphasise at the end of her talk?",
+            questionMy:
+                "မမလေး၏ ဟောပြောချက် အဆုံးတွင် အဓိက သင်ခန်းစာ မည်သည်ကို အလေးထား ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "Understanding a disease's transmission route is essential before designing a prevention plan",
+              "All diseases spread in exactly the same way",
+              "Handwashing alone prevents every disease",
+              "Prevention plans do not need to consider how a disease spreads",
+            ],
+            optionsMy: [
+              "ကာကွယ်ရေးအစီအစဉ် ဒီဇိုင်းဆွဲမီ ရောဂါတစ်ခု၏ ကူးစက်လမ်းကြောင်းကို နားလည်ခြင်း မရှိမဖြစ် လိုအပ်ခြင်း",
+              "ရောဂါအားလုံးသည် အတိအကျ တူညီသော နည်းလမ်းဖြင့် ပျံ့နှံ့ခြင်း",
+              "လက်ဆေးခြင်းတစ်ခုတည်းက ရောဂါတိုင်းကို ကာကွယ်ပေးနိုင်ခြင်း",
+              "ကာကွယ်ရေးအစီအစဉ်များသည် ရောဂါ ပျံ့နှံ့ပုံကို ထည့်သွင်းစဉ်းစားရန် မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+              "A strategy for one transmission route might not work for another.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ကူးစက်လမ်းကြောင်းတစ်ခုအတွက် နည်းဗျူဟာသည် အခြားတစ်ခုအတွက် အလုပ်မဖြစ်ချေ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Diseases and Pathogens",
+      titleMy:
+          "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - ရောဂါများနှင့် ရောဂါပိုးများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A pathogen is best defined as...",
+          questionMy: "Pathogen ကို အကောင်းဆုံး အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အရာမှာ...",
+          optionsEn: [
+            "A disease-causing microorganism",
+            "A type of antibody",
+            "A blood cell",
+            "A vitamin",
+          ],
+          optionsMy: [
+            "ရောဂါဖြစ်စေသော အဏုဇီဝပိုးမွှား",
+            "Antibody အမျိုးအစားတစ်ခု",
+            "သွေးဆဲလ်တစ်ခု",
+            "Vitamin တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is the most effective prevention for a disease spread through contaminated water?",
+          questionMy:
+              "ညစ်ညမ်းသော ရေမှတစ်ဆင့် ပျံ့နှံ့သော ရောဂါအတွက် အထိရောက်ဆုံး ကာကွယ်နည်းမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Boiling or treating drinking water",
+            "Wearing gloves only",
+            "Avoiding sunlight",
+            "Eating more sugar",
+          ],
+          optionsMy: [
+            "သောက်ရေကို ပြုတ်ခြင်း သို့မဟုတ် ကုသခြင်း",
+            "လက်အိတ်တပ်ခြင်းသာ",
+            "နေရောင်ကို ရှောင်ခြင်း",
+            "သကြားပိုစားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A mosquito that transmits malaria without becoming ill itself is called a...",
+          questionMy:
+              "Malaria ကို ကိုယ်တိုင် မဖျားနာဘဲ ကူးစက်စေသော ခြင်ကို ဘာဟု ခေါ်သနည်း",
+          optionsEn: ["Vector", "Antigen", "Antibody", "Pathogen only"],
+          optionsMy: ["Vector", "Antigen", "Antibody", "Pathogen သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 20 (Capstone): "Circulation and Disease Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek20 = CourseWeekDef(
+  id: "course-igcse-bio-w20",
+  weekNumber: 20,
+  titleEn: "Circulation and Disease Studio",
+  titleMy: "သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w20-d1",
+      dayNumber: 1,
+      titleEn: "Investigating Heart Rate",
+      titleMy: "နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why does heart rate increase during exercise?",
+          questionMy:
+              "ကိုယ်လက်လှုပ်ရှားမှု ပြုလုပ်စဉ် နှလုံးခုန်နှုန်း အဘယ်ကြောင့် တိုးလာသနည်း။",
+          optionsEn: [
+            "Muscles need more oxygen and glucose delivered faster, and more carbon dioxide removed",
+            "The heart randomly speeds up for no biological reason",
+            "Exercise stops the heart from pumping blood",
+            "Heart rate always stays exactly the same regardless of activity",
+          ],
+          optionsMy: [
+            "ကြွက်သားများသည် အောက်ဆီဂျင်နှင့် ဂလူးကို့စ်ကို ပို၍ မြန်ဆန်စွာ ရရှိရန်နှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ်ကို ပို၍ ဖယ်ရှားရန် လိုအပ်သောကြောင့်",
+            "နှလုံးသည် ဇီဝဗေဒဆိုင်ရာ အကြောင်းရင်းမရှိဘဲ ကျပန်း ပိုမြန်လာခြင်း",
+            "ကိုယ်လက်လှုပ်ရှားမှုက နှလုံးကို သွေးပန့်ခြင်းမှ ရပ်တန့်စေခြင်း",
+            "လှုပ်ရှားမှု မည်သို့ပင်ရှိစေ နှလုံးခုန်နှုန်းသည် အတိအကျ တူညီနေဆဲဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Exercising muscles respire faster, using more oxygen and glucose and producing more carbon dioxide.",
+            "A faster heart rate delivers blood (and its dissolved substances) around the body more quickly.",
+          ],
+          hintsMy: [
+            "ကိုယ်လက်လှုပ်ရှားနေသော ကြွက်သားများသည် ပို၍ မြန်ဆန်စွာ အသက်ရှူပြီး အောက်ဆီဂျင်နှင့် ဂလူးကို့စ် ပို၍ သုံးကာ ကာဗွန်ဒိုင်အောက်ဆိုဒ် ပို၍ ထုတ်လုပ်သည်။",
+            "ပိုမြန်သော နှလုံးခုန်နှုန်းသည် သွေး (နှင့် ၎င်းတွင်ပျော်ဝင်ထားသော ပစ္စည်းများ) ကို ခန္ဓာကိုယ်တစ်ဝန်း ပို၍ မြန်ဆန်စွာ ပို့ဆောင်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a heart rate investigation, why should a student rest for the same number of minutes between each exercise trial?",
+          questionMy:
+              "နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုတွင် ကျောင်းသားတစ်ဦးသည် စမ်းသပ်မှုတစ်ခုစီကြား အဘယ်ကြောင့် မိနစ်အရေအတွက် တူညီစွာ နားရမည်နည်း။",
+          optionsEn: [
+            "To let heart rate return to a comparable resting level before the next trial, keeping the test fair",
+            "Because resting has no effect on heart rate",
+            "To make the experiment take longer for no reason",
+            "Because heart rate cannot be measured while resting",
+          ],
+          optionsMy: [
+            "နောက်စမ်းသပ်မှုမတိုင်မီ နှလုံးခုန်နှုန်းကို နှိုင်းယှဉ်နိုင်သော နားနေချိန် အဆင့်သို့ ပြန်ရောက်စေရန်၊ စမ်းသပ်မှုကို တရားမျှတစေရန်",
+            "အနားယူခြင်းက နှလုံးခုန်နှုန်းအပေါ် သက်ရောက်မှု မရှိသောကြောင့်",
+            "အကြောင်းမဲ့ စမ်းသပ်မှုကို ပို၍ ကြာမြင့်စေရန်",
+            "အနားယူနေစဉ် နှလုံးခုန်နှုန်းကို တိုင်းတာ၍မရသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is an example of controlling variables to make a fair comparison between trials.",
+            "If rest time varied, later trials might start from a higher baseline, skewing the results.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ စမ်းသပ်မှုများကြား တရားမျှတသော နှိုင်းယှဉ်မှု ဖြစ်စေရန် Variable များ ထိန်းချုပ်ခြင်း၏ ဥပမာ ဖြစ်သည်။",
+            "အနားယူချိန် မတူညီပါက နောက်ပိုင်း စမ်းသပ်မှုများသည် ပိုမြင့်သော အခြေခံအဆင့်မှ စတင်နိုင်ပြီး ရလဒ်များကို ကွာဟစေနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trained athlete typically has a lower resting heart rate than an untrained person. What is the most likely biological explanation?",
+          questionMy:
+              "လေ့ကျင့်ထားသော အားကစားသမားတစ်ဦးတွင် လေ့ကျင့်မှု မရှိသူထက် နားနေချိန် နှလုံးခုန်နှုန်း ပိုနိမ့်လေ့ရှိသည်။ အဖြစ်နိုင်ဆုံး ဇီဝဗေဒဆိုင်ရာ ရှင်းပြချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Their heart has become stronger and pumps more blood per beat, so it needs to beat less often",
+            "Their heart is smaller and weaker",
+            "They have fewer red blood cells",
+            "Athletes never need oxygen",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ နှလုံးသည် ပို၍ အားကောင်းလာပြီး တစ်ချက်ချင်းလျှင် သွေးပို၍ ပန့်နိုင်သောကြောင့် ခုန်ရသည့်ကြိမ်နှုန်း လျော့နည်းသွားခြင်း",
+            "၎င်းတို့၏ နှလုံးသည် ပိုသေးငယ်ပြီး အားနည်းသောကြောင့်",
+            "၎င်းတို့တွင် သွေးနီဥ ပိုနည်းသောကြောင့်",
+            "အားကစားသမားများသည် အောက်ဆီဂျင် လုံးဝ မလိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Regular training strengthens the heart muscle, similar to how any muscle strengthens with exercise.",
+            "A stronger heart pumps a larger volume of blood with each beat (a larger stroke volume).",
+          ],
+          hintsMy: [
+            "ပုံမှန် လေ့ကျင့်မှုသည် ကြွက်သားတစ်ခုခု ကိုယ်လက်လှုပ်ရှားမှုဖြင့် ခိုင်ခံ့လာသကဲ့သို့ နှလုံးကြွက်သားကို ခိုင်ခံ့စေသည်။",
+            "ပို၍ အားကောင်းသော နှလုံးသည် ခုန်တစ်ချက်လျှင် သွေး ပမာဏပို၍ ပန့်နိုင်သည် (Stroke Volume ပိုကြီးခြင်း)။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Key Terms",
+      titleMy: "တွဲစပ်ကြမည် - ပဉ္စမနှစ်ဝက် သော့ချက်စကားလုံးများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w20-dm-1",
+          termEn: "Pulse",
+          termMy: "Pulse",
+          matchEn:
+              "The rhythmic expansion of an artery wall, felt at points like the wrist, caused by each heartbeat",
+          matchMy:
+              "နှလုံးခုန်တစ်ချက်စီကြောင့် ဖြစ်ပေါ်ပြီး လက်ကောက်ဝတ်ကဲ့သို့သော နေရာများတွင် ခံစားနိုင်သော Artery နံရံ၏ စည်းချက်ညီညီ ချဲ့ထွင်မှု",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w20-dm-2",
+          termEn: "Resting heart rate",
+          termMy: "Resting Heart Rate",
+          matchEn:
+              "The number of times the heart beats per minute while a person is at rest",
+          matchMy:
+              "လူတစ်ဦး အနားယူနေချိန် တစ်မိနစ်လျှင် နှလုံးခုန်သည့် အကြိမ်ရေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w20-dm-3",
+          termEn: "Epidemic",
+          termMy: "Epidemic",
+          matchEn:
+              "A sudden increase in cases of a disease spreading rapidly through a population",
+          matchMy:
+              "လူဦးရေတစ်ရပ်တွင် လျင်မြန်စွာ ပျံ့နှံ့နေသော ရောဂါဖြစ်ပွားမှု ရုတ်တရက် တိုးလာခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w20-dm-4",
+          termEn: "Immune response",
+          termMy: "Immune Response",
+          matchEn:
+              "The body's reaction to a pathogen, including phagocytosis and antibody production",
+          matchMy:
+              "Phagocytosis နှင့် Antibody ထုတ်လုပ်ခြင်းအပါအဝင် Pathogen တစ်ခုအပေါ် ခန္ဓာကိုယ်၏ တုံ့ပြန်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Circulation or Disease Topic?",
+      titleMy: "စီစစ်ကြမည် - Circulation ဆိုင်ရာလား Disease ဆိုင်ရာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Circulation Topic", "Disease and Immunity Topic"],
+        bucketsMy: ["Circulation ဆိုင်ရာ", "Disease နှင့် Immunity ဆိုင်ရာ"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w20-sort-1",
+            labelEn: "Measuring how heart rate changes after climbing stairs",
+            labelMy:
+                "လှေကားတက်ပြီးနောက် နှလုံးခုန်နှုန်း မည်သို့ ပြောင်းလဲကြောင်း တိုင်းတာခြင်း",
+            correctBucketEn: "Circulation Topic",
+            correctBucketMy: "Circulation ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w20-sort-2",
+            labelEn:
+                "Explaining why a vaccinated population has fewer disease outbreaks",
+            labelMy:
+                "ကာကွယ်ဆေးထိုးထားသော လူဦးရေတွင် ရောဂါဖြစ်ပွားမှု အနည်းငယ်သာ ရှိသည့် အကြောင်းရင်းကို ရှင်းပြခြင်း",
+            correctBucketEn: "Disease and Immunity Topic",
+            correctBucketMy: "Disease နှင့် Immunity ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w20-sort-3",
+            labelEn: "Comparing artery and vein wall thickness",
+            labelMy: "Artery နှင့် Vein နံရံ ထူမှုကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Circulation Topic",
+            correctBucketMy: "Circulation ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w20-sort-4",
+            labelEn:
+                "Tracking how a waterborne disease spread through a village",
+            labelMy:
+                "ရေမှတစ်ဆင့် ကူးစက်သော ရောဂါတစ်ခု ရွာတစ်ရွာတွင် မည်သို့ ပျံ့နှံ့ကြောင်း ခြေရာခံခြင်း",
+            correctBucketEn: "Disease and Immunity Topic",
+            correctBucketMy: "Disease နှင့် Immunity ဆိုင်ရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Coach Zaw Lin's Training Log",
+      titleMy: "စာဖတ်ခြင်း - နည်းပြ ဇော်လင်း၏ လေ့ကျင့်မှု မှတ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Coach Zaw Lin's Training Log",
+        titleMy: "နည်းပြ ဇော်လင်း၏ လေ့ကျင့်မှု မှတ်တမ်း",
+        passageEn:
+            "Coach Zaw Lin trained a school running team, and each term he asked his students to record their resting heart rate and their heart rate immediately after a fixed two-minute run, then again after two minutes of rest. He explained that comparing these numbers over a full training season would reveal something important about each runner's fitness progress.\n\nAt the start of the season, most students' resting heart rates were between 75 and 85 beats per minute, and their heart rate after the run spiked sharply before slowly returning toward resting levels during the two-minute recovery period. By the end of the season, after months of regular training, Coach Zaw Lin noted that most students' resting heart rates had dropped to between 60 and 70 beats per minute, and their hearts also recovered back to near-resting levels noticeably faster after the same two-minute run.\n\nHe explained to the team that both changes reflected the same underlying cause: their heart muscles had grown stronger through repeated exercise, in the same way any muscle strengthens with regular use, allowing each heartbeat to pump a larger volume of blood. Because a stronger heart could deliver the same total amount of oxygenated blood to the muscles using fewer beats per minute, resting heart rate dropped, and because it could also more efficiently clear the oxygen debt built up during exercise, recovery time shortened too. Coach Zaw Lin used this data every term as concrete, measurable evidence of fitness improvement, rather than just relying on how fast students felt they were running.",
+        passageMy:
+            "နည်းပြ ဇော်လင်းသည် ကျောင်း အပြေးအလွှားအသင်းကို လေ့ကျင့်ပေးခဲ့ပြီး၊ အခန်းစဉ်တိုင်းတွင် ကျောင်းသားများအား ၎င်းတို့၏ နားနေချိန် နှလုံးခုန်နှုန်းနှင့် သတ်မှတ်ထားသော မိနစ်နှစ်မိနစ် ပြေးလွှားပြီးချက်ချင်း နှလုံးခုန်နှုန်း၊ ထို့နောက် မိနစ်နှစ်မိနစ် အနားယူပြီးနောက် ထပ်မံမှတ်တမ်းတင်ရန် တောင်းဆိုခဲ့သည်။ ဤကိန်းဂဏန်းများကို လေ့ကျင့်ကာလတစ်ခုလုံးတစ်လျှောက် နှိုင်းယှဉ်ခြင်းက ပြေးသားတစ်ဦးစီ၏ ကျန်းမာရေး တိုးတက်မှုအကြောင်း အရေးကြီးသောအရာတစ်ခုကို ဖော်ထုတ်ပေးလိမ့်မည်ဟု သူ ရှင်းပြခဲ့သည်။\n\nလေ့ကျင့်ကာလ အစတွင် ကျောင်းသားအများစု၏ နားနေချိန် နှလုံးခုန်နှုန်းသည် တစ်မိနစ်လျှင် ၇၅ မှ ၈၅ ကြိမ်ကြား ရှိပြီး၊ ပြေးလွှားပြီးနောက် နှလုံးခုန်နှုန်း ချက်ချင်းမြင့်တက်သွားကာ မိနစ်နှစ်မိနစ် နားနေချိန်အတွင်း နားနေအဆင့်ဆီသို့ တဖြည်းဖြည်း ပြန်လျော့သွားသည်။ လေ့ကျင့်ကာလ အဆုံးတွင် လများစွာ ပုံမှန်လေ့ကျင့်ပြီးနောက် ကျောင်းသားအများစု၏ နားနေချိန် နှလုံးခုန်နှုန်းသည် တစ်မိနစ်လျှင် ၆၀ မှ ၇၀ ကြိမ်ကြားသို့ ကျဆင်းသွားကြောင်းနှင့် တူညီသော မိနစ်နှစ်မိနစ် ပြေးလွှားပြီးနောက် ၎င်းတို့၏ နှလုံးများသည် နားနေအဆင့်နီးပါးသို့ သိသိသာသာ ပို၍ မြန်ဆန်စွာ ပြန်လည်ရောက်ရှိသွားကြောင်း နည်းပြ ဇော်လင်းက မှတ်ချက်ပြုခဲ့သည်။\n\nအပြောင်းအလဲနှစ်ခုစလုံးသည် အခြေခံ အကြောင်းရင်းတစ်ခုတည်းကို ထင်ဟပ်နေကြောင်း သူသည် အသင်းအား ရှင်းပြခဲ့သည်- ၎င်းတို့၏ နှလုံးကြွက်သားများသည် အခြားကြွက်သားတစ်ခုခု ပုံမှန်သုံးစွဲမှုဖြင့် ခိုင်ခံ့လာသကဲ့သို့ ထပ်ခါထပ်ခါ ကိုယ်လက်လှုပ်ရှားမှုမှတစ်ဆင့် ပို၍ အားကောင်းလာကာ နှလုံးခုန်တစ်ချက်စီက သွေးပမာဏ ပို၍ ပန့်နိုင်လာသည်။ ပို၍ အားကောင်းသော နှလုံးသည် တစ်မိနစ်လျှင် ခုန်ချက် နည်းသော်လည်း Oxygen ပါသော သွေး ပမာဏ တူညီစွာ ကြွက်သားများသို့ ပို့ဆောင်နိုင်သောကြောင့် နားနေချိန် နှလုံးခုန်နှုန်း ကျဆင်းသွားပြီး၊ ကိုယ်လက်လှုပ်ရှားမှုအတွင်း တည်ဆောက်ထားသော Oxygen Debt ကို ပို၍ ထိရောက်စွာ ရှင်းလင်းနိုင်သောကြောင့် ပြန်လည်ကောင်းမွန်ချိန်လည်း တိုတောင်းသွားသည်။ နည်းပြ ဇော်လင်းသည် ကျောင်းသားများ မည်မျှမြန်ဆန်စွာ ခံစားရသည်ဟု အားထားရုံသာမက အခန်းစဉ်တိုင်း ဤဒေတာကို ကျန်းမာရေးတိုးတက်မှု၏ တိကျသော၊ တိုင်းတာနိုင်သော အထောက်အထားအဖြစ် အသုံးပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happened to resting heart rate by the end of the season?",
+            questionMy:
+                "လေ့ကျင့်ကာလ အဆုံးတွင် နားနေချိန် နှလုံးခုန်နှုန်း အဘယ်ဖြစ်ခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It dropped, from 75-85 to 60-70 beats per minute for most students",
+              "It increased dramatically",
+              "It stayed exactly the same",
+              "It became impossible to measure",
+            ],
+            optionsMy: [
+              "ကျောင်းသားအများစုတွင် တစ်မိနစ်လျှင် ၇၅-၈၅ ကြိမ်မှ ၆၀-၇၀ ကြိမ်သို့ ကျဆင်းသွားခြင်း",
+              "သိသိသာသာ မြင့်တက်သွားခြင်း",
+              "အတိအကျ တူညီနေဆဲ ဖြစ်ခြင်း",
+              "တိုင်းတာ၍ မရနိုင်တော့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the specific numbers given at the start and end of the season.",
+              "This is described as a drop, consistent with improved fitness.",
+            ],
+            hintsMy: [
+              "လေ့ကျင့်ကာလ အစနှင့် အဆုံးတွင် ပေးထားသော တိကျသော ကိန်းဂဏန်းများကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို ကျဆင်းသွားခြင်းဟု ဖော်ပြထားပြီး ကျန်းမာရေး တိုးတက်မှုနှင့် ကိုက်ညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did resting heart rate drop as fitness improved?",
+            questionMy:
+                "ကျန်းမာရေး တိုးတက်လာသည်နှင့်အမျှ နားနေချိန် နှလုံးခုန်နှုန်း အဘယ်ကြောင့် ကျဆင်းသွားခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A stronger heart pumps more blood per beat, so fewer beats are needed to deliver the same oxygen",
+              "The heart became smaller and weaker",
+              "The students stopped needing oxygen",
+              "The students ran less often",
+            ],
+            optionsMy: [
+              "ပို၍ အားကောင်းသော နှလုံးသည် ခုန်တစ်ချက်လျှင် သွေးပို၍ ပန့်နိုင်သောကြောင့် Oxygen ပမာဏတူတူ ပို့ဆောင်ရန် ခုန်ချက် နည်းနည်းသာ လိုအပ်ခြင်း",
+              "နှလုံးသည် ပိုသေးငယ်၍ အားနည်းလာခြင်း",
+              "ကျောင်းသားများ Oxygen လိုအပ်ခြင်း ရပ်တန့်သွားခြင်း",
+              "ကျောင်းသားများ ပြေးလွှားမှု နည်းသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the explanation about the heart pumping 'a larger volume of blood' per beat.",
+              "Fewer, more powerful beats can deliver the same total blood flow.",
+            ],
+            hintsMy: [
+              "နှလုံးက ခုန်တစ်ချက်လျှင် 'သွေးပမာဏပို၍' ပန့်ကြောင်း ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ခုန်ချက် နည်းသော်လည်း ပို၍ အားကောင်းသော ခုန်ချက်များသည် စုစုပေါင်း သွေးစီးဆင်းမှု တူညီစွာ ပို့ဆောင်နိုင်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happened to recovery time after exercise as fitness improved?",
+            questionMy:
+                "ကျန်းမာရေး တိုးတက်လာသည်နှင့်အမျှ ကိုယ်လက်လှုပ်ရှားမှုပြီးနောက် ပြန်လည်ကောင်းမွန်ချိန် အဘယ်ဖြစ်ခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It shortened, since the heart could clear the oxygen debt more efficiently",
+              "It lengthened significantly",
+              "It became impossible to measure",
+              "It had no relationship to fitness at all",
+            ],
+            optionsMy: [
+              "တိုတောင်းသွားခြင်း၊ အကြောင်းမှာ နှလုံးက Oxygen Debt ကို ပို၍ ထိရောက်စွာ ရှင်းလင်းနိုင်သောကြောင့်",
+              "သိသိသာသာ ပို၍ ရှည်လျားသွားခြင်း",
+              "တိုင်းတာ၍ မရနိုင်တော့ခြင်း",
+              "ကျန်းမာရေးနှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about recovery time shortening.",
+              "This is directly linked to the heart's improved efficiency at clearing oxygen debt.",
+            ],
+            hintsMy: [
+              "ပြန်လည်ကောင်းမွန်ချိန် တိုတောင်းသွားကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Oxygen Debt ရှင်းလင်းရာတွင် နှလုံး၏ တိုးတက်သော ထိရောက်မှုနှင့် တိုက်ရိုက် ဆက်စပ်နေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did Coach Zaw Lin value this heart rate data over students' own perception of their fitness?",
+            questionMy:
+                "နည်းပြ ဇော်လင်းသည် ကျောင်းသားများ၏ ကိုယ်ပိုင်ခံစားချက်ထက် ဤနှလုံးခုန်နှုန်း ဒေတာကို အဘယ်ကြောင့် တန်ဖိုးထားခဲ့သနည်း။",
+            optionsEn: [
+              "It gave concrete, measurable evidence of fitness improvement",
+              "Students always lied about their fitness",
+              "Heart rate is easier to fake than running speed",
+              "He did not actually value the data",
+            ],
+            optionsMy: [
+              "ကျန်းမာရေး တိုးတက်မှု၏ တိကျသော၊ တိုင်းတာနိုင်သော အထောက်အထားကို ပေးသောကြောင့်",
+              "ကျောင်းသားများသည် ၎င်းတို့၏ ကျန်းမာရေးအကြောင်း အမြဲ လိမ်ညာသောကြောင့်",
+              "နှလုံးခုန်နှုန်းသည် ပြေးလွှားနှုန်းထက် လိမ်ညာရန် ပို၍ လွယ်ကူသောကြောင့်",
+              "သူသည် ဒေတာကို အမှန်တကယ် တန်ဖိုးမထားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "Numbers provide objective evidence, unlike subjective feelings.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ကိန်းဂဏန်းများသည် ကိုယ်ပိုင်ခံစားချက်နှင့် မတူဘဲ ဓမ္မဓိဋ္ဌာန်ကျသော အထောက်အထားကို ပေးသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Recap: Transport in Animals and Disease",
+      titleMy:
+          "ပဉ္စမအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which chamber of the heart has the thickest wall?",
+          questionMy: "နှလုံး၏ မည်သည့်အခန်းတွင် နံရံအထူဆုံး ရှိသနည်း",
+          optionsEn: [
+            "Left ventricle",
+            "Right atrium",
+            "Left atrium",
+            "Right ventricle",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက် Ventricle",
+            "ညာဘက် Atrium",
+            "ဘယ်ဘက် Atrium",
+            "ညာဘက် Ventricle",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "White blood cells that engulf pathogens are carrying out...",
+          questionMy:
+              "ရောဂါပိုးများကို ဝိုင်းအုပ်နေသော သွေးဖြူဥများသည် ...ကို ပြုလုပ်နေသည်",
+          optionsEn: [
+            "Phagocytosis",
+            "Photosynthesis",
+            "Transpiration",
+            "Translocation",
+          ],
+          optionsMy: [
+            "Phagocytosis",
+            "Photosynthesis",
+            "Transpiration",
+            "Translocation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is an example of an indirect disease transmission route?",
+          questionMy:
+              "အောက်ပါတို့အနက် သွယ်ဝိုက် ရောဂါကူးစက်မှု လမ်းကြောင်း၏ ဥပမာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Drinking contaminated water",
+            "Shaking hands with an infected person",
+            "Direct skin contact",
+            "Kissing",
+          ],
+          optionsMy: [
+            "ညစ်ညမ်းသောရေ သောက်ခြင်း",
+            "ကူးစက်ခံရသူနှင့် လက်ဆွဲနှုတ်ဆက်ခြင်း",
+            "အရေပြား တိုက်ရိုက်ထိတွေ့မှု",
+            "နမ်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Passive immunity differs from active immunity because...",
+          questionMy:
+              "Passive Immunity သည် Active Immunity နှင့် ကွဲပြားသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It does not create memory cells, so protection fades faster",
+            "It always lasts a lifetime",
+            "It is stronger than active immunity",
+            "It requires no antibodies at all",
+          ],
+          optionsMy: [
+            "Memory Cell များ မဖန်တီးနိုင်သောကြောင့် ကာကွယ်မှု ပို၍ မြန်ဆန်စွာ ကျဆင်းခြင်း",
+            "အမြဲတမ်း တစ်သက်တာ ကြာရှည်ခံခြင်း",
+            "Active Immunity ထက် ပို၍ အားကောင်းခြင်း",
+            "Antibody လုံးဝ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 5: "Transport in Animals and Disease"
+// (Weeks 17-20)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm5 = CourseTermDef(
+  id: "course-igcse-bio-t5",
+  termNumber: 5,
+  titleEn: "Transport in Animals and Disease",
+  titleMy: "တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒ",
+  certificateTitleEn: "Transport in Animals and Disease",
+  certificateTitleMy: "တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒ",
+  weeks: [_igcseBioWeek17, _igcseBioWeek18, _igcseBioWeek19, _igcseBioWeek20],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-4
+/// The IGCSE Biology course's full-year pathway. Terms 1-5
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
 /// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
 /// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
-/// Transport in Plants, Weeks 13-16) are authored so far, following
-/// the blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`.
-/// Terms 5-9 are not yet authored. `terms` below intentionally lists
-/// only Terms 1-4, and `totalWeeks: 36` reflects the full planned year,
-/// following the same convention as every other in-progress pathway in
-/// this file.
+/// Transport in Plants, Weeks 13-16; Transport in Animals and Disease,
+/// Weeks 17-20) are authored so far, following the blueprint at
+/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 6-9 are not yet
+/// authored. `terms` below intentionally lists only Terms 1-5, and
+/// `totalWeeks: 36` reflects the full planned year, following the same
+/// convention as every other in-progress pathway in this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   id: "course-igcse-biology",
   subject: "biology",
@@ -7181,14 +8782,15 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Terms 5-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Terms 6-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
   terms: [
     igcseBiologyTerm1,
     igcseBiologyTerm2,
     igcseBiologyTerm3,
     igcseBiologyTerm4,
+    igcseBiologyTerm5,
   ],
 );
