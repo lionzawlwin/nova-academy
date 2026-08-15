@@ -10334,18 +10334,1564 @@ const CourseTermDef igcseBiologyTerm6 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 25: "Nervous Control in Humans"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek25 = CourseWeekDef(
+  id: "course-igcse-bio-w25",
+  weekNumber: 25,
+  titleEn: "Nervous Control in Humans",
+  titleMy: "လူသားတို့၏ အာရုံကြော ထိန်းချုပ်မှု စနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w25-d1",
+      dayNumber: 1,
+      titleEn: "The Nervous System and Reflex Arcs",
+      titleMy: "အာရုံကြောစနစ်နှင့် Reflex Arc",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The central nervous system (CNS) is made up of which two structures?",
+          questionMy:
+              "Central Nervous System (CNS) ကို ဖွဲ့စည်းပုံနှစ်ခုမှ ဖွဲ့စည်းထားသည်၊ ၎င်းတို့မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The brain and spinal cord",
+            "The heart and lungs",
+            "The skin and muscles",
+            "The eyes and ears only",
+          ],
+          optionsMy: [
+            "ဦးနှောက်နှင့် ကျောရိုးအရိုးတွင်း",
+            "နှလုံးနှင့် အဆုတ်",
+            "အရေပြားနှင့် ကြွက်သား",
+            "မျက်စိနှင့် နားသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The CNS is the control centre; everything else is the peripheral nervous system.",
+            "Nerves running throughout the body connect to this central pair of structures.",
+          ],
+          hintsMy: [
+            "CNS သည် ထိန်းချုပ်ရေးဌာနချုပ် ဖြစ်ပြီး ကျန်သမျှသည် Peripheral Nervous System ဖြစ်သည်။",
+            "ခန္ဓာကိုယ်တစ်ဝန်း ကျင်လည်နေသော အာရုံကြောများသည် ဤဗဟိုဖွဲ့စည်းပုံနှစ်ခုသို့ ချိတ်ဆက်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a reflex arc, in which order does the nerve impulse usually travel?",
+          questionMy:
+              "Reflex Arc တစ်ခုတွင် အာရုံကြော လှုပ်ရှားမှုအချက်ပြသည် ပုံမှန်အားဖြင့် မည်သည့်အစီအစဉ်ဖြင့် ခရီးသွားသနည်း။",
+          optionsEn: [
+            "Receptor -> sensory neurone -> relay neurone -> motor neurone -> effector",
+            "Effector -> motor neurone -> receptor",
+            "Relay neurone -> receptor -> effector",
+            "Motor neurone -> sensory neurone -> relay neurone",
+          ],
+          optionsMy: [
+            "Receptor -> Sensory Neurone -> Relay Neurone -> Motor Neurone -> Effector",
+            "Effector -> Motor Neurone -> Receptor",
+            "Relay Neurone -> Receptor -> Effector",
+            "Motor Neurone -> Sensory Neurone -> Relay Neurone",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A stimulus is detected first, then the signal travels toward the CNS, gets processed, then travels back out.",
+            "The receptor detects the stimulus; the effector (a muscle or gland) carries out the response.",
+          ],
+          hintsMy: [
+            "Stimulus ကို ဦးစွာ ရှာဖွေတွေ့ရှိပြီး Signal သည် CNS ဆီသို့ ခရီးသွားကာ လုပ်ငန်းစဉ်ဆောင်ရွက်ပြီးနောက် ပြန်ထွက်သွားသည်။",
+            "Receptor က Stimulus ကို ရှာဖွေတွေ့ရှိပြီး Effector (ကြွက်သား သို့မဟုတ် Gland) က တုံ့ပြန်မှုကို လုပ်ဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are reflex actions, such as pulling your hand away from something hot, so fast?",
+          questionMy:
+              "ပူသောအရာမှ လက်ကို ပြန်ရုတ်သိမ်းသကဲ့သို့သော Reflex Action များသည် အဘယ်ကြောင့် ဤမျှ လျင်မြန်သနည်း။",
+          optionsEn: [
+            "They are automatic and mostly bypass conscious decision-making in the brain, often processed at the spinal cord",
+            "They always require the brain to carefully think it through first",
+            "They only happen when you are asleep",
+            "They are controlled entirely by hormones, which act instantly",
+          ],
+          optionsMy: [
+            "Automatic ဖြစ်ပြီး ဦးနှောက်၏ ရွေးချယ်ဆုံးဖြတ်ချက်ကို အများစု ရှောင်ကျဉ်၍ ကျောရိုးအရိုးတွင်း၌ မကြာခဏ လုပ်ငန်းစဉ်ဆောင်ရွက်သောကြောင့်",
+            "ဦးနှောက်က အရင်ဆုံး ဂရုတစိုက် တွေးတောရန် အမြဲလိုအပ်သောကြောင့်",
+            "အိပ်ပျော်နေချိန်တွင်သာ ဖြစ်ပွားသောကြောင့်",
+            "ချက်ချင်း လုပ်ဆောင်ပေးသော ဟိုမုန်းများက လုံးဝ ထိန်းချုပ်ထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Reflex arcs often route through the spinal cord alone, skipping the slower process of conscious thought.",
+            "This automatic, protective speed is exactly why reflexes exist -- to react before harm occurs.",
+          ],
+          hintsMy: [
+            "Reflex Arc များသည် ဦးနှောက်၏ တွေးခေါ်မှု နှေးကွေးသော ဖြစ်စဉ်ကို ကျော်ဖြတ်ကာ ကျောရိုးအရိုးတွင်းတစ်ခုတည်းမှသာ မကြာခဏ ဖြတ်သန်းသည်။",
+            "ဤ Automatic ဖြစ်ပြီး ကာကွယ်ပေးနိုင်သော လျင်မြန်မှုသည် Reflex ရှိရသည့် အတိအကျ အကြောင်းရင်းပင်ဖြစ်သည် -- ထိခိုက်မှု မဖြစ်မီ တုံ့ပြန်နိုင်ရန်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nervous System Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အာရုံကြောစနစ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w25-dm-1",
+          termEn: "Sensory neurone",
+          termMy: "Sensory Neurone",
+          matchEn:
+              "A neurone that carries impulses from a receptor to the central nervous system",
+          matchMy:
+              "Receptor မှ Central Nervous System ဆီသို့ Impulse များ သယ်ဆောင်ပေးသော Neurone",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w25-dm-2",
+          termEn: "Motor neurone",
+          termMy: "Motor Neurone",
+          matchEn:
+              "A neurone that carries impulses from the central nervous system to an effector",
+          matchMy:
+              "Central Nervous System မှ Effector ဆီသို့ Impulse များ သယ်ဆောင်ပေးသော Neurone",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w25-dm-3",
+          termEn: "Relay neurone",
+          termMy: "Relay Neurone",
+          matchEn:
+              "A neurone within the central nervous system that connects sensory and motor neurones",
+          matchMy:
+              "Sensory နှင့် Motor Neurone များကို ချိတ်ဆက်ပေးသော Central Nervous System အတွင်းရှိ Neurone",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w25-dm-4",
+          termEn: "Effector",
+          termMy: "Effector",
+          matchEn:
+              "A muscle or gland that carries out the response to a stimulus",
+          matchMy:
+              "Stimulus တစ်ခုအပေါ် တုံ့ပြန်မှုကို လုပ်ဆောင်သော ကြွက်သား သို့မဟုတ် Gland",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w25-dm-5",
+          termEn: "Synapse",
+          termMy: "Synapse",
+          matchEn:
+              "The small gap between two neurones, crossed by chemical neurotransmitters",
+          matchMy:
+              "Neurone နှစ်ခုကြားရှိ ဓာတု Neurotransmitter များဖြင့် ဖြတ်ကျော်သော ကြားနေရာငယ်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Neurone?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Neurone",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sensory Neurone", "Relay Neurone", "Motor Neurone"],
+        bucketsMy: ["Sensory Neurone", "Relay Neurone", "Motor Neurone"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w25-sort-1",
+            labelEn:
+                "Carries the impulse from a heat receptor in the skin toward the spinal cord",
+            labelMy:
+                "အရေပြားရှိ အပူ Receptor မှ ကျောရိုးအရိုးတွင်းဆီသို့ Impulse ကို သယ်ဆောင်ခြင်း",
+            correctBucketEn: "Sensory Neurone",
+            correctBucketMy: "Sensory Neurone",
+          ),
+          SortingItem(
+            id: "igcsebio-w25-sort-2",
+            labelEn:
+                "Connects the sensory and motor neurones inside the spinal cord",
+            labelMy:
+                "ကျောရိုးအရိုးတွင်း Sensory နှင့် Motor Neurone များကို ချိတ်ဆက်ခြင်း",
+            correctBucketEn: "Relay Neurone",
+            correctBucketMy: "Relay Neurone",
+          ),
+          SortingItem(
+            id: "igcsebio-w25-sort-3",
+            labelEn:
+                "Carries the impulse from the spinal cord to the arm muscle, causing it to contract",
+            labelMy:
+                "ကျောရိုးအရိုးတွင်းမှ လက်မောင်းကြွက်သားဆီသို့ Impulse ကို သယ်ဆောင်ကာ တွန့်ကျုံ့စေခြင်း",
+            correctBucketEn: "Motor Neurone",
+            correctBucketMy: "Motor Neurone",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thet Paing's Hot Pan Reflex",
+      titleMy: "စာဖတ်ခြင်း - သက်ပိုင်၏ ပန်းကန်ပူ Reflex",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thet Paing's Hot Pan Reflex",
+        titleMy: "သက်ပိုင်၏ ပန်းကန်ပူ Reflex",
+        passageEn:
+            "While helping his mother cook, Thet Paing accidentally touched the edge of a hot frying pan and yanked his hand away before he had even consciously registered the pain -- a split second later, his brain caught up and he felt the burning sensation and cried out. Curious about how his hand seemed to move faster than his own thoughts, he asked his Biology teacher to explain what had happened.\n\nHis teacher explained that this was a classic example of a reflex arc. Heat receptors in the skin of his fingers detected the dangerous temperature and generated an electrical impulse, which travelled along a sensory neurone toward his spinal cord. Inside the spinal cord, this impulse crossed a synapse to a relay neurone, which immediately passed it on, across another synapse, to a motor neurone. That motor neurone carried the impulse straight to the muscles in his arm, the effector, causing them to contract and pull his hand away -- all without the impulse ever needing to travel up to the brain first.\n\nHis teacher explained that this route through the spinal cord alone, rather than the brain, is exactly why the whole reflex happened so quickly: the pathway was short, and it bypassed the slower process of conscious decision-making entirely. Only afterward did a separate nerve pathway carry the pain signal up to the brain, which is why Thet Paing felt the burning sensation and cried out a fraction of a second after his hand had already moved -- his body had protected itself automatically, before his conscious mind even knew there was danger.",
+        passageMy:
+            "အမေနှင့်အတူ ချက်ပြုတ်ရာတွင် ကူညီနေစဉ် သက်ပိုင်သည် ချက်ပြုတ်ကရမ်းပူ၏ အစွန်းကို မတော်တဆ ထိမိသွားခဲ့ပြီး ဒဏ်ရာကို သတိမမူမီ လက်ကို ပြန်ရုတ်သိမ်းလိုက်ခဲ့သည် -- စက္ကန့်အနည်းငယ်ကြာမှသာ သူ၏ ဦးနှောက်က ချက်ချင်းလိုက်ဖြေရှင်းကာ လောင်ကျွမ်းသော ခံစားမှုကို ခံစားရပြီး အော်ဟစ်ခဲ့သည်။ သူ၏ လက်သည် သူ၏ ကိုယ်ပိုင် တွေးခေါ်မှုထက် ပို၍ မြန်ဆန်စွာ ရွေ့လျားပုံရသည့် အကြောင်းရင်းကို စိတ်ဝင်စားသဖြင့် ၎င်း၏ ဇီဝဗေဒဆရာမကို အဘယ်အရာ ဖြစ်ခဲ့ကြောင်း ရှင်းပြပေးရန် တောင်းဆိုခဲ့သည်။\n\nဤသည်မှာ Reflex Arc ၏ ဥပမာအစစ်တစ်ခုပင်ဖြစ်ကြောင်း သူ၏ ဆရာမက ရှင်းပြခဲ့သည်။ ၎င်း၏ လက်ချောင်းများ၏ အရေပြားရှိ အပူ Receptor များက အန္တရာယ်ရှိသော အပူချိန်ကို ရှာဖွေတွေ့ရှိပြီး လျှပ်စစ် Impulse တစ်ခု ထုတ်လုပ်ကာ ၎င်း၏ ကျောရိုးအရိုးတွင်းဆီသို့ Sensory Neurone တစ်လျှောက် ခရီးသွားခဲ့သည်။ ကျောရိုးအရိုးတွင်းတွင် ဤ Impulse သည် Synapse တစ်ခုကို ဖြတ်ကျော်ကာ Relay Neurone သို့ ရောက်ရှိခဲ့ပြီး ၎င်းက ချက်ချင်းပင် နောက်ထပ် Synapse တစ်ခုကို ဖြတ်ကျော်ကာ Motor Neurone သို့ ဆက်လက် ပို့ဆောင်ခဲ့သည်။ ထို Motor Neurone သည် Impulse ကို ၎င်း၏ လက်မောင်းရှိ ကြွက်သားများ (Effector) ဆီသို့ တိုက်ရိုက် သယ်ဆောင်ကာ ၎င်းတို့ကို တွန့်ကျုံ့စေပြီး လက်ကို ပြန်ဆွဲသိမ်းစေခဲ့သည် -- ဤအားလုံးသည် Impulse ဦးနှောက်ဆီသို့ ဦးစွာ ခရီးသွားရန် လုံးဝ မလိုအပ်ဘဲ ဖြစ်ခဲ့သည်။\n\nဦးနှောက်မဟုတ်ဘဲ ကျောရိုးအရိုးတွင်းတစ်ခုတည်းမှသာ ဤလမ်းကြောင်းက Reflex တစ်ခုလုံး ဤမျှ လျင်မြန်စွာ ဖြစ်ပေါ်ရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်ကြောင်း သူ၏ ဆရာမက ရှင်းပြခဲ့သည်- ခရီးလမ်းကြောင်း တိုတောင်းပြီး ရွေးချယ်ဆုံးဖြတ်ခြင်း ဖြစ်စဉ် နှေးကွေးမှုကို လုံးဝ ကျော်ဖြတ်သွားသည်။ ထို့နောက်မှသာ သီးခြားအာရုံကြောလမ်းကြောင်းတစ်ခုက နာကျင်မှု Signal ကို ဦးနှောက်ဆီသို့ သယ်ဆောင်ခဲ့သည်၊ ၎င်းသည် သက်ပိုင်၏ လက် ရွေ့လျားပြီးနောက် စက္ကန့်အစိတ်အပိုင်းငယ်တစ်ခုကြာမှသာ လောင်ကျွမ်းသော ခံစားမှုကို ခံစားရပြီး အော်ဟစ်ခဲ့ရသည့် အကြောင်းရင်းပင် ဖြစ်သည် -- သူ၏ ကိုယ်ပိုင် စိတ်က အန္တရာယ်ရှိကြောင်း သတိမမူမီ ၎င်း၏ ခန္ဓာကိုယ်ကိုယ်တိုင် Automatic ဖြင့် ကာကွယ်ပေးခဲ့ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happens first when the heat receptors detect danger?",
+            questionMy:
+                "အပူ Receptor များက အန္တရာယ်ကို ရှာဖွေတွေ့ရှိသောအခါ ပထမဆုံး အဘယ်ဖြစ်ပေါ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An electrical impulse travels along a sensory neurone toward the spinal cord",
+              "The brain immediately makes a conscious decision",
+              "The muscle contracts before any impulse is generated",
+              "The hand becomes permanently numb",
+            ],
+            optionsMy: [
+              "လျှပ်စစ် Impulse တစ်ခု Sensory Neurone တစ်လျှောက် ကျောရိုးအရိုးတွင်းဆီသို့ ခရီးသွားခြင်း",
+              "ဦးနှောက်က ချက်ချင်း ရွေးချယ်ဆုံးဖြတ်ချက် ချမှတ်ခြင်း",
+              "Impulse မထုတ်လုပ်မီ ကြွက်သား တွန့်ကျုံ့ခြင်း",
+              "လက် အမြဲတမ်း သွေးခေါင်းသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 2.",
+              "This is the very first step of the reflex arc, right after detection.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၂ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ တွေ့ရှိပြီးနောက် Reflex Arc ၏ ပထမဆုံးအဆင့်ပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, in what order does the impulse pass through the neurones?",
+            questionMy:
+                "Impulse သည် Neurone များကို မည်သည့်အစီအစဉ်ဖြင့် ဖြတ်သန်းကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Sensory neurone, then relay neurone, then motor neurone",
+              "Motor neurone, then sensory neurone, then relay neurone",
+              "Relay neurone, then motor neurone, then sensory neurone",
+              "All three neurones fire at exactly the same instant with no order",
+            ],
+            optionsMy: [
+              "Sensory Neurone၊ ထို့နောက် Relay Neurone၊ ထို့နောက် Motor Neurone",
+              "Motor Neurone၊ ထို့နောက် Sensory Neurone၊ ထို့နောက် Relay Neurone",
+              "Relay Neurone၊ ထို့နောက် Motor Neurone၊ ထို့နောက် Sensory Neurone",
+              "အစီအစဉ် လုံးဝမရှိဘဲ Neurone သုံးခုစလုံး တစ်ချိန်တည်း လှုပ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread paragraph 2 tracing the impulse's full path.",
+              "This matches the standard reflex arc order taught earlier in the week.",
+            ],
+            hintsMy: [
+              "Impulse ၏ ခရီးလမ်းတစ်ခုလုံးကို ခြေရာခံသော စာပိုဒ် ၂ ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ဤပတ်အစောပိုင်းတွင် သင်ကြားခဲ့သော စံ Reflex Arc အစီအစဉ်နှင့် ကိုက်ညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the reflex happen so quickly, without needing the brain?",
+            questionMy:
+                "ဦးနှောက် မလိုအပ်ဘဲ Reflex ဤမျှ လျင်မြန်စွာ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The pathway through the spinal cord alone was short and bypassed slower conscious decision-making",
+              "The brain was asleep at the time",
+              "The muscles moved before receiving any signal at all",
+              "Reflexes always involve the brain first, then the spinal cord",
+            ],
+            optionsMy: [
+              "ကျောရိုးအရိုးတွင်းတစ်ခုတည်းမှသာ ခရီးလမ်းကြောင်း တိုတောင်းပြီး ပို၍ နှေးကွေးသော ရွေးချယ်ဆုံးဖြတ်ခြင်းကို ကျော်ဖြတ်ခြင်း",
+              "ထိုအချိန်တွင် ဦးနှောက် အိပ်ပျော်နေခြင်း",
+              "Signal မည်သည့်တစ်ခုမျှ မရရှိမီ ကြွက်သားများ ရွေ့လျားခြင်း",
+              "Reflex များသည် ဦးနှောက်ကို အရင်ဆုံးပါဝင်စေပြီး ထို့နောက် ကျောရိုးအရိုးတွင်းကို အမြဲပါဝင်စေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the short pathway and bypassing conscious decision-making.",
+              "A shorter route with fewer processing steps takes less time.",
+            ],
+            hintsMy: [
+              "လမ်းကြောင်းတိုတောင်းမှုနှင့် ရွေးချယ်ဆုံးဖြတ်ခြင်း ကျော်ဖြတ်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "လုပ်ငန်းစဉ် အဆင့်နည်းသော တိုတောင်းသည့်လမ်းကြောင်းသည် အချိန် ပို၍ နည်းစွာ ကုန်ဆုံးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thet Paing feel pain and cry out only after his hand had already moved?",
+            questionMy:
+                "သက်ပိုင်၏ လက် ရွေ့လျားပြီးနောက်မှသာ နာကျင်မှု ခံစားရပြီး အော်ဟစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A separate pathway carried the pain signal to the brain afterward, taking a fraction of a second longer",
+              "He was not actually injured at all",
+              "The reflex had not actually happened yet",
+              "His brain processed the signal before his hand moved",
+            ],
+            optionsMy: [
+              "သီးခြားလမ်းကြောင်းတစ်ခုက နာကျင်မှု Signal ကို ဦးနှောက်ဆီသို့ နောက်ပိုင်းတွင် သယ်ဆောင်ခဲ့ပြီး စက္ကန့်အစိတ်အပိုင်းငယ်တစ်ခုပို၍ ကြာမြင့်ခြင်း",
+              "၎င်းသည် အမှန်တကယ် ဒဏ်ရာ လုံးဝ မရရှိခဲ့ခြင်း",
+              "Reflex အမှန်တကယ် မဖြစ်ပေါ်ခဲ့သေးခြင်း",
+              "လက် မရွေ့လျားမီ ဦးနှောက်က Signal ကို လုပ်ငန်းစဉ်ဆောင်ရွက်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "The reflex arc's own pathway is separate and faster than the pathway carrying conscious pain sensation.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Reflex Arc ၏ ကိုယ်ပိုင်လမ်းကြောင်းသည် သတိရှိသော နာကျင်မှုခံစားချက်ကို သယ်ဆောင်သော လမ်းကြောင်းထက် သီးခြားနှင့် ပို၍ မြန်ဆန်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Nervous Control",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - အာရုံကြော ထိန်းချုပ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The CNS is made up of the brain and...",
+          questionMy: "CNS ကို ဦးနှောက်နှင့် ...တို့မှ ဖွဲ့စည်းထားသည်",
+          optionsEn: ["Spinal cord", "Heart", "Skin", "Liver"],
+          optionsMy: ["ကျောရိုးအရိုးတွင်း", "နှလုံး", "အရေပြား", "အသည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which neurone carries impulses toward the CNS from a receptor?",
+          questionMy:
+              "မည်သည့် Neurone က Receptor မှ CNS ဆီသို့ Impulse များ သယ်ဆောင်သနည်း",
+          optionsEn: [
+            "Sensory neurone",
+            "Motor neurone",
+            "Relay neurone only",
+            "None of them",
+          ],
+          optionsMy: [
+            "Sensory Neurone",
+            "Motor Neurone",
+            "Relay Neurone သာ",
+            "မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reflex actions are fast mainly because...",
+          questionMy:
+              "Reflex Action များသည် အဓိကအားဖြင့် မြန်ဆန်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They are automatic and mostly bypass slower conscious brain processing",
+            "They always require the brain's full attention first",
+            "They only happen once a year",
+            "They involve no neurones at all",
+          ],
+          optionsMy: [
+            "Automatic ဖြစ်ပြီး ဦးနှောက်၏ နှေးကွေးသော လုပ်ငန်းစဉ်ကို အများစု ကျော်ဖြတ်ခြင်း",
+            "ဦးနှောက်၏ အာရုံစိုက်မှု အပြည့်အဝကို အမြဲဦးစွာ လိုအပ်ခြင်း",
+            "တစ်နှစ်တစ်ကြိမ်သာ ဖြစ်ပွားခြင်း",
+            "Neurone လုံးဝ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 26: "The Human Eye and Hormones"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek26 = CourseWeekDef(
+  id: "course-igcse-bio-w26",
+  weekNumber: 26,
+  titleEn: "The Human Eye and Hormones",
+  titleMy: "လူ့မျက်စိနှင့် ဟိုမုန်းစနစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w26-d1",
+      dayNumber: 1,
+      titleEn: "The Eye and the Pupil Reflex",
+      titleMy: "မျက်စိနှင့် Pupil Reflex",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which part of the eye contains the light-sensitive receptor cells?",
+          questionMy:
+              "မျက်စိ၏ မည်သည့်အစိတ်အပိုင်းတွင် အလင်းလှုံ့ဆော်မှုသိသော Receptor ဆဲလ်များ ပါဝင်သနည်း။",
+          optionsEn: ["The retina", "The cornea", "The iris", "The pupil"],
+          optionsMy: ["Retina", "Cornea", "Iris", "Pupil"],
+          correctIndex: 0,
+          hintsEn: [
+            "This layer lines the back of the eye and contains rod and cone cells.",
+            "Rods detect dim light; cones detect colour.",
+          ],
+          hintsMy: [
+            "ဤအလွှာသည် မျက်စိ၏ နောက်ဘက်ကို အလွှာခံထားပြီး Rod နှင့် Cone ဆဲလ်များ ပါဝင်သည်။",
+            "Rod များက အလင်းအားနည်းသော အလင်းကို ရှာဖွေတွေ့ရှိပြီး Cone များက အရောင်ကို ရှာဖွေတွေ့ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In bright light, what happens to the pupil, and why?",
+          questionMy:
+              "အလင်းပြင်းသောနေရာတွင် Pupil အဘယ်ဖြစ်ပေါ်လာပြီး၊ ဘာကြောင့်ဖြစ်သနည်း။",
+          optionsEn: [
+            "It constricts (gets smaller), to protect the retina from too much light",
+            "It dilates (gets larger), to let more light in",
+            "It changes colour",
+            "It closes completely and permanently",
+          ],
+          optionsMy: [
+            "ကျုံ့ (ပိုသေးငယ်) သွားပြီး Retina ကို အလင်းပြင်းလွန်းမှုမှ ကာကွယ်ပေးသည်",
+            "ဖောင်း (ပိုကြီးလာ) သွားပြီး အလင်း ပို၍ ဝင်စေသည်",
+            "အရောင် ပြောင်းလဲသွားသည်",
+            "အမြဲတမ်း လုံးလုံးလျားလျား ပိတ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is an involuntary reflex, controlled by circular and radial muscles in the iris.",
+            "Too much light could damage the sensitive retina, so the pupil shrinks to limit it.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Iris ရှိ Circular နှင့် Radial ကြွက်သားများက ထိန်းချုပ်သော သဘောလိုက်စွာ ဖြစ်ပေါ်သော Reflex တစ်ခု ဖြစ်သည်။",
+            "အလင်း လွန်ကဲပါက Sensitive ဖြစ်သော Retina ကို ပျက်စီးစေနိုင်သောကြောင့် Pupil က ၎င်းကို ကန့်သတ်ရန် ကျုံ့သွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which structure controls the size of the pupil?",
+          questionMy:
+              "မည်သည့်ဖွဲ့စည်းပုံက Pupil ၏ အရွယ်အစားကို ထိန်းချုပ်သနည်း။",
+          optionsEn: ["The iris", "The lens", "The cornea", "The optic nerve"],
+          optionsMy: ["Iris", "Lens", "Cornea", "Optic Nerve"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the coloured part of the eye, containing muscles that expand or shrink the central opening.",
+            "It contains both circular muscles (constrict the pupil) and radial muscles (dilate the pupil).",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ မျက်စိ၏ အလယ်ပိုင်းအပေါက်ကို ချဲ့ခြင်း/ကျုံ့ခြင်း ပြုလုပ်သော ကြွက်သားများ ပါဝင်သည့် အရောင်ရှိသော မျက်စိအစိတ်အပိုင်းဖြစ်သည်။",
+            "၎င်းတွင် Circular ကြွက်သားများ (Pupil ကို ကျုံ့စေသည်) နှင့် Radial ကြွက်သားများ (Pupil ကို ဖောင်းစေသည်) နှစ်မျိုးလုံး ပါဝင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hormones vs Nerves",
+      titleMy: "တွဲစပ်ကြမည် - Hormones vs Nerves",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w26-dm-1",
+          termEn: "Hormone",
+          termMy: "Hormone",
+          matchEn:
+              "A chemical messenger, produced by a gland, that travels in the blood and has a slower, longer-lasting effect",
+          matchMy:
+              "Gland တစ်ခုမှ ထုတ်လုပ်ပြီး သွေးထဲတွင် ခရီးသွားကာ ပို၍ နှေးကွေးသော၊ ကြာရှည်ခံသော အကျိုးသက်ရောက်မှုရှိသည့် ဓာတု သတင်းပို့ပစ္စည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w26-dm-2",
+          termEn: "Nerve impulse",
+          termMy: "Nerve Impulse",
+          matchEn:
+              "An electrical signal that travels along a neurone, acting fast but only briefly",
+          matchMy:
+              "Neurone တစ်လျှောက် ခရီးသွားပြီး လျင်မြန်စွာသာ ဆောင်ရွက်ပေးသော လျှပ်စစ်အချက်ပြသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w26-dm-3",
+          termEn: "Cornea",
+          termMy: "Cornea",
+          matchEn:
+              "The transparent front layer of the eye that refracts (bends) light entering it",
+          matchMy:
+              "ဝင်ရောက်လာသော အလင်းကို ချိုးဖျက် (ကွေးညွှတ်) ပေးသော မျက်စိ၏ ပွင့်လင်းမြင်နိုင်သော ရှေ့အလွှာ",
+          colorValue: 0xFF00BCD4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w26-dm-4",
+          termEn: "Retina",
+          termMy: "Retina",
+          matchEn:
+              "The light-sensitive layer at the back of the eye, containing rods and cones",
+          matchMy:
+              "Rod နှင့် Cone များ ပါဝင်သော မျက်စိ၏ နောက်ဘက် အလင်းလှုံ့ဆော်မှုသိသော အလွှာ",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Hormonal or Nervous Control?",
+      titleMy:
+          "စီစစ်ကြမည် - Hormonal ထိန်းချုပ်မှုလား Nervous ထိန်းချုပ်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Hormonal Control", "Nervous Control"],
+        bucketsMy: ["Hormonal ထိန်းချုပ်မှု", "Nervous ထိန်းချုပ်မှု"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w26-sort-1",
+            labelEn:
+                "Pulling your hand away from a hot surface within a split second",
+            labelMy:
+                "ပူသောမျက်နှာပြင်မှ စက္ကန့်အစိတ်အပိုင်းငယ်အတွင်း လက်ကို ပြန်ရုတ်သိမ်းခြင်း",
+            correctBucketEn: "Nervous Control",
+            correctBucketMy: "Nervous ထိန်းချုပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w26-sort-2",
+            labelEn:
+                "Insulin released into the blood gradually lowering blood glucose over minutes",
+            labelMy:
+                "သွေးထဲသို့ လွှတ်လိုက်သော Insulin က မိနစ်များအတွင်း သွေးဂလူးကို့စ်ကို တဖြည်းဖြည်း လျော့ချခြင်း",
+            correctBucketEn: "Hormonal Control",
+            correctBucketMy: "Hormonal ထိန်းချုပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w26-sort-3",
+            labelEn: "The pupil constricting almost instantly in bright light",
+            labelMy: "အလင်းပြင်းသောအခါ Pupil ချက်ချင်းနီးပါး ကျုံ့ခြင်း",
+            correctBucketEn: "Nervous Control",
+            correctBucketMy: "Nervous ထိန်းချုပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w26-sort-4",
+            labelEn:
+                "Growth hormone gradually causing bones to lengthen over months and years",
+            labelMy:
+                "Growth Hormone က လများ၊ နှစ်များအတွင်း အရိုးများကို တဖြည်းဖြည်း ရှည်လာစေခြင်း",
+            correctBucketEn: "Hormonal Control",
+            correctBucketMy: "Hormonal ထိန်းချုပ်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Optician Daw Nilar's Eye Chart",
+      titleMy: "စာဖတ်ခြင်း - မျက်မှန်ဆိုင်ရှင် ဒေါ်နီလာ၏ မျက်စိစမ်းဇယား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Optician Daw Nilar's Eye Chart",
+        titleMy: "မျက်မှန်ဆိုင်ရှင် ဒေါ်နီလာ၏ မျက်စိစမ်းဇယား",
+        passageEn:
+            "Daw Nilar ran a small optician's shop, and when a group of students visited for a career-day tour, she used a torch and a mirror to demonstrate the pupil reflex live. She dimmed the shop lights until a volunteer's pupils had visibly dilated wide, then suddenly shone a torch into one eye and asked the group to watch closely -- within a fraction of a second, both pupils, not just the illuminated one, constricted sharply.\n\nShe explained that this rapid, involuntary response was controlled entirely by the nervous system rather than hormones, since light receptors in the retina detected the sudden brightness and sent impulses along a short reflex pathway that caused the circular muscles in the iris to contract, shrinking the pupil almost instantly. She contrasted this with a hormonal response, like the way insulin gradually lowers blood glucose over many minutes after a meal: nervous responses like the pupil reflex are built for split-second protection, while hormonal responses are built for slower, longer-lasting regulation.\n\nA student asked why both eyes reacted even though the torch shone into only one. Daw Nilar explained this was called the consensual light reflex: the nerve pathway connecting the retina to the pupil-controlling muscles crosses over inside the brain, so a signal detected by one eye triggers a protective response in both eyes simultaneously. She noted that opticians use exactly this reflex during eye examinations, since a pupil that fails to constrict properly, or reacts unevenly between the two eyes, can be an early warning sign of a problem in the nervous pathway connecting the eye to the brain, not just a problem with the eye itself.",
+        passageMy:
+            "ဒေါ်နီလာသည် မျက်မှန်ဆိုင်ငယ်တစ်ဆိုင် လုပ်ကိုင်ခဲ့ပြီး၊ ကျောင်းသားအုပ်စုတစ်စု Career Day ခရီးစဉ်တွင် လာရောက်ခဲ့သောအခါ၊ Pupil Reflex ကို တိုက်ရိုက် သရုပ်ပြရန် Torch နှင့် မှန်တစ်ချပ်ကို သုံးခဲ့သည်။ သူမသည် စေတနာ့ဝန်ထမ်း တစ်ဦး၏ Pupil များ ဖောင်းလာသည်ကို မြင်ရသည်အထိ ဆိုင်ရှိ မီးများကို လျှော့ချခဲ့ပြီး၊ ရုတ်တရက် Torch ကို မျက်လုံးတစ်လုံးထဲသို့ ထိုးလိုက်ကာ အုပ်စုအား သေချာစွာ ကြည့်ရှုစေခဲ့သည် -- စက္ကန့်အစိတ်အပိုင်းငယ်အတွင်း မျက်လုံးတစ်လုံးတည်း မဟုတ်ဘဲ Pupil နှစ်လုံးစလုံး ချက်ချင်း ကျုံ့သွားခဲ့သည်။\n\nဤလျင်မြန်၍ သဘောလိုက်စွာ ဖြစ်ပေါ်သော တုံ့ပြန်မှုသည် Hormones မဟုတ်ဘဲ အာရုံကြောစနစ်က လုံးဝ ထိန်းချုပ်ခြင်းဖြစ်ကြောင်း သူမ ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ Retina ရှိ အလင်း Receptor များက ရုတ်တရက် အလင်းတောက်ပလာမှုကို ရှာဖွေတွေ့ရှိပြီး ခရီးလမ်းကြောင်း တိုတောင်းသော Reflex တစ်ခုတစ်လျှောက် Impulse များ ပို့လိုက်ကာ Iris ရှိ Circular ကြွက်သားများကို တွန့်ကျုံ့စေကာ Pupil ကို ချက်ချင်းနီးပါး ကျုံ့စေခဲ့ခြင်း ဖြစ်သည်။ Meal တစ်ခုစားပြီးနောက် Insulin က သွေးဂလူးကို့စ်ကို မိနစ်များစွာ ကြာအောင် တဖြည်းဖြည်း လျော့ချသကဲ့သို့သော Hormonal တုံ့ပြန်မှုနှင့် ဤအရာကို သူမ နှိုင်းယှဉ်ပြခဲ့သည်- Pupil Reflex ကဲ့သို့သော Nervous တုံ့ပြန်မှုများကို စက္ကန့်အစိတ်အပိုင်းငယ် ကာကွယ်မှုအတွက် ဒီဇိုင်းထုတ်ထားပြီး၊ Hormonal တုံ့ပြန်မှုများကို ပို၍ နှေးကွေးပြီး ကြာရှည်ခံသော ထိန်းညှိမှုအတွက် ဒီဇိုင်းထုတ်ထားသည်။\n\nကျောင်းသားတစ်ဦးက Torch ကို မျက်လုံးတစ်လုံးထဲသို့သာ ထိုးထည့်ခဲ့သော်လည်း မျက်လုံးနှစ်လုံးစလုံး အဘယ်ကြောင့် တုံ့ပြန်ခဲ့ကြောင်း မေးမြန်းခဲ့သည်။ ဒေါ်နီလာက ဤအရာကို Consensual Light Reflex ဟု ခေါ်ကြောင်း ရှင်းပြခဲ့သည်- Retina မှ Pupil ထိန်းချုပ်ကြွက်သားများသို့ ချိတ်ဆက်ထားသော အာရုံကြောလမ်းကြောင်းသည် ဦးနှောက်အတွင်း ဖြတ်ကျော်ကွင်းဆက်နေသဖြင့် မျက်လုံးတစ်လုံးက ရှာဖွေတွေ့ရှိသော Signal တစ်ခုသည် မျက်လုံးနှစ်လုံးလုံးတွင် ကာကွယ်ပေးသော တုံ့ပြန်မှုကို တစ်ပြိုင်နက် လှုံ့ဆော်ပေးသည်။ မျက်စိစစ်ဆေးမှုများအတွင်း မျက်မှန်ဆိုင်ရှင်များက ဤ Reflex ကို အတိအကျ အသုံးပြုကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည်၊ အကြောင်းမှာ ကောင်းမွန်စွာ မကျုံ့နိုင်သော သို့မဟုတ် မျက်လုံးနှစ်လုံးကြား မညီမညာ တုံ့ပြန်သော Pupil တစ်ခုသည် မျက်စိကိုယ်တိုင်၏ ပြဿနာသာမက မျက်စိမှ ဦးနှောက်ဆီသို့ ချိတ်ဆက်ထားသော အာရုံကြောလမ်းကြောင်းရှိ ပြဿနာ၏ အစောပိုင်းသတိပေးလက္ခဏာ ဖြစ်နိုင်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what type of control is the pupil reflex?",
+            questionMy:
+                "Pupil Reflex သည် မည်သည့်အမျိုးအစား ထိန်းချုပ်မှု ဖြစ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nervous control, not hormonal",
+              "Hormonal control, not nervous",
+              "Neither nervous nor hormonal",
+              "Both equally, with no difference in speed",
+            ],
+            optionsMy: [
+              "Nervous ထိန်းချုပ်မှု၊ Hormonal မဟုတ်ပါ",
+              "Hormonal ထိန်းချုပ်မှု၊ Nervous မဟုတ်ပါ",
+              "Nervous မှလည်းကောင်း၊ Hormonal မှလည်းကောင်း မဟုတ်ပါ",
+              "နှစ်ခုစလုံး အညီအမျှ၊ အမြန်နှုန်း ကွာခြားချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 2.",
+              "The response was described as rapid and involuntary.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၂ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "တုံ့ပြန်မှုကို လျင်မြန်၍ သဘောလိုက်စွာ ဖြစ်ကြောင်း ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how does the speed of nervous responses compare to hormonal ones?",
+            questionMy:
+                "Nervous တုံ့ပြန်မှုများ၏ အမြန်နှုန်းသည် Hormonal တုံ့ပြန်မှုများနှင့် မည်သို့ နှိုင်းယှဉ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nervous responses are built for split-second protection; hormonal responses are slower and longer-lasting",
+              "They are always exactly the same speed",
+              "Hormonal responses are always faster",
+              "Nervous responses always take several minutes",
+            ],
+            optionsMy: [
+              "Nervous တုံ့ပြန်မှုများကို စက္ကန့်အစိတ်အပိုင်းငယ် ကာကွယ်မှုအတွက် ဒီဇိုင်းထုတ်ထားပြီး Hormonal တုံ့ပြန်မှုများ ပို၍ နှေးကွေးပြီး ကြာရှည်ခံသည်",
+              "အမြဲတမ်း အတိအကျ တူညီသော အမြန်နှုန်း ဖြစ်ခြင်း",
+              "Hormonal တုံ့ပြန်မှုများ အမြဲပို၍ မြန်ဆန်ခြင်း",
+              "Nervous တုံ့ပြန်မှုများသည် အမြဲ မိနစ်များစွာ ကြာမြင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the contrast drawn between the pupil reflex and insulin's effect.",
+              "This directly compares the two systems' speed and duration.",
+            ],
+            hintsMy: [
+              "Pupil Reflex နှင့် Insulin ၏ အကျိုးသက်ရောက်မှုကို နှိုင်းယှဉ်ထားသော အပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်က စနစ်နှစ်ခု၏ အမြန်နှုန်းနှင့် ကြာချိန်ကို တိုက်ရိုက် နှိုင်းယှဉ်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did both pupils react even though the torch shone into only one eye?",
+            questionMy:
+                "Torch ကို မျက်လုံးတစ်လုံးထဲသို့သာ ထိုးထည့်ခဲ့သော်လည်း Pupil နှစ်လုံးစလုံး တုံ့ပြန်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The nerve pathway crosses over inside the brain, triggering both eyes simultaneously",
+              "The torch light physically reached both eyes at once",
+              "One eye's reaction had nothing to do with the other",
+              "It was a coincidence unrelated to the nervous system",
+            ],
+            optionsMy: [
+              "အာရုံကြောလမ်းကြောင်းသည် ဦးနှောက်အတွင်း ဖြတ်ကျော်ကွင်းဆက်နေသဖြင့် မျက်လုံးနှစ်လုံးလုံးကို တစ်ပြိုင်နက် လှုံ့ဆော်ခြင်း",
+              "Torch အလင်းသည် မျက်လုံးနှစ်လုံးလုံးကို တစ်ပြိုင်နက် ရုပ်ပိုင်းဆိုင်ရာ ရောက်ရှိသောကြောင့်",
+              "မျက်လုံးတစ်လုံး၏ တုံ့ပြန်မှုသည် အခြားတစ်လုံးနှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+              "အာရုံကြောစနစ်နှင့် မသက်ဆိုင်သော ကြုံခဲ့ရုံသာ ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Daw Nilar's explanation of the 'consensual light reflex'.",
+              "The pathway crossing inside the brain is the key mechanism explained here.",
+            ],
+            hintsMy: [
+              "'Consensual Light Reflex' အကြောင်း ဒေါ်နီလာ၏ ရှင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဦးနှောက်အတွင်း ဖြတ်ကျော်ကွင်းဆက်နေသော လမ်းကြောင်းသည် ဤနေရာတွင် ရှင်းပြထားသော အဓိက ယန္တရားဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why do opticians test the pupil reflex during eye examinations?",
+            questionMy:
+                "မျက်စိစစ်ဆေးမှုများအတွင်း မျက်မှန်ဆိုင်ရှင်များက Pupil Reflex ကို အဘယ်ကြောင့် စစ်ဆေးကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An abnormal reflex can be an early warning sign of a problem in the eye-to-brain nerve pathway",
+              "It has no medical use at all",
+              "It only checks eye colour",
+              "It measures how well a patient can read small text",
+            ],
+            optionsMy: [
+              "ပုံမှန်မဟုတ်သော Reflex သည် မျက်စိမှ ဦးနှောက်ဆီသို့ အာရုံကြောလမ်းကြောင်းရှိ ပြဿနာ၏ အစောပိုင်းသတိပေးလက္ခဏာ ဖြစ်နိုင်သောကြောင့်",
+              "ဆေးဘက်ဆိုင်ရာ အသုံးဝင်မှု လုံးဝ မရှိသောကြောင့်",
+              "မျက်စိအရောင်ကိုသာ စစ်ဆေးသောကြောင့်",
+              "လူနာတစ်ဦး စာလုံးသေးလေးများကို မည်မျှ ကောင်းစွာ ဖတ်နိုင်ကြောင်း တိုင်းတာသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "An uneven or missing reflex points to a nerve pathway problem, not just an eye problem.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "မညီမညာ သို့မဟုတ် ပျောက်ဆုံးနေသော Reflex သည် မျက်စိပြဿနာသာမက အာရုံကြောလမ်းကြောင်း ပြဿနာကို ညွှန်ပြသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: The Eye and Hormones",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - မျက်စိနှင့် Hormones",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Light-sensitive cells in the eye are found in the...",
+          questionMy:
+              "မျက်စိရှိ အလင်းလှုံ့ဆော်မှုသိသော ဆဲလ်များကို ...တွင် တွေ့ရသည်",
+          optionsEn: ["Retina", "Cornea", "Eyelid", "Eyebrow"],
+          optionsMy: ["Retina", "Cornea", "မျက်ခမ်း", "မျက်ခုံးမွှေး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Compared to nerve impulses, hormones typically act...",
+          questionMy:
+              "အာရုံကြော Impulse များနှင့် နှိုင်းယှဉ်လျှင် Hormones များ ပုံမှန်အားဖြင့် လုပ်ဆောင်သည်မှာ...",
+          optionsEn: [
+            "More slowly, but with longer-lasting effects",
+            "Instantly, with effects lasting a fraction of a second",
+            "Exactly the same way",
+            "Only during sleep",
+          ],
+          optionsMy: [
+            "ပို၍ နှေးကွေးသော်လည်း ပို၍ ကြာရှည်ခံသော အကျိုးသက်ရောက်မှုဖြင့်",
+            "ချက်ချင်း၊ စက္ကန့်အစိတ်အပိုင်းငယ်သာ ကြာသော အကျိုးသက်ရောက်မှုဖြင့်",
+            "အတိအကျ တူညီသောနည်းလမ်းဖြင့်",
+            "အိပ်ပျော်ချိန်တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The pupil constricting in bright light is controlled by the...",
+          questionMy: "အလင်းပြင်းသောအခါ Pupil ကျုံ့ခြင်းကို ...က ထိန်းချုပ်သည်",
+          optionsEn: [
+            "Circular muscles in the iris",
+            "Retina alone",
+            "Optic nerve alone",
+            "Eyelashes",
+          ],
+          optionsMy: [
+            "Iris ရှိ Circular ကြွက်သားများ",
+            "Retina တစ်ခုတည်း",
+            "Optic Nerve တစ်ခုတည်း",
+            "မျက်တောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 27: "Homeostasis and Excretion"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek27 = CourseWeekDef(
+  id: "course-igcse-bio-w27",
+  weekNumber: 27,
+  titleEn: "Homeostasis and Excretion",
+  titleMy:
+      "အတွင်းပိုင်း ဟန်ချက်ညီထိန်းသိမ်းမှု (Homeostasis) နှင့် စွန့်ပစ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w27-d1",
+      dayNumber: 1,
+      titleEn: "Blood Glucose Control",
+      titleMy: "သွေးဂလူးကို့စ် ထိန်းချုပ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is homeostasis?",
+          questionMy: "Homeostasis ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The maintenance of a constant internal environment despite external changes",
+            "The process of digesting food",
+            "The production of new blood cells",
+            "The movement of an organism from place to place",
+          ],
+          optionsMy: [
+            "အပြင်ဘက် ပြောင်းလဲမှုများ ရှိနေသော်လည်း အတွင်းပိုင်း ပတ်ဝန်းကျင်ကို တည်ငြိမ်စွာ ထိန်းသိမ်းခြင်း",
+            "အစားအစာ ချေဖျက်ခြင်း ဖြစ်စဉ်",
+            "သွေးဆဲလ်အသစ်များ ထုတ်လုပ်ခြင်း",
+            "သက်ရှိတစ်ခု နေရာမှ နေရာသို့ ရွေ့လျားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This includes controlling blood glucose, body temperature, and water balance, among other things.",
+            "The goal is keeping the body's internal conditions steady even when the outside world changes.",
+          ],
+          hintsMy: [
+            "ဤသည်တွင် သွေးဂလူးကို့စ်၊ ခန္ဓာကိုယ်အပူချိန်နှင့် ရေဟန်ချက်ညီမှု အခြားအရာများနှင့်အတူ ထိန်းချုပ်ခြင်း ပါဝင်သည်။",
+            "ရည်ရွယ်ချက်မှာ အပြင်ဘက် ကမ္ဘာ ပြောင်းလဲသည့်တိုင် ခန္ဓာကိုယ်၏ အတွင်းအခြေအနေများကို တည်ငြိမ်စွာ ထိန်းသိမ်းရန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After a meal, blood glucose concentration rises. Which hormone lowers it back toward normal?",
+          questionMy:
+              "အစားအစာ စားပြီးနောက် သွေးဂလူးကို့စ် သိပ်သည်းဆ မြင့်တက်လာသည်။ မည်သည့် Hormone က ၎င်းကို ပုံမှန်အဆင့်သို့ ပြန်လျှော့ချသနည်း။",
+          optionsEn: ["Insulin", "Glucagon", "Adrenaline", "Nicotine"],
+          optionsMy: ["Insulin", "Glucagon", "Adrenaline", "Nicotine"],
+          correctIndex: 0,
+          hintsEn: [
+            "This hormone, produced by the pancreas, causes cells to take up glucose and the liver to store it as glycogen.",
+            "People whose pancreas cannot produce enough of this hormone develop diabetes.",
+          ],
+          hintsMy: [
+            "Pancreas မှ ထုတ်လုပ်သော ဤ Hormone က ဆဲလ်များအား ဂလူးကို့စ် စုပ်ယူစေပြီး အသည်းကို Glycogen အဖြစ် သိမ်းဆည်းစေသည်။",
+            "Pancreas က ဤ Hormone ကို လုံလောက်စွာ မထုတ်လုပ်နိုင်သူများတွင် ဆီးချိုရောဂါ ဖြစ်ပွားလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Between meals, blood glucose concentration falls. Which hormone raises it back up?",
+          questionMy:
+              "အစားအစာ စားချိန်ကြားတွင် သွေးဂလူးကို့စ် သိပ်သည်းဆ ကျဆင်းသွားသည်။ မည်သည့် Hormone က ၎င်းကို ပြန်တက်စေသနည်း။",
+          optionsEn: ["Glucagon", "Insulin", "Bile", "Amylase"],
+          optionsMy: ["Glucagon", "Insulin", "Bile", "Amylase"],
+          correctIndex: 0,
+          hintsEn: [
+            "This hormone causes the liver to break down stored glycogen back into glucose, releasing it into the blood.",
+            "It has the opposite effect to insulin, together forming a negative feedback system.",
+          ],
+          hintsMy: [
+            "ဤ Hormone က အသည်းအား သိမ်းဆည်းထားသော Glycogen ကို ဂလူးကို့စ်အဖြစ် ပြန်ချေဖျက်ကာ သွေးထဲသို့ လွှတ်ပေးစေသည်။",
+            "၎င်းသည် Insulin ၏ ဆန့်ကျင်ဘက် အကျိုးသက်ရောက်မှုရှိပြီး အတူတကွ Negative Feedback စနစ်ကို ဖွဲ့စည်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Homeostasis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Homeostasis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w27-dm-1",
+          termEn: "Negative feedback",
+          termMy: "Negative Feedback",
+          matchEn:
+              "A control system that detects a change and triggers a response that reverses it, bringing conditions back to normal",
+          matchMy:
+              "ပြောင်းလဲမှုကို ရှာဖွေတွေ့ရှိပြီး ၎င်းကို ပြောင်းပြန်လှန်ကာ အခြေအနေများကို ပုံမှန်သို့ ပြန်ခေါ်ဆောင်ပေးသော တုံ့ပြန်မှုကို လှုံ့ဆော်ပေးသော ထိန်းချုပ်မှုစနစ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w27-dm-2",
+          termEn: "Glycogen",
+          termMy: "Glycogen",
+          matchEn: "The storage form of glucose, kept mainly in the liver",
+          matchMy:
+              "အဓိကအားဖြင့် အသည်းတွင် သိမ်းဆည်းထားသော ဂလူးကို့စ်၏ သိုလှောင်ပုံစံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w27-dm-3",
+          termEn: "Thermoregulation",
+          termMy: "Thermoregulation",
+          matchEn: "The control of body temperature to keep it constant",
+          matchMy:
+              "ခန္ဓာကိုယ်အပူချိန်ကို တည်ငြိမ်စွာ ထိန်းသိမ်းရန် ထိန်းချုပ်ခြင်း",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w27-dm-4",
+          termEn: "Vasodilation",
+          termMy: "Vasodilation",
+          matchEn:
+              "The widening of blood vessels near the skin surface, increasing heat loss when the body is too hot",
+          matchMy:
+              "ခန္ဓာကိုယ် ပူလွန်းသောအခါ အပူဆုံးရှုံးမှု တိုးမြှင့်ပေးရန် အရေပြားမျက်နှာပြင်အနီးရှိ သွေးကြောများ ကျယ်ဝန်းလာခြင်း",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w27-dm-5",
+          termEn: "Vasoconstriction",
+          termMy: "Vasoconstriction",
+          matchEn:
+              "The narrowing of blood vessels near the skin surface, reducing heat loss when the body is too cold",
+          matchMy:
+              "ခန္ဓာကိုယ် အေးလွန်းသောအခါ အပူဆုံးရှုံးမှု လျော့ချပေးရန် အရေပြားမျက်နှာပြင်အနီးရှိ သွေးကြောများ ကျဉ်းလာခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w27-dm-6",
+          termEn: "Sweat gland",
+          termMy: "Sweat Gland",
+          matchEn:
+              "A structure in the skin that produces sweat, which cools the body as it evaporates",
+          matchMy:
+              "ရေငွေ့ပျံသောအခါ ခန္ဓာကိုယ်ကို အေးစေသော Sweat ကို ထုတ်လုပ်ပေးသော အရေပြားရှိ ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cooling Down or Warming Up?",
+      titleMy: "စီစစ်ကြမည် - အေးစေခြင်းလား နွေးစေခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helps Cool the Body Down", "Helps Warm the Body Up"],
+        bucketsMy: [
+          "ခန္ဓာကိုယ်ကို အေးစေရန် ကူညီသည်",
+          "ခန္ဓာကိုယ်ကို နွေးစေရန် ကူညီသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w27-sort-1",
+            labelEn:
+                "Sweat glands producing more sweat that evaporates from the skin",
+            labelMy:
+                "အရေပြားမှ ရေငွေ့ပျံသော Sweat ပို၍ ထုတ်လုပ်ပေးသော Sweat Gland များ",
+            correctBucketEn: "Helps Cool the Body Down",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို အေးစေရန် ကူညီသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w27-sort-2",
+            labelEn:
+                "Blood vessels near the skin surface narrowing (vasoconstriction)",
+            labelMy:
+                "အရေပြားမျက်နှာပြင်အနီးရှိ သွေးကြောများ ကျဉ်းလာခြင်း (Vasoconstriction)",
+            correctBucketEn: "Helps Warm the Body Up",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို နွေးစေရန် ကူညီသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w27-sort-3",
+            labelEn:
+                "Blood vessels near the skin surface widening (vasodilation)",
+            labelMy:
+                "အရေပြားမျက်နှာပြင်အနီးရှိ သွေးကြောများ ကျယ်ဝန်းလာခြင်း (Vasodilation)",
+            correctBucketEn: "Helps Cool the Body Down",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို အေးစေရန် ကူညီသည်",
+          ),
+          SortingItem(
+            id: "igcsebio-w27-sort-4",
+            labelEn:
+                "Hair erector muscles raising body hairs to trap an insulating layer of air",
+            labelMy:
+                "ခန္ဓာကိုယ်အမွှေးများကို မတ်တတ်ရပ်စေကာ ရေခံအလွှာကို ချုပ်ထားနိုင်စေသော Hair Erector ကြွက်သားများ",
+            correctBucketEn: "Helps Warm the Body Up",
+            correctBucketMy: "ခန္ဓာကိုယ်ကို နွေးစေရန် ကူညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nurse Daw Khin's Fever Lesson",
+      titleMy: "စာဖတ်ခြင်း - သူနာပြု ဒေါ်ခင်၏ ဖျားနာအကြောင်း သင်ခန်းစာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nurse Daw Khin's Fever Lesson",
+        titleMy: "သူနာပြု ဒေါ်ခင်၏ ဖျားနာအကြောင်း သင်ခန်းစာ",
+        passageEn:
+            "A school nurse named Daw Khin visited a Biology class to explain what actually happens inside the body during a fever, since several students had been confused about whether sweating during an illness helped or hurt recovery. She began by reminding the class that the body normally keeps its internal temperature within a very narrow, constant range through homeostasis, using structures in the skin such as sweat glands and blood vessels that widen or narrow to lose or retain heat.\n\nShe explained that when the body's temperature rises too high, sweat glands produce more sweat, which cools the skin as it evaporates, while blood vessels near the skin surface widen through vasodilation, bringing warm blood closer to the surface to lose heat to the surrounding air faster. Conversely, when the body is too cold, sweat production drops, blood vessels near the skin narrow through vasoconstriction to keep warm blood deeper inside the body, and hair erector muscles raise body hairs slightly to trap a thin insulating layer of air -- although this last mechanism is far less effective in humans than in more furry mammals.\n\nA student asked why a feverish person often feels cold and shivers even though their actual body temperature is above normal. Daw Khin explained that during the early stage of a fever, the body's internal 'thermostat', a temperature-control centre, is temporarily reset to a higher target temperature by chemicals released during an infection -- so even though the body is already warmer than the normal 37 degrees, it is still below this new, higher target, and the homeostatic mechanisms for warming up (vasoconstriction and shivering) activate exactly as they would on a genuinely cold day, until the body's actual temperature catches up with the new target.",
+        passageMy:
+            "ဒေါ်ခင်ဟု အမည်ရှိ ကျောင်း သူနာပြုတစ်ဦးသည် ဇီဝဗေဒအတန်းသို့ လာရောက်ကာ ဖျားနာစဉ် ခန္ဓာကိုယ်အတွင်း အမှန်တကယ် အဘယ်ဖြစ်ပေါ်ကြောင်း ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ရောဂါစဉ် ချွေးထွက်ခြင်းသည် ပြန်လည်ကောင်းမွန်မှုကို ကူညီပေးသလား၊ ဆိုးကျိုးဖြစ်စေသလားဆိုသည်ကို ကျောင်းသားများစွာ ရှုပ်ထွေးနေခဲ့ကြသည်။ ခန္ဓာကိုယ်သည် ပုံမှန်အားဖြင့် Sweat Gland များနှင့် ကျယ်/ကျဉ်း သွားနိုင်သော သွေးကြောများကို သုံး၍ Homeostasis မှတစ်ဆင့် ၎င်း၏ အတွင်းပိုင်းအပူချိန်ကို အလွန်ကျဉ်းသော၊ တည်ငြိမ်သော အတိုင်းအတာအတွင်း ထိန်းသိမ်းထားကြောင်း အတန်းကို ပြန်သတိပေးခြင်းဖြင့် သူမ စတင်ခဲ့သည်။\n\nခန္ဓာကိုယ်၏ အပူချိန် အလွန်မြင့်တက်လာသောအခါ Sweat Gland များက Sweat ပို၍ ထုတ်လုပ်ပေးပြီး ၎င်းက ရေငွေ့ပျံသောအခါ အရေပြားကို အေးစေကာ၊ အရေပြားမျက်နှာပြင်အနီးရှိ သွေးကြောများသည် Vasodilation မှတစ်ဆင့် ကျယ်ဝန်းလာကာ နွေးထွေးသော သွေးကို မျက်နှာပြင်အနီးသို့ ပို၍ ဆွဲယူကာ ပတ်ဝန်းကျင်လေထုသို့ အပူ ပို၍ မြန်ဆန်စွာ ဆုံးရှုံးစေသည်ဟု သူမ ရှင်းပြခဲ့သည်။ ဆန့်ကျင်ဘက်အားဖြင့် ခန္ဓာကိုယ် အလွန်အေးသောအခါ Sweat ထုတ်လုပ်မှု လျော့ကျသွားပြီး အရေပြားအနီးရှိ သွေးကြောများသည် Vasoconstriction မှတစ်ဆင့် ကျဉ်းလာကာ နွေးထွေးသော သွေးကို ခန္ဓာကိုယ် အတွင်းပိုင်းနက်နက်တွင် ထိန်းထားကာ၊ Hair Erector ကြွက်သားများက ခန္ဓာကိုယ်အမွှေးများကို အနည်းငယ် မတ်တတ်ရပ်စေကာ ရေခံအလွှာ ပါးလွှာတစ်ခုကို ချုပ်ထားနိုင်စေသည် -- သို့သော် ဤနောက်ဆုံးယန္တရားသည် အမွှေးအထူထပ် ပိုများသော ဇီဝမြွှေးမြူးသတ္တဝါများထက် လူသားများတွင် ထိရောက်မှု အလွန်နည်းသည်။\n\nကျောင်းသားတစ်ဦးက ဖျားနာနေသူတစ်ဦး၏ တကယ့်ခန္ဓာကိုယ်အပူချိန် ပုံမှန်ထက် မြင့်နေသော်လည်း အဘယ်ကြောင့် အေးစိမ့်သကဲ့သို့ ခံစားရပြီး တုန်ရသနည်းဟု မေးမြန်းခဲ့သည်။ ဖျားနာမှု၏ အစောပိုင်းအဆင့်တွင် ခန္ဓာကိုယ်၏ အတွင်းပိုင်း 'အပူထိန်းစက်' ဖြစ်သော အပူချိန်-ထိန်းချုပ်ရေးဌာနချုပ်သည် ကူးစက်မှုစဉ်အတွင်း လွှတ်ထုတ်သော ဓာတုပစ္စည်းများကြောင့် ပို၍ မြင့်သော ပစ်မှတ်အပူချိန်တစ်ခုသို့ ယာယီ ပြန်လည်သတ်မှတ်ခံရသည်ဟု ဒေါ်ခင်က ရှင်းပြခဲ့သည် -- ထို့ကြောင့် ခန္ဓာကိုယ်သည် ပုံမှန် ၃၇ ဒီဂရီထက် ပို၍ ပူလျက်ရှိသော်လည်း ဤအသစ် ပို၍ မြင့်သော ပစ်မှတ်ထက် ဆက်၍ နိမ့်နေဆဲဖြစ်သဖြင့် Homeostatic ယန္တရားများ (Vasoconstriction နှင့် တုန်ခြင်း) သည် တကယ့်အေးသောနေ့တစ်နေ့ကဲ့သို့ပင် အတိအကျ လှုံ့ဆော်ကာ ခန္ဓာကိုယ်၏ တကယ့်အပူချိန်သည် ဤအသစ်ပစ်မှတ်ကို မမှီအောင် ဖြစ်နေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happens to blood vessels near the skin when the body is too hot?",
+            questionMy:
+                "ခန္ဓာကိုယ် ပူလွန်းသောအခါ အရေပြားအနီးရှိ သွေးကြောများ အဘယ်ဖြစ်ပေါ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They widen (vasodilation), bringing warm blood closer to the surface",
+              "They narrow (vasoconstriction), keeping blood deeper inside",
+              "They disappear completely",
+              "They turn into sweat glands",
+            ],
+            optionsMy: [
+              "ကျယ်ဝန်းလာသည် (Vasodilation)၊ နွေးထွေးသော သွေးကို မျက်နှာပြင်အနီးသို့ ဆွဲယူသည်",
+              "ကျဉ်းလာသည် (Vasoconstriction)၊ သွေးကို အတွင်းပိုင်းနက်နက်တွင် ထိန်းထားသည်",
+              "လုံးဝ ပျောက်ကွယ်သွားသည်",
+              "Sweat Gland များအဖြစ် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about vasodilation happening when the body is too hot.",
+              "Widening blood vessels near the surface helps lose heat faster.",
+            ],
+            hintsMy: [
+              "ခန္ဓာကိုယ်ပူလွန်းသောအခါ Vasodilation ဖြစ်ပေါ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "မျက်နှာပြင်အနီးရှိ သွေးကြောများ ကျယ်ဝန်းလာခြင်းသည် အပူ ပို၍ မြန်ဆန်စွာ ဆုံးရှုံးစေရန် ကူညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why is the hair erector muscle mechanism less effective in humans than in furrier mammals?",
+            questionMy:
+                "Hair Erector ကြွက်သား ယန္တရားသည် အမွှေးအထူထပ် ပိုများသော ဇီဝမြွှေးမြူးသတ္တဝါများထက် လူသားများတွင် ထိရောက်မှု အဘယ်ကြောင့် နည်းကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The passage implies it because humans have much less body hair to trap an insulating layer",
+              "Humans do not have hair erector muscles at all",
+              "It is equally effective in both",
+              "Humans have more body hair than other mammals",
+            ],
+            optionsMy: [
+              "လူသားများတွင် ရေခံအလွှာကို ချုပ်ထားနိုင်စေမည့် ခန္ဓာကိုယ်အမွှေး များစွာ ပို၍နည်းသောကြောင့် စာပိုဒ်က ညွှန်ပြသည်",
+              "လူသားများတွင် Hair Erector ကြွက်သားများ လုံးဝ မရှိပါ",
+              "နှစ်မျိုးစလုံးတွင် ညီညာစွာ ထိရောက်ပါသည်",
+              "လူသားများတွင် အခြားဇီဝမြွှေးမြူးသတ္တဝါများထက် ခန္ဓာကိုယ်အမွှေး ပို၍များသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final clause of paragraph 2 comparing humans to furrier mammals.",
+              "Less body hair means less air can be trapped for insulation.",
+            ],
+            hintsMy: [
+              "လူသားများနှင့် အမွှေးအထူထပ်ပိုများသော ဇီဝမြွှေးမြူးသတ္တဝါများကို နှိုင်းယှဉ်ထားသော စာပိုဒ် ၂ ၏ နောက်ဆုံးအပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ခန္ဓာကိုယ်အမွှေး ပို၍ နည်းလျှင် ရေခံအတွက် လေချုပ်ထားနိုင်မှု ပို၍ နည်းသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does the body's 'thermostat' get reset during a fever?",
+            questionMy:
+                "ဖျားနာမှုစဉ် ခန္ဓာကိုယ်၏ 'အပူထိန်းစက်' ပြန်လည် သတ်မှတ်ခံရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chemicals released during an infection temporarily raise the target temperature",
+              "The body decides to permanently stop regulating temperature",
+              "The weather outside becomes colder",
+              "The skin stops producing sweat forever",
+            ],
+            optionsMy: [
+              "ကူးစက်မှုစဉ်အတွင်း လွှတ်ထုတ်သော ဓာတုပစ္စည်းများက ပစ်မှတ်အပူချိန်ကို ယာယီ မြှင့်တင်ပေးသောကြောင့်",
+              "ခန္ဓာကိုယ်က အပူချိန် ထိန်းချုပ်ခြင်းကို အမြဲတမ်း ရပ်တန့်ရန် ဆုံးဖြတ်သောကြောင့်",
+              "အပြင်ဘက် ရာသီဥတု ပို၍ အေးလာသောကြောင့်",
+              "အရေပြားက Sweat ထုတ်လုပ်ခြင်းကို အမြဲတမ်း ရပ်တန့်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the specific cause of the thermostat reset.",
+              "This is caused by chemicals released as part of the body's immune response to infection.",
+            ],
+            hintsMy: [
+              "အပူထိန်းစက် ပြန်လည်သတ်မှတ်ခံရသည့် တိတိကျကျ အကြောင်းရင်းကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ကူးစက်မှုအပေါ် ခန္ဓာကိုယ်၏ ကိုယ်ခံအားတုံ့ပြန်မှု တစ်စိတ်တစ်ပိုင်းအဖြစ် လွှတ်ထုတ်သော ဓာတုပစ္စည်းများကြောင့် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does a feverish person shiver even though they are already warmer than 37 degrees?",
+            questionMy:
+                "ဖျားနာနေသူတစ်ဦးသည် ၃၇ ဒီဂရီထက် ပို၍ ပူနေပြီးသားဖြစ်သော်လည်း တုန်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their body is still below the new, higher target temperature set by the reset thermostat",
+              "Shivering has nothing to do with temperature at all",
+              "Their body temperature has actually dropped below 37 degrees",
+              "The homeostatic system has permanently stopped working",
+            ],
+            optionsMy: [
+              "ပြန်လည်သတ်မှတ်ခံရသော အပူထိန်းစက်၏ အသစ်၊ ပို၍ မြင့်သော ပစ်မှတ်အပူချိန်ထက် ခန္ဓာကိုယ် ဆက်၍ နိမ့်နေဆဲ ဖြစ်သောကြောင့်",
+              "တုန်ခြင်းသည် အပူချိန်နှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+              "ခန္ဓာကိုယ်အပူချိန် ၃၇ ဒီဂရီအောက်သို့ တကယ် ကျဆင်းသွားသောကြောင့်",
+              "Homeostatic စနစ်သည် အမြဲတမ်း အလုပ်မလုပ်တော့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage explaining this apparent contradiction.",
+              "The body is 'warmer than normal' but still 'below the new, higher target'.",
+            ],
+            hintsMy: [
+              "ဤထင်ရှားသော ဆန့်ကျင်မှုကို ရှင်းပြသော စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ခန္ဓာကိုယ်သည် 'ပုံမှန်ထက်ပူ' သော်လည်း 'အသစ်၊ ပို၍ မြင့်သော ပစ်မှတ်ထက်' ဆက်၍ နိမ့်နေဆဲ ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Homeostasis",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Homeostasis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which hormone lowers blood glucose after a meal?",
+          questionMy:
+              "အစားအစာစားပြီးနောက် သွေးဂလူးကို့စ်ကို မည်သည့် Hormone က လျှော့ချသနည်း",
+          optionsEn: ["Insulin", "Glucagon", "Adrenaline", "Bile"],
+          optionsMy: ["Insulin", "Glucagon", "Adrenaline", "Bile"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Vasodilation near the skin surface helps the body...",
+          questionMy:
+              "အရေပြားမျက်နှာပြင်အနီးရှိ Vasodilation က ခန္ဓာကိုယ်ကို ...ရန် ကူညီသည်",
+          optionsEn: [
+            "Lose heat and cool down",
+            "Gain heat and warm up",
+            "Digest food faster",
+            "Produce more insulin",
+          ],
+          optionsMy: [
+            "အပူဆုံးရှုံးပြီး အေးလာစေ",
+            "အပူရရှိပြီး နွေးလာစေ",
+            "အစားအစာ ပို၍ မြန်ဆန်စွာ ချေဖျက်စေ",
+            "Insulin ပို၍ ထုတ်လုပ်စေ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Homeostasis relies mainly on which type of control system?",
+          questionMy:
+              "Homeostasis သည် မည်သည့်အမျိုးအစား ထိန်းချုပ်မှုစနစ်ပေါ် အဓိက မှီခိုသနည်း",
+          optionsEn: [
+            "Negative feedback",
+            "Random chance",
+            "Positive feedback only",
+            "No control system at all",
+          ],
+          optionsMy: [
+            "Negative Feedback",
+            "ကျပန်း",
+            "Positive Feedback သာ",
+            "ထိန်းချုပ်မှုစနစ် လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 28 (Capstone): "Coordination and Homeostasis Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek28 = CourseWeekDef(
+  id: "course-igcse-bio-w28",
+  weekNumber: 28,
+  titleEn: "Coordination and Homeostasis Studio",
+  titleMy: "ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w28-d1",
+      dayNumber: 1,
+      titleEn: "Understanding Diabetes Mellitus",
+      titleMy: "ဆီးချိုရောဂါ (Diabetes Mellitus) ကို နားလည်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What causes Type 1 diabetes?",
+          questionMy: "Type 1 ဆီးချိုရောဂါ၏ အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The pancreas fails to produce enough insulin",
+            "The body produces too much insulin",
+            "The liver stops producing bile",
+            "The kidneys stop filtering blood",
+          ],
+          optionsMy: [
+            "Pancreas က Insulin လုံလောက်စွာ မထုတ်လုပ်နိုင်ခြင်း",
+            "ခန္ဓာကိုယ်က Insulin အလွန်အကျွံ ထုတ်လုပ်ခြင်း",
+            "အသည်းက Bile ထုတ်လုပ်ခြင်း ရပ်တန့်ခြင်း",
+            "ကျောက်ကပ်များက သွေးစစ်ထုတ်ခြင်း ရပ်တန့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Type 1 diabetes usually develops early in life and requires regular insulin injections.",
+            "Without enough insulin, cells cannot take up glucose properly, and blood glucose stays too high.",
+          ],
+          hintsMy: [
+            "Type 1 ဆီးချိုရောဂါသည် ပုံမှန်အားဖြင့် အသက်ငယ်စဉ်က စတင်ဖြစ်ပွားပြီး ပုံမှန် Insulin ဆေးထိုးရန် လိုအပ်သည်။",
+            "Insulin လုံလောက်စွာ မရှိပါက ဆဲလ်များသည် ဂလူးကို့စ်ကို ကောင်းစွာ စုပ်ယူ၍ မရနိုင်ဘဲ သွေးဂလူးကို့စ် အလွန်မြင့်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Type 2 diabetes is most closely associated with which of the following?",
+          questionMy:
+              "Type 2 ဆီးချိုရောဂါသည် အောက်ပါတို့အနက် မည်သည့်အချက်နှင့် အနီးစပ်ဆုံး ဆက်စပ်သနည်း။",
+          optionsEn: [
+            "Body cells becoming resistant to insulin, often linked to lifestyle factors",
+            "A complete absence of the pancreas from birth",
+            "An allergy to sunlight",
+            "Excess vitamin C in the diet",
+          ],
+          optionsMy: [
+            "ဆဲလ်များ Insulin ကို ခံနိုင်ရည်ရှိလာခြင်း၊ Lifestyle အချက်များနှင့် မကြာခဏ ဆက်စပ်ခြင်း",
+            "မွေးရာပါ Pancreas လုံးဝ မရှိခြင်း",
+            "နေရောင်ဓာတ်မတည့်ခြင်း",
+            "အစားအစာတွင် Vitamin C အလွန်အကျွံ ပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Type 2 diabetes usually develops later in life and is often managed through diet and exercise.",
+            "In Type 2 diabetes, insulin may still be produced, but cells respond to it less effectively.",
+          ],
+          hintsMy: [
+            "Type 2 ဆီးချိုရောဂါသည် ပုံမှန်အားဖြင့် အသက်ကြီးမှ စတင်ဖြစ်ပွားပြီး အစားအစာနှင့် ကိုယ်လက်လှုပ်ရှားမှုဖြင့် မကြာခဏ ထိန်းချုပ်သည်။",
+            "Type 2 ဆီးချိုရောဂါတွင် Insulin ကို ဆက်လက် ထုတ်လုပ်ကောင်း ထုတ်လုပ်နေသေးသော်လည်း ဆဲလ်များ ၎င်းကို ထိရောက်စွာ တုံ့ပြန်နိုင်မှု နည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A person with untreated diabetes often has glucose in their urine. Why?",
+          questionMy:
+              "ကုသမှု မခံယူရသေးသော ဆီးချိုရောဂါရှိသူတစ်ဦးတွင် ၎င်း၏ ဆီးထဲတွင် ဂလူးကို့စ် ပါဝင်လေ့ရှိသည်။ ဘာကြောင့်ပါနည်း။",
+          optionsEn: [
+            "Blood glucose levels are so high that the kidneys cannot reabsorb all of it, so some passes into the urine",
+            "The pancreas directly releases glucose into the bladder",
+            "The person has eaten too much protein",
+            "Glucose in urine has no connection to diabetes",
+          ],
+          optionsMy: [
+            "သွေးဂလူးကို့စ်အဆင့် အလွန်မြင့်သဖြင့် ကျောက်ကပ်များက အားလုံးကို ပြန်စုပ်ယူ၍ မရနိုင်ဘဲ အချို့ ဆီးထဲသို့ ဖြတ်သွားခြင်း",
+            "Pancreas က ဆီးအိမ်ထဲသို့ ဂလူးကို့စ်ကို တိုက်ရိုက် လွှတ်ပေးခြင်း",
+            "ထိုသူသည် ပရိုတင်း အလွန်အကျွံ စားခဲ့ခြင်း",
+            "ဆီးထဲရှိ ဂလူးကို့စ်သည် ဆီးချိုရောဂါနှင့် လုံးဝ မဆက်စပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Normally, the kidneys reabsorb all filtered glucose back into the blood.",
+            "When blood glucose is too high, this reabsorption system becomes overwhelmed.",
+          ],
+          hintsMy: [
+            "ပုံမှန်အားဖြင့် ကျောက်ကပ်များက စစ်ထုတ်ထားသော ဂလူးကို့စ် အားလုံးကို သွေးထဲသို့ ပြန်စုပ်ယူသည်။",
+            "သွေးဂလူးကို့စ် အလွန်မြင့်သောအခါ ဤပြန်စုပ်ယူမှုစနစ် လျော့ကျသွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Key Terms",
+      titleMy: "တွဲစပ်ကြမည် - သတ္တမနှစ်ဝက် သော့ချက်စကားလုံးများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w28-dm-1",
+          termEn: "Type 1 diabetes",
+          termMy: "Type 1 ဆီးချိုရောဂါ",
+          matchEn:
+              "A form of diabetes where the pancreas fails to produce enough insulin, usually treated with insulin injections",
+          matchMy:
+              "Pancreas က Insulin လုံလောက်စွာ မထုတ်လုပ်နိုင်ဘဲ ပုံမှန်အားဖြင့် Insulin ဆေးထိုးခြင်းဖြင့် ကုသသော ဆီးချိုရောဂါပုံစံ",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w28-dm-2",
+          termEn: "Type 2 diabetes",
+          termMy: "Type 2 ဆီးချိုရောဂါ",
+          matchEn:
+              "A form of diabetes where body cells become resistant to insulin, often managed with diet and exercise",
+          matchMy:
+              "ဆဲလ်များ Insulin ကို ခံနိုင်ရည်ရှိလာပြီး အစားအစာနှင့် ကိုယ်လက်လှုပ်ရှားမှုဖြင့် မကြာခဏ ထိန်းချုပ်သော ဆီးချိုရောဂါပုံစံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w28-dm-3",
+          termEn: "Hyperglycaemia",
+          termMy: "Hyperglycaemia",
+          matchEn:
+              "The medical term for abnormally high blood glucose concentration",
+          matchMy:
+              "ပုံမှန်မဟုတ်သော သွေးဂလူးကို့စ် သိပ်သည်းဆမြင့်ခြင်းအတွက် ဆေးဘက်ဆိုင်ရာ အသုံးအနှုန်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w28-dm-4",
+          termEn: "Feedback loop",
+          termMy: "Feedback Loop",
+          matchEn:
+              "A cycle where a system's output influences its own future behaviour, as in insulin/glucagon control",
+          matchMy:
+              "Insulin/Glucagon ထိန်းချုပ်မှုကဲ့သို့ စနစ်တစ်ခု၏ ရလဒ်က ၎င်း၏ ကိုယ်ပိုင် အနာဂတ်လုပ်ဆောင်ချက်ကို သက်ရောက်စေသော ကွင်းဆက်",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Nervous, Hormonal, or Homeostasis Topic?",
+      titleMy: "စီစစ်ကြမည် - Nervous, Hormonal, သို့မဟုတ် Homeostasis ဆိုင်ရာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Nervous System Topic",
+          "Hormonal System Topic",
+          "Homeostasis Topic",
+        ],
+        bucketsMy: [
+          "Nervous System ဆိုင်ရာ",
+          "Hormonal System ဆိုင်ရာ",
+          "Homeostasis ဆိုင်ရာ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w28-sort-1",
+            labelEn:
+                "Explaining how a reflex arc routes an impulse through the spinal cord",
+            labelMy:
+                "Reflex Arc တစ်ခုက Impulse ကို ကျောရိုးအရိုးတွင်းမှတစ်ဆင့် မည်သို့ ပို့ဆောင်ကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Nervous System Topic",
+            correctBucketMy: "Nervous System ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w28-sort-2",
+            labelEn: "Explaining how insulin lowers blood glucose after a meal",
+            labelMy:
+                "အစားအစာစားပြီးနောက် Insulin က သွေးဂလူးကို့စ်ကို မည်သို့ လျှော့ချကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Hormonal System Topic",
+            correctBucketMy: "Hormonal System ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w28-sort-3",
+            labelEn: "Explaining how vasodilation helps the body cool down",
+            labelMy:
+                "Vasodilation က ခန္ဓာကိုယ်ကို အေးစေရန် မည်သို့ ကူညီကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Homeostasis Topic",
+            correctBucketMy: "Homeostasis ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w28-sort-4",
+            labelEn:
+                "Explaining how the pupil reflex protects the retina in bright light",
+            labelMy:
+                "Pupil Reflex က အလင်းပြင်းသောအခါ Retina ကို မည်သို့ ကာကွယ်ကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Nervous System Topic",
+            correctBucketMy: "Nervous System ဆိုင်ရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Dr. Htet Htet's Two Patients",
+      titleMy: "စာဖတ်ခြင်း - ဒေါက်တာထက်ထက်၏ လူနာနှစ်ဦး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Dr. Htet Htet's Two Patients",
+        titleMy: "ဒေါက်တာထက်ထက်၏ လူနာနှစ်ဦး",
+        passageEn:
+            "Dr. Htet Htet returned to school one final time to compare two of her patients as a case study for the Biology class's final coordination unit. Her first patient, a twelve-year-old boy, had been diagnosed with Type 1 diabetes two years earlier after suddenly losing weight and feeling constantly thirsty and tired; blood tests had shown his pancreas produced almost no insulin at all, and he now injected insulin several times daily to keep his blood glucose within a safe range.\n\nHer second patient, a sixty-year-old woman, had been diagnosed with Type 2 diabetes more recently. Unlike the boy, blood tests showed her pancreas still produced insulin, sometimes even more than a healthy person's -- but her body's cells had become increasingly resistant to that insulin's effects over years of excess weight and low physical activity, so glucose still struggled to enter her cells efficiently and blood glucose remained too high. Her treatment began with changes to diet and exercise, though medication or insulin might eventually become necessary if those changes were not enough.\n\nDr. Htet Htet used the comparison to make an important point: both patients showed the same underlying symptom, chronically high blood glucose, but for fundamentally different reasons -- one from too little insulin production, the other from reduced cell sensitivity to insulin that was still present -- which is exactly why their treatments differed so much. She reminded the class that in a healthy person, negative feedback keeps blood glucose within a narrow range: insulin lowers it after a meal, glucagon raises it between meals, and this loop normally runs automatically without conscious thought, in the same effortless way a reflex arc protects the body from a hot surface, or the pupil reflex protects the retina from bright light -- all examples of the body's coordination systems maintaining a stable internal environment.",
+        passageMy:
+            "ဇီဝဗေဒအတန်း၏ နောက်ဆုံး ညှိနှိုင်းမှု အခန်းအတွက် Case Study တစ်ခုအဖြစ် သူမ၏ လူနာနှစ်ဦးကို နှိုင်းယှဉ်ရန် ဒေါက်တာထက်ထက်သည် ကျောင်းသို့ နောက်ဆုံးအကြိမ် ပြန်လည်ရောက်ရှိလာခဲ့သည်။ သူမ၏ ပထမလူနာ၊ အသက် ၁၂ နှစ်အရွယ် ယောကျ်ားလေးတစ်ဦးသည် ရုတ်တရက် ကိုယ်အလေးချိန် ကျဆင်းကာ အမြဲပင် ရေငတ်၍ ပင်ပန်းစွာ ခံစားရခဲ့ပြီးနောက် နှစ်နှစ်အလို Type 1 ဆီးချိုရောဂါ ရှိကြောင်း အတည်ပြုခံခဲ့ရသည်၊ သွေးစစ်ချက်များက ၎င်း၏ Pancreas သည် Insulin လုံးဝနီးပါး မထုတ်လုပ်နိုင်ကြောင်း ပြသခဲ့ပြီး ယခုအခါ ၎င်းသည် သွေးဂလူးကို့စ်ကို ဘေးကင်းသော အတိုင်းအတာအတွင်း ထိန်းထားရန် တစ်နေ့လျှင် ကြိမ်ဖန်များစွာ Insulin ဆေးထိုးနေရသည်။\n\nသူမ၏ ဒုတိယလူနာ၊ အသက် ၆၀ အရွယ် အမျိုးသမီးတစ်ဦးသည် ပို၍ မကြာသေးမီက Type 2 ဆီးချိုရောဂါ ရှိကြောင်း အတည်ပြုခံခဲ့ရသည်။ ယောကျ်ားလေးနှင့် မတူဘဲ သွေးစစ်ချက်များက ၎င်း၏ Pancreas သည် Insulin ကို ဆက်လက် ထုတ်လုပ်နေဆဲဖြစ်ကြောင်း၊ တစ်ခါတစ်ရံ ကျန်းမာသူတစ်ဦးထက်ပင် ပို၍ ထုတ်လုပ်နေကြောင်း ပြသခဲ့သည် -- သို့သော် ၎င်း၏ ခန္ဓာကိုယ်ဆဲလ်များသည် နှစ်များစွာ ကိုယ်အလေးချိန်အလွန်အကျွံနှင့် ကိုယ်လက်လှုပ်ရှားမှု နည်းပါးခြင်းကြောင့် ထို Insulin ၏ အကျိုးသက်ရောက်မှုကို ခုခံမှု တဖြည်းဖြည်း တိုးလာခဲ့သဖြင့် ဂလူးကို့စ်သည် ၎င်း၏ ဆဲလ်များအတွင်းသို့ ထိရောက်စွာ ဝင်ရောက်ရန် ဆက်လက် ရုန်းကန်နေရကာ သွေးဂလူးကို့စ် အမြင့်နေဆဲ ဖြစ်နေသည်။ ၎င်း၏ ကုသမှုသည် အစားအစာနှင့် ကိုယ်လက်လှုပ်ရှားမှု ပြောင်းလဲခြင်းဖြင့် စတင်ခဲ့ပြီး၊ ထိုပြောင်းလဲမှုများ မလုံလောက်ပါက ဆေးဝါး သို့မဟုတ် Insulin ဆက်လက် လိုအပ်လာနိုင်သည်။\n\nဒေါက်တာထက်ထက်သည် ဤနှိုင်းယှဉ်ချက်ကို အသုံးပြု၍ အရေးကြီးသော အချက်တစ်ခုကို ဖော်ထုတ်ခဲ့သည်- လူနာနှစ်ဦးစလုံးသည် တူညီသော အခြေခံ လက္ခဏာ၊ ရေရှည်မြင့်မားနေသော သွေးဂလူးကို့စ်ကို ပြသခဲ့သော်လည်း လုံးဝ ကွဲပြားသော အကြောင်းရင်းများကြောင့် ဖြစ်ခဲ့ခြင်း -- တစ်ဦးက Insulin ထုတ်လုပ်မှု အလွန်နည်းခြင်း၊ နောက်တစ်ဦးက ဆက်လက်ရှိနေသေးသော Insulin အပေါ် ဆဲလ်များ၏ ခံစားနိုင်စွမ်း လျော့ကျခြင်း -- ၎င်းသည် ၎င်းတို့၏ ကုသမှုများ ဤမျှ ကွဲပြားရသည့် အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။ ကျန်းမာသောသူတစ်ဦးတွင် Negative Feedback က သွေးဂလူးကို့စ်ကို ကျဉ်းမြောင်းသော အတိုင်းအတာအတွင်း ထိန်းထားကြောင်း သူမ အတန်းကို ပြန်သတိပေးခဲ့သည်- Insulin က အစားအစာစားပြီးနောက် လျှော့ချပြီး Glucagon က အစားအစာစားချိန်ကြားတွင် မြှင့်တင်ကာ ဤကွင်းဆက်သည် ပုံမှန်အားဖြင့် သတိရှိစွာ တွေးခေါ်ခြင်း လုံးဝမလိုအပ်ဘဲ အလိုအလျောက် လည်ပတ်နေသည် -- Reflex Arc တစ်ခုက ခန္ဓာကိုယ်ကို ပူသောမျက်နှာပြင်မှ ကာကွယ်ပေးသကဲ့သို့ သို့မဟုတ် Pupil Reflex က Retina ကို အလင်းပြင်းသောအခါ ကာကွယ်ပေးသကဲ့သို့ပင် လွယ်ကူစွာ ဖြစ်သည် -- အားလုံးသည် ခန္ဓာကိုယ်၏ ညှိနှိုင်းမှုစနစ်များ တည်ငြိမ်သော အတွင်းပတ်ဝန်းကျင်ကို ထိန်းသိမ်းသည့် ဥပမာများပင် ဖြစ်ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did blood tests reveal about the boy's pancreas?",
+            questionMy:
+                "ယောကျ်ားလေး၏ Pancreas အကြောင်း သွေးစစ်ချက်များက အဘယ်ကို ဖော်ထုတ်ခဲ့ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It produced almost no insulin at all",
+              "It produced too much insulin",
+              "It had stopped functioning completely months earlier",
+              "It was producing normal amounts of insulin",
+            ],
+            optionsMy: [
+              "Insulin လုံးဝနီးပါး မထုတ်လုပ်နိုင်ခြင်း",
+              "Insulin အလွန်အကျွံ ထုတ်လုပ်ခြင်း",
+              "လများအလို လုံးဝ အလုပ်မလုပ်တော့ခြင်း",
+              "ပုံမှန် Insulin ပမာဏ ထုတ်လုပ်နေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing his blood test results.",
+              "This matches the Type 1 diabetes definition from earlier in the week.",
+            ],
+            hintsMy: [
+              "၎င်း၏ သွေးစစ်ချက် ရလဒ်များကို ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ ဤပတ်အစောပိုင်းမှ Type 1 ဆီးချိုရောဂါ အဓိပ္ပာယ်ဖွင့်ဆိုချက်နှင့် ကိုက်ညီသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was surprising about the woman's insulin production compared to the boy's?",
+            questionMy:
+                "ယောကျ်ားလေးနှင့် နှိုင်းယှဉ်လျှင် အမျိုးသမီး၏ Insulin ထုတ်လုပ်မှုအကြောင်း အံ့ဩဖွယ် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her pancreas still produced insulin, sometimes even more than a healthy person's",
+              "Her pancreas produced no insulin at all, just like the boy's",
+              "She had no pancreas",
+              "Her insulin was chemically different from normal insulin",
+            ],
+            optionsMy: [
+              "၎င်း၏ Pancreas သည် Insulin ကို ဆက်လက် ထုတ်လုပ်နေဆဲဖြစ်ပြီး တစ်ခါတစ်ရံ ကျန်းမာသူတစ်ဦးထက်ပင် ပို၍ ထုတ်လုပ်နေခြင်း",
+              "ယောကျ်ားလေးနှင့် အတူတူပင် ၎င်း၏ Pancreas က Insulin လုံးဝ မထုတ်လုပ်ခြင်း",
+              "၎င်းတွင် Pancreas လုံးဝ မရှိခြင်း",
+              "၎င်း၏ Insulin သည် ပုံမှန် Insulin နှင့် ဓာတုနည်းအားဖြင့် ကွဲပြားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence contrasting her insulin production with the boy's.",
+              "This is the key difference between Type 1 and Type 2 diabetes.",
+            ],
+            hintsMy: [
+              "၎င်း၏ Insulin ထုတ်လုပ်မှုကို ယောကျ်ားလေးနှင့် နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Type 1 နှင့် Type 2 ဆီးချိုရောဂါကြား အဓိက ကွာခြားချက် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Dr. Htet Htet say the two patients' treatments differed so much?",
+            questionMy:
+                "လူနာနှစ်ဦး၏ ကုသမှုများ ဤမျှ ကွဲပြားရသည့် အကြောင်းရင်းကို ဒေါက်တာထက်ထက် အဘယ်သို့ ပြောခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The same symptom (high blood glucose) had fundamentally different underlying causes in each patient",
+              "One patient was much younger than the other",
+              "Only one patient actually had diabetes",
+              "Their treatments were actually identical",
+            ],
+            optionsMy: [
+              "တူညီသော လက္ခဏာ (သွေးဂလူးကို့စ်မြင့်ခြင်း) သည် လူနာတစ်ဦးစီတွင် လုံးဝကွဲပြားသော အခြေခံအကြောင်းရင်းများ ရှိသောကြောင့်",
+              "လူနာတစ်ဦးသည် အခြားတစ်ဦးထက် များစွာ ငယ်ရွယ်သောကြောင့်",
+              "လူနာတစ်ဦးတည်းသာ အမှန်တကယ် ဆီးချိုရောဂါ ရှိသောကြောင့်",
+              "၎င်းတို့၏ ကုသမှုများသည် အမှန်တကယ် အတူတူပင် ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining 'the same underlying symptom... for fundamentally different reasons'.",
+              "Different causes require different treatments, even with the same visible symptom.",
+            ],
+            hintsMy: [
+              "'တူညီသော အခြေခံလက္ခဏာ... လုံးဝကွဲပြားသော အကြောင်းရင်းများကြောင့်' ဟူသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "လက္ခဏာ တူညီသော်လည်း အကြောင်းရင်း ကွဲပြားလျှင် ကုသမှုလည်း ကွဲပြားရန် လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What point did Dr. Htet Htet make in paragraph 3 about negative feedback in a healthy person?",
+            questionMy:
+                "ကျန်းမာသောသူတစ်ဦးရှိ Negative Feedback အကြောင်း ဒေါက်တာထက်ထက် မည်သည့် အချက်ကို ဖော်ပြခဲ့သနည်း။",
+            optionsEn: [
+              "It keeps blood glucose within a narrow range automatically, without conscious thought",
+              "It only works while a person is asleep",
+              "It requires constant conscious effort to function",
+              "It has nothing to do with insulin or glucagon",
+            ],
+            optionsMy: [
+              "သတိရှိစွာ တွေးခေါ်ခြင်း လုံးဝမလိုအပ်ဘဲ သွေးဂလူးကို့စ်ကို ကျဉ်းမြောင်းသော အတိုင်းအတာအတွင်း အလိုအလျောက် ထိန်းထားခြင်း",
+              "လူတစ်ဦး အိပ်ပျော်နေချိန်တွင်သာ အလုပ်လုပ်ခြင်း",
+              "အလုပ်လုပ်ရန် သတိရှိစွာ ကြိုးပမ်းမှု အမြဲလိုအပ်ခြင်း",
+              "Insulin သို့မဟုတ် Glucagon နှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the loop running 'automatically without conscious thought'.",
+              "This is compared to the effortless way a reflex arc or pupil reflex works.",
+            ],
+            hintsMy: [
+              "ကွင်းဆက်သည် 'သတိရှိစွာ တွေးခေါ်ခြင်း လုံးဝမလိုအပ်ဘဲ အလိုအလျောက်' လည်ပတ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို Reflex Arc သို့မဟုတ် Pupil Reflex ၏ လွယ်ကူသော လုပ်ဆောင်ပုံနှင့် နှိုင်းယှဉ်ထားသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Recap: Coordination and Homeostasis",
+      titleMy:
+          "သတ္တမအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A reflex arc typically involves a receptor, sensory neurone, relay neurone, motor neurone, and...",
+          questionMy:
+              "Reflex Arc တစ်ခုတွင် ပုံမှန်အားဖြင့် Receptor, Sensory Neurone, Relay Neurone, Motor Neurone နှင့် ...ပါဝင်သည်",
+          optionsEn: ["Effector", "Hormone gland", "Retina", "Pancreas"],
+          optionsMy: ["Effector", "Hormone Gland", "Retina", "Pancreas"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In Type 1 diabetes, the underlying problem is...",
+          questionMy: "Type 1 ဆီးချိုရောဂါတွင် အခြေခံ ပြဿနာမှာ...",
+          optionsEn: [
+            "Insufficient insulin production by the pancreas",
+            "Cells becoming resistant to insulin only",
+            "Too much insulin production",
+            "A problem with the retina",
+          ],
+          optionsMy: [
+            "Pancreas ၏ Insulin ထုတ်လုပ်မှု မလုံလောက်ခြင်း",
+            "ဆဲလ်များ Insulin ကို ခံနိုင်ရည်ရှိလာခြင်းသာ",
+            "Insulin အလွန်အကျွံ ထုတ်လုပ်ခြင်း",
+            "Retina ဆိုင်ရာ ပြဿနာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Negative feedback in blood glucose control involves which two hormones?",
+          questionMy:
+              "သွေးဂလူးကို့စ် ထိန်းချုပ်မှုတွင် Negative Feedback သည် Hormone နှစ်မျိုးနှင့် ပါဝင်သည်၊ ၎င်းတို့မှာ အဘယ်နည်း",
+          optionsEn: [
+            "Insulin and glucagon",
+            "Nicotine and adrenaline",
+            "Bile and amylase",
+            "Chlorophyll and haemoglobin",
+          ],
+          optionsMy: [
+            "Insulin နှင့် Glucagon",
+            "Nicotine နှင့် Adrenaline",
+            "Bile နှင့် Amylase",
+            "Chlorophyll နှင့် Haemoglobin",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 7: "Coordination, Response and Homeostasis"
+// (Weeks 25-28)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm7 = CourseTermDef(
+  id: "course-igcse-bio-t7",
+  termNumber: 7,
+  titleEn: "Coordination, Response and Homeostasis",
+  titleMy: "ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု",
+  certificateTitleEn: "Coordination, Response and Homeostasis",
+  certificateTitleMy: "ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု",
+  weeks: [_igcseBioWeek25, _igcseBioWeek26, _igcseBioWeek27, _igcseBioWeek28],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-6
+/// The IGCSE Biology course's full-year pathway. Terms 1-7
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
 /// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
 /// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
 /// Transport in Plants, Weeks 13-16; Transport in Animals and Disease,
-/// Weeks 17-20; Gas Exchange and Respiration, Weeks 21-24) are
-/// authored so far, following the blueprint at
-/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 7-9 are not yet
-/// authored. `terms` below intentionally lists only Terms 1-6, and
+/// Weeks 17-20; Gas Exchange and Respiration, Weeks 21-24;
+/// Coordination, Response and Homeostasis, Weeks 25-28) are authored
+/// so far, following the blueprint at
+/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 8-9 are not yet
+/// authored. `terms` below intentionally lists only Terms 1-7, and
 /// `totalWeeks: 36` reflects the full planned year, following the same
 /// convention as every other in-progress pathway in this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
@@ -10355,9 +11901,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Terms 7-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Terms 8-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
   terms: [
     igcseBiologyTerm1,
@@ -10366,5 +11912,6 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
     igcseBiologyTerm4,
     igcseBiologyTerm5,
     igcseBiologyTerm6,
+    igcseBiologyTerm7,
   ],
 );
