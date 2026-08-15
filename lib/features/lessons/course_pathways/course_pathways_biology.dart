@@ -5592,16 +5592,1586 @@ const CourseTermDef igcseBiologyTerm3 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 13: "Human Diet and Nutritional Requirements"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek13 = CourseWeekDef(
+  id: "course-igcse-bio-w13",
+  weekNumber: 13,
+  titleEn: "Human Diet and Nutritional Requirements",
+  titleMy: "လူသားတို့၏ အာဟာရနှင့် အာဟာရ လိုအပ်ချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w13-d1",
+      dayNumber: 1,
+      titleEn: "What is a Balanced Diet?",
+      titleMy: "Balanced Diet ဆိုသည်မှာ အဘယ်နည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced diet contains carbohydrates, proteins, and lipids, plus which other essential components?",
+          questionMy:
+              "Balanced Diet တွင် ကာဗိုဟိုက်ဒရိတ်၊ ပရိုတင်းနှင့် Lipid အပြင် မရှိမဖြစ် လိုအပ်သည့် အခြားအစိတ်အပိုင်းများမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Vitamins, minerals, fibre, and water",
+            "Only extra sugar",
+            "Only extra salt",
+            "Artificial colouring and preservatives",
+          ],
+          optionsMy: [
+            "Vitamins, Minerals, Fibre နှင့် ရေ",
+            "သကြားအပို",
+            "ဆားအပို",
+            "အရောင်တင်ပစ္စည်းနှင့် ထိန်းသိမ်းဆေးများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even in tiny amounts, these substances are essential for health.",
+            "Fibre, though not digested, is important for helping food move through the gut.",
+          ],
+          hintsMy: [
+            "ပမာဏအနည်းငယ်ဖြစ်စေ ဤပစ္စည်းများသည် ကျန်းမာရေးအတွက် မရှိမဖြစ် ဖြစ်သည်။",
+            "Fibre ကို မချေဖျက်နိုင်သော်လည်း အစာအိမ်လမ်းကြောင်းအတွင်း အစာများ ရွေ့လျားရာတွင် အရေးကြီးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A diet lacking sufficient vitamin C can lead to which deficiency disease?",
+          questionMy:
+              "Vitamin C လုံလောက်စွာ မရရှိသော အစားအသောက်သည် မည်သည့် ချို့တဲ့မှု ရောဂါကို ဖြစ်စေနိုင်သနည်း။",
+          optionsEn: ["Scurvy", "Rickets", "Anaemia", "Night blindness"],
+          optionsMy: ["Scurvy", "Rickets", "Anaemia", "Night Blindness"],
+          correctIndex: 0,
+          hintsEn: [
+            "This disease was historically common among sailors on long voyages without fresh fruit.",
+            "Symptoms include bleeding gums and slow wound healing.",
+          ],
+          hintsMy: [
+            "ဤရောဂါသည် သစ်သီးလတ်လတ်ဆတ်ဆတ် မရရှိသော ရေကြာင်းခရီးရှည် သွားသည့် သင်္ဘောသားများကြား သမိုင်းကြောင်းအရ ဖြစ်ပွားခဲ့သည်။",
+            "လက္ခဏာများတွင် သွားဖုံးသွေးထွက်ခြင်းနှင့် ဒဏ်ရာနှေးကွေးစွာ ပျောက်ကင်းခြင်း ပါဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which mineral deficiency is most closely linked to anaemia?",
+          questionMy:
+              "Anaemia နှင့် အနီးစပ်ဆုံး ဆက်စပ်နေသော သတ္တု ချို့တဲ့မှုမှာ အဘယ်နည်း။",
+          optionsEn: ["Iron", "Calcium", "Sodium", "Potassium"],
+          optionsMy: ["သံဓာတ် (Iron)", "ကယ်လ်စီယမ်", "ဆိုဒီယမ်", "ပိုတက်စီယမ်"],
+          correctIndex: 0,
+          hintsEn: [
+            "This mineral is a key part of haemoglobin, the molecule in red blood cells that carries oxygen.",
+            "Without enough of it, the body cannot make enough functional haemoglobin.",
+          ],
+          hintsMy: [
+            "ဤသတ္တုသည် အောက်ဆီဂျင် သယ်ဆောင်ပေးသော သွေးနီဥရှိ မော်လီကျူး Haemoglobin ၏ အဓိကအစိတ်အပိုင်းဖြစ်သည်။",
+            "ဤသတ္တု မလုံလောက်ပါက ခန္ဓာကိုယ်သည် အသုံးဝင်သော Haemoglobin လုံလောက်စွာ မထုတ်လုပ်နိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nutrients and Their Functions",
+      titleMy: "တွဲစပ်ကြမည် - အာဟာရများနှင့် ၎င်းတို့၏ လုပ်ဆောင်ချက်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w13-dm-1",
+          termEn: "Vitamin D",
+          termMy: "Vitamin D",
+          matchEn:
+              "Needed for calcium absorption; deficiency causes rickets (weak, soft bones)",
+          matchMy:
+              "ကယ်လ်စီယမ် စုပ်ယူရန် လိုအပ်သည်၊ ချို့တဲ့ပါက Rickets (အရိုးနုနယ်ခြင်း) ဖြစ်စေသည်",
+          colorValue: 0xFFFFC107,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w13-dm-2",
+          termEn: "Calcium",
+          termMy: "ကယ်လ်စီယမ် (Calcium)",
+          matchEn: "A mineral needed for strong bones and teeth",
+          matchMy: "အရိုးနှင့် သွားများ ခိုင်ခံ့ရန် လိုအပ်သော သတ္တု",
+          colorValue: 0xFF9E9E9E,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w13-dm-3",
+          termEn: "Iron",
+          termMy: "သံဓာတ် (Iron)",
+          matchEn: "A mineral needed to make haemoglobin in red blood cells",
+          matchMy: "သွေးနီဥများတွင် Haemoglobin ထုတ်လုပ်ရန် လိုအပ်သော သတ္တု",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w13-dm-4",
+          termEn: "Fibre",
+          termMy: "Fibre",
+          matchEn:
+              "An undigested plant material that helps food and waste move through the gut",
+          matchMy:
+              "အစာနှင့် စွန့်ပစ်ပစ္စည်းများ အစာအိမ်လမ်းကြောင်းအတွင်း ရွေ့လျားရန် ကူညီပေးသည့် မချေဖျက်နိုင်သော အပင်ပစ္စည်း",
+          colorValue: 0xFF8BC34A,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w13-dm-5",
+          termEn: "Vitamin C",
+          termMy: "Vitamin C",
+          matchEn:
+              "Needed for healthy skin and wound healing; deficiency causes scurvy",
+          matchMy:
+              "ကျန်းမာသော အရေပြားနှင့် ဒဏ်ရာပျောက်ကင်းမှုအတွက် လိုအပ်သည်၊ ချို့တဲ့ပါက Scurvy ဖြစ်စေသည်",
+          colorValue: 0xFFFF5722,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Deficiency?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် ချို့တဲ့မှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Vitamin C Deficiency",
+          "Vitamin D Deficiency",
+          "Iron Deficiency",
+        ],
+        bucketsMy: [
+          "Vitamin C ချို့တဲ့ခြင်း",
+          "Vitamin D ချို့တဲ့ခြင်း",
+          "သံဓာတ် ချို့တဲ့ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w13-sort-1",
+            labelEn: "A child develops soft, bowed leg bones",
+            labelMy: "ကလေးတစ်ဦးတွင် ခြေထောက်အရိုးများ နုနယ်ကွေးလာခြင်း",
+            correctBucketEn: "Vitamin D Deficiency",
+            correctBucketMy: "Vitamin D ချို့တဲ့ခြင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w13-sort-2",
+            labelEn:
+                "A person's gums begin to bleed easily and wounds heal very slowly",
+            labelMy:
+                "လူတစ်ဦး၏ သွားဖုံးများ လွယ်ကူစွာ သွေးထွက်ပြီး ဒဏ်ရာများ အလွန်နှေးကွေးစွာ ပျောက်ကင်းခြင်း",
+            correctBucketEn: "Vitamin C Deficiency",
+            correctBucketMy: "Vitamin C ချို့တဲ့ခြင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w13-sort-3",
+            labelEn:
+                "A person feels constantly tired and pale, with low oxygen-carrying capacity in the blood",
+            labelMy:
+                "လူတစ်ဦးသည် သွေးတွင် အောက်ဆီဂျင်သယ်ဆောင်နိုင်စွမ်း နည်းသဖြင့် အမြဲပင်ပန်း၍ မျက်နှာဖြူဖျော့နေခြင်း",
+            correctBucketEn: "Iron Deficiency",
+            correctBucketMy: "သံဓာတ် ချို့တဲ့ခြင်း",
+          ),
+          SortingItem(
+            id: "igcsebio-w13-sort-4",
+            labelEn:
+                "An elderly person's bones become weak and easily fractured due to poor calcium absorption",
+            labelMy:
+                "ကယ်လ်စီယမ် စုပ်ယူမှု ညံ့ဖျင်းသောကြောင့် သက်ကြီးရွယ်အိုတစ်ဦး၏ အရိုးများ ပျော့နွမ်း၍ လွယ်ကူစွာ ကျိုးပေါက်ခြင်း",
+            correctBucketEn: "Vitamin D Deficiency",
+            correctBucketMy: "Vitamin D ချို့တဲ့ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Moe Set Wai's Family Meal Plan",
+      titleMy: "စာဖတ်ခြင်း - မိုးစက်ဝေ၏ မိသားစု အစားအစာအစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Moe Set Wai's Family Meal Plan",
+        titleMy: "မိုးစက်ဝေ၏ မိသားစု အစားအစာအစီအစဉ်",
+        passageEn:
+            "For a Biology homework project, Moe Set Wai's teacher asked every student to analyse one week of their family's meals and identify whether the diet was balanced. Moe Set Wai's family mostly ate rice, fried vegetables, and small amounts of fish or eggs a few times a week, and she noticed her little brother often skipped vegetables entirely, complaining that he didn't like them.\n\nLooking at her notes, Moe Set Wai realised her family's diet supplied plenty of carbohydrates from the rice, but was relatively low in the fresh fruit and vegetables that provide vitamin C, and her brother's habit of avoiding vegetables made this worse for him specifically. She remembered that vitamin C deficiency can cause scurvy, with symptoms including bleeding gums and slow-healing wounds, and although her brother wasn't showing serious symptoms, she worried this pattern could become a problem over time.\n\nHer teacher had also emphasised that a balanced diet needs the right proportions of every nutrient group, not just enough calories overall -- someone could eat plenty of food and still be malnourished if that food lacked variety. Moe Set Wai suggested to her mother that adding more leafy vegetables and occasional fresh fruit like guava, which is naturally rich in vitamin C, could help balance the family's meals without needing to change the rice-based diet they were used to.",
+        passageMy:
+            "ဇီဝဗေဒ အိမ်စာစီမံကိန်းအတွက် မိုးစက်ဝေ၏ ဆရာမက ကျောင်းသားတိုင်းအား သူတို့၏ မိသားစု တစ်ပတ်လုံး စားသုံးသော အစားအစာများကို ခွဲခြမ်းစိတ်ဖြာပြီး Balanced Diet ဟုတ်မဟုတ် ဖော်ထုတ်ရန် တောင်းဆိုခဲ့သည်။ မိုးစက်ဝေ၏ မိသားစုသည် ဆန်၊ ဟင်းသီးဟင်းရွက်ကြော်နှင့် တစ်ပတ်လျှင် အကြိမ်အနည်းငယ်သာ ငါး သို့မဟုတ် ကြက်ဥ အနည်းငယ်ကို အဓိက စားသုံးသည်ကို တွေ့ရှိခဲ့ပြီး၊ သူမ၏ ညီလေးသည် ဟင်းသီးဟင်းရွက်ကို မကြိုက်ဟု ညည်းတွား၍ လုံးလုံးမစားခြင်းကို မကြာခဏ တွေ့ရသည်ကို သတိပြုမိခဲ့သည်။\n\nသူမ၏ မှတ်စုများကို ကြည့်ရှုကာ မိုးစက်ဝေက သူမ၏ မိသားစု အစားအစာသည် ဆန်မှ ကာဗိုဟိုက်ဒရိတ် အလုံအလောက် ရရှိသော်လည်း Vitamin C ပေးသော သစ်သီးလတ်နှင့် ဟင်းသီးဟင်းရွက်လတ် အနည်းငယ်သာ ရရှိကြောင်း၊ သူမ၏ ညီလေး ဟင်းသီးဟင်းရွက် ရှောင်ကြဉ်လေ့ရှိခြင်းက ၎င်းအတွက် ပို၍ ဆိုးရွားစေကြောင်း သဘောပေါက်လာခဲ့သည်။ Vitamin C ချို့တဲ့ခြင်းသည် သွားဖုံးသွေးထွက်ခြင်းနှင့် ဒဏ်ရာနှေးကွေးစွာ ပျောက်ကင်းခြင်း လက္ခဏာများပါဝင်သော Scurvy ကို ဖြစ်စေနိုင်ကြောင်း သတိရမိခဲ့ပြီး၊ သူမ၏ ညီလေးတွင် ပြင်းထန်သော လက္ခဏာများ မပေါ်သော်လည်း ဤပုံစံသည် အချိန်ကြာလာသည်နှင့်အမျှ ပြဿနာဖြစ်လာနိုင်ကြောင်း သူမ စိုးရိမ်ခဲ့သည်။\n\nသူမ၏ ဆရာမက Balanced Diet တစ်ခုသည် စုစုပေါင်းကယ်လိုရီ လုံလောက်ခြင်းတစ်ခုတည်း မဟုတ်ဘဲ အာဟာရအုပ်စုတိုင်း၏ မှန်ကန်သော အချိုးအစားကို လိုအပ်ကြောင်း လည်း အထူးဖော်ပြခဲ့သည် -- တစ်စုံတစ်ယောက်သည် အစားအစာများစွာ စားနိုင်သော်လည်း ထိုအစားအစာတွင် အမျိုးအစားစုံလင်မှု မရှိပါက အာဟာရချို့တဲ့နိုင်ဆဲ ဖြစ်သည်။ မိုးစက်ဝေက သူတို့ ရင်းနှီးနေကျ ဆန်အခြေခံအစားအစာကို ပြောင်းလဲရန် မလိုအပ်ဘဲ အရွက်ဟင်းသီးဟင်းရွက် ပို၍ ထည့်သွင်းခြင်းနှင့် Vitamin C ကြွယ်ဝသော မာလကာသီးကဲ့သို့ သစ်သီးလတ် တစ်ခါတစ်ရံ ထည့်သွင်းခြင်းတို့က မိသားစု၏ အစားအစာများကို ဟန်ချက်ညီစေရန် ကူညီနိုင်ကြောင်း သူမ အမေအား အကြံပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific nutrient did Moe Set Wai's family's diet lack most?",
+            questionMy:
+                "မိုးစက်ဝေ၏ မိသားစု အစားအစာတွင် အဘယ် အာဟာရ အများဆုံး ချို့တဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["Vitamin C", "Carbohydrates", "Iron", "Fat"],
+            optionsMy: ["Vitamin C", "ကာဗိုဟိုက်ဒရိတ်", "သံဓာတ်", "အဆီ"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about fresh fruit and vegetables being relatively low.",
+              "This nutrient is provided mainly by fresh fruit and vegetables.",
+            ],
+            hintsMy: [
+              "သစ်သီးလတ်နှင့် ဟင်းသီးဟင်းရွက်လတ် အနည်းငယ်သာ ရရှိကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤအာဟာရကို အဓိကအားဖြင့် သစ်သီးလတ်နှင့် ဟင်းသီးဟင်းရွက်လတ်များမှ ရရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What disease did Moe Set Wai worry her brother's habit might eventually cause?",
+            questionMy:
+                "မိုးစက်ဝေ၏ ညီလေး၏ အကျင့်က နောက်ဆုံးတွင် မည်သည့်ရောဂါကို ဖြစ်စေနိုင်ကြောင်း သူမ စိုးရိမ်ခဲ့သနည်း။",
+            optionsEn: ["Scurvy", "Rickets", "Anaemia", "Diabetes"],
+            optionsMy: ["Scurvy", "Rickets", "Anaemia", "ဆီးချိုရောဂါ"],
+            correctIndex: 0,
+            hintsEn: [
+              "This links back to the vitamin most lacking in his diet.",
+              "The passage names this disease directly in paragraph 2.",
+            ],
+            hintsMy: [
+              "၎င်း၏ အစားအစာတွင် အများဆုံး ချို့တဲ့သော Vitamin နှင့် ဆက်စပ်ထားသည်။",
+              "စာပိုဒ် ၂ တွင် ဤရောဂါ၏ အမည်ကို တိုက်ရိုက် ဖော်ပြထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher say someone could eat plenty of food and still be malnourished?",
+            questionMy:
+                "အစားအစာများစွာ စားနိုင်သော်လည်း အာဟာရချို့တဲ့နိုင်ဆဲဟု ဆရာမက အဘယ်ကြောင့် ပြောခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "If the food lacks variety across all nutrient groups, quantity alone is not enough",
+              "Because eating too much food is always harmful",
+              "Because calories do not matter at all",
+              "Because only meat provides real nutrition",
+            ],
+            optionsMy: [
+              "အစားအစာတွင် အာဟာရအုပ်စုအားလုံးအတွက် အမျိုးအစားစုံလင်မှု မရှိပါက ပမာဏတစ်ခုတည်း မလုံလောက်ပါ",
+              "အစားအစာများများစားခြင်းသည် အမြဲအန္တရာယ်ရှိသောကြောင့်",
+              "ကယ်လိုရီသည် လုံးဝ အရေးမကြီးသောကြောင့်",
+              "အသားများသာ တကယ့်အာဟာရ ပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about needing the right proportions of every nutrient group.",
+              "Quantity of calories is different from variety of nutrients.",
+            ],
+            hintsMy: [
+              "အာဟာရအုပ်စုတိုင်း၏ မှန်ကန်သော အချိုးအစား လိုအပ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ကယ်လိုရီပမာဏသည် အာဟာရ အမျိုးအစားစုံလင်မှုနှင့် မတူပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What solution did Moe Set Wai suggest to her mother?",
+            questionMy:
+                "မိုးစက်ဝေက သူမ၏ အမေအား မည်သည့် ဖြေရှင်းနည်းကို အကြံပြုခဲ့သနည်း။",
+            optionsEn: [
+              "Adding more leafy vegetables and fresh fruit like guava",
+              "Stopping eating rice entirely",
+              "Only eating fish from now on",
+              "Adding more sugar to every meal",
+            ],
+            optionsMy: [
+              "အရွက်ဟင်းသီးဟင်းရွက်ပို၍ ထည့်သွင်းခြင်းနှင့် မာလကာသီးကဲ့သို့ သစ်သီးလတ် ထည့်သွင်းခြင်း",
+              "ဆန်ကို လုံးဝ ရပ်တန့်စားသုံးခြင်း",
+              "ယခုမှစတင်၍ ငါးသာ စားသုံးခြင်း",
+              "အစားအစာတိုင်းတွင် သကြားပို၍ ထည့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+              "She suggested a small addition, not a complete change to their usual diet.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "သူမက ပုံမှန် အစားအစာကို လုံးလုံးလျားလျား ပြောင်းလဲစေခြင်း မဟုတ်ဘဲ အနည်းငယ်သာ ထပ်ထည့်ရန် အကြံပြုခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Human Diet",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - လူသားတို့၏ အစားအစာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Vitamin D deficiency in children is most closely linked to which disease?",
+          questionMy:
+              "ကလေးများတွင် Vitamin D ချို့တဲ့ခြင်းသည် မည်သည့်ရောဂါနှင့် အနီးစပ်ဆုံး ဆက်စပ်သနည်း",
+          optionsEn: ["Rickets", "Scurvy", "Anaemia", "Diabetes"],
+          optionsMy: ["Rickets", "Scurvy", "Anaemia", "ဆီးချိုရောဂါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is NOT a component of a balanced diet?",
+          questionMy:
+              "အောက်ပါတို့အနက် Balanced Diet ၏ အစိတ်အပိုင်း မဟုတ်သည့်အရာမှာ အဘယ်နည်း",
+          optionsEn: ["Artificial food colouring", "Protein", "Fibre", "Water"],
+          optionsMy: ["အရောင်တင်ပစ္စည်း", "ပရိုတင်း", "Fibre", "ရေ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Iron is essential for making which molecule in red blood cells?",
+          questionMy:
+              "သွေးနီဥများတွင် မည်သည့်မော်လီကျူးထုတ်လုပ်ရန် သံဓာတ် မရှိမဖြစ် လိုအပ်သနည်း",
+          optionsEn: ["Haemoglobin", "Chlorophyll", "Insulin", "Amylase"],
+          optionsMy: ["Haemoglobin", "Chlorophyll", "Insulin", "Amylase"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 14: "The Human Alimentary Canal and Digestion"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek14 = CourseWeekDef(
+  id: "course-igcse-bio-w14",
+  weekNumber: 14,
+  titleEn: "The Human Alimentary Canal and Digestion",
+  titleMy: "လူ့အစာခြေလမ်းကြောင်းနှင့် အစာခြေခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w14-d1",
+      dayNumber: 1,
+      titleEn: "Five Stages: Ingestion to Egestion",
+      titleMy: "အဆင့်ငါးဆင့် - Ingestion မှ Egestion အထိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does 'ingestion' mean?",
+          questionMy: "'Ingestion' ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Taking food into the body through the mouth",
+            "Breaking food down into smaller molecules",
+            "Absorbing digested food into the blood",
+            "Removing undigested waste from the body",
+          ],
+          optionsMy: [
+            "ခံတွင်းမှတစ်ဆင့် ခန္ဓာကိုယ်အတွင်းသို့ အစားအစာ ယူသွင်းခြင်း",
+            "အစားအစာကို မော်လီကျူး ငယ်များအဖြစ် ချေဖျက်ခြင်း",
+            "ချေဖျက်ပြီး အစားအစာကို သွေးထဲသို့ စုပ်ယူခြင်း",
+            "ခန္ဓာကိုယ်မှ မချေဖျက်နိုင်သော စွန့်ပစ်ပစ္စည်းကို ထုတ်ပယ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the very first stage of the whole process, before any digestion happens.",
+            "It simply means eating.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ အစာချေဖျက်မှု မဖြစ်ပေါ်မီ ဖြစ်စဉ်တစ်ခုလုံး၏ ပထမဆုံးအဆင့် ဖြစ်သည်။",
+            "ရိုးရှင်းစွာ စားခြင်းကို ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "'Assimilation' refers to which stage of the digestive process?",
+          questionMy:
+              "'Assimilation' ဆိုသည်မှာ အစာချေဖျက်ခြင်း ဖြစ်စဉ်၏ မည်သည့်အဆင့်ကို ရည်ညွှန်းသနည်း။",
+          optionsEn: [
+            "The body using absorbed nutrients, e.g. for growth and repair",
+            "Chewing food in the mouth",
+            "Removing faeces from the body",
+            "The stomach churning food",
+          ],
+          optionsMy: [
+            "စုပ်ယူထားသော အာဟာရများကို ခန္ဓာကိုယ်က ကြီးထွားခြင်းနှင့် ပြုပြင်ခြင်းအတွက် အသုံးပြုခြင်း",
+            "ခံတွင်းတွင် အစားအစာကို ဝါးမျိုခြင်း",
+            "ခန္ဓာကိုယ်မှ ဝမ်းစွန့်ပစ်ပစ္စည်းကို ဖယ်ရှားခြင်း",
+            "အစာအိမ်က အစားအစာကို လှုပ်ရှားရွှေ့နှမ်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the stage after absorption -- once nutrients are in the blood, what happens to them next?",
+            "Assimilation means 'making part of the body'.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Absorption ပြီးနောက်အဆင့် ဖြစ်သည် -- အာဟာရများ သွေးထဲရောက်ပြီးနောက် ၎င်းတို့ကို မည်သို့ ဆက်လုပ်ဆောင်သနည်း။",
+            "Assimilation ဆိုသည်မှာ 'ခန္ဓာကိုယ်၏ အစိတ်အပိုင်းအဖြစ် ပြုလုပ်ခြင်း' ကို ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between mechanical and chemical digestion?",
+          questionMy:
+              "Mechanical Digestion နှင့် Chemical Digestion ကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mechanical digestion physically breaks food into smaller pieces; chemical digestion uses enzymes to break large molecules into smaller ones",
+            "Mechanical digestion only happens in the stomach; chemical digestion only in the mouth",
+            "Chemical digestion always happens before mechanical digestion",
+            "There is no real difference between them",
+          ],
+          optionsMy: [
+            "Mechanical Digestion သည် အစားအစာကို ရုပ်ပိုင်းဆိုင်ရာ အစိတ်အပိုင်းငယ်များအဖြစ် ချိုးဖျက်ပြီး Chemical Digestion သည် ကြီးမားသော မော်လီကျူးများကို ငယ်သော မော်လီကျူးများအဖြစ် Enzyme သုံး၍ ချေဖျက်ခြင်း",
+            "Mechanical Digestion သည် အစာအိမ်တွင်သာ ဖြစ်ပွားပြီး Chemical Digestion သည် ခံတွင်းတွင်သာ ဖြစ်ပွားခြင်း",
+            "Chemical Digestion သည် Mechanical Digestion ထက် အမြဲအရင် ဖြစ်ပွားခြင်း",
+            "နှစ်ခုကြား အမှန်တကယ် ကွာခြားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Chewing and the stomach churning food are examples of mechanical digestion.",
+            "Chemical digestion involves enzymes breaking chemical bonds in large molecules.",
+          ],
+          hintsMy: [
+            "ဝါးမျိုခြင်းနှင့် အစာအိမ်က အစားအစာကို လှုပ်ရှားရွှေ့နှမ်းခြင်းတို့သည် Mechanical Digestion ၏ ဥပမာများဖြစ်သည်။",
+            "Chemical Digestion တွင် Enzyme များက ကြီးမားသော မော်လီကျူးများရှိ ဓာတုအချိတ်အဆက်များကို ချိုးဖျက်ခြင်း ပါဝင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Digestive System",
+      titleMy: "တွဲစပ်ကြမည် - အစာခြေစနစ်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w14-dm-1",
+          termEn: "Liver",
+          termMy: "အသည်း (Liver)",
+          matchEn: "The organ that produces bile",
+          matchMy: "Bile ကို ထုတ်လုပ်ပေးသော အင်္ဂါ",
+          colorValue: 0xFF795548,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w14-dm-2",
+          termEn: "Gallbladder",
+          termMy: "သည်းခြေအိတ် (Gallbladder)",
+          matchEn:
+              "The organ that stores bile before it is released into the small intestine",
+          matchMy: "Bile ကို သိမ်ငယ်အူထဲသို့ မလွှတ်မီ သိုလှောင်ထားသော အင်္ဂါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w14-dm-3",
+          termEn: "Pancreas",
+          termMy: "Pancreas",
+          matchEn:
+              "The organ that produces pancreatic juice, containing amylase, protease, and lipase enzymes",
+          matchMy:
+              "Amylase, Protease နှင့် Lipase Enzyme များ ပါဝင်သော Pancreatic Juice ကို ထုတ်လုပ်ပေးသော အင်္ဂါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w14-dm-4",
+          termEn: "Bile",
+          termMy: "Bile",
+          matchEn:
+              "A substance that emulsifies fats into smaller droplets, increasing surface area for lipase, but is not itself an enzyme",
+          matchMy:
+              "အဆီများကို ပိုသေးငယ်သော အစက်များအဖြစ် Emulsify လုပ်ပေးပြီး Lipase အတွက် မျက်နှာပြင်ဧရိယာ တိုးမြှင့်ပေးသော်လည်း ကိုယ်တိုင် Enzyme မဟုတ်သော ပစ္စည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w14-dm-5",
+          termEn: "Small intestine",
+          termMy: "သိမ်ငယ်အူ",
+          matchEn:
+              "The main site of digestion and absorption of food, lined with villi",
+          matchMy:
+              "Villi များဖြင့် အလွှာခံထားပြီး အစာချေဖျက်ခြင်းနှင့် စုပ်ယူခြင်း အဓိကဖြစ်ပေါ်ရာနေရာ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Stage of Digestion?",
+      titleMy: "စီစစ်ကြမည် - အစာချေဖျက်ခြင်း၏ မည်သည့်အဆင့်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ingestion", "Digestion", "Absorption", "Egestion"],
+        bucketsMy: ["Ingestion", "Digestion", "Absorption", "Egestion"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w14-sort-1",
+            labelEn: "Putting a spoonful of rice into your mouth",
+            labelMy: "ဆန်တစ်ဇွန်းကို ခံတွင်းထဲသို့ ထည့်ခြင်း",
+            correctBucketEn: "Ingestion",
+            correctBucketMy: "Ingestion",
+          ),
+          SortingItem(
+            id: "igcsebio-w14-sort-2",
+            labelEn:
+                "Amylase breaking starch down into smaller sugar molecules",
+            labelMy:
+                "Amylase က Starch ကို ပိုသေးငယ်သော သကြားမော်လီကျူးများအဖြစ် ချေဖျက်ခြင်း",
+            correctBucketEn: "Digestion",
+            correctBucketMy: "Digestion",
+          ),
+          SortingItem(
+            id: "igcsebio-w14-sort-3",
+            labelEn:
+                "Digested glucose molecules passing through the wall of the small intestine into the blood",
+            labelMy:
+                "ချေဖျက်ပြီး ဂလူးကို့စ်မော်လီကျူးများ သိမ်ငယ်အူနံရံကို ဖြတ်ကျော်၍ သွေးထဲသို့ ဝင်ရောက်ခြင်း",
+            correctBucketEn: "Absorption",
+            correctBucketMy: "Absorption",
+          ),
+          SortingItem(
+            id: "igcsebio-w14-sort-4",
+            labelEn: "Undigested fibre being removed from the body as faeces",
+            labelMy:
+                "မချေဖျက်နိုင်သော Fibre ကို ဝမ်းစွန့်ပစ္စည်းအဖြစ် ခန္ဓာကိုယ်မှ ဖယ်ရှားခြင်း",
+            correctBucketEn: "Egestion",
+            correctBucketMy: "Egestion",
+          ),
+          SortingItem(
+            id: "igcsebio-w14-sort-5",
+            labelEn: "Chewing a piece of meat with your teeth",
+            labelMy: "သွားများဖြင့် အသားတစ်ချပ်ကို ဝါးမျိုခြင်း",
+            correctBucketEn: "Ingestion",
+            correctBucketMy: "Ingestion",
+          ),
+          SortingItem(
+            id: "igcsebio-w14-sort-6",
+            labelEn: "Protease breaking down proteins into amino acids",
+            labelMy:
+                "Protease က ပရိုတင်းများကို အမိုင်နိုအက်ဆစ်များအဖြစ် ချေဖျက်ခြင်း",
+            correctBucketEn: "Digestion",
+            correctBucketMy: "Digestion",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Dr. Htet Htet's Clinic Visit",
+      titleMy: "စာဖတ်ခြင်း - ဒေါက်တာထက်ထက်၏ ဆေးခန်း လာရောက်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Dr. Htet Htet's Clinic Visit",
+        titleMy: "ဒေါက်တာထက်ထက်၏ ဆေးခန်း လာရောက်မှု",
+        passageEn:
+            "During a school career day, a local doctor named Dr. Htet Htet visited to talk about the digestive system, and she brought a diagram of the alimentary canal to explain a patient case she had seen the week before. A patient had come to her clinic complaining of pale, floating stools and difficulty digesting fatty meals after having their gallbladder removed due to gallstones.\n\nDr. Htet Htet explained to the students that even without a gallbladder, the liver still produces bile continuously -- but without the gallbladder to store and concentrate it, bile trickles into the small intestine in a weaker, less concentrated stream instead of being released in a strong burst exactly when a fatty meal arrives. Since bile's job is to emulsify fats, breaking large fat droplets into many smaller ones so that lipase enzymes from the pancreas have more surface area to work on, a weaker bile supply meant fats were emulsified less effectively and digested more slowly, explaining the patient's symptoms.\n\nOne curious student asked whether bile itself digests fat the way an enzyme would. Dr. Htet Htet corrected this misunderstanding directly: bile is not an enzyme and does not break any chemical bonds in fat molecules. Its role is purely physical, breaking large fat droplets into smaller ones through emulsification -- the actual chemical digestion of fat into fatty acids and glycerol is still carried out afterward by lipase, an enzyme produced by the pancreas.",
+        passageMy:
+            "ကျောင်း Career Day တစ်ခုတွင် ဒေါက်တာထက်ထက်ဟု အမည်ရှိ ဒေသခံဆရာဝန်တစ်ဦးက အစာချေဖျက်ခြင်းစနစ်အကြောင်း ပြောကြားရန် လာရောက်ခဲ့ပြီး၊ ရက်တစ်ပတ်ခန့်အလို ၎င်း တွေ့ကြုံခဲ့သော လူနာအကြောင်းကို ရှင်းပြရန် အစာခြေလမ်းကြောင်း ပုံကို ယူဆောင်လာခဲ့သည်။ လူနာတစ်ဦးသည် သည်းခြေအိတ်ကျောက်ကြောင့် သည်းခြေအိတ် ဖယ်ရှားခံရပြီးနောက် အဆီပါဝင်သော အစားအစာများ ချေဖျက်ရန် ခက်ခဲခြင်းနှင့် ဆီရောသော ဝါဝါသော ဝမ်းကို ညည်းတွားစွာ ဆေးခန်းသို့ ရောက်ရှိလာခဲ့သည်။\n\nသည်းခြေအိတ် မရှိသော်လည်း အသည်းက Bile ကို ဆက်လက် ထုတ်လုပ်ပေးနေဆဲဖြစ်ကြောင်း ဒေါက်တာထက်ထက်က ကျောင်းသားများအား ရှင်းပြခဲ့သည် -- သို့သော် ၎င်းကို သိမ်းဆည်း၍ စူးရှစေမည့် သည်းခြေအိတ် မရှိသောကြောင့် Bile သည် အဆီပါ အစားအစာ ရောက်ရှိလာသည့်အချိန်တွင် အားကောင်းစွာ လွှတ်ပေးမည့်အစား အားနည်းသော၊ စူးစူးရှရှ မဖြစ်သော စီးကြောင်းအဖြစ် သိမ်ငယ်အူထဲသို့ တရွှင့်ရွှင့်စီးဝင်လာသည်။ Bile ၏ တာဝန်မှာ အဆီများကို Emulsify လုပ်ရန် ဖြစ်ပြီး ကြီးမားသော အဆီအစက်များကို Pancreas မှ Lipase Enzyme များ လုပ်ဆောင်ရန် မျက်နှာပြင်ဧရိယာ ပို၍ ရရှိစေရန် အစက်ငယ်များစွာအဖြစ် ချိုးဖျက်ပေးသောကြောင့်၊ Bile ထောက်ပံ့မှု အားနည်းလျှင် အဆီများကို ထိရောက်စွာ Emulsify လုပ်၍ မရဘဲ ပို၍ နှေးကွေးစွာ ချေဖျက်ခဲ့ရသဖြင့် လူနာ၏ လက္ခဏာများကို ရှင်းပြနိုင်ခဲ့သည်။\n\nစိတ်ဝင်စားသော ကျောင်းသားတစ်ဦးက Bile ကိုယ်တိုင်သည် Enzyme တစ်ခုကဲ့သို့ အဆီကို ချေဖျက်ပါသလားဟု မေးမြန်းခဲ့သည်။ ဒေါက်တာထက်ထက်က ဤအထင်မှားမှုကို တိုက်ရိုက် ပြင်ဆင်ပေးခဲ့သည်- Bile သည် Enzyme မဟုတ်ဘဲ အဆီမော်လီကျူးများရှိ ဓာတုအချိတ်အဆက် မည်သည့်တစ်ခုကိုမျှ ချိုးဖျက်၍ မရနိုင်ပါ။ ၎င်း၏ အခန်းကဏ္ဍသည် ရုပ်ပိုင်းဆိုင်ရာ လုပ်ဆောင်ချက်တစ်ခုသာ ဖြစ်ပြီး ကြီးမားသော အဆီအစက်များကို Emulsification ဖြင့် ငယ်သောအစက်များအဖြစ် ချိုးဖျက်ခြင်းသာ ဖြစ်သည် -- အဆီကို Fatty Acid နှင့် Glycerol အဖြစ် အမှန်တကယ် Chemical Digestion ပြုလုပ်ခြင်းကို Pancreas မှ ထုတ်လုပ်သော Enzyme ဖြစ်သည့် Lipase က ထို့နောက် ဆက်လက် ဆောင်ရွက်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the effect of removing the gallbladder on bile release?",
+            questionMy:
+                "သည်းခြေအိတ် ဖယ်ရှားခံရခြင်း၏ Bile လွှတ်ခြင်းအပေါ် သက်ရောက်မှုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bile trickled in weaker and less concentrated instead of a strong burst timed with fatty meals",
+              "The liver stopped producing bile completely",
+              "Bile production doubled to compensate",
+              "Bile became an enzyme instead of a physical emulsifier",
+            ],
+            optionsMy: [
+              "အဆီပါအစားအစာနှင့် အချိန်ကိုက်၍ အားကောင်းသော စီးဆင်းမှုအစား Bile သည် အားနည်း၍ စူးစူးရှရှ မဖြစ်ဘဲ တရွှင့်ရွှင့် စီးဝင်လာခြင်း",
+              "အသည်းသည် Bile ထုတ်လုပ်ခြင်းကို လုံးဝ ရပ်တန့်သွားခြင်း",
+              "Bile ထုတ်လုပ်မှု နှစ်ဆ တိုးလာခြင်း",
+              "Bile သည် ရုပ်ပိုင်းဆိုင်ရာ Emulsifier အစား Enzyme တစ်ခု ဖြစ်လာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Without the gallbladder, bile is no longer stored and concentrated before release.",
+              "Reread the sentence describing bile 'trickling' in rather than being released in a burst.",
+            ],
+            hintsMy: [
+              "သည်းခြေအိတ် မရှိတော့သောကြောင့် Bile ကို မလွှတ်မီ သိုလှောင်၍ စူးရှစေခြင်း ရပ်တန့်သွားသည်။",
+              "'ဖြင့် စီးဝင်' ဆိုသော Bile ၏ ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ၊ အားကောင်းစွာ လွှတ်ခြင်းမဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did a weaker bile supply lead to slower fat digestion?",
+            questionMy:
+                "Bile ထောက်ပံ့မှု အားနည်းခြင်းက အဆီချေဖျက်မှု ပို၍ နှေးကွေးစေသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fats were emulsified less effectively, giving lipase less surface area to work on",
+              "The patient stopped eating fat entirely",
+              "The pancreas stopped producing lipase",
+              "The stomach absorbed the fat directly",
+            ],
+            optionsMy: [
+              "အဆီများကို ထိရောက်စွာ Emulsify မလုပ်နိုင်တော့သဖြင့် Lipase အလုပ်လုပ်ရန် မျက်နှာပြင်ဧရိယာ နည်းလာခြင်း",
+              "လူနာသည် အဆီစားသုံးမှု လုံးဝ ရပ်တန့်သွားခြင်း",
+              "Pancreas က Lipase ထုတ်လုပ်ခြင်း ရပ်တန့်သွားခြင်း",
+              "အစာအိမ်က အဆီကို တိုက်ရိုက် စုပ်ယူသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Smaller fat droplets give lipase more surface area to act on -- fewer, larger droplets give less.",
+              "Reread the sentence explaining bile's job in relation to lipase's surface area.",
+            ],
+            hintsMy: [
+              "အဆီအစက်ငယ်များ ပိုများလျှင် Lipase အတွက် မျက်နှာပြင်ဧရိယာ ပိုများသည် -- အစက်ကြီးများ၊ အနည်းငယ်သာ ရှိလျှင် နည်းသည်။",
+              "Lipase ၏ မျက်နှာပြင်ဧရိယာနှင့် ဆက်စပ်သော Bile ၏ တာဝန်ကို ရှင်းပြထားသည့် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, is bile itself an enzyme?",
+            questionMy:
+                "Bile ကိုယ်တိုင်သည် Enzyme တစ်ခု ဟုတ်/မဟုတ်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No -- it physically emulsifies fat but does not chemically break any bonds",
+              "Yes -- it chemically breaks down fat molecules",
+              "Yes -- it is identical to lipase",
+              "It depends on the temperature of the small intestine",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ -- ၎င်းက အဆီကို ရုပ်ပိုင်းဆိုင်ရာ Emulsify လုပ်ပေးသော်လည်း ဓာတုအချိတ်အဆက် မည်သည့်တစ်ခုမျှ မချိုးဖျက်နိုင်ပါ",
+              "ဟုတ်သည် -- ၎င်းက အဆီမော်လီကျူးများကို ဓာတုနည်းအားဖြင့် ချေဖျက်သည်",
+              "ဟုတ်သည် -- ၎င်းသည် Lipase နှင့် အတူတူပင်ဖြစ်သည်",
+              "သိမ်ငယ်အူ၏ အပူချိန်ပေါ် မူတည်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "The doctor 'directly corrected this misunderstanding' -- reread her exact explanation.",
+              "Lipase, not bile, carries out the actual chemical digestion of fat.",
+            ],
+            hintsMy: [
+              "ဆရာဝန်က 'ဤအထင်မှားမှုကို တိုက်ရိုက် ပြင်ဆင်ပေးခဲ့သည်' -- ၎င်း၏ အတိအကျ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အဆီ၏ အမှန်တကယ် Chemical Digestion ကို Bile မဟုတ်ဘဲ Lipase က ဆောင်ရွက်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the original cause of the patient needing their gallbladder removed?",
+            questionMy:
+                "လူနာသည် သည်းခြေအိတ် ဖယ်ရှားရန် လိုအပ်ခဲ့ခြင်း၏ မူလ အကြောင်းရင်းမှာ အဘယ်နည်း။",
+            optionsEn: [
+              "Gallstones",
+              "A vitamin C deficiency",
+              "A broken liver",
+              "Too much fibre in the diet",
+            ],
+            optionsMy: [
+              "သည်းခြေအိတ်ကျောက်",
+              "Vitamin C ချို့တဲ့ခြင်း",
+              "အသည်းပျက်စီးခြင်း",
+              "အစားအစာတွင် Fibre အလွန်အကျွံ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first sentence of paragraph 1.",
+              "This condition is a common reason for gallbladder removal surgery.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၁ ၏ ပထမဆုံး စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤအခြေအနေသည် သည်းခြေအိတ်ဖယ်ရှားခွဲစိတ်ခံရခြင်း၏ အများသုံး အကြောင်းရင်းတစ်ခု ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Digestion",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - အစာချေဖျက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which organ produces bile?",
+          questionMy: "မည်သည့်အင်္ဂါက Bile ထုတ်လုပ်ပေးသနည်း",
+          optionsEn: ["Liver", "Pancreas", "Gallbladder", "Stomach"],
+          optionsMy: ["အသည်း", "Pancreas", "သည်းခြေအိတ်", "အစာအိမ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly orders the five stages of the digestive process?",
+          questionMy:
+              "အောက်ပါတို့အနက် အစာချေဖျက်ခြင်းဖြစ်စဉ်၏ အဆင့်ငါးဆင့်ကို မှန်ကန်စွာ အစီအစဉ်ချထားသည့်အရာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Ingestion, digestion, absorption, assimilation, egestion",
+            "Egestion, digestion, ingestion, absorption, assimilation",
+            "Assimilation, ingestion, digestion, egestion, absorption",
+            "Digestion, ingestion, egestion, absorption, assimilation",
+          ],
+          optionsMy: [
+            "Ingestion, Digestion, Absorption, Assimilation, Egestion",
+            "Egestion, Digestion, Ingestion, Absorption, Assimilation",
+            "Assimilation, Ingestion, Digestion, Egestion, Absorption",
+            "Digestion, Ingestion, Egestion, Absorption, Assimilation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bile's role in digestion is best described as...",
+          questionMy:
+              "အစာချေဖျက်ခြင်းတွင် Bile ၏ အခန်းကဏ္ဍကို အကောင်းဆုံး ဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "Physically emulsifying fat into smaller droplets, without being an enzyme itself",
+            "Chemically breaking fat into fatty acids and glycerol",
+            "Digesting protein into amino acids",
+            "Absorbing glucose into the blood",
+          ],
+          optionsMy: [
+            "ကိုယ်တိုင် Enzyme မဟုတ်ဘဲ အဆီကို ရုပ်ပိုင်းဆိုင်ရာ အစက်ငယ်များအဖြစ် Emulsify လုပ်ပေးခြင်း",
+            "အဆီကို Fatty Acid နှင့် Glycerol အဖြစ် ဓာတုနည်းအားဖြင့် ချေဖျက်ခြင်း",
+            "ပရိုတင်းကို အမိုင်နိုအက်ဆစ်များအဖြစ် ချေဖျက်ခြင်း",
+            "ဂလူးကို့စ်ကို သွေးထဲသို့ စုပ်ယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 15: "Transport in Flowering Plants"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek15 = CourseWeekDef(
+  id: "course-igcse-bio-w15",
+  weekNumber: 15,
+  titleEn: "Transport in Flowering Plants",
+  titleMy: "ပန်းပွင့်သော အပင်များရှိ သယ်ယူပို့ဆောင်ရေး",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w15-d1",
+      dayNumber: 1,
+      titleEn: "Xylem and Phloem",
+      titleMy: "Xylem နှင့် Phloem",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does xylem tissue transport, and in which direction?",
+          questionMy:
+              "Xylem တစ်ရှူးက အဘယ်ကို၊ မည်သည့်ဦးတည်ချက်သို့ သယ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Water and mineral ions, upward from the roots to the leaves",
+            "Dissolved sugars, in any direction depending on need",
+            "Oxygen, from the leaves to the roots only",
+            "Digested food, from the stomach to the leaves",
+          ],
+          optionsMy: [
+            "ရေနှင့် သတ္တု အိုင်းယွန်းများကို အမြစ်မှ အရွက်ဆီသို့ အထက်သို့",
+            "ပျော်ဝင်ထားသော သကြားများကို လိုအပ်ချက်အရ ဦးတည်ချက် မည်သည်သို့မဆို",
+            "အောက်ဆီဂျင်ကို အရွက်မှ အမြစ်သို့သာ",
+            "ချေဖျက်ပြီး အစားအစာကို အစာအိမ်မှ အရွက်သို့",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Xylem always moves substances in one direction only: upward, from roots to leaves.",
+            "This is the same water absorbed by root hair cells via osmosis.",
+          ],
+          hintsMy: [
+            "Xylem သည် ပစ္စည်းများကို ဦးတည်ချက်တစ်ခုတည်းသာ ရွှေ့လျားစေသည်- အမြစ်မှ အရွက်ဆီသို့ အထက်ဘက်သို့သာ။",
+            "ဤသည်မှာ အမြစ်ဆံပင်ဆဲလ်များက Osmosis ဖြင့် စုပ်ယူထားသော ရေတစ်မျိုးတည်းပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of tissue transports dissolved food such as sucrose around the plant?",
+          questionMy:
+              "အပင်တစ်ဝန်း Sucrose ကဲ့သို့ ပျော်ဝင်ထားသော အစားအစာကို မည်သည့် တစ်ရှူးအမျိုးအစားက သယ်ဆောင်သနည်း။",
+          optionsEn: ["Phloem", "Xylem", "Epidermis", "Cuticle"],
+          optionsMy: ["Phloem", "Xylem", "Epidermis", "Cuticle"],
+          correctIndex: 0,
+          hintsEn: [
+            "This process of transporting dissolved food around a plant is called translocation.",
+            "Unlike xylem, this tissue can transport substances both up and down the plant.",
+          ],
+          hintsMy: [
+            "အပင်တစ်ဝန်း ပျော်ဝင်ထားသော အစားအစာကို သယ်ဆောင်ခြင်း ဖြစ်စဉ်ကို Translocation ဟု ခေါ်သည်။",
+            "Xylem နှင့် မတူဘဲ ဤတစ်ရှူးသည် အပင်၏ အထက်နှင့် အောက်နှစ်ဘက်စလုံးသို့ ပစ္စည်းများကို သယ်ဆောင်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these correctly describes a key structural difference between xylem and phloem?",
+          questionMy:
+              "Xylem နှင့် Phloem ကြား အဓိက ဖွဲ့စည်းပုံ ကွာခြားချက်ကို မှန်ကန်စွာ ဖော်ပြသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Xylem is made of dead cells; phloem is made of living cells",
+            "Xylem is made of living cells; phloem is made of dead cells",
+            "Both are made of exactly the same type of cell",
+            "Neither xylem nor phloem contains any cells",
+          ],
+          optionsMy: [
+            "Xylem ကို ဆဲလ်သေများဖြင့် ဖွဲ့စည်းထားပြီး Phloem ကို ဆဲလ်အသက်ရှင်များဖြင့် ဖွဲ့စည်းထားသည်",
+            "Xylem ကို ဆဲလ်အသက်ရှင်များဖြင့် ဖွဲ့စည်းထားပြီး Phloem ကို ဆဲလ်သေများဖြင့် ဖွဲ့စည်းထားသည်",
+            "နှစ်ခုစလုံးကို ဆဲလ်အမျိုးအစား အတိအကျ တူညီသည်ဖြင့် ဖွဲ့စည်းထားသည်",
+            "Xylem နှင့် Phloem နှစ်ခုစလုံးတွင် ဆဲလ် လုံးဝ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Xylem vessel cells die and lose their contents, leaving hollow tubes strengthened by lignin.",
+            "Phloem cells stay alive, since transporting food is an active process requiring living cells.",
+          ],
+          hintsMy: [
+            "Xylem Vessel ဆဲလ်များသည် သေဆုံးပြီး ၎င်းတို့၏ အတွင်းပါဝင်ပစ္စည်းများ ဆုံးရှုံးကာ Lignin ဖြင့် ခိုင်ခံ့စေသော လွတ်ပြွန်များကို ကျန်ရစ်စေသည်။",
+            "အစားအစာသယ်ဆောင်ခြင်းသည် ဆဲလ်အသက်ရှင်များ လိုအပ်သော Active ဖြစ်စဉ်ဖြစ်သောကြောင့် Phloem ဆဲလ်များ အသက်ရှင်ဆဲ ကျန်ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Plant Transport Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အပင် သယ်ယူပို့ဆောင်ရေး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w15-dm-1",
+          termEn: "Transpiration",
+          termMy: "ရေငွေ့ပျံခြင်း (Transpiration)",
+          matchEn:
+              "The loss of water vapour from a plant's leaves, mainly through the stomata",
+          matchMy:
+              "အပင်၏ အရွက်များမှ ရေငွေ့ ဆုံးရှုံးခြင်း၊ အများဆုံးမှာ Stomata မှတစ်ဆင့်",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w15-dm-2",
+          termEn: "Transpiration pull",
+          termMy: "Transpiration Pull",
+          matchEn:
+              "The upward pull on water in the xylem, caused by water evaporating from leaf cells",
+          matchMy:
+              "အရွက်ဆဲလ်များမှ ရေငွေ့ပျံခြင်းကြောင့် Xylem အတွင်းရေကို အထက်သို့ ဆွဲငင်ပေးသည့် အားစု",
+          colorValue: 0xFF00BCD4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w15-dm-3",
+          termEn: "Translocation",
+          termMy: "Translocation",
+          matchEn:
+              "The movement of dissolved food (such as sucrose and amino acids) through phloem",
+          matchMy:
+              "Phloem မှတစ်ဆင့် ပျော်ဝင်ထားသော အစားအစာ (Sucrose နှင့် အမိုင်နိုအက်ဆစ်များကဲ့သို့) ရွေ့လျားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w15-dm-4",
+          termEn: "Lignin",
+          termMy: "Lignin",
+          matchEn:
+              "A tough substance that strengthens and waterproofs the walls of xylem vessels",
+          matchMy:
+              "Xylem Vessel များ၏ နံရံကို ခိုင်ခံ့စေပြီး ရေခံအဖြစ် ပြောင်းလဲစေသော ခိုင်မာသော ပစ္စည်း",
+          colorValue: 0xFF795548,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w15-dm-5",
+          termEn: "Root hair cell",
+          termMy: "အမြစ်ဆံပင်ဆဲလ်",
+          matchEn:
+              "The specialised cell that absorbs water by osmosis and mineral ions by active transport",
+          matchMy:
+              "Osmosis ဖြင့် ရေနှင့် Active Transport ဖြင့် သတ္တု အိုင်းယွန်းများကို စုပ်ယူသော အထူးပြုဆဲလ်",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Xylem or Phloem?",
+      titleMy: "စီစစ်ကြမည် - Xylem လား Phloem လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Function of Xylem", "Function of Phloem"],
+        bucketsMy: ["Xylem ၏ လုပ်ဆောင်ချက်", "Phloem ၏ လုပ်ဆောင်ချက်"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w15-sort-1",
+            labelEn: "Carrying water absorbed by the roots up to the leaves",
+            labelMy: "အမြစ်များက စုပ်ယူထားသော ရေကို အရွက်များအထိ သယ်ဆောင်ခြင်း",
+            correctBucketEn: "Function of Xylem",
+            correctBucketMy: "Xylem ၏ လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "igcsebio-w15-sort-2",
+            labelEn:
+                "Carrying glucose made in the leaves down to the roots for storage",
+            labelMy:
+                "အရွက်တွင် ထုတ်လုပ်ထားသော ဂလူးကို့စ်ကို သိုလှောင်ရန် အမြစ်ဆီသို့ အောက်သို့ သယ်ဆောင်ခြင်း",
+            correctBucketEn: "Function of Phloem",
+            correctBucketMy: "Phloem ၏ လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "igcsebio-w15-sort-3",
+            labelEn:
+                "Transporting mineral ions absorbed by root hair cells up the plant",
+            labelMy:
+                "အမြစ်ဆံပင်ဆဲလ်များက စုပ်ယူထားသော သတ္တု အိုင်းယွန်းများကို အပင်တစ်လျှောက် သယ်ဆောင်ခြင်း",
+            correctBucketEn: "Function of Xylem",
+            correctBucketMy: "Xylem ၏ လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "igcsebio-w15-sort-4",
+            labelEn:
+                "Providing structural support to the stem through lignified cell walls",
+            labelMy:
+                "Lignin ပါဝင်သော ဆဲလ်နံရံများမှတစ်ဆင့် ပင်စည်ကို တည်ဆောက်ပုံအားဖြင့် ထောက်ပံ့ပေးခြင်း",
+            correctBucketEn: "Function of Xylem",
+            correctBucketMy: "Xylem ၏ လုပ်ဆောင်ချက်",
+          ),
+          SortingItem(
+            id: "igcsebio-w15-sort-5",
+            labelEn:
+                "Moving sucrose from a leaf (source) to a growing fruit (sink)",
+            labelMy:
+                "Sucrose ကို အရွက် (Source) မှ ကြီးထွားနေသော အသီး (Sink) ဆီသို့ ရွှေ့လျားခြင်း",
+            correctBucketEn: "Function of Phloem",
+            correctBucketMy: "Phloem ၏ လုပ်ဆောင်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Lin Htut's Wilting Question",
+      titleMy: "စာဖတ်ခြင်း - နေလင်းထွဋ်၏ ညှိုးနွမ်းမှု မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Lin Htut's Wilting Question",
+        titleMy: "နေလင်းထွဋ်၏ ညှိုးနွမ်းမှု မေးခွန်း",
+        passageEn:
+            "Nay Lin Htut noticed that the tomato plants in his family's garden wilted badly by early afternoon on hot, dry, windy days, but recovered fully once the sun set and the air cooled. Curious about why this happened, he brought the question to his Biology class, and his teacher used it to introduce transpiration and the transpiration pull that drives water movement through xylem.\n\nHis teacher explained that water constantly evaporates from the surface of the spongy mesophyll cells inside a leaf and escapes as vapour through open stomata -- a process called transpiration. As each water molecule evaporates and leaves the leaf, it pulls the next water molecule in the xylem up behind it, since water molecules cling together tightly (a property called cohesion). This continuous chain of pulling, called the transpiration pull, is what draws water all the way up from the roots to the very top of the plant.\n\nOn hot, dry, windy afternoons, several factors combine to speed up transpiration dramatically: higher temperature gives water molecules more energy to evaporate, low humidity in dry air creates a steeper concentration gradient for water vapour to diffuse out of the stomata, and wind carries evaporated water vapour away from the leaf surface quickly, maintaining that steep gradient. When transpiration happens faster than the roots can absorb replacement water from the soil, the plant loses water faster than it gains it, and the cells lose turgor pressure, causing the leaves and stems to wilt -- exactly what Nay Lin Htut observed, and exactly why the tomato plants recovered once cooler, calmer, more humid evening conditions slowed transpiration back down to match the rate of water uptake.",
+        passageMy:
+            "နေလင်းထွဋ်သည် သူ၏ မိသားစု ဥယျာဉ်ရှိ ခရမ်းချဉ်သီးပင်များသည် နေပူပြင်း၍ ခြောက်သွေ့ လေတိုက်နေသော ရက်များတွင် နေ့လည်စောင်းအချိန်ကျရင် သိသိသာသာ ညှိုးနွမ်းသွားပြီး နေဝင်၍ လေအေးလာမှသာ လုံးလုံးပြန်ပြေးလန်းသွားကြောင်း သတိပြုမိခဲ့သည်။ ဤအဖြစ် ဖြစ်ရသည့် အကြောင်းရင်းကို စိတ်ဝင်စားသဖြင့် ၎င်းသည် ဇီဝဗေဒ အတန်းတွင် မေးခွန်းကို ယူဆောင်လာခဲ့ပြီး၊ သူ၏ ဆရာမက ဤမေးခွန်းကို Transpiration နှင့် Xylem မှတစ်ဆင့် ရေကို ရွှေ့လျားစေသော Transpiration Pull ကို မိတ်ဆက်ရန် အသုံးချခဲ့သည်။\n\nအရွက်အတွင်းရှိ Spongy Mesophyll ဆဲလ်များ၏ မျက်နှာပြင်မှ ရေသည် စဉ်ဆက်မပြတ် ရေငွေ့ပျံပြီး Stomata ဖွင့်ထားသောနေရာမှ ရေငွေ့အဖြစ် ထွက်ခွာသွားခြင်း -- ဤဖြစ်စဉ်ကို Transpiration ဟု ခေါ်သည်ဟု သူ၏ ဆရာမက ရှင်းပြခဲ့သည်။ ရေမော်လီကျူးတစ်ခုစီ ရေငွေ့ပျံပြီး အရွက်မှ ထွက်ခွာသွားသည်နှင့်အမျှ ၎င်းသည် Xylem အတွင်းရှိ နောက်ရေမော်လီကျူးကို နောက်မှလိုက်၍ အထက်သို့ ဆွဲငင်စေသည်၊ ရေမော်လီကျူးများသည် တစ်ခုနှင့်တစ်ခု ခိုင်ခိုင်မာမာ ကပ်ငြိနေခြင်း (Cohesion ဟု ခေါ်သော ဂုဏ်သတ္တိ) ကြောင့် ဖြစ်သည်။ Transpiration Pull ဟု ခေါ်သော ဤစဉ်ဆက်မပြတ် ဆွဲငင်မှု ကွင်းဆက်သည် အမြစ်များမှ အပင်၏ အထွတ်အထိပ်အထိ ရေကို ဆွဲယူပေးသည့် အရာဖြစ်သည်။\n\nနေပူပြင်း၍ ခြောက်သွေ့ လေတိုက်နေသော နေ့လည်စောင်းများတွင် အကြောင်းရင်းများစွာ ပေါင်းစပ်၍ Transpiration ကို သိသိသာသာ မြန်ဆန်စေသည်- အပူချိန်မြင့်ခြင်းက ရေမော်လီကျူးများကို ရေငွေ့ပျံရန် စွမ်းအင် ပိုများပေးသည်၊ ခြောက်သွေ့သော လေ၏ စိုထိုင်းဆနည်းခြင်းက ရေငွေ့ Stomata မှ Diffuse ထွက်ရန် ပိုကျစ်သော သိပ်သည်းဆကွာဟမှု ဖန်တီးပေးသည်၊ လေတိုက်ခြင်းက ရေငွေ့ကို အရွက်မျက်နှာပြင်မှ လျင်မြန်စွာ သယ်ဆောင်ဖယ်ရှားပေးပြီး ထိုကျစ်သော ကွာဟမှုကို ဆက်လက် ထိန်းသိမ်းပေးသည်။ Transpiration သည် အမြစ်များက မြေဆီလွှာမှ အစားထိုးရေကို စုပ်ယူနိုင်သည်ထက် ပိုမြန်ဖြစ်လာသောအခါ အပင်သည် ရေရရှိသည်ထက် ရေဆုံးရှုံးမှု ပိုများလာပြီး ဆဲလ်များ Turgor Pressure ဆုံးရှုံးကာ အရွက်များနှင့် ပင်စည်များ ညှိုးနွမ်းသွားစေသည် -- ၎င်းသည် နေလင်းထွဋ် တွေ့ရှိခဲ့ခြင်းနှင့် အတိအကျ ကိုက်ညီပြီး၊ ညနေချမ်း၍ လေလှိုင်းမရှိသော၊ စိုထိုင်းဆပိုများသော ညပိုင်းအခြေအနေများတွင် Transpiration ရေစုပ်ယူမှုနှုန်းနှင့် ကိုက်ညီအောင် ပြန်လည်နှေးကွေးလာသောကြောင့် ခရမ်းချဉ်သီးပင်များ ပြန်လန်းသွားခြင်းအတွက် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what causes the transpiration pull that draws water up the xylem?",
+            questionMy:
+                "Xylem အတွင်း ရေကို အထက်သို့ ဆွဲယူပေးသော Transpiration Pull ၏ အကြောင်းရင်းမှာ အဘယ်နည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As water evaporates from the leaf, it pulls the next water molecule up behind it due to cohesion",
+              "The roots push water upward using active transport",
+              "Gravity pulls water molecules upward",
+              "Sunlight directly pushes water through the xylem",
+            ],
+            optionsMy: [
+              "အရွက်မှ ရေငွေ့ပျံသောအခါ ရေမော်လီကျူးများ တစ်ခုနှင့်တစ်ခု ကပ်ငြိနေခြင်း (Cohesion) ကြောင့် နောက်ရေမော်လီကျူးကို အထက်သို့ ဆွဲငင်ပေးခြင်း",
+              "အမြစ်များက Active Transport သုံး၍ ရေကို အထက်သို့ တွန်းပေးခြင်း",
+              "ဆွဲငင်အား (Gravity) က ရေမော်လီကျူးများကို အထက်သို့ ဆွဲငင်ခြင်း",
+              "နေရောင်က Xylem ထဲမှ ရေကို တိုက်ရိုက် တွန်းပေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is described as a continuous chain of pulling, caused by cohesion between water molecules.",
+              "Evaporation from the leaf is the starting point of this chain reaction.",
+            ],
+            hintsMy: [
+              "ဤသည်ကို ရေမော်လီကျူးများကြား Cohesion ကြောင့် ဖြစ်ပေါ်သော စဉ်ဆက်မပြတ် ဆွဲငင်မှု ကွင်းဆက်ဟု ဖော်ပြထားသည်။",
+              "အရွက်မှ ရေငွေ့ပျံခြင်းသည် ဤကွင်းဆက် ဓာတုတုံ့ပြန်မှု၏ အစဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which three factors combine to speed up transpiration on hot, dry, windy days?",
+            questionMy:
+                "နေပူပြင်း၍ ခြောက်သွေ့ လေတိုက်နေသော ရက်များတွင် Transpiration ကို မြန်ဆန်စေသော အချက်သုံးမျိုးကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "High temperature, low humidity, and wind",
+              "Low temperature, high humidity, and stillness",
+              "Only wind speed matters",
+              "Soil type, root depth, and leaf colour",
+            ],
+            optionsMy: [
+              "အပူချိန်မြင့်ခြင်း၊ စိုထိုင်းဆနိမ့်ခြင်းနှင့် လေတိုက်ခြင်း",
+              "အပူချိန်နိမ့်ခြင်း၊ စိုထိုင်းဆမြင့်ခြင်းနှင့် လေငြိမ်ခြင်း",
+              "လေတိုက်နှုန်းတစ်ခုတည်းသာ အရေးကြီးခြင်း",
+              "မြေဆီလွှာအမျိုးအစား၊ အမြစ်နက်နှုန်းနှင့် အရွက်အရောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the three factors listed at the start of paragraph 3.",
+              "These are the same factors always tested in transpiration rate experiments.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ၏ အစတွင် ဖော်ပြထားသော အကြောင်းရင်းသုံးမျိုးကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤအချက်များသည် Transpiration နှုန်းစမ်းသပ်မှုများတွင် အမြဲစစ်ဆေးလေ့ရှိသော အကြောင်းရင်းများပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why do the tomato plants wilt in the afternoon?",
+            questionMy:
+                "ခရမ်းချဉ်သီးပင်များ နေ့လည်စောင်းတွင် ညှိုးနွမ်းသွားရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Transpiration outpaces water absorption by the roots, so cells lose turgor pressure",
+              "The soil becomes too cold",
+              "The plant stops photosynthesising entirely",
+              "The roots absorb too much water too quickly",
+            ],
+            optionsMy: [
+              "Transpiration သည် အမြစ်များ၏ ရေစုပ်ယူမှုထက် ပိုမြန်လာသဖြင့် ဆဲလ်များ Turgor Pressure ဆုံးရှုံးခြင်း",
+              "မြေဆီလွှာ အလွန်အေးလာခြင်း",
+              "အပင်သည် Photosynthesis လုံးဝ ရပ်တန့်သွားခြင်း",
+              "အမြစ်များက ရေကို အလွန်များစွာ လျင်မြန်စွာ စုပ်ယူသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Wilting happens when water loss exceeds water gain -- reread the final sentence about turgor pressure.",
+              "This is the same turgor concept from the osmosis week -- cells need water pressure to stay firm.",
+            ],
+            hintsMy: [
+              "ရေဆုံးရှုံးမှုသည် ရေရရှိမှုထက် ပိုများသောအခါ ညှိုးနွမ်းသွားသည် -- Turgor Pressure အကြောင်း နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Osmosis ပတ်ကတည်းက Turgor သဘောတရားတစ်ခုတည်းပင်ဖြစ်သည် -- ဆဲလ်များ မာကျောနေရန် ရေဖိအား လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why did the plants recover once evening came, according to the passage?",
+            questionMy:
+                "ညနေကျသောအခါ အပင်များ အဘယ်ကြောင့် ပြန်လန်းသွားခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cooler, calmer, more humid conditions slowed transpiration to match water uptake",
+              "The plants stopped needing water",
+              "The stomata closed permanently",
+              "New roots grew overnight",
+            ],
+            optionsMy: [
+              "ချမ်းအေး၍ လေလှိုင်းငြိမ်သက်ပြီး စိုထိုင်းဆပိုများသော အခြေအနေများက Transpiration ကို ရေစုပ်ယူမှုနှုန်းနှင့် ကိုက်ညီအောင် နှေးကွေးစေခြင်း",
+              "အပင်များ ရေလိုအပ်ခြင်း ရပ်တန့်သွားခြင်း",
+              "Stomata များ အမြဲတမ်း ပိတ်သွားခြင်း",
+              "တစ်ညချင်းတွင် အမြစ်အသစ်များ ပေါက်လာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final clause of the passage explaining the recovery.",
+              "This is the reverse of the three factors that sped up transpiration.",
+            ],
+            hintsMy: [
+              "ပြန်လန်းလာခြင်းကို ရှင်းပြသော စာပိုဒ်၏ နောက်ဆုံးအပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Transpiration ကို မြန်ဆန်စေခဲ့သော အကြောင်းရင်းသုံးမျိုး၏ ပြောင်းပြန် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Transport in Plants",
+      titleMy:
+          "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - အပင်များရှိ သယ်ယူပို့ဆောင်ရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Xylem transports water and mineral ions in which direction?",
+          questionMy:
+              "Xylem က ရေနှင့် သတ္တု အိုင်းယွန်းများကို မည်သည့်ဦးတည်ချက်သို့ သယ်ဆောင်သနည်း",
+          optionsEn: [
+            "Upward only, from roots to leaves",
+            "Downward only",
+            "Both directions equally",
+            "Sideways only",
+          ],
+          optionsMy: [
+            "အထက်သို့သာ၊ အမြစ်မှ အရွက်ဆီသို့",
+            "အောက်သို့သာ",
+            "ဦးတည်ချက် နှစ်ခုစလုံး တူညီစွာ",
+            "ဘေးတိုက်သို့သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which factor would you expect to INCREASE the rate of transpiration?",
+          questionMy:
+              "Transpiration နှုန်းကို တိုးမြှင့်ပေးမည်ဟု ခန့်မှန်းရမည့် အကြောင်းရင်းမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Strong wind and high temperature",
+            "High humidity and no wind",
+            "Low temperature and closed stomata",
+            "Cloudy, cool, still air",
+          ],
+          optionsMy: [
+            "လေပြင်းနှင့် အပူချိန်မြင့်ခြင်း",
+            "စိုထိုင်းဆမြင့်ပြီး လေမတိုက်ခြင်း",
+            "အပူချိန်နိမ့်ပြီး Stomata ပိတ်ခြင်း",
+            "တိမ်ထူ၍ အေးချမ်း လေငြိမ်သက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The movement of sugars through phloem is called...",
+          questionMy:
+              "Phloem မှတစ်ဆင့် သကြားများ ရွေ့လျားခြင်းကို ဘာဟု ခေါ်သနည်း",
+          optionsEn: [
+            "Translocation",
+            "Transpiration",
+            "Digestion",
+            "Diffusion only",
+          ],
+          optionsMy: [
+            "Translocation",
+            "Transpiration",
+            "Digestion",
+            "Diffusion တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 16 (Capstone): "Physiology Practical Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek16 = CourseWeekDef(
+  id: "course-igcse-bio-w16",
+  weekNumber: 16,
+  titleEn: "Physiology Practical Studio",
+  titleMy: "ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w16-d1",
+      dayNumber: 1,
+      titleEn: "Measuring Transpiration with a Potometer",
+      titleMy: "Potometer ဖြင့် Transpiration တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What does a potometer actually measure directly?",
+          questionMy:
+              "Potometer တစ်လုံးက အမှန်တကယ် တိုက်ရိုက် အဘယ်ကို တိုင်းတာသနည်း။",
+          optionsEn: [
+            "The rate of water uptake by a cut shoot, used as an estimate of transpiration rate",
+            "The exact number of stomata on a leaf",
+            "The amount of chlorophyll in a leaf",
+            "The exact volume of oxygen released by photosynthesis",
+          ],
+          optionsMy: [
+            "ဖြတ်ယူထားသော ပင်စည်တစ်ခု၏ ရေစုပ်ယူနှုန်း၊ Transpiration နှုန်းကို ခန့်မှန်းရန် အသုံးပြုသည်",
+            "အရွက်တစ်ချပ်ပေါ်ရှိ Stomata အရေအတွက် အတိအကျ",
+            "အရွက်တစ်ချပ်တွင် ပါဝင်သော Chlorophyll ပမာဏ",
+            "Photosynthesis မှ ထွက်ရှိသော အောက်ဆီဂျင် အတိအကျပမာဏ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A potometer tracks the movement of an air bubble along a scale in a capillary tube.",
+            "Water uptake is used as an estimate because most of the water taken up is lost through transpiration.",
+          ],
+          hintsMy: [
+            "Potometer တစ်လုံးသည် Capillary Tube ရှိ စကေးတစ်လျှောက် လေပူဖောင်းတစ်ခု၏ ရွေ့လျားမှုကို ခြေရာခံသည်။",
+            "စုပ်ယူထားသော ရေအများစုကို Transpiration ဖြင့် ဆုံးရှုံးသောကြောင့် ရေစုပ်ယူမှုကို ခန့်မှန်းချက်အဖြစ် အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a potometer experiment, moving an air bubble faster along the scale over the same time period would suggest...",
+          questionMy:
+              "Potometer စမ်းသပ်မှုတွင် အချိန်တူတူ၌ လေပူဖောင်းသည် စကေးတစ်လျှောက် ပိုမြန်စွာ ရွေ့လျားခြင်းက အဘယ်ကို အကြံပြုသနည်း။",
+          optionsEn: [
+            "A higher rate of transpiration",
+            "A lower rate of transpiration",
+            "The plant has died",
+            "No relationship to transpiration at all",
+          ],
+          optionsMy: [
+            "Transpiration နှုန်း ပိုမြင့်ခြင်း",
+            "Transpiration နှုန်း ပိုနိမ့်ခြင်း",
+            "အပင် သေဆုံးသွားခြင်း",
+            "Transpiration နှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Faster water uptake by the shoot corresponds to faster water loss through the leaves.",
+            "More transpiration means more water needs to be replaced, so more is drawn in.",
+          ],
+          hintsMy: [
+            "ပင်စည်၏ ပိုမြန်သော ရေစုပ်ယူမှုသည် အရွက်များမှတစ်ဆင့် ပိုမြန်သော ရေဆုံးရှုံးမှုနှင့် ကိုက်ညီသည်။",
+            "Transpiration ပိုများလျှင် အစားထိုးရန် ရေပို၍ လိုအပ်သဖြင့် ပို၍ စုပ်ယူသွင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why would a researcher repeat a potometer experiment at three different wind speeds using a fan?",
+          questionMy:
+              "သုတေသီတစ်ဦးသည် ပန်ကာသုံး၍ လေတိုက်နှုန်း သုံးမျိုးဖြင့် Potometer စမ်းသပ်မှုကို အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပြုလုပ်သနည်း။",
+          optionsEn: [
+            "To investigate wind speed as an independent variable affecting transpiration rate",
+            "Because the potometer only works with wind",
+            "To cool the plant down before starting",
+            "Wind has no effect on transpiration so this is unnecessary",
+          ],
+          optionsMy: [
+            "Transpiration နှုန်းကို သက်ရောက်စေသော Independent Variable အဖြစ် လေတိုက်နှုန်းကို စူးစမ်းရန်",
+            "Potometer သည် လေတိုက်မှသာ အလုပ်လုပ်သောကြောင့်",
+            "မစတင်မီ အပင်ကို အေးအောင်လုပ်ရန်",
+            "လေတိုက်ခြင်းသည် Transpiration အပေါ် သက်ရောက်မှု လုံးဝမရှိသဖြင့် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Wind is one of the environmental factors known to affect transpiration rate.",
+            "Testing multiple values of one variable, keeping others constant, is standard experimental design.",
+          ],
+          hintsMy: [
+            "လေတိုက်ခြင်းသည် Transpiration နှုန်းကို သက်ရောက်ကြောင်း သိရှိထားသော ပတ်ဝန်းကျင်ဆိုင်ရာ အကြောင်းရင်းတစ်ခု ဖြစ်သည်။",
+            "အခြားအချက်များကို ခိုင်မာစွာ ထားရှိပြီး Variable တစ်ခု၏ တန်ဖိုးများစွာကို စမ်းသပ်ခြင်းသည် စံ စမ်းသပ်မှု ဒီဇိုင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Practical Apparatus Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - လက်တွေ့ ကိရိယာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w16-dm-1",
+          termEn: "Potometer",
+          termMy: "Potometer",
+          matchEn:
+              "Apparatus that measures the rate of water uptake by a shoot as an estimate of transpiration rate",
+          matchMy:
+              "Transpiration နှုန်းကို ခန့်မှန်းရန် ပင်စည်တစ်ခု၏ ရေစုပ်ယူနှုန်းကို တိုင်းတာသော ကိရိယာ",
+          colorValue: 0xFF03A9F4,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w16-dm-2",
+          termEn: "Visking tubing",
+          termMy: "Visking Tubing",
+          matchEn:
+              "A partially permeable artificial membrane used to model how the gut wall selectively absorbs small molecules",
+          matchMy:
+              "အူလမ်းကြောင်းနံရံက မော်လီကျူးငယ်များကို ရွေးချယ်စုပ်ယူပုံကို ပုံစံတူပြရန် သုံးသော အစိတ်ပိုင်းစိမ့်ဝင်နိုင်သည့် ဆင်းသေးသော အမြှေးပါး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w16-dm-3",
+          termEn: "Air bubble",
+          termMy: "လေပူဖောင်း",
+          matchEn:
+              "The marker whose movement along a potometer's scale is timed to calculate the rate of water uptake",
+          matchMy:
+              "Potometer စကေးတစ်လျှောက် ၎င်း၏ ရွေ့လျားမှုကို ချိန်ယူပြီး ရေစုပ်ယူနှုန်း တွက်ချက်ရန် အမှတ်အသား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w16-dm-4",
+          termEn: "Independent variable",
+          termMy: "Independent Variable",
+          matchEn:
+              "The one factor deliberately changed in an experiment, e.g. wind speed or light intensity",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခုတွင် တမင်တကာ ပြောင်းလဲသော အချက်တစ်ခု၊ ဥပမာ လေတိုက်နှုန်း သို့မဟုတ် Light Intensity",
+          colorValue: 0xFFFF9800,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Transpiration Experiment or Digestion Experiment?",
+      titleMy:
+          "စီစစ်ကြမည် - Transpiration စမ်းသပ်မှုလား Digestion စမ်းသပ်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Transpiration Experiment",
+          "Digestion Simulation Experiment",
+        ],
+        bucketsMy: [
+          "Transpiration စမ်းသပ်မှု",
+          "Digestion Simulation စမ်းသပ်မှု",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w16-sort-1",
+            labelEn:
+                "Using a potometer to measure how fast a shoot takes up water in strong wind",
+            labelMy:
+                "လေပြင်းတွင် ပင်စည်တစ်ခု ရေစုပ်ယူနှုန်း မည်မျှမြန်ကြောင်း Potometer သုံး၍ တိုင်းတာခြင်း",
+            correctBucketEn: "Transpiration Experiment",
+            correctBucketMy: "Transpiration စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w16-sort-2",
+            labelEn:
+                "Placing starch and glucose solution inside visking tubing and testing the water outside for each substance",
+            labelMy:
+                "Starch နှင့် ဂလူးကို့စ်ရည်ကို Visking Tubing ထဲသို့ ထည့်ပြီး အပြင်ဘက်ရေကို ပစ္စည်းတစ်ခုစီအတွက် စမ်းသပ်ခြင်း",
+            correctBucketEn: "Digestion Simulation Experiment",
+            correctBucketMy: "Digestion Simulation စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w16-sort-3",
+            labelEn:
+                "Comparing water uptake rate in bright light versus darkness",
+            labelMy:
+                "အလင်းထွန်းလင်းရာနှင့် အမှောင်ထဲတွင် ရေစုပ်ယူနှုန်းကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Transpiration Experiment",
+            correctBucketMy: "Transpiration စမ်းသပ်မှု",
+          ),
+          SortingItem(
+            id: "igcsebio-w16-sort-4",
+            labelEn:
+                "Testing whether glucose passes through an artificial membrane but starch does not",
+            labelMy:
+                "ဂလူးကို့စ်သည် ဆင်းသေး အမြှေးပါးတစ်ခုကို ဖြတ်နိုင်သော်လည်း Starch မဖြတ်နိုင်ကြောင်း စမ်းသပ်ခြင်း",
+            correctBucketEn: "Digestion Simulation Experiment",
+            correctBucketMy: "Digestion Simulation စမ်းသပ်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Latt's Visking Tubing Model",
+      titleMy: "စာဖတ်ခြင်း - စုလတ်၏ Visking Tubing ပုံစံတူ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Latt's Visking Tubing Model",
+        titleMy: "စုလတ်၏ Visking Tubing ပုံစံတူ",
+        passageEn:
+            "Su Latt's teacher explained that the wall of the small intestine, with its tiny finger-like villi, acts like a selective gatekeeper: small digested molecules such as glucose can pass through into the blood, but large, undigested molecules like starch cannot. To model this in the lab, her group filled a length of visking tubing -- a partially permeable artificial membrane -- with a mixture of starch solution and glucose solution, tied both ends, and rinsed the outside carefully before placing it in a beaker of plain water.\n\nAfter thirty minutes, Su Latt's group tested the water in the beaker with two separate samples: one tested with iodine solution, and one tested with Benedict's solution after heating. The iodine test stayed orange-brown, showing no starch had escaped into the surrounding water. The Benedict's test, however, turned brick-red after heating, showing that glucose had diffused out of the tubing into the water.\n\nSu Latt's group concluded that the visking tubing's pores were large enough to let small glucose molecules diffuse through by simple diffusion, down their concentration gradient, but too small to let the much larger starch molecules pass through at all. Her teacher confirmed this was an accurate model of digestion and absorption: just as the visking tubing let glucose through but blocked starch, the wall of the small intestine (and the villi lining it) only absorbs food that has already been chemically digested into small enough molecules -- which is exactly why the body needs enzymes to break large molecules like starch down into glucose before absorption can happen at all.",
+        passageMy:
+            "သိမ်ငယ်အူ၏ နံရံသည် ၎င်း၏ လက်ချောင်းလေးကဲ့သို့ Villi များနှင့်အတူ ရွေးချယ်ကာကွယ်သူတစ်ဦးကဲ့သို့ လုပ်ဆောင်ကြောင်း- ဂလူးကို့စ်ကဲ့သို့ ချေဖျက်ပြီး မော်လီကျူးငယ်များသည် သွေးထဲသို့ ဖြတ်သန်းနိုင်သော်လည်း Starch ကဲ့သို့ ကြီးမားပြီး မချေဖျက်ရသေးသော မော်လီကျူးများ မဖြတ်နိုင်ကြောင်း သူမ၏ ဆရာမက ရှင်းပြခဲ့သည်။ ဤအရာကို ဓာတ်ခွဲခန်းတွင် ပုံစံတူပြရန် သူမ၏ အုပ်စုက Visking Tubing -- အစိတ်ပိုင်းစိမ့်ဝင်နိုင်သည့် ဆင်းသေးသော အမြှေးပါး -- ကို Starch ရည်နှင့် ဂလူးကို့စ်ရည် ရောစပ်ထားသော ပစ္စည်းဖြင့် ဖြည့်ပြီး၊ အစွန်းနှစ်ဖက်လုံးကို ချည်နှောင်ကာ အပြင်ဘက်ကို ဂရုတစိုက် ဆေးကြောပြီးနောက် ရေရိုးရိုးထည့်ထားသော ဖန်ခွက်ထဲသို့ ချထားခဲ့သည်။\n\nမိနစ် ၃၀ ကြာပြီးနောက် စုလတ်၏ အုပ်စုက ဖန်ခွက်ထဲရှိ ရေကို နမူနာသီးခြားနှစ်ခုဖြင့် စမ်းသပ်ခဲ့သည်- တစ်ခုကို Iodine Solution ဖြင့် စမ်းသပ်ပြီး၊ နောက်တစ်ခုကို အပူပေးပြီးနောက် Benedict's Solution ဖြင့် စမ်းသပ်ခဲ့သည်။ Iodine Test သည် လိမ္မော်-အညိုရောင်အတိုင်း ဆက်ရှိနေခဲ့ပြီး Starch သည် ပတ်ဝန်းကျင်ရေထဲသို့ လွတ်ထွက်မသွားခဲ့ကြောင်း ပြသခဲ့သည်။ သို့သော် Benedict's Test မူ အပူပေးပြီးနောက် အုတ်ရောင်သို့ ပြောင်းလဲသွားကာ ဂလူးကို့စ်သည် Tubing ထဲမှ ရေထဲသို့ Diffuse ထွက်ခဲ့ကြောင်း ပြသခဲ့သည်။\n\nစုလတ်၏ အုပ်စုက Visking Tubing ၏ အပေါက်များသည် ဂလူးကို့စ် မော်လီကျူးငယ်များ ၎င်းတို့၏ သိပ်သည်းဆကွာဟမှု အတိုင်း Simple Diffusion ဖြင့် Diffuse ထွက်ရန် လုံလောက်စွာ ကြီးသော်လည်း Starch မော်လီကျူးများ ပို၍ ကြီးမားသဖြင့် လုံးဝ မဖြတ်နိုင်လောက်အောင် သေးငယ်ကြောင်း ကောက်ချက်ချခဲ့သည်။ သူမ၏ ဆရာမက ဤသည်ကို Digestion နှင့် Absorption ၏ တိကျသော ပုံစံတူတစ်ခုဟု အတည်ပြုပေးခဲ့သည်- Visking Tubing က ဂလူးကို့စ်ကို ဖြတ်ခွင့်ပြု၍ Starch ကို တားဆီးသကဲ့သို့ပင်၊ သိမ်ငယ်အူ၏ နံရံ (နှင့် ၎င်းကို အလွှာခံထားသော Villi) သည် ဓာတုနည်းအားဖြင့် ချေဖျက်ပြီးသား လုံလောက်အောင် သေးငယ်သော မော်လီကျူးများကိုသာ စုပ်ယူသည် -- ၎င်းသည် Starch ကဲ့သို့ ကြီးမားသော မော်လီကျူးများကို ဂလူးကို့စ်အဖြစ် ချေဖျက်ရန် ခန္ဓာကိုယ်တွင် Enzyme များ လိုအပ်ကြောင်း၊ သို့မှသာ Absorption လုံးဝ ဖြစ်ပေါ်နိုင်ကြောင်း အတိအကျ အကြောင်းရင်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the iodine test on the beaker water show?",
+            questionMy:
+                "ဖန်ခွက်ရေ၏ Iodine Test ရလဒ်က အဘယ်ကို ပြသခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No starch had escaped the tubing",
+              "A large amount of starch had escaped",
+              "Glucose had escaped",
+              "The water was contaminated",
+            ],
+            optionsMy: [
+              "Starch သည် Tubing မှ လွတ်ထွက်မသွားခဲ့ကြောင်း",
+              "Starch များစွာ လွတ်ထွက်သွားခဲ့ကြောင်း",
+              "ဂလူးကို့စ် လွတ်ထွက်သွားခဲ့ကြောင်း",
+              "ရေသည် ညစ်ညမ်းနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "No colour change with iodine is a negative result -- no starch present.",
+              "This is the same food-test logic used since Term 2.",
+            ],
+            hintsMy: [
+              "Iodine တွင် အရောင်ပြောင်းလဲမှု မရှိခြင်းသည် Negative ရလဒ်ဖြစ်သည် -- Starch မရှိပါ။",
+              "ဤသည်မှာ ဒုတိယနှစ်ဝက်ကတည်းက သုံးခဲ့သည့် အစားအစာစမ်းသပ်မှု ယုတ္တိတစ်ခုတည်းပင် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why could glucose pass through the visking tubing but starch could not?",
+            questionMy:
+                "ဂလူးကို့စ်သည် Visking Tubing ကို ဖြတ်နိုင်သော်လည်း Starch ဖြတ်မရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Glucose molecules are small enough to fit through the pores, but starch molecules are too large",
+              "Glucose is heavier than starch",
+              "Starch dissolves faster than glucose",
+              "The tubing was damaged on one side only",
+            ],
+            optionsMy: [
+              "ဂလူးကို့စ် မော်လီကျူးများသည် အပေါက်များကို ဖြတ်နိုင်လောက်အောင် သေးငယ်သော်လည်း Starch မော်လီကျူးများ ကြီးလွန်းသောကြောင့်",
+              "ဂလူးကို့စ်သည် Starch ထက် ပိုလေးသောကြောင့်",
+              "Starch သည် ဂလူးကို့စ်ထက် ပိုမြန်စွာ ပျော်ဝင်သောကြောင့်",
+              "Tubing တစ်ဖက်တွင်သာ ပျက်စီးနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the conclusion about pore size relative to molecule size.",
+              "This is a difference in molecule size, not weight or dissolving speed.",
+            ],
+            hintsMy: [
+              "အပေါက်အရွယ်အစားနှင့် မော်လီကျူးအရွယ်အစားဆိုင်ရာ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ မော်လီကျူးအရွယ်အစား ကွာခြားမှုတစ်ခု ဖြစ်ပြီး အလေးချိန် သို့မဟုတ် ပျော်ဝင်နှုန်း မဟုတ်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what does the visking tubing model represent in the real digestive system?",
+            questionMy:
+                "Visking Tubing ပုံစံတူသည် အမှန်တကယ် အစာချေဖျက်ခြင်းစနစ်တွင် အဘယ်ကို ကိုယ်စားပြုကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The wall of the small intestine and its villi",
+              "The stomach lining only",
+              "The liver",
+              "The mouth",
+            ],
+            optionsMy: [
+              "သိမ်ငယ်အူ၏ နံရံနှင့် ၎င်း၏ Villi",
+              "အစာအိမ် အလွှာသာ",
+              "အသည်း",
+              "ခံတွင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence directly comparing the tubing to a real body structure.",
+              "This is the structure responsible for absorption in the real digestive system.",
+            ],
+            hintsMy: [
+              "Tubing ကို ခန္ဓာကိုယ်ဆိုင်ရာ ဖွဲ့စည်းပုံအစစ်နှင့် တိုက်ရိုက် နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤဖွဲ့စည်းပုံသည် အမှန်တကယ် အစာချေဖျက်ခြင်းစနစ်တွင် Absorption အတွက် တာဝန်ရှိသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Why does the passage say the body needs enzymes before absorption can happen?",
+            questionMy:
+                "Absorption မဖြစ်ပေါ်မီ ခန္ဓာကိုယ်တွင် Enzyme များ လိုအပ်ကြောင်း စာပိုဒ်က အဘယ်ကြောင့် ဆိုသနည်း။",
+            optionsEn: [
+              "Large molecules like starch must be broken into small ones like glucose before they can pass through the gut wall",
+              "Enzymes make food taste better",
+              "Enzymes are needed to kill bacteria in food",
+              "Enzymes are not actually needed for absorption",
+            ],
+            optionsMy: [
+              "Starch ကဲ့သို့ ကြီးမားသော မော်လီကျူးများသည် အူလမ်းကြောင်း နံရံကို မဖြတ်နိုင်မီ ဂလူးကို့စ်ကဲ့သို့ ငယ်သောအရာများအဖြစ် ချေဖျက်ရမည်ဖြစ်သောကြောင့်",
+              "Enzyme များက အစားအစာကို ပို၍ အရသာရှိစေသောကြောင့်",
+              "အစားအစာထဲရှိ ဘက်တီးရီးယားများကို သတ်ရန် Enzyme များ လိုအပ်သောကြောင့်",
+              "Absorption အတွက် Enzyme များ အမှန်တကယ် မလိုအပ်ကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This links back to the whole point of the visking tubing model: only small molecules pass through.",
+              "Reread the final sentence of the passage.",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ Visking Tubing ပုံစံတူ၏ အဓိကအချက်နှင့် ချိတ်ဆက်ထားသည်- မော်လီကျူးငယ်များသာ ဖြတ်နိုင်သည်။",
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Recap: Human Nutrition and Plant Transport",
+      titleMy:
+          "စတုတ္ထအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - လူသားတို့၏ အာဟာရနှင့် အပင် သယ်ယူပို့ဆောင်ရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A potometer estimates transpiration rate by measuring...",
+          questionMy:
+              "Potometer သည် ...ကို တိုင်းတာခြင်းဖြင့် Transpiration နှုန်းကို ခန့်မှန်းသည်",
+          optionsEn: [
+            "The rate of water uptake by a shoot",
+            "The colour of the leaves",
+            "The number of flowers",
+            "The height of the plant",
+          ],
+          optionsMy: [
+            "ပင်စည်တစ်ခု၏ ရေစုပ်ယူနှုန်း",
+            "အရွက်များ၏ အရောင်",
+            "ပန်းအရေအတွက်",
+            "အပင်၏ အမြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which organ produces enzymes that digest starch, protein, AND fat?",
+          questionMy:
+              "Starch, ပရိုတင်းနှင့် အဆီကို ချေဖျက်ပေးသော Enzyme များ ထုတ်လုပ်သည့် အင်္ဂါမှာ အဘယ်နည်း",
+          optionsEn: [
+            "Pancreas",
+            "Gallbladder only",
+            "Large intestine",
+            "Oesophagus",
+          ],
+          optionsMy: [
+            "Pancreas",
+            "သည်းခြေအိတ်သာ",
+            "ကြီးအူ",
+            "အစာလမ်းကြောင်း (Oesophagus)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Visking tubing in the digestion model experiment let glucose through but not starch because...",
+          questionMy:
+              "Digestion Model စမ်းသပ်မှုတွင် Visking Tubing က ဂလူးကို့စ်ကို ဖြတ်ခွင့်ပြု၍ Starch ကို မဖြတ်ခွင့်ပြုသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Glucose molecules are small enough to fit through the pores; starch molecules are too large",
+            "Glucose is a type of protein",
+            "Starch dissolves in water more easily than glucose",
+            "The tubing actively pumps glucose through",
+          ],
+          optionsMy: [
+            "ဂလူးကို့စ် မော်လီကျူးများ အပေါက်များကို ဖြတ်နိုင်လောက်အောင် သေးငယ်ပြီး Starch မော်လီကျူးများ ကြီးလွန်းသောကြောင့်",
+            "ဂလူးကို့စ်သည် ပရိုတင်းအမျိုးအစား တစ်ခု ဖြစ်သောကြောင့်",
+            "Starch သည် ဂလူးကို့စ်ထက် ရေတွင် ပို၍ လွယ်ကူစွာ ပျော်ဝင်သောကြောင့်",
+            "Tubing က ဂလူးကို့စ်ကို Active Transport ဖြင့် တွန်းပို့ပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 4: "Human Nutrition and Transport in Plants"
+// (Weeks 13-16)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm4 = CourseTermDef(
+  id: "course-igcse-bio-t4",
+  termNumber: 4,
+  titleEn: "Human Nutrition and Transport in Plants",
+  titleMy: "လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေး",
+  certificateTitleEn: "Human Nutrition and Transport in Plants",
+  certificateTitleMy: "လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေး",
+  weeks: [_igcseBioWeek13, _igcseBioWeek14, _igcseBioWeek15, _igcseBioWeek16],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-3
+/// The IGCSE Biology course's full-year pathway. Terms 1-4
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
 /// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
-/// Enzymes and Plant Nutrition, Weeks 9-12) are authored so far,
-/// following the blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`.
-/// Terms 4-9 are not yet authored. `terms` below intentionally lists
-/// only Terms 1-3, and `totalWeeks: 36` reflects the full planned year,
+/// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
+/// Transport in Plants, Weeks 13-16) are authored so far, following
+/// the blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`.
+/// Terms 5-9 are not yet authored. `terms` below intentionally lists
+/// only Terms 1-4, and `totalWeeks: 36` reflects the full planned year,
 /// following the same convention as every other in-progress pathway in
 /// this file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
@@ -5611,9 +7181,14 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Terms 4-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Terms 5-9 are not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
-  terms: [igcseBiologyTerm1, igcseBiologyTerm2, igcseBiologyTerm3],
+  terms: [
+    igcseBiologyTerm1,
+    igcseBiologyTerm2,
+    igcseBiologyTerm3,
+    igcseBiologyTerm4,
+  ],
 );
