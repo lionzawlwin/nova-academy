@@ -11879,21 +11879,1577 @@ const CourseTermDef igcseBiologyTerm7 = CourseTermDef(
 );
 
 // =====================================================================
+// Week 29: "Reproduction in Plants and Humans"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek29 = CourseWeekDef(
+  id: "course-igcse-bio-w29",
+  weekNumber: 29,
+  titleEn: "Reproduction in Plants and Humans",
+  titleMy: "အပင်နှင့် လူသားများ၏ မျိုးပွားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w29-d1",
+      dayNumber: 1,
+      titleEn: "Asexual vs Sexual Reproduction",
+      titleMy: "Asexual vs Sexual Reproduction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following best describes asexual reproduction?",
+          questionMy:
+              "Asexual Reproduction ကို အောက်ပါတို့အနက် အကောင်းဆုံး ဖော်ပြသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Reproduction involving only one parent, producing offspring genetically identical to that parent",
+            "Reproduction involving two parents and the fusion of gametes",
+            "A process that only happens in animals",
+            "A process that always produces genetically varied offspring",
+          ],
+          optionsMy: [
+            "မိဘတစ်ဦးသာ ပါဝင်ပြီး ထိုမိဘနှင့် မျိုးရိုးဗီဇ တူညီသော မျိုးဆက်ကို ထုတ်လုပ်သော မျိုးပွားခြင်း",
+            "မိဘနှစ်ဦးနှင့် Gamete များ ပေါင်းစည်းခြင်း ပါဝင်သော မျိုးပွားခြင်း",
+            "တိရစ္ဆာန်များတွင်သာ ဖြစ်ပွားသော ဖြစ်စဉ်",
+            "မျိုးရိုးဗီဇ ကွဲပြားသော မျိုးဆက်ကို အမြဲ ထုတ်လုပ်ပေးသော ဖြစ်စဉ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Asexual means 'without sex' -- no gametes fuse together.",
+            "Since there's no mixing of genetic material from two parents, offspring are clones of the single parent.",
+          ],
+          hintsMy: [
+            "Asexual ဆိုသည်မှာ 'လိင်ဆက်ဆံမှု မပါဘဲ' ဆိုလိုသည် -- Gamete များ ပေါင်းစည်းခြင်း မရှိပါ။",
+            "မိဘနှစ်ဦးမှ မျိုးရိုးဗီဇ ပစ္စည်းများ ရောနှောခြင်း မရှိသောကြောင့် မျိုးဆက်များသည် မိဘတစ်ဦးတည်း၏ Clone များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between pollination and fertilisation in flowering plants?",
+          questionMy:
+              "ပန်းပွင့်သော အပင်များတွင် Pollination နှင့် Fertilisation ကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Pollination is the transfer of pollen to the stigma; fertilisation is the fusion of male and female gametes",
+            "They are exactly the same process",
+            "Pollination only happens in animals",
+            "Fertilisation always happens before pollination",
+          ],
+          optionsMy: [
+            "Pollination သည် Pollen ကို Stigma ဆီသို့ လွှဲပြောင်းခြင်းဖြစ်ပြီး Fertilisation သည် အထီး/အမ Gamete များ ပေါင်းစည်းခြင်းဖြစ်သည်",
+            "နှစ်ခုစလုံး အတိအကျ တူညီသော ဖြစ်စဉ်ဖြစ်သည်",
+            "Pollination သည် တိရစ္ဆာန်များတွင်သာ ဖြစ်ပွားသည်",
+            "Fertilisation သည် Pollination မတိုင်မီ အမြဲ ဖြစ်ပွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Pollination happens first, moving pollen physically from anther to stigma.",
+            "Fertilisation happens after, when a pollen tube delivers the male gamete to the ovule.",
+          ],
+          hintsMy: [
+            "Pollination သည် ဦးစွာ ဖြစ်ပွားပြီး Pollen ကို Anther မှ Stigma ဆီသို့ ရုပ်ပိုင်းဆိုင်ရာ ရွှေ့လျားစေသည်။",
+            "Fertilisation သည် ထို့နောက် ဖြစ်ပွားပြီး Pollen Tube က အထီး Gamete ကို Ovule ဆီသို့ ပို့ဆောင်ပေးသောအခါ ဖြစ်ပေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During the human menstrual cycle, ovulation refers to...",
+          questionMy: "လူ့ ရာသီစက်ဝန်းအတွင်း Ovulation က ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "The release of an egg from an ovary",
+            "The shedding of the uterus lining",
+            "The fertilisation of an egg by sperm",
+            "The implantation of an embryo",
+          ],
+          optionsMy: [
+            "Ovary မှ Egg တစ်ခု ထွက်ခြင်း",
+            "သားအိမ် အလွှာ ကျွတ်ထွက်ခြင်း",
+            "Sperm ဖြင့် Egg ကို Fertilise ပြုလုပ်ခြင်း",
+            "သန္ဓေသားကို သားအိမ်တွင် စိုက်ထူခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This typically happens around the middle of a roughly 28-day cycle.",
+            "The egg then travels down the oviduct, where it may be fertilised.",
+          ],
+          hintsMy: [
+            "ဤသည် ပုံမှန်အားဖြင့် ၂၈ ရက်ခန့် ကြာသော စက်ဝန်း၏ အလယ်ပိုင်းတွင် ဖြစ်ပွားလေ့ရှိသည်။",
+            "ထို့နောက် Egg သည် Oviduct အတွင်း ဆင်းသက်ပြီး ထိုနေရာတွင် Fertilise ဖြစ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Reproduction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - မျိုးပွားခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w29-dm-1",
+          termEn: "Pollination",
+          termMy: "Pollination",
+          matchEn: "The transfer of pollen from the anther to the stigma",
+          matchMy: "Pollen ကို Anther မှ Stigma ဆီသို့ လွှဲပြောင်းခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w29-dm-2",
+          termEn: "Fertilisation",
+          termMy: "Fertilisation",
+          matchEn:
+              "The fusion of a male gamete and a female gamete to form a zygote",
+          matchMy:
+              "Zygote တစ်ခု ဖွဲ့စည်းရန် အထီးနှင့် အမ Gamete ပေါင်းစည်းခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w29-dm-3",
+          termEn: "Ovary (human)",
+          termMy: "Ovary (လူသား)",
+          matchEn:
+              "The organ that produces eggs in the female reproductive system",
+          matchMy:
+              "အမျိုးသမီး မျိုးပွားစနစ်တွင် Egg များ ထုတ်လုပ်ပေးသော အင်္ဂါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w29-dm-4",
+          termEn: "Testes",
+          termMy: "Testes",
+          matchEn:
+              "The organs that produce sperm in the male reproductive system",
+          matchMy:
+              "အမျိုးသား မျိုးပွားစနစ်တွင် Sperm များ ထုတ်လုပ်ပေးသော အင်္ဂါများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w29-dm-5",
+          termEn: "Uterus",
+          termMy: "သားအိမ် (Uterus)",
+          matchEn:
+              "The organ where a fertilised egg implants and a fetus develops during pregnancy",
+          matchMy:
+              "Fertilise ဖြစ်ပြီး Egg စိုက်ထူပြီး ကိုယ်ဝန်ဆောင်ချိန် သန္ဓေသား ကြီးထွားရာ အင်္ဂါ",
+          colorValue: 0xFF4CAF50,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Asexual or Sexual Reproduction?",
+      titleMy: "စီစစ်ကြမည် - Asexual လား Sexual Reproduction လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Asexual Reproduction", "Sexual Reproduction"],
+        bucketsMy: ["Asexual Reproduction", "Sexual Reproduction"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w29-sort-1",
+            labelEn:
+                "A strawberry plant growing a new identical plant from a runner",
+            labelMy:
+                "စတော်ဘယ်ရီအပင်တစ်ပင် Runner မှတစ်ဆင့် တူညီသော အပင်သစ် ကြီးထွားလာခြင်း",
+            correctBucketEn: "Asexual Reproduction",
+            correctBucketMy: "Asexual Reproduction",
+          ),
+          SortingItem(
+            id: "igcsebio-w29-sort-2",
+            labelEn: "A sperm cell fusing with an egg cell to form a zygote",
+            labelMy:
+                "Zygote တစ်ခု ဖွဲ့စည်းရန် Sperm ဆဲလ်တစ်ခု Egg ဆဲလ်တစ်ခုနှင့် ပေါင်းစည်းခြင်း",
+            correctBucketEn: "Sexual Reproduction",
+            correctBucketMy: "Sexual Reproduction",
+          ),
+          SortingItem(
+            id: "igcsebio-w29-sort-3",
+            labelEn:
+                "Yeast budding to produce a genetically identical new cell",
+            labelMy:
+                "မျိုးရိုးဗီဇ တူညီသော ဆဲလ်အသစ်တစ်ခု ထုတ်လုပ်ရန် တဆေး Budding ပြုလုပ်ခြင်း",
+            correctBucketEn: "Asexual Reproduction",
+            correctBucketMy: "Asexual Reproduction",
+          ),
+          SortingItem(
+            id: "igcsebio-w29-sort-4",
+            labelEn:
+                "Pollen from one flower fertilising the ovule of a different flower",
+            labelMy:
+                "ပန်းတစ်ပွင့်မှ Pollen က အခြားပန်းတစ်ပွင့်၏ Ovule ကို Fertilise ပြုလုပ်ခြင်း",
+            correctBucketEn: "Sexual Reproduction",
+            correctBucketMy: "Sexual Reproduction",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Farmer U Kyaw's Mango Orchard",
+      titleMy: "စာဖတ်ခြင်း - လယ်သမား ဦးကျော်၏ သရက်ဥယျာဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Farmer U Kyaw's Mango Orchard",
+        titleMy: "လယ်သမား ဦးကျော်၏ သရက်ဥယျာဉ်",
+        passageEn:
+            "U Kyaw grew mangoes on a small orchard, and when his daughter's Biology class visited for a field trip, he explained that he actually used two completely different methods to produce new mango trees, depending on his goal. For most of his orchard, he grafted small branches, called cuttings, from his best-tasting tree directly onto young rootstock -- a form of asexual reproduction that guaranteed every new tree was a genetic clone of the parent, producing fruit with exactly the same sweetness and texture every single time.\n\nHowever, U Kyaw also let a few trees grow naturally from seeds, produced through ordinary sexual reproduction after bees carried pollen from the flowers of one tree to the flowers of another. He explained that seed-grown trees were far less predictable: since each seed resulted from the fusion of genetic material from two different parent trees, every seedling was genetically unique, sometimes producing fruit that tasted noticeably different from either parent -- occasionally worse, but every so often surprisingly better.\n\nA curious student asked why he didn't just grow his entire orchard from grafted cuttings, since they guaranteed consistent, high-quality fruit. U Kyaw explained that this was exactly the trade-off between the two reproductive strategies: asexual reproduction gave him reliable uniformity, but every grafted tree carried an identical genetic weakness to any pest or disease that might one day threaten his best-tasting variety, since none of them had any genetic variation to potentially resist it. His handful of seed-grown trees, despite their unpredictable fruit, served as a genetic backup -- and occasionally, one of those unpredictable seedlings turned out to have such excellent fruit that he propagated cuttings from it too, starting the whole cycle over again.",
+        passageMy:
+            "ဦးကျော်သည် ဥယျာဉ်ငယ်တစ်ခုတွင် သရက်သီးများ စိုက်ပျိုးခဲ့ပြီး၊ သူ၏ သမီး၏ ဇီဝဗေဒအတန်း လယ်ကွင်းလေ့လာမှု ခရီးစဉ်တွင် လာရောက်ခဲ့သောအခါ၊ သူသည် ၎င်း၏ ရည်ရွယ်ချက်ပေါ်မူတည်၍ သရက်ပင်အသစ်များ ထုတ်လုပ်ရန် လုံးဝ ကွဲပြားသော နည်းလမ်းနှစ်ခုကို အမှန်တကယ် အသုံးပြုခဲ့ကြောင်း ရှင်းပြခဲ့သည်။ သူ၏ ဥယျာဉ်အများစုအတွက် အရသာအကောင်းဆုံး အပင်မှ Cutting ဟုခေါ်သော အကိုင်းသေးလေးများကို ငယ်ရွယ်သော Rootstock ပေါ် တိုက်ရိုက် Graft လုပ်ခဲ့သည် -- Asexual Reproduction ပုံစံတစ်ခုဖြစ်ပြီး အသစ်တိုင်းသည် မိဘအပင်၏ Genetic Clone ဖြစ်ကြောင်း အာမခံနိုင်ကာ၊ အမြဲတမ်း အတူတူပင် ချိုမြိန်မှုနှင့် ဖွဲ့ဆက်မှု ရှိသော အသီးကို ထုတ်လုပ်ပေးသည်။\n\nသို့သော် ဦးကျော်သည် ပျားများက အပင်တစ်ပင်၏ ပန်းများမှ ပန်းမှုန့်ကို အခြားအပင်တစ်ပင်၏ ပန်းများဆီသို့ ဆောင်ယူပေးပြီးနောက် ရိုးရိုး Sexual Reproduction မှတစ်ဆင့် ထုတ်လုပ်ထားသော မျိုးစေ့များမှ အပင်အနည်းငယ်ကိုလည်း သဘာဝအတိုင်း ကြီးထွားခွင့်ပြုခဲ့သည်။ မျိုးစေ့မှ ကြီးထွားသော အပင်များသည် ပို၍ ခန့်မှန်း၍ ရခက်ကြောင်း သူ ရှင်းပြခဲ့သည်- မျိုးစေ့တစ်ခုစီသည် မိဘအပင်နှစ်ပင်မှ Genetic ပစ္စည်းများ ပေါင်းစည်းမှုမှ ရလာသောကြောင့် အပင်ပေါက်တစ်ခုစီသည် Genetically ထူးခြားပြီး၊ တစ်ခါတစ်ရံ မိဘနှစ်ပင်စလုံးနှင့် သိသိသာသာ ကွဲပြားသော အရသာရှိသော အသီးကို ထုတ်လုပ်ပေးတတ်သည် -- တစ်ခါတစ်ရံ ပို၍ ညံ့ဖျင်းသော်လည်း တစ်ခါတစ်ရံ အံ့ဩဖွယ် ပို၍ ကောင်းမွန်တတ်သည်။\n\nGraft လုပ်ထားသော Cutting များက တညီတညာ၊ အရည်အသွေးမြင့်သော အသီးကို အာမခံနိုင်သောကြောင့် စိတ်ဝင်စားသော ကျောင်းသားတစ်ဦးက ဥယျာဉ်တစ်ခုလုံးကို ၎င်းတို့ဖြင့်သာ ဘာကြောင့် မစိုက်ပျိုးခဲ့ကြောင်း မေးမြန်းခဲ့သည်။ ဦးကျော်က ဤသည်မှာ မျိုးပွားနည်းဗျူဟာနှစ်ခုကြား ဖလှယ်မှု အတိအကျ ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်- Asexual Reproduction က ယုံကြည်စိတ်ချရသော တစ်ညီတစ်ညာဖြစ်မှုကို ပေးအပ်သော်လည်း Graft လုပ်ထားသော အပင်တိုင်းသည် တစ်နေ့နေ့ ၎င်း၏ အရသာအကောင်းဆုံး မျိုးစိတ်ကို ခြိမ်းခြောက်နိုင်သော ပိုးမွှား သို့မဟုတ် ရောဂါတစ်ခုအပေါ် Genetic အားနည်းချက် တူညီစွာ ပါဝင်သည်၊ အကြောင်းမှာ ၎င်းတို့ထဲမှ မည်သည့်အပင်မျှ ၎င်းကို ခုခံနိုင်ရန် Genetic Variation လုံးဝ မရှိသောကြောင့်ဖြစ်သည်။ သူ၏ မျိုးစေ့မှ ကြီးထွားသော အပင်အနည်းငယ်သည် ခန့်မှန်း၍ မရသော အသီးများ ရှိသော်လည်း Genetic Backup တစ်ခုအဖြစ် လုပ်ဆောင်ပေးခဲ့သည် -- တစ်ခါတစ်ရံ ထိုခန့်မှန်း၍ မရသော အပင်ပေါက်များထဲမှ တစ်ခုသည် အလွန်ကောင်းမွန်သော အသီးရှိသည်ကို တွေ့ရှိခဲ့ပြီး ၎င်းမှလည်း Cutting များ ပြန်လည် ပွားများခဲ့ကာ စက်ဝန်းတစ်ခုလုံးကို ထပ်မံစတင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did grafted trees all produce fruit with the same taste?",
+            questionMy:
+                "Graft လုပ်ထားသော အပင်အားလုံးသည် တူညီသော အရသာရှိသော အသီးများ ထုတ်လုပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They were genetic clones of the parent tree, produced by asexual reproduction",
+              "They were grown from carefully selected seeds",
+              "Bees pollinated them all identically",
+              "U Kyaw added artificial flavouring",
+            ],
+            optionsMy: [
+              "Asexual Reproduction ဖြင့် ထုတ်လုပ်ထားသော မိဘအပင်၏ Genetic Clone များ ဖြစ်သောကြောင့်",
+              "ဂရုတစိုက် ရွေးချယ်ထားသော မျိုးစေ့များမှ ကြီးထွားခဲ့သောကြောင့်",
+              "ပျားများက အားလုံးကို တစ်ညီတစ်ညာ Pollinate ပြုလုပ်ခဲ့သောကြောင့်",
+              "ဦးကျော်က အတု အရသာများ ထည့်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what grafting guaranteed.",
+              "Asexual reproduction produces genetically identical offspring.",
+            ],
+            hintsMy: [
+              "Graft လုပ်ခြင်းက အဘယ်ကို အာမခံကြောင်း ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Asexual Reproduction က Genetically တူညီသော မျိုးဆက်ကို ထုတ်လုပ်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why were seed-grown trees less predictable?",
+            questionMy:
+                "မျိုးစေ့မှ ကြီးထွားသော အပင်များ ပို၍ ခန့်မှန်း၍ ရခက်သည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each seed resulted from the fusion of genetic material from two different parent trees",
+              "Seeds never grow into full trees",
+              "Bees never visited the seed-grown trees",
+              "U Kyaw planted the seeds upside down",
+            ],
+            optionsMy: [
+              "မျိုးစေ့တစ်ခုစီသည် မိဘအပင်နှစ်ပင်မှ Genetic ပစ္စည်းများ ပေါင်းစည်းမှုမှ ရလာသောကြောင့်",
+              "မျိုးစေ့များသည် အပင်အပြည့်အဝအဖြစ် ဘယ်တော့မှ ကြီးထွား၍ မရသောကြောင့်",
+              "ပျားများသည် မျိုးစေ့မှ ကြီးထွားသော အပင်များထံ ဘယ်တော့မှ မလာရောက်ခဲ့သောကြောင့်",
+              "ဦးကျော်က မျိုးစေ့များကို ခေါင်းလှန်၍ စိုက်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is the standard reason sexual reproduction produces varied offspring.",
+              "Two different parents means mixed genetic material in every seed.",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ Sexual Reproduction က ကွဲပြားသော မျိုးဆက်ကို ထုတ်လုပ်ပေးသည့် စံ အကြောင်းရင်းဖြစ်သည်။",
+              "မိဘနှစ်ပင် ကွဲပြားခြင်းက မျိုးစေ့တိုင်းတွင် ရောနှောထားသော Genetic ပစ္စည်း ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what genetic risk did the all-grafted orchard face?",
+            questionMy:
+                "Graft လုပ်ထားသော ဥယျာဉ်တစ်ခုလုံးသည် မည်သည့် Genetic အန္တရာယ်ကို ရင်ဆိုင်ရသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every tree shared the same genetic weakness to any pest or disease, with no variation to resist it",
+              "The trees would never produce fruit at all",
+              "The trees would grow too tall to harvest",
+              "There was no risk at all",
+            ],
+            optionsMy: [
+              "အပင်တိုင်းသည် ပိုးမွှား သို့မဟုတ် ရောဂါတစ်ခုအပေါ် Genetic အားနည်းချက် တူညီစွာ ပါဝင်ပြီး ခုခံနိုင်ရန် Variation မရှိခြင်း",
+              "အပင်များ အသီး လုံးဝ မသီးနိုင်တော့ခြင်း",
+              "အပင်များ ရိတ်သိမ်း၍ မရလောက်အောင် အလွန်ကြီးထွားလာခြင်း",
+              "အန္တရာယ် လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the trade-off of relying only on asexual reproduction.",
+              "No genetic variation means no natural resistance if a new threat appears.",
+            ],
+            hintsMy: [
+              "Asexual Reproduction တစ်ခုတည်းကိုသာ မှီခိုအားထားခြင်း၏ ဖလှယ်မှုကို ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Genetic Variation မရှိခြင်းက အန္တရာယ်သစ် ပေါ်ပေါက်လာလျှင် သဘာဝ ခုခံနိုင်စွမ်း မရှိခြင်းကို ဆိုလိုသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did U Kyaw still keep a few seed-grown trees?",
+            questionMy:
+                "ဦးကျော်သည် မျိုးစေ့မှ ကြီးထွားသော အပင်အနည်းငယ်ကို အဘယ်ကြောင့် ဆက်လက် ထားရှိခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They served as a genetic backup and occasionally produced an even better new variety",
+              "He forgot to remove them",
+              "They required no water or care",
+              "Seed-grown trees were required by law",
+            ],
+            optionsMy: [
+              "Genetic Backup တစ်ခုအဖြစ် လုပ်ဆောင်ပေးပြီး တစ်ခါတစ်ရံ ပို၍ ကောင်းမွန်သော မျိုးစိတ်အသစ်ကို ထုတ်လုပ်ပေးတတ်သောကြောင့်",
+              "ဖယ်ရှားရန် မေ့ကျန်ခဲ့သောကြောင့်",
+              "ရေနှင့် ဂရုစိုက်မှု လုံးဝ မလိုအပ်သောကြောင့်",
+              "မျိုးစေ့မှ ကြီးထွားသော အပင်များကို ဥပဒေက တောင်းဆိုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of the passage.",
+              "This is exactly the trade-off benefit of maintaining genetic variation.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Genetic Variation ကို ထိန်းသိမ်းထားခြင်း၏ ဖလှယ်မှု အကျိုးကျေးဇူး အတိအကျပင် ဖြစ်သည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Reproduction",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - မျိုးပွားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Offspring produced by asexual reproduction are usually...",
+          questionMy:
+              "Asexual Reproduction ဖြင့် ထုတ်လုပ်ထားသော မျိုးဆက်များသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Genetically identical to the parent",
+            "Always genetically varied",
+            "Never able to grow",
+            "Produced by two parents",
+          ],
+          optionsMy: [
+            "မိဘနှင့် Genetically တူညီခြင်း",
+            "အမြဲ Genetically ကွဲပြားခြင်း",
+            "ဘယ်တော့မှ ကြီးထွား၍ မရခြင်း",
+            "မိဘနှစ်ဦးက ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In flowering plants, pollination is followed by...",
+          questionMy:
+              "ပန်းပွင့်သော အပင်များတွင် Pollination ပြီးနောက် ...ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Fertilisation",
+            "Germination immediately",
+            "Photosynthesis only",
+            "Transpiration only",
+          ],
+          optionsMy: [
+            "Fertilisation",
+            "ချက်ချင်း အညှောက်ထွက်ခြင်း",
+            "Photosynthesis သာ",
+            "Transpiration သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ovulation refers to the release of an egg from the...",
+          questionMy: "Ovulation က ...မှ Egg ထွက်ခြင်းကို ရည်ညွှန်းသည်",
+          optionsEn: ["Ovary", "Uterus", "Testes", "Vagina"],
+          optionsMy: ["Ovary", "သားအိမ်", "Testes", "Vagina"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 30: "Inheritance and DNA"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek30 = CourseWeekDef(
+  id: "course-igcse-bio-w30",
+  weekNumber: 30,
+  titleEn: "Inheritance and DNA",
+  titleMy: "မျိုးရိုးလိုက်ခြင်းနှင့် DNA",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w30-d1",
+      dayNumber: 1,
+      titleEn: "DNA, Genes, and Chromosomes",
+      titleMy: "DNA, Gene များနှင့် Chromosome များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is a gene?",
+          questionMy: "Gene ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A section of DNA that codes for a particular characteristic",
+            "A whole chromosome",
+            "A type of cell",
+            "A hormone produced by the pancreas",
+          ],
+          optionsMy: [
+            "အထူးလက္ခဏာတစ်ခုကို Code ပြုလုပ်ပေးသော DNA ၏ အပိုင်းတစ်ခု",
+            "Chromosome တစ်ခုလုံး",
+            "ဆဲလ်အမျိုးအစားတစ်ခု",
+            "Pancreas မှ ထုတ်လုပ်သော Hormone တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A chromosome contains many of these along its length.",
+            "Different versions of the same gene are called alleles.",
+          ],
+          hintsMy: [
+            "Chromosome တစ်ခုတွင် ၎င်း၏ အလျားတစ်လျှောက် ဤအရာများစွာ ပါဝင်သည်။",
+            "တူညီသော Gene ၏ မတူညီသော ပုံစံများကို Allele ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How many chromosomes does a normal human body cell contain?",
+          questionMy:
+              "ပုံမှန် လူ့ခန္ဓာကိုယ်ဆဲလ်တစ်ခုတွင် Chromosome မည်မျှ ပါဝင်သနည်း။",
+          optionsEn: ["46 (23 pairs)", "23", "92", "4"],
+          optionsMy: ["၄၆ (အတွဲ ၂၃ တွဲ)", "၂၃", "၉၂", "၄"],
+          correctIndex: 0,
+          hintsEn: [
+            "Human body cells are diploid, meaning they have two sets of chromosomes.",
+            "Gametes (sperm and egg cells) have half this number.",
+          ],
+          hintsMy: [
+            "လူ့ခန္ဓာကိုယ်ဆဲလ်များသည် Diploid ဖြစ်ပြီး Chromosome အစုံနှစ်စုံ ရှိသည်ဟု ဆိုလိုသည်။",
+            "Gamete များ (Sperm နှင့် Egg ဆဲလ်များ) တွင် ဤအရေအတွက်၏ တစ်ဝက်သာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of cell division produces gametes with half the normal chromosome number?",
+          questionMy:
+              "မည်သည့် ဆဲလ်ကွဲအမျိုးအစားက ပုံမှန် Chromosome အရေအတွက်၏ တစ်ဝက်ပါသော Gamete များကို ထုတ်လုပ်ပေးသနည်း။",
+          optionsEn: ["Meiosis", "Mitosis", "Digestion", "Diffusion"],
+          optionsMy: ["Meiosis", "Mitosis", "Digestion", "Diffusion"],
+          correctIndex: 0,
+          hintsEn: [
+            "This division produces four genetically different, haploid cells.",
+            "Mitosis, by contrast, produces two genetically identical, diploid cells, used for growth and repair.",
+          ],
+          hintsMy: [
+            "ဤကွဲခြင်းက Genetically ကွဲပြားပြီး Haploid ဖြစ်သော ဆဲလ်လေးခု ထုတ်လုပ်ပေးသည်။",
+            "ဆန့်ကျင်ဘက်အားဖြင့် Mitosis က ကြီးထွားခြင်းနှင့် ပြုပြင်ခြင်းအတွက် သုံးသော Genetically တူညီသော Diploid ဆဲလ်နှစ်ခု ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Genetics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Genetics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w30-dm-1",
+          termEn: "Allele",
+          termMy: "Allele",
+          matchEn:
+              "A different version of the same gene, e.g. the allele for tall or the allele for short",
+          matchMy:
+              "Gene တစ်ခုတည်း၏ မတူညီသော ပုံစံ၊ ဥပမာ အရပ်ရှည်ခြင်း Allele သို့မဟုတ် အရပ်တိုခြင်း Allele",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w30-dm-2",
+          termEn: "Dominant allele",
+          termMy: "Dominant Allele",
+          matchEn:
+              "An allele whose characteristic appears even if only one copy is present",
+          matchMy:
+              "မိတ္တူတစ်ခုတည်း ရှိလျှင်ပင် ၎င်း၏ လက္ခဏာ ပေါ်ထွက်လာသော Allele",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w30-dm-3",
+          termEn: "Recessive allele",
+          termMy: "Recessive Allele",
+          matchEn:
+              "An allele whose characteristic only appears if two copies are present",
+          matchMy: "မိတ္တူနှစ်ခု ရှိမှသာ ၎င်း၏ လက္ခဏာ ပေါ်ထွက်လာသော Allele",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w30-dm-4",
+          termEn: "Mitosis",
+          termMy: "Mitosis",
+          matchEn:
+              "Cell division producing two genetically identical diploid cells, used for growth and repair",
+          matchMy:
+              "ကြီးထွားခြင်းနှင့် ပြုပြင်ခြင်းအတွက် သုံးသော Genetically တူညီသော Diploid ဆဲလ်နှစ်ခုကို ထုတ်လုပ်ပေးသော ဆဲလ်ကွဲခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w30-dm-5",
+          termEn: "Punnett square",
+          termMy: "Punnett Square",
+          matchEn:
+              "A diagram used to predict the possible genotypes and ratios of offspring from a genetic cross",
+          matchMy:
+              "မျိုးရိုးဗီဇ ဖြတ်သန်းမှုတစ်ခုမှ မျိုးဆက်များ၏ ဖြစ်နိုင်ချေရှိသော Genotype နှင့် အချိုးများကို ခန့်မှန်းရန် သုံးသော ပုံကြမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mitosis or Meiosis?",
+      titleMy: "စီစစ်ကြမည် - Mitosis လား Meiosis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Mitosis", "Meiosis"],
+        bucketsMy: ["Mitosis", "Meiosis"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w30-sort-1",
+            labelEn: "Skin cells dividing to repair a cut",
+            labelMy: "ဒဏ်ရာတစ်ခု ပြုပြင်ရန် အရေပြားဆဲလ်များ ကွဲခြင်း",
+            correctBucketEn: "Mitosis",
+            correctBucketMy: "Mitosis",
+          ),
+          SortingItem(
+            id: "igcsebio-w30-sort-2",
+            labelEn: "Producing four genetically different sperm cells",
+            labelMy: "Genetically ကွဲပြားသော Sperm ဆဲလ်လေးခု ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Meiosis",
+            correctBucketMy: "Meiosis",
+          ),
+          SortingItem(
+            id: "igcsebio-w30-sort-3",
+            labelEn: "A plant growing taller by producing more identical cells",
+            labelMy:
+                "အပင်တစ်ပင် တူညီသော ဆဲလ်များ ပို၍ ထုတ်လုပ်ခြင်းဖြင့် ပို၍ ရှည်လာခြင်း",
+            correctBucketEn: "Mitosis",
+            correctBucketMy: "Mitosis",
+          ),
+          SortingItem(
+            id: "igcsebio-w30-sort-4",
+            labelEn:
+                "Producing egg cells with half the normal chromosome number",
+            labelMy:
+                "ပုံမှန် Chromosome အရေအတွက်၏ တစ်ဝက်ပါသော Egg ဆဲလ်များ ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Meiosis",
+            correctBucketMy: "Meiosis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ei Shwe Zin's Pea Plant Cross",
+      titleMy: "စာဖတ်ခြင်း - ဧီးရွှေဇင်၏ ပဲပင် ဖြတ်သန်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ei Shwe Zin's Pea Plant Cross",
+        titleMy: "ဧီးရွှေဇင်၏ ပဲပင် ဖြတ်သန်းမှု",
+        passageEn:
+            "For her genetics homework, Ei Shwe Zin practised a monohybrid cross using pea plant height, following the same classic example her teacher had used in class: the allele for tall stems, T, is dominant, and the allele for short stems, t, is recessive. She was asked to predict the offspring of a cross between two parent plants that were both heterozygous, meaning each parent had one T allele and one t allele (genotype Tt), and both were tall, since T is dominant over t.\n\nEi Shwe Zin drew a Punnett square, listing one parent's alleles, T and t, along the top and the other parent's alleles, T and t, down the side, then filled in each of the four boxes with the combination of alleles an offspring could inherit: TT, Tt, Tt, and tt. She noticed that three of the four boxes contained at least one dominant T allele -- TT, Tt, and Tt -- meaning those offspring would be tall, while only the fourth box, tt, contained no dominant allele at all, meaning that offspring would be short.\n\nHer teacher asked her to express this as a ratio, and Ei Shwe Zin correctly identified the classic 3:1 ratio -- three tall offspring predicted for every one short offspring, purely due to chance combinations of the parents' alleles. She then extended her thinking to genotype ratios rather than just the visible phenotype: out of the four predicted offspring, one was TT (homozygous dominant), two were Tt (heterozygous, looking identical to the TT plant despite carrying a hidden t allele), and one was tt (homozygous recessive) -- a 1:2:1 genotype ratio hiding underneath the simpler 3:1 phenotype ratio she had first noticed.",
+        passageMy:
+            "ဧီးရွှေဇင်၏ Genetics အိမ်စာအတွက် သူမသည် ၎င်း၏ ဆရာမက အတန်းတွင် သုံးခဲ့သည့် Classic ဥပမာတစ်ခုတည်းအတိုင်း ပဲပင် အရပ်ကို သုံး၍ Monohybrid Cross တစ်ခုကို လေ့ကျင့်ခဲ့သည်- အရပ်ရှည်ပင်စည် Allele T သည် Dominant ဖြစ်ပြီး အရပ်တိုပင်စည် Allele t သည် Recessive ဖြစ်သည်။ Heterozygous ဖြစ်သော မိဘအပင်နှစ်ပင်၊ ဆိုလိုသည်မှာ မိဘတစ်ဦးစီတွင် T Allele တစ်ခုနှင့် t Allele တစ်ခု (Genotype Tt) ပါဝင်ပြီး နှစ်ခုစလုံး T သည် t ထက် Dominant ဖြစ်ကြောင်းကြောင့် အရပ်ရှည်ကြသော မိဘအပင်နှစ်ပင်ကြား Cross တစ်ခု၏ မျိုးဆက်များကို ခန့်မှန်းရန် သူမ တောင်းဆိုခံခဲ့ရသည်။\n\nဧီးရွှေဇင်သည် Punnett Square တစ်ခု ဆွဲခဲ့ပြီး၊ မိဘတစ်ဦး၏ Allele များ T နှင့် t ကို အပေါ်ဘက်တွင်၊ အခြားမိဘတစ်ဦး၏ Allele များ T နှင့် t ကို ဘေးဘက်တွင် စာရင်းပြုစုကာ ဘောက်စ်လေးခုစီကို မျိုးဆက်တစ်ခုက ရရှိနိုင်သော Allele ပေါင်းစပ်မှုများဖြင့် ဖြည့်ခဲ့သည်- TT, Tt, Tt နှင့် tt။ ဘောက်စ်လေးခုအနက် သုံးခုတွင် Dominant T Allele အနည်းဆုံးတစ်ခု ပါဝင်ကြောင်း -- TT, Tt နှင့် Tt -- သတိပြုမိခဲ့ပြီး ထိုမျိုးဆက်များသည် အရပ်ရှည်ကြမည်ဖြစ်ကြောင်း၊ စတုတ္ထဘောက်စ် tt တွင်သာ Dominant Allele လုံးဝ မပါဝင်ကြောင်း၊ ထိုမျိုးဆက်သည် အရပ်တိုမည်ဖြစ်ကြောင်း သိရှိခဲ့သည်။\n\nသူမ၏ ဆရာမက ၎င်းကို အချိုးတစ်ခုအဖြစ် ဖော်ပြရန် တောင်းဆိုခဲ့ပြီး ဧီးရွှေဇင်က Classic 3:1 အချိုးကို မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည် -- အရပ်တို မျိုးဆက်တစ်ခုစီအတွက် အရပ်ရှည် မျိုးဆက်သုံးခု ကြိုတင်ခန့်မှန်းထားပြီး မိဘများ၏ Allele ပေါင်းစပ်မှု ကျပန်းကြောင့်သာ ဖြစ်သည်။ ထို့နောက် သူမသည် မြင်ရသော Phenotype တစ်ခုတည်းအစား Genotype အချိုးများသို့ သူမ၏ တွေးခေါ်မှုကို ဆက်လက် ချဲ့ထွင်ခဲ့သည်- ကြိုတင်ခန့်မှန်းထားသော မျိုးဆက်လေးခုထဲမှ တစ်ခုသည် TT (Homozygous Dominant)၊ နှစ်ခုသည် Tt (Heterozygous၊ ဝှက်ထားသော t Allele တစ်ခု သယ်ဆောင်နေသော်လည်း TT အပင်နှင့် အသွင်တူ) နှင့် တစ်ခုသည် tt (Homozygous Recessive) ဖြစ်ခဲ့သည် -- သူမ ဦးစွာ သတိပြုမိသော ရိုးရှင်းသော 3:1 Phenotype အချိုးအောက်တွင် ဝှက်ထားသော 1:2:1 Genotype အချိုးတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why were both parent plants tall despite being heterozygous (Tt)?",
+            questionMy:
+                "မိဘအပင်နှစ်ပင်စလုံး Heterozygous (Tt) ဖြစ်သော်လည်း အရပ်ရှည်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The T allele for tall stems is dominant over the recessive t allele",
+              "Heterozygous plants are always short",
+              "Both parents were actually homozygous",
+              "Height has nothing to do with alleles",
+            ],
+            optionsMy: [
+              "အရပ်ရှည်ပင်စည် T Allele သည် Recessive t Allele ထက် Dominant ဖြစ်သောကြောင့်",
+              "Heterozygous အပင်များသည် အမြဲ အရပ်တိုသောကြောင့်",
+              "မိဘနှစ်ပင်စလုံးသည် အမှန်တကယ် Homozygous ဖြစ်ခဲ့သောကြောင့်",
+              "အရပ်သည် Allele များနှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the definition of dominant given at the start of paragraph 1.",
+              "Only one T allele is needed for the tall characteristic to appear.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၁ ၏ အစတွင် ပေးထားသော Dominant ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အရပ်ရှည်ခြင်း လက္ခဏာ ပေါ်ထွက်ရန် T Allele တစ်ခုသာ လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many of the four Punnett square boxes resulted in a tall plant?",
+            questionMy:
+                "Punnett Square ဘောက်စ်လေးခုအနက် မည်မျှသည် အရပ်ရှည်အပင် ဖြစ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["Three", "One", "Two", "Four"],
+            optionsMy: ["သုံးခု", "တစ်ခု", "နှစ်ခု", "လေးခု"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence identifying which boxes contained at least one dominant allele.",
+              "TT, Tt, and Tt all contain a T, so all three produce tall plants.",
+            ],
+            hintsMy: [
+              "မည်သည့် ဘောက်စ်များတွင် Dominant Allele အနည်းဆုံးတစ်ခု ပါဝင်ကြောင်း ဖော်ထုတ်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "TT, Tt, Tt တို့တွင် T ပါဝင်သောကြောင့် သုံးခုစလုံးက အရပ်ရှည်အပင်များ ထုတ်လုပ်ပေးသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the predicted phenotype ratio of tall to short offspring?",
+            questionMy:
+                "အရပ်ရှည်နှင့် အရပ်တို မျိုးဆက်များ၏ ကြိုတင်ခန့်မှန်း Phenotype အချိုးကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["3:1", "1:1", "1:3", "4:0"],
+            optionsMy: ["3:1", "1:1", "1:3", "4:0"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the 'classic' ratio Ei Shwe Zin identified.",
+              "Three tall for every one short.",
+            ],
+            hintsMy: [
+              "ဧီးရွှေဇင် ဖော်ထုတ်ခဲ့သော 'Classic' အချိုးကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အရပ်တို တစ်ခုစီအတွက် အရပ်ရှည် သုံးခု။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what genotype ratio underlies the simpler 3:1 phenotype ratio?",
+            questionMy:
+                "ရိုးရှင်းသော 3:1 Phenotype အချိုးအောက်တွင် မည်သည့် Genotype အချိုး ရှိကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1:2:1 (TT:Tt:tt)",
+              "3:1 exactly the same as phenotype",
+              "1:1:1:1",
+              "4:0:0",
+            ],
+            optionsMy: [
+              "1:2:1 (TT:Tt:tt)",
+              "Phenotype နှင့် အတိအကျ တူညီသော 3:1",
+              "1:1:1:1",
+              "4:0:0",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence identifying the genotype breakdown.",
+              "One TT, two Tt, and one tt out of the four predicted offspring.",
+            ],
+            hintsMy: [
+              "Genotype အသေးစိတ်ခွဲခြမ်းမှုကို ဖော်ထုတ်သော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ကြိုတင်ခန့်မှန်းထားသော မျိုးဆက်လေးခုထဲမှ TT တစ်ခု၊ Tt နှစ်ခုနှင့် tt တစ်ခု။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: DNA and Inheritance",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - DNA နှင့် မျိုးရိုးလိုက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A gene is best described as...",
+          questionMy: "Gene ကို အကောင်းဆုံးဖော်ပြသည့်အရာမှာ...",
+          optionsEn: [
+            "A section of DNA coding for a characteristic",
+            "A whole cell",
+            "A type of hormone",
+            "A blood vessel",
+          ],
+          optionsMy: [
+            "လက္ခဏာတစ်ခုကို Code ပြုလုပ်ပေးသော DNA ၏ အပိုင်း",
+            "ဆဲလ်တစ်ခုလုံး",
+            "Hormone အမျိုးအစားတစ်ခု",
+            "သွေးကြောတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Meiosis produces cells with...",
+          questionMy: "Meiosis က ...ရှိသော ဆဲလ်များ ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Half the normal chromosome number",
+            "Double the normal chromosome number",
+            "No chromosomes at all",
+            "The exact same chromosome number as mitosis",
+          ],
+          optionsMy: [
+            "ပုံမှန် Chromosome အရေအတွက်၏ တစ်ဝက်",
+            "ပုံမှန် Chromosome အရေအတွက်၏ နှစ်ဆ",
+            "Chromosome လုံးဝ မရှိခြင်း",
+            "Mitosis နှင့် အတိအကျ တူညီသော Chromosome အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a cross between two heterozygous (Tt x Tt) pea plants, what is the expected phenotype ratio?",
+          questionMy:
+              "Heterozygous (Tt x Tt) ပဲပင်နှစ်ပင်ကြား Cross တစ်ခုတွင် မျှော်လင့်ထားသော Phenotype အချိုးမှာ အဘယ်နည်း",
+          optionsEn: [
+            "3 tall : 1 short",
+            "1 tall : 1 short",
+            "1 tall : 3 short",
+            "All tall",
+          ],
+          optionsMy: [
+            "အရပ်ရှည် 3 : အရပ်တို 1",
+            "အရပ်ရှည် 1 : အရပ်တို 1",
+            "အရပ်ရှည် 1 : အရပ်တို 3",
+            "အားလုံး အရပ်ရှည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 31: "Variation and Selection"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek31 = CourseWeekDef(
+  id: "course-igcse-bio-w31",
+  weekNumber: 31,
+  titleEn: "Variation and Selection",
+  titleMy: "ကွဲပြားခြားနားမှု (Variation) နှင့် ရွေးချယ်မှု (Selection)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w31-d1",
+      dayNumber: 1,
+      titleEn: "Continuous and Discontinuous Variation",
+      titleMy: "Continuous နှင့် Discontinuous Variation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Human height is an example of which type of variation?",
+          questionMy:
+              "လူ့ခန္ဓာကိုယ် အမြင့်သည် မည်သည့်အမျိုးအစား Variation ၏ ဥပမာ ဖြစ်သနည်း။",
+          optionsEn: [
+            "Continuous variation",
+            "Discontinuous variation",
+            "No variation at all",
+            "Asexual variation",
+          ],
+          optionsMy: [
+            "Continuous Variation",
+            "Discontinuous Variation",
+            "Variation လုံးဝ မရှိခြင်း",
+            "Asexual Variation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Height can take almost any value across a wide range, with no distinct categories.",
+            "Continuous variation is often influenced by both genes and environmental factors like diet.",
+          ],
+          hintsMy: [
+            "အမြင့်သည် ကျယ်ပြန့်သော အတိုင်းအတာတစ်ခုတွင် တိကျသော အုပ်စုများ မရှိဘဲ မည်သည့်တန်ဖိုးမဆို ရနိုင်သည်။",
+            "Continuous Variation သည် Gene များနှင့် အစားအစာကဲ့သို့သော ပတ်ဝန်းကျင်ဆိုင်ရာ အချက်များနှစ်ခုစလုံးက မကြာခဏ သက်ရောက်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Human ABO blood group is an example of which type of variation?",
+          questionMy:
+              "လူ့ ABO သွေးအုပ်စုသည် မည်သည့်အမျိုးအစား Variation ၏ ဥပမာ ဖြစ်သနည်း။",
+          optionsEn: [
+            "Discontinuous variation",
+            "Continuous variation",
+            "Random variation with no categories",
+            "Environmental variation only",
+          ],
+          optionsMy: [
+            "Discontinuous Variation",
+            "Continuous Variation",
+            "အုပ်စုများ လုံးဝမရှိသော ကျပန်း Variation",
+            "ပတ်ဝန်းကျင်ဆိုင်ရာ Variation သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Blood group falls into distinct categories (A, B, AB, or O) with no in-between values.",
+            "Discontinuous variation is usually controlled by genes alone, without environmental influence.",
+          ],
+          hintsMy: [
+            "သွေးအုပ်စုသည် အလယ်အလတ်တန်ဖိုးများ မရှိဘဲ တိကျသော အုပ်စုများ (A, B, AB, သို့မဟုတ် O) ထဲသို့ ကျရောက်သည်။",
+            "Discontinuous Variation သည် ပုံမှန်အားဖြင့် ပတ်ဝန်းကျင်ဆိုင်ရာ သက်ရောက်မှု မပါဘဲ Gene များတစ်ခုတည်းကသာ ထိန်းချုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these factors can influence continuous variation, but NOT discontinuous variation?",
+          questionMy:
+              "Discontinuous Variation ကို မသက်ရောက်ဘဲ Continuous Variation ကိုသာ သက်ရောက်စေနိုင်သော အောက်ပါ အချက်များအနက် အဘယ်နည်း။",
+          optionsEn: [
+            "Diet and environment",
+            "Genes alone",
+            "Chromosomes alone",
+            "DNA alone",
+          ],
+          optionsMy: [
+            "အစားအစာနှင့် ပတ်ဝန်းကျင်",
+            "Gene များတစ်ခုတည်း",
+            "Chromosome များတစ်ခုတည်း",
+            "DNA တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Height can be affected by both genetics and nutrition during childhood.",
+            "Blood group, by contrast, is fixed entirely by genetics regardless of diet.",
+          ],
+          hintsMy: [
+            "အမြင့်သည် ကလေးဘဝတွင် Genetics နှင့် အာဟာရ နှစ်ခုစလုံးက သက်ရောက်နိုင်သည်။",
+            "ဆန့်ကျင်ဘက်အားဖြင့် သွေးအုပ်စုသည် အစားအစာမည်သို့ပင်ရှိစေ Genetics တစ်ခုတည်းကသာ လုံးဝ သတ်မှတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Selection and Evolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Selection နှင့် Evolution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w31-dm-1",
+          termEn: "Natural selection",
+          termMy: "Natural Selection",
+          matchEn:
+              "The process by which organisms with advantageous variations survive and reproduce more successfully, passing those variations on",
+          matchMy:
+              "အားသာချက်ရှိသော Variation ပါရှိသော သက်ရှိများ ပို၍ အောင်မြင်စွာ ရှင်သန်ကာ မျိုးပွားပြီး ထို Variation များကို ဆက်ခံစေသော ဖြစ်စဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w31-dm-2",
+          termEn: "Evolution",
+          termMy: "Evolution",
+          matchEn:
+              "The gradual change in a species' characteristics over many generations, driven mainly by natural selection",
+          matchMy:
+              "အဓိကအားဖြင့် Natural Selection က ဦးဆောင်ပြီး မျိုးဆက်များစွာအတွင်း မျိုးစိတ်တစ်ခု၏ လက္ခဏာများ တဖြည်းဖြည်း ပြောင်းလဲခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w31-dm-3",
+          termEn: "Selective breeding",
+          termMy: "Selective Breeding",
+          matchEn:
+              "Humans deliberately choosing organisms with desired characteristics to breed together",
+          matchMy:
+              "အတူတကွ မွေးမြူရန် ရည်ရွယ်သော လက္ခဏာများပါသော သက်ရှိများကို လူသားများ တမင်တကာ ရွေးချယ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w31-dm-4",
+          termEn: "Adaptation",
+          termMy: "Adaptation",
+          matchEn:
+              "A characteristic that helps an organism survive and reproduce better in its environment",
+          matchMy:
+              "သက်ရှိတစ်ခု၏ ပတ်ဝန်းကျင်တွင် ပို၍ ကောင်းစွာ ရှင်သန်ကာ မျိုးပွားနိုင်ရန် ကူညီပေးသော လက္ခဏာ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Natural or Selective?",
+      titleMy: "စီစစ်ကြမည် - Natural လား Selective လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Natural Selection", "Selective Breeding"],
+        bucketsMy: ["Natural Selection", "Selective Breeding"],
+        items: [
+          SortingItem(
+            id: "igcsebio-w31-sort-1",
+            labelEn:
+                "Darker moths surviving better than lighter moths in a polluted, soot-covered forest",
+            labelMy:
+                "ညစ်ညမ်း၍ မီးခိုးမှုန့်ဖုံးသော တောထဲတွင် အနက်ရောင်ခြင်္သေ့များ အဖြူရောင်ခြင်္သေ့များထက် ပို၍ ရှင်သန်ကျန်ရစ်ခြင်း",
+            correctBucketEn: "Natural Selection",
+            correctBucketMy: "Natural Selection",
+          ),
+          SortingItem(
+            id: "igcsebio-w31-sort-2",
+            labelEn:
+                "A farmer choosing only the highest-yielding wheat plants to breed each season",
+            labelMy:
+                "လယ်သမားတစ်ဦးက ရာသီတိုင်း အထွက်နှုန်းအမြင့်ဆုံး ဂျုံပင်များကိုသာ မွေးမြူရန် ရွေးချယ်ခြင်း",
+            correctBucketEn: "Selective Breeding",
+            correctBucketMy: "Selective Breeding",
+          ),
+          SortingItem(
+            id: "igcsebio-w31-sort-3",
+            labelEn:
+                "A dog breeder mating only dogs with a specific coat colour over many generations",
+            labelMy:
+                "ခွေးမွေးမြူသူတစ်ဦးက မျိုးဆက်များစွာအတွင်း အထူးရှားကျယ် အင်္ကျီအရောင်ရှိသော ခွေးများကိုသာ တွဲချိတ်ပေးခြင်း",
+            correctBucketEn: "Selective Breeding",
+            correctBucketMy: "Selective Breeding",
+          ),
+          SortingItem(
+            id: "igcsebio-w31-sort-4",
+            labelEn:
+                "Bacteria resistant to an antibiotic surviving and reproducing while non-resistant bacteria die",
+            labelMy:
+                "Antibiotic ကို ခံနိုင်ရည်ရှိသော ဘက်တီးရီးယားများ ရှင်သန်မျိုးပွားနေစဉ် ခံနိုင်ရည် မရှိသော ဘက်တီးရီးယားများ သေဆုံးခြင်း",
+            correctBucketEn: "Natural Selection",
+            correctBucketMy: "Natural Selection",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Naturalist Ko Aung's Moth Collection",
+      titleMy: "စာဖတ်ခြင်း - သဘာဝပညာရှင် ကိုအောင်၏ ခြင်္သေ့ စုစည်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Naturalist Ko Aung's Moth Collection",
+        titleMy: "သဘာဝပညာရှင် ကိုအောင်၏ ခြင်္သေ့ စုစည်းမှု",
+        passageEn:
+            "Ko Aung, a local naturalist, showed a visiting Biology class his collection of preserved peppered moths, a species famous in the history of evolutionary biology, and used it to explain natural selection using real historical data rather than an abstract example. Before the 1800s, he explained, the vast majority of peppered moths in England had light-coloured, speckled wings, since this colouring camouflaged them well against the pale lichen covering tree bark, making it hard for birds to spot and eat them. A much rarer dark-coloured variety existed too, caused by a naturally occurring allele, but dark moths were easily spotted and eaten against the light bark, so they remained uncommon.\n\nDuring the Industrial Revolution, heavy air pollution from factories killed the pale lichen on tree bark across many industrial areas and coated the bark itself in dark soot. Ko Aung explained that this environmental change flipped the survival advantage completely: light-coloured moths, once well camouflaged, now stood out sharply against the blackened bark and were caught by birds far more often, while dark-coloured moths, once conspicuous, now blended in and survived to reproduce at a much higher rate. Within just a few decades, the dark allele had become common in polluted industrial areas, while the light allele remained dominant in unpolluted rural areas where the pale lichen still survived.\n\nA student asked whether the moths had somehow 'decided' to change colour to survive. Ko Aung corrected this common misunderstanding directly: no individual moth changed colour during its own lifetime, and moths did not choose their colouring. Instead, natural selection acted on variation that already existed in the population -- the dark allele had always been present at low frequency, and pollution simply changed which existing variant had a survival advantage, allowing moths that already carried it to survive and reproduce more successfully than those that didn't, gradually shifting the population's overall colouring across generations.",
+        passageMy:
+            "ဒေသခံ သဘာဝပညာရှင် ကိုအောင်သည် ဇီဝဗေဒအတန်းလာရောက်သူများအား ၎င်း၏ ထိန်းသိမ်းထားသော ခြင်္သေ့စုစည်းမှုကို ပြသခဲ့ပြီး၊ Evolutionary Biology သမိုင်းတွင် ထင်ရှားသော မျိုးစိတ်တစ်ခုအား Natural Selection ကို စိတ်ကူးယဉ်ဥပမာအစား တကယ့် သမိုင်းဆိုင်ရာ ဒေတာဖြင့် ရှင်းပြရန် အသုံးချခဲ့သည်။ ၁၈၀၀ ခုနှစ်များ မတိုင်မီက အင်္ဂလန်ရှိ ခြင်္သေ့အများစုသည် အဖြူရောင်၊ အစက်ကွက်ကွက် အတောင်ပံများ ရှိကြောင်း၊ ၎င်းသည် သစ်ခေါက်ပေါ်ရှိ ဖျော့ဖျော့ Lichen ကို ကာမူထားနိုင်၍ ငှက်များ ရှာဖွေတွေ့ရှိစားသောက်ရန် ခက်ခဲစေကြောင်း သူ ရှင်းပြခဲ့သည်။ သဘာဝအလျောက် ဖြစ်ပေါ်သော Allele တစ်ခုကြောင့် အလွန်ရှားပါးသော အနက်ရောင် မျိုးကွဲလည်း ရှိခဲ့သော်လည်း အနက်ရောင်ခြင်္သေ့များသည် ဖျော့သော သစ်ခေါက်ပေါ်တွင် လွယ်ကူစွာ တွေ့ရှိစားသောက်ခံရသဖြင့် ရှားပါးဆဲ ဖြစ်ခဲ့သည်။\n\nစက်မှုတော်လှန်ရေးကာလအတွင်း စက်ရုံများမှ လေထုညစ်ညမ်းမှုပြင်းထန်စွာက စက်မှုနယ်မြေများစွာတစ်လျှောက် သစ်ခေါက်ပေါ်ရှိ ဖျော့သော Lichen ကို သတ်ဖြတ်ခဲ့ပြီး သစ်ခေါက်ကိုယ်တိုင်ကိုလည်း အနက်ရောင် မီးခိုးမှုန့်ဖုံးစေခဲ့သည်။ ဤပတ်ဝန်းကျင် ပြောင်းလဲမှုက ရှင်သန်နိုင်စွမ်း အားသာချက်ကို လုံးဝ ပြောင်းပြန်လှန်ပစ်ခဲ့ကြောင်း ကိုအောင် ရှင်းပြခဲ့သည်- တစ်ချိန်ကတည်းက ကောင်းစွာ ကာမူထားနိုင်ခဲ့သော အဖြူရောင်ခြင်္သေ့များသည် ယခုအခါ မည်းနက်နေသော သစ်ခေါက်နှင့် ထိပ်တိုက်ရင်ဆိုင်နေရပြီး ငှက်များအား ပို၍များစွာ ဖမ်းစားခံရသော်လည်း၊ တစ်ချိန်ကတည်းက အထင်ကြားခဲ့သော အနက်ရောင်ခြင်္သေ့များသည် ယခုအခါ ရောနှောနေကာ ပို၍ မြင့်မားသော နှုန်းဖြင့် ရှင်သန်မျိုးပွားနိုင်ခဲ့သည်။ ဆယ်စုနှစ်အနည်းငယ်အတွင်း အနက်ရောင် Allele သည် ညစ်ညမ်းသော စက်မှုနယ်မြေများတွင် ပုံမှန်ဖြစ်လာခဲ့ပြီး၊ ဖျော့သော Lichen ဆက်လက်ရှင်သန်ဆဲရှိသော ညစ်ညမ်းမှု မရှိသော ကျေးလက်နယ်မြေများတွင်မူ အဖြူရောင် Allele Dominant ဆက်လက် ဖြစ်နေသည်။\n\nခြင်္သေ့များသည် ရှင်သန်ရန် အရောင်ပြောင်းရန် တစ်နည်းနည်းဖြင့် 'ဆုံးဖြတ်' ခဲ့ကြသလားဟု ကျောင်းသားတစ်ဦးက မေးမြန်းခဲ့သည်။ ကိုအောင်က ဤအများသုံး အထင်မှားမှုကို တိုက်ရိုက် ပြင်ဆင်ပေးခဲ့သည်- ခြင်္သေ့တစ်ကောင်ချင်းစီသည် ၎င်း၏ ကိုယ်ပိုင် သက်တမ်းအတွင်း အရောင် လုံးဝ မပြောင်းလဲခဲ့ဘဲ၊ ခြင်္သေ့များက ၎င်းတို့၏ အရောင်ကို လုံးဝ ရွေးချယ်ခဲ့ခြင်း မဟုတ်ပါ။ ယင်းအစား Natural Selection သည် လူဦးရေထဲတွင် ရှင်နေပြီးသား Variation ပေါ်တွင် လုပ်ဆောင်ခဲ့ခြင်း ဖြစ်သည် -- အနက်ရောင် Allele သည် အမြဲပင် သိပ်သည်းဆနိမ့်စွာ ရှိနေခဲ့ပြီး လေထုညစ်ညမ်းမှုသည် ရှိနေပြီးသား မျိုးကွဲအမျိုးမျိုးတွင် မည်သည့်တစ်ခု ရှင်သန်နိုင်စွမ်း အားသာချက် ရှိကြောင်းကိုသာ ပြောင်းလဲပေးခဲ့ပြီး၊ ထို Allele ကို ရှိနှင့်ပြီးသား ခြင်္သေ့များကို ၎င်း မပါဝင်သော ခြင်္သေ့များထက် ပို၍ အောင်မြင်စွာ ရှင်သန်ကာ မျိုးပွားစေကာ မျိုးဆက်များတစ်လျှောက် လူဦးရေ၏ စုစုပေါင်း အရောင်ကို တဖြည်းဖြည်း ပြောင်းလဲပေးခဲ့ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why were light-coloured moths well camouflaged before the 1800s?",
+            questionMy:
+                "၁၈၀၀ ခုနှစ်များ မတိုင်မီက အဖြူရောင်ခြင်္သေ့များ ကောင်းစွာ ကာမူထားနိုင်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their colour matched the pale lichen covering tree bark",
+              "They were faster fliers than dark moths",
+              "Birds could not see any colour at all",
+              "They lived only at night",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ အရောင်သည် သစ်ခေါက်ပေါ်ရှိ ဖျော့သော Lichen နှင့် ကိုက်ညီသောကြောင့်",
+              "အနက်ရောင်ခြင်္သေ့များထက် ပို၍ မြန်ဆန်စွာ ပျံသန်းနိုင်သောကြောင့်",
+              "ငှက်များသည် အရောင် မည်သို့မျှ လုံးဝ မမြင်နိုင်သောကြောင့်",
+              "ညအချိန်တွင်သာ နေထိုင်ကြသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the camouflage advantage before industrialisation.",
+              "Matching colouring against the background makes it harder for predators to spot prey.",
+            ],
+            hintsMy: [
+              "စက်မှုတော်လှန်ရေးမတိုင်မီ ကာမူမှုအားသာချက်ကို ရှင်းပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "နောက်ခံနှင့် တူညီသော အရောင်သည် ခြင်္သေ့ကို အမဲစားတိရစ္ဆာန်များ ရှာဖွေတွေ့ရှိရန် ခက်ခဲစေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happened to the survival advantage after industrial pollution darkened the tree bark?",
+            questionMy:
+                "စက်မှုညစ်ညမ်းမှုက သစ်ခေါက်ကို မည်းနက်စေပြီးနောက် ရှင်သန်နိုင်စွမ်းအားသာချက် အဘယ်ဖြစ်ခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It flipped completely -- dark moths now had the advantage, and light moths were more easily caught",
+              "Nothing changed at all",
+              "Both light and dark moths were caught equally",
+              "All moths became the same colour immediately",
+            ],
+            optionsMy: [
+              "လုံးဝ ပြောင်းပြန်လှန်ခဲ့သည် -- အနက်ရောင်ခြင်္သေ့များ အားသာချက်ရရှိပြီး အဖြူရောင်များ ပို၍ လွယ်ကူစွာ ဖမ်းစားခံရ",
+              "မည်သည့်အရာမျှ လုံးဝ မပြောင်းလဲခြင်း",
+              "အဖြူရောင်နှင့် အနက်ရောင် ခြင်္သေ့များ အညီအမျှ ဖမ်းစားခံရခြင်း",
+              "ခြင်္သေ့အားလုံး ချက်ချင်း အရောင်တူညီသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing how the environmental change 'flipped the survival advantage completely'.",
+              "Dark moths now blended in; light moths now stood out.",
+            ],
+            hintsMy: [
+              "ပတ်ဝန်းကျင် ပြောင်းလဲမှုက ရှင်သန်နိုင်စွမ်းအားသာချက်ကို 'လုံးဝ ပြောင်းပြန်လှန်' ခဲ့ကြောင်း ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "အနက်ရောင်ခြင်္သေ့များ ယခုအခါ ရောနှောနေပြီး အဖြူရောင်များ ယခုအခါ ထင်ရှားနေသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, did individual moths change colour during their own lifetime?",
+            questionMy:
+                "ခြင်္သေ့တစ်ကောင်ချင်းစီသည် ၎င်း၏ ကိုယ်ပိုင်သက်တမ်းအတွင်း အရောင် ပြောင်းလဲခဲ့သလား ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No -- natural selection acted on variation that already existed in the population",
+              "Yes -- every moth actively changed its own colour",
+              "Yes, but only moths born on a Tuesday",
+              "The passage does not address this question",
+            ],
+            optionsMy: [
+              "မပြောင်းလဲခဲ့ပါ -- Natural Selection သည် လူဦးရေထဲတွင် ရှိနေပြီးသား Variation ပေါ်တွင် လုပ်ဆောင်ခဲ့ခြင်း ဖြစ်သည်",
+              "ပြောင်းလဲခဲ့သည် -- ခြင်္သေ့တိုင်းသည် ၎င်း၏ ကိုယ်ပိုင်အရောင်ကို တက်ကြွစွာ ပြောင်းလဲခဲ့သည်",
+              "ပြောင်းလဲခဲ့သော်လည်း အင်္ဂါနေ့တွင် မွေးဖွားသော ခြင်္သေ့များသာ",
+              "စာပိုဒ်က ဤမေးခွန်းကို လုံးဝ မဖြေဆိုထားပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Ko Aung's direct correction of the student's misunderstanding.",
+              "No individual moth changed colour -- the population's overall colouring shifted across generations.",
+            ],
+            hintsMy: [
+              "ကျောင်းသား၏ အထင်မှားမှုကို ကိုအောင် တိုက်ရိုက် ပြင်ဆင်ပေးသော အပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ခြင်္သေ့တစ်ကောင်ချင်းစီ အရောင် မပြောင်းလဲခဲ့ပါ -- လူဦးရေ၏ စုစုပေါင်းအရောင်သာ မျိုးဆက်များတစ်လျှောက် ပြောင်းလဲခဲ့ခြင်း ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, where did the dark allele come from in the first place?",
+            questionMy:
+                "အနက်ရောင် Allele သည် မူလ မည်သည့်နေရာမှ ဖြစ်ပေါ်လာကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had always been present at low frequency in the population, even before pollution",
+              "Pollution created the allele instantly from nothing",
+              "It was introduced by a different moth species",
+              "Birds created the allele by eating moths",
+            ],
+            optionsMy: [
+              "လေထုညစ်ညမ်းမှု မတိုင်မီကတည်းက လူဦးရေထဲတွင် သိပ်သည်းဆနိမ့်စွာ အမြဲရှိနေခဲ့ခြင်း",
+              "ညစ်ညမ်းမှုက Allele ကို ဘာမှမရှိရာမှ ချက်ချင်း ဖန်တီးခဲ့ခြင်း",
+              "မတူညီသော ခြင်္သေ့မျိုးစိတ်တစ်ခုက ယူဆောင်လာခဲ့ခြင်း",
+              "ငှက်များက ခြင်္သေ့များကို စားသောက်ခြင်းဖြင့် Allele ကို ဖန်တီးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the dark allele's frequency before pollution changed anything.",
+              "Pollution changed which existing variant had an advantage -- it did not create new variation.",
+            ],
+            hintsMy: [
+              "ညစ်ညမ်းမှုက မည်သည်ကိုမျှ မပြောင်းလဲမီ အနက်ရောင် Allele ၏ သိပ်သည်းဆအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ညစ်ညမ်းမှုက ရှိနေပြီးသား မျိုးကွဲများအနက် မည်သည့်တစ်ခု အားသာချက်ရှိကြောင်းသာ ပြောင်းလဲပေးခဲ့ပြီး Variation အသစ် ဖန်တီးခြင်း မဟုတ်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Variation and Selection",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Variation နှင့် Selection",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which type of variation is usually controlled by genes alone, with distinct categories?",
+          questionMy:
+              "မည်သည့်အမျိုးအစား Variation ကို ပုံမှန်အားဖြင့် Gene များတစ်ခုတည်းက ထိန်းချုပ်ပြီး တိကျသော အုပ်စုများ ရှိသနည်း",
+          optionsEn: [
+            "Discontinuous variation",
+            "Continuous variation",
+            "Environmental variation only",
+            "No variation at all",
+          ],
+          optionsMy: [
+            "Discontinuous Variation",
+            "Continuous Variation",
+            "ပတ်ဝန်းကျင်ဆိုင်ရာ Variation သာ",
+            "Variation လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In natural selection, organisms with advantageous variations tend to...",
+          questionMy:
+              "Natural Selection တွင် အားသာချက်ရှိသော Variation ပါရှိသော သက်ရှိများသည်...",
+          optionsEn: [
+            "Survive and reproduce more successfully",
+            "Always die out quickly",
+            "Never pass on their genes",
+            "Change colour instantly by choice",
+          ],
+          optionsMy: [
+            "ပို၍ အောင်မြင်စွာ ရှင်သန်ကာ မျိုးပွားလေ့ရှိသည်",
+            "အမြဲ လျင်မြန်စွာ သုဉ်းသွားလေ့ရှိသည်",
+            "၎င်းတို့၏ Gene များကို ဘယ်တော့မှ မဆက်ခံစေပါ",
+            "ရွေးချယ်မှုဖြင့် အရောင် ချက်ချင်း ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Selective breeding differs from natural selection because...",
+          questionMy:
+              "Selective Breeding သည် Natural Selection နှင့် ကွဲပြားသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Humans deliberately choose which organisms breed, rather than the environment doing so naturally",
+            "It never actually changes any characteristics",
+            "It only happens to bacteria",
+            "It happens instantly within one generation",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင်က သဘာဝအတိုင်း လုပ်ဆောင်မည့်အစား လူသားများက မည်သည့်သက်ရှိများ မွေးမြူရမည်ကို တမင်တကာ ရွေးချယ်ခြင်း",
+            "မည်သည့်လက္ခဏာကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မပြောင်းလဲစေခြင်း",
+            "ဘက်တီးရီးယားများတွင်သာ ဖြစ်ပွားခြင်း",
+            "မျိုးဆက်တစ်ခုတည်းအတွင်း ချက်ချင်း ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Week 32 (Capstone): "Genetics Problem-Solving Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseBioWeek32 = CourseWeekDef(
+  id: "course-igcse-bio-w32",
+  weekNumber: 32,
+  titleEn: "Genetics Problem-Solving Studio",
+  titleMy: "မျိုးရိုးဗီဇ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ",
+  xpReward: 20,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-bio-w32-d1",
+      dayNumber: 1,
+      titleEn: "Test Crosses and Pedigree Charts",
+      titleMy: "Test Cross များနှင့် Pedigree Chart များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A tall pea plant of unknown genotype could be TT or Tt. What cross would reveal which it is?",
+          questionMy:
+              "Genotype မသိသေးသော အရပ်ရှည်ပဲပင်တစ်ပင်သည် TT သို့မဟုတ် Tt ဖြစ်နိုင်သည်။ မည်သည့် Cross က ၎င်းသည် အဘယ်နည်းဖြစ်ကြောင်း ဖော်ထုတ်ပေးမည်နည်း။",
+          optionsEn: [
+            "A test cross with a homozygous recessive (tt) plant",
+            "A cross with another unknown tall plant",
+            "Simply looking at the plant's leaves",
+            "There is no way to find out",
+          ],
+          optionsMy: [
+            "Homozygous Recessive (tt) ပင်တစ်ပင်နှင့် Test Cross ပြုလုပ်ခြင်း",
+            "မသိသေးသော အခြားအရပ်ရှည်ပင်တစ်ပင်နှင့် Cross ပြုလုပ်ခြင်း",
+            "အပင်၏ အရွက်များကိုသာ ကြည့်ခြင်း",
+            "ဖော်ထုတ်ရန် နည်းလမ်း မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If the unknown plant is TT, all offspring will be tall. If it is Tt, about half the offspring will be short.",
+            "Crossing with tt reveals any hidden recessive allele, since tt can only contribute a t.",
+          ],
+          hintsMy: [
+            "မသိသေးသော အပင်သည် TT ဖြစ်ပါက မျိုးဆက်အားလုံး အရပ်ရှည်ကြမည်ဖြစ်ပြီး Tt ဖြစ်ပါက မျိုးဆက်ထက်ဝက်ခန့် အရပ်တိုကြမည်ဖြစ်သည်။",
+            "tt နှင့် Cross ပြုလုပ်ခြင်းက ဝှက်ထားသော Recessive Allele ကို ဖော်ထုတ်ပေးသည်၊ အကြောင်းမှာ tt သည် t ကိုသာ ပံ့ပိုးနိုင်သောကြောင့်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a pedigree chart, what does a filled (shaded) symbol usually represent?",
+          questionMy:
+              "Pedigree Chart တစ်ခုတွင် အရောင်ဖြည့်ထားသော (မှောင်ထားသော) သင်္ကေတသည် ပုံမှန်အားဖြင့် အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "An individual who shows the characteristic or condition being studied",
+            "An individual who is definitely male",
+            "An individual who has passed away",
+            "An individual with no genetic information at all",
+          ],
+          optionsMy: [
+            "လေ့လာနေသော လက္ခဏာ သို့မဟုတ် အခြေအနေကို ပြသနေသော လူတစ်ဦး",
+            "အမျိုးသား ဖြစ်ကြောင်း သေချာသော လူတစ်ဦး",
+            "ကွယ်လွန်သွားသော လူတစ်ဦး",
+            "Genetic အချက်အလက် လုံးဝ မရှိသော လူတစ်ဦး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Squares usually represent males and circles represent females; shading indicates the trait being tracked.",
+            "By tracing which family members are shaded across generations, you can work out how a trait is inherited.",
+          ],
+          hintsMy: [
+            "လေးထောင့်ကွက်များက ပုံမှန်အားဖြင့် အမျိုးသားများကို၊ စက်ဝိုင်းများက အမျိုးသမီးများကို ကိုယ်စားပြုပြီး မှောင်ထားခြင်းက ခြေရာခံနေသော လက္ခဏာကို ညွှန်ပြသည်။",
+            "မျိုးဆက်များတစ်လျှောက် မိသားစုဝင် မည်သူများ မှောင်ထားကြောင်း ခြေရာခံခြင်းဖြင့် လက္ခဏာတစ်ခု မည်သို့ မျိုးရိုးလိုက်ကြောင်း ရှာဖွေတွက်ချက်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a pedigree chart, if two unaffected parents have a child who shows a recessive condition, what does this tell you about the parents?",
+          questionMy:
+              "Pedigree Chart တစ်ခုတွင် မထိခိုက်သော မိဘနှစ်ဦးတွင် Recessive အခြေအနေရှိသော ကလေးတစ်ဦး ရှိပါက ၎င်းက မိဘများအကြောင်း အဘယ်ကို ဖော်ပြသနည်း။",
+          optionsEn: [
+            "Both parents must be carriers (heterozygous) of the recessive allele",
+            "Neither parent carries the recessive allele at all",
+            "One parent must be affected too",
+            "This situation is genetically impossible",
+          ],
+          optionsMy: [
+            "မိဘနှစ်ဦးစလုံးသည် Recessive Allele ၏ Carrier (Heterozygous) ဖြစ်ရမည်",
+            "မိဘတစ်ဦးမျှ Recessive Allele ကို လုံးဝ မသယ်ဆောင်ပါ",
+            "မိဘတစ်ဦးလည်း ထိခိုက်ရမည်",
+            "ဤအခြေအနေသည် Genetically မဖြစ်နိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For a recessive condition to appear, the child must inherit two recessive alleles, one from each parent.",
+            "Since neither parent shows the condition, each must be a carrier with one dominant and one recessive allele.",
+          ],
+          hintsMy: [
+            "Recessive အခြေအနေတစ်ခု ပေါ်ထွက်ရန် ကလေးသည် မိဘတစ်ဦးစီမှ Recessive Allele တစ်ခုစီ ဆက်ခံရရှိရမည်။",
+            "မိဘနှစ်ဦးစလုံး ထိုအခြေအနေကို မပြသောကြောင့် တစ်ဦးစီသည် Dominant တစ်ခုနှင့် Recessive တစ်ခု ပါဝင်သော Carrier ဖြစ်ရမည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Key Terms",
+      titleMy: "တွဲစပ်ကြမည် - အဌမနှစ်ဝက် သော့ချက်စကားလုံးများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsebio-w32-dm-1",
+          termEn: "Test cross",
+          termMy: "Test Cross",
+          matchEn:
+              "Crossing an organism of unknown genotype with a homozygous recessive individual to reveal hidden alleles",
+          matchMy:
+              "ဝှက်ထားသော Allele များ ဖော်ထုတ်ရန် Genotype မသိသေးသော သက်ရှိတစ်ခုကို Homozygous Recessive တစ်ဦးနှင့် Cross ပြုလုပ်ခြင်း",
+          colorValue: 0xFFF44336,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w32-dm-2",
+          termEn: "Pedigree chart",
+          termMy: "Pedigree Chart",
+          matchEn:
+              "A diagram tracing how a characteristic is inherited through a family across generations",
+          matchMy:
+              "မိသားစုတစ်ခုအတွင်း မျိုးဆက်များတစ်လျှောက် လက္ခဏာတစ်ခု မည်သို့ မျိုးရိုးလိုက်ကြောင်း ခြေရာခံသော ပုံကြမ်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsebio-w32-dm-3",
+          termEn: "Carrier",
+          termMy: "Carrier",
+          matchEn:
+              "An individual who is heterozygous for a recessive allele, not showing the condition but able to pass it on",
+          matchMy:
+              "ထိုအခြေအနေကို မပြသော်လည်း ၎င်းကို ဆက်ခံနိုင်သော Recessive Allele အတွက် Heterozygous ဖြစ်သူ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reproduction, Genetics, or Selection Topic?",
+      titleMy:
+          "စီစစ်ကြမည် - Reproduction, Genetics, သို့မဟုတ် Selection ဆိုင်ရာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reproduction Topic", "Genetics Topic", "Selection Topic"],
+        bucketsMy: [
+          "Reproduction ဆိုင်ရာ",
+          "Genetics ဆိုင်ရာ",
+          "Selection ဆိုင်ရာ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsebio-w32-sort-1",
+            labelEn: "Explaining how pollen reaches the stigma of a flower",
+            labelMy:
+                "Pollen သည် ပန်းတစ်ပွင့်၏ Stigma ဆီသို့ မည်သို့ ရောက်ရှိကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Reproduction Topic",
+            correctBucketMy: "Reproduction ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w32-sort-2",
+            labelEn: "Using a Punnett square to predict offspring ratios",
+            labelMy:
+                "မျိုးဆက် အချိုးများ ခန့်မှန်းရန် Punnett Square သုံးခြင်း",
+            correctBucketEn: "Genetics Topic",
+            correctBucketMy: "Genetics ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w32-sort-3",
+            labelEn:
+                "Explaining why dark moths became more common in polluted areas",
+            labelMy:
+                "ညစ်ညမ်းသော နယ်မြေများတွင် အနက်ရောင်ခြင်္သေ့များ အဘယ်ကြောင့် ပို၍ ပုံမှန်ဖြစ်လာကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Selection Topic",
+            correctBucketMy: "Selection ဆိုင်ရာ",
+          ),
+          SortingItem(
+            id: "igcsebio-w32-sort-4",
+            labelEn: "Comparing mitosis and meiosis",
+            labelMy: "Mitosis နှင့် Meiosis ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Genetics Topic",
+            correctBucketMy: "Genetics ဆိုင်ရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Counselor Daw Yamin's Family Tree",
+      titleMy:
+          "စာဖတ်ခြင်း - တိုင်ပင်ဆွေးနွေးရေးမှူး ဒေါ်ရာမင်း၏ မိသားစုအတွင်းသား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Counselor Daw Yamin's Family Tree",
+        titleMy: "တိုင်ပင်ဆွေးနွေးရေးမှူး ဒေါ်ရာမင်း၏ မိသားစုအတွင်းသား",
+        passageEn:
+            "Daw Yamin, a genetic counselor, visited a Biology class to demonstrate how a real pedigree chart could reveal patterns of inheritance, using an anonymised case study about a rare recessive condition. She drew squares for the males and circles for the females across three generations of one family, shading in every individual known to have the condition and leaving unaffected individuals unshaded, then asked the class to work out how the condition was likely being inherited.\n\nIn the first generation, neither grandparent showed the condition. In the second generation, one of their four children was affected, while the other three were not. In the third generation, that affected individual's own children were unaffected, but two unaffected individuals from elsewhere in the family had a child together who was affected. Daw Yamin asked the class what this pattern suggested about the parents in each affected case.\n\nA student worked through the logic correctly: since two unaffected grandparents produced an affected child, both grandparents had to be carriers -- each heterozygous for the recessive allele without showing the condition themselves. Similarly, in the third generation, two unaffected parents producing an affected child meant both of them had to be carriers too. Daw Yamin confirmed this reasoning and explained that this pattern -- the condition skipping generations and appearing unpredictably when two unaffected carriers happen to have children together -- is the classic signature of a recessive condition, distinctly different from a dominant condition, which would typically appear in every generation since only one copy of a dominant allele is needed for it to show.",
+        passageMy:
+            "မျိုးရိုးဗီဇ တိုင်ပင်ဆွေးနွေးရေးမှူး ဒေါ်ရာမင်းသည် တကယ့် Pedigree Chart တစ်ခုက မျိုးရိုးလိုက်ခြင်း ပုံစံများကို မည်သို့ ဖော်ထုတ်ပေးနိုင်ကြောင်း သရုပ်ပြရန် ဇီဝဗေဒအတန်းသို့ လာရောက်ခဲ့ပြီး၊ ရှားပါးသော Recessive အခြေအနေတစ်ခုအကြောင်း အမည်မဖော်ထားသော Case Study တစ်ခုကို အသုံးပြုခဲ့သည်။ သူမသည် မိသားစုတစ်ခု၏ မျိုးဆက်သုံးဆက်တစ်လျှောက် အမျိုးသားများအတွက် လေးထောင့်ကွက်များနှင့် အမျိုးသမီးများအတွက် စက်ဝိုင်းများကို ဆွဲခဲ့ပြီး၊ ထိုအခြေအနေရှိကြောင်း သိရှိထားသော လူတစ်ဦးချင်းစီကို မှောင်ကျက်ကာ မထိခိုက်သောသူများကို အရောင်မဖြည့်ဘဲ ထားခဲ့သည်၊ ထို့နောက် ထိုအခြေအနေသည် အဘယ်သို့ မျိုးရိုးလိုက်နေနိုင်ကြောင်း တွက်ချက်ရန် အတန်းကို တောင်းဆိုခဲ့သည်။\n\nပထမမျိုးဆက်တွင် အဘွား/အဘိုး နှစ်ဦးစလုံး ထိုအခြေအနေကို မပြသခဲ့ပါ။ ဒုတိယမျိုးဆက်တွင် ၎င်းတို့၏ သားသမီးလေးဦးအနက် တစ်ဦးသည် ထိခိုက်ခဲ့ပြီး ကျန်သုံးဦးမူ မထိခိုက်ခဲ့ပါ။ တတိယမျိုးဆက်တွင် ထိုထိခိုက်ခဲ့သူ၏ ကိုယ်ပိုင် သားသမီးများ မထိခိုက်ခဲ့သော်လည်း၊ မိသားစု၏ အခြားတစ်နေရာမှ မထိခိုက်သော လူနှစ်ဦးတွင် အတူတကွ ထိခိုက်သော ကလေးတစ်ဦး ရရှိခဲ့သည်။ ဤပုံစံသည် ထိခိုက်သော ကိစ္စတစ်ခုစီရှိ မိဘများအကြောင်း အဘယ်ကို အကြံပြုကြောင်းကို ဒေါ်ရာမင်းက အတန်းအား မေးမြန်းခဲ့သည်။\n\nကျောင်းသားတစ်ဦးက ယုတ္တိကို မှန်ကန်စွာ တွက်ချက်ခဲ့သည်- မထိခိုက်သော အဘွား/အဘိုးနှစ်ဦးက ထိခိုက်သော ကလေးတစ်ဦးကို ထုတ်လုပ်ခဲ့သောကြောင့် အဘွား/အဘိုးနှစ်ဦးစလုံးသည် Carrier ဖြစ်ရမည် -- တစ်ဦးစီသည် ၎င်းတို့ကိုယ်တိုင် ထိုအခြေအနေကို မပြသဘဲ Recessive Allele အတွက် Heterozygous ဖြစ်ရမည်။ အလားတူပင် တတိယမျိုးဆက်တွင် မထိခိုက်သော မိဘနှစ်ဦးက ထိခိုက်သော ကလေးတစ်ဦး ထုတ်လုပ်ခဲ့ခြင်းက ၎င်းတို့နှစ်ဦးစလုံးသည်လည်း Carrier ဖြစ်ရမည်ဟု ဆိုလိုသည်။ ဒေါ်ရာမင်းက ဤယုတ္တိကို အတည်ပြုပေးခဲ့ပြီး ဤပုံစံ -- မျိုးဆက်များ ကျော်၍ ဖြစ်ပေါ်ကာ မထိခိုက်သော Carrier နှစ်ဦး အတူတကွ ကလေးရှိသောအခါ ခန့်မှန်း၍ မရဘဲ ပေါ်ထွက်လာခြင်း -- သည် Dominant Allele တစ်ခုတည်း ရှိလျှင်ပင် ပေါ်ထွက်ရန် လိုအပ်သောကြောင့် ပုံမှန်အားဖြင့် မျိုးဆက်တိုင်းတွင် ပေါ်ထွက်တတ်သော Dominant အခြေအနေတစ်ခုနှင့် ကွဲပြားစွာ Recessive အခြေအနေတစ်ခု၏ Classic လက္ခဏာဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did both grandparents have to be carriers?",
+            questionMy:
+                "အဘွား/အဘိုးနှစ်ဦးစလုံး Carrier ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two unaffected individuals produced an affected child, so both must carry the recessive allele",
+              "One grandparent was actually affected",
+              "The condition is not genetic at all",
+              "Carriers always show the condition themselves",
+            ],
+            optionsMy: [
+              "မထိခိုက်သော လူနှစ်ဦးက ထိခိုက်သော ကလေးတစ်ဦး ထုတ်လုပ်ခဲ့သောကြောင့် နှစ်ဦးစလုံးသည် Recessive Allele ကို သယ်ဆောင်ရမည်",
+              "အဘွား/အဘိုး တစ်ဦးသည် အမှန်တကယ် ထိခိုက်ခဲ့ခြင်း",
+              "ထိုအခြေအနေသည် Genetic လုံးဝ မဟုတ်ခြင်း",
+              "Carrier များသည် ၎င်းတို့ကိုယ်တိုင် ထိုအခြေအနေကို အမြဲ ပြသခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the student's logic explaining why two unaffected parents can have an affected child.",
+              "A recessive condition requires two copies of the recessive allele -- one from each parent.",
+            ],
+            hintsMy: [
+              "မထိခိုက်သော မိဘနှစ်ဦးတွင် ထိခိုက်သော ကလေးတစ်ဦး ဘယ်လိုရနိုင်ကြောင်း ရှင်းပြသော ကျောင်းသား၏ ယုတ္တိကို ပြန်ဖတ်ကြည့်ပါ။",
+              "Recessive အခြေအနေတစ်ခုသည် Recessive Allele မိတ္တူနှစ်ခု -- မိဘတစ်ဦးစီမှ တစ်ခုစီ လိုအပ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what pattern is described as the 'classic signature' of a recessive condition?",
+            questionMy:
+                "Recessive အခြေအနေတစ်ခု၏ 'Classic လက္ခဏာ' အဖြစ် ဖော်ပြထားသော ပုံစံကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The condition skipping generations and appearing unpredictably when two carriers have children",
+              "The condition appearing in every single generation without fail",
+              "The condition only affecting males",
+              "The condition disappearing completely after one generation",
+            ],
+            optionsMy: [
+              "Carrier နှစ်ဦး ကလေးရှိသောအခါ မျိုးဆက်များ ကျော်၍ ခန့်မှန်း၍ မရဘဲ ဖြစ်ပေါ်ခြင်း",
+              "မျိုးဆက်တိုင်းတွင် မလွဲမသွေ ပေါ်ထွက်ခြင်း",
+              "အမျိုးသားများကိုသာ ထိခိုက်ခြင်း",
+              "မျိုးဆက်တစ်ခုပြီးနောက် လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining the classic recessive pattern.",
+              "This is contrasted directly with how a dominant condition would typically behave.",
+            ],
+            hintsMy: [
+              "Classic Recessive ပုံစံကို ရှင်းပြသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်ကို Dominant အခြေအနေတစ်ခု ပုံမှန်အားဖြင့် မည်သို့ ပြုမူကြောင်းနှင့် တိုက်ရိုက် နှိုင်းယှဉ်ထားသည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why would a dominant condition typically appear in every generation?",
+            questionMy:
+                "Dominant အခြေအနေတစ်ခု ပုံမှန်အားဖြင့် မျိုးဆက်တိုင်းတွင် ပေါ်ထွက်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only one copy of a dominant allele is needed for it to show",
+              "Dominant alleles are always more common in the population",
+              "Dominant conditions are not genetic",
+              "Two copies are always needed, just like recessive conditions",
+            ],
+            optionsMy: [
+              "ပေါ်ထွက်ရန် Dominant Allele မိတ္တူတစ်ခုသာ လိုအပ်ခြင်း",
+              "Dominant Allele များသည် လူဦးရေထဲတွင် အမြဲ ပို၍ ပုံမှန်ဖြစ်ခြင်း",
+              "Dominant အခြေအနေများသည် Genetic မဟုတ်ခြင်း",
+              "Recessive အခြေအနေများကဲ့သို့ မိတ္တူနှစ်ခု အမြဲ လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final clause of the passage explaining dominant inheritance.",
+              "This is the key structural difference between dominant and recessive inheritance patterns.",
+            ],
+            hintsMy: [
+              "Dominant မျိုးရိုးလိုက်ခြင်းကို ရှင်းပြသော စာပိုဒ်၏ နောက်ဆုံးအပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+              "ဤသည်မှာ Dominant နှင့် Recessive မျိုးရိုးလိုက်ခြင်း ပုံစံများကြား အဓိက ဖွဲ့စည်းပုံဆိုင်ရာ ကွာခြားချက် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What was the purpose of Daw Yamin shading affected individuals on the pedigree chart?",
+            questionMy:
+                "Pedigree Chart ပေါ်တွင် ထိခိုက်သော လူများကို ဒေါ်ရာမင်း မှောင်ကျက်ခဲ့သည့် ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+            optionsEn: [
+              "To visually trace how the condition passed through the family across generations",
+              "To hide information from the class",
+              "To make the chart look more colourful",
+              "It had no real purpose",
+            ],
+            optionsMy: [
+              "မျိုးဆက်များတစ်လျှောက် ထိုအခြေအနေ မိသားစုတစ်လျှောက် မည်သို့ ဆက်ခံခဲ့ကြောင်း ရုပ်ပိုင်းဆိုင်ရာ ခြေရာခံရန်",
+              "အတန်းမှ အချက်အလက်များ ဖုံးကွယ်ရန်",
+              "Chart ကို ပို၍ အရောင်စုံလင်စေရန်",
+              "အမှန်တကယ် ရည်ရွယ်ချက် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Shading is the standard pedigree chart convention for marking who shows the studied trait.",
+              "This visual system lets you trace inheritance patterns across generations at a glance.",
+            ],
+            hintsMy: [
+              "မှောင်ကျက်ခြင်းသည် လေ့လာနေသော လက္ခဏာကို ပြသသူများ အမှတ်အသားပြုရန် စံ Pedigree Chart သဘောတရားဖြစ်သည်။",
+              "ဤ ရုပ်ပိုင်းဆိုင်ရာစနစ်က မျိုးဆက်များတစ်လျှောက် မျိုးရိုးလိုက်ပုံစံများကို တစ်ကြည့်တည်းဖြင့် ခြေရာခံနိုင်စေသည်။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-bio-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Recap: Reproduction and Genetics",
+      titleMy:
+          "အဌမအပိုင်း ပြန်လည်သုံးသပ်ခြင်း - မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A test cross uses which genotype to reveal hidden alleles?",
+          questionMy:
+              "Test Cross တစ်ခုသည် ဝှက်ထားသော Allele များ ဖော်ထုတ်ရန် မည်သည့် Genotype ကို သုံးသနည်း",
+          optionsEn: [
+            "Homozygous recessive (e.g. tt)",
+            "Homozygous dominant (e.g. TT)",
+            "Any random genotype",
+            "No genotype is needed",
+          ],
+          optionsMy: [
+            "Homozygous Recessive (ဥပမာ tt)",
+            "Homozygous Dominant (ဥပမာ TT)",
+            "ကျပန်း Genotype မည်သည်မဆို",
+            "Genotype လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A condition that skips generations, appearing when two unaffected carriers have a child, is typically...",
+          questionMy:
+              "မထိခိုက်သော Carrier နှစ်ဦးတွင် ကလေးရှိသောအခါ ပေါ်ထွက်ကာ မျိုးဆက်များကို ကျော်သွားသော အခြေအနေတစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Recessive",
+            "Dominant",
+            "Not genetic at all",
+            "Caused only by diet",
+          ],
+          optionsMy: [
+            "Recessive",
+            "Dominant",
+            "Genetic လုံးဝ မဟုတ်ခြင်း",
+            "အစားအစာကြောင့်သာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a pedigree chart, squares and circles typically represent...",
+          questionMy:
+              "Pedigree Chart တစ်ခုတွင် လေးထောင့်ကွက်များနှင့် စက်ဝိုင်းများသည် ပုံမှန်အားဖြင့် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Males and females",
+            "Dominant and recessive alleles",
+            "Tall and short plants",
+            "Living and extinct species",
+          ],
+          optionsMy: [
+            "အမျိုးသားနှင့် အမျိုးသမီးများ",
+            "Dominant နှင့် Recessive Allele များ",
+            "အရပ်ရှည်နှင့် အရပ်တို အပင်များ",
+            "ရှင်သန်နေသောနှင့် သုဉ်းသွားပြီးသော မျိုးစိတ်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Term 8: "Reproduction and Genetics"
+// (Weeks 29-32)
+// =====================================================================
+
+const CourseTermDef igcseBiologyTerm8 = CourseTermDef(
+  id: "course-igcse-bio-t8",
+  termNumber: 8,
+  titleEn: "Reproduction and Genetics",
+  titleMy: "မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ",
+  certificateTitleEn: "Reproduction and Genetics",
+  certificateTitleMy: "မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ",
+  weeks: [_igcseBioWeek29, _igcseBioWeek30, _igcseBioWeek31, _igcseBioWeek32],
+);
+
+// =====================================================================
 // IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
 // =====================================================================
 
-/// The IGCSE Biology course's full-year pathway. Terms 1-7
+/// The IGCSE Biology course's full-year pathway. Terms 1-8
 /// (Characteristics and Classification of Living Organisms, Weeks 1-4;
 /// Movement In and Out of Cells and Biological Molecules, Weeks 5-8;
 /// Enzymes and Plant Nutrition, Weeks 9-12; Human Nutrition and
 /// Transport in Plants, Weeks 13-16; Transport in Animals and Disease,
 /// Weeks 17-20; Gas Exchange and Respiration, Weeks 21-24;
-/// Coordination, Response and Homeostasis, Weeks 25-28) are authored
-/// so far, following the blueprint at
-/// `ai_data_bridge/igcse_biology_all_terms.dart`. Terms 8-9 are not yet
-/// authored. `terms` below intentionally lists only Terms 1-7, and
-/// `totalWeeks: 36` reflects the full planned year, following the same
-/// convention as every other in-progress pathway in this file.
+/// Coordination, Response and Homeostasis, Weeks 25-28; Reproduction
+/// and Genetics, Weeks 29-32) are authored so far, following the
+/// blueprint at `ai_data_bridge/igcse_biology_all_terms.dart`. Term 9
+/// is not yet authored. `terms` below intentionally lists only Terms
+/// 1-8, and `totalWeeks: 36` reflects the full planned year, following
+/// the same convention as every other in-progress pathway in this
+/// file.
 const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   id: "course-igcse-biology",
   subject: "biology",
@@ -11901,9 +13457,9 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
   titleEn: "IGCSE Biology",
   titleMy: "IGCSE ဇီဝဗေဒ",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Terms 8-9 are not yet authored.",
+      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Term 8, Reproduction and Genetics, covers asexual/sexual reproduction with pollination and the human reproductive system, DNA/genes/chromosomes with mitosis versus meiosis and monohybrid Punnett-square crosses, and continuous/discontinuous variation with natural selection and selective breeding, closing with a Genetics Problem-Solving Studio capstone on test crosses and pedigree chart analysis. Term 9 is not yet authored.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိကို မရေးသားရသေးပါ။",
+      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇသည် Pollination နှင့် လူ့မျိုးပွားစနစ် ပါဝင်သော Asexual/Sexual Reproduction၊ Mitosis vs Meiosis နှင့် Monohybrid Punnett-Square Cross ပါဝင်သော DNA/Gene/Chromosome၊ Natural Selection နှင့် Selective Breeding ပါဝင်သော Continuous/Discontinuous Variation ကို ဖုံးအုပ်ပြီး Test Cross များနှင့် Pedigree Chart ခွဲခြမ်းစိတ်ဖြာခြင်းအကြောင်း မျိုးရိုးဗီဇ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်ကို မရေးသားရသေးပါ။",
   totalWeeks: 36,
   terms: [
     igcseBiologyTerm1,
@@ -11913,5 +13469,6 @@ const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
     igcseBiologyTerm5,
     igcseBiologyTerm6,
     igcseBiologyTerm7,
+    igcseBiologyTerm8,
   ],
 );
