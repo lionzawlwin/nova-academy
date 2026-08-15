@@ -4536,6 +4536,1544 @@ const CourseWeekDef _igcseChemWeek12 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 13: "Rates of Reaction"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek13 = CourseWeekDef(
+  id: "course-igcse-chem-w13",
+  weekNumber: 13,
+  titleEn: "Rates of Reaction",
+  titleMy: "ဓာတ်ပြုနှုန်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w13-d1",
+      dayNumber: 1,
+      titleEn: "Collision Theory and Rate Factors",
+      titleMy: "Collision Theory နှင့် နှုန်း အချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to collision theory, what two conditions must be met for a reaction to occur when particles collide?",
+          questionMy:
+              "Collision Theory အရ အမှုန်များ ထိတွေ့သည့်အခါ ဓာတ်ပြုမှု ဖြစ်ပေါ်ရန် ကိုက်ညီရမည့် အခြေအနေ နှစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Particles must collide with enough energy (activation energy) and in the correct orientation",
+            "Particles must be the same colour and the same size",
+            "Particles must be at room temperature only",
+            "Particles must never touch each other",
+          ],
+          optionsMy: [
+            "အမှုန်များသည် လုံလောက်သော စွမ်းအင် (Activation Energy) ဖြင့် မှန်ကန်သော ရပ်တည်ချက်တွင် ထိတွေ့ရမည်",
+            "အမှုန်များသည် တူညီသော အရောင်နှင့် အရွယ်အစား ရှိရမည်",
+            "အမှုန်များသည် အခန်းအပူချိန်တွင်သာ ရှိရမည်",
+            "အမှုန်များသည် တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ ထိတွေ့ခြင်း မရှိစေရ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Not every collision leads to a reaction -- only 'successful' collisions with enough energy and the right geometry do.",
+          ],
+          hintsMy: [
+            "ထိတွေ့မှု တိုင်းသည် ဓာတ်ပြုမှုကို မဖြစ်စေပါ -- လုံလောက်သော စွမ်းအင်နှင့် မှန်ကန်သော ဂျီဩမေတြီရှိသော 'အောင်မြင်သော' ထိတွေ့မှုများသာ ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does increasing temperature increase the rate of a reaction?",
+          questionMy:
+              "အပူချိန် မြှင့်တင်ခြင်းက ဓာတ်ပြုနှုန်းကို မြှင့်တင်ပေးသည့် အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "Particles move faster, colliding more frequently and with more energy, so more collisions exceed the activation energy",
+            "Temperature has no effect on reaction rate at all",
+            "Higher temperature always destroys the reactants entirely",
+            "Particles slow down and collide less often",
+          ],
+          optionsMy: [
+            "အမှုန်များသည် ပို၍ လျင်မြန်စွာ ရွေ့လျားကာ မကြာခဏ ထိတွေ့ပြီး စွမ်းအင် ပိုများသောကြောင့် Activation Energy ကျော်လွှားသော ထိတွေ့မှု ပိုများလာသည်",
+            "အပူချိန်သည် ဓာတ်ပြုနှုန်းကို လုံးဝ သက်ရောက်မှု မရှိပါ",
+            "အပူချိန် ပိုမြင့်ခြင်းက Reactant များကို အမြဲတမ်း လုံးဝ ဖျက်ဆီးသည်",
+            "အမှုန်များသည် နှေးကွေးသွားပြီး ထိတွေ့မှု ပိုနည်းလာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher temperature gives particles more kinetic energy, meaning both more frequent AND more energetic collisions.",
+          ],
+          hintsMy: [
+            "အပူချိန် ပိုမြင့်ခြင်းက အမှုန်များကို Kinetic Energy ပို၍ ပေးသောကြောင့် ထိတွေ့မှု ပိုမကြာခဏနှင့် ပိုစွမ်းအင်ရှိလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does increasing the surface area of a solid reactant (e.g., using powder instead of a lump) affect reaction rate?",
+          questionMy:
+              "အစိုင်အခဲ Reactant တစ်ခု၏ မျက်နှာပြင်ဧရိယာကို (ဥပမာ - တုံးလုံးများအစား မှုန့်ဖြင့်) မြှင့်တင်ခြင်းက ဓာတ်ပြုနှုန်းကို မည်သို့ သက်ရောက်စေသနည်း။",
+          optionsEn: [
+            "It increases the rate, since more particles are exposed and available to collide with the other reactant",
+            "It has no effect on rate whatsoever",
+            "It always decreases the rate significantly",
+            "It only affects the colour of the reaction",
+          ],
+          optionsMy: [
+            "ပို၍ များသော အမှုန်များ ဖော်ထုတ်ခံရကာ အခြား Reactant နှင့် ထိတွေ့ရန် ရရှိနိုင်သောကြောင့် နှုန်းကို မြှင့်တင်ပေးသည်",
+            "နှုန်းအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "နှုန်းကို အမြဲတမ်း သိသိသာသာ လျော့ကျစေသည်",
+            "ဓာတ်ပြုမှု၏ အရောင်ကိုသာ သက်ရောက်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Smaller pieces have more total surface area exposed, giving more opportunities for successful collisions per second.",
+          ],
+          hintsMy: [
+            "အပိုင်းငယ်များသည် ဖော်ထုတ်ခံရသော မျက်နှာပြင် ဧရိယာ စုစုပေါင်း ပို၍ များသောကြောင့် တစ်စက္ကန့်လျှင် အောင်မြင်သော ထိတွေ့မှု ရရှိနိုင်ခြေ ပို၍ များသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rate of Reaction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဓာတ်ပြုနှုန်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w13-dm-1",
+          termEn: "Collision theory",
+          termMy: "Collision Theory",
+          matchEn:
+              "The idea that reactions occur when particles collide with enough energy and correct orientation",
+          matchMy:
+              "အမှုန်များသည် လုံလောက်သော စွမ်းအင်နှင့် မှန်ကန်သော ရပ်တည်ချက်ဖြင့် ထိတွေ့သည့်အခါ ဓာတ်ပြုမှု ဖြစ်ပေါ်သည်ဟူသော အယူအဆ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w13-dm-2",
+          termEn: "Catalyst",
+          termMy: "Catalyst",
+          matchEn:
+              "A substance that speeds up a reaction without being used up itself",
+          matchMy:
+              "ကိုယ်တိုင် သုံးစွဲမခံရဘဲ ဓာတ်ပြုမှုကို အရှိန်မြှင့်ပေးသော ပစ္စည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w13-dm-3",
+          termEn: "Surface area",
+          termMy: "Surface Area",
+          matchEn:
+              "The exposed area of a solid available for particles to collide with",
+          matchMy:
+              "အမှုန်များ ထိတွေ့ရန် ရရှိနိုင်သော အစိုင်အခဲ၏ ဖော်ထုတ်ခံရသော ဧရိယာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w13-dm-4",
+          termEn: "Concentration",
+          termMy: "Concentration",
+          matchEn:
+              "Higher concentration means more particles per unit volume, increasing collision frequency",
+          matchMy:
+              "Concentration ပိုမြင့်ခြင်းက ထုထည် ယူနစ်တစ်ခုလျှင် အမှုန် ပိုများပြီး ထိတွေ့မှု ကြိမ်နှုန်း မြှင့်တင်ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w13-dm-5",
+          termEn: "Rate of reaction",
+          termMy: "Rate of Reaction",
+          matchEn:
+              "How quickly reactants are used up or products are formed over time",
+          matchMy:
+              "အချိန်ကြာလာသည်နှင့်အမျှ Reactant များ သုံးစွဲခံရသည့် သို့မဟုတ် Product များ ဖြစ်ပေါ်လာသည့် အမြန်နှုန်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases Rate?",
+      titleMy: "စီစစ်ကြမည် - နှုန်း မြှင့်တင်သလား၊ လျော့ချသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Rate", "Decreases Rate"],
+        bucketsMy: ["နှုန်း မြှင့်တင်သည်", "နှုန်း လျော့ချသည်"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w13-sort-1",
+            labelEn: "Raising the temperature of the reaction mixture",
+            labelMy: "ဓာတ်ပြုမှု အရောအနှော၏ အပူချိန်ကို မြှင့်တင်ခြင်း",
+            correctBucketEn: "Increases Rate",
+            correctBucketMy: "နှုန်း မြှင့်တင်သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w13-sort-2",
+            labelEn: "Using large lumps of solid instead of powder",
+            labelMy: "မှုန့်အစား အစိုင်အခဲ တုံးလုံးကြီးများ အသုံးပြုခြင်း",
+            correctBucketEn: "Decreases Rate",
+            correctBucketMy: "နှုန်း လျော့ချသည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w13-sort-3",
+            labelEn: "Adding a suitable catalyst",
+            labelMy: "သင့်တော်သော Catalyst ထည့်သွင်းခြင်း",
+            correctBucketEn: "Increases Rate",
+            correctBucketMy: "နှုန်း မြှင့်တင်သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w13-sort-4",
+            labelEn: "Diluting a solution to lower concentration",
+            labelMy: "Concentration လျော့ကျစေရန် ပျော်ရည်ကို ရေရေးအားခြင်း",
+            correctBucketEn: "Decreases Rate",
+            correctBucketMy: "နှုန်း လျော့ချသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Aung Measures Marble and Acid Reaction Rate",
+      titleMy:
+          "စာဖတ်ခြင်း - ကိုအောင်က ကျောက်စိမ်းနှင့် အက်ဆစ် ဓာတ်ပြုနှုန်း တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Aung Measures Marble and Acid Reaction Rate",
+        titleMy:
+            "ကိုအောင်က ကျောက်စိမ်းနှင့် အက်ဆစ် ဓာတ်ပြုနှုန်း တိုင်းတာခြင်း",
+        passageEn:
+            "Lab technician Ko Aung set up a classic rate experiment for his students: marble chips (calcium carbonate) reacting with dilute hydrochloric acid, producing carbon dioxide gas, which was collected in a gas syringe and measured every 10 seconds. He ran the experiment four times, changing only one variable each time, to teach the students about fair testing.\n\nIn the first run, using large marble chips and dilute acid at room temperature, the gas syringe filled slowly, taking 3 minutes to reach 50 cm3. In the second run, Ko Aung crushed the marble chips into powder, keeping everything else identical -- the syringe filled to 50 cm3 in just 45 seconds, dramatically faster. He explained that the powder had a far greater surface area exposed to the acid, giving many more opportunities for successful collisions per second, even though the total mass of marble was the same.\n\nIn the third run, Ko Aung used the original large chips again but heated the acid to 40°C instead of room temperature. The reaction sped up noticeably, reaching 50 cm3 in about 90 seconds. He reminded students that heating gives particles more kinetic energy, so they collide both more frequently and with more energy exceeding the activation energy threshold.\n\nIn the final run, Ko Aung doubled the concentration of the hydrochloric acid while keeping the chips large and the temperature at room temperature. The reaction again sped up substantially, reaching 50 cm3 in about 100 seconds. He explained that with double the acid particles packed into the same volume, collisions between acid and marble particles became correspondingly more frequent. Ko Aung concluded the lesson by asking students to rank the four factors -- temperature, surface area, concentration, and (theoretically) a catalyst -- by how directly each one affects collision frequency versus collision energy, reinforcing that all four factors ultimately act through the same collision theory framework.",
+        passageMy:
+            "ဓာတ်ခွဲခန်း နည်းပညာရှင် ကိုအောင်သည် သူ၏ ကျောင်းသားများအတွက် ရှေးရိုးင်း နှုန်း စမ်းသပ်ချက်တစ်ခု ပြင်ဆင်ခဲ့သည်- ကျောက်စိမ်း အပိုင်းအစများ (ကယ်လစီယမ် ကာဗွန်နိတ်) ရေရေးအား ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်နှင့် ဓာတ်ပြုကာ ကာဗွန်ဒိုင်အောက်ဆိုဒ် ဓာတ်ငွေ့ ထုတ်ပေးပြီး ၎င်းကို ဓာတ်ငွေ့ ဆီးရင့် (Gas Syringe) ဖြင့် စက္ကန့် ၁၀ တိုင်း တိုင်းတာခဲ့သည်။ ကျောင်းသားများအား တရားမျှတသော စမ်းသပ်ခြင်းကို သင်ကြားပေးရန် အကြိမ် ၄ ကြိမ် လုပ်ဆောင်ကာ တစ်ကြိမ်လျှင် Variable တစ်ခုတည်းကိုသာ ပြောင်းလဲခဲ့သည်။\n\nပထမအကြိမ်တွင် ကျောက်စိမ်း အပိုင်းအစ ကြီးများနှင့် ရေရေးအား အက်ဆစ်ကို အခန်းအပူချိန်တွင် အသုံးပြုကာ ဓာတ်ငွေ့ ဆီးရင့်သည် နှေးကွေးစွာ ဖြည့်ဝင်ကာ 50 cm3 ရောက်ရန် ၃ မိနစ် ကြာခဲ့သည်။ ဒုတိယအကြိမ်တွင် ကိုအောင်သည် ကျောက်စိမ် အပိုင်းအစများကို မှုန့်ခြေခဲ့ပြီး အခြားအရာအားလုံးကို တူညီစွာ ထိန်းထားခဲ့သည် -- ဆီးရင့်သည် 50 cm3 သို့ စက္ကန့် ၄၅ သာဖြင့် အလွန်မြန်စွာ ဖြည့်ဝင်ခဲ့သည်။ ကျောက်စိမ် စုစုပေါင်း Mass တူညီသော်လည်း မှုန့်သည် အက်ဆစ်နှင့် ထိတွေ့သော မျက်နှာပြင် ဧရိယာ ပိုကြီးမားသောကြောင့် တစ်စက္ကန့်လျှင် အောင်မြင်သော ထိတွေ့မှု ရရှိနိုင်ခြေ ပို၍ များကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nတတိယအကြိမ်တွင် ကိုအောင်သည် အပိုင်းအစ ကြီးများကို ပြန်လည် အသုံးပြုသော်လည်း အက်ဆစ်ကို အခန်းအပူချိန်အစား 40°C အထိ အပူပေးခဲ့သည်။ ဓာတ်ပြုမှုသည် သိသိသာသာ ပိုမြန်လာကာ 50 cm3 ရောက်ရန် ခန့်မှန်းခြေ စက္ကန့် ၉၀ ကြာခဲ့သည်။ အပူပေးခြင်းက အမှုန်များကို Kinetic Energy ပို၍ ပေးသောကြောင့် ၎င်းတို့သည် ပို၍ မကြာခဏနှင့် Activation Energy Threshold ကို ကျော်လွှားသော စွမ်းအင်ဖြင့် ထိတွေ့ကြောင်း ကျောင်းသားများအား သူ သတိပေးခဲ့သည်။\n\nနောက်ဆုံး အကြိမ်တွင် ကိုအောင်သည် ဟိုက်ဒရိုကလိုရစ် အက်ဆစ်၏ Concentration ကို နှစ်ဆ တိုးမြှင့်ခဲ့ပြီး အပိုင်းအစများကို ကြီးမားစွာ ထားကာ အခန်းအပူချိန်တွင် ထားခဲ့သည်။ ဓာတ်ပြုမှုသည် ထပ်မံ သိသိသာသာ ပိုမြန်လာကာ 50 cm3 ရောက်ရန် ခန့်မှန်းခြေ စက္ကန့် ၁၀၀ ကြာခဲ့သည်။ ထုထည် တူညီသည့်အတွင်း အက်ဆစ် အမှုန် နှစ်ဆ ကျပ်ညပ်စွာ ပါဝင်လာသဖြင့် အက်ဆစ်နှင့် ကျောက်စိမ် အမှုန်များကြား ထိတွေ့မှုများ ယင်းအတိုင်း ပို၍ မကြာခဏ ဖြစ်လာကြောင်း သူ ရှင်းပြခဲ့သည်။ ကိုအောင်သည် ကျောင်းသားများအား အချက်လေးခု -- အပူချိန်၊ မျက်နှာပြင် ဧရိယာ၊ Concentration နှင့် (သီအိုရီအရ) Catalyst -- ကို ထိတွေ့မှု ကြိမ်နှုန်းနှင့် ထိတွေ့မှု စွမ်းအင်ကို မည်မျှ တိုက်ရိုက် သက်ရောက်ကြောင်း အလိုက် အဆင့်သတ်မှတ်ခိုင်းကာ သင်ခန်းစာကို အဆုံးသတ်ခဲ့ပြီး အချက်လေးခုစလုံးသည် Collision Theory Framework တစ်ခုတည်းမှတစ်ဆင့် နောက်ဆုံးတွင် လုပ်ဆောင်ကြောင်း ပြန်လည် အလေးထား ဖော်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the powdered marble react faster than the large chips?",
+            questionMy:
+                "မှုန့်ခြေထားသော ကျောက်စိမ်သည် အပိုင်းအစ ကြီးများထက် ပိုမြန်စွာ ဓာတ်ပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The powder had a much greater surface area exposed to the acid",
+              "The powder was a different chemical entirely",
+              "The large chips were not real marble",
+              "The powder was heated separately first",
+            ],
+            optionsMy: [
+              "မှုန့်သည် အက်ဆစ်နှင့် ထိတွေ့သော မျက်နှာပြင် ဧရိယာ ပို၍ ကြီးမားသောကြောင့်",
+              "မှုန့်သည် လုံးဝ ကွဲပြားသော ဓာတုပစ္စည်း ဖြစ်သောကြောင့်",
+              "အပိုင်းအစ ကြီးများသည် ကျောက်စိမ် အစစ် မဟုတ်သောကြောင့်",
+              "မှုန့်ကို ဦးစွာ သီးခြား အပူပေးထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the surface area reasoning.",
+            ],
+            hintsMy: [
+              "မျက်နှာပြင် ဧရိယာ ယုတ္တိဗေဒကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did heating the acid speed up the reaction?",
+            questionMy:
+                "အက်ဆစ်ကို အပူပေးခြင်းက ဓာတ်ပြုမှုကို ပိုမြန်စေရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Particles gained more kinetic energy, colliding more frequently and with more energy",
+              "Heat changed the acid into a different substance",
+              "Heat had no real effect on the particles",
+              "The marble chips dissolved completely from heat alone",
+            ],
+            optionsMy: [
+              "အမှုန်များသည် Kinetic Energy ပို၍ ရရှိကာ ပို၍ မကြာခဏနှင့် ပိုစွမ်းအင်ရှိစွာ ထိတွေ့ခဲ့သောကြောင့်",
+              "အပူသည် အက်ဆစ်ကို ကွဲပြားသော ပစ္စည်းအဖြစ် ပြောင်းလဲစေသောကြောင့်",
+              "အပူသည် အမှုန်များအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိသောကြောင့်",
+              "ကျောက်စိမ် အပိုင်းအစများသည် အပူတစ်ခုတည်းဖြင့် လုံးဝ ပျော်ဝင်သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining temperature's effect on particle energy.",
+            ],
+            hintsMy: [
+              "အပူချိန်၏ အမှုန် စွမ်းအင်အပေါ် သက်ရောက်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, why did doubling the acid concentration speed up the reaction?",
+            questionMy:
+                "အက်ဆစ် Concentration နှစ်ဆ တိုးမြှင့်ခြင်းက ဓာတ်ပြုမှုကို ပိုမြန်စေရသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "More acid particles packed into the same volume made collisions more frequent",
+              "Concentration has no effect on collision frequency",
+              "The acid became a solid at higher concentration",
+              "Doubling concentration always halves the reaction rate",
+            ],
+            optionsMy: [
+              "ထုထည် တူညီသည့်အတွင်း အက်ဆစ် အမှုန် ပို၍ ကျပ်ညပ်စွာ ပါဝင်လာသဖြင့် ထိတွေ့မှုများ ပို၍ မကြာခဏ ဖြစ်လာသောကြောင့်",
+              "Concentration သည် ထိတွေ့မှု ကြိမ်နှုန်းအပေါ် သက်ရောက်မှု မရှိသောကြောင့်",
+              "Concentration ပိုမြင့်ချိန်တွင် အက်ဆစ်သည် အစိုင်အခဲ ဖြစ်သွားသောကြောင့်",
+              "Concentration နှစ်ဆ တိုးမြှင့်ခြင်းက ဓာတ်ပြုနှုန်းကို အမြဲတမ်း တစ်ဝက် လျော့ချသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining concentration's effect on collision frequency.",
+            ],
+            hintsMy: [
+              "Concentration ၏ ထိတွေ့မှု ကြိမ်နှုန်းအပေါ် သက်ရောက်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what framework connects all four rate factors?",
+            questionMy:
+                "နှုန်း အချက် လေးခုစလုံးကို ချိတ်ဆက်ပေးသော Framework ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Collision theory",
+              "The mole concept",
+              "Percentage yield",
+              "Electrolysis",
+            ],
+            optionsMy: [
+              "Collision Theory",
+              "Mole သဘောတရား",
+              "ရာခိုင်နှုန်း ရလဒ်",
+              "Electrolysis",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Rates of Reaction",
+      titleMy: "သုံးလုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဓာတ်ပြုနှုန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Collision theory states that a reaction requires particles to collide with...",
+          questionMy:
+              "Collision Theory အရ ဓာတ်ပြုမှုတစ်ခုအတွက် အမှုန်များသည် ...ဖြင့် ထိတွေ့ရမည်",
+          optionsEn: [
+            "Enough energy and correct orientation",
+            "The same colour only",
+            "No energy at all",
+            "Random speed only",
+          ],
+          optionsMy: [
+            "လုံလောက်သော စွမ်းအင်နှင့် မှန်ကန်သော ရပ်တည်ချက်",
+            "တူညီသော အရောင်သာ",
+            "စွမ်းအင် လုံးဝ မလို",
+            "ကျပန်း အလျင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst speeds up a reaction without...",
+          questionMy:
+              "Catalyst တစ်ခုသည် ...မရှိဘဲ ဓာတ်ပြုမှုကို အရှိန်မြှင့်ပေးသည်",
+          optionsEn: [
+            "Being used up itself",
+            "Changing anything",
+            "Adding energy",
+            "Forming products",
+          ],
+          optionsMy: [
+            "ကိုယ်တိုင် သုံးစွဲခံရခြင်း",
+            "မည်သည့်အရာမျှ ပြောင်းလဲခြင်း",
+            "စွမ်းအင် ထည့်သွင်းခြင်း",
+            "Product များ ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing surface area of a solid reactant increases rate because...",
+          questionMy:
+              "အစိုင်အခဲ Reactant ၏ မျက်နှာပြင် ဧရိယာ မြှင့်တင်ခြင်းက ...ကြောင့် နှုန်းကို မြှင့်တင်ပေးသည်",
+          optionsEn: [
+            "More particles are exposed for collisions",
+            "It changes the reactant's colour",
+            "It lowers the temperature",
+            "It removes the catalyst",
+          ],
+          optionsMy: [
+            "ထိတွေ့မှုအတွက် အမှုန် ပို၍ ဖော်ထုတ်ခံရသောကြောင့်",
+            "Reactant ၏ အရောင် ပြောင်းလဲစေသောကြောင့်",
+            "အပူချိန် လျော့ကျစေသောကြောင့်",
+            "Catalyst ကို ဖယ်ရှားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 14: "Reversible Reactions and Equilibrium"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek14 = CourseWeekDef(
+  id: "course-igcse-chem-w14",
+  weekNumber: 14,
+  titleEn: "Reversible Reactions and Equilibrium",
+  titleMy: "ပြန်လှည့်နိုင်သော ဓာတ်ပြုမှုများနှင့် Equilibrium",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w14-d1",
+      dayNumber: 1,
+      titleEn: "Dynamic Equilibrium and Le Chatelier's Principle",
+      titleMy: "Dynamic Equilibrium နှင့် Le Chatelier's Principle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does 'dynamic equilibrium' mean in a reversible reaction?",
+          questionMy:
+              "ပြန်လှည့်နိုင်သော ဓာတ်ပြုမှုတစ်ခုတွင် 'Dynamic Equilibrium' ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The forward and reverse reactions continue happening at equal rates, so concentrations stay constant",
+            "All reactions completely stop occurring",
+            "Only the forward reaction happens, forever",
+            "The reaction only happens once and then ends",
+          ],
+          optionsMy: [
+            "ရှေ့ဆက်နှင့် နောက်ပြန် ဓာတ်ပြုမှုများသည် ညီမျှသော နှုန်းဖြင့် ဆက်လက် ဖြစ်ပေါ်နေသဖြင့် Concentration များ ကိန်းသေ ဆက်လက် ရှိနေသည်",
+            "ဓာတ်ပြုမှုများ အားလုံး လုံးဝ ရပ်တန့်သွားသည်",
+            "ရှေ့ဆက် ဓာတ်ပြုမှုသာ ထာဝစဉ် ဖြစ်ပေါ်နေသည်",
+            "ဓာတ်ပြုမှုသည် တစ်ကြိမ်တည်း ဖြစ်ပေါ်ပြီး အဆုံးသတ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Dynamic' means both reactions are still actively happening, but their effects on concentration cancel out.",
+          ],
+          hintsMy: [
+            "'Dynamic' ဆိုသည်မှာ ဓာတ်ပြုမှု နှစ်ခုစလုံး တက်ကြွစွာ ဆက်လက် ဖြစ်ပေါ်နေသော်လည်း Concentration အပေါ် ၎င်းတို့၏ သက်ရောက်မှုများ အချင်းချင်း ဖျက်ပစ်နေကြောင်း ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Le Chatelier's principle, what happens to an equilibrium system if you increase pressure (for a reaction with fewer moles of gas on one side)?",
+          questionMy:
+              "Le Chatelier's Principle အရ ဖိအား တိုးမြှင့်ပါက Equilibrium စနစ်တစ်ခု အဘယ်ဖြစ်လာသနည်း (ဘက်တစ်ဘက်တွင် ဓာတ်ငွေ့ Mole ပိုနည်းသော ဓာတ်ပြုမှုအတွက်)။",
+          optionsEn: [
+            "The equilibrium shifts toward the side with fewer gas moles, to reduce the pressure increase",
+            "Nothing happens at all, ever",
+            "The reaction stops completely",
+            "The equilibrium always shifts toward more gas moles",
+          ],
+          optionsMy: [
+            "ဖိအား တိုးမြှင့်မှုကို လျှော့ချရန် Equilibrium သည် ဓာတ်ငွေ့ Mole ပိုနည်းသော ဘက်သို့ ရွှေ့ပြောင်းသည်",
+            "မည်သည့်အခါမျှ မည်သည့်အရာမျှ မဖြစ်ပါ",
+            "ဓာတ်ပြုမှု လုံးဝ ရပ်တန့်သွားသည်",
+            "Equilibrium သည် ဓာတ်ငွေ့ Mole ပိုများသော ဘက်သို့ အမြဲတမ်း ရွှေ့ပြောင်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Le Chatelier's principle: if you disturb an equilibrium, it shifts to partially counteract (oppose) the change.",
+            "Fewer gas moles = less pressure, so shifting that way reduces the imposed pressure increase.",
+          ],
+          hintsMy: [
+            "Le Chatelier's Principle - Equilibrium ကို နှောင့်ယှက်ပါက ပြောင်းလဲမှုကို တစ်စိတ်တစ်ပိုင်း ဆန့်ကျင်ရန် ရွှေ့ပြောင်းသည်။",
+            "ဓာတ်ငွေ့ Mole ပိုနည်းခြင်း = ဖိအား ပိုနည်းခြင်း ဖြစ်သောကြောင့် ထိုဘက်သို့ ရွှေ့ပြောင်းခြင်းက ချမှတ်ထားသော ဖိအား တိုးမြှင့်မှုကို လျှော့ချပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the Haber process (N2 + 3H2 <=> 2NH3, forward reaction exothermic), what does increasing temperature do to the equilibrium yield of ammonia?",
+          questionMy:
+              "Haber Process (N2 + 3H2 <=> 2NH3, ရှေ့ဆက် ဓာတ်ပြုမှု Exothermic) တွင် အပူချိန် တိုးမြှင့်ခြင်းက အမိုးနီးယား Equilibrium ရလဒ်ကို အဘယ်ဖြစ်စေသနည်း။",
+          optionsEn: [
+            "It decreases the ammonia yield, since the equilibrium shifts toward the endothermic (reverse) direction to absorb the extra heat",
+            "It always increases the ammonia yield with no limit",
+            "Temperature has no effect on this equilibrium at all",
+            "It converts all the ammonia into nitrogen instantly",
+          ],
+          optionsMy: [
+            "ပိုလျှံသော အပူကို စုပ်ယူရန် Equilibrium သည် Endothermic (နောက်ပြန်) ဦးတည်ချက်ဘက်သို့ ရွှေ့ပြောင်းသောကြောင့် အမိုးနီးယား ရလဒ်ကို လျော့ချသည်",
+            "ကန့်သတ်ချက် မရှိဘဲ အမိုးနီးယား ရလဒ်ကို အမြဲတမ်း တိုးမြှင့်ပေးသည်",
+            "ဤ Equilibrium အပေါ် အပူချိန်သည် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "အမိုးနီးယား အားလုံးကို နိုက်ထရိုဂျင်အဖြစ် ချက်ချင်း ပြောင်းလဲစေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since the forward reaction is exothermic, the reverse reaction is endothermic; adding heat shifts equilibrium toward absorbing that heat.",
+          ],
+          hintsMy: [
+            "ရှေ့ဆက် ဓာတ်ပြုမှုသည် Exothermic ဖြစ်သောကြောင့် နောက်ပြန် ဓာတ်ပြုမှုသည် Endothermic ဖြစ်သည်; အပူ ထည့်သွင်းခြင်းက Equilibrium ကို ထို အပူ စုပ်ယူရန်ဘက်သို့ ရွှေ့ပြောင်းစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Equilibrium Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Equilibrium ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w14-dm-1",
+          termEn: "Reversible reaction",
+          termMy: "Reversible Reaction",
+          matchEn:
+              "A reaction that can proceed in both the forward and reverse directions",
+          matchMy:
+              "ရှေ့ဆက်နှင့် နောက်ပြန် ဦးတည်ချက် နှစ်ခုစလုံးတွင် ဆက်လက် ဖြစ်ပေါ်နိုင်သော ဓာတ်ပြုမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w14-dm-2",
+          termEn: "Dynamic equilibrium",
+          termMy: "Dynamic Equilibrium",
+          matchEn:
+              "A state where forward and reverse reaction rates are equal, keeping concentrations constant",
+          matchMy:
+              "ရှေ့ဆက်နှင့် နောက်ပြန် ဓာတ်ပြုနှုန်းများ ညီမျှကာ Concentration များ ကိန်းသေ ဆက်လက် ရှိနေသော အခြေအနေ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w14-dm-3",
+          termEn: "Le Chatelier's principle",
+          termMy: "Le Chatelier's Principle",
+          matchEn:
+              "If an equilibrium is disturbed, it shifts to partially oppose the change",
+          matchMy:
+              "Equilibrium တစ်ခု နှောင့်ယှက်ခံရပါက ပြောင်းလဲမှုကို တစ်စိတ်တစ်ပိုင်း ဆန့်ကျင်ရန် ရွှေ့ပြောင်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w14-dm-4",
+          termEn: "Haber process",
+          termMy: "Haber Process",
+          matchEn:
+              "The industrial equilibrium process combining nitrogen and hydrogen to make ammonia",
+          matchMy:
+              "အမိုးနီးယား ရေတည်ရန် နိုက်ထရိုဂျင်နှင့် ဟိုက်ဒရိုဂျင် ပေါင်းစပ်သော စက်မှု Equilibrium လုပ်ငန်းစဉ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w14-dm-5",
+          termEn: "Equilibrium position",
+          termMy: "Equilibrium Position",
+          matchEn:
+              "The relative amounts of reactants and products present at equilibrium",
+          matchMy:
+              "Equilibrium တွင် ရှိနေသော Reactant များနှင့် Product များ၏ နှိုင်းရ ပမာဏများ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Shifts Forward or Reverse?",
+      titleMy: "စီစစ်ကြမည် - ရှေ့ဆက် ရွှေ့သလား၊ နောက်ပြန် ရွှေ့သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Shifts Forward", "Shifts Reverse"],
+        bucketsMy: ["ရှေ့ဆက် ရွှေ့သည်", "နောက်ပြန် ရွှေ့သည်"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w14-sort-1",
+            labelEn:
+                "For an exothermic forward reaction, decreasing the temperature",
+            labelMy: "Exothermic ရှေ့ဆက် ဓာတ်ပြုမှုအတွက် အပူချိန် လျော့ချခြင်း",
+            correctBucketEn: "Shifts Forward",
+            correctBucketMy: "ရှေ့ဆက် ရွှေ့သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w14-sort-2",
+            labelEn:
+                "For an exothermic forward reaction, increasing the temperature",
+            labelMy:
+                "Exothermic ရှေ့ဆက် ဓာတ်ပြုမှုအတွက် အပူချိန် တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Shifts Reverse",
+            correctBucketMy: "နောက်ပြန် ရွှေ့သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w14-sort-3",
+            labelEn:
+                "Increasing pressure, favouring the side with fewer gas moles (forward side has fewer)",
+            labelMy:
+                "ဓာတ်ငွေ့ Mole ပိုနည်းသော ဘက် (ရှေ့ဆက်ဘက်တွင် ပိုနည်း) ကို ဦးစားပေးသော ဖိအား တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Shifts Forward",
+            correctBucketMy: "ရှေ့ဆက် ရွှေ့သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w14-sort-4",
+            labelEn:
+                "Removing product continuously, encouraging more forward reaction",
+            labelMy:
+                "Product ကို ဆက်တိုက် ဖယ်ရှားခြင်း၊ ရှေ့ဆက် ဓာတ်ပြုမှု ပို၍ တိုးတက်စေခြင်း",
+            correctBucketEn: "Shifts Forward",
+            correctBucketMy: "ရှေ့ဆက် ရွှေ့သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Engineer Ko Htet Optimises the Haber Process",
+      titleMy:
+          "စာဖတ်ခြင်း - အင်ဂျင်နီယာ ကိုထက်က Haber Process ကို ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Engineer Ko Htet Optimises the Haber Process",
+        titleMy:
+            "အင်ဂျင်နီယာ ကိုထက်က Haber Process ကို ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ခြင်း",
+        passageEn:
+            "Ko Htet, now a senior process engineer at the fertiliser plant where he once taught a new graduate about balancing the ammonia equation, was training the same graduate a year later on the plant's operating conditions -- and why they were chosen despite seeming to conflict with each other.\n\nHe explained that the Haber process, N2 + 3H2 <=> 2NH3, is exothermic in the forward direction. According to Le Chatelier's principle, lower temperatures should favour a higher equilibrium yield of ammonia, since the system would shift forward to release more heat and partially counteract any decrease. Yet the plant deliberately ran the reactor at around 450°C -- a fairly high temperature that Le Chatelier's principle alone suggests should reduce yield.\n\nThe trainee, puzzled, asked why the plant would sacrifice equilibrium yield for higher temperature. Ko Htet explained that this was a deliberate compromise: at low temperatures, the reaction rate becomes far too slow for the process to be economically practical, even though the equilibrium yield would technically be higher. At around 450°C, the reaction proceeds fast enough to be commercially useful, even though the equilibrium yield at that temperature is lower than it could theoretically be at lower temperatures.\n\nHe then explained the second condition: the plant used a pressure of about 200 atmospheres, much higher than atmospheric pressure. Since the forward reaction converts 4 moles of gas (1 N2 + 3 H2) into 2 moles of gas (2 NH3), Le Chatelier's principle predicts that higher pressure shifts equilibrium toward the side with fewer gas moles -- the ammonia side -- increasing yield. High pressure also has the added benefit of increasing reaction rate by squeezing particles closer together, increasing collision frequency. Ko Htet summarised the whole system as a real-world balancing act: extremely low temperatures and extremely high pressures would maximise the theoretical equilibrium yield, but engineers must always balance equilibrium position against reaction rate and the cost of building equipment that withstands extreme pressure, which is exactly why 450°C and 200 atmospheres -- not the theoretical optimum -- were chosen as the plant's real operating conditions.",
+        passageMy:
+            "တစ်နှစ်ခန့်က ဘွဲ့ရသစ်တစ်ဦးအား အမိုးနီးယား ညီမျှခြင်း ချိန်ညှိခြင်းအကြောင်း သင်ကြားပေးခဲ့ဖူးသော မြေဩဇာစက်ရုံရှိ ကိုထက်သည် ယခု အကြီးတန်း လုပ်ငန်းစဉ် အင်ဂျင်နီယာတစ်ဦး ဖြစ်လာပြီး တစ်နှစ်ကြာ ထိုကျောင်းသားတစ်ဦးတည်းကိုပင် စက်ရုံ၏ လုပ်ဆောင်ချက် အခြေအနေများအကြောင်းနှင့် ၎င်းတို့ကို အချင်းချင်း ဆန့်ကျင်နေဟန်ရှိသော်လည်း ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်းအကြောင်း လေ့ကျင့်ပေးနေခဲ့သည်။\n\nHaber Process, N2 + 3H2 <=> 2NH3 သည် ရှေ့ဆက် ဦးတည်ချက်တွင် Exothermic ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည်။ Le Chatelier's Principle အရ အပူချိန် ပိုနိမ့်ခြင်းက အမိုးနီးယား Equilibrium ရလဒ် ပို၍ မြင့်စေရမည်ဖြစ်သည်၊ အကြောင်းမှာ စနစ်သည် အပူ ပို၍ လွှတ်ထုတ်ရန် ရှေ့ဆက်ဘက်သို့ ရွှေ့ပြောင်းကာ လျော့ကျမှု မည်သည်ကိုမဆို တစ်စိတ်တစ်ပိုင်း ဆန့်ကျင်မည် ဖြစ်သည်။ သို့ရာတွင် စက်ရုံသည် Reactor ကို 450°C ခန့်တွင် တမင်တကာ လုပ်ဆောင်ခဲ့သည် -- Le Chatelier's Principle တစ်ခုတည်းအရ ရလဒ်ကို လျော့ချရမည့် အလွန် မြင့်မားသော အပူချိန် ဖြစ်သည်။\n\nရှုပ်ထွေးနေသော ကျောင်းသားသည် စက်ရုံသည် Equilibrium ရလဒ်ကို အပူချိန် ပိုမြင့်ခြင်းအတွက် အဘယ်ကြောင့် စွန့်လွှတ်ရသနည်းဟု မေးမြန်းခဲ့သည်။ ၎င်းသည် တမင်တကာ ညှိနှိုင်းမှုတစ်ခု ဖြစ်ကြောင်း ကိုထက် ရှင်းပြခဲ့သည်- အပူချိန် နိမ့်သည့်အခါ Equilibrium ရလဒ် နည်းပညာအရ ပိုမြင့်မည်ဖြစ်သော်လည်း ဓာတ်ပြုနှုန်းသည် စီးပွားရေးအရ လက်တွေ့ကျသည့် လုပ်ငန်းစဉ်အတွက် လွန်စွာ နှေးကွေးလွန်းသွားလိမ့်မည်။ 450°C ခန့်တွင် ဓာတ်ပြုမှုသည် ကုန်သွယ်ရေးအရ အသုံးဝင်လောက်အောင် လုံလောက်စွာ မြန်ဆန်စွာ ဆက်လက် ဖြစ်ပေါ်သည်၊ ထို အပူချိန်ရှိ Equilibrium ရလဒ်သည် အပူချိန် ပိုနိမ့်ချိန်တွင် သီအိုရီအရ ရနိုင်သည်ထက် နိမ့်နေသော်လည်း ဖြစ်သည်။\n\nထို့နောက် သူသည် ဒုတိယ အခြေအနေကို ရှင်းပြခဲ့သည်- စက်ရုံသည် အလေ့ဖိအားထက် များစွာ ပိုမြင့်သော ခန့်မှန်းခြေ Atmosphere ၂၀၀ ဖိအားကို အသုံးပြုခဲ့သည်။ ရှေ့ဆက် ဓာတ်ပြုမှုသည် ဓာတ်ငွေ့ Mole ၄ ခု (1 N2 + 3 H2) ကို ဓာတ်ငွေ့ Mole ၂ ခု (2 NH3) အဖြစ် ပြောင်းလဲစေသောကြောင့် ဖိအား ပိုမြင့်ခြင်းက Equilibrium ကို ဓာတ်ငွေ့ Mole ပိုနည်းသော ဘက် -- အမိုးနီးယားဘက် -- သို့ ရွှေ့ပြောင်းကာ ရလဒ်ကို တိုးမြှင့်ကြောင်း Le Chatelier's Principle က ခန့်မှန်းသည်။ ဖိအားမြင့်ခြင်းက အမှုန်များကို ပို၍ ကပ်ကပ်စေကာ ထိတွေ့မှု ကြိမ်နှုန်း တိုးမြှင့်ပေးသဖြင့် ဓာတ်ပြုနှုန်းကို တိုးမြှင့်ပေးသည့် အကျိုးကျေးဇူးလည်း ရှိသည်။ ကိုထက်သည် စနစ်တစ်ခုလုံးကို လက်တွေ့ ကမ္ဘာ ညှိနှိုင်းမှုတစ်ခုအဖြစ် အကျဉ်းချုပ် ဖော်ပြခဲ့သည်- အလွန် နိမ့်သော အပူချိန်နှင့် အလွန် မြင့်သော ဖိအားများသည် သီအိုရီအရ Equilibrium ရလဒ်ကို အများဆုံး ဖြစ်စေမည်ဖြစ်သော်လည်း အင်ဂျင်နီယာများသည် Equilibrium Position ကို ဓာတ်ပြုနှုန်းနှင့် အလွန်အကျွံ ဖိအားကို ခံနိုင်ရည်ရှိသော ကိရိယာ တည်ဆောက်စရိတ်နှင့် အမြဲတမ်း ချိန်ညှိရမည်ဖြစ်ကြောင်း ဖြစ်သည်၊ ဤသည်ပင် သီအိုရီအရ အကောင်းဆုံး အခြေအနေ မဟုတ်ဘဲ 450°C နှင့် Atmosphere ၂၀၀ ကို စက်ရုံ၏ အမှန်တကယ် လုပ်ဆောင်ချက် အခြေအနေများအဖြစ် ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does Le Chatelier's principle suggest lower temperature should favour higher ammonia yield?",
+            questionMy:
+                "အပူချိန် ပိုနိမ့်ခြင်းက အမိုးနီးယား ရလဒ် ပိုမြင့်ရန် ဦးစားပေးရမည်ဟု Le Chatelier's Principle အဘယ်ကြောင့် အကြံပြုကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The forward reaction is exothermic, so lowering temperature shifts equilibrium forward",
+              "Lower temperature always destroys the reactants",
+              "Temperature has no relationship to this equilibrium",
+              "Ammonia only forms at freezing temperatures",
+            ],
+            optionsMy: [
+              "ရှေ့ဆက် ဓာတ်ပြုမှုသည် Exothermic ဖြစ်သောကြောင့် အပူချိန် လျော့ချခြင်းက Equilibrium ကို ရှေ့ဆက်ဘက်သို့ ရွှေ့ပြောင်းသည်",
+              "အပူချိန် ပိုနိမ့်ခြင်းက Reactant များကို အမြဲတမ်း ဖျက်ဆီးသည်",
+              "အပူချိန်သည် ဤ Equilibrium နှင့် မည်သည့် ဆက်စပ်မှုမျှ မရှိပါ",
+              "အမိုးနီးယားသည် ခဲထားသော အပူချိန်များတွင်သာ ဖွဲ့စည်းသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the exothermic forward reaction and Le Chatelier's implication.",
+            ],
+            hintsMy: [
+              "Exothermic ရှေ့ဆက် ဓာတ်ပြုမှုနှင့် Le Chatelier's Implication ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does the plant run at 450°C despite this reducing equilibrium yield?",
+            questionMy:
+                "Equilibrium ရလဒ်ကို လျော့ချသော်လည်း စက်ရုံသည် 450°C တွင် အဘယ်ကြောင့် လုပ်ဆောင်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Low temperature makes the reaction rate too slow to be economically practical",
+              "450°C is actually the coldest temperature the equipment allows",
+              "Higher temperature always increases yield too, contradicting Le Chatelier's principle",
+              "There is no real reason, it is simply tradition",
+            ],
+            optionsMy: [
+              "အပူချိန် နိမ့်ခြင်းက ဓာတ်ပြုနှုန်းကို စီးပွားရေးအရ လက်တွေ့ကျစေရန် လွန်စွာ နှေးကွေးလွန်းစေသောကြောင့်",
+              "450°C သည် ကိရိယာက ခွင့်ပြုသော အအေးဆုံး အပူချိန် အမှန်တကယ် ဖြစ်သောကြောင့်",
+              "အပူချိန် ပိုမြင့်ခြင်းက Le Chatelier's Principle နှင့် ဆန့်ကျင်ကာ ရလဒ်ကိုပါ တိုးမြှင့်ပေးသောကြောင့်",
+              "အမှန်တကယ် အကြောင်းရင်း မရှိပါ၊ ထုံးတမ်းတစ်ခုသာ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the trade-off between rate and yield.",
+            ],
+            hintsMy: [
+              "နှုန်းနှင့် ရလဒ်ကြား ညှိနှိုင်းမှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, why does higher pressure favour ammonia formation?",
+            questionMy:
+                "ဖိအား ပိုမြင့်ခြင်းက အမိုးနီးယား ဖွဲ့စည်းမှုကို ဦးစားပေးသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The forward reaction reduces gas moles from 4 to 2, and higher pressure shifts equilibrium toward fewer gas moles",
+              "Pressure has no effect on this reaction at all",
+              "Ammonia is a solid, unaffected by pressure",
+              "Higher pressure always favours the reactant side in every reaction",
+            ],
+            optionsMy: [
+              "ရှေ့ဆက် ဓာတ်ပြုမှုက ဓာတ်ငွေ့ Mole ကို ၄ မှ ၂ သို့ လျော့ချပေးပြီး ဖိအား ပိုမြင့်ခြင်းက Equilibrium ကို ဓာတ်ငွေ့ Mole ပိုနည်းသော ဘက်သို့ ရွှေ့ပြောင်းသောကြောင့်",
+              "ဤဓာတ်ပြုမှုအပေါ် ဖိအားသည် မည်သည့် သက်ရောက်မှုမျှ မရှိသောကြောင့်",
+              "အမိုးနီးယားသည် အစိုင်အခဲဖြစ်ပြီး ဖိအားက သက်ရောက်မှု မရှိသောကြောင့်",
+              "ဖိအား ပိုမြင့်ခြင်းက ဓာတ်ပြုမှု တိုင်းတွင် Reactant ဘက်ကို အမြဲတမ်း ဦးစားပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the mole change from 4 to 2 and the pressure implication.",
+            ],
+            hintsMy: [
+              "Mole ၄ မှ ၂ သို့ ပြောင်းလဲမှုနှင့် ဖိအား Implication အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why aren't the theoretically optimal conditions (very low temperature, very high pressure) actually used?",
+            questionMy:
+                "သီအိုရီအရ အကောင်းဆုံး အခြေအနေများ (အလွန် နိမ့်သော အပူချိန်၊ အလွန် မြင့်သော ဖိအား) ကို အမှန်တကယ် အသုံးမပြုကြောင်း အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Engineers must balance equilibrium yield against reaction rate and equipment cost",
+              "The theoretical conditions are actually illegal",
+              "No such conditions exist in theory either",
+              "Ammonia becomes toxic under those conditions",
+            ],
+            optionsMy: [
+              "အင်ဂျင်နီယာများသည် Equilibrium ရလဒ်ကို ဓာတ်ပြုနှုန်းနှင့် ကိရိယာ ကုန်ကျစရိတ်ဖြင့် ချိန်ညှိရမည်ဖြစ်သောကြောင့်",
+              "သီအိုရီအရ အခြေအနေများသည် အမှန်တကယ် တရားမဝင်သောကြောင့်",
+              "သီအိုရီအရပင် ထိုကဲ့သို့ အခြေအနေများ မရှိသောကြောင့်",
+              "အမိုးနီးယားသည် ထိုအခြေအနေများအောက်တွင် အဆိပ်ဖြစ်လာသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the last sentence summarising the real-world balancing act.",
+            ],
+            hintsMy: [
+              "လက်တွေ့ ကမ္ဘာ ညှိနှိုင်းမှုကို အကျဉ်းချုပ် ဖော်ပြထားသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Reversible Reactions and Equilibrium",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Equilibrium",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Dynamic equilibrium means forward and reverse rates are...",
+          questionMy:
+              "Dynamic Equilibrium ဆိုသည်မှာ ရှေ့ဆက်နှင့် နောက်ပြန် နှုန်းများသည်...",
+          optionsEn: [
+            "Equal",
+            "Both zero",
+            "Always increasing",
+            "Unrelated to each other",
+          ],
+          optionsMy: [
+            "ညီမျှသည်",
+            "နှစ်ခုလုံး သုည ဖြစ်သည်",
+            "အမြဲတမ်း တိုးမြင့်နေသည်",
+            "အချင်းချင်း မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Le Chatelier's principle predicts equilibrium will...",
+          questionMy:
+              "Le Chatelier's Principle က Equilibrium ...ကြောင်း ခန့်မှန်းသည်",
+          optionsEn: [
+            "Shift to partially oppose a disturbance",
+            "Never change under any condition",
+            "Always favour the reactants",
+            "Stop the reaction completely",
+          ],
+          optionsMy: [
+            "နှောင့်ယှက်မှုကို တစ်စိတ်တစ်ပိုင်း ဆန့်ကျင်ရန် ရွှေ့ပြောင်းမည်",
+            "မည်သည့် အခြေအနေတွင်မျှ ဘယ်တော့မှ မပြောင်းလဲမည်",
+            "Reactant များကို အမြဲတမ်း ဦးစားပေးမည်",
+            "ဓာတ်ပြုမှုကို လုံးဝ ရပ်တန့်စေမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the Haber process, the plant uses ~450°C and ~200 atm as a compromise between...",
+          questionMy:
+              "Haber Process တွင် စက်ရုံသည် ~450°C နှင့် ~200 atm ကို ...ကြား ညှိနှိုင်းမှုတစ်ခုအဖြစ် အသုံးပြုသည်",
+          optionsEn: [
+            "Equilibrium yield, reaction rate, and equipment cost",
+            "Colour and smell only",
+            "Price and weight only",
+            "Day and night only",
+          ],
+          optionsMy: [
+            "Equilibrium ရလဒ်၊ ဓာတ်ပြုနှုန်းနှင့် ကိရိယာ ကုန်ကျစရိတ်",
+            "အရောင်နှင့် အနံ့သာ",
+            "ဈေးနှုန်းနှင့် အလေးချိန်သာ",
+            "နေ့နှင့် ညသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 15: "Redox Reactions"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek15 = CourseWeekDef(
+  id: "course-igcse-chem-w15",
+  weekNumber: 15,
+  titleEn: "Redox Reactions",
+  titleMy: "Redox ဓာတ်ပြုမှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w15-d1",
+      dayNumber: 1,
+      titleEn: "Oxidation, Reduction, and Oxidation Numbers",
+      titleMy: "Oxidation, Reduction နှင့် Oxidation Number များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In terms of electron transfer, what is oxidation?",
+          questionMy:
+              "Electron လွှဲပြောင်းမှု အလိုက် Oxidation ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Loss of electrons",
+            "Gain of electrons",
+            "Loss of protons",
+            "Gain of neutrons",
+          ],
+          optionsMy: [
+            "Electron ဆုံးရှုံးခြင်း",
+            "Electron ရရှိခြင်း",
+            "Proton ဆုံးရှုံးခြင်း",
+            "Neutron ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Remember the mnemonic OIL RIG: Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons).",
+          ],
+          hintsMy: [
+            "OIL RIG ဟူသော ဖော်မြူလာကို မှတ်ထားပါ - Oxidation Is Loss (Electron), Reduction Is Gain (Electron)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reaction Zn + CuSO4 -> ZnSO4 + Cu, which species is oxidised?",
+          questionMy:
+              "Zn + CuSO4 -> ZnSO4 + Cu ဓာတ်ပြုမှုတွင် မည်သည့် Species က Oxidise ဖြစ်သနည်း။",
+          optionsEn: [
+            "Zn (zinc metal, losing electrons to become Zn2+)",
+            "Cu2+ (copper ions)",
+            "SO4^2- (sulfate ions)",
+            "Cu (copper metal)",
+          ],
+          optionsMy: [
+            "Zn (ဇင့် သတ္တု၊ Electron ဆုံးရှုံးကာ Zn2+ ဖြစ်လာသည်)",
+            "Cu2+ (ကြေးဝါ Ion များ)",
+            "SO4^2- (ဆာလဖိတ် Ion များ)",
+            "Cu (ကြေးဝါ သတ္တု)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Zinc metal starts as Zn (0 charge) and ends as Zn2+ in solution, meaning it lost 2 electrons -- oxidation.",
+            "Meanwhile Cu2+ gains electrons to become Cu metal -- reduction.",
+          ],
+          hintsMy: [
+            "ဇင့် သတ္တုသည် Zn (Charge 0) အဖြစ် စတင်ပြီး ပျော်ရည်တွင် Zn2+ အဖြစ် အဆုံးသတ်သည်၊ Electron ၂ ခု ဆုံးရှုံးကြောင်း ဆိုလိုသည် -- Oxidation။",
+            "ထိုအတွင်း Cu2+ သည် Electron ရရှိကာ ကြေးဝါ သတ္တု ဖြစ်လာသည် -- Reduction။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a reducing agent?",
+          questionMy: "Reducing Agent ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A substance that gives electrons to another substance, causing that substance to be reduced (and itself becoming oxidised)",
+            "A substance that always turns into a gas",
+            "A substance that gains electrons and stops other reactions",
+            "A substance with no effect on any reaction",
+          ],
+          optionsMy: [
+            "အခြားပစ္စည်းတစ်ခုကို Electron ပေးအပ်ကာ ထိုပစ္စည်းကို Reduce ဖြစ်စေသော (ကိုယ်တိုင် Oxidise ဖြစ်လာသော) ပစ္စည်း",
+            "အမြဲတမ်း ဓာတ်ငွေ့ အဖြစ် ပြောင်းလဲသွားသော ပစ္စည်း",
+            "Electron ရရှိကာ အခြားဓာတ်ပြုမှုများကို ရပ်တန့်စေသော ပစ္စည်း",
+            "မည်သည့် ဓာတ်ပြုမှုအပေါ်မျှ သက်ရောက်မှု မရှိသော ပစ္စည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A reducing agent 'reduces' the other substance by donating electrons to it -- and in doing so, it itself gets oxidised.",
+          ],
+          hintsMy: [
+            "Reducing Agent သည် Electron များ လှူဒါန်းခြင်းဖြင့် အခြားပစ္စည်းကို 'Reduce' ဖြစ်စေသည် -- ထိုသို့ လုပ်ဆောင်ရာတွင် ကိုယ်တိုင်ကလည်း Oxidise ဖြစ်လာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Redox Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Redox ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w15-dm-1",
+          termEn: "Oxidation",
+          termMy: "Oxidation",
+          matchEn:
+              "Loss of electrons (OIL) -- or gain of oxygen, or loss of hydrogen",
+          matchMy:
+              "Electron ဆုံးရှုံးခြင်း (OIL) -- သို့မဟုတ် အောက်ဆီဂျင် ရရှိခြင်း၊ သို့မဟုတ် ဟိုက်ဒရိုဂျင် ဆုံးရှုံးခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w15-dm-2",
+          termEn: "Reduction",
+          termMy: "Reduction",
+          matchEn:
+              "Gain of electrons (RIG) -- or loss of oxygen, or gain of hydrogen",
+          matchMy:
+              "Electron ရရှိခြင်း (RIG) -- သို့မဟုတ် အောက်ဆီဂျင် ဆုံးရှုံးခြင်း၊ သို့မဟုတ် ဟိုက်ဒရိုဂျင် ရရှိခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w15-dm-3",
+          termEn: "Oxidising agent",
+          termMy: "Oxidising Agent",
+          matchEn:
+              "A substance that takes electrons from another substance, getting itself reduced",
+          matchMy:
+              "အခြားပစ္စည်းတစ်ခုမှ Electron ယူကာ ကိုယ်တိုင် Reduce ဖြစ်သွားသော ပစ္စည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w15-dm-4",
+          termEn: "Reducing agent",
+          termMy: "Reducing Agent",
+          matchEn:
+              "A substance that gives electrons to another substance, getting itself oxidised",
+          matchMy:
+              "အခြားပစ္စည်းတစ်ခုကို Electron ပေးအပ်ကာ ကိုယ်တိုင် Oxidise ဖြစ်သွားသော ပစ္စည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w15-dm-5",
+          termEn: "Oxidation number",
+          termMy: "Oxidation Number",
+          matchEn:
+              "A value representing the apparent charge on an atom, tracking electron transfer in a reaction",
+          matchMy:
+              "ဓာတ်ပြုမှုတစ်ခုတွင် Electron လွှဲပြောင်းမှုကို ခြေရာခံသော အက်တမ်တစ်ခု၏ ထင်ရှားသော တာဝန်ခံအားကို ကိုယ်စားပြုသော တန်ဖိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Oxidised or Reduced?",
+      titleMy: "စီစစ်ကြမည် - Oxidise ဖြစ်သလား၊ Reduce ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Oxidised", "Reduced"],
+        bucketsMy: ["Oxidise ဖြစ်သည်", "Reduce ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w15-sort-1",
+            labelEn: "Zn -> Zn2+ + 2e- (zinc metal losing electrons)",
+            labelMy: "Zn -> Zn2+ + 2e- (Electron ဆုံးရှုံးသော ဇင့် သတ္တု)",
+            correctBucketEn: "Oxidised",
+            correctBucketMy: "Oxidise ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w15-sort-2",
+            labelEn: "Cu2+ + 2e- -> Cu (copper ions gaining electrons)",
+            labelMy: "Cu2+ + 2e- -> Cu (Electron ရရှိသော ကြေးဝါ Ion များ)",
+            correctBucketEn: "Reduced",
+            correctBucketMy: "Reduce ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w15-sort-3",
+            labelEn: "Iron rusting, reacting with oxygen to form iron oxide",
+            labelMy:
+                "သံသည် အောက်ဆီဂျင်နှင့် ဓာတ်ပြုကာ သံအောက်ဆိုဒ် ဖွဲ့စည်းသော ချေးတက်ခြင်း",
+            correctBucketEn: "Oxidised",
+            correctBucketMy: "Oxidise ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcsechem-w15-sort-4",
+            labelEn:
+                "Iron oxide losing oxygen when reacting with carbon in a blast furnace",
+            labelMy:
+                "Blast Furnace တွင် ကာဗွန်နှင့် ဓာတ်ပြုစဉ် အောက်ဆီဂျင် ဆုံးရှုံးသော သံအောက်ဆိုဒ်",
+            correctBucketEn: "Reduced",
+            correctBucketMy: "Reduce ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Metallurgist Daw Khin Explains the Blast Furnace",
+      titleMy:
+          "စာဖတ်ခြင်း - သတ္တုဗေဒပညာရှင် ဒေါ်ခင်၏ Blast Furnace ရှင်းလင်းချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Metallurgist Daw Khin Explains the Blast Furnace",
+        titleMy: "သတ္တုဗေဒပညာရှင် ဒေါ်ခင်၏ Blast Furnace ရှင်းလင်းချက်",
+        passageEn:
+            "Daw Khin, a metallurgical engineer, was leading a factory tour explaining how iron ore (mostly iron oxide, Fe2O3) is converted into usable iron metal inside a blast furnace. A visiting student asked her to identify exactly what redox reaction was taking place.\n\nDaw Khin explained that inside the furnace, carbon (from coke) burns in a limited supply of oxygen to form carbon monoxide (CO), which then reacts with the iron oxide: Fe2O3 + 3CO -> 2Fe + 3CO2. She asked the student to identify the oxidation states involved: in Fe2O3, iron has an oxidation state of +3; in the pure iron metal produced, iron has an oxidation state of 0. Since iron's oxidation state decreased from +3 to 0, iron was reduced -- it gained electrons, in effect, by losing its bonded oxygen.\n\nMeanwhile, she pointed to carbon: in carbon monoxide (CO), carbon has an oxidation state of +2; in carbon dioxide (CO2), carbon has an oxidation state of +4. Since carbon's oxidation state increased from +2 to +4, carbon was oxidised -- it lost electrons, in effect, by gaining more oxygen.\n\nThe student then asked which substance was the reducing agent. Daw Khin explained that carbon monoxide was the reducing agent, since it was the substance that caused the iron oxide to be reduced by donating (in effect) electrons to it, while carbon monoxide itself was oxidised to carbon dioxide in the process. She emphasised that in this reaction, exactly as in every redox reaction, oxidation and reduction always happen simultaneously and in matched amounts -- iron could not be reduced without carbon simultaneously being oxidised, since the electrons lost by carbon are precisely the electrons gained by iron.",
+        passageMy:
+            "သတ္တုဗေဒ အင်ဂျင်နီယာ ဒေါ်ခင်သည် သံသတ္တုကြမ်း (အများစုမှာ သံအောက်ဆိုဒ် Fe2O3) ကို Blast Furnace အတွင်း သုံးစွဲနိုင်သော သံသတ္တုအဖြစ် မည်သို့ ပြောင်းလဲကြောင်း ရှင်းပြသည့် စက်ရုံ ခရီးစဉ်တစ်ခုကို ဦးဆောင်နေခဲ့သည်။ လာရောက်လည်ပတ်သော ကျောင်းသားတစ်ဦးက မည်သည့် Redox ဓာတ်ပြုမှု ဖြစ်ပွားနေကြောင်း အတိအကျ ဖော်ထုတ်ပေးရန် သူမအား တောင်းဆိုခဲ့သည်။\n\nFurnace အတွင်း ကာဗွန် (Coke မှ) သည် ကန့်သတ်ထားသော အောက်ဆီဂျင် ပမာဏတွင် လောင်ကျွမ်းကာ ကာဗွန်မိုနောက်ဆိုဒ် (CO) ဖွဲ့စည်းပြီး ထို့နောက် သံအောက်ဆိုဒ်နှင့် ဓာတ်ပြုကြောင်း ဒေါ်ခင် ရှင်းပြခဲ့သည်- Fe2O3 + 3CO -> 2Fe + 3CO2။ ပါဝင်ပတ်သက်နေသော Oxidation State များကို ဖော်ထုတ်ရန် ကျောင်းသားအား သူမ တောင်းဆိုခဲ့သည်- Fe2O3 တွင် သံသည် Oxidation State +3 ရှိပြီး ထုတ်ပေးသော သန့်ရှင်းသော သံသတ္တုတွင် သံသည် Oxidation State 0 ရှိသည်။ သံ၏ Oxidation State သည် +3 မှ 0 သို့ ကျဆင်းသောကြောင့် သံသည် Reduce ဖြစ်ခဲ့သည် -- ၎င်း၏ ချည်နှောင်ထားသော အောက်ဆီဂျင်ကို ဆုံးရှုံးခြင်းဖြင့် Electron ရရှိသကဲ့သို့ ဖြစ်သည်။\n\nထိုအတွင်း သူမသည် ကာဗွန်ကို ညွှန်ပြခဲ့သည်- ကာဗွန်မိုနောက်ဆိုဒ် (CO) တွင် ကာဗွန်သည် Oxidation State +2 ရှိပြီး ကာဗွန်ဒိုင်အောက်ဆိုဒ် (CO2) တွင် ကာဗွန်သည် Oxidation State +4 ရှိသည်။ ကာဗွန်၏ Oxidation State သည် +2 မှ +4 သို့ တိုးလာသောကြောင့် ကာဗွန်သည် Oxidise ဖြစ်ခဲ့သည် -- အောက်ဆီဂျင် ပို၍ ရရှိခြင်းဖြင့် Electron ဆုံးရှုံးသကဲ့သို့ ဖြစ်သည်။\n\nထို့နောက် ကျောင်းသားသည် မည်သည့် ပစ္စည်းက Reducing Agent ဖြစ်ကြောင်း မေးမြန်းခဲ့သည်။ ကာဗွန်မိုနောက်ဆိုဒ်သည် သံအောက်ဆိုဒ်ကို Reduce ဖြစ်စေသော ပစ္စည်း ဖြစ်ခဲ့ကြောင်း -- ၎င်းကို Electron များ (တစ်နည်းအားဖြင့်) လှူဒါန်းကာ Reducing Agent ဖြစ်ခဲ့ပြီး ကာဗွန်မိုနောက်ဆိုဒ် ကိုယ်တိုင်ကလည်း ဤဖြစ်စဉ်တွင် ကာဗွန်ဒိုင်အောက်ဆိုဒ်အဖြစ် Oxidise ဖြစ်သွားခဲ့ကြောင်း ဒေါ်ခင် ရှင်းပြခဲ့သည်။ ဤဓာတ်ပြုမှုတွင် Redox ဓာတ်ပြုမှု တိုင်းကဲ့သို့ပင် Oxidation နှင့် Reduction သည် အမြဲတမ်း တစ်ချိန်တည်းနှင့် တူညီသော ပမာဏဖြင့် ဖြစ်ပေါ်ကြောင်း -- ကာဗွန် ဆုံးရှုံးသော Electron များသည် သံ ရရှိသော Electron များနှင့် အတိအကျ တူညီသောကြောင့် ကာဗွန်ကို တစ်ချိန်တည်း Oxidise မဖြစ်ဘဲ သံကို Reduce ၍ မရနိုင်ကြောင်း သူမ အလေးထား ဖော်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was iron considered 'reduced' in this reaction?",
+            questionMy:
+                "ဤဓာတ်ပြုမှုတွင် သံကို 'Reduce ဖြစ်သည်' ဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its oxidation state decreased from +3 to 0",
+              "Its oxidation state increased from 0 to +3",
+              "It turned into a gas",
+              "It gained more oxygen atoms",
+            ],
+            optionsMy: [
+              "၎င်း၏ Oxidation State သည် +3 မှ 0 သို့ ကျဆင်းခဲ့သောကြောင့်",
+              "၎င်း၏ Oxidation State သည် 0 မှ +3 သို့ တိုးလာခဲ့သောကြောင့်",
+              "ဓာတ်ငွေ့ ဖြစ်သွားခဲ့သောကြောင့်",
+              "အောက်ဆီဂျင် အက်တမ် ပို၍ ရရှိခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining iron's oxidation state change.",
+            ],
+            hintsMy: [
+              "သံ၏ Oxidation State ပြောင်းလဲမှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was carbon considered 'oxidised' in this reaction?",
+            questionMy:
+                "ဤဓာတ်ပြုမှုတွင် ကာဗွန်ကို 'Oxidise ဖြစ်သည်' ဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its oxidation state increased from +2 to +4",
+              "Its oxidation state decreased from +4 to +2",
+              "It disappeared completely",
+              "It became a solid",
+            ],
+            optionsMy: [
+              "၎င်း၏ Oxidation State သည် +2 မှ +4 သို့ တိုးလာခဲ့သောကြောင့်",
+              "၎င်း၏ Oxidation State သည် +4 မှ +2 သို့ ကျဆင်းခဲ့သောကြောင့်",
+              "လုံးဝ ပျောက်ကွယ်သွားခဲ့သောကြောင့်",
+              "အစိုင်အခဲ ဖြစ်သွားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining carbon's oxidation state change.",
+            ],
+            hintsMy: [
+              "ကာဗွန်၏ Oxidation State ပြောင်းလဲမှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, why was carbon monoxide the reducing agent?",
+            questionMy:
+                "ကာဗွန်မိုနောက်ဆိုဒ်ကို Reducing Agent ဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It caused the iron oxide to be reduced while itself being oxidised",
+              "It caused the iron oxide to be oxidised",
+              "It remained completely unchanged throughout",
+              "It was the only gas present",
+            ],
+            optionsMy: [
+              "ကိုယ်တိုင် Oxidise ဖြစ်နေစဉ် သံအောက်ဆိုဒ်ကို Reduce ဖြစ်စေခဲ့သောကြောင့်",
+              "သံအောက်ဆိုဒ်ကို Oxidise ဖြစ်စေခဲ့သောကြောင့်",
+              "တစ်လျှောက်လုံး လုံးဝ မပြောင်းလဲဘဲ ကျန်ရှိနေခဲ့သောကြောင့်",
+              "ရှိနေသော ဓာတ်ငွေ့တစ်ခုတည်း ဖြစ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence defining carbon monoxide's role as reducing agent.",
+            ],
+            hintsMy: [
+              "Reducing Agent အဖြစ် ကာဗွန်မိုနောက်ဆိုဒ်၏ အခန်းကဏ္ဍကို အနက်ဖွင့်ဆိုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, can oxidation happen without a matched reduction occurring simultaneously?",
+            questionMy:
+                "Oxidation သည် တစ်ချိန်တည်း ဖြစ်ပေါ်သော Reduction တစ်ခု မရှိဘဲ ဖြစ်ပေါ်နိုင်ပါသလား၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No -- oxidation and reduction always happen simultaneously and in matched amounts",
+              "Yes -- they are completely independent processes",
+              "Yes -- oxidation can happen alone in any reaction",
+              "The passage does not address this",
+            ],
+            optionsMy: [
+              "မဖြစ်နိုင်ပါ -- Oxidation နှင့် Reduction သည် အမြဲတမ်း တစ်ချိန်တည်းနှင့် တူညီသော ပမာဏဖြင့် ဖြစ်ပေါ်သည်",
+              "ဖြစ်နိုင်သည် -- ၎င်းတို့သည် လုံးဝ သီးခြား ဖြစ်စဉ်များ ဖြစ်ကြသည်",
+              "ဖြစ်နိုင်သည် -- Oxidation သည် ဓာတ်ပြုမှု မည်သည့်ဖြစ်စေတွင် တစ်ခုတည်း ဖြစ်ပေါ်နိုင်သည်",
+              "စာပိုဒ်က ၎င်းကို မဖော်ပြထားပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Redox Reactions",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Redox ဓာတ်ပြုမှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "OIL RIG stands for...",
+          questionMy: "OIL RIG ဆိုသည်မှာ...",
+          optionsEn: [
+            "Oxidation Is Loss, Reduction Is Gain (of electrons)",
+            "Oxygen Is Lost, Reduction Is Gas",
+            "Only a random acronym with no meaning",
+            "Oxidation Is Growth, Reduction Is Gain",
+          ],
+          optionsMy: [
+            "Oxidation Is Loss, Reduction Is Gain (Electron)",
+            "Oxygen Is Lost, Reduction Is Gas",
+            "အဓိပ္ပာယ် မရှိသော ကျပန်း အက္ခရာစုပ်",
+            "Oxidation Is Growth, Reduction Is Gain",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A reducing agent itself becomes...",
+          questionMy: "Reducing Agent ကိုယ်တိုင်သည်...",
+          optionsEn: ["Oxidised", "Reduced", "Unchanged", "A gas always"],
+          optionsMy: [
+            "Oxidise ဖြစ်သည်",
+            "Reduce ဖြစ်သည်",
+            "မပြောင်းလဲပါ",
+            "အမြဲတမ်း ဓာတ်ငွေ့ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a redox reaction, oxidation and reduction...",
+          questionMy:
+              "Redox ဓာတ်ပြုမှုတစ်ခုတွင် Oxidation နှင့် Reduction သည်...",
+          optionsEn: [
+            "Always happen simultaneously in matched amounts",
+            "Never happen in the same reaction",
+            "Only happen in electrolysis",
+            "Are completely unrelated",
+          ],
+          optionsMy: [
+            "အမြဲတမ်း တစ်ချိန်တည်း တူညီသော ပမာဏဖြင့် ဖြစ်ပေါ်သည်",
+            "ဓာတ်ပြုမှု တစ်ခုတည်းတွင် ဘယ်တော့မှ မဖြစ်ပေါ်ပါ",
+            "Electrolysis တွင်သာ ဖြစ်ပေါ်သည်",
+            "လုံးဝ မသက်ဆိုင်ကြပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 16 (Capstone): "Reaction Kinetics Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek16 = CourseWeekDef(
+  id: "course-igcse-chem-w16",
+  weekNumber: 16,
+  titleEn: "Reaction Kinetics Studio",
+  titleMy: "ဓာတ်ပြုမှု ရွေ့လျားဗေဒ အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w16-d1",
+      dayNumber: 1,
+      titleEn: "Equilibrium Shifts and Redox Balancing",
+      titleMy: "Equilibrium ရွှေ့ပြောင်းမှုများနှင့် Redox ချိန်ညှိခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the equilibrium 2SO2 + O2 <=> 2SO3 (exothermic forward), if you remove SO3 as it forms, what happens to the equilibrium?",
+          questionMy:
+              "2SO2 + O2 <=> 2SO3 (ရှေ့ဆက် Exothermic) Equilibrium တွင် SO3 ကို ဖွဲ့စည်းသည့်အတိုင်း ဖယ်ရှားလိုက်ပါက Equilibrium အဘယ်ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "It shifts forward to produce more SO3, replacing what was removed",
+            "It shifts backward, producing more SO2",
+            "It stops reacting completely",
+            "Nothing changes at all",
+          ],
+          optionsMy: [
+            "ဖယ်ရှားလိုက်သည့် SO3 ကို အစားထိုးရန် ရှေ့ဆက်ဘက်သို့ ရွှေ့ပြောင်းကာ SO3 ပို၍ ထုတ်ပေးသည်",
+            "နောက်ပြန် ရွှေ့ပြောင်းကာ SO2 ပို၍ ထုတ်ပေးသည်",
+            "ဓာတ်ပြုမှုကို လုံးဝ ရပ်တန့်စေသည်",
+            "မည်သည့်အရာမျှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "By Le Chatelier's principle, removing a product encourages the system to make more of it, shifting the equilibrium forward.",
+          ],
+          hintsMy: [
+            "Le Chatelier's Principle အရ Product တစ်ခု ဖယ်ရှားခြင်းက စနစ်ကို ၎င်းကို ပို၍ ထုတ်ပေးရန် အားပေးကာ Equilibrium ကို ရှေ့ဆက်ဘက်သို့ ရွှေ့ပြောင်းစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the redox reaction Mg + 2HCl -> MgCl2 + H2, which species is the oxidising agent?",
+          questionMy:
+              "Mg + 2HCl -> MgCl2 + H2 Redox ဓာတ်ပြုမှုတွင် မည်သည့် Species က Oxidising Agent ဖြစ်သနည်း။",
+          optionsEn: [
+            "H+ ions (from HCl), which gain electrons and are reduced to H2",
+            "Mg metal, which is reduced",
+            "Cl- ions, which are oxidised",
+            "MgCl2, which is the reducing agent",
+          ],
+          optionsMy: [
+            "H+ Ion များ (HCl မှ)၊ Electron ရရှိကာ H2 အဖြစ် Reduce ဖြစ်သည်",
+            "ဇင့် သတ္တု၊ Reduce ဖြစ်သည်",
+            "Cl- Ion များ၊ Oxidise ဖြစ်သည်",
+            "MgCl2၊ Reducing Agent ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Mg loses electrons (oxidised) becoming Mg2+; H+ ions gain those electrons (reduced) becoming H2 gas.",
+            "The oxidising agent is the species that gets reduced -- here, that's H+.",
+          ],
+          hintsMy: [
+            "Mg သည် Electron ဆုံးရှုံးကာ (Oxidise ဖြစ်) Mg2+ ဖြစ်လာသည်; H+ Ion များသည် ထို Electron များ ရရှိကာ (Reduce ဖြစ်) H2 ဓာတ်ငွေ့ ဖြစ်လာသည်။",
+            "Oxidising Agent သည် Reduce ဖြစ်သွားသော Species ဖြစ်သည် -- ဤနေရာတွင် H+ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must exam answers always specify BOTH the direction of an equilibrium shift AND the reasoning behind it?",
+          questionMy:
+              "စာမေးပွဲ အဖြေများသည် Equilibrium ရွှေ့ပြောင်းမှု၏ ဦးတည်ချက်နှင့် ၎င်းနောက်ကွယ်ရှိ ယုတ္တိဗေဒ နှစ်ခုစလုံးကို အမြဲတမ်း ဖော်ပြရန် လိုအပ်သည့် အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "Because IGCSE mark schemes award marks separately for the correct direction and the correct Le Chatelier reasoning",
+            "Because direction alone is always sufficient for full marks",
+            "Because reasoning is never actually assessed",
+            "Because equilibrium questions never appear on exams",
+          ],
+          optionsMy: [
+            "IGCSE Mark Scheme များသည် မှန်ကန်သော ဦးတည်ချက်နှင့် မှန်ကန်သော Le Chatelier ယုတ္တိဗေဒအတွက် အမှတ်များကို သီးခြား ချီးမြှင့်သောကြောင့်",
+            "ဦးတည်ချက်တစ်ခုတည်းသည် အမှတ်အပြည့်အတွက် အမြဲတမ်း လုံလောက်သောကြောင့်",
+            "ယုတ္တိဗေဒကို ဘယ်တော့မှ အမှန်တကယ် အကဲဖြတ်ခြင်း မရှိသောကြောင့်",
+            "Equilibrium မေးခွန်းများသည် စာမေးပွဲများတွင် ဘယ်တော့မှ မပေါ်ပါသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Full-mark answers show both what happens and why, following the complete Le Chatelier logic chain.",
+          ],
+          hintsMy: [
+            "အမှတ်အပြည့် အဖြေများသည် Le Chatelier ယုတ္တိဗေဒ ကွင်းဆက် အပြည့်အစုံကို လိုက်နာကာ အဘယ်ဖြစ်ကြောင်းနှင့် အဘယ်ကြောင့်ဖြစ်ကြောင်း နှစ်ခုစလုံးကို ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စတုတ္ထတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w16-dm-1",
+          termEn: "Rate-determining factors",
+          termMy: "Rate-Determining Factors",
+          matchEn:
+              "Temperature, concentration, surface area, and catalysts -- the four factors affecting reaction rate",
+          matchMy:
+              "အပူချိန်၊ Concentration၊ မျက်နှာပြင် ဧရိယာနှင့် Catalyst -- ဓာတ်ပြုနှုန်းကို သက်ရောက်သော အချက် လေးခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w16-dm-2",
+          termEn: "Equilibrium shift",
+          termMy: "Equilibrium Shift",
+          matchEn:
+              "A change in the relative amounts of reactants and products in response to a disturbance",
+          matchMy:
+              "နှောင့်ယှက်မှုတစ်ခုကို တုံ့ပြန်ကာ Reactant များနှင့် Product များ၏ နှိုင်းရ ပမာဏများ ပြောင်းလဲမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w16-dm-3",
+          termEn: "Redox reaction",
+          termMy: "Redox Reaction",
+          matchEn: "A reaction involving simultaneous oxidation and reduction",
+          matchMy: "Oxidation နှင့် Reduction တစ်ချိန်တည်း ပါဝင်သော ဓာတ်ပြုမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w16-dm-4",
+          termEn: "Oxidation number change",
+          termMy: "Oxidation Number Change",
+          matchEn:
+              "The way chemists track which species were oxidised or reduced in a reaction",
+          matchMy:
+              "ဓာတ်ပြုမှုတစ်ခုတွင် Species မည်သည်တို့ Oxidise သို့မဟုတ် Reduce ဖြစ်ကြောင်း ဓာတုဗေဒပညာရှင်များ ခြေရာခံသော နည်းလမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w16-dm-5",
+          termEn: "Compromise conditions",
+          termMy: "Compromise Conditions",
+          matchEn:
+              "Industrial operating conditions balancing equilibrium yield against reaction rate and cost",
+          matchMy:
+              "Equilibrium ရလဒ်ကို ဓာတ်ပြုနှုန်းနှင့် ကုန်ကျစရိတ်ဖြင့် ချိန်ညှိသော စက်မှု လုပ်ဆောင်ချက် အခြေအနေများ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Rate, Equilibrium, or Redox Concept?",
+      titleMy: "စီစစ်ကြမည် - Rate, Equilibrium သို့မဟုတ် Redox သဘောတရား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rate", "Equilibrium", "Redox"],
+        bucketsMy: ["Rate", "Equilibrium", "Redox"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w16-sort-1",
+            labelEn: "Powdering a solid to increase collision frequency",
+            labelMy:
+                "ထိတွေ့မှု ကြိမ်နှုန်း မြှင့်တင်ရန် အစိုင်အခဲကို မှုန့်ခြေခြင်း",
+            correctBucketEn: "Rate",
+            correctBucketMy: "Rate",
+          ),
+          SortingItem(
+            id: "igcsechem-w16-sort-2",
+            labelEn: "Increasing pressure to shift toward fewer gas moles",
+            labelMy:
+                "ဓာတ်ငွေ့ Mole ပိုနည်းသော ဘက်သို့ ရွှေ့ပြောင်းရန် ဖိအား တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Equilibrium",
+            correctBucketMy: "Equilibrium",
+          ),
+          SortingItem(
+            id: "igcsechem-w16-sort-3",
+            labelEn:
+                "Tracking oxidation number changes to identify what was oxidised",
+            labelMy:
+                "Oxidise ဖြစ်ခဲ့သည်ကို ဖော်ထုတ်ရန် Oxidation Number ပြောင်းလဲမှုများ ခြေရာခံခြင်း",
+            correctBucketEn: "Redox",
+            correctBucketMy: "Redox",
+          ),
+          SortingItem(
+            id: "igcsechem-w16-sort-4",
+            labelEn: "Identifying the reducing agent in a chemical equation",
+            labelMy: "ဓာတုညီမျှခြင်းတစ်ခုရှိ Reducing Agent ကို ဖော်ထုတ်ခြင်း",
+            correctBucketEn: "Redox",
+            correctBucketMy: "Redox",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Term 4 Exam Prep Marathon",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ စတုတ္ထတန်း စာမေးပွဲ ပြင်ဆင်မှု မာရသွန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Term 4 Exam Prep Marathon",
+        titleMy: "ရှင်သန့်၏ စတုတ္ထတန်း စာမေးပွဲ ပြင်ဆင်မှု မာရသွန်",
+        passageEn:
+            "As her fourth term of IGCSE chemistry drew to a close, Shin Thant sat down with Ko Zaw for a final review session, determined to connect all three of the term's major topics -- rates of reaction, equilibrium, and redox -- into one coherent mental map before her end-of-term test.\n\nKo Zaw posed a single combined scenario: the industrial production of sulfuric acid via the Contact process, where sulfur dioxide reacts with oxygen to form sulfur trioxide, 2SO2 + O2 <=> 2SO3, an exothermic, reversible reaction that also happens to be a redox reaction. He asked Shin Thant to analyse it from all three angles.\n\nFrom the rates perspective, Shin Thant explained that the plant uses a vanadium(V) oxide catalyst to speed up the reaction without being consumed, allowing a commercially viable rate even at a moderate temperature. From the equilibrium perspective, she noted that since the forward reaction reduces gas moles from 3 to 2 and is exothermic, both increased pressure and decreased temperature would theoretically increase the equilibrium yield of SO3 -- but, just as in the Haber process, engineers compromise with a moderate temperature (around 450°C) to keep the rate practical, since a slow reaction at very low temperature would be commercially useless even with a high theoretical yield.\n\nFinally, from the redox perspective, Shin Thant worked out the oxidation number of sulfur in SO2 (+4) and in SO3 (+6), and concluded that sulfur was oxidised, since its oxidation number increased; oxygen's oxidation number, meanwhile, did not change in this particular way of analysing it, since elemental O2 (oxidation number 0) forms bonds within SO3 where its number becomes -2, meaning oxygen was reduced. Ko Zaw beamed with pride: over four terms, from her first diffusion experiment with a bottle of perfume to this single reaction analysed through rates, equilibrium, and redox all at once, Shin Thant had built exactly the kind of integrated chemical reasoning the IGCSE Extended Paper was designed to reward.",
+        passageMy:
+            "IGCSE ဓာတုဗေဒ စတုတ္ထတန်း အဆုံးသတ်ခါနီးတွင် ရှင်သန့်သည် ၎င်း၏ တန်းအဆုံး စာမေးပွဲမတိုင်မီ တန်း၏ အဓိက ခေါင်းစဉ် သုံးခု -- ဓာတ်ပြုနှုန်းများ၊ Equilibrium နှင့် Redox -- ကို စိတ္တံ ဖွဲ့စည်းပုံတစ်ခုတည်းအဖြစ် ချိတ်ဆက်ရန် သန္နိဋ္ဌာန်ချကာ ကိုဇော်နှင့် နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း အစည်းအဝေးတွင် ထိုင်ခဲ့သည်။\n\nကိုဇော်သည် ပေါင်းစပ် ရာဇဝင်တစ်ခု တင်ပြခဲ့သည်- ဆာလဖာဒိုင်အောက်ဆိုဒ်သည် အောက်ဆီဂျင်နှင့် ဓာတ်ပြုကာ ဆာလဖာထရိုင်အောက်ဆိုဒ် ဖွဲ့စည်းသော Contact Process မှတစ်ဆင့် ဆာလဖျူးရစ် အက်ဆစ် စက်မှု ထုတ်လုပ်ခြင်း၊ 2SO2 + O2 <=> 2SO3၊ Exothermic ဖြစ်ပြီး ပြန်လှည့်နိုင်သော ဓာတ်ပြုမှုတစ်ခု ဖြစ်ကာ Redox ဓာတ်ပြုမှု တစ်ခုလည်း ဖြစ်သည်။ ဤသည်ကို ဒေါင်ဖက် သုံးဖက်လုံးမှ ခွဲခြမ်းစိတ်ဖြာရန် ရှင်သန့်ကို သူ တောင်းဆိုခဲ့သည်။\n\nNhuန်းရှုထောင့်မှ ကြည့်လျှင် စက်ရုံသည် Vanadium(V) Oxide Catalyst ကို သုံးစွဲမခံရဘဲ ဓာတ်ပြုမှုကို အရှိန်မြှင့်ရန် အသုံးပြုကာ အလယ်အလတ် အပူချိန်တွင်ပင် ကုန်သွယ်ရေးအရ အသုံးဝင်သော နှုန်းတစ်ခု ခွင့်ပြုကြောင်း ရှင်သန့် ရှင်းပြခဲ့သည်။ Equilibrium ရှုထောင့်မှ ကြည့်လျှင် ရှေ့ဆက် ဓာတ်ပြုမှုက ဓာတ်ငွေ့ Mole ကို ၃ မှ ၂ သို့ လျော့ချပြီး Exothermic ဖြစ်သောကြောင့် ဖိအား တိုးမြှင့်ခြင်းနှင့် အပူချိန် လျော့ချခြင်း နှစ်ခုစလုံးသည် သီအိုရီအရ SO3 ၏ Equilibrium ရလဒ်ကို တိုးမြှင့်ပေးမည်ဖြစ်ကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည် -- သို့သော် Haber Process ကဲ့သို့ပင် အင်ဂျင်နီယာများသည် နှုန်းကို လက်တွေ့ကျစေရန် အလယ်အလတ် အပူချိန် (450°C ခန့်) ဖြင့် ညှိနှိုင်းကြသည်၊ အကြောင်းမှာ အလွန် နိမ့်သော အပူချိန်တွင် နှေးကွေးသော ဓာတ်ပြုမှုသည် သီအိုရီအရ ရလဒ် မြင့်သော်လည်း ကုန်သွယ်ရေးအရ အသုံးမဝင်လိမ့်မည်ဖြစ်ကြောင်း ဖြစ်သည်။\n\nနောက်ဆုံးတွင် Redox ရှုထောင့်မှ ရှင်သန့်သည် SO2 ရှိ ဆာလဖာ၏ Oxidation Number (+4) နှင့် SO3 ရှိ (+6) ကို တွက်ချက်ကာ ဆာလဖာသည် ၎င်း၏ Oxidation Number တိုးလာသောကြောင့် Oxidise ဖြစ်ခဲ့ကြောင်း သုံးသပ်ခဲ့သည်; ထိုအတွင်း အောက်ဆီဂျင်၏ Oxidation Number သည် ဤသို့ ခွဲခြမ်းစိတ်ဖြာသည့် အထူးနည်းလမ်းအရ မပြောင်းလဲခဲ့ပါ၊ အကြောင်းမှာ Elemental O2 (Oxidation Number 0) သည် SO3 အတွင်း Bond များ ဖွဲ့စည်းရာတွင် ၎င်း၏ Number သည် -2 ဖြစ်လာကာ အောက်ဆီဂျင်ကို Reduce ဖြစ်ကြောင်း ဆိုလိုသည်။ ကိုဇော် ဂုဏ်ယူစွာ ရွှင်ပြုံးခဲ့သည်- တန်းလေးခု ကျော်လွန်စဉ် ရေမွှေး ပုလင်းတစ်ပုလင်းဖြင့် ၎င်း၏ ပထမဆုံး Diffusion စမ်းသပ်ချက်မှ Rates, Equilibrium နှင့် Redox တစ်ပြိုင်နက် ခွဲခြမ်းစိတ်ဖြာသော ဓာတ်ပြုမှုတစ်ခုတည်းအထိ ရှင်သန့်သည် IGCSE Extended Paper က ဆုချီးမြှင့်ရန် ဒီဇိုင်းထုတ်ထားသော ပေါင်းစပ် ဓာတုဗေဒ ယုတ္တိဗေဒ အမျိုးအစား အတိအကျကို တည်ဆောက်ခဲ့ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does the plant use a vanadium(V) oxide catalyst?",
+            questionMy:
+                "စက်ရုံသည် Vanadium(V) Oxide Catalyst ကို အသုံးပြုသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To speed up the reaction without being consumed, allowing a commercially viable rate",
+              "To change the colour of sulfur trioxide",
+              "To lower the equilibrium yield deliberately",
+              "To make the reaction endothermic",
+            ],
+            optionsMy: [
+              "သုံးစွဲမခံရဘဲ ဓာတ်ပြုမှုကို အရှိန်မြှင့်ကာ ကုန်သွယ်ရေးအရ အသုံးဝင်သော နှုန်းတစ်ခု ခွင့်ပြုရန်",
+              "ဆာလဖာထရိုင်အောက်ဆိုဒ်၏ အရောင် ပြောင်းလဲရန်",
+              "Equilibrium ရလဒ်ကို တမင်တကာ လျော့ချရန်",
+              "ဓာတ်ပြုမှုကို Endothermic ဖြစ်စေရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining the catalyst's purpose."],
+            hintsMy: [
+              "Catalyst ၏ ရည်ရွယ်ချက်ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does the plant use a moderate temperature rather than a very low one?",
+            questionMy:
+                "စက်ရုံသည် အလွန် နိမ့်သော အပူချိန်အစား အလယ်အလတ် အပူချိန် အသုံးပြုသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A very low temperature would give a slow, commercially useless rate despite a high theoretical yield",
+              "Low temperature is always more expensive",
+              "Low temperature destroys the catalyst instantly",
+              "There is no real reason -- it is arbitrary",
+            ],
+            optionsMy: [
+              "အလွန် နိမ့်သော အပူချိန်သည် သီအိုရီအရ ရလဒ် မြင့်သော်လည်း နှေးကွေး၍ ကုန်သွယ်ရေးအရ အသုံးမဝင်သော နှုန်းကို ပေးမည်ဖြစ်သောကြောင့်",
+              "အပူချိန် နိမ့်ခြင်းသည် အမြဲတမ်း ပို၍ ဈေးကြီးသောကြောင့်",
+              "အပူချိန် နိမ့်ခြင်းက Catalyst ကို ချက်ချင်း ဖျက်ဆီးသောကြောင့်",
+              "အမှန်တကယ် အကြောင်းရင်း မရှိပါ -- ကျပန်းသာ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the compromise between rate and yield.",
+            ],
+            hintsMy: [
+              "နှုန်းနှင့် ရလဒ်ကြား ညှိနှိုင်းမှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why was sulfur considered oxidised?",
+            questionMy:
+                "ဆာလဖာကို Oxidise ဖြစ်သည် ဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its oxidation number increased from +4 to +6",
+              "Its oxidation number decreased from +6 to +4",
+              "It turned into a liquid",
+              "It disappeared from the equation entirely",
+            ],
+            optionsMy: [
+              "၎င်း၏ Oxidation Number သည် +4 မှ +6 သို့ တိုးလာခဲ့သောကြောင့်",
+              "၎င်း၏ Oxidation Number သည် +6 မှ +4 သို့ ကျဆင်းခဲ့သောကြောင့်",
+              "အရည် ဖြစ်သွားခဲ့သောကြောင့်",
+              "ညီမျှခြင်းမှ လုံးဝ ပျောက်ကွယ်သွားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with sulfur's oxidation number calculation.",
+            ],
+            hintsMy: [
+              "ဆာလဖာ၏ Oxidation Number တွက်ချက်မှု ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the whole passage, what three chemistry topics did Shin Thant connect in her analysis?",
+            questionMy:
+                "ရှင်သန့်သည် ၎င်း၏ ခွဲခြမ်းစိတ်ဖြာမှုတွင် ဓာတုဗေဒ ခေါင်းစဉ် သုံးခုကို ချိတ်ဆက်ခဲ့ကြောင်းကို စာပိုဒ်တစ်ခုလုံးအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rates of reaction, equilibrium, and redox",
+              "Only atomic structure and bonding",
+              "Only stoichiometry and moles",
+              "Only electrolysis and energetics",
+            ],
+            optionsMy: [
+              "ဓာတ်ပြုနှုန်းများ၊ Equilibrium နှင့် Redox",
+              "Atomic Structure နှင့် Bonding သာ",
+              "Stoichiometry နှင့် Mole သာ",
+              "Electrolysis နှင့် Energetics သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first paragraph naming the three major topics of the term.",
+            ],
+            hintsMy: [
+              "ဤတန်း၏ အဓိက ခေါင်းစဉ် သုံးခုကို ဖော်ပြထားသော ပထမ စာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Recap: Reaction Rates, Equilibrium, and Redox",
+      titleMy:
+          "စတုတ္ထတန်း ပြန်လည်သုံးသပ်ခြင်း - Rates, Equilibrium နှင့် Redox",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Catalysts increase reaction rate without...",
+          questionMy:
+              "Catalyst များသည် ...မရှိဘဲ ဓာတ်ပြုနှုန်းကို တိုးမြှင့်ပေးသည်",
+          optionsEn: [
+            "Being used up themselves",
+            "Changing anything",
+            "Adding activation energy",
+            "Forming any product",
+          ],
+          optionsMy: [
+            "ကိုယ်တိုင် သုံးစွဲခံရခြင်း",
+            "မည်သည့်အရာမျှ ပြောင်းလဲခြင်း",
+            "Activation Energy ထည့်သွင်းခြင်း",
+            "Product မည်သည်ကိုမျှ ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing pressure on an equilibrium shifts it toward the side with...",
+          questionMy:
+              "Equilibrium တစ်ခုတွင် ဖိအား တိုးမြှင့်ခြင်းက ...ဘက်သို့ ရွှေ့ပြောင်းစေသည်",
+          optionsEn: [
+            "Fewer gas moles",
+            "More gas moles always",
+            "No gas at all",
+            "Higher temperature",
+          ],
+          optionsMy: [
+            "ဓာတ်ငွေ့ Mole ပိုနည်းသော",
+            "ဓာတ်ငွေ့ Mole ပိုများသော အမြဲတမ်း",
+            "ဓာတ်ငွေ့ လုံးဝ မရှိသော",
+            "အပူချိန် ပိုမြင့်သော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a redox reaction, the oxidising agent itself becomes...",
+          questionMy:
+              "Redox ဓာတ်ပြုမှုတစ်ခုတွင် Oxidising Agent ကိုယ်တိုင်သည်...",
+          optionsEn: ["Reduced", "Oxidised", "Unchanged", "A gas always"],
+          optionsMy: [
+            "Reduce ဖြစ်သည်",
+            "Oxidise ဖြစ်သည်",
+            "မပြောင်းလဲပါ",
+            "အမြဲတမ်း ဓာတ်ငွေ့ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -4571,11 +6109,25 @@ const CourseTermDef igcseChemistryTerm3 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-3 of 9 authored so far (Terms 4-9 to
-/// follow: Rates & Equilibrium; Acids/Bases/Periodic Table; Metals &
-/// Environment; Organic Chemistry; Experimental Skills; Exam Prep &
-/// Graduation). `totalWeeks: 36` reflects the full 9-term aspirational
-/// course length.
+const CourseTermDef igcseChemistryTerm4 = CourseTermDef(
+  id: "course-igcse-chem-term4",
+  termNumber: 4,
+  titleEn: "Chemical Reactions, Rates and Equilibrium",
+  titleMy: "ဓာတုဗေဒ ဓာတ်ပြုမှုများ၊ Rates နှင့် Equilibrium",
+  certificateTitleEn: "IGCSE Chemistry Term 4 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ စတုတ္ထတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek13,
+    _igcseChemWeek14,
+    _igcseChemWeek15,
+    _igcseChemWeek16,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-4 of 9 authored so far (Terms 5-9 to
+/// follow: Acids/Bases/Periodic Table; Metals & Environment; Organic
+/// Chemistry; Experimental Skills; Exam Prep & Graduation). `totalWeeks: 36`
+/// reflects the full 9-term aspirational course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -4587,5 +6139,10 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   descriptionMy:
       "အမှုန်ဒြပ်ဝတ္ထု၊ အက်တမ်ဖွဲ့စည်းပုံ၊ တွဲစပ်မှု၊ Stoichiometry၊ Energetics၊ ဓာတ်ပြုမြန်နှုန်း၊ အက်ဆစ်နှင့် ဘေ့စ်၊ Periodic Table၊ ဇီဝဓာတုဗေဒနှင့် လက်တွေ့စမ်းသပ်မှု နည်းစနစ်များကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE ဓာတုဗေဒ လမ်းကြောင်း။",
   totalWeeks: 36,
-  terms: [igcseChemistryTerm1, igcseChemistryTerm2, igcseChemistryTerm3],
+  terms: [
+    igcseChemistryTerm1,
+    igcseChemistryTerm2,
+    igcseChemistryTerm3,
+    igcseChemistryTerm4,
+  ],
 );
