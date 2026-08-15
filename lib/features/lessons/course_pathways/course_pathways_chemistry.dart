@@ -3047,6 +3047,1495 @@ const CourseWeekDef _igcseChemWeek8 = CourseWeekDef(
   ],
 );
 
+// =====================================================================
+// Week 9: "Electrolysis Principles"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek9 = CourseWeekDef(
+  id: "course-igcse-chem-w9",
+  weekNumber: 9,
+  titleEn: "Electrolysis Principles",
+  titleMy: "လျှပ်စစ်ဖြင့် ဓာတ်ခွဲခြင်း အခြေခံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w9-d1",
+      dayNumber: 1,
+      titleEn: "Principles of Electrolysis",
+      titleMy: "Electrolysis အခြေခံ သဘောတရားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is electrolysis?",
+          questionMy: "Electrolysis ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The decomposition of an ionic compound using electricity, when molten or dissolved",
+            "The process of dissolving any solid in water",
+            "A method of heating substances without electricity",
+            "The transfer of heat between two solids",
+          ],
+          optionsMy: [
+            "အရည်ပျော် သို့မဟုတ် ပျော်ဝင်ထားစဉ် Ionic ဒြပ်ပေါင်းတစ်ခုကို လျှပ်စစ်အသုံးပြု၍ ခွဲထုတ်ခြင်း",
+            "အစိုင်အခဲ မည်သည်ကိုမဆို ရေတွင် ပျော်ဝင်စေသော လုပ်ငန်းစဉ်",
+            "လျှပ်စစ်မပါဘဲ ပစ္စည်းများကို အပူပေးသော နည်းလမ်း",
+            "အစိုင်အခဲ နှစ်ခုကြား အပူ လွှဲပြောင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Electrolysis requires free-moving ions -- so it only works on molten or dissolved ionic compounds, never solids.",
+          ],
+          hintsMy: [
+            "Electrolysis တွင် လွတ်လပ်စွာ ရွေ့လျားနိုင်သော Ion များ လိုအပ်သည် -- ထို့ကြောင့် အရည်ပျော် သို့မဟုတ် ပျော်ဝင်ထားသော Ionic ဒြပ်ပေါင်းများတွင်သာ အလုပ်လုပ်ပြီး အစိုင်အခဲများတွင် ဘယ်တော့မှ အလုပ်မလုပ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During electrolysis, what happens at the cathode (negative electrode)?",
+          questionMy:
+              "Electrolysis အတွင်း Cathode (အနုတ်လျှပ်ကူးတိုင်) တွင် အဘယ်ကို ဖြစ်ပေါ်သနည်း။",
+          optionsEn: [
+            "Positive ions (cations) gain electrons and are reduced",
+            "Negative ions (anions) gain electrons",
+            "No reaction happens at the cathode at all",
+            "Only oxygen gas is always produced",
+          ],
+          optionsMy: [
+            "အပြုသဘော Ion များ (Cation) သည် Electron ရရှိကာ Reduce ဖြစ်သည်",
+            "အနုတ်သဘော Ion များ (Anion) သည် Electron ရရှိသည်",
+            "Cathode တွင် ဓာတ်ပြုမှု လုံးဝ မဖြစ်ပေါ်ပါ",
+            "အောက်ဆီဂျင် ဓာတ်ငွေ့ကိုသာ အမြဲတမ်း ထုတ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The cathode is negatively charged, so it attracts positively charged cations, which then gain electrons.",
+          ],
+          hintsMy: [
+            "Cathode သည် အနုတ်သဘော တာဝန်ခံအား ဆောင်သောကြောင့် အပြုသဘော Cation များကို ဆွဲငင်ကာ Electron ရရှိစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When molten lead bromide (PbBr2) is electrolysed, what forms at the anode (positive electrode)?",
+          questionMy:
+              "အရည်ပျော် ပလန်ဘရိုမိုဒ် (PbBr2) ကို Electrolysis ပြုလုပ်သည့်အခါ Anode (အပြုသဘော လျှပ်ကူးတိုင်) တွင် အဘယ်ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Bromine gas (Br2)",
+            "Lead metal (Pb)",
+            "Hydrogen gas",
+            "Oxygen gas",
+          ],
+          optionsMy: [
+            "ဘရိုမင်း ဓာတ်ငွေ့ (Br2)",
+            "ပလန် သတ္တု (Pb)",
+            "ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့",
+            "အောက်ဆီဂျင် ဓာတ်ငွေ့",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The anode attracts negative ions (anions) -- in molten PbBr2, the anions are Br- ions, which lose electrons to form Br2 gas.",
+            "Meanwhile, the positive Pb2+ ions move to the cathode and gain electrons to form molten lead metal.",
+          ],
+          hintsMy: [
+            "Anode သည် အနုတ်သဘော Ion များ (Anion) ကို ဆွဲငင်သည် -- အရည်ပျော် PbBr2 တွင် Anion များသည် Br- Ion များဖြစ်ပြီး Electron များ ဆုံးရှုံးကာ Br2 ဓာတ်ငွေ့ ဖြစ်လာသည်။",
+            "ထို့ကြားတွင် အပြုသဘော Pb2+ Ion များသည် Cathode သို့ ရွေ့လျားကာ Electron ရရှိကာ အရည်ပျော် ပလန်သတ္တု ဖြစ်လာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electrolysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Electrolysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w9-dm-1",
+          termEn: "Electrolyte",
+          termMy: "Electrolyte",
+          matchEn:
+              "A molten or dissolved ionic compound that conducts electricity and is decomposed by it",
+          matchMy:
+              "လျှပ်စစ် ဖြတ်သန်းစေပြီး ၎င်းဖြင့် ခွဲထုတ်ခံရသော အရည်ပျော် သို့မဟုတ် ပျော်ဝင်ထားသော Ionic ဒြပ်ပေါင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w9-dm-2",
+          termEn: "Cathode",
+          termMy: "Cathode",
+          matchEn:
+              "The negative electrode, where positive ions gain electrons (reduction)",
+          matchMy:
+              "အပြုသဘော Ion များ Electron ရရှိသော (Reduction) အနုတ်လျှပ်ကူးတိုင်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w9-dm-3",
+          termEn: "Anode",
+          termMy: "Anode",
+          matchEn:
+              "The positive electrode, where negative ions lose electrons (oxidation)",
+          matchMy:
+              "အနုတ်သဘော Ion များ Electron ဆုံးရှုံးသော (Oxidation) အပြုလျှပ်ကူးတိုင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w9-dm-4",
+          termEn: "Cation",
+          termMy: "Cation",
+          matchEn: "A positively charged ion, attracted to the cathode",
+          matchMy: "Cathode ဘက်သို့ ဆွဲငင်ခံရသော အပြုသဘော တာဝန်ခံအားရှိသော Ion",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w9-dm-5",
+          termEn: "Anion",
+          termMy: "Anion",
+          matchEn: "A negatively charged ion, attracted to the anode",
+          matchMy: "Anode ဘက်သို့ ဆွဲငင်ခံရသော အနုတ်သဘော တာဝန်ခံအားရှိသော Ion",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cathode or Anode?",
+      titleMy: "စီစစ်ကြမည် - Cathode လား၊ Anode လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cathode (negative)", "Anode (positive)"],
+        bucketsMy: ["Cathode (အနုတ်)", "Anode (အပြု)"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w9-sort-1",
+            labelEn: "Attracts positive cations",
+            labelMy: "အပြုသဘော Cation များကို ဆွဲငင်သည်",
+            correctBucketEn: "Cathode (negative)",
+            correctBucketMy: "Cathode (အနုတ်)",
+          ),
+          SortingItem(
+            id: "igcsechem-w9-sort-2",
+            labelEn: "Attracts negative anions",
+            labelMy: "အနုတ်သဘော Anion များကို ဆွဲငင်သည်",
+            correctBucketEn: "Anode (positive)",
+            correctBucketMy: "Anode (အပြု)",
+          ),
+          SortingItem(
+            id: "igcsechem-w9-sort-3",
+            labelEn: "Where reduction (gain of electrons) happens",
+            labelMy: "Reduction (Electron ရရှိခြင်း) ဖြစ်ပေါ်ရာနေရာ",
+            correctBucketEn: "Cathode (negative)",
+            correctBucketMy: "Cathode (အနုတ်)",
+          ),
+          SortingItem(
+            id: "igcsechem-w9-sort-4",
+            labelEn: "Where oxidation (loss of electrons) happens",
+            labelMy: "Oxidation (Electron ဆုံးရှုံးခြင်း) ဖြစ်ပေါ်ရာနေရာ",
+            correctBucketEn: "Anode (positive)",
+            correctBucketMy: "Anode (အပြု)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw Demonstrates Molten Lead Bromide Electrolysis",
+      titleMy:
+          "စာဖတ်ခြင်း - ကိုဇော်က အရည်ပျော် ပလန်ဘရိုမိုဒ် Electrolysis ကို သရုပ်ပြခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw Demonstrates Molten Lead Bromide Electrolysis",
+        titleMy:
+            "ကိုဇော်က အရည်ပျော် ပလန်ဘရိုမိုဒ် Electrolysis ကို သရုပ်ပြခြင်း",
+        passageEn:
+            "Ko Zaw set up a classic demonstration for his advanced students: melting solid lead bromide (PbBr2) until it became a liquid, then inserting two carbon electrodes connected to a power supply. He asked the class to predict what would happen once the current was switched on.\n\nA student named Zin Ko Ko recalled that solid ionic compounds cannot conduct electricity because their ions are locked in a fixed lattice, but once melted, the ions become free to move. He predicted that the Pb2+ cations would migrate toward the negative cathode, while the Br- anions would migrate toward the positive anode -- exactly the electrolysis principle from the textbook.\n\nWhen the current was switched on, the class observed two things happening simultaneously: a small pool of silvery molten lead metal began collecting at the cathode, and orange-brown bromine vapour began bubbling up at the anode. Ko Zaw explained the electrode reactions precisely: at the cathode, each Pb2+ ion gained two electrons to become neutral lead atoms (Pb2+ + 2e- -> Pb), a reduction reaction. At the anode, each pair of Br- ions lost one electron each to form a neutral bromine molecule (2Br- -> Br2 + 2e-), an oxidation reaction.\n\nKo Zaw then asked a final question: could this same experiment work with solid lead bromide, without melting it first? Zin Ko Ko answered confidently that it could not, since the ions in the solid lattice have no freedom to move to the electrodes at all -- melting (or dissolving) an ionic compound is not just a convenience, but an absolute requirement for electrolysis to occur, since only mobile ions can carry charge through the electrolyte and react at the electrodes.",
+        passageMy:
+            "ကိုဇော်သည် သူ၏ အဆင့်မြင့် ကျောင်းသားများအတွက် ရှေးရိုးရိုးင်း သရုပ်ပြမှုတစ်ခု ပြင်ဆင်ခဲ့သည်- အစိုင်အခဲ ပလန်ဘရိုမိုဒ် (PbBr2) ကို အရည်ဖြစ်သည်အထိ အပူပေးပြီးနောက် ဓာတ်အားပေး ကိရိယာနှင့် ဆက်သွယ်ထားသော ကာဗွန် လျှပ်ကူးတိုင် နှစ်ခုကို ထည့်သွင်းခဲ့သည်။ လျှပ်စီးကို ဖွင့်လိုက်သည့်အခါ အဘယ်ဖြစ်လာမည်ကို ခန့်မှန်းရန် အတန်းကို သူ တောင်းဆိုခဲ့သည်။\n\nဇင်ကိုကို ဟူသော ကျောင်းသားတစ်ဦးက အစိုင်အခဲ Ionic ဒြပ်ပေါင်းများသည် ၎င်းတို့၏ Ion များ Lattice ပုံသေတစ်ခုတွင် ပိတ်မိနေသောကြောင့် လျှပ်စစ် မဖြတ်သန်းစေနိုင်သော်လည်း အရည်ပျော်လိုက်သည်နှင့် Ion များသည် လွတ်လပ်စွာ ရွေ့လျားနိုင်လာကြောင်း သတိရမိခဲ့သည်။ Pb2+ Cation များသည် အနုတ် Cathode ဘက်သို့ ရွှေ့ပြောင်းမည်ဖြစ်ပြီး Br- Anion များကမူ အပြု Anode ဘက်သို့ ရွှေ့ပြောင်းမည်ဟု သူ ခန့်မှန်းခဲ့သည် -- စာအုပ်ထဲမှ Electrolysis သဘောတရားနှင့် အတိအကျ ကိုက်ညီသည်။\n\nလျှပ်စီးကို ဖွင့်လိုက်သည့်အခါ အတန်းသည် တစ်ချိန်တည်းတွင် အရာနှစ်ခု ဖြစ်ပေါ်လာသည်ကို တွေ့မြင်ခဲ့သည်- ငွေရောင် အရည်ပျော် ပလန်သတ္တု ရေကန်ငယ်တစ်ခု Cathode တွင် စုစည်းစတင်လာပြီး လိမ္မော်ရင့်ရောင် ဘရိုမင်း ငွေ့ ရေဖုတ်များ Anode တွင် စတင် ပွင့်ထွက်လာသည်ကို တွေ့ရသည်။ ကိုဇော်သည် လျှပ်ကူးတိုင် ဓာတ်ပြုမှုများကို အတိအကျ ရှင်းပြခဲ့သည်- Cathode တွင် Pb2+ Ion တစ်ခုစီသည် Electron နှစ်ခု ရရှိကာ Neutral ပလန် အက်တမ်များ ဖြစ်လာသည် (Pb2+ + 2e- -> Pb), Reduction ဓာတ်ပြုမှုတစ်ခု ဖြစ်သည်။ Anode တွင် Br- Ion တွဲတစ်ခုစီသည် Electron တစ်ခုစီ ဆုံးရှုံးကာ Neutral ဘရိုမင်း မော်လီကျူး ဖြစ်လာသည် (2Br- -> Br2 + 2e-), Oxidation ဓာတ်ပြုမှုတစ်ခု ဖြစ်သည်။\n\nကိုဇော်သည် နောက်ဆုံး မေးခွန်းတစ်ခု ဆက်လက် မေးမြန်းခဲ့သည်- ဤစမ်းသပ်ချက်တူတစ်ခုသည် အရည်မပျော်ရသေးသော အစိုင်အခဲ ပလန်ဘရိုမိုဒ်ဖြင့် အလုပ်လုပ်နိုင်ပါသလား။ ဇင်ကိုကိုက ယုံကြည်စွာ ဖြေဆိုခဲ့သည်- မလုပ်နိုင်ပါ၊ အကြောင်းမှာ အစိုင်အခဲ Lattice ရှိ Ion များတွင် လျှပ်ကူးတိုင်များဆီ ရွှေ့ပြောင်းရန် လွတ်လပ်မှု လုံးဝ မရှိသောကြောင့် ဖြစ်သည် -- Ionic ဒြပ်ပေါင်းတစ်ခုကို အရည်ပျော်ခြင်း (သို့မဟုတ် ပျော်ဝင်ခြင်း) သည် အဆင်ပြေမှုတစ်ခုသာ မဟုတ်ဘဲ Electrolysis ဖြစ်ပေါ်ရန် လုံးဝ လိုအပ်ချက် ဖြစ်သည်၊ အကြောင်းမှာ ရွေ့လျားနိုင်သော Ion များသာလျှင် Electrolyte တစ်လျှောက် တာဝန်ခံအား သယ်ဆောင်ပြီး လျှပ်ကူးတိုင်များတွင် ဓာတ်ပြုနိုင်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, where do the Pb2+ cations migrate to during electrolysis?",
+            questionMy:
+                "Electrolysis အတွင်း Pb2+ Cation များ မည်သို့ ရွှေ့ပြောင်းကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Toward the negative cathode",
+              "Toward the positive anode",
+              "They do not move at all",
+              "Out of the container entirely",
+            ],
+            optionsMy: [
+              "အနုတ် Cathode ဘက်သို့",
+              "အပြု Anode ဘက်သို့",
+              "လုံးဝ ရွေ့လျားခြင်း မရှိပါ",
+              "ခနနောက်ခန့်ထဲမှ လုံးဝ ထွက်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about cation migration in paragraph 2.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၂ ရှိ Cation ရွှေ့ပြောင်းမှုအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is observed forming at the cathode?",
+            questionMy:
+                "Cathode တွင် ဖွဲ့စည်းလာသည်ကို တွေ့ရသော အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A pool of silvery molten lead metal",
+              "Orange-brown bromine vapour",
+              "Bubbles of hydrogen gas",
+              "A blue precipitate",
+            ],
+            optionsMy: [
+              "ငွေရောင် အရည်ပျော် ပလန်သတ္တု ရေကန်ငယ်",
+              "လိမ္မော်ရင့်ရောင် ဘရိုမင်း ငွေ့",
+              "ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ ပူဖောင်းများ",
+              "ပြာရောင် Precipitate",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what happens at the cathode in paragraph 3.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ရှိ Cathode တွင် ဖြစ်ပျက်သည်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what type of reaction occurs at the anode, and why?",
+            questionMy:
+                "Anode တွင် ဖြစ်ပေါ်သော ဓာတ်ပြုမှု အမျိုးအစားနှင့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxidation, because Br- ions lose electrons to form Br2",
+              "Reduction, because Br- ions gain electrons",
+              "No reaction occurs at the anode",
+              "Combustion, because bromine catches fire",
+            ],
+            optionsMy: [
+              "Oxidation၊ Br- Ion များ Electron ဆုံးရှုံးကာ Br2 ဖြစ်လာသောကြောင့်",
+              "Reduction၊ Br- Ion များ Electron ရရှိသောကြောင့်",
+              "Anode တွင် ဓာတ်ပြုမှု လုံးဝ မဖြစ်ပေါ်ပါ",
+              "Combustion၊ ဘရိုမင်း မီးလောင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the anode's electrode reaction.",
+            ],
+            hintsMy: [
+              "Anode ၏ လျှပ်ကူးတိုင် ဓာတ်ပြုမှုကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why can't solid lead bromide be electrolysed?",
+            questionMy:
+                "အစိုင်အခဲ ပလန်ဘရိုမိုဒ်ကို Electrolysis မပြုလုပ်နိုင်ခြင်း အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The ions in the solid lattice have no freedom to move to the electrodes",
+              "Lead bromide is not an ionic compound",
+              "Solid lead bromide is too expensive",
+              "Carbon electrodes cannot touch solids",
+            ],
+            optionsMy: [
+              "အစိုင်အခဲ Lattice ရှိ Ion များတွင် လျှပ်ကူးတိုင်များဆီ ရွှေ့ပြောင်းရန် လွတ်လပ်မှု မရှိသောကြောင့်",
+              "ပလန်ဘရိုမိုဒ်သည် Ionic ဒြပ်ပေါင်း မဟုတ်သောကြောင့်",
+              "အစိုင်အခဲ ပလန်ဘရိုမိုဒ်သည် အလွန် ဈေးကြီးသောကြောင့်",
+              "ကာဗွန် လျှပ်ကူးတိုင်များသည် အစိုင်အခဲကို ထိတွေ့၍ မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Zin Ko Ko's final answer."],
+            hintsMy: ["ဇင်ကိုကို၏ နောက်ဆုံး အဖြေကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Electrolysis Principles",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Electrolysis အခြေခံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Electrolysis only works on...",
+          questionMy: "Electrolysis သည် ...တွင်သာ အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Molten or dissolved ionic compounds",
+            "Any solid substance",
+            "Covalent gases only",
+            "Pure metals only",
+          ],
+          optionsMy: [
+            "အရည်ပျော် သို့မဟုတ် ပျော်ဝင်ထားသော Ionic ဒြပ်ပေါင်းများ",
+            "အစိုင်အခဲ ပစ္စည်း မည်သည်ကိုမဆို",
+            "Covalent ဓာတ်ငွေ့များသာ",
+            "သန့်ရှင်းသော သတ္တုများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At the cathode, positive ions...",
+          questionMy: "Cathode တွင် အပြုသဘော Ion များသည်...",
+          optionsEn: [
+            "Gain electrons (reduction)",
+            "Lose electrons (oxidation)",
+            "Disappear completely",
+            "Turn into gas always",
+          ],
+          optionsMy: [
+            "Electron ရရှိသည် (Reduction)",
+            "Electron ဆုံးရှုံးသည် (Oxidation)",
+            "လုံးဝ ပျောက်ကွယ်သွားသည်",
+            "အမြဲတမ်း ဓာတ်ငွေ့ ဖြစ်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At the anode, negative ions...",
+          questionMy: "Anode တွင် အနုတ်သဘော Ion များသည်...",
+          optionsEn: [
+            "Lose electrons (oxidation)",
+            "Gain electrons (reduction)",
+            "Remain unchanged",
+            "Become cathode ions",
+          ],
+          optionsMy: [
+            "Electron ဆုံးရှုံးသည် (Oxidation)",
+            "Electron ရရှိသည် (Reduction)",
+            "မပြောင်းလဲဘဲ ကျန်ရှိနေသည်",
+            "Cathode Ion များ ဖြစ်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 10: "Electrolysis of Aqueous Solutions"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek10 = CourseWeekDef(
+  id: "course-igcse-chem-w10",
+  weekNumber: 10,
+  titleEn: "Electrolysis of Aqueous Solutions",
+  titleMy: "ရေပျော်ရည်များကို လျှပ်စစ်ဖြင့် ဓာတ်ခွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w10-d1",
+      dayNumber: 1,
+      titleEn: "Preferential Discharge and Industrial Uses",
+      titleMy: "Preferential Discharge နှင့် စက်မှု အသုံးချမှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In aqueous electrolysis, why might a gas form at an electrode instead of the expected metal or non-metal?",
+          questionMy:
+              "ရေပျော်ရည် Electrolysis တွင် မျှော်လင့်ထားသော သတ္တု သို့မဟုတ် သတ္တုမဟုတ်အစား လျှပ်ကူးတိုင်တစ်ခုတွင် ဓာတ်ငွေ့ ဖြစ်ပေါ်လာနိုင်ခြင်း အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "Water itself provides H+ and OH- ions, which may be preferentially discharged over the dissolved compound's ions",
+            "Water always evaporates instantly during electrolysis",
+            "Gases are never produced in aqueous electrolysis",
+            "The electrodes react with the glass container",
+          ],
+          optionsMy: [
+            "ရေကိုယ်တိုင်က H+ နှင့် OH- Ion များ ပေးပြီး ပျော်ဝင်ထားသော ဒြပ်ပေါင်း၏ Ion များထက် ဦးစားပေး Discharge ဖြစ်နိုင်သောကြောင့်",
+            "Electrolysis အတွင်း ရေသည် အမြဲတမ်း ချက်ချင်း အငွေ့ပျံသွားသောကြောင့်",
+            "ရေပျော်ရည် Electrolysis တွင် ဓာတ်ငွေ့များ ဘယ်တော့မှ မထုတ်ပေးသောကြောင့်",
+            "လျှပ်ကူးတိုင်များသည် ဖန်ခနနောက်ခန်နှင့် ဓာတ်ပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Aqueous solutions always contain water's own H+ and OH- ions in addition to the dissolved compound's ions.",
+            "The rule of thumb: at the cathode, less reactive ions (like H+) discharge preferentially over more reactive metal ions.",
+          ],
+          hintsMy: [
+            "ရေပျော်ရည်များတွင် ပျော်ဝင်ထားသော ဒြပ်ပေါင်း၏ Ion များအပြင် ရေကိုယ်တိုင်၏ H+ နှင့် OH- Ion များပါ အမြဲ ပါဝင်သည်။",
+            "အခြေခံစည်းမျဉ်း - Cathode တွင် လှုပ်ရှားမှု နည်းသော Ion များ (H+ ကဲ့သို့) သည် လှုပ်ရှားမှု ပိုများသော သတ္တု Ion များထက် ဦးစားပေး Discharge ဖြစ်တတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When dilute aqueous sodium chloride is electrolysed, what is typically produced at the cathode?",
+          questionMy:
+              "ရေရေးအား ဆိုဒီယမ်ကလိုရိုဒ် ပျော်ရည်ကို Electrolysis ပြုလုပ်သည့်အခါ Cathode တွင် ပုံမှန် အားဖြင့် အဘယ် ထုတ်ပေးလေ့ရှိသနည်း။",
+          optionsEn: [
+            "Hydrogen gas (H2), not sodium metal",
+            "Sodium metal (Na)",
+            "Chlorine gas (Cl2)",
+            "Oxygen gas (O2)",
+          ],
+          optionsMy: [
+            "ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ (H2)၊ ဆိုဒီယမ် သတ္တု မဟုတ်",
+            "ဆိုဒီယမ် သတ္တု (Na)",
+            "ကလိုရင်း ဓာတ်ငွေ့ (Cl2)",
+            "အောက်ဆီဂျင် ဓာတ်ငွေ့ (O2)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sodium is a very reactive metal, so H+ ions from water are discharged preferentially at the cathode instead.",
+          ],
+          hintsMy: [
+            "ဆိုဒီယမ်သည် လှုပ်ရှားမှု များစွာရှိသော သတ္တုဖြစ်သောကြောင့် ရေမှ H+ Ion များသည် Cathode တွင် ၎င်းအစား ဦးစားပေး Discharge ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In copper refining by electrolysis, why is the anode made of impure copper and the cathode of pure copper?",
+          questionMy:
+              "Electrolysis ဖြင့် ကြေးဝါ သန့်စင်ခြင်းတွင် Anode ကို မသန့်စင်သော ကြေးဝါဖြင့်၊ Cathode ကို သန့်စင်သော ကြေးဝါဖြင့် ပြုလုပ်ထားရသည့် အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "The impure anode dissolves into solution, and pure copper ions are deposited onto the cathode, purifying the metal",
+            "It is simply a random design choice with no chemical reason",
+            "Impure copper is cheaper to buy, that's the only reason",
+            "Pure copper cannot conduct electricity at all",
+          ],
+          optionsMy: [
+            "မသန့်စင်သော Anode သည် ပျော်ရည်ထဲသို့ ပျော်ဝင်သွားပြီး သန့်စင်သော ကြေးဝါ Ion များသည် Cathode ပေါ်တွင် စွန်းကျန်ကာ သတ္တုကို သန့်စင်စေသည်",
+            "ဓာတုနည်းကျ အကြောင်းရင်း လုံးဝ မရှိဘဲ ကျပန်း ဒီဇိုင်း ရွေးချယ်မှုတစ်ခုသာ ဖြစ်သောကြောင့်",
+            "မသန့်စင်သော ကြေးဝါသည် ဝယ်ယူရန် ပိုပေါသောကြောင့်သာ ဖြစ်သည်",
+            "သန့်စင်သော ကြေးဝါသည် လျှပ်စစ်ကို လုံးဝ မဖြတ်သန်းစေနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the industrial electrolytic refining process: the impure anode loses electrons and dissolves, while pure Cu2+ ions gain electrons and deposit on the cathode.",
+          ],
+          hintsMy: [
+            "၎င်းသည် စက်မှု Electrolytic သန့်စင်ခြင်း လုပ်ငန်းစဉ် ဖြစ်သည် - မသန့်စင်သော Anode သည် Electron ဆုံးရှုံးကာ ပျော်ဝင်သွားပြီး သန့်စင်သော Cu2+ Ion များသည် Electron ရရှိကာ Cathode ပေါ်တွင် စွန်းကျန်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Aqueous Electrolysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရေပျော်ရည် Electrolysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w10-dm-1",
+          termEn: "Preferential discharge",
+          termMy: "Preferential Discharge",
+          matchEn:
+              "When one type of ion is discharged at an electrode in preference to another",
+          matchMy:
+              "Ion အမျိုးအစားတစ်ခုကို အခြားတစ်ခုထက် ဦးစားပေး လျှပ်ကူးတိုင်တွင် Discharge ဖြစ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w10-dm-2",
+          termEn: "Electroplating",
+          termMy: "Electroplating",
+          matchEn:
+              "Using electrolysis to coat one metal with a thin layer of another metal",
+          matchMy:
+              "သတ္တုတစ်ခုကို အခြား သတ္တုတစ်ခု၏ လွှာပါးဖြင့် ကပ်ကပ်ရန် Electrolysis အသုံးပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w10-dm-3",
+          termEn: "Electrolytic refining",
+          termMy: "Electrolytic Refining",
+          matchEn:
+              "Using electrolysis to purify an impure metal, such as copper",
+          matchMy:
+              "ကြေးဝါကဲ့သို့ မသန့်စင်သော သတ္တုကို သန့်စင်စေရန် Electrolysis အသုံးပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w10-dm-4",
+          termEn: "Inert electrode",
+          termMy: "Inert Electrode",
+          matchEn:
+              "An electrode (like graphite or platinum) that does not react during electrolysis",
+          matchMy:
+              "Electrolysis အတွင်း ဓာတ်မပြုသော လျှပ်ကူးတိုင် (Graphite သို့မဟုတ် Platinum ကဲ့သို့)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w10-dm-5",
+          termEn: "Concentrated brine",
+          termMy: "Concentrated Brine",
+          matchEn:
+              "A strong aqueous sodium chloride solution, used industrially to produce chlorine, hydrogen, and sodium hydroxide",
+          matchMy:
+              "ကလိုရင်း၊ ဟိုက်ဒရိုဂျင်နှင့် ဆိုဒီယမ် ဟိုက်ဒရောက်ဆိုဒ် ထုတ်လုပ်ရန် စက်မှုတွင် အသုံးပြုသော ခိုင်မာသော ဆိုဒီယမ်ကလိုရိုဒ် ရေပျော်ရည်",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Electroplating, Refining, or Brine Electrolysis?",
+      titleMy:
+          "စီစစ်ကြမည် - Electroplating လား၊ Refining လား၊ Brine Electrolysis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Electroplating", "Copper Refining", "Brine Electrolysis"],
+        bucketsMy: ["Electroplating", "ကြေးဝါ Refining", "Brine Electrolysis"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w10-sort-1",
+            labelEn: "Coating a spoon with a thin layer of silver",
+            labelMy: "ဇွန်းတစ်ခုကို ငွေလွှာပါးဖြင့် ကပ်ကပ်ခြင်း",
+            correctBucketEn: "Electroplating",
+            correctBucketMy: "Electroplating",
+          ),
+          SortingItem(
+            id: "igcsechem-w10-sort-2",
+            labelEn:
+                "Impure copper anode dissolving to deposit pure copper on the cathode",
+            labelMy:
+                "မသန့်စင်သော ကြေးဝါ Anode ပျော်ဝင်ကာ သန့်စင်သော ကြေးဝါကို Cathode ပေါ်တွင် စွန်းကျန်စေခြင်း",
+            correctBucketEn: "Copper Refining",
+            correctBucketMy: "ကြေးဝါ Refining",
+          ),
+          SortingItem(
+            id: "igcsechem-w10-sort-3",
+            labelEn:
+                "Producing chlorine gas, hydrogen gas, and sodium hydroxide from concentrated salt solution",
+            labelMy:
+                "ခိုင်မာသော ဆားပျော်ရည်မှ ကလိုရင်း ဓာတ်ငွေ့၊ ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့နှင့် ဆိုဒီယမ် ဟိုက်ဒရောက်ဆိုဒ် ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Brine Electrolysis",
+            correctBucketMy: "Brine Electrolysis",
+          ),
+          SortingItem(
+            id: "igcsechem-w10-sort-4",
+            labelEn: "Coating a car bumper with a thin layer of chromium",
+            labelMy: "ကားရှေ့ဘန်ပါကို ခရိုမီယမ် လွှာပါးဖြင့် ကပ်ကပ်ခြင်း",
+            correctBucketEn: "Electroplating",
+            correctBucketMy: "Electroplating",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Jeweller Ma Ei Ei Electroplates a Silver Ring",
+      titleMy:
+          "စာဖတ်ခြင်း - ရွှေထည်ဆိုင်ရှင် မအေးအေးက ငွေလက်စွပ်ကို Electroplate ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Jeweller Ma Ei Ei Electroplates a Silver Ring",
+        titleMy:
+            "ရွှေထည်ဆိုင်ရှင် မအေးအေးက ငွေလက်စွပ်ကို Electroplate ပြုလုပ်ခြင်း",
+        passageEn:
+            "Ma Ei Ei runs a small jewellery workshop in Yangon, where she often electroplates cheaper metal rings with a thin layer of pure silver to make them look and feel more valuable, at a fraction of the cost of solid silver. A visiting chemistry student, curious about her craft, asked her to explain the science behind it.\n\nMa Ei Ei set up the cell exactly as she did every day: the object to be plated -- a brass ring -- was connected as the cathode, while a bar of pure silver metal was connected as the anode. Both were dipped into a solution of silver nitrate, which provided free-moving Ag+ ions throughout the electrolyte.\n\nShe explained that when the current flowed, positive Ag+ ions in the solution migrated toward the negative cathode -- the brass ring -- where they gained electrons and were deposited as a thin, even layer of solid silver metal, gradually building up a shiny coating. Meanwhile, at the anode, the solid silver bar itself lost electrons and dissolved into the solution as new Ag+ ions, continuously replenishing the silver ions used up at the cathode.\n\nThe student asked why the anode had to be made of the same metal being plated (silver), rather than an inert material like graphite. Ma Ei Ei explained that if the anode were inert, the Ag+ concentration in the solution would steadily fall as ions were deposited on the ring, eventually running out; but because the silver anode continuously dissolves and replaces the Ag+ ions used up, the concentration of the electrolyte stays constant throughout the entire plating process, allowing a smooth, even coating to build up for as long as needed.",
+        passageMy:
+            "မအေးအေးသည် ရန်ကုန်တွင် ရွှေထည် အလုပ်ရုံငယ်တစ်ခု လည်ပတ်နေပြီး ဈေးပေါသော သတ္တု လက်စွပ်များကို သန့်စင်သော ငွေ လွှာပါးဖြင့် Electroplate ပြုလုပ်လေ့ရှိသည်၊ အခိုင်အမာ ငွေတန်ဖိုး၏ အနည်းငယ်ဖြင့် ပို၍ တန်ဖိုးရှိသော အသွင်အပြင်နှင့် ခံစားချက် ရရှိစေရန် ဖြစ်သည်။ သူမ၏ လက်မှုပညာကို စိတ်ဝင်စားသော ဓာတုဗေဒ ကျောင်းသားတစ်ဦးက ၎င်း၏ နောက်ကွယ်ရှိ သိပ္ပံပညာကို ရှင်းပြပေးရန် သူမအား တောင်းဆိုခဲ့သည်။\n\nမအေးအေးသည် ၎င်း နေ့စဉ် ပြုလုပ်နေသည့်အတိုင်း ဆဲလ်ကို ပြင်ဆင်ခဲ့သည်- ပလိတ်ခံရမည့် ပစ္စည်း -- ကြေးနီ လက်စွပ်တစ်ခု -- ကို Cathode အဖြစ် ချိတ်ဆက်ထားပြီး သန့်စင်သော ငွေသတ္တု ချောင်းတစ်ခုကို Anode အဖြစ် ချိတ်ဆက်ထားသည်။ နှစ်ခုစလုံးကို Electrolyte တစ်လျှောက် လွတ်လပ်စွာ ရွေ့လျားနိုင်သော Ag+ Ion များ ပေးသော ငွေနိုက်ထရိတ် ပျော်ရည်ထဲသို့ နှစ်ခဲ့သည်။\n\nလျှပ်စီး စီးဆင်းသည့်အခါ ပျော်ရည်ရှိ အပြုသဘော Ag+ Ion များသည် အနုတ် Cathode -- ကြေးနီ လက်စွပ် -- ဘက်သို့ ရွှေ့ပြောင်းကာ Electron ရရှိပြီး အစိုင်အခဲ ငွေသတ္တု၏ ပါးလွှာ၍ တစ်ညီတည်း လွှာတစ်ခုအဖြစ် စွန်းကျန်ကာ တဖြည်းဖြည်း တောက်ပသော အလွှာတစ်ခု တည်ဆောက်လာကြောင်း သူမ ရှင်းပြခဲ့သည်။ ထို့ကြားတွင် Anode ၌ အစိုင်အခဲ ငွေချောင်းကိုယ်တိုင်သည် Electron ဆုံးရှုံးကာ Ag+ Ion အသစ်များအဖြစ် ပျော်ရည်ထဲသို့ ပျော်ဝင်သွားကာ Cathode တွင် သုံးစွဲသွားသော ငွေ Ion များကို အဆက်မပြတ် ဖြည့်တင်းပေးသည်။\n\nကျောင်းသားသည် Anode ကို Graphite ကဲ့သို့ Inert ပစ္စည်းအစား ပလိတ်ခံနေသည့် သတ္တု (ငွေ) တူညီစွာ အဘယ်ကြောင့် ပြုလုပ်ထားရသည်ကို မေးမြန်းခဲ့သည်။ Anode သည် Inert ဖြစ်ခဲ့ပါက Ag+ Concentration သည် Ion များ လက်စွပ်ပေါ်တွင် စွန်းကျန်လာသည်နှင့်အမျှ တစ်တဖြည်းဖြည်း ကျဆင်းကာ နောက်ဆုံး ကုန်ဆုံးသွားလိမ့်မည်ဖြစ်ကြောင်း၊ သို့သော် ငွေ Anode သည် အဆက်မပြတ် ပျော်ဝင်ကာ သုံးစွဲသွားသော Ag+ Ion များကို အစားထိုးပေးနေသောကြောင့် Electrolyte ၏ Concentration သည် ပလိတ်ခြင်း လုပ်ငန်းစဉ်တစ်ခုလုံးတစ်လျှောက် ကိန်းသေ ဆက်လက် တည်ရှိကာ လိုအပ်သမျှ ကြာချိန်အထိ ချောမွေ့၍ တစ်ညီတည်းသော အလွှာတစ်ခု တည်ဆောက်နိုင်စေကြောင်း မအေးအေး ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which electrode was the brass ring connected as?",
+            questionMy:
+                "ကြေးနီ လက်စွပ်ကို မည်သည့် လျှပ်ကူးတိုင်အဖြစ် ချိတ်ဆက်ထားကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The cathode",
+              "The anode",
+              "Neither electrode",
+              "Both electrodes at once",
+            ],
+            optionsMy: [
+              "Cathode",
+              "Anode",
+              "လျှပ်ကူးတိုင် နှစ်ခုစလုံး မဟုတ်ပါ",
+              "လျှပ်ကူးတိုင် နှစ်ခုစလုံး တစ်ပြိုင်နက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing the cell setup."],
+            hintsMy: [
+              "ဆဲလ် ပြင်ဆင်မှုကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happens to Ag+ ions at the cathode?",
+            questionMy:
+                "Cathode တွင် Ag+ Ion များ အဘယ်ဖြစ်ပျက်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They gain electrons and deposit as solid silver metal",
+              "They lose electrons and dissolve",
+              "They turn into a gas and escape",
+              "They remain dissolved forever",
+            ],
+            optionsMy: [
+              "Electron ရရှိပြီး အစိုင်အခဲ ငွေသတ္တုအဖြစ် စွန်းကျန်သည်",
+              "Electron ဆုံးရှုံးပြီး ပျော်ဝင်သွားသည်",
+              "ဓာတ်ငွေ့ ဖြစ်ကာ ထွက်ပြေးသည်",
+              "အမြဲတမ်း ပျော်ဝင်နေဆဲ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what happens at the cathode.",
+            ],
+            hintsMy: [
+              "Cathode တွင် ဖြစ်ပျက်သည်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happens to the silver anode during plating?",
+            questionMy:
+                "ပလိတ်ခြင်း အတွင်း ငွေ Anode အဘယ်ဖြစ်ပျက်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It loses electrons and dissolves into the solution as new Ag+ ions",
+              "It gains electrons and grows larger",
+              "It remains completely unchanged",
+              "It turns into brass",
+            ],
+            optionsMy: [
+              "Electron ဆုံးရှုံးကာ Ag+ Ion အသစ်များအဖြစ် ပျော်ရည်ထဲသို့ ပျော်ဝင်သွားသည်",
+              "Electron ရရှိကာ ပို၍ ကြီးမားလာသည်",
+              "လုံးဝ မပြောင်းလဲဘဲ ကျန်ရှိနေသည်",
+              "ကြေးနီအဖြစ် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second half of the sentence describing the anode's role.",
+            ],
+            hintsMy: [
+              "Anode ၏ အခန်းကဏ္ဍကို ဖော်ပြထားသော စာကြောင်း၏ ဒုတိယ ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why must the anode be made of silver rather than an inert material?",
+            questionMy:
+                "Anode ကို Inert ပစ္စည်းအစား ငွေဖြင့် ပြုလုပ်ထားရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It continuously replaces the Ag+ ions used up, keeping the electrolyte's concentration constant",
+              "Inert materials are always more expensive than silver",
+              "Inert anodes catch fire during electrolysis",
+              "There is no real reason -- it is just tradition",
+            ],
+            optionsMy: [
+              "သုံးစွဲသွားသော Ag+ Ion များကို အဆက်မပြတ် အစားထိုးပေးကာ Electrolyte ၏ Concentration ကို ကိန်းသေ ဆက်လက် တည်ရှိစေသောကြောင့်",
+              "Inert ပစ္စည်းများသည် ငွေထက် အမြဲတမ်း ဈေးကြီးသောကြောင့်",
+              "Inert Anode များသည် Electrolysis အတွင်း မီးလောင်တတ်သောကြောင့်",
+              "အမှန်တကယ် အကြောင်းရင်း မရှိပါ -- ထုံးတမ်းတစ်ခုသာ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence explaining why a silver anode keeps the concentration constant.",
+            ],
+            hintsMy: [
+              "ငွေ Anode က Concentration ကို ကိန်းသေ ထိန်းသိမ်းပေးသည့် အကြောင်းရင်းကို ရှင်းပြထားသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Aqueous Electrolysis",
+      titleMy: "ဒဿမပတ် ပြန်လည်သုံးသပ်ခြင်း - ရေပျော်ရည် Electrolysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In aqueous electrolysis, hydrogen gas often forms at the cathode instead of a reactive metal because...",
+          questionMy:
+              "ရေပျော်ရည် Electrolysis တွင် လှုပ်ရှားမှုများသော သတ္တုအစား ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့ Cathode တွင် မကြာခဏ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "H+ ions from water are discharged preferentially",
+            "Water always boils away first",
+            "Metals cannot form at any cathode",
+            "Hydrogen is added artificially",
+          ],
+          optionsMy: [
+            "ရေမှ H+ Ion များသည် ဦးစားပေး Discharge ဖြစ်သောကြောင့်",
+            "ရေသည် အမြဲတမ်း ဦးစွာ ဆူပွက်ပျံ့သွားသောကြောင့်",
+            "သတ္တုများသည် Cathode မည်သည့်နေရာတွင်မျှ ဖြစ်ပေါ်၍ မရနိုင်သောကြောင့်",
+            "ဟိုက်ဒရိုဂျင်ကို ကြားဝင် ထည့်သွင်းထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In electroplating, the object being plated is connected as the...",
+          questionMy:
+              "Electroplating တွင် ပလိတ်ခံနေသော ပစ္စည်းကို ...အဖြစ် ချိတ်ဆက်ထားသည်",
+          optionsEn: [
+            "Cathode",
+            "Anode",
+            "Neither electrode",
+            "The power source itself",
+          ],
+          optionsMy: [
+            "Cathode",
+            "Anode",
+            "လျှပ်ကူးတိုင် နှစ်ခုစလုံး မဟုတ်ပါ",
+            "ဓာတ်အားပေး ကိရိယာကိုယ်တိုင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In copper refining, the impure copper is used as the...",
+          questionMy:
+              "ကြေးဝါ Refining တွင် မသန့်စင်သော ကြေးဝါကို ...အဖြစ် အသုံးပြုသည်",
+          optionsEn: ["Anode", "Cathode", "Electrolyte only", "Neither"],
+          optionsMy: [
+            "Anode",
+            "Cathode",
+            "Electrolyte သာ",
+            "နှစ်ခုစလုံး မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 11: "Exothermic and Endothermic Reactions"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek11 = CourseWeekDef(
+  id: "course-igcse-chem-w11",
+  weekNumber: 11,
+  titleEn: "Exothermic and Endothermic Reactions",
+  titleMy: "အပူထုတ်လွှတ်သော နှင့် အပူစုပ်ယူသော ဓာတ်ပြုမှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w11-d1",
+      dayNumber: 1,
+      titleEn: "Enthalpy Change and Energy Profiles",
+      titleMy: "Enthalpy ပြောင်းလဲမှုနှင့် စွမ်းအင် ပရိုဖိုင်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In an exothermic reaction, what happens to the surrounding temperature?",
+          questionMy:
+              "အပူထုတ်လွှတ်သော ဓာတ်ပြုမှုတစ်ခုတွင် ပတ်ဝန်းကျင် အပူချိန် အဘယ်ဖြစ်သွားသနည်း။",
+          optionsEn: [
+            "It increases, because heat energy is released to the surroundings",
+            "It decreases, because heat is absorbed from the surroundings",
+            "It stays exactly the same always",
+            "It becomes impossible to measure",
+          ],
+          optionsMy: [
+            "မြင့်တက်သွားသည်၊ အကြောင်းမှာ ပတ်ဝန်းကျင်သို့ အပူစွမ်းအင် လွှတ်ထုတ်သောကြောင့်",
+            "ကျဆင်းသွားသည်၊ အကြောင်းမှာ ပတ်ဝန်းကျင်မှ အပူ စုပ်ယူသောကြောင့်",
+            "အမြဲတမ်း အတိအကျ တူညီနေသည်",
+            "တိုင်းတာ၍ မရနိုင်တော့ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Exo' means 'out' -- exothermic reactions release heat energy outward into the surroundings.",
+          ],
+          hintsMy: [
+            "'Exo' ဆိုသည်မှာ 'အပြင်' ဟု အဓိပ္ပာယ်ရသည် -- Exothermic ဓာတ်ပြုမှုများသည် ပတ်ဝန်းကျင်ထဲသို့ အပူစွမ်းအင် လွှတ်ထုတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On an energy profile diagram, how does an endothermic reaction differ from an exothermic one?",
+          questionMy:
+              "စွမ်းအင် ပရိုဖိုင် ဂရပ်တစ်ခုတွင် Endothermic ဓာတ်ပြုမှုသည် Exothermic တစ်ခုနှင့် မည်သို့ ကွဲပြားသနည်း။",
+          optionsEn: [
+            "Products have higher energy than reactants (energy absorbed), the opposite of exothermic",
+            "There is no difference between the two diagrams at all",
+            "Endothermic reactions never have an energy profile diagram",
+            "Products always have less energy in every reaction type",
+          ],
+          optionsMy: [
+            "Product များသည် Reactant များထက် စွမ်းအင် ပိုမြင့်သည် (စွမ်းအင် စုပ်ယူထား)၊ Exothermic နှင့် ဆန့်ကျင်ဘက် ဖြစ်သည်",
+            "ဂရပ် နှစ်ခုကြား ကွာခြားမှု လုံးဝ မရှိပါ",
+            "Endothermic ဓာတ်ပြုမှုများတွင် စွမ်းအင် ပရိုဖိုင် ဂရပ် ဘယ်တော့မှ မရှိပါ",
+            "ဓာတ်ပြုမှု အမျိုးအစားတိုင်းတွင် Product များသည် အမြဲတမ်း စွမ်းအင် ပိုနည်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In exothermic reactions, products have LOWER energy than reactants; in endothermic, products have HIGHER energy.",
+          ],
+          hintsMy: [
+            "Exothermic ဓာတ်ပြုမှုများတွင် Product များသည် Reactant များထက် စွမ်းအင် ပိုနိမ့်သည်; Endothermic တွင်မူ Product များသည် စွမ်းအင် ပိုမြင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Bond breaking requires energy (endothermic), and bond forming releases energy (exothermic). What determines whether an overall reaction is exothermic or endothermic?",
+          questionMy:
+              "Bond ချိုးဖျက်ခြင်းသည် စွမ်းအင် လိုအပ်ပြီး (Endothermic) Bond ဖွဲ့စည်းခြင်းသည် စွမ်းအင် လွှတ်ထုတ်သည် (Exothermic)။ ဓာတ်ပြုမှုတစ်ခုလုံး Exothermic ဖြစ်ရမည်လား Endothermic ဖြစ်ရမည်လား ဆိုသည်ကို အဘယ်က ဆုံးဖြတ်သနည်း။",
+          optionsEn: [
+            "Whether more energy is released forming new bonds than was used breaking old bonds, or vice versa",
+            "The colour of the reactants only",
+            "How many atoms are involved, regardless of energy",
+            "The time of day the reaction occurs",
+          ],
+          optionsMy: [
+            "Bond အသစ်များ ဖွဲ့စည်းရာတွင် လွှတ်ထုတ်သော စွမ်းအင်သည် Bond ဟောင်းများ ချိုးဖျက်ရာတွင် အသုံးပြုခဲ့သော စွမ်းအင်ထက် ပိုများမများ၊ သို့မဟုတ် ဆန့်ကျင်ဘက် ဖြစ်မဖြစ်",
+            "Reactant များ၏ အရောင်သာ",
+            "စွမ်းအင်နှင့် မသက်ဆိုင်ဘဲ အက်တမ် မည်မျှ ပါဝင်သနည်း",
+            "ဓာတ်ပြုမှု ဖြစ်ပွားသည့် နေ့အချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If energy released (bond forming) > energy absorbed (bond breaking), the reaction is overall exothermic, and vice versa.",
+          ],
+          hintsMy: [
+            "လွှတ်ထုတ်သော စွမ်းအင် (Bond ဖွဲ့စည်းခြင်း) > စုပ်ယူသော စွမ်းအင် (Bond ချိုးဖျက်ခြင်း) ဖြစ်ပါက ဓာတ်ပြုမှု တစ်ခုလုံး Exothermic ဖြစ်ပြီး ဆန့်ကျင်ဘက်လည်း အတူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Energetics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Energetics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w11-dm-1",
+          termEn: "Exothermic reaction",
+          termMy: "Exothermic Reaction",
+          matchEn:
+              "A reaction that releases heat energy to the surroundings, raising the temperature",
+          matchMy:
+              "ပတ်ဝန်းကျင်သို့ အပူစွမ်းအင် လွှတ်ထုတ်ကာ အပူချိန် မြှင့်တင်ပေးသော ဓာတ်ပြုမှု",
+          colorValue: 0xFFE91E63,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w11-dm-2",
+          termEn: "Endothermic reaction",
+          termMy: "Endothermic Reaction",
+          matchEn:
+              "A reaction that absorbs heat energy from the surroundings, lowering the temperature",
+          matchMy:
+              "ပတ်ဝန်းကျင်မှ အပူစွမ်းအင် စုပ်ယူကာ အပူချိန် လျော့ကျစေသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w11-dm-3",
+          termEn: "Bond breaking",
+          termMy: "Bond Breaking",
+          matchEn:
+              "An endothermic process that always requires an input of energy",
+          matchMy:
+              "စွမ်းအင် ထည့်သွင်းမှု အမြဲတမ်း လိုအပ်သော Endothermic ဖြစ်စဉ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w11-dm-4",
+          termEn: "Bond forming",
+          termMy: "Bond Forming",
+          matchEn: "An exothermic process that always releases energy",
+          matchMy: "စွမ်းအင် အမြဲတမ်း လွှတ်ထုတ်သော Exothermic ဖြစ်စဉ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w11-dm-5",
+          termEn: "Activation energy",
+          termMy: "Activation Energy",
+          matchEn:
+              "The minimum energy needed for reactant particles to react when they collide",
+          matchMy:
+              "Reactant အမှုန်များ ထိတွေ့ပြီး ဓာတ်ပြုနိုင်ရန် လိုအပ်သော အနည်းဆုံး စွမ်းအင်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Exothermic or Endothermic?",
+      titleMy: "စီစစ်ကြမည် - Exothermic လား၊ Endothermic လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Exothermic", "Endothermic"],
+        bucketsMy: ["Exothermic", "Endothermic"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w11-sort-1",
+            labelEn: "Burning natural gas in a stove (combustion)",
+            labelMy: "မီးဖိုတွင် သဘာဝဓာတ်ငွေ့ လောင်ကျွမ်းခြင်း (Combustion)",
+            correctBucketEn: "Exothermic",
+            correctBucketMy: "Exothermic",
+          ),
+          SortingItem(
+            id: "igcsechem-w11-sort-2",
+            labelEn: "Photosynthesis, absorbing light energy to build glucose",
+            labelMy:
+                "အလင်းစွမ်းအင် စုပ်ယူကာ ဂလူးကို့စ် တည်ဆောက်သော Photosynthesis",
+            correctBucketEn: "Endothermic",
+            correctBucketMy: "Endothermic",
+          ),
+          SortingItem(
+            id: "igcsechem-w11-sort-3",
+            labelEn: "An instant hot pack used to warm cold hands",
+            labelMy:
+                "အေးစက်နေသော လက်များကို နွေးစေရန် အသုံးပြုသော ချက်ချင်း အပူပက်",
+            correctBucketEn: "Exothermic",
+            correctBucketMy: "Exothermic",
+          ),
+          SortingItem(
+            id: "igcsechem-w11-sort-4",
+            labelEn: "An instant cold pack used to treat a sports injury",
+            labelMy: "အားကစား ဒဏ်ရာကို ကုသရန် အသုံးပြုသော ချက်ချင်း အအေးပက်",
+            correctBucketEn: "Endothermic",
+            correctBucketMy: "Endothermic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Chef U Soe Win's Ice Pack Experiment",
+      titleMy: "စာဖတ်ခြင်း - ဟင်းချက်ဆရာ ဦးစိုးဝင်း၏ ရေခဲအိတ် စမ်းသပ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Chef U Soe Win's Ice Pack Experiment",
+        titleMy: "ဟင်းချက်ဆရာ ဦးစိုးဝင်း၏ ရေခဲအိတ် စမ်းသပ်ချက်",
+        passageEn:
+            "U Soe Win, a chef with a strong interest in the science behind his kitchen tools, was curious about a first-aid instant cold pack a friend had shown him: squeezing the pack broke an inner pouch, mixing ammonium nitrate crystals with water, and the whole pack turned noticeably cold within seconds. He asked a chemistry teacher friend, Ko Zaw, to explain why.\n\nKo Zaw explained that dissolving ammonium nitrate in water is an endothermic process: breaking apart the ionic lattice of the solid ammonium nitrate requires more energy than is released when the ions become surrounded by water molecules. Since the overall process absorbs more energy than it releases, that energy must come from somewhere -- and it comes from the surrounding water and the pack itself, which is why the pack feels cold to the touch.\n\nU Soe Win then asked about the opposite: why does an exothermic reaction, like burning charcoal in his outdoor grill, feel hot instead? Ko Zaw explained that combustion releases far more energy forming the strong new bonds in carbon dioxide and water than was needed to break the weaker bonds in the charcoal and oxygen molecules -- so the surplus energy is released outward as heat, warming the surroundings.\n\nFinally, U Soe Win asked how a chemist could predict, before mixing anything, whether a given reaction would end up hot or cold. Ko Zaw explained that on an energy profile diagram, if the products sit at a lower energy level than the reactants, the reaction is exothermic (like the charcoal fire) -- the 'lost' energy is released as heat. But if the products sit at a higher energy level than the reactants, as with dissolving ammonium nitrate, the reaction is endothermic, and that extra energy must be absorbed from the surroundings, explaining exactly why the cold pack in his hand had grown cold.",
+        passageMy:
+            "မိမိ၏ မီးဖိုချောင် ကိရိယာများ နောက်ကွယ်ရှိ သိပ္ပံပညာကို စိတ်ဝင်စားသော ဟင်းချက်ဆရာ ဦးစိုးဝင်းသည် သူငယ်ချင်းတစ်ဦး ပြသခဲ့သော ရှေးဦးသူနာပြု ချက်ချင်း အအေးပက်တစ်ခုကို စိတ်ဝင်စားခဲ့သည်- အိတ်ကို ညှစ်လိုက်သည်နှင့် အတွင်းရှိ အိတ်ငယ်တစ်ခု ကွဲသွားပြီး Ammonium Nitrate ဓာတ်သလင်းများကို ရေနှင့် ရောစပ်စေကာ စက္ကန့်အနည်းငယ်အတွင်း အိတ်တစ်ခုလုံး သိသိသာသာ အေးလာသည်။ သူသည် အကြောင်းရင်းကို ရှင်းပြပေးရန် ဓာတုဗေဒ ဆရာ သူငယ်ချင်း ကိုဇော်ကို မေးမြန်းခဲ့သည်။\n\nAmmonium Nitrate ကို ရေတွင် ပျော်ဝင်ခြင်းသည် Endothermic ဖြစ်စဉ်တစ်ခု ဖြစ်ကြောင်း ကိုဇော် ရှင်းပြခဲ့သည်- အစိုင်အခဲ Ammonium Nitrate ၏ Ionic Lattice ကို ချိုးဖျက်ခြင်းသည် Ion များ ရေမော်လီကျူးများ ဝန်းရံခံရသည့်အခါ လွှတ်ထုတ်သော စွမ်းအင်ထက် ပို၍ လိုအပ်သည်။ ဖြစ်စဉ် တစ်ခုလုံးသည် လွှတ်ထုတ်သည့်အရာထက် ပို၍ စွမ်းအင် စုပ်ယူသောကြောင့် ထို စွမ်းအင်သည် တစ်နေရာမှ လာရမည်ဖြစ်ကာ -- ပတ်ဝန်းကျင်ရေနှင့် အိတ်ကိုယ်တိုင်မှ လာခြင်း ဖြစ်သည်၊ ထို့ကြောင့် အိတ်သည် ထိတွေ့ရာတွင် အေးစက်နေခြင်း ဖြစ်သည်။\n\nဦးစိုးဝင်းသည် ဆန့်ကျင်ဘက်ကို ဆက်လက် မေးမြန်းခဲ့သည်- သူ၏ အပြင်ဘက် အသည်းငင်ပေါ်တွင် မီးသွေးလောင်ကျွမ်းခြင်း ကဲ့သို့ Exothermic ဓာတ်ပြုမှု တစ်ခုသည် အဘယ်ကြောင့် ပူသည့်အစား ပူနွေးကြောင်း ခံစားရသနည်း။ Combustion သည် ကာဗွန်ဒိုင်အောက်ဆိုဒ်နှင့် ရေရှိ ခိုင်မာသော Bond အသစ်များ ဖွဲ့စည်းရာတွင် မီးသွေးနှင့် အောက်ဆီဂျင် မော်လီကျူးများရှိ အားနည်းသော Bond များ ချိုးဖျက်ရန် လိုအပ်သည်ထက် ပို၍ များစွာသော စွမ်းအင် လွှတ်ထုတ်သောကြောင့် -- ပိုလျှံသော စွမ်းအင်ကို အပူအဖြစ် ပြင်ပသို့ လွှတ်ထုတ်ကာ ပတ်ဝန်းကျင်ကို နွေးစေသည်ဟု ကိုဇော် ရှင်းပြခဲ့သည်။\n\nနောက်ဆုံးတွင် ဦးစိုးဝင်းသည် ဓာတုဗေဒပညာရှင်တစ်ဦးသည် မည်သည့်အရာကိုမျှ မရောစပ်မီ ပေးထားသော ဓာတ်ပြုမှုတစ်ခု ပူသွားမည် သို့မဟုတ် အေးသွားမည်ကို မည်သို့ ကြိုတင် ခန့်မှန်းနိုင်ကြောင်း မေးမြန်းခဲ့သည်။ စွမ်းအင် ပရိုဖိုင် ဂရပ်တစ်ခုတွင် Product များသည် Reactant များထက် နိမ့်သော စွမ်းအင်အဆင့်တွင် ရှိပါက ဓာတ်ပြုမှုသည် (မီးသွေးမီးလောင်ခြင်းကဲ့သို့) Exothermic ဖြစ်ကြောင်း -- 'ဆုံးရှုံးသွားသော' စွမ်းအင်ကို အပူအဖြစ် လွှတ်ထုတ်ကြောင်း ကိုဇော် ရှင်းပြခဲ့သည်။ သို့သော် Product များသည် Reactant များထက် ပိုမြင့်သော စွမ်းအင်အဆင့်တွင် ရှိပါက Ammonium Nitrate ပျော်ဝင်ခြင်းကဲ့သို့ ဓာတ်ပြုမှုသည် Endothermic ဖြစ်ပြီး ထို ပိုလျှံသော စွမ်းအင်ကို ပတ်ဝန်းကျင်မှ စုပ်ယူရမည်ဖြစ်ကာ သူ၏ လက်ထဲရှိ အအေးပက် အဘယ်ကြောင့် အေးလာကြောင်း အတိအကျ ရှင်းပြပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does dissolving ammonium nitrate make the pack feel cold?",
+            questionMy:
+                "Ammonium Nitrate ပျော်ဝင်ခြင်းက အိတ်ကို အေးလာစေသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The process absorbs more energy than it releases, taking that energy from the surrounding water and pack",
+              "The pack contains a built-in refrigerator",
+              "Ammonium nitrate is naturally cold to the touch",
+              "The process releases energy, warming everything nearby",
+            ],
+            optionsMy: [
+              "ဖြစ်စဉ်သည် လွှတ်ထုတ်သည့်အရာထက် ပို၍ စွမ်းအင် စုပ်ယူကာ ပတ်ဝန်းကျင်ရေနှင့် အိတ်မှ ထို စွမ်းအင်ကို ယူသောကြောင့်",
+              "အိတ်တွင် ရေခဲသေတ္တာ တပ်ဆင်ထားသောကြောင့်",
+              "Ammonium Nitrate သည် သဘာဝအားဖြင့် ထိတွေ့ရာတွင် အေးသောကြောင့်",
+              "ဖြစ်စဉ်သည် စွမ်းအင် လွှတ်ထုတ်ကာ အနီးရှိ အရာအားလုံးကို နွေးစေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining where the absorbed energy comes from.",
+            ],
+            hintsMy: [
+              "စုပ်ယူထားသော စွမ်းအင် မှလာကြောင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does burning charcoal feel hot?",
+            questionMy:
+                "မီးသွေး လောင်ကျွမ်းခြင်းက ပူနွေးသောကြောင်း ခံစားရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Forming new bonds releases more energy than was needed to break old bonds",
+              "Charcoal absorbs heat from the surrounding air",
+              "It is an endothermic reaction",
+              "Oxygen molecules are naturally hot",
+            ],
+            optionsMy: [
+              "Bond အသစ်များ ဖွဲ့စည်းခြင်းက Bond ဟောင်းများ ချိုးဖျက်ရန် လိုအပ်ခဲ့သည်ထက် ပို၍ စွမ်းအင် လွှတ်ထုတ်သောကြောင့်",
+              "မီးသွေးသည် ပတ်ဝန်းကျင် လေထုမှ အပူ စုပ်ယူသောကြောင့်",
+              "Endothermic ဓာတ်ပြုမှု တစ်ခု ဖြစ်သောကြောင့်",
+              "အောက်ဆီဂျင် မော်လီကျူးများသည် သဘာဝအားဖြင့် ပူသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing bond-forming energy to bond-breaking energy for combustion.",
+            ],
+            hintsMy: [
+              "Combustion အတွက် Bond ဖွဲ့စည်းခြင်း စွမ်းအင်ကို Bond ချိုးဖျက်ခြင်း စွမ်းအင်နှင့် နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, on an energy profile diagram, when is a reaction exothermic?",
+            questionMy:
+                "စွမ်းအင် ပရိုဖိုင် ဂရပ်တစ်ခုတွင် ဓာတ်ပြုမှု တစ်ခု Exothermic ဖြစ်သည့် အခြေအနေကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "When products sit at a lower energy level than reactants",
+              "When products sit at a higher energy level than reactants",
+              "When products and reactants have identical energy",
+              "Energy profile diagrams cannot show this",
+            ],
+            optionsMy: [
+              "Product များသည် Reactant များထက် နိမ့်သော စွမ်းအင်အဆင့်တွင် ရှိသည့်အခါ",
+              "Product များသည် Reactant များထက် ပိုမြင့်သော စွမ်းအင်အဆင့်တွင် ရှိသည့်အခါ",
+              "Product များနှင့် Reactant များ၏ စွမ်းအင် တူညီသည့်အခါ",
+              "စွမ်းအင် ပရိုဖိုင် ဂရပ်များက ၎င်းကို ပြသ၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the exothermic energy profile shape.",
+            ],
+            hintsMy: [
+              "Exothermic စွမ်းအင် ပရိုဖိုင် ပုံသဏ္ဍာန်ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the whole passage, what type of reaction is dissolving ammonium nitrate?",
+            questionMy:
+                "Ammonium Nitrate ပျော်ဝင်ခြင်းသည် မည်သည့် ဓာတ်ပြုမှု အမျိုးအစား ဖြစ်ကြောင်းကို စာပိုဒ်တစ်ခုလုံးအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Endothermic",
+              "Exothermic",
+              "Neither -- it is not a real reaction",
+              "Both at the same time",
+            ],
+            optionsMy: [
+              "Endothermic",
+              "Exothermic",
+              "နှစ်ခုစလုံး မဟုတ်ပါ -- ဓာတ်ပြုမှု အစစ် မဟုတ်ပါ",
+              "နှစ်ခုလုံး တစ်ပြိုင်နက် ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread paragraph 2's classification of the process."],
+            hintsMy: ["ဖြစ်စဉ်ကို ခွဲခြားထားသော စာပိုဒ် ၂ ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Chemical Energetics",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဓာတုဗေဒ Energetics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Exothermic reactions...",
+          questionMy: "Exothermic ဓာတ်ပြုမှုများသည်...",
+          optionsEn: [
+            "Release heat to the surroundings",
+            "Absorb heat from the surroundings",
+            "Never involve energy",
+            "Only happen underwater",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင်သို့ အပူ လွှတ်ထုတ်သည်",
+            "ပတ်ဝန်းကျင်မှ အပူ စုပ်ယူသည်",
+            "စွမ်းအင်နှင့် ဘယ်တော့မှ မသက်ဆိုင်ပါ",
+            "ရေအောက်တွင်သာ ဖြစ်ပွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bond breaking is always...",
+          questionMy: "Bond ချိုးဖျက်ခြင်းသည် အမြဲတမ်း...",
+          optionsEn: [
+            "Endothermic (requires energy)",
+            "Exothermic (releases energy)",
+            "Neutral, no energy involved",
+            "Only happens in metals",
+          ],
+          optionsMy: [
+            "Endothermic (စွမ်းအင် လိုအပ်သည်)",
+            "Exothermic (စွမ်းအင် လွှတ်ထုတ်သည်)",
+            "Neutral၊ စွမ်းအင် မပါဝင်ပါ",
+            "သတ္တုများတွင်သာ ဖြစ်ပွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On an energy profile diagram, an endothermic reaction shows...",
+          questionMy:
+              "စွမ်းအင် ပရိုဖိုင် ဂရပ်တစ်ခုတွင် Endothermic ဓာတ်ပြုမှုသည်...",
+          optionsEn: [
+            "Products at a higher energy level than reactants",
+            "Products at a lower energy level than reactants",
+            "No products at all",
+            "A flat horizontal line only",
+          ],
+          optionsMy: [
+            "Reactant များထက် ပိုမြင့်သော စွမ်းအင်အဆင့်တွင် ရှိသော Product များ",
+            "Reactant များထက် နိမ့်သော စွမ်းအင်အဆင့်တွင် ရှိသော Product များ",
+            "Product လုံးဝ မရှိပါ",
+            "ပြားချပ်သော ရေပြင်ညီ မျဉ်းတစ်ခုသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 12 (Capstone): "Energetics and Electrolysis Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek12 = CourseWeekDef(
+  id: "course-igcse-chem-w12",
+  weekNumber: 12,
+  titleEn: "Energetics and Electrolysis Studio",
+  titleMy: "စွမ်းအင်နှင့် လျှပ်စစ်ဓာတ်ခွဲခြင်း အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w12-d1",
+      dayNumber: 1,
+      titleEn: "Bond Energy Calculations",
+      titleMy: "Bond Energy တွက်ချက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If breaking bonds in reactants requires 500 kJ and forming bonds in products releases 620 kJ, is the reaction exothermic or endothermic, and what is the overall energy change?",
+          questionMy:
+              "Reactant များရှိ Bond များ ချိုးဖျက်ရန် 500 kJ လိုအပ်ပြီး Product များရှိ Bond များ ဖွဲ့စည်းရန် 620 kJ လွှတ်ထုတ်ပါက ဓာတ်ပြုမှုသည် Exothermic လား Endothermic လား၊ စုစုပေါင်း စွမ်းအင် ပြောင်းလဲမှု မည်မျှနည်း။",
+          optionsEn: [
+            "Exothermic, releasing 120 kJ overall (620 - 500)",
+            "Endothermic, absorbing 120 kJ overall",
+            "Exothermic, releasing 1,120 kJ overall",
+            "Neutral, with no energy change at all",
+          ],
+          optionsMy: [
+            "Exothermic၊ စုစုပေါင်း 120 kJ လွှတ်ထုတ် (620 - 500)",
+            "Endothermic၊ စုစုပေါင်း 120 kJ စုပ်ယူ",
+            "Exothermic၊ စုစုပေါင်း 1,120 kJ လွှတ်ထုတ်",
+            "Neutral၊ စွမ်းအင် ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Energy change = energy released forming bonds - energy absorbed breaking bonds.",
+            "620 - 500 = 120 kJ released, so the reaction is exothermic overall.",
+          ],
+          hintsMy: [
+            "စွမ်းအင် ပြောင်းလဲမှု = Bond ဖွဲ့စည်းရာတွင် လွှတ်ထုတ်သော စွမ်းအင် - Bond ချိုးဖျက်ရာတွင် စုပ်ယူသော စွမ်းအင်",
+            "620 - 500 = 120 kJ လွှတ်ထုတ်သောကြောင့် ဓာတ်ပြုမှု တစ်ခုလုံးသည် Exothermic ဖြစ်သည်",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During electrolysis of molten zinc chloride (ZnCl2), what forms at the cathode?",
+          questionMy:
+              "အရည်ပျော် ဇင့်ကလိုရိုဒ် (ZnCl2) ကို Electrolysis ပြုလုပ်စဉ် Cathode တွင် အဘယ် ဖြစ်ပေါ်လာသနည်း။",
+          optionsEn: [
+            "Zinc metal (Zn)",
+            "Chlorine gas (Cl2)",
+            "Hydrogen gas",
+            "Zinc chloride crystals",
+          ],
+          optionsMy: [
+            "ဇင့် သတ္တု (Zn)",
+            "ကလိုရင်း ဓာတ်ငွေ့ (Cl2)",
+            "ဟိုက်ဒရိုဂျင် ဓာတ်ငွေ့",
+            "ဇင့်ကလိုရိုဒ် ဓာတ်သလင်းများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Zn2+ cations migrate to the cathode and gain electrons to form neutral zinc metal.",
+          ],
+          hintsMy: [
+            "Zn2+ Cation များသည် Cathode သို့ ရွှေ့ပြောင်းကာ Electron ရရှိပြီး Neutral ဇင့် သတ္တု ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do exam questions ask you to draw a full energy profile diagram, rather than just stating whether a reaction is exo/endothermic?",
+          questionMy:
+              "စာမေးပွဲ မေးခွန်းများသည် ဓာတ်ပြုမှုတစ်ခု Exo/Endothermic ဖြစ်ကြောင်း ဖော်ပြရုံမက စွမ်းအင် ပရိုဖိုင် ဂရပ် အပြည့်အစုံ ဆွဲခိုင်းလေ့ရှိသည့် အကြောင်းရင်းကို ဖော်ပြပါ။",
+          optionsEn: [
+            "A full diagram shows activation energy, reactant/product energy levels, and overall energy change together",
+            "It is purely decorative with no scientific purpose",
+            "Diagrams are always easier to draw than to write about",
+            "Energy profile diagrams are only used for endothermic reactions",
+          ],
+          optionsMy: [
+            "ဂရပ် အပြည့်အစုံသည် Activation Energy၊ Reactant/Product စွမ်းအင်အဆင့်များနှင့် စုစုပေါင်း စွမ်းအင် ပြောင်းလဲမှုကို အတူတကွ ပြသသောကြောင့်",
+            "သိပ္ပံနည်းကျ ရည်ရွယ်ချက် မရှိဘဲ တန်ဆာဆင်ရုံသာ ဖြစ်သောကြောင့်",
+            "ဂရပ်များသည် စာရေးသားရုံထက် အမြဲတမ်း ဆွဲရန် ပို၍ လွယ်ကူသောကြောင့်",
+            "စွမ်းအင် ပရိုဖိုင် ဂရပ်များကို Endothermic ဓာတ်ပြုမှုများအတွက်သာ အသုံးပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A full diagram captures the complete energy story: activation energy needed, and the net change between reactants and products.",
+          ],
+          hintsMy: [
+            "ဂရပ် အပြည့်အစုံသည် လိုအပ်သော Activation Energy နှင့် Reactant/Product များကြား Net Change တို့ ပါဝင်သော စွမ်းအင် ဇာတ်ကြောင်း အပြည့်အစုံကို ဖမ်းယူသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - တတိယတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w12-dm-1",
+          termEn: "Overall energy change",
+          termMy: "Overall Energy Change",
+          matchEn:
+              "Energy released forming bonds minus energy absorbed breaking bonds",
+          matchMy:
+              "Bond ဖွဲ့စည်းရာတွင် လွှတ်ထုတ်သော စွမ်းအင် နုတ် Bond ချိုးဖျက်ရာတွင် စုပ်ယူသော စွမ်းအင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w12-dm-2",
+          termEn: "Electrolytic cell",
+          termMy: "Electrolytic Cell",
+          matchEn:
+              "A setup using external electricity to drive a non-spontaneous chemical reaction",
+          matchMy:
+              "အလိုအလျောက် မဖြစ်နိုင်သော ဓာတ်ပြုမှုတစ်ခုကို လှုံ့ဆော်ရန် ပြင်ပ လျှပ်စစ် အသုံးပြုသော ပြင်ဆင်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w12-dm-3",
+          termEn: "Activation energy",
+          termMy: "Activation Energy",
+          matchEn:
+              "The energy barrier that must be overcome for a reaction to start",
+          matchMy: "ဓာတ်ပြုမှု စတင်ရန် ကျော်လွှားရမည့် စွမ်းအင် အတားအဆီး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w12-dm-4",
+          termEn: "Reduction",
+          termMy: "Reduction",
+          matchEn: "Gain of electrons, occurring at the cathode",
+          matchMy: "Cathode တွင် ဖြစ်ပေါ်သော Electron ရရှိခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w12-dm-5",
+          termEn: "Oxidation",
+          termMy: "Oxidation",
+          matchEn: "Loss of electrons, occurring at the anode",
+          matchMy: "Anode တွင် ဖြစ်ပေါ်သော Electron ဆုံးရှုံးခြင်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Energetics or Electrolysis Concept?",
+      titleMy: "စီစစ်ကြမည် - Energetics သို့မဟုတ် Electrolysis သဘောတရား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Energetics", "Electrolysis"],
+        bucketsMy: ["Energetics", "Electrolysis"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w12-sort-1",
+            labelEn: "Bond breaking and bond forming energy calculations",
+            labelMy:
+                "Bond ချိုးဖျက်ခြင်းနှင့် ဖွဲ့စည်းခြင်း စွမ်းအင် တွက်ချက်မှုများ",
+            correctBucketEn: "Energetics",
+            correctBucketMy: "Energetics",
+          ),
+          SortingItem(
+            id: "igcsechem-w12-sort-2",
+            labelEn: "Cations moving to the cathode and gaining electrons",
+            labelMy: "Cathode သို့ ရွှေ့ပြောင်းကာ Electron ရရှိသော Cation များ",
+            correctBucketEn: "Electrolysis",
+            correctBucketMy: "Electrolysis",
+          ),
+          SortingItem(
+            id: "igcsechem-w12-sort-3",
+            labelEn:
+                "Comparing an exothermic and endothermic energy profile diagram",
+            labelMy:
+                "Exothermic နှင့် Endothermic စွမ်းအင် ပရိုဖိုင် ဂရပ်ကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Energetics",
+            correctBucketMy: "Energetics",
+          ),
+          SortingItem(
+            id: "igcsechem-w12-sort-4",
+            labelEn:
+                "Electroplating a ring with silver using an anode and cathode",
+            labelMy:
+                "Anode နှင့် Cathode အသုံးပြု၍ လက်စွပ်ကို ငွေဖြင့် Electroplate ပြုလုပ်ခြင်း",
+            correctBucketEn: "Electrolysis",
+            correctBucketMy: "Electrolysis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Science Fair Battery and Hot Pack",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ သိပ္ပံပြပွဲ ဘက်ထရီနှင့် အပူပက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Science Fair Battery and Hot Pack",
+        titleMy: "ရှင်သန့်၏ သိပ္ပံပြပွဲ ဘက်ထရီနှင့် အပူပက်",
+        passageEn:
+            "For her school science fair, Shin Thant, now approaching the end of her third term, decided to combine both topics of the term into a single exhibit: a simple electrolytic cell paired with a demonstration of an exothermic reaction. Ko Zaw, now a familiar mentor throughout her chemistry journey, agreed to judge her project.\n\nHer first station used a beaker of copper sulfate solution with two carbon electrodes connected to a battery, electrolysing the solution. She explained to visitors that copper ions in the blue solution migrated to the cathode, where they gained electrons and were deposited as a visible layer of reddish-brown copper metal -- a live demonstration of reduction happening right in front of them.\n\nHer second station featured a simple exothermic reaction: mixing solid calcium oxide with water, which released so much heat that the mixture began visibly steaming within moments. She explained to visitors that this reaction released far more energy forming the new bonds in calcium hydroxide than was needed to break apart the starting materials -- exactly the bond energy logic from her term's energetics unit.\n\nWhen Ko Zaw asked her to connect the two demonstrations conceptually, Shin Thant answered thoughtfully: electrolysis was a case of using electrical energy to force a non-spontaneous reaction to happen, absorbing energy overall, while the calcium oxide reaction happened spontaneously and released energy on its own. Ko Zaw noted with pride that she had independently linked the electrode chemistry of Weeks 9-10 with the thermodynamic reasoning of Week 11 -- exactly the kind of cross-topic thinking the IGCSE Extended Paper rewards, and a fitting capstone to close out her second full term of chemistry.",
+        passageMy:
+            "ကျောင်း သိပ္ပံပြပွဲအတွက် တတိယတန်း အဆုံးသို့ ရောက်ရှိတော့မည့် ရှင်သန့်သည် ဤတန်း၏ ခေါင်းစဉ် နှစ်ခုစလုံးကို ပြခန်းတစ်ခုတည်းတွင် ပေါင်းစပ်ရန် ဆုံးဖြတ်ခဲ့သည်- ရိုးရှင်းသော Electrolytic Cell တစ်ခုကို Exothermic ဓာတ်ပြုမှု သရုပ်ပြခြင်းနှင့် တွဲဖက်ခြင်း ဖြစ်သည်။ သူမ၏ ဓာတုဗေဒ ခရီးစဉ်တစ်လျှောက် ရင်းနှီးသော လမ်းညွှန်ဆရာ ဖြစ်လာသော ကိုဇော်သည် သူမ၏ ပရောဂျက်ကို တရားသူကြီးအဖြစ် စစ်ဆေးရန် သဘောတူခဲ့သည်။\n\nသူမ၏ ပထမ စတေးရှင်သည် ကာဗွန် လျှပ်ကူးတိုင် နှစ်ခုနှင့် ဘက်ထရီ ချိတ်ဆက်ထားသော ကြေးဝါ ဆာလဖိတ် ပျော်ရည် ဗီကာတစ်ခု အသုံးပြုကာ ပျော်ရည်ကို Electrolysis ပြုလုပ်ခဲ့သည်။ အပြာရောင် ပျော်ရည်ရှိ ကြေးဝါ Ion များသည် Cathode ဘက်သို့ ရွှေ့ပြောင်းကာ Electron ရရှိပြီး မြင်နိုင်သော အနီရင့်ရောင် ကြေးဝါ သတ္တု အလွှာအဖြစ် စွန်းကျန်ကြောင်း -- Reduction ဖြစ်ပေါ်နေသည်ကို တိုက်ရိုက် သရုပ်ပြမှု ဖြစ်ကြောင်း -- ဧည့်သည်များအား သူမ ရှင်းပြခဲ့သည်။\n\nသူမ၏ ဒုတိယ စတေးရှင်သည် ရိုးရှင်းသော Exothermic ဓာတ်ပြုမှု တစ်ခု ပြသခဲ့သည်- အစိုင်အခဲ ကယ်လစီယမ်အောက်ဆိုဒ်ကို ရေနှင့် ရောစပ်ကာ ခဏအတွင်း အရောနှောသည် မြင်နိုင်စွာ ငွေ့တက်စေနိုင်လောက်အောင် အပူ များစွာ လွှတ်ထုတ်ခဲ့သည်။ ဤဓာတ်ပြုမှုသည် ကယ်လစီယမ် ဟိုက်ဒရောက်ဆိုဒ်ရှိ Bond အသစ်များ ဖွဲ့စည်းရာတွင် အစပစ္စည်းများ ချိုးဖျက်ရန် လိုအပ်ခဲ့သည်ထက် ပို၍ များစွာသော စွမ်းအင် လွှတ်ထုတ်ခဲ့ကြောင်း -- သူမ၏ တန်းရှိ Energetics ယူနစ်မှ Bond Energy ယုတ္တိဗေဒ အတိအကျ -- ဧည့်သည်များအား ရှင်းပြခဲ့သည်။\n\nကိုဇော်က သရုပ်ပြမှု နှစ်ခုကို သဘောတရားအရ ချိတ်ဆက်ရန် တောင်းဆိုသည့်အခါ ရှင်သန့်သည် စဉ်းစားတွေးတောစွာ ဖြေဆိုခဲ့သည်- Electrolysis သည် အလိုအလျောက် မဖြစ်နိုင်သော ဓာတ်ပြုမှုတစ်ခုကို ဖြစ်ပေါ်စေရန် လျှပ်စစ် စွမ်းအင် အသုံးပြုသော ဥပမာတစ်ခု ဖြစ်ကာ စုစုပေါင်း စွမ်းအင် စုပ်ယူသော်လည်း ကယ်လစီယမ်အောက်ဆိုဒ် ဓာတ်ပြုမှုမှာ အလိုအလျောက် ဖြစ်ပေါ်ကာ ၎င်းကိုယ်တိုင် စွမ်းအင် လွှတ်ထုတ်ခဲ့သည်။ Weeks 9-10 ၏ Electrode ဓာတုဗေဒနှင့် Week 11 ၏ Thermodynamic ယုတ္တိဗေဒကို သူမ ကိုယ်တိုင် ချိတ်ဆက်နိုင်ခဲ့ကြောင်း -- IGCSE Extended Paper က ဆုချီးမြှင့်ပေးသော ကွန်ရိုင်ခေါင်းစဉ် ဖြတ်ကျော် တွေးခေါ်မှု အမျိုးအစားနှင့် သူမ၏ ဓာတုဗေဒ တန်းနှစ်ခု အပြည့်အဝ အဆုံးသတ်ရန် သင့်တော်သော အထူးသင်ခန်းစာအဖြစ် -- ကိုဇော် ဂုဏ်ယူစွာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happens to copper ions at the cathode in the first station?",
+            questionMy:
+                "ပထမ စတေးရှင်ရှိ Cathode တွင် ကြေးဝါ Ion များ အဘယ်ဖြစ်ပျက်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They gain electrons and are deposited as copper metal",
+              "They lose electrons and become a gas",
+              "They remain dissolved permanently",
+              "They turn into oxygen bubbles",
+            ],
+            optionsMy: [
+              "Electron ရရှိပြီး ကြေးဝါ သတ္တုအဖြစ် စွန်းကျန်သည်",
+              "Electron ဆုံးရှုံးကာ ဓာတ်ငွေ့ ဖြစ်သွားသည်",
+              "အမြဲတမ်း ပျော်ဝင်နေဆဲ ဖြစ်သည်",
+              "အောက်ဆီဂျင် ပူဖောင်းများအဖြစ် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the cathode reaction at the first station.",
+            ],
+            hintsMy: [
+              "ပထမ စတေးရှင်ရှိ Cathode ဓာတ်ပြုမှုကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the calcium oxide and water reaction release so much heat?",
+            questionMy:
+                "ကယ်လစီယမ်အောက်ဆိုဒ်နှင့် ရေ ဓာတ်ပြုမှုက အပူ များစွာ လွှတ်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Forming new bonds released more energy than was needed to break old bonds",
+              "The reaction was actually endothermic",
+              "Calcium oxide is naturally hot before mixing",
+              "Water always releases heat when touched",
+            ],
+            optionsMy: [
+              "Bond အသစ်များ ဖွဲ့စည်းခြင်းက Bond ဟောင်းများ ချိုးဖျက်ရန် လိုအပ်ခဲ့သည်ထက် ပို၍ စွမ်းအင် လွှတ်ထုတ်ခဲ့သောကြောင့်",
+              "ဓာတ်ပြုမှုသည် အမှန်တကယ် Endothermic ဖြစ်ခဲ့သောကြောင့်",
+              "ကယ်လစီယမ်အောက်ဆိုဒ်သည် မရောစပ်မီ သဘာဝအားဖြင့် ပူနေသောကြောင့်",
+              "ရေသည် ထိတွေ့လျှင် အမြဲတမ်း အပူ လွှတ်ထုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the bond energy comparison for this reaction.",
+            ],
+            hintsMy: [
+              "ဤဓာတ်ပြုမှုအတွက် Bond Energy နှိုင်းယှဉ်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Shin Thant describe electrolysis compared to the calcium oxide reaction?",
+            questionMy:
+                "Electrolysis ကို ကယ်လစီယမ်အောက်ဆိုဒ် ဓာတ်ပြုမှုနှင့် နှိုင်းယှဉ်ကာ ရှင်သန့် မည်သို့ ဖော်ပြခဲ့ကြောင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Electrolysis uses electrical energy to force a non-spontaneous reaction and absorbs energy overall, while the calcium reaction happens spontaneously and releases energy",
+              "Both reactions are identical in every way",
+              "Electrolysis always releases more heat than any exothermic reaction",
+              "Neither reaction involves energy at all",
+            ],
+            optionsMy: [
+              "Electrolysis သည် အလိုအလျောက် မဖြစ်နိုင်သော ဓာတ်ပြုမှုကို ဖြစ်ပေါ်စေရန် လျှပ်စစ်စွမ်းအင် အသုံးပြုကာ စုစုပေါင်း စွမ်းအင် စုပ်ယူသော်လည်း ကယ်လစီယမ် ဓာတ်ပြုမှုမှာ အလိုအလျောက် ဖြစ်ပေါ်ကာ စွမ်းအင် လွှတ်ထုတ်သည်",
+              "ဓာတ်ပြုမှု နှစ်ခုစလုံးသည် နည်းလမ်းတိုင်းတွင် တူညီသည်",
+              "Electrolysis သည် Exothermic ဓာတ်ပြုမှု မည်သည့်ဖြစ်စေထက် အမြဲတမ်း အပူ ပို၍ လွှတ်ထုတ်သည်",
+              "ဓာတ်ပြုမှု နှစ်ခုစလုံးသည် စွမ်းအင်နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Shin Thant's thoughtful comparison in the final paragraph.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ ရှင်သန့်၏ စဉ်းစားတွေးတော နှိုင်းယှဉ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Recap: Electrolysis and Energetics",
+      titleMy: "တတိယတန်း ပြန်လည်သုံးသပ်ခြင်း - Electrolysis နှင့် Energetics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "At the cathode, reduction means...",
+          questionMy: "Cathode တွင် Reduction ဆိုသည်မှာ...",
+          optionsEn: [
+            "Gain of electrons",
+            "Loss of electrons",
+            "Loss of protons",
+            "No change at all",
+          ],
+          optionsMy: [
+            "Electron ရရှိခြင်း",
+            "Electron ဆုံးရှုံးခြင်း",
+            "Proton ဆုံးရှုံးခြင်း",
+            "မည်သည့် ပြောင်းလဲမှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An exothermic reaction releases heat because...",
+          questionMy:
+              "Exothermic ဓာတ်ပြုမှု တစ်ခုသည် ...ကြောင့် အပူ လွှတ်ထုတ်သည်",
+          optionsEn: [
+            "Bond forming releases more energy than bond breaking absorbed",
+            "It always involves electrolysis",
+            "Reactants are always gases",
+            "Temperature never changes",
+          ],
+          optionsMy: [
+            "Bond ဖွဲ့စည်းခြင်းက Bond ချိုးဖျက်ခြင်း စုပ်ယူသည့်အရာထက် ပို၍ စွမ်းအင် လွှတ်ထုတ်သောကြောင့်",
+            "Electrolysis နှင့် အမြဲတမ်း သက်ဆိုင်သောကြောင့်",
+            "Reactant များသည် အမြဲတမ်း ဓာတ်ငွေ့များ ဖြစ်သောကြောင့်",
+            "အပူချိန် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electroplating uses the object to be plated as the...",
+          questionMy:
+              "Electroplating သည် ပလိတ်ခံရမည့် ပစ္စည်းကို ...အဖြစ် အသုံးပြုသည်",
+          optionsEn: ["Cathode", "Anode", "Electrolyte", "Power source"],
+          optionsMy: ["Cathode", "Anode", "Electrolyte", "ဓာတ်အားပေး ကိရိယာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -3067,11 +4556,26 @@ const CourseTermDef igcseChemistryTerm2 = CourseTermDef(
   weeks: [_igcseChemWeek5, _igcseChemWeek6, _igcseChemWeek7, _igcseChemWeek8],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-2 of 9 authored so far (Terms 3-9 to
-/// follow: Electricity/Energetics; Rates & Equilibrium; Acids/Bases/Periodic
-/// Table; Metals & Environment; Organic Chemistry; Experimental Skills; Exam
-/// Prep & Graduation). `totalWeeks: 36` reflects the full 9-term
-/// aspirational course length.
+const CourseTermDef igcseChemistryTerm3 = CourseTermDef(
+  id: "course-igcse-chem-term3",
+  termNumber: 3,
+  titleEn: "Electricity and Chemistry & Energetics",
+  titleMy: "လျှပ်စစ်ဓာတုဗေဒနှင့် Energetics",
+  certificateTitleEn: "IGCSE Chemistry Term 3 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ တတိယတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek9,
+    _igcseChemWeek10,
+    _igcseChemWeek11,
+    _igcseChemWeek12,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-3 of 9 authored so far (Terms 4-9 to
+/// follow: Rates & Equilibrium; Acids/Bases/Periodic Table; Metals &
+/// Environment; Organic Chemistry; Experimental Skills; Exam Prep &
+/// Graduation). `totalWeeks: 36` reflects the full 9-term aspirational
+/// course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -3083,5 +4587,5 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   descriptionMy:
       "အမှုန်ဒြပ်ဝတ္ထု၊ အက်တမ်ဖွဲ့စည်းပုံ၊ တွဲစပ်မှု၊ Stoichiometry၊ Energetics၊ ဓာတ်ပြုမြန်နှုန်း၊ အက်ဆစ်နှင့် ဘေ့စ်၊ Periodic Table၊ ဇီဝဓာတုဗေဒနှင့် လက်တွေ့စမ်းသပ်မှု နည်းစနစ်များကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE ဓာတုဗေဒ လမ်းကြောင်း။",
   totalWeeks: 36,
-  terms: [igcseChemistryTerm1, igcseChemistryTerm2],
+  terms: [igcseChemistryTerm1, igcseChemistryTerm2, igcseChemistryTerm3],
 );
