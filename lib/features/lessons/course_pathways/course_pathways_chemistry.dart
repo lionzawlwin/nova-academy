@@ -9047,6 +9047,1423 @@ const CourseWeekDef _igcseChemWeek24 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 25: "Introduction to Organic Chemistry"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek25 = CourseWeekDef(
+  id: "course-igcse-chem-w25",
+  weekNumber: 25,
+  titleEn: "Introduction to Organic Chemistry",
+  titleMy: "အော်ဂဲနစ် ဓာတုဗေဒ မိတ်ဆက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w25-d1",
+      dayNumber: 1,
+      titleEn: "Homologous Series and Functional Groups",
+      titleMy: "Homologous Series နှင့် Functional Group",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What defines a homologous series such as the alkanes?",
+          questionMy:
+              "Alkane များကဲ့သို့ Homologous Series တစ်ခုကို အဘယ်အရာက သတ်မှတ်သနည်း။",
+          optionsEn: [
+            "Members share the same general formula and similar chemical properties, each differing from the next by CH2",
+            "Members must all have exactly the same boiling point",
+            "Members share no structural similarity at all",
+            "Members are always inorganic compounds",
+          ],
+          optionsMy: [
+            "အဖွဲ့ဝင်များသည် တူညီသော General Formula နှင့် ဆင်တူသော ဓာတုဂုဏ်သတ္တိများ ရှိပြီး တစ်ခုနှင့်တစ်ခု CH2 ဖြင့် ကွာခြားသည်",
+            "အဖွဲ့ဝင်များသည် အတိအကျ တူညီသော အရည်ဆူချိန် ရှိရမည်",
+            "အဖွဲ့ဝင်များသည် ဖွဲ့စည်းပုံဆိုင်ရာ ဆင်တူမှု လုံးဝ မရှိပါ",
+            "အဖွဲ့ဝင်များသည် Inorganic ဒြပ်ပေါင်းများ အမြဲတမ်း ဖြစ်ကြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, methane (CH4), ethane (C2H6), and propane (C3H8) all fit the general formula CnH2n+2 for alkanes.",
+          ],
+          hintsMy: [
+            "ဥပမာ- Methane (CH4)၊ Ethane (C2H6) နှင့် Propane (C3H8) တို့သည် Alkane များအတွက် General Formula CnH2n+2 နှင့် ကိုက်ညီကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a functional group?",
+          questionMy: "Functional Group ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An atom or group of atoms responsible for the characteristic chemical reactions of a compound",
+            "The total number of carbon atoms in a molecule",
+            "A part of a molecule that never reacts with anything",
+            "The colour of an organic compound",
+          ],
+          optionsMy: [
+            "ဒြပ်ပေါင်းတစ်ခု၏ ထူးခြားသော ဓာတုဗေဒ ဓာတ်ပြုမှုများကို တာဝန်ယူသော အက်တမ် သို့မဟုတ် အက်တမ်အုပ်စု",
+            "မော်လီကျူးတစ်ခုအတွင်းရှိ Carbon အက်တမ် စုစုပေါင်း အရေအတွက်",
+            "မည်သည့်အရာနှင့်မျှ ဘယ်တော့မှ ဓာတ်မပြုသော မော်လီကျူး၏ တစ်စိတ်တစ်ပိုင်း",
+            "အော်ဂဲနစ် ဒြပ်ပေါင်းတစ်ခု၏ အရောင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, the -OH group makes alcohols react as alcohols, and the C=C double bond makes alkenes react as alkenes.",
+          ],
+          hintsMy: [
+            "ဥပမာ- -OH အုပ်စုက Alcohol များကို Alcohol များအဖြစ် ဓာတ်ပြုစေပြီး C=C Double Bond က Alkene များကို Alkene များအဖြစ် ဓာတ်ပြုစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In IUPAC naming, what does the suffix '-ol' indicate about a compound?",
+          questionMy:
+              "IUPAC အမည်ပေးခြင်းတွင် '-ol' နောက်ဆက်တွဲသည် ဒြပ်ပေါင်းတစ်ခုအကြောင်း အဘယ်အရာကို ညွှန်ပြသနည်း။",
+          optionsEn: [
+            "It is an alcohol, containing the -OH functional group",
+            "It is an alkane, fully saturated",
+            "It is an alkene, containing a C=C double bond",
+            "It is a carboxylic acid",
+          ],
+          optionsMy: [
+            "-OH Functional Group ပါဝင်သော Alcohol တစ်မျိုး ဖြစ်သည်",
+            "အပြည့်အဝ Saturated ဖြစ်သော Alkane တစ်မျိုး ဖြစ်သည်",
+            "C=C Double Bond ပါဝင်သော Alkene တစ်မျိုး ဖြစ်သည်",
+            "Carboxylic Acid တစ်မျိုး ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, 'ethanol' has the ethane carbon chain with the -ol suffix showing it is an alcohol (CH3CH2OH).",
+          ],
+          hintsMy: [
+            "ဥပမာ- 'Ethanol' တွင် Ethane Carbon ကွင်းဆက်နှင့် Alcohol (CH3CH2OH) ဖြစ်ကြောင်း ပြသသော -ol နောက်ဆက်တွဲ ပါဝင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Organic Chemistry Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အော်ဂဲနစ် ဓာတုဗေဒ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w25-dm-1",
+          termEn: "Homologous series",
+          termMy: "Homologous Series",
+          matchEn:
+              "A family of organic compounds sharing the same general formula and similar chemical properties",
+          matchMy:
+              "တူညီသော General Formula နှင့် ဆင်တူသော ဓာတုဂုဏ်သတ္တိများ ရှိသော အော်ဂဲနစ် ဒြပ်ပေါင်း မိသားစု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w25-dm-2",
+          termEn: "Structural formula",
+          termMy: "Structural Formula",
+          matchEn:
+              "A formula showing how atoms are arranged and grouped along a molecule's carbon chain",
+          matchMy:
+              "မော်လီကျူးတစ်ခု၏ Carbon ကွင်းဆက်တစ်လျှောက် အက်တမ်များ မည်သို့ စီစဉ်ကာ အုပ်စုဖွဲ့ထားသည်ကို ပြသော Formula",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w25-dm-3",
+          termEn: "Displayed formula",
+          termMy: "Displayed Formula",
+          matchEn:
+              "A formula showing every atom and every bond in a molecule drawn out as lines",
+          matchMy:
+              "မော်လီကျူးတစ်ခုအတွင်းရှိ အက်တမ်တိုင်းနှင့် Bond တိုင်းကို မျဉ်းများအဖြစ် ဆွဲပြထားသော Formula",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w25-dm-4",
+          termEn: "Saturated",
+          termMy: "Saturated",
+          matchEn:
+              "Containing only single carbon-carbon bonds, as in the alkanes",
+          matchMy: "Alkane များကဲ့သို့ Carbon-Carbon Single Bond သာ ပါဝင်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w25-dm-5",
+          termEn: "Unsaturated",
+          termMy: "Unsaturated",
+          matchEn:
+              "Containing at least one carbon-carbon double bond, as in the alkenes",
+          matchMy:
+              "Alkene များကဲ့သို့ Carbon-Carbon Double Bond အနည်းဆုံး တစ်ခု ပါဝင်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Alkane, Alkene, Alcohol, or Carboxylic Acid?",
+      titleMy:
+          "စီစစ်ကြမည် - Alkane လား၊ Alkene လား၊ Alcohol လား၊ Carboxylic Acid လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Alkane", "Alkene", "Alcohol", "Carboxylic Acid"],
+        bucketsMy: ["Alkane", "Alkene", "Alcohol", "Carboxylic Acid"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w25-sort-1",
+            labelEn: "Methane (CH4) -- name ends in '-ane', fully saturated",
+            labelMy:
+                "Methane (CH4) -- အမည် '-ane' ဖြင့် အဆုံးသတ်ကာ အပြည့်အဝ Saturated",
+            correctBucketEn: "Alkane",
+            correctBucketMy: "Alkane",
+          ),
+          SortingItem(
+            id: "igcsechem-w25-sort-2",
+            labelEn:
+                "Ethene (C2H4) -- name ends in '-ene', contains a C=C double bond",
+            labelMy:
+                "Ethene (C2H4) -- အမည် '-ene' ဖြင့် အဆုံးသတ်ကာ C=C Double Bond ပါဝင်",
+            correctBucketEn: "Alkene",
+            correctBucketMy: "Alkene",
+          ),
+          SortingItem(
+            id: "igcsechem-w25-sort-3",
+            labelEn:
+                "Ethanol (C2H5OH) -- name ends in '-ol', contains the -OH functional group",
+            labelMy:
+                "Ethanol (C2H5OH) -- အမည် '-ol' ဖြင့် အဆုံးသတ်ကာ -OH Functional Group ပါဝင်",
+            correctBucketEn: "Alcohol",
+            correctBucketMy: "Alcohol",
+          ),
+          SortingItem(
+            id: "igcsechem-w25-sort-4",
+            labelEn:
+                "Ethanoic acid (CH3COOH) -- name ends in '-oic acid', contains -COOH",
+            labelMy:
+                "Ethanoic Acid (CH3COOH) -- အမည် '-oic acid' ဖြင့် အဆုံးသတ်ကာ -COOH ပါဝင်",
+            correctBucketEn: "Carboxylic Acid",
+            correctBucketMy: "Carboxylic Acid",
+          ),
+          SortingItem(
+            id: "igcsechem-w25-sort-5",
+            labelEn: "Propane (C3H8) -- name ends in '-ane', fully saturated",
+            labelMy:
+                "Propane (C3H8) -- အမည် '-ane' ဖြင့် အဆုံးသတ်ကာ အပြည့်အဝ Saturated",
+            correctBucketEn: "Alkane",
+            correctBucketMy: "Alkane",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Organic Naming Puzzle",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ Organic အမည်ပေးခြင်း ပဟေဠိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Organic Naming Puzzle",
+        titleMy: "ရှင်သန့်၏ Organic အမည်ပေးခြင်း ပဟေဠိ",
+        passageEn:
+            "Ko Zaw wrote four unlabeled molecular formulae on the whiteboard -- C4H10, C4H8, C4H9OH, and C3H7COOH -- and challenged Shin Thant to name the homologous series each belonged to, using only the formula and what she had learned about IUPAC naming patterns.\n\nShe started with C4H10, immediately recognising the general alkane formula CnH2n+2 -- with n=4, 2n+2 equals 10, a perfect match, so this had to be butane, a fully saturated alkane with only single bonds throughout its four-carbon chain. Next, C4H8 caught her attention because it had two fewer hydrogens than the corresponding alkane would have (which would be C4H10) -- this signalled the general alkene formula CnH2n, meaning a C=C double bond was present somewhere in the chain, making this butene.\n\nFor C4H9OH, Shin Thant noticed the -OH group tacked onto the end, immediately identifying the alcohol functional group -- this had to be butanol, an alcohol with a four-carbon chain. Finally, C3H7COOH gave her a moment's pause, since it looked at first like it might be some kind of five-carbon compound -- but she realised the COOH itself contributed one carbon to the total chain length, meaning the full molecule had four carbons total (three in C3H7 plus one in COOH), and the -COOH ending marked it unmistakably as a carboxylic acid: butanoic acid. Ko Zaw was delighted that she had solved all four purely from formula pattern recognition, without needing a single displayed structure drawn out -- exactly the kind of fluency Paper 4 rewarded under time pressure.",
+        passageMy:
+            "ကိုဇော်သည် White Board ပေါ်တွင် အမည်မတပ်ထားသော မော်လီကျူးဆိုင်ရာ Formula လေးခုကို ရေးခဲ့သည် -- C4H10, C4H8, C4H9OH နှင့် C3H7COOH -- ပြီးလျှင် Formula တစ်ခုတည်းနှင့် IUPAC အမည်ပေးခြင်း ပုံစံများအကြောင်း သူမ သင်ယူခဲ့ရသည်ကိုသာ အသုံးပြု၍ တစ်ခုစီ မည်သည့် Homologous Series ပါဝင်ကြောင်း အမည်ပေးရန် ရှင်သန့်ကို စိန်ခေါ်ခဲ့သည်။\n\nသူမသည် C4H10 ဖြင့် စတင်ခဲ့ပြီး Alkane General Formula CnH2n+2 ကို ချက်ချင်း မှတ်မိခဲ့သည် -- n=4 ဖြစ်ပါက 2n+2 သည် 10 ညီမျှသဖြင့် ပြီးပြည့်စုံသော ကိုက်ညီမှု ဖြစ်ပြီး ၎င်းသည် Carbon ကွင်းဆက် လေးခုတစ်လျှောက် Single Bond သာ ရှိသော အပြည့်အဝ Saturated Alkane ဖြစ်သည့် Butane ဖြစ်ရပေမည်။ ထို့နောက် C4H8 သည် သက်ဆိုင်ရာ Alkane (C4H10 ဖြစ်ရပေမည်) ထက် Hydrogen နှစ်ခု ပိုနည်းနေသောကြောင့် သူမ၏ အာရုံစိုက်မှုကို ဆွဲဆောင်ခဲ့သည် -- ၎င်းသည် General Alkene Formula CnH2n ကို အချက်ပြခဲ့ပြီး ကွင်းဆက်တစ်နေရာတွင် C=C Double Bond ရှိနေကြောင်း ဆိုလိုသဖြင့် ၎င်းသည် Butene ဖြစ်လာသည်။\n\nC4H9OH အတွက် ရှင်သန့်သည် အဆုံးတွင် ကပ်ထားသော -OH အုပ်စုကို သတိပြုမိကာ Alcohol Functional Group ကို ချက်ချင်း ဖော်ထုတ်ခဲ့သည် -- ၎င်းသည် Carbon ကွင်းဆက် လေးခုပါ Alcohol ဖြစ်သော Butanol ဖြစ်ရပေမည်။ နောက်ဆုံးတွင် C3H7COOH က သူမကို ခဏတာ ရပ်တန့်စေခဲ့သည်၊ အကြောင်းမှာ ပထမတွင် Carbon ငါးခုပါ ဒြပ်ပေါင်းတစ်မျိုးလို ထင်ရသောကြောင့်ဖြစ်သည် -- သို့သော် COOH ကိုယ်တိုင်က ကွင်းဆက်၏ စုစုပေါင်း အလျားသို့ Carbon တစ်ခု ပါဝင်ကြောင်း သူမ သတိပြုမိခဲ့သည်၊ ဆိုလိုသည်မှာ မော်လီကျူးအပြည့်အစုံတွင် Carbon စုစုပေါင်း လေးခု ရှိသည် (C3H7 တွင် သုံးခုနှင့် COOH တွင် တစ်ခု) ဖြစ်ကာ -COOH အဆုံးသတ်က ၎င်းကို Carboxylic Acid ဖြစ်ကြောင်း အမှားမရှိအောင် ဖော်ပြခဲ့သည် - Butanoic Acid ။ ရှင်သန့်သည် Displayed Structure တစ်ခုမျှ ဆွဲပြရန် မလိုအပ်ဘဲ Formula ပုံစံ ဖော်ထုတ်နိုင်စွမ်းသက်သက်ဖြင့် လေးခုလုံး ဖြေရှင်းနိုင်ခဲ့သည်ကို ကိုဇော် လွန်စွာ ဝမ်းမြောက်ခဲ့သည် -- ၎င်းသည် အချိန်ဖိအားအောက်တွင် Paper 4 က ဆုချီးမြှင့်သော ကျွမ်းကျင်မှု အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Shin Thant identify C4H8 as an alkene rather than an alkane?",
+            questionMy:
+                "C4H8 ကို Alkane အစား Alkene ဟု ရှင်သန့် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had two fewer hydrogens than the corresponding alkane, matching the general alkene formula CnH2n",
+              "It contained an -OH group",
+              "It had exactly the same formula as butane",
+              "Ko Zaw simply told her the answer directly",
+            ],
+            optionsMy: [
+              "သက်ဆိုင်ရာ Alkane ထက် Hydrogen နှစ်ခု ပိုနည်းပြီး General Alkene Formula CnH2n နှင့် ကိုက်ညီသောကြောင့်",
+              "-OH အုပ်စု ပါဝင်သောကြောင့်",
+              "Butane နှင့် အတိအကျ တူညီသော Formula ရှိသောကြောင့်",
+              "ကိုဇော်က အဖြေကို တိုက်ရိုက် ပြောပြသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the alkene formula pattern.",
+            ],
+            hintsMy: [
+              "Alkene Formula ပုံစံကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Shin Thant conclude C3H7COOH has four carbons in total, not three?",
+            questionMy:
+                "C3H7COOH တွင် Carbon သုံးခု မဟုတ်ဘဲ စုစုပေါင်း လေးခု ရှိသည်ဟု ရှင်သန့် ကောက်ချက်ချရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The COOH group itself contributes one carbon to the total chain length",
+              "She miscounted and it actually has three carbons",
+              "COOH contains no carbon atoms at all",
+              "The formula was written incorrectly on the board",
+            ],
+            optionsMy: [
+              "COOH အုပ်စု ကိုယ်တိုင်က ကွင်းဆက်၏ စုစုပေါင်း အလျားသို့ Carbon တစ်ခု ပါဝင်စေသောကြောင့်",
+              "သူမ အရေအတွက် မှားယွင်းစွာ ရေတွက်ခဲ့ပြီး အမှန်တကယ် Carbon သုံးခုသာ ရှိသောကြောင့်",
+              "COOH တွင် Carbon အက်တမ် လုံးဝ မပါဝင်သောကြောင့်",
+              "Formula ကို Board ပေါ်တွင် မှားယွင်းစွာ ရေးထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining how the carbon count was reached.",
+            ],
+            hintsMy: [
+              "Carbon အရေအတွက် မည်သို့ ရရှိခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what skill did Ko Zaw value about how Shin Thant solved the puzzle?",
+            questionMy:
+                "ရှင်သန့် ပဟေဠိကို ဖြေရှင်းပုံနှင့် ပတ်သက်၍ ကိုဇော် တန်ဖိုးထားသည့် ကျွမ်းကျင်မှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Recognising formula patterns fluently without needing a drawn structure -- useful under exam time pressure",
+              "Drawing every displayed formula in full detail",
+              "Memorising the answers in advance",
+              "Asking Ko Zaw for hints on every question",
+            ],
+            optionsMy: [
+              "ပုံဆွဲထားသော ဖွဲ့စည်းပုံ မလိုအပ်ဘဲ Formula ပုံစံများကို ကျွမ်းကျင်စွာ ဖော်ထုတ်နိုင်ခြင်း -- စာမေးပွဲ အချိန်ဖိအားအောက်တွင် အသုံးဝင်",
+              "Displayed Formula တိုင်းကို အသေးစိတ် ပြည့်ပြည့်စုံစုံ ဆွဲခြင်း",
+              "အဖြေများကို ကြိုတင် အလွတ်ကျက်ခြင်း",
+              "မေးခွန်းတိုင်းအတွက် ကိုဇော်ထံ အကြံဉာဏ်တောင်းခံခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Organic Chemistry Basics",
+      titleMy:
+          "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Organic ဓာတုဗေဒ အခြေခံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Members of a homologous series each differ from the next member by...",
+          questionMy:
+              "Homologous Series ၏ အဖွဲ့ဝင်တစ်ခုစီသည် နောက်တစ်ခုနှင့် ...ဖြင့် ကွာခြားသည်",
+          optionsEn: [
+            "CH2",
+            "One oxygen atom",
+            "One nitrogen atom",
+            "Nothing -- they are identical",
+          ],
+          optionsMy: [
+            "CH2",
+            "Oxygen အက်တမ် တစ်ခု",
+            "Nitrogen အက်တမ် တစ်ခု",
+            "မည်သည့်အရာမျှ မရှိပါ -- ၎င်းတို့ တူညီသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The suffix '-ene' in an organic compound's name indicates...",
+          questionMy:
+              "အော်ဂဲနစ် ဒြပ်ပေါင်း အမည်ရှိ '-ene' နောက်ဆက်တွဲသည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "A carbon-carbon double bond (an alkene)",
+            "An alcohol functional group",
+            "A fully saturated compound",
+            "A carboxylic acid",
+          ],
+          optionsMy: [
+            "Carbon-Carbon Double Bond (Alkene)",
+            "Alcohol Functional Group",
+            "အပြည့်အဝ Saturated ဒြပ်ပေါင်း",
+            "Carboxylic Acid",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A displayed formula shows...",
+          questionMy: "Displayed Formula သည် ...ကို ပြသည်",
+          optionsEn: [
+            "Every atom and every bond in a molecule",
+            "Only the total number of atoms",
+            "Only the molecule's colour",
+            "Only the boiling point",
+          ],
+          optionsMy: [
+            "မော်လီကျူးတစ်ခုအတွင်းရှိ အက်တမ်တိုင်းနှင့် Bond တိုင်း",
+            "အက်တမ် စုစုပေါင်း အရေအတွက်သာ",
+            "မော်လီကျူး၏ အရောင်သာ",
+            "အရည်ဆူချိန်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 26: "Alkanes, Alkenes, and Petroleum"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek26 = CourseWeekDef(
+  id: "course-igcse-chem-w26",
+  weekNumber: 26,
+  titleEn: "Alkanes, Alkenes, and Petroleum",
+  titleMy: "အယ်လ်ကိန်းများ၊ အယ်လ်ကင်းများနှင့် ရေနံစိမ်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w26-d1",
+      dayNumber: 1,
+      titleEn: "Fractional Distillation and Cracking",
+      titleMy: "Fractional Distillation နှင့် Cracking",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the fractional distillation of crude oil, why do fractions with small molecules (like refinery gas) collect near the top of the column?",
+          questionMy:
+              "ရေနံစိမ်း Fractional Distillation တွင် (Refinery Gas ကဲ့သို့) မော်လီကျူးသေးငယ်သော Fraction များ ကော်လံ၏ ထိပ်ဘက်တွင် စုဆောင်းရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Smaller molecules have lower boiling points, so they remain as vapour and rise higher up the cooler column before condensing",
+            "Smaller molecules are heavier and sink downward",
+            "Smaller molecules react with the column walls",
+            "The column is deliberately built upside down",
+          ],
+          optionsMy: [
+            "မော်လီကျူးသေးငယ်သည် နိမ့်သော အရည်ဆူချိန် ရှိသောကြောင့် ငွေ့ပျံနေဆဲ ဖြစ်ပြီး ကော်လံ၏ အအေးဆုံးအပိုင်းသို့ ရောက်မှသာ ရေငွေ့ပြန်ဖြစ်သည်",
+            "မော်လီကျူးသေးငယ်သည် ပို၍ လေးလံပြီး အောက်သို့ ငုပ်နေသည်",
+            "မော်လီကျူးသေးငယ်သည် ကော်လံနံရံများနှင့် ဓာတ်ပြုသည်",
+            "ကော်လံကို ခေါင်းလှန်၍ တမင် တည်ဆောက်ထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The column is hot at the bottom and progressively cooler toward the top; each fraction condenses at the height where the temperature matches its boiling point.",
+          ],
+          hintsMy: [
+            "ကော်လံသည် အောက်ခြေတွင် ပူပြီး ထိပ်ဘက်သို့ တဖြည်းဖြည်း အေးလာသည်; Fraction တစ်ခုစီသည် ၎င်း၏ အရည်ဆူချိန်နှင့် ကိုက်ညီသော အမြင့်တွင် ရေငွေ့ပြန်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is cracking an important industrial process for the petroleum industry?",
+          questionMy:
+              "Cracking သည် ရေနံစက်မှုလုပ်ငန်းအတွက် အရေးကြီးသော လုပ်ငန်းစဉ်တစ်ခု ဖြစ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It breaks large, less useful hydrocarbon molecules into smaller, more useful alkanes and alkenes, meeting demand for fuels and plastics feedstock",
+            "It simply destroys unwanted hydrocarbons with no useful products",
+            "It only produces carbon dioxide and water",
+            "It converts alkenes back into crude oil",
+          ],
+          optionsMy: [
+            "ကြီးမား၍ အသုံးဝင်မှု နည်းသော Hydrocarbon မော်လီကျူးများကို သေးငယ်၍ ပို၍ အသုံးဝင်သော Alkane နှင့် Alkene များအဖြစ် ချိုးဖျက်ကာ လောင်စာနှင့် ပလပ်စတစ် ကုန်ကြမ်း လိုအပ်ချက်ကို ဖြည့်ဆည်းပေးသည်",
+            "မလိုလားအပ်သော Hydrocarbon များကို အသုံးဝင်ကုန်ချော မရှိဘဲ ရိုးရိုးရှင်းရှင်း ဖျက်ဆီးသည်",
+            "Carbon Dioxide နှင့် ရေသက်သက်သာ ထုတ်ပေးသည်",
+            "Alkene များကို ရေနံစိမ်း အဖြစ်သို့ ပြန်ပြောင်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cracking uses heat and a catalyst to break C-C bonds in long-chain alkanes, producing shorter alkanes plus alkenes.",
+          ],
+          hintsMy: [
+            "Cracking သည် Alkane ကွင်းဆက်ရှည်များရှိ C-C Bond ကို ချိုးဖျက်ရန် အပူနှင့် Catalyst ကို အသုံးပြုကာ ကွင်းဆက်တိုသော Alkane နှင့် Alkene များကို ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What happens when bromine water is added to an alkene, compared to an alkane?",
+          questionMy:
+              "Alkene တစ်ခုသို့ Bromine ရေ ထည့်သောအခါ Alkane တစ်ခုနှင့် နှိုင်းယှဉ်လျှင် အဘယ်ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "The alkene rapidly decolourises the orange-brown bromine water via addition across the C=C bond; the alkane causes no colour change",
+            "Both the alkene and alkane decolourise bromine water equally fast",
+            "Neither the alkene nor the alkane reacts with bromine water",
+            "The alkane decolourises bromine water but the alkene does not",
+          ],
+          optionsMy: [
+            "Alkene သည် C=C Bond ကို ဖြတ်၍ Addition ဖြင့် လိမ္မော်-အညိုရောင် Bromine ရေကို လျင်မြန်စွာ အရောင်ဖျက်သည်; Alkane က အရောင် မပြောင်းလဲစေ",
+            "Alkene နှင့် Alkane နှစ်ခုစလုံးသည် Bromine ရေကို ညီမျှစွာ လျင်မြန်စွာ အရောင်ဖျက်သည်",
+            "Alkene သော်လည်းကောင်း Alkane သော်လည်းကောင်း Bromine ရေနှင့် ဓာတ်မပြု",
+            "Alkane သည် Bromine ရေကို အရောင်ဖျက်သော်လည်း Alkene ကမူ မဖျက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the standard IGCSE chemical test to distinguish saturated alkanes from unsaturated alkenes.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Saturated Alkane နှင့် Unsaturated Alkene ကို ခွဲခြားရန် စံ IGCSE ဓာတုစမ်းသပ်မှု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Petroleum Chemistry Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရေနံ ဓာတုဗေဒ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w26-dm-1",
+          termEn: "Fractional distillation",
+          termMy: "Fractional Distillation",
+          matchEn:
+              "Separating crude oil into fractions based on differing boiling points of its hydrocarbons",
+          matchMy:
+              "ရေနံစိမ်း၏ Hydrocarbon များ၏ ကွဲပြားသော အရည်ဆူချိန်များအပေါ် အခြေခံ၍ Fraction များအဖြစ် ခွဲထုတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w26-dm-2",
+          termEn: "Cracking",
+          termMy: "Cracking",
+          matchEn:
+              "Breaking down large hydrocarbon molecules into smaller alkanes and alkenes using heat and a catalyst",
+          matchMy:
+              "အပူနှင့် Catalyst ကို အသုံးပြု၍ ကြီးမားသော Hydrocarbon မော်လီကျူးများကို သေးငယ်သော Alkane နှင့် Alkene များအဖြစ် ချိုးဖျက်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w26-dm-3",
+          termEn: "Bromine water test",
+          termMy: "Bromine Water Test",
+          matchEn:
+              "A test in which alkenes rapidly decolourise orange-brown bromine water but alkanes do not",
+          matchMy:
+              "Alkene များသည် လိမ္မော်-အညိုရောင် Bromine ရေကို လျင်မြန်စွာ အရောင်ဖျက်သော်လည်း Alkane များက မဖျက်သော စမ်းသပ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w26-dm-4",
+          termEn: "Hydrocarbon",
+          termMy: "Hydrocarbon",
+          matchEn: "A compound containing only carbon and hydrogen atoms",
+          matchMy: "Carbon နှင့် Hydrogen အက်တမ်များသာ ပါဝင်သော ဒြပ်ပေါင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w26-dm-5",
+          termEn: "Addition reaction",
+          termMy: "Addition Reaction",
+          matchEn:
+              "A reaction where atoms add across a C=C double bond, turning it into a single bond",
+          matchMy:
+              "အက်တမ်များသည် C=C Double Bond ကို ဖြတ်ကာ ပေါင်းထည့်ပြီး Single Bond အဖြစ် ပြောင်းလဲစေသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fractional Distillation or Cracking Concept?",
+      titleMy: "စီစစ်ကြမည် - Fractional Distillation လား၊ Cracking သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fractional Distillation", "Cracking"],
+        bucketsMy: ["Fractional Distillation", "Cracking"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w26-sort-1",
+            labelEn:
+                "Separates crude oil purely by boiling point differences, no chemical bonds broken",
+            labelMy:
+                "ဓာတုဗေဒ Bond တစ်ခုမျှ မကျိုးဘဲ အရည်ဆူချိန် ကွာခြားချက်ဖြင့်သာ ရေနံစိမ်းကို ခွဲထုတ်သည်",
+            correctBucketEn: "Fractional Distillation",
+            correctBucketMy: "Fractional Distillation",
+          ),
+          SortingItem(
+            id: "igcsechem-w26-sort-2",
+            labelEn:
+                "Breaks C-C bonds in long-chain alkanes to produce alkenes",
+            labelMy:
+                "Alkene များ ထုတ်ပေးရန် Alkane ကွင်းဆက်ရှည်များရှိ C-C Bond ကို ချိုးဖျက်သည်",
+            correctBucketEn: "Cracking",
+            correctBucketMy: "Cracking",
+          ),
+          SortingItem(
+            id: "igcsechem-w26-sort-3",
+            labelEn:
+                "Produces refinery gas, petrol, kerosene, diesel, and bitumen as separate fractions",
+            labelMy:
+                "Refinery Gas, Petrol, Kerosene, Diesel နှင့် Bitumen ကို သီးခြား Fraction များအဖြစ် ထုတ်ပေးသည်",
+            correctBucketEn: "Fractional Distillation",
+            correctBucketMy: "Fractional Distillation",
+          ),
+          SortingItem(
+            id: "igcsechem-w26-sort-4",
+            labelEn:
+                "Uses heat and a catalyst to convert less useful large molecules into useful smaller ones",
+            labelMy:
+                "အသုံးဝင်မှု နည်းသော မော်လီကျူးကြီးများကို အသုံးဝင်သော မော်လီကျူးငယ်များအဖြစ် ပြောင်းလဲရန် အပူနှင့် Catalyst ကို အသုံးပြုသည်",
+            correctBucketEn: "Cracking",
+            correctBucketMy: "Cracking",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw's Petrol Shortage Explanation",
+      titleMy: "စာဖတ်ခြင်း - ကိုဇော်၏ ဓာတ်ဆီ ငတ်မွတ်ခေါင်းပါးမှု ရှင်းပြချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw's Petrol Shortage Explanation",
+        titleMy: "ကိုဇော်၏ ဓာတ်ဆီ ငတ်မွတ်ခေါင်းပါးမှု ရှင်းပြချက်",
+        passageEn:
+            "Shin Thant asked Ko Zaw a question that had been bothering her: why do oil refineries need cracking at all, if fractional distillation already separates crude oil into useful fractions like petrol and diesel directly? Wasn't distillation alone enough?\n\nKo Zaw explained that the problem was one of supply and demand mismatch. Crude oil naturally contains a fixed proportion of each fraction when it comes out of the ground -- and unfortunately, the proportion of short-chain fractions like petrol that distillation alone can produce is smaller than what modern economies actually need for cars and light vehicles, while the proportion of long-chain fractions like heavy fuel oil and bitumen is larger than the market demand for them. Simply distilling more crude oil would not fix this imbalance, since it would only produce more of everything in the same fixed ratio, including an even larger surplus of the fractions nobody wants as much of.\n\nCracking solves this mismatch directly: refineries take the excess long-chain fractions, heat them with a catalyst, and break their large molecules into the shorter, more valuable alkanes that match petrol's demand -- while also producing alkenes as a valuable by-product for the plastics industry, since alkenes cannot be obtained directly from crude oil at all. Shin Thant realised this made cracking less like waste disposal and more like an economic rebalancing act, converting an oversupplied product into two undersupplied ones in a single reaction step.",
+        passageMy:
+            "Distillation တစ်ခုတည်းက ရေနံစိမ်းကို ဓာတ်ဆီနှင့် Diesel ကဲ့သို့ အသုံးဝင်သော Fraction များအဖြစ် ထုတ်ယူပြီးသားဆိုလျှင် ရေနံစက်ရုံများသည် Cracking လုံးဝ ဘာကြောင့် လိုအပ်ရသနည်းဟု ရှင်သန့်က သူမကို စိတ်အနှောင့်အယှက် ဖြစ်စေနေသော မေးခွန်းတစ်ခုကို ကိုဇော်အား မေးမြန်းခဲ့သည်။ Distillation တစ်ခုတည်းက မလုံလောက်ဘူးလား။\n\nပြဿနာသည် ရရှိနိုင်မှုနှင့် လိုအပ်မှု ကိုက်ညီမှု မရှိခြင်း တစ်ခုဖြစ်ကြောင်း ကိုဇော် ရှင်းပြခဲ့သည်။ ရေနံစိမ်းသည် မြေမှ ထွက်ရှိလာသောအခါ Fraction တစ်ခုစီ၏ သတ်မှတ်ထားသော ရာခိုင်နှုန်းတစ်ခု သဘာဝအလျောက် ပါဝင်သည် -- ဝမ်းနည်းစွာပင် Distillation တစ်ခုတည်းဖြင့် ထုတ်ပေးနိုင်သော ဓာတ်ဆီကဲ့သို့ ကွင်းဆက်တိုသော Fraction ရာခိုင်နှုန်းသည် ခေတ်သစ် စီးပွားရေးလုပ်ငန်းများက ကားနှင့် ယာဉ်ငယ်များအတွက် အမှန်တကယ် လိုအပ်သည်ထက် နည်းနေပြီး၊ ကျောက်မီးသွေးဆီနှင့် Bitumen ကဲ့သို့ ကွင်းဆက်ရှည်သော Fraction ရာခိုင်နှုန်းမှာမူ ဈေးကွက်၏ လိုအပ်ချက်ထက် ပိုများနေသည်။ ရေနံစိမ်းကို ရိုးရိုးရှင်းရှင်း ပို၍ ငွေ့ပျံစေခြင်းသည် ဤမညီမျှမှုကို မပြေလည်စေနိုင်ပါ၊ အကြောင်းမှာ ၎င်းသည် တူညီသော သတ်မှတ်အချိုးဖြင့် အရာအားလုံးကို ပို၍ ထုတ်ပေးရုံသာ ဖြစ်ပြီး လူတိုင်း သိပ်မလိုချင်သော Fraction များ ပိုလျှံမှုကိုပါ ပို၍ ကြီးမားစေမည်ဖြစ်သောကြောင့်ဖြစ်သည်။\n\nCracking သည် ဤ ကိုက်ညီမှု မရှိမှုကို တိုက်ရိုက် ဖြေရှင်းပေးသည် - စက်ရုံများသည် ပိုလျှံနေသော ကွင်းဆက်ရှည်သော Fraction များကို ယူပြီး Catalyst ဖြင့် အပူပေးကာ ၎င်းတို့၏ မော်လီကျူးကြီးများကို ဓာတ်ဆီ လိုအပ်ချက်နှင့် ကိုက်ညီသော ကွင်းဆက်တို၍ တန်ဖိုးပို၍ ရှိသော Alkane များအဖြစ် ချိုးဖျက်သည် -- Alkene များကို ရေနံစိမ်းမှ တိုက်ရိုက် လုံးဝ မရရှိနိုင်သောကြောင့် ပလပ်စတစ် စက်မှုလုပ်ငန်းအတွက် တန်ဖိုးရှိသော ကုန်ချောပစ္စည်းအဖြစ် Alkene များကိုပါ တစ်ပြိုင်နက် ထုတ်ပေးပြီး ဖြစ်သည်။ ရှင်သန့်သည် ၎င်းသည် စွန့်ပစ်ပစ္စည်း စွန့်ပစ်ခြင်းထက် ဓာတ်ပြုမှု အဆင့်တစ်ခုတည်းတွင် ပိုလျှံနေသော ကုန်ပစ္စည်းတစ်ခုကို လိုအပ်နေသော ကုန်ပစ္စည်း နှစ်ခုအဖြစ် ပြောင်းလဲပေးသော စီးပွားရေး ပြန်လည်ချိန်ညှိမှု လုပ်ငန်းစဉ်တစ်ခု ပို၍ ဆင်တူကြောင်း သိရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem does cracking need to solve?",
+            questionMy:
+                "Cracking ဖြေရှင်းရန် လိုအပ်သည့် ပြဿနာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Distillation alone produces too little petrol and too much heavy fuel oil relative to market demand",
+              "Crude oil contains no useful fractions at all",
+              "Distillation destroys all the hydrocarbons",
+              "There is too much petrol and not enough heavy fuel oil",
+            ],
+            optionsMy: [
+              "Distillation တစ်ခုတည်းက ဈေးကွက် လိုအပ်ချက်နှင့် နှိုင်းယှဉ်လျှင် ဓာတ်ဆီ နည်းလွန်းပြီး ကျောက်မီးသွေးဆီ ပိုများနေခြင်း",
+              "ရေနံစိမ်းတွင် အသုံးဝင်သော Fraction တစ်ခုမျှ လုံးဝ မပါဝင်ခြင်း",
+              "Distillation က Hydrocarbon အားလုံးကို ဖျက်ဆီးသောကြောင့်",
+              "ဓာတ်ဆီ ပိုများပြီး ကျောက်မီးသွေးဆီ မလုံလောက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the supply-demand mismatch.",
+            ],
+            hintsMy: [
+              "ရရှိနိုင်မှုနှင့် လိုအပ်မှု ကိုက်ညီမှု မရှိခြင်းကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can simply distilling more crude oil not fix the imbalance?",
+            questionMy:
+                "ရေနံစိမ်းကို ပို၍ ရိုးရိုးရှင်းရှင်း ငွေ့ပျံစေခြင်းက မညီမျှမှုကို မပြေလည်စေနိုင်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It would only produce more of every fraction in the same fixed ratio, worsening the surplus too",
+              "Distillation cannot be repeated more than once",
+              "Crude oil runs out immediately after one distillation",
+              "More distillation always produces pure petrol only",
+            ],
+            optionsMy: [
+              "ဤသည်က တူညီသော သတ်မှတ်အချိုးဖြင့် Fraction တိုင်းကို ပို၍ ထုတ်ပေးရုံသာဖြစ်ပြီး ပိုလျှံမှုကိုပါ ပို၍ ဆိုးရွားစေမည်ဖြစ်သောကြောင့်",
+              "Distillation ကို တစ်ကြိမ်ထက်ပို၍ ထပ်မံလုပ်ဆောင်၍ မရသောကြောင့်",
+              "ရေနံစိမ်းသည် Distillation တစ်ကြိမ်ပြီးနောက် ချက်ချင်း ကုန်သွားသောကြောင့်",
+              "Distillation ပို၍ လုပ်ဆောင်ခြင်းက စင်ကြယ်သော ဓာတ်ဆီသက်သက်ကိုသာ အမြဲ ထုတ်ပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what valuable by-product does cracking produce for the plastics industry?",
+            questionMy:
+                "ပလပ်စတစ် စက်မှုလုပ်ငန်းအတွက် Cracking က ထုတ်ပေးသော တန်ဖိုးရှိသော ကုန်ချောပစ္စည်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Alkenes, which cannot be obtained directly from crude oil at all",
+              "More crude oil",
+              "Pure carbon dioxide",
+              "Bitumen for road-building",
+            ],
+            optionsMy: [
+              "Alkene များ၊ ရေနံစိမ်းမှ တိုက်ရိုက် လုံးဝ ရရှိနိုင်ခြင်း မရှိပါ",
+              "ရေနံစိမ်း ပိုမို",
+              "စင်ကြယ်သော Carbon Dioxide",
+              "လမ်းတည်ဆောက်ရေးအတွက် Bitumen",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about alkenes as a valuable by-product.",
+            ],
+            hintsMy: [
+              "Alkene များကို တန်ဖိုးရှိသော ကုန်ချောပစ္စည်းအဖြစ် ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Petroleum Chemistry",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ရေနံ ဓာတုဗေဒ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Fractional distillation separates crude oil based on...",
+          questionMy:
+              "Fractional Distillation သည် ...ကို အခြေခံ၍ ရေနံစိမ်းကို ခွဲထုတ်သည်",
+          optionsEn: [
+            "Boiling point differences",
+            "Colour differences only",
+            "Smell differences only",
+            "Weight differences only",
+          ],
+          optionsMy: [
+            "အရည်ဆူချိန် ကွာခြားချက်",
+            "အရောင် ကွာခြားချက်သာ",
+            "အနံ့ ကွာခြားချက်သာ",
+            "အလေးချိန် ကွာခြားချက်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cracking breaks large hydrocarbons into smaller...",
+          questionMy:
+              "Cracking သည် ကြီးမားသော Hydrocarbon များကို ပို၍ သေးငယ်သော...အဖြစ် ချိုးဖျက်သည်",
+          optionsEn: ["Alkanes and alkenes", "Noble gases", "Salts", "Metals"],
+          optionsMy: [
+            "Alkane နှင့် Alkene",
+            "Noble Gas",
+            "ဆားများ",
+            "သတ္တုများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bromine water decolourises rapidly when added to...",
+          questionMy: "Bromine ရေသည် ...ထည့်သောအခါ လျင်မြန်စွာ အရောင်ဖျက်သည်",
+          optionsEn: [
+            "An alkene",
+            "An alkane only",
+            "Pure water only",
+            "A noble gas",
+          ],
+          optionsMy: ["Alkene", "Alkane သာ", "ရေစင်သာ", "Noble Gas"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 27: "Alcohols and Carboxylic Acids"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek27 = CourseWeekDef(
+  id: "course-igcse-chem-w27",
+  weekNumber: 27,
+  titleEn: "Alcohols and Carboxylic Acids",
+  titleMy: "အယ်ကိုဟောများနှင့် ကာဘောက်ဆစ်လစ် အက်ဆစ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w27-d1",
+      dayNumber: 1,
+      titleEn: "Making Ethanol: Fermentation vs Hydration",
+      titleMy: "Ethanol ထုတ်လုပ်ခြင်း - Fermentation နှင့် Hydration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During fermentation, yeast enzymes convert glucose into ethanol and which other product?",
+          questionMy:
+              "Fermentation အတွင်း Yeast Enzyme များသည် Glucose ကို Ethanol နှင့် အခြား မည်သည့် ကုန်ချောပစ္စည်းအဖြစ် ပြောင်းလဲသနည်း။",
+          optionsEn: [
+            "Carbon dioxide gas",
+            "Oxygen gas",
+            "Hydrogen gas",
+            "Water only, with no gas",
+          ],
+          optionsMy: [
+            "Carbon Dioxide ဓာတ်ငွေ့",
+            "Oxygen ဓာတ်ငွေ့",
+            "Hydrogen ဓာတ်ငွေ့",
+            "ရေသာ၊ ဓာတ်ငွေ့ လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "C6H12O6 -> 2C2H5OH + 2CO2. This is why fermenting mixtures bubble as CO2 escapes.",
+          ],
+          hintsMy: [
+            "C6H12O6 -> 2C2H5OH + 2CO2 ။ ဤသည်ကား Fermentation ရောစပ်ထားသော ပစ္စည်းသည် CO2 ထွက်သွားစဉ် ဖူးဖူးထ ရသည့် အကြောင်းရင်းဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key advantage of producing ethanol by hydration of ethene rather than fermentation?",
+          questionMy:
+              "Fermentation အစား Ethene Hydration ဖြင့် Ethanol ထုတ်လုပ်ခြင်း၏ အဓိက အားသာချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "It is a fast, continuous industrial process producing a more concentrated ethanol product",
+            "It requires no catalyst and no heat at all",
+            "It uses only renewable raw materials",
+            "It never produces any impurities",
+          ],
+          optionsMy: [
+            "ပို၍ ဆူပွက်သောပမာဏ Ethanol ကုန်ချောပစ္စည်း ထုတ်ပေးသော လျင်မြန်၍ ဆက်တိုက် စက်မှုလုပ်ငန်းစဉ်တစ်ခု ဖြစ်သည်",
+            "Catalyst နှင့် အပူ လုံးဝ မလိုအပ်ပါ",
+            "ပြန်လည်ဖြစ်ပေါ်နိုင်သော ကုန်ကြမ်းများကိုသာ အသုံးပြုသည်",
+            "ညစ်ညမ်းစေသောပစ္စည်း မည်သည့်အခါမျှ လုံးဝ ထုတ်ပေးခြင်း မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ethene + steam -> ethanol, using a phosphoric acid catalyst at high temperature and pressure -- continuous and fast, but ethene comes from non-renewable crude oil.",
+          ],
+          hintsMy: [
+            "Ethene + ရေငွေ့ -> Ethanol၊ အပူချိန်မြင့်၍ ဖိအားမြင့်တွင် Phosphoric Acid Catalyst ကို အသုံးပြု -- ဆက်တိုက်၍ လျင်မြန်သော်လည်း Ethene သည် ပြန်လည်ဖြစ်ပေါ်၍ မရသော ရေနံစိမ်းမှ ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When ethanoic acid reacts with sodium hydroxide, which type of compound is formed as the salt?",
+          questionMy:
+              "Ethanoic Acid သည် Sodium Hydroxide နှင့် ဓာတ်ပြုသည့်အခါ ဆားအဖြစ် ဖွဲ့စည်းလာသော ဒြပ်ပေါင်း အမျိုးအစားကား အဘယ်နည်း။",
+          optionsEn: [
+            "Sodium ethanoate, an '-oate' salt, plus water",
+            "Sodium chloride",
+            "Sodium carbonate",
+            "Ethanol",
+          ],
+          optionsMy: [
+            "Sodium Ethanoate၊ '-oate' ဆားတစ်မျိုးနှင့် ရေ",
+            "Sodium Chloride",
+            "Sodium Carbonate",
+            "Ethanol",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "CH3COOH + NaOH -> CH3COONa + H2O. Carboxylic acid salts always end in '-oate'.",
+          ],
+          hintsMy: [
+            "CH3COOH + NaOH -> CH3COONa + H2O ။ Carboxylic Acid ဆားများသည် '-oate' ဖြင့် အမြဲ အဆုံးသတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Alcohols and Acids Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Alcohol နှင့် Acid ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w27-dm-1",
+          termEn: "Fermentation",
+          termMy: "Fermentation",
+          matchEn:
+              "Using yeast enzymes to convert glucose into ethanol and carbon dioxide anaerobically",
+          matchMy:
+              "Yeast Enzyme များကို အသုံးပြု၍ Glucose ကို Anaerobic နည်းဖြင့် Ethanol နှင့် Carbon Dioxide အဖြစ် ပြောင်းလဲခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w27-dm-2",
+          termEn: "Esterification",
+          termMy: "Esterification",
+          matchEn:
+              "The reaction between a carboxylic acid and an alcohol, catalysed by an acid, to form an ester and water",
+          matchMy:
+              "အက်စတာနှင့် ရေ ဖွဲ့စည်းရန် Acid ဖြင့် Catalyse ပြုလုပ်သော Carboxylic Acid နှင့် Alcohol ကြား ဓာတ်ပြုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w27-dm-3",
+          termEn: "Ester",
+          termMy: "Ester",
+          matchEn:
+              "A sweet-smelling compound formed from a carboxylic acid and an alcohol, used in perfumes and flavourings",
+          matchMy:
+              "Carboxylic Acid နှင့် Alcohol မှ ဖွဲ့စည်းလာသော ရေမွှေးနှင့် အရသာဓာတ်များတွင် အသုံးပြုသော အနံ့ ချိုသာသည့် ဒြပ်ပေါင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w27-dm-4",
+          termEn: "Hydration of ethene",
+          termMy: "Hydration of Ethene",
+          matchEn:
+              "An industrial method of making ethanol by reacting ethene with steam over a catalyst",
+          matchMy:
+              "Catalyst တစ်ခု အပေါ်တွင် Ethene ကို ရေငွေ့ဖြင့် ဓာတ်ပြုစေကာ Ethanol ပြုလုပ်သော စက်မှု နည်းလမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w27-dm-5",
+          termEn: "Carboxylic acid salt ('-oate')",
+          termMy: "Carboxylic Acid Salt ('-oate')",
+          matchEn:
+              "The salt formed when a carboxylic acid reacts with a base, always ending in '-oate'",
+          matchMy:
+              "Carboxylic Acid သည် ဘေ့စ်တစ်ခုနှင့် ဓာတ်ပြုသည့်အခါ ဖွဲ့စည်းလာသော '-oate' ဖြင့် အမြဲ အဆုံးသတ်သော ဆား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fermentation, Hydration, or Esterification?",
+      titleMy:
+          "စီစစ်ကြမည် - Fermentation လား၊ Hydration လား၊ Esterification လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fermentation", "Hydration", "Esterification"],
+        bucketsMy: ["Fermentation", "Hydration", "Esterification"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w27-sort-1",
+            labelEn:
+                "Yeast converts glucose into ethanol and carbon dioxide at around 35-40C",
+            labelMy:
+                "Yeast သည် Glucose ကို ၃၅-၄၀C ခန့်တွင် Ethanol နှင့် Carbon Dioxide အဖြစ် ပြောင်းလဲသည်",
+            correctBucketEn: "Fermentation",
+            correctBucketMy: "Fermentation",
+          ),
+          SortingItem(
+            id: "igcsechem-w27-sort-2",
+            labelEn:
+                "Ethene and steam react over a phosphoric acid catalyst to form ethanol",
+            labelMy:
+                "Ethene နှင့် ရေငွေ့သည် Phosphoric Acid Catalyst အပေါ်တွင် ဓာတ်ပြုကာ Ethanol ဖွဲ့စည်းသည်",
+            correctBucketEn: "Hydration",
+            correctBucketMy: "Hydration",
+          ),
+          SortingItem(
+            id: "igcsechem-w27-sort-3",
+            labelEn:
+                "Ethanoic acid and ethanol combine with an acid catalyst to form a sweet-smelling compound",
+            labelMy:
+                "Ethanoic Acid နှင့် Ethanol သည် Acid Catalyst ဖြင့် ပေါင်းစပ်ကာ အနံ့ ချိုသာသော ဒြပ်ပေါင်း ဖွဲ့စည်းသည်",
+            correctBucketEn: "Esterification",
+            correctBucketMy: "Esterification",
+          ),
+          SortingItem(
+            id: "igcsechem-w27-sort-4",
+            labelEn:
+                "A slow, batch process using living microorganisms and producing dilute ethanol",
+            labelMy:
+                "အသက်ရှင်နေသော Microorganism များကို အသုံးပြု၍ ဆူပွက်သောပမာဏ နည်းသော Ethanol ထုတ်ပေးသော နှေးကွေးသော Batch လုပ်ငန်းစဉ်",
+            correctBucketEn: "Fermentation",
+            correctBucketMy: "Fermentation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Ethanol Production Debate",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ Ethanol ထုတ်လုပ်ရေး အငြင်းပွားမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Ethanol Production Debate",
+        titleMy: "ရှင်သန့်၏ Ethanol ထုတ်လုပ်ရေး အငြင်းပွားမှု",
+        passageEn:
+            "Ko Zaw set Shin Thant a debate-style question: which method of producing ethanol was better -- fermentation of sugar crops, or hydration of ethene from crude oil? He told her a good answer needed at least three points of comparison, not just one.\n\nShin Thant started with the raw material. Fermentation uses sugar or starch crops like sugarcane or corn, which are renewable -- new crops can be grown each season -- while hydration relies on ethene extracted from crude oil, a finite, non-renewable resource that will eventually run out. On this point, fermentation appeared to be the environmentally safer long-term choice, though she noted that dedicating farmland to fuel crops could compete with land needed for food production, a real-world complication worth mentioning.\n\nHer second point concerned speed and purity: fermentation is a slow batch process, taking days for yeast to work, and produces only a dilute ethanol solution that requires further distillation to concentrate, while hydration is a fast, continuous industrial process that produces much purer ethanol directly. Her third point was cost and conditions: fermentation needs only a moderate temperature and no expensive catalyst, making it cheap and accessible even in low-technology settings, while hydration requires high temperature, high pressure, and an expensive phosphoric acid catalyst, making it viable only where crude oil and industrial infrastructure are both available. Ko Zaw was pleased that instead of declaring one method simply 'better,' Shin Thant had shown that the right choice actually depends on which factor -- renewability, speed, purity, or cost -- matters most in a given country's specific circumstances.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်ကို အငြင်းပွားမှု ပုံစံဖြင့် မေးခွန်းတစ်ခု ပေးခဲ့သည် - Ethanol ထုတ်လုပ်သော နည်းလမ်း မည်သည် ပို၍ ကောင်းသနည်း -- သကြားသီးနှံများ Fermentation ပြုလုပ်ခြင်းလား၊ သို့မဟုတ် ရေနံစိမ်းမှ Ethene ကို Hydration ပြုလုပ်ခြင်းလား။ ကောင်းသော အဖြေတစ်ခုသည် အနည်းဆုံး နှိုင်းယှဉ်ချက် သုံးချက် လိုအပ်ကြောင်း တစ်ချက်တည်း မဟုတ်ကြောင်း သူသည် သူမကို ပြောကြားခဲ့သည်။\n\nရှင်သန့်သည် ကုန်ကြမ်းနှင့် စတင်ခဲ့သည်။ Fermentation သည် ကြံ သို့မဟုတ် ပြောင်းကဲ့သို့ သကြား သို့မဟုတ် ကစီဓာတ် သီးနှံများကို အသုံးပြုပြီး ၎င်းတို့သည် ပြန်လည်ဖြစ်ပေါ်နိုင်သော -- ရာသီတစ်ခုစီတွင် သီးနှံအသစ်များ စိုက်ပျိုးနိုင်သည် -- ဖြစ်ကာ Hydration မှာမူ ကန့်သတ်ထားသော၊ ပြန်လည်ဖြစ်ပေါ်၍ မရသော အရင်းအမြစ်ဖြစ်သည့် ရေနံစိမ်းမှ ထုတ်ယူသော Ethene အပေါ် မှီခိုနေပြီး နောက်ဆုံးတွင် ကုန်ဆုံးသွားလိမ့်မည်။ ဤအချက်တွင် Fermentation သည် ပတ်ဝန်းကျင်အရ ပို၍ လုံခြုံသော ရေရှည် ရွေးချယ်မှုအဖြစ် ထင်ရသော်လည်း လောင်စာ သီးနှံများအတွက် လယ်ယာမြေကို ချွင်းချက်ပေးခြင်းသည် အစားအစာ ထုတ်လုပ်ရေးအတွက် လိုအပ်သော မြေနှင့် ပြိုင်ဆိုင်နိုင်ကြောင်းကို သူမ သတိပြုမိခဲ့သည်၊ ဤသည်ကား ဖော်ပြရန် တန်ဖိုးရှိသော လက်တွေ့ဘဝ ရှုပ်ထွေးမှု ဖြစ်သည်။\n\nသူမ၏ ဒုတိယ အချက်သည် အမြန်နှုန်းနှင့် သန့်ရှင်းမှုနှင့် သက်ဆိုင်ခဲ့သည် - Fermentation သည် Yeast လုပ်ဆောင်ရန် ရက်များစွာ ကြာသော နှေးကွေးသော Batch လုပ်ငန်းစဉ်တစ်ခု ဖြစ်ပြီး ဆူပွက်သောပမာဏ တိုးမြှင့်ရန် Distillation ထပ်မံ လိုအပ်သော ဆူပွက်သောပမာဏ နည်းသော Ethanol ပျော်ရည်တစ်ခုကိုသာ ထုတ်ပေးသော်လည်း Hydration သည် ပို၍ စင်ကြယ်သော Ethanol ကို တိုက်ရိုက် ထုတ်ပေးသော လျင်မြန်၍ ဆက်တိုက် စက်မှု လုပ်ငန်းစဉ်တစ်ခု ဖြစ်သည်။ သူမ၏ တတိယ အချက်မှာ ကုန်ကျစရိတ်နှင့် အခြေအနေများ ဖြစ်ခဲ့သည် - Fermentation သည် အလယ်အလတ် အပူချိန်တစ်ခုသာ လိုအပ်ပြီး ဈေးကြီးသော Catalyst မလိုအပ်သဖြင့် နည်းပညာနိမ့်သော နေရာများတွင်ပင် ဈေးသက်သာစွာ လက်လှမ်းမီစေသော်လည်း Hydration သည် အပူချိန်မြင့်၊ ဖိအားမြင့်နှင့် ဈေးကြီးသော Phosphoric Acid Catalyst လိုအပ်ပြီး ရေနံစိမ်းနှင့် စက်မှု အခြေခံအဆောက်အအုံ နှစ်ခုစလုံး ရရှိနိုင်သော နေရာများတွင်သာ အလုပ်ဖြစ်နိုင်သည်။ Ethanol ထုတ်လုပ်ရေး နည်းလမ်းတစ်ခုကို ရိုးရိုးရှင်းရှင်း 'ပို၍ ကောင်းသည်' ဟု ကြေညာမည့်အစား ပြန်လည်ဖြစ်ပေါ်နိုင်မှု၊ အမြန်နှုန်း၊ သန့်ရှင်းမှု သို့မဟုတ် ကုန်ကျစရိတ် -- မည်သည့် အချက်က တိုင်းပြည် တစ်ခု၏ တိကျသော အခြေအနေများတွင် အရေးအကြီးဆုံး ဖြစ်သနည်းအပေါ် မှန်ကန်သော ရွေးချယ်မှု အမှန်တကယ် မှီခိုနေကြောင်း ရှင်သန့် ပြသနိုင်ခဲ့သောကြောင့် ကိုဇော် ကျေနပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what real-world complication did Shin Thant note about using sugar crops for fermentation?",
+            questionMy:
+                "Fermentation အတွက် သကြားသီးနှံများကို အသုံးပြုခြင်းနှင့် ပတ်သက်၍ ရှင်သန့် သတိပြုမိခဲ့သည့် လက်တွေ့ဘဝ ရှုပ်ထွေးမှုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Dedicating farmland to fuel crops could compete with land needed for food production",
+              "Sugar crops cannot grow in most countries",
+              "Sugar crops never actually produce ethanol",
+              "Fermentation destroys all farmland permanently",
+            ],
+            optionsMy: [
+              "လောင်စာ သီးနှံများအတွက် လယ်ယာမြေကို ချွင်းချက်ပေးခြင်းသည် အစားအစာ ထုတ်လုပ်ရေးအတွက် လိုအပ်သော မြေနှင့် ပြိုင်ဆိုင်နိုင်ခြင်း",
+              "သကြားသီးနှံများသည် နိုင်ငံအများစုတွင် စိုက်ပျိုး၍ မရသောကြောင့်",
+              "သကြားသီးနှံများသည် Ethanol ကို အမှန်တကယ် လုံးဝ ထုတ်ပေးခြင်း မရှိသောကြောင့်",
+              "Fermentation က လယ်ယာမြေများကို ထာဝစဉ် ဖျက်ဆီးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final clause of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး အပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does fermentation produce only a dilute ethanol solution?",
+            questionMy:
+                "Fermentation သည် ဆူပွက်သောပမာဏ နည်းသော Ethanol ပျော်ရည်ကိုသာ ထုတ်ပေးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is stated as an inherent characteristic of the batch fermentation process, requiring further distillation to concentrate",
+              "Yeast destroys most of the ethanol it produces",
+              "Fermentation always uses too little sugar",
+              "Fermentation happens too quickly for ethanol to form",
+            ],
+            optionsMy: [
+              "Batch Fermentation လုပ်ငန်းစဉ်၏ သဘာဝ လက္ခဏာတစ်ခု အဖြစ် ဖော်ပြထားပြီး ဆူပွက်သောပမာဏ တိုးမြှင့်ရန် Distillation ထပ်မံ လိုအပ်သည်",
+              "Yeast က ၎င်း ထုတ်ပေးသော Ethanol အများစုကို ဖျက်ဆီးသောကြောင့်",
+              "Fermentation တွင် သကြား အမြဲ နည်းလွန်းသောကြောင့်",
+              "Fermentation သည် Ethanol ဖွဲ့စည်းရန် အလွန် လျင်မြန်စွာ ဖြစ်ပွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing fermentation's product purity to hydration's.",
+            ],
+            hintsMy: [
+              "Fermentation ၏ ကုန်ချောပစ္စည်း သန့်ရှင်းမှုကို Hydration နှင့် နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Zaw appreciate about Shin Thant's overall conclusion?",
+            questionMy:
+                "ရှင်သန့်၏ စုစုပေါင်း ကောက်ချက်ကို ကိုဇော် ကျေနပ်ခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She showed the right choice depends on which factor matters most in a given country's circumstances, rather than declaring one method simply better",
+              "She memorised every fact without explaining reasoning",
+              "She declared fermentation the only correct answer",
+              "She refused to compare the two methods at all",
+            ],
+            optionsMy: [
+              "တစ်နည်းလမ်းကို ရိုးရိုးရှင်းရှင်း 'ပို၍ ကောင်းသည်' ဟု ကြေညာမည့်အစား တိုင်းပြည် တစ်ခု၏ အခြေအနေများတွင် မည်သည့် အချက်က အရေးအကြီးဆုံး ဖြစ်သနည်းအပေါ် မှန်ကန်သော ရွေးချယ်မှု မှီခိုနေကြောင်း ပြသခဲ့ခြင်း",
+              "ကျိုးကြောင်းဆင်ခြင်ချက် မရှင်းပြဘဲ အချက်အလက်တိုင်းကို အလွတ်ကျက်ခဲ့ခြင်း",
+              "Fermentation ကို တစ်ခုတည်းသော မှန်ကန်သည့် အဖြေအဖြစ် ကြေညာခဲ့ခြင်း",
+              "နည်းလမ်း နှစ်ခုကို လုံးဝ နှိုင်းယှဉ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Alcohols and Carboxylic Acids",
+      titleMy:
+          "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Alcohol နှင့် Carboxylic Acid",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Fermentation converts glucose into ethanol and...",
+          questionMy:
+              "Fermentation သည် Glucose ကို Ethanol နှင့် ...အဖြစ် ပြောင်းလဲသည်",
+          optionsEn: ["Carbon dioxide", "Oxygen", "Hydrogen", "Chlorine"],
+          optionsMy: ["Carbon Dioxide", "Oxygen", "Hydrogen", "Chlorine"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Esterification combines a carboxylic acid with an alcohol to form an ester and...",
+          questionMy:
+              "Esterification သည် Carboxylic Acid ကို Alcohol နှင့် ပေါင်းစပ်ကာ အက်စတာနှင့် ...ဖွဲ့စည်းစေသည်",
+          optionsEn: ["Water", "Carbon dioxide", "Hydrogen gas", "Oxygen gas"],
+          optionsMy: [
+            "ရေ",
+            "Carbon Dioxide",
+            "Hydrogen ဓာတ်ငွေ့",
+            "Oxygen ဓာတ်ငွေ့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A carboxylic acid salt name always ends in...",
+          questionMy: "Carboxylic Acid ဆား အမည်သည် အမြဲ ...ဖြင့် အဆုံးသတ်သည်",
+          optionsEn: ["-oate", "-ol", "-ane", "-ene"],
+          optionsMy: ["-oate", "-ol", "-ane", "-ene"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 28: "Polymers and Macromolecules" (Term 7 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek28 = CourseWeekDef(
+  id: "course-igcse-chem-w28",
+  weekNumber: 28,
+  titleEn: "Polymers and Macromolecules",
+  titleMy: "ပိုလီမာများနှင့် မက်ခရိုမော်လီကျူးများ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w28-d1",
+      dayNumber: 1,
+      titleEn: "Addition vs Condensation Polymerisation",
+      titleMy: "Addition နှင့် Condensation Polymerisation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In addition polymerisation, how do alkene monomers like ethene join to form a polymer chain?",
+          questionMy:
+              "Addition Polymerisation တွင် Ethene ကဲ့သို့ Alkene Monomer များသည် ပိုလီမာ ကွင်းဆက် ဖွဲ့စည်းရန် မည်သို့ ပေါင်းစည်းကြသနည်း။",
+          optionsEn: [
+            "The C=C double bond in each monomer opens up to form single bonds linking monomers, with no other product formed",
+            "Monomers release water each time a bond forms",
+            "Monomers release carbon dioxide each time a bond forms",
+            "Monomers must first lose an oxygen atom before joining",
+          ],
+          optionsMy: [
+            "Monomer တစ်ခုစီ၏ C=C Double Bond သည် Bond ဖွင့်၍ Monomer များ ချိတ်ဆက်ပေးသော Single Bond ဖြစ်လာပြီး အခြားကုန်ချောပစ္စည်း လုံးဝ မဖြစ်ပေါ်",
+            "Bond တစ်ခု ဖွဲ့စည်းတိုင်း Monomer များသည် ရေကို လွှတ်ပေးသည်",
+            "Bond တစ်ခု ဖွဲ့စည်းတိုင်း Monomer များသည် Carbon Dioxide ကို လွှတ်ပေးသည်",
+            "Monomer များသည် ချိတ်ဆက်ခြင်း မပြုမီ Oxygen အက်တမ်တစ်ခု ဦးစွာ ဆုံးရှုံးရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, many ethene molecules (CH2=CH2) join to form poly(ethene), a long chain of single-bonded carbons with no by-product.",
+          ],
+          hintsMy: [
+            "ဥပမာ- Ethene မော်လီကျူးများစွာ (CH2=CH2) သည် ပေါင်းစည်းကာ Poly(Ethene) ကို ဖွဲ့စည်းသည်၊ ကုန်ချောပစ္စည်း မပါဘဲ Single Bond ဖြင့် ချိတ်ဆက်ထားသော Carbon ကွင်းဆက်ရှည်တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between condensation polymerisation and addition polymerisation?",
+          questionMy:
+              "Condensation Polymerisation နှင့် Addition Polymerisation ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "Condensation polymerisation releases a small molecule, usually water, each time monomers with two functional groups join",
+            "Condensation polymerisation never involves any monomers at all",
+            "Addition polymerisation always releases carbon dioxide",
+            "There is no real difference between the two processes",
+          ],
+          optionsMy: [
+            "Condensation Polymerisation သည် Functional Group နှစ်ခုပါသော Monomer များ ချိတ်ဆက်တိုင်း သေးငယ်သော မော်လီကျူးတစ်ခု (များသောအားဖြင့် ရေ) ကို လွှတ်ပေးသည်",
+            "Condensation Polymerisation တွင် Monomer တစ်ခုမျှ လုံးဝ မပါဝင်ပါ",
+            "Addition Polymerisation က Carbon Dioxide ကို အမြဲ လွှတ်ပေးသည်",
+            "လုပ်ငန်းစဉ် နှစ်ခုကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Nylon and Terylene are both condensation polymers, releasing water as each new bond forms between monomers.",
+          ],
+          hintsMy: [
+            "Nylon နှင့် Terylene နှစ်ခုစလုံးသည် Condensation Polymer များ ဖြစ်ပြီး Monomer များကြား Bond အသစ် ဖွဲ့စည်းတိုင်း ရေကို လွှတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are most synthetic polymers considered a serious environmental problem when disposed of?",
+          questionMy:
+              "စွန့်ပစ်လိုက်သည့်အခါ Synthetic ပိုလီမာအများစုကို ပတ်ဝန်းကျင်ဆိုင်ရာ ပြင်းထန်သော ပြဿနာတစ်ခုဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Most are non-biodegradable, since microorganisms cannot easily break down their strong carbon-carbon backbone",
+            "They all dissolve instantly in rainwater, contaminating groundwater",
+            "They are all radioactive",
+            "They spontaneously catch fire in landfills",
+          ],
+          optionsMy: [
+            "၎င်းတို့အများစုသည် Non-Biodegradable ဖြစ်ကြပြီး Microorganism များသည် ၎င်းတို့၏ ခိုင်မာသော Carbon-Carbon ဗဟိုကွင်းဆက်ကို လွယ်ကူစွာ ချိုးဖျက်၍ မရသောကြောင့်",
+            "၎င်းတို့ အားလုံးသည် မိုးရေတွင် ချက်ချင်း ပျော်ဝင်သွားကာ မြေအောက်ရေကို ညစ်ညမ်းစေသောကြောင့်",
+            "၎င်းတို့ အားလုံးသည် Radioactive ဖြစ်သောကြောင့်",
+            "၎င်းတို့သည် အမှိုက်ပုံများတွင် အလိုအလျောက် မီးလောင်တတ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike natural materials, most plastics can persist in landfill or the environment for hundreds of years without breaking down.",
+          ],
+          hintsMy: [
+            "သဘာဝ ပစ္စည်းများနှင့် မတူဘဲ ပလပ်စတစ်အများစုသည် ချိုးဖျက်ခြင်း မရှိဘဲ နှစ်ပေါင်း ရာနှင့်ချီ၍ အမှိုက်ပုံ သို့မဟုတ် ပတ်ဝန်းကျင်တွင် ဆက်လက် တည်ရှိနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သတ္တမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w28-dm-1",
+          termEn: "Monomer",
+          termMy: "Monomer",
+          matchEn:
+              "A small molecule that joins with many others to form a polymer",
+          matchMy:
+              "ပိုလီမာ ဖွဲ့စည်းရန် အခြားသည် များစွာနှင့် ချိတ်ဆက်သော သေးငယ်သော မော်လီကျူး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w28-dm-2",
+          termEn: "Poly(ethene)",
+          termMy: "Poly(Ethene)",
+          matchEn:
+              "An addition polymer made from many ethene monomers joining together",
+          matchMy:
+              "Ethene Monomer များစွာ ပေါင်းစည်း၍ ပြုလုပ်ထားသော Addition Polymer",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w28-dm-3",
+          termEn: "Nylon",
+          termMy: "Nylon",
+          matchEn:
+              "A condensation polymer formed from a diamine and a dicarboxylic acid, releasing water",
+          matchMy:
+              "ရေ လွှတ်ပေးကာ Diamine နှင့် Dicarboxylic Acid မှ ဖွဲ့စည်းသော Condensation Polymer",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w28-dm-4",
+          termEn: "Non-biodegradable",
+          termMy: "Non-Biodegradable",
+          matchEn:
+              "Unable to be broken down naturally by microorganisms in a reasonable time",
+          matchMy:
+              "လျော်ကန်သော အချိန်အတွင်း Microorganism များက သဘာဝအလျောက် ချိုးဖျက်၍ မရနိုင်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w28-dm-5",
+          termEn: "Macromolecule",
+          termMy: "Macromolecule",
+          matchEn:
+              "A very large molecule, such as a polymer, built from many repeating smaller units",
+          matchMy:
+              "ထပ်ခါထပ်ခါ ပြန်ဖြစ်နေသော ယူနစ်ငယ်များစွာမှ တည်ဆောက်ထားသော Polymer ကဲ့သို့ မော်လီကျူးအလွန်ကြီးမား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Addition Polymer or Condensation Polymer?",
+      titleMy: "စီစစ်ကြမည် - Addition Polymer လား၊ Condensation Polymer လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Addition Polymer", "Condensation Polymer"],
+        bucketsMy: ["Addition Polymer", "Condensation Polymer"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w28-sort-1",
+            labelEn:
+                "Poly(propene) -- made from propene monomers, no by-product formed",
+            labelMy:
+                "Poly(Propene) -- Propene Monomer များမှ ပြုလုပ်ထားပြီး ကုန်ချောပစ္စည်း မဖြစ်ပေါ်",
+            correctBucketEn: "Addition Polymer",
+            correctBucketMy: "Addition Polymer",
+          ),
+          SortingItem(
+            id: "igcsechem-w28-sort-2",
+            labelEn:
+                "Terylene -- made from a diol and a dicarboxylic acid, releasing water",
+            labelMy:
+                "Terylene -- Diol နှင့် Dicarboxylic Acid မှ ပြုလုပ်ထားပြီး ရေ လွှတ်ပေးသည်",
+            correctBucketEn: "Condensation Polymer",
+            correctBucketMy: "Condensation Polymer",
+          ),
+          SortingItem(
+            id: "igcsechem-w28-sort-3",
+            labelEn:
+                "PVC (poly(chloroethene)) -- made from chloroethene monomers with a C=C double bond",
+            labelMy:
+                "PVC (Poly(Chloroethene)) -- C=C Double Bond ပါသော Chloroethene Monomer များမှ ပြုလုပ်ထားသည်",
+            correctBucketEn: "Addition Polymer",
+            correctBucketMy: "Addition Polymer",
+          ),
+          SortingItem(
+            id: "igcsechem-w28-sort-4",
+            labelEn:
+                "Nylon -- made from a diamine and a dicarboxylic acid, releasing water",
+            labelMy:
+                "Nylon -- Diamine နှင့် Dicarboxylic Acid မှ ပြုလုပ်ထားပြီး ရေ လွှတ်ပေးသည်",
+            correctBucketEn: "Condensation Polymer",
+            correctBucketMy: "Condensation Polymer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Term 7 Organic Chemistry Review",
+      titleMy:
+          "စာဖတ်ခြင်း - ရှင်သန့်၏ သတ္တမတန်း Organic ဓာတုဗေဒ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Term 7 Organic Chemistry Review",
+        titleMy: "ရှင်သန့်၏ သတ္တမတန်း Organic ဓာတုဗေဒ ပြန်လည်သုံးသပ်ခြင်း",
+        passageEn:
+            "For her Term 7 finale with Ko Zaw, Shin Thant traced a single molecule's journey from crude oil to a plastic bottle, connecting every week of the term into one chain of reasoning.\n\nIt began with fractional distillation separating crude oil into fractions, one of which was cracked to produce ethene -- a short-chain alkene that, crucially, cannot be extracted directly from crude oil. She confirmed ethene was unsaturated by recalling the bromine water test: it would rapidly decolourise orange-brown bromine water via an addition reaction across its C=C double bond, distinguishing it instantly from a saturated alkane. That same double bond, she explained, was also the reason ethene could undergo addition polymerisation, opening up so that thousands of ethene monomers joined into a long carbon chain to form poly(ethene) -- the plastic used for the bottle -- with no other product released in the process.\n\nKo Zaw then asked her to contrast this with a nylon rope instead of a plastic bottle. Shin Thant explained that nylon could never be made this way, since its monomers -- a diamine and a dicarboxylic acid -- do not have a C=C double bond to open up; instead, they undergo condensation polymerisation, releasing a water molecule every time a new bond links two monomers together. Finally, she noted that once either plastic was thrown away, both shared the same environmental fate: as non-biodegradable macromolecules with strong carbon backbones that ordinary microorganisms cannot break down, meaning both would persist in landfill for decades or centuries unless properly recycled. Ko Zaw nodded -- one continuous story, from an oil well to a landfill, built entirely from four weeks of separate-seeming facts.",
+        passageMy:
+            "ကိုဇော်နှင့် သတ္တမတန်း အဆုံးသတ် အစီအစဉ်အတွက် ရှင်သန့်သည် မော်လီကျူးတစ်ခု၏ ခရီးစဉ်ကို ရေနံစိမ်းမှ ပလပ်စတစ်ပုလင်းအထိ ခြေရာခံခဲ့ပြီး ဤတန်း၏ အပတ်တိုင်းကို ကျိုးကြောင်းဆက်စပ်ချက် တစ်ခုတည်းအဖြစ် ချိတ်ဆက်ခဲ့သည်။\n\n၎င်းသည် Fractional Distillation ဖြင့် ရေနံစိမ်းကို Fraction များအဖြစ် ခွဲထုတ်ခြင်းမှ စတင်ခဲ့ပြီး ၎င်းအနက် တစ်ခုကို Crack လုပ်ကာ Ethene -- ရေနံစိမ်းမှ တိုက်ရိုက် ထုတ်ယူ၍ မရသော ကွင်းဆက်တိုသော Alkene တစ်မျိုး -- ကို ထုတ်ပေးခဲ့သည်။ Bromine Water Test ကို သတိရ၍ Ethene သည် Unsaturated ဖြစ်ကြောင်း သူမ အတည်ပြုခဲ့သည် - ၎င်းသည် ၎င်း၏ C=C Double Bond ကို ဖြတ်၍ Addition ဓာတ်ပြုမှုတစ်ခုမှတစ်ဆင့် လိမ္မော်-အညိုရောင် Bromine ရေကို လျင်မြန်စွာ အရောင်ဖျက်လိမ့်မည်ဖြစ်ပြီး Saturated Alkane တစ်မျိုးနှင့် ချက်ချင်း ခွဲခြားနိုင်စေသည်။ ထို Double Bond တစ်ခုတည်းသည် Ethene ကို Addition Polymerisation ခံစားနိုင်စေသည့် အကြောင်းရင်းလည်း ဖြစ်ကြောင်း သူမ ရှင်းပြခဲ့သည်၊ ၎င်းသည် ဖွင့်ကာ Ethene Monomer ထောင်ပေါင်းများစွာကို Carbon ကွင်းဆက်ရှည်အဖြစ် ပေါင်းစည်းစေကာ -- ပုလင်းအတွက် အသုံးပြုသည့် ပလပ်စတစ် -- Poly(Ethene) ကို ဖွဲ့စည်းစေခဲ့ပြီး လုပ်ငန်းစဉ်တွင် အခြား ကုန်ချောပစ္စည်း လုံးဝ မထွက်ပေါ်ခဲ့ပါ။\n\nထို့နောက် ပလပ်စတစ်ပုလင်းအစား Nylon ကြိုးတစ်ချောင်းနှင့် ဤသည်ကို နှိုင်းယှဉ်ရန် ကိုဇော် သူမကို တောင်းဆိုခဲ့သည်။ Nylon ကို ဤနည်းဖြင့် ဘယ်တော့မှ ပြုလုပ်၍ မရကြောင်း ရှင်သန့် ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ၎င်း၏ Monomer များ -- Diamine နှင့် Dicarboxylic Acid -- တွင် ဖွင့်ရန် C=C Double Bond မရှိသောကြောင့်ဖြစ်သည်; ယင်းအစား ၎င်းတို့သည် Condensation Polymerisation ခံစားကြပြီး Monomer နှစ်ခုကို ချိတ်ဆက်ပေးသော Bond အသစ်တစ်ခု ဖွဲ့စည်းတိုင်း ရေမော်လီကျူးတစ်ခုကို လွှတ်ပေးသည်။ နောက်ဆုံးတွင် ပလပ်စတစ် နှစ်မျိုးလုံးကို စွန့်ပစ်လိုက်သည့်အခါ နှစ်ခုစလုံးသည် တူညီသော ပတ်ဝန်းကျင် ကံကြမ္မာကို ခံစားရကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည် - ရိုးရိုး Microorganism များ ချိုးဖျက်၍ မရသော ခိုင်မာသော Carbon ဗဟိုကွင်းဆက် ပါဝင်သော Non-Biodegradable Macromolecule များ ဖြစ်ကြသဖြင့် မှန်ကန်စွာ ပြန်လည်အသုံးမချပါက အမှိုက်ပုံများတွင် ဆယ်စုနှစ်များ သို့မဟုတ် ရာစုနှစ်များ ဆက်လက် တည်ရှိနေလိမ့်မည်ဖြစ်သည်။ ကိုဇော် ခေါင်းညိတ်ပေးခဲ့သည် -- သီးခြား ထင်ရသော အချက်အလက် လေးပတ်မှ လုံးလုံးလျားလျား တည်ဆောက်ထားသော ရေနံရေတွင်းမှ အမှိုက်ပုံအထိ တစ်ဆက်တည်း ဇာတ်လမ်းတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did Shin Thant confirm ethene was unsaturated?",
+            questionMy:
+                "Ethene သည် Unsaturated ဖြစ်ကြောင်း ရှင်သန့် မည်သို့ အတည်ပြုခဲ့သနည်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By recalling the bromine water test, which ethene would rapidly decolourise via addition",
+              "By measuring its exact boiling point",
+              "By checking its colour under sunlight",
+              "By weighing the molecule on a scale",
+            ],
+            optionsMy: [
+              "Ethene သည် Addition ဖြင့် လျင်မြန်စွာ အရောင်ဖျက်မည့် Bromine Water Test ကို သတိရခြင်းဖြင့်",
+              "၎င်း၏ အတိအကျ အရည်ဆူချိန်ကို တိုင်းတာခြင်းဖြင့်",
+              "နေရောင်ခြည်အောက်တွင် ၎င်း၏ အရောင်ကို စစ်ဆေးခြင်းဖြင့်",
+              "ချိန်ခွင်ပေါ်တွင် မော်လီကျူးကို ချိန်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the bromine water test in paragraph 1.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၁ ရှိ Bromine Water Test အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can nylon never be made by addition polymerisation?",
+            questionMy:
+                "Nylon ကို Addition Polymerisation ဖြင့် ဘယ်တော့မှ ပြုလုပ်၍ မရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its monomers do not have a C=C double bond to open up",
+              "Its monomers are too small to react",
+              "Nylon does not actually contain any monomers",
+              "Nylon can only be made from crude oil directly",
+            ],
+            optionsMy: [
+              "၎င်း၏ Monomer များတွင် ဖွင့်ရန် C=C Double Bond မရှိသောကြောင့်",
+              "၎င်း၏ Monomer များသည် ဓာတ်ပြုရန် သေးငယ်လွန်းသောကြောင့်",
+              "Nylon တွင် Monomer တစ်ခုမျှ အမှန်တကယ် မပါဝင်သောကြောင့်",
+              "Nylon ကို ရေနံစိမ်းမှ တိုက်ရိုက်သာ ပြုလုပ်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why nylon undergoes condensation instead.",
+            ],
+            hintsMy: [
+              "Nylon သည် Condensation ကို အဘယ်ကြောင့် ခံစားရကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what fate do both poly(ethene) and nylon share once thrown away?",
+            questionMy:
+                "Poly(Ethene) နှင့် Nylon နှစ်ခုစလုံးကို စွန့်ပစ်လိုက်သည့်အခါ ခံစားရသော ကံကြမ္မာကို နောက်ဆုံး စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both persist in landfill for decades or centuries as non-biodegradable macromolecules",
+              "Both dissolve completely within a few days",
+              "Both turn back into crude oil naturally",
+              "Both are automatically recycled by microorganisms",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် Non-Biodegradable Macromolecule များအဖြစ် အမှိုက်ပုံများတွင် ဆယ်စုနှစ်များ သို့မဟုတ် ရာစုနှစ်များ ဆက်လက် တည်ရှိနေသည်",
+              "နှစ်ခုစလုံးသည် ရက်အနည်းငယ်အတွင်း လုံးလုံးလျားလျား ပျော်ဝင်သွားသည်",
+              "နှစ်ခုစလုံးသည် သဘာဝအလျောက် ရေနံစိမ်း အဖြစ်သို့ ပြန်လည် ပြောင်းလဲသွားသည်",
+              "နှစ်ခုစလုံးကို Microorganism များက အလိုအလျောက် ပြန်လည်အသုံးချကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the shared environmental fate.",
+            ],
+            hintsMy: [
+              "မျှဝေထားသော ပတ်ဝန်းကျင် ကံကြမ္မာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Recap: Organic Chemistry",
+      titleMy: "သတ္တမတန်း ပြန်လည်သုံးသပ်ခြင်း - Organic ဓာတုဗေဒ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Addition polymerisation requires monomers with a...",
+          questionMy:
+              "Addition Polymerisation တွင် ...ပါသော Monomer များ လိုအပ်သည်",
+          optionsEn: [
+            "C=C double bond",
+            "-OH group only",
+            "-COOH group only",
+            "No functional group at all",
+          ],
+          optionsMy: [
+            "C=C Double Bond",
+            "-OH အုပ်စုသာ",
+            "-COOH အုပ်စုသာ",
+            "Functional Group လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Condensation polymerisation releases a small molecule, usually...",
+          questionMy:
+              "Condensation Polymerisation သည် သေးငယ်သော မော်လီကျူးတစ်ခု၊ များသောအားဖြင့် ...ကို လွှတ်ပေးသည်",
+          optionsEn: ["Water", "Oxygen gas", "Chlorine gas", "Nitrogen gas"],
+          optionsMy: [
+            "ရေ",
+            "Oxygen ဓာတ်ငွေ့",
+            "Chlorine ဓာတ်ငွေ့",
+            "Nitrogen ဓာတ်ငွေ့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Most synthetic polymers are difficult to dispose of because they are...",
+          questionMy:
+              "Synthetic Polymer အများစုသည် ...ဖြစ်သောကြောင့် စွန့်ပစ်ရန် ခက်ခဲသည်",
+          optionsEn: [
+            "Non-biodegradable",
+            "Radioactive",
+            "Explosive",
+            "Edible",
+          ],
+          optionsMy: [
+            "Non-Biodegradable",
+            "Radioactive",
+            "ပေါက်ကွဲစေနိုင်သော",
+            "စားသုံးနိုင်သော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -9127,9 +10544,25 @@ const CourseTermDef igcseChemistryTerm6 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-6 of 9 authored so far (Terms 7-9 to
-/// follow: Organic Chemistry; Experimental Skills; Exam Prep & Graduation).
-/// `totalWeeks: 36` reflects the full 9-term aspirational course length.
+const CourseTermDef igcseChemistryTerm7 = CourseTermDef(
+  id: "course-igcse-chem-term7",
+  termNumber: 7,
+  titleEn: "Organic Chemistry",
+  titleMy: "အော်ဂဲနစ် ဓာတုဗေဒ",
+  certificateTitleEn: "IGCSE Chemistry Term 7 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ သတ္တမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek25,
+    _igcseChemWeek26,
+    _igcseChemWeek27,
+    _igcseChemWeek28,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-7 of 9 authored so far (Terms 8-9 to
+/// follow: Experimental Skills & Qualitative Analysis; Exam Prep &
+/// Graduation). `totalWeeks: 36` reflects the full 9-term aspirational
+/// course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -9148,5 +10581,6 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm4,
     igcseChemistryTerm5,
     igcseChemistryTerm6,
+    igcseChemistryTerm7,
   ],
 );
