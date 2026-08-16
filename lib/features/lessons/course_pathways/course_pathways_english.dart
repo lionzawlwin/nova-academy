@@ -151419,9 +151419,9 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-6 of 9 authored so far (Terms
-/// 7-9 to follow: Advanced Grammar & Stylistic Editing through Final
-/// Exam Countdown & Graduation). `totalWeeks: 36` reflects the full
+/// IGCSE English pathway -- Terms 1-7 of 9 authored so far (Terms
+/// 8-9 to follow: Intensive Past Paper Simulations and Final Exam
+/// Countdown & Graduation). `totalWeeks: 36` reflects the full
 /// 9-term aspirational course length.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
@@ -151441,6 +151441,7 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
     igcseEnglishTerm4,
     igcseEnglishTerm5,
     igcseEnglishTerm6,
+    igcseEnglishTerm7,
   ],
 );
 
@@ -157495,6 +157496,1487 @@ const CourseTermDef igcseEnglishTerm6 = CourseTermDef(
   weeks: [_igcseEngWeek21, _igcseEngWeek22, _igcseEngWeek23, _igcseEngWeek24],
   certificateTitleEn: "Literature & Poetry Analysis",
   certificateTitleMy: "စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု",
+);
+
+// =====================================================================
+// IGCSE English -- Term 7: "Advanced Grammar, Syntax & Stylistic
+// Editing" (Weeks 25-28). Week 25 covers syntactic manipulation;
+// Week 26 covers advanced punctuation; Week 27 covers academic
+// vocabulary; Week 28 is the capstone master editing workshop.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek25 = CourseWeekDef(
+  id: "course-igcse-eng-w25",
+  weekNumber: 25,
+  titleEn: "Syntactic Manipulation for Effect",
+  titleMy: "ထိရောက်မှုဖန်တီးရန် ဝါကျဖွဲ့စည်းပုံကို လှည့်ပြောင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w25-d1",
+      dayNumber: 1,
+      titleEn: "Minor Sentences, Fronted Adverbials, and Inverted Syntax",
+      titleMy:
+          "Minor Sentence များ၊ Fronted Adverbial များနှင့် Inverted Syntax",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A \"minor sentence\" is...",
+          questionMy: "\"Minor Sentence\" တစ်ခုသည်...",
+          optionsEn: [
+            "A grammatically incomplete sentence used deliberately for stylistic effect",
+            "The longest sentence in a paragraph",
+            "A sentence with no verb ever allowed",
+            "An error that must always be corrected",
+          ],
+          optionsMy: [
+            "စတိုင်လ်ဆိုင်ရာ သက်ရောက်မှုအတွက် ရည်ရွယ်ချက်ရှိရှိ သုံးထားသော သဒ္ဒါအရ မပြည့်စုံသော ဝါကျ",
+            "စာပိုဒ်တစ်ခုရှိ ရှည်လျားဆုံး ဝါကျ",
+            "ဘယ်တော့မှ ခွင့်မပြုသော ကြိယာမပါသော ဝါကျ",
+            "အမြဲ ပြင်ဆင်ရမည့် အမှားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A \"fronted adverbial\" moves...",
+          questionMy: "\"Fronted Adverbial\" တစ်ခုသည် ...ရွှေ့ပြောင်းသည်",
+          optionsEn: [
+            "An adverbial phrase to the start of a sentence for emphasis",
+            "A verb to the end of a paragraph",
+            "A noun to a different chapter",
+            "Punctuation marks out of a sentence entirely",
+          ],
+          optionsMy: [
+            "အလေးထားလိုသော Adverbial စကားစုကို ဝါကျ၏ အစသို့",
+            "ကြိယာတစ်ခုကို စာပိုဒ်တစ်ခု၏ အဆုံးသို့",
+            "နာမ်တစ်ခုကို ကွဲပြားသော အခန်းသို့",
+            "ပုဒ်ဖြတ်ပုဒ်ရပ်များကို ဝါကျတစ်ခုမှ လုံးဝ ထုတ်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Alone. Utterly alone.\" This minor sentence structure creates an effect of...",
+          questionMy:
+              "\"တစ်ကိုယ်တည်း။ လုံးလုံးလျားလျား တစ်ကိုယ်တည်း။\" ဤ Minor Sentence ဖွဲ့စည်းပုံသည် ...၏ သက်ရောက်မှု ဖန်တီးသည်",
+          optionsEn: [
+            "Emphasis and emotional weight through fragmentation",
+            "Formal, academic distance",
+            "Comedy and lightheartedness",
+            "No effect at all",
+          ],
+          optionsMy: [
+            "Fragmentation မှတဆင့် အလေးပေးမှုနှင့် ခံစားချက်ဆိုင်ရာ အလေးချိန်",
+            "တရားဝင်၊ ပညာရပ်ဆိုင်ရာ ဝေးကွာမှု",
+            "ဟာသနှင့် ပေါ့ပါးမှု",
+            "မည်သည့် သက်ရောက်မှုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Never had she felt so afraid.\" (instead of \"She had never felt so afraid.\") demonstrates...",
+          questionMy:
+              "\"သူမ ဤမျှ ကြောက်ရွံ့ဖူးခြင်း မရှိခဲ့ပါ\" (\"သူမသည် ဘယ်တော့မှ ဤမျှ ကြောက်ရွံ့ခဲ့ခြင်း မရှိပါ\" အစား) သည် ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "Inverted syntax for dramatic emphasis",
+            "A grammatical error with no purpose",
+            "A minor sentence",
+            "A rhetorical question",
+          ],
+          optionsMy: [
+            "ပြင်းထန်သော အလေးပေးမှုအတွက် Inverted Syntax",
+            "ရည်ရွယ်ချက် မရှိသော သဒ္ဒါ အမှား",
+            "Minor Sentence",
+            "Rhetorical Question",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Deliberate syntactic manipulation should always...",
+          questionMy:
+              "ရည်ရွယ်ချက်ရှိရှိ ဝါကျဖွဲ့စည်းပုံ လှည့်ပြောင်းခြင်းသည် အမြဲ...",
+          optionsEn: [
+            "Serve a specific stylistic or emotional purpose, not be random",
+            "Be used in every single sentence of a piece",
+            "Ignore grammatical rules for no reason",
+            "Confuse the reader unintentionally",
+          ],
+          optionsMy: [
+            "ကျပန်း မဟုတ်ဘဲ သီးခြား စတိုင်လ်ဆိုင်ရာ (သို့) ခံစားချက်ဆိုင်ရာ ရည်ရွယ်ချက်ကို ဆောင်ရွက်ရမည်",
+            "အလုပ်တစ်ခု၏ ဝါကျတိုင်းတွင် သုံးရမည်",
+            "အကြောင်းအရင်း မရှိဘဲ သဒ္ဒါ စည်းမျဉ်းများကို လျစ်လျူရှုရမည်",
+            "စာဖတ်သူကို မရည်ရွယ်ဘဲ ရှုပ်ထွေးစေရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Syntax Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Syntax ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w25-dm-1",
+          termEn: "Minor sentence",
+          termMy: "Minor Sentence",
+          matchEn:
+              "A grammatically incomplete sentence used deliberately for effect",
+          matchMy:
+              "သက်ရောက်မှုအတွက် ရည်ရွယ်ချက်ရှိရှိ သုံးထားသော သဒ္ဒါအရ မပြည့်စုံသော ဝါကျ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w25-dm-2",
+          termEn: "Fronted adverbial",
+          termMy: "Fronted Adverbial",
+          matchEn:
+              "An adverbial phrase moved to the start of a sentence for emphasis",
+          matchMy: "အလေးထားလိုသော ဝါကျ၏ အစသို့ ရွှေ့ထားသော Adverbial စကားစု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w25-dm-3",
+          termEn: "Inverted syntax",
+          termMy: "Inverted Syntax",
+          matchEn:
+              "Reversing normal word order for dramatic or stylistic emphasis",
+          matchMy:
+              "ပြင်းထန် (သို့) စတိုင်လ်ဆိုင်ရာ အလေးပေးမှုအတွက် ပုံမှန် စကားလုံးအစီအစဉ်ကို ပြောင်းပြန်လှန်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w25-dm-4",
+          termEn: "Sentence variety",
+          termMy: "Sentence Variety",
+          matchEn:
+              "Deliberately mixing sentence lengths and structures to control rhythm",
+          matchMy:
+              "သံစဉ်ကို ထိန်းချုပ်ရန် ဝါကျ အရှည်များနှင့် ဖွဲ့စည်းပုံများကို ရည်ရွယ်ချက်ရှိရှိ ရောစပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w25-dm-5",
+          termEn: "Syntax",
+          termMy: "Syntax",
+          matchEn:
+              "The arrangement of words and phrases to create well-formed sentences",
+          matchMy:
+              "ပုံစံကောင်း ဝါကျများ ဖန်တီးရန် စကားလုံးများနှင့် စကားစုများ၏ စီစဉ်ထားမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Syntactic Technique?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Syntactic နည်းပညာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Minor Sentence", "Fronted Adverbial", "Inverted Syntax"],
+        bucketsMy: ["Minor Sentence", "Fronted Adverbial", "Inverted Syntax"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w25-sort-1",
+            labelEn: "\"Silence. Nothing but silence.\"",
+            labelMy: "\"တိတ်ဆိတ်မှု။ တိတ်ဆိတ်မှုမှလွဲ၍ ဘာမျှ မရှိပါ။\"",
+            correctBucketEn: "Minor Sentence",
+            correctBucketMy: "Minor Sentence",
+          ),
+          SortingItem(
+            id: "igcseeng-w25-sort-2",
+            labelEn: "\"Slowly, carefully, she opened the box.\"",
+            labelMy:
+                "\"ဖြည်းဖြည်းချင်း၊ ဂရုတစိုက်၊ သူမ သေတ္တာကို ဖွင့်ခဲ့သည်။\"",
+            correctBucketEn: "Fronted Adverbial",
+            correctBucketMy: "Fronted Adverbial",
+          ),
+          SortingItem(
+            id: "igcseeng-w25-sort-3",
+            labelEn: "\"Rarely had the village seen such a storm.\"",
+            labelMy:
+                "\"ရွာသည် ဤကဲ့သို့ မုန်တိုင်းကို ရှားရှားပါးပါးသာ မြင်ဖူးခဲ့သည်။\"",
+            correctBucketEn: "Inverted Syntax",
+            correctBucketMy: "Inverted Syntax",
+          ),
+          SortingItem(
+            id: "igcseeng-w25-sort-4",
+            labelEn: "\"Gone. All of it, gone.\"",
+            labelMy: "\"ပျောက်သွားပြီ။ အားလုံး၊ ပျောက်သွားပြီ။\"",
+            correctBucketEn: "Minor Sentence",
+            correctBucketMy: "Minor Sentence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Syntax Experiment",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Syntax စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Syntax Experiment",
+        titleMy: "နေချည်၏ Syntax စမ်းသပ်မှု",
+        passageEn:
+            "Reviewing an old descriptive piece for revision, Nay Chi noticed every single sentence in her three-paragraph extract followed identical grammatical structure: subject, verb, object, again and again, page after page. Ko Thura told her the content was strong, but the monotonous rhythm was quietly working against her -- a reader's attention naturally drifts when every sentence sounds the same.\n\nHe challenged her to rewrite one paragraph using at least three different syntactic techniques. Nay Chi opened with a fronted adverbial -- \"Without warning, the lights failed\" -- immediately varying her usual sentence opening. She followed a tense moment with a minor sentence for impact: \"Darkness. Complete darkness.\" Later, for a moment of surprising realisation, she used inverted syntax: \"Never had she noticed how loud silence could be.\"\n\nReading the revised paragraph aloud, Nay Chi could hear the difference immediately -- the varied rhythm itself now carried emotional information, speeding and slowing in ways that mirrored the content's own tension. Ko Thura explained that this was advanced stylistic control: at IGCSE level, examiners specifically rewarded candidates who could manipulate sentence structure deliberately rather than defaulting to the same pattern throughout, because varied syntax demonstrated a writer actively shaping the reader's experience, not simply reporting events in flat, uniform prose.",
+        passageMy:
+            "ပြန်လည် သုံးသပ်ရန် ဖော်ပြချက် အလုပ်ဟောင်းတစ်ခုကို ပြန်ကြည့်ရာ နေချည်သည် သူမ၏ စာပိုဒ်သုံးပိုဒ် ထုတ်နုတ်ချက်ရှိ ဝါကျတိုင်းသည် တူညီသော သဒ္ဒါ ဖွဲ့စည်းပုံကို လိုက်နာနေသည်ကို သတိပြုမိခဲ့သည် - Subject, Verb, Object၊ ထပ်ခါထပ်ခါ၊ စာမျက်နှာ တစ်ခုပြီး တစ်ခု။ ကိုသူရသည် အကြောင်းအရာသည် ခိုင်မာသော်လည်း ပြားညီညီ သံစဉ်သည် တိတ်တဆိတ် သူမကို ဆန့်ကျင်နေကြောင်း သူမကို ပြောခဲ့သည် -- ဝါကျတိုင်းသည် တူညီသော အသံဖြင့် ကျယ်လာသောအခါ စာဖတ်သူ၏ အာရုံသည် သဘာဝအလျောက် ရွှေ့ပြောင်းသွားသည်။\n\nသူသည် စာပိုဒ်တစ်ပိုဒ်ကို အနည်းဆုံး Syntactic နည်းပညာ သုံးခု သုံးပြီး ပြန်ရေးရန် သူမကို စိန်ခေါ်ခဲ့သည်။ နေချည်သည် Fronted Adverbial ဖြင့် ဖွင့်ခဲ့သည် -- \"သတိပေးချက် မရှိဘဲ၊ မီးများ ကျရှုံးသွားခဲ့သည်\" -- သူမ၏ ပုံမှန် ဝါကျ ဖွင့်ချက်ကို ချက်ချင်း ကွဲပြားစေခဲ့သည်။ သူမသည် အထိရောက်မှုအတွက် Minor Sentence ဖြင့် ပြင်းထန်သော အခိုက်အတန့်တစ်ခုကို ဆက်လက် လုပ်ဆောင်ခဲ့သည် - \"မှောင်နေသည်။ လုံးဝ မှောင်နေသည်။\" နောက်ပိုင်းတွင် အံ့ဩဖွယ် သတိပြုမိမှု အခိုက်အတန့်တစ်ခုအတွက် သူမသည် Inverted Syntax ကို သုံးခဲ့သည် - \"တိတ်ဆိတ်မှုသည် မည်မျှ ကျယ်လောင်နိုင်ကြောင်း သူမ ဘယ်တော့မှ သတိမပြုမိခဲ့ဖူးပါ။\"\n\nပြင်ဆင်ထားသော စာပိုဒ်ကို ကျယ်လောင်စွာ ဖတ်ရာ နေချည်သည် ကွာခြားချက်ကို ချက်ချင်း ကြားနိုင်ခဲ့သည် -- ကွဲပြားသော သံစဉ်ကိုယ်တိုင်သည် ယခုအခါ အကြောင်းအရာ၏ ကိုယ်ပိုင် Tension ကို ရောင်ပြန်ဟပ်သော နည်းလမ်းများဖြင့် အမြန်နှုန်း တိုးမြှင့်ကာ နှေးကွေးအောင် ပြုလုပ်လျက် ခံစားချက်ဆိုင်ရာ အချက်အလက်ကို သယ်ဆောင်ခဲ့သည်။ ကိုသူရသည် ၎င်းသည် အဆင့်မြင့် စတိုင်လ်ဆိုင်ရာ ထိန်းချုပ်မှု ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - IGCSE အဆင့်တွင် စစ်ဆေးသူများသည် တစ်လျှောက်လုံး တူညီသော ပုံစံသို့ ပုံသေ ကျရောက်မည့်အစား ဝါကျဖွဲ့စည်းပုံကို ရည်ရွယ်ချက်ရှိရှိ လှည့်ပြောင်းနိုင်သော ဖြေဆိုသူများကို အထူးသဖြင့် အကျိုးဆုတန်ခံလေ့ရှိကြောင်း၊ အကြောင်းမှာ ကွဲပြားသော Syntax သည် စာရေးသူတစ်ဦး ပြားညီညီ၊ တစ်ထပ်တည်း Prose ဖြင့် အဖြစ်အပျက်များကို ရိုးရိုးရှင်းရှင်း အစီရင်ခံခြင်း မဟုတ်ဘဲ စာဖတ်သူ၏ အတွေ့အကြုံကို တက်ကြွစွာ ပုံဖော်နေကြောင်း သရုပ်ပြခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify with Nay Chi's original extract?",
+            questionMy:
+                "နေချည်၏ မူလ ထုတ်နုတ်ချက်တွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every sentence followed identical grammatical structure, creating a monotonous rhythm",
+              "It contained no evidence at all",
+              "It was too short to analyse",
+              "It used the wrong tense throughout",
+            ],
+            optionsMy: [
+              "ဝါကျတိုင်းသည် တူညီသော သဒ္ဒါ ဖွဲ့စည်းပုံကို လိုက်နာပြီး ပြားညီညီ သံစဉ်တစ်ခု ဖန်တီးခဲ့သည်",
+              "သက်သေအထောက်အထား လုံးဝ မပါခဲ့ပါ",
+              "ခွဲခြမ်းစိတ်ဖြာရန် အလွန် တိုတောင်းလွန်းခဲ့သည်",
+              "တစ်လျှောက်လုံး မှားယွင်းသော Tense ဖြင့် သုံးထားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which technique did Nay Chi use for a moment of impact?",
+            questionMy:
+                "အထိရောက်မှု အခိုက်အတန့်တစ်ခုအတွက် နေချည် မည်သည့် နည်းပညာ သုံးခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A minor sentence",
+              "A footnote citation",
+              "A rhyme scheme",
+              "A list of statistics",
+            ],
+            optionsMy: [
+              "Minor Sentence",
+              "Footnote ကိုးကားချက်",
+              "Rhyme Scheme",
+              "စာရင်းအင်း စာရင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the tense moment."],
+            hintsMy: [
+              "ပြင်းထန်သော အခိုက်အတန့်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why did Ko Thura say examiners rewarded varied syntax?",
+            questionMy:
+                "ကွဲပြားသော Syntax ကို စစ်ဆေးသူများ အဘယ်ကြောင့် အကျိုးဆုတန်ခံကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It demonstrated a writer actively shaping the reader's experience",
+              "It made essays automatically longer",
+              "It was required by law",
+              "It avoided using any punctuation",
+            ],
+            optionsMy: [
+              "စာရေးသူတစ်ဦး စာဖတ်သူ၏ အတွေ့အကြုံကို တက်ကြွစွာ ပုံဖော်နေကြောင်း သရုပ်ပြခဲ့သောကြောင့်",
+              "Essay များကို အလိုအလျောက် ရှည်လျားစေခဲ့သောကြောင့်",
+              "ဥပဒေအရ လိုအပ်ခဲ့သောကြောင့်",
+              "ပုဒ်ဖြတ်ပုဒ်ရပ် မည်သည်ကိုမျှ သုံးခြင်းကို ရှောင်ရှားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Syntactic Manipulation",
+      titleMy:
+          "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Syntactic လှည့်ပြောင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A minor sentence is...",
+          questionMy: "Minor Sentence တစ်ခုသည်...",
+          optionsEn: [
+            "A grammatically incomplete sentence used for effect",
+            "The longest sentence possible",
+            "Always an error",
+            "Never allowed in writing",
+          ],
+          optionsMy: [
+            "သက်ရောက်မှုအတွက် သုံးထားသော သဒ္ဒါအရ မပြည့်စုံသော ဝါကျ",
+            "ဖြစ်နိုင်သမျှ ရှည်လျားသော ဝါကျ",
+            "အမြဲ အမှား",
+            "ရေးသားမှုတွင် ဘယ်တော့မှ ခွင့်မပြု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A fronted adverbial moves an adverbial phrase to...",
+          questionMy:
+              "Fronted Adverbial တစ်ခုသည် Adverbial စကားစုကို ...ရွှေ့ပြောင်းသည်",
+          optionsEn: [
+            "The start of a sentence",
+            "A different paragraph",
+            "The middle only",
+            "Nowhere",
+          ],
+          optionsMy: [
+            "ဝါကျ၏ အစသို့",
+            "ကွဲပြားသော စာပိုဒ်သို့",
+            "အလယ်တွင်သာ",
+            "မည်သည့်နေရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Varied syntax demonstrates...",
+          questionMy: "ကွဲပြားသော Syntax သည် ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "A writer actively shaping the reader's experience",
+            "A grammatical mistake",
+            "Weak vocabulary",
+            "Nothing meaningful",
+          ],
+          optionsMy: [
+            "စာရေးသူတစ်ဦး စာဖတ်သူ၏ အတွေ့အကြုံကို တက်ကြွစွာ ပုံဖော်နေကြောင်း",
+            "သဒ္ဒါ အမှားတစ်ခု",
+            "အားနည်းသော ဝေါဟာရ",
+            "အဓိပ္ပာယ်ရှိသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek26 = CourseWeekDef(
+  id: "course-igcse-eng-w26",
+  weekNumber: 26,
+  titleEn: "Mastering Punctuation Nuances",
+  titleMy: "ပုဒ်ဖြတ်ပုဒ်ရပ် အသေးစိတ် အသုံးချမှုကို ကျွမ်းကျင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w26-d1",
+      dayNumber: 1,
+      titleEn: "Semicolons, Colons, and Dashes for Dramatic Pause",
+      titleMy:
+          "Semicolon များ၊ Colon များနှင့် ပြင်းထန်သော ရပ်နားခြင်းအတွက် Dash များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A semicolon is most commonly used to...",
+          questionMy: "Semicolon တစ်ခုကို ...ရန် အများဆုံး သုံးလေ့ရှိသည်",
+          optionsEn: [
+            "Join two closely related independent clauses",
+            "End every sentence in a paragraph",
+            "Replace a full stop in every instance",
+            "Separate unrelated ideas with no connection",
+          ],
+          optionsMy: [
+            "အနီးကပ် ဆက်စပ်နေသော Independent Clause နှစ်ခုကို ချိတ်ဆက်ရန်",
+            "စာပိုဒ်တစ်ခုရှိ ဝါကျတိုင်းကို အဆုံးသတ်ရန်",
+            "Full Stop ကို ဖြစ်ရပ်တိုင်းတွင် အစားထိုးရန်",
+            "ချိတ်ဆက်မှု မရှိဘဲ မသက်ဆိုင်သော အယူအဆများကို ခွဲခြားရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A colon is typically used to...",
+          questionMy: "Colon တစ်ခုကို ပုံမှန်အားဖြင့် ...ရန် သုံးလေ့ရှိသည်",
+          optionsEn: [
+            "Introduce a list, explanation, or example",
+            "End a question",
+            "Replace a comma in every case",
+            "Separate two unrelated paragraphs",
+          ],
+          optionsMy: [
+            "စာရင်း၊ ရှင်းပြချက် (သို့) ဥပမာတစ်ခုကို မိတ်ဆက်ရန်",
+            "မေးခွန်းတစ်ခုကို အဆုံးသတ်ရန်",
+            "Comma ကို ဖြစ်ရပ်တိုင်းတွင် အစားထိုးရန်",
+            "ဆက်စပ်မှု မရှိသော စာပိုဒ်နှစ်ပိုဒ်ကို ခွဲခြားရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A dash used mid-sentence can create...",
+          questionMy:
+              "ဝါကျ အလယ်တွင် သုံးထားသော Dash တစ်ခုသည် ...ကို ဖန်တီးနိုင်သည်",
+          optionsEn: [
+            "A dramatic pause or sudden interruption in thought",
+            "No effect on rhythm at all",
+            "An automatic grammatical error",
+            "The same effect as a full stop always",
+          ],
+          optionsMy: [
+            "ပြင်းထန်သော ရပ်နားခြင်း (သို့) အတွေးထဲ ရုတ်တရက် ကြားဖြတ်ခြင်း",
+            "သံစဉ်အပေါ် မည်သည့် သက်ရောက်မှုမျှ",
+            "အလိုအလျောက် သဒ္ဒါ အမှားတစ်ခု",
+            "Full Stop နှင့် အမြဲ တူညီသော သက်ရောက်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A \"parenthetical comma\" pair is used to...",
+          questionMy: "\"Parenthetical Comma\" အတွဲတစ်ခုကို ...ရန် သုံးသည်",
+          optionsEn: [
+            "Insert additional, non-essential information into a sentence",
+            "End a paragraph permanently",
+            "Replace every full stop in a text",
+            "Begin every new chapter",
+          ],
+          optionsMy: [
+            "ဝါကျတစ်ခုအတွင်းသို့ ထပ်ဆောင်း၊ မရှိမဖြစ်မဟုတ်သော အချက်အလက် ထည့်သွင်းရန်",
+            "စာပိုဒ်တစ်ခုကို ထာဝစဉ် အဆုံးသတ်ရန်",
+            "စာသားတစ်ခုရှိ Full Stop တိုင်းကို အစားထိုးရန်",
+            "အခန်းသစ်တိုင်းကို စတင်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Overusing dashes throughout an entire essay typically...",
+          questionMy:
+              "Essay တစ်ခုလုံးတစ်လျှောက် Dash များကို လွန်ကဲစွာ သုံးခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Weakens their dramatic impact through repetition",
+            "Always improves the writing's quality",
+            "Is required by IGCSE mark schemes",
+            "Has no effect on the reader",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ သုံးခြင်းမှတဆင့် ၎င်းတို့၏ ပြင်းထန်သော သက်ရောက်မှုကို အားနည်းစေသည်",
+            "ရေးသားမှု၏ အရည်အသွေးကို အမြဲ တိုးတက်စေသည်",
+            "IGCSE Mark Scheme များက တောင်းဆိုသည်",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Punctuation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပုဒ်ဖြတ်ပုဒ်ရပ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w26-dm-1",
+          termEn: "Semicolon",
+          termMy: "Semicolon",
+          matchEn: "Joins two closely related independent clauses",
+          matchMy:
+              "အနီးကပ် ဆက်စပ်နေသော Independent Clause နှစ်ခုကို ချိတ်ဆက်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w26-dm-2",
+          termEn: "Colon",
+          termMy: "Colon",
+          matchEn: "Introduces a list, explanation, or example",
+          matchMy: "စာရင်း၊ ရှင်းပြချက် (သို့) ဥပမာတစ်ခုကို မိတ်ဆက်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w26-dm-3",
+          termEn: "Dramatic dash",
+          termMy: "Dramatic Dash",
+          matchEn: "Creates a dramatic pause or sudden interruption in thought",
+          matchMy:
+              "ပြင်းထန်သော ရပ်နားခြင်း (သို့) အတွေးထဲ ရုတ်တရက် ကြားဖြတ်ခြင်းကို ဖန်တီးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w26-dm-4",
+          termEn: "Parenthetical comma",
+          termMy: "Parenthetical Comma",
+          matchEn: "A pair of commas inserting non-essential extra information",
+          matchMy:
+              "မရှိမဖြစ်မဟုတ်သော ထပ်ဆောင်း အချက်အလက် ထည့်သွင်းသော Comma အတွဲ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w26-dm-5",
+          termEn: "Ellipsis",
+          termMy: "Ellipsis",
+          matchEn:
+              "Three dots indicating a trailing off or an intentional omission",
+          matchMy:
+              "ဆွဲငင်ခြင်း (သို့) ရည်ရွယ်ချက်ရှိရှိ ချန်ထားခြင်းကို ညွှန်ပြသော အစက်သုံးစက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Punctuation Mark?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် ပုဒ်ဖြတ်ပုဒ်ရပ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Semicolon", "Colon", "Dash"],
+        bucketsMy: ["Semicolon", "Colon", "Dash"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w26-sort-1",
+            labelEn:
+                "\"The rain fell heavily; the streets emptied within minutes.\"",
+            labelMy:
+                "\"မိုးသည် ပြင်းထန်စွာ ရွာသွန်းခဲ့သည်; လမ်းများသည် မိနစ်အနည်းငယ်အတွင်း လူသွားလာမှု ကင်းမဲ့သွားခဲ့သည်။\"",
+            correctBucketEn: "Semicolon",
+            correctBucketMy: "Semicolon",
+          ),
+          SortingItem(
+            id: "igcseeng-w26-sort-2",
+            labelEn:
+                "\"She packed three things: a compass, a knife, and a photograph.\"",
+            labelMy:
+                "\"သူမသည် အရာသုံးခု ထုပ်ပိုးခဲ့သည်: Compass တစ်ခု၊ ဓားတစ်လက်နှင့် ဓာတ်ပုံတစ်ပုံ။\"",
+            correctBucketEn: "Colon",
+            correctBucketMy: "Colon",
+          ),
+          SortingItem(
+            id: "igcseeng-w26-sort-3",
+            labelEn: "\"He reached for the door -- and stopped.\"",
+            labelMy:
+                "\"သူသည် တံခါးကို ကမ်းလိုက်သည် -- ထို့နောက် ရပ်တန့်သွားသည်။\"",
+            correctBucketEn: "Dash",
+            correctBucketMy: "Dash",
+          ),
+          SortingItem(
+            id: "igcseeng-w26-sort-4",
+            labelEn: "\"The plan was simple: wait, watch, and act.\"",
+            labelMy:
+                "\"အစီအစဉ်သည် ရိုးရှင်းခဲ့သည်: စောင့်ဆိုင်းပါ၊ ကြည့်ရှုပါ၊ လုပ်ဆောင်ပါ။\"",
+            correctBucketEn: "Colon",
+            correctBucketMy: "Colon",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Punctuation Precision Drill",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ပုဒ်ဖြတ်ပုဒ်ရပ် တိကျမှု လေ့ကျင့်ခန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Punctuation Precision Drill",
+        titleMy: "နေချည်၏ ပုဒ်ဖြတ်ပုဒ်ရပ် တိကျမှု လေ့ကျင့်ခန်း",
+        passageEn:
+            "Reviewing a paragraph about a difficult decision, Nay Chi had used commas and full stops throughout, functional but unremarkable. Ko Thura pointed to a specific sentence: \"She knew the risk. She took it anyway.\" He asked whether a semicolon might serve the underlying idea better than two separate sentences.\n\nNay Chi experimented: \"She knew the risk; she took it anyway.\" The semicolon, she realised, created a tighter, more inevitable-feeling connection between the two clauses than the full stop had -- the two ideas now felt like one continuous thought rather than two separate statements, mirroring how closely linked the knowing and the choosing actually were in the character's mind. Encouraged, she tried a colon elsewhere, introducing a list of the character's fears directly: \"Only one thing frightened her more than the climb itself: the certainty of regret if she never tried.\" The colon created anticipation, a small dramatic pause before the reveal.\n\nFinally, she added a single dash at the paragraph's emotional peak -- \"Her hand reached for the rope -- and hesitated\" -- letting the dash itself perform the hesitation it described, a pause the reader physically experienced while reading rather than one merely described in words. Ko Thura told her this was the mark of genuinely advanced punctuation use: each mark was chosen because its specific rhythmic and structural effect matched the exact emotional beat of that moment, not applied randomly or out of habit. He reminded her, though, not to overuse any single technique -- variety and restraint, used together, made each choice land with real weight.",
+        passageMy:
+            "ခက်ခဲသော ဆုံးဖြတ်ချက်တစ်ခုအကြောင်း စာပိုဒ်တစ်ပိုဒ်ကို ပြန်ကြည့်ရာ နေချည်သည် Comma များနှင့် Full Stop များကို တစ်လျှောက်လုံး သုံးထားခဲ့ပြီး၊ လုပ်ဆောင်နိုင်သော်လည်း ထူးခြားမှု မရှိပါ။ ကိုသူရသည် တိကျသော ဝါကျတစ်ခုသို့ ညွှန်ပြခဲ့သည် - \"သူမ အန္တရာယ်ကို သိခဲ့သည်။ သူမသည် ၎င်းကို မည်သို့ဖြစ်စေ ယူခဲ့သည်။\" ဝါကျနှစ်ကြောင်းထက် Semicolon တစ်ခုသည် အောက်ခံ အယူအဆကို ပို၍ ကောင်းစွာ ဆောင်ရွက်နိုင်ပါသလားဟု သူ မေးခဲ့သည်။\n\nနေချည်သည် စမ်းသပ်ခဲ့သည် - \"သူမ အန္တရာယ်ကို သိခဲ့သည်; သူမသည် ၎င်းကို မည်သို့ဖြစ်စေ ယူခဲ့သည်။\" Semicolon သည် Full Stop ထက် Clause နှစ်ခုကြား ပို၍ တင်းကျပ်၍ မဖြစ်မနေ ခံစားရသော ချိတ်ဆက်မှုကို ဖန်တီးခဲ့ကြောင်း သူမ သဘောပေါက်ခဲ့သည် -- အယူအဆနှစ်ခုသည် ယခုအခါ ဇာတ်ကောင်၏ စိတ်ထဲတွင် သိခြင်းနှင့် ရွေးချယ်ခြင်း မည်မျှ နီးကပ်စွာ ချိတ်ဆက်ခဲ့ကြောင်း ရောင်ပြန်ဟပ်ကာ သီးခြား ဖော်ပြချက်နှစ်ခုထက် တစ်ဆက်တည်း အတွေးတစ်ခုကဲ့သို့ ခံစားရသည်။ အားတက်လာသဖြင့် သူမသည် အခြားနေရာတွင် Colon တစ်ခုကို ကြိုးစား သုံးကြည့်ခဲ့ပြီး ဇာတ်ကောင်၏ ကြောက်ရွံ့မှုများ စာရင်းကို တိုက်ရိုက် မိတ်ဆက်ခဲ့သည် - \"တက်ရောက်ခြင်းကိုယ်တိုင်ထက် သူမကို ပို၍ ကြောက်ရွံ့စေသော အရာတစ်ခုတည်း ရှိခဲ့သည်: ဘယ်တော့မှ မကြိုးစားခဲ့လျှင် ဝမ်းနည်းမှု ဧကန်အမှန် ရှိမည်ဆိုသော အသိ။\" Colon သည် ဖော်ထုတ်ခြင်းမတိုင်မီ ငယ်ငယ် ပြင်းထန်သော ရပ်နားခြင်းတစ်ခု၊ မျှော်လင့်ချက်ကို ဖန်တီးခဲ့သည်။\n\nနောက်ဆုံးတွင် သူမသည် စာပိုဒ်၏ ခံစားချက်ဆိုင်ရာ အထွတ်အထိပ်တွင် Dash တစ်ခု ထည့်သွင်းခဲ့သည် -- \"သူမ၏ လက်သည် ကြိုးကို ကမ်းသွားခဲ့ပြီး -- ဆိုင်းငံ့သွားခဲ့သည်\" -- Dash ကိုယ်တိုင်ကို ၎င်း ဖော်ပြသော ဆိုင်းငံ့မှုကို ပြသခွင့်ပြုခဲ့ပြီး၊ စကားလုံးများဖြင့် ရိုးရိုးရှင်းရှင်း ဖော်ပြထားသော ဆိုင်းငံ့မှုတစ်ခုထက် စာဖတ်သူ ဖတ်ရှုနေစဉ် ရုပ်ပိုင်းဆိုင်ရာ ကြုံတွေ့ရသော ဆိုင်းငံ့ချိန်တစ်ခု ဖြစ်ခဲ့သည်။ ကိုသူရသည် ၎င်းသည် စစ်မှန်သော အဆင့်မြင့် ပုဒ်ဖြတ်ပုဒ်ရပ် အသုံးပြုမှု၏ အမှတ်လက္ခဏာ ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - အမှတ်တိုင်းကို ၎င်း၏ သီးခြား သံစဉ်ဆိုင်ရာနှင့် ဖွဲ့စည်းပုံဆိုင်ရာ သက်ရောက်မှုသည် ထိုအခိုက်အတန့်၏ အတိအကျ ခံစားချက်ဆိုင်ရာ Beat နှင့် ကိုက်ညီသောကြောင့် ရွေးချယ်ခဲ့ပြီး၊ ကျပန်း (သို့) အလေ့အထအရ အသုံးမပြုခဲ့ပါ။ သို့သော် နည်းပညာတစ်ခုတည်းကို လွန်ကဲစွာ မသုံးရန် သူ သတိပေးခဲ့သည် -- ကွဲပြားမှုနှင့် ထိန်းချုပ်မှုကို အတူတကွ သုံးခြင်းသည် ရွေးချယ်မှုတစ်ခုစီကို စစ်မှန်သော အလေးချိန်ဖြင့် ရောက်ရှိစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the semicolon create between the two clauses?",
+            questionMy:
+                "Clause နှစ်ခုကြား Semicolon သည် ဘာကို ဖန်တီးခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A tighter, more inevitable-feeling connection than a full stop",
+              "No connection at all",
+              "A grammatical error",
+              "A complete separation of ideas",
+            ],
+            optionsMy: [
+              "Full Stop ထက် ပို၍ တင်းကျပ်၍ မဖြစ်မနေ ခံစားရသော ချိတ်ဆက်မှု",
+              "ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+              "သဒ္ဒါ အမှားတစ်ခု",
+              "အယူအဆများ လုံးလုံးလျားလျား ခွဲထွက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the semicolon created.",
+            ],
+            hintsMy: [
+              "Semicolon ဘာကို ဖန်တီးခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the dash allow the reader to physically experience?",
+            questionMy:
+                "Dash သည် စာဖတ်သူအား ရုပ်ပိုင်းဆိုင်ရာ ကြုံတွေ့ခွင့် ဘာကို ပေးခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The hesitation itself, not merely a description of it",
+              "A completely unrelated emotion",
+              "Nothing at all",
+              "A grammatical rule",
+            ],
+            optionsMy: [
+              "ဆိုင်းငံ့မှု၏ ဖော်ပြချက်တစ်ခုသက်သက် မဟုတ်ဘဲ ဆိုင်းငံ့မှုကိုယ်တိုင်",
+              "လုံးဝ မသက်ဆိုင်သော ခံစားချက်တစ်ခု",
+              "မည်သည့်အရာမျှ",
+              "သဒ္ဒါ စည်းမျဉ်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the dash performing the hesitation.",
+            ],
+            hintsMy: [
+              "Dash သည် ဆိုင်းငံ့မှုကို ပြသကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what warning did Ko Thura give Nay Chi about punctuation technique?",
+            questionMy:
+                "ပုဒ်ဖြတ်ပုဒ်ရပ် နည်းပညာအကြောင်း ကိုသူရ နေချည်ကို မည်သည့် သတိပေးချက် ပေးခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Not to overuse any single technique -- variety and restraint together",
+              "To use only semicolons throughout the essay",
+              "To avoid all punctuation entirely",
+              "To use dashes in every single sentence",
+            ],
+            optionsMy: [
+              "နည်းပညာတစ်ခုတည်းကို လွန်ကဲစွာ မသုံးရန် -- ကွဲပြားမှုနှင့် ထိန်းချုပ်မှု အတူတကွ",
+              "Essay တစ်ခုလုံးတစ်လျှောက် Semicolon များကိုသာ သုံးရန်",
+              "ပုဒ်ဖြတ်ပုဒ်ရပ်အားလုံးကို လုံးဝ ရှောင်ရှားရန်",
+              "ဝါကျတိုင်းတွင် Dash များ သုံးရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Punctuation Nuances",
+      titleMy:
+          "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ပုဒ်ဖြတ်ပုဒ်ရပ် အသေးစိတ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A semicolon is most commonly used to...",
+          questionMy: "Semicolon တစ်ခုကို ...ရန် အများဆုံး သုံးလေ့ရှိသည်",
+          optionsEn: [
+            "Join two closely related independent clauses",
+            "End every sentence",
+            "Replace every full stop",
+            "Separate unrelated ideas",
+          ],
+          optionsMy: [
+            "အနီးကပ် ဆက်စပ်နေသော Independent Clause နှစ်ခုကို ချိတ်ဆက်ရန်",
+            "ဝါကျတိုင်းကို အဆုံးသတ်ရန်",
+            "Full Stop တိုင်းကို အစားထိုးရန်",
+            "မသက်ဆိုင်သော အယူအဆများကို ခွဲခြားရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A colon typically introduces...",
+          questionMy: "Colon တစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို မိတ်ဆက်သည်",
+          optionsEn: [
+            "A list, explanation, or example",
+            "A question",
+            "A new chapter always",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "စာရင်း၊ ရှင်းပြချက် (သို့) ဥပမာ",
+            "မေးခွန်းတစ်ခု",
+            "အခန်းအသစ် အမြဲ",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Overusing dashes throughout an essay typically...",
+          questionMy:
+              "Essay တစ်ခုလုံးတစ်လျှောက် Dash များကို လွန်ကဲစွာ သုံးခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Weakens their dramatic impact",
+            "Always improves quality",
+            "Is required",
+            "Has no effect",
+          ],
+          optionsMy: [
+            "ပြင်းထန်သော သက်ရောက်မှုကို အားနည်းစေသည်",
+            "အရည်အသွေးကို အမြဲ တိုးတက်စေသည်",
+            "လိုအပ်သည်",
+            "မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek27 = CourseWeekDef(
+  id: "course-igcse-eng-w27",
+  weekNumber: 27,
+  titleEn: "Academic and Literary Lexicon",
+  titleMy: "ပညာရပ်ဆိုင်ရာနှင့် စာပေဆိုင်ရာ ဝေါဟာရများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w27-d1",
+      dayNumber: 1,
+      titleEn: "Precise Verbs and Evocative Adjectives",
+      titleMy: "တိကျသော ကြိယာများနှင့် စိတ်ခံစားမှု နှိုးဆွသော Adjective များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Choosing a precise verb like \"stumbled\" instead of \"walked badly\" typically...",
+          questionMy:
+              "\"မကောင်းစွာ လမ်းလျှောက်ခဲ့သည်\" အစား \"ခြေချော်ခဲ့သည်\" ကဲ့သို့ တိကျသော ကြိယာတစ်ခု ရွေးချယ်ခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Conveys more specific meaning in fewer words",
+            "Always makes a sentence longer",
+            "Has no effect on meaning",
+            "Is grammatically incorrect",
+          ],
+          optionsMy: [
+            "စကားလုံး နည်းသော်လည်း ပို၍ တိကျသော အဓိပ္ပာယ်ကို ထုတ်ဖော်သည်",
+            "ဝါကျကို အမြဲ ပို၍ ရှည်လျားစေသည်",
+            "အဓိပ္ပာယ်အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "သဒ္ဒါအရ မှားယွင်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Generic language\" in writing refers to...",
+          questionMy:
+              "ရေးသားမှုရှိ \"Generic Language\" သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Vague, overused words like \"nice\" or \"good\" that carry little specific meaning",
+            "Highly technical scientific terminology only",
+            "Words used only in poetry",
+            "Correctly spelled words with no other quality",
+          ],
+          optionsMy: [
+            "တိကျသော အဓိပ္ပာယ် အနည်းငယ်သာ သယ်ဆောင်လာသော \"ကောင်းသော\" (သို့) \"ကောင်းသည်\" ကဲ့သို့ မှုန်ဝါးပြီး အလွန်အသုံးများသော စကားလုံးများ",
+            "ပညာရပ်ဆိုင်ရာ သိပ္ပံ ဝေါဟာရများကိုသာ",
+            "ကဗျာတွင်သာ သုံးသော စကားလုံးများ",
+            "အခြား အရည်အသွေး မပါဘဲ စာလုံးပေါင်း မှန်ကန်သော စကားလုံးများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Replacing \"the weather was bad\" with \"a bitter wind lashed the coastline\" primarily improves...",
+          questionMy:
+              "\"ရာသီဥတု ဆိုးဝါးခဲ့သည်\" ကို \"ခါးသီးသော လေသည် ကမ်းရိုးတန်းကို ရိုက်ခတ်ခဲ့သည်\" ဖြင့် အစားထိုးခြင်းသည် အဓိကအားဖြင့် ...ကို တိုးတက်စေသည်",
+          optionsEn: [
+            "Specificity and sensory vividness",
+            "Grammatical correctness only",
+            "The sentence's length only",
+            "Nothing meaningful",
+          ],
+          optionsMy: [
+            "တိကျမှုနှင့် အာရုံခံစားမှုဆိုင်ရာ ရှင်းလင်းမှု",
+            "သဒ္ဒါ မှန်ကန်မှုကိုသာ",
+            "ဝါကျ၏ အရှည်ကိုသာ",
+            "အဓိပ္ပာယ်ရှိသော အရာ ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An \"evocative adjective\" is one that...",
+          questionMy:
+              "\"Evocative Adjective\" တစ်ခုသည် ...သော Adjective တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Vividly stirs a sensory or emotional response in the reader",
+            "Is always exactly one syllable",
+            "Contains no emotional content whatsoever",
+            "Can only describe colours",
+          ],
+          optionsMy: [
+            "စာဖတ်သူတွင် အာရုံခံစားမှုဆိုင်ရာ (သို့) ခံစားချက်ဆိုင်ရာ တုံ့ပြန်မှုကို အသက်ဝင်စွာ လှုပ်ရှား",
+            "အမြဲ Syllable တစ်ခုတည်း",
+            "ခံစားချက်ဆိုင်ရာ အကြောင်းအရာ လုံးဝ မပါ",
+            "အရောင်များကိုသာ ဖော်ပြနိုင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Building an academic lexicon means expanding vocabulary for...",
+          questionMy:
+              "ပညာရပ်ဆိုင်ရာ ဝေါဟာရ တည်ဆောက်ခြင်းဆိုသည်မှာ ...အတွက် ဝေါဟာရကို ချဲ့ထွင်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Precise, formal expression appropriate to academic writing",
+            "Only casual text-message conversations",
+            "Only poetry with no other application",
+            "Nothing beyond everyday slang",
+          ],
+          optionsMy: [
+            "ပညာရပ်ဆိုင်ရာ ရေးသားမှုနှင့် သင့်လျော်သော တိကျ၊ တရားဝင် ဖော်ပြချက်",
+            "အလွတ်သဘော Text Message စကားဝိုင်းများကိုသာ",
+            "အခြား အသုံးချမှု မပါသော ကဗျာကိုသာ",
+            "နေ့စဉ် Slang ထက် ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Precise Vocabulary Upgrades",
+      titleMy: "တွဲစပ်ကြမည် - တိကျသော ဝေါဟာရ တိုးမြှင့်မှုများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w27-dm-1",
+          termEn: "\"Said\" (generic)",
+          termMy: "\"ပြောသည်\" (Generic)",
+          matchEn:
+              "Upgraded: \"murmured,\" \"declared,\" or \"snapped,\" depending on tone",
+          matchMy:
+              "တိုးမြှင့်ထား: လေယူလေသိမ်းအလိုက် \"တီးတိုးပြော\", \"ကြေညာ\", (သို့) \"ဒေါသနှင့်ပြော\"",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w27-dm-2",
+          termEn: "\"Nice\" (generic)",
+          termMy: "\"ကောင်းသော\" (Generic)",
+          matchEn:
+              "Upgraded: \"gracious,\" \"charming,\" or \"considerate,\" depending on context",
+          matchMy:
+              "တိုးမြှင့်ထား: Context အလိုက် \"ရက်ရောသော\", \"ဆွဲဆောင်ဖွယ်\", (သို့) \"စာနာတတ်သော\"",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w27-dm-3",
+          termEn: "\"Big\" (generic)",
+          termMy: "\"ကြီးသော\" (Generic)",
+          matchEn:
+              "Upgraded: \"immense,\" \"towering,\" or \"vast,\" depending on the noun",
+          matchMy:
+              "တိုးမြှင့်ထား: နာမ်အလိုက် \"ကျယ်ဝန်းသော\", \"မြင့်မားသော\", (သို့) \"ကျယ်ပြန့်သော\"",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w27-dm-4",
+          termEn: "Precise verb",
+          termMy: "Precise Verb",
+          matchEn:
+              "An action word conveying specific meaning without extra modifiers",
+          matchMy:
+              "ထပ်ဆောင်း Modifier များ မလိုအပ်ဘဲ တိကျသော အဓိပ္ပာယ်ကို ထုတ်ဖော်သော လုပ်ဆောင်ချက် စကားလုံး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w27-dm-5",
+          termEn: "Evocative adjective",
+          termMy: "Evocative Adjective",
+          matchEn:
+              "A descriptive word vividly stirring a sensory or emotional response",
+          matchMy:
+              "အာရုံခံစားမှုဆိုင်ရာ (သို့) ခံစားချက်ဆိုင်ရာ တုံ့ပြန်မှုကို အသက်ဝင်စွာ လှုပ်ရှားစေသော ဖော်ပြချက် စကားလုံး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Generic or Precise Vocabulary?",
+      titleMy: "စီစစ်ကြမည် - Generic လား Precise ဝေါဟာရလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Generic (Weak)", "Precise (Strong)"],
+        bucketsMy: ["Generic (အားနည်း)", "Precise (အားကောင်း)"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w27-sort-1",
+            labelEn: "\"The food was good.\"",
+            labelMy: "\"အစားအစာသည် ကောင်းခဲ့သည်။\"",
+            correctBucketEn: "Generic (Weak)",
+            correctBucketMy: "Generic (အားနည်း)",
+          ),
+          SortingItem(
+            id: "igcseeng-w27-sort-2",
+            labelEn:
+                "\"The soup was rich with cardamom and slow-cooked beef.\"",
+            labelMy:
+                "\"ဟင်းချိုသည် ဆလွန်းနှင့် နှေးကွေးချက်ပြုတ်ထားသော အမဲသားဖြင့် ကြွယ်ဝနေခဲ့သည်။\"",
+            correctBucketEn: "Precise (Strong)",
+            correctBucketMy: "Precise (အားကောင်း)",
+          ),
+          SortingItem(
+            id: "igcseeng-w27-sort-3",
+            labelEn: "\"She was very sad.\"",
+            labelMy: "\"သူမသည် အလွန် ဝမ်းနည်းနေသည်။\"",
+            correctBucketEn: "Generic (Weak)",
+            correctBucketMy: "Generic (အားနည်း)",
+          ),
+          SortingItem(
+            id: "igcseeng-w27-sort-4",
+            labelEn: "\"Grief settled over her like an unshakeable weight.\"",
+            labelMy:
+                "\"ဝမ်းနည်းမှုသည် လှုပ်ရှားလို့ မရသော အလေးချိန်တစ်ခုကဲ့သို့ သူမအပေါ် ကျရောက်ခဲ့သည်။\"",
+            correctBucketEn: "Precise (Strong)",
+            correctBucketMy: "Precise (အားကောင်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Vocabulary Upgrade Pass",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ဝေါဟာရ တိုးမြှင့်ခြင်း Pass",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Vocabulary Upgrade Pass",
+        titleMy: "နေချည်၏ ဝေါဟာရ တိုးမြှင့်ခြင်း Pass",
+        passageEn:
+            "Ko Thura handed Nay Chi a printed page from her own writing folder, dating back to Term 1, with certain words circled in red: \"good,\" \"nice,\" \"big,\" \"walked,\" \"said\" -- appearing, by his count, more than forty times across three essays. He told her these words weren't wrong exactly, but they were doing almost no work, generic placeholders standing in for the precise word she hadn't yet found.\n\nHe set her a specific drill: for every circled word, find three possible upgrades, then choose the one that fit the exact context. \"The teacher said the news\" became, depending on tone, \"the teacher announced the news\" for formal delivery, \"the teacher confided the news\" for something shared privately, or \"the teacher blurted the news\" for an unplanned, sudden reveal. Each replacement carried genuinely different information the generic \"said\" had been quietly hiding.\n\nWorking through her old paragraphs this way, Nay Chi noticed something unexpected: precise vocabulary didn't just sound more sophisticated, it forced her to think more precisely about what she actually meant. Choosing between \"murmured\" and \"muttered\" required deciding whether the character's tone was gentle or resentful -- a decision the vague \"said\" had let her avoid making at all. Ko Thura told her this was the deepest value of vocabulary work: it wasn't decoration layered on top of finished thinking, it was a tool that sharpened the thinking itself, forcing a writer to commit to exactly what she meant rather than gesturing vaguely toward it.",
+        passageMy:
+            "ကိုသူရသည် ပထမတန်းအထိ ပြန်ရောက်သော သူမ၏ ကိုယ်ပိုင် ရေးသား ဖိုင်တွဲမှ ပုံနှိပ်ထားသော စာမျက်နှာတစ်ခုကို နေချည်ကို ပေးအပ်ခဲ့ပြီး၊ အနီရောင် ဝိုင်းထားသော စကားလုံးအချို့ ပါဝင်ခဲ့သည် - \"ကောင်းသော\", \"ကောင်းသည်\", \"ကြီးသော\", \"လမ်းလျှောက်ခဲ့သည်\", \"ပြောခဲ့သည်\" -- သူ၏ ရေတွက်ချက်အရ Essay သုံးပုဒ်တစ်လျှောက် အကြိမ် ၄၀ ကျော် ပေါ်ခဲ့သည်။ ဤစကားလုံးများသည် အတိအကျ မှားယွင်းခြင်း မဟုတ်သော်လည်း သူမ မရှာတွေ့သေးသော တိကျသော စကားလုံး၏ Generic Placeholder အဖြစ် ရပ်တည်လျက် အလုပ်ကို လုံးဝနီးပါး မလုပ်နိုင်ကြောင်း သူ ပြောခဲ့သည်။\n\nသူသည် သူမကို တိကျသော လေ့ကျင့်ခန်းတစ်ခု သတ်မှတ်ခဲ့သည် - ဝိုင်းထားသော စကားလုံးတစ်ခုစီအတွက် ဖြစ်နိုင်ချေရှိသော တိုးမြှင့်မှု သုံးခု ရှာဖွေပြီး ထို့နောက် အတိအကျ Context နှင့် ကိုက်ညီသော တစ်ခုကို ရွေးချယ်ပါ။ \"ဆရာမက သတင်းကို ပြောခဲ့သည်\" သည် လေယူလေသိမ်းအလိုက် တရားဝင် ပေးအပ်မှုအတွက် \"ဆရာမက သတင်းကို ကြေညာခဲ့သည်\"၊ ကိုယ်ရေးကိုယ်တာ မျှဝေထားသော တစ်ခုခုအတွက် \"ဆရာမက သတင်းကို လျှို့ဝှက်ပြောခဲ့သည်\"၊ (သို့) စီစဉ်မထားသော ရုတ်တရက် ဖော်ထုတ်မှုတစ်ခုအတွက် \"ဆရာမက သတင်းကို ရုတ်ချည်း ထုတ်ပြောခဲ့သည်\" ဖြစ်လာခဲ့သည်။ အစားထိုးချက်တစ်ခုစီသည် Generic \"ပြောခဲ့သည်\" တိတ်တဆိတ် ဖုံးကွယ်ထားခဲ့သော အမှန်တကယ် ကွဲပြားသော အချက်အလက်ကို သယ်ဆောင်လာခဲ့သည်။\n\nသူမ၏ စာပိုဒ်ဟောင်းများကို ဤနည်းဖြင့် ဖြတ်၍ လုပ်ဆောင်ရာ နေချည်သည် မမျှော်လင့်ထားသော တစ်ခုခုကို သတိပြုမိခဲ့သည် - တိကျသော ဝေါဟာရသည် ပို၍ ခေတ်မီသကဲ့သို့ အကြားခံရရုံသာမက သူမ အမှန်တကယ် ဆိုလိုသောအရာအကြောင်း ပို၍ တိကျစွာ တွေးခေါ်ရန် တွန်းအားပေးခဲ့သည်။ \"တီးတိုးပြော\" နှင့် \"အံမာန်ဖြင့်ပြော\" ကြားမှ ရွေးချယ်ခြင်းသည် ဇာတ်ကောင်၏ လေယူလေသိမ်းသည် နူးညံ့သည် (သို့) မကျေမနပ်ဖြစ်သည်ကို ဆုံးဖြတ်ရန် လိုအပ်ခဲ့သည် -- မှုန်ဝါးသော \"ပြောခဲ့သည်\" သည် ၎င်းကို လုံးဝ ဆုံးဖြတ်ခြင်းမပြုဘဲ ရှောင်ရှားခွင့် ပေးခဲ့သည်။ ကိုသူရသည် ၎င်းသည် ဝေါဟာရလုပ်ငန်း၏ အနက်ရှိုင်းဆုံး တန်ဖိုး ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - ၎င်းသည် ပြီးစီးသော တွေးခေါ်မှုအပေါ် တင်ထားသော အလှဆင်ခြင်း မဟုတ်ဘဲ တွေးခေါ်မှုကိုယ်တိုင်ကို ထက်မြက်စေသော ကိရိယာတစ်ခု ဖြစ်ပြီး၊ စာရေးသူတစ်ဦးအား မှုန်ဝါးစွာ ညွှန်ပြမည့်အစား မိမိ ဆိုလိုသောအရာကို အတိအကျ ကတိပြုစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how many times did Ko Thura count the circled generic words appearing?",
+            questionMy:
+                "ဝိုင်းထားသော Generic စကားလုံးများ ပေါ်ခဲ့ကြောင်း ကိုသူရ မည်မျှကြိမ် ရေတွက်ခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "More than forty times",
+              "Exactly ten times",
+              "Only twice",
+              "More than five hundred times",
+            ],
+            optionsMy: [
+              "အကြိမ် ၄၀ ကျော်",
+              "ဆယ်ကြိမ် အတိအကျ",
+              "နှစ်ကြိမ်သာ",
+              "အကြိမ် ၅၀၀ ကျော်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about his count across three essays.",
+            ],
+            hintsMy: [
+              "Essay သုံးပုဒ်တစ်လျှောက် သူ၏ ရေတွက်ချက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what determined which upgrade of \"said\" Nay Chi should choose?",
+            questionMy:
+                "\"ပြောခဲ့သည်\" ၏ မည်သည့် တိုးမြှင့်မှုကို နေချည် ရွေးချယ်သင့်ကြောင်း ဘာက ဆုံးဖြတ်ပေးခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The exact context and tone of the situation",
+              "The alphabetical order of the words",
+              "A random dice roll",
+              "The length of the sentence only",
+            ],
+            optionsMy: [
+              "အခြေအနေ၏ အတိအကျ Context နှင့် လေယူလေသိမ်း",
+              "စကားလုံးများ၏ အက္ခရာစဉ်",
+              "ကျပန်း ဆုံးဖြတ်ချက်",
+              "ဝါကျ၏ အရှည်ကိုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining how she was told to choose the replacement.",
+            ],
+            hintsMy: [
+              "အစားထိုးချက်ကို မည်သို့ ရွေးချယ်ရန် သူမ ပြောခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say vocabulary work actually was?",
+            questionMy:
+                "ဝေါဟာရလုပ်ငန်းသည် အမှန်တကယ် ဘာဖြစ်ကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A tool that sharpened the thinking itself, not mere decoration",
+              "Pure decoration with no real value",
+              "A waste of time for advanced writers",
+              "Irrelevant to genuine analysis",
+            ],
+            optionsMy: [
+              "အလှဆင်ခြင်းသက်သက် မဟုတ်ဘဲ တွေးခေါ်မှုကိုယ်တိုင်ကို ထက်မြက်စေသော ကိရိယာတစ်ခု",
+              "စစ်မှန်သော တန်ဖိုး မရှိသော အလှဆင်ခြင်းသက်သက်",
+              "အဆင့်မြင့် ရေးသားသူများအတွက် အချိန်ဖြုန်းခြင်း",
+              "စစ်မှန်သော ခွဲခြမ်းစိတ်ဖြာမှုနှင့် မသက်ဆိုင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Academic Lexicon",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ပညာရပ်ဆိုင်ရာ ဝေါဟာရ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A precise verb typically...",
+          questionMy: "တိကျသော ကြိယာတစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Conveys specific meaning in fewer words",
+            "Always makes sentences longer",
+            "Has no effect on meaning",
+            "Is grammatically incorrect",
+          ],
+          optionsMy: [
+            "စကားလုံး နည်းသော်လည်း တိကျသော အဓိပ္ပာယ်ကို ထုတ်ဖော်သည်",
+            "ဝါကျများကို အမြဲ ပို၍ ရှည်လျားစေသည်",
+            "အဓိပ္ပာယ်အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "သဒ္ဒါအရ မှားယွင်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Generic language refers to...",
+          questionMy: "Generic Language သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Vague, overused words carrying little specific meaning",
+            "Highly technical vocabulary only",
+            "Poetry-only words",
+            "Correctly spelled words with no other quality",
+          ],
+          optionsMy: [
+            "တိကျသော အဓိပ္ပာယ် အနည်းငယ်သာ သယ်ဆောင်လာသော မှုန်ဝါးပြီး အလွန်အသုံးများသော စကားလုံးများ",
+            "ပညာရပ်ဆိုင်ရာ ဝေါဟာရများကိုသာ",
+            "ကဗျာအတွက်သာ စကားလုံးများ",
+            "အခြား အရည်အသွေး မပါဘဲ စာလုံးပေါင်း မှန်ကန်သော စကားလုံးများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Precise vocabulary work forces a writer to...",
+          questionMy:
+              "တိကျသော ဝေါဟာရ လုပ်ငန်းသည် စာရေးသူတစ်ဦးအား ...ရန် တွန်းအားပေးသည်",
+          optionsEn: [
+            "Commit exactly to what they mean",
+            "Avoid all thinking entirely",
+            "Use only one-syllable words",
+            "Never revise a draft",
+          ],
+          optionsMy: [
+            "၎င်းတို့ ဆိုလိုသောအရာကို အတိအကျ ကတိပြု",
+            "တွေးခေါ်မှုအားလုံးကို လုံးဝ ရှောင်ရှား",
+            "Syllable တစ်ခုတည်းပါ စကားလုံးများကိုသာ သုံး",
+            "မူကြမ်းတစ်ခုကို ဘယ်တော့မှ ပြင်ဆင်မ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek28 = CourseWeekDef(
+  id: "course-igcse-eng-w28",
+  weekNumber: 28,
+  titleEn: "The Master Editing Workshop",
+  titleMy: "အဆင့်မြင့် စာတည်းဖြတ်မှု အလုပ်ရုံ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w28-d1",
+      dayNumber: 1,
+      titleEn: "Proofreading Strategies and Syntax Elevation",
+      titleMy: "Proofreading မဟာဗျူဟာများနှင့် Syntax မြှင့်တင်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An effective proofreading strategy is to...",
+          questionMy: "ထိရောက်သော Proofreading မဟာဗျူဟာတစ်ခုမှာ...",
+          optionsEn: [
+            "Read the draft slowly, checking one specific issue type at a time",
+            "Read the draft once quickly and never again",
+            "Skip proofreading entirely to save time",
+            "Only check the title for errors",
+          ],
+          optionsMy: [
+            "တစ်ကြိမ်လျှင် တိကျသော ပြဿနာအမျိုးအစား တစ်ခုကို စစ်ဆေးလျက် မူကြမ်းကို နှေးကွေးစွာ ဖတ်ရှုခြင်း",
+            "မူကြမ်းကို တစ်ကြိမ် လျင်မြန်စွာ ဖတ်ပြီး ဘယ်တော့မှ ထပ်မဖတ်ခြင်း",
+            "အချိန် ချွေတာရန် Proofreading ကို လုံးဝ ကျော်ခြင်း",
+            "ခေါင်းစဉ်ကိုသာ အမှားများအတွက် စစ်ဆေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Syntax elevation\" in editing means...",
+          questionMy: "တည်းဖြတ်ခြင်းရှိ \"Syntax Elevation\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Deliberately varying sentence structure to improve rhythm and control",
+            "Deleting every sentence longer than five words",
+            "Using only simple sentences throughout",
+            "Ignoring sentence-level revision entirely",
+          ],
+          optionsMy: [
+            "သံစဉ်နှင့် ထိန်းချုပ်နိုင်စွမ်း တိုးတက်စေရန် ဝါကျဖွဲ့စည်းပုံကို ရည်ရွယ်ချက်ရှိရှိ ကွဲပြားစေခြင်း",
+            "စကားလုံး ငါးလုံးထက် ရှည်လျားသော ဝါကျတိုင်းကို ဖျက်ပစ်ခြင်း",
+            "Simple Sentence များကိုသာ တစ်လျှောက်လုံး သုံးခြင်း",
+            "ဝါကျအဆင့် ပြင်ဆင်ခြင်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Polishing an unpolished draft to A* standard requires attention to...",
+          questionMy:
+              "မွမ်းမံမထားသော မူကြမ်းတစ်ခုကို A* စံနှုန်းသို့ ချောမွေ့စေရန် ...ကို အာရုံစိုက်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Vocabulary, syntax, and punctuation together, not any single element alone",
+            "Only spelling, ignoring everything else",
+            "Only the title and opening line",
+            "Nothing beyond word count",
+          ],
+          optionsMy: [
+            "ဝေါဟာရ၊ Syntax နှင့် ပုဒ်ဖြတ်ပုဒ်ရပ် တစ်ခုတည်းမဟုတ်ဘဲ အားလုံး အတူတကွ",
+            "စာလုံးပေါင်းကိုသာ၊ အခြားအားလုံးကို လျစ်လျူရှု၍",
+            "ခေါင်းစဉ်နှင့် ဖွင့်ဝါကျကိုသာ",
+            "စကားလုံးရေထက် ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking one issue type at a time (e.g. only tense, then only punctuation) during proofreading helps because...",
+          questionMy:
+              "Proofread ပြုလုပ်စဉ် တစ်ကြိမ်လျှင် ပြဿနာအမျိုးအစားတစ်ခု (ဥပမာ - Tense တစ်ခုတည်း၊ ထို့နောက် ပုဒ်ဖြတ်ပုဒ်ရပ်တစ်ခုတည်း) စစ်ဆေးခြင်းသည် ...ကြောင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "It prevents the brain from missing errors while trying to check everything at once",
+            "It takes far longer with no benefit",
+            "It is required by exam boards",
+            "It guarantees a perfect score automatically",
+          ],
+          optionsMy: [
+            "အားလုံးကို တစ်ပြိုင်နက် စစ်ဆေးရန် ကြိုးစားနေစဉ် ဦးနှောက်သည် အမှားများ လွတ်ကျွတ်သွားခြင်းကို ကာကွယ်ပေးသောကြောင့်",
+            "အကျိုးကျေးဇူး မရှိဘဲ ပို၍ ကြာမြင့်စေသောကြောင့်",
+            "စာမေးပွဲအဖွဲ့များက တောင်းဆိုသောကြောင့်",
+            "ပြီးပြည့်စုံသော ရမှတ်ကို အလိုအလျောက် အာမခံသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A word like \"nice\" replaced with a precise, context-appropriate alternative typically...",
+          questionMy:
+              "\"ကောင်းသော\" ကဲ့သို့ စကားလုံးတစ်ခုကို တိကျ၍ Context နှင့် ကိုက်ညီသော အခြားရွေးချယ်စရာဖြင့် အစားထိုးခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Strengthens the writing's precision and impact",
+            "Always weakens the writing",
+            "Has no effect whatsoever",
+            "Is forbidden by IGCSE mark schemes",
+          ],
+          optionsMy: [
+            "ရေးသားမှု၏ တိကျမှုနှင့် သက်ရောက်မှုကို ခိုင်မာစေသည်",
+            "ရေးသားမှုကို အမြဲ အားနည်းစေသည်",
+            "မည်သည့် သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+            "IGCSE Mark Scheme များက တားမြစ်ထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Grammar & Style Term Review",
+      titleMy: "တွဲစပ်ကြမည် - သဒ္ဒါနှင့် စတိုင်လ် နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w28-dm-1",
+          termEn: "Minor sentence",
+          termMy: "Minor Sentence",
+          matchEn:
+              "A grammatically incomplete sentence used deliberately for effect",
+          matchMy:
+              "သက်ရောက်မှုအတွက် ရည်ရွယ်ချက်ရှိရှိ သုံးထားသော သဒ္ဒါအရ မပြည့်စုံသော ဝါကျ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w28-dm-2",
+          termEn: "Semicolon",
+          termMy: "Semicolon",
+          matchEn: "Joins two closely related independent clauses",
+          matchMy:
+              "အနီးကပ် ဆက်စပ်နေသော Independent Clause နှစ်ခုကို ချိတ်ဆက်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w28-dm-3",
+          termEn: "Precise verb",
+          termMy: "Precise Verb",
+          matchEn:
+              "An action word conveying specific meaning without extra modifiers",
+          matchMy:
+              "ထပ်ဆောင်း Modifier များ မလိုအပ်ဘဲ တိကျသော အဓိပ္ပာယ်ကို ထုတ်ဖော်သော လုပ်ဆောင်ချက် စကားလုံး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w28-dm-4",
+          termEn: "Inverted syntax",
+          termMy: "Inverted Syntax",
+          matchEn: "Reversing normal word order for dramatic emphasis",
+          matchMy:
+              "ပြင်းထန်သော အလေးပေးမှုအတွက် ပုံမှန် စကားလုံးအစီအစဉ်ကို ပြောင်းပြန်လှန်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w28-dm-5",
+          termEn: "Generic language",
+          termMy: "Generic Language",
+          matchEn: "Vague, overused words carrying little specific meaning",
+          matchMy:
+              "တိကျသော အဓိပ္ပာယ် အနည်းငယ်သာ သယ်ဆောင်လာသော မှုန်ဝါးပြီး အလွန်အသုံးများသော စကားလုံးများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 7 Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - တန်းခုနစ်တန်း မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Syntax", "Punctuation", "Vocabulary"],
+        bucketsMy: ["Syntax", "Punctuation", "Vocabulary"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w28-sort-1",
+            labelEn:
+                "Using a fronted adverbial to open a sentence for emphasis",
+            labelMy:
+                "အလေးပေးရန် ဝါကျတစ်ခု ဖွင့်ရန် Fronted Adverbial တစ်ခု သုံးခြင်း",
+            correctBucketEn: "Syntax",
+            correctBucketMy: "Syntax",
+          ),
+          SortingItem(
+            id: "igcseeng-w28-sort-2",
+            labelEn: "Choosing a colon to introduce a dramatic list",
+            labelMy:
+                "ပြင်းထန်သော စာရင်းတစ်ခု မိတ်ဆက်ရန် Colon တစ်ခု ရွေးချယ်ခြင်း",
+            correctBucketEn: "Punctuation",
+            correctBucketMy: "Punctuation",
+          ),
+          SortingItem(
+            id: "igcseeng-w28-sort-3",
+            labelEn:
+                "Replacing \"walked badly\" with the precise verb \"stumbled\"",
+            labelMy:
+                "\"မကောင်းစွာ လမ်းလျှောက်ခဲ့သည်\" ကို တိကျသော ကြိယာ \"ခြေချော်ခဲ့သည်\" ဖြင့် အစားထိုးခြင်း",
+            correctBucketEn: "Vocabulary",
+            correctBucketMy: "Vocabulary",
+          ),
+          SortingItem(
+            id: "igcseeng-w28-sort-4",
+            labelEn: "Using a minor sentence like \"Silence.\" for impact",
+            labelMy:
+                "အထိရောက်မှုအတွက် \"တိတ်ဆိတ်မှု။\" ကဲ့သို့ Minor Sentence တစ်ခု သုံးခြင်း",
+            correctBucketEn: "Syntax",
+            correctBucketMy: "Syntax",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Master Edit",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Master Edit",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Master Edit",
+        titleMy: "နေချည်၏ Master Edit",
+        passageEn:
+            "For the Term 7 capstone, Ko Thura handed Nay Chi an unpolished draft -- not one of hers, but a deliberately flat, functional paragraph he had written himself -- and asked her to elevate it to A* standard using everything the term had covered.\n\nShe worked through it in careful passes rather than trying to fix everything simultaneously. Her first pass targeted only syntax: she varied the monotonous subject-verb-object rhythm with a fronted adverbial here, a minor sentence there, one carefully placed instance of inverted syntax for a moment of surprise. Her second pass targeted only punctuation: she replaced a run of short, choppy sentences with a single semicolon-joined pair where the ideas were closely related, added a colon to introduce a three-item list with more drama than a plain comma-separated version, and placed one dash at the paragraph's emotional turn. Her third and final pass targeted only vocabulary: every instance of \"said,\" \"nice,\" \"big,\" and \"walked\" was replaced with a precise, context-appropriate alternative chosen deliberately, not automatically from a thesaurus.\n\nWhen Ko Thura compared the drafts side by side, the transformation was substantial without a single fact or event having changed -- the same content now carried genuine stylistic control. He told her this final skill, elevating existing content through syntax, punctuation, and vocabulary working together, was often what separated a good IGCSE script from an A* one: not different ideas, but the same ideas expressed with far greater precision and control. He reminded her that Term 8's intensive past-paper practice would now test whether she could apply all of Terms 1 through 7 together, under full exam conditions, without him standing beside her to prompt each individual skill.",
+        passageMy:
+            "တန်းခုနစ်တန်း Capstone အတွက် ကိုသူရသည် မွမ်းမံမထားသော မူကြမ်းတစ်ခု -- သူမ၏ တစ်ခုမဟုတ်ဘဲ သူ ကိုယ်တိုင် ရေးသားထားသော ရည်ရွယ်ချက်ရှိရှိ ပြားညီညီ၊ လုပ်ဆောင်နိုင်သော စာပိုဒ်တစ်ခု -- ကို နေချည်ကို ပေးအပ်ပြီး နှစ်ဝက်တစ်လျှောက် လွှမ်းခြုံခဲ့သော အရာအားလုံးကို သုံး၍ ၎င်းကို A* စံနှုန်းသို့ မြှင့်တင်ရန် တောင်းဆိုခဲ့သည်။\n\nသူမသည် အားလုံးကို တစ်ပြိုင်နက် ပြင်ဆင်ရန် ကြိုးစားမည့်အစား ဂရုတစိုက် Pass များဖြင့် ၎င်းကို ဖြတ်၍ လုပ်ဆောင်ခဲ့သည်။ သူမ၏ ပထမ Pass သည် Syntax ကိုသာ ပစ်မှတ်ထားခဲ့ပြီး၊ ပြားညီညီ Subject-Verb-Object သံစဉ်ကို Fronted Adverbial တစ်ခု၊ Minor Sentence တစ်ခု၊ အံ့ဩဖွယ် အခိုက်အတန့်တစ်ခုအတွက် ဂရုတစိုက် ချထားသော Inverted Syntax တစ်ခုဖြင့် ကွဲပြားစေခဲ့သည်။ သူမ၏ ဒုတိယ Pass သည် ပုဒ်ဖြတ်ပုဒ်ရပ်ကိုသာ ပစ်မှတ်ထားခဲ့ပြီး၊ အယူအဆများ နီးကပ်စွာ ဆက်စပ်နေသော နေရာတွင် တို၍ ဖြတ်ထွက်နေသော ဝါကျများ တန်းစီကို Semicolon ချိတ်ဆက်ထားသော အတွဲတစ်ခုဖြင့် အစားထိုးခဲ့ပြီး၊ Comma ဖြင့် ခွဲထားသော ပုံစံရိုးရိုးထက် ပို၍ ပြင်းထန်စွာ အချက်သုံးချက်ပါ စာရင်းတစ်ခု မိတ်ဆက်ရန် Colon တစ်ခု ထည့်သွင်းကာ စာပိုဒ်၏ ခံစားချက်ဆိုင်ရာ လှည့်ချက်တွင် Dash တစ်ခု ချထားခဲ့သည်။ သူမ၏ တတိယနှင့် နောက်ဆုံး Pass သည် ဝေါဟာရကိုသာ ပစ်မှတ်ထားခဲ့ပြီး၊ \"ပြောခဲ့သည်\", \"ကောင်းသော\", \"ကြီးသော\" နှင့် \"လမ်းလျှောက်ခဲ့သည်\" ၏ ဖြစ်ရပ်တိုင်းကို Thesaurus မှ အလိုအလျောက်မဟုတ်ဘဲ ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ထားသော တိကျ၊ Context နှင့် ကိုက်ညီသော အခြားရွေးချယ်စရာဖြင့် အစားထိုးခဲ့သည်။\n\nကိုသူရသည် မူကြမ်းများကို ဘေးချင်းယှဉ် နှိုင်းယှဉ်သောအခါ အချက်အလက် (သို့) အဖြစ်အပျက်တစ်ခုမျှ မပြောင်းလဲဘဲ ပြောင်းလဲမှုသည် သိသာလှခဲ့သည် -- တူညီသော အကြောင်းအရာသည် ယခုအခါ စစ်မှန်သော စတိုင်လ်ဆိုင်ရာ ထိန်းချုပ်မှုကို သယ်ဆောင်လာခဲ့သည်။ Syntax, ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် ဝေါဟာရ အတူတကွ လုပ်ဆောင်ခြင်းမှတဆင့် ရှိပြီးသား အကြောင်းအရာကို မြှင့်တင်ခြင်းဆိုင်ရာ ဤနောက်ဆုံး ကျွမ်းကျင်မှုသည် ကောင်းမွန်သော IGCSE Script တစ်ခုနှင့် A* Script တစ်ခုကို ခွဲခြားပေးသော အချက် အများအားဖြင့် ဖြစ်ကြောင်း သူ ပြောခဲ့သည် - ကွဲပြားသော အယူအဆများ မဟုတ်ဘဲ ပို၍ ကြီးမားသော တိကျမှုနှင့် ထိန်းချုပ်မှုဖြင့် ဖော်ပြထားသော တူညီသော အယူအဆများ။ တန်းရှစ်တန်း၏ Intensive Past Paper လေ့ကျင့်ခန်းသည် ကျွမ်းကျင်မှု တစ်ခုချင်းစီကို တိုက်တွန်းရန် သူ သူမနားတွင် ရပ်နေခြင်း မရှိဘဲ စာမေးပွဲ အခြေအနေ အပြည့်အစုံအောက်တွင် ပထမတန်းမှ တန်းခုနစ်တန်းအထိ အားလုံးကို အတူတကွ သုံးနိုင်ခြင်း ရှိမရှိကို ယခုအခါ စစ်ဆေးမည်ဖြစ်ကြောင်း သူ သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's first editing pass target?",
+            questionMy:
+                "နေချည်၏ ပထမ တည်းဖြတ်ခြင်း Pass သည် ဘာကို ပစ်မှတ်ထားခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Syntax only",
+              "Punctuation only",
+              "Vocabulary only",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "Syntax ကိုသာ",
+              "ပုဒ်ဖြတ်ပုဒ်ရပ်ကိုသာ",
+              "ဝေါဟာရကိုသာ",
+              "မည်သည့်အရာမျှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about her first pass."],
+            hintsMy: ["သူမ၏ ပထမ Pass အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what stayed unchanged despite the substantial transformation?",
+            questionMy:
+                "သိသာသော ပြောင်းလဲမှုတွင် ဘာသည် မပြောင်းလဲဘဲ ရှိနေခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Not a single fact or event",
+              "Every sentence's word count",
+              "The paragraph's title",
+              "The character's name",
+            ],
+            optionsMy: [
+              "အချက်အလက် (သို့) အဖြစ်အပျက် တစ်ခုမျှ",
+              "ဝါကျတိုင်း၏ စကားလုံးရေ",
+              "စာပိုဒ်၏ ခေါင်းစဉ်",
+              "ဇာတ်ကောင်၏ အမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what changed and what didn't.",
+            ],
+            hintsMy: [
+              "ဘာ ပြောင်းလဲပြီး ဘာ မပြောင်းလဲကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "Based on the final paragraph, what would Term 8 test?",
+            questionMy:
+                "တန်းရှစ်တန်းသည် ဘာကို စစ်ဆေးမည်ဟု နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether she could apply all of Terms 1 through 7 together under exam conditions",
+              "Only her handwriting speed",
+              "Only her ability to spell correctly",
+              "Nothing related to the previous terms",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ အခြေအနေအောက်တွင် ပထမတန်းမှ တန်းခုနစ်တန်းအထိ အားလုံးကို အတူတကွ သုံးနိုင်ခြင်း ရှိမရှိ",
+              "သူမ၏ လက်ရေး အမြန်နှုန်းကိုသာ",
+              "မှန်ကန်စွာ စာလုံးပေါင်းနိုင်စွမ်းကိုသာ",
+              "ယခင်နှစ်ဝက်များနှင့် မသက်ဆိုင်သော မည်သည့်အရာမျှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Editing Mastery",
+      titleMy: "တန်းခုနစ်တန်း Capstone - တည်းဖြတ်ခြင်း ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An effective proofreading strategy checks...",
+          questionMy:
+              "ထိရောက်သော Proofreading မဟာဗျူဟာတစ်ခုသည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "One specific issue type at a time",
+            "Nothing at all",
+            "Only the title",
+            "Everything at once with no focus",
+          ],
+          optionsMy: [
+            "တစ်ကြိမ်လျှင် တိကျသော ပြဿနာအမျိုးအစား တစ်ခု",
+            "မည်သည့်အရာမျှ",
+            "ခေါင်းစဉ်ကိုသာ",
+            "အာရုံစိုက်မှု မရှိဘဲ အားလုံးကို တစ်ပြိုင်နက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Elevating a draft to A* standard requires attention to...",
+          questionMy:
+              "မူကြမ်းတစ်ခုကို A* စံနှုန်းသို့ မြှင့်တင်ခြင်းသည် ...ကို အာရုံစိုက်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Vocabulary, syntax, and punctuation together",
+            "Spelling only",
+            "The title only",
+            "Word count only",
+          ],
+          optionsMy: [
+            "ဝေါဟာရ၊ Syntax နှင့် ပုဒ်ဖြတ်ပုဒ်ရပ် အတူတကွ",
+            "စာလုံးပေါင်းကိုသာ",
+            "ခေါင်းစဉ်ကိုသာ",
+            "စကားလုံးရေကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What separates a good IGCSE script from an A* one is often...",
+          questionMy:
+              "ကောင်းမွန်သော IGCSE Script တစ်ခုနှင့် A* Script တစ်ခုကို ခွဲခြားပေးသော အချက် အများအားဖြင့်...",
+          optionsEn: [
+            "The same ideas expressed with greater precision and control",
+            "Completely different ideas",
+            "A longer word count only",
+            "Nothing measurable",
+          ],
+          optionsMy: [
+            "ပို၍ ကြီးမားသော တိကျမှုနှင့် ထိန်းချုပ်မှုဖြင့် ဖော်ပြထားသော တူညီသော အယူအဆများ",
+            "လုံးဝ ကွဲပြားသော အယူအဆများ",
+            "ရှည်လျားသော စကားလုံးရေတစ်ခုတည်း",
+            "တိုင်းတာနိုင်သော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm7 = CourseTermDef(
+  id: "course-igcse-eng-term7",
+  termNumber: 7,
+  titleEn: "Advanced Grammar, Syntax & Stylistic Editing",
+  titleMy: "အဆင့်မြင့် သဒ္ဒါ၊ Syntax နှင့် စတိုင်လ် တည်းဖြတ်မှု",
+  weeks: [_igcseEngWeek25, _igcseEngWeek26, _igcseEngWeek27, _igcseEngWeek28],
+  certificateTitleEn: "Advanced Grammar, Syntax & Stylistic Editing",
+  certificateTitleMy: "အဆင့်မြင့် သဒ္ဒါ၊ Syntax နှင့် စတိုင်လ် တည်းဖြတ်မှု",
 );
 
 // __IGCSE_ENGLISH_MARKER__
