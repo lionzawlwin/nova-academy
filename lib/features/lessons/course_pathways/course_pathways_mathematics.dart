@@ -123770,20 +123770,1577 @@ const CourseTermDef _igcseMathematicsTerm7 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// IGCSE Mathematics -- Term 8: "Exam Intensive - Paper 2 & Paper 4
+// (Extended)" (Weeks 29-32). Week 29 covers Paper 2 non-calculator
+// intensive; Week 30 covers Paper 4 calculator intensive; Week 31
+// covers error analysis and mark scheme mastery; Week 32 is the
+// capstone full mock exam series 1.
+// =====================================================================
+
+const CourseWeekDef _igcseMathematicsWeek29 = CourseWeekDef(
+  id: "course-igcse-mathematics-w29",
+  weekNumber: 29,
+  titleEn: "Paper 2 (Non-Calculator) Intensive",
+  titleMy: "Paper 2 (စက်မသုံးရ) အထူးကြပ်မတ် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w29-d1",
+      dayNumber: 1,
+      titleEn: "Mental Math Fluency and Exact Value Mastery",
+      titleMy: "စိတ်ကူးဖြင့် တွက်ချက်နိုင်စွမ်းနှင့် Exact Value ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Without a calculator, solve x² - 5x + 6 = 0 by factorising.",
+          questionMy:
+              "Calculator မသုံးဘဲ Factorising ဖြင့် x² - 5x + 6 = 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 1 or x = 6",
+            "x = 5 or x = 6",
+          ],
+          optionsMy: [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 1 or x = 6",
+            "x = 5 or x = 6",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Find two numbers that multiply to 6 and add to -5: -2 and -3. (x-2)(x-3)=0.",
+          ],
+          hintsMy: [
+            "6 ရဖို့ မြှောက်ပြီး -5 ရဖို့ ပေါင်းသော ဂဏန်းနှစ်ခု ရှာပါ: -2 နှင့် -3။ (x-2)(x-3)=0။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Without a calculator, simplify 3/4 + 2/3.",
+          questionMy:
+              "Calculator မသုံးဘဲ 3/4 + 2/3 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["17/12", "5/7", "1", "6/12"],
+          optionsMy: ["17/12", "5/7", "1", "6/12"],
+          correctIndex: 0,
+          hintsEn: [
+            "Common denominator 12: 3/4 = 9/12, 2/3 = 8/12. 9/12 + 8/12 = 17/12.",
+          ],
+          hintsMy: [
+            "Common Denominator 12: 3/4 = 9/12, 2/3 = 8/12။ 9/12 + 8/12 = 17/12။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Without a calculator, find the exact value of sin(30°).",
+          questionMy: "Calculator မသုံးဘဲ sin(30°) ၏ Exact Value ကို ရှာပါ။",
+          optionsEn: ["1/2", "√3/2", "√2/2", "1"],
+          optionsMy: ["1/2", "√3/2", "√2/2", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "sin(30°), cos(60°), sin(45°), cos(45°) are standard exact values IGCSE students memorise.",
+          ],
+          hintsMy: [
+            "sin(30°), cos(60°), sin(45°), cos(45°) များသည် IGCSE ကျောင်းသားများ အလွတ်ကျက်ထားသော စံပြ Exact Value များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Without a calculator, expand and simplify (x+3)(x-5).",
+          questionMy:
+              "Calculator မသုံးဘဲ (x+3)(x-5) ကို ဖြန့်ကြက်ပြီး ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: [
+            "x² - 2x - 15",
+            "x² + 2x - 15",
+            "x² - 8x - 15",
+            "x² - 2x + 15",
+          ],
+          optionsMy: [
+            "x² - 2x - 15",
+            "x² + 2x - 15",
+            "x² - 8x - 15",
+            "x² - 2x + 15",
+          ],
+          correctIndex: 0,
+          hintsEn: ["x² - 5x + 3x - 15 = x² - 2x - 15."],
+          hintsMy: ["x² - 5x + 3x - 15 = x² - 2x - 15။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Speed builds by recognising standard patterns. What is 15% of 240, calculated mentally?",
+          questionMy:
+              "စံပြ ပုံစံများကို မှတ်မိခြင်းဖြင့် အမြန်နှုန်း တည်ဆောက်သည်။ 240 ၏ 15% ကို စိတ်ကူးဖြင့် တွက်ချက်လျှင် အဘယ်နည်း။",
+          optionsEn: ["36", "24", "48", "15"],
+          optionsMy: ["36", "24", "48", "15"],
+          correctIndex: 0,
+          hintsEn: ["10% of 240 = 24. 5% of 240 = 12. 15% = 24 + 12 = 36."],
+          hintsMy: ["240 ၏ 10% = 24။ 240 ၏ 5% = 12။ 15% = 24 + 12 = 36။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w29-d2",
+      dayNumber: 2,
+      titleEn: "Non-Calculator Exam Vocabulary",
+      titleMy: "Non-Calculator စာမေးပွဲ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w29-dm1",
+          termEn: "Mental Fluency",
+          termMy: "Mental Fluency",
+          matchEn:
+              "The ability to perform calculations accurately and quickly without a calculator",
+          matchMy:
+              "Calculator မသုံးဘဲ တွက်ချက်မှုများကို တိကျစွာနှင့် လျင်မြန်စွာ လုပ်ဆောင်နိုင်စွမ်း",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w29-dm2",
+          termEn: "Exact Value",
+          termMy: "Exact Value",
+          matchEn:
+              "A precise value such as a fraction or surd, required on non-calculator papers",
+          matchMy:
+              "Non-Calculator စာစောင်များတွင် လိုအပ်သော အပိုင်းကိန်း သို့ Surd ကဲ့သို့ တိကျသော တန်ဖိုး",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w29-dm3",
+          termEn: "Standard Trig Values",
+          termMy: "Standard Trig Values",
+          matchEn:
+              "Memorised exact sine/cosine/tangent values for 0°, 30°, 45°, 60°, 90°",
+          matchMy:
+              "0°, 30°, 45°, 60°, 90° အတွက် အလွတ်ကျက်ထားသော Exact Sine/Cosine/Tangent တန်ဖိုးများ",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w29-dm4",
+          termEn: "Algebraic Manipulation",
+          termMy: "Algebraic Manipulation",
+          matchEn:
+              "Rearranging and simplifying algebraic expressions using standard rules",
+          matchMy:
+              "စံပြ စည်းမျဉ်းများ သုံး၍ Algebraic Expression များကို ပြန်လည်စီစဉ်ပြီး ရိုးရှင်းအောင် ပြုလုပ်ခြင်း",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w29-dm5",
+          termEn: "Factorising",
+          termMy: "Factorising",
+          matchEn: "Rewriting an expression as a product of simpler factors",
+          matchMy:
+              "Expression တစ်ခုကို ရိုးရှင်းသော Factor များ၏ ရလဒ်အဖြစ် ပြန်ရေးခြင်း",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w29-d3",
+      dayNumber: 3,
+      titleEn: "Exact Value or Decimal Needed?",
+      titleMy: "Exact Value or Decimal Needed?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Exact Value Required", "Decimal Acceptable"],
+        bucketsMy: ["Exact Value လိုအပ်", "Decimal လက်ခံနိုင်"],
+        items: [
+          SortingItem(
+            id: "igm-w29-sort1",
+            labelEn: "\"Give your answer in the form a√b\"",
+            labelMy: "\"သင့်အဖြေကို a√b ပုံစံဖြင့် ပေးပါ\"",
+            correctBucketEn: "Exact Value Required",
+            correctBucketMy: "Exact Value လိုအပ်",
+          ),
+          SortingItem(
+            id: "igm-w29-sort2",
+            labelEn: "\"Give your answer correct to 2 decimal places\"",
+            labelMy: "\"သင့်အဖြေကို ဒသမနေရာ ၂ နေရာအထိ မှန်ကန်စွာ ပေးပါ\"",
+            correctBucketEn: "Decimal Acceptable",
+            correctBucketMy: "Decimal လက်ခံနိုင်",
+          ),
+          SortingItem(
+            id: "igm-w29-sort3",
+            labelEn: "\"Find the exact length of the diagonal\"",
+            labelMy: "\"Diagonal ၏ Exact Length ကို ရှာပါ\"",
+            correctBucketEn: "Exact Value Required",
+            correctBucketMy: "Exact Value လိုအပ်",
+          ),
+          SortingItem(
+            id: "igm-w29-sort4",
+            labelEn: "\"Round your answer to the nearest whole number\"",
+            labelMy: "\"သင့်အဖြေကို အနီးဆုံး ကိန်းပြည့်သို့ Round ပြုလုပ်ပါ\"",
+            correctBucketEn: "Decimal Acceptable",
+            correctBucketMy: "Decimal လက်ခံနိုင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Non-Calculator Drill",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Non-Calculator လေ့ကျင့်ခန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Non-Calculator Drill",
+        titleMy: "ထက်ဝေယံ၏ Non-Calculator လေ့ကျင့်ခန်း",
+        passageEn:
+            "Daw Su Su handed Htet Wai Yan a full Paper 2 past paper, face down, and set a strict rule: no calculator anywhere on the desk, not even to double-check. He turned it over and worked steadily -- solving x² - 7x + 12 = 0 by spotting factors 3 and 4 mentally, simplifying 5/6 - 1/4 by finding a common denominator of 12 without writing intermediate steps, and recalling sin(60°) = √3/2 from memory rather than working it out geometrically each time.\n\nHalfway through, he hit a question asking for the exact value of tan(45°) + cos(0°). He paused, retrieved both values from memory -- tan(45°) = 1 and cos(0°) = 1 -- and added them directly: 1 + 1 = 2, an exact whole number requiring no further simplification. He noticed something interesting: because he had memorised these standard values as fixed facts rather than re-deriving them from a right-angled triangle each time, this calculation took him barely five seconds, time he could then spend on genuinely difficult questions later in the paper.\n\nWhen Daw Su Su marked his paper, she pointed out that his few errors clustered in exactly one place: questions requiring him to simplify surd expressions with more than one term, like (2+√5)(3-√5). He had expanded it correctly to 6 - 2√5 + 3√5 - 5, but then made an arithmetic slip combining the surd terms. She told him this revealed something valuable: his mental fluency with basic arithmetic and standard values was already strong, but his accuracy specifically dropped during longer multi-step algebraic manipulations, precisely the kind of diagnostic insight that would let him target Week 31's error analysis session with real precision rather than revising everything equally.",
+        passageMy:
+            "ဒေါ်စုစုသည် Paper 2 မေးခွန်းဟောင်း အပြည့်အစုံ တစ်စောင်ကို မျက်နှာလှန်ကာ ထက်ဝေယံကို ပေးအပ်ခဲ့ပြီး တင်းကျပ်သော စည်းမျဉ်းတစ်ခု သတ်မှတ်ခဲ့သည် - စားပွဲပေါ်တွင် Calculator လုံးဝ မရှိစေရ၊ ပြန်စစ်ရန်ပင် မရှိစေရ။ သူသည် ၎င်းကို လှန်ကာ တည်ငြိမ်စွာ လုပ်ဆောင်ခဲ့သည် - Factor 3 နှင့် 4 ကို စိတ်ကူးဖြင့် ရှာဖွေခြင်းဖြင့် x² - 7x + 12 = 0 ကို ဖြေရှင်းခဲ့ပြီး၊ ကြားခံ အဆင့်များ မရေးဘဲ Common Denominator 12 ရှာဖွေခြင်းဖြင့် 5/6 - 1/4 ကို ရိုးရှင်းအောင် ပြုလုပ်ခဲ့ပြီး၊ အကြိမ်တိုင်း Geometrically ထုတ်ရမည့်အစား sin(60°) = √3/2 ကို မှတ်ဉာဏ်မှ ပြန်ခေါ်ခဲ့သည်။\n\nတစ်ဝက်လောက်ရောက်သောအခါ tan(45°) + cos(0°) ၏ Exact Value ကို တောင်းဆိုသော မေးခွန်းတစ်ခုကို ကြုံခဲ့သည်။ သူသည် ခေတ္တ ရပ်တန့်ကာ တန်ဖိုးနှစ်ခုစလုံးကို မှတ်ဉာဏ်မှ ပြန်ရယူခဲ့သည် - tan(45°) = 1 နှင့် cos(0°) = 1 -- ထို့နောက် ၎င်းတို့ကို တိုက်ရိုက် ပေါင်းခဲ့သည် - 1 + 1 = 2, ရိုးရှင်းအောင် ထပ်မံ ပြုလုပ်ရန် မလိုအပ်သော Exact Whole Number တစ်ခု ဖြစ်ခဲ့သည်။ သူသည် စိတ်ဝင်စားစရာ တစ်ခုကို သတိပြုမိခဲ့သည် - သူသည် ဤစံပြ တန်ဖိုးများကို အကြိမ်တိုင်း ထောင့်မှန် တြိဂံမှ ပြန်ထုတ်မည့်အစား ပုံသေ အချက်များအဖြစ် အလွတ်ကျက်ထားခဲ့သောကြောင့် ဤတွက်ချက်မှုသည် သူ့အတွက် စက္ကန့် ငါးစက္ကန့်ခန့်သာ ကြာခဲ့ပြီး၊ ထိုအချိန်ကို စာစောင် နောက်ပိုင်းတွင် စစ်မှန်သော ခက်ခဲသော မေးခွန်းများအတွက် ထို့နောက် အသုံးချနိုင်ခဲ့သည်။\n\nဒေါ်စုစုသည် သူ၏ စာစောင်ကို အမှတ်ပေးရာ သူ၏ အမှားအနည်းငယ်သည် နေရာတစ်ခုတည်းတွင် စုစည်းနေသည်ကို ထောက်ပြခဲ့သည် - (2+√5)(3-√5) ကဲ့သို့ Term တစ်ခုထက်ပို ပါဝင်သော Surd Expression များကို ရိုးရှင်းအောင် ပြုလုပ်ရန် တောင်းဆိုသော မေးခွန်းများ။ သူသည် ၎င်းကို 6 - 2√5 + 3√5 - 5 အဖြစ် မှန်ကန်စွာ ဖြန့်ကြက်ခဲ့သော်လည်း Surd Term များကို ပေါင်းစပ်ရာတွင် ဂဏန်းတွက်ချက်မှု ချော်ချော့ခဲ့သည်။ သူသည် ၎င်းက တန်ဖိုးရှိသော အချက်တစ်ခုကို ဖော်ထုတ်ခဲ့ကြောင်း သူ့ကို ပြောခဲ့သည် - သူ၏ အခြေခံ ဂဏန်းတွက်ချက်မှုနှင့် စံပြ တန်ဖိုးများနှင့် ရင်းနှီးမှုသည် ခိုင်မာပြီးသား ဖြစ်သော်လည်း သူ၏ တိကျမှုသည် ရှည်လျားသော Multi-Step Algebraic Manipulation များအတွင်း သီးခြား ကျဆင်းခဲ့ကြောင်း၊ ၎င်းသည် အားလုံးကို တညီတညွတ်တည်း ပြန်လည်လေ့လာမည့်အစား ဆယ့်တစ်ပတ်၏ Error Analysis Session ကို စစ်မှန်သော တိကျမှုဖြင့် ပစ်မှတ်ထားနိုင်စေမည့် ရောဂါရှာဖွေမှု ထိုးထွင်းသိမြင်မှု အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what values did Htet Wai Yan recall from memory?",
+            questionMy:
+                "ထက်ဝေယံ မှတ်ဉာဏ်မှ မည်သည့် တန်ဖိုးများ ပြန်ရယူခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "tan(45°) = 1 and cos(0°) = 1",
+              "sin(90°) and cos(90°)",
+              "π and e",
+              "0 and 1 only",
+            ],
+            optionsMy: [
+              "tan(45°) = 1 နှင့် cos(0°) = 1",
+              "sin(90°) နှင့် cos(90°)",
+              "π နှင့် e",
+              "0 နှင့် 1 တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the tan(45°) + cos(0°) question.",
+            ],
+            hintsMy: [
+              "tan(45°) + cos(0°) မေးခွန်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, where did Htet Wai Yan's errors cluster?",
+            questionMy:
+                "ထက်ဝေယံ၏ အမှားများသည် မည်သည့်နေရာတွင် စုစည်းခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Simplifying surd expressions with more than one term",
+              "Basic addition and subtraction",
+              "Reading the question",
+              "Standard trig values",
+            ],
+            optionsMy: [
+              "Term တစ်ခုထက်ပို ပါဝင်သော Surd Expression များ ရိုးရှင်းအောင် ပြုလုပ်ခြင်း",
+              "အခြေခံ ပေါင်းခြင်းနှင့် နုတ်ခြင်း",
+              "မေးခွန်းကို ဖတ်ခြင်း",
+              "Standard Trig Values",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence identifying where errors clustered.",
+            ],
+            hintsMy: [
+              "အမှားများ စုစည်းခဲ့သည့်နေရာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did the error pattern let Daw Su Su do?",
+            questionMy:
+                "အမှား ပုံစံသည် ဒေါ်စုစုကို ဘာလုပ်ခွင့် ပေးခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Target Week 31's error analysis with real precision rather than revising everything equally",
+              "Cancel all future lessons",
+              "Ignore his mistakes completely",
+              "Assign entirely unrelated homework",
+            ],
+            optionsMy: [
+              "အားလုံးကို တညီတညွတ်တည်း ပြန်လည်လေ့လာမည့်အစား ဆယ့်တစ်ပတ်၏ Error Analysis ကို စစ်မှန်သော တိကျမှုဖြင့် ပစ်မှတ်ထားခြင်း",
+              "နောင်လာမည့် သင်ခန်းစာအားလုံးကို ပယ်ဖျက်ခြင်း",
+              "သူ၏ အမှားများကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "လုံးဝ မသက်ဆိုင်သော အိမ်စာ ပေးအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w29-d5",
+      dayNumber: 5,
+      titleEn: "Paper 2 Intensive Recap Quiz",
+      titleMy: "Paper 2 Intensive ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Without a calculator, factorise x² - 9.",
+          questionMy: "Calculator မသုံးဘဲ x² - 9 ကို Factorise ပြုလုပ်ပါ။",
+          optionsEn: ["(x-3)(x+3)", "(x-9)(x+1)", "(x-1)(x+9)", "(x-3)(x-3)"],
+          optionsMy: ["(x-3)(x+3)", "(x-9)(x+1)", "(x-1)(x+9)", "(x-3)(x-3)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "cos(0°) equals...",
+          questionMy: "cos(0°) သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["1", "0", "1/2", "√3/2"],
+          optionsMy: ["1", "0", "1/2", "√3/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "sin(30°) equals...",
+          questionMy: "sin(30°) သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["1/2", "√3/2", "1", "0"],
+          optionsMy: ["1/2", "√3/2", "1", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, where did Htet Wai Yan's errors cluster?",
+          questionMy: "ထက်ဝေယံ၏ အမှားများသည် မည်သည့်နေရာတွင် စုစည်းခဲ့သနည်း။",
+          optionsEn: [
+            "Surd expressions with more than one term",
+            "Basic addition",
+            "Trig values",
+            "Reading comprehension",
+          ],
+          optionsMy: [
+            "Term တစ်ခုထက်ပို ပါဝင်သော Surd Expression များ",
+            "အခြေခံ ပေါင်းခြင်း",
+            "Trig Values",
+            "စာဖတ် နားလည်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 29?",
+          questionMy: "Week 29 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Mental math fluency, algebraic manipulation, and exact value mastery",
+            "Matrix transformations",
+            "Statistics and probability",
+            "3D trigonometry",
+          ],
+          optionsMy: [
+            "စိတ်ကူးဖြင့် တွက်ချက်နိုင်စွမ်း, Algebraic Manipulation, Exact Value ကျွမ်းကျင်မှု",
+            "Matrix Transformations",
+            "Statistics and Probability",
+            "3D Trigonometry",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek30 = CourseWeekDef(
+  id: "course-igcse-mathematics-w30",
+  weekNumber: 30,
+  titleEn: "Paper 4 (Calculator) Intensive",
+  titleMy: "Paper 4 (စက်သုံးရ) အထူးကြပ်မတ် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w30-d1",
+      dayNumber: 1,
+      titleEn: "Complex Problem Solving with a Calculator",
+      titleMy: "Calculator ဖြင့် ရှုပ်ထွေးသော ပြဿနာ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A triangle has sides a=8, b=11, angle C=65° between them. Using the cosine rule, what is c² (to 1 decimal place)?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် a=8, b=11, ၎င်းတို့ကြား ထောင့် C=65° ရှိသည်။ Cosine Rule သုံး၍ c² (ဒသမနေရာ ၁ နေရာအထိ) သည် အဘယ်နည်း။",
+          optionsEn: ["110.6", "185", "74.4", "121"],
+          optionsMy: ["110.6", "185", "74.4", "121"],
+          correctIndex: 0,
+          hintsEn: [
+            "c² = 8² + 11² - 2(8)(11)cos(65°) = 64 + 121 - 176(0.4226) ≈ 185 - 74.4 = 110.6.",
+          ],
+          hintsMy: [
+            "c² = 8² + 11² - 2(8)(11)cos(65°) = 64 + 121 - 176(0.4226) ≈ 185 - 74.4 = 110.6။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cone has radius 6cm and height 10cm. Using V = ⅓πr²h, what is its volume (to nearest cm³)?",
+          questionMy:
+              "ကလောင်တစ်ခု၏ Radius 6cm, Height 10cm ဖြစ်သည်။ V = ⅓πr²h သုံး၍ ၎င်း၏ Volume (အနီးဆုံး cm³) သည် အဘယ်နည်း။",
+          optionsEn: ["377 cm³", "1131 cm³", "120 cm³", "754 cm³"],
+          optionsMy: ["cm³ 377", "cm³ 1131", "cm³ 120", "cm³ 754"],
+          correctIndex: 0,
+          hintsEn: [
+            "V = (1/3) × π × 6² × 10 = (1/3) × π × 360 ≈ 376.99, rounding to 377.",
+          ],
+          hintsMy: [
+            "V = (1/3) × π × 6² × 10 = (1/3) × π × 360 ≈ 376.99, 377 သို့ Round ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ladder 5m long leans against a wall, reaching 4.2m up. Using inverse trig, what angle does it make with the ground (to 1 dp)?",
+          questionMy:
+              "5m အရှည်ရှိသော လှေကားတစ်ခုသည် နံရံကို 4.2m မြင့်အောင် မှီထားသည်။ Inverse Trig သုံး၍ ၎င်းသည် မြေနှင့် ဖြစ်ပေါ်စေသော ထောင့် (ဒသမနေရာ ၁ နေရာအထိ) သည် အဘယ်နည်း။",
+          optionsEn: ["57.1°", "32.9°", "45°", "64.2°"],
+          optionsMy: ["57.1°", "32.9°", "45°", "64.2°"],
+          correctIndex: 0,
+          hintsEn: ["sin(θ) = 4.2/5 = 0.84. θ = sin⁻¹(0.84) ≈ 57.1°."],
+          hintsMy: ["sin(θ) = 4.2/5 = 0.84။ θ = sin⁻¹(0.84) ≈ 57.1°။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A data set has mean 24 and 8 values. If a 9th value of 42 is added, what is the new mean?",
+          questionMy:
+              "Data Set တစ်ခုတွင် Mean 24 ရှိပြီး Value 8 ခု ရှိသည်။ Value 42 ကို ၉ ခုမြောက်အဖြစ် ထည့်ပါက Mean အသစ်သည် အဘယ်နည်း။",
+          optionsEn: ["26", "24", "33", "20"],
+          optionsMy: ["26", "24", "33", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "Original total = 24 × 8 = 192. New total = 192 + 42 = 234. New mean = 234/9 = 26.",
+          ],
+          hintsMy: [
+            "မူလ စုစုပေါင်း = 24 × 8 = 192။ စုစုပေါင်းအသစ် = 192 + 42 = 234။ Mean အသစ် = 234/9 = 26။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bag has 4 red and 6 blue balls. Two are picked without replacement. What is P(both red), as a decimal to 3 sf?",
+          questionMy:
+              "အိတ်တစ်လုံးတွင် အနီရောင် 4 လုံးနှင့် အပြာရောင် 6 လုံး ရှိသည်။ ပြန်မထည့်ဘဲ နှစ်လုံးယူသည်။ P(both red) ကို Decimal (Sig Fig 3) အဖြစ် ရှာပါ။",
+          optionsEn: ["0.133", "0.16", "0.4", "0.24"],
+          optionsMy: ["0.133", "0.16", "0.4", "0.24"],
+          correctIndex: 0,
+          hintsEn: ["P(both red) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133."],
+          hintsMy: ["P(both red) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w30-d2",
+      dayNumber: 2,
+      titleEn: "Calculator Exam Vocabulary",
+      titleMy: "Calculator စာမေးပွဲ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w30-dm1",
+          termEn: "Cosine Rule",
+          termMy: "Cosine Rule",
+          matchEn:
+              "c² = a² + b² - 2ab cos(C), used to find a side or angle in any triangle",
+          matchMy:
+              "c² = a² + b² - 2ab cos(C), တြိဂံ မည်သည်တွင်မဆို အနား သို့ ထောင့်တစ်ခု ရှာရန် သုံးသည်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w30-dm2",
+          termEn: "Inverse Trig Function",
+          termMy: "Inverse Trig Function",
+          matchEn:
+              "sin⁻¹, cos⁻¹, or tan⁻¹, used to find an angle from a known ratio",
+          matchMy:
+              "sin⁻¹, cos⁻¹, သို့ tan⁻¹, သိရှိထားသော အချိုးမှ ထောင့်တစ်ခု ရှာရန် သုံးသည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w30-dm3",
+          termEn: "Significant Figures",
+          termMy: "Significant Figures",
+          matchEn:
+              "A rounding convention specifying how many meaningful digits to keep in a decimal answer",
+          matchMy:
+              "Decimal အဖြေတစ်ခုတွင် အဓိပ္ပာယ်ရှိသော ဂဏန်း မည်မျှ ထားရှိရမည်ကို သတ်မှတ်ထားသော Rounding Convention",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w30-dm4",
+          termEn: "Mean",
+          termMy: "Mean",
+          matchEn:
+              "The average of a data set, found by dividing the total by the number of values",
+          matchMy:
+              "Data Set တစ်ခု၏ ပျမ်းမျှ, စုစုပေါင်းကို Value အရေအတွက်ဖြင့် စား၍ ရှာသည်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w30-dm5",
+          termEn: "Without Replacement",
+          termMy: "Without Replacement",
+          matchEn:
+              "A probability scenario where a selected item is not returned, changing later probabilities",
+          matchMy:
+              "ရွေးချယ်ထားသော ပစ္စည်းကို ပြန်မထည့်သဖြင့် နောက်ပိုင်း Probability များ ပြောင်းလဲသွားသော Scenario",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w30-d3",
+      dayNumber: 3,
+      titleEn: "Trig/Vectors, Mensuration, or Statistics?",
+      titleMy: "Trig/Vectors, Mensuration, or Statistics?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Trig/Vectors", "Mensuration", "Statistics"],
+        bucketsMy: ["Trig/Vectors", "Mensuration", "Statistics"],
+        items: [
+          SortingItem(
+            id: "igm-w30-sort1",
+            labelEn: "Using the cosine rule to find a missing side",
+            labelMy: "ပျောက်ဆုံးနေသော အနားတစ်ခု ရှာရန် Cosine Rule သုံးခြင်း",
+            correctBucketEn: "Trig/Vectors",
+            correctBucketMy: "Trig/Vectors",
+          ),
+          SortingItem(
+            id: "igm-w30-sort2",
+            labelEn: "Calculating the volume of a cone",
+            labelMy: "ကလောင်တစ်ခု၏ Volume ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Mensuration",
+            correctBucketMy: "Mensuration",
+          ),
+          SortingItem(
+            id: "igm-w30-sort3",
+            labelEn: "Finding the new mean after adding a data point",
+            labelMy: "Data Point တစ်ခု ထည့်ပြီးနောက် Mean အသစ် ရှာဖွေခြင်း",
+            correctBucketEn: "Statistics",
+            correctBucketMy: "Statistics",
+          ),
+          SortingItem(
+            id: "igm-w30-sort4",
+            labelEn: "Using inverse sine to find an angle of elevation",
+            labelMy: "Angle of Elevation ရှာရန် Inverse Sine သုံးခြင်း",
+            correctBucketEn: "Trig/Vectors",
+            correctBucketMy: "Trig/Vectors",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Calculator Paper Marathon",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Calculator Paper Marathon",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Calculator Paper Marathon",
+        titleMy: "ထက်ဝေယံ၏ Calculator Paper Marathon",
+        passageEn:
+            "Paper 4 rewarded a different kind of speed than Paper 2, Daw Su Su explained: not mental arithmetic, but efficient calculator use combined with knowing exactly which formula applied to which structured question. She handed Htet Wai Yan a full Paper 4 past paper and this time allowed his calculator, but insisted he write down which formula he was about to use before pressing a single button.\n\nOne structured question described a flagpole casting a shadow, with a surveyor 20m from its base measuring an angle of elevation of 35° to the top. Before touching his calculator, Htet Wai Yan wrote: \"tan(35°) = height/20, so height = 20 × tan(35°).\" Only then did he calculate: 20 × tan(35°) ≈ 20 × 0.7002 ≈ 14.0 metres. Writing the formula first, he realised, had forced him to think through the geometry correctly before any numbers appeared, catching a mistake he might otherwise have made by confusing which side was opposite versus adjacent to the given angle.\n\nA later question combined skills across three different terms: it gave a cone's dimensions, asked for its volume, then asked for the probability that a randomly selected cone from a batch of 50 (of which 8 were defective) was NOT defective. Htet Wai Yan solved the volume using Term 3's mensuration formulas, then switched entirely to Term 5's probability approach: P(not defective) = 42/50 = 0.84. Daw Su Su told him this kind of question -- deliberately blending topics from across the whole syllabus into one structured problem -- was exactly what Paper 4 favoured, and that success depended less on any single skill than on quickly recognising which skill each part of a longer question actually required.",
+        passageMy:
+            "Paper 4 သည် Paper 2 နှင့် ကွဲပြားသော အမြန်နှုန်းအမျိုးအစားကို ဆုချသည်ဟု ဒေါ်စုစု ရှင်းပြခဲ့သည် - စိတ်ကူးဖြင့် ဂဏန်းတွက်ချက်မှု မဟုတ်ဘဲ မည်သည့် Formula က မည်သည့် ဖွဲ့စည်းထားသော မေးခွန်းနှင့် သက်ဆိုင်ကြောင်း သိရှိမှုနှင့် ပေါင်းစပ်ထားသော ထိရောက်သော Calculator အသုံးပြုမှု။ သူသည် Paper 4 မေးခွန်းဟောင်း အပြည့်အစုံကို ထက်ဝေယံကို ပေးအပ်ခဲ့ပြီး ဤအကြိမ်တွင် သူ၏ Calculator ကို ခွင့်ပြုခဲ့သော်လည်း Button တစ်ခု နှိပ်မီ သူ သုံးမည့် Formula ကို ရေးချရန် အခိုင်အမာ ဆိုခဲ့သည်။\n\nဖွဲ့စည်းထားသော မေးခွန်းတစ်ခုသည် အရိပ်ပစ်နေသော အလံတိုင်တစ်ခုကို ဖော်ပြခဲ့ပြီး ၎င်း၏ ခြေရင်းမှ 20m ဝေးသော Surveyor တစ်ဦးသည် ထိပ်ဆုံးသို့ Angle of Elevation 35° တိုင်းတာခဲ့သည်။ Calculator ကို မထိတွေ့မီ ထက်ဝေယံသည် ရေးခဲ့သည် - \"tan(35°) = height/20, ထို့ကြောင့် height = 20 × tan(35°)။\" ထိုအခါမှသာ သူ တွက်ချက်ခဲ့သည် - 20 × tan(35°) ≈ 20 × 0.7002 ≈ Metre 14.0။ Formula ကို ဦးစွာ ရေးခြင်းသည် ဂဏန်းများ မပေါ်လာမီ ဂျီဩမေတြီကို မှန်ကန်စွာ ဖြတ်၍ တွေးခေါ်ရန် သူ့ကို တွန်းအားပေးခဲ့ကြောင်း သူ သဘောပေါက်ခဲ့ပြီး မဟုတ်ပါက ပေးထားသော ထောင့်နှင့် Opposite လား Adjacent လားဟု ရောထွေးမိမည့် အမှားကို ဖမ်းမိခဲ့သည်။\n\nနောက်ပိုင်း မေးခွန်းတစ်ခုသည် ကွဲပြားသော Term သုံးခုတစ်လျှောက် ကျွမ်းကျင်မှုကို ပေါင်းစပ်ခဲ့သည် - ၎င်းသည် ကလောင်တစ်ခု၏ Dimension များ ပေးခဲ့ပြီး ၎င်း၏ Volume ကို တောင်းဆိုကာ ထို့နောက် 50 လုံးပါ Batch တစ်ခုမှ (8 လုံး Defective ဖြစ်သော) ကျပန်း ရွေးချယ်ထားသော ကလောင်တစ်ခု Defective မဟုတ်ကြောင်း Probability ကို တောင်းဆိုခဲ့သည်။ ထက်ဝေယံသည် Volume ကို တတိယနှစ်ဝက်၏ Mensuration Formula များ သုံး၍ ဖြေရှင်းခဲ့ပြီး ထို့နောက် ပဉ္စမနှစ်ဝက်၏ Probability ချဉ်းကပ်မှုသို့ လုံးလုံးလျားလျား ပြောင်းလဲခဲ့သည် - P(not defective) = 42/50 = 0.84။ ဒေါ်စုစုသည် ဤကဲ့သို့ မေးခွန်းအမျိုးအစား -- သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးတစ်လျှောက်မှ ခေါင်းစဉ်များကို ဖွဲ့စည်းထားသော ပြဿနာတစ်ခုအဖြစ် ရည်ရွယ်ချက်ရှိရှိ ရောနှောခြင်း -- သည် Paper 4 က ကြိုက်နှစ်သက်သော မေးခွန်း အတိအကျ ဖြစ်ကြောင်းနှင့် အောင်မြင်မှုသည် ကျွမ်းကျင်မှုတစ်ခုတည်းအပေါ် ထက် ရှည်လျားသော မေးခွန်းတစ်ခု၏ အပိုင်းတစ်ခုစီသည် မည်သည့် ကျွမ်းကျင်မှု အမှန်တကယ် လိုအပ်ကြောင်း လျင်မြန်စွာ ခွဲခြားသိရှိခြင်းအပေါ် ပို၍ မှီခိုကြောင်း သူ့ကို ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Htet Wai Yan write before using his calculator?",
+            questionMy:
+                "Calculator မသုံးမီ ထက်ဝေယံ ဘာကို ရေးခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The formula tan(35°) = height/20",
+              "Nothing at all",
+              "A summary of the whole question",
+              "His name and date",
+            ],
+            optionsMy: [
+              "Formula tan(35°) = height/20",
+              "မည်သည့်အရာမျှ",
+              "မေးခွန်းတစ်ခုလုံး၏ အနှစ်ချုပ်",
+              "သူ၏ အမည်နှင့် နေ့ရက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence where he writes the formula before calculating.",
+            ],
+            hintsMy: [
+              "တွက်ချက်မီ Formula ရေးထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was P(not defective)?",
+            questionMy: "P(not defective) သည် အဘယ်နည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["0.84", "0.16", "8/50", "0.5"],
+            optionsMy: ["0.84", "0.16", "8/50", "0.5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did success on Paper 4 depend most on?",
+            questionMy:
+                "Paper 4 တွင် အောင်မြင်မှုသည် ဘာအပေါ် အများဆုံး မှီခိုသနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Quickly recognising which skill each part of a question required",
+              "Memorising the entire syllabus word for word",
+              "Avoiding all use of a calculator",
+              "Writing the longest possible answer",
+            ],
+            optionsMy: [
+              "မေးခွန်းတစ်ခု၏ အပိုင်းတစ်ခုစီသည် မည်သည့် ကျွမ်းကျင်မှု လိုအပ်ကြောင်း လျင်မြန်စွာ ခွဲခြားသိရှိခြင်း",
+              "သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "Calculator အသုံးပြုမှုအားလုံးကို ရှောင်ရှားခြင်း",
+              "ဖြစ်နိုင်သမျှ ရှည်လျားသော အဖြေ ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w30-d5",
+      dayNumber: 5,
+      titleEn: "Paper 4 Intensive Recap Quiz",
+      titleMy: "Paper 4 Intensive ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The cosine rule is written as...",
+          questionMy: "Cosine Rule ကို ...ဟု ရေးသည်",
+          optionsEn: [
+            "c² = a² + b² - 2ab cos(C)",
+            "a/sin(A) = b/sin(B)",
+            "c² = a² + b²",
+            "Area = ½ab sin(C)",
+          ],
+          optionsMy: [
+            "c² = a² + b² - 2ab cos(C)",
+            "a/sin(A) = b/sin(B)",
+            "c² = a² + b²",
+            "Area = ½ab sin(C)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To find an unknown angle from a known ratio, use...",
+          questionMy:
+              "သိရှိထားသော အချိုးမှ မသိသော ထောင့်တစ်ခု ရှာရန် ...သုံးသည်",
+          optionsEn: [
+            "An inverse trig function",
+            "The mean formula",
+            "A histogram",
+            "A tree diagram",
+          ],
+          optionsMy: [
+            "Inverse Trig Function",
+            "Mean Formula",
+            "Histogram",
+            "Tree Diagram",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Writing the formula before calculating on Paper 4 helps by...",
+          questionMy:
+              "Paper 4 တွင် မတွက်ချက်မီ Formula ကို ရေးခြင်းသည် ...အားဖြင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Forcing correct geometric/structural thinking before numbers appear",
+            "Wasting valuable exam time",
+            "Being required by law",
+            "Having no real benefit",
+          ],
+          optionsMy: [
+            "ဂဏန်းများ မပေါ်လာမီ မှန်ကန်သော ဂျီဩမေတြီ/ဖွဲ့စည်းပုံဆိုင်ရာ တွေးခေါ်မှုကို တွန်းအားပေးခြင်း",
+            "အဖိုးတန် စာမေးပွဲ အချိန်ကို ဖြုန်းခြင်း",
+            "ဥပဒေအရ လိုအပ်ခြင်း",
+            "စစ်မှန်သော အကျိုးကျေးဇူး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, which terms' skills were blended in the cone/probability question?",
+          questionMy:
+              "ကလောင်/Probability မေးခွန်းတွင် မည်သည့် Term များ၏ ကျွမ်းကျင်မှုများ ရောနှောခဲ့သနည်း။",
+          optionsEn: [
+            "Term 3 (Mensuration) and Term 5 (Probability)",
+            "Term 1 and Term 2",
+            "Term 6 and Term 7",
+            "Term 4 only",
+          ],
+          optionsMy: [
+            "Term 3 (Mensuration) နှင့် Term 5 (Probability)",
+            "Term 1 နှင့် Term 2",
+            "Term 6 နှင့် Term 7",
+            "Term 4 တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 30?",
+          questionMy: "Week 30 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Complex problem solving, trigonometry/vectors applications, statistical analysis",
+            "Matrix transformations",
+            "Surds and exact arithmetic",
+            "Composite functions",
+          ],
+          optionsMy: [
+            "Complex Problem Solving, Trigonometry/Vectors Applications, Statistical Analysis",
+            "Matrix Transformations",
+            "Surds and Exact Arithmetic",
+            "Composite Functions",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek31 = CourseWeekDef(
+  id: "course-igcse-mathematics-w31",
+  weekNumber: 31,
+  titleEn: "Error Analysis and Mark Scheme Mastery",
+  titleMy:
+      "အမှားများကို ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် အမှတ်ပေးစည်းမျဉ်း ကျွမ်းကျင်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w31-d1",
+      dayNumber: 1,
+      titleEn: "Common Student Pitfalls and Method Marks",
+      titleMy: "ဘုံ ကျောင်းသား အမှားများနှင့် Method Marks",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Cambridge mark schemes, \"M1\" typically indicates...",
+          questionMy:
+              "Cambridge Mark Scheme များတွင် \"M1\" သည် ပုံမှန်အားဖြင့် ...ညွှန်ပြသည်",
+          optionsEn: [
+            "One mark for using a correct method, even if the final answer is wrong",
+            "A mark only given for the exact final answer",
+            "A penalty for an incorrect answer",
+            "A mark for neat handwriting",
+          ],
+          optionsMy: [
+            "နောက်ဆုံးအဖြေ မှားသော်လည်း မှန်ကန်သော Method သုံးခြင်းအတွက် အမှတ်တစ်မှတ်",
+            "အတိအကျ နောက်ဆုံးအဖြေအတွက်သာ ပေးသော အမှတ်",
+            "မှားယွင်းသော အဖြေအတွက် ဒဏ်ခတ်ခြင်း",
+            "သပ်ရပ်သော လက်ရေးအတွက် အမှတ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "M stands for \"Method\" -- candidates can earn method marks even with an incorrect final answer, as long as the approach was valid.",
+          ],
+          hintsMy: [
+            "M သည် \"Method\" ကို ကိုယ်စားပြုသည် -- ချဉ်းကပ်မှု ခိုင်မာလျှင် နောက်ဆုံးအဖြေ မှားယွင်းသော်လည်း ဖြေဆိုသူများ Method Mark ရရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student solves 2x + 5 = 13 and gets x = 9 by forgetting to subtract 5 first. What error type is this?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် 2x + 5 = 13 ကို ဖြေရှင်းရာ 5 ကို ဦးစွာ နုတ်ရန် မေ့သဖြင့် x = 9 ရရှိသည်။ ၎င်းသည် မည်သည့် အမှား အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "A procedural/method error",
+            "A calculator battery error",
+            "A spelling error",
+            "No error at all -- x = 9 is correct",
+          ],
+          optionsMy: [
+            "Procedural/Method Error",
+            "Calculator Battery Error",
+            "စာလုံးပေါင်း အမှား",
+            "အမှား လုံးဝ မရှိပါ -- x = 9 မှန်ကန်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student correctly sets up P(A and B) = P(A) × P(B) but then adds instead of multiplying. What kind of mark would likely still be awarded?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် P(A and B) = P(A) × P(B) ကို မှန်ကန်စွာ ချမှတ်သော်လည်း မြှောက်မည့်အစား ပေါင်းသည်။ မည်သည့်အမှတ် အမျိုးအစား ရရှိနိုင်ဆဲ ဖြစ်သနည်း။",
+          optionsEn: [
+            "A method mark for correctly identifying the multiplication law setup",
+            "Full marks with no deduction at all",
+            "Zero marks with no partial credit",
+            "A mark for the wrong operation used",
+          ],
+          optionsMy: [
+            "Multiplication Law Setup ကို မှန်ကန်စွာ ခွဲခြားသတ်မှတ်ခြင်းအတွက် Method Mark",
+            "ဆုတ်ယုတ်မှု လုံးဝမရှိသော အမှတ်အပြည့်",
+            "တစ်စိတ်တစ်ပိုင်း အကျိုးအမြတ် မရှိသော သုည အမှတ်",
+            "သုံးထားသော မှားယွင်းသော Operation အတွက် အမှတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Follow-through\" marking in Cambridge schemes means...",
+          questionMy:
+              "Cambridge Scheme များရှိ \"Follow-Through\" အမှတ်ပေးခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Later steps using a wrong earlier answer correctly can still earn marks",
+            "Every subsequent step automatically loses all marks",
+            "The candidate must restart from the beginning",
+            "Only the very last line is ever marked",
+          ],
+          optionsMy: [
+            "မှားယွင်းသော ယခင်အဖြေကို မှန်ကန်စွာ သုံးထားသော နောက်ပိုင်း အဆင့်များသည် အမှတ် ဆက်လက် ရရှိနိုင်သည်",
+            "ဆက်ရှိ အဆင့်တိုင်းသည် အမှတ်အားလုံးကို အလိုအလျောက် ဆုံးရှုံးသည်",
+            "ဖြေဆိုသူသည် အစမှ ပြန်စတင်ရမည်",
+            "နောက်ဆုံး Line တစ်ကြောင်းကိုသာ အမှတ်ပေးလေ့ရှိသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cambridge often awards \"follow-through\" (FT) marks: if a later step correctly uses an earlier (wrong) value, it can still earn credit.",
+          ],
+          hintsMy: [
+            "Cambridge သည် များသောအားဖြင့် \"Follow-Through\" (FT) အမှတ် ပေးလေ့ရှိသည်: နောက်ပိုင်း အဆင့်တစ်ခုသည် ယခင် (မှားယွင်းသော) တန်ဖိုးကို မှန်ကန်စွာ သုံးလျှင် အမှတ် ဆက်လက် ရရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The most reliable way to avoid losing marks to careless arithmetic slips is to...",
+          questionMy:
+              "ဂရုမစိုက်မိသော ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုများကြောင့် အမှတ် ဆုံးရှုံးခြင်းကို ရှောင်ရှားရန် အယုံကြည်ရဆုံး နည်းလမ်းမှာ...",
+          optionsEn: [
+            "Show all working clearly and check each line before moving to the next",
+            "Write only the final answer with no working shown",
+            "Skip checking entirely to save time",
+            "Use a different method for every single question",
+          ],
+          optionsMy: [
+            "Working အားလုံးကို ရှင်းလင်းစွာ ပြသပြီး နောက်တစ်ကြောင်းသို့ မသွားမီ Line တစ်ကြောင်းစီကို စစ်ဆေးခြင်း",
+            "Working မပြသဘဲ နောက်ဆုံးအဖြေကိုသာ ရေးခြင်း",
+            "အချိန် ချွေတာရန် စစ်ဆေးခြင်းကို လုံးဝ ကျော်ခြင်း",
+            "မေးခွန်းတိုင်းတွက် ကွဲပြားသော Method သုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w31-d2",
+      dayNumber: 2,
+      titleEn: "Mark Scheme Vocabulary",
+      titleMy: "Mark Scheme ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w31-dm1",
+          termEn: "Method Mark (M)",
+          termMy: "Method Mark (M)",
+          matchEn:
+              "A mark awarded for using a correct method, even with an incorrect final answer",
+          matchMy:
+              "နောက်ဆုံးအဖြေ မှားသော်လည်း မှန်ကန်သော Method သုံးခြင်းအတွက် ချီးမြှင့်ထားသော အမှတ်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w31-dm2",
+          termEn: "Accuracy Mark (A)",
+          termMy: "Accuracy Mark (A)",
+          matchEn:
+              "A mark awarded for a correct final numerical answer, usually dependent on a method mark",
+          matchMy:
+              "မှန်ကန်သော နောက်ဆုံး ဂဏန်းအဖြေတစ်ခုအတွက် ချီးမြှင့်ထားသော အမှတ်, ပုံမှန်အားဖြင့် Method Mark အပေါ် မှီခိုသည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w31-dm3",
+          termEn: "Follow-Through Mark (FT)",
+          termMy: "Follow-Through Mark (FT)",
+          matchEn:
+              "Credit for correctly using an earlier incorrect answer in a later step",
+          matchMy:
+              "နောက်ပိုင်း အဆင့်တစ်ခုတွင် ယခင် မှားယွင်းသော အဖြေကို မှန်ကန်စွာ သုံးခြင်းအတွက် အကျိုးအမြတ်",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w31-dm4",
+          termEn: "Examiner Report",
+          termMy: "Examiner Report",
+          matchEn:
+              "An official document listing common candidate errors from a past exam series",
+          matchMy:
+              "ယခင် စာမေးပွဲ Series တစ်ခုမှ ဘုံ ဖြေဆိုသူ အမှားများကို စာရင်းပြုစုထားသော တရားဝင်စာရွက်စာတမ်း",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w31-dm5",
+          termEn: "Procedural Error",
+          termMy: "Procedural Error",
+          matchEn:
+              "A mistake in the steps of a method, such as forgetting an operation",
+          matchMy:
+              "Operation တစ်ခု မေ့ခြင်းကဲ့သို့ Method ၏ အဆင့်များတွင် အမှား",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w31-d3",
+      dayNumber: 3,
+      titleEn: "Method Mark or Accuracy Mark?",
+      titleMy: "Method Mark or Accuracy Mark?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Method Mark (M)", "Accuracy Mark (A)"],
+        bucketsMy: ["Method Mark (M)", "Accuracy Mark (A)"],
+        items: [
+          SortingItem(
+            id: "igm-w31-sort1",
+            labelEn:
+                "Correctly writing the quadratic formula before substituting values",
+            labelMy:
+                "တန်ဖိုးများ မထည့်မီ Quadratic Formula ကို မှန်ကန်စွာ ရေးခြင်း",
+            correctBucketEn: "Method Mark (M)",
+            correctBucketMy: "Method Mark (M)",
+          ),
+          SortingItem(
+            id: "igm-w31-sort2",
+            labelEn: "Arriving at the exact correct final numerical answer",
+            labelMy: "အတိအကျ မှန်ကန်သော နောက်ဆုံး ဂဏန်းအဖြေသို့ ရောက်ရှိခြင်း",
+            correctBucketEn: "Accuracy Mark (A)",
+            correctBucketMy: "Accuracy Mark (A)",
+          ),
+          SortingItem(
+            id: "igm-w31-sort3",
+            labelEn: "Setting up the correct equation from a word problem",
+            labelMy:
+                "စကားလုံး ပြဿနာတစ်ခုမှ မှန်ကန်သော Equation ကို ချမှတ်ခြင်း",
+            correctBucketEn: "Method Mark (M)",
+            correctBucketMy: "Method Mark (M)",
+          ),
+          SortingItem(
+            id: "igm-w31-sort4",
+            labelEn:
+                "Giving the final answer rounded correctly to the required degree of accuracy",
+            labelMy:
+                "လိုအပ်သော တိကျမှု အတိုင်းအတာသို့ မှန်ကန်စွာ Round ပြုလုပ်ထားသော နောက်ဆုံးအဖြေ ပေးခြင်း",
+            correctBucketEn: "Accuracy Mark (A)",
+            correctBucketMy: "Accuracy Mark (A)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Mark Scheme Discovery",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Mark Scheme ရှာဖွေတွေ့ရှိမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Mark Scheme Discovery",
+        titleMy: "ထက်ဝေယံ၏ Mark Scheme ရှာဖွေတွေ့ရှိမှု",
+        passageEn:
+            "For Week 31, Daw Su Su did something Htet Wai Yan hadn't experienced in eight terms of tutoring: instead of setting new practice questions, she handed him three of his own past attempts, along with the official Cambridge mark scheme for each, and asked him to mark himself exactly as an examiner would.\n\nThe first question asked him to solve a quadratic using the formula. His final answer was wrong, but reading the mark scheme carefully, he realised the M1 mark was awarded simply for correctly substituting values into x = (-b ± √(b²-4ac))/2a, regardless of the final answer -- and he had done exactly that. He had lost only the A1 mark, for a single arithmetic slip in the final line. Marking himself honestly, he scored 1 out of 2, not the 0 he had assumed he deserved after seeing his answer didn't match the back of the book.\n\nThe second question revealed something more troubling: he had used the wrong formula entirely, confusing the surface area of a sphere with its volume. The mark scheme showed this earned zero marks, since no valid method had been attempted at all -- there was no method to award credit for. Daw Su Su explained the crucial distinction this revealed: an arithmetic slip inside a correct method usually cost only one mark, while choosing entirely the wrong method could cost every mark on a question. This insight changed how Htet Wai Yan approached his revision for the rest of Term 8 -- rather than treating all mistakes as equally serious, he began prioritising fixing wrong-method errors first, since those were the ones with the steepest cost.",
+        passageMy:
+            "ဆယ့်တစ်ပတ်အတွက် ဒေါ်စုစုသည် တွဲကျောင်း နှစ်ဝက် ရှစ်ဝက်အတွင်း ထက်ဝေယံ မကြုံဖူးသေးသော တစ်ခုခုကို ပြုလုပ်ခဲ့သည် - လေ့ကျင့်ခန်း မေးခွန်းအသစ် သတ်မှတ်မည့်အစား သူသည် သူ၏ ယခင် ကြိုးပမ်းမှု သုံးခု၊ တစ်ခုစီအတွက် တရားဝင် Cambridge Mark Scheme နှင့်အတူ ပေးအပ်ခဲ့ပြီး စစ်ဆေးသူတစ်ဦးလို သူ့ကိုယ်သူ အတိအကျ အမှတ်ပေးရန် တောင်းဆိုခဲ့သည်။\n\nပထမမေးခွန်းသည် Formula သုံး၍ Quadratic ကို ဖြေရှင်းရန် တောင်းဆိုခဲ့သည်။ သူ၏ နောက်ဆုံးအဖြေ မှားယွင်းခဲ့သော်လည်း Mark Scheme ကို ဂရုတစိုက် ဖတ်ရာ M1 အမှတ်သည် နောက်ဆုံးအဖြေ မည်သို့ဖြစ်စေ x = (-b ± √(b²-4ac))/2a ထဲသို့ တန်ဖိုးများ မှန်ကန်စွာ ထည့်ခြင်းအတွက် ရိုးရိုးရှင်းရှင်း ချီးမြှင့်ထားကြောင်း သူ သဘောပေါက်ခဲ့သည် -- သူ ၎င်းကို အတိအကျ လုပ်ဆောင်ခဲ့သည်။ သူသည် နောက်ဆုံး Line ရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှု တစ်ခုတည်းအတွက် A1 အမှတ်တစ်ခုတည်းကိုသာ ဆုံးရှုံးခဲ့သည်။ သူ့ကိုယ်သူ ရိုးသားစွာ အမှတ်ပေးရာ သူ၏ အဖြေသည် စာအုပ်၏ နောက်ကျမ်းနှင့် မကိုက်ညီသည်ကို မြင်ပြီးနောက် သူ ယူဆထားသော သုည အစား ၂ မှတ်တွင် ၁ မှတ် ရရှိခဲ့သည်။\n\nဒုတိယမေးခွန်းသည် ပို၍ စိတ်မချရသော တစ်ခုကို ဖော်ထုတ်ခဲ့သည် - သူသည် စက်လုံးတစ်ခု၏ Surface Area ကို ၎င်း၏ Volume နှင့် ရောထွေးကာ Formula လုံးလုံးလျားလျား မှားယွင်းစွာ သုံးခဲ့သည်။ Mark Scheme က ၎င်းသည် အမှတ်သုည ရရှိကြောင်း ပြသခဲ့သည်၊ အကြောင်းမှာ ခိုင်မာသော Method မည်သည်ကိုမျှ ကြိုးစားခြင်း လုံးဝ မရှိခဲ့သောကြောင့် -- အကျိုးအမြတ် ချီးမြှင့်ရန် Method မရှိခဲ့ပါ။ ဒေါ်စုစုသည် ဤသည် ဖော်ထုတ်ခဲ့သော အရေးကြီးသော ကွဲပြားချက်ကို ရှင်းပြခဲ့သည် - မှန်ကန်သော Method တစ်ခုအတွင်းရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုသည် ပုံမှန်အားဖြင့် အမှတ်တစ်မှတ်သာ ကုန်ကျစေသော်လည်း လုံးလုံးလျားလျား မှားယွင်းသော Method ရွေးချယ်ခြင်းသည် မေးခွန်းတစ်ခုရှိ အမှတ်တိုင်းကို ဆုံးရှုံးစေနိုင်သည်။ ဤ ထိုးထွင်းသိမြင်မှုသည် ထက်ဝေယံ တန်းရှစ်တန်း ကျန်ရှိသည့် ကာလအတွက် ၎င်း၏ ပြန်လည်လေ့လာမှုကို ချဉ်းကပ်ပုံကို ပြောင်းလဲစေခဲ့သည် -- အမှားအားလုံးကို ပြင်းထန်မှု တူညီသည်ဟု ကိုင်တွယ်မည့်အစား သူသည် မှားယွင်းသော Method အမှားများကို ဦးစားပေး ပြင်ဆင်ရန် စတင်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းတို့သည် အကုန်ကျဆုံး ဖြစ်ခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Htet Wai Yan still earn the M1 mark despite a wrong final answer?",
+            questionMy:
+                "မှားယွင်းသော နောက်ဆုံးအဖြေ ရှိသော်လည်း ထက်ဝေယံ M1 အမှတ်ကို ဆက်လက် ရရှိခဲ့ရသည့် အကြောင်းရင်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The M1 mark was awarded for correctly substituting values into the formula, regardless of the final answer",
+              "He wrote his name neatly",
+              "The exam board gave marks randomly",
+              "He used a calculator correctly",
+            ],
+            optionsMy: [
+              "M1 အမှတ်သည် နောက်ဆုံးအဖြေ မည်သို့ဖြစ်စေ Formula ထဲသို့ တန်ဖိုးများ မှန်ကန်စွာ ထည့်ခြင်းအတွက် ချီးမြှင့်ထားခဲ့သောကြောင့်",
+              "သူ့အမည်ကို သပ်သပ်ရပ်ရပ် ရေးခဲ့သောကြောင့်",
+              "စာမေးပွဲအဖွဲ့က ကျပန်း အမှတ် ပေးခဲ့သောကြောင့်",
+              "Calculator ကို မှန်ကန်စွာ သုံးခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining why M1 was awarded."],
+            hintsMy: [
+              "M1 ချီးမြှင့်ခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the second question earn zero marks?",
+            questionMy:
+                "ဒုတိယမေးခွန်းသည် အဘယ်ကြောင့် အမှတ်သုည ရရှိခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No valid method had been attempted at all -- the wrong formula was used entirely",
+              "He forgot to write his name",
+              "He ran out of time",
+              "The mark scheme was incorrect",
+            ],
+            optionsMy: [
+              "ခိုင်မာသော Method မည်သည်ကိုမျှ ကြိုးစားခြင်း လုံးဝ မရှိခဲ့ဘဲ -- မှားယွင်းသော Formula ကို လုံးလုံးလျားလျား သုံးခဲ့ခြင်း",
+              "သူ့အမည် ရေးရန် မေ့သွားခဲ့ခြင်း",
+              "အချိန် ကုန်ဆုံးသွားခဲ့ခြင်း",
+              "Mark Scheme မှားယွင်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why zero marks were awarded.",
+            ],
+            hintsMy: [
+              "အမှတ်သုည ချီးမြှင့်ခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, how did this insight change Htet Wai Yan's revision approach?",
+            questionMy:
+                "ဤ ထိုးထွင်းသိမြင်မှုသည် ထက်ဝေယံ၏ ပြန်လည်လေ့လာမှု ချဉ်းကပ်ပုံကို မည်သို့ ပြောင်းလဲစေခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He began prioritising fixing wrong-method errors first, since those cost the most",
+              "He stopped revising entirely",
+              "He decided all mistakes were equally serious",
+              "He avoided using mark schemes from then on",
+            ],
+            optionsMy: [
+              "မှားယွင်းသော Method အမှားများသည် အများဆုံး ကုန်ကျစေသောကြောင့် ၎င်းတို့ကို ဦးစွာ ဦးစားပေး ပြင်ဆင်ရန် စတင်ခဲ့သည်",
+              "ပြန်လည်လေ့လာမှုကို လုံးဝ ရပ်တန့်ခဲ့သည်",
+              "အမှားအားလုံးသည် ပြင်းထန်မှု တူညီသည်ဟု ဆုံးဖြတ်ခဲ့သည်",
+              "ထိုအချိန်မှစ၍ Mark Scheme များကို သုံးရန် ရှောင်ရှားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w31-d5",
+      dayNumber: 5,
+      titleEn: "Error Analysis Recap Quiz",
+      titleMy: "Error Analysis ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "M marks are awarded for...",
+          questionMy: "M အမှတ်များကို ...အတွက် ချီးမြှင့်သည်",
+          optionsEn: [
+            "Using a correct method, even with a wrong final answer",
+            "Only the exact correct final answer",
+            "Neat handwriting",
+            "Fast completion time",
+          ],
+          optionsMy: [
+            "နောက်ဆုံးအဖြေ မှားသော်လည်း မှန်ကန်သော Method သုံးခြင်း",
+            "အတိအကျ မှန်ကန်သော နောက်ဆုံးအဖြေကိုသာ",
+            "သပ်ရပ်သော လက်ရေး",
+            "ပြီးမြောက်ချိန် မြန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Choosing entirely the wrong method for a question typically...",
+          questionMy:
+              "မေးခွန်းတစ်ခုအတွက် လုံးလုံးလျားလျား မှားယွင်းသော Method ရွေးချယ်ခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Costs every mark on that question",
+            "Still earns full marks",
+            "Has no effect on the score",
+            "Earns bonus marks",
+          ],
+          optionsMy: [
+            "ထိုမေးခွန်း၏ အမှတ်တိုင်းကို ဆုံးရှုံးစေသည်",
+            "အမှတ်အပြည့် ဆက်လက် ရရှိသည်",
+            "ရမှတ်အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "Bonus အမှတ် ရရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An arithmetic slip inside a correct method typically...",
+          questionMy:
+              "မှန်ကန်သော Method အတွင်းရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုတစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Costs only one mark, not the whole question",
+            "Costs every mark on the question",
+            "Has no cost at all",
+            "Earns extra credit",
+          ],
+          optionsMy: [
+            "မေးခွန်းတစ်ခုလုံး မဟုတ်ဘဲ အမှတ်တစ်မှတ်သာ ကုန်ကျစေသည်",
+            "မေးခွန်း၏ အမှတ်တိုင်းကို ကုန်ကျစေသည်",
+            "မည်သည့် အကုန်အကျမျှ မရှိပါ",
+            "ထပ်ဆောင်း အကျိုးအမြတ် ရရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what mistake did Htet Wai Yan make in the second question?",
+          questionMy:
+              "ဒုတိယမေးခွန်းတွင် ထက်ဝေယံ မည်သည့် အမှားကို ပြုလုပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "He confused a sphere's surface area formula with its volume formula",
+            "He forgot his name",
+            "He used a calculator when he shouldn't have",
+            "He wrote too much detail",
+          ],
+          optionsMy: [
+            "စက်လုံးတစ်ခု၏ Surface Area Formula ကို ၎င်း၏ Volume Formula နှင့် ရောထွေးခဲ့သည်",
+            "အမည် မေ့သွားခဲ့သည်",
+            "မသုံးသင့်ချိန်တွင် Calculator သုံးခဲ့သည်",
+            "အသေးစိတ် လွန်ကဲစွာ ရေးခဲ့သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 31?",
+          questionMy: "Week 31 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Common student pitfalls, examiner reports, and maximising method marks",
+            "Matrix transformations",
+            "Exponential modelling",
+            "Circle theorems",
+          ],
+          optionsMy: [
+            "ဘုံ ကျောင်းသား အမှားများ, စစ်ဆေးသူ အစီရင်ခံစာများ, Method Marks အများဆုံး ရယူခြင်း",
+            "Matrix Transformations",
+            "Exponential Modelling",
+            "Circle Theorems",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek32 = CourseWeekDef(
+  id: "course-igcse-mathematics-w32",
+  weekNumber: 32,
+  titleEn: "Full Mock Exam Series 1",
+  titleMy: "ပုံစံတူ စာမေးပွဲ အစုံ (၁)",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w32-d1",
+      dayNumber: 1,
+      titleEn: "Timed Paper 2 and Paper 4 Mixed Review",
+      titleMy: "Timed Paper 2 နှင့် Paper 4 ရောနှော ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Without a calculator, solve 2x² - 8 = 0.",
+          questionMy: "Calculator မသုံးဘဲ 2x² - 8 = 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = ±2", "x = ±4", "x = 2 only", "x = ±16"],
+          optionsMy: ["x = ±2", "x = ±4", "x = 2 only", "x = ±16"],
+          correctIndex: 0,
+          hintsEn: ["2x² = 8, x² = 4, x = ±2."],
+          hintsMy: ["2x² = 8, x² = 4, x = ±2။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has a = 7, b = 9, angle C = 50°. Using ½ab sin(C), what is its area to 1 dp?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် a = 7, b = 9, ထောင့် C = 50° ရှိသည်။ ½ab sin(C) သုံး၍ ၎င်း၏ Area (ဒသမနေရာ ၁ နေရာအထိ) သည် အဘယ်နည်း။",
+          optionsEn: ["24.1", "31.5", "63", "48.2"],
+          optionsMy: ["24.1", "31.5", "63", "48.2"],
+          correctIndex: 0,
+          hintsEn: ["Area = ½ × 7 × 9 × sin(50°) = 31.5 × 0.766 ≈ 24.1."],
+          hintsMy: ["Area = ½ × 7 × 9 × sin(50°) = 31.5 × 0.766 ≈ 24.1။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a candidate uses the correct quadratic formula setup but makes an arithmetic slip in the final line, what typically happens to their marks?",
+          questionMy:
+              "ဖြေဆိုသူတစ်ဦးသည် မှန်ကန်သော Quadratic Formula Setup သုံးသော်လည်း နောက်ဆုံး Line တွင် ဂဏန်းတွက်ချက်မှု ချော်ချော့လျှင် ၎င်းတို့၏ အမှတ်များတွင် ပုံမှန်အားဖြင့် ဘာဖြစ်လာသနည်း။",
+          optionsEn: [
+            "They lose only the accuracy mark, keeping the method mark",
+            "They lose all marks on the question",
+            "They gain a bonus mark",
+            "Nothing changes",
+          ],
+          optionsMy: [
+            "Method Mark ကို ဆက်လက် ထိန်းသိမ်းထားရင်း Accuracy Mark ကိုသာ ဆုံးရှုံးသည်",
+            "မေးခွန်း၏ အမှတ်အားလုံးကို ဆုံးရှုံးသည်",
+            "Bonus Mark ရရှိသည်",
+            "မည်သည့်အရာမျှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A savings account model V = 800(1.03)ᵗ predicts the value after t years. What is V when t = 4 (to nearest whole number)?",
+          questionMy:
+              "Savings Account Model V = 800(1.03)ᵗ သည် t နှစ်ကြာပြီးနောက် တန်ဖိုးကို ခန့်မှန်းသည်။ t = 4 ဖြစ်ပါက V သည် (အနီးဆုံးကိန်းပြည့်) အဘယ်နည်း။",
+          optionsEn: ["900", "824", "896", "1200"],
+          optionsMy: ["900", "824", "896", "1200"],
+          correctIndex: 0,
+          hintsEn: ["V = 800 × (1.03)⁴ ≈ 800 × 1.1255 ≈ 900."],
+          hintsMy: ["V = 800 × (1.03)⁴ ≈ 800 × 1.1255 ≈ 900။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a similar-triangles proof, which condition (AA) is used when two pairs of corresponding angles are equal?",
+          questionMy:
+              "Similar-Triangles သက်သေပြချက်တစ်ခုတွင် သက်ဆိုင်ရာ ထောင့် နှစ်စုံ ညီမျှသောအခါ မည်သည့် Condition (AA) ကို သုံးသနည်း။",
+          optionsEn: [
+            "AA similarity",
+            "SSS congruence",
+            "SAS congruence",
+            "RHS congruence",
+          ],
+          optionsMy: [
+            "AA Similarity",
+            "SSS Congruence",
+            "SAS Congruence",
+            "RHS Congruence",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w32-d2",
+      dayNumber: 2,
+      titleEn: "Term 8 Vocabulary Review",
+      titleMy: "Term 8 ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w32-dm1",
+          termEn: "Exact Value",
+          termMy: "Exact Value",
+          matchEn:
+              "A precise value such as a fraction or surd, required on non-calculator papers",
+          matchMy:
+              "Non-Calculator စာစောင်များတွင် လိုအပ်သော အပိုင်းကိန်း သို့ Surd ကဲ့သို့ တိကျသော တန်ဖိုး",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w32-dm2",
+          termEn: "Cosine Rule",
+          termMy: "Cosine Rule",
+          matchEn:
+              "c² = a² + b² - 2ab cos(C), used to find a side or angle in any triangle",
+          matchMy:
+              "c² = a² + b² - 2ab cos(C), တြိဂံ မည်သည်တွင်မဆို အနား သို့ ထောင့်တစ်ခု ရှာရန် သုံးသည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w32-dm3",
+          termEn: "Method Mark (M)",
+          termMy: "Method Mark (M)",
+          matchEn:
+              "A mark awarded for using a correct method, even with an incorrect final answer",
+          matchMy:
+              "နောက်ဆုံးအဖြေ မှားသော်လည်း မှန်ကန်သော Method သုံးခြင်းအတွက် ချီးမြှင့်ထားသော အမှတ်",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w32-dm4",
+          termEn: "Follow-Through Mark (FT)",
+          termMy: "Follow-Through Mark (FT)",
+          matchEn:
+              "Credit for correctly using an earlier incorrect answer in a later step",
+          matchMy:
+              "နောက်ပိုင်း အဆင့်တစ်ခုတွင် ယခင် မှားယွင်းသော အဖြေကို မှန်ကန်စွာ သုံးခြင်းအတွက် အကျိုးအမြတ်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w32-dm5",
+          termEn: "Mental Fluency",
+          termMy: "Mental Fluency",
+          matchEn:
+              "The ability to perform calculations accurately and quickly without a calculator",
+          matchMy:
+              "Calculator မသုံးဘဲ တွက်ချက်မှုများကို တိကျစွာနှင့် လျင်မြန်စွာ လုပ်ဆောင်နိုင်စွမ်း",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w32-d3",
+      dayNumber: 3,
+      titleEn: "Paper 2 (Non-Calculator) or Paper 4 (Calculator) Skill?",
+      titleMy: "Paper 2 (Non-Calculator) or Paper 4 (Calculator) Skill?",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Paper 2 (Non-Calculator)", "Paper 4 (Calculator)"],
+        bucketsMy: ["Paper 2 (Non-Calculator)", "Paper 4 (Calculator)"],
+        items: [
+          SortingItem(
+            id: "igm-w32-sort1",
+            labelEn: "Recalling sin(30°) = 1/2 from memory",
+            labelMy: "sin(30°) = 1/2 ကို မှတ်ဉာဏ်မှ ပြန်ခေါ်ခြင်း",
+            correctBucketEn: "Paper 2 (Non-Calculator)",
+            correctBucketMy: "Paper 2 (Non-Calculator)",
+          ),
+          SortingItem(
+            id: "igm-w32-sort2",
+            labelEn: "Calculating cos⁻¹(0.6) to find an angle in degrees",
+            labelMy:
+                "ဒီဂရီဖြင့် ထောင့်တစ်ခု ရှာရန် cos⁻¹(0.6) ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Paper 4 (Calculator)",
+            correctBucketMy: "Paper 4 (Calculator)",
+          ),
+          SortingItem(
+            id: "igm-w32-sort3",
+            labelEn: "Factorising x² - 4 by hand",
+            labelMy: "x² - 4 ကို လက်ဖြင့် Factorising ပြုလုပ်ခြင်း",
+            correctBucketEn: "Paper 2 (Non-Calculator)",
+            correctBucketMy: "Paper 2 (Non-Calculator)",
+          ),
+          SortingItem(
+            id: "igm-w32-sort4",
+            labelEn:
+                "Finding the volume of a complex 3D solid using a decimal formula",
+            labelMy:
+                "Decimal Formula သုံး၍ ရှုပ်ထွေးသော 3D Solid တစ်ခု၏ Volume ရှာဖွေခြင်း",
+            correctBucketEn: "Paper 4 (Calculator)",
+            correctBucketMy: "Paper 4 (Calculator)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's First Full Mock Result",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ ပထမဆုံး ပုံစံတူ စာမေးပွဲ အစုံ ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's First Full Mock Result",
+        titleMy: "ထက်ဝေယံ၏ ပထမဆုံး ပုံစံတူ စာမေးပွဲ အစုံ ရလဒ်",
+        passageEn:
+            "For the Term 8 capstone, Daw Su Su sat Htet Wai Yan through both a full Paper 2 (non-calculator, 45 minutes) and a full Paper 4 (calculator, 75 minutes) on the same day, exactly mirroring the real IGCSE Extended exam structure and timing for the first time.\n\nOn Paper 2, he applied everything Week 29 had drilled: recognising standard trig values instantly, factorising quadratics without hesitation, and rationalising a surd denominator midway through a longer question without breaking his overall pace. He finished with six minutes to spare, using them to recheck two questions he had felt least confident about rather than starting anything new.\n\nOn Paper 4, a structured question combined skills across nearly the whole syllabus: sine rule to find a triangle's missing angle, then that angle used in a 3D trigonometry calculation from Term 4, then a final probability question using the resulting measurements. Following Week 30's habit, he wrote each formula before calculating, catching himself about to confuse the sine rule with the cosine rule on one sub-question -- a mistake his written formula immediately exposed before he had wasted time computing the wrong thing.\n\nWhen Daw Su Su marked both papers together, she noted his overall performance was strong, but pointed to the same specific gap Week 31 had surfaced in miniature: two lost marks, both from arithmetic slips inside otherwise correct methods, not from wrong approaches. She told him this consistency across two full papers was itself useful diagnostic information -- his conceptual understanding across all seven prior terms was genuinely solid, and Term 9's final weeks could therefore focus narrowly on accuracy and exam-day composure rather than reteaching any mathematical content from scratch.",
+        passageMy:
+            "တန်းရှစ်တန်း Capstone အတွက် ဒေါ်စုစုသည် ထက်ဝေယံကို Paper 2 (Non-Calculator, မိနစ် 45) နှင့် Paper 4 (Calculator, မိနစ် 75) နှစ်ခုစလုံးကို တစ်နေ့တည်းတွင် ဖြေဆိုစေခဲ့ပြီး ပထမဆုံးအကြိမ် အမှန်တကယ် IGCSE Extended စာမေးပွဲ ဖွဲ့စည်းပုံနှင့် အချိန်ကိုက်ခြင်းကို အတိအကျ ရောင်ပြန်ဟပ်ခဲ့သည်။\n\nPaper 2 တွင် သူသည် ဆယ့်ကိုးပတ်က လေ့ကျင့်ပေးခဲ့သော အရာအားလုံးကို အသုံးချခဲ့သည် - Standard Trig Values ကို ချက်ချင်း မှတ်မိခြင်း၊ ဆိုင်းငံ့ခြင်းမရှိဘဲ Quadratic များ Factorising ပြုလုပ်ခြင်းနှင့် သူ၏ အလုံးစုံ Pace ကို မချိုးဖျက်ဘဲ ရှည်လျားသော မေးခွန်းတစ်ခု၏ အလယ်တွင် Surd Denominator တစ်ခုကို Rationalise ပြုလုပ်ခြင်း။ သူသည် မိနစ် ၆ မိနစ် ကျန်ရှိစဉ် ပြီးဆုံးခဲ့ပြီး အသစ်တစ်ခုခု စတင်မည့်အစား သူ အယုံအကြည်နည်းဆုံး ခံစားရသော မေးခွန်းနှစ်ခုကို ပြန်စစ်ဆေးရန် အသုံးချခဲ့သည်။\n\nPaper 4 တွင် ဖွဲ့စည်းထားသော မေးခွန်းတစ်ခုသည် သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးနီးပါးတစ်လျှောက် ကျွမ်းကျင်မှုများကို ပေါင်းစပ်ခဲ့သည် - တြိဂံတစ်ခု၏ ပျောက်ဆုံးနေသော ထောင့်တစ်ခု ရှာရန် Sine Rule၊ ထို့နောက် ထိုထောင့်ကို စတုတ္ထနှစ်ဝက်မှ 3D Trigonometry တွက်ချက်မှုတစ်ခုတွင် သုံးခြင်း၊ ထို့နောက် ရလဒ် တိုင်းတာချက်များ သုံး၍ နောက်ဆုံး Probability မေးခွန်း။ ဆယ်ပတ်၏ အလေ့အထကို လိုက်နာလျက် သူသည် တွက်ချက်မီ Formula တစ်ခုစီကို ရေးခဲ့ပြီး Sub-Question တစ်ခုတွင် Sine Rule ကို Cosine Rule နှင့် ရောထွေးမတော့မည် ဖြစ်နေသည်ကို ကိုယ်တိုင် ဖမ်းမိခဲ့သည် -- သူ၏ ရေးထားသော Formula သည် မှားယွင်းသော အရာကို တွက်ချက်ရန် အချိန် မဖြုန်းမီ ချက်ချင်း ဖော်ထုတ်ပေးခဲ့သည်။\n\nဒေါ်စုစုသည် စာစောင်နှစ်ခုလုံးကို အတူတကွ အမှတ်ပေးရာ သူ၏ အလုံးစုံ စွမ်းဆောင်ရည် ခိုင်မာကြောင်း သတိပြုမိခဲ့သော်လည်း ဆယ့်တစ်ပတ်က အသေးစားပုံစံဖြင့် ဖော်ထုတ်ခဲ့သော ကွာဟချက် တူညီသော နေရာကို ညွှန်ပြခဲ့သည် - အမှတ် နှစ်မှတ် ဆုံးရှုံးခဲ့ပြီး နှစ်ခုစလုံးသည် မှားယွင်းသော ချဉ်းကပ်မှုများမှ မဟုတ်ဘဲ အခြားနေရာတွင် မှန်ကန်သော Method များအတွင်းရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုများမှ ဖြစ်ခဲ့သည်။ စာစောင်နှစ်ခုလုံးတစ်လျှောက် ဤတသမတ်တည်း ဖြစ်မှုသည် ကိုယ်တိုင် အသုံးဝင်သော ရောဂါရှာဖွေမှု အချက်အလက် ဖြစ်ကြောင်း သူ့ကို ပြောခဲ့သည် - ယခင် နှစ်ဝက် ခုနစ်ဝက်တစ်လျှောက် သူ၏ Conceptual နားလည်မှုသည် စစ်မှန်စွာ ခိုင်မာခဲ့ပြီး၊ ထို့ကြောင့် တန်းကိုးတန်း၏ နောက်ဆုံးအပတ်များသည် သင်္ချာ အကြောင်းအရာ မည်သည်ကိုမျှ အစအဆုံး ပြန်မသင်ဘဲ တိကျမှုနှင့် စာမေးပွဲနေ့ တည်ငြိမ်မှုအပေါ် ကျဉ်းမြောင်းစွာ အာရုံစိုက်နိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how much time did Htet Wai Yan have remaining on Paper 2?",
+            questionMy:
+                "Paper 2 တွင် ထက်ဝေယံတွင် အချိန် မည်မျှ ကျန်ရှိခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Six minutes",
+              "Zero minutes",
+              "Thirty minutes",
+              "One hour",
+            ],
+            optionsMy: ["မိနစ် ၆ မိနစ်", "မိနစ် ၀", "မိနစ် ၃၀", "တစ်နာရီ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about finishing Paper 2 early."],
+            hintsMy: [
+              "Paper 2 ကို စောစီးစွာ ပြီးဆုံးခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did writing formulas first help Htet Wai Yan catch?",
+            questionMy:
+                "Formula ကို ဦးစွာ ရေးခြင်းသည် ထက်ဝေယံအား ဘာကို ဖမ်းမိနိုင်စေခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Confusing the sine rule with the cosine rule",
+              "A spelling mistake",
+              "A missing calculator battery",
+              "The wrong exam date",
+            ],
+            optionsMy: [
+              "Sine Rule ကို Cosine Rule နှင့် ရောထွေးခြင်း",
+              "စာလုံးပေါင်း အမှား",
+              "Calculator ဘက်ထရီ ပျောက်ဆုံးနေခြင်း",
+              "မှားယွင်းသော စာမေးပွဲ နေ့ရက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about catching himself confusing the two rules.",
+            ],
+            hintsMy: [
+              "နည်းလမ်းနှစ်ခုကို ရောထွေးမည် ဖြစ်နေကြောင်း ကိုယ်တိုင် ဖမ်းမိခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, where were his two lost marks from?",
+            questionMy:
+                "သူ၏ အမှတ် နှစ်မှတ် ဆုံးရှုံးမှုသည် မည်သည့်နေရာမှ ဖြစ်ခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Arithmetic slips inside otherwise correct methods, not wrong approaches",
+              "Choosing entirely wrong methods for every question",
+              "Not attempting any questions",
+              "Writing his name incorrectly",
+            ],
+            optionsMy: [
+              "မှားယွင်းသော ချဉ်းကပ်မှုများမှ မဟုတ်ဘဲ အခြားနေရာတွင် မှန်ကန်သော Method များအတွင်းရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုများ",
+              "မေးခွန်းတိုင်းအတွက် လုံးလုံးလျားလျား မှားယွင်းသော Method များ ရွေးချယ်ခြင်း",
+              "မေးခွန်း မည်သည်ကိုမျှ မကြိုးစားခြင်း",
+              "သူ့အမည်ကို မှားယွင်းစွာ ရေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing where the two lost marks came from.",
+            ],
+            hintsMy: [
+              "အမှတ် နှစ်မှတ် ဆုံးရှုံးမှု မည်သည့်နေရာမှ ဖြစ်ခဲ့ကြောင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Full Mock Exam Series 1",
+      titleMy: "Term 8 Capstone - ပုံစံတူ စာမေးပွဲ အစုံ (၁)",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An arithmetic slip inside a correct method typically costs...",
+          questionMy:
+              "မှန်ကန်သော Method အတွင်းရှိ ဂဏန်းတွက်ချက်မှု ချော်ချော့မှုတစ်ခုသည် ပုံမှန်အားဖြင့် ...ကုန်ကျစေသည်",
+          optionsEn: [
+            "Only one mark, not the whole question",
+            "Every mark on the question",
+            "No marks at all",
+            "Bonus marks",
+          ],
+          optionsMy: [
+            "မေးခွန်းတစ်ခုလုံး မဟုတ်ဘဲ အမှတ်တစ်မှတ်သာ",
+            "မေးခွန်း၏ အမှတ်တိုင်း",
+            "မည်သည့် အမှတ်မျှ",
+            "Bonus အမှတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Writing a formula before calculating on Paper 4 helps by...",
+          questionMy:
+              "Paper 4 တွင် မတွက်ချက်မီ Formula ကို ရေးခြင်းသည် ...အားဖြင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Catching a mistake before wasting time computing the wrong thing",
+            "Wasting valuable exam time",
+            "Being required by law",
+            "Having no real benefit",
+          ],
+          optionsMy: [
+            "မှားယွင်းသော အရာကို တွက်ချက်ရန် အချိန် မဖြုန်းမီ အမှားကို ဖမ်းမိခြင်း",
+            "အဖိုးတန် စာမေးပွဲ အချိန်ကို ဖြုန်းခြင်း",
+            "ဥပဒေအရ လိုအပ်ခြင်း",
+            "စစ်မှန်သော အကျိုးကျေးဇူး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Consistency in error patterns across two full mock papers is useful because it...",
+          questionMy:
+              "ပုံစံတူ စာမေးပွဲ အပြည့်အစုံ နှစ်ခုတစ်လျှောက် အမှား ပုံစံများ တသမတ်တည်း ဖြစ်ခြင်းသည် ...ကြောင့် အသုံးဝင်သည်",
+          optionsEn: [
+            "Reveals reliable diagnostic information about where to focus final revision",
+            "Means nothing useful at all",
+            "Guarantees a failing grade",
+            "Should always be ignored",
+          ],
+          optionsMy: [
+            "နောက်ဆုံး ပြန်လည်လေ့လာမှုကို ဘယ်နေရာတွင် အာရုံစိုက်ရမည်ကို ယုံကြည်ရသော ရောဂါရှာဖွေမှု အချက်အလက် ဖော်ထုတ်ပေးသောကြောင့်",
+            "အသုံးဝင်သော အရာ ဘာမျှ မဆိုလိုပါ",
+            "ကျရှုံးသော ရမှတ်ကို အာမခံသောကြောင့်",
+            "အမြဲ လျစ်လျူရှုသင့်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what would Term 9's final weeks focus on, based on Htet Wai Yan's mock result?",
+          questionMy:
+              "ထက်ဝေယံ၏ ပုံစံတူ ရလဒ်အပေါ် အခြေခံ၍ တန်းကိုးတန်း၏ နောက်ဆုံးအပတ်များသည် ဘာအပေါ် အာရုံစိုက်မည်နည်း။",
+          optionsEn: [
+            "Accuracy and exam-day composure, not reteaching content",
+            "Reteaching every topic from scratch",
+            "A completely new subject",
+            "Avoiding all further practice",
+          ],
+          optionsMy: [
+            "အကြောင်းအရာ ပြန်မသင်ဘဲ တိကျမှုနှင့် စာမေးပွဲနေ့ တည်ငြိမ်မှု",
+            "ဘာသာရပ်တိုင်းကို အစအဆုံး ပြန်သင်ခြင်း",
+            "လုံးဝ ဘာသာရပ်အသစ်တစ်ခု",
+            "နောက်ထပ် လေ့ကျင့်မှုအားလုံးကို ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which two papers did Htet Wai Yan sit for the Term 8 capstone?",
+          questionMy:
+              "တန်းရှစ်တန်း Capstone အတွက် ထက်ဝေယံ မည်သည့် စာစောင်နှစ်ခု ဖြေဆိုခဲ့သနည်း။",
+          optionsEn: [
+            "Paper 2 (non-calculator) and Paper 4 (calculator)",
+            "Paper 1 and Paper 3",
+            "Paper 5 and Paper 6",
+            "Only Paper 4",
+          ],
+          optionsMy: [
+            "Paper 2 (Non-Calculator) နှင့် Paper 4 (Calculator)",
+            "Paper 1 နှင့် Paper 3",
+            "Paper 5 နှင့် Paper 6",
+            "Paper 4 တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _igcseMathematicsTerm8 = CourseTermDef(
+  id: "course-igcse-mathematics-t8",
+  termNumber: 8,
+  titleEn: "Exam Intensive - Paper 2 & Paper 4 (Extended)",
+  titleMy: "Exam Intensive - Paper 2 & Paper 4 (Extended)",
+  certificateTitleEn: "Exam Intensive - Paper 2 & Paper 4 (Extended)",
+  certificateTitleMy: "Exam Intensive - Paper 2 & Paper 4 (Extended)",
+  weeks: [
+    _igcseMathematicsWeek29,
+    _igcseMathematicsWeek30,
+    _igcseMathematicsWeek31,
+    _igcseMathematicsWeek32,
+  ],
+);
+
 // __IGCSE_MATH_MARKER__
 
 /// The IGCSE Mathematics course's full-year pathway -- IN PROGRESS.
-/// Terms 1-7 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
+/// Terms 1-8 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
 /// Graphs", Weeks 5-8; "Coordinate Geometry and Mensuration", Weeks
 /// 9-12; "Trigonometry and Vectors", Weeks 13-16; "Probability and
 /// Statistics", Weeks 17-20; "Transformations, Matrices and
 /// Functions", Weeks 21-24; "Advanced Modelling and Problem Solving",
-/// Weeks 25-28) are authored so far, following the blueprint at
-/// `ai_data_bridge/igcse_maths_all_terms.dart`. Terms 8-9 (Exam
-/// Intensive; Final Countdown and IGCSE Graduation) are not yet
-/// authored. `terms` below intentionally lists only Terms 1-7, and
-/// `totalWeeks: 36` reflects the full planned year, following the
-/// same convention as every other in-progress pathway in this file.
+/// Weeks 25-28; "Exam Intensive - Paper 2 & Paper 4 (Extended)",
+/// Weeks 29-32) are authored so far, following the blueprint at
+/// `ai_data_bridge/igcse_maths_all_terms.dart`. Term 9 (Final
+/// Countdown and IGCSE Graduation) is not yet authored. `terms`
+/// below intentionally lists only Terms 1-8, and `totalWeeks: 36`
+/// reflects the full planned year, following the same convention as
+/// every other in-progress pathway in this file.
 const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
   id: "course-igcse-mathematics",
   subject: "mathematics",
@@ -123803,6 +125360,7 @@ const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
     _igcseMathematicsTerm5,
     _igcseMathematicsTerm6,
     _igcseMathematicsTerm7,
+    _igcseMathematicsTerm8,
   ],
 );
 // =====================================================================
