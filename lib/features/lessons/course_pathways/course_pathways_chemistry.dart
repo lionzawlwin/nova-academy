@@ -7613,6 +7613,1440 @@ const CourseWeekDef _igcseChemWeek20 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 21: "Properties and Reactivity of Metals"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek21 = CourseWeekDef(
+  id: "course-igcse-chem-w21",
+  weekNumber: 21,
+  titleEn: "Properties and Reactivity of Metals",
+  titleMy: "သတ္တုများ၏ ဂုဏ်သတ္တိနှင့် ဓာတ်ပြုနိုင်စွမ်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w21-d1",
+      dayNumber: 1,
+      titleEn: "The Reactivity Series and Displacement",
+      titleMy: "ဓာတ်ပြုနိုင်စွမ်း အစဉ်နှင့် Displacement",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When zinc powder is added to blue copper sulfate solution, the blue colour fades and a brown-pink deposit forms. Why?",
+          questionMy:
+              "အပြာရောင် Copper Sulfate ပျော်ရည်ထဲသို့ Zinc မှုန့် ထည့်သောအခါ အပြာရောင် မှေးမှိန်သွားပြီး အညို-ပန်းရောင် အနည် ဖြစ်ပေါ်လာသည်။ အဘယ်ကြောင့်နည်း။",
+          optionsEn: [
+            "Zinc is more reactive than copper and displaces it from solution: Zn + CuSO4 -> ZnSO4 + Cu",
+            "Copper is more reactive than zinc and displaces it",
+            "The two metals do not react at all",
+            "Zinc dissolves the copper sulfate completely without any reaction",
+          ],
+          optionsMy: [
+            "Zinc သည် Copper ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် ၎င်းကို ပျော်ရည်မှ နေရာလွှဲပြောင်းသည်- Zn + CuSO4 -> ZnSO4 + Cu",
+            "Copper သည် Zinc ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် ၎င်းကို နေရာလွှဲပြောင်းသည်",
+            "သတ္တု နှစ်မျိုးလုံး လုံးဝ ဓာတ်မပြု",
+            "Zinc သည် Copper Sulfate ကို ဓာတ်ပြုမှု လုံးဝ မရှိဘဲ ပျော်ဝင်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A more reactive metal always displaces a less reactive metal from a solution of its salt.",
+            "The brown-pink deposit is pure copper metal.",
+          ],
+          hintsMy: [
+            "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုတစ်ခုကို ၎င်း၏ ဆားပျော်ရည်မှ အမြဲ နေရာလွှဲပြောင်းသည်။",
+            "အညို-ပန်းရောင် အနည်သည် စင်ကြယ်သော Copper သတ္တု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Metals below carbon in the reactivity series (like iron and copper) can be extracted from their ores by...",
+          questionMy:
+              "ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon အောက်တွင် ရှိသော သတ္တုများ (Iron နှင့် Copper ကဲ့သို့) ကို ၎င်းတို့၏ ကျောက်သတ္တုမှ ...ဖြင့် ထုတ်ယူနိုင်သည်",
+          optionsEn: [
+            "Reduction with carbon (or carbon monoxide) by heating",
+            "Electrolysis only, never any other method",
+            "Simply melting the ore without any chemical reaction",
+            "Adding water directly to the ore",
+          ],
+          optionsMy: [
+            "အပူပေးခြင်းဖြင့် Carbon (သို့မဟုတ် Carbon Monoxide) ဖြင့် Reduction",
+            "Electrolysis သာ၊ အခြားနည်းလမ်း လုံးဝ မဟုတ်",
+            "ဓာတုဗေဒ ဓာတ်ပြုမှု မရှိဘဲ ကျောက်သတ္တုကို ရိုးရိုးရှင်းရှင်း အရည်ပျော်ခြင်း",
+            "ကျောက်သတ္တုထဲသို့ ရေကို တိုက်ရိုက် ထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Carbon is cheap and can reduce metal oxides less reactive than itself, such as iron oxide in the blast furnace.",
+            "Metals more reactive than carbon (like aluminium) cannot be extracted this way and require electrolysis instead.",
+          ],
+          hintsMy: [
+            "Carbon သည် ဈေးသက်သာပြီး Blast Furnace ရှိ Iron Oxide ကဲ့သို့ ၎င်းထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တု အောက်ဆိုဒ်များကို Reduce လုပ်နိုင်သည်။",
+            "Aluminium ကဲ့သို့ Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုများကို ဤနည်းဖြင့် ထုတ်ယူ၍ မရဘဲ Electrolysis လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does galvanising (coating steel with zinc) protect iron from rusting even after the zinc coating is scratched?",
+          questionMy:
+              "သံမဏိကို Zinc ဖြင့် ကပ်ထားခြင်း (Galvanising) သည် Zinc အလွှာ ခြစ်ဖျက်ခံရသည့်နောက်တွင် သံသည် သံမောင်းတက်ခြင်းမှ ဆက်လက် ကာကွယ်ပေးနိုင်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Zinc is more reactive than iron, so it corrodes preferentially, sacrificially protecting the iron underneath",
+            "The scratch has no effect on protection at all",
+            "Zinc is less reactive than iron, so it never corrodes",
+            "Galvanising only works as a barrier, not sacrificial protection",
+          ],
+          optionsMy: [
+            "Zinc သည် သံ (Iron) ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် ဦးစွာ ကြေဆွေးသွားကာ အောက်ရှိ သံကို Sacrificial အနေဖြင့် ကာကွယ်ပေးသည်",
+            "ခြစ်ဖျက်မှုသည် ကာကွယ်မှုအပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            "Zinc သည် သံထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့် ဘယ်တော့မှ မကြေဆွေး",
+            "Galvanising သည် Barrier အနေဖြင့်သာ အလုပ်လုပ်ပြီး Sacrificial Protection မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the key advantage of galvanising over a simple paint barrier: even if the coating is damaged, the more reactive zinc still corrodes first, not the iron.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ရိုးရိုး ဆေးသုတ် Barrier တစ်ခုထက် Galvanising ၏ အဓိက အားသာချက် ဖြစ်သည်- အလွှာ ပျက်စီးသွားလျှင်ပင် ပို၍ ဓာတ်ပြုနိုင်စွမ်းရှိသော Zinc သည် သံမတိုင်မီ ဦးစွာ ကြေဆွေးဆဲ ဖြစ်နေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Metal Reactivity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သတ္တု ဓာတ်ပြုနိုင်စွမ်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w21-dm-1",
+          termEn: "Reactivity series",
+          termMy: "Reactivity Series",
+          matchEn:
+              "A ranked list of metals from most to least reactive, used to predict displacement reactions",
+          matchMy:
+              "Displacement ဓာတ်ပြုမှုများကို ခန့်မှန်းရန် အသုံးပြုသော ဓာတ်ပြုနိုင်စွမ်း အများဆုံးမှ အနည်းဆုံးအထိ သတ္တုများ၏ အဆင့်စာရင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w21-dm-2",
+          termEn: "Displacement reaction",
+          termMy: "Displacement Reaction",
+          matchEn:
+              "A reaction in which a more reactive metal takes the place of a less reactive metal in a compound",
+          matchMy:
+              "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် ဒြပ်ပေါင်းတစ်ခုအတွင်း ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တု၏ နေရာကို ယူသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w21-dm-3",
+          termEn: "Sacrificial protection",
+          termMy: "Sacrificial Protection",
+          matchEn:
+              "Attaching a more reactive metal, like zinc or magnesium, to iron so it corrodes instead of the iron",
+          matchMy:
+              "သံမကြေဆွေးအောင် Zinc သို့မဟုတ် Magnesium ကဲ့သို့ ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုကို သံနှင့် ကပ်တွဲထားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w21-dm-4",
+          termEn: "Rusting",
+          termMy: "Rusting",
+          matchEn:
+              "The corrosion of iron requiring both oxygen and water to form hydrated iron(III) oxide",
+          matchMy:
+              "ရေဓာတ်ဖျော် Iron(III) Oxide ဖွဲ့စည်းရန် Oxygen နှင့် ရေ နှစ်ခုစလုံး လိုအပ်သော သံကြေဆွေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w21-dm-5",
+          termEn: "Galvanising",
+          termMy: "Galvanising",
+          matchEn:
+              "Coating steel with a layer of zinc, giving both a physical barrier and sacrificial protection",
+          matchMy:
+              "သံမဏိကို Zinc အလွှာဖြင့် ကပ်ထားခြင်း၊ ရုပ်ပိုင်းဆိုင်ရာ Barrier နှင့် Sacrificial Protection နှစ်မျိုးလုံး ရရှိစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Displacement Happens, or No Reaction?",
+      titleMy: "စီစစ်ကြမည် - Displacement ဖြစ်မလား၊ ဓာတ်မပြုဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Displacement Happens", "No Reaction"],
+        bucketsMy: ["Displacement Happens", "No Reaction"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w21-sort-1",
+            labelEn:
+                "Iron nail placed in copper sulfate solution (iron is more reactive than copper)",
+            labelMy:
+                "Copper Sulfate ပျော်ရည်ထဲသို့ သံသံချောင်း ချထားခြင်း (သံသည် Copper ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသည်)",
+            correctBucketEn: "Displacement Happens",
+            correctBucketMy: "Displacement Happens",
+          ),
+          SortingItem(
+            id: "igcsechem-w21-sort-2",
+            labelEn:
+                "Copper metal placed in zinc sulfate solution (copper is less reactive than zinc)",
+            labelMy:
+                "Zinc Sulfate ပျော်ရည်ထဲသို့ Copper သတ္တု ချထားခြင်း (Copper သည် Zinc ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသည်)",
+            correctBucketEn: "No Reaction",
+            correctBucketMy: "No Reaction",
+          ),
+          SortingItem(
+            id: "igcsechem-w21-sort-3",
+            labelEn:
+                "Magnesium ribbon placed in silver nitrate solution (magnesium is far more reactive than silver)",
+            labelMy:
+                "Silver Nitrate ပျော်ရည်ထဲသို့ Magnesium ဖဲ့ ချထားခြင်း (Magnesium သည် Silver ထက် များစွာ ဓာတ်ပြုနိုင်စွမ်း ရှိသည်)",
+            correctBucketEn: "Displacement Happens",
+            correctBucketMy: "Displacement Happens",
+          ),
+          SortingItem(
+            id: "igcsechem-w21-sort-4",
+            labelEn:
+                "Gold placed in magnesium sulfate solution (gold is far less reactive than magnesium)",
+            labelMy:
+                "Magnesium Sulfate ပျော်ရည်ထဲသို့ Gold ချထားခြင်း (Gold သည် Magnesium ထက် ဓာတ်ပြုနိုင်စွမ်း များစွာ နည်းသည်)",
+            correctBucketEn: "No Reaction",
+            correctBucketMy: "No Reaction",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Daw Khin's Rust Prevention Workshop",
+      titleMy: "စာဖတ်ခြင်း - ဒေါ်ခင်၏ သံမောင်းတက်ခြင်း ကာကွယ်ရေး အလုပ်ရုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Daw Khin's Rust Prevention Workshop",
+        titleMy: "ဒေါ်ခင်၏ သံမောင်းတက်ခြင်း ကာကွယ်ရေး အလုပ်ရုံ",
+        passageEn:
+            "Daw Khin, the metallurgist who had taught Shin Thant about the blast furnace back in Term 4, invited her to a workshop on rust prevention at a shipyard. She began with a simple demonstration: three iron nails placed in three separate test tubes -- one in dry air with a drying agent, one in boiled, oxygen-free water sealed with a layer of oil, and one in ordinary water exposed to air. Only the third nail rusted, since rusting needs both oxygen and water together; removing either one alone was enough to stop it completely.\n\nShe then explained why ships and pipelines use sacrificial protection rather than paint alone. Blocks of zinc or magnesium, both more reactive than iron, are bolted onto a ship's steel hull below the waterline. Because these metals are more reactive, they lose electrons more readily than iron and corrode first, effectively 'sacrificing' themselves to protect the iron -- and crucially, this protection continues working even if the hull gets scratched or the block is not touching every part of the surface, since the zinc block is a continuous source of the sacrificial reaction across the whole connected structure.\n\nDaw Khin contrasted this with a food tin, which is actually made of steel coated with a thin layer of tin, not zinc. She asked Shin Thant to predict what would happen if that tin coating were scratched, given that tin is less reactive than iron. Shin Thant reasoned correctly that this situation was the opposite of sacrificial protection: since tin is less reactive, it does not corrode preferentially, and once the coating is breached, the exposed iron underneath actually rusts faster than if it had no coating at all, because the tin and iron together set up conditions that draw electrons away from the iron. This, Daw Khin confirmed, was exactly why a scratched tin can rusts quickly at the scratch, while a scratched galvanised pipe does not.",
+        passageMy:
+            "စတုတ္ထတန်းက Blast Furnace အကြောင်း ရှင်သန့်ကို သင်ကြားပေးခဲ့သော သတ္တုဗေဒပညာရှင် ဒေါ်ခင်သည် သင်္ဘောကျင်းတစ်ခုတွင် သံမောင်းတက်ခြင်း ကာကွယ်ရေး အလုပ်ရုံသို့ သူမအား ဖိတ်ကြားခဲ့သည်။ သူမသည် ရိုးရှင်းသော သရုပ်ပြမှုတစ်ခုဖြင့် စတင်ခဲ့သည် - သီးခြား စမ်းသပ်ပြွန် သုံးလုံးတွင် ချထားသော သံချောင်း သုံးချောင်း -- တစ်ချောင်းမှာ ခြောက်သွေ့စေသည့် ပစ္စည်းနှင့်အတူ ခြောက်သွေ့သော လေထဲတွင်၊ တစ်ချောင်းမှာ ရေနံအလွှာဖြင့် ပိတ်ထားသော Oxygen ကင်းစင်သော ဆူပွက်ရေထဲတွင်၊ နောက်တစ်ချောင်းမှာ လေနှင့် ထိတွေ့နေသော ရိုးရိုးရေထဲတွင်။ တတိယချောင်းသာ သံမောင်းတက်ခဲ့သည်၊ အကြောင်းမှာ သံမောင်းတက်ခြင်းသည် Oxygen နှင့် ရေ နှစ်ခုစလုံးကို အတူတကွ လိုအပ်သောကြောင့်ဖြစ်ပြီး၊ တစ်ခုခုကို တစ်ခုတည်း ဖယ်ရှားလိုက်ရုံဖြင့် လုံးဝ ရပ်တန့်စေရန် လုံလောက်ခဲ့သည်။\n\nထို့နောက် သင်္ဘောများနှင့် ပိုက်လိုင်းများသည် ဆေးသုတ်ခြင်းသက်သက်အစား Sacrificial Protection ကို အသုံးပြုရသည့် အကြောင်းရင်းကို သူမ ရှင်းပြခဲ့သည်။ သံ (Iron) ထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော Zinc သို့မဟုတ် Magnesium တုံးများကို ရေမျက်နှာပြင် အောက်ရှိ သင်္ဘော၏ သံမဏိ ကိုယ်ထည်ပေါ်တွင် ဝက်အူတပ်ကာ တပ်ဆင်ထားသည်။ ဤသတ္တုများသည် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် သံထက် Electron များကို ပို၍ လွယ်ကူစွာ ဆုံးရှုံးကာ ဦးစွာ ကြေဆွေးသွားပြီး သံကို ကာကွယ်ပေးရန် ကိုယ်တိုင် 'Sacrifice' ပြုလုပ်ခြင်း ဖြစ်သည် -- အရေးကြီးသည်မှာ ဤကာကွယ်မှုသည် ကိုယ်ထည် ခြစ်ဖျက်ခံရသည် သို့မဟုတ် တုံးသည် မျက်နှာပြင် တိုင်းကို မထိတွေ့ရသည့်တိုင် ဆက်လက် အလုပ်လုပ်နေဆဲ ဖြစ်သည်၊ အကြောင်းမှာ Zinc တုံးသည် ချိတ်ဆက်ထားသော ဖွဲ့စည်းပုံတစ်ခုလုံးတစ်လျှောက် Sacrificial ဓာတ်ပြုမှု၏ ဆက်တိုက် အရင်းအမြစ် ဖြစ်နေသောကြောင့် ဖြစ်သည်။\n\nဒေါ်ခင်သည် ဤသည်ကို Zinc မဟုတ်ဘဲ Tin ပါးလွှာ အလွှာတစ်ခုဖြင့် ကပ်ထားသော သံမဏိဖြင့် အမှန်တကယ် ပြုလုပ်ထားသော အစားအစာ ဗူးတစ်ခုနှင့် နှိုင်းယှဉ်ပြခဲ့သည်။ Tin သည် သံထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသည်ကို ထောက်ပြကာ ထို Tin အလွှာ ခြစ်ဖျက်ခံရပါက အဘယ်ဖြစ်လာမည်ကို ခန့်မှန်းရန် ရှင်သန့်ကို သူမ တောင်းဆိုခဲ့သည်။ Tin သည် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့် ဦးစွာ ကြေဆွေးမည် မဟုတ်ဘဲ၊ အလွှာ ပျက်စီးသွားသည်နှင့် အောက်ရှိ ဖော်ထုတ်ခံရသော သံသည် အလွှာ လုံးဝ မရှိသည်ထက် ပို၍ မြန်စွာ ကြေဆွေးလိမ့်မည်ဟု ရှင်သန့် မှန်ကန်စွာ ကျိုးကြောင်းဆင်ခြင်ခဲ့သည်၊ အကြောင်းမှာ Tin နှင့် Iron သည် အတူတကွ Electron များကို သံမှ ဆွဲထုတ်စေသော အခြေအနေများ တည်ဆောက်ပေးသောကြောင့် ဖြစ်သည်။ ဤသည်ကား ခြစ်ဖျက်ခံရသော Tin ဗူးသည် ခြစ်ရာတွင် အမြန် သံကြေဆွေးသော်လည်း ခြစ်ဖျက်ခံရသော Galvanised ပိုက်မှာမူ သံကြေဆွေးခြင်း မရှိသည့် အတိအကျ အကြောင်းရင်းဖြစ်ကြောင်း ဒေါ်ခင် အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did only the third nail rust?",
+            questionMy:
+                "တတိယ သံချောင်းသာ သံမောင်းတက်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was the only nail exposed to both oxygen and water together",
+              "It was made of a different metal entirely",
+              "It was heated with a flame",
+              "It was placed in direct sunlight",
+            ],
+            optionsMy: [
+              "Oxygen နှင့် ရေ နှစ်ခုစလုံးနှင့် အတူတကွ ထိတွေ့ခံရသော တစ်ခုတည်းသော သံချောင်း ဖြစ်ခဲ့သောကြောင့်",
+              "လုံးဝ မတူညီသော သတ္တုတစ်မျိုးဖြင့် ပြုလုပ်ထားသောကြောင့်",
+              "မီးလျှံဖြင့် အပူပေးခဲ့သောကြောင့်",
+              "နေရောင်ခြည် တိုက်ရိုက် ကျရောက်ရာတွင် ချထားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating what rusting needs."],
+            hintsMy: [
+              "သံမောင်းတက်ခြင်းအတွက် အဘယ်အရာ လိုအပ်ကြောင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does sacrificial protection keep working even if the ship's hull is scratched?",
+            questionMy:
+                "သင်္ဘော၏ ကိုယ်ထည် ခြစ်ဖျက်ခံရသည့်တိုင် Sacrificial Protection ဆက်လက် အလုပ်လုပ်နေဆဲ ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The zinc block is a continuous source of the sacrificial reaction across the whole connected structure",
+              "Scratches automatically heal themselves",
+              "Zinc stops being reactive once attached",
+              "The ship's paint alone provides all the protection needed",
+            ],
+            optionsMy: [
+              "Zinc တုံးသည် ချိတ်ဆက်ထားသော ဖွဲ့စည်းပုံတစ်ခုလုံးတစ်လျှောက် Sacrificial ဓာတ်ပြုမှု၏ ဆက်တိုက် အရင်းအမြစ် ဖြစ်နေသောကြောင့်",
+              "ခြစ်ရာများသည် အလိုအလျောက် ပြန်ကောင်းလာသောကြောင့်",
+              "Zinc သည် တပ်ဆင်ပြီးလျှင် ဓာတ်ပြုနိုင်စွမ်း ရပ်တန့်သွားသောကြောင့်",
+              "သင်္ဘော၏ ဆေးသုတ်မှုတစ်ခုတည်းက လိုအပ်သော ကာကွယ်မှုအားလုံး ပေးစွမ်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final clause of paragraph 2 explaining why the whole structure stays protected.",
+            ],
+            hintsMy: [
+              "ဖွဲ့စည်းပုံတစ်ခုလုံး ဆက်လက် ကာကွယ်ခံရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာပိုဒ် ၂ ၏ နောက်ဆုံး အပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does a scratched tin can rust faster than unprotected iron?",
+            questionMy:
+                "ခြစ်ဖျက်ခံရသော Tin ဗူးသည် ကာကွယ်မှု မရှိသော သံထက် ပို၍ မြန်စွာ ကြေဆွေးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Tin is less reactive than iron, so the exposed iron and tin together draw electrons away from the iron faster",
+              "Tin is more reactive than iron and sacrifices itself",
+              "The tin coating makes the iron waterproof",
+              "Tin cans are never actually made of steel",
+            ],
+            optionsMy: [
+              "Tin သည် Iron ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့် ဖော်ထုတ်ခံရသော Iron နှင့် Tin တို့ အတူတကွ Electron များကို Iron မှ ပို၍ မြန်စွာ ဆွဲထုတ်ကြောင့်",
+              "Tin သည် Iron ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိပြီး ကိုယ်တိုင် Sacrifice ပြုလုပ်သောကြောင့်",
+              "Tin အလွှာက Iron ကို ရေမဝင်စေသောကြောင့်",
+              "Tin ဗူးများသည် သံမဏိဖြင့် အမှန်တကယ် ပြုလုပ်ထားခြင်း မဟုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Shin Thant's reasoning contrasting tin's lower reactivity with zinc's higher reactivity.",
+            ],
+            hintsMy: [
+              "Zinc ၏ ပိုမြင့်သော ဓာတ်ပြုနိုင်စွမ်းနှင့် Tin ၏ ပိုနိမ့်သော ဓာတ်ပြုနိုင်စွမ်းကို နှိုင်းယှဉ်ထားသော ရှင်သန့်၏ ကျိုးကြောင်းဆင်ခြင်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Metal Reactivity",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သတ္တု ဓာတ်ပြုနိုင်စွမ်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A more reactive metal will always...",
+          questionMy: "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် အမြဲ...",
+          optionsEn: [
+            "Displace a less reactive metal from its salt solution",
+            "Refuse to react with anything",
+            "Be displaced by a less reactive metal",
+            "Turn into a noble gas",
+          ],
+          optionsMy: [
+            "ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုကို ၎င်း၏ ဆားပျော်ရည်မှ နေရာလွှဲပြောင်းသည်",
+            "မည်သည့်အရာနှင့်မျှ ဓာတ်ပြုရန် ငြင်းဆန်သည်",
+            "ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုတစ်ခုက နေရာလွှဲပြောင်းခံရသည်",
+            "Noble Gas အဖြစ် ပြောင်းလဲသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Rusting requires both oxygen and...",
+          questionMy:
+              "သံမောင်းတက်ခြင်းသည် Oxygen နှင့် ...နှစ်ခုစလုံး လိုအပ်သည်",
+          optionsEn: ["Water", "Carbon dioxide", "Nitrogen", "Chlorine"],
+          optionsMy: ["ရေ", "Carbon dioxide", "Nitrogen", "Chlorine"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In sacrificial protection, the attached metal must be...",
+          questionMy:
+              "Sacrificial Protection တွင် ကပ်တွဲထားသော သတ္တုသည် ...ဖြစ်ရမည်",
+          optionsEn: [
+            "More reactive than iron",
+            "Less reactive than iron",
+            "Exactly as reactive as iron",
+            "A noble gas",
+          ],
+          optionsMy: [
+            "သံထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော",
+            "သံထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသော",
+            "သံနှင့် အတိအကျ ညီမျှသော ဓာတ်ပြုနိုင်စွမ်းရှိသော",
+            "Noble Gas တစ်မျိုး",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 22: "Extraction of Metals"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek22 = CourseWeekDef(
+  id: "course-igcse-chem-w22",
+  weekNumber: 22,
+  titleEn: "Extraction of Metals",
+  titleMy: "သတ္တုများ ထုတ်ယူခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w22-d1",
+      dayNumber: 1,
+      titleEn: "Iron in the Blast Furnace",
+      titleMy: "Blast Furnace ရှိ သံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the blast furnace, what is the actual reducing agent that converts iron(III) oxide into molten iron?",
+          questionMy:
+              "Blast Furnace တွင် Iron(III) Oxide ကို အရည်ပျော် သံအဖြစ် ပြောင်းလဲစေသော အမှန်တကယ် Reducing Agent မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Carbon monoxide (CO), formed when coke burns and reacts further with carbon dioxide",
+            "Limestone (CaCO3) directly",
+            "The hot air blast itself",
+            "Water vapour from the atmosphere",
+          ],
+          optionsMy: [
+            "Carbon Monoxide (CO)၊ Coke လောင်ကျွမ်းစဉ် ဖြစ်ပေါ်ပြီး Carbon Dioxide နှင့် ဆက်လက် ဓာတ်ပြုခြင်းဖြင့် ရရှိ",
+            "Limestone (CaCO3) တိုက်ရိုက်",
+            "ပူသော လေအထုတ်ကိုယ်တိုင်",
+            "လေထုမှ ရေငွေ့",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "C + O2 -> CO2, then CO2 + C -> 2CO. This CO then reduces the ore: Fe2O3 + 3CO -> 2Fe + 3CO2.",
+          ],
+          hintsMy: [
+            "C + O2 -> CO2၊ ထို့နောက် CO2 + C -> 2CO ။ ဤ CO သည် ကျောက်သတ္တုကို Reduce လုပ်သည်- Fe2O3 + 3CO -> 2Fe + 3CO2 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What role does limestone (CaCO3) play in the blast furnace?",
+          questionMy:
+              "Blast Furnace တွင် Limestone (CaCO3) သည် မည်သည့်အခန်းကဏ္ဍမှ ပါဝင်သနည်း။",
+          optionsEn: [
+            "It decomposes to calcium oxide, which reacts with sandy (silica) impurities to form molten slag that is removed",
+            "It is the main source of iron",
+            "It cools the furnace down to prevent overheating",
+            "It reacts directly with iron to form steel",
+          ],
+          optionsMy: [
+            "Calcium Oxide အဖြစ် ခွဲထွက်ကာ သဲဓာတ် (Silica) ညစ်ညမ်းစေသောပစ္စည်းများနှင့် ဓာတ်ပြုပြီး ဖယ်ရှားရမည့် အရည်ပျော် Slag ဖွဲ့စည်းစေသည်",
+            "Iron ၏ အဓိက အရင်းအမြစ် ဖြစ်သည်",
+            "Furnace ပူလွန်းခြင်းကို ကာကွယ်ရန် အအေးခံပေးသည်",
+            "သံမဏိ (Steel) ဖွဲ့စည်းရန် သံနှင့် တိုက်ရိုက် ဓာတ်ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "CaCO3 -> CaO + CO2, then CaO + SiO2 -> CaSiO3 (slag), which floats on top of the molten iron and is tapped off separately.",
+          ],
+          hintsMy: [
+            "CaCO3 -> CaO + CO2၊ ထို့နောက် CaO + SiO2 -> CaSiO3 (Slag)၊ ၎င်းသည် အရည်ပျော် သံအပေါ်တွင် မျောနေကာ သီးခြား ထုတ်ယူခံရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can aluminium not be extracted from its ore by heating with carbon, unlike iron?",
+          questionMy:
+              "Aluminium ကို Iron ကဲ့သို့ Carbon ဖြင့် အပူပေး၍ ၎င်း၏ ကျောက်သတ္တုမှ ထုတ်ယူ၍ မရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide",
+            "Aluminium ore does not exist in nature",
+            "Aluminium melts at a lower temperature than iron",
+            "Carbon reacts explosively with aluminium",
+          ],
+          optionsMy: [
+            "Aluminium သည် Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် Carbon သည် Aluminium Oxide ကို Reduce လုပ်၍ မရ",
+            "Aluminium ကျောက်သတ္တုသည် သဘာဝတွင် လုံးဝ မရှိသောကြောင့်",
+            "Aluminium သည် Iron ထက် နိမ့်သော အပူချိန်တွင် အရည်ပျော်သောကြောင့်",
+            "Carbon သည် Aluminium နှင့် ပေါက်ကွဲစွာ ဓာတ်ပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Only metals less reactive than carbon can be reduced by carbon. Aluminium, being more reactive, requires electrolysis instead.",
+          ],
+          hintsMy: [
+            "Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုများကိုသာ Carbon ဖြင့် Reduce လုပ်နိုင်သည်။ ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသော Aluminium အတွက် Electrolysis လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Extraction and Alloys Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ထုတ်ယူခြင်းနှင့် Alloy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w22-dm-1",
+          termEn: "Alloy",
+          termMy: "Alloy",
+          matchEn:
+              "A mixture of a metal with one or more other elements, designed to improve its properties",
+          matchMy:
+              "သတ္တု၏ ဂုဏ်သတ္တိများ တိုးတက်စေရန် ဒီဇိုင်းထုတ်ထားသော အခြား ဒြပ်စင် တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ဒြပ်စင်များနှင့် သတ္တု၏ အရောအနှော",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w22-dm-2",
+          termEn: "Cryolite",
+          termMy: "Cryolite",
+          matchEn:
+              "The molten compound that aluminium oxide is dissolved in during electrolysis to lower its melting point",
+          matchMy:
+              "Aluminium Oxide ၏ အရည်ပျော်ချိန် လျော့ချရန် Electrolysis အတွင်း ၎င်းကို ပျော်ဝင်ထားသည့် အရည်ပျော် ဒြပ်ပေါင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w22-dm-3",
+          termEn: "Slag",
+          termMy: "Slag",
+          matchEn:
+              "The molten calcium silicate waste product that floats on molten iron in the blast furnace",
+          matchMy:
+              "Blast Furnace ရှိ အရည်ပျော် သံအပေါ်တွင် မျောနေသော အရည်ပျော် Calcium Silicate စွန့်ပစ်ပစ္စည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w22-dm-4",
+          termEn: "Steel",
+          termMy: "Steel",
+          matchEn:
+              "An alloy of iron and carbon, sometimes with other metals added for extra properties",
+          matchMy:
+              "ထပ်ဆောင်း ဂုဏ်သတ္တိများအတွက် အခြား သတ္တုများ တစ်ခါတစ်ရံ ထည့်သွင်းထားသော Iron နှင့် Carbon ၏ Alloy",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w22-dm-5",
+          termEn: "Electrolysis (of aluminium oxide)",
+          termMy: "Electrolysis (Aluminium Oxide ၏)",
+          matchEn:
+              "The method used to extract a reactive metal like aluminium, since carbon cannot reduce its oxide",
+          matchMy:
+              "Aluminium ကဲ့သို့ ဓာတ်ပြုနိုင်စွမ်း ရှိသော သတ္တုတစ်ခုကို ထုတ်ယူရန် အသုံးပြုသော နည်းလမ်း၊ Carbon သည် ၎င်း၏ Oxide ကို Reduce လုပ်၍ မရသောကြောင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Blast Furnace or Aluminium Electrolysis?",
+      titleMy: "စီစစ်ကြမည် - Blast Furnace လား၊ Aluminium Electrolysis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Blast Furnace", "Aluminium Electrolysis"],
+        bucketsMy: ["Blast Furnace", "Aluminium Electrolysis"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w22-sort-1",
+            labelEn:
+                "Coke burns to produce carbon monoxide as the reducing agent",
+            labelMy:
+                "Coke လောင်ကျွမ်းကာ Reducing Agent အဖြစ် Carbon Monoxide ထုတ်ပေးသည်",
+            correctBucketEn: "Blast Furnace",
+            correctBucketMy: "Blast Furnace",
+          ),
+          SortingItem(
+            id: "igcsechem-w22-sort-2",
+            labelEn:
+                "Oxygen gas forms at the carbon anode, gradually burning it away",
+            labelMy:
+                "Carbon Anode တွင် Oxygen ဓာတ်ငွေ့ ဖြစ်ပေါ်ကာ ၎င်းကို တဖြည်းဖြည်း လောင်ကျွမ်းစေသည်",
+            correctBucketEn: "Aluminium Electrolysis",
+            correctBucketMy: "Aluminium Electrolysis",
+          ),
+          SortingItem(
+            id: "igcsechem-w22-sort-3",
+            labelEn:
+                "Limestone decomposes and removes sandy impurities as molten slag",
+            labelMy:
+                "Limestone ခွဲထွက်ကာ သဲဓာတ် ညစ်ညမ်းစေသောပစ္စည်းများကို အရည်ပျော် Slag အဖြစ် ဖယ်ရှားသည်",
+            correctBucketEn: "Blast Furnace",
+            correctBucketMy: "Blast Furnace",
+          ),
+          SortingItem(
+            id: "igcsechem-w22-sort-4",
+            labelEn:
+                "The ore is dissolved in molten cryolite to lower the melting point before electrolysis",
+            labelMy:
+                "Electrolysis မပြုလုပ်မီ အရည်ပျော်ချိန် လျော့ချရန် ကျောက်သတ္တုကို အရည်ပျော် Cryolite ထဲတွင် ပျော်ဝင်စေသည်",
+            correctBucketEn: "Aluminium Electrolysis",
+            correctBucketMy: "Aluminium Electrolysis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Daw Khin's Aluminium Recycling Argument",
+      titleMy:
+          "စာဖတ်ခြင်း - ဒေါ်ခင်၏ Aluminium ပြန်လည်အသုံးချမှု အကြောင်းပြချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Daw Khin's Aluminium Recycling Argument",
+        titleMy: "ဒေါ်ခင်၏ Aluminium ပြန်လည်အသုံးချမှု အကြောင်းပြချက်",
+        passageEn:
+            "Daw Khin showed Shin Thant two soft drink cans -- one made of steel-coated tin, the other of aluminium -- and asked which was more important to recycle from an energy standpoint. Shin Thant initially guessed they would be similar, but Daw Khin explained the extraction chemistry told a very different story.\n\nIron, she reminded Shin Thant, is extracted from haematite by reduction with carbon monoxide in a blast furnace -- a process that runs at high temperature but relies on a relatively cheap chemical reaction. Aluminium, by contrast, cannot be extracted this way at all, since aluminium is more reactive than carbon and carbon simply cannot remove the oxygen from aluminium oxide. Instead, aluminium oxide must be melted and electrolysed, which demands enormous amounts of electrical energy to keep the huge industrial cells running continuously, and the carbon anodes themselves are consumed and must be regularly replaced as oxygen produced at the anode burns them away.\n\nBecause producing aluminium from its ore is so energy-intensive, Daw Khin explained, recycling scrap aluminium uses only around five percent of the energy needed to extract the same amount of new aluminium from ore, since melting down existing metal skips the electrolysis step entirely. Iron recycling saves energy too, but the gap is far smaller, since the blast furnace process was already comparatively less energy-hungry to begin with. Shin Thant realised this was a direct, practical consequence of where each metal sat relative to carbon in the reactivity series -- an abstract idea from earlier in the week suddenly explaining something as concrete as why aluminium can recycling campaigns exist.",
+        passageMy:
+            "ဒေါ်ခင်သည် ရှင်သန့်အား အအေးဖျော်ရည် ဗူးနှစ်ဗူးကို ပြသခဲ့သည် -- တစ်ဗူးမှာ သံမဏိကို Tin ဖြင့် ကပ်ထားသည်၊ အခြားတစ်ဗူးမှာ Aluminium ဖြင့် ပြုလုပ်ထားသည် -- ပြီးလျှင် စွမ်းအင်ရှုထောင့်မှ ကြည့်လျှင် မည်သည်ကို ပြန်လည်အသုံးချရန် ပို၍ အရေးကြီးသည်ကို မေးမြန်းခဲ့သည်။ ရှင်သန့်သည် ပထမတွင် ဆင်တူမည်ဟု ခန့်မှန်းခဲ့သော်လည်း ဒေါ်ခင်က ထုတ်ယူရေး ဓာတုဗေဒက လုံးဝ ကွဲပြားသော ဇာတ်လမ်းကို ပြောပြခဲ့သည်။\n\nသံသည် Blast Furnace တစ်ခုအတွင်း Carbon Monoxide ဖြင့် Reduction လုပ်၍ Haematite မှ ထုတ်ယူသည်ကို သူမ ရှင်သန့်ကို သတိပေးခဲ့သည် -- ဤလုပ်ငန်းစဉ်သည် အပူချိန်မြင့်စွာ လည်ပတ်သော်လည်း အတော်အတန် ဈေးသက်သာသော ဓာတုဗေဒ ဓာတ်ပြုမှုတစ်ခုအပေါ် မှီခိုနေသည်။ ထိုနှင့် ဆန့်ကျင်ဘက်အနေဖြင့် Aluminium ကိုမူ ဤနည်းဖြင့် လုံးဝ ထုတ်ယူ၍ မရပါ၊ အကြောင်းမှာ Aluminium သည် Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိပြီး Carbon သည် Aluminium Oxide မှ Oxygen ကို ရိုးရိုးရှင်းရှင်း မဖယ်ရှားနိုင်သောကြောင့်ဖြစ်သည်။ ယင်းအစား Aluminium Oxide ကို အရည်ပျော်စေပြီး Electrolysis ပြုလုပ်ရမည်ဖြစ်ကာ ကြီးမားသော စက်မှု ဆဲလ်များကို ဆက်တိုက် လည်ပတ်နိုင်ရန် လျှပ်စစ်စွမ်းအင် အလွန်အမင်း လိုအပ်ပြီး Carbon Anode များကိုယ်တိုင်လည်း Anode တွင် ဖြစ်ပေါ်လာသော Oxygen က ၎င်းတို့ကို လောင်ကျွမ်းစေသဖြင့် အသုံးလုပ်ကုန်ကာ ပုံမှန် အစားထိုးရမည် ဖြစ်သည်။\n\nAluminium ကို ၎င်း၏ ကျောက်သတ္တုမှ ထုတ်လုပ်ခြင်းသည် စွမ်းအင် သုံးစွဲမှု အလွန်များသောကြောင့် Aluminium အပိုင်းအစများကို ပြန်လည်အသုံးချခြင်းသည် Ore မှ တူညီသောပမာဏ Aluminium အသစ်ကို ထုတ်ယူရန် လိုအပ်သော စွမ်းအင်၏ ငါးရာခိုင်နှုန်းခန့်သာ အသုံးပြုသည်ဟု ဒေါ်ခင် ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ရှိပြီးသား သတ္တုကို အရည်ပျော်ခြင်းက Electrolysis အဆင့်ကို လုံးဝ ကျော်သွားစေသောကြောင့် ဖြစ်သည်။ သံ ပြန်လည်အသုံးချခြင်းသည်လည်း စွမ်းအင် ချွေတာစေသော်လည်း ကွာခြားချက်သည် များစွာ ပို၍ သေးငယ်သည်၊ အကြောင်းမှာ Blast Furnace လုပ်ငန်းစဉ်သည် အစပိုင်းကတည်းက နှိုင်းယှဉ်အားဖြင့် စွမ်းအင် အလွန် သုံးစွဲသည့် လုပ်ငန်းစဉ် မဟုတ်ခဲ့သောကြောင့်ဖြစ်သည်။ ဒြပ်စင်တစ်ခုစီသည် ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon နှင့် နှိုင်းယှဉ်လျှင် မည်သည့်နေရာတွင် ရှိသည်ဟူသော တိုက်ရိုက် လက်တွေ့ဆိုင်ရာ အကျိုးဆက် ဖြစ်ကြောင်း ရှင်သန့် သိရှိခဲ့သည် -- ဤအပတ်၏ အစောပိုင်းက ယေဘူယျ အယူအဆတစ်ခုသည် Aluminium ပြန်လည်အသုံးချရေး လှုပ်ရှားမှုများ ရှိနေရသည့် အကြောင်းရင်းလို တိကျသော အရာတစ်ခုကို ရုတ်တရက် ရှင်းပြပေးနိုင်ခြင်းဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why can aluminium not be extracted by the same carbon reduction process as iron?",
+            questionMy:
+                "Aluminium ကို Iron ကဲ့သို့ Carbon Reduction လုပ်ငန်းစဉ် အတူတူဖြင့် ထုတ်ယူ၍ မရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Aluminium is more reactive than carbon, so carbon cannot remove the oxygen from aluminium oxide",
+              "Aluminium oxide does not contain oxygen",
+              "Aluminium melts at too low a temperature for a furnace",
+              "Carbon is too expensive to use for aluminium",
+            ],
+            optionsMy: [
+              "Aluminium သည် Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် Carbon သည် Aluminium Oxide မှ Oxygen ကို ဖယ်ရှား၍ မရ",
+              "Aluminium Oxide တွင် Oxygen ပါဝင်ခြင်း မရှိသောကြောင့်",
+              "Aluminium သည် Furnace တစ်ခုအတွက် နိမ့်လွန်းသော အပူချိန်တွင် အရည်ပျော်သောကြောင့်",
+              "Aluminium အတွက် Carbon သည် အသုံးပြုရန် ဈေးကြီးလွန်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence contrasting iron and aluminium extraction.",
+            ],
+            hintsMy: [
+              "Iron နှင့် Aluminium ထုတ်ယူခြင်းကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, roughly how much energy does recycling aluminium use compared to extracting new aluminium from ore?",
+            questionMy:
+                "Aluminium ပြန်လည်အသုံးချခြင်းသည် Ore မှ Aluminium အသစ် ထုတ်ယူခြင်းနှင့် နှိုင်းယှဉ်လျှင် မည်မျှခန့် စွမ်းအင် သုံးစွဲသနည်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only around five percent",
+              "About fifty percent",
+              "Exactly the same amount",
+              "About twice as much",
+            ],
+            optionsMy: [
+              "ငါးရာခိုင်နှုန်းခန့်သာ",
+              "ငါးဆယ်ရာခိုင်နှုန်းခန့်",
+              "အတိအကျ ညီမျှသော ပမာဏ",
+              "နှစ်ဆခန့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with the specific percentage figure.",
+            ],
+            hintsMy: [
+              "တိကျသော ရာခိုင်နှုန်း ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what general idea did Shin Thant connect to the aluminium recycling fact?",
+            questionMy:
+                "Aluminium ပြန်လည်အသုံးချမှု အချက်နှင့် ရှင်သန့် ချိတ်ဆက်ခဲ့သော ယေဘူယျ အယူအဆကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Where each metal sits relative to carbon in the reactivity series",
+              "The colour of aluminium oxide",
+              "The exact melting point of steel",
+              "The taste of soft drinks in cans",
+            ],
+            optionsMy: [
+              "ဒြပ်စင်တစ်ခုစီသည် ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon နှင့် နှိုင်းယှဉ်လျှင် မည်သည့်နေရာတွင် ရှိသည်ဆိုသော အချက်",
+              "Aluminium Oxide ၏ အရောင်",
+              "သံမဏိ၏ အတိအကျ အရည်ပျော်ချိန်",
+              "ဗူးထဲရှိ အအေးဖျော်ရည်၏ အရသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Extraction of Metals",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သတ္တုများ ထုတ်ယူခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In the blast furnace, iron oxide is reduced by...",
+          questionMy: "Blast Furnace တွင် Iron Oxide ကို ...က Reduce လုပ်သည်",
+          optionsEn: ["Carbon monoxide", "Oxygen", "Water", "Nitrogen"],
+          optionsMy: ["Carbon Monoxide", "Oxygen", "ရေ", "Nitrogen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Aluminium must be extracted by electrolysis because it is...",
+          questionMy:
+              "Aluminium သည် ...ဖြစ်သောကြောင့် Electrolysis ဖြင့် ထုတ်ယူရမည်",
+          optionsEn: [
+            "More reactive than carbon",
+            "Less reactive than carbon",
+            "A noble gas",
+            "Not actually a metal",
+          ],
+          optionsMy: [
+            "Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသည်",
+            "Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသည်",
+            "Noble Gas တစ်မျိုး",
+            "အမှန်တကယ် သတ္တု မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An alloy is best described as...",
+          questionMy: "Alloy တစ်ခုကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A mixture of a metal with other elements to improve its properties",
+            "A pure single element",
+            "A type of noble gas",
+            "A compound with no metal at all",
+          ],
+          optionsMy: [
+            "ဂုဏ်သတ္တိများ တိုးတက်စေရန် အခြား ဒြပ်စင်များနှင့် သတ္တု၏ အရောအနှော",
+            "စင်ကြယ်သော တစ်ခုတည်းသော ဒြပ်စင်",
+            "Noble Gas အမျိုးအစားတစ်ခု",
+            "သတ္တု လုံးဝ မပါသော ဒြပ်ပေါင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 23: "Air, Water, and Environmental Chemistry"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek23 = CourseWeekDef(
+  id: "course-igcse-chem-w23",
+  weekNumber: 23,
+  titleEn: "Air, Water, and Environmental Chemistry",
+  titleMy: "လေထု၊ ရေထုနှင့် ပတ်ဝန်းကျင် ဓာတုဗေဒ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w23-d1",
+      dayNumber: 1,
+      titleEn: "Air Pollution and Catalytic Converters",
+      titleMy: "လေထု ညစ်ညမ်းမှုနှင့် Catalytic Converter",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the approximate composition of clean, dry air by volume?",
+          questionMy:
+              "သန့်ရှင်း၍ ခြောက်သွေ့သော လေထု၏ ထုထည်အလိုက် ခန့်မှန်း ပါဝင်မှုကား အဘယ်နည်း။",
+          optionsEn: [
+            "About 78% nitrogen, 21% oxygen, and around 1% noble gases (mainly argon) with trace carbon dioxide",
+            "About 78% oxygen and 21% nitrogen",
+            "About 50% carbon dioxide and 50% oxygen",
+            "Almost entirely oxygen with a small amount of hydrogen",
+          ],
+          optionsMy: [
+            "Nitrogen ၇၈% ခန့်၊ Oxygen ၂၁% ခန့်နှင့် Noble Gas (အများစုမှာ Argon) ၁% ခန့် အနည်းငယ် Carbon Dioxide ပါ၀င်",
+            "Oxygen ၇၈% ခန့်နှင့် Nitrogen ၂၁% ခန့်",
+            "Carbon Dioxide ၅၀% နှင့် Oxygen ၅၀%",
+            "Hydrogen အနည်းငယ်ပါသော လုံးဝနီးပါး Oxygen သက်သက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Nitrogen makes up the majority of the atmosphere, not oxygen -- a common IGCSE misconception to avoid.",
+          ],
+          hintsMy: [
+            "Nitrogen သည် လေထု၏ အများစု ဖြစ်ပြီး Oxygen မဟုတ်ပါ -- ရှောင်ကြဉ်သင့်သော အသိသာစွာ ရေတွက်မှားနေတတ်သော IGCSE အယူအဆတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a catalytic converter reduce harmful car exhaust gases?",
+          questionMy:
+              "Catalytic Converter တစ်ခုသည် ကားအငွေ့ ဒုက္ခပေးသော ဓာတ်ငွေ့များကို မည်သို့ လျှော့ချသနည်း။",
+          optionsEn: [
+            "It uses a platinum/rhodium catalyst to convert CO and NOx into less harmful CO2, N2, and H2O",
+            "It simply filters out all gases, releasing nothing at all",
+            "It burns extra fuel to produce more carbon dioxide",
+            "It adds chlorine to neutralise the exhaust gases",
+          ],
+          optionsMy: [
+            "CO နှင့် NOx ကို ဒုက္ခပေးမှု နည်းသော CO2, N2 နှင့် H2O သို့ ပြောင်းလဲရန် Platinum/Rhodium Catalyst ကို အသုံးပြုသည်",
+            "ဓာတ်ငွေ့အားလုံးကို ရိုးရိုးရှင်းရှင်း စစ်ထုတ်ကာ မည်သည့်အရာမှ လုံးဝ မထုတ်လွှတ်ပါ",
+            "Carbon Dioxide ပို၍ ထုတ်ပေးရန် လောင်စာ ပို၍ လောင်ကျွမ်းစေသည်",
+            "အငွေ့ဓာတ်ငွေ့များကို Neutralise ပြုလုပ်ရန် Chlorine ထည့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example: 2CO + 2NO -> 2CO2 + N2. The catalyst speeds up this reaction without being consumed.",
+          ],
+          hintsMy: [
+            "ဥပမာ- 2CO + 2NO -> 2CO2 + N2 ။ Catalyst သည် သုံးစွဲမခံရဘဲ ဤဓာတ်ပြုမှုကို အရှိန်မြှင့်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is sulfur dioxide from burning fossil fuels considered a major cause of acid rain?",
+          questionMy:
+              "Fossil Fuel လောင်ကျွမ်းမှုမှ ထွက်လာသော Sulfur Dioxide ကို မိုးရေဆိုးဖြစ်စေသော အဓိက အကြောင်းရင်းတစ်ခုဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It dissolves in atmospheric water droplets to form acidic solutions, which fall as acid rain",
+            "It reacts with sunlight to form ozone directly",
+            "It is a greenhouse gas that traps heat but does not affect rain acidity",
+            "It has no effect on rain acidity whatsoever",
+          ],
+          optionsMy: [
+            "လေထုအတွင်းရှိ ရေအစက်များတွင် ပျော်ဝင်ကာ အက်ဆစ် ပျော်ရည်များ ဖြစ်စေပြီး မိုးရေဆိုးအဖြစ် ကျရောက်လာသည်",
+            "နေရောင်ခြည်နှင့် တိုက်ရိုက် ဓာတ်ပြုကာ Ozone ဖြစ်ပေါ်စေသည်",
+            "အပူကို ထောင်ချောက်ချသော ဖန်လုံအိမ်ဓာတ်ငွေ့တစ်မျိုးဖြစ်သော်လည်း မိုးရေ အက်ဆစ်ဓာတ်အပေါ် သက်ရောက်မှု မရှိပါ",
+            "မိုးရေ အက်ဆစ်ဓာတ်အပေါ် မည်သည့်သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sulfur dioxide dissolves in water in clouds to form dilute sulfurous/sulfuric acid, which then falls as precipitation.",
+          ],
+          hintsMy: [
+            "Sulfur Dioxide သည် တိမ်များအတွင်းရှိ ရေတွင် ပျော်ဝင်ကာ ရေဖျော် Sulfurous/Sulfuric Acid ဖြစ်စေပြီး မိုးအဖြစ် ကျရောက်လာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Environmental Chemistry Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပတ်ဝန်းကျင် ဓာတုဗေဒ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w23-dm-1",
+          termEn: "Greenhouse gas",
+          termMy: "Greenhouse Gas",
+          matchEn:
+              "A gas like carbon dioxide or methane that traps infrared radiation, contributing to global warming",
+          matchMy:
+              "ကမ္ဘာကြီး ပူနွေးလာမှုကို အကြောင်းတစ်ခု ဖြစ်စေသော Infrared Radiation ကို ထောင်ချောက်ချသော Carbon Dioxide သို့မဟုတ် Methane ကဲ့သို့ ဓာတ်ငွေ့တစ်မျိုး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w23-dm-2",
+          termEn: "Acid rain",
+          termMy: "Acid Rain",
+          matchEn:
+              "Rainfall made acidic by dissolved sulfur dioxide and nitrogen oxides in the atmosphere",
+          matchMy:
+              "လေထုအတွင်း ပျော်ဝင်နေသော Sulfur Dioxide နှင့် Nitrogen Oxide များကြောင့် အက်ဆစ်ဓာတ်ဖြစ်စေသော မိုးရေချုးင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w23-dm-3",
+          termEn: "Sedimentation",
+          termMy: "Sedimentation",
+          matchEn:
+              "The first stage of water treatment, allowing large suspended particles to settle out",
+          matchMy:
+              "ရေသန့်စင်ခြင်း၏ ပထမအဆင့်၊ ကြီးမားသော ပျော်ဝင်နေသော အမှုန်များ ကျစေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w23-dm-4",
+          termEn: "Chlorination",
+          termMy: "Chlorination",
+          matchEn:
+              "Adding chlorine to treated water to kill harmful bacteria and pathogens",
+          matchMy:
+              "ဆေးကြောပြီးသော ရေထဲသို့ ဒုက္ခပေးသော ဘက်တီးရီးယားနှင့် ရောဂါပိုးများ သတ်ဖြတ်ရန် Chlorine ထည့်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w23-dm-5",
+          termEn: "Catalytic converter",
+          termMy: "Catalytic Converter",
+          matchEn:
+              "A car exhaust component that converts carbon monoxide and nitrogen oxides into less harmful gases",
+          matchMy:
+              "Carbon Monoxide နှင့် Nitrogen Oxide များကို ဒုက္ခပေးမှု နည်းသော ဓာတ်ငွေ့များသို့ ပြောင်းလဲပေးသော ကားအငွေ့ ပစ္စည်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Air Pollutant, Greenhouse Gas, or Water Treatment Step?",
+      titleMy:
+          "စီစစ်ကြမည် - Air Pollutant လား၊ Greenhouse Gas လား၊ Water Treatment Step လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Air Pollutant", "Greenhouse Gas", "Water Treatment Step"],
+        bucketsMy: ["Air Pollutant", "Greenhouse Gas", "Water Treatment Step"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w23-sort-1",
+            labelEn:
+                "Carbon monoxide -- toxic, binds to haemoglobin in the blood",
+            labelMy:
+                "Carbon Monoxide -- အဆိပ်ရှိပြီး သွေးထဲရှိ Haemoglobin နှင့် ချိတ်ဆက်သည်",
+            correctBucketEn: "Air Pollutant",
+            correctBucketMy: "Air Pollutant",
+          ),
+          SortingItem(
+            id: "igcsechem-w23-sort-2",
+            labelEn:
+                "Methane -- traps infrared radiation, contributing to global warming",
+            labelMy:
+                "Methane -- Infrared Radiation ကို ထောင်ချောက်ချကာ ကမ္ဘာကြီး ပူနွေးလာမှုကို အကြောင်းတစ်ခု ဖြစ်စေသည်",
+            correctBucketEn: "Greenhouse Gas",
+            correctBucketMy: "Greenhouse Gas",
+          ),
+          SortingItem(
+            id: "igcsechem-w23-sort-3",
+            labelEn:
+                "Passing water through a sand bed to remove suspended solids",
+            labelMy:
+                "ပျော်ဝင်နေသော အစိုင်အခဲများ ဖယ်ရှားရန် သဲလွှာတစ်ခုကို ဖြတ်၍ ရေကို ဖြတ်သန်းစေခြင်း",
+            correctBucketEn: "Water Treatment Step",
+            correctBucketMy: "Water Treatment Step",
+          ),
+          SortingItem(
+            id: "igcsechem-w23-sort-4",
+            labelEn:
+                "Sulfur dioxide -- dissolves in atmospheric water to cause acid rain",
+            labelMy:
+                "Sulfur Dioxide -- လေထုရေတွင် ပျော်ဝင်ကာ မိုးရေဆိုးဖြစ်စေသည်",
+            correctBucketEn: "Air Pollutant",
+            correctBucketMy: "Air Pollutant",
+          ),
+          SortingItem(
+            id: "igcsechem-w23-sort-5",
+            labelEn:
+                "Adding chlorine to kill bacteria before water reaches homes",
+            labelMy:
+                "ရေသည် အိမ်များသို့ မရောက်မီ ဘက်တီးရီးယား သတ်ဖြတ်ရန် Chlorine ထည့်ခြင်း",
+            correctBucketEn: "Water Treatment Step",
+            correctBucketMy: "Water Treatment Step",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw's Water Treatment Plant Tour",
+      titleMy: "စာဖတ်ခြင်း - ကိုဇော်၏ ရေသန့်စင်စက်ရုံ လှည့်လည်ကြည့်ရှုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw's Water Treatment Plant Tour",
+        titleMy: "ကိုဇော်၏ ရေသန့်စင်စက်ရုံ လှည့်လည်ကြည့်ရှုခြင်း",
+        passageEn:
+            "Ko Zaw arranged a tour of the local water treatment plant for Shin Thant, walking her through each stage in the order the raw river water actually flowed. At the first large tank, muddy water sat almost still for hours, allowing heavy suspended particles like sand and silt to sink to the bottom under gravity alone -- this stage, the engineer explained, was sedimentation, and it required no chemicals at all, just time and a large enough tank.\n\nThe partially clarified water then flowed through a deep bed of sand and gravel, trapping finer suspended particles that had not settled during sedimentation -- this filtration stage produced visibly clearer water, though Ko Zaw was careful to point out that clear water is not automatically safe water, since dissolved pathogens are invisible to the eye. That was the purpose of the final stage: a measured, small dose of chlorine gas was added to the filtered water, killing the bacteria and other microorganisms that could otherwise cause disease if the water were consumed untreated.\n\nShin Thant asked why the plant did not simply add chlorine at the very start to avoid the wait for sedimentation and filtration. Ko Zaw explained that chlorine works far more effectively and economically once most solid particles are already removed, since suspended dirt can shield pathogens from the chlorine and also reacts with and wastes the chlorine before it reaches the bacteria; treating the water in the correct order -- sedimentation, then filtration, then chlorination -- therefore used far less chlorine overall while still killing pathogens reliably, an efficiency argument as much a part of chemistry as the reactions themselves.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်အတွက် ဒေသန္တရ ရေသန့်စင်စက်ရုံ လှည့်လည်ကြည့်ရှုခြင်းကို စီစဉ်ပေးခဲ့ပြီး မူလ မြစ်ရေ အမှန်တကယ် စီးဆင်းသည့် အစဉ်လိုက်အတိုင်း အဆင့်တစ်ခုစီကို သူမအား ပြသခဲ့သည်။ ပထမ ကြီးမားသော ရေကန်ကြီးတွင် ရွှံ့ညစ်သော ရေသည် နာရီများစွာ လုံးဝနီးပါး ငြိမ်နေခဲ့ပြီး၊ သဲနှင့် ရွံ့ကဲ့သို့ လေးလံသော ပျော်ဝင်နေသော အမှုန်များ ဆွဲငင်အား တစ်ခုတည်းအောက်တွင် အောက်ခြေသို့ ကျစေခဲ့သည် -- ဤအဆင့်ကို Sedimentation ဟု အင်ဂျင်နီယာက ရှင်းပြခဲ့ပြီး ဓာတုပစ္စည်း လုံးဝ လိုအပ်ခြင်း မရှိဘဲ အချိန်နှင့် လုံလောက်စွာ ကြီးမားသော ကန်တစ်ခုသာ လိုအပ်ခဲ့သည်။\n\nတစ်စိတ်တစ်ပိုင်း ကြည်လင်သွားသော ရေသည် Sedimentation အတွင်း မကျခဲ့သေးသော ပို၍ သေးငယ်သော ပျော်ဝင်နေသော အမှုန်များကို ဖမ်းယူသော သဲနှင့် ကျောက်စရစ် အလွှာအထူတစ်ခုကို ဖြတ်ကာ စီးဆင်းသွားခဲ့သည် -- ဤ Filtration အဆင့်သည် မြင်နိုင်လောက်အောင် ရေကို ရှင်းလင်းစေခဲ့သော်လည်း ကြည်လင်သော ရေသည် လုံခြုံသော ရေ အလိုအလျောက် မဟုတ်ကြောင်း ကိုဇော် သတိပြု ထောက်ပြခဲ့သည်၊ အကြောင်းမှာ ပျော်ဝင်နေသော ရောဂါပိုးများသည် မျက်စိဖြင့် မမြင်နိုင်သောကြောင့်ဖြစ်သည်။ ၎င်းသည် နောက်ဆုံး အဆင့်၏ ရည်ရွယ်ချက် ဖြစ်ခဲ့သည် - Chlorine ဓာတ်ငွေ့ ငယ်ငယ်စား တိကျသော ပမာဏတစ်ခုကို စစ်ထုတ်ထားသော ရေထဲသို့ ထည့်ကာ ရေကို မသန့်စင်ဘဲ သောက်သုံးပါက ရောဂါဖြစ်စေနိုင်သော ဘက်တီးရီးယားနှင့် အခြား Microorganism များကို သတ်ဖြတ်ခဲ့သည်။\n\nSedimentation နှင့် Filtration အတွက် စောင့်ဆိုင်းရမှုကို ရှောင်ရှားရန် Chlorine ကို အစအဦးတွင် ရိုးရိုးရှင်းရှင်း ထည့်ခြင်း အဘယ်ကြောင့် မလုပ်ရသနည်းဟု ရှင်သန့် မေးမြန်းခဲ့သည်။ အစိုင်အခဲအများစု ဖယ်ရှားပြီးသည့်နောက်တွင် Chlorine သည် ပို၍ ထိရောက်စွာနှင့် ချွေတာစွာ အလုပ်လုပ်ကြောင်း ကိုဇော် ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ပျော်ဝင်နေသော ညစ်ညမ်းမှုက ရောဂါပိုးများကို Chlorine မှ ကွယ်ဝှက်ပေးနိုင်ပြီး ဘက်တီးရီးယားထံ မရောက်မီ Chlorine ကို ဓာတ်ပြု၍ အလဟဿ ဖြစ်စေနိုင်သောကြောင့် ဖြစ်သည်၊ ထို့ကြောင့် Sedimentation၊ Filtration၊ ထို့နောက် Chlorination ဟူသော မှန်ကန်သော အစဉ်လိုက်ဖြင့် ရေကို ဆေးကြောခြင်းသည် ရောဂါပိုးများကို ယုံကြည်စိတ်ချစွာ သတ်ဖြတ်နေဆဲဖြစ်ပါလျက် စုစုပေါင်းအားဖြင့် Chlorine ပို၍ နည်းစွာ သုံးစွဲစေခဲ့သည်၊ ဤသည်ကား ဓာတ်ပြုမှုများကိုယ်တိုင်လိုပင် ဓာတုဗေဒ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သော ထိရောက်မှု အကြောင်းပြချက် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what happens during sedimentation, and what does it require?",
+            questionMy:
+                "Sedimentation အတွင်း အဘယ်ဖြစ်ပေါ်ပြီး အဘယ်အရာ လိုအပ်သနည်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Heavy suspended particles sink to the bottom under gravity; it requires no chemicals, just time and a large tank",
+              "Chlorine kills bacteria; it requires precise chemical dosing",
+              "Water passes through sand; it requires a deep filter bed",
+              "Water is boiled; it requires a heat source",
+            ],
+            optionsMy: [
+              "လေးလံသော ပျော်ဝင်နေသော အမှုန်များသည် ဆွဲငင်အားအောက်တွင် အောက်ခြေသို့ ကျသည်; ဓာတုပစ္စည်း မလိုအပ်ဘဲ အချိန်နှင့် ကြီးမားသော ကန်တစ်ခုသာ လိုအပ်",
+              "Chlorine က ဘက်တီးရီးယားများ သတ်ဖြတ်သည်; တိကျသော ဓာတုပစ္စည်း ပမာဏ တိုင်းတာမှု လိုအပ်",
+              "ရေသည် သဲကို ဖြတ်၍ စီးဆင်းသည်; နက်ရှိုင်းသော စစ်ထုတ်စက် အလွှာ လိုအပ်",
+              "ရေကို ဆူပွက်စေသည်; အပူအရင်းအမြစ် လိုအပ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first paragraph explaining what sedimentation is.",
+            ],
+            hintsMy: [
+              "Sedimentation ဆိုသည်မှာ အဘယ်နည်းကို ရှင်းပြထားသော ပထမ စာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Zaw say clear water is not automatically safe water?",
+            questionMy:
+                "ကြည်လင်သော ရေသည် လုံခြုံသော ရေ အလိုအလျောက် မဟုတ်ဟု ကိုဇော် ပြောကြားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Dissolved pathogens are invisible to the eye even after filtration removes solid particles",
+              "Clear water always tastes bad",
+              "Filtration adds harmful chemicals to the water",
+              "Clear water is always too cold to drink",
+            ],
+            optionsMy: [
+              "Filtration က အစိုင်အခဲ အမှုန်များ ဖယ်ရှားပြီးနောက်တွင်ပင် ပျော်ဝင်နေသော ရောဂါပိုးများသည် မျက်စိဖြင့် မမြင်နိုင်သောကြောင့်",
+              "ကြည်လင်သော ရေသည် အမြဲတမ်း အရသာ မကောင်းသောကြောင့်",
+              "Filtration က ရေထဲသို့ ဒုက္ခပေးသော ဓာတုပစ္စည်းများ ထည့်သွင်းသောကြောင့်",
+              "ကြည်လင်သော ရေသည် သောက်သုံးရန် အမြဲတမ်း အလွန် အေးလွန်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence Ko Zaw uses to caution about clarity vs safety.",
+            ],
+            hintsMy: [
+              "ကြည်လင်မှုနှင့် လုံခြုံမှု ကွာခြားချက်ကို သတိပေးရန် ကိုဇော် အသုံးပြုသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does treating water in the correct order (sedimentation, filtration, chlorination) use less chlorine overall?",
+            questionMy:
+                "မှန်ကန်သော အစဉ်လိုက် (Sedimentation, Filtration, Chlorination) ဖြင့် ရေကို ဆေးကြောခြင်းသည် စုစုပေါင်းအားဖြင့် Chlorine ပို၍ နည်းစွာ သုံးစွဲစေရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Suspended dirt can shield pathogens from chlorine and waste chlorine before it reaches bacteria, if not removed first",
+              "Chlorine is more expensive when added early",
+              "Sedimentation and filtration destroy chlorine molecules",
+              "The order actually makes no difference to chlorine usage",
+            ],
+            optionsMy: [
+              "ဦးစွာ မဖယ်ရှားပါက ပျော်ဝင်နေသော ညစ်ညမ်းမှုက ရောဂါပိုးများကို Chlorine မှ ကွယ်ဝှက်ပေးနိုင်ပြီး ဘက်တီးရီးယားထံ မရောက်မီ Chlorine ကို အလဟဿ ဖြစ်စေနိုင်သောကြောင့်",
+              "Chlorine ကို စောစီးစွာ ထည့်ပါက ဈေးပို၍ ကြီးသောကြောင့်",
+              "Sedimentation နှင့် Filtration က Chlorine မော်လီကျူးများကို ဖျက်ဆီးသောကြောင့်",
+              "အစဉ်လိုက်သည် Chlorine သုံးစွဲမှုအပေါ် မည်သည့်ကွာခြားချက်မျှ လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Ko Zaw's explanation of why order matters in the final paragraph.",
+            ],
+            hintsMy: [
+              "အစဉ်လိုက် အရေးကြီးရသည့် အကြောင်းရင်းအား ကိုဇော်၏ ရှင်းပြချက် ပါဝင်သော နောက်ဆုံး စာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Air, Water, and Environment",
+      titleMy:
+          "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - လေထု၊ ရေထုနှင့် ပတ်ဝန်းကျင်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The most abundant gas in clean, dry air is...",
+          questionMy:
+              "သန့်ရှင်း၍ ခြောက်သွေ့သော လေထုတွင် အများဆုံးရှိသော ဓာတ်ငွေ့မှာ...",
+          optionsEn: ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
+          optionsMy: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Chlorination is used in water treatment to...",
+          questionMy: "ရေသန့်စင်ခြင်းတွင် Chlorination ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Kill harmful bacteria and pathogens",
+            "Remove all suspended solids",
+            "Add colour to the water",
+            "Increase the water's pH above 12",
+          ],
+          optionsMy: [
+            "ဒုက္ခပေးသော ဘက်တီးရီးယားနှင့် ရောဂါပိုးများ သတ်ဖြတ်ရန်",
+            "ပျော်ဝင်နေသော အစိုင်အခဲများ အားလုံး ဖယ်ရှားရန်",
+            "ရေထဲသို့ အရောင် ထည့်သွင်းရန်",
+            "ရေ၏ pH ကို ၁၂ အထက် တိုးမြှင့်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A catalytic converter helps reduce pollution by converting CO and NOx into...",
+          questionMy:
+              "Catalytic Converter သည် CO နှင့် NOx ကို ...အဖြစ် ပြောင်းလဲစေခြင်းဖြင့် ညစ်ညမ်းမှု လျှော့ချရန် ကူညီသည်",
+          optionsEn: [
+            "Less harmful CO2, N2, and H2O",
+            "More toxic gases",
+            "Pure oxygen only",
+            "Solid soot particles",
+          ],
+          optionsMy: [
+            "ဒုက္ခပေးမှု နည်းသော CO2, N2 နှင့် H2O",
+            "ပို၍ အဆိပ်ရှိသော ဓာတ်ငွေ့များ",
+            "စင်ကြယ်သော Oxygen သက်သက်",
+            "မီးခိုးမှုန် အစိုင်အခဲများ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 24: "Metals & Environmental Studio" (Term 6 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek24 = CourseWeekDef(
+  id: "course-igcse-chem-w24",
+  weekNumber: 24,
+  titleEn: "Metals & Environmental Studio",
+  titleMy: "သတ္တုနှင့် ပတ်ဝန်းကျင် အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w24-d1",
+      dayNumber: 1,
+      titleEn: "Extraction Chemistry and Pollution Control",
+      titleMy: "ထုတ်ယူခြင်း ဓာတုဗေဒနှင့် ညစ်ညမ်းမှု ထိန်းချုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the equation Fe2O3 + 3CO -> 2Fe + 3CO2, what mass of iron (Fe = 56) can theoretically be produced from 160 g of Fe2O3 (Mr = 160)?",
+          questionMy:
+              "Fe2O3 + 3CO -> 2Fe + 3CO2 ညီမျှခြင်းတွင် Fe2O3 (Mr = ၁၆၀) ၁၆၀ ဂရမ်မှ သီအိုရီအရ သံ (Fe = ၅၆) မည်မျှ ပေါင် ထုတ်လုပ်နိုင်သနည်း။",
+          optionsEn: [
+            "112 g (1 mole of Fe2O3 produces 2 moles of Fe: 2 x 56 = 112 g)",
+            "56 g",
+            "160 g",
+            "224 g",
+          ],
+          optionsMy: [
+            "၁၁၂ ဂရမ် (Fe2O3 ၁ Mole သည် Fe ၂ Mole ထုတ်ပေးသည်: ၂ x ၅၆ = ၁၁၂ ဂရမ်)",
+            "၅၆ ဂရမ်",
+            "၁၆၀ ဂရမ်",
+            "၂၂၄ ဂရမ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "160 g Fe2O3 = 1 mole. The mole ratio Fe2O3 : Fe is 1 : 2, so 1 mole of Fe2O3 gives 2 moles of Fe = 2 x 56 g = 112 g.",
+          ],
+          hintsMy: [
+            "Fe2O3 ၁၆၀ ဂရမ် = ၁ Mole ။ Fe2O3 : Fe Mole အချိုးသည် ၁ : ၂ ဖြစ်၍ Fe2O3 ၁ Mole သည် Fe ၂ Mole = ၂ x ၅၆ ဂရမ် = ၁၁၂ ဂရမ် ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A power plant burns coal containing sulfur impurities without any pollution control. What is the most effective way to reduce the resulting acid rain risk?",
+          questionMy:
+              "လျှပ်စစ်စက်ရုံတစ်ခုသည် ညစ်ညမ်းမှု ထိန်းချုပ်မှု လုံးဝမပါဘဲ Sulfur ညစ်ညမ်းစေသောပစ္စည်း ပါဝင်သော ကျောက်မီးသွေးကို လောင်ကျွမ်းသည်။ ထွက်ပေါ်လာမည့် မိုးရေဆိုး အန္တရာယ်ကို လျှော့ချရန် အထိရောက်ဆုံး နည်းလမ်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Remove sulfur before burning, or scrub the sulfur dioxide from the flue gas before it is released",
+            "Burn the coal at an even higher temperature",
+            "Release the exhaust gases through a taller chimney only",
+            "Add more oxygen to the combustion process",
+          ],
+          optionsMy: [
+            "လောင်ကျွမ်းမှု မလုပ်မီ Sulfur ကို ဖယ်ရှားခြင်း၊ သို့မဟုတ် လွှတ်ထုတ်ခြင်း မပြုမီ Flue Gas မှ Sulfur Dioxide ကို ရှင်းလင်းခြင်း",
+            "ကျောက်မီးသွေးကို ပို၍ မြင့်သော အပူချိန်တွင် လောင်ကျွမ်းခြင်း",
+            "အငွေ့ဓာတ်ငွေ့များကို ပို၍ မြင့်သော မီးခိုးလိပ်ဖြင့်သာ လွှတ်ထုတ်ခြင်း",
+            "လောင်ကျွမ်းမှု လုပ်ငန်းစဉ်ထဲသို့ Oxygen ပို၍ ထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Directly removing the sulfur source (desulfurisation before or after burning) is the only method that reduces the actual pollutant, not just where it ends up.",
+          ],
+          hintsMy: [
+            "Sulfur ရင်းမြစ်ကို တိုက်ရိုက် ဖယ်ရှားခြင်း (လောင်ကျွမ်းမှု မပြုမီ သို့မဟုတ် ပြီးနောက် Desulfurisation) သည် ညစ်ညမ်းစေသောပစ္စည်း အမှန်ကို လျှော့ချသော တစ်ခုတည်းသော နည်းလမ်း ဖြစ်ပြီး ၎င်း၏ အဆုံးသတ် နေရာကိုသာ မပြောင်းလဲပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ship's iron hull is protected with magnesium blocks, and the ship also burns fuel that produces nitrogen oxides. Which statement correctly links both topics from this term?",
+          questionMy:
+              "သင်္ဘော၏ သံမဏိ ကိုယ်ထည်ကို Magnesium တုံးများဖြင့် ကာကွယ်ထားပြီး သင်္ဘောသည် Nitrogen Oxide ထုတ်ပေးသော လောင်စာကိုလည်း လောင်ကျွမ်းသည်။ ဤတန်းမှ ခေါင်းစဉ် နှစ်ခုစလုံးကို မှန်ကန်စွာ ချိတ်ဆက်ထားသော ဖော်ပြချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "The magnesium blocks work via sacrificial protection (a metals concept), while the nitrogen oxides need a catalytic converter to reduce them (an environmental concept)",
+            "Both problems are solved by the exact same chemical process",
+            "Magnesium blocks and nitrogen oxides are unrelated to any chemistry covered this term",
+            "Nitrogen oxides prevent the magnesium blocks from working",
+          ],
+          optionsMy: [
+            "Magnesium တုံးများသည် Sacrificial Protection (သတ္တု သဘောတရား) ဖြင့် အလုပ်လုပ်ပြီး Nitrogen Oxide များသည် ၎င်းတို့ကို လျှော့ချရန် Catalytic Converter (ပတ်ဝန်းကျင် သဘောတရား) လိုအပ်သည်",
+            "ပြဿနာ နှစ်ခုစလုံးကို ဓာတုဗေဒ လုပ်ငန်းစဉ် အတူတူဖြင့် ဖြေရှင်းသည်",
+            "Magnesium တုံးများနှင့် Nitrogen Oxide များသည် ဤတန်းတွင် ဖော်ပြထားသော ဓာတုဗေဒ မည်သည်နှင့်မျှ မသက်ဆိုင်ပါ",
+            "Nitrogen Oxide များက Magnesium တုံးများ အလုပ်လုပ်ခြင်းကို ဟန့်တားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sacrificial protection (Weeks 21-22) and catalytic converters (Week 23) are two distinct, unrelated chemistry topics this term, each solving a different problem.",
+          ],
+          hintsMy: [
+            "Sacrificial Protection (ပတ် ၂၁-၂၂) နှင့် Catalytic Converter (ပတ် ၂၃) သည် ဤတန်း၏ သီးခြား၊ မဆက်စပ်သော ဓာတုဗေဒ ခေါင်းစဉ် နှစ်ခု ဖြစ်ပြီး တစ်ခုစီက မတူညီသော ပြဿနာကို ဖြေရှင်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆဌမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w24-dm-1",
+          termEn: "Reduction with carbon",
+          termMy: "Reduction with Carbon",
+          matchEn:
+              "The extraction method for metals less reactive than carbon, such as iron",
+          matchMy:
+              "Iron ကဲ့သို့ Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုများအတွက် ထုတ်ယူခြင်း နည်းလမ်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w24-dm-2",
+          termEn: "Electrolytic extraction",
+          termMy: "Electrolytic Extraction",
+          matchEn:
+              "The extraction method for metals more reactive than carbon, such as aluminium",
+          matchMy:
+              "Aluminium ကဲ့သို့ Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုများအတွက် ထုတ်ယူခြင်း နည်းလမ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w24-dm-3",
+          termEn: "Desulfurisation",
+          termMy: "Desulfurisation",
+          matchEn:
+              "Removing sulfur compounds before or after combustion to reduce acid rain risk",
+          matchMy:
+              "မိုးရေဆိုး အန္တရာယ် လျှော့ချရန် လောင်ကျွမ်းမှု မပြုမီ သို့မဟုတ် ပြီးနောက် Sulfur ဒြပ်ပေါင်းများ ဖယ်ရှားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w24-dm-4",
+          termEn: "Corrosion prevention",
+          termMy: "Corrosion Prevention",
+          matchEn:
+              "Any method, such as painting, galvanising, or sacrificial protection, used to stop rusting",
+          matchMy:
+              "သံမောင်းတက်ခြင်းကို ရပ်တန့်ရန် အသုံးပြုသော ဆေးသုတ်ခြင်း၊ Galvanising သို့မဟုတ် Sacrificial Protection ကဲ့သို့ နည်းလမ်းများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w24-dm-5",
+          termEn: "Enhanced greenhouse effect",
+          termMy: "Enhanced Greenhouse Effect",
+          matchEn:
+              "Additional global warming caused by human-increased concentrations of greenhouse gases",
+          matchMy:
+              "လူသားများ တိုးမြှင့်လိုက်သော Greenhouse Gas ပါဝင်မှုများကြောင့် ဖြစ်ပေါ်လာသော ထပ်ဆောင်း ကမ္ဘာကြီး ပူနွေးလာမှု",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Metals Concept or Environmental Concept?",
+      titleMy: "စီစစ်ကြမည် - Metals သဘောတရားလား၊ Environmental သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Metals Concept", "Environmental Concept"],
+        bucketsMy: ["Metals Concept", "Environmental Concept"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w24-sort-1",
+            labelEn:
+                "Predicting a displacement reaction using the reactivity series",
+            labelMy:
+                "Reactivity Series ကို အသုံးပြု၍ Displacement ဓာတ်ပြုမှု ခန့်မှန်းခြင်း",
+            correctBucketEn: "Metals Concept",
+            correctBucketMy: "Metals Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w24-sort-2",
+            labelEn: "Explaining how a catalytic converter cleans car exhaust",
+            labelMy:
+                "Catalytic Converter သည် ကားအငွေ့ကို မည်သို့ သန့်စင်ပေးကြောင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Environmental Concept",
+            correctBucketMy: "Environmental Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w24-sort-3",
+            labelEn:
+                "Choosing electrolysis rather than carbon reduction for aluminium",
+            labelMy:
+                "Aluminium အတွက် Carbon Reduction အစား Electrolysis ကို ရွေးချယ်ခြင်း",
+            correctBucketEn: "Metals Concept",
+            correctBucketMy: "Metals Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w24-sort-4",
+            labelEn: "Describing the three stages of water treatment in order",
+            labelMy: "ရေသန့်စင်ခြင်း၏ အဆင့် သုံးဆင့်ကို အစဉ်လိုက် ဖော်ပြခြင်း",
+            correctBucketEn: "Environmental Concept",
+            correctBucketMy: "Environmental Concept",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Term 6 Metals and Environment Review",
+      titleMy:
+          "စာဖတ်ခြင်း - ရှင်သန့်၏ ဆဌမတန်း သတ္တုနှင့် ပတ်ဝန်းကျင် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Term 6 Metals and Environment Review",
+        titleMy: "ရှင်သန့်၏ ဆဌမတန်း သတ္တုနှင့် ပတ်ဝန်းကျင် ပြန်လည်သုံးသပ်ခြင်း",
+        passageEn:
+            "For her Term 6 review, Ko Zaw gave Shin Thant a single case study: a coal-fired power station built beside a river, supplying electricity to a steel plant that uses a blast furnace. He asked her to identify every chemistry concept from the term that applied to this one site.\n\nStarting with the power station itself, Shin Thant noted that burning coal containing sulfur impurities would release sulfur dioxide, a major cause of acid rain, unless the plant scrubbed the flue gas to remove it before release -- an environmental chemistry concept. The steel plant's blast furnace, meanwhile, relied on a completely different branch of the term's content: reducing iron(III) oxide with carbon monoxide, a metals extraction concept, made economically viable because iron sits below carbon in the reactivity series. She noted that if the plant instead needed to produce aluminium, none of this carbon-based chemistry would apply at all -- electrolysis would be the only option, at a far higher energy cost.\n\nFinally, Ko Zaw asked about the river beside the plant, into which cooling water was eventually returned. Shin Thant explained that any water drawn from the river for the surrounding town's drinking supply would need the full sedimentation-filtration-chlorination sequence, regardless of how clean the river looked, since dissolved pathogens are never visible. She also pointed out that steel pipes carrying this water underground were often protected by magnesium sacrificial anodes, connecting metals corrosion chemistry to environmental water infrastructure in one final link. Ko Zaw was satisfied: the case study proved she could recognise which specific concept from an entire term of memorised facts actually applied to a real, messy, interconnected industrial scenario -- the skill IGCSE Extended Paper questions were ultimately designed to test.",
+        passageMy:
+            "ဆဌမတန်း ပြန်လည်သုံးသပ်ခြင်းအတွက် ကိုဇော်သည် ရှင်သန့်အား ဖြစ်ရပ်လေ့လာမှုတစ်ခု ပေးအပ်ခဲ့သည် - Blast Furnace အသုံးပြုသော သံမဏိစက်ရုံသို့ လျှပ်စစ် ထောက်ပံ့ပေးသော မြစ်ကမ်းနားရှိ ကျောက်မီးသွေးလောင် လျှပ်စစ်စက်ရုံတစ်ခု။ ဤနေရာတစ်ခုတည်းနှင့် သက်ဆိုင်သော ဤတန်းမှ ဓာတုဗေဒ အယူအဆတိုင်းကို ဖော်ထုတ်ရန် သူမအား တောင်းဆိုခဲ့သည်။\n\nလျှပ်စစ်စက်ရုံကိုယ်တိုင်မှ စတင်ကာ Sulfur ညစ်ညမ်းစေသောပစ္စည်း ပါဝင်သော ကျောက်မီးသွေး လောင်ကျွမ်းခြင်းသည် လွှတ်ထုတ်မပြုမီ Flue Gas ကို ရှင်းလင်းခြင်း မပြုပါက မိုးရေဆိုး၏ အဓိက အကြောင်းရင်းတစ်ခုဖြစ်သော Sulfur Dioxide ကို ထုတ်လွှတ်လိမ့်မည်ဟု ရှင်သန့် မှတ်ချက်ပြုခဲ့သည် -- ပတ်ဝန်းကျင် ဓာတုဗေဒ သဘောတရားတစ်ခု ဖြစ်သည်။ ထိုအတွင်း သံမဏိစက်ရုံ၏ Blast Furnace မှာမူ ဤတန်း၏ လုံးဝ မတူညီသော အခန်းတစ်ခုအပေါ် မှီခိုနေခဲ့သည် - Iron(III) Oxide ကို Carbon Monoxide ဖြင့် Reduce လုပ်ခြင်း၊ သတ္တု ထုတ်ယူခြင်း သဘောတရားတစ်ခု ဖြစ်ပြီး Iron သည် ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon အောက်တွင် ရှိနေသောကြောင့် စီးပွားရေးအရ အလုပ်ဖြစ်စေခဲ့သည်။ စက်ရုံသည် Aluminium ထုတ်လုပ်ရန် လိုအပ်ခဲ့ပါက Carbon အခြေခံ ဓာတုဗေဒ ဤအားလုံးသည် လုံးဝ သက်ဆိုင်လိမ့်မည် မဟုတ်ကြောင်းလည်း သူမ မှတ်ချက်ပြုခဲ့သည် -- Electrolysis တစ်ခုတည်းသာ ရွေးချယ်စရာ ဖြစ်လာပြီး များစွာ ပိုမြင့်သော စွမ်းအင် ကုန်ကျစရိတ် ရှိလိမ့်မည်။\n\nနောက်ဆုံးတွင် ကိုဇော်သည် အအေးခံရေကို နောက်ဆုံးတွင် ပြန်လည်စွန့်ထုတ်ရာ စက်ရုံအနီးရှိ မြစ်အကြောင်း မေးမြန်းခဲ့သည်။ ပတ်ဝန်းကျင်ရှိ မြို့၏ သောက်ရေ ပေးဆောင်မှုအတွက် မြစ်မှ ထုတ်ယူသော ရေမည်သည်မဆို မြစ်သည် မည်မျှ သန့်ရှင်းသည်ဟု ထင်ရသည်ဖြစ်စေ Sedimentation-Filtration-Chlorination အစဉ်လိုက် အပြည့်အစုံ လိုအပ်ကြောင်း ရှင်သန့် ရှင်းပြခဲ့သည်၊ အကြောင်းမှာ ပျော်ဝင်နေသော ရောဂါပိုးများသည် ဘယ်တော့မှ မမြင်နိုင်သောကြောင့်ဖြစ်သည်။ ဤရေကို ကျောက်ကုတ်အောက်တွင် သယ်ဆောင်သွားသော သံမဏိပိုက်များကို Magnesium Sacrificial Anode များဖြင့် မကြာခဏ ကာကွယ်ထားကြောင်းလည်း သူမ ထောက်ပြခဲ့ပြီး သတ္တု ကြေဆွေးမှု ဓာတုဗေဒကို ပတ်ဝန်းကျင် ရေအခြေခံအဆောက်အအုံနှင့် နောက်ဆုံး ချိတ်ဆက်မှုတစ်ခုတွင် ချိတ်ဆက်ပေးခဲ့သည်။ ကိုဇော် ကျေနပ်ခဲ့သည် - ဖြစ်ရပ်လေ့လာမှုသည် တန်းတစ်ခုလုံး အလွတ်ကျက်ထားသော အချက်အလက်များထဲမှ မည်သည့် တိကျသော သဘောတရားက အမှန်တကယ်၊ ရှုပ်ထွေး၍ ဆက်စပ်နေသော စက်မှု ဖြစ်ရပ်တစ်ခုနှင့် သက်ဆိုင်ကြောင်း သူမ ဖော်ထုတ်နိုင်ကြောင်း သက်သေပြခဲ့သည် -- ဤသည်ကား IGCSE Extended Paper မေးခွန်းများ အဆုံးစွန်တွင် စစ်ဆေးရန် ဒီဇိုင်းထုတ်ထားသော ကျွမ်းကျင်မှု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why is reducing iron(III) oxide with carbon monoxide economically viable, according to Shin Thant?",
+            questionMy:
+                "Iron(III) Oxide ကို Carbon Monoxide ဖြင့် Reduce လုပ်ခြင်းသည် ရှင်သန့်၏ အဆိုအရ စီးပွားရေးအရ အလုပ်ဖြစ်စေရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Iron sits below carbon in the reactivity series",
+              "Iron sits above carbon in the reactivity series",
+              "Carbon monoxide is more expensive than electrolysis",
+              "Iron does not actually react with carbon monoxide",
+            ],
+            optionsMy: [
+              "Iron သည် ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon အောက်တွင် ရှိနေသောကြောင့်",
+              "Iron သည် ဓာတ်ပြုနိုင်စွမ်း အစဉ်တွင် Carbon အပေါ်တွင် ရှိနေသောကြောင့်",
+              "Carbon Monoxide သည် Electrolysis ထက် ဈေးကြီးသောကြောင့်",
+              "Iron သည် Carbon Monoxide နှင့် အမှန်တကယ် ဓာတ်မပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why the blast furnace approach works for iron.",
+            ],
+            hintsMy: [
+              "Blast Furnace နည်းလမ်းသည် Iron အတွက် အဘယ်ကြောင့် အလုပ်ဖြစ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Shin Thant say the full sedimentation-filtration-chlorination sequence was needed regardless of how clean the river looked?",
+            questionMy:
+                "မြစ်သည် မည်မျှ သန့်ရှင်းသည်ဟု ထင်ရသည်ဖြစ်စေ Sedimentation-Filtration-Chlorination အစဉ်လိုက် အပြည့်အစုံ လိုအပ်သည်ဟု ရှင်သန့် ပြောကြားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Dissolved pathogens are never visible, regardless of how clear the water looks",
+              "The river water is always too cold to use",
+              "Sedimentation alone is always sufficient",
+              "Chlorination is optional if the water looks clean",
+            ],
+            optionsMy: [
+              "ရေသည် မည်မျှ ကြည်လင်သည်ဟု ထင်ရသည်ဖြစ်စေ ပျော်ဝင်နေသော ရောဂါပိုးများသည် ဘယ်တော့မှ မမြင်နိုင်သောကြောင့်",
+              "မြစ်ရေသည် အသုံးပြုရန် အမြဲတမ်း အလွန် အေးလွန်းသောကြောင့်",
+              "Sedimentation တစ်ခုတည်းသည် အမြဲတမ်း လုံလောက်သောကြောင့်",
+              "ရေသည် သန့်ရှင်းပုံပေါက်ပါက Chlorination ကို ရွေးချယ်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about invisible dissolved pathogens.",
+            ],
+            hintsMy: [
+              "မမြင်နိုင်သော ပျော်ဝင်နေသော ရောဂါပိုးများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what skill did the case study prove Shin Thant had developed?",
+            questionMy:
+                "ဖြစ်ရပ်လေ့လာမှုသည် ရှင်သန့် တီထွင်ထားကြောင်း သက်သေပြခဲ့သည့် ကျွမ်းကျင်မှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Recognising which specific concept from the term applies to a real, interconnected scenario",
+              "Memorising every fact from the term in exact order",
+              "Drawing detailed diagrams of the blast furnace",
+              "Calculating the cost of the power station",
+            ],
+            optionsMy: [
+              "တန်းမှ မည်သည့် တိကျသော သဘောတရားက အမှန်တကယ်၊ ဆက်စပ်နေသော ဖြစ်ရပ်တစ်ခုနှင့် သက်ဆိုင်ကြောင်း ဖော်ထုတ်ခြင်း",
+              "တန်းမှ အချက်အလက်တိုင်းကို အစဉ်လိုက် အတိအကျ အလွတ်ကျက်ခြင်း",
+              "Blast Furnace ၏ အသေးစိတ် ပုံများ ဆွဲခြင်း",
+              "လျှပ်စစ်စက်ရုံ၏ ကုန်ကျစရိတ်ကို တွက်ချက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Recap: Metals and Environmental Chemistry",
+      titleMy: "ဆဌမတန်း ပြန်လည်သုံးသပ်ခြင်း - သတ္တုနှင့် ပတ်ဝန်းကျင် ဓာတုဗေဒ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A more reactive metal always displaces a less reactive metal from...",
+          questionMy:
+              "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုတစ်ခုကို ...မှ အမြဲ နေရာလွှဲပြောင်းသည်",
+          optionsEn: [
+            "Its salt solution",
+            "The air",
+            "A noble gas",
+            "Pure water alone",
+          ],
+          optionsMy: ["၎င်း၏ ဆားပျော်ရည်", "လေထု", "Noble Gas", "ရေသက်သက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Sulfur dioxide from burning fossil fuels is a major cause of...",
+          questionMy:
+              "Fossil Fuel လောင်ကျွမ်းမှုမှ ထွက်လာသော Sulfur Dioxide သည် ...၏ အဓိက အကြောင်းရင်းတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Acid rain",
+            "The ozone layer forming",
+            "Water purification",
+            "Metal displacement",
+          ],
+          optionsMy: [
+            "မိုးရေဆိုး",
+            "Ozone Layer ဖြစ်ပေါ်ခြင်း",
+            "ရေသန့်စင်ခြင်း",
+            "သတ္တု Displacement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The correct order of water treatment stages is...",
+          questionMy: "ရေသန့်စင်ခြင်း အဆင့်များ၏ မှန်ကန်သော အစဉ်လိုက်မှာ...",
+          optionsEn: [
+            "Sedimentation, then filtration, then chlorination",
+            "Chlorination, then sedimentation, then filtration",
+            "Filtration, then chlorination, then sedimentation",
+            "All three stages happen simultaneously",
+          ],
+          optionsMy: [
+            "Sedimentation, ထို့နောက် Filtration, ထို့နောက် Chlorination",
+            "Chlorination, ထို့နောက် Sedimentation, ထို့နောက် Filtration",
+            "Filtration, ထို့နောက် Chlorination, ထို့နောက် Sedimentation",
+            "အဆင့် သုံးဆင့်လုံး တစ်ပြိုင်နက် ဖြစ်ပေါ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -7678,10 +9112,24 @@ const CourseTermDef igcseChemistryTerm5 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-5 of 9 authored so far (Terms 6-9 to
-/// follow: Metals & Environment; Organic Chemistry; Experimental Skills;
-/// Exam Prep & Graduation). `totalWeeks: 36` reflects the full 9-term
-/// aspirational course length.
+const CourseTermDef igcseChemistryTerm6 = CourseTermDef(
+  id: "course-igcse-chem-term6",
+  termNumber: 6,
+  titleEn: "Metals and Chemistry of the Environment",
+  titleMy: "သတ္တုများနှင့် ပတ်ဝန်းကျင် ဓာတုဗေဒ",
+  certificateTitleEn: "IGCSE Chemistry Term 6 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ ဆဌမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek21,
+    _igcseChemWeek22,
+    _igcseChemWeek23,
+    _igcseChemWeek24,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-6 of 9 authored so far (Terms 7-9 to
+/// follow: Organic Chemistry; Experimental Skills; Exam Prep & Graduation).
+/// `totalWeeks: 36` reflects the full 9-term aspirational course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -7699,5 +9147,6 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm3,
     igcseChemistryTerm4,
     igcseChemistryTerm5,
+    igcseChemistryTerm6,
   ],
 );
