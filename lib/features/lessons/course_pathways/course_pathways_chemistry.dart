@@ -10464,6 +10464,1409 @@ const CourseWeekDef _igcseChemWeek28 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 29: "Designing Chemistry Experiments"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek29 = CourseWeekDef(
+  id: "course-igcse-chem-w29",
+  weekNumber: 29,
+  titleEn: "Designing Chemistry Experiments",
+  titleMy: "ဓာတုဗေဒ စမ်းသပ်မှုများ ဒီဇိုင်းဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w29-d1",
+      dayNumber: 1,
+      titleEn: "Controlling Variables for a Fair Test",
+      titleMy: "မျှတသော စမ်းသပ်မှုတစ်ခုအတွက် Variable များ ထိန်းချုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student investigates how concentration affects the rate of reaction between magnesium and hydrochloric acid. Which variables must be kept constant for a fair test?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Concentration က Magnesium နှင့် Hydrochloric Acid ကြား ဓာတ်ပြုနှုန်းကို မည်သို့ သက်ရောက်ကြောင်း လေ့လာသည်။ မျှတသော စမ်းသပ်မှုတစ်ခုအတွက် မည်သည့် Variable များကို တည်ငြိမ်စွာ ထားရမည်နည်း။",
+          optionsEn: [
+            "Temperature, volume of acid, and the size/mass of the magnesium",
+            "The concentration of the acid itself",
+            "Only the colour of the container",
+            "Nothing needs to be kept constant",
+          ],
+          optionsMy: [
+            "အပူချိန်၊ အက်ဆစ် ထုထည်နှင့် Magnesium ၏ အရွယ်အစား/အလေးချိန်",
+            "အက်ဆစ်ကိုယ်တိုင်၏ Concentration",
+            "ခွက်၏ အရောင်သာ",
+            "မည်သည့်အရာမျှ တည်ငြိမ်စွာ ထားရန် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since concentration is the independent variable being tested, every other factor that could affect reaction rate must be held constant.",
+          ],
+          hintsMy: [
+            "Concentration သည် စမ်းသပ်နေသော Independent Variable ဖြစ်သောကြောင့် ဓာတ်ပြုနှုန်းကို သက်ရောက်နိုင်သော အခြား အချက်တိုင်းကို တည်ငြိမ်စွာ ထားရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a titration experiment, why is a burette used instead of a measuring cylinder to add the titrant?",
+          questionMy:
+              "Titration စမ်းသပ်မှုတစ်ခုတွင် Titrant ထည့်ရန် Measuring Cylinder အစား Burette ကို အသုံးပြုရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "A burette measures volume far more precisely (to 0.05 cm3), reducing error in the recorded titre",
+            "A burette is simply cheaper to buy",
+            "A measuring cylinder cannot hold any liquid at all",
+            "A burette changes the colour of the solution automatically",
+          ],
+          optionsMy: [
+            "Burette သည် ထုထည်ကို ပို၍ တိကျစွာ (0.05 cm3 အထိ) တိုင်းတာနိုင်ပြီး မှတ်တမ်းတင်ထားသော Titre ၏ အမှား လျော့ချသည်",
+            "Burette သည် ဝယ်ယူရန် ရိုးရိုးရှင်းရှင်း ဈေးသက်သာသောကြောင့်",
+            "Measuring Cylinder သည် အရည် လုံးဝ ဆံ့၍ မရသောကြောင့်",
+            "Burette သည် ပျော်ရည်၏ အရောင်ကို အလိုအလျောက် ပြောင်းလဲပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Measuring cylinders are only accurate to the nearest 1 cm3, while burettes allow far finer readings, essential for accurate titre volumes.",
+          ],
+          hintsMy: [
+            "Measuring Cylinder များသည် အနီးဆုံး 1 cm3 အထိသာ တိကျပြီး Burette များကမူ ပို၍ သေချာသော ဖတ်ရှုမှုများ ခွင့်ပြုကာ တိကျသော Titre ထုထည်များအတွက် မရှိမဖြစ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the classic 'disappearing cross' rate experiment with sodium thiosulfate and hydrochloric acid, why is a white tile with a black cross placed under the flask?",
+          questionMy:
+              "Sodium Thiosulfate နှင့် Hydrochloric Acid ဖြင့် ပြုလုပ်သော Classic 'Disappearing Cross' နှုန်း စမ်းသပ်မှုတွင် ဖလားအောက်တွင် Black Cross ပါသော White Tile ကို ထားရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It gives a consistent, observable end point -- the moment the forming sulfur precipitate obscures the cross from view",
+            "It cools the reaction mixture down",
+            "It changes the products of the reaction",
+            "It measures the exact mass of the precipitate",
+          ],
+          optionsMy: [
+            "ဖွဲ့စည်းလာသော Sulfur Precipitate က Cross ကို ကွယ်ဝှက်စေသည့် အခိုက်ကို တွေ့ရသော ညီညွတ်၍ တွေ့မြင်နိုင်သော အဆုံးမှတ် တစ်ခု ပေးသည်",
+            "ဓာတ်ပြု ရောစပ်ထားသော ပစ္စည်းကို အအေးခံပေးသည်",
+            "ဓာတ်ပြုမှု၏ ကုန်ချောပစ္စည်းများကို ပြောင်းလဲပေးသည်",
+            "Precipitate ၏ အတိအကျ အလေးချိန်ကို တိုင်းတာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As sulfur forms, the solution turns cloudy; the time taken for the cross to become invisible from above is a repeatable measure of reaction rate.",
+          ],
+          hintsMy: [
+            "Sulfur ဖွဲ့စည်းလာသည်နှင့်အမျှ ပျော်ရည်သည် မှုန်ဝါးလာသည်; အထက်မှ Cross မမြင်ရအောင် ကြာချိန်သည် ဓာတ်ပြုနှုန်း၏ ထပ်ခါထပ်ခါ လုပ်ဆောင်နိုင်သော တိုင်းတာမှု တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Experimental Design Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စမ်းသပ်မှု ဒီဇိုင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w29-dm-1",
+          termEn: "Independent variable",
+          termMy: "Independent Variable",
+          matchEn:
+              "The factor a scientist deliberately changes in an experiment",
+          matchMy:
+              "သိပ္ပံပညာရှင်တစ်ဦးက စမ်းသပ်မှုတစ်ခုတွင် တမင်တကာ ပြောင်းလဲသော အချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w29-dm-2",
+          termEn: "Dependent variable",
+          termMy: "Dependent Variable",
+          matchEn:
+              "The factor a scientist measures as the outcome of an experiment",
+          matchMy:
+              "သိပ္ပံပညာရှင်တစ်ဦးက စမ်းသပ်မှုတစ်ခု၏ ရလဒ်အဖြစ် တိုင်းတာသော အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w29-dm-3",
+          termEn: "Control variable",
+          termMy: "Control Variable",
+          matchEn: "A factor deliberately kept constant to ensure a fair test",
+          matchMy:
+              "မျှတသော စမ်းသပ်မှု ဖြစ်စေရန် တမင်တကာ တည်ငြိမ်စွာ ထားသော အချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w29-dm-4",
+          termEn: "Concordant titres",
+          termMy: "Concordant Titres",
+          matchEn:
+              "Two or more titration readings within 0.1 cm3 of each other, used to calculate a reliable mean",
+          matchMy:
+              "ယုံကြည်စိတ်ချရသော ပျမ်းမျှ တွက်ချက်ရန် အသုံးပြုသော တစ်ခုနှင့်တစ်ခု 0.1 cm3 အတွင်းရှိ Titration ဖတ်ရှုမှု နှစ်ခု သို့မဟုတ် ထို့ထက်ပို၍",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w29-dm-5",
+          termEn: "Gas syringe",
+          termMy: "Gas Syringe",
+          matchEn:
+              "Apparatus used to measure the volume of gas produced in a reaction accurately",
+          matchMy:
+              "ဓာတ်ပြုမှုတစ်ခုတွင် ထွက်ပေါ်လာသော ဓာတ်ငွေ့ ထုထည်ကို တိကျစွာ တိုင်းတာရန် အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Right Apparatus for the Job",
+      titleMy: "စီစစ်ကြမည် - အလုပ်နှင့် ကိုက်ညီသော ကိရိယာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Burette", "Gas Syringe", "Thermometer", "Stopwatch"],
+        bucketsMy: ["Burette", "Gas Syringe", "Thermometer", "Stopwatch"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w29-sort-1",
+            labelEn:
+                "Measures the precise volume of acid added during a titration",
+            labelMy:
+                "Titration တစ်ခုအတွင်း ထည့်လိုက်သော အက်ဆစ်၏ တိကျသော ထုထည်ကို တိုင်းတာသည်",
+            correctBucketEn: "Burette",
+            correctBucketMy: "Burette",
+          ),
+          SortingItem(
+            id: "igcsechem-w29-sort-2",
+            labelEn:
+                "Measures the volume of hydrogen gas produced when a metal reacts with acid",
+            labelMy:
+                "သတ္တုတစ်ခု အက်ဆစ်နှင့် ဓာတ်ပြုသည့်အခါ ထွက်ပေါ်လာသော Hydrogen ဓာတ်ငွေ့ ထုထည်ကို တိုင်းတာသည်",
+            correctBucketEn: "Gas Syringe",
+            correctBucketMy: "Gas Syringe",
+          ),
+          SortingItem(
+            id: "igcsechem-w29-sort-3",
+            labelEn:
+                "Checks that a water bath is held at a constant, controlled temperature",
+            labelMy:
+                "ရေချိုးကန်တစ်ခုကို တည်ငြိမ်၍ ထိန်းချုပ်ထားသော အပူချိန်တွင် ထားရှိကြောင်း စစ်ဆေးသည်",
+            correctBucketEn: "Thermometer",
+            correctBucketMy: "Thermometer",
+          ),
+          SortingItem(
+            id: "igcsechem-w29-sort-4",
+            labelEn:
+                "Times how long it takes for the black cross to disappear from view",
+            labelMy:
+                "Black Cross တွေ့မြင်ခြင်းမှ ပျောက်ကွယ်သွားရန် ကြာချိန်ကို တိုင်းတာသည်",
+            correctBucketEn: "Stopwatch",
+            correctBucketMy: "Stopwatch",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw's Flawed Experiment Critique",
+      titleMy: "စာဖတ်ခြင်း - ကိုဇော်၏ ချို့ယွင်းသော စမ်းသပ်မှု ဝေဖန်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw's Flawed Experiment Critique",
+        titleMy: "ကိုဇော်၏ ချို့ယွင်းသော စမ်းသပ်မှု ဝေဖန်ချက်",
+        passageEn:
+            "Ko Zaw handed Shin Thant a description of an experiment written by a first-year student, who wanted to investigate whether increasing temperature increases the rate of reaction between marble chips and hydrochloric acid, measured by the volume of carbon dioxide gas collected in three minutes.\n\nThe student's method used a different, randomly chosen mass of marble chips for each temperature trial, a different concentration of acid poured from three unlabeled bottles, and different sized marble chip fragments each time, since they simply grabbed whichever chips were nearest on the shelf. Ko Zaw asked Shin Thant to identify every flaw. She quickly spotted that mass of marble chips, acid concentration, and chip size (surface area) were all control variables that should have stayed identical across every trial -- since any of these three, not just temperature, could independently speed up or slow down the reaction, making it impossible to know which factor actually caused any observed change in rate.\n\nShin Thant then proposed a corrected method: weigh out identical masses of marble chips of the same size for every trial, use acid from a single labeled bottle of known concentration measured with a measuring cylinder, and change only the temperature of the acid between trials, keeping everything else constant. She also suggested repeating each temperature trial at least twice and averaging the gas volumes, to reduce the effect of any small, random measurement errors. Ko Zaw agreed this was now a genuinely fair test -- and noted that Paper 6 (or Paper 4's alternative-to-practical questions) almost always contained exactly this kind of 'spot the flaw' scenario, rewarding students who could name the specific uncontrolled variable rather than vaguely saying an experiment was 'unfair.'",
+        passageMy:
+            "ကိုဇော်သည် ပထမနှစ် ကျောင်းသားတစ်ဦး ရေးသားထားသော စမ်းသပ်မှု ဖော်ပြချက်တစ်ခုကို ရှင်သန့်ထံ ပေးအပ်ခဲ့သည်၊ ထိုကျောင်းသားသည် အပူချိန် တိုးလာခြင်းက ကျောက်ဖြူချောင်းငယ်များနှင့် Hydrochloric Acid ကြား ဓာတ်ပြုနှုန်းကို တိုးမြှင့်ပေးသလားဟု မိနစ် သုံးမိနစ်အတွင်း စုဆောင်းရသော Carbon Dioxide ဓာတ်ငွေ့ ထုထည်ဖြင့် တိုင်းတာရန် လေ့လာလိုခဲ့သည်။\n\nထိုကျောင်းသား၏ နည်းလမ်းသည် အပူချိန် စမ်းသပ်မှုတစ်ခုစီအတွက် ကျပန်း ရွေးချယ်ထားသော ကျောက်ဖြူချောင်းငယ် အလေးချိန်တစ်ခုစီကို မတူညီစွာ အသုံးပြုခဲ့ပြီး၊ Label မတပ်ထားသော ပုလင်း သုံးလုံးမှ ဆွန်းသွန်းသော အက်ဆစ် Concentration မတူညီစွာနှင့် ၎င်းတို့သည် စင်ပေါ်ရှိ အနီးဆုံး ရရှိသော ကျောက်ဖြူချောင်းငယ်ကို ရိုးရိုးရှင်းရှင်း ယူသည်ဖြစ်သောကြောင့် အကြိမ်တိုင်း ကျောက်ဖြူချောင်းငယ် အရွယ်အစား မတူညီစွာ အသုံးပြုခဲ့သည်။ ချို့ယွင်းချက် တိုင်းကို ဖော်ထုတ်ရန် ကိုဇော်သည် ရှင်သန့်ကို တောင်းဆိုခဲ့သည်။ ကျောက်ဖြူချောင်းငယ် အလေးချိန်၊ အက်ဆစ် Concentration နှင့် ချောင်းငယ် အရွယ်အစား (မျက်နှာပြင် ဧရိယာ) အားလုံးသည် စမ်းသပ်မှု တိုင်းတစ်လျှောက် အတူတူ တည်ငြိမ်စွာ ရှိသင့်ကြောင်း သူမ လျင်မြန်စွာ တွေ့ရှိခဲ့သည် -- အကြောင်းမှာ ဤအချက် သုံးခုအနက် တစ်ခုစီသည် အပူချိန်တစ်ခုတည်း မဟုတ်ဘဲ ဓာတ်ပြုမှုကို လွတ်လပ်စွာ မြန်စေခြင်း သို့မဟုတ် နှေးစေခြင်း ပြုနိုင်သောကြောင့် တွေ့ရသော နှုန်း ပြောင်းလဲမှုကို မည်သည့်အချက် အမှန်တကယ် ဖြစ်စေကြောင်း သိရှိရန် မဖြစ်နိုင်တော့ချေ။\n\nထို့နောက် ရှင်သန့်သည် ပြင်ဆင်ထားသော နည်းလမ်းတစ်ခုကို အဆိုပြုခဲ့သည် - စမ်းသပ်မှု တိုင်းအတွက် တူညီသော အရွယ်အစားရှိ ကျောက်ဖြူချောင်းငယ် အလေးချိန် အတူတူကို ချိန်ခြင်း၊ Measuring Cylinder ဖြင့် တိုင်းတာထားသော သိရှိထားသော Concentration ရှိသည့် Label တပ်ထားသော ပုလင်းတစ်လုံးတည်းမှ အက်ဆစ်ကို အသုံးပြုခြင်းနှင့် အခြား အရာအားလုံးကို တည်ငြိမ်စွာ ထားရှိကာ စမ်းသပ်မှု အကြားတွင် အက်ဆစ်၏ အပူချိန်ကိုသာ ပြောင်းလဲခြင်း။ ငယ်ငယ်စား၊ ကျပန်း တိုင်းတာမှု အမှားများ၏ သက်ရောက်မှုကို လျော့ချရန် အပူချိန် စမ်းသပ်မှု တိုင်းကို အနည်းဆုံး နှစ်ကြိမ် ထပ်လုပ်ကာ ဓာတ်ငွေ့ ထုထည်များကို ပျမ်းမျှတွက်ချက်ရန်လည်း သူမ အကြံပြုခဲ့သည်။ ဤသည်ကား အမှန်တကယ် မျှတသော စမ်းသပ်မှုတစ်ခု ဖြစ်ကြောင်း ကိုဇော် သဘောတူခဲ့ပြီး Paper 6 (သို့မဟုတ် Paper 4 ၏ Alternative-to-Practical မေးခွန်းများ) တွင် ဤကဲ့သို့ 'ချို့ယွင်းချက် ရှာဖွေရန်' ဇာတ်လမ်းအမျိုးအစားသည် လုနီးပါး အမြဲတမ်း ပါဝင်လေ့ရှိကြောင်း၊ စမ်းသပ်မှုတစ်ခု 'မျှတမှု မရှိပါ' ဟု ဝါးလွှားစွာ ပြောမည့်အစား တိကျသော ထိန်းချုပ်မှု မရှိသည့် Variable ကို ဖော်ထုတ်နိုင်သော ကျောင်းသားများကို ဆုချီးမြှင့်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Shin Thant identify mass, concentration, and chip size as flaws?",
+            questionMy:
+                "အလေးချိန်၊ Concentration နှင့် ချောင်းငယ် အရွယ်အစားကို ချို့ယွင်းချက်များအဖြစ် ရှင်သန့် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any of these three could independently affect reaction rate, making it impossible to isolate temperature's true effect",
+              "They were all measured with the wrong units",
+              "They had nothing to do with reaction rate at all",
+              "The student never actually recorded them",
+            ],
+            optionsMy: [
+              "ဤအချက် သုံးခုအနက် မည်သည်သည်မဆို ဓာတ်ပြုနှုန်းကို လွတ်လပ်စွာ သက်ရောက်နိုင်ပြီး အပူချိန်၏ အစစ်အမှန် သက်ရောက်မှုကို ခွဲခြား၍ မရနိုင်စေသောကြောင့်",
+              "၎င်းတို့ အားလုံးကို မှားယွင်းသော ယူနစ်များဖြင့် တိုင်းတာခဲ့သောကြောင့်",
+              "၎င်းတို့သည် ဓာတ်ပြုနှုန်းနှင့် မည်သည့်ဆက်နွှယ်မှုမျှ လုံးဝ မရှိသောကြောင့်",
+              "ကျောင်းသားသည် ၎င်းတို့ကို အမှန်တကယ် ဘယ်တော့မှ မှတ်တမ်းတင်ခဲ့ခြင်း မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why these three factors mattered.",
+            ],
+            hintsMy: [
+              "ဤအချက် သုံးခု အရေးကြီးရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Shin Thant suggest repeating each temperature trial and averaging results?",
+            questionMy:
+                "အပူချိန် စမ်းသပ်မှု တိုင်းကို ထပ်လုပ်ကာ ရလဒ်များကို ပျမ်းမျှတွက်ချက်ရန် ရှင်သန့် အကြံပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To reduce the effect of any small, random measurement errors",
+              "To make the experiment take much longer for no reason",
+              "Because a single reading is always completely wrong",
+              "To use up all the remaining marble chips",
+            ],
+            optionsMy: [
+              "ငယ်ငယ်စား၊ ကျပန်း တိုင်းတာမှု အမှားများ၏ သက်ရောက်မှုကို လျော့ချရန်",
+              "အကြောင်းမရှိဘဲ စမ်းသပ်မှုကို ပို၍ ကြာမြင့်စေရန်",
+              "ဖတ်ရှုမှု တစ်ခုတည်းသည် အမြဲတမ်း လုံးလုံးလျားလျား မှားနေသောကြောင့်",
+              "ကျန်ရှိနေသော ကျောက်ဖြူချောင်းငယ် အားလုံးကို သုံးစွဲရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about repeating trials."],
+            hintsMy: [
+              "စမ်းသပ်မှုများ ထပ်လုပ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what specific skill does Paper 6 / the alternative-to-practical paper reward?",
+            questionMy:
+                "Paper 6 / Alternative-to-Practical Paper က ဆုချီးမြှင့်သော တိကျသော ကျွမ်းကျင်မှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Naming the specific uncontrolled variable rather than vaguely saying an experiment is unfair",
+              "Drawing the most colourful diagram of the apparatus",
+              "Finishing the experiment in the shortest possible time",
+              "Memorising the exact volume of gas collected",
+            ],
+            optionsMy: [
+              "စမ်းသပ်မှုတစ်ခု 'မျှတမှု မရှိပါ' ဟု ဝါးလွှားစွာ ပြောမည့်အစား တိကျသော ထိန်းချုပ်မှု မရှိသည့် Variable ကို ဖော်ထုတ်ခြင်း",
+              "ကိရိယာ၏ အရောင်အစုံဆုံး ပုံကို ဆွဲခြင်း",
+              "အနိုင်ရနိုင်သည့် အတိုကျဆုံး အချိန်ဖြင့် စမ်းသပ်မှုကို ပြီးမြောက်ခြင်း",
+              "စုဆောင်းရသော ဓာတ်ငွေ့ ထုထည်ကို အတိအကျ အလွတ်ကျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Experimental Design",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - စမ်းသပ်မှု ဒီဇိုင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A control variable is a factor that should be...",
+          questionMy: "Control Variable ဆိုသည်မှာ ...ရမည့် အချက်တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Kept constant",
+            "Deliberately changed",
+            "Ignored completely",
+            "Measured as the result",
+          ],
+          optionsMy: [
+            "တည်ငြိမ်စွာ ထား",
+            "တမင်တကာ ပြောင်းလဲ",
+            "လုံးဝ လျစ်လျူရှု",
+            "ရလဒ်အဖြစ် တိုင်းတာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A burette is used over a measuring cylinder for titration because it is...",
+          questionMy:
+              "Burette ကို Titration အတွက် Measuring Cylinder ထက် ...သောကြောင့် အသုံးပြုသည်",
+          optionsEn: [
+            "More precise",
+            "Cheaper only",
+            "Only used for gases",
+            "Larger in size",
+          ],
+          optionsMy: [
+            "ပို၍ တိကျ",
+            "ပို၍ ဈေးသက်သာသည်သာ",
+            "ဓာတ်ငွေ့များအတွက်သာ အသုံးပြု",
+            "အရွယ်အစား ပို၍ ကြီးမား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Repeating a measurement and taking an average helps reduce...",
+          questionMy:
+              "တိုင်းတာမှုတစ်ခုကို ထပ်လုပ်ကာ ပျမ်းမျှတွက်ချက်ခြင်းက ...လျော့ချရန် ကူညီသည်",
+          optionsEn: [
+            "Random measurement errors",
+            "The number of chemicals needed",
+            "The reaction rate itself",
+            "The colour of the indicator",
+          ],
+          optionsMy: [
+            "ကျပန်း တိုင်းတာမှု အမှားများ",
+            "လိုအပ်သော ဓာတုပစ္စည်း အရေအတွက်",
+            "ဓာတ်ပြုနှုန်း ကိုယ်တိုင်",
+            "Indicator ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 30: "Identification of Ions and Gases"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek30 = CourseWeekDef(
+  id: "course-igcse-chem-w30",
+  weekNumber: 30,
+  titleEn: "Identification of Ions and Gases",
+  titleMy: "အိုင်းယွန်းများနှင့် ဓာတ်ငွေ့များကို ဖော်ထုတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w30-d1",
+      dayNumber: 1,
+      titleEn: "Cation Tests with Sodium Hydroxide",
+      titleMy: "Sodium Hydroxide ဖြင့် Cation Test များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Sodium hydroxide solution is added dropwise, then in excess, to an unknown solution. A white precipitate forms and then dissolves in excess NaOH to give a colourless solution. Which cation is most likely present?",
+          questionMy:
+              "Sodium Hydroxide ပျော်ရည်ကို အမည်မသိ ပျော်ရည်တစ်ခုသို့ တစ်စက်ချင်း ထည့်ပြီး ပိုလျှံအောင် ထည့်လိုက်သည်။ White Precipitate ဖြစ်ပေါ်ပြီး ပိုလျှံသော NaOH တွင် ပျော်ဝင်ကာ အရောင်မဲ့ ပျော်ရည် ဖြစ်လာသည်။ မည်သည့် Cation ရှိနိုင်ဆုံးနည်း။",
+          optionsEn: [
+            "Al3+ or Zn2+ (both give a white precipitate that redissolves in excess NaOH)",
+            "Cu2+ (gives a light blue precipitate that never redissolves)",
+            "Fe3+ (gives a reddish-brown precipitate that never redissolves)",
+            "Ca2+ (gives a white precipitate that never redissolves)",
+          ],
+          optionsMy: [
+            "Al3+ သို့မဟုတ် Zn2+ (နှစ်ခုစလုံးသည် ပိုလျှံသော NaOH တွင် ပြန်ပျော်ဝင်သော White Precipitate ပေးသည်)",
+            "Cu2+ (ဘယ်တော့မှ ပြန်မပျော်ဝင်သော Light Blue Precipitate ပေးသည်)",
+            "Fe3+ (ဘယ်တော့မှ ပြန်မပျော်ဝင်သော Reddish-Brown Precipitate ပေးသည်)",
+            "Ca2+ (ဘယ်တော့မှ ပြန်မပျော်ဝင်သော White Precipitate ပေးသည်)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Al3+ and Zn2+ are the two cations whose white hydroxide precipitates are amphoteric, dissolving in excess NaOH.",
+            "To distinguish Al3+ from Zn2+, use aqueous ammonia instead: the Al(OH)3 precipitate stays insoluble in excess ammonia, but Zn(OH)2 dissolves.",
+          ],
+          hintsMy: [
+            "Al3+ နှင့် Zn2+ သည် ၎င်းတို့၏ White Hydroxide Precipitate များ Amphoteric ဖြစ်ကာ ပိုလျှံသော NaOH တွင် ပျော်ဝင်သော Cation နှစ်မျိုး ဖြစ်သည်။",
+            "Al3+ ကို Zn2+ နှင့် ခွဲခြားရန် Aqueous Ammonia ကို အသုံးပြုပါ- Al(OH)3 Precipitate သည် ပိုလျှံသော Ammonia တွင် မပျော်ဝင်ဘဲ ကျန်ရှိသော်လည်း Zn(OH)2 ကမူ ပျော်ဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An unknown solution forms a green precipitate with sodium hydroxide that does not dissolve in excess. Which ion is present?",
+          questionMy:
+              "အမည်မသိ ပျော်ရည်တစ်ခုသည် Sodium Hydroxide ဖြင့် ပိုလျှံလျှင် မပျော်ဝင်သော Green Precipitate ဖြစ်ပေါ်သည်။ မည်သည့် Ion ရှိသနည်း။",
+          optionsEn: [
+            "Fe2+ (iron(II))",
+            "Fe3+ (iron(III))",
+            "Cu2+ (copper(II))",
+            "NH4+ (ammonium)",
+          ],
+          optionsMy: [
+            "Fe2+ (Iron(II))",
+            "Fe3+ (Iron(III))",
+            "Cu2+ (Copper(II))",
+            "NH4+ (Ammonium)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fe2+ gives a green precipitate; Fe3+ gives a reddish-brown one; Cu2+ gives a light blue one -- all insoluble in excess NaOH.",
+          ],
+          hintsMy: [
+            "Fe2+ သည် Green Precipitate ပေးသည်; Fe3+ သည် Reddish-Brown ပေးသည်; Cu2+ သည် Light Blue ပေးသည် -- အားလုံး ပိုလျှံသော NaOH တွင် မပျော်ဝင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How is the ammonium ion (NH4+) confirmed using sodium hydroxide?",
+          questionMy:
+              "Ammonium Ion (NH4+) ကို Sodium Hydroxide အသုံးပြု၍ မည်သို့ အတည်ပြုသနည်း။",
+          optionsEn: [
+            "No precipitate forms, but on gentle warming, ammonia gas is released, turning damp red litmus paper blue",
+            "A white precipitate forms that dissolves in excess NaOH",
+            "A reddish-brown precipitate forms immediately",
+            "The solution turns bright yellow instantly",
+          ],
+          optionsMy: [
+            "Precipitate မဖြစ်ပေါ်သော်လည်း ဖြည်းညင်းစွာ နွေးအောင်လုပ်လိုက်ပါက Ammonia ဓာတ်ငွေ့ ထွက်လာကာ စိုစွတ်သော အနီရောင် လစ်တမတ်စ် စက္ကူကို အပြာရောင်သို့ ပြောင်းစေသည်",
+            "ပိုလျှံသော NaOH တွင် ပျော်ဝင်သော White Precipitate ဖြစ်ပေါ်သည်",
+            "Reddish-Brown Precipitate ချက်ချင်း ဖြစ်ပေါ်သည်",
+            "ပျော်ရည်သည် တောက်ပသော ဝါရောင်သို့ ချက်ချင်း ပြောင်းသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "NH4+ + OH- -> NH3 + H2O on warming. The released ammonia gas is the confirming test, not a precipitate colour.",
+          ],
+          hintsMy: [
+            "နွေးအောင်လုပ်လိုက်ပါက NH4+ + OH- -> NH3 + H2O ။ ထွက်လာသော Ammonia ဓာတ်ငွေ့သည် Precipitate အရောင် မဟုတ်ဘဲ အတည်ပြု စမ်းသပ်မှု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Anion and Gas Test Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Anion နှင့် Gas Test ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w30-dm-1",
+          termEn: "Carbonate test",
+          termMy: "Carbonate Test",
+          matchEn:
+              "Adding dilute acid produces carbon dioxide gas, which turns limewater milky",
+          matchMy:
+              "ရေဖျော် အက်ဆစ် ထည့်ခြင်းက ထုံးရည်ကို နို့ရောင် ပြောင်းစေသော Carbon Dioxide ဓာတ်ငွေ့ ထုတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w30-dm-2",
+          termEn: "Sulfate test",
+          termMy: "Sulfate Test",
+          matchEn:
+              "Adding dilute hydrochloric acid then barium chloride solution gives a white precipitate",
+          matchMy:
+              "ရေဖျော် Hydrochloric Acid ထို့နောက် Barium Chloride ပျော်ရည် ထည့်ခြင်းက White Precipitate ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w30-dm-3",
+          termEn: "Halide test",
+          termMy: "Halide Test",
+          matchEn:
+              "Adding dilute nitric acid then silver nitrate solution gives a coloured precipitate specific to each halide",
+          matchMy:
+              "ရေဖျော် Nitric Acid ထို့နောက် Silver Nitrate ပျော်ရည် ထည့်ခြင်းက Halide တစ်ခုစီ အထူးသီးသန့် အရောင်ရှိ Precipitate ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w30-dm-4",
+          termEn: "Ammonia gas test",
+          termMy: "Ammonia Gas Test",
+          matchEn: "Damp red litmus paper turns blue when exposed to the gas",
+          matchMy:
+              "ဓာတ်ငွေ့နှင့် ထိတွေ့သောအခါ စိုစွတ်သော အနီရောင် လစ်တမတ်စ် စက္ကူ အပြာရောင် ပြောင်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w30-dm-5",
+          termEn: "Oxygen gas test",
+          termMy: "Oxygen Gas Test",
+          matchEn: "A glowing splint relights when inserted into the gas",
+          matchMy:
+              "ဓာတ်ငွေ့ထဲသို့ ထည့်လိုက်သောအခါ တောက်နေသော ကျစျေးတုတ် ပြန်တောက်လာသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Gas Is It?",
+      titleMy: "စီစစ်ကြမည် - ဓာတ်ငွေ့ မည်သည်နည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Hydrogen", "Oxygen", "Carbon Dioxide", "Chlorine"],
+        bucketsMy: ["Hydrogen", "Oxygen", "Carbon Dioxide", "Chlorine"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w30-sort-1",
+            labelEn: "A lit splint gives a squeaky pop",
+            labelMy: "မီးထွန်းထားသော ကျစျေးတုတ်က 'ပေါ့' အသံထွက်သည်",
+            correctBucketEn: "Hydrogen",
+            correctBucketMy: "Hydrogen",
+          ),
+          SortingItem(
+            id: "igcsechem-w30-sort-2",
+            labelEn: "A glowing splint relights",
+            labelMy: "တောက်နေသော ကျစျေးတုတ် ပြန်တောက်လာသည်",
+            correctBucketEn: "Oxygen",
+            correctBucketMy: "Oxygen",
+          ),
+          SortingItem(
+            id: "igcsechem-w30-sort-3",
+            labelEn: "Turns limewater milky/cloudy",
+            labelMy: "ထုံးရည်ကို နို့ရောင်/မှုန်ဝါး ပြောင်းစေသည်",
+            correctBucketEn: "Carbon Dioxide",
+            correctBucketMy: "Carbon Dioxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w30-sort-4",
+            labelEn: "Bleaches damp litmus paper white",
+            labelMy: "စိုစွတ်သော လစ်တမတ်စ် စက္ကူကို အဖြူရောင် အရောင်ဖျက်ပေးသည်",
+            correctBucketEn: "Chlorine",
+            correctBucketMy: "Chlorine",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Unknown Solution Challenge",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ အမည်မသိ ပျော်ရည် စိန်ခေါ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Unknown Solution Challenge",
+        titleMy: "ရှင်သန့်၏ အမည်မသိ ပျော်ရည် စိန်ခေါ်မှု",
+        passageEn:
+            "Ko Zaw gave Shin Thant three unlabeled test tubes and challenged her to identify the cation, anion, and gas involved in each, using only the qualitative analysis tests she had learned.\n\nFor the first tube, she added sodium hydroxide dropwise and observed a reddish-brown precipitate that did not dissolve even in excess -- immediately identifying Fe3+ as the cation present, since no other common cation gives that specific colour and insolubility combination. For the second tube, she added dilute nitric acid followed by silver nitrate solution to a colourless solution, observing a cream-coloured precipitate form -- this told her the anion was bromide, since chloride would have given white and iodide would have given yellow, and the cream shade sat clearly between the two.\n\nThe third tube released a gas when warmed, and Shin Thant held a piece of damp red litmus paper at the mouth of the tube -- it turned blue almost instantly, along with a sharp, distinctive smell she recognised. She concluded this confirmed ammonia gas, which in turn meant the original solid dissolved to make this solution likely contained an ammonium salt, since ammonium ions release ammonia gas on warming with hydroxide ions. Ko Zaw pointed out that this final tube illustrated something important: qualitative analysis conclusions must be built from more than one piece of evidence whenever possible -- the litmus colour change alone was suggestive, but combining it with the distinctive smell removed any reasonable doubt, exactly the standard of certainty an examiner expects in a full-marks answer.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်အား Label မတပ်ထားသော စမ်းသပ်ပြွန် သုံးလုံးကို ပေးအပ်ပြီး သူမ သင်ယူထားသော Qualitative Analysis Test များကိုသာ အသုံးပြု၍ တစ်ခုစီတွင် ပါဝင်သော Cation, Anion နှင့် ဓာတ်ငွေ့ကို ဖော်ထုတ်ရန် စိန်ခေါ်ခဲ့သည်။\n\nပထမ ပြွန်အတွက် သူမသည် Sodium Hydroxide ကို တစ်စက်ချင်း ထည့်ကာ ပိုလျှံသော်လည်း မပျော်ဝင်သော Reddish-Brown Precipitate ကို တွေ့ရှိခဲ့သည် -- ချက်ချင်း Fe3+ ကို ပါဝင်သော Cation အဖြစ် ဖော်ထုတ်ခဲ့သည်၊ အကြောင်းမှာ အခြား ရိုးရိုး Cation မည်သည်မှ ထို သီးသန့် အရောင်နှင့် မပျော်ဝင်မှု ပေါင်းစပ်မှုကို မပေးသောကြောင့်ဖြစ်သည်။ ဒုတိယ ပြွန်အတွက် သူမသည် ရေဖျော် Nitric Acid ထို့နောက် Silver Nitrate ပျော်ရည်ကို အရောင်မဲ့ ပျော်ရည်တစ်ခုသို့ ထည့်ကာ ခရင်မ်ရောင် Precipitate ဖြစ်ပေါ်လာသည်ကို တွေ့ရှိခဲ့သည် -- ၎င်းက Anion သည် Bromide ဖြစ်ကြောင်း သူမကို ပြောပြခဲ့သည်၊ အကြောင်းမှာ Chloride က အဖြူရောင် ပေးလိမ့်မည်ဖြစ်ပြီး Iodide က ဝါရောင် ပေးလိမ့်မည်ဖြစ်ကာ ခရင်မ်ရောင်အသွယ်သည် နှစ်ခုကြားတွင် ရှင်းလင်းစွာ ရှိနေသောကြောင့်ဖြစ်သည်။\n\nတတိယ ပြွန်သည် နွေးအောင်လုပ်လိုက်သောအခါ ဓာတ်ငွေ့တစ်မျိုး ထွက်ပေါ်လာခဲ့ပြီး ရှင်သန့်သည် ပြွန်ခေါင်းတွင် စိုစွတ်သော အနီရောင် လစ်တမတ်စ် စက္ကူတစ်ချပ်ကို ကပ်ထားခဲ့သည် -- ၎င်းသည် သူမ မှတ်မိသော ထူးခြားပြီး ထက်သော အနံ့တစ်ခုနှင့်အတူ လုံးလုံးနီးပါး ချက်ချင်း အပြာရောင် ပြောင်းသွားခဲ့သည်။ ၎င်းက Ammonia ဓာတ်ငွေ့ ဖြစ်ကြောင်း အတည်ပြုကြောင်း၊ ၎င်းကလည်း မူလ အစိုင်အခဲသည် ဤပျော်ရည်ကို ဖွဲ့စည်းရန် ပျော်ဝင်ခဲ့ခြင်းသည် Ammonium ဆားတစ်မျိုး ပါဝင်နိုင်ကြောင်း ဆိုလိုသည်ဟု သူမ ကောက်ချက်ချခဲ့သည်၊ အကြောင်းမှာ Ammonium Ion များသည် Hydroxide Ion များနှင့် နွေးအောင်လုပ်ခြင်းအတွင်း Ammonia ဓာတ်ငွေ့ ထုတ်ပေးသောကြောင့်ဖြစ်သည်။ ဤနောက်ဆုံး ပြွန်သည် အရေးကြီးသော အချက်တစ်ခုကို ဖော်ပြသည်ဟု ကိုဇော် ထောက်ပြခဲ့သည် - Qualitative Analysis ကောက်ချက်များသည် ဖြစ်နိုင်သည့်အခါတိုင်း သက်သေအထောက်အထား တစ်ခုထက် ပို၍ တည်ဆောက်ရမည် -- လစ်တမတ်စ် အရောင် ပြောင်းလဲမှုတစ်ခုတည်းသည် ရည်ညွှန်းမှု ရှိသော်လည်း ထူးခြားသော အနံ့နှင့် ပေါင်းစပ်ခြင်းက သင့်လျော်သော သံသယ မည်သည့်အရာကိုမျှ ဖယ်ရှားပေးခဲ့သည်၊ ၎င်းသည် စာစစ်ဆရာတစ်ဦးက အမှတ်အပြည့် အဖြေတစ်ခုတွင် မျှော်လင့်သည့် ခိုင်လုံမှု စံနှုန်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Shin Thant conclude the second tube contained bromide, not chloride or iodide?",
+            questionMy:
+                "ဒုတိယ ပြွန်တွင် Chloride သို့မဟုတ် Iodide မဟုတ်ဘဲ Bromide ပါဝင်ကြောင်း ရှင်သန့် ကောက်ချက်ချခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The precipitate was cream-coloured, distinct from chloride's white and iodide's yellow",
+              "The precipitate was bright red",
+              "No precipitate formed at all",
+              "The solution smelled like ammonia",
+            ],
+            optionsMy: [
+              "Precipitate သည် ခရင်မ်ရောင် ဖြစ်ပြီး Chloride ၏ အဖြူရောင်နှင့် Iodide ၏ ဝါရောင်နှင့် ကွဲပြားသောကြောင့်",
+              "Precipitate သည် တောက်ပသော အနီရောင် ဖြစ်သောကြောင့်",
+              "Precipitate လုံးဝ မဖြစ်ပေါ်သောကြောင့်",
+              "ပျော်ရည်သည် Ammonia ကဲ့သို့ အနံ့ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing precipitate colours for the three halides.",
+            ],
+            hintsMy: [
+              "Halide သုံးမျိုး၏ Precipitate အရောင်များကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two pieces of evidence together confirmed ammonia gas in the third tube?",
+            questionMy:
+                "တတိယ ပြွန်တွင် Ammonia ဓာတ်ငွေ့ ရှိကြောင်း အတူတကွ အတည်ပြုခဲ့သော သက်သေအထောက်အထား နှစ်ခုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The litmus paper turning blue and the distinctive, sharp smell",
+              "The colour of the solution and its temperature",
+              "The weight of the tube and its shape",
+              "The time taken and the tube's material",
+            ],
+            optionsMy: [
+              "လစ်တမတ်စ် စက္ကူ အပြာရောင် ပြောင်းခြင်းနှင့် ထူးခြားပြီး ထက်သော အနံ့",
+              "ပျော်ရည်၏ အရောင်နှင့် ၎င်း၏ အပူချိန်",
+              "ပြွန်၏ အလေးချိန်နှင့် ၎င်း၏ ပုံသဏ္ဌာန်",
+              "ကြာချိန်နှင့် ပြွန်၏ ပစ္စည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing both pieces of evidence together.",
+            ],
+            hintsMy: [
+              "သက်သေအထောက်အထား နှစ်ခုစလုံးကို အတူတကွ ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what standard does an examiner expect from a full-marks qualitative analysis answer?",
+            questionMy:
+                "Qualitative Analysis အမှတ်အပြည့် အဖြေတစ်ခုမှ စာစစ်ဆရာတစ်ဦး မျှော်လင့်သည့် စံနှုန်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Building conclusions from more than one piece of evidence whenever possible",
+              "Using only one single test for every conclusion",
+              "Guessing the answer without any test at all",
+              "Writing the longest possible answer regardless of accuracy",
+            ],
+            optionsMy: [
+              "ဖြစ်နိုင်သည့်အခါတိုင်း သက်သေအထောက်အထား တစ်ခုထက်ပို၍ ကောက်ချက်များ တည်ဆောက်ခြင်း",
+              "ကောက်ချက် တိုင်းအတွက် စမ်းသပ်မှု တစ်ခုတည်းကိုသာ အသုံးပြုခြင်း",
+              "စမ်းသပ်မှု တစ်ခုမျှ မလုပ်ဘဲ အဖြေကို ခန့်မှန်းခြင်း",
+              "တိကျမှု မရှိသည်ဖြစ်စေ အရှည်ဆုံး အဖြေကို ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Qualitative Analysis",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Qualitative Analysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A white precipitate that redissolves in excess NaOH suggests...",
+          questionMy:
+              "ပိုလျှံသော NaOH တွင် ပြန်ပျော်ဝင်သော White Precipitate က ...ကို ညွှန်ပြသည်",
+          optionsEn: ["Al3+ or Zn2+", "Cu2+ only", "Fe3+ only", "NH4+ only"],
+          optionsMy: ["Al3+ သို့မဟုတ် Zn2+", "Cu2+ သာ", "Fe3+ သာ", "NH4+ သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Bubbling gas through limewater and turning it milky confirms...",
+          questionMy:
+              "ဓာတ်ငွေ့ကို ထုံးရည်ထဲသို့ ပူဖောင်းထုတ်ကာ နို့ရောင်ပြောင်းစေခြင်းက ...ကို အတည်ပြုသည်",
+          optionsEn: ["Carbon dioxide", "Hydrogen", "Chlorine", "Ammonia"],
+          optionsMy: ["Carbon Dioxide", "Hydrogen", "Chlorine", "Ammonia"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Adding acidified silver nitrate to identify halides gives a white precipitate for...",
+          questionMy:
+              "Halide များ ဖော်ထုတ်ရန် Acidified Silver Nitrate ထည့်ခြင်းက ...အတွက် White Precipitate ပေးသည်",
+          optionsEn: ["Chloride", "Bromide", "Iodide", "Sulfate"],
+          optionsMy: ["Chloride", "Bromide", "Iodide", "Sulfate"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 31: "Titration Techniques and Calculations"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek31 = CourseWeekDef(
+  id: "course-igcse-chem-w31",
+  weekNumber: 31,
+  titleEn: "Titration Techniques and Calculations",
+  titleMy: "တိုက်ထရိတ်ရှင်း နည်းစနစ်များနှင့် တွက်ချက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w31-d1",
+      dayNumber: 1,
+      titleEn: "Titration Procedure and Calculations",
+      titleMy: "Titration လုပ်ငန်းစဉ်နှင့် တွက်ချက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why must a titration be repeated until at least two concordant readings (within 0.1 cm3 of each other) are obtained?",
+          questionMy:
+              "Titration တစ်ခုကို အနည်းဆုံး Concordant ဖတ်ရှုမှု နှစ်ခု (တစ်ခုနှင့်တစ်ခု 0.1 cm3 အတွင်း) ရရှိသည်အထိ ထပ်လုပ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "To confirm the result is reliable and not affected by a one-off measurement error, allowing an accurate mean to be calculated",
+            "Because the first titration always uses the wrong indicator",
+            "To use up all of the acid in the burette",
+            "Concordant readings are not actually required for accuracy",
+          ],
+          optionsMy: [
+            "ရလဒ်သည် ယုံကြည်စိတ်ချရပြီး တစ်ကြိမ်တည်း တိုင်းတာမှု အမှားက သက်ရောက်ခြင်း မရှိကြောင်း အတည်ပြုကာ တိကျသော ပျမ်းမျှတစ်ခု တွက်ချက်နိုင်စေရန်",
+            "ပထမဆုံး Titration သည် မှားယွင်းသော Indicator ကို အမြဲ အသုံးပြုသောကြောင့်",
+            "Burette ရှိ အက်ဆစ်အားလုံးကို သုံးစွဲရန်",
+            "တိကျမှုအတွက် Concordant ဖတ်ရှုမှုများ အမှန်တကယ် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A rough (first) titre is used only to identify roughly where the end point is; concordant titres are then averaged for the final calculation.",
+          ],
+          hintsMy: [
+            "Rough (ပထမ) Titre ကို အဆုံးမှတ် မည်သည့်နေရာတွင် ရှိကြောင်း ခန့်မှန်းရန်သာ အသုံးပြုသည်; Concordant Titre များကို နောက်ဆုံး တွက်ချက်မှုအတွက် ထို့နောက် ပျမ်းမျှတွက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "25.0 cm3 of 0.100 mol/dm3 sodium hydroxide solution exactly neutralises 20.0 cm3 of hydrochloric acid. What is the concentration of the acid?",
+          questionMy:
+              "0.100 mol/dm3 Sodium Hydroxide ပျော်ရည် 25.0 cm3 သည် Hydrochloric Acid 20.0 cm3 ကို အတိအကျ Neutralise ပြုလုပ်သည်။ အက်ဆစ်၏ Concentration ကား အဘယ်နည်း။",
+          optionsEn: [
+            "0.125 mol/dm3 (moles NaOH = 0.0025 mol = moles HCl since 1:1 ratio; 0.0025 mol / 0.020 dm3 = 0.125 mol/dm3)",
+            "0.100 mol/dm3",
+            "0.080 mol/dm3",
+            "0.250 mol/dm3",
+          ],
+          optionsMy: [
+            "0.125 mol/dm3 (NaOH Mole = 0.0025 mol = HCl Mole၊ 1:1 အချိုးဖြစ်သောကြောင့်; 0.0025 mol / 0.020 dm3 = 0.125 mol/dm3)",
+            "0.100 mol/dm3",
+            "0.080 mol/dm3",
+            "0.250 mol/dm3",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "moles = concentration x volume(dm3). Moles NaOH = 0.100 x 0.0250 = 0.0025 mol. NaOH + HCl -> NaCl + H2O is 1:1, so moles HCl = 0.0025 mol too. Concentration HCl = 0.0025 / 0.0200 = 0.125 mol/dm3.",
+          ],
+          hintsMy: [
+            "Mole = Concentration x Volume(dm3) ။ NaOH Mole = 0.100 x 0.0250 = 0.0025 mol ။ NaOH + HCl -> NaCl + H2O သည် 1:1 ဖြစ်သောကြောင့် HCl Mole လည်း 0.0025 mol ။ HCl Concentration = 0.0025 / 0.0200 = 0.125 mol/dm3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which indicator colour change would you observe with phenolphthalein when titrating an alkali into an acid until neutralisation is reached?",
+          questionMy:
+              "Alkali တစ်ခုကို Acid တစ်ခုထဲသို့ Neutralisation ရောက်သည်အထိ Titrate လုပ်သည့်အခါ Phenolphthalein ဖြင့် မည်သည့် Indicator အရောင် ပြောင်းလဲမှု တွေ့ရမည်နည်း။",
+          optionsEn: [
+            "Colourless to pink",
+            "Red to yellow",
+            "Blue to green",
+            "Pink to colourless from the very start",
+          ],
+          optionsMy: [
+            "အရောင်မဲ့မှ ပန်းရောင်သို့",
+            "အနီရောင်မှ ဝါရောင်သို့",
+            "အပြာရောင်မှ အစိမ်းရောင်သို့",
+            "စတင်စဉ်မှစ၍ ပန်းရောင်မှ အရောင်မဲ့သို့",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Phenolphthalein is colourless in acidic solution and turns pink once the solution becomes alkaline, marking the end point.",
+          ],
+          hintsMy: [
+            "Phenolphthalein သည် Acidic ပျော်ရည်တွင် အရောင်မဲ့ဖြစ်ပြီး ပျော်ရည် Alkaline ဖြစ်လာသည်နှင့် အဆုံးမှတ်ကို အမှတ်အသားပြုကာ ပန်းရောင် ပြောင်းသွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Titration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Titration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w31-dm-1",
+          termEn: "End point",
+          termMy: "End Point",
+          matchEn:
+              "The moment during a titration when the indicator changes colour, signalling neutralisation",
+          matchMy:
+              "Titration တစ်ခုအတွင်း Indicator အရောင် ပြောင်းလဲကာ Neutralisation ကို အချက်ပြသည့် အခိုက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w31-dm-2",
+          termEn: "Rough titre",
+          termMy: "Rough Titre",
+          matchEn:
+              "The first, less precise titration reading used only to estimate where the end point lies",
+          matchMy:
+              "အဆုံးမှတ် မည်သည့်နေရာရှိကြောင်း ခန့်မှန်းရန်သာ အသုံးပြုသော ပထမဆုံး၊ တိကျမှု နည်းသော Titration ဖတ်ရှုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w31-dm-3",
+          termEn: "Pipette",
+          termMy: "Pipette",
+          matchEn:
+              "Apparatus used to measure a fixed, precise volume of solution into a conical flask",
+          matchMy:
+              "ပျော်ရည်၏ တည်ငြိမ်၊ တိကျသော ထုထည်ကို Conical Flask ထဲသို့ တိုင်းတာရန် အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w31-dm-4",
+          termEn: "Methyl orange",
+          termMy: "Methyl Orange",
+          matchEn:
+              "An indicator that turns from red in acid to yellow in alkali",
+          matchMy:
+              "Acid တွင် အနီရောင်မှ Alkali တွင် ဝါရောင်သို့ ပြောင်းလဲစေသော Indicator",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w31-dm-5",
+          termEn: "Molar concentration (mol/dm3)",
+          termMy: "Molar Concentration (mol/dm3)",
+          matchEn:
+              "The number of moles of solute dissolved per cubic decimetre of solution",
+          matchMy:
+              "ပျော်ရည်၏ Cubic Decimetre တစ်ခုစီတွင် ပျော်ဝင်နေသော Solute ၏ Mole အရေအတွက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Titration Step in Order",
+      titleMy: "စီစစ်ကြမည် - Titration အဆင့် အစဉ်လိုက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Early Step", "Middle Step", "Late Step"],
+        bucketsMy: ["Early Step", "Middle Step", "Late Step"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w31-sort-1",
+            labelEn: "Rinse and fill the burette with the titrant solution",
+            labelMy: "Burette ကို Titrant ပျော်ရည်ဖြင့် ဆေးကြောပြီး ဖြည့်ခြင်း",
+            correctBucketEn: "Early Step",
+            correctBucketMy: "Early Step",
+          ),
+          SortingItem(
+            id: "igcsechem-w31-sort-2",
+            labelEn:
+                "Pipette a fixed volume of the other solution into a conical flask and add a few drops of indicator",
+            labelMy:
+                "အခြား ပျော်ရည်၏ တည်ငြိမ်သော ထုထည်ကို Conical Flask ထဲသို့ Pipette ဖြင့် ထည့်ပြီး Indicator စက်များ ထည့်ခြင်း",
+            correctBucketEn: "Middle Step",
+            correctBucketMy: "Middle Step",
+          ),
+          SortingItem(
+            id: "igcsechem-w31-sort-3",
+            labelEn:
+                "Add titrant from the burette while swirling, until the colour change at the end point",
+            labelMy:
+                "အဆုံးမှတ်၌ အရောင် ပြောင်းလဲသည်အထိ လှည့်ပတ်လှုပ်ရှားနေစဉ် Burette မှ Titrant ထည့်ခြင်း",
+            correctBucketEn: "Middle Step",
+            correctBucketMy: "Middle Step",
+          ),
+          SortingItem(
+            id: "igcsechem-w31-sort-4",
+            labelEn:
+                "Repeat until concordant, then calculate the mean titre for the final calculation",
+            labelMy:
+                "Concordant ဖြစ်သည်အထိ ထပ်လုပ်ပြီး နောက်ဆုံး တွက်ချက်မှုအတွက် ပျမ်းမျှ Titre ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Late Step",
+            correctBucketMy: "Late Step",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Vinegar Titration Project",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ ရှာလကာရည် Titration စီမံကိန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Vinegar Titration Project",
+        titleMy: "ရှင်သန့်၏ ရှာလကာရည် Titration စီမံကိန်း",
+        passageEn:
+            "For her final experimental skills project, Shin Thant titrated a sample of household vinegar against sodium hydroxide of known concentration, to find the actual concentration of ethanoic acid in the vinegar.\n\nShe pipetted 25.0 cm3 of vinegar into a conical flask, added a few drops of phenolphthalein, and titrated 0.500 mol/dm3 sodium hydroxide from the burette until the solution turned from colourless to a permanent, faint pink -- the end point. Her rough titre came to 21.4 cm3, so she repeated the titration carefully three more times, discarding the rough result and keeping only the three closest readings: 20.8 cm3, 20.9 cm3, and 20.8 cm3, which she judged concordant since they fell within 0.1 cm3 of each other.\n\nShe averaged the three concordant titres to get 20.83 cm3, then calculated moles of NaOH used: 0.500 mol/dm3 x 0.02083 dm3 = 0.01042 mol. Since ethanoic acid and sodium hydroxide react in a 1:1 ratio (CH3COOH + NaOH -> CH3COONa + H2O), the moles of ethanoic acid in her 25.0 cm3 vinegar sample also equalled 0.01042 mol, giving a concentration of 0.01042 / 0.0250 = 0.417 mol/dm3. Ko Zaw checked her working and pointed out one subtlety worth remembering: had she used the rough titre of 21.4 cm3 instead of the concordant average, her final answer would have been noticeably too high -- a reminder that discarding the rough titre before averaging is not just a formality, but a genuine source of measurable error if skipped.",
+        passageMy:
+            "သူမ၏ နောက်ဆုံး စမ်းသပ်မှု ကျွမ်းကျင်မှု စီမံကိန်းအတွက် ရှင်သန့်သည် ရှာလကာရည်ရှိ Ethanoic Acid ၏ အမှန်တကယ် Concentration ကို ရှာဖွေရန် အိမ်သုံး ရှာလကာရည် နမူနာတစ်ခုကို သိရှိထားသော Concentration ရှိသော Sodium Hydroxide ဖြင့် Titrate လုပ်ခဲ့သည်။\n\nသူမသည် ရှာလကာရည် 25.0 cm3 ကို Conical Flask ထဲသို့ Pipette ဖြင့် ထည့်ကာ Phenolphthalein စက် အနည်းငယ် ထည့်ပြီး Burette မှ 0.500 mol/dm3 Sodium Hydroxide ကို ပျော်ရည်သည် အရောင်မဲ့မှ ထာဝစဉ်၊ ဖျော့ဖျော့ ပန်းရောင်သို့ ပြောင်းသွားသည်အထိ Titrate လုပ်ခဲ့သည် -- အဆုံးမှတ်။ သူမ၏ Rough Titre သည် 21.4 cm3 ရရှိခဲ့ပြီး Rough ရလဒ်ကို ဖယ်ရှားကာ ဆင်တူဆုံး ဖတ်ရှုမှု သုံးခုကိုသာ ထိန်းထားလျက် Titration ကို ထပ်မံ သုံးကြိမ် ဂရုတစိုက် ထပ်လုပ်ခဲ့သည် - 20.8 cm3, 20.9 cm3 နှင့် 20.8 cm3၊ ၎င်းတို့သည် တစ်ခုနှင့်တစ်ခု 0.1 cm3 အတွင်း ကျရောက်နေသောကြောင့် Concordant ဖြစ်သည်ဟု သူမ ဆုံးဖြတ်ခဲ့သည်။\n\nသူမသည် Concordant Titre သုံးခုကို ပျမ်းမျှတွက်ချက်ကာ 20.83 cm3 ရရှိခဲ့ပြီး အသုံးပြုခဲ့သော NaOH Mole ကို တွက်ချက်ခဲ့သည် - 0.500 mol/dm3 x 0.02083 dm3 = 0.01042 mol ။ Ethanoic Acid နှင့် Sodium Hydroxide သည် 1:1 အချိုးဖြင့် ဓာတ်ပြုသောကြောင့် (CH3COOH + NaOH -> CH3COONa + H2O)၊ သူမ၏ ရှာလကာရည် နမူနာ 25.0 cm3 ရှိ Ethanoic Acid Mole သည်လည်း 0.01042 mol ညီမျှခဲ့ပြီး Concentration 0.01042 / 0.0250 = 0.417 mol/dm3 ရရှိခဲ့သည်။ ကိုဇော်သည် သူမ၏ တွက်ချက်မှုကို စစ်ဆေးပြီး မှတ်ထားသင့်သည့် သိမ်မွေ့သော အချက်တစ်ခုကို ထောက်ပြခဲ့သည် - Concordant ပျမ်းမျှအစား 21.4 cm3 Rough Titre ကို အသုံးပြုခဲ့ပါက သူမ၏ နောက်ဆုံး အဖြေသည် ထင်ရှားစွာ မြင့်လွန်းနေမည် ဖြစ်ခဲ့သည် -- ပျမ်းမျှတွက်ခြင်း မပြုမီ Rough Titre ဖယ်ရှားခြင်းသည် ပုံစံသက်သက် မဟုတ်ဘဲ ကျန်ရစ်ခဲ့ပါက တိုင်းတာနိုင်သော အမှား၏ အစစ်အမှန် ရင်းမြစ်ဖြစ်ကြောင်း သတိပေးချက်တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Shin Thant discard the 21.4 cm3 rough titre before averaging?",
+            questionMy:
+                "ပျမ်းမျှတွက်ခြင်း မပြုမီ 21.4 cm3 Rough Titre ကို ရှင်သန့် ဖယ်ရှားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was not concordant with the three closest readings, which fell within 0.1 cm3 of each other",
+              "It was measured with a broken burette",
+              "The indicator had expired by that point",
+              "Rough titres are always exactly correct and should be kept",
+            ],
+            optionsMy: [
+              "ဆင်တူဆုံး ဖတ်ရှုမှု သုံးခုနှင့် Concordant မဖြစ်ပါ၊ ၎င်းတို့သည် တစ်ခုနှင့်တစ်ခု 0.1 cm3 အတွင်း ကျရောက်နေသောကြောင့်",
+              "ကျိုးနေသော Burette ဖြင့် တိုင်းတာခဲ့သောကြောင့်",
+              "ထိုအချိန်အထိ Indicator သက်တမ်းကုန်သွားခဲ့သောကြောင့်",
+              "Rough Titre များသည် အမြဲတမ်း အတိအကျ မှန်ကန်၍ ထိန်းထားသင့်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining which readings were concordant.",
+            ],
+            hintsMy: [
+              "မည်သည့် ဖတ်ရှုမှုများ Concordant ဖြစ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the moles of ethanoic acid equal the moles of NaOH used?",
+            questionMy:
+                "Ethanoic Acid Mole သည် အသုံးပြုခဲ့သော NaOH Mole နှင့် ညီမျှရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Ethanoic acid and sodium hydroxide react in a 1:1 mole ratio",
+              "Ethanoic acid always has twice as many moles as NaOH",
+              "The two substances never actually react",
+              "Vinegar contains no ethanoic acid at all",
+            ],
+            optionsMy: [
+              "Ethanoic Acid နှင့် Sodium Hydroxide သည် 1:1 Mole အချိုးဖြင့် ဓာတ်ပြုသောကြောင့်",
+              "Ethanoic Acid သည် NaOH ထက် Mole နှစ်ဆ အမြဲ ပိုများသောကြောင့်",
+              "ပစ္စည်း နှစ်ခုသည် အမှန်တကယ် ဘယ်တော့မှ ဓာတ်မပြုသောကြောင့်",
+              "ရှာလကာရည်တွင် Ethanoic Acid လုံးဝ မပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with the balanced equation and mole ratio.",
+            ],
+            hintsMy: [
+              "ချိန်ညှိထားသော ညီမျှခြင်းနှင့် Mole အချိုး ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what would have happened if Shin Thant had used the rough titre instead of the concordant average?",
+            questionMy:
+                "Concordant ပျမ်းမျှအစား Rough Titre ကို ရှင်သန့် အသုံးပြုခဲ့ပါက အဘယ်ဖြစ်လာမည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her final answer would have been noticeably too high",
+              "Her final answer would have been exactly the same",
+              "The experiment would have failed completely",
+              "The indicator would have changed colour differently",
+            ],
+            optionsMy: [
+              "သူမ၏ နောက်ဆုံး အဖြေသည် ထင်ရှားစွာ မြင့်လွန်းနေမည် ဖြစ်ခဲ့သည်",
+              "သူမ၏ နောက်ဆုံး အဖြေသည် အတိအကျ တူညီနေမည် ဖြစ်ခဲ့သည်",
+              "စမ်းသပ်မှုသည် လုံးလုံးလျားလျား မအောင်မြင်ဘဲ ဖြစ်ခဲ့သည်",
+              "Indicator သည် ကွဲပြားစွာ အရောင် ပြောင်းလဲခဲ့လိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Titration",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Titration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Moles of a solute equal concentration (mol/dm3) multiplied by...",
+          questionMy:
+              "Solute တစ်ခု၏ Mole သည် Concentration (mol/dm3) ကို ...ဖြင့် မြှောက်ပြီး ညီမျှသည်",
+          optionsEn: [
+            "Volume in dm3",
+            "Temperature in C",
+            "Mass in grams",
+            "Time in seconds",
+          ],
+          optionsMy: [
+            "Volume (dm3)",
+            "Temperature (C)",
+            "Mass (grams)",
+            "Time (seconds)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Concordant titres are readings that fall within...",
+          questionMy:
+              "Concordant Titre များဆိုသည်မှာ ...အတွင်း ကျရောက်နေသော ဖတ်ရှုမှုများ ဖြစ်သည်",
+          optionsEn: [
+            "0.1 cm3 of each other",
+            "5 cm3 of each other",
+            "50 cm3 of each other",
+            "Exactly the same second",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု 0.1 cm3",
+            "တစ်ခုနှင့်တစ်ခု 5 cm3",
+            "တစ်ခုနှင့်တစ်ခု 50 cm3",
+            "အတိအကျ တူညီသော စက္ကန့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Phenolphthalein is colourless in acid and turns...",
+          questionMy:
+              "Phenolphthalein သည် Acid တွင် အရောင်မဲ့ဖြစ်ပြီး ...သို့ ပြောင်းလဲသည်",
+          optionsEn: [
+            "Pink in alkali",
+            "Red in alkali",
+            "Green in alkali",
+            "Blue in alkali",
+          ],
+          optionsMy: [
+            "Alkali တွင် ပန်းရောင်",
+            "Alkali တွင် အနီရောင်",
+            "Alkali တွင် အစိမ်းရောင်",
+            "Alkali တွင် အပြာရောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 32: "Practical Paper Simulation Studio" (Term 8 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek32 = CourseWeekDef(
+  id: "course-igcse-chem-w32",
+  weekNumber: 32,
+  titleEn: "Practical Paper Simulation Studio",
+  titleMy: "လက်တွေ့ စာမေးပွဲ ပုံစံတူ အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w32-d1",
+      dayNumber: 1,
+      titleEn: "Combined Design, Analysis, and Titration",
+      titleMy: "Design, Analysis နှင့် Titration ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student wants to identify an unknown white solid, suspected to be either ammonium sulfate or ammonium chloride. Which single test would distinguish them?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Ammonium Sulfate သို့မဟုတ် Ammonium Chloride ဖြစ်နိုင်သည်ဟု သံသယရှိသော အမည်မသိ အဖြူရောင် အစိုင်အခဲကို ဖော်ထုတ်လိုသည်။ ၎င်းတို့ကို ခွဲခြားပေးမည့် စမ်းသပ်မှု တစ်ခုတည်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Add dilute hydrochloric acid then barium chloride solution -- a white precipitate confirms sulfate is present",
+            "Add sodium hydroxide and warm -- both would release ammonia gas, giving no distinction",
+            "Add a lit splint to the solid directly",
+            "Measure the solid's exact mass",
+          ],
+          optionsMy: [
+            "ရေဖျော် Hydrochloric Acid ထို့နောက် Barium Chloride ပျော်ရည် ထည့်ခြင်း -- White Precipitate က Sulfate ရှိကြောင်း အတည်ပြုသည်",
+            "Sodium Hydroxide ထည့်ပြီး နွေးအောင်လုပ်ခြင်း -- နှစ်ခုစလုံးသည် Ammonia ဓာတ်ငွေ့ ထုတ်ပေးမည်ဖြစ်ကာ ခွဲခြားနိုင်မှု မရှိပါ",
+            "အစိုင်အခဲပေါ်သို့ မီးထွန်းထားသော ကျစျေးတုတ် တိုက်ရိုက် ထားခြင်း",
+            "အစိုင်အခဲ၏ အတိအကျ အလေးချိန်ကို တိုင်းတာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since both compounds share the ammonium cation, testing for the anion (sulfate vs chloride) is the only way to distinguish them.",
+          ],
+          hintsMy: [
+            "ဒြပ်ပေါင်း နှစ်ခုစလုံးသည် Ammonium Cation ကို ဝေမျှထားသောကြောင့် Anion (Sulfate နှင့် Chloride) ကို စမ်းသပ်ခြင်းသည် ၎င်းတို့ကို ခွဲခြားနိုင်သည့် တစ်ခုတည်းသော နည်းလမ်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a titration, 0.100 mol/dm3 hydrochloric acid needs 15.0 cm3 to exactly neutralise 25.0 cm3 of sodium hydroxide solution. What is the concentration of the sodium hydroxide?",
+          questionMy:
+              "Titration တစ်ခုတွင် 0.100 mol/dm3 Hydrochloric Acid 15.0 cm3 သည် Sodium Hydroxide ပျော်ရည် 25.0 cm3 ကို အတိအကျ Neutralise ပြုလုပ်ရန် လိုအပ်သည်။ Sodium Hydroxide ၏ Concentration ကား အဘယ်နည်း။",
+          optionsEn: [
+            "0.060 mol/dm3 (moles HCl = 0.0015 mol = moles NaOH; 0.0015 / 0.0250 = 0.060 mol/dm3)",
+            "0.100 mol/dm3",
+            "0.150 mol/dm3",
+            "0.025 mol/dm3",
+          ],
+          optionsMy: [
+            "0.060 mol/dm3 (HCl Mole = 0.0015 mol = NaOH Mole; 0.0015 / 0.0250 = 0.060 mol/dm3)",
+            "0.100 mol/dm3",
+            "0.150 mol/dm3",
+            "0.025 mol/dm3",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "moles HCl = 0.100 x 0.0150 = 0.0015 mol. HCl + NaOH is 1:1, so moles NaOH = 0.0015 mol. Concentration = 0.0015 / 0.0250 = 0.060 mol/dm3.",
+          ],
+          hintsMy: [
+            "HCl Mole = 0.100 x 0.0150 = 0.0015 mol ။ HCl + NaOH သည် 1:1 ဖြစ်သောကြောင့် NaOH Mole = 0.0015 mol ။ Concentration = 0.0015 / 0.0250 = 0.060 mol/dm3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's rate of reaction experiment gives inconsistent results between repeats. Which of these is most likely the root cause of poor reliability?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး၏ ဓာတ်ပြုနှုန်း စမ်းသပ်မှုသည် ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက်များကြား တသမတ်တည်း မဟုတ်သော ရလဒ်များ ပေးသည်။ ယုံကြည်စိတ်ချမှု ညံ့ဖျင်းရသည့် အဖြစ်အများဆုံး အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "A control variable, such as temperature or particle size, was not actually kept constant between repeats",
+            "The student used a correctly calibrated stopwatch",
+            "The student repeated the experiment too many times",
+            "The reaction naturally never produces consistent results",
+          ],
+          optionsMy: [
+            "အပူချိန် သို့မဟုတ် အမှုန်အရွယ်အစားကဲ့သို့ Control Variable တစ်ခုကို ထပ်ခါလုပ်ဆောင်ချက်များကြား အမှန်တကယ် တည်ငြိမ်စွာ မထားခဲ့ခြင်း",
+            "ကျောင်းသားသည် မှန်ကန်စွာ ချိန်ညှိထားသော Stopwatch ကို အသုံးပြုခဲ့ခြင်း",
+            "ကျောင်းသားသည် စမ်းသပ်မှုကို အကြိမ်ရေ များစွာ ထပ်လုပ်ခဲ့ခြင်း",
+            "ဓာတ်ပြုမှုသည် သဘာဝအားဖြင့် တသမတ်တည်း ရလဒ်များကို ဘယ်တော့မှ မထုတ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Poor reliability across repeats almost always traces back to an unintentionally uncontrolled variable, exactly the kind of flaw practiced this term.",
+          ],
+          hintsMy: [
+            "ထပ်ခါလုပ်ဆောင်ချက်များကြား ယုံကြည်စိတ်ချမှု ညံ့ဖျင်းခြင်းသည် စာစစ်ဆေးမှု တစ်ချက်စီအတွက် ထင်ရှားသော ချို့ယွင်းချက် အမျိုးအစား ဖြစ်ကာ ကြိုတင်မစီစဉ်ဘဲ ထိန်းချုပ်မှု မရှိသော Variable တစ်ခုသို့ လုနီးပါး အမြဲ ချိတ်ဆက်လေ့ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အဌမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w32-dm-1",
+          termEn: "Fair test",
+          termMy: "Fair Test",
+          matchEn:
+              "An experiment where only the independent variable changes while all control variables stay constant",
+          matchMy:
+              "Control Variable အားလုံး တည်ငြိမ်စွာ ရှိနေစဉ် Independent Variable တစ်ခုတည်း ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w32-dm-2",
+          termEn: "Qualitative analysis",
+          termMy: "Qualitative Analysis",
+          matchEn:
+              "Identifying which ions or gases are present in a sample using characteristic chemical tests",
+          matchMy:
+              "ထူးခြားသော ဓာတုစမ်းသပ်မှုများကို အသုံးပြု၍ နမူနာတစ်ခုတွင် မည်သည့် Ion သို့မဟုတ် ဓာတ်ငွေ့များ ပါဝင်ကြောင်း ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w32-dm-3",
+          termEn: "Volumetric analysis",
+          termMy: "Volumetric Analysis",
+          matchEn:
+              "Using titration volumes and mole ratios to calculate an unknown concentration",
+          matchMy:
+              "အမည်မသိ Concentration ကို တွက်ချက်ရန် Titration ထုထည်များနှင့် Mole အချိုးများကို အသုံးပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w32-dm-4",
+          termEn: "Reliability",
+          termMy: "Reliability",
+          matchEn:
+              "How consistent repeated measurements of an experiment are with each other",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခု၏ ထပ်ခါတိုင်းတာမှုများ တစ်ခုနှင့်တစ်ခု မည်မျှ တသမတ်တည်း ရှိကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w32-dm-5",
+          termEn: "Alternative-to-practical paper",
+          termMy: "Alternative-to-Practical Paper",
+          matchEn:
+              "An IGCSE exam paper testing practical skills through written scenarios rather than live experiments",
+          matchMy:
+              "လက်တွေ့ စမ်းသပ်မှုများအစား ရေးသားထားသော ဇာတ်လမ်းများဖြင့် လက်တွေ့ ကျွမ်းကျင်မှုများကို စစ်ဆေးသော IGCSE စာမေးပွဲစာစောင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Design Flaw, Analysis Test, or Calculation Step?",
+      titleMy:
+          "စီစစ်ကြမည် - Design Flaw လား၊ Analysis Test လား၊ Calculation Step လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Design Flaw", "Analysis Test", "Calculation Step"],
+        bucketsMy: ["Design Flaw", "Analysis Test", "Calculation Step"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w32-sort-1",
+            labelEn: "Using a different mass of marble chips for each trial",
+            labelMy:
+                "စမ်းသပ်မှု တစ်ခုစီအတွက် ကျောက်ဖြူချောင်းငယ် အလေးချိန် မတူညီစွာ အသုံးပြုခြင်း",
+            correctBucketEn: "Design Flaw",
+            correctBucketMy: "Design Flaw",
+          ),
+          SortingItem(
+            id: "igcsechem-w32-sort-2",
+            labelEn: "Adding acidified silver nitrate to test for a halide ion",
+            labelMy: "Halide Ion စမ်းသပ်ရန် Acidified Silver Nitrate ထည့်ခြင်း",
+            correctBucketEn: "Analysis Test",
+            correctBucketMy: "Analysis Test",
+          ),
+          SortingItem(
+            id: "igcsechem-w32-sort-3",
+            labelEn: "Multiplying concentration by volume in dm3 to find moles",
+            labelMy:
+                "Mole ရှာဖွေရန် Concentration ကို Volume (dm3) ဖြင့် မြှောက်ခြင်း",
+            correctBucketEn: "Calculation Step",
+            correctBucketMy: "Calculation Step",
+          ),
+          SortingItem(
+            id: "igcsechem-w32-sort-4",
+            labelEn:
+                "Forgetting to keep the acid concentration constant across trials",
+            labelMy:
+                "စမ်းသပ်မှုများတစ်လျှောက် အက်ဆစ် Concentration ကို တည်ငြိမ်စွာ ထားရန် မေ့ကျန်ခြင်း",
+            correctBucketEn: "Design Flaw",
+            correctBucketMy: "Design Flaw",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Full Practical Simulation",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ လက်တွေ့ ပုံစံတူ အစအဆုံး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Full Practical Simulation",
+        titleMy: "ရှင်သန့်၏ လက်တွေ့ ပုံစံတူ အစအဆုံး",
+        passageEn:
+            "For her Term 8 final mock, Ko Zaw simulated a complete Paper 6-style exam: three linked tasks under strict time pressure, no hints allowed until she had submitted her answers.\n\nTask one asked her to design an experiment testing whether surface area affects the rate of reaction between calcium carbonate and hydrochloric acid, identifying the independent, dependent, and control variables. She wrote: independent variable, size of the calcium carbonate pieces (powder vs small lumps vs large lumps); dependent variable, volume of carbon dioxide gas collected in a fixed time, measured with a gas syringe; control variables, mass of calcium carbonate, concentration and volume of acid, and temperature, all held identical across trials. Task two gave her an unlabeled white solid and asked her to identify both its cation and anion using only sodium hydroxide, dilute hydrochloric acid, and barium chloride solution -- she correctly deduced calcium sulfate from a white precipitate with NaOH that did not redissolve (ruling out aluminium and zinc) combined with a white precipitate when barium chloride was added after acidifying with HCl.\n\nTask three was a titration calculation: given that 22.5 cm3 of 0.200 mol/dm3 sulfuric acid exactly neutralised 25.0 cm3 of potassium hydroxide solution, and knowing the reaction was H2SO4 + 2KOH -> K2SO4 + 2H2O, she carefully doubled the moles of acid to find moles of KOH, since the mole ratio was 1:2 rather than 1:1 -- a trap Ko Zaw had deliberately built into the question, since many students forget to check the balanced equation's ratio before assuming it is always one-to-one. When Ko Zaw marked her answers, all three tasks were fully correct, including the doubled mole ratio that had caught out nearly every other student he had ever tested with that exact question.",
+        passageMy:
+            "သူမ၏ အဌမတန်း နောက်ဆုံး Mock အတွက် ကိုဇော်သည် Paper 6 ပုံစံနှင့် ပြီးပြည့်စုံသော စာမေးပွဲကို ပုံစံတူပြုလုပ်ပေးခဲ့သည် - တင်းကျပ်သော အချိန်ဖိအားအောက်တွင် ချိတ်ဆက်ထားသော တာဝန် သုံးခု၊ သူမ အဖြေများ တင်သွင်းသည်အထိ အကြံဉာဏ် တစ်ခုမျှ မပေး။\n\nတာဝန် တစ်ခုက Calcium Carbonate နှင့် Hydrochloric Acid ကြား ဓာတ်ပြုနှုန်းကို Surface Area က သက်ရောက်ကြောင်း စမ်းသပ်သော ဒီဇိုင်းတစ်ခု ဒီဇိုင်းဆွဲရန်၊ Independent, Dependent နှင့် Control Variable များကို ဖော်ထုတ်ရန် သူမကို တောင်းဆိုခဲ့သည်။ သူမ ရေးသားခဲ့သည် - Independent Variable၊ Calcium Carbonate အစိတ်အပိုင်းများ အရွယ်အစား (မှုန့် နှင့် တုံးငယ် နှင့် တုံးကြီး); Dependent Variable၊ Gas Syringe ဖြင့် တိုင်းတာသော သတ်မှတ်ထားသော အချိန်တစ်ခုအတွင်း စုဆောင်းရသော Carbon Dioxide ဓာတ်ငွေ့ ထုထည်; Control Variable များ၊ Calcium Carbonate အလေးချိန်၊ အက်ဆစ်၏ Concentration နှင့် Volume နှင့် အပူချိန်၊ စမ်းသပ်မှု တိုင်းတွင် အားလုံး တူညီစွာ တည်ငြိမ်စွာ ထားရှိ။ တာဝန် နှစ်က Label မတပ်ထားသော အဖြူရောင် အစိုင်အခဲတစ်ခုကို ပေးအပ်ပြီး Sodium Hydroxide, ရေဖျော် Hydrochloric Acid နှင့် Barium Chloride ပျော်ရည်ကိုသာ အသုံးပြု၍ ၎င်း၏ Cation နှင့် Anion နှစ်ခုစလုံးကို ဖော်ထုတ်ရန် သူမကို တောင်းဆိုခဲ့သည် -- NaOH ဖြင့် ပြန်မပျော်ဝင်သော White Precipitate (Aluminium နှင့် Zinc ကို ဖယ်ရှားပေး) နှင့် HCl ဖြင့် Acidify ပြုလုပ်ပြီးနောက် Barium Chloride ထည့်သောအခါ White Precipitate ကို ပေါင်းစပ်ကာ Calcium Sulfate ဖြစ်ကြောင်း သူမ မှန်ကန်စွာ ကောက်ချက်ချခဲ့သည်။\n\nတာဝန် သုံးမှာ Titration တွက်ချက်မှု ဖြစ်ခဲ့သည် - 0.200 mol/dm3 Sulfuric Acid 22.5 cm3 သည် Potassium Hydroxide ပျော်ရည် 25.0 cm3 ကို အတိအကျ Neutralise ပြုလုပ်ခဲ့ကြောင်း၊ ဓာတ်ပြုမှုသည် H2SO4 + 2KOH -> K2SO4 + 2H2O ဖြစ်ကြောင်း သိရှိထားလျက် Mole အချိုးသည် 1:1 မဟုတ်ဘဲ 1:2 ဖြစ်သောကြောင့် KOH Mole ကို ရှာဖွေရန် သူမသည် အက်ဆစ် Mole ကို ဂရုတစိုက် နှစ်ဆတိုးခဲ့သည် -- ကျောင်းသားများစွာသည် အမြဲ 1:1 ဖြစ်သည်ဟု ယူဆမီ ချိန်ညှိထားသော ညီမျှခြင်း၏ အချိုးကို စစ်ဆေးရန် မေ့ကျန်ကြသောကြောင့် ကိုဇော် တမင်တကာ မေးခွန်းထဲသို့ တည်ဆောက်ထားသော ထောင်ချောက်တစ်ခု ဖြစ်ခဲ့သည်။ ကိုဇော်သည် သူမ၏ အဖြေများကို အမှတ်ပေးသောအခါ တာဝန် သုံးခုစလုံးသည် လုံးလုံးလျားလျား မှန်ကန်ခဲ့ပြီး၊ ထို တိကျသော မေးခွန်းဖြင့် ၎င်း စမ်းသပ်ခဲ့သော ကျောင်းသားနီးပါးအားလုံးကို ချောက်ချခဲ့သော နှစ်ဆ Mole အချိုးလည်း ပါဝင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Shin Thant identify as the dependent variable in task one?",
+            questionMy:
+                "တာဝန် တစ်တွင် Dependent Variable အဖြစ် ရှင်သန့် ဖော်ထုတ်ခဲ့သည့် အချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Volume of carbon dioxide gas collected in a fixed time",
+              "The size of the calcium carbonate pieces",
+              "The temperature of the room",
+              "The mass of the acid",
+            ],
+            optionsMy: [
+              "သတ်မှတ်ထားသော အချိန်တစ်ခုအတွင်း စုဆောင်းရသော Carbon Dioxide ဓာတ်ငွေ့ ထုထည်",
+              "Calcium Carbonate အစိတ်အပိုင်းများ အရွယ်အစား",
+              "အခန်း၏ အပူချိန်",
+              "အက်ဆစ်၏ အလေးချိန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing the dependent variable in task one.",
+            ],
+            hintsMy: [
+              "တာဝန် တစ်ရှိ Dependent Variable ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did Shin Thant conclude the unknown solid was calcium sulfate?",
+            questionMy:
+                "အမည်မသိ အစိုင်အခဲသည် Calcium Sulfate ဖြစ်ကြောင်း ရှင်သန့် ကောက်ချက်ချခဲ့ရသည့် နည်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A white precipitate with NaOH that did not redissolve, combined with a white precipitate from barium chloride after acidifying",
+              "The solid dissolved instantly in cold water",
+              "The solid changed colour when heated",
+              "A gas was released immediately without warming",
+            ],
+            optionsMy: [
+              "NaOH ဖြင့် ပြန်မပျော်ဝင်သော White Precipitate ကို Acidify ပြုလုပ်ပြီးနောက် Barium Chloride မှ White Precipitate နှင့် ပေါင်းစပ်ခြင်း",
+              "အစိုင်အခဲသည် အအေးရေတွင် ချက်ချင်း ပျော်ဝင်သွားခြင်း",
+              "အစိုင်အခဲသည် အပူပေးသည့်အခါ အရောင် ပြောင်းလဲခြင်း",
+              "နွေးအောင် မလုပ်ဘဲ ဓာတ်ငွေ့ ချက်ချင်း ထွက်ပေါ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence combining the two test results."],
+            hintsMy: [
+              "စမ်းသပ်မှု ရလဒ် နှစ်ခုကို ပေါင်းစပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was the mole ratio a 'trap' many students fell into?",
+            questionMy:
+                "Mole အချိုးသည် ကျောင်းသားများစွာ ကျရောက်ခဲ့ကြသော 'ထောင်ချောက်' တစ်ခု ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Many students forget to check the balanced equation's ratio before assuming it is always one-to-one",
+              "The equation was written incorrectly on purpose",
+              "Sulfuric acid never actually reacts with potassium hydroxide",
+              "The titration used the wrong indicator entirely",
+            ],
+            optionsMy: [
+              "ကျောင်းသားများစွာသည် အမြဲ 1:1 ဖြစ်သည်ဟု ယူဆမီ ချိန်ညှိထားသော ညီမျှခြင်း၏ အချိုးကို စစ်ဆေးရန် မေ့ကျန်ကြသောကြောင့်",
+              "ညီမျှခြင်းကို တမင်တကာ မှားယွင်းစွာ ရေးသားထားသောကြောင့်",
+              "Sulfuric Acid သည် Potassium Hydroxide နှင့် အမှန်တကယ် ဘယ်တော့မှ ဓာတ်မပြုသောကြောင့်",
+              "Titration သည် လုံးဝ မှားယွင်းသော Indicator ကို အသုံးပြုခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why Ko Zaw built this trap into the question.",
+            ],
+            hintsMy: [
+              "ကိုဇော် ဤထောင်ချောက်ကို မေးခွန်းထဲသို့ အဘယ်ကြောင့် တည်ဆောက်ခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Recap: Experimental Skills and Analysis",
+      titleMy:
+          "အဌမတန်း ပြန်လည်သုံးသပ်ခြင်း - စမ်းသပ်မှု ကျွမ်းကျင်မှုနှင့် Analysis",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A fair test changes only the...",
+          questionMy:
+              "မျှတသော စမ်းသပ်မှုတစ်ခုသည် ...တစ်ခုတည်းကိုသာ ပြောင်းလဲသည်",
+          optionsEn: [
+            "Independent variable",
+            "Control variables",
+            "Apparatus brand",
+            "Room colour",
+          ],
+          optionsMy: [
+            "Independent Variable",
+            "Control Variable များ",
+            "ကိရိယာ Brand",
+            "အခန်း အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A white precipitate with NaOH that redissolves in excess suggests Al3+ or...",
+          questionMy:
+              "ပိုလျှံသော NaOH တွင် ပြန်ပျော်ဝင်သော White Precipitate က Al3+ သို့မဟုတ် ...ကို ညွှန်ပြသည်",
+          optionsEn: ["Zn2+", "Fe3+", "Cu2+", "Ca2+"],
+          optionsMy: ["Zn2+", "Fe3+", "Cu2+", "Ca2+"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Before calculating a mole ratio in a titration, you must always check...",
+          questionMy:
+              "Titration တစ်ခုတွင် Mole အချိုးကို တွက်ချက်ခြင်း မပြုမီ ...ကို အမြဲ စစ်ဆေးရမည်",
+          optionsEn: [
+            "The balanced chemical equation",
+            "The colour of the burette",
+            "The room temperature only",
+            "Nothing needs to be checked",
+          ],
+          optionsMy: [
+            "ချိန်ညှိထားသော ဓာတုညီမျှခြင်း",
+            "Burette ၏ အရောင်",
+            "အခန်း အပူချိန်သာ",
+            "မည်သည့်အရာမျှ စစ်ဆေးရန် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -10559,10 +11962,24 @@ const CourseTermDef igcseChemistryTerm7 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-7 of 9 authored so far (Terms 8-9 to
-/// follow: Experimental Skills & Qualitative Analysis; Exam Prep &
-/// Graduation). `totalWeeks: 36` reflects the full 9-term aspirational
-/// course length.
+const CourseTermDef igcseChemistryTerm8 = CourseTermDef(
+  id: "course-igcse-chem-term8",
+  termNumber: 8,
+  titleEn: "Experimental Skills & Qualitative Analysis",
+  titleMy: "စမ်းသပ်မှု ကျွမ်းကျင်မှုနှင့် Qualitative Analysis",
+  certificateTitleEn: "IGCSE Chemistry Term 8 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ အဌမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek29,
+    _igcseChemWeek30,
+    _igcseChemWeek31,
+    _igcseChemWeek32,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-8 of 9 authored so far (Term 9 to
+/// follow: Exam Prep & Graduation). `totalWeeks: 36` reflects the full
+/// 9-term aspirational course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -10582,5 +11999,6 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm5,
     igcseChemistryTerm6,
     igcseChemistryTerm7,
+    igcseChemistryTerm8,
   ],
 );
