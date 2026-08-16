@@ -151419,10 +151419,10 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-4 of 9 authored so far (Terms
-/// 5-9 to follow: Argumentative & Discursive Composition through
-/// Final Exam Countdown & Graduation). `totalWeeks: 36` reflects the
-/// full 9-term aspirational course length.
+/// IGCSE English pathway -- Terms 1-5 of 9 authored so far (Terms
+/// 6-9 to follow: Literature & Poetry Analysis through Final Exam
+/// Countdown & Graduation). `totalWeeks: 36` reflects the full
+/// 9-term aspirational course length.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
   subject: "english",
@@ -151439,6 +151439,7 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
     igcseEnglishTerm2,
     igcseEnglishTerm3,
     igcseEnglishTerm4,
+    igcseEnglishTerm5,
   ],
 );
 
@@ -154470,6 +154471,1529 @@ const CourseTermDef igcseEnglishTerm4 = CourseTermDef(
   weeks: [_igcseEngWeek13, _igcseEngWeek14, _igcseEngWeek15, _igcseEngWeek16],
   certificateTitleEn: "Descriptive Composition",
   certificateTitleMy: "သရုပ်ဖော် ရေးသားမှု",
+);
+
+// =====================================================================
+// IGCSE English -- Term 5: "Argumentative & Discursive Composition"
+// (Weeks 17-20). Week 17 covers thesis statements and logical
+// progression; Week 18 covers balanced discursive essays; Week 19
+// covers rhetorical power and style; Week 20 is the capstone
+// argumentative essay masterclass.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek17 = CourseWeekDef(
+  id: "course-igcse-eng-w17",
+  weekNumber: 17,
+  titleEn: "Constructing Ironclad Arguments",
+  titleMy: "ခိုင်မာပြတ်သားသော အကြောင်းပြချက်များ တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w17-d1",
+      dayNumber: 1,
+      titleEn: "Thesis Statements and Logical Progression",
+      titleMy: "Thesis Statement များနှင့် ယုတ္တိအရ တိုးတက်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A thesis statement in an argumentative essay should...",
+          questionMy:
+              "အငြင်းပွားမှု Essay တစ်ခုရှိ Thesis Statement တစ်ခုသည်...",
+          optionsEn: [
+            "Clearly state the essay's central argument early on",
+            "Be left out entirely",
+            "Only appear in the conclusion",
+            "Contradict itself deliberately",
+          ],
+          optionsMy: [
+            "Essay ၏ ဗဟိုချက် အငြင်းပွားမှုကို အစောပိုင်းတွင် ရှင်းလင်းစွာ ဖော်ပြသင့်သည်",
+            "လုံးဝ ချန်ထားသင့်သည်",
+            "နိဂုံးတွင်သာ ပေါ်လာသင့်သည်",
+            "ရည်ရွယ်ချက်ရှိရှိ ကိုယ့်ကိုယ်ကို ဆန့်ကျင်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Logical progression in an argumentative essay means each paragraph should...",
+          questionMy:
+              "အငြင်းပွားမှု Essay တစ်ခုရှိ ယုတ္တိအရ တိုးတက်မှုဆိုသည်မှာ စာပိုဒ်တစ်ခုစီသည်...",
+          optionsEn: [
+            "Build logically on the previous point toward the overall conclusion",
+            "Contradict the previous paragraph randomly",
+            "Repeat the same point word for word",
+            "Have no connection to the thesis at all",
+          ],
+          optionsMy: [
+            "ယခင် အချက်ပေါ် ယုတ္တိအရ တည်ဆောက်ပြီး အလုံးစုံ နိဂုံးဆီသို့ တိုးတက်သင့်သည်",
+            "ယခင် စာပိုဒ်ကို ကျပန်း ဆန့်ကျင်သင့်သည်",
+            "တူညီသော အချက်ကို စကားလုံးအတိုင်း ထပ်ခါ ရေးသင့်သည်",
+            "Thesis နှင့် လုံးဝ ဆက်စပ်မှု မရှိသင့်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Refuting opposing views\" means...",
+          questionMy: "\"Refuting Opposing Views\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Directly addressing and dismantling counter-arguments with evidence",
+            "Ignoring every opposing view completely",
+            "Agreeing with every opposing view",
+            "Never mentioning any other perspective",
+          ],
+          optionsMy: [
+            "Counter-Argument များကို သက်သေအထောက်အထားဖြင့် တိုက်ရိုက် ကိုင်တွယ်ကာ ဖြိုချခြင်း",
+            "ဆန့်ကျင်ဘက် အမြင်တိုင်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ဆန့်ကျင်ဘက် အမြင်တိုင်းနှင့် သဘောတူခြင်း",
+            "အခြား ရှုထောင့်ကို ဘယ်တော့မှ မဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An argumentative essay that jumps between unrelated points with no clear thread typically...",
+          questionMy:
+              "ရှင်းလင်းသော အချိတ်အဆက် မရှိဘဲ မဆက်စပ်သော အချက်များကြား ခုန်ကူးနေသော အငြင်းပွားမှု Essay တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Confuses the reader and weakens the overall argument",
+            "Automatically wins the argument",
+            "Is the strongest possible structure",
+            "Has no effect on the reader",
+          ],
+          optionsMy: [
+            "စာဖတ်သူကို ရှုပ်ထွေးစေပြီး အလုံးစုံ အငြင်းပွားမှုကို အားနည်းစေသည်",
+            "အငြင်းပွားမှုကို အလိုအလျောက် အနိုင်ရစေသည်",
+            "ဖြစ်နိုင်သမျှ အားအကောင်းဆုံး ဖွဲ့စည်းပုံ",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The strongest evidence to support a thesis is typically...",
+          questionMy:
+              "Thesis တစ်ခုကို ထောက်ခံရန် အားအကောင်းဆုံး သက်သေအထောက်အထားသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Specific, verifiable facts or examples, not vague generalisations",
+            "A personal feeling with no evidence",
+            "An unrelated anecdote",
+            "A random guess",
+          ],
+          optionsMy: [
+            "တိကျပြီး အတည်ပြုနိုင်သော အချက်အလက် (သို့) ဥပမာများ၊ မှုန်ဝါးသော ယေဘုယျမှု မဟုတ်ဘဲ",
+            "သက်သေအထောက်အထား မပါသော ကိုယ်ပိုင် ခံစားချက်",
+            "မသက်ဆိုင်သော ဇာတ်လမ်းငယ်",
+            "ကျပန်း မှန်းဆချက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Argumentative Essay Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အငြင်းပွားမှု Essay ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w17-dm-1",
+          termEn: "Thesis statement",
+          termMy: "Thesis Statement",
+          matchEn:
+              "A clear statement of an essay's central argument, usually near the start",
+          matchMy:
+              "Essay တစ်ခု၏ ဗဟိုချက် အငြင်းပွားမှု၏ ရှင်းလင်းသော ဖော်ပြချက်၊ များသောအားဖြင့် အစပိုင်းတွင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w17-dm-2",
+          termEn: "Logical progression",
+          termMy: "Logical Progression",
+          matchEn:
+              "Each point building coherently on the last toward an overall conclusion",
+          matchMy:
+              "အချက်တစ်ခုစီသည် အလုံးစုံ နိဂုံးဆီသို့ ယခင် အချက်ပေါ် ညီညွတ်စွာ တည်ဆောက်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w17-dm-3",
+          termEn: "Refutation",
+          termMy: "Refutation",
+          matchEn:
+              "Directly addressing and dismantling an opposing argument with evidence",
+          matchMy:
+              "ဆန့်ကျင်ဘက် အငြင်းပွားမှုတစ်ခုကို သက်သေအထောက်အထားဖြင့် တိုက်ရိုက် ကိုင်တွယ်ကာ ဖြိုချခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w17-dm-4",
+          termEn: "Evidence",
+          termMy: "Evidence",
+          matchEn: "Specific, verifiable facts or examples supporting a claim",
+          matchMy:
+              "Claim တစ်ခုကို ထောက်ခံသော တိကျပြီး အတည်ပြုနိုင်သော အချက်အလက် (သို့) ဥပမာများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w17-dm-5",
+          termEn: "Topic sentence",
+          termMy: "Topic Sentence",
+          matchEn: "The opening sentence of a paragraph stating its main point",
+          matchMy: "စာပိုဒ်တစ်ခု၏ အဓိက အချက်ကို ဖော်ပြသော ဖွင့်ဝါကျ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Argument Structure?",
+      titleMy:
+          "စီစစ်ကြမည် - အားကောင်းသော (သို့) အားနည်းသော အငြင်းပွားမှု ဖွဲ့စည်းပုံ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Structure", "Weak Structure"],
+        bucketsMy: ["အားကောင်းသော ဖွဲ့စည်းပုံ", "အားနည်းသော ဖွဲ့စည်းပုံ"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w17-sort-1",
+            labelEn:
+                "Each paragraph opens with a topic sentence linked to the thesis",
+            labelMy:
+                "စာပိုဒ်တစ်ခုစီသည် Thesis နှင့် ချိတ်ဆက်ထားသော Topic Sentence ဖြင့် ဖွင့်သည်",
+            correctBucketEn: "Strong Structure",
+            correctBucketMy: "အားကောင်းသော ဖွဲ့စည်းပုံ",
+          ),
+          SortingItem(
+            id: "igcseeng-w17-sort-2",
+            labelEn:
+                "Paragraphs jump between unrelated topics with no clear connection",
+            labelMy:
+                "စာပိုဒ်များသည် ရှင်းလင်းသော ဆက်စပ်မှု မရှိဘဲ မသက်ဆိုင်သော ခေါင်းစဉ်များကြား ခုန်ကူးသည်",
+            correctBucketEn: "Weak Structure",
+            correctBucketMy: "အားနည်းသော ဖွဲ့စည်းပုံ",
+          ),
+          SortingItem(
+            id: "igcseeng-w17-sort-3",
+            labelEn: "A specific fact is cited as evidence for each claim",
+            labelMy:
+                "Claim တစ်ခုစီအတွက် တိကျသော အချက်အလက်တစ်ခုကို သက်သေအထောက်အထားအဖြစ် ကိုးကားသည်",
+            correctBucketEn: "Strong Structure",
+            correctBucketMy: "အားကောင်းသော ဖွဲ့စည်းပုံ",
+          ),
+          SortingItem(
+            id: "igcseeng-w17-sort-4",
+            labelEn:
+                "The thesis statement is never clearly stated anywhere in the essay",
+            labelMy:
+                "Thesis Statement ကို Essay အတွင်း မည်သည့်နေရာတွင်မျှ ရှင်းလင်းစွာ ဘယ်တော့မှ မဖော်ပြပါ",
+            correctBucketEn: "Weak Structure",
+            correctBucketMy: "အားနည်းသော ဖွဲ့စည်းပုံ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Thesis Statement Struggle",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Thesis Statement ရုန်းကန်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Thesis Statement Struggle",
+        titleMy: "နေချည်၏ Thesis Statement ရုန်းကန်မှု",
+        passageEn:
+            "Assigned to argue whether school days should start later, Nay Chi's first draft opened with three vague sentences about how \"school is important\" and \"sleep is also important\" before finally, in the fourth sentence, gesturing vaguely toward a position. Ko Thura pointed out that a reader -- or an examiner -- shouldn't have to hunt for the essay's actual argument.\n\nHe asked her to write her thesis first, alone, before anything else: \"School days should start at least one hour later, because adolescent sleep science shows earlier starts directly harm academic performance and mental health.\" This single sentence, he explained, now did real work -- it named her position clearly and previewed the specific evidence category (sleep science) she would use to support it.\n\nWith the thesis fixed, Nay Chi found the rest of the essay assembled itself more naturally: each paragraph's topic sentence connected directly back to the promise made in that thesis, building point by point rather than wandering. When she reached the paragraph addressing the counter-argument -- that later starts would disrupt family schedules -- she refuted it directly with evidence rather than ignoring it, citing a specific study where schools that shifted start times reported improved attendance despite initial scheduling concerns. Ko Thura told her this was the core lesson of the week: a strong thesis wasn't just an opening formality, it was the skeleton the entire essay's logic hung from.",
+        passageMy:
+            "ကျောင်းရက်များ ပိုနောက်ကျစွာ စတင်သင့်ကြောင်း ငြင်းခုံရန် တာဝန်ပေးအပ်ခံရသော နေချည်၏ ပထမမူကြမ်းသည် \"ကျောင်းသည် အရေးကြီးသည်\" နှင့် \"အိပ်စက်ခြင်းသည်လည်း အရေးကြီးသည်\" အကြောင်း မှုန်ဝါးသော ဝါကျသုံးကြောင်းဖြင့် ဖွင့်ခဲ့ပြီး နောက်ဆုံးတွင် စတုတ္ထဝါကျတွင် ရပ်တည်ချက်တစ်ခုသို့ မှုန်ဝါးစွာ ညွှန်ပြခဲ့သည်။ ကိုသူရသည် စာဖတ်သူတစ်ဦး -- (သို့) စစ်ဆေးသူတစ်ဦး -- သည် Essay ၏ အမှန်တကယ် အငြင်းပွားမှုကို ရှာဖွေရန် မလိုအပ်သင့်ကြောင်း ထောက်ပြခဲ့သည်။\n\nသူသည် သူမကို သူမ၏ Thesis ကို အခြားမည်သည့်အရာမျှ မတိုင်မီ တစ်ဦးတည်း ဦးစွာ ရေးရန် တောင်းဆိုခဲ့သည် - \"ကျောင်းရက်များသည် အနည်းဆုံး တစ်နာရီ နောက်ကျစွာ စတင်သင့်ပြီး၊ အကြောင်းမှာ ဆယ်ကျော်သက် အိပ်စက်ခြင်း သိပ္ပံသည် ပိုစောသော စတင်မှုများသည် ပညာရေး စွမ်းဆောင်ရည်နှင့် စိတ်ကျန်းမာရေးကို တိုက်ရိုက် ထိခိုက်စေကြောင်း ပြသနေသောကြောင့် ဖြစ်သည်။\" ဤဝါကျတစ်ကြောင်းတည်းသည် ယခုအခါ စစ်မှန်သော အလုပ်ကို လုပ်ဆောင်ခဲ့သည်ဟု သူ ရှင်းပြခဲ့သည် -- ၎င်းသည် သူမ၏ ရပ်တည်ချက်ကို ရှင်းလင်းစွာ အမည်တပ်ပြီး သူမ ၎င်းကို ထောက်ခံရန် သုံးမည့် တိကျသော သက်သေအထောက်အထား အမျိုးအစား (အိပ်စက်ခြင်း သိပ္ပံ) ကို ကြိုတင် ပြသခဲ့သည်။\n\nThesis ကို ပြင်ဆင်ပြီးနောက် နေချည်သည် Essay ၏ ကျန်အပိုင်းသည် ပို၍ သဘာဝကျစွာ ကိုယ်တိုင် စုစည်းသွားသည်ကို တွေ့ခဲ့သည် - စာပိုဒ်တစ်ခုစီ၏ Topic Sentence သည် ထို Thesis တွင် ပေးထားသော ကတိသို့ တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး၊ လမ်းလွဲခြင်းထက် အချက်တစ်ချက်ချင်းစီ တည်ဆောက်ခဲ့သည်။ Counter-Argument ကို ကိုင်တွယ်သော စာပိုဒ်သို့ ရောက်သောအခါ -- ပိုနောက်ကျသော စတင်မှုများသည် မိသားစု အချိန်ဇယားများကို အနှောင့်အယှက်ဖြစ်စေမည် -- သူမသည် ၎င်းကို လျစ်လျူရှုမည့်အစား သက်သေအထောက်အထားဖြင့် တိုက်ရိုက် ချေဖျက်ခဲ့ပြီး၊ စတင်မှု အချိန်များ ပြောင်းလဲခဲ့သော ကျောင်းများသည် ကနဦး အချိန်ဇယားဆိုင်ရာ စိုးရိမ်မှုများ ရှိသော်လည်း တက်ရောက်မှု တိုးတက်လာကြောင်း ဖော်ပြသော သီးခြား လေ့လာမှုတစ်ခုကို ကိုးကားခဲ့သည်။ ကိုသူရသည် ၎င်းသည် ဤအပတ်၏ အဓိက သင်ခန်းစာဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - ခိုင်မာသော Thesis တစ်ခုသည် ဖွင့်ချက် ဓလေ့ထုံးစံတစ်ခုသက်သက် မဟုတ်ဘဲ Essay တစ်ခုလုံး၏ ယုတ္တိ ချိတ်ဆွဲထားသော အရိုးစုံ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify with Nay Chi's first draft?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reader shouldn't have to hunt for the essay's actual argument",
+              "It was written in the wrong language",
+              "It had no title",
+              "It was too short",
+            ],
+            optionsMy: [
+              "စာဖတ်သူသည် Essay ၏ အမှန်တကယ် အငြင်းပွားမှုကို ရှာဖွေရန် မလိုအပ်သင့်ပါ",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားခဲ့သည်",
+              "ခေါင်းစဉ် မပါခဲ့ပါ",
+              "အလွန် တိုတောင်းလွန်းခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two things did Nay Chi's improved thesis do?",
+            questionMy:
+                "နေချည်၏ တိုးတက်လာသော Thesis သည် အရာနှစ်ခု ဘာလုပ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Named her position clearly and previewed the evidence category",
+              "Listed every possible counter-argument",
+              "Avoided stating any position at all",
+              "Summarised the entire essay word for word",
+            ],
+            optionsMy: [
+              "သူမ၏ ရပ်တည်ချက်ကို ရှင်းလင်းစွာ အမည်တပ်ပြီး သက်သေအထောက်အထား အမျိုးအစားကို ကြိုတင် ပြသခဲ့သည်",
+              "ဖြစ်နိုင်သော Counter-Argument တိုင်းကို စာရင်းပြုစုခဲ့သည်",
+              "ရပ်တည်ချက် မည်သည်ကိုမျှ ဖော်ပြခြင်း ရှောင်ရှားခဲ့သည်",
+              "Essay တစ်ခုလုံးကို စကားလုံးအတိုင်း အကျဉ်းချုပ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the thesis now did.",
+            ],
+            hintsMy: [
+              "Thesis ယခုအခါ ဘာလုပ်ခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say a strong thesis was?",
+            questionMy:
+                "ခိုင်မာသော Thesis တစ်ခုသည် မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The skeleton the entire essay's logic hung from",
+              "An unnecessary formality",
+              "Something to write last",
+              "Optional for high marks",
+            ],
+            optionsMy: [
+              "Essay တစ်ခုလုံး၏ ယုတ္တိ ချိတ်ဆွဲထားသော အရိုးစုံ",
+              "မလိုအပ်သော ဓလေ့ထုံးစံ",
+              "နောက်ဆုံးတွင် ရေးရန် တစ်စုံတစ်ခု",
+              "အမှတ်မြင့်ရရှိရန် Optional",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Ironclad Arguments",
+      titleMy:
+          "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ခိုင်မာပြတ်သားသော အကြောင်းပြချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A thesis statement should...",
+          questionMy: "Thesis Statement တစ်ခုသည်...",
+          optionsEn: [
+            "Clearly state the central argument early on",
+            "Be left out entirely",
+            "Only appear in the conclusion",
+            "Contradict itself",
+          ],
+          optionsMy: [
+            "ဗဟိုချက် အငြင်းပွားမှုကို အစောပိုင်းတွင် ရှင်းလင်းစွာ ဖော်ပြသင့်သည်",
+            "လုံးဝ ချန်ထားသင့်သည်",
+            "နိဂုံးတွင်သာ ပေါ်လာသင့်သည်",
+            "ကိုယ့်ကိုယ်ကို ဆန့်ကျင်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Logical progression means each paragraph should...",
+          questionMy: "ယုတ္တိအရ တိုးတက်မှုဆိုသည်မှာ စာပိုဒ်တစ်ခုစီသည်...",
+          optionsEn: [
+            "Build logically toward the conclusion",
+            "Contradict the previous one",
+            "Repeat the same point",
+            "Ignore the thesis",
+          ],
+          optionsMy: [
+            "နိဂုံးဆီသို့ ယုတ္တိအရ တည်ဆောက်သင့်သည်",
+            "ယခင်တစ်ခုကို ဆန့်ကျင်သင့်သည်",
+            "အချက်တူညီစွာ ထပ်ခါ ရေးသင့်သည်",
+            "Thesis ကို လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Refuting an opposing view means...",
+          questionMy:
+              "ဆန့်ကျင်ဘက် အမြင်တစ်ခုကို Refute ပြုလုပ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Directly addressing and dismantling it with evidence",
+            "Ignoring it completely",
+            "Agreeing with it",
+            "Never mentioning it",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားဖြင့် တိုက်ရိုက် ကိုင်တွယ်ကာ ဖြိုချခြင်း",
+            "လုံးဝ လျစ်လျူရှုခြင်း",
+            "သဘောတူခြင်း",
+            "ဘယ်တော့မှ မဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek18 = CourseWeekDef(
+  id: "course-igcse-eng-w18",
+  weekNumber: 18,
+  titleEn: "Balanced Discursive Essays",
+  titleMy: "မျှတသော ဆွေးနွေးတင်ပြမှု အက်ဆေးများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w18-d1",
+      dayNumber: 1,
+      titleEn: "Exploring Both Sides with an Objective Tone",
+      titleMy: "ဘက်နှစ်ဖက်ကို ကြားနေသော လေယူလေသိမ်းဖြင့် စူးစမ်းလေ့လာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A discursive essay differs from an argumentative essay because it...",
+          questionMy:
+              "ဆွေးနွေးတင်ပြမှု Essay တစ်ခုသည် အငြင်းပွားမှု Essay တစ်ခုနှင့် ကွာခြားချက်မှာ ၎င်းသည်...",
+          optionsEn: [
+            "Explores multiple perspectives in a balanced way, rather than arguing one side",
+            "Must only present one side with no balance",
+            "Cannot include any evidence",
+            "Is always written as a letter",
+          ],
+          optionsMy: [
+            "ဘက်တစ်ဖက်ကို ငြင်းခုံမည့်အစား ရှုထောင့်မျိုးစုံကို မျှတစွာ စူးစမ်းလေ့လာသည်",
+            "မျှတမှု မရှိဘဲ ဘက်တစ်ဖက်ကိုသာ တင်ပြရမည်",
+            "သက်သေအထောက်အထား မည်သည်ကိုမျှ ထည့်သွင်း၍ မရပါ",
+            "စာတစ်စောင်အဖြစ် အမြဲ ရေးသားရသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A \"nuanced opinion\" acknowledges...",
+          questionMy: "\"Nuanced Opinion\" တစ်ခုသည် ...ကို အသိအမှတ်ပြုသည်",
+          optionsEn: [
+            "Complexity and shades of grey, not just black-and-white extremes",
+            "Only one extreme position with no complexity",
+            "Nothing beyond a simple yes or no",
+            "That there is only one possible viewpoint",
+          ],
+          optionsMy: [
+            "အမည်း-အဖြူ စွန်းများသက်သက်မက ရှုပ်ထွေးမှုနှင့် ပြာရောင် အရိပ်များ",
+            "ရှုပ်ထွေးမှု မရှိသော အစွန်းရောက် ရပ်တည်ချက်တစ်ခုတည်း",
+            "ရိုးရှင်းသော ဟုတ်သည် (သို့) မဟုတ်ဟု ဆိုခြင်းထက် ဘာမျှ",
+            "ဖြစ်နိုင်ချေ ရှုထောင့်တစ်ခုတည်းသာ ရှိကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An objective tone in discursive writing means...",
+          questionMy:
+              "ဆွေးနွေးတင်ပြမှု ရေးသားမှုရှိ ကြားနေသော လေယူလေသိမ်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Presenting perspectives fairly without heavy personal bias",
+            "Using only emotional, exaggerated language",
+            "Refusing to mention any facts",
+            "Attacking one side unfairly",
+          ],
+          optionsMy: [
+            "ကိုယ်ရေးကိုယ်တာ ဘက်လိုက်မှု လေးလေးနက်နက် မပါဘဲ ရှုထောင့်များကို မျှတစွာ တင်ပြခြင်း",
+            "ခံစားချက်ဆန်၍ လွန်ကဲသော ဘာသာစကားကိုသာ သုံးခြင်း",
+            "အချက်အလက် မည်သည်ကိုမျှ ဖော်ပြရန် ငြင်းဆန်ခြင်း",
+            "ဘက်တစ်ဖက်ကို မမျှတစွာ တိုက်ခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A well-balanced discursive essay typically ends with...",
+          questionMy:
+              "မျှတသော ဆွေးနွေးတင်ပြမှု Essay တစ်ခုသည် ပုံမှန်အားဖြင့် ...ဖြင့် အဆုံးသတ်သည်",
+          optionsEn: [
+            "A measured conclusion weighing the perspectives explored",
+            "A one-sided rant with no balance",
+            "No conclusion at all",
+            "An unrelated new topic",
+          ],
+          optionsMy: [
+            "စူးစမ်းလေ့လာခဲ့သော ရှုထောင့်များကို ချိန်ဆထားသော တွက်ချက်ထားသော နိဂုံးချုပ်",
+            "မျှတမှု မရှိသော ဘက်တစ်ဖက်တည်း ဒေါသထွက် ပြောဆိုမှု",
+            "နိဂုံး လုံးဝ မရှိခြင်း",
+            "မသက်ဆိုင်သော ခေါင်းစဉ်အသစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Discursive essays about \"social media's impact on teenagers\" should typically...",
+          questionMy:
+              "\"ဆယ်ကျော်သက်များအပေါ် Social Media ၏ သက်ရောက်မှု\" အကြောင်း ဆွေးနွေးတင်ပြမှု Essay များသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Present both benefits and drawbacks fairly before concluding",
+            "Only list benefits with no drawbacks",
+            "Only list drawbacks with no benefits",
+            "Avoid the topic entirely",
+          ],
+          optionsMy: [
+            "မကောက်ချက်မချမီ အကျိုးကျေးဇူးနှင့် အားနည်းချက်နှစ်ခုစလုံးကို မျှတစွာ တင်ပြသင့်သည်",
+            "အားနည်းချက် မပါဘဲ အကျိုးကျေးဇူးများသာ စာရင်းပြုစုသင့်သည်",
+            "အကျိုးကျေးဇူး မပါဘဲ အားနည်းချက်များသာ စာရင်းပြုစုသင့်သည်",
+            "ခေါင်းစဉ်ကို လုံးဝ ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Discursive Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆွေးနွေးတင်ပြမှု ရေးသားမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w18-dm-1",
+          termEn: "Discursive essay",
+          termMy: "Discursive Essay",
+          matchEn:
+              "An essay exploring multiple perspectives on a topic in a balanced way",
+          matchMy:
+              "ခေါင်းစဉ်တစ်ခုအပေါ် ရှုထောင့်မျိုးစုံကို မျှတစွာ စူးစမ်းလေ့လာသော Essay",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w18-dm-2",
+          termEn: "Nuance",
+          termMy: "Nuance",
+          matchEn:
+              "A subtle shade of meaning or complexity beyond simple extremes",
+          matchMy:
+              "ရိုးရှင်းသော အစွန်းများထက် ပို၍ အဓိပ္ပာယ် (သို့) ရှုပ်ထွေးမှု၏ သိမ်မွေ့သော အရိပ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w18-dm-3",
+          termEn: "Objective tone",
+          termMy: "Objective Tone",
+          matchEn: "A fair, balanced voice without heavy personal bias",
+          matchMy:
+              "ကိုယ်ရေးကိုယ်တာ ဘက်လိုက်မှု လေးလေးနက်နက် မပါသော တရားမျှတ၊ ချိန်ညှိထားသော အသံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w18-dm-4",
+          termEn: "Weighted conclusion",
+          termMy: "Weighted Conclusion",
+          matchEn:
+              "A closing that measures explored perspectives before reaching a balanced judgement",
+          matchMy:
+              "မျှတသော စီရင်ဆုံးဖြတ်ချက်မရောက်မီ စူးစမ်းလေ့လာခဲ့သော ရှုထောင့်များကို ချိန်ဆသော ပိတ်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w18-dm-5",
+          termEn: "Concession",
+          termMy: "Concession",
+          matchEn:
+              "Acknowledging a valid point on the opposing side of a discussion",
+          matchMy:
+              "ဆွေးနွေးမှုတစ်ခု၏ ဆန့်ကျင်ဘက်ရှိ ခိုင်မာသော အချက်တစ်ခုကို အသိအမှတ်ပြုခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Balanced or One-Sided?",
+      titleMy: "စီစစ်ကြမည် - မျှတသော (သို့) ဘက်တစ်ဖက်တည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Balanced/Discursive", "One-Sided/Argumentative"],
+        bucketsMy: ["မျှတသော/ဆွေးနွေးတင်ပြမှု", "ဘက်တစ်ဖက်တည်း/အငြင်းပွားမှု"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w18-sort-1",
+            labelEn:
+                "\"While some argue X, others make a compelling case for Y; both have merit.\"",
+            labelMy:
+                "\"အချို့က X ကို ငြင်းခုံသော်လည်း အခြားသူများက Y အတွက် ဆွဲဆောင်နိုင်သော အကြောင်းပြချက် ပြုလုပ်ကြသည်၊ နှစ်ခုစလုံးတွင် ကောင်းသောအချက်များ ရှိသည်။\"",
+            correctBucketEn: "Balanced/Discursive",
+            correctBucketMy: "မျှတသော/ဆွေးနွေးတင်ပြမှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w18-sort-2",
+            labelEn:
+                "\"There is only one correct position on this issue, and anyone who disagrees is simply wrong.\"",
+            labelMy:
+                "\"ဤကိစ္စရပ်တွင် မှန်ကန်သော ရပ်တည်ချက် တစ်ခုတည်းသာ ရှိပြီး၊ သဘောမတူသူ မည်သူမဆို ရိုးရိုးရှင်းရှင်း မှားသည်။\"",
+            correctBucketEn: "One-Sided/Argumentative",
+            correctBucketMy: "ဘက်တစ်ဖက်တည်း/အငြင်းပွားမှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w18-sort-3",
+            labelEn:
+                "\"The evidence for both viewpoints is presented before a final, weighted judgement is offered.\"",
+            labelMy:
+                "\"နောက်ဆုံး ချိန်ဆထားသော စီရင်ဆုံးဖြတ်ချက် မတင်ပြမီ ရှုထောင့် နှစ်ခုစလုံးအတွက် သက်သေအထောက်အထားကို တင်ပြသည်။\"",
+            correctBucketEn: "Balanced/Discursive",
+            correctBucketMy: "မျှတသော/ဆွေးနွေးတင်ပြမှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w18-sort-4",
+            labelEn:
+                "\"This essay will convince you that my position is the only reasonable one.\"",
+            labelMy:
+                "\"ဤ Essay သည် ကျွန်ုပ်၏ ရပ်တည်ချက်သည် တစ်ခုတည်းသော ကျိုးကြောင်းညီသော ရပ်တည်ချက်ဖြစ်ကြောင်း သင့်ကို ယုံကြည်စေမည်။\"",
+            correctBucketEn: "One-Sided/Argumentative",
+            correctBucketMy: "ဘက်တစ်ဖက်တည်း/အငြင်းပွားမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Discursive Balancing Act",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ဆွေးနွေးတင်ပြမှု ဟန်ချက်ညီစေရေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Discursive Balancing Act",
+        titleMy: "နေချည်၏ ဆွေးနွေးတင်ပြမှု ဟန်ချက်ညီစေရေး",
+        passageEn:
+            "Given the discursive prompt \"Discuss the impact of smartphones on young people,\" Nay Chi's first draft slipped, almost without her noticing, into pure argument -- every paragraph attacked smartphones, with no acknowledgement that they offered any benefit whatsoever. Ko Thura pointed out that this wasn't discursive writing at all, it was an argumentative essay wearing a discursive title.\n\nHe asked her to restructure with a strict rule: for every drawback she raised, she needed to also present a genuine, fairly-argued benefit before moving on. Nay Chi rewrote her second paragraph: alongside the real concern about reduced face-to-face social skills, she added that smartphones also connected isolated young people to supportive online communities they might never have found otherwise, particularly those in rural areas or from marginalised groups. Neither point cancelled the other out -- both were true and worth weighing seriously.\n\nHer conclusion changed most of all. Instead of a one-sided verdict condemning smartphones outright, she wrote a weighted judgement acknowledging genuine costs and genuine benefits, concluding that the technology itself was neutral -- what mattered most was the specific habits and guidance surrounding its use. Ko Thura told her this kind of nuanced, evidence-weighed conclusion was exactly what separated a strong discursive essay from a disguised argumentative one, and that examiners could immediately tell the difference between genuine balance and a one-sided essay pretending to be fair.",
+        passageMy:
+            "\"လူငယ်များအပေါ် စမတ်ဖုန်း သက်ရောက်မှုကို ဆွေးနွေးပါ\" ဟူသော ဆွေးနွေးတင်ပြမှု Prompt ကို ရရှိသောအခါ နေချည်၏ ပထမမူကြမ်းသည် သူမ သတိမပြုမိဘဲနီးပါး စစ်မှန်သော အငြင်းပွားမှုသို့ ချော်ဆင်းခဲ့သည် -- စာပိုဒ်တိုင်းသည် စမတ်ဖုန်းများကို တိုက်ခိုက်ခဲ့ပြီး ၎င်းတို့ အကျိုးကျေးဇူး မည်သည်ကမျှ ပေးစွမ်းကြောင်း အသိအမှတ်ပြုခြင်း လုံးဝ မပါခဲ့ပါ။ ကိုသူရသည် ၎င်းသည် ဆွေးနွေးတင်ပြမှု ရေးသားမှု လုံးဝ မဟုတ်ကြောင်း၊ ဆွေးနွေးတင်ပြမှု ခေါင်းစဉ် ဆောင်းထားသော အငြင်းပွားမှု Essay တစ်ခုသာ ဖြစ်ကြောင်း ထောက်ပြခဲ့သည်။\n\nသူသည် တင်းကျပ်သော စည်းမျဉ်းတစ်ခုဖြင့် ပြန်လည် ဖွဲ့စည်းရန် သူမကို တောင်းဆိုခဲ့သည် - သူမ မြှင့်တင်သော အားနည်းချက်တိုင်းအတွက် ရှေ့ဆက်မီ စစ်မှန်၍ မျှတစွာ ငြင်းခုံထားသော အကျိုးကျေးဇူးတစ်ခုကို လည်း တင်ပြရမည်။ နေချည်သည် သူမ၏ ဒုတိယ စာပိုဒ်ကို ပြန်ရေးခဲ့သည် - မျက်နှာချင်းဆိုင် လူမှုရေး ကျွမ်းကျင်မှု လျော့ကျခြင်းအကြောင်း စစ်မှန်သော စိုးရိမ်မှုနှင့်အတူ စမတ်ဖုန်းများသည် သီးသန့်ကျန်ရစ်နေသော လူငယ်များကို အထူးသဖြင့် ကျေးလက်ဒေသများ (သို့) ဘေးဖယ်ခံရသော အုပ်စုများမှ ၎င်းတို့ တခြားနည်းလမ်းဖြင့် ဘယ်တော့မှ ရှာမတွေ့နိုင်သော ထောက်ပံ့ကူညီပေးသော အွန်လိုင်း အသိုင်းအဝိုင်းများနှင့် ချိတ်ဆက်ပေးကြောင်း ထည့်သွင်းခဲ့သည်။ အချက်နှစ်ခုစလုံးသည် တစ်ခုနှင့်တစ်ခု မဖျက်ဆီးခဲ့ဘဲ -- နှစ်ခုစလုံးသည် မှန်ကန်ပြီး လေးနက်စွာ ချိန်ဆထိုက်သည်။\n\nသူမ၏ နိဂုံးသည် အများဆုံး ပြောင်းလဲခဲ့သည်။ စမတ်ဖုန်းများကို လုံးလုံးလျားလျား ရှုတ်ချသော ဘက်တစ်ဖက်တည်း ဆုံးဖြတ်ချက်အစား သူမသည် စစ်မှန်သော ကုန်ကျစရိတ်များနှင့် စစ်မှန်သော အကျိုးကျေးဇူးများကို အသိအမှတ်ပြုသော ချိန်ဆထားသော စီရင်ဆုံးဖြတ်ချက်တစ်ခု ရေးခဲ့ပြီး၊ နည်းပညာကိုယ်တိုင်သည် ကြားနေဖြစ်ကြောင်း -- အရေးကြီးဆုံးမှာ ၎င်း၏ အသုံးပြုမှုနှင့် ပတ်သက်သော သီးခြား အလေ့အထများနှင့် လမ်းညွှန်မှု ဖြစ်ကြောင်း ကောက်ချက်ချခဲ့သည်။ ကိုသူရသည် ဤအမျိုးအစား nuanced၊ သက်သေအထောက်အထား ချိန်ဆထားသော နိဂုံးသည် အားကောင်းသော ဆွေးနွေးတင်ပြမှု Essay တစ်ခုနှင့် ဝှက်ထားသော အငြင်းပွားမှု Essay တစ်ခုကို ခွဲခြားပေးသော အချက် အတိအကျ ဖြစ်ကြောင်းနှင့် စစ်ဆေးသူများသည် စစ်မှန်သော မျှတမှုနှင့် မျှတသည်ဟု ဟန်ဆောင်ထားသော ဘက်တစ်ဖက်တည်း Essay တစ်ခုကြား ကွာခြားချက်ကို ချက်ချင်း ခွဲခြားနိုင်ကြောင်း သူမကို ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify with Nay Chi's first draft?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was an argumentative essay wearing a discursive title, with no balance",
+              "It was too short",
+              "It had no thesis at all",
+              "It only discussed benefits with no drawbacks",
+            ],
+            optionsMy: [
+              "မျှတမှု မရှိဘဲ ဆွေးနွေးတင်ပြမှု ခေါင်းစဉ် ဆောင်းထားသော အငြင်းပွားမှု Essay တစ်ခု ဖြစ်ခဲ့သည်",
+              "အလွန် တိုတောင်းလွန်းခဲ့သည်",
+              "Thesis လုံးဝ မပါခဲ့ပါ",
+              "အားနည်းချက် မပါဘဲ အကျိုးကျေးဇူးများကိုသာ ဆွေးနွေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what benefit did Nay Chi add alongside the concern about social skills?",
+            questionMy:
+                "လူမှုရေး ကျွမ်းကျင်မှုအကြောင်း စိုးရိမ်မှုနှင့်အတူ နေချည် မည်သည့် အကျိုးကျေးဇူးကို ထည့်သွင်းခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Smartphones connecting isolated young people to supportive online communities",
+              "Smartphones being completely free of charge",
+              "Smartphones improving handwriting",
+              "Smartphones replacing the need for school entirely",
+            ],
+            optionsMy: [
+              "သီးသန့်ကျန်ရစ်နေသော လူငယ်များကို ထောက်ပံ့ကူညီပေးသော အွန်လိုင်း အသိုင်းအဝိုင်းများနှင့် ချိတ်ဆက်ပေးသော စမတ်ဖုန်းများ",
+              "လုံးဝ အခမဲ့ ဖြစ်သော စမတ်ဖုန်းများ",
+              "လက်ရေးလှမှုကို တိုးတက်စေသော စမတ်ဖုန်းများ",
+              "ကျောင်း လိုအပ်ချက်ကို လုံးလုံးလျားလျား အစားထိုးသော စမတ်ဖုန်းများ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the second paragraph's rewrite.",
+            ],
+            hintsMy: [
+              "ဒုတိယ စာပိုဒ် ပြန်ရေးချက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Nay Chi's final conclusion say mattered most?",
+            questionMy:
+                "အရေးကြီးဆုံးမှာ ဘာဖြစ်ကြောင်း နေချည်၏ နောက်ဆုံး နိဂုံးက ဆိုသနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific habits and guidance surrounding smartphone use",
+              "Banning smartphones entirely",
+              "Ignoring the technology completely",
+              "The exact price of a smartphone",
+            ],
+            optionsMy: [
+              "စမတ်ဖုန်း အသုံးပြုမှုနှင့် ပတ်သက်သော သီးခြား အလေ့အထများနှင့် လမ်းညွှန်မှု",
+              "စမတ်ဖုန်းများကို လုံးလုံးလျားလျား တားမြစ်ခြင်း",
+              "နည်းပညာကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "စမတ်ဖုန်းတစ်လုံး၏ အတိအကျ စျေးနှုန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what her conclusion said mattered most.",
+            ],
+            hintsMy: [
+              "သူမ၏ နိဂုံးက အရေးကြီးဆုံးမှာ ဘာဖြစ်ကြောင်း ဆိုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Discursive Balance",
+      titleMy:
+          "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆွေးနွေးတင်ပြမှု ဟန်ချက်ညီစေရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A discursive essay explores...",
+          questionMy: "ဆွေးနွေးတင်ပြမှု Essay တစ်ခုသည် ...ကို စူးစမ်းလေ့လာသည်",
+          optionsEn: [
+            "Multiple perspectives in a balanced way",
+            "Only one side with no balance",
+            "No evidence at all",
+            "A single letter format only",
+          ],
+          optionsMy: [
+            "ရှုထောင့်မျိုးစုံကို မျှတစွာ",
+            "မျှတမှု မရှိဘဲ ဘက်တစ်ဖက်တည်း",
+            "သက်သေအထောက်အထား လုံးဝ မပါဘဲ",
+            "စာတစ်စောင် ပုံစံတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An objective tone means...",
+          questionMy: "ကြားနေသော လေယူလေသိမ်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Presenting perspectives fairly without heavy bias",
+            "Using only emotional language",
+            "Refusing to mention facts",
+            "Attacking one side unfairly",
+          ],
+          optionsMy: [
+            "ဘက်လိုက်မှု လေးလေးနက်နက် မပါဘဲ ရှုထောင့်များကို မျှတစွာ တင်ပြခြင်း",
+            "ခံစားချက်ဆန်သော ဘာသာစကားကိုသာ သုံးခြင်း",
+            "အချက်အလက်များ ဖော်ပြရန် ငြင်းဆန်ခြင်း",
+            "ဘက်တစ်ဖက်ကို မမျှတစွာ တိုက်ခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A weighted conclusion in a discursive essay should...",
+          questionMy:
+              "ဆွေးနွေးတင်ပြမှု Essay တစ်ခုရှိ ချိန်ဆထားသော နိဂုံးသည်...",
+          optionsEn: [
+            "Measure the perspectives explored before judging",
+            "Ignore everything discussed earlier",
+            "Present a one-sided rant",
+            "Avoid any judgement at all",
+          ],
+          optionsMy: [
+            "စီရင်ဆုံးဖြတ်မီ စူးစမ်းလေ့လာခဲ့သော ရှုထောင့်များကို ချိန်ဆသင့်သည်",
+            "ယခင် ဆွေးနွေးခဲ့သော အရာအားလုံးကို လျစ်လျူရှုသင့်သည်",
+            "ဘက်တစ်ဖက်တည်း ဒေါသထွက် ပြောဆိုမှု တင်ပြသင့်သည်",
+            "စီရင်ဆုံးဖြတ်ချက် မည်သည်ကိုမျှ ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek19 = CourseWeekDef(
+  id: "course-igcse-eng-w19",
+  weekNumber: 19,
+  titleEn: "Rhetorical Power and Style",
+  titleMy: "စကားအရာ ကျွမ်းကျင်မှုနှင့် စတိုင်လ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w19-d1",
+      dayNumber: 1,
+      titleEn: "Tripartite Structures and Anaphora",
+      titleMy: "Tripartite ဖွဲ့စည်းပုံများနှင့် Anaphora",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A \"tripartite structure\" (rule of three) groups ideas in...",
+          questionMy:
+              "\"Tripartite Structure\" (Rule of Three) သည် အယူအဆများကို ...တွင် စုစည်းသည်",
+          optionsEn: [
+            "Threes, for rhythm and memorability",
+            "Sevens, for complexity",
+            "Pairs only",
+            "Random, uneven groups",
+          ],
+          optionsMy: [
+            "သံစဉ်နှင့် မှတ်မိလွယ်မှုအတွက် သုံးခု",
+            "ရှုပ်ထွေးမှုအတွက် ခုနစ်ခု",
+            "အတွဲများသာ",
+            "ကျပန်း၊ မညီညွတ်သော အုပ်စုများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Anaphora\" is the repetition of...",
+          questionMy: "\"Anaphora\" သည် ...ကို ထပ်ခါသုံးခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "The same word or phrase at the start of successive sentences or clauses",
+            "A single letter throughout a text",
+            "An entire paragraph verbatim",
+            "A rhyme scheme in poetry only",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် ဝါကျများ (သို့) Clause များ၏ အစတွင် တူညီသော စကားလုံး (သို့) စကားစု",
+            "စာသားတစ်ခုလုံး တစ်လျှောက် စာလုံးတစ်လုံးတည်း",
+            "စာပိုဒ်တစ်ခုလုံးကို စကားလုံးအတိုင်း",
+            "ကဗျာတွင်သာ Rhyme Scheme",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"We will fight for justice. We will fight for equality. We will fight for change.\" This is an example of...",
+          questionMy:
+              "\"ကျွန်ုပ်တို့သည် တရားမျှတမှုအတွက် တိုက်ပွဲဝင်မည်။ ကျွန်ုပ်တို့သည် တန်းတူညီမျှမှုအတွက် တိုက်ပွဲဝင်မည်။ ကျွန်ုပ်တို့သည် ပြောင်းလဲမှုအတွက် တိုက်ပွဲဝင်မည်။\" ဤသည် ...တစ်ခု၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: ["Anaphora", "Onomatopoeia", "Rhyme", "Alliteration only"],
+          optionsMy: [
+            "Anaphora",
+            "Onomatopoeia",
+            "Rhyme",
+            "Alliteration သက်သက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Notice the repeated opening phrase \"We will fight for\" at the start of each sentence.",
+          ],
+          hintsMy: [
+            "ဝါကျတစ်ခုစီ၏ အစတွင် ထပ်ခါသုံးထားသော ဖွင့်စကားစု \"ကျွန်ုပ်တို့သည် ...အတွက် တိုက်ပွဲဝင်မည်\" ကို သတိပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An \"authoritative conclusion\" typically...",
+          questionMy:
+              "\"Authoritative Conclusion\" တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Confidently restates the argument's strength with conviction",
+            "Ends abruptly with no summary at all",
+            "Undermines the writer's own position",
+            "Introduces a brand-new, unrelated argument",
+          ],
+          optionsMy: [
+            "ယုံကြည်စိတ်ချစွာ အငြင်းပွားမှု၏ ခိုင်မာမှုကို ယုံကြည်မှုဖြင့် ပြန်လည်ဖော်ပြသည်",
+            "အနှစ်ချုပ် လုံးဝ မပါဘဲ ရုတ်တရက် အဆုံးသတ်သည်",
+            "စာရေးသူ၏ ကိုယ်ပိုင် ရပ်တည်ချက်ကို ထိခိုက်စေသည်",
+            "လုံးဝ အသစ်၊ မသက်ဆိုင်သော အငြင်းပွားမှုတစ်ခု မိတ်ဆက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rhetorical devices should be used in an argumentative essay...",
+          questionMy:
+              "Rhetorical Device များကို အငြင်းပွားမှု Essay တစ်ခုတွင် ...သုံးသင့်သည်",
+          optionsEn: [
+            "Purposefully alongside strong evidence, not as a substitute for it",
+            "Instead of any factual evidence at all",
+            "Never, under any circumstance",
+            "Randomly with no relation to the argument",
+          ],
+          optionsMy: [
+            "ခိုင်မာသော သက်သေအထောက်အထားနှင့်အတူ ရည်ရွယ်ချက်ရှိရှိ၊ ၎င်း၏ အစားထိုးအဖြစ် မဟုတ်ဘဲ",
+            "အချက်အလက်ဆိုင်ရာ သက်သေအထောက်အထား လုံးဝ မပါဘဲ ၎င်းအစား",
+            "မည်သည့် အခြေအနေမျှ ဘယ်တော့မှ",
+            "အငြင်းပွားမှုနှင့် ဆက်စပ်မှု မရှိဘဲ ကျပန်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rhetorical Device Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Rhetorical Device ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w19-dm-1",
+          termEn: "Anaphora",
+          termMy: "Anaphora",
+          matchEn:
+              "Repeating the same word or phrase at the start of successive sentences",
+          matchMy:
+              "ဆက်တိုက် ဝါကျများ၏ အစတွင် တူညီသော စကားလုံး (သို့) စကားစုကို ထပ်ခါသုံးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w19-dm-2",
+          termEn: "Rule of three",
+          termMy: "Rule of Three",
+          matchEn:
+              "Grouping ideas in threes for rhythm and persuasive memorability",
+          matchMy:
+              "သံစဉ်နှင့် ဆွဲဆောင်နိုင်သော မှတ်မိလွယ်မှုအတွက် အယူအဆများကို သုံးခုတွဲ စုစည်းခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w19-dm-3",
+          termEn: "Antithesis",
+          termMy: "Antithesis",
+          matchEn:
+              "Placing two contrasting ideas side by side for rhetorical effect",
+          matchMy:
+              "Rhetorical သက်ရောက်မှုအတွက် ဆန့်ကျင်ဘက် အယူအဆနှစ်ခုကို ဘေးချင်းယှဉ် ထားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w19-dm-4",
+          termEn: "Authoritative voice",
+          termMy: "Authoritative Voice",
+          matchEn:
+              "A confident, credible tone that makes an argument sound convincing",
+          matchMy:
+              "အငြင်းပွားမှုကို ယုံကြည်ဖွယ်ဖြစ်စေသော ယုံကြည်စိတ်ချရ၊ ယုံကြည်ရသော လေယူလေသိမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w19-dm-5",
+          termEn: "Rhetorical question",
+          termMy: "Rhetorical Question",
+          matchEn:
+              "A question asked for persuasive effect, not expecting a literal answer",
+          matchMy:
+              "စာသားအတိုင်း အဖြေတစ်ခုကို မမျှော်လင့်ဘဲ ဆွဲဆောင်သော အကျိုးသက်ရောက်မှုအတွက် မေးထားသော မေးခွန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Rhetorical Device?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Rhetorical Device",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Anaphora", "Rule of Three", "Antithesis"],
+        bucketsMy: ["Anaphora", "Rule of Three", "Antithesis"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w19-sort-1",
+            labelEn:
+                "\"We must act now. We must act boldly. We must act together.\"",
+            labelMy:
+                "\"ကျွန်ုပ်တို့ ယခု လုပ်ဆောင်ရမည်။ ကျွန်ုပ်တို့ ရဲရင့်စွာ လုပ်ဆောင်ရမည်။ ကျွန်ုပ်တို့ အတူတကွ လုပ်ဆောင်ရမည်။\"",
+            correctBucketEn: "Anaphora",
+            correctBucketMy: "Anaphora",
+          ),
+          SortingItem(
+            id: "igcseeng-w19-sort-2",
+            labelEn:
+                "\"Honesty, courage, and compassion define true leadership.\"",
+            labelMy:
+                "\"ရိုးသားမှု၊ ရဲရင့်မှုနှင့် သနားညှာတာမှုတို့သည် စစ်မှန်သော ခေါင်းဆောင်မှုကို သတ်မှတ်သည်။\"",
+            correctBucketEn: "Rule of Three",
+            correctBucketMy: "Rule of Three",
+          ),
+          SortingItem(
+            id: "igcseeng-w19-sort-3",
+            labelEn:
+                "\"It was the best of policies, and it was the worst of policies.\"",
+            labelMy:
+                "\"၎င်းသည် မူဝါဒများ၏ အကောင်းဆုံးဖြစ်ပြီး ၎င်းသည် မူဝါဒများ၏ အဆိုးဆုံးလည်း ဖြစ်သည်။\"",
+            correctBucketEn: "Antithesis",
+            correctBucketMy: "Antithesis",
+          ),
+          SortingItem(
+            id: "igcseeng-w19-sort-4",
+            labelEn:
+                "\"We owe this to our children. We owe this to our future. We owe this to ourselves.\"",
+            labelMy:
+                "\"ကျွန်ုပ်တို့သည် ကလေးများကို ဤအရာကို ပေးရန် တာဝန်ရှိသည်။ ကျွန်ုပ်တို့သည် အနာဂတ်ကို ဤအရာကို ပေးရန် တာဝန်ရှိသည်။ ကျွန်ုပ်တို့သည် ကိုယ့်ကိုယ်ကို ဤအရာကို ပေးရန် တာဝန်ရှိသည်။\"",
+            correctBucketEn: "Anaphora",
+            correctBucketMy: "Anaphora",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Rhetoric Rewrite",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Rhetoric ပြန်ရေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Rhetoric Rewrite",
+        titleMy: "နေချည်၏ Rhetoric ပြန်ရေးခြင်း",
+        passageEn:
+            "Nay Chi's argumentative essay on protecting local rivers from pollution was factually solid but stylistically flat, closing with a plain sentence: \"For these reasons, the river must be protected.\" Ko Thura told her the argument itself was strong, but its delivery had no rhetorical power at all -- it read like a report, not a persuasive essay written to move a reader.\n\nHe asked her to rewrite the conclusion using at least one rhetorical device deliberately. Nay Chi drafted several attempts before landing on one she was proud of: \"We owe this river to the fishermen whose families it has fed for generations. We owe this river to the children who will inherit whatever we leave behind. We owe this river to ourselves, because a community that poisons its own water poisons its own future.\" The anaphora of \"We owe this river to...\" built rhythm and mounting emotional force across three connected ideas, landing with far more impact than her flat original sentence.\n\nKo Thura reminded her of an important boundary, though: rhetorical technique worked only in combination with genuine evidence, never as a replacement for it. An essay built entirely on rhetorical flourishes with no facts underneath would ring hollow to a sharp examiner, while an essay built entirely on facts with no rhetorical shaping would fail to move anyone. Nay Chi wrote the rule in her toolkit: evidence convinces the mind, rhetoric moves the heart -- a strong essay needs both.",
+        passageMy:
+            "ညစ်ညမ်းမှုမှ ဒေသန္တရ မြစ်များကို ကာကွယ်ခြင်းအကြောင်း နေချည်၏ အငြင်းပွားမှု Essay သည် အချက်အလက်အရ ခိုင်မာသော်လည်း စတိုင်လ်ဆိုင်ရာ ပြားညီညီ ဖြစ်ခဲ့ပြီး ရိုးရှင်းသော ဝါကျဖြင့် ပိတ်ခဲ့သည် - \"ဤအကြောင်းရင်းများကြောင့် မြစ်ကို ကာကွယ်ရမည်။\" ကိုသူရသည် အငြင်းပွားမှုကိုယ်တိုင်သည် ခိုင်မာသော်လည်း ၎င်း၏ ပေးအပ်ချက်တွင် Rhetorical ကျွမ်းကျင်မှု လုံးဝ မပါကြောင်း သူမကို ပြောခဲ့သည် -- ၎င်းသည် စာဖတ်သူတစ်ဦးကို လှုပ်ရှားစေရန် ရေးသားထားသော ဆွဲဆောင်စည်းရုံးရေး Essay တစ်ခု မဟုတ်ဘဲ အစီရင်ခံစာတစ်ခုကဲ့သို့ ဖတ်ရသည်။\n\nသူသည် အနည်းဆုံး Rhetorical Device တစ်ခုကို ရည်ရွယ်ချက်ရှိရှိ သုံး၍ နိဂုံးကို ပြန်ရေးရန် သူမကို တောင်းဆိုခဲ့သည်။ နေချည်သည် ကြိုးပမ်းမှုများစွာကို မူကြမ်းရေးပြီးနောက် သူမ ဂုဏ်ယူသော တစ်ခုကို ရောက်ခဲ့သည် - \"ကျွန်ုပ်တို့သည် မျိုးဆက်များစွာ ၎င်း၏ မိသားစုများကို ကျွေးမွေးခဲ့သော တံငါသည်များအား ဤမြစ်ကို ပေးရန် တာဝန်ရှိသည်။ ကျွန်ုပ်တို့သည် ကျွန်ုပ်တို့ ချန်ထားခဲ့သော မည်သည့်အရာကိုမဆို အမွေဆက်ခံမည့် ကလေးများအား ဤမြစ်ကို ပေးရန် တာဝန်ရှိသည်။ ကျွန်ုပ်တို့သည် ကိုယ့်ကိုယ်ကို ဤမြစ်ကို ပေးရန် တာဝန်ရှိသည်၊ အကြောင်းမှာ ၎င်း၏ ကိုယ်ပိုင်ရေကို အဆိပ်သင့်စေသော အသိုင်းအဝိုင်းတစ်ခုသည် ၎င်း၏ ကိုယ်ပိုင် အနာဂတ်ကို အဆိပ်သင့်စေသောကြောင့် ဖြစ်သည်။\" \"ကျွန်ုပ်တို့သည် ဤမြစ်ကို ...အား ပေးရန် တာဝန်ရှိသည်\" ဟူသော Anaphora သည် ဆက်စပ်သော အယူအဆသုံးခု တစ်လျှောက် သံစဉ်နှင့် တက်လာသော ခံစားချက်ဆိုင်ရာ အားကို တည်ဆောက်ပေးခဲ့ပြီး သူမ၏ ပြားညီညီ မူရင်း ဝါကျထက် ပို၍ များစွာ သက်ရောက်မှုဖြင့် ရောက်ရှိခဲ့သည်။\n\nသို့သော် ကိုသူရသည် အရေးကြီးသော နယ်နိမိတ်တစ်ခုကို သူမကို သတိပေးခဲ့သည် - Rhetorical နည်းပညာသည် စစ်မှန်သော သက်သေအထောက်အထားနှင့် ပေါင်းစပ်ထားသောအခါသာ အလုပ်လုပ်ပြီး ၎င်း၏ အစားထိုးအဖြစ် ဘယ်တော့မှ မဟုတ်ပါ။ Rhetorical လှပမှုများပေါ် လုံးလုံးလျားလျား တည်ဆောက်ထားပြီး အောက်ခြေတွင် အချက်အလက် မပါသော Essay တစ်ခုသည် ထက်မြက်သော စစ်ဆေးသူတစ်ဦးအတွက် ဟာကွက်ကွက် ကြားရလိမ့်မည်ဖြစ်ပြီး၊ Rhetorical ပုံသွင်းခြင်း မပါဘဲ အချက်အလက်ပေါ် လုံးလုံးလျားလျား တည်ဆောက်ထားသော Essay တစ်ခုသည် မည်သူ့ကိုမျှ လှုပ်ရှားစေရန် မအောင်မြင်ပါ။ နေချည်သည် သူမ၏ Toolkit တွင် စည်းမျဉ်းကို ရေးခဲ့သည် - သက်သေအထောက်အထားသည် စိတ်ကို ယုံကြည်စေပြီး၊ Rhetoric သည် နှလုံးသားကို လှုပ်ရှားစေသည် -- အားကောင်းသော Essay တစ်ခုသည် နှစ်ခုစလုံး လိုအပ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify with Nay Chi's original conclusion?",
+            questionMy:
+                "နေချည်၏ မူရင်း နိဂုံးတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had no rhetorical power at all and read like a report",
+              "It contained no facts",
+              "It was too long",
+              "It contradicted her thesis",
+            ],
+            optionsMy: [
+              "Rhetorical ကျွမ်းကျင်မှု လုံးဝ မပါဘဲ အစီရင်ခံစာတစ်ခုကဲ့သို့ ဖတ်ရသည်",
+              "အချက်အလက် မည်သည်ကမျှ မပါခဲ့ပါ",
+              "အလွန် ရှည်လျားခဲ့သည်",
+              "သူမ၏ Thesis ကို ဆန့်ကျင်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what rhetorical device did Nay Chi use in her rewritten conclusion?",
+            questionMy:
+                "သူမ ပြန်ရေးထားသော နိဂုံးတွင် နေချည် မည်သည့် Rhetorical Device ကို သုံးခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Anaphora",
+              "Onomatopoeia",
+              "A footnote citation",
+              "A single statistic",
+            ],
+            optionsMy: [
+              "Anaphora",
+              "Onomatopoeia",
+              "Footnote ကိုးကားချက်",
+              "စာရင်းအင်း တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the repeated phrase's technique.",
+            ],
+            hintsMy: [
+              "ထပ်ခါသုံးထားသော စကားစု၏ နည်းပညာကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what rule did Nay Chi write in her toolkit?",
+            questionMy:
+                "နေချည် သူမ၏ Toolkit တွင် မည်သည့် စည်းမျဉ်း ရေးခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Evidence convinces the mind, rhetoric moves the heart -- a strong essay needs both",
+              "Rhetoric alone is always enough",
+              "Facts alone are always enough",
+              "Never use any rhetorical devices",
+            ],
+            optionsMy: [
+              "သက်သေအထောက်အထားသည် စိတ်ကို ယုံကြည်စေပြီး Rhetoric သည် နှလုံးသားကို လှုပ်ရှားစေသည် -- အားကောင်းသော Essay တစ်ခုသည် နှစ်ခုစလုံး လိုအပ်သည်",
+              "Rhetoric တစ်ခုတည်းသည် အမြဲ လုံလောက်သည်",
+              "အချက်အလက်တစ်ခုတည်းသည် အမြဲ လုံလောက်သည်",
+              "Rhetorical Device မည်သည်ကိုမျှ ဘယ်တော့မှ မသုံးနှင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Rhetorical Power",
+      titleMy: "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Rhetorical ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Anaphora is...",
+          questionMy: "Anaphora ဆိုသည်မှာ...",
+          optionsEn: [
+            "Repeating a word or phrase at the start of successive sentences",
+            "A rhyme scheme in poetry",
+            "A single footnote",
+            "A grammatical error",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် ဝါကျများ၏ အစတွင် စကားလုံး (သို့) စကားစု ထပ်ခါသုံးခြင်း",
+            "ကဗျာရှိ Rhyme Scheme",
+            "Footnote တစ်ခုတည်း",
+            "သဒ္ဒါ အမှား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Rhetorical devices should be used...",
+          questionMy: "Rhetorical Device များကို ...သုံးသင့်သည်",
+          optionsEn: [
+            "Alongside genuine evidence, not as a replacement for it",
+            "Instead of any evidence",
+            "Never under any circumstance",
+            "Randomly with no connection to the argument",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော သက်သေအထောက်အထားနှင့်အတူ၊ ၎င်း၏ အစားထိုးအဖြစ် မဟုတ်ဘဲ",
+            "သက်သေအထောက်အထား မည်သည်မျှ အစား",
+            "မည်သည့် အခြေအနေမျှ ဘယ်တော့မှ",
+            "အငြင်းပွားမှုနှင့် ဆက်စပ်မှု မရှိဘဲ ကျပန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The rule of three groups ideas in...",
+          questionMy: "Rule of Three သည် အယူအဆများကို ...တွင် စုစည်းသည်",
+          optionsEn: [
+            "Threes for rhythm",
+            "Sevens for complexity",
+            "Pairs only",
+            "Random groups",
+          ],
+          optionsMy: [
+            "သံစဉ်အတွက် သုံးခု",
+            "ရှုပ်ထွေးမှုအတွက် ခုနစ်ခု",
+            "အတွဲများသာ",
+            "ကျပန်း အုပ်စုများ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek20 = CourseWeekDef(
+  id: "course-igcse-eng-w20",
+  weekNumber: 20,
+  titleEn: "Argumentative Essay Masterclass",
+  titleMy: "အငြင်းပွားမှု အက်ဆေး အထူးသင်ခန်းစာ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w20-d1",
+      dayNumber: 1,
+      titleEn: "Timed Argumentative Writing Under Exam Conditions",
+      titleMy:
+          "စာမေးပွဲ အခြေအနေအောက်တွင် အချိန်ကန့်သတ်ထားသော အငြင်းပွားမှု ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The first step in planning a timed argumentative essay should be...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော အငြင်းပွားမှု Essay တစ်ခု စီစဉ်ခြင်း၏ ပထမ အဆင့်မှာ...",
+          optionsEn: [
+            "Writing a clear thesis statement before drafting any paragraph",
+            "Writing the conclusion first",
+            "Skipping planning entirely to save time",
+            "Choosing a random position with no thought",
+          ],
+          optionsMy: [
+            "စာပိုဒ်တစ်ခုမျှ မမူကြမ်းမီ ရှင်းလင်းသော Thesis Statement တစ်ခု ရေးခြင်း",
+            "နိဂုံးကို ဦးစွာ ရေးခြင်း",
+            "အချိန် ချွေတာရန် စီစဉ်ခြင်းကို လုံးဝ ကျော်ခြင်း",
+            "တွေးတောမှု မရှိဘဲ ကျပန်း ရပ်တည်ချက်တစ်ခု ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For A* performance, an argumentative essay should combine...",
+          questionMy:
+              "A* စွမ်းဆောင်ရည်အတွက် အငြင်းပွားမှု Essay တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Strong evidence, logical structure, and controlled rhetorical technique",
+            "Only emotional appeals with no logic",
+            "Only facts with no persuasive technique at all",
+            "Random, disconnected points",
+          ],
+          optionsMy: [
+            "ခိုင်မာသော သက်သေအထောက်အထား၊ ယုတ္တိအရ ဖွဲ့စည်းပုံနှင့် ထိန်းချုပ်ထားသော Rhetorical နည်းပညာ",
+            "ယုတ္တိ မပါဘဲ ခံစားချက်ဆိုင်ရာ တောင်းဆိုမှုများကိုသာ",
+            "Persuasive နည်းပညာ လုံးဝ မပါဘဲ အချက်အလက်များကိုသာ",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Addressing a counter-argument within the essay body typically...",
+          questionMy:
+              "Essay Body အတွင်း Counter-Argument တစ်ခုကို ကိုင်တွယ်ခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Strengthens the overall argument by showing awareness of opposing views",
+            "Automatically weakens the essay",
+            "Is forbidden in IGCSE argumentative writing",
+            "Has no effect on the mark",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဘက် အမြင်များအကြောင်း အသိကို ပြသခြင်းဖြင့် အလုံးစုံ အငြင်းပွားမှုကို ခိုင်မာစေသည်",
+            "Essay ကို အလိုအလျောက် အားနည်းစေသည်",
+            "IGCSE အငြင်းပွားမှု ရေးသားမှုတွင် တားမြစ်ထားသည်",
+            "ရမှတ်အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Final proofreading in an argumentative essay should confirm...",
+          questionMy:
+              "အငြင်းပွားမှု Essay တစ်ခုရှိ နောက်ဆုံး Proofreading သည် ...ကို အတည်ပြုသင့်သည်",
+          optionsEn: [
+            "Every paragraph clearly connects back to the thesis",
+            "The essay contains no evidence at all",
+            "The conclusion contradicts the introduction",
+            "Nothing needs checking",
+          ],
+          optionsMy: [
+            "စာပိုဒ်တိုင်းသည် Thesis သို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်ကြောင်း",
+            "Essay တွင် သက်သေအထောက်အထား လုံးဝ မပါကြောင်း",
+            "နိဂုံးသည် နိဒါန်းကို ဆန့်ကျင်ကြောင်း",
+            "မည်သည့်အရာမျှ စစ်ဆေးရန် မလိုကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A common weakness in weaker argumentative essays is...",
+          questionMy:
+              "အားနည်းသော အငြင်းပွားမှု Essay များတွင် ဘုံ အားနည်းချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Asserting a claim with no supporting evidence",
+            "Using too much evidence",
+            "Having too clear a thesis",
+            "Addressing counter-arguments too thoroughly",
+          ],
+          optionsMy: [
+            "ထောက်ခံသော သက်သေအထောက်အထား မပါဘဲ Claim တစ်ခုကို အခိုင်အမာ ဆိုခြင်း",
+            "သက်သေအထောက်အထား လွန်ကဲစွာ သုံးခြင်း",
+            "Thesis ရှင်းလင်းလွန်းခြင်း",
+            "Counter-Argument များကို အလွန် စေ့စပ်စွာ ကိုင်တွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Argumentative Composition Term Review",
+      titleMy:
+          "တွဲစပ်ကြမည် - အငြင်းပွားမှု ရေးသားမှု နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w20-dm-1",
+          termEn: "Thesis statement",
+          termMy: "Thesis Statement",
+          matchEn:
+              "A clear statement of an essay's central argument, usually near the start",
+          matchMy:
+              "Essay တစ်ခု၏ ဗဟိုချက် အငြင်းပွားမှု၏ ရှင်းလင်းသော ဖော်ပြချက်၊ များသောအားဖြင့် အစပိုင်းတွင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w20-dm-2",
+          termEn: "Discursive essay",
+          termMy: "Discursive Essay",
+          matchEn:
+              "An essay exploring multiple perspectives on a topic in a balanced way",
+          matchMy:
+              "ခေါင်းစဉ်တစ်ခုအပေါ် ရှုထောင့်မျိုးစုံကို မျှတစွာ စူးစမ်းလေ့လာသော Essay",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w20-dm-3",
+          termEn: "Anaphora",
+          termMy: "Anaphora",
+          matchEn:
+              "Repeating a word or phrase at the start of successive sentences",
+          matchMy:
+              "ဆက်တိုက် ဝါကျများ၏ အစတွင် စကားလုံး (သို့) စကားစု ထပ်ခါသုံးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w20-dm-4",
+          termEn: "Refutation",
+          termMy: "Refutation",
+          matchEn:
+              "Directly addressing and dismantling an opposing argument with evidence",
+          matchMy:
+              "ဆန့်ကျင်ဘက် အငြင်းပွားမှုတစ်ခုကို သက်သေအထောက်အထားဖြင့် တိုက်ရိုက် ကိုင်တွယ်ကာ ဖြိုချခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w20-dm-5",
+          termEn: "Weighted conclusion",
+          termMy: "Weighted Conclusion",
+          matchEn:
+              "A closing that measures explored perspectives before reaching a balanced judgement",
+          matchMy:
+              "မျှတသော စီရင်ဆုံးဖြတ်ချက်မရောက်မီ စူးစမ်းလေ့လာခဲ့သော ရှုထောင့်များကို ချိန်ဆသော ပိတ်ချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 5 Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - ပဉ္စမနှစ်ဝက် မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Structure/Thesis",
+          "Balance/Discursive",
+          "Rhetorical Style",
+        ],
+        bucketsMy: [
+          "Structure/Thesis",
+          "Balance/Discursive",
+          "Rhetorical Style",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w20-sort-1",
+            labelEn:
+                "Writing a clear central argument in the opening paragraph",
+            labelMy:
+                "ဖွင့်ချက် စာပိုဒ်တွင် ရှင်းလင်းသော ဗဟိုချက် အငြင်းပွားမှုတစ်ခု ရေးသားခြင်း",
+            correctBucketEn: "Structure/Thesis",
+            correctBucketMy: "Structure/Thesis",
+          ),
+          SortingItem(
+            id: "igcseeng-w20-sort-2",
+            labelEn:
+                "Presenting both a benefit and a drawback before reaching a weighted judgement",
+            labelMy:
+                "ချိန်ဆထားသော စီရင်ဆုံးဖြတ်ချက် မရောက်မီ အကျိုးကျေးဇူးနှင့် အားနည်းချက် နှစ်ခုစလုံး တင်ပြခြင်း",
+            correctBucketEn: "Balance/Discursive",
+            correctBucketMy: "Balance/Discursive",
+          ),
+          SortingItem(
+            id: "igcseeng-w20-sort-3",
+            labelEn:
+                "Using anaphora in the conclusion to build emotional momentum",
+            labelMy:
+                "ခံစားချက်ဆိုင်ရာ အရှိန်ကို တည်ဆောက်ရန် နိဂုံးတွင် Anaphora သုံးခြင်း",
+            correctBucketEn: "Rhetorical Style",
+            correctBucketMy: "Rhetorical Style",
+          ),
+          SortingItem(
+            id: "igcseeng-w20-sort-4",
+            labelEn:
+                "Each paragraph's topic sentence linking directly back to the thesis",
+            labelMy:
+                "စာပိုဒ်တစ်ခုစီ၏ Topic Sentence သည် Thesis သို့ တိုက်ရိုက် ပြန်ချိတ်ဆက်ခြင်း",
+            correctBucketEn: "Structure/Thesis",
+            correctBucketMy: "Structure/Thesis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Argumentative Essay Result",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ အငြင်းပွားမှု Essay ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Argumentative Essay Result",
+        titleMy: "နေချည်၏ အငြင်းပွားမှု Essay ရလဒ်",
+        passageEn:
+            "For the Term 5 capstone, Ko Thura gave Nay Chi a single prompt -- \"Should homework be banned in secondary schools?\" -- and 45 timed minutes to write a complete argumentative essay.\n\nNay Chi spent five minutes planning: her thesis argued homework should not be banned but should be redesigned to be shorter and more purposeful, a position more nuanced than a simple yes or no, giving her room to address genuine concerns on both sides while still taking a clear stance. Each paragraph opened with a topic sentence linking directly to that thesis, moved through specific evidence -- a cited study on homework's diminishing returns past a certain length -- and closed by returning to her central claim.\n\nWhen she reached the paragraph addressing the counter-argument that some students had no quiet space to complete homework at home, she refuted it directly rather than ignoring it, proposing supervised after-school homework clubs as a specific solution rather than simply dismissing the concern. Her conclusion used a controlled rule of three -- \"redesigned homework respects students' time, supports their learning, and prepares them honestly for the demands ahead\" -- before closing with a confident, authoritative final sentence.\n\nWhen Ko Thura marked the piece, he told Nay Chi it demonstrated everything the term had built toward: a clear thesis anchoring the whole structure, evidence doing real persuasive work rather than sitting inert, a counter-argument engaged rather than dodged, and rhetorical technique deployed with restraint rather than overused. He reminded her that Term 6's literature analysis would demand a different kind of argument -- not persuading a reader to adopt an opinion, but persuading an examiner that her interpretation of a text was well-supported -- and that everything she had just mastered about structuring evidence-backed claims would transfer directly.",
+        passageMy:
+            "ပဉ္စမနှစ်ဝက် Capstone အတွက် ကိုသူရသည် Prompt တစ်ခုတည်း ပေးအပ်ခဲ့သည် -- \"အထက်တန်းကျောင်းများတွင် အိမ်စာကို ပိတ်ပင်သင့်ပါသလား\" -- နှင့် အငြင်းပွားမှု Essay အပြည့်အစုံ ရေးသားရန် မိနစ် ၄၅ မိနစ် အချိန်ကန့်သတ်ထားသည်။\n\nနေချည်သည် ငါးမိနစ် စီစဉ်ခဲ့သည် - သူမ၏ Thesis သည် အိမ်စာကို ပိတ်ပင်ရန် မလိုအပ်ဘဲ တိုတောင်းပြီး ရည်ရွယ်ချက်ရှိစွာ ပြန်ဒီဇိုင်းထုတ်သင့်ကြောင်း ငြင်းခုံခဲ့ပြီး၊ ရိုးရှင်းသော ဟုတ်သည် (သို့) မဟုတ် ထက် ပို၍ Nuanced သော ရပ်တည်ချက်ဖြစ်ကာ ဘက်နှစ်ဖက်စလုံးရှိ စစ်မှန်သော စိုးရိမ်မှုများကို ကိုင်တွယ်ရန် ရှင်းလင်းသော ရပ်တည်ချက်ကို ဆက်လက် ယူဆောင်ခွင့်ပေးခဲ့သည်။ စာပိုဒ်တစ်ခုစီသည် ထို Thesis သို့ တိုက်ရိုက် ချိတ်ဆက်ထားသော Topic Sentence ဖြင့် ဖွင့်ခဲ့ပြီး၊ တိကျသော သက်သေအထောက်အထား -- သတ်မှတ်ထားသော အရှည်ကျော် အိမ်စာ၏ လျော့ကျလာသော အကျိုးရလဒ်အကြောင်း ကိုးကားထားသော လေ့လာမှုတစ်ခု -- ကို ဖြတ်၍ သွားပြီး သူမ၏ ဗဟိုချက် Claim သို့ ပြန်လှည့်ကာ ပိတ်ခဲ့သည်။\n\nကျောင်းသားအချို့တွင် အိမ်တွင် အိမ်စာလုပ်ရန် တိတ်ဆိတ်သော နေရာ မရှိကြောင်း Counter-Argument ကို ကိုင်တွယ်သော စာပိုဒ်သို့ ရောက်သောအခါ သူမသည် ၎င်းကို လျစ်လျူရှုမည့်အစား တိုက်ရိုက် ချေဖျက်ခဲ့ပြီး၊ စိုးရိမ်မှုကို ရိုးရိုးရှင်းရှင်း ပလပ်ချမည့်အစား ကြီးကြပ်ထားသော ကျောင်းပြီးနောက် အိမ်စာ ကလပ်များကို တိကျသော ဖြေရှင်းနည်းအဖြစ် အဆိုပြုခဲ့သည်။ သူမ၏ နိဂုံးသည် ထိန်းချုပ်ထားသော Rule of Three ကို သုံးခဲ့သည် - \"ပြန်ဒီဇိုင်းထုတ်ထားသော အိမ်စာသည် ကျောင်းသားများ၏ အချိန်ကို လေးစားပြီး၊ ၎င်းတို့၏ သင်ယူမှုကို ပံ့ပိုးကာ ရှေ့ရှိ တောင်းဆိုချက်များအတွက် ၎င်းတို့ကို ရိုးသားစွာ ပြင်ဆင်ပေးသည်\" -- ယုံကြည်စိတ်ချရ၊ Authoritative နောက်ဆုံး ဝါကျဖြင့် ပိတ်မီ။\n\nကိုသူရသည် အလုပ်ကို အမှတ်ပေးရာ နှစ်ဝက်တစ်လျှောက် တည်ဆောက်ခဲ့သော အရာအားလုံးကို ၎င်းသည် သရုပ်ပြခဲ့ကြောင်း နေချည်ကို ပြောခဲ့သည် - ဖွဲ့စည်းပုံတစ်ခုလုံးကို ကျောခိုင်းထားသော ရှင်းလင်းသော Thesis၊ ငြိမ်နေရုံသက်သက်မက စစ်မှန်သော ဆွဲဆောင်စည်းရုံးရေး လုပ်ငန်းကို လုပ်ဆောင်သော သက်သေအထောက်အထား၊ ရှောင်ရှားခြင်းထက် ထိတွေ့ခဲ့သော Counter-Argument နှင့် လွန်ကဲစွာ သုံးမည့်အစား ထိန်းချုပ်ထားစွာ အသုံးချထားသော Rhetorical နည်းပညာ။ တန်းခြောက်တန်း၏ စာပေ ခွဲခြမ်းစိတ်ဖြာမှုသည် ကွဲပြားသော အငြင်းပွားမှု အမျိုးအစားတစ်ခု တောင်းဆိုမည်ဖြစ်ကြောင်း -- ထင်မြင်ချက်တစ်ခု လက်ခံရန် စာဖတ်သူတစ်ဦးကို ဆွဲဆောင်ခြင်း မဟုတ်ဘဲ၊ စာသားတစ်ခုအကြောင်း သူမ၏ အနက်ဖွင့်ချက်သည် ကောင်းစွာ ထောက်ခံထားကြောင်း စစ်ဆေးသူတစ်ဦးကို ဆွဲဆောင်ခြင်း ဖြစ်ကြောင်း -- နှင့် သူမ ယခုမှ ကျွမ်းကျင်လာခဲ့သော သက်သေအထောက်အထား ထောက်ခံထားသော Claim များ ဖွဲ့စည်းခြင်းအကြောင်း အားလုံးသည် တိုက်ရိုက် လွှဲပြောင်းသွားမည် ဖြစ်ကြောင်း သူ သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific solution did Nay Chi propose for the counter-argument about lack of quiet space?",
+            questionMy:
+                "တိတ်ဆိတ်သော နေရာ ချို့တဲ့မှုအကြောင်း Counter-Argument အတွက် နေချည် မည်သည့် တိကျသော ဖြေရှင်းနည်း အဆိုပြုခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Supervised after-school homework clubs",
+              "Banning homework entirely",
+              "Ignoring the concern completely",
+              "Doubling the amount of homework",
+            ],
+            optionsMy: [
+              "ကြီးကြပ်ထားသော ကျောင်းပြီးနောက် အိမ်စာ ကလပ်များ",
+              "အိမ်စာကို လုံးလုံးလျားလျား ပိတ်ပင်ခြင်း",
+              "စိုးရိမ်မှုကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "အိမ်စာ ပမာဏကို နှစ်ဆ တိုးမြှင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about proposing a specific solution.",
+            ],
+            hintsMy: [
+              "တိကျသော ဖြေရှင်းနည်း အဆိုပြုခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what rhetorical technique did Nay Chi's conclusion use?",
+            questionMy:
+                "နေချည်၏ နိဂုံးသည် မည်သည့် Rhetorical နည်းပညာ သုံးခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A controlled rule of three",
+              "A rhyme scheme",
+              "An unrelated joke",
+              "A footnote citation only",
+            ],
+            optionsMy: [
+              "ထိန်းချုပ်ထားသော Rule of Three",
+              "Rhyme Scheme",
+              "မသက်ဆိုင်သော ဟာသ",
+              "Footnote ကိုးကားချက်တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing her conclusion's technique.",
+            ],
+            hintsMy: [
+              "သူမ၏ နိဂုံး နည်းပညာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say Term 6 would demand?",
+            questionMy:
+                "တန်းခြောက်တန်းက ဘာကို တောင်းဆိုမည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Persuading an examiner that a text interpretation is well-supported",
+              "Never writing another essay again",
+              "Abandoning all evidence-based writing",
+              "Memorising an entire novel word for word",
+            ],
+            optionsMy: [
+              "စာသားတစ်ခု၏ အနက်ဖွင့်ချက်သည် ကောင်းစွာ ထောက်ခံထားကြောင်း စစ်ဆေးသူတစ်ဦးကို ဆွဲဆောင်ခြင်း",
+              "Essay တစ်ခုကိုမျှ နောက်ထပ် ဘယ်တော့မှ မရေးခြင်း",
+              "သက်သေအထောက်အထား အခြေပြု ရေးသားမှုအားလုံးကို စွန့်လွှတ်ခြင်း",
+              "ဝတ္ထုတစ်ပုဒ်လုံးကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about Term 6's literature analysis.",
+            ],
+            hintsMy: [
+              "တန်းခြောက်တန်း၏ စာပေ ခွဲခြမ်းစိတ်ဖြာမှုအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: Argumentative Mastery",
+      titleMy: "ပဉ္စမတန်း Capstone - အငြင်းပွားမှု ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong argumentative essay combines evidence with...",
+          questionMy:
+              "အားကောင်းသော အငြင်းပွားမှု Essay တစ်ခုသည် သက်သေအထောက်အထားနှင့် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Controlled rhetorical technique",
+            "No structure at all",
+            "Random unrelated points",
+            "Only emotional appeals",
+          ],
+          optionsMy: [
+            "ထိန်းချုပ်ထားသော Rhetorical နည်းပညာ",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိခြင်း",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ",
+            "ခံစားချက်ဆိုင်ရာ တောင်းဆိုမှုများကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Addressing a counter-argument in the essay body typically...",
+          questionMy:
+              "Essay Body တွင် Counter-Argument တစ်ခုကို ကိုင်တွယ်ခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Strengthens the overall argument",
+            "Weakens the essay automatically",
+            "Is forbidden",
+            "Has no effect",
+          ],
+          optionsMy: [
+            "အလုံးစုံ အငြင်းပွားမှုကို ခိုင်မာစေသည်",
+            "Essay ကို အလိုအလျောက် အားနည်းစေသည်",
+            "တားမြစ်ထားသည်",
+            "မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The transferable skill from Term 5 to Term 6 is...",
+          questionMy:
+              "ပဉ္စမနှစ်ဝက်မှ တန်းခြောက်တန်းသို့ လွှဲပြောင်းနိုင်သော ကျွမ်းကျင်မှုမှာ...",
+          optionsEn: [
+            "Structuring evidence-backed claims persuasively",
+            "Avoiding all evidence entirely",
+            "Never taking a clear position",
+            "Ignoring the reader completely",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထား ထောက်ခံထားသော Claim များကို ဆွဲဆောင်စွာ ဖွဲ့စည်းခြင်း",
+            "သက်သေအထောက်အထားအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            "ရှင်းလင်းသော ရပ်တည်ချက်တစ်ခု ဘယ်တော့မှ မယူခြင်း",
+            "စာဖတ်သူကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm5 = CourseTermDef(
+  id: "course-igcse-eng-term5",
+  termNumber: 5,
+  titleEn: "Argumentative & Discursive Composition",
+  titleMy: "အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား",
+  weeks: [_igcseEngWeek17, _igcseEngWeek18, _igcseEngWeek19, _igcseEngWeek20],
+  certificateTitleEn: "Argumentative & Discursive Composition",
+  certificateTitleMy: "အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား",
 );
 
 // __IGCSE_ENGLISH_MARKER__
