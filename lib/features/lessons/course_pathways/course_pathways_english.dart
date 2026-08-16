@@ -151419,10 +151419,10 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-2 of 9 authored so far (Terms
-/// 3-9 to follow: Narrative Composition through Final Exam Countdown
-/// & Graduation). `totalWeeks: 36` reflects the full 9-term
-/// aspirational course length.
+/// IGCSE English pathway -- Terms 1-3 of 9 authored so far (Terms
+/// 4-9 to follow: Descriptive Composition through Final Exam
+/// Countdown & Graduation). `totalWeeks: 36` reflects the full
+/// 9-term aspirational course length.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
   subject: "english",
@@ -151434,7 +151434,1513 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   descriptionMy:
       "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု၊ Directed Writing၊ ဇာတ်ကြောင်းပြောနှင့် သရုပ်ဖော် ရေးသားမှု၊ အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား၊ စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု၊ အဆင့်မြင့် သဒ္ဒါနှင့် စတိုင်လ် တည်းဖြတ်မှုနှင့် မေးခွန်းဟောင်း လေ့ကျင့်မှုများကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE First Language English လမ်းကြောင်း။",
   totalWeeks: 36,
-  terms: [igcseEnglishTerm1, igcseEnglishTerm2],
+  terms: [igcseEnglishTerm1, igcseEnglishTerm2, igcseEnglishTerm3],
+);
+
+// =====================================================================
+// IGCSE English -- Term 3: "Narrative Composition" (Weeks 9-12).
+// Week 9 covers compelling openings; Week 10 covers tension/climax
+// pacing; Week 11 covers character-setting integration; Week 12 is
+// the capstone narrative composition masterclass.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek9 = CourseWeekDef(
+  id: "course-igcse-eng-w9",
+  weekNumber: 9,
+  titleEn: "Crafting Compelling Openings",
+  titleMy: "စိတ်ဝင်စားဖွယ် နိဒါန်းများ ဖန်တီးခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w9-d1",
+      dayNumber: 1,
+      titleEn: "Hooking the Reader and In Media Res",
+      titleMy: "စာဖတ်သူကို ဆွဲဆောင်ခြင်းနှင့် In Media Res",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A narrative \"hook\" is designed to...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော \"Hook\" တစ်ခုကို ...ရန် ဒီဇိုင်းထုတ်ထားသည်",
+          optionsEn: [
+            "Immediately capture the reader's attention in the opening lines",
+            "Explain the entire plot before it begins",
+            "Introduce every character in the first sentence",
+            "Bore the reader deliberately",
+          ],
+          optionsMy: [
+            "ဖွင့်ချက် စာကြောင်းများတွင် စာဖတ်သူ၏ အာရုံကို ချက်ချင်း ဖမ်းစားရန်",
+            "ဇာတ်လမ်းလုံးကို မစတင်မီ ရှင်းပြရန်",
+            "ပထမဆုံး ဝါကျတွင် ဇာတ်ကောင်တိုင်းကို မိတ်ဆက်ရန်",
+            "စာဖတ်သူကို ရည်ရွယ်ချက်ရှိရှိ ငြီးငွေ့စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"In media res\" means starting a story...",
+          questionMy:
+              "\"In Media Res\" ဆိုသည်မှာ ဇာတ်လမ်းတစ်ခုကို ...စတင်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "In the middle of the action, rather than at the very beginning",
+            "With a full character biography",
+            "After the story has already ended",
+            "With a long weather description only",
+          ],
+          optionsMy: [
+            "အစအဆုံးထက် လှုပ်ရှားမှု၏ အလယ်တွင်",
+            "ဇာတ်ကောင် ဘဝရာဇဝင် အပြည့်အစုံဖြင့်",
+            "ဇာတ်လမ်း ပြီးဆုံးပြီးမှ",
+            "ရာသီဥတု ဖော်ပြချက် ရှည်လျားစွာဖြင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The knife was still warm when Mei found it.\" This opening line works as a hook because it...",
+          questionMy:
+              "\"မေသည် ဓားကို တွေ့ရှိသောအခါ ၎င်းသည် ပူနွေးနေသေးသည်။\" ဤဖွင့်ချက် စာကြောင်းသည် Hook တစ်ခုအဖြစ် အလုပ်လုပ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Immediately raises a mystery that demands to be answered",
+            "Explains the entire ending immediately",
+            "Describes the weather in detail",
+            "Introduces no tension at all",
+          ],
+          optionsMy: [
+            "ဖြေဆိုရန် တောင်းဆိုသော ပဟေဠိတစ်ခုကို ချက်ချင်း မြှင့်တင်ပေးသောကြောင့်",
+            "အဆုံးသတ်တစ်ခုလုံးကို ချက်ချင်း ရှင်းပြသောကြောင့်",
+            "ရာသီဥတုကို အသေးစိတ် ဖော်ပြထားသောကြောင့်",
+            "Tension လုံးဝ မမိတ်ဆက်ထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A warm knife implies it was recently used -- the reader immediately wants to know why and by whom.",
+          ],
+          hintsMy: [
+            "ပူနွေးနေသေးသော ဓားတစ်လက်သည် မကြာမီက အသုံးပြုခဲ့ကြောင်း အကြံပြုသည် -- စာဖတ်သူသည် အဘယ်ကြောင့်နှင့် မည်သူ့ဖြင့်ကြောင်း ချက်ချင်း သိလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An \"atmospheric introduction\" primarily establishes...",
+          questionMy:
+              "\"Atmospheric Introduction\" တစ်ခုသည် အဓိကအားဖြင့် ...ကို တည်ဆောက်ပေးသည်",
+          optionsEn: [
+            "The mood and setting the reader will experience",
+            "The final plot twist",
+            "The character's exact age and address",
+            "A complete list of every event in the story",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ ကြုံတွေ့ရမည့် စိတ်ခံစားချက်နှင့် နောက်ခံအပြင်အဆင်",
+            "နောက်ဆုံး ဇာတ်ကွက် ချိုးလှန်ချက်",
+            "ဇာတ်ကောင်၏ အတိအကျ အသက်နှင့် လိပ်စာ",
+            "ဇာတ်လမ်းရှိ အဖြစ်အပျက်တိုင်း၏ အပြည့်အစုံ စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A weak opening for an IGCSE narrative composition typically...",
+          questionMy:
+              "IGCSE ဇာတ်ကြောင်းပြော ရေးသားမှုတစ်ခုအတွက် အားနည်းသော ဖွင့်ချက်တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Begins with a clichéd waking-up-and-getting-ready scene with no tension",
+            "Immediately raises an intriguing question",
+            "Uses vivid, specific sensory detail",
+            "Places the reader directly into the action",
+          ],
+          optionsMy: [
+            "Tension လုံးဝ မပါဘဲ ရိုးမြေအောက် နိုးထ-ပြင်ဆင်ခြင်း ဇာတ်ကွက်ဖြင့် စတင်သည်",
+            "စိတ်ဝင်စားဖွယ် မေးခွန်းတစ်ခုကို ချက်ချင်း မြှင့်တင်သည်",
+            "အသက်ဝင်၍ တိကျသော အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်ကို သုံးသည်",
+            "စာဖတ်သူကို လှုပ်ရှားမှုအတွင်းသို့ တိုက်ရိုက် ပို့ဆောင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Narrative Opening Techniques",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကြောင်းပြော ဖွင့်ချက် နည်းပညာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w9-dm-1",
+          termEn: "Hook",
+          termMy: "Hook",
+          matchEn:
+              "An opening designed to immediately capture the reader's attention",
+          matchMy:
+              "စာဖတ်သူ၏ အာရုံကို ချက်ချင်း ဖမ်းစားရန် ဒီဇိုင်းထုတ်ထားသော ဖွင့်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w9-dm-2",
+          termEn: "In media res",
+          termMy: "In Media Res",
+          matchEn:
+              "Starting a story in the middle of the action rather than the beginning",
+          matchMy:
+              "အစတွင်မဟုတ်ဘဲ လှုပ်ရှားမှု၏ အလယ်တွင် ဇာတ်လမ်းတစ်ခု စတင်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w9-dm-3",
+          termEn: "Foreshadowing",
+          termMy: "Foreshadowing",
+          matchEn: "Hinting at events that will happen later in the story",
+          matchMy:
+              "ဇာတ်လမ်းတွင် နောက်ပိုင်း ဖြစ်ပျက်မည့် အဖြစ်အပျက်များကို အရိပ်လွှမ်းထားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w9-dm-4",
+          termEn: "Atmospheric setting",
+          termMy: "Atmospheric Setting",
+          matchEn:
+              "A vividly described environment that establishes mood from the first lines",
+          matchMy:
+              "ပထမဆုံးစာကြောင်းများမှစ၍ စိတ်ခံစားချက်ကို တည်ဆောက်ပေးသော အသက်ဝင်၍ ဖော်ပြထားသော ပတ်ဝန်းကျင်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w9-dm-5",
+          termEn: "Cliché opening",
+          termMy: "Cliché Opening",
+          matchEn:
+              "An overused, predictable start such as waking up from a dream",
+          matchMy:
+              "အိပ်မက်တစ်ခုမှ နိုးထခြင်းကဲ့သို့ အလွန်အသုံးများပြီး ခန့်မှန်းရလွယ်ကူသော အစ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Opening?",
+      titleMy: "စီစစ်ကြမည် - အားကောင်းသော (သို့) အားနည်းသော ဖွင့်ချက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Opening", "Weak, Clichéd Opening"],
+        bucketsMy: ["အားကောင်းသော ဖွင့်ချက်", "အားနည်း၊ Cliché ဖွင့်ချက်"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w9-sort-1",
+            labelEn:
+                "\"The phone rang at 3am, and no one was supposed to have this number.\"",
+            labelMy:
+                "\"တယ်လီဖုန်းသည် နံနက် ၃ နာရီတွင် မြည်ခဲ့ပြီး၊ ဤနံပါတ်ကို မည်သူမျှ မသိသင့်ပါ။\"",
+            correctBucketEn: "Strong Opening",
+            correctBucketMy: "အားကောင်းသော ဖွင့်ချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w9-sort-2",
+            labelEn:
+                "\"I woke up, brushed my teeth, and ate breakfast like every other day.\"",
+            labelMy:
+                "\"ကျွန်တော် နိုးထပြီး၊ သွားတိုက်ကာ၊ နေ့စဉ်ကဲ့သို့ မနက်စာ စားခဲ့သည်။\"",
+            correctBucketEn: "Weak, Clichéd Opening",
+            correctBucketMy: "အားနည်း၊ Cliché ဖွင့်ချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w9-sort-3",
+            labelEn:
+                "\"The letter arrived thirty years too late, addressed to a man who no longer existed.\"",
+            labelMy:
+                "\"စာစောင်သည် ရှိတော့မည်မဟုတ်သော လူတစ်ဦးထံ လိပ်စာတပ်ထားပြီး နှစ်ပေါင်း ၃၀ နောက်ကျစွာ ရောက်ရှိခဲ့သည်။\"",
+            correctBucketEn: "Strong Opening",
+            correctBucketMy: "အားကောင်းသော ဖွင့်ချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w9-sort-4",
+            labelEn:
+                "\"It was a normal day, nothing special happened, until...\"",
+            labelMy:
+                "\"၎င်းသည် ပုံမှန် နေ့တစ်ရက်ဖြစ်ပြီး ...အထိ ထူးခြားသော အရာမျှ မဖြစ်ပျက်ခဲ့ပါ\"",
+            correctBucketEn: "Weak, Clichéd Opening",
+            correctBucketMy: "အားနည်း၊ Cliché ဖွင့်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Ten Opening Attempts",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ဖွင့်ချက် ကြိုးပမ်းမှု ဆယ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Ten Opening Attempts",
+        titleMy: "နေချည်၏ ဖွင့်ချက် ကြိုးပမ်းမှု ဆယ်ခု",
+        passageEn:
+            "For her narrative composition on the theme \"A Locked Door,\" Nay Chi's first instinct was to open with a full paragraph explaining who her character was, where she lived, and what an ordinary morning looked like -- before the locked door even appeared. Ko Thura read it and asked her to imagine she was a Cambridge examiner marking three hundred scripts that same afternoon: would this opening survive past the first ten seconds?\n\nHe set her a drill: write ten different opening lines for the same story, each under fifteen words, each landing the reader directly at or near the locked door itself. Nay Chi's first few attempts were still too safe -- \"There was a door that no one could open\" told the reader nothing new. By her seventh attempt, something shifted: \"The door had no handle, no keyhole, and yesterday, no hinges at all.\" This version raised an immediate, specific mystery -- not just a locked door, but a door that had apparently changed overnight, which was far stranger and more compelling.\n\nKo Thura explained why this worked: a strong opening didn't need to explain everything, it needed to make the reader desperate to find out what came next. Explaining backstory could always come later, woven in naturally once the reader was already hooked; but if the opening failed to hook them in the first place, no amount of backstory later would matter. Nay Chi kept her seventh line and built the rest of her story working backward and forward from that single, unsettling image.",
+        passageMy:
+            "\"ပိတ်ထားသော တံခါး\" ခေါင်းစဉ်ဖြင့် သူမ၏ ဇာတ်ကြောင်းပြော ရေးသားမှုအတွက် နေချည်၏ ပထမ စိတ်နှလုံးမှာ သူမ၏ ဇာတ်ကောင်သည် မည်သူဖြစ်သည်၊ ဘယ်နေရာတွင် နေထိုင်သည်၊ ပုံမှန်နံနက်ခင်းသည် မည်သို့ဖြစ်ကြောင်းကို ရှင်းပြသော စာပိုဒ်အပြည့်အစုံဖြင့် ဖွင့်ရန် ဖြစ်ခဲ့သည် -- ပိတ်ထားသော တံခါးပင် မပေါ်လာမီ ဖြစ်သည်။ ကိုသူရသည် ၎င်းကို ဖတ်ပြီး ထိုနေ့ညနေ Script သုံးရာကို အမှတ်ပေးနေသော Cambridge စစ်ဆေးသူတစ်ဦးအဖြစ် သူမ ကိုယ်စိတ်ကူးကြည့်ရန် တောင်းဆိုခဲ့သည် - ဤဖွင့်ချက်သည် ပထမ ဆယ်စက္ကန့်ကို ကျော်လွန်နိုင်ပါမည်လား။\n\nသူသည် သူမကို လေ့ကျင့်ခန်းတစ်ခု သတ်မှတ်ခဲ့သည် - တူညီသော ဇာတ်လမ်းအတွက် ဖွင့်ချက် စာကြောင်း ကွဲပြားစွာ ဆယ်ကြောင်း ရေးပါ၊ တစ်ကြောင်းစီသည် စကားလုံး ၁၅ လုံးအောက်ဖြစ်ပြီး တစ်ကြောင်းစီသည် စာဖတ်သူကို ပိတ်ထားသော တံခါး၏ အနီးအနားသို့ တိုက်ရိုက် ရောက်ရှိစေရမည်။ နေချည်၏ ပထမ ကြိုးပမ်းမှု အနည်းငယ်သည် ဘေးကင်းလွန်းသေးသည် -- \"မည်သူမျှ မဖွင့်နိုင်သော တံခါးတစ်ခု ရှိခဲ့သည်\" သည် စာဖတ်သူကို ဘာမျှ အသစ် မပြောသေးပါ။ သူမ၏ သတ္တမကြိမ် ကြိုးပမ်းမှုတွင် တစ်ခုခု ပြောင်းလဲသွားခဲ့သည် - \"တံခါးတွင် လက်ကိုင် လုံးဝ မရှိ၊ သော့ပေါက် မရှိပြီး မနေ့က တံခါးအောက်ခံများပင် လုံးဝ မရှိခဲ့ပါ။\" ဤဗားရှင်းသည် ချက်ချင်း၊ တိကျသော ပဟေဠိတစ်ခု မြှင့်တင်ခဲ့သည် -- ပိတ်ထားသော တံခါးတစ်ခုတည်းမက ညတစ်ညအတွင်း ပြောင်းလဲသွားပုံရသော တံခါးတစ်ခု ဖြစ်ပြီး ၎င်းသည် ပို၍ ထူးဆန်းပြီး ပို၍ ဆွဲဆောင်နိုင်သည်။\n\nကိုသူရသည် ၎င်း အဘယ်ကြောင့် အလုပ်လုပ်ကြောင်း ရှင်းပြခဲ့သည် - အားကောင်းသော ဖွင့်ချက်တစ်ခုသည် အားလုံးကို ရှင်းပြရန် မလိုအပ်ဘဲ စာဖတ်သူကို နောက်တစ်ခု ဘာဖြစ်မည်ကို စူးစမ်းသိရှိလိုအောင် ပြုလုပ်ရန်သာ လိုအပ်သည်။ Backstory ရှင်းပြခြင်းသည် စာဖတ်သူ ဆွဲဆောင်ခံရပြီးနောက် သဘာဝကျစွာ ရက်နက်ဆက်ကာ နောက်ပိုင်းတွင် လာနိုင်သော်လည်း၊ ဖွင့်ချက်သည် စာဖတ်သူကို ဦးစွာ ဆွဲဆောင်ရန် ပျက်ကွက်လျှင် နောက်ပိုင်း Backstory မည်မျှပင် ရှိစေ အရေးမပါတော့ပါ။ နေချည်သည် သူမ၏ သတ္တမကြောင်းကို ထိန်းသိမ်းထားပြီး ထိုတစ်ခုတည်းသော၊ စိတ်ရှုပ်စေသော ပုံရိပ်မှ နောက်သို့နှင့် ရှေ့သို့ လုပ်ဆောင်ရင်း သူမ၏ ဇာတ်လမ်း၏ ကျန်အပိုင်းကို တည်ဆောက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what question did Ko Thura ask Nay Chi to consider about her original opening?",
+            questionMy:
+                "သူမ၏ မူလ ဖွင့်ချက်အကြောင်း စဉ်းစားရန် ကိုသူရ နေချည်ကို မည်သည့် မေးခွန်း မေးခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether it would survive past the first ten seconds for an examiner",
+              "Whether it was grammatically correct",
+              "Whether it used enough adjectives",
+              "Whether it matched the word count exactly",
+            ],
+            optionsMy: [
+              "စစ်ဆေးသူတစ်ဦးအတွက် ပထမ ဆယ်စက္ကန့်ကို ကျော်လွန်နိုင်ပါမည်လား",
+              "သဒ္ဒါအရ မှန်ကန်ပါသလား",
+              "Adjective လုံလောက်စွာ သုံးထားပါသလား",
+              "စကားလုံးရေနှင့် အတိအကျ ကိုက်ညီပါသလား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was Nay Chi's seventh opening line stronger than her first?",
+            questionMy:
+                "နေချည်၏ သတ္တမ ဖွင့်ချက် စာကြောင်းသည် သူမ၏ ပထမကြောင်းထက် အဘယ်ကြောင့် ပို၍ အားကောင်းခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It raised an immediate, specific mystery about a door that changed overnight",
+              "It was grammatically simpler",
+              "It used more adjectives",
+              "It was exactly fifteen words long",
+            ],
+            optionsMy: [
+              "ညတစ်ညအတွင်း ပြောင်းလဲသွားသော တံခါးတစ်ခုအကြောင်း ချက်ချင်း၊ တိကျသော ပဟေဠိတစ်ခု မြှင့်တင်ခဲ့သောကြောင့်",
+              "သဒ္ဒါအရ ပို၍ ရိုးရှင်းခဲ့သောကြောင့်",
+              "Adjective ပို၍ များစွာ သုံးထားခဲ့သောကြောင့်",
+              "စကားလုံး ၁၅ လုံး အတိအကျ ရှိခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the seventh attempt's effect.",
+            ],
+            hintsMy: [
+              "သတ္တမ ကြိုးပမ်းမှု၏ သက်ရောက်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say a strong opening needed to do?",
+            questionMy:
+                "အားကောင်းသော ဖွင့်ချက်တစ်ခု မည်သည်ပြုလုပ်ရန် လိုအပ်ကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Make the reader desperate to find out what came next",
+              "Explain the entire backstory immediately",
+              "Introduce every character by name",
+              "Avoid any form of mystery",
+            ],
+            optionsMy: [
+              "စာဖတ်သူကို နောက်တစ်ခု ဘာဖြစ်မည်ကို စူးစမ်းသိရှိလိုအောင် ပြုလုပ်ခြင်း",
+              "Backstory တစ်ခုလုံးကို ချက်ချင်း ရှင်းပြခြင်း",
+              "ဇာတ်ကောင်တိုင်းကို အမည်ဖြင့် မိတ်ဆက်ခြင်း",
+              "ပဟေဠိပုံစံ မည်သည်ကိုမဆို ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining why the opening worked."],
+            hintsMy: [
+              "ဖွင့်ချက် အဘယ်ကြောင့် အလုပ်လုပ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Compelling Openings",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - စိတ်ဝင်စားဖွယ် ဖွင့်ချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A narrative hook is designed to...",
+          questionMy: "ဇာတ်ကြောင်းပြော Hook တစ်ခုကို ...ရန် ဒီဇိုင်းထုတ်ထားသည်",
+          optionsEn: [
+            "Immediately capture the reader's attention",
+            "Explain the whole plot first",
+            "Bore the reader",
+            "List every character",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ အာရုံကို ချက်ချင်း ဖမ်းစားရန်",
+            "ဇာတ်ကွက်တစ်ခုလုံးကို ဦးစွာ ရှင်းပြရန်",
+            "စာဖတ်သူကို ငြီးငွေ့စေရန်",
+            "ဇာတ်ကောင်တိုင်းကို စာရင်းပြုရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In media res means starting a story...",
+          questionMy:
+              "In Media Res ဆိုသည်မှာ ဇာတ်လမ်းတစ်ခုကို ...စတင်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "In the middle of the action",
+            "After it has ended",
+            "With a biography",
+            "With weather only",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှု၏ အလယ်တွင်",
+            "ပြီးဆုံးပြီးနောက်",
+            "ဘဝရာဇဝင်ဖြင့်",
+            "ရာသီဥတုဖြင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A weak opening typically relies on...",
+          questionMy:
+              "အားနည်းသော ဖွင့်ချက်တစ်ခုသည် ပုံမှန်အားဖြင့် ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Overused clichés with no tension",
+            "A specific, intriguing mystery",
+            "Vivid sensory detail",
+            "Direct action",
+          ],
+          optionsMy: [
+            "Tension လုံးဝ မပါဘဲ အလွန်အသုံးများသော Cliché",
+            "တိကျပြီး စိတ်ဝင်စားဖွယ် ပဟေဠိ",
+            "အသက်ဝင်သော အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်",
+            "တိုက်ရိုက် လှုပ်ရှားမှု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek10 = CourseWeekDef(
+  id: "course-igcse-eng-w10",
+  weekNumber: 10,
+  titleEn: "Building Tension and Climax",
+  titleMy: "စိတ်လှုပ်ရှားမှု တည်ဆောက်ခြင်းနှင့် အထွတ်အထိပ်သို့ ရောက်ရှိခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w10-d1",
+      dayNumber: 1,
+      titleEn: "Pacing Techniques and Sensory Detail",
+      titleMy: "Pacing နည်းပညာများနှင့် အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Slowing down pacing at a key moment typically...",
+          questionMy:
+              "အဓိက အခိုက်အတန့်တစ်ခုတွင် Pacing ကို နှေးကွေးအောင် ပြုလုပ်ခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Builds suspense by drawing out the reader's anticipation",
+            "Instantly resolves all tension",
+            "Has no effect on the reader",
+            "Always confuses the reader",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ မျှော်လင့်ချက်ကို ဆွဲထုတ်ကာ Suspense ကို တည်ဆောက်ပေးသည်",
+            "Tension အားလုံးကို ချက်ချင်း ဖြေရှင်းပေးသည်",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "စာဖတ်သူကို အမြဲ ရှုပ်ထွေးစေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Short, fragmented sentences during an action sequence typically create a sense of...",
+          questionMy:
+              "လှုပ်ရှားမှု အစီအစဉ်တစ်ခုအတွင်း တို၍ ကွဲထွက်နေသော ဝါကျများသည် ပုံမှန်အားဖြင့် ...၏ ခံစားချက်ကို ဖန်တီးသည်",
+          optionsEn: [
+            "Urgency and speed",
+            "Slow, calm relaxation",
+            "Formal detachment",
+            "Comedic relief",
+          ],
+          optionsMy: [
+            "အရေးတကြီးမှုနှင့် အမြန်နှုန်း",
+            "နှေးကွေး၊ ငြိမ်းချမ်းသော အပန်းဖြေမှု",
+            "တရားဝင် ခွဲထွက်မှု",
+            "ဟာသဆန် သက်သာမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A climax in a short story is best defined as...",
+          questionMy:
+              "ဇာတ်လမ်းတိုတစ်ပုဒ်ရှိ Climax တစ်ခုကို ...ဟု အကောင်းဆုံး အနက်ဖွင့်နိုင်သည်",
+          optionsEn: [
+            "The point of highest tension where the central conflict reaches its peak",
+            "The very first sentence of the story",
+            "A random unrelated event",
+            "The character's biography",
+          ],
+          optionsMy: [
+            "ဗဟိုချက် ပဋိပက္ခသည် ၎င်း၏ အထွတ်အထိပ်သို့ ရောက်ရှိသည့် အမြင့်ဆုံး Tension အချက်",
+            "ဇာတ်လမ်း၏ ပထမဆုံး ဝါကျ",
+            "မသက်ဆိုင်သော ကျပန်း အဖြစ်အပျက်",
+            "ဇာတ်ကောင်၏ ဘဝရာဇဝင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sensory details engage the reader by appealing to...",
+          questionMy:
+              "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်များသည် ...ကို ခေါ်ဆို၍ စာဖတ်သူကို ဆွဲဆောင်သည်",
+          optionsEn: [
+            "Sight, sound, touch, taste, and smell",
+            "Only visual description",
+            "Only statistics and numbers",
+            "Only the character's internal monologue",
+          ],
+          optionsMy: [
+            "အမြင်၊ အကြား၊ အထိအတွေ့၊ အရသာနှင့် အနံ့",
+            "မြင်ကွင်းဆိုင်ရာ ဖော်ပြချက်ကိုသာ",
+            "စာရင်းအင်းနှင့် ဂဏန်းများကိုသာ",
+            "ဇာတ်ကောင်၏ အတွင်းစိတ် ပြောဆိုချက်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A \"climactic resolution\" that arrives too abruptly without earlier build-up typically feels...",
+          questionMy:
+              "ယခင်က တည်ဆောက်ထားမှု မရှိဘဲ ရုတ်တရက် ရောက်ရှိလာသော \"Climactic Resolution\" တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Unearned and unsatisfying to the reader",
+            "The strongest possible ending",
+            "Automatically award-winning",
+            "Impossible to write badly",
+          ],
+          optionsMy: [
+            "စာဖတ်သူအတွက် မထိုက်တန်ဘဲ ကျေနပ်မှု မရှိသော",
+            "ဖြစ်နိုင်သမျှ အားအကောင်းဆုံး အဆုံးသတ်",
+            "အလိုအလျောက် ဆုရရှိသော",
+            "မကောင်းစွာ ရေးသားရန် မဖြစ်နိုင်သော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Tension-Building Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Tension တည်ဆောက်ရေး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w10-dm-1",
+          termEn: "Pacing",
+          termMy: "Pacing",
+          matchEn:
+              "The speed at which a story unfolds, controlled by sentence length and detail",
+          matchMy:
+              "ဝါကျ အရှည်နှင့် အသေးစိတ်ဖြင့် ထိန်းချုပ်ထားသော ဇာတ်လမ်းတစ်ခု ဖော်ထုတ်သည့် အမြန်နှုန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w10-dm-2",
+          termEn: "Climax",
+          termMy: "Climax",
+          matchEn:
+              "The point of highest tension where the central conflict peaks",
+          matchMy:
+              "ဗဟိုချက် ပဋိပက္ခသည် အထွတ်အထိပ်သို့ ရောက်ရှိသည့် အမြင့်ဆုံး Tension အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w10-dm-3",
+          termEn: "Suspense",
+          termMy: "Suspense",
+          matchEn: "A feeling of tense uncertainty about what will happen next",
+          matchMy: "နောက်တစ်ခု ဘာဖြစ်မည်ကို တင်းမာသော မသေချာမှု ခံစားချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w10-dm-4",
+          termEn: "Sensory detail",
+          termMy: "Sensory Detail",
+          matchEn:
+              "Description appealing to sight, sound, touch, taste, or smell",
+          matchMy:
+              "အမြင်၊ အကြား၊ အထိအတွေ့၊ အရသာ (သို့) အနံ့ကို ခေါ်ဆိုသော ဖော်ပြချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w10-dm-5",
+          termEn: "Resolution",
+          termMy: "Resolution",
+          matchEn:
+              "The point where the central conflict is settled after the climax",
+          matchMy: "Climax ပြီးနောက် ဗဟိုချက် ပဋိပက္ခ ဖြေရှင်းသည့် အချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fast or Slow Pacing?",
+      titleMy: "စီစစ်ကြမည် - Pacing မြန်လား နှေးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Fast Pacing (Short Sentences)",
+          "Slow Pacing (Long, Detailed Sentences)",
+        ],
+        bucketsMy: [
+          "Pacing မြန် (ဝါကျတိုများ)",
+          "Pacing နှေး (ရှည်လျား၊ အသေးစိတ်ဝါကျများ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w10-sort-1",
+            labelEn: "\"He ran. Tripped. The footsteps grew closer.\"",
+            labelMy: "\"သူ ပြေးသည်။ ခြေချော်သည်။ ခြေသံများ နီးလာသည်။\"",
+            correctBucketEn: "Fast Pacing (Short Sentences)",
+            correctBucketMy: "Pacing မြန် (ဝါကျတိုများ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w10-sort-2",
+            labelEn:
+                "\"The afternoon sun drifted lazily across the quiet garden, warming the old stone bench where she liked to sit and read for hours.\"",
+            labelMy:
+                "\"ညနေခင်း နေရောင်ခြည်သည် တိတ်ဆိတ်သော ဥယျာဉ်တစ်လျှောက် ပျင်းရိစွာ ရွေ့လျားကာ သူမ နာရီများစွာ ထိုင်ဖတ်လိုသော ကျောက်ခုံဟောင်းကို နွေးထွေးစေသည်။\"",
+            correctBucketEn: "Slow Pacing (Long, Detailed Sentences)",
+            correctBucketMy: "Pacing နှေး (ရှည်လျား၊ အသေးစိတ်ဝါကျများ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w10-sort-3",
+            labelEn: "\"Bang. Glass shattered. She screamed.\"",
+            labelMy: "\"ဗုန်းခနဲ။ ဖန်များ ကြေမွသွားသည်။ သူမ အော်ဟစ်ခဲ့သည်။\"",
+            correctBucketEn: "Fast Pacing (Short Sentences)",
+            correctBucketMy: "Pacing မြန် (ဝါကျတိုများ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w10-sort-4",
+            labelEn:
+                "\"As the train wound slowly through the misty valley, she watched the fields blur into gentle streaks of green and gold.\"",
+            labelMy:
+                "\"ရထားသည် ဆီးနှင်းတိမ် ဝင်ရိုးတွင်းတစ်လျှောက် နှေးကွေးစွာ ကွေ့ကောက်နေစဉ် သူမသည် လယ်ကွင်းများ အစိမ်းရောင်နှင့် ရွှေရောင် အနုစိတ် လိုင်းများအဖြစ် မှုန်ဝါးသွားသည်ကို ကြည့်နေခဲ့သည်။\"",
+            correctBucketEn: "Slow Pacing (Long, Detailed Sentences)",
+            correctBucketMy: "Pacing နှေး (ရှည်လျား၊ အသေးစိတ်ဝါကျများ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Climax Rewrite",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Climax ပြန်ရေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Climax Rewrite",
+        titleMy: "နေချည်၏ Climax ပြန်ရေးခြင်း",
+        passageEn:
+            "Nay Chi's first draft of her story's climax -- the moment her character finally opened the locked door -- was over almost as soon as it began: \"She opened the door. Inside was her missing brother, alive.\" Two sentences, and the story's entire emotional payoff was gone in an instant. Ko Thura told her this was the single most common mistake he saw in narrative writing: rushing the moment the whole story had been building toward.\n\nHe asked her to slow down, moment by moment: her hand on the handle, the specific sound the lock made, the half-second of hesitation before turning it, the crack of light widening across the floor. Nay Chi rewrote the scene, stretching four seconds of real time into a full paragraph -- not padding it with irrelevant detail, but zooming into the precise sensory experience of that single moment: the cold metal handle, the smell of dust behind the door, the particular quality of silence just before it swung open.\n\nOnly once the reader had been made to feel every second of that hesitation did she allow the reveal, and this time it landed with real weight. Ko Thura explained the underlying principle: pacing should slow down exactly where the emotional stakes are highest, and speed up where less matters, like a camera lens that lingers on what counts and glides past what doesn't. Nay Chi noted this in her toolkit: build up, then release -- never the other way around.",
+        passageMy:
+            "သူမ၏ ဇာတ်လမ်း၏ Climax -- သူမ၏ ဇာတ်ကောင်သည် ပိတ်ထားသော တံခါးကို နောက်ဆုံး ဖွင့်လိုက်သော အခိုက်အတန့် -- ၏ နေချည်၏ ပထမ မူကြမ်းသည် စတင်ပြီးနောက် စက္ကန့်ပိုင်းအတွင်း ပြီးဆုံးသွားခဲ့သည် - \"သူမ တံခါးကို ဖွင့်ခဲ့သည်။ အတွင်းတွင် သူမ၏ ပျောက်ဆုံးနေသော ညီအစ်ကို အသက်ရှင်လျက် ရှိနေသည်။\" ဝါကျနှစ်ကြောင်းဖြင့် ဇာတ်လမ်း၏ ခံစားချက်ဆိုင်ရာ အကျိုးရလဒ် တစ်ခုလုံးသည် ချက်ချင်း ပျောက်ကွယ်သွားခဲ့သည်။ ကိုသူရသည် ၎င်းသည် ဇာတ်ကြောင်းပြော ရေးသားမှုတွင် သူ တွေ့ရလေ့ရှိသော အဖြစ်များဆုံး တစ်ခုတည်းသော အမှားဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - ဇာတ်လမ်းတစ်ခုလုံး တည်ဆောက်နေခဲ့သော အခိုက်အတန့်ကို အလျင်စလို ပြုလုပ်ခြင်း။\n\nသူသည် သူမကို အခိုက်အတန့်တစ်ခုချင်းစီ ဖြည်းဖြည်းချင်း ပြုလုပ်ရန် တောင်းဆိုခဲ့သည် - လက်ကိုင်ပေါ်ရှိ သူမ၏ လက်၊ သော့ ပြုလုပ်သော တိကျသော အသံ၊ လှည့်မီ တစ်စက္ကန့်ဝက်ခန့် ဆိုင်းငံ့နေခြင်း၊ ကြမ်းပြင်တစ်လျှောက် ကျယ်ပြန့်လာသော အလင်းရောင် အက်ကြောင်း။ နေချည်သည် ဇာတ်ကွက်ကို ပြန်ရေးခဲ့ပြီး အချိန်စစ်စစ် လေးစက္ကန့်ကို စာပိုဒ်တစ်ပိုဒ်အဖြစ် ဆန့်ခဲ့သည် -- မသက်ဆိုင်သော အသေးစိတ်ဖြင့် ဖြည့်စွက်ခြင်းမဟုတ်ဘဲ ထိုတစ်ခုတည်းသော အခိုက်အတန့်၏ တိကျသော အာရုံခံစားမှုဆိုင်ရာ အတွေ့အကြုံသို့ ချဉ်းကပ်ခဲ့သည် - အေးမြသော သတ္တုလက်ကိုင်၊ တံခါးနောက်ကွယ်ရှိ ဖုန်မှုန့်၏ အနံ့၊ ၎င်းဖွင့်ချင်းမတိုင်မီ တိတ်ဆိတ်မှု၏ သီးခြား အရည်အသွေး။\n\nထိုဆိုင်းငံ့နေခြင်း၏ စက္ကန့်တိုင်းကို စာဖတ်သူ ခံစားစေရန် ပြုလုပ်ပြီးမှသာ သူမသည် Reveal ကို ခွင့်ပြုခဲ့ပြီး ဤအကြိမ်တွင် ၎င်းသည် စစ်မှန်သော အလေးချိန်ဖြင့် ရောက်ရှိခဲ့သည်။ ကိုသူရသည် အခြေခံ Principle ကို ရှင်းပြခဲ့သည် - Pacing သည် ခံစားချက်ဆိုင်ရာ အာမခံချက် အမြင့်ဆုံးနေရာတွင် အတိအကျ နှေးကွေးသင့်ပြီး ပို၍ အရေးမပါသော နေရာတွင် အမြန်နှုန်း တိုးမြှင့်သင့်သည်၊ အရေးကြီးသည့်အရာအပေါ် နှေးကွေးစွာ ကြည့်ပြီး မအရေးကြီးသည့်အရာကို ဖြတ်၍ ရွေ့သွားသော ကင်မရာမှန်ဘီလူးတစ်ခုကဲ့သို့ ဖြစ်သည်။ နေချည်သည် ၎င်းကို သူမ၏ Toolkit တွင် မှတ်သားခဲ့သည် - တည်ဆောက်ပါ၊ ထို့နောက် ပြန်လည် လွှတ်ပါ -- အခြားလမ်းကြောင်းသို့ ဘယ်တော့မှ မဟုတ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was the single most common mistake Ko Thura saw in narrative writing?",
+            questionMy:
+                "ဇာတ်ကြောင်းပြော ရေးသားမှုတွင် ကိုသူရ တွေ့ရလေ့ရှိသော အဖြစ်များဆုံး တစ်ခုတည်းသော အမှားကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rushing the moment the whole story had been building toward",
+              "Using too much dialogue",
+              "Writing in the wrong tense",
+              "Including too many characters",
+            ],
+            optionsMy: [
+              "ဇာတ်လမ်းတစ်ခုလုံး တည်ဆောက်နေခဲ့သော အခိုက်အတန့်ကို အလျင်စလို ပြုလုပ်ခြင်း",
+              "Dialogue များစွာ သုံးခြင်း",
+              "မှားယွင်းသော Tense ဖြင့် ရေးသားခြင်း",
+              "ဇာတ်ကောင် များစွာ ထည့်သွင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how long was the real-time moment Nay Chi stretched into a full paragraph?",
+            questionMy:
+                "နေချည် စာပိုဒ်တစ်ပိုဒ်အဖြစ် ဆန့်ခဲ့သော အချိန်စစ်စစ် အခိုက်အတန့်သည် မည်မျှ ကြာသနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Four seconds",
+              "Four minutes",
+              "Four hours",
+              "Four days",
+            ],
+            optionsMy: [
+              "စက္ကန့် ၄ စက္ကန့်",
+              "မိနစ် ၄ မိနစ်",
+              "နာရီ ၄ နာရီ",
+              "ရက် ၄ ရက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about stretching real time into a paragraph.",
+            ],
+            hintsMy: [
+              "အချိန်စစ်စစ်ကို စာပိုဒ်တစ်ပိုဒ်အဖြစ် ဆန့်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, when did Ko Thura say pacing should slow down?",
+            questionMy:
+                "Pacing သည် ဘယ်အချိန်တွင် နှေးကွေးသင့်ကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exactly where the emotional stakes are highest",
+              "At the very start of every story",
+              "Never, under any circumstance",
+              "Only during dialogue",
+            ],
+            optionsMy: [
+              "ခံစားချက်ဆိုင်ရာ အာမခံချက် အမြင့်ဆုံးနေရာတွင် အတိအကျ",
+              "ဇာတ်လမ်းတိုင်း၏ အစတွင်ပင်",
+              "မည်သည့် အခြေအနေမျှ ဘယ်တော့မှ",
+              "Dialogue အတွင်းသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the underlying principle.",
+            ],
+            hintsMy: [
+              "အခြေခံ Principle ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Tension and Climax",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Tension နှင့် Climax",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A climax is best defined as...",
+          questionMy: "Climax တစ်ခုကို ...ဟု အကောင်းဆုံး အနက်ဖွင့်နိုင်သည်",
+          optionsEn: [
+            "The point of highest tension in the central conflict",
+            "The first sentence",
+            "A random unrelated event",
+            "The character's biography",
+          ],
+          optionsMy: [
+            "ဗဟိုချက် ပဋိပက္ခရှိ အမြင့်ဆုံး Tension အချက်",
+            "ပထမဆုံး ဝါကျ",
+            "မသက်ဆိုင်သော ကျပန်း အဖြစ်အပျက်",
+            "ဇာတ်ကောင်၏ ဘဝရာဇဝင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Short, fragmented sentences typically create a sense of...",
+          questionMy:
+              "တို၍ ကွဲထွက်နေသော ဝါကျများသည် ပုံမှန်အားဖြင့် ...၏ ခံစားချက်ကို ဖန်တီးသည်",
+          optionsEn: [
+            "Urgency and speed",
+            "Slow relaxation",
+            "Formal distance",
+            "Comedy",
+          ],
+          optionsMy: [
+            "အရေးတကြီးမှုနှင့် အမြန်နှုန်း",
+            "နှေးကွေးသော အပန်းဖြေမှု",
+            "တရားဝင် ဝေးကွာမှု",
+            "ဟာသ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pacing should slow down exactly where...",
+          questionMy: "Pacing သည် ...တွင် အတိအကျ နှေးကွေးသင့်သည်",
+          optionsEn: [
+            "The emotional stakes are highest",
+            "Nothing important is happening",
+            "The story just began",
+            "The reader has already stopped reading",
+          ],
+          optionsMy: [
+            "ခံစားချက်ဆိုင်ရာ အာမခံချက် အမြင့်ဆုံးနေရာ",
+            "အရေးကြီးသော အရာမျှ မဖြစ်ပျက်နေချိန်",
+            "ဇာတ်လမ်း ယခုမှ စတင်ချိန်",
+            "စာဖတ်သူ ဖတ်ရှုခြင်း ရပ်တန့်ပြီးသားချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek11 = CourseWeekDef(
+  id: "course-igcse-eng-w11",
+  weekNumber: 11,
+  titleEn: "Character and Setting Integration",
+  titleMy: "ဇာတ်ကောင်နှင့် နောက်ခံအပြင်အဆင် ပေါင်းစပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w11-d1",
+      dayNumber: 1,
+      titleEn: "Show, Don't Tell",
+      titleMy: "ပြပါ၊ မပြောပါနှင့်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Show, don't tell\" means...",
+          questionMy: "\"ပြပါ၊ မပြောပါနှင့်\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Revealing a character's traits through actions and details, not direct statements",
+            "Never describing a character at all",
+            "Stating a character's personality directly in one adjective",
+            "Only using dialogue with no description",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ ဂုဏ်ရည်များကို တိုက်ရိုက် ဖော်ပြချက်များ မဟုတ်ဘဲ လှုပ်ရှားမှုများနှင့် အသေးစိတ်များမှတဆင့် ဖော်ထုတ်ခြင်း",
+            "ဇာတ်ကောင်တစ်ဦးကို ဘယ်တော့မှ လုံးဝ ဖော်မပြခြင်း",
+            "ဇာတ်ကောင်၏ ကိုယ်ရည်ကိုယ်သွေးကို Adjective တစ်လုံးဖြင့် တိုက်ရိုက် ဖော်ပြခြင်း",
+            "ဖော်ပြချက် လုံးဝမပါဘဲ Dialogue ကိုသာ သုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which sentence demonstrates \"showing\" rather than \"telling\" that a character is nervous?",
+          questionMy:
+              "ဇာတ်ကောင်တစ်ဦး စိတ်လှုပ်ရှားနေကြောင်း \"ပြောခြင်း\" မဟုတ်ဘဲ \"ပြခြင်း\" ကို မည်သည့် ဝါကျက သရုပ်ပြသနည်း",
+          optionsEn: [
+            "\"Her fingers kept tracing the hem of her sleeve, over and over.\"",
+            "\"She was very nervous.\"",
+            "\"She felt nervous.\"",
+            "\"Nervousness is a common emotion.\"",
+          ],
+          optionsMy: [
+            "\"သူမ၏ လက်ချောင်းများသည် သူမ၏ လက်ကုတ်၏ အနားကို ထပ်ခါထပ်ခါ ပွတ်တိုက်နေသည်။\"",
+            "\"သူမသည် အလွန် စိတ်လှုပ်ရှားနေသည်။\"",
+            "\"သူမ စိတ်လှုပ်ရှားနေသည်ဟု ခံစားရသည်။\"",
+            "\"စိတ်လှုပ်ရှားမှုသည် ဘုံ ခံစားချက်တစ်ခုဖြစ်သည်။\"",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Psychological depth\" in a character means giving them...",
+          questionMy:
+              "ဇာတ်ကောင်တစ်ဦးတွင် \"Psychological Depth\" ဆိုသည်မှာ ...ကို ပေးအပ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Believable, complex inner thoughts, motivations, and contradictions",
+            "A single, simple emotion for the entire story",
+            "No personality at all",
+            "Only physical appearance details",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရ၊ ရှုပ်ထွေးသော အတွင်းစိတ် အတွေးများ၊ လှုံ့ဆော်မှုများနှင့် ဆန့်ကျင်ဘက် ကွဲပြားမှုများ",
+            "ဇာတ်လမ်းတစ်ခုလုံးအတွက် ရိုးရှင်းသော ခံစားချက်တစ်ခုတည်း",
+            "ကိုယ်ရည်ကိုယ်သွေး လုံးဝ မရှိခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ အသွင်အပြင် အသေးစိတ်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An \"immersive environment\" in narrative writing helps the reader by...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော ရေးသားမှုရှိ \"Immersive Environment\" တစ်ခုသည် ...အားဖြင့် စာဖတ်သူကို ကူညီသည်",
+          optionsEn: [
+            "Making them feel physically present in the story's world",
+            "Listing statistics about the setting",
+            "Removing all sensory description",
+            "Confusing them about where the story takes place",
+          ],
+          optionsMy: [
+            "ဇာတ်လမ်း၏ ကမ္ဘာအတွင်း ရုပ်ပိုင်းဆိုင်ရာ ရောက်ရှိနေသကဲ့သို့ ခံစားစေခြင်း",
+            "နောက်ခံအပြင်အဆင်အကြောင်း စာရင်းအင်းများ စာရင်းပြုစုခြင်း",
+            "အာရုံခံစားမှုဆိုင်ရာ ဖော်ပြချက်အားလုံးကို ဖယ်ရှားခြင်း",
+            "ဇာတ်လမ်း ဘယ်နေရာတွင် ဖြစ်ပျက်ကြောင်း ရှုပ်ထွေးစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Integrating character and setting well means the setting should...",
+          questionMy:
+              "ဇာတ်ကောင်နှင့် နောက်ခံအပြင်အဆင်ကို ကောင်းစွာ ပေါင်းစပ်ခြင်းဆိုသည်မှာ နောက်ခံအပြင်အဆင်သည်...",
+          optionsEn: [
+            "Reflect or influence the character's emotional state, not exist separately",
+            "Have absolutely no connection to the character",
+            "Only be described once at the start",
+            "Be identical in every scene regardless of mood",
+          ],
+          optionsMy: [
+            "သီးခြား တည်ရှိနေမည့်အစား ဇာတ်ကောင်၏ ခံစားချက်ဆိုင်ရာ အခြေအနေကို ရောင်ပြန်ဟပ် (သို့) လွှမ်းမိုးသင့်သည်",
+            "ဇာတ်ကောင်နှင့် လုံးဝ ဆက်စပ်မှု မရှိသင့်ပါ",
+            "အစတွင် တစ်ကြိမ်တည်းသာ ဖော်ပြသင့်သည်",
+            "စိတ်ခံစားချက် မည်သို့ဖြစ်စေ ဇာတ်ကွက်တိုင်းတွင် တူညီသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Character and Setting Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကောင်နှင့် နောက်ခံအပြင်အဆင် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w11-dm-1",
+          termEn: "Show, don't tell",
+          termMy: "Show, Don't Tell",
+          matchEn:
+              "Revealing character traits through actions and detail rather than direct statement",
+          matchMy:
+              "တိုက်ရိုက် ဖော်ပြချက်ထက် လှုပ်ရှားမှုများနှင့် အသေးစိတ်များမှတဆင့် ဇာတ်ကောင် ဂုဏ်ရည်များ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w11-dm-2",
+          termEn: "Psychological depth",
+          termMy: "Psychological Depth",
+          matchEn:
+              "Believable, complex inner thoughts, motivations, and contradictions in a character",
+          matchMy:
+              "ဇာတ်ကောင်တစ်ဦးရှိ ယုံကြည်ရ၊ ရှုပ်ထွေးသော အတွင်းစိတ် အတွေးများ၊ လှုံ့ဆော်မှုများနှင့် ကွဲပြားမှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w11-dm-3",
+          termEn: "Immersive setting",
+          termMy: "Immersive Setting",
+          matchEn:
+              "An environment described vividly enough to make readers feel physically present",
+          matchMy:
+              "စာဖတ်သူများကို ရုပ်ပိုင်းဆိုင်ရာ ရောက်ရှိနေသကဲ့သို့ ခံစားစေရန် လုံလောက်စွာ အသက်ဝင်၍ ဖော်ပြထားသော ပတ်ဝန်းကျင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w11-dm-4",
+          termEn: "Pathetic fallacy",
+          termMy: "Pathetic Fallacy",
+          matchEn:
+              "Attributing human emotion to nature or weather to reflect a character's mood",
+          matchMy:
+              "ဇာတ်ကောင်၏ စိတ်ခံစားချက်ကို ရောင်ပြန်ဟပ်ရန် သဘာဝ (သို့) ရာသီဥတုကို လူ့ခံစားချက် ချီးမြှင့်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w11-dm-5",
+          termEn: "Characterisation",
+          termMy: "Characterisation",
+          matchEn:
+              "The process of creating and developing a believable character in fiction",
+          matchMy:
+              "Fiction တွင် ယုံကြည်ရသော ဇာတ်ကောင်တစ်ဦးကို ဖန်တီးပြီး ဖွံ့ဖြိုးစေသော လုပ်ငန်းစဉ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Showing or Telling?",
+      titleMy: "စီစစ်ကြမည် - ပြခြင်းလား ပြောခြင်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Showing", "Telling"],
+        bucketsMy: ["ပြခြင်း", "ပြောခြင်း"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w11-sort-1",
+            labelEn: "\"His knuckles whitened around the steering wheel.\"",
+            labelMy:
+                "\"သူ၏ လက်ချောင်းအဆစ်များသည် Steering Wheel ကို ဖျပ်ကိုင်ထားသောကြောင့် ဖြူဖျော့သွားသည်။\"",
+            correctBucketEn: "Showing",
+            correctBucketMy: "ပြခြင်း",
+          ),
+          SortingItem(
+            id: "igcseeng-w11-sort-2",
+            labelEn: "\"He was very angry.\"",
+            labelMy: "\"သူသည် အလွန် ဒေါသထွက်နေသည်။\"",
+            correctBucketEn: "Telling",
+            correctBucketMy: "ပြောခြင်း",
+          ),
+          SortingItem(
+            id: "igcseeng-w11-sort-3",
+            labelEn:
+                "\"She hadn't smiled in weeks, and today, her lips curved slightly at his joke.\"",
+            labelMy:
+                "\"သူမ ရက်သတ္တပတ်များစွာ မပြုံးခဲ့ဘဲ ယနေ့တွင် သူ၏ ဟာသကြောင့် သူမ၏ နှုတ်ခမ်းများ အနည်းငယ် ကွေးသွားသည်။\"",
+            correctBucketEn: "Showing",
+            correctBucketMy: "ပြခြင်း",
+          ),
+          SortingItem(
+            id: "igcseeng-w11-sort-4",
+            labelEn: "\"She was happy for the first time in a while.\"",
+            labelMy:
+                "\"သူမသည် ကြာမြင့်စွာ ကြာပြီးနောက် ပထမဆုံးအကြိမ် ပျော်ရွှင်နေသည်။\"",
+            correctBucketEn: "Telling",
+            correctBucketMy: "ပြောခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's \"Show, Don't Tell\" Revision",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ \"Show, Don't Tell\" ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's \"Show, Don't Tell\" Revision",
+        titleMy: "နေချည်၏ \"Show, Don't Tell\" ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Nay Chi's draft introduced her protagonist with a single, flat sentence: \"Aye Aye was a shy and anxious girl who found the crowded classroom overwhelming.\" It was accurate, Ko Thura admitted, but it told the reader everything and made them feel nothing -- an examiner would read this and immediately know Aye Aye's traits without ever experiencing them.\n\nHe asked Nay Chi to picture Aye Aye specifically, physically, in that classroom: what would her body actually be doing? Nay Chi rewrote the introduction: \"Aye Aye kept her eyes fixed on the corner of her desk, counting the scratches in the wood, anything to avoid the thirty pairs of eyes she imagined were watching her. When the teacher called her name for the register, she answered in a voice barely above a whisper, and immediately wished she'd said nothing at all.\" No word in this version stated \"shy\" or \"anxious\" directly, yet the reader understood both far more vividly than before.\n\nKo Thura then pushed her toward integrating setting with character: the classroom itself, he suggested, could mirror Aye Aye's internal state rather than existing as a neutral backdrop. Nay Chi added a final detail: the classroom clock, ticking loudly in the silence after her name was called, its second hand seeming to Aye Aye to move impossibly slowly. The setting wasn't just where the scene happened anymore -- it was actively amplifying how Aye Aye felt, which was, Ko Thura told her, exactly what integration meant.",
+        passageMy:
+            "နေချည်၏ မူကြမ်းသည် သူမ၏ ပင်မဇာတ်ကောင်ကို ဝါကျတစ်ကြောင်းတည်း ဆွေမျိုးဖြင့် မိတ်ဆက်ခဲ့သည် - \"အေးအေးသည် ရှက်ကြောက်ပြီး စိုးရိမ်တတ်သော ကလေးမတစ်ဦးဖြစ်ပြီး လူစည်ကားသော စာသင်ခန်းသည် သူမအတွက် လွှမ်းမိုးလွန်းသည်ဟု တွေ့ခဲ့သည်။\" ၎င်းသည် တိကျသည်ဟု ကိုသူရ ဝန်ခံခဲ့သော်လည်း ၎င်းသည် စာဖတ်သူကို အရာအားလုံး ပြောပြပြီး ဘာမျှ ခံစားစေခြင်း မရှိပါ -- စစ်ဆေးသူတစ်ဦးသည် ၎င်းကို ဖတ်ပြီး အေးအေး၏ ဂုဏ်ရည်များကို တစ်ခါမျှ မကြုံခဲ့ဘဲ ချက်ချင်း သိလိမ့်မည်။\n\nသူသည် နေချည်ကို အေးအေးကို ထိုစာသင်ခန်းထဲတွင် တိကျစွာ၊ ရုပ်ပိုင်းဆိုင်ရာ စိတ်ကူးကြည့်ရန် တောင်းဆိုခဲ့သည် - သူမ၏ ခန္ဓာကိုယ်သည် အမှန်တကယ် ဘာလုပ်နေမည်နည်း။ နေချည်သည် မိတ်ဆက်ချက်ကို ပြန်ရေးခဲ့သည် - \"အေးအေးသည် သူမကို ကြည့်နေသည်ဟု စိတ်ကူးထားသော မျက်စိသုံးဆယ်ကို ရှောင်ရှားရန် သူမ၏ စားပွဲထောင့်ပေါ်တွင် ဒါဏ်ရာများကို ရေတွက်ရင်း သူမ၏ မျက်လုံးများကို ငုံ့ကြည့်ထားခဲ့သည်။ ဆရာမသည် Register အတွက် သူမ၏ အမည်ကို ခေါ်သောအခါ သူမသည် တီးတိုးသံထက် အနည်းငယ်သာ ကျယ်သော အသံဖြင့် ဖြေဆိုပြီး ချက်ချင်းပင် ဘာမျှ မပြောခဲ့လျှင် ကောင်းမည်ဟု ဆန္ဒရှိခဲ့သည်။\" ဤဗားရှင်းရှိ စကားလုံးမည်သည်ကမျှ \"ရှက်ကြောက်သော\" (သို့) \"စိုးရိမ်တတ်သော\" ဟု တိုက်ရိုက် မဖော်ပြခဲ့သော်လည်း စာဖတ်သူသည် နှစ်ခုစလုံးကို ယခင်ထက် ပို၍ အသက်ဝင်စွာ နားလည်ခဲ့သည်။\n\nကိုသူရသည် ထို့နောက် သူမကို နောက်ခံအပြင်အဆင်ကို ဇာတ်ကောင်နှင့် ပေါင်းစပ်ရန် တွန်းအားပေးခဲ့သည် - စာသင်ခန်းကိုယ်တိုင်သည် ကြားနေ နောက်ခံတစ်ခုအဖြစ် တည်ရှိနေမည့်အစား အေးအေး၏ အတွင်းစိတ် အခြေအနေကို ရောင်ပြန်ဟပ်နိုင်သည်ဟု သူ အကြံပြုခဲ့သည်။ နေချည်သည် နောက်ဆုံး အသေးစိတ်တစ်ခု ထည့်သွင်းခဲ့သည် - သူမ၏ အမည် ခေါ်ပြီးနောက် တိတ်ဆိတ်မှုအတွင်း ကျယ်လောင်စွာ တစ်ကလစ်တစ်ကလစ် မြည်နေသော စာသင်ခန်း နာရီ၊ ၎င်း၏ Second Hand သည် အေးအေးအတွက် မဖြစ်နိုင်လောက်အောင် နှေးကွေးစွာ ရွေ့လျားနေသကဲ့သို့ ဖြစ်နေခဲ့သည်။ နောက်ခံအပြင်အဆင်သည် ဇာတ်ကွက် ဖြစ်ပျက်ရာ နေရာသက်သက် မဟုတ်တော့ပါ -- ၎င်းသည် အေးအေး မည်သို့ ခံစားရကြောင်းကို တက်ကြွစွာ ချဲ့ထွင်ပေးနေပြီး ၎င်းသည် ကိုသူရ သူမကို ပြောခဲ့သည့်အတိုင်း Integration ဟူသည် အတိအကျ ဆိုလိုသည်ပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Ko Thura say the original sentence made readers feel nothing?",
+            questionMy:
+                "မူလ ဝါကျသည် စာဖတ်သူကို ဘာမျှ မခံစားစေကြောင်း ကိုသူရ အဘယ်ကြောင့် ဆိုခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It told the reader everything directly instead of letting them experience it",
+              "It was too long to read",
+              "It contained no character name",
+              "It used incorrect grammar",
+            ],
+            optionsMy: [
+              "စာဖတ်သူကို ကြုံတွေ့ခွင့် မပေးဘဲ အရာအားလုံးကို တိုက်ရိုက် ပြောပြခဲ့သောကြောင့်",
+              "ဖတ်ရန် အလွန် ရှည်လျားလွန်းသောကြောင့်",
+              "ဇာတ်ကောင် အမည် လုံးဝ မပါခဲ့ပါ",
+              "မှားယွင်းသော သဒ္ဒါ သုံးထားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific detail did Nay Chi's rewrite avoid stating directly?",
+            questionMy:
+                "နေချည်၏ ပြန်ရေးချက်သည် တိုက်ရိုက် မဖော်ပြရန် ရှောင်ရှားခဲ့သော တိကျသော အသေးစိတ်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The words \"shy\" or \"anxious\"",
+              "The character's name",
+              "The classroom's location",
+              "The time of day",
+            ],
+            optionsMy: [
+              "\"ရှက်ကြောက်သော\" (သို့) \"စိုးရိမ်တတ်သော\" ဟူသော စကားလုံးများ",
+              "ဇာတ်ကောင်၏ အမည်",
+              "စာသင်ခန်း၏ တည်နေရာ",
+              "နေ့၏ အချိန်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what the rewrite did not state directly.",
+            ],
+            hintsMy: [
+              "ပြန်ရေးချက် တိုက်ရိုက် မဖော်ပြခဲ့သော အရာအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say integration exactly meant?",
+            questionMy:
+                "Integration ဟူသည် အတိအကျ ဘာကို ဆိုလိုကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The setting actively amplifying how the character feels",
+              "The setting being completely unrelated to the character",
+              "Removing all setting description entirely",
+              "Describing the setting only once at the start",
+            ],
+            optionsMy: [
+              "ဇာတ်ကောင် မည်သို့ ခံစားရကြောင်းကို နောက်ခံအပြင်အဆင်က တက်ကြွစွာ ချဲ့ထွင်ပေးခြင်း",
+              "နောက်ခံအပြင်အဆင်သည် ဇာတ်ကောင်နှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+              "နောက်ခံအပြင်အဆင် ဖော်ပြချက်အားလုံးကို လုံးဝ ဖယ်ရှားခြင်း",
+              "အစတွင် တစ်ကြိမ်တည်းသာ နောက်ခံအပြင်အဆင်ကို ဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Character and Setting",
+      titleMy:
+          "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဇာတ်ကောင်နှင့် နောက်ခံအပြင်အဆင်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Show, don't tell\" means revealing traits through...",
+          questionMy:
+              "\"Show, Don't Tell\" ဆိုသည်မှာ ...မှတဆင့် ဂုဏ်ရည်များ ဖော်ထုတ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Actions and detail",
+            "Direct adjectives only",
+            "A biography",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှုများနှင့် အသေးစိတ်",
+            "တိုက်ရိုက် Adjective များကိုသာ",
+            "ဘဝရာဇဝင်တစ်ခု",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Psychological depth means giving a character...",
+          questionMy:
+              "Psychological Depth ဆိုသည်မှာ ဇာတ်ကောင်တစ်ဦးကို ...ပေးအပ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Believable, complex inner thoughts",
+            "A single emotion",
+            "No personality",
+            "Only physical description",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရ၊ ရှုပ်ထွေးသော အတွင်းစိတ် အတွေးများ",
+            "ခံစားချက်တစ်ခုတည်း",
+            "ကိုယ်ရည်ကိုယ်သွေး မရှိခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ ဖော်ပြချက်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Integrating setting with character means the setting should...",
+          questionMy:
+              "နောက်ခံအပြင်အဆင်ကို ဇာတ်ကောင်နှင့် ပေါင်းစပ်ခြင်းဆိုသည်မှာ နောက်ခံအပြင်အဆင်သည်...",
+          optionsEn: [
+            "Reflect or influence the character's emotional state",
+            "Have no connection to the character",
+            "Be described only once",
+            "Stay identical regardless of mood",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ ခံစားချက်ဆိုင်ရာ အခြေအနေကို ရောင်ပြန်ဟပ် (သို့) လွှမ်းမိုးရမည်",
+            "ဇာတ်ကောင်နှင့် ဆက်စပ်မှု မရှိရ",
+            "တစ်ကြိမ်တည်းသာ ဖော်ပြရမည်",
+            "စိတ်ခံစားချက် မည်သို့ဖြစ်စေ တူညီရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek12 = CourseWeekDef(
+  id: "course-igcse-eng-w12",
+  weekNumber: 12,
+  titleEn: "Narrative Composition Masterclass",
+  titleMy: "ဇာတ်ကြောင်းပြော ရေးသားမှု အထူးသင်ခန်းစာ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w12-d1",
+      dayNumber: 1,
+      titleEn: "Drafting Full Narratives Under Time Pressure",
+      titleMy:
+          "အချိန်ဖိအားအောက်တွင် ဇာတ်ကြောင်းပြော အပြည့်အစုံ မူကြမ်းရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a 45-minute IGCSE narrative composition, planning time should typically be...",
+          questionMy:
+              "IGCSE ဇာတ်ကြောင်းပြော ရေးသားမှု ၄၅ မိနစ်တွင် စီစဉ်ချိန်သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "A short, focused portion, such as 5 minutes, spent outlining the arc",
+            "The entire 45 minutes",
+            "Zero minutes -- planning wastes time",
+            "Spent only on choosing a title",
+          ],
+          optionsMy: [
+            "ဇာတ်ကြောင်းကို အကြမ်းဖျင်း ရေးဆွဲရန် သုံးသော ၅ မိနစ်ကဲ့သို့ တိုတောင်း၍ အာရုံစိုက်ထားသော အပိုင်း",
+            "၄၅ မိနစ်လုံး",
+            "မိနစ် ၀ -- စီစဉ်ခြင်းသည် အချိန်ဖြုန်းသည်",
+            "ခေါင်းစဉ် ရွေးချယ်ရန်သာ သုံးရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A complete narrative arc typically includes...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော ဇာတ်ကွက် အပြည့်အစုံသည် ပုံမှန်အားဖြင့် ...ပါဝင်သည်",
+          optionsEn: [
+            "A hook, rising tension, a climax, and a satisfying resolution",
+            "Only a climax with no setup",
+            "A list of unconnected events",
+            "No ending at all",
+          ],
+          optionsMy: [
+            "Hook တစ်ခု၊ တက်လာသော Tension၊ Climax တစ်ခုနှင့် ကျေနပ်ဖွယ် Resolution",
+            "Setup မပါဘဲ Climax တစ်ခုတည်း",
+            "မဆက်စပ်သော အဖြစ်အပျက်များ စာရင်း",
+            "အဆုံးသတ် လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Advanced vocabulary should be used in narrative writing...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော ရေးသားမှုတွင် အဆင့်မြင့် ဝေါဟာရကို ...သုံးသင့်သည်",
+          optionsEn: [
+            "Precisely and purposefully, not just to sound impressive",
+            "As often as possible regardless of meaning",
+            "Only in the final sentence",
+            "Never, under any circumstance",
+          ],
+          optionsMy: [
+            "ရိုက်ခတ်မှုရှိအောင်သာ မဟုတ်ဘဲ တိကျ၍ ရည်ရွယ်ချက်ရှိရှိ",
+            "အဓိပ္ပာယ် မည်သို့ဖြစ်စေ ဖြစ်နိုင်သမျှ မကြာခဏ",
+            "နောက်ဆုံး ဝါကျတွင်သာ",
+            "မည်သည့် အခြေအနေမျှ ဘယ်တော့မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Time management in the exam should reserve a few minutes at the end for...",
+          questionMy:
+              "စာမေးပွဲတွင် အချိန် စီမံခန့်ခွဲမှုသည် အဆုံးတွင် မိနစ်အနည်းငယ်ကို ...ရန် သိမ်းထားသင့်သည်",
+          optionsEn: [
+            "Proofreading for errors and clarity",
+            "Starting a brand new story",
+            "Rewriting the whole piece from scratch",
+            "Doing nothing at all",
+          ],
+          optionsMy: [
+            "အမှားများနှင့် ရှင်းလင်းမှုအတွက် Proofread ပြုလုပ်ရန်",
+            "ဇာတ်လမ်းအသစ် စတင်ရန်",
+            "အစအဆုံး တစ်ခုလုံးကို ပြန်ရေးရန်",
+            "မည်သည့်အရာမျှ မလုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-structured narrative composition consistently connects...",
+          questionMy:
+              "စနစ်တကျ ဖွဲ့စည်းထားသော ဇာတ်ကြောင်းပြော ရေးသားမှုတစ်ခုသည် ...ကို တသမတ်တည်း ချိတ်ဆက်ထားသည်",
+          optionsEn: [
+            "Opening, character, setting, pacing, and resolution into a unified whole",
+            "Random unrelated scenes with no connection",
+            "Only the opening, ignoring everything after",
+            "A list of vocabulary with no narrative",
+          ],
+          optionsMy: [
+            "ဖွင့်ချက်၊ ဇာတ်ကောင်၊ နောက်ခံအပြင်အဆင်၊ Pacing နှင့် Resolution ကို ညီညွတ်သော တစ်ခုတည်းအဖြစ်",
+            "ဆက်စပ်မှု မရှိသော ကျပန်း ဇာတ်ကွက်များ",
+            "ဖွင့်ချက်တစ်ခုတည်း၊ နောက်ပိုင်း အားလုံးကို လျစ်လျူရှုခြင်း",
+            "ဇာတ်ကြောင်းပြော မပါဘဲ ဝေါဟာရ စာရင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Narrative Composition Term Review",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကြောင်းပြော နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w12-dm-1",
+          termEn: "Hook",
+          termMy: "Hook",
+          matchEn:
+              "An opening designed to immediately capture the reader's attention",
+          matchMy:
+              "စာဖတ်သူ၏ အာရုံကို ချက်ချင်း ဖမ်းစားရန် ဒီဇိုင်းထုတ်ထားသော ဖွင့်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w12-dm-2",
+          termEn: "Climax",
+          termMy: "Climax",
+          matchEn:
+              "The point of highest tension where the central conflict peaks",
+          matchMy:
+              "ဗဟိုချက် ပဋိပက္ခသည် အထွတ်အထိပ်သို့ ရောက်ရှိသည့် အမြင့်ဆုံး Tension အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w12-dm-3",
+          termEn: "Show, don't tell",
+          termMy: "Show, Don't Tell",
+          matchEn:
+              "Revealing character traits through actions and detail, not direct statement",
+          matchMy:
+              "တိုက်ရိုက် ဖော်ပြချက် မဟုတ်ဘဲ လှုပ်ရှားမှုများနှင့် အသေးစိတ်များမှတဆင့် ဇာတ်ကောင် ဂုဏ်ရည်များ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w12-dm-4",
+          termEn: "Pacing",
+          termMy: "Pacing",
+          matchEn: "The controlled speed at which a story unfolds",
+          matchMy: "ဇာတ်လမ်းတစ်ခု ဖော်ထုတ်သည့် ထိန်းချုပ်ထားသော အမြန်နှုန်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w12-dm-5",
+          termEn: "Resolution",
+          termMy: "Resolution",
+          matchEn:
+              "The point where the central conflict is settled after the climax",
+          matchMy: "Climax ပြီးနောက် ဗဟိုချက် ပဋိပက္ခ ဖြေရှင်းသည့် အချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 3 Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - တတိယနှစ်ဝက် မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Opening", "Pacing/Tension", "Character/Setting"],
+        bucketsMy: ["Opening", "Pacing/Tension", "Character/Setting"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w12-sort-1",
+            labelEn:
+                "Starting a story mid-action with a specific, intriguing mystery",
+            labelMy:
+                "ဇာတ်လမ်းတစ်ခုကို လှုပ်ရှားမှု အလယ်တွင် တိကျပြီး စိတ်ဝင်စားဖွယ် ပဟေဠိတစ်ခုဖြင့် စတင်ခြင်း",
+            correctBucketEn: "Opening",
+            correctBucketMy: "Opening",
+          ),
+          SortingItem(
+            id: "igcseeng-w12-sort-2",
+            labelEn: "Slowing down at the moment of highest emotional stakes",
+            labelMy:
+                "ခံစားချက်ဆိုင်ရာ အာမခံချက် အမြင့်ဆုံး အခိုက်အတန့်တွင် နှေးကွေးအောင် ပြုလုပ်ခြင်း",
+            correctBucketEn: "Pacing/Tension",
+            correctBucketMy: "Pacing/Tension",
+          ),
+          SortingItem(
+            id: "igcseeng-w12-sort-3",
+            labelEn:
+                "Showing nervousness through repeated small actions rather than stating it",
+            labelMy:
+                "\"စိုးရိမ်တတ်\" ဟု ဖော်မပြဘဲ ထပ်ခါထပ်ခါ လှုပ်ရှားမှုငယ်များမှတဆင့် ပြသခြင်း",
+            correctBucketEn: "Character/Setting",
+            correctBucketMy: "Character/Setting",
+          ),
+          SortingItem(
+            id: "igcseeng-w12-sort-4",
+            labelEn:
+                "Using a ticking clock to mirror a character's anxious internal state",
+            labelMy:
+                "ဇာတ်ကောင်၏ စိုးရိမ်သော အတွင်းစိတ် အခြေအနေကို ရောင်ပြန်ဟပ်ရန် ကလစ်မြည်နေသော နာရီကို သုံးခြင်း",
+            correctBucketEn: "Character/Setting",
+            correctBucketMy: "Character/Setting",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Timed Narrative Result",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ အချိန်ကန့်သတ် ဇာတ်ကြောင်းပြော ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Timed Narrative Result",
+        titleMy: "နေချည်၏ အချိန်ကန့်သတ် ဇာတ်ကြောင်းပြော ရလဒ်",
+        passageEn:
+            "For the Term 3 capstone, Ko Thura gave Nay Chi a single prompt -- \"Write a story that begins: The lights went out, and someone screamed\" -- and exactly 45 minutes, no exceptions.\n\nNay Chi spent five minutes outlining her arc on scrap paper: the opening blackout, a rising sequence of clues suggesting the scream came from somewhere unexpected, a climax where the true cause was finally revealed, and a resolution that recontextualised the opening scream entirely. She then wrote steadily, deliberately slowing her pacing at the climax with short, fragmented sentences, and integrating the setting -- a school corridor -- so that its usual, comforting familiarity curdled into something unfamiliar and threatening as the tension rose.\n\nWith three minutes left, she stopped writing new content and proofread instead, catching two verb tense slips and one repeated word. When Ko Thura read the finished piece, he noted specific strengths: the hook worked exactly as intended, the pacing shift at the climax was controlled rather than accidental, and Aye Aye -- the character she'd been developing since Week 11 -- appeared again, her established nervous habits from that earlier passage now doing real narrative work, showing fear without ever stating it. He told her this was what mastery actually looked like: not writing something entirely new under pressure, but reliably deploying, in combination and under time constraints, every individual skill she had built one week at a time across the whole term.",
+        passageMy:
+            "တတိယနှစ်ဝက် Capstone အတွက် ကိုသူရသည် Prompt တစ်ခုတည်း ပေးအပ်ခဲ့သည် -- \"ဤသို့ စတင်သော ဇာတ်လမ်းတစ်ခု ရေးပါ - မီးများ ငြိမ်းသွားပြီး တစ်စုံတစ်ဦး အော်ဟစ်ခဲ့သည်\" -- နှင့် ချွင်းချက် မရှိဘဲ မိနစ် ၄၅ မိနစ် အတိအကျ ဖြစ်ခဲ့သည်။\n\nနေချည်သည် သူမ၏ ဇာတ်ကွက်ကို စာမူကြမ်းစာရွက်ပေါ်တွင် အကြမ်းဖျင်း ရေးဆွဲရန် ငါးမိနစ် ကုန်ဆုံးခဲ့သည် - ဖွင့်ချက် မီးအိုင်၊ အော်ဟစ်သံသည် မမျှော်လင့်သော နေရာတစ်ခုမှ လာကြောင်း အကြံပြုသော အချက်ပြများ တက်လာသော အစီအစဉ်၊ စစ်မှန်သော အကြောင်းရင်း နောက်ဆုံး ဖော်ထုတ်သော Climax တစ်ခုနှင့် ဖွင့်ချက် အော်ဟစ်သံကို လုံးဝ ပြန်လည် အနက်ဖွင့်ပေးသော Resolution။ ထို့နောက် သူမသည် တည်ငြိမ်စွာ ရေးသားခဲ့ပြီး Climax တွင် တို၍ ကွဲထွက်နေသော ဝါကျများဖြင့် သူမ၏ Pacing ကို ရည်ရွယ်ချက်ရှိရှိ နှေးကွေးအောင် ပြုလုပ်ခဲ့ကာ၊ Tension တက်လာသည်နှင့်အမျှ ၎င်း၏ ပုံမှန် သက်တောင့်သက်သာ ရင်းနှီးမှုသည် ရင်းနှီးမှု မရှိဘဲ အန္တရာယ်ရှိသော အရာသို့ ပြောင်းလဲသွားစေရန် နောက်ခံအပြင်အဆင် -- ကျောင်းစင်္ကြံ -- ကို ပေါင်းစပ်ခဲ့သည်။\n\nမိနစ် ၃ မိနစ် ကျန်ရှိချိန်တွင် သူမသည် အကြောင်းအရာအသစ် ရေးသားခြင်းကို ရပ်တန့်ကာ ယင်းအစား Proofread ပြုလုပ်ခဲ့ပြီး Verb Tense အမှား နှစ်ခုနှင့် ထပ်ခါ သုံးထားသော စကားလုံးတစ်ခုကို ဖမ်းမိခဲ့သည်။ ကိုသူရသည် ပြီးစီးသော အကြောင်းအရာကို ဖတ်ရှုသောအခါ တိကျသော အားသာချက်များကို သတိပြုမိခဲ့သည် - Hook သည် ရည်ရွယ်ထားသည့်အတိုင်း အလုပ်လုပ်ခဲ့သည်၊ Climax ၏ Pacing ပြောင်းလဲမှုသည် မတော်တဆ မဟုတ်ဘဲ ထိန်းချုပ်ထားသည်၊ အေးအေး -- ဆယ့်တစ်ပတ်ကတည်းက သူမ ဖွံ့ဖြိုးစေခဲ့သော ဇာတ်ကောင် -- သည် ထပ်မံ ပေါ်လာခဲ့ပြီး၊ ယခင်စာပိုဒ်ရှိ သူမ၏ တည်ဆောက်ထားပြီးသား စိုးရိမ်တတ်သော အလေ့အထများသည် ယခုအခါ တကယ့် ဇာတ်ကြောင်းပြော လုပ်ငန်းကို ဆောင်ရွက်ကာ ကြောက်ရွံ့မှုကို ဘယ်တော့မှ တိုက်ရိုက် မဖော်ပြဘဲ ပြသခဲ့သည်။ သူသည် ဤသည်ပင် Mastery ၏ အမှန်တကယ် ပုံစံဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - ဖိအားအောက်တွင် လုံးဝ အသစ်တစ်ခုကို ရေးသားခြင်း မဟုတ်ဘဲ နှစ်ဝက်တစ်လျှောက် တစ်ပတ်လျှင် တစ်ခုစီ သူမ တည်ဆောက်ခဲ့သော ကျွမ်းကျင်မှုတစ်ခုချင်းစီကို ပေါင်းစပ်၍ အချိန် ကန့်သတ်ချက်များအောက်တွင် ယုံကြည်စိတ်ချစွာ အသုံးချခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi do with her final three minutes?",
+            questionMy:
+                "သူမ၏ နောက်ဆုံး မိနစ် ၃ မိနစ်တွင် နေချည် ဘာလုပ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Stopped writing new content and proofread instead",
+              "Started an entirely new story",
+              "Deleted her entire draft",
+              "Continued writing new content without stopping",
+            ],
+            optionsMy: [
+              "အကြောင်းအရာအသစ် ရေးသားခြင်းကို ရပ်တန့်ကာ Proofread ပြုလုပ်ခဲ့သည်",
+              "လုံးဝ ဇာတ်လမ်းအသစ် စတင်ခဲ့သည်",
+              "သူမ၏ မူကြမ်းတစ်ခုလုံးကို ဖျက်ပစ်ခဲ့သည်",
+              "မရပ်တန့်ဘဲ အကြောင်းအရာအသစ် ဆက်လက် ရေးသားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the final three minutes."],
+            hintsMy: [
+              "နောက်ဆုံး မိနစ် ၃ မိနစ်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which character from Week 11 reappeared in Nay Chi's story?",
+            questionMy:
+                "ဆယ့်တစ်ပတ်မှ မည်သည့် ဇာတ်ကောင် နေချည်၏ ဇာတ်လမ်းတွင် ထပ်မံ ပေါ်လာခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["Aye Aye", "Ko Thura", "Mei", "The teacher"],
+            optionsMy: ["အေးအေး", "ကိုသူရ", "မေ", "ဆရာမ"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the character who appeared again.",
+            ],
+            hintsMy: [
+              "ထပ်မံ ပေါ်လာခဲ့သော ဇာတ်ကောင်ကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Thura say mastery actually looked like?",
+            questionMy:
+                "Mastery ၏ အမှန်တကယ် ပုံစံသည် မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reliably combining every skill built across the term under time pressure",
+              "Writing something entirely new with no prior practice",
+              "Avoiding all planning entirely",
+              "Copying a previous story exactly",
+            ],
+            optionsMy: [
+              "အချိန်ဖိအားအောက်တွင် နှစ်ဝက်တစ်လျှောက် တည်ဆောက်ခဲ့သော ကျွမ်းကျင်မှုတိုင်းကို ယုံကြည်စိတ်ချစွာ ပေါင်းစပ်ခြင်း",
+              "ယခင် လေ့ကျင့်မှု မရှိဘဲ လုံးဝ အသစ်တစ်ခု ရေးသားခြင်း",
+              "စီစဉ်ခြင်းအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+              "ယခင် ဇာတ်လမ်းတစ်ခုကို အတိအကျ ကူးယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Narrative Mastery",
+      titleMy: "တတိယတန်း Capstone - ဇာတ်ကြောင်းပြော ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete narrative arc typically includes...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော ဇာတ်ကွက် အပြည့်အစုံသည် ပုံမှန်အားဖြင့် ...ပါဝင်သည်",
+          optionsEn: [
+            "A hook, rising tension, climax, and resolution",
+            "Only a climax",
+            "Unconnected events",
+            "No ending",
+          ],
+          optionsMy: [
+            "Hook တစ်ခု၊ တက်လာသော Tension၊ Climax နှင့် Resolution",
+            "Climax တစ်ခုတည်း",
+            "မဆက်စပ်သော အဖြစ်အပျက်များ",
+            "အဆုံးသတ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The last few minutes of a timed narrative exam should be used for...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော ဇာတ်ကြောင်းပြော စာမေးပွဲ၏ နောက်ဆုံး မိနစ်အနည်းငယ်ကို ...ရန် သုံးသင့်သည်",
+          optionsEn: [
+            "Proofreading",
+            "Starting a new story",
+            "Doing nothing",
+            "Rewriting from scratch",
+          ],
+          optionsMy: [
+            "Proofreading",
+            "ဇာတ်လမ်းအသစ် စတင်ရန်",
+            "မည်သည့်အရာမျှ မလုပ်ရန်",
+            "အစအဆုံး ပြန်ရေးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Narrative mastery means combining skills...",
+          questionMy:
+              "ဇာတ်ကြောင်းပြော Mastery ဆိုသည်မှာ ကျွမ်းကျင်မှုများကို ...ပေါင်းစပ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Reliably, in combination, under time pressure",
+            "Only once, with no consistency",
+            "Never under any pressure",
+            "By avoiding planning entirely",
+          ],
+          optionsMy: [
+            "ယုံကြည်စိတ်ချစွာ၊ ပေါင်းစပ်လျက်၊ အချိန်ဖိအားအောက်တွင်",
+            "တစ်ကြိမ်တည်း၊ တသမတ်တည်း မရှိဘဲ",
+            "မည်သည့် ဖိအားအောက်တွင်မျှ ဘယ်တော့မှ",
+            "စီစဉ်ခြင်းကို လုံးဝ ရှောင်ရှား၍",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm3 = CourseTermDef(
+  id: "course-igcse-eng-term3",
+  termNumber: 3,
+  titleEn: "Narrative Composition",
+  titleMy: "ဇာတ်ကြောင်းပြော ရေးသားမှု",
+  weeks: [_igcseEngWeek9, _igcseEngWeek10, _igcseEngWeek11, _igcseEngWeek12],
+  certificateTitleEn: "Narrative Composition",
+  certificateTitleMy: "ဇာတ်ကြောင်းပြော ရေးသားမှု",
 );
 
 // __IGCSE_ENGLISH_MARKER__
