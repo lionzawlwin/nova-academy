@@ -125326,21 +125326,1572 @@ const CourseTermDef _igcseMathematicsTerm8 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// IGCSE Mathematics -- Term 9: "Final Countdown & IGCSE Graduation"
+// (Weeks 33-36). Week 33 covers targeted topic weakness remediation;
+// Week 34 covers a second full mock exam series; Week 35 covers exam
+// day readiness and mental preparation; Week 36 is the capstone
+// IGCSE Mathematics Graduation.
+// =====================================================================
+
+const CourseWeekDef _igcseMathematicsWeek33 = CourseWeekDef(
+  id: "course-igcse-mathematics-w33",
+  weekNumber: 33,
+  titleEn: "Targeted Topic Weakness Workshop",
+  titleMy: "အားနည်းချက်ရှိသော ခေါင်းစဉ်များကို အထူးပြုပြင်သည့် အလုပ်ရုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w33-d1",
+      dayNumber: 1,
+      titleEn: "Personalised Revision: Mixed Topic Drills",
+      titleMy:
+          "ကိုယ်ရေးကိုယ်တာ ပြန်လည်လေ့လာမှု - ရောနှော ခေါင်းစဉ် လေ့ကျင့်ခန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Rationalise 4/(√5-1).",
+          questionMy: "4/(√5-1) ကို Rationalise ပြုလုပ်ပါ။",
+          optionsEn: ["√5+1", "4(√5+1)/4", "(√5+1)", "4√5+4"],
+          optionsMy: ["√5+1", "4(√5+1)/4", "(√5+1)", "4√5+4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiply by (√5+1): 4(√5+1)/((√5-1)(√5+1)) = 4(√5+1)/(5-1) = 4(√5+1)/4 = √5+1.",
+          ],
+          hintsMy: [
+            "(√5+1) ဖြင့် မြှောက်ပါ: 4(√5+1)/((√5-1)(√5+1)) = 4(√5+1)/(5-1) = 4(√5+1)/4 = √5+1။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For y = 2x³ - 3x, what is dy/dx?",
+          questionMy: "y = 2x³ - 3x အတွက် dy/dx သည် အဘယ်နည်း။",
+          optionsEn: ["6x² - 3", "6x²", "2x² - 3", "6x - 3"],
+          optionsMy: ["6x² - 3", "6x²", "2x² - 3", "6x - 3"],
+          correctIndex: 0,
+          hintsEn: ["Differentiate each term: 2x³ → 6x², -3x → -3."],
+          hintsMy: [
+            "Term တစ်ခုစီကို Differentiate ပြုလုပ်ပါ: 2x³ → 6x², -3x → -3။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A histogram has a class 10-14 (width 4) with frequency density 3. What is the frequency?",
+          questionMy:
+              "Histogram တစ်ခုတွင် Class 10-14 (Width 4) ရှိပြီး Frequency Density 3 ရှိသည်။ Frequency သည် အဘယ်နည်း။",
+          optionsEn: ["12", "3", "7", "40"],
+          optionsMy: ["12", "3", "7", "40"],
+          correctIndex: 0,
+          hintsEn: [
+            "Frequency = frequency density × class width = 3 × 4 = 12.",
+          ],
+          hintsMy: [
+            "Frequency = Frequency Density × Class Width = 3 × 4 = 12။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Matrix [[1,0],[0,1]] applied to any shape produces...",
+          questionMy:
+              "Shape မည်သည်အပေါ်မဆို Matrix [[1,0],[0,1]] အသုံးချခြင်းသည် ...ကို ထုတ်ပေးသည်",
+          optionsEn: [
+            "No change at all (the identity transformation)",
+            "A 90-degree rotation",
+            "A reflection",
+            "An enlargement by factor 2",
+          ],
+          optionsMy: [
+            "မည်သည့် ပြောင်းလဲမှုမျှ မရှိခြင်း (Identity Transformation)",
+            "90 ဒီဂရီ Rotation",
+            "Reflection",
+            "Factor 2 ဖြင့် Enlargement",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "[[1,0],[0,1]] is the identity matrix -- it leaves every point exactly where it was.",
+          ],
+          hintsMy: [
+            "[[1,0],[0,1]] သည် Identity Matrix ဖြစ်ပြီး Point တိုင်းကို ၎င်း၏ တည်နေရာ၌ အတိအကျ ချန်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two triangles are similar with linear scale factor 5. What is the ratio of their perimeters?",
+          questionMy:
+              "Linear Scale Factor 5 ပါသော Similar Triangle နှစ်ခု၏ Perimeter အချိုးသည် အဘယ်နည်း။",
+          optionsEn: ["5:1", "25:1", "1:5", "125:1"],
+          optionsMy: ["5:1", "25:1", "1:5", "125:1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Perimeter (a length) scales with the linear scale factor directly, unlike area (squared) or volume (cubed).",
+          ],
+          hintsMy: [
+            "Perimeter (အလျား) သည် Area (Squared) သို့ Volume (Cubed) နှင့် မတူဘဲ Linear Scale Factor နှင့် တိုက်ရိုက် Scale ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w33-d2",
+      dayNumber: 2,
+      titleEn: "Whole-Course Vocabulary Refresher",
+      titleMy: "သင်တန်းလုံး ဝေါဟာရ ပြန်လည်သတိရခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w33-dm1",
+          termEn: "Reverse Percentage",
+          termMy: "Reverse Percentage",
+          matchEn:
+              "Finding an original value before a known percentage change was applied",
+          matchMy:
+              "သိရှိထားသော ရာခိုင်နှုန်း ပြောင်းလဲမှု မလာမီ မူလတန်ဖိုးကို ရှာဖွေခြင်း",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w33-dm2",
+          termEn: "Cyclic Quadrilateral",
+          termMy: "Cyclic Quadrilateral",
+          matchEn:
+              "A four-sided shape with all vertices on a circle, whose opposite angles sum to 180°",
+          matchMy:
+              "စက်ဝိုင်းတစ်ခုပေါ်တွင် Vertex အားလုံးရှိပြီး ဆန့်ကျင်ဘက် ထောင့်များ 180° ပေါင်းလဒ်ရှိသော အနားလေးခုပါ ပုံသဏ္ဌာန်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w33-dm3",
+          termEn: "Collinear Points",
+          termMy: "Collinear Points",
+          matchEn:
+              "Points that lie on the same straight line, provable using vectors",
+          matchMy:
+              "Vector များသုံး၍ သက်သေပြနိုင်သော မျဉ်းဖြောင့် တစ်ကြောင်းတည်းပေါ်တွင် ရှိသော Point များ",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w33-dm4",
+          termEn: "Interquartile Range (IQR)",
+          termMy: "Interquartile Range (IQR)",
+          matchEn:
+              "The upper quartile minus the lower quartile, a measure of spread resistant to outliers",
+          matchMy:
+              "Upper Quartile မှ Lower Quartile နုတ်ခြင်း, Outlier များကို ခံနိုင်ရည်ရှိသော ပျံ့နှံ့မှု တိုင်းတာချက်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w33-dm5",
+          termEn: "Identity Matrix",
+          termMy: "Identity Matrix",
+          matchEn: "The matrix [[1,0],[0,1]] that leaves every point unchanged",
+          matchMy:
+              "Point တိုင်းကို မပြောင်းလဲဘဲ ချန်ထားသော Matrix [[1,0],[0,1]]",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w33-d3",
+      dayNumber: 3,
+      titleEn: "Early Terms or Late Terms Topic?",
+      titleMy: "Early Terms or Late Terms Topic?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Early Terms (1-4)", "Late Terms (5-8)"],
+        bucketsMy: ["Early Terms (1-4)", "Late Terms (5-8)"],
+        items: [
+          SortingItem(
+            id: "igm-w33-sort1",
+            labelEn: "Circle theorems and cyclic quadrilaterals",
+            labelMy: "Circle Theorems and Cyclic Quadrilaterals",
+            correctBucketEn: "Early Terms (1-4)",
+            correctBucketMy: "Early Terms (1-4)",
+          ),
+          SortingItem(
+            id: "igm-w33-sort2",
+            labelEn: "Matrix transformations and differentiation",
+            labelMy: "Matrix Transformations and Differentiation",
+            correctBucketEn: "Late Terms (5-8)",
+            correctBucketMy: "Late Terms (5-8)",
+          ),
+          SortingItem(
+            id: "igm-w33-sort3",
+            labelEn: "Compound interest and standard form",
+            labelMy: "Compound Interest and Standard Form",
+            correctBucketEn: "Early Terms (1-4)",
+            correctBucketMy: "Early Terms (1-4)",
+          ),
+          SortingItem(
+            id: "igm-w33-sort4",
+            labelEn: "Surds and mathematical investigation",
+            labelMy: "Surds and Mathematical Investigation",
+            correctBucketEn: "Late Terms (5-8)",
+            correctBucketMy: "Late Terms (5-8)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Weakness List",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ အားနည်းချက် စာရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Weakness List",
+        titleMy: "ထက်ဝေယံ၏ အားနည်းချက် စာရင်း",
+        passageEn:
+            "With five weeks left before the real IGCSE Mathematics exam, Daw Su Su did not open a new textbook chapter. Instead, she pulled out every mock paper Htet Wai Yan had sat since Term 8 and built a single list, question by question, of exactly where he had lost marks across all of them.\n\nThe pattern was narrower than either of them expected: nearly every lost mark clustered around two-term surd expressions requiring the conjugate method, and around one specific step in vector proofs -- correctly setting up the initial position vector before the rest of the proof could proceed. Everything else -- quadratics, circle theorems, matrices, statistics, calculus -- showed a consistent, strong record with only isolated, non-repeating slips.\n\nDaw Su Su told him this changed the entire shape of Week 33's plan: rather than reviewing all nine terms equally, as a less experienced student might default to doing, they would spend the week almost entirely on twenty targeted surd-conjugate questions and fifteen vector position-vector setups, drilling the exact two gaps the data had revealed. She reminded him this was the same diagnostic principle from Week 31's error analysis, now applied across an entire course rather than a single paper: a student's revision time was a limited resource, and spending it in proportion to genuine, evidenced weakness -- rather than spreading it thin and equal across everything -- was simply a better use of the five weeks remaining. Htet Wai Yan worked through the twenty surd questions that afternoon and, by the fifteenth, was rationalising two-term denominators as automatically as he now handled standard trig values.",
+        passageMy:
+            "အမှန်တကယ် IGCSE သင်္ချာ စာမေးပွဲမတိုင်မီ ငါးပတ် ကျန်ရှိတော့သောအခါ ဒေါ်စုစုသည် စာအုပ်သစ် အခန်းတစ်ခန်းကို မဖွင့်ခဲ့ပါ။ ၎င်းအစား သူသည် တန်းရှစ်တန်းကတည်းက ထက်ဝေယံ ဖြေဆိုခဲ့သော ပုံစံတူ စာစောင်တိုင်းကို ဆွဲထုတ်ကာ ၎င်းတို့အားလုံးတစ်လျှောက် မေးခွန်းချင်းစီ သူ အတိအကျ ဘယ်နေရာတွင် အမှတ် ဆုံးရှုံးခဲ့ကြောင်း စာရင်းတစ်ခုတည်း တည်ဆောက်ခဲ့သည်။\n\nပုံစံသည် သူတို့နှစ်ဦးလုံး မျှော်လင့်ထားသည်ထက် ကျဉ်းမြောင်းခဲ့သည် - လုနီးပါး အမှတ်ဆုံးရှုံးမှုတိုင်းသည် Conjugate Method လိုအပ်သော Term နှစ်ခုပါ Surd Expression များနှင့် Vector Proof များရှိ တိကျသော အဆင့်တစ်ခု -- Proof ၏ ကျန်အပိုင်းများ ဆက်လက် မဆောင်ရွက်မီ မူလ Position Vector ကို မှန်ကန်စွာ ချမှတ်ခြင်း -- ပတ်ပတ်လည်တွင် စုစည်းခဲ့သည်။ ကျန်အားလုံး -- Quadratics, Circle Theorems, Matrices, Statistics, Calculus -- သည် သီးသန့်၊ ထပ်ခါမဖြစ်ပွားသော ချော်ချော့မှုများသာ ရှိသော တသမတ်တည်း၊ ခိုင်မာသော မှတ်တမ်းကို ပြသခဲ့သည်။\n\nဒေါ်စုစုသည် ၎င်းသည် ဆယ့်သုံးပတ် အစီအစဉ်၏ ပုံသဏ္ဌာန်တစ်ခုလုံးကို ပြောင်းလဲစေခဲ့ကြောင်း သူ့ကို ပြောခဲ့သည် - အတွေ့အကြုံ နည်းပါးသော ကျောင်းသားတစ်ဦးက ပုံသေ ပြုလုပ်လေ့ရှိသကဲ့သို့ နှစ်ဝက်ကိုးဝက်လုံးကို တညီတညွတ်တည်း ပြန်လည်လေ့လာမည့်အစား သူတို့သည် Surd-Conjugate မေးခွန်း ၂၀ နှင့် Vector Position-Vector Setup ၁၅ ခုအပေါ် ဤအပတ်ကို လုနီးပါး လုံးလုံးလျားလျား ကုန်ဆုံးစေပြီး Data က ဖော်ထုတ်ခဲ့သော ကွာဟချက် နှစ်ခု အတိအကျကို လေ့ကျင့်မည် ဖြစ်သည်။ သူသည် ၎င်းသည် ဆယ့်တစ်ပတ်၏ Error Analysis မှ တူညီသော ရောဂါရှာဖွေမှု Principle ဖြစ်ကြောင်း၊ ယခုအခါ စာစောင်တစ်ခုတည်း မဟုတ်ဘဲ သင်တန်းတစ်ခုလုံးတစ်လျှောက် အသုံးချထားကြောင်း သူ့ကို သတိပေးခဲ့သည် - ကျောင်းသားတစ်ဦး၏ ပြန်လည်လေ့လာမှု အချိန်သည် ကန့်သတ်ထားသော အရင်းအမြစ်တစ်ခု ဖြစ်ပြီး ၎င်းကို အားလုံးအပေါ် ပါးလွှာစွာ၊ တညီတညွတ်တည်း ဖြန့်ကျဲမည့်အစား စစ်မှန်သော၊ သက်သေအထောက်အထားရှိသော အားနည်းချက်နှင့် အချိုးကျ အသုံးချခြင်းသည် ကျန်ရှိသော ငါးပတ်ကို ပို၍ ကောင်းစွာ အသုံးချခြင်း ဖြစ်ကြောင်း ဖြစ်သည်။ ထက်ဝေယံသည် ထိုနေ့ ညနေတွင် Surd မေးခွန်း ၂၀ ကို ဖြတ်၍ လုပ်ဆောင်ခဲ့ပြီး ၁၅ ခုမြောက်တွင် Term နှစ်ခုပါ Denominator များကို Standard Trig Values ကဲ့သို့ ယခုအခါ အလိုအလျောက် Rationalise ပြုလုပ်နေခဲ့ပြီ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, where did nearly every lost mark cluster?",
+            questionMy:
+                "အမှတ်ဆုံးရှုံးမှု လုနီးပါးတိုင်းသည် မည်သည့်နေရာတွင် စုစည်းခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two-term surd expressions and one step in vector proofs",
+              "Every single topic equally",
+              "Only quadratic equations",
+              "Handwriting neatness",
+            ],
+            optionsMy: [
+              "Term နှစ်ခုပါ Surd Expression များနှင့် Vector Proof များရှိ အဆင့်တစ်ခု",
+              "ခေါင်းစဉ်တိုင်း တညီတညွတ်တည်း",
+              "Quadratic Equations တစ်ခုတည်း",
+              "လက်ရေး သပ်ရပ်မှု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence identifying where the pattern clustered.",
+            ],
+            hintsMy: [
+              "ပုံစံ စုစည်းခဲ့သည့်နေရာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how many surd-conjugate questions did they plan to drill?",
+            questionMy:
+                "သူတို့ Surd-Conjugate မေးခွန်း မည်မျှ လေ့ကျင့်ရန် စီစဉ်ခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["Twenty", "Fifteen", "Nine", "Five"],
+            optionsMy: ["၂၀", "၁၅", "၉", "၅"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the number of surd-conjugate questions.",
+            ],
+            hintsMy: [
+              "Surd-Conjugate မေးခွန်း အရေအတွက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Daw Su Su say about revision time?",
+            questionMy:
+                "ပြန်လည်လေ့လာမှု အချိန်အကြောင်း ဒေါ်စုစု ဘာဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It should be spent in proportion to genuine, evidenced weakness",
+              "It should always be split equally across every topic",
+              "It has no real value",
+              "It should focus only on already-strong topics",
+            ],
+            optionsMy: [
+              "စစ်မှန်သော၊ သက်သေအထောက်အထားရှိသော အားနည်းချက်နှင့် အချိုးကျ အသုံးချသင့်သည်",
+              "ခေါင်းစဉ်တိုင်းအပေါ် အမြဲ တညီတညွတ်တည်း ခွဲဝေသင့်သည်",
+              "စစ်မှန်သော တန်ဖိုး မရှိပါ",
+              "အားကောင်းပြီးသား ခေါင်းစဉ်များအပေါ်သာ အာရုံစိုက်သင့်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about revision time being a limited resource.",
+            ],
+            hintsMy: [
+              "ပြန်လည်လေ့လာမှု အချိန်သည် ကန့်သတ်ထားသော အရင်းအမြစ် ဖြစ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w33-d5",
+      dayNumber: 5,
+      titleEn: "Targeted Weakness Workshop Recap Quiz",
+      titleMy: "အားနည်းချက် အလုပ်ရုံ ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Rationalise 6/(√7+1).",
+          questionMy: "6/(√7+1) ကို Rationalise ပြုလုပ်ပါ။",
+          optionsEn: ["√7-1", "6(√7-1)/6", "√7+1", "6√7-6"],
+          optionsMy: ["√7-1", "6(√7-1)/6", "√7+1", "6√7-6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The identity matrix leaves every point...",
+          questionMy: "Identity Matrix သည် Point တိုင်းကို...",
+          optionsEn: ["Unchanged", "Rotated 90°", "Reflected", "Enlarged"],
+          optionsMy: [
+            "မပြောင်းလဲဘဲ ချန်ထား",
+            "90° Rotate",
+            "Reflect",
+            "Enlarge",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Targeted revision focuses time on...",
+          questionMy: "Targeted Revision သည် အချိန်ကို ...အပေါ် အာရုံစိုက်သည်",
+          optionsEn: [
+            "Evidenced individual weaknesses, not everything equally",
+            "Random unrelated topics",
+            "Only already-strongest skills",
+            "Nothing specific",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားရှိသော တစ်ဦးချင်း အားနည်းချက်များ၊ အားလုံးကို တညီတညွတ်တည်း မဟုတ်ဘဲ",
+            "ကျပန်း၊ မသက်ဆိုင်သော ခေါင်းစဉ်များ",
+            "အားအကောင်းဆုံး ကျွမ်းကျင်မှုများကိုသာ",
+            "တိကျသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what two gaps did Htet Wai Yan's data reveal?",
+          questionMy:
+              "ထက်ဝေယံ၏ Data သည် ကွာဟချက် နှစ်ခု မည်သည်ကို ဖော်ထုတ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Two-term surd expressions and vector position-vector setup",
+            "Quadratics and circle theorems",
+            "Matrices and calculus",
+            "Statistics and probability",
+          ],
+          optionsMy: [
+            "Term နှစ်ခုပါ Surd Expression နှင့် Vector Position-Vector Setup",
+            "Quadratics နှင့် Circle Theorems",
+            "Matrices နှင့် Calculus",
+            "Statistics နှင့် Probability",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were reviewed across Week 33?",
+          questionMy:
+              "Week 33 တွင် မည်သည့် ခေါင်းစဉ်များ ပြန်လည်သုံးသပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "Personalised revision drilling evidenced weak points across the whole course",
+            "Only brand-new topics",
+            "Only Term 1 content",
+            "No mathematics content at all",
+          ],
+          optionsMy: [
+            "သင်တန်းတစ်ခုလုံးတစ်လျှောက် သက်သေထင်ရှားသော အားနည်းချက်များကို လေ့ကျင့်သော ကိုယ်ရေးကိုယ်တာ ပြန်လည်လေ့လာမှု",
+            "ခေါင်းစဉ်အသစ်များကိုသာ",
+            "ပထမတန်း အကြောင်းအရာကိုသာ",
+            "သင်္ချာ အကြောင်းအရာ လုံးဝ မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek34 = CourseWeekDef(
+  id: "course-igcse-mathematics-w34",
+  weekNumber: 34,
+  titleEn: "Full Mock Exam Series 2",
+  titleMy: "ပုံစံတူ စာမေးပွဲ အစုံ (၂)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w34-d1",
+      dayNumber: 1,
+      titleEn: "Final Paper 2 and Paper 4 Mixed Review",
+      titleMy: "နောက်ဆုံး Paper 2 နှင့် Paper 4 ရောနှော ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify (2+√3)(4-√3) without a calculator.",
+          questionMy:
+              "Calculator မသုံးဘဲ (2+√3)(4-√3) ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["8+2√3-3", "8-2√3+3", "8+2√3+3", "5+2√3"],
+          optionsMy: ["8+2√3-3", "8-2√3+3", "8+2√3+3", "5+2√3"],
+          correctIndex: 0,
+          hintsEn: ["Expand: 8 - 2√3 + 4√3 - 3 = 8 + 2√3 - 3 = 5 + 2√3."],
+          hintsMy: ["ဖြန့်ကြက်ပါ: 8 - 2√3 + 4√3 - 3 = 8 + 2√3 - 3 = 5 + 2√3။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cylinder has radius 4cm and height 9cm. Using V = πr²h, what is its volume to the nearest cm³?",
+          questionMy:
+              "ဘူးပုံ တစ်ခု၏ Radius 4cm, Height 9cm ဖြစ်သည်။ V = πr²h သုံး၍ ၎င်း၏ Volume (အနီးဆုံး cm³) သည် အဘယ်နည်း။",
+          optionsEn: ["452 cm³", "113 cm³", "226 cm³", "36 cm³"],
+          optionsMy: ["cm³ 452", "cm³ 113", "cm³ 226", "cm³ 36"],
+          correctIndex: 0,
+          hintsEn: ["V = π × 4² × 9 = π × 144 ≈ 452.4, rounding to 452."],
+          hintsMy: [
+            "V = π × 4² × 9 = π × 144 ≈ 452.4, 452 သို့ Round ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Optimise: a rectangle's perimeter is 20cm. If length is x, what value of x maximises area?",
+          questionMy:
+              "Optimise ပြုလုပ်ပါ: စတုဂံပုံတစ်ခု၏ Perimeter 20cm ဖြစ်သည်။ Length သည် x ဖြစ်ပါက Area ကို Maximise ပြုလုပ်မည့် x တန်ဖိုးသည် အဘယ်နည်း။",
+          optionsEn: ["5", "10", "20", "2.5"],
+          optionsMy: ["5", "10", "20", "2.5"],
+          correctIndex: 0,
+          hintsEn: [
+            "Width = 10-x, A = x(10-x) = 10x - x². dA/dx = 10 - 2x = 0, so x = 5 (a square is optimal).",
+          ],
+          hintsMy: [
+            "Width = 10-x, A = x(10-x) = 10x - x²။ dA/dx = 10 - 2x = 0, ထို့ကြောင့် x = 5 (စတုရန်းတစ်ခုသည် Optimal ဖြစ်သည်)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student writes P(A|B) but means P(B|A). This kind of error typically loses...",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် P(B|A) ကို ဆိုလိုသော်လည်း P(A|B) ဟု ရေးသည်။ ဤအမျိုးအစား အမှားသည် ပုံမှန်အားဖြင့် ...ဆုံးရှုံးစေသည်",
+          optionsEn: [
+            "Marks specifically tied to correct notation/setup, even if later arithmetic is correct",
+            "No marks at all regardless of the rest of the answer",
+            "Nothing -- notation never matters",
+            "Bonus marks for creativity",
+          ],
+          optionsMy: [
+            "နောက်ပိုင်း ဂဏန်းတွက်ချက်မှု မှန်ကန်သော်လည်း မှန်ကန်သော Notation/Setup နှင့် သီးသန့် ချိတ်ဆက်ထားသော အမှတ်",
+            "အဖြေ၏ ကျန်အပိုင်းများ မည်သို့ဖြစ်စေ အမှတ် လုံးဝ မရှိခြင်း",
+            "Notation သည် ဘယ်တော့မှ အရေးမပါခြင်း",
+            "ဖန်တီးမှုအတွက် Bonus အမှတ်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A vector proof requires showing AB is parallel to CD and that they share a point. What does this prove?",
+          questionMy:
+              "Vector Proof တစ်ခုသည် AB သည် CD နှင့် Parallel ဖြစ်ကြောင်းနှင့် ၎င်းတို့ Point တစ်ခု မျှဝေထားကြောင်း ပြသရန် လိုအပ်သည်။ ၎င်းသည် ဘာကို သက်သေပြသနည်း။",
+          optionsEn: [
+            "The points are collinear",
+            "The lines are perpendicular",
+            "The shapes are congruent",
+            "The lines never meet",
+          ],
+          optionsMy: [
+            "Point များသည် Collinear ဖြစ်သည်",
+            "မျဉ်းများသည် Perpendicular ဖြစ်သည်",
+            "ပုံသဏ္ဌာန်များသည် Congruent ဖြစ်သည်",
+            "မျဉ်းများသည် ဘယ်တော့မှ မတွေ့ကြပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w34-d2",
+      dayNumber: 2,
+      titleEn: "Final Exam Vocabulary Consolidation",
+      titleMy: "နောက်ဆုံး စာမေးပွဲ ဝေါဟာရ စုစည်းခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w34-dm1",
+          termEn: "Conjugate",
+          termMy: "Conjugate",
+          matchEn:
+              "For (a+√b), the expression (a-√b), used to rationalise a two-term denominator",
+          matchMy:
+              "(a+√b) အတွက် Two-Term Denominator ကို Rationalise ပြုလုပ်ရန် သုံးသော Expression (a-√b)",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w34-dm2",
+          termEn: "Optimisation",
+          termMy: "Optimisation",
+          matchEn:
+              "Using calculus to find the maximum or minimum value of a quantity",
+          matchMy:
+              "ပမာဏတစ်ခု၏ Maximum သို့ Minimum တန်ဖိုးကို ရှာဖွေရန် Calculus သုံးခြင်း",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w34-dm3",
+          termEn: "Position Vector",
+          termMy: "Position Vector",
+          matchEn:
+              "A vector describing a point's location relative to a fixed origin",
+          matchMy:
+              "ပုံသေ Origin တစ်ခုနှင့် ဆက်စပ်ထားသော Point တစ်ခု၏ တည်နေရာကို ဖော်ပြသော Vector",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w34-dm4",
+          termEn: "Notation",
+          termMy: "Notation",
+          matchEn:
+              "The symbolic conventions used to write mathematical expressions correctly",
+          matchMy:
+              "သင်္ချာ Expression များကို မှန်ကန်စွာ ရေးရန် သုံးသော သင်္ကေတ ကွန်ဗင်းရှင်းများ",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w34-dm5",
+          termEn: "Volume of a Cylinder",
+          termMy: "Volume of a Cylinder",
+          matchEn: "V = πr²h, where r is the radius and h is the height",
+          matchMy: "V = πr²h, r သည် Radius, h သည် Height ဖြစ်သည်",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w34-d3",
+      dayNumber: 3,
+      titleEn: "Which Skill Fixes This Weak Point?",
+      titleMy: "ဤ အားနည်းချက်ကို မည်သည့် Skill က ပြင်ဆင်ပေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Surds/Conjugates", "Vector Proofs", "Optimisation"],
+        bucketsMy: ["Surds/Conjugates", "Vector Proofs", "Optimisation"],
+        items: [
+          SortingItem(
+            id: "igm-w34-sort1",
+            labelEn: "Rationalising 3/(2+√5)",
+            labelMy: "3/(2+√5) ကို Rationalise ပြုလုပ်ခြင်း",
+            correctBucketEn: "Surds/Conjugates",
+            correctBucketMy: "Surds/Conjugates",
+          ),
+          SortingItem(
+            id: "igm-w34-sort2",
+            labelEn: "Proving three points are collinear",
+            labelMy: "Point သုံးခု Collinear ဖြစ်ကြောင်း သက်သေပြခြင်း",
+            correctBucketEn: "Vector Proofs",
+            correctBucketMy: "Vector Proofs",
+          ),
+          SortingItem(
+            id: "igm-w34-sort3",
+            labelEn: "Finding the value of x that maximises an enclosed area",
+            labelMy:
+                "ကာရံထားသော Area ကို Maximise ပြုလုပ်မည့် x တန်ဖိုး ရှာဖွေခြင်း",
+            correctBucketEn: "Optimisation",
+            correctBucketMy: "Optimisation",
+          ),
+          SortingItem(
+            id: "igm-w34-sort4",
+            labelEn: "Simplifying (3+√2)(3-√2)",
+            labelMy: "(3+√2)(3-√2) ကို ရိုးရှင်းအောင် ပြုလုပ်ခြင်း",
+            correctBucketEn: "Surds/Conjugates",
+            correctBucketMy: "Surds/Conjugates",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Second Full Mock Result",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ ဒုတိယ ပုံစံတူ စာမေးပွဲ အစုံ ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Second Full Mock Result",
+        titleMy: "ထက်ဝေယံ၏ ဒုတိယ ပုံစံတူ စာမေးပွဲ အစုံ ရလဒ်",
+        passageEn:
+            "Two weeks after the targeted surd and vector drilling of Week 33, Daw Su Su sat Htet Wai Yan through a second complete Paper 2 and Paper 4 mock series, using entirely fresh past papers he had never seen, to test whether the targeted remediation had actually closed the two specific gaps.\n\nOn Paper 2, a question required simplifying 5/(3-√2), a direct test of the conjugate method Week 33 had drilled twenty times over. Htet Wai Yan multiplied by the conjugate (3+√2) without pausing to think through the method step by step, the process now feeling as automatic as factorising a simple quadratic had felt back in Term 1. On Paper 4, a vector geometry question asked him to prove that point M, the midpoint of AB, together with points A and a third point C, satisfied a particular collinearity condition -- he set up the position vectors correctly on his first attempt, exactly the step that had cost him marks throughout Terms 4 through 8.\n\nWhen Daw Su Su marked the second mock series, both targeted gaps had closed completely: zero marks lost on either surd-conjugate questions or vector position-vector setups across the entire paper. His only remaining lost mark came from a genuinely new, unfamiliar question type involving inverse variation, a topic they had touched only briefly back in Term 2. Daw Su Su told him this was exactly the outcome five weeks of targeted practice was designed to produce, and that with two weeks remaining before the real exam, Week 35 could now shift its focus entirely away from mathematical content and toward the psychological and logistical side of exam readiness -- since his mathematical knowledge itself, tested twice now under full exam conditions, had proven genuinely secure.",
+        passageMy:
+            "ဆယ့်သုံးပတ်၏ Targeted Surd နှင့် Vector လေ့ကျင့်ခန်းပြီးနောက် ရက်သတ္တပတ် ၂ ပတ်အကြာတွင် ဒေါ်စုစုသည် ထက်ဝေယံကို Targeted Remediation က ကွာဟချက် နှစ်ခု အမှန်တကယ် ပိတ်ခဲ့ပြီလားဟု စမ်းသပ်ရန် သူ တစ်ခါမျှ မမြင်ဖူးသေးသော လုံးဝ လတ်ဆတ်သော မေးခွန်းဟောင်း စာစောင်များသုံး၍ ဒုတိယ ပြီးပြည့်စုံသော Paper 2 နှင့် Paper 4 ပုံစံတူ စာစောင် Series ကို ဖြေဆိုစေခဲ့သည်။\n\nPaper 2 တွင် မေးခွန်းတစ်ခုသည် 5/(3-√2) ကို ရိုးရှင်းအောင် ပြုလုပ်ရန် လိုအပ်ခဲ့ပြီး ဆယ့်သုံးပတ်က နှစ်ဆယ်ကြိမ် လေ့ကျင့်ပေးခဲ့သော Conjugate Method ၏ တိုက်ရိုက် စမ်းသပ်မှု ဖြစ်ခဲ့သည်။ ထက်ဝေယံသည် Method ကို အဆင့်ဆင့် ဖြတ်၍ တွေးခေါ်ရန် ရပ်တန့်ခြင်း မရှိဘဲ Conjugate (3+√2) ဖြင့် မြှောက်ခဲ့ပြီး ဤလုပ်ငန်းစဉ်သည် ယခုအခါ ပထမတန်းက ရိုးရှင်းသော Quadratic တစ်ခု Factorising ပြုလုပ်ခြင်းလို ခံစားရသကဲ့သို့ အလိုအလျောက် ခံစားရခဲ့သည်။ Paper 4 တွင် Vector ဂျီဩမေတြီ မေးခွန်းတစ်ခုသည် AB ၏ Midpoint ဖြစ်သော Point M ကို A နှင့် တတိယ Point C နှင့်အတူ တိကျသော Collinearity Condition ကို ကျေနပ်ကြောင်း သက်သေပြရန် တောင်းဆိုခဲ့ပြီး -- သူသည် သူ၏ ပထမ ကြိုးပမ်းမှုတွင် Position Vector များကို မှန်ကန်စွာ ချမှတ်ခဲ့ပြီး ၎င်းသည် စတုတ္ထနှစ်ဝက်မှ ရှစ်ဝက်အထိ သူ့ကို အမှတ် ဆုံးရှုံးစေခဲ့သော အဆင့် အတိအကျ ဖြစ်ခဲ့သည်။\n\nဒေါ်စုစုသည် ဒုတိယ ပုံစံတူ Series ကို အမှတ်ပေးရာ ကွာဟချက် နှစ်ခုစလုံး လုံးလုံးလျားလျား ပိတ်သွားခဲ့သည် - Surd-Conjugate မေးခွန်းများ (သို့) Vector Position-Vector Setup များ စာစောင်တစ်ခုလုံးတစ်လျှောက် အမှတ်သုည ဆုံးရှုံးခဲ့သည်။ သူ၏ တစ်ခုတည်း ကျန်ရှိနေသေးသော အမှတ်ဆုံးရှုံးမှုသည် Inverse Variation ပါဝင်သော စစ်မှန်စွာ အသစ်၊ မရင်းနှီးသေးသော မေးခွန်းအမျိုးအစား - ဒုတိယနှစ်ဝက်ကတည်းက ခဏတာသာ ထိတွေ့ခဲ့သော ခေါင်းစဉ် -- မှ ဖြစ်ခဲ့သည်။ ဒေါ်စုစုသည် ၎င်းသည် ငါးပတ်စာ Targeted Practice ထုတ်ပေးရန် ဒီဇိုင်းထုတ်ထားသော ရလဒ် အတိအကျ ဖြစ်ကြောင်းနှင့် အမှန်တကယ် စာမေးပွဲမတိုင်မီ ရက်သတ္တပတ် ၂ ပတ် ကျန်ရှိနေသေးချိန်တွင် ဆယ့်ငါးပတ်သည် ယခုအခါ ၎င်း၏ အာရုံစိုက်မှုကို သင်္ချာ အကြောင်းအရာမှ လုံးလုံးလျားလျား ပြောင်းလဲကာ စာမေးပွဲ အသင့်ဖြစ်မှု၏ စိတ်ပိုင်းဆိုင်ရာနှင့် Logistical ဘက်သို့ ရွှေ့နိုင်ကြောင်း သူ့ကို ပြောခဲ့သည် -- အကြောင်းမှာ ယခုအခါ စာမေးပွဲ အခြေအနေ အပြည့်အစုံအောက်တွင် နှစ်ကြိမ် စမ်းသပ်ခံခဲ့ရသော သူ၏ သင်္ချာ ဗဟုသုတကိုယ်တိုင်သည် စစ်မှန်စွာ လုံခြုံကြောင်း သက်သေပြခဲ့သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Htet Wai Yan set up correctly on his first attempt for the vector question?",
+            questionMy:
+                "Vector မေးခွန်းအတွက် သူ၏ ပထမ ကြိုးပမ်းမှုတွင် ထက်ဝေယံ ဘာကို မှန်ကန်စွာ ချမှတ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The position vectors",
+              "The final answer only",
+              "The question's title",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "Position Vector များ",
+              "နောက်ဆုံးအဖြေကိုသာ",
+              "မေးခွန်း၏ ခေါင်းစဉ်",
+              "မည်သည့်အရာမျှ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about setting up position vectors on the first attempt.",
+            ],
+            hintsMy: [
+              "ပထမ ကြိုးပမ်းမှုတွင် Position Vector များ ချမှတ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, where did his only remaining lost mark come from?",
+            questionMy:
+                "သူ၏ တစ်ခုတည်း ကျန်ရှိနေသေးသော အမှတ်ဆုံးရှုံးမှုသည် မည်သည့်နေရာမှ ဖြစ်ခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A new, unfamiliar question type involving inverse variation",
+              "Surd-conjugate questions",
+              "Vector position-vector setups",
+              "His name being spelled incorrectly",
+            ],
+            optionsMy: [
+              "Inverse Variation ပါဝင်သော အသစ်၊ မရင်းနှီးသေးသော မေးခွန်းအမျိုးအစား",
+              "Surd-Conjugate မေးခွန်းများ",
+              "Vector Position-Vector Setup များ",
+              "သူ့အမည် မှားယွင်းစွာ စာလုံးပေါင်းထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about his only remaining lost mark.",
+            ],
+            hintsMy: [
+              "သူ၏ တစ်ခုတည်း ကျန်ရှိနေသေးသော အမှတ်ဆုံးရှုံးမှုအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what would Week 35 now focus on?",
+            questionMy:
+                "ဆယ့်ငါးပတ်သည် ယခုအခါ ဘာအပေါ် အာရုံစိုက်မည်နည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The psychological and logistical side of exam readiness",
+              "Reteaching every topic from scratch",
+              "A completely new subject",
+              "Nothing at all",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ အသင့်ဖြစ်မှု၏ စိတ်ပိုင်းဆိုင်ရာနှင့် Logistical ဘက်",
+              "ဘာသာရပ်တိုင်းကို အစအဆုံး ပြန်သင်ခြင်း",
+              "လုံးဝ ဘာသာရပ်အသစ်တစ်ခု",
+              "မည်သည့်အရာမျှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w34-d5",
+      dayNumber: 5,
+      titleEn: "Full Mock Exam Series 2 Recap Quiz",
+      titleMy: "ပုံစံတူ စာမေးပွဲ အစုံ (၂) ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The conjugate of (3-√2) is...",
+          questionMy: "(3-√2) ၏ Conjugate သည်...",
+          optionsEn: ["(3+√2)", "(3-√2)", "(-3+√2)", "(2-√3)"],
+          optionsMy: ["(3+√2)", "(3-√2)", "(-3+√2)", "(2-√3)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A vector proof of collinearity typically starts by setting up...",
+          questionMy:
+              "Collinearity ၏ Vector Proof တစ်ခုသည် ပုံမှန်အားဖြင့် ...ချမှတ်ခြင်းဖြင့် စတင်သည်",
+          optionsEn: [
+            "Position vectors",
+            "A tree diagram",
+            "A histogram",
+            "A quadratic equation",
+          ],
+          optionsMy: [
+            "Position Vectors",
+            "Tree Diagram",
+            "Histogram",
+            "Quadratic Equation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Retesting with fresh past papers after targeted revision helps confirm...",
+          questionMy:
+              "Targeted Revision ပြီးနောက် လတ်ဆတ်သော မေးခွန်းဟောင်းများဖြင့် ထပ်မံ စမ်းသပ်ခြင်းသည် ...ကို အတည်ပြုရန် ကူညီသည်",
+          optionsEn: [
+            "Whether the specific gaps have actually closed",
+            "Nothing useful at all",
+            "That no further practice is ever needed",
+            "The student's height",
+          ],
+          optionsMy: [
+            "သီးခြား ကွာဟချက်များ အမှန်တကယ် ပိတ်သွားပြီလားဆိုသည်ကို",
+            "အသုံးဝင်သော အရာ ဘာမျှ",
+            "နောက်ထပ် လေ့ကျင့်မှု ဘယ်တော့မှ မလိုအပ်ကြောင်း",
+            "ကျောင်းသား၏ အရပ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what new topic caused Htet Wai Yan's only remaining lost mark?",
+          questionMy:
+              "ထက်ဝေယံ၏ တစ်ခုတည်း ကျန်ရှိနေသေးသော အမှတ်ဆုံးရှုံးမှုကို မည်သည့် ခေါင်းစဉ်အသစ်က ဖြစ်ပေါ်စေခဲ့သနည်း။",
+          optionsEn: ["Inverse variation", "Surds", "Vectors", "Matrices"],
+          optionsMy: ["Inverse Variation", "Surds", "Vectors", "Matrices"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were reviewed across Week 34?",
+          questionMy:
+              "Week 34 တွင် မည်သည့် ခေါင်းစဉ်များ ပြန်လည်သုံးသပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "A second full mock series testing whether targeted gaps had closed",
+            "Only brand-new topics",
+            "Only Term 1 content",
+            "No mathematics content at all",
+          ],
+          optionsMy: [
+            "Targeted ကွာဟချက်များ ပိတ်သွားပြီလား စမ်းသပ်သော ဒုတိယ ပုံစံတူ Series",
+            "ခေါင်းစဉ်အသစ်များကိုသာ",
+            "ပထမတန်း အကြောင်းအရာကိုသာ",
+            "သင်္ချာ အကြောင်းအရာ လုံးဝ မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek35 = CourseWeekDef(
+  id: "course-igcse-mathematics-w35",
+  weekNumber: 35,
+  titleEn: "Exam Day Readiness and Mental Preparation",
+  titleMy: "စာမေးပွဲနေ့အတွက် အသင့်ဖြစ်မှုနှင့် စိတ်ပိုင်းဆိုင်ရာ ပြင်ဆင်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w35-d1",
+      dayNumber: 1,
+      titleEn: "Time Management Strategies and Exam Stress Management",
+      titleMy:
+          "အချိန် စီမံခန့်ခွဲမှု ဗျူဟာများနှင့် စာမေးပွဲ စိတ်ဖိစီးမှု စီမံခန့်ခွဲမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On a 130-mark, 2.25-hour paper, roughly how much time should be allocated per mark?",
+          questionMy:
+              "Mark 130, နာရီ 2.25 စာစောင်တစ်ခုတွင် Mark တစ်မှတ်လျှင် အချိန် မည်မျှခန့် ခွဲဝေသင့်သနည်း။",
+          optionsEn: [
+            "About 1 minute per mark",
+            "About 10 minutes per mark",
+            "About 5 seconds per mark",
+            "Time allocation does not matter",
+          ],
+          optionsMy: [
+            "Mark တစ်မှတ်လျှင် မိနစ် ၁ မိနစ်ခန့်",
+            "Mark တစ်မှတ်လျှင် မိနစ် ၁၀ မိနစ်ခန့်",
+            "Mark တစ်မှတ်လျှင် စက္ကန့် ၅ စက္ကန့်ခန့်",
+            "အချိန် ခွဲဝေမှု အရေးမပါပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "2.25 hours = 135 minutes, close to 130 marks -- roughly a minute-per-mark rule of thumb.",
+          ],
+          hintsMy: [
+            "2.25 နာရီ = မိနစ် 135, Mark 130 နှင့် နီးစပ်သည် -- ခန့်မှန်းချေ Mark တစ်မှတ်လျှင် မိနစ်တစ်မိနစ် စည်းမျဉ်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a candidate gets stuck on a difficult question, the best strategy is usually to...",
+          questionMy:
+              "ဖြေဆိုသူတစ်ဦးသည် ခက်ခဲသော မေးခွန်းတစ်ခုတွင် ပိတ်မိသွားလျှင် အကောင်းဆုံး ဗျူဟာသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Move on and return to it later with remaining time",
+            "Stay on it for the rest of the exam no matter what",
+            "Leave the exam room immediately",
+            "Skip the entire rest of the paper",
+          ],
+          optionsMy: [
+            "ရှေ့ဆက်ပြီး ကျန်ရှိသော အချိန်ဖြင့် နောက်ပိုင်းတွင် ပြန်လာခြင်း",
+            "မည်သို့ဖြစ်စေ စာမေးပွဲ ကျန်ချိန်တစ်လျှောက် ၎င်းနေရာတွင် ဆက်နေခြင်း",
+            "စာမေးပွဲခန်းမမှ ချက်ချင်း ထွက်ခွာခြင်း",
+            "စာစောင် ကျန်တစ်ခုလုံးကို ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A brief moment of pre-exam nervousness is best managed by relying on...",
+          questionMy:
+              "စာမေးပွဲမတိုင်မီ ခေတ္တခဏ စိတ်လှုပ်ရှားမှုကို ...အပေါ် မှီခို၍ အကောင်းဆုံး ကိုင်တွယ်နိုင်သည်",
+          optionsEn: [
+            "Well-practised, automatic routines rather than panic",
+            "Abandoning all preparation",
+            "Refusing to attempt any questions",
+            "Ignoring the time limit entirely",
+          ],
+          optionsMy: [
+            "စိတ်မရှုပ်ထွေးဘဲ ကောင်းစွာ လေ့ကျင့်ထားသော၊ အလိုအလျောက် လုပ်ငန်းစဉ်များအပေါ် မှီခိုခြင်း",
+            "ပြင်ဆင်မှုအားလုံးကို စွန့်လွှတ်ခြင်း",
+            "မေးခွန်း မည်သည်ကိုမျှ ဖြေဆိုရန် ငြင်းဆန်ခြင်း",
+            "အချိန်ကန့်သတ်ချက်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking the mark allocation for each question before answering helps a candidate to...",
+          questionMy:
+              "မဖြေဆိုမီ မေးခွန်းတစ်ခုစီ၏ အမှတ်ခွဲဝေမှုကို စစ်ဆေးခြင်းသည် ဖြေဆိုသူတစ်ဦးအား ...ရန် ကူညီသည်",
+          optionsEn: [
+            "Gauge how much detail and time the answer requires",
+            "Guess randomly without reading",
+            "Skip the question entirely",
+            "Waste valuable exam time",
+          ],
+          optionsMy: [
+            "အဖြေသည် မည်မျှ အသေးစိတ်နှင့် အချိန် လိုအပ်ကြောင်း ခန့်မှန်းရန်",
+            "မဖတ်ဘဲ ကျပန်း မှန်းဆရန်",
+            "မေးခွန်းကို လုံးဝ ကျော်ရန်",
+            "အဖိုးတန် စာမေးပွဲ အချိန်ကို ဖြုန်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Getting adequate sleep before an exam primarily helps by...",
+          questionMy:
+              "စာမေးပွဲမတိုင်မီ လုံလောက်စွာ အိပ်စက်ခြင်းသည် အဓိကအားဖြင့် ...အားဖြင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Supporting concentration and memory recall during the exam",
+            "Guaranteeing a perfect score automatically",
+            "Having no real effect on performance",
+            "Making the exam shorter",
+          ],
+          optionsMy: [
+            "စာမေးပွဲအတွင်း အာရုံစူးစိုက်မှုနှင့် မှတ်ဉာဏ် ပြန်လည်ထုတ်ယူမှုကို ပံ့ပိုးခြင်း",
+            "ပြီးပြည့်စုံသော ရမှတ်ကို အလိုအလျောက် အာမခံခြင်း",
+            "စွမ်းဆောင်ရည်အပေါ် စစ်မှန်သော သက်ရောက်မှု မရှိခြင်း",
+            "စာမေးပွဲကို ပို၍ တိုတောင်းစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w35-d2",
+      dayNumber: 2,
+      titleEn: "Exam Readiness Vocabulary",
+      titleMy: "စာမေးပွဲ အသင့်ဖြစ်မှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w35-dm1",
+          termEn: "Time Allocation",
+          termMy: "Time Allocation",
+          matchEn:
+              "Dividing available exam time according to each question's mark value",
+          matchMy:
+              "မေးခွန်းတစ်ခုစီ၏ အမှတ်တန်ဖိုးအရ ရရှိနိုင်သော စာမေးပွဲအချိန်ကို ခွဲဝေခြင်း",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w35-dm2",
+          termEn: "Exam Stamina",
+          termMy: "Exam Stamina",
+          matchEn:
+              "The ability to sustain focus and quality across a full exam duration",
+          matchMy:
+              "စာမေးပွဲ ကြာချိန်တစ်လျှောက် အာရုံစူးစိုက်မှုနှင့် အရည်အသွေးကို ဆက်လက် ထိန်းသိမ်းနိုင်စွမ်း",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w35-dm3",
+          termEn: "Automatic Routine",
+          termMy: "Automatic Routine",
+          matchEn:
+              "A well-practised habit requiring little conscious effort under pressure",
+          matchMy:
+              "ဖိအားအောက်တွင် ဆင်ခြင်တုံတရားရှိသော ကြိုးစားမှု အနည်းငယ်သာ လိုအပ်သော ကောင်းစွာ လေ့ကျင့်ထားသော အလေ့အထ",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w35-dm4",
+          termEn: "Exam-Day Logistics",
+          termMy: "Exam-Day Logistics",
+          matchEn:
+              "Practical arrangements like materials, timing, and route to the exam venue",
+          matchMy:
+              "ပစ္စည်းများ၊ အချိန်ကိုက်ခြင်းနှင့် စာမေးပွဲ ကျင်းပရာသို့ သွားလမ်းကဲ့သို့ လက်တွေ့ကျသော စီစဉ်မှုများ",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w35-dm5",
+          termEn: "Mental Preparation",
+          termMy: "Mental Preparation",
+          matchEn:
+              "Realistic psychological readiness for the demands of exam day",
+          matchMy:
+              "စာမေးပွဲနေ့၏ တောင်းဆိုချက်များအတွက် လက်တွေ့ကျသော စိတ်ပိုင်းဆိုင်ရာ အသင့်ဖြစ်မှု",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w35-d3",
+      dayNumber: 3,
+      titleEn: "Helpful or Harmful Exam-Day Habit?",
+      titleMy: "အထောက်အကူ ဖြစ်သော (သို့) ထိခိုက်စေသော စာမေးပွဲနေ့ အလေ့အထ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helpful", "Harmful"],
+        bucketsMy: ["အထောက်အကူ ဖြစ်သော", "ထိခိုက်စေသော"],
+        items: [
+          SortingItem(
+            id: "igm-w35-sort1",
+            labelEn: "Packing all needed equipment the night before",
+            labelMy: "လိုအပ်သော ပစ္စည်းအားလုံးကို မတိုင်မီညက ထုပ်ပိုးခြင်း",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အထောက်အကူ ဖြစ်သော",
+          ),
+          SortingItem(
+            id: "igm-w35-sort2",
+            labelEn:
+                "Staying stuck on one difficult question for the entire exam",
+            labelMy:
+                "စာမေးပွဲတစ်ခုလုံးအတွက် ခက်ခဲသော မေးခွန်းတစ်ခုတွင် ပိတ်မိနေခြင်း",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "ထိခိုက်စေသော",
+          ),
+          SortingItem(
+            id: "igm-w35-sort3",
+            labelEn: "Checking mark allocations before answering each question",
+            labelMy:
+                "မေးခွန်းတစ်ခုစီကို မဖြေဆိုမီ အမှတ်ခွဲဝေမှုများကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အထောက်အကူ ဖြစ်သော",
+          ),
+          SortingItem(
+            id: "igm-w35-sort4",
+            labelEn: "Staying up all night cramming the night before the exam",
+            labelMy: "စာမေးပွဲမတိုင်မီညတွင် တစ်ညလုံး နိုးထ၍ အလွတ်ကျက်ခြင်း",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "ထိခိုက်စေသော",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Exam Day Plan",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ စာမေးပွဲနေ့ အစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Exam Day Plan",
+        titleMy: "ထက်ဝေယံ၏ စာမေးပွဲနေ့ အစီအစဉ်",
+        passageEn:
+            "With his mathematical knowledge proven secure across two full mock series, Daw Su Su spent Week 35 on something she had never formally addressed in nine terms of tutoring: the practical and psychological logistics of exam day itself.\n\nThey built a written exam-day checklist together: two working calculators with fresh batteries, a geometry set, spare pens, his admission slip, and a planned route to the exam centre timed to arrive twenty minutes early rather than rushing in at the last moment. Daw Su Su explained that this preparation wasn't really about mathematics at all -- it was about removing every possible source of last-minute stress that had nothing to do with genuine mathematical ability, so that his mental energy on the day would be spent entirely on the paper in front of him.\n\nShe then walked him through a specific time-management strategy for Paper 4's 130 marks in 135 minutes: roughly one minute per mark, meaning an 8-mark question deserved about eight minutes, not twenty and not two. She reminded him what to do if he got stuck: mark the question, move on, and return with whatever time remained, rather than losing ten minutes wrestling with one question while three easier ones further down the paper went unanswered entirely.\n\nFinally, she addressed the moment of walking into the exam hall itself. She told him that a flicker of nervousness was completely normal, even expected, but that his response to it should be entirely automatic by now: the same skim-read-then-plan sequence from Paper 1 comprehension all the way back in other subjects, the same write-the-formula-first habit from Paper 4, the same protect-the-final-minutes-for-checking discipline from every mock he'd sat. Nine terms of deliberate practice, she said, existed precisely so that exam day itself required no new thinking at all -- only the calm, confident execution of skills he had already proven, twice over, that he possessed.",
+        passageMy:
+            "သူ၏ သင်္ချာ ဗဟုသုတသည် ပုံစံတူ Series နှစ်ခုတစ်လျှောက် လုံခြုံကြောင်း သက်သေပြခဲ့ပြီးနောက် ဒေါ်စုစုသည် နှစ်ဝက် ကိုးဝက် တွဲကျောင်း ချိန်တစ်လျှောက် တရားဝင် ကိုင်တွယ်ခြင်း လုံးဝ မရှိခဲ့သော တစ်ခုခုတွင် ဆယ့်ငါးပတ်ကို အသုံးချခဲ့သည် - စာမေးပွဲနေ့ ကိုယ်တိုင်၏ လက်တွေ့ကျသော နှင့် စိတ်ပိုင်းဆိုင်ရာ Logistics။\n\nသူတို့သည် ရေးသားထားသော စာမေးပွဲနေ့ Checklist တစ်ခုကို အတူတကွ တည်ဆောက်ခဲ့သည် - Battery အသစ်ပါသော အလုပ်လုပ်သည့် Calculator နှစ်လုံး၊ Geometry Set တစ်ခု၊ ခဲတံ အပို၊ သူ၏ ဝင်ခွင့်ခွင့်ပြုမိန့်နှင့် နောက်ဆုံးအချိန်တွင် အလျင်စလို ဝင်မည့်အစား မိနစ် ၂၀ စောစီးစွာ ရောက်ရှိရန် အချိန်ကိုက်ထားသော စာမေးပွဲစင်တာသို့ သွားလမ်း အစီအစဉ်။ ဤပြင်ဆင်မှုသည် သင်္ချာအကြောင်း လုံးဝ မဟုတ်ကြောင်း ဒေါ်စုစု ရှင်းပြခဲ့သည် -- ၎င်းသည် စစ်မှန်သော သင်္ချာစွမ်းရည်နှင့် ဘာမျှ မသက်ဆိုင်သော နောက်ဆုံးမိနစ် စိတ်ဖိစီးမှု အရင်းအမြစ် ဖြစ်နိုင်ချေအားလုံးကို ဖယ်ရှားခြင်းအကြောင်း ဖြစ်ပြီး ထို့ကြောင့် ထိုနေ့တွင် သူ၏ စိတ်ပိုင်းဆိုင်ရာ စွမ်းအင်သည် သူ့ရှေ့ရှိ စာစောင်အပေါ် လုံးလုံးလျားလျား ကုန်ဆုံးမည် ဖြစ်သည်။\n\nသူသည် ထို့နောက် Paper 4 ၏ မိနစ် 135 အတွင်း Mark 130 အတွက် တိကျသော အချိန် စီမံခန့်ခွဲမှု ဗျူဟာတစ်ခုကို သူ့ကို လမ်းညွှန်ခဲ့သည် - Mark တစ်မှတ်လျှင် မိနစ်တစ်မိနစ်ခန့်၊ ဆိုလိုသည်မှာ Mark ၈ မှတ် မေးခွန်းတစ်ခုသည် မိနစ် ၂၀ လည်း မဟုတ် မိနစ် ၂ လည်း မဟုတ်ဘဲ မိနစ် ၈ မိနစ်ခန့် ခံထိုက်သည်။ သူသည် ပိတ်မိသွားလျှင် ဘာလုပ်ရမည်ကို သူ့ကို ပြန်သတိပေးခဲ့သည် - မေးခွန်းကို မှတ်သားပြီး ရှေ့ဆက်ကာ ကျန်ရှိသော အချိန် မည်မျှဖြင့်မဆို ပြန်လာခြင်း၊ စာစောင် နောက်ပိုင်း ပိုလွယ်ကူသော မေးခွန်းသုံးခု လုံးဝ မဖြေဆိုဘဲ ကျန်ရစ်နေစဉ် မေးခွန်းတစ်ခုနှင့် ရှုနေရင်း မိနစ်ဆယ်မိနစ် ဆုံးရှုံးမည့်အစား ဖြစ်သည်။\n\nနောက်ဆုံးတွင် သူသည် စာမေးပွဲခန်းမထဲသို့ ဝင်ရောက်ချိန် ကိုယ်တိုင်ကို ကိုင်တွယ်ခဲ့သည်။ ခဏတာ စိတ်လှုပ်ရှားမှုသည် လုံးဝ ပုံမှန် ဖြစ်ကြောင်း၊ မျှော်လင့်ထားသင့်ပင်ကြောင်း သူ့ကို ပြောခဲ့သော်လည်း ၎င်းအပေါ် သူ၏ တုံ့ပြန်မှုသည် ယခုအခါ လုံးလုံးလျားလျား အလိုအလျောက် ဖြစ်သင့်ကြောင်း - အခြား ဘာသာရပ်များတွင် ရှေးကတည်းက Paper 1 Comprehension မှ တူညီသော Skim-Read-Then-Plan အစီအစဉ်၊ Paper 4 မှ တူညီသော Write-The-Formula-First အလေ့အထ၊ သူ ဖြေဆိုခဲ့သော ပုံစံတူတိုင်းမှ တူညီသော Protect-The-Final-Minutes-For-Checking စည်းကမ်း။ နှစ်ဝက်ကိုးဝက် ရည်ရွယ်ချက်ရှိသော လေ့ကျင့်မှုသည် စာမေးပွဲနေ့ကိုယ်တိုင်တွင် တွေးခေါ်မှုအသစ် လုံးဝ မလိုအပ်စေရန် အတိအကျ ရှိနေခဲ့ကြောင်း - သူ ပိုင်ဆိုင်ကြောင်း နှစ်ကြိမ်တိုင် သက်သေပြပြီးသား ကျွမ်းကျင်မှုများ၏ တည်ငြိမ်၊ ယုံကြည်စိတ်ချရသော အကောင်အထည်ဖော်မှုသာ လိုအပ်ခြင်း - သူ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the real purpose of the exam-day checklist?",
+            questionMy:
+                "စာမေးပွဲနေ့ Checklist ၏ အမှန်တကယ် ရည်ရွယ်ချက်သည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Removing sources of last-minute stress unrelated to mathematical ability",
+              "Making the exam harder",
+              "Testing his memory of the checklist itself",
+              "Replacing the need to study mathematics",
+            ],
+            optionsMy: [
+              "သင်္ချာ စွမ်းရည်နှင့် မသက်ဆိုင်သော နောက်ဆုံးမိနစ် စိတ်ဖိစီးမှု အရင်းအမြစ်များကို ဖယ်ရှားခြင်း",
+              "စာမေးပွဲကို ပို၍ ခက်ခဲစေခြင်း",
+              "Checklist ကိုယ်တိုင်၏ မှတ်ဉာဏ်ကို စစ်ဆေးခြင်း",
+              "သင်္ချာ လေ့လာရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what this preparation was really about.",
+            ],
+            hintsMy: [
+              "ဤ ပြင်ဆင်မှု အမှန်တကယ် ဘာအကြောင်းဖြစ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, roughly how many minutes should an 8-mark question take?",
+            questionMy:
+                "Mark 8 မှတ် မေးခွန်းတစ်ခုသည် ခန့်မှန်းချေ မိနစ် မည်မျှ ယူသင့်သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "About eight minutes",
+              "About twenty minutes",
+              "About two minutes",
+              "About sixty minutes",
+            ],
+            optionsMy: [
+              "မိနစ် ရှစ်မိနစ်ခန့်",
+              "မိနစ် နှစ်ဆယ်ခန့်",
+              "မိနစ် နှစ်မိနစ်ခန့်",
+              "မိနစ် ခြောက်ဆယ်ခန့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about roughly one minute per mark."],
+            hintsMy: [
+              "Mark တစ်မှတ်လျှင် မိနစ်တစ်မိနစ်ခန့်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Daw Su Su say nine terms of practice existed for?",
+            questionMy:
+                "နှစ်ဝက် ကိုးဝက် လေ့ကျင့်မှု ဘာအတွက် ရှိနေခဲ့ကြောင်း ဒေါ်စုစု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "So exam day itself required no new thinking, only calm execution of proven skills",
+              "So he would need to learn everything new on exam day",
+              "So he could skip the exam entirely",
+              "So he would forget everything he had learned",
+            ],
+            optionsMy: [
+              "စာမေးပွဲနေ့ ကိုယ်တိုင်တွင် တွေးခေါ်မှုအသစ် လုံးဝ မလိုအပ်ဘဲ သက်သေပြပြီးသား ကျွမ်းကျင်မှုများ၏ တည်ငြိမ်သော အကောင်အထည်ဖော်မှုသာ လိုအပ်ရန်",
+              "စာမေးပွဲနေ့တွင် အားလုံးအသစ် သင်ယူရန် လိုအပ်ရန်",
+              "စာမေးပွဲကို လုံးလုံးလျားလျား ကျော်နိုင်ရန်",
+              "သင်ယူခဲ့သမျှကို မေ့သွားရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w35-d5",
+      dayNumber: 5,
+      titleEn: "Exam Readiness Recap Quiz",
+      titleMy: "စာမေးပွဲ အသင့်ဖြစ်မှု ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A common time management rule of thumb is roughly...",
+          questionMy:
+              "ဘုံ အချိန် စီမံခန့်ခွဲမှု စည်းမျဉ်းတစ်ခုမှာ ခန့်မှန်းချေ...",
+          optionsEn: [
+            "One minute per mark",
+            "One hour per mark",
+            "Ten seconds per mark",
+            "No time limit at all",
+          ],
+          optionsMy: [
+            "Mark တစ်မှတ်လျှင် မိနစ်တစ်မိနစ်",
+            "Mark တစ်မှတ်လျှင် တစ်နာရီ",
+            "Mark တစ်မှတ်လျှင် စက္ကန့် ၁၀",
+            "အချိန်ကန့်သတ်ချက် လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If stuck on a difficult question, the best strategy is to...",
+          questionMy:
+              "ခက်ခဲသော မေးခွန်းတစ်ခုတွင် ပိတ်မိလျှင် အကောင်းဆုံး ဗျူဟာမှာ...",
+          optionsEn: [
+            "Move on and return later",
+            "Stay on it no matter what",
+            "Leave the exam room",
+            "Skip the rest of the paper",
+          ],
+          optionsMy: [
+            "ရှေ့ဆက်ပြီး နောက်ပိုင်းတွင် ပြန်လာခြင်း",
+            "မည်သို့ဖြစ်စေ ဆက်နေခြင်း",
+            "စာမေးပွဲခန်းမမှ ထွက်ခွာခြင်း",
+            "စာစောင် ကျန်တစ်ခုလုံးကို ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nine terms of deliberate practice exist so that exam day requires...",
+          questionMy:
+              "နှစ်ဝက် ကိုးဝက် ရည်ရွယ်ချက်ရှိသော လေ့ကျင့်မှုသည် စာမေးပွဲနေ့ ...လိုအပ်စေရန် ရှိနေသည်",
+          optionsEn: [
+            "No new thinking, only calm execution",
+            "Entirely new learning",
+            "Avoiding the exam",
+            "Forgetting everything learned",
+          ],
+          optionsMy: [
+            "တွေးခေါ်မှုအသစ် မလိုအပ်ဘဲ တည်ငြိမ်သော အကောင်အထည်ဖော်မှုသာ",
+            "လုံးဝ သင်ယူမှုအသစ်",
+            "စာမေးပွဲကို ရှောင်ရှားခြင်း",
+            "သင်ယူခဲ့သမျှကို မေ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what did the exam-day checklist include?",
+          questionMy: "စာမေးပွဲနေ့ Checklist တွင် ဘာပါဝင်ခဲ့သနည်း။",
+          optionsEn: [
+            "Calculators, a geometry set, spare pens, and a timed route to the venue",
+            "Only a pencil",
+            "A new textbook",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Calculator များ၊ Geometry Set၊ ခဲတံ အပိုနှင့် စာမေးပွဲစင်တာသို့ အချိန်ကိုက်ထားသော လမ်း",
+            "ခဲတံတစ်ချောင်းသာ",
+            "စာအုပ်အသစ်",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 35?",
+          questionMy: "Week 35 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Time management, exam stress management, and final logistics",
+            "New calculus content",
+            "New geometry content",
+            "No exam-related content",
+          ],
+          optionsMy: [
+            "အချိန် စီမံခန့်ခွဲမှု, စာမေးပွဲ စိတ်ဖိစီးမှု စီမံခန့်ခွဲမှု, နောက်ဆုံး Logistics",
+            "Calculus အကြောင်းအရာအသစ်",
+            "Geometry အကြောင်းအရာအသစ်",
+            "စာမေးပွဲနှင့် သက်ဆိုင်သော အကြောင်းအရာ မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek36 = CourseWeekDef(
+  id: "course-igcse-mathematics-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Mathematics Graduation",
+  titleMy: "IGCSE သင်္ချာ ဘွဲ့နှင်းသဘင် အထိမ်းအမှတ်",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w36-d1",
+      dayNumber: 1,
+      titleEn: "Whole-Course Review: Terms 1-4",
+      titleMy: "သင်တန်းလုံး ပြန်လည်သုံးသပ်ခြင်း - ပထမတန်းမှ စတုတ္ထတန်းအထိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify √72.",
+          questionMy: "√72 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["6√2", "2√18", "12√6", "8√9"],
+          optionsMy: ["6√2", "2√18", "12√6", "8√9"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve x² - 5x + 6 = 0 by factorising.",
+          questionMy: "Factorising ဖြင့် x² - 5x + 6 = 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 1 or x = 6",
+            "x = 5 or x = 6",
+          ],
+          optionsMy: [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 1 or x = 6",
+            "x = 5 or x = 6",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two similar triangles have a linear scale factor of 3. What is the area scale factor?",
+          questionMy:
+              "Linear Scale Factor 3 ပါသော Similar Triangle နှစ်ခု၏ Area Scale Factor သည် အဘယ်နည်း။",
+          optionsEn: ["9", "3", "6", "27"],
+          optionsMy: ["9", "3", "6", "27"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A triangle has a=8, b=11, angle C between them. Which rule finds the third side?",
+          questionMy:
+              "တြိဂံတစ်ခုတွင် a=8, b=11, ၎င်းတို့ကြား ထောင့် ရှိသည်။ တတိယအနားကို ရှာဖွေရန် မည်သည့် Rule သုံးသနည်း။",
+          optionsEn: [
+            "The cosine rule",
+            "The sine rule only",
+            "Pythagoras' theorem only",
+            "The area formula",
+          ],
+          optionsMy: [
+            "Cosine Rule",
+            "Sine Rule တစ်ခုတည်း",
+            "Pythagoras' Theorem တစ်ခုတည်း",
+            "Area Formula",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "P(A|B) = P(A ∩ B) ÷ P(B) is the formula for...",
+          questionMy: "P(A|B) = P(A ∩ B) ÷ P(B) သည် ...၏ Formula ဖြစ်သည်",
+          optionsEn: [
+            "Conditional probability",
+            "The addition law",
+            "The mean",
+            "Standard form",
+          ],
+          optionsMy: [
+            "Conditional Probability",
+            "Addition Law",
+            "Mean",
+            "Standard Form",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w36-d2",
+      dayNumber: 2,
+      titleEn: "Whole-Course Review: Terms 5-8",
+      titleMy: "သင်တန်းလုံး ပြန်လည်သုံးသပ်ခြင်း - ပဉ္စမတန်းမှ တန်းရှစ်တန်းအထိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The matrix [[0,-1],[1,0]] represents a rotation of 90 degrees in which direction?",
+          questionMy:
+              "Matrix [[0,-1],[1,0]] သည် မည်သည့် Direction တွင် ဒီဂရီ 90 Rotation ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Anticlockwise",
+            "Clockwise",
+            "No rotation",
+            "It is a reflection",
+          ],
+          optionsMy: [
+            "Anticlockwise",
+            "Clockwise",
+            "Rotation မရှိပါ",
+            "Reflection ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At a turning point, dy/dx equals...",
+          questionMy: "Turning Point တွင် dy/dx သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["0", "1", "x", "the y-value"],
+          optionsMy: ["0", "1", "x", "y-value"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "AA similarity means two triangles are similar because...",
+          questionMy:
+              "AA Similarity ဆိုသည်မှာ တြိဂံနှစ်ခု Similar ဖြစ်ကြောင်း...",
+          optionsEn: [
+            "Two pairs of angles are equal",
+            "Two pairs of sides are equal",
+            "All sides are equal",
+            "One angle is right",
+          ],
+          optionsMy: [
+            "ထောင့် နှစ်စုံ ညီမျှသည်",
+            "အနား နှစ်စုံ ညီမျှသည်",
+            "အနားအားလုံး ညီမျှသည်",
+            "ထောင့်တစ်ခု ထောင့်မှန် ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "M marks in Cambridge mark schemes are awarded for...",
+          questionMy:
+              "Cambridge Mark Scheme များရှိ M Mark များကို ...အတွက် ချီးမြှင့်သည်",
+          optionsEn: [
+            "Using a correct method, even with a wrong final answer",
+            "Only the exact correct final answer",
+            "Neat handwriting",
+            "Fast completion time",
+          ],
+          optionsMy: [
+            "နောက်ဆုံးအဖြေ မှားသော်လည်း မှန်ကန်သော Method သုံးခြင်း",
+            "အတိအကျ မှန်ကန်သော နောက်ဆုံးအဖြေကိုသာ",
+            "သပ်ရပ်သော လက်ရေး",
+            "ပြီးမြောက်ချိန် မြန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Targeted revision focuses time on...",
+          questionMy: "Targeted Revision သည် အချိန်ကို ...အပေါ် အာရုံစိုက်သည်",
+          optionsEn: [
+            "Evidenced individual weaknesses",
+            "Random unrelated topics",
+            "Only already-strongest skills",
+            "Nothing specific",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားရှိသော တစ်ဦးချင်း အားနည်းချက်များ",
+            "ကျပန်း၊ မသက်ဆိုင်သော ခေါင်းစဉ်များ",
+            "အားအကောင်းဆုံး ကျွမ်းကျင်မှုများကိုသာ",
+            "တိကျသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This Topic?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့်နှစ်ဝက်က ဤခေါင်းစဉ်ကို လွှမ်းခြုံခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Early Terms (1-3)",
+          "Middle Terms (4-6)",
+          "Late Terms (7-9)",
+        ],
+        bucketsMy: [
+          "Early Terms (1-3)",
+          "Middle Terms (4-6)",
+          "Late Terms (7-9)",
+        ],
+        items: [
+          SortingItem(
+            id: "igm-w36-sort1",
+            labelEn: "Set notation and Venn diagrams",
+            labelMy: "Set Notation and Venn Diagrams",
+            correctBucketEn: "Early Terms (1-3)",
+            correctBucketMy: "Early Terms (1-3)",
+          ),
+          SortingItem(
+            id: "igm-w36-sort2",
+            labelEn: "Matrix transformations and differentiation",
+            labelMy: "Matrix Transformations and Differentiation",
+            correctBucketEn: "Middle Terms (4-6)",
+            correctBucketMy: "Middle Terms (4-6)",
+          ),
+          SortingItem(
+            id: "igm-w36-sort3",
+            labelEn: "Error analysis and mark scheme mastery",
+            labelMy: "Error Analysis and Mark Scheme Mastery",
+            correctBucketEn: "Late Terms (7-9)",
+            correctBucketMy: "Late Terms (7-9)",
+          ),
+          SortingItem(
+            id: "igm-w36-sort4",
+            labelEn: "Mathematical investigation and generalising patterns",
+            labelMy: "Mathematical Investigation and Generalising Patterns",
+            correctBucketEn: "Middle Terms (4-6)",
+            correctBucketMy: "Middle Terms (4-6)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Full Circle",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Full Circle",
+        titleMy: "ထက်ဝေယံ၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+        passageEn:
+            "On the morning of his results, Htet Wai Yan walked into Daw Su Su's small tuition room one final time, not for a lesson, but to say thank you. Thirty-six weeks earlier, in the very first lesson of Term 1, he had struggled to see why a Venn diagram was more useful than simply listing every element of a set by hand. Now he found himself explaining to his younger cousin, almost without thinking, why the intersection of two conditions in a probability tree needed to be multiplied rather than added.\n\nDaw Su Su asked him which single lesson, looking back across the whole course, had changed how he thought about mathematics the most. Htet Wai Yan did not hesitate: Week 31's error analysis session, where he had marked his own past papers against real Cambridge mark schemes for the first time. Before that week, he had thought of mathematics purely as getting an answer right or wrong; after it, he understood that a wrong final answer built on a correct method carried real value, and that some mistakes -- like choosing entirely the wrong approach -- cost far more than others. That single insight, he told her, had reshaped not just how he revised mathematics, but how he approached every subject afterward: identifying exactly where understanding broke down, rather than vaguely feeling like he needed to \"study harder.\"\n\nDaw Su Su reminded him of the golden thread running through all nine terms: show your method clearly, choose the right tool for each specific problem, check your work with the same rigor an examiner would, and trust the preparation you've actually done rather than panicking under pressure. Whether Htet Wai Yan continued to A-Level Mathematics or moved toward engineering, economics, or something not yet imagined, that discipline -- rigorous, evidence-based thinking -- would outlast any exam grade. As he left the tuition room for the last time, Htet Wai Yan realised the course had never really been about memorising formulas at all. It had been about learning to reason with genuine precision, a skill circling back to that very first Venn diagram -- and reaching forward to everything still ahead of him.",
+        passageMy:
+            "သူ၏ ရလဒ်များ ထွက်သောနေ့ မနက်တွင် ထက်ဝေယံသည် ဒေါ်စုစု၏ တွဲကျောင်းခန်းငယ်ထဲသို့ နောက်ဆုံးအကြိမ်အဖြစ် ဝင်ရောက်ခဲ့သည်၊ သင်ခန်းစာတစ်ခုအတွက် မဟုတ်ဘဲ ကျေးဇူးတင်ကြောင်း ပြောရန် ဖြစ်သည်။ သုံးဆယ့်ခြောက်ပတ်ခန့် အလျင်က ပထမတန်း ပထမ သင်ခန်းစာတွင် Set တစ်ခု၏ Element တိုင်းကို လက်ဖြင့် စာရင်းပြုစုခြင်းထက် Venn Diagram တစ်ခု အဘယ်ကြောင့် ပို၍ အသုံးဝင်ကြောင်း သိမြင်ရန် ရုန်းကန်ခဲ့သည်။ ယခုတွင် သူသည် Probability Tree တစ်ခုရှိ အခြေအနေနှစ်ခု၏ Intersection ကို ပေါင်းမည့်အစား အဘယ်ကြောင့် မြှောက်ရမည်ကို သူ၏ ငယ်ရွယ်သော ဝမ်းကွဲအား တွေးတောစရာမလိုဘဲနီးပါး ရှင်းပြနေသည်ကို တွေ့ရှိခဲ့သည်။\n\nတစ်ခေါင်းစဉ်ချင်းစီကို ကနေ့ ပြန်ကြည့်လိုက်လျှင် မည်သည့် သင်ခန်းစာတစ်ခုတည်းက သင်္ချာအကြောင်း သူ၏ တွေးခေါ်ပုံကို အများဆုံး ပြောင်းလဲစေခဲ့ကြောင်း ဒေါ်စုစု မေးမြန်းခဲ့သည်။ ထက်ဝေယံသည် ဝိုင်ဝန်းမနေဘဲ ဖြေခဲ့သည် - ဆယ့်တစ်ပတ်၏ Error Analysis Session၊ သူ၏ ယခင် စာစောင်များကို စစ်မှန်သော Cambridge Mark Scheme များနှင့် ပထမဆုံးအကြိမ် ယှဉ်၍ သူ့ကိုယ်သူ အမှတ်ပေးခဲ့ချိန်။ ထိုအပတ်မတိုင်မီ သူသည် သင်္ချာကို အဖြေမှန် (သို့) မှား ရရှိခြင်းအကြောင်းသက်သက်ဟု တွေးထားခဲ့ပြီး; ၎င်းပြီးနောက် မှန်ကန်သော Method အပေါ် တည်ဆောက်ထားသော မှားယွင်းသော နောက်ဆုံးအဖြေတစ်ခုသည် စစ်မှန်သော တန်ဖိုးကို သယ်ဆောင်ကြောင်းနှင့် အမှားအချို့ -- လုံးလုံးလျားလျား မှားယွင်းသော ချဉ်းကပ်မှု ရွေးချယ်ခြင်းကဲ့သို့ -- သည် အခြားအမှားများထက် များစွာ ပို၍ ကုန်ကျကြောင်း သူ နားလည်ခဲ့သည်။ ထို တစ်ခုတည်းသော ထိုးထွင်းသိမြင်မှုသည် သူ သင်္ချာ ပြန်လည်လေ့လာပုံကိုသာမက ထို့နောက် ဘာသာရပ်တိုင်းကို ချဉ်းကပ်ပုံကိုပါ ပြန်လည် ပုံဖော်ပေးခဲ့ကြောင်း သူမကို ပြောခဲ့သည် - \"ပို၍ ကြိုးစားရမည်\" ဟု မှုန်ဝါးစွာ ခံစားမည့်အစား နားလည်မှု အတိအကျ ဘယ်နေရာတွင် ပျက်စီးခဲ့ကြောင်း ခွဲခြားသတ်မှတ်ခြင်း။\n\nဒေါ်စုစုသည် နှစ်ဝက်ကိုးဝက်လုံး တစ်လျှောက် ဆက်နွယ်နေသော ရွှေချည်ကို သူ့ကို သတိပေးခဲ့သည် - သင့် Method ကို ရှင်းလင်းစွာ ပြပါ၊ ပြဿနာတစ်ခုစီအတွက် မှန်ကန်သော Tool ကို ရွေးချယ်ပါ၊ စစ်ဆေးသူတစ်ဦးလို တင်းကျပ်စွာ သင့်အလုပ်ကို စစ်ဆေးပါ၊ ဖိအားအောက်တွင် စိတ်မရှုပ်ထွေးဘဲ သင် အမှန်တကယ် ပြုလုပ်ခဲ့သော ပြင်ဆင်မှုကို ယုံကြည်ပါ။ ထက်ဝေယံ A-Level သင်္ချာဆက်လက် ဆောင်ရွက်သည်ဖြစ်စေ၊ အင်ဂျင်နီယာ၊ စီးပွားရေးပညာ (သို့) မမြင်နိုင်သေးသော တစ်ခုခုသို့ ရွှေ့ပြောင်းသည်ဖြစ်စေ ထိုစည်းကမ်း -- တင်းကျပ်၍ သက်သေအထောက်အထား အခြေခံသော တွေးခေါ်မှု -- သည် စာမေးပွဲ ရမှတ် မည်သည်ထက်မဆို ကြာရှည်စွာ တည်ရှိနေမည် ဖြစ်သည်။ တွဲကျောင်းခန်းမှ နောက်ဆုံးအကြိမ် ထွက်ခွာလာစဉ် ဤသင်တန်းသည် Formula များကို အလွတ်ကျက်ခြင်းအကြောင်း လုံးဝ ဘယ်တော့မှ မဟုတ်ခဲ့ကြောင်း ထက်ဝေယံ သဘောပေါက်လာခဲ့သည်။ ၎င်းသည် စစ်မှန်သော တိကျမှုဖြင့် ကျိုးကြောင်းဆင်ခြင်တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့ပြီး ၎င်းသည် ထို ပထမဆုံး Venn Diagram သို့ ပြန်လှည့်ကာ သူ့ရှေ့တွင် ကျန်ရှိနေသေးသော အရာအားလုံးသို့ ထိုးဆက်နေသော ကျွမ်းကျင်မှုတစ်ခု ဖြစ်ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Htet Wai Yan struggle with in Term 1's first lesson?",
+            questionMy:
+                "ပထမတန်း၏ ပထမ သင်ခန်းစာတွင် ထက်ဝေယံ ဘာကို ရုန်းကန်ခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Seeing why a Venn diagram was more useful than listing set elements by hand",
+              "Understanding what a triangle is",
+              "Drawing a straight line",
+              "Writing his own name",
+            ],
+            optionsMy: [
+              "Set Element များကို လက်ဖြင့် စာရင်းပြုစုခြင်းထက် Venn Diagram တစ်ခု အဘယ်ကြောင့် ပို၍ အသုံးဝင်ကြောင်း သိမြင်ခြင်း",
+              "တြိဂံ ဆိုသည်မှာ မည်သည်ကို နားလည်ခြင်း",
+              "မျဉ်းဖြောင့်တစ်ကြောင်း ဆွဲခြင်း",
+              "သူ့ကိုယ်ပိုင် အမည် ရေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's description of Term 1."],
+            hintsMy: ["ပထမတန်း၏ ဖော်ပြချက် ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which lesson changed how Htet Wai Yan thought about mathematics the most?",
+            questionMy:
+                "ထက်ဝေယံ သင်္ချာအကြောင်း တွေးခေါ်ပုံကို မည်သည့် သင်ခန်းစာက အများဆုံး ပြောင်းလဲစေခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 31's error analysis session",
+              "Week 1's Venn diagrams lesson",
+              "Week 20's statistics studio",
+              "Week 10's mensuration lesson",
+            ],
+            optionsMy: [
+              "ဆယ့်တစ်ပတ်၏ Error Analysis Session",
+              "ပထမပတ်၏ Venn Diagrams သင်ခန်းစာ",
+              "နှစ်ဆယ်ပတ်၏ Statistics Studio",
+              "ဆယ်ပတ်၏ Mensuration သင်ခန်းစာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening sentence."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖွင့်စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Daw Su Su say the golden thread included?",
+            questionMy:
+                "ရွှေချည်တွင် ဘာပါဝင်ကြောင်း ဒေါ်စုစု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Show your method, choose the right tool, check rigorously, and trust your preparation",
+              "Memorise every formula without understanding",
+              "Avoid all checking of work",
+              "Never trust your own preparation",
+            ],
+            optionsMy: [
+              "သင့် Method ကို ပြပါ၊ မှန်ကန်သော Tool ကို ရွေးချယ်ပါ၊ တင်းကျပ်စွာ စစ်ဆေးပါ၊ သင့်ပြင်ဆင်မှုကို ယုံကြည်ပါ",
+              "နားလည်မှု မပါဘဲ Formula တိုင်းကို အလွတ်ကျက်ပါ",
+              "အလုပ်ကို စစ်ဆေးခြင်းအားလုံးကို ရှောင်ရှားပါ",
+              "သင့်ကိုယ်ပိုင် ပြင်ဆင်မှုကို ဘယ်တော့မှ မယုံကြည်ပါနှင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing the golden thread."],
+            hintsMy: [
+              "ရွှေချည်ကို စာရင်းပြုစုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Mathematics Final Capstone",
+      titleMy: "IGCSE သင်္ချာ နောက်ဆုံး Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across all nine terms, the core habit Daw Su Su emphasised most was...",
+          questionMy:
+              "တန်းကိုးတန်းလုံးတစ်လျှောက် ဒေါ်စုစု အထူးအလေးပေးခဲ့သော အဓိက အလေ့အထမှာ...",
+          optionsEn: [
+            "Showing clear method and checking work rigorously",
+            "Memorising formulas without understanding",
+            "Avoiding all practice before the exam",
+            "Ignoring mark schemes entirely",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော Method ပြသပြီး အလုပ်ကို တင်းကျပ်စွာ စစ်ဆေးခြင်း",
+            "နားလည်မှု မပါဘဲ Formula များ အလွတ်ကျက်ခြင်း",
+            "စာမေးပွဲမတိုင်မီ လေ့ကျင့်မှုအားလုံးကို ရှောင်ရှားခြင်း",
+            "Mark Scheme များကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Method marks, follow-through marks, and targeted revision all share the goal of...",
+          questionMy:
+              "Method Marks, Follow-Through Marks နှင့် Targeted Revision အားလုံးသည် ...ရည်မှန်းချက်ကို မျှဝေထားသည်",
+          optionsEn: [
+            "Maximising genuine understanding demonstrated under exam conditions",
+            "Making the exam as long as possible",
+            "Confusing the examiner deliberately",
+            "Avoiding all specific feedback",
+          ],
+          optionsMy: [
+            "စာမေးပွဲ အခြေအနေများအောက်တွင် သရုပ်ပြထားသော စစ်မှန်သော နားလည်မှုကို အများဆုံး ရရှိခြင်း",
+            "စာမေးပွဲကို ဖြစ်နိုင်သမျှ ရှည်လျားစေခြင်း",
+            "စစ်ဆေးသူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေခြင်း",
+            "တိကျသော တုံ့ပြန်ချက် အားလုံးကို ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Htet Wai Yan's final realisation was that the course had really been about learning to...",
+          questionMy:
+              "ထက်ဝေယံ၏ နောက်ဆုံး သဘောပေါက်မှုမှာ သင်တန်းသည် အမှန်တကယ် ...တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့သည်",
+          optionsEn: [
+            "Reason with genuine precision",
+            "Memorise the entire syllabus",
+            "Avoid all mathematics after graduation",
+            "Copy answers from friends",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော တိကျမှုဖြင့် ကျိုးကြောင်းဆင်ခြင်",
+            "သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးကို အလွတ်ကျက်",
+            "Graduation ပြီးနောက် သင်္ချာအားလုံးကို ရှောင်ရှား",
+            "သူငယ်ချင်းများထံမှ အဖြေများ ကူးယူ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _igcseMathematicsTerm9 = CourseTermDef(
+  id: "course-igcse-mathematics-t9",
+  termNumber: 9,
+  titleEn: "Final Countdown & IGCSE Graduation",
+  titleMy: "နောက်ဆုံး ရေတွက်ချိန်နှင့် IGCSE ဘွဲ့နှင်းသဘင်",
+  certificateTitleEn: "IGCSE Mathematics Graduate",
+  certificateTitleMy: "IGCSE သင်္ချာ ဘွဲ့ရ",
+  weeks: [
+    _igcseMathematicsWeek33,
+    _igcseMathematicsWeek34,
+    _igcseMathematicsWeek35,
+    _igcseMathematicsWeek36,
+  ],
+);
+
 // __IGCSE_MATH_MARKER__
 
-/// The IGCSE Mathematics course's full-year pathway -- IN PROGRESS.
-/// Terms 1-8 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
-/// Graphs", Weeks 5-8; "Coordinate Geometry and Mensuration", Weeks
-/// 9-12; "Trigonometry and Vectors", Weeks 13-16; "Probability and
-/// Statistics", Weeks 17-20; "Transformations, Matrices and
-/// Functions", Weeks 21-24; "Advanced Modelling and Problem Solving",
-/// Weeks 25-28; "Exam Intensive - Paper 2 & Paper 4 (Extended)",
-/// Weeks 29-32) are authored so far, following the blueprint at
-/// `ai_data_bridge/igcse_maths_all_terms.dart`. Term 9 (Final
-/// Countdown and IGCSE Graduation) is not yet authored. `terms`
-/// below intentionally lists only Terms 1-8, and `totalWeeks: 36`
-/// reflects the full planned year, following the same convention as
-/// every other in-progress pathway in this file.
+/// The IGCSE Mathematics course's full-year pathway -- complete, all
+/// 9 terms authored (36 weeks / 180 daily lessons), built from the
+/// `ai_data_bridge/igcse_maths_all_terms.dart` blueprint: Advanced
+/// Number and Sets; Algebra and Graphs; Coordinate Geometry and
+/// Mensuration; Trigonometry and Vectors; Probability and Statistics;
+/// Transformations, Matrices and Functions; Advanced Modelling and
+/// Problem Solving; Exam Intensive - Paper 2 & Paper 4 (Extended);
+/// and Final Countdown & IGCSE Graduation.
 const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
   id: "course-igcse-mathematics",
   subject: "mathematics",
@@ -125348,9 +126899,9 @@ const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
   titleEn: "IGCSE Mathematics",
   titleMy: "IGCSE သင်္ချာ",
   descriptionEn:
-      "The full IGCSE Mathematics (Core and Extended) course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Mathematics examination, built from the ai_data_bridge/igcse_maths_all_terms.dart blueprint. Term 1, Advanced Number and Sets, covers set notation and Venn diagrams, indices and standard form, and compound interest/depreciation/reverse percentages, closing with a Number Mastery Exam Prep capstone on ratio, proportion, and speed-distance-time graphs. Term 2, Algebra and Graphs, covers solving quadratic equations (factorising, completing the square, the quadratic formula), linear-quadratic simultaneous equations, and sketching exponential/trigonometric graphs and estimating gradients, closing with an Algebraic Proofs capstone on constructing rigorous algebraic arguments. Term 3, Coordinate Geometry and Mensuration, covers the distance/midpoint formulas and perpendicular bisectors, sector area/arc length and 3D volumes (cones, spheres, pyramids), and advanced circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem), closing with a Geometry and Mensuration Exam Studio capstone on multi-step proofs and composite shapes. Term 4, Trigonometry and Vectors, covers the sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), and vector geometry proofs (position vectors, the midpoint theorem, collinearity, parallelograms), closing with a Trig and Vector Masterclass capstone combining advanced bearings with vector proof challenges. Term 5, Probability and Statistics, covers conditional probability/tree diagrams and the multiplication/addition laws, cumulative frequency and box plots (IQR, comparing distributions), and histograms with unequal class intervals (frequency density, estimating the median), closing with a Statistics and Probability Studio capstone weaving box plots, histograms, and conditional probability into one connected scenario. Terms 6-9 (Transformations, Matrices and Functions; Advanced Modelling and Problem Solving; Exam Intensive; and Final Countdown/IGCSE Graduation) are not yet authored.",
+      "The full IGCSE Mathematics (Core and Extended) course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Mathematics examination, built from the ai_data_bridge/igcse_maths_all_terms.dart blueprint. Term 1, Advanced Number and Sets, covers set notation and Venn diagrams, indices and standard form, and compound interest/depreciation/reverse percentages, closing with a Number Mastery Exam Prep capstone on ratio, proportion, and speed-distance-time graphs. Term 2, Algebra and Graphs, covers solving quadratic equations (factorising, completing the square, the quadratic formula), linear-quadratic simultaneous equations, and sketching exponential/trigonometric graphs and estimating gradients, closing with an Algebraic Proofs capstone on constructing rigorous algebraic arguments. Term 3, Coordinate Geometry and Mensuration, covers the distance/midpoint formulas and perpendicular bisectors, sector area/arc length and 3D volumes (cones, spheres, pyramids), and advanced circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem), closing with a Geometry and Mensuration Exam Studio capstone on multi-step proofs and composite shapes. Term 4, Trigonometry and Vectors, covers the sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), and vector geometry proofs (position vectors, the midpoint theorem, collinearity, parallelograms), closing with a Trig and Vector Masterclass capstone combining advanced bearings with vector proof challenges. Term 5, Probability and Statistics, covers conditional probability/tree diagrams and the multiplication/addition laws, cumulative frequency and box plots (IQR, comparing distributions), and histograms with unequal class intervals (frequency density, estimating the median), closing with a Statistics and Probability Studio capstone weaving box plots, histograms, and conditional probability into one connected scenario. Term 6, Transformations, Matrices and Functions, covers 2x2 transformation matrices (rotation, reflection, enlargement, shear), composite and inverse functions, and an introduction to differentiation (the power rule, gradients, turning points), closing with an Advanced Algebra and Calculus Challenge capstone combining optimisation with matrices and functions. Term 7, Advanced Modelling and Problem Solving, covers real-world exponential growth/decay/financial models, formal geometric proofs of congruence and similarity (with area/volume scale factors), and surds and exact arithmetic (simplifying, rationalising denominators, conjugates), closing with a Mathematical Investigation Project capstone generalising a pattern into a proven formula. Term 8, Exam Intensive - Paper 2 & Paper 4 (Extended), covers Paper 2 non-calculator intensive practice, Paper 4 calculator intensive practice, and error analysis/Cambridge mark scheme mastery (method, accuracy, and follow-through marks), closing with a Full Mock Exam Series 1 capstone sitting both papers under real exam timing. Term 9, Final Countdown & IGCSE Graduation, covers a targeted topic weakness workshop built from evidenced mock-paper data, a second full mock exam series confirming the targeted gaps have closed, and exam day readiness/mental preparation (time management, stress management, logistics), closing with the IGCSE Mathematics Graduation capstone reviewing the whole course.",
   descriptionMy:
-      "IGCSE သင်္ချာ (Core and Extended) သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE သင်္ချာ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_maths_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ Advanced Number and Sets သည် set notation နှင့် Venn diagrams, indices နှင့် standard form, compound interest/depreciation/reverse percentages တို့ကို ဖုံးအုပ်ပြီး ratio, proportion နှင့် speed-distance-time graphs အကြောင်း Number Mastery Exam Prep အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Algebra and Graphs သည် quadratic equations ဖြေရှင်းခြင်း (factorising, completing the square, quadratic formula), linear-quadratic simultaneous equations, နှင့် exponential/trigonometric graphs ပုံဖော်ခြင်းနှင့် gradients ခန့်မှန်းခြင်းတို့ကို ဖုံးအုပ်ပြီး rigorous algebraic argument များ တည်ဆောက်ခြင်းအကြောင်း Algebraic Proofs အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Coordinate Geometry and Mensuration သည် distance/midpoint formula များနှင့် perpendicular bisectors, sector area/arc length နှင့် 3D volumes (cones, spheres, pyramids), နှင့် အဆင့်မြင့် circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem) တို့ကို ဖုံးအုပ်ပြီး multi-step proofs နှင့် composite shapes အကြောင်း Geometry and Mensuration Exam Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Trigonometry and Vectors သည် sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), နှင့် vector geometry proofs (position vectors, midpoint theorem, collinearity, parallelograms) တို့ကို ဖုံးအုပ်ပြီး advanced bearings နှင့် vector proof challenges ပေါင်းစပ်ထားသော Trig and Vector Masterclass အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Probability and Statistics သည် conditional probability/tree diagrams နှင့် multiplication/addition laws, cumulative frequency and box plots (IQR, distribution နှိုင်းယှဉ်ခြင်း), နှင့် unequal class interval ပါသော histograms (frequency density, median ခန့်မှန်းခြင်း) တို့ကို ဖုံးအုပ်ပြီး box plots, histograms, conditional probability တို့ကို ဆက်စပ်ထားသော scenario တစ်ခုတည်းအတွင်း ပေါင်းစပ်ထားသော Statistics and Probability Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်မှ နဝမနှစ်ဝက်အထိ (Transformations, Matrices and Functions; Advanced Modelling and Problem Solving; Exam Intensive; Final Countdown/IGCSE Graduation) များကို မရေးသားရသေးပါ။",
+      "IGCSE သင်္ချာ (Core and Extended) သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE သင်္ချာ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_maths_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ Advanced Number and Sets သည် set notation နှင့် Venn diagrams, indices နှင့် standard form, compound interest/depreciation/reverse percentages တို့ကို ဖုံးအုပ်ပြီး ratio, proportion နှင့် speed-distance-time graphs အကြောင်း Number Mastery Exam Prep အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Algebra and Graphs သည် quadratic equations ဖြေရှင်းခြင်း (factorising, completing the square, quadratic formula), linear-quadratic simultaneous equations, နှင့် exponential/trigonometric graphs ပုံဖော်ခြင်းနှင့် gradients ခန့်မှန်းခြင်းတို့ကို ဖုံးအုပ်ပြီး rigorous algebraic argument များ တည်ဆောက်ခြင်းအကြောင်း Algebraic Proofs အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Coordinate Geometry and Mensuration သည် distance/midpoint formula များနှင့် perpendicular bisectors, sector area/arc length နှင့် 3D volumes (cones, spheres, pyramids), နှင့် အဆင့်မြင့် circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem) တို့ကို ဖုံးအုပ်ပြီး multi-step proofs နှင့် composite shapes အကြောင်း Geometry and Mensuration Exam Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Trigonometry and Vectors သည် sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), နှင့် vector geometry proofs (position vectors, midpoint theorem, collinearity, parallelograms) တို့ကို ဖုံးအုပ်ပြီး advanced bearings နှင့် vector proof challenges ပေါင်းစပ်ထားသော Trig and Vector Masterclass အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Probability and Statistics သည် conditional probability/tree diagrams နှင့် multiplication/addition laws, cumulative frequency and box plots (IQR, distribution နှိုင်းယှဉ်ခြင်း), နှင့် unequal class interval ပါသော histograms (frequency density, median ခန့်မှန်းခြင်း) တို့ကို ဖုံးအုပ်ပြီး box plots, histograms, conditional probability တို့ကို ဆက်စပ်ထားသော scenario တစ်ခုတည်းအတွင်း ပေါင်းစပ်ထားသော Statistics and Probability Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Transformations, Matrices and Functions သည် 2x2 Transformation Matrix များ (Rotation, Reflection, Enlargement, Shear), Composite and Inverse Functions, Differentiation မိတ်ဆက် (Power Rule, Gradients, Turning Points) တို့ကို ဖုံးအုပ်ပြီး Optimisation ကို Matrices and Functions နှင့် ပေါင်းစပ်ထားသော Advanced Algebra and Calculus Challenge အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Advanced Modelling and Problem Solving သည် လက်တွေ့ဘဝ Exponential Growth/Decay/Financial Model များ၊ Congruence and Similarity ၏ တရားဝင် ဂျီဩမေတြီ သက်သေပြချက်များ (Area/Volume Scale Factor များနှင့်အတူ), Surds and Exact Arithmetic (ရိုးရှင်းခြင်း, Denominator Rationalise ပြုလုပ်ခြင်း, Conjugates) တို့ကို ဖုံးအုပ်ပြီး ပုံစံတစ်ခုကို သက်သေပြထားသော Formula တစ်ခုအဖြစ် အထွေထွေထုတ်ဖော်ထားသော Mathematical Investigation Project အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Exam Intensive - Paper 2 & Paper 4 (Extended) သည် Paper 2 Non-Calculator Intensive Practice, Paper 4 Calculator Intensive Practice, Error Analysis/Cambridge Mark Scheme ကျွမ်းကျင်မှု (Method, Accuracy, Follow-Through Marks) တို့ကို ဖုံးအုပ်ပြီး အမှန်တကယ် စာမေးပွဲ အချိန်ကိုက်ခြင်းအောက်တွင် စာစောင်နှစ်ခုလုံး ဖြေဆိုသော Full Mock Exam Series 1 အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Final Countdown & IGCSE Graduation သည် ပုံစံတူ စာစောင် Data အထောက်အထားရှိ Targeted Topic Weakness Workshop, Targeted ကွာဟချက်များ ပိတ်သွားပြီးကြောင်း အတည်ပြုသော ဒုတိယ Full Mock Exam Series, စာမေးပွဲနေ့ အသင့်ဖြစ်မှု/စိတ်ပိုင်းဆိုင်ရာ ပြင်ဆင်မှု (အချိန် စီမံခန့်ခွဲမှု, စိတ်ဖိစီးမှု စီမံခန့်ခွဲမှု, Logistics) တို့ကို ဖုံးအုပ်ပြီး သင်တန်းလုံးကို ပြန်လည်သုံးသပ်သော IGCSE Mathematics Graduation အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseMathematicsTerm1,
@@ -125361,6 +126912,7 @@ const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
     _igcseMathematicsTerm6,
     _igcseMathematicsTerm7,
     _igcseMathematicsTerm8,
+    _igcseMathematicsTerm9,
   ],
 );
 // =====================================================================
