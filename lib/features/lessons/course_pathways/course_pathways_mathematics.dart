@@ -120832,18 +120832,1478 @@ const CourseTermDef _igcseMathematicsTerm5 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// IGCSE Mathematics -- Term 6: "Transformations, Matrices and
+// Functions" (Weeks 21-24). Protagonist: Htet Wai Yan, continuing the
+// same IGCSE tutoring arc established in Weeks 1-20. Week 21 covers
+// matrix transformations; Week 22 covers composite/inverse functions;
+// Week 23 introduces differentiation; Week 24 is the capstone
+// advanced algebra and calculus challenge.
+// =====================================================================
+
+const CourseWeekDef _igcseMathematicsWeek21 = CourseWeekDef(
+  id: "course-igcse-mathematics-w21",
+  weekNumber: 21,
+  titleEn: "Matrix Transformations",
+  titleMy: "Matrix Transformations",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w21-d1",
+      dayNumber: 1,
+      titleEn: "2x2 Transformation Matrices",
+      titleMy: "2x2 Transformation Matrices",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The matrix [[0,-1],[1,0]] represents a rotation of 90 degrees. In which direction?",
+          questionMy:
+              "Matrix [[0,-1],[1,0]] သည် ဒီဂရီ 90 rotation ကို ကိုယ်စားပြုသည်။ မည်သည့် direction လား။",
+          optionsEn: [
+            "Anticlockwise about the origin",
+            "Clockwise about the origin",
+            "It is a reflection, not a rotation",
+            "It is an enlargement",
+          ],
+          optionsMy: [
+            "Origin ပတ်ပတ်လည် Anticlockwise",
+            "Origin ပတ်ပတ်လည် Clockwise",
+            "Rotation မဟုတ်ဘဲ Reflection ဖြစ်သည်",
+            "Enlargement ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Test with point (1,0): the matrix sends it to (0,1), which is a 90° anticlockwise turn.",
+          ],
+          hintsMy: [
+            "Point (1,0) ဖြင့် စမ်းကြည့်ပါ: Matrix က ၎င်းကို (0,1) သို့ ပို့သည်၊ ၎င်းသည် 90° Anticlockwise လှည့်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What matrix represents a reflection in the x-axis?",
+          questionMy:
+              "X-axis တွင် Reflection ကို ကိုယ်စားပြုသော Matrix သည် အဘယ်နည်း။",
+          optionsEn: [
+            "[[1,0],[0,-1]]",
+            "[[-1,0],[0,1]]",
+            "[[0,1],[1,0]]",
+            "[[1,0],[0,1]]",
+          ],
+          optionsMy: [
+            "[[1,0],[0,-1]]",
+            "[[-1,0],[0,1]]",
+            "[[0,1],[1,0]]",
+            "[[1,0],[0,1]]",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Reflection in the x-axis keeps x the same and negates y: (x,y) becomes (x,-y).",
+          ],
+          hintsMy: [
+            "X-axis တွင် Reflection သည် x ကို မပြောင်းလဲဘဲ y ကို Negate ပြုလုပ်သည်: (x,y) သည် (x,-y) ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Matrix M = [[3,0],[0,3]] is applied to a shape. What single transformation does this represent?",
+          questionMy:
+              "Matrix M = [[3,0],[0,3]] ကို ပုံသဏ္ဌာန်တစ်ခုအပေါ် အသုံးချသည်။ ၎င်းသည် မည်သည့် Transformation တစ်ခုတည်းကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Enlargement, scale factor 3, centre the origin",
+            "Rotation by 3 degrees",
+            "Translation by vector (3,3)",
+            "Reflection in y = 3",
+          ],
+          optionsMy: [
+            "Enlargement, Scale Factor 3, Centre သည် Origin",
+            "3 ဒီဂရီ Rotation",
+            "Vector (3,3) ဖြင့် Translation",
+            "y = 3 တွင် Reflection",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A diagonal matrix [[k,0],[0,k]] scales every point by factor k from the origin.",
+          ],
+          hintsMy: [
+            "Diagonal Matrix [[k,0],[0,k]] သည် Origin မှ Point တိုင်းကို Factor k ဖြင့် Scale ပြုလုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Point (2,5) is transformed by matrix [[1,0],[0,-1]]. What is the image?",
+          questionMy:
+              "Point (2,5) ကို Matrix [[1,0],[0,-1]] ဖြင့် Transform ပြုလုပ်သည်။ Image သည် အဘယ်နည်း။",
+          optionsEn: ["(2,-5)", "(-2,5)", "(-2,-5)", "(5,2)"],
+          optionsMy: ["(2,-5)", "(-2,5)", "(-2,-5)", "(5,2)"],
+          correctIndex: 0,
+          hintsEn: [
+            "[[1,0],[0,-1]] × (2,5) = (1×2 + 0×5, 0×2 + -1×5) = (2,-5).",
+          ],
+          hintsMy: [
+            "[[1,0],[0,-1]] × (2,5) = (1×2 + 0×5, 0×2 + -1×5) = (2,-5) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which transformation does the matrix [[1,1],[0,1]] applied to a square produce?",
+          questionMy:
+              "Matrix [[1,1],[0,1]] ကို စတုရန်းတစ်ခုအပေါ် အသုံးချလျှင် မည်သည့် Transformation ရရှိသနည်း။",
+          optionsEn: [
+            "A shear",
+            "A rotation",
+            "A reflection",
+            "An enlargement",
+          ],
+          optionsMy: ["Shear", "Rotation", "Reflection", "Enlargement"],
+          correctIndex: 0,
+          hintsEn: [
+            "Off-diagonal entries with 1s on the diagonal produce a shear -- points slide parallel to an axis.",
+          ],
+          hintsMy: [
+            "Diagonal ပေါ်တွင် 1 ရှိပြီး Off-Diagonal Entry ပါလျှင် Shear ရရှိသည် -- Point များသည် Axis တစ်ခုနှင့် ပြိုင်၍ ရွေ့လျားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w21-d2",
+      dayNumber: 2,
+      titleEn: "Transformation Matrix Vocabulary",
+      titleMy: "Transformation Matrix ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w21-dm1",
+          termEn: "Transformation Matrix",
+          termMy: "Transformation Matrix",
+          matchEn:
+              "A 2x2 matrix that maps every point (x,y) to a new position via matrix multiplication",
+          matchMy:
+              "Point (x,y) တိုင်းကို Matrix Multiplication ဖြင့် တည်နေရာအသစ်သို့ Map ပြုလုပ်ပေးသော 2x2 Matrix",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w21-dm2",
+          termEn: "Rotation Matrix",
+          termMy: "Rotation Matrix",
+          matchEn:
+              "A matrix that turns a shape about the origin through a fixed angle",
+          matchMy:
+              "ပုံသဏ္ဌာန်တစ်ခုကို Origin ပတ်ပတ်လည် ထောင့်ပုံသေတစ်ခုဖြင့် လှည့်ပေးသော Matrix",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w21-dm3",
+          termEn: "Reflection Matrix",
+          termMy: "Reflection Matrix",
+          matchEn: "A matrix that flips a shape over a line such as an axis",
+          matchMy:
+              "ပုံသဏ္ဌာန်တစ်ခုကို Axis ကဲ့သို့ မျဉ်းတစ်ခုပေါ်တွင် လှန်ပေးသော Matrix",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w21-dm4",
+          termEn: "Enlargement Matrix",
+          termMy: "Enlargement Matrix",
+          matchEn:
+              "A diagonal matrix [[k,0],[0,k]] that scales a shape by factor k from the origin",
+          matchMy:
+              "ပုံသဏ္ဌာန်တစ်ခုကို Origin မှ Factor k ဖြင့် Scale ပြုလုပ်ပေးသော Diagonal Matrix [[k,0],[0,k]]",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w21-dm5",
+          termEn: "Shear",
+          termMy: "Shear",
+          matchEn:
+              "A transformation that slides points parallel to a fixed line, distorting angles",
+          matchMy:
+              "Point များကို မျဉ်းပုံသေတစ်ခုနှင့် ပြိုင်၍ ရွေ့ပေးပြီး ထောင့်များကို ပြောင်းလဲစေသော Transformation",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w21-d3",
+      dayNumber: 3,
+      titleEn: "Rotation, Reflection, or Enlargement?",
+      titleMy: "Rotation, Reflection, or Enlargement?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rotation", "Reflection", "Enlargement"],
+        bucketsMy: ["Rotation", "Reflection", "Enlargement"],
+        items: [
+          SortingItem(
+            id: "igm-w21-sort1",
+            labelEn: "[[0,-1],[1,0]]",
+            labelMy: "[[0,-1],[1,0]]",
+            correctBucketEn: "Rotation",
+            correctBucketMy: "Rotation",
+          ),
+          SortingItem(
+            id: "igm-w21-sort2",
+            labelEn: "[[1,0],[0,-1]]",
+            labelMy: "[[1,0],[0,-1]]",
+            correctBucketEn: "Reflection",
+            correctBucketMy: "Reflection",
+          ),
+          SortingItem(
+            id: "igm-w21-sort3",
+            labelEn: "[[2,0],[0,2]]",
+            labelMy: "[[2,0],[0,2]]",
+            correctBucketEn: "Enlargement",
+            correctBucketMy: "Enlargement",
+          ),
+          SortingItem(
+            id: "igm-w21-sort4",
+            labelEn: "[[-1,0],[0,1]]",
+            labelMy: "[[-1,0],[0,1]]",
+            correctBucketEn: "Reflection",
+            correctBucketMy: "Reflection",
+          ),
+          SortingItem(
+            id: "igm-w21-sort5",
+            labelEn: "[[0,1],[-1,0]]",
+            labelMy: "[[0,1],[-1,0]]",
+            correctBucketEn: "Rotation",
+            correctBucketMy: "Rotation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Matrix Puzzle",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Matrix ပဟေဠိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Matrix Puzzle",
+        titleMy: "ထက်ဝေယံ၏ Matrix ပဟေဠိ",
+        passageEn:
+            "Htet Wai Yan's tutor Daw Su Su set him a puzzle: triangle T had vertices A(1,1), B(3,1), and C(1,4). She asked him to apply the matrix M = [[0,-1],[1,0]] to each vertex and describe what happened to the triangle as a whole, not just to the individual points.\n\nHe worked through each vertex using matrix multiplication. For A(1,1): M×A = (0×1 + -1×1, 1×1 + 0×1) = (-1,1). For B(3,1): M×B = (0×3 + -1×1, 1×3 + 0×1) = (-1,3). For C(1,4): M×C = (0×1 + -1×4, 1×1 + 0×4) = (-4,1). He plotted all three image points and immediately recognised the triangle's new position: it had been rotated 90 degrees anticlockwise about the origin, since M = [[0,-1],[1,0]] was exactly the rotation matrix he had memorised from Monday's lesson.\n\nDaw Su Su then asked a harder follow-up: if he applied the same matrix M a second time to the already-transformed triangle, where would it end up? Rather than recalculating every vertex from scratch, Htet Wai Yan reasoned it through: two 90-degree anticlockwise rotations combined to make a single 180-degree rotation about the origin, which meant every point's coordinates would simply be negated. He checked this shortcut against A's second image -- applying M to (-1,1) gave (0×-1 + -1×1, 1×-1 + 0×1) = (-1,-1), which matched exactly what he predicted from negating the original (1,1). Daw Su Su told him this was the real skill Term 6 was building: not just calculating one matrix multiplication correctly, but recognising the underlying geometric pattern well enough to predict results without recalculating everything from first principles.",
+        passageMy:
+            "ထက်ဝေယံ၏ Tutor ဒေါ်စုစုသည် သူ့ကို ပဟေဠိတစ်ခု ပေးခဲ့သည် - Triangle T ၏ Vertices များမှာ A(1,1), B(3,1), C(1,4) ဖြစ်သည်။ Matrix M = [[0,-1],[1,0]] ကို Vertex တစ်ခုစီအပေါ် အသုံးချပြီး Point တစ်ခုချင်းစီအပေါ်သာမက Triangle တစ်ခုလုံးအပေါ် ဘာဖြစ်ပျက်ခဲ့ကြောင်း ဖော်ပြရန် သူ့ကို တောင်းဆိုခဲ့သည်။\n\nသူသည် Vertex တစ်ခုစီကို Matrix Multiplication ဖြင့် ဖြတ်၍ လုပ်ဆောင်ခဲ့သည်။ A(1,1) အတွက်: M×A = (0×1 + -1×1, 1×1 + 0×1) = (-1,1)။ B(3,1) အတွက်: M×B = (0×3 + -1×1, 1×3 + 0×1) = (-1,3)။ C(1,4) အတွက်: M×C = (0×1 + -1×4, 1×1 + 0×4) = (-4,1)။ သူသည် Image Point သုံးခုလုံးကို ဆွဲကာ Triangle ၏ တည်နေရာအသစ်ကို ချက်ချင်း မှတ်မိခဲ့သည် - ၎င်းသည် Origin ပတ်ပတ်လည် 90 ဒီဂရီ Anticlockwise Rotate ဖြစ်ခဲ့ပြီး M = [[0,-1],[1,0]] သည် တနင်္လာနေ့ သင်ခန်းစာမှ သူ အလွတ်ကျက်ခဲ့သော Rotation Matrix အတိအကျ ဖြစ်ခဲ့သည်။\n\nဒေါ်စုစုသည် ပို၍ ခက်ခဲသော Follow-Up တစ်ခု ထို့နောက် မေးခဲ့သည် - Transform ပြီးသား Triangle အပေါ် တူညီသော Matrix M ကို ဒုတိယအကြိမ် အသုံးချလျှင် ၎င်းသည် ဘယ်နေရာတွင် ရောက်ရှိမည်နည်း။ Vertex တိုင်းကို အစအဆုံး ပြန်တွက်မည့်အစား ထက်ဝေယံသည် ၎င်းကို ကျိုးကြောင်းဆင်ခြင်ခဲ့သည် - 90 ဒီဂရီ Anticlockwise Rotation နှစ်ကြိမ် ပေါင်းစပ်ခြင်းသည် Origin ပတ်ပတ်လည် 180 ဒီဂရီ Rotation တစ်ကြိမ်တည်း ဖြစ်စေသည်၊ ၎င်းသည် Point တိုင်း၏ Coordinate များကို Negate ပြုလုပ်ရုံသက်သက် ဆိုလိုသည်။ သူသည် ဤ Shortcut ကို A ၏ ဒုတိယ Image နှင့် စစ်ဆေးခဲ့သည် -- M ကို (-1,1) အပေါ် အသုံးချလျှင် (0×-1 + -1×1, 1×-1 + 0×1) = (-1,-1) ရရှိခဲ့ပြီး ၎င်းသည် မူရင်း (1,1) ကို Negate ပြုလုပ်ခြင်းမှ သူ ခန့်မှန်းခဲ့သည့်အတိုင်း အတိအကျ ကိုက်ညီခဲ့သည်။ ဒေါ်စုစုသည် ၎င်းသည် တန်းခြောက်တန်း တည်ဆောက်နေသော အမှန်တကယ် ကျွမ်းကျင်မှု ဖြစ်ကြောင်း သူ့ကို ပြောခဲ့သည် - Matrix Multiplication တစ်ခုတည်းကို မှန်ကန်စွာ တွက်ချက်ရုံသက်သက်မက၊ Principle အစအဆုံးမှ အားလုံးကို ပြန်မတွက်ဘဲ ရလဒ်များကို ခန့်မှန်းနိုင်လောက်အောင် Geometric ပုံစံအောက်ခံကို မှတ်မိသိရှိခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "What was the image of point A(1,1) after applying matrix M?",
+            questionMy:
+                "Matrix M ကို အသုံးချပြီးနောက် Point A(1,1) ၏ Image သည် အဘယ်နည်း။",
+            optionsEn: ["(-1,1)", "(1,-1)", "(-1,-1)", "(1,1)"],
+            optionsMy: ["(-1,1)", "(1,-1)", "(-1,-1)", "(1,1)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the calculation for vertex A in paragraph 2."],
+            hintsMy: [
+              "စာပိုဒ် ၂ ရှိ Vertex A အတွက် တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "What single transformation did matrix M represent?",
+            questionMy:
+                "Matrix M သည် မည်သည့် Transformation တစ်ခုတည်းကို ကိုယ်စားပြုခဲ့သနည်း။",
+            optionsEn: [
+              "A 90-degree anticlockwise rotation about the origin",
+              "A reflection in the x-axis",
+              "An enlargement by factor 2",
+              "A translation",
+            ],
+            optionsMy: [
+              "Origin ပတ်ပတ်လည် 90 ဒီဂရီ Anticlockwise Rotation",
+              "X-Axis တွင် Reflection",
+              "Factor 2 ဖြင့် Enlargement",
+              "Translation",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence identifying what the rotation matrix represented.",
+            ],
+            hintsMy: [
+              "Rotation Matrix ကိုယ်စားပြုခဲ့ကြောင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Applying M twice in a row is equivalent to a single rotation of how many degrees?",
+            questionMy:
+                "M ကို ဆက်တိုက် နှစ်ကြိမ် အသုံးချခြင်းသည် ဒီဂရီ မည်မျှ Rotation တစ်ကြိမ်တည်းနှင့် ညီမျှသနည်း။",
+            optionsEn: [
+              "180 degrees",
+              "90 degrees",
+              "270 degrees",
+              "360 degrees",
+            ],
+            optionsMy: ["ဒီဂရီ ၁၈၀", "ဒီဂရီ ၉၀", "ဒီဂရီ ၂၇၀", "ဒီဂရီ ၃၆၀"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph about combining two 90-degree rotations.",
+            ],
+            hintsMy: [
+              "90 ဒီဂရီ Rotation နှစ်ကြိမ် ပေါင်းစပ်ခြင်းအကြောင်း နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w21-d5",
+      dayNumber: 5,
+      titleEn: "Matrix Transformations Recap Quiz",
+      titleMy: "Matrix Transformations ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which matrix represents a reflection in the x-axis?",
+          questionMy:
+              "X-Axis တွင် Reflection ကို ကိုယ်စားပြုသော Matrix သည် အဘယ်နည်း။",
+          optionsEn: [
+            "[[1,0],[0,-1]]",
+            "[[0,1],[1,0]]",
+            "[[1,0],[0,1]]",
+            "[[-1,0],[0,-1]]",
+          ],
+          optionsMy: [
+            "[[1,0],[0,-1]]",
+            "[[0,1],[1,0]]",
+            "[[1,0],[0,1]]",
+            "[[-1,0],[0,-1]]",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Point (4,-2) is transformed by [[1,0],[0,-1]]. What is the image?",
+          questionMy:
+              "Point (4,-2) ကို [[1,0],[0,-1]] ဖြင့် Transform ပြုလုပ်သည်။ Image သည် အဘယ်နည်း။",
+          optionsEn: ["(4,2)", "(-4,-2)", "(-4,2)", "(4,-2)"],
+          optionsMy: ["(4,2)", "(-4,-2)", "(-4,2)", "(4,-2)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A diagonal matrix [[k,0],[0,k]] represents...",
+          questionMy: "Diagonal Matrix [[k,0],[0,k]] သည်...",
+          optionsEn: [
+            "An enlargement, scale factor k, centre the origin",
+            "A rotation by k degrees",
+            "A shear",
+            "A translation",
+          ],
+          optionsMy: [
+            "Enlargement, Scale Factor k, Centre သည် Origin",
+            "K ဒီဂရီ Rotation",
+            "Shear",
+            "Translation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what geometric transformation did matrix M represent?",
+          questionMy:
+              "စာဖတ်ခန်းတွင် Matrix M သည် မည်သည့် Geometric Transformation ကို ကိုယ်စားပြုခဲ့သနည်း။",
+          optionsEn: [
+            "A 90-degree anticlockwise rotation",
+            "A reflection",
+            "An enlargement",
+            "A shear",
+          ],
+          optionsMy: [
+            "90 ဒီဂရီ Anticlockwise Rotation",
+            "Reflection",
+            "Enlargement",
+            "Shear",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 21?",
+          questionMy: "Week 21 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "2x2 transformation matrices, rotation, reflection, enlargement, and shear",
+            "Composite and inverse functions",
+            "Differentiation and turning points",
+            "Cumulative frequency and box plots",
+          ],
+          optionsMy: [
+            "2x2 Transformation Matrix, Rotation, Reflection, Enlargement, Shear",
+            "Composite and Inverse Functions",
+            "Differentiation and Turning Points",
+            "Cumulative Frequency and Box Plots",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek22 = CourseWeekDef(
+  id: "course-igcse-mathematics-w22",
+  weekNumber: 22,
+  titleEn: "Composite and Inverse Functions",
+  titleMy: "Composite and Inverse Functions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w22-d1",
+      dayNumber: 1,
+      titleEn: "Evaluating fg(x) and Finding f⁻¹(x)",
+      titleMy: "fg(x) တွက်ချက်ခြင်းနှင့် f⁻¹(x) ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "If f(x) = 2x + 1 and g(x) = x², what is fg(x)?",
+          questionMy:
+              "f(x) = 2x + 1 နှင့် g(x) = x² ဖြစ်ပါက fg(x) သည် အဘယ်နည်း။",
+          optionsEn: ["2x² + 1", "(2x+1)²", "4x² + 1", "2x² + 2"],
+          optionsMy: ["2x² + 1", "(2x+1)²", "4x² + 1", "2x² + 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "fg(x) means f(g(x)) -- substitute g(x) = x² into f: f(x²) = 2(x²) + 1.",
+          ],
+          hintsMy: [
+            "fg(x) ဆိုသည်မှာ f(g(x)) ဖြစ်သည် -- g(x) = x² ကို f ထဲသို့ ထည့်ပါ: f(x²) = 2(x²) + 1။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "If f(x) = 2x + 1 and g(x) = x², what is gf(x)?",
+          questionMy:
+              "f(x) = 2x + 1 နှင့် g(x) = x² ဖြစ်ပါက gf(x) သည် အဘယ်နည်း။",
+          optionsEn: ["(2x+1)²", "2x² + 1", "4x² + 4x + 1", "2(2x+1)"],
+          optionsMy: ["(2x+1)²", "2x² + 1", "4x² + 4x + 1", "2(2x+1)"],
+          correctIndex: 0,
+          hintsEn: [
+            "gf(x) means g(f(x)) -- substitute f(x) = 2x+1 into g: g(2x+1) = (2x+1)². Note fg ≠ gf in general.",
+          ],
+          hintsMy: [
+            "gf(x) ဆိုသည်မှာ g(f(x)) ဖြစ်သည် -- f(x) = 2x+1 ကို g ထဲသို့ ထည့်ပါ: g(2x+1) = (2x+1)²။ fg ≠ gf ဖြစ်တတ်ကြောင်း သတိပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "If f(x) = 3x - 4, what is f⁻¹(x)?",
+          questionMy: "f(x) = 3x - 4 ဖြစ်ပါက f⁻¹(x) သည် အဘယ်နည်း။",
+          optionsEn: ["(x+4)/3", "(x-4)/3", "3x+4", "(x+3)/4"],
+          optionsMy: ["(x+4)/3", "(x-4)/3", "3x+4", "(x+3)/4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let y = 3x - 4, swap x and y: x = 3y - 4, solve for y: y = (x+4)/3.",
+          ],
+          hintsMy: [
+            "y = 3x - 4 ဟု ယူပါ၊ x နှင့် y ကို ဖလှယ်ပါ: x = 3y - 4, y အတွက် ဖြေရှင်းပါ: y = (x+4)/3။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The domain of f(x) is restricted to x ≥ 0 for f(x) = x². Why is this restriction necessary for an inverse to exist?",
+          questionMy:
+              "f(x) = x² အတွက် Domain ကို x ≥ 0 သို့ ကန့်သတ်ထားသည်။ Inverse ရှိနိုင်ရန် ဤကန့်သတ်ချက် အဘယ်ကြောင့် လိုအပ်သနည်း။",
+          optionsEn: [
+            "Without it, two different x-values (e.g. 2 and -2) give the same output, so the function isn't one-to-one",
+            "It makes the calculation easier only",
+            "It has no real mathematical reason",
+            "It changes the value of f(2)",
+          ],
+          optionsMy: [
+            "၎င်း မရှိလျှင် x-value မတူညီသည် နှစ်ခု (ဥပမာ 2 နှင့် -2) သည် Output တူညီသောကြောင့် Function သည် One-To-One မဟုတ်တော့ပါ",
+            "တွက်ချက်မှုကို ပိုလွယ်ကူစေရန်သာ ဖြစ်သည်",
+            "စစ်မှန်သော သင်္ချာအကြောင်းရင်း မရှိပါ",
+            "f(2) ၏ တန်ဖိုးကို ပြောင်းလဲစေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For any function f, what is fⁿ⁻¹(x) equal to (f composed with its inverse)?",
+          questionMy:
+              "Function f မည်သည်အတွက်မဆို ff⁻¹(x) သည် အဘယ်နှင့် ညီမျှသနည်း (f ကို ၎င်း၏ Inverse နှင့် Compose ပြုလုပ်ခြင်း)",
+          optionsEn: ["x", "f(x)", "0", "1"],
+          optionsMy: ["x", "f(x)", "0", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "A function and its inverse always undo each other, returning the original input x.",
+          ],
+          hintsMy: [
+            "Function တစ်ခုနှင့် ၎င်း၏ Inverse သည် အမြဲ တစ်ခုနှင့်တစ်ခု ပြန်ဖျက်ပေးပြီး မူလ Input x ကို ပြန်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w22-d2",
+      dayNumber: 2,
+      titleEn: "Functions Vocabulary",
+      titleMy: "Functions ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w22-dm1",
+          termEn: "Composite Function",
+          termMy: "Composite Function",
+          matchEn:
+              "A function formed by applying one function to the output of another, written fg(x)",
+          matchMy:
+              "Function တစ်ခု၏ Output အပေါ် အခြား Function တစ်ခုကို အသုံးချ၍ ဖွဲ့စည်းထားသော Function, fg(x) ဟု ရေးသည်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w22-dm2",
+          termEn: "Inverse Function",
+          termMy: "Inverse Function",
+          matchEn:
+              "A function f⁻¹(x) that reverses the effect of f, so that f⁻¹f(x) = x",
+          matchMy:
+              "f ၏ သက်ရောက်မှုကို ပြန်ဖျက်ပေးသော Function f⁻¹(x), f⁻¹f(x) = x ဖြစ်စေသည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w22-dm3",
+          termEn: "Domain",
+          termMy: "Domain",
+          matchEn:
+              "The set of all possible input (x) values a function accepts",
+          matchMy:
+              "Function တစ်ခု လက်ခံသော Input (x) Value ဖြစ်နိုင်ချေအားလုံး၏ Set",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w22-dm4",
+          termEn: "Range",
+          termMy: "Range",
+          matchEn:
+              "The set of all possible output (y) values a function can produce",
+          matchMy:
+              "Function တစ်ခု ထုတ်ပေးနိုင်သော Output (y) Value ဖြစ်နိုင်ချေအားလုံး၏ Set",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w22-dm5",
+          termEn: "One-to-One Function",
+          termMy: "One-to-One Function",
+          matchEn:
+              "A function where every output corresponds to exactly one input, required for an inverse to exist",
+          matchMy:
+              "Output တိုင်းသည် Input တစ်ခုတည်းနှင့်သာ ကိုက်ညီသော Function, Inverse ရှိနိုင်ရန် လိုအပ်သည်",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w22-d3",
+      dayNumber: 3,
+      titleEn: "Composite or Inverse Operation?",
+      titleMy: "Composite or Inverse Operation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Composite Function", "Inverse Function"],
+        bucketsMy: ["Composite Function", "Inverse Function"],
+        items: [
+          SortingItem(
+            id: "igm-w22-sort1",
+            labelEn: "fg(x), applying g first then f",
+            labelMy: "fg(x), g ကို ဦးစွာ အသုံးချပြီးမှ f",
+            correctBucketEn: "Composite Function",
+            correctBucketMy: "Composite Function",
+          ),
+          SortingItem(
+            id: "igm-w22-sort2",
+            labelEn: "f⁻¹(x), reversing what f does",
+            labelMy: "f⁻¹(x), f လုပ်ဆောင်သည်ကို ပြန်ဖျက်ခြင်း",
+            correctBucketEn: "Inverse Function",
+            correctBucketMy: "Inverse Function",
+          ),
+          SortingItem(
+            id: "igm-w22-sort3",
+            labelEn: "Swapping x and y then solving for y",
+            labelMy: "x နှင့် y ကို ဖလှယ်ပြီးမှ y အတွက် ဖြေရှင်းခြင်း",
+            correctBucketEn: "Inverse Function",
+            correctBucketMy: "Inverse Function",
+          ),
+          SortingItem(
+            id: "igm-w22-sort4",
+            labelEn: "gf(x), substituting f(x) into g",
+            labelMy: "gf(x), f(x) ကို g ထဲသို့ ထည့်ခြင်း",
+            correctBucketEn: "Composite Function",
+            correctBucketMy: "Composite Function",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Function Machine",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Function Machine",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Function Machine",
+        titleMy: "ထက်ဝေယံ၏ Function Machine",
+        passageEn:
+            "Daw Su Su drew two boxes on the whiteboard, labelled f and g, and told Htet Wai Yan to imagine them as machines: f(x) = 4x - 3 took a number in and multiplied by 4 then subtracted 3; g(x) = x + 5 took a number in and added 5. She asked him to find fg(2), feeding 2 through g first, then through f.\n\nHtet Wai Yan worked step by step: g(2) = 2 + 5 = 7, then f(7) = 4(7) - 3 = 28 - 3 = 25. He double-checked using the algebraic composite formula instead: fg(x) = f(g(x)) = f(x+5) = 4(x+5) - 3 = 4x + 20 - 3 = 4x + 17. Substituting x = 2 gave 4(2) + 17 = 8 + 17 = 25, matching his step-by-step answer exactly.\n\nDaw Su Su then asked him to reverse the process entirely: find f⁻¹(x), the machine that would undo everything f did. Htet Wai Yan set y = 4x - 3, swapped x and y to get x = 4y - 3, then solved for y: x + 3 = 4y, so y = (x+3)/4, meaning f⁻¹(x) = (x+3)/4. To check his answer, he calculated f⁻¹(f(2)): f(2) = 4(2) - 3 = 5, then f⁻¹(5) = (5+3)/4 = 8/4 = 2, exactly the number he had started with. Daw Su Su explained that this check -- f⁻¹f(x) always equalling x -- worked for any correctly found inverse, and was the fastest way to catch an algebra mistake before submitting an answer in the real exam.",
+        passageMy:
+            "ဒေါ်စုစုသည် Whiteboard ပေါ်တွင် f နှင့် g ဟု Label တပ်ထားသော Box နှစ်ခု ဆွဲခဲ့ပြီး ၎င်းတို့ကို Machine များအဖြစ် ထက်ဝေယံကို စိတ်ကူးကြည့်ခိုင်းခဲ့သည် - f(x) = 4x - 3 သည် ဂဏန်းတစ်ခုကို ဝင်ယူပြီး 4 နှင့် မြှောက်ကာ 3 နုတ်ခဲ့သည်; g(x) = x + 5 သည် ဂဏန်းတစ်ခုကို ဝင်ယူပြီး 5 ပေါင်းခဲ့သည်။ 2 ကို g ထဲသို့ ဦးစွာ ကျွေးပြီးမှ f ထဲသို့ ကျွေး၍ fg(2) ကို ရှာဖွေရန် သူ့ကို မေးခဲ့သည်။\n\nထက်ဝေယံသည် အဆင့်ဆင့် လုပ်ဆောင်ခဲ့သည် - g(2) = 2 + 5 = 7, ထို့နောက် f(7) = 4(7) - 3 = 28 - 3 = 25။ သူသည် Algebraic Composite Formula ဖြင့် ထပ်စစ်ဆေးခဲ့သည် - fg(x) = f(g(x)) = f(x+5) = 4(x+5) - 3 = 4x + 20 - 3 = 4x + 17။ x = 2 ကို ထည့်လျှင် 4(2) + 17 = 8 + 17 = 25 ရရှိပြီး သူ၏ အဆင့်ဆင့် အဖြေနှင့် အတိအကျ ကိုက်ညီခဲ့သည်။\n\nဒေါ်စုစုသည် ထို့နောက် လုပ်ငန်းစဉ်ကို လုံးလုံးလျားလျား ပြောင်းပြန် ပြုလုပ်ရန် သူ့ကို မေးခဲ့သည် - f လုပ်ဆောင်ခဲ့သမျှကို ပြန်ဖျက်ပေးမည့် Machine ဖြစ်သော f⁻¹(x) ကို ရှာဖွေပါ။ ထက်ဝေယံသည် y = 4x - 3 ဟု သတ်မှတ်ကာ x = 4y - 3 ရရှိရန် x နှင့် y ကို ဖလှယ်ပြီး y အတွက် ဖြေရှင်းခဲ့သည် - x + 3 = 4y, ထို့ကြောင့် y = (x+3)/4, ဆိုလိုသည်မှာ f⁻¹(x) = (x+3)/4 ဖြစ်သည်။ သူ၏ အဖြေကို စစ်ဆေးရန် f⁻¹(f(2)) ကို တွက်ချက်ခဲ့သည် - f(2) = 4(2) - 3 = 5, ထို့နောက် f⁻¹(5) = (5+3)/4 = 8/4 = 2, ၎င်းသည် သူ စတင်ခဲ့သော ဂဏန်း အတိအကျ ဖြစ်ခဲ့သည်။ ဒေါ်စုစုသည် ဤစစ်ဆေးမှု -- f⁻¹f(x) သည် x နှင့် အမြဲ ညီမျှခြင်း -- သည် မှန်ကန်စွာ ရှာတွေ့သော Inverse မည်သည့်အတွက်မဆို အလုပ်လုပ်ကြောင်းနှင့် အမှန်တကယ် စာမေးပွဲတွင် အဖြေတင်သွင်းမီ Algebra အမှားကို ဖမ်းမိရန် အမြန်ဆုံး နည်းလမ်း ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the value of fg(2)?",
+            questionMy: "fg(2) ၏ တန်ဖိုးသည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["25", "7", "17", "20"],
+            optionsMy: ["25", "7", "17", "20"],
+            correctIndex: 0,
+            hintsEn: ["Reread the step-by-step calculation in paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ရှိ အဆင့်ဆင့် တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was f⁻¹(x)?",
+            questionMy: "f⁻¹(x) သည် အဘယ်နည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["(x+3)/4", "(x-3)/4", "4x+3", "4x-3"],
+            optionsMy: ["(x+3)/4", "(x-3)/4", "4x+3", "4x-3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating f⁻¹(x) explicitly."],
+            hintsMy: [
+              "f⁻¹(x) ကို ရှင်းရှင်းလင်းလင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why was checking f⁻¹f(x) = x valuable?",
+            questionMy:
+                "f⁻¹f(x) = x ကို စစ်ဆေးခြင်း အဘယ်ကြောင့် တန်ဖိုးရှိခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was the fastest way to catch an algebra mistake before submitting an answer",
+              "It changed the value of the original function",
+              "It was required by the exam board",
+              "It made the calculation take longer with no benefit",
+            ],
+            optionsMy: [
+              "အမှန်တကယ် စာမေးပွဲတွင် အဖြေတင်သွင်းမီ Algebra အမှားကို ဖမ်းမိရန် အမြန်ဆုံး နည်းလမ်း ဖြစ်ခဲ့သောကြောင့်",
+              "မူလ Function ၏ တန်ဖိုးကို ပြောင်းလဲစေခဲ့သောကြောင့်",
+              "စာမေးပွဲအဖွဲ့က တောင်းဆိုခဲ့သောကြောင့်",
+              "အကျိုးကျေးဇူး မရှိဘဲ တွက်ချက်မှုကို ပို၍ ကြာစေခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w22-d5",
+      dayNumber: 5,
+      titleEn: "Composite and Inverse Functions Recap Quiz",
+      titleMy: "Composite and Inverse Functions ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "If f(x) = x + 2 and g(x) = 3x, what is fg(x)?",
+          questionMy:
+              "f(x) = x + 2 နှင့် g(x) = 3x ဖြစ်ပါက fg(x) သည် အဘယ်နည်း။",
+          optionsEn: ["3x + 2", "3x + 6", "3(x+2)", "x + 6"],
+          optionsMy: ["3x + 2", "3x + 6", "3(x+2)", "x + 6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If f(x) = 5x + 2, what is f⁻¹(x)?",
+          questionMy: "f(x) = 5x + 2 ဖြစ်ပါက f⁻¹(x) သည် အဘယ်နည်း။",
+          optionsEn: ["(x-2)/5", "(x+2)/5", "5x-2", "5(x-2)"],
+          optionsMy: ["(x-2)/5", "(x+2)/5", "5x-2", "5(x-2)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "f⁻¹f(x) is always equal to...",
+          questionMy: "f⁻¹f(x) သည် အမြဲ ...နှင့် ညီမျှသည်",
+          optionsEn: ["x", "f(x)", "0", "1"],
+          optionsMy: ["x", "f(x)", "0", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what did Htet Wai Yan calculate to check his inverse function?",
+          questionMy:
+              "စာဖတ်ခန်းတွင် ထက်ဝေယံသည် သူ၏ Inverse Function ကို စစ်ဆေးရန် ဘာကို တွက်ချက်ခဲ့သနည်း။",
+          optionsEn: ["f⁻¹(f(2))", "fg(2)", "gf(2)", "f(f(2))"],
+          optionsMy: ["f⁻¹(f(2))", "fg(2)", "gf(2)", "f(f(2))"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 22?",
+          questionMy: "Week 22 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Composite functions, inverse functions, domain, and range",
+            "Matrix transformations",
+            "Differentiation and gradients",
+            "Cumulative frequency curves",
+          ],
+          optionsMy: [
+            "Composite Functions, Inverse Functions, Domain, Range",
+            "Matrix Transformations",
+            "Differentiation and Gradients",
+            "Cumulative Frequency Curves",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek23 = CourseWeekDef(
+  id: "course-igcse-mathematics-w23",
+  weekNumber: 23,
+  titleEn: "Introduction to Calculus (Differentiation)",
+  titleMy: "ကဲကူလပ်စ် မိတ်ဆက် (Differentiation)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w23-d1",
+      dayNumber: 1,
+      titleEn: "The Power Rule and Finding Gradients",
+      titleMy: "Power Rule နှင့် Gradient ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Using the power rule, what is the derivative of y = x³?",
+          questionMy: "Power Rule သုံး၍ y = x³ ၏ Derivative သည် အဘယ်နည်း။",
+          optionsEn: ["3x²", "x²", "3x³", "x⁴/4"],
+          optionsMy: ["3x²", "x²", "3x³", "x⁴/4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Power rule: if y = xⁿ, then dy/dx = nxⁿ⁻¹. Here n=3, so dy/dx = 3x².",
+          ],
+          hintsMy: [
+            "Power Rule: y = xⁿ ဖြစ်ပါက dy/dx = nxⁿ⁻¹။ ဤနေရာတွင် n=3 ဖြစ်၍ dy/dx = 3x²။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is dy/dx for y = 4x² - 5x + 7?",
+          questionMy: "y = 4x² - 5x + 7 အတွက် dy/dx သည် အဘယ်နည်း။",
+          optionsEn: ["8x - 5", "8x + 7", "4x - 5", "8x - 5x"],
+          optionsMy: ["8x - 5", "8x + 7", "4x - 5", "8x - 5x"],
+          correctIndex: 0,
+          hintsEn: [
+            "Differentiate each term: 4x² → 8x, -5x → -5, 7 (a constant) → 0.",
+          ],
+          hintsMy: [
+            "Term တစ်ခုစီကို Differentiate ပြုလုပ်ပါ: 4x² → 8x, -5x → -5, 7 (Constant) → 0။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A curve has equation y = x² - 4x + 3. What is the gradient at x = 3?",
+          questionMy:
+              "မျဉ်းကွေးတစ်ခု၏ Equation y = x² - 4x + 3 ဖြစ်သည်။ x = 3 တွင် Gradient သည် အဘယ်နည်း။",
+          optionsEn: ["2", "9", "0", "6"],
+          optionsMy: ["2", "9", "0", "6"],
+          correctIndex: 0,
+          hintsEn: ["dy/dx = 2x - 4. At x = 3: 2(3) - 4 = 6 - 4 = 2."],
+          hintsMy: ["dy/dx = 2x - 4။ x = 3 တွင်: 2(3) - 4 = 6 - 4 = 2။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is true about the gradient of a curve at a turning point (maximum or minimum)?",
+          questionMy:
+              "Turning Point (Maximum သို့ Minimum) တွင် မျဉ်းကွေးတစ်ခု၏ Gradient အကြောင်း မှန်ကန်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The gradient (dy/dx) equals zero",
+            "The gradient is always positive",
+            "The gradient is always negative",
+            "The gradient equals the y-value",
+          ],
+          optionsMy: [
+            "Gradient (dy/dx) သည် သုညနှင့် ညီမျှသည်",
+            "Gradient သည် အမြဲ Positive ဖြစ်သည်",
+            "Gradient သည် အမြဲ Negative ဖြစ်သည်",
+            "Gradient သည် y-Value နှင့် ညီမျှသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "At a turning point, the curve momentarily flattens -- neither rising nor falling -- so dy/dx = 0.",
+          ],
+          hintsMy: [
+            "Turning Point တွင် မျဉ်းကွေးသည် ခေတ္တ ညီညာသွားသည် -- မတက်ဘဲ မကျဘဲ -- ထို့ကြောင့် dy/dx = 0။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the x-coordinate of the turning point of y = x² - 6x + 5.",
+          questionMy: "y = x² - 6x + 5 ၏ Turning Point x-Coordinate ကို ရှာပါ။",
+          optionsEn: ["3", "6", "-3", "5"],
+          optionsMy: ["3", "6", "-3", "5"],
+          correctIndex: 0,
+          hintsEn: ["dy/dx = 2x - 6. Set equal to zero: 2x - 6 = 0, so x = 3."],
+          hintsMy: [
+            "dy/dx = 2x - 6။ သုညနှင့် ညီအောင် သတ်မှတ်ပါ: 2x - 6 = 0, ထို့ကြောင့် x = 3။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w23-d2",
+      dayNumber: 2,
+      titleEn: "Calculus Vocabulary",
+      titleMy: "Calculus ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w23-dm1",
+          termEn: "Differentiation",
+          termMy: "Differentiation",
+          matchEn:
+              "The process of finding the gradient function (derivative) of a curve",
+          matchMy:
+              "မျဉ်းကွေးတစ်ခု၏ Gradient Function (Derivative) ကို ရှာဖွေသော လုပ်ငန်းစဉ်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w23-dm2",
+          termEn: "Power Rule",
+          termMy: "Power Rule",
+          matchEn: "If y = xⁿ, then dy/dx = nxⁿ⁻¹",
+          matchMy: "y = xⁿ ဖြစ်ပါက dy/dx = nxⁿ⁻¹ ဖြစ်သည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w23-dm3",
+          termEn: "Turning Point",
+          termMy: "Turning Point",
+          matchEn:
+              "A point on a curve where the gradient equals zero, either a maximum or minimum",
+          matchMy:
+              "Gradient သည် သုညနှင့် ညီမျှသော မျဉ်းကွေးပေါ်ရှိ Point, Maximum သို့ Minimum ဖြစ်နိုင်သည်",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w23-dm4",
+          termEn: "Gradient Function",
+          termMy: "Gradient Function",
+          matchEn:
+              "The function dy/dx that gives the gradient of a curve at any point x",
+          matchMy:
+              "Point x မည်သည်တွင်မဆို မျဉ်းကွေး၏ Gradient ကို ပေးသော Function dy/dx",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w23-dm5",
+          termEn: "Stationary Point",
+          termMy: "Stationary Point",
+          matchEn: "Another name for a turning point, where dy/dx = 0",
+          matchMy: "Turning Point ၏ အခြားအမည်၊ dy/dx = 0 ဖြစ်သည့်နေရာ",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w23-d3",
+      dayNumber: 3,
+      titleEn: "Positive, Negative, or Zero Gradient?",
+      titleMy: "Positive, Negative, or Zero Gradient?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Positive Gradient", "Negative Gradient", "Zero Gradient"],
+        bucketsMy: ["Positive Gradient", "Negative Gradient", "Zero Gradient"],
+        items: [
+          SortingItem(
+            id: "igm-w23-sort1",
+            labelEn: "A curve rising as x increases",
+            labelMy: "x တိုးလာသည်နှင့်အမျှ တက်လာသော မျဉ်းကွေး",
+            correctBucketEn: "Positive Gradient",
+            correctBucketMy: "Positive Gradient",
+          ),
+          SortingItem(
+            id: "igm-w23-sort2",
+            labelEn: "A curve falling as x increases",
+            labelMy: "x တိုးလာသည်နှင့်အမျှ ကျဆင်းလာသော မျဉ်းကွေး",
+            correctBucketEn: "Negative Gradient",
+            correctBucketMy: "Negative Gradient",
+          ),
+          SortingItem(
+            id: "igm-w23-sort3",
+            labelEn: "The exact top of a maximum turning point",
+            labelMy: "Maximum Turning Point ၏ ထိပ်ဆုံးအတိအကျ",
+            correctBucketEn: "Zero Gradient",
+            correctBucketMy: "Zero Gradient",
+          ),
+          SortingItem(
+            id: "igm-w23-sort4",
+            labelEn: "The exact bottom of a minimum turning point",
+            labelMy: "Minimum Turning Point ၏ အောက်ဆုံးအတိအကျ",
+            correctBucketEn: "Zero Gradient",
+            correctBucketMy: "Zero Gradient",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Rocket Problem",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ ဒံရိုက်ငင်ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Rocket Problem",
+        titleMy: "ထက်ဝေယံ၏ ဒံရိုက်ငင်ပြဿနာ",
+        passageEn:
+            "Daw Su Su gave Htet Wai Yan a physics-flavoured problem to introduce the real power of differentiation: a toy rocket's height in metres was modelled by h = 20t - 5t², where t was time in seconds after launch. She asked him to find the rocket's maximum height.\n\nHtet Wai Yan recognised this immediately as a turning point problem in disguise. He differentiated: dh/dt = 20 - 10t. At the highest point, the rocket's height stops increasing and starts decreasing, meaning the gradient must be exactly zero at that instant. Setting dh/dt = 0: 20 - 10t = 0, so t = 2 seconds. This told him when the maximum height occurred, but not the height itself -- for that, he substituted t = 2 back into the original equation: h = 20(2) - 5(2)² = 40 - 5(4) = 40 - 20 = 20 metres.\n\nDaw Su Su then pushed him further: how could he be certain t=2 gave a maximum height and not a minimum? Htet Wai Yan reasoned it through physically first -- a rocket launched upward must eventually stop and fall, so the shape traced a maximum, not a minimum, which made physical sense even without further calculation. She confirmed this by pointing to the negative coefficient on the t² term in the original equation, explaining that a negative x² coefficient always produced a downward-opening curve with a maximum turning point, while a positive coefficient produced an upward-opening curve with a minimum. She told him this was exactly the kind of question IGCSE Extended Paper 4 favoured: taking a real-world context, translating it into calculus, and interpreting the mathematical answer back in the original context rather than leaving it as an abstract number.",
+        passageMy:
+            "ဒေါ်စုစုသည် Differentiation ၏ အမှန်တကယ် စွမ်းအားကို မိတ်ဆက်ရန် ရူပဗေဒဆန်သော ပြဿနာတစ်ခု ထက်ဝေယံကို ပေးခဲ့သည် - ကစားစရာ ဒံရိုက်ငင်တစ်ခု၏ အမြင့် (Metre) ကို h = 20t - 5t² ဖြင့် ပုံဖော်ထားပြီး t သည် ပစ်ချပြီးနောက် အချိန် (Second) ဖြစ်သည်။ ဒံရိုက်ငင်၏ အမြင့်ဆုံး Height ကို ရှာဖွေရန် သူ့ကို မေးခဲ့သည်။\n\nထက်ဝေယံသည် ၎င်းကို ဖုံးကွယ်ထားသော Turning Point ပြဿနာအဖြစ် ချက်ချင်း မှတ်မိခဲ့သည်။ သူသည် Differentiate ပြုလုပ်ခဲ့သည် - dh/dt = 20 - 10t။ အမြင့်ဆုံး Point တွင် ဒံရိုက်ငင်၏ Height သည် တိုးလာခြင်း ရပ်တန့်ကာ ကျဆင်းစတင်သည်၊ ဆိုလိုသည်မှာ ထိုအချိန်တွင် Gradient သည် အတိအကျ သုည ဖြစ်ရမည်။ dh/dt = 0 ဟု သတ်မှတ်ပါ: 20 - 10t = 0, ထို့ကြောင့် t = 2 Second။ ၎င်းသည် အမြင့်ဆုံး Height မည်သည့်အချိန်တွင် ဖြစ်ပျက်ကြောင်း ပြောပြသော်လည်း Height ကိုယ်တိုင်ကို မပြောပါ -- ၎င်းအတွက် သူသည် t = 2 ကို မူရင်း Equation ထဲသို့ ပြန်ထည့်ခဲ့သည် - h = 20(2) - 5(2)² = 40 - 5(4) = 40 - 20 = Metre 20။\n\nဒေါ်စုစုသည် သူ့ကို ပို၍ တွန်းအားပေးခဲ့သည် - t=2 သည် Minimum Height မဟုတ်ဘဲ Maximum Height ပေးကြောင်း သူ မည်သို့ သေချာနိုင်သနည်း။ ထက်ဝေယံသည် ဦးစွာ ရုပ်ပိုင်းဆိုင်ရာအရ ကျိုးကြောင်းဆင်ခြင်ခဲ့သည် -- အပေါ်သို့ ပစ်လွှတ်လိုက်သော ဒံရိုက်ငင်တစ်ခုသည် နောက်ဆုံးတွင် ရပ်တန့်ပြီး ကျရမည် ဖြစ်ပြီး၊ ထို့ကြောင့် ပုံသဏ္ဌာန်သည် Minimum မဟုတ်ဘဲ Maximum ဆွဲခဲ့ကြောင်း တွက်ချက်မှု ထပ်မံ မလိုအပ်ဘဲ ရုပ်ပိုင်းဆိုင်ရာအရ အဓိပ္ပာယ် ရှိခဲ့သည်။ ဒေါ်စုစုသည် မူရင်း Equation ရှိ t² Term ပေါ်ရှိ Negative Coefficient ကို ညွှန်ပြ၍ ၎င်းကို အတည်ပြုခဲ့ပြီး Negative x² Coefficient သည် Maximum Turning Point ပါသော အောက်သို့ ဖွင့်နေသော မျဉ်းကွေးတစ်ခုကို အမြဲ ထုတ်ပေးကြောင်းနှင့် Positive Coefficient သည် Minimum ပါသော အပေါ်သို့ ဖွင့်နေသော မျဉ်းကွေးတစ်ခုကို ထုတ်ပေးကြောင်း ရှင်းပြခဲ့သည်။ ၎င်းသည် IGCSE Extended Paper 4 က ကြိုက်နှစ်သက်သော မေးခွန်း အမျိုးအစား အတိအကျ ဖြစ်ကြောင်း - လက်တွေ့ဘဝ Context တစ်ခုကို ယူပြီး Calculus သို့ ဘာသာပြန်ကာ Abstract ဂဏန်းတစ်ခုအဖြစ် မထားခဲ့ဘဲ သင်္ချာအဖြေကို မူရင်း Context ထဲသို့ ပြန်လည် အနက်ဖွင့်ခြင်း - ဖြစ်ကြောင်း သူ့ကို သူ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the rocket's maximum height?",
+            questionMy:
+                "ဒံရိုက်ငင်၏ အမြင့်ဆုံး Height သည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["20 metres", "40 metres", "2 metres", "10 metres"],
+            optionsMy: ["Metre 20", "Metre 40", "Metre 2", "Metre 10"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "At what time did the maximum height occur?",
+            questionMy: "အမြင့်ဆုံး Height မည်သည့်အချိန်တွင် ဖြစ်ပျက်ခဲ့သနည်း။",
+            optionsEn: [
+              "t = 2 seconds",
+              "t = 20 seconds",
+              "t = 5 seconds",
+              "t = 0 seconds",
+            ],
+            optionsMy: [
+              "t = Second 2",
+              "t = Second 20",
+              "t = Second 5",
+              "t = Second 0",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about setting dh/dt equal to zero."],
+            hintsMy: [
+              "dh/dt ကို သုညနှင့် ညီအောင် သတ်မှတ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 3, what does a negative coefficient on x² in a quadratic indicate?",
+            questionMy:
+                "Quadratic တစ်ခုရှိ x² ပေါ်ရှိ Negative Coefficient သည် ဘာကို ညွှန်ပြသနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A downward-opening curve with a maximum turning point",
+              "An upward-opening curve with a minimum turning point",
+              "A straight line with no turning point",
+              "No mathematical meaning at all",
+            ],
+            optionsMy: [
+              "Maximum Turning Point ပါသော အောက်သို့ ဖွင့်နေသော မျဉ်းကွေး",
+              "Minimum Turning Point ပါသော အပေါ်သို့ ဖွင့်နေသော မျဉ်းကွေး",
+              "Turning Point မပါသော မျဉ်းဖြောင့်တစ်ခု",
+              "သင်္ချာဆိုင်ရာ အဓိပ္ပာယ် လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what a negative x² coefficient produces.",
+            ],
+            hintsMy: [
+              "Negative x² Coefficient က ဘာထုတ်ပေးကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w23-d5",
+      dayNumber: 5,
+      titleEn: "Introduction to Calculus Recap Quiz",
+      titleMy: "Introduction to Calculus ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the derivative of y = x⁴?",
+          questionMy: "y = x⁴ ၏ Derivative သည် အဘယ်နည်း။",
+          optionsEn: ["4x³", "x³", "4x⁴", "x⁵/5"],
+          optionsMy: ["4x³", "x³", "4x⁴", "x⁵/5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At a turning point, dy/dx equals...",
+          questionMy: "Turning Point တွင် dy/dx သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["0", "1", "x", "the y-value"],
+          optionsMy: ["0", "1", "x", "y-value"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For y = x² - 8x + 10, what is dy/dx?",
+          questionMy: "y = x² - 8x + 10 အတွက် dy/dx သည် အဘယ်နည်း။",
+          optionsEn: ["2x - 8", "2x + 10", "x - 8", "2x - 8x"],
+          optionsMy: ["2x - 8", "2x + 10", "x - 8", "2x - 8x"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, why did Htet Wai Yan substitute t = 2 back into the original equation?",
+          questionMy:
+              "ထက်ဝေယံသည် t = 2 ကို မူရင်း Equation ထဲသို့ ပြန်ထည့်ခဲ့ရသည့် အကြောင်းရင်း အဘယ်နည်း၊ စာဖတ်ခန်းအရ ဖော်ပြပါ။",
+          optionsEn: [
+            "To find the actual maximum height, not just when it occurred",
+            "To find the rocket's speed",
+            "It was not necessary at all",
+            "To find a different turning point",
+          ],
+          optionsMy: [
+            "အမြင့်ဆုံး Height မည်သည့်အချိန် ဖြစ်ပျက်ကြောင်းသက်သက်မက Height ကိုယ်တိုင်ကို ရှာဖွေရန်",
+            "ဒံရိုက်ငင်၏ အရှိန်ကို ရှာဖွေရန်",
+            "လုံးဝ မလိုအပ်ခဲ့ပါ",
+            "အခြား Turning Point တစ်ခုကို ရှာဖွေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 23?",
+          questionMy: "Week 23 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "The power rule, gradients of curves, and turning points",
+            "Matrix transformations",
+            "Composite and inverse functions",
+            "Cumulative frequency and box plots",
+          ],
+          optionsMy: [
+            "Power Rule, Gradients of Curves, Turning Points",
+            "Matrix Transformations",
+            "Composite and Inverse Functions",
+            "Cumulative Frequency and Box Plots",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek24 = CourseWeekDef(
+  id: "course-igcse-mathematics-w24",
+  weekNumber: 24,
+  titleEn: "Advanced Algebra and Calculus Challenge",
+  titleMy: "အဆင့်မြင့် Algebra and Calculus Challenge",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w24-d1",
+      dayNumber: 1,
+      titleEn: "Optimisation Problems",
+      titleMy: "Optimisation Problems",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A farmer has 40m of fencing to enclose a rectangular field against a wall (no fencing needed on the wall side). If width is x and the enclosed area is A = x(40-2x), what value of x maximises A?",
+          questionMy:
+              "တောင်သူတစ်ဦးတွင် နံရံနှင့်ကပ်လျက် စတုဂံပုံ လယ်ကွက်တစ်ခု ကာရံရန် Fencing 40m ရှိသည် (နံရံဘက်တွင် Fencing မလိုအပ်ပါ)။ Width သည် x ဖြစ်ပြီး ကာရံထားသော Area သည် A = x(40-2x) ဖြစ်ပါက A ကို Maximise ပြုလုပ်မည့် x တန်ဖိုးသည် အဘယ်နည်း။",
+          optionsEn: ["10", "20", "5", "40"],
+          optionsMy: ["10", "20", "5", "40"],
+          correctIndex: 0,
+          hintsEn: [
+            "Expand: A = 40x - 2x². Differentiate: dA/dx = 40 - 4x. Set to zero: 40 - 4x = 0, so x = 10.",
+          ],
+          hintsMy: [
+            "ဖြန့်ကြက်ပါ: A = 40x - 2x²။ Differentiate ပြုလုပ်ပါ: dA/dx = 40 - 4x။ သုညနှင့် ညီအောင် သတ်မှတ်ပါ: 40 - 4x = 0, ထို့ကြောင့် x = 10။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Matrix P = [[2,1],[0,2]] is applied to shape S, then matrix Q = [[1,0],[0,-1]] is applied to the result. Which single matrix represents the combined transformation QP?",
+          questionMy:
+              "Matrix P = [[2,1],[0,2]] ကို Shape S အပေါ် အသုံးချပြီး Q = [[1,0],[0,-1]] ကို ရလဒ်အပေါ် အသုံးချသည်။ ပေါင်းစပ် Transformation QP ကို ကိုယ်စားပြုသော Matrix တစ်ခုတည်းသည် အဘယ်နည်း။",
+          optionsEn: [
+            "[[2,1],[0,-2]]",
+            "[[2,-1],[0,2]]",
+            "[[1,1],[0,-2]]",
+            "[[2,1],[0,2]]",
+          ],
+          optionsMy: [
+            "[[2,1],[0,-2]]",
+            "[[2,-1],[0,2]]",
+            "[[1,1],[0,-2]]",
+            "[[2,1],[0,2]]",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "QP means multiply Q × P. Row 1: (1×2+0×0, 1×1+0×2)=(2,1). Row 2: (0×2+-1×0, 0×1+-1×2)=(0,-2).",
+          ],
+          hintsMy: [
+            "QP ဆိုသည်မှာ Q × P ကို မြှောက်ခြင်းဖြစ်သည်။ Row 1: (1×2+0×0, 1×1+0×2)=(2,1)။ Row 2: (0×2+-1×0, 0×1+-1×2)=(0,-2)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If f(x) = 2x - 1 and g(x) = x² + 3, find the value of x for which fg(x) = 9.",
+          questionMy:
+              "f(x) = 2x - 1 နှင့် g(x) = x² + 3 ဖြစ်ပါက fg(x) = 9 ဖြစ်စေမည့် x တန်ဖိုးကို ရှာပါ။",
+          optionsEn: ["±√2.5", "2", "3", "±2"],
+          optionsMy: ["±√2.5", "2", "3", "±2"],
+          correctIndex: 0,
+          hintsEn: [
+            "fg(x) = 2(x²+3) - 1 = 2x² + 5. Set 2x² + 5 = 9, so 2x² = 4, x² = 2.5, x = ±√2.5.",
+          ],
+          hintsMy: [
+            "fg(x) = 2(x²+3) - 1 = 2x² + 5။ 2x² + 5 = 9 ဟု သတ်မှတ်ပါ၊ ထို့ကြောင့် 2x² = 4, x² = 2.5, x = ±√2.5။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A curve y = x³ - 3x has two turning points. What are their x-coordinates?",
+          questionMy:
+              "မျဉ်းကွေး y = x³ - 3x တွင် Turning Point နှစ်ခု ရှိသည်။ ၎င်းတို့၏ x-Coordinate များသည် အဘယ်နည်း။",
+          optionsEn: [
+            "x = 1 and x = -1",
+            "x = 3 and x = -3",
+            "x = 0 only",
+            "x = 1 only",
+          ],
+          optionsMy: [
+            "x = 1 နှင့် x = -1",
+            "x = 3 နှင့် x = -3",
+            "x = 0 တစ်ခုတည်း",
+            "x = 1 တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 3x² - 3. Set to zero: 3x² - 3 = 0, x² = 1, x = ±1.",
+          ],
+          hintsMy: [
+            "dy/dx = 3x² - 3။ သုညနှင့် ညီအောင် သတ်မှတ်ပါ: 3x² - 3 = 0, x² = 1, x = ±1။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rectangle's perimeter is fixed at 24cm. If length is x, width is (12-x), and area A = x(12-x), what is the maximum possible area?",
+          questionMy:
+              "စတုဂံပုံတစ်ခု၏ Perimeter ကို 24cm ဟု သတ်မှတ်ထားသည်။ Length သည် x, Width သည် (12-x), Area A = x(12-x) ဖြစ်ပါက ဖြစ်နိုင်သော အများဆုံး Area သည် အဘယ်နည်း။",
+          optionsEn: ["36 cm²", "24 cm²", "12 cm²", "48 cm²"],
+          optionsMy: ["cm² 36", "cm² 24", "cm² 12", "cm² 48"],
+          correctIndex: 0,
+          hintsEn: [
+            "A = 12x - x². dA/dx = 12 - 2x = 0, so x = 6. Then A = 6(12-6) = 6×6 = 36.",
+          ],
+          hintsMy: [
+            "A = 12x - x²။ dA/dx = 12 - 2x = 0, ထို့ကြောင့် x = 6။ ထို့နောက် A = 6(12-6) = 6×6 = 36။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w24-d2",
+      dayNumber: 2,
+      titleEn: "Term 6 Vocabulary Review",
+      titleMy: "Term 6 ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w24-dm1",
+          termEn: "Optimisation",
+          termMy: "Optimisation",
+          matchEn:
+              "Using calculus to find the maximum or minimum value of a quantity subject to a constraint",
+          matchMy:
+              "Constraint တစ်ခုအောက်ရှိ ပမာဏတစ်ခု၏ Maximum သို့ Minimum တန်ဖိုးကို ရှာဖွေရန် Calculus သုံးခြင်း",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w24-dm2",
+          termEn: "Matrix Multiplication",
+          termMy: "Matrix Multiplication",
+          matchEn:
+              "Combining two transformation matrices in order to represent a single combined transformation",
+          matchMy:
+              "ပေါင်းစပ် Transformation တစ်ခုတည်းကို ကိုယ်စားပြုရန် Transformation Matrix နှစ်ခုကို အစီအစဉ်တကျ ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w24-dm3",
+          termEn: "Composite Function",
+          termMy: "Composite Function",
+          matchEn:
+              "A function formed by applying one function to the output of another",
+          matchMy:
+              "Function တစ်ခု၏ Output အပေါ် အခြား Function တစ်ခုကို အသုံးချ၍ ဖွဲ့စည်းထားသော Function",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w24-dm4",
+          termEn: "Turning Point",
+          termMy: "Turning Point",
+          matchEn: "A point where dy/dx = 0, either a maximum or minimum",
+          matchMy: "dy/dx = 0 ဖြစ်သော Point, Maximum သို့ Minimum ဖြစ်နိုင်သည်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w24-dm5",
+          termEn: "Power Rule",
+          termMy: "Power Rule",
+          matchEn: "If y = xⁿ, then dy/dx = nxⁿ⁻¹",
+          matchMy: "y = xⁿ ဖြစ်ပါက dy/dx = nxⁿ⁻¹ ဖြစ်သည်",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w24-d3",
+      dayNumber: 3,
+      titleEn: "Which Term 6 Skill Applies?",
+      titleMy: "Term 6 ၏ မည်သည့် Skill သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Matrices", "Functions", "Calculus"],
+        bucketsMy: ["Matrices", "Functions", "Calculus"],
+        items: [
+          SortingItem(
+            id: "igm-w24-sort1",
+            labelEn: "Applying [[0,-1],[1,0]] to rotate a shape",
+            labelMy:
+                "ပုံသဏ္ဌာန်တစ်ခုကို Rotate ပြုလုပ်ရန် [[0,-1],[1,0]] အသုံးချခြင်း",
+            correctBucketEn: "Matrices",
+            correctBucketMy: "Matrices",
+          ),
+          SortingItem(
+            id: "igm-w24-sort2",
+            labelEn: "Finding f⁻¹(x) by swapping x and y",
+            labelMy: "x နှင့် y ကို ဖလှယ်ခြင်းဖြင့် f⁻¹(x) ရှာဖွေခြင်း",
+            correctBucketEn: "Functions",
+            correctBucketMy: "Functions",
+          ),
+          SortingItem(
+            id: "igm-w24-sort3",
+            labelEn: "Setting dy/dx = 0 to find a maximum area",
+            labelMy: "Maximum Area ရှာဖွေရန် dy/dx = 0 ဟု သတ်မှတ်ခြင်း",
+            correctBucketEn: "Calculus",
+            correctBucketMy: "Calculus",
+          ),
+          SortingItem(
+            id: "igm-w24-sort4",
+            labelEn: "Evaluating fg(x) by substituting g(x) into f",
+            labelMy: "g(x) ကို f ထဲသို့ ထည့်သွင်း၍ fg(x) တွက်ချက်ခြင်း",
+            correctBucketEn: "Functions",
+            correctBucketMy: "Functions",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Fencing Challenge",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Fencing Challenge",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Fencing Challenge",
+        titleMy: "ထက်ဝေယံ၏ Fencing Challenge",
+        passageEn:
+            "For the Term 6 capstone, Daw Su Su combined every skill from the term into a single connected challenge, exactly as she had done for probability and statistics back in Term 5. She began with a real-world optimisation problem: Htet Wai Yan's family wanted to fence a rectangular vegetable garden against the side of their house, using 30 metres of fencing on the three remaining sides, and wanted to know the maximum possible area.\n\nLetting the width (perpendicular to the house) be x, the length parallel to the house was (30-2x), giving area A = x(30-2x) = 30x - 2x². Htet Wai Yan differentiated: dA/dx = 30 - 4x. Setting this to zero: 30 - 4x = 0, so x = 7.5. Substituting back: A = 7.5(30 - 15) = 7.5 × 15 = 112.5 square metres, the maximum possible area.\n\nDaw Su Su then layered functions on top: she defined f(x) as the perimeter used for a given width x, where f(x) = 2x + (30-2x) = x + 30, and asked him to find f⁻¹(x), the width needed to use a given amount of fencing. He worked through it: y = x + 30, swap to x = y + 30, solve for y: y = x - 30, so f⁻¹(x) = x - 30. Finally, she asked him to represent a 90-degree rotation of the garden's rectangular boundary using a transformation matrix, connecting the whole problem back to Week 21's matrices. Htet Wai Yan wrote M = [[0,-1],[1,0]] without hesitation. Reviewing his complete solution, Daw Su Su told him this was exactly what Term 7's mathematical modelling would demand even more of: not applying one isolated technique, but recognising which of several tools -- calculus, functions, matrices -- fit which part of a connected real-world problem.",
+        passageMy:
+            "တန်းခြောက်တန်း Capstone အတွက် ဒေါ်စုစုသည် ပဉ္စမနှစ်ဝက်က Probability and Statistics အတွက် ပြုလုပ်ခဲ့သည့်အတိုင်း နှစ်ဝက်တစ်လျှောက်ရှိ ကျွမ်းကျင်မှုတိုင်းကို ချိတ်ဆက်ထားသော Challenge တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည်။ သူသည် လက်တွေ့ဘဝ Optimisation ပြဿနာတစ်ခုဖြင့် စတင်ခဲ့သည် - ထက်ဝေယံ၏ မိသားစုသည် အိမ်၏ ဘေးတစ်ဖက်တွင် စတုဂံပုံ ဟင်းသီးဟင်းရွက်ဥယျာဉ်တစ်ခု ကာရံလိုကြပြီး ကျန်ရှိသော ဘက်သုံးဖက်တွင် Fencing 30 မီတာ သုံးလိုကြကာ ဖြစ်နိုင်သော အများဆုံး Area ကို သိလိုကြသည်။\n\nWidth (အိမ်နှင့် Perpendicular) ကို x ဟု ယူလျှင် အိမ်နှင့် ပြိုင်သော Length သည် (30-2x) ဖြစ်ပြီး Area A = x(30-2x) = 30x - 2x² ရရှိသည်။ ထက်ဝေယံသည် Differentiate ပြုလုပ်ခဲ့သည် - dA/dx = 30 - 4x။ ၎င်းကို သုညနှင့် ညီအောင် သတ်မှတ်ပါ: 30 - 4x = 0, ထို့ကြောင့် x = 7.5။ ပြန်ထည့်လျှင်: A = 7.5(30 - 15) = 7.5 × 15 = စတုရန်းမီတာ 112.5, ဖြစ်နိုင်သော အများဆုံး Area ဖြစ်သည်။\n\nဒေါ်စုစုသည် ထို့နောက် Function များကို ထပ်ဆင့်ထားခဲ့သည် - သူသည် f(x) ကို ပေးထားသော Width x အတွက် သုံးသော Perimeter အဖြစ် သတ်မှတ်ခဲ့သည်၊ f(x) = 2x + (30-2x) = x + 30 ဖြစ်ပြီး ပေးထားသော Fencing ပမာဏကို သုံးရန် လိုအပ်သော Width ဖြစ်သည့် f⁻¹(x) ကို ရှာဖွေရန် သူ့ကို မေးခဲ့သည်။ သူသည် ၎င်းကို ဖြတ်၍ လုပ်ဆောင်ခဲ့သည် - y = x + 30, x = y + 30 သို့ ဖလှယ်ပါ, y အတွက် ဖြေရှင်းပါ: y = x - 30, ထို့ကြောင့် f⁻¹(x) = x - 30။ နောက်ဆုံးတွင် သူသည် ဥယျာဉ်၏ စတုဂံပုံ နယ်နိမိတ်၏ 90 ဒီဂရီ Rotation ကို Transformation Matrix ဖြင့် ကိုယ်စားပြုရန် သူ့ကို မေးခဲ့ပြီး ပြဿနာတစ်ခုလုံးကို ဆယ့်တစ်ပတ်၏ Matrices သို့ ပြန်ချိတ်ဆက်ခဲ့သည်။ ထက်ဝေယံသည် M = [[0,-1],[1,0]] ကို ဆိုင်းငံ့ခြင်း မရှိဘဲ ရေးခဲ့သည်။ သူ၏ ပြီးပြည့်စုံသော ဖြေရှင်းချက်ကို ပြန်လည်သုံးသပ်ရာ ဒေါ်စုစုသည် ၎င်းသည် တန်းခုနစ်တန်း၏ သင်္ချာ Modelling က ပို၍ တောင်းဆိုမည့်အရာ အတိအကျ ဖြစ်ကြောင်း သူ့ကို ပြောခဲ့သည် - သီးသန့် နည်းပညာတစ်ခုတည်းကို အသုံးချခြင်းမဟုတ်ဘဲ Calculus, Functions, Matrices ကဲ့သို့ Tool များစွာအနက် မည်သည့်တစ်ခုသည် ချိတ်ဆက်ထားသော လက်တွေ့ဘဝ ပြဿနာ၏ မည်သည့်အပိုင်းနှင့် ကိုက်ညီကြောင်း ခွဲခြားသိရှိခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the maximum possible area?",
+            questionMy:
+                "ဖြစ်နိုင်သော အများဆုံး Area သည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "112.5 square metres",
+              "30 square metres",
+              "7.5 square metres",
+              "225 square metres",
+            ],
+            optionsMy: [
+              "စတုရန်းမီတာ 112.5",
+              "စတုရန်းမီတာ 30",
+              "စတုရန်းမီတာ 7.5",
+              "စတုရန်းမီတာ 225",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what was f⁻¹(x)?",
+            questionMy: "f⁻¹(x) သည် အဘယ်နည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["x - 30", "x + 30", "30 - x", "x/30"],
+            optionsMy: ["x - 30", "x + 30", "30 - x", "x/30"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating f⁻¹(x) explicitly."],
+            hintsMy: [
+              "f⁻¹(x) ကို ရှင်းရှင်းလင်းလင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what would Term 7's mathematical modelling demand?",
+            questionMy:
+                "တန်းခုနစ်တန်း၏ သင်္ချာ Modelling သည် ဘာကို တောင်းဆိုမည်နည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Recognising which of several tools fits which part of a connected problem",
+              "Using only calculus and nothing else",
+              "Avoiding all real-world context entirely",
+              "Memorising every formula without application",
+            ],
+            optionsMy: [
+              "Tool များစွာအနက် မည်သည့်တစ်ခုသည် ချိတ်ဆက်ထားသော ပြဿနာ၏ မည်သည့်အပိုင်းနှင့် ကိုက်ညီကြောင်း ခွဲခြားသိရှိခြင်း",
+              "Calculus တစ်ခုတည်းသာ သုံးပြီး အခြားမည်သည့်အရာမျှ မသုံးခြင်း",
+              "လက်တွေ့ဘဝ Context အားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+              "Application မပါဘဲ Formula တိုင်းကို အလွတ်ကျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Algebra and Calculus Challenge",
+      titleMy: "Term 6 Capstone - Algebra and Calculus Challenge",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In an optimisation problem, the maximum or minimum of A occurs where...",
+          questionMy:
+              "Optimisation ပြဿနာတစ်ခုတွင် A ၏ Maximum သို့ Minimum သည် ...နေရာတွင် ဖြစ်ပျက်သည်",
+          optionsEn: ["dA/dx = 0", "A = 0", "x = 0", "dA/dx = 1"],
+          optionsMy: ["dA/dx = 0", "A = 0", "x = 0", "dA/dx = 1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining two transformation matrices to represent one combined transformation uses...",
+          questionMy:
+              "ပေါင်းစပ် Transformation တစ်ခုတည်းကို ကိုယ်စားပြုရန် Transformation Matrix နှစ်ခုကို ပေါင်းစပ်ခြင်းသည် ...အသုံးပြုသည်",
+          optionsEn: [
+            "Matrix multiplication",
+            "Matrix addition",
+            "Matrix subtraction",
+            "Matrix division",
+          ],
+          optionsMy: [
+            "Matrix Multiplication",
+            "Matrix Addition",
+            "Matrix Subtraction",
+            "Matrix Division",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Finding f⁻¹(x) requires...",
+          questionMy: "f⁻¹(x) ရှာဖွေခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Swapping x and y, then solving for y",
+            "Multiplying by -1",
+            "Setting f(x) = 0",
+            "Differentiating f(x)",
+          ],
+          optionsMy: [
+            "x နှင့် y ကို ဖလှယ်ပြီး y အတွက် ဖြေရှင်းခြင်း",
+            "-1 ဖြင့် မြှောက်ခြင်း",
+            "f(x) = 0 ဟု သတ်မှတ်ခြင်း",
+            "f(x) ကို Differentiate ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what real-world problem opened the Term 6 capstone?",
+          questionMy:
+              "တန်းခြောက်တန်း Capstone ကို မည်သည့် လက်တွေ့ဘဝ ပြဿနာက ဖွင့်ခဲ့သနည်း၊ စာဖတ်ခန်းအရ ဖော်ပြပါ။",
+          optionsEn: [
+            "Fencing a garden to maximise its area",
+            "Building a rocket",
+            "Painting a house",
+            "Planning a birthday party",
+          ],
+          optionsMy: [
+            "Area ကို Maximise ပြုလုပ်ရန် ဥယျာဉ်တစ်ခု Fencing ခြင်း",
+            "ဒံရိုက်ငင်တစ်ခု တည်ဆောက်ခြင်း",
+            "အိမ်တစ်လုံး ဆေးသုတ်ခြင်း",
+            "မွေးနေ့ပါတီ စီစဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which three tools were connected together in the Term 6 capstone problem?",
+          questionMy:
+              "တန်းခြောက်တန်း Capstone ပြဿနာတွင် Tool သုံးခု မည်သည့်အရာများ ချိတ်ဆက်ခဲ့သနည်း။",
+          optionsEn: [
+            "Calculus, functions, and matrices",
+            "Probability, statistics, and trigonometry",
+            "Geometry, mensuration, and vectors",
+            "Number, algebra, and graphs",
+          ],
+          optionsMy: [
+            "Calculus, Functions, Matrices",
+            "Probability, Statistics, Trigonometry",
+            "Geometry, Mensuration, Vectors",
+            "Number, Algebra, Graphs",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _igcseMathematicsTerm6 = CourseTermDef(
+  id: "course-igcse-mathematics-t6",
+  termNumber: 6,
+  titleEn: "Transformations, Matrices and Functions",
+  titleMy: "Transformations, Matrices and Functions",
+  certificateTitleEn: "Transformations, Matrices and Functions",
+  certificateTitleMy: "Transformations, Matrices and Functions",
+  weeks: [
+    _igcseMathematicsWeek21,
+    _igcseMathematicsWeek22,
+    _igcseMathematicsWeek23,
+    _igcseMathematicsWeek24,
+  ],
+);
+
+// __IGCSE_MATH_MARKER__
+
 /// The IGCSE Mathematics course's full-year pathway -- IN PROGRESS.
-/// Terms 1-5 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
+/// Terms 1-6 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
 /// Graphs", Weeks 5-8; "Coordinate Geometry and Mensuration", Weeks
 /// 9-12; "Trigonometry and Vectors", Weeks 13-16; "Probability and
-/// Statistics", Weeks 17-20) are authored so far, following the
-/// blueprint at `ai_data_bridge/igcse_maths_all_terms.dart`. Terms 6-9
-/// (Transformations, Matrices and Functions; Advanced Modelling and
-/// Problem Solving; Exam Intensive; Final Countdown and IGCSE
-/// Graduation) are not yet authored. `terms` below intentionally
-/// lists only Terms 1-5, and `totalWeeks: 36` reflects the full planned
-/// year, following the same convention as every other in-progress
-/// pathway in this file.
+/// Statistics", Weeks 17-20; "Transformations, Matrices and
+/// Functions", Weeks 21-24) are authored so far, following the
+/// blueprint at `ai_data_bridge/igcse_maths_all_terms.dart`. Terms 7-9
+/// (Advanced Modelling and Problem Solving; Exam Intensive; Final
+/// Countdown and IGCSE Graduation) are not yet authored. `terms`
+/// below intentionally lists only Terms 1-6, and `totalWeeks: 36`
+/// reflects the full planned year, following the same convention as
+/// every other in-progress pathway in this file.
 const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
   id: "course-igcse-mathematics",
   subject: "mathematics",
@@ -120861,6 +122321,7 @@ const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
     _igcseMathematicsTerm3,
     _igcseMathematicsTerm4,
     _igcseMathematicsTerm5,
+    _igcseMathematicsTerm6,
   ],
 );
 // =====================================================================
