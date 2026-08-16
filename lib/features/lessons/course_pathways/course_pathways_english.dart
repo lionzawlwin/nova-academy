@@ -151419,9 +151419,12 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-8 of 9 authored so far (Term 9
-/// to follow: Final Exam Countdown & Graduation). `totalWeeks: 36`
-/// reflects the full 9-term aspirational course length.
+/// IGCSE English pathway -- complete, all 9 terms authored (36
+/// weeks / 180 daily lessons), spanning advanced reading
+/// comprehension and directed writing through narrative, descriptive,
+/// argumentative, and literary composition, advanced grammar and
+/// stylistic editing, and intensive exam practice to the final
+/// countdown and graduation.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
   subject: "english",
@@ -151442,6 +151445,7 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
     igcseEnglishTerm6,
     igcseEnglishTerm7,
     igcseEnglishTerm8,
+    igcseEnglishTerm9,
   ],
 );
 
@@ -160477,6 +160481,1560 @@ const CourseTermDef igcseEnglishTerm8 = CourseTermDef(
   weeks: [_igcseEngWeek29, _igcseEngWeek30, _igcseEngWeek31, _igcseEngWeek32],
   certificateTitleEn: "Intensive Past Paper Simulations",
   certificateTitleMy: "Intensive မေးခွန်းဟောင်း လေ့ကျင့်ခန်းများ",
+);
+
+// =====================================================================
+// IGCSE English -- Term 9: "Final Exam Countdown & Graduation"
+// (Weeks 33-36). Week 33 covers targeted weakness remediation; Week
+// 34 covers exam stamina and strategy; Week 35 covers a final
+// warm-up simulation; Week 36 is the capstone graduation.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek33 = CourseWeekDef(
+  id: "course-igcse-eng-w33",
+  weekNumber: 33,
+  titleEn: "Targeted Weakness Remediation",
+  titleMy: "အားနည်းချက်ရှိသော ကဏ္ဍများကို အထူးပြုပြင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w33-d1",
+      dayNumber: 1,
+      titleEn: "Personalised Drills: Summary and Writer's Effect Refresher",
+      titleMy:
+          "ကိုယ်ရေးကိုယ်တာ လေ့ကျင့်ခန်းများ - အကျဉ်းချုပ်နှင့် Writer's Effect ပြန်လည်သတိရခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Targeted remediation focuses study time on...",
+          questionMy:
+              "အထူးပြုပြင်ခြင်းသည် လေ့လာချိန်ကို ...အပေါ် အာရုံစိုက်စေသည်",
+          optionsEn: [
+            "A student's individually identified weak points, not everything equally",
+            "Random topics chosen without any diagnosis",
+            "Only the student's already-strongest skills",
+            "Nothing in particular",
+          ],
+          optionsMy: [
+            "ကျောင်းသားတစ်ဦး၏ တစ်ဦးချင်း ခွဲခြားသတ်မှတ်ထားသော အားနည်းချက်များ၊ အားလုံးကို တညီတညွတ်တည်း မဟုတ်ဘဲ",
+            "ရောဂါရှာဖွေမှု မရှိဘဲ ရွေးချယ်ထားသော ကျပန်း ခေါင်းစဉ်များ",
+            "ကျောင်းသား၏ အားအကောင်းဆုံး ကျွမ်းကျင်မှုများကိုသာ",
+            "တိကျသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A proofreading gap identified in an earlier mock should be addressed by...",
+          questionMy:
+              "ယခင် ပုံစံတူ စာမေးပွဲတစ်ခုတွင် ခွဲခြားသတ်မှတ်ထားသော Proofreading ကွာဟချက်ကို ...ဖြင့် ကိုင်တွယ်သင့်သည်",
+          optionsEn: [
+            "Deliberately practising the specific habit that was missing",
+            "Ignoring it entirely",
+            "Avoiding all further practice",
+            "Changing the subject to something unrelated",
+          ],
+          optionsMy: [
+            "လွတ်ကျွတ်နေခဲ့သော သီးခြား အလေ့အထကို ရည်ရွယ်ချက်ရှိရှိ လေ့ကျင့်ခြင်းဖြင့်",
+            "လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+            "နောက်ထပ် လေ့ကျင့်မှုအားလုံးကို ရှောင်ရှားခြင်းဖြင့်",
+            "မသက်ဆိုင်သော ဘာသာရပ်တစ်ခုသို့ ပြောင်းလဲခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Revisiting the golden rule of inference (name the evidence) in the final countdown helps because...",
+          questionMy:
+              "နောက်ဆုံး ရေတွက်ချိန်တွင် Inference ၏ ရွှေစည်းမျဉ်း (သက်သေအထောက်အထားကို အမည်တပ်ပါ) ကို ပြန်လည် ကြည့်ရှုခြင်းသည် ...ကြောင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Fundamentals can slip under exam pressure even for strong students",
+            "It is a brand-new skill never covered before",
+            "It replaces all other exam preparation",
+            "It guarantees a perfect score automatically",
+          ],
+          optionsMy: [
+            "အခြေခံအချက်များသည် အားကောင်းသော ကျောင်းသားများအတွက်ပင် စာမေးပွဲ ဖိအားအောက်တွင် လွတ်ကျွတ်သွားနိုင်သောကြောင့်",
+            "ယခင် ဘယ်တော့မှ မလွှမ်းခြုံခဲ့သော ကျွမ်းကျင်မှုအသစ်တစ်ခု ဖြစ်သောကြောင့်",
+            "အခြား စာမေးပွဲ ပြင်ဆင်မှုအားလုံးကို အစားထိုးသောကြောင့်",
+            "ပြီးပြည့်စုံသော ရမှတ်ကို အလိုအလျောက် အာမခံသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Personalised drills are more effective than generic revision because they...",
+          questionMy:
+              "ကိုယ်ရေးကိုယ်တာ လေ့ကျင့်ခန်းများသည် Generic ပြန်လည်လေ့လာခြင်းထက် ပို၍ ထိရောက်သည့် အကြောင်းရင်းမှာ ၎င်းတို့သည်...",
+          optionsEn: [
+            "Directly address the specific gaps in an individual's performance",
+            "Take significantly less total time to complete",
+            "Require no prior diagnostic information",
+            "Cover every possible topic equally",
+          ],
+          optionsMy: [
+            "တစ်ဦးချင်း စွမ်းဆောင်ရည်ရှိ သီးခြား ကွာဟချက်များကို တိုက်ရိုက် ကိုင်တွယ်သောကြောင့်",
+            "ပြီးမြောက်ရန် စုစုပေါင်း အချိန် သိသိသာသာ နည်းသောကြောင့်",
+            "ယခင် ရောဂါရှာဖွေမှု အချက်အလက် မလိုအပ်သောကြောင့်",
+            "ဖြစ်နိုင်သော ခေါင်းစဉ်တိုင်းကို တညီတညွတ်တည်း လွှမ်းခြုံသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the final countdown, revision time is best spent on...",
+          questionMy:
+              "နောက်ဆုံး ရေတွက်ချိန်တွင် ပြန်လည်လေ့လာချိန်ကို ...အပေါ် အသုံးချဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Deepening topics that are already mostly secure, and fixing specific known gaps",
+            "Cramming entirely new topics never studied before",
+            "Avoiding all further study entirely",
+            "Studying unrelated subjects",
+          ],
+          optionsMy: [
+            "အများအားဖြင့် လုံခြုံပြီးသား ခေါင်းစဉ်များကို နက်ရှိုင်းအောင်ပြုလုပ်ပြီး သိထားသော သီးခြား ကွာဟချက်များကို ပြင်ဆင်ရန်",
+            "ယခင် ဘယ်တော့မှ လေ့လာခဲ့ခြင်း မရှိသော ခေါင်းစဉ်အသစ်များကို အလွတ်ကျက်ရန်",
+            "နောက်ထပ် လေ့လာမှုအားလုံးကို လုံးလုံးလျားလျား ရှောင်ရှားရန်",
+            "မသက်ဆိုင်သော ဘာသာရပ်များကို လေ့လာရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Final Countdown Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နောက်ဆုံး ရေတွက်ချိန် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w33-dm-1",
+          termEn: "Targeted remediation",
+          termMy: "Targeted Remediation",
+          matchEn:
+              "Focused practice addressing an individual's specific identified weaknesses",
+          matchMy:
+              "တစ်ဦးချင်း၏ သီးခြား ခွဲခြားသတ်မှတ်ထားသော အားနည်းချက်များကို ကိုင်တွယ်သော အာရုံစိုက် လေ့ကျင့်ခန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w33-dm-2",
+          termEn: "Diagnostic gap",
+          termMy: "Diagnostic Gap",
+          matchEn:
+              "A specific, documented weakness identified through prior assessment",
+          matchMy:
+              "ယခင် အကဲဖြတ်မှုမှတဆင့် ခွဲခြားသတ်မှတ်ထားသော သီးခြား၊ မှတ်တမ်းတင်ထားသော အားနည်းချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w33-dm-3",
+          termEn: "Fundamentals",
+          termMy: "Fundamentals",
+          matchEn:
+              "Core, foundational skills that can slip under exam pressure if not maintained",
+          matchMy:
+              "ဆက်လက် မထိန်းသိမ်းပါက စာမေးပွဲ ဖိအားအောက်တွင် လွတ်ကျွတ်သွားနိုင်သော အခြေခံ၊ ဗဟိုချက် ကျွမ်းကျင်မှုများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w33-dm-4",
+          termEn: "Deepening",
+          termMy: "Deepening",
+          matchEn:
+              "Strengthening topics already mostly secure, rather than cramming new ones",
+          matchMy:
+              "ခေါင်းစဉ်အသစ်များကို အလွတ်ကျက်မည့်အစား အများအားဖြင့် လုံခြုံပြီးသား ခေါင်းစဉ်များကို ပိုမိုအားကောင်းစေခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w33-dm-5",
+          termEn: "Personalised drill",
+          termMy: "Personalised Drill",
+          matchEn:
+              "A practice exercise tailored to an individual student's specific needs",
+          matchMy:
+              "ကျောင်းသားတစ်ဦး၏ သီးခြား လိုအပ်ချက်များနှင့် ကိုက်ညီအောင် ပြင်ဆင်ထားသော လေ့ကျင့်ခန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Deepen or Cram?",
+      titleMy: "စီစစ်ကြမည် - နက်ရှိုင်းအောင်ပြုလုပ်မလား အလွတ်ကျက်မလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Deepen (Wise)", "Cram New Topics (Risky)"],
+        bucketsMy: [
+          "နက်ရှိုင်းအောင်ပြုလုပ်ပါ (ပညာရှိ)",
+          "ခေါင်းစဉ်အသစ်များ အလွတ်ကျက်ပါ (အန္တရာယ်ရှိ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w33-sort-1",
+            labelEn:
+                "Re-practising the exact skill flagged in a previous mock's feedback",
+            labelMy:
+                "ယခင် ပုံစံတူ စာမေးပွဲ၏ တုံ့ပြန်ချက်တွင် အမှတ်အသားပြုထားသော ကျွမ်းကျင်မှု အတိအကျကို ပြန်လည် လေ့ကျင့်ခြင်း",
+            correctBucketEn: "Deepen (Wise)",
+            correctBucketMy: "နက်ရှိုင်းအောင်ပြုလုပ်ပါ (ပညာရှိ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w33-sort-2",
+            labelEn:
+                "Trying to learn an entirely unfamiliar literary technique the night before the exam",
+            labelMy:
+                "စာမေးပွဲ မတိုင်မီညတွင် လုံးဝ ရင်းနှီးမှု မရှိသော စာပေ နည်းပညာတစ်ခုကို သင်ယူရန် ကြိုးစားခြင်း",
+            correctBucketEn: "Cram New Topics (Risky)",
+            correctBucketMy: "ခေါင်းစဉ်အသစ်များ အလွတ်ကျက်ပါ (အန္တရာယ်ရှိ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w33-sort-3",
+            labelEn:
+                "Reviewing personal notes on frequently confused terms from earlier terms",
+            labelMy:
+                "ယခင်နှစ်ဝက်များမှ မကြာခဏ ရောထွေးတတ်သော ဝေါဟာရများအကြောင်း ကိုယ်ပိုင် မှတ်စုများကို ပြန်လည် သုံးသပ်ခြင်း",
+            correctBucketEn: "Deepen (Wise)",
+            correctBucketMy: "နက်ရှိုင်းအောင်ပြုလုပ်ပါ (ပညာရှိ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w33-sort-4",
+            labelEn:
+                "Attempting to memorise an entirely new set of vocabulary the morning of the exam",
+            labelMy:
+                "စာမေးပွဲ နံနက်ခင်းတွင် လုံးဝ ဝေါဟာရအစုံအသစ်တစ်ခုကို အလွတ်ကျက်ရန် ကြိုးစားခြင်း",
+            correctBucketEn: "Cram New Topics (Risky)",
+            correctBucketMy: "ခေါင်းစဉ်အသစ်များ အလွတ်ကျက်ပါ (အန္တရာယ်ရှိ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Personalised Revision Plan",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ကိုယ်ရေးကိုယ်တာ ပြန်လည်လေ့လာမှု အစီအစဉ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Personalised Revision Plan",
+        titleMy: "နေချည်၏ ကိုယ်ရေးကိုယ်တာ ပြန်လည်လေ့လာမှု အစီအစဉ်",
+        passageEn:
+            "With four weeks left before her real IGCSE English exam, Nay Chi sat down with Ko Thura to design a revision plan built entirely around her Term 8 mock feedback rather than a generic list of everything the syllabus covered.\n\nHer single documented weakness -- rushing the final proofreading pass under time pressure -- became the centrepiece of her Week 33 practice. Rather than writing entirely new full essays every day, she practised a specific micro-drill: taking already-completed drafts and timing herself proofreading each one in exactly ninety seconds, training the specific skill under the specific time constraint that had caused the original problem. Ko Thura resisted the urge to introduce anything new during this week, even though he could think of dozens of additional literary techniques she hadn't yet studied.\n\nHe explained his reasoning directly: introducing new content this close to the exam risked diluting her confidence in skills she had already mastered, replacing secure knowledge with half-formed new knowledge under pressure. Far better, he said, to walk into the exam with eight terms' worth of skills operating at full strength than nine terms' worth operating at seventy percent strength each. Nay Chi's revision plan for the week contained no new topics at all -- only the deliberate deepening of what she already knew, aimed with surgical precision at the single specific gap her mock exam had revealed.",
+        passageMy:
+            "သူမ၏ အမှန်တကယ် IGCSE အင်္ဂလိပ်စာ စာမေးပွဲမတိုင်မီ ရက်သတ္တပတ် ၄ ပတ် ကျန်ရှိတော့သောအခါ နေချည်သည် သင်ရိုးညွှန်းတမ်း လွှမ်းခြုံသော အရာအားလုံး၏ Generic စာရင်းတစ်ခုထက် သူမ၏ တန်းရှစ်တန်း ပုံစံတူ တုံ့ပြန်ချက်ပတ်ပတ်လည် လုံးဝ တည်ဆောက်ထားသော ပြန်လည်လေ့လာမှု အစီအစဉ်တစ်ခု ဒီဇိုင်းထုတ်ရန် ကိုသူရနှင့် ထိုင်ခဲ့သည်။\n\nသူမ၏ တစ်ခုတည်းသော မှတ်တမ်းတင်ထားသော အားနည်းချက် -- အချိန်ဖိအားအောက်တွင် နောက်ဆုံး Proofreading Pass ကို အလျင်စလို ပြုလုပ်ခြင်း -- သည် သူမ၏ သုံးဆယ့်သုံးပတ် လေ့ကျင့်မှု၏ ဗဟိုချက် ဖြစ်လာခဲ့သည်။ နေ့စဉ် Essay အသစ် အပြည့်အစုံများ ရေးသားမည့်အစား သူမသည် တိကျသော Micro-Drill တစ်ခုကို လေ့ကျင့်ခဲ့သည် - ပြီးစီးထားပြီးသား မူကြမ်းများကို ယူပြီး တစ်ခုစီကို စက္ကန့် ၉၀ အတိအကျဖြင့် Proofread ပြုလုပ်ရန် ကိုယ်တိုင် အချိန်ကိုက်ခြင်း၊ မူလ ပြဿနာကို ဖြစ်စေခဲ့သော သီးခြား အချိန် ကန့်သတ်ချက်အောက်တွင် သီးခြား ကျွမ်းကျင်မှုကို လေ့ကျင့်ခြင်း။ ကိုသူရသည် သူမ ယခုမှ မလေ့လာရသေးသော စာပေ နည်းပညာများစွာကို တွေးမိသော်လည်း ဤအပတ်အတွင်း တစ်ခုခု အသစ် မိတ်ဆက်ရန် ဆန္ဒကို ခုခံခဲ့သည်။\n\nသူသည် သူ၏ ကျိုးကြောင်းဆင်ခြင်ချက်ကို တိုက်ရိုက် ရှင်းပြခဲ့သည် - စာမေးပွဲနှင့် ဤမျှ နီးကပ်စွာ အကြောင်းအရာအသစ် မိတ်ဆက်ခြင်းသည် သူမ ကျွမ်းကျင်လာပြီးသား ကျွမ်းကျင်မှုများအပေါ် ယုံကြည်မှုကို ပါးလွှာစေရန် အန္တရာယ်ရှိပြီး၊ ဖိအားအောက်တွင် လုံခြုံသော အသိပညာကို ထက်ဝက်သာ ပုံစံဖော်ထားသော အသိပညာအသစ်ဖြင့် အစားထိုးနိုင်သည်။ ကျွမ်းကျင်မှု တစ်ခုစီ ၇၀ ရာခိုင်နှုန်းသာ အင်အားနှင့် လုပ်ဆောင်နေသော နှစ်ဝက်ကိုးဝက်စာ ကျွမ်းကျင်မှုထက် နှစ်ဝက်ရှစ်ဝက်စာ ကျွမ်းကျင်မှုကို အင်အားပြည့်ဖြင့် လုပ်ဆောင်နေဆဲအခြေအနေဖြင့် စာမေးပွဲထဲသို့ ဝင်ရောက်ရသည်က ပို၍ ကောင်းမွန်ကြောင်း သူ ပြောခဲ့သည်။ ထိုအပတ်အတွက် နေချည်၏ ပြန်လည်လေ့လာမှု အစီအစဉ်တွင် ခေါင်းစဉ်အသစ် လုံးဝ မပါခဲ့ပါ -- သူမ၏ ပုံစံတူ စာမေးပွဲ ဖော်ထုတ်ခဲ့သော တစ်ခုတည်းသော သီးခြား ကွာဟချက်ကို ခွဲစိတ်ကုသနည်း တိကျမှုဖြင့် ပစ်မှတ်ထားသော သူမ ယခင်က သိထားပြီးသား အရာကို ရည်ရွယ်ချက်ရှိရှိ နက်ရှိုင်းအောင်ပြုလုပ်ခြင်းသာ ပါဝင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific micro-drill did Nay Chi practise?",
+            questionMy:
+                "နေချည် မည်သည့် တိကျသော Micro-Drill လေ့ကျင့်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Proofreading already-completed drafts in exactly ninety seconds each",
+              "Writing entirely new essays every day",
+              "Memorising the whole syllabus word for word",
+              "Reading unrelated novels for pleasure",
+            ],
+            optionsMy: [
+              "ပြီးစီးထားပြီးသား မူကြမ်းများကို တစ်ခုစီ စက္ကန့် ၉၀ အတိအကျဖြင့် Proofread ပြုလုပ်ခြင်း",
+              "နေ့စဉ် Essay အသစ် အပြည့်အစုံများ ရေးသားခြင်း",
+              "သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "မသက်ဆိုင်သော ဝတ္ထုများကို ပျော်ရွှင်ရန် ဖတ်ရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the specific micro-drill."],
+            hintsMy: [
+              "တိကျသော Micro-Drill အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Ko Thura avoid introducing new content this close to the exam?",
+            questionMy:
+                "စာမေးပွဲနှင့် ဤမျှ နီးကပ်စွာ အကြောင်းအရာအသစ် မိတ်ဆက်ခြင်းကို ကိုသူရ အဘယ်ကြောင့် ရှောင်ရှားခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It risked diluting confidence in already-mastered skills",
+              "It was against exam board regulations",
+              "There was no more time in the school day",
+              "Nay Chi refused to learn anything new",
+            ],
+            optionsMy: [
+              "ကျွမ်းကျင်လာပြီးသား ကျွမ်းကျင်မှုများအပေါ် ယုံကြည်မှုကို ပါးလွှာစေရန် အန္တရာယ် ရှိသောကြောင့်",
+              "စာမေးပွဲအဖွဲ့ စည်းမျဉ်းများနှင့် ဆန့်ကျင်သောကြောင့်",
+              "ကျောင်းနေ့တွင် အချိန် နောက်ထပ် မရှိတော့သောကြောင့်",
+              "နေချည်သည် မည်သည့်အရာအသစ်ကိုမျှ သင်ယူရန် ငြင်းဆန်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining Ko Thura's reasoning."],
+            hintsMy: [
+              "ကိုသူရ၏ ကျိုးကြောင်းဆင်ခြင်ချက်ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Nay Chi's Week 33 revision plan contain?",
+            questionMy:
+                "နေချည်၏ သုံးဆယ့်သုံးပတ် ပြန်လည်လေ့လာမှု အစီအစဉ်တွင် ဘာ ပါဝင်ခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No new topics at all -- only deliberate deepening of existing knowledge",
+              "Only brand-new, unfamiliar topics",
+              "A complete break from all English study",
+              "Random topics chosen with no plan",
+            ],
+            optionsMy: [
+              "ခေါင်းစဉ်အသစ် လုံးဝ မပါဘဲ -- ရှိပြီးသား အသိပညာကို ရည်ရွယ်ချက်ရှိရှိ နက်ရှိုင်းအောင်ပြုလုပ်ခြင်းသာ",
+              "လုံးဝ အသစ်၊ မရင်းနှီးသော ခေါင်းစဉ်များကိုသာ",
+              "အင်္ဂလိပ်စာ လေ့လာမှုအားလုံးမှ လုံးဝ ရပ်နားခြင်း",
+              "အစီအစဉ် မရှိဘဲ ရွေးချယ်ထားသော ကျပန်း ခေါင်းစဉ်များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Targeted Remediation",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - အထူးပြုပြင်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Targeted remediation focuses on...",
+          questionMy: "အထူးပြုပြင်ခြင်းသည် ...အပေါ် အာရုံစိုက်သည်",
+          optionsEn: [
+            "Individually identified weak points",
+            "Random unrelated topics",
+            "Only already-strongest skills",
+            "Nothing specific",
+          ],
+          optionsMy: [
+            "တစ်ဦးချင်း ခွဲခြားသတ်မှတ်ထားသော အားနည်းချက်များ",
+            "ကျပန်း၊ မသက်ဆိုင်သော ခေါင်းစဉ်များ",
+            "အားအကောင်းဆုံး ကျွမ်းကျင်မှုများကိုသာ",
+            "တိကျသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the final weeks, revision time is best spent...",
+          questionMy:
+              "နောက်ဆုံး ရက်သတ္တပတ်များတွင် ပြန်လည်လေ့လာချိန်ကို ...အသုံးချဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Deepening secure topics and fixing known gaps",
+            "Cramming entirely new material",
+            "Avoiding all study",
+            "Studying unrelated subjects",
+          ],
+          optionsMy: [
+            "လုံခြုံသော ခေါင်းစဉ်များကို နက်ရှိုင်းအောင်ပြုလုပ်ပြီး သိထားသော ကွာဟချက်များကို ပြင်ဆင်ရန်",
+            "ခေါင်းစဉ်အသစ်များကို လုံးဝ အလွတ်ကျက်ရန်",
+            "လေ့လာမှုအားလုံးကို ရှောင်ရှားရန်",
+            "မသက်ဆိုင်သော ဘာသာရပ်များကို လေ့လာရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Introducing new content close to the exam risks...",
+          questionMy:
+              "စာမေးပွဲနှင့် နီးကပ်စွာ အကြောင်းအရာအသစ် မိတ်ဆက်ခြင်းသည် ...အန္တရာယ် ရှိသည်",
+          optionsEn: [
+            "Diluting confidence in already-mastered skills",
+            "Guaranteeing a higher score",
+            "Nothing negative at all",
+            "Improving exam performance automatically",
+          ],
+          optionsMy: [
+            "ကျွမ်းကျင်လာပြီးသား ကျွမ်းကျင်မှုများအပေါ် ယုံကြည်မှုကို ပါးလွှာစေခြင်း",
+            "ပိုမြင့်သော ရမှတ်ကို အာမခံခြင်း",
+            "အနုတ်လက္ခဏာ မည်သည့်အရာမျှ မရှိခြင်း",
+            "စာမေးပွဲ စွမ်းဆောင်ရည်ကို အလိုအလျောက် တိုးတက်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek34 = CourseWeekDef(
+  id: "course-igcse-eng-w34",
+  weekNumber: 34,
+  titleEn: "Final Exam Stamina and Strategy",
+  titleMy: "နောက်ဆုံး စာမေးပွဲ ခံနိုင်ရည်နှင့် ဗျူဟာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w34-d1",
+      dayNumber: 1,
+      titleEn: "Pacing Strategies for Both Papers",
+      titleMy: "စာစောင် နှစ်ခုစလုံးအတွက် Pacing ဗျူဟာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Mental preparation for a full exam day should include...",
+          questionMy:
+              "စာမေးပွဲ တစ်နေ့လုံးအတွက် စိတ်ပိုင်းဆိုင်ရာ ပြင်ဆင်မှုသည် ...ပါဝင်သင့်သည်",
+          optionsEn: [
+            "Realistic expectations about sustained concentration and fatigue",
+            "Assuming the exam will feel identical to a fresh, short practice session",
+            "Ignoring rest and sleep entirely",
+            "Avoiding all forms of preparation",
+          ],
+          optionsMy: [
+            "ဆက်လက် အာရုံစူးစိုက်မှုနှင့် ပင်ပန်းနွမ်းနယ်မှုအကြောင်း လက်တွေ့ကျသော မျှော်လင့်ချက်များ",
+            "စာမေးပွဲသည် လတ်ဆတ်သော၊ တိုတောင်းသော လေ့ကျင့်ခန်း Session တစ်ခုနှင့် အတိအကျ တူညီမည်ဟု ယူဆခြင်း",
+            "အနားယူခြင်းနှင့် အိပ်စက်ခြင်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ပြင်ဆင်မှု ပုံစံအားလုံးကို ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pacing strategy across a full exam paper means...",
+          questionMy: "စာစောင်တစ်ခုလုံးတစ်လျှောက် Pacing ဗျူဟာဆိုသည်မှာ...",
+          optionsEn: [
+            "Allocating time to each section based on its mark value",
+            "Spending all available time on the first question only",
+            "Ignoring time entirely",
+            "Rushing every question equally regardless of marks",
+          ],
+          optionsMy: [
+            "အပိုင်းတစ်ခုစီကို ၎င်း၏ အမှတ်တန်ဖိုးအပေါ် အခြေခံ၍ အချိန် ခွဲဝေခြင်း",
+            "ပထမဆုံး မေးခွန်းတစ်ခုတည်းအပေါ် ရရှိနိုင်သော အချိန်အားလုံးကို သုံးခြင်း",
+            "အချိန်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "အမှတ် မည်သို့ဖြစ်စေ မေးခွန်းတိုင်းကို တညီတညွတ်တည်း အလျင်စလို ဖြေဆိုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Last-minute tips\" for exam day should focus on...",
+          questionMy:
+              "စာမေးပွဲနေ့အတွက် \"Last-Minute Tips\" များသည် ...အပေါ် အာရုံစိုက်သင့်သည်",
+          optionsEn: [
+            "Practical logistics and calm, confident routine, not new content",
+            "Learning entirely new topics",
+            "Staying up all night studying",
+            "Skipping breakfast to save time",
+          ],
+          optionsMy: [
+            "အကြောင်းအရာအသစ် မဟုတ်ဘဲ လက်တွေ့ကျသော Logistics နှင့် တည်ငြိမ်၊ ယုံကြည်စိတ်ချရသော ပုံမှန်လုပ်ငန်းစဉ်",
+            "လုံးဝ ခေါင်းစဉ်အသစ်များ သင်ယူခြင်း",
+            "တစ်ညလုံး နိုးထလေ့လာခြင်း",
+            "အချိန် ချွေတာရန် မနက်စာ ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sudden feeling of exam-day nervousness is best managed by...",
+          questionMy:
+              "စာမေးပွဲနေ့ စိတ်လှုပ်ရှားမှု ရုတ်တရက် ခံစားရခြင်းကို ...ဖြင့် အကောင်းဆုံး ကိုင်တွယ်နိုင်သည်",
+          optionsEn: [
+            "Relying on well-practised, automatic routines rather than panicking",
+            "Abandoning all preparation and guessing randomly",
+            "Refusing to attempt any questions",
+            "Ignoring the time limit entirely",
+          ],
+          optionsMy: [
+            "စိတ်ရှုပ်ထွေးမည့်အစား ကောင်းစွာ လေ့ကျင့်ထားသော၊ အလိုအလျောက် လုပ်ငန်းစဉ်များအပေါ် မှီခိုခြင်း",
+            "ပြင်ဆင်မှုအားလုံးကို စွန့်လွှတ်ပြီး ကျပန်း မှန်းဆခြင်း",
+            "မေးခွန်း မည်သည်ကိုမျှ ဖြေဆိုရန် ငြင်းဆန်ခြင်း",
+            "အချိန်ကန့်သတ်ချက်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Stamina across a full exam day is best built through...",
+          questionMy:
+              "စာမေးပွဲ တစ်နေ့လုံးအတွက် ခံနိုင်ရည်ကို ...မှတဆင့် အကောင်းဆုံး တည်ဆောက်နိုင်သည်",
+          optionsEn: [
+            "Practising under conditions that mirror the real exam's length and structure",
+            "Only ever practising short, fresh ten-minute sessions",
+            "Avoiding any timed practice entirely",
+            "Sleeping through all practice sessions",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် စာမေးပွဲ၏ အရှည်နှင့် ဖွဲ့စည်းပုံကို ရောင်ပြန်ဟပ်သော အခြေအနေများအောက်တွင် လေ့ကျင့်ခြင်း",
+            "တိုတောင်း၍ လတ်ဆတ်သော ဆယ်မိနစ် Session များကိုသာ အမြဲ လေ့ကျင့်ခြင်း",
+            "အချိန်ကန့်သတ်ထားသော လေ့ကျင့်ခန်းအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            "လေ့ကျင့်ခန်း Session အားလုံးတွင် အိပ်ပျော်နေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exam Strategy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စာမေးပွဲ ဗျူဟာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w34-dm-1",
+          termEn: "Pacing strategy",
+          termMy: "Pacing Strategy",
+          matchEn:
+              "Allocating exam time to each section based on its mark value",
+          matchMy:
+              "အပိုင်းတစ်ခုစီကို ၎င်း၏ အမှတ်တန်ဖိုးအပေါ် အခြေခံ၍ စာမေးပွဲအချိန် ခွဲဝေခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w34-dm-2",
+          termEn: "Exam stamina",
+          termMy: "Exam Stamina",
+          matchEn:
+              "The ability to sustain focus and quality across a full exam day",
+          matchMy:
+              "စာမေးပွဲ တစ်နေ့လုံးတစ်လျှောက် အာရုံစူးစိုက်မှုနှင့် အရည်အသွေးကို ဆက်လက် ထိန်းသိမ်းနိုင်စွမ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w34-dm-3",
+          termEn: "Automatic routine",
+          termMy: "Automatic Routine",
+          matchEn:
+              "A well-practised habit that requires little conscious effort under pressure",
+          matchMy:
+              "ဖိအားအောက်တွင် ဆင်ခြင်တုံတရားရှိသော ကြိုးစားမှု အနည်းငယ်သာ လိုအပ်သော ကောင်းစွာ လေ့ကျင့်ထားသော အလေ့အထ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w34-dm-4",
+          termEn: "Mental preparation",
+          termMy: "Mental Preparation",
+          matchEn:
+              "Realistic psychological readiness for the demands of exam day",
+          matchMy:
+              "စာမေးပွဲနေ့၏ တောင်းဆိုချက်များအတွက် လက်တွေ့ကျသော စိတ်ပိုင်းဆိုင်ရာ အသင့်ဖြစ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w34-dm-5",
+          termEn: "Exam-day logistics",
+          termMy: "Exam-Day Logistics",
+          matchEn:
+              "Practical arrangements like materials, timing, and route to the exam venue",
+          matchMy:
+              "ပစ္စည်းများ၊ အချိန်ကိုက်ခြင်းနှင့် စာမေးပွဲ ကျင်းပရာသို့ သွားလမ်းကဲ့သို့ လက်တွေ့ကျသော စီစဉ်မှုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Helpful or Harmful Exam-Day Habit?",
+      titleMy:
+          "စီစစ်ကြမည် - အထောက်အကူ ဖြစ်သော (သို့) ထိခိုက်စေသော စာမေးပွဲနေ့ အလေ့အထ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Helpful", "Harmful"],
+        bucketsMy: ["အထောက်အကူ ဖြစ်သော", "ထိခိုက်စေသော"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w34-sort-1",
+            labelEn: "Getting a full night's sleep before the exam",
+            labelMy: "စာမေးပွဲမတိုင်မီ တစ်ညလုံး အိပ်စက်ခြင်း",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အထောက်အကူ ဖြစ်သော",
+          ),
+          SortingItem(
+            id: "igcseeng-w34-sort-2",
+            labelEn: "Staying up all night cramming brand-new topics",
+            labelMy: "ခေါင်းစဉ်အသစ်များကို အလွတ်ကျက်ရန် တစ်ညလုံး နိုးထနေခြင်း",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "ထိခိုက်စေသော",
+          ),
+          SortingItem(
+            id: "igcseeng-w34-sort-3",
+            labelEn: "Checking mark allocations before answering each section",
+            labelMy:
+                "အပိုင်းတစ်ခုစီကို မဖြေဆိုမီ အမှတ်ခွဲဝေမှုများကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Helpful",
+            correctBucketMy: "အထောက်အကူ ဖြစ်သော",
+          ),
+          SortingItem(
+            id: "igcseeng-w34-sort-4",
+            labelEn:
+                "Spending forty minutes on a question worth only two marks",
+            labelMy:
+                "အမှတ် ၂ မှတ်သာ တန်ဖိုးရှိသော မေးခွန်းတစ်ခုအတွက် မိနစ် ၄၀ ကုန်ဆုံးစေခြင်း",
+            correctBucketEn: "Harmful",
+            correctBucketMy: "ထိခိုက်စေသော",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Full-Day Stamina Test",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ တစ်နေ့လုံး ခံနိုင်ရည် စစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Full-Day Stamina Test",
+        titleMy: "နေချည်၏ တစ်နေ့လုံး ခံနိုင်ရည် စစ်ဆေးမှု",
+        passageEn:
+            "Ko Thura scheduled Week 34's practice session to begin at the exact time the real exam would start, in a room deliberately kept slightly too warm, with only the specific pens and materials Nay Chi would be permitted to bring on the real day. He explained that exam-day performance depended on more than knowledge alone -- unfamiliar conditions could quietly drain concentration that should have gone toward the actual questions.\n\nHalfway through the simulated Paper 2, Nay Chi noticed her mind beginning to wander during a routine planning stage, precisely the kind of mid-exam fatigue dip Ko Thura had warned her to expect. Rather than fighting it with panic, she fell back on a specific pre-agreed routine: a slow, deliberate breath, a glance at her time-allocation notes scrawled in the margin, and a return to the same skim-read-then-plan sequence she had practised dozens of times since Term 1. The routine itself, requiring no fresh thinking to execute, carried her through the dip without derailing her pacing.\n\nAfterward, Ko Thura asked her what had felt different about this practice compared to earlier terms' shorter drills. Nay Chi realised the honest answer: not the writing itself, which felt largely unchanged, but the management of her own attention and energy across sustained hours, a skill no single essay-writing drill could teach in isolation. He told her this was exactly why Term 9 simulated full exam days rather than isolated skill practice -- stamina and composure under real conditions were themselves exam skills, just as real and just as trainable as inference or thesis-writing, and equally capable of costing marks if left unpractised until the real day arrived.",
+        passageMy:
+            "ကိုသူရသည် သုံးဆယ့်လေးပတ် လေ့ကျင့်ခန်း Session ကို အမှန်တကယ် စာမေးပွဲ စတင်မည့် အချိန် အတိအကျတွင် စတင်ရန် ဇယားဆွဲခဲ့ပြီး၊ ရည်ရွယ်ချက်ရှိရှိ အနည်းငယ် ပူနွေးလွန်းစွာ ထားထားသော အခန်းတစ်ခန်းတွင် နေချည် အမှန်တကယ်နေ့တွင် ယူဆောင်လာခွင့် ရှိမည့် သီးခြား ခဲတံနှင့် ပစ္စည်းများကိုသာ သုံးခွင့်ပေးခဲ့သည်။ စာမေးပွဲနေ့ စွမ်းဆောင်ရည်သည် ဗဟုသုတတစ်ခုတည်းထက် ပို၍ များစွာ အပေါ် မှီခိုသည်ဟု သူ ရှင်းပြခဲ့သည် -- ရင်းနှီးမှု မရှိသော အခြေအနေများသည် အမှန်တကယ် မေးခွန်းများသို့ သွားသင့်သော အာရုံစူးစိုက်မှုကို တိတ်တဆိတ် ဆွဲထုတ်နိုင်သည်။\n\nအတု ပြုလုပ်ထားသော Paper 2 ၏ တစ်ဝက်တွင် နေချည်သည် ပုံမှန် စီစဉ်ရေးအဆင့်အတွင်း သူမ၏ စိတ်ခွန်ငင်စတင်လာသည်ကို သတိပြုမိခဲ့ပြီး၊ ကိုသူရ မျှော်လင့်ထားရန် သတိပေးခဲ့သော စာမေးပွဲ အလယ်ပိုင်း ပင်ပန်းနွမ်းနယ်မှု ကျဆင်းမှု အတိအကျ ဖြစ်ခဲ့သည်။ စိတ်ရှုပ်ထွေးမှုဖြင့် ၎င်းကို တိုက်ခိုက်မည့်အစား သူမသည် သီးခြား ကြိုတင်သဘောတူထားသော လုပ်ငန်းစဉ်တစ်ခုသို့ ပြန်လည်ရောက်ရှိခဲ့သည် - နှေးကွေး၍ ရည်ရွယ်ချက်ရှိသော အသက်ပြင်း၊ အနားစွန်းတွင် အကြမ်းရေးထားသော သူမ၏ အချိန်ခွဲဝေမှု မှတ်စုများကို တစ်ချက် ကြည့်ရှုခြင်းနှင့် ပထမတန်းကတည်းက ကြိမ်ဖန်များစွာ လေ့ကျင့်ခဲ့သော တူညီသော Skim-Read-Then-Plan အစီအစဉ်သို့ ပြန်ရောက်ခြင်း။ ဆောင်ရွက်ရန် လတ်ဆတ်သော တွေးခေါ်မှု မလိုအပ်သော လုပ်ငန်းစဉ်ကိုယ်တိုင်သည် သူမ၏ Pacing ကို လမ်းလွှဲသွားခြင်း မရှိဘဲ ကျဆင်းမှုကို ဖြတ်၍ သယ်ဆောင်သွားခဲ့သည်။\n\nနောက်ပိုင်းတွင် ကိုသူရသည် ယခင်နှစ်ဝက်များ၏ တိုတောင်းသော လေ့ကျင့်ခန်းများနှင့် နှိုင်းယှဉ်လျှင် ဤလေ့ကျင့်ခန်းအကြောင်း ဘာ ကွဲပြားစွာ ခံစားရသနည်းဟု သူမကို မေးခဲ့သည်။ နေချည်သည် ရိုးသားသော အဖြေကို သဘောပေါက်ခဲ့သည် - ရေးသားခြင်းကိုယ်တိုင် မဟုတ်ဘဲ၊ ၎င်းသည် အများအားဖြင့် မပြောင်းလဲခဲ့ဘဲ ခံစားရသည် -- ဆက်လက် နာရီများတစ်လျှောက် သူမ၏ ကိုယ်ပိုင် အာရုံနှင့် စွမ်းအင် စီမံခန့်ခွဲမှု၊ သီးသန့် Essay-Writing လေ့ကျင့်ခန်းတစ်ခုတည်းက သီးခြား သင်ပေးနိုင်မည် မဟုတ်သော ကျွမ်းကျင်မှုတစ်ခု ဖြစ်ခဲ့သည်။ ၎င်းသည် တန်းကိုးတန်းက သီးသန့် ကျွမ်းကျင်မှု လေ့ကျင့်ခြင်းထက် စာမေးပွဲ တစ်နေ့လုံးကို အတု ပြုလုပ်ခဲ့ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း သူ သူမကို ပြောခဲ့သည် -- အမှန်တကယ် အခြေအနေများအောက်ရှိ ခံနိုင်ရည်နှင့် တည်ငြိမ်မှုသည် Inference (သို့) Thesis-Writing ကဲ့သို့ပင် စစ်မှန်ပြီး လေ့ကျင့်နိုင်သော စာမေးပွဲ ကျွမ်းကျင်မှုများကိုယ်တိုင် ဖြစ်ပြီး၊ အမှန်တကယ်နေ့ ရောက်ရှိသည်အထိ မလေ့ကျင့်ခဲ့ပါက အမှတ် ဆုံးရှုံးနိုင်စွမ်း တူညီစွာ ရှိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Ko Thura set up conditions mirroring the real exam?",
+            questionMy:
+                "အမှန်တကယ် စာမေးပွဲကို ရောင်ပြန်ဟပ်သော အခြေအနေများကို ကိုသူရ အဘယ်ကြောင့် စီစဉ်ခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Unfamiliar conditions could quietly drain concentration meant for the questions",
+              "He enjoyed making the room uncomfortable for no reason",
+              "It was required by the school",
+              "It had no real purpose",
+            ],
+            optionsMy: [
+              "ရင်းနှီးမှု မရှိသော အခြေအနေများသည် မေးခွန်းများအတွက် ရည်ရွယ်ထားသော အာရုံစူးစိုက်မှုကို တိတ်တဆိတ် ဆွဲထုတ်နိုင်သောကြောင့်",
+              "အကြောင်းရင်း မရှိဘဲ အခန်းကို မသက်တောင့်မသက်သာ ဖြစ်စေရန် သူ နှစ်သက်ခဲ့သောကြောင့်",
+              "ကျောင်းက တောင်းဆိုသောကြောင့်",
+              "စစ်မှန်သော ရည်ရွယ်ချက် မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nay Chi respond to the mid-exam fatigue dip?",
+            questionMy:
+                "စာမေးပွဲ အလယ်ပိုင်း ပင်ပန်းနွမ်းနယ်မှု ကျဆင်းမှုကို နေချည် မည်သို့ တုံ့ပြန်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She fell back on a specific, pre-agreed routine rather than panicking",
+              "She stopped writing entirely",
+              "She left the exam room",
+              "She ignored the problem completely",
+            ],
+            optionsMy: [
+              "စိတ်မရှုပ်ထွေးဘဲ သီးခြား၊ ကြိုတင်သဘောတူထားသော လုပ်ငန်းစဉ်တစ်ခုသို့ ပြန်လည်ရောက်ရှိခဲ့သည်",
+              "ရေးသားခြင်းကို လုံးဝ ရပ်တန့်ခဲ့သည်",
+              "စာမေးပွဲခန်းမမှ ထွက်ခွာခဲ့သည်",
+              "ပြဿနာကို လုံးဝ လျစ်လျူရှုခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about her response to the fatigue dip.",
+            ],
+            hintsMy: [
+              "ပင်ပန်းနွမ်းနယ်မှု ကျဆင်းမှုအပေါ် သူမ၏ တုံ့ပြန်မှုအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say stamina and composure were?",
+            questionMy:
+                "ခံနိုင်ရည်နှင့် တည်ငြိမ်မှုသည် မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exam skills, just as real and trainable as inference or thesis-writing",
+              "Unimportant qualities with no real effect",
+              "Something impossible to train",
+              "Only relevant to sports, not exams",
+            ],
+            optionsMy: [
+              "Inference (သို့) Thesis-Writing ကဲ့သို့ပင် စစ်မှန်ပြီး လေ့ကျင့်နိုင်သော စာမေးပွဲ ကျွမ်းကျင်မှုများ",
+              "စစ်မှန်သော သက်ရောက်မှု မရှိသော အရေးမပါသော ဂုဏ်ရည်များ",
+              "လေ့ကျင့်၍ မရနိုင်သော တစ်ခုခု",
+              "အားကစားနှင့်သာ သက်ဆိုင်ပြီး စာမေးပွဲနှင့် မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Exam Stamina and Strategy",
+      titleMy:
+          "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - စာမေးပွဲ ခံနိုင်ရည်နှင့် ဗျူဟာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pacing strategy means allocating time based on...",
+          questionMy:
+              "Pacing ဗျူဟာဆိုသည်မှာ ...အပေါ် အခြေခံ၍ အချိန် ခွဲဝေခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Each section's mark value",
+            "Random choice",
+            "The first question only",
+            "Nothing specific",
+          ],
+          optionsMy: [
+            "အပိုင်းတစ်ခုစီ၏ အမှတ်တန်ဖိုး",
+            "ကျပန်း ရွေးချယ်မှု",
+            "ပထမဆုံး မေးခွန်းတစ်ခုတည်း",
+            "တိကျသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Exam-day nervousness is best managed by relying on...",
+          questionMy:
+              "စာမေးပွဲနေ့ စိတ်လှုပ်ရှားမှုကို ...အပေါ် မှီခို၍ အကောင်းဆုံး ကိုင်တွယ်နိုင်သည်",
+          optionsEn: [
+            "Well-practised, automatic routines",
+            "Panic and guessing",
+            "Abandoning all questions",
+            "Ignoring the time limit",
+          ],
+          optionsMy: [
+            "ကောင်းစွာ လေ့ကျင့်ထားသော၊ အလိုအလျောက် လုပ်ငန်းစဉ်များ",
+            "စိတ်ရှုပ်ထွေးမှုနှင့် မှန်းဆခြင်း",
+            "မေးခွန်းအားလုံးကို စွန့်လွှတ်ခြင်း",
+            "အချိန်ကန့်သတ်ချက်ကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Stamina and composure under real exam conditions are...",
+          questionMy:
+              "အမှန်တကယ် စာမေးပွဲ အခြေအနေများအောက်ရှိ ခံနိုင်ရည်နှင့် တည်ငြိမ်မှုသည်...",
+          optionsEn: [
+            "Real, trainable exam skills",
+            "Impossible to improve",
+            "Irrelevant to the final score",
+            "Only relevant outside the exam",
+          ],
+          optionsMy: [
+            "စစ်မှန်ပြီး လေ့ကျင့်နိုင်သော စာမေးပွဲ ကျွမ်းကျင်မှုများ",
+            "တိုးတက်၍ မရနိုင်ခြင်း",
+            "နောက်ဆုံး ရမှတ်နှင့် မသက်ဆိုင်ခြင်း",
+            "စာမေးပွဲပြင်ပတွင်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek35 = CourseWeekDef(
+  id: "course-igcse-eng-w35",
+  weekNumber: 35,
+  titleEn: "The Final Warm-Up Simulation",
+  titleMy: "နောက်ဆုံး အကြိုလေ့ကျင့်ခန်း ပုံစံတူ ဖြေဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w35-d1",
+      dayNumber: 1,
+      titleEn: "Light Past Paper Practice and Anxiety Reduction",
+      titleMy:
+          "ပေါ့ပါးသော မေးခွန်းဟောင်း လေ့ကျင့်ခန်းနှင့် စိုးရိမ်ပူပန်မှု လျှော့ချခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the final week before an exam, practice intensity should typically...",
+          questionMy:
+              "စာမေးပွဲမတိုင်မီ နောက်ဆုံးအပတ်တွင် လေ့ကျင့်မှု ပြင်းအား ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Taper to lighter, confidence-building review rather than intense new drilling",
+            "Increase to the most intense level ever attempted",
+            "Stop completely with zero further contact",
+            "Focus entirely on brand-new topics",
+          ],
+          optionsMy: [
+            "ပြင်းထန်သော လေ့ကျင့်ခန်းအသစ်ထက် ပေါ့ပါးသော၊ ယုံကြည်မှု တည်ဆောက်ပေးသော ပြန်လည်သုံးသပ်ခြင်းသို့ ကျဆင်းသင့်သည်",
+            "ကြိုးစားဖူးသမျှ အပြင်းအထန်ဆုံး အဆင့်သို့ တိုးမြှင့်သင့်သည်",
+            "နောက်ထပ် ဆက်သွယ်မှု လုံးဝ မရှိဘဲ လုံးလုံးလျားလျား ရပ်တန့်သင့်သည်",
+            "ခေါင်းစဉ်အသစ်များအပေါ်သာ လုံးလုံးလျားလျား အာရုံစိုက်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Anxiety reduction\" before an exam is best supported by...",
+          questionMy:
+              "စာမေးပွဲမတိုင်မီ \"Anxiety Reduction\" ကို ...ဖြင့် အကောင်းဆုံး ပံ့ပိုးနိုင်သည်",
+          optionsEn: [
+            "Familiar, low-stress practice that reinforces existing confidence",
+            "Introducing unfamiliar, high-pressure surprises",
+            "Avoiding all preparation entirely",
+            "Comparing oneself constantly to other candidates",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား ယုံကြည်မှုကို အားဖြည့်ပေးသော ရင်းနှီးသော၊ စိတ်ဖိစီးမှု နည်းသော လေ့ကျင့်ခန်း",
+            "ရင်းနှီးမှု မရှိသော၊ ဖိအားကြီးသော အံ့သြစရာများ မိတ်ဆက်ခြင်း",
+            "ပြင်ဆင်မှုအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            "အခြား ဖြေဆိုသူများနှင့် အမြဲ နှိုင်းယှဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A \"final review\" in the last week should prioritise...",
+          questionMy:
+              "နောက်ဆုံးအပတ်ရှိ \"Final Review\" တစ်ခုသည် ...ကို ဦးစားပေးသင့်သည်",
+          optionsEn: [
+            "Confidence-building recall of core skills already mastered",
+            "Panic-driven cramming of unfamiliar material",
+            "Avoiding any review at all",
+            "Learning an entirely different subject",
+          ],
+          optionsMy: [
+            "ကျွမ်းကျင်ပြီးသား ဗဟိုချက် ကျွမ်းကျင်မှုများကို ယုံကြည်မှု တည်ဆောက်ပေးသော ပြန်လည်သတိရခြင်း",
+            "ရင်းနှီးမှု မရှိသော အကြောင်းအရာကို စိတ်ရှုပ်ထွေးလျက် အလွတ်ကျက်ခြင်း",
+            "ပြန်လည်သုံးသပ်ခြင်း မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားခြင်း",
+            "လုံးဝ ကွဲပြားသော ဘာသာရပ်တစ်ခုကို သင်ယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A calm, controlled final warm-up mock is designed primarily to build...",
+          questionMy:
+              "တည်ငြိမ်၊ ထိန်းချုပ်ထားသော နောက်ဆုံး အကြိုလေ့ကျင့်ခန်း ပုံစံတူကို အဓိကအားဖြင့် ...တည်ဆောက်ရန် ဒီဇိုင်းထုတ်ထားသည်",
+          optionsEn: [
+            "Unbreakable confidence ahead of the real exam",
+            "Additional stress and self-doubt",
+            "Entirely new knowledge",
+            "Confusion about exam format",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် စာမေးပွဲမတိုင်မီ မကျိုးမပဲ့နိုင်သော ယုံကြည်မှု",
+            "ထပ်ဆောင်း စိတ်ဖိစီးမှုနှင့် ကိုယ့်ကိုယ်ကို သံသယဝင်ခြင်း",
+            "လုံးဝ အသိပညာအသစ်",
+            "စာမေးပွဲ ပုံစံအကြောင်း ရှုပ်ထွေးမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reducing practice intensity in the final week does not mean...",
+          questionMy:
+              "နောက်ဆုံးအပတ်တွင် လေ့ကျင့်မှု ပြင်းအား လျှော့ချခြင်းသည် ...ကို ဆိုလိုခြင်း မဟုတ်ပါ",
+          optionsEn: [
+            "Stopping all practice entirely",
+            "Focusing on confidence over intensity",
+            "Reviewing core skills lightly",
+            "Prioritising rest and calm",
+          ],
+          optionsMy: [
+            "လေ့ကျင့်မှုအားလုံးကို လုံးလုံးလျားလျား ရပ်တန့်ခြင်း",
+            "ပြင်းအားထက် ယုံကြည်မှုအပေါ် အာရုံစိုက်ခြင်း",
+            "ဗဟိုချက် ကျွမ်းကျင်မှုများကို ပေါ့ပါးစွာ ပြန်လည်သုံးသပ်ခြင်း",
+            "အနားယူခြင်းနှင့် တည်ငြိမ်မှုကို ဦးစားပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Final Warm-Up Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နောက်ဆုံး အကြိုလေ့ကျင့်ခန်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w35-dm-1",
+          termEn: "Tapering",
+          termMy: "Tapering",
+          matchEn: "Gradually reducing practice intensity before a major exam",
+          matchMy:
+              "အဓိက စာမေးပွဲတစ်ခုမတိုင်မီ လေ့ကျင့်မှု ပြင်းအားကို တဖြည်းဖြည်း လျှော့ချခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w35-dm-2",
+          termEn: "Confidence-building review",
+          termMy: "Confidence-Building Review",
+          matchEn:
+              "Familiar, low-stress practice reinforcing already-mastered skills",
+          matchMy:
+              "ကျွမ်းကျင်ပြီးသား ကျွမ်းကျင်မှုများကို အားဖြည့်ပေးသော ရင်းနှီးသော၊ စိတ်ဖိစီးမှု နည်းသော လေ့ကျင့်ခန်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w35-dm-3",
+          termEn: "Exam anxiety",
+          termMy: "Exam Anxiety",
+          matchEn:
+              "Nervous, stressful feelings arising before or during an examination",
+          matchMy:
+              "စာမေးပွဲမတိုင်မီ (သို့) အတွင်း ပေါ်ပေါက်လာသော စိတ်လှုပ်ရှား၊ စိတ်ဖိစီးဖွယ် ခံစားချက်များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w35-dm-4",
+          termEn: "Warm-up mock",
+          termMy: "Warm-Up Mock",
+          matchEn:
+              "A final, low-stakes practice exam designed to build confidence",
+          matchMy:
+              "ယုံကြည်မှု တည်ဆောက်ရန် ဒီဇိုင်းထုတ်ထားသော အန္တရာယ်နည်းသော နောက်ဆုံး လေ့ကျင့်ခန်း စာမေးပွဲ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w35-dm-5",
+          termEn: "Core skill recall",
+          termMy: "Core Skill Recall",
+          matchEn:
+              "Reviewing already-secure fundamental skills rather than learning anew",
+          matchMy:
+              "အသစ် သင်ယူမည့်အစား ရှိပြီးသား လုံခြုံသော အခြေခံ ကျွမ်းကျင်မှုများကို ပြန်လည်သုံးသပ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Wise or Unwise Final-Week Choice?",
+      titleMy:
+          "စီစစ်ကြမည် - ပညာရှိ (သို့) မပညာရှိသော နောက်ဆုံးအပတ် ရွေးချယ်မှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Wise Choice", "Unwise Choice"],
+        bucketsMy: ["ပညာရှိသော ရွေးချယ်မှု", "မပညာရှိသော ရွေးချယ်မှု"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w35-sort-1",
+            labelEn: "A calm, timed review of already-strong essay techniques",
+            labelMy:
+                "ရှိပြီးသား အားကောင်းသော Essay နည်းပညာများကို တည်ငြိမ်စွာ၊ အချိန်ကိုက် ပြန်လည်သုံးသပ်ခြင်း",
+            correctBucketEn: "Wise Choice",
+            correctBucketMy: "ပညာရှိသော ရွေးချယ်မှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w35-sort-2",
+            labelEn:
+                "Attempting to master an entirely new literary movement two days before the exam",
+            labelMy:
+                "စာမေးပွဲမတိုင်မီ ရက်နှစ်ရက်တွင် လုံးဝ စာပေ လှုပ်ရှားမှုအသစ်တစ်ခုကို ကျွမ်းကျင်အောင် ကြိုးစားခြင်း",
+            correctBucketEn: "Unwise Choice",
+            correctBucketMy: "မပညာရှိသော ရွေးချယ်မှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w35-sort-3",
+            labelEn: "Getting adequate sleep the night before the exam",
+            labelMy: "စာမေးပွဲမတိုင်မီညတွင် လုံလောက်စွာ အိပ်စက်ခြင်း",
+            correctBucketEn: "Wise Choice",
+            correctBucketMy: "ပညာရှိသော ရွေးချယ်မှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w35-sort-4",
+            labelEn:
+                "Comparing anxiously with classmates' revision schedules the morning of the exam",
+            labelMy:
+                "စာမေးပွဲနေ့ မနက်တွင် အတန်းသားများ၏ ပြန်လည်လေ့လာမှု အစီအစဉ်များနှင့် စိုးရိမ်ပူပန်စွာ နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Unwise Choice",
+            correctBucketMy: "မပညာရှိသော ရွေးချယ်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Confidence-Building Final Mock",
+      titleMy:
+          "စာဖတ်ခြင်း - နေချည်၏ ယုံကြည်မှု တည်ဆောက်ပေးသော နောက်ဆုံး ပုံစံတူ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Confidence-Building Final Mock",
+        titleMy: "နေချည်၏ ယုံကြည်မှု တည်ဆောက်ပေးသော နောက်ဆုံး ပုံစံတူ",
+        passageEn:
+            "For the final mock of the entire course, Ko Thura deliberately chose a lighter approach than Term 8's punishing full mock series. Rather than a paper designed to expose weaknesses, he selected extracts and prompts closely matched to skills Nay Chi had already thoroughly mastered, and told her plainly beforehand that this session existed purely to build confidence, not to diagnose new problems.\n\nNay Chi noticed her own reaction as she worked: none of the nervous uncertainty of Term 1's first timed attempt, none of the effortful conscious checking of Term 8's diagnostic mocks. The inference question, the writer's effect analysis, the summary's word-count discipline all arrived smoothly, familiar tools reached for without hesitation. She finished with eight minutes still on the clock, and used them exactly as trained: a calm, unhurried final proofreading pass, the specific habit Week 33's targeted remediation had rebuilt from scratch.\n\nWhen Ko Thura reviewed her paper, he told her something he had been saving for this exact moment: her writing was, by any reasonable standard, ready for the real exam, and this final session had not been designed to teach her anything new at all -- it existed only to let her feel, in her own hands and her own timing, just how ready she actually was. He reminded her one last time of the golden thread running through all nine terms: name your evidence, understand your audience, control your pacing, trust your practice. Whatever grade the real exam produced, he said, she had already done the only thing fully within her control -- becoming, through nine terms of deliberate work, a genuinely strong writer.",
+        passageMy:
+            "သင်တန်းတစ်ခုလုံး၏ နောက်ဆုံး ပုံစံတူ စာမေးပွဲအတွက် ကိုသူရသည် တန်းရှစ်တန်း၏ ပြင်းထန်သော ပုံစံတူ အစုံအလင်ထက် ပေါ့ပါးသော ချဉ်းကပ်မှုကို ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ခဲ့သည်။ အားနည်းချက်များ ဖော်ထုတ်ရန် ဒီဇိုင်းထုတ်ထားသော စာစောင်တစ်ခုအစား သူသည် နေချည် စေ့စေ့စပ်စပ် ကျွမ်းကျင်ပြီးသား ကျွမ်းကျင်မှုများနှင့် နီးကပ်စွာ ကိုက်ညီသော ထုတ်နုတ်ချက်များနှင့် Prompt များကို ရွေးချယ်ခဲ့ပြီး၊ ဤ Session သည် ပြဿနာအသစ် ရောဂါရှာဖွေရန်မဟုတ်ဘဲ ယုံကြည်မှု တည်ဆောက်ရန်အတွက် သက်သက် ရှိကြောင်း ကြိုတင်၍ ရိုးရှင်းစွာ ပြောခဲ့သည်။\n\nနေချည်သည် သူမ လုပ်ဆောင်ရင်း သူမကိုယ်တိုင်၏ တုံ့ပြန်မှုကို သတိပြုမိခဲ့သည် - ပထမတန်း၏ ပထမဆုံး အချိန်ကန့်သတ် ကြိုးပမ်းမှု၏ စိတ်လှုပ်ရှားစရာ မသေချာမှု လုံးဝ မရှိတော့ဘဲ၊ တန်းရှစ်တန်း၏ ရောဂါရှာဖွေမှု ပုံစံတူများ၏ ကြိုးစားရသော ဆင်ခြင်တုံတရားရှိသော စစ်ဆေးမှု လုံးဝ မရှိတော့ပါ။ Inference မေးခွန်း၊ Writer's Effect ခွဲခြမ်းစိတ်ဖြာမှု၊ အကျဉ်းချုပ်၏ စကားလုံးရေ စည်းကမ်းအားလုံး ချောမွေ့စွာ ရောက်ရှိလာခဲ့ပြီး၊ ဆိုင်းငံ့ခြင်း မရှိဘဲ ရောက်ရှိခံရသော ရင်းနှီးသော Tool များ ဖြစ်ခဲ့သည်။ သူမသည် နာရီတွင် မိနစ် ၈ မိနစ် ကျန်ရှိစဉ် ပြီးဆုံးခဲ့ပြီး လေ့ကျင့်ထားသည့်အတိုင်း အတိအကျ သုံးခဲ့သည် - တညငြိမ်၊ အလျင်မလိုသော နောက်ဆုံး Proofreading Pass၊ သုံးဆယ့်သုံးပတ်၏ အထူးပြုပြင်ခြင်းက အစအဆုံးမှ ပြန်လည် တည်ဆောက်ခဲ့သော သီးခြား အလေ့အထ။\n\nကိုသူရသည် သူမ၏ စာစောင်ကို ပြန်လည်သုံးသပ်ရာ ဤအတိအကျသော အခိုက်အတန့်အတွက် သိမ်းထားခဲ့သော တစ်စုံတစ်ခုကို သူမကို ပြောခဲ့သည် - သူမ၏ ရေးသားမှုသည် မည်သည့် ဆင်ခြင်တုံတရားရှိသော စံနှုန်းအရမဆို အမှန်တကယ် စာမေးပွဲအတွက် အသင့်ဖြစ်ပြီး၊ ဤနောက်ဆုံး Session သည် သူမကို အသစ် တစ်ခုခု သင်ကြားရန် လုံးဝ ဒီဇိုင်းထုတ်ခဲ့ခြင်း မဟုတ်ဘဲ -- ၎င်းသည် သူမ၏ ကိုယ်ပိုင် လက်များနှင့် ကိုယ်ပိုင် အချိန်ကိုက်မှုတွင် သူမ အမှန်တကယ် မည်မျှ အသင့်ဖြစ်ကြောင်း ခံစားခွင့်ပေးရန်သာ ရှိခဲ့သည်။ သူသည် နှစ်ဝက် ကိုးဝက်လုံး တစ်လျှောက် ဆက်နွယ်နေသော ရွှေချည်ကို နောက်ဆုံး တစ်ကြိမ် သူမကို သတိပေးခဲ့သည် - သင့်သက်သေအထောက်အထားကို အမည်တပ်ပါ၊ သင့်ပရိသတ်ကို နားလည်ပါ၊ သင့် Pacing ကို ထိန်းချုပ်ပါ၊ သင့်လေ့ကျင့်မှုကို ယုံကြည်ပါ။ အမှန်တကယ် စာမေးပွဲက ဂရိတ် မည်သို့ ထုတ်လုပ်ပေးစေ သူမ ထိန်းချုပ်နိုင်စွမ်း အပြည့်အဝ ရှိသော တစ်ခုတည်းသော အရာကို ပြီးမြောက်အောင် ပြုလုပ်ပြီးသား ဖြစ်ကြောင်း သူ ပြောခဲ့သည် - နှစ်ဝက်ကိုးဝက် ရည်ရွယ်ချက်ရှိသော အလုပ်မှတဆင့် စစ်မှန်စွာ အားကောင်းသော ရေးသားသူတစ်ဦး ဖြစ်လာခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Ko Thura choose extracts closely matched to skills Nay Chi had already mastered?",
+            questionMy:
+                "နေချည် ကျွမ်းကျင်ပြီးသား ကျွမ်းကျင်မှုများနှင့် နီးကပ်စွာ ကိုက်ညီသော ထုတ်နုတ်ချက်များကို ကိုသူရ အဘယ်ကြောင့် ရွေးချယ်ခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The session existed purely to build confidence, not to diagnose new problems",
+              "It was the only material he had available",
+              "He forgot to prepare anything else",
+              "It was required by the exam board",
+            ],
+            optionsMy: [
+              "Session သည် ပြဿနာအသစ် ရောဂါရှာဖွေရန်မဟုတ်ဘဲ ယုံကြည်မှု တည်ဆောက်ရန်အတွက် သက်သက် ရှိခဲ့သောကြောင့်",
+              "သူ့တွင် ရရှိနိုင်သော ပစ္စည်း တစ်ခုတည်း ဖြစ်ခဲ့သောကြောင့်",
+              "အခြားအရာ ပြင်ဆင်ရန် သူ မေ့သွားခဲ့သောကြောင့်",
+              "စာမေးပွဲအဖွဲ့က တောင်းဆိုခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how much time remained when Nay Chi finished her paper?",
+            questionMy:
+                "နေချည် သူမ၏ စာစောင်ကို ပြီးဆုံးသောအခါ အချိန် မည်မျှ ကျန်ရှိခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Eight minutes",
+              "Zero minutes",
+              "One hour",
+              "Thirty seconds",
+            ],
+            optionsMy: ["မိနစ် ၈ မိနစ်", "မိနစ် ၀", "တစ်နာရီ", "စက္ကန့် ၃၀"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about finishing with time on the clock.",
+            ],
+            hintsMy: [
+              "နာရီတွင် အချိန်ကျန်ရှိလျက် ပြီးဆုံးခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what golden thread did Ko Thura remind Nay Chi of one last time?",
+            questionMy:
+                "မည်သည့် ရွှေချည်ကို ကိုသူရ နေချည်ကို နောက်ဆုံး တစ်ကြိမ် သတိပေးခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Name your evidence, understand your audience, control your pacing, trust your practice",
+              "Always write the longest possible answer",
+              "Never trust your own preparation",
+              "Ignore the audience entirely",
+            ],
+            optionsMy: [
+              "သင့်သက်သေအထောက်အထားကို အမည်တပ်ပါ၊ သင့်ပရိသတ်ကို နားလည်ပါ၊ သင့် Pacing ကို ထိန်းချုပ်ပါ၊ သင့်လေ့ကျင့်မှုကို ယုံကြည်ပါ",
+              "ဖြစ်နိုင်သမျှ ရှည်လျားသော အဖြေကို အမြဲ ရေးပါ",
+              "သင့်ကိုယ်ပိုင် ပြင်ဆင်မှုကို ဘယ်တော့မှ မယုံကြည်ပါနှင့်",
+              "ပရိသတ်ကို လုံးဝ လျစ်လျူရှုပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing the golden thread."],
+            hintsMy: [
+              "ရွှေချည်ကို စာရင်းပြုစုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Final Warm-Up",
+      titleMy:
+          "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - နောက်ဆုံး အကြိုလေ့ကျင့်ခန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the final week, practice intensity should typically...",
+          questionMy:
+              "နောက်ဆုံးအပတ်တွင် လေ့ကျင့်မှု ပြင်းအား ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Taper to lighter, confidence-building review",
+            "Increase to maximum intensity",
+            "Stop completely",
+            "Focus on brand-new topics",
+          ],
+          optionsMy: [
+            "ပေါ့ပါးသော၊ ယုံကြည်မှု တည်ဆောက်ပေးသော ပြန်လည်သုံးသပ်ခြင်းသို့ ကျဆင်းသင့်သည်",
+            "အမြင့်ဆုံး ပြင်းအားသို့ တိုးမြှင့်သင့်သည်",
+            "လုံးလုံးလျားလျား ရပ်တန့်သင့်သည်",
+            "ခေါင်းစဉ်အသစ်များအပေါ် အာရုံစိုက်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A final warm-up mock is designed primarily to build...",
+          questionMy:
+              "နောက်ဆုံး အကြိုလေ့ကျင့်ခန်း ပုံစံတူကို အဓိကအားဖြင့် ...တည်ဆောက်ရန် ဒီဇိုင်းထုတ်ထားသည်",
+          optionsEn: [
+            "Confidence",
+            "Additional stress",
+            "Entirely new knowledge",
+            "Confusion",
+          ],
+          optionsMy: [
+            "ယုံကြည်မှု",
+            "ထပ်ဆောင်း စိတ်ဖိစီးမှု",
+            "လုံးဝ အသိပညာအသစ်",
+            "ရှုပ်ထွေးမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The golden thread through the whole course was...",
+          questionMy: "သင်တန်းတစ်ခုလုံးတစ်လျှောက် ရွှေချည်မှာ...",
+          optionsEn: [
+            "Name your evidence, understand your audience, control your pacing, trust your practice",
+            "Write as much as possible",
+            "Never proofread",
+            "Ignore the mark scheme",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားကို အမည်တပ်ပါ၊ ပရိသတ်ကို နားလည်ပါ၊ Pacing ကို ထိန်းချုပ်ပါ၊ လေ့ကျင့်မှုကို ယုံကြည်ပါ",
+            "ဖြစ်နိုင်သမျှ များများ ရေးပါ",
+            "Proofread ဘယ်တော့မှ မလုပ်ပါနှင့်",
+            "Mark Scheme ကို လျစ်လျူရှုပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek36 = CourseWeekDef(
+  id: "course-igcse-eng-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE English Graduation",
+  titleMy: "IGCSE အင်္ဂလိပ်စာ ဘွဲ့နှင်းသဘင် အထိမ်းအမှတ်",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w36-d1",
+      dayNumber: 1,
+      titleEn: "Whole-Course Review: Terms 1-4",
+      titleMy: "သင်တန်းလုံး ပြန်လည်သုံးသပ်ခြင်း - ပထမတန်းမှ စတုတ္ထတန်းအထိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Every inference in Paper 1 must be backed by...",
+          questionMy: "Paper 1 ရှိ Inference တိုင်းကို ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "Specific textual evidence",
+            "A guess",
+            "Nothing",
+            "The reader's mood",
+          ],
+          optionsMy: [
+            "တိကျသော စာသားသက်သေအထောက်အထား",
+            "မှန်းဆချက်",
+            "မည်သည့်အရာမျှ",
+            "စာဖတ်သူ၏ စိတ်ခံစားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Directed Writing tasks require adapting content for a specific...",
+          questionMy:
+              "Directed Writing လုပ်ငန်းများသည် တိကျသော ...အတွက် အကြောင်းအရာကို ချိန်ညှိရန် လိုအပ်သည်",
+          optionsEn: [
+            "Audience and purpose",
+            "Font size",
+            "Page count",
+            "Author's mood",
+          ],
+          optionsMy: [
+            "ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "စာလုံးအရွယ်အစား",
+            "စာမျက်နှာ အရေအတွက်",
+            "စာရေးသူ၏ စိတ်ခံစားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A narrative hook should...",
+          questionMy: "ဇာတ်ကြောင်းပြော Hook တစ်ခုသည်...",
+          optionsEn: [
+            "Immediately capture the reader's attention",
+            "Explain the whole plot first",
+            "Bore the reader",
+            "List every character",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ အာရုံကို ချက်ချင်း ဖမ်းစားသင့်သည်",
+            "ဇာတ်ကွက်တစ်ခုလုံးကို ဦးစွာ ရှင်းပြသင့်သည်",
+            "စာဖတ်သူကို ငြီးငွေ့စေသင့်သည်",
+            "ဇာတ်ကောင်တိုင်းကို စာရင်းပြုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong descriptive piece is organised around...",
+          questionMy:
+              "အားကောင်းသော သရုပ်ဖော် အလုပ်တစ်ခုကို ...ပတ်ပတ်လည်တွင် စီစဉ်ထားသည်",
+          optionsEn: [
+            "A dominant impression",
+            "A murder mystery plot",
+            "Random unrelated facts",
+            "No sensory detail",
+          ],
+          optionsMy: [
+            "လွှမ်းမိုးထားသော အထင်အမြင်",
+            "လူသတ်မှု ပဟေဠိ ဇာတ်ကွက်",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ",
+            "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Show, don't tell means revealing traits through...",
+          questionMy:
+              "Show, Don't Tell ဆိုသည်မှာ ...မှတဆင့် ဂုဏ်ရည်များ ဖော်ထုတ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Actions and detail",
+            "Direct adjectives only",
+            "A biography",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှုများနှင့် အသေးစိတ်",
+            "တိုက်ရိုက် Adjective များကိုသာ",
+            "ဘဝရာဇဝင်တစ်ခု",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w36-d2",
+      dayNumber: 2,
+      titleEn: "Whole-Course Review: Terms 5-8",
+      titleMy: "သင်တန်းလုံး ပြန်လည်သုံးသပ်ခြင်း - ပဉ္စမတန်းမှ တန်းရှစ်တန်းအထိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A thesis statement should be stated...",
+          questionMy: "Thesis Statement တစ်ခုကို ...ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "Clearly and early on",
+            "Only at the end",
+            "Never at all",
+            "In a footnote only",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းစွာနှင့် အစောပိုင်းတွင်",
+            "အဆုံးတွင်သာ",
+            "လုံးဝ ဘယ်တော့မှ",
+            "Footnote တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every claim about a literary text should be supported by...",
+          questionMy:
+              "စာပေ စာသားတစ်ခုအကြောင်း Claim တိုင်းကို ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "A specific, embedded quotation",
+            "A vague statement",
+            "No evidence",
+            "Personal opinion alone",
+          ],
+          optionsMy: [
+            "တိကျသော Embedded ကိုးကားချက်",
+            "မှုန်ဝါးသော ဖော်ပြချက်",
+            "သက်သေအထောက်အထား မပါခြင်း",
+            "ကိုယ်ပိုင်ထင်မြင်ချက်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Varied syntax demonstrates...",
+          questionMy: "ကွဲပြားသော Syntax သည် ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "A writer actively shaping the reader's experience",
+            "A grammatical mistake",
+            "Weak vocabulary",
+            "Nothing meaningful",
+          ],
+          optionsMy: [
+            "စာရေးသူတစ်ဦး စာဖတ်သူ၏ အတွေ့အကြုံကို တက်ကြွစွာ ပုံဖော်နေကြောင်း",
+            "သဒ္ဒါ အမှားတစ်ခု",
+            "အားနည်းသော ဝေါဟာရ",
+            "အဓိပ္ပာယ်ရှိသော အရာ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A mock exam's greatest value lies in...",
+          questionMy:
+              "ပုံစံတူ စာမေးပွဲ၏ အကြီးမားဆုံး တန်ဖိုးသည် ...တွင် တည်ရှိသည်",
+          optionsEn: [
+            "Diagnosing specific weaknesses that still need attention",
+            "Guaranteeing an identical result",
+            "Replacing the real exam",
+            "Testing unrelated subjects",
+          ],
+          optionsMy: [
+            "ဂရုစိုက်ရန် ဆက်လက် လိုအပ်သော သီးခြား အားနည်းချက်များ ရောဂါရှာဖွေခြင်း",
+            "တူညီသော ရလဒ်ကို အာမခံခြင်း",
+            "အမှန်တကယ် စာမေးပွဲကို အစားထိုးခြင်း",
+            "မသက်ဆိုင်သော ဘာသာရပ်များကို စမ်းသပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Examiners specifically reward...",
+          questionMy:
+              "စစ်ဆေးသူများသည် အထူးသဖြင့် ...ကို အကျိုးဆုတန်ခံလေ့ရှိသည်",
+          optionsEn: [
+            "Judging and evaluating source material, not just reporting it",
+            "Copying sources word for word",
+            "Ignoring the audience",
+            "The shortest possible answer",
+          ],
+          optionsMy: [
+            "အရင်းအမြစ် ပစ္စည်းကို အစီရင်ခံခြင်းသာမက ဆုံးဖြတ်ခြင်းနှင့် အကဲဖြတ်ခြင်း",
+            "အရင်းအမြစ်များကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+            "ပရိသတ်ကို လျစ်လျူရှုခြင်း",
+            "ဖြစ်နိုင်သမျှ တိုတောင်းသော အဖြေ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This Skill?",
+      titleMy:
+          "စီစစ်ကြမည် - မည်သည့်နှစ်ဝက်က ဤကျွမ်းကျင်မှုကို လွှမ်းခြုံခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Early Terms (1-3)",
+          "Middle Terms (4-6)",
+          "Late Terms (7-9)",
+        ],
+        bucketsMy: [
+          "Early Terms (1-3)",
+          "Middle Terms (4-6)",
+          "Late Terms (7-9)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w36-sort-1",
+            labelEn: "Naming the specific textual evidence behind an inference",
+            labelMy:
+                "Inference တစ်ခု၏ နောက်ကွယ်ရှိ တိကျသော စာသားသက်သေအထောက်အထားကို အမည်တပ်ခြင်း",
+            correctBucketEn: "Early Terms (1-3)",
+            correctBucketMy: "Early Terms (1-3)",
+          ),
+          SortingItem(
+            id: "igcseeng-w36-sort-2",
+            labelEn:
+                "Embedding a precise quotation into a literary analysis sentence",
+            labelMy:
+                "စာပေ ခွဲခြမ်းစိတ်ဖြာသော ဝါကျတစ်ခုအတွင်းသို့ တိကျသော ကိုးကားချက် Embed ပြုလုပ်ခြင်း",
+            correctBucketEn: "Middle Terms (4-6)",
+            correctBucketMy: "Middle Terms (4-6)",
+          ),
+          SortingItem(
+            id: "igcseeng-w36-sort-3",
+            labelEn:
+                "Protecting the final ninety seconds of an exam for proofreading",
+            labelMy:
+                "Proofread ပြုလုပ်ရန် စာမေးပွဲ၏ နောက်ဆုံး စက္ကန့် ၉၀ ကို ကာကွယ်ခြင်း",
+            correctBucketEn: "Late Terms (7-9)",
+            correctBucketMy: "Late Terms (7-9)",
+          ),
+          SortingItem(
+            id: "igcseeng-w36-sort-4",
+            labelEn:
+                "Elevating vocabulary and syntax to A* standard during editing",
+            labelMy:
+                "တည်းဖြတ်ခြင်းအတွင်း ဝေါဟာရနှင့် Syntax ကို A* စံနှုန်းသို့ မြှင့်တင်ခြင်း",
+            correctBucketEn: "Late Terms (7-9)",
+            correctBucketMy: "Late Terms (7-9)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Full Circle",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Full Circle",
+        titleMy: "နေချည်၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+        passageEn:
+            "On the morning of her results, Nay Chi walked into Ko Thura's small tuition room one final time, not for a lesson, but to say thank you. Thirty-six weeks earlier, she had struggled to move beyond \"the man is sad\" without any evidence behind it, in the very first lesson of Term 1. Now she found herself helping her younger cousin embed a quotation into an analytical sentence without even thinking about the steps, the process as natural as breathing.\n\nKo Thura asked her which skill, looking back across the whole course, had surprised her the most by how much it transferred beyond English itself. Nay Chi did not hesitate: the habit of never making a claim without naming the specific evidence behind it. She had started applying it everywhere -- questioning vague statements in her science homework, expecting concrete support behind arguments in family discussions, even noticing when a market vendor's claim about a product lacked any real evidence at all. What began as a rule for Paper 1 inference questions had quietly become a way of thinking.\n\nKo Thura smiled and reminded her that English, more than any other subject, rewarded exactly this kind of transferable precision: the discipline of grounding every claim in specific, examined evidence, of considering exactly who you were writing for and why, of controlling pace and structure deliberately rather than by accident. Whether Nay Chi continued to A-Level English Literature or moved toward law, journalism, or something not yet imagined, that discipline -- precise thinking, precisely expressed -- would outlast any exam grade. As she left the tuition room for the last time, Nay Chi realised the course had never really been about memorising techniques at all. It had been about learning to think and communicate with genuine precision, a skill circling back to before that first lesson on a single unsupported claim -- and reaching forward to everything still ahead of her.",
+        passageMy:
+            "သူမ၏ ရလဒ်များ ထွက်သောနေ့ မနက်တွင် နေချည်သည် ကိုသူရ၏ တွဲကျောင်းခန်းငယ်ထဲသို့ နောက်ဆုံးအကြိမ်အဖြစ် ဝင်ရောက်ခဲ့သည်၊ သင်ခန်းစာတစ်ခုအတွက် မဟုတ်ဘဲ ကျေးဇူးတင်ကြောင်း ပြောရန် ဖြစ်သည်။ သုံးဆယ့်ခြောက်ပတ်ခန့် အလျင်က သူမသည် ပထမတန်း ပထမ သင်ခန်းစာတွင်ပင် ၎င်း၏ နောက်ကွယ်ရှိ သက်သေအထောက်အထား မည်သည်ကမျှ မပါဘဲ \"အဖိုးအိုသည် ဝမ်းနည်းနေသည်\" ကို ကျော်လွှားရန် ရုန်းကန်ခဲ့သည်။ ယခုတွင် သူမသည် သူမ၏ ငယ်ရွယ်သော ဝမ်းကွဲအား ခြေလှမ်းများကို တွေးတောစရာမလိုဘဲ ခွဲခြမ်းစိတ်ဖြာသော ဝါကျတစ်ခုအတွင်းသို့ ကိုးကားချက်တစ်ခု Embed ပြုလုပ်ရန် ကူညီနေသည်ကို တွေ့ရှိခဲ့ပြီး၊ လုပ်ငန်းစဉ်သည် အသက်ရှူသည်လို သဘာဝကျနေခဲ့သည်။\n\nတစ်ခေါင်းစဉ်ချင်းစီကို ကနေ့ ပြန်ကြည့်လိုက်လျှင် မည်သည့် ကျွမ်းကျင်မှုက အင်္ဂလိပ်စာကိုယ်တိုင်ထက် ဘယ်လောက် ရွှေ့ပြောင်းနိုင်ကြောင်း သူမကို အများဆုံး အံ့ဩစေခဲ့သနည်းဟု ကိုသူရ မေးမြန်းခဲ့သည်။ နေချည်သည် ဝိုင်ဝန်းမနေဘဲ ဖြေခဲ့သည် - နောက်ကွယ်ရှိ သီးခြား သက်သေအထောက်အထားကို အမည်မတပ်ဘဲ Claim တစ်ခုကို ဘယ်တော့မှ မဆောင်ရွက်ခြင်း အလေ့အထ။ သူမသည် ၎င်းကို နေရာတိုင်းတွင် အသုံးချစတင်ခဲ့သည် -- သူမ၏ သိပ္ပံဘာသာရပ် အိမ်စာရှိ မှုန်ဝါးသော ဖော်ပြချက်များကို မေးခွန်းထုတ်ခြင်း၊ မိသားစု ဆွေးနွေးမှုများတွင် အငြင်းပွားမှုများ၏ နောက်ကွယ်ရှိ ခိုင်မာသော ထောက်ခံမှုကို မျှော်လင့်ခြင်း၊ စျေးသည်တစ်ဦး၏ ကုန်ပစ္စည်းတစ်ခုအကြောင်း Claim တွင် စစ်မှန်သော သက်သေအထောက်အထား လုံးဝ မပါကြောင်း သတိပြုမိခြင်းပင်။ Paper 1 Inference မေးခွန်းများအတွက် စည်းမျဉ်းတစ်ခုအဖြစ် စတင်ခဲ့သော အရာသည် တိတ်တဆိတ် တွေးခေါ်ပုံနည်းလမ်းတစ်ခု ဖြစ်လာခဲ့သည်။\n\nကိုသူရသည် ပြုံးလျက် အင်္ဂလိပ်စာသည် အခြား ဘာသာရပ် မည်သည်ထက်မဆို ဤကဲ့သို့ ရွှေ့ပြောင်းနိုင်သော တိကျမှုကို အတိအကျ ဆုချကြောင်း သူမကို သတိပေးခဲ့သည် - Claim တိုင်းကို တိကျသော၊ စစ်ဆေးထားသော သက်သေအထောက်အထားပေါ် အခြေခံခြင်း၊ မည်သူ့အတွက် အဘယ်ကြောင့် ရေးသားနေကြောင်း အတိအကျ ထည့်သွင်းစဉ်းစားခြင်း၊ မတော်တဆမဟုတ်ဘဲ ရည်ရွယ်ချက်ရှိရှိ Pace နှင့် ဖွဲ့စည်းပုံကို ထိန်းချုပ်ခြင်း၏ စည်းကမ်း။ နေချည် A-Level English Literature ဆက်လက် ဆောင်ရွက်သည်ဖြစ်စေ၊ ဥပဒေ၊ သတင်းစာဆရာအလုပ် (သို့) မမြင်နိုင်သေးသော တစ်ခုခုသို့ ရွှေ့ပြောင်းသည်ဖြစ်စေ ထိုစည်းကမ်း -- တိကျသော တွေးခေါ်မှု၊ တိကျစွာ ဖော်ပြထားခြင်း -- သည် စာမေးပွဲ ရမှတ် မည်သည်ထက်မဆို ကြာရှည်စွာ တည်ရှိနေမည် ဖြစ်သည်။ တွဲကျောင်းခန်းမှ နောက်ဆုံးအကြိမ် ထွက်ခွာလာစဉ် ဤသင်တန်းသည် နည်းပညာများကို အလွတ်ကျက်ခြင်းအကြောင်း လုံးဝ ဘယ်တော့မှ မဟုတ်ခဲ့ကြောင်း နေချည် သဘောပေါက်လာခဲ့သည်။ ၎င်းသည် စစ်မှန်သော တိကျမှုဖြင့် တွေးခေါ်ဆက်သွယ်တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့ပြီး၊ ၎င်းသည် ယခုအခါ သူမ နားလည်လာသည့်အတိုင်း ထောက်ခံမှု မပါသော Claim တစ်ခုတည်း Lesson မတိုင်မီသို့ ပြန်လှည့်ကာ သူမရှေ့တွင် ကျန်ရှိနေသေးသော အရာအားလုံးသို့ ထိုးဆက်နေသော ကျွမ်းကျင်မှုတစ်ခု ဖြစ်ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nay Chi struggle with in the very first lesson of Term 1?",
+            questionMy:
+                "ပထမတန်း၏ ပထမဆုံးသင်ခန်းစာတွင် နေချည် မည်သည့်အရာကို ရုန်းကန်နေခဲ့ကြောင်း စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Moving beyond \"the man is sad\" without any evidence behind it",
+              "Understanding what a novel is",
+              "Drawing a comic strip",
+              "Writing in a foreign alphabet",
+            ],
+            optionsMy: [
+              "နောက်ကွယ်ရှိ သက်သေအထောက်အထား မည်သည်ကမျှ မပါဘဲ \"အဖိုးအိုသည် ဝမ်းနည်းနေသည်\" ကို ကျော်လွှားရန်",
+              "ဝတ္ထုတစ်ပုဒ် ဆိုသည်မှာ မည်သည်ကို နားလည်ခြင်း",
+              "ဟာသ ရုပ်ပုံ တစ်ခု ဆွဲခြင်း",
+              "နိုင်ငံခြား အက္ခရာဖြင့် ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence's description of Term 1."],
+            hintsMy: ["ပထမတန်း၏ ဖော်ပြချက် ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which skill surprised Nay Chi most by how much it transferred?",
+            questionMy:
+                "မည်သည့် ကျွမ်းကျင်မှုက ဘယ်လောက် ရွှေ့ပြောင်းနိုင်ကြောင်းဖြင့် နေချည်ကို အများဆုံး အံ့ဩစေခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Never making a claim without naming the specific evidence behind it",
+              "Memorising vocabulary lists",
+              "Drawing story illustrations",
+              "Writing in cursive handwriting",
+            ],
+            optionsMy: [
+              "နောက်ကွယ်ရှိ သီးခြား သက်သေအထောက်အထားကို အမည်မတပ်ဘဲ Claim တစ်ခုကို ဘယ်တော့မှ မဆောင်ရွက်ခြင်း",
+              "ဝေါဟာရ စာရင်းများ အလွတ်ကျက်ခြင်း",
+              "ဇာတ်လမ်း ပုံဆွဲခြင်း",
+              "ကွေးညွှတ်လက်ရေးဖြင့် ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening sentence."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖွင့်စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say English rewarded more than any other subject?",
+            questionMy:
+                "အင်္ဂလိပ်စာသည် အခြား ဘာသာရပ် မည်သည်ထက်မဆို ဘာကို ဆုချကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Transferable precision -- grounding claims in evidence and controlling pacing deliberately",
+              "Memorising every rule perfectly",
+              "Avoiding all creativity",
+              "Writing the maximum word count possible",
+            ],
+            optionsMy: [
+              "ရွှေ့ပြောင်းနိုင်သော တိကျမှု -- Claim များကို သက်သေအထောက်အထားပေါ် အခြေခံပြီး Pacing ကို ရည်ရွယ်ချက်ရှိရှိ ထိန်းချုပ်ခြင်း",
+              "စည်းမျဉ်းတိုင်းကို ပြီးပြည့်စုံစွာ အလွတ်ကျက်ခြင်း",
+              "ဖန်တီးမှုအားလုံးကို ရှောင်ရှားခြင်း",
+              "ဖြစ်နိုင်သမျှ အများဆုံး စကားလုံးရေ ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what Ko Thura reminded her English rewarded.",
+            ],
+            hintsMy: [
+              "အင်္ဂလိပ်စာက ဘာကို ဆုချကြောင်း ကိုသူရ သတိပေးခဲ့သည့် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE English Final Capstone",
+      titleMy: "IGCSE အင်္ဂလိပ်စာ နောက်ဆုံး Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across all nine terms, the core habit Ko Thura emphasised most was...",
+          questionMy:
+              "တန်းကိုးတန်းလုံးတစ်လျှောက် ကိုသူရ အထူးအလေးပေးခဲ့သော အဓိက အလေ့အထမှာ...",
+          optionsEn: [
+            "Never making a claim without naming the specific evidence behind it",
+            "Memorising vocabulary lists without context",
+            "Avoiding all planning before writing",
+            "Ignoring the intended audience",
+          ],
+          optionsMy: [
+            "နောက်ကွယ်ရှိ သီးခြား သက်သေအထောက်အထားကို အမည်မတပ်ဘဲ Claim တစ်ခုကို ဘယ်တော့မှ မဆောင်ရွက်ခြင်း",
+            "Context မပါဘဲ ဝေါဟာရ စာရင်းများ အလွတ်ကျက်ခြင်း",
+            "မရေးမီ စီစဉ်ခြင်းအားလုံးကို ရှောင်ရှားခြင်း",
+            "ရည်ရွယ်ထားသော ပရိသတ်ကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Show, don't tell, embedded quotations, and precise vocabulary all share the goal of...",
+          questionMy:
+              "Show Don't Tell၊ Embedded Quotation များနှင့် တိကျသော ဝေါဟာရအားလုံးသည် ...ရည်မှန်းချက်ကို မျှဝေထားသည်",
+          optionsEn: [
+            "Communicating with genuine precision rather than vague generality",
+            "Making writing as long as possible",
+            "Confusing the reader deliberately",
+            "Avoiding all specific detail",
+          ],
+          optionsMy: [
+            "မှုန်ဝါးသော ယေဘုယျမှုထက် စစ်မှန်သော တိကျမှုဖြင့် ဆက်သွယ်ခြင်း",
+            "ရေးသားမှုကို ဖြစ်နိုင်သမျှ ရှည်လျားစေခြင်း",
+            "စာဖတ်သူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေခြင်း",
+            "တိကျသော အသေးစိတ်အားလုံးကို ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's final realisation was that the course had really been about learning to...",
+          questionMy:
+              "နေချည်၏ နောက်ဆုံး သဘောပေါက်မှုမှာ သင်တန်းသည် အမှန်တကယ် ...တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့သည်",
+          optionsEn: [
+            "Think and communicate with genuine precision",
+            "Memorise the entire syllabus",
+            "Avoid all mathematics",
+            "Copy answers from friends",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော တိကျမှုဖြင့် တွေးခေါ်ဆက်သွယ်",
+            "သင်ရိုးညွှန်းတမ်းတစ်ခုလုံးကို အလွတ်ကျက်",
+            "သင်္ချာအားလုံးကို ရှောင်ရှား",
+            "သူငယ်ချင်းများထံမှ အဖြေများ ကူးယူ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm9 = CourseTermDef(
+  id: "course-igcse-eng-term9",
+  termNumber: 9,
+  titleEn: "Final Exam Countdown & Graduation",
+  titleMy: "နောက်ဆုံး ရေတွက်ချိန်နှင့် ဘွဲ့နှင်းသဘင်",
+  weeks: [_igcseEngWeek33, _igcseEngWeek34, _igcseEngWeek35, _igcseEngWeek36],
+  certificateTitleEn: "IGCSE English Graduate",
+  certificateTitleMy: "IGCSE အင်္ဂလိပ်စာ ဘွဲ့ရ",
 );
 
 // __IGCSE_ENGLISH_MARKER__
