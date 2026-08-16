@@ -8285,11 +8285,1449 @@ const CourseTermDef igcsePhysicsTerm6 = CourseTermDef(
     _igcsePhysWeek24,
   ],
 );
+// =====================================================================
+// Week 25: "Earth and the Solar System"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek25 = CourseWeekDef(
+  id: "course-igcse-phys-w25",
+  weekNumber: 25,
+  titleEn: "Earth and the Solar System",
+  titleMy: "ကမ္ဘာနှင့် နေအဖွဲ့အစည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w25-d1",
+      dayNumber: 1,
+      titleEn: "Orbits and Orbital Speed",
+      titleMy: "Orbits နှင့် Orbital Speed",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What force keeps planets in orbit around the Sun?",
+          questionMy:
+              "ဂြိုဟ်များကို နေ ပတ်လည် Orbit တွင် ထိန်းသိမ်းထားသော Force ကား အဘယ်နည်း။",
+          optionsEn: [
+            "The Sun's gravitational force acting on each planet",
+            "The magnetic force between the Sun and planets",
+            "Friction with the vacuum of space",
+            "There is no force involved at all",
+          ],
+          optionsMy: [
+            "ဂြိုဟ်တစ်ခုစီအပေါ် သက်ရောက်နေသော နေ၏ Gravitational Force",
+            "နေနှင့် ဂြိုဟ်များကြား Magnetic Force",
+            "အာကာသ၏ Vacuum နှင့် ပွတ်တိုက်မှု",
+            "Force မည်သည်မျှ ပါဝင်ခြင်း မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Gravitational attraction provides the centripetal force needed to continuously change a planet's direction, keeping it in a roughly circular or elliptical path rather than travelling off in a straight line.",
+          ],
+          hintsMy: [
+            "Gravitational Attraction သည် ဂြိုဟ်တစ်ခု၏ ဦးတည်ချက်ကို ဆက်တိုက် ပြောင်းလဲရန် လိုအပ်သော Centripetal Force ကို ပေးအပ်ကာ ဖြောင့်မျဉ်းတစ်ခုအတိုင်း ခရီးမသွားစေဘဲ ခန့်မှန်းအားဖြင့် စက်ဝိုင်း သို့မဟုတ် Elliptical လမ်းကြောင်းတစ်ခုတွင် ထားပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does gravitational field strength change as distance from a planet increases?",
+          questionMy:
+              "ဂြိုဟ်တစ်ခုမှ အကွာအဝေး တိုးလာသည်နှင့်အမျှ Gravitational Field Strength မည်သို့ ပြောင်းလဲသနည်း။",
+          optionsEn: [
+            "It decreases",
+            "It increases",
+            "It stays exactly the same at every distance",
+            "It becomes negative",
+          ],
+          optionsMy: [
+            "လျော့ကျသည်",
+            "တိုးလာသည်",
+            "အကွာအဝေးတိုင်းတွင် အတိအကျ တူညီစွာ ဆက်ရှိနေသည်",
+            "Negative ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is why astronauts far from Earth experience much weaker gravity than those on Earth's surface -- gravitational field strength weakens with distance from the source mass.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကမ္ဘာမြေမှ ဝေးကွာသော Astronaut များသည် ကမ္ဘာမြေ မျက်နှာပြင်ရှိ Astronaut များထက် များစွာ အားနည်းသော Gravity ကို ခံစားရသည့် အကြောင်းရင်း ဖြစ်သည် -- Gravitational Field Strength သည် Source Mass မှ အကွာအဝေးနှင့်အတူ အားနည်းလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A satellite orbits Earth in a circular path of radius 7000 km, completing one orbit every 7000 seconds. What is its orbital speed? (v = 2 x pi x r / T)",
+          questionMy:
+              "ဂြိုဟ်တု တစ်ခုသည် Radius 7000 km ရှိသော စက်ဝိုင်း လမ်းကြောင်းတစ်ခုတွင် ကမ္ဘာမြေကို Orbit လုပ်ပြီး Orbit တစ်ခုစီအား ဆက္ကန့် ၇၀၀၀ တိုင်း ပြီးမြောက်စေသည်။ ၎င်း၏ Orbital Speed ကား အဘယ်နည်း။ (v = 2 x pi x r / T)",
+          optionsEn: [
+            "Approximately 6.28 km/s (2 x 3.14 x 7000 / 7000)",
+            "7000 km/s",
+            "1 km/s",
+            "44,000 km/s",
+          ],
+          optionsMy: [
+            "ခန့်မှန်း 6.28 km/s (2 x 3.14 x 7000 / 7000)",
+            "7000 km/s",
+            "1 km/s",
+            "44,000 km/s",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v = 2 x pi x r / T = 2 x 3.14 x 7000 / 7000 = 2 x 3.14 = 6.28 km/s. Notice the radius cancels neatly when r/T are chosen as equal numbers in this example.",
+          ],
+          hintsMy: [
+            "v = 2 x pi x r / T = 2 x 3.14 x 7000 / 7000 = 2 x 3.14 = 6.28 km/s ။ ဤ ဥပမာတွင် r/T ကို ညီမျှသော ဂဏန်းများအဖြစ် ရွေးချယ်ထားသောကြောင့် Radius သည် သန့်ရှင်းစွာ ဖျက်သိမ်းသွားသည်ကို သတိပြုပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Solar System Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Solar System ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w25-dm-1",
+          termEn: "Orbit",
+          termMy: "Orbit",
+          matchEn:
+              "The curved path an object takes around another object due to gravitational attraction",
+          matchMy:
+              "Gravitational Attraction ကြောင့် ပစ္စည်းတစ်ခုသည် အခြား ပစ္စည်းတစ်ခု ပတ်လည် လိုက်နာသော ကွေ့ကောက်နေသော လမ်းကြောင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w25-dm-2",
+          termEn: "Comet",
+          termMy: "Comet",
+          matchEn:
+              "A small icy body with a highly elliptical orbit around the Sun",
+          matchMy: "နေ ပတ်လည် အလွန် Elliptical Orbit ရှိသော ရေခဲ ရုပ်ခန္ဓာငယ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w25-dm-3",
+          termEn: "Gravitational field strength",
+          termMy: "Gravitational Field Strength",
+          matchEn:
+              "The gravitational force per unit mass at a given point, decreasing with distance from a mass",
+          matchMy:
+              "အချက်တစ်ခု၏ ယူနစ် Mass တစ်ခုလျှင် Gravitational Force၊ Mass မှ အကွာအဝေးနှင့်အတူ လျော့ကျသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w25-dm-4",
+          termEn: "Centripetal force",
+          termMy: "Centripetal Force",
+          matchEn:
+              "A force directed toward the centre of a circular path, needed to keep an object moving in a circle",
+          matchMy:
+              "ပစ္စည်းတစ်ခုကို စက်ဝိုင်းတစ်ခုတွင် ရွေ့လျားနေစေရန် လိုအပ်သော စက်ဝိုင်းလမ်းကြောင်း ဗဟိုသို့ ညွှန်ပြသော Force",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w25-dm-5",
+          termEn: "Orbital period",
+          termMy: "Orbital Period",
+          matchEn: "The time taken for an object to complete one full orbit",
+          matchMy:
+              "ပစ္စည်းတစ်ခု Orbit တစ်ခု အပြည့်အဝ ပြီးမြောက်ရန် ယူသော အချိန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Planet, Comet, or Moon Orbit?",
+      titleMy: "စီစစ်ကြမည် - Planet, Comet သို့မဟုတ် Moon Orbit",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Planet Orbit", "Comet Orbit", "Moon Orbit"],
+        bucketsMy: ["Planet Orbit", "Comet Orbit", "Moon Orbit"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w25-sort-1",
+            labelEn: "Nearly circular path around the Sun",
+            labelMy: "နေ ပတ်လည် လုနီးပါး စက်ဝိုင်း လမ်းကြောင်း",
+            correctBucketEn: "Planet Orbit",
+            correctBucketMy: "Planet Orbit",
+          ),
+          SortingItem(
+            id: "igcsephys-w25-sort-2",
+            labelEn:
+                "Highly elliptical path, taking it far from and then close to the Sun",
+            labelMy:
+                "နေထံမှ ဝေးကွာစွာနှင့် ထို့နောက် နီးစွာ ခေါ်ဆောင်သွားသော အလွန် Elliptical လမ်းကြောင်း",
+            correctBucketEn: "Comet Orbit",
+            correctBucketMy: "Comet Orbit",
+          ),
+          SortingItem(
+            id: "igcsephys-w25-sort-3",
+            labelEn: "Orbits a planet rather than orbiting the Sun directly",
+            labelMy:
+                "နေကို တိုက်ရိုက် Orbit မလုပ်ဘဲ ဂြိုဟ်တစ်ခုကို Orbit လုပ်သည်",
+            correctBucketEn: "Moon Orbit",
+            correctBucketMy: "Moon Orbit",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Orbital Speed Comparison",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Orbital Speed နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Orbital Speed Comparison",
+        titleMy: "နေချည်၏ Orbital Speed နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "Ko Thura asked Nay Chi to compare the orbital speeds of Mercury, the closest planet to the Sun, and Neptune, one of the farthest, using the formula v = 2 x pi x r / T, and to explain why the two speeds turned out so different.\n\nShe looked up Mercury's approximate orbital radius, 58 million km, and its orbital period, about 88 days, converting this to seconds for consistent units. Substituting into the formula gave Mercury an orbital speed of roughly 48 km/s -- extremely fast. For Neptune, with an orbital radius of about 4500 million km and an orbital period of roughly 165 years, she carried out the same calculation and found an orbital speed of only about 5.4 km/s, nearly ten times slower than Mercury.\n\nKo Thura asked her to explain this difference using gravitational field strength rather than just quoting the formula's numbers. Nay Chi reasoned that Mercury, being much closer to the Sun, experiences a far stronger gravitational pull than Neptune does, and this stronger pull provides a much larger centripetal force -- requiring Mercury to travel much faster to avoid spiralling into the Sun, in the same way a ball on a shorter string must be swung faster to maintain circular motion against a stronger pull toward the centre. She concluded that both formulas -- the orbital speed equation and the underlying gravity relationship -- told the same physical story from two different angles: planets closer to the Sun experience stronger gravity, and therefore must orbit faster to remain in a stable path.",
+        passageMy:
+            "v = 2 x pi x r / T ဖော်မြူလာကို အသုံးပြု၍ နေနှင့် အနီးဆုံး ဂြိုဟ် Mercury နှင့် အဝေးဆုံးများအနက် တစ်ခု Neptune တို့၏ Orbital Speed များကို နှိုင်းယှဉ်ရန်နှင့် Speed နှစ်ခု အလွန် ကွဲပြားရသည့် အကြောင်းရင်းကို ရှင်းပြရန် ကိုသူရ နေချည်ကို တောင်းဆိုခဲ့သည်။\n\nသူမသည် Mercury ၏ ခန့်မှန်း Orbital Radius, ကီလိုမီတာ သန်း ၅၈ နှင့် ၎င်း၏ Orbital Period, ရက် ၈၈ ခန့်ကို ရှာဖွေခဲ့ပြီး တစ်သမတ်တည်း ယူနစ်များအတွက် ဆက္ကန့်သို့ ပြောင်းလဲခဲ့သည်။ ဖော်မြူလာသို့ အစားထိုးလိုက်ပါက Mercury ၏ Orbital Speed ခန့်မှန်း 48 km/s ရရှိခဲ့သည် -- အလွန် မြန်ဆန်သည်။ Neptune အတွက် Orbital Radius ကီလိုမီတာ သန်း ၄၅၀၀ ခန့်နှင့် Orbital Period နှစ် ၁၆၅ ခန့်ဖြင့် သူမသည် တူညီသော တွက်ချက်မှုကို လုပ်ဆောင်ခဲ့ပြီး Orbital Speed ခန့်မှန်း 5.4 km/s သာ ရှာတွေ့ခဲ့သည်၊ Mercury ထက် ခန့်မှန်း ဆယ်ဆ ပို၍ နှေးကွေးသည်။\n\nဖော်မြူလာ၏ ဂဏန်းများကို ရိုးရိုးရှင်းရှင်း ကိုးကားမည့်အစား Gravitational Field Strength ကို အသုံးပြု၍ ဤ ကွာခြားချက်ကို ရှင်းပြရန် ကိုသူရ သူမကို တောင်းဆိုခဲ့သည်။ Mercury သည် နေနှင့် များစွာ ပို၍ နီးကပ်သောကြောင့် Neptune ထက် များစွာ ပို၍ ပြင်းထန်သော Gravitational Pull ကို ခံစားရကြောင်း၊ ဤ ပို၍ ပြင်းထန်သော Pull က များစွာ ပို၍ ကြီးမားသော Centripetal Force ကို ပေးအပ်ကြောင်း -- နေထံသို့ Spiral ဖြစ်ခြင်းမှ ရှောင်ရှားရန် Mercury သည် များစွာ ပို၍ မြန်စွာ ခရီးသွားရန် လိုအပ်ကြောင်း၊ ချောင်းတိုတစ်ချောင်းတွင် ရှိသော ဘောလုံးတစ်ခုသည် ဗဟိုသို့ ပို၍ ပြင်းထန်သော Pull ကို ဆန့်ကျင်ကာ စက်ဝိုင်း ရွေ့လျားမှုကို ထိန်းသိမ်းရန် ပို၍ မြန်စွာ လှည့်ပတ်ရသည့်နည်းတူ ဖြစ်ကြောင်း နေချည် ကျိုးကြောင်းဆင်ခြင်ခဲ့သည်။ ဖော်မြူလာ နှစ်ခုစလုံး -- Orbital Speed ညီမျှခြင်းနှင့် Gravity ဆက်နွှယ်မှု အခြေခံ -- သည် ရှုထောင့် နှစ်ခုမှ ရုပ်ပိုင်းဆိုင်ရာ ဇာတ်လမ်းတစ်ခုတည်းကို ပြောပြကြောင်း သူမ ကောက်ချက်ချခဲ့သည် - နေနှင့် ပို၍ နီးကပ်သော ဂြိုဟ်များသည် ပို၍ ပြင်းထန်သော Gravity ကို ခံစားရသောကြောင့် တည်ငြိမ်သော လမ်းကြောင်းတွင် ဆက်ရှိနေရန် ပို၍ မြန်စွာ Orbit လုပ်ရမည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, roughly what orbital speed did Nay Chi calculate for Mercury?",
+            questionMy:
+                "Mercury အတွက် နေချည် တွက်ချက်ခဲ့သော ခန့်မှန်း Orbital Speed ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Roughly 48 km/s",
+              "Roughly 5.4 km/s",
+              "Roughly 165 km/s",
+              "Roughly 88 km/s",
+            ],
+            optionsMy: [
+              "ခန့်မှန်း 48 km/s",
+              "ခန့်မှန်း 5.4 km/s",
+              "ခန့်မှန်း 165 km/s",
+              "ခန့်မှန်း 88 km/s",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with Mercury's orbital speed calculation.",
+            ],
+            hintsMy: [
+              "Mercury ၏ Orbital Speed တွက်ချက်မှု ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does Mercury need to orbit faster than Neptune?",
+            questionMy:
+                "Mercury သည် Neptune ထက် ပို၍ မြန်စွာ Orbit လုပ်ရန် လိုအပ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Being closer to the Sun, it experiences much stronger gravity, requiring a larger centripetal force to maintain orbit",
+              "Mercury is much larger than Neptune",
+              "Mercury has no gravity acting on it at all",
+              "Neptune's orbit is not actually elliptical",
+            ],
+            optionsMy: [
+              "နေနှင့် ပို၍ နီးကပ်သောကြောင့် များစွာ ပို၍ ပြင်းထန်သော Gravity ကို ခံစားရကာ Orbit ကို ထိန်းသိမ်းရန် ပို၍ ကြီးမားသော Centripetal Force လိုအပ်သောကြောင့်",
+              "Mercury သည် Neptune ထက် များစွာ ကြီးမားသောကြောင့်",
+              "Mercury အပေါ် Gravity လုံးဝ သက်ရောက်ခြင်း မရှိသောကြောင့်",
+              "Neptune ၏ Orbit သည် အမှန်တကယ် Elliptical မဟုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Nay Chi's gravitational explanation in paragraph 3.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ရှိ နေချည်၏ Gravitational ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what general rule did Nay Chi conclude about planets and the Sun?",
+            questionMy:
+                "ဂြိုဟ်များနှင့် နေအကြောင်း နေချည် ကောက်ချက်ချခဲ့သော ယေဘူယျ စည်းမျဉ်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Planets closer to the Sun experience stronger gravity and must orbit faster",
+              "All planets orbit at exactly the same speed",
+              "Distance from the Sun has no effect on orbital speed",
+              "Planets farther from the Sun always orbit faster",
+            ],
+            optionsMy: [
+              "နေနှင့် ပို၍ နီးကပ်သော ဂြိုဟ်များသည် ပို၍ ပြင်းထန်သော Gravity ကို ခံစားရပြီး ပို၍ မြန်စွာ Orbit လုပ်ရမည်",
+              "ဂြိုဟ်အားလုံးသည် အတိအကျ တူညီသော Speed ဖြင့် Orbit လုပ်ကြသည်",
+              "နေမှ အကွာအဝေးသည် Orbital Speed အပေါ် မည်သည့်သက်ရောက်မှုမျှ မရှိပါ",
+              "နေမှ ပို၍ ဝေးကွာသော ဂြိုဟ်များသည် အမြဲ ပို၍ မြန်စွာ Orbit လုပ်ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Earth and the Solar System",
+      titleMy:
+          "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Earth and the Solar System",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Planets stay in orbit because of...",
+          questionMy: "ဂြိုဟ်များသည် ...ကြောင့် Orbit တွင် ဆက်ရှိနေသည်",
+          optionsEn: [
+            "The Sun's gravitational force",
+            "Magnetic attraction",
+            "Air resistance",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "နေ၏ Gravitational Force",
+            "Magnetic Attraction",
+            "Air Resistance",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Gravitational field strength decreases as distance from a mass...",
+          questionMy:
+              "Mass တစ်ခုမှ အကွာအဝေး ...သည့်အခါ Gravitational Field Strength လျော့ကျသည်",
+          optionsEn: [
+            "Increases",
+            "Decreases",
+            "Stays exactly the same",
+            "Becomes negative",
+          ],
+          optionsMy: [
+            "တိုးလာ",
+            "လျော့ကျ",
+            "အတိအကျ တူညီစွာ ဆက်ရှိနေ",
+            "Negative ဖြစ်လာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comets have orbits that are much more...",
+          questionMy: "Comet များတွင် ...ပို၍ ရှိသော Orbit များ ရှိသည်",
+          optionsEn: [
+            "Elliptical than planets",
+            "Circular than planets",
+            "Non-existent",
+            "Identical to moons",
+          ],
+          optionsMy: [
+            "ဂြိုဟ်များထက် Elliptical",
+            "ဂြိုဟ်များထက် စက်ဝိုင်း",
+            "လုံးဝ မရှိသော",
+            "လများနှင့် တူညီသော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 26: "Stars and the Universe"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek26 = CourseWeekDef(
+  id: "course-igcse-phys-w26",
+  weekNumber: 26,
+  titleEn: "Stars and the Universe",
+  titleMy: "ကြယ်များနှင့် စကြဝဠာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w26-d1",
+      dayNumber: 1,
+      titleEn: "Stellar Life Cycles and Nuclear Fusion",
+      titleMy: "ကြယ် ဘဝစက်ဝန်းများနှင့် Nuclear Fusion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What powers a star like the Sun during most of its life?",
+          questionMy:
+              "နေ ကဲ့သို့ ကြယ်တစ်ခု၏ ဘဝ အများစုအတွင်း အဘယ်က Power ပေးသနည်း။",
+          optionsEn: [
+            "Nuclear fusion of hydrogen into helium in its core",
+            "Burning of solid fuel similar to a fire",
+            "Reflected light from nearby planets",
+            "Chemical reactions on the star's surface",
+          ],
+          optionsMy: [
+            "၎င်း၏ Core တွင် Hydrogen ကို Helium အဖြစ် Nuclear Fusion ပြုလုပ်ခြင်း",
+            "မီးတစ်ခုနှင့် ဆင်တူသော အစိုင်အခဲ လောင်စာ လောင်ကျွမ်းခြင်း",
+            "အနီးရှိ ဂြိုဟ်များမှ ပြန်ရောင်ပြန်သော အလင်း",
+            "ကြယ်၏ မျက်နှာပြင်ပေါ်ရှိ ဓာတုဗေဒ ဓာတ်ပြုမှုများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In nuclear fusion, hydrogen nuclei combine under enormous pressure and temperature to form helium, releasing vast amounts of energy that keeps the star shining for billions of years.",
+          ],
+          hintsMy: [
+            "Nuclear Fusion တွင် Hydrogen Nuclei များသည် ကြီးမားသော ဖိအားနှင့် အပူချိန်အောက်တွင် ပေါင်းစပ်ကာ Helium ဖွဲ့စည်းကာ ကြယ်ကို နှစ်ပေါင်း သန်းချီ တောက်ပစေသော ကြီးမားသော Energy ပမာဏ ထုတ်လွှတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the eventual fate of a sun-like star after it exhausts its hydrogen fuel and passes through the red giant stage?",
+          questionMy:
+              "၎င်း၏ Hydrogen လောင်စာ ကုန်ဆုံးပြီး Red Giant အဆင့်ကို ဖြတ်သန်းပြီးနောက် နေနှင့် ဆင်တူသော ကြယ်တစ်ခု၏ နောက်ဆုံး ကံကြမ္မာကား အဘယ်နည်း။",
+          optionsEn: [
+            "It becomes a white dwarf",
+            "It always explodes as a supernova and becomes a black hole",
+            "It becomes a neutron star every single time",
+            "It instantly disappears with no remnant left behind",
+          ],
+          optionsMy: [
+            "White Dwarf တစ်ခု ဖြစ်လာသည်",
+            "Supernova အဖြစ် အမြဲ ပေါက်ကွဲကာ Black Hole ဖြစ်လာသည်",
+            "အကြိမ်တိုင်း Neutron Star တစ်ခု ဖြစ်လာသည်",
+            "ကျန်ကြေးအရာ တစ်ခုမျှ မကျန်ဘဲ ချက်ချင်း ပျောက်ကွယ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Sun-like (lower-mass) stars end their lives relatively gently as white dwarfs, while much more massive stars end far more violently as supernovae, potentially leaving neutron stars or black holes.",
+          ],
+          hintsMy: [
+            "နေ ကဲ့သို့ (Mass နည်းသော) ကြယ်များသည် White Dwarf များအဖြစ် နှိုင်းယှဉ်အားဖြင့် ညင်သာစွာ ၎င်းတို့၏ ဘဝ အဆုံးသတ်ကြသော်လည်း Mass ပို၍ ကြီးမားသော ကြယ်များမှာမူ Neutron Star သို့မဟုတ် Black Hole ကျန်ရစ်နိုင်သော Supernova အဖြစ် ပို၍ ပြင်းထန်စွာ အဆုံးသတ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 'redshift' in the context of light from distant galaxies?",
+          questionMy:
+              "ဝေးကွာသော Galaxy များမှ အလင်းနှင့် ပတ်သက်၍ 'Redshift' ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Light from distant galaxies is shifted to longer wavelengths, indicating those galaxies are moving away from us",
+            "All distant galaxies appear literally red in colour to the naked eye",
+            "Light from galaxies always shifts to shorter wavelengths as they approach",
+            "Redshift only applies to sound, never to light",
+          ],
+          optionsMy: [
+            "ဝေးကွာသော Galaxy များမှ အလင်းသည် ရှည်လျားသော Wavelength သို့ ရွှေ့ပြောင်းသွားကာ ထို Galaxy များသည် ကျွန်ုပ်တို့ထံမှ ဝေးကွာလျက် ရွေ့လျားနေကြောင်း ညွှန်ပြသည်",
+            "ဝေးကွာသော Galaxy များ အားလုံးသည် အနုမျက်စိဖြင့် အနီရောင် အတိအကျ ဖြစ်ပေါ်သည်",
+            "Galaxy များ ချဉ်းကပ်လာသောအခါ ၎င်းတို့မှ အလင်းသည် Wavelength ပို၍ တိုသည့်ဘက်သို့ အမြဲ ရွှေ့ပြောင်းသည်",
+            "Redshift သည် အသံနှင့်သာ သက်ဆိုင်ပြီး အလင်းနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is analogous to the Doppler effect for sound -- just as a receding ambulance's siren drops in pitch, light from a receding galaxy shifts toward the red (longer wavelength) end of the spectrum.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား အသံအတွက် Doppler Effect နှင့် ဆင်တူသည် -- ဝေးကွာသွားနေသော Ambulance ၏ Siren ၏ Pitch ကျဆင်းသကဲ့သို့ ဝေးကွာသွားနေသော Galaxy တစ်ခုမှ အလင်းသည် Spectrum ၏ အနီရောင် (Wavelength ရှည်) အဖျားသို့ ရွှေ့ပြောင်းသွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Stars and Universe Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Stars and Universe ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w26-dm-1",
+          termEn: "Nuclear fusion",
+          termMy: "Nuclear Fusion",
+          matchEn:
+              "Light nuclei combining under extreme pressure and temperature to form heavier nuclei, releasing energy",
+          matchMy:
+              "Energy ထုတ်လွှတ်ကာ ပို၍ လေးသော Nuclei ဖွဲ့စည်းရန် အလွန်အမင်း ဖိအားနှင့် အပူချိန်အောက်တွင် ပေါင်းစပ်နေသော ပေါ့ပါးသော Nuclei",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w26-dm-2",
+          termEn: "Red giant",
+          termMy: "Red Giant",
+          matchEn:
+              "A late-life stage of a sun-like star, expanding and cooling after its core hydrogen is exhausted",
+          matchMy:
+              "၎င်း၏ Core Hydrogen ကုန်ဆုံးပြီးနောက် ကျယ်ပြန့်၍ အေးလာသော နေနှင့်ဆင်တူသော ကြယ်တစ်ခု၏ ဘဝနှောင်းပိုင်း အဆင့်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w26-dm-3",
+          termEn: "White dwarf",
+          termMy: "White Dwarf",
+          matchEn:
+              "The small, dense final remnant of a sun-like star after its outer layers are shed",
+          matchMy:
+              "၎င်း၏ အပြင်ပိုင်း အလွှာများ ချွတ်ပစ်ပြီးနောက် နေနှင့်ဆင်တူသော ကြယ်တစ်ခု၏ သေးငယ်၍ Density ရှိသော နောက်ဆုံး ကျန်ကြေးအရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w26-dm-4",
+          termEn: "Supernova",
+          termMy: "Supernova",
+          matchEn:
+              "The violent explosive death of a massive star, capable of leaving a neutron star or black hole",
+          matchMy:
+              "Neutron Star သို့မဟုတ် Black Hole ကျန်ရစ်နိုင်သော Mass ကြီးမားသော ကြယ်တစ်ခု၏ ပြင်းထန်စွာ ပေါက်ကွဲသော သေဆုံးမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w26-dm-5",
+          termEn: "Redshift",
+          termMy: "Redshift",
+          matchEn:
+              "The stretching of light to longer wavelengths from objects moving away, evidence for an expanding universe",
+          matchMy:
+              "ဝေးကွာနေသော ပစ္စည်းများမှ အလင်းကို ရှည်လျားသော Wavelength များသို့ ဆန့်ခြင်း၊ ကျယ်ပြန့်နေသော စကြဝဠာအတွက် အထောက်အထား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sun-Like Star or Massive Star Fate?",
+      titleMy:
+          "စီစစ်ကြမည် - နေနှင့်ဆင်တူသော ကြယ်လား၊ Mass ကြီးမားသော ကြယ် ကံကြမ္မာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sun-Like Star Fate", "Massive Star Fate"],
+        bucketsMy: ["Sun-Like Star Fate", "Massive Star Fate"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w26-sort-1",
+            labelEn:
+                "Expands into a red giant, then sheds its outer layers to become a white dwarf",
+            labelMy:
+                "Red Giant တစ်ခုအဖြစ် ကျယ်ပြန့်ကာ ထို့နောက် White Dwarf ဖြစ်ရန် ၎င်း၏ အပြင်ပိုင်း အလွှာများ ချွတ်ပစ်သည်",
+            correctBucketEn: "Sun-Like Star Fate",
+            correctBucketMy: "Sun-Like Star Fate",
+          ),
+          SortingItem(
+            id: "igcsephys-w26-sort-2",
+            labelEn:
+                "Expands into a red supergiant, then explodes as a supernova",
+            labelMy:
+                "Red Supergiant တစ်ခုအဖြစ် ကျယ်ပြန့်ကာ ထို့နောက် Supernova အဖြစ် ပေါက်ကွဲသည်",
+            correctBucketEn: "Massive Star Fate",
+            correctBucketMy: "Massive Star Fate",
+          ),
+          SortingItem(
+            id: "igcsephys-w26-sort-3",
+            labelEn: "May leave behind a neutron star or black hole",
+            labelMy: "Neutron Star သို့မဟုတ် Black Hole ကျန်ရစ်နိုင်သည်",
+            correctBucketEn: "Massive Star Fate",
+            correctBucketMy: "Massive Star Fate",
+          ),
+          SortingItem(
+            id: "igcsephys-w26-sort-4",
+            labelEn:
+                "Ends its life relatively gently as a small, dense remnant",
+            labelMy:
+                "သေးငယ်၍ Density ရှိသော ကျန်ကြေးအရာအဖြစ် နှိုင်းယှဉ်အားဖြင့် ညင်သာစွာ ဘဝ အဆုံးသတ်သည်",
+            correctBucketEn: "Sun-Like Star Fate",
+            correctBucketMy: "Sun-Like Star Fate",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Stellar Fusion Question",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ကြယ် Fusion မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Stellar Fusion Question",
+        titleMy: "နေချည်၏ ကြယ် Fusion မေးခွန်း",
+        passageEn:
+            "Ko Thura asked Nay Chi a question connecting nuclear physics from Term 6 to space physics: why does a star need to be truly enormous, far larger than any planet, for nuclear fusion to occur naturally at its core?\n\nShe recalled from her atomic physics work that fusing two hydrogen nuclei together requires overcoming a strong electrostatic repulsion, since both nuclei carry positive charge and naturally push apart from each other. Only extremely high temperatures and pressures can force the nuclei close enough together for the much stronger, but very short-range, nuclear force to take over and bind them. A star's enormous mass creates exactly this environment: the crushing gravitational pressure at its core, from the sheer weight of all the overlying material pressing inward, generates temperatures of millions of degrees -- conditions simply impossible to replicate inside a planet, whose mass and resulting core pressure are far too small.\n\nKo Thura then asked why fusion, once started, does not run away and immediately consume the entire star in a single instant. Nay Chi explained this was a self-regulating balance: as fusion releases energy, it creates outward pressure that pushes back against the star's own gravity, and the star settles into equilibrium where the outward push from fusion pressure exactly balances the inward pull of gravity -- if fusion sped up, the star would expand and cool slightly, slowing fusion back down, and if fusion slowed, gravity would compress the core further, speeding fusion back up. She realised this delicate, self-correcting balance was the reason stars like the Sun could shine steadily for billions of years rather than burning out in a violent instant.",
+        passageMy:
+            "စတုတ္ထတန်းမှ Nuclear Physics ကို Space Physics နှင့် ချိတ်ဆက်သော မေးခွန်းတစ်ခုကို ကိုသူရ နေချည်ကို မေးမြန်းခဲ့သည် - Nuclear Fusion သည် ၎င်း၏ Core တွင် သဘာဝအလျောက် ဖြစ်ပေါ်ရန် ကြယ်တစ်ခုသည် ဂြိုဟ် မည်သည်ထက်မဆို များစွာ ပို၍ ကြီးမား၍ အမှန်တကယ် ကြီးမားရန် အဘယ်ကြောင့် လိုအပ်သနည်း။\n\nHydrogen Nuclei နှစ်ခုကို အတူတကွ Fusion လုပ်ခြင်းသည် Nuclei နှစ်ခုစလုံး Positive Charge သယ်ဆောင်ကာ တစ်ခုနှင့်တစ်ခု သဘာဝအလျောက် ဝေးကွာစွာ တွန်းထုတ်သောကြောင့် အားကောင်းသော Electrostatic Repulsion ကို အနိုင်ယူရန် လိုအပ်ကြောင်း သူမ၏ Atomic Physics အလုပ်မှ သတိရခဲ့သည်။ အလွန် မြင့်မားသော အပူချိန်နှင့် ဖိအားများသာလျှင် Nuclei များကို ပို၍ အားကောင်းသော်လည်း Range အလွန်တိုတောင်းသော Nuclear Force က လွှမ်းမိုးကာ ၎င်းတို့ကို ချည်နှောင်ပေးလောက်အောင် အနီးကပ်စွာ တွန်းအားပေးနိုင်သည်။ ကြယ်တစ်ခု၏ ကြီးမားသော Mass က ဤ ပတ်ဝန်းကျင်ကို အတိအကျ ဖန်တီးပေးသည် - အပေါ်ယံ ပစ္စည်းအားလုံး၏ အလေးချိန် စစ်စစ်က အတွင်းသို့ တွန်းအားပေးနေခြင်းမှ ၎င်း၏ Core ရှိ ချေမှုန်းနေသော Gravitational Pressure သည် ဒီဂရီ သန်းချီသော အပူချိန်များကို ထုတ်ပေးသည် -- ဂြိုဟ်တစ်ခုအတွင်း ပြန်လည် ပြုလုပ်ရန် ရိုးရိုးရှင်းရှင်း မဖြစ်နိုင်သော အခြေအနေများ ဖြစ်ပြီး ဂြိုဟ်၏ Mass နှင့် ရလဒ် Core Pressure သည် များစွာ သေးငယ်လွန်းသည်။\n\nတစ်ကြိမ် စတင်ပြီးနောက် Fusion သည် ထွက်ပြေးသွားခြင်း မရှိဘဲ ကြယ်တစ်ခုလုံးကို ချက်ချင်း အကုန် မစားသုံးရသည့် အကြောင်းရင်းကို ထို့နောက် ကိုသူရ မေးမြန်းခဲ့သည်။ ဤသည်ကား ကိုယ်တိုင် ညှိနှိုင်းနေသော ဟန်ချက်တစ်ခု ဖြစ်ကြောင်း နေချည် ရှင်းပြခဲ့သည် - Fusion သည် Energy ထုတ်လွှတ်စဉ် ကြယ်ကိုယ်ပိုင် Gravity ကို ဆန့်ကျင်ကာ ပြန်တွန်းသော အပြင်ဘက် Pressure ကို ဖန်တီးကာ Fusion Pressure မှ အပြင်ဘက် တွန်းအားသည် Gravity ၏ အတွင်းဘက် Pull နှင့် အတိအကျ ဟန်ချက်ညီသော Equilibrium တွင် ကြယ်သည် နေရာယူသွားသည် -- Fusion အရှိန်မြန်ပါက ကြယ်သည် ကျယ်ပြန့်ကာ အနည်းငယ် အေးသွားပြီး Fusion ကို ပြန်လည် နှေးကွေးစေမည်၊ Fusion နှေးကွေးလာပါက Gravity က Core ကို ထပ်မံ ချုံ့ကာ Fusion ကို ပြန်လည် အရှိန်မြှင့်စေမည်။ ဤ သိမ်မွေ့၊ ကိုယ်တိုင် ပြင်ဆင်နိုင်သော ဟန်ချက်သည် နေကဲ့သို့ ကြယ်များသည် ပြင်းထန်သော ခဏတွင် ကုန်ဆုံးသွားမည့်အစား နှစ်ပေါင်း သန်းချီ တည်ငြိမ်စွာ တောက်ပနိုင်ရသည့် အကြောင်းရင်း ဖြစ်ကြောင်း သူမ သိရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why does a star's mass matter for fusion to occur?",
+            questionMy:
+                "Fusion ဖြစ်ပေါ်ရန် ကြယ်တစ်ခု၏ Mass အရေးကြီးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Enormous mass creates the crushing gravitational pressure needed to reach the necessary temperatures",
+              "Mass has no relationship with fusion at all",
+              "Only small, light stars can achieve fusion",
+              "Planets always have more mass than stars",
+            ],
+            optionsMy: [
+              "ကြီးမားသော Mass သည် လိုအပ်သော အပူချိန်များသို့ ရောက်ရှိရန် လိုအပ်သော ချေမှုန်းနေသော Gravitational Pressure ကို ဖန်တီးပေးသောကြောင့်",
+              "Mass သည် Fusion နှင့် မည်သည့်ဆက်နွှယ်မှုမျှ လုံးဝ မရှိသောကြောင့်",
+              "သေးငယ်၍ ပေါ့ပါးသော ကြယ်များသာ Fusion ကို ရရှိနိုင်သောကြောင့်",
+              "ဂြိုဟ်များသည် ကြယ်များထက် Mass အမြဲ ပို၍ များသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining the connection between mass and core pressure/temperature.",
+            ],
+            hintsMy: [
+              "Mass နှင့် Core Pressure/Temperature ကြား ဆက်နွှယ်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happens if fusion speeds up inside a star?",
+            questionMy:
+                "ကြယ်တစ်ခုအတွင်း Fusion အရှိန်မြန်ပါက အဘယ်ဖြစ်လာကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The star expands and cools slightly, slowing fusion back down",
+              "The star immediately explodes with no warning",
+              "Gravity disappears completely",
+              "Nothing changes at all in response",
+            ],
+            optionsMy: [
+              "ကြယ်သည် ကျယ်ပြန့်၍ အနည်းငယ် အေးသွားကာ Fusion ကို ပြန်လည် နှေးကွေးစေသည်",
+              "ကြယ်သည် သတိပေးချက် မရှိဘဲ ချက်ချင်း ပေါက်ကွဲသွားသည်",
+              "Gravity သည် လုံးလုံးလျားလျား ပျောက်ကွယ်သွားသည်",
+              "တုံ့ပြန်မှုတွင် မည်သည့်အရာမျှ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the self-regulating balance."],
+            hintsMy: [
+              "ကိုယ်တိုင် ညှိနှိုင်းနေသော ဟန်ချက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, why can stars like the Sun shine steadily for billions of years?",
+            questionMy:
+                "နေကဲ့သို့ ကြယ်များသည် နှစ်ပေါင်း သန်းချီ တည်ငြိမ်စွာ တောက်ပနိုင်ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A delicate, self-correcting balance between fusion pressure and gravity",
+              "They contain no hydrogen at all",
+              "They never actually produce any energy",
+              "Gravity plays no role in stars whatsoever",
+            ],
+            optionsMy: [
+              "Fusion Pressure နှင့် Gravity ကြား သိမ်မွေ့သော၊ ကိုယ်တိုင် ပြင်ဆင်နိုင်သော ဟန်ချက်",
+              "၎င်းတို့တွင် Hydrogen လုံးဝ မပါဝင်သောကြောင့်",
+              "၎င်းတို့သည် Energy မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မထုတ်ပေးသောကြောင့်",
+              "Gravity သည် ကြယ်များတွင် မည်သည့် အခန်းကဏ္ဍမျှ မပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Stars and the Universe",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Stars and the Universe",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Stars are powered mainly by...",
+          questionMy: "ကြယ်များကို အဓိကအားဖြင့် ...က Power ပေးသည်",
+          optionsEn: [
+            "Nuclear fusion of hydrogen into helium",
+            "Burning solid fuel",
+            "Reflected planetary light",
+            "Chemical combustion",
+          ],
+          optionsMy: [
+            "Hydrogen ကို Helium အဖြစ် Nuclear Fusion",
+            "အစိုင်အခဲ လောင်စာ လောင်ကျွမ်းခြင်း",
+            "ပြန်ရောင်ပြန်သော ဂြိုဟ်အလင်း",
+            "ဓာတုဗေဒ လောင်ကျွမ်းမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A massive star can end its life as a supernova, potentially leaving behind a...",
+          questionMy:
+              "Mass ကြီးမားသော ကြယ်တစ်ခုသည် Supernova အဖြစ် ၎င်း၏ဘဝ အဆုံးသတ်ကာ ...ကို ကျန်ရစ်နိုင်သည်",
+          optionsEn: [
+            "Neutron star or black hole",
+            "A brand new planet",
+            "Nothing at all, ever",
+            "A comet",
+          ],
+          optionsMy: [
+            "Neutron Star သို့မဟုတ် Black Hole",
+            "ဂြိုဟ်အသစ်တစ်ခု",
+            "မည်သည့်အရာမျှ လုံးဝ",
+            "Comet တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Redshift in light from distant galaxies is evidence that the universe is...",
+          questionMy:
+              "ဝေးကွာသော Galaxy များမှ အလင်းရှိ Redshift သည် စကြဝဠာသည် ...ဟူသော အထောက်အထား ဖြစ်သည်",
+          optionsEn: [
+            "Expanding",
+            "Shrinking",
+            "Perfectly static",
+            "Made of only one galaxy",
+          ],
+          optionsMy: [
+            "ကျယ်ပြန့်နေခြင်း",
+            "ကျုံ့ဝင်နေခြင်း",
+            "လုံးဝ Static ဖြစ်ခြင်း",
+            "Galaxy တစ်ခုတည်းဖြင့် ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 27: "Cosmic Evolution and Redshift"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek27 = CourseWeekDef(
+  id: "course-igcse-phys-w27",
+  weekNumber: 27,
+  titleEn: "Cosmic Evolution and Redshift",
+  titleMy: "စကြဝဠာ ဆင့်ကဲဖြစ်စဉ်နှင့် ရက်ဒ်ရှစ် (Redshift)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w27-d1",
+      dayNumber: 1,
+      titleEn: "CMBR, Supernovae, and Hubble's Law",
+      titleMy: "CMBR, Supernovae နှင့် Hubble's Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the Cosmic Microwave Background Radiation (CMBR), and what does it provide evidence for?",
+          questionMy:
+              "Cosmic Microwave Background Radiation (CMBR) ဆိုသည်မှာ အဘယ်နည်း၊ ၎င်းက အဘယ်အတွက် သက်သေအထောက်အထား ပေးအပ်သနည်း။",
+          optionsEn: [
+            "Leftover heat radiation from the early hot universe, found in all directions, supporting the Big Bang theory",
+            "Radiation emitted only by stars like the Sun",
+            "A signal broadcast by radio stations on Earth",
+            "Evidence that the universe has always been perfectly cold",
+          ],
+          optionsMy: [
+            "အဘက်ဘက်တွင် တွေ့ရသော၊ Big Bang သီအိုရီကို ထောက်ခံသော ကနဦး ပူနွေးသော စကြဝဠာမှ ကျန်ကြေးအရာ အပူ Radiation",
+            "နေကဲ့သို့ ကြယ်များက ထုတ်လွှတ်ရုံ Radiation",
+            "ကမ္ဘာမြေပေါ်ရှိ Radio Station များက ထုတ်လွှင့်သော Signal တစ်ခု",
+            "စကြဝဠာသည် အမြဲ ပြီးပြည့်စုံစွာ အေးမြခဲ့သည်ဟူသော အထောက်အထား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "CMBR is remarkably uniform across the entire sky in every direction, exactly as expected if it originated from a hot, dense, expanding universe shortly after the Big Bang.",
+          ],
+          hintsMy: [
+            "CMBR သည် Big Bang ပြီးနောက် မကြာမီ ပူနွေး၍ Density ရှိသော၊ ကျယ်ပြန့်နေသော စကြဝဠာမှ မူလ ဇာစ်မြစ်ရှိလျှင် မျှော်လင့်ထားသည့်အတိုင်း ဦးတည်ချက် တိုင်းတွင် ကောင်းကင်တစ်ခုလုံးတစ်လျှောက် အံ့ဩဖွယ် တစ်သမတ်တည်း ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How can astronomers use supernovae to measure the distance to a far-away galaxy?",
+          questionMy:
+              "ကာလကြယ်တာရာ ပညာရှင်များသည် ဝေးကွာသော Galaxy တစ်ခုသို့ အကွာအဝေးကို တိုင်းတာရန် Supernovae ကို မည်သို့ အသုံးပြုနိုင်သနည်း။",
+          optionsEn: [
+            "Certain supernovae have a known true brightness, so comparing this to their observed brightness reveals distance",
+            "Supernovae have no relationship with distance measurement at all",
+            "Supernovae can only measure the temperature of a galaxy",
+            "Astronomers simply guess distances without any measurement method",
+          ],
+          optionsMy: [
+            "Supernovae အချို့တွင် သိရှိထားသော အစစ်အမှန် တောက်ပမှု ရှိသောကြောင့် ၎င်းကို တွေ့ကြုံရသော တောက်ပမှုနှင့် နှိုင်းယှဉ်ခြင်းက အကွာအဝေးကို ဖော်ထုတ်ပေးသည်",
+            "Supernovae သည် အကွာအဝေး တိုင်းတာခြင်းနှင့် မည်သည့်ဆက်နွှယ်မှုမျှ လုံးဝ မရှိပါ",
+            "Supernovae သည် Galaxy တစ်ခု၏ အပူချိန်ကိုသာ တိုင်းတာနိုင်သည်",
+            "ကာလကြယ်တာရာ ပညာရှင်များသည် တိုင်းတာခြင်း နည်းလမ်း မည်သည်မျှ မရှိဘဲ အကွာအဝေးများကို ရိုးရိုးရှင်းရှင်း ခန့်မှန်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is like knowing a light bulb's true wattage: if you know its true brightness and measure how dim it appears, you can calculate how far away it must be -- called a 'standard candle' method.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား မီးလုံးတစ်လုံး၏ အစစ်အမှန် Wattage ကို သိရှိထားသကဲ့သို့ ဖြစ်သည် - ၎င်း၏ အစစ်အမှန် တောက်ပမှုကို သိရှိထားပြီး မှိန်ပုံ မည်သို့ ရှိကြောင်း တိုင်းတာပါက ၎င်းသည် မည်မျှ ဝေးကွာနေရမည်ကို တွက်ချက်နိုင်သည် -- 'Standard Candle' နည်းလမ်း ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Hubble's Law, how does a galaxy's recession speed relate to its distance from us?",
+          questionMy:
+              "Hubble's Law အရ Galaxy တစ်ခု၏ ဝေးကွာသွားနှုန်းသည် ကျွန်ုပ်တို့ထံမှ ၎င်း၏ အကွာအဝေးနှင့် မည်သို့ ဆက်စပ်နေသနည်း။",
+          optionsEn: [
+            "More distant galaxies recede faster -- recession speed is proportional to distance",
+            "All galaxies recede at exactly the same speed regardless of distance",
+            "Closer galaxies always recede faster than distant ones",
+            "Distance has no relationship with recession speed at all",
+          ],
+          optionsMy: [
+            "ပို၍ ဝေးကွာသော Galaxy များသည် ပို၍ လျင်မြန်စွာ ဝေးကွာသွားသည် -- ဝေးကွာသွားနှုန်းသည် အကွာအဝေးနှင့် အချိုးကျသည်",
+            "Galaxy အားလုံးသည် အကွာအဝေး မည်သို့ ရှိသည်ဖြစ်စေ အတိအကျ တူညီသော Speed ဖြင့် ဝေးကွာသွားသည်",
+            "အနီးရှိ Galaxy များသည် ဝေးကွာသော Galaxy များထက် အမြဲ ပို၍ လျင်မြန်စွာ ဝေးကွာသွားသည်",
+            "အကွာအဝေးသည် ဝေးကွာသွားနှုန်းနှင့် မည်သည့်ဆက်နွှယ်မှုမျှ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Hubble's Law, v = H0 x d, shows recession velocity increases in direct proportion to distance -- a key piece of evidence for a uniformly expanding universe.",
+          ],
+          hintsMy: [
+            "Hubble's Law, v = H0 x d, သည် ဝေးကွာသွားနှုန်း Velocity သည် အကွာအဝေးနှင့် တိုက်ရိုက် အချိုးကျ တိုးလာကြောင်း ပြသသည် -- တစ်သမတ်တည်း ကျယ်ပြန့်နေသော စကြဝဠာအတွက် အဓိက သက်သေအထောက်အထားတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cosmic Evolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cosmic Evolution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w27-dm-1",
+          termEn: "Big Bang theory",
+          termMy: "Big Bang Theory",
+          matchEn:
+              "The theory that the universe began from an extremely hot, dense point and has been expanding ever since",
+          matchMy:
+              "စကြဝဠာသည် အလွန် ပူနွေး၍ Density ရှိသော အချက်တစ်ခုမှ စတင်ခဲ့ပြီး ထိုအချိန်မှစတင်ကာ ကျယ်ပြန့်လျက် ရှိသည်ဟူသော သီအိုရီ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w27-dm-2",
+          termEn: "Cosmic Microwave Background Radiation",
+          termMy: "Cosmic Microwave Background Radiation",
+          matchEn:
+              "Uniform leftover heat radiation found in every direction, strong evidence for the Big Bang",
+          matchMy:
+              "Big Bang အတွက် အားကောင်းသော သက်သေအထောက်အထား ဖြစ်ပြီး ဦးတည်ချက်တိုင်းတွင် တွေ့ရသော တစ်သမတ်တည်း ကျန်ကြေးအရာ အပူ Radiation",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w27-dm-3",
+          termEn: "Standard candle",
+          termMy: "Standard Candle",
+          matchEn:
+              "An astronomical object with a known true brightness, used to calculate distance from apparent brightness",
+          matchMy:
+              "မြင်ရသော တောက်ပမှုမှ အကွာအဝေးကို တွက်ချက်ရန် အသုံးပြုသော သိရှိထားသော အစစ်အမှန် တောက်ပမှုရှိသော ကာလကြယ်တာရာဆိုင်ရာ ပစ္စည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w27-dm-4",
+          termEn: "Hubble's Law",
+          termMy: "Hubble's Law",
+          matchEn:
+              "The relationship stating a galaxy's recession speed is proportional to its distance from us",
+          matchMy:
+              "Galaxy တစ်ခု၏ ဝေးကွာသွားနှုန်းသည် ကျွန်ုပ်တို့ထံမှ ၎င်း၏ အကွာအဝေးနှင့် အချိုးကျကြောင်း ဖော်ပြသော ဆက်နွှယ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w27-dm-5",
+          termEn: "Expanding universe",
+          termMy: "Expanding Universe",
+          matchEn:
+              "The observation that galaxies are, on average, moving away from each other over time",
+          matchMy:
+              "Galaxy များသည် ပျမ်းမျှအားဖြင့် အချိန်ကြာလာသည်နှင့်အမျှ တစ်ခုနှင့်တစ်ခု ဝေးကွာနေကြောင်း တွေ့ရှိချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Evidence for the Big Bang or Not?",
+      titleMy: "စီစစ်ကြမည် - Big Bang အတွက် အထောက်အထားလား၊ မဟုတ်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Evidence for the Big Bang",
+          "Not Evidence for the Big Bang",
+        ],
+        bucketsMy: [
+          "Evidence for the Big Bang",
+          "Not Evidence for the Big Bang",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsephys-w27-sort-1",
+            labelEn: "Redshift observed in light from distant galaxies",
+            labelMy: "ဝေးကွာသော Galaxy များမှ အလင်းတွင် တွေ့ရသော Redshift",
+            correctBucketEn: "Evidence for the Big Bang",
+            correctBucketMy: "Evidence for the Big Bang",
+          ),
+          SortingItem(
+            id: "igcsephys-w27-sort-2",
+            labelEn:
+                "Uniform Cosmic Microwave Background Radiation in every direction",
+            labelMy:
+                "ဦးတည်ချက် တိုင်းတွင် တစ်သမတ်တည်း Cosmic Microwave Background Radiation",
+            correctBucketEn: "Evidence for the Big Bang",
+            correctBucketMy: "Evidence for the Big Bang",
+          ),
+          SortingItem(
+            id: "igcsephys-w27-sort-3",
+            labelEn: "The colour of a person's car",
+            labelMy: "လူတစ်ဦး၏ ကား၏ အရောင်",
+            correctBucketEn: "Not Evidence for the Big Bang",
+            correctBucketMy: "Not Evidence for the Big Bang",
+          ),
+          SortingItem(
+            id: "igcsephys-w27-sort-4",
+            labelEn:
+                "Hubble's Law showing recession speed proportional to distance",
+            labelMy:
+                "ဝေးကွာသွားနှုန်းသည် အကွာအဝေးနှင့် အချိုးကျကြောင်း ပြသသော Hubble's Law",
+            correctBucketEn: "Evidence for the Big Bang",
+            correctBucketMy: "Evidence for the Big Bang",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Hubble's Law Calculation",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Hubble's Law တွက်ချက်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Hubble's Law Calculation",
+        titleMy: "နေချည်၏ Hubble's Law တွက်ချက်မှု",
+        passageEn:
+            "Ko Thura gave Nay Chi redshift data for three galaxies at different distances, all showing recession speeds that appeared roughly proportional to how far away each galaxy was, and asked her to explain what pattern this represented and why it mattered.\n\nGalaxy A, the closest, showed a recession speed of about 1000 km/s. Galaxy B, roughly twice as far away, showed a recession speed of about 2000 km/s. Galaxy C, roughly three times as far as Galaxy A, showed a recession speed of about 3000 km/s. Nay Chi immediately recognised this as Hubble's Law in action: recession speed increasing in direct proportion to distance, exactly as v = H0 x d predicts, where H0 (the Hubble constant) is the same fixed value connecting speed and distance for every galaxy in the sample.\n\nKo Thura then asked her what this pattern implied about the universe as a whole, beyond just these three galaxies. Nay Chi reasoned that if every galaxy in every direction showed this same proportional relationship -- farther galaxies always receding faster -- the simplest explanation was that space itself was expanding uniformly everywhere, carrying galaxies apart from each other like dots painted on the surface of an inflating balloon, rather than galaxies moving through a fixed, unchanging space. She noted this also explained why there was no special 'centre' galaxy that all others moved away from: from any galaxy's own perspective, every other galaxy would appear to be receding, with more distant ones receding faster, exactly matching what astronomers observe from Earth -- strong supporting evidence that the universe had no privileged centre and was expanding everywhere at once, consistent with the Big Bang having occurred everywhere in space simultaneously rather than from one specific point still identifiable today.",
+        passageMy:
+            "ကိုသူရသည် ကွာခြားသော အကွာအဝေးများရှိ Galaxy သုံးခု၏ Redshift ဒေတာကို နေချည်ကို ပေးအပ်ခဲ့ပြီး Galaxy တစ်ခုစီ၏ ဝေးကွာမှုအတိုင်းအတာနှင့် ခန့်မှန်းအားဖြင့် အချိုးကျသည့် ဝေးကွာသွားနှုန်းများကို ပြသကြောင်း၊ ဤသည်က မည်သည့် ပုံစံကို ကိုယ်စားပြုပြီး အဘယ်ကြောင့် အရေးကြီးကြောင်း ရှင်းပြရန် သူမကို တောင်းဆိုခဲ့သည်။\n\nအနီးဆုံး Galaxy A သည် ဝေးကွာသွားနှုန်း ခန့်မှန်း 1000 km/s ကို ပြသခဲ့သည်။ ခန့်မှန်းအားဖြင့် နှစ်ဆ ဝေးကွာသော Galaxy B သည် ဝေးကွာသွားနှုန်း ခန့်မှန်း 2000 km/s ကို ပြသခဲ့သည်။ Galaxy A ထက် ခန့်မှန်းအားဖြင့် သုံးဆ ဝေးကွာသော Galaxy C သည် ဝေးကွာသွားနှုန်း ခန့်မှန်း 3000 km/s ကို ပြသခဲ့သည်။ ဝေးကွာသွားနှုန်း အကွာအဝေးနှင့် တိုက်ရိုက် အချိုးကျ တိုးလာကြောင်း၊ v = H0 x d ခန့်မှန်းထားသည့်အတိုင်း အတိအကျ ဖြစ်ကြောင်း၊ H0 (Hubble Constant) သည် နမူနာရှိ Galaxy တိုင်းအတွက် Speed နှင့် အကွာအဝေးကို ချိတ်ဆက်ပေးသော တူညီသော ပုံသေတန်ဖိုး ဖြစ်ကြောင်း Hubble's Law အလုပ်လုပ်နေသည်ကို နေချည် ချက်ချင်း ဖော်ထုတ်ခဲ့သည်။\n\nဤ Galaxy သုံးခုကိုသာ ကျော်လွန်၍ ဤ ပုံစံသည် စကြဝဠာတစ်ခုလုံးအကြောင်း အဘယ်ကို ဆိုလိုသနည်းဟု ထို့နောက် ကိုသူရ သူမကို မေးမြန်းခဲ့သည်။ ဦးတည်ချက် တိုင်းရှိ Galaxy တိုင်းသည် ဤ တူညီသော အချိုးကျ ဆက်နွှယ်မှုကို ပြသခဲ့ပါက -- ပို၍ ဝေးကွာသော Galaxy များသည် အမြဲ ပို၍ လျင်မြန်စွာ ဝေးကွာသွားခြင်း -- အရိုးရှင်းဆုံး ရှင်းပြချက်မှာ Fixed, မပြောင်းလဲသော နေရာတစ်ခုကို ဖြတ်၍ ရွေ့လျားနေသော Galaxy များ မဟုတ်ဘဲ နေရာကိုယ်တိုင်သည် လေထုအား ဖောင်းနေသော လေပူး၏ မျက်နှာပြင်ပေါ်ရှိ အစက်များကဲ့သို့ Galaxy များကို တစ်ခုနှင့်တစ်ခု ဝေးကွာစွာ သယ်ဆောင်ကာ ရပ်ဝန်းအနှံ့ တစ်သမတ်တည်း ကျယ်ပြန့်နေခြင်း ဖြစ်သည်ဟု နေချည် ကျိုးကြောင်းဆင်ခြင်ခဲ့သည်။ ၎င်းသည် အခြား Galaxy အားလုံး ဝေးကွာသွားသော အထူးသော 'ဗဟို' Galaxy တစ်ခု ဘာကြောင့် မရှိကြောင်းကိုလည်း ရှင်းပြပေးကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည် - Galaxy ကိုယ်ပိုင် ရှုထောင့်မှ ကြည့်လျှင် အခြား Galaxy တိုင်းသည် ဝေးကွာသွားနေဟန် ရှိပြီး ပို၍ ဝေးကွာသော Galaxy များ ပို၍ လျင်မြန်စွာ ဝေးကွာသွားကာ ကမ္ဘာမြေမှ ကာလကြယ်တာရာ ပညာရှင်များ တွေ့မြင်ရသည်နှင့် အတိအကျ ကိုက်ညီသည် -- စကြဝဠာတွင် အထူးအခွင့်ထူးရသော ဗဟို မရှိဘဲ တစ်ချိန်တည်း အနှံ့ ကျယ်ပြန့်နေကြောင်း ခိုင်မာစွာ ထောက်ခံသော အထောက်အထား ဖြစ်ပြီး ယနေ့တိုင် ဖော်ထုတ်နိုင်သေးသော တိကျသော အချက်တစ်ခုမှ မဟုတ်ဘဲ Big Bang သည် နေရာတိုင်းတွင် တစ်ပြိုင်နက် ဖြစ်ပေါ်ခဲ့ကြောင်းနှင့် ကိုက်ညီသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what pattern did Nay Chi identify across the three galaxies?",
+            questionMy:
+                "Galaxy သုံးခုတစ်လျှောက် နေချည် ဖော်ထုတ်ခဲ့သော ပုံစံကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Recession speed increased in direct proportion to distance -- Hubble's Law",
+              "All three galaxies had exactly the same recession speed",
+              "The closest galaxy receded the fastest",
+              "Distance had no effect on recession speed",
+            ],
+            optionsMy: [
+              "ဝေးကွာသွားနှုန်းသည် အကွာအဝေးနှင့် တိုက်ရိုက် အချိုးကျ တိုးလာသည် -- Hubble's Law",
+              "Galaxy သုံးခုစလုံးတွင် အတိအကျ တူညီသော ဝေးကွာသွားနှုန်း ရှိခဲ့သည်",
+              "အနီးဆုံး Galaxy သည် အလျင်မြန်ဆုံး ဝေးကွာသွားခဲ့သည်",
+              "အကွာအဝေးသည် ဝေးကွာသွားနှုန်းအပေါ် မည်သည့်သက်ရောက်မှုမျှ မရှိခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence identifying Hubble's Law in the data.",
+            ],
+            hintsMy: [
+              "ဒေတာထဲရှိ Hubble's Law ကို ဖော်ထုတ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what analogy did Nay Chi use to explain the expanding universe?",
+            questionMy:
+                "ကျယ်ပြန့်နေသော စကြဝဠာကို ရှင်းပြရန် နေချည် အသုံးပြုခဲ့သော ဥပမာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Dots painted on the surface of an inflating balloon",
+              "A stationary photograph that never changes",
+              "A single fixed point in space",
+              "A car driving on a straight road",
+            ],
+            optionsMy: [
+              "လေထုအား ဖောင်းနေသော လေပူး၏ မျက်နှာပြင်ပေါ်ရှိ အစက်များ",
+              "ဘယ်တော့မှ မပြောင်းလဲသော ရပ်တန့်နေသော ဓာတ်ပုံတစ်ပုံ",
+              "အာကာသရှိ Fixed အချက် တစ်ခုတည်း",
+              "ဖြောင့်သော လမ်းပေါ်တွင် မောင်းနေသော ကားတစ်စီး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence with the balloon analogy."],
+            hintsMy: ["လေပူး ဥပမာ ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what does the absence of a special 'centre' galaxy tell us about the Big Bang?",
+            questionMy:
+                "အထူးသော 'ဗဟို' Galaxy တစ်ခု မရှိခြင်းက Big Bang အကြောင်း ကျွန်ုပ်တို့ကို အဘယ်ကို ပြောပြသနည်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It occurred everywhere in space simultaneously, rather than from one identifiable point",
+              "The Big Bang never actually happened",
+              "There is a single galaxy at the exact centre of the universe",
+              "The universe is shrinking, not expanding",
+            ],
+            optionsMy: [
+              "ဖော်ထုတ်နိုင်သော အချက်တစ်ခုမှ မဟုတ်ဘဲ အာကာသ နေရာတိုင်းတွင် တစ်ပြိုင်နက် ဖြစ်ပေါ်ခဲ့ကြောင်း",
+              "Big Bang သည် အမှန်တကယ် ဘယ်တော့မှ ဖြစ်ပျက်ခဲ့ခြင်း မရှိကြောင်း",
+              "စကြဝဠာ၏ အတိအကျ ဗဟိုတွင် Galaxy တစ်ခုတည်း ရှိကြောင်း",
+              "စကြဝဠာသည် ကျယ်ပြန့်နေခြင်း မဟုတ်ဘဲ ကျုံ့ဝင်နေကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Cosmic Evolution and Redshift",
+      titleMy:
+          "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Cosmic Evolution and Redshift",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "CMBR is found...",
+          questionMy: "CMBR ကို ...တွင် တွေ့ရသည်",
+          optionsEn: [
+            "Uniformly in every direction across the sky",
+            "Only in one small area of the sky",
+            "Only near the Sun",
+            "Nowhere at all",
+          ],
+          optionsMy: [
+            "ကောင်းကင်တစ်ခုလုံးတစ်လျှောက် ဦးတည်ချက် တိုင်းတွင် တစ်သမတ်တည်း",
+            "ကောင်းကင်၏ ဧရိယာသေးငယ်တစ်ခုတွင်သာ",
+            "နေအနီးတွင်သာ",
+            "နေရာမည်သည်တွင်မှ မတွေ့ရ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hubble's Law shows recession speed is proportional to...",
+          questionMy:
+              "Hubble's Law က ဝေးကွာသွားနှုန်းသည် ...နှင့် အချိုးကျကြောင်း ပြသသည်",
+          optionsEn: [
+            "Distance",
+            "Colour",
+            "Mass of the observer",
+            "Time of day on Earth",
+          ],
+          optionsMy: [
+            "အကွာအဝေး",
+            "အရောင်",
+            "စောင့်ကြည့်သူ၏ Mass",
+            "ကမ္ဘာမြေပေါ်ရှိ နေ့၏ အချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A standard candle in astronomy is used to measure...",
+          questionMy:
+              "ကာလကြယ်တာရာဗေဒတွင် Standard Candle ကို ...တိုင်းတာရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Distance",
+            "Temperature only",
+            "Colour only",
+            "Mass only",
+          ],
+          optionsMy: ["အကွာအဝေး", "အပူချိန်သာ", "အရောင်သာ", "Mass သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 28: "Space Physics Masterclass" (Term 7 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek28 = CourseWeekDef(
+  id: "course-igcse-phys-w28",
+  weekNumber: 28,
+  titleEn: "Space Physics Masterclass",
+  titleMy: "အာကာသ ရူပဗေဒ အထူးသင်ခန်းစာ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w28-d1",
+      dayNumber: 1,
+      titleEn: "Combined Orbital and Stellar Evolution Problems",
+      titleMy: "ပေါင်းစပ် Orbital နှင့် Stellar Evolution ပြဿနာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A moon orbits a planet in a circular path of radius 400,000 km, completing one orbit every 2,500,000 seconds. What is its orbital speed? (v = 2 x pi x r / T)",
+          questionMy:
+              "လတစ်လုံးသည် Radius 400,000 km ရှိသော စက်ဝိုင်း လမ်းကြောင်းတစ်ခုတွင် ဂြိုဟ်တစ်ခုကို Orbit လုပ်ပြီး Orbit တစ်ခုစီအား ဆက္ကန့် 2,500,000 တိုင်း ပြီးမြောက်စေသည်။ ၎င်း၏ Orbital Speed ကား အဘယ်နည်း။ (v = 2 x pi x r / T)",
+          optionsEn: [
+            "Approximately 1.0 km/s (2 x 3.14 x 400,000 / 2,500,000)",
+            "400,000 km/s",
+            "2,500,000 km/s",
+            "0.0001 km/s",
+          ],
+          optionsMy: [
+            "ခန့်မှန်း 1.0 km/s (2 x 3.14 x 400,000 / 2,500,000)",
+            "400,000 km/s",
+            "2,500,000 km/s",
+            "0.0001 km/s",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v = 2 x 3.14 x 400,000 / 2,500,000 = 2,512,000 / 2,500,000 = approximately 1.0 km/s.",
+          ],
+          hintsMy: [
+            "v = 2 x 3.14 x 400,000 / 2,500,000 = 2,512,000 / 2,500,000 = ခန့်မှန်း 1.0 km/s ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two stars begin their lives with very different masses. Which correctly describes their likely final fates?",
+          questionMy:
+              "ကြယ် နှစ်လုံးသည် အလွန် ကွဲပြားသော Mass များဖြင့် ၎င်းတို့၏ ဘဝကို စတင်ခဲ့ကြသည်။ ၎င်းတို့၏ ဖြစ်နိုင်ဆုံး နောက်ဆုံး ကံကြမ္မာများကို မှန်ကန်စွာ ဖော်ပြထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The lower-mass, sun-like star likely ends as a white dwarf; the much more massive star likely ends in a supernova",
+            "Both stars will always end their lives in exactly the same way, regardless of mass",
+            "The lower-mass star will always explode as a supernova, and the massive star will not",
+            "Mass has no effect whatsoever on a star's eventual fate",
+          ],
+          optionsMy: [
+            "Mass နိမ့်၍ နေနှင့်ဆင်တူသော ကြယ်သည် White Dwarf အဖြစ် ဖြစ်နိုင်ဆုံး အဆုံးသတ်ပြီး Mass များစွာ ပို၍ ကြီးမားသော ကြယ်သည် Supernova ဖြစ်နိုင်ဆုံး အဆုံးသတ်သည်",
+            "Mass မည်သို့ ရှိသည်ဖြစ်စေ ကြယ် နှစ်လုံးစလုံးသည် အတိအကျ တူညီသော နည်းဖြင့် ၎င်းတို့၏ ဘဝ အဆုံးသတ်လိမ့်မည်",
+            "Mass နိမ့်သော ကြယ်သည် Supernova အဖြစ် အမြဲ ပေါက်ကွဲပြီး Mass ကြီးမားသော ကြယ်မှာမူ မဖြစ်ပါ",
+            "Mass သည် ကြယ်တစ်ခု၏ နောက်ဆုံး ကံကြမ္မာအပေါ် မည်သည့်သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A star's initial mass is the key factor determining its life cycle path: lower-mass stars follow the gentler red giant to white dwarf route, while much more massive stars follow the violent supergiant to supernova route.",
+          ],
+          hintsMy: [
+            "ကြယ်တစ်ခု၏ အစပိုင်း Mass သည် ၎င်း၏ ဘဝစက်ဝန်း လမ်းကြောင်းကို ဆုံးဖြတ်ပေးသော အဓိက အချက် ဖြစ်သည် - Mass နိမ့်သော ကြယ်များသည် ပို၍ ညင်သာသော Red Giant မှ White Dwarf လမ်းကြောင်းကို လိုက်နာပြီး Mass များစွာ ပို၍ ကြီးမားသော ကြယ်များမှာမူ ပြင်းထန်သော Supergiant မှ Supernova လမ်းကြောင်းကို လိုက်နာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Galaxy X is twice as far from Earth as Galaxy Y. According to Hubble's Law, how does Galaxy X's recession speed compare to Galaxy Y's?",
+          questionMy:
+              "Galaxy X သည် Galaxy Y ထက် ကမ္ဘာမြေမှ နှစ်ဆ ဝေးကွာသည်။ Hubble's Law အရ Galaxy X ၏ ဝေးကွာသွားနှုန်းသည် Galaxy Y ၏ ဝေးကွာသွားနှုန်းနှင့် မည်သို့ နှိုင်းယှဉ်နိုင်သနည်း။",
+          optionsEn: [
+            "Galaxy X recedes at roughly twice the speed of Galaxy Y",
+            "Galaxy X recedes at exactly half the speed of Galaxy Y",
+            "Both galaxies recede at exactly the same speed",
+            "Distance has no effect on recession speed at all",
+          ],
+          optionsMy: [
+            "Galaxy X သည် Galaxy Y ၏ Speed ခန့်မှန်းအားဖြင့် နှစ်ဆဖြင့် ဝေးကွာသွားသည်",
+            "Galaxy X သည် Galaxy Y ၏ Speed ၏ ထက်ဝက်အတိအကျဖြင့် ဝေးကွာသွားသည်",
+            "Galaxy နှစ်ခုစလုံးသည် အတိအကျ တူညီသော Speed ဖြင့် ဝေးကွာသွားသည်",
+            "အကွာအဝေးသည် ဝေးကွာသွားနှုန်းအပေါ် မည်သည့်သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Hubble's Law states recession speed is directly proportional to distance (v = H0 x d), so doubling the distance doubles the recession speed.",
+          ],
+          hintsMy: [
+            "Hubble's Law အရ ဝေးကွာသွားနှုန်းသည် အကွာအဝေးနှင့် တိုက်ရိုက် အချိုးကျသည် (v = H0 x d)၊ ထို့ကြောင့် အကွာအဝေးကို နှစ်ဆ တိုးလိုက်ပါက ဝေးကွာသွားနှုန်းကိုလည်း နှစ်ဆ တိုးလာစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သတ္တမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w28-dm-1",
+          termEn: "Orbital speed equation",
+          termMy: "Orbital Speed Equation",
+          matchEn:
+              "v = 2 x pi x r / T, calculating the speed of an object in a circular orbit",
+          matchMy:
+              "v = 2 x pi x r / T၊ စက်ဝိုင်း Orbit တစ်ခုရှိ ပစ္စည်းတစ်ခု၏ Speed ကို တွက်ချက်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w28-dm-2",
+          termEn: "Stellar mass",
+          termMy: "Stellar Mass",
+          matchEn:
+              "The key factor determining whether a star ends as a white dwarf or a supernova remnant",
+          matchMy:
+              "ကြယ်တစ်ခုသည် White Dwarf သို့မဟုတ် Supernova ကျန်ကြေးအရာအဖြစ် အဆုံးသတ်ကြောင်း ဆုံးဖြတ်ပေးသော အဓိက အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w28-dm-3",
+          termEn: "Redshift as Doppler-like effect",
+          termMy: "Doppler-Like Effect အဖြစ် Redshift",
+          matchEn:
+              "Light stretching to longer wavelengths from objects receding, analogous to sound pitch dropping",
+          matchMy:
+              "ဝေးကွာသွားနေသော ပစ္စည်းများမှ အလင်းသည် ရှည်လျားသော Wavelength သို့ ဆန့်ခြင်း၊ အသံ Pitch ကျဆင်းခြင်းနှင့် ဆင်တူသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w28-dm-4",
+          termEn: "Hubble constant",
+          termMy: "Hubble Constant",
+          matchEn:
+              "The fixed proportionality value linking a galaxy's recession speed to its distance",
+          matchMy:
+              "Galaxy တစ်ခု၏ ဝေးကွာသွားနှုန်းကို ၎င်း၏ အကွာအဝေးနှင့် ချိတ်ဆက်ပေးသော ပုံသေ အချိုးကျ တန်ဖိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w28-dm-5",
+          termEn: "Standard candle method",
+          termMy: "Standard Candle Method",
+          matchEn:
+              "Comparing a supernova's known true brightness to its observed brightness to calculate distance",
+          matchMy:
+              "အကွာအဝေးကို တွက်ချက်ရန် Supernova တစ်ခု၏ သိရှိထားသော အစစ်အမှန် တောက်ပမှုကို တွေ့ကြုံရသော တောက်ပမှုနှင့် နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Orbital Concept or Stellar/Cosmic Concept?",
+      titleMy: "စီစစ်ကြမည် - Orbital သဘောတရားလား၊ Stellar/Cosmic သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Orbital Concept", "Stellar/Cosmic Concept"],
+        bucketsMy: ["Orbital Concept", "Stellar/Cosmic Concept"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w28-sort-1",
+            labelEn:
+                "Calculating a satellite's speed from its orbital radius and period",
+            labelMy:
+                "ဂြိုဟ်တု တစ်ခု၏ Orbital Radius နှင့် Period မှ ၎င်း၏ Speed တွက်ချက်ခြင်း",
+            correctBucketEn: "Orbital Concept",
+            correctBucketMy: "Orbital Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w28-sort-2",
+            labelEn:
+                "Explaining why a massive star ends its life as a supernova",
+            labelMy:
+                "Mass ကြီးမားသော ကြယ်တစ်ခု Supernova အဖြစ် ၎င်း၏ ဘဝ အဆုံးသတ်ရသည့် အကြောင်းရင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Stellar/Cosmic Concept",
+            correctBucketMy: "Stellar/Cosmic Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w28-sort-3",
+            labelEn:
+                "Explaining why gravitational field strength weakens with distance from a planet",
+            labelMy:
+                "ဂြိုဟ်တစ်ခုမှ အကွာအဝေးနှင့်အတူ Gravitational Field Strength အားနည်းလာရသည့် အကြောင်းရင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Orbital Concept",
+            correctBucketMy: "Orbital Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w28-sort-4",
+            labelEn:
+                "Using Hubble's Law to relate a galaxy's distance to its recession speed",
+            labelMy:
+                "Galaxy တစ်ခု၏ အကွာအဝေးကို ၎င်း၏ ဝေးကွာသွားနှုန်းနှင့် ဆက်စပ်ရန် Hubble's Law ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Stellar/Cosmic Concept",
+            correctBucketMy: "Stellar/Cosmic Concept",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Term 7 Space Physics Review",
+      titleMy:
+          "စာဖတ်ခြင်း - နေချည်၏ သတ္တမတန်း Space Physics ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Term 7 Space Physics Review",
+        titleMy: "နေချည်၏ သတ္တမတန်း Space Physics ပြန်လည်သုံးသပ်ခြင်း",
+        passageEn:
+            "For her Term 7 final review, Ko Thura asked Nay Chi to connect all three weeks of space physics into a single explanatory chain, starting from a planet orbiting a star and ending at the edge of the observable universe.\n\nShe began close to home: a planet orbits its star because the star's gravity provides exactly the centripetal force needed to continuously bend the planet's path into a stable orbit, with orbital speed calculable from v = 2 x pi x r / T. Zooming out to the star itself, she explained that the star's enormous mass creates the crushing core pressure and heat needed for nuclear fusion, the very process releasing the energy that lights the planet orbiting it -- meaning the same gravity holding the planet in orbit also, at a much larger scale inside the star, drives the fusion reactions powering the whole system.\n\nZooming out further still, to entire galaxies, Nay Chi explained that every galaxy's light showed redshift, stretched to longer wavelengths exactly as Hubble's Law predicted -- proportional to distance -- and that this pattern, combined with the uniform Cosmic Microwave Background Radiation found in every direction, pointed to one single explanation: the universe itself began as an incredibly hot, dense point and has been expanding uniformly ever since, carrying every galaxy away from every other galaxy. Ko Thura noted that Nay Chi had just traced an unbroken thread of gravity and its consequences from a single planet's orbit all the way out to the origin and expansion of the entire universe -- proof that a handful of fundamental physics ideas, applied at wildly different scales, could explain almost everything from a falling apple to the birth of the cosmos itself.",
+        passageMy:
+            "သတ္တမတန်း နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်းအတွက် ဂြိုဟ်တစ်ခု ကြယ်တစ်ခုကို Orbit လုပ်ခြင်းမှ စတင်ကာ မြင်နိုင်သော စကြဝဠာ၏ အစွန်းအထိ Space Physics ရက်သတ္တပတ် သုံးပတ်စလုံးကို ရှင်းပြချက် ကွင်းဆက် တစ်ခုတည်းအဖြစ် ချိတ်ဆက်ရန် ကိုသူရ နေချည်ကို တောင်းဆိုခဲ့သည်။\n\nသူမသည် အနီးဆုံးမှ စတင်ခဲ့သည် - ဂြိုဟ်တစ်ခုသည် ၎င်း၏ ကြယ်ကို Orbit လုပ်သည်၊ အကြောင်းမှာ ကြယ်၏ Gravity သည် ဂြိုဟ်၏ လမ်းကြောင်းကို တည်ငြိမ်သော Orbit တစ်ခုသို့ ဆက်တိုက် ကွေ့ဝင်ရန် လိုအပ်သော Centripetal Force ကို အတိအကျ ပေးအပ်ကြောင်း၊ Orbital Speed ကို v = 2 x pi x r / T မှ တွက်ချက်နိုင်ကြောင်းဖြစ်သည်။ ကြယ်ကိုယ်တိုင်ဆီသို့ ချဲ့ထွင်ကြည့်ပါက ကြယ်၏ ကြီးမားသော Mass သည် Nuclear Fusion အတွက် လိုအပ်သော ချေမှုန်းနေသော Core Pressure နှင့် အပူကို ဖန်တီးပေးကြောင်း၊ ၎င်းကို Orbit လုပ်နေသော ဂြိုဟ်ကို လင်းစေသော Energy ထုတ်လွှတ်နေသော လုပ်ငန်းစဉ်ကိုယ်တိုင် ဖြစ်ကြောင်း -- ဆိုလိုသည်မှာ ဂြိုဟ်ကို Orbit ထဲတွင် ထိန်းထားသော တူညီသော Gravity သည် ကြယ်အတွင်း များစွာ ပို၍ ကြီးမားသော Scale တစ်ခုတွင် စနစ်တစ်ခုလုံးကို Power ပေးနေသော Fusion ဓာတ်ပြုမှုများကိုလည်း လှုံ့ဆော်ပေးနေသည်။\n\nGalaxy အားလုံးဆီသို့ ဆက်လက် ချဲ့ထွင်ကြည့်ပါက Galaxy တိုင်း၏ အလင်းသည် Hubble's Law ခန့်မှန်းထားသည့်အတိုင်း -- အကွာအဝေးနှင့် အချိုးကျ -- ရှည်လျားသော Wavelength များသို့ ဆန့်ထားသော Redshift ကို ပြသကြောင်း၊ ဤ ပုံစံသည် ဦးတည်ချက် တိုင်းတွင် တွေ့ရသော တစ်သမတ်တည်း Cosmic Microwave Background Radiation နှင့် ပေါင်းစပ်ကာ ရှင်းပြချက် တစ်ခုတည်းသို့ ညွှန်ပြသည် - စကြဝဠာကိုယ်တိုင်သည် အံ့သြဖွယ် ပူနွေး၍ Density ရှိသော အချက်တစ်ခုအဖြစ် စတင်ခဲ့ပြီး ထိုအချိန်မှစတင်ကာ Galaxy တိုင်းကို အခြား Galaxy တိုင်းမှ ဝေးကွာစွာ သယ်ဆောင်လျက် တစ်သမတ်တည်း ကျယ်ပြန့်လျက် ရှိသည်ဟု နေချည် ရှင်းပြခဲ့သည်။ ဂြိုဟ်တစ်ခုတည်း၏ Orbit မှ စကြဝဠာတစ်ခုလုံး၏ မူလ ဇာစ်မြစ်နှင့် ကျယ်ပြန့်ခြင်းအထိ Gravity နှင့် ၎င်း၏ အကျိုးဆက်များ၏ မကျိုးမပဲ့ ကွင်းဆက်ကို နေချည် ခြေရာခံပြီးပြီဖြစ်ကြောင်း -- ကွဲပြားစွာ ကြီးမားသော Scale များတွင် အသုံးချထားသော ရူပဗေဒ အခြေခံ အယူအဆ လက်တစ်ဆုပ်စာသည် ကျရောက်နေသော ပန်းသီးတစ်လုံးမှ စကြဝဠာကိုယ်တိုင်၏ မွေးဖွားခြင်းအထိ လုနီးပါး အားလုံးကို ရှင်းပြနိုင်ကြောင်း သက်သေပြချက် -- ဖြစ်ကြောင်း ကိုသူရ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does the star's gravity provide to keep a planet in orbit?",
+            questionMy:
+                "ဂြိုဟ်တစ်ခုကို Orbit တွင် ထိန်းသိမ်းထားရန် ကြယ်၏ Gravity က အဘယ်ကို ပေးအပ်ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The centripetal force needed to continuously bend the planet's path",
+              "A magnetic field that repels the planet",
+              "No force at all -- planets orbit with no forces involved",
+              "Sound waves that push the planet along",
+            ],
+            optionsMy: [
+              "ဂြိုဟ်၏ လမ်းကြောင်းကို ဆက်တိုက် ကွေ့ဝင်ရန် လိုအပ်သော Centripetal Force",
+              "ဂြိုဟ်ကို တွန်းလှန်သော Magnetic Field",
+              "Force လုံးဝ မရှိပါ -- ဂြိုဟ်များသည် Force မပါဝင်ဘဲ Orbit လုပ်ကြသည်",
+              "ဂြိုဟ်ကို တစ်လျှောက်လုံး တွန်းပေးသော အသံလှိုင်းများ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမဆုံး စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two pieces of evidence together pointed to the Big Bang explanation?",
+            questionMy:
+                "Big Bang ရှင်းပြချက်ကို အတူတကွ ညွှန်ပြခဲ့သော သက်သေအထောက်အထား နှစ်ခုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Redshift proportional to distance, and uniform Cosmic Microwave Background Radiation",
+              "The colour of the Sun and the mass of Earth",
+              "The speed of sound and the temperature of Venus",
+              "The size of the Moon and the length of a day",
+            ],
+            optionsMy: [
+              "အကွာအဝေးနှင့် အချိုးကျ Redshift နှင့် တစ်သမတ်တည်း Cosmic Microwave Background Radiation",
+              "နေ၏ အရောင်နှင့် ကမ္ဘာမြေ၏ Mass",
+              "အသံ၏ Speed နှင့် ဗီးနပ်စ်၏ အပူချိန်",
+              "လ၏ အရွယ်အစားနှင့် တစ်နေ့၏ အလျား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence combining redshift and CMBR."],
+            hintsMy: [
+              "Redshift နှင့် CMBR ကို ပေါင်းစပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Thura conclude about fundamental physics ideas?",
+            questionMy:
+                "ရူပဗေဒ အခြေခံ အယူအဆများအကြောင်း ကိုသူရ ကောက်ချက်ချခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A handful of ideas, applied at wildly different scales, can explain almost everything from a falling apple to the birth of the cosmos",
+              "Physics ideas only apply to objects on Earth",
+              "Each scale of the universe requires a completely separate, unrelated set of laws",
+              "Gravity has no connection to the universe's expansion",
+            ],
+            optionsMy: [
+              "ကွဲပြားစွာ ကြီးမားသော Scale များတွင် အသုံးချထားသော အယူအဆ လက်တစ်ဆုပ်စာသည် ကျရောက်နေသော ပန်းသီးတစ်လုံးမှ စကြဝဠာ၏ မွေးဖွားခြင်းအထိ လုနီးပါး အားလုံးကို ရှင်းပြနိုင်ကြောင်း",
+              "ရူပဗေဒ အယူအဆများသည် ကမ္ဘာမြေပေါ်ရှိ ပစ္စည်းများတွင်သာ သက်ရောက်ကြောင်း",
+              "စကြဝဠာ Scale တစ်ခုစီသည် လုံးဝ သီးခြား၊ မဆက်စပ်သော ဥပဒေအစုံ လိုအပ်ကြောင်း",
+              "Gravity သည် စကြဝဠာ၏ ကျယ်ပြန့်ခြင်းနှင့် မည်သည့်ဆက်နွှယ်မှုမျှ မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Recap: Space Physics",
+      titleMy: "သတ္တမတန်း ပြန်လည်သုံးသပ်ခြင်း - Space Physics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Orbital speed is calculated using the formula v = 2 x pi x r / ...",
+          questionMy:
+              "Orbital Speed ကို v = 2 x pi x r / ... ဖော်မြူလာကို အသုံးပြု၍ တွက်ချက်သည်",
+          optionsEn: [
+            "T (orbital period)",
+            "m (mass)",
+            "g (gravitational field strength)",
+            "c (speed of light)",
+          ],
+          optionsMy: [
+            "T (Orbital Period)",
+            "m (Mass)",
+            "g (Gravitational Field Strength)",
+            "c (Speed of Light)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A star's initial mass mainly determines whether it ends life as a...",
+          questionMy:
+              "ကြယ်တစ်ခု၏ အစပိုင်း Mass သည် ၎င်း ...အဖြစ် ဘဝ အဆုံးသတ်ကြောင်း အဓိကအားဖြင့် ဆုံးဖြတ်ပေးသည်",
+          optionsEn: [
+            "White dwarf or supernova remnant",
+            "Comet or asteroid",
+            "Planet or moon",
+            "Piece of space debris only",
+          ],
+          optionsMy: [
+            "White Dwarf သို့မဟုတ် Supernova ကျန်ကြေးအရာ",
+            "Comet သို့မဟုတ် Asteroid",
+            "ဂြိုဟ် သို့မဟုတ် လ",
+            "အာကာသ အမှိုက်အစိတ်အပိုင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hubble's Law and the Cosmic Microwave Background Radiation together support the...",
+          questionMy:
+              "Hubble's Law နှင့် Cosmic Microwave Background Radiation တို့ အတူတကွ ...ကို ထောက်ခံသည်",
+          optionsEn: [
+            "Big Bang theory",
+            "Idea that the universe is shrinking",
+            "Idea that Earth is the centre of the universe",
+            "Idea that stars never change",
+          ],
+          optionsMy: [
+            "Big Bang Theory",
+            "စကြဝဠာသည် ကျုံ့ဝင်နေသည်ဟူသော အယူအဆ",
+            "ကမ္ဘာမြေသည် စကြဝဠာ၏ ဗဟိုဖြစ်သည်ဟူသော အယူအဆ",
+            "ကြယ်များသည် ဘယ်တော့မှ မပြောင်းလဲပါဟူသော အယူအဆ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+const CourseTermDef igcsePhysicsTerm7 = CourseTermDef(
+  id: "course-igcse-phys-term7",
+  termNumber: 7,
+  titleEn: "Space Physics",
+  titleMy: "အာကာသ ရူပဗေဒ",
+  certificateTitleEn: "IGCSE Physics Term 7 Certificate",
+  certificateTitleMy: "IGCSE ရူပဗေဒ သတ္တမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcsePhysWeek25,
+    _igcsePhysWeek26,
+    _igcsePhysWeek27,
+    _igcsePhysWeek28,
+  ],
+);
 // __TERMS_MARKER__
 
-/// IGCSE Physics pathway -- Terms 1-6 of 9 authored so far (Terms 7-9 to
-/// follow: Space Physics; Experimental Skills; Exam Prep & Graduation).
-/// `totalWeeks: 36` reflects the full 9-term aspirational course length.
+/// IGCSE Physics pathway -- Terms 1-7 of 9 authored so far (Terms 8-9 to
+/// follow: Experimental Skills; Exam Prep & Graduation). `totalWeeks: 36`
+/// reflects the full 9-term aspirational course length.
 const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
   id: "course-igcse-physics",
   subject: "physics",
@@ -8308,5 +9746,6 @@ const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
     igcsePhysicsTerm4,
     igcsePhysicsTerm5,
     igcsePhysicsTerm6,
+    igcsePhysicsTerm7,
   ],
 );
