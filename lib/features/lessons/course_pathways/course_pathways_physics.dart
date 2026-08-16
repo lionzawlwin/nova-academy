@@ -9723,11 +9723,1463 @@ const CourseTermDef igcsePhysicsTerm7 = CourseTermDef(
     _igcsePhysWeek28,
   ],
 );
+// =====================================================================
+// Week 29: "Designing Physics Experiments"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek29 = CourseWeekDef(
+  id: "course-igcse-phys-w29",
+  weekNumber: 29,
+  titleEn: "Designing Physics Experiments",
+  titleMy: "ရူပဗေဒ စမ်းသပ်မှုများ ဒီဇိုင်းဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w29-d1",
+      dayNumber: 1,
+      titleEn: "Controlling Variables and Choosing Instruments",
+      titleMy: "Variable များ ထိန်းချုပ်ခြင်းနှင့် ကိရိယာ ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student investigates how the length of a pendulum affects its period. Which variable must be kept constant for a fair test?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Pendulum ၏ အလျားက ၎င်း၏ Period ကို မည်သို့ သက်ရောက်ကြောင်း လေ့လာသည်။ မျှတသော စမ်းသပ်မှုတစ်ခုအတွက် မည်သည့် Variable ကို တည်ငြိမ်စွာ ထားရမည်နည်း။",
+          optionsEn: [
+            "The mass of the bob and the angle of release (amplitude)",
+            "The length of the pendulum string",
+            "The period being measured",
+            "Nothing needs to be kept constant",
+          ],
+          optionsMy: [
+            "Bob ၏ Mass နှင့် လွှတ်ချချက် ထောင့် (Amplitude)",
+            "Pendulum ကြိုးအလျား",
+            "တိုင်းတာနေသော Period",
+            "မည်သည့်အရာမျှ တည်ငြိမ်စွာ ထားရန် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since length is the independent variable being changed, mass and starting angle (for small angles) must stay constant so any change in period can be attributed to length alone.",
+          ],
+          hintsMy: [
+            "အလျားသည် ပြောင်းလဲနေသော Independent Variable ဖြစ်သောကြောင့် Period ၏ ပြောင်းလဲမှုကို အလျားတစ်ခုတည်းက ဖြစ်စေကြောင်း သတ်မှတ်နိုင်ရန် Mass နှင့် စတင်ထောင့် (ငယ်ငယ်ထောင့်များအတွက်) ကို တည်ငြိမ်စွာ ထားရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which instrument is most appropriate for precisely measuring the diameter of a thin wire?",
+          questionMy:
+              "ကြိုးမျှင်ပါးလွှာတစ်ခု၏ အချင်းကို တိကျစွာ တိုင်းတာရန် အသင့်လျော်ဆုံး ကိရိယာကား အဘယ်နည်း။",
+          optionsEn: [
+            "A micrometer screw gauge",
+            "A metre rule",
+            "A stopwatch",
+            "An ammeter",
+          ],
+          optionsMy: [
+            "Micrometer Screw Gauge",
+            "Metre Rule",
+            "Stopwatch",
+            "Ammeter",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A metre rule can only read to about 1 mm precision, far too coarse for a wire's diameter, which is typically under 1 mm; a micrometer screw gauge reads to 0.01 mm.",
+          ],
+          hintsMy: [
+            "Metre Rule သည် 1 mm ခန့် တိကျမှုကိုသာ ဖတ်နိုင်ပြီး ကြိုးမျှင်၏ အချင်း (များသောအားဖြင့် 1 mm အောက်) အတွက် အလွန် ရိုင်းသည်; Micrometer Screw Gauge က 0.01 mm အထိ ဖတ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it good practice to repeat a timing measurement several times and calculate an average?",
+          questionMy:
+              "အချိန်ကိုက် တိုင်းတာမှုတစ်ခုကို အကြိမ်ကြိမ် ထပ်လုပ်ကာ ပျမ်းမျှတွက်ချက်ခြင်းသည် ကောင်းသော လေ့ကျင့်ခန်းတစ်ခု ဖြစ်ရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It reduces the effect of random human reaction-time errors on the final result",
+            "It makes the experiment take less time overall",
+            "It guarantees a perfect result with zero error",
+            "Repeating measurements is never actually useful",
+          ],
+          optionsMy: [
+            "နောက်ဆုံး ရလဒ်အပေါ် ကျပန်း လူသား တုံ့ပြန်အချိန် အမှားများ၏ သက်ရောက်မှုကို လျော့ချသောကြောင့်",
+            "စမ်းသပ်မှု စုစုပေါင်းကို အချိန် ပို၍ နည်းအောင် လုပ်ဆောင်စေသောကြောင့်",
+            "အမှား သုည ရှိသော ပြီးပြည့်စုံသော ရလဒ်တစ်ခုကို အာမခံသောကြောင့်",
+            "တိုင်းတာမှုများကို ထပ်လုပ်ခြင်းသည် အမှန်တကယ် ဘယ်တော့မှ အသုံးမဝင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A human's reaction time when starting/stopping a stopwatch varies slightly each time; averaging several readings smooths out this random variation, giving a more reliable result.",
+          ],
+          hintsMy: [
+            "Stopwatch ကို စတင်/ရပ်တန့်သည့်အခါ လူသား၏ တုံ့ပြန်အချိန်သည် အကြိမ်တိုင်း အနည်းငယ် ကွဲပြားသည်; ဖတ်ရှုမှု များစွာကို ပျမ်းမျှတွက်ခြင်းက ဤ ကျပန်း ကွဲပြားမှုကို ချောမွေ့စေကာ ပို၍ ယုံကြည်စိတ်ချရသော ရလဒ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Experimental Design Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စမ်းသပ်မှု ဒီဇိုင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w29-dm-1",
+          termEn: "Independent variable",
+          termMy: "Independent Variable",
+          matchEn: "The factor deliberately changed by the experimenter",
+          matchMy: "စမ်းသပ်သူက တမင်တကာ ပြောင်းလဲသော အချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w29-dm-2",
+          termEn: "Dependent variable",
+          termMy: "Dependent Variable",
+          matchEn: "The factor measured as the outcome of an experiment",
+          matchMy: "စမ်းသပ်မှုတစ်ခု၏ ရလဒ်အဖြစ် တိုင်းတာသော အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w29-dm-3",
+          termEn: "Micrometer screw gauge",
+          termMy: "Micrometer Screw Gauge",
+          matchEn:
+              "An instrument used to measure very small lengths precisely, such as wire diameter",
+          matchMy:
+              "ကြိုးမျှင် အချင်းကဲ့သို့ အလွန် သေးငယ်သော အလျားများကို တိကျစွာ တိုင်းတာရန် အသုံးပြုသော ကိရိယာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w29-dm-4",
+          termEn: "Systematic error",
+          termMy: "Systematic Error",
+          matchEn:
+              "A consistent error affecting every reading in the same direction, such as a miscalibrated instrument",
+          matchMy:
+              "ချိန်ညှိထားမှု မှားယွင်းသော ကိရိယာကဲ့သို့ ဖတ်ရှုမှု တိုင်းကို တစ်ဦးတည်းသော ဦးတည်ချက်တွင် သက်ရောက်စေသော တသမတ်တည်း အမှား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w29-dm-5",
+          termEn: "Random error",
+          termMy: "Random Error",
+          matchEn:
+              "Unpredictable variation in readings, reduced by repeating measurements and averaging",
+          matchMy:
+              "ဖတ်ရှုမှုများကို ထပ်လုပ်ကာ ပျမ်းမျှတွက်ခြင်းဖြင့် လျော့ချသော ဖတ်ရှုမှုများရှိ ခန့်မှန်း၍ မရသော ကွဲပြားမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Right Instrument for the Job",
+      titleMy: "စီစစ်ကြမည် - အလုပ်နှင့် ကိုက်ညီသော ကိရိယာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Micrometer Screw Gauge",
+          "Metre Rule",
+          "Stopwatch",
+          "Voltmeter",
+        ],
+        bucketsMy: [
+          "Micrometer Screw Gauge",
+          "Metre Rule",
+          "Stopwatch",
+          "Voltmeter",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsephys-w29-sort-1",
+            labelEn: "Measuring the diameter of a thin copper wire",
+            labelMy: "ကြေးနီ ကြိုးမျှင် ပါးလွှာတစ်ခု၏ အချင်း တိုင်းတာခြင်း",
+            correctBucketEn: "Micrometer Screw Gauge",
+            correctBucketMy: "Micrometer Screw Gauge",
+          ),
+          SortingItem(
+            id: "igcsephys-w29-sort-2",
+            labelEn: "Measuring the length of a pendulum string",
+            labelMy: "Pendulum ကြိုးအလျား တိုင်းတာခြင်း",
+            correctBucketEn: "Metre Rule",
+            correctBucketMy: "Metre Rule",
+          ),
+          SortingItem(
+            id: "igcsephys-w29-sort-3",
+            labelEn: "Timing ten oscillations of a swinging pendulum",
+            labelMy:
+                "လှုပ်ရှားနေသော Pendulum ၏ Oscillation ဆယ်ကြိမ် အချိန်ကိုက်ခြင်း",
+            correctBucketEn: "Stopwatch",
+            correctBucketMy: "Stopwatch",
+          ),
+          SortingItem(
+            id: "igcsephys-w29-sort-4",
+            labelEn: "Measuring the potential difference across a resistor",
+            labelMy:
+                "Resistor တစ်ခုကို ဖြတ်၍ Potential Difference တိုင်းတာခြင်း",
+            correctBucketEn: "Voltmeter",
+            correctBucketMy: "Voltmeter",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Thura's Flawed Experiment Critique",
+      titleMy: "စာဖတ်ခြင်း - ကိုသူရ၏ ချို့ယွင်းသော စမ်းသပ်မှု ဝေဖန်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Thura's Flawed Experiment Critique",
+        titleMy: "ကိုသူရ၏ ချို့ယွင်းသော စမ်းသပ်မှု ဝေဖန်ချက်",
+        passageEn:
+            "Ko Thura handed Nay Chi a description of a student's investigation into whether current affects the resistance of a wire: the student had used wires of different lengths and different thicknesses for each current reading, taking only a single reading at each current value with no repeats.\n\nHe asked her to identify every flaw. She spotted immediately that wire length and thickness were both uncontrolled variables that should have stayed identical across every trial, since both directly affect resistance independently of current -- changing them alongside current made it impossible to know whether any change in measured resistance was due to current itself or simply due to a different wire being used each time. She also noted the complete absence of repeated readings meant there was no way to identify or average out random errors, such as a slightly misread ammeter scale or a loose connection briefly affecting one particular reading.\n\nNay Chi then proposed a corrected method: use a single wire of fixed length and fixed thickness for the entire investigation, vary only the current by adjusting a variable resistor in the circuit, and take three repeated voltmeter and ammeter readings at each current value, averaging them before calculating resistance with R = V/I. Ko Thura agreed this was now a genuinely fair test, and pointed out that this exact 'spot the uncontrolled variable' scenario appeared constantly in Paper 6 and the alternative-to-practical paper, rewarding students who could name the specific variable left uncontrolled rather than vaguely stating the experiment was flawed.",
+        passageMy:
+            "ကိုသူရသည် Current သည် ကြိုးမျှင်တစ်ခု၏ Resistance ကို သက်ရောက်ခြင်း ရှိမရှိ ကျောင်းသားတစ်ဦး၏ လေ့လာမှု ဖော်ပြချက်တစ်ခုကို နေချည်ထံ ပေးအပ်ခဲ့သည် - ကျောင်းသားသည် Current ဖတ်ရှုမှု တစ်ခုစီအတွက် ကွာခြားသော အလျားနှင့် ကွာခြားသော ထူထဲမှု ရှိသော ကြိုးမျှင်များကို အသုံးပြုခဲ့ပြီး Current တန်ဖိုးတစ်ခုစီတွင် ထပ်လုပ်ခြင်း မရှိဘဲ တစ်ကြိမ်တည်း ဖတ်ရှုမှုကိုသာ ယူခဲ့သည်။\n\nချို့ယွင်းချက် တိုင်းကို ဖော်ထုတ်ရန် သူ သူမကို တောင်းဆိုခဲ့သည်။ ကြိုးမျှင် အလျားနှင့် ထူထဲမှု နှစ်ခုစလုံးသည် Current နှင့် သီးခြားစီ Resistance ကို တိုက်ရိုက် သက်ရောက်သောကြောင့် စမ်းသပ်မှု တိုင်းတစ်လျှောက် တူညီစွာ ဆက်ရှိသင့်သော ထိန်းချုပ်ထားခြင်း မရှိသော Variable များ ဖြစ်ကြောင်း သူမ ချက်ချင်း တွေ့ရှိခဲ့သည် -- Current နှင့်အတူ ၎င်းတို့ကို ပြောင်းလဲခြင်းက တိုင်းတာထားသော Resistance ၏ ပြောင်းလဲမှု မည်သည်ကမဆို Current ကိုယ်တိုင်ကြောင့် ဖြစ်သလား သို့မဟုတ် အကြိမ်တိုင်း မတူညီသော ကြိုးမျှင် အသုံးပြုခြင်းကြောင့်သာ ဖြစ်သလား သိရှိရန် မဖြစ်နိုင်စေခဲ့ချေ။ ထပ်လုပ်သော ဖတ်ရှုမှုများ လုံးလုံးလျားလျား မရှိခြင်းသည် Ammeter Scale အနည်းငယ် မှားယွင်းစွာ ဖတ်ခြင်း သို့မဟုတ် ဖတ်ရှုမှု တစ်ခုတည်းကို ခဏတာ သက်ရောက်စေသော ကျစွာမတည်သော ချိတ်ဆက်မှုကဲ့သို့ ကျပန်း အမှားများကို ဖော်ထုတ်ရန် သို့မဟုတ် ပျမ်းမျှတွက်ရန် နည်းလမ်း လုံးဝ မရှိစေကြောင်းလည်း သူမ သတိပြုမိခဲ့သည်။\n\nထို့နောက် နေချည်သည် ပြင်ဆင်ထားသော နည်းလမ်းတစ်ခုကို အဆိုပြုခဲ့သည် - လေ့လာမှု တစ်ခုလုံးအတွက် တည်ငြိမ်သော အလျားနှင့် တည်ငြိမ်သော ထူထဲမှုရှိသော ကြိုးမျှင် တစ်ချောင်းတည်းကို အသုံးပြုခြင်း၊ ပတ်လမ်းရှိ Variable Resistor ကို ချိန်ညှိခြင်းဖြင့် Current ကိုသာ ပြောင်းလဲခြင်းနှင့် Current တန်ဖိုးတစ်ခုစီတွင် Voltmeter နှင့် Ammeter ဖတ်ရှုမှု သုံးကြိမ်ကို ထပ်လုပ်ယူပြီး R = V/I ဖြင့် Resistance တွက်ချက်မီ ပျမ်းမျှတွက်ခြင်း။ ဤသည်ကား အမှန်တကယ် မျှတသော စမ်းသပ်မှုတစ်ခု ယခု ဖြစ်ကြောင်း ကိုသူရ သဘောတူခဲ့ပြီး ဤ အတိအကျ 'ထိန်းချုပ်ထားခြင်း မရှိသော Variable ရှာဖွေခြင်း' ဇာတ်လမ်းအမျိုးအစားသည် Paper 6 နှင့် Alternative-to-Practical Paper တွင် အမြဲတမ်း ပါဝင်လေ့ရှိကြောင်း၊ စမ်းသပ်မှုတစ်ခု ချို့ယွင်းနေကြောင်း ဝါးလွှားစွာ ဖော်ပြမည့်အစား တိကျသော ထိန်းချုပ်ထားခြင်း မရှိသည့် Variable ကို ဖော်ထုတ်နိုင်သော ကျောင်းသားများကို ဆုချီးမြှင့်ကြောင်း ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why were wire length and thickness identified as flaws?",
+            questionMy:
+                "ကြိုးမျှင် အလျားနှင့် ထူထဲမှုကို ချို့ယွင်းချက်များအဖြစ် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both directly affect resistance independently of current, making it impossible to isolate current's true effect",
+              "They had nothing to do with resistance at all",
+              "The student measured them with the wrong units",
+              "They were the only variables in the whole experiment",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် Current မှ သီးခြားစီ Resistance ကို တိုက်ရိုက် သက်ရောက်ကာ Current ၏ အစစ်အမှန် သက်ရောက်မှုကို ခွဲခြား၍ မရနိုင်စေသောကြောင့်",
+              "၎င်းတို့သည် Resistance နှင့် မည်သည့်ဆက်နွှယ်မှုမျှ လုံးဝ မရှိသောကြောင့်",
+              "ကျောင်းသားသည် ၎င်းတို့ကို မှားယွင်းသော ယူနစ်များဖြင့် တိုင်းတာခဲ့သောကြောင့်",
+              "၎င်းတို့သည် စမ်းသပ်မှုတစ်ခုလုံးရှိ Variable တစ်ခုတည်းသာ ဖြစ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why wire length and thickness mattered.",
+            ],
+            hintsMy: [
+              "ကြိုးမျှင် အလျားနှင့် ထူထဲမှု အရေးကြီးရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nay Chi propose to reduce random errors?",
+            questionMy:
+                "ကျပန်း အမှားများကို လျော့ချရန် နေချည် အဆိုပြုခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Taking three repeated readings at each current value and averaging them",
+              "Using a different wire for each reading",
+              "Taking only a single reading per current value",
+              "Removing the ammeter from the circuit entirely",
+            ],
+            optionsMy: [
+              "Current တန်ဖိုးတစ်ခုစီတွင် ဖတ်ရှုမှု သုံးကြိမ် ထပ်လုပ်ယူပြီး ပျမ်းမျှတွက်ခြင်း",
+              "ဖတ်ရှုမှု တစ်ခုစီအတွက် ကွာခြားသော ကြိုးမျှင် အသုံးပြုခြင်း",
+              "Current တန်ဖိုးတစ်ခုလျှင် တစ်ကြိမ်တည်း ဖတ်ရှုမှုသာ ယူခြင်း",
+              "Ammeter ကို ပတ်လမ်းမှ လုံးလုံးလျားလျား ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about repeated readings."],
+            hintsMy: [
+              "ထပ်လုပ်သော ဖတ်ရှုမှုများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what skill does Paper 6 / the alternative-to-practical paper reward?",
+            questionMy:
+                "Paper 6 / Alternative-to-Practical Paper က ဆုချီးမြှင့်သော ကျွမ်းကျင်မှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Naming the specific uncontrolled variable rather than vaguely stating the experiment is flawed",
+              "Drawing the most colourful circuit diagram",
+              "Finishing the experiment in the shortest time",
+              "Memorising the exact resistance value in advance",
+            ],
+            optionsMy: [
+              "စမ်းသပ်မှုတစ်ခု ချို့ယွင်းနေကြောင်း ဝါးလွှားစွာ ဖော်ပြမည့်အစား တိကျသော ထိန်းချုပ်ထားခြင်း မရှိသည့် Variable ကို ဖော်ထုတ်ခြင်း",
+              "ပတ်လမ်း ပုံစံ အရောင်အစုံဆုံးကို ဆွဲခြင်း",
+              "အနိုင်ရနိုင်သည့် အတိုကျဆုံး အချိန်ဖြင့် စမ်းသပ်မှုကို ပြီးမြောက်ခြင်း",
+              "Resistance တန်ဖိုး အတိအကျကို ကြိုတင် အလွတ်ကျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Experimental Design",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Experimental Design",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a fair test, control variables should be...",
+          questionMy:
+              "မျှတသော စမ်းသပ်မှုတစ်ခုတွင် Control Variable များသည် ...ရမည်",
+          optionsEn: [
+            "Kept constant",
+            "Deliberately changed",
+            "Ignored completely",
+            "Measured as the result",
+          ],
+          optionsMy: [
+            "တည်ငြိမ်စွာ ထား",
+            "တမင်တကာ ပြောင်းလဲ",
+            "လုံးဝ လျစ်လျူရှု",
+            "ရလဒ်အဖြစ် တိုင်းတာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A micrometer screw gauge is used instead of a metre rule for...",
+          questionMy:
+              "Metre Rule အစား Micrometer Screw Gauge ကို ...အတွက် အသုံးပြုသည်",
+          optionsEn: [
+            "Very small, precise lengths like wire diameter",
+            "Measuring a room's length",
+            "Timing an experiment",
+            "Measuring voltage",
+          ],
+          optionsMy: [
+            "ကြိုးမျှင် အချင်းကဲ့သို့ အလွန် သေးငယ်၍ တိကျသော အလျားများ",
+            "အခန်းတစ်ခန်း၏ အလျား တိုင်းတာခြင်း",
+            "စမ်းသပ်မှုတစ်ခု အချိန်ကိုက်ခြင်း",
+            "Voltage တိုင်းတာခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Repeating measurements and averaging reduces...",
+          questionMy:
+              "တိုင်းတာမှုများကို ထပ်လုပ်ကာ ပျမ်းမျှတွက်ခြင်းက ...လျော့ချသည်",
+          optionsEn: [
+            "Random errors",
+            "The number of chemicals needed",
+            "The size of the equipment",
+            "The colour of the results",
+          ],
+          optionsMy: [
+            "ကျပန်း အမှားများ",
+            "လိုအပ်သော ဓာတုပစ္စည်း အရေအတွက်",
+            "ကိရိယာ၏ အရွယ်အစား",
+            "ရလဒ်များ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 30: "Data Analysis and Graphical Work"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek30 = CourseWeekDef(
+  id: "course-igcse-phys-w30",
+  weekNumber: 30,
+  titleEn: "Data Analysis and Graphical Work",
+  titleMy: "ဒေတာ ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် ဂရပ်ဖစ် အလုပ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w30-d1",
+      dayNumber: 1,
+      titleEn: "Best-Fit Lines, Gradients, and Anomalies",
+      titleMy: "Best-Fit Line, Gradient နှင့် Anomaly",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When plotting experimental data points that scatter slightly around a trend, what should you draw?",
+          questionMy:
+              "လမ်းကြောင်းတစ်ခု ပတ်လည် အနည်းငယ် ပျံ့နှံ့နေသော စမ်းသပ်မှု ဒေတာ အချက်များကို ရေးဆွဲသည့်အခါ သင် အဘယ်ကို ဆွဲသင့်သနည်း။",
+          optionsEn: [
+            "A single smooth best-fit line or curve passing as close as possible to all the points",
+            "A jagged dot-to-dot line connecting every single point exactly",
+            "No line at all, just the scattered points",
+            "A line that only passes through the very first and last points",
+          ],
+          optionsMy: [
+            "အချက်များ အားလုံးနှင့် နိုင်နိုင်ဆွဲသော နီးကပ်စွာ ဖြတ်သန်းသွားသော ချောမွေ့သော Best-Fit Line သို့မဟုတ် Curve တစ်ခုတည်း",
+            "အချက် တစ်ခုစီကို အတိအကျ ဆက်စပ်ထားသော ကျစော့ကျစော့ Dot-To-Dot မျဉ်း",
+            "မျဉ်း လုံးဝ မဆွဲဘဲ ပျံ့နှံ့နေသော အချက်များသာ",
+            "ပထမဆုံးနှင့် နောက်ဆုံး အချက်များကိုသာ ဖြတ်သန်းသော မျဉ်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A best-fit line smooths out random scatter caused by measurement error, revealing the underlying true relationship between the two quantities.",
+          ],
+          hintsMy: [
+            "Best-Fit Line တစ်ခုသည် တိုင်းတာမှု အမှားကြောင့် ဖြစ်ပေါ်သော ကျပန်း ပျံ့နှံ့မှုကို ချောမွေ့စေကာ ပမာဏ နှစ်ခုကြား အရင်းခံ အမှန်တကယ် ဆက်နွှယ်မှုကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a straight-line graph, a point falls noticeably far from the general trend of all the other points. What should you do with this point?",
+          questionMy:
+              "ဖြောင့်မျဉ်း ဂရပ်တစ်ခုတွင် အချက်တစ်ခုသည် အခြား အချက်အားလုံး၏ ယေဘူယျ လမ်းကြောင်းမှ ထင်ရှားစွာ ဝေးကွာစွာ ကျရောက်နေသည်။ ဤ အချက်ကို သင် အဘယ်သို့ ပြုလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Identify it as an anomalous result and exclude it from the best-fit line",
+            "Force the best-fit line to pass exactly through it, ignoring all other points",
+            "Delete every other data point instead",
+            "Ignore the entire graph and start again with no data",
+          ],
+          optionsMy: [
+            "၎င်းကို Anomalous ရလဒ်တစ်ခုအဖြစ် ဖော်ထုတ်ပြီး Best-Fit Line မှ ဖယ်ရှားခြင်း",
+            "အခြား အချက်အားလုံးကို လျစ်လျူရှုကာ Best-Fit Line ကို ၎င်းကို အတိအကျ ဖြတ်သန်းစေရန် အတင်းအကျပ် ပြုလုပ်ခြင်း",
+            "အခြား ဒေတာ အချက်တိုင်းကို ယင်းအစား ဖျက်ပစ်ခြင်း",
+            "ဂရပ်တစ်ခုလုံးကို လျစ်လျူရှုကာ ဒေတာ လုံးဝ မရှိဘဲ ပြန်လည် စတင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An anomalous point (outlier) likely resulted from a one-off measurement mistake and should be identified and excluded from the best-fit line, though it should still be recorded, not erased from the data table.",
+          ],
+          hintsMy: [
+            "Anomalous အချက် (Outlier) တစ်ခုသည် တစ်ကြိမ်တည်း တိုင်းတာမှု အမှားမှ ဖြစ်လာနိုင်ပြီး ဖော်ထုတ်ကာ Best-Fit Line မှ ဖယ်ရှားသင့်သော်လည်း ဒေတာဇယားမှ မဖျက်ဘဲ ဆက်လက် မှတ်တမ်းတင်သင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a graph, a straight line rises from (0, 2) to (10, 22). What is the gradient?",
+          questionMy:
+              "ဂရပ်တစ်ခုတွင် ဖြောင့်မျဉ်းသည် (0, 2) မှ (10, 22) သို့ မြင့်တက်လာသည်။ Gradient ကား အဘယ်နည်း။",
+          optionsEn: [
+            "2 (rise/run = (22-2)/(10-0) = 20/10)",
+            "20",
+            "0.5",
+            "10",
+          ],
+          optionsMy: [
+            "2 (Rise/Run = (22-2)/(10-0) = 20/10)",
+            "20",
+            "0.5",
+            "10",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Gradient = rise / run = change in y / change in x = (22 - 2) / (10 - 0) = 20 / 10 = 2.",
+          ],
+          hintsMy: [
+            "Gradient = Rise / Run = y ပြောင်းလဲမှု / x ပြောင်းလဲမှု = (22 - 2) / (10 - 0) = 20 / 10 = 2 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Data Analysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w30-dm-1",
+          termEn: "Best-fit line",
+          termMy: "Best-Fit Line",
+          matchEn:
+              "A single smooth line or curve drawn to best represent the trend of scattered data points",
+          matchMy:
+              "ပျံ့နှံ့နေသော ဒေတာ အချက်များ၏ လမ်းကြောင်းကို အကောင်းဆုံး ကိုယ်စားပြုရန် ဆွဲထားသော ချောမွေ့သော မျဉ်း သို့မဟုတ် Curve တစ်ခုတည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w30-dm-2",
+          termEn: "Gradient",
+          termMy: "Gradient",
+          matchEn:
+              "The steepness of a line, calculated as rise divided by run (change in y over change in x)",
+          matchMy:
+              "Rise ကို Run ဖြင့် စား၍ တွက်ချက်သော မျဉ်းတစ်ခု၏ စောင်းချက် (x ပြောင်းလဲမှုအပေါ် y ပြောင်းလဲမှု)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w30-dm-3",
+          termEn: "Anomalous result",
+          termMy: "Anomalous Result",
+          matchEn:
+              "A data point that lies noticeably far from the trend of the other points, likely a mistake",
+          matchMy:
+              "အခြား အချက်များ၏ လမ်းကြောင်းမှ ထင်ရှားစွာ ဝေးကွာစွာ ရှိသော၊ အမှားတစ်ခု ဖြစ်နိုင်ခြေ ရှိသော ဒေတာ အချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w30-dm-4",
+          termEn: "Y-intercept",
+          termMy: "Y-Intercept",
+          matchEn:
+              "The value on the y-axis where a straight-line graph crosses it, when x equals zero",
+          matchMy:
+              "x သည် သုညနှင့် ညီမျှသည့်အခါ ဖြောင့်မျဉ်း ဂရပ်တစ်ခု ၎င်းကို ဖြတ်သန်းရာ y-Axis ပေါ်ရှိ တန်ဖိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w30-dm-5",
+          termEn: "Reliability",
+          termMy: "Reliability",
+          matchEn:
+              "How consistent repeated measurements of an experiment are with each other",
+          matchMy:
+              "စမ်းသပ်မှုတစ်ခု၏ ထပ်ခါတိုင်းတာမှုများ တစ်ခုနှင့်တစ်ခု မည်မျှ တသမတ်တည်း ရှိကြောင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Graphing Practice or Bad Graphing Practice?",
+      titleMy:
+          "စီစစ်ကြမည် - ဂရပ်ဆွဲသည့် ကောင်းသော လေ့ကျင့်ခန်းလား၊ ညံ့ဖျင်းသော လေ့ကျင့်ခန်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Graphing Practice", "Bad Graphing Practice"],
+        bucketsMy: ["Good Graphing Practice", "Bad Graphing Practice"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w30-sort-1",
+            labelEn:
+                "Drawing a single smooth best-fit line through scattered points",
+            labelMy:
+                "ပျံ့နှံ့နေသော အချက်များကို ဖြတ်သန်းသော ချောမွေ့သော Best-Fit Line တစ်ခုတည်း ဆွဲခြင်း",
+            correctBucketEn: "Good Graphing Practice",
+            correctBucketMy: "Good Graphing Practice",
+          ),
+          SortingItem(
+            id: "igcsephys-w30-sort-2",
+            labelEn: "Connecting every point with a jagged dot-to-dot line",
+            labelMy:
+                "အချက်တိုင်းကို ကျစော့ကျစော့ Dot-To-Dot မျဉ်းဖြင့် ချိတ်ဆက်ခြင်း",
+            correctBucketEn: "Bad Graphing Practice",
+            correctBucketMy: "Bad Graphing Practice",
+          ),
+          SortingItem(
+            id: "igcsephys-w30-sort-3",
+            labelEn:
+                "Identifying and excluding an anomalous point from the best-fit line",
+            labelMy:
+                "Anomalous အချက်တစ်ခုကို ဖော်ထုတ်ကာ Best-Fit Line မှ ဖယ်ရှားခြင်း",
+            correctBucketEn: "Good Graphing Practice",
+            correctBucketMy: "Good Graphing Practice",
+          ),
+          SortingItem(
+            id: "igcsephys-w30-sort-4",
+            labelEn:
+                "Forcing the best-fit line through every single point regardless of scatter",
+            labelMy:
+                "ပျံ့နှံ့မှု မည်သို့ ရှိသည်ဖြစ်စေ Best-Fit Line ကို အချက်တိုင်းကို ဖြတ်သန်းစေရန် အတင်းအကျပ် ပြုလုပ်ခြင်း",
+            correctBucketEn: "Bad Graphing Practice",
+            correctBucketMy: "Bad Graphing Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Spring Constant Graph",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Spring Constant ဂရပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Spring Constant Graph",
+        titleMy: "နေချည်၏ Spring Constant ဂရပ်",
+        passageEn:
+            "Ko Thura gave Nay Chi a table of six force-extension readings from a spring experiment and asked her to plot the graph, draw the best-fit line, and use it to find the spring constant.\n\nFive of her six points -- at forces of 1 N, 2 N, 3 N, 5 N, and 6 N -- fell neatly along a clear straight-line trend, but the point at 4 N sat noticeably above the line the other five points suggested, extending further than expected. Rather than forcing her best-fit line through all six points equally, Nay Chi drew a single straight line passing as close as possible to the five well-behaved points, treating the 4 N reading as an anomalous result -- most likely caused by a brief misreading of the ruler scale during that particular trial -- while still recording it honestly in her results table rather than deleting it.\n\nTo find the spring constant, she selected two convenient, well-separated points directly on her best-fit line rather than using her original raw data points, which reduces the impact of any small reading error at a single point: reading the line at 0 N (extension 0 cm) and at 6 N (extension 12 cm). Gradient equals rise over run: (12 - 0) / (6 - 0) = 2 cm per newton. Since Hooke's Law states F = kx, and her gradient represented extension per unit force (the inverse relationship), she carefully inverted the gradient to find k = 1 / 2 = 0.5 N/cm, double-checking the units matched what the question required before submitting her final answer.",
+        passageMy:
+            "ကိုသူရသည် Spring စမ်းသပ်မှုမှ Force-Extension ဖတ်ရှုမှု ခြောက်ခု ပါဝင်သော ဇယားတစ်ခုကို နေချည်ထံ ပေးအပ်ခဲ့ပြီး ဂရပ်ကို ရေးဆွဲကာ Best-Fit Line ဆွဲပြီး Spring Constant ကို ရှာဖွေရန် အသုံးပြုရန် တောင်းဆိုခဲ့သည်။\n\nသူမ၏ အချက် ခြောက်ခုအနက် ငါးခု -- Force 1 N, 2 N, 3 N, 5 N နှင့် 6 N တွင် -- ရှင်းလင်းသော ဖြောင့်မျဉ်း လမ်းကြောင်းတစ်ခုတစ်လျှောက် သပ်သပ်ရပ်ရပ် ကျရောက်ခဲ့သော်လည်း 4 N ရှိ အချက်မှာ အခြား ငါးခု အကြံပြုသော မျဉ်းအထက် ထင်ရှားစွာ ရှိနေကာ မျှော်လင့်ထားသည်ထက် ပို၍ ချဲ့ထွင်နေခဲ့သည်။ အချက် ခြောက်ခုလုံးကို ညီမျှစွာ ဖြတ်သန်းစေရန် ၎င်း၏ Best-Fit Line ကို အတင်းအကျပ် ပြုလုပ်မည့်အစား နေချည်သည် ကောင်းစွာ ကျင့်ကြံနေသော အချက် ငါးခုနှင့် နိုင်နိုင်ဆွဲသော နီးကပ်စွာ ဖြတ်သန်းသွားသော ဖြောင့်မျဉ်း တစ်ခုတည်းကို ဆွဲခဲ့ပြီး 4 N ဖတ်ရှုမှုကို Anomalous ရလဒ်တစ်ခုအဖြစ် သတ်မှတ်ခဲ့သည် -- ထို တိကျသော စမ်းသပ်မှု အတွင်း စံညွှန်းကူး Scale ကို ခဏတာ မှားယွင်းစွာ ဖတ်ခြင်းကြောင့် ဖြစ်နိုင်ခြေ အများဆုံး -- ၎င်းကို ဖျက်ပစ်မည့်အစား သူမ၏ ရလဒ်ဇယားတွင် ရိုးသားစွာ ဆက်လက် မှတ်တမ်းတင်ခဲ့သည်။\n\nSpring Constant ကို ရှာဖွေရန် သူမသည် မူလ Raw Data အချက်များကို အသုံးပြုမည့်အစား ၎င်း၏ Best-Fit Line ပေါ်ရှိ တိုက်ရိုက် လွယ်ကူ၍ ကွာဝေးစွာ ခွဲထားသော အချက် နှစ်ခုကို ရွေးချယ်ခဲ့သည်၊ ၎င်းသည် အချက်တစ်ခုတည်းရှိ ငယ်ငယ်စား ဖတ်ရှုမှု အမှား၏ သက်ရောက်မှုကို လျော့ချသည် - 0 N (Extension 0 cm) နှင့် 6 N (Extension 12 cm) တွင် မျဉ်းကို ဖတ်ရှုသည်။ Gradient သည် Rise Over Run နှင့် ညီမျှသည် - (12 - 0) / (6 - 0) = Newton တစ်ခုလျှင် 2 cm ။ Hooke's Law အရ F = kx ဖြစ်ပြီး ၎င်း၏ Gradient သည် ယူနစ် Force တစ်ခုလျှင် Extension ကို ကိုယ်စားပြုသောကြောင့် (ပြောင်းပြန် ဆက်နွှယ်မှု) k = 1 / 2 = 0.5 N/cm ရှာဖွေရန် Gradient ကို ဂရုတစိုက် ပြောင်းပြန်လှန်ခဲ့ပြီး သူမ၏ နောက်ဆုံး အဖြေကို တင်သွင်းမီ မေးခွန်းက လိုအပ်သည်နှင့် ယူနစ်များ ကိုက်ညီကြောင်း ထပ်စစ်ဆေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi identify the 4 N reading as, and what did she do with it?",
+            questionMy:
+                "4 N ဖတ်ရှုမှုကို နေချည် အဘယ်ဟု ဖော်ထုတ်ခဲ့ပြီး ၎င်းနှင့်ပတ်သက်၍ အဘယ်ပြုလုပ်ခဲ့ကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An anomalous result, excluded from the best-fit line but still recorded honestly",
+              "A perfectly correct result that anchored the entire line",
+              "A reading that she deleted from her results table",
+              "The only reading she used to draw her line",
+            ],
+            optionsMy: [
+              "Best-Fit Line မှ ဖယ်ရှားထားသော်လည်း ရိုးသားစွာ ဆက်လက် မှတ်တမ်းတင်ထားသော Anomalous ရလဒ်တစ်ခု",
+              "မျဉ်းတစ်ခုလုံးကို ထိန်းသိမ်းထားသော ပြီးပြည့်စုံစွာ မှန်ကန်သော ရလဒ်တစ်ခု",
+              "သူမ၏ ရလဒ်ဇယားမှ ဖျက်ပစ်ခဲ့သော ဖတ်ရှုမှုတစ်ခု",
+              "သူမ၏ မျဉ်းကို ဆွဲရန် အသုံးပြုခဲ့သော တစ်ခုတည်းသော ဖတ်ရှုမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about how the 4 N reading was treated.",
+            ],
+            hintsMy: [
+              "4 N ဖတ်ရှုမှုကို မည်သို့ ကိုင်တွယ်ခဲ့ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Nay Chi use points directly on her best-fit line rather than raw data points?",
+            questionMy:
+                "မူလ Raw Data အချက်များအစား ၎င်း၏ Best-Fit Line ပေါ်ရှိ အချက်များကို နေချည် အသုံးပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It reduces the impact of any small reading error at a single raw data point",
+              "Raw data points are always incorrect",
+              "The best-fit line contains completely different information",
+              "It was simply faster to do, with no accuracy benefit",
+            ],
+            optionsMy: [
+              "မူလ Raw Data အချက်တစ်ခုတည်းတွင် ငယ်ငယ်စား ဖတ်ရှုမှု အမှား မည်သည်၏ သက်ရောက်မှုကို လျော့ချသောကြောင့်",
+              "Raw Data အချက်များသည် အမြဲ မှားယွင်းနေသောကြောင့်",
+              "Best-Fit Line တွင် လုံးဝ ကွဲပြားသော အချက်အလက် ပါဝင်သောကြောင့်",
+              "တိကျမှု အကျိုးကျေးဇူး မရှိဘဲ ရိုးရိုးရှင်းရှင်း ပို၍ လျင်မြန်စွာ လုပ်ဆောင်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why she chose points on the line.",
+            ],
+            hintsMy: [
+              "မျဉ်းပေါ်ရှိ အချက်များ ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Nay Chi check before submitting her final answer?",
+            questionMy:
+                "သူမ၏ နောက်ဆုံး အဖြေကို တင်သွင်းမီ နေချည် စစ်ဆေးခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the units matched what the question required",
+              "That her handwriting was neat",
+              "That the graph paper was a specific colour",
+              "That the spring had not broken",
+            ],
+            optionsMy: [
+              "ယူနစ်များသည် မေးခွန်းက လိုအပ်သည်နှင့် ကိုက်ညီကြောင်း",
+              "သူမ၏ လက်ရေးသည် သပ်ရပ်ကြောင်း",
+              "ဂရပ်စက္ကူသည် သီးသန့် အရောင်တစ်ခု ဖြစ်ကြောင်း",
+              "Spring သည် မကျိုးပေါက်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Data Analysis and Graphs",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Data Analysis and Graphs",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A best-fit line should pass...",
+          questionMy: "Best-Fit Line တစ်ခုသည် ...ဖြတ်သန်းသင့်သည်",
+          optionsEn: [
+            "As close as possible to all the well-behaved points",
+            "Through every single point exactly, no exceptions",
+            "Only through the first point",
+            "Nowhere near any of the points",
+          ],
+          optionsMy: [
+            "ကောင်းစွာ ကျင့်ကြံနေသော အချက်များ အားလုံးနှင့် နိုင်နိုင်ဆွဲသော နီးကပ်စွာ",
+            "ချွင်းချက် မရှိဘဲ အချက် တစ်ခုစီကို အတိအကျ",
+            "ပထမဆုံး အချက်ကိုသာ",
+            "အချက်များ မည်သည်နှင့်မျှ မနီးစပ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Gradient is calculated as...",
+          questionMy: "Gradient ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Rise divided by run",
+            "Run divided by rise",
+            "Rise multiplied by run",
+            "The y-intercept alone",
+          ],
+          optionsMy: [
+            "Rise ကို Run ဖြင့် စား",
+            "Run ကို Rise ဖြင့် စား",
+            "Rise ကို Run ဖြင့် မြှောက်",
+            "y-Intercept တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An anomalous result should be...",
+          questionMy: "Anomalous ရလဒ်တစ်ခုကို ...သင့်သည်",
+          optionsEn: [
+            "Recorded but excluded from the best-fit line",
+            "Deleted from the results table entirely",
+            "Used to force the best-fit line through it",
+            "Ignored and never mentioned again",
+          ],
+          optionsMy: [
+            "မှတ်တမ်းတင်ထားသော်လည်း Best-Fit Line မှ ဖယ်ရှား",
+            "ရလဒ်ဇယားမှ လုံးလုံးလျားလျား ဖျက်ပစ်",
+            "Best-Fit Line ကို ၎င်းကို ဖြတ်သန်းစေရန် အသုံးပြု",
+            "လျစ်လျူရှုကာ ဘယ်တော့မှ ထပ်မံ မဖော်ပြ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 31: "Common Practical Scenarios"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek31 = CourseWeekDef(
+  id: "course-igcse-phys-w31",
+  weekNumber: 31,
+  titleEn: "Common Practical Scenarios",
+  titleMy: "သာမန် လက်တွေ့စမ်းသပ်မှု အခြေအနေများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w31-d1",
+      dayNumber: 1,
+      titleEn: "Pendulums, Circuits, and Lens Experiments",
+      titleMy: "Pendulum, Circuit နှင့် Lens စမ်းသပ်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a pendulum experiment used to find g, why do experimenters time multiple oscillations (e.g. 20 swings) rather than just one?",
+          questionMy:
+              "g ကို ရှာဖွေရန် အသုံးပြုသော Pendulum စမ်းသပ်မှုတစ်ခုတွင် စမ်းသပ်သူများသည် တစ်ကြိမ်တည်းအစား Oscillation များစွာ (ဥပမာ- ချီစား ၂၀) ကို အဘယ်ကြောင့် အချိန်ကိုက်ကြသနည်း။",
+          optionsEn: [
+            "Dividing the total time by the number of oscillations reduces the effect of human reaction-time error on each individual period",
+            "Timing multiple swings makes the pendulum swing faster",
+            "It is required only to make the experiment look more impressive",
+            "A single oscillation cannot physically be timed at all",
+          ],
+          optionsMy: [
+            "စုစုပေါင်း အချိန်ကို Oscillation အရေအတွက်ဖြင့် စားခြင်းက Period တစ်ခုချင်းစီအပေါ် လူသား တုံ့ပြန်အချိန် အမှား၏ သက်ရောက်မှုကို လျော့ချသောကြောင့်",
+            "Oscillation များစွာကို အချိန်ကိုက်ခြင်းက Pendulum ကို ပို၍ မြန်စွာ ချီစားစေသောကြောင့်",
+            "စမ်းသပ်မှုကို ပို၍ အထင်ကြီးလောက်စေရန်သာ လိုအပ်သောကြောင့်",
+            "Oscillation တစ်ခုတည်းကို ရုပ်ပိုင်းဆိုင်ရာ အချိန်ကိုက်၍ လုံးဝ မရနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A single period is very short, so a small reaction-time error is a large fraction of it; timing 20 swings and dividing by 20 spreads that same small error over a much longer total time, shrinking its relative impact.",
+          ],
+          hintsMy: [
+            "Period တစ်ခုတည်းသည် အလွန် တိုတောင်းသောကြောင့် ငယ်ငယ်စား တုံ့ပြန်အချိန် အမှားသည် ၎င်း၏ ကြီးမားသော အစိတ်အပိုင်း ဖြစ်သည်; ချီစား ၂၀ ကို အချိန်ကိုက်ကာ ၂၀ ဖြင့် စားခြင်းက ထို တူညီသော ငယ်ငယ်စား အမှားကို များစွာ ပို၍ ရှည်လျားသော စုစုပေါင်း အချိန်တစ်လျှောက် ဖြန့်ကျဲပေးကာ ၎င်း၏ နှိုင်းရ သက်ရောက်မှုကို ကျုံ့ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a circuit experiment verifying Ohm's law, what is plotted on the graph, and what does the gradient represent?",
+          questionMy:
+              "Ohm's Law ကို အတည်ပြုသော Circuit စမ်းသပ်မှုတစ်ခုတွင် ဂရပ်ပေါ်တွင် အဘယ်ကို ရေးဆွဲပြီး Gradient က အဘယ်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Current against voltage, with the gradient equal to 1/resistance",
+            "Colour against temperature, with no meaningful gradient",
+            "Time against distance, with the gradient equal to acceleration",
+            "Mass against volume, with the gradient equal to density",
+          ],
+          optionsMy: [
+            "Voltage ကို ဆန့်ကျင်၍ Current၊ Gradient သည် 1/Resistance နှင့် ညီမျှ",
+            "Temperature ကို ဆန့်ကျင်၍ Colour၊ အဓိပ္ပာယ်ရှိသော Gradient မရှိ",
+            "Distance ကို ဆန့်ကျင်၍ Time၊ Gradient သည် Acceleration နှင့် ညီမျှ",
+            "Volume ကို ဆန့်ကျင်၍ Mass၊ Gradient သည် Density နှင့် ညီမျှ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since V = IR can be rearranged to I = (1/R) x V, plotting current (y-axis) against voltage (x-axis) gives a straight line through the origin with gradient 1/R.",
+          ],
+          hintsMy: [
+            "V = IR ကို I = (1/R) x V အဖြစ် ပြန်စီစဉ်နိုင်သောကြောင့် Voltage (x-Axis) ကို ဆန့်ကျင်၍ Current (y-Axis) ရေးဆွဲခြင်းက Gradient 1/R ရှိသော Origin ကို ဖြတ်သွားသော ဖြောင့်မျဉ်းတစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "To find the focal length of a converging lens using a distant object (like a window on the far side of a room), what technique is used?",
+          questionMy:
+              "ဝေးကွာသော ဝတ္ထု (အခန်း၏ ဝေးကွာသော ဘက်ရှိ ပြတင်းပေါက် ကဲ့သို့) ကို အသုံးပြု၍ Converging Lens တစ်ခု၏ Focal Length ကို ရှာဖွေရန် မည်သည့် နည်းစနစ်ကို အသုံးပြုသနည်း။",
+          optionsEn: [
+            "Moving a screen behind the lens until a sharp, focused image forms, then measuring the lens-to-screen distance",
+            "Measuring the lens's diameter with a ruler only",
+            "Weighing the lens on a digital balance",
+            "Shining a laser directly into the observer's eye",
+          ],
+          optionsMy: [
+            "ချောမွေ့၍ Focus ရှိသော ပုံရိပ်တစ်ခု ဖွဲ့စည်းသည်အထိ Lens နောက်ကွယ်ရှိ Screen တစ်ခုကို ရွှေ့ကာ ထို့နောက် Lens-To-Screen အကွာအဝေးကို တိုင်းတာခြင်း",
+            "Ruler တစ်ခုတည်းဖြင့် Lens ၏ Diameter ကို တိုင်းတာခြင်း",
+            "Digital ချိန်ခွင်ပေါ်တွင် Lens ကို ချိန်ခြင်း",
+            "စောင့်ကြည့်သူ၏ မျက်စိထဲသို့ Laser ကို တိုက်ရိုက် ထိုးလိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For an object essentially at infinity (very far away), parallel rays entering the lens converge exactly at the focal point, so the screen distance giving a sharp image directly measures the focal length.",
+          ],
+          hintsMy: [
+            "Infinity တွင် အခြေခံအားဖြင့် ရှိသော (အလွန် ဝေးကွာသော) ဝတ္ထုတစ်ခုအတွက် Lens ထဲသို့ ဝင်ရောက်လာသော Parallel Ray များသည် Focal Point တွင် အတိအကျ ပေါင်းစည်းသောကြောင့် ချောမွေ့သော ပုံရိပ်တစ်ခု ပေးအပ်သော Screen အကွာအဝေးက Focal Length ကို တိုက်ရိုက် တိုင်းတာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Practical Scenarios Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Practical Scenarios ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w31-dm-1",
+          termEn: "Oscillation",
+          termMy: "Oscillation",
+          matchEn: "One complete back-and-forth swing of a pendulum",
+          matchMy: "Pendulum တစ်ခု၏ ရှေ့နောက် ချီစားမှု တစ်ခု အပြည့်အဝ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w31-dm-2",
+          termEn: "Focal length",
+          termMy: "Focal Length",
+          matchEn:
+              "The distance from a lens to the point where parallel rays converge to a sharp focus",
+          matchMy:
+              "Parallel Ray များ ချောမွေ့သော Focus တစ်ခုသို့ ပေါင်းစည်းရာ အချက်သို့ Lens တစ်ခုမှ အကွာအဝေး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w31-dm-3",
+          termEn: "Converging lens",
+          termMy: "Converging Lens",
+          matchEn:
+              "A lens that bends parallel light rays inward to meet at a focal point",
+          matchMy:
+              "Focal Point တစ်ခုတွင် ဆုံစည်းစေရန် Parallel အလင်းတန်းများကို အတွင်းသို့ ကွေ့စေသော Lens",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w31-dm-4",
+          termEn: "Ohm's law verification",
+          termMy: "Ohm's Law Verification",
+          matchEn:
+              "Plotting current against voltage to confirm a straight-line, proportional relationship",
+          matchMy:
+              "ဖြောင့်မျဉ်း၊ အချိုးကျ ဆက်နွှယ်မှုကို အတည်ပြုရန် Voltage ကို ဆန့်ကျင်၍ Current ရေးဆွဲခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w31-dm-5",
+          termEn: "Amplitude (of a pendulum)",
+          termMy: "Amplitude (Pendulum ၏)",
+          matchEn:
+              "The maximum angle or distance a pendulum swings from its resting position",
+          matchMy:
+              "Pendulum တစ်ခု ၎င်း၏ ငြိမ်နေသော တည်နေရာမှ ချီစားသော အများဆုံး ထောင့် သို့မဟုတ် အကွာအဝေး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Pendulum, Circuit, or Lens Practical?",
+      titleMy: "စီစစ်ကြမည် - Pendulum, Circuit သို့မဟုတ် Lens Practical",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Pendulum Practical",
+          "Circuit Practical",
+          "Lens Practical",
+        ],
+        bucketsMy: [
+          "Pendulum Practical",
+          "Circuit Practical",
+          "Lens Practical",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsephys-w31-sort-1",
+            labelEn: "Timing 20 oscillations to reduce reaction-time error",
+            labelMy:
+                "တုံ့ပြန်အချိန် အမှားကို လျော့ချရန် Oscillation ၂၀ ကို အချိန်ကိုက်ခြင်း",
+            correctBucketEn: "Pendulum Practical",
+            correctBucketMy: "Pendulum Practical",
+          ),
+          SortingItem(
+            id: "igcsephys-w31-sort-2",
+            labelEn:
+                "Plotting current against voltage to find 1/resistance from the gradient",
+            labelMy:
+                "Gradient မှ 1/Resistance ရှာဖွေရန် Voltage ကို ဆန့်ကျင်၍ Current ရေးဆွဲခြင်း",
+            correctBucketEn: "Circuit Practical",
+            correctBucketMy: "Circuit Practical",
+          ),
+          SortingItem(
+            id: "igcsephys-w31-sort-3",
+            labelEn:
+                "Moving a screen until a distant object forms a sharp image",
+            labelMy:
+                "ဝေးကွာသော ဝတ္ထုတစ်ခု ချောမွေ့သော ပုံရိပ်တစ်ခု ဖွဲ့စည်းသည်အထိ Screen ကို ရွှေ့ခြင်း",
+            correctBucketEn: "Lens Practical",
+            correctBucketMy: "Lens Practical",
+          ),
+          SortingItem(
+            id: "igcsephys-w31-sort-4",
+            labelEn: "Measuring the period of a swing to calculate g",
+            labelMy: "g တွက်ချက်ရန် ချီစားမှု၏ Period ကို တိုင်းတာခြင်း",
+            correctBucketEn: "Pendulum Practical",
+            correctBucketMy: "Pendulum Practical",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Pendulum g Experiment",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Pendulum g စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Pendulum g Experiment",
+        titleMy: "နေချည်၏ Pendulum g စမ်းသပ်မှု",
+        passageEn:
+            "Ko Thura set Nay Chi a classic practical: using a simple pendulum to measure the local gravitational field strength, g, by timing oscillations at several different string lengths and plotting a graph.\n\nFor each length, she released the pendulum from a small angle -- always less than about 10 degrees, since the standard period formula only holds accurately for small swings -- and timed 20 complete oscillations rather than just one, dividing the total time by 20 to find the period T for that length. She repeated each length measurement three times and averaged the results, reducing the impact of any single reaction-time slip on her stopwatch.\n\nRather than plotting T against length L directly, which would produce a curved graph difficult to extract g from, Ko Thura reminded her that the pendulum equation, T = 2 x pi x sqrt(L/g), could be rearranged into T-squared = (4 x pi-squared / g) x L -- a straight-line relationship between T-squared and L, passing through the origin, with gradient equal to 4 x pi-squared / g. Nay Chi plotted T-squared (y-axis) against L (x-axis), drew a best-fit line, calculated its gradient, and then rearranged to find g = 4 x pi-squared / gradient. She recognised this general technique -- transforming a curved relationship into an equivalent straight-line one before extracting a physical constant from the gradient -- as a strategy she could apply well beyond pendulums, to any experiment where the raw quantities were related by a power law rather than direct proportionality.",
+        passageMy:
+            "ကိုသူရသည် Classic Practical တစ်ခုကို နေချည်ကို ပေးအပ်ခဲ့သည် - ကွင်းဆက် အလျား မတူညီစွာ အနည်းငယ်တွင် Oscillation များကို အချိန်ကိုက်ကာ ဂရပ်တစ်ခု ရေးဆွဲခြင်းဖြင့် ဒေသဆိုင်ရာ Gravitational Field Strength, g ကို တိုင်းတာရန် ရိုးရှင်းသော Pendulum တစ်ခု အသုံးပြုခြင်း။\n\nအလျား တစ်ခုစီအတွက် သူမသည် Pendulum ကို ငယ်ငယ်စား ထောင့်တစ်ခုမှ လွှတ်ခဲ့သည် -- Standard Period Formula သည် ချီစားမှု ငယ်ငယ်စားများအတွက်သာ တိကျစွာ ရှိသောကြောင့် ဒီဂရီ ၁၀ ခန့်ထက် အမြဲ ငယ်သည် -- ပြီးလျှင် Oscillation တစ်ခုတည်းအစား Oscillation ၂၀ အပြည့်အဝကို အချိန်ကိုက်ကာ ထို အလျားအတွက် Period T ကို ရှာဖွေရန် စုစုပေါင်း အချိန်ကို ၂၀ ဖြင့် စားခဲ့သည်။ သူမ၏ Stopwatch ပေါ်ရှိ တစ်ကြိမ်တည်း တုံ့ပြန်အချိန် ချော့သွားမှု၏ သက်ရောက်မှုကို လျော့ချရန် အလျား တိုင်းတာမှု တစ်ခုစီကို သုံးကြိမ် ထပ်လုပ်ကာ ရလဒ်များကို ပျမ်းမျှတွက်ခဲ့သည်။\n\nT ကို Length L ကို ဆန့်ကျင်၍ တိုက်ရိုက် ရေးဆွဲမည့်အစား ၎င်းက g ကို ရယူရန် ခက်ခဲသော ကွေ့ကောက်နေသော ဂရပ်တစ်ခု ထုတ်ပေးလိမ့်မည်ဖြစ်ရာ Pendulum ညီမျှခြင်း T = 2 x pi x sqrt(L/g) ကို T-squared = (4 x pi-squared / g) x L အဖြစ် ပြန်စီစဉ်နိုင်ကြောင်း ကိုသူရ သူမကို သတိပေးခဲ့သည် -- Origin ကို ဖြတ်သန်းသော၊ Gradient 4 x pi-squared / g နှင့် ညီမျှသော T-Squared နှင့် L ကြား ဖြောင့်မျဉ်း ဆက်နွှယ်မှုတစ်ခု။ နေချည်သည် T-Squared (y-Axis) ကို L (x-Axis) ကို ဆန့်ကျင်၍ ရေးဆွဲကာ Best-Fit Line ဆွဲပြီး ၎င်း၏ Gradient ကို တွက်ချက်ကာ ထို့နောက် g = 4 x pi-squared / Gradient ကို ရှာဖွေရန် ပြန်စီစဉ်ခဲ့သည်။ ဤ ယေဘူယျ နည်းစနစ် -- Gradient မှ ရုပ်ပိုင်းဆိုင်ရာ ပုံသေတန်ဖိုးတစ်ခု မထုတ်ယူမီ ကွေ့ကောက်နေသော ဆက်နွှယ်မှုတစ်ခုကို ညီမျှသော ဖြောင့်မျဉ်း ဆက်နွှယ်မှုတစ်ခုအဖြစ် ပြောင်းလဲခြင်း -- ကို Pendulum များကို ကျော်လွန်၍ မူလ ပမာဏများသည် တိုက်ရိုက် အချိုးကျမှုအစား Power Law တစ်ခုဖြင့် ဆက်နွှယ်နေသော စမ်းသပ်မှု မည်သည်တွင်မဆို ကောင်းစွာ အသုံးချနိုင်သော မဟာဗျူဟာတစ်ခုအဖြစ် သူမ ဖော်ထုတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Nay Chi keep the release angle below about 10 degrees?",
+            questionMy:
+                "နေချည် လွှတ်ချထောင့်ကို ဒီဂရီ ၁၀ ခန့်အောက် ထားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The standard period formula only holds accurately for small swings",
+              "Larger angles make the pendulum stop swinging entirely",
+              "It was simply a random choice with no reason",
+              "Larger angles make the string break",
+            ],
+            optionsMy: [
+              "Standard Period Formula သည် ချီစားမှု ငယ်ငယ်စားများအတွက်သာ တိကျစွာ ရှိသောကြောင့်",
+              "ထောင့် ကြီးမားလျှင် Pendulum ချီစားခြင်းကို လုံးဝ ရပ်တန့်စေသောကြောင့်",
+              "အကြောင်းရင်း မရှိဘဲ ကျပန်း ရွေးချယ်မှုသက်သက် ဖြစ်ခဲ့သောကြောင့်",
+              "ထောင့် ကြီးမားလျှင် ကြိုးကို ကျိုးစေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why a small angle was used.",
+            ],
+            hintsMy: [
+              "ငယ်ငယ်စား ထောင့်တစ်ခု အသုံးပြုခဲ့ရသည့် အကြောင်းရင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nay Chi plot on the y-axis instead of T directly?",
+            questionMy:
+                "T ကို တိုက်ရိုက် အစား y-Axis ပေါ်တွင် နေချည် ရေးဆွဲခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "T-squared",
+              "L-squared",
+              "g directly",
+              "The pendulum's mass",
+            ],
+            optionsMy: [
+              "T-Squared",
+              "L-Squared",
+              "g တိုက်ရိုက်",
+              "Pendulum ၏ Mass",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing what Nay Chi plotted."],
+            hintsMy: [
+              "နေချည် ရေးဆွဲခဲ့သည့်အရာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what general strategy did Nay Chi recognise she could apply beyond pendulums?",
+            questionMy:
+                "Pendulum များကို ကျော်လွန်၍ အသုံးချနိုင်ကြောင်း နေချည် ဖော်ထုတ်ခဲ့သည့် ယေဘူယျ မဟာဗျူဟာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Transforming a curved relationship into a straight-line one before extracting a constant from the gradient",
+              "Always ignoring the gradient of any graph",
+              "Never repeating any measurement under any circumstances",
+              "Only ever using raw, untransformed data points",
+            ],
+            optionsMy: [
+              "Gradient မှ ပုံသေတန်ဖိုးတစ်ခု မထုတ်ယူမီ ကွေ့ကောက်နေသော ဆက်နွှယ်မှုတစ်ခုကို ဖြောင့်မျဉ်း ဆက်နွှယ်မှုတစ်ခုအဖြစ် ပြောင်းလဲခြင်း",
+              "ဂရပ် မည်သည်၏ Gradient ကိုမဆို အမြဲ လျစ်လျူရှုခြင်း",
+              "မည်သည့် အခြေအနေတွင်မဆို တိုင်းတာမှု မည်သည်ကိုမျှ ဘယ်တော့မှ မထပ်လုပ်ခြင်း",
+              "Raw, မပြောင်းလဲရသေးသော ဒေတာ အချက်များကိုသာ အမြဲ အသုံးပြုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Common Practical Scenarios",
+      titleMy:
+          "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Common Practical Scenarios",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Timing multiple oscillations rather than one reduces the impact of...",
+          questionMy:
+              "Oscillation တစ်ခုတည်းအစား များစွာကို အချိန်ကိုက်ခြင်းသည် ...၏ သက်ရောက်မှုကို လျော့ချသည်",
+          optionsEn: [
+            "Reaction-time error",
+            "The pendulum's colour",
+            "The room's temperature",
+            "The observer's height",
+          ],
+          optionsMy: [
+            "တုံ့ပြန်အချိန် အမှား",
+            "Pendulum ၏ အရောင်",
+            "အခန်း၏ အပူချိန်",
+            "စောင့်ကြည့်သူ၏ အရပ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an Ohm's law graph of current against voltage, the gradient equals...",
+          questionMy:
+              "Voltage ကို ဆန့်ကျင်၍ Current ၏ Ohm's Law ဂရပ်တွင် Gradient သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["1/resistance", "Resistance directly", "Power", "Time"],
+          optionsMy: ["1/Resistance", "Resistance တိုက်ရိုက်", "Power", "Time"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The focal length of a converging lens can be found using a distant object because...",
+          questionMy:
+              "Converging Lens တစ်ခု၏ Focal Length ကို ဝေးကွာသော ဝတ္ထုတစ်ခုကို အသုံးပြု၍ ရှာဖွေနိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Parallel rays from it converge exactly at the focal point",
+            "Distant objects have no light at all",
+            "The lens changes colour near distant objects",
+            "Distance has no effect on focal length calculations",
+          ],
+          optionsMy: [
+            "၎င်းမှ Parallel Ray များသည် Focal Point တွင် အတိအကျ ပေါင်းစည်းသောကြောင့်",
+            "ဝေးကွာသော ဝတ္ထုများတွင် အလင်း လုံးဝ မရှိသောကြောင့်",
+            "Lens သည် ဝေးကွာသော ဝတ္ထုများအနီးတွင် အရောင် ပြောင်းလဲသောကြောင့်",
+            "အကွာအဝေးသည် Focal Length တွက်ချက်မှုများအပေါ် မည်သည့်သက်ရောက်မှုမျှ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 32: "Practical Paper Simulation Studio" (Term 8 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek32 = CourseWeekDef(
+  id: "course-igcse-phys-w32",
+  weekNumber: 32,
+  titleEn: "Practical Paper Simulation Studio",
+  titleMy: "လက်တွေ့ စာမေးပွဲ ပုံစံတူ အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w32-d1",
+      dayNumber: 1,
+      titleEn: "Combined Design, Graphing, and Error Analysis",
+      titleMy: "Design, Graphing နှင့် Error Analysis ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student measures the same length five times, getting 12.1 cm, 12.0 cm, 12.2 cm, 12.1 cm, and 15.8 cm. Which value should be treated as anomalous and excluded from the average?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် အလျားတစ်ခုတည်းကို ငါးကြိမ် တိုင်းတာရာ 12.1 cm, 12.0 cm, 12.2 cm, 12.1 cm နှင့် 15.8 cm ရရှိသည်။ မည်သည့်တန်ဖိုးကို Anomalous အဖြစ် သတ်မှတ်ကာ ပျမ်းမျှမှ ဖယ်ရှားသင့်သနည်း။",
+          optionsEn: [
+            "15.8 cm, since it differs sharply from the other four consistent readings",
+            "12.0 cm, since it is the smallest value",
+            "12.2 cm, since it is the largest of the consistent readings",
+            "None of the readings should ever be excluded",
+          ],
+          optionsMy: [
+            "15.8 cm၊ အခြား တသမတ်တည်း ဖတ်ရှုမှု လေးခုနှင့် ထက်မြတ်စွာ ကွာခြားနေသောကြောင့်",
+            "12.0 cm၊ အသေးဆုံး တန်ဖိုး ဖြစ်သောကြောင့်",
+            "12.2 cm၊ တသမတ်တည်း ဖတ်ရှုမှုများအနက် အကြီးဆုံး ဖြစ်သောကြောင့်",
+            "ဖတ်ရှုမှု မည်သည်ကိုမျှ ဘယ်တော့မှ မဖယ်ရှားသင့်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The four readings 12.0-12.2 cm cluster tightly together, while 15.8 cm stands out sharply -- a classic sign of a one-off measurement mistake.",
+          ],
+          hintsMy: [
+            "ဖတ်ရှုမှု လေးခု 12.0-12.2 cm သည် တင်းကျပ်စွာ စုစည်းနေသော်လည်း 15.8 cm သည် ထက်မြတ်စွာ ထင်ရှားနေသည် -- တစ်ကြိမ်တည်း တိုင်းတာမှု အမှား၏ Classic လက္ခဏာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A results table records mass in grams and volume in cm3. Which is the correctly formatted column heading?",
+          questionMy:
+              "ရလဒ်ဇယားတစ်ခုသည် Mass ကို ဂရမ်ဖြင့် Volume ကို cm3 ဖြင့် မှတ်တမ်းတင်သည်။ မှန်ကန်စွာ ပုံစံချထားသော ကော်လံ ခေါင်းစဉ်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "'Mass / g' and 'Volume / cm3'",
+            "'Mass g' and 'Volume cm3' with no separator at all",
+            "'Mass' and 'Volume' with units omitted entirely",
+            "'g Mass' and 'cm3 Volume'",
+          ],
+          optionsMy: [
+            "'Mass / g' နှင့် 'Volume / cm3'",
+            "'Mass g' နှင့် 'Volume cm3' Separator လုံးဝ မပါဘဲ",
+            "Unit များ လုံးလုံးလျားလျား ချန်ထားသော 'Mass' နှင့် 'Volume'",
+            "'g Mass' နှင့် 'cm3 Volume'",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The standard IGCSE convention is 'quantity / unit', which then allows every value in that column to be written as a pure number without repeating the unit each time.",
+          ],
+          hintsMy: [
+            "Standard IGCSE ကွန်ဗင်းရှင်းသည် 'Quantity / Unit' ဖြစ်ပြီး ထို ကော်လံရှိ တန်ဖိုးတိုင်းကို အကြိမ်တိုင်း Unit ကို ထပ်ခါထပ်ခါ မရေးဘဲ စစ်စစ် ဂဏန်းတစ်ခုအဖြစ် ရေးသားနိုင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's experiment gives a resistance value 30% higher than the accepted textbook value every single time it is repeated, with very little scatter between repeats. What type of error does this suggest?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး၏ စမ်းသပ်မှုသည် ထပ်လုပ်တိုင်း ပျံ့နှံ့မှု အလွန် နည်းပါးစွာဖြင့် လက်ခံထားသော Textbook တန်ဖိုးထက် 30% ပို၍ မြင့်သော Resistance တန်ဖိုးကို အကြိမ်တိုင်း ပေးအပ်သည်။ ဤသည်က မည်သည့် အမှား အမျိုးအစားကို အကြံပြုသနည်း။",
+          optionsEn: [
+            "A systematic error, such as a miscalibrated instrument, consistently affecting every reading",
+            "A purely random error with no consistent pattern",
+            "No error at all -- the result is perfectly correct",
+            "An error that changes direction randomly each time",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုမှု တိုင်းကို တသမတ်တည်း သက်ရောက်စေသော ချိန်ညှိထားမှု မှားယွင်းသော ကိရိယာကဲ့သို့ Systematic Error",
+            "တသမတ်တည်း ပုံစံ မရှိသော စစ်စစ် Random Error",
+            "အမှား လုံးဝ မရှိပါ -- ရလဒ်သည် ပြီးပြည့်စုံစွာ မှန်ကန်သည်",
+            "အကြိမ်တိုင်း ဦးတည်ချက် ကျပန်းစွာ ပြောင်းလဲသော အမှား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Consistently high (or low) readings with little scatter between repeats point to a systematic error -- unlike random error, repeating and averaging will not fix it; the equipment or method itself needs correcting.",
+          ],
+          hintsMy: [
+            "ထပ်လုပ်ချက်များကြား ပျံ့နှံ့မှု အနည်းငယ်ဖြင့် တသမတ်တည်း မြင့်မား (သို့မဟုတ် နိမ့်) သော ဖတ်ရှုမှုများသည် Systematic Error တစ်ခုကို ညွှန်ပြသည် -- Random Error နှင့် မတူဘဲ ထပ်လုပ်ကာ ပျမ်းမျှတွက်ခြင်းက ၎င်းကို ပြင်ဆင်ပေးမည် မဟုတ်ပါ; ကိရိယာ သို့မဟုတ် နည်းလမ်းကိုယ်တိုင် ပြင်ဆင်ရန် လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အဌမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w32-dm-1",
+          termEn: "Fair test",
+          termMy: "Fair Test",
+          matchEn:
+              "An experiment where only the independent variable changes while all control variables stay constant",
+          matchMy:
+              "Control Variable အားလုံး တည်ငြိမ်စွာ ရှိနေစဉ် Independent Variable တစ်ခုတည်း ပြောင်းလဲသော စမ်းသပ်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w32-dm-2",
+          termEn: "Column heading convention",
+          termMy: "Column Heading Convention",
+          matchEn:
+              "Writing table headings as 'quantity / unit', such as 'Mass / g'",
+          matchMy:
+              "'Mass / g' ကဲ့သို့ ဇယား ခေါင်းစဉ်များကို 'Quantity / Unit' အဖြစ် ရေးသားခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w32-dm-3",
+          termEn: "Systematic error",
+          termMy: "Systematic Error",
+          matchEn:
+              "A consistent error, such as from a miscalibrated instrument, affecting every reading the same way",
+          matchMy:
+              "ချိန်ညှိထားမှု မှားယွင်းသော ကိရိယာမှကဲ့သို့ ဖတ်ရှုမှု တိုင်းကို တူညီစွာ သက်ရောက်စေသော တသမတ်တည်း အမှား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w32-dm-4",
+          termEn: "Precision",
+          termMy: "Precision",
+          matchEn:
+              "How close repeated measurements are to each other, regardless of whether they are accurate",
+          matchMy:
+              "တိကျမှန်ကန် ရှိမရှိကို ဂရုမစိုက်ဘဲ ထပ်ခါတိုင်းတာမှုများသည် တစ်ခုနှင့်တစ်ခု မည်မျှ နီးကပ်ကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w32-dm-5",
+          termEn: "Accuracy",
+          termMy: "Accuracy",
+          matchEn: "How close a measured value is to the true, accepted value",
+          matchMy:
+              "တိုင်းတာထားသော တန်ဖိုးတစ်ခုသည် အမှန်တကယ်၊ လက်ခံထားသော တန်ဖိုးနှင့် မည်မျှ နီးကပ်ကြောင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Design Flaw, Graphing Skill, or Error Type?",
+      titleMy:
+          "စီစစ်ကြမည် - Design Flaw လား၊ Graphing Skill လား၊ Error Type လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Design Flaw", "Graphing Skill", "Error Type"],
+        bucketsMy: ["Design Flaw", "Graphing Skill", "Error Type"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w32-sort-1",
+            labelEn:
+                "Using a different length of wire for each current reading",
+            labelMy:
+                "Current ဖတ်ရှုမှု တစ်ခုစီအတွက် ကွာခြားသော ကြိုးမျှင် အလျား အသုံးပြုခြင်း",
+            correctBucketEn: "Design Flaw",
+            correctBucketMy: "Design Flaw",
+          ),
+          SortingItem(
+            id: "igcsephys-w32-sort-2",
+            labelEn:
+                "Drawing a single best-fit line through scattered data points",
+            labelMy:
+                "ပျံ့နှံ့နေသော ဒေတာ အချက်များကို ဖြတ်သန်းသော Best-Fit Line တစ်ခုတည်း ဆွဲခြင်း",
+            correctBucketEn: "Graphing Skill",
+            correctBucketMy: "Graphing Skill",
+          ),
+          SortingItem(
+            id: "igcsephys-w32-sort-3",
+            labelEn:
+                "A miscalibrated ammeter making every reading consistently too high",
+            labelMy:
+                "ချိန်ညှိထားမှု မှားယွင်းသော Ammeter တစ်ခုသည် ဖတ်ရှုမှု တိုင်းကို တသမတ်တည်း မြင့်လွန်းစေခြင်း",
+            correctBucketEn: "Error Type",
+            correctBucketMy: "Error Type",
+          ),
+          SortingItem(
+            id: "igcsephys-w32-sort-4",
+            labelEn:
+                "Calculating a gradient from two well-separated points on a line",
+            labelMy:
+                "မျဉ်းပေါ်ရှိ ကွာဝေးစွာ ခွဲထားသော အချက် နှစ်ခုမှ Gradient တွက်ချက်ခြင်း",
+            correctBucketEn: "Graphing Skill",
+            correctBucketMy: "Graphing Skill",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Full Practical Simulation",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ လက်တွေ့ ပုံစံတူ အစအဆုံး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Full Practical Simulation",
+        titleMy: "နေချည်၏ လက်တွေ့ ပုံစံတူ အစအဆုံး",
+        passageEn:
+            "For her Term 8 final mock, Ko Thura simulated a complete Paper 6-style exam: three linked tasks under strict time pressure, no hints allowed until she had submitted her answers.\n\nTask one asked her to design an experiment testing whether the length of a wire affects its resistance, identifying the independent, dependent, and control variables. She wrote: independent variable, length of wire (changed by connecting different points along a long wire using a sliding contact); dependent variable, resistance, calculated from voltmeter and ammeter readings using R = V/I; control variables, the wire's thickness, material, and temperature, all held identical throughout by using a single continuous wire and avoiding excessive current that could heat it.\n\nTask two gave her a results table of six length-resistance pairs and asked her to plot the graph, identify any anomaly, and calculate the gradient. Five points formed a clean straight line through the origin, while the sixth, at 40 cm, sat noticeably below the trend -- she excluded it as anomalous, drew her best-fit line through the origin and the five remaining points, and calculated the gradient using two well-separated points directly on the line rather than her raw readings.\n\nTask three was a written question: 'Explain why the results at very short wire lengths (under 5 cm) were unreliable, showing far more scatter between repeats than longer lengths.' Nay Chi reasoned through this using her Term 4 circuit knowledge combined with this term's error-analysis ideas: a very short wire has very low resistance, meaning even a tiny, fixed systematic error in the ammeter or in the resistance of the connecting wires and crocodile clips themselves becomes a much larger fraction of the small total resistance being measured, dramatically amplifying the apparent scatter compared to longer wires where the same fixed error is a negligible fraction of a much larger resistance. When Ko Thura marked her answers, all three tasks were fully correct, including this final explanation that required synthesising circuit theory from Term 4 with the experimental error concepts from this entire term.",
+        passageMy:
+            "သူမ၏ အဌမတန်း နောက်ဆုံး Mock အတွက် ကိုသူရသည် Paper 6 ပုံစံနှင့် ပြီးပြည့်စုံသော စာမေးပွဲကို ပုံစံတူပြုလုပ်ပေးခဲ့သည် - တင်းကျပ်သော အချိန်ဖိအားအောက်တွင် ချိတ်ဆက်ထားသော တာဝန် သုံးခု၊ သူမ အဖြေများ တင်သွင်းသည်အထိ အကြံဉာဏ် တစ်ခုမျှ မပေး။\n\nတာဝန် တစ်ခုက ကြိုးမျှင် အလျားက ၎င်း၏ Resistance ကို သက်ရောက်ကြောင်း စမ်းသပ်သော ဒီဇိုင်းတစ်ခု ဒီဇိုင်းဆွဲရန်၊ Independent, Dependent နှင့် Control Variable များကို ဖော်ထုတ်ရန် သူမကို တောင်းဆိုခဲ့သည်။ သူမ ရေးသားခဲ့သည် - Independent Variable၊ ကြိုးမျှင် အလျား (Sliding Contact ကို အသုံးပြု၍ ရှည်လျားသော ကြိုးမျှင်တစ်လျှောက် အချက်များ ကွာခြားစွာ ချိတ်ဆက်ခြင်းဖြင့် ပြောင်းလဲ); Dependent Variable၊ Resistance၊ R = V/I ကို အသုံးပြု၍ Voltmeter နှင့် Ammeter ဖတ်ရှုမှုများမှ တွက်ချက်; Control Variable များ၊ ကြိုးမျှင်၏ ထူထဲမှု၊ ပစ္စည်းနှင့် အပူချိန်၊ ကြိုးမျှင် တစ်ချောင်းတည်း ဆက်တိုက်ကို အသုံးပြု၍ ၎င်းကို အပူပေးနိုင်သော အလွန်အကျွံ Current ကို ရှောင်ရှားကာ တစ်လျှောက်လုံး တူညီစွာ တည်ငြိမ်စွာ ထားရှိ။\n\nတာဝန် နှစ်က Length-Resistance အစုံ ခြောက်စုံ ပါဝင်သော ရလဒ်ဇယားတစ်ခုကို ပေးအပ်ပြီး ဂရပ်ကို ရေးဆွဲကာ Anomaly တစ်ခုခုကို ဖော်ထုတ်ကာ Gradient ကို တွက်ချက်ရန် သူမကို တောင်းဆိုခဲ့သည်။ အချက် ငါးခုသည် Origin ကို ဖြတ်သန်းသော သန့်ရှင်းသော ဖြောင့်မျဉ်းတစ်ခု ဖွဲ့စည်းခဲ့ပြီး 40 cm ရှိ ဆဌမ အချက်မှာ လမ်းကြောင်းအောက် ထင်ရှားစွာ ကျရောက်နေခဲ့သည် -- သူမသည် ၎င်းကို Anomalous အဖြစ် ဖယ်ရှားကာ Origin နှင့် ကျန်ရှိနေသော အချက် ငါးခုကို ဖြတ်သန်းသွားသော ၎င်း၏ Best-Fit Line ကို ဆွဲပြီး ၎င်း၏ Raw ဖတ်ရှုမှုများအစား မျဉ်းပေါ်ရှိ တိုက်ရိုက် ကွာဝေးစွာ ခွဲထားသော အချက် နှစ်ခုကို အသုံးပြု၍ Gradient ကို တွက်ချက်ခဲ့သည်။\n\nတာဝန် သုံးမှာ ရေးသားသော မေးခွန်းတစ်ခု ဖြစ်ခဲ့သည် - 'အလွန် တိုတောင်းသော ကြိုးမျှင် အလျားများ (5 cm အောက်) ရှိ ရလဒ်များသည် ရှည်လျားသော အလျားများထက် ထပ်လုပ်ချက်များကြား ပျံ့နှံ့မှု များစွာ ပို၍ ပြသကာ ယုံကြည်စိတ်ချမှု မရှိရသည့် အကြောင်းရင်းကို ရှင်းပြပါ။' နေချည်သည် ဤသည်ကို ဤတန်း၏ Error-Analysis အယူအဆများနှင့် ပေါင်းစပ်ထားသော သူမ၏ စတုတ္ထတန်း Circuit ဗဟုသုတကို အသုံးပြု၍ ကျိုးကြောင်းဆင်ခြင်ခဲ့သည် - အလွန် တိုတောင်းသော ကြိုးမျှင်တစ်ခုတွင် Resistance အလွန် နိမ့်သောကြောင့် Ammeter သို့မဟုတ် ချိတ်ဆက်ကြိုးများနှင့် Crocodile Clip များကိုယ်တိုင်၏ Resistance ရှိ ငယ်ငယ်စား၊ ပုံသေ Systematic Error တစ်ခုပင် တိုင်းတာနေသော စုစုပေါင်း Resistance ငယ်၏ များစွာ ပို၍ ကြီးမားသော အစိတ်အပိုင်း ဖြစ်လာကာ တူညီသော ပုံသေ အမှားသည် များစွာ ပို၍ ကြီးမားသော Resistance ၏ လျစ်လျူရှုနိုင်သော အစိတ်အပိုင်းသာ ဖြစ်သော ရှည်လျားသော ကြိုးမျှင်များနှင့် နှိုင်းယှဉ်လျှင် ထင်ရှားသော ပျံ့နှံ့မှုကို ပြင်းထန်စွာ ချဲ့ထွင်ပေးသည်ဟု ဆိုလိုသည်။ ကိုသူရသည် သူမ၏ အဖြေများကို အမှတ်ပေးသောအခါ တာဝန် သုံးခုစလုံးသည် လုံးလုံးလျားလျား မှန်ကန်ခဲ့ပြီး ဤတန်းတစ်လျှောက်လုံးမှ Experimental Error အယူအဆများနှင့် စတုတ္ထတန်းမှ Circuit သီအိုရီကို ပေါင်းစပ်ရန် လိုအပ်ခဲ့သော ဤ နောက်ဆုံး ရှင်းပြချက်လည်း ပါဝင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what control variables did Nay Chi identify for the wire resistance experiment?",
+            questionMy:
+                "ကြိုးမျှင် Resistance စမ်းသပ်မှုအတွက် နေချည် ဖော်ထုတ်ခဲ့သော Control Variable များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The wire's thickness, material, and temperature",
+              "The colour of the connecting wires only",
+              "The time of day the experiment was performed",
+              "The name of the student conducting the experiment",
+            ],
+            optionsMy: [
+              "ကြိုးမျှင်၏ ထူထဲမှု၊ ပစ္စည်းနှင့် အပူချိန်",
+              "ချိတ်ဆက်ကြိုးများ၏ အရောင်သာ",
+              "စမ်းသပ်မှု လုပ်ဆောင်သော နေ့၏ အချိန်",
+              "စမ်းသပ်မှု ပြုလုပ်နေသော ကျောင်းသား၏ အမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing the control variables."],
+            hintsMy: [
+              "Control Variable များ ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which reading did Nay Chi exclude as anomalous?",
+            questionMy:
+                "Anomalous အဖြစ် နေချည် ဖယ်ရှားခဲ့သည့် ဖတ်ရှုမှုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reading at 40 cm",
+              "The reading at the origin",
+              "All six readings",
+              "The first reading only",
+            ],
+            optionsMy: [
+              "40 cm ရှိ ဖတ်ရှုမှု",
+              "Origin ရှိ ဖတ်ရှုမှု",
+              "ခြောက်စုံလုံး",
+              "ပထမဆုံး ဖတ်ရှုမှုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the sixth point."],
+            hintsMy: ["ဆဌမ အချက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 4, why did a fixed systematic error cause more apparent scatter for short wires than long wires?",
+            questionMy:
+                "ပုံသေ Systematic Error တစ်ခုသည် ရှည်လျားသော ကြိုးမျှင်များထက် တိုတောင်းသော ကြိုးမျှင်များအတွက် ထင်ရှားသော ပျံ့နှံ့မှု ပို၍ ဖြစ်စေရသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The same fixed error becomes a much larger fraction of a small total resistance than of a large one",
+              "Short wires have no resistance at all",
+              "Long wires are immune to all forms of error",
+              "The ammeter works differently depending on wire colour",
+            ],
+            optionsMy: [
+              "တူညီသော ပုံသေ အမှားသည် ကြီးမားသော Resistance တစ်ခု၏ ထက် သေးငယ်သော Resistance စုစုပေါင်း၏ များစွာ ပို၍ ကြီးမားသော အစိတ်အပိုင်း ဖြစ်လာသောကြောင့်",
+              "ကြိုးမျှင် တိုတောင်းများတွင် Resistance လုံးဝ မရှိသောကြောင့်",
+              "ကြိုးမျှင် ရှည်လျားများသည် အမှား အမျိုးအစားအားလုံးကို ခုခံနိုင်သောကြောင့်",
+              "Ammeter သည် ကြိုးမျှင် အရောင်အလိုက် ကွဲပြားစွာ အလုပ်လုပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Nay Chi's explanation in the final paragraph."],
+            hintsMy: [
+              "နောက်ဆုံး စာပိုဒ်ရှိ နေချည်၏ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Recap: Experimental Skills",
+      titleMy: "အဌမတန်း ပြန်လည်သုံးသပ်ခြင်း - Experimental Skills",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A fair test changes only the...",
+          questionMy:
+              "မျှတသော စမ်းသပ်မှုတစ်ခုသည် ...တစ်ခုတည်းကိုသာ ပြောင်းလဲသည်",
+          optionsEn: [
+            "Independent variable",
+            "Control variables",
+            "Apparatus brand",
+            "Room colour",
+          ],
+          optionsMy: [
+            "Independent Variable",
+            "Control Variable များ",
+            "ကိရိယာ Brand",
+            "အခန်း အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Table column headings should be written in the format...",
+          questionMy:
+              "ဇယား ကော်လံ ခေါင်းစဉ်များကို ...ပုံစံဖြင့် ရေးသားသင့်သည်",
+          optionsEn: [
+            "Quantity / unit",
+            "Unit only, with no quantity",
+            "Quantity only, with no unit",
+            "Random symbols",
+          ],
+          optionsMy: [
+            "Quantity / Unit",
+            "Quantity မပါဘဲ Unit တစ်ခုတည်း",
+            "Unit မပါဘဲ Quantity တစ်ခုတည်း",
+            "ကျပန်း သင်္ကေတများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A systematic error, unlike a random error, cannot be reduced simply by...",
+          questionMy:
+              "Random Error နှင့် မတူဘဲ Systematic Error တစ်ခုကို ရိုးရိုးရှင်းရှင်း ...ဖြင့် လျော့ချ၍ မရပါ",
+          optionsEn: [
+            "Repeating measurements and averaging",
+            "Using any equipment at all",
+            "Reading any scale",
+            "Recording any data",
+          ],
+          optionsMy: [
+            "တိုင်းတာမှုများကို ထပ်လုပ်ကာ ပျမ်းမျှတွက်ခြင်း",
+            "ကိရိယာ မည်သည်ကိုမျှ အသုံးပြုခြင်း",
+            "Scale မည်သည်ကိုမျှ ဖတ်ရှုခြင်း",
+            "ဒေတာ မည်သည်ကိုမျှ မှတ်တမ်းတင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+const CourseTermDef igcsePhysicsTerm8 = CourseTermDef(
+  id: "course-igcse-phys-term8",
+  termNumber: 8,
+  titleEn: "Experimental Skills",
+  titleMy: "လက်တွေ့ စမ်းသပ်မှု ကျွမ်းကျင်မှု",
+  certificateTitleEn: "IGCSE Physics Term 8 Certificate",
+  certificateTitleMy: "IGCSE ရူပဗေဒ အဌမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcsePhysWeek29,
+    _igcsePhysWeek30,
+    _igcsePhysWeek31,
+    _igcsePhysWeek32,
+  ],
+);
 // __TERMS_MARKER__
 
-/// IGCSE Physics pathway -- Terms 1-7 of 9 authored so far (Terms 8-9 to
-/// follow: Experimental Skills; Exam Prep & Graduation). `totalWeeks: 36`
-/// reflects the full 9-term aspirational course length.
+/// IGCSE Physics pathway -- Terms 1-8 of 9 authored so far (Term 9 to
+/// follow: Exam Prep & Graduation). `totalWeeks: 36` reflects the full
+/// 9-term aspirational course length.
 const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
   id: "course-igcse-physics",
   subject: "physics",
@@ -9747,5 +11199,6 @@ const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
     igcsePhysicsTerm5,
     igcsePhysicsTerm6,
     igcsePhysicsTerm7,
+    igcsePhysicsTerm8,
   ],
 );
