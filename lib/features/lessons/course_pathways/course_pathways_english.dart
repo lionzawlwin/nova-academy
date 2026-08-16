@@ -151419,9 +151419,9 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-5 of 9 authored so far (Terms
-/// 6-9 to follow: Literature & Poetry Analysis through Final Exam
-/// Countdown & Graduation). `totalWeeks: 36` reflects the full
+/// IGCSE English pathway -- Terms 1-6 of 9 authored so far (Terms
+/// 7-9 to follow: Advanced Grammar & Stylistic Editing through Final
+/// Exam Countdown & Graduation). `totalWeeks: 36` reflects the full
 /// 9-term aspirational course length.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
@@ -151440,6 +151440,7 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
     igcseEnglishTerm3,
     igcseEnglishTerm4,
     igcseEnglishTerm5,
+    igcseEnglishTerm6,
   ],
 );
 
@@ -155994,6 +155995,1506 @@ const CourseTermDef igcseEnglishTerm5 = CourseTermDef(
   weeks: [_igcseEngWeek17, _igcseEngWeek18, _igcseEngWeek19, _igcseEngWeek20],
   certificateTitleEn: "Argumentative & Discursive Composition",
   certificateTitleMy: "အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား",
+);
+
+// =====================================================================
+// IGCSE English -- Term 6: "Literature & Poetry Analysis" (Weeks
+// 21-24). Week 21 covers close reading of prose/poetry; Week 22
+// covers character/theme development; Week 23 covers comparative
+// literature essays; Week 24 is the capstone literature commentary
+// studio.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek21 = CourseWeekDef(
+  id: "course-igcse-eng-w21",
+  weekNumber: 21,
+  titleEn: "Prose and Poetry Close Reading",
+  titleMy: "ဝတ္ထုနှင့် ကဗျာများကို အနုစိတ်ဖတ်ရှုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w21-d1",
+      dayNumber: 1,
+      titleEn: "Analyzing Diction and Uncovering Themes",
+      titleMy:
+          "Diction ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် အဓိက အကြောင်းအရာများ ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Diction\" in literary analysis refers to...",
+          questionMy:
+              "စာပေ ခွဲခြမ်းစိတ်ဖြာမှုရှိ \"Diction\" သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "A writer's specific word choices and their effect",
+            "The physical layout of a printed page",
+            "The publication date of a text",
+            "The number of chapters in a novel",
+          ],
+          optionsMy: [
+            "စာရေးသူ၏ တိကျသော စကားလုံး ရွေးချယ်မှုများနှင့် ၎င်း၏ သက်ရောက်မှု",
+            "ပုံနှိပ်ထားသော စာမျက်နှာ၏ ရုပ်ပိုင်းဆိုင်ရာ အနေအထား",
+            "စာသားတစ်ခု၏ ထုတ်ဝေသည့်နေ့ရက်",
+            "ဝတ္ထုတစ်ပုဒ်ရှိ အခန်းအရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A literary \"theme\" is best defined as...",
+          questionMy:
+              "စာပေ \"Theme\" တစ်ခုကို ...ဟု အကောင်းဆုံး အနက်ဖွင့်နိုင်သည်",
+          optionsEn: [
+            "A central underlying message or idea explored throughout a text",
+            "The name of the main character",
+            "The exact page count",
+            "The publisher's location",
+          ],
+          optionsMy: [
+            "စာသားတစ်ခုလုံး တစ်လျှောက် စူးစမ်းလေ့လာထားသော ဗဟိုချက် အလျှို့ဝှက် စကား (သို့) အယူအဆ",
+            "ပင်မ ဇာတ်ကောင်၏ အမည်",
+            "အတိအကျ စာမျက်နှာ အရေအတွက်",
+            "ထုတ်ဝေသူ၏ တည်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Embedding\" a quotation into an analytical sentence means...",
+          questionMy:
+              "ခွဲခြမ်းစိတ်ဖြာသော ဝါကျတစ်ခုအတွင်းသို့ ကိုးကားချက်တစ်ခုကို \"Embed\" ပြုလုပ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Weaving a short, precise quotation smoothly into the writer's own sentence structure",
+            "Quoting an entire paragraph without any analysis",
+            "Never using any quotations at all",
+            "Placing the quotation in a separate, unrelated document",
+          ],
+          optionsMy: [
+            "တိုတောင်း၍ တိကျသော ကိုးကားချက်တစ်ခုကို ရေးသားသူ၏ ကိုယ်ပိုင် ဝါကျဖွဲ့စည်းပုံအတွင်းသို့ ချောမွေ့စွာ ရက်နက်ခြင်း",
+            "ခွဲခြမ်းစိတ်ဖြာမှု မရှိဘဲ စာပိုဒ်တစ်ခုလုံးကို ကိုးကားခြင်း",
+            "ကိုးကားချက် မည်သည်ကိုမျှ ဘယ်တော့မှ မသုံးခြင်း",
+            "ကိုးကားချက်ကို သီးခြား၊ မသက်ဆိုင်သော စာရွက်စာတမ်းတွင် ထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Close reading requires paying attention to...",
+          questionMy: "အနုစိတ်ဖတ်ရှုခြင်းသည် ...ကို အာရုံစိုက်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Precise word choices, structure, and their combined effect",
+            "Only the general plot summary",
+            "Only the title of the work",
+            "Only the author's nationality",
+          ],
+          optionsMy: [
+            "တိကျသော စကားလုံး ရွေးချယ်မှုများ၊ ဖွဲ့စည်းပုံနှင့် ၎င်းတို့ ပေါင်းစပ်သက်ရောက်မှု",
+            "ယေဘုယျ ဇာတ်ကွက် အနှစ်ချုပ်ကိုသာ",
+            "လုပ်ငန်း၏ ခေါင်းစဉ်ကိုသာ",
+            "စာရေးသူ၏ နိုင်ငံသားခံစားမှုကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In poetry analysis, examining word choice at the level of individual syllables and sounds is called...",
+          questionMy:
+              "ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှုတွင် syllable တစ်ခုချင်းစီနှင့် အသံများအဆင့်တွင် စကားလုံး ရွေးချယ်မှုကို စစ်ဆေးခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Close reading",
+            "Skimming",
+            "Speed reading",
+            "Silent reading only",
+          ],
+          optionsMy: [
+            "Close Reading",
+            "Skimming",
+            "Speed Reading",
+            "တိတ်ဆိတ် ဖတ်ရှုခြင်းကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Literary Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စာပေ ခွဲခြမ်းစိတ်ဖြာမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w21-dm-1",
+          termEn: "Diction",
+          termMy: "Diction",
+          matchEn:
+              "A writer's specific word choices and their effect on meaning and tone",
+          matchMy:
+              "စာရေးသူ၏ တိကျသော စကားလုံး ရွေးချယ်မှုများနှင့် အဓိပ္ပာယ်နှင့် လေယူလေသိမ်းအပေါ် ၎င်းတို့၏ သက်ရောက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w21-dm-2",
+          termEn: "Theme",
+          termMy: "Theme",
+          matchEn:
+              "A central underlying message or idea explored throughout a text",
+          matchMy:
+              "စာသားတစ်ခုလုံး တစ်လျှောက် စူးစမ်းလေ့လာထားသော ဗဟိုချက် အလျှို့ဝှက် စကား (သို့) အယူအဆ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w21-dm-3",
+          termEn: "Embedded quotation",
+          termMy: "Embedded Quotation",
+          matchEn:
+              "A short quotation woven smoothly into the writer's own sentence structure",
+          matchMy:
+              "ရေးသားသူ၏ ကိုယ်ပိုင် ဝါကျဖွဲ့စည်းပုံအတွင်းသို့ ချောမွေ့စွာ ရက်နက်ထားသော ကိုးကားချက်တို",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w21-dm-4",
+          termEn: "Close reading",
+          termMy: "Close Reading",
+          matchEn:
+              "Careful, detailed analysis of precise word choices and structural effect",
+          matchMy:
+              "တိကျသော စကားလုံး ရွေးချယ်မှုများနှင့် ဖွဲ့စည်းပုံဆိုင်ရာ သက်ရောက်မှု၏ ဂရုတစိုက်၊ အသေးစိတ် ခွဲခြမ်းစိတ်ဖြာမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w21-dm-5",
+          termEn: "Motif",
+          termMy: "Motif",
+          matchEn:
+              "A recurring image, symbol, or idea reinforcing a text's theme",
+          matchMy:
+              "စာသားတစ်ခု၏ Theme ကို အားဖြည့်ပေးသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် ပုံရိပ်၊ သင်္ကေတ (သို့) အယူအဆ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Effective or Weak Embedded Quotation?",
+      titleMy: "စီစစ်ကြမည် - ထိရောက်သော (သို့) အားနည်းသော Embedded Quotation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Effectively Embedded", "Awkwardly Dropped In"],
+        bucketsMy: [
+          "ထိရောက်စွာ Embed ပြုလုပ်ထားသော",
+          "ဆင်ခြင်တုံတရားမဲ့ ထည့်သွင်းထားသော",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w21-sort-1",
+            labelEn:
+                "\"The narrator's description of the house as 'hollow-eyed' immediately establishes an unsettling atmosphere.\"",
+            labelMy:
+                "\"ဇာတ်ကောင်၏ ဖော်ပြချက်ဖြင့် အိမ်ကို 'ဟိုဟင်းလင်းမြင်းလင်း' ဟု ဖော်ပြခြင်းသည် စိတ်မငြိမ်ဖွယ် ဝန်းကျင်တစ်ခုကို ချက်ချင်း တည်ဆောက်ပေးသည်။\"",
+            correctBucketEn: "Effectively Embedded",
+            correctBucketMy: "ထိရောက်စွာ Embed ပြုလုပ်ထားသော",
+          ),
+          SortingItem(
+            id: "igcseeng-w21-sort-2",
+            labelEn:
+                "\"The house is scary. 'The house had hollow eyes and a mouth that never smiled.' This shows fear.\"",
+            labelMy:
+                "\"အိမ်သည် ကြောက်စရာကောင်းသည်။ 'အိမ်တွင် ဟိုဟင်းလင်းလင်း မျက်လုံးများနှင့် ဘယ်တော့မှ မပြုံးဖူးသော ပါးစပ်တစ်ခု ရှိသည်။' ဤသည် ကြောက်ရွံ့မှုကို ပြသသည်။\"",
+            correctBucketEn: "Awkwardly Dropped In",
+            correctBucketMy: "ဆင်ခြင်တုံတရားမဲ့ ထည့်သွင်းထားသော",
+          ),
+          SortingItem(
+            id: "igcseeng-w21-sort-3",
+            labelEn:
+                "\"Referring to the crowd as a 'writhing mass' strips the characters of individual identity.\"",
+            labelMy:
+                "\"လူအစုအဝေးကို 'တွန့်လိမ့်နေသော စုပုံ' ဟု ရည်ညွှန်းခြင်းသည် ဇာတ်ကောင်များ၏ တစ်ဦးချင်း အထောက်အထားကို ဖယ်ရှားပစ်သည်။\"",
+            correctBucketEn: "Effectively Embedded",
+            correctBucketMy: "ထိရောက်စွာ Embed ပြုလုပ်ထားသော",
+          ),
+          SortingItem(
+            id: "igcseeng-w21-sort-4",
+            labelEn:
+                "\"The writer used good words. He said 'the storm raged violently.' That is a good quote.\"",
+            labelMy:
+                "\"စာရေးသူသည် စကားလုံးကောင်းများ သုံးခဲ့သည်။ သူက 'မုန်တိုင်းသည် ပြင်းထန်စွာ ဒေါသထွက်နေသည်' ဟု ဆိုခဲ့သည်။ ၎င်းသည် ကိုးကားချက်ကောင်းတစ်ခု ဖြစ်သည်။\"",
+            correctBucketEn: "Awkwardly Dropped In",
+            correctBucketMy: "ဆင်ခြင်တုံတရားမဲ့ ထည့်သွင်းထားသော",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's First Close Reading",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ပထမဆုံး Close Reading",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's First Close Reading",
+        titleMy: "နေချည်၏ ပထမဆုံး Close Reading",
+        passageEn:
+            "Given a short extract describing a character returning to her childhood home, Nay Chi's first analytical paragraph identified the theme correctly -- the passage was about the tension between change and memory -- but her evidence stayed frustratingly general: \"The writer uses descriptive language to show this theme.\" Ko Thura asked her which specific words, exactly, carried that meaning.\n\nHe pushed her back into the extract, line by line. She noticed the front door was described as \"paint-blistered, though the handle still turned exactly as it always had\" -- a single sentence holding both decay and unchanging familiarity in careful tension. She noticed the character's old bedroom was \"smaller than memory had built it,\" a phrase that captured, in six words, the entire gap between childhood perception and adult reality. Nay Chi rewrote her paragraph, embedding both quotations directly into her own analytical sentences: \"The juxtaposition of 'paint-blistered' with a handle that 'turned exactly as it always had' captures the central tension between decay and unchanging familiarity that defines the character's homecoming.\"\n\nKo Thura told her this was the exact difference between summarising a text and analysing it. Summarising restated what happened; analysis explained how specific language choices created meaning and effect, with evidence embedded precisely enough that a reader could see exactly which words the argument rested on. He reminded her of the golden rule from Paper 1 reading, now returning in a new form: never make a claim about a text without naming the exact words that prove it.",
+        passageMy:
+            "ကလေးဘဝ အိမ်သို့ ပြန်လာသော ဇာတ်ကောင်တစ်ဦးကို ဖော်ပြသော စာပိုဒ်တိုတစ်ခုကို ရရှိသောအခါ နေချည်၏ ပထမ ခွဲခြမ်းစိတ်ဖြာသော စာပိုဒ်သည် Theme ကို မှန်ကန်စွာ ခွဲခြားသတ်မှတ်ခဲ့သည် -- စာပိုဒ်သည် ပြောင်းလဲမှုနှင့် အမှတ်တရကြား ရှိသော ရိုက်ကွင်းအကြောင်း ဖြစ်ခဲ့သည် -- သို့သော် သူမ၏ သက်သေအထောက်အထားသည် စိတ်ပျက်ဖွယ် ယေဘုယျဆန်စွာ ရှိနေဆဲဖြစ်သည် - \"စာရေးသူသည် ဤ Theme ကို ပြသရန် ဖော်ပြချက် ဘာသာစကားကို သုံးထားသည်။\" ကိုသူရသည် ထို အဓိပ္ပာယ်ကို မည်သည့် တိကျသော စကားလုံးများက သယ်ဆောင်ခဲ့သနည်းဟု မေးခဲ့သည်။\n\nသူသည် သူမကို စာပိုဒ်ထဲသို့ တစ်ကြောင်းချင်းစီ ပြန်လည် တွန်းအားပေးခဲ့သည်။ သူမသည် ရှေ့တံခါးကို \"ဆေးသုတ်ထားခြင်း ပွန်းစားနေသော်လည်း လက်ကိုင်သည် အမြဲကဲ့သို့ အတိအကျ လှည့်နေဆဲ\" ဟု ဖော်ပြထားသည်ကို သတိပြုမိခဲ့သည် -- ဝါကျတစ်ကြောင်းတည်းတွင် ပုပ်ပျက်မှုနှင့် မပြောင်းလဲသော ရင်းနှီးမှု နှစ်ခုစလုံးကို ဂရုတစိုက် Tension ဖြင့် ဆွဲထားသည်။ သူမသည် ဇာတ်ကောင်၏ အိပ်ခန်းဟောင်းကို \"အမှတ်တရက တည်ဆောက်ထားသည်ထက် ပို၍ သေးငယ်\" ဟု ဖော်ပြထားသည်ကို သတိပြုမိခဲ့ပြီး၊ ၎င်းသည် ကလေးဘဝ အမြင်နှင့် လူကြီး အမှန်တရားကြား ကွာဟချက် တစ်ခုလုံးကို စကားလုံးခြောက်လုံးဖြင့် ဖမ်းယူထားသော စကားစုတစ်ခု ဖြစ်ခဲ့သည်။ နေချည်သည် သူမ၏ စာပိုဒ်ကို ကိုးကားချက်နှစ်ခုလုံးကို သူမ၏ ကိုယ်ပိုင် ခွဲခြမ်းစိတ်ဖြာသော ဝါကျများအတွင်းသို့ တိုက်ရိုက် Embed ပြုလုပ်ကာ ပြန်ရေးခဲ့သည် - \"'ဆေးသုတ်ထားခြင်း ပွန်းစားနေသော' ဟူသည်ကို 'အမြဲကဲ့သို့ အတိအကျ လှည့်နေဆဲ' ဖြစ်သော လက်ကိုင်နှင့် Juxtaposition ပြုလုပ်ခြင်းသည် ဇာတ်ကောင်၏ အိမ်ပြန်ခြင်းကို သတ်မှတ်ပေးသော ပုပ်ပျက်မှုနှင့် မပြောင်းလဲသော ရင်းနှီးမှုကြား ဗဟိုချက် Tension ကို ဖမ်းယူထားသည်။\"\n\nကိုသူရသည် ၎င်းသည် စာသားတစ်ခုကို အကျဉ်းချုပ်ခြင်းနှင့် ၎င်းကို ခွဲခြမ်းစိတ်ဖြာခြင်းကြား အတိအကျ ကွာခြားချက် ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည်။ အကျဉ်းချုပ်ခြင်းသည် ဘာဖြစ်ပျက်ကြောင်း ပြန်ဆိုခဲ့ပြီး၊ ခွဲခြမ်းစိတ်ဖြာခြင်းသည် တိကျသော ဘာသာစကား ရွေးချယ်မှုများ အဘယ်ကြောင့် အဓိပ္ပာယ်နှင့် သက်ရောက်မှု ဖန်တီးခဲ့ကြောင်း ရှင်းပြခဲ့ပြီး၊ သက်သေအထောက်အထားကို အငြင်းပွားမှု မည်သည့် စကားလုံးများပေါ် တည်ရှိနေကြောင်း စာဖတ်သူတစ်ဦး တိကျစွာ မြင်တွေ့နိုင်လောက်အောင် Embed ပြုလုပ်ထားခဲ့သည်။ သူသည် Paper 1 ဖတ်ရှုခြင်းမှ ရွှေစည်းမျဉ်းကို သူမကို သတိပေးခဲ့ပြီး၊ ယခုအခါ ပုံစံအသစ်တစ်ခုဖြင့် ပြန်လည် ရောက်လာခဲ့သည် - စာသားတစ်ခုအကြောင်း Claim တစ်ခုကို ၎င်းကို သက်သေပြသည့် တိကျသော စကားလုံးများကို အမည်မတပ်ဘဲ ဘယ်တော့မှ မဆောင်ရွက်ပါနှင့်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Ko Thura ask Nay Chi about her original paragraph?",
+            questionMy:
+                "သူမ၏ မူလ စာပိုဒ်အကြောင်း ကိုသူရ နေချည်ကို ဘာမေးခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Which specific words carried the theme's meaning",
+              "How many pages the extract had",
+              "What the author's full name was",
+              "How the passage was formatted",
+            ],
+            optionsMy: [
+              "မည်သည့် တိကျသော စကားလုံးများက Theme ၏ အဓိပ္ပာယ်ကို သယ်ဆောင်ခဲ့ကြောင်း",
+              "စာပိုဒ်တွင် စာမျက်နှာ မည်မျှ ရှိသနည်း",
+              "စာရေးသူ၏ အမည်အပြည့်အစုံ",
+              "စာပိုဒ်ကို မည်သို့ ဖော်မတ်ပြုလုပ်ထားသနည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the phrase \"smaller than memory had built it\" capture?",
+            questionMy:
+                "\"အမှတ်တရက တည်ဆောက်ထားသည်ထက် ပို၍ သေးငယ်\" ဟူသော စကားစုသည် ဘာကို ဖမ်းယူထားခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The gap between childhood perception and adult reality",
+              "The exact square footage of the room",
+              "The colour of the walls",
+              "The number of windows in the room",
+            ],
+            optionsMy: [
+              "ကလေးဘဝ အမြင်နှင့် လူကြီး အမှန်တရားကြား ကွာဟချက်",
+              "အခန်း၏ အတိအကျ ဧရိယာ",
+              "နံရံများ၏ အရောင်",
+              "အခန်းရှိ ပြတင်းပေါက် အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the six-word phrase captured.",
+            ],
+            hintsMy: [
+              "စကားလုံးခြောက်လုံးပါ စကားစုက ဘာကို ဖမ်းယူထားကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what was the golden rule Ko Thura reminded Nay Chi of?",
+            questionMy:
+                "ကိုသူရ နေချည်ကို သတိပေးခဲ့သော ရွှေစည်းမျဉ်းသည် မည်သည်ဟု နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Never make a claim about a text without naming the exact words that prove it",
+              "Always write the longest possible paragraph",
+              "Never quote a text directly",
+              "Always summarise instead of analysing",
+            ],
+            optionsMy: [
+              "စာသားတစ်ခုအကြောင်း Claim တစ်ခုကို ၎င်းကို သက်သေပြသည့် တိကျသော စကားလုံးများကို အမည်မတပ်ဘဲ ဘယ်တော့မှ မဆောင်ရွက်ပါနှင့်",
+              "ဖြစ်နိုင်သမျှ ရှည်လျားသော စာပိုဒ်ကို အမြဲ ရေးသားပါ",
+              "စာသားတစ်ခုကို ဘယ်တော့မှ တိုက်ရိုက် မကိုးကားပါနှင့်",
+              "ခွဲခြမ်းစိတ်ဖြာမည့်အစား အမြဲ အကျဉ်းချုပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Close Reading",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Close Reading",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diction refers to...",
+          questionMy: "Diction သည် ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "A writer's specific word choices",
+            "The page layout",
+            "The publication date",
+            "The chapter count",
+          ],
+          optionsMy: [
+            "စာရေးသူ၏ တိကျသော စကားလုံး ရွေးချယ်မှုများ",
+            "စာမျက်နှာ အနေအထား",
+            "ထုတ်ဝေသည့်နေ့ရက်",
+            "အခန်း အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A theme is best defined as...",
+          questionMy: "Theme တစ်ခုကို ...ဟု အကောင်းဆုံး အနက်ဖွင့်နိုင်သည်",
+          optionsEn: [
+            "A central underlying message explored throughout a text",
+            "The main character's name",
+            "The page count",
+            "The publisher's location",
+          ],
+          optionsMy: [
+            "စာသားတစ်ခုလုံး တစ်လျှောက် စူးစမ်းလေ့လာထားသော ဗဟိုချက် အလျှို့ဝှက် စကား",
+            "ပင်မ ဇာတ်ကောင်၏ အမည်",
+            "စာမျက်နှာ အရေအတွက်",
+            "ထုတ်ဝေသူ၏ တည်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Analysis differs from summary because it explains...",
+          questionMy:
+              "ခွဲခြမ်းစိတ်ဖြာခြင်းသည် အကျဉ်းချုပ်ခြင်းနှင့် ကွာခြားချက်မှာ ၎င်းသည် ...ကို ရှင်းပြသောကြောင့်",
+          optionsEn: [
+            "How language choices create meaning and effect",
+            "Only what happened in order",
+            "Only the author's name",
+            "Nothing beyond the plot",
+          ],
+          optionsMy: [
+            "ဘာသာစကား ရွေးချယ်မှုများသည် အဘယ်ကြောင့် အဓိပ္ပာယ်နှင့် သက်ရောက်မှု ဖန်တီးကြောင်း",
+            "အစီအစဉ်အလိုက် ဘာဖြစ်ပျက်ကြောင်းကိုသာ",
+            "စာရေးသူ၏ အမည်ကိုသာ",
+            "ဇာတ်ကွက်ထက် ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek22 = CourseWeekDef(
+  id: "course-igcse-eng-w22",
+  weekNumber: 22,
+  titleEn: "Character and Theme Development",
+  titleMy: "ဇာတ်ကောင်နှင့် အဓိက အကြောင်းအရာ ဖွံ့ဖြိုးတိုးတက်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w22-d1",
+      dayNumber: 1,
+      titleEn: "Tracing Arcs, Symbolic Motifs, and Social Context",
+      titleMy:
+          "Arc များ ခြေရာခံခြင်း၊ သင်္ကေတ Motif များနှင့် လူမှုရေး Context",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A \"character arc\" describes...",
+          questionMy: "\"Character Arc\" တစ်ခုသည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "How a character changes or develops across a narrative",
+            "The physical shape of a character's silhouette",
+            "The order in which chapters are printed",
+            "A character's exact height and weight",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်တစ်ဦးသည် ဇာတ်ကြောင်းတစ်ခုတစ်လျှောက် မည်သို့ ပြောင်းလဲ (သို့) ဖွံ့ဖြိုးလာကြောင်း",
+            "ဇာတ်ကောင်တစ်ဦး၏ Silhouette ရုပ်ပိုင်းဆိုင်ရာ ပုံသဏ္ဌာန်",
+            "အခန်းများ ပုံနှိပ်ထားသော အစီအစဉ်",
+            "ဇာတ်ကောင်တစ်ဦး၏ အတိအကျ အရပ်နှင့် အလေးချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A \"symbolic motif\" is...",
+          questionMy: "\"Symbolic Motif\" တစ်ခုသည်...",
+          optionsEn: [
+            "A recurring image or object that reinforces a text's theme each time it appears",
+            "An object mentioned only once in an entire text",
+            "The title of a chapter",
+            "A footnote citation",
+          ],
+          optionsMy: [
+            "ပေါ်လာတိုင်း စာသားတစ်ခု၏ Theme ကို အားဖြည့်ပေးသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် ပုံရိပ် (သို့) အရာဝတ္ထု",
+            "စာသားတစ်ခုလုံးတွင် တစ်ကြိမ်တည်းသာ ဖော်ပြထားသော အရာဝတ္ထု",
+            "အခန်းတစ်ခု၏ ခေါင်းစဉ်",
+            "Footnote ကိုးကားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Understanding a text's \"social context\" means considering...",
+          questionMy:
+              "စာသားတစ်ခု၏ \"Social Context\" ကို နားလည်ခြင်းဆိုသည်မှာ ...ကို ထည့်သွင်းစဉ်းစားခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "The historical and cultural circumstances shaping the text's meaning",
+            "Only the author's favourite colour",
+            "Only the number of pages",
+            "Nothing beyond the plot events",
+          ],
+          optionsMy: [
+            "စာသား၏ အဓိပ္ပာယ်ကို ပုံဖော်ပေးသော သမိုင်းဆိုင်ရာနှင့် ယဉ်ကျေးမှုဆိုင်ရာ အခြေအနေများ",
+            "စာရေးသူ၏ ကြိုက်နှစ်သက်ရာ အရောင်ကိုသာ",
+            "စာမျက်နှာ အရေအတွက်ကိုသာ",
+            "ဇာတ်ကွက် အဖြစ်အပျက်များထက် ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A character who begins selfish and gradually learns compassion demonstrates...",
+          questionMy:
+              "အစတွင် တစ်ကိုယ်ကောင်းဆန်ပြီး တဖြည်းဖြည်း သနားညှာတာမှုကို သင်ယူလာသော ဇာတ်ကောင်တစ်ဦးသည် ...ကို သရုပ်ပြသည်",
+          optionsEn: [
+            "A clear character arc",
+            "A static, unchanging character",
+            "No development at all",
+            "A minor, background character only",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော Character Arc",
+            "ငြိမ်သက်၍ မပြောင်းလဲသော ဇာတ်ကောင်",
+            "ဖွံ့ဖြိုးတိုးတက်မှု လုံးဝ မရှိခြင်း",
+            "အဓိကမဟုတ်သော နောက်ခံ ဇာတ်ကောင်တစ်ဦးကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A recurring symbol of a caged bird appearing whenever a character feels trapped is an example of...",
+          questionMy:
+              "ဇာတ်ကောင်တစ်ဦး ချုပ်ချယ်ခံရသကဲ့သို့ ခံစားရတိုင်း ပေါ်လာသော ကျောက်ခေါင်းအိမ်ရှိ ငှက်၏ ထပ်ခါထပ်ခါ ပေါ်လာသော သင်္ကေတသည် ...တစ်ခု၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "A symbolic motif",
+            "A rhetorical question",
+            "A footnote",
+            "An alliteration",
+          ],
+          optionsMy: [
+            "Symbolic Motif",
+            "Rhetorical Question",
+            "Footnote",
+            "Alliteration",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Character and Theme Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဇာတ်ကောင်နှင့် Theme ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w22-dm-1",
+          termEn: "Character arc",
+          termMy: "Character Arc",
+          matchEn: "How a character changes or develops across a narrative",
+          matchMy:
+              "ဇာတ်ကောင်တစ်ဦးသည် ဇာတ်ကြောင်းတစ်ခုတစ်လျှောက် မည်သို့ ပြောင်းလဲ (သို့) ဖွံ့ဖြိုးလာကြောင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w22-dm-2",
+          termEn: "Symbolic motif",
+          termMy: "Symbolic Motif",
+          matchEn: "A recurring image or object reinforcing a text's theme",
+          matchMy:
+              "စာသားတစ်ခု၏ Theme ကို အားဖြည့်ပေးသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် ပုံရိပ် (သို့) အရာဝတ္ထု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w22-dm-3",
+          termEn: "Social context",
+          termMy: "Social Context",
+          matchEn:
+              "The historical and cultural circumstances shaping a text's meaning",
+          matchMy:
+              "စာသား၏ အဓိပ္ပာယ်ကို ပုံဖော်ပေးသော သမိုင်းဆိုင်ရာနှင့် ယဉ်ကျေးမှုဆိုင်ရာ အခြေအနေများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w22-dm-4",
+          termEn: "Foil character",
+          termMy: "Foil Character",
+          matchEn:
+              "A character whose contrasting traits highlight another character's qualities",
+          matchMy:
+              "ဆန့်ကျင်ဘက် ဂုဏ်ရည်များသည် အခြား ဇာတ်ကောင်တစ်ဦး၏ ဂုဏ်ရည်များကို ထင်ရှားစေသော ဇာတ်ကောင်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w22-dm-5",
+          termEn: "Static character",
+          termMy: "Static Character",
+          matchEn:
+              "A character who does not significantly change across the narrative",
+          matchMy: "ဇာတ်ကြောင်းတစ်လျှောက် သိသိသာသာ မပြောင်းလဲသော ဇာတ်ကောင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Dynamic or Static Character?",
+      titleMy: "စီစစ်ကြမည် - Dynamic လား Static ဇာတ်ကောင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Dynamic (Changes)", "Static (Does Not Change)"],
+        bucketsMy: ["Dynamic (ပြောင်းလဲသော)", "Static (မပြောင်းလဲသော)"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w22-sort-1",
+            labelEn:
+                "A character who begins fearful of the sea but ends the story becoming a fisherman",
+            labelMy:
+                "ပင်လယ်ကို စိုးရိမ်ကြောက်လန့်ခြင်းဖြင့် စတင်ပြီး ဇာတ်လမ်း၏ အဆုံးတွင် တံငါသည်တစ်ဦး ဖြစ်လာသော ဇာတ်ကောင်",
+            correctBucketEn: "Dynamic (Changes)",
+            correctBucketMy: "Dynamic (ပြောင်းလဲသော)",
+          ),
+          SortingItem(
+            id: "igcseeng-w22-sort-2",
+            labelEn:
+                "A background villain who remains cruel and unchanged from first appearance to last",
+            labelMy:
+                "ပထမဆုံး ပေါ်လာချိန်မှ နောက်ဆုံးအထိ ရက်စက်ပြီး မပြောင်းလဲဘဲ နေထိုင်သော နောက်ခံ ဗီလိန်",
+            correctBucketEn: "Static (Does Not Change)",
+            correctBucketMy: "Static (မပြောင်းလဲသော)",
+          ),
+          SortingItem(
+            id: "igcseeng-w22-sort-3",
+            labelEn:
+                "A proud character who learns humility after losing everything",
+            labelMy:
+                "အားလုံးကို ဆုံးရှုံးပြီးနောက် နှိမ့်ချမှုကို သင်ယူလာသော ဂုဏ်ယူတတ်သော ဇာတ်ကောင်",
+            correctBucketEn: "Dynamic (Changes)",
+            correctBucketMy: "Dynamic (ပြောင်းလဲသော)",
+          ),
+          SortingItem(
+            id: "igcseeng-w22-sort-4",
+            labelEn:
+                "A comic-relief character whose personality stays identical throughout the whole novel",
+            labelMy:
+                "ဝတ္ထုတစ်ပုဒ်လုံးတစ်လျှောက် ကိုယ်ရည်ကိုယ်သွေး တူညီစွာ ဆက်လက်နေထိုင်သော ဟာသဆန် အမူအရာ ဇာတ်ကောင်",
+            correctBucketEn: "Static (Does Not Change)",
+            correctBucketMy: "Static (မပြောင်းလဲသော)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Character Arc Essay",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Character Arc Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Character Arc Essay",
+        titleMy: "နေချည်၏ Character Arc Essay",
+        passageEn:
+            "Analysing a novel's protagonist who transforms from isolated and distrustful to connected and open across the story, Nay Chi's first draft simply listed three separate moments where the character acted differently, with no explanation of what connected them or why the change mattered thematically. Ko Thura pointed out that a character arc essay needed more than a timeline -- it needed an argument about meaning.\n\nHe asked her: what did the author seem to be saying about trust and connection through this specific transformation? Nay Chi looked back at the text with this question in mind and noticed something she had missed -- a recurring motif of locked doors and windows appearing throughout the early chapters, then gradually disappearing as the character's arc progressed, until the final chapter, set in a house with every door standing open. This wasn't coincidence, she realised; the physical motif was doing thematic work, tracking the character's emotional arc in a way she could now analyse with real precision.\n\nHer rewritten essay argued that the recurring motif of locked and open doors mirrored the character's psychological journey, and that this pairing of concrete symbol with abstract theme was precisely what elevated the novel above simple plot -- the setting itself became a form of characterisation. Ko Thura told her this was the heart of literature analysis at IGCSE level: not simply noting what happened to a character, but explaining how the author's specific technical choices, working together, built and reinforced a coherent thematic argument across the whole text.",
+        passageMy:
+            "ဇာတ်ကြောင်းတစ်လျှောက် သီးသန့်၊ မယုံကြည်ခြင်းမှ ချိတ်ဆက်ထားသော၊ ပွင့်လင်းသောအခြေသို့ ပြောင်းလဲသွားသော ဝတ္ထုတစ်ပုဒ်၏ ပင်မဇာတ်ကောင်ကို ခွဲခြမ်းစိတ်ဖြာရာတွင် နေချည်၏ ပထမမူကြမ်းသည် ဇာတ်ကောင် ကွဲပြားစွာ လုပ်ဆောင်ခဲ့သော အခိုက်အတန့်သုံးခုကို ရိုးရိုးရှင်းရှင်း စာရင်းပြုစုခဲ့ပြီး ၎င်းတို့ကို ဘာက ချိတ်ဆက်ထားကြောင်း (သို့) ပြောင်းလဲမှုသည် Theme ဆိုင်ရာအရ အဘယ်ကြောင့် အရေးကြီးကြောင်း ရှင်းပြချက် လုံးဝ မပါခဲ့ပါ။ ကိုသူရသည် Character Arc Essay တစ်ခုသည် အချိန်ဇယားထက် ပို၍ လိုအပ်ကြောင်း -- ၎င်းသည် အဓိပ္ပာယ်အကြောင်း အငြင်းပွားမှုတစ်ခု လိုအပ်ကြောင်း ထောက်ပြခဲ့သည်။\n\nသူသည် သူမကို မေးခဲ့သည် - ဤသီးခြား ပြောင်းလဲမှုမှတဆင့် ယုံကြည်မှုနှင့် ချိတ်ဆက်မှုအကြောင်း စာရေးသူသည် ဘာကို ပြောနေပုံရသနည်း။ နေချည်သည် ဤမေးခွန်းကို စိတ်ထဲတွင် ထားလျက် စာသားကို ပြန်ကြည့်ခဲ့ပြီး သူမ လွတ်ကျွတ်သွားခဲ့သော တစ်ခုခုကို သတိပြုမိခဲ့သည် - ရှေ့ပိုင်း အခန်းများ တစ်လျှောက် ပေါ်လာသော ပိတ်ထားသော တံခါးများနှင့် ပြတင်းပေါက်များ၏ ထပ်ခါထပ်ခါ ပေါ်လာသော Motif၊ ထို့နောက် ဇာတ်ကောင်၏ Arc တိုးတက်လာသည်နှင့်အမျှ တစ်ဖြည်းဖြည်း ပျောက်ကွယ်သွားကာ တံခါးတိုင်း ဖွင့်ထားသော အိမ်တစ်လုံးတွင် သတ်မှတ်ထားသော နောက်ဆုံး အခန်းအထိ။ ၎င်းသည် ကြုံခြင်းသက်သက် မဟုတ်ကြောင်း သူမ သဘောပေါက်ခဲ့သည်၊ ရုပ်ပိုင်းဆိုင်ရာ Motif သည် Theme ဆိုင်ရာ အလုပ်ကို လုပ်ဆောင်ကာ ဇာတ်ကောင်၏ ခံစားချက်ဆိုင်ရာ Arc ကို ယခုအခါ သူမ စစ်မှန်သော တိကျမှုဖြင့် ခွဲခြမ်းစိတ်ဖြာနိုင်သော နည်းလမ်းဖြင့် ခြေရာခံနေခဲ့သည်။\n\nသူမ၏ ပြန်ရေးထားသော Essay သည် ပိတ်ထားသောနှင့် ဖွင့်ထားသော တံခါးများ၏ ထပ်ခါထပ်ခါ ပေါ်လာသော Motif သည် ဇာတ်ကောင်၏ စိတ်ပိုင်းဆိုင်ရာ ခရီးကို ရောင်ပြန်ဟပ်ကြောင်းနှင့် ကွန်ကရစ် သင်္ကေတနှင့် အလျှို့ဝှက် Theme ၏ ဤတွဲစပ်မှုသည် ဝတ္ထုကို ရိုးရှင်းသော ဇာတ်ကွက်ထက် ပို၍ မြှင့်တင်ပေးသော အချက် အတိအကျ ဖြစ်ကြောင်း ငြင်းခုံခဲ့သည် -- နောက်ခံအပြင်အဆင်ကိုယ်တိုင်သည် ဇာတ်ကောင် ဖန်တီးမှု၏ ပုံစံတစ်ခု ဖြစ်လာခဲ့သည်။ ကိုသူရသည် ၎င်းသည် IGCSE အဆင့်ရှိ စာပေ ခွဲခြမ်းစိတ်ဖြာမှု၏ နှလုံးသား ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - ဇာတ်ကောင်တစ်ဦးကို ဘာဖြစ်ပျက်ခဲ့ကြောင်း ရိုးရိုးရှင်းရှင်း မှတ်သားခြင်းမဟုတ်ဘဲ၊ စာရေးသူ၏ သီးခြား နည်းပညာဆိုင်ရာ ရွေးချယ်မှုများသည် အတူတကွ လုပ်ဆောင်ကာ စာသားတစ်ခုလုံး တစ်လျှောက် ညီညွတ်သော Theme ဆိုင်ရာ အငြင်းပွားမှုတစ်ခုကို မည်သို့ တည်ဆောက်ပြီး အားဖြည့်ပေးခဲ့ကြောင်း ရှင်းပြခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify with Nay Chi's first draft?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It listed moments without explaining what connected them or why the change mattered",
+              "It contained no character description at all",
+              "It was written in the wrong tense",
+              "It was too long for the word limit",
+            ],
+            optionsMy: [
+              "၎င်းတို့ကို ဘာက ချိတ်ဆက်ထားကြောင်း (သို့) ပြောင်းလဲမှု အဘယ်ကြောင့် အရေးကြီးကြောင်း ရှင်းပြချက် မပါဘဲ အခိုက်အတန့်များကို စာရင်းပြုစုထားခဲ့သည်",
+              "ဇာတ်ကောင် ဖော်ပြချက် လုံးဝ မပါခဲ့ပါ",
+              "မှားယွင်းသော Tense ဖြင့် ရေးသားထားခဲ့သည်",
+              "စကားလုံး ကန့်သတ်ချက်အတွက် အလွန် ရှည်လျားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what motif did Nay Chi notice recurring throughout the novel?",
+            questionMy:
+                "ဝတ္ထုတစ်ပုဒ်လုံးတစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်လာသည်ကို နေချည် မည်သည့် Motif ကို သတိပြုမိခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Locked doors and windows gradually opening",
+              "A recurring storm",
+              "A repeated song lyric",
+              "A specific colour of clothing",
+            ],
+            optionsMy: [
+              "ပိတ်ထားသော တံခါးများနှင့် ပြတင်းပေါက်များ တဖြည်းဖြည်း ဖွင့်လာခြင်း",
+              "ထပ်ခါထပ်ခါ ပေါ်လာသော မုန်တိုင်း",
+              "ထပ်ခါသုံးထားသော သီချင်းစာသား",
+              "အထည်အလိပ်၏ သီးခြား အရောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the recurring motif she noticed.",
+            ],
+            hintsMy: [
+              "သူမ သတိပြုမိသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် Motif ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say was the heart of literature analysis at IGCSE level?",
+            questionMy:
+                "IGCSE အဆင့်ရှိ စာပေ ခွဲခြမ်းစိတ်ဖြာမှု၏ နှလုံးသားသည် မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Explaining how technical choices build and reinforce a coherent thematic argument",
+              "Listing every event in chronological order only",
+              "Memorising the entire novel word for word",
+              "Avoiding any discussion of theme entirely",
+            ],
+            optionsMy: [
+              "နည်းပညာဆိုင်ရာ ရွေးချယ်မှုများသည် ညီညွတ်သော Theme ဆိုင်ရာ အငြင်းပွားမှုတစ်ခုကို မည်သို့ တည်ဆောက်ပြီး အားဖြည့်ပေးကြောင်း ရှင်းပြခြင်း",
+              "အဖြစ်အပျက်တိုင်းကို အချိန်ကြောင်းအလိုက် စာရင်းပြုစုခြင်းသာ",
+              "ဝတ္ထုတစ်ပုဒ်လုံးကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "Theme အကြောင်း ဆွေးနွေးမှု မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Character and Theme",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဇာတ်ကောင်နှင့် Theme",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A character arc describes...",
+          questionMy: "Character Arc တစ်ခုသည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "How a character changes across a narrative",
+            "A character's exact height",
+            "Chapter order",
+            "Nothing about the character",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်တစ်ဦး ဇာတ်ကြောင်းတစ်ခုတစ်လျှောက် မည်သို့ ပြောင်းလဲကြောင်း",
+            "ဇာတ်ကောင်၏ အတိအကျ အရပ်",
+            "အခန်း အစီအစဉ်",
+            "ဇာတ်ကောင်အကြောင်း မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A symbolic motif is...",
+          questionMy: "Symbolic Motif တစ်ခုသည်...",
+          optionsEn: [
+            "A recurring image reinforcing a theme",
+            "An object mentioned once only",
+            "A chapter title",
+            "A footnote",
+          ],
+          optionsMy: [
+            "Theme ကို အားဖြည့်ပေးသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် ပုံရိပ်",
+            "တစ်ကြိမ်တည်းသာ ဖော်ပြထားသော အရာဝတ္ထု",
+            "အခန်း ခေါင်းစဉ်",
+            "Footnote",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Literature analysis explains how technical choices...",
+          questionMy:
+              "စာပေ ခွဲခြမ်းစိတ်ဖြာမှုသည် နည်းပညာဆိုင်ရာ ရွေးချယ်မှုများ ...ကို ရှင်းပြသည်",
+          optionsEn: [
+            "Build and reinforce a coherent thematic argument",
+            "Have no meaning at all",
+            "Only affect the page count",
+            "Are irrelevant to interpretation",
+          ],
+          optionsMy: [
+            "ညီညွတ်သော Theme ဆိုင်ရာ အငြင်းပွားမှုတစ်ခုကို မည်သို့ တည်ဆောက်ပြီး အားဖြည့်ပေးကြောင်း",
+            "မည်သည့် အဓိပ္ပာယ်မျှ မရှိခြင်း",
+            "စာမျက်နှာ အရေအတွက်ကိုသာ ထိခိုက်ခြင်း",
+            "အနက်ဖွင့်ချက်နှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek23 = CourseWeekDef(
+  id: "course-igcse-eng-w23",
+  weekNumber: 23,
+  titleEn: "Comparative Literature Essays",
+  titleMy: "စာပေများကို နှိုင်းယှဉ် ဝေဖန်ရေး အက်ဆေးများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w23-d1",
+      dayNumber: 1,
+      titleEn: "Comparing Writers' Styles and Structural Contrasts",
+      titleMy:
+          "စာရေးဆရာများ၏ စတိုင်လ်များနှင့် ဖွဲ့စည်းပုံဆိုင်ရာ ကွာခြားချက်များ နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A comparative literature essay should...",
+          questionMy: "စာပေ နှိုင်းယှဉ် Essay တစ်ခုသည်...",
+          optionsEn: [
+            "Analyse two texts together, examining both similarities and differences",
+            "Only discuss one text with no comparison",
+            "Ignore any similarities between texts",
+            "Avoid mentioning either author by name",
+          ],
+          optionsMy: [
+            "တူညီမှုများနှင့် ကွဲပြားမှုများ နှစ်ခုစလုံးကို စစ်ဆေးလျက် စာသားနှစ်ခုကို အတူတကွ ခွဲခြမ်းစိတ်ဖြာသင့်သည်",
+            "နှိုင်းယှဉ်ခြင်း မရှိဘဲ စာသားတစ်ခုကိုသာ ဆွေးနွေးသင့်သည်",
+            "စာသားများကြား တူညီမှု မည်သည်ကိုမျှ လျစ်လျူရှုသင့်သည်",
+            "စာရေးဆရာ မည်သူ့ကိုမျှ အမည်ဖြင့် မဖော်ပြသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong comparative essay structure typically organises paragraphs by...",
+          questionMy:
+              "အားကောင်းသော နှိုင်းယှဉ် Essay ဖွဲ့စည်းပုံသည် ပုံမှန်အားဖြင့် စာပိုဒ်များကို ...အလိုက် စီစဉ်သည်",
+          optionsEn: [
+            "Shared theme or technique, discussing both texts within each point",
+            "Discussing text A entirely, then text B entirely, with no connection",
+            "Random order with no logic",
+            "Alphabetical order of character names",
+          ],
+          optionsMy: [
+            "အချက်တစ်ခုစီအတွင်း စာသားနှစ်ခုစလုံးကို ဆွေးနွေးလျက် မျှဝေထားသော Theme (သို့) နည်းပညာ",
+            "ချိတ်ဆက်မှု မရှိဘဲ စာသား A ကို အပြည့်အစုံ ဆွေးနွေးပြီးမှ စာသား B",
+            "ယုတ္တိ မရှိသော ကျပန်း အစီအစဉ်",
+            "ဇာတ်ကောင် အမည်များ၏ အက္ခရာစဉ် အစီအစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Thematic synthesis\" in a comparative essay means...",
+          questionMy:
+              "နှိုင်းယှဉ် Essay တစ်ခုရှိ \"Thematic Synthesis\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Drawing an overarching conclusion about how both texts treat a shared idea",
+            "Discussing each text in complete isolation",
+            "Ignoring all shared themes entirely",
+            "Only listing plot summaries side by side",
+          ],
+          optionsMy: [
+            "စာသားနှစ်ခုစလုံးသည် မျှဝေထားသော အယူအဆတစ်ခုကို မည်သို့ ကိုင်တွယ်ကြောင်း အလုံးစုံ ကောက်ချက်တစ်ခု ချမှတ်ခြင်း",
+            "စာသားတစ်ခုစီကို လုံးဝ သီးခြားစီ ဆွေးနွေးခြင်း",
+            "မျှဝေထားသော Theme အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ဇာတ်ကွက် အနှစ်ချုပ်များကိုသာ ဘေးချင်းယှဉ် စာရင်းပြုစုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing how two authors treat the same theme of loss allows a candidate to demonstrate...",
+          questionMy:
+              "ဆုံးရှုံးမှု၏ တူညီသော Theme ကို စာရေးဆရာနှစ်ဦးက မည်သို့ ကိုင်တွယ်ကြောင်း နှိုင်းယှဉ်ခြင်းသည် ဖြေဆိုသူတစ်ဦးအား ...ကို သရုပ်ပြခွင့်ပေးသည်",
+          optionsEn: [
+            "A deeper understanding of how technique shapes meaning",
+            "No skill at all",
+            "That one author is objectively better in every way",
+            "That comparison is impossible",
+          ],
+          optionsMy: [
+            "နည်းပညာက အဓိပ္ပာယ်ကို မည်သို့ ပုံဖော်ကြောင်း ပို၍ နက်ရှိုင်းသော နားလည်မှု",
+            "ကျွမ်းကျင်မှု လုံးဝ မရှိခြင်း",
+            "စာရေးဆရာတစ်ဦးသည် နည်းလမ်းတိုင်းတွင် ဓမ္မဓိဋ္ဌာန်ကျစွာ ပို၍ ကောင်းကြောင်း",
+            "နှိုင်းယှဉ်ခြင်းသည် မဖြစ်နိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A weak comparative essay typically fails to...",
+          questionMy:
+              "အားနည်းသော နှိုင်းယှဉ် Essay တစ်ခုသည် ပုံမှန်အားဖြင့် ...ရန် ပျက်ကွက်သည်",
+          optionsEn: [
+            "Genuinely connect the two texts rather than discussing them separately",
+            "Mention either text at all",
+            "Use any evidence whatsoever",
+            "Include a title",
+          ],
+          optionsMy: [
+            "သီးခြားစီ ဆွေးနွေးမည့်အစား စာသားနှစ်ခုကို စစ်မှန်စွာ ချိတ်ဆက်ရန်",
+            "စာသားတစ်ခုကိုမျှ ဖော်ပြရန်",
+            "သက်သေအထောက်အထား မည်သည်ကိုမျှ သုံးရန်",
+            "ခေါင်းစဉ် ထည့်သွင်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Comparative Essay Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နှိုင်းယှဉ် Essay ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w23-dm-1",
+          termEn: "Thematic synthesis",
+          termMy: "Thematic Synthesis",
+          matchEn:
+              "An overarching conclusion about how texts treat a shared idea",
+          matchMy:
+              "စာသားများသည် မျှဝေထားသော အယူအဆတစ်ခုကို မည်သို့ ကိုင်တွယ်ကြောင်း အလုံးစုံ ကောက်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w23-dm-2",
+          termEn: "Point-by-point structure",
+          termMy: "Point-by-Point Structure",
+          matchEn:
+              "Organising a comparative essay by shared theme, discussing both texts per point",
+          matchMy:
+              "အချက်တစ်ခုစီအတွင်း စာသားနှစ်ခုစလုံးကို ဆွေးနွေးလျက် မျှဝေထားသော Theme အလိုက် နှိုင်းယှဉ် Essay တစ်ခု စီစဉ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w23-dm-3",
+          termEn: "Structural contrast",
+          termMy: "Structural Contrast",
+          matchEn: "A key difference in how two texts are organised or paced",
+          matchMy:
+              "စာသားနှစ်ခု ဖွဲ့စည်းထား (သို့) Pacing ပြုလုပ်ထားပုံရှိ အဓိက ကွာခြားချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w23-dm-4",
+          termEn: "Authorial intent",
+          termMy: "Authorial Intent",
+          matchEn:
+              "What a writer appears to be trying to communicate through their choices",
+          matchMy:
+              "စာရေးဆရာတစ်ဦးသည် ၎င်း၏ ရွေးချယ်မှုများမှတဆင့် ဆက်သွယ်ရန် ကြိုးစားနေပုံရသော အရာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w23-dm-5",
+          termEn: "Convergence",
+          termMy: "Convergence",
+          matchEn: "The point where two texts treat an idea in a similar way",
+          matchMy:
+              "စာသားနှစ်ခုသည် အယူအဆတစ်ခုကို ဆင်တူသော နည်းလမ်းဖြင့် ကိုင်တွယ်သော အချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Effective or Ineffective Comparison?",
+      titleMy: "စီစစ်ကြမည် - ထိရောက်သော (သို့) မထိရောက်သော နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Genuinely Comparative", "Just Two Separate Summaries"],
+        bucketsMy: [
+          "စစ်မှန်စွာ နှိုင်းယှဉ်ထား",
+          "သီးခြားစီ အနှစ်ချုပ်နှစ်ခုသာ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w23-sort-1",
+            labelEn:
+                "\"While Text A conveys grief through silence, Text B conveys it through frantic movement -- both externalise an internal state.\"",
+            labelMy:
+                "\"Text A သည် ဝမ်းနည်းမှုကို တိတ်ဆိတ်မှုမှတဆင့် ဖော်ပြသော်လည်း Text B သည် ၎င်းကို လျှင်မြန်စွာ လှုပ်ရှားမှုမှတဆင့် ဖော်ပြသည် -- နှစ်ခုစလုံးသည် အတွင်းစိတ် အခြေအနေတစ်ခုကို ပြင်ပသို့ ဖော်ထုတ်သည်။\"",
+            correctBucketEn: "Genuinely Comparative",
+            correctBucketMy: "စစ်မှန်စွာ နှိုင်းယှဉ်ထား",
+          ),
+          SortingItem(
+            id: "igcseeng-w23-sort-2",
+            labelEn:
+                "\"Text A is about a boy. Text B is also about a boy. They are both stories.\"",
+            labelMy:
+                "\"Text A သည် ယောင်္ကျားလေးတစ်ဦးအကြောင်း ဖြစ်သည်။ Text B သည်လည်း ယောင်္ကျားလေးတစ်ဦးအကြောင်း ဖြစ်သည်။ နှစ်ခုစလုံးသည် ဇာတ်လမ်းများ ဖြစ်ကြသည်။\"",
+            correctBucketEn: "Just Two Separate Summaries",
+            correctBucketMy: "သီးခြားစီ အနှစ်ချုပ်နှစ်ခုသာ",
+          ),
+          SortingItem(
+            id: "igcseeng-w23-sort-3",
+            labelEn:
+                "\"Both writers use nature imagery, but Text A's imagery is threatening while Text B's is comforting, reflecting their differing views on change.\"",
+            labelMy:
+                "\"စာရေးဆရာနှစ်ဦးစလုံးသည် သဘာဝ Imagery ကို သုံးသော်လည်း Text A ၏ Imagery သည် ခြိမ်းခြောက်မှုရှိပြီး Text B ၏ Imagery သည် အားပေးသက်သာစေသော်ဖြစ်သည်၊ ပြောင်းလဲမှုအပေါ် သူတို့၏ ကွဲပြားသော အမြင်များကို ရောင်ပြန်ဟပ်သည်။\"",
+            correctBucketEn: "Genuinely Comparative",
+            correctBucketMy: "စစ်မှန်စွာ နှိုင်းယှဉ်ထား",
+          ),
+          SortingItem(
+            id: "igcseeng-w23-sort-4",
+            labelEn:
+                "\"Here is what happens in Text A. Here is what happens in Text B. The end.\"",
+            labelMy:
+                "\"Text A တွင် ဖြစ်ပျက်သည်မှာ ဤသို့ ဖြစ်သည်။ Text B တွင် ဖြစ်ပျက်သည်မှာ ဤသို့ ဖြစ်သည်။ အဆုံး။\"",
+            correctBucketEn: "Just Two Separate Summaries",
+            correctBucketMy: "သီးခြားစီ အနှစ်ချုပ်နှစ်ခုသာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Comparative Essay Breakthrough",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ နှိုင်းယှဉ် Essay ရေှ့တိုးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Comparative Essay Breakthrough",
+        titleMy: "နေချည်၏ နှိုင်းယှဉ် Essay ရေှ့တိုးမှု",
+        passageEn:
+            "Asked to compare how two poems both treated the theme of homesickness, Nay Chi's first draft structured itself as two entirely separate halves: three paragraphs analysing Poem A in full, followed by three paragraphs analysing Poem B in full, with a single closing sentence noting they were \"both about missing home.\" Ko Thura told her this wasn't really a comparative essay at all -- it was two mini-essays stapled together, exactly the same structural mistake she had made with source synthesis back in Term 2.\n\nHe asked her to restructure entirely by shared point rather than by text. Her new first paragraph examined how both poets used sensory imagery of food -- Poem A's remembered spices, Poem B's remembered bread -- to anchor homesickness in specific, physical memory rather than abstract longing. Her second paragraph compared structural choice: Poem A's short, fragmented lines mirrored disorientation, while Poem B's long, flowing lines mirrored nostalgic comfort, showing that the same emotion could be rendered through opposite formal choices. Every paragraph now discussed both poems together, genuinely comparing rather than merely juxtaposing.\n\nHer conclusion offered real thematic synthesis: both poets, despite radically different techniques, ultimately suggested that home persisted most powerfully not as a place but as a collection of small, specific sensory memories. Ko Thura told her this was the payoff of genuine comparison -- it revealed something true about both texts that analysing either one alone never could have surfaced, precisely because meaning often emerges most clearly in the space between two things, not within either one in isolation.",
+        passageMy:
+            "ကဗျာနှစ်ပုဒ်စလုံးသည် အိမ်လွမ်းခြင်း Theme ကို မည်သို့ ကိုင်တွယ်ကြောင်း နှိုင်းယှဉ်ရန် တောင်းဆိုခံရသောအခါ နေချည်၏ ပထမမူကြမ်းသည် လုံးဝ သီးခြားစီ ထက်ဝက်နှစ်ပိုင်းအဖြစ် ကိုယ်တိုင် ဖွဲ့စည်းခဲ့သည် - ကဗျာ A ကို အပြည့်အစုံ ခွဲခြမ်းစိတ်ဖြာသော စာပိုဒ်သုံးပိုဒ်၊ ထို့နောက် ကဗျာ B ကို အပြည့်အစုံ ခွဲခြမ်းစိတ်ဖြာသော စာပိုဒ်သုံးပိုဒ်၊ ၎င်းတို့ \"နှစ်ခုစလုံး အိမ်ကို လွမ်းဆွတ်ခြင်းအကြောင်း\" ဖြစ်ကြောင်း မှတ်သားသော ပိတ်ချက်ဝါကျ တစ်ကြောင်းတည်း။ ကိုသူရသည် ၎င်းသည် နှိုင်းယှဉ် Essay တစ်ခု လုံးဝ မဟုတ်ကြောင်း -- ၎င်းသည် ဒုတိယနှစ်ဝက်က အရင်းအမြစ် Synthesis ဖြင့် သူမ ပြုလုပ်ခဲ့သော ဖွဲ့စည်းပုံဆိုင်ရာ အမှားအတိအကျ ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည်။\n\nသူသည် စာသားအလိုက်မဟုတ်ဘဲ မျှဝေထားသော အချက်အလိုက် လုံးဝ ပြန်လည် ဖွဲ့စည်းရန် သူမကို တောင်းဆိုခဲ့သည်။ သူမ၏ ပထမ စာပိုဒ်အသစ်သည် ကဗျာဆရာနှစ်ဦးစလုံးသည် အစားအစာ၏ အာရုံခံစားမှုဆိုင်ရာ Imagery ကို -- ကဗျာ A ၏ မှတ်မိထားသော ဟင်းခတ်အမွှေးအကြိုင်များ၊ ကဗျာ B ၏ မှတ်မိထားသော ပေါင်မုန့် -- မှုန်ဝါးသော အလွမ်းအစား တိကျ၍ ရုပ်ပိုင်းဆိုင်ရာ အမှတ်တရတွင် အိမ်လွမ်းခြင်းကို ချိတ်ဆွဲထားရန် မည်သို့ သုံးကြောင်း စစ်ဆေးခဲ့သည်။ သူမ၏ ဒုတိယ စာပိုဒ်သည် ဖွဲ့စည်းပုံဆိုင်ရာ ရွေးချယ်မှုကို နှိုင်းယှဉ်ခဲ့သည် - ကဗျာ A ၏ တို၍ ကွဲထွက်နေသော စာကြောင်းများသည် ရှုပ်ထွေးမှုကို ရောင်ပြန်ဟပ်ခဲ့ပြီး၊ ကဗျာ B ၏ ရှည်လျား၍ စီးဆင်းနေသော စာကြောင်းများသည် လွမ်းဆွတ်ဖွယ် သက်သာမှုကို ရောင်ပြန်ဟပ်ခဲ့ပြီး၊ တူညီသော ခံစားချက်ကို ဆန့်ကျင်ဘက် ပုံသေ ရွေးချယ်မှုများမှတဆင့် တင်ပြနိုင်ကြောင်း ပြသခဲ့သည်။ ယခုအခါ စာပိုဒ်တိုင်းသည် ကဗျာနှစ်ပုဒ်စလုံးကို အတူတကွ ဆွေးနွေးခဲ့ပြီး ဘေးချင်းယှဉ်ခြင်းသက်သက်ထက် စစ်မှန်စွာ နှိုင်းယှဉ်ခဲ့သည်။\n\nသူမ၏ နိဂုံးသည် စစ်မှန်သော Thematic Synthesis ကို ပေးအပ်ခဲ့သည် - ကဗျာဆရာနှစ်ဦးစလုံးသည် သိသိသာသာ ကွဲပြားသော နည်းပညာများ ရှိသော်လည်း၊ နောက်ဆုံးတွင် အိမ်သည် နေရာတစ်ခုအဖြစ် မဟုတ်ဘဲ သေးငယ်၊ တိကျသော အာရုံခံစားမှုဆိုင်ရာ အမှတ်တရများ၏ စုစည်းမှုတစ်ခုအဖြစ် အားအကောင်းဆုံး ဆက်လက်တည်ရှိနေကြောင်း အကြံပြုခဲ့သည်။ ကိုသူရသည် ၎င်းသည် စစ်မှန်သော နှိုင်းယှဉ်ခြင်း၏ ရလဒ်ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် -- ၎င်းသည် စာသားနှစ်ခုစလုံးအကြောင်း စစ်မှန်သော တစ်ခုခုကို ဖော်ထုတ်ခဲ့ပြီး၊ တစ်ခုတည်းကို ခွဲခြမ်းစိတ်ဖြာခြင်းသည် ဘယ်တော့မှ ဖော်ထုတ်နိုင်မည် မဟုတ်ကြောင်း အဓိပ္ပာယ်သည် အမြဲ တစ်ခုတည်း သီးသန့်ထက် အရာနှစ်ခုကြား နေရာတွင် ပို၍ ရှင်းလင်းစွာ ပေါ်ထွက်လာလေ့ရှိသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what mistake did Ko Thura say Nay Chi's essay repeated from Term 2?",
+            questionMy:
+                "ဒုတိယနှစ်ဝက်မှ နေချည်၏ Essay ထပ်လုပ်ခဲ့သော အမှားကို ကိုသူရ ဘာဟု ဆိုခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Writing two separate pieces stapled together instead of genuine synthesis",
+              "Using no evidence at all",
+              "Writing in the wrong language",
+              "Choosing the wrong two poems",
+            ],
+            optionsMy: [
+              "စစ်မှန်သော Synthesis အစား သီးခြား လုပ်ငန်းနှစ်ခုကို Staple တပ်ထားသကဲ့သို့ ရေးသားခဲ့ခြင်း",
+              "သက်သေအထောက်အထား မည်သည်ကိုမျှ မသုံးခြင်း",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားခြင်း",
+              "မှားယွင်းသော ကဗျာနှစ်ပုဒ် ရွေးချယ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's new first paragraph compare?",
+            questionMy:
+                "နေချည်၏ စာပိုဒ်အသစ် ပထမပိုဒ်သည် ဘာကို နှိုင်းယှဉ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How both poets used sensory imagery of food to anchor homesickness",
+              "The exact publication dates of both poems",
+              "The number of stanzas in each poem",
+              "The poets' handwriting styles",
+            ],
+            optionsMy: [
+              "ကဗျာဆရာနှစ်ဦးစလုံးသည် အိမ်လွမ်းခြင်းကို ချိတ်ဆွဲထားရန် အစားအစာ၏ အာရုံခံစားမှုဆိုင်ရာ Imagery ကို မည်သို့ သုံးကြောင်း",
+              "ကဗျာနှစ်ပုဒ်စလုံး၏ အတိအကျ ထုတ်ဝေသည့်နေ့ရက်များ",
+              "ကဗျာတစ်ပုဒ်စီရှိ Stanza အရေအတွက်",
+              "ကဗျာဆရာများ၏ လက်ရေးစတိုင်လ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the new first paragraph."],
+            hintsMy: [
+              "စာပိုဒ်အသစ် ပထမပိုဒ်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, where did Ko Thura say meaning often emerges most clearly?",
+            questionMy:
+                "အဓိပ္ပာယ်သည် အများဆုံး ရှင်းလင်းစွာ ပေါ်ထွက်လာသည်ဟု ကိုသူရ မည်သည်ဟု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "In the space between two things, not within either one alone",
+              "Only within a single text read in isolation",
+              "Nowhere -- meaning never emerges from comparison",
+              "Only in the poem's title",
+            ],
+            optionsMy: [
+              "အရာနှစ်ခုကြား နေရာတွင်၊ တစ်ခုတည်း သီးသန့်ထဲတွင် မဟုတ်ဘဲ",
+              "သီးသန့် ဖတ်ရှုသော စာသားတစ်ခုတည်းအတွင်း",
+              "မည်သည့်နေရာတွင်မျှ -- အဓိပ္ပာယ်သည် နှိုင်းယှဉ်ခြင်းမှ ဘယ်တော့မှ မပေါ်ထွက်ပါ",
+              "ကဗျာ၏ ခေါင်းစဉ်တွင်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Comparative Essays",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - နှိုင်းယှဉ် Essay များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A comparative essay should be organised by...",
+          questionMy: "နှိုင်းယှဉ် Essay တစ်ခုကို ...အလိုက် စီစဉ်သင့်သည်",
+          optionsEn: [
+            "Shared theme, discussing both texts per point",
+            "Text A entirely, then text B, with no connection",
+            "Random order",
+            "Alphabetical character names",
+          ],
+          optionsMy: [
+            "အချက်တစ်ခုစီအတွင်း စာသားနှစ်ခုစလုံးကို ဆွေးနွေးလျက် မျှဝေထားသော Theme",
+            "ချိတ်ဆက်မှု မရှိဘဲ Text A အပြည့်အစုံ၊ ထို့နောက် Text B",
+            "ကျပန်း အစီအစဉ်",
+            "ဇာတ်ကောင် အမည်များ၏ အက္ခရာစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Thematic synthesis means...",
+          questionMy: "Thematic Synthesis ဆိုသည်မှာ...",
+          optionsEn: [
+            "Drawing a conclusion about how both texts treat a shared idea",
+            "Discussing each text in isolation",
+            "Ignoring shared themes",
+            "Listing plot summaries only",
+          ],
+          optionsMy: [
+            "စာသားနှစ်ခုစလုံးသည် မျှဝေထားသော အယူအဆတစ်ခုကို မည်သို့ ကိုင်တွယ်ကြောင်း ကောက်ချက်တစ်ခု ချမှတ်ခြင်း",
+            "စာသားတစ်ခုစီကို သီးသန့် ဆွေးနွေးခြင်း",
+            "မျှဝေထားသော Theme များကို လျစ်လျူရှုခြင်း",
+            "ဇာတ်ကွက် အနှစ်ချုပ်များကိုသာ စာရင်းပြုစုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A weak comparative essay typically...",
+          questionMy:
+              "အားနည်းသော နှိုင်းယှဉ် Essay တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Reads as two separate summaries stapled together",
+            "Uses too much evidence",
+            "Compares texts too closely",
+            "Has too clear a structure",
+          ],
+          optionsMy: [
+            "သီးခြားစီ အနှစ်ချုပ်နှစ်ခုကို Staple တပ်ထားသကဲ့သို့ ဖတ်ရသည်",
+            "သက်သေအထောက်အထား လွန်ကဲစွာ သုံးသည်",
+            "စာသားများကို အလွန် နီးကပ်စွာ နှိုင်းယှဉ်သည်",
+            "ဖွဲ့စည်းပုံ ရှင်းလင်းလွန်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek24 = CourseWeekDef(
+  id: "course-igcse-eng-w24",
+  weekNumber: 24,
+  titleEn: "Literature Commentary Studio",
+  titleMy: "စာပေ ဝေဖန်ရေး အလုပ်ရုံ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w24-d1",
+      dayNumber: 1,
+      titleEn: "Timed Literature Response and Critical Analysis",
+      titleMy: "အချိန်ကန့်သတ်ထားသော စာပေ တုံ့ပြန်ချက်နှင့် ဝေဖန်ပိုင်းခြားမှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A timed literature commentary should begin by...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော စာပေ ဝေဖန်ချက်တစ်ခုသည် ...ဖြင့် စတင်သင့်သည်",
+          optionsEn: [
+            "Identifying the key themes and techniques worth analysing in the extract",
+            "Writing the conclusion first",
+            "Copying the extract word for word",
+            "Ignoring the question entirely",
+          ],
+          optionsMy: [
+            "စာပိုဒ်ထုတ်နုတ်ချက်တွင် ခွဲခြမ်းစိတ်ဖြာထိုက်သော အဓိက Theme များနှင့် နည်းပညာများကို ခွဲခြားသတ်မှတ်ခြင်း",
+            "နိဂုံးကို ဦးစွာ ရေးခြင်း",
+            "စာပိုဒ်ထုတ်နုတ်ချက်ကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+            "မေးခွန်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every claim about a literary text should be supported by...",
+          questionMy:
+              "စာပေ စာသားတစ်ခုအကြောင်း Claim တိုင်းကို ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "A specific, embedded quotation with analysis",
+            "A vague general statement",
+            "No evidence at all",
+            "The candidate's unsupported opinion",
+          ],
+          optionsMy: [
+            "ခွဲခြမ်းစိတ်ဖြာမှုပါသော တိကျသော Embedded ကိုးကားချက်",
+            "မှုန်ဝါးသော ယေဘုယျ ဖော်ပြချက်",
+            "သက်သေအထောက်အထား လုံးဝ မပါဘဲ",
+            "ဖြေဆိုသူ၏ ထောက်ခံမှု မရှိသော ထင်မြင်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Discussing a character's development across a text requires tracing...",
+          questionMy:
+              "စာသားတစ်ခုတစ်လျှောက် ဇာတ်ကောင်တစ်ဦး၏ ဖွံ့ဖြိုးတိုးတက်မှုကို ဆွေးနွေးခြင်းသည် ...ကို ခြေရာခံရန် လိုအပ်သည်",
+          optionsEn: [
+            "The character's arc and its thematic significance",
+            "Only the character's physical description",
+            "Only the character's name",
+            "Nothing beyond the plot events",
+          ],
+          optionsMy: [
+            "ဇာတ်ကောင်၏ Arc နှင့် ၎င်း၏ Theme ဆိုင်ရာ အရေးပါမှု",
+            "ဇာတ်ကောင်၏ ရုပ်ပိုင်းဆိုင်ရာ ဖော်ပြချက်ကိုသာ",
+            "ဇာတ်ကောင်၏ အမည်ကိုသာ",
+            "ဇာတ်ကွက် အဖြစ်အပျက်များထက် ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing two texts in a single response should organise paragraphs by...",
+          questionMy:
+              "တုံ့ပြန်ချက်တစ်ခုတည်းတွင် စာသားနှစ်ခုကို နှိုင်းယှဉ်ခြင်းသည် စာပိုဒ်များကို ...အလိုက် စီစဉ်သင့်သည်",
+          optionsEn: [
+            "Shared point, discussing both texts together",
+            "Text A fully, then text B, with no link",
+            "Random unrelated order",
+            "Whichever text is longer first",
+          ],
+          optionsMy: [
+            "အချက်တစ်ခုစီအတွင်း စာသားနှစ်ခုစလုံးကို ဆွေးနွေးလျက် မျှဝေထားသော အချက်",
+            "ချိတ်ဆက်မှု မရှိဘဲ Text A အပြည့်အစုံ၊ ထို့နောက် Text B",
+            "ကျပန်း၊ မဆက်စပ်သော အစီအစဉ်",
+            "ပိုရှည်သော စာသားကို ဦးစွာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Self-evaluation after a timed literature response should focus on...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော စာပေ တုံ့ပြန်ချက်တစ်ခုပြီးနောက် Self-Evaluation သည် ...အပေါ် အာရုံစိုက်သင့်သည်",
+          optionsEn: [
+            "Whether every claim was backed by specific, embedded evidence",
+            "Only the total word count",
+            "Only the handwriting neatness",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Claim တိုင်းသည် တိကျသော Embedded သက်သေအထောက်အထားဖြင့် ထောက်ခံထားပါသလား",
+            "စုစုပေါင်း စကားလုံးရေကိုသာ",
+            "လက်ရေး သပ်ရပ်မှုကိုသာ",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Literature & Poetry Term Review",
+      titleMy: "တွဲစပ်ကြမည် - စာပေနှင့် ကဗျာ နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w24-dm-1",
+          termEn: "Diction",
+          termMy: "Diction",
+          matchEn:
+              "A writer's specific word choices and their effect on meaning",
+          matchMy:
+              "စာရေးသူ၏ တိကျသော စကားလုံး ရွေးချယ်မှုများနှင့် အဓိပ္ပာယ်အပေါ် ၎င်းတို့၏ သက်ရောက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w24-dm-2",
+          termEn: "Character arc",
+          termMy: "Character Arc",
+          matchEn: "How a character changes or develops across a narrative",
+          matchMy:
+              "ဇာတ်ကောင်တစ်ဦးသည် ဇာတ်ကြောင်းတစ်ခုတစ်လျှောက် မည်သို့ ပြောင်းလဲ (သို့) ဖွံ့ဖြိုးလာကြောင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w24-dm-3",
+          termEn: "Symbolic motif",
+          termMy: "Symbolic Motif",
+          matchEn: "A recurring image or object reinforcing a text's theme",
+          matchMy:
+              "စာသားတစ်ခု၏ Theme ကို အားဖြည့်ပေးသော ထပ်ခါထပ်ခါ ပေါ်လာသည့် ပုံရိပ် (သို့) အရာဝတ္ထု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w24-dm-4",
+          termEn: "Thematic synthesis",
+          termMy: "Thematic Synthesis",
+          matchEn: "A conclusion about how two texts treat a shared idea",
+          matchMy:
+              "စာသားနှစ်ခုသည် မျှဝေထားသော အယူအဆတစ်ခုကို မည်သို့ ကိုင်တွယ်ကြောင်း ကောက်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w24-dm-5",
+          termEn: "Embedded quotation",
+          termMy: "Embedded Quotation",
+          matchEn:
+              "A short quotation woven smoothly into the writer's own analytical sentence",
+          matchMy:
+              "ရေးသားသူ၏ ကိုယ်ပိုင် ခွဲခြမ်းစိတ်ဖြာသော ဝါကျအတွင်းသို့ ချောမွေ့စွာ ရက်နက်ထားသော ကိုးကားချက်တို",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 6 Skill Applies?",
+      titleMy:
+          "စီစစ်ကြမည် - တန်းခြောက်တန်း မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Close Reading", "Character/Theme", "Comparison"],
+        bucketsMy: ["Close Reading", "Character/Theme", "Comparison"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w24-sort-1",
+            labelEn:
+                "Embedding a precise quotation directly into an analytical sentence",
+            labelMy:
+                "တိကျသော ကိုးကားချက်တစ်ခုကို ခွဲခြမ်းစိတ်ဖြာသော ဝါကျတစ်ခုအတွင်းသို့ တိုက်ရိုက် Embed ပြုလုပ်ခြင်း",
+            correctBucketEn: "Close Reading",
+            correctBucketMy: "Close Reading",
+          ),
+          SortingItem(
+            id: "igcseeng-w24-sort-2",
+            labelEn:
+                "Tracing a recurring motif of open and closed doors across a novel",
+            labelMy:
+                "ဝတ္ထုတစ်ပုဒ်လုံးတစ်လျှောက် ဖွင့်ထားသောနှင့် ပိတ်ထားသော တံခါးများ၏ ထပ်ခါထပ်ခါ ပေါ်လာသော Motif ကို ခြေရာခံခြင်း",
+            correctBucketEn: "Character/Theme",
+            correctBucketMy: "Character/Theme",
+          ),
+          SortingItem(
+            id: "igcseeng-w24-sort-3",
+            labelEn:
+                "Organising an essay by shared point, discussing two poems together",
+            labelMy:
+                "ကဗျာနှစ်ပုဒ်ကို အတူတကွ ဆွေးနွေးလျက် မျှဝေထားသော အချက်အလိုက် Essay တစ်ခု စီစဉ်ခြင်း",
+            correctBucketEn: "Comparison",
+            correctBucketMy: "Comparison",
+          ),
+          SortingItem(
+            id: "igcseeng-w24-sort-4",
+            labelEn:
+                "Explaining exactly why a specific word choice creates a particular effect",
+            labelMy:
+                "တိကျသော စကားလုံး ရွေးချယ်မှုတစ်ခု အထူးသက်ရောက်မှုတစ်ခုကို အဘယ်ကြောင့် ဖန်တီးကြောင်း အတိအကျ ရှင်းပြခြင်း",
+            correctBucketEn: "Close Reading",
+            correctBucketMy: "Close Reading",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Literature Commentary Result",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ စာပေ ဝေဖန်ချက် ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Literature Commentary Result",
+        titleMy: "နေချည်၏ စာပေ ဝေဖန်ချက် ရလဒ်",
+        passageEn:
+            "For the Term 6 capstone, Ko Thura gave Nay Chi an unseen prose extract about a fisherman confronting a storm, and 45 timed minutes to write a full critical commentary.\n\nShe spent five minutes annotating the extract before writing a single sentence, marking specific word choices, a recurring motif of the fisherman's father's compass, and a structural shift from short sentences during the storm's peak to longer ones as it passed. Her opening paragraph identified the extract's central theme -- inherited courage passed silently between generations -- and previewed the three techniques she would use as evidence: diction, symbolic motif, and structural pacing.\n\nEach body paragraph embedded specific quotations directly into her analytical sentences rather than dropping them in loosely, and each one linked its technical observation back to the central theme rather than drifting into unconnected description. When she analysed the compass motif -- appearing once at the fisherman's departure and once at his safe return -- she didn't just note its presence but explained precisely how its reappearance suggested the courage his father once showed him now lived, unspoken, in his own hands.\n\nWhen Ko Thura marked the finished piece, he told Nay Chi it demonstrated every skill Term 6 had built: genuine close reading that named exact evidence, thematic tracking that connected technique to meaning, and a commentary that read as a coherent argument rather than a list of disconnected observations. He reminded her that Term 7's focus on grammar and stylistic editing would refine the sentence-level control beneath everything she had just demonstrated -- proof that even her strongest work could still be sharpened further, one precise word at a time.",
+        passageMy:
+            "တန်းခြောက်တန်း Capstone အတွက် ကိုသူရသည် မုန်တိုင်းကို ရင်ဆိုင်နေသော တံငါသည်တစ်ဦးအကြောင်း မမြင်ဖူးသေးသော ဝတ္ထု စာပိုဒ်ထုတ်နုတ်ချက်တစ်ခုနှင့် ဝေဖန်ချက် အပြည့်အစုံ ရေးသားရန် မိနစ် ၄၅ မိနစ် အချိန်ကန့်သတ်ထားသည်ကို နေချည်ကို ပေးအပ်ခဲ့သည်။\n\nသူမသည် စကားလုံးတစ်လုံးမျှ မရေးမီ စာပိုဒ်ထုတ်နုတ်ချက်ကို မှတ်စု ရေးရန် ငါးမိနစ် ကုန်ဆုံးခဲ့ပြီး တိကျသော စကားလုံး ရွေးချယ်မှုများ၊ တံငါသည်၏ ဖခင်၏ Compass ၏ ထပ်ခါထပ်ခါ ပေါ်လာသော Motif နှင့် မုန်တိုင်း၏ အထွတ်အထိပ်စဉ် တိုသော ဝါကျများမှ ၎င်း ကျော်လွန်သွားသည်နှင့်အမျှ ရှည်လျားသော ဝါကျများသို့ ဖွဲ့စည်းပုံဆိုင်ရာ ပြောင်းလဲမှုကို မှတ်သားခဲ့သည်။ သူမ၏ ဖွင့်ချက် စာပိုဒ်သည် စာပိုဒ်ထုတ်နုတ်ချက်၏ ဗဟိုချက် Theme -- မျိုးဆက်များကြား တိတ်တဆိတ် လက်ဆင့်ကမ်းထားသော အမွေဆိုင် ရဲရင့်မှု -- ကို ခွဲခြားသတ်မှတ်ပြီး သက်သေအထောက်အထားအဖြစ် သုံးမည့် နည်းပညာသုံးခု - Diction၊ Symbolic Motif နှင့် Structural Pacing - ကို ကြိုတင် ပြသခဲ့သည်။\n\nBody စာပိုဒ်တစ်ခုစီသည် ကိုးကားချက်များကို ဝေဝေဆာဆာ ချထားမည့်အစား သူမ၏ ခွဲခြမ်းစိတ်ဖြာသော ဝါကျများအတွင်းသို့ တိုက်ရိုက် Embed ပြုလုပ်ခဲ့ပြီး၊ တစ်ခုစီသည် ၎င်း၏ နည်းပညာဆိုင်ရာ လေ့လာတွေ့ရှိချက်ကို ချိတ်ဆက်မှု မရှိသော ဖော်ပြချက်ဆီသို့ ရွေ့လျားမည့်အစား ဗဟိုချက် Theme သို့ ပြန်ချိတ်ဆက်ခဲ့သည်။ Compass Motif ကို ခွဲခြမ်းစိတ်ဖြာသောအခါ -- တံငါသည် ထွက်ခွာစဉ် တစ်ကြိမ်နှင့် သူ ဘေးကင်းစွာ ပြန်ရောက်စဉ် တစ်ကြိမ် ပေါ်လာသည် -- သူမသည် ၎င်း၏ တည်ရှိမှုကိုသာ မှတ်သားခြင်းမဟုတ်ဘဲ ၎င်း၏ ပြန်လည် ပေါ်လာခြင်းသည် သူ့ဖခင် တစ်ချိန်က ပြသခဲ့သော ရဲရင့်မှုသည် ယခုအခါ သူ့ကိုယ်ပိုင် လက်များတွင် စကားမဟောလျက် နေထိုင်နေကြောင်း တိကျစွာ ရှင်းပြခဲ့သည်။\n\nကိုသူရသည် ပြီးစီးသော အလုပ်ကို အမှတ်ပေးရာ တန်းခြောက်တန်းက တည်ဆောက်ခဲ့သော ကျွမ်းကျင်မှုတိုင်းကို ၎င်းသည် သရုပ်ပြခဲ့ကြောင်း နေချည်ကို ပြောခဲ့သည် - တိကျသော သက်သေအထောက်အထားကို အမည်တပ်ထားသော စစ်မှန်သော Close Reading၊ နည်းပညာကို အဓိပ္ပာယ်နှင့် ချိတ်ဆက်သော Theme ခြေရာခံမှု၊ ချိတ်ဆက်မှု မရှိသော လေ့လာတွေ့ရှိချက်များ စာရင်းထက် ညီညွတ်သော အငြင်းပွားမှု တစ်ခုအဖြစ် ဖတ်ရသော ဝေဖန်ချက်။ တန်းခုနစ်တန်း၏ သဒ္ဒါနှင့် စတိုင်လ် တည်းဖြတ်မှုအပေါ် အာရုံစိုက်မှုသည် သူမ ယခုမှ သရုပ်ပြခဲ့သော အရာအားလုံး၏ အောက်ခံရှိ ဝါကျအဆင့် ထိန်းချုပ်မှုကို ချောမွေ့စေမည်ဖြစ်ကြောင်း -- သူမ၏ အားကောင်းဆုံး အလုပ်ပင်လျှင် တစ်ကြိမ်လျှင် တိကျသော စကားလုံးတစ်လုံးဖြင့် ဆက်လက် ထက်မြက်စေနိုင်ကြောင်း သက်သေအထောက်အထား -- သူ သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's opening paragraph preview?",
+            questionMy:
+                "နေချည်၏ ဖွင့်ချက် စာပိုဒ်သည် ဘာကို ကြိုတင် ပြသခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The three techniques she would use as evidence",
+              "The exact ending of the extract",
+              "The fisherman's full biography",
+              "The word count limit",
+            ],
+            optionsMy: [
+              "သက်သေအထောက်အထားအဖြစ် သူမ သုံးမည့် နည်းပညာသုံးခု",
+              "စာပိုဒ်ထုတ်နုတ်ချက်၏ အတိအကျ အဆုံးသတ်",
+              "တံငါသည်၏ ဘဝရာဇဝင် အပြည့်အစုံ",
+              "စကားလုံးရေ ကန့်သတ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 2."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the compass motif's reappearance suggest?",
+            questionMy:
+                "Compass Motif ၏ ပြန်လည် ပေါ်လာခြင်းသည် ဘာကို အကြံပြုခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The father's courage now lived, unspoken, in the fisherman's own hands",
+              "The compass was broken and needed replacing",
+              "The fisherman had lost the compass at sea",
+              "The story was set in a different country",
+            ],
+            optionsMy: [
+              "ဖခင်၏ ရဲရင့်မှုသည် ယခုအခါ တံငါသည်ကိုယ်ပိုင် လက်များတွင် စကားမဟောလျက် နေထိုင်နေကြောင်း",
+              "Compass ပျက်စီးနေပြီး အစားထိုးရန် လိုအပ်ကြောင်း",
+              "တံငါသည်သည် ပင်လယ်တွင် Compass ဆုံးရှုံးခဲ့ကြောင်း",
+              "ဇာတ်လမ်းသည် အခြား နိုင်ငံတစ်ခုတွင် သတ်မှတ်ထားကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the motif's reappearance meant.",
+            ],
+            hintsMy: [
+              "Motif ၏ ပြန်လည်ပေါ်လာခြင်း ဘာကို ဆိုလိုကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say Term 7 would refine?",
+            questionMy:
+                "တန်းခုနစ်တန်းသည် ဘာကို ချောမွေ့စေမည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sentence-level control beneath everything she had demonstrated",
+              "Nothing at all -- her work was already perfect",
+              "Her ability to read unseen extracts only",
+              "Her handwriting speed",
+            ],
+            optionsMy: [
+              "သူမ သရုပ်ပြခဲ့သော အရာအားလုံး၏ အောက်ခံရှိ ဝါကျအဆင့် ထိန်းချုပ်မှု",
+              "မည်သည့်အရာမျှ -- သူမ၏ အလုပ်သည် အပြီးအပြတ် ပြီးပြည့်စုံပြီးသား ဖြစ်ခဲ့သည်",
+              "မမြင်ဖူးသေးသော စာပိုဒ်ထုတ်နုတ်ချက်များ ဖတ်ရှုနိုင်စွမ်းကိုသာ",
+              "သူမ၏ လက်ရေး အမြန်နှုန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Literature Mastery",
+      titleMy: "တန်းခြောက်တန်း Capstone - စာပေ ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Every claim about a literary text should be supported by...",
+          questionMy:
+              "စာပေ စာသားတစ်ခုအကြောင်း Claim တိုင်းကို ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "A specific, embedded quotation with analysis",
+            "A vague statement",
+            "No evidence",
+            "Personal opinion alone",
+          ],
+          optionsMy: [
+            "ခွဲခြမ်းစိတ်ဖြာမှုပါသော တိကျသော Embedded ကိုးကားချက်",
+            "မှုန်ဝါးသော ဖော်ပြချက်",
+            "သက်သေအထောက်အထား မပါခြင်း",
+            "ကိုယ်ပိုင်ထင်မြင်ချက်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A recurring motif should be analysed by explaining...",
+          questionMy:
+              "ထပ်ခါထပ်ခါ ပေါ်လာသော Motif တစ်ခုကို ...ရှင်းပြခြင်းဖြင့် ခွဲခြမ်းစိတ်ဖြာသင့်သည်",
+          optionsEn: [
+            "How its reappearance connects to the text's theme",
+            "Only that it exists",
+            "Only its colour",
+            "Nothing about its meaning",
+          ],
+          optionsMy: [
+            "၎င်း၏ ပြန်လည် ပေါ်လာခြင်းသည် စာသား၏ Theme နှင့် မည်သို့ ချိတ်ဆက်ကြောင်း",
+            "၎င်း တည်ရှိကြောင်းကိုသာ",
+            "၎င်း၏ အရောင်ကိုသာ",
+            "၎င်း၏ အဓိပ္ပာယ်အကြောင်း ဘာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong literature commentary reads as...",
+          questionMy: "အားကောင်းသော စာပေ ဝေဖန်ချက်တစ်ခုသည် ...အဖြစ် ဖတ်ရသည်",
+          optionsEn: [
+            "A coherent argument, not a list of disconnected observations",
+            "A random list of quotations",
+            "A plot summary only",
+            "An unrelated personal story",
+          ],
+          optionsMy: [
+            "ချိတ်ဆက်မှု မရှိသော လေ့လာတွေ့ရှိချက်များ စာရင်းမဟုတ်ဘဲ ညီညွတ်သော အငြင်းပွားမှု",
+            "ကိုးကားချက်များ ကျပန်း စာရင်း",
+            "ဇာတ်ကွက် အနှစ်ချုပ်တစ်ခုတည်း",
+            "မသက်ဆိုင်သော ကိုယ်ပိုင် ဇာတ်လမ်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm6 = CourseTermDef(
+  id: "course-igcse-eng-term6",
+  termNumber: 6,
+  titleEn: "Literature & Poetry Analysis",
+  titleMy: "စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု",
+  weeks: [_igcseEngWeek21, _igcseEngWeek22, _igcseEngWeek23, _igcseEngWeek24],
+  certificateTitleEn: "Literature & Poetry Analysis",
+  certificateTitleMy: "စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု",
 );
 
 // __IGCSE_ENGLISH_MARKER__
