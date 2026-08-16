@@ -148342,3 +148342,3099 @@ const CoursePathwayDef year3EnglishPathway = CoursePathwayDef(
     _year3EnglishTerm9,
   ],
 );
+
+// =====================================================================
+// IGCSE English -- Term 1: "Advanced Reading Comprehension" (Weeks
+// 1-4). Protagonist: Nay Chi, tutored by Ko Thura, continuing the
+// same IGCSE tutoring arc as Biology, Chemistry, and Physics. Week 1
+// covers explicit/implicit meaning and inference; Week 2 covers
+// writer's effect analysis; Week 3 covers advanced summary writing;
+// Week 4 is the capstone Paper 1 reading masterclass.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek1 = CourseWeekDef(
+  id: "course-igcse-eng-w1",
+  weekNumber: 1,
+  titleEn: "Explicit and Implicit Meanings",
+  titleMy: "ပေါ်လွင်သော အဓိပ္ပာယ်နှင့် ဖုံးကွယ်နေသော အဓိပ္ပာယ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w1-d1",
+      dayNumber: 1,
+      titleEn: "Inference and Reading Between the Lines",
+      titleMy: "Inference နှင့် စာကြောင်းကြားမှ ဖတ်ရှုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "\"Explicit\" information in a text is information that is...",
+          questionMy: "စာသားတစ်ခုရှိ \"Explicit\" အချက်အလက်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Directly stated, with no need to interpret it",
+            "Never actually written down anywhere",
+            "Only found in the title",
+            "Always false",
+          ],
+          optionsMy: [
+            "အနက်ဖွင့်ရန် မလိုအပ်ဘဲ တိုက်ရိုက် ဖော်ပြထားသော အချက်",
+            "မည်သည့်နေရာတွင်မျှ တကယ် မရေးထားသော အချက်",
+            "ခေါင်းစဉ်တွင်သာ တွေ့ရသော အချက်",
+            "အမြဲ မမှန်ကန်သော အချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Explicit comes from a Latin root meaning \"unfolded\" or made plain -- it's stated outright.",
+          ],
+          hintsMy: [
+            "Explicit သည် \"ဖြန့်ချထားသော\" (သို့) ရှင်းလင်းစွာဖော်ပြထားသော ဟု အနက်ရသော Latin အမြစ်မှ လာသည် -- ၎င်းသည် ပွင့်လင်းစွာ ဖော်ပြထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An implicit meaning must be worked out by the reader using...",
+          questionMy:
+              "Implicit အဓိပ္ပာယ်တစ်ခုကို စာဖတ်သူသည် ...အသုံးပြု၍ ရှာဖွေတွက်ချက်ရသည်",
+          optionsEn: [
+            "Clues in the text and their own inference",
+            "A dictionary only",
+            "The author's home address",
+            "Random guessing with no evidence",
+          ],
+          optionsMy: [
+            "စာသားထဲမှ အချက်ပြများနှင့် ကိုယ်ပိုင် Inference",
+            "အဘိဓာန်တစ်ခုတည်း",
+            "စာရေးသူ၏ နေအိမ်လိပ်စာ",
+            "သက်သေအထောက်အထား မရှိဘဲ ကျပန်း မှန်းဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Her hands trembled as she folded the letter without reading it again.\" What does this sentence imply about the character?",
+          questionMy:
+              "\"သူမ၏ လက်များသည် စာစောင်ကို ထပ်မဖတ်ဘဲ ခေါက်နေစဉ် တုန်ခုန်နေခဲ့သည်။\" ဤဝါကျသည် ဇာတ်ကောင်အကြောင်း မည်သို့ ညွှန်ပြသနည်း",
+          optionsEn: [
+            "She is emotionally distressed and finds the letter's content painful",
+            "She is completely calm and unaffected",
+            "She has never received a letter before",
+            "She is about to fall asleep",
+          ],
+          optionsMy: [
+            "သူမသည် စိတ်ပိုင်းဆိုင်ရာ ဒုက္ခရောက်နေပြီး စာစောင်၏ အကြောင်းအရာကို နာကျင်စွာ ခံစားနေသည်",
+            "သူမသည် လုံးဝ တည်ငြိမ်ပြီး ဘာမှ သက်ရောက်မှု မရှိပါ",
+            "သူမသည် စာစောင်တစ်စောင်မျှ ဘယ်တော့မှ မရရှိဘူးပါ",
+            "သူမသည် အိပ်ပျော်တော့မည် ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trembling hands and avoiding a second reading both suggest strong, painful emotion, not calm.",
+          ],
+          hintsMy: [
+            "တုန်ခုန်နေသော လက်များနှင့် ထပ်မဖတ်ခြင်း နှစ်ခုစလုံးသည် တည်ငြိမ်မှုမဟုတ်ဘဲ ပြင်းထန်၍ နာကျင်သော ခံစားချက်ကို ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The best evidence for an inference in an IGCSE Paper 1 answer is...",
+          questionMy:
+              "IGCSE Paper 1 အဖြေတစ်ခုတွင် Inference အတွက် အကောင်းဆုံး သက်သေအထောက်အထားမှာ...",
+          optionsEn: [
+            "A specific quotation or detail from the text itself",
+            "The candidate's personal opinion with no text reference",
+            "A guess unrelated to the passage",
+            "Copying the entire paragraph",
+          ],
+          optionsMy: [
+            "စာသားထဲမှ တိကျသော ကိုးကားချက် (သို့) အသေးစိတ်",
+            "စာသားနှင့် မသက်ဆိုင်သော ကိုယ်ပိုင်ထင်မြင်ချက်",
+            "စာပိုဒ်နှင့် မဆိုင်သော မှန်းဆချက်",
+            "စာပိုဒ်တစ်ခုလုံးကို ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Locating key details efficiently in a long non-fiction passage relies most on...",
+          questionMy:
+              "ရှည်လျားသော သုတစာစောင်တစ်ခုတွင် အဓိက အသေးစိတ်များကို ထိရောက်စွာ ရှာဖွေခြင်းသည် အဓိကအားဖြင့် ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Skimming for keywords tied to the question, then reading closely around them",
+            "Reading the passage backwards",
+            "Ignoring the question and reading randomly",
+            "Memorising the entire passage word for word first",
+          ],
+          optionsMy: [
+            "မေးခွန်းနှင့် ဆက်စပ်သော Keyword များကို လျင်မြန်စွာ ရှာဖွေပြီး ၎င်းတို့ပတ်ဝန်းကျင်ကို အနီးကပ် ဖတ်ရှုခြင်း",
+            "စာပိုဒ်ကို နောက်ပြန်လှည့်၍ ဖတ်ခြင်း",
+            "မေးခွန်းကို လျစ်လျူရှု၍ ကျပန်းဖတ်ခြင်း",
+            "စာပိုဒ်တစ်ခုလုံးကို ပထမဆုံး စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Reading Comprehension Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဖတ်ရှု နားလည်မှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w1-dm-1",
+          termEn: "Inference",
+          termMy: "Inference",
+          matchEn:
+              "A conclusion reached by reasoning from textual clues rather than direct statement",
+          matchMy:
+              "တိုက်ရိုက် ဖော်ပြချက်ထက် စာသားအချက်ပြများမှ ကျိုးကြောင်းဆင်ခြင်၍ ရောက်ရှိသော နိဂုံး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w1-dm-2",
+          termEn: "Connotation",
+          termMy: "Connotation",
+          matchEn:
+              "An emotional or cultural association a word carries beyond its literal meaning",
+          matchMy:
+              "စကားလုံးတစ်ခု၏ အဓိပ္ပာယ်စကားစနစ်ထက် ပို၍ သယ်ဆောင်လာသော ခံစားချက် (သို့) ယဉ်ကျေးမှုဆိုင်ရာ ဆက်နွယ်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w1-dm-3",
+          termEn: "Tone",
+          termMy: "Tone",
+          matchEn:
+              "The writer's attitude toward the subject, conveyed through word choice",
+          matchMy:
+              "စကားလုံး ရွေးချယ်မှုမှတဆင့် ဖော်ပြထားသော ဘာသာရပ်အပေါ် စာရေးသူ၏ သဘောထား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w1-dm-4",
+          termEn: "Textual evidence",
+          termMy: "Textual Evidence",
+          matchEn:
+              "A specific quotation or detail from the passage used to support an answer",
+          matchMy:
+              "အဖြေတစ်ခုကို ထောက်ခံရန် အသုံးပြုသော စာပိုဒ်ထဲမှ တိကျသော ကိုးကားချက် (သို့) အသေးစိတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w1-dm-5",
+          termEn: "Subtext",
+          termMy: "Subtext",
+          matchEn:
+              "The underlying, unstated meaning beneath a text's surface content",
+          matchMy:
+              "စာသား၏ မျက်နှာပြင် အကြောင်းအရာအောက်ရှိ ပုံမှန်မဖော်ပြထားသော အဓိပ္ပာယ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Explicit or Implicit?",
+      titleMy: "စီစစ်ကြမည် - Explicit လား Implicit လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Explicit (Directly Stated)",
+          "Implicit (Must Be Inferred)",
+        ],
+        bucketsMy: [
+          "Explicit (တိုက်ရိုက်ဖော်ပြ)",
+          "Implicit (Infer ပြုလုပ်ရမည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w1-sort-1",
+            labelEn: "\"The fire started at 3pm, according to the report.\"",
+            labelMy:
+                "\"မီးလောင်မှုသည် အစီရင်ခံစာအရ ညနေ ၃ နာရီတွင် စတင်ခဲ့သည်။\"",
+            correctBucketEn: "Explicit (Directly Stated)",
+            correctBucketMy: "Explicit (တိုက်ရိုက်ဖော်ပြ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w1-sort-2",
+            labelEn:
+                "\"He glanced at the door every few minutes, unable to sit still.\"",
+            labelMy:
+                "\"သူသည် တည်ငြိမ်စွာ ထိုင်၍ မနေနိုင်ဘဲ တံခါးကို မိနစ်အနည်းငယ်တိုင်း ကြည့်လိုက်သည်။\"",
+            correctBucketEn: "Implicit (Must Be Inferred)",
+            correctBucketMy: "Implicit (Infer ပြုလုပ်ရမည်)",
+          ),
+          SortingItem(
+            id: "igcseeng-w1-sort-3",
+            labelEn: "\"The museum opens at 9am and closes at 5pm.\"",
+            labelMy:
+                "\"ပြတိုက်သည် နံနက် ၉ နာရီတွင် ဖွင့်ပြီး ညနေ ၅ နာရီတွင် ပိတ်သည်။\"",
+            correctBucketEn: "Explicit (Directly Stated)",
+            correctBucketMy: "Explicit (တိုက်ရိုက်ဖော်ပြ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w1-sort-4",
+            labelEn:
+                "\"She laughed too loudly at the joke, then quickly looked away.\"",
+            labelMy:
+                "\"သူမသည် ဟာသကို အသံကျယ်လွန်းစွာ ရယ်ပြီးနောက် လျင်မြန်စွာ မျက်နှာလွှဲလိုက်သည်။\"",
+            correctBucketEn: "Implicit (Must Be Inferred)",
+            correctBucketMy: "Implicit (Infer ပြုလုပ်ရမည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's First Inference Exercise",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ပထမဆုံး Inference လေ့ကျင့်ခန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's First Inference Exercise",
+        titleMy: "နေချည်၏ ပထမဆုံး Inference လေ့ကျင့်ခန်း",
+        passageEn:
+            "Ko Thura placed a single paragraph on the table in front of Nay Chi. It described an old man sitting alone on a park bench, a folded newspaper untouched beside him, his eyes fixed on the empty swings across the path. Nay Chi read it twice and reported, correctly, that the man was sitting on a bench near some swings. Ko Thura asked her to read it a third time, more slowly, and this time notice what the passage did not say directly.\n\nNay Chi paused. The newspaper was folded and untouched -- he had brought it to read but hadn't opened it. His eyes were fixed on the swings, not on anything nearby. Slowly, she began to piece together an inference: perhaps he was remembering something, watching the empty swings the way someone might watch a place tied to a memory, rather than actually reading his paper. Ko Thura nodded, explaining that in IGCSE Paper 1, this exact skill -- noticing a small, specific detail and reasoning carefully from it, rather than guessing wildly -- separated strong answers from weak ones.\n\nHe reminded her of the golden rule: every inference needed a piece of textual evidence directly underneath it. An examiner would never award marks for \"the man is sad\" alone; but \"the man is likely sad or nostalgic, as suggested by his untouched newspaper and fixed stare at the empty swings\" earned full marks, because it named the specific evidence the inference was built on. Nay Chi wrote this rule at the top of her notebook: infer from evidence, and always show your working, just as she had learned to show her working in mathematics.",
+        passageMy:
+            "ကိုသူရသည် နေချည်ရှေ့တွင်ရှိသော စားပွဲပေါ်တွင် စာပိုဒ်တစ်ပိုဒ်ကို တင်ခဲ့သည်။ ၎င်းက အသက်ကြီးသော အဖိုးအိုတစ်ဦး ဥယျာဉ်ခုံတစ်ခုပေါ်တွင် တစ်ယောက်တည်း ထိုင်နေသည်ကို ဖော်ပြခဲ့ပြီး သူ့ဘေးတွင် ခေါက်ထားသော သတင်းစာတစ်စောင် မထိတွေ့ဘဲ ရှိနေကာ သူ၏ မျက်လုံးများသည် လမ်းတစ်ဖက်ရှိ လစ်လွတ်နေသော လွင့်စင်များအပေါ် ငုံ့ကြည့်နေသည်ဟု ဖော်ပြခဲ့သည်။ နေချည်သည် ၎င်းကို နှစ်ကြိမ်ဖတ်ပြီး အဖိုးအိုသည် လွင့်စင်များနားရှိ ဥယျာဉ်ခုံတစ်ခုပေါ် ထိုင်နေသည်ဟု မှန်ကန်စွာ တင်ပြခဲ့သည်။ ကိုသူရသည် သူမကို ဤအကြိမ်တွင် ပို၍ ဖြည်းဖြည်းချင်း၊ စာပိုဒ်က တိုက်ရိုက် မဖော်ပြထားသော အရာကို သတိပြု၍ တတိယအကြိမ် ဖတ်ရန် တောင်းဆိုခဲ့သည်။\n\nနေချည်သည် ခေတ္တရပ်နားခဲ့သည်။ သတင်းစာသည် ခေါက်ထားပြီး ထိတွေ့ခြင်း မရှိခဲ့ပါ -- သူသည် ၎င်းကို ဖတ်ရန် ယူဆောင်လာခဲ့သော်လည်း ဖွင့်ခြင်း မပြုခဲ့ပါ။ သူ၏ မျက်လုံးများသည် အနီးရှိ မည်သည့်အရာကိုမျှ မကြည့်ဘဲ လွင့်စင်များအပေါ် ငုံ့ကြည့်နေခဲ့သည်။ ဖြည်းဖြည်းချင်း သူမသည် Inference တစ်ခုကို စတင် စုစည်းလာခဲ့သည် - သူသည် တစ်စုံတစ်ခုကို သတိရနေခြင်း ဖြစ်ကောင်းဖြစ်နိုင်ပြီး၊ သူသည် အမှန်တကယ် သတင်းစာဖတ်နေခြင်းထက် အမှတ်တရတစ်ခုနှင့် ဆက်နွယ်နေသော နေရာတစ်ခုကို လူတစ်ဦး ကြည့်ရှုသကဲ့သို့ လွင့်စင်တွေကို ကြည့်နေခြင်း ဖြစ်နိုင်သည်။ ကိုသူရသည် ခေါင်းညိတ်ကာ IGCSE Paper 1 တွင် ဤကျွမ်းကျင်မှု အတိအကျ -- အသေးစိတ်တစ်ခု တိကျစွာ သတိပြုမိပြီး ကျပန်း မမှန်းဆဘဲ ၎င်းမှ ဂရုတစိုက် ကျိုးကြောင်းဆင်ခြင်ခြင်း -- သည် အားကောင်းသော အဖြေများနှင့် အားနည်းသော အဖြေများကို ခွဲခြားပေးကြောင်း ရှင်းပြခဲ့သည်။\n\nသူသည် သူမကို ရွှေစည်းမျဉ်း တစ်ခုကို သတိပေးခဲ့သည် - Inference တိုင်းတွင် ၎င်း၏ အောက်တွင် တိုက်ရိုက် ရှိနေသော စာသားသက်သေအထောက်အထား တစ်ခု လိုအပ်သည်။ စစ်ဆေးသူတစ်ဦးသည် \"အဖိုးအိုသည် ဝမ်းနည်းနေသည်\" ဟူ၍သာ ရေးထားလျှင် ဘယ်တော့မှ အမှတ်ပေးမည် မဟုတ်ပါ၊ သို့သော် \"အဖိုးအိုသည် ၎င်း၏ မထိတွေ့သော သတင်းစာနှင့် လွင့်စင်များအပေါ် ငုံ့ကြည့်နေခြင်းက အကြံပြုသကဲ့သို့ ဝမ်းနည်း (သို့) အတိတ်ကို လွမ်းဆွတ်နေဖွယ်ရှိသည်\" ဟူသော အဖြေသည် Inference တည်ဆောက်ထားသော တိကျသော သက်သေအထောက်အထားကို အမည်တပ်ထားသောကြောင့် အမှတ်အပြည့် ရရှိခဲ့သည်။ နေချည်သည် ဤစည်းမျဉ်းကို သူမ၏ မှတ်စုစာအုပ်၏ ထိပ်ဆုံးတွင် ရေးခဲ့သည် - သက်သေအထောက်အထားမှ Infer ပြုလုပ်ပါ၊ သင်္ချာတွင် Working ပြသရသကဲ့သို့ Working ကို အမြဲ ပြပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what detail did Nay Chi initially miss on her first two readings?",
+            questionMy:
+                "ပထမနှစ်ကြိမ် ဖတ်ရှုစဉ် နေချည် အစပိုင်းတွင် လွတ်ကျွတ်သွားခဲ့သော အသေးစိတ်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the newspaper was folded and untouched, and his eyes were fixed on the empty swings",
+              "That the man was wearing a red hat",
+              "That the bench was painted green",
+              "That it was raining that day",
+            ],
+            optionsMy: [
+              "သတင်းစာသည် ခေါက်ထားပြီး ထိတွေ့ခြင်း မရှိခဲ့ကြောင်းနှင့် သူ၏ မျက်လုံးများသည် လစ်လွတ်နေသော လွင့်စင်များအပေါ် ငုံ့ကြည့်နေကြောင်း",
+              "အဖိုးအိုသည် ဦးထုပ် အနီရောင် ဆောင်းထားကြောင်း",
+              "ဥယျာဉ်ခုံသည် အစိမ်းရောင် ပန်းချီဆွဲထားကြောင်း",
+              "ထိုနေ့က မိုးရွာနေကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's opening about her third, slower reading.",
+            ],
+            hintsMy: [
+              "တတိယအကြိမ် ဖြည်းဖြည်းချင်း ဖတ်ရှုမှုအကြောင်း ဒုတိယစာပိုဒ်၏ အစကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Thura say separated strong Paper 1 answers from weak ones?",
+            questionMy:
+                "Paper 1 ၏ အားကောင်းသော အဖြေများနှင့် အားနည်းသော အဖြေများကို ခွဲခြားပေးသည်ဟု ကိုသူရ ဘာဟု ဆိုခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Noticing a small, specific detail and reasoning carefully from it, not guessing wildly",
+              "Writing the longest possible answer",
+              "Copying the passage word for word",
+              "Avoiding all quotations entirely",
+            ],
+            optionsMy: [
+              "အသေးစိတ်တစ်ခု တိကျစွာ သတိပြုမိပြီး ကျပန်း မမှန်းဆဘဲ ၎င်းမှ ဂရုတစိုက် ကျိုးကြောင်းဆင်ခြင်ခြင်း",
+              "ရနိုင်သမျှ အရှည်ဆုံး အဖြေ ရေးသားခြင်း",
+              "စာပိုဒ်ကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+              "ကိုးကားချက်များကို လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence starting \"Ko Thura nodded, explaining...\"",
+            ],
+            hintsMy: [
+              "\"ကိုသူရသည် ခေါင်းညိတ်ကာ...ရှင်းပြခဲ့သည်\" ဟု စတင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why would an answer of \"the man is sad\" alone never earn full marks?",
+            questionMy:
+                "\"အဖိုးအိုသည် ဝမ်းနည်းနေသည်\" ဟူသော အဖြေတစ်ခုတည်းသည် အဘယ်ကြောင့် အမှတ်အပြည့် ဘယ်တော့မှ မရနိုင်ကြောင်း စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Because it does not name the specific textual evidence the inference is built on",
+              "Because sadness is not a real emotion",
+              "Because it is grammatically incorrect",
+              "Because it uses too many words",
+            ],
+            optionsMy: [
+              "Inference တည်ဆောက်ထားသော တိကျသော စာသားသက်သေအထောက်အထားကို အမည်မတပ်ထားသောကြောင့်",
+              "ဝမ်းနည်းမှုသည် အမှန်တကယ် ခံစားချက် မဟုတ်သောကြောင့်",
+              "သဒ္ဒါအရ မှားယွင်းနေသောကြောင့်",
+              "စကားလုံး များလွန်းအသုံးပြုထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the golden rule Ko Thura reminded her of."],
+            hintsMy: ["ကိုသူရ သတိပေးခဲ့သော ရွှေစည်းမျဉ်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Explicit and Implicit Meanings",
+      titleMy:
+          "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Explicit နှင့် Implicit အဓိပ္ပာယ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Explicit information is...",
+          questionMy: "Explicit အချက်အလက်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Directly stated in the text",
+            "Never written down",
+            "Always a lie",
+            "Only in the title",
+          ],
+          optionsMy: [
+            "စာသားထဲတွင် တိုက်ရိုက် ဖော်ပြထားခြင်း",
+            "ဘယ်တော့မှ မရေးထားခြင်း",
+            "အမြဲ လိမ်ညာခြင်း",
+            "ခေါင်းစဉ်တွင်သာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong inference must always be supported by...",
+          questionMy:
+              "အားကောင်းသော Inference တစ်ခုကို အမြဲ ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "Specific textual evidence",
+            "A personal guess",
+            "Nothing at all",
+            "The reader's mood",
+          ],
+          optionsMy: [
+            "တိကျသော စာသားသက်သေအထောက်အထား",
+            "ကိုယ်ပိုင် မှန်းဆချက်",
+            "မည်သည့်အရာမျှ",
+            "စာဖတ်သူ၏ စိတ်ခံစားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Locating key details quickly relies on...",
+          questionMy:
+              "အဓိက အသေးစိတ်များကို လျင်မြန်စွာ ရှာဖွေခြင်းသည် ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Skimming for keywords tied to the question",
+            "Reading the passage backwards",
+            "Ignoring the question",
+            "Memorising the whole passage first",
+          ],
+          optionsMy: [
+            "မေးခွန်းနှင့် ဆက်စပ်သော Keyword များကို လျင်မြန်စွာ ရှာဖွေခြင်း",
+            "စာပိုဒ်ကို နောက်ပြန်လှည့်၍ ဖတ်ခြင်း",
+            "မေးခွန်းကို လျစ်လျူရှုခြင်း",
+            "စာပိုဒ်တစ်ခုလုံးကို ပထမဆုံး အလွတ်ကျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek2 = CourseWeekDef(
+  id: "course-igcse-eng-w2",
+  weekNumber: 2,
+  titleEn: "Writer's Effect Analysis",
+  titleMy: "စာရေးဆရာ၏ ဖန်တီးမှု သက်ရောက်မှုကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w2-d1",
+      dayNumber: 1,
+      titleEn: "Analyzing Imagery and Lexical Choices",
+      titleMy: "Imagery နှင့် ဝေါဟာရ ရွေးချယ်မှုများ ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A \"writer's effect\" question asks the candidate to explain...",
+          questionMy:
+              "\"Writer's Effect\" မေးခွန်းတစ်ခုသည် ဖြေဆိုသူအား ...ရှင်းပြရန် တောင်းဆိုသည်",
+          optionsEn: [
+            "How specific words and phrases create an effect on the reader",
+            "The author's date of birth",
+            "The exact page number of a quotation",
+            "Whether the text is fiction or non-fiction",
+          ],
+          optionsMy: [
+            "တိကျသော စကားလုံးများနှင့် အသုံးအနှုန်းများသည် စာဖတ်သူအပေါ် မည်သို့ သက်ရောက်မှု ဖန်တီးကြောင်း",
+            "စာရေးသူ၏ မွေးနေ့",
+            "ကိုးကားချက်၏ စာမျက်နှာအရေအတွက်",
+            "စာသားသည် Fiction လား Non-Fiction လား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The wind clawed at the windows.\" The verb \"clawed\" creates an effect of...",
+          questionMy:
+              "\"လေသည် ပြတင်းပေါက်များကို ဆွဲဖြဲခဲ့သည်။\" \"ဆွဲဖြဲ\" ဟူသော ကြိယာသည် ...၏ သက်ရောက်မှုတစ်ခု ဖန်တီးသည်",
+          optionsEn: [
+            "Violent, animalistic aggression, as if the wind were a wild creature",
+            "Gentle, calm relaxation",
+            "Bright, cheerful sunshine",
+            "Complete silence",
+          ],
+          optionsMy: [
+            "လေသည် တောရိုင်းသတ္တဝါတစ်ကောင်ဖြစ်သကဲ့သို့ ရက်စက်ကြမ်းကြုတ်သော တိရစ္ဆာန်ဆန်မှု",
+            "နူးညံ့သိမ်မွေ့ပြီး တည်ငြိမ်သော အပန်းဖြေမှု",
+            "တောက်ပ၊ ရွှင်လန်းသော နေရောင်ခြည်",
+            "လုံးဝ တိတ်ဆိတ်မှု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Claw\" is normally what a predator does -- personification links the wind to a violent animal.",
+          ],
+          hintsMy: [
+            "\"Claw\" ဆိုသည်မှာ ပုံမှန်အားဖြင့် သားရဲတိရစ္ဆာန်တစ်ကောင် ပြုလုပ်သော အမူအရာဖြစ်သည် -- Personification က လေကို ရက်စက်သော တိရစ္ဆာန်တစ်ကောင်နှင့် ဆက်စပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A high-scoring writer's effect answer must always explain...",
+          questionMy:
+              "အမှတ်မြင့်မားသော Writer's Effect အဖြေတစ်ခုသည် အမြဲ ...ရှင်းပြရမည်",
+          optionsEn: [
+            "Why the specific word choice creates that particular effect, not just naming a technique",
+            "The technique's name only, with no explanation",
+            "A synonym for the quoted word",
+            "How many syllables the word has",
+          ],
+          optionsMy: [
+            "နည်းပညာအမည်ကိုသာ မဟုတ်ဘဲ တိကျသော စကားလုံး ရွေးချယ်မှုသည် အဘယ်ကြောင့် ထိုအထူးသက်ရောက်မှုကို ဖန်တီးကြောင်း",
+            "ရှင်းပြချက် လုံးဝမပါဘဲ နည်းပညာအမည်ကိုသာ",
+            "ကိုးကားထားသော စကားလုံး၏ အဓိပ္ပာယ်တူစကား",
+            "စကားလုံးတွင် syllable မည်မျှ ပါဝင်သနည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The old house crouched at the end of the lane, watching.\" This technique is called...",
+          questionMy:
+              "\"အိမ်ဟောင်းသည် လမ်းငယ်၏ အဆုံးတွင် ငုံ့ကာ ကြည့်နေသည်။\" ဤနည်းပညာကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Personification",
+            "Alliteration",
+            "Onomatopoeia",
+            "Rhyme",
+          ],
+          optionsMy: [
+            "Personification",
+            "Alliteration",
+            "Onomatopoeia",
+            "Rhyme",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Giving a house human/animal actions like crouching and watching is personification.",
+          ],
+          hintsMy: [
+            "အိမ်တစ်လုံးကို ငုံ့ခြင်းနှင့် ကြည့်ခြင်းကဲ့သို့ လူသား/တိရစ္ဆာန် အမူအရာများ ပေးခြင်းသည် Personification ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Short, fragmented sentences (\"He ran. Stumbled. Fell.\") typically create an effect of...",
+          questionMy:
+              "တို၍ ကွဲထွက်နေသော ဝါကျများ (\"သူ ပြေးသည်။ ခြေချော်သည်။ လဲကျသည်။\") သည် ပုံမှန်အားဖြင့် ...၏ သက်ရောက်မှု ဖန်တီးသည်",
+          optionsEn: [
+            "Urgency, panic, or rapid, fragmented action",
+            "Slow, peaceful relaxation",
+            "Formal, academic distance",
+            "Comedy and lightheartedness",
+          ],
+          optionsMy: [
+            "အရေးတကြီး၊ ထိတ်လန့်မှု (သို့) လျင်မြန်၍ ကွဲထွက်နေသော လှုပ်ရှားမှု",
+            "နှေးကွေးပြီး ငြိမ်းချမ်းသော အပန်းဖြေမှု",
+            "တရားဝင်ပြီး ပညာရပ်ဆိုင်ရာ ဝေးကွာမှု",
+            "ဟာသနှင့် ပေါ့ပါးမှု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Literary Devices",
+      titleMy: "တွဲစပ်ကြမည် - စာပေ နည်းပညာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w2-dm-1",
+          termEn: "Personification",
+          termMy: "Personification",
+          matchEn: "Giving human qualities or actions to a non-human thing",
+          matchMy:
+              "လူသားမဟုတ်သော အရာတစ်ခုအား လူ့ဂုဏ်ရည် (သို့) အမူအရာများ ပေးအပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w2-dm-2",
+          termEn: "Alliteration",
+          termMy: "Alliteration",
+          matchEn:
+              "Repetition of the same consonant sound at the start of nearby words",
+          matchMy:
+              "နီးကပ်နေသော စကားလုံးများ၏ အစတွင် တူညီသော ဗျည်းသံကို ထပ်ခါသုံးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w2-dm-3",
+          termEn: "Onomatopoeia",
+          termMy: "Onomatopoeia",
+          matchEn: "A word that phonetically imitates the sound it describes",
+          matchMy: "၎င်းဖော်ပြသော အသံကို အသံထွက်အားဖြင့် အတုယူထားသော စကားလုံး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w2-dm-4",
+          termEn: "Sensory imagery",
+          termMy: "Sensory Imagery",
+          matchEn:
+              "Language appealing to sight, sound, touch, taste, or smell to create a vivid picture",
+          matchMy:
+              "အသက်ဝင်သော ပုံရိပ်တစ်ခု ဖန်တီးရန် အမြင်၊ အကြား၊ အထိအတွေ့၊ အရသာ (သို့) အနံ့ကို ခေါ်ဆိုသော ဘာသာစကား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w2-dm-5",
+          termEn: "Connotation",
+          termMy: "Connotation",
+          matchEn:
+              "The emotional association a word carries beyond its dictionary definition",
+          matchMy:
+              "စကားလုံးတစ်ခု၏ အဘိဓာန်အဓိပ္ပာယ်ထက်ပို၍ သယ်ဆောင်လာသော ခံစားချက်ဆိုင်ရာ ဆက်နွယ်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: What Effect Does It Create?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် သက်ရောက်မှု ဖန်တီးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Creates Tension/Fear", "Creates Calm/Peace"],
+        bucketsMy: [
+          "ရေးထားသော Tension/ကြောက်ရွံ့မှု",
+          "ငြိမ်းချမ်းမှု/တည်ငြိမ်မှု ဖန်တီးသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w2-sort-1",
+            labelEn:
+                "\"Shadows crept along the walls as the door creaked open.\"",
+            labelMy:
+                "\"တံခါးသည် ကျစ်ကျစ်ညံညံ ဖွင့်လာစဉ် အရိပ်များသည် နံရံများတစ်လျှောက် တွားနေခဲ့သည်။\"",
+            correctBucketEn: "Creates Tension/Fear",
+            correctBucketMy: "ရေးထားသော Tension/ကြောက်ရွံ့မှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w2-sort-2",
+            labelEn:
+                "\"Sunlight drifted softly through the curtains onto the sleeping cat.\"",
+            labelMy:
+                "\"နေရောင်ခြည်သည် လိုက်ကာများကို ဖြတ်၍ အိပ်နေသော ကြောင်ငယ်အပေါ် နူးညံ့စွာ ရောက်ရှိခဲ့သည်။\"",
+            correctBucketEn: "Creates Calm/Peace",
+            correctBucketMy: "ငြိမ်းချမ်းမှု/တည်ငြိမ်မှု ဖန်တီးသည်",
+          ),
+          SortingItem(
+            id: "igcseeng-w2-sort-3",
+            labelEn: "\"A sharp crack echoed from the darkened forest.\"",
+            labelMy:
+                "\"ခက်ခဲသော အသံတစ်ခုသည် မှောင်နေသော တောအုပ်ထဲမှ ပဲ့တင်ထပ်ခဲ့သည်။\"",
+            correctBucketEn: "Creates Tension/Fear",
+            correctBucketMy: "ရေးထားသော Tension/ကြောက်ရွံ့မှု",
+          ),
+          SortingItem(
+            id: "igcseeng-w2-sort-4",
+            labelEn: "\"The lake lay still, mirroring the pale evening sky.\"",
+            labelMy:
+                "\"ရေကန်သည် ဖျော့ဖျော့ ညနေခင်း မိုးကောင်းကင်ကို ရောင်ပြန်ဟပ်လျက် တည်ငြိမ်စွာ ရှိနေသည်။\"",
+            correctBucketEn: "Creates Calm/Peace",
+            correctBucketMy: "ငြိမ်းချမ်းမှု/တည်ငြိမ်မှု ဖန်တီးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Writer's Effect Draft",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Writer's Effect အဖြေ မူကြမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Writer's Effect Draft",
+        titleMy: "နေချည်၏ Writer's Effect အဖြေ မူကြမ်း",
+        passageEn:
+            "For homework, Nay Chi had to explain the effect of the phrase \"the market roared awake\" from a practice passage describing a busy morning bazaar. Her first draft read simply: \"This uses personification, which creates an effect on the reader.\" Ko Thura circled the sentence in red and asked her a single question: what effect, exactly, and why?\n\nNay Chi thought harder this time. \"Roared\" was a word usually used for a lion or a crowd, not a market -- comparing the market to a roaring, waking creature suggested sudden, overwhelming noise and energy, as if the whole place had been sleeping and burst violently to life all at once. She rewrote her answer: \"The verb 'roared' personifies the market as a waking animal, creating an effect of sudden, overwhelming noise and energy that mirrors how quickly the quiet morning transforms into a chaotic, bustling scene.\"\n\nKo Thura smiled at the second draft. He explained that the difference between the two answers was the difference between naming a technique and actually analysing it. Examiners, he said, could spot a memorised technique-name from a mile away; what earned marks was proving genuine understanding by connecting the specific word to its precise, explained effect. Nay Chi copied the improved sentence onto a flashcard: name it, quote it, explain it -- never stop at naming it alone.",
+        passageMy:
+            "အိမ်စာအတွက် နေချည်သည် လူစည်ကားသော နံနက်စျေးတစ်ခု ဖော်ပြသော လေ့ကျင့်ခန်း စာပိုဒ်တစ်ခုမှ \"စျေးသည် အော်ဟစ်၍ နိုးထလာခဲ့သည်\" ဟူသော အသုံးအနှုန်း၏ သက်ရောက်မှုကို ရှင်းပြရန် ရှိခဲ့သည်။ သူမ၏ ပထမမူကြမ်းသည် ရိုးရိုးရှင်းရှင်း ဤသို့ ဖော်ပြခဲ့သည် - \"ဤသည် Personification ကို အသုံးပြုထားပြီး၊ စာဖတ်သူအပေါ် သက်ရောက်မှု ဖန်တီးသည်။\" ကိုသူရသည် ထိုစာကြောင်းကို အနီရောင်ဖြင့် ဝိုင်းပြီး မည်သည့် သက်ရောက်မှု အတိအကျနည်း၊ အဘယ်ကြောင့်နည်း ဟု မေးခွန်းတစ်ခုတည်း မေးခဲ့သည်။\n\nနေချည်သည် ဤအကြိမ်တွင် ပို၍ စဉ်းစားခဲ့သည်။ \"အော်ဟစ်သည်\" ဆိုသည်မှာ ပုံမှန်အားဖြင့် ခြင်္သေ့ (သို့) လူအစုအဝေးတစ်ခုအတွက် သုံးလေ့ရှိသော စကားလုံးဖြစ်ပြီး စျေးကို အော်ဟစ်၍ နိုးထလာသော သတ္တဝါတစ်ကောင်နှင့် နှိုင်းယှဉ်ခြင်းသည် တစ်နေရာလုံးသည် အိပ်နေရာမှ တစ်ပြိုင်နက် ပြင်းထန်စွာ အသက်ဝင်လာသကဲ့သို့ ရုတ်တရက် လွှမ်းမိုးထားသော ဆူညံသံနှင့် စွမ်းအင်ကို အကြံပြုခဲ့သည်။ သူမသည် သူမ၏ အဖြေကို ပြန်ရေးခဲ့သည် - \"ကြိယာ 'အော်ဟစ်သည်' သည် စျေးကို နိုးထလာသော တိရစ္ဆာန်တစ်ကောင်အဖြစ် Personify ပြုလုပ်ထားပြီး၊ တိတ်ဆိတ်သော နံနက်ခင်းသည် ရှုပ်ထွေးသော၊ လူစည်ကားသော အခင်းအကျင်းတစ်ခုအဖြစ် မည်မျှ လျင်မြန်စွာ ပြောင်းလဲသွားကြောင်း ရောင်ပြန်ဟပ်သော ရုတ်တရက်၊ လွှမ်းမိုးထားသော ဆူညံသံနှင့် စွမ်းအင်၏ သက်ရောက်မှုကို ဖန်တီးသည်။\"\n\nကိုသူရသည် ဒုတိယ မူကြမ်းကို ကြည့်ကာ ပြုံးခဲ့သည်။ သူသည် အဖြေနှစ်ခု၏ ကွာခြားချက်မှာ နည်းပညာတစ်ခုကို အမည်တပ်ခြင်းနှင့် ၎င်းကို အမှန်တကယ် ခွဲခြမ်းစိတ်ဖြာခြင်းအကြား ကွာခြားချက်ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။ စစ်ဆေးသူများသည် အလွတ်ကျက်ထားသော နည်းပညာအမည်ကို အဝေးမှပင် မြင်နိုင်ကြောင်း၊ အမှတ်ရရှိစေသည်မှာ တိကျသော စကားလုံးကို ၎င်း၏ တိကျစွာ ရှင်းပြထားသော သက်ရောက်မှုနှင့် ချိတ်ဆက်ခြင်းဖြင့် စစ်မှန်သော နားလည်မှုကို သက်သေပြခြင်း ဖြစ်ကြောင်း သူ ပြောခဲ့သည်။ နေချည်သည် တိုးတက်လာသော စာကြောင်းကို Flashcard တစ်ခုပေါ်တွင် ကူးယူခဲ့သည် - အမည်တပ်ပါ၊ ကိုးကားပါ၊ ရှင်းပြပါ -- အမည်တပ်ရုံနှင့် ဘယ်တော့မှ မရပ်နားပါနှင့်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what question did Ko Thura ask about Nay Chi's first draft?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းအကြောင်း ကိုသူရ မည်သည့် မေးခွန်းကို မေးခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "What effect, exactly, and why",
+              "What is the author's full name",
+              "How many words are in the passage",
+              "What time was the homework due",
+            ],
+            optionsMy: [
+              "မည်သည့် သက်ရောက်မှု အတိအကျနှင့် အဘယ်ကြောင့်",
+              "စာရေးသူ၏ အမည်အပြည့်အစုံ",
+              "စာပိုဒ်တွင် စကားလုံး မည်မျှ ပါဝင်သနည်း",
+              "အိမ်စာ ဘယ်အချိန် သတ်မှတ်ထားသနည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Nay Chi say \"roared\" personifies the market as a waking animal?",
+            questionMy:
+                "\"အော်ဟစ်သည်\" သည် စျေးကို နိုးထလာသော တိရစ္ဆာန်တစ်ကောင်အဖြစ် Personify ပြုလုပ်ကြောင်း နေချည် အဘယ်ကြောင့် ဆိုခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "\"Roared\" is usually used for a lion or crowd, suggesting sudden, overwhelming noise and energy",
+              "Because markets are always loud in every text",
+              "Because the word appears in the dictionary",
+              "Because her teacher told her to write that",
+            ],
+            optionsMy: [
+              "\"အော်ဟစ်သည်\" ကို ပုံမှန်အားဖြင့် ခြင်္သေ့ (သို့) လူအစုအဝေးအတွက် သုံးလေ့ရှိပြီး ရုတ်တရက်၊ လွှမ်းမိုးထားသော ဆူညံသံနှင့် စွမ်းအင်ကို အကြံပြုသောကြောင့်",
+              "စျေးများသည် စာသားတိုင်းတွင် အမြဲ ဆူညံသောကြောင့်",
+              "စကားလုံးသည် အဘိဓာန်တွင် ပေါ်လာသောကြောင့်",
+              "ဆရာမက သူမကို ထိုသို့ ရေးရန် ပြောသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what \"roared\" is usually used for.",
+            ],
+            hintsMy: [
+              "\"အော်ဟစ်သည်\" ကို ပုံမှန်အားဖြင့် ဘာအတွက် သုံးလေ့ရှိကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what three-step process did Nay Chi write on her flashcard?",
+            questionMy:
+                "နေချည် သူမ၏ Flashcard တွင် ရေးခဲ့သော အဆင့်သုံးဆင့် လုပ်ငန်းစဉ်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Name it, quote it, explain it",
+              "Guess it, skip it, forget it",
+              "Copy it, paste it, submit it",
+              "Read it once and move on",
+            ],
+            optionsMy: [
+              "အမည်တပ်ပါ၊ ကိုးကားပါ၊ ရှင်းပြပါ",
+              "မှန်းဆပါ၊ ကျော်ပါ၊ မေ့ပါ",
+              "ကူးယူပါ၊ ကူးထည့်ပါ၊ တင်သွင်းပါ",
+              "တစ်ကြိမ်ဖတ်ပြီး ရှေ့ဆက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Writer's Effect",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Writer's Effect",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A writer's effect answer must always explain...",
+          questionMy: "Writer's Effect အဖြေတစ်ခုသည် အမြဲ ...ရှင်းပြရမည်",
+          optionsEn: [
+            "Why the word choice creates a specific effect",
+            "Only the technique's name",
+            "The author's biography",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "စကားလုံး ရွေးချယ်မှုသည် အဘယ်ကြောင့် တိကျသော သက်ရောက်မှု ဖန်တီးကြောင်း",
+            "နည်းပညာအမည်ကိုသာ",
+            "စာရေးသူ၏ ဘဝရာဇဝင်",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Personification gives...",
+          questionMy: "Personification သည်...",
+          optionsEn: [
+            "Human qualities to a non-human thing",
+            "A rhyme scheme to a poem",
+            "A number to a paragraph",
+            "A title to a book",
+          ],
+          optionsMy: [
+            "လူသားမဟုတ်သော အရာတစ်ခုအား လူ့ဂုဏ်ရည်များ ပေးအပ်ခြင်း",
+            "ကဗျာတစ်ပုဒ်အား Rhyme Scheme တစ်ခု ပေးအပ်ခြင်း",
+            "စာပိုဒ်တစ်ခုအား နံပါတ်တစ်ခု ပေးအပ်ခြင်း",
+            "စာအုပ်တစ်အုပ်အား ခေါင်းစဉ်တစ်ခု ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The three-step process for a strong writer's effect answer is...",
+          questionMy:
+              "အားကောင်းသော Writer's Effect အဖြေတစ်ခုအတွက် အဆင့်သုံးဆင့် လုပ်ငန်းစဉ်မှာ...",
+          optionsEn: [
+            "Name it, quote it, explain it",
+            "Skip it, guess it, forget it",
+            "Copy, paste, submit",
+            "Read once and stop",
+          ],
+          optionsMy: [
+            "အမည်တပ်ပါ၊ ကိုးကားပါ၊ ရှင်းပြပါ",
+            "ကျော်ပါ၊ မှန်းဆပါ၊ မေ့ပါ",
+            "ကူးယူပါ၊ ကူးထည့်ပါ၊ တင်သွင်းပါ",
+            "တစ်ကြိမ်ဖတ်ပြီး ရပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek3 = CourseWeekDef(
+  id: "course-igcse-eng-w3",
+  weekNumber: 3,
+  titleEn: "Advanced Summary Writing",
+  titleMy: "အဆင့်မြင့် အကျဉ်းချုပ် ရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w3-d1",
+      dayNumber: 1,
+      titleEn: "Concise Extraction and Paraphrasing",
+      titleMy: "တိကျစွာ ထုတ်နုတ်ခြင်းနှင့် Paraphrase ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A good IGCSE summary should...",
+          questionMy: "ကောင်းမွန်သော IGCSE အကျဉ်းချုပ်တစ်ခုသည်...",
+          optionsEn: [
+            "Condense only the relevant points into the writer's own words within the word limit",
+            "Copy the passage word for word",
+            "Add the writer's personal opinion",
+            "Ignore the word limit entirely",
+          ],
+          optionsMy: [
+            "စကားလုံး ကန့်သတ်ချက်အတွင်း သက်ဆိုင်ရာ အချက်များကိုသာ ရေးသားသူ၏ ကိုယ်ပိုင်စကားလုံးများဖြင့် ချုံ့ချရမည်",
+            "စာပိုဒ်ကို စကားလုံးအတိုင်း ကူးယူရမည်",
+            "ရေးသားသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက် ထည့်ရမည်",
+            "စကားလုံး ကန့်သတ်ချက်ကို လုံးဝ လျစ်လျူရှုရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Paraphrasing means...",
+          questionMy: "Paraphrase ပြုလုပ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Rewording an idea in your own language while keeping the same meaning",
+            "Deleting the idea entirely",
+            "Translating into a different language",
+            "Copying the exact same words",
+          ],
+          optionsMy: [
+            "တူညီသော အဓိပ္ပာယ်ကို ထိန်းထားရင်း အယူအဆတစ်ခုကို ကိုယ်ပိုင်ဘာသာစကားဖြင့် ပြန်ရေးခြင်း",
+            "အယူအဆကို လုံးဝ ဖျက်ပစ်ခြင်း",
+            "ဘာသာစကားတစ်ခု ကွဲပြားသို့ ဘာသာပြန်ခြင်း",
+            "စကားလုံးတိုင်တိုင် တူညီစွာ ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a summary task has a 120-word limit, exceeding it significantly will typically result in...",
+          questionMy:
+              "အကျဉ်းချုပ်လုပ်ငန်းတစ်ခုတွင် စကားလုံး ၁၂၀ ကန့်သတ်ချက် ရှိပါက ၎င်းကို သိသိသာသာ ကျော်လွန်ပါက ပုံမှန်အားဖြင့် ...ဖြစ်တတ်သည်",
+          optionsEn: [
+            "Words beyond the limit not being credited by the examiner",
+            "An automatic full mark bonus",
+            "The passage being reprinted",
+            "No consequence at all",
+          ],
+          optionsMy: [
+            "ကန့်သတ်ချက်ထက် ကျော်လွန်သော စကားလုံးများကို စစ်ဆေးသူက အမှတ်မပေးခြင်း",
+            "အလိုအလျောက် အပြည့်အစုံ ဆုကြေး ရရှိခြင်း",
+            "စာပိုဒ်ကို ပြန်လည်ပုံနှိပ်ခြင်း",
+            "မည်သည့် အကျိုးသက်ရောက်မှုမျှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The most efficient first step in summary writing is to...",
+          questionMy:
+              "အကျဉ်းချုပ် ရေးသားခြင်းတွင် အထိရောက်ဆုံး ပထမ အဆင့်မှာ...",
+          optionsEn: [
+            "Underline or highlight only the points directly relevant to the summary's focus",
+            "Write the summary before reading the passage",
+            "Copy the entire passage first",
+            "Ignore the question's specific focus",
+          ],
+          optionsMy: [
+            "အကျဉ်းချုပ်၏ အာရုံစိုက်မှုနှင့် တိုက်ရိုက် သက်ဆိုင်သော အချက်များကိုသာ မျဉ်းသားခြင်း (သို့) Highlight ပြုလုပ်ခြင်း",
+            "စာပိုဒ်ကို မဖတ်မီ အကျဉ်းချုပ်ကို ရေးခြင်း",
+            "စာပိုဒ်တစ်ခုလုံးကို ဦးစွာ ကူးယူခြင်း",
+            "မေးခွန်း၏ တိကျသော အာရုံစိုက်မှုကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A summary that lists disconnected points without any linking words is considered...",
+          questionMy:
+              "ချိတ်ဆက်စကားလုံးမပါဘဲ မသက်ဆိုင်သော အချက်များကို စာရင်းပြုစုထားသော အကျဉ်းချုပ်တစ်ခုကို ...ဟု သတ်မှတ်သည်",
+          optionsEn: [
+            "Weaker, because it lacks cohesion and flow",
+            "The strongest possible answer",
+            "Automatically disqualified",
+            "The only acceptable format",
+          ],
+          optionsMy: [
+            "ချိတ်ဆက်မှုနှင့် စီးဆင်းမှု မရှိသောကြောင့် ပို၍ အားနည်းသော",
+            "ဖြစ်နိုင်သမျှ အားအကောင်းဆုံး အဖြေ",
+            "အလိုအလျောက် ဆုံးရှုံးသော",
+            "လက်ခံနိုင်ဆုံး ပုံစံတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Summary Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အကျဉ်းချုပ် ရေးသား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w3-dm-1",
+          termEn: "Paraphrase",
+          termMy: "Paraphrase",
+          matchEn:
+              "Restating an idea in different words while preserving the original meaning",
+          matchMy:
+              "မူရင်းအဓိပ္ပာယ်ကို ထိန်းသိမ်းထားရင်း အယူအဆတစ်ခုကို စကားလုံးကွဲပြားစွာ ပြန်ဆိုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w3-dm-2",
+          termEn: "Condense",
+          termMy: "Condense",
+          matchEn: "To shorten a text while retaining its essential meaning",
+          matchMy:
+              "စာသားတစ်ခု၏ မရှိမဖြစ် အဓိပ္ပာယ်ကို ထိန်းသိမ်းထားရင်း အတိုချုံ့ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w3-dm-3",
+          termEn: "Cohesion",
+          termMy: "Cohesion",
+          matchEn:
+              "Smooth logical connection between ideas using linking words and phrases",
+          matchMy:
+              "ချိတ်ဆက်စကားလုံးများနှင့် စကားစုများ အသုံးပြု၍ အယူအဆများကြား ချောမွေ့သော ယုတ္တိဆက်နွယ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w3-dm-4",
+          termEn: "Relevance",
+          termMy: "Relevance",
+          matchEn:
+              "How directly a point relates to the specific focus of the summary task",
+          matchMy:
+              "အချက်တစ်ခုသည် အကျဉ်းချုပ်လုပ်ငန်း၏ တိကျသော အာရုံစိုက်မှုနှင့် မည်မျှ တိုက်ရိုက် ဆက်စပ်သနည်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w3-dm-5",
+          termEn: "Word limit",
+          termMy: "Word Limit",
+          matchEn:
+              "The maximum number of words permitted for a written response",
+          matchMy:
+              "ရေးသားသည့် အဖြေတစ်ခုအတွက် ခွင့်ပြုထားသော အများဆုံး စကားလုံးအရေအတွက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Include or Exclude in a Summary?",
+      titleMy: "စီစစ်ကြမည် - အကျဉ်းချုပ်တွင် ထည့်မလား ဖယ်ထုတ်မလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Include (Relevant Fact)", "Exclude (Irrelevant Detail)"],
+        bucketsMy: [
+          "ထည့်သွင်းပါ (သက်ဆိုင်သော အချက်)",
+          "ဖယ်ထုတ်ပါ (မသက်ဆိုင်သော အသေးစိတ်)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w3-sort-1",
+            labelEn:
+                "The main cause of the factory closure, as stated in the passage",
+            labelMy:
+                "စာပိုဒ်တွင် ဖော်ပြထားသည့် စက်ရုံပိတ်ရသည့် အဓိကအကြောင်းရင်း",
+            correctBucketEn: "Include (Relevant Fact)",
+            correctBucketMy: "ထည့်သွင်းပါ (သက်ဆိုင်သော အချက်)",
+          ),
+          SortingItem(
+            id: "igcseeng-w3-sort-2",
+            labelEn:
+                "A minor descriptive detail about the colour of the factory gates",
+            labelMy: "စက်ရုံ တံခါးများ၏ အရောင်အကြောင်း သေးငယ်သော ဖော်ပြချက်",
+            correctBucketEn: "Exclude (Irrelevant Detail)",
+            correctBucketMy: "ဖယ်ထုတ်ပါ (မသက်ဆိုင်သော အသေးစိတ်)",
+          ),
+          SortingItem(
+            id: "igcseeng-w3-sort-3",
+            labelEn: "The number of workers affected by the closure",
+            labelMy: "ပိတ်သိမ်းခြင်းကြောင့် ထိခိုက်သော အလုပ်သမား အရေအတွက်",
+            correctBucketEn: "Include (Relevant Fact)",
+            correctBucketMy: "ထည့်သွင်းပါ (သက်ဆိုင်သော အချက်)",
+          ),
+          SortingItem(
+            id: "igcseeng-w3-sort-4",
+            labelEn: "An unrelated anecdote about the journalist's childhood",
+            labelMy: "သတင်းထောက်၏ ငယ်စဉ်ဘဝအကြောင်း မသက်ဆိုင်သော ဇာတ်လမ်းငယ်",
+            correctBucketEn: "Exclude (Irrelevant Detail)",
+            correctBucketMy: "ဖယ်ထုတ်ပါ (မသက်ဆိုင်သော အသေးစိတ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Summary Word-Count Battle",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ အကျဉ်းချုပ် စကားလုံးရေ တိုက်ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Summary Word-Count Battle",
+        titleMy: "နေချည်၏ အကျဉ်းချုပ် စကားလုံးရေ တိုက်ပွဲ",
+        passageEn:
+            "Nay Chi's first attempt at a 120-word summary about renewable energy solutions ran to 187 words. She had copied entire sentences from the passage, changing only a word here and there, and she had included a description of the solar panel's exact colour, which had nothing to do with the summary's focus on cost-effectiveness. Ko Thura counted her words aloud, watching her face fall with each number past 120.\n\nHe explained that summary writing was really a two-part skill: selection and compression. Selection meant ruthlessly identifying only the points relevant to the specific focus given -- in this case, cost-effectiveness, not colour or appearance. Compression meant rewording those selected points in her own language, often replacing a fifteen-word sentence with a five-word paraphrase that kept the same essential meaning. Copied phrases, he reminded her, earned no credit at all under IGCSE marking, no matter how relevant they were.\n\nNay Chi tried again. She crossed out the sentence about colour entirely, and turned \"the installation cost is offset within approximately seven years through reduced electricity bills\" into simply \"costs are recovered within seven years via lower bills.\" Her second draft came to exactly 118 words, and this time, every single point was something the examiner had actually asked for. She realised that a strong summary wasn't about writing less -- it was about writing only what mattered, said as efficiently as possible.",
+        passageMy:
+            "ပြန်ပြည့်ခံစွမ်းအင် ဖြေရှင်းနည်းများအကြောင်း စကားလုံး ၁၂၀ အကျဉ်းချုပ်တစ်ခုအတွက် နေချည်၏ ပထမ ကြိုးပမ်းမှုသည် စကားလုံး ၁၈၇ လုံးအထိ ရောက်ခဲ့သည်။ သူမသည် စာပိုဒ်မှ ဝါကျအပြည့်အစုံများကို ကူးယူထားပြီး၊ စကားလုံး တစ်ခုနှစ်ခုကိုသာ ပြောင်းလဲခဲ့ကာ၊ ကုန်ကျစရိတ် ထိရောက်မှုအပေါ် အကျဉ်းချုပ်၏ အာရုံစိုက်မှုနှင့် ဘာမျှ မသက်ဆိုင်သော နေရောင်ခြည် ဆဲလ်၏ အရောင် အတိအကျအကြောင်း ဖော်ပြချက်တစ်ခုကိုပါ ထည့်သွင်းခဲ့သည်။ ကိုသူရသည် သူမ၏ စကားလုံးများကို ကျယ်လောင်စွာ ရေတွက်ကာ ၁၂၀ ကျော်လာသော နံပါတ်တိုင်းနှင့်အတူ သူမ၏ မျက်နှာ ညှိုးငယ်လာသည်ကို ကြည့်နေခဲ့သည်။\n\nသူသည် အကျဉ်းချုပ် ရေးသားခြင်းသည် အမှန်တကယ် ကျွမ်းကျင်မှု နှစ်ပိုင်း ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - Selection နှင့် Compression။ Selection ဆိုသည်မှာ ပေးထားသော တိကျသော အာရုံစိုက်မှုနှင့် သက်ဆိုင်သော အချက်များကိုသာ ရက်စက်စွာ ခွဲခြားသတ်မှတ်ခြင်းဖြစ်ပြီး -- ဤကိစ္စတွင် ကုန်ကျစရိတ် ထိရောက်မှု ဖြစ်ပြီး အရောင် (သို့) အသွင်အပြင် မဟုတ်ပါ။ Compression ဆိုသည်မှာ ရွေးချယ်ထားသော ထိုအချက်များကို သူမ၏ ကိုယ်ပိုင်ဘာသာစကားဖြင့် ပြန်ရေးခြင်းဖြစ်ပြီး၊ များသောအားဖြင့် စကားလုံး ဆယ့်ငါးလုံးပါသော ဝါကျတစ်ခုကို တူညီသော မရှိမဖြစ် အဓိပ္ပာယ်ကို ထိန်းသိမ်းထားသည့် စကားလုံးငါးလုံးသာပါသော Paraphrase တစ်ခုဖြင့် အစားထိုးလေ့ရှိသည်။ ကူးယူထားသော အသုံးအနှုန်းများသည် မည်မျှပင် သက်ဆိုင်ပါစေ IGCSE အမှတ်ပေးစနစ်အောက်တွင် အမှတ် လုံးဝ မရရှိကြောင်း သူသည် သူမကို သတိပေးခဲ့သည်။\n\nနေချည်သည် ထပ်မံ ကြိုးစားခဲ့သည်။ သူမသည် အရောင်အကြောင်း စာကြောင်းကို လုံးဝ ဖြတ်ပစ်ခဲ့ပြီး \"တပ်ဆင်ခြင်း ကုန်ကျစရိတ်ကို လျှော့ချထားသော လျှပ်စစ်ဘေလ်များမှတဆင့် ခန့်မှန်းခြေ ခုနစ်နှစ်အတွင်း ကာမိသွားသည်\" ဟူသောစာကြောင်းကို ရိုးရိုးရှင်းရှင်း \"ကုန်ကျစရိတ်ကို ဘေလ်နည်းခြင်းမှတဆင့် ခုနစ်နှစ်အတွင်း ပြန်လည်ရရှိသည်\" ဟူ၍ ပြောင်းလဲခဲ့သည်။ သူမ၏ ဒုတိယမူကြမ်းသည် စကားလုံး ၁၁၈ လုံး အတိအကျ ရောက်ရှိခဲ့ပြီး၊ ဤအကြိမ်တွင် အချက်တိုင်းသည် စစ်ဆေးသူ တောင်းဆိုထားသော အရာတစ်ခုချင်းစီ အမှန်တကယ် ဖြစ်ခဲ့သည်။ အားကောင်းသော အကျဉ်းချုပ်တစ်ခုသည် နည်းနည်းရေးခြင်းအကြောင်း မဟုတ်ဘဲ -- အထိရောက်ဆုံး ဖြစ်နိုင်သမျှ ပြောထားသော အရေးကြီးသော အရာကိုသာ ရေးသားခြင်းအကြောင်း ဖြစ်ကြောင်း သူမ သဘောပေါက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two problems did Nay Chi's first draft have?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းတွင် ပြဿနာနှစ်ခု ရှိခဲ့ကြောင်း စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It copied whole sentences and included an irrelevant detail about colour",
+              "It was too short and had no details at all",
+              "It was written in the wrong language",
+              "It had no title",
+            ],
+            optionsMy: [
+              "ဝါကျအပြည့်အစုံများကို ကူးယူထားပြီး အရောင်အကြောင်း မသက်ဆိုင်သော အသေးစိတ်တစ်ခု ပါဝင်ခဲ့သည်",
+              "တိုတောင်းလွန်းပြီး အသေးစိတ် လုံးဝ မပါခဲ့ပါ",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားခဲ့သည်",
+              "ခေါင်းစဉ် လုံးဝ မပါခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's description of her draft."],
+            hintsMy: [
+              "သူမ၏ မူကြမ်းအကြောင်း ဖော်ပြချက် ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what are the two parts of the summary-writing skill Ko Thura described?",
+            questionMy:
+                "ကိုသူရ ဖော်ပြခဲ့သော အကျဉ်းချုပ် ရေးသား ကျွမ်းကျင်မှု၏ နှစ်ပိုင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Selection and compression",
+              "Reading and forgetting",
+              "Copying and pasting",
+              "Guessing and checking",
+            ],
+            optionsMy: [
+              "Selection နှင့် Compression",
+              "ဖတ်ခြင်းနှင့် မေ့ခြင်း",
+              "ကူးယူခြင်းနှင့် ကူးထည့်ခြင်း",
+              "မှန်းဆခြင်းနှင့် စစ်ဆေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the two-part skill directly.",
+            ],
+            hintsMy: [
+              "အဆင့်နှစ်ဆင့်ပါ ကျွမ်းကျင်မှုကို တိုက်ရိုက် အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Nay Chi realise about a strong summary?",
+            questionMy:
+                "အားကောင်းသော အကျဉ်းချုပ်တစ်ခုအကြောင်း နေချည် ဘာကို သဘောပေါက်ခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It's about writing only what matters, as efficiently as possible",
+              "It's about writing as many words as possible",
+              "It's about copying the passage exactly",
+              "It's about avoiding all facts",
+            ],
+            optionsMy: [
+              "ဖြစ်နိုင်သမျှ အထိရောက်ဆုံး၊ အရေးကြီးသော အရာကိုသာ ရေးသားခြင်းအကြောင်း ဖြစ်သည်",
+              "ဖြစ်နိုင်သမျှ များသော စကားလုံးများ ရေးသားခြင်းအကြောင်း ဖြစ်သည်",
+              "စာပိုဒ်ကို အတိအကျ ကူးယူခြင်းအကြောင်း ဖြစ်သည်",
+              "အချက်အလက်အားလုံးကို ရှောင်ရှားခြင်းအကြောင်း ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Summary Writing",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - အကျဉ်းချုပ် ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong summary condenses relevant points using...",
+          questionMy:
+              "အားကောင်းသော အကျဉ်းချုပ်တစ်ခုသည် သက်ဆိုင်သော အချက်များကို ...သုံး၍ ချုံ့သည်",
+          optionsEn: [
+            "The writer's own words",
+            "Exact copied sentences",
+            "Random unrelated facts",
+            "No word limit at all",
+          ],
+          optionsMy: [
+            "ရေးသားသူ၏ ကိုယ်ပိုင်စကားလုံးများ",
+            "အတိအကျ ကူးယူထားသော ဝါကျများ",
+            "မသက်ဆိုင်သော ကျပန်း အချက်များ",
+            "စကားလုံး ကန့်သတ်ချက် လုံးဝမရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Copied phrases in an IGCSE summary typically...",
+          questionMy:
+              "IGCSE အကျဉ်းချုပ်တစ်ခုတွင် ကူးယူထားသော အသုံးအနှုန်းများသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Earn no credit",
+            "Earn double marks",
+            "Are required",
+            "Improve the score automatically",
+          ],
+          optionsMy: [
+            "အမှတ် မရရှိပါ",
+            "အမှတ် နှစ်ဆ ရရှိသည်",
+            "လိုအပ်သည်",
+            "ရမှတ်ကို အလိုအလျောက် တိုးမြှင့်ပေးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The first efficient step in summary writing is to...",
+          questionMy:
+              "အကျဉ်းချုပ် ရေးသားခြင်းတွင် ပထမ အထိရောက်ဆုံး အဆင့်မှာ...",
+          optionsEn: [
+            "Highlight only the points relevant to the summary's focus",
+            "Write the conclusion first",
+            "Copy the whole passage",
+            "Ignore the question",
+          ],
+          optionsMy: [
+            "အကျဉ်းချုပ်၏ အာရုံစိုက်မှုနှင့် သက်ဆိုင်သော အချက်များကိုသာ Highlight ပြုလုပ်ခြင်း",
+            "နိဂုံးကို ဦးစွာ ရေးခြင်း",
+            "စာပိုဒ်တစ်ခုလုံးကို ကူးယူခြင်း",
+            "မေးခွန်းကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek4 = CourseWeekDef(
+  id: "course-igcse-eng-w4",
+  weekNumber: 4,
+  titleEn: "Paper 1 Reading Masterclass",
+  titleMy: "Paper 1 ဖတ်ရှုခြင်း အထူးသင်ခန်းစာ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w4-d1",
+      dayNumber: 1,
+      titleEn: "Full Text Analysis Under Timed Conditions",
+      titleMy:
+          "အချိန်ကန့်သတ်ချက်အောက်တွင် စာသားအပြည့်အစုံ ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Under timed exam conditions, the first thing a strong candidate does is...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော စာမေးပွဲ အခြေအနေအောက်တွင် အားကောင်းသော ဖြေဆိုသူတစ်ဦး ပထမဆုံး ပြုလုပ်သည့်အရာမှာ...",
+          optionsEn: [
+            "Skim-read the whole text and questions to plan time allocation",
+            "Write the longest possible answer to question 1 first",
+            "Skip the passage and answer from memory",
+            "Ignore the mark allocation for each question",
+          ],
+          optionsMy: [
+            "အချိန် ခွဲဝေမှုကို စီစဉ်ရန် စာသားနှင့် မေးခွန်းများ တစ်ခုလုံးကို လျင်မြန်စွာ ဖတ်ရှုခြင်း",
+            "မေးခွန်း ၁ အတွက် ဖြစ်နိုင်သမျှ ရှည်လျားသော အဖြေကို ဦးစွာ ရေးသားခြင်း",
+            "စာပိုဒ်ကို ကျော်ပြီး မှတ်ဉာဏ်မှ ဖြေဆိုခြင်း",
+            "မေးခွန်းတစ်ခုစီ၏ အမှတ်ခွဲဝေမှုကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a question is worth 2 marks, a candidate should typically...",
+          questionMy:
+              "မေးခွန်းတစ်ခု၏ တန်ဖိုးသည် အမှတ် ၂ မှတ် ဖြစ်ပါက ဖြေဆိုသူသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Give two distinct, well-supported points",
+            "Write a single one-word answer",
+            "Write a full page essay",
+            "Leave it blank",
+          ],
+          optionsMy: [
+            "ကွဲပြားပြီး ကောင်းစွာ ထောက်ခံထားသော အချက် နှစ်ချက် ပေးသင့်သည်",
+            "စကားလုံးတစ်လုံးတည်း ပါဝင်သော အဖြေတစ်ခု ရေးသင့်သည်",
+            "စာမျက်နှာအပြည့် Essay တစ်ပုဒ် ရေးသင့်သည်",
+            "အလွတ် ချန်ထားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing the mark scheme's expected points to a candidate's own answer helps most by...",
+          questionMy:
+              "Mark Scheme ၏ မျှော်လင့်ထားသော အချက်များကို ဖြေဆိုသူ၏ ကိုယ်ပိုင် အဖြေနှင့် နှိုင်းယှဉ်ခြင်းသည် ...အားဖြင့် အများဆုံး အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Revealing exactly which mark points were missed and why",
+            "Guaranteeing a perfect score automatically",
+            "Replacing the need to read the passage",
+            "Making the exam easier to guess",
+          ],
+          optionsMy: [
+            "မည်သည့် Mark Point များ လွတ်သွားကြောင်းနှင့် အဘယ်ကြောင့်ကြောင်း အတိအကျ ပြသခြင်း",
+            "အလိုအလျောက် ပြီးပြည့်စုံသော ရမှတ်ကို အာမခံခြင်း",
+            "စာပိုဒ်ကို ဖတ်ရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            "စာမေးပွဲကို မှန်းဆရလွယ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A summary and a writer's effect question test fundamentally different skills, so a candidate must...",
+          questionMy:
+              "အကျဉ်းချုပ်နှင့် Writer's Effect မေးခွန်းသည် အခြေခံအားဖြင့် ကွဲပြားသော ကျွမ်းကျင်မှုများကို စစ်ဆေးသောကြောင့် ဖြေဆိုသူသည် ...ရမည်",
+          optionsEn: [
+            "Adapt their answer style to what each specific question type demands",
+            "Answer every question the exact same way",
+            "Only attempt one question type",
+            "Skip whichever question type they dislike",
+          ],
+          optionsMy: [
+            "မေးခွန်းအမျိုးအစားတစ်ခုစီ တောင်းဆိုသည့်အရာနှင့် ကိုက်ညီအောင် သူတို့၏ အဖြေပုံစံကို ချိန်ညှိရမည်",
+            "မေးခွန်းတိုင်းကို အတိအကျ တူညီစွာ ဖြေဆိုရမည်",
+            "မေးခွန်းအမျိုးအစား တစ်ခုကိုသာ ကြိုးစားရမည်",
+            "မကြိုက်သော မေးခွန်းအမျိုးအစားကို ကျော်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reviewing time remaining periodically during the exam mainly protects against...",
+          questionMy:
+              "စာမေးပွဲအတွင်း ကျန်ရှိသော အချိန်ကို ကာလအခါအားလျော်စွာ ပြန်လည် စစ်ဆေးခြင်းသည် အဓိကအားဖြင့် ...ကို ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Running out of time before completing all sections",
+            "Getting a perfect score automatically",
+            "Reading too quickly",
+            "Understanding the passage",
+          ],
+          optionsMy: [
+            "အပိုင်းများအားလုံးကို မပြီးမီ အချိန် ကုန်ဆုံးသွားခြင်း",
+            "အလိုအလျောက် ပြီးပြည့်စုံသော ရမှတ်ရရှိခြင်း",
+            "မြန်လွန်းစွာ ဖတ်ရှုခြင်း",
+            "စာပိုဒ်ကို နားလည်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Paper 1 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Paper 1 ကျွမ်းကျင်မှု ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w4-dm-1",
+          termEn: "Inference",
+          termMy: "Inference",
+          matchEn:
+              "A conclusion reasoned from textual clues, always backed by evidence",
+          matchMy:
+              "စာသားအချက်ပြများမှ ကျိုးကြောင်းဆင်ခြင်ထားသော နိဂုံး၊ အမြဲ သက်သေအထောက်အထားဖြင့် ထောက်ခံထား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w4-dm-2",
+          termEn: "Writer's effect",
+          termMy: "Writer's Effect",
+          matchEn:
+              "Explaining how specific word choices create an effect on the reader",
+          matchMy:
+              "တိကျသော စကားလုံး ရွေးချယ်မှုများသည် စာဖတ်သူအပေါ် သက်ရောက်မှုတစ်ခု မည်သို့ဖန်တီးကြောင်း ရှင်းပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w4-dm-3",
+          termEn: "Summary selection",
+          termMy: "Summary Selection",
+          matchEn:
+              "Identifying only the points relevant to a summary task's specific focus",
+          matchMy:
+              "အကျဉ်းချုပ်လုပ်ငန်း၏ တိကျသော အာရုံစိုက်မှုနှင့် သက်ဆိုင်သော အချက်များကိုသာ ခွဲခြားသတ်မှတ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w4-dm-4",
+          termEn: "Mark scheme",
+          termMy: "Mark Scheme",
+          matchEn:
+              "The official document listing exactly what earns credit for each question",
+          matchMy:
+              "မေးခွန်းတစ်ခုစီအတွက် မည်သည့်အရာက အမှတ်ရရှိကြောင်း အတိအကျ စာရင်းပြုစုထားသော တရားဝင်စာရွက်စာတမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w4-dm-5",
+          termEn: "Time allocation",
+          termMy: "Time Allocation",
+          matchEn:
+              "Dividing available exam time according to each question's mark value",
+          matchMy:
+              "မေးခွန်းတစ်ခုစီ၏ အမှတ်တန်ဖိုးအရ ရရှိနိုင်သော စာမေးပွဲအချိန်ကို ခွဲဝေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Skill Does This Question Test?",
+      titleMy: "စီစစ်ကြမည် - ဤမေးခွန်းက မည်သည့် ကျွမ်းကျင်မှုကို စစ်ဆေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Inference", "Writer's Effect", "Summary"],
+        bucketsMy: ["Inference", "Writer's Effect", "Summary"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w4-sort-1",
+            labelEn:
+                "What does the character's silence suggest about her feelings?",
+            labelMy:
+                "ဇာတ်ကောင်၏ တိတ်ဆိတ်မှုသည် သူမ၏ ခံစားချက်အကြောင်း မည်သို့ အကြံပြုသနည်း",
+            correctBucketEn: "Inference",
+            correctBucketMy: "Inference",
+          ),
+          SortingItem(
+            id: "igcseeng-w4-sort-2",
+            labelEn:
+                "Explain how the word \"shattered\" creates an effect on the reader.",
+            labelMy:
+                "\"ကြေမွသွားသည်\" ဟူသော စကားလုံးသည် စာဖတ်သူအပေါ် သက်ရောက်မှု မည်သို့ ဖန်တီးကြောင်း ရှင်းပြပါ",
+            correctBucketEn: "Writer's Effect",
+            correctBucketMy: "Writer's Effect",
+          ),
+          SortingItem(
+            id: "igcseeng-w4-sort-3",
+            labelEn:
+                "In no more than 120 words, summarise the benefits described in the passage.",
+            labelMy:
+                "စကားလုံး ၁၂၀ ထက် မပိုစေဘဲ စာပိုဒ်တွင် ဖော်ပြထားသော အကျိုးကျေးဇူးများကို အကျဉ်းချုပ်ရေးပါ",
+            correctBucketEn: "Summary",
+            correctBucketMy: "Summary",
+          ),
+          SortingItem(
+            id: "igcseeng-w4-sort-4",
+            labelEn:
+                "What can you infer about the writer's attitude from the final paragraph?",
+            labelMy:
+                "နောက်ဆုံးစာပိုဒ်မှ စာရေးသူ၏ သဘောထားအကြောင်း ဘာကို Infer ပြုလုပ်နိုင်သနည်း",
+            correctBucketEn: "Inference",
+            correctBucketMy: "Inference",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's First Full Paper 1 Attempt",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ပထမဆုံး Paper 1 အပြည့်အစုံ ကြိုးပမ်းမှု",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's First Full Paper 1 Attempt",
+        titleMy: "နေချည်၏ ပထမဆုံး Paper 1 အပြည့်အစုံ ကြိုးပမ်းမှု",
+        passageEn:
+            "One hour, no interruptions, one full past Paper 1: this was the challenge Ko Thura set for Nay Chi at the end of Term 1. She sat at the small tuition table with a timer facing her and a stack of blank paper, and for the first time, no one would explain a question to her mid-attempt.\n\nShe began exactly as she had practised: five minutes skimming the whole passage and every question first, noting mark allocations in the margin so she knew a 2-mark question deserved roughly two clear points, not a paragraph. When she reached the inference question, she caught herself starting to write \"the man is sad\" and stopped -- she added the textual evidence about his untouched newspaper before moving on. When she reached the writer's effect question, she resisted the urge to simply name \"personification\" and forced herself to explain exactly why the specific word created its effect. When she reached the summary, she circled only the points relevant to the question's focus before drafting a single word, then counted her final draft twice to stay under the limit.\n\nWhen the timer rang, she had answered every question, with eleven minutes still on the clock. Marking her own paper against the mark scheme afterward, Ko Thura noted that she had lost marks only on two points -- both because she had briefly forgotten to link her writer's effect explanation back to the reader's emotional response. It was a small, precise, fixable gap, exactly the kind of gap Term 1 was designed to close before Directed Writing began in Term 2.",
+        passageMy:
+            "တစ်နာရီ၊ အနှောင့်အယှက် လုံးဝမရှိဘဲ၊ Paper 1 မေးခွန်းဟောင်း အပြည့်အစုံ တစ်စောင်: ၎င်းသည် ပထမတန်း၏ အဆုံးတွင် ကိုသူရ နေချည်အတွက် သတ်မှတ်ခဲ့သော စိန်ခေါ်မှု ဖြစ်ခဲ့သည်။ သူမသည် သူမရှေ့တွင် Timer တစ်ခုနှင့် အလွတ်စာရွက်အစုတစ်ခုပါသော တွဲကျောင်းစားပွဲငယ်တွင် ထိုင်ခဲ့ပြီး၊ ပထမဆုံးအကြိမ်အနေဖြင့် မည်သူမျှ မေးခွန်းတစ်ခုကို ကြိုးပမ်းနေစဉ်အတွင်း ရှင်းမပြခဲ့ပါ။\n\nသူမသည် သူမ လေ့ကျင့်ခဲ့သည့်အတိုင်း အတိအကျ စတင်ခဲ့သည် - စာပိုဒ်တစ်ခုလုံးနှင့် မေးခွန်းတိုင်းကို ဦးစွာ ငါးမိနစ် လျင်မြန်စွာ ဖတ်ရှုကာ၊ အမှတ် ၂ မှတ် မေးခွန်းတစ်ခုသည် စာပိုဒ်တစ်ခုမဟုတ်ဘဲ ရှင်းလင်းသော အချက် နှစ်ချက်ခန့် ခံထိုက်ကြောင်း သိရှိအောင် အနားစွန်းတွင် အမှတ်ခွဲဝေမှုများကို မှတ်သားခဲ့သည်။ Inference မေးခွန်းသို့ ရောက်သောအခါ သူမသည် \"အဖိုးအိုသည် ဝမ်းနည်းနေသည်\" ဟု ရေးမိတော့မည့်အခါ ရပ်တန့်ခဲ့သည် -- ဆက်လက်မဖြေဆိုမီ သူ၏ မထိတွေ့သော သတင်းစာအကြောင်း စာသားသက်သေအထောက်အထားကို ထည့်သွင်းခဲ့သည်။ Writer's Effect မေးခွန်းသို့ ရောက်သောအခါ သူမသည် \"Personification\" ကိုသာ အမည်တပ်လိုသော စိတ်ကို ခုခံကာ တိကျသော စကားလုံးက ၎င်း၏ သက်ရောက်မှုကို အဘယ်ကြောင့် ဖန်တီးကြောင်း အတိအကျ ရှင်းပြရန် သူမကိုယ်တိုင် ဖိအားပေးခဲ့သည်။ အကျဉ်းချုပ်သို့ ရောက်သောအခါ သူမသည် စကားလုံးတစ်လုံးမျှ မူကြမ်းမရေးမီ မေးခွန်း၏ အာရုံစိုက်မှုနှင့် သက်ဆိုင်သော အချက်များကိုသာ ဝိုင်းခဲ့ပြီး၊ ကန့်သတ်ချက်အောက်တွင် ရှိနေရန် သူမ၏ နောက်ဆုံးမူကြမ်းကို နှစ်ကြိမ် ရေတွက်ခဲ့သည်။\n\nTimer မြည်လာသောအခါ သူမသည် မေးခွန်းတိုင်းကို ဖြေဆိုပြီးသွားခဲ့ပြီး၊ နာရီတွင် မိနစ် ၁၁ မိနစ်ခန့် ကျန်ရှိနေသေးသည်။ နောက်ပိုင်းတွင် Mark Scheme နှင့် ယှဉ်၍ သူမ၏ စာရွက်ကို ကိုယ်တိုင် စစ်ဆေးရာ ကိုသူရသည် အချက် နှစ်ချက်တွင်သာ အမှတ် ဆုံးရှုံးခဲ့ကြောင်း သတိပြုမိခဲ့သည် -- နှစ်ခုစလုံးမှာ သူမ၏ Writer's Effect ရှင်းပြချက်ကို စာဖတ်သူ၏ ခံစားချက်ဆိုင်ရာ တုံ့ပြန်မှုသို့ ချိတ်ဆက်ရန် ခေတ္တ မေ့သွားခဲ့သောကြောင့် ဖြစ်ခဲ့သည်။ ၎င်းသည် သေးငယ်၊ တိကျပြီး ပြုပြင်နိုင်သော ကွာဟချက် တစ်ခု ဖြစ်ခဲ့ပြီး၊ ဒုတိယတန်းတွင် Directed Writing မစတင်မီ ပထမတန်းက ပိတ်ပစ်ရန် ဒီဇိုင်းထုတ်ထားသော ကွာဟချက် အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi do right before writing the summary?",
+            questionMy:
+                "အကျဉ်းချုပ် မရေးမီ နေချည် ဘာလုပ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Circled only the points relevant to the question's focus",
+              "Skipped the summary question entirely",
+              "Wrote it without reading the passage",
+              "Copied the whole passage first",
+            ],
+            optionsMy: [
+              "မေးခွန်း၏ အာရုံစိုက်မှုနှင့် သက်ဆိုင်သော အချက်များကိုသာ ဝိုင်းခဲ့သည်",
+              "အကျဉ်းချုပ် မေးခွန်းကို လုံးဝ ကျော်ခဲ့သည်",
+              "စာပိုဒ်ကို မဖတ်ဘဲ ရေးခဲ့သည်",
+              "ဦးစွာ စာပိုဒ်တစ်ခုလုံးကို ကူးယူခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about reaching the summary question.",
+            ],
+            hintsMy: [
+              "အကျဉ်းချုပ် မေးခွန်းသို့ ရောက်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how much time remained when Nay Chi finished the paper?",
+            questionMy:
+                "နေချည် စာစောင်ကို ပြီးဆုံးသောအခါ အချိန် မည်မျှ ကျန်ရှိခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Eleven minutes",
+              "Zero minutes",
+              "Thirty minutes",
+              "One hour",
+            ],
+            optionsMy: ["မိနစ် ၁၁ မိနစ်", "မိနစ် ၀", "မိနစ် ၃၀", "တစ်နာရီ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the timer ringing."],
+            hintsMy: ["Timer မြည်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on paragraph 3, why did Nay Chi lose marks on two points?",
+            questionMy:
+                "နေချည် အချက်နှစ်ချက်တွင် အမှတ် ဆုံးရှုံးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She briefly forgot to link her writer's effect explanation to the reader's emotional response",
+              "She ran out of time completely",
+              "She copied the passage word for word",
+              "She wrote in the wrong language",
+            ],
+            optionsMy: [
+              "သူမ၏ Writer's Effect ရှင်းပြချက်ကို စာဖတ်သူ၏ ခံစားချက်ဆိုင်ရာ တုံ့ပြန်မှုသို့ ချိတ်ဆက်ရန် ခေတ္တ မေ့သွားခဲ့သောကြောင့်",
+              "အချိန် လုံးဝ ကုန်ဆုံးသွားခဲ့သောကြောင့်",
+              "စာပိုဒ်ကို စကားလုံးအတိုင်း ကူးယူခဲ့သောကြောင့်",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why Ko Thura noted marks were lost.",
+            ],
+            hintsMy: [
+              "ကိုသူရ အမှတ်ဆုံးရှုံးခဲ့ကြောင်း သတိပြုမိသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Paper 1 Reading Masterclass",
+      titleMy: "ပထမတန်း Capstone - Paper 1 ဖတ်ရှုခြင်း အထူးသင်ခန်းစာ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The first step in a timed Paper 1 attempt should be...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော Paper 1 ကြိုးပမ်းမှုတစ်ခု၏ ပထမ အဆင့်မှာ...",
+          optionsEn: [
+            "Skim-reading the passage and questions to plan time",
+            "Writing the longest answer possible to question 1",
+            "Skipping the passage entirely",
+            "Ignoring mark allocations",
+          ],
+          optionsMy: [
+            "အချိန်ကို စီစဉ်ရန် စာပိုဒ်နှင့် မေးခွန်းများကို လျင်မြန်စွာ ဖတ်ရှုခြင်း",
+            "မေးခွန်း ၁ အတွက် ဖြစ်နိုင်သမျှ ရှည်လျားသော အဖြေ ရေးသားခြင်း",
+            "စာပိုဒ်ကို လုံးဝ ကျော်ခြင်း",
+            "အမှတ်ခွဲဝေမှုများကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Every inference in a Paper 1 answer must be backed by...",
+          questionMy:
+              "Paper 1 အဖြေတစ်ခုရှိ Inference တိုင်းကို ...ဖြင့် ထောက်ခံထားရမည်",
+          optionsEn: [
+            "Specific textual evidence",
+            "A personal guess",
+            "Nothing at all",
+            "The examiner's mood",
+          ],
+          optionsMy: [
+            "တိကျသော စာသားသက်သေအထောက်အထား",
+            "ကိုယ်ပိုင် မှန်းဆချက်",
+            "မည်သည့်အရာမျှ",
+            "စစ်ဆေးသူ၏ စိတ်ခံစားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A writer's effect answer must always link the technique back to...",
+          questionMy:
+              "Writer's Effect အဖြေတစ်ခုသည် နည်းပညာကို ...သို့ အမြဲ ချိတ်ဆက်ရမည်",
+          optionsEn: [
+            "The reader's emotional or sensory response",
+            "The author's date of birth",
+            "The page number",
+            "Nothing",
+          ],
+          optionsMy: [
+            "စာဖတ်သူ၏ ခံစားချက် (သို့) အာရုံခံစားမှုဆိုင်ရာ တုံ့ပြန်မှု",
+            "စာရေးသူ၏ မွေးနေ့",
+            "စာမျက်နှာ အရေအတွက်",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm1 = CourseTermDef(
+  id: "course-igcse-eng-term1",
+  termNumber: 1,
+  titleEn: "Advanced Reading Comprehension",
+  titleMy: "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု",
+  weeks: [_igcseEngWeek1, _igcseEngWeek2, _igcseEngWeek3, _igcseEngWeek4],
+  certificateTitleEn: "Advanced Reading Comprehension",
+  certificateTitleMy: "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု",
+);
+
+// =====================================================================
+// IGCSE English -- Term 2: "Directed Writing & Persuasive Techniques"
+// (Weeks 5-8). Week 5 covers structuring letters/articles/reviews;
+// Week 6 covers persuasive argumentation; Week 7 covers evaluating
+// and synthesising source material; Week 8 is the capstone Directed
+// Writing mock studio.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek5 = CourseWeekDef(
+  id: "course-igcse-eng-w5",
+  weekNumber: 5,
+  titleEn: "Structuring Directed Writing",
+  titleMy: "Directed Writing ဖော်မတ်များ ဖွဲ့စည်းတည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w5-d1",
+      dayNumber: 1,
+      titleEn: "Letters, Articles, Reviews: Audience and Tone",
+      titleMy: "စာများ၊ ဆောင်းပါးများ၊ ဝေဖန်ချက်များ - ပရိသတ်နှင့် လေယူလေသိမ်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Directed Writing tasks require the candidate to...",
+          questionMy:
+              "Directed Writing လုပ်ငန်းများသည် ဖြေဆိုသူအား ...တောင်းဆိုသည်",
+          optionsEn: [
+            "Adapt content from a source text into a new form for a specific audience and purpose",
+            "Copy the source text unchanged",
+            "Ignore the given audience entirely",
+            "Write only in note form",
+          ],
+          optionsMy: [
+            "အရင်းအမြစ် စာသားမှ အကြောင်းအရာကို တိကျသော ပရိသတ်နှင့် ရည်ရွယ်ချက်အတွက် ပုံစံအသစ်တစ်ခုသို့ ချိန်ညှိရန်",
+            "အရင်းအမြစ် စာသားကို မပြောင်းလဲဘဲ ကူးယူရန်",
+            "ပေးထားသော ပရိသတ်ကို လုံးဝ လျစ်လျူရှုရန်",
+            "မှတ်စုပုံစံဖြင့်သာ ရေးသားရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A formal letter to a headteacher should use a tone that is...",
+          questionMy:
+              "ကျောင်းအုပ်ကြီးထံ တရားဝင်စာတစ်စောင်သည် ...လေယူလေသိမ်း ကို သုံးသင့်သည်",
+          optionsEn: [
+            "Respectful and professional",
+            "Extremely casual and slang-filled",
+            "Aggressive and rude",
+            "Written entirely in text-speak",
+          ],
+          optionsMy: [
+            "လေးစားပြီး ပရော်ဖက်ရှင်နယ်ဆန်သော",
+            "အလွန် အလွတ်သဘောနှင့် Slang ပြည့်နှက်သော",
+            "ရန်လိုပြီး ရိုင်းစိုင်းသော",
+            "Text-Speak ဖြင့်သာ ရေးသားထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A magazine article aimed at teenagers would typically use a tone that is...",
+          questionMy:
+              "ဆယ်ကျော်သက်များကို ဦးတည်ထားသော မဂ္ဂဇင်း ဆောင်းပါးတစ်ပုဒ်သည် ပုံမှန်အားဖြင့် ...လေယူလေသိမ်း ကို သုံးလေ့ရှိသည်",
+          optionsEn: [
+            "Lively, engaging, and relatable, while still clear",
+            "Extremely formal legal language",
+            "Cold and robotic",
+            "Written entirely in Latin",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းမှုကို ဆက်လက် ထိန်းသိမ်းထားရင်း၊ တက်ကြွ၊ ဆွဲဆောင်ပြီး ဆက်နွယ်နိုင်သော",
+            "အလွန် တရားဝင် ဥပဒေရေးရာ ဘာသာစကား",
+            "အေးစက်ပြီး Robot ဆန်သော",
+            "Latin ဘာသာစကားဖြင့်သာ ရေးသားထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A review of a restaurant should structurally balance...",
+          questionMy:
+              "စားသောက်ဆိုင်တစ်ဆိုင်၏ ဝေဖန်ချက်တစ်ခုသည် ဖွဲ့စည်းပုံအရ ...ကို ဟန်ချက်ညီအောင် ထားသင့်သည်",
+          optionsEn: [
+            "Description, evaluation, and a clear recommendation",
+            "Only complaints with no evaluation",
+            "A random list of unrelated topics",
+            "Pure advertisement with no honest opinion",
+          ],
+          optionsMy: [
+            "ဖော်ပြချက်၊ အကဲဖြတ်ချက်နှင့် ရှင်းလင်းသော အကြံပြုချက်",
+            "အကဲဖြတ်ချက် မပါဘဲ တိုင်ကြားချက်များသာ",
+            "မသက်ဆိုင်သော ခေါင်းစဉ်များ ကျပန်းစာရင်း",
+            "ရိုးသားသော ထင်မြင်ချက် မပါဘဲ စစ်မှန်သော ကြော်ငြာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Choosing the correct form (letter, article, or speech) matters most because...",
+          questionMy:
+              "မှန်ကန်သော ပုံစံ (စာ၊ ဆောင်းပါး (သို့) မိန့်ခွန်း) ကို ရွေးချယ်ခြင်းသည် အရေးကြီးဆုံး အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Each form has distinct structural and stylistic conventions the examiner expects",
+            "It has no real effect on the mark",
+            "All forms are written identically",
+            "It only matters for the title",
+          ],
+          optionsMy: [
+            "ပုံစံတစ်ခုစီတွင် စစ်ဆေးသူ မျှော်လင့်ထားသော ကွဲပြားသော ဖွဲ့စည်းပုံနှင့် စတိုင်လ်ဆိုင်ရာ ကွန်ဗင်းရှင်းများ ရှိသောကြောင့်",
+            "ရမှတ်အပေါ် တကယ့် သက်ရောက်မှု မရှိသောကြောင့်",
+            "ပုံစံအားလုံးကို တစ်ထပ်တည်း ရေးသားသောကြောင့်",
+            "ခေါင်းစဉ်အတွက်သာ အရေးကြီးသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Directed Writing Forms",
+      titleMy: "တွဲစပ်ကြမည် - Directed Writing ပုံစံများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w5-dm-1",
+          termEn: "Audience",
+          termMy: "Audience",
+          matchEn:
+              "The specific group of readers a piece of writing is intended for",
+          matchMy: "စာစီစာကုံးတစ်ပုဒ်ကို ရည်ရွယ်ထားသော တိကျသော စာဖတ်သူ အုပ်စု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w5-dm-2",
+          termEn: "Purpose",
+          termMy: "Purpose",
+          matchEn:
+              "The specific goal of a piece of writing, such as to persuade, inform, or entertain",
+          matchMy:
+              "ဆွဲဆောင်ရန်၊ အသိပေးရန် (သို့) ဖျော်ဖြေရန်ကဲ့သို့ စာစီစာကုံးတစ်ပုဒ်၏ တိကျသော ရည်ရွယ်ချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w5-dm-3",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn:
+              "The level of formality in language, adjusted to suit audience and purpose",
+          matchMy:
+              "ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် ကိုက်ညီအောင် ချိန်ညှိထားသော ဘာသာစကား၏ တရားဝင်မှု အဆင့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w5-dm-4",
+          termEn: "Salutation",
+          termMy: "Salutation",
+          matchEn:
+              "The opening greeting of a letter, such as \"Dear Sir/Madam\"",
+          matchMy:
+              "\"Dear Sir/Madam\" ကဲ့သို့ စာတစ်စောင်၏ ဖွင့်ဆိုနှုတ်ခွန်းဆက်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w5-dm-5",
+          termEn: "Sub-heading",
+          termMy: "Sub-Heading",
+          matchEn:
+              "A short heading dividing an article into organised, readable sections",
+          matchMy:
+              "ဆောင်းပါးတစ်ပုဒ်ကို စနစ်တကျ၊ ဖတ်ရှုရလွယ်ကူသော အပိုင်းများအဖြစ် ခွဲခြားပေးသော ခေါင်းစဉ်ငယ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Form Fits This Task?",
+      titleMy: "စီစစ်ကြမည် - ဤလုပ်ငန်းနှင့် မည်သည့် ပုံစံ ကိုက်ညီသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Formal Letter", "Magazine Article", "Speech"],
+        bucketsMy: ["Formal Letter", "Magazine Article", "Speech"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w5-sort-1",
+            labelEn:
+                "Writing to the local council to formally complain about litter",
+            labelMy:
+                "အမှိုက်များအကြောင်း တရားဝင် တိုင်ကြားရန် ဒေသန္တရ ကောင်စီထံ စာရေးသားခြင်း",
+            correctBucketEn: "Formal Letter",
+            correctBucketMy: "Formal Letter",
+          ),
+          SortingItem(
+            id: "igcseeng-w5-sort-2",
+            labelEn:
+                "A lively piece with sub-headings reviewing the best summer holiday destinations",
+            labelMy:
+                "အကောင်းဆုံး နွေရာသီအားလပ်ရက် နေရာများကို ဝေဖန်သုံးသပ်သော ခေါင်းစဉ်ငယ်များပါ တက်ကြွသော ရေးသားချက်",
+            correctBucketEn: "Magazine Article",
+            correctBucketMy: "Magazine Article",
+          ),
+          SortingItem(
+            id: "igcseeng-w5-sort-3",
+            labelEn:
+                "Words prepared to be delivered aloud to persuade an assembly to support recycling",
+            labelMy:
+                "စက်ကျင့်မှုကို ပံ့ပိုးရန် စည်းဝေးပွဲတစ်ခုကို ဆွဲဆောင်ရန် ကျယ်လောင်စွာ ပြောရန် ပြင်ဆင်ထားသော စကားလုံးများ",
+            correctBucketEn: "Speech",
+            correctBucketMy: "Speech",
+          ),
+          SortingItem(
+            id: "igcseeng-w5-sort-4",
+            labelEn: "Writing to a company to formally request a refund",
+            labelMy:
+                "ငွေပြန်အမ်းရန် တရားဝင် တောင်းဆိုရန် ကုမ္ပဏီတစ်ခုသို့ စာရေးသားခြင်း",
+            correctBucketEn: "Formal Letter",
+            correctBucketMy: "Formal Letter",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Three Drafts, Three Audiences",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ မူကြမ်းသုံးခု၊ ပရိသတ်သုံးခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Three Drafts, Three Audiences",
+        titleMy: "နေချည်၏ မူကြမ်းသုံးခု၊ ပရိသတ်သုံးခု",
+        passageEn:
+            "Ko Thura gave Nay Chi a single fact -- her school was launching a new recycling programme -- and asked her to write about it three separate times, for three separate audiences: a formal letter to the headteacher requesting more recycling bins, a lively magazine article for the student newsletter, and a short speech for the school assembly.\n\nHer first attempt used almost identical wording in all three, simply changing the greeting at the top. Ko Thura pointed out that the headteacher letter used casual phrases like \"it'd be great if,\" which sounded far too informal for a professional request, while the assembly speech read like a dry written report, with no direct address to the listeners standing in front of her.\n\nOn her second attempt, Nay Chi transformed each piece completely. The letter opened with \"I am writing to formally request...\" and closed with a respectful sign-off. The magazine article used a punchy sub-heading -- \"Green School, Bright Future\" -- and short, energetic sentences aimed at her fellow students. The speech used direct address, \"all of you standing here today,\" and rhetorical questions designed to be spoken aloud, not silently read. Ko Thura explained that this was the entire point of Directed Writing: the same core content, reshaped entirely around who was reading or listening, and why.",
+        passageMy:
+            "ကိုသူရသည် နေချည်ကို အချက်တစ်ခုတည်း ပေးခဲ့သည် -- သူမ၏ ကျောင်းသည် ပြန်ပြည့်ခံ စီမံကိန်းအသစ်တစ်ခု စတင်နေသည် -- ပရိသတ် သုံးဦးအတွက် သီးခြားစီ သုံးကြိမ် ရေးသားရန် တောင်းဆိုခဲ့သည် - ပြန်ပြည့်ခံ ဗူးများ ပိုမိုတောင်းဆိုသည့် ကျောင်းအုပ်ကြီးထံ တရားဝင်စာ၊ ကျောင်းသား သတင်းလွှာအတွက် တက်ကြွသော မဂ္ဂဇင်း ဆောင်းပါး၊ ကျောင်းစုဝေးပွဲအတွက် တိုတောင်းသော မိန့်ခွန်း။\n\nသူမ၏ ပထမ ကြိုးပမ်းမှုသည် သုံးမျိုးလုံးတွင် ထိပ်ဆုံးရှိ နှုတ်ခွန်းဆက်ခြင်းကိုသာ ပြောင်းလဲကာ တူညီသော စကားလုံးအသုံးအနှုန်း သုံးခဲ့သည်။ ကိုသူရသည် ကျောင်းအုပ်ကြီးစာသည် \"it'd be great if\" ကဲ့သို့ အလွတ်သဘောစကားများကို သုံးထားပြီး ၎င်းသည် ပရော်ဖက်ရှင်နယ် တောင်းဆိုမှုတစ်ခုအတွက် အလွန် အလွတ်သဘောဆန်သည်ဟု ထောက်ပြခဲ့ပြီး၊ စုဝေးပွဲမိန့်ခွန်းသည် သူမရှေ့တွင် ရပ်နေသော ပရိသတ်ကို တိုက်ရိုက်ခေါ်ဆိုမှု လုံးဝမပါဘဲ ခြောက်သွေ့သော ရေးသားထားသည့် အစီရင်ခံစာတစ်ခုကဲ့သို့ ဖတ်ရှုမိကြောင်း ထောက်ပြခဲ့သည်။\n\nသူမ၏ ဒုတိယ ကြိုးပမ်းမှုတွင် နေချည်သည် အပိုင်းတစ်ခုစီကို လုံးဝ ပြောင်းလဲခဲ့သည်။ စာစောင်သည် \"I am writing to formally request...\" ဟု ဖွင့်ကာ လေးစားသော နိဂုံးချုပ်ဖြင့် ပိတ်ခဲ့သည်။ မဂ္ဂဇင်း ဆောင်းပါးသည် ထိရောက်သော ခေါင်းစဉ်ငယ် -- \"အစိမ်းရောင် ကျောင်း၊ တောက်ပသော အနာဂတ်\" -- ကို သုံးပြီး သူမ၏ ကျောင်းသား အပေါင်းအသင်းများကို ဦးတည်ထားသော တို၍ တက်ကြွသော ဝါကျများ သုံးခဲ့သည်။ မိန့်ခွန်းသည် တိုက်ရိုက်ခေါ်ဆိုမှု \"ယနေ့ ဤနေရာတွင် ရပ်နေကြသော သင်တို့အားလုံး\" နှင့် တိတ်တဆိတ် ဖတ်ရှုရန်မဟုတ်ဘဲ ကျယ်လောင်စွာ ပြောရန် ဒီဇိုင်းထုတ်ထားသော Rhetorical မေးခွန်းများကို သုံးခဲ့သည်။ ကိုသူရသည် ၎င်းသည် Directed Writing ၏ အဓိက အချက်ပင် ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - တူညီသော အဓိက အကြောင်းအရာသည် မည်သူ ဖတ်နေသနည်း၊ နားထောင်နေသနည်း၊ အဘယ်ကြောင့်နည်းအား လုံးဝ ပြန်လည် ပုံဖော်ထားခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem did Ko Thura identify in Nay Chi's headteacher letter?",
+            questionMy:
+                "နေချည်၏ ကျောင်းအုပ်ကြီးစာတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It used casual phrases too informal for a professional request",
+              "It was written in the wrong language",
+              "It was too long",
+              "It had no greeting",
+            ],
+            optionsMy: [
+              "ပရော်ဖက်ရှင်နယ် တောင်းဆိုမှုတစ်ခုအတွက် အလွန် အလွတ်သဘောဆန်သော စကားများ သုံးထားခဲ့သည်",
+              "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားခဲ့သည်",
+              "အလွန် ရှည်လျားခဲ့သည်",
+              "နှုတ်ခွန်းဆက်ခြင်း လုံးဝ မပါခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the phrase \"it'd be great if.\"",
+            ],
+            hintsMy: [
+              "\"it'd be great if\" ဟူသော အသုံးအနှုန်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what technique did Nay Chi use in her speech to directly engage listeners?",
+            questionMy:
+                "နားထောင်သူများကို တိုက်ရိုက် ဆွဲဆောင်ရန် သူမ၏ မိန့်ခွန်းတွင် နေချည် မည်သည့် နည်းပညာကို သုံးခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Direct address and rhetorical questions",
+              "A formal legal citation",
+              "Complete silence",
+              "A list of statistics only",
+            ],
+            optionsMy: [
+              "တိုက်ရိုက်ခေါ်ဆိုမှုနှင့် Rhetorical မေးခွန်းများ",
+              "တရားဝင် ဥပဒေရေးရာ ကိုးကားချက်",
+              "လုံးဝ တိတ်ဆိတ်မှု",
+              "စာရင်းအင်းများ စာရင်းသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the speech in paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ရှိ မိန့်ခွန်း ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Thura say was the entire point of Directed Writing?",
+            questionMy:
+                "Directed Writing ၏ အဓိက အချက်မှာ မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reshaping the same core content entirely around who is reading or listening, and why",
+              "Writing the exact same words for every audience",
+              "Using the most complicated vocabulary possible",
+              "Avoiding any consideration of audience",
+            ],
+            optionsMy: [
+              "တူညီသော အဓိက အကြောင်းအရာကို မည်သူ ဖတ်နေသနည်း၊ နားထောင်နေသနည်း၊ အဘယ်ကြောင့်နည်းအား လုံးဝ ပြန်လည် ပုံဖော်ခြင်း",
+              "ပရိသတ်တိုင်းအတွက် အတိအကျ တူညီသော စကားလုံးများ ရေးသားခြင်း",
+              "ဖြစ်နိုင်သမျှ ရှုပ်ထွေးသော ဝေါဟာရများ သုံးခြင်း",
+              "ပရိသတ်အကြောင်း စဉ်းစားမှု လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Directed Writing Structure",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Directed Writing ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Directed Writing tasks require adapting content for a specific...",
+          questionMy:
+              "Directed Writing လုပ်ငန်းများသည် တိကျသော ...အတွက် အကြောင်းအရာကို ချိန်ညှိရန် လိုအပ်သည်",
+          optionsEn: [
+            "Audience and purpose",
+            "Font size only",
+            "Page count",
+            "Author's mood",
+          ],
+          optionsMy: [
+            "ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "စာလုံးအရွယ်အစားသာ",
+            "စာမျက်နှာအရေအတွက်",
+            "စာရေးသူ၏ စိတ်ခံစားချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A formal letter should use a tone that is...",
+          questionMy: "တရားဝင်စာတစ်စောင်သည် ...လေယူလေသိမ်း ကို သုံးသင့်သည်",
+          optionsEn: [
+            "Respectful and professional",
+            "Extremely casual",
+            "Aggressive",
+            "Written in slang",
+          ],
+          optionsMy: [
+            "လေးစားပြီး ပရော်ဖက်ရှင်နယ်ဆန်သော",
+            "အလွန် အလွတ်သဘော",
+            "ရန်လိုသော",
+            "Slang ဖြင့် ရေးသားထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A speech should use direct address and rhetorical questions because it is designed to be...",
+          questionMy:
+              "မိန့်ခွန်းတစ်ခုသည် တိုက်ရိုက်ခေါ်ဆိုမှုနှင့် Rhetorical မေးခွန်းများကို သုံးသင့်ရသည့် အကြောင်းရင်းမှာ ၎င်းသည် ...ရန် ဒီဇိုင်းထုတ်ထားသောကြောင့်",
+          optionsEn: [
+            "Spoken aloud to a listening audience",
+            "Silently read alone",
+            "Never delivered at all",
+            "Written only for a computer",
+          ],
+          optionsMy: [
+            "နားထောင်နေသော ပရိသတ်ထံသို့ ကျယ်လောင်စွာ ပြောရန်",
+            "တစ်ဦးတည်း တိတ်တဆိတ် ဖတ်ရန်",
+            "ဘယ်တော့မှ မပြောခြင်း",
+            "ကွန်ပျူတာအတွက်သာ ရေးသားထားသော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek6 = CourseWeekDef(
+  id: "course-igcse-eng-w6",
+  weekNumber: 6,
+  titleEn: "Persuasive Argumentation in Writing",
+  titleMy: "အရေးအသားတွင် ဆွဲဆောင်စည်းရုံးခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w6-d1",
+      dayNumber: 1,
+      titleEn: "Counter-Arguments and Rhetorical Questions",
+      titleMy: "Counter-Arguments နှင့် Rhetorical မေးခွန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Addressing a counter-argument in persuasive writing means...",
+          questionMy:
+              "ဆွဲဆောင်စည်းရုံးရေး အရေးအသားတွင် Counter-Argument တစ်ခုကို ကိုင်တွယ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Acknowledging an opposing view, then explaining why your position is stronger",
+            "Ignoring every opposing view completely",
+            "Agreeing with the opposite side entirely",
+            "Refusing to state your own opinion",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဘက် အမြင်တစ်ခုကို အသိအမှတ်ပြုပြီးနောက် သင်၏ ရပ်တည်ချက်သည် အဘယ်ကြောင့် ပို၍ ခိုင်မာကြောင်း ရှင်းပြခြင်း",
+            "ဆန့်ကျင်ဘက် အမြင်တိုင်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ဆန့်ကျင်ဘက်ကို လုံးဝ သဘောတူခြင်း",
+            "ကိုယ်ပိုင် ထင်မြင်ချက်ကို ဖော်ပြရန် ငြင်းဆန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A rhetorical question is asked...",
+          questionMy: "Rhetorical မေးခွန်းတစ်ခုကို ...မေးလေ့ရှိသည်",
+          optionsEn: [
+            "For persuasive effect, not expecting a literal answer",
+            "Only when the writer genuinely doesn't know the answer",
+            "To confuse the reader deliberately",
+            "Only in formal academic essays",
+          ],
+          optionsMy: [
+            "စာသားအတိုင်း အဖြေတစ်ခုကို မမျှော်လင့်ဘဲ ဆွဲဆောင်သော အကျိုးသက်ရောက်မှုအတွက်",
+            "စာရေးသူသည် အဖြေကို အမှန်တကယ် မသိသောအခါသာ",
+            "စာဖတ်သူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေရန်",
+            "ပညာရပ်ဆိုင်ရာ Essay များတွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Should we really accept this, when the evidence so clearly points the other way?\" is an example of...",
+          questionMy:
+              "\"သက်သေအထောက်အထားများက အခြားတစ်ဖက်ကို ရှင်းရှင်းလင်းလင်း ညွှန်ပြနေချိန်တွင် ကျွန်ုပ်တို့ ၎င်းကို အမှန်တကယ် လက်ခံသင့်ပါသလား။\" သည် ...တစ်ခု၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "A rhetorical question",
+            "A statistic",
+            "A direct citation",
+            "A footnote",
+          ],
+          optionsMy: [
+            "Rhetorical မေးခွန်း",
+            "စာရင်းအင်း",
+            "တိုက်ရိုက် ကိုးကားချက်",
+            "Footnote",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using an authoritative voice in persuasive writing helps by...",
+          questionMy:
+              "ဆွဲဆောင်စည်းရုံးရေး အရေးအသားတွင် အာဏာပိုင်ဆန်သော အသံကို သုံးခြင်းသည် ...အားဖြင့် အထောက်အကူ ပြုသည်",
+          optionsEn: [
+            "Making the argument sound confident, credible, and well-informed",
+            "Making the writer sound uncertain",
+            "Confusing the reader deliberately",
+            "Reducing the argument's credibility",
+          ],
+          optionsMy: [
+            "အငြင်းပွားမှုကို ယုံကြည်စိတ်ချရ၊ ယုံကြည်ရ၊ ကောင်းစွာ အသိပေးထားသကဲ့သို့ ဖြစ်စေခြင်း",
+            "စာရေးသူကို မသေချာသကဲ့သို့ ဖြစ်စေခြင်း",
+            "စာဖတ်သူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေခြင်း",
+            "အငြင်းပွားမှု၏ ယုံကြည်ရမှုကို လျော့နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Overusing emotive language without any factual support in persuasive writing typically...",
+          questionMy:
+              "ဆွဲဆောင်စည်းရုံးရေး အရေးအသားတွင် အချက်အလက် ထောက်ခံမှု လုံးဝ မပါဘဲ ခံစားချက်ဆန်သော ဘာသာစကားကို လွန်ကဲစွာ သုံးခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Weakens the argument's credibility",
+            "Automatically wins every argument",
+            "Is required by the exam board",
+            "Has no effect on the reader",
+          ],
+          optionsMy: [
+            "အငြင်းပွားမှု၏ ယုံကြည်ရမှုကို အားနည်းစေသည်",
+            "အငြင်းပွားမှုတိုင်းကို အလိုအလျောက် အနိုင်ရစေသည်",
+            "စာမေးပွဲအဖွဲ့က တောင်းဆိုသည်",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Persuasive Technique Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w6-dm-1",
+          termEn: "Counter-argument",
+          termMy: "Counter-Argument",
+          matchEn:
+              "An opposing viewpoint acknowledged and then refuted to strengthen one's own position",
+          matchMy:
+              "အသိအမှတ်ပြုပြီးနောက် ကိုယ်ပိုင်ရပ်တည်ချက်ကို ခိုင်မာစေရန် ချေဖျက်ထားသော ဆန့်ကျင်ဘက် အမြင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w6-dm-2",
+          termEn: "Rhetorical question",
+          termMy: "Rhetorical Question",
+          matchEn:
+              "A question asked for persuasive effect, not expecting a literal answer",
+          matchMy:
+              "စာသားအတိုင်း အဖြေတစ်ခုကို မမျှော်လင့်ဘဲ ဆွဲဆောင်သော အကျိုးသက်ရောက်မှုအတွက် မေးထားသော မေးခွန်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w6-dm-3",
+          termEn: "Authoritative voice",
+          termMy: "Authoritative Voice",
+          matchEn:
+              "A confident, credible tone that makes an argument sound well-informed",
+          matchMy:
+              "အငြင်းပွားမှုကို ကောင်းစွာ အသိပေးထားသကဲ့သို့ ဖြစ်စေသော ယုံကြည်စိတ်ချရ၊ ယုံကြည်ရသော လေယူလေသိမ်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w6-dm-4",
+          termEn: "Emotive language",
+          termMy: "Emotive Language",
+          matchEn:
+              "Word choices deliberately designed to trigger a strong emotional response",
+          matchMy:
+              "ပြင်းထန်သော ခံစားချက်ဆိုင်ရာ တုံ့ပြန်မှုတစ်ခုကို ဖြစ်ပေါ်စေရန် ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ထားသော စကားလုံးများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w6-dm-5",
+          termEn: "Rule of three",
+          termMy: "Rule of Three",
+          matchEn:
+              "Grouping three ideas together for rhythm and persuasive memorability",
+          matchMy:
+              "သံစဉ်နှင့် ဆွဲဆောင်နိုင်သော မှတ်မိလွယ်မှုအတွက် အယူအဆသုံးခုကို အတူတကွ စုစည်းခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Persuasive Technique or Not?",
+      titleMy: "စီစစ်ကြမည် - ဆွဲဆောင်စည်းရုံးရေး နည်းပညာလား မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Persuasive Technique", "Neutral, Factual Statement"],
+        bucketsMy: [
+          "ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ",
+          "ကြားနေ၊ အချက်အလက်ဆန်သော ဖော်ပြချက်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w6-sort-1",
+            labelEn: "\"How can we possibly ignore a crisis of this scale?\"",
+            labelMy:
+                "\"ဤအတိုင်းအတာရှိသော အကျပ်အတည်းတစ်ခုကို ကျွန်ုပ်တို့ မည်သို့ လျစ်လျူရှုနိုင်မည်နည်း။\"",
+            correctBucketEn: "Persuasive Technique",
+            correctBucketMy: "ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ",
+          ),
+          SortingItem(
+            id: "igcseeng-w6-sort-2",
+            labelEn: "\"The library opens at 9am on weekdays.\"",
+            labelMy:
+                "\"စာကြည့်တိုက်သည် အလုပ်ရက်များတွင် နံနက် ၉ နာရီတွင် ဖွင့်သည်။\"",
+            correctBucketEn: "Neutral, Factual Statement",
+            correctBucketMy: "ကြားနေ၊ အချက်အလက်ဆန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w6-sort-3",
+            labelEn:
+                "\"This is not just an inconvenience -- it is an outrage.\"",
+            labelMy:
+                "\"ဤသည် အဆင်မပြေမှုတစ်ခုသာ မဟုတ်ဘဲ -- ဒေါသဖြစ်ဖွယ်ရာ ကိစ္စတစ်ခု ဖြစ်သည်။\"",
+            correctBucketEn: "Persuasive Technique",
+            correctBucketMy: "ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ",
+          ),
+          SortingItem(
+            id: "igcseeng-w6-sort-4",
+            labelEn: "\"The report was published in March of this year.\"",
+            labelMy: "\"အစီရင်ခံစာကို ယခုနှစ် မတ်လတွင် ထုတ်ဝေခဲ့သည်။\"",
+            correctBucketEn: "Neutral, Factual Statement",
+            correctBucketMy: "ကြားနေ၊ အချက်အလက်ဆန်သော ဖော်ပြချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Persuasive Speech Draft",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ဆွဲဆောင်စည်းရုံးရေး မိန့်ခွန်း မူကြမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Persuasive Speech Draft",
+        titleMy: "နေချည်၏ ဆွဲဆောင်စည်းရုံးရေး မိန့်ခွန်း မူကြမ်း",
+        passageEn:
+            "Nay Chi's assignment was to persuade her classmates to support a ban on single-use plastic bottles at school. Her first draft simply listed facts: plastic took hundreds of years to decompose, the school produced significant waste each week, and reusable bottles were widely available. Ko Thura read it and asked her a difficult question: would this convince someone who didn't already agree?\n\nHe explained that facts alone rarely persuade -- they inform, but persuasion needed technique layered on top. Nay Chi rewrote her opening: \"How many more decades do we let a five-minute drink outlive every single one of us?\" This rhetorical question, Ko Thura noted, forced the listener to actually confront the scale of the problem rather than simply receiving a fact passively.\n\nShe also anticipated the obvious counter-argument -- that reusable bottles were an extra cost for some families -- and addressed it directly rather than ignoring it: \"Some of you might worry about cost, and that concern is fair. But the school has already agreed to provide a free reusable bottle to every student who needs one, meaning this change costs families nothing.\" Ko Thura pointed out that acknowledging the opposing view first, then dismantling it with evidence, was far more persuasive than pretending it didn't exist -- ignoring a counter-argument, he said, always made an audience trust the counter-argument more, not less.",
+        passageMy:
+            "နေချည်၏ တာဝန်မှာ ကျောင်းတွင် တစ်ကြိမ်သုံး ပလပ်စတစ်ပုလင်းများ တားမြစ်မှုကို ပံ့ပိုးရန် သူမ၏ အတန်းသားများကို ဆွဲဆောင်စည်းရုံးရန် ဖြစ်ခဲ့သည်။ သူမ၏ ပထမမူကြမ်းသည် အချက်အလက်များကိုသာ စာရင်းပြုစုခဲ့သည် - ပလပ်စတစ်သည် ပုံပျက်ရန် နှစ်ပေါင်းရာနှင့်ချီ ကြာသည်၊ ကျောင်းသည် တစ်ပတ်လျှင် သိသာသော စွန့်ပစ်ပစ္စည်းများ ထုတ်လုပ်သည်၊ ပြန်သုံးနိုင်သော ပုလင်းများသည် ကျယ်ပြန့်စွာ ရရှိနိုင်သည်။ ကိုသူရသည် ၎င်းကို ဖတ်ပြီးနောက် ခက်ခဲသော မေးခွန်းတစ်ခု မေးခဲ့သည် - ဤသည် လူတစ်ဦး၏ အဆင်သင့် သဘောမတူဘူးသေးသည့် တစ်စုံတစ်ဦးကို ဆွဲဆောင်နိုင်ပါမည်လား။\n\nသူသည် အချက်အလက်များသာ ရှားရှားပါးပါးသာ ဆွဲဆောင်နိုင်ကြောင်း ရှင်းပြခဲ့သည် -- ၎င်းတို့သည် အသိပေးသော်လည်း ဆွဲဆောင်ခြင်းသည် အပေါ်ယံတွင် ထပ်ဆင့် နည်းပညာ လိုအပ်ကြောင်း ဖြစ်သည်။ နေချည်သည် သူမ၏ ဖွင့်ချက်ကို ပြန်ရေးခဲ့သည် - \"မိနစ် ငါးမိနစ်သာ သောက်ရသော အချိုရည်တစ်ခုသည် ကျွန်ုပ်တို့ တစ်ဦးချင်းစီထက် ကြာရှည်စွာ တည်ရှိနေရန် ကျွန်ုပ်တို့ ဆယ်စုနှစ် မည်မျှ ထပ်မံခွင့်ပြုကြမည်နည်း။\" ဤ Rhetorical မေးခွန်းသည် နားထောင်သူအား ပြဿနာ၏ အတိုင်းအတာကို Passive အနေဖြင့် အချက်တစ်ခုကို လက်ခံရုံမျှသာမက အမှန်တကယ် ရင်ဆိုင်စေရန် တွန်းအားပေးကြောင်း ကိုသူရ သတိပြုခဲ့သည်။\n\nသူမသည် ထင်ရှားသော Counter-Argument တစ်ခုကိုလည်း ကြိုတင် မျှော်လင့်ခဲ့သည် -- ပြန်သုံးနိုင်သော ပုလင်းများသည် အချို့မိသားစုများအတွက် ကုန်ကျစရိတ် ထပ်တိုးဖြစ်သည် -- ၎င်းကို လျစ်လျူရှုမည့်အစား တိုက်ရိုက် ကိုင်တွယ်ခဲ့သည် - \"သင်တို့ထဲမှ အချို့သည် ကုန်ကျစရိတ်အကြောင်း စိုးရိမ်ကောင်း စိုးရိမ်နိုင်ပြီး ထိုစိုးရိမ်မှုသည် တရားမျှတသည်။ သို့သော် ကျောင်းသည် လိုအပ်သော ကျောင်းသားတိုင်းကို အခမဲ့ ပြန်သုံးနိုင်သော ပုလင်းတစ်လုံး ပံ့ပိုးရန် သဘောတူပြီးသားဖြစ်ပြီး ၎င်းဆိုသည်မှာ ဤပြောင်းလဲမှုသည် မိသားစုများအတွက် ဘာမျှ ကုန်ကျစေမည် မဟုတ်ပါ။\" ကိုသူရသည် ဆန့်ကျင်ဘက် အမြင်ကို ဦးစွာ အသိအမှတ်ပြုပြီးမှ သက်သေအထောက်အထားဖြင့် ဖြိုချခြင်းသည် ၎င်းမရှိသကဲ့သို့ ဟန်ဆောင်ခြင်းထက် ပို၍ ဆွဲဆောင်နိုင်ကြောင်း ထောက်ပြခဲ့သည် -- Counter-Argument တစ်ခုကို လျစ်လျူရှုခြင်းသည် ပရိသတ်အား Counter-Argument ကို ပို၍ မယုံကြည်စေမည့်အစား ပို၍ ယုံကြည်စေတတ်ကြောင်း သူ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Thura say facts alone rarely persuade?",
+            questionMy:
+                "အချက်အလက်များသာ ရှားရှားပါးပါးသာ ဆွဲဆောင်နိုင်ကြောင်း ကိုသူရ အဘယ်ကြောင့် ဆိုခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Facts inform but persuasion needs technique layered on top",
+              "Facts are always incorrect",
+              "Facts are illegal to use in speeches",
+              "Facts take too long to read aloud",
+            ],
+            optionsMy: [
+              "အချက်အလက်များသည် အသိပေးသော်လည်း ဆွဲဆောင်ခြင်းသည် အပေါ်ယံတွင် ထပ်ဆင့် နည်းပညာ လိုအပ်သောကြောင့်",
+              "အချက်အလက်များသည် အမြဲ မှားယွင်းသောကြောင့်",
+              "မိန့်ခွန်းများတွင် အချက်အလက်များ သုံးခြင်းသည် တရားမဝင်သောကြောင့်",
+              "အချက်အလက်များသည် ကျယ်လောင်စွာ ဖတ်ရန် အလွန် ကြာသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence starting \"He explained that facts alone...\"",
+            ],
+            hintsMy: [
+              "\"သူသည် အချက်အလက်များသာ...ရှင်းပြခဲ့သည်\" ဟု စတင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Nay Chi handle the counter-argument about cost?",
+            questionMy:
+                "ကုန်ကျစရိတ်အကြောင်း Counter-Argument ကို နေချည် မည်သို့ ကိုင်တွယ်ခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She acknowledged the concern directly, then explained the school provides free bottles",
+              "She ignored the concern entirely",
+              "She told her classmates the concern was stupid",
+              "She refused to mention cost at all",
+            ],
+            optionsMy: [
+              "စိုးရိမ်မှုကို တိုက်ရိုက် အသိအမှတ်ပြုပြီးနောက် ကျောင်းက အခမဲ့ ပုလင်းများ ပံ့ပိုးကြောင်း ရှင်းပြခဲ့သည်",
+              "စိုးရိမ်မှုကို လုံးဝ လျစ်လျူရှုခဲ့သည်",
+              "စိုးရိမ်မှုသည် မိုက်မဲသည်ဟု သူမ၏ အတန်းသားများကို ပြောခဲ့သည်",
+              "ကုန်ကျစရိတ်အကြောင်း လုံးဝ မဖော်ပြရန် ငြင်းဆန်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the quoted sentence acknowledging the cost concern.",
+            ],
+            hintsMy: [
+              "ကုန်ကျစရိတ် စိုးရိမ်မှုကို အသိအမှတ်ပြုထားသော ကိုးကားစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Thura say ignoring a counter-argument does to an audience?",
+            questionMy:
+                "Counter-Argument တစ်ခုကို လျစ်လျူရှုခြင်းသည် ပရိသတ်အပေါ် မည်သို့ သက်ရောက်ကြောင်း ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It makes the audience trust the counter-argument more, not less",
+              "It makes the audience forget the counter-argument entirely",
+              "It has no effect at all",
+              "It automatically wins the argument",
+            ],
+            optionsMy: [
+              "ပရိသတ်အား Counter-Argument ကို ပို၍ မယုံကြည်စေမည့်အစား ပို၍ ယုံကြည်စေသည်",
+              "ပရိသတ်အား Counter-Argument ကို လုံးဝ မေ့သွားစေသည်",
+              "မည်သည့် သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+              "အငြင်းပွားမှုကို အလိုအလျောက် အနိုင်ရစေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Persuasive Argumentation",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆွဲဆောင်စည်းရုံးရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Addressing a counter-argument means...",
+          questionMy: "Counter-Argument တစ်ခုကို ကိုင်တွယ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Acknowledging it, then explaining why your position is stronger",
+            "Ignoring it completely",
+            "Agreeing with it entirely",
+            "Refusing to state an opinion",
+          ],
+          optionsMy: [
+            "အသိအမှတ်ပြုပြီးနောက် သင်၏ ရပ်တည်ချက် အဘယ်ကြောင့် ပို၍ ခိုင်မာကြောင်း ရှင်းပြခြင်း",
+            "လုံးဝ လျစ်လျူရှုခြင်း",
+            "လုံးဝ သဘောတူခြင်း",
+            "ထင်မြင်ချက် ဖော်ပြရန် ငြင်းဆန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A rhetorical question is used for...",
+          questionMy: "Rhetorical မေးခွန်းတစ်ခုကို ...အတွက် သုံးသည်",
+          optionsEn: [
+            "Persuasive effect, not a literal answer",
+            "Confusing the reader only",
+            "Formal citations only",
+            "No purpose at all",
+          ],
+          optionsMy: [
+            "ဆွဲဆောင်သော အကျိုးသက်ရောက်မှု၊ စာသားအတိုင်း အဖြေ မဟုတ်ဘဲ",
+            "စာဖတ်သူကို ရှုပ်ထွေးစေရန်သာ",
+            "တရားဝင် ကိုးကားချက်များအတွက်သာ",
+            "ရည်ရွယ်ချက် လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ignoring a counter-argument in persuasive writing typically...",
+          questionMy:
+              "ဆွဲဆောင်စည်းရုံးရေး အရေးအသားတွင် Counter-Argument တစ်ခုကို လျစ်လျူရှုခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Makes the audience trust it more",
+            "Automatically wins the argument",
+            "Has no effect on the reader",
+            "Is required by exam boards",
+          ],
+          optionsMy: [
+            "ပရိသတ်အား ၎င်းကို ပို၍ ယုံကြည်စေသည်",
+            "အငြင်းပွားမှုကို အလိုအလျောက် အနိုင်ရစေသည်",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "စာမေးပွဲအဖွဲ့များက တောင်းဆိုသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek7 = CourseWeekDef(
+  id: "course-igcse-eng-w7",
+  weekNumber: 7,
+  titleEn: "Evaluating and Responding",
+  titleMy: "အကဲဖြတ်ခြင်းနှင့် တုံ့ပြန်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w7-d1",
+      dayNumber: 1,
+      titleEn: "Synthesizing Source Points and Avoiding Plagiarism",
+      titleMy:
+          "အရင်းအမြစ် အချက်များ ပေါင်းစပ်ခြင်းနှင့် Plagiarism ရှောင်ရှားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Synthesizing multiple source texts means...",
+          questionMy:
+              "အရင်းအမြစ် စာသားများစွာကို Synthesize ပြုလုပ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Combining points from different sources into one cohesive, organised response",
+            "Choosing only one source and ignoring the rest",
+            "Copying each source in full, one after another",
+            "Deleting all evidence from every source",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော အရင်းအမြစ်များမှ အချက်များကို ချိတ်ဆက်ထားသော၊ စနစ်တကျ ရေးသားထားသော အဖြေတစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+            "အရင်းအမြစ်တစ်ခုတည်းကို ရွေးချယ်ပြီး ကျန်ရှိသည်များကို လျစ်လျူရှုခြင်း",
+            "အရင်းအမြစ်တစ်ခုစီကို တစ်ခုပြီးတစ်ခု အပြည့်အစုံ ကူးယူခြင်း",
+            "အရင်းအမြစ်တိုင်းမှ သက်သေအထောက်အထားအားလုံးကို ဖျက်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plagiarism in an evaluative response means...",
+          questionMy: "အကဲဖြတ် အဖြေတစ်ခုတွင် Plagiarism ဆိုသည်မှာ...",
+          optionsEn: [
+            "Presenting someone else's exact words or ideas as your own without credit",
+            "Writing an original idea in your own words",
+            "Correctly citing a quotation",
+            "Summarising a passage accurately",
+          ],
+          optionsMy: [
+            "တစ်စုံတစ်ဦး၏ စကားလုံး (သို့) အယူအဆများကို ဂုဏ်ပြု အသိအမှတ်ပြုခြင်း မရှိဘဲ ကိုယ်ပိုင်ကဲ့သို့ တင်ပြခြင်း",
+            "မူလ အယူအဆတစ်ခုကို ကိုယ်ပိုင်စကားလုံးများဖြင့် ရေးသားခြင်း",
+            "ကိုးကားချက်တစ်ခုကို မှန်ကန်စွာ ကိုးကားခြင်း",
+            "စာပိုဒ်တစ်ခုကို တိကျစွာ အကျဉ်းချုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A critical evaluation of a source text should assess...",
+          questionMy:
+              "အရင်းအမြစ် စာသားတစ်ခု၏ ဝေဖန်ဆန်းစစ်ခြင်းသည် ...ကို အကဲဖြတ်သင့်သည်",
+          optionsEn: [
+            "The reliability, bias, and strength of the evidence presented",
+            "Only the author's name",
+            "The font used in the source",
+            "The number of paragraphs only",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရမှု၊ ဘက်လိုက်မှုနှင့် တင်ပြထားသော သက်သေအထောက်အထား၏ ခိုင်မာမှု",
+            "စာရေးသူ၏ အမည်ကိုသာ",
+            "အရင်းအမြစ်တွင် သုံးထားသော Font",
+            "စာပိုဒ် အရေအတွက်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When two sources disagree, a strong evaluative response should...",
+          questionMy:
+              "အရင်းအမြစ် နှစ်ခု သဘောထားကွဲလွဲသောအခါ အားကောင်းသော အကဲဖြတ် အဖြေတစ်ခုသည်...",
+          optionsEn: [
+            "Acknowledge the disagreement and evaluate which position has stronger support",
+            "Pretend the disagreement does not exist",
+            "Only quote the first source",
+            "Randomly pick a side without reasoning",
+          ],
+          optionsMy: [
+            "သဘောထားကွဲလွဲမှုကို အသိအမှတ်ပြုပြီး မည်သည့် ရပ်တည်ချက်တွင် ပို၍ ခိုင်မာသော ထောက်ခံမှု ရှိကြောင်း အကဲဖြတ်သင့်သည်",
+            "သဘောထားကွဲလွဲမှု မရှိသကဲ့သို့ ဟန်ဆောင်သင့်သည်",
+            "ပထမ အရင်းအမြစ်ကိုသာ ကိုးကားသင့်သည်",
+            "ကျိုးကြောင်းဆင်ခြင်မှု မရှိဘဲ ကျပန်း ဘက်တစ်ဖက် ရွေးချယ်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using quotation marks and a citation when using another writer's exact phrase is...",
+          questionMy:
+              "အခြား စာရေးသူတစ်ဦး၏ အတိအကျ စကားစုကို သုံးသောအခါ Quotation Marks နှင့် ကိုးကားချက် သုံးခြင်းသည်...",
+          optionsEn: [
+            "Essential to avoid plagiarism",
+            "Completely unnecessary",
+            "Only required in fiction",
+            "Against exam board rules",
+          ],
+          optionsMy: [
+            "Plagiarism ရှောင်ရှားရန် မရှိမဖြစ်",
+            "လုံးဝ မလိုအပ်ပါ",
+            "Fiction တွင်သာ လိုအပ်သည်",
+            "စာမေးပွဲအဖွဲ့ စည်းမျဉ်းနှင့် ဆန့်ကျင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Source Evaluation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အရင်းအမြစ် အကဲဖြတ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w7-dm-1",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn:
+              "Combining ideas from multiple sources into one cohesive response",
+          matchMy:
+              "အရင်းအမြစ်များစွာမှ အယူအဆများကို ချိတ်ဆက်ထားသော အဖြေတစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w7-dm-2",
+          termEn: "Bias",
+          termMy: "Bias",
+          matchEn:
+              "A one-sided leaning that affects the objectivity of a source",
+          matchMy:
+              "အရင်းအမြစ်တစ်ခု၏ ဓမ္မဓိဋ္ဌာန်ကျမှုကို ထိခိုက်စေသော တစ်ဖက်စောင်း စောင်းနေမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w7-dm-3",
+          termEn: "Credibility",
+          termMy: "Credibility",
+          matchEn:
+              "How trustworthy and reliable a source or claim appears to be",
+          matchMy:
+              "အရင်းအမြစ် (သို့) Claim တစ်ခုသည် မည်မျှ ယုံကြည်စိတ်ချရ၊ ယုံကြည်ရသည်ကို ဆိုလိုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w7-dm-4",
+          termEn: "Plagiarism",
+          termMy: "Plagiarism",
+          matchEn:
+              "Presenting someone else's words or ideas as your own without credit",
+          matchMy:
+              "တစ်စုံတစ်ဦး၏ စကားလုံး (သို့) အယူအဆများကို ဂုဏ်ပြု အသိအမှတ်ပြုခြင်း မရှိဘဲ ကိုယ်ပိုင်ကဲ့သို့ တင်ပြခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w7-dm-5",
+          termEn: "Citation",
+          termMy: "Citation",
+          matchEn:
+              "A formal reference acknowledging the original source of a quoted idea",
+          matchMy:
+              "ကိုးကားထားသော အယူအဆတစ်ခု၏ မူလ အရင်းအမြစ်ကို အသိအမှတ်ပြုသော တရားဝင် ကိုးကားချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reliable or Unreliable Source?",
+      titleMy: "စီစစ်ကြမည် - ယုံကြည်ရသော (သို့) မယုံကြည်ရသော အရင်းအမြစ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Likely Reliable", "Likely Unreliable"],
+        bucketsMy: ["ယုံကြည်ရဖွယ်ရှိ", "မယုံကြည်ရဖွယ်ရှိ"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w7-sort-1",
+            labelEn:
+                "A peer-reviewed scientific study published in a respected journal",
+            labelMy:
+                "လေးစားရသော ဂျာနယ်တစ်ခုတွင် ထုတ်ဝေထားသော Peer-Reviewed သိပ္ပံဆိုင်ရာ လေ့လာမှု",
+            correctBucketEn: "Likely Reliable",
+            correctBucketMy: "ယုံကြည်ရဖွယ်ရှိ",
+          ),
+          SortingItem(
+            id: "igcseeng-w7-sort-2",
+            labelEn: "An anonymous social media post with no evidence cited",
+            labelMy:
+                "သက်သေအထောက်အထား လုံးဝ မကိုးကားထားသော အမည်မသိ Social Media Post",
+            correctBucketEn: "Likely Unreliable",
+            correctBucketMy: "မယုံကြည်ရဖွယ်ရှိ",
+          ),
+          SortingItem(
+            id: "igcseeng-w7-sort-3",
+            labelEn:
+                "An official government statistics report with clear methodology",
+            labelMy:
+                "ရှင်းလင်းသော Methodology ပါရှိသော တရားဝင် အစိုးရ စာရင်းအင်း အစီရင်ခံစာ",
+            correctBucketEn: "Likely Reliable",
+            correctBucketMy: "ယုံကြည်ရဖွယ်ရှိ",
+          ),
+          SortingItem(
+            id: "igcseeng-w7-sort-4",
+            labelEn:
+                "A product review paid for by the company selling the product",
+            labelMy:
+                "ကုန်ပစ္စည်း ရောင်းချသော ကုမ္ပဏီက ငွေပေးထားသော ကုန်ပစ္စည်း ဝေဖန်ချက်",
+            correctBucketEn: "Likely Unreliable",
+            correctBucketMy: "မယုံကြည်ရဖွယ်ရှိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Two-Source Synthesis",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ အရင်းအမြစ်နှစ်ခု ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Two-Source Synthesis",
+        titleMy: "နေချည်၏ အရင်းအမြစ်နှစ်ခု ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "Ko Thura handed Nay Chi two short texts about school uniforms. One, from a student council survey, argued uniforms reduced social pressure by removing visible wealth differences between students. The other, an opinion column, argued uniforms suppressed individual expression and did little to actually reduce bullying. Her task was not to pick a side, but to write an evaluative response weighing both.\n\nHer first attempt simply summarised each source one after another, with no real connection between them -- essentially two mini-summaries stapled together. Ko Thura pointed out that this wasn't synthesis at all; a synthesis had to actively compare the sources, noting where they agreed, disagreed, and why one argument might be stronger than the other given the evidence each provided.\n\nOn her second attempt, Nay Chi wrote: \"While the student council survey presents quantitative evidence that visible wealth differences decreased under uniform policies, the opinion column offers no comparable data to support its claim that bullying continued regardless -- suggesting the survey's argument, though narrower in scope, rests on firmer evidential ground.\" She also made sure to place quotation marks around any phrase she borrowed directly, citing which source it came from. Ko Thura told her this was exactly the skill Cambridge examiners were looking for: not choosing a winner blindly, but reasoning transparently about which evidence was actually stronger, and showing her sources honestly rather than passing borrowed words off as her own.",
+        passageMy:
+            "ကိုသူရသည် ကျောင်းယူနီဖောင်းများအကြောင်း စာသားတိုတစ်ခု နှစ်ခုကို နေချည်ကို ပေးအပ်ခဲ့သည်။ ကျောင်းသားကောင်စီ စစ်တမ်းမှ တစ်ခုသည် ယူနီဖောင်းများသည် ကျောင်းသားများကြား မြင်သာသော ချမ်းသာမှု ခြားနားချက်များကို ဖယ်ရှားခြင်းဖြင့် လူမှုရေး ဖိအားကို လျော့ချကြောင်း ငြင်းခုံခဲ့သည်။ အခြားတစ်ခု၊ ထင်မြင်ချက် ကော်လံသည် ယူနီဖောင်းများသည် တစ်ဦးချင်း ဖော်ပြမှုကို ဖိနှိပ်ကာ ဖိနှိပ်ကလှောင်မှုကို အမှန်တကယ် လျော့ချရန် အနည်းငယ်သာ ကူညီကြောင်း ငြင်းခုံခဲ့သည်။ သူမ၏ တာဝန်မှာ ဘက်တစ်ဖက် ရွေးချယ်ရန် မဟုတ်ဘဲ၊ နှစ်ခုစလုံးကို ချိန်ညှိသော အကဲဖြတ် အဖြေတစ်ခု ရေးသားရန် ဖြစ်ခဲ့သည်။\n\nသူမ၏ ပထမ ကြိုးပမ်းမှုသည် အရင်းအမြစ်တစ်ခုစီကို တစ်ခုပြီးတစ်ခု ရိုးရိုးရှင်းရှင်း အကျဉ်းချုပ်ခဲ့ပြီး ၎င်းတို့ကြား စစ်မှန်သော ချိတ်ဆက်မှု မရှိခဲ့ပါ -- အခြေခံအားဖြင့် Mini-Summary နှစ်ခုကို Staple တပ်ထားသကဲ့သို့ ဖြစ်ခဲ့သည်။ ကိုသူရသည် ၎င်းသည် Synthesis လုံးဝ မဟုတ်ကြောင်း ထောက်ပြခဲ့သည်၊ Synthesis တစ်ခုသည် အရင်းအမြစ်များကို စိတ်ကြိုက် နှိုင်းယှဉ်ရမည်ဖြစ်ပြီး ၎င်းတို့ ဘယ်နေရာတွင် သဘောတူသည်၊ ကွဲလွဲသည်၊ အဘယ်ကြောင့် တစ်ခု၏ အငြင်းပွားမှုသည် ပေးအပ်ထားသော သက်သေအထောက်အထားအရ ပို၍ ခိုင်မာနိုင်သည်ကို မှတ်သားရမည် ဖြစ်သည်။\n\nသူမ၏ ဒုတိယ ကြိုးပမ်းမှုတွင် နေချည်သည် ဤသို့ ရေးခဲ့သည် - \"ကျောင်းသားကောင်စီ စစ်တမ်းသည် ယူနီဖောင်း မူဝါဒများအောက်တွင် မြင်သာသော ချမ်းသာမှု ခြားနားချက်များ လျော့ကျသွားကြောင်း Quantitative သက်သေအထောက်အထားကို တင်ပြသော်လည်း၊ ထင်မြင်ချက် ကော်လံသည် ဖိနှိပ်ကလှောင်မှု မည်သို့ ဖြစ်စေ ဆက်လက်ဖြစ်ပွားနေကြောင်း ၎င်း၏ Claim ကို ထောက်ခံရန် နှိုင်းယှဉ်နိုင်သော ဒေတာ မတင်ပြပါ -- ၎င်းသည် စစ်တမ်း၏ အငြင်းပွားမှုသည် နယ်ပယ်ကျဉ်းသော်လည်း ပို၍ ခိုင်မာသော သက်သေအထောက်အထားအခြေခံအပေါ် တည်နေကြောင်း အကြံပြုသည်။\" သူမသည် တိုက်ရိုက် ငှားယူထားသော စကားစုမည်သည့်အရာကိုမဆို ၎င်းသည် မည်သည့် အရင်းအမြစ်မှ လာကြောင်း ကိုးကားကာ Quotation Marks ဖြင့် ချုပ်ထားရန်လည်း သေချာစေခဲ့သည်။ ကိုသူရသည် ၎င်းသည် Cambridge စစ်ဆေးသူများ ရှာဖွေနေသော ကျွမ်းကျင်မှု အတိအကျ ဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - မျက်စိမှိတ်ကာ အနိုင်ရသူကို ရွေးချယ်ခြင်း မဟုတ်ဘဲ၊ မည်သည့် သက်ရောက်မှု အမှန်တကယ် ပို၍ ခိုင်မာကြောင်း ပွင့်လင်းစွာ ကျိုးကြောင်းဆင်ခြင်ခြင်းနှင့် ငှားယူထားသော စကားလုံးများကို ကိုယ်ပိုင်ဟန် ဟန်ဆောင်မည့်အစား သူမ၏ အရင်းအမြစ်များကို ရိုးသားစွာ ပြသခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem did Ko Thura identify with Nay Chi's first attempt?",
+            questionMy:
+                "နေချည်၏ ပထမ ကြိုးပမ်းမှုတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It simply summarised each source with no real connection between them",
+              "It was too short to read",
+              "It only used one source",
+              "It contained no facts at all",
+            ],
+            optionsMy: [
+              "အရင်းအမြစ်တစ်ခုစီကို စစ်မှန်သော ချိတ်ဆက်မှု မရှိဘဲ ရိုးရိုးရှင်းရှင်း အကျဉ်းချုပ်ခဲ့သည်",
+              "ဖတ်ရန် အလွန် တိုတောင်းခဲ့သည်",
+              "အရင်းအမြစ်တစ်ခုတည်းကိုသာ သုံးခဲ့သည်",
+              "အချက်အလက် လုံးဝ မပါခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing her first attempt as \"two mini-summaries stapled together.\"",
+            ],
+            hintsMy: [
+              "သူမ၏ ပထမ ကြိုးပမ်းမှုကို \"Mini-Summary နှစ်ခု Staple တပ်ထားသကဲ့သို့\" ဟု ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Nay Chi conclude the survey's argument rested on firmer ground?",
+            questionMy:
+                "စစ်တမ်း၏ အငြင်းပွားမှုသည် ပို၍ ခိုင်မာသော အခြေခံအပေါ် တည်ကြောင်း နေချည် အဘယ်ကြောင့် ကောက်ချက်ချခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The opinion column offered no comparable data to support its claim",
+              "The opinion column was written more recently",
+              "The survey was longer",
+              "The opinion column used better vocabulary",
+            ],
+            optionsMy: [
+              "ထင်မြင်ချက် ကော်လံသည် ၎င်း၏ Claim ကို ထောက်ခံရန် နှိုင်းယှဉ်နိုင်သော ဒေတာ မတင်ပြခဲ့ပါ",
+              "ထင်မြင်ချက် ကော်လံသည် ပို၍ မကြာသေးမီက ရေးသားခဲ့သောကြောင့်",
+              "စစ်တမ်းသည် ပို၍ ရှည်လျားသောကြောင့်",
+              "ထင်မြင်ချက် ကော်လံသည် ပို၍ ကောင်းမွန်သော ဝေါဟာရ သုံးထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the quoted evaluative sentence in paragraph 3."],
+            hintsMy: [
+              "စာပိုဒ် ၃ ရှိ ကိုးကားထားသော အကဲဖြတ်ချက် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what skill did Ko Thura say Cambridge examiners were looking for?",
+            questionMy:
+                "Cambridge စစ်ဆေးသူများ ရှာဖွေနေသော ကျွမ်းကျင်မှုကို ကိုသူရ ဘာဟု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reasoning transparently about which evidence is stronger, and citing sources honestly",
+              "Picking a winner blindly with no reasoning",
+              "Copying both sources word for word",
+              "Avoiding all evaluation entirely",
+            ],
+            optionsMy: [
+              "မည်သည့် သက်ရောက်မှု ပို၍ ခိုင်မာကြောင်း ပွင့်လင်းစွာ ကျိုးကြောင်းဆင်ခြင်ခြင်းနှင့် အရင်းအမြစ်များကို ရိုးသားစွာ ကိုးကားခြင်း",
+              "ကျိုးကြောင်းဆင်ခြင်မှု မရှိဘဲ မျက်စိမှိတ်ကာ အနိုင်ရသူ ရွေးချယ်ခြင်း",
+              "အရင်းအမြစ်နှစ်ခုလုံးကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+              "အကဲဖြတ်ခြင်းအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Evaluating Sources",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - အရင်းအမြစ်များ အကဲဖြတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Synthesis means...",
+          questionMy: "Synthesis ဆိုသည်မှာ...",
+          optionsEn: [
+            "Combining points from multiple sources into one cohesive response",
+            "Choosing only one source",
+            "Copying every source in full",
+            "Deleting all evidence",
+          ],
+          optionsMy: [
+            "အရင်းအမြစ်များစွာမှ အချက်များကို ချိတ်ဆက်ထားသော အဖြေတစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+            "အရင်းအမြစ်တစ်ခုတည်းကိုသာ ရွေးချယ်ခြင်း",
+            "အရင်းအမြစ်တိုင်းကို အပြည့်အစုံ ကူးယူခြင်း",
+            "သက်သေအထောက်အထားအားလုံးကို ဖျက်ပစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plagiarism means...",
+          questionMy: "Plagiarism ဆိုသည်မှာ...",
+          optionsEn: [
+            "Presenting someone else's words as your own without credit",
+            "Citing a source correctly",
+            "Writing in your own words",
+            "Summarising accurately",
+          ],
+          optionsMy: [
+            "တစ်စုံတစ်ဦး၏ စကားလုံးများကို ဂုဏ်ပြု အသိအမှတ်ပြုခြင်း မရှိဘဲ ကိုယ်ပိုင်ကဲ့သို့ တင်ပြခြင်း",
+            "အရင်းအမြစ်တစ်ခုကို မှန်ကန်စွာ ကိုးကားခြင်း",
+            "ကိုယ်ပိုင်စကားလုံးများဖြင့် ရေးသားခြင်း",
+            "တိကျစွာ အကျဉ်းချုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A critical evaluation of a source should assess...",
+          questionMy:
+              "အရင်းအမြစ်တစ်ခု၏ ဝေဖန်ဆန်းစစ်ခြင်းသည် ...ကို အကဲဖြတ်သင့်သည်",
+          optionsEn: [
+            "Reliability and strength of evidence",
+            "Only the font used",
+            "The author's age",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရမှုနှင့် သက်သေအထောက်အထား၏ ခိုင်မာမှု",
+            "သုံးထားသော Font ကိုသာ",
+            "စာရေးသူ၏ အသက်",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek8 = CourseWeekDef(
+  id: "course-igcse-eng-w8",
+  weekNumber: 8,
+  titleEn: "Directed Writing Mock Studio",
+  titleMy: "Directed Writing ပုံစံတူ စာမေးပွဲ အလုပ်ရုံ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w8-d1",
+      dayNumber: 1,
+      titleEn: "Timed Exam Simulation and Evaluating Prompts",
+      titleMy:
+          "အချိန်ကန့်သတ်ထားသော စာမေးပွဲ ပုံစံတူနှင့် Prompt များ အကဲဖြတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before writing, the first step with a Directed Writing prompt should be to identify...",
+          questionMy:
+              "မရေးသားမီ Directed Writing Prompt တစ်ခုနှင့် ပတ်သက်၍ ပထမ အဆင့်မှာ ...ကို ခွဲခြားသတ်မှတ်ရန် ဖြစ်သင့်သည်",
+          optionsEn: [
+            "The form, audience, and purpose required",
+            "The exact number of pages available",
+            "The colour of pen to use",
+            "The invigilator's name",
+          ],
+          optionsMy: [
+            "လိုအပ်သော ပုံစံ၊ ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "ရရှိနိုင်သော စာမျက်နှာ အတိအကျ",
+            "သုံးရမည့် ခဲတံအရောင်",
+            "စစ်ဆေးသူ၏ အမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A Directed Writing task typically requires evaluating and using source material by...",
+          questionMy:
+              "Directed Writing လုပ်ငန်းတစ်ခုသည် ပုံမှန်အားဖြင့် ...ဖြင့် အရင်းအမြစ် ပစ္စည်းကို အကဲဖြတ်ပြီး သုံးရန် လိုအပ်သည်",
+          optionsEn: [
+            "Selecting relevant points and reshaping them for the new audience and purpose",
+            "Copying the source material unchanged",
+            "Ignoring the source material entirely",
+            "Only quoting the title",
+          ],
+          optionsMy: [
+            "သက်ဆိုင်သော အချက်များကို ရွေးချယ်ပြီး ပရိသတ်အသစ်နှင့် ရည်ရွယ်ချက်အတွက် ပုံသွင်းခြင်း",
+            "အရင်းအမြစ် ပစ္စည်းကို မပြောင်းလဲဘဲ ကူးယူခြင်း",
+            "အရင်းအမြစ် ပစ္စည်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ခေါင်းစဉ်ကိုသာ ကိုးကားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong persuasive piece for Directed Writing should balance...",
+          questionMy:
+              "Directed Writing အတွက် အားကောင်းသော ဆွဲဆောင်စည်းရုံးရေး ရေးသားချက်တစ်ခုသည် ...ကို ဟန်ချက်ညီအောင် ထားသင့်သည်",
+          optionsEn: [
+            "Persuasive technique with clear, structured reasoning",
+            "Emotion alone with no reasoning at all",
+            "Facts alone with no persuasive technique",
+            "Random, disconnected ideas",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော၊ စနစ်တကျ ရေးသားထားသော ကျိုးကြောင်းဆင်ခြင်မှုနှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ",
+            "ကျိုးကြောင်းဆင်ခြင်မှု လုံးဝ မပါဘဲ ခံစားချက်တစ်ခုတည်း",
+            "ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ မပါဘဲ အချက်အလက်တစ်ခုတည်း",
+            "ကျပန်း၊ မဆက်စပ်သော အယူအဆများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking that form, tone, and structure all match the task's requirements before submitting is called...",
+          questionMy:
+              "တင်သွင်းမီ ပုံစံ၊ လေယူလေသိမ်းနှင့် ဖွဲ့စည်းပုံအားလုံး လုပ်ငန်း၏ လိုအပ်ချက်များနှင့် ကိုက်ညီကြောင်း စစ်ဆေးခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Self-editing/proofreading",
+            "Guessing",
+            "Plagiarising",
+            "Ignoring the mark scheme",
+          ],
+          optionsMy: [
+            "Self-Editing/Proofreading",
+            "မှန်းဆခြင်း",
+            "Plagiarising",
+            "Mark Scheme ကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Peer review before a final submission is valuable mainly because it...",
+          questionMy:
+              "နောက်ဆုံး တင်သွင်းမှုမတိုင်မီ Peer Review ပြုလုပ်ခြင်းသည် အဓိကအားဖြင့် ...ကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Reveals errors or unclear points the writer may not notice alone",
+            "Guarantees a perfect score automatically",
+            "Replaces the need to proofread at all",
+            "Has no real benefit",
+          ],
+          optionsMy: [
+            "စာရေးသူ တစ်ဦးတည်း သတိမပြုမိနိုင်သော အမှားများ (သို့) ရှင်းလင်းမှု မရှိသော အချက်များကို ဖော်ထုတ်ပေးသောကြောင့်",
+            "ပြီးပြည့်စုံသော ရမှတ်ကို အလိုအလျောက် အာမခံသောကြောင့်",
+            "Proofread ပြုလုပ်ရန် လိုအပ်ချက်ကို လုံးဝ အစားထိုးသောကြောင့်",
+            "စစ်မှန်သော အကျိုးကျေးဇူး မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Directed Writing Term Review",
+      titleMy: "တွဲစပ်ကြမည် - Directed Writing နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w8-dm-1",
+          termEn: "Form",
+          termMy: "Form",
+          matchEn:
+              "The specific genre required, such as a letter, article, or speech",
+          matchMy:
+              "စာ၊ ဆောင်းပါး (သို့) မိန့်ခွန်းကဲ့သို့ လိုအပ်သော တိကျသော အမျိုးအစား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w8-dm-2",
+          termEn: "Counter-argument",
+          termMy: "Counter-Argument",
+          matchEn:
+              "An opposing view acknowledged, then refuted, to strengthen a position",
+          matchMy:
+              "ရပ်တည်ချက်တစ်ခုကို ခိုင်မာစေရန် အသိအမှတ်ပြုပြီးနောက် ချေဖျက်ထားသော ဆန့်ကျင်ဘက် အမြင်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w8-dm-3",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn:
+              "Combining points from multiple sources into one cohesive response",
+          matchMy:
+              "အရင်းအမြစ်များစွာမှ အချက်များကို ချိတ်ဆက်ထားသော အဖြေတစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w8-dm-4",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn:
+              "The level of formality adjusted to suit the audience and purpose",
+          matchMy:
+              "ပရိသတ်နှင့် ရည်ရွယ်ချက်နှင့် ကိုက်ညီအောင် ချိန်ညှိထားသော တရားဝင်မှု အဆင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w8-dm-5",
+          termEn: "Self-editing",
+          termMy: "Self-Editing",
+          matchEn:
+              "Reviewing one's own draft for errors and clarity before submission",
+          matchMy:
+              "တင်သွင်းမီ ကိုယ်ပိုင် မူကြမ်းကို အမှားများနှင့် ရှင်းလင်းမှုအတွက် ပြန်လည်ဆန်းစစ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 2 Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - ဒုတိယနှစ်ဝက် မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Structure/Form",
+          "Persuasive Technique",
+          "Source Evaluation",
+        ],
+        bucketsMy: [
+          "Structure/Form",
+          "Persuasive Technique",
+          "Source Evaluation",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w8-sort-1",
+            labelEn:
+                "Choosing a formal salutation and professional register for a letter",
+            labelMy:
+                "စာတစ်စောင်အတွက် တရားဝင် နှုတ်ခွန်းဆက်ခြင်းနှင့် ပရော်ဖက်ရှင်နယ် Register ရွေးချယ်ခြင်း",
+            correctBucketEn: "Structure/Form",
+            correctBucketMy: "Structure/Form",
+          ),
+          SortingItem(
+            id: "igcseeng-w8-sort-2",
+            labelEn:
+                "Using a rhetorical question to make the audience confront the issue directly",
+            labelMy:
+                "ပရိသတ်ကို ကိစ္စရပ်ကို တိုက်ရိုက် ရင်ဆိုင်စေရန် Rhetorical မေးခွန်း သုံးခြင်း",
+            correctBucketEn: "Persuasive Technique",
+            correctBucketMy: "Persuasive Technique",
+          ),
+          SortingItem(
+            id: "igcseeng-w8-sort-3",
+            labelEn:
+                "Comparing two texts to decide which has stronger supporting evidence",
+            labelMy:
+                "မည်သည့်တစ်ခုတွင် ပို၍ ခိုင်မာသော ထောက်ခံသက်သေအထောက်အထား ရှိကြောင်း ဆုံးဖြတ်ရန် စာသားနှစ်ခု နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Source Evaluation",
+            correctBucketMy: "Source Evaluation",
+          ),
+          SortingItem(
+            id: "igcseeng-w8-sort-4",
+            labelEn:
+                "Acknowledging an opposing view, then dismantling it with evidence",
+            labelMy:
+                "ဆန့်ကျင်ဘက် အမြင်တစ်ခုကို အသိအမှတ်ပြုပြီးနောက် သက်သေအထောက်အထားဖြင့် ဖြိုချခြင်း",
+            correctBucketEn: "Persuasive Technique",
+            correctBucketMy: "Persuasive Technique",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Directed Writing Mock Result",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Directed Writing ပုံစံတူ စာမေးပွဲ ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Directed Writing Mock Result",
+        titleMy: "နေချည်၏ Directed Writing ပုံစံတူ စာမေးပွဲ ရလဒ်",
+        passageEn:
+            "For the Term 2 capstone, Ko Thura gave Nay Chi a complete, timed Directed Writing paper: a source text about a proposed shortening of school lunch breaks, with instructions to write a formal letter to the school board either supporting or opposing the change, using and evaluating points from the source.\n\nNay Chi spent her first five minutes doing exactly what she had practised all term: identifying the form (formal letter), audience (school board), and purpose (persuasive), then noting which source points were relevant to her chosen position. She opened formally, addressed the strongest counter-argument in the source directly rather than avoiding it, layered in one rhetorical question at a carefully chosen moment rather than overusing the technique, and closed with a clear, confident recommendation.\n\nWhen Ko Thura marked her paper against the model answer, he noted that her structure, tone, and persuasive technique were all excellent -- but she had spent too many words summarising the source material and too few actually evaluating it, meaning some marks for critical evaluation had been left on the table. He explained this was a common and fixable habit: students often felt safer reporting what a source said than judging it, but Cambridge examiners specifically rewarded the judging. Nay Chi wrote a new note in her exam-strategy page: describe briefly, evaluate thoroughly -- and carried that lesson directly into Term 3's narrative writing, where every choice, she now understood, needed a reason behind it.",
+        passageMy:
+            "ဒုတိယ နှစ်ဝက် Capstone အတွက် ကိုသူရသည် နေချည်ကို Directed Writing စာစောင် အချိန်ကန့်သတ်ထားသော အပြည့်အစုံ ပေးအပ်ခဲ့သည် - ကျောင်းနေ့လယ်စာ အနားယူချိန် တိုတောင်းစေရန် အဆိုပြုချက်အကြောင်း အရင်းအမြစ် စာသားတစ်ခု၊ ၎င်းနှင့်အတူ အရင်းအမြစ်မှ အချက်များကို သုံးပြီး အကဲဖြတ်ကာ ပြောင်းလဲမှုကို ထောက်ခံသည် (သို့) ကန့်ကွက်သည် ကျောင်းဘုတ်အဖွဲ့ထံ တရားဝင်စာတစ်စောင် ရေးရန် ညွှန်ကြားချက်များ ဖြစ်ခဲ့သည်။\n\nနေချည်သည် သူမ ပထမငါးမိနစ်ကို နှစ်ဝက်တစ်လျှောက် လေ့ကျင့်ခဲ့သည့်အတိုင်း ကုန်ဆုံးခဲ့သည် - ပုံစံ (တရားဝင်စာ)၊ ပရိသတ် (ကျောင်းဘုတ်အဖွဲ့) နှင့် ရည်ရွယ်ချက် (ဆွဲဆောင်စည်းရုံးရေး) ကို ခွဲခြားသတ်မှတ်ပြီးနောက် သူမ ရွေးချယ်ထားသော ရပ်တည်ချက်နှင့် မည်သည့် အရင်းအမြစ် အချက်များ သက်ဆိုင်ကြောင်း မှတ်သားခဲ့သည်။ သူမသည် တရားဝင်စွာ ဖွင့်ခဲ့ပြီး၊ ရှောင်ရှားမည့်အစား အရင်းအမြစ်ထဲရှိ အားအကောင်းဆုံး Counter-Argument ကို တိုက်ရိုက် ကိုင်တွယ်ခဲ့ကာ၊ နည်းပညာကို လွန်ကဲစွာ မသုံးဘဲ ဂရုတစိုက် ရွေးချယ်ထားသော အချိန်တစ်ခုတွင် Rhetorical မေးခွန်း တစ်ခု ထည့်သွင်းခဲ့ပြီး၊ ရှင်းလင်း၍ ယုံကြည်စိတ်ချရသော အကြံပြုချက်ဖြင့် ပိတ်ခဲ့သည်။\n\nကိုသူရသည် သူမ၏ စာရွက်ကို Model Answer နှင့် ယှဉ်၍ အမှတ်ပေးရာ သူမ၏ ဖွဲ့စည်းပုံ၊ လေယူလေသိမ်းနှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာအားလုံး အလွန် ကောင်းမွန်ကြောင်း သတိပြုမိခဲ့သော်လည်း -- သူမသည် အရင်းအမြစ် ပစ္စည်းကို အကျဉ်းချုပ်ရန် စကားလုံး များစွာ ကုန်ဆုံးခဲ့ပြီး ၎င်းကို အမှန်တကယ် အကဲဖြတ်ရန် စကားလုံး နည်းလွန်းစွာသာ သုံးခဲ့သဖြင့် ဝေဖန်ဆန်းစစ်ခြင်းအတွက် အမှတ်အချို့ ကျန်ရှိနေခဲ့ကြောင်း ဖြစ်သည်။ ၎င်းသည် ဘုံအလေ့အထတစ်ခုနှင့် ပြုပြင်နိုင်သော အလေ့အထတစ်ခု ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည် - ကျောင်းသားများသည် အရင်းအမြစ်က ဘာဆိုကြောင်း ဆုံးဖြတ်ခြင်းထက် အစီရင်ခံခြင်းကို ပို၍ ဘေးကင်းသည်ဟု ခံစားရလေ့ရှိသော်လည်း Cambridge စစ်ဆေးသူများသည် ဆုံးဖြတ်ခြင်းကို အထူးသဖြင့် အကျိုးဆုတန်ခံလေ့ရှိသည်။ နေချည်သည် သူမ၏ စာမေးပွဲ မဟာဗျူဟာ စာမျက်နှာတွင် မှတ်စုအသစ်တစ်ခု ရေးခဲ့သည် - အနှစ်ချုပ်စွာ ဖော်ပြပါ၊ စေ့စပ်စွာ အကဲဖြတ်ပါ -- ထိုသင်ခန်းစာကို တတိယနှစ်ဝက်၏ ဇာတ်ကြောင်းပြော ရေးသားမှုသို့ တိုက်ရိုက် ယူဆောင်သွားခဲ့ပြီး၊ ယခုအခါ ရွေးချယ်မှုတိုင်းသည် ၎င်းကျောနောက်တွင် အကြောင်းရင်းတစ်ခု လိုအပ်ကြောင်း သူမ နားလည်လာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi do in her first five minutes of the mock exam?",
+            questionMy:
+                "ပုံစံတူ စာမေးပွဲ၏ ပထမငါးမိနစ်တွင် နေချည် ဘာလုပ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Identified the form, audience, and purpose, and noted relevant source points",
+              "Wrote the conclusion first",
+              "Skipped the source text entirely",
+              "Wrote random unrelated ideas",
+            ],
+            optionsMy: [
+              "ပုံစံ၊ ပရိသတ်နှင့် ရည်ရွယ်ချက်ကို ခွဲခြားသတ်မှတ်ပြီး သက်ဆိုင်သော အရင်းအမြစ် အချက်များကို မှတ်သားခဲ့သည်",
+              "နိဂုံးကို ဦးစွာ ရေးခဲ့သည်",
+              "အရင်းအမြစ် စာသားကို လုံးဝ ကျော်ခဲ့သည်",
+              "မသက်ဆိုင်သော ကျပန်း အယူအဆများ ရေးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing her first five minutes."],
+            hintsMy: [
+              "သူမ၏ ပထမငါးမိနစ်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific weakness did Ko Thura identify in her mock result?",
+            questionMy:
+                "သူမ၏ ပုံစံတူ ရလဒ်တွင် ကိုသူရ မည်သည့် တိကျသော အားနည်းချက်ကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She spent too many words summarising the source and too few evaluating it",
+              "Her structure and tone were both weak",
+              "She wrote no persuasive technique at all",
+              "She ran out of time completely",
+            ],
+            optionsMy: [
+              "သူမသည် အရင်းအမြစ်ကို အကျဉ်းချုပ်ရန် စကားလုံး များစွာ ကုန်ဆုံးခဲ့ပြီး ၎င်းကို အကဲဖြတ်ရန် စကားလုံး နည်းလွန်းစွာသာ သုံးခဲ့သည်",
+              "သူမ၏ ဖွဲ့စည်းပုံနှင့် လေယူလေသိမ်း နှစ်ခုစလုံး အားနည်းခဲ့သည်",
+              "ဆွဲဆောင်စည်းရုံးရေး နည်းပညာ လုံးဝ မရေးခဲ့ပါ",
+              "အချိန် လုံးဝ ကုန်ဆုံးသွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what marks were left on the table.",
+            ],
+            hintsMy: [
+              "မည်သည့် အမှတ်များ ကျန်ရှိနေခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what note did Nay Chi write in her exam-strategy page?",
+            questionMy:
+                "သူမ၏ စာမေးပွဲ မဟာဗျူဟာ စာမျက်နှာတွင် နေချည် မည်သည့် မှတ်စု ရေးခဲ့သနည်း၊ နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Describe briefly, evaluate thoroughly",
+              "Copy everything, evaluate nothing",
+              "Ignore the source entirely",
+              "Always write the maximum word count",
+            ],
+            optionsMy: [
+              "အနှစ်ချုပ်စွာ ဖော်ပြပါ၊ စေ့စပ်စွာ အကဲဖြတ်ပါ",
+              "အားလုံးကို ကူးယူပါ၊ ဘာမှ အကဲမဖြတ်ပါနှင့်",
+              "အရင်းအမြစ်ကို လုံးဝ လျစ်လျူရှုပါ",
+              "အမြဲ အများဆုံး စကားလုံးရေ ရေးပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence just before the final clause about Term 3.",
+            ],
+            hintsMy: [
+              "တတိယနှစ်ဝက်အကြောင်း နောက်ဆုံး ဝါကျပိုင်း မတိုင်မီ စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Directed Writing Mastery",
+      titleMy: "ဒုတိယတန်း Capstone - Directed Writing ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The first step with any Directed Writing prompt is to identify...",
+          questionMy:
+              "Directed Writing Prompt မည်သည့်တစ်ခုမဆိုနှင့် ပတ်သက်၍ ပထမ အဆင့်မှာ ...ကို ခွဲခြားသတ်မှတ်ရန် ဖြစ်သည်",
+          optionsEn: [
+            "Form, audience, and purpose",
+            "Page count only",
+            "Pen colour",
+            "Invigilator's name",
+          ],
+          optionsMy: [
+            "ပုံစံ၊ ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "စာမျက်နှာအရေအတွက်ကိုသာ",
+            "ခဲတံအရောင်",
+            "စစ်ဆေးသူ၏ အမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A common weakness in Directed Writing is spending too much time...",
+          questionMy:
+              "Directed Writing တွင် ဘုံ အားနည်းချက်တစ်ခုမှာ ...ကို အချိန် များစွာ ကုန်ဆုံးခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Summarising the source rather than evaluating it",
+            "Structuring the response",
+            "Choosing a tone",
+            "Reading the prompt",
+          ],
+          optionsMy: [
+            "အရင်းအမြစ်ကို အကဲမဖြတ်ဘဲ အကျဉ်းချုပ်ရန်",
+            "အဖြေကို ဖွဲ့စည်းရန်",
+            "လေယူလေသိမ်း ရွေးချယ်ရန်",
+            "Prompt ကို ဖတ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cambridge examiners specifically reward...",
+          questionMy:
+              "Cambridge စစ်ဆေးသူများသည် အထူးသဖြင့် ...ကို အကျိုးဆုတန်ခံလေ့ရှိသည်",
+          optionsEn: [
+            "Judging and evaluating source material, not just reporting it",
+            "Copying the source word for word",
+            "Ignoring the audience",
+            "Writing the shortest possible answer",
+          ],
+          optionsMy: [
+            "အရင်းအမြစ် ပစ္စည်းကို အစီရင်ခံခြင်းသာမက ဆုံးဖြတ်ခြင်းနှင့် အကဲဖြတ်ခြင်း",
+            "အရင်းအမြစ်ကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+            "ပရိသတ်ကို လျစ်လျူရှုခြင်း",
+            "ဖြစ်နိုင်သမျှ တိုတောင်းသော အဖြေ ရေးသားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
+  id: "course-igcse-eng-term2",
+  termNumber: 2,
+  titleEn: "Directed Writing & Persuasive Techniques",
+  titleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
+  weeks: [_igcseEngWeek5, _igcseEngWeek6, _igcseEngWeek7, _igcseEngWeek8],
+  certificateTitleEn: "Directed Writing & Persuasive Techniques",
+  certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
+);
+
+/// IGCSE English pathway -- Terms 1-2 of 9 authored so far (Terms
+/// 3-9 to follow: Narrative Composition through Final Exam Countdown
+/// & Graduation). `totalWeeks: 36` reflects the full 9-term
+/// aspirational course length.
+const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
+  id: "course-igcse-english",
+  subject: "english",
+  grade: Grade.igcse,
+  titleEn: "IGCSE English",
+  titleMy: "IGCSE အင်္ဂလိပ်စာ",
+  descriptionEn:
+      "A rigorous, exam-focused Cambridge IGCSE First Language English pathway covering advanced reading comprehension, directed writing, narrative and descriptive composition, argumentative and discursive writing, literature and poetry analysis, advanced grammar and stylistic editing, and intensive past paper practice.",
+  descriptionMy:
+      "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု၊ Directed Writing၊ ဇာတ်ကြောင်းပြောနှင့် သရုပ်ဖော် ရေးသားမှု၊ အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား၊ စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု၊ အဆင့်မြင့် သဒ္ဒါနှင့် စတိုင်လ် တည်းဖြတ်မှုနှင့် မေးခွန်းဟောင်း လေ့ကျင့်မှုများကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE First Language English လမ်းကြောင်း။",
+  totalWeeks: 36,
+  terms: [igcseEnglishTerm1, igcseEnglishTerm2],
+);
+
+// __IGCSE_ENGLISH_MARKER__
