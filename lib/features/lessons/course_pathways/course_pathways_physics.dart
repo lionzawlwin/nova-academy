@@ -6936,10 +6936,1360 @@ const CourseTermDef igcsePhysicsTerm5 = CourseTermDef(
   ],
 );
 
-/// IGCSE Physics pathway -- Terms 1-5 of 9 authored so far (Terms 6-9 to
-/// follow: Atomic Physics; Space Physics; Experimental Skills; Exam Prep &
-/// Graduation). `totalWeeks: 36` reflects the full 9-term aspirational
-/// course length.
+// =====================================================================
+// Week 21: "The Nuclear Atom"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek21 = CourseWeekDef(
+  id: "course-igcse-phys-w21",
+  weekNumber: 21,
+  titleEn: "The Nuclear Atom",
+  titleMy: "နူကလီးယား အက်တမ် တည်ဆောက်ပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w21-d1",
+      dayNumber: 1,
+      titleEn: "Atomic Structure and Isotopes",
+      titleMy: "Atomic Structure နှင့် Isotopes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An atom of carbon-12 has 6 protons. How many electrons does a neutral carbon-12 atom have?",
+          questionMy:
+              "Carbon-12 အက်တမ်တစ်ခုတွင် Proton ၆ ခု ရှိသည်။ Neutral Carbon-12 အက်တမ်တစ်ခုတွင် Electron မည်မျှ ရှိသနည်း။",
+          optionsEn: [
+            "6 (equal to the number of protons, since the atom is neutral)",
+            "12",
+            "0",
+            "18",
+          ],
+          optionsMy: [
+            "6 (Proton အရေအတွက်နှင့် ညီမျှသည်၊ အက်တမ် Neutral ဖြစ်သောကြောင့်)",
+            "12",
+            "0",
+            "18",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A neutral atom has no overall charge, so the number of negative electrons must exactly balance the number of positive protons.",
+          ],
+          hintsMy: [
+            "Neutral အက်တမ်တစ်ခုတွင် စုစုပေါင်း Charge မရှိသောကြောင့် Negative Electron အရေအတွက်သည် Positive Proton အရေအတွက်ကို အတိအကျ ဟန်ချက်ညီစေရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two atoms of the same element have the same number of protons but different numbers of neutrons. What are they called?",
+          questionMy:
+              "ဒြပ်စင် တစ်ခုတည်း၏ အက်တမ်နှစ်ခုတွင် Proton အရေအတွက် တူညီသော်လည်း Neutron အရေအတွက် ကွဲပြားသည်။ ၎င်းတို့ကို အဘယ်ဟု ခေါ်သနည်း။",
+          optionsEn: ["Isotopes", "Ions", "Molecules", "Compounds"],
+          optionsMy: ["Isotopes", "Ions", "Molecules", "Compounds"],
+          correctIndex: 0,
+          hintsEn: [
+            "Isotopes have identical chemical properties (same proton number) but different masses (different neutron number).",
+          ],
+          hintsMy: [
+            "Isotopes များတွင် တူညီသော ဓာတုဂုဏ်သတ္တိများ (Proton အရေအတွက် တူညီ) ရှိသော်လည်း ထုထည် ကွဲပြားသည် (Neutron အရေအတွက် ကွဲပြား)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Rutherford's alpha scattering experiment, most alpha particles passed straight through the gold foil, but a small number bounced almost straight back. What did this reveal about atomic structure?",
+          questionMy:
+              "Rutherford ၏ Alpha Scattering စမ်းသပ်မှုတွင် Alpha အမှုန်များ အများစုသည် ရွှေပြားကို တိုက်ရိုက် ဖြတ်သန်းသွားသော်လည်း အနည်းငယ်မှာ လုနီးပါး တိုက်ရိုက် ပြန်ခုန်ခဲ့သည်။ ဤသည်က အက်တမ် ဖွဲ့စည်းပုံအကြောင်း အဘယ်ကို ဖော်ထုတ်ခဲ့သနည်း။",
+          optionsEn: [
+            "An atom is mostly empty space, with a tiny, dense, positively charged nucleus at its centre",
+            "An atom has no nucleus at all",
+            "An atom is a solid, uniform ball of positive charge (plum pudding model confirmed)",
+            "Alpha particles cannot interact with atoms at all",
+          ],
+          optionsMy: [
+            "အက်တမ်တစ်ခုသည် အများစု ဗလာနေရာ ဖြစ်ပြီး ၎င်း၏ ဗဟိုတွင် သေးငယ်၍ Density ရှိ၍ Positive Charge ရှိသော Nucleus တစ်ခု ရှိသည်",
+            "အက်တမ်တွင် Nucleus လုံးဝ မရှိပါ",
+            "အက်တမ်တစ်ခုသည် အစိုင်အခဲ၊ တူညီသော Positive Charge လုံးတစ်လုံး ဖြစ်သည် (Plum Pudding Model အတည်ပြု)",
+            "Alpha အမှုန်များသည် အက်တမ်များနှင့် လုံးဝ အပြန်အလှန် သက်ရောက်၍ မရ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Most alpha particles passing straight through showed the atom was mostly empty space; the rare, sharp deflections showed a small, dense, positively charged region -- the nucleus -- that could repel the positive alpha particles strongly.",
+          ],
+          hintsMy: [
+            "Alpha အမှုန်များ အများစု တိုက်ရိုက် ဖြတ်သန်းသွားခြင်းက အက်တမ်သည် အများစု ဗလာနေရာဖြစ်ကြောင်း ပြသခဲ့ပြီး ရှားပါးသော၊ ထက်မြတ်သော ကွေ့ဝင်မှုများက Positive Alpha အမှုန်များကို ပြင်းထန်စွာ တွန်းလှန်နိုင်သော သေးငယ်၍ Density ရှိသော၊ Positive Charge ဒေသ -- Nucleus -- ကို ပြသခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Atomic Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Atomic Structure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w21-dm-1",
+          termEn: "Proton",
+          termMy: "Proton",
+          matchEn:
+              "A positively charged particle found in the nucleus of an atom",
+          matchMy:
+              "အက်တမ်တစ်ခု၏ Nucleus တွင် တွေ့ရသော Positive Charge ရှိသော အမှုန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w21-dm-2",
+          termEn: "Neutron",
+          termMy: "Neutron",
+          matchEn:
+              "A neutral (uncharged) particle found in the nucleus of an atom",
+          matchMy:
+              "အက်တမ်တစ်ခု၏ Nucleus တွင် တွေ့ရသော Neutral (Charge မရှိ) အမှုန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w21-dm-3",
+          termEn: "Nucleon number (mass number)",
+          termMy: "Nucleon Number (Mass Number)",
+          matchEn:
+              "The total number of protons and neutrons in an atom's nucleus",
+          matchMy:
+              "အက်တမ်တစ်ခု၏ Nucleus ရှိ Proton နှင့် Neutron စုစုပေါင်း အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w21-dm-4",
+          termEn: "Proton number (atomic number)",
+          termMy: "Proton Number (Atomic Number)",
+          matchEn:
+              "The number of protons in an atom's nucleus, which defines the element",
+          matchMy:
+              "ဒြပ်စင်ကို ဖော်ပြသော အက်တမ်တစ်ခု၏ Nucleus ရှိ Proton အရေအတွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w21-dm-5",
+          termEn: "Alpha scattering experiment",
+          termMy: "Alpha Scattering Experiment",
+          matchEn:
+              "Rutherford's experiment that revealed the existence of a small, dense, positive nucleus",
+          matchMy:
+              "သေးငယ်၍ Density ရှိသော၊ Positive Nucleus ရှိကြောင်း ဖော်ထုတ်ခဲ့သော Rutherford ၏ စမ်းသပ်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Proton, Neutron, or Electron?",
+      titleMy: "စီစစ်ကြမည် - Proton, Neutron သို့မဟုတ် Electron",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Proton", "Neutron", "Electron"],
+        bucketsMy: ["Proton", "Neutron", "Electron"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w21-sort-1",
+            labelEn: "Positively charged, found in the nucleus",
+            labelMy: "Positive Charge ရှိပြီး Nucleus တွင် တွေ့ရသည်",
+            correctBucketEn: "Proton",
+            correctBucketMy: "Proton",
+          ),
+          SortingItem(
+            id: "igcsephys-w21-sort-2",
+            labelEn: "No charge, found in the nucleus",
+            labelMy: "Charge မရှိဘဲ Nucleus တွင် တွေ့ရသည်",
+            correctBucketEn: "Neutron",
+            correctBucketMy: "Neutron",
+          ),
+          SortingItem(
+            id: "igcsephys-w21-sort-3",
+            labelEn: "Negatively charged, orbiting the nucleus",
+            labelMy: "Negative Charge ရှိပြီး Nucleus ပတ်လည် ပတ်နေသည်",
+            correctBucketEn: "Electron",
+            correctBucketMy: "Electron",
+          ),
+          SortingItem(
+            id: "igcsephys-w21-sort-4",
+            labelEn: "Has almost no mass compared to the other two particles",
+            labelMy:
+                "အခြား အမှုန် နှစ်ခုနှင့် နှိုင်းယှဉ်လျှင် Mass လုနီးပါး လုံးဝ မရှိပါ",
+            correctBucketEn: "Electron",
+            correctBucketMy: "Electron",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Isotope Puzzle",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Isotope ပဟေဠိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Isotope Puzzle",
+        titleMy: "နေချည်၏ Isotope ပဟေဠိ",
+        passageEn:
+            "Ko Thura wrote three atomic notations on the board -- chlorine-35, chlorine-37, and argon-40 -- and asked Nay Chi to work out the number of protons, neutrons, and electrons in each, then identify which two were isotopes of each other.\n\nFor chlorine-35, she recalled that chlorine's proton number is always 17, regardless of which isotope is being discussed, since proton number defines the element itself. The nucleon number, 35, told her the total number of protons and neutrons combined, so the number of neutrons was 35 minus 17, equal to 18. Since the atom was neutral, the number of electrons matched the number of protons: 17. For chlorine-37, she repeated the same logic: still 17 protons and 17 electrons, since it was still chlorine, but now 37 minus 17 equals 20 neutrons -- two more neutrons than chlorine-35, while everything else about its chemistry stayed identical.\n\nFor argon-40, she found 18 protons (argon's fixed proton number), 18 electrons, and 40 minus 18 equals 22 neutrons. When Ko Thura asked which two were isotopes of each other, Nay Chi correctly identified chlorine-35 and chlorine-37, since isotopes are defined as atoms of the same element -- same proton number -- with different neutron numbers, whereas argon-40 was a completely different element from chlorine despite happening to have a nucleon number close to chlorine-37's. She noted one striking coincidence Ko Thura pointed out: chlorine-37 and argon-40 have different nucleon numbers, so they were not isotopes of each other and were not even close in mass, correcting an assumption she had almost made based on the numbers alone rather than checking the proton numbers first.",
+        passageMy:
+            "ကိုသူရသည် Chlorine-35, Chlorine-37 နှင့် Argon-40 ဟူသော Atomic Notation သုံးခုကို ဘုတ်ပေါ်တွင် ရေးသားခဲ့ပြီး တစ်ခုစီတွင် Proton, Neutron နှင့် Electron အရေအတွက်ကို တွက်ချက်ရန်နှင့် နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု Isotope ဖြစ်ကြောင်း ဖော်ထုတ်ရန် နေချည်ကို တောင်းဆိုခဲ့သည်။\n\nChlorine-35 အတွက် Chlorine ၏ Proton Number သည် Isotope မည်သည်ကို ဆွေးနွေးနေသည်ဖြစ်စေ အမြဲ ၁၇ ဖြစ်ကြောင်း သူမ သတိရခဲ့သည်၊ Proton Number သည် ဒြပ်စင်ကိုယ်တိုင် ဖော်ပြသောကြောင့်ဖြစ်သည်။ Nucleon Number, 35 က Proton နှင့် Neutron ပေါင်းစပ် စုစုပေါင်း အရေအတွက်ကို ပြောပြခဲ့ပြီး Neutron အရေအတွက်သည် 35 မှ 17 ကို နှုတ်ပါက 18 ညီမျှသည်။ အက်တမ်သည် Neutral ဖြစ်သောကြောင့် Electron အရေအတွက်သည် Proton အရေအတွက်နှင့် ကိုက်ညီသည် - 17 ။ Chlorine-37 အတွက် သူမသည် တူညီသော ယုတ္တိကို ထပ်လုပ်ခဲ့သည် - ၎င်းသည် Chlorine ဆက်ဖြစ်သောကြောင့် Proton 17 နှင့် Electron 17 ဆက်ရှိနေသော်လည်း ယခု 37 မှ 17 ကို နှုတ်ပါက Neutron 20 ညီမျှသည် -- Chlorine-35 ထက် Neutron နှစ်ခု ပိုများပြီး ၎င်း၏ ဓာတုဗေဒအကြောင်း အခြား အားလုံးသည် တူညီစွာ ဆက်ရှိနေသည်။\n\nArgon-40 အတွက် သူမသည် Proton 18 (Argon ၏ ပုံသေ Proton Number)၊ Electron 18 နှင့် 40 မှ 18 ကို နှုတ်ပါက Neutron 22 ညီမျှသည်ကို တွေ့ရှိခဲ့သည်။ နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု Isotope ဖြစ်ကြောင်း ကိုသူရ မေးမြန်းသောအခါ Chlorine-35 နှင့် Chlorine-37 ကို နေချည် မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ Isotope များကို ဒြပ်စင်တစ်ခုတည်း၏ အက်တမ်များ -- Proton Number တူညီ -- Neutron Number ကွဲပြားသော အဖြစ် အဓိပ္ပာယ်ဖွင့်ဆိုထားသောကြောင့်ဖြစ်ပြီး Argon-40 မှာမူ Chlorine-37 နှင့် နီးစပ်သော Nucleon Number ရှိသော်လည်း Chlorine နှင့် လုံးဝ ကွဲပြားသော ဒြပ်စင်တစ်ခု ဖြစ်ခဲ့သည်။ ကိုသူရ ထောက်ပြခဲ့သော အံ့ဩဖွယ် ကြုံတွေ့မှုတစ်ခုကို သူမ မှတ်ချက်ပြုခဲ့သည် - Chlorine-37 နှင့် Argon-40 တွင် Nucleon Number ကွဲပြားသောကြောင့် ၎င်းတို့သည် တစ်ခုနှင့်တစ်ခု Isotope မဟုတ်ခဲ့ပြီး ထုထည်ပါ နီးစပ်ခြင်း မရှိခဲ့ပါ၊ Proton Number ကို ဦးစွာ မစစ်ဆေးဘဲ ဂဏန်းများသက်သက်အပေါ် အခြေခံ၍ သူမ ယူဆမိလုနီးပါးသော ယူဆချက်တစ်ခုကို ပြင်ဆင်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many neutrons does chlorine-37 have?",
+            questionMy:
+                "Chlorine-37 တွင် Neutron မည်မျှ ရှိကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["20", "17", "37", "18"],
+            optionsMy: ["20", "17", "37", "18"],
+            correctIndex: 0,
+            hintsEn: ["Reread the calculation for chlorine-37's neutrons."],
+            hintsMy: ["Chlorine-37 ၏ Neutron တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Nay Chi identify chlorine-35 and chlorine-37 as isotopes rather than argon-40?",
+            questionMy:
+                "Argon-40 မဟုတ်ဘဲ Chlorine-35 နှင့် Chlorine-37 ကို Isotope များအဖြစ် နေချည် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Isotopes must have the same proton number, which chlorine-35 and chlorine-37 share but argon-40 does not",
+              "Argon-40 has no protons at all",
+              "Nucleon number alone determines isotopes",
+              "Chlorine and argon have identical proton numbers",
+            ],
+            optionsMy: [
+              "Isotope များသည် တူညီသော Proton Number ရှိရမည်ဖြစ်ပြီး Chlorine-35 နှင့် Chlorine-37 က ဝေမျှသော်လည်း Argon-40 က မဝေမျှသောကြောင့်",
+              "Argon-40 တွင် Proton လုံးဝ မရှိသောကြောင့်",
+              "Nucleon Number တစ်ခုတည်းက Isotope များကို ဆုံးဖြတ်သောကြောင့်",
+              "Chlorine နှင့် Argon တွင် တူညီသော Proton Number ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the definition of isotopes applied in paragraph 3.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ တွင် အသုံးချထားသော Isotope အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what mistake did Nay Chi almost make?",
+            questionMy:
+                "နေချည် ယူဆမိလုနီးပါးသော အမှားကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Assuming atoms were isotopes based on nucleon numbers alone, without checking proton numbers first",
+              "Forgetting that chlorine has any protons at all",
+              "Believing argon does not exist as an element",
+              "Miscounting the number of elements on the periodic table",
+            ],
+            optionsMy: [
+              "Proton Number ကို ဦးစွာ မစစ်ဆေးဘဲ Nucleon Number သက်သက်အပေါ် အခြေခံ၍ အက်တမ်များသည် Isotope ဖြစ်သည်ဟု ယူဆခြင်း",
+              "Chlorine တွင် Proton မည်သည်မျှ လုံးဝ ရှိခြင်း မေ့လျော့ခြင်း",
+              "Argon သည် ဒြပ်စင်တစ်ခုအဖြစ် မရှိကြောင်း ယုံကြည်ခြင်း",
+              "Periodic Table ပေါ်ရှိ ဒြပ်စင် အရေအတွက်ကို မှားယွင်းစွာ ရေတွက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: The Nuclear Atom",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - The Nuclear Atom",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Isotopes have the same number of protons but different numbers of...",
+          questionMy:
+              "Isotope များတွင် Proton အရေအတွက် တူညီသော်လည်း ...အရေအတွက် ကွဲပြားသည်",
+          optionsEn: ["Neutrons", "Electrons only", "Nuclei", "Elements"],
+          optionsMy: ["Neutrons", "Electrons သာ", "Nuclei", "Elements"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rutherford's alpha scattering experiment showed that an atom is mostly...",
+          questionMy:
+              "Rutherford ၏ Alpha Scattering စမ်းသပ်မှုက အက်တမ်တစ်ခုသည် အများစု...ကို ပြသခဲ့သည်",
+          optionsEn: [
+            "Empty space",
+            "Solid positive charge",
+            "Solid negative charge",
+            "Made of neutrons only",
+          ],
+          optionsMy: [
+            "ဗလာနေရာ",
+            "အစိုင်အခဲ Positive Charge",
+            "အစိုင်အခဲ Negative Charge",
+            "Neutron များသက်သက်ဖြင့် ပြုလုပ်ထား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a neutral atom, the number of electrons equals the number of...",
+          questionMy:
+              "Neutral အက်တမ်တစ်ခုတွင် Electron အရေအတွက်သည် ...အရေအတွက်နှင့် ညီမျှသည်",
+          optionsEn: [
+            "Protons",
+            "Neutrons only",
+            "Nucleons combined",
+            "Isotopes",
+          ],
+          optionsMy: ["Protons", "Neutrons သာ", "Nucleons ပေါင်း", "Isotopes"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 22: "Radioactivity"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek22 = CourseWeekDef(
+  id: "course-igcse-phys-w22",
+  weekNumber: 22,
+  titleEn: "Radioactivity",
+  titleMy: "ရယ်ဒီယိုသတ္တိကြွမှု (Radioactivity)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w22-d1",
+      dayNumber: 1,
+      titleEn: "Alpha, Beta, and Gamma Radiation",
+      titleMy: "Alpha, Beta နှင့် Gamma Radiation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which type of radiation is stopped by a single sheet of paper, being the least penetrating?",
+          questionMy:
+              "စက္ကူ တစ်ချပ်တည်းဖြင့် ရပ်တန့်ကာ ထိုးဖောက်နိုင်စွမ်း အနည်းဆုံးဖြစ်သော Radiation အမျိုးအစားကား အဘယ်နည်း။",
+          optionsEn: [
+            "Alpha radiation",
+            "Beta radiation",
+            "Gamma radiation",
+            "None of them can be stopped",
+          ],
+          optionsMy: [
+            "Alpha Radiation",
+            "Beta Radiation",
+            "Gamma Radiation",
+            "မည်သည်ကိုမျှ ရပ်တန့်၍ မရ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Alpha particles are large and heavily charged (a helium nucleus), so they interact strongly and lose energy quickly, giving them very short range and low penetration but high ionising power.",
+          ],
+          hintsMy: [
+            "Alpha အမှုန်များသည် ကြီးမား၍ Charge ပြင်းထန်စွာ ရှိသောကြောင့် (Helium Nucleus) ၎င်းတို့သည် ပြင်းထန်စွာ အပြန်အလှန် သက်ရောက်ကာ Energy ကို လျင်မြန်စွာ ဆုံးရှုံးကာ အလွန် တိုတောင်းသော Range နှင့် ထိုးဖောက်နိုင်စွမ်း နိမ့်သော်လည်း Ionising Power မြင့်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of radiation requires several centimetres of lead or thick concrete to significantly reduce it, being the most penetrating?",
+          questionMy:
+              "အခိုးအလုံးများ ကျယ်ကျယ်လျှော့ချရန် ခဲ စင်တီမီတာ အနည်းငယ် သို့မဟုတ် အထူသော ကွန်ကရစ် လိုအပ်ကာ ထိုးဖောက်နိုင်စွမ်း အများဆုံးဖြစ်သော Radiation အမျိုးအစားကား အဘယ်နည်း။",
+          optionsEn: [
+            "Gamma radiation",
+            "Alpha radiation",
+            "Beta radiation",
+            "None require any shielding at all",
+          ],
+          optionsMy: [
+            "Gamma Radiation",
+            "Alpha Radiation",
+            "Beta Radiation",
+            "မည်သည်ကမျှ Shielding လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Gamma radiation is an electromagnetic wave with no mass and no charge, so it interacts weakly with matter, giving it high penetration but low ionising power -- the opposite trade-off to alpha.",
+          ],
+          hintsMy: [
+            "Gamma Radiation သည် Mass နှင့် Charge မရှိသော Electromagnetic Wave တစ်ခု ဖြစ်သောကြောင့် ဒြပ်ဝတ္ထုနှင့် အားနည်းစွာ အပြန်အလှန် သက်ရောက်ကာ ထိုးဖောက်နိုင်စွမ်း မြင့်သော်လည်း Ionising Power နိမ့်စေသည် -- Alpha နှင့် ဆန့်ကျင်ဘက် Trade-Off ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a Geiger-Muller tube measure when detecting radioactivity?",
+          questionMy:
+              "Radioactivity ကို ဖော်ထုတ်သည့်အခါ Geiger-Muller ပြွန်တစ်ခုက အဘယ်ကို တိုင်းတာသနည်း။",
+          optionsEn: [
+            "The count rate -- the number of ionising events (clicks) detected per second",
+            "The exact colour of the radiation",
+            "The temperature of the radioactive source",
+            "The mass of the radioactive source only",
+          ],
+          optionsMy: [
+            "Count Rate -- စက္ကန့်တစ်ခုလျှင် ဖော်ထုတ်ရသော Ionising Event (Click) အရေအတွက်",
+            "Radiation ၏ အတိအကျ အရောင်",
+            "Radioactive Source ၏ အပူချိန်",
+            "Radioactive Source ၏ Mass သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each ionising particle or ray entering the tube triggers a small pulse of current, counted as one click -- the click rate (count rate) is a proxy for radioactivity level.",
+          ],
+          hintsMy: [
+            "ပြွန်ထဲသို့ ဝင်ရောက်လာသော Ionising အမှုန် သို့မဟုတ် Ray တစ်ခုစီသည် Current ၏ ငယ်ငယ်စား Pulse တစ်ခုကို လှုံ့ဆော်ကာ Click တစ်ခုအဖြစ် ရေတွက်သည် -- Click Rate (Count Rate) သည် Radioactivity အဆင့်၏ ကိုယ်စားပြု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Radioactivity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Radioactivity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w22-dm-1",
+          termEn: "Alpha particle",
+          termMy: "Alpha Particle",
+          matchEn:
+              "A helium nucleus (2 protons, 2 neutrons) with low penetration but high ionising power",
+          matchMy:
+              "ထိုးဖောက်နိုင်စွမ်း နိမ့်သော်လည်း Ionising Power မြင့်သော Helium Nucleus (Proton ၂ ခု၊ Neutron ၂ ခု)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w22-dm-2",
+          termEn: "Beta particle",
+          termMy: "Beta Particle",
+          matchEn:
+              "A fast-moving electron with moderate penetration and moderate ionising power",
+          matchMy:
+              "ထိုးဖောက်နိုင်စွမ်း အလယ်အလတ်နှင့် Ionising Power အလယ်အလတ် ရှိသော လျင်မြန်စွာ ရွေ့လျားနေသော Electron",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w22-dm-3",
+          termEn: "Gamma ray",
+          termMy: "Gamma Ray",
+          matchEn:
+              "An electromagnetic wave with high penetration but low ionising power",
+          matchMy:
+              "ထိုးဖောက်နိုင်စွမ်း မြင့်သော်လည်း Ionising Power နိမ့်သော Electromagnetic Wave",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w22-dm-4",
+          termEn: "Background radiation",
+          termMy: "Background Radiation",
+          matchEn:
+              "Naturally occurring radiation always present in the environment, from sources like radon gas and cosmic rays",
+          matchMy:
+              "Radon Gas နှင့် Cosmic Ray ကဲ့သို့ အရင်းအမြစ်များမှ ပတ်ဝန်းကျင်တွင် အမြဲ ရှိနေသော သဘာဝ ဖြစ်ပေါ်သော Radiation",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w22-dm-5",
+          termEn: "Ionising power",
+          termMy: "Ionising Power",
+          matchEn:
+              "The ability of radiation to knock electrons off atoms it passes, creating ions",
+          matchMy:
+              "ဖြတ်သန်းသွားသော အက်တမ်များမှ Electron များကို ဆွဲထုတ်ကာ Ion များ ဖန်တီးနိုင်သော Radiation ၏ စွမ်းရည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Alpha, Beta, or Gamma Property?",
+      titleMy: "စီစစ်ကြမည် - Alpha, Beta သို့မဟုတ် Gamma လက္ခဏာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Alpha", "Beta", "Gamma"],
+        bucketsMy: ["Alpha", "Beta", "Gamma"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w22-sort-1",
+            labelEn: "Stopped by a single sheet of paper",
+            labelMy: "စက္ကူ တစ်ချပ်တည်းဖြင့် ရပ်တန့်သွားသည်",
+            correctBucketEn: "Alpha",
+            correctBucketMy: "Alpha",
+          ),
+          SortingItem(
+            id: "igcsephys-w22-sort-2",
+            labelEn: "Stopped by a few millimetres of aluminium",
+            labelMy: "Aluminium မီလီမီတာ အနည်းငယ်ဖြင့် ရပ်တန့်သွားသည်",
+            correctBucketEn: "Beta",
+            correctBucketMy: "Beta",
+          ),
+          SortingItem(
+            id: "igcsephys-w22-sort-3",
+            labelEn: "Significantly reduced only by thick lead or concrete",
+            labelMy:
+                "အထူသော ခဲ သို့မဟုတ် ကွန်ကရစ်ဖြင့်သာ ကျယ်ကျယ်ဝန်းဝန်း လျော့ကျသည်",
+            correctBucketEn: "Gamma",
+            correctBucketMy: "Gamma",
+          ),
+          SortingItem(
+            id: "igcsephys-w22-sort-4",
+            labelEn:
+                "A helium nucleus, the largest and most heavily charged of the three",
+            labelMy:
+                "သုံးမျိုးအနက် အကြီးဆုံးနှင့် Charge အပြင်းထန်ဆုံး ရှိသော Helium Nucleus",
+            correctBucketEn: "Alpha",
+            correctBucketMy: "Alpha",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Radiation Shielding Test",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Radiation Shielding စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Radiation Shielding Test",
+        titleMy: "နေချည်၏ Radiation Shielding စမ်းသပ်မှု",
+        passageEn:
+            "Ko Thura set up a demonstration with a Geiger-Muller tube connected to a counter, an unidentified sealed radioactive source, and a set of shielding materials: paper, thin aluminium sheet, and thick lead.\n\nWith no shielding at all, the counter registered a high count rate. When Nay Chi placed a single sheet of paper between the source and the tube, the count rate dropped only slightly, suggesting most of the radiation reaching the tube was not being stopped by paper -- ruling out a pure alpha source, since alpha radiation would have been almost completely blocked by paper alone. She then replaced the paper with the aluminium sheet, and the count rate dropped substantially, though not to background level, suggesting that a significant portion of the radiation was beta particles, which aluminium sheets can stop.\n\nFinally, she added the thick lead shielding, and the count rate dropped close to background radiation level, showing that whatever radiation remained after the aluminium was almost entirely blocked by the dense lead -- consistent with the remaining radiation being gamma rays. Ko Thura asked her to conclude what the source most likely contained, and Nay Chi reasoned that the pattern of readings -- barely blocked by paper, substantially blocked by aluminium, and only fully blocked by lead -- indicated the source emitted a mixture of beta and gamma radiation, with little or no alpha present, since a strong alpha component would have shown a much larger drop at the very first, paper-only stage.",
+        passageMy:
+            "ကိုသူရသည် ရေတွက်ကိရိယာနှင့် ချိတ်ဆက်ထားသော Geiger-Muller ပြွန်တစ်ခု၊ အမည်မသိ ပိတ်ထားသော Radioactive Source တစ်ခုနှင့် Shielding ပစ္စည်း အစုံတစ်ခု ပြင်ဆင်ပေးခဲ့သည် - စက္ကူ၊ ပါးလွှာသော Aluminium ပြားနှင့် အထူသော ခဲ။\n\nShielding မည်သည်ကိုမျှ မရှိပါက ရေတွက်ကိရိယာသည် Count Rate မြင့်မားစွာ မှတ်တမ်းတင်ခဲ့သည်။ Source နှင့် ပြွန်ကြားတွင် စက္ကူ တစ်ချပ်ကို နေချည် ထားလိုက်သောအခါ Count Rate သည် အနည်းငယ်သာ ကျဆင်းသွားခဲ့ပြီး ပြွန်သို့ ရောက်ရှိလာသော Radiation အများစုသည် စက္ကူဖြင့် ရပ်တန့်ခံခြင်း မရှိကြောင်း ညွှန်ပြခဲ့သည် -- စင်ကြယ်သော Alpha Source တစ်ခု ဖြစ်ခြင်းကို ဖယ်ရှားပေးခဲ့သည်၊ အကြောင်းမှာ Alpha Radiation သည် စက္ကူသက်သက်ဖြင့် လုနီးပါး လုံးလုံးလျားလျား ပိတ်ဆို့ခံရလိမ့်မည်ဖြစ်သောကြောင့်ဖြစ်သည်။ ထို့နောက် သူမသည် စက္ကူကို Aluminium ပြားဖြင့် အစားထိုးလိုက်ပြီး Count Rate သည် Background အဆင့်အထိ မဟုတ်သော်လည်း သိသိသာသာ ကျဆင်းသွားခဲ့ကာ Radiation ၏ သိသာထင်ရှားသော အစိတ်အပိုင်းသည် Aluminium ပြားများ ရပ်တန့်နိုင်သော Beta အမှုန်များ ဖြစ်ကြောင်း ညွှန်ပြခဲ့သည်။\n\nနောက်ဆုံးတွင် သူမသည် အထူသော ခဲ Shielding ကို ထပ်ထည့်ခဲ့ပြီး Count Rate သည် Background Radiation အဆင့်နှင့် နီးကပ်စွာ ကျဆင်းသွားကာ Aluminium ပြီးနောက် ကျန်ရှိနေသော Radiation မည်သို့ ရှိသည်ဖြစ်စေ Density ရှိသော ခဲဖြင့် လုနီးပါး လုံးလုံးလျားလျား ပိတ်ဆို့ခံခဲ့ကြောင်း ပြသခဲ့သည် -- ကျန်ရှိနေသော Radiation သည် Gamma Ray များ ဖြစ်ခြင်းနှင့် ကိုက်ညီသည်။ Source တွင် အဘယ်အရာ ရှိနိုင်ဆုံး ဖြစ်ကြောင်း ကောက်ချက်ချရန် ကိုသူရ သူမကို တောင်းဆိုခဲ့ပြီး ဖတ်ရှုမှုများ၏ ပုံစံ -- စက္ကူဖြင့် လုနီးပါး မပိတ်ဆို့ခံရ၊ Aluminium ဖြင့် သိသိသာသာ ပိတ်ဆို့ခံရ၍ ခဲဖြင့်သာ အပြည့်အဝ ပိတ်ဆို့ခံရ -- Source သည် Alpha အနည်းငယ်သာ သို့မဟုတ် လုံးဝ မရှိဘဲ Beta နှင့် Gamma Radiation ရောနှောကို ထုတ်ပေးကြောင်း ညွှန်ပြသည်ဟု နေချည် ကျိုးကြောင်းဆင်ခြင်ခဲ့သည်၊ အကြောင်းမှာ ပြင်းထန်သော Alpha Component တစ်ခု ရှိခဲ့ပါက ပထမဆုံး စက္ကူသက်သက် အဆင့်တွင် များစွာ ပို၍ ကြီးမားသော ကျဆင်းမှုကို ပြသလိမ့်မည်ဖြစ်သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the paper barely reduce the count rate?",
+            questionMy:
+                "စက္ကူသည် Count Rate ကို အနည်းငယ်သာ လျော့ချခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Most of the radiation was not alpha, since alpha would be nearly fully blocked by paper alone",
+              "The Geiger-Muller tube was broken",
+              "The paper was too thick to use",
+              "The source contained no radiation at all",
+            ],
+            optionsMy: [
+              "Radiation အများစုသည် Alpha မဟုတ်ခဲ့ကြောင့်၊ Alpha ဆိုလျှင် စက္ကူသက်သက်ဖြင့် လုနီးပါး အပြည့်အဝ ပိတ်ဆို့ခံရမည်ဖြစ်သောကြောင့်",
+              "Geiger-Muller ပြွန် ကျိုးပေါက်နေသောကြောင့်",
+              "စက္ကူသည် အသုံးပြုရန် ထူလွန်းသောကြောင့်",
+              "Source တွင် Radiation လုံးဝ မပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the paper result ruled out.",
+            ],
+            hintsMy: [
+              "စက္ကူ ရလဒ်က မည်သည်ကို ဖယ်ရှားခဲ့ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the count rate dropping to near-background level with lead indicate?",
+            questionMy:
+                "ခဲဖြင့် Count Rate သည် Background အဆင့်နှင့် နီးကပ်စွာ ကျဆင်းသွားခြင်းက အဘယ်ကို ညွှန်ပြခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The remaining radiation was consistent with gamma rays",
+              "The source had produced no radiation at all from the start",
+              "The lead had no effect whatsoever",
+              "All the radiation was actually alpha particles",
+            ],
+            optionsMy: [
+              "ကျန်ရှိနေသော Radiation သည် Gamma Ray များနှင့် ကိုက်ညီသည်",
+              "Source သည် အစကတည်းက Radiation လုံးဝ မထုတ်ပေးခဲ့သောကြောင့်",
+              "ခဲသည် မည်သည့်သက်ရောက်မှုမျှ လုံးဝ မရှိသောကြောင့်",
+              "Radiation အားလုံးသည် Alpha အမှုန်များ အမှန်တကယ် ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the lead shielding result."],
+            hintsMy: ["ခဲ Shielding ရလဒ်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Nay Chi conclude about the source's composition?",
+            questionMy:
+                "Source ၏ ပါဝင်မှုအကြောင်း နေချည် ကောက်ချက်ချခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It emitted a mixture of beta and gamma radiation, with little or no alpha",
+              "It emitted pure alpha radiation only",
+              "It emitted no radiation of any kind",
+              "It emitted only visible light",
+            ],
+            optionsMy: [
+              "Beta နှင့် Gamma Radiation ရောနှောကို ထုတ်ပေးပြီး Alpha အနည်းငယ်သာ သို့မဟုတ် လုံးဝ မရှိပါ",
+              "စင်ကြယ်သော Alpha Radiation သက်သက်ကိုသာ ထုတ်ပေးသည်",
+              "အမျိုးအစား မည်သည်၏ Radiation ကိုမျှ မထုတ်ပေးပါ",
+              "မြင်နိုင်သော အလင်းကိုသာ ထုတ်ပေးသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Radioactivity",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Radioactivity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Alpha radiation is stopped by...",
+          questionMy: "Alpha Radiation ကို ...ဖြင့် ရပ်တန့်နိုင်သည်",
+          optionsEn: [
+            "A single sheet of paper",
+            "Only thick lead",
+            "Nothing at all",
+            "Only a vacuum",
+          ],
+          optionsMy: [
+            "စက္ကူ တစ်ချပ်",
+            "အထူသော ခဲသာ",
+            "မည်သည့်အရာမျှ မရှိပါ",
+            "Vacuum သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Gamma radiation has high penetration but...",
+          questionMy:
+              "Gamma Radiation တွင် ထိုးဖောက်နိုင်စွမ်း မြင့်သော်လည်း...",
+          optionsEn: [
+            "Low ionising power",
+            "High ionising power",
+            "No energy at all",
+            "No wavelength",
+          ],
+          optionsMy: [
+            "Ionising Power နိမ့်သည်",
+            "Ionising Power မြင့်သည်",
+            "Energy လုံးဝ မရှိပါ",
+            "Wavelength မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A Geiger-Muller tube measures radioactivity by counting...",
+          questionMy:
+              "Geiger-Muller ပြွန်သည် ...ကို ရေတွက်ကာ Radioactivity ကို တိုင်းတာသည်",
+          optionsEn: [
+            "Ionising events per second",
+            "The colour of the source",
+            "The mass of the source",
+            "The temperature of the room",
+          ],
+          optionsMy: [
+            "စက္ကန့်တစ်ခုလျှင် Ionising Event",
+            "Source ၏ အရောင်",
+            "Source ၏ Mass",
+            "အခန်း၏ အပူချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 23: "Radioactive Decay and Half-Life"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek23 = CourseWeekDef(
+  id: "course-igcse-phys-w23",
+  weekNumber: 23,
+  titleEn: "Radioactive Decay and Half-Life",
+  titleMy: "ရယ်ဒီယိုသတ္တိကြွ ပျက်စီးယိုယွင်းခြင်းနှင့် သက်တမ်းဝက် (Half-Life)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w23-d1",
+      dayNumber: 1,
+      titleEn: "Decay Equations and Half-Life Calculations",
+      titleMy: "Decay Equations နှင့် Half-Life တွက်ချက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When a nucleus emits an alpha particle, what happens to its nucleon number and proton number?",
+          questionMy:
+              "Nucleus တစ်ခုသည် Alpha အမှုန်တစ်ခု ထုတ်လွှတ်သည့်အခါ ၎င်း၏ Nucleon Number နှင့် Proton Number တွင် အဘယ်ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "Nucleon number decreases by 4, proton number decreases by 2",
+            "Nucleon number stays the same, proton number increases by 1",
+            "Both nucleon number and proton number stay exactly the same",
+            "Nucleon number increases by 4, proton number increases by 2",
+          ],
+          optionsMy: [
+            "Nucleon Number သည် 4 လျော့ကျပြီး Proton Number သည် 2 လျော့ကျသည်",
+            "Nucleon Number တူညီစွာ ဆက်ရှိနေပြီး Proton Number သည် 1 တိုးလာသည်",
+            "Nucleon Number နှင့် Proton Number နှစ်ခုစလုံး အတိအကျ တူညီစွာ ဆက်ရှိနေသည်",
+            "Nucleon Number သည် 4 တိုးလာပြီး Proton Number သည် 2 တိုးလာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An alpha particle is a helium nucleus (2 protons, 2 neutrons, nucleon number 4), so emitting one removes exactly that much from the original nucleus.",
+          ],
+          hintsMy: [
+            "Alpha အမှုန်သည် Helium Nucleus (Proton ၂ ခု၊ Neutron ၂ ခု၊ Nucleon Number 4) ဖြစ်သောကြောင့် တစ်ခု ထုတ်လွှတ်ခြင်းသည် မူလ Nucleus မှ ထို ပမာဏအထိ အတိအကျ ဖယ်ရှားပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In beta decay, a neutron in the nucleus converts into a proton and an emitted electron. What happens to the proton number?",
+          questionMy:
+              "Beta Decay တွင် Nucleus ရှိ Neutron တစ်ခုသည် Proton တစ်ခုနှင့် ထုတ်လွှတ်သော Electron တစ်ခုအဖြစ် ပြောင်းလဲသည်။ Proton Number တွင် အဘယ်ဖြစ်လာသနည်း။",
+          optionsEn: [
+            "It increases by 1, since a neutron has become an extra proton",
+            "It decreases by 1",
+            "It stays exactly the same",
+            "It decreases by 4",
+          ],
+          optionsMy: [
+            "Neutron တစ်ခုသည် ထပ်ဆောင်း Proton တစ်ခု ဖြစ်လာသောကြောင့် 1 တိုးလာသည်",
+            "1 လျော့ကျသည်",
+            "အတိအကျ တူညီစွာ ဆက်ရှိနေသည်",
+            "4 လျော့ကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since nucleon number stays the same in beta decay (a neutron simply becomes a proton, not disappearing), but proton number increases by 1, the atom effectively becomes a different element.",
+          ],
+          hintsMy: [
+            "Beta Decay တွင် Nucleon Number တူညီစွာ ဆက်ရှိနေသော်လည်း (Neutron တစ်ခုသည် ရိုးရိုးရှင်းရှင်း Proton တစ်ခု ဖြစ်လာခြင်း၊ ပျောက်ကွယ်သွားခြင်း မဟုတ်) Proton Number သည် 1 တိုးလာသောကြောင့် အက်တမ်သည် အခြား ဒြပ်စင်တစ်ခု အကျိုးသက်ရောက်စွာ ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A radioactive sample has an initial activity of 800 counts per minute. Its half-life is 10 minutes. What will its activity be after 30 minutes?",
+          questionMy:
+              "Radioactive နမူနာတစ်ခုတွင် အစပိုင်း Activity မိနစ်တိုင်း Count ၈၀၀ ရှိသည်။ ၎င်း၏ Half-Life သည် ၁၀ မိနစ် ဖြစ်သည်။ မိနစ် ၃၀ ကြာပြီးနောက် ၎င်း၏ Activity ကား အဘယ်နည်း။",
+          optionsEn: [
+            "100 counts per minute (three half-lives: 800 -> 400 -> 200 -> 100)",
+            "400 counts per minute",
+            "0 counts per minute",
+            "266 counts per minute",
+          ],
+          optionsMy: [
+            "မိနစ်တိုင်း Count ၁၀၀ (Half-Life သုံးကြိမ်: 800 -> 400 -> 200 -> 100)",
+            "မိနစ်တိုင်း Count ၄၀၀",
+            "မိနစ်တိုင်း Count ၀",
+            "မိနစ်တိုင်း Count ၂၆၆",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "30 minutes / 10-minute half-life = 3 half-lives. Each half-life halves the activity: 800 -> 400 (1st) -> 200 (2nd) -> 100 (3rd).",
+          ],
+          hintsMy: [
+            "မိနစ် ၃၀ / မိနစ် ၁၀ Half-Life = Half-Life သုံးကြိမ် ။ Half-Life တစ်ခုစီသည် Activity ကို ထက်ဝက် လျော့ကျစေသည်: 800 -> 400 (ပထမ) -> 200 (ဒုတိယ) -> 100 (တတိယ)",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Decay and Half-Life Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Decay နှင့် Half-Life ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w23-dm-1",
+          termEn: "Half-life",
+          termMy: "Half-Life",
+          matchEn:
+              "The time taken for the activity (or number of undecayed nuclei) of a radioactive sample to halve",
+          matchMy:
+              "Radioactive နမူနာတစ်ခု၏ Activity (သို့မဟုတ် Decay မဖြစ်ရသေးသော Nuclei အရေအတွက်) ထက်ဝက် ကျစေရန် ယူသော အချိန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w23-dm-2",
+          termEn: "Alpha decay",
+          termMy: "Alpha Decay",
+          matchEn:
+              "Decay that emits an alpha particle, decreasing nucleon number by 4 and proton number by 2",
+          matchMy:
+              "Alpha အမှုန်တစ်ခု ထုတ်လွှတ်ကာ Nucleon Number ကို 4 နှင့် Proton Number ကို 2 လျော့ကျစေသော Decay",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w23-dm-3",
+          termEn: "Beta decay",
+          termMy: "Beta Decay",
+          matchEn:
+              "Decay where a neutron converts to a proton, keeping nucleon number the same but increasing proton number by 1",
+          matchMy:
+              "Neutron တစ်ခုသည် Proton တစ်ခုအဖြစ် ပြောင်းလဲကာ Nucleon Number တူညီစွာ ဆက်ရှိနေသော်လည်း Proton Number ကို 1 တိုးမြှင့်ပေးသော Decay",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w23-dm-4",
+          termEn: "Activity",
+          termMy: "Activity",
+          matchEn:
+              "The rate at which a radioactive sample's nuclei decay, measured as count rate",
+          matchMy:
+              "Radioactive နမူနာတစ်ခု၏ Nuclei Decay ဖြစ်သည့် နှုန်း၊ Count Rate အဖြစ် တိုင်းတာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w23-dm-5",
+          termEn: "Random decay",
+          termMy: "Random Decay",
+          matchEn:
+              "The unpredictable timing of any individual nucleus's decay, though the overall half-life is constant and predictable",
+          matchMy:
+              "Nucleus တစ်ခုချင်းစီ၏ Decay ဖြစ်ချိန်ကို ခန့်မှန်း၍ မရသော်လည်း စုစုပေါင်း Half-Life သည် တည်ငြိမ်ပြီး ခန့်မှန်း၍ ရသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Alpha Decay or Beta Decay Effect?",
+      titleMy: "စီစစ်ကြမည် - Alpha Decay လား၊ Beta Decay သက်ရောက်မှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Alpha Decay Effect", "Beta Decay Effect"],
+        bucketsMy: ["Alpha Decay Effect", "Beta Decay Effect"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w23-sort-1",
+            labelEn: "Nucleon number decreases by 4",
+            labelMy: "Nucleon Number သည် 4 လျော့ကျသည်",
+            correctBucketEn: "Alpha Decay Effect",
+            correctBucketMy: "Alpha Decay Effect",
+          ),
+          SortingItem(
+            id: "igcsephys-w23-sort-2",
+            labelEn: "Nucleon number stays the same",
+            labelMy: "Nucleon Number တူညီစွာ ဆက်ရှိနေသည်",
+            correctBucketEn: "Beta Decay Effect",
+            correctBucketMy: "Beta Decay Effect",
+          ),
+          SortingItem(
+            id: "igcsephys-w23-sort-3",
+            labelEn: "Proton number decreases by 2",
+            labelMy: "Proton Number သည် 2 လျော့ကျသည်",
+            correctBucketEn: "Alpha Decay Effect",
+            correctBucketMy: "Alpha Decay Effect",
+          ),
+          SortingItem(
+            id: "igcsephys-w23-sort-4",
+            labelEn: "Proton number increases by 1",
+            labelMy: "Proton Number သည် 1 တိုးလာသည်",
+            correctBucketEn: "Beta Decay Effect",
+            correctBucketMy: "Beta Decay Effect",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Radioactive Dating Problem",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Radioactive Dating ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Radioactive Dating Problem",
+        titleMy: "နေချည်၏ Radioactive Dating ပြဿနာ",
+        passageEn:
+            "Ko Thura gave Nay Chi a decay curve for a sample of a radioactive isotope used in scientific dating, showing its activity dropping from an initial 640 counts per minute down along a smooth curve, and asked her to read the half-life directly from the graph rather than being told it in advance.\n\nShe located the initial activity, 640 counts per minute, on the y-axis, then traced across to find where the curve first dropped to exactly half that value, 320 counts per minute, reading down to the x-axis to find the corresponding time: 5700 years. This told her the half-life was 5700 years -- close to the real half-life of carbon-14, used for archaeological dating. To check her reading, she located where the curve reached a quarter of the initial activity, 160 counts per minute, and confirmed this occurred at 11,400 years, exactly double her half-life reading, exactly as expected after two half-lives had passed.\n\nKo Thura then posed a practical question: an archaeological sample was found to have an activity of 80 counts per minute, using the same isotope with an initial activity of 640 counts per minute when the organism was alive. How old was the sample? Nay Chi worked through it systematically: 640 to 320 was one half-life, 320 to 160 was a second half-life, and 160 to 80 was a third half-life, meaning the sample had undergone exactly three half-lives, or 3 x 5700 = 17,100 years. She noted that this method only worked cleanly because 80 was an exact power-of-two fraction of the original 640; for an activity landing between clean half-life points, she would have needed to read the value directly off the smooth decay curve instead of simple halving.",
+        passageMy:
+            "ကိုသူရသည် သိပ္ပံဆိုင်ရာ Dating တွင် အသုံးပြုသော Radioactive Isotope နမူနာတစ်ခု၏ Decay Curve တစ်ခုကို နေချည်ကို ပေးအပ်ခဲ့သည်၊ ၎င်း၏ Activity သည် ချောမွေ့သော Curve တစ်လျှောက် အစပိုင်း 640 Counts Per Minute မှ ကျဆင်းသွားသည်ကို ပြသသည်၊ ကြိုတင် မပြောပေးဘဲ ဂရပ်မှ Half-Life ကို တိုက်ရိုက် ဖတ်ရှုရန် သူမကို တောင်းဆိုခဲ့သည်။\n\nသူမသည် y-Axis ပေါ်တွင် အစပိုင်း Activity, 640 Counts Per Minute ကို ရှာဖွေခဲ့ပြီး ထို့နောက် Curve ပထမဆုံး ထို တန်ဖိုး၏ ထက်ဝက်၊ 320 Counts Per Minute သို့ ကျဆင်းသွားသည့်နေရာကို ရှာဖွေရန် ဖြတ်၍ ခြေရာခံကာ သက်ဆိုင်ရာ အချိန်ကို ရှာဖွေရန် x-Axis သို့ ဖတ်ချခဲ့သည် - နှစ် ၅၇၀၀ ။ ဤသည်က Half-Life သည် နှစ် ၅၇၀၀ ဖြစ်ကြောင်း သူမကို ပြောပြခဲ့သည် -- ရှေးဟောင်း Dating အတွက် အသုံးပြုသော Carbon-14 ၏ အမှန်တကယ် Half-Life နှင့် နီးစပ်သည်။ သူမ၏ ဖတ်ရှုမှုကို စစ်ဆေးရန် Curve သည် အစပိုင်း Activity ၏ လေးပုံတစ်ပုံ၊ 160 Counts Per Minute သို့ ရောက်ရှိသည့်နေရာကို ရှာဖွေခဲ့ပြီး ၎င်းသည် နှစ် ၁၁,၄၀၀ တွင် ဖြစ်ပေါ်ကြောင်း အတည်ပြုခဲ့သည်၊ သူမ၏ Half-Life ဖတ်ရှုမှု၏ အတိအကျ နှစ်ဆ ဖြစ်ပြီး Half-Life နှစ်ကြိမ် ကုန်လွန်ပြီးနောက် မျှော်လင့်ထားသည့်အတိုင်း အတိအကျ ဖြစ်သည်။\n\nထို့နောက် ကိုသူရသည် လက်တွေ့ကျ မေးခွန်းတစ်ခု တင်ပြခဲ့သည် - ရှေးဟောင်း နမူနာတစ်ခုသည် Organism အသက်ရှင်နေစဉ် အစပိုင်း Activity 640 Counts Per Minute ရှိသော Isotope တူညီကို အသုံးပြု၍ Activity 80 Counts Per Minute ရှိကြောင်း တွေ့ရှိခဲ့သည်။ နမူနာသည် အသက် မည်မျှ ရှိနိုင်သနည်း။ နေချည်သည် ဤသို့ စနစ်တကျ ဖြေရှင်းခဲ့သည် - 640 မှ 320 သည် Half-Life တစ်ကြိမ်၊ 320 မှ 160 သည် ဒုတိယ Half-Life နှင့် 160 မှ 80 သည် တတိယ Half-Life ဖြစ်ပြီး နမူနာသည် Half-Life အတိအကျ သုံးကြိမ် ကုန်လွန်ခဲ့ကြောင်း ဆိုလိုသည်၊ သို့မဟုတ် 3 x 5700 = 17,100 နှစ် ။ 80 သည် မူလ 640 ၏ ကိန်းစစ်-နှစ်-Power အတိအကျ ဖြစ်သောကြောင့်သာ ဤ နည်းလမ်းသည် သန့်ရှင်းစွာ အလုပ်ဖြစ်ခဲ့ကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည်; သန့်ရှင်းသော Half-Life အချက်များကြားတွင် ကျရောက်နေသော Activity တစ်ခုအတွက် ရိုးရှင်းသော ထက်ဝက်ခွဲခြင်းအစား ချောမွေ့သော Decay Curve ပေါ်မှ တန်ဖိုးကို တိုက်ရိုက် ဖတ်ရှုရန် လိုအပ်ခဲ့လိမ့်မည်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what half-life did Nay Chi read from the graph?",
+            questionMy:
+                "ဂရပ်မှ နေချည် ဖတ်ရှုခဲ့သော Half-Life ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["5700 years", "11,400 years", "640 years", "320 years"],
+            optionsMy: ["နှစ် ၅၇၀၀", "နှစ် ၁၁,၄၀၀", "နှစ် ၆၄၀", "နှစ် ၃၂၀"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating the half-life reading."],
+            hintsMy: [
+              "Half-Life ဖတ်ရှုမှုကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how many half-lives had passed for the sample with activity 80 counts per minute?",
+            questionMy:
+                "Activity 80 Counts Per Minute ရှိသော နမူနာအတွက် Half-Life မည်မျှ ကုန်လွန်ခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Three half-lives",
+              "One half-life",
+              "Five half-lives",
+              "Zero half-lives",
+            ],
+            optionsMy: [
+              "Half-Life သုံးကြိမ်",
+              "Half-Life တစ်ကြိမ်",
+              "Half-Life ငါးကြိမ်",
+              "Half-Life သုည ကြိမ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Nay Chi's step-by-step halving in paragraph 3."],
+            hintsMy: [
+              "စာပိုဒ် ၃ ရှိ နေချည်၏ အဆင့်ဆင့် ထက်ဝက်ခွဲခြင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, why did this simple halving method work cleanly for this particular problem?",
+            questionMy:
+                "ဤ တိကျသော ပြဿနာအတွက် ဤ ရိုးရှင်းသော ထက်ဝက်ခွဲခြင်း နည်းလမ်း သန့်ရှင်းစွာ အလုပ်ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "80 was an exact power-of-two fraction of the original 640",
+              "The sample was not actually radioactive",
+              "The graph had no curve at all",
+              "Half-life calculations never work for archaeology",
+            ],
+            optionsMy: [
+              "80 သည် မူလ 640 ၏ ကိန်းစစ်-နှစ်-Power အတိအကျ ဖြစ်သောကြောင့်",
+              "နမူနာသည် Radioactive အမှန်တကယ် မဟုတ်ခဲ့သောကြောင့်",
+              "ဂရပ်တွင် Curve လုံးဝ မရှိခဲ့သောကြောင့်",
+              "Half-Life တွက်ချက်မှုများသည် ရှေးဟောင်းဗေဒအတွက် ဘယ်တော့မှ အလုပ်မဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Decay and Half-Life",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Decay and Half-Life",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Half-life is the time taken for activity to...",
+          questionMy:
+              "Half-Life ဆိုသည်မှာ Activity ...ရန် ယူသော အချိန် ဖြစ်သည်",
+          optionsEn: [
+            "Halve",
+            "Double",
+            "Reach zero instantly",
+            "Stay exactly constant",
+          ],
+          optionsMy: [
+            "ထက်ဝက် ကျ",
+            "နှစ်ဆ တိုး",
+            "ချက်ချင်း သုညသို့ ရောက်",
+            "အတိအကျ တည်ငြိမ်စွာ ဆက်ရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In alpha decay, nucleon number decreases by...",
+          questionMy: "Alpha Decay တွင် Nucleon Number သည် ...လျော့ကျသည်",
+          optionsEn: ["4", "1", "2", "0"],
+          optionsMy: ["4", "1", "2", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After three half-lives, the fraction of original activity remaining is...",
+          questionMy:
+              "Half-Life သုံးကြိမ် ကုန်လွန်ပြီးနောက် ကျန်ရှိနေသော မူလ Activity ၏ အချိုးအစိတ်အပိုင်းမှာ...",
+          optionsEn: ["One eighth", "One half", "One quarter", "Zero"],
+          optionsMy: ["ရှစ်ပုံတစ်ပုံ", "ထက်ဝက်", "လေးပုံတစ်ပုံ", "သုည"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 24: "Atomic Physics Problem-Solving Studio" (Term 6 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek24 = CourseWeekDef(
+  id: "course-igcse-phys-w24",
+  weekNumber: 24,
+  titleEn: "Atomic Physics Problem-Solving Studio",
+  titleMy: "အေတမ် ရူပဗေဒ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w24-d1",
+      dayNumber: 1,
+      titleEn: "Half-Life Calculations and Radiation Safety",
+      titleMy: "Half-Life တွက်ချက်မှုများနှင့် Radiation Safety",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sample starts with an activity of 1200 counts per minute and has a half-life of 8 days. After 24 days, what is its activity?",
+          questionMy:
+              "နမူနာတစ်ခုသည် Activity မိနစ်တိုင်း Count ၁၂၀၀ ဖြင့် စတင်ပြီး Half-Life ရက် ၈ ရက် ရှိသည်။ ရက် ၂၄ ရက်ကြာပြီးနောက် ၎င်း၏ Activity ကား အဘယ်နည်း။",
+          optionsEn: [
+            "150 counts per minute (three half-lives: 1200 -> 600 -> 300 -> 150)",
+            "600 counts per minute",
+            "300 counts per minute",
+            "0 counts per minute",
+          ],
+          optionsMy: [
+            "မိနစ်တိုင်း Count ၁၅၀ (Half-Life သုံးကြိမ်: 1200 -> 600 -> 300 -> 150)",
+            "မိနစ်တိုင်း Count ၆၀၀",
+            "မိနစ်တိုင်း Count ၃၀၀",
+            "မိနစ်တိုင်း Count ၀",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "24 days / 8-day half-life = 3 half-lives. 1200 -> 600 -> 300 -> 150.",
+          ],
+          hintsMy: [
+            "ရက် ၂၄ / ရက် ၈ Half-Life = Half-Life သုံးကြိမ် ။ 1200 -> 600 -> 300 -> 150 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is the LEAST effective way to reduce a worker's exposure to a gamma radiation source?",
+          questionMy:
+              "Gamma Radiation Source တစ်ခုသို့ လုပ်သားတစ်ဦး ထိတွေ့ခံရမှုကို လျှော့ချရန် အထိရောက်ဆုံး မဟုတ်သော နည်းလမ်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Wearing only a paper mask with no other precautions",
+            "Increasing the distance between the worker and the source",
+            "Using thick lead shielding around the source",
+            "Minimising the time spent near the source",
+          ],
+          optionsMy: [
+            "အခြား ကြိုတင်ကာကွယ်မှု မရှိဘဲ စက္ကူ Mask တစ်ခုသာ ဝတ်ဆင်ခြင်း",
+            "လုပ်သားနှင့် Source ကြား အကွာအဝေးကို တိုးမြှင့်ခြင်း",
+            "Source ပတ်လည်တွင် အထူသော ခဲ Shielding ကို အသုံးပြုခြင်း",
+            "Source အနီးတွင် ကုန်လွန်သော အချိန်ကို အနည်းဆုံး ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Paper stops alpha particles but does almost nothing against gamma radiation -- the three genuinely effective controls are time, distance, and shielding (with a material dense enough for the radiation type).",
+          ],
+          hintsMy: [
+            "စက္ကူသည် Alpha အမှုန်များကို ရပ်တန့်စေသော်လည်း Gamma Radiation ကို ဆန့်ကျင်ရာတွင် လုနီးပါး မည်သည့်အရာမျှ မလုပ်ဆောင်ပါ -- အမှန်တကယ် ထိရောက်သော ထိန်းချုပ်မှု သုံးမျိုးမှာ အချိန်၊ အကွာအဝေးနှင့် Shielding (Radiation အမျိုးအစားနှင့် ကိုက်ညီလောက်အောင် Density ရှိသော ပစ္စည်းဖြင့်) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A patient is given a medical tracer isotope with a very short half-life of a few hours, rather than one lasting years. Why is a short half-life preferred for this purpose?",
+          questionMy:
+              "လူနာတစ်ဦးအား နှစ်များစွာ ကြာမြင့်သည့်အစား ဆက္ကန့်အနည်းငယ်၏ အလွန် တိုတောင်းသော Half-Life ရှိသော ဆေးဘက်ဆိုင်ရာ Tracer Isotope တစ်ခု ပေးအပ်သည်။ ဤ ရည်ရွယ်ချက်အတွက် Half-Life တိုတောင်းခြင်းကို ဦးစားပေးရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It decays away quickly, minimising the patient's long-term radiation exposure after the scan is complete",
+            "It is always cheaper to manufacture, regardless of any other factor",
+            "It never actually decays at all",
+            "Short half-lives always produce brighter images",
+          ],
+          optionsMy: [
+            "ၾကည့်ရှုစစ်ဆေးမှု ပြီးဆုံးပြီးနောက် လူနာ၏ ရေရှည် Radiation ထိတွေ့ခံရမှုကို လျှော့ချကာ လျင်မြန်စွာ Decay ဖြစ်သွားသောကြောင့်",
+            "အခြား အချက် မည်သို့ ရှိသည်ဖြစ်စေ ထုတ်လုပ်ရန် အမြဲ ဈေးသက်သာသောကြောင့်",
+            "အမှန်တကယ် ဘယ်တော့မှ Decay မဖြစ်သောကြောင့်",
+            "Half-Life တိုတောင်းခြင်းသည် ပုံရိပ်များကို အမြဲ ပို၍ တောက်ပစေသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A short-half-life isotope provides enough radioactivity to be detected during the scan, then decays away to a safe level quickly, reducing unnecessary long-term dose to the patient.",
+          ],
+          hintsMy: [
+            "Half-Life တိုတောင်းသော Isotope တစ်ခုသည် Scan အတွင်း ဖော်ထုတ်ရန် လုံလောက်သော Radioactivity ပေးအပ်ပြီး လူနာအတွက် မလိုအပ်သော ရေရှည် Dose ကို လျှော့ချကာ လုံခြုံသော အဆင့်သို့ လျင်မြန်စွာ Decay ဖြစ်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆဌမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w24-dm-1",
+          termEn: "Nucleus",
+          termMy: "Nucleus",
+          matchEn:
+              "The small, dense, positively charged centre of an atom, containing protons and neutrons",
+          matchMy:
+              "Proton နှင့် Neutron ပါဝင်သော အက်တမ်တစ်ခု၏ သေးငယ်၍ Density ရှိသော Positive Charge ဗဟို",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w24-dm-2",
+          termEn: "Radiation shielding",
+          termMy: "Radiation Shielding",
+          matchEn:
+              "Using dense materials, matched to the radiation type, to reduce exposure to radioactivity",
+          matchMy:
+              "Radioactivity ထိတွေ့ခံရမှုကို လျှော့ချရန် Radiation အမျိုးအစားနှင့် ကိုက်ညီသော Density ရှိသော ပစ္စည်းများ အသုံးပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w24-dm-3",
+          termEn: "Count rate",
+          termMy: "Count Rate",
+          matchEn:
+              "The number of radioactive decay events detected per unit time",
+          matchMy:
+              "ယူနစ် အချိန်တစ်ခုစီအတွက် ဖော်ထုတ်ရသော Radioactive Decay Event အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w24-dm-4",
+          termEn: "Medical tracer",
+          termMy: "Medical Tracer",
+          matchEn:
+              "A short-half-life radioactive isotope used for medical imaging, chosen to minimise patient exposure",
+          matchMy:
+              "လူနာ၏ ထိတွေ့ခံရမှုကို လျှော့ချရန် ရွေးချယ်ထားသော ဆေးဘက်ဆိုင်ရာ ပုံရိပ်ဖော်ရန် အသုံးပြုသော Half-Life တိုတောင်းသော Radioactive Isotope",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w24-dm-5",
+          termEn: "Time, distance, and shielding",
+          termMy: "Time, Distance, and Shielding",
+          matchEn:
+              "The three genuinely effective controls for reducing radiation exposure",
+          matchMy:
+              "Radiation ထိတွေ့ခံရမှုကို လျှော့ချရန် အမှန်တကယ် ထိရောက်သော ထိန်းချုပ်မှု သုံးမျိုး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Atomic Structure or Decay/Half-Life Concept?",
+      titleMy: "စီစစ်ကြမည် - Atomic Structure လား၊ Decay/Half-Life သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Atomic Structure Concept", "Decay/Half-Life Concept"],
+        bucketsMy: ["Atomic Structure Concept", "Decay/Half-Life Concept"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w24-sort-1",
+            labelEn:
+                "Identifying isotopes as atoms with the same proton number but different neutron numbers",
+            labelMy:
+                "Proton Number တူညီသော်လည်း Neutron Number ကွဲပြားသော အက်တမ်များအဖြစ် Isotope များ ဖော်ထုတ်ခြင်း",
+            correctBucketEn: "Atomic Structure Concept",
+            correctBucketMy: "Atomic Structure Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w24-sort-2",
+            labelEn: "Calculating activity remaining after three half-lives",
+            labelMy:
+                "Half-Life သုံးကြိမ်ပြီးနောက် ကျန်ရှိနေသော Activity တွက်ချက်ခြင်း",
+            correctBucketEn: "Decay/Half-Life Concept",
+            correctBucketMy: "Decay/Half-Life Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w24-sort-3",
+            labelEn:
+                "Explaining Rutherford's alpha scattering experiment results",
+            labelMy:
+                "Rutherford ၏ Alpha Scattering စမ်းသပ်မှု ရလဒ်များ ရှင်းပြခြင်း",
+            correctBucketEn: "Atomic Structure Concept",
+            correctBucketMy: "Atomic Structure Concept",
+          ),
+          SortingItem(
+            id: "igcsephys-w24-sort-4",
+            labelEn: "Writing a balanced nuclear equation for alpha decay",
+            labelMy:
+                "Alpha Decay အတွက် ချိန်ညှိထားသော Nuclear Equation ရေးသားခြင်း",
+            correctBucketEn: "Decay/Half-Life Concept",
+            correctBucketMy: "Decay/Half-Life Concept",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Term 6 Atomic Physics Review",
+      titleMy:
+          "စာဖတ်ခြင်း - နေချည်၏ ဆဌမတန်း Atomic Physics ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Term 6 Atomic Physics Review",
+        titleMy: "နေချည်၏ ဆဌမတန်း Atomic Physics ပြန်လည်သုံးသပ်ခြင်း",
+        passageEn:
+            "For her Term 6 final review, Ko Thura gave Nay Chi one integrating case study: a hospital's radiotherapy department using a cobalt-60 source with a half-life of about 5 years to treat cancer patients, and asked her to explain the physics behind every safety decision the department made.\n\nShe began with why cobalt-60 emits gamma radiation specifically, tracing this back to the atomic structure content from Week 21: cobalt-60 has an unstable nucleus that, after beta decay, releases excess energy as gamma rays to reach a more stable configuration -- exactly the kind of high-penetration radiation needed to reach a tumour deep inside a patient's body, since alpha or beta radiation would be absorbed by skin and surface tissue before ever reaching the target. She then explained why the source itself needed periodic replacement, connecting this to half-life: with cobalt-60 losing half its activity roughly every 5 years, treatment times had to be recalculated and gradually lengthened as the source aged, and eventually the source had to be replaced entirely once treatment times became impractically long.\n\nFinally, Ko Thura asked about the thick concrete and lead walls surrounding the treatment room. Nay Chi connected this to both radiation properties and safety principles together: since gamma radiation has by far the highest penetration of the three radiation types, only dense shielding materials like lead and concrete -- rather than the paper or thin aluminium sufficient for alpha or beta -- could meaningfully protect staff and other patients outside the room, working alongside distance (keeping staff outside the room during treatment) and time (limiting how long the source itself was active) as the three combined controls. Ko Thura noted that nearly every fact from the entire term -- atomic structure, radiation types, half-life, and safety principles -- had converged into explaining the design of a single hospital room.",
+        passageMy:
+            "ဆဌမတန်း နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်းအတွက် ကိုသူရသည် နေချည်ကို ပေါင်းစပ် ဖြစ်ရပ်လေ့လာမှုတစ်ခု ပေးအပ်ခဲ့သည် - Cancer လူနာများကို ကုသရန် နှစ် ၅ ခန့် Half-Life ရှိသော Cobalt-60 Source ကို အသုံးပြုသည့် ဆေးရုံတစ်ခု၏ Radiotherapy ဌာန၊ ဌာနက ပြုလုပ်သော လုံခြုံရေး ဆုံးဖြတ်ချက် တိုင်းနောက်ကွယ်ရှိ ရူပဗေဒကို ရှင်းပြရန်။\n\nCobalt-60 သည် Gamma Radiation ကို အထူးသဖြင့် ထုတ်လွှတ်ရသည့် အကြောင်းရင်းနှင့် သူမ စတင်ခဲ့ပြီး ဤသည်ကို ပတ် ၂၁ မှ Atomic Structure အကြောင်းအရာဆီသို့ ပြန်ချိတ်ဆက်ခဲ့သည် - Cobalt-60 တွင် Beta Decay ပြီးနောက် ပို၍ တည်ငြိမ်သော Configuration သို့ ရောက်ရှိရန် ပိုလျှံသော Energy ကို Gamma Ray များအဖြစ် ထုတ်လွှတ်သော မတည်ငြိမ်သော Nucleus တစ်ခု ရှိသည် -- လူနာ၏ ခန္ဓာကိုယ် အတွင်းပိုင်း နက်နက်ရှိုင်းရှိုင်းရှိ Tumour တစ်ခုသို့ ရောက်ရှိရန် လိုအပ်သော ထိုးဖောက်နိုင်စွမ်း မြင့်သော Radiation အမျိုးအစား အတိအကျ ဖြစ်သည်၊ အကြောင်းမှာ Alpha သို့မဟုတ် Beta Radiation သည် ပစ်မှတ်သို့ ဘယ်တော့မှ မရောက်မီ အရေပြားနှင့် မျက်နှာပြင် တစ္ဆူက စုပ်ယူသွားမည်ဖြစ်သောကြောင့်ဖြစ်သည်။ ထို့နောက် Source ကိုယ်တိုင် အချိန်အလိုက် အစားထိုးရန် လိုအပ်ခဲ့ရသည့် အကြောင်းရင်းကို ရှင်းပြခဲ့ပြီး ဤသည်ကို Half-Life နှင့် ချိတ်ဆက်ခဲ့သည် - Cobalt-60 သည် ခန့်မှန်းအားဖြင့် နှစ် ၅ နှစ်တိုင်း ၎င်း၏ Activity ထက်ဝက် ဆုံးရှုံးသောကြောင့် ကုသမှု အချိန်များကို Source အသက်ကြီးလာသည်နှင့်အမျှ ပြန်လည် တွက်ချက်ကာ တဖြည်းဖြည်း ရှည်လျားလာရန် လိုအပ်ခဲ့ပြီး နောက်ဆုံးတွင် ကုသမှု အချိန်များ လက်တွေ့ မကျအောင် ရှည်လျားလာသည့်အခါ Source ကို လုံးလုံးလျားလျား အစားထိုးရန် လိုအပ်ခဲ့သည်။\n\nနောက်ဆုံးတွင် ကုသရေးခန်းကို ဝန်းရံထားသော အထူသော ကွန်ကရစ်နှင့် ခဲ နံရံများအကြောင်း ကိုသူရ မေးမြန်းခဲ့သည်။ နေချည်သည် ဤသည်ကို Radiation ဂုဏ်သတ္တိများနှင့် လုံခြုံရေး နိယာမများ နှစ်ခုစလုံးနှင့် ချိတ်ဆက်ခဲ့သည် - Gamma Radiation သည် Radiation အမျိုးအစား သုံးမျိုးအနက် ထိုးဖောက်နိုင်စွမ်း အများဆုံး ဖြစ်သောကြောင့် Alpha သို့မဟုတ် Beta အတွက် လုံလောက်သော စက္ကူ သို့မဟုတ် ပါးလွှာသော Aluminium အစား ခဲနှင့် ကွန်ကရစ်ကဲ့သို့ Density ရှိသော Shielding ပစ္စည်းများသာ ကုသရေးခန်း အပြင်ဘက်ရှိ ဝန်ထမ်းများနှင့် အခြား လူနာများကို အဓိပ္ပာယ်ရှိစွာ ကာကွယ်ပေးနိုင်မည်ဖြစ်ပြီး Distance (ကုသမှုအတွင်း ဝန်ထမ်းများကို ခန်းအပြင်တွင် ထားခြင်း) နှင့် Time (Source ကိုယ်တိုင် အလုပ်လုပ်နေသော ကာလကို ကန့်သတ်ခြင်း) နှင့်အတူ ပေါင်းစပ် ထိန်းချုပ်မှု သုံးမျိုးအဖြစ် လုပ်ဆောင်ခဲ့သည်။ တန်းတစ်လျှောက်လုံးမှ အချက်အလက် လုနီးပါး အားလုံး -- Atomic Structure, Radiation အမျိုးအစားများ, Half-Life နှင့် လုံခြုံရေး နိယာမများ -- သည် ဆေးရုံခန်းတစ်ခန်း၏ ဒီဇိုင်းကို ရှင်းပြရာတွင် စုစည်းလာခဲ့ကြောင်း ကိုသူရ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why is gamma radiation specifically needed to treat a tumour deep inside the body?",
+            questionMy:
+                "ခန္ဓာကိုယ် အတွင်းပိုင်း နက်နက်ရှိုင်းရှိုင်းရှိ Tumour တစ်ခုကို ကုသရန် Gamma Radiation ကို အထူးသဖြင့် လိုအပ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Alpha or beta radiation would be absorbed by skin and surface tissue before reaching the target",
+              "Gamma radiation is the cheapest type to produce",
+              "Gamma radiation has no penetration at all",
+              "Alpha radiation always reaches tumours more effectively",
+            ],
+            optionsMy: [
+              "Alpha သို့မဟုတ် Beta Radiation သည် ပစ်မှတ်သို့ မရောက်မီ အရေပြားနှင့် မျက်နှာပြင် တစ္ဆူက စုပ်ယူသွားမည်ဖြစ်သောကြောင့်",
+              "Gamma Radiation သည် ထုတ်လုပ်ရန် အဈေးအသက်သာဆုံး အမျိုးအစား ဖြစ်သောကြောင့်",
+              "Gamma Radiation တွင် ထိုးဖောက်နိုင်စွမ်း လုံးဝ မရှိသောကြောင့်",
+              "Alpha Radiation သည် Tumour များကို အမြဲ ပို၍ ထိရောက်စွာ ရောက်ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why gamma radiation is needed.",
+            ],
+            hintsMy: [
+              "Gamma Radiation လိုအပ်ရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the source need periodic replacement?",
+            questionMy:
+                "Source ကို အချိန်အလိုက် အစားထိုးရန် လိုအပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its activity halved roughly every 5 years, eventually making treatment times impractically long",
+              "It became too heavy to move",
+              "It changed colour over time",
+              "Hospitals are required to replace equipment every year regardless",
+            ],
+            optionsMy: [
+              "၎င်း၏ Activity သည် ခန့်မှန်းအားဖြင့် နှစ် ၅ နှစ်တိုင်း ထက်ဝက် ကျဆင်းကာ နောက်ဆုံးတွင် ကုသမှု အချိန်များကို လက်တွေ့ မကျအောင် ရှည်လျားစေသောကြောင့်",
+              "ရွှေ့ပြောင်းရန် အလွန် လေးလံလာသောကြောင့်",
+              "အချိန်ကြာလာသည်နှင့်အမျှ အရောင် ပြောင်းလဲသောကြောင့်",
+              "ဆေးရုံများသည် ကိရိယာများကို နှစ်စဉ် မည်သို့ပင်ဖြစ်စေ အစားထိုးရန် လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about half-life and treatment times.",
+            ],
+            hintsMy: [
+              "Half-Life နှင့် ကုသမှု အချိန်များအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Thura conclude about the whole term's content?",
+            questionMy:
+                "တန်းတစ်လျှောက်လုံး၏ အကြောင်းအရာအကြောင်း ကိုသူရ ကောက်ချက်ချခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nearly every fact from the term converged into explaining the design of a single hospital room",
+              "None of the term's content was actually related",
+              "Only half-life mattered for this case study",
+              "The atomic structure content was completely irrelevant",
+            ],
+            optionsMy: [
+              "တန်းမှ အချက်အလက် လုနီးပါး အားလုံးသည် ဆေးရုံခန်းတစ်ခန်း၏ ဒီဇိုင်းကို ရှင်းပြရာတွင် စုစည်းလာခဲ့ကြောင်း",
+              "တန်း၏ အကြောင်းအရာ မည်သည်မျှ အမှန်တကယ် မသက်ဆိုင်ခဲ့ကြောင်း",
+              "ဤ ဖြစ်ရပ်လေ့လာမှုအတွက် Half-Life တစ်ခုတည်းသာ အရေးကြီးခဲ့ကြောင်း",
+              "Atomic Structure အကြောင်းအရာသည် လုံးဝ မသက်ဆိုင်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Recap: Atomic Physics",
+      titleMy: "ဆဌမတန်း ပြန်လည်သုံးသပ်ခြင်း - Atomic Physics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An atom's proton number defines...",
+          questionMy: "အက်တမ်တစ်ခု၏ Proton Number သည် ...ကို သတ်မှတ်ဆိုသည်",
+          optionsEn: [
+            "Which element it is",
+            "Its exact colour",
+            "Its exact temperature",
+            "Its exact mass alone",
+          ],
+          optionsMy: [
+            "၎င်းသည် မည်သည့် ဒြပ်စင် ဖြစ်ကြောင်း",
+            "၎င်း၏ အတိအကျ အရောင်",
+            "၎င်း၏ အတိအကျ အပူချိန်",
+            "၎င်း၏ အတိအကျ Mass တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The three effective controls for radiation exposure are time, distance, and...",
+          questionMy:
+              "Radiation ထိတွေ့ခံရမှုအတွက် ထိရောက်သော ထိန်းချုပ်မှု သုံးမျိုးမှာ Time, Distance နှင့်...",
+          optionsEn: ["Shielding", "Colour", "Sound", "Temperature only"],
+          optionsMy: ["Shielding", "Colour", "Sound", "Temperature သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After two half-lives, the fraction of activity remaining is...",
+          questionMy:
+              "Half-Life နှစ်ကြိမ်ပြီးနောက် ကျန်ရှိနေသော Activity ၏ အချိုးအစိတ်အပိုင်းမှာ...",
+          optionsEn: ["One quarter", "One half", "One eighth", "Zero"],
+          optionsMy: ["လေးပုံတစ်ပုံ", "ထက်ဝက်", "ရှစ်ပုံတစ်ပုံ", "သုည"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+const CourseTermDef igcsePhysicsTerm6 = CourseTermDef(
+  id: "course-igcse-phys-term6",
+  termNumber: 6,
+  titleEn: "Atomic Physics",
+  titleMy: "အေတမ် ရူပဗေဒ",
+  certificateTitleEn: "IGCSE Physics Term 6 Certificate",
+  certificateTitleMy: "IGCSE ရူပဗေဒ ဆဌမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcsePhysWeek21,
+    _igcsePhysWeek22,
+    _igcsePhysWeek23,
+    _igcsePhysWeek24,
+  ],
+);
+// __TERMS_MARKER__
+
+/// IGCSE Physics pathway -- Terms 1-6 of 9 authored so far (Terms 7-9 to
+/// follow: Space Physics; Experimental Skills; Exam Prep & Graduation).
+/// `totalWeeks: 36` reflects the full 9-term aspirational course length.
 const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
   id: "course-igcse-physics",
   subject: "physics",
@@ -6957,5 +8307,6 @@ const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
     igcsePhysicsTerm3,
     igcsePhysicsTerm4,
     igcsePhysicsTerm5,
+    igcsePhysicsTerm6,
   ],
 );
