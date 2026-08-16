@@ -151419,10 +151419,10 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
   certificateTitleMy: "Directed Writing နှင့် ဆွဲဆောင်စည်းရုံးရေး နည်းပညာများ",
 );
 
-/// IGCSE English pathway -- Terms 1-3 of 9 authored so far (Terms
-/// 4-9 to follow: Descriptive Composition through Final Exam
-/// Countdown & Graduation). `totalWeeks: 36` reflects the full
-/// 9-term aspirational course length.
+/// IGCSE English pathway -- Terms 1-4 of 9 authored so far (Terms
+/// 5-9 to follow: Argumentative & Discursive Composition through
+/// Final Exam Countdown & Graduation). `totalWeeks: 36` reflects the
+/// full 9-term aspirational course length.
 const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   id: "course-igcse-english",
   subject: "english",
@@ -151434,7 +151434,12 @@ const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
   descriptionMy:
       "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု၊ Directed Writing၊ ဇာတ်ကြောင်းပြောနှင့် သရုပ်ဖော် ရေးသားမှု၊ အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား၊ စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု၊ အဆင့်မြင့် သဒ္ဒါနှင့် စတိုင်လ် တည်းဖြတ်မှုနှင့် မေးခွန်းဟောင်း လေ့ကျင့်မှုများကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE First Language English လမ်းကြောင်း။",
   totalWeeks: 36,
-  terms: [igcseEnglishTerm1, igcseEnglishTerm2, igcseEnglishTerm3],
+  terms: [
+    igcseEnglishTerm1,
+    igcseEnglishTerm2,
+    igcseEnglishTerm3,
+    igcseEnglishTerm4,
+  ],
 );
 
 // =====================================================================
@@ -152941,6 +152946,1530 @@ const CourseTermDef igcseEnglishTerm3 = CourseTermDef(
   weeks: [_igcseEngWeek9, _igcseEngWeek10, _igcseEngWeek11, _igcseEngWeek12],
   certificateTitleEn: "Narrative Composition",
   certificateTitleMy: "ဇာတ်ကြောင်းပြော ရေးသားမှု",
+);
+
+// =====================================================================
+// IGCSE English -- Term 4: "Descriptive Composition" (Weeks 13-16).
+// Week 13 covers pure description without plot; Week 14 covers
+// shifting perspectives/cinematic technique; Week 15 covers advanced
+// metaphor and imagery; Week 16 is the capstone descriptive studio.
+// =====================================================================
+
+const CourseWeekDef _igcseEngWeek13 = CourseWeekDef(
+  id: "course-igcse-eng-w13",
+  weekNumber: 13,
+  titleEn: "The Art of Pure Description",
+  titleMy: "စစ်မှန်သော သရုပ်ဖော်ရေးသားခြင်း အနုပညာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w13-d1",
+      dayNumber: 1,
+      titleEn: "Avoiding Plot Clichés and Sensory Mapping",
+      titleMy: "ဇာတ်ကွက် Cliché များ ရှောင်ရှားခြင်းနှင့် Sensory Mapping",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "IGCSE descriptive composition differs from narrative composition because it...",
+          questionMy:
+              "IGCSE သရုပ်ဖော် ရေးသားမှုသည် ဇာတ်ကြောင်းပြော ရေးသားမှုနှင့် ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "Relies on vivid imagery of a scene or moment rather than a plot-driven story",
+            "Must always include a murder mystery",
+            "Requires no sensory detail at all",
+            "Must be written entirely in dialogue",
+          ],
+          optionsMy: [
+            "ဇာတ်ကွက် ဦးဆောင်သော ဇာတ်လမ်းထက် မြင်ကွင်း (သို့) အခိုက်အတန့်တစ်ခု၏ အသက်ဝင်သော ပုံရိပ်အပေါ် မှီခိုသည်",
+            "လူသတ်မှု ပဟေဠိတစ်ခု အမြဲ ပါဝင်ရမည်",
+            "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် လုံးဝ မလိုအပ်ပါ",
+            "Dialogue ဖြင့်သာ အပြည့်အစုံ ရေးသားရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Sensory mapping\" a scene means...",
+          questionMy:
+              "မြင်ကွင်းတစ်ခုကို \"Sensory Mapping\" ပြုလုပ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Deliberately planning what each of the five senses would experience in that setting",
+            "Drawing a literal map of the location",
+            "Only describing what can be seen",
+            "Ignoring sound and smell entirely",
+          ],
+          optionsMy: [
+            "ထိုနောက်ခံအပြင်အဆင်တွင် အာရုံငါးမျိုးစီ မည်သို့ ကြုံတွေ့မည်ကို ရည်ရွယ်ချက်ရှိရှိ စီစဉ်ခြင်း",
+            "တည်နေရာ၏ စာသားအတိုင်း မြေပုံတစ်ခု ရေးဆွဲခြင်း",
+            "မြင်နိုင်သောအရာကိုသာ ဖော်ပြခြင်း",
+            "အသံနှင့် အနံ့ကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Focusing on the minute\" in descriptive writing means...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှုတွင် \"Focusing on the Minute\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "Zooming in on small, specific details rather than broad generalities",
+            "Writing only about clocks and time",
+            "Describing an entire city in one sentence",
+            "Avoiding all specific detail",
+          ],
+          optionsMy: [
+            "ကျယ်ပြန့်သော ယေဘုယျအချက်များထက် သေးငယ်၊ တိကျသော အသေးစိတ်များအပေါ် ချဉ်းကပ်ခြင်း",
+            "နာရီများနှင့် အချိန်အကြောင်းသာ ရေးသားခြင်း",
+            "မြို့တစ်မြို့လုံးကို ဝါကျတစ်ကြောင်းတည်းဖြင့် ဖော်ပြခြင်း",
+            "တိကျသော အသေးစိတ်အားလုံးကို ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A common weakness in descriptive composition is...",
+          questionMy: "သရုပ်ဖော် ရေးသားမှုတွင် ဘုံ အားနည်းချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Accidentally slipping into a plot-driven narrative instead of pure description",
+            "Using too much sensory detail",
+            "Focusing too closely on small details",
+            "Avoiding clichés entirely",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော ဖော်ပြချက်အစား မတော်တဆ ဇာတ်ကွက် ဦးဆောင်သော ဇာတ်ကြောင်းပြောသို့ ကျော်သွားခြင်း",
+            "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် များလွန်းစွာ သုံးခြင်း",
+            "အသေးစိတ်ငယ်များအပေါ် အလွန် နီးကပ်စွာ အာရုံစိုက်ခြင်း",
+            "Cliché များကို လုံးဝ ရှောင်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong descriptive piece typically organises detail around...",
+          questionMy:
+              "အားကောင်းသော သရုပ်ဖော် ရေးသားချက်တစ်ခုသည် ပုံမှန်အားဖြင့် ...ပတ်ပတ်လည်တွင် အသေးစိတ်ကို စီစဉ်လေ့ရှိသည်",
+          optionsEn: [
+            "A unifying mood or single dominant impression",
+            "A completely random, disconnected list of facts",
+            "A strict chronological plot",
+            "A list of unrelated statistics",
+          ],
+          optionsMy: [
+            "ညီညွတ်သော စိတ်ခံစားချက် (သို့) လွှမ်းမိုးထားသော အထင်အမြင်တစ်ခုတည်း",
+            "လုံးဝ ကျပန်း၊ မဆက်စပ်သော အချက်များ စာရင်း",
+            "တင်းကျပ်သော အချိန်ကြောင်းအလိုက် ဇာတ်ကွက်",
+            "မသက်ဆိုင်သော စာရင်းအင်းများ စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Descriptive Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သရုပ်ဖော် ရေးသားမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w13-dm-1",
+          termEn: "Sensory mapping",
+          termMy: "Sensory Mapping",
+          matchEn:
+              "Planning what each of the five senses would experience in a described setting",
+          matchMy:
+              "ဖော်ပြထားသော နောက်ခံအပြင်အဆင်တွင် အာရုံငါးမျိုးစီ မည်သို့ ကြုံတွေ့မည်ကို စီစဉ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w13-dm-2",
+          termEn: "Dominant impression",
+          termMy: "Dominant Impression",
+          matchEn:
+              "The single unifying mood or feeling a descriptive piece builds toward",
+          matchMy:
+              "သရုပ်ဖော် ရေးသားချက်တစ်ခု တည်ဆောက်သွားသော တစ်ခုတည်းသော ညီညွတ်သော စိတ်ခံစားချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w13-dm-3",
+          termEn: "Plot cliché",
+          termMy: "Plot Cliché",
+          matchEn:
+              "An overused narrative event that undermines pure descriptive writing",
+          matchMy:
+              "စစ်မှန်သော သရုပ်ဖော် ရေးသားမှုကို ထိခိုက်စေသော အလွန်အသုံးများသော ဇာတ်ကြောင်းပြော အဖြစ်အပျက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w13-dm-4",
+          termEn: "Microscopic detail",
+          termMy: "Microscopic Detail",
+          matchEn:
+              "An extremely small, specific detail used to ground a description in reality",
+          matchMy:
+              "ဖော်ပြချက်တစ်ခုကို အမှန်တကယ် အခြေအနေအတွင်း တည်ရှိစေရန် သုံးထားသော အလွန်သေးငယ်၊ တိကျသော အသေးစိတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w13-dm-5",
+          termEn: "Evocative language",
+          termMy: "Evocative Language",
+          matchEn:
+              "Word choices that vividly stir emotion or memory in the reader",
+          matchMy:
+              "စာဖတ်သူတွင် ခံစားချက် (သို့) အမှတ်တရကို အသက်ဝင်စွာ လှုပ်ရှားစေသော စကားလုံး ရွေးချယ်မှုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Description or Narrative?",
+      titleMy: "စီစစ်ကြမည် - ဖော်ပြချက်လား ဇာတ်ကြောင်းပြောလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Pure Description (No Plot)",
+          "Narrative (Has Plot Events)",
+        ],
+        bucketsMy: [
+          "စစ်မှန်သော ဖော်ပြချက် (ဇာတ်ကွက် မပါ)",
+          "ဇာတ်ကြောင်းပြော (ဇာတ်ကွက် အဖြစ်အပျက်များ ပါ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcseeng-w13-sort-1",
+            labelEn:
+                "\"The marketplace hummed with colour: crimson chillies, golden turmeric, the sharp tang of dried fish.\"",
+            labelMy:
+                "\"စျေးသည် အရောင်ဖြင့် တွန်ခေါက်နေသည် - ကြက်သွန်နီရောင် ငရုတ်သီးများ၊ ရွှေရောင် ချယ်ရီရေမြစ်၊ ငါးခြောက်၏ ထက်သန်သော အနံ့။\"",
+            correctBucketEn: "Pure Description (No Plot)",
+            correctBucketMy: "စစ်မှန်သော ဖော်ပြချက် (ဇာတ်ကွက် မပါ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w13-sort-2",
+            labelEn:
+                "\"She grabbed the bag and ran before the vendor noticed it was missing.\"",
+            labelMy:
+                "\"အရောင်းသည် ၎င်း ပျောက်ဆုံးနေကြောင်း မသတိပြုမီ သူမ အိတ်ကို ဆွဲယူပြီး ပြေးခဲ့သည်။\"",
+            correctBucketEn: "Narrative (Has Plot Events)",
+            correctBucketMy: "ဇာတ်ကြောင်းပြော (ဇာတ်ကွက် အဖြစ်အပျက်များ ပါ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w13-sort-3",
+            labelEn:
+                "\"Dust motes drifted through the single beam of light, suspended in the silence of the abandoned attic.\"",
+            labelMy:
+                "\"ဖုန်စများသည် စွန့်ပစ်ထားသော အထက်ခန်းငယ်၏ တိတ်ဆိတ်မှုအတွင်း လွင့်လျက် အလင်းရောင် တစ်ခုတည်းကို ဖြတ်၍ ရွေ့လျားနေသည်။\"",
+            correctBucketEn: "Pure Description (No Plot)",
+            correctBucketMy: "စစ်မှန်သော ဖော်ပြချက် (ဇာတ်ကွက် မပါ)",
+          ),
+          SortingItem(
+            id: "igcseeng-w13-sort-4",
+            labelEn:
+                "\"He knocked twice, waited, then forced the door open with his shoulder.\"",
+            labelMy:
+                "\"သူ နှစ်ကြိမ် ခေါက်ပြီး၊ စောင့်ကာ ထို့နောက် သူ၏ ပခုံးဖြင့် တံခါးကို အတင်းဖွင့်ခဲ့သည်။\"",
+            correctBucketEn: "Narrative (Has Plot Events)",
+            correctBucketMy: "ဇာတ်ကြောင်းပြော (ဇာတ်ကွက် အဖြစ်အပျက်များ ပါ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Plot-Free Market Scene",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ဇာတ်ကွက် မပါသော စျေးမြင်ကွင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Plot-Free Market Scene",
+        titleMy: "နေချည်၏ ဇာတ်ကွက် မပါသော စျေးမြင်ကွင်း",
+        passageEn:
+            "Given the prompt \"Describe a busy marketplace,\" Nay Chi's instinct, formed from months of narrative practice, was to add a story: a boy pickpocketing a vendor, a chase through the stalls, a dramatic capture. Ko Thura stopped her halfway through the plan. Descriptive composition, he reminded her, had no plot requirement at all -- adding one, in fact, often weakened the piece, since attention shifted from the sensory richness of the scene to what happened next.\n\nHe asked her to instead map the market through her five senses, one at a time, without a single event occurring. Nay Chi began: crimson chillies stacked in careful pyramids, the golden dust of turmeric drifting off a vendor's scale, the sharp tang of dried fish cutting through sweeter smells of ripe mango, the overlapping cries of sellers calling their prices, the rough weave of a jute sack beneath her fingers as she paused at a rice stall. Nothing happened in this version -- no character moved through a sequence of actions -- yet the market felt more alive on the page than her plot-driven draft had.\n\nKo Thura explained the underlying skill Cambridge examiners specifically tested here: could a candidate hold a reader's attention through pure sensory richness alone, without needing the crutch of plot events to create interest? Nay Chi's final piece organised every sensory detail around a single dominant impression -- the market as a place of overwhelming, joyful abundance -- and she noted in her toolkit that a strong descriptive piece needed unity of mood far more than it needed anything happening at all.",
+        passageMy:
+            "\"လူစည်ကားသော စျေးတစ်ခုကို ဖော်ပြပါ\" ဟူသော Prompt ကို ရရှိသောအခါ လများစွာ ဇာတ်ကြောင်းပြော လေ့ကျင့်မှုမှ ပေါ်ပေါက်လာသော နေချည်၏ သဘာဝ အလိုအလျောက်မှာ ဇာတ်လမ်းတစ်ခု ထည့်သွင်းရန် ဖြစ်ခဲ့သည် - အရောင်းသည်တစ်ဦးကို လက်ဆွဲအိတ်ခိုးသော ယောင်္ကျားလေးတစ်ဦး၊ ဆိုင်ခန်းများတစ်လျှောက် လိုက်ဖမ်းခြင်း၊ ပြင်းထန်သော ဖမ်းဆီးမှု။ ကိုသူရသည် ၎င်း၏ အစီအစဉ်ကို တစ်ဝက်တွင် ရပ်တန့်စေခဲ့သည်။ သရုပ်ဖော် ရေးသားမှုသည် ဇာတ်ကွက် လိုအပ်ချက် လုံးဝ မရှိကြောင်း သူ သူမကို သတိပေးခဲ့သည် -- တစ်ခုခု ထည့်သွင်းခြင်းသည် ဆယ်လွန်ခြင်းသည် အစအယ် များသောအားဖြင့် အလုပ်ကို အားနည်းစေတတ်သည်၊ အကြောင်းမှာ အာရုံစူးစိုက်မှုသည် မြင်ကွင်း၏ အာရုံခံစားမှုဆိုင်ရာ ကြွယ်ဝမှုမှ နောက်တစ်ခု ဘာဖြစ်မည်သို့ ပြောင်းသွားသောကြောင့် ဖြစ်သည်။\n\nသူသည် သူမကို အဖြစ်အပျက် တစ်ခုမျှ မဖြစ်ပွားစေဘဲ သူမ၏ အာရုံငါးမျိုးမှတဆင့် စျေးကို တစ်ခုချင်းစီ မြေပုံဆွဲရန် တောင်းဆိုခဲ့သည်။ နေချည်သည် စတင်ခဲ့သည် - ဂရုတစိုက် ပိရမစ်များအဖြစ် စုပုံထားသော ကြက်သွန်နီရောင် ငရုတ်သီးများ၊ အရောင်းသည်၏ ချိန်ခွင်မှ လွင့်ထွက်နေသော ရွှေရောင် ချယ်ရီရေမြစ်၏ ဖုန်၊ ရင့်ကျက်သော သရက်သီး၏ ချိုမြိန်သော အနံ့များကို ဖြတ်ကာ ငါးခြောက်၏ ထက်သန်သော အနံ့၊ အရောင်းသည်များ ၎င်းတို့၏ ဈေးနှုန်းများကို ခေါ်ဆိုနေသော ထပ်နေသော ငိုသံများ၊ ဆန်ဆိုင်ခန်းတစ်ခုတွင် ရပ်နားစဉ် သူမ၏ လက်ချောင်းများအောက်ရှိ Jute အိတ်၏ ကြမ်းတမ်းသော ရက်ကြိုးအထည်။ ဤဗားရှင်းတွင် ဘာမှ မဖြစ်ပျက်ခဲ့ပါ -- ဇာတ်ကောင်တစ်ဦးသည် လှုပ်ရှားမှု အစီအစဉ်တစ်ခုကို ဖြတ်၍ ရွေ့လျား၍ မသွားခဲ့ပါ -- သို့သော် စျေးသည် သူမ၏ ဇာတ်ကွက် ဦးဆောင်သော မူကြမ်းထက် စာမျက်နှာပေါ်တွင် ပို၍ အသက်ဝင်နေသကဲ့သို့ ခံစားရသည်။\n\nကိုသူရသည် Cambridge စစ်ဆေးသူများ ဤနေရာတွင် အထူးသဖြင့် စစ်ဆေးသော အခြေခံ ကျွမ်းကျင်မှုကို ရှင်းပြခဲ့သည် - ဖြေဆိုသူတစ်ဦးသည် စိတ်ဝင်စားမှုကို ဖန်တီးရန် ဇာတ်ကွက် အဖြစ်အပျက်များ၏ ချိုင်း မလိုအပ်ဘဲ စစ်မှန်သော အာရုံခံစားမှုဆိုင်ရာ ကြွယ်ဝမှုတစ်ခုတည်းဖြင့် စာဖတ်သူ၏ အာရုံကို ဆွဲထားနိုင်ပါသလား။ နေချည်၏ နောက်ဆုံး အလုပ်သည် အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်တိုင်းကို တစ်ခုတည်းသော လွှမ်းမိုးထားသော အထင်အမြင်တစ်ခုပတ်ပတ်လည် - လွှမ်းမိုးထားသော၊ ပျော်ရွှင်ဖွယ်ရှိသော ပေါများမှု နေရာတစ်ခုအဖြစ် စျေး -- ကို စီစဉ်ထားခဲ့ပြီး၊ အားကောင်းသော သရုပ်ဖော် အလုပ်တစ်ခုသည် တစ်ခုခု ဖြစ်ပျက်နေခြင်းထက် စိတ်ခံစားချက်၏ တစ်ညီတစ်ညွတ်တည်း ဖြစ်မှုကို ပို၍ လိုအပ်ကြောင်း သူမ၏ Toolkit တွင် မှတ်သားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Ko Thura say adding a plot often weakened a descriptive piece?",
+            questionMy:
+                "ဇာတ်ကွက် ထည့်သွင်းခြင်းသည် သရုပ်ဖော် အလုပ်တစ်ခုကို များသောအားဖြင့် အားနည်းစေကြောင်း ကိုသူရ အဘယ်ကြောင့် ဆိုခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Attention shifted from sensory richness to what happened next",
+              "Plots are always grammatically incorrect",
+              "Examiners never read plot-based pieces",
+              "It made the piece too short",
+            ],
+            optionsMy: [
+              "အာရုံစူးစိုက်မှုသည် အာရုံခံစားမှုဆိုင်ရာ ကြွယ်ဝမှုမှ နောက်တစ်ခု ဘာဖြစ်မည်သို့ ပြောင်းသွားသောကြောင့်",
+              "ဇာတ်ကွက်များသည် သဒ္ဒါအရ အမြဲ မှားယွင်းသောကြောင့်",
+              "စစ်ဆေးသူများသည် ဇာတ်ကွက်အခြေပြု အလုပ်များကို ဘယ်တော့မှ မဖတ်သောကြောင့်",
+              "အလုပ်ကို အလွန် တိုတောင်းလွန်းစေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what happened in Nay Chi's second version of the market scene?",
+            questionMy:
+                "နေချည်၏ စျေးမြင်ကွင်း ဒုတိယဗားရှင်းတွင် ဘာ ဖြစ်ပျက်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nothing happened -- no character moved through a sequence of actions",
+              "A character was chased through the market",
+              "A vendor was robbed",
+              "A fight broke out between two sellers",
+            ],
+            optionsMy: [
+              "ဘာမှ မဖြစ်ပျက်ခဲ့ပါ -- ဇာတ်ကောင်တစ်ဦးသည် လှုပ်ရှားမှု အစီအစဉ်တစ်ခုကို ဖြတ်၍ ရွေ့လျား၍ မသွားခဲ့ပါ",
+              "ဇာတ်ကောင်တစ်ဦးကို စျေးတစ်လျှောက် လိုက်ဖမ်းခဲ့သည်",
+              "အရောင်းသည်တစ်ဦး ခိုးခံရသည်",
+              "အရောင်းသည် နှစ်ဦးကြား ရန်ဖြစ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what happened in this version.",
+            ],
+            hintsMy: [
+              "ဤဗားရှင်းတွင် ဘာဖြစ်ခဲ့ကြောင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Nay Chi conclude a strong descriptive piece needed most?",
+            questionMy:
+                "အားကောင်းသော သရုပ်ဖော် အလုပ်တစ်ခု အများဆုံး ဘာလိုအပ်ကြောင်း နေချည် ကောက်ချက်ချခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Unity of mood far more than anything happening",
+              "As many plot events as possible",
+              "No sensory detail at all",
+              "A long list of characters",
+            ],
+            optionsMy: [
+              "တစ်ခုခု ဖြစ်ပျက်နေခြင်းထက် စိတ်ခံစားချက်၏ တစ်ညီတစ်ညွတ်တည်း ဖြစ်မှု",
+              "ဖြစ်နိုင်သမျှ များသော ဇာတ်ကွက် အဖြစ်အပျက်များ",
+              "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် လုံးဝ မပါခြင်း",
+              "ဇာတ်ကောင်များ၏ ရှည်လျားသော စာရင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Pure Description",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - စစ်မှန်သော ဖော်ပြချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "IGCSE descriptive composition relies on...",
+          questionMy: "IGCSE သရုပ်ဖော် ရေးသားမှုသည် ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Vivid imagery rather than plot",
+            "A murder mystery plot",
+            "No sensory detail",
+            "Dialogue only",
+          ],
+          optionsMy: [
+            "ဇာတ်ကွက်ထက် အသက်ဝင်သော ပုံရိပ်",
+            "လူသတ်မှု ပဟေဠိ ဇာတ်ကွက်",
+            "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် မရှိခြင်း",
+            "Dialogue တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sensory mapping means...",
+          questionMy: "Sensory Mapping ဆိုသည်မှာ...",
+          optionsEn: [
+            "Planning what each of the five senses experiences",
+            "Drawing a literal map",
+            "Only describing sight",
+            "Ignoring smell and sound",
+          ],
+          optionsMy: [
+            "အာရုံငါးမျိုးစီ မည်သို့ ကြုံတွေ့မည်ကို စီစဉ်ခြင်း",
+            "စာသားအတိုင်း မြေပုံတစ်ခု ရေးဆွဲခြင်း",
+            "အမြင်ကိုသာ ဖော်ပြခြင်း",
+            "အနံ့နှင့် အသံကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong descriptive piece is organised around...",
+          questionMy:
+              "အားကောင်းသော သရုပ်ဖော် အလုပ်တစ်ခုကို ...ပတ်ပတ်လည်တွင် စီစဉ်ထားသည်",
+          optionsEn: [
+            "A dominant impression or unified mood",
+            "Random unrelated facts",
+            "A strict plot",
+            "Unrelated statistics",
+          ],
+          optionsMy: [
+            "လွှမ်းမိုးထားသော အထင်အမြင် (သို့) ညီညွတ်သော စိတ်ခံစားချက်",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ",
+            "တင်းကျပ်သော ဇာတ်ကွက်",
+            "မသက်ဆိုင်သော စာရင်းအင်းများ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek14 = CourseWeekDef(
+  id: "course-igcse-eng-w14",
+  weekNumber: 14,
+  titleEn: "Shifting Perspectives and Focus",
+  titleMy: "ရှုထောင့်နှင့် အာရုံစိုက်မှု ပြောင်းလဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w14-d1",
+      dayNumber: 1,
+      titleEn: "Zooming In and Out with Cinematic Technique",
+      titleMy: "Cinematic Technique ဖြင့် ချဲ့ခြင်းနှင့် ကျုံ့ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A \"wide shot\" opening in descriptive writing typically establishes...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှုရှိ \"Wide Shot\" ဖွင့်ချက်တစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို တည်ဆောက်ပေးသည်",
+          optionsEn: [
+            "The overall scene or landscape before narrowing focus",
+            "A single character's fingernail in extreme detail",
+            "Nothing at all",
+            "Only dialogue",
+          ],
+          optionsMy: [
+            "အာရုံစိုက်မှု မကျဉ်းမီ တစ်ခုလုံး မြင်ကွင်း (သို့) မြေပုံ",
+            "ဇာတ်ကောင်တစ်ဦး၏ လက်သည်းကို အလွန် အသေးစိတ်ဖြင့်",
+            "မည်သည့်အရာမျှ",
+            "Dialogue တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Zooming in\" from a wide landscape to a single object mirrors...",
+          questionMy:
+              "ကျယ်ပြန့်သော မြင်ကွင်းမှ အရာဝတ္ထုတစ်ခုတည်းသို့ \"Zooming In\" ပြုလုပ်ခြင်းသည် ...ကို ရောင်ပြန်ဟပ်သည်",
+          optionsEn: [
+            "A camera lens narrowing its focus",
+            "A random jump with no logic",
+            "Deleting the entire scene",
+            "Ending the composition immediately",
+          ],
+          optionsMy: [
+            "ကင်မရာမှန်ဘီလူးတစ်ခု၏ အာရုံစိုက်မှု ကျဉ်းလာခြင်း",
+            "ယုတ္တိမရှိသော ကျပန်း ခုန်ကူးခြင်း",
+            "မြင်ကွင်းတစ်ခုလုံးကို ဖျက်ပစ်ခြင်း",
+            "ရေးသားမှုကို ချက်ချင်း အဆုံးသတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A structural shift in perspective within a descriptive piece can help by...",
+          questionMy:
+              "သရုပ်ဖော် အလုပ်တစ်ခုအတွင်းရှိ ရှုထောင့် ဖွဲ့စည်းပုံ ပြောင်းလဲမှုသည် ...အားဖြင့် အထောက်အကူ ပြုနိုင်သည်",
+          optionsEn: [
+            "Guiding the reader's attention deliberately across different scales of detail",
+            "Confusing the reader with no purpose",
+            "Removing all sense of place",
+            "Making the piece shorter automatically",
+          ],
+          optionsMy: [
+            "အသေးစိတ်၏ ကွဲပြားသော အတိုင်းအတာများ တစ်လျှောက် စာဖတ်သူ၏ အာရုံကို ရည်ရွယ်ချက်ရှိရှိ လမ်းညွှန်ခြင်း",
+            "ရည်ရွယ်ချက် မရှိဘဲ စာဖတ်သူကို ရှုပ်ထွေးစေခြင်း",
+            "နေရာဆိုင်ရာ အသိအမှတ်အားလုံးကို ဖယ်ရှားခြင်း",
+            "အလုပ်ကို အလိုအလျောက် တိုတောင်းစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moving from a description of a whole city to a single raindrop on a window is an example of...",
+          questionMy:
+              "မြို့တစ်မြို့လုံး၏ ဖော်ပြချက်မှ ပြတင်းပေါက်ပေါ်ရှိ မိုးစက်တစ်စက်တည်းသို့ ရွှေ့ပြောင်းခြင်းသည် ...တစ်ခု၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Zooming in",
+            "Zooming out",
+            "Ignoring focus entirely",
+            "A plot twist",
+          ],
+          optionsMy: [
+            "Zooming In",
+            "Zooming Out",
+            "အာရုံစိုက်မှုကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ဇာတ်ကွက် ချိုးလှန်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Cinematic technique in descriptive writing borrows ideas from...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှုရှိ Cinematic Technique သည် ...မှ အယူအဆများ ငှားယူသည်",
+          optionsEn: [
+            "Film and camera movement",
+            "Mathematics only",
+            "Legal documents",
+            "Scientific reports",
+          ],
+          optionsMy: [
+            "ရုပ်ရှင်နှင့် ကင်မရာ လှုပ်ရှားမှု",
+            "သင်္ချာသက်သက်",
+            "ဥပဒေရေးရာ စာရွက်စာတမ်းများ",
+            "သိပ္ပံဆိုင်ရာ အစီရင်ခံစာများ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cinematic Description Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cinematic ဖော်ပြချက် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w14-dm-1",
+          termEn: "Zooming in",
+          termMy: "Zooming In",
+          matchEn:
+              "Narrowing descriptive focus from a wide scene to a single specific detail",
+          matchMy:
+              "ကျယ်ပြန့်သော မြင်ကွင်းမှ တိကျသော အသေးစိတ်တစ်ခုတည်းသို့ ဖော်ပြချက် အာရုံစိုက်မှု ကျဉ်းလာခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w14-dm-2",
+          termEn: "Zooming out",
+          termMy: "Zooming Out",
+          matchEn:
+              "Widening descriptive focus from a single detail to the broader scene",
+          matchMy:
+              "တိကျသော အသေးစိတ်တစ်ခုမှ ကျယ်ပြန့်သော မြင်ကွင်းသို့ ဖော်ပြချက် အာရုံစိုက်မှု ကျယ်ပြန့်လာခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w14-dm-3",
+          termEn: "Wide shot",
+          termMy: "Wide Shot",
+          matchEn: "A description establishing the overall scene or landscape",
+          matchMy:
+              "တစ်ခုလုံး မြင်ကွင်း (သို့) မြေပုံကို တည်ဆောက်ပေးသော ဖော်ပြချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w14-dm-4",
+          termEn: "Structural shift",
+          termMy: "Structural Shift",
+          matchEn:
+              "A deliberate change in perspective or focus scale within a piece",
+          matchMy:
+              "အလုပ်တစ်ခုအတွင်း ရှုထောင့် (သို့) အာရုံစိုက်မှု အတိုင်းအတာ၏ ရည်ရွယ်ချက်ရှိသော ပြောင်းလဲမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w14-dm-5",
+          termEn: "Panning",
+          termMy: "Panning",
+          matchEn:
+              "Sweeping descriptive attention smoothly across a wide scene",
+          matchMy:
+              "ကျယ်ပြန့်သော မြင်ကွင်းတစ်ခု တစ်လျှောက် ဖော်ပြချက် အာရုံကို ချောမွေ့စွာ ရွှေ့လျားခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Zooming In or Zooming Out?",
+      titleMy: "စီစစ်ကြမည် - Zooming In လား Zooming Out လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Zooming In", "Zooming Out"],
+        bucketsMy: ["Zooming In", "Zooming Out"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w14-sort-1",
+            labelEn:
+                "\"From the whole valley, the eye is drawn to one single, trembling leaf.\"",
+            labelMy:
+                "\"ချိုင့်ဝှမ်းတစ်ခုလုံးမှ မျက်စိသည် တုန်လှုပ်နေသော အရွက်တစ်ရွက်တည်းသို့ ဆွဲဆောင်ခံရသည်။\"",
+            correctBucketEn: "Zooming In",
+            correctBucketMy: "Zooming In",
+          ),
+          SortingItem(
+            id: "igcseeng-w14-sort-2",
+            labelEn:
+                "\"Beyond the single candle flame, the whole cathedral opened into vast, echoing darkness.\"",
+            labelMy:
+                "\"ဖယောင်းတိုင် တစ်တောင့်တည်းအလွန် ဘုရားကျောင်းကြီးတစ်ခုလုံးသည် ကျယ်ပြန့်၍ ပဲ့တင်ထပ်နေသော မှောင်နေရာသို့ ဖွင့်လှစ်ခဲ့သည်။\"",
+            correctBucketEn: "Zooming Out",
+            correctBucketMy: "Zooming Out",
+          ),
+          SortingItem(
+            id: "igcseeng-w14-sort-3",
+            labelEn:
+                "\"Within the busy street, focus narrows to a single raindrop sliding down a window.\"",
+            labelMy:
+                "\"လူစည်ကားသော လမ်းအတွင်း ပြတင်းပေါက်ဖြင့် ဆွဲကျနေသော မိုးစက်တစ်စက်တည်းသို့ အာရုံစိုက်မှု ကျဉ်းလာသည်။\"",
+            correctBucketEn: "Zooming In",
+            correctBucketMy: "Zooming In",
+          ),
+          SortingItem(
+            id: "igcseeng-w14-sort-4",
+            labelEn:
+                "\"From the tiny seed in her palm, the view widens to the entire sprawling forest it might one day become.\"",
+            labelMy:
+                "\"သူမ လက်ဝါးထဲရှိ သေးငယ်သော မျိုးစေ့မှ မြင်ကွင်းသည် တစ်နေ့တစ်ချိန်ဖြစ်လာနိုင်သော ကျယ်ပြန့်သော တောအုပ်တစ်ခုလုံးသို့ ကျယ်ပြန့်လာသည်။\"",
+            correctBucketEn: "Zooming Out",
+            correctBucketMy: "Zooming Out",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Camera-Lens Rewrite",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ ကင်မရာမှန်ဘီလူး ပြန်ရေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Camera-Lens Rewrite",
+        titleMy: "နေချည်၏ ကင်မရာမှန်ဘီလူး ပြန်ရေးခြင်း",
+        passageEn:
+            "Nay Chi's description of a monsoon storm moved through its details in a flat, unstructured order: the rain, then a puddle, then a tree, then the sky, with no logic connecting one to the next. Ko Thura told her to think like a film director instead, and to plan her piece as a sequence of deliberate shots.\n\nShe restructured completely. Her opening \"wide shot\" established the entire sky darkening over the whole town, thunderclouds rolling in from every direction at once. From there, she zoomed steadily inward: from the sky to a single street, from the street to a single gutter overflowing with rainwater, from the gutter to a single leaf spinning helplessly in its current, and finally to a single drop of water balanced trembling on the leaf's very edge before it fell. Each shift in scale felt controlled and purposeful, not random -- a camera lens drawing the reader's eye ever closer to one small, precise point.\n\nKo Thura then asked her to reverse the technique for her closing lines: zooming back out, from that single fallen drop to the puddle it joined, to the flooded street, to the whole darkened town beneath the storm. This structural symmetry -- wide to narrow, then narrow back to wide -- gave the piece a satisfying, deliberate shape that a random list of storm details never could have achieved. Nay Chi wrote a reminder in her toolkit: plan the shots before writing a single sentence.",
+        passageMy:
+            "မုတ်သုန်မိုးသည် အသေးစိတ်များ တစ်လျှောက် ပြားညီညီ၊ ဖွဲ့စည်းပုံ မရှိသော အစီအစဉ်ဖြင့် ရွေ့လျားသော နေချည်၏ ဖော်ပြချက် - မိုးရွာသွန်းမှု၊ ထို့နောက် ရေအိုင်တစ်ခု၊ ထို့နောက် သစ်ပင်တစ်ပင်၊ ထို့နောက် မိုးကောင်းကင်၊ တစ်ခုနှင့် နောက်တစ်ခု ချိတ်ဆက်သော ယုတ္တိ လုံးဝ မရှိခဲ့ပါ။ ကိုသူရသည် ၎င်းအစား ရုပ်ရှင် ဒါရိုက်တာတစ်ဦးလို တွေးကြည့်ရန်နှင့် သူမ၏ အလုပ်ကို ရည်ရွယ်ချက်ရှိသော Shot များ အစီအစဉ်တစ်ခုအဖြစ် စီစဉ်ရန် သူမကို ပြောခဲ့သည်။\n\nသူမသည် လုံးဝ ပြန်လည် ဖွဲ့စည်းခဲ့သည်။ သူမ၏ ဖွင့်ချက် \"Wide Shot\" သည် မြို့တစ်မြို့လုံးအပေါ် မှောင်လာသော မိုးကောင်းကင်တစ်ခုလုံးနှင့် ဦးတည်ရာအားလုံးမှ တစ်ပြိုင်နက် လှိမ့်ဝင်လာသော မိုးကြိုးပစ်တိမ်များကို တည်ဆောက်ပေးခဲ့သည်။ ထိုနေရာမှ သူမသည် တစ်ဖြည်းဖြည်း အတွင်းသို့ Zoom ပြုလုပ်ခဲ့သည် - မိုးကောင်းကင်မှ လမ်းတစ်လမ်း၊ လမ်းမှ မိုးရေဖြင့် ရေလွှမ်းနေသော ရေလွှဲမြောင်းတစ်ခု၊ ရေလွှဲမြောင်းမှ ၎င်း၏ ရေစီးအောက်တွင် အားကိုးမဲ့စွာ လည်ပတ်နေသော အရွက်တစ်ရွက်တည်း၊ နောက်ဆုံး ၎င်း ကျမဆွင်းမီ အရွက်၏ အစွန်းတွင် တုန်လှုပ်စွာ ချိန်ညှိထားသော ရေစက်တစ်စက်တည်းသို့။ အတိုင်းအတာ၏ ပြောင်းလဲမှုတိုင်းသည် ကျပန်း မဟုတ်ဘဲ ထိန်းချုပ်ထားသည်၊ ရည်ရွယ်ချက်ရှိသကဲ့သို့ ခံစားရသည် - ကင်မရာမှန်ဘီလူးတစ်ခုသည် စာဖတ်သူ၏ မျက်လုံးကို သေးငယ်၊ တိကျသော အမှတ်တစ်ခုသို့ တဖြည်းဖြည်း ပို၍ နီးကပ်စွာ ဆွဲယူနေသည်။\n\nထို့နောက် ကိုသူရသည် သူမ၏ အဆုံးသတ် စာကြောင်းများအတွက် နည်းပညာကို ပြောင်းပြန် ပြန်လည်ပြုလုပ်ရန် တောင်းဆိုခဲ့သည် - ထိုကျဆင်းလာသော ရေစက်တစ်စက်တည်းမှ ၎င်းပေါင်းစည်းသွားသော ရေအိုင်၊ ရေလွှမ်းသော လမ်း၊ မုန်တိုင်းအောက်ရှိ မှောင်နေသော မြို့တစ်မြို့လုံးသို့ Zoom ကျယ်ပြန့်ခြင်း။ ဤဖွဲ့စည်းပုံဆိုင်ရာ Symmetry -- ကျယ်ပြန့်မှုမှ ကျဉ်းမြောင်းမှုသို့၊ ထို့နောက် ကျဉ်းမြောင်းမှုမှ ကျယ်ပြန့်မှုသို့ ပြန်လည် -- သည် အလုပ်ကို ကျပန်း မုန်တိုင်း အသေးစိတ် စာရင်းတစ်ခု ဘယ်တော့မှ ရရှိနိုင်မည် မဟုတ်သော ကျေနပ်ဖွယ်၊ ရည်ရွယ်ချက်ရှိသော ပုံသဏ္ဌာန် ပေးအပ်ခဲ့သည်။ နေချည်သည် သူမ၏ Toolkit တွင် သတိပေးချက်တစ်ခု ရေးခဲ့သည် - ဝါကျတစ်ကြောင်း မရေးမီ Shot များကို စီစဉ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what advice did Ko Thura give Nay Chi about approaching her description?",
+            questionMy:
+                "သူမ၏ ဖော်ပြချက်ကို ချဉ်းကပ်ခြင်းအကြောင်း ကိုသူရ နေချည်ကို မည်သည့် အကြံပြုချက် ပေးခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Think like a film director and plan a sequence of deliberate shots",
+              "Write as quickly as possible with no planning",
+              "Avoid all sensory detail",
+              "Only describe the sky",
+            ],
+            optionsMy: [
+              "ရုပ်ရှင် ဒါရိုက်တာတစ်ဦးလို တွေးပြီး ရည်ရွယ်ချက်ရှိသော Shot များ အစီအစဉ်ကို စီစဉ်ပါ",
+              "စီစဉ်ခြင်း မရှိဘဲ ဖြစ်နိုင်သမျှ လျင်မြန်စွာ ရေးပါ",
+              "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်အားလုံးကို ရှောင်ရှားပါ",
+              "မိုးကောင်းကင်ကိုသာ ဖော်ပြပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the final destination of Nay Chi's zooming-in sequence?",
+            questionMy:
+                "နေချည်၏ Zooming In အစီအစဉ်၏ နောက်ဆုံး ဦးတည်ရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A single drop of water trembling on a leaf's edge",
+              "A whole town",
+              "The entire sky",
+              "A gutter overflowing with rainwater",
+            ],
+            optionsMy: [
+              "အရွက်တစ်ရွက်၏ အစွန်းတွင် တုန်လှုပ်နေသော ရေစက်တစ်စက်တည်း",
+              "မြို့တစ်မြို့လုံး",
+              "မိုးကောင်းကင်တစ်ခုလုံး",
+              "မိုးရေဖြင့် ရေလွှမ်းနေသော ရေလွှဲမြောင်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing the final zoom target."],
+            hintsMy: [
+              "နောက်ဆုံး Zoom ပစ်မှတ်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what structural technique did Ko Thura ask Nay Chi to use in her closing lines?",
+            questionMy:
+                "သူမ၏ အဆုံးသတ် စာကြောင်းများတွင် မည်သည့် ဖွဲ့စည်းပုံဆိုင်ရာ နည်းပညာကို သုံးရန် ကိုသူရ နေချည်ကို တောင်းဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reversing the technique -- zooming back out from narrow to wide",
+              "Repeating the exact same zoom-in sequence",
+              "Ending with no description at all",
+              "Introducing an entirely new scene",
+            ],
+            optionsMy: [
+              "နည်းပညာကို ပြောင်းပြန် လုပ်ခြင်း -- ကျဉ်းမြောင်းမှုမှ ကျယ်ပြန့်မှုသို့ Zoom ပြန်ကျယ်ခြင်း",
+              "Zoom In အစီအစဉ် အတိအကျ တူညီစွာ ထပ်လုပ်ခြင်း",
+              "ဖော်ပြချက် လုံးဝမပါဘဲ အဆုံးသတ်ခြင်း",
+              "လုံးဝ မြင်ကွင်းအသစ် တစ်ခု မိတ်ဆက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining the reversed technique."],
+            hintsMy: [
+              "ပြောင်းပြန် နည်းပညာကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Shifting Perspectives",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - ရှုထောင့် ပြောင်းလဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A wide shot in descriptive writing establishes...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှုရှိ Wide Shot တစ်ခုသည် ...ကို တည်ဆောက်ပေးသည်",
+          optionsEn: [
+            "The overall scene",
+            "A single fingernail",
+            "Nothing",
+            "Only dialogue",
+          ],
+          optionsMy: [
+            "တစ်ခုလုံး မြင်ကွင်း",
+            "လက်သည်းတစ်ချောင်းတည်း",
+            "မည်သည့်အရာမျှ",
+            "Dialogue တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Zooming in means narrowing focus from...",
+          questionMy:
+              "Zooming In ဆိုသည်မှာ ...မှ အာရုံစိုက်မှု ကျဉ်းလာခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "A wide scene to a specific detail",
+            "A detail to a wide scene",
+            "Nothing to something",
+            "One page to another",
+          ],
+          optionsMy: [
+            "ကျယ်ပြန့်သော မြင်ကွင်းမှ တိကျသော အသေးစိတ်",
+            "အသေးစိတ်မှ ကျယ်ပြန့်သော မြင်ကွင်း",
+            "ဘာမှမရှိခြင်းမှ တစ်ခုခုသို့",
+            "စာမျက်နှာတစ်ခုမှ အခြားတစ်ခုသို့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Structural symmetry (wide to narrow, then narrow to wide) gives a piece...",
+          questionMy:
+              "ဖွဲ့စည်းပုံဆိုင်ရာ Symmetry (ကျယ်ပြန့်မှုမှ ကျဉ်းမြောင်းမှုသို့၊ ထို့နောက် ကျဉ်းမြောင်းမှုမှ ကျယ်ပြန့်မှုသို့) သည် အလုပ်တစ်ခုကို ...ပေးသည်",
+          optionsEn: [
+            "A satisfying, deliberate shape",
+            "No structure at all",
+            "Random disorganisation",
+            "Zero sensory detail",
+          ],
+          optionsMy: [
+            "ကျေနပ်ဖွယ်၊ ရည်ရွယ်ချက်ရှိသော ပုံသဏ္ဌာန်",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိခြင်း",
+            "ကျပန်း စနစ်မကျမှု",
+            "အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ် သုည",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek15 = CourseWeekDef(
+  id: "course-igcse-eng-w15",
+  weekNumber: 15,
+  titleEn: "Advanced Metaphor and Imagery",
+  titleMy: "အဆင့်မြင့် တင်စားချက်နှင့် ပုံရိပ်ဖော်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w15-d1",
+      dayNumber: 1,
+      titleEn: "Extended Metaphors and Original Phrasing",
+      titleMy: "Extended Metaphor များနှင့် မူရင်း အသုံးအနှုန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An \"extended metaphor\" is a comparison that...",
+          questionMy:
+              "\"Extended Metaphor\" တစ်ခုသည် ...နှိုင်းယှဉ်ချက်တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Is developed and sustained across multiple sentences or an entire passage",
+            "Appears only once in a single short phrase",
+            "Is always a simile using \"like\" or \"as\"",
+            "Cannot be used in descriptive writing",
+          ],
+          optionsMy: [
+            "ဝါကျများစွာ (သို့) စာပိုဒ်တစ်ခုလုံး တစ်လျှောက် ဖွံ့ဖြိုးစေပြီး ဆက်လက်ထိန်းသိမ်းထားသော",
+            "တိုတောင်းသော စကားစုတစ်ခုတည်းတွင်သာ ပေါ်လာသော",
+            "\"like\" (သို့) \"as\" သုံးထားသော Simile တစ်ခု အမြဲဖြစ်သော",
+            "သရုပ်ဖော် ရေးသားမှုတွင် သုံး၍ မရသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Personification in nature\" gives natural elements...",
+          questionMy:
+              "\"Personification in Nature\" သည် သဘာဝ အစိတ်အပိုင်းများကို...",
+          optionsEn: [
+            "Human qualities, emotions, or actions",
+            "Mathematical formulas",
+            "Only scientific names",
+            "No description at all",
+          ],
+          optionsMy: [
+            "လူ့ဂုဏ်ရည်၊ ခံစားချက် (သို့) အမူအရာများ ပေးသည်",
+            "သင်္ချာ ဖော်မြူလာများ ပေးသည်",
+            "သိပ္ပံဆိုင်ရာ အမည်များကိုသာ ပေးသည်",
+            "ဖော်ပြချက် လုံးဝ မပေးပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Original phrasing\" is valued by examiners because it...",
+          questionMy:
+              "\"Original Phrasing\" ကို စစ်ဆေးသူများက တန်ဖိုးထားရသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Avoids overused, predictable expressions that feel generic",
+            "Is always grammatically incorrect",
+            "Confuses the reader deliberately",
+            "Is required to be exactly one word",
+          ],
+          optionsMy: [
+            "သာမန်ဆန်သည်ဟု ခံစားရသော အလွန်အသုံးများ၊ ခန့်မှန်းရလွယ်ကူသော အသုံးအနှုန်းများကို ရှောင်ရှားသောကြောင့်",
+            "သဒ္ဒါအရ အမြဲ မှားယွင်းသောကြောင့်",
+            "စာဖတ်သူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေသောကြောင့်",
+            "စကားလုံးတစ်လုံးတည်း အတိအကျ ဖြစ်ရန် လိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The old bridge groaned under the weight of memory, its rusted bones aching with every crossing.\" This extended metaphor compares the bridge to...",
+          questionMy:
+              "\"တံတားဟောင်းသည် အမှတ်တရ၏ အလေးချိန်အောက်တွင် တွန့်ပြီး ကူးဖြတ်တိုင်း ၎င်း၏ သံချေးတက်နေသော အရိုးများ နာကျင်နေသည်။\" ဤ Extended Metaphor သည် တံတားကို ...နှင့် နှိုင်းယှဉ်ထားသည်",
+          optionsEn: [
+            "An aging, suffering living body",
+            "A mathematical equation",
+            "A modern skyscraper",
+            "A digital computer",
+          ],
+          optionsMy: [
+            "အသက်ကြီးလာ၍ ဒုက္ခခံနေရသော အသက်ရှင်သော ခန္ဓာကိုယ်",
+            "သင်္ချာ ညီမျှခြင်း",
+            "ခေတ်မီ တိုက်မြင့်ကြီး",
+            "ဒစ်ဂျစ်တယ် ကွန်ပျူတာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Groaned,\" \"bones,\" and \"aching\" all describe a living, suffering body -- applied here to a bridge.",
+          ],
+          hintsMy: [
+            "\"တွန့်\", \"အရိုးများ\" နှင့် \"နာကျင်\" အားလုံးသည် အသက်ရှင်၍ ဒုက္ခခံနေရသော ခန္ဓာကိုယ်တစ်ခုကို ဖော်ပြသည် -- ဤနေရာတွင် တံတားတစ်ခုအတွက် အသုံးပြုထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Overusing clichéd metaphors like \"the sun smiled down\" without adaptation typically...",
+          questionMy:
+              "\"နေက ပြုံးလိုက်သည်\" ကဲ့သို့ Cliché တင်စားချက်များကို ချိန်ညှိမှု မရှိဘဲ လွန်ကဲစွာ သုံးခြင်းသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Weakens the writing's originality and impact",
+            "Automatically earns full marks",
+            "Is required by exam boards",
+            "Has no effect on the reader",
+          ],
+          optionsMy: [
+            "ရေးသားမှု၏ Originality နှင့် သက်ရောက်မှုကို အားနည်းစေသည်",
+            "အလိုအလျောက် အမှတ်အပြည့် ရရှိသည်",
+            "စာမေးပွဲအဖွဲ့များက တောင်းဆိုသည်",
+            "စာဖတ်သူအပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Figurative Language Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - တင်စား ဘာသာစကား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w15-dm-1",
+          termEn: "Extended metaphor",
+          termMy: "Extended Metaphor",
+          matchEn:
+              "A comparison developed and sustained across multiple sentences or a whole passage",
+          matchMy:
+              "ဝါကျများစွာ (သို့) စာပိုဒ်တစ်ခုလုံး တစ်လျှောက် ဖွံ့ဖြိုးစေပြီး ဆက်လက်ထိန်းသိမ်းထားသော နှိုင်းယှဉ်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w15-dm-2",
+          termEn: "Simile",
+          termMy: "Simile",
+          matchEn:
+              "A comparison using \"like\" or \"as\" to connect two unlike things",
+          matchMy:
+              "မတူညီသော အရာနှစ်ခုကို ချိတ်ဆက်ရန် \"like\" (သို့) \"as\" ကို သုံးထားသော နှိုင်းယှဉ်ချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w15-dm-3",
+          termEn: "Personification",
+          termMy: "Personification",
+          matchEn:
+              "Giving human qualities or emotions to non-human things, including nature",
+          matchMy:
+              "သဘာဝကို ပါဝင်ကာ လူသားမဟုတ်သော အရာများအား လူ့ဂုဏ်ရည် (သို့) ခံစားချက်များ ပေးအပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w15-dm-4",
+          termEn: "Cliché",
+          termMy: "Cliché",
+          matchEn:
+              "An overused, predictable expression that has lost its original impact",
+          matchMy:
+              "မူလ သက်ရောက်မှုကို ဆုံးရှုံးသွားသော အလွန်အသုံးများ၊ ခန့်မှန်းရလွယ်ကူသော အသုံးအနှုန်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w15-dm-5",
+          termEn: "Original phrasing",
+          termMy: "Original Phrasing",
+          matchEn:
+              "Fresh, unexpected word combinations that avoid generic, overused language",
+          matchMy:
+              "သာမန်ဆန်၍ အလွန်အသုံးများသော ဘာသာစကားကို ရှောင်ရှားသော လတ်ဆတ်၊ မမျှော်လင့်ထားသော စကားလုံး ပေါင်းစပ်မှုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fresh or Clichéd Metaphor?",
+      titleMy: "စီစစ်ကြမည် - လတ်ဆတ်သော (သို့) Cliché တင်စားချက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fresh, Original Metaphor", "Overused Cliché"],
+        bucketsMy: ["လတ်ဆတ်၊ မူရင်း တင်စားချက်", "အလွန်အသုံးများသော Cliché"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w15-sort-1",
+            labelEn:
+                "\"The city's neon signs flickered like dying fireflies trapped in glass.\"",
+            labelMy:
+                "\"မြို့၏ Neon Sign များသည် ဖန်ထဲတွင် ကျော့ကွင်းကျနေသော သေဆုံးနေသော ဖျားလင်းလန်းများကဲ့သို့ တောက်ပလျက် ရှိသည်။\"",
+            correctBucketEn: "Fresh, Original Metaphor",
+            correctBucketMy: "လတ်ဆတ်၊ မူရင်း တင်စားချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w15-sort-2",
+            labelEn: "\"Her eyes sparkled like diamonds.\"",
+            labelMy: "\"သူမ၏ မျက်လုံးများသည် စိန်များကဲ့သို့ တောက်ပနေသည်။\"",
+            correctBucketEn: "Overused Cliché",
+            correctBucketMy: "အလွန်အသုံးများသော Cliché",
+          ),
+          SortingItem(
+            id: "igcseeng-w15-sort-3",
+            labelEn:
+                "\"Time slipped through his fingers like sand escaping a cracked hourglass.\"",
+            labelMy:
+                "\"အချိန်သည် ကွဲအက်နေသော နာရီသဲအိုးမှ လွတ်မြောက်သွားသော သဲများကဲ့သို့ သူ၏ လက်ချောင်းများကြားမှ ချောလွှားသွားသည်။\"",
+            correctBucketEn: "Fresh, Original Metaphor",
+            correctBucketMy: "လတ်ဆတ်၊ မူရင်း တင်စားချက်",
+          ),
+          SortingItem(
+            id: "igcseeng-w15-sort-4",
+            labelEn: "\"The sun smiled down on the happy village.\"",
+            labelMy: "\"နေသည် ပျော်ရွှင်သော ရွာပေါ်တွင် ပြုံးလိုက်သည်။\"",
+            correctBucketEn: "Overused Cliché",
+            correctBucketMy: "အလွန်အသုံးများသော Cliché",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Extended Metaphor Draft",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ Extended Metaphor မူကြမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Extended Metaphor Draft",
+        titleMy: "နေချည်၏ Extended Metaphor မူကြမ်း",
+        passageEn:
+            "Describing an abandoned house, Nay Chi's first draft used a scattering of unrelated comparisons: the roof was \"like a broken umbrella,\" the windows were \"like sad eyes,\" the garden was \"like a jungle.\" Ko Thura pointed out that each metaphor was serviceable but disconnected -- three different comparisons pulling the reader's imagination in three different directions rather than building one coherent image.\n\nHe suggested she choose a single extended metaphor and sustain it throughout the whole description instead: what if the entire house was described as a dying, elderly body? Nay Chi rewrote the passage completely around this one idea. The roof's missing tiles became \"gaps like missing teeth in an old man's smile.\" The peeling paint became \"skin flaking from sun-damaged flesh.\" The creaking floorboards became \"joints that ached with every visitor's footstep.\" The overgrown garden became \"wild, uncombed hair no one had tended in years.\"\n\nEvery single image in her new draft reinforced the same underlying comparison, and by the final sentence, the house didn't just resemble an old body -- it felt, to the reader, genuinely alive and suffering in a way three scattered similes never could have achieved. Ko Thura explained why this mattered for exam marking: examiners specifically rewarded controlled, sustained figurative language over a scattershot collection of disconnected comparisons, because sustaining one idea demonstrated far greater writing control. Nay Chi noted the lesson: pick one strong idea, and commit to it completely.",
+        passageMy:
+            "စွန့်ပစ်ထားသော အိမ်တစ်လုံးကို ဖော်ပြရာတွင် နေချည်၏ ပထမမူကြမ်းသည် မဆက်စပ်သော နှိုင်းယှဉ်ချက်များကို ဖြန့်ကျဲ၍ သုံးခဲ့သည် - မိုးအုပ်သည် \"ကွဲထားသော ထီးတစ်ချောင်းကဲ့သို့\"၊ ပြတင်းပေါက်များသည် \"ဝမ်းနည်းသော မျက်လုံးများကဲ့သို့\"၊ ဥယျာဉ်သည် \"တောရိုင်းတစ်ခုကဲ့သို့\" ဖြစ်ခဲ့သည်။ ကိုသူရသည် တင်စားချက် တစ်ခုစီသည် အသုံးဝင်သော်လည်း ဆက်စပ်မှု မရှိကြောင်း ထောက်ပြခဲ့သည် -- နှိုင်းယှဉ်ချက် သုံးခုသည် ညီညွတ်သော ပုံရိပ်တစ်ခုတည်ဆောက်မည့်အစား စာဖတ်သူ၏ စိတ်ကူးကို ကွဲပြားသော ဦးတည်ရာသုံးခုသို့ ဆွဲငင်ခဲ့သည်။\n\nသူသည် သူမကို Extended Metaphor တစ်ခုတည်းကို ရွေးချယ်ပြီး ဖော်ပြချက်တစ်ခုလုံးတွင် ဆက်လက် ထိန်းသိမ်းထားရန် အကြံပြုခဲ့သည် - အိမ်တစ်လုံးလုံးကို သေဆုံးနေသော အသက်ကြီးသူ ခန္ဓာကိုယ်တစ်ခုအဖြစ် ဖော်ပြလျှင် မည်သို့ဖြစ်မည်နည်း။ နေချည်သည် ဤအယူအဆ တစ်ခုတည်းပတ်ပတ်လည်တွင် စာပိုဒ်ကို လုံးဝ ပြန်ရေးခဲ့သည်။ မိုးအုပ်၏ ပျောက်ဆုံးနေသော အုတ်ချပ်များသည် \"အဖိုးအို၏ ပြုံးရိပ်ရှိ ပျောက်ဆုံးနေသော သွားများကဲ့သို့ ကွက်လပ်များ\" ဖြစ်လာခဲ့သည်။ ခွာကျနေသော ဆေးသုတ်ခြင်းသည် \"နေရောင် ထိခိုက်နေသော အသားထဲမှ ခွာကျနေသော အရေပြား\" ဖြစ်လာခဲ့သည်။ ကျစ်ကျစ်ညံညံ ဖြစ်နေသော ကြမ်းပြင်ပျဉ်ချပ်များသည် \"ဧည့်သည်တစ်ဦးစီ၏ ခြေဖမိုးတိုင်း နာကျင်နေသော အဆစ်များ\" ဖြစ်လာခဲ့သည်။ တောရိုင်းဖြစ်နေသော ဥယျာဉ်သည် \"နှစ်ပေါင်းများစွာ မည်သူမျှ မထိန်းညှိခဲ့သော တောရိုင်း၊ ဖီးမထားသော ဆံပင်\" ဖြစ်လာခဲ့သည်။\n\nသူမ၏ မူကြမ်းအသစ်ရှိ ပုံရိပ်တိုင်းသည် တူညီသော အခြေခံ နှိုင်းယှဉ်ချက်ကို အားဖြည့်ပေးခဲ့ပြီး၊ နောက်ဆုံးဝါကျ ရောက်ချိန်တွင် အိမ်သည် အသက်ကြီးသော ခန္ဓာကိုယ်တစ်ခုနှင့် တူညီရုံသာမက -- ၎င်းသည် စာဖတ်သူအတွက် Simile ကွဲပြား သုံးခုက ဘယ်တော့မှ ရရှိနိုင်မည်မဟုတ်သော ပုံစံဖြင့် စစ်မှန်စွာ အသက်ရှင်၍ ဒုက္ခခံနေရသကဲ့သို့ ခံစားရသည်။ ကိုသူရသည် ၎င်းသည် စာမေးပွဲ အမှတ်ပေးခြင်းအတွက် အဘယ်ကြောင့် အရေးကြီးကြောင်း ရှင်းပြခဲ့သည် - စစ်ဆေးသူများသည် မဆက်စပ်သော နှိုင်းယှဉ်ချက်များ စုစည်းမှု ကျဲကျဲပြားပြားထက် ထိန်းချုပ်ထားသော၊ ဆက်လက်ထားသော တင်စားစကား ဘာသာစကားကို အထူးသဖြင့် အကျိုးဆုတန်ခံလေ့ရှိသည်၊ အကြောင်းမှာ အယူအဆတစ်ခုတည်းကို ဆက်လက်ထိန်းသိမ်းခြင်းသည် ပို၍ ကြီးမားသော ရေးသားမှု ထိန်းချုပ်နိုင်စွမ်းကို သရုပ်ပြခဲ့သောကြောင့် ဖြစ်သည်။ နေချည်သည် သင်ခန်းစာကို မှတ်သားခဲ့သည် - အားကောင်းသော အယူအဆတစ်ခု ရွေးချယ်ပြီး ၎င်းကို လုံးဝ ကတိပြုပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Ko Thura identify in Nay Chi's first draft?",
+            questionMy:
+                "နေချည်၏ ပထမမူကြမ်းတွင် ကိုသူရ မည်သည့် ပြဿနာကို တွေ့ရှိခဲ့သနည်း၊ စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The metaphors were disconnected, pulling the reader in different directions",
+              "There were no metaphors at all",
+              "The sentences were too short",
+              "It used no adjectives",
+            ],
+            optionsMy: [
+              "တင်စားချက်များသည် ဆက်စပ်မှု မရှိဘဲ စာဖတ်သူကို ကွဲပြားသော ဦးတည်ရာများသို့ ဆွဲငင်ခဲ့သည်",
+              "တင်စားချက် လုံးဝ မပါခဲ့ပါ",
+              "ဝါကျများသည် အလွန် တိုတောင်းလွန်းခဲ့သည်",
+              "Adjective လုံးဝ မသုံးခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 1."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what single idea did Nay Chi's rewrite build around?",
+            questionMy:
+                "နေချည်၏ ပြန်ရေးချက် မည်သည့် အယူအဆတစ်ခုတည်း ပတ်ပတ်လည်တွင် တည်ဆောက်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The house as a dying, elderly body",
+              "The house as a spaceship",
+              "The house as a wild animal",
+              "The house as a musical instrument",
+            ],
+            optionsMy: [
+              "သေဆုံးနေသော၊ အသက်ကြီးသော ခန္ဓာကိုယ်တစ်ခုအဖြစ် အိမ်",
+              "အာကာသယာဉ်တစ်စင်းအဖြစ် အိမ်",
+              "တောရိုင်းတိရစ္ဆာန်တစ်ကောင်အဖြစ် အိမ်",
+              "တေးဂီတ ကိရိယာတစ်ခုအဖြစ် အိမ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence suggesting the single idea."],
+            hintsMy: [
+              "အယူအဆတစ်ခုတည်းကို အကြံပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why did Cambridge examiners reward sustained figurative language?",
+            questionMy:
+                "Cambridge စစ်ဆေးသူများသည် ဆက်လက်ထားသော တင်စားစကားကို အဘယ်ကြောင့် အကျိုးဆုတန်ခံကြောင်း နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Sustaining one idea demonstrated far greater writing control",
+              "It made the piece shorter",
+              "It was required by law",
+              "It used more adjectives than similes",
+            ],
+            optionsMy: [
+              "အယူအဆတစ်ခုတည်းကို ဆက်လက်ထိန်းသိမ်းခြင်းသည် ပို၍ ကြီးမားသော ရေးသားမှု ထိန်းချုပ်နိုင်စွမ်းကို သရုပ်ပြခဲ့သောကြောင့်",
+              "အလုပ်ကို ပို၍ တိုတောင်းစေခဲ့သောကြောင့်",
+              "ဥပဒေအရ လိုအပ်ခဲ့သောကြောင့်",
+              "Simile များထက် Adjective များ ပို၍ သုံးခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why examiners rewarded this technique.",
+            ],
+            hintsMy: [
+              "စစ်ဆေးသူများ ဤနည်းပညာကို အဘယ်ကြောင့် အကျိုးဆုတန်ခံကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Metaphor and Imagery",
+      titleMy:
+          "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - တင်စားချက်နှင့် ပုံရိပ်ဖော်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An extended metaphor is...",
+          questionMy: "Extended Metaphor တစ်ခုသည်...",
+          optionsEn: [
+            "Developed and sustained across a whole passage",
+            "Used only once briefly",
+            "Always a simile",
+            "Forbidden in descriptive writing",
+          ],
+          optionsMy: [
+            "စာပိုဒ်တစ်ခုလုံး တစ်လျှောက် ဖွံ့ဖြိုးစေပြီး ဆက်လက်ထိန်းသိမ်းထားသော",
+            "အတိုချုံ့ တစ်ကြိမ်တည်းသာ သုံးထားသော",
+            "Simile တစ်ခု အမြဲဖြစ်သော",
+            "သရုပ်ဖော် ရေးသားမှုတွင် တားမြစ်ထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Overused clichéd metaphors typically...",
+          questionMy:
+              "အလွန်အသုံးများသော Cliché တင်စားချက်များသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Weaken originality and impact",
+            "Earn automatic full marks",
+            "Are required",
+            "Impress every examiner",
+          ],
+          optionsMy: [
+            "Originality နှင့် သက်ရောက်မှုကို အားနည်းစေသည်",
+            "အလိုအလျောက် အမှတ်အပြည့် ရရှိသည်",
+            "လိုအပ်သည်",
+            "စစ်ဆေးသူတိုင်းကို ရိုက်ခတ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Examiners reward sustained figurative language because it demonstrates...",
+          questionMy:
+              "စစ်ဆေးသူများသည် ဆက်လက်ထားသော တင်စားစကားကို ...ကို သရုပ်ပြသောကြောင့် အကျိုးဆုတန်ခံသည်",
+          optionsEn: [
+            "Greater writing control",
+            "Less effort",
+            "Random word choice",
+            "Weaker vocabulary",
+          ],
+          optionsMy: [
+            "ပို၍ ကြီးမားသော ရေးသားမှု ထိန်းချုပ်နိုင်စွမ်း",
+            "ကြိုးစားမှု နည်းခြင်း",
+            "ကျပန်း စကားလုံး ရွေးချယ်မှု",
+            "အားနည်းသော ဝေါဟာရ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseEngWeek16 = CourseWeekDef(
+  id: "course-igcse-eng-w16",
+  weekNumber: 16,
+  titleEn: "Descriptive Composition Studio",
+  titleMy: "သရုပ်ဖော် ရေးသားမှု အလုပ်ရုံ",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-eng-w16-d1",
+      dayNumber: 1,
+      titleEn: "Timed Descriptive Practice and Self-Editing",
+      titleMy: "အချိန်ကန့်သတ်ထားသော သရုပ်ဖော် လေ့ကျင့်ခန်းနှင့် Self-Editing",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a timed descriptive composition, planning should focus on...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော သရုပ်ဖော် ရေးသားမှုတစ်ခုတွင် စီစဉ်ခြင်းသည် ...အပေါ် အာရုံစိုက်သင့်သည်",
+          optionsEn: [
+            "Choosing a dominant impression and mapping sensory details around it",
+            "Writing the entire piece without any plan",
+            "Only choosing a title",
+            "Listing random unrelated facts",
+          ],
+          optionsMy: [
+            "လွှမ်းမိုးထားသော အထင်အမြင်တစ်ခု ရွေးချယ်ပြီး ၎င်းပတ်ပတ်လည်တွင် အာရုံခံစားမှုဆိုင်ရာ အသေးစိတ်များကို မြေပုံဆွဲခြင်း",
+            "စီစဉ်ခြင်း မရှိဘဲ အလုပ်တစ်ခုလုံးကို ရေးသားခြင်း",
+            "ခေါင်းစဉ်ကိုသာ ရွေးချယ်ခြင်း",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ စာရင်းပြုစုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Refining vocabulary during self-editing means...",
+          questionMy:
+              "Self-Editing အတွင်း ဝေါဟာရကို ချောမွေ့စေခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "Replacing generic words with more precise, evocative alternatives",
+            "Deleting all adjectives entirely",
+            "Adding as many words as possible regardless of meaning",
+            "Copying vocabulary from another student",
+          ],
+          optionsMy: [
+            "သာမန်ဆန်သော စကားလုံးများကို ပို၍ တိကျ၍ စိတ်ခံစားမှု နှိုးဆွသော အခြားရွေးချယ်စရာများဖြင့် အစားထိုးခြင်း",
+            "Adjective အားလုံးကို လုံးဝ ဖျက်ပစ်ခြင်း",
+            "အဓိပ္ပာယ် မည်သို့ဖြစ်စေ ဖြစ်နိုင်သမျှ များစွာ စကားလုံးများ ထည့်သွင်းခြင်း",
+            "အခြား ကျောင်းသားတစ်ဦးထံမှ ဝေါဟာရ ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong descriptive composition uses cinematic shifts to...",
+          questionMy:
+              "အားကောင်းသော သရုပ်ဖော် ရေးသားမှုတစ်ခုသည် Cinematic Shift များကို ...ရန် သုံးသည်",
+          optionsEn: [
+            "Guide the reader's attention deliberately across scales of detail",
+            "Confuse the reader with no purpose",
+            "Remove all sense of place",
+            "Shorten the piece automatically",
+          ],
+          optionsMy: [
+            "အသေးစိတ်၏ အတိုင်းအတာများ တစ်လျှောက် စာဖတ်သူ၏ အာရုံကို ရည်ရွယ်ချက်ရှိရှိ လမ်းညွှန်ရန်",
+            "ရည်ရွယ်ချက် မရှိဘဲ စာဖတ်သူကို ရှုပ်ထွေးစေရန်",
+            "နေရာဆိုင်ရာ အသိအမှတ်အားလုံးကို ဖယ်ရှားရန်",
+            "အလုပ်ကို အလိုအလျောက် တိုတောင်းစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "One sustained extended metaphor is generally preferable to...",
+          questionMy:
+              "ဆက်လက်ထားသော Extended Metaphor တစ်ခုသည် ပုံမှန်အားဖြင့် ...ထက် ပို၍ ကောင်းသည်",
+          optionsEn: [
+            "Several disconnected, scattered comparisons",
+            "No figurative language at all",
+            "Using only literal statements",
+            "Writing in note form only",
+          ],
+          optionsMy: [
+            "ဆက်စပ်မှု မရှိဘဲ ဖြန့်ကျဲထားသော နှိုင်းယှဉ်ချက်များစွာ",
+            "တင်စား ဘာသာစကား လုံးဝ မပါခြင်း",
+            "စာသားအတိုင်း ဖော်ပြချက်များကိုသာ သုံးခြင်း",
+            "မှတ်စုပုံစံဖြင့်သာ ရေးသားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The final proofreading pass in a descriptive composition should check for...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှုတစ်ခုရှိ နောက်ဆုံး Proofreading Pass သည် ...ကို စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Grammar, tense consistency, and clarity of imagery",
+            "Nothing at all",
+            "Only the word count",
+            "Only the title",
+          ],
+          optionsMy: [
+            "သဒ္ဒါ၊ Tense တသမတ်တည်း ဖြစ်မှုနှင့် ပုံရိပ်ဖော်မှု ရှင်းလင်းမှု",
+            "မည်သည့်အရာမျှ",
+            "စကားလုံးရေကိုသာ",
+            "ခေါင်းစဉ်ကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Descriptive Composition Term Review",
+      titleMy: "တွဲစပ်ကြမည် - သရုပ်ဖော် နှစ်ဝက် ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcseeng-w16-dm-1",
+          termEn: "Dominant impression",
+          termMy: "Dominant Impression",
+          matchEn: "The single unifying mood a descriptive piece builds toward",
+          matchMy:
+              "သရုပ်ဖော် ရေးသားချက်တစ်ခု တည်ဆောက်သွားသော တစ်ခုတည်းသော ညီညွတ်သော စိတ်ခံစားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w16-dm-2",
+          termEn: "Zooming in/out",
+          termMy: "Zooming In/Out",
+          matchEn:
+              "Deliberately shifting descriptive focus between wide and narrow scale",
+          matchMy:
+              "ကျယ်ပြန့်မှုနှင့် ကျဉ်းမြောင်းမှု အတိုင်းအတာကြား ဖော်ပြချက် အာရုံစိုက်မှုကို ရည်ရွယ်ချက်ရှိရှိ ပြောင်းလဲခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w16-dm-3",
+          termEn: "Extended metaphor",
+          termMy: "Extended Metaphor",
+          matchEn:
+              "A comparison developed and sustained across a whole passage",
+          matchMy:
+              "စာပိုဒ်တစ်ခုလုံး တစ်လျှောက် ဖွံ့ဖြိုးစေပြီး ဆက်လက်ထိန်းသိမ်းထားသော နှိုင်းယှဉ်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w16-dm-4",
+          termEn: "Sensory mapping",
+          termMy: "Sensory Mapping",
+          matchEn:
+              "Planning what each of the five senses experiences in a setting",
+          matchMy:
+              "နောက်ခံအပြင်အဆင်တွင် အာရုံငါးမျိုးစီ မည်သို့ ကြုံတွေ့မည်ကို စီစဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcseeng-w16-dm-5",
+          termEn: "Original phrasing",
+          termMy: "Original Phrasing",
+          matchEn:
+              "Fresh, unexpected word combinations avoiding generic language",
+          matchMy:
+              "သာမန်ဆန်သော ဘာသာစကားကို ရှောင်ရှားသော လတ်ဆတ်၊ မမျှော်လင့်ထားသော စကားလုံး ပေါင်းစပ်မှုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term 4 Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - စတုတ္ထနှစ်ဝက် မည်သည့် ကျွမ်းကျင်မှု သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sensory/Mood", "Perspective Shift", "Figurative Language"],
+        bucketsMy: ["Sensory/Mood", "Perspective Shift", "Figurative Language"],
+        items: [
+          SortingItem(
+            id: "igcseeng-w16-sort-1",
+            labelEn:
+                "Mapping the sounds, smells, and textures of a busy street",
+            labelMy:
+                "လူစည်ကားသော လမ်းတစ်လမ်း၏ အသံများ၊ အနံ့များနှင့် အထည်အနှစ်များကို မြေပုံဆွဲခြင်း",
+            correctBucketEn: "Sensory/Mood",
+            correctBucketMy: "Sensory/Mood",
+          ),
+          SortingItem(
+            id: "igcseeng-w16-sort-2",
+            labelEn:
+                "Moving from a description of a whole forest to a single dewdrop on a leaf",
+            labelMy:
+                "တောအုပ်တစ်ခုလုံး၏ ဖော်ပြချက်မှ အရွက်တစ်ရွက်ပေါ်ရှိ နှင်းစက်တစ်စက်တည်းသို့ ရွှေ့ပြောင်းခြင်း",
+            correctBucketEn: "Perspective Shift",
+            correctBucketMy: "Perspective Shift",
+          ),
+          SortingItem(
+            id: "igcseeng-w16-sort-3",
+            labelEn:
+                "Describing an old house as a dying, elderly body throughout the whole piece",
+            labelMy:
+                "အိမ်ဟောင်းတစ်လုံးကို အလုပ်တစ်ခုလုံးတစ်လျှောက် သေဆုံးနေသော၊ အသက်ကြီးသော ခန္ဓာကိုယ်တစ်ခုအဖြစ် ဖော်ပြခြင်း",
+            correctBucketEn: "Figurative Language",
+            correctBucketMy: "Figurative Language",
+          ),
+          SortingItem(
+            id: "igcseeng-w16-sort-4",
+            labelEn:
+                "Choosing a single dominant impression of joyful abundance for a market scene",
+            labelMy:
+                "စျေးမြင်ကွင်းတစ်ခုအတွက် ပျော်ရွှင်ဖွယ်ရှိသော ပေါများမှု၏ လွှမ်းမိုးထားသော အထင်အမြင်တစ်ခုတည်း ရွေးချယ်ခြင်း",
+            correctBucketEn: "Sensory/Mood",
+            correctBucketMy: "Sensory/Mood",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Descriptive Composition Result",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ သရုပ်ဖော် ရေးသားမှု ရလဒ်",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Descriptive Composition Result",
+        titleMy: "နေချည်၏ သရုပ်ဖော် ရေးသားမှု ရလဒ်",
+        passageEn:
+            "For the Term 4 capstone, Ko Thura gave Nay Chi a single prompt -- \"Describe a train station at dawn\" -- and 45 timed minutes to produce a complete piece combining everything from the term.\n\nShe planned for five minutes: her dominant impression would be quiet anticipation, the feeling of a place suspended between stillness and imminent motion. She structured a wide-to-narrow-to-wide shape, opening with the whole station's empty platforms bathed in grey pre-dawn light, zooming steadily inward to a single vending machine humming alone in the silence, then to a single moth circling its flickering light, before pulling back out to the first distant rumble of an approaching train breaking the stillness. Throughout, she sustained one extended metaphor: the station as a held breath, waiting to be released.\n\nWith four minutes remaining, she stopped drafting and proofread, catching a tense inconsistency and swapping two generic adjectives -- \"nice\" and \"big\" -- for more precise, evocative alternatives. When Ko Thura read the finished piece, he told her it was the strongest work she had produced all term: every technique from Weeks 13 through 15 appeared not as isolated exercises but woven together into a single, controlled piece of writing. He reminded her that this was always the real test of a skill -- not whether she could demonstrate it alone in a drill, but whether she could deploy it naturally, in combination with everything else she knew, under real exam pressure. Nay Chi closed her notebook, already thinking ahead to Term 5's argumentative essays, where a different kind of controlled structure would be waiting for her.",
+        passageMy:
+            "စတုတ္ထနှစ်ဝက် Capstone အတွက် ကိုသူရသည် Prompt တစ်ခုတည်း ပေးအပ်ခဲ့သည် -- \"အရုဏ်တက်ချိန် ရထားဘူတာတစ်ခုကို ဖော်ပြပါ\" -- နှင့် နှစ်ဝက်မှ အရာအားလုံးကို ပေါင်းစပ်ထားသော အလုပ်တစ်ခုလုံးကို ထုတ်လုပ်ရန် မိနစ် ၄၅ မိနစ် အချိန်ကန့်သတ်ထားသည်။\n\nသူမသည် ငါးမိနစ် စီစဉ်ခဲ့သည် - သူမ၏ လွှမ်းမိုးထားသော အထင်အမြင်မှာ တိတ်ဆိတ်သော မျှော်လင့်ချက် ဖြစ်လာမည်ဖြစ်ပြီး၊ တည်ငြိမ်မှုနှင့် မကြာမီ လှုပ်ရှားမှုကြား ရပ်ဆိုင်းထားသော နေရာတစ်ခု၏ ခံစားချက် ဖြစ်လာမည်ဖြစ်သည်။ သူမသည် ကျယ်ပြန့်မှုမှ ကျဉ်းမြောင်းမှု ကိုဖြတ်၍ ကျယ်ပြန့်မှုသို့ ပုံသဏ္ဌာန်တစ်ခုကို ဖွဲ့စည်းခဲ့ပြီး၊ မှောင်နေသော အရုဏ်တက်ချိန် အလင်းရောင်ဖြင့် ရေချိုးထားသော ဘူတာ၏ လွတ်လပ်နေသော ပလက်ဖောင်းအားလုံးဖြင့် ဖွင့်ခဲ့ကာ၊ တိတ်ဆိတ်မှုအတွင်း တစ်ဦးတည်း တွန်ခေါက်နေသော ရောင်းစက်တစ်ခုတည်းသို့ တစ်ဖြည်းဖြည်း Zoom In ပြုလုပ်ခဲ့ပြီး၊ ထို့နောက် ၎င်း၏ တောက်ပနေသော အလင်းကို ဝိုင်းနေသော ပိုးရွှေတစ်ကောင်တည်းသို့၊ ထို့နောက် တည်ငြိမ်မှုကို ချိုးဖျက်လာသော ရထားတစ်စင်း၏ ဝေးကွာသော ပထမဆုံး တဒုန်းဒုန်း အသံသို့ Zoom Out ပြန်ပြုလုပ်ခဲ့သည်။ တစ်လျှောက်လုံးတွင် သူမသည် Extended Metaphor တစ်ခုကို ဆက်လက် ထိန်းသိမ်းထားခဲ့သည် - ဘူတာသည် လွှတ်ပေးရန် စောင့်ဆိုင်းနေသော သိမ်းထားသော အသက်ရှုသက်ရှုတစ်ခု။\n\nမိနစ် ၄ မိနစ် ကျန်ရှိချိန်တွင် သူမသည် မူကြမ်း ရေးသားခြင်းကို ရပ်တန့်ကာ Proofread ပြုလုပ်ခဲ့ပြီး Tense တသမတ်တည်း မဖြစ်မှုတစ်ခုကို ဖမ်းမိကာ သာမန်ဆန်သော Adjective နှစ်ခု -- \"ကောင်းသော\" နှင့် \"ကြီးသော\" -- ကို ပို၍ တိကျ၍ စိတ်ခံစားမှု နှိုးဆွသော အခြားရွေးချယ်စရာများဖြင့် လဲလှယ်ခဲ့သည်။ ကိုသူရသည် ပြီးစီးသော အလုပ်ကို ဖတ်ရှုသောအခါ ၎င်းသည် နှစ်ဝက်တစ်လျှောက် သူမ ထုတ်လုပ်ခဲ့သော လုပ်ငန်းများအနက် အားအကောင်းဆုံး လုပ်ငန်းဖြစ်ကြောင်း သူမကို ပြောခဲ့သည် - တစ်ဆယ့်သုံးပတ်မှ တစ်ဆယ့်ငါးပတ်အထိ နည်းပညာတိုင်းသည် သီးခြား လေ့ကျင့်ခန်းများအဖြစ် မဟုတ်ဘဲ ထိန်းချုပ်ထားသော ရေးသားမှု တစ်ခုတည်းအဖြစ် ရက်နက်ဆက်ကာ ပေါ်လာခဲ့သည်။ သူသည် ၎င်းသည် ကျွမ်းကျင်မှုတစ်ခု၏ အမှန်တကယ် စစ်ဆေးမှု အမြဲ ဖြစ်ကြောင်း သူမကို သတိပေးခဲ့သည် - လေ့ကျင့်ခန်းတစ်ခုတွင် သီးခြား သရုပ်ပြနိုင်သလား မဟုတ်ဘဲ၊ တကယ့် စာမေးပွဲ ဖိအားအောက်တွင် သူမ သိသည့် ကျန်အားလုံးနှင့် ပေါင်းစပ်လျက် သဘာဝကျစွာ အသုံးချနိုင်သလား ဖြစ်သည်။ နေချည်သည် သူမ၏ မှတ်စုစာအုပ်ကို ပိတ်လိုက်ပြီး၊ မတူညီသော ထိန်းချုပ်ထားသော ဖွဲ့စည်းပုံတစ်ခု သူမကို စောင့်ဆိုင်းနေမည့် ပဉ္စမနှစ်ဝက်၏ အငြင်းပွားမှု အက်ဆေးများကို ရှေ့ကို ကြိုတင် တွေးထားခဲ့ပြီးသား ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's extended metaphor compare the station to?",
+            questionMy:
+                "နေချည်၏ Extended Metaphor သည် ဘူတာကို ဘာနှင့် နှိုင်းယှဉ်ခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A held breath, waiting to be released",
+              "A sleeping animal",
+              "A broken machine",
+              "A blooming flower",
+            ],
+            optionsMy: [
+              "လွှတ်ပေးရန် စောင့်ဆိုင်းနေသော သိမ်းထားသော အသက်ရှုသက်ရှု",
+              "အိပ်ပျော်နေသော တိရစ္ဆာန်",
+              "ပျက်စီးနေသော စက်ကိရိယာ",
+              "ပွင့်နေသော ပန်းတစ်ပွင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of paragraph 2."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two words did Nay Chi replace during proofreading?",
+            questionMy:
+                "Proofread ပြုလုပ်စဉ် နေချည် စကားလုံးနှစ်လုံးကို လဲလှယ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "\"Nice\" and \"big\"",
+              "\"Quiet\" and \"loud\"",
+              "\"Old\" and \"new\"",
+              "\"Fast\" and \"slow\"",
+            ],
+            optionsMy: [
+              "\"ကောင်းသော\" နှင့် \"ကြီးသော\"",
+              "\"တိတ်ဆိတ်သော\" နှင့် \"ဆူညံသော\"",
+              "\"ဟောင်းသော\" နှင့် \"အသစ်\"",
+              "\"မြန်သော\" နှင့် \"နှေးသော\"",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about swapping generic adjectives."],
+            hintsMy: [
+              "သာမန်ဆန်သော Adjective များ လဲလှယ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Ko Thura say was the real test of a skill?",
+            questionMy:
+                "ကျွမ်းကျင်မှုတစ်ခု၏ အမှန်တကယ် စစ်ဆေးမှုသည် မည်သည်ဟု ကိုသူရ ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Deploying it naturally in combination with everything else under exam pressure",
+              "Demonstrating it once in an isolated drill",
+              "Never using it at all",
+              "Copying it exactly from a textbook",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ ဖိအားအောက်တွင် ကျန်အားလုံးနှင့် ပေါင်းစပ်လျက် သဘာဝကျစွာ အသုံးချခြင်း",
+              "သီးခြား လေ့ကျင့်ခန်းတစ်ခုတွင် တစ်ကြိမ်တည်း သရုပ်ပြခြင်း",
+              "ဘယ်တော့မှ လုံးဝ မသုံးခြင်း",
+              "ပြဌာန်းစာအုပ်တစ်အုပ်မှ အတိအကျ ကူးယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining what the real test of a skill was.",
+            ],
+            hintsMy: [
+              "ကျွမ်းကျင်မှုတစ်ခု၏ အမှန်တကယ် စစ်ဆေးမှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-eng-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Descriptive Mastery",
+      titleMy: "စတုတ္ထတန်း Capstone - သရုပ်ဖော် ကျွမ်းကျင်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Descriptive composition planning should focus on choosing...",
+          questionMy:
+              "သရုပ်ဖော် ရေးသားမှု စီစဉ်ခြင်းသည် ...ရွေးချယ်ခြင်းအပေါ် အာရုံစိုက်သင့်သည်",
+          optionsEn: [
+            "A dominant impression",
+            "A murder mystery plot",
+            "Random unrelated facts",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "လွှမ်းမိုးထားသော အထင်အမြင်",
+            "လူသတ်မှု ပဟေဠိ ဇာတ်ကွက်",
+            "ကျပန်း၊ မဆက်စပ်သော အချက်များ",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "One sustained extended metaphor is generally preferable to...",
+          questionMy:
+              "ဆက်လက်ထားသော Extended Metaphor တစ်ခုသည် ...ထက် ပို၍ ကောင်းသည်",
+          optionsEn: [
+            "Several disconnected comparisons",
+            "No figurative language",
+            "Literal statements only",
+            "Note form only",
+          ],
+          optionsMy: [
+            "ဆက်စပ်မှု မရှိသော နှိုင်းယှဉ်ချက်များစွာ",
+            "တင်စား ဘာသာစကား မပါခြင်း",
+            "စာသားအတိုင်း ဖော်ပြချက်များကိုသာ",
+            "မှတ်စုပုံစံသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The real test of a skill is deploying it...",
+          questionMy:
+              "ကျွမ်းကျင်မှုတစ်ခု၏ အမှန်တကယ် စစ်ဆေးမှုသည် ၎င်းကို ...အသုံးချခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Naturally, in combination, under real pressure",
+            "Once in an isolated drill only",
+            "Never at all",
+            "By copying a textbook exactly",
+          ],
+          optionsMy: [
+            "သဘာဝကျစွာ၊ ပေါင်းစပ်လျက်၊ တကယ့် ဖိအားအောက်တွင်",
+            "သီးခြား လေ့ကျင့်ခန်းတစ်ခုတွင် တစ်ကြိမ်တည်းသာ",
+            "ဘယ်တော့မှ လုံးဝ",
+            "ပြဌာန်းစာအုပ်တစ်အုပ်ကို အတိအကျ ကူးယူ၍",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcseEnglishTerm4 = CourseTermDef(
+  id: "course-igcse-eng-term4",
+  termNumber: 4,
+  titleEn: "Descriptive Composition",
+  titleMy: "သရုပ်ဖော် ရေးသားမှု",
+  weeks: [_igcseEngWeek13, _igcseEngWeek14, _igcseEngWeek15, _igcseEngWeek16],
+  certificateTitleEn: "Descriptive Composition",
+  certificateTitleMy: "သရုပ်ဖော် ရေးသားမှု",
 );
 
 // __IGCSE_ENGLISH_MARKER__
