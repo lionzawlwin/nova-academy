@@ -11175,11 +11175,1480 @@ const CourseTermDef igcsePhysicsTerm8 = CourseTermDef(
     _igcsePhysWeek32,
   ],
 );
+// =====================================================================
+// Week 33: "Paper 1 (Multiple Choice) Intensive"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek33 = CourseWeekDef(
+  id: "course-igcse-phys-w33",
+  weekNumber: 33,
+  titleEn: "Paper 1 (Multiple Choice) Intensive",
+  titleMy: "Paper 1 (ရွေးချယ်ရန် မေးခွန်းများ) အထူးကြပ်မတ် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w33-d1",
+      dayNumber: 1,
+      titleEn: "Rapid Recall: Terms 1-4",
+      titleMy: "အမြန် သတိရခြင်း - ပထမ-စတုတ္ထနှစ်ဝက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "On a distance-time graph, the gradient represents...",
+          questionMy: "Distance-Time ဂရပ်တွင် Gradient က ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Speed",
+            "Acceleration",
+            "Total distance only",
+            "Time taken only",
+          ],
+          optionsMy: [
+            "Speed",
+            "Acceleration",
+            "စုစုပေါင်း Distance သာ",
+            "ကြာချိန်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "During a change of state, temperature stays constant because energy supplied is used to...",
+          questionMy:
+              "အခြေအနေ ပြောင်းလဲစဉ် ထောက်ပံ့ပေးသော Energy သည် ...ရန် သုံးစွဲနေသောကြောင့် အပူချိန် တည်ငြိမ်စွာ ရှိနေသည်",
+          optionsEn: [
+            "Break or form forces between particles",
+            "Destroy the particles",
+            "Increase particle speed only",
+            "Change particle colour",
+          ],
+          optionsMy: [
+            "အမှုန်များကြား အားများကို ချိုးဖျက်ရန် သို့မဟုတ် ဖွဲ့စည်းရန်",
+            "အမှုန်များကို ဖျက်ဆီးရန်",
+            "အမှုန် လျင်မြန်နှုန်းကိုသာ တိုးမြှင့်ရန်",
+            "အမှုန်များ၏ အရောင် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The wave equation states speed equals frequency multiplied by...",
+          questionMy:
+              "Wave Equation အရ Speed သည် Frequency ကို ...ဖြင့် မြှောက်ထားခြင်းနှင့် ညီမျှသည်",
+          optionsEn: ["Wavelength", "Amplitude", "Time period only", "Energy"],
+          optionsMy: ["Wavelength", "Amplitude", "Time Period သာ", "Energy"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a series circuit, if one component breaks, the current...",
+          questionMy:
+              "Series Circuit တစ်ခုတွင် ပစ္စည်းတစ်ခု ပျက်စီးသွားပါက Current သည်...",
+          optionsEn: [
+            "Stops flowing everywhere in the loop",
+            "Increases everywhere",
+            "Stays exactly the same",
+            "Only stops in that one component",
+          ],
+          optionsMy: [
+            "Loop အတွင်းရှိ နေရာတိုင်းတွင် စီးဆင်းမှု ရပ်တန့်သည်",
+            "နေရာတိုင်းတွင် တိုးလာသည်",
+            "အတိအကျ တူညီနေသည်",
+            "ထို ပစ္စည်းတစ်ခုတည်းတွင်သာ ရပ်တန့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mixed Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - ရောနှောထားသော ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w33-dm-1",
+          termEn: "Isotopes",
+          termMy: "Isotopes",
+          matchEn:
+              "Atoms of the same element with the same proton number but different neutron numbers",
+          matchMy:
+              "Proton Number တူညီသော်လည်း Neutron Number ကွဲပြားသော ဒြပ်စင်တစ်ခုတည်း၏ အက်တမ်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w33-dm-2",
+          termEn: "Total internal reflection",
+          termMy: "Total Internal Reflection",
+          matchEn:
+              "All light reflecting back into a denser medium beyond the critical angle",
+          matchMy:
+              "Critical Angle ကို ကျော်လွန်သည့်အခါ Density ပို၍ ရှိသော အလယ်အလတ်ထဲသို့ အလင်းအားလုံး ပြန်ရောင်ပြန်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w33-dm-3",
+          termEn: "Motor effect",
+          termMy: "Motor Effect",
+          matchEn:
+              "The force experienced by a current-carrying conductor in a magnetic field",
+          matchMy:
+              "သံလိုက်စက်ကွင်းတစ်ခုအတွင်းရှိ Current သယ်ဆောင်ထားသော Conductor တစ်ခု ခံစားရသော Force",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w33-dm-4",
+          termEn: "Half-life",
+          termMy: "Half-Life",
+          matchEn:
+              "The time taken for the activity of a radioactive sample to halve",
+          matchMy:
+              "Radioactive နမူနာတစ်ခု၏ Activity ထက်ဝက် ကျစေရန် ယူသော အချိန်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w33-dm-5",
+          termEn: "Hubble's Law",
+          termMy: "Hubble's Law",
+          matchEn:
+              "A galaxy's recession speed is proportional to its distance from us",
+          matchMy:
+              "Galaxy တစ်ခု၏ ဝေးကွာသွားနှုန်းသည် ကျွန်ုပ်တို့ထံမှ ၎င်း၏ အကွာအဝေးနှင့် အချိုးကျသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် တန်းက ဤအရာကို ဖော်ပြခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Term 1-4 (Motion/Waves/Circuits)",
+          "Term 5-8 (Electromagnetism/Space)",
+        ],
+        bucketsMy: [
+          "Term 1-4 (Motion/Waves/Circuits)",
+          "Term 5-8 (Electromagnetism/Space)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsephys-w33-sort-1",
+            labelEn: "Calculating combined resistance in a parallel circuit",
+            labelMy:
+                "Parallel Circuit တစ်ခုတွင် ပေါင်းစပ် Resistance တွက်ချက်ခြင်း",
+            correctBucketEn: "Term 1-4 (Motion/Waves/Circuits)",
+            correctBucketMy: "Term 1-4 (Motion/Waves/Circuits)",
+          ),
+          SortingItem(
+            id: "igcsephys-w33-sort-2",
+            labelEn:
+                "Using a transformer's turns ratio to calculate secondary voltage",
+            labelMy:
+                "Secondary Voltage တွက်ချက်ရန် Transformer ၏ လှည့်ပတ် အချိုးကို အသုံးပြုခြင်း",
+            correctBucketEn: "Term 5-8 (Electromagnetism/Space)",
+            correctBucketMy: "Term 5-8 (Electromagnetism/Space)",
+          ),
+          SortingItem(
+            id: "igcsephys-w33-sort-3",
+            labelEn: "Calculating orbital speed from radius and period",
+            labelMy: "Radius နှင့် Period မှ Orbital Speed တွက်ချက်ခြင်း",
+            correctBucketEn: "Term 5-8 (Electromagnetism/Space)",
+            correctBucketMy: "Term 5-8 (Electromagnetism/Space)",
+          ),
+          SortingItem(
+            id: "igcsephys-w33-sort-4",
+            labelEn: "Applying the law of reflection at a plane mirror",
+            labelMy: "Plane Mirror တစ်ခုတွင် Law of Reflection အသုံးချခြင်း",
+            correctBucketEn: "Term 1-4 (Motion/Waves/Circuits)",
+            correctBucketMy: "Term 1-4 (Motion/Waves/Circuits)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Thura's Multiple-Choice Strategy Session",
+      titleMy: "စာဖတ်ခြင်း - ကိုသူရ၏ ရွေးချယ်ရန်မေးခွန်း မဟာဗျူဟာ အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Thura's Multiple-Choice Strategy Session",
+        titleMy: "ကိုသူရ၏ ရွေးချယ်ရန်မေးခွန်း မဟာဗျူဟာ အစည်းအဝေး",
+        passageEn:
+            "With her real IGCSE exam only weeks away, Ko Thura shifted Nay Chi's preparation from learning new content to sharpening exam technique specifically for Paper 1's forty multiple-choice questions in forty-five minutes.\n\nHis first piece of advice concerned formula recall under time pressure: rather than trying to memorise every formula as an isolated fact, he encouraged her to group them by topic and derive simple ones from first principles during practice, such as remembering that speed = distance/time by picturing a car journey, rather than rote-memorising the symbols alone -- a technique that held up far better under exam stress than pure memorisation. His second piece of advice was about numerical questions specifically: since Paper 1 rarely required a calculator, he taught her to check whether an answer's order of magnitude made physical sense before selecting it, catching errors like accidentally calculating a car's speed as 5000 m/s rather than 50 m/s.\n\nHis third piece of advice concerned elimination: even when Nay Chi could not immediately recall the exact right answer, she could often rule out one or two options as physically impossible -- a negative resistance, a speed exceeding light, or an angle greater than 90 degrees for a right-angle case -- turning a difficult four-way guess into a much better two-way guess. Nay Chi practiced this rhythm on a timed twenty-question drill, and found that combining formula grouping, order-of-magnitude checking, and elimination together noticeably improved both her speed and her accuracy compared to relying on any single technique alone.",
+        passageMy:
+            "သူမ၏ အမှန်တကယ် IGCSE စာမေးပွဲသည် ရက်သတ္တပတ်များအတွင်း ကျန်ရှိနေရာ ကိုသူရသည် နေချည်၏ ပြင်ဆင်မှုကို အကြောင်းအရာသစ် သင်ယူခြင်းမှ Paper 1 ၏ ရွေးချယ်ရန် မေးခွန်း လေးဆယ်ကို မိနစ် လေးဆယ့်ငါးအတွင်း အထူးသတိပြု ဖြေဆိုနိုင်ရန် စာမေးပွဲ နည်းပရိယာယ်ကို ချွန်ထက်စေရန် ပြောင်းလဲခဲ့သည်။\n\nသူ၏ ပထမဆုံး အကြံဉာဏ်သည် အချိန်ဖိအားအောက်တွင် Formula ပြန်လည်ဖော်ထုတ်မှုနှင့် သက်ဆိုင်ခဲ့သည် - Formula တိုင်းကို သီးခြား အချက်တစ်ခုအဖြစ် အလွတ်ကျက်ရန် ကြိုးစားမည့်အစား သူသည် ၎င်းတို့ကို ခေါင်းစဉ်အလိုက် စုစည်းကာ လေ့ကျင့်ခန်းအတွင်း ပထမ နိယာမများမှ ရိုးရှင်းသောများကို ဆင်းသက်ရန် အားပေးခဲ့သည်၊ ဥပမာ- Symbol များကိုသာ အလွတ်ကျက်မည့်အစား ကား ခရီးစဉ်တစ်ခုကို စိတ်ကူးကြည့်ခြင်းဖြင့် Speed = Distance/Time ကို မှတ်ထားခြင်း -- ဤ နည်းစနစ်သည် အလွတ်ကျက်ခြင်းသက်သက်ထက် စာမေးပွဲ ဖိအားအောက်တွင် များစွာ ပို၍ ခံနိုင်ခဲ့သည်။ သူ၏ ဒုတိယ အကြံဉာဏ်သည် ဂဏန်းဆိုင်ရာ မေးခွန်းများအကြောင်း အထူးသဖြင့် ဖြစ်ခဲ့သည် - Paper 1 သည် ကယ်လကူလေတာ ရှားရှားပါးပါးသာ လိုအပ်သောကြောင့် အဖြေတစ်ခု ရွေးချယ်မီ ၎င်း၏ Order of Magnitude သည် ရုပ်ပိုင်းဆိုင်ရာ အဓိပ္ပာယ်ရှိမရှိ စစ်ဆေးရန် သူ သူမကို သင်ကြားပေးခဲ့ပြီး ကား၏ Speed ကို 50 m/s အစား 5000 m/s ဟု မတော်တဆ တွက်ချက်ခြင်းကဲ့သို့ အမှားများကို ဖမ်းယူခဲ့သည်။\n\nသူ၏ တတိယ အကြံဉာဏ်သည် Elimination နှင့် သက်ဆိုင်ခဲ့သည် - နေချည်သည် အတိအကျ မှန်ကန်သော အဖြေကို ချက်ချင်း သတိမရနိုင်သည့်တိုင် ရွေးချယ်စရာ တစ်ခု သို့မဟုတ် နှစ်ခုကို ရုပ်ပိုင်းဆိုင်ရာအရ မဖြစ်နိုင်ဟု မကြာခဏ ဖယ်ရှားနိုင်ခဲ့သည် -- Negative Resistance တစ်ခု၊ အလင်းထက် ကျော်လွန်သော Speed တစ်ခု သို့မဟုတ် Right-Angle ဖြစ်ရပ်တစ်ခုအတွက် ဒီဂရီ ၉၀ ထက် ကြီးသော ထောင့်တစ်ခု -- ခက်ခဲသော လေးလမ်း ခန့်မှန်းမှုကို ပို၍ ကောင်းသော နှစ်လမ်း ခန့်မှန်းမှုအဖြစ် ပြောင်းလဲပေးခဲ့သည်။ နေချည်သည် ဤ ရစ်ချက်ကို အချိန်ကန့်သတ်ထားသော မေးခွန်း နှစ်ဆယ် လေ့ကျင့်ခန်းတစ်ခုတွင် လေ့ကျင့်ခဲ့ပြီး Formula စုစည်းခြင်း၊ Order-Of-Magnitude စစ်ဆေးခြင်းနှင့် Elimination ကို အတူတကွ ပေါင်းစပ်ခြင်းက နည်းစနစ် တစ်ခုတည်းသာ အားကိုးခြင်းနှင့် နှိုင်းယှဉ်လျှင် သူမ၏ Speed နှင့် Accuracy နှစ်ခုစလုံးကို ထင်ရှားစွာ တိုးတက်စေကြောင်း တွေ့ရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Thura recommend checking an answer's order of magnitude?",
+            questionMy:
+                "အဖြေ၏ Order of Magnitude ကို စစ်ဆေးရန် ကိုသူရ အကြံပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It helps catch errors like an answer that does not physically make sense",
+              "It guarantees a perfect score every time",
+              "It replaces the need to know any formula at all",
+              "Calculators are always required on Paper 1",
+            ],
+            optionsMy: [
+              "ရုပ်ပိုင်းဆိုင်ရာ အဓိပ္ပာယ် မရှိသော အဖြေကဲ့သို့ အမှားများကို ဖမ်းယူရန် ကူညီပေးသောကြောင့်",
+              "အကြိမ်တိုင်း ပြီးပြည့်စုံသော ရမှတ်ကို အာမခံသောကြောင့်",
+              "Formula မည်သည်ကိုမျှ သိရှိရန် လိုအပ်ချက်ကို အစားထိုးပေးသောကြောင့်",
+              "Paper 1 တွင် ကယ်လကူလေတာ အမြဲ လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about order of magnitude checking."],
+            hintsMy: [
+              "Order of Magnitude စစ်ဆေးခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what kind of options could Nay Chi often eliminate?",
+            questionMy:
+                "နေချည် မကြာခဏ ဖယ်ရှားနိုင်ခဲ့သော ရွေးချယ်စရာ အမျိုးအစားကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Options that are physically impossible, such as a speed exceeding light",
+              "Options written in a smaller font",
+              "Only the very first option listed",
+              "Options with the longest sentence",
+            ],
+            optionsMy: [
+              "အလင်းထက် ကျော်လွန်သော Speed တစ်ခုကဲ့သို့ ရုပ်ပိုင်းဆိုင်ရာအရ မဖြစ်နိုင်သော ရွေးချယ်စရာများ",
+              "Font သေးငယ်စွာဖြင့် ရေးထားသော ရွေးချယ်စရာများ",
+              "ဖော်ပြထားသော ပထမဆုံး ရွေးချယ်စရာသာ",
+              "အရှည်ဆုံး စာကြောင်းရှိ ရွေးချယ်စရာများ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with examples of impossible options.",
+            ],
+            hintsMy: [
+              "မဖြစ်နိုင်သော ရွေးချယ်စရာများ၏ ဥပမာများ ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Nay Chi find improved her results most?",
+            questionMy:
+                "သူမ၏ ရလဒ်များကို အများဆုံး တိုးတက်စေခဲ့ကြောင်း နေချည် တွေ့ရှိခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Combining all three techniques together, rather than relying on any one alone",
+              "Using only elimination and nothing else",
+              "Memorising every formula with no understanding",
+              "Ignoring order-of-magnitude checks entirely",
+            ],
+            optionsMy: [
+              "နည်းစနစ် တစ်ခုတည်းသာ အားကိုးမည့်အစား သုံးခုစလုံးကို ပေါင်းစပ်ခြင်း",
+              "Elimination တစ်ခုတည်းကိုသာ အသုံးပြုပြီး အခြား မည်သည်ကိုမျှ မသုံးခြင်း",
+              "နားလည်မှု မရှိဘဲ Formula တိုင်းကို အလွတ်ကျက်ခြင်း",
+              "Order-Of-Magnitude စစ်ဆေးမှုများကို လုံးလုံးလျားလျား လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: MCQ Technique",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - MCQ နည်းစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Checking an answer's order of magnitude helps catch...",
+          questionMy:
+              "အဖြေ၏ Order of Magnitude ကို စစ်ဆေးခြင်းသည် ...ကို ဖမ်းယူရန် ကူညီသည်",
+          optionsEn: [
+            "Physically impossible errors",
+            "Spelling mistakes only",
+            "The colour of the diagram",
+            "Nothing useful at all",
+          ],
+          optionsMy: [
+            "ရုပ်ပိုင်းဆိုင်ရာအရ မဖြစ်နိုင်သော အမှားများ",
+            "စာလုံးပေါင်း အမှားများသာ",
+            "ပုံ၏ အရောင်",
+            "အသုံးဝင်သော အရာ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Elimination strategy means ruling out options that are...",
+          questionMy:
+              "Elimination မဟာဗျူဟာ ဆိုသည်မှာ ...ဖြစ်သော ရွေးချယ်စရာများကို ဖယ်ရှားခြင်း ဆိုလိုသည်",
+          optionsEn: [
+            "Physically impossible",
+            "Written first in the list",
+            "The shortest sentence",
+            "In a different colour",
+          ],
+          optionsMy: [
+            "ရုပ်ပိုင်းဆိုင်ရာအရ မဖြစ်နိုင်",
+            "စာရင်းတွင် ပထမဆုံး ရေးထား",
+            "အတိုဆုံး စာကြောင်း",
+            "ကွဲပြားသော အရောင်ဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Grouping formulas by topic and deriving them from first principles helps because it...",
+          questionMy:
+              "Formula များကို ခေါင်းစဉ်အလိုက် စုစည်းကာ ပထမ နိယာမများမှ ဆင်းသက်ခြင်းက အထောက်အကူပြုသည်၊ အကြောင်းမှာ ၎င်းက...",
+          optionsEn: [
+            "Holds up better under exam stress than rote memorisation alone",
+            "Guarantees every answer is correct",
+            "Removes the need to understand physics at all",
+            "Makes the exam shorter",
+          ],
+          optionsMy: [
+            "အလွတ်ကျက်ခြင်းသက်သက်ထက် စာမေးပွဲ ဖိအားအောက်တွင် ပို၍ ခံနိုင်သောကြောင့်",
+            "အဖြေတိုင်း မှန်ကန်ကြောင်း အာမခံသောကြောင့်",
+            "ရူပဗေဒကို နားလည်ရန် လိုအပ်ချက်ကို လုံးလုံးလျားလျား ဖယ်ရှားသောကြောင့်",
+            "စာမေးပွဲကို တိုတောင်းစေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 34: "Paper 3/4 (Theory Calculations) Mastery"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek34 = CourseWeekDef(
+  id: "course-igcse-phys-w34",
+  weekNumber: 34,
+  titleEn: "Paper 3/4 (Theory Calculations) Mastery",
+  titleMy: "Paper 3/4 (သီအိုရီ တွက်ချက်မှုများ) ကျွမ်းကျင်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w34-d1",
+      dayNumber: 1,
+      titleEn: "Structuring Extended Calculations",
+      titleMy: "Extended တွက်ချက်မှုများ တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A 1500 kg car accelerates from rest to 20 m/s in 10 seconds. What is the resultant force acting on it? (F = ma, a = change in v / t)",
+          questionMy:
+              "1500 kg ကားတစ်စီးသည် ရပ်နေရာမှ ဆက္ကန့် ၁၀ အတွင်း 20 m/s သို့ အရှိန်တက်သည်။ ၎င်းအပေါ် သက်ရောက်နေသော Resultant Force ကား အဘယ်နည်း။ (F = ma, a = v ပြောင်းလဲမှု / t)",
+          optionsEn: [
+            "3000 N (a = 20/10 = 2 m/s2; F = 1500 x 2)",
+            "30,000 N",
+            "150 N",
+            "300 N",
+          ],
+          optionsMy: [
+            "3000 N (a = 20/10 = 2 m/s2; F = 1500 x 2)",
+            "30,000 N",
+            "150 N",
+            "300 N",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "First find acceleration: a = (20 - 0)/10 = 2 m/s2. Then F = ma = 1500 x 2 = 3000 N. Structuring each step separately, with units, earns method marks even if the final number has a small slip.",
+          ],
+          hintsMy: [
+            "ပထမဆုံး Acceleration ကို ရှာဖွေပါ- a = (20 - 0)/10 = 2 m/s2 ။ ထို့နောက် F = ma = 1500 x 2 = 3000 N ။ ယူနစ်များနှင့်အတူ အဆင့်တစ်ခုစီကို သီးခြား တည်ဆောက်ခြင်းက နောက်ဆုံး ဂဏန်းတွင် ငယ်ငယ်စား ချော့သွားမှု ရှိသည်ဖြစ်စေ Method Mark များ ရရှိစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a well-structured extended-answer explanation, what should come after simply stating an observation?",
+          questionMy:
+              "ကောင်းစွာ တည်ဆောက်ထားသော Extended-Answer ရှင်းပြချက်တစ်ခုတွင် တွေ့ကြုံရသည်ကို ရိုးရိုးရှင်းရှင်း ဖော်ပြပြီးနောက် အဘယ်အရာ ဆက်လာသင့်သနည်း။",
+          optionsEn: [
+            "The physics reasoning explaining why that observation occurs",
+            "Nothing further is needed at all",
+            "A repetition of the exact same observation",
+            "An unrelated fact about a different topic",
+          ],
+          optionsMy: [
+            "ထို အကြောင်းအရာ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းကို ရှင်းပြသော ရူပဗေဒ ကျိုးကြောင်းဆင်ခြင်ချက်",
+            "ထပ်မံ လိုအပ်သည့်အရာ လုံးဝ မရှိပါ",
+            "အတိအကျ တူညီသော အကြောင်းအရာကို ထပ်ခါထပ်ခါ ဖော်ပြခြင်း",
+            "မတူညီသော ခေါင်းစဉ်တစ်ခုအကြောင်း မသက်ဆိုင်သော အချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Mark schemes reward the causal explanation (the 'why'), not just a restatement of the observation (the 'what').",
+          ],
+          hintsMy: [
+            "Mark Scheme များသည် တွေ့ကြုံရသည်ကို ပြန်ထပ်ဖော်ပြခြင်း ('What') မဟုတ်ဘဲ ကြောင်းကျိုး ရှင်းပြချက် ('Why') ကို ဆုချီးမြှင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a calculation asks for a final answer 'to an appropriate number of significant figures', what should you generally do?",
+          questionMy:
+              "တွက်ချက်မှုတစ်ခုသည် 'သင့်လျော်သော Significant Figures အရေအတွက်' ဖြင့် နောက်ဆုံး အဖြေတစ်ခု တောင်းဆိုသည့်အခါ သင် ယေဘူယျအားဖြင့် အဘယ်ကို ပြုလုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Match the number of significant figures given in the question's data, typically 2 or 3",
+            "Always give an answer with 10 significant figures regardless",
+            "Round to the nearest whole number no matter what",
+            "Significant figures never matter for physics calculations",
+          ],
+          optionsMy: [
+            "မေးခွန်း၏ ဒေတာတွင် ပေးထားသော Significant Figures အရေအတွက်နှင့် ကိုက်ညီစေခြင်း၊ များသောအားဖြင့် ၂ သို့မဟုတ် ၃",
+            "မည်သို့ပင်ဖြစ်စေ Significant Figures ၁၀ ခုပါသော အဖြေတစ်ခုကို အမြဲ ပေးအပ်ခြင်း",
+            "မည်သို့ပင်ဖြစ်စေ အနီးဆုံး ကိန်းပြည့်သို့ Round ပြုလုပ်ခြင်း",
+            "Significant Figures သည် ရူပဗေဒ တွက်ချက်မှုများအတွက် ဘယ်တော့မှ အရေးမကြီးပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A final answer should not claim more precision than the original data actually supports -- matching significant figures to the given data (usually 2 or 3 sf) is standard IGCSE practice.",
+          ],
+          hintsMy: [
+            "နောက်ဆုံး အဖြေတစ်ခုသည် မူလ ဒေတာက အမှန်တကယ် ထောက်ပံ့ပေးသည်ထက် ပို၍ တိကျမှု ရှိသည်ဟု မတောင်းဆိုသင့်ပါ -- ပေးထားသော ဒေတာနှင့် Significant Figures ကို ကိုက်ညီစေခြင်း (များသောအားဖြင့် Sf ၂ သို့မဟုတ် ၃) သည် Standard IGCSE လေ့ကျင့်ခန်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Extended Answer Command Words",
+      titleMy: "တွဲစပ်ကြမည် - Extended အဖြေ Command Word များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w34-dm-1",
+          termEn: "'Explain'",
+          termMy: "'Explain'",
+          matchEn:
+              "Give reasons using physics knowledge, not just a description of what happens",
+          matchMy:
+              "ဖြစ်ပျက်သည်ကို ဖော်ပြခြင်းသက်သက် မဟုတ်ဘဲ ရူပဗေဒ ဗဟုသုတကို အသုံးပြု၍ အကြောင်းပြချက်များ ပေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w34-dm-2",
+          termEn: "'Describe'",
+          termMy: "'Describe'",
+          matchEn:
+              "State what is observed or what happens, without needing to give a reason why",
+          matchMy:
+              "အကြောင်းပြချက် ပေးရန် မလိုအပ်ဘဲ တွေ့မြင်ရသည် သို့မဟုတ် ဖြစ်ပျက်သည်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w34-dm-3",
+          termEn: "'Calculate'",
+          termMy: "'Calculate'",
+          matchEn:
+              "Show numerical working step by step to reach a final numeric answer with units",
+          matchMy:
+              "ယူနစ်ပါသော နောက်ဆုံး ကိန်းဂဏန်း အဖြေ ရရှိရန် ကိန်းဂဏန်း လုပ်ဆောင်ချက်ကို အဆင့်ဆင့် ပြသခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w34-dm-4",
+          termEn: "'Predict'",
+          termMy: "'Predict'",
+          matchEn:
+              "Use a pattern or principle already learned to state an expected but untested outcome",
+          matchMy:
+              "သင်ယူပြီးသား ပုံစံ သို့မဟုတ် နိယာမတစ်ခုကို အသုံးပြု၍ မျှော်လင့်ထားသော်လည်း မစမ်းသပ်ရသေးသော ရလဒ်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w34-dm-5",
+          termEn: "'Compare'",
+          termMy: "'Compare'",
+          matchEn:
+              "State both similarities and differences between two things, not just one alone",
+          matchMy:
+              "အရာနှစ်ခု တစ်ခုတည်းမဟုတ်ဘဲ ၎င်းတို့ကြား ဆင်တူချက်များနှင့် ကွာခြားချက်များ နှစ်ခုစလုံးကို ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Full Marks or Partial Marks Answer?",
+      titleMy:
+          "စီစစ်ကြမည် - အမှတ်အပြည့် အဖြေလား၊ တစ်စိတ်တစ်ပိုင်း အမှတ် အဖြေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Full Marks Answer", "Partial Marks Answer"],
+        bucketsMy: ["Full Marks Answer", "Partial Marks Answer"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w34-sort-1",
+            labelEn:
+                "'The current increases because resistance decreases, since V = IR and V is constant'",
+            labelMy:
+                "'V = IR ဖြစ်ပြီး V တည်ငြိမ်နေသောကြောင့် Resistance လျော့ကျသောကြောင့် Current တိုးလာသည်'",
+            correctBucketEn: "Full Marks Answer",
+            correctBucketMy: "Full Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsephys-w34-sort-2",
+            labelEn: "'The current increases because it just does'",
+            labelMy:
+                "'Current တိုးလာသည်၊ အကြောင်းမှာ ရိုးရိုးရှင်းရှင်း တိုးလာသောကြောင့်'",
+            correctBucketEn: "Partial Marks Answer",
+            correctBucketMy: "Partial Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsephys-w34-sort-3",
+            labelEn:
+                "A full working showing each step, units, and a final answer to appropriate significant figures",
+            labelMy:
+                "အဆင့်တစ်ခုစီ၊ ယူနစ်များနှင့် သင့်လျော်သော Significant Figures ဖြင့် နောက်ဆုံး အဖြေကို ပြသော လုပ်ဆောင်ချက် အပြည့်အစုံ",
+            correctBucketEn: "Full Marks Answer",
+            correctBucketMy: "Full Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsephys-w34-sort-4",
+            labelEn:
+                "Just the final number, with no units and no working shown",
+            labelMy:
+                "ယူနစ် မပါဘဲ၊ လုပ်ဆောင်ချက် မပြသဘဲ နောက်ဆုံး ကိန်းဂဏန်းသက်သက်",
+            correctBucketEn: "Partial Marks Answer",
+            correctBucketMy: "Partial Marks Answer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Thura's Circuit Explanation Marking Guide",
+      titleMy: "စာဖတ်ခြင်း - ကိုသူရ၏ Circuit ရှင်းပြချက် အမှတ်ပေးလမ်းညွှန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Thura's Circuit Explanation Marking Guide",
+        titleMy: "ကိုသူရ၏ Circuit ရှင်းပြချက် အမှတ်ပေးလမ်းညွှန်",
+        passageEn:
+            "Ko Thura showed Nay Chi two student answers to the same question -- explain why the bulbs in a series circuit all dim when an extra bulb is added -- and asked her to guess which would score full marks.\n\nAnswer A read: 'Adding another bulb makes the circuit have more bulbs, so they all get dimmer because there are more of them.' Answer B read: 'Adding another bulb increases the total resistance of the series circuit, since resistances in series add together. Since the supply voltage stays the same, and V = IR, a larger total resistance means a smaller current flows through the whole circuit. Because all the bulbs share this same, now-smaller current, each one dims.' Nay Chi correctly identified Answer B as the full-marks response, since it named the specific physical mechanism (resistance adding in series), applied the relevant equation (V = IR), and explained why the effect applied to every bulb equally (they share the same current in series) -- three distinct, markable physics points rather than one vague restatement of the observation.\n\nKo Thura explained that Answer A committed a classic mistake: it restated that more bulbs caused dimming without ever explaining the underlying resistance-current relationship, which examiners specifically train to recognise and refuse to credit, no matter how confidently it is written. He gave her one final rule of thumb for every extended physics question from here to the exam: before writing a final sentence, check whether it actually contains a named physics quantity or equation connecting cause to effect -- if it only restates the observation in different words, it earns zero marks regardless of length.",
+        passageMy:
+            "ကိုသူရသည် နေချည်ကို မေးခွန်းတစ်ခုတည်းအတွက် ကျောင်းသား အဖြေ နှစ်ခု -- Series Circuit တစ်ခုရှိ Bulb များသည် Bulb ထပ်ဆောင်း ထည့်လိုက်သည့်အခါ အားလုံး မှိန်သွားရသည့် အကြောင်းရင်း ရှင်းပြခြင်း -- ကို ပြသပြီး မည်သည် အမှတ်အပြည့် ရမည်ဟု ခန့်မှန်းရန် သူမကို တောင်းဆိုခဲ့သည်။\n\nအဖြေ A ဤသို့ ဖတ်ရသည် - 'Bulb ထပ်ထည့်ခြင်းက Circuit တွင် Bulb ပို၍ များစေပြီး ၎င်းတို့ ပို၍ များသောကြောင့် အားလုံး ပို၍ မှိန်လာသည်။' အဖြေ B ဤသို့ ဖတ်ရသည် - 'Series ရှိ Resistance များသည် အတူတကွ ပေါင်းစည်းသောကြောင့် Bulb ထပ်ထည့်ခြင်းက Series Circuit ၏ စုစုပေါင်း Resistance ကို တိုးမြှင့်ပေးသည်။ ထောက်ပံ့ Voltage သည် တူညီစွာ ဆက်ရှိနေပြီး V = IR ဖြစ်သောကြောင့် စုစုပေါင်း Resistance ပို၍ ကြီးမားခြင်းသည် Circuit တစ်ခုလုံးကို ဖြတ်သန်း Current ငယ်ချက် စီးဆင်းကြောင်း ဆိုလိုသည်။ Bulb အားလုံးသည် ဤ တူညီသော၊ ယခု ငယ်လာသော Current ကို ဝေမျှသောကြောင့် တစ်ခုစီ မှိန်လာသည်။' ရှင်သန့်သည် အဖြေ B ကို အမှတ်အပြည့် တုံ့ပြန်ချက်အဖြစ် မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းသည် တိကျသော ရုပ်ပိုင်းဆိုင်ရာ Mechanism (Series ရှိ Resistance ပေါင်းစည်းခြင်း) ကို အမည်တပ်ခဲ့ပြီး သက်ဆိုင်ရာ Equation (V = IR) ကို အသုံးချကာ ထို သက်ရောက်မှုသည် Bulb တိုင်းကို ညီမျှစွာ အဘယ်ကြောင့် သက်ရောက်ကြောင်း ရှင်းပြထားသောကြောင့် (Series တွင် ၎င်းတို့ တူညီသော Current ကို ဝေမျှကြသည်) -- တွေ့ကြုံရသည်ကို ရှင်းရှင်းလင်းလင်း မဟုတ်သော ပြန်ထပ်ခြင်း တစ်ခုတည်းအစား တိကျသော၊ အမှတ်ပေးနိုင်သော ရူပဗေဒ အချက် သုံးခု ဖြစ်သည်။\n\nအဖြေ A သည် Classic အမှားတစ်ခု ပြုလုပ်ခဲ့ကြောင်း ကိုသူရ ရှင်းပြခဲ့သည် - အရင်းခံ Resistance-Current ဆက်နွှယ်မှုကို ဘယ်တော့မှ ရှင်းမပြဘဲ Bulb ပိုများခြင်းက မှိန်စေကြောင်း ပြန်ထပ်ခဲ့ရုံသာ ဖြစ်ခဲ့ပြီး ၎င်းကို စာစစ်ဆရာများသည် မည်မျှ စိတ်ချစွာ ရေးသားထားသည်ဖြစ်စေ အထူးလေ့ကျင့်ကာ ဖော်ထုတ်ကာ အမှတ် မပေးဘဲ ငြင်းဆန်ကြသည်။ ယခုမှ စာမေးပွဲအထိ Extended ရူပဗေဒ မေးခွန်း တိုင်းအတွက် ကိုသူရသည် သူမကို နောက်ဆုံး အနုတ်ရေးနည်းလမ်းတစ်ခု ပေးခဲ့သည် - နောက်ဆုံး စာကြောင်းကို မရေးမီ ၎င်းတွင် အကြောင်းရင်းကို ရလဒ်နှင့် ချိတ်ဆက်ပေးသော အမည်တပ်ထားသော ရူပဗေဒ ပမာဏ သို့မဟုတ် Equation တစ်ခု အမှန်တကယ် ပါဝင်ခြင်း ရှိမရှိ စစ်ဆေးရန် -- တွေ့ကြုံရသည်ကို စကားလုံး ကွဲပြားစွာ ပြန်ထပ်ရုံသာ ဆိုပါက အရှည် မည်မျှပင် ရှိသည်ဖြစ်စေ အမှတ် သုညသာ ရရှိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three distinct points did Answer B include that made it full marks?",
+            questionMy:
+                "အဖြေ B ကို အမှတ်အပြည့် ဖြစ်စေသော တိကျသော အချက် သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific mechanism, the relevant equation, and why the effect applied to every bulb",
+              "Only the colour of the bulbs",
+              "Only the price of the bulbs",
+              "Only a restatement that more bulbs cause dimming",
+            ],
+            optionsMy: [
+              "တိကျသော Mechanism, သက်ဆိုင်ရာ Equation နှင့် သက်ရောက်မှုသည် Bulb တိုင်းကို အဘယ်ကြောင့် သက်ရောက်ကြောင်း",
+              "Bulb များ၏ အရောင်သာ",
+              "Bulb များ၏ ဈေးနှုန်းသာ",
+              "Bulb ပိုများခြင်းက မှိန်စေသည်ဟူသော ပြန်ထပ်ချက်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing why Nay Chi identified Answer B as full marks.",
+            ],
+            hintsMy: [
+              "အဖြေ B ကို အမှတ်အပြည့်ဟု နေချည် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းများ ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific mistake did Answer A commit?",
+            questionMy:
+                "အဖြေ A ပြုလုပ်ခဲ့သော တိကျသော အမှားကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It restated the observation without ever explaining the underlying resistance-current relationship",
+              "It used too many equations",
+              "It was written far too briefly to be read",
+              "It answered a completely different question",
+            ],
+            optionsMy: [
+              "အရင်းခံ Resistance-Current ဆက်နွှယ်မှုကို ဘယ်တော့မှ ရှင်းမပြဘဲ တွေ့ကြုံရသည်ကို ပြန်ထပ်ခဲ့သည်",
+              "Equation များစွာ အလွန်အကျွံ အသုံးပြုခဲ့သည်",
+              "ဖတ်ရှုရန် အလွန် တိုတောင်းစွာ ရေးသားခဲ့သည်",
+              "လုံးဝ မတူညီသော မေးခွန်းတစ်ခုကို ဖြေဆိုခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the mistake."],
+            hintsMy: ["အမှားကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what test should Nay Chi apply before writing a final answer sentence?",
+            questionMy:
+                "နောက်ဆုံး အဖြေစာကြောင်း မရေးမီ နေချည် သုံးသင့်သော စစ်ဆေးမှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether the sentence contains a named physics quantity or equation connecting cause to effect",
+              "Whether the sentence is exactly ten words long",
+              "Whether the sentence uses a rhyme",
+              "Whether the sentence repeats the question verbatim",
+            ],
+            optionsMy: [
+              "စာကြောင်းတွင် အကြောင်းရင်းကို ရလဒ်နှင့် ချိတ်ဆက်ပေးသော အမည်တပ်ထားသော ရူပဗေဒ ပမာဏ သို့မဟုတ် Equation တစ်ခု ပါဝင်ခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် အတိအကျ စကားလုံး ဆယ်လုံး ရှည်ခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် ကာရန်ကို အသုံးပြုခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် မေးခွန်းကို စကားလုံးအတိုင်း ထပ်ခါထပ်ခါ ရေးသားခြင်း ရှိမရှိ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Extended Answer Technique",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Extended အဖြေ နည်းစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "'Explain' questions require you to give...",
+          questionMy: "'Explain' မေးခွန်းများသည် ...ကို ပေးရန် လိုအပ်သည်",
+          optionsEn: [
+            "Reasons using physics knowledge",
+            "A one-word answer only",
+            "A drawing with no text",
+            "The question repeated back",
+          ],
+          optionsMy: [
+            "ရူပဗေဒ ဗဟုသုတကို အသုံးပြု၍ အကြောင်းပြချက်များ",
+            "စကားလုံးတစ်လုံးတည်း အဖြေသာ",
+            "စာသား မပါသော ပုံတစ်ပုံ",
+            "မေးခွန်းကို ပြန်ထပ်ဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Showing full working in a calculation earns...",
+          questionMy:
+              "တွက်ချက်မှုတစ်ခုတွင် လုပ်ဆောင်ချက် အပြည့်အစုံ ပြသခြင်းက ...ကို ရရှိစေသည်",
+          optionsEn: [
+            "Method marks, even if the final number has a small error",
+            "No marks at all under any circumstances",
+            "Fewer marks than a bare number",
+            "A penalty for taking too long",
+          ],
+          optionsMy: [
+            "Method Mark များ၊ နောက်ဆုံး ကိန်းဂဏန်းတွင် ငယ်ငယ်စား အမှား ရှိသည်ဖြစ်စေ",
+            "မည်သည့် အခြေအနေတွင်မဆို အမှတ် လုံးဝ မရှိပါ",
+            "အလွတ် ကိန်းဂဏန်းတစ်ခုထက် အမှတ် နည်းသည်",
+            "အချိန် ကြာလွန်းခြင်းအတွက် ဒဏ်ခတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A final numeric answer should generally be given to...",
+          questionMy:
+              "နောက်ဆုံး ကိန်းဂဏန်း အဖြေတစ်ခုကို ယေဘူယျအားဖြင့် ...ဖြင့် ပေးအပ်သင့်သည်",
+          optionsEn: [
+            "The same number of significant figures as the given data",
+            "Exactly 10 significant figures always",
+            "No significant figures at all",
+            "A random number of decimal places",
+          ],
+          optionsMy: [
+            "ပေးထားသော ဒေတာနှင့် တူညီသော Significant Figures အရေအတွက်",
+            "အမြဲ အတိအကျ Significant Figures ၁၀ ခု",
+            "Significant Figures လုံးဝ မပါဘဲ",
+            "Decimal Place ကျပန်း အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 35: "Full Past Paper Mock Examinations"
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek35 = CourseWeekDef(
+  id: "course-igcse-phys-w35",
+  weekNumber: 35,
+  titleEn: "Full Past Paper Mock Examinations",
+  titleMy: "မေးခွန်းဟောင်း ပုံစံတူ စာမေးပွဲ အစုံအလင် ဖြေဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mock Paper 1: Terms 5-8 Mixed Recall",
+      titleMy: "Mock Paper 1 - ပဉ္စမ-အဌမ နှစ်ဝက် ရောနှော သတိရခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A relay is used in a control circuit because it allows...",
+          questionMy:
+              "Relay ကို ထိန်းချုပ်ရေး ပတ်လမ်းတစ်ခုတွင် အသုံးပြုသည့် အကြောင်းရင်းမှာ ၎င်းသည် ...ခွင့်ပြုသောကြောင့်ဖြစ်သည်",
+          optionsEn: [
+            "A small current to control a much larger circuit",
+            "Current to flow without any wires at all",
+            "Voltage to become permanently zero",
+            "Resistance to disappear completely",
+          ],
+          optionsMy: [
+            "Current ငယ်တစ်ခုအား ပို၍ ကြီးမားသော ပတ်လမ်းတစ်ခုကို ထိန်းချုပ်ခွင့်ပြုသည်",
+            "ကြိုးများ လုံးဝ မပါဘဲ Current စီးဆင်းခွင့်ပြုသည်",
+            "Voltage ကို ထာဝစဉ် သုည ဖြစ်စေသည်",
+            "Resistance ကို လုံးလုံးလျားလျား ပျောက်ကွယ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Alpha radiation has low penetration but high...",
+          questionMy:
+              "Alpha Radiation တွင် ထိုးဖောက်နိုင်စွမ်း နိမ့်သော်လည်း ...မြင့်သည်",
+          optionsEn: [
+            "Ionising power",
+            "Wavelength",
+            "Speed of light",
+            "Electric charge of zero",
+          ],
+          optionsMy: [
+            "Ionising Power",
+            "Wavelength",
+            "အလင်း၏ Speed",
+            "Electric Charge သုည",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Orbital speed is calculated using v = 2 x pi x r divided by...",
+          questionMy:
+              "Orbital Speed ကို v = 2 x pi x r ကို ...ဖြင့် စား၍ တွက်ချက်သည်",
+          optionsEn: [
+            "T (orbital period)",
+            "m (mass)",
+            "g (gravitational field strength)",
+            "c (speed of light)",
+          ],
+          optionsMy: [
+            "T (Orbital Period)",
+            "m (Mass)",
+            "g (Gravitational Field Strength)",
+            "c (Speed of Light)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a fair test, only the independent variable should change while...",
+          questionMy:
+              "မျှတသော စမ်းသပ်မှုတစ်ခုတွင် ...စဉ် Independent Variable တစ်ခုတည်းသာ ပြောင်းလဲသင့်သည်",
+          optionsEn: [
+            "All control variables stay constant",
+            "Every variable changes at once",
+            "No variables are measured",
+            "The dependent variable is fixed in advance",
+          ],
+          optionsMy: [
+            "Control Variable အားလုံး တည်ငြိမ်စွာ ဆက်ရှိနေစဉ်",
+            "Variable တိုင်း တစ်ပြိုင်နက် ပြောင်းလဲစဉ်",
+            "Variable မည်သည်ကိုမျှ မတိုင်းတာစဉ်",
+            "Dependent Variable ကို ကြိုတင် သတ်မှတ်ထားစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mixed Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - ရောနှောထားသော ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w35-dm-1",
+          termEn: "Nuclear fusion",
+          termMy: "Nuclear Fusion",
+          matchEn:
+              "Light nuclei combining under extreme pressure and temperature, powering stars",
+          matchMy:
+              "ကြယ်များကို Power ပေးကာ အလွန်အမင်း ဖိအားနှင့် အပူချိန်အောက်တွင် ပေါင်းစပ်နေသော ပေါ့ပါးသော Nuclei",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w35-dm-2",
+          termEn: "Anomalous result",
+          termMy: "Anomalous Result",
+          matchEn:
+              "A data point lying noticeably far from the trend, likely a measurement mistake",
+          matchMy:
+              "လမ်းကြောင်းမှ ထင်ရှားစွာ ဝေးကွာစွာ ရှိသော၊ တိုင်းတာမှု အမှားတစ်ခု ဖြစ်နိုင်ခြေ ရှိသော ဒေတာ အချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w35-dm-3",
+          termEn: "Half-life",
+          termMy: "Half-Life",
+          matchEn: "The time for a radioactive sample's activity to halve",
+          matchMy:
+              "Radioactive နမူနာတစ်ခု၏ Activity ထက်ဝက် ကျစေရန် ယူသော အချိန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w35-dm-4",
+          termEn: "Step-up transformer",
+          termMy: "Step-Up Transformer",
+          matchEn:
+              "A transformer with more secondary turns than primary, increasing voltage",
+          matchMy:
+              "Voltage ကို တိုးမြှင့်ကာ Primary ထက် Secondary Turn ပို၍ များသော Transformer",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w35-dm-5",
+          termEn: "Redshift",
+          termMy: "Redshift",
+          matchEn:
+              "Light stretched to longer wavelengths from receding galaxies, evidence for the expanding universe",
+          matchMy:
+              "ဝေးကွာသွားနေသော Galaxy များမှ ရှည်လျားသော Wavelength များသို့ ဆန့်ထားသော အလင်း၊ ကျယ်ပြန့်နေသော စကြဝဠာအတွက် အထောက်အထား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Paper Tests This Skill?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Paper က ဤကျွမ်းကျင်မှုကို စစ်ဆေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Paper 1 (MCQ)", "Paper 4 (Theory)", "Paper 6 (Practical)"],
+        bucketsMy: ["Paper 1 (MCQ)", "Paper 4 (Theory)", "Paper 6 (Practical)"],
+        items: [
+          SortingItem(
+            id: "igcsephys-w35-sort-1",
+            labelEn: "Selecting the correct answer from four options quickly",
+            labelMy:
+                "ရွေးချယ်စရာ လေးခုမှ မှန်ကန်သော အဖြေကို လျင်မြန်စွာ ရွေးချယ်ခြင်း",
+            correctBucketEn: "Paper 1 (MCQ)",
+            correctBucketMy: "Paper 1 (MCQ)",
+          ),
+          SortingItem(
+            id: "igcsephys-w35-sort-2",
+            labelEn:
+                "Writing a full structured force calculation with working shown",
+            labelMy:
+                "လုပ်ဆောင်ချက် ပြသထားသော Force တွက်ချက်မှု အပြည့်အစုံကို ရေးသားခြင်း",
+            correctBucketEn: "Paper 4 (Theory)",
+            correctBucketMy: "Paper 4 (Theory)",
+          ),
+          SortingItem(
+            id: "igcsephys-w35-sort-3",
+            labelEn:
+                "Recording repeated readings and calculating a gradient from a best-fit line",
+            labelMy:
+                "ထပ်ခါ ဖတ်ရှုမှုများ မှတ်တမ်းတင်ကာ Best-Fit Line မှ Gradient တွက်ချက်ခြင်း",
+            correctBucketEn: "Paper 6 (Practical)",
+            correctBucketMy: "Paper 6 (Practical)",
+          ),
+          SortingItem(
+            id: "igcsephys-w35-sort-4",
+            labelEn:
+                "Explaining a physical phenomenon using named reasoning in full sentences",
+            labelMy:
+                "အမည်တပ်ထားသော ကျိုးကြောင်းဆင်ခြင်ချက်ကို စာကြောင်းအပြည့်အစုံဖြင့် အသုံးပြု၍ ရုပ်ပိုင်းဆိုင်ရာ ဖြစ်စဉ်တစ်ခု ရှင်းပြခြင်း",
+            correctBucketEn: "Paper 4 (Theory)",
+            correctBucketMy: "Paper 4 (Theory)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Exam Week Countdown",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ စာမေးပွဲအပတ် ရေတွက်ချိန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Exam Week Countdown",
+        titleMy: "နေချည်၏ စာမေးပွဲအပတ် ရေတွက်ချိန်",
+        passageEn:
+            "With one week left before her real IGCSE Physics exam, Nay Chi sat down with Ko Thura for a final planning session, not to learn anything new, but to organise how she would spend her last seven days.\n\nKo Thura advised against two common mistakes he had seen students make in the final week. The first was cramming brand-new topics they had never properly understood, which almost always produced shallow, easily confused knowledge under exam pressure -- far riskier than deepening topics already mostly secure. The second was abandoning timed practice papers entirely in favour of just rereading notes, which felt productive but rarely trained the specific skill of retrieving knowledge quickly under a ticking clock, exactly what the real exam would demand.\n\nInstead, he proposed a structured final week: two full timed past papers, spaced with a day of rest between them, each followed immediately by a careful self-marking session using the official mark scheme, since seeing exactly which mark points were missed was more valuable than the score itself. On the days between papers, Nay Chi would revisit only her personal list of recurring weak points -- built up over eight terms of work with Ko Thura -- rather than re-studying everything from scratch. Nay Chi admitted this felt like less studying than she had expected, but Ko Thura reassured her that by this stage, targeted practice under real exam conditions taught her more per hour than any amount of passive rereading ever could -- the exact lesson experimental design had taught her all the way back in Term 8: control everything except the one variable that still needs improving.",
+        passageMy:
+            "သူမ၏ အမှန်တကယ် IGCSE ရူပဗေဒ စာမေးပွဲမတိုင်မီ တစ်ပတ်တည်း ကျန်ရှိတော့သောအခါ နေချည်သည် ကိုသူရနှင့် နောက်ဆုံး စီစဉ်ရေး အစည်းအဝေးအတွက် ထိုင်ခဲ့သည်၊ အသစ် တစ်ခုခု သင်ယူရန် မဟုတ်ဘဲ ၎င်း၏ နောက်ဆုံး ရက်ခုနစ်ရက်ကို မည်သို့ အသုံးပြုမည်ကို စီစဉ်ရန် ဖြစ်သည်။\n\nနောက်ဆုံးအပတ်တွင် ကျောင်းသားများ ပြုလုပ်တတ်သည်ကို သူ တွေ့ရှိခဲ့သော ဘုံအမှား နှစ်ခုကို ရှောင်ကြဉ်ရန် ကိုသူရ အကြံပေးခဲ့သည်။ ပထမတစ်ခုမှာ ကောင်းစွာ နားလည်ခြင်း ဘယ်တော့မှ မရှိခဲ့သော ခေါင်းစဉ်သစ်များကို အလွတ်ကျက်ခြင်း ဖြစ်ခဲ့ပြီး ၎င်းသည် စာမေးပွဲ ဖိအားအောက်တွင် ရေမျက်နှာပြင် ပေါ်ရှိ၊ လွယ်ကူစွာ ရောထွေးသွားနိုင်သော ဗဟုသုတကို လုနီးပါး အမြဲ ထုတ်ပေးခဲ့သည် -- ရှိပြီးသား လုံခြုံစွာ သိပြီးသား ခေါင်းစဉ်များကို ပို၍ နက်ရှိုင်းစေခြင်းထက် များစွာ အန္တရာယ် ပိုများသည်။ ဒုတိယတစ်ခုမှာ အချိန်ကန့်သတ်ထားသော လေ့ကျင့်ခန်း မေးခွန်းစာစောင်များကို လုံးဝ စွန့်လွှတ်ကာ မှတ်စုများကို ပြန်ဖတ်ခြင်းသက်သက် ရွေးချယ်ခြင်း ဖြစ်ခဲ့ပြီး ၎င်းသည် အသုံးဝင်သည်ဟု ခံစားရသော်လည်း အနေအထားဆက်တက်ရသော နာရီအောက်တွင် လျင်မြန်စွာ ဗဟုသုတ ပြန်လည်ထုတ်ယူသည့် တိကျသော ကျွမ်းကျင်မှုကို ရှားရှားပါးပါးသာ လေ့ကျင့်ပေးခဲ့သည်၊ ၎င်းသည် အမှန်တကယ် စာမေးပွဲက တောင်းဆိုမည့် အချက် အတိအကျ ဖြစ်သည်။\n\nယင်းအစား သူသည် ဖွဲ့စည်းထားသော နောက်ဆုံးအပတ်တစ်ခုကို အဆိုပြုခဲ့သည် - အချိန်ကန့်သတ်ထားသော မေးခွန်းဟောင်း အစုံအလင် စာစောင် နှစ်ခု၊ ၎င်းတို့ကြား နားရက် တစ်ရက် ခြားပြီး၊ တစ်ခုစီကို ချက်ချင်းလိုက် တရားဝင် Mark Scheme ကို အသုံးပြု၍ ဂရုတစိုက် ကိုယ်တိုင် အမှတ်ပေးခြင်း လုပ်ငန်းစဉ် လိုက်ပါခြင်း၊ အကြောင်းမှာ မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ တွေ့မြင်ခြင်းသည် ရမှတ်ကိုယ်တိုင်ထက် ပို၍ တန်ဖိုးရှိသောကြောင့်ဖြစ်သည်။ စာစောင်များကြား ရက်များတွင် နေချည်သည် အားလုံးကို အစအဆုံး ပြန်လည် လေ့လာမည့်အစား တန်းရှစ်တန်းအတွင်း ကိုသူရနှင့်အတူ လုပ်ငန်းစဉ်တစ်လျှောက် တည်ဆောက်ထားသော ဆက်တိုက် အားနည်းချက် အချက်များ သီးသန့် စာရင်းကိုသာ ပြန်လည် ကြည့်ရှုမည် ဖြစ်သည်။ ဤသည်သည် သူမ မျှော်လင့်ခဲ့သည်ထက် လေ့လာမှု နည်းသည်ဟု ခံစားရသည်ဟု နေချည် ဝန်ခံခဲ့သော်လည်း ဤအဆင့်တွင် အမှန်တကယ် စာမေးပွဲ အခြေအနေများအောက် ပစ်မှတ်ထား လေ့ကျင့်ခြင်းသည် Passive ပြန်ဖတ်ခြင်း မည်မျှပင် လုပ်သည်ဖြစ်စေ ၎င်းထက် တစ်နာရီလျှင် ပို၍ များစွာ သင်ပေးနိုင်ကြောင်း ကိုသူရ သူမကို အာမခံပေးခဲ့သည် -- ၎င်းသည် အဌမတန်းကတည်းက စမ်းသပ်မှု ဒီဇိုင်းက သူမကို သင်ကြားပေးခဲ့သော အတိအကျ သင်ခန်းစာ ဖြစ်သည် - တိုးတက်ရန် လိုအပ်ဆဲ ရှိသော Variable တစ်ခုတည်းမှလွဲ၍ အခြား အားလုံးကို ထိန်းချုပ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Thura advise against cramming brand-new topics in the final week?",
+            questionMy:
+                "နောက်ဆုံးအပတ်တွင် ခေါင်းစဉ်သစ်များကို အလွတ်ကျက်ခြင်းကို ဆန့်ကျင် ကိုသူရ အကြံပေးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It produces shallow, easily confused knowledge under exam pressure, riskier than deepening secure topics",
+              "New topics are always too easy to learn quickly",
+              "The exam never actually covers new topics",
+              "It guarantees a perfect score every time",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ ဖိအားအောက်တွင် ရေမျက်နှာပြင်ပေါ်ရှိ၊ လွယ်ကူစွာ ရောထွေးသွားနိုင်သော ဗဟုသုတ ထုတ်ပေးပြီး လုံခြုံစွာ သိပြီးသား ခေါင်းစဉ်များကို နက်ရှိုင်းစေခြင်းထက် အန္တရာယ် ပိုများသောကြောင့်",
+              "ခေါင်းစဉ်သစ်များသည် လျင်မြန်စွာ သင်ယူရန် အမြဲ လွယ်ကူလွန်းသောကြောင့်",
+              "စာမေးပွဲသည် ခေါင်းစဉ်သစ်များကို အမှန်တကယ် ဘယ်တော့မှ လွှမ်းခြုံခြင်း မရှိသောကြောင့်",
+              "အကြိမ်တိုင်း ပြီးပြည့်စုံသော ရမှတ်ကို အာမခံသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the first common mistake."],
+            hintsMy: ["ပထမ ဘုံအမှားအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was self-marking with the official mark scheme especially valuable?",
+            questionMy:
+                "တရားဝင် Mark Scheme ဖြင့် ကိုယ်တိုင် အမှတ်ပေးခြင်းသည် အထူးတန်ဖိုးရှိရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Seeing exactly which mark points were missed was more valuable than the score itself",
+              "It was the fastest way to finish studying",
+              "It replaced the need for any timed practice",
+              "It guaranteed a higher score on the real exam automatically",
+            ],
+            optionsMy: [
+              "မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ တွေ့မြင်ခြင်းသည် ရမှတ်ကိုယ်တိုင်ထက် ပို၍ တန်ဖိုးရှိသောကြောင့်",
+              "လေ့လာခြင်းကို အမြန်ဆုံး ပြီးမြောက်စေသော နည်းလမ်း ဖြစ်ခဲ့သောကြောင့်",
+              "အချိန်ကန့်သတ်ထားသော လေ့ကျင့်ခန်း မည်သည့်အခါမျှ မလိုအပ်စေခြင်း အစား ဝင်ခဲ့သောကြောင့်",
+              "အမှန်တကယ် စာမေးပွဲတွင် ပိုမြင့်သော ရမှတ်ကို အလိုအလျောက် အာမခံသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why self-marking was valuable.",
+            ],
+            hintsMy: [
+              "ကိုယ်တိုင် အမှတ်ပေးခြင်း အဘယ်ကြောင့် တန်ဖိုးရှိကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what earlier lesson from Term 8 did Ko Thura connect to exam preparation strategy?",
+            questionMy:
+                "စာမေးပွဲ ပြင်ဆင်ရေး မဟာဗျူဟာနှင့် ကိုသူရ ချိတ်ဆက်ခဲ့သော အဌမတန်းမှ ယခင် သင်ခန်းစာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Controlling everything except the one variable that still needs improving",
+              "Always using a micrometer instead of a metre rule",
+              "Never repeating any measurement",
+              "Timing 20 oscillations instead of one",
+            ],
+            optionsMy: [
+              "တိုးတက်ရန် လိုအပ်ဆဲ ရှိသော Variable တစ်ခုတည်းမှလွဲ၍ အခြား အားလုံးကို ထိန်းချုပ်ခြင်း",
+              "Metre Rule အစား Micrometer ကို အမြဲ အသုံးပြုခြင်း",
+              "တိုင်းတာမှု မည်သည်ကိုမျှ ဘယ်တော့မှ ထပ်မလုပ်ခြင်း",
+              "Oscillation တစ်ခုတည်းအစား ၂၀ ကို အချိန်ကိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Exam Strategy",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - စာမေးပွဲ မဟာဗျူဟာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the final exam week, Ko Thura advised focusing practice time on...",
+          questionMy:
+              "စာမေးပွဲ နောက်ဆုံးအပတ်တွင် လေ့ကျင့်ချိန်ကို ...အပေါ် အာရုံစိုက်ရန် ကိုသူရ အကြံပေးခဲ့သည်",
+          optionsEn: [
+            "Recurring personal weak points",
+            "Only brand-new, never-seen topics",
+            "Random unrelated subjects",
+            "Nothing at all -- pure rest",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် ကိုယ်ပိုင် အားနည်းချက် အချက်များ",
+            "အသစ်၊ တစ်ခါမှ မမြင်ဘူးသေးသော ခေါင်းစဉ်များသာ",
+            "မသက်ဆိုင်သော ကျပန်း ဘာသာရပ်များ",
+            "မည်သည့်အရာမျှ မရှိပါ -- စင်ကြယ်သော အနားယူမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Self-marking with the official mark scheme is valuable because it shows...",
+          questionMy:
+              "တရားဝင် Mark Scheme ဖြင့် ကိုယ်တိုင် အမှတ်ပေးခြင်းသည် ...ပြသသောကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Exactly which mark points were missed",
+            "Only the final total score",
+            "Nothing useful at all",
+            "The exam board's home address",
+          ],
+          optionsMy: [
+            "မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ",
+            "နောက်ဆုံး စုစုပေါင်း ရမှတ်သာ",
+            "အသုံးဝင်သော အရာ လုံးဝ မရှိပါ",
+            "စာမေးပွဲအဖွဲ့၏ အိမ်လိပ်စာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Timed past papers help train the skill of...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော မေးခွန်းဟောင်းများသည် ...ကျွမ်းကျင်မှုကို လေ့ကျင့်ရန် ကူညီသည်",
+          optionsEn: [
+            "Retrieving knowledge quickly under time pressure",
+            "Memorising the mark scheme word for word",
+            "Avoiding all calculations",
+            "Skipping every difficult question",
+          ],
+          optionsMy: [
+            "အချိန်ဖိအားအောက်တွင် ဗဟုသုတ လျင်မြန်စွာ ပြန်လည်ထုတ်ယူခြင်း",
+            "Mark Scheme ကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+            "တွက်ချက်မှုအားလုံးကို ရှောင်ရှားခြင်း",
+            "ခက်ခဲသော မေးခွန်းတိုင်းကို ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 36: "IGCSE Physics Graduation" (capstone)
+// =====================================================================
+
+const CourseWeekDef _igcsePhysWeek36 = CourseWeekDef(
+  id: "course-igcse-phys-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Physics Graduation",
+  titleMy: "IGCSE ရူပဗေဒ ဘွဲ့နှင်းသဘင်",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-phys-w36-d1",
+      dayNumber: 1,
+      titleEn: "Whole-Course Review: Mechanics to Waves",
+      titleMy: "သင်တန်းလုံးကို ပြန်လည်သုံးသပ်ခြင်း - Mechanics မှ Waves အထိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Speed is calculated using the formula...",
+          questionMy: "Speed ကို ...ဖော်မြူလာဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "Distance divided by time",
+            "Mass times acceleration",
+            "Force divided by area",
+            "Charge divided by time",
+          ],
+          optionsMy: [
+            "အကွာအဝေး ကို အချိန်ဖြင့် စား",
+            "Mass ကို Acceleration ဖြင့် မြှောက်",
+            "Force ကို Area ဖြင့် စား",
+            "Charge ကို အချိန်ဖြင့် စား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Moment of a force is calculated as force multiplied by...",
+          questionMy:
+              "Force တစ်ခု၏ Moment ကို Force ကို ...ဖြင့် မြှောက်ပြီး တွက်ချက်သည်",
+          optionsEn: [
+            "Perpendicular distance from the pivot",
+            "Time taken",
+            "Total mass of the object",
+            "Speed of the object",
+          ],
+          optionsMy: [
+            "Pivot မှ Perpendicular အကွာအဝေး",
+            "ကုန်ဆုံးသော အချိန်",
+            "အရာဝတ္ထု၏ Total Mass",
+            "အရာဝတ္ထု၏ Speed",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the kinetic theory, temperature is a measure of the...",
+          questionMy:
+              "Kinetic Theory တွင် Temperature သည် ...၏ တိုင်းတာချက် ဖြစ်သည်",
+          optionsEn: [
+            "Average kinetic energy of particles",
+            "Total volume of a gas",
+            "Colour of the container",
+            "Number of protons",
+          ],
+          optionsMy: [
+            "Particle များ၏ ပျမ်းမျှ Kinetic Energy",
+            "ဓာတ်ငွေ့တစ်ခု၏ Total Volume",
+            "ကွန်တိန်နာ၏ အရောင်",
+            "Proton အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The wave equation states that wave speed equals frequency multiplied by...",
+          questionMy:
+              "Wave Equation အရ Wave Speed သည် Frequency ကို ...ဖြင့် မြှောက်ခြင်းနှင့် ညီသည်",
+          optionsEn: [
+            "Wavelength",
+            "Amplitude",
+            "Period alone",
+            "Reflection angle",
+          ],
+          optionsMy: [
+            "Wavelength",
+            "Amplitude",
+            "Period တစ်ခုတည်း",
+            "Reflection Angle",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Refraction occurs because light changes...",
+          questionMy: "အလင်း ...ပြောင်းလဲသောကြောင့် Refraction ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Speed when entering a new medium",
+            "Colour permanently",
+            "Direction with no cause",
+            "Into a sound wave",
+          ],
+          optionsMy: [
+            "အသစ်တစ်ခုသို့ ဝင်ရောက်သောအခါ Speed",
+            "ထာဝစဉ် အရောင်",
+            "အကြောင်းအရင်းမရှိဘဲ ဦးတည်ရာ",
+            "Sound Wave တစ်ခုသို့",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: A-Level Physics Preview",
+      titleMy: "တွဲစပ်ကြမည် - A-Level ရူပဗေဒ အကြိုကြည့်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsephys-w36-dm-1",
+          termEn: "Simple harmonic motion",
+          termMy: "Simple Harmonic Motion",
+          matchEn:
+              "Oscillation where acceleration is proportional to displacement, directed toward equilibrium",
+          matchMy:
+              "Acceleration သည် Displacement နှင့် အချိုးကျပြီး Equilibrium သို့ ဦးတည်နေသော Oscillation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w36-dm-2",
+          termEn: "Electric field strength",
+          termMy: "Electric Field Strength",
+          matchEn: "Force per unit charge at a point in an electric field",
+          matchMy:
+              "Electric Field ရှိ အမှတ်တစ်ခုတွင် Unit Charge တစ်ခုလျှင် ခံရသော Force",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w36-dm-3",
+          termEn: "Quantum energy levels",
+          termMy: "Quantum Energy Levels",
+          matchEn:
+              "Discrete allowed energy states an electron in an atom can occupy",
+          matchMy:
+              "အက်တမ်တစ်ခုအတွင်း Electron တစ်ခု နေထိုင်နိုင်သော ခွဲခြားထားသော ခွင့်ပြုထားသော Energy States",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w36-dm-4",
+          termEn: "Nuclear binding energy",
+          termMy: "Nuclear Binding Energy",
+          matchEn:
+              "The energy needed to separate a nucleus completely into its individual protons and neutrons",
+          matchMy:
+              "Nucleus တစ်ခုကို ၎င်း၏ ပုဂ္ဂိုလ်ရေး Proton များနှင့် Neutron များအဖြစ် လုံးဝ ခွဲထုတ်ရန် လိုအပ်သော Energy",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsephys-w36-dm-5",
+          termEn: "Special relativity",
+          termMy: "Special Relativity",
+          matchEn:
+              "Einstein's theory describing how time and length change for objects moving close to the speed of light",
+          matchMy:
+              "အလင်း၏ Speed အနီးတွင် ရွေ့လျားနေသော အရာဝတ္ထုများအတွက် အချိန်နှင့် အရှည် မည်သို့ ပြောင်းလဲကြောင်း ဖော်ပြသော Einstein ၏ သီအိုရီ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This?",
+      titleMy:
+          "စီစစ်ကြမည် - မည်သည့်နှစ်ဝက်က ဤအကြောင်းအရာကို လွှမ်းခြုံခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Early Terms (Mechanics/Thermal)",
+          "Mid Terms (Waves/Electricity)",
+          "Late Terms (Atomic/Space)",
+        ],
+        bucketsMy: [
+          "Early Terms (Mechanics/Thermal)",
+          "Mid Terms (Waves/Electricity)",
+          "Late Terms (Atomic/Space)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsephys-w36-sort-1",
+            labelEn: "Calculating momentum before and after a collision",
+            labelMy:
+                "Collision တစ်ခု မဖြစ်မီနှင့် ဖြစ်ပြီးနောက် Momentum ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Early Terms (Mechanics/Thermal)",
+            correctBucketMy: "Early Terms (Mechanics/Thermal)",
+          ),
+          SortingItem(
+            id: "igcsephys-w36-sort-2",
+            labelEn:
+                "Using a step-up transformer to raise transmission voltage",
+            labelMy:
+                "Transmission Voltage မြှင့်ရန် Step-Up Transformer အသုံးပြုခြင်း",
+            correctBucketEn: "Mid Terms (Waves/Electricity)",
+            correctBucketMy: "Mid Terms (Waves/Electricity)",
+          ),
+          SortingItem(
+            id: "igcsephys-w36-sort-3",
+            labelEn: "Using redshift to determine that a galaxy is receding",
+            labelMy:
+                "Galaxy တစ်ခု ဝေးကွာသွားနေကြောင်း သတ်မှတ်ရန် Redshift အသုံးပြုခြင်း",
+            correctBucketEn: "Late Terms (Atomic/Space)",
+            correctBucketMy: "Late Terms (Atomic/Space)",
+          ),
+          SortingItem(
+            id: "igcsephys-w36-sort-4",
+            labelEn:
+                "Calculating the half-life of a radioactive isotope from a decay graph",
+            labelMy:
+                "Decay Graph တစ်ခုမှ Radioactive Isotope တစ်ခု၏ Half-Life ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Late Terms (Atomic/Space)",
+            correctBucketMy: "Late Terms (Atomic/Space)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Full Circle",
+      titleMy: "စာဖတ်ခြင်း - နေချည်၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Full Circle",
+        titleMy: "နေချည်၏ လှည့်ပတ်ခရီး ပြီးပြည့်စုံခြင်း",
+        passageEn:
+            "On the morning of her results, Nay Chi walked into Ko Thura's small tuition room one final time, not for a lesson, but to say thank you. Thirty-six weeks earlier, she had struggled to explain why a dropped ball accelerates, mixing up speed and acceleration in the very first lesson of Term 1. Now she found herself explaining orbital mechanics to her younger cousin without even thinking about it, the concepts as natural as breathing.\n\nKo Thura asked her which topic, looking back across the whole course, had surprised her the most. Nay Chi did not hesitate: electromagnetic induction, back in Term 6, when she first understood that a changing magnetic field could push electrons through a wire with nothing touching it at all. She remembered running home that evening to tell her parents that this single, invisible effect was the reason power stations could light entire cities from kilometres away.\n\nKo Thura smiled and reminded her that physics rewarded exactly the habit she had built across all nine terms: never accepting a formula without asking why it worked, always testing an idea against real experimental data rather than memory alone. Whether Nay Chi continued to A-Level Physics or moved toward engineering, medicine, or something not yet imagined, that single habit -- treating every claim as something to be tested, not simply believed -- would outlast any exam grade. As she left the tuition room for the last time, Nay Chi realised that the course had never really been about memorising equations at all. It had been about learning to think like a physicist, and that, she understood now, was a skill circling back to before that first lesson on a dropped ball -- and reaching forward to everything still ahead of her.",
+        passageMy:
+            "သူမ၏ ရလဒ်များ ထွက်သောနေ့ မနက်တွင် နေချည်သည် ကိုသူရ၏ တွဲကျောင်းခန်းငယ်ထဲသို့ နောက်ဆုံးအကြိမ်အဖြစ် ဝင်ရောက်ခဲ့သည်၊ သင်ခန်းစာတစ်ခုအတွက် မဟုတ်ဘဲ ကျေးဇူးတင်ကြောင်း ပြောရန် ဖြစ်သည်။ သုံးဆယ့်ခြောက်ပတ်ခန့် အလျင်က သူမသည် ခံစားရသော ဘောလုံးတစ်လုံး Accelerate ဖြစ်ရသည့် အကြောင်းရင်းကို ရှင်းပြရန် ခက်ခဲခဲ့ပြီး၊ ပထမတန်း ပထမ သင်ခန်းစာတွင်ပင် Speed နှင့် Acceleration ကို ရောထွေးခဲ့သည်။ ယခုတွင် သူမသည် Orbital Mechanics ကို သူမ၏ ငယ်ရွယ်သော ဝမ်းကွဲထံ တွေးတောစရာမလိုဘဲ ရှင်းပြနေသည်ကို တွေ့ရှိခဲ့ပြီး၊ Concept များသည် အသက်ရှူသည်လို သဘာဝကျနေခဲ့သည်။\n\nတစ်ခေါင်းစဉ်ချင်းစီကို ကနေ့ ပြန်ကြည့်လိုက်လျှင် ဘယ်ခေါင်းစဉ်က သူမကို အများဆုံး အံ့ဩစေခဲ့သနည်းဟု ကိုသူရ မေးမြန်းခဲ့သည်။ နေချည်သည် ဝိုင်ဝန်းမနေဘဲ ဖြေခဲ့သည် - တန်းခြောက်တန်း Electromagnetic Induction၊ ပြောင်းလဲနေသော Magnetic Field တစ်ခုသည် ဘာကိုမှ မထိတွေ့ဘဲနှင့် ကြိုးတစ်ချောင်းထဲသို့ Electron များကို တွန်းနှင်နိုင်ကြောင်း သူမ ပထမဆုံးအကြိမ် နားလည်ခဲ့ချိန် ဖြစ်သည်။ ထိုနေ့ညနေက သူမ၏ မိဘများအား ဤမမြင်နိုင်သော သက်ရောက်မှုတစ်ခုတည်းသည် Power Station များသည် ကီလိုမီတာ ဝေးကွာစွာမှ မြို့တစ်မြို့လုံးကို မီးထွန်းနိုင်ခြင်း၏ အကြောင်းရင်း ဖြစ်ကြောင်း ပြောပြရန် အိမ်ပြန်ပြေးခဲ့ချိန်ကို သူမ မှတ်မိနေဆဲ ဖြစ်သည်။\n\nကိုသူရသည် ပြုံးလျက် တန်းကိုးတန်းလုံးတစ်လျှောက် သူမ တည်ဆောက်ခဲ့သော အလေ့အထတစ်ခုတည်းကို ရူပဗေဒက အတိအကျ ဆုချသည်ဟု သူမကို သတိပေးခဲ့သည် - Formula တစ်ခုကို ဘာကြောင့် အလုပ်လုပ်ကြောင်း မမေးဘဲ ဘယ်တော့မှ လက်မခံခြင်း၊ Concept တစ်ခုကို မှတ်ဉာဏ်တစ်ခုတည်းအစား အမှန်တကယ် စမ်းသပ်မှု ဒေတာနှင့် အမြဲ စစ်ဆေးခြင်း။ နေချည် A-Level ရူပဗေဒဆက်လက် ဆောင်ရွက်သည်ဖြစ်စေ၊ အင်ဂျင်နီယာ၊ ဆေးပညာ၊ သို့မဟုတ် မမြင်နိုင်သေးသော တစ်ခုခုသို့ ရွှေ့ပြောင်းသည်ဖြစ်စေ ထိုအလေ့အထတစ်ခုတည်း -- Claim တိုင်းကို ရိုးရိုးရှင်းရှင်း ယုံကြည်ရမည့်အစား စမ်းသပ်ရမည့် အရာအဖြစ် သတ်မှတ်ခြင်း -- သည် စာမေးပွဲ ရမှတ် မည်သည်ထက်မဆို ကြာရှည်စွာ တည်ရှိနေမည် ဖြစ်သည်။ တွဲကျောင်းခန်းမှ နောက်ဆုံးအကြိမ် ထွက်ခွာလာစဉ် ဤသင်တန်းသည် Equation များကို အလွတ်ကျက်ခြင်းအကြောင်း လုံးဝ ဘယ်တော့မှ မဟုတ်ခဲ့ကြောင်း နေချည် သဘောပေါက်လာခဲ့သည်။ ၎င်းသည် ရူပဗေဒပညာရှင်တစ်ဦးလို တွေးခေါ်တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့ပြီး၊ ၎င်းသည် ယခုအခါ သူမ နားလည်လာသည့်အတိုင်း ထိုပထမဆုံး ဘောလုံးကျ Lesson မတိုင်မီသို့ ပြန်လှည့်ကာ သူမရှေ့တွင် ကျန်ရှိနေသေးသော အရာအားလုံးသို့ ထိုးဆက်နေသော ကျွမ်းကျင်မှုတစ်ခု ဖြစ်ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Nay Chi struggling with in the very first lesson of Term 1?",
+            questionMy:
+                "ပထမတန်း၏ ပထမဆုံးသင်ခန်းစာတွင် နေချည် မည်သည့်အရာကို ရုန်းကန်နေခဲ့ကြောင်း စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Explaining why a dropped ball accelerates, mixing up speed and acceleration",
+              "Understanding what a galaxy is",
+              "Drawing a circuit diagram",
+              "Balancing a chemical equation",
+            ],
+            optionsMy: [
+              "ကျသွားသော ဘောလုံးတစ်လုံး Accelerate ဖြစ်ရသည့် အကြောင်းရင်းကို ရှင်းပြခြင်း၊ Speed နှင့် Acceleration ရောထွေးခြင်း",
+              "Galaxy တစ်ခု ဆိုသည်မှာ မည်သည်ကို နားလည်ခြင်း",
+              "Circuit Diagram တစ်ခု ရေးဆွဲခြင်း",
+              "ဓာတုညီမျှခြင်း တစ်ခုကို ဟန်ချက်ညီအောင် ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence's description of Term 1."],
+            hintsMy: ["ပထမတန်း၏ ဖော်ပြချက် ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which topic surprised Nay Chi the most, looking back across the whole course?",
+            questionMy:
+                "သင်တန်းလုံးကို ပြန်ကြည့်လျှင် မည်သည့်ခေါင်းစဉ်က နေချည်ကို အများဆုံး အံ့ဩစေခဲ့ကြောင်း စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Electromagnetic induction, from Term 6",
+              "Simple pendulum motion, from Term 1",
+              "Chemical bonding, from Term 3",
+              "Photosynthesis, from Term 9",
+            ],
+            optionsMy: [
+              "တန်းခြောက်တန်းမှ Electromagnetic Induction",
+              "ပထမတန်းမှ Simple Pendulum Motion",
+              "တန်းသုံးမှ Chemical Bonding",
+              "တန်းကိုးမှ Photosynthesis",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening sentence."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖွင့်စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what habit did Ko Thura say would outlast any exam grade?",
+            questionMy:
+                "စာမေးပွဲ ရမှတ် မည်သည်ထက်မဆို ကြာရှည်စွာ တည်ရှိနေမည့် အလေ့အထကို ကိုသူရ ဘာဟု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Treating every claim as something to be tested, not simply believed",
+              "Memorising every formula word for word",
+              "Always agreeing with the textbook without question",
+              "Avoiding all experimental work",
+            ],
+            optionsMy: [
+              "Claim တိုင်းကို ရိုးရိုးရှင်းရှင်း ယုံကြည်ရမည့်အစား စမ်းသပ်ရမည့် အရာအဖြစ် သတ်မှတ်ခြင်း",
+              "Formula တိုင်းကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "စာအုပ်ကို မေးခွန်းမထုတ်ဘဲ အမြဲ သဘောတူခြင်း",
+              "စမ်းသပ်မှု လုပ်ငန်းအားလုံးကို ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what Ko Thura reminded her physics rewarded.",
+            ],
+            hintsMy: [
+              "ရူပဗေဒက ဘာကို ဆုချကြောင်း ကိုသူရ သတိပေးခဲ့သည့် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-phys-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Physics Final Capstone",
+      titleMy: "IGCSE ရူပဗေဒ နောက်ဆုံး Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across all nine terms, the core habit of a physicist that Ko Thura emphasised most was...",
+          questionMy:
+              "တန်းကိုးတန်းလုံးတစ်လျှောက် ကိုသူရ အထူးအလေးပေးခဲ့သော ရူပဗေဒပညာရှင်တစ်ဦး၏ အဓိက အလေ့အထမှာ...",
+          optionsEn: [
+            "Testing every claim against real evidence rather than just believing it",
+            "Memorising formulas without understanding them",
+            "Avoiding all calculations",
+            "Never repeating an experiment",
+          ],
+          optionsMy: [
+            "Claim တိုင်းကို ယုံကြည်ရုံမျှသာမက အမှန်တကယ် သက်သေအထောက်အထားနှင့် စစ်ဆေးခြင်း",
+            "Formula များကို နားမလည်ဘဲ အလွတ်ကျက်ခြင်း",
+            "တွက်ချက်မှုအားလုံးကို ရှောင်ရှားခြင်း",
+            "စမ်းသပ်မှုတစ်ခုကို ဘယ်တော့မှ ထပ်မလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Electromagnetic induction, studied in Term 6, explains how...",
+          questionMy:
+              "တန်းခြောက်တန်းတွင် လေ့လာခဲ့သော Electromagnetic Induction သည် ...ကို ရှင်းပြသည်",
+          optionsEn: [
+            "A changing magnetic field can push electrons through a wire",
+            "Light bends when entering water",
+            "Radioactive nuclei decay randomly",
+            "Stars form from collapsing gas clouds",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲနေသော Magnetic Field တစ်ခုသည် ကြိုးတစ်ချောင်းထဲသို့ Electron များကို တွန်းနှင်နိုင်ခြင်း",
+            "ရေထဲသို့ ဝင်ရောက်သောအခါ အလင်း ကွေးညွှတ်ခြင်း",
+            "Radioactive Nuclei များ ကျပန်း Decay ဖြစ်ခြင်း",
+            "ကြယ်များသည် ပြိုလဲနေသော ဓာတ်ငွေ့တိမ်များမှ ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nay Chi's final realisation was that the course had really been about learning to...",
+          questionMy:
+              "နေချည်၏ နောက်ဆုံး သဘောပေါက်မှုမှာ သင်တန်းသည် အမှန်တကယ် ...တတ်ရန် သင်ယူခြင်းအကြောင်း ဖြစ်ခဲ့သည်",
+          optionsEn: [
+            "Think like a physicist",
+            "Memorise the periodic table",
+            "Avoid all mathematics",
+            "Copy answers from friends",
+          ],
+          optionsMy: [
+            "ရူပဗေဒပညာရှင်တစ်ဦးလို တွေးခေါ်",
+            "Periodic Table ကို အလွတ်ကျက်",
+            "သင်္ချာအားလုံးကို ရှောင်ရှား",
+            "သူငယ်ချင်းများထံမှ အဖြေများ ကူးယူ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef igcsePhysicsTerm9 = CourseTermDef(
+  id: "course-igcse-phys-term9",
+  termNumber: 9,
+  titleEn: "Exam Prep & Graduation",
+  titleMy: "စာမေးပွဲ ပြင်ဆင်ခြင်းနှင့် ဘွဲ့နှင်းသဘင်",
+  weeks: [
+    _igcsePhysWeek33,
+    _igcsePhysWeek34,
+    _igcsePhysWeek35,
+    _igcsePhysWeek36,
+  ],
+  certificateTitleEn: "IGCSE Physics Graduate",
+  certificateTitleMy: "IGCSE ရူပဗေဒ ဘွဲ့ရ",
+);
+
 // __TERMS_MARKER__
 
-/// IGCSE Physics pathway -- Terms 1-8 of 9 authored so far (Term 9 to
-/// follow: Exam Prep & Graduation). `totalWeeks: 36` reflects the full
-/// 9-term aspirational course length.
+/// IGCSE Physics pathway -- complete, all 9 terms authored (36 weeks /
+/// 180 daily lessons), spanning motion and forces through thermal
+/// physics, waves and optics, electricity and magnetism, electromagnetic
+/// effects, atomic and nuclear physics, space physics, and experimental
+/// technique, to exam prep and graduation.
 const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
   id: "course-igcse-physics",
   subject: "physics",
@@ -11200,5 +12669,6 @@ const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
     igcsePhysicsTerm6,
     igcsePhysicsTerm7,
     igcsePhysicsTerm8,
+    igcsePhysicsTerm9,
   ],
 );
