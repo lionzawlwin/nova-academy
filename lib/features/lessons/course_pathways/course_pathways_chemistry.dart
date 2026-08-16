@@ -11867,6 +11867,1467 @@ const CourseWeekDef _igcseChemWeek32 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 33: "Paper 1 (Multiple Choice) Intensive"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek33 = CourseWeekDef(
+  id: "course-igcse-chem-w33",
+  weekNumber: 33,
+  titleEn: "Paper 1 (Multiple Choice) Intensive",
+  titleMy: "Paper 1 (ရွေးချယ်ရန် မေးခွန်းများ) အထူးကြပ်မတ် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w33-d1",
+      dayNumber: 1,
+      titleEn: "Rapid Recall: Terms 1-4",
+      titleMy: "အမြန် သတိရခြင်း - ပထမ-စတုတ္ထနှစ်ဝက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During melting or boiling, why does temperature stay constant despite continued heating?",
+          questionMy:
+              "အရည်ပျော်ချိန် သို့မဟုတ် ဆူပွက်ချိန်တွင် အပူ ဆက်လက်ပေးနေသော်လည်း အပူချိန် အဘယ်ကြောင့် တည်ငြိမ်နေသနည်း။",
+          optionsEn: [
+            "Energy is breaking intermolecular forces, not raising particle speed",
+            "The substance has stopped absorbing heat",
+            "The particles have stopped moving completely",
+            "Melting and boiling never actually require energy",
+          ],
+          optionsMy: [
+            "စွမ်းအင်က မော်လီကျူးများကြား အားများကို ချိုးဖျက်နေပြီး အမှုန်လျင်မြန်နှုန်းကို မြှင့်တင်နေခြင်း မဟုတ်ပါ",
+            "ပစ္စည်းသည် အပူစုပ်ယူမှု ရပ်တန့်သွားခြင်း",
+            "အမှုန်များ လုံးဝ ရွေ့လျားခြင်း ရပ်တန့်သွားခြင်း",
+            "အရည်ပျော်ခြင်းနှင့် ဆူပွက်ခြင်းအတွက် စွမ်းအင် လုံးဝ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which mole calculation correctly finds the number of moles in 12 g of magnesium (Ar = 24)?",
+          questionMy:
+              "Magnesium (Ar = ၂၄) ၁၂ ဂရမ်တွင် ပါဝင်သော Mole အရေအတွက်ကို မှန်ကန်စွာ ရှာဖွေသော တွက်ချက်မှုကား အဘယ်နည်း။",
+          optionsEn: [
+            "0.5 mol (mass / Ar = 12 / 24)",
+            "2 mol (Ar / mass)",
+            "24 mol",
+            "12 mol",
+          ],
+          optionsMy: [
+            "0.5 mol (Mass / Ar = 12 / 24)",
+            "2 mol (Ar / Mass)",
+            "24 mol",
+            "12 mol",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In electrolysis of molten lead bromide, at which electrode does lead metal form?",
+          questionMy:
+              "အရည်ပျော် Lead Bromide ကို လျှပ်စစ်ဖြင့် ဓာတ်ခွဲသည့်အခါ Lead သတ္တု မည်သည့် Electrode တွင် ဖွဲ့စည်းသနည်း။",
+          optionsEn: [
+            "The cathode (negative electrode), where positive Pb2+ ions gain electrons",
+            "The anode (positive electrode)",
+            "Neither electrode -- lead never forms",
+            "Both electrodes equally",
+          ],
+          optionsMy: [
+            "Cathode (Negative Electrode)၊ Positive Pb2+ Ion များ Electron ရရှိရာနေရာ",
+            "Anode (Positive Electrode)",
+            "Electrode မည်သည့်တစ်ခုမျှ -- Lead ဘယ်တော့မှ မဖွဲ့စည်း",
+            "Electrode နှစ်ခုစလုံး ညီမျှစွာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to collision theory, why does increasing temperature increase reaction rate?",
+          questionMy:
+              "Collision Theory အရ အပူချိန် တိုးမြှင့်ခြင်းက ဓာတ်ပြုနှုန်းကို တိုးမြှင့်စေရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Particles move faster and collide more frequently and with more energy, so more collisions exceed the activation energy",
+            "Temperature has no effect on particle movement at all",
+            "Higher temperature always stops reactions completely",
+            "Particles move slower, colliding less often",
+          ],
+          optionsMy: [
+            "အမှုန်များ ပို၍ မြန်စွာ ရွေ့လျားကာ ပို၍ ခဏခဏ၊ စွမ်းအင် ပို၍ ရှိစွာ ထိတွေ့ကြသဖြင့် Activation Energy ကျော်လွန်သော ထိတွေ့မှု ပို၍ များလာသည်",
+            "အပူချိန်သည် အမှုန်ရွေ့လျားမှုအပေါ် မည်သည့်သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+            "အပူချိန် မြင့်ခြင်းက ဓာတ်ပြုမှုများကို အမြဲ လုံးဝ ရပ်တန့်စေသည်",
+            "အမှုန်များ ပို၍ နှေးကွေးစွာ ရွေ့လျားကာ ထိတွေ့မှု ပို၍ နည်းလာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mixed Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - ရောနှောထားသော ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w33-dm-1",
+          termEn: "Isotopes",
+          termMy: "Isotopes",
+          matchEn:
+              "Atoms of the same element with the same proton number but different neutron numbers",
+          matchMy:
+              "Proton အရေအတွက် တူညီသော်လည်း Neutron အရေအတွက် ကွဲပြားသော ဒြပ်စင်တစ်ခုတည်း၏ အက်တမ်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w33-dm-2",
+          termEn: "Exothermic",
+          termMy: "Exothermic",
+          matchEn:
+              "A reaction that releases energy to the surroundings, raising the temperature",
+          matchMy:
+              "ပတ်ဝန်းကျင်သို့ စွမ်းအင် ထုတ်လွှတ်ပေးကာ အပူချိန် မြင့်တက်စေသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w33-dm-3",
+          termEn: "Le Chatelier's principle",
+          termMy: "Le Chatelier's Principle",
+          matchEn:
+              "If a system at equilibrium is disturbed, it shifts to counteract the disturbance",
+          matchMy:
+              "Equilibrium ရှိသော စနစ်တစ်ခု နှောင့်ယှက်ခံရလျှင် နှောင့်ယှက်မှုကို ဆန့်ကျင်ရန် ရွှေ့ပြောင်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w33-dm-4",
+          termEn: "Oxidation",
+          termMy: "Oxidation",
+          matchEn:
+              "The loss of electrons (or gain of oxygen) by a species in a reaction",
+          matchMy:
+              "ဓာတ်ပြုမှုတစ်ခုတွင် Species တစ်ခု၏ Electron ဆုံးရှုံးခြင်း (သို့မဟုတ် Oxygen ရရှိခြင်း)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w33-dm-5",
+          termEn: "Molar gas volume",
+          termMy: "Molar Gas Volume",
+          matchEn:
+              "One mole of any gas occupies 24 dm3 at room temperature and pressure",
+          matchMy:
+              "ဓာတ်ငွေ့ မည်သည်၏ Mole တစ်ခုမဆို အခန်းအပူချိန်နှင့် ဖိအားတွင် 24 dm3 နေရာယူသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် တန်းက ဤအရာကို ဖော်ပြခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Term 1-2 (Atoms/Stoichiometry)",
+          "Term 3-4 (Electrolysis/Rates)",
+        ],
+        bucketsMy: [
+          "Term 1-2 (Atoms/Stoichiometry)",
+          "Term 3-4 (Electrolysis/Rates)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsechem-w33-sort-1",
+            labelEn: "Balancing chemical equations and writing ionic equations",
+            labelMy:
+                "ဓာတုညီမျှခြင်းများ ချိန်ညှိခြင်းနှင့် Ionic ညီမျှခြင်းများ ရေးသားခြင်း",
+            correctBucketEn: "Term 1-2 (Atoms/Stoichiometry)",
+            correctBucketMy: "Term 1-2 (Atoms/Stoichiometry)",
+          ),
+          SortingItem(
+            id: "igcsechem-w33-sort-2",
+            labelEn:
+                "Predicting products at each electrode during electrolysis of aqueous solutions",
+            labelMy:
+                "ရေဓာတ်ဖျော် ပျော်ရည်များကို Electrolysis ပြုလုပ်စဉ် Electrode တစ်ခုစီ၏ ထွက်ကုန်များကို ခန့်မှန်းခြင်း",
+            correctBucketEn: "Term 3-4 (Electrolysis/Rates)",
+            correctBucketMy: "Term 3-4 (Electrolysis/Rates)",
+          ),
+          SortingItem(
+            id: "igcsechem-w33-sort-3",
+            labelEn: "Calculating relative atomic mass from isotope abundances",
+            labelMy:
+                "Isotope ပါဝင်မှု အချိုးများမှ ဆွေမျိုးအက်တမ်ထုထည် တွက်ချက်ခြင်း",
+            correctBucketEn: "Term 1-2 (Atoms/Stoichiometry)",
+            correctBucketMy: "Term 1-2 (Atoms/Stoichiometry)",
+          ),
+          SortingItem(
+            id: "igcsechem-w33-sort-4",
+            labelEn:
+                "Applying Le Chatelier's principle to industrial equilibrium processes",
+            labelMy:
+                "စက်မှု Equilibrium လုပ်ငန်းစဉ်များတွင် Le Chatelier's Principle အသုံးချခြင်း",
+            correctBucketEn: "Term 3-4 (Electrolysis/Rates)",
+            correctBucketMy: "Term 3-4 (Electrolysis/Rates)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw's Multiple-Choice Strategy Session",
+      titleMy: "စာဖတ်ခြင်း - ကိုဇော်၏ ရွေးချယ်ရန်မေးခွန်း မဟာဗျူဟာ အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw's Multiple-Choice Strategy Session",
+        titleMy: "ကိုဇော်၏ ရွေးချယ်ရန်မေးခွန်း မဟာဗျူဟာ အစည်းအဝေး",
+        passageEn:
+            "With the real IGCSE exam only weeks away, Ko Zaw shifted Shin Thant's preparation from learning new content to sharpening exam technique specifically for Paper 1's forty multiple-choice questions in forty-five minutes -- just over a minute per question on average.\n\nHis first piece of advice was to answer every question, even under guessed uncertainty, since Paper 1 has no penalty for a wrong answer, meaning a blank answer and a wrong answer cost exactly the same number of marks, while a guess has at least some chance of being correct. His second piece of advice was to use elimination actively: even when Shin Thant could not immediately recall the exact right answer, she could often confidently rule out one or two options as scientifically impossible, turning a four-way guess into a much better two-way guess.\n\nHis third and final piece of advice concerned time management under pressure: if a question was taking more than about ninety seconds without progress, mark a best guess and move on immediately, circling the question number to return to later if time remained at the end, rather than losing five minutes on one hard question while three easy questions later in the paper went unanswered entirely. Shin Thant practiced this exact rhythm on a timed twenty-question drill, and found that forcing herself to move on from one stubborn question about titration curves actually improved her overall score, since the extra time let her answer four later questions she would otherwise have rushed or skipped.",
+        passageMy:
+            "အမှန်တကယ် IGCSE စာမေးပွဲသည် ရက်သတ္တပတ်များအတွင်း ကျန်ရှိနေရာ ကိုဇော်သည် ရှင်သန့်၏ ပြင်ဆင်မှုကို အကြောင်းအရာသစ် သင်ယူခြင်းမှ Paper 1 ၏ ရွေးချယ်ရန် မေးခွန်း လေးဆယ်ကို မိနစ် လေးဆယ့်ငါးအတွင်း -- တစ်မေးခွန်းလျှင် ပျမ်းမျှ မိနစ်တစ်ခုကျော် -- အထူးသတိပြု ဖြေဆိုနိုင်ရန် စာမေးပွဲ နည်းပရိယာယ်ကို ချွန်ထက်စေရန် ပြောင်းလဲခဲ့သည်။\n\nသူ၏ ပထမဆုံး အကြံဉာဏ်သည် ခန့်မှန်း မသေချာမှုအောက်တွင်ပင် မေးခွန်းတိုင်းကို ဖြေဆိုရန် ဖြစ်ခဲ့သည်၊ အကြောင်းမှာ Paper 1 တွင် မှားယွင်းသော အဖြေအတွက် ဒဏ်ခတ်မှု မရှိပါ၊ ဆိုလိုသည်မှာ အလွတ်ကျန်ရစ်သော အဖြေနှင့် မှားယွင်းသော အဖြေသည် အမှတ်ပေါင်း အတိအကျ တူညီစွာ ကျခံရမည်ဖြစ်ပြီး ခန့်မှန်းအဖြေတွင်မူ မှန်ကန်နိုင်ခြေ အနည်းငယ် ရှိသောကြောင့်ဖြစ်သည်။ သူ၏ ဒုတိယ အကြံဉာဏ်သည် Elimination ကို တက်ကြွစွာ အသုံးပြုရန် ဖြစ်ခဲ့သည် - ရှင်သန့်သည် အတိအကျ မှန်ကန်သော အဖြေကို ချက်ချင်း သတိမရနိုင်သည့်တိုင် ရွေးချယ်စရာ တစ်ခု သို့မဟုတ် နှစ်ခုကို ဓာတုဗေဒအရ မဖြစ်နိုင်ဟု စိတ်ချစွာ ဖယ်ရှားနိုင်လေ့ ရှိပြီး လေးလမ်း ခန့်မှန်းမှုကို ပို၍ ကောင်းသော နှစ်လမ်း ခန့်မှန်းမှုအဖြစ် ပြောင်းလဲပေးသည်။\n\nသူ၏ တတိယနှင့် နောက်ဆုံး အကြံဉာဏ်သည် ဖိအားအောက်တွင် အချိန်စီမံခန့်ခွဲမှုနှင့် သက်ဆိုင်ခဲ့သည် - မေးခွန်းတစ်ခုသည် တိုးတက်မှု မရှိဘဲ ဆက္ကန့် ကိုးဆယ်ကျော် ကြာနေပါက အကောင်းဆုံး ခန့်မှန်းအဖြေတစ်ခုကို အမှတ်အသားပြုပြီး ချက်ချင်း ရွှေ့သွားရန်၊ အဆုံးတွင် အချိန်ကျန်ရှိပါက ပြန်လာရန် မေးခွန်းနံပါတ်ကို ဝိုင်းအမှတ်အသားပြုကာ၊ ခက်ခဲသော မေးခွန်းတစ်ခုတွင် မိနစ်ငါးမိနစ် ဆုံးရှုံးစဉ် စာစောင်၏ နောက်ပိုင်းရှိ လွယ်ကူသော မေးခွန်းသုံးခုကို လုံးလုံးလျားလျား မဖြေဆိုနိုင်ဘဲ ချန်ထားခြင်းမှ ရှောင်ရှားသင့်သည်။ ရှင်သန့်သည် ဤ အတိအကျ ရစ်ချက်ကို အချိန်ကန့်သတ်ထားသော မေးခွန်း နှစ်ဆယ် လေ့ကျင့်ခန်းတစ်ခုတွင် လေ့ကျင့်ခဲ့ပြီး Titration Curve များအကြောင်း ခေါင်းမာနေသော မေးခွန်းတစ်ခုမှ ကိုယ်တိုင် ရွှေ့သွားရန် အတင်းအကျပ် ခိုင်းစေခြင်းသည် သူမ၏ စုစုပေါင်း ရမှတ်ကို အမှန်တကယ် တိုးတက်စေကြောင်း တွေ့ရှိခဲ့သည်၊ အကြောင်းမှာ ထပ်ဆောင်း အချိန်က မဟုတ်ပါက အလျင်စလို ဖြေဆိုမည် သို့မဟုတ် ကျော်သွားမည့် နောက်ပိုင်း မေးခွန်း လေးခုကို ဖြေဆိုနိုင်စေခဲ့သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Zaw advise answering every question, even under uncertainty?",
+            questionMy:
+                "မသေချာမှုအောက်တွင်ပင် မေးခွန်းတိုင်းကို ဖြေဆိုရန် ကိုဇော် အကြံပေးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "There is no penalty for a wrong answer, so a blank and a wrong answer cost the same, but a guess has some chance of being correct",
+              "Every guess is always guaranteed to be correct",
+              "Blank answers earn bonus marks",
+              "The exam board requires every question to be attempted or the paper is void",
+            ],
+            optionsMy: [
+              "မှားယွင်းသော အဖြေအတွက် ဒဏ်ခတ်မှု မရှိသောကြောင့် အလွတ်နှင့် မှားယွင်းသော အဖြေသည် အတူတူ ကျခံရသော်လည်း ခန့်မှန်းမှုတွင် မှန်ကန်နိုင်ခြေ အနည်းငယ် ရှိသောကြောင့်",
+              "ခန့်မှန်းမှု တိုင်းသည် အမြဲ မှန်ကန်ကြောင်း အာမခံထားသောကြောင့်",
+              "အလွတ် အဖြေများသည် အပိုအမှတ် ရရှိသောကြောင့်",
+              "စာမေးပွဲအဖွဲ့က မေးခွန်းတိုင်းကို ကြိုးစားဖြေဆိုရန် လိုအပ်သည်၊ မဟုတ်ပါက စာစောင် ပယ်ဖျက်ခံရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining Paper 1's marking scheme.",
+            ],
+            hintsMy: [
+              "Paper 1 ၏ အမှတ်ပေး နည်းစနစ်ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what should Shin Thant do if a question takes more than ninety seconds without progress?",
+            questionMy:
+                "မေးခွန်းတစ်ခုသည် တိုးတက်မှု မရှိဘဲ ဆက္ကန့် ကိုးဆယ်ကျော် ကြာနေပါက ရှင်သန့် မည်သို့ ပြုလုပ်သင့်ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Mark a best guess, move on immediately, and circle the question to return to later if time remains",
+              "Skip the question entirely and leave it forever blank",
+              "Spend the rest of the exam on that one question",
+              "Stop the exam completely",
+            ],
+            optionsMy: [
+              "အကောင်းဆုံး ခန့်မှန်းအဖြေတစ်ခုကို အမှတ်အသားပြုပြီး ချက်ချင်း ရွှေ့သွားကာ အချိန်ကျန်ရှိပါက ပြန်လာရန် မေးခွန်းကို ဝိုင်းအမှတ်အသားပြုခြင်း",
+              "မေးခွန်းကို လုံးဝ ကျော်သွားပြီး ထာဝစဉ် အလွတ်ချန်ထားခြင်း",
+              "ထို မေးခွန်း တစ်ခုတည်းအတွက် ကျန်ရှိသော စာမေးပွဲ အချိန်အားလုံးကို အသုံးပြုခြင်း",
+              "စာမေးပွဲကို လုံးလုံးလျားလျား ရပ်တန့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Ko Zaw's third piece of advice."],
+            hintsMy: ["ကိုဇော်၏ တတိယ အကြံဉာဏ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, why did moving on from the stubborn question actually improve Shin Thant's overall score?",
+            questionMy:
+                "ခေါင်းမာနေသော မေးခွန်းမှ ရွှေ့သွားခြင်းက ရှင်သန့်၏ စုစုပေါင်း ရမှတ်ကို အမှန်တကယ် တိုးတက်စေရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The extra time let her answer four later questions she would otherwise have rushed or skipped",
+              "It made the exam shorter overall",
+              "It automatically corrected her answer to the stubborn question",
+              "It had no actual effect on her score",
+            ],
+            optionsMy: [
+              "ထပ်ဆောင်း အချိန်က မဟုတ်ပါက အလျင်စလို ဖြေဆိုမည် သို့မဟုတ် ကျော်သွားမည့် နောက်ပိုင်း မေးခွန်း လေးခုကို ဖြေဆိုနိုင်စေခဲ့သောကြောင့်",
+              "စာမေးပွဲကို စုစုပေါင်း ပို၍ တိုတောင်းစေခဲ့သောကြောင့်",
+              "ခေါင်းမာနေသော မေးခွန်းအတွက် သူမ၏ အဖြေကို အလိုအလျောက် ပြင်ပေးခဲ့သောကြောင့်",
+              "သူမ၏ ရမှတ်အပေါ် မည်သည့် အမှန်တကယ် သက်ရောက်မှုမျှ မရှိခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: MCQ Technique",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - MCQ နည်းစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On Paper 1, since there is no penalty for a wrong answer, you should always...",
+          questionMy:
+              "Paper 1 တွင် မှားယွင်းသော အဖြေအတွက် ဒဏ်ခတ်မှု မရှိသောကြောင့် သင် အမြဲ...သင့်သည်",
+          optionsEn: [
+            "Attempt an answer, even a guess",
+            "Leave difficult questions blank",
+            "Skip the entire paper",
+            "Only answer questions you are 100% certain of",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းမှု တစ်ခုပင် ဖြစ်စေ ဖြေဆိုရန် ကြိုးစား",
+            "ခက်ခဲသော မေးခွန်းများကို အလွတ် ချန်ထား",
+            "စာစောင်တစ်ခုလုံးကို ကျော်",
+            "၁၀၀% သေချာသော မေးခွန်းများကိုသာ ဖြေဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a question is taking too long, the best strategy is to...",
+          questionMy:
+              "မေးခွန်းတစ်ခုသည် အချိန် ကြာလွန်းနေပါက အကောင်းဆုံး မဟာဗျူဟာသည်...",
+          optionsEn: [
+            "Mark a best guess and move on, returning later if time allows",
+            "Stay on it until the exam ends",
+            "Immediately hand in the paper",
+            "Erase all previous answers",
+          ],
+          optionsMy: [
+            "အကောင်းဆုံး ခန့်မှန်းအဖြေကို အမှတ်အသားပြုပြီး ရွှေ့သွားကာ အချိန်ရှိပါက နောက်မှ ပြန်လာ",
+            "စာမေးပွဲ အဆုံးအထိ ၎င်းတွင်ပင် ဆက်နေ",
+            "စာစောင်ကို ချက်ချင်း လွှဲပြောင်း",
+            "ယခင် အဖြေများ အားလုံးကို ဖျက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Elimination strategy means ruling out options that are...",
+          questionMy:
+              "Elimination မဟာဗျူဟာ ဆိုသည်မှာ ...ဖြစ်သော ရွေးချယ်စရာများကို ဖယ်ရှားခြင်း ဆိုလိုသည်",
+          optionsEn: [
+            "Scientifically impossible",
+            "Written in the smallest font",
+            "Listed first in the options",
+            "The longest sentence",
+          ],
+          optionsMy: [
+            "ဓာတုဗေဒအရ မဖြစ်နိုင်",
+            "အသေးဆုံး Font ဖြင့် ရေးထား",
+            "ရွေးချယ်စရာများတွင် ပထမဆုံး ဖော်ပြထား",
+            "အရှည်ဆုံး စာကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 34: "Paper 3/4 (Theory Calculations) Mastery"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek34 = CourseWeekDef(
+  id: "course-igcse-chem-w34",
+  weekNumber: 34,
+  titleEn: "Paper 3/4 (Theory Calculations) Mastery",
+  titleMy: "Paper 3/4 (သီအိုရီ တွက်ချက်မှုများ) ကျွမ်းကျင်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w34-d1",
+      dayNumber: 1,
+      titleEn: "Structuring Extended Stoichiometry Answers",
+      titleMy: "Extended Stoichiometry အဖြေများ တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "5.6 g of iron (Ar = 56) reacts completely with excess dilute sulfuric acid. What mass of hydrogen gas (Ar = 1) is produced? (Fe + H2SO4 -> FeSO4 + H2)",
+          questionMy:
+              "Iron (Ar = ၅၆) ၅.၆ ဂရမ်သည် ပိုလျှံသော ရေဖျော် Sulfuric Acid နှင့် လုံးလုံးလျားလျား ဓာတ်ပြုသည်။ Hydrogen ဓာတ်ငွေ့ (Ar = ၁) မည်မျှ ပေါင် ထုတ်ပေးသနည်း။ (Fe + H2SO4 -> FeSO4 + H2)",
+          optionsEn: [
+            "0.2 g (moles Fe = 5.6/56 = 0.1 mol; 1:1 ratio means moles H2 = 0.1 mol; mass = 0.1 x 2 = 0.2 g)",
+            "5.6 g",
+            "0.1 g",
+            "2.0 g",
+          ],
+          optionsMy: [
+            "0.2 ဂရမ် (Fe Mole = 5.6/56 = 0.1 mol; 1:1 အချိုးအရ H2 Mole = 0.1 mol; Mass = 0.1 x 2 = 0.2 ဂရမ်)",
+            "5.6 ဂရမ်",
+            "0.1 ဂရမ်",
+            "2.0 ဂရမ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Remember H2 has a molecular mass of 2 (two hydrogen atoms), not 1 -- a very common error to avoid.",
+          ],
+          hintsMy: [
+            "H2 သည် Molecular Mass ၂ ရှိကြောင်း (Hydrogen အက်တမ် နှစ်ခု) သတိရပါ၊ ၁ မဟုတ်ပါ -- ရှောင်ရှားသင့်သော အလွန်တွေ့ရလေ့ရှိသော အမှားတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-structured Paper 4 stoichiometry answer typically shows which sequence of working?",
+          questionMy:
+              "ကောင်းစွာ တည်ဆောက်ထားသော Paper 4 Stoichiometry အဖြေတစ်ခုသည် များသောအားဖြင့် မည်သည့် လုပ်ဆောင်ချက် အစဉ်လိုက်ကို ပြသနည်း။",
+          optionsEn: [
+            "Moles of known substance, mole ratio from the balanced equation, moles of unknown, then convert to the requested unit",
+            "Simply writing the final numeric answer with no working shown",
+            "Guessing a number that seems reasonable",
+            "Copying the balanced equation only, with no calculation",
+          ],
+          optionsMy: [
+            "သိရှိသော ပစ္စည်း၏ Mole၊ ချိန်ညှိထားသော ညီမျှခြင်းမှ Mole အချိုး၊ အမည်မသိ၏ Mole၊ ထို့နောက် တောင်းဆိုထားသော ယူနစ်သို့ ပြောင်းလဲခြင်း",
+            "လုပ်ဆောင်ချက် လုံးဝ မပြသဘဲ နောက်ဆုံး ကိန်းဂဏန်း အဖြေကို ရိုးရိုးရှင်းရှင်း ရေးသားခြင်း",
+            "သင့်လျော်ပုံပေါက်သော ကိန်းဂဏန်းတစ်ခုကို ခန့်မှန်းခြင်း",
+            "တွက်ချက်မှု လုံးဝ မပါဘဲ ချိန်ညှိထားသော ညီမျှခြင်းကိုသာ ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Showing each step earns method marks even if the final numeric answer has a small arithmetic slip -- a key exam technique.",
+          ],
+          hintsMy: [
+            "အဆင့်တစ်ခုစီကို ပြသခြင်းက နောက်ဆုံး ကိန်းဂဏန်း အဖြေတွင် ငယ်ငယ်စား ဂဏန်း အမှားတစ်ခု ရှိသည်ဖြစ်စေ Method Mark များ ရရှိစေသည် -- အဓိက စာမေးပွဲ နည်းပရိယာယ်တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When explaining why chlorine displaces bromine from potassium bromide solution in an extended answer, which reasoning earns full marks?",
+          questionMy:
+              "Extended အဖြေတစ်ခုတွင် Chlorine သည် Potassium Bromide ပျော်ရည်မှ Bromine ကို နေရာလွှဲပြောင်းရသည့် အကြောင်းရင်းကို ရှင်းပြသည့်အခါ မည်သည့် ကျိုးကြောင်းဆင်ခြင်ချက်က အမှတ်အပြည့် ရရှိစေသနည်း။",
+          optionsEn: [
+            "Chlorine is more reactive than bromine because its outer shell is closer to the nucleus, making electron gain easier",
+            "Chlorine is a different colour from bromine",
+            "Chlorine is simply named earlier in the alphabet",
+            "Bromine does not actually exist in solution",
+          ],
+          optionsMy: [
+            "Chlorine ၏ အပြင်ဆုံးအခွံသည် နျူကလိယပ်နှင့် ပို၍ နီးကပ်သဖြင့် Electron ရရှိခြင်း ပို၍ လွယ်ကူသောကြောင့် Chlorine သည် Bromine ထက် ဓာတ်ပြုနိုင်စွမ်း ရှိသည်",
+            "Chlorine သည် Bromine နှင့် မတူညီသော အရောင် ဖြစ်သောကြောင့်",
+            "Chlorine ကို အက္ခရာစဉ်တွင် ရိုးရိုးရှင်းရှင်း ပို၍ စောစီးစွာ အမည်ပေးထားသောကြောင့်",
+            "Bromine သည် ပျော်ရည်ထဲတွင် အမှန်တကယ် လုံးဝ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "IGCSE mark schemes reward the full mechanistic reasoning (electron structure explaining reactivity), not just stating the observation.",
+          ],
+          hintsMy: [
+            "IGCSE Mark Scheme များသည် အကြောင်းအရာကိုသာ ဖော်ပြခြင်းမဟုတ်ဘဲ ပြည့်စုံသော Mechanism ကျိုးကြောင်းဆင်ခြင်ချက် (ဓာတ်ပြုနိုင်စွမ်းကို ရှင်းပြသော Electron ဖွဲ့စည်းပုံ) ကို ဆုချီးမြှင့်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Extended Answer Command Words",
+      titleMy: "တွဲစပ်ကြမည် - Extended အဖြေ Command Word များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w34-dm-1",
+          termEn: "'Explain'",
+          termMy: "'Explain'",
+          matchEn:
+              "Give reasons using chemistry knowledge, not just a description of what happens",
+          matchMy:
+              "ဖြစ်ပျက်သည်ကို ဖော်ပြခြင်းသက်သက် မဟုတ်ဘဲ ဓာတုဗေဒ ဗဟုသုတကို အသုံးပြု၍ အကြောင်းပြချက်များ ပေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w34-dm-2",
+          termEn: "'Describe'",
+          termMy: "'Describe'",
+          matchEn:
+              "State what is observed or what happens, without needing to give a reason why",
+          matchMy:
+              "အကြောင်းပြချက် ပေးရန် မလိုအပ်ဘဲ တွေ့မြင်ရသည် သို့မဟုတ် ဖြစ်ပျက်သည်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w34-dm-3",
+          termEn: "'Predict'",
+          termMy: "'Predict'",
+          matchEn:
+              "Use a pattern or principle already learned to state an expected but untested outcome",
+          matchMy:
+              "သင်ယူပြီးသား ပုံစံ သို့မဟုတ် နိယာမတစ်ခုကို အသုံးပြု၍ မျှော်လင့်ထားသော်လည်း မစမ်းသပ်ရသေးသော ရလဒ်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w34-dm-4",
+          termEn: "'Calculate'",
+          termMy: "'Calculate'",
+          matchEn:
+              "Show numerical working step by step to reach a final numeric answer with units",
+          matchMy:
+              "ယူနစ်ပါသော နောက်ဆုံး ကိန်းဂဏန်း အဖြေ ရရှိရန် ကိန်းဂဏန်း လုပ်ဆောင်ချက်ကို အဆင့်ဆင့် ပြသခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w34-dm-5",
+          termEn: "'Compare'",
+          termMy: "'Compare'",
+          matchEn:
+              "State both similarities and differences between two things, not just one alone",
+          matchMy:
+              "အရာနှစ်ခု တစ်ခုတည်းမဟုတ်ဘဲ ၎င်းတို့ကြား ဆင်တူချက်များနှင့် ကွာခြားချက်များ နှစ်ခုစလုံးကို ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Full Marks or Partial Marks Answer?",
+      titleMy:
+          "စီစစ်ကြမည် - အမှတ်အပြည့် အဖြေလား၊ တစ်စိတ်တစ်ပိုင်း အမှတ် အဖြေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Full Marks Answer", "Partial Marks Answer"],
+        bucketsMy: ["Full Marks Answer", "Partial Marks Answer"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w34-sort-1",
+            labelEn:
+                "'Chlorine is more reactive because its outer shell is closer to the nucleus, so it gains an electron more easily'",
+            labelMy:
+                "'Chlorine ၏ အပြင်ဆုံးအခွံသည် နျူကလိယပ်နှင့် ပို၍ နီးကပ်သဖြင့် Electron ကို ပို၍ လွယ်ကူစွာ ရရှိသောကြောင့် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသည်'",
+            correctBucketEn: "Full Marks Answer",
+            correctBucketMy: "Full Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsechem-w34-sort-2",
+            labelEn: "'Chlorine is more reactive because it just is'",
+            labelMy:
+                "'Chlorine သည် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသည်၊ အကြောင်းမှာ ရှိသောကြောင့်'",
+            correctBucketEn: "Partial Marks Answer",
+            correctBucketMy: "Partial Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsechem-w34-sort-3",
+            labelEn:
+                "A full working showing moles, ratio, and final answer with correct units",
+            labelMy:
+                "Mole, အချိုးနှင့် မှန်ကန်သော ယူနစ်ပါသော နောက်ဆုံး အဖြေကို ပြသော လုပ်ဆောင်ချက် အပြည့်အစုံ",
+            correctBucketEn: "Full Marks Answer",
+            correctBucketMy: "Full Marks Answer",
+          ),
+          SortingItem(
+            id: "igcsechem-w34-sort-4",
+            labelEn:
+                "Just the final number, with no units and no working shown",
+            labelMy:
+                "ယူနစ် မပါဘဲ၊ လုပ်ဆောင်ချက် မပြသဘဲ နောက်ဆုံး ကိန်းဂဏန်းသက်သက်",
+            correctBucketEn: "Partial Marks Answer",
+            correctBucketMy: "Partial Marks Answer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zaw's Organic Mechanism Marking Guide",
+      titleMy: "စာဖတ်ခြင်း - ကိုဇော်၏ Organic Mechanism အမှတ်ပေးလမ်းညွှန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zaw's Organic Mechanism Marking Guide",
+        titleMy: "ကိုဇော်၏ Organic Mechanism အမှတ်ပေးလမ်းညွှန်",
+        passageEn:
+            "Ko Zaw showed Shin Thant two different student answers to the same question -- explain why poly(ethene) can be made from ethene but nylon cannot be made the same way -- and asked her to guess which one would score full marks.\n\nAnswer A read: 'Poly(ethene) is a plastic and nylon is also a plastic, but they are made differently, so this explains the difference.' Answer B read: 'Ethene has a C=C double bond that can open up during addition polymerisation, joining monomers directly with no other product formed. Nylon's monomers, a diamine and a dicarboxylic acid, do not have a C=C double bond to open; instead they undergo condensation polymerisation, where a new bond forms between the two functional groups and releases a water molecule each time.' Shin Thant correctly identified Answer B as the full-marks response, since it named the specific structural feature (the double bond) responsible for the difference, named both polymerisation mechanisms by name, and explained the by-product difference -- three distinct, markable scientific points rather than one vague restatement of the question.\n\nKo Zaw explained that Answer A committed a classic mistake called 'circular reasoning': it restated that the two things were different without ever explaining why, which examiners specifically train to recognise and refuse to credit, no matter how confidently or fluently it is written. He gave Shin Thant one final rule of thumb for every extended organic or theory question from here to the exam: before writing a final sentence, check whether it actually contains a piece of chemistry that was not already given in the question -- if it only restates the question in different words, it earns zero marks regardless of length.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်ကို မေးခွန်းတစ်ခုတည်းအတွက် ကျောင်းသား အဖြေ ကွဲပြားနှစ်ခု -- Poly(Ethene) ကို Ethene မှ ပြုလုပ်နိုင်သော်လည်း Nylon ကို ဤနည်းဖြင့် ဘယ်တော့မှ ပြုလုပ်၍ မရသည့် အကြောင်းရင်း ရှင်းပြခြင်း -- ကို ပြသပြီး မည်သည် အမှတ်အပြည့် ရမည်ဟု ခန့်မှန်းရန် သူမကို တောင်းဆိုခဲ့သည်။\n\nအဖြေ A ဤသို့ ဖတ်ရသည် - 'Poly(Ethene) သည် ပလပ်စတစ်တစ်မျိုး ဖြစ်ပြီး Nylon သည်လည်း ပလပ်စတစ်တစ်မျိုး ဖြစ်သော်လည်း ၎င်းတို့ကို ကွဲပြားစွာ ပြုလုပ်ထားသောကြောင့် ဤသည်ကား ကွာခြားချက်ကို ရှင်းပြသည်။' အဖြေ B ဤသို့ ဖတ်ရသည် - 'Ethene တွင် Addition Polymerisation အတွင်း ဖွင့်နိုင်သော C=C Double Bond ရှိပြီး Monomer များကို အခြား ကုန်ချောပစ္စည်း မပါဘဲ တိုက်ရိုက် ချိတ်ဆက်ပေးသည်။ Nylon ၏ Monomer များ၊ Diamine နှင့် Dicarboxylic Acid တွင် ဖွင့်ရန် C=C Double Bond မရှိပါ; ယင်းအစား ၎င်းတို့သည် Condensation Polymerisation ခံစားကြပြီး Functional Group နှစ်ခုကြား Bond အသစ်တစ်ခု ဖွဲ့စည်းကာ တစ်ကြိမ်စီ ရေမော်လီကျူးတစ်ခု လွှတ်ပေးသည်။' ရှင်သန့်သည် အဖြေ B ကို အမှတ်အပြည့် တုံ့ပြန်ချက်အဖြစ် မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းသည် ကွာခြားချက်အတွက် တာဝန်ရှိသော တိကျသော ဖွဲ့စည်းပုံ လက္ခဏာ (Double Bond) ကို အမည်တပ်ခဲ့ပြီး Polymerisation Mechanism နှစ်ခုစလုံးကို အမည်တပ်ကာ ကုန်ချောပစ္စည်း ကွာခြားချက်ကို ရှင်းပြထားသောကြောင့် ဖြစ်သည် -- မေးခွန်း၏ ရှင်းရှင်းလင်းလင်း မဟုတ်သော ပြန်ထပ်ခြင်း တစ်ခုတည်းအစား တိကျသော၊ အမှတ်ပေးနိုင်သော သိပ္ပံဆိုင်ရာ အချက် သုံးခု ဖြစ်သည်။\n\nအဖြေ A သည် 'Circular Reasoning' ဟုခေါ်သော Classic အမှားတစ်ခု ပြုလုပ်ခဲ့ကြောင်း ကိုဇော် ရှင်းပြခဲ့သည် - အဘယ်ကြောင့်ဟူသော ရှင်းပြချက် တစ်ခုမျှ ဘယ်တော့မှ မပေးဘဲ အရာနှစ်ခု ကွဲပြားကြောင်း ပြန်ထပ်ခဲ့ရုံသာ ဖြစ်ခဲ့ပြီး ၎င်းကို စာစစ်ဆရာများသည် မည်မျှ စိတ်ချစွာ သို့မဟုတ် ချောမွေ့စွာ ရေးသားထားသည်ဖြစ်စေ အထူးလေ့ကျင့်ကာ ဖော်ထုတ်ကာ အမှတ် မပေးဘဲ ငြင်းဆန်ကြသည်။ ယခုမှ စာမေးပွဲအထိ Extended Organic သို့မဟုတ် သီအိုရီ မေးခွန်း တိုင်းအတွက် ကိုဇော်သည် ရှင်သန့်ကို နောက်ဆုံး အနုတ်ရေးနည်းလမ်းတစ်ခု ပေးခဲ့သည် - နောက်ဆုံး စာကြောင်းကို မရေးမီ ၎င်းတွင် မေးခွန်းတွင် ကြိုတင် မပေးထားသေးသော ဓာတုဗေဒ အချက်တစ်ခု အမှန်တကယ် ပါဝင်ခြင်း ရှိမရှိ စစ်ဆေးရန် -- မေးခွန်းကို စကားလုံး ကွဲပြားစွာ ပြန်ထပ်ရုံသာ ဆိုပါက အရှည် မည်မျှပင် ရှိသည်ဖြစ်စေ အမှတ် သုညသာ ရရှိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three distinct points did Answer B include that made it full marks?",
+            questionMy:
+                "အဖြေ B ကို အမှတ်အပြည့် ဖြစ်စေသော တိကျသော အချက် သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The structural feature responsible, both polymerisation mechanisms named, and the by-product difference explained",
+              "Only the colour of each polymer",
+              "Only the price of each polymer",
+              "Only a restatement that they are different plastics",
+            ],
+            optionsMy: [
+              "တာဝန်ရှိသော ဖွဲ့စည်းပုံ လက္ခဏာ၊ Polymerisation Mechanism နှစ်ခုစလုံးကို အမည်တပ်ခြင်းနှင့် ကုန်ချောပစ္စည်း ကွာခြားချက် ရှင်းပြခြင်း",
+              "Polymer တစ်ခုစီ၏ အရောင်သာ",
+              "Polymer တစ်ခုစီ၏ ဈေးနှုန်းသာ",
+              "ပလပ်စတစ် ကွဲပြားသည်ဟူသော ပြန်ထပ်ချက်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing why Shin Thant identified Answer B as full marks.",
+            ],
+            hintsMy: [
+              "အဖြေ B ကို အမှတ်အပြည့်ဟု ရှင်သန့် ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းများ ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific mistake did Answer A commit?",
+            questionMy:
+                "အဖြေ A ပြုလုပ်ခဲ့သော တိကျသော အမှားကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Circular reasoning -- restating that the two things were different without explaining why",
+              "Using too many chemical formulae",
+              "Writing far too much detail",
+              "Answering a completely different question",
+            ],
+            optionsMy: [
+              "Circular Reasoning -- အဘယ်ကြောင့်ဟူသော ရှင်းပြချက် မပေးဘဲ အရာနှစ်ခု ကွဲပြားကြောင်း ပြန်ထပ်ခြင်း",
+              "ဓာတုဗေဒ Formula များစွာ အလွန်အကျွံ အသုံးပြုခြင်း",
+              "အသေးစိတ်ကို အလွန်အကျွံ ရေးသားခြင်း",
+              "လုံးဝ မတူညီသော မေးခွန်းတစ်ခုကို ဖြေဆိုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the mistake."],
+            hintsMy: ["အမှားကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what test should Shin Thant apply before writing a final answer sentence?",
+            questionMy:
+                "နောက်ဆုံး အဖြေစာကြောင်း မရေးမီ ရှင်သန့် သုံးသင့်သော စစ်ဆေးမှုကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether the sentence contains a piece of chemistry not already given in the question",
+              "Whether the sentence is exactly ten words long",
+              "Whether the sentence uses a rhyme",
+              "Whether the sentence repeats the question verbatim",
+            ],
+            optionsMy: [
+              "စာကြောင်းတွင် မေးခွန်းတွင် ကြိုတင် မပေးထားသေးသော ဓာတုဗေဒ အချက်တစ်ခု ပါဝင်ခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် အတိအကျ စကားလုံး ဆယ်လုံး ရှည်ခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် ကာရန်ကို အသုံးပြုခြင်း ရှိမရှိ",
+              "စာကြောင်းသည် မေးခွန်းကို စကားလုံးအတိုင်း ထပ်ခါထပ်ခါ ရေးသားခြင်း ရှိမရှိ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Extended Answer Technique",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Extended အဖြေ နည်းစနစ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "'Explain' questions require you to give...",
+          questionMy: "'Explain' မေးခွန်းများသည် ...ကို ပေးရန် လိုအပ်သည်",
+          optionsEn: [
+            "Reasons using chemistry knowledge",
+            "A one-word answer only",
+            "A drawing with no text",
+            "The question repeated back",
+          ],
+          optionsMy: [
+            "ဓာတုဗေဒ ဗဟုသုတကို အသုံးပြု၍ အကြောင်းပြချက်များ",
+            "စကားလုံးတစ်လုံးတည်း အဖြေသာ",
+            "စာသား မပါသော ပုံတစ်ပုံ",
+            "မေးခွန်းကို ပြန်ထပ်ဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Showing full working in a calculation earns...",
+          questionMy:
+              "တွက်ချက်မှုတစ်ခုတွင် လုပ်ဆောင်ချက် အပြည့်အစုံ ပြသခြင်းက ...ကို ရရှိစေသည်",
+          optionsEn: [
+            "Method marks, even if the final number has a small error",
+            "No marks at all under any circumstances",
+            "Fewer marks than a bare number",
+            "A penalty for taking too long",
+          ],
+          optionsMy: [
+            "Method Mark များ၊ နောက်ဆုံး ကိန်းဂဏန်းတွင် ငယ်ငယ်စား အမှား ရှိသည်ဖြစ်စေ",
+            "မည်သည့် အခြေအနေတွင်မဆို အမှတ် လုံးဝ မရှိပါ",
+            "အလွတ် ကိန်းဂဏန်းတစ်ခုထက် အမှတ် နည်းသည်",
+            "အချိန် ကြာလွန်းခြင်းအတွက် ဒဏ်ခတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Circular reasoning in an answer means...",
+          questionMy: "အဖြေတစ်ခုတွင် Circular Reasoning ဆိုသည်မှာ...",
+          optionsEn: [
+            "Restating the question's claim without explaining why",
+            "Using a calculator correctly",
+            "Drawing a perfect circle diagram",
+            "Writing an unusually short answer",
+          ],
+          optionsMy: [
+            "အဘယ်ကြောင့်ဟူသော ရှင်းပြချက် မပေးဘဲ မေးခွန်း၏ ဆိုလိုချက်ကို ပြန်ထပ်ဖော်ပြခြင်း",
+            "ကယ်လကူလေတာကို မှန်ကန်စွာ အသုံးပြုခြင်း",
+            "ပြီးပြည့်စုံသော စက်ဝိုင်းပုံကို ဆွဲခြင်း",
+            "ထူးထူးခြားခြား တိုတောင်းသော အဖြေကို ရေးသားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 35: "Full Past Paper Mock Examinations"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek35 = CourseWeekDef(
+  id: "course-igcse-chem-w35",
+  weekNumber: 35,
+  titleEn: "Full Past Paper Mock Examinations",
+  titleMy: "မေးခွန်းဟောင်း ပုံစံတူ စာမေးပွဲ အစုံအလင် ဖြေဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mock Paper 1: Terms 5-8 Mixed Recall",
+      titleMy: "Mock Paper 1 - ပဉ္စမ-အဌမ နှစ်ဝက် ရောနှော သတိရခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A gas turns damp red litmus paper blue and has a sharp, pungent smell. What is the gas?",
+          questionMy:
+              "ဓာတ်ငွေ့တစ်မျိုးသည် စိုစွတ်သော အနီရောင် လစ်တမတ်စ် စက္ကူကို အပြာရောင်သို့ ပြောင်းစေပြီး ထက်သော၊ ပြင်းထန်သော အနံ့ ရှိသည်။ ဤဓာတ်ငွေ့ကား အဘယ်နည်း။",
+          optionsEn: ["Ammonia", "Carbon dioxide", "Hydrogen", "Oxygen"],
+          optionsMy: ["Ammonia", "Carbon Dioxide", "Hydrogen", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which method is correct for preparing an insoluble salt like lead sulfate?",
+          questionMy:
+              "Lead Sulfate ကဲ့သို့ မပျော်ဝင်သော ဆားတစ်ခု ပြင်ဆင်ရန် မှန်ကန်သော နည်းလမ်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Precipitation, by mixing two soluble solutions",
+            "Titration with an indicator",
+            "Excess solid method with an insoluble base",
+            "Simply heating the pure metal",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်နိုင်သော ပျော်ရည် နှစ်မျိုးကို ရောစပ်ခြင်းဖြင့် Precipitation",
+            "Indicator ဖြင့် Titration",
+            "မပျော်ဝင်သော ဘေ့စ်ဖြင့် Excess Solid Method",
+            "စင်ကြယ်သော သတ္တုကို ရိုးရိုးရှင်းရှင်း အပူပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is aluminium extracted by electrolysis rather than carbon reduction?",
+          questionMy:
+              "Aluminium ကို Carbon Reduction အစား Electrolysis ဖြင့် ထုတ်ယူရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "It is more reactive than carbon",
+            "It is less reactive than carbon",
+            "It does not exist as an ore",
+            "Carbon is too expensive to use anywhere",
+          ],
+          optionsMy: [
+            "Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသောကြောင့်",
+            "Carbon ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့်",
+            "ကျောက်သတ္တု အဖြစ် လုံးဝ မရှိသောကြောင့်",
+            "Carbon သည် နေရာမည်သည်တွင်မဆို အသုံးပြုရန် ဈေးကြီးလွန်းသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which polymerisation type releases water as a by-product each time a bond forms?",
+          questionMy:
+              "Bond တစ်ခု ဖွဲ့စည်းတိုင်း ရေကို ကုန်ချောပစ္စည်းအဖြစ် လွှတ်ပေးသော Polymerisation အမျိုးအစားကား အဘယ်နည်း။",
+          optionsEn: [
+            "Condensation polymerisation",
+            "Addition polymerisation",
+            "Fermentation",
+            "Cracking",
+          ],
+          optionsMy: [
+            "Condensation Polymerisation",
+            "Addition Polymerisation",
+            "Fermentation",
+            "Cracking",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mixed Vocabulary Review",
+      titleMy: "တွဲစပ်ကြမည် - ရောနှောထားသော ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w35-dm-1",
+          termEn: "Amphoteric oxide",
+          termMy: "Amphoteric Oxide",
+          matchEn: "Reacts with both acids and bases, such as aluminium oxide",
+          matchMy:
+              "Aluminium Oxide ကဲ့သို့ အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးစလုံးနှင့် ဓာတ်ပြုသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w35-dm-2",
+          termEn: "Sacrificial protection",
+          termMy: "Sacrificial Protection",
+          matchEn:
+              "A more reactive metal corrodes instead of iron, protecting it",
+          matchMy:
+              "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် သံအစား ကြေဆွေးကာ ကာကွယ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w35-dm-3",
+          termEn: "Cracking",
+          termMy: "Cracking",
+          matchEn:
+              "Breaking large hydrocarbons into smaller alkanes and alkenes",
+          matchMy:
+              "ကြီးမားသော Hydrocarbon များကို သေးငယ်သော Alkane နှင့် Alkene များအဖြစ် ချိုးဖျက်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w35-dm-4",
+          termEn: "Esterification",
+          termMy: "Esterification",
+          matchEn:
+              "A carboxylic acid and an alcohol react to form a sweet-smelling ester and water",
+          matchMy:
+              "Carboxylic Acid နှင့် Alcohol တို့ ဓာတ်ပြုကာ အနံ့ ချိုသာသော အက်စတာနှင့် ရေ ဖွဲ့စည်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w35-dm-5",
+          termEn: "Concordant titres",
+          termMy: "Concordant Titres",
+          matchEn:
+              "Titration readings within 0.1 cm3 of each other, used to calculate a reliable mean",
+          matchMy:
+              "ယုံကြည်စိတ်ချရသော ပျမ်းမျှ တွက်ချက်ရန် အသုံးပြုသော တစ်ခုနှင့်တစ်ခု 0.1 cm3 အတွင်းရှိ Titration ဖတ်ရှုမှုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Paper Tests This Skill?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Paper က ဤကျွမ်းကျင်မှုကို စစ်ဆေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Paper 1 (MCQ)", "Paper 4 (Theory)", "Paper 6 (Practical)"],
+        bucketsMy: ["Paper 1 (MCQ)", "Paper 4 (Theory)", "Paper 6 (Practical)"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w35-sort-1",
+            labelEn: "Selecting the correct answer from four options quickly",
+            labelMy:
+                "ရွေးချယ်စရာ လေးခုမှ မှန်ကန်သော အဖြေကို လျင်မြန်စွာ ရွေးချယ်ခြင်း",
+            correctBucketEn: "Paper 1 (MCQ)",
+            correctBucketMy: "Paper 1 (MCQ)",
+          ),
+          SortingItem(
+            id: "igcsechem-w35-sort-2",
+            labelEn:
+                "Writing a full structured stoichiometry calculation with working shown",
+            labelMy:
+                "လုပ်ဆောင်ချက် ပြသထားသော Stoichiometry တွက်ချက်မှု အပြည့်အစုံကို ရေးသားခြင်း",
+            correctBucketEn: "Paper 4 (Theory)",
+            correctBucketMy: "Paper 4 (Theory)",
+          ),
+          SortingItem(
+            id: "igcsechem-w35-sort-3",
+            labelEn:
+                "Recording concordant titres and calculating a mean for a titration",
+            labelMy:
+                "Titration တစ်ခုအတွက် Concordant Titre များ မှတ်တမ်းတင်ကာ ပျမ်းမျှ တွက်ချက်ခြင်း",
+            correctBucketEn: "Paper 6 (Practical)",
+            correctBucketMy: "Paper 6 (Practical)",
+          ),
+          SortingItem(
+            id: "igcsechem-w35-sort-4",
+            labelEn:
+                "Explaining an organic mechanism using named reasoning in full sentences",
+            labelMy:
+                "အမည်တပ်ထားသော ကျိုးကြောင်းဆင်ခြင်ချက်ကို စာကြောင်းအပြည့်အစုံဖြင့် အသုံးပြု၍ Organic Mechanism ကို ရှင်းပြခြင်း",
+            correctBucketEn: "Paper 4 (Theory)",
+            correctBucketMy: "Paper 4 (Theory)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Exam Week Countdown",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ စာမေးပွဲအပတ် ရေတွက်ချိန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Exam Week Countdown",
+        titleMy: "ရှင်သန့်၏ စာမေးပွဲအပတ် ရေတွက်ချိန်",
+        passageEn:
+            "With one week left before her real IGCSE Chemistry exam, Shin Thant sat down with Ko Zaw for a final planning session, not to learn anything new, but to organise how she would spend her last seven days.\n\nKo Zaw advised against two common mistakes he had seen students make in the final week. The first was cramming brand-new topics they had never properly understood, which almost always produced shallow, easily confused knowledge under exam pressure -- far riskier than deepening topics already mostly secure. The second was abandoning practice papers entirely in favour of just rereading notes, which felt productive but rarely trained the specific skill of retrieving knowledge quickly under a ticking clock, exactly what the real exam would demand.\n\nInstead, he proposed a structured final week: two full timed past papers, spaced with a day of rest between them, each followed immediately by a careful self-marking session using the official mark scheme, since seeing exactly which mark points were missed was more valuable than the score itself. On the days between papers, Shin Thant would revisit only her personal list of recurring weak points -- built up over eight terms of work with Ko Zaw -- rather than re-studying everything from scratch. Shin Thant admitted this felt like less studying than she had expected to do, but Ko Zaw reassured her that by this stage, targeted practice under real exam conditions taught her more per hour than any amount of passive rereading ever could -- the exact lesson experimental design had taught her all the way back in Term 8: control everything except the one variable that still needs improving.",
+        passageMy:
+            "သူမ၏ အမှန်တကယ် IGCSE ဓာတုဗေဒ စာမေးပွဲမတိုင်မီ တစ်ပတ်တည်း ကျန်ရှိတော့သောအခါ ရှင်သန့်သည် ကိုဇော်နှင့် နောက်ဆုံး စီစဉ်ရေး အစည်းအဝေးအတွက် ထိုင်ခဲ့သည်၊ အသစ် တစ်ခုခု သင်ယူရန် မဟုတ်ဘဲ ၎င်း၏ နောက်ဆုံး ရက်ခုနစ်ရက်ကို မည်သို့ အသုံးပြုမည်ကို စီစဉ်ရန် ဖြစ်သည်။\n\nနောက်ဆုံးအပတ်တွင် ကျောင်းသားများ ပြုလုပ်တတ်သည်ကို သူ တွေ့ရှိခဲ့သော ဘုံအမှား နှစ်ခုကို ရှောင်ကြဉ်ရန် ကိုဇော် အကြံပေးခဲ့သည်။ ပထမတစ်ခုမှာ ကောင်းစွာ နားလည်ခြင်း ဘယ်တော့မှ မရှိခဲ့သော ခေါင်းစဉ်သစ်များကို အလွတ်ကျက်ခြင်း ဖြစ်ခဲ့ပြီး ၎င်းသည် စာမေးပွဲ ဖိအားအောက်တွင် ရေမျက်နှာပြင် ပေါ်ရှိ၊ လွယ်ကူစွာ ရောထွေးသွားနိုင်သော ဗဟုသုတကို လုနီးပါး အမြဲ ထုတ်ပေးခဲ့သည် -- ရှိပြီးသား လုံခြုံစွာ သိပြီးသား ခေါင်းစဉ်များကို ပို၍ နက်ရှိုင်းစေခြင်းထက် များစွာ အန္တရာယ် ပိုများသည်။ ဒုတိယတစ်ခုမှာ လေ့ကျင့်ခန်း မေးခွန်းစာစောင်များကို လုံးဝ စွန့်လွှတ်ကာ မှတ်စုများကို ပြန်ဖတ်ခြင်းသက်သက် ရွေးချယ်ခြင်း ဖြစ်ခဲ့ပြီး ၎င်းသည် အသုံးဝင်သည်ဟု ခံစားရသော်လည်း အနေအထားဆက်တက်ရသော နာရီအောက်တွင် လျင်မြန်စွာ ဗဟုသုတ ပြန်လည်ထုတ်ယူသည့် တိကျသော ကျွမ်းကျင်မှုကို ရှားရှားပါးပါးသာ လေ့ကျင့်ပေးခဲ့သည်၊ ၎င်းသည် အမှန်တကယ် စာမေးပွဲက တောင်းဆိုမည့် အချက် အတိအကျ ဖြစ်သည်။\n\nယင်းအစား သူသည် ဖွဲ့စည်းထားသော နောက်ဆုံးအပတ်တစ်ခုကို အဆိုပြုခဲ့သည် - အချိန်ကန့်သတ်ထားသော မေးခွန်းဟောင်း အစုံအလင် စာစောင် နှစ်ခု၊ ၎င်းတို့ကြား နားရက် တစ်ရက် ခြားပြီး၊ တစ်ခုစီကို ချက်ချင်းလိုက် တရားဝင် Mark Scheme ကို အသုံးပြု၍ ဂရုတစိုက် ကိုယ်တိုင် အမှတ်ပေးခြင်း လုပ်ငန်းစဉ် လိုက်ပါခြင်း၊ အကြောင်းမှာ မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ တွေ့မြင်ခြင်းသည် ရမှတ်ကိုယ်တိုင်ထက် ပို၍ တန်ဖိုးရှိသောကြောင့်ဖြစ်သည်။ စာစောင်များကြား ရက်များတွင် ရှင်သန့်သည် အားလုံးကို အစအဆုံး ပြန်လည် လေ့လာမည့်အစား တန်းလေးတန်းအတွင်း ကိုဇော်နှင့်အတူ လုပ်ငန်းစဉ်တစ်လျှောက် တည်ဆောက်ထားသော ဆက်တိုက် အားနည်းချက် အချက်များ သီးသန့် စာရင်းကိုသာ ပြန်လည် ကြည့်ရှုမည် ဖြစ်သည်။ ဤသည်သည် သူမ မျှော်လင့်ခဲ့သည်ထက် လေ့လာမှု နည်းသည်ဟု ခံစားရသည်ဟု ရှင်သန့် ဝန်ခံခဲ့သော်လည်း ဤအဆင့်တွင် အမှန်တကယ် စာမေးပွဲ အခြေအနေများအောက် ပစ်မှတ်ထား လေ့ကျင့်ခြင်းသည် Passive ပြန်ဖတ်ခြင်း မည်မျှပင် လုပ်သည်ဖြစ်စေ ၎င်းထက် တစ်နာရီလျှင် ပို၍ များစွာ သင်ပေးနိုင်ကြောင်း ကိုဇော် သူမကို အာမခံပေးခဲ့သည် -- ၎င်းသည် အဌမတန်းကတည်းက စမ်းသပ်မှု ဒီဇိုင်းက သူမကို သင်ကြားပေးခဲ့သော အတိအကျ သင်ခန်းစာ ဖြစ်သည် - တိုးတက်ရန် လိုအပ်ဆဲ ရှိသော Variable တစ်ခုတည်းမှလွဲ၍ အခြား အားလုံးကို ထိန်းချုပ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Zaw advise against cramming brand-new topics in the final week?",
+            questionMy:
+                "နောက်ဆုံးအပတ်တွင် ခေါင်းစဉ်သစ်များကို အလွတ်ကျက်ခြင်းကို ဆန့်ကျင် ကိုဇော် အကြံပေးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It produces shallow, easily confused knowledge under exam pressure, riskier than deepening secure topics",
+              "New topics are always too easy to learn quickly",
+              "The exam never actually covers new topics",
+              "It guarantees a perfect score every time",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ ဖိအားအောက်တွင် ရေမျက်နှာပြင်ပေါ်ရှိ၊ လွယ်ကူစွာ ရောထွေးသွားနိုင်သော ဗဟုသုတ ထုတ်ပေးပြီး လုံခြုံစွာ သိပြီးသား ခေါင်းစဉ်များကို နက်ရှိုင်းစေခြင်းထက် အန္တရာယ် ပိုများသောကြောင့်",
+              "ခေါင်းစဉ်သစ်များသည် လျင်မြန်စွာ သင်ယူရန် အမြဲ လွယ်ကူလွန်းသောကြောင့်",
+              "စာမေးပွဲသည် ခေါင်းစဉ်သစ်များကို အမှန်တကယ် ဘယ်တော့မှ လွှမ်းခြုံခြင်း မရှိသောကြောင့်",
+              "အကြိမ်တိုင်း ပြီးပြည့်စုံသော ရမှတ်ကို အာမခံသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the first common mistake."],
+            hintsMy: ["ပထမ ဘုံအမှားအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was self-marking with the official mark scheme especially valuable?",
+            questionMy:
+                "တရားဝင် Mark Scheme ဖြင့် ကိုယ်တိုင် အမှတ်ပေးခြင်းသည် အထူးတန်ဖိုးရှိရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Seeing exactly which mark points were missed was more valuable than the score itself",
+              "It was the fastest way to finish studying",
+              "It replaced the need for any timed practice",
+              "It guaranteed a higher score on the real exam automatically",
+            ],
+            optionsMy: [
+              "မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ တွေ့မြင်ခြင်းသည် ရမှတ်ကိုယ်တိုင်ထက် ပို၍ တန်ဖိုးရှိသောကြောင့်",
+              "လေ့လာခြင်းကို အမြန်ဆုံး ပြီးမြောက်စေသော နည်းလမ်း ဖြစ်ခဲ့သောကြောင့်",
+              "အချိန်ကန့်သတ်ထားသော လေ့ကျင့်ခန်း မည်သည့်အခါမျှ မလိုအပ်စေခြင်း အစား ဝင်ခဲ့သောကြောင့်",
+              "အမှန်တကယ် စာမေးပွဲတွင် ပိုမြင့်သော ရမှတ်ကို အလိုအလျောက် အာမခံသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why self-marking was valuable.",
+            ],
+            hintsMy: [
+              "ကိုယ်တိုင် အမှတ်ပေးခြင်း အဘယ်ကြောင့် တန်ဖိုးရှိကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what earlier lesson from Term 8 did Ko Zaw connect to exam preparation strategy?",
+            questionMy:
+                "စာမေးပွဲ ပြင်ဆင်ရေး မဟာဗျူဟာနှင့် ကိုဇော် ချိတ်ဆက်ခဲ့သော အဌမတန်းမှ ယခင် သင်ခန်းစာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Controlling everything except the one variable that still needs improving",
+              "Always using a burette instead of a measuring cylinder",
+              "Never repeating any measurement",
+              "Testing for gases with a lit splint",
+            ],
+            optionsMy: [
+              "တိုးတက်ရန် လိုအပ်ဆဲ ရှိသော Variable တစ်ခုတည်းမှလွဲ၍ အခြား အားလုံးကို ထိန်းချုပ်ခြင်း",
+              "Measuring Cylinder အစား Burette ကို အမြဲ အသုံးပြုခြင်း",
+              "တိုင်းတာမှု မည်သည်ကိုမျှ ဘယ်တော့မှ ထပ်မလုပ်ခြင်း",
+              "မီးထွန်းထားသော ကျစျေးတုတ်ဖြင့် ဓာတ်ငွေ့များ စမ်းသပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Exam Strategy",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - စာမေးပွဲ မဟာဗျူဟာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the final exam week, Ko Zaw advised focusing practice time on...",
+          questionMy:
+              "စာမေးပွဲ နောက်ဆုံးအပတ်တွင် လေ့ကျင့်ချိန်ကို ...အပေါ် အာရုံစိုက်ရန် ကိုဇော် အကြံပေးခဲ့သည်",
+          optionsEn: [
+            "Recurring personal weak points",
+            "Only brand-new, never-seen topics",
+            "Random unrelated subjects",
+            "Nothing at all -- pure rest",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် ကိုယ်ပိုင် အားနည်းချက် အချက်များ",
+            "အသစ်၊ တစ်ခါမှ မမြင်ဘူးသေးသော ခေါင်းစဉ်များသာ",
+            "မသက်ဆိုင်သော ကျပန်း ဘာသာရပ်များ",
+            "မည်သည့်အရာမျှ မရှိပါ -- စင်ကြယ်သော အနားယူမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Self-marking with the official mark scheme is valuable because it shows...",
+          questionMy:
+              "တရားဝင် Mark Scheme ဖြင့် ကိုယ်တိုင် အမှတ်ပေးခြင်းသည် ...ပြသသောကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Exactly which mark points were missed",
+            "Only the final total score",
+            "Nothing useful at all",
+            "The exam board's home address",
+          ],
+          optionsMy: [
+            "မည်သည့် Mark Point များ လွတ်သွားကြောင်း အတိအကျ",
+            "နောက်ဆုံး စုစုပေါင်း ရမှတ်သာ",
+            "အသုံးဝင်သော အရာ လုံးဝ မရှိပါ",
+            "စာမေးပွဲအဖွဲ့၏ အိမ်လိပ်စာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Timed past papers help train the skill of...",
+          questionMy:
+              "အချိန်ကန့်သတ်ထားသော မေးခွန်းဟောင်းများသည် ...ကျွမ်းကျင်မှုကို လေ့ကျင့်ရန် ကူညီသည်",
+          optionsEn: [
+            "Retrieving knowledge quickly under time pressure",
+            "Memorising the mark scheme word for word",
+            "Avoiding all calculations",
+            "Skipping every difficult question",
+          ],
+          optionsMy: [
+            "အချိန်ဖိအားအောက်တွင် ဗဟုသုတ လျင်မြန်စွာ ပြန်လည်ထုတ်ယူခြင်း",
+            "Mark Scheme ကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+            "တွက်ချက်မှုအားလုံးကို ရှောင်ရှားခြင်း",
+            "ခက်ခဲသော မေးခွန်းတိုင်းကို ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 36 (Capstone): "IGCSE Chemistry Graduation"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek36 = CourseWeekDef(
+  id: "course-igcse-chem-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Chemistry Graduation",
+  titleMy: "IGCSE ဓာတုဗေဒ ဘွဲ့နှင်းသဘင် အထိမ်းအမှတ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w36-d1",
+      dayNumber: 1,
+      titleEn: "Whole-Course Review: Terms 1-5",
+      titleMy: "သင်တန်းတစ်ခုလုံး ပြန်လည်သုံးသပ်ခြင်း - ပထမ-ပဉ္စမနှစ်ဝက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During diffusion, particles move from a region of high concentration to low concentration due to...",
+          questionMy:
+              "Diffusion အတွင်း အမှုန်များသည် ...ကြောင့် သိပ်သည်းဆမြင့်ရာမှ နိမ့်ရာသို့ ရွေ့လျားသည်",
+          optionsEn: [
+            "Random particle motion",
+            "Gravity alone",
+            "Chemical reaction",
+            "Magnetic forces",
+          ],
+          optionsMy: [
+            "ကျပန်း အမှုန် ရွေ့လျားမှု",
+            "ဆွဲငင်အား တစ်ခုတည်း",
+            "ဓာတုဗေဒ ဓာတ်ပြုမှု",
+            "သံလိုက်အား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In electrolysis, positive ions (cations) move toward and are discharged at which electrode?",
+          questionMy:
+              "Electrolysis တွင် Positive Ion (Cation) များသည် မည်သည့် Electrode ဘက်သို့ ရွေ့လျားကာ Discharge ဖြစ်သနည်း။",
+          optionsEn: [
+            "The cathode",
+            "The anode",
+            "Neither electrode",
+            "Both electrodes equally",
+          ],
+          optionsMy: [
+            "Cathode",
+            "Anode",
+            "Electrode မည်သည့်တစ်ခုမျှ",
+            "Electrode နှစ်ခုစလုံး ညီမျှစွာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which factor does NOT affect the rate of a chemical reaction?",
+          questionMy:
+              "ဓာတုဗေဒ ဓာတ်ပြုမှုတစ်ခု၏ နှုန်းကို မသက်ရောက်သော အချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "The colour of the container",
+            "Temperature",
+            "Concentration",
+            "Surface area",
+          ],
+          optionsMy: [
+            "ခွက်၏ အရောင်",
+            "အပူချိန်",
+            "Concentration",
+            "မျက်နှာပြင် ဧရိယာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Amphoteric oxides like aluminium oxide react with...",
+          questionMy:
+              "Aluminium Oxide ကဲ့သို့ Amphoteric Oxide များသည် ...နှင့် ဓာတ်ပြုသည်",
+          optionsEn: [
+            "Both acids and bases",
+            "Only acids",
+            "Only bases",
+            "Neither acids nor bases",
+          ],
+          optionsMy: [
+            "အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးစလုံး",
+            "အက်ဆစ်သာ",
+            "ဘေ့စ်သာ",
+            "အက်ဆစ်သော်လည်းကောင်း ဘေ့စ်သော်လည်းကောင်း မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: A-Level Chemistry Preview",
+      titleMy: "တွဲစပ်ကြမည် - A-Level ဓာတုဗေဒ အကြိုကြည့်ရှုခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w36-dm-1",
+          termEn: "Organic mechanisms",
+          termMy: "Organic Mechanisms",
+          matchEn:
+              "At A-Level, reactions are explained with curly arrows showing electron pair movement, building on IGCSE's naming and functional groups",
+          matchMy:
+              "A-Level တွင် ဓာတ်ပြုမှုများကို IGCSE ၏ အမည်ပေးခြင်းနှင့် Functional Group များအပေါ် တည်ဆောက်ကာ Electron အတွဲ ရွေ့လျားမှု ပြသော Curly Arrow များဖြင့် ရှင်းပြသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w36-dm-2",
+          termEn: "Equilibrium constant (Kc)",
+          termMy: "Equilibrium Constant (Kc)",
+          matchEn:
+              "At A-Level, Le Chatelier's qualitative predictions are extended into precise numerical calculations",
+          matchMy:
+              "A-Level တွင် Le Chatelier ၏ အရည်အသွေးဆိုင်ရာ ခန့်မှန်းချက်များကို တိကျသော ကိန်းဂဏန်းဆိုင်ရာ တွက်ချက်မှုများအဖြစ် ချဲ့ထွင်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w36-dm-3",
+          termEn: "Electron sub-shells",
+          termMy: "Electron Sub-Shells",
+          matchEn:
+              "At A-Level, IGCSE's simple electron shells are refined into s, p, and d sub-shells explaining the Periodic Table more deeply",
+          matchMy:
+              "A-Level တွင် IGCSE ၏ ရိုးရှင်းသော Electron အခွံများကို Periodic Table ကို ပို၍ နက်ရှိုင်းစွာ ရှင်းပြသော s, p, d Sub-Shell များအဖြစ် ပြင်ဆင်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w36-dm-4",
+          termEn: "Titration curves and pH calculations",
+          termMy: "Titration Curves နှင့် pH တွက်ချက်မှုများ",
+          matchEn:
+              "At A-Level, IGCSE's qualitative pH scale becomes quantitative, with numerical pH calculated from concentration",
+          matchMy:
+              "A-Level တွင် IGCSE ၏ အရည်အသွေးဆိုင်ရာ pH စကေးသည် Concentration မှ တွက်ချက်ထားသော ကိန်းဂဏန်း pH ဖြင့် အရေအတွက်ဆိုင်ရာ ဖြစ်လာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w36-dm-5",
+          termEn: "Enthalpy and entropy",
+          termMy: "Enthalpy နှင့် Entropy",
+          matchEn:
+              "At A-Level, IGCSE's exothermic/endothermic ideas expand into a fuller thermodynamic treatment of energy and disorder",
+          matchMy:
+              "A-Level တွင် IGCSE ၏ Exothermic/Endothermic အယူအဆများသည် စွမ်းအင်နှင့် မမှန်ဆန်မှု၏ ပြည့်စုံသော Thermodynamic ကုသမှုအဖြစ် ချဲ့ထွင်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Covered This?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် တန်းက ဤအရာကို ဖော်ပြခဲ့သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Term 1-4", "Term 5-6", "Term 7-8"],
+        bucketsMy: ["Term 1-4", "Term 5-6", "Term 7-8"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w36-sort-1",
+            labelEn:
+                "Balancing ionic equations and calculating relative atomic mass from isotopes",
+            labelMy:
+                "Ionic ညီမျှခြင်းများ ချိန်ညှိခြင်းနှင့် Isotope များမှ ဆွေမျိုးအက်တမ်ထုထည် တွက်ချက်ခြင်း",
+            correctBucketEn: "Term 1-4",
+            correctBucketMy: "Term 1-4",
+          ),
+          SortingItem(
+            id: "igcsechem-w36-sort-2",
+            labelEn:
+                "Choosing a salt preparation method and explaining periodic reactivity trends",
+            labelMy:
+                "ဆားပြင်ဆင်ရေး နည်းလမ်း ရွေးချယ်ခြင်းနှင့် Periodic ဓာတ်ပြုနိုင်စွမ်း လမ်းကြောင်းများ ရှင်းပြခြင်း",
+            correctBucketEn: "Term 5-6",
+            correctBucketMy: "Term 5-6",
+          ),
+          SortingItem(
+            id: "igcsechem-w36-sort-3",
+            labelEn:
+                "Distinguishing addition and condensation polymerisation, and performing qualitative analysis tests",
+            labelMy:
+                "Addition နှင့် Condensation Polymerisation ကို ခွဲခြားခြင်းနှင့် Qualitative Analysis စမ်းသပ်မှုများ လုပ်ဆောင်ခြင်း",
+            correctBucketEn: "Term 7-8",
+            correctBucketMy: "Term 7-8",
+          ),
+          SortingItem(
+            id: "igcsechem-w36-sort-4",
+            labelEn:
+                "Explaining metal displacement using the reactivity series and preventing corrosion",
+            labelMy:
+                "Reactivity Series ကို အသုံးပြု၍ သတ္တု Displacement ရှင်းပြခြင်းနှင့် ကြေဆွေးခြင်းကို ကာကွယ်ခြင်း",
+            correctBucketEn: "Term 5-6",
+            correctBucketMy: "Term 5-6",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Full Circle",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ စက်ဝိုင်း ပြည့်စုံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Full Circle",
+        titleMy: "ရှင်သန့်၏ စက်ဝိုင်း ပြည့်စုံခြင်း",
+        passageEn:
+            "On the morning after her IGCSE Chemistry exam, Shin Thant met Ko Zaw one last time, not to study, but simply to talk. She realised, looking back, that the entire nine-term course had actually been telling one continuous story about matter, even though it had never felt that way week to week.\n\nIt had begun with a bottle of perfume in a quiet classroom, diffusing outward as invisible particles in constant, random motion -- the very first idea, kinetic particle theory, that quietly underpinned everything that followed. That same particle-level thinking explained why heating a solid eventually broke the forces holding its structure together, why a catalyst could speed up a collision without being consumed, why atoms rearranged their electrons during bonding, and why a more reactive metal could displace a less reactive one from solution. Nothing in nine terms had ever really been a new subject, she realized; every unit had simply been the same handful of particle-level ideas, reapplied to a new context -- acids, salts, electrolysis, metals, organic molecules, polymers -- dressed up in different vocabulary each time.",
+        passageMy:
+            "သူမ၏ IGCSE ဓာတုဗေဒ စာမေးပွဲ ဖြေဆိုပြီးသည့် နောက်နေ့ မနက်တွင် ရှင်သန့်သည် ကိုဇော်နှင့် နောက်ဆုံးတစ်ကြိမ် တွေ့ဆုံခဲ့သည်၊ စာလေ့လာရန် မဟုတ်ဘဲ ရိုးရိုးရှင်းရှင်း စကားပြောရန် ဖြစ်သည်။ ပြန်ကြည့်လိုက်သောအခါ တန်းကိုးတန်းလုံး သင်တန်းသည် ဒြပ်ဝတ္ထုအကြောင်း တစ်ဆက်တည်း ဇာတ်လမ်းတစ်ခုကို အမှန်တကယ် ပြောပြနေခဲ့ကြောင်း သူမ သိရှိခဲ့သည်၊ ဤသို့ ခံစားခဲ့ရဖူးခြင်း တစ်ကြိမ်မျှ မရှိသေးသော်လည်းတည်း။\n\n၎င်းသည် တိတ်ဆိတ်သော စာသင်ခန်းတစ်ခုရှိ ရေမွှေးဘူးတစ်ခုနှင့် စတင်ခဲ့ပြီး ချောင်ခြင်း မရှိသော၊ ကျပန်း ရွေ့လျားမှုတွင်ရှိသော မမြင်ရသော အမှုန်များအဖြစ် ပျံ့နှံ့သွားခဲ့သည် -- ၎င်းသည် Kinetic Particle Theory ဟူသော ပထမဆုံး အယူအဆတစ်ခု ဖြစ်ပြီး ၎င်းနောက်ပါ လာသမျှ အားလုံးကို တိတ်တဆိတ် အခြေခံခဲ့သည်။ ထို အမှုန်အဆင့် တွေးခေါ်မှုတစ်ခုတည်းက အစိုင်အခဲတစ်ခုကို အပူပေးခြင်းက ၎င်း၏ ဖွဲ့စည်းပုံကို ထိန်းထားသော အားများကို နောက်ဆုံးတွင် အဘယ်ကြောင့် ချိုးဖျက်ခဲ့ရကြောင်း၊ Catalyst တစ်ခုက ကိုယ်တိုင် သုံးစွဲမခံရဘဲ ထိတွေ့မှုကို အဘယ်ကြောင့် အရှိန်မြှင့်ပေးနိုင်ခဲ့ကြောင်း၊ Bonding အတွင်း အက်တမ်များသည် ၎င်းတို့၏ Electron များကို အဘယ်ကြောင့် ပြန်လည် စီစဉ်ခဲ့ကြောင်းနှင့် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော သတ္တုတစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း နည်းသော သတ္တုတစ်ခုကို ပျော်ရည်မှ အဘယ်ကြောင့် နေရာလွှဲပြောင်းနိုင်ကြောင်းကို ရှင်းပြခဲ့သည်။ တန်းကိုးတန်းအတွင်း မည်သည့်အရာမျှ ဘာသာရပ်အသစ် တကယ့်တကယ် ဘယ်တော့မှ မဖြစ်ခဲ့ကြောင်း သူမ သိရှိခဲ့သည်; ယူနစ်တိုင်းသည် အက်ဆစ်များ၊ ဆားများ၊ Electrolysis၊ သတ္တုများ၊ Organic မော်လီကျူးများ၊ ပိုလီမာများ -- အခြေအနေသစ်တွင် ထပ်ခါထပ်ခါ အသုံးချထားသော အမှုန်အဆင့် အယူအဆ လက်တစ်ဆုပ်စာသာ ဖြစ်ပြီး အကြိမ်တိုင်း ကွဲပြားသော ဝေါဟာရဖြင့် ဝတ်ဆင်ထားရုံသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what realization did Shin Thant have about the entire nine-term course?",
+            questionMy:
+                "တန်းကိုးတန်းလုံး သင်တန်းအကြောင်း ရှင်သန့် သိရှိခဲ့သော အသိကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had actually been telling one continuous story about matter and particles",
+              "Every term was completely unrelated to every other term",
+              "The course had no underlying structure at all",
+              "She had learned nothing useful from it",
+            ],
+            optionsMy: [
+              "ဒြပ်ဝတ္ထုနှင့် အမှုန်များအကြောင်း တစ်ဆက်တည်း ဇာတ်လမ်းတစ်ခုကို အမှန်တကယ် ပြောပြနေခဲ့ကြောင်း",
+              "တန်းတိုင်းသည် အခြား တန်းတိုင်းနှင့် လုံးဝ မဆက်နွှယ်ကြောင်း",
+              "သင်တန်းတွင် အခြေခံ ဖွဲ့စည်းပုံ လုံးဝ မရှိကြောင်း",
+              "၎င်းမှ အသုံးဝင်သည့်အရာ မည်သည်ကိုမျှ မသင်ယူခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ပထမဆုံး စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what single idea did Shin Thant identify as underpinning everything else in the course?",
+            questionMy:
+                "သင်တန်းရှိ အခြား အားလုံးကို အခြေခံသည်ဟု ရှင်သန့် ဖော်ထုတ်ခဲ့သော အယူအဆတစ်ခုတည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Kinetic particle theory -- particle-level thinking",
+              "The exact colour of every chemical tested",
+              "The price of laboratory equipment",
+              "The alphabetical order of element names",
+            ],
+            optionsMy: [
+              "Kinetic Particle Theory -- အမှုန်အဆင့် တွေးခေါ်မှု",
+              "စမ်းသပ်ထားသော ဓာတုပစ္စည်းတိုင်း၏ အတိအကျ အရောင်",
+              "ဓာတ်ခွဲခန်းသုံး ကိရိယာများ၏ ဈေးနှုန်း",
+              "ဒြပ်စင် အမည်များ၏ အက္ခရာစဉ် အစီအစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence naming the idea that underpinned everything else.",
+            ],
+            hintsMy: [
+              "အခြား အားလုံးကို အခြေခံသော အယူအဆကို အမည်တပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Shin Thant conclude about the nine terms of topics?",
+            questionMy:
+                "တန်းကိုးတန်း ခေါင်းစဉ်များအကြောင်း ရှင်သန့် ကောက်ချက်ချခဲ့သည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They were the same handful of particle-level ideas reapplied to new contexts with different vocabulary",
+              "Each term used a completely different, unrelated set of laws of physics",
+              "Only the final term actually mattered",
+              "None of the terms connected to each other in any way",
+            ],
+            optionsMy: [
+              "အကြိမ်တိုင်း ကွဲပြားသော ဝေါဟာရဖြင့် အခြေအနေသစ်တွင် ထပ်ခါထပ်ခါ အသုံးချထားသော အမှုန်အဆင့် အယူအဆ လက်တစ်ဆုပ်စာသာ ဖြစ်ကြောင်း",
+              "တန်းတိုင်းသည် လုံးဝ ကွဲပြား၍ မဆက်နွှယ်သော ရူပဗေဒ ဥပဒေများကို အသုံးပြုခဲ့ကြောင်း",
+              "နောက်ဆုံးတန်းသာ အမှန်တကယ် အရေးပါခဲ့ကြောင်း",
+              "တန်းတစ်ခုမျှ မည်သည့်နည်းနှင့်မျှ တစ်ခုနှင့်တစ်ခု မဆက်နွှယ်ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Chemistry Final Capstone",
+      titleMy: "IGCSE ဓာတုဗေဒ နောက်ဆုံး Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 20,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Every unit across all nine terms of this course ultimately built on which single foundational idea?",
+          questionMy:
+              "ဤသင်တန်း တန်းကိုးတန်းလုံးရှိ ယူနစ်တိုင်းသည် နောက်ဆုံးတွင် မည်သည့် အခြေခံ အယူအဆတစ်ခုတည်းအပေါ် တည်ဆောက်ထားသနည်း။",
+          optionsEn: [
+            "Kinetic particle theory -- the behaviour of particles in constant motion",
+            "The colour of universal indicator",
+            "The price of laboratory chemicals",
+            "The names of famous chemists",
+          ],
+          optionsMy: [
+            "Kinetic Particle Theory -- ဆက်တိုက် ရွေ့လျားနေသော အမှုန်များ၏ အမူအကျင့်",
+            "Universal Indicator ၏ အရောင်",
+            "ဓာတ်ခွဲခန်းသုံး ဓာတုပစ္စည်းများ၏ ဈေးနှုန်း",
+            "နာမည်ကျော် ဓာတုဗေဒပညာရှင်များ၏ အမည်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student preparing an insoluble salt should use which method?",
+          questionMy:
+              "မပျော်ဝင်သော ဆားတစ်ခု ပြင်ဆင်နေသော ကျောင်းသားတစ်ဦးသည် မည်သည့် နည်းလမ်းကို အသုံးပြုသင့်သနည်း။",
+          optionsEn: ["Precipitation", "Titration", "Fermentation", "Cracking"],
+          optionsMy: ["Precipitation", "Titration", "Fermentation", "Cracking"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Addition polymerisation requires monomers containing a...",
+          questionMy:
+              "Addition Polymerisation တွင် ...ပါဝင်သော Monomer များ လိုအပ်သည်",
+          optionsEn: [
+            "C=C double bond",
+            "-COOH group only",
+            "No functional group",
+            "A metal ion",
+          ],
+          optionsMy: [
+            "C=C Double Bond",
+            "-COOH အုပ်စုသာ",
+            "Functional Group မရှိခြင်း",
+            "သတ္တု Ion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-designed experiment changes only the independent variable while keeping all...",
+          questionMy:
+              "ကောင်းစွာ ဒီဇိုင်းဆွဲထားသော စမ်းသပ်မှုတစ်ခုသည် ...အားလုံးကို တည်ငြိမ်စွာ ထားရင်း Independent Variable တစ်ခုတည်းကိုသာ ပြောင်းလဲသည်",
+          optionsEn: [
+            "Control variables",
+            "Dependent variables",
+            "Random variables",
+            "Nothing at all",
+          ],
+          optionsMy: [
+            "Control Variable",
+            "Dependent Variable",
+            "Random Variable",
+            "မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking ahead to A-Level Chemistry, IGCSE's simple electron shells are refined into which more detailed model?",
+          questionMy:
+              "A-Level ဓာတုဗေဒကို ရှေ့ဆက်ကြည့်လျှင် IGCSE ၏ ရိုးရှင်းသော Electron အခွံများကို ပို၍ အသေးစိတ်သော မည်သည့် မော်ဒယ်အဖြစ် ပြင်ဆင်သနည်း။",
+          optionsEn: [
+            "s, p, and d sub-shells",
+            "Only whole-number shells",
+            "Colour-coded shells",
+            "No electron model at all",
+          ],
+          optionsMy: [
+            "s, p, d Sub-Shell များ",
+            "ကိန်းပြည့် အခွံများသာ",
+            "အရောင်ဖြင့် သတ်မှတ်ထားသော အခွံများ",
+            "Electron မော်ဒယ် လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -11977,9 +13438,27 @@ const CourseTermDef igcseChemistryTerm8 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-8 of 9 authored so far (Term 9 to
-/// follow: Exam Prep & Graduation). `totalWeeks: 36` reflects the full
-/// 9-term aspirational course length.
+const CourseTermDef igcseChemistryTerm9 = CourseTermDef(
+  id: "course-igcse-chem-term9",
+  termNumber: 9,
+  titleEn: "Exam Prep & Final Countdown",
+  titleMy: "စာမေးပွဲ ပြင်ဆင်ခြင်းနှင့် နောက်ဆုံး ရေတွက်ချိန်",
+  certificateTitleEn: "IGCSE Chemistry Graduation Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ ဘွဲ့နှင်းသဘင် အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek33,
+    _igcseChemWeek34,
+    _igcseChemWeek35,
+    _igcseChemWeek36,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- complete, all 9 terms authored (36 weeks /
+/// 180 daily lessons), spanning states of matter and atomic structure
+/// through acids/bases/periodic table, metals and environmental
+/// chemistry, organic chemistry, experimental skills and qualitative
+/// analysis, and a Week 36 graduation capstone previewing A-Level
+/// Chemistry.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -12000,5 +13479,6 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm6,
     igcseChemistryTerm7,
     igcseChemistryTerm8,
+    igcseChemistryTerm9,
   ],
 );
