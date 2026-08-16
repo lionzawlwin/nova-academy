@@ -122290,20 +122290,1500 @@ const CourseTermDef _igcseMathematicsTerm6 = CourseTermDef(
   ],
 );
 
+// =====================================================================
+// IGCSE Mathematics -- Term 7: "Advanced Modelling and Problem
+// Solving" (Weeks 25-28). Week 25 covers real-world exponential
+// modelling; Week 26 covers geometric proofs of congruence and
+// similarity; Week 27 covers surds and exact arithmetic; Week 28 is
+// the capstone mathematical investigation project.
+// =====================================================================
+
+const CourseWeekDef _igcseMathematicsWeek25 = CourseWeekDef(
+  id: "course-igcse-mathematics-w25",
+  weekNumber: 25,
+  titleEn: "Real-World Mathematical Modeling",
+  titleMy: "လက်တွေ့ဘဝ သင်္ချာ ပုံဖော်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w25-d1",
+      dayNumber: 1,
+      titleEn: "Exponential Growth, Decay, and Financial Models",
+      titleMy: "Exponential Growth, Decay, Financial Models",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A population grows according to P = 200 × (1.05)ᵗ. What does the base 1.05 represent?",
+          questionMy:
+              "Population တစ်ခုသည် P = 200 × (1.05)ᵗ အတိုင်း ကြီးထွားသည်။ Base 1.05 သည် ဘာကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "A 5% growth rate per time period",
+            "A 105% loss per period",
+            "The starting population",
+            "The time in years",
+          ],
+          optionsMy: [
+            "ကာလတစ်ခုလျှင် 5% ကြီးထွားနှုန်း",
+            "ကာလတစ်ခုလျှင် 105% ဆုံးရှုံးမှု",
+            "စတင်သော Population",
+            "နှစ်အတွင်းရှိ အချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Growth factors are written as (1 + rate). Here 1.05 = 1 + 0.05, so the rate is 5%.",
+          ],
+          hintsMy: [
+            "Growth Factor များကို (1 + Rate) ဟု ရေးသည်။ ဤနေရာတွင် 1.05 = 1 + 0.05 ဖြစ်၍ Rate သည် 5% ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A radioactive sample decays according to M = 80 × (0.9)ᵗ, where t is in years. What is the mass after 2 years?",
+          questionMy:
+              "Radioactive နမူနာတစ်ခုသည် M = 80 × (0.9)ᵗ အတိုင်း ဆုတ်ယုတ်သည်၊ t သည် နှစ်ဖြင့် ဖြစ်သည်။ ၂ နှစ်ကြာပြီးနောက် Mass သည် အဘယ်နည်း။",
+          optionsEn: ["64.8", "72", "56", "80"],
+          optionsMy: ["64.8", "72", "56", "80"],
+          correctIndex: 0,
+          hintsEn: ["M = 80 × (0.9)² = 80 × 0.81 = 64.8."],
+          hintsMy: ["M = 80 × (0.9)² = 80 × 0.81 = 64.8 ဖြစ်သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An investment of \$2000 grows at 4% compound interest per year. What formula gives the value after t years?",
+          questionMy:
+              "ရင်းနှီးမြှုပ်နှံမှု ဒေါ်လာ 2000 သည် တစ်နှစ်လျှင် Compound Interest 4% ဖြင့် ကြီးထွားသည်။ t နှစ်ကြာပြီးနောက် တန်ဖိုးကို ပေးသော Formula သည် အဘယ်နည်း။",
+          optionsEn: [
+            "V = 2000 × (1.04)ᵗ",
+            "V = 2000 × (0.04)ᵗ",
+            "V = 2000 + 4t",
+            "V = 2000 × 4ᵗ",
+          ],
+          optionsMy: [
+            "V = 2000 × (1.04)ᵗ",
+            "V = 2000 × (0.04)ᵗ",
+            "V = 2000 + 4t",
+            "V = 2000 × 4ᵗ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compound growth uses value × (1 + rate)ᵗ. Rate = 0.04, so multiplier is (1.04)ᵗ.",
+          ],
+          hintsMy: [
+            "Compound Growth သည် Value × (1 + Rate)ᵗ ကို သုံးသည်။ Rate = 0.04 ဖြစ်၍ Multiplier သည် (1.04)ᵗ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A car worth \$15000 depreciates by 12% per year. Which model correctly predicts its value?",
+          questionMy:
+              "ဒေါ်လာ 15000 တန်ဖိုးရှိသော ကားတစ်စီးသည် တစ်နှစ်လျှင် 12% Depreciate ဖြစ်သည်။ ၎င်း၏ တန်ဖိုးကို မှန်ကန်စွာ ခန့်မှန်းသော Model သည် အဘယ်နည်း။",
+          optionsEn: [
+            "V = 15000 × (0.88)ᵗ",
+            "V = 15000 × (1.12)ᵗ",
+            "V = 15000 - 12t",
+            "V = 15000 × (0.12)ᵗ",
+          ],
+          optionsMy: [
+            "V = 15000 × (0.88)ᵗ",
+            "V = 15000 × (1.12)ᵗ",
+            "V = 15000 - 12t",
+            "V = 15000 × (0.12)ᵗ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Depreciation uses (1 - rate). Rate = 0.12, so multiplier is (1 - 0.12) = 0.88.",
+          ],
+          hintsMy: [
+            "Depreciation သည် (1 - Rate) ကို သုံးသည်။ Rate = 0.12 ဖြစ်၍ Multiplier သည် (1 - 0.12) = 0.88 ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A modelling problem states a quantity is \"increasing without bound.\" Which type of model is most appropriate?",
+          questionMy:
+              "Modelling ပြဿနာတစ်ခုတွင် ပမာဏတစ်ခု \"အကန့်အသတ်မရှိ တိုးလာနေသည်\" ဟု ဖော်ပြသည်။ မည်သည့် Model အမျိုးအစား အသင့်တော်ဆုံး ဖြစ်သနည်း။",
+          optionsEn: [
+            "Exponential growth model",
+            "Exponential decay model",
+            "A model that always equals zero",
+            "A model with a fixed maximum value",
+          ],
+          optionsMy: [
+            "Exponential Growth Model",
+            "Exponential Decay Model",
+            "အမြဲ သုညနှင့် ညီမျှသော Model",
+            "အများဆုံး တန်ဖိုးပုံသေ ပါသော Model",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w25-d2",
+      dayNumber: 2,
+      titleEn: "Mathematical Modeling Vocabulary",
+      titleMy: "Mathematical Modeling ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w25-dm1",
+          termEn: "Exponential Growth",
+          termMy: "Exponential Growth",
+          matchEn:
+              "A quantity that increases by a fixed percentage each time period, modelled by (1+r)ᵗ",
+          matchMy:
+              "ကာလတစ်ခုစီတိုင်း ပုံသေ ရာခိုင်နှုန်းဖြင့် တိုးလာသော ပမာဏ, (1+r)ᵗ ဖြင့် ပုံဖော်သည်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w25-dm2",
+          termEn: "Exponential Decay",
+          termMy: "Exponential Decay",
+          matchEn:
+              "A quantity that decreases by a fixed percentage each time period, modelled by (1-r)ᵗ",
+          matchMy:
+              "ကာလတစ်ခုစီတိုင်း ပုံသေ ရာခိုင်နှုန်းဖြင့် ကျဆင်းသော ပမာဏ, (1-r)ᵗ ဖြင့် ပုံဖော်သည်",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w25-dm3",
+          termEn: "Growth Multiplier",
+          termMy: "Growth Multiplier",
+          matchEn:
+              "The value (1+r) used to represent growth of rate r in a model",
+          matchMy:
+              "Model တစ်ခုတွင် Rate r ၏ ကြီးထွားမှုကို ကိုယ်စားပြုရန် သုံးသော တန်ဖိုး (1+r)",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w25-dm4",
+          termEn: "Depreciation",
+          termMy: "Depreciation",
+          matchEn:
+              "The reduction in an asset's value over time, often modelled exponentially",
+          matchMy:
+              "အချိန်နှင့်အမျှ ပိုင်ဆိုင်မှုတစ်ခု၏ တန်ဖိုး လျော့ကျခြင်း, များသောအားဖြင့် Exponentially ပုံဖော်သည်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w25-dm5",
+          termEn: "Mathematical Model",
+          termMy: "Mathematical Model",
+          matchEn:
+              "An equation or formula that represents a real-world situation",
+          matchMy:
+              "လက်တွေ့ဘဝ အခြေအနေတစ်ခုကို ကိုယ်စားပြုသော Equation သို့ Formula",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w25-d3",
+      dayNumber: 3,
+      titleEn: "Growth or Decay Model?",
+      titleMy: "Growth or Decay Model?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Growth Model", "Decay Model"],
+        bucketsMy: ["Growth Model", "Decay Model"],
+        items: [
+          SortingItem(
+            id: "igm-w25-sort1",
+            labelEn: "A savings account earning compound interest",
+            labelMy: "Compound Interest ရရှိနေသော Savings Account",
+            correctBucketEn: "Growth Model",
+            correctBucketMy: "Growth Model",
+          ),
+          SortingItem(
+            id: "igm-w25-sort2",
+            labelEn: "A car's value falling each year",
+            labelMy: "နှစ်စဉ် ကျဆင်းနေသော ကား၏ တန်ဖိုး",
+            correctBucketEn: "Decay Model",
+            correctBucketMy: "Decay Model",
+          ),
+          SortingItem(
+            id: "igm-w25-sort3",
+            labelEn: "A bacteria colony doubling every hour",
+            labelMy: "တစ်နာရီစီ နှစ်ဆတိုးနေသော ဘက်တီးရီးယား Colony",
+            correctBucketEn: "Growth Model",
+            correctBucketMy: "Growth Model",
+          ),
+          SortingItem(
+            id: "igm-w25-sort4",
+            labelEn: "A radioactive substance losing mass over time",
+            labelMy: "အချိန်နှင့်အမျှ Mass ဆုံးရှုံးနေသော Radioactive ပစ္စည်း",
+            correctBucketEn: "Decay Model",
+            correctBucketMy: "Decay Model",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Savings Model",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ စုငွေ Model",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Savings Model",
+        titleMy: "ထက်ဝေယံ၏ စုငွေ Model",
+        passageEn:
+            "Htet Wai Yan's older sister had saved \$500 and wanted to know how long it would take to reach \$700 in a savings account paying 6% compound interest per year. Daw Su Su told him this was a genuine modelling problem: he first needed to translate the real situation into a mathematical model, then use that model to answer the actual question.\n\nHe wrote the model: V = 500 × (1.06)ᵗ, where V was the value after t years. To find when V = 700, he needed 500 × (1.06)ᵗ = 700. Rather than solving this algebraically (which required logarithms he hadn't yet studied), Daw Su Su suggested a systematic trial approach: he calculated V for t = 1, 2, 3... in turn. At t=5: V = 500 × (1.06)⁵ ≈ 669.11. At t=6: V = 500 × (1.06)⁶ ≈ 709.26. Since the account exceeded \$700 partway through year 6, Htet Wai Yan concluded it would take 6 full years for the balance to reach or exceed \$700.\n\nDaw Su Su then asked a conceptual follow-up: would doubling the interest rate to 12% roughly halve the number of years needed? Htet Wai Yan tested it: at 12%, V = 500 × (1.12)³ ≈ 702.46, meaning only 3 years were needed instead of 6 -- so doubling the rate did, in this case, roughly halve the time. She explained this pattern held true across many, though not all, growth scenarios, and reminded him that a mathematical model was only useful if he correctly interpreted what the model's output meant in the real, original context -- a balance of \$700 reached partway through a year, in practice, meant waiting the full sixth year.",
+        passageMy:
+            "ထက်ဝေယံ၏ အစ်မကြီးသည် ဒေါ်လာ 500 စုဆောင်းထားပြီး တစ်နှစ်လျှင် Compound Interest 6% ပေးသော Savings Account တစ်ခုတွင် ဒေါ်လာ 700 ရောက်ရန် အချိန် မည်မျှ ကြာမည်ကို သိလိုသည်။ ဒေါ်စုစုသည် ၎င်းသည် စစ်မှန်သော Modelling ပြဿနာတစ်ခု ဖြစ်ကြောင်း သူ့ကို ပြောခဲ့သည် - သူ ဦးစွာ အမှန်တကယ် အခြေအနေကို သင်္ချာ Model တစ်ခုအဖြစ် ဘာသာပြန်ပြီး ထို Model ကို အသုံးပြု၍ အမှန်တကယ် မေးခွန်းကို ဖြေဆိုရန် လိုအပ်သည်။\n\nသူသည် Model ကို ရေးခဲ့သည် - V = 500 × (1.06)ᵗ, V သည် t နှစ်ကြာပြီးနောက် တန်ဖိုးဖြစ်သည်။ V = 700 ဖြစ်မည့် အချိန် ရှာဖွေရန် 500 × (1.06)ᵗ = 700 လိုအပ်သည်။ ၎င်းကို Algebraically ဖြေရှင်းမည့်အစား (သူ မလေ့လာရသေးသော Logarithm လိုအပ်သည်) ဒေါ်စုစုသည် စနစ်တကျ Trial ချဉ်းကပ်မှုတစ်ခုကို အကြံပြုခဲ့သည် - သူသည် t = 1, 2, 3... အလှည့်ကျ V ကို တွက်ချက်ခဲ့သည်။ t=5 တွင်: V = 500 × (1.06)⁵ ≈ 669.11။ t=6 တွင်: V = 500 × (1.06)⁶ ≈ 709.26။ Account သည် ၆ နှစ်မြောက် တစ်ဝက်တွင် ဒေါ်လာ 700 ကျော်လွန်ခဲ့သောကြောင့် Balance သည် ဒေါ်လာ 700 ရောက်ရန် (သို့) ကျော်လွန်ရန် နှစ် 6 နှစ်အပြည့် ကြာမည်ဟု ထက်ဝေယံ ကောက်ချက်ချခဲ့သည်။\n\nဒေါ်စုစုသည် ထို့နောက် Conceptual Follow-Up တစ်ခု မေးခဲ့သည် - Interest Rate ကို 12% အထိ နှစ်ဆတိုးလျှင် လိုအပ်သော နှစ်အရေအတွက်ကို ခန့်မှန်းချေ တစ်ဝက် လျှော့ချနိုင်မည်လား။ ထက်ဝေယံသည် ၎င်းကို စမ်းသပ်ခဲ့သည် - 12% တွင် V = 500 × (1.12)³ ≈ 702.46, ဆိုလိုသည်မှာ 6 နှစ်အစား 3 နှစ်သာ လိုအပ်ခဲ့သည် -- ထို့ကြောင့် ဤ Case တွင် Rate ကို နှစ်ဆတိုးခြင်းသည် အချိန်ကို ခန့်မှန်းချေ တစ်ဝက် လျော့ချပေးခဲ့သည်။ သူသည် ဤပုံစံသည် Growth Scenario အများစုတွင် (အားလုံးတွင်တော့ မဟုတ်ပါ) မှန်ကန်ကြောင်း ရှင်းပြခဲ့ပြီး သင်္ချာ Model တစ်ခုသည် Model ၏ Output ဆိုလိုသည်ကို အမှန်တကယ်၊ မူရင်း Context တွင် သူ မှန်ကန်စွာ အနက်ဖွင့်မှသာ အသုံးဝင်ကြောင်း သူ့ကို သတိပေးခဲ့သည် - နှစ်တစ်နှစ် တစ်ဝက်တွင် ရောက်ရှိသော Balance ဒေါ်လာ 700 သည် လက်တွေ့တွင် ဆဌမနှစ် အပြည့် စောင့်ဆိုင်းရမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many full years did Htet Wai Yan conclude were needed?",
+            questionMy:
+                "ထက်ဝေယံ နှစ်အပြည့် မည်မျှ လိုအပ်ကြောင်း ကောက်ချက်ချခဲ့သနည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["6 years", "5 years", "3 years", "12 years"],
+            optionsMy: [
+              "နှစ် ၆ နှစ်",
+              "နှစ် ၅ နှစ်",
+              "နှစ် ၃ နှစ်",
+              "နှစ် ၁၂ နှစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about when the balance exceeded \$700.",
+            ],
+            hintsMy: [
+              "Balance သည် ဒေါ်လာ 700 ကျော်လွန်ခဲ့သည့် အချိန်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how many years were needed at 12% interest?",
+            questionMy:
+                "Interest 12% တွင် နှစ် မည်မျှ လိုအပ်ခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["3 years", "6 years", "12 years", "1 year"],
+            optionsMy: [
+              "နှစ် ၃ နှစ်",
+              "နှစ် ၆ နှစ်",
+              "နှစ် ၁၂ နှစ်",
+              "နှစ် ၁ နှစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence testing 12% interest."],
+            hintsMy: [
+              "Interest 12% ကို စမ်းသပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what did Daw Su Su say a mathematical model was only useful for?",
+            questionMy:
+                "သင်္ချာ Model တစ်ခုသည် ဘာအတွက်သာ အသုံးဝင်ကြောင်း ဒေါ်စုစု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "If the model's output was correctly interpreted in the real, original context",
+              "If it used the biggest possible numbers",
+              "If it avoided any real-world application",
+              "If it was solved without a calculator",
+            ],
+            optionsMy: [
+              "Model ၏ Output ကို အမှန်တကယ်၊ မူရင်း Context တွင် မှန်ကန်စွာ အနက်ဖွင့်ပါက",
+              "ဖြစ်နိုင်သမျှ အကြီးဆုံး ဂဏန်းများကို သုံးပါက",
+              "လက်တွေ့ဘဝ Application မည်သည်ကိုမျှ ရှောင်ရှားပါက",
+              "Calculator မသုံးဘဲ ဖြေရှင်းပါက",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w25-d5",
+      dayNumber: 5,
+      titleEn: "Real-World Mathematical Modeling Recap Quiz",
+      titleMy: "Real-World Mathematical Modeling ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A growth model uses a multiplier of...",
+          questionMy: "Growth Model တစ်ခုသည် ...၏ Multiplier ကို သုံးသည်",
+          optionsEn: ["(1+r)", "(1-r)", "r", "1/r"],
+          optionsMy: ["(1+r)", "(1-r)", "r", "1/r"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A decay model uses a multiplier of...",
+          questionMy: "Decay Model တစ်ခုသည် ...၏ Multiplier ကို သုံးသည်",
+          optionsEn: ["(1-r)", "(1+r)", "r", "1/r"],
+          optionsMy: ["(1-r)", "(1+r)", "r", "1/r"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A quantity depreciating by 8% per year has a multiplier of...",
+          questionMy:
+              "တစ်နှစ်လျှင် 8% Depreciate ဖြစ်သော ပမာဏတစ်ခု၏ Multiplier သည်...",
+          optionsEn: ["0.92", "1.08", "0.08", "1.92"],
+          optionsMy: ["0.92", "1.08", "0.08", "1.92"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what mathematical model did Htet Wai Yan write for the savings account?",
+          questionMy:
+              "Savings Account အတွက် ထက်ဝေယံ မည်သည့် သင်္ချာ Model ရေးခဲ့သနည်း။",
+          optionsEn: [
+            "V = 500 × (1.06)ᵗ",
+            "V = 500 + 6t",
+            "V = 500 × (0.06)ᵗ",
+            "V = 700 × (1.06)ᵗ",
+          ],
+          optionsMy: [
+            "V = 500 × (1.06)ᵗ",
+            "V = 500 + 6t",
+            "V = 500 × (0.06)ᵗ",
+            "V = 700 × (1.06)ᵗ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 25?",
+          questionMy: "Week 25 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Exponential growth/decay models and financial mathematics",
+            "Matrix transformations",
+            "Composite and inverse functions",
+            "Circle theorems",
+          ],
+          optionsMy: [
+            "Exponential Growth/Decay Models, Financial Mathematics",
+            "Matrix Transformations",
+            "Composite and Inverse Functions",
+            "Circle Theorems",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek26 = CourseWeekDef(
+  id: "course-igcse-mathematics-w26",
+  weekNumber: 26,
+  titleEn: "Geometric Proofs and Congruence/Similarity",
+  titleMy: "ဂျီဩမေတြီ သက်သေပြချက်များနှင့် ပုံတူ/ဆင်တူခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w26-d1",
+      dayNumber: 1,
+      titleEn: "Formal Proofs of Congruence and Similarity",
+      titleMy: "ပုံတူခြင်းနှင့် ဆင်တူခြင်း၏ တရားဝင် သက်သေပြချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Two triangles have three pairs of equal sides (SSS). What can be concluded?",
+          questionMy:
+              "တြိဂံနှစ်ခုတွင် အနားညီ သုံးစုံ (SSS) ရှိသည်။ ဘာကို ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "The triangles are congruent",
+            "The triangles are similar but not congruent",
+            "Nothing can be concluded",
+            "The triangles have equal area only",
+          ],
+          optionsMy: [
+            "တြိဂံများသည် Congruent ဖြစ်သည်",
+            "တြိဂံများသည် Similar သော်လည်း Congruent မဟုတ်ပါ",
+            "ဘာမှ ကောက်ချက်မချနိုင်ပါ",
+            "တြိဂံများသည် Area သာ ညီမျှသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "SSS (Side-Side-Side) is one of the standard congruence conditions -- it always guarantees congruence.",
+          ],
+          hintsMy: [
+            "SSS (Side-Side-Side) သည် စံပြ Congruence Condition များထဲက တစ်ခု ဖြစ်ပြီး ၎င်းသည် Congruence ကို အမြဲ အာမခံသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Triangle ABC has angles 40°, 60°, 80°. Triangle DEF has angles 40°, 60°, 80° but is a different size. What is the relationship between them?",
+          questionMy:
+              "Triangle ABC တွင် ထောင့် 40°, 60°, 80° ရှိသည်။ Triangle DEF တွင် ထောင့် 40°, 60°, 80° ရှိသော်လည်း အရွယ်အစား ကွဲပြားသည်။ ၎င်းတို့ကြား ဆက်ဆံရေးသည် အဘယ်နည်း။",
+          optionsEn: [
+            "They are similar (AA/AAA)",
+            "They are congruent",
+            "They have no relationship",
+            "They must have equal side lengths",
+          ],
+          optionsMy: [
+            "၎င်းတို့သည် Similar ဖြစ်သည် (AA/AAA)",
+            "၎င်းတို့သည် Congruent ဖြစ်သည်",
+            "၎င်းတို့ကြား ဆက်ဆံရေး မရှိပါ",
+            "၎င်းတို့သည် အနားအလျား ညီမျှရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Equal angles but different sizes means similar (same shape, different scale), not congruent (same shape and size).",
+          ],
+          hintsMy: [
+            "ထောင့်ညီပြီး အရွယ်အစား ကွဲပြားခြင်းသည် Congruent (ပုံသဏ္ဌာန်နှင့် အရွယ်အစား တူညီ) မဟုတ်ဘဲ Similar (ပုံသဏ္ဌာန်တူ၍ Scale ကွဲပြား) ကို ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two similar triangles have a linear scale factor of 3. What is the area scale factor?",
+          questionMy:
+              "Similar Triangle နှစ်ခုတွင် Linear Scale Factor 3 ရှိသည်။ Area Scale Factor သည် အဘယ်နည်း။",
+          optionsEn: ["9", "3", "6", "27"],
+          optionsMy: ["9", "3", "6", "27"],
+          correctIndex: 0,
+          hintsEn: ["Area scale factor = (linear scale factor)². Here 3² = 9."],
+          hintsMy: [
+            "Area Scale Factor = (Linear Scale Factor)²။ ဤနေရာတွင် 3² = 9။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two similar solids have a linear scale factor of 2. What is the volume scale factor?",
+          questionMy:
+              "Similar Solid နှစ်ခုတွင် Linear Scale Factor 2 ရှိသည်။ Volume Scale Factor သည် အဘယ်နည်း။",
+          optionsEn: ["8", "4", "2", "6"],
+          optionsMy: ["8", "4", "2", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "Volume scale factor = (linear scale factor)³. Here 2³ = 8.",
+          ],
+          hintsMy: [
+            "Volume Scale Factor = (Linear Scale Factor)³။ ဤနေရာတွင် 2³ = 8။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which condition proves two triangles congruent: two sides and the INCLUDED angle equal?",
+          questionMy:
+              "အနားနှစ်ခုနှင့် INCLUDED ထောင့် ညီမျှခြင်းက တြိဂံနှစ်ခု Congruent ဖြစ်ကြောင်း သက်သေပြသော Condition သည် အဘယ်နည်း။",
+          optionsEn: ["SAS", "SSA", "AAA", "ASA only"],
+          optionsMy: ["SAS", "SSA", "AAA", "ASA တစ်ခုတည်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "SAS = Side-Angle-Side, where the angle is between (included by) the two named sides.",
+          ],
+          hintsMy: [
+            "SAS = Side-Angle-Side, ထောင့်သည် အနားနှစ်ခုကြားတွင် ရှိသည် (Include ဖြစ်နေသည်)။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w26-d2",
+      dayNumber: 2,
+      titleEn: "Congruence and Similarity Vocabulary",
+      titleMy: "Congruence and Similarity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w26-dm1",
+          termEn: "Congruent",
+          termMy: "Congruent",
+          matchEn:
+              "Identical in shape and size -- one can be mapped exactly onto the other",
+          matchMy:
+              "ပုံသဏ္ဌာန်နှင့် အရွယ်အစား တူညီ -- တစ်ခုကို အခြားတစ်ခုအပေါ် အတိအကျ Map ပြုလုပ်နိုင်သည်",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w26-dm2",
+          termEn: "Similar",
+          termMy: "Similar",
+          matchEn:
+              "Identical in shape but a different size -- angles equal, sides in the same ratio",
+          matchMy:
+              "ပုံသဏ္ဌာန်တူသော်လည်း အရွယ်အစား ကွဲပြား -- ထောင့်များ ညီမျှပြီး အနားများ အချိုးတူ",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w26-dm3",
+          termEn: "SSS Congruence",
+          termMy: "SSS Congruence",
+          matchEn:
+              "Congruence proven because all three pairs of sides are equal",
+          matchMy:
+              "အနားညီ သုံးစုံလုံး ညီမျှသောကြောင့် သက်သေပြထားသော Congruence",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w26-dm4",
+          termEn: "Area Scale Factor",
+          termMy: "Area Scale Factor",
+          matchEn:
+              "The linear scale factor squared, giving the ratio of areas between similar shapes",
+          matchMy:
+              "Linear Scale Factor ၏ Squared, Similar ပုံသဏ္ဌာန်များကြား Area အချိုးကို ပေးသည်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w26-dm5",
+          termEn: "Volume Scale Factor",
+          termMy: "Volume Scale Factor",
+          matchEn:
+              "The linear scale factor cubed, giving the ratio of volumes between similar solids",
+          matchMy:
+              "Linear Scale Factor ၏ Cubed, Similar Solid များကြား Volume အချိုးကို ပေးသည်",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w26-d3",
+      dayNumber: 3,
+      titleEn: "Congruent or Similar?",
+      titleMy: "Congruent or Similar?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Congruent", "Similar (Not Congruent)"],
+        bucketsMy: ["Congruent", "Similar (Congruent မဟုတ်)"],
+        items: [
+          SortingItem(
+            id: "igm-w26-sort1",
+            labelEn: "Two triangles with identical side lengths and angles",
+            labelMy: "အနားအလျားနှင့် ထောင့်များ တူညီသော တြိဂံနှစ်ခု",
+            correctBucketEn: "Congruent",
+            correctBucketMy: "Congruent",
+          ),
+          SortingItem(
+            id: "igm-w26-sort2",
+            labelEn:
+                "Two triangles with the same angles but sides twice as long",
+            labelMy: "ထောင့်တူသော်လည်း အနားအလျား နှစ်ဆ ရှိသော တြိဂံနှစ်ခု",
+            correctBucketEn: "Similar (Not Congruent)",
+            correctBucketMy: "Similar (Congruent မဟုတ်)",
+          ),
+          SortingItem(
+            id: "igm-w26-sort3",
+            labelEn: "Two circles with the same radius",
+            labelMy: "Radius တူညီသော စက်ဝိုင်းနှစ်ခု",
+            correctBucketEn: "Congruent",
+            correctBucketMy: "Congruent",
+          ),
+          SortingItem(
+            id: "igm-w26-sort4",
+            labelEn: "A photograph and its enlarged poster print",
+            labelMy: "ဓာတ်ပုံတစ်ပုံနှင့် ၎င်း၏ ချဲ့ထားသော Poster",
+            correctBucketEn: "Similar (Not Congruent)",
+            correctBucketMy: "Similar (Congruent မဟုတ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Shadow Problem",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ အရိပ်ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Shadow Problem",
+        titleMy: "ထက်ဝေယံ၏ အရိပ်ပြဿနာ",
+        passageEn:
+            "Daw Su Su took Htet Wai Yan outside during a sunny lesson and set up a classic similarity problem: a 1.5m stick, held vertically, cast a 2m shadow. A nearby tree cast a 12m shadow at the exact same moment. She asked him to find the tree's height without measuring it directly.\n\nHtet Wai Yan reasoned that the stick and the tree, along with their shadows, formed two similar triangles -- the sun's rays hit both at the same angle, since they occurred at the same moment, meaning the angle at the top of both triangles was equal, and both triangles shared a right angle where the object met the ground. With two equal angles (AA), the triangles were similar, so their sides were in the same ratio: height/shadow was constant for both. He set up the proportion: 1.5/2 = h/12, and solved: h = (1.5 × 12)/2 = 18/2 = 9 metres.\n\nDaw Su Su then asked him to prove formally why the two triangles were similar, rather than just calculating the answer. He wrote out the proof: angle 1 (sun's ray to ground) was equal in both triangles since the sun's position was identical for both measurements taken at the same instant; angle 2 (the right angle where each object met the ground) was equal in both triangles by construction, since both the stick and tree stood vertically; therefore, by the AA (angle-angle) similarity condition, the triangles were similar, which justified using equal ratios between corresponding sides. She told him this was exactly the standard of rigor IGCSE Extended examiners expected: not just getting the right numerical answer, but formally justifying why the mathematical relationship used was valid in the first place.",
+        passageMy:
+            "ဒေါ်စုစုသည် နေရောင်ခြည် ထွက်နေသော သင်ခန်းစာတစ်ခုတွင် ထက်ဝေယံကို အပြင်သို့ ခေါ်ခဲ့ပြီး Classic Similarity ပြဿနာတစ်ခု စီစဉ်ခဲ့သည် - Vertically ကိုင်ထားသော 1.5m တုတ်တစ်ချောင်းသည် အရိပ် 2m ပစ်ခဲ့သည်။ အနီးရှိ သစ်ပင်တစ်ပင်သည် အတိအကျ တူညီသော အခိုက်အတန့်တွင် အရိပ် 12m ပစ်ခဲ့သည်။ သစ်ပင်၏ အမြင့်ကို တိုက်ရိုက် မတိုင်းတာဘဲ ရှာဖွေရန် သူ့ကို မေးခဲ့သည်။\n\nထက်ဝေယံသည် တုတ်နှင့် သစ်ပင် ၎င်းတို့၏ အရိပ်များနှင့်အတူ Similar Triangle နှစ်ခု ဖွဲ့စည်းကြောင်း ကျိုးကြောင်းဆင်ခြင်ခဲ့သည် -- နေရောင်ခြည်သည် အခိုက်အတန့်တူတူ ဖြစ်ပျက်ခဲ့သောကြောင့် နှစ်ခုစလုံးကို ထောင့်တူတူ ထိတွေ့ခဲ့ပြီး ဆိုလိုသည်မှာ Triangle နှစ်ခုစလုံး၏ ထိပ်ဆုံးရှိ ထောင့်သည် ညီမျှခဲ့ပြီး Triangle နှစ်ခုစလုံးသည် အရာဝတ္ထုသည် မြေနှင့် ထိတွေ့ရာတွင် ထောင့်မှန် တစ်ခုတည်း မျှဝေထားသည်။ ထောင့်ညီ နှစ်ခု (AA) ဖြင့် Triangle များသည် Similar ဖြစ်ခဲ့သဖြင့် ၎င်းတို့၏ အနားများသည် အချိုးတူ ဖြစ်ခဲ့သည် - Height/Shadow သည် နှစ်ခုစလုံးအတွက် ပုံသေ ဖြစ်သည်။ သူသည် Proportion ကို ချမှတ်ခဲ့သည် - 1.5/2 = h/12, ဖြေရှင်းခဲ့သည် - h = (1.5 × 12)/2 = 18/2 = Metre 9။\n\nဒေါ်စုစုသည် ထို့နောက် အဖြေကိုသာ တွက်ချက်မည့်အစား Triangle နှစ်ခု Similar ဖြစ်ကြောင်း တရားဝင် သက်သေပြရန် သူ့ကို မေးခဲ့သည်။ သူသည် သက်သေပြချက်ကို ရေးခဲ့သည် - Angle 1 (နေရောင်ခြည်မှ မြေသို့) သည် တစ်ချိန်တည်း ယူထားသော တိုင်းတာမှု နှစ်ခုအတွက် နေ၏ တည်နေရာ အတူတူ ဖြစ်ခဲ့သောကြောင့် Triangle နှစ်ခုစလုံးတွင် ညီမျှခဲ့သည်; Angle 2 (အရာဝတ္ထုတစ်ခုစီသည် မြေနှင့် ထိတွေ့ရာတွင် ထောင့်မှန်) သည် တုတ်နှင့် သစ်ပင် နှစ်ခုစလုံး Vertically ရပ်နေခဲ့သောကြောင့် Construction အားဖြင့် Triangle နှစ်ခုစလုံးတွင် ညီမျှခဲ့သည်; ထို့ကြောင့် AA (Angle-Angle) Similarity Condition အားဖြင့် Triangle များသည် Similar ဖြစ်ခဲ့ပြီး ၎င်းသည် သက်ဆိုင်ရာ အနားများကြား အချိုးညီများ သုံးခြင်းကို ခိုင်မာစေခဲ့သည်။ ၎င်းသည် IGCSE Extended စစ်ဆေးသူများ မျှော်လင့်ထားသော တင်းကျပ်မှု စံနှုန်း အတိအကျ ဖြစ်ကြောင်း သူ့ကို သူ ပြောခဲ့သည် - ဂဏန်းအဖြေမှန်ကန်ရုံသက်သက်မက သုံးထားသော သင်္ချာ ဆက်ဆံရေးသည် ဦးစွာ အဘယ်ကြောင့် ခိုင်မာကြောင်းကို တရားဝင် ခိုင်မာစေခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to paragraph 2, what was the tree's height?",
+            questionMy: "သစ်ပင်၏ အမြင့်သည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["9 metres", "12 metres", "1.5 metres", "18 metres"],
+            optionsMy: ["Metre 9", "Metre 12", "Metre 1.5", "Metre 18"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which similarity condition proved the two triangles similar?",
+            questionMy:
+                "Similarity Condition မည်သည်က Triangle နှစ်ခု Similar ဖြစ်ကြောင်း သက်သေပြခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["AA (angle-angle)", "SSS", "SAS", "RHS"],
+            optionsMy: ["AA (Angle-Angle)", "SSS", "SAS", "RHS"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence stating the similarity condition explicitly.",
+            ],
+            hintsMy: [
+              "Similarity Condition ကို ရှင်းရှင်းလင်းလင်း ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, what standard did Daw Su Su say IGCSE Extended examiners expected?",
+            questionMy:
+                "IGCSE Extended စစ်ဆေးသူများ မည်သည့် စံနှုန်း မျှော်လင့်ထားကြောင်း ဒေါ်စုစု ဆိုခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Formally justifying why the mathematical relationship used was valid",
+              "Only getting the right numerical answer with no explanation",
+              "Avoiding all formal proof entirely",
+              "Memorising answers without understanding",
+            ],
+            optionsMy: [
+              "သုံးထားသော သင်္ချာ ဆက်ဆံရေးသည် အဘယ်ကြောင့် ခိုင်မာကြောင်း တရားဝင် ခိုင်မာစေခြင်း",
+              "ရှင်းပြချက် မပါဘဲ ဂဏန်းအဖြေမှန်ကန်ရုံသက်သက်",
+              "တရားဝင် သက်သေပြချက်အားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+              "နားလည်မှု မပါဘဲ အဖြေများကို အလွတ်ကျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w26-d5",
+      dayNumber: 5,
+      titleEn: "Geometric Proofs Recap Quiz",
+      titleMy: "Geometric Proofs ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "SSS congruence means...",
+          questionMy: "SSS Congruence ဆိုသည်မှာ...",
+          optionsEn: [
+            "All three pairs of sides are equal",
+            "All three angles are equal",
+            "One side and one angle are equal",
+            "The triangles have equal area only",
+          ],
+          optionsMy: [
+            "အနားညီ သုံးစုံလုံး ညီမျှခြင်း",
+            "ထောင့် သုံးခုလုံး ညီမျှခြင်း",
+            "အနားတစ်ခုနှင့် ထောင့်တစ်ခု ညီမျှခြင်း",
+            "Area သာ ညီမျှခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Similar triangles with linear scale factor 4 have an area scale factor of...",
+          questionMy:
+              "Linear Scale Factor 4 ပါသော Similar Triangle များတွင် Area Scale Factor သည်...",
+          optionsEn: ["16", "4", "8", "64"],
+          optionsMy: ["16", "4", "8", "64"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "AA similarity means two triangles are similar because...",
+          questionMy:
+              "AA Similarity ဆိုသည်မှာ တြိဂံနှစ်ခု Similar ဖြစ်ကြောင်း...",
+          optionsEn: [
+            "Two pairs of angles are equal",
+            "Two pairs of sides are equal",
+            "All sides are equal",
+            "One angle is a right angle",
+          ],
+          optionsMy: [
+            "ထောင့် နှစ်စုံ ညီမျှသည်",
+            "အနား နှစ်စုံ ညီမျှသည်",
+            "အနားအားလုံး ညီမျှသည်",
+            "ထောင့်တစ်ခုသည် ထောင့်မှန် ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, how did Htet Wai Yan find the tree's height?",
+          questionMy: "ထက်ဝေယံသည် သစ်ပင်၏ အမြင့်ကို မည်သို့ ရှာဖွေခဲ့သနည်း။",
+          optionsEn: [
+            "Using similar triangles formed by shadows",
+            "Climbing the tree",
+            "Using a ladder",
+            "Guessing randomly",
+          ],
+          optionsMy: [
+            "အရိပ်များ ဖွဲ့စည်းထားသော Similar Triangle များ သုံးခြင်း",
+            "သစ်ပင်ကို တက်ခြင်း",
+            "လှေကား သုံးခြင်း",
+            "ကျပန်း မှန်းဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 26?",
+          questionMy: "Week 26 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Formal proofs of congruence, similarity, and area/volume scale factors",
+            "Exponential modelling",
+            "Surds and exact arithmetic",
+            "Matrix transformations",
+          ],
+          optionsMy: [
+            "Congruence, Similarity, Area/Volume Scale Factor တရားဝင် သက်သေပြချက်များ",
+            "Exponential Modelling",
+            "Surds and Exact Arithmetic",
+            "Matrix Transformations",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek27 = CourseWeekDef(
+  id: "course-igcse-mathematics-w27",
+  weekNumber: 27,
+  titleEn: "Surds and Exact Arithmetic",
+  titleMy: "ဆတ် (Surds) နှင့် တိကျသော ဂဏန်းတွက်ချက်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w27-d1",
+      dayNumber: 1,
+      titleEn: "Simplifying Surds and Rationalising Denominators",
+      titleMy:
+          "Surds ရိုးရှင်းစေခြင်းနှင့် Denominator များ Rationalise ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify √50.",
+          questionMy: "√50 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["5√2", "10√5", "2√25", "25√2"],
+          optionsMy: ["5√2", "10√5", "2√25", "25√2"],
+          correctIndex: 0,
+          hintsEn: ["√50 = √(25×2) = √25 × √2 = 5√2."],
+          hintsMy: ["√50 = √(25×2) = √25 × √2 = 5√2။"],
+        ),
+        QuizQuestion(
+          questionEn: "Simplify √12 + √27.",
+          questionMy: "√12 + √27 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["5√3", "√39", "3√13", "2√3"],
+          optionsMy: ["5√3", "√39", "3√13", "2√3"],
+          correctIndex: 0,
+          hintsEn: [
+            "√12 = 2√3, √27 = 3√3. Since both simplify to a multiple of √3, add them: 2√3 + 3√3 = 5√3.",
+          ],
+          hintsMy: [
+            "√12 = 2√3, √27 = 3√3။ နှစ်ခုစလုံးသည် √3 ၏ Multiple အဖြစ် ရိုးရှင်းသောကြောင့် ပေါင်းပါ: 2√3 + 3√3 = 5√3။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Rationalise the denominator of 1/√3.",
+          questionMy: "1/√3 ၏ Denominator ကို Rationalise ပြုလုပ်ပါ။",
+          optionsEn: ["√3/3", "1/3", "3/√3", "√3"],
+          optionsMy: ["√3/3", "1/3", "3/√3", "√3"],
+          correctIndex: 0,
+          hintsEn: ["Multiply top and bottom by √3: (1×√3)/(√3×√3) = √3/3."],
+          hintsMy: [
+            "အပေါ်နှင့် အောက်ကို √3 ဖြင့် မြှောက်ပါ: (1×√3)/(√3×√3) = √3/3။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Expand and simplify (2+√3)(2-√3).",
+          questionMy:
+              "(2+√3)(2-√3) ကို ဖြန့်ကြက်ပြီး ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["1", "4-3√3", "7", "4+3"],
+          optionsMy: ["1", "4-3√3", "7", "4+3"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a difference of squares: (a+b)(a-b) = a² - b² = 2² - (√3)² = 4 - 3 = 1.",
+          ],
+          hintsMy: [
+            "၎င်းသည် Difference of Squares ဖြစ်သည်: (a+b)(a-b) = a² - b² = 2² - (√3)² = 4 - 3 = 1။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Rationalise the denominator of 5/(3+√2).",
+          questionMy: "5/(3+√2) ၏ Denominator ကို Rationalise ပြုလုပ်ပါ။",
+          optionsEn: ["5(3-√2)/7", "5(3+√2)/7", "(3-√2)/5", "15-5√2"],
+          optionsMy: ["5(3-√2)/7", "5(3+√2)/7", "(3-√2)/5", "15-5√2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiply by the conjugate (3-√2): 5(3-√2)/((3+√2)(3-√2)) = 5(3-√2)/(9-2) = 5(3-√2)/7.",
+          ],
+          hintsMy: [
+            "Conjugate (3-√2) ဖြင့် မြှောက်ပါ: 5(3-√2)/((3+√2)(3-√2)) = 5(3-√2)/(9-2) = 5(3-√2)/7။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w27-d2",
+      dayNumber: 2,
+      titleEn: "Surds Vocabulary",
+      titleMy: "Surds ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w27-dm1",
+          termEn: "Surd",
+          termMy: "Surd",
+          matchEn:
+              "An irrational root, such as √2, that cannot be simplified to a whole number",
+          matchMy:
+              "ကိန်းပြည့်တစ်ခုအဖြစ် ရိုးရှင်း၍ မရနိုင်သော √2 ကဲ့သို့ Irrational Root",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w27-dm2",
+          termEn: "Rationalising the Denominator",
+          termMy: "Rationalising the Denominator",
+          matchEn:
+              "Removing a surd from the denominator of a fraction by multiplying top and bottom",
+          matchMy:
+              "အပေါ်နှင့် အောက်ကို မြှောက်ခြင်းဖြင့် အပိုင်းကိန်းတစ်ခု၏ Denominator မှ Surd ကို ဖယ်ရှားခြင်း",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w27-dm3",
+          termEn: "Conjugate",
+          termMy: "Conjugate",
+          matchEn:
+              "For (a+√b), the expression (a-√b), used to rationalise a two-term denominator",
+          matchMy:
+              "(a+√b) အတွက် Two-Term Denominator ကို Rationalise ပြုလုပ်ရန် သုံးသော Expression (a-√b)",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w27-dm4",
+          termEn: "Exact Value",
+          termMy: "Exact Value",
+          matchEn:
+              "A value expressed precisely, such as with a surd, rather than as a rounded decimal",
+          matchMy:
+              "ခန့်မှန်းသော ဒသမအစား Surd ဖြင့်ကဲ့သို့ တိကျစွာ ဖော်ပြထားသော တန်ဖိုး",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w27-dm5",
+          termEn: "Difference of Squares",
+          termMy: "Difference of Squares",
+          matchEn:
+              "The identity (a+b)(a-b) = a² - b², useful for rationalising two-term surd denominators",
+          matchMy:
+              "Two-Term Surd Denominator များ Rationalise ပြုလုပ်ရန် အသုံးဝင်သော Identity (a+b)(a-b) = a² - b²",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w27-d3",
+      dayNumber: 3,
+      titleEn: "Simplified or Not Simplified?",
+      titleMy: "Simplified or Not Simplified?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fully Simplified", "Not Yet Simplified"],
+        bucketsMy: ["အပြည့်အစုံ Simplify ပြုလုပ်ထား", "Simplify မလုပ်ရသေး"],
+        items: [
+          SortingItem(
+            id: "igm-w27-sort1",
+            labelEn: "3√5",
+            labelMy: "3√5",
+            correctBucketEn: "Fully Simplified",
+            correctBucketMy: "အပြည့်အစုံ Simplify ပြုလုပ်ထား",
+          ),
+          SortingItem(
+            id: "igm-w27-sort2",
+            labelEn: "√45",
+            labelMy: "√45",
+            correctBucketEn: "Not Yet Simplified",
+            correctBucketMy: "Simplify မလုပ်ရသေး",
+          ),
+          SortingItem(
+            id: "igm-w27-sort3",
+            labelEn: "2√7",
+            labelMy: "2√7",
+            correctBucketEn: "Fully Simplified",
+            correctBucketMy: "အပြည့်အစုံ Simplify ပြုလုပ်ထား",
+          ),
+          SortingItem(
+            id: "igm-w27-sort4",
+            labelEn: "√72",
+            labelMy: "√72",
+            correctBucketEn: "Not Yet Simplified",
+            correctBucketMy: "Simplify မလုပ်ရသေး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Exact Answer Rule",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ Exact Answer စည်းမျဉ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Exact Answer Rule",
+        titleMy: "ထက်ဝေယံ၏ Exact Answer စည်းမျဉ်း",
+        passageEn:
+            "Htet Wai Yan's homework asked him to find the exact length of the diagonal of a square with side length 4cm. Using Pythagoras' theorem, he calculated: d² = 4² + 4² = 16 + 16 = 32, so d = √32. His first instinct was to reach for his calculator and write the decimal approximation, 5.656854..., but the question specifically said \"exact length,\" a phrase Daw Su Su had taught him to treat as a strict instruction never to round.\n\nHe simplified √32 instead: 32 = 16 × 2, so √32 = √16 × √2 = 4√2. This was the exact answer the question demanded -- not an approximation, but a precise value expressed using a surd. Daw Su Su explained why this distinction mattered so much for IGCSE Paper 2 (the non-calculator paper): decimal approximations introduced rounding errors that compounded across multi-step problems, while surds carried their exact value through every subsequent calculation without any loss of precision.\n\nShe then gave him a follow-up problem to reinforce the habit: find the exact area of a rectangle with sides (3+√2) cm and (3-√2) cm. Htet Wai Yan recognised the difference-of-squares pattern immediately: (3+√2)(3-√2) = 3² - (√2)² = 9 - 2 = 7 square centimetres exactly, with no surd remaining in the final answer at all -- a clean, exact result achieved specifically because he had multiplied by the conjugate pattern rather than approximating either bracket with a calculator. She told him this was the deeper lesson of surds: some calculations that looked messy with decimals became perfectly clean and exact when handled algebraically, and IGCSE examiners specifically designed non-calculator questions to reward exactly this kind of algebraic fluency.",
+        passageMy:
+            "ထက်ဝေယံ၏ အိမ်စာသည် အနား 4cm ရှိသော စတုရန်းတစ်ခု၏ Diagonal ၏ Exact Length ကို ရှာဖွေရန် တောင်းဆိုခဲ့သည်။ Pythagoras' Theorem သုံး၍ သူ တွက်ချက်ခဲ့သည် - d² = 4² + 4² = 16 + 16 = 32, ထို့ကြောင့် d = √32။ သူ၏ ပထမ Instinct မှာ Calculator ကို ကမ်းယူပြီး ဒသမ ခန့်မှန်းချေ 5.656854... ကို ရေးရန် ဖြစ်ခဲ့သော်လည်း မေးခွန်းသည် \"Exact Length\" ဟု တိတိကျကျ ဆိုခဲ့ပြီး ၎င်းသည် ဒေါ်စုစုက ဘယ်တော့မှ Round မလုပ်ရဟူသော တင်းကျပ်သော Instruction တစ်ခုအဖြစ် ကိုင်တွယ်ရန် သင်ပေးခဲ့သော စကားစု ဖြစ်သည်။\n\nသူသည် ၎င်းအစား √32 ကို ရိုးရှင်းအောင် ပြုလုပ်ခဲ့သည် - 32 = 16 × 2, ထို့ကြောင့် √32 = √16 × √2 = 4√2။ ၎င်းသည် မေးခွန်းက တောင်းဆိုသော Exact Answer ဖြစ်ခဲ့သည် -- ခန့်မှန်းချေ မဟုတ်ဘဲ Surd သုံး၍ ဖော်ပြထားသော တိကျသော တန်ဖိုး ဖြစ်ခဲ့သည်။ ဒေါ်စုစုသည် ဤကွဲပြားချက်သည် IGCSE Paper 2 (Non-Calculator Paper) အတွက် အဘယ်ကြောင့် ဤမျှ အရေးကြီးကြောင်း ရှင်းပြခဲ့သည် - Decimal Approximation များသည် Multi-Step ပြဿနာများတစ်လျှောက် ပေါင်းစပ်လာသော Rounding Error များကို မိတ်ဆက်ခဲ့ပြီး Surd များသည် ၎င်းတို့၏ Exact Value ကို နောက်ဆက်တွဲ တွက်ချက်မှုတိုင်းတစ်လျှောက် တိကျမှု ဆုံးရှုံးမှု လုံးဝ မရှိဘဲ ယူဆောင်သွားကြောင်း ဖြစ်သည်။\n\nသူသည် အလေ့အထကို အားဖြည့်ရန် Follow-Up ပြဿနာတစ်ခု ထို့နောက် ပေးခဲ့သည် - (3+√2) cm နှင့် (3-√2) cm အနားများပါသော စတုဂံပုံတစ်ခု၏ Exact Area ကို ရှာပါ။ ထက်ဝေယံသည် Difference-of-Squares ပုံစံကို ချက်ချင်း မှတ်မိခဲ့သည် - (3+√2)(3-√2) = 3² - (√2)² = 9 - 2 = 7 square centimetres အတိအကျ, နောက်ဆုံးအဖြေတွင် Surd လုံးဝ မကျန်ဘဲ -- Bracket နှစ်ခုစလုံးကို Calculator ဖြင့် ခန့်မှန်းမည့်အစား Conjugate ပုံစံဖြင့် မြှောက်ခဲ့သောကြောင့် ရရှိခဲ့သော သန့်ရှင်း၍ တိကျသော ရလဒ်တစ်ခု ဖြစ်သည်။ ၎င်းသည် Surds ၏ ပို၍ နက်ရှိုင်းသော သင်ခန်းစာ ဖြစ်ကြောင်း သူ့ကို သူ ပြောခဲ့သည် - Decimal ဖြင့် ရှုပ်ထွေးဟန်ရှိသော တွက်ချက်မှုအချို့သည် Algebraic အားဖြင့် ကိုင်တွယ်လျှင် လုံးဝ သန့်ရှင်း၍ တိကျလာပြီး IGCSE စစ်ဆေးသူများသည် ဤကဲ့သို့ Algebraic ကျွမ်းကျင်မှုကို အထူးသဖြင့် ဆုချရန် Non-Calculator မေးခွန်းများကို အထူး ဒီဇိုင်းထုတ်ခဲ့ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the simplified exact answer for √32?",
+            questionMy:
+                "√32 ၏ ရိုးရှင်းအောင် ပြုလုပ်ထားသော Exact Answer သည် အဘယ်နည်း၊ စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["4√2", "5.656854", "2√16", "16√2"],
+            optionsMy: ["4√2", "5.656854", "2√16", "16√2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about simplifying √32."],
+            hintsMy: [
+              "√32 ကို ရိုးရှင်းအောင် ပြုလုပ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the exact area of the rectangle?",
+            questionMy:
+                "စတုဂံပုံ၏ Exact Area သည် အဘယ်နည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "7 square centimetres",
+              "9 square centimetres",
+              "2 square centimetres",
+              "11 square centimetres",
+            ],
+            optionsMy: [
+              "Square Centimetre 7",
+              "Square Centimetre 9",
+              "Square Centimetre 2",
+              "Square Centimetre 11",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the difference-of-squares calculation in paragraph 3.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၃ ရှိ Difference-of-Squares တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why did IGCSE examiners design non-calculator questions around surds?",
+            questionMy:
+                "IGCSE စစ်ဆေးသူများ Surds ပတ်ပတ်လည် Non-Calculator မေးခွန်းများ အဘယ်ကြောင့် ဒီဇိုင်းထုတ်ခဲ့ကြောင်း နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To reward algebraic fluency that turns messy decimals into clean, exact results",
+              "To make the exam impossible to pass",
+              "Because calculators were banned entirely from the syllabus",
+              "To test handwriting speed only",
+            ],
+            optionsMy: [
+              "ရှုပ်ထွေးသော Decimal များကို သန့်ရှင်း၍ တိကျသော ရလဒ်များအဖြစ် ပြောင်းလဲပေးသော Algebraic ကျွမ်းကျင်မှုကို ဆုချရန်",
+              "စာမေးပွဲကို အောင်၍ မရနိုင်လောက်အောင် ပြုလုပ်ရန်",
+              "Calculator များကို သင်ရိုးညွှန်းတမ်းမှ လုံးဝ တားမြစ်ထားသောကြောင့်",
+              "လက်ရေး အမြန်နှုန်းကိုသာ စစ်ဆေးရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the very last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w27-d5",
+      dayNumber: 5,
+      titleEn: "Surds and Exact Arithmetic Recap Quiz",
+      titleMy: "Surds and Exact Arithmetic ပြန်လည်သုံးသပ်ခြင်း ပဟေဠိ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Simplify √18.",
+          questionMy: "√18 ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["3√2", "2√9", "9√2", "6√3"],
+          optionsMy: ["3√2", "2√9", "9√2", "6√3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Rationalise 1/√5.",
+          questionMy: "1/√5 ကို Rationalise ပြုလုပ်ပါ။",
+          optionsEn: ["√5/5", "1/5", "5/√5", "√5"],
+          optionsMy: ["√5/5", "1/5", "5/√5", "√5"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "(a+√b)(a-√b) simplifies to...",
+          questionMy: "(a+√b)(a-√b) ကို ရိုးရှင်းအောင် ပြုလုပ်လျှင်...",
+          optionsEn: ["a² - b", "a² + b", "a - b", "2a"],
+          optionsMy: ["a² - b", "a² + b", "a - b", "2a"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, why did Htet Wai Yan avoid using a decimal for the diagonal length?",
+          questionMy:
+              "Diagonal Length အတွက် ဒသမ သုံးရန် ထက်ဝေယံ အဘယ်ကြောင့် ရှောင်ရှားခဲ့သနည်း။",
+          optionsEn: [
+            "The question specifically asked for the exact length",
+            "He did not have a calculator",
+            "Decimals are always incorrect",
+            "It was faster to use a surd",
+          ],
+          optionsMy: [
+            "မေးခွန်းက Exact Length ကို တိတိကျကျ တောင်းဆိုခဲ့သောကြောင့်",
+            "Calculator မရှိခဲ့သောကြောင့်",
+            "Decimal များသည် အမြဲ မှားယွင်းသောကြောင့်",
+            "Surd သုံးခြင်းက ပို၍ မြန်ခဲ့သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which topics were studied across Week 27?",
+          questionMy: "Week 27 တွင် မည်သည့် ခေါင်းစဉ်များ သင်ယူခဲ့သနည်း။",
+          optionsEn: [
+            "Simplifying surds, expanding brackets with surds, and rationalising denominators",
+            "Matrix transformations",
+            "Composite functions",
+            "Cumulative frequency curves",
+          ],
+          optionsMy: [
+            "Surds ရိုးရှင်းစေခြင်း, Surds ဖြင့် Bracket ဖြန့်ကြက်ခြင်း, Denominator Rationalise ပြုလုပ်ခြင်း",
+            "Matrix Transformations",
+            "Composite Functions",
+            "Cumulative Frequency Curves",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseWeekDef _igcseMathematicsWeek28 = CourseWeekDef(
+  id: "course-igcse-mathematics-w28",
+  weekNumber: 28,
+  titleEn: "Mathematical Investigation Project",
+  titleMy: "သင်္ချာ စူးစမ်းလေ့လာမှု ပရောဂျက်",
+  isBossWeek: true,
+  xpReward: 25,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igm-w28-d1",
+      dayNumber: 1,
+      titleEn: "Generalising Patterns into Formulas",
+      titleMy: "ပုံစံများကို Formula များအဖြစ် အထွေထွေထုတ်ဖော်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sequence of dot patterns has 1, 3, 6, 10, 15 dots at positions 1, 2, 3, 4, 5. What is the formula for the nth term (triangular numbers)?",
+          questionMy:
+              "အစက်ပုံစံ တစ်ခုတွင် Position 1, 2, 3, 4, 5 တွင် အစက် 1, 3, 6, 10, 15 ရှိသည်။ nth Term (Triangular Numbers) ၏ Formula သည် အဘယ်နည်း။",
+          optionsEn: ["n(n+1)/2", "n²", "2n-1", "n²+1"],
+          optionsMy: ["n(n+1)/2", "n²", "2n-1", "n²+1"],
+          correctIndex: 0,
+          hintsEn: ["Test n=4: 4(5)/2 = 10, which matches the 4th term."],
+          hintsMy: [
+            "n=4 ကို စမ်းကြည့်ပါ: 4(5)/2 = 10, ၎င်းသည် စတုတ္ထ Term နှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an open-ended investigation, why is testing a formula against multiple data points important?",
+          questionMy:
+              "အဆုံးမရှိသော Investigation တစ်ခုတွင် Formula တစ်ခုကို Data Point များစွာနှင့် ယှဉ်စစ်ခြင်း အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "A pattern that fits only one or two points might not be a genuine general rule",
+            "It is never necessary to test more than one point",
+            "It makes the investigation take less time",
+            "Formulas never need any verification",
+          ],
+          optionsMy: [
+            "Point တစ်ခု (သို့) နှစ်ခုသာ ကိုက်ညီသော ပုံစံသည် စစ်မှန်သော General Rule မဖြစ်ချေနိုင်သောကြောင့်",
+            "Point တစ်ခုထက်ပို၍ စစ်ဆေးရန် ဘယ်တော့မှ မလိုအပ်ပါ",
+            "Investigation ကို ပို၍ အချိန် နည်းစေသောကြောင့်",
+            "Formula များသည် အတည်ပြုမှု လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sequence starts 2, 5, 10, 17, 26. What type of general formula best fits, given the differences are 3, 5, 7, 9 (increasing by 2 each time)?",
+          questionMy:
+              "Sequence တစ်ခု 2, 5, 10, 17, 26 ဖြင့် စတင်သည်။ ခြားနားချက်များ 3, 5, 7, 9 (အကြိမ်တိုင်း 2 တိုးလာသည်) ဖြစ်ပါက မည်သည့် General Formula အမျိုးအစား အကောင်းဆုံး ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "A quadratic formula (n² + 1)",
+            "A linear formula",
+            "A cubic formula",
+            "No formula is possible",
+          ],
+          optionsMy: [
+            "Quadratic Formula (n² + 1)",
+            "Linear Formula",
+            "Cubic Formula",
+            "Formula မည်သည်မျှ မဖြစ်နိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "When the second difference is constant (here, always 2), the sequence follows a quadratic rule.",
+          ],
+          hintsMy: [
+            "ဒုတိယ ခြားနားချက် ပုံသေ ဖြစ်နေလျှင် (ဤနေရာတွင် အမြဲ 2), Sequence သည် Quadratic Rule ကို လိုက်နာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Mathematical writing\" in an investigation report should include...",
+          questionMy:
+              "Investigation Report တစ်ခုရှိ \"Mathematical Writing\" သည် ...ပါဝင်သင့်သည်",
+          optionsEn: [
+            "Clear justification of each step, not just final answers",
+            "Only the final numerical answer with no working",
+            "No explanation of the method used",
+            "Randomly ordered calculations with no structure",
+          ],
+          optionsMy: [
+            "နောက်ဆုံးအဖြေများသာ မဟုတ်ဘဲ အဆင့်တစ်ခုစီ၏ ရှင်းလင်းသော ခိုင်မာစေချက်",
+            "Working မပါဘဲ နောက်ဆုံး ဂဏန်းအဖြေသာ",
+            "သုံးထားသော Method ၏ ရှင်းပြချက် မပါခြင်း",
+            "ဖွဲ့စည်းပုံ မရှိဘဲ ကျပန်း အစီအစဉ်ဖြင့် တွက်ချက်မှုများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an investigation, a counter-example that breaks a proposed formula means the student should...",
+          questionMy:
+              "Investigation တစ်ခုတွင် အဆိုပြုထားသော Formula ကို ချိုးဖျက်သော Counter-Example တစ်ခုသည် ကျောင်းသားတစ်ဦး ...လုပ်သင့်ကြောင်း ဆိုလိုသည်",
+          optionsEn: [
+            "Revise the formula or the domain over which it applies",
+            "Ignore the counter-example completely",
+            "Delete the entire investigation",
+            "Assume the counter-example is always wrong",
+          ],
+          optionsMy: [
+            "Formula သို့ ၎င်း အသုံးချသော Domain ကို ပြန်လည် ပြင်ဆင်",
+            "Counter-Example ကို လုံးဝ လျစ်လျူရှု",
+            "Investigation တစ်ခုလုံးကို ဖျက်ပစ်",
+            "Counter-Example သည် အမြဲ မှားယွင်းသည်ဟု ယူဆ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w28-d2",
+      dayNumber: 2,
+      titleEn: "Term 7 Vocabulary Review",
+      titleMy: "Term 7 ဝေါဟာရ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 15,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igm-w28-dm1",
+          termEn: "General Formula",
+          termMy: "General Formula",
+          matchEn:
+              "An algebraic rule describing the nth term of a sequence for any n",
+          matchMy:
+              "n မည်သည်ဆိုစေ Sequence တစ်ခု၏ nth Term ကို ဖော်ပြသော Algebraic Rule",
+          colorValue: 0xFFE53935,
+        ),
+        DragMatchPair(
+          id: "igm-w28-dm2",
+          termEn: "Second Difference",
+          termMy: "Second Difference",
+          matchEn:
+              "The difference between consecutive first differences, constant for quadratic sequences",
+          matchMy:
+              "ဆက်တိုက် First Difference များကြား ခြားနားချက်, Quadratic Sequence များအတွက် ပုံသေ",
+          colorValue: 0xFF1E88E5,
+        ),
+        DragMatchPair(
+          id: "igm-w28-dm3",
+          termEn: "Counter-Example",
+          termMy: "Counter-Example",
+          matchEn: "A single case that disproves a proposed general rule",
+          matchMy:
+              "အဆိုပြုထားသော General Rule ကို မမှန်ကြောင်း သက်သေပြသော Case တစ်ခု",
+          colorValue: 0xFF43A047,
+        ),
+        DragMatchPair(
+          id: "igm-w28-dm4",
+          termEn: "Congruence",
+          termMy: "Congruence",
+          matchEn:
+              "Identical shape and size, provable via SSS, SAS, ASA, or RHS conditions",
+          matchMy:
+              "ပုံသဏ္ဌာန်နှင့် အရွယ်အစား တူညီ, SSS, SAS, ASA, RHS Condition များဖြင့် သက်သေပြနိုင်သည်",
+          colorValue: 0xFFFB8C00,
+        ),
+        DragMatchPair(
+          id: "igm-w28-dm5",
+          termEn: "Exact Value",
+          termMy: "Exact Value",
+          matchEn:
+              "A precisely expressed value, such as a surd, rather than a rounded decimal",
+          matchMy:
+              "ခန့်မှန်းသော ဒသမအစား Surd ကဲ့သို့ တိကျစွာ ဖော်ပြထားသော တန်ဖိုး",
+          colorValue: 0xFF8E24AA,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igm-w28-d3",
+      dayNumber: 3,
+      titleEn: "Which Term 7 Skill Applies?",
+      titleMy: "Term 7 ၏ မည်သည့် Skill သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 15,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Modelling", "Proof", "Exact Arithmetic"],
+        bucketsMy: ["Modelling", "Proof", "Exact Arithmetic"],
+        items: [
+          SortingItem(
+            id: "igm-w28-sort1",
+            labelEn: "Writing V = 500(1.06)ᵗ for a savings account",
+            labelMy: "Savings Account အတွက် V = 500(1.06)ᵗ ရေးခြင်း",
+            correctBucketEn: "Modelling",
+            correctBucketMy: "Modelling",
+          ),
+          SortingItem(
+            id: "igm-w28-sort2",
+            labelEn: "Showing two triangles are similar using AA",
+            labelMy: "AA သုံး၍ တြိဂံနှစ်ခု Similar ဖြစ်ကြောင်း ပြသခြင်း",
+            correctBucketEn: "Proof",
+            correctBucketMy: "Proof",
+          ),
+          SortingItem(
+            id: "igm-w28-sort3",
+            labelEn: "Rationalising the denominator of 1/√5",
+            labelMy: "1/√5 ၏ Denominator ကို Rationalise ပြုလုပ်ခြင်း",
+            correctBucketEn: "Exact Arithmetic",
+            correctBucketMy: "Exact Arithmetic",
+          ),
+          SortingItem(
+            id: "igm-w28-sort4",
+            labelEn: "Proving two triangles congruent using SSS",
+            labelMy: "SSS သုံး၍ တြိဂံနှစ်ခု Congruent ဖြစ်ကြောင်း သက်သေပြခြင်း",
+            correctBucketEn: "Proof",
+            correctBucketMy: "Proof",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Handshake Investigation",
+      titleMy: "စာဖတ်ခြင်း — ထက်ဝေယံ၏ လက်ဆွဲနှုတ်ဆက်ခြင်း Investigation",
+      kind: LessonKind.reading,
+      xpReward: 15,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Handshake Investigation",
+        titleMy: "ထက်ဝေယံ၏ လက်ဆွဲနှုတ်ဆက်ခြင်း Investigation",
+        passageEn:
+            "For the Term 7 capstone, Daw Su Su gave Htet Wai Yan a genuinely open-ended question, unlike any structured exam question he had faced before: if everyone in a room shakes hands with everyone else exactly once, how many handshakes happen in total, for a room of any size n?\n\nHe started small, exactly as Daw Su Su had taught him to approach unfamiliar investigations: for n=2 people, there was 1 handshake. For n=3, each of the 3 people shook hands with 2 others, but counting this way double-counted every handshake, giving 3×2/2 = 3 handshakes. For n=4, following the same logic: 4×3/2 = 6 handshakes. He tabulated his results: n=2→1, n=3→3, n=4→6, n=5→10, recognising these as the same triangular numbers from Monday's lesson.\n\nHe proposed the general formula: handshakes = n(n-1)/2. Before accepting it, Daw Su Su pushed him to test it rigorously against a case he hadn't already used to build the pattern: n=6. His formula predicted 6×5/2 = 15. He verified this by direct reasoning: each of the 6 people shook hands with 5 others (6×5=30), but this counted every handshake twice, so the true total was 30/2 = 15, exactly matching his formula's prediction. Daw Su Su then asked him to justify why the formula must divide by 2 rather than leaving it as n(n-1), and Htet Wai Yan explained clearly: because \"A shakes B's hand\" and \"B shakes A's hand\" were the same single handshake counted twice in the raw n(n-1) count, so dividing by 2 corrected for this double-counting. She told him this was genuine mathematical investigation: not just spotting a pattern, but proving why the pattern held using clear logical reasoning, exactly the skill Term 8's rigorous exam papers would now test under time pressure.",
+        passageMy:
+            "တန်းခုနစ်တန်း Capstone အတွက် ဒေါ်စုစုသည် သူ ယခင်က ကြုံခဲ့ဖူးသော ဖွဲ့စည်းထားသော စာမေးပွဲ မေးခွန်း မည်သည်နှင့်မျှ မတူသော စစ်မှန်သော Open-Ended မေးခွန်းတစ်ခု ထက်ဝေယံကို ပေးခဲ့သည် - အခန်းတစ်ခုအတွင်းရှိ လူတိုင်းသည် အခြားသူတိုင်းနှင့် အတိအကျ တစ်ကြိမ်စီ လက်ဆွဲနှုတ်ဆက်လျှင် n ဟူသော အရွယ်အစား ရှိသော အခန်းတစ်ခုအတွက် လက်ဆွဲနှုတ်ဆက်ခြင်း စုစုပေါင်း မည်မျှ ဖြစ်ပျက်မည်နည်း။\n\nသူသည် ဒေါ်စုစု ရင်းနှီးမှု မရှိသေးသော Investigation များကို ချဉ်းကပ်ရန် သင်ပေးခဲ့သည့်အတိုင်း အစသေးသေးဖြင့် စတင်ခဲ့သည် - n=2 လူအတွက် လက်ဆွဲနှုတ်ဆက်ခြင်း 1 ကြိမ် ရှိသည်။ n=3 အတွက် လူ 3 ဦးထဲမှ တစ်ဦးစီသည် အခြားနှစ်ဦးနှင့် လက်ဆွဲခဲ့သော်လည်း ဤနည်းဖြင့် ရေတွက်ခြင်းသည် လက်ဆွဲနှုတ်ဆက်ခြင်း တစ်ခုစီကို နှစ်ကြိမ် ရေတွက်မိသဖြင့် 3×2/2 = 3 လက်ဆွဲနှုတ်ဆက်ခြင်း ရရှိသည်။ n=4 အတွက် တူညီသော Logic ကို လိုက်နာလျှင် - 4×3/2 = 6 လက်ဆွဲနှုတ်ဆက်ခြင်း။ သူသည် သူ၏ ရလဒ်များကို ဇယားချခဲ့သည် - n=2→1, n=3→3, n=4→6, n=5→10, ၎င်းတို့ကို တနင်္လာနေ့ သင်ခန်းစာမှ Triangular Numbers အတူတူ ဖြစ်ကြောင်း မှတ်မိခဲ့သည်။\n\nသူသည် General Formula ကို အဆိုပြုခဲ့သည် - Handshakes = n(n-1)/2။ ၎င်းကို လက်ခံခြင်းမပြုမီ ဒေါ်စုစုသည် ပုံစံ တည်ဆောက်ရန် သူ ယခင်က မသုံးခဲ့ဖူးသော Case တစ်ခုနှင့် ရင်ဆိုင် ခိုင်မာစွာ စစ်ဆေးရန် သူ့ကို တွန်းအားပေးခဲ့သည် - n=6။ သူ၏ Formula က 6×5/2 = 15 ဟု ခန့်မှန်းခဲ့သည်။ သူသည် ၎င်းကို တိုက်ရိုက် ကျိုးကြောင်းဆင်ခြင်ခြင်းဖြင့် အတည်ပြုခဲ့သည် - လူ 6 ဦးထဲမှ တစ်ဦးစီသည် အခြားငါးဦးနှင့် လက်ဆွဲခဲ့သည် (6×5=30) သို့သော် ၎င်းသည် လက်ဆွဲနှုတ်ဆက်ခြင်း တစ်ခုစီကို နှစ်ကြိမ် ရေတွက်မိသဖြင့် စစ်မှန်သော စုစုပေါင်းသည် 30/2 = 15, သူ၏ Formula ၏ ခန့်မှန်းချက်နှင့် အတိအကျ ကိုက်ညီခဲ့သည်။ ဒေါ်စုစုသည် Formula သည် n(n-1) အဖြစ် ချန်ထားမည့်အစား အဘယ်ကြောင့် 2 ဖြင့် စားရမည်ကို ခိုင်မာစေရန် သူ့ကို မေးခဲ့ပြီး ထက်ဝေယံသည် ရှင်းရှင်းလင်းလင်း ရှင်းပြခဲ့သည် - \"A သည် B ၏ လက်ကို ဆွဲသည်\" နှင့် \"B သည် A ၏ လက်ကို ဆွဲသည်\" သည် Raw n(n-1) ရေတွက်ချက်တွင် နှစ်ကြိမ် ရေတွက်ထားသော တစ်ခုတည်းသော လက်ဆွဲနှုတ်ဆက်ခြင်း ဖြစ်ခဲ့သောကြောင့် 2 ဖြင့် စားခြင်းသည် ဤ Double-Counting ကို ပြင်ဆင်ပေးခဲ့သည်။ ၎င်းသည် စစ်မှန်သော သင်္ချာ Investigation ဖြစ်ကြောင်း - ပုံစံတစ်ခုကို တွေ့ရှိရုံသက်သက်မက ရှင်းလင်းသော ယုတ္တိဆင်ခြင်တုံတရားသုံး၍ ပုံစံ အဘယ်ကြောင့် ခိုင်မာကြောင်း သက်သေပြခြင်း၊ တန်းရှစ်တန်း၏ တင်းကျပ်သော စာမေးပွဲစာစောင်များက ယခုအခါ အချိန်ဖိအားအောက်တွင် စစ်ဆေးမည့် ကျွမ်းကျင်မှု အတိအကျ ဖြစ်ကြောင်း - သူ့ကို သူ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the general formula for the number of handshakes?",
+            questionMy:
+                "လက်ဆွဲနှုတ်ဆက်ခြင်း အရေအတွက်အတွက် General Formula သည် အဘယ်နည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["n(n-1)/2", "n²/2", "n(n+1)/2", "2n-1"],
+            optionsMy: ["n(n-1)/2", "n²/2", "n(n+1)/2", "2n-1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence proposing the general formula."],
+            hintsMy: [
+              "General Formula ကို အဆိုပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Htet Wai Yan's formula predict for n=6?",
+            questionMy:
+                "n=6 အတွက် ထက်ဝေယံ၏ Formula က ဘာကို ခန့်မှန်းခဲ့သနည်း၊ စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["15", "30", "6", "36"],
+            optionsMy: ["15", "30", "6", "36"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence testing the formula at n=6."],
+            hintsMy: [
+              "n=6 တွင် Formula ကို စစ်ဆေးထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final paragraph, why did the formula need to be divided by 2?",
+            questionMy:
+                "Formula ကို 2 ဖြင့် စားရန် အဘယ်ကြောင့် လိုအပ်ခဲ့သနည်း၊ နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each handshake was counted twice in the raw n(n-1) count",
+              "It made the number smaller for no reason",
+              "The exam board required it",
+              "It had no mathematical justification",
+            ],
+            optionsMy: [
+              "လက်ဆွဲနှုတ်ဆက်ခြင်းတစ်ခုစီသည် Raw n(n-1) ရေတွက်ချက်တွင် နှစ်ကြိမ် ရေတွက်ထားခဲ့သောကြောင့်",
+              "အကြောင်းရင်း မရှိဘဲ ဂဏန်းကို ငယ်စေခဲ့သောကြောင့်",
+              "စာမေးပွဲအဖွဲ့က လိုအပ်ခဲ့သောကြောင့်",
+              "သင်္ချာဆိုင်ရာ ခိုင်မာစေချက် လုံးဝ မရှိခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread Htet Wai Yan's explanation near the end of the passage.",
+            ],
+            hintsMy: [
+              "စာပိုဒ်၏ အဆုံးအနီးရှိ ထက်ဝေယံ၏ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igm-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Mathematical Investigation",
+      titleMy: "Term 7 Capstone - Mathematical Investigation",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A quadratic sequence has a second difference that is...",
+          questionMy: "Quadratic Sequence တစ်ခု၏ Second Difference သည်...",
+          optionsEn: [
+            "Constant",
+            "Always zero",
+            "Always increasing",
+            "Always negative",
+          ],
+          optionsMy: ["ပုံသေ", "အမြဲ သုည", "အမြဲ တိုးလာ", "အမြဲ Negative"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A counter-example that breaks a proposed formula means the formula should be...",
+          questionMy:
+              "အဆိုပြုထားသော Formula ကို ချိုးဖျက်သော Counter-Example တစ်ခုသည် Formula ကို ...ရမည် ဆိုလိုသည်",
+          optionsEn: [
+            "Revised",
+            "Ignored",
+            "Deleted with no further thought",
+            "Assumed correct anyway",
+          ],
+          optionsMy: [
+            "ပြန်လည် ပြင်ဆင်",
+            "လျစ်လျူရှု",
+            "ထပ်မံ မစဉ်းစားဘဲ ဖျက်ပစ်",
+            "မည်သို့ဖြစ်စေ မှန်ကန်သည်ဟု ယူဆ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Formula = n(n-1)/2 for handshakes divides by 2 because...",
+          questionMy:
+              "လက်ဆွဲနှုတ်ဆက်ခြင်းအတွက် Formula = n(n-1)/2 သည် 2 ဖြင့် စားရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Each handshake is counted twice in the raw count",
+            "It makes the answer look nicer",
+            "There is no real reason",
+            "n is always even",
+          ],
+          optionsMy: [
+            "လက်ဆွဲနှုတ်ဆက်ခြင်းတစ်ခုစီသည် Raw ရေတွက်ချက်တွင် နှစ်ကြိမ် ရေတွက်ထားသောကြောင့်",
+            "အဖြေကို ပို၍ ကောင်းမွန်အောင် ပြုလုပ်ရန်",
+            "စစ်မှန်သော အကြောင်းရင်း မရှိပါ",
+            "n သည် အမြဲ Even ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reading passage, what real-world scenario did Htet Wai Yan investigate?",
+          questionMy:
+              "ထက်ဝေယံသည် မည်သည့် လက်တွေ့ဘဝ Scenario ကို Investigate ပြုလုပ်ခဲ့သနည်း။",
+          optionsEn: [
+            "The number of handshakes in a room of n people",
+            "The height of a rocket",
+            "The value of a savings account",
+            "The area of a triangle",
+          ],
+          optionsMy: [
+            "N ဦး ရှိသော အခန်းတစ်ခုအတွင်း လက်ဆွဲနှုတ်ဆက်ခြင်း အရေအတွက်",
+            "ဒံရိုက်ငင်တစ်ခု၏ အမြင့်",
+            "Savings Account တစ်ခု၏ တန်ဖိုး",
+            "တြိဂံတစ်ခု၏ Area",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "What did Daw Su Su say Term 8 would now test under time pressure?",
+          questionMy:
+              "တန်းရှစ်တန်းသည် အချိန်ဖိအားအောက်တွင် ဘာကို စစ်ဆေးမည်ဟု ဒေါ်စုစု ဆိုခဲ့သနည်း။",
+          optionsEn: [
+            "Proving why a pattern holds using clear logical reasoning",
+            "Only memorising formulas without proof",
+            "Avoiding all investigation-style questions",
+            "Nothing related to Term 7's skills",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော ယုတ္တိဆင်ခြင်တုံတရားသုံး၍ ပုံစံတစ်ခု အဘယ်ကြောင့် ခိုင်မာကြောင်း သက်သေပြခြင်း",
+            "သက်သေပြချက် မပါဘဲ Formula များကိုသာ အလွတ်ကျက်ခြင်း",
+            "Investigation-Style မေးခွန်းအားလုံးကို ရှောင်ရှားခြင်း",
+            "တန်းခုနစ်တန်း၏ ကျွမ်းကျင်မှုများနှင့် မသက်ဆိုင်သော မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef _igcseMathematicsTerm7 = CourseTermDef(
+  id: "course-igcse-mathematics-t7",
+  termNumber: 7,
+  titleEn: "Advanced Modelling and Problem Solving",
+  titleMy: "Advanced Modelling and Problem Solving",
+  certificateTitleEn: "Advanced Modelling and Problem Solving",
+  certificateTitleMy: "Advanced Modelling and Problem Solving",
+  weeks: [
+    _igcseMathematicsWeek25,
+    _igcseMathematicsWeek26,
+    _igcseMathematicsWeek27,
+    _igcseMathematicsWeek28,
+  ],
+);
+
 // __IGCSE_MATH_MARKER__
 
 /// The IGCSE Mathematics course's full-year pathway -- IN PROGRESS.
-/// Terms 1-6 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
+/// Terms 1-7 ("Advanced Number and Sets", Weeks 1-4; "Algebra and
 /// Graphs", Weeks 5-8; "Coordinate Geometry and Mensuration", Weeks
 /// 9-12; "Trigonometry and Vectors", Weeks 13-16; "Probability and
 /// Statistics", Weeks 17-20; "Transformations, Matrices and
-/// Functions", Weeks 21-24) are authored so far, following the
-/// blueprint at `ai_data_bridge/igcse_maths_all_terms.dart`. Terms 7-9
-/// (Advanced Modelling and Problem Solving; Exam Intensive; Final
-/// Countdown and IGCSE Graduation) are not yet authored. `terms`
-/// below intentionally lists only Terms 1-6, and `totalWeeks: 36`
-/// reflects the full planned year, following the same convention as
-/// every other in-progress pathway in this file.
+/// Functions", Weeks 21-24; "Advanced Modelling and Problem Solving",
+/// Weeks 25-28) are authored so far, following the blueprint at
+/// `ai_data_bridge/igcse_maths_all_terms.dart`. Terms 8-9 (Exam
+/// Intensive; Final Countdown and IGCSE Graduation) are not yet
+/// authored. `terms` below intentionally lists only Terms 1-7, and
+/// `totalWeeks: 36` reflects the full planned year, following the
+/// same convention as every other in-progress pathway in this file.
 const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
   id: "course-igcse-mathematics",
   subject: "mathematics",
@@ -122322,6 +123802,7 @@ const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
     _igcseMathematicsTerm4,
     _igcseMathematicsTerm5,
     _igcseMathematicsTerm6,
+    _igcseMathematicsTerm7,
   ],
 );
 // =====================================================================
