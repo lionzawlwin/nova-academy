@@ -6074,6 +6074,1545 @@ const CourseWeekDef _igcseChemWeek16 = CourseWeekDef(
     ),
   ],
 );
+// =====================================================================
+// Week 17: "Properties of Acids, Bases, and Salts"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek17 = CourseWeekDef(
+  id: "course-igcse-chem-w17",
+  weekNumber: 17,
+  titleEn: "Properties of Acids, Bases, and Salts",
+  titleMy: "အက်ဆစ်၊ ဘေ့စ်နှင့် ဆားများ၏ ဂုဏ်သတ္တိများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w17-d1",
+      dayNumber: 1,
+      titleEn: "Characteristic Reactions of Acids",
+      titleMy: "အက်ဆစ်များ၏ ထူးခြားသော ဓာတ်ပြုမှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the reaction Mg + 2HCl -> MgCl2 + H2, which gas is produced and how would you test for it?",
+          questionMy:
+              "Mg + 2HCl -> MgCl2 + H2 ဓာတ်ပြုမှုတွင် မည်သည့်ဓာတ်ငွေ့ ထွက်ပေါ်ပြီး မည်သို့ စမ်းသပ်မည်နည်း။",
+          optionsEn: [
+            "Hydrogen -- a lit splint held at the mouth of the test tube gives a squeaky pop",
+            "Oxygen -- a glowing splint relights",
+            "Carbon dioxide -- limewater turns milky",
+            "Chlorine -- damp litmus paper bleaches white",
+          ],
+          optionsMy: [
+            "Hydrogen -- စမ်းသပ်ပြွန်ခေါင်းတွင် မီးထွန်းထားသော ကျစျေးတုတ်ကို ကပ်လိုက်ပါက 'ပေါ့' ဟူသော အသံထွက်သည်",
+            "Oxygen -- တောက်နေသော ကျစျေးတုတ်ကို ပြန်လည် တောက်ညှိသည်",
+            "Carbon dioxide -- ထုံးရည်ကို နို့ရောင် ပြောင်းစေသည်",
+            "Chlorine -- စိုစွတ်သော လစ်တမတ်စ် စက္ကူကို အရောင်ဖျက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A reactive metal reacting with a dilute acid always produces a salt and hydrogen gas.",
+            "The 'squeaky pop' test with a lit splint is the standard IGCSE test for hydrogen.",
+          ],
+          hintsMy: [
+            "ဓာတ်ပြုနိုင်စွမ်းရှိသော သတ္တုတစ်ခုသည် ရေဖျော်အက်ဆစ်တစ်ခုနှင့် ဓာတ်ပြုသည့်အခါ ဆားနှင့် Hydrogen ဓာတ်ငွေ့ကို အမြဲ ထုတ်ပေးသည်။",
+            "မီးထွန်းထားသော ကျစျေးတုတ်ဖြင့် 'ပေါ့' အသံထွက်စမ်းသပ်ခြင်းသည် Hydrogen အတွက် စံ IGCSE စမ်းသပ်မှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a metal carbonate reacts with a dilute acid, which two products form in addition to a salt?",
+          questionMy:
+              "သတ္တု ကာဗွန်နိတ် တစ်ခုသည် ရေဖျော်အက်ဆစ်တစ်ခုနှင့် ဓာတ်ပြုသည့်အခါ ဆားအပြင် ထပ်မံ ထွက်ပေါ်လာသော ထွက်ကုန် နှစ်မျိုးကား အဘယ်နည်း။",
+          optionsEn: [
+            "Water and carbon dioxide gas",
+            "Hydrogen and oxygen gas",
+            "Only hydrogen gas",
+            "Water only, with no gas",
+          ],
+          optionsMy: [
+            "ရေနှင့် ကာဗွန်ဒိုင်အောက်ဆိုဒ် ဓာတ်ငွေ့",
+            "Hydrogen နှင့် Oxygen ဓာတ်ငွေ့",
+            "Hydrogen ဓာတ်ငွေ့သာ",
+            "ရေသာ၊ ဓာတ်ငွေ့ လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example: CaCO3 + 2HCl -> CaCl2 + H2O + CO2.",
+            "The CO2 produced is confirmed by bubbling it through limewater, which turns milky/cloudy.",
+          ],
+          hintsMy: [
+            "ဥပမာ- CaCO3 + 2HCl -> CaCl2 + H2O + CO2 ။",
+            "ထွက်ပေါ်လာသော CO2 ကို ထုံးရည်ထဲသို့ ပူဖောင်းထုတ်ကာ နို့ရောင်/မှုန်ဝါးလာခြင်းဖြင့် အတည်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On the universal indicator colour scale, what colour and approximate pH range represents a strong alkali?",
+          questionMy:
+              "Universal Indicator အရောင် စကေးတွင် ခိုင်မာသော အယ်လကာလိုင်း (Strong Alkali) တစ်ခုအတွက် မည်သည့် အရောင်နှင့် ခန့်မှန်း pH အတိုင်းအတာက ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Purple/violet, pH around 11-14",
+            "Red, pH around 1-3",
+            "Green, pH exactly 7",
+            "Orange, pH around 4-6",
+          ],
+          optionsMy: [
+            "မောင်းချယ်ရောင်/ခရမ်းရောင်၊ pH ၁၁-၁၄ ခန့်",
+            "အနီရောင်၊ pH ၁-၃ ခန့်",
+            "အစိမ်းရောင်၊ pH အတိအကျ ၇",
+            "လိမ္မော်ရောင်၊ pH ၄-၆ ခန့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The pH scale runs from 0 (strongly acidic, red) through 7 (neutral, green) to 14 (strongly alkaline, purple).",
+          ],
+          hintsMy: [
+            "pH စကေးသည် ၀ (ခိုင်မာသော အက်ဆစ်၊ အနီရောင်) မှ ၇ (ကြားနေ၊ အစိမ်းရောင်) ကို ဖြတ်၍ ၁၄ (ခိုင်မာသော အယ်လကာလိုင်း၊ မောင်းချယ်ရောင်) အထိ ပြေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Acids, Bases, and Oxides Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အက်ဆစ်၊ ဘေ့စ်နှင့် အောက်ဆိုဒ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w17-dm-1",
+          termEn: "Alkali",
+          termMy: "Alkali",
+          matchEn:
+              "A base that is soluble in water, releasing hydroxide ions (OH-) into solution",
+          matchMy:
+              "ရေတွင် ပျော်ဝင်ပြီး ပျော်ရည်ထဲသို့ Hydroxide Ion (OH-) များ လွှတ်ပေးသော ဘေ့စ်တစ်မျိုး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w17-dm-2",
+          termEn: "Neutralisation",
+          termMy: "Neutralisation",
+          matchEn:
+              "The reaction between an acid and a base to form a salt and water",
+          matchMy: "အက်ဆစ်နှင့် ဘေ့စ်ကြား ဆားနှင့် ရေ ဖွဲ့စည်းစေသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w17-dm-3",
+          termEn: "Amphoteric oxide",
+          termMy: "Amphoteric Oxide",
+          matchEn:
+              "An oxide that reacts with both acids and bases, such as aluminium oxide or zinc oxide",
+          matchMy:
+              "Aluminium Oxide သို့မဟုတ် Zinc Oxide ကဲ့သို့ အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးစလုံးနှင့် ဓာတ်ပြုသော အောက်ဆိုဒ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w17-dm-4",
+          termEn: "Acidic oxide",
+          termMy: "Acidic Oxide",
+          matchEn:
+              "A non-metal oxide, such as carbon dioxide or sulfur dioxide, that reacts with bases to form a salt",
+          matchMy:
+              "Carbon Dioxide သို့မဟုတ် Sulfur Dioxide ကဲ့သို့ ဘေ့စ်များနှင့် ဓာတ်ပြုကာ ဆား ဖွဲ့စည်းစေသော သတ္တုမဟုတ်သည့် အောက်ဆိုဒ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w17-dm-5",
+          termEn: "Salt",
+          termMy: "Salt",
+          matchEn:
+              "A compound formed when the hydrogen ion of an acid is replaced by a metal or ammonium ion",
+          matchMy:
+              "အက်ဆစ်၏ Hydrogen Ion ကို သတ္တု သို့မဟုတ် Ammonium Ion ဖြင့် အစားထိုးသည့်အခါ ဖွဲ့စည်းလာသော ဒြပ်ပေါင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acidic, Basic, Amphoteric, or Neutral Oxide?",
+      titleMy:
+          "စီစစ်ကြမည် - အက်ဆစ်ဖြစ်သလား၊ ဘေ့စ်ဖြစ်သလား၊ Amphoteric ဖြစ်သလား၊ ကြားနေဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Acidic Oxide",
+          "Basic Oxide",
+          "Amphoteric Oxide",
+          "Neutral Oxide",
+        ],
+        bucketsMy: [
+          "Acidic Oxide",
+          "Basic Oxide",
+          "Amphoteric Oxide",
+          "Neutral Oxide",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsechem-w17-sort-1",
+            labelEn:
+                "CO2 -- reacts with alkalis, dissolves to form an acidic solution",
+            labelMy:
+                "CO2 -- အယ်လကာလိုင်းများနှင့် ဓာတ်ပြုကာ အက်ဆစ် ပျော်ရည် ဖြစ်စေသည်",
+            correctBucketEn: "Acidic Oxide",
+            correctBucketMy: "Acidic Oxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w17-sort-2",
+            labelEn:
+                "MgO -- a metal oxide that reacts with dilute acids to form a salt and water",
+            labelMy:
+                "MgO -- ရေဖျော်အက်ဆစ်များနှင့် ဓာတ်ပြုကာ ဆားနှင့် ရေ ဖွဲ့စည်းစေသော သတ္တု အောက်ဆိုဒ်",
+            correctBucketEn: "Basic Oxide",
+            correctBucketMy: "Basic Oxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w17-sort-3",
+            labelEn:
+                "Al2O3 -- reacts with both hydrochloric acid and sodium hydroxide",
+            labelMy:
+                "Al2O3 -- Hydrochloric Acid နှင့် Sodium Hydroxide နှစ်ခုစလုံးနှင့် ဓာတ်ပြုသည်",
+            correctBucketEn: "Amphoteric Oxide",
+            correctBucketMy: "Amphoteric Oxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w17-sort-4",
+            labelEn: "CO -- does not react with either acids or bases",
+            labelMy: "CO -- အက်ဆစ် သို့မဟုတ် ဘေ့စ် မည်သည်နှင့်မျှ ဓာတ်မပြု",
+            correctBucketEn: "Neutral Oxide",
+            correctBucketMy: "Neutral Oxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w17-sort-5",
+            labelEn:
+                "ZnO -- dissolves in both hydrochloric acid and excess sodium hydroxide solution",
+            labelMy:
+                "ZnO -- Hydrochloric Acid နှင့် ပိုလျှံသော Sodium Hydroxide ပျော်ရည် နှစ်ခုစလုံးတွင် ပျော်ဝင်သည်",
+            correctBucketEn: "Amphoteric Oxide",
+            correctBucketMy: "Amphoteric Oxide",
+          ),
+          SortingItem(
+            id: "igcsechem-w17-sort-6",
+            labelEn:
+                "SO2 -- a non-metal oxide that dissolves in water to form an acidic solution",
+            labelMy:
+                "SO2 -- ရေတွင် ပျော်ဝင်ကာ အက်ဆစ် ပျော်ရည် ဖြစ်စေသော သတ္တုမဟုတ်သည့် အောက်ဆိုဒ်",
+            correctBucketEn: "Acidic Oxide",
+            correctBucketMy: "Acidic Oxide",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Kitchen pH Survey",
+      titleMy: "စာဖတ်ခြင်း - ရှင်သန့်၏ မီးဖိုချောင် pH စစ်တမ်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Kitchen pH Survey",
+        titleMy: "ရှင်သန့်၏ မီးဖိုချောင် pH စစ်တမ်း",
+        passageEn:
+            "Ko Zaw handed Shin Thant a small bottle of universal indicator solution and a printed pH colour chart, then challenged her to test five household liquids from her own kitchen: vinegar, lemon juice, tap water, a dissolved spoonful of baking soda, and a dissolved spoonful of washing soda used for laundry.\n\nVinegar and lemon juice both turned the indicator a similar orange-red, giving readings of pH 3 and pH 2 respectively -- both weak acids, Shin Thant noted, but lemon juice was clearly the stronger of the two since its colour sat closer to the red end of the scale. Tap water stayed a steady green, confirming its pH of 7, neither acidic nor alkaline. The baking soda solution turned pale blue, around pH 9, a mild alkali, while the washing soda solution turned a much deeper blue-purple, closer to pH 11, revealing it as a considerably stronger alkali than the baking soda despite looking like a similar white powder in the cupboard.\n\nKo Zaw then asked her to predict what would happen if she mixed equal amounts of the vinegar and the washing soda solution together. Shin Thant reasoned that since one was acidic and the other alkaline, they would neutralise each other, with the hydrogen ions from the acid and the hydroxide ions from the alkali combining to form water, while the sodium and acetate ions remained in solution as a dissolved salt. When she tested the mixture, the indicator turned a green shade very close to pH 7, confirming her prediction -- though she noted that getting the colour exactly to green would require adding precisely matched amounts, not just any random splash of each, since too much of either liquid would leave the mixture still acidic or still alkaline overall.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်အား Universal Indicator ပျော်ရည် ပုလင်းငယ်တစ်ခုနှင့် ပုံနှိပ်ထားသော pH အရောင်ဇယားတစ်ခုကို ပေးအပ်ပြီး သူမကိုယ်တိုင် မီးဖိုချောင်ရှိ အိမ်သုံးအရည် ငါးမျိုးကို စမ်းသပ်ရန် စိန်ခေါ်ခဲ့သည် - ရှာလကာရည်၊ သံပုရာရည်၊ ရေပိုက်ရေ၊ Baking Soda ဇွန်းတစ်ဇွန်း ပျော်ဝင်ထားသော ပျော်ရည်နှင့် အဝတ်လျှော်ရန်သုံး Washing Soda ဇွန်းတစ်ဇွန်း ပျော်ဝင်ထားသော ပျော်ရည်။\n\nရှာလကာရည်နှင့် သံပုရာရည် နှစ်ခုစလုံးသည် Indicator ကို ဆင်တူသော လိမ္မော်-အနီရောင်သို့ ပြောင်းစေကာ pH ၃ နှင့် pH ၂ အသီးသီး ဖတ်ရသည် -- နှစ်ခုစလုံးသည် အားနည်းသော အက်ဆစ်များဖြစ်သော်လည်း သံပုရာရည်၏ အရောင်သည် စကေး၏ အနီရောင်ဘက်သို့ ပိုနီးသဖြင့် ၎င်းသည် နှစ်ခုအနက် ပို၍ ခိုင်မာသည်ဟု ရှင်သန့် မှတ်ချက်ပြုခဲ့သည်။ ရေပိုက်ရေမှာ pH ၇ ကို အတည်ပြုကာ အစိမ်းရောင် တည်ငြိမ်စွာ ရှိနေခဲ့ပြီး၊ အက်ဆစ် သို့မဟုတ် အယ်လကာလိုင်း မဟုတ်ပါ။ Baking Soda ပျော်ရည်သည် pH ၉ ခန့်ရှိသော ပန်းရောင်ဖျော့ အပြာရောင်သို့ ပြောင်းသွားကာ အနုအယ်လကာလိုင်း ဖြစ်ပြီး၊ Washing Soda ပျော်ရည်မှာမူ ဗီရိုစကာဗ်ထဲရှိ တူညီသော အဖြူရောင် မှုန့်ကဲ့သို့ ထင်ရသော်လည်း pH ၁၁ ခန့်နှင့် ပို၍နက်သော အပြာ-ခရမ်းရောင်သို့ ပြောင်းသွားကာ Baking Soda ထက် များစွာ ပို၍ ခိုင်မာသော အယ်လကာလိုင်း ဖြစ်ကြောင်း ဖော်ထုတ်ပေးခဲ့သည်။\n\nထို့နောက် ရှာလကာရည်နှင့် Washing Soda ပျော်ရည်ကို ညီမျှသော ပမာဏဖြင့် ရောစပ်ပါက အဘယ်ဖြစ်လာမည်ကို ခန့်မှန်းရန် ကိုဇော် သူမအား တောင်းဆိုခဲ့သည်။ တစ်ခုမှာ အက်ဆစ်ဖြစ်ပြီး အခြားတစ်ခုမှာ အယ်လကာလိုင်းဖြစ်သောကြောင့် တစ်ခုနှင့်တစ်ခု Neutralise ဖြစ်ကာ အက်ဆစ်မှ Hydrogen Ion များနှင့် အယ်လကာလိုင်းမှ Hydroxide Ion များ ပေါင်းစပ်ကာ ရေ ဖွဲ့စည်းလာပြီး Sodium နှင့် Acetate Ion များမှာ ပျော်ရည်ထဲတွင် ပျော်ဝင်သော ဆားတစ်မျိုးအဖြစ် ကျန်ရှိနေမည်ဟု ရှင်သန့် ကျိုးကြောင်းဆင်ခြင်ခဲ့သည်။ ရောစပ်ထားသော ပျော်ရည်ကို စမ်းသပ်ကြည့်သောအခါ Indicator သည် pH ၇ နှင့် အလွန်နီးစပ်သော အစိမ်းရောင်သို့ ပြောင်းသွားကာ သူမ၏ ခန့်မှန်းချက်ကို အတည်ပြုခဲ့သည် -- သို့သော် အရောင်ကို အစိမ်းရောင် အတိအကျ ရရှိစေရန် ကျပန်း ပက်ဖျန်းမှု မဟုတ်ဘဲ တိကျစွာ ကိုက်ညီသော ပမာဏများ ထည့်သွင်းရန် လိုအပ်ကြောင်း သူမ မှတ်ချက်ပြုခဲ့သည်၊ အကြောင်းမှာ တစ်ခုခုကို လိုအပ်သည်ထက် ပို၍ ထည့်ပါက ရောစပ်ထားသော ပျော်ရည်သည် စုစုပေါင်းအားဖြင့် အက်ဆစ် သို့မဟုတ် အယ်လကာလိုင်း ဆက်လက် ဖြစ်နေမည်ဖြစ်သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Shin Thant know lemon juice was a stronger acid than vinegar?",
+            questionMy:
+                "သံပုရာရည်သည် ရှာလကာရည်ထက် ပို၍ ခိုင်မာသော အက်ဆစ်ဖြစ်ကြောင်း ရှင်သန့် မည်သို့ သိခဲ့သနည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its colour sat closer to the red end of the pH scale (pH 2 vs pH 3)",
+              "It smelled stronger",
+              "It was a darker liquid before testing",
+              "Ko Zaw simply told her the answer",
+            ],
+            optionsMy: [
+              "၎င်း၏ အရောင်သည် pH စကေး၏ အနီရောင်ဘက်သို့ ပိုနီးသောကြောင့် (pH ၂ နှင့် pH ၃)",
+              "ရနံ့ ပို၍ ပြင်းသောကြောင့်",
+              "စမ်းသပ်ခြင်း မပြုမီ ပို၍ မှောင်သော အရည် ဖြစ်နေသောကြောင့်",
+              "ကိုဇော်က အဖြေကို ရိုးရိုးရှင်းရှင်း ပြောပြသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing the two colours on the pH scale.",
+            ],
+            hintsMy: [
+              "pH စကေးပေါ်ရှိ အရောင် နှစ်ခုကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was washing soda judged a stronger alkali than baking soda?",
+            questionMy:
+                "Washing Soda ကို Baking Soda ထက် ပို၍ ခိုင်မာသော အယ်လကာလိုင်းဟု သတ်မှတ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its solution turned a much deeper blue-purple, closer to pH 11 rather than pH 9",
+              "It looked like a different colour powder in the cupboard",
+              "It dissolved faster in water",
+              "It had a stronger smell than baking soda",
+            ],
+            optionsMy: [
+              "၎င်း၏ ပျော်ရည်သည် pH ၉ မဟုတ်ဘဲ pH ၁၁ နှင့် နီးစပ်သော ပို၍ နက်သော အပြာ-ခရမ်းရောင်သို့ ပြောင်းသွားသောကြောင့်",
+              "ဗီရိုစကာဗ်ထဲတွင် မတူညီသော အရောင် မှုန့်တစ်မျိုး ဖြစ်နေသောကြောင့်",
+              "ရေတွင် ပို၍ မြန်စွာ ပျော်ဝင်သောကြောင့်",
+              "Baking Soda ထက် ရနံ့ ပို၍ ပြင်းသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence comparing the two blue shades and approximate pH values.",
+            ],
+            hintsMy: [
+              "အပြာရောင် အသွင် နှစ်မျိုးနှင့် ခန့်မှန်း pH တန်ဖိုးများကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what forms when the hydrogen ions from vinegar combine with the hydroxide ions from washing soda solution?",
+            questionMy:
+                "ရှာလကာရည်မှ Hydrogen Ion များနှင့် Washing Soda ပျော်ရည်မှ Hydroxide Ion များ ပေါင်းစပ်သည့်အခါ အဘယ်အရာ ဖွဲ့စည်းလာသနည်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Water, while the remaining ions stay dissolved as a salt",
+              "A precipitate that sinks to the bottom",
+              "A new gas that bubbles out",
+              "Nothing at all -- the ions do not react",
+            ],
+            optionsMy: [
+              "ရေ၊ ကျန်ရှိနေသော Ion များမှာ ဆားတစ်မျိုးအဖြစ် ပျော်ရည်ထဲတွင် ပျော်ဝင်နေသည်",
+              "အောက်ခြေသို့ ကျသွားသော Precipitate",
+              "ပူဖောင်းထွက်လာသော ဓာတ်ငွေ့သစ်တစ်မျိုး",
+              "မည်သည့်အရာမျှ မဖြစ်ပေါ်ပါ -- Ion များ ဓာတ်မပြု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "This is the standard definition of neutralisation between an acid and an alkali.",
+            ],
+            hintsMy: [
+              "ဤသည်မှာ အက်ဆစ်နှင့် အယ်လကာလိုင်းကြား Neutralisation ၏ စံ အဓိပ္ပာယ်ဖွင့်ဆိုချက် ဖြစ်သည်။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why couldn't Shin Thant just add a random splash of each liquid to get exactly pH 7?",
+            questionMy:
+                "pH ၇ အတိအကျ ရရှိရန် အရည်တစ်ခုစီကို ကျပန်း ပက်ဖျန်း၍ မရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Too much of either acid or alkali would leave the mixture still acidic or still alkaline overall",
+              "Random amounts always produce exactly pH 7 regardless",
+              "The indicator only works with precisely measured amounts",
+              "Vinegar and washing soda cannot mix at all",
+            ],
+            optionsMy: [
+              "အက်ဆစ် သို့မဟုတ် အယ်လကာလိုင်း တစ်ခုခုကို လိုအပ်သည်ထက်ပို၍ ထည့်ပါက ရောစပ်ထားသော ပျော်ရည်သည် စုစုပေါင်းအားဖြင့် အက်ဆစ် သို့မဟုတ် အယ်လကာလိုင်း ဆက်လက်ဖြစ်နေမည်ဖြစ်သောကြောင့်",
+              "ကျပန်းပမာဏများသည် မည်သို့ပင်ဖြစ်စေ pH ၇ အတိအကျ အမြဲ ထုတ်ပေးသောကြောင့်",
+              "Indicator သည် တိကျစွာ တိုင်းတာထားသော ပမာဏများနှင့်သာ အလုပ်လုပ်သောကြောင့်",
+              "ရှာလကာရည်နှင့် Washing Soda သည် လုံးဝ ရောစပ်၍ မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the last clause of the passage explaining why precise amounts matter.",
+            ],
+            hintsMy: [
+              "တိကျသော ပမာဏများ အရေးကြီးရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာပိုဒ်၏ နောက်ဆုံး အပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Acids, Bases, and Oxides",
+      titleMy:
+          "ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - အက်ဆစ်၊ ဘေ့စ်နှင့် အောက်ဆိုဒ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A metal carbonate reacting with a dilute acid always produces a salt, water, and...",
+          questionMy:
+              "သတ္တု ကာဗွန်နိတ်တစ်ခုသည် ရေဖျော်အက်ဆစ်တစ်ခုနှင့် ဓာတ်ပြုသည့်အခါ ဆားနှင့် ရေအပြင် ...ကိုပါ အမြဲ ထုတ်ပေးသည်",
+          optionsEn: [
+            "Carbon dioxide gas",
+            "Hydrogen gas",
+            "Oxygen gas",
+            "Chlorine gas",
+          ],
+          optionsMy: [
+            "Carbon dioxide ဓာတ်ငွေ့",
+            "Hydrogen ဓာတ်ငွေ့",
+            "Oxygen ဓာတ်ငွေ့",
+            "Chlorine ဓာတ်ငွေ့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An amphoteric oxide reacts with...",
+          questionMy: "Amphoteric Oxide တစ်ခုသည် ...နှင့် ဓာတ်ပြုသည်",
+          optionsEn: [
+            "Both acids and bases",
+            "Only acids",
+            "Only bases",
+            "Neither acids nor bases",
+          ],
+          optionsMy: [
+            "အက်ဆစ်နှင့် ဘေ့စ် နှစ်မျိုးစလုံး",
+            "အက်ဆစ်သာ",
+            "ဘေ့စ်သာ",
+            "အက်ဆစ်သော်လည်းကောင်း၊ ဘေ့စ်သော်လည်းကောင်း မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "On the pH scale, a reading of exactly 7 represents...",
+          questionMy: "pH စကေးတွင် ၇ အတိအကျ ဖတ်ရခြင်းက ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "A neutral substance",
+            "A strong acid",
+            "A strong alkali",
+            "A weak alkali",
+          ],
+          optionsMy: [
+            "ကြားနေ ပစ္စည်းတစ်ခု",
+            "ခိုင်မာသော အက်ဆစ်တစ်ခု",
+            "ခိုင်မာသော အယ်လကာလိုင်းတစ်ခု",
+            "အားနည်းသော အယ်လကာလိုင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 18: "Preparation of Salts"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek18 = CourseWeekDef(
+  id: "course-igcse-chem-w18",
+  weekNumber: 18,
+  titleEn: "Preparation of Salts",
+  titleMy: "ဆားများ ပြင်ဆင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w18-d1",
+      dayNumber: 1,
+      titleEn: "Choosing a Salt Preparation Method",
+      titleMy: "ဆား ပြင်ဆင်ရေး နည်းလမ်း ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which rule correctly describes the solubility of common salts?",
+          questionMy:
+              "အသုံးများသော ဆားများ၏ ပျော်ဝင်နိုင်စွမ်းကို မှန်ကန်စွာ ဖော်ပြသော စည်းမျဉ်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "All nitrates are soluble; most sulfates are soluble except barium and lead sulfate; most carbonates are insoluble except sodium, potassium, and ammonium carbonate",
+            "All carbonates are soluble in water without exception",
+            "All sulfates are insoluble in water",
+            "Nitrates are always insoluble",
+          ],
+          optionsMy: [
+            "Nitrate အားလုံး ပျော်ဝင်သည်; Barium နှင့် Lead Sulfate မှလွဲ၍ Sulfate အများစု ပျော်ဝင်သည်; Sodium၊ Potassium နှင့် Ammonium Carbonate မှလွဲ၍ Carbonate အများစု မပျော်ဝင်",
+            "Carbonate အားလုံး ရေတွင် ချွင်းချက်မရှိ ပျော်ဝင်သည်",
+            "Sulfate အားလုံး ရေတွင် မပျော်ဝင်",
+            "Nitrate များသည် အမြဲတမ်း မပျော်ဝင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Solubility rules are a fixed set of facts to memorise for IGCSE Chemistry: all nitrates are soluble, and there are only a handful of exceptions among sulfates and carbonates.",
+          ],
+          hintsMy: [
+            "ပျော်ဝင်နိုင်စွမ်း စည်းမျဉ်းများသည် IGCSE ဓာတုဗေဒအတွက် အလွတ်ကျက်ရမည့် သတ်မှတ်ချက်များ ဖြစ်သည်- Nitrate အားလုံး ပျော်ဝင်ပြီး Sulfate နှင့် Carbonate များတွင် ချွင်းချက်ကား အနည်းငယ်သာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "To prepare a soluble salt like copper sulfate from an insoluble base like copper oxide, why is excess (not exact) copper oxide added to the sulfuric acid?",
+          questionMy:
+              "Copper Oxide ကဲ့သို့ မပျော်ဝင်သော ဘေ့စ်တစ်ခုမှ Copper Sulfate ကဲ့သို့ ပျော်ဝင်နိုင်သော ဆားတစ်ခုကို ပြင်ဆင်ရန် Sulfuric Acid ထဲသို့ Copper Oxide ကို အတိအကျမဟုတ်ဘဲ ပိုလျှံအောင် အဘယ်ကြောင့် ထည့်ရသနည်း။",
+          optionsEn: [
+            "To ensure all the acid reacts completely, leaving only unreacted solid to be filtered off, with no leftover acid in the salt solution",
+            "Because excess copper oxide reacts faster",
+            "To make the solution a different colour",
+            "Excess solid is always cheaper to buy",
+          ],
+          optionsMy: [
+            "အက်ဆစ်အားလုံး လုံးဝ ဓာတ်ပြု ကုန်စေရန်၊ ဓာတ်ပြုမှု မလုပ်ရသေးသော အစိုင်အခဲသာ ကျန်ရစ်ကာ စစ်ထုတ်ရန်၊ ဆားပျော်ရည်ထဲတွင် အက်ဆစ် ကျန်ရစ်ခြင်း မရှိစေရန်",
+            "ပိုလျှံသော Copper Oxide သည် ပို၍ မြန်စွာ ဓာတ်ပြုသောကြောင့်",
+            "ပျော်ရည်ကို မတူညီသော အရောင် ဖြစ်စေရန်",
+            "ပိုလျှံသော အစိုင်အခဲသည် ဝယ်ယူရန် အမြဲ ပို၍ ဈေးသက်သာသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If the acid were left in excess instead, the final evaporated salt would still contain unreacted, corrosive acid.",
+            "This 'excess solid' method works because unreacted solid copper oxide can simply be filtered out, but unreacted acid cannot.",
+          ],
+          hintsMy: [
+            "အက်ဆစ်ကို ပိုလျှံအောင် ချန်ထားလိုက်ပါက နောက်ဆုံး ရေခိုက်ခန်းသွင်းထားသော ဆားထဲတွင် ဓာတ်ပြုမှု မလုပ်ရသေးသော ဒေါက်ဆိုင်သော အက်ဆစ် ဆက်ကျန်နေဦးမည်ဖြစ်သည်။",
+            "ဓာတ်ပြုမှု မလုပ်ရသေးသော Copper Oxide အစိုင်အခဲကို စစ်ထုတ်ရုံဖြင့် ဖယ်ရှားနိုင်သော်လည်း ဓာတ်ပြုမှု မလုပ်ရသေးသော အက်ဆစ်ကို မဖယ်ရှားနိုင်သောကြောင့် ဤ 'ပိုလျှံအစိုင်အခဲ' နည်းလမ်းသည် အလုပ်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must the titration method (not the excess solid method) be used to prepare a soluble salt from sodium hydroxide and hydrochloric acid?",
+          questionMy:
+              "Sodium Hydroxide နှင့် Hydrochloric Acid တို့မှ ပျော်ဝင်နိုင်သော ဆားတစ်ခုကို ပြင်ဆင်ရန် ပိုလျှံအစိုင်အခဲ နည်းလမ်းအစား Titration နည်းလမ်းကို အသုံးပြုရသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Both sodium hydroxide and hydrochloric acid are soluble, so there is no undissolved excess solid to filter off and identify the endpoint",
+            "Sodium hydroxide is a gas, not a solid or liquid",
+            "Hydrochloric acid does not react with sodium hydroxide",
+            "Titration is always required for every single salt preparation",
+          ],
+          optionsMy: [
+            "Sodium Hydroxide နှင့် Hydrochloric Acid နှစ်ခုစလုံးသည် ပျော်ဝင်နိုင်သောကြောင့် စစ်ထုတ်ရန် သို့မဟုတ် အဆုံးမှတ်ကို ဖော်ထုတ်ရန် မပျော်ဝင်သော ပိုလျှံအစိုင်အခဲ မရှိပါ",
+            "Sodium Hydroxide သည် ဓာတ်ငွေ့ဖြစ်ပြီး အစိုင်အခဲ သို့မဟုတ် အရည် မဟုတ်သောကြောင့်",
+            "Hydrochloric Acid သည် Sodium Hydroxide နှင့် ဓာတ်မပြုသောကြောင့်",
+            "Titration ကို ဆားပြင်ဆင်ရေး တိုင်းအတွက် အမြဲ လိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An indicator and careful volume measurement are needed to find the exact point of neutralisation when both reactants are soluble solutions.",
+          ],
+          hintsMy: [
+            "ဓာတ်ပြုပစ္စည်း နှစ်ခုစလုံး ပျော်ရည်များ ဖြစ်သည့်အခါ Neutralisation ၏ အတိအကျ အချက်ကို ရှာဖွေရန် Indicator နှင့် သေချာသော ပမာဏ တိုင်းတာမှု လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Salt Preparation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆားပြင်ဆင်ရေး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w18-dm-1",
+          termEn: "Water of crystallisation",
+          termMy: "Water of Crystallisation",
+          matchEn:
+              "Water molecules chemically bound within the crystal structure of a hydrated salt",
+          matchMy:
+              "ရေဓာတ်ဖျော်ဆားတစ်ခု၏ ပုံဆောင်ခဲ ဖွဲ့စည်းပုံအတွင်း ဓာတုနည်းဖြင့် ချည်နှောင်ထားသော ရေမော်လီကျူးများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w18-dm-2",
+          termEn: "Hydrated",
+          termMy: "Hydrated",
+          matchEn:
+              "Containing water of crystallisation, such as blue hydrated copper sulfate (CuSO4.5H2O)",
+          matchMy:
+              "အပြာရောင် Hydrated Copper Sulfate (CuSO4.5H2O) ကဲ့သို့ Water of Crystallisation ပါဝင်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w18-dm-3",
+          termEn: "Precipitation",
+          termMy: "Precipitation",
+          matchEn:
+              "Mixing two soluble salt solutions so their ions combine to form an insoluble solid",
+          matchMy:
+              "ပျော်ဝင်နိုင်သော ဆားပျော်ရည် နှစ်မျိုးကို ရောစပ်ကာ ၎င်းတို့၏ Ion များ ပေါင်းစပ်၍ မပျော်ဝင်သော အစိုင်အခဲ ဖွဲ့စည်းစေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w18-dm-4",
+          termEn: "Filtration",
+          termMy: "Filtration",
+          matchEn:
+              "Separating an insoluble solid from a liquid by passing the mixture through filter paper",
+          matchMy:
+              "အရောအနှောကို စစ်ကာမျက်နှာဖြင့် ဖြတ်ကာ မပျော်ဝင်သော အစိုင်အခဲကို အရည်မှ ခွဲထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w18-dm-5",
+          termEn: "Crystallisation",
+          termMy: "Crystallisation",
+          matchEn:
+              "Slowly evaporating a saturated salt solution so that solid crystals form as it cools",
+          matchMy:
+              "ငြိမ်ဖြိုးသောဆားပျော်ရည်ကို ဖြည်းညင်းစွာ ငွေ့ပျံစေကာ အေးလာစဉ် ပုံဆောင်ခဲများ ဖွဲ့စည်းလာစေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Salt Preparation Method?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် ဆားပြင်ဆင်ရေး နည်းလမ်းနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Excess Solid Method",
+          "Titration Method",
+          "Precipitation Method",
+        ],
+        bucketsMy: [
+          "Excess Solid Method",
+          "Titration Method",
+          "Precipitation Method",
+        ],
+        items: [
+          SortingItem(
+            id: "igcsechem-w18-sort-1",
+            labelEn:
+                "Preparing copper sulfate from insoluble copper oxide and dilute sulfuric acid",
+            labelMy:
+                "မပျော်ဝင်သော Copper Oxide နှင့် ရေဖျော် Sulfuric Acid မှ Copper Sulfate ပြင်ဆင်ခြင်း",
+            correctBucketEn: "Excess Solid Method",
+            correctBucketMy: "Excess Solid Method",
+          ),
+          SortingItem(
+            id: "igcsechem-w18-sort-2",
+            labelEn:
+                "Preparing sodium chloride from soluble sodium hydroxide and soluble hydrochloric acid",
+            labelMy:
+                "ပျော်ဝင်သော Sodium Hydroxide နှင့် ပျော်ဝင်သော Hydrochloric Acid မှ Sodium Chloride ပြင်ဆင်ခြင်း",
+            correctBucketEn: "Titration Method",
+            correctBucketMy: "Titration Method",
+          ),
+          SortingItem(
+            id: "igcsechem-w18-sort-3",
+            labelEn:
+                "Preparing insoluble lead iodide by mixing lead nitrate solution with potassium iodide solution",
+            labelMy:
+                "Lead Nitrate ပျော်ရည်ကို Potassium Iodide ပျော်ရည်နှင့် ရောစပ်ကာ မပျော်ဝင်သော Lead Iodide ပြင်ဆင်ခြင်း",
+            correctBucketEn: "Precipitation Method",
+            correctBucketMy: "Precipitation Method",
+          ),
+          SortingItem(
+            id: "igcsechem-w18-sort-4",
+            labelEn:
+                "Preparing zinc sulfate from insoluble zinc carbonate and dilute sulfuric acid",
+            labelMy:
+                "မပျော်ဝင်သော Zinc Carbonate နှင့် ရေဖျော် Sulfuric Acid မှ Zinc Sulfate ပြင်ဆင်ခြင်း",
+            correctBucketEn: "Excess Solid Method",
+            correctBucketMy: "Excess Solid Method",
+          ),
+          SortingItem(
+            id: "igcsechem-w18-sort-5",
+            labelEn:
+                "Preparing insoluble barium sulfate by mixing barium chloride solution with sodium sulfate solution",
+            labelMy:
+                "Barium Chloride ပျော်ရည်ကို Sodium Sulfate ပျော်ရည်နှင့် ရောစပ်ကာ မပျော်ဝင်သော Barium Sulfate ပြင်ဆင်ခြင်း",
+            correctBucketEn: "Precipitation Method",
+            correctBucketMy: "Precipitation Method",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Growing Copper Sulfate Crystals",
+      titleMy:
+          "စာဖတ်ခြင်း - Copper Sulfate ပုံဆောင်ခဲများ ပြုစုပျိုးထောင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Growing Copper Sulfate Crystals",
+        titleMy: "Copper Sulfate ပုံဆောင်ခဲများ ပြုစုပျိုးထောင်ခြင်း",
+        passageEn:
+            "For her practical assessment, Shin Thant was set the classic IGCSE task of preparing pure, dry crystals of hydrated copper sulfate starting from black copper oxide powder and dilute sulfuric acid. Ko Zaw reminded her of the golden rule before she began: copper oxide is insoluble, so it must be added in excess to guarantee every last trace of the acid reacts.\n\nShe warmed a measured volume of dilute sulfuric acid gently in a beaker, then added copper oxide powder a spatula at a time, stirring after each addition. As the reaction proceeded, the mixture turned from colourless to a deepening blue, since copper sulfate solution is blue. She kept adding copper oxide until a layer of unreacted black powder remained visible and undissolved at the bottom even after stirring -- proof, Ko Zaw confirmed, that all the acid had been used up and no unreacted acid remained in solution.\n\nShin Thant then filtered the mixture through filter paper into a clean evaporating basin, leaving the excess black copper oxide behind on the paper and collecting only the clear blue filtrate. She gently heated the filtrate to evaporate off some of the water, testing readiness by dipping a glass rod into the solution and checking whether crystals formed on cooling at the rod's tip -- a saturated solution. Finally, she left the basin undisturbed for several days to cool and crystallise slowly, allowing large, well-formed blue crystals of hydrated copper sulfate to grow, rather than rushing the evaporation to dryness, which would have produced only a fine powder instead of proper crystals.",
+        passageMy:
+            "သူမ၏ လက်တွေ့ အကဲဖြတ်မှုအတွက် ရှင်သန့်သည် အနက်ရောင် Copper Oxide မှုန့်နှင့် ရေဖျော် Sulfuric Acid မှစတင်ကာ ရေဓာတ်ဖျော် Copper Sulfate ၏ စင်ကြယ်၍ ခြောက်သွေ့သော ပုံဆောင်ခဲများကို ပြင်ဆင်ရန် ဆန်းပြားသော IGCSE တာဝန်ကို ရရှိခဲ့သည်။ Copper Oxide သည် မပျော်ဝင်သောကြောင့် အက်ဆစ်၏ နောက်ဆုံးအထိ ဓာတ်ပြု ကုန်စေရန် ပိုလျှံအောင် ထည့်ရမည်ဆိုသော ရွှေစည်းမျဉ်းကို ကိုဇော်သည် သူမ မစတင်မီ သတိပေးခဲ့သည်။\n\nသူမသည် ရေဖျော် Sulfuric Acid တိုင်းတာထားသော ပမာဏတစ်ခုကို ဘီကာထဲတွင် ဖြည်းညင်းစွာ နွေးအောင်လုပ်ပြီး Copper Oxide မှုန့်ကို ဇွန်းငယ်တစ်ဇွန်းစီ ထည့်ကာ ထည့်တိုင်း လှုပ်ရှားခဲ့သည်။ ဓာတ်ပြုမှု ဆက်လက်ဖြစ်ပေါ်နေစဉ် Copper Sulfate ပျော်ရည်သည် အပြာရောင် ဖြစ်သောကြောင့် အရောအနှောသည် အရောင်မဲ့မှ တဖြည်းဖြည်း အပြာရောင် နက်သွားခဲ့သည်။ လှုပ်ရှားပြီးနောက်တွင်ပင် အောက်ခြေတွင် ဓာတ်ပြုမှု မလုပ်ရသေးသော အနက်ရောင် မှုန့်အလွှာ မပျော်ဝင်ဘဲ မြင်နေရအထိ Copper Oxide ကို ဆက်လက် ထည့်ခဲ့သည် -- ၎င်းသည် အက်ဆစ်အားလုံး သုံးစွဲပြီးဖြစ်ကာ ပျော်ရည်ထဲတွင် ဓာတ်ပြုမှု မလုပ်ရသေးသော အက်ဆစ် ကျန်ရစ်ခြင်း မရှိတော့ကြောင်း သက်သေအထောက်အထားဖြစ်သည်ဟု ကိုဇော် အတည်ပြုခဲ့သည်။\n\nထို့နောက် ရှင်သန့်သည် အရောအနှောကို စစ်ကာမျက်နှာဖြင့် သန့်ရှင်းသော ငွေ့ပျံစေသည့် ခွက်ထဲသို့ စစ်ထုတ်ကာ ပိုလျှံသော အနက်ရောင် Copper Oxide ကို စက္ကူပေါ်တွင် ကျန်ရစ်စေပြီး ပြင်းလင်းသော အပြာရောင် Filtrate ကိုသာ စုဆောင်းခဲ့သည်။ ရေအနည်းငယ်ကို ငွေ့ပျံစေရန် Filtrate ကို ဖြည်းညင်းစွာ အပူပေးကာ ဖန်ချောင်းတစ်ချောင်းကို ပျော်ရည်ထဲသို့ နှစ်ချကာ ချောင်း၏ အဖျားတွင် အေးသွားစဉ် ပုံဆောင်ခဲများ ဖွဲ့စည်းမည်လား စစ်ဆေးခြင်းဖြင့် အသင့်ဖြစ်မှုကို စစ်ဆေးခဲ့သည် -- ၎င်းသည် ငြိမ်ဖြိုးသော ပျော်ရည်တစ်ခု ဖြစ်သည်။ နောက်ဆုံးတွင် သူမသည် ခွက်ကို ရက်သတ္တပတ် အနည်းငယ်ကြာ မထိမထိန်း ချန်ထားကာ ဖြည်းညင်းစွာ အေးစေပြီး ပုံဆောင်ခဲပေါင်းစေခဲ့သည်၊ ခြောက်သွေ့သည်အထိ ငွေ့ပျံမှုကို အလျင်စလို လုပ်ခြင်းအစား ဤသို့ ပြုလုပ်ခြင်းက ရေဓာတ်ဖျော် Copper Sulfate ၏ ကြီးမားပြီး ကောင်းစွာ ပုံသဏ္ဌာန်ဖော်ထားသော အပြာရောင် ပုံဆောင်ခဲကြီးများ ကြီးထွားလာစေခဲ့သည်၊ အလျင်စလို ငွေ့ပျံစေခဲ့ပါက မှုန့်ညက်ငယ်ကိုသာ ရရှိမည်ဖြစ်ပြီး မှန်ကန်သော ပုံဆောင်ခဲများ ရလိမ့်မည် မဟုတ်ချေ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why must copper oxide be added in excess?",
+            questionMy:
+                "Copper Oxide ကို ပိုလျှံအောင် ထည့်ရမည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To guarantee every last trace of the acid reacts, since copper oxide is insoluble and easy to filter out",
+              "Because copper oxide is very expensive",
+              "To make the solution a darker colour",
+              "Because sulfuric acid is insoluble in water",
+            ],
+            optionsMy: [
+              "Copper Oxide သည် မပျော်ဝင်၍ စစ်ထုတ်ရန် လွယ်ကူသောကြောင့် အက်ဆစ်၏ နောက်ဆုံးအထိ ဓာတ်ပြု ကုန်ကြောင်း အာမခံရန်",
+              "Copper Oxide သည် အလွန် ဈေးကြီးသောကြောင့်",
+              "ပျော်ရည်ကို ပို၍ မှောင်သော အရောင် ဖြစ်စေရန်",
+              "Sulfuric Acid သည် ရေတွင် မပျော်ဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence with the 'golden rule' Ko Zaw stated.",
+            ],
+            hintsMy: [
+              "ကိုဇော် ပြောကြားခဲ့သော 'ရွှေစည်းမျဉ်း' ပါဝင်သော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what confirmed that all the acid had reacted?",
+            questionMy:
+                "အက်ဆစ်အားလုံး ဓာတ်ပြုပြီးကြောင်း အဘယ်အရာက အတည်ပြုခဲ့သနည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A layer of unreacted black powder remained visible and undissolved at the bottom even after stirring",
+              "The solution turned completely colourless",
+              "The beaker cracked",
+              "Bubbles stopped forming immediately",
+            ],
+            optionsMy: [
+              "လှုပ်ရှားပြီးနောက်တွင်ပင် ဓာတ်ပြုမှု မလုပ်ရသေးသော အနက်ရောင် မှုန့်အလွှာ မပျော်ဝင်ဘဲ မြင်နေရသေးခြင်း",
+              "ပျော်ရည်သည် လုံးဝ အရောင်မဲ့ ဖြစ်သွားခြင်း",
+              "ဘီကာ ကွဲသွားခြင်း",
+              "ပူဖောင်းများ ချက်ချင်း ဖြစ်ပေါ်ခြင်း ရပ်တန့်သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what Ko Zaw confirmed as proof.",
+            ],
+            hintsMy: [
+              "ကိုဇော် သက်သေအထောက်အထားအဖြစ် အတည်ပြုခဲ့သော အချက်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Shin Thant leave the basin undisturbed for several days instead of rapidly evaporating it to dryness?",
+            questionMy:
+                "ခွက်ကို ခြောက်သွေ့သည်အထိ အမြန် ငွေ့ပျံစေခြင်းအစား ရက်သတ္တပတ် အနည်းငယ် မထိမထိန်း ချန်ထားရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Slow cooling allows large, well-formed crystals to grow, while rapid evaporation would only produce a fine powder",
+              "It was simply more convenient for her schedule",
+              "Rapid evaporation would have destroyed the copper sulfate entirely",
+              "The filter paper needed extra time to dry separately",
+            ],
+            optionsMy: [
+              "ဖြည်းညင်းစွာ အေးစေခြင်းက ကြီးမား၍ ကောင်းစွာ ပုံသဏ္ဌာန်ဖော်ထားသော ပုံဆောင်ခဲများ ကြီးထွားစေသော်လည်း အမြန် ငွေ့ပျံစေခြင်းက မှုန့်ညက်ငယ်ကိုသာ ထုတ်ပေးမည်ဖြစ်သောကြောင့်",
+              "သူမ၏ အချိန်ဇယားအတွက် ပို၍ အဆင်ပြေသောကြောင့်",
+              "အမြန် ငွေ့ပျံစေခြင်းက Copper Sulfate ကို လုံးဝ ဖျက်ဆီးမည်ဖြစ်သောကြောင့်",
+              "စစ်ကာမျက်နှာ စက္ကူသည် သီးခြား ခြောက်သွေ့ရန် အချိန်ပို လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the last sentence contrasting slow crystallisation with rapid evaporation to dryness.",
+            ],
+            hintsMy: [
+              "ဖြည်းညင်းသော ပုံဆောင်ခဲပေါင်းခြင်းနှင့် ခြောက်သွေ့သည်အထိ အမြန် ငွေ့ပျံစေခြင်းကို နှိုင်းယှဉ်ထားသော နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Salt Preparation",
+      titleMy: "ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆားပြင်ဆင်ရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The excess solid method is used when the base is...",
+          questionMy:
+              "ဘေ့စ်သည် ...ဖြစ်သည့်အခါ Excess Solid Method ကို အသုံးပြုသည်",
+          optionsEn: ["Insoluble", "Soluble", "A gas", "A strong acid"],
+          optionsMy: ["မပျော်ဝင်", "ပျော်ဝင်", "ဓာတ်ငွေ့", "ခိုင်မာသော အက်ဆစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Precipitation is used to prepare a salt that is...",
+          questionMy:
+              "ဆားတစ်မျိုးသည် ...ဖြစ်ပါက ၎င်းကို ပြင်ဆင်ရန် Precipitation ကို အသုံးပြုသည်",
+          optionsEn: [
+            "Insoluble",
+            "Soluble",
+            "A gas at room temperature",
+            "An alkali",
+          ],
+          optionsMy: [
+            "မပျော်ဝင်",
+            "ပျော်ဝင်",
+            "အခန်းအပူချိန်တွင် ဓာတ်ငွေ့",
+            "အယ်လကာလိုင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Water of crystallisation refers to water molecules that are...",
+          questionMy:
+              "Water of Crystallisation ဆိုသည်မှာ ...ရေမော်လီကျူးများကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Chemically bound within a hydrated crystal's structure",
+            "Simply mixed in as an impurity",
+            "Never actually present in any salt",
+            "Only found in gases",
+          ],
+          optionsMy: [
+            "ရေဓာတ်ဖျော် ပုံဆောင်ခဲ၏ ဖွဲ့စည်းပုံအတွင်း ဓာတုနည်းဖြင့် ချည်နှောင်ထားခြင်း",
+            "ညစ်ညမ်းစေသောပစ္စည်းအဖြစ် ရိုးရိုးရှင်းရှင်း ရောစပ်ထားခြင်း",
+            "ဆားမည်သည်တွင်မျှ အမှန်တကယ် လုံးဝ မရှိခြင်း",
+            "ဓာတ်ငွေ့များတွင်သာ တွေ့ရှိရခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 19: "The Periodic Table Trends"
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek19 = CourseWeekDef(
+  id: "course-igcse-chem-w19",
+  weekNumber: 19,
+  titleEn: "The Periodic Table Trends",
+  titleMy: "ဒြပ်စင်အလှည့်ကျဇယား လက္ခဏာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w19-d1",
+      dayNumber: 1,
+      titleEn: "Group I: The Alkali Metals",
+      titleMy: "အုပ်စု ၁ - Alkali သတ္တုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does reactivity increase going down Group I from lithium to potassium?",
+          questionMy:
+              "Lithium မှ Potassium သို့ Group I အောက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်း တိုးလာသည့် အကြောင်းရင်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "The single outer-shell electron is further from the nucleus and more shielded, so it is lost more easily",
+            "Lower atoms have more protons pulling electrons in tightly",
+            "The atoms get physically smaller down the group",
+            "Reactivity has nothing to do with electron arrangement",
+          ],
+          optionsMy: [
+            "အပြင်ဆုံးအခွံရှိ Electron တစ်လုံးသည် နျူကလိယပ်နှင့် ပို၍ ဝေးကွာပြီး Shielding ပို၍ များသဖြင့် ပို၍ လွယ်ကူစွာ ဆုံးရှုံးသည်",
+            "အောက်ဘက်ရှိ အက်တမ်များတွင် Electron များကို တင်းတင်းကျပ်ကျပ် ဆွဲငင်ပေးသော Proton ပို၍ များသည်",
+            "အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် အက်တမ်များသည် ရုပ်ပိုင်းဆိုင်ရာ ပို၍ သေးငယ်လာသည်",
+            "ဓာတ်ပြုနိုင်စွမ်းသည် Electron စီစဉ်ပုံနှင့် မည်သည့်ဆက်နွှယ်မှုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Group I metals lose their single outer electron to form a +1 ion; the easier that electron is to lose, the more reactive the metal.",
+            "Going down the group, atoms get larger, so the outer electron sits further away and is shielded by more inner shells.",
+          ],
+          hintsMy: [
+            "Group I သတ္တုများသည် +1 Ion ဖွဲ့စည်းရန် အပြင်ဆုံးအခွံရှိ Electron တစ်လုံးကို ဆုံးရှုံးသည်; ထို Electron ကို ဆုံးရှုံးရန် ပို၍ လွယ်ကူလေ၊ သတ္တုသည် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိလေ ဖြစ်သည်။",
+            "အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် အက်တမ်များသည် ပို၍ ကြီးလာပြီး အပြင်ဆုံး Electron သည် ပို၍ ဝေးကွာစွာ နေရာယူကာ အတွင်းပိုင်း အခွံများ ပို၍ များစွာ Shield လုပ်ခံရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "When sodium reacts with water, which two products form?",
+          questionMy:
+              "Sodium သည် ရေနှင့် ဓာတ်ပြုသည့်အခါ ထွက်ကုန် နှစ်မျိုးကား အဘယ်နည်း။",
+          optionsEn: [
+            "Sodium hydroxide solution and hydrogen gas",
+            "Sodium oxide and oxygen gas",
+            "Sodium chloride and chlorine gas",
+            "Sodium carbonate and carbon dioxide",
+          ],
+          optionsMy: [
+            "Sodium Hydroxide ပျော်ရည်နှင့် Hydrogen ဓာတ်ငွေ့",
+            "Sodium Oxide နှင့် Oxygen ဓာတ်ငွေ့",
+            "Sodium Chloride နှင့် Chlorine ဓာတ်ငွေ့",
+            "Sodium Carbonate နှင့် Carbon Dioxide",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "2Na + 2H2O -> 2NaOH + H2. Sodium fizzes, may melt into a ball, and can ignite from the heat of reaction.",
+          ],
+          hintsMy: [
+            "2Na + 2H2O -> 2NaOH + H2 ။ Sodium သည် ဖူးဖူးထစီးကာ လုံးပြင်အဖြစ် အရည်ပျော်တတ်ပြီး ဓာတ်ပြုမှုအပူကြောင့် မီးလည်း ရှို့ချနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of these is a correctly stated physical property of the Group I alkali metals?",
+          questionMy:
+              "Group I Alkali သတ္တုများ၏ မှန်ကန်စွာ ဖော်ပြထားသော ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိကား အဘယ်နည်း။",
+          optionsEn: [
+            "They are soft enough to be cut with a knife and have low density -- lithium, sodium, and potassium all float on water",
+            "They are extremely hard, dense metals like transition metals",
+            "They have very high melting points, well above 1000C",
+            "They are completely unreactive with water and air",
+          ],
+          optionsMy: [
+            "ဓားဖြင့် ဖြတ်နိုင်လောက်အောင် နူးညံ့ပြီး သိပ်သည်းဆ နည်းသည် -- Lithium၊ Sodium နှင့် Potassium အားလုံးသည် ရေပေါ်တွင် မျောနေသည်",
+            "Transition Metals များကဲ့သို့ ခက်ခဲ၍ သိပ်သည်းဆ များသည်",
+            "1000C ထက် များစွာ မြင့်သော အရည်ပျော်ချိန် ရှိသည်",
+            "ရေနှင့် လေနှင့် လုံးဝ ဓာတ်မပြု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Group I metals have a distinctively low melting point and density compared to typical metals, which decreases further down the group.",
+          ],
+          hintsMy: [
+            "Group I သတ္တုများသည် ပုံမှန် သတ္တုများနှင့် နှိုင်းယှဉ်လျှင် ထင်ရှားစွာ နိမ့်သော အရည်ပျော်ချိန်နှင့် သိပ်သည်းဆ ရှိပြီး အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ထပ်မံ လျော့ကျသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Periodic Table Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဒြပ်စင်အလှည့်ကျဇယား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w19-dm-1",
+          termEn: "Halogen",
+          termMy: "Halogen",
+          matchEn:
+              "A Group VII non-metal existing as diatomic molecules, such as chlorine (Cl2) or bromine (Br2)",
+          matchMy:
+              "Chlorine (Cl2) သို့မဟုတ် Bromine (Br2) ကဲ့သို့ Diatomic မော်လီကျူးများအဖြစ် ရှိနေသော Group VII သတ္တုမဟုတ်သည့် ဒြပ်စင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w19-dm-2",
+          termEn: "Displacement reaction",
+          termMy: "Displacement Reaction",
+          matchEn:
+              "A reaction in which a more reactive halogen displaces a less reactive one from a solution of its salt",
+          matchMy:
+              "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော Halogen တစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း နည်းသော Halogen တစ်ခုကို ၎င်း၏ ဆားပျော်ရည်မှ နေရာလွှဲပြောင်းစေသော ဓာတ်ပြုမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w19-dm-3",
+          termEn: "Noble gas",
+          termMy: "Noble Gas",
+          matchEn:
+              "A Group VIII/0 element with a full outer electron shell, making it almost completely unreactive",
+          matchMy:
+              "အပြင်ဆုံးအခွံ Electron အပြည့် ရှိကာ ဓာတ်ပြုနိုင်စွမ်း လုံးဝနီးပါး မရှိစေသော Group VIII/0 ဒြပ်စင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w19-dm-4",
+          termEn: "Transition element",
+          termMy: "Transition Element",
+          matchEn:
+              "A dense, high-melting-point metal that forms coloured compounds and often acts as a catalyst",
+          matchMy:
+              "သိပ်သည်းဆမြင့်၊ အရည်ပျော်ချိန်မြင့်ပြီး အရောင်ရှိသော ဒြပ်ပေါင်းများ ဖွဲ့စည်းကာ Catalyst အဖြစ် မကြာခဏ လုပ်ဆောင်သော သတ္တု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w19-dm-5",
+          termEn: "Periodicity",
+          termMy: "Periodicity",
+          matchEn:
+              "The repeating pattern of physical and chemical properties across periods of the Periodic Table",
+          matchMy:
+              "ဒြပ်စင်အလှည့်ကျဇယား၏ အတန်းများတစ်လျှောက် ရုပ်ပိုင်းနှင့် ဓာတုဂုဏ်သတ္တိများ ထပ်ခါထပ်ခါ ပုံစံပေါ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Group I, Group VII, Noble Gas, or Transition Metal?",
+      titleMy:
+          "စီစစ်ကြမည် - Group I လား၊ Group VII လား၊ Noble Gas လား၊ Transition Metal လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Group I", "Group VII", "Noble Gas", "Transition Metal"],
+        bucketsMy: ["Group I", "Group VII", "Noble Gas", "Transition Metal"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w19-sort-1",
+            labelEn:
+                "Soft, low-density metal that reacts vigorously with water to release hydrogen",
+            labelMy:
+                "ရေနှင့် ပြင်းထန်စွာ ဓာတ်ပြုကာ Hydrogen လွှတ်ပေးသော နူးညံ့၍ သိပ်သည်းဆနည်းသော သတ္တု",
+            correctBucketEn: "Group I",
+            correctBucketMy: "Group I",
+          ),
+          SortingItem(
+            id: "igcsechem-w19-sort-2",
+            labelEn:
+                "Reactivity decreases going down the group; chlorine is more reactive than iodine",
+            labelMy:
+                "Chlorine သည် Iodine ထက် ပို၍ ဓာတ်ပြုနိုင်စွမ်းရှိပြီး အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်း လျော့ကျသည်",
+            correctBucketEn: "Group VII",
+            correctBucketMy: "Group VII",
+          ),
+          SortingItem(
+            id: "igcsechem-w19-sort-3",
+            labelEn:
+                "Full outer electron shell; used to fill electric light bulbs due to its inertness",
+            labelMy:
+                "အပြင်ဆုံးအခွံ Electron အပြည့်ရှိပြီး ဓာတ်ပြုနိုင်စွမ်း မရှိသောကြောင့် လျှပ်စစ်မီးသီးထဲ ဖြည့်စွက်ရန် အသုံးပြု",
+            correctBucketEn: "Noble Gas",
+            correctBucketMy: "Noble Gas",
+          ),
+          SortingItem(
+            id: "igcsechem-w19-sort-4",
+            labelEn:
+                "Forms coloured compounds and acts as a catalyst in the Haber process",
+            labelMy:
+                "အရောင်ရှိသော ဒြပ်ပေါင်းများ ဖွဲ့စည်းပြီး Haber Process တွင် Catalyst အဖြစ် လုပ်ဆောင်သည်",
+            correctBucketEn: "Transition Metal",
+            correctBucketMy: "Transition Metal",
+          ),
+          SortingItem(
+            id: "igcsechem-w19-sort-5",
+            labelEn:
+                "Melting point decreases going down the group, from lithium to caesium",
+            labelMy:
+                "Lithium မှ Caesium သို့ အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် အရည်ပျော်ချိန် လျော့ကျသည်",
+            correctBucketEn: "Group I",
+            correctBucketMy: "Group I",
+          ),
+          SortingItem(
+            id: "igcsechem-w19-sort-6",
+            labelEn:
+                "A more reactive member can displace a less reactive one from an aqueous salt solution",
+            labelMy:
+                "ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော အဖွဲ့ဝင်တစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း နည်းသော အဖွဲ့ဝင်တစ်ခုကို ရေဓာတ်ဖျော် ဆားပျော်ရည်မှ နေရာလွှဲပြောင်းနိုင်သည်",
+            correctBucketEn: "Group VII",
+            correctBucketMy: "Group VII",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Halogen Displacement Demonstration",
+      titleMy: "စာဖတ်ခြင်း - Halogen နေရာလွှဲပြောင်းမှု သရုပ်ပြခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Halogen Displacement Demonstration",
+        titleMy: "Halogen နေရာလွှဲပြောင်းမှု သရုပ်ပြခြင်း",
+        passageEn:
+            "Ko Zaw set up three test tubes for Shin Thant: one containing potassium chloride solution, one containing potassium bromide solution, and one containing potassium iodide solution. To each, he added a small amount of pale green chlorine water and asked her to record what she observed.\n\nThe potassium chloride tube showed no visible change at all, since chlorine cannot displace another chlorine already present. The potassium bromide tube turned a distinct orange colour, and the potassium iodide tube turned a deep brown, almost black. Shin Thant explained the pattern using reactivity: chlorine, sitting above bromine and iodine in Group VII, is more reactive because its outer shell is closer to the nucleus, making it easier to gain the extra electron needed to form a halide ion. Since chlorine is more reactive than both bromine and iodine, it successfully displaced bromide ions to form free bromine (the orange colour) and displaced iodide ions to form free iodine (the brown-black colour), while chloride ions -- already the least reactive halide present -- underwent no such displacement.\n\nKo Zaw then asked what would happen if she reversed the experiment, adding iodine water to a tube of potassium chloride solution instead. Shin Thant correctly predicted no reaction would occur, since iodine sits below chlorine in the group and is therefore less reactive -- a less reactive halogen can never displace a more reactive one from its salt solution. This asymmetry, she realised, was the exact mirror image of what she had learned about Group I the week before: while reactivity increases going down Group I, it decreases going down Group VII, a contrast worth remembering carefully for the exam.",
+        passageMy:
+            "ကိုဇော်သည် ရှင်သန့်အတွက် စမ်းသပ်ပြွန် သုံးလုံး စီစဉ်ပေးခဲ့သည် - Potassium Chloride ပျော်ရည် ပါဝင်သည့် တစ်လုံး၊ Potassium Bromide ပျော်ရည် ပါဝင်သည့် တစ်လုံးနှင့် Potassium Iodide ပျော်ရည် ပါဝင်သည့် တစ်လုံး။ တစ်ခုစီထဲသို့ ပန်းရောင်ဖျော့ အစိမ်းရောင် Chlorine ရေအနည်းငယ် ထည့်ပြီး သူမ မြင်တွေ့ရသည်ကို မှတ်တမ်းတင်ရန် တောင်းဆိုခဲ့သည်။\n\nPotassium Chloride ပြွန်တွင် မြင်နိုင်သော ပြောင်းလဲမှု လုံးဝ မရှိခဲ့ပါ၊ အကြောင်းမှာ Chlorine သည် ရှိပြီးသား Chlorine တစ်ခုကို နေရာလွှဲပြောင်း၍ မရသောကြောင့် ဖြစ်သည်။ Potassium Bromide ပြွန်သည် ထင်ရှားသော လိမ္မော်ရောင်သို့ ပြောင်းသွားပြီး Potassium Iodide ပြွန်သည် အနက်ရောင်နှင့် နီးစပ်သော အညိုရောင် နက်သို့ ပြောင်းသွားခဲ့သည်။ ရှင်သန့်သည် ဓာတ်ပြုနိုင်စွမ်းကို အသုံးပြု၍ ဤပုံစံကို ရှင်းပြခဲ့သည် - Group VII တွင် Bromine နှင့် Iodine အပေါ်တွင် ရှိနေသော Chlorine သည် ၎င်း၏ အပြင်ဆုံးအခွံသည် နျူကလိယပ်နှင့် ပို၍ နီးကပ်သောကြောင့် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိကာ Halide Ion ဖွဲ့စည်းရန် လိုအပ်သော ထပ်ဆောင်း Electron ကို ရယူရန် ပို၍ လွယ်ကူသည်။ Chlorine သည် Bromine နှင့် Iodine နှစ်ခုစလုံးထက် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသောကြောင့် Bromide Ion များကို အောင်မြင်စွာ နေရာလွှဲပြောင်းကာ လွတ်လပ်သော Bromine (လိမ္မော်ရောင်) ဖွဲ့စည်းစေပြီး Iodide Ion များကို နေရာလွှဲပြောင်းကာ လွတ်လပ်သော Iodine (အညိုရောင် နက်) ဖွဲ့စည်းစေခဲ့သည်၊ ရှိနေပြီးသား Halide များအနက် ဓာတ်ပြုနိုင်စွမ်း အနည်းဆုံး ဖြစ်သော Chloride Ion များမှာမူ ထိုသို့ နေရာလွှဲပြောင်းမှု လုံးဝ မခံစားရပါ။\n\nထို့နောက် စမ်းသပ်မှုကို ပြောင်းပြန်လှန်ကာ Potassium Chloride ပျော်ရည် ပြွန်ထဲသို့ Iodine ရေ ထည့်ပါက အဘယ်ဖြစ်လာမည်ကို ကိုဇော် မေးမြန်းခဲ့သည်။ Iodine သည် အုပ်စုတွင် Chlorine အောက်တွင် ရှိနေပြီး ထို့ကြောင့် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့် ဓာတ်ပြုမှု လုံးဝ မဖြစ်ပေါ်ကြောင်း ရှင်သန့် မှန်ကန်စွာ ခန့်မှန်းခဲ့သည် -- ဓာတ်ပြုနိုင်စွမ်း နည်းသော Halogen တစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော Halogen တစ်ခုကို ၎င်း၏ ဆားပျော်ရည်မှ ဘယ်တော့မှ နေရာလွှဲပြောင်း၍ မရပါ။ ဤ မညီမျှမှုသည် ပြီးခဲ့သော အပတ်က Group I အကြောင်း သင်ယူခဲ့ရသည်နှင့် အတိအကျ ရောင်ပြန်ဟပ်နေသည်ကို သူမ သဘောပေါက်ခဲ့သည် - Group I ၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်း တိုးလာသော်လည်း Group VII ၏ အောက်ဘက်သို့ ဆင်းသွားစဉ်မူ လျော့ကျသည်၊ ဤကွာခြားချက်ကို စာမေးပွဲအတွက် သေချာစွာ မှတ်ထားသင့်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the potassium chloride tube show no visible change?",
+            questionMy:
+                "Potassium Chloride ပြွန်တွင် မြင်နိုင်သော ပြောင်းလဲမှု မရှိသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chlorine cannot displace another chlorine already present",
+              "Potassium chloride does not dissolve in water",
+              "Chlorine water was not actually added to this tube",
+              "The tube was defective",
+            ],
+            optionsMy: [
+              "Chlorine သည် ရှိပြီးသား Chlorine တစ်ခုကို နေရာလွှဲပြောင်း၍ မရသောကြောင့်",
+              "Potassium Chloride သည် ရေတွင် မပျော်ဝင်သောကြောင့်",
+              "ဤပြွန်ထဲသို့ Chlorine ရေကို အမှန်တကယ် မထည့်ခဲ့သောကြောင့်",
+              "ပြွန်သည် ချို့ယွင်းနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why is chlorine more reactive than bromine and iodine?",
+            questionMy:
+                "Chlorine သည် Bromine နှင့် Iodine တို့ထက် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its outer shell is closer to the nucleus, making it easier to gain an extra electron",
+              "It is a lighter-coloured gas",
+              "It has more protons than bromine and iodine combined",
+              "It is a solid rather than a gas",
+            ],
+            optionsMy: [
+              "၎င်း၏ အပြင်ဆုံးအခွံသည် နျူကလိယပ်နှင့် ပို၍ နီးကပ်သဖြင့် ထပ်ဆောင်း Electron ရယူရန် ပို၍ လွယ်ကူသောကြောင့်",
+              "ပို၍ ဖျော့သော အရောင် ရှိသော ဓာတ်ငွေ့ ဖြစ်သောကြောင့်",
+              "Bromine နှင့် Iodine ပေါင်းထားသည်ထက် Proton ပို၍ များသောကြောင့်",
+              "ဓာတ်ငွေ့မဟုတ်ဘဲ အစိုင်အခဲ ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining Shin Thant's explanation of the reactivity pattern.",
+            ],
+            hintsMy: [
+              "ဓာတ်ပြုနိုင်စွမ်းပုံစံအကြောင်း ရှင်သန့်၏ ရှင်းပြချက်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Shin Thant predict would happen if iodine water were added to potassium chloride solution?",
+            questionMy:
+                "Iodine ရေကို Potassium Chloride ပျော်ရည်ထဲသို့ ထည့်ပါက အဘယ်ဖြစ်လာမည်ဟု ရှင်သန့် ခန့်မှန်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No reaction would occur, since iodine is less reactive than chlorine",
+              "A vigorous reaction producing a new gas",
+              "The solution would turn purple immediately",
+              "The chlorine would be displaced by the iodine",
+            ],
+            optionsMy: [
+              "Iodine သည် Chlorine ထက် ဓာတ်ပြုနိုင်စွမ်း နည်းသောကြောင့် ဓာတ်ပြုမှု လုံးဝ မဖြစ်ပေါ်ပါ",
+              "ဓာတ်ငွေ့သစ်တစ်မျိုး ထုတ်ပေးသော ပြင်းထန်သော ဓာတ်ပြုမှု",
+              "ပျော်ရည်သည် ချက်ချင်း ခရမ်းရောင် ဖြစ်သွားမည်",
+              "Chlorine ကို Iodine က နေရာလွှဲပြောင်းလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "A less reactive halogen can never displace a more reactive one from its salt solution.",
+            ],
+            hintsMy: [
+              "ဓာတ်ပြုနိုင်စွမ်း နည်းသော Halogen တစ်ခုသည် ဓာတ်ပြုနိုင်စွမ်း ပို၍ ရှိသော Halogen တစ်ခုကို ၎င်း၏ ဆားပျော်ရည်မှ ဘယ်တော့မှ နေရာလွှဲပြောင်း၍ မရပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Periodic Table Trends",
+      titleMy:
+          "ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - ဒြပ်စင်အလှည့်ကျဇယား လက္ခဏာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Going down Group VII, reactivity...",
+          questionMy:
+              "Group VII ၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်းသည်...",
+          optionsEn: [
+            "Decreases",
+            "Increases",
+            "Stays exactly the same",
+            "Becomes zero immediately",
+          ],
+          optionsMy: [
+            "လျော့ကျသည်",
+            "တိုးလာသည်",
+            "အတိအကျ တူညီနေသည်",
+            "ချက်ချင်း သုညသို့ ရောက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Noble gases are almost completely unreactive because they have...",
+          questionMy:
+              "Noble Gas များသည် ...ရှိသောကြောင့် ဓာတ်ပြုနိုင်စွမ်း လုံးဝနီးပါး မရှိပါ",
+          optionsEn: [
+            "A full outer electron shell",
+            "No electrons at all",
+            "Only one outer electron",
+            "Extremely high reactivity",
+          ],
+          optionsMy: [
+            "အပြင်ဆုံးအခွံ Electron အပြည့်",
+            "Electron လုံးဝ မရှိခြင်း",
+            "အပြင်ဆုံးအခွံ Electron တစ်လုံးသာ",
+            "ဓာတ်ပြုနိုင်စွမ်း အလွန်မြင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Transition metals are typically used industrially as...",
+          questionMy:
+              "Transition Metal များကို စက်မှုလုပ်ငန်းတွင် များသောအားဖြင့် ...အဖြစ် အသုံးပြုသည်",
+          optionsEn: [
+            "Catalysts",
+            "Explosive fuels",
+            "Cooling agents only",
+            "Acids",
+          ],
+          optionsMy: [
+            "Catalyst များ",
+            "ပေါက်ကွဲစေနိုင်သော လောင်စာများ",
+            "အအေးခံပစ္စည်း သက်သက်",
+            "အက်ဆစ်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Week 20: "Inorganic Chemistry Studio" (Term 5 Capstone)
+// =====================================================================
+
+const CourseWeekDef _igcseChemWeek20 = CourseWeekDef(
+  id: "course-igcse-chem-w20",
+  weekNumber: 20,
+  titleEn: "Inorganic Chemistry Studio",
+  titleMy: "အဂ္ဂနီဗေဒ ဓာတုဗေဒ အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcse-chem-w20-d1",
+      dayNumber: 1,
+      titleEn: "Combined Salt Prep and Periodic Trends",
+      titleMy: "ဆားပြင်ဆင်ရေးနှင့် အလှည့်ကျဇယား လက္ခဏာများ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "To prepare pure crystals of lead sulfate (insoluble), which two soluble solutions should be mixed?",
+          questionMy:
+              "စင်ကြယ်သော Lead Sulfate (မပျော်ဝင်) ပုံဆောင်ခဲများ ပြင်ဆင်ရန် ပျော်ဝင်နိုင်သော ပျော်ရည် နှစ်မျိုးကို မည်သို့ ရောစပ်ရမည်နည်း။",
+          optionsEn: [
+            "Lead nitrate solution and a soluble sulfate solution, such as sodium sulfate, then filter off the precipitate",
+            "Lead metal and dilute sulfuric acid directly",
+            "Lead oxide and water only",
+            "Two samples of lead sulfate solution mixed together",
+          ],
+          optionsMy: [
+            "Lead Nitrate ပျော်ရည်နှင့် Sodium Sulfate ကဲ့သို့ ပျော်ဝင်နိုင်သော Sulfate ပျော်ရည်ကို ရောစပ်ပြီး Precipitate ကို စစ်ထုတ်ခြင်း",
+            "Lead သတ္တုနှင့် ရေဖျော် Sulfuric Acid ကို တိုက်ရိုက် ရောစပ်ခြင်း",
+            "Lead Oxide နှင့် ရေသက်သက်",
+            "Lead Sulfate ပျော်ရည် နမူနာ နှစ်ခုကို အတူ ရောစပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Lead sulfate is insoluble, so the precipitation method is required: mix two soluble solutions whose ions combine to form the insoluble salt.",
+          ],
+          hintsMy: [
+            "Lead Sulfate သည် မပျော်ဝင်သောကြောင့် Precipitation Method လိုအပ်သည်- ၎င်းတို့၏ Ion များ ပေါင်းစပ်ကာ မပျော်ဝင်သော ဆား ဖွဲ့စည်းစေမည့် ပျော်ဝင်နိုင်သော ပျော်ရည် နှစ်မျိုးကို ရောစပ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An unknown Group I metal reacts far more vigorously with water than sodium does. Where is it most likely positioned relative to sodium in the group?",
+          questionMy:
+              "အမည်မသိ Group I သတ္တုတစ်ခုသည် Sodium ထက် ရေနှင့် ပို၍ ပြင်းထန်စွာ ဓာတ်ပြုသည်။ ၎င်းသည် Sodium နှင့် နှိုင်းယှဉ်လျှင် အုပ်စုတွင် မည်သည့်နေရာတွင် ရှိနိုင်ဆုံးနည်း။",
+          optionsEn: [
+            "Below sodium (e.g. potassium or rubidium), since reactivity increases down Group I",
+            "Above sodium (e.g. lithium), since reactivity increases up Group I",
+            "It must not be a Group I metal at all",
+            "Its position cannot be predicted from reactivity",
+          ],
+          optionsMy: [
+            "Sodium အောက်တွင် (ဥပမာ- Potassium သို့မဟုတ် Rubidium)၊ Group I အောက်ဘက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်း တိုးလာသောကြောင့်",
+            "Sodium အပေါ်တွင် (ဥပမာ- Lithium)၊ Group I အပေါ်ဘက်သို့ တက်သွားစဉ် ဓာတ်ပြုနိုင်စွမ်း တိုးလာသောကြောင့်",
+            "Group I သတ္တု လုံးဝ မဖြစ်ရပါ",
+            "ဓာတ်ပြုနိုင်စွမ်းမှ ၎င်း၏ နေရာကို ခန့်မှန်း၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the trend: reactivity increases down Group I, so a more vigorous reaction than sodium points to an element below it.",
+          ],
+          hintsMy: [
+            "လမ်းကြောင်းကို သတိရပါ- Group I အောက်ဘက်သို့ ဆင်းသွားစဉ် ဓာတ်ပြုနိုင်စွမ်း တိုးလာသောကြောင့် Sodium ထက် ပို၍ ပြင်းထန်သော ဓာတ်ပြုမှုသည် ၎င်း၏ အောက်ရှိ ဒြပ်စင်တစ်ခုကို ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which combination correctly matches an oxide to its acid-base classification?",
+          questionMy:
+              "အောက်ဆိုဒ်တစ်ခုကို ၎င်း၏ အက်ဆစ်-ဘေ့စ် အမျိုးအစားနှင့် မှန်ကန်စွာ ကိုက်ညီသော ပေါင်းစပ်မှုကား အဘယ်နည်း။",
+          optionsEn: [
+            "SO2 is acidic; CaO is basic; Al2O3 is amphoteric",
+            "SO2 is basic; CaO is acidic; Al2O3 is neutral",
+            "SO2 is amphoteric; CaO is amphoteric; Al2O3 is acidic",
+            "All three oxides are neutral",
+          ],
+          optionsMy: [
+            "SO2 သည် Acidic; CaO သည် Basic; Al2O3 သည် Amphoteric",
+            "SO2 သည် Basic; CaO သည် Acidic; Al2O3 သည် Neutral",
+            "SO2 သည် Amphoteric; CaO သည် Amphoteric; Al2O3 သည် Acidic",
+            "သုံးမျိုးလုံးသည် Neutral ဖြစ်ကြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Non-metal oxides (like sulfur dioxide) tend to be acidic; most metal oxides (like calcium oxide) are basic; a few metal oxides like aluminium oxide are amphoteric.",
+          ],
+          hintsMy: [
+            "သတ္တုမဟုတ်သော အောက်ဆိုဒ်များ (Sulfur Dioxide ကဲ့သို့) သည် Acidic ဖြစ်လေ့ရှိပြီး၊ သတ္တု အောက်ဆိုဒ်အများစု (Calcium Oxide ကဲ့သို့) သည် Basic ဖြစ်ကာ Aluminium Oxide ကဲ့သို့ သတ္တု အောက်ဆိုဒ် အနည်းငယ်သည် Amphoteric ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Recap Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပဉ္စမတန်း ပြန်လည်သုံးသပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcsechem-w20-dm-1",
+          termEn: "pH scale",
+          termMy: "pH Scale",
+          matchEn:
+              "A 0-14 scale measuring how acidic or alkaline a solution is",
+          matchMy:
+              "ပျော်ရည်တစ်ခု မည်မျှ အက်ဆစ် သို့မဟုတ် အယ်လကာလိုင်း ဖြစ်ကြောင်း တိုင်းတာသည့် ၀-၁၄ စကေး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w20-dm-2",
+          termEn: "Excess solid method",
+          termMy: "Excess Solid Method",
+          matchEn:
+              "Preparing a soluble salt by adding excess insoluble base to an acid, then filtering",
+          matchMy:
+              "မပျော်ဝင်သော ဘေ့စ်ကို အက်ဆစ်ထဲသို့ ပိုလျှံအောင် ထည့်ပြီး စစ်ထုတ်ကာ ပျော်ဝင်နိုင်သော ဆား ပြင်ဆင်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w20-dm-3",
+          termEn: "Halogen reactivity",
+          termMy: "Halogen Reactivity",
+          matchEn:
+              "Decreases going down Group VII, opposite to the trend in Group I",
+          matchMy:
+              "Group VII ၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် လျော့ကျသည်၊ Group I ၏ လမ်းကြောင်းနှင့် ဆန့်ကျင်ဖက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w20-dm-4",
+          termEn: "Solubility rules",
+          termMy: "Solubility Rules",
+          matchEn:
+              "The memorised set of facts about which salts dissolve and which do not",
+          matchMy:
+              "ဆားများ မည်သည်တို့ ပျော်ဝင်ပြီး မည်သည်တို့ မပျော်ဝင်ကြောင်း အလွတ်ကျက်ထားသော အချက်အလက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcsechem-w20-dm-5",
+          termEn: "Transition metal catalyst",
+          termMy: "Transition Metal Catalyst",
+          matchEn:
+              "A transition metal or its compound used to speed up an industrial reaction",
+          matchMy:
+              "စက်မှုလုပ်ငန်း ဓာတ်ပြုမှုတစ်ခုကို အရှိန်မြှင့်ရန် အသုံးပြုသော Transition Metal သို့မဟုတ် ၎င်း၏ ဒြပ်ပေါင်း",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acids/Salts Concept or Periodic Table Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Acids/Salts သဘောတရားလား၊ Periodic Table သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Acids/Salts Concept", "Periodic Table Concept"],
+        bucketsMy: ["Acids/Salts Concept", "Periodic Table Concept"],
+        items: [
+          SortingItem(
+            id: "igcsechem-w20-sort-1",
+            labelEn:
+                "Choosing between excess solid, titration, or precipitation to prepare a given salt",
+            labelMy:
+                "ဆားတစ်ခု ပြင်ဆင်ရန် Excess Solid, Titration သို့မဟုတ် Precipitation ကို ရွေးချယ်ခြင်း",
+            correctBucketEn: "Acids/Salts Concept",
+            correctBucketMy: "Acids/Salts Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w20-sort-2",
+            labelEn:
+                "Predicting that rubidium reacts more violently with water than potassium",
+            labelMy:
+                "Rubidium သည် Potassium ထက် ရေနှင့် ပို၍ ပြင်းထန်စွာ ဓာတ်ပြုမည်ဟု ခန့်မှန်းခြင်း",
+            correctBucketEn: "Periodic Table Concept",
+            correctBucketMy: "Periodic Table Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w20-sort-3",
+            labelEn:
+                "Classifying an oxide as acidic, basic, amphoteric, or neutral",
+            labelMy:
+                "အောက်ဆိုဒ်တစ်ခုကို Acidic, Basic, Amphoteric သို့မဟုတ် Neutral ဟု အမျိုးအစားခွဲခြင်း",
+            correctBucketEn: "Acids/Salts Concept",
+            correctBucketMy: "Acids/Salts Concept",
+          ),
+          SortingItem(
+            id: "igcsechem-w20-sort-4",
+            labelEn: "Explaining why fluorine is more reactive than chlorine",
+            labelMy:
+                "Fluorine သည် Chlorine ထက် ပို၍ ဓာတ်ပြုနိုင်စွမ်း ရှိသည့် အကြောင်းရင်းကို ရှင်းပြခြင်း",
+            correctBucketEn: "Periodic Table Concept",
+            correctBucketMy: "Periodic Table Concept",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Shin Thant's Term 5 Inorganic Chemistry Review",
+      titleMy:
+          "စာဖတ်ခြင်း - ရှင်သန့်၏ ပဉ္စမတန်း အဂ္ဂနီဗေဒ ဓာတုဗေဒ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Shin Thant's Term 5 Inorganic Chemistry Review",
+        titleMy: "ရှင်သန့်၏ ပဉ္စမတန်း အဂ္ဂနီဗေဒ ဓာတုဗေဒ ပြန်လည်သုံးသပ်ခြင်း",
+        passageEn:
+            "For her final Term 5 review with Ko Zaw, Shin Thant was given one integrating challenge: design a full laboratory scheme to prepare pure, dry crystals of barium sulfate, and explain why barium's position in the Periodic Table matters to the answer.\n\nShe began with the acids and salts side of the problem. Barium sulfate, she recalled from the solubility rules, is one of the rare exceptions among sulfates -- almost completely insoluble in water. That ruled out both the excess solid method and the titration method immediately, since both of those methods are for preparing soluble salts. The only correct choice was precipitation: mixing a soluble barium salt, such as barium chloride solution, with a soluble sulfate, such as sodium sulfate solution, so that barium ions and sulfate ions combine directly to form the insoluble solid, which she could then filter, wash with distilled water to remove soluble impurities, and dry.\n\nThen Ko Zaw pushed further: why barium specifically, rather than magnesium or calcium, both of which sit above it in Group II? Shin Thant connected this back to what she had learned about Group I and Group VII trends the weeks before -- although Group II was not itself formally covered this term, she reasoned by analogy that heavier Group II elements, like heavier Group I elements, tend to form less soluble sulfates as you descend the group, which is exactly why barium sulfate is famously insoluble while magnesium sulfate is freely soluble. Ko Zaw nodded approvingly: connecting a solubility fact to a periodic trend, even one not explicitly taught, was exactly the kind of independent chemical reasoning the IGCSE Extended Paper rewarded most highly.",
+        passageMy:
+            "ကိုဇော်နှင့် ပဉ္စမတန်း နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်းအတွက် ရှင်သန့်သည် ပေါင်းစပ် စိန်ခေါ်မှုတစ်ခုကို ရရှိခဲ့သည် - Barium Sulfate ၏ စင်ကြယ်၍ ခြောက်သွေ့သော ပုံဆောင်ခဲများ ပြင်ဆင်ရန် ဓာတ်ခွဲခန်း အစီအစဉ် အပြည့်အစုံကို ဒီဇိုင်းဆွဲပြီး Barium ၏ ဒြပ်စင်အလှည့်ကျဇယားရှိ နေရာသည် အဖြေနှင့် အဘယ်ကြောင့် သက်ဆိုင်သည်ကို ရှင်းပြရန် ဖြစ်သည်။\n\nသူမသည် ပြဿနာ၏ Acids and Salts ဘက်မှ စတင်ခဲ့သည်။ Barium Sulfate သည် ပျော်ဝင်နိုင်စွမ်း စည်းမျဉ်းများအရ Sulfate များအနက် ရှားပါးသော ချွင်းချက်တစ်ခု ဖြစ်ကြောင်း သူမ သတိရခဲ့သည် -- ရေတွင် လုံးဝနီးပါး မပျော်ဝင်ပါ။ ၎င်းသည် Excess Solid Method နှင့် Titration Method နှစ်ခုစလုံးကို ချက်ချင်း ဖယ်ရှားပစ်ခဲ့သည်၊ အကြောင်းမှာ ထိုနည်းလမ်း နှစ်ခုစလုံးသည် ပျော်ဝင်နိုင်သော ဆားများ ပြင်ဆင်ရန် ဖြစ်သောကြောင့် ဖြစ်သည်။ မှန်ကန်သော ရွေးချယ်မှုတစ်ခုတည်းမှာ Precipitation ဖြစ်ခဲ့သည် - Barium Chloride ပျော်ရည်ကဲ့သို့ ပျော်ဝင်နိုင်သော Barium ဆားတစ်မျိုးကို Sodium Sulfate ပျော်ရည်ကဲ့သို့ ပျော်ဝင်နိုင်သော Sulfate တစ်မျိုးနှင့် ရောစပ်ကာ Barium Ion များနှင့် Sulfate Ion များ တိုက်ရိုက် ပေါင်းစပ်၍ မပျော်ဝင်သော အစိုင်အခဲ ဖွဲ့စည်းစေခြင်း၊ ထို့နောက် စစ်ထုတ်ကာ ပျော်ဝင်နိုင်သော ညစ်ညမ်းစေသောပစ္စည်းများ ဖယ်ရှားရန် Distilled Water ဖြင့် ဆေးကြောပြီး ခြောက်သွေ့စေခြင်း ဖြစ်သည်။\n\nထို့နောက် ကိုဇော်သည် ပို၍ တွန်းအားပေးခဲ့သည် - Group II တွင် ၎င်း၏ အပေါ်တွင် ရှိနေသော Magnesium သို့မဟုတ် Calcium အစား Barium ကိုသာ အဘယ်ကြောင့် အထူးရွေးချယ်ရသနည်း။ ရှင်သန့်သည် ၎င်းကို ရက်သတ္တပတ်များအရင်က သင်ယူခဲ့ရသော Group I နှင့် Group VII လမ်းကြောင်းများနှင့် ပြန်လည် ချိတ်ဆက်ခဲ့သည် -- Group II ကို ဤတန်းတွင် တရားဝင် လေ့လာခြင်း မပြုခဲ့သော်လည်း Group I ၏ ပိုလေးသော ဒြပ်စင်များကဲ့သို့ Group II ၏ ပိုလေးသော ဒြပ်စင်များသည် အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ပို၍ ပျော်ဝင်နိုင်စွမ်း နည်းသော Sulfate များ ဖွဲ့စည်းလေ့ရှိသည်ဟု ဆင်ခြင်တုံတရားဖြင့် ကျိုးကြောင်းဆက်စပ်ခဲ့သည်၊ ဤသည်ကား Barium Sulfate သည် နာမည်ကျော် မပျော်ဝင်သော်လည်း Magnesium Sulfate မှာမူ လွတ်လပ်စွာ ပျော်ဝင်ရသည့် အတိအကျ အကြောင်းရင်း ဖြစ်သည်။ ကိုဇော်သည် ကျေနပ်စွာ ခေါင်းညိတ်ပေးခဲ့သည် - ပျော်ဝင်နိုင်စွမ်း အချက်တစ်ခုကို တရားဝင် သင်ကြားခြင်း မပြုခဲ့သော် ပင်လျှင် ဒြပ်စင်အလှည့်ကျဇယား လမ်းကြောင်းတစ်ခုနှင့် ချိတ်ဆက်ခြင်းသည် IGCSE Extended Paper က အများဆုံး ဆုချီးမြှင့်သော လွတ်လပ်သော ဓာတုဗေဒ ယုတ္တိဗေဒ အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why were the excess solid and titration methods both ruled out for preparing barium sulfate?",
+            questionMy:
+                "Barium Sulfate ပြင်ဆင်ရန် Excess Solid နှင့် Titration နည်းလမ်း နှစ်ခုစလုံးကို ဖယ်ရှားရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both methods are for preparing soluble salts, but barium sulfate is insoluble",
+              "Both methods require a gas to be produced",
+              "Barium chloride does not exist",
+              "Those methods are only used for organic compounds",
+            ],
+            optionsMy: [
+              "နည်းလမ်း နှစ်ခုစလုံးသည် ပျော်ဝင်နိုင်သော ဆားများ ပြင်ဆင်ရန် ဖြစ်သော်လည်း Barium Sulfate မှာ မပျော်ဝင်သောကြောင့်",
+              "နည်းလမ်း နှစ်ခုစလုံးသည် ဓာတ်ငွေ့တစ်မျိုး ထွက်ပေါ်ရန် လိုအပ်သောကြောင့်",
+              "Barium Chloride ရှိနေခြင်း မရှိသောကြောင့်",
+              "ထိုနည်းလမ်းများသည် အော်ဂဲနစ် ဒြပ်ပေါင်းများအတွက်သာ အသုံးပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why both methods were ruled out.",
+            ],
+            hintsMy: [
+              "နည်းလမ်း နှစ်ခုစလုံးကို ဖယ်ရှားရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what pattern did Shin Thant reason applies to heavier Group II elements, by analogy with Group I?",
+            questionMy:
+                "Group I နှင့် နှိုင်းယှဉ်၍ Group II ၏ ပိုလေးသော ဒြပ်စင်များတွင် အဘယ်ပုံစံ သက်ရောက်သည်ဟု ရှင်သန့် ကျိုးကြောင်းဆက်စပ်ခဲ့ကြောင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They tend to form less soluble sulfates as you descend the group",
+              "They become more soluble as you descend the group",
+              "They stop reacting with water entirely",
+              "They turn into noble gases",
+            ],
+            optionsMy: [
+              "အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ပို၍ ပျော်ဝင်နိုင်စွမ်း နည်းသော Sulfate များ ဖွဲ့စည်းလေ့ရှိသည်",
+              "အုပ်စု၏ အောက်ဘက်သို့ ဆင်းသွားစဉ် ပို၍ ပျော်ဝင်နိုင်စွမ်း ရှိလာသည်",
+              "ရေနှင့် ဓာတ်ပြုခြင်းကို လုံးဝ ရပ်တန့်သည်",
+              "Noble Gas များအဖြစ် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence connecting barium sulfate's insolubility to magnesium sulfate's high solubility.",
+            ],
+            hintsMy: [
+              "Barium Sulfate ၏ မပျော်ဝင်မှုကို Magnesium Sulfate ၏ မြင့်မားသော ပျော်ဝင်နိုင်စွမ်းနှင့် ချိတ်ဆက်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "Based on the final sentence, what did Ko Zaw value most about Shin Thant's answer?",
+            questionMy:
+                "ရှင်သန့်၏ အဖြေတွင် ကိုဇော် အများဆုံး တန်ဖိုးထားသည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Connecting a solubility fact to a periodic trend not explicitly taught -- independent chemical reasoning",
+              "Memorising the exact colour of barium sulfate crystals",
+              "Finishing the task quickly without explanation",
+              "Simply naming the correct method without justification",
+            ],
+            optionsMy: [
+              "တရားဝင် သင်ကြားခြင်း မပြုခဲ့သော ဒြပ်စင်အလှည့်ကျဇယား လမ်းကြောင်းတစ်ခုနှင့် ပျော်ဝင်နိုင်စွမ်း အချက်တစ်ခုကို ချိတ်ဆက်ခြင်း -- လွတ်လပ်သော ဓာတုဗေဒ ယုတ္တိဗေဒ",
+              "Barium Sulfate ပုံဆောင်ခဲများ၏ အတိအကျ အရောင်ကို အလွတ်ကျက်ခြင်း",
+              "ရှင်းပြချက် မပါဘဲ တာဝန်ကို လျင်မြန်စွာ ပြီးမြောက်ခြင်း",
+              "အကြောင်းပြချက် မပါဘဲ မှန်ကန်သော နည်းလမ်းကို ရိုးရိုးရှင်းရှင်း ဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcse-chem-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Recap: Acids, Salts, and the Periodic Table",
+      titleMy:
+          "ပဉ္စမတန်း ပြန်လည်သုံးသပ်ခြင်း - Acids, Salts နှင့် Periodic Table",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A metal oxide reacting with an acid to form a salt and water is classified as...",
+          questionMy:
+              "အက်ဆစ်တစ်ခုနှင့် ဓာတ်ပြုကာ ဆားနှင့် ရေ ဖွဲ့စည်းစေသော သတ္တု အောက်ဆိုဒ်ကို ...ဟု အမျိုးအစားခွဲသည်",
+          optionsEn: [
+            "A basic oxide",
+            "An acidic oxide",
+            "A neutral oxide",
+            "An amphoteric oxide only",
+          ],
+          optionsMy: [
+            "Basic Oxide",
+            "Acidic Oxide",
+            "Neutral Oxide",
+            "Amphoteric Oxide သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The precipitation method is chosen when the target salt is...",
+          questionMy:
+              "ပစ်မှတ်ဆားသည် ...ဖြစ်ပါက Precipitation Method ကို ရွေးချယ်သည်",
+          optionsEn: ["Insoluble", "Soluble", "A liquid", "A gas"],
+          optionsMy: ["မပျော်ဝင်", "ပျော်ဝင်", "အရည်", "ဓာတ်ငွေ့"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reactivity trends in Group I and Group VII go in...",
+          questionMy:
+              "Group I နှင့် Group VII တို့၏ ဓာတ်ပြုနိုင်စွမ်း လမ်းကြောင်းများသည် ...ဖြစ်သည်",
+          optionsEn: [
+            "Opposite directions -- Group I increases down, Group VII decreases down",
+            "The exact same direction down both groups",
+            "No predictable direction at all",
+            "Both increase down the group",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဖက် လမ်းကြောင်းများ -- Group I သည် အောက်ဘက်သို့ တိုးလာပြီး Group VII သည် အောက်ဘက်သို့ လျော့ကျသည်",
+            "အုပ်စု နှစ်ခုစလုံး၏ အောက်ဘက်သို့ အတိအကျ တူညီသော လမ်းကြောင်း",
+            "ခန့်မှန်းနိုင်သော လမ်းကြောင်း လုံးဝ မရှိပါ",
+            "နှစ်ခုစလုံး အုပ်စု၏ အောက်ဘက်သို့ တိုးလာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
 const CourseTermDef igcseChemistryTerm1 = CourseTermDef(
   id: "course-igcse-chem-term1",
   termNumber: 1,
@@ -6124,10 +7663,25 @@ const CourseTermDef igcseChemistryTerm4 = CourseTermDef(
   ],
 );
 
-/// IGCSE Chemistry pathway -- Terms 1-4 of 9 authored so far (Terms 5-9 to
-/// follow: Acids/Bases/Periodic Table; Metals & Environment; Organic
-/// Chemistry; Experimental Skills; Exam Prep & Graduation). `totalWeeks: 36`
-/// reflects the full 9-term aspirational course length.
+const CourseTermDef igcseChemistryTerm5 = CourseTermDef(
+  id: "course-igcse-chem-term5",
+  termNumber: 5,
+  titleEn: "Acids, Bases, Salts and The Periodic Table",
+  titleMy: "အက်ဆစ်၊ ဘေ့စ်၊ ဆားများနှင့် ဒြပ်စင်အလှည့်ကျဇယား",
+  certificateTitleEn: "IGCSE Chemistry Term 5 Certificate",
+  certificateTitleMy: "IGCSE ဓာတုဗေဒ ပဉ္စမတန်း အောင်လက်မှတ်",
+  weeks: [
+    _igcseChemWeek17,
+    _igcseChemWeek18,
+    _igcseChemWeek19,
+    _igcseChemWeek20,
+  ],
+);
+
+/// IGCSE Chemistry pathway -- Terms 1-5 of 9 authored so far (Terms 6-9 to
+/// follow: Metals & Environment; Organic Chemistry; Experimental Skills;
+/// Exam Prep & Graduation). `totalWeeks: 36` reflects the full 9-term
+/// aspirational course length.
 const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
   id: "course-igcse-chemistry",
   subject: "chemistry",
@@ -6144,5 +7698,6 @@ const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm2,
     igcseChemistryTerm3,
     igcseChemistryTerm4,
+    igcseChemistryTerm5,
   ],
 );
