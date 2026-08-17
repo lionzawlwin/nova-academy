@@ -102056,3 +102056,1444 @@ const CourseTermDef _igcseHumTerm9 = CourseTermDef(
   weeks: [_igcseHumWeek33, _igcseHumWeek34, _igcseHumWeek35, _igcseHumWeek36],
 );
 // __IGCSE_HUM_MARKER__
+
+// =====================================================================
+// Secondary 1 Humanities (Year 7) -- "Foundations of the Ancient and
+// Medieval World". Topic-driven, following the Secondary-tier
+// convention (a rotating cast of named Myanmar students rather than
+// one fixed protagonist, matching secondary1EnglishPathway/
+// secondary1GlobalPerspectivesPathway). Builds history/geography
+// skills that progress through Secondary 2 and Secondary 3 toward
+// IGCSE Humanities, without duplicating Year 1-6 or IGCSE content.
+// Term 1: Becoming a Historian and Geographer (Weeks 1-4)
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek1 = CourseWeekDef(
+  id: "course-sec1-hum-w1",
+  weekNumber: 1,
+  titleEn: "What Is History? What Is Geography?",
+  titleMy: "History ဆိုသည်မှာ အဘယ်နည်း။ Geography ဆိုသည်မှာ အဘယ်နည်း။",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w1-d1",
+      dayNumber: 1,
+      titleEn: "Two Ways of Studying Our World",
+      titleMy: "ကျွန်ုပ်တို့ ကမ္ဘာကို လေ့လာသော နည်းလမ်း နှစ်မျိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the main difference between what a historian studies and what a geographer studies?",
+          questionMy:
+              "History ပညာရှင်တစ်ဦး လေ့လာသည့်အရာနှင့် Geography ပညာရှင်တစ်ဦး လေ့လာသည့်အရာ ကြား ပင်မ ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A historian mainly studies events and people from the past, while a geographer mainly studies places, environments, and how people interact with them",
+            "A historian and a geographer study exactly the same thing with no difference whatsoever",
+            "A historian only studies maps, while a geographer only studies dates",
+            "A geographer studies the past exclusively, while a historian studies only the present",
+          ],
+          optionsMy: [
+            "History ပညာရှင်တစ်ဦးသည် အနှစ်သာရအားဖြင့် အတိတ်ကာလ Event များနှင့် လူများကို လေ့လာပြီး Geography ပညာရှင်တစ်ဦးသည် အနှစ်သာရအားဖြင့် နေရာများ၊ ပတ်ဝန်းကျင်များနှင့် လူများ ၎င်းတို့နှင့် မည်သို့ ဆက်ဆံသည်ကို လေ့လာသည်",
+            "History ပညာရှင်တစ်ဦးနှင့် Geography ပညာရှင်တစ်ဦးသည် ကွာခြားချက် လုံးဝ မရှိဘဲ အတူတူပင် လေ့လာသည်",
+            "History ပညာရှင်တစ်ဦးသည် Map များကိုသာ လေ့လာပြီး Geography ပညာရှင်တစ်ဦးသည် ရက်စွဲများကိုသာ လေ့လာသည်",
+            "Geography ပညာရှင်တစ်ဦးသည် အတိတ်ကာလကိုသာ လေ့လာပြီး History ပညာရှင်တစ်ဦးသည် ပစ္စုပ္ပန်ကိုသာ လေ့လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about the root meaning: 'history' relates to past events and stories, while 'geography' relates to writing/describing the Earth and its places.",
+          ],
+          hintsMy: [
+            "Root Meaning ကို စဉ်းစားပါ - 'History' သည် အတိတ်ကာလ Event များနှင့် ဇာတ်လမ်းများနှင့် သက်ဆိုင်ပြီး 'Geography' သည် ကမ္ဘာနှင့် ၎င်း၏ နေရာများကို ရေးသား/ဖော်ပြခြင်းနှင့် သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians and geographers both rely on evidence, rather than simply guessing or assuming?",
+          questionMy:
+              "History ပညာရှင်များနှင့် Geography ပညာရှင်များသည် ရိုးရိုး ခန့်မှန်းခြင်း (သို့) ယူဆခြင်းအစား Evidence ကို အဘယ်ကြောင့် နှစ်ဦးစလုံး အားကိုးကြသနည်း။",
+          optionsEn: [
+            "Evidence -- such as documents, artifacts, maps, or data -- allows conclusions to be checked and trusted, while a guess cannot be verified by anyone else",
+            "Evidence has no actual role in either history or geography",
+            "Guessing is always more reliable than using any form of evidence",
+            "Only historians need evidence; geographers never need any evidence at all",
+          ],
+          optionsMy: [
+            "Document, Artifact, Map, (သို့) Data ကဲ့သို့ Evidence သည် ကောက်ချက်များကို စစ်ဆေးနိုင်စေပြီး ယုံကြည်စေနိုင်သော်လည်း ခန့်မှန်းချက်တစ်ခုကို အခြားမည်သူမျှ အတည်ပြု၍ မရနိုင်ပါ",
+            "Evidence သည် History (သို့) Geography နှစ်ခုလုံးတွင် အမှန်တကယ် Role မရှိခြင်း",
+            "ခန့်မှန်းခြင်းသည် Evidence ပုံစံမည်သည်ကို အသုံးပြုခြင်းထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "History ပညာရှင်များသာ Evidence လိုအပ်ပြီး Geography ပညာရှင်များ Evidence လုံးဝ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the foundational habit the whole course builds on -- a claim backed by checkable evidence is stronger than an unsupported guess, in any subject.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Course တစ်ခုလုံး တည်ဆောက်ထားသော Foundational Habit ဖြစ်သည် -- စစ်ဆေးနိုင်သော Evidence က ထောက်ခံထားသော Claim တစ်ခုသည် ဘာသာရပ် မည်သည်တွင်မဆို မထောက်ခံထားသော ခန့်မှန်းချက်တစ်ခုထက် ပို၍ ခိုင်မာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why are history and geography often studied together as 'Humanities', rather than as two completely unrelated subjects?",
+          questionMy:
+              "History နှင့် Geography ကို လုံးဝ မသက်ဆိုင်သော ဘာသာရပ်နှစ်ခုအဖြစ်အစား 'Humanities' တစ်ခုတည်းအနေဖြင့် အဘယ်ကြောင့် မကြာခဏ အတူတကွ လေ့လာကြသနည်း။",
+          optionsEn: [
+            "Human events and human places constantly shape each other -- where people live affects what happens, and what happens shapes where and how people live",
+            "History and geography have no actual connection to each other whatsoever",
+            "They are studied together purely by administrative coincidence with no real reason",
+            "Geography has no relevance to understanding any historical event",
+          ],
+          optionsMy: [
+            "လူသား Event များနှင့် လူသား နေရာများသည် တစ်ခုနှင့်တစ်ခု အမြဲ ပုံဖော်ကြသည် -- လူများ နေထိုင်ရာနေရာသည် ဖြစ်ပျက်သည့်အရာကို သက်ရောက်ပြီး ဖြစ်ပျက်သည့်အရာသည် လူများ မည်သည့်နေရာတွင် မည်သို့ နေထိုင်သည်ကို ပုံဖော်သည်",
+            "History နှင့် Geography တွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "၎င်းတို့ကို Administrative Coincidence သက်သက်ဖြင့် အတူတကွ လေ့လာကြပြီး အစစ်အမှန် အကြောင်းရင်း မရှိခြင်း",
+            "Geography သည် သမိုင်းဆိုင်ရာ Event မည်သည်ကိုမျှ နားလည်ရန် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of an example: a river's location (geography) shapes where a civilization settles and grows (history) -- the two are deeply connected.",
+          ],
+          hintsMy: [
+            "ဥပမာတစ်ခု စဉ်းစားပါ - မြစ်တစ်ခု၏ တည်နေရာ (Geography) သည် Civilization တစ်ခု နေထိုင်ကာ ဖွံ့ဖြိုးရာနေရာ (History) ကို ပုံဖော်သည် -- နှစ်ခုစလုံးသည် နက်ရှိုင်းစွာ ချိတ်ဆက်နေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: History and Geography Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - History နှင့် Geography Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w1-dm-1",
+          termEn: "Historian",
+          termMy: "Historian",
+          matchEn: "A person who studies past events using evidence",
+          matchMy: "Evidence အသုံးပြု၍ အတိတ်ကာလ Event များကို လေ့လာသော သူ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w1-dm-2",
+          termEn: "Geographer",
+          termMy: "Geographer",
+          matchEn:
+              "A person who studies places, environments, and people's connection to them",
+          matchMy:
+              "နေရာများ၊ ပတ်ဝန်းကျင်များနှင့် လူများ ၎င်းတို့နှင့် ချိတ်ဆက်မှုကို လေ့လာသော သူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w1-dm-3",
+          termEn: "Evidence",
+          termMy: "Evidence",
+          matchEn: "Documents, artifacts, maps, or data that support a claim",
+          matchMy:
+              "Claim တစ်ခုကို ထောက်ခံသော Document, Artifact, Map, (သို့) Data",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w1-dm-4",
+          termEn: "Humanities",
+          termMy: "Humanities",
+          matchEn:
+              "The combined study of history and geography, and how they shape each other",
+          matchMy:
+              "History နှင့် Geography ၏ ပေါင်းစပ် လေ့လာမှုနှင့် ၎င်းတို့ တစ်ခုနှင့်တစ်ခု မည်သို့ ပုံဖော်ကြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Question or Geography Question?",
+      titleMy: "စီစစ်ကြမည် - History မေးခွန်း (သို့) Geography မေးခွန်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["History Question", "Geography Question"],
+        bucketsMy: ["History မေးခွန်း", "Geography မေးခွန်း"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w1-sort-1",
+            labelEn: "Why did a king go to war one hundred years ago?",
+            labelMy:
+                "ဘုရင်တစ်ပါးသည် နှစ်ပေါင်းတစ်ရာခန့်က စစ်ပွဲသို့ အဘယ်ကြောင့် ထွက်ခဲ့သနည်း။",
+            correctBucketEn: "History Question",
+            correctBucketMy: "History မေးခွန်း",
+          ),
+          SortingItem(
+            id: "sec1hum-w1-sort-2",
+            labelEn: "Why do most large cities form near rivers or coastlines?",
+            labelMy:
+                "မြို့ကြီးများသည် အဘယ်ကြောင့် မြစ် (သို့) ကမ်းရိုးတန်းများ အနီးတွင် အများစု ဖြစ်ပေါ်ကြသနည်း။",
+            correctBucketEn: "Geography Question",
+            correctBucketMy: "Geography မေးခွန်း",
+          ),
+          SortingItem(
+            id: "sec1hum-w1-sort-3",
+            labelEn:
+                "What caused a particular empire to rise and eventually fall?",
+            labelMy:
+                "အင်ပါယာတစ်ခု ထူထောင်ပြီး နောက်ဆုံးတွင် အဘယ်ကြောင့် ပြိုလဲသွားခဲ့သနည်း။",
+            correctBucketEn: "History Question",
+            correctBucketMy: "History မေးခွန်း",
+          ),
+          SortingItem(
+            id: "sec1hum-w1-sort-4",
+            labelEn:
+                "How does climate affect what crops can be grown in a region?",
+            labelMy:
+                "ရာသီဥတုသည် ဒေသတစ်ခုတွင် သီးနှံ မည်သည်ကို စိုက်ပျိုးနိုင်သည်ကို မည်သို့ သက်ရောက်စေသနည်း။",
+            correctBucketEn: "Geography Question",
+            correctBucketMy: "Geography မေးခွန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar and the Two Lenses",
+      titleMy: "စာဖတ်ခြင်း - Nilar နှင့် မှန်ဘီလူးနှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar and the Two Lenses",
+        titleMy: "Nilar နှင့် မှန်ဘီလူးနှစ်ခု",
+        passageEn:
+            "On the first day of Secondary 1 Humanities, the teacher gave Nilar's class an old photograph of their own town from fifty years ago and asked a simple question: what can you learn from this picture?\n\nNilar's classmate Ko Htet answered first, pointing out that the buildings in the photo looked different, the streets were narrower, and there were far fewer motorbikes. 'That's a historian's answer,' the teacher said. 'You're comparing then to now and asking what changed and why.'\n\nNilar looked at the photo differently. She noticed the town was built right next to a bend in the river, with the market square sitting on the highest, driest ground nearby. 'That's a geographer's answer,' the teacher said. 'You're asking why the town is located exactly where it is, and how the land shaped that choice.'\n\nThe teacher explained that neither answer was more correct than the other -- they were simply two different lenses for looking at the same evidence. A historian asks 'what happened, and why did it happen then?' A geographer asks 'where did it happen, and why did it happen there?' Over the coming year, Nilar's class would practice switching between both lenses, sometimes using them separately and sometimes combining them, because the most complete understanding of any place or event usually needs both.",
+        passageMy:
+            "Secondary 1 Humanities ၏ ပထမနေ့တွင် ဆရာမသည် Nilar ၏ အတန်းအား နှစ်ပေါင်း ငါးဆယ်ခန့်က ၎င်းတို့ကိုယ်ပိုင် မြို့၏ ဓာတ်ပုံဟောင်းတစ်ပုံကို ပေးအပ်ပြီး ရိုးရှင်းသော မေးခွန်းတစ်ခု မေးခဲ့သည် - ဤပုံမှ သင် အဘယ်အရာကို သင်ယူနိုင်သနည်း။\n\nNilar ၏ အတန်းဖော် Ko Htet သည် ပုံထဲရှိ အဆောက်အအုံများ ကွဲပြားစွာ ထင်ရသည်၊ လမ်းများ ပိုမိုကျဉ်းမြောင်းသည်၊ ဆိုင်ကယ်များလည်း ပိုနည်းသည်ကို ညွှန်ပြကာ ပထမဆုံး ဖြေခဲ့သည်။ 'ဒါက Historian တစ်ဦး၏ အဖြေပါ' ဟု ဆရာမ ပြောခဲ့သည်။ 'သင်သည် ထို့ခေတ်ကို ယခုနှင့် နှိုင်းယှဉ်ကာ အဘယ်အရာ ပြောင်းလဲသွားပြီး အဘယ်ကြောင့်ဆိုသည်ကို မေးနေခြင်း ဖြစ်သည်။'\n\nNilar သည် ပုံကို ကွဲပြားစွာ ကြည့်ခဲ့သည်။ မြို့သည် မြစ်၏ကွေ့ချက်တစ်ခုနှင့် ကပ်လျက် တည်ဆောက်ထားပြီး ဈေးရပ်ကွက်သည် အနီးရှိ အမြင့်ဆုံး၊ အခြောက်ဆုံးမြေပေါ်တွင် တည်ရှိနေသည်ကို ၎င်း သတိပြုမိခဲ့သည်။ 'ဒါက Geographer တစ်ဦး၏ အဖြေပါ' ဟု ဆရာမ ပြောခဲ့သည်။ 'သင်သည် မြို့သည် ဤနေရာတွင် အတိအကျ အဘယ်ကြောင့် တည်ရှိနေသည်နှင့် မြေသည် ထို ရွေးချယ်မှုကို မည်သို့ ပုံဖော်ခဲ့သည်ကို မေးနေခြင်း ဖြစ်သည်။'\n\nအဖြေနှစ်ခုစလုံးသည် တစ်ခုနှင့်တစ်ခု ပို၍ မှန်ကန်ခြင်း မဟုတ်ဘဲ Evidence တူတူကို ကြည့်ရန် မှန်ဘီလူးနှစ်မျိုး ရိုးရိုးသက်သက်သာ ဖြစ်ကြောင်း ဆရာမ ရှင်းပြခဲ့သည်။ Historian တစ်ဦးက 'အဘယ်အရာ ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုအချိန်တွင် ဖြစ်ပျက်ခဲ့သနည်း' ဟု မေးသည်။ Geographer တစ်ဦးက 'ထိုအရာ မည်သည့်နေရာတွင် ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုနေရာတွင် ဖြစ်ပျက်ခဲ့သနည်း' ဟု မေးသည်။ လာမည့်တစ်နှစ်တစ်လျှောက် Nilar ၏ အတန်းသည် တခါတရံ သီးခြားစီ၊ တခါတရံ ပေါင်းစပ်၍ မှန်ဘီလူးနှစ်ခုစလုံး အသုံးပြုကာ ကျင့်သုံးသွားမည် ဖြစ်ပြီး နေရာတစ်ခု (သို့) Event တစ်ခု၏ အပြည့်စုံဆုံး နားလည်မှုသည် များသောအားဖြင့် နှစ်ခုစလုံး လိုအပ်လေ့ရှိသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what kind of answer did Ko Htet give about the old photograph?",
+            questionMy:
+                "ဓာတ်ပုံဟောင်းအကြောင်း Ko Htet ပေးခဲ့သော အဖြေအမျိုးအစားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A historian's answer, comparing then to now and asking what changed",
+              "A geographer's answer about the town's location",
+              "No answer of any kind whatsoever",
+              "An answer entirely unrelated to the photograph",
+            ],
+            optionsMy: [
+              "ထို့ခေတ်ကို ယခုနှင့် နှိုင်းယှဉ်ကာ အဘယ်အရာ ပြောင်းလဲသွားသည်ကို မေးသော Historian တစ်ဦး၏ အဖြေ",
+              "မြို့၏ တည်နေရာအကြောင်း Geographer တစ်ဦး၏ အဖြေ",
+              "အဖြေ မည်သည်မှ လုံးဝ မပါခြင်း",
+              "ဓာတ်ပုံနှင့် လုံးဝ မသက်ဆိုင်သော အဖြေ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of Ko Htet's answer.",
+            ],
+            hintsMy: [
+              "Ko Htet ၏ အဖြေ ဖော်ပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nilar notice about the town's location?",
+            questionMy:
+                "မြို့၏ တည်နေရာအကြောင်း Nilar သတိပြုမိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was built next to a bend in the river, with the market on the highest, driest ground",
+              "It was built far from any river or water source of any kind",
+              "It had no connection to the surrounding land whatsoever",
+              "It was built entirely on the lowest, wettest ground available",
+            ],
+            optionsMy: [
+              "မြစ်၏ ကွေ့ချက်တစ်ခုနှင့် ကပ်လျက် တည်ဆောက်ထားပြီး ဈေးသည် အမြင့်ဆုံး၊ အခြောက်ဆုံးမြေပေါ်တွင် ရှိသည်",
+              "မြစ် (သို့) ရေအရင်းအမြစ် မည်သည်နှင့်မျှ ဝေးကွာစွာ တည်ဆောက်ထားသည်",
+              "ပတ်ဝန်းကျင်ရှိ မြေနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+              "ရရှိနိုင်သော အနိမ့်ဆုံး၊ စိုစွတ်ဆုံးမြေပေါ်တွင် လုံးလုံး တည်ဆောက်ထားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's description of what Nilar noticed.",
+            ],
+            hintsMy: [
+              "Nilar သတိပြုမိခဲ့သည့်အရာ ဖော်ပြချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what question does a geographer typically ask?",
+            questionMy:
+                "Geographer တစ်ဦး ပုံမှန် မေးလေ့ရှိသော မေးခွန်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Where did it happen, and why did it happen there?",
+              "What happened, and why did it happen then?",
+              "A geographer never actually asks any question at all",
+              "Only questions about numbers with no connection to place",
+            ],
+            optionsMy: [
+              "ထိုအရာ မည်သည့်နေရာတွင် ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုနေရာတွင် ဖြစ်ပျက်ခဲ့သနည်း",
+              "အဘယ်အရာ ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုအချိန်တွင် ဖြစ်ပျက်ခဲ့သနည်း",
+              "Geographer တစ်ဦးသည် မေးခွန်း မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မမေးခြင်း",
+              "နေရာနှင့် ချိတ်ဆက်မှု မရှိသော ဂဏန်းများအကြောင်း မေးခွန်းများသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's summary of the geographer's question.",
+            ],
+            hintsMy: [
+              "Geographer ၏ မေးခွန်း အနှစ်ချုပ်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w1-d5",
+      dayNumber: 5,
+      titleEn: "Recap: History and Geography Basics",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - History နှင့် Geography အခြေခံများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A historian mainly asks...",
+          questionMy: "Historian တစ်ဦးသည် အနှစ်သာရအားဖြင့် ...",
+          optionsEn: [
+            "What happened, and why did it happen then?",
+            "Where did it happen, and why there?",
+            "Neither question has any relevance to history",
+            "Only questions about the future",
+          ],
+          optionsMy: [
+            "အဘယ်အရာ ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုအချိန်တွင် ဖြစ်ပျက်ခဲ့သနည်း",
+            "ထိုအရာ မည်သည့်နေရာတွင် ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုနေရာတွင်ဖြစ်ခဲ့သနည်း",
+            "မေးခွန်းနှစ်ခုစလုံးသည် History နှင့် Relevance မရှိခြင်း",
+            "အနာဂတ်အကြောင်း မေးခွန်းများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim in history or geography is stronger when it is...",
+          questionMy:
+              "History (သို့) Geography တွင် Claim တစ်ခုသည် ...အခါ ပို၍ ခိုင်မာသည်",
+          optionsEn: [
+            "Backed by checkable evidence",
+            "Based purely on a guess with no evidence",
+            "Never actually checked by anyone",
+            "Assumed to be true with no support",
+          ],
+          optionsMy: [
+            "စစ်ဆေးနိုင်သော Evidence က ထောက်ခံထားသော",
+            "Evidence မပါဘဲ ရိုးရိုး ခန့်မှန်းချက်တစ်ခုအပေါ် အခြေခံသော",
+            "မည်သူမျှ အမှန်တကယ် စစ်ဆေးခြင်း မရှိသော",
+            "ထောက်ခံမှု မရှိဘဲ မှန်ကန်သည်ဟု ယူဆထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "History and geography are studied together as 'Humanities' because...",
+          questionMy:
+              "History နှင့် Geography ကို 'Humanities' တစ်ခုတည်းအနေဖြင့် အတူတကွ လေ့လာကြသည့် အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Human events and human places constantly shape each other",
+            "They have no actual connection to each other",
+            "It is purely a coincidence with no real reason",
+            "Geography has no relevance to history whatsoever",
+          ],
+          optionsMy: [
+            "လူသား Event များနှင့် လူသား နေရာများသည် တစ်ခုနှင့်တစ်ခု အမြဲ ပုံဖော်ကြသည်",
+            "တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Coincidence သက်သက်ဖြစ်ပြီး အစစ်အမှန် အကြောင်းရင်း မရှိခြင်း",
+            "Geography သည် History နှင့် Relevance လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 1, Week 2: "Timelines, Periods and
+// Chronology"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek2 = CourseWeekDef(
+  id: "course-sec1-hum-w2",
+  weekNumber: 2,
+  titleEn: "Timelines, Periods and Chronology",
+  titleMy: "Timeline, ခေတ်ကာလများနှင့် Chronology",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w2-d1",
+      dayNumber: 1,
+      titleEn: "Ordering Events in Time",
+      titleMy: "Event များကို အချိန်အလိုက် စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians place events on a timeline instead of describing them in a random order?",
+          questionMy:
+              "Historian များသည် Event များကို ကျပန်း အစီအစဉ်ဖြင့် ဖော်ပြမည့်အစား Timeline တစ်ခုပေါ်တွင် အဘယ်ကြောင့် နေရာချထားကြသနည်း။",
+          optionsEn: [
+            "A timeline shows the correct order and spacing of events, making it easier to see cause and effect between them",
+            "A timeline has no actual connection to understanding cause and effect",
+            "Random order always makes cause and effect clearer than a timeline does",
+            "Historians never actually need to know when events happened",
+          ],
+          optionsMy: [
+            "Timeline တစ်ခုသည် Event များ၏ မှန်ကန်သော အစီအစဉ်နှင့် Spacing ကို ပြသပြီး ၎င်းတို့ကြား Cause and Effect ကို ပို၍ မြင်သာစေသည်",
+            "Timeline တစ်ခုသည် Cause and Effect နားလည်ခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ကျပန်း အစီအစဉ်သည် Timeline ထက် Cause and Effect ကို အမြဲ ပို၍ ရှင်းလင်းစေသည်",
+            "Event များ ဘယ်အချိန်တွင် ဖြစ်ပျက်ခဲ့သည်ကို Historian များ အမှန်တကယ် ဘယ်တော့မှ သိရန် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If Event B is placed before Event A on a timeline even though B actually happened after A, the cause-and-effect story becomes confused.",
+          ],
+          hintsMy: [
+            "Event B သည် Event A ပြီးနောက် အမှန်တကယ် ဖြစ်ပျက်ခဲ့သော်လည်း Timeline ပေါ်တွင် Event A မတိုင်မီ နေရာချထားပါက Cause-and-Effect ဇာတ်လမ်းသည် ရှုပ်ထွေးသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians group time into named periods (such as 'Ancient', 'Medieval', or 'Modern') rather than only listing individual dates?",
+          questionMy:
+              "Historian များသည် ရက်စွဲသီးခြားစီကိုသာ စာရင်းပြုစုမည့်အစား အချိန်ကို 'Ancient', 'Medieval', (သို့) 'Modern' ကဲ့သို့ အမည်ရှိသော ကာလများအဖြစ် အဘယ်ကြောင့် စုစည်းကြသနည်း။",
+          optionsEn: [
+            "Named periods group together times that shared broadly similar characteristics, making long stretches of history easier to compare and discuss",
+            "Named periods have no actual usefulness in studying history",
+            "Individual dates are always more useful than any named period could ever be",
+            "Periods are chosen completely randomly with no shared characteristics at all",
+          ],
+          optionsMy: [
+            "အမည်ရှိသော ကာလများသည် ကျယ်ပြန့်စွာ ဆင်တူသော Characteristic များ ရှိသော အချိန်များကို အတူတကွ စုစည်းပေးကာ သမိုင်း ကာလရှည်များကို ပို၍ နှိုင်းယှဉ်ရလွယ်ကူစေသည်",
+            "အမည်ရှိသော ကာလများသည် သမိုင်းလေ့လာရာတွင် အမှန်တကယ် အသုံးဝင်မှု မရှိခြင်း",
+            "ရက်စွဲသီးခြားစီများသည် အမည်ရှိသော ကာလ မည်သည်ထက်မဆို အမြဲ ပို၍ အသုံးဝင်ခြင်း",
+            "ကာလများကို မျှဝေထားသော Characteristic လုံးဝ မရှိဘဲ လုံးလုံး ကျပန်း ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of it like folders on a computer -- grouping related files (or years) together makes them easier to find and compare than one long unsorted list.",
+          ],
+          hintsMy: [
+            "ကွန်ပျူတာပေါ်ရှိ Folder များကဲ့သို့ စဉ်းစားပါ -- ဆက်စပ် File များ (သို့) နှစ်များကို အတူတကွ စုစည်းခြင်းသည် ရှည်လျားသော Sort မလုပ်ထားသော စာရင်းတစ်ခုထက် ရှာဖွေရ၊ နှိုင်းယှဉ်ရ ပိုလွယ်ကူစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to distinguish between when an event happened and when it was first recorded or written down?",
+          questionMy:
+              "Event တစ်ခု ဖြစ်ပျက်ခဲ့ချိန်နှင့် ၎င်းကို ပထမဆုံး မှတ်တမ်းတင်ခဲ့ချိန် (သို့) ရေးသားခဲ့ချိန် ကြားကို ခွဲခြားရန် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "A record written long after an event may rely on memory or secondhand accounts, which can be less reliable than a record made at the time",
+            "The timing of a record has no actual bearing on its reliability",
+            "Records written long after an event are always more accurate than ones made at the time",
+            "Historians never actually need to know when a record was written",
+          ],
+          optionsMy: [
+            "Event တစ်ခုပြီးနောက် ကြာမြင့်စွာ ရေးသားထားသော မှတ်တမ်းတစ်ခုသည် ထိုအချိန်တွင် ပြုလုပ်ထားသော မှတ်တမ်းတစ်ခုထက် ယုံကြည်ရမှု နည်းနိုင်သော Memory (သို့) Secondhand Account များအပေါ် အားကိုးနိုင်သည်",
+            "မှတ်တမ်းတစ်ခု၏ Timing သည် ၎င်း၏ Reliability အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Event တစ်ခုပြီးနောက် ကြာမြင့်စွာ ရေးသားထားသော မှတ်တမ်းများသည် ထိုအချိန်တွင် ပြုလုပ်ထားသော တို့ထက် အမြဲ ပို၍ တိကျခြင်း",
+            "မှတ်တမ်းတစ်ခု ဘယ်အချိန်တွင် ရေးသားခဲ့သည်ကို Historian များ အမှန်တကယ် ဘယ်တော့မှ သိရန် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is your first taste of a source-evaluation habit you will practice much more in Week 5 -- when a record was made affects how much we can trust it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 တွင် ပို၍ ကျင့်သုံးမည့် Source-Evaluation Habit ၏ ပထမဆုံး အရသာ ဖြစ်သည် -- မှတ်တမ်းတစ်ခု ဘယ်အချိန်တွင် ပြုလုပ်ခဲ့သည်သည် ၎င်းကို မည်မျှ ယုံကြည်နိုင်သည်ကို သက်ရောက်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Chronology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Chronology Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w2-dm-1",
+          termEn: "Timeline",
+          termMy: "Timeline",
+          matchEn: "A visual line showing events in the order they happened",
+          matchMy:
+              "Event များ ဖြစ်ပျက်ခဲ့သော အစီအစဉ်ကို ပြသသော မြင်သာသော မျဉ်းတစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w2-dm-2",
+          termEn: "Historical period",
+          termMy: "Historical Period",
+          matchEn:
+              "A named span of time grouped by broadly shared characteristics",
+          matchMy:
+              "ကျယ်ပြန့်စွာ မျှဝေထားသော Characteristic များဖြင့် စုစည်းထားသော အမည်ရှိသော အချိန်ကာလ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w2-dm-3",
+          termEn: "BCE / CE",
+          termMy: "BCE / CE",
+          matchEn:
+              "Labels showing whether a year falls before or after year 1 of the calendar",
+          matchMy:
+              "နှစ်တစ်ခုသည် ပြက္ခဒိန်၏ ပထမနှစ်မတိုင်မီ (သို့) ပြီးနောက် ရှိမရှိ ပြသော Label",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w2-dm-4",
+          termEn: "Primary record",
+          termMy: "Primary Record",
+          matchEn:
+              "A record made at or very close to the time of the event it describes",
+          matchMy:
+              "၎င်းဖော်ပြသော Event ၏ အချိန်တွင် (သို့) အနီးကပ်ဆုံး ပြုလုပ်ထားသော မှတ်တမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correctly Ordered or Incorrectly Ordered?",
+      titleMy: "စီစစ်ကြမည် - မှန်ကန်စွာ စီစဉ် (သို့) မှားယွင်းစွာ စီစဉ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Timeline Practice", "Poor Timeline Practice"],
+        bucketsMy: ["ကောင်းသော Timeline အလေ့အထ", "ညံ့ဖျင်းသော Timeline အလေ့အထ"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w2-sort-1",
+            labelEn: "Placing events in the exact order they actually happened",
+            labelMy:
+                "Event များကို ၎င်းတို့ အမှန်တကယ် ဖြစ်ပျက်ခဲ့သော အတိအကျ အစီအစဉ်ဖြင့် နေရာချထားခြင်း",
+            correctBucketEn: "Good Timeline Practice",
+            correctBucketMy: "ကောင်းသော Timeline အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w2-sort-2",
+            labelEn:
+                "Listing events in a random order with no attention to actual dates",
+            labelMy:
+                "အမှန်တကယ် ရက်စွဲများကို ဂရုမစိုက်ဘဲ Event များကို ကျပန်း အစီအစဉ်ဖြင့် စာရင်းပြုစုခြင်း",
+            correctBucketEn: "Poor Timeline Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော Timeline အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w2-sort-3",
+            labelEn:
+                "Noting whether a record was made at the time of the event or long after",
+            labelMy:
+                "မှတ်တမ်းတစ်ခု Event ၏ အချိန်တွင် (သို့) ကြာမြင့်စွာ ပြီးနောက်တွင် ပြုလုပ်ခဲ့သလားဆိုသည်ကို မှတ်သားခြင်း",
+            correctBucketEn: "Good Timeline Practice",
+            correctBucketMy: "ကောင်းသော Timeline အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w2-sort-4",
+            labelEn:
+                "Assuming every record was made at the exact moment of the event with no checking",
+            labelMy:
+                "စစ်ဆေးခြင်း မပြုဘဲ မှတ်တမ်းတိုင်း Event ၏ အတိအကျ ခဏတွင် ပြုလုပ်ခဲ့သည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Poor Timeline Practice",
+            correctBucketMy: "ညံ့ဖျင်းသော Timeline အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zayar's Family Timeline",
+      titleMy: "စာဖတ်ခြင်း - Ko Zayar ၏ မိသားစု Timeline",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zayar's Family Timeline",
+        titleMy: "Ko Zayar ၏ မိသားစု Timeline",
+        passageEn:
+            "For Week 2's assignment, Ko Zayar interviewed his grandmother and tried to build a timeline of his family's history over the past sixty years. At first, he simply wrote down every story she told him in the order she happened to tell them.\n\nWhen he shared his draft with the class, his teacher pointed out a problem: his grandmother had told the story of moving to a new town before the story of her wedding, even though the move actually happened five years after the wedding. Ko Zayar had accidentally ordered the timeline by the order of the storytelling, not the order of the actual events.\n\nKo Zayar went back and asked his grandmother for approximate years for each story, then rebuilt his timeline in the correct chronological order. He also noticed something else worth marking: some stories she remembered clearly and confidently, while others she admitted she was 'not completely sure' about the exact year. He added a small note beside those uncertain entries rather than presenting every date with equal confidence.\n\nHis teacher praised both corrections. Getting the true chronological order right, she said, was the foundation every historian needs before any analysis of cause and effect can begin -- and marking uncertainty honestly, rather than hiding it, was a habit that would matter throughout the whole course.",
+        passageMy:
+            "Week 2 ၏ Assignment အတွက် Ko Zayar သည် ၎င်း၏ အဖွား‌ကို Interview ပြုလုပ်ကာ လွန်ခဲ့သော နှစ်ခြောက်ဆယ်ကျော် ၎င်း၏ မိသားစု သမိုင်း၏ Timeline တစ်ခု တည်ဆောက်ရန် ကြိုးစားခဲ့သည်။ ပထမတွင် ၎င်းသည် အဖွား ပြောပြခဲ့သော ဇာတ်လမ်းတိုင်းကို ၎င်း ပြောပြခဲ့သော အစီအစဉ်အတိုင်း ရိုးရိုး ချရေးခဲ့သည်။\n\n၎င်း၏ Draft ကို အတန်းသို့ မျှဝေသောအခါ ၎င်း၏ ဆရာမ ပြဿနာတစ်ခုကို ညွှန်ပြခဲ့သည် - လက်ထပ်ပွဲ ဖြစ်ပျက်ပြီးနောက် နှစ်ငါးနှစ် ကြာမှသာ ခြံရွာ‌ပြောင်းရွှေ့မှုကို အမှန်တကယ် ပြုလုပ်ခဲ့သော်လည်း အဖွားသည် လက်ထပ်ပွဲ ဇာတ်လမ်းမတိုင်မီ မြို့သစ်သို့ ပြောင်းရွှေ့မှု ဇာတ်လမ်းကို ပြောပြခဲ့သည်။ Ko Zayar သည် Timeline ကို အမှန်တကယ် Event များ၏ အစီအစဉ်ဖြင့် မဟုတ်ဘဲ ဇာတ်လမ်းပြောခြင်း၏ အစီအစဉ်ဖြင့် မတော်တဆ စီစဉ်မိခဲ့သည်။\n\nKo Zayar သည် ပြန်သွားကာ ဇာတ်လမ်းတစ်ခုစီအတွက် ခန့်မှန်းနှစ်များကို အဖွားထံမှ တောင်းဆိုပြီး ၎င်း၏ Timeline ကို မှန်ကန်သော Chronological Order ဖြင့် ပြန်လည် တည်ဆောက်ခဲ့သည်။ ထိုအပြင် မှတ်သားထိုက်သော အခြားအရာတစ်ခုကိုလည်း ၎င်း သတိပြုမိခဲ့သည် - ဇာတ်လမ်းအချို့ကို အဖွား ရှင်းလင်း၊ ယုံကြည်စွာ မှတ်မိသော်လည်း အခြားများကို အတိအကျ နှစ်အကြောင်း 'အပြည့်အစုံ မသေချာပါ' ဟု ဝန်ခံခဲ့သည်။ Entry မသေချာသေးသည်များ ဘေးတွင် Confidence တူညီစွာ ရက်စွဲတိုင်းကို တင်ပြမည့်အစား မှတ်ချက်ငယ်တစ်ခု ၎င်း ထပ်ထည့်ခဲ့သည်။\n\n၎င်း၏ ဆရာမသည် ပြင်ဆင်ချက်နှစ်ခုစလုံးကို ချီးမွမ်းခဲ့သည်။ စစ်မှန်သော Chronological Order ကို မှန်ကန်စွာ ရရှိခြင်းသည် Cause and Effect Analysis မည်သည် မစတင်မီ Historian တိုင်း လိုအပ်သော Foundation ဖြစ်ကြောင်းနှင့် Uncertainty ကို ဖုံးကွယ်မည့်အစား ရိုးသားစွာ မှတ်သားခြင်းသည် Course တစ်ခုလုံးတစ်လျှောက် အရေးကြီးမည့် Habit တစ်ခု ဖြစ်ကြောင်း ၎င်း ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Ko Zayar's teacher identify in his first draft?",
+            questionMy:
+                "Ko Zayar ၏ ပထမ Draft တွင် ဆရာမ ဖော်ထုတ်ခဲ့သော အမှားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He ordered events by the order they were told, not the order they actually happened",
+              "He included no events of any kind whatsoever in his timeline",
+              "He interviewed the wrong family member entirely",
+              "He made no mistake of any kind in his first draft",
+            ],
+            optionsMy: [
+              "Event များကို ၎င်းတို့ အမှန်တကယ် ဖြစ်ပျက်ခဲ့သော အစီအစဉ်ဖြင့် မဟုတ်ဘဲ ပြောပြခဲ့သော အစီအစဉ်ဖြင့် စီစဉ်ခဲ့ခြင်း",
+              "၎င်း၏ Timeline တွင် Event မည်သည်မှ လုံးဝ မထည့်သွင်းခဲ့ခြင်း",
+              "မှားယွင်းသော မိသားစုဝင်ကို လုံးလုံး Interview ပြုလုပ်ခဲ့ခြင်း",
+              "၎င်း၏ ပထမ Draft တွင် အမှား မည်သည်မှ မပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified problem."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖော်ထုတ်ထားသော ပြဿနာကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Ko Zayar add beside stories his grandmother was uncertain about?",
+            questionMy:
+                "အဖွား မသေချာသော ဇာတ်လမ်းများ ဘေးတွင် Ko Zayar ထပ်ထည့်ခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A small note marking the uncertainty rather than presenting it with equal confidence",
+              "Nothing at all -- he removed those stories from the timeline entirely",
+              "A false, confident date with no actual basis in evidence",
+              "An unrelated story from a completely different time period",
+            ],
+            optionsMy: [
+              "Confidence တူညီစွာ တင်ပြမည့်အစား Uncertainty ကို မှတ်သားသော မှတ်ချက်ငယ်တစ်ခု",
+              "ဘာမှ မထည့်ခြင်း -- ထို ဇာတ်လမ်းများကို Timeline မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "Evidence တွင် အခြေခံမှု အမှန်တကယ် မရှိသော False, Confident ရက်စွဲတစ်ခု",
+              "လုံးဝ ကွဲပြားသော အချိန်ကာလမှ မသက်ဆိုင်သော ဇာတ်လမ်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described addition."],
+            hintsMy: [
+              "တတိယ စာပိုဒ်၏ ဖော်ပြထားသော ထပ်ထည့်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the teacher say getting chronological order right matters?",
+            questionMy:
+                "Chronological Order မှန်ကန်စွာ ရရှိခြင်းသည် အရေးကြီးသည်ဟု ဆရာမ ပြောခဲ့သည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is the foundation every historian needs before any analysis of cause and effect can begin",
+              "It has no actual importance in historical study whatsoever",
+              "Chronological order is only useful for family history, not real historical study",
+              "Cause and effect can be analyzed perfectly well with no attention to order at all",
+            ],
+            optionsMy: [
+              "Cause and Effect Analysis မည်သည် မစတင်မီ Historian တိုင်း လိုအပ်သော Foundation ဖြစ်သည်",
+              "သမိုင်း လေ့လာမှုတွင် အမှန်တကယ် အရေးကြီးမှု လုံးဝ မရှိခြင်း",
+              "Chronological Order သည် မိသားစု သမိုင်းအတွက်သာ အသုံးဝင်ပြီး တကယ့် သမိုင်း လေ့လာမှုအတွက် မဟုတ်ခြင်း",
+              "Order ကို လုံးဝ ဂရုမစိုက်ဘဲ Cause and Effect ကို ကောင်းစွာ Analyze ပြုလုပ်နိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated reason."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w2-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Chronology Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Chronology မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A timeline should order events by...",
+          questionMy: "Timeline တစ်ခုသည် Event များကို ...အလိုက် စီစဉ်သင့်သည်",
+          optionsEn: [
+            "The order they actually happened",
+            "The order they happened to be told",
+            "A completely random order",
+            "Alphabetical order of event names",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် ဖြစ်ပျက်ခဲ့သော အစီအစဉ်",
+            "ပြောပြခဲ့သော အစီအစဉ်",
+            "လုံးလုံး ကျပန်း အစီအစဉ်",
+            "Event အမည်များ၏ Alphabetical Order",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Named historical periods are useful because they...",
+          questionMy:
+              "အမည်ရှိသော သမိုင်းကာလများသည် အောက်ပါအကြောင်းကြောင့် အသုံးဝင်သည် - ...",
+          optionsEn: [
+            "Group broadly similar times together for easier comparison",
+            "Have no actual usefulness in studying history",
+            "Make individual dates completely irrelevant",
+            "Are chosen entirely at random with no pattern",
+          ],
+          optionsMy: [
+            "နှိုင်းယှဉ်ရလွယ်ကူစေရန် ကျယ်ပြန့်စွာ ဆင်တူသော အချိန်များကို အတူတကွ စုစည်းပေးသည်",
+            "သမိုင်း လေ့လာမှုတွင် အမှန်တကယ် အသုံးဝင်မှု မရှိခြင်း",
+            "ရက်စွဲသီးခြားစီများကို လုံးဝ မသက်ဆိုင်စေခြင်း",
+            "Pattern မရှိဘဲ လုံးလုံး ကျပန်း ရွေးချယ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a source is uncertain about an exact date, a careful historian should...",
+          questionMy:
+              "Source တစ်ခုသည် အတိအကျ ရက်စွဲအကြောင်း မသေချာသောအခါ ဂရုတစိုက် Historian တစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "Note the uncertainty honestly rather than hiding it",
+            "Hide the uncertainty and state a false, confident date",
+            "Remove the source from consideration entirely",
+            "Ignore the issue and assume the date is certain",
+          ],
+          optionsMy: [
+            "Uncertainty ကို ဖုံးကွယ်မည့်အစား ရိုးသားစွာ မှတ်သားသင့်သည်",
+            "Uncertainty ကို ဖုံးကွယ်ပြီး False, Confident ရက်စွဲတစ်ခု ဖော်ပြသင့်သည်",
+            "Source ကို ထည့်သွင်းစဉ်းစားခြင်းမှ လုံးလုံး ဖယ်ရှားသင့်သည်",
+            "ပြဿနာကို လျစ်လျူရှုပြီး ရက်စွဲ သေချာသည်ဟု ယူဆသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 1, Week 3: "Reading and Making Maps"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek3 = CourseWeekDef(
+  id: "course-sec1-hum-w3",
+  weekNumber: 3,
+  titleEn: "Reading and Making Maps",
+  titleMy: "Map များ ဖတ်ရှုခြင်းနှင့် ရေးဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w3-d1",
+      dayNumber: 1,
+      titleEn: "Grid References, Scale and Symbols",
+      titleMy: "Grid Reference, Scale နှင့် Symbol များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do maps use a grid of numbered lines rather than relying only on written directions like 'near the big tree'?",
+          questionMy:
+              "Map များသည် 'သစ်ပင်ကြီးအနီး' ကဲ့သို့ ရေးထားသော ညွှန်ကြားချက်များကိုသာ အားကိုးမည့်အစား နံပါတ်ပါသော မျဉ်း Grid ကို အဘယ်ကြောင့် အသုံးပြုကြသနည်း။",
+          optionsEn: [
+            "A grid reference gives an exact, unambiguous location that anyone reading the map can find precisely, unlike a vague written description",
+            "A written description is always more precise than any grid reference",
+            "Grid references have no actual advantage over written directions",
+            "Maps never actually need any way to describe a precise location",
+          ],
+          optionsMy: [
+            "Grid Reference တစ်ခုသည် Map ဖတ်သူ မည်သူမဆို တိကျစွာ ရှာဖွေနိုင်သော တိကျ၊ မရှုပ်ထွေးသော တည်နေရာတစ်ခု ပေးအပ်ပြီး မှုန်ဝါးသော ရေးသား ဖော်ပြချက်တစ်ခုနှင့် မတူပါ",
+            "ရေးသား ဖော်ပြချက်တစ်ခုသည် Grid Reference မည်သည်ထက်မဆို အမြဲ ပို၍ တိကျခြင်း",
+            "Grid Reference များသည် ရေးသား ညွှန်ကြားချက်များထက် အမှန်တကယ် အားသာချက် မရှိခြင်း",
+            "Map များသည် တိကျသော တည်နေရာကို ဖော်ပြရန် နည်းလမ်း မည်သည်မှ အမှန်တကယ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about it like an address system: a grid reference works the same way a street address does, giving one exact, searchable location.",
+          ],
+          hintsMy: [
+            "Address System တစ်ခုကဲ့သို့ စဉ်းစားပါ - Grid Reference တစ်ခုသည် Street Address တစ်ခု အလုပ်လုပ်သည့်နည်းတူ တိကျ၊ ရှာဖွေနိုင်သော တည်နေရာတစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a map's scale matter when estimating the real-world distance between two points?",
+          questionMy:
+              "အမှတ်နှစ်ခုကြား တကယ့်ကမ္ဘာ အကွာအဝေးကို ခန့်မှန်းသောအခါ Map ၏ Scale သည် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Scale tells you how a distance measured on the map converts to an actual real-world distance, so measuring without it gives a meaningless number",
+            "Scale has no actual relevance to estimating real-world distance",
+            "Every map uses exactly the same scale with no need to check it",
+            "Real-world distance can be estimated accurately with no reference to scale at all",
+          ],
+          optionsMy: [
+            "Scale သည် Map ပေါ်တွင် တိုင်းတာထားသော အကွာအဝေးသည် တကယ့်ကမ္ဘာ အကွာအဝေးသို့ မည်သို့ ပြောင်းလဲသည်ကို ဖော်ပြပေးသောကြောင့် ၎င်းမပါဘဲ တိုင်းတာခြင်းသည် အဓိပ္ပာယ်မရှိသော ဂဏန်းတစ်ခုသာ ရရှိစေသည်",
+            "Scale သည် တကယ့်ကမ္ဘာ အကွာအဝေး ခန့်မှန်းခြင်းနှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "Map တိုင်းသည် Scale တူတူသာ အသုံးပြုပြီး စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Scale ကို လုံးဝ ရည်ညွှန်းခြင်း မရှိဘဲ တကယ့်ကမ္ဘာ အကွာအဝေးကို တိကျစွာ ခန့်မှန်းနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A 1cm gap on two different maps can represent very different real distances -- the scale is what tells you which is which.",
+          ],
+          hintsMy: [
+            "Map ကွဲပြားနှစ်ခုပေါ်ရှိ 1cm ကွာဟမှုသည် တကယ့် အကွာအဝေး များစွာ ကွဲပြားနိုင်သည် -- မည်သည်က မည်သည်ဖြစ်သည်ကို Scale က ဖော်ပြပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do maps use standardized symbols and a key/legend rather than writing a full description next to every feature?",
+          questionMy:
+              "Map များသည် Feature တိုင်းအနီးတွင် ဖော်ပြချက်အပြည့်အစုံ ရေးသားမည့်အစား Standardized Symbol များနှင့် Key/Legend ကို အဘယ်ကြောင့် အသုံးပြုကြသနည်း။",
+          optionsEn: [
+            "Symbols keep a map readable and uncluttered while still conveying precise information, as long as the reader checks the key to understand each symbol",
+            "Symbols have no actual purpose on a map and could be removed entirely",
+            "Writing a full description next to every feature always makes a map clearer than symbols do",
+            "A map's key or legend serves no actual function whatsoever",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုသူက Symbol တစ်ခုစီကို နားလည်ရန် Key ကို စစ်ဆေးသရွေ့ Symbol များသည် Map ကို ဖတ်ရလွယ်၊ ရှုပ်ထွေးမှု မရှိစေဘဲ တိကျသော Information ကို ဆက်လက် ဖော်ပြပေးသည်",
+            "Symbol များသည် Map ပေါ်တွင် အမှန်တကယ် ရည်ရွယ်ချက် မရှိဘဲ လုံးလုံး ဖယ်ရှားနိုင်ခြင်း",
+            "Feature တိုင်းအနီးတွင် ဖော်ပြချက်အပြည့်အစုံ ရေးသားခြင်းသည် Symbol များထက် Map ကို အမြဲ ပို၍ ရှင်းလင်းစေခြင်း",
+            "Map တစ်ခု၏ Key (သို့) Legend သည် Function မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same efficiency idea as a drag-match vocabulary lesson -- a compact symbol paired with a clear key conveys information faster than a paragraph would.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Drag-Match Vocabulary သင်ခန်းစာတစ်ခု၏ Efficiency Idea တူတူ ဖြစ်သည် -- ရှင်းလင်းသော Key နှင့် တွဲထားသော Compact Symbol တစ်ခုသည် စာပိုဒ်တစ်ခုထက် Information ကို ပို၍ မြန်ဆန်စွာ ဖော်ပြပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Map Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Map Skills Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w3-dm-1",
+          termEn: "Grid reference",
+          termMy: "Grid Reference",
+          matchEn: "A set of numbers that pinpoints an exact location on a map",
+          matchMy:
+              "Map ပေါ်ရှိ တိကျသော တည်နေရာတစ်ခုကို ညွှန်ပြသော ဂဏန်း အစုအဝေး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w3-dm-2",
+          termEn: "Scale",
+          termMy: "Scale",
+          matchEn:
+              "The ratio between a distance on the map and the real distance on the ground",
+          matchMy:
+              "Map ပေါ်ရှိ အကွာအဝေးနှင့် မြေပြင်ပေါ်ရှိ တကယ့် အကွာအဝေးကြား Ratio",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w3-dm-3",
+          termEn: "Key / legend",
+          termMy: "Key / Legend",
+          matchEn: "A guide explaining what each symbol on a map represents",
+          matchMy:
+              "Map ပေါ်ရှိ Symbol တစ်ခုစီသည် အဘယ်အရာကို ကိုယ်စားပြုသည်ကို ရှင်းပြသော လမ်းညွှန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w3-dm-4",
+          termEn: "Compass direction",
+          termMy: "Compass Direction",
+          matchEn: "North, South, East, West and the directions between them",
+          matchMy:
+              "မြောက်၊ တောင်၊ အရှေ့၊ အနောက်နှင့် ၎င်းတို့ကြားရှိ ဦးတည်ရာများ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct Map-Reading Habit or Not?",
+      titleMy: "စီစစ်ကြမည် - မှန်ကန်သော Map-Reading အလေ့အထ (သို့) မဟုတ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Map-Reading Habit", "Incorrect Map-Reading Habit"],
+        bucketsMy: [
+          "မှန်ကန်သော Map-Reading အလေ့အထ",
+          "မှားယွင်းသော Map-Reading အလေ့အထ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w3-sort-1",
+            labelEn: "Checking the key before assuming what a symbol means",
+            labelMy: "Symbol တစ်ခု၏ အဓိပ္ပာယ်ကို ယူဆမီ Key ကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Correct Map-Reading Habit",
+            correctBucketMy: "မှန်ကန်သော Map-Reading အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w3-sort-2",
+            labelEn:
+                "Guessing a symbol's meaning without ever checking the key",
+            labelMy:
+                "Key ကို တစ်ခါမျှ မစစ်ဆေးဘဲ Symbol တစ်ခု၏ အဓိပ္ပာယ်ကို ခန့်မှန်းခြင်း",
+            correctBucketEn: "Incorrect Map-Reading Habit",
+            correctBucketMy: "မှားယွင်းသော Map-Reading အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w3-sort-3",
+            labelEn:
+                "Using the scale bar to convert a map distance into a real-world distance",
+            labelMy:
+                "Map အကွာအဝေးကို တကယ့်ကမ္ဘာ အကွာအဝေးအဖြစ် ပြောင်းလဲရန် Scale Bar အသုံးပြုခြင်း",
+            correctBucketEn: "Correct Map-Reading Habit",
+            correctBucketMy: "မှန်ကန်သော Map-Reading အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w3-sort-4",
+            labelEn:
+                "Assuming a distance on the map equals the same number in real-world kilometers with no scale check",
+            labelMy:
+                "Scale စစ်ဆေးခြင်း မပြုဘဲ Map ပေါ်ရှိ အကွာအဝေးသည် တကယ့်ကမ္ဘာ ကီလိုမီတာ ဂဏန်းတူတူဟု ယူဆခြင်း",
+            correctBucketEn: "Incorrect Map-Reading Habit",
+            correctBucketMy: "မှားယွင်းသော Map-Reading အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thandar's Neighborhood Map",
+      titleMy: "စာဖတ်ခြင်း - Thandar ၏ ရပ်ကွက် Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thandar's Neighborhood Map",
+        titleMy: "Thandar ၏ ရပ်ကွက် Map",
+        passageEn:
+            "For Week 3's practical task, Thandar's class was asked to draw a simple map of the streets around their school, complete with a grid, a scale, and a key.\n\nThandar's first attempt looked neat, but when she swapped maps with her partner to test them, her partner could not find the school library using her grid reference -- Thandar had labelled her grid rows and columns in the wrong order compared to the standard convention the class had learned. She fixed the labelling and tested it again; this time her partner found the library immediately.\n\nNext, her partner tried to estimate the real distance from the school gate to the market using Thandar's map. Without a scale, the only honest answer was 'I can't tell' -- so Thandar went back and added a scale bar showing that one centimeter on her map equalled fifty real-world meters, making the estimate possible for the first time.\n\nFinally, Thandar had drawn a small triangle symbol for the temple and a small square for the market, but had forgotten to include a key explaining what the symbols meant. Her partner had simply guessed, and guessed wrong. Once Thandar added the key, every symbol became instantly clear. Her teacher noted that all three fixes traced back to the same underlying lesson: a map is only useful if another person, who wasn't there when it was made, can read it correctly on their own.",
+        passageMy:
+            "Week 3 ၏ Practical Task အတွက် ၎င်းတို့ကျောင်းပတ်ဝန်းကျင်ရှိ လမ်းများ၏ Grid, Scale နှင့် Key ပါဝင်သော ရိုးရှင်းသော Map တစ်ခု ရေးဆွဲရန် Thandar ၏ အတန်းအား တောင်းဆိုခဲ့သည်။\n\nThandar ၏ ပထမ ကြိုးစားမှုသည် သပ်ရပ်စွာ မြင်ရသော်လည်း စစ်ဆေးရန် ၎င်း၏ Partner နှင့် Map များ လဲလှယ်သောအခါ ၎င်း၏ Partner သည် ၎င်း၏ Grid Reference အသုံးပြု၍ ကျောင်းစာကြည့်တိုက်ကို ရှာမတွေ့ခဲ့ပါ -- Thandar သည် အတန်းက သင်ယူခဲ့သော Standard Convention နှင့် နှိုင်းယှဉ်ပါက ၎င်း၏ Grid Row များနှင့် Column များကို မှားယွင်းသော အစီအစဉ်ဖြင့် Label တင်ခဲ့သည်။ ၎င်းသည် Labelling ကို ပြင်ဆင်ပြီး ထပ်မံ စစ်ဆေးခဲ့သည်၊ ယခုအကြိမ်တွင် ၎င်း၏ Partner သည် စာကြည့်တိုက်ကို ချက်ချင်း ရှာတွေ့ခဲ့သည်။\n\nထို့နောက် ၎င်း၏ Partner သည် Thandar ၏ Map အသုံးပြု၍ ကျောင်းတံခါးမှ ဈေးအထိ တကယ့် အကွာအဝေးကို ခန့်မှန်းရန် ကြိုးစားခဲ့သည်။ Scale မပါဘဲ ရိုးသားသော အဖြေတစ်ခုတည်းမှာ 'ကျွန်ုပ် မခန့်မှန်းနိုင်ပါ' ဖြစ်ခဲ့သည် -- ထို့ကြောင့် Thandar သည် ပြန်သွားကာ ၎င်း၏ Map ပေါ်ရှိ တစ်စင်တီမီတာသည် တကယ့်ကမ္ဘာ မီတာ ငါးဆယ်နှင့် ညီမျှကြောင်း ပြသသော Scale Bar တစ်ခု ထပ်ထည့်ခဲ့ပြီး ပထမဆုံးအကြိမ်အဖြစ် ခန့်မှန်းမှုကို ဖြစ်နိုင်စေခဲ့သည်။\n\nနောက်ဆုံးတွင် Thandar သည် ဘုရားကျောင်းအတွက် သုံးထောင့်ပုံငယ်တစ်ခုနှင့် ဈေးအတွက် လေးထောင့်ပုံငယ်တစ်ခု ရေးဆွဲခဲ့သော်လည်း Symbol များ၏ အဓိပ္ပာယ်ကို ရှင်းပြသော Key ထည့်သွင်းရန် မေ့လျော့ခဲ့သည်။ ၎င်း၏ Partner သည် ရိုးရိုး ခန့်မှန်းခဲ့ပြီး မှားယွင်းစွာ ခန့်မှန်းခဲ့သည်။ Thandar သည် Key ထပ်ထည့်ပြီးနောက် Symbol တိုင်းသည် ချက်ချင်း ရှင်းလင်းလာခဲ့သည်။ ပြင်ဆင်ချက် သုံးခုစလုံးသည် Underlying သင်ခန်းစာတူတူသို့ ပြန်ချိတ်ဆက်ကြောင်း ၎င်း၏ ဆရာမ မှတ်ချက်ပြုခဲ့သည် - Map တစ်ခုသည် ၎င်းပြုလုပ်ချိန်တွင် မရှိခဲ့သော အခြားသူတစ်ဦးက ကိုယ်တိုင် မှန်ကန်စွာ ဖတ်နိုင်မှသာ အသုံးဝင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was wrong with Thandar's first grid reference labelling?",
+            questionMy:
+                "Thandar ၏ ပထမ Grid Reference Labelling တွင် အဘယ်အရာ မှားယွင်းခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her rows and columns were labelled in the wrong order compared to the standard convention",
+              "She had drawn no grid on her map whatsoever",
+              "Her partner never actually attempted to use the grid reference",
+              "The grid reference was completely correct with no issue at all",
+            ],
+            optionsMy: [
+              "Standard Convention နှင့် နှိုင်းယှဉ်ပါက ၎င်း၏ Row များနှင့် Column များကို မှားယွင်းသော အစီအစဉ်ဖြင့် Label တင်ထားခြင်း",
+              "၎င်း၏ Map ပေါ်တွင် Grid မည်သည်မှ လုံးဝ မရေးဆွဲခဲ့ခြင်း",
+              "၎င်း၏ Partner သည် Grid Reference ကို အမှန်တကယ် အသုံးပြုရန် ကြိုးစားခြင်း မရှိခဲ့ခြင်း",
+              "Grid Reference သည် ပြဿနာ လုံးဝ မရှိဘဲ လုံးလုံး မှန်ကန်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified error."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖော်ထုတ်ထားသော အမှားကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why couldn't Thandar's partner estimate the real distance at first?",
+            questionMy:
+                "ပထမတွင် Thandar ၏ Partner သည် တကယ့် အကွာအဝေးကို ခန့်မှန်း၍ မရနိုင်ခဲ့သည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The map had no scale, so converting map distance to real distance was impossible",
+              "The map had a scale but her partner refused to look at it",
+              "The distance in question did not actually exist on the map",
+              "Her partner already knew the exact real-world distance without needing the map",
+            ],
+            optionsMy: [
+              "Map တွင် Scale မပါသောကြောင့် Map အကွာအဝေးကို တကယ့် အကွာအဝေးအဖြစ် ပြောင်းလဲခြင်း မဖြစ်နိုင်ခဲ့ခြင်း",
+              "Map တွင် Scale ပါခဲ့သော်လည်း ၎င်း၏ Partner သည် ကြည့်ရှုရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "ပြောနေသော အကွာအဝေးသည် Map ပေါ်တွင် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Map မလိုအပ်ဘဲ ၎င်း၏ Partner သည် တကယ့်ကမ္ဘာ အကွာအဝေး အတိအကျကို သိရှိပြီးသား ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reason."],
+            hintsMy: [
+              "တတိယ စာပိုဒ်၏ ဖော်ပြထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what underlying lesson connected all three of Thandar's fixes?",
+            questionMy:
+                "Thandar ၏ ပြင်ဆင်ချက် သုံးခုစလုံးကို ချိတ်ဆက်ပေးသော Underlying သင်ခန်းစာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A map is only useful if someone who wasn't there when it was made can read it correctly on their own",
+              "Maps never actually need to be readable by anyone other than their creator",
+              "Symbols, scale, and grid references have no actual connection to each other",
+              "A map's usefulness has no relationship to whether other people can read it",
+            ],
+            optionsMy: [
+              "Map တစ်ခုသည် ၎င်းပြုလုပ်ချိန်တွင် မရှိခဲ့သော သူတစ်ဦးက ကိုယ်တိုင် မှန်ကန်စွာ ဖတ်နိုင်မှသာ အသုံးဝင်သည်",
+              "Map များသည် ၎င်း၏ ဖန်တီးသူမှလွဲ၍ မည်သူမျှ ဖတ်နိုင်ရန် အမှန်တကယ် မလိုအပ်ခြင်း",
+              "Symbol, Scale နှင့် Grid Reference များတွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "Map တစ်ခု၏ အသုံးဝင်မှုသည် အခြားသူများ ဖတ်နိုင်ခြင်း ရှိမရှိနှင့် ဆက်စပ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated connecting lesson."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ချိတ်ဆက်သည့် သင်ခန်းစာကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w3-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Map Skills Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Map Skills မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A grid reference is useful because it gives...",
+          questionMy: "Grid Reference တစ်ခုသည် ...ပေးအပ်သောကြောင့် အသုံးဝင်သည်",
+          optionsEn: [
+            "An exact, unambiguous location anyone can find",
+            "A vague description with no exact meaning",
+            "No actual location information whatsoever",
+            "A location only the map's creator can understand",
+          ],
+          optionsMy: [
+            "မည်သူမဆို ရှာဖွေနိုင်သော တိကျ၊ မရှုပ်ထွေးသော တည်နေရာ",
+            "အတိအကျ အဓိပ္ပာယ် မရှိသော မှုန်ဝါးသော ဖော်ပြချက်",
+            "တည်နေရာ Information မည်သည်မှ အမှန်တကယ် မပါခြင်း",
+            "Map ဖန်တီးသူသာ နားလည်နိုင်သော တည်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Without a map's scale, estimating real-world distance is...",
+          questionMy:
+              "Map ၏ Scale မပါဘဲ တကယ့်ကမ္ဘာ အကွာအဝေးကို ခန့်မှန်းခြင်းသည် ...",
+          optionsEn: [
+            "Impossible to do accurately",
+            "Always perfectly accurate",
+            "Unnecessary for any purpose",
+            "Easier than with a scale",
+          ],
+          optionsMy: [
+            "တိကျစွာ ပြုလုပ်၍ မဖြစ်နိုင်ခြင်း",
+            "အမြဲ လုံးလုံး တိကျခြင်း",
+            "ရည်ရွယ်ချက် မည်သည်အတွက်မျှ မလိုအပ်ခြင်း",
+            "Scale ရှိသည်ထက် ပို၍ လွယ်ကူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A map's key or legend should be checked before...",
+          questionMy:
+              "Map တစ်ခု၏ Key (သို့) Legend ကို ...မတိုင်မီ စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Assuming what a symbol on the map means",
+            "Drawing the map for the very first time",
+            "Adding a scale bar to the map",
+            "Choosing which colors to use on the map",
+          ],
+          optionsMy: [
+            "Map ပေါ်ရှိ Symbol တစ်ခု၏ အဓိပ္ပာယ်ကို ယူဆခြင်း",
+            "Map ကို ပထမဆုံးအကြိမ် ရေးဆွဲခြင်း",
+            "Map ပေါ်တွင် Scale Bar ထပ်ထည့်ခြင်း",
+            "Map ပေါ်တွင် မည်သည့် အရောင်များ အသုံးပြုမည်ကို ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 1, Week 4 (Capstone/Boss Week): "Local
+// History-Geography Investigation"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek4 = CourseWeekDef(
+  id: "course-sec1-hum-w4",
+  weekNumber: 4,
+  titleEn: "Local History-Geography Investigation",
+  titleMy: "Local History-Geography စုံစမ်းစစ်ဆေးမှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w4-d1",
+      dayNumber: 1,
+      titleEn: "Combining Both Lenses on One Place",
+      titleMy: "နေရာတစ်ခုပေါ်တွင် မှန်ဘီလူးနှစ်ခုလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does a strong local investigation combine the historian's lens (what happened, and why then) with the geographer's lens (where, and why there), rather than using only one?",
+          questionMy:
+              "ခိုင်မာသော Local Investigation တစ်ခုသည် တစ်ခုတည်းသာ အသုံးပြုမည့်အစား Historian ၏ မှန်ဘီလူး (အဘယ်အရာ ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုအချိန်တွင်) နှင့် Geographer ၏ မှန်ဘီလူး (မည်သည့်နေရာနှင့် အဘယ်ကြောင့် ထိုနေရာတွင်) ကို အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A place's history and its geography constantly influence each other, so using only one lens misses half of what actually shaped that place",
+            "The two lenses have no actual connection to each other in a local investigation",
+            "Using only the geographer's lens is always sufficient with no need for history",
+            "Using only the historian's lens is always sufficient with no need for geography",
+          ],
+          optionsMy: [
+            "နေရာတစ်ခု၏ History နှင့် Geography သည် တစ်ခုနှင့်တစ်ခု အမြဲ သက်ရောက်နေသောကြောင့် မှန်ဘီလူးတစ်ခုတည်းသာ အသုံးပြုခြင်းသည် ထိုနေရာကို အမှန်တကယ် ပုံဖော်ခဲ့သော အခြေအနေတစ်ဝက်ကို လွတ်သွားစေသည်",
+            "မှန်ဘီလူးနှစ်ခုသည် Local Investigation တစ်ခုတွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Geographer ၏ မှန်ဘီလူးတစ်ခုတည်းကိုသာ အသုံးပြုခြင်းသည် History မလိုအပ်ဘဲ အမြဲ လုံလောက်ခြင်း",
+            "Historian ၏ မှန်ဘီလူးတစ်ခုတည်းကိုသာ အသုံးပြုခြင်းသည် Geography မလိုအပ်ဘဲ အမြဲ လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 1's Nilar reading -- the town's location by the river shaped its history, and its history shaped how the town grew from that location.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 1 ၏ Nilar စာဖတ်ခြင်းကို တိုက်ရိုက် ပြန်သတိရစေသည် -- မြစ်ဘေးရှိ မြို့၏ တည်နေရာသည် ၎င်း၏ History ကို ပုံဖော်ခဲ့ပြီး ၎င်း၏ History သည် ထိုတည်နေရာမှ မြို့ မည်သို့ ဖွံ့ဖြိုးလာခဲ့သည်ကို ပုံဖော်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a local investigation cite specific evidence (an interview, an old photograph, a map) for each claim, rather than presenting general impressions?",
+          questionMy:
+              "Local Investigation တစ်ခုသည် ယေဘုယျ Impression များ တင်ပြမည့်အစား Claim တစ်ခုစီအတွက် (Interview, ဓာတ်ပုံဟောင်း, Map) ကဲ့သို့ တိကျသော Evidence ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific evidence lets a reader check and trust a claim, exactly as Week 1 and Week 2 established for any historical or geographical statement",
+            "General impressions are always more trustworthy than specific evidence",
+            "Citing evidence has no actual value in a local investigation",
+            "A claim needs no support of any kind to be considered reliable",
+          ],
+          optionsMy: [
+            "Week 1 နှင့် Week 2 က သမိုင်းဆိုင်ရာ (သို့) ပထဝီဝင်ဆိုင်ရာ ဖော်ပြချက် မည်သည်အတွက်မဆို တည်ထောင်ခဲ့သကဲ့သို့ တိကျသော Evidence သည် ဖတ်ရှုသူအား Claim တစ်ခုကို စစ်ဆေး၍ ယုံကြည်နိုင်စေသည်",
+            "ယေဘုယျ Impression များသည် တိကျသော Evidence ထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "Evidence ကိုးကားခြင်းသည် Local Investigation တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Claim တစ်ခုသည် ယုံကြည်ရသည်ဟု ယူဆရန် ထောက်ခံမှု မည်သည်မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 1's evidence-vs-guess principle, applied now to your own investigation rather than someone else's example.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား အခြားသူ၏ ဥပမာအစား သင့်ကိုယ်ပိုင် Investigation ပေါ်တွင် အသုံးချထားသော Week 1 ၏ Evidence-Vs-Guess Principle နှင့် တိုက်ရိုက် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an investigation note when a piece of local information is uncertain (such as an approximate date from memory), rather than presenting every detail with equal confidence?",
+          questionMy:
+              "Investigation တစ်ခုသည် Detail တိုင်းကို Confidence တူညီစွာ တင်ပြမည့်အစား Local Information အပိုင်း (မှတ်ဉာဏ်မှ ခန့်မှန်း ရက်စွဲကဲ့သို့) မသေချာသောအခါ အဘယ်ကြောင့် မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "Honestly marking uncertainty, as Week 2's timeline lesson established, makes an investigation more credible than false confidence would",
+            "Every detail in a local investigation is always completely certain with no exceptions",
+            "Marking uncertainty has no actual value in a local investigation",
+            "False confidence is always more credible than honestly marked uncertainty",
+          ],
+          optionsMy: [
+            "Week 2 ၏ Timeline သင်ခန်းစာ တည်ထောင်ခဲ့သကဲ့သို့ Uncertainty ကို ရိုးသားစွာ မှတ်သားခြင်းသည် False Confidence ထက် Investigation တစ်ခုကို ပို၍ ယုံကြည်ရစေသည်",
+            "Local Investigation တစ်ခုရှိ Detail တိုင်းသည် ခြွင်းချက်မရှိဘဲ အမြဲ လုံးလုံး သေချာခြင်း",
+            "Uncertainty မှတ်သားခြင်းသည် Local Investigation တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "False Confidence သည် ရိုးသားစွာ မှတ်သားထားသော Uncertainty ထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Ko Zayar's family-timeline lesson from Week 2, applied now to your own local investigation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 2 မှ Ko Zayar ၏ မိသားစု Timeline သင်ခန်းစာကို သင့်ကိုယ်ပိုင် Local Investigation ပေါ်တွင် အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 1 Skills ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w4-dm-1",
+          termEn: "Historian's lens",
+          termMy: "Historian's Lens",
+          matchEn: "Asking what happened and why it happened at that time",
+          matchMy:
+              "အဘယ်အရာ ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုအချိန်တွင် ဖြစ်ပျက်ခဲ့သည်ကို မေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w4-dm-2",
+          termEn: "Geographer's lens",
+          termMy: "Geographer's Lens",
+          matchEn: "Asking where something happened and why it happened there",
+          matchMy:
+              "တစ်ခုခု မည်သည့်နေရာတွင် ဖြစ်ပျက်ခဲ့ပြီး အဘယ်ကြောင့် ထိုနေရာတွင် ဖြစ်ပျက်ခဲ့သည်ကို မေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w4-dm-3",
+          termEn: "Cited evidence",
+          termMy: "Cited Evidence",
+          matchEn:
+              "A specific source, such as an interview or photograph, backing up a claim",
+          matchMy:
+              "Claim တစ်ခုကို ထောက်ခံသော Interview (သို့) ဓာတ်ပုံကဲ့သို့ တိကျသော Source",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w4-dm-4",
+          termEn: "Marked uncertainty",
+          termMy: "Marked Uncertainty",
+          matchEn: "Honestly noting when a detail is not fully confirmed",
+          matchMy:
+              "Detail တစ်ခု အပြည့်အစုံ အတည်မပြုသေးသည်ကို ရိုးသားစွာ မှတ်သားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Investigation Practice or Weak?",
+      titleMy:
+          "စီစစ်ကြမည် - ခိုင်မာသော Investigation Practice (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Strong Investigation Practice",
+          "Weak Investigation Practice",
+        ],
+        bucketsMy: [
+          "ခိုင်မာသော Investigation Practice",
+          "အားနည်းသော Investigation Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w4-sort-1",
+            labelEn:
+                "Explaining both why a landmark was built and why that specific location was chosen",
+            labelMy:
+                "မှတ်တိုင်တစ်ခု ဘာကြောင့် တည်ဆောက်ခဲ့သည်နှင့် ထို တိကျသော တည်နေရာကို ဘာကြောင့် ရွေးချယ်ခဲ့သည် နှစ်ခုစလုံး ရှင်းပြခြင်း",
+            correctBucketEn: "Strong Investigation Practice",
+            correctBucketMy: "ခိုင်မာသော Investigation Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w4-sort-2",
+            labelEn:
+                "Describing only what a landmark looks like with no history or location reasoning at all",
+            labelMy:
+                "History (သို့) Location Reasoning မည်သည်မှ မပါဘဲ မှတ်တိုင်တစ်ခု မည်သို့ ရှိသည်ကိုသာ ဖော်ပြခြင်း",
+            correctBucketEn: "Weak Investigation Practice",
+            correctBucketMy: "အားနည်းသော Investigation Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w4-sort-3",
+            labelEn:
+                "Citing a specific interview quote to support a claim about local history",
+            labelMy:
+                "Local History အကြောင်း Claim တစ်ခုကို ထောက်ခံရန် တိကျသော Interview Quote ကိုးကားခြင်း",
+            correctBucketEn: "Strong Investigation Practice",
+            correctBucketMy: "ခိုင်မာသော Investigation Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w4-sort-4",
+            labelEn:
+                "Stating a claim about local history with no source or evidence cited at all",
+            labelMy:
+                "Source (သို့) Evidence မည်သည်မှ ကိုးကားခြင်း မပြုဘဲ Local History အကြောင်း Claim တစ်ခု ဖော်ပြခြင်း",
+            correctBucketEn: "Weak Investigation Practice",
+            correctBucketMy: "အားနည်းသော Investigation Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Investigation of Nga Yoke Kaung Street",
+      titleMy: "စာဖတ်ခြင်း - Nga Yoke Kaung လမ်း၏ အတန်း Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Investigation of Nga Yoke Kaung Street",
+        titleMy: "Nga Yoke Kaung လမ်း၏ အတန်း Investigation",
+        passageEn:
+            "For Term 1's capstone, the whole Secondary 1 Humanities class chose a single street near their school -- a busy market road the students passed every day but had never really investigated -- and combined every skill from the term into one shared project.\n\nUsing the geographer's lens, the class mapped the street with a grid, scale, and key, marking the market stalls, the small temple at its far end, and the way the road curved to follow an old drainage channel. Using the historian's lens, they interviewed three long-time shopkeepers and built a timeline of the street's changes over forty years, placing each remembered event in its correct chronological order rather than the order it was told.\n\nCombining both lenses, the class discovered something neither lens alone would have found: the market had originally formed where it did specifically because the drainage channel made that patch of ground the driest in the rainy season, exactly the kind of geography-shapes-history connection Nilar had noticed with the photograph back in Week 1. One shopkeeper's date for when the temple was built was remembered as 'sometime in the 1980s, I'm not fully sure' -- and the class marked that entry as uncertain on their timeline rather than picking an exact year with false confidence.\n\nPresenting the finished investigation, the teacher noted that every fix and every choice across four weeks -- correct chronology, checkable grid references, cited evidence, honestly marked uncertainty -- had come together in this single, combined project. That was the real point of Term 1: not four separate skills, but one connected way of investigating any place or event carefully and honestly.",
+        passageMy:
+            "Term 1 ၏ Capstone အတွက် Secondary 1 Humanities အတန်းတစ်ခုလုံးသည် ကျောင်းအနီးရှိ လမ်းတစ်ခု -- ကျောင်းသားများ နေ့စဉ် ဖြတ်သန်းသွားသော်လည်း အမှန်တကယ် Investigation ပြုလုပ်ခဲ့ခြင်း မရှိသေးသော အလုပ်များသော ဈေးလမ်းတစ်ခု -- ကို ရွေးချယ်ကာ Term တစ်ခုလုံးမှ Skill တိုင်းကို ပေါင်းစပ် Project တစ်ခုတည်းအဖြစ် ပြုလုပ်ခဲ့သည်။\n\nGeographer ၏ မှန်ဘီလူး အသုံးပြု၍ ဈေးဆိုင်ခန်းများ၊ ၎င်း၏ အဝေးဆုံးတွင်ရှိသော ဘုရားကျောင်းငယ်နှင့် ရေဆိုးလမ်းကြောင်းဟောင်းကို လိုက်နာသော လမ်း ကွေ့ချက်ပုံစံကို မှတ်သားကာ Grid, Scale နှင့် Key ဖြင့် အတန်းသည် လမ်းကို Map ရေးဆွဲခဲ့သည်။ Historian ၏ မှန်ဘီလူး အသုံးပြု၍ ကြာမြင့်စွာ ဆိုင်ဖွင့်ထားသော ဆိုင်ရှင် သုံးဦးကို Interview ပြုလုပ်ကာ ပြောပြခဲ့သော အစီအစဉ်မဟုတ်ဘဲ မှတ်မိထားသော Event တစ်ခုစီကို ၎င်း၏ မှန်ကန်သော Chronological Order တွင် နေရာချကာ လမ်း၏ နှစ်လေးဆယ်အတွင်း ပြောင်းလဲမှုများ Timeline တစ်ခု ၎င်းတို့ တည်ဆောက်ခဲ့သည်။\n\nမှန်ဘီလူးနှစ်ခုစလုံး ပေါင်းစပ်ခြင်းဖြင့် မှန်ဘီလူးတစ်ခုတည်းကသာ ရှာမတွေ့ခဲ့မည့် အရာတစ်ခုကို အတန်းသည် ရှာဖွေတွေ့ရှိခဲ့သည် - မိုးရာသီတွင် ထိုမြေအပိုင်းကို အခြောက်ဆုံး ဖြစ်စေသော ရေဆိုးလမ်းကြောင်းကြောင့် တိကျစွာ ထိုနေရာတွင် ဈေးရိုးရိုးအစ ဖွဲ့စည်းခဲ့ခြင်း ဖြစ်ကြောင်း -- Week 1 တွင် ဓာတ်ပုံဖြင့် Nilar သတိပြုမိခဲ့သော Geography-Shapes-History Connection အမျိုးအစား အတိအကျ ဖြစ်သည်။ ဘုရားကျောင်း ဘယ်အချိန်တည်ဆောက်ခဲ့သည်ဆိုသော ဆိုင်ရှင်တစ်ဦး၏ ရက်စွဲသည် '၁၉၈၀ ပြည့်နှစ်များ တစ်ခုခုတွင်၊ အပြည့်အစုံ မသေချာပါ' ဟု မှတ်မိထားခဲ့သည် -- False Confidence ဖြင့် တိကျသော နှစ်တစ်ခုကို ရွေးချယ်မည့်အစား ထို Entry ကို Uncertain အဖြစ် ၎င်းတို့၏ Timeline ပေါ်တွင် အတန်းက မှတ်သားခဲ့သည်။\n\nပြီးစီးသွားသော Investigation ကို တင်ပြသောအခါ Term 1 လေးပတ်တစ်လျှောက် ပြင်ဆင်ချက်နှင့် ရွေးချယ်မှုတိုင်း -- မှန်ကန်သော Chronology, စစ်ဆေးနိုင်သော Grid Reference, ကိုးကားထားသော Evidence, ရိုးသားစွာ မှတ်သားထားသော Uncertainty -- သည် ဤ ပေါင်းစပ် Project တစ်ခုတည်းတွင် အတူတကွ ပေါင်းစည်းလာကြောင်း ဆရာမ မှတ်ချက်ပြုခဲ့သည်။ ၎င်းကား Term 1 ၏ အစစ်အမှန် ရည်ရွယ်ချက် ဖြစ်သည် - သီးခြား Skill လေးခု မဟုတ်ဘဲ နေရာတစ်ခု (သို့) Event တစ်ခုကို ဂရုတစိုက်၊ ရိုးသားစွာ စုံစမ်းစစ်ဆေးသော ချိတ်ဆက်ထားသော နည်းလမ်းတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what connection did combining both lenses reveal about the market's original location?",
+            questionMy:
+                "မှန်ဘီလူးနှစ်ခုစလုံး ပေါင်းစပ်ခြင်းက ဈေး၏ မူလ တည်နေရာအကြောင်း ဖော်ထုတ်ပေးခဲ့သော ချိတ်ဆက်မှုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The market formed where it did because the drainage channel made that ground the driest in the rainy season",
+              "The market's location had no actual connection to geography of any kind",
+              "The temple was built before the market existed at all",
+              "The class found no connection between geography and history whatsoever",
+            ],
+            optionsMy: [
+              "မိုးရာသီတွင် ထိုမြေအပိုင်းကို အခြောက်ဆုံး ဖြစ်စေသော ရေဆိုးလမ်းကြောင်းကြောင့် ဈေးသည် ထိုနေရာတွင် ဖွဲ့စည်းခဲ့ခြင်း",
+              "ဈေး၏ တည်နေရာသည် Geography မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "ဈေး တည်ရှိမှီ ဘုရားကျောင်းကို တည်ဆောက်ခဲ့ခြင်း",
+              "Geography နှင့် History ကြား ချိတ်ဆက်မှု မည်သည်မှ အတန်းက ရှာမတွေ့ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's discovered connection."],
+            hintsMy: [
+              "တတိယ စာပိုဒ်၏ ရှာဖွေတွေ့ရှိခဲ့သော ချိတ်ဆက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the class handle the shopkeeper's uncertain date for the temple?",
+            questionMy:
+                "ဘုရားကျောင်းအတွက် ဆိုင်ရှင်၏ မသေချာသော ရက်စွဲကို အတန်းက မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They marked the entry as uncertain rather than picking an exact year with false confidence",
+              "They ignored the shopkeeper's answer entirely and used no date at all",
+              "They picked a random exact year with no basis in what the shopkeeper said",
+              "They removed the temple from the investigation completely",
+            ],
+            optionsMy: [
+              "False Confidence ဖြင့် တိကျသော နှစ်တစ်ခုကို ရွေးချယ်မည့်အစား Entry ကို Uncertain အဖြစ် မှတ်သားခဲ့ခြင်း",
+              "ဆိုင်ရှင်၏ အဖြေကို လုံးလုံး လျစ်လျူရှုပြီး ရက်စွဲ မည်သည်မှ အသုံးမပြုခြင်း",
+              "ဆိုင်ရှင် ပြောခဲ့သည့်အရာတွင် အခြေခံမှု မရှိဘဲ ကျပန်း အတိအကျ နှစ်တစ်ခု ရွေးချယ်ခဲ့ခြင်း",
+              "ဘုရားကျောင်းကို Investigation မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's handling of the uncertain date.",
+            ],
+            hintsMy: [
+              "မသေချာသော ရက်စွဲ ကိုင်တွယ်ပုံကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say was the real point of Term 1?",
+            questionMy:
+                "Term 1 ၏ အစစ်အမှန် ရည်ရွယ်ချက်ဖြစ်သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One connected way of investigating any place or event carefully and honestly, not four separate skills",
+              "Four completely separate skills with no connection to each other whatsoever",
+              "Memorizing facts about one specific street with no broader lesson",
+              "Learning to guess confidently regardless of what evidence actually shows",
+            ],
+            optionsMy: [
+              "သီးခြား Skill လေးခု မဟုတ်ဘဲ နေရာတစ်ခု (သို့) Event တစ်ခုကို ဂရုတစိုက်၊ ရိုးသားစွာ စုံစမ်းစစ်ဆေးသော ချိတ်ဆက်ထားသော နည်းလမ်းတစ်ခု",
+              "တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိသော လုံးလုံး သီးခြား Skill လေးခု",
+              "ကျယ်ပြန့်သော သင်ခန်းစာ မပါဘဲ တိကျသော လမ်းတစ်ခုအကြောင်း Fact များ အလွတ်ကျက်ခြင်း",
+              "Evidence က အမှန်တကယ် ပြသနေသည်ကို ဂရုမစိုက်ဘဲ ယုံကြည်စိတ်ချစွာ ခန့်မှန်းရန် သင်ယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Historian-Geographer Skills Exam",
+      titleMy: "Term 1 Capstone - Historian-Geographer Skills စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong local investigation combines...",
+          questionMy:
+              "ခိုင်မာသော Local Investigation တစ်ခုသည် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "The historian's lens and the geographer's lens together",
+            "Only the historian's lens with no geography",
+            "Only the geographer's lens with no history",
+            "Neither lens, relying purely on guessing",
+          ],
+          optionsMy: [
+            "Historian ၏ မှန်ဘီလူးနှင့် Geographer ၏ မှန်ဘီလူး နှစ်ခုစလုံး",
+            "Geography မပါဘဲ Historian ၏ မှန်ဘီလူးတစ်ခုတည်း",
+            "History မပါဘဲ Geographer ၏ မှန်ဘီလူးတစ်ခုတည်း",
+            "မှန်ဘီလူး နှစ်ခုစလုံး မပါဘဲ ခန့်မှန်းခြင်းအပေါ်သာ အခြေခံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Claims in an investigation should be supported by...",
+          questionMy:
+              "Investigation တစ်ခုရှိ Claim များကို ...ဖြင့် ထောက်ခံသင့်သည်",
+          optionsEn: [
+            "Specific, cited evidence",
+            "General impressions with no evidence",
+            "Nothing at all",
+            "Assumptions with no checking",
+          ],
+          optionsMy: [
+            "တိကျသော၊ ကိုးကားထားသော Evidence",
+            "Evidence မပါသော ယေဘုယျ Impression",
+            "ဘာမှ",
+            "စစ်ဆေးခြင်း မပါသော Assumption",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a detail is not fully confirmed, an investigator should...",
+          questionMy:
+              "Detail တစ်ခု အပြည့်အစုံ အတည်မပြုသေးသောအခါ Investigator တစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "Mark it as uncertain honestly",
+            "Present it with false confidence",
+            "Remove it from the investigation entirely",
+            "Ignore the issue completely",
+          ],
+          optionsMy: [
+            "ရိုးသားစွာ Uncertain အဖြစ် မှတ်သားသင့်သည်",
+            "False Confidence ဖြင့် တင်ပြသင့်သည်",
+            "Investigation မှ လုံးလုံး ဖယ်ရှားသင့်သည်",
+            "ပြဿနာကို လုံးလုံး လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 1: "Becoming a Historian and
+// Geographer" (Weeks 1-4)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm1 = CourseTermDef(
+  id: "course-sec1-hum-t1",
+  termNumber: 1,
+  titleEn: "Becoming a Historian and Geographer",
+  titleMy: "Historian နှင့် Geographer တစ်ဦး ဖြစ်လာခြင်း",
+  certificateTitleEn: "Becoming a Historian and Geographer",
+  certificateTitleMy: "Historian နှင့် Geographer တစ်ဦး ဖြစ်လာခြင်း",
+  weeks: [_sec1HumWeek1, _sec1HumWeek2, _sec1HumWeek3, _sec1HumWeek4],
+);
+const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
+  id: "course-secondary1-humanities",
+  subject: "humanities",
+  grade: Grade.secondary1,
+  titleEn: "Humanities — Full Year Course",
+  titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
+  descriptionEn:
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation.",
+  descriptionMy:
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_sec1HumTerm1],
+);
+// __SEC_HUM_MARKER__

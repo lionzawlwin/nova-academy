@@ -31,6 +31,7 @@ import 'course_pathways/course_pathways_physics.dart';
 /// Every defined course pathway -- extend this list as more subjects/
 /// grades get authored beyond this vertical slice.
 const List<CoursePathwayDef> allCoursePathways = [
+  secondary1HumanitiesPathway,
   secondary1ComputingPathway,
   secondary2ComputingPathway,
   secondary3ComputingPathway,
