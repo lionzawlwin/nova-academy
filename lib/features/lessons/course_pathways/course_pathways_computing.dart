@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 4-9 not yet
+// IGCSE Computing -- full pathway definition. Terms 5-9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,11 +143906,16 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseComputingTerm1, _igcseComputingTerm2, _igcseComputingTerm3],
+  terms: [
+    _igcseComputingTerm1,
+    _igcseComputingTerm2,
+    _igcseComputingTerm3,
+    _igcseComputingTerm4,
+  ],
 );
 // =====================================================================
 // IGCSE Computing -- Term 3, Week 9: "Computer Architecture (Von
@@ -145292,6 +145297,1436 @@ const CourseTermDef _igcseComputingTerm3 = CourseTermDef(
     _igcseComputingWeek10,
     _igcseComputingWeek11,
     _igcseComputingWeek12,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 4, Week 13: "Operating Systems and Utility
+// Software"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek13 = CourseWeekDef(
+  id: "course-igcse-computing-w13",
+  weekNumber: 13,
+  titleEn: "Operating Systems and Utility Software",
+  titleMy: "လည်ပတ်ရေးစနစ်များနှင့် အသုံးချ ဆော့ဖ်ဝဲများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w13-d1",
+      dayNumber: 1,
+      titleEn: "OS Functions, Interrupts and Utilities",
+      titleMy: "OS Functions, Interrupts နှင့် Utilities",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following is a core function of an operating system?",
+          questionMy:
+              "အောက်ပါအနက် Operating System ၏ အဓိက Function တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Managing memory allocation so different running programs do not overwrite each other's data",
+            "Writing new application software for the user",
+            "Physically manufacturing new hardware components",
+            "Designing website layouts",
+          ],
+          optionsMy: [
+            "Run နေသော Program မတူညီများ တစ်ခုနှင့်တစ်ခု၏ Data ကို Overwrite မလုပ်စေရန် Memory Allocation ကို စီမံခန့်ခွဲခြင်း",
+            "User အတွက် Application Software အသစ် ရေးသားခြင်း",
+            "Hardware Component အသစ်များကို ရုပ်ပိုင်းဆိုင်ရာ ထုတ်လုပ်ခြင်း",
+            "Website Layout များ ဒီဇိုင်းဆွဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The OS sits between hardware and application software, managing shared resources like memory, the CPU, and storage on their behalf.",
+          ],
+          hintsMy: [
+            "OS သည် Hardware နှင့် Application Software ကြားတွင် ရှိပြီး ၎င်းတို့ကိုယ်စား Memory, CPU နှင့် Storage ကဲ့သို့ မျှဝေအသုံးပြုသော Resource များကို စီမံခန့်ခွဲပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the purpose of an interrupt in an operating system?",
+          questionMy:
+              "Operating System တစ်ခုတွင် Interrupt တစ်ခု၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A signal that temporarily pauses the current process so the CPU can attend to a more urgent event, such as a key press",
+            "A permanent deletion of a running program",
+            "A type of secondary storage device",
+            "A method for compressing image files",
+          ],
+          optionsMy: [
+            "Key Press ကဲ့သို့ ပို၍ အရေးတကြီး ဖြစ်ရပ်တစ်ခုကို CPU က ဂရုစိုက်နိုင်ရန် လက်ရှိ Process ကို ယာယီ ရပ်ဆိုင်းစေသော Signal",
+            "Run နေသော Program ကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "Secondary Storage Device အမျိုးအစား",
+            "ပုံ File များကို Compress လုပ်ရန် နည်းလမ်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without interrupts, the CPU would have to constantly check every device for new events, wasting time -- interrupts let devices signal the CPU only when something actually happens.",
+          ],
+          hintsMy: [
+            "Interrupt မရှိပါက CPU သည် ဖြစ်ရပ်အသစ်များအတွက် Device တိုင်းကို အဆက်မပြတ် စစ်ဆေးနေရမည်ဖြစ်ပြီး အချိန်ဖြုန်းစေမည် ဖြစ်သည် -- Interrupt များက Device များအား တစ်ခုခု အမှန်တကယ် ဖြစ်ပျက်သောအခါသာ CPU ကို Signal ပေးနိုင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does disk defragmentation utility software accomplish?",
+          questionMy:
+              "Disk Defragmentation Utility Software သည် အဘယ်အရာကို ပြီးမြောက်စေသနည်း။",
+          optionsEn: [
+            "It rearranges fragmented file pieces to be stored contiguously, generally speeding up access on traditional HDDs",
+            "It permanently deletes all files on the drive",
+            "It encrypts every file on the drive automatically",
+            "It converts the drive from an HDD into an SSD",
+          ],
+          optionsMy: [
+            "ပုံမှန် HDD များပေါ်တွင် Access Speed ကို ယေဘုယျအားဖြင့် မြှင့်တင်ရန် ပိုင်းစိတ်ထားသော File အပိုင်းအစများကို ဆက်တိုက် သိမ်းဆည်းနိုင်ရန် ပြန်လည် စီစဉ်ပေးသည်",
+            "Drive ပေါ်ရှိ File အားလုံးကို အမြဲတမ်း ဖျက်ချသည်",
+            "Drive ပေါ်ရှိ File တိုင်းကို အလိုအလျောက် Encrypt လုပ်သည်",
+            "Drive ကို HDD မှ SSD အဖြစ် ပြောင်းလဲပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As files are saved, deleted, and resaved over time, their pieces can become scattered across the disk (fragmented) -- defragmentation groups them back together.",
+          ],
+          hintsMy: [
+            "အချိန်ကြာလာသည်နှင့်အမျှ File များကို သိမ်းဆည်း၊ ဖျက်ချပြီး ပြန်လည်သိမ်းဆည်းသည့်အခါ ၎င်းတို့၏ အပိုင်းအစများသည် Disk တစ်ခုလျှောက် ပျံ့နှံ့သွားနိုင်သည် (Fragmented) -- Defragmentation က ၎င်းတို့ကို ပြန်လည် စုစည်းပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Operating System Terms",
+      titleMy: "တွဲစပ်ကြမည် - Operating System ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w13-dm-1",
+          termEn: "Memory management",
+          termMy: "Memory Management",
+          matchEn:
+              "The OS function that allocates and tracks memory so programs do not conflict with each other",
+          matchMy:
+              "Program များ တစ်ခုနှင့်တစ်ခု မထိပါးစေရန် Memory ကို ခွဲဝေပေးပြီး ခြေရာခံသော OS Function",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w13-dm-2",
+          termEn: "Buffer",
+          termMy: "Buffer",
+          matchEn:
+              "A temporary storage area that holds data while it waits to be processed or transferred",
+          matchMy:
+              "Process လုပ်ရန် (သို့) လွှဲပြောင်းရန် စောင့်ဆိုင်းနေချိန် Data ကို ယူဆောင်ထားသော ယာယီ Storage နေရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w13-dm-3",
+          termEn: "Interrupt",
+          termMy: "Interrupt",
+          matchEn:
+              "A signal that pauses the CPU's current task to handle a more urgent event",
+          matchMy:
+              "ပို၍ အရေးတကြီး ဖြစ်ရပ်တစ်ခုကို ကိုင်တွယ်ရန် CPU ၏ လက်ရှိ Task ကို ရပ်ဆိုင်းစေသော Signal",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w13-dm-4",
+          termEn: "Utility software",
+          termMy: "Utility Software",
+          matchEn:
+              "System maintenance software, such as backup tools or disk defragmenters, that keeps a computer running smoothly",
+          matchMy:
+              "ကွန်ပျူတာကို ချောမွေ့စွာ ဆက်လက် Run စေရန် Backup Tools (သို့) Disk Defragmenter ကဲ့သို့ System ထိန်းသိမ်းရေး Software",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w13-dm-5",
+          termEn: "Backup",
+          termMy: "Backup",
+          matchEn:
+              "A copy of data stored separately, so it can be restored if the original is lost or corrupted",
+          matchMy:
+              "မူရင်း Data ဆုံးရှုံး (သို့) ချို့ယွင်းသွားပါက ပြန်လည် ရယူနိုင်ရန် ကွဲပြားစွာ သိမ်းဆည်းထားသော Data Copy",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: OS Job or Utility Job?",
+      titleMy: "စီစစ်ကြမည် - OS တာဝန်လား Utility တာဝန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Core OS Job", "Utility Software Job"],
+        bucketsMy: ["Core OS တာဝန်", "Utility Software တာဝန်"],
+        items: [
+          SortingItem(
+            id: "igcomp-w13-sort-1",
+            labelEn: "Allocating memory to running programs",
+            labelMy: "Run နေသော Program များသို့ Memory ခွဲဝေပေးခြင်း",
+            correctBucketEn: "Core OS Job",
+            correctBucketMy: "Core OS တာဝန်",
+          ),
+          SortingItem(
+            id: "igcomp-w13-sort-2",
+            labelEn: "Defragmenting a hard disk",
+            labelMy: "Hard Disk ကို Defragment လုပ်ခြင်း",
+            correctBucketEn: "Utility Software Job",
+            correctBucketMy: "Utility Software တာဝန်",
+          ),
+          SortingItem(
+            id: "igcomp-w13-sort-3",
+            labelEn: "Managing the file system",
+            labelMy: "File System ကို စီမံခန့်ခွဲခြင်း",
+            correctBucketEn: "Core OS Job",
+            correctBucketMy: "Core OS တာဝန်",
+          ),
+          SortingItem(
+            id: "igcomp-w13-sort-4",
+            labelEn: "Creating a scheduled backup of user files",
+            labelMy: "User File များ၏ Schedule ချထားသော Backup ဖန်တီးခြင်း",
+            correctBucketEn: "Utility Software Job",
+            correctBucketMy: "Utility Software တာဝန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Buffer Question",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Buffer မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Buffer Question",
+        titleMy: "Zayar Lin ၏ Buffer မေးခွန်း",
+        passageEn:
+            "Sayar Ye Min asked the class why video streaming apps sometimes show a loading circle before playback begins, even on a reasonably fast internet connection. Zayar Lin's first guess was that the connection itself was simply too slow, but Sayar Ye Min pushed him to think about the CPU and network speed mismatch more carefully: data arrives from the internet in bursts of varying speed, while the video needs to play back at a smooth, constant rate -- these two speeds rarely match perfectly on their own.\n\nZayar Lin recalled the concept of a buffer from the week's vocabulary and reasoned that this was exactly the problem a buffer solved: rather than trying to play video data the instant each piece arrived, which would stutter whenever the network briefly slowed down, the app instead stores an amount of video data in a temporary buffer ahead of the current playback position. As long as new data keeps arriving into the buffer at least as fast as the video consumes it during playback, the viewer experiences smooth, uninterrupted video, even though the underlying network speed is constantly fluctuating behind the scenes.\n\nSayar Ye Min then asked what would happen if the network connection became so slow that data arrived slower than the video was being consumed from the buffer. Zayar Lin reasoned through it logically: the buffer would gradually empty since it was being drained faster than it was refilled, and once the buffer ran completely empty, playback would have no choice but to pause and show that familiar loading circle while the app waited for the buffer to refill to a safe level before resuming. He noted this as a clean example of how a computing concept explained a genuinely everyday frustration.",
+        passageMy:
+            "အင်တာနက် ချိတ်ဆက်မှု တော်တော်လေး မြန်ဆန်နေသော်လည်း Video Streaming App များသည် Playback မစတင်မီ Loading Circle ကို တစ်ခါတစ်ရံ ပြသနေရသည့် အကြောင်းရင်းကို ဆရာရဲမင်းက အတန်းကို မေးမြန်းခဲ့သည်။ Zayar Lin ၏ ပထမ ခန့်မှန်းချက်မှာ ချိတ်ဆက်မှု ကိုယ်တိုင် ရိုးရှင်းစွာ နှေးကွေးလွန်းသည်ဟု ဖြစ်ခဲ့သော်လည်း CPU နှင့် Network Speed မကိုက်ညီမှု အကြောင်း ပို၍ သေချာစွာ စဉ်းစားရန် ဆရာရဲမင်းက တွန်းအားပေးခဲ့သည် - Data သည် အင်တာနက်မှ မတူညီသော Speed ဖြင့် ဗောင်းများအဖြစ် ရောက်ရှိလာသော်လည်း Video သည် ချောမွေ့၊ တည်ငြိမ်သော နှုန်းဖြင့် Playback လုပ်ရန် လိုအပ်သည် -- ဤ Speed နှစ်ခုသည် ၎င်းတို့ကိုယ်တိုင် ရှားရှားပါးပါးသာ ပြီးပြည့်စုံစွာ ကိုက်ညီသည်။\n\nZayar Lin သည် အပတ်စဉ် ဝေါဟာရမှ Buffer သဘောတရားကို သတိရပြီး ၎င်းသည် Buffer ဖြေရှင်းသော ပြဿနာ အတိအကျ ဖြစ်ကြောင်း ဆင်ခြင်ခဲ့သည် - Data အပိုင်းစီ ရောက်ရှိလာသည်နှင့်တစ်ပြိုင်နက် Video ကို ချက်ချင်း Play ဖြစ်ရန် ကြိုးစားမည့်အစား၊ Network ခဏတလေ နှေးကွေးသွားတိုင်း ချွတ်ကြောင်းစေမည့်အစား App သည် လက်ရှိ Playback အနေအထား၏ ရှေ့တွင် ယာယီ Buffer တစ်ခုတွင် Video Data ပမာဏတစ်ခုကို ယင်းအစား သိမ်းဆည်းသည်။ Data အသစ်များသည် Playback အတွင်း Video သုံးစွဲသည့် နှုန်းအလျှင် အနည်းဆုံး Buffer ထဲသို့ ဆက်လက် ရောက်ရှိနေသရွေ့ ကွယ်ရာနောက်ကွယ်တွင် Network Speed သည် အဆက်မပြတ် အတက်အကျ ဖြစ်နေစဉ်ပင် Viewer သည် ချောမွေ့၊ အဟန့်အတား မရှိသော Video ကို ခံစားရသည်။\n\nNetwork ချိတ်ဆက်မှုသည် Buffer မှ Video သုံးစွဲနေသည်ထက် Data ပို၍ နှေးစွာ ရောက်ရှိလာလောက်အောင် နှေးကွေးလာလျှင် အဘယ်အရာ ဖြစ်ပျက်မည်နည်းဟု ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည်။ Zayar Lin သည် ယုတ္တိအရ ဆင်ခြင်ခဲ့သည် - Buffer သည် ပြန်ဖြည့်နေသည်ထက် ပို၍ မြန်စွာ ရေဆွဲနေသောကြောင့် ဖြည်းဖြည်းချင်း ဗလာဖြစ်လာလိမ့်မည်ဖြစ်ပြီး Buffer လုံးဝ ဗလာ ဖြစ်သွားသောအခါ Playback သည် ဆက်လက် မလုပ်ဆောင်မီ Buffer ပြန်ဖြည့်ရန် App စောင့်ဆိုင်းနေစဉ် ရပ်တန့်ပြီး ထို ရင်းနှီးသော Loading Circle ကို ပြသရန် ရွေးချယ်စရာမရှိပါ။ ကွန်ပျူတာသိပ္ပံ သဘောတရားတစ်ခုက စစ်မှန်သော နေ့စဉ် စိတ်ဆိုးဖွယ် အဖြစ်အပျက်တစ်ခုကို ရှင်းပြသည့် သန့်ရှင်းသော ဥပမာတစ်ခုအဖြစ် သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why do the internet's data speed and video playback speed rarely match perfectly?",
+            questionMy:
+                "အင်တာနက်၏ Data Speed နှင့် Video Playback Speed ရှားရှားပါးပါးသာ ပြီးပြည့်စုံစွာ ကိုက်ညီရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Data arrives in bursts of varying speed, while video needs to play back at a smooth, constant rate",
+              "Video files are always corrupted before playback",
+              "The CPU cannot process video data at all",
+              "Internet speed is always faster than video needs",
+            ],
+            optionsMy: [
+              "Data သည် မတူညီသော Speed ဖြင့် ဗောင်းများအဖြစ် ရောက်ရှိလာသော်လည်း Video သည် ချောမွေ့၊ တည်ငြိမ်သော နှုန်းဖြင့် Playback လုပ်ရန် လိုအပ်ခြင်း",
+              "Video File များသည် Playback မတိုင်မီ အမြဲ ချို့ယွင်းနေခြင်း",
+              "CPU သည် Video Data ကို လုံးဝ Process မလုပ်နိုင်ခြင်း",
+              "အင်တာနက် Speed သည် Video လိုအပ်ချက်ထက် အမြဲ ပို၍ မြန်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what condition allows the viewer to experience smooth video?",
+            questionMy:
+                "Viewer သည် ချောမွေ့သော Video ကို ခံစားရစေသော အခြေအနေကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "New data keeps arriving into the buffer at least as fast as the video consumes it",
+              "The buffer is kept permanently empty",
+              "The network speed never changes at all",
+              "The video file is deleted before playback",
+            ],
+            optionsMy: [
+              "Data အသစ်များသည် Video သုံးစွဲသည့် နှုန်းအလျှင် အနည်းဆုံး Buffer ထဲသို့ ဆက်လက် ရောက်ရှိနေခြင်း",
+              "Buffer ကို အမြဲတမ်း ဗလာ ထားခြင်း",
+              "Network Speed သည် လုံးဝ ဘယ်တော့မှ မပြောင်းလဲခြင်း",
+              "Video File ကို Playback မတိုင်မီ ဖျက်ချခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the buffer refilling."],
+            hintsMy: [
+              "Buffer ပြန်ဖြည့်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happens when the buffer runs completely empty?",
+            questionMy:
+                "Buffer လုံးဝ ဗလာ ဖြစ်သွားသောအခါ အဘယ်အရာ ဖြစ်ပျက်သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Playback pauses and shows a loading circle while the buffer refills",
+              "The video file is permanently deleted",
+              "The internet connection is disconnected entirely",
+              "The video automatically plays at double speed",
+            ],
+            optionsMy: [
+              "Buffer ပြန်ဖြည့်နေစဉ် Playback ရပ်တန့်ပြီး Loading Circle ပြသခြင်း",
+              "Video File ကို အမြဲတမ်း ဖျက်ချခြင်း",
+              "အင်တာနက် ချိတ်ဆက်မှုကို လုံးဝ ဖြတ်တောက်ခြင်း",
+              "Video ကို အလိုအလျောက် Speed နှစ်ဆဖြင့် Play ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about playback pausing."],
+            hintsMy: [
+              "Playback ရပ်တန့်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: OS and Utility Software",
+      titleMy: "ဒသမတတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - OS နှင့် Utility Software",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An interrupt allows a device to...",
+          questionMy: "Interrupt သည် Device တစ်ခုအား ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Signal the CPU only when something actually needs attention",
+            "Permanently delete stored files",
+            "Take over the entire operating system permanently",
+            "Encrypt all outgoing network traffic",
+          ],
+          optionsMy: [
+            "တစ်ခုခု အမှန်တကယ် ဂရုစိုက်ရန် လိုအပ်သောအခါသာ CPU ကို Signal ပေးရန်",
+            "သိမ်းဆည်းထားသော File များကို အမြဲတမ်း ဖျက်ချရန်",
+            "Operating System တစ်ခုလုံးကို အမြဲတမ်း သိမ်းယူရန်",
+            "ထွက်သွားသော ကွန်ရက် Traffic အားလုံးကို Encrypt လုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Disk defragmentation is best described as...",
+          questionMy: "Disk Defragmentation ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "Rearranging scattered file pieces to be stored contiguously",
+            "Permanently deleting the operating system",
+            "Encrypting the entire hard drive",
+            "Increasing the CPU's clock speed",
+          ],
+          optionsMy: [
+            "ပျံ့နှံ့နေသော File အပိုင်းအစများကို ဆက်တိုက် သိမ်းဆည်းနိုင်ရန် ပြန်လည် စီစဉ်ခြင်း",
+            "Operating System ကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "Hard Drive တစ်ခုလုံးကို Encrypt လုပ်ခြင်း",
+            "CPU ၏ Clock Speed ကို တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A buffer's purpose is to...",
+          questionMy: "Buffer တစ်ခု၏ ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Temporarily hold data while it waits to be processed or played back",
+            "Permanently delete unused files",
+            "Physically connect a keyboard to a computer",
+            "Convert denary numbers into binary",
+          ],
+          optionsMy: [
+            "Process လုပ်ရန် (သို့) Playback လုပ်ရန် စောင့်ဆိုင်းနေချိန် Data ကို ယာယီ ယူဆောင်ထားရန်",
+            "အသုံးမပြုသော File များကို အမြဲတမ်း ဖျက်ချရန်",
+            "Keyboard ကို ကွန်ပျူတာသို့ ရုပ်ပိုင်းဆိုင်ရာ ချိတ်ဆက်ရန်",
+            "Denary ဂဏန်းများကို Binary သို့ ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 4, Week 14: "High-Level vs Low-Level
+// Languages"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek14 = CourseWeekDef(
+  id: "course-igcse-computing-w14",
+  weekNumber: 14,
+  titleEn: "High-Level vs Low-Level Languages",
+  titleMy: "အဆင့်မြင့်နှင့် အဆင့်နိမ့် ပရိုဂရမ် ဘာသာစကားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w14-d1",
+      dayNumber: 1,
+      titleEn: "Compilers, Interpreters and Assemblers",
+      titleMy: "Compilers, Interpreters နှင့် Assemblers",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does source code written in a high-level language need to be translated before a computer can run it?",
+          questionMy:
+              "အဆင့်မြင့် ဘာသာစကားဖြင့် ရေးထားသော Source Code ကို ကွန်ပျူတာ Run မနိုင်မီ ဘာသာပြန်ဆို ရန် အဘယ်ကြောင့် လိုအပ်သနည်း။",
+          optionsEn: [
+            "The CPU can only directly execute binary machine code, not human-readable text",
+            "High-level code is always shorter than machine code",
+            "Translation makes the program run without needing a CPU at all",
+            "It is a purely optional step that never actually happens in practice",
+          ],
+          optionsMy: [
+            "CPU သည် လူဖတ်ရလွယ်သော Text မဟုတ်ဘဲ Binary Machine Code ကိုသာ တိုက်ရိုက် Execute လုပ်နိုင်သောကြောင့်",
+            "အဆင့်မြင့် Code သည် Machine Code ထက် အမြဲ ပို၍ တိုသောကြောင့်",
+            "ဘာသာပြန်ဆိုခြင်းသည် CPU လုံးဝ မလိုအပ်ဘဲ Program ကို Run စေသောကြောင့်",
+            "လက်တွေ့တွင် အမှန်တကယ် ဘယ်တော့မှ မဖြစ်ပျက်သော ရွေးချယ်စရာ အဆင့်တစ်ခု ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The CPU only understands sequences of 1s and 0s -- everything else, including high-level languages, must eventually become that.",
+          ],
+          hintsMy: [
+            "CPU သည် 1 နှင့် 0 အစီအစဉ်များကိုသာ နားလည်သည် -- အဆင့်မြင့် ဘာသာစကားများ အပါအဝင် အခြားအရာအားလုံးသည် နောက်ဆုံးတွင် ထိုအရာဖြစ်လာရမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key behavioural difference between a compiler and an interpreter?",
+          questionMy:
+              "Compiler နှင့် Interpreter ကြား အဓိက အပြုအမူ ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A compiler translates the whole program into machine code before running it; an interpreter translates and runs the program one line at a time",
+            "A compiler and an interpreter always produce exactly the same output speed with no difference",
+            "An interpreter must translate the entire program before any of it can run",
+            "A compiler can only translate one line of code and then stops permanently",
+          ],
+          optionsMy: [
+            "Compiler သည် Program တစ်ခုလုံးကို Run မလုပ်မီ Machine Code သို့ ဘာသာပြန်ဆိုသော်လည်း Interpreter သည် Program ကို တစ်ကြောင်းချင်းစီ ဘာသာပြန်ဆိုပြီး Run သည်",
+            "Compiler နှင့် Interpreter သည် ကွာခြားချက် လုံးဝ မရှိဘဲ Output Speed အတိအကျ တူညီစွာ အမြဲ ထုတ်ပေးသည်",
+            "Interpreter သည် ၎င်း၏ တစ်စိတ်တစ်ပိုင်း Run မလုပ်မီ Program တစ်ခုလုံးကို ဘာသာပြန်ဆိုရမည်",
+            "Compiler သည် Code တစ်ကြောင်းကိုသာ ဘာသာပြန်ဆိုနိုင်ပြီး အမြဲတမ်း ရပ်တန့်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is why a compiled program's errors are often all reported at once before it even starts, while an interpreted program can run partway before hitting an error further down.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Compile လုပ်ထားသော Program တစ်ခု၏ အမှားများသည် စတင်ခြင်းမတိုင်မီပင် တစ်ခါတည်း Report ပြုလုပ်လေ့ရှိသော်လည်း Interpret လုပ်ထားသော Program တစ်ခု ပို၍ အောက်ရှိ အမှားတစ်ခုကို ကြုံရမီ တစ်စိတ်တစ်ပိုင်း Run နိုင်ရသည့် အကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is an assembler's specific job?",
+          questionMy: "Assembler ၏ တိကျသော တာဝန်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Translating assembly language (a low-level language using mnemonics) directly into machine code",
+            "Translating high-level languages like Python into other high-level languages",
+            "Physically assembling computer hardware components",
+            "Compressing image and video files",
+          ],
+          optionsMy: [
+            "Assembly Language (Mnemonics သုံးသော အဆင့်နိမ့် ဘာသာစကား) ကို Machine Code သို့ တိုက်ရိုက် ဘာသာပြန်ဆိုခြင်း",
+            "Python ကဲ့သို့ အဆင့်မြင့် ဘာသာစကားများကို အခြား အဆင့်မြင့် ဘာသာစကားများသို့ ဘာသာပြန်ဆိုခြင်း",
+            "ကွန်ပျူတာ Hardware Component များကို ရုပ်ပိုင်းဆိုင်ရာ တပ်ဆင်ခြင်း",
+            "ပုံနှင့် Video File များကို Compress လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Assembly language uses short mnemonics like ADD or MOV that map almost one-to-one with machine code instructions.",
+          ],
+          hintsMy: [
+            "Assembly Language သည် Machine Code Instruction များနှင့် တစ်ခုနှင့်တစ်ခု နီးပါး ကိုက်ညီသော ADD သို့မဟုတ် MOV ကဲ့သို့ Mnemonics တိုတိုကို အသုံးပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Programming Language Terms",
+      titleMy: "တွဲစပ်ကြမည် - Programming Language ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w14-dm-1",
+          termEn: "High-level language",
+          termMy: "High-Level Language",
+          matchEn:
+              "A language like Python or Java, written close to human language, easy to read and write",
+          matchMy:
+              "Python သို့မဟုတ် Java ကဲ့သို့ လူသားဘာသာစကားနှင့် နီးစပ်စွာ ရေးသားထားသော၊ ဖတ်ရှုရေးသားရ လွယ်ကူသော ဘာသာစကား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w14-dm-2",
+          termEn: "Low-level language",
+          termMy: "Low-Level Language",
+          matchEn:
+              "A language such as assembly, written closer to what the hardware directly understands",
+          matchMy:
+              "Hardware တိုက်ရိုက် နားလည်သောအရာနှင့် ပို၍ နီးစပ်စွာ ရေးသားထားသော Assembly ကဲ့သို့ ဘာသာစကား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w14-dm-3",
+          termEn: "Compiler",
+          termMy: "Compiler",
+          matchEn:
+              "Translates the entire program into machine code in one pass, before the program runs",
+          matchMy:
+              "Program Run မလုပ်မီ Program တစ်ခုလုံးကို တစ်ကြိမ်ဖြင့် Machine Code သို့ ဘာသာပြန်ဆိုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w14-dm-4",
+          termEn: "Interpreter",
+          termMy: "Interpreter",
+          matchEn:
+              "Translates and executes a program one line at a time, stopping immediately at an error",
+          matchMy:
+              "Program ကို တစ်ကြောင်းချင်းစီ ဘာသာပြန်ဆိုပြီး Execute လုပ်ကာ အမှားတစ်ခုတွင် ချက်ချင်း ရပ်တန့်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w14-dm-5",
+          termEn: "Assembler",
+          termMy: "Assembler",
+          matchEn: "Translates assembly language directly into machine code",
+          matchMy:
+              "Assembly Language ကို Machine Code သို့ တိုက်ရိုက် ဘာသာပြန်ဆိုသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: High-Level or Low-Level Trait?",
+      titleMy: "စီစစ်ကြမည် - High-Level (သို့) Low-Level ဂုဏ်သတ္တိ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["High-Level Language Trait", "Low-Level Language Trait"],
+        bucketsMy: [
+          "High-Level Language ဂုဏ်သတ္တိ",
+          "Low-Level Language ဂုဏ်သတ္တိ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w14-sort-1",
+            labelEn: "Easy for humans to read and write",
+            labelMy: "လူများ ဖတ်ရှုရေးသားရန် လွယ်ကူသည်",
+            correctBucketEn: "High-Level Language Trait",
+            correctBucketMy: "High-Level Language ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "igcomp-w14-sort-2",
+            labelEn: "Written using mnemonics like ADD and MOV",
+            labelMy:
+                "ADD နှင့် MOV ကဲ့သို့ Mnemonics ကို အသုံးပြု၍ ရေးသားထားသည်",
+            correctBucketEn: "Low-Level Language Trait",
+            correctBucketMy: "Low-Level Language ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "igcomp-w14-sort-3",
+            labelEn: "Portable across different types of hardware",
+            labelMy: "Hardware အမျိုးအစား မတူညီများတစ်လျှောက် Portable ဖြစ်သည်",
+            correctBucketEn: "High-Level Language Trait",
+            correctBucketMy: "High-Level Language ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "igcomp-w14-sort-4",
+            labelEn:
+                "Written very close to what the specific hardware directly understands",
+            labelMy:
+                "တိကျသော Hardware တိုက်ရိုက် နားလည်သောအရာနှင့် အလွန် နီးစပ်စွာ ရေးသားထားသည်",
+            correctBucketEn: "Low-Level Language Trait",
+            correctBucketMy: "Low-Level Language ဂုဏ်သတ္တိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Compiler vs Interpreter Debate",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Compiler vs Interpreter ဆွေးနွေးပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Compiler vs Interpreter Debate",
+        titleMy: "Zayar Lin ၏ Compiler vs Interpreter ဆွေးနွေးပွဲ",
+        passageEn:
+            "Sayar Ye Min posed a debugging scenario to test whether the class truly understood the difference between compilers and interpreters: a large program has a syntax error hidden in its very last line, and a programmer wants to know as early as possible whether the entire program is free of syntax errors before running any of it. Zayar Lin reasoned that a compiled language was the better fit here, since a compiler translates and checks the entire program in one pass before execution ever begins -- meaning even an error buried on the very last line would be caught and reported immediately, before the program had a chance to run at all.\n\nHe contrasted this with an interpreted language, where the interpreter translates and executes the program one line at a time. If the syntax error were on the very last line, an interpreted program could run correctly through every single earlier line, appearing to work perfectly, right up until execution finally reached that last line and the error was only then discovered -- potentially after the program had already produced results or taken other actions based on all the earlier correct lines.\n\nSayar Ye Min then asked Zayar Lin to argue the opposite side: when might an interpreted language actually be preferred despite this risk? Zayar Lin thought about how he wrote and tested his own small Python programs in class, running just a few lines at a time to check they worked before writing more. He realised this incremental, line-by-line style of development was exactly what interpreters were well suited for -- immediate feedback while writing and testing small pieces of code, rather than waiting for an entire large program to compile before seeing any result at all. He concluded that the right choice genuinely depended on the situation: a compiler for large, performance-critical, or safety-critical software where catching every error before deployment matters most, and an interpreter for rapid, exploratory development where quick feedback on small pieces of code matters more.",
+        passageMy:
+            "Class သည် Compiler နှင့် Interpreter ကြား ကွာခြားချက်ကို အမှန်တကယ် နားလည်ခြင်း ရှိမရှိ စမ်းသပ်ရန် Debugging Scenario တစ်ခုကို ဆရာရဲမင်းက တင်ပြခဲ့သည် - Program ကြီးတစ်ခုတွင် ၎င်း၏ နောက်ဆုံးလိုင်းတွင် ဖျောက်ထားသော Syntax Error တစ်ခု ရှိသည်၊ Programmer တစ်ဦးသည် ၎င်းကို မည်သည့် အပိုင်းကိုမျှ မ Run မီ Program တစ်ခုလုံး Syntax Error ကင်းစင်ခြင်း ရှိမရှိကို ဖြစ်နိုင်သမျှ စောစော သိလိုသည်။ Compiler သည် Execution မစတင်မီ Program တစ်ခုလုံးကို တစ်ကြိမ်ဖြင့် ဘာသာပြန်ဆိုပြီး စစ်ဆေးသောကြောင့် -- နောက်ဆုံးလိုင်းတွင် ဖျောက်ထားသော အမှားပင်လျှင် Program Run ခွင့် လုံးဝ မရမီ ဖမ်းဆီးပြီး Report ပြုလုပ်ခံရမည် ဖြစ်သောကြောင့် ဤနေရာတွင် Compiled Language သည် ပို၍ ကိုက်ညီကြောင်း Zayar Lin ဆင်ခြင်ခဲ့သည်။\n\nInterpreter သည် Program ကို တစ်ကြောင်းချင်းစီ ဘာသာပြန်ဆိုပြီး Execute လုပ်သော Interpreted Language နှင့် ဤသည်ကို ဆန့်ကျင်ဖော်ပြခဲ့သည်။ Syntax Error သည် နောက်ဆုံးလိုင်းတွင် ရှိပါက Interpreted Program သည် ရှေ့ လိုင်းတိုင်းကို မှန်ကန်စွာ Run နိုင်ပြီး ပြီးပြည့်စုံစွာ အလုပ်လုပ်နေသကဲ့သို့ ပေါ်နေနိုင်ပြီး Execution သည် နောက်ဆုံး ထို လိုင်းသို့ ရောက်ရှိသည်အထိ ဆက်လက်ရှိနေနိုင်ပြီး ထို့နောက်မှသာ အမှားကို တွေ့ရှိရမည် ဖြစ်သည် -- Program သည် ရှေ့ မှန်ကန်သော လိုင်းအားလုံးအပေါ် အခြေခံ၍ ရလဒ်များ ထုတ်ပေးပြီး (သို့) အခြား Action များ ပြုလုပ်ပြီးနောက် ဖြစ်နိုင်သည်။\n\nဆန့်ကျင်ဘက် Argument ကို ရှင်းပြရန် ဆရာရဲမင်းက Zayar Lin ကို ဆက်လက် တောင်းဆိုခဲ့သည် - ဤအန္တရာယ်ရှိသော်ငြားလည်း Interpreted Language သည် အမှန်တကယ် ပို၍ ရွေးချယ်ခံရနိုင်သည့် အခါအခွင့် မှာ အဘယ်နည်း။ သူသည် Class တွင် သူ့ကိုယ်ပိုင် Python Program ငယ်များကို ရေးသားပြီး ပို၍ ရေးသားမီ ၎င်းတို့ အလုပ်လုပ်ခြင်း ရှိမရှိ စစ်ဆေးရန် လိုင်းအနည်းငယ်စီ Run သည့် အကြောင်း စဉ်းစားခဲ့သည်။ ဤ Incremental, Line-by-Line Development Style သည် Interpreter များ ပို၍ ကိုက်ညီသော အရာ အတိအကျ ဖြစ်ကြောင်း သူ သိရှိခဲ့သည် -- Program ကြီးတစ်ခုလုံး Compile ဖြစ်သည်အထိ စောင့်ဆိုင်းမည့်အစား Code အပိုင်းငယ်များကို ရေးသားပြီး စစ်ဆေးနေစဉ် ချက်ချင်း Feedback ရရှိခြင်း။ မှန်ကန်သော ရွေးချယ်မှုသည် အခြေအနေအပေါ် အမှန်တကယ် မူတည်ကြောင်း သူ ကောက်ချက်ချခဲ့သည် - Deployment မတိုင်မီ အမှားတိုင်းကို ဖမ်းဆီးခြင်းသည် အရေးအကြီးဆုံးဖြစ်သော ကြီးမားသော၊ Performance-Critical (သို့) Safety-Critical Software များအတွက် Compiler နှင့် Code အပိုင်းငယ်များအပေါ် လျင်မြန်သော Feedback ပို၍ အရေးကြီးသော Rapid, Exploratory Development အတွက် Interpreter ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why would a compiler catch the last-line error before the program runs at all?",
+            questionMy:
+                "Program လုံးဝ မ Run မီ Compiler သည် နောက်ဆုံးလိုင်း အမှားကို ဖမ်းဆီးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A compiler translates and checks the entire program in one pass before execution begins",
+              "A compiler cannot detect any syntax errors at all",
+              "A compiler only checks the first line of a program",
+              "A compiler deletes any line containing an error",
+            ],
+            optionsMy: [
+              "Compiler သည် Execution မစတင်မီ Program တစ်ခုလုံးကို တစ်ကြိမ်ဖြင့် ဘာသာပြန်ဆိုပြီး စစ်ဆေးခြင်း",
+              "Compiler သည် Syntax Error မည်သည့်အမျိုးအစားမျှ လုံးဝ ရှာဖွေမတွေ့နိုင်ခြင်း",
+              "Compiler သည် Program ၏ ပထမလိုင်းကိုသာ စစ်ဆေးခြင်း",
+              "Compiler သည် အမှား ပါဝင်သော လိုင်းမည်သည်ကို ဖျက်ချခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why the compiler catches it early.",
+            ],
+            hintsMy: [
+              "Compiler စောစီးစွာ ဖမ်းဆီးရသည့် အကြောင်းရင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, when would an interpreted program with a last-line error only reveal that error?",
+            questionMy:
+                "နောက်ဆုံးလိုင်း အမှားရှိသော Interpreted Program တစ်ခုသည် ထို အမှားကို မည်သည့်အချိန်တွင်သာ ဖော်ထုတ်မည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only once execution finally reaches the last line",
+              "Immediately, before any line runs",
+              "It would never reveal the error at all",
+              "Only if the program is compiled first",
+            ],
+            optionsMy: [
+              "Execution သည် နောက်ဆုံးလိုင်းသို့ နောက်ဆုံး ရောက်ရှိမှသာ",
+              "လိုင်းမည်သည် Run မလုပ်မီ ချက်ချင်း",
+              "အမှားကို ဘယ်တော့မှ လုံးဝ ဖော်ထုတ်မည် မဟုတ်ပါ",
+              "Program ကို ဦးစွာ Compile လုပ်မှသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what determines the right choice between a compiler and an interpreter?",
+            questionMy:
+                "Compiler နှင့် Interpreter ကြား မှန်ကန်သော ရွေးချယ်မှုကို ဆုံးဖြတ်ပေးသော အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific situation -- e.g. safety-critical software versus rapid exploratory development",
+              "Compilers are always the only correct choice in every situation",
+              "Interpreters are always the only correct choice in every situation",
+              "The choice never actually matters at all",
+            ],
+            optionsMy: [
+              "တိကျသော အခြေအနေ -- ဥပမာ Safety-Critical Software နှင့် Rapid Exploratory Development",
+              "Compiler များသည် အခြေအနေတိုင်းတွင် တစ်ခုတည်းသော မှန်ကန်သော ရွေးချယ်မှု အမြဲ ဖြစ်ခြင်း",
+              "Interpreter များသည် အခြေအနေတိုင်းတွင် တစ်ခုတည်းသော မှန်ကန်သော ရွေးချယ်မှု အမြဲ ဖြစ်ခြင်း",
+              "ရွေးချယ်မှုသည် လုံးဝ ဘယ်တော့မှ အရေးမကြီးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Programming Languages",
+      titleMy: "ဒသမစတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Programming Languages",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A compiler translates a program...",
+          questionMy: "Compiler တစ်ခုသည် Program တစ်ခုကို ...ဘာသာပြန်ဆိုသည်",
+          optionsEn: [
+            "Entirely, in one pass, before execution begins",
+            "One line at a time during execution",
+            "Only after the program has finished running",
+            "Never -- compilers do not translate anything",
+          ],
+          optionsMy: [
+            "Execution မစတင်မီ တစ်ကြိမ်ဖြင့် အပြည့်အစုံ",
+            "Execution အတွင်း တစ်ကြောင်းချင်းစီ",
+            "Program Run ပြီးမြောက်မှသာ",
+            "ဘယ်တော့မှ -- Compiler များသည် မည်သည့်အရာကိုမျှ ဘာသာမပြန်ဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An assembler translates...",
+          questionMy: "Assembler တစ်ခုသည် ...ကို ဘာသာပြန်ဆိုသည်",
+          optionsEn: [
+            "Assembly language directly into machine code",
+            "Machine code into a high-level language",
+            "Images into sound files",
+            "One high-level language into another high-level language",
+          ],
+          optionsMy: [
+            "Assembly Language ကို Machine Code သို့ တိုက်ရိုက်",
+            "Machine Code ကို High-Level Language သို့",
+            "ပုံများကို Sound File များသို့",
+            "High-Level Language တစ်ခုကို အခြား High-Level Language သို့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An interpreter is well suited to rapid, exploratory development because it...",
+          questionMy:
+              "Interpreter သည် Rapid, Exploratory Development နှင့် ပို၍ ကိုက်ညီသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Gives immediate feedback while testing small pieces of code",
+            "Refuses to run any code with even a single error",
+            "Always runs slower than a compiler in every case",
+            "Cannot be used for any programming language",
+          ],
+          optionsMy: [
+            "Code အပိုင်းငယ်များကို စမ်းသပ်နေစဉ် ချက်ချင်း Feedback ပေးခြင်း",
+            "အမှားတစ်ခုပင် ပါရှိသော Code မည်သည်ကိုမျှ Run ရန် ငြင်းဆန်ခြင်း",
+            "အခြေအနေတိုင်းတွင် Compiler ထက် အမြဲ ပို၍ နှေးကွေးခြင်း",
+            "Programming Language မည်သည့်အမျိုးအစားအတွက်မျှ အသုံးမပြုနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 4, Week 15: "Security, Privacy, and Ethics"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek15 = CourseWeekDef(
+  id: "course-igcse-computing-w15",
+  weekNumber: 15,
+  titleEn: "Security, Privacy, and Ethics",
+  titleMy: "လုံခြုံရေး၊ ကိုယ်ရေးလုံခြုံရေးနှင့် ကျင့်ဝတ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w15-d1",
+      dayNumber: 1,
+      titleEn: "Cybersecurity Threats and Ethics",
+      titleMy: "Cybersecurity ခြိမ်းခြောက်မှုများနှင့် ကျင့်ဝတ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What distinguishes a virus from a worm, as malware types?",
+          questionMy:
+              "Malware အမျိုးအစားများအနေဖြင့် Virus ကို Worm နှင့် ကွဲပြားစေသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A virus needs a host file and human action to spread, while a worm can self-replicate and spread across a network without any human action",
+            "A worm can only infect a single computer and never spreads at all",
+            "A virus and a worm are simply two different names for exactly the same threat",
+            "A virus only affects hardware, never software",
+          ],
+          optionsMy: [
+            "Virus သည် Spread ဖြစ်ရန် Host File နှင့် လူ့ Action လိုအပ်သော်လည်း Worm သည် လူ့ Action မလိုအပ်ဘဲ Self-Replicate ဖြစ်ပြီး ကွန်ရက်တစ်လျှောက် Spread ဖြစ်နိုင်သည်",
+            "Worm သည် ကွန်ပျူတာတစ်လုံးကိုသာ ကူးစက်နိုင်ပြီး ဘယ်တော့မှ Spread မဖြစ်ခြင်း",
+            "Virus နှင့် Worm သည် ခြိမ်းခြောက်မှုတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+            "Virus သည် Hardware ကိုသာ ထိခိုက်ပြီး Software ကို ဘယ်တော့မှ မထိခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a biological analogy: a virus needs a host cell to replicate, similar to how a computer virus needs a host file and a user action like opening it.",
+          ],
+          hintsMy: [
+            "ဇီဝဗေဒဆိုင်ရာ နှိုင်းယှဉ်ချက်ကို စဉ်းစားကြည့်ပါ - Virus သည် Replicate ဖြစ်ရန် Host Cell လိုအပ်သကဲ့သို့ ကွန်ပျူတာ Virus သည် Host File နှင့် ၎င်းကို ဖွင့်ခြင်းကဲ့သို့ User Action လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is 'informed consent' an important ethical concept when a company collects user data?",
+          questionMy:
+              "ကုမ္ပဏီတစ်ခုသည် User Data စုဆောင်းသောအခါ 'Informed Consent' သည် အဘယ်ကြောင့် အရေးကြီးသော ကျင့်ဝတ် သဘောတရား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Users should genuinely understand what data is collected and how it will be used before agreeing, rather than agreeing to vague or hidden terms",
+            "It legally requires the company to delete all collected data immediately",
+            "It means users are never allowed to see what data has been collected",
+            "It only applies to companies operating outside their home country",
+          ],
+          optionsMy: [
+            "User များသည် မရှင်းလင်းသော (သို့) ဖျောက်ထားသော Term များကို သဘောတူမည့်အစား သဘောတူမီ မည်သည့် Data ကို စုဆောင်းမည်နှင့် မည်သို့ အသုံးပြုမည်ကို စစ်မှန်စွာ နားလည်သင့်ခြင်း",
+            "Company က စုဆောင်းထားသော Data အားလုံးကို ချက်ချင်း ဖျက်ချရန် ဥပဒေအရ တောင်းဆိုခြင်း",
+            "User များသည် စုဆောင်းထားသော Data ကို ဘယ်တော့မှ ကြည့်ရှုခွင့် မရနိုင်ခြင်းကို ဆိုလိုခြင်း",
+            "မိမိတို့ ပြည်တွင်းပြင်ပတွင် လုပ်ငန်းလည်ပတ်နေသော Company များကိုသာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Informed consent is about genuine understanding and choice, not just clicking 'I agree' on a long, unread document.",
+          ],
+          hintsMy: [
+            "Informed Consent သည် ရှည်လျားပြီး မဖတ်ရသေးသော စာတမ်းတွင် 'I Agree' ကို Click လုပ်ခြင်းသက်သက် မဟုတ်ဘဲ စစ်မှန်သော နားလည်မှုနှင့် ရွေးချယ်မှုအကြောင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student finds an unpatched security flaw in their school's website. What is the most ethical first course of action?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ၎င်း၏ ကျောင်း Website တွင် Patch မလုပ်ရသေးသော Security Flaw တစ်ခုကို တွေ့ရှိသည်။ ကျင့်ဝတ်နှင့် အညီဆုံး ပထမဆုံး လုပ်ဆောင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Responsibly report the flaw privately to the school's IT department so it can be fixed",
+            "Publicly post the flaw's details online for anyone to see and exploit",
+            "Use the flaw to secretly access other students' private records",
+            "Ignore it completely and never mention it to anyone",
+          ],
+          optionsMy: [
+            "ပြင်ဆင်နိုင်ရန် ကျောင်း IT ဌာနသို့ Flaw ကို တာဝန်ယူစွာ ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+            "မည်သူမဆို ကြည့်ရှု အခွင့်ကောင်းယူနိုင်ရန် Flaw အသေးစိတ်ကို အွန်လိုင်းတွင် လူသိရှင်ကြား ပို့စ်တင်ခြင်း",
+            "အခြား ကျောင်းသားများ၏ ကိုယ်ရေးမှတ်တမ်းများကို လျှို့ဝှက်စွာ ဝင်ရောက်ကြည့်ရှုရန် Flaw ကို အသုံးပြုခြင်း",
+            "လုံးဝ လျစ်လျူရှုပြီး မည်သူ့ကိုမျှ ဘယ်တော့မှ မဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is called 'responsible disclosure' -- a widely recognised ethical practice in the computing industry.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား 'Responsible Disclosure' ဟု ခေါ်ပြီး ကွန်ပျူတာ လုပ်ငန်းတွင် ကျယ်ကျယ်ပြန့်ပြန့် အသိအမှတ်ပြုထားသော ကျင့်ဝတ်ဆိုင်ရာ လုပ်ဆောင်ချက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Security, Privacy and Ethics Terms",
+      titleMy: "တွဲစပ်ကြမည် - Security, Privacy နှင့် Ethics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w15-dm-1",
+          termEn: "Virus",
+          termMy: "Virus",
+          matchEn:
+              "Malware that attaches to a host file and needs human action to spread",
+          matchMy:
+              "Host File တစ်ခုနှင့် ချိတ်ဆက်ပြီး Spread ဖြစ်ရန် လူ့ Action လိုအပ်သော Malware",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w15-dm-2",
+          termEn: "Worm",
+          termMy: "Worm",
+          matchEn:
+              "Self-replicating malware that spreads across a network without needing any human action",
+          matchMy:
+              "လူ့ Action လုံးဝ မလိုအပ်ဘဲ ကွန်ရက်တစ်လျှောက် Spread ဖြစ်သော Self-Replicating Malware",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w15-dm-3",
+          termEn: "Informed consent",
+          termMy: "Informed Consent",
+          matchEn:
+              "Genuinely understanding what data is collected and how it will be used before agreeing",
+          matchMy:
+              "သဘောတူမီ မည်သည့် Data ကို စုဆောင်းမည်နှင့် မည်သို့ အသုံးပြုမည်ကို စစ်မှန်စွာ နားလည်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w15-dm-4",
+          termEn: "Responsible disclosure",
+          termMy: "Responsible Disclosure",
+          matchEn:
+              "Privately reporting a discovered security flaw to the affected organisation rather than exploiting or publicising it",
+          matchMy:
+              "ရှာဖွေတွေ့ရှိသော Security Flaw ကို အခွင့်ကောင်းယူခြင်း (သို့) လူသိရှင်ကြား ဖော်ထုတ်ခြင်းထက် သက်ဆိုင်ရာ Organisation သို့ ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w15-dm-5",
+          termEn: "Trojan horse",
+          termMy: "Trojan Horse",
+          matchEn:
+              "Malware disguised as legitimate, harmless software to trick a user into installing it",
+          matchMy:
+              "User ကို လှည့်ဖျား၍ Install လုပ်စေရန် တရားဝင်၊ အန္တရာယ်မရှိသော Software အဖြစ် ဟန်ဆောင်ထားသော Malware",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ethical or Unethical Behaviour?",
+      titleMy: "စီစစ်ကြမည် - ကျင့်ဝတ်နှင့်ညီလား ကျင့်ဝတ်နှင့် မညီလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ethical Behaviour", "Unethical Behaviour"],
+        bucketsMy: [
+          "ကျင့်ဝတ်နှင့် ညီသော အပြုအမူ",
+          "ကျင့်ဝတ်နှင့် မညီသော အပြုအမူ",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w15-sort-1",
+            labelEn:
+                "Privately reporting a security flaw to the affected company",
+            labelMy:
+                "Security Flaw ကို သက်ဆိုင်ရာ Company သို့ ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+            correctBucketEn: "Ethical Behaviour",
+            correctBucketMy: "ကျင့်ဝတ်နှင့် ညီသော အပြုအမူ",
+          ),
+          SortingItem(
+            id: "igcomp-w15-sort-2",
+            labelEn:
+                "Using a found security flaw to access others' private data",
+            labelMy:
+                "အခြားသူများ၏ ကိုယ်ရေးအရ Data ကို ဝင်ရောက်ကြည့်ရှုရန် တွေ့ရှိသော Security Flaw ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Unethical Behaviour",
+            correctBucketMy: "ကျင့်ဝတ်နှင့် မညီသော အပြုအမူ",
+          ),
+          SortingItem(
+            id: "igcomp-w15-sort-3",
+            labelEn:
+                "Clearly explaining what data is collected before asking for consent",
+            labelMy:
+                "Consent မတောင်းဆိုမီ မည်သည့် Data ကို စုဆောင်းမည်ကို ရှင်းလင်းစွာ ရှင်းပြခြင်း",
+            correctBucketEn: "Ethical Behaviour",
+            correctBucketMy: "ကျင့်ဝတ်နှင့် ညီသော အပြုအမူ",
+          ),
+          SortingItem(
+            id: "igcomp-w15-sort-4",
+            labelEn:
+                "Publicly sharing a discovered security flaw before the company can fix it",
+            labelMy:
+                "Company ပြင်ဆင်နိုင်မီ တွေ့ရှိသော Security Flaw ကို လူသိရှင်ကြား မျှဝေခြင်း",
+            correctBucketEn: "Unethical Behaviour",
+            correctBucketMy: "ကျင့်ဝတ်နှင့် မညီသော အပြုအမူ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Ethical Dilemma",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ ကျင့်ဝတ်ဆိုင်ရာ ဒွိဟ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Ethical Dilemma",
+        titleMy: "Zayar Lin ၏ ကျင့်ဝတ်ဆိုင်ရာ ဒွိဟ",
+        passageEn:
+            "Sayar Ye Min presented the class with a case study modelled on real IGCSE ethics questions: while testing a school project, Zayar Lin's fictional classmate accidentally discovered that the school's online grade portal let any logged-in student view other students' grades simply by changing a number in the website's address, with no proper security check at all. Sayar Ye Min asked the class what the classmate should do next, and why.\n\nZayar Lin's first instinct was that reporting it immediately to a teacher was clearly correct, but he wanted to reason through exactly why the alternatives were wrong, not just state the right answer. Exploiting the flaw to actually view other students' real grades, he explained, would be unethical and likely illegal even if the classmate never told anyone, since it violated those other students' privacy and used unauthorised access to a system, regardless of how the flaw was originally found. Publicly posting the flaw's details online, even without directly using it, was almost as risky: it would let anyone else exploit it immediately, potentially causing serious harm before the school had any chance to fix it.\n\nSayar Ye Min then pushed further: what if the classmate worried that reporting it might get them blamed for finding the flaw in the first place? Zayar Lin argued that this fear did not actually change what the ethical action was, only how uncomfortable it might feel -- responsible disclosure meant reporting the flaw privately and clearly to someone able to fix it, explaining exactly how it was found and reproduced, giving the school a genuine chance to patch the vulnerability before anyone could misuse it. He connected this directly to the responsible disclosure practice from earlier in the week, recognising that acting ethically and acting in one's own short-term comfort were not always the same thing -- and that IGCSE ethics questions consistently rewarded reasoning that acknowledged this tension rather than pretending it did not exist.",
+        passageMy:
+            "စစ်မှန်သော IGCSE Ethics မေးခွန်းများအပေါ် အခြေခံထားသော Case Study တစ်ခုကို ဆရာရဲမင်းသည် Class ကို တင်ပြခဲ့သည် - ကျောင်း Project တစ်ခုကို စမ်းသပ်နေစဉ် Zayar Lin ၏ စိတ်ကူးဖန်တီးထားသော Classmate တစ်ဦးသည် ကျောင်း၏ Online Grade Portal သည် Website Address ရှိ ဂဏန်းတစ်ခုကို ပြောင်းလဲရုံဖြင့် Log In ဝင်ထားသော ကျောင်းသားမည်သူမဆို အခြား ကျောင်းသားများ၏ Grade များကို ကြည့်ရှုနိုင်ကြောင်း Security Check မှန်ကန်စွာ မရှိဘဲ တွေ့ရှိမိခဲ့သည်။ Classmate သည် နောက်ထပ် မည်သို့ လုပ်ဆောင်သင့်သနည်း၊ အဘယ်ကြောင့်နည်းဟု ဆရာရဲမင်းက Class ကို မေးမြန်းခဲ့သည်။\n\nဆရာဆီသို့ ချက်ချင်း Report ပြုလုပ်ခြင်းသည် ရှင်းလင်းစွာ မှန်ကန်ကြောင်း Zayar Lin ၏ ပထမ ပင်ကိုယ်ခံစားမှု ဖြစ်ခဲ့သော်လည်း အခြား ရွေးချယ်စရာများ အဘယ်ကြောင့် မှားယွင်းကြောင်းကို မှန်ကန်သော အဖြေကိုသာ ဖော်ပြမည့်အစား သေချာစွာ ဆင်ခြင်လိုခဲ့သည်။ Flaw ကို အခွင့်ကောင်းယူ၍ အခြား ကျောင်းသားများ၏ Grade အစစ်အမှန်ကို အမှန်တကယ် ကြည့်ရှုခြင်းသည် Classmate က မည်သူ့ကိုမျှ ဘယ်တော့မှ မပြောကြားခဲ့သော်ငြားလည်း ကျင့်ဝတ်နှင့် မညီပြီး ဥပဒေနှင့် ဆန့်ကျင်နိုင်ကြောင်း ရှင်းပြခဲ့သည်၊ Flaw ကို မူလ မည်သို့ တွေ့ရှိသည်မဆို ထို ကျောင်းသားများ၏ Privacy ကို ချိုးဖောက်ကာ System တစ်ခုသို့ Authorization မရှိသော ဝင်ရောက်ကြည့်ရှုမှုကို အသုံးပြုသောကြောင့် ဖြစ်သည်။ Flaw အသေးစိတ်ကို တိုက်ရိုက် အသုံးမပြုသော်ငြားလည်း အွန်လိုင်းတွင် လူသိရှင်ကြား Post တင်ခြင်းသည်လည်း အလားတူ အန္တရာယ် ရှိသည် - ကျောင်းက ၎င်းကို ပြင်ဆင်နိုင်ရန် အခွင့်အလမ်း မရမီ အခြားသူ မည်သူမဆို ချက်ချင်း အခွင့်ကောင်းယူနိုင်ပြီး ဆိုးရွားသော ထိခိုက်မှု ဖြစ်စေနိုင်သည်။\n\nClassmate သည် Flaw ကို ဦးစွာ တွေ့ရှိခြင်းကြောင့် အပြစ်တင်ခံရမည်ကို စိုးရိမ်ပါက အဘယ်နည်းဟု ဆရာရဲမင်း ဆက်လက် တွန်းအားပေးခဲ့သည်။ ဤ စိုးရိမ်မှုသည် ကျင့်ဝတ်ဆိုင်ရာ Action ကို အမှန်တကယ် ပြောင်းလဲစေခြင်း မရှိဘဲ ၎င်း မည်မျှ မသက်မသာ ခံစားရနိုင်သည်ကိုသာ ပြောင်းလဲစေကြောင်း Zayar Lin ငြင်းခုံခဲ့သည် -- Responsible Disclosure ဆိုသည်မှာ ၎င်းကို ပြင်ဆင်နိုင်သော သူတစ်ဦးထံသို့ Flaw ကို ကိုယ်ရေးအရ၊ ရှင်းလင်းစွာ Report ပြုလုပ်ပြီး ၎င်းကို မည်သို့ တွေ့ရှိပြီး ပြန်လည်ဖြစ်ပေါ်စေကြောင်း အတိအကျ ရှင်းပြကာ မည်သူမျှ အခွင့်ကောင်းမယူမီ Vulnerability ကို Patch လုပ်ရန် ကျောင်းအား စစ်မှန်သော အခွင့်အလမ်းပေးခြင်းကို ဆိုလိုသည်။ ကျင့်ဝတ်နှင့်အညီ ပြုမူခြင်းနှင့် မိမိကိုယ်ပိုင် ခေတ္တခဏ Comfort ဖြင့် ပြုမူခြင်းသည် အမြဲ တူညီသည် မဟုတ်ကြောင်း သိရှိကာ IGCSE Ethics မေးခွန်းများသည် ဤ ဆန့်ကျင်မှုကို မရှိသကဲ့သို့ ဟန်ဆောင်မည့်အစား အသိအမှတ်ပြုသော ဆင်ခြင်တုံတရားကို တသမတ်တည်း အောင်ဆုချီးမြှင့်ကြောင်း သူ ချိတ်ဆက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why would exploiting the flaw be unethical even if never told to anyone?",
+            questionMy:
+                "မည်သူ့ကိုမျှ ဘယ်တော့မှ မပြောကြားခဲ့သော်ငြားလည်း Flaw ကို အခွင့်ကောင်းယူခြင်း ကျင့်ဝတ်နှင့် မညီကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It violates other students' privacy and uses unauthorised access to a system",
+              "It is completely legal and harmless in every situation",
+              "It automatically fixes the security flaw",
+              "It is the fastest way to report a bug to the school",
+            ],
+            optionsMy: [
+              "အခြား ကျောင်းသားများ၏ Privacy ကို ချိုးဖောက်ကာ System တစ်ခုသို့ Authorization မရှိသော ဝင်ရောက်ကြည့်ရှုမှုကို အသုံးပြုခြင်း",
+              "အခြေအနေတိုင်းတွင် လုံးဝ ဥပဒေနှင့် ညီ၍ အန္တရာယ်ကင်းခြင်း",
+              "Security Flaw ကို အလိုအလျောက် ပြင်ဆင်ပေးခြင်း",
+              "ကျောင်းသို့ Bug တစ်ခုကို Report ပြုလုပ်ရန် အမြန်ဆုံး နည်းလမ်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why exploiting the flaw is wrong.",
+            ],
+            hintsMy: [
+              "Flaw ကို အခွင့်ကောင်းယူခြင်း အဘယ်ကြောင့် မှားယွင်းကြောင်းကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Zayar Lin argue about the fear of being blamed?",
+            questionMy:
+                "အပြစ်တင်ခံရမည့် စိုးရိမ်မှုအကြောင်း Zayar Lin ငြင်းခုံခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It does not change what the ethical action actually is, only how comfortable it feels",
+              "It means the classmate should never report the flaw at all",
+              "It proves that reporting the flaw is illegal",
+              "It has no relevance to ethics questions whatsoever",
+            ],
+            optionsMy: [
+              "ကျင့်ဝတ်ဆိုင်ရာ Action အမှန်တကယ် အဘယ်အရာ ဖြစ်သည်ကို မပြောင်းလဲစေဘဲ ၎င်း မည်မျှ သက်တောင့်သက်သာ ခံစားရသည်ကိုသာ",
+              "Classmate သည် Flaw ကို ဘယ်တော့မှ လုံးဝ Report မပြုလုပ်သင့်ကြောင်း ဆိုလိုခြင်း",
+              "Flaw ကို Report ပြုလုပ်ခြင်းသည် ဥပဒေနှင့် ဆန့်ကျင်ကြောင်း သက်သေပြခြင်း",
+              "Ethics မေးခွန်းများနှင့် လုံးဝ သက်ဆိုင်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what the fear does and does not change.",
+            ],
+            hintsMy: [
+              "စိုးရိမ်မှုက အဘယ်အရာကို ပြောင်းလဲစေသည်၊ မပြောင်းလဲစေသည်ဆိုသည့် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what do IGCSE ethics questions consistently reward?",
+            questionMy:
+                "IGCSE Ethics မေးခွန်းများ တသမတ်တည်း အောင်ဆုချီးမြှင့်သည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reasoning that acknowledges the tension between ethical action and personal comfort",
+              "The shortest possible one-word answer",
+              "Answers that ignore the ethical dimension entirely",
+              "Answers that avoid mentioning security flaws",
+            ],
+            optionsMy: [
+              "ကျင့်ဝတ်ဆိုင်ရာ Action နှင့် ကိုယ်ရေးအရ Comfort ကြား ဆန့်ကျင်မှုကို အသိအမှတ်ပြုသော ဆင်ခြင်တုံတရား",
+              "ဖြစ်နိုင်သမျှ တိုတောင်းသော စကားလုံးတစ်လုံးတည်း အဖြေ",
+              "ကျင့်ဝတ်ဆိုင်ရာ ရှုထောင့်ကို လုံးဝ လျစ်လျူရှုသော အဖြေများ",
+              "Security Flaw များအကြောင်း မဖော်ပြသော အဖြေများ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Security, Privacy and Ethics",
+      titleMy: "ဒသမပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Security, Privacy and Ethics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A worm differs from a virus mainly because a worm...",
+          questionMy:
+              "Worm ကို Virus နှင့် ကွဲပြားစေသော အဓိက အချက်မှာ Worm သည်...",
+          optionsEn: [
+            "Can self-replicate and spread without needing any human action",
+            "Can only exist on a single isolated computer",
+            "Is always completely harmless",
+            "Only affects printers, never other devices",
+          ],
+          optionsMy: [
+            "လူ့ Action လုံးဝ မလိုအပ်ဘဲ Self-Replicate ဖြစ်ပြီး Spread ဖြစ်နိုင်ခြင်း",
+            "ကွန်ပျူတာတစ်လုံးတည်း ပေါ်တွင်သာ ရှိနိုင်ခြင်း",
+            "အမြဲ လုံးဝ အန္တရာယ်ကင်းခြင်း",
+            "Printer များကိုသာ ထိခိုက်ပြီး အခြား Device များကို ဘယ်တော့မှ မထိခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Responsible disclosure means...",
+          questionMy: "Responsible Disclosure ဆိုသည်မှာ...",
+          optionsEn: [
+            "Privately reporting a security flaw so it can be fixed",
+            "Publicly exploiting a security flaw for personal gain",
+            "Ignoring a discovered security flaw entirely",
+            "Selling knowledge of a security flaw to strangers",
+          ],
+          optionsMy: [
+            "ပြင်ဆင်နိုင်ရန် Security Flaw ကို ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+            "ကိုယ်ရေးအကျိုးအတွက် Security Flaw ကို လူသိရှင်ကြား အခွင့်ကောင်းယူခြင်း",
+            "တွေ့ရှိသော Security Flaw ကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Security Flaw အကြောင်း အသိပညာကို မသိကျွမ်းသူများထံသို့ ရောင်းချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Informed consent requires that users...",
+          questionMy: "Informed Consent သည် User များ ...ရန် တောင်းဆိုသည်",
+          optionsEn: [
+            "Genuinely understand what data is collected and how it is used before agreeing",
+            "Never see any terms and conditions at all",
+            "Automatically agree to everything without reading anything",
+            "Pay a fee before their data can be collected",
+          ],
+          optionsMy: [
+            "သဘောတူမီ မည်သည့် Data ကို စုဆောင်းမည်နှင့် မည်သို့ အသုံးပြုမည်ကို စစ်မှန်စွာ နားလည်ရန်",
+            "Terms and Conditions မည်သည်ကိုမျှ လုံးဝ မကြည့်ရှုရန်",
+            "မည်သည်ကိုမျှ မဖတ်ရှုဘဲ အားလုံးကို အလိုအလျောက် သဘောတူရန်",
+            "၎င်းတို့၏ Data စုဆောင်းမခံရမီ အခကြေးငွေ ပေးဆောင်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 4, Week 16 (Capstone/Boss Week): "Software &
+// Ethics Case Study"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek16 = CourseWeekDef(
+  id: "course-igcse-computing-w16",
+  weekNumber: 16,
+  titleEn: "Software & Ethics Case Study",
+  titleMy: "ဆော့ဖ်ဝဲနှင့် ကျင့်ဝတ် သုံးသပ်ချက် ပရောဂျက်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w16-d1",
+      dayNumber: 1,
+      titleEn: "OS Resource Allocation Case Study",
+      titleMy: "OS Resource Allocation Case Study",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A computer is running slowly with many programs open. Which OS resource is most likely being exhausted?",
+          questionMy:
+              "ကွန်ပျူတာတစ်ခုသည် Program များစွာ ဖွင့်ထားစဉ် နှေးကွေးစွာ Run နေသည်။ OS Resource မည်သည် အနုတ်နိုင်ဆုံး ကုန်ခမ်းနေသနည်း။",
+          optionsEn: [
+            "RAM (memory) -- too many programs are competing for limited available memory",
+            "The colour depth of the monitor",
+            "The physical weight of the computer case",
+            "The number of USB ports available",
+          ],
+          optionsMy: [
+            "RAM (Memory) -- Program များစွာသည် ရရှိနိုင်သော Memory ကန့်သတ်ချက်အတွက် ပြိုင်ဆိုင်နေခြင်း",
+            "Monitor ၏ Colour Depth",
+            "ကွန်ပျူတာ Case ၏ ရုပ်ပိုင်းဆိုင်ရာ အလေးချိန်",
+            "ရရှိနိုင်သော USB Port အရေအတွက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The OS's memory management function must share limited RAM between every running program -- too many at once can exhaust it.",
+          ],
+          hintsMy: [
+            "OS ၏ Memory Management Function သည် Run နေသော Program တိုင်းကြား ကန့်သတ်ထားသော RAM ကို မျှဝေပေးရမည် -- တစ်ချိန်တည်း များစွာ ရှိနေလျှင် ကုန်ခမ်းသွားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A safety-critical flight control system needs to catch every possible syntax error before deployment. Which translator type fits best?",
+          questionMy:
+              "Safety-Critical Flight Control System တစ်ခုသည် Deployment မတိုင်မီ ဖြစ်နိုင်သော Syntax Error တိုင်းကို ဖမ်းဆီးရန် လိုအပ်သည်။ မည်သည့် Translator အမျိုးအစား ပို၍ ကိုက်ညီသနည်း။",
+          optionsEn: [
+            "A compiler, since it checks the entire program before any of it runs",
+            "An interpreter, since it only checks one line at a time",
+            "No translator is needed at all",
+            "Utility software, since it is unrelated to translation",
+          ],
+          optionsMy: [
+            "Compiler တစ်ခု၊ Program ၏ မည်သည့်အပိုင်းမျှ မ Run မီ Program တစ်ခုလုံးကို စစ်ဆေးသောကြောင့်",
+            "Interpreter တစ်ခု၊ တစ်ကြိမ်လျှင် လိုင်းတစ်ကြောင်းသာ စစ်ဆေးသောကြောင့်",
+            "Translator မည်သည့်အမျိုးအစားမျှ လုံးဝ မလိုအပ်ခြင်း",
+            "Utility Software၊ Translation နှင့် မသက်ဆိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the compiler-vs-interpreter reading passage: for safety-critical software, catching every error before deployment matters most.",
+          ],
+          hintsMy: [
+            "Compiler-vs-Interpreter စာဖတ်ခြင်း Passage ကို ပြန်သတိရပါ - Safety-Critical Software အတွက် Deployment မတိုင်မီ အမှားတိုင်းကို ဖမ်းဆီးခြင်းသည် အရေးအကြီးဆုံး ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student discovers a bug that lets them see other users' private messages in a school app. What should they do?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ကျောင်း App ရှိ အခြား User များ၏ ကိုယ်ရေးအရ Message များကို ကြည့်ရှုနိုင်စေသော Bug တစ်ခုကို တွေ့ရှိသည်။ သူတို့ မည်သို့ လုပ်ဆောင်သင့်သနည်း။",
+          optionsEn: [
+            "Privately report the bug to the app's developers so they can fix it",
+            "Read as many private messages as possible before it gets fixed",
+            "Share the bug publicly online for attention",
+            "Sell details of the bug to a stranger",
+          ],
+          optionsMy: [
+            "Developer များ ပြင်ဆင်နိုင်ရန် Bug ကို ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+            "ပြင်ဆင်ခံမရမီ ဖြစ်နိုင်သမျှ ကိုယ်ရေးအရ Message များစွာကို ဖတ်ရှုခြင်း",
+            "အာရုံစိုက်မှု ရရှိရန် Bug ကို အွန်လိုင်းတွင် လူသိရှင်ကြား မျှဝေခြင်း",
+            "Bug အသေးစိတ်ကို မသိကျွမ်းသူတစ်ဦးထံသို့ ရောင်းချခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly responsible disclosure, applied in a new scenario.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Scenario အသစ်တစ်ခုတွင် အသုံးချထားသော Responsible Disclosure အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Software Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Software ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w16-dm-1",
+          termEn: "Memory management",
+          termMy: "Memory Management",
+          matchEn:
+              "The OS function that allocates RAM between competing running programs",
+          matchMy:
+              "ပြိုင်ဆိုင်နေသော Run နေသော Program များကြား RAM ခွဲဝေပေးသော OS Function",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w16-dm-2",
+          termEn: "Compiler",
+          termMy: "Compiler",
+          matchEn:
+              "Best suited to catching every error before deployment in safety-critical software",
+          matchMy:
+              "Safety-Critical Software တွင် Deployment မတိုင်မီ အမှားတိုင်းကို ဖမ်းဆီးရန် ပို၍ ကိုက်ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w16-dm-3",
+          termEn: "Responsible disclosure",
+          termMy: "Responsible Disclosure",
+          matchEn:
+              "Privately reporting a discovered vulnerability rather than exploiting or publicising it",
+          matchMy:
+              "ရှာဖွေတွေ့ရှိသော Vulnerability ကို အခွင့်ကောင်းယူခြင်း (သို့) လူသိရှင်ကြား ဖော်ထုတ်ခြင်းထက် ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w16-dm-4",
+          termEn: "Interpreter",
+          termMy: "Interpreter",
+          matchEn:
+              "Well suited to rapid, exploratory development with immediate line-by-line feedback",
+          matchMy:
+              "Line-by-Line ချက်ချင်း Feedback ဖြင့် Rapid, Exploratory Development နှင့် ကိုက်ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Software Category Case Study",
+      titleMy: "စီစစ်ကြမည် - Software အမျိုးအစား Case Study",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["System Software", "Application Software"],
+        bucketsMy: ["System Software", "Application Software"],
+        items: [
+          SortingItem(
+            id: "igcomp-w16-sort-1",
+            labelEn: "The operating system managing memory and files",
+            labelMy:
+                "Memory နှင့် File များကို စီမံခန့်ခွဲသော Operating System",
+            correctBucketEn: "System Software",
+            correctBucketMy: "System Software",
+          ),
+          SortingItem(
+            id: "igcomp-w16-sort-2",
+            labelEn: "A word processor used to write an essay",
+            labelMy: "Essay ရေးရန် အသုံးပြုသော Word Processor",
+            correctBucketEn: "Application Software",
+            correctBucketMy: "Application Software",
+          ),
+          SortingItem(
+            id: "igcomp-w16-sort-3",
+            labelEn: "A disk defragmentation utility",
+            labelMy: "Disk Defragmentation Utility",
+            correctBucketEn: "System Software",
+            correctBucketMy: "System Software",
+          ),
+          SortingItem(
+            id: "igcomp-w16-sort-4",
+            labelEn: "A photo editing application",
+            labelMy: "Photo Editing Application",
+            correctBucketEn: "Application Software",
+            correctBucketMy: "Application Software",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Term 4 Case Study Report",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Term 4 Case Study Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Term 4 Case Study Report",
+        titleMy: "Zayar Lin ၏ Term 4 Case Study Report",
+        passageEn:
+            "For the Term 4 capstone, Sayar Ye Min gave every student a single combined case study drawing on operating systems, translators, and ethics all at once: a small startup company is building safety-critical software for hospital equipment, running on a device with very limited memory, and one of their junior developers has just discovered an unpatched security flaw in a competitor's public health app while testing something unrelated. Zayar Lin was asked to write a short report addressing three separate questions using everything from the term.\n\nFor the memory question, Zayar Lin recommended the company's operating system prioritise careful memory management, since the device's limited RAM meant that running too many processes simultaneously could exhaust available memory and cause the safety-critical software to slow down or fail -- an unacceptable risk for hospital equipment. For the translator question, he firmly recommended a compiler over an interpreter, directly citing the reasoning from earlier in the term: safety-critical software needs every syntax error caught before deployment, not discovered partway through execution on a device that might be actively monitoring a patient.\n\nFor the ethics question, Zayar Lin reasoned carefully through what the junior developer should do about the competitor's flaw, even though it was outside their own company. He concluded that responsible disclosure still applied regardless of which company owned the software: privately reporting the flaw to the competitor so it could be fixed was the ethical choice, since the flaw could put real patients at risk if left unpatched or, worse, publicised before a fix existed. He noted in his conclusion that ignoring the flaw because it was 'not his company's problem' would still be unethical, since genuine harm to real people did not become acceptable just because a different organisation was responsible for causing it.",
+        passageMy:
+            "Term 4 Capstone အတွက် ဆရာရဲမင်းသည် Operating System, Translator နှင့် Ethics သုံးခုစလုံးကို တစ်ပြိုင်နက် အသုံးချထားသော ပေါင်းစပ် Case Study တစ်ခု ကျောင်းသားတိုင်းကို ပေးအပ်ခဲ့သည် - Startup Company ငယ်တစ်ခုသည် Memory အလွန် ကန့်သတ်ထားသော Device တစ်ခုပေါ်တွင် Run နေသော ဆေးရုံ ကိရိယာအတွက် Safety-Critical Software ကို တည်ဆောက်နေသည်၊ ၎င်းတို့၏ Junior Developer တစ်ဦးသည် မသက်ဆိုင်သော အရာတစ်ခုကို စမ်းသပ်နေစဉ် ပြိုင်ဘက် Public Health App တစ်ခုတွင် Patch မလုပ်ရသေးသော Security Flaw တစ်ခုကို ယခုတွင် တွေ့ရှိမိသည်။ Zayar Lin သည် Term တစ်ခုလုံးမှ အရာအားလုံးကို အသုံးပြု၍ ကွဲပြားသော မေးခွန်း သုံးခုကို ဖြေဆိုသော Report တိုတောင်းတစ်ခု ရေးသားရန် တောင်းဆိုခံခဲ့ရသည်။\n\nMemory မေးခွန်းအတွက် Company ၏ Operating System သည် သတိထားသော Memory Management ကို ဦးစားပေးရန် Zayar Lin အကြံပြုခဲ့သည်၊ Device ၏ ကန့်သတ်ထားသော RAM သည် Process များစွာ တစ်ချိန်တည်း Run ခြင်းသည် ရရှိနိုင်သော Memory ကို ကုန်ခမ်းစေပြီး Safety-Critical Software ကို နှေးကွေးစေခြင်း (သို့) Fail ဖြစ်စေနိုင်ကြောင်း ဆိုလိုသည် -- ဆေးရုံ ကိရိယာအတွက် လက်မခံနိုင်သော အန္တရာယ် ဖြစ်သည်။ Translator မေးခွန်းအတွက် Term ရှေ့ပိုင်းမှ ဆင်ခြင်တုံတရားကို တိုက်ရိုက် ကိုးကားလျက် Interpreter ထက် Compiler ကို သူ ခိုင်ခိုင်မာမာ အကြံပြုခဲ့သည် - Safety-Critical Software သည် လူနာတစ်ဦးကို Actively စောင့်ကြည့်နေနိုင်သော Device တစ်ခုပေါ်တွင် Execution အလယ်ပိုင်းတွင် ရှာတွေ့ခြင်း မဟုတ်ဘဲ Deployment မတိုင်မီ Syntax Error တိုင်းကို ဖမ်းဆီးရန် လိုအပ်သည်။\n\nEthics မေးခွန်းအတွက် Junior Developer သည် ၎င်းတို့ကိုယ်ပိုင် Company ပြင်ပတွင် ရှိနေသော်လည်း ပြိုင်ဘက်၏ Flaw အကြောင်း မည်သို့ လုပ်ဆောင်သင့်သည်ကို Zayar Lin သေချာစွာ ဆင်ခြင်ခဲ့သည်။ Software ကို မည်သည့် Company က ပိုင်ဆိုင်သည်မဆို Responsible Disclosure သည် ဆက်လက် အသုံးချနိုင်ကြောင်း သူ ကောက်ချက်ချခဲ့သည် - Flaw ကို ပြင်ဆင်နိုင်ရန် ပြိုင်ဘက်ထံသို့ ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်းသည် ကျင့်ဝတ်ဆိုင်ရာ ရွေးချယ်မှု ဖြစ်သည်၊ Flaw ကို Patch မလုပ်ဘဲ ထားခဲ့လျှင် (သို့) ပို၍ဆိုးသည်မှာ Fix မရှိမီ လူသိရှင်ကြား ဖော်ထုတ်ခဲ့လျှင် လူနာအစစ်အမှန်များကို အန္တရာယ်ဖြစ်စေနိုင်သောကြောင့် ဖြစ်သည်။ '၎င်း၏ Company ၏ ပြဿနာ မဟုတ်ကြောင်း' Flaw ကို လျစ်လျူရှုခြင်းသည် ကျင့်ဝတ်နှင့် ဆက်လက် မညီနိုင်ကြောင်း ၎င်း၏ ကောက်ချက်တွင် သူ မှတ်ချက်ချခဲ့သည်၊ လူသားအစစ်အမှန်များအပေါ် စစ်မှန်သော ထိခိုက်မှုသည် အခြား Organisation တစ်ခုက ဖြစ်ပေါ်စေခြင်းအတွက် တာဝန်ရှိနေသည်ဟူ၍သာ လက်ခံနိုင်စဖွယ် မဖြစ်လာနိုင်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin recommend a compiler for the hospital software?",
+            questionMy:
+                "ဆေးရုံ Software အတွက် Zayar Lin Compiler ကို အကြံပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Safety-critical software needs every syntax error caught before deployment, not discovered mid-execution",
+              "Compilers are always cheaper than interpreters",
+              "Interpreters cannot run on any hospital device",
+              "Compilers use less memory than interpreters in every case",
+            ],
+            optionsMy: [
+              "Safety-Critical Software သည် Execution အလယ်ပိုင်းတွင် ရှာတွေ့ခြင်း မဟုတ်ဘဲ Deployment မတိုင်မီ Syntax Error တိုင်းကို ဖမ်းဆီးရန် လိုအပ်ခြင်း",
+              "Compiler များသည် Interpreter များထက် အမြဲ ပို၍ ဈေးပေါခြင်း",
+              "Interpreter များသည် ဆေးရုံ Device မည်သည့်ပေါ်တွင်မျှ Run မနိုင်ခြင်း",
+              "Compiler များသည် အခြေအနေတိုင်းတွင် Interpreter များထက် Memory ပို၍နည်းစွာ သုံးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, did the fact that the flaw was in a competitor's app change what Zayar Lin recommended?",
+            questionMy:
+                "Flaw သည် ပြိုင်ဘက်၏ App တွင် ရှိနေသော အချက်သည် Zayar Lin ၏ အကြံပြုချက်ကို ပြောင်းလဲစေသလားဆိုသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No -- responsible disclosure still applied regardless of which company owned the software",
+              "Yes -- he recommended exploiting the flaw since it was a competitor",
+              "Yes -- he recommended ignoring the flaw entirely",
+              "The passage does not address this at all",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ -- Software ကို မည်သည့် Company က ပိုင်ဆိုင်သည်မဆို Responsible Disclosure ဆက်လက် အသုံးချနိုင်ခြင်း",
+              "ဟုတ်ပါသည် -- ပြိုင်ဘက် ဖြစ်သောကြောင့် Flaw ကို အခွင့်ကောင်းယူရန် အကြံပြုခဲ့ခြင်း",
+              "ဟုတ်ပါသည် -- Flaw ကို လုံးဝ လျစ်လျူရှုရန် အကြံပြုခဲ့ခြင်း",
+              "စာပိုဒ်တွင် ဤအကြောင်းကို လုံးဝ မဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about responsible disclosure applying regardless of ownership.",
+            ],
+            hintsMy: [
+              "ပိုင်ဆိုင်မှု မည်သို့ပင်ရှိစေ Responsible Disclosure အသုံးချနိုင်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why is ignoring the flaw still unethical even if it is 'not his company's problem'?",
+            questionMy:
+                "'၎င်း၏ Company ၏ ပြဿနာ မဟုတ်' သော်လည်း Flaw ကို လျစ်လျူရှုခြင်း ကျင့်ဝတ်နှင့် ဆက်လက် မညီရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Genuine harm to real people does not become acceptable just because a different organisation caused it",
+              "Only the developer's own company's data matters ethically",
+              "The flaw is not actually a real risk to anyone",
+              "Competitors have no ethical obligations at all",
+            ],
+            optionsMy: [
+              "အခြား Organisation တစ်ခုက ဖြစ်ပေါ်စေခြင်းအတွက် လူသားအစစ်အမှန်များအပေါ် စစ်မှန်သော ထိခိုက်မှု လက်ခံနိုင်စဖွယ် မဖြစ်လာနိုင်ခြင်း",
+              "Developer ကိုယ်ပိုင် Company ၏ Data သာ ကျင့်ဝတ်ဆိုင်ရာ အရေးကြီးခြင်း",
+              "Flaw သည် မည်သူ့ကိုမျှ အမှန်တကယ် အန္တရာယ် မဟုတ်ခြင်း",
+              "ပြိုင်ဘက်များတွင် ကျင့်ဝတ်ဆိုင်ရာ တာဝန် လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Software and Ethics Exam",
+      titleMy: "Term 4 Capstone - Software and Ethics စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The OS function most directly responsible for preventing programs from crashing due to a lack of memory is...",
+          questionMy:
+              "Memory လိုအပ်ချက် မလုံလောက်ခြင်းကြောင့် Program များ Crash မဖြစ်စေရန် တိုက်ရိုက်ဆုံး တာဝန်ရှိသော OS Function မှာ...",
+          optionsEn: [
+            "Memory management",
+            "Disk defragmentation",
+            "Network encryption",
+            "Colour depth adjustment",
+          ],
+          optionsMy: [
+            "Memory Management",
+            "Disk Defragmentation",
+            "Network Encryption",
+            "Colour Depth Adjustment",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Safety-critical software generally favours a compiler over an interpreter because...",
+          questionMy:
+              "Safety-Critical Software သည် Interpreter ထက် Compiler ကို ယေဘုယျအားဖြင့် ဦးစားပေးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Every error can be caught before deployment, not mid-execution",
+            "Compilers never contain any bugs",
+            "Interpreters cannot run any code at all",
+            "Compilers are always free of charge",
+          ],
+          optionsMy: [
+            "Execution အလယ်ပိုင်းတွင် မဟုတ်ဘဲ Deployment မတိုင်မီ အမှားတိုင်းကို ဖမ်းဆီးနိုင်ခြင်း",
+            "Compiler များတွင် Bug မည်သည့်အမျိုးအစားမျှ ဘယ်တော့မှ မပါဝင်ခြင်း",
+            "Interpreter များသည် Code မည်သည့်အမျိုးအစားမျှ လုံးဝ Run မနိုင်ခြင်း",
+            "Compiler များသည် အမြဲ အခမဲ့ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The most ethical response to discovering a security flaw is to...",
+          questionMy:
+              "Security Flaw တစ်ခု တွေ့ရှိခြင်းအတွက် ကျင့်ဝတ်နှင့် အညီဆုံး တုံ့ပြန်ချက်မှာ...",
+          optionsEn: [
+            "Privately report it to those who can fix it",
+            "Exploit it for personal benefit",
+            "Publicise it immediately for attention",
+            "Sell it to the highest bidder",
+          ],
+          optionsMy: [
+            "ပြင်ဆင်နိုင်သူများထံသို့ ကိုယ်ရေးအရ Report ပြုလုပ်ခြင်း",
+            "ကိုယ်ရေးအကျိုးအတွက် အခွင့်ကောင်းယူခြင်း",
+            "အာရုံစိုက်မှုအတွက် ချက်ချင်း လူသိရှင်ကြား ဖော်ထုတ်ခြင်း",
+            "အမြင့်ဆုံး တင်သွင်းသူထံသို့ ရောင်းချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 4: "Software and Operating Systems" (Weeks
+// 13-16)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm4 = CourseTermDef(
+  id: "course-igcse-computing-t4",
+  termNumber: 4,
+  titleEn: "Software and Operating Systems",
+  titleMy: "ဆော့ဖ်ဝဲနှင့် လည်ပတ်ရေးစနစ်များ",
+  certificateTitleEn: "Software and Operating Systems",
+  certificateTitleMy: "ဆော့ဖ်ဝဲနှင့် လည်ပတ်ရေးစနစ်များ",
+  weeks: [
+    _igcseComputingWeek13,
+    _igcseComputingWeek14,
+    _igcseComputingWeek15,
+    _igcseComputingWeek16,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
