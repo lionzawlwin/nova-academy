@@ -90683,11 +90683,11 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseHumTerm1, _igcseHumTerm2],
+  terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3],
 );
 // =====================================================================
 // IGCSE Humanities -- Term 2, Week 5: "Long-Term Causes of World War
@@ -92091,5 +92091,1427 @@ const CourseTermDef _igcseHumTerm2 = CourseTermDef(
   certificateTitleEn: "The First World War: Causes and Course",
   certificateTitleMy: "ပထမ ကမ္ဘာစစ် - Cause များနှင့် Course",
   weeks: [_igcseHumWeek5, _igcseHumWeek6, _igcseHumWeek7, _igcseHumWeek8],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 3, Week 9: "The Treaty of Versailles and
+// Its Consequences"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek9 = CourseWeekDef(
+  id: "course-igcse-hum-w9",
+  weekNumber: 9,
+  titleEn: "The Treaty of Versailles and Its Consequences",
+  titleMy: "Versailles စာချုပ်နှင့် ၎င်း၏ ရလဒ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w9-d1",
+      dayNumber: 1,
+      titleEn: "War Guilt, Reparations, and Territorial Loss",
+      titleMy: "War Guilt, Reparations နှင့် Territorial ဆုံးရှုံးမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why was the 'war guilt clause,' which forced Germany to accept full responsibility for causing WWI, particularly resented by many Germans given what Term 2 established about the war's actual causes?",
+          questionMy:
+              "Germany ကို WWI ဖြစ်ပွားစေရသည့်အတွက် တာဝန် အပြည့်အစုံ လက်ခံရန် တွန်းအားပေးခဲ့သော 'War Guilt Clause' ကို Term 2 က စစ်ပွဲ၏ အမှန်တကယ် Cause များအကြောင်း တည်ထောင်ခဲ့သည်ကို ထောက်ရှုပါက Germans အများအပြားက အထူးသဖြင့် Resent ပြုလုပ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Term 2 established that multiple MAIN causes across many countries contributed to the war, so placing sole blame on Germany alone felt like an oversimplified, unfair verdict to many Germans",
+            "Germany had no actual role of any kind in the events leading to WWI",
+            "The war guilt clause was universally welcomed by the entire German population with no resentment",
+            "Only Germany's actions mattered in causing the war, with no other country's role relevant",
+          ],
+          optionsMy: [
+            "MAIN Cause များစွာသည် နိုင်ငံများစွာတစ်လျှောက် စစ်ပွဲသို့ ပံ့ပိုးခဲ့ကြောင်း Term 2 က တည်ထောင်ခဲ့ပြီး Germany တစ်ခုတည်းအပေါ် တာဝန်ချရာ ဒေသ ချထားခြင်းသည် Germans အများအပြားအတွက် Oversimplified, မတရားသော Verdict တစ်ခုကဲ့သို့ ခံစားရခဲ့သည်",
+            "WWI သို့ ဦးဆောင်ခဲ့သော အဖြစ်အပျက်များတွင် Germany သည် Role မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "War Guilt Clause ကို Resentment မည်သည်မှ မပါဘဲ German လူဦးရေတစ်ခုလုံးက ကမ္ဘာလုံးဆိုင်ရာ ကြိုဆိုခဲ့ခြင်း",
+            "စစ်ပွဲ ဖြစ်ပွားခြင်းတွင် Germany ၏ လုပ်ဆောင်ချက်များသာ အရေးကြီးပြီး အခြား နိုင်ငံ၏ Role မည်သည်မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's causation trial conclusion: militarism, alliances, imperialism, and nationalism across multiple countries built the tension -- assigning sole blame to one country contradicted that more balanced historical understanding.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Causation Trial ကောက်ချက်ကို သတိရကြည့်ပါ - Militarism, Alliances, Imperialism နှင့် Nationalism နိုင်ငံများစွာတစ်လျှောက်သည် Tension ကို တည်ဆောက်ခဲ့သည် -- နိုင်ငံတစ်ခုတည်းသို့ တာဝန် ချထားခြင်းသည် ပို၍ Balanced သမိုင်းဆိုင်ရာ နားလည်မှုကို ဆန့်ကျင်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the massive reparations payments imposed on Germany contribute to long-term economic instability rather than simply being a one-time financial penalty?",
+          questionMy:
+              "Germany အပေါ် တင်စီးထားသော ကြီးမားသော Reparation ပေးချေမှုများသည် တစ်ကြိမ်တည်း ငွေကြေးဆိုင်ရာ ပြစ်ဒဏ်တစ်ခုသက်သက် မဟုတ်ဘဲ Long-Term Economic Instability ကို ပံ့ပိုးခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The reparations were structured as ongoing payments over many years, straining Germany's economy continuously and contributing to currency instability throughout the 1920s",
+            "The reparations were paid in full immediately with no lasting economic effect of any kind",
+            "Reparations had no actual connection to Germany's economic condition in the following decade",
+            "Germany's economy actually strengthened significantly as a direct result of the reparations",
+          ],
+          optionsMy: [
+            "Reparation များကို နှစ်များစွာ ဆက်လက် ပေးချေမှုများအဖြစ် ဖွဲ့စည်းထားပြီး Germany ၏ စီးပွားရေးကို ဆက်တိုက် ဖိစီးစေကာ ၁၉၂၀ ခုနှစ်များတစ်လျှောက် ငွေကြေး Instability ကို ပံ့ပိုးခဲ့သည်",
+            "Reparation များကို ချက်ချင်း အပြည့်အစုံ ပေးချေခဲ့ပြီး ကြာရှည်သော စီးပွားရေး သက်ရောက်မှု မည်သည်မှ မရှိခဲ့ခြင်း",
+            "Reparation များသည် နောက်ဆယ်စုနှစ်တွင် Germany ၏ စီးပွားရေး အခြေအနေနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခဲ့ခြင်း",
+            "Reparation ၏ တိုက်ရိုက် ရလဒ်တစ်ခုအနေဖြင့် Germany ၏ စီးပွားရေးသည် အမှန်တကယ် သိသိသာသာ ခိုင်မာလာခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ongoing, years-long financial obligations function like a long-term cause (Week 2's vocabulary) -- a continuous strain building conditions for future instability, rather than a single isolated event.",
+          ],
+          hintsMy: [
+            "ဆက်လက်၊ နှစ်များစွာ ငွေကြေးဆိုင်ရာ တာဝန်များသည် Long-Term Cause (Week 2 ၏ ဝေါဟာရ) ကဲ့သို့ လုပ်ဆောင်သည် -- သီးခြား Event တစ်ခုတည်းအစား အနာဂတ် Instability အတွက် အခြေအနေများ တည်ဆောက်နေသော ဆက်တိုက် ဖိစီးမှု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might historians argue that the Treaty of Versailles, intended to secure lasting peace, instead created long-term conditions that contributed to future conflict?",
+          questionMy:
+              "ကြာရှည် ငြိမ်းချမ်းရေး ရရှိစေရန် ရည်ရွယ်ထားသော Versailles စာချုပ်သည် အနာဂတ် Conflict တစ်ခုကို ပံ့ပိုးသော Long-Term Condition များကို ဖန်တီးခဲ့သည်ဟု သမိုင်းပညာရှင်များ ငြင်းခုံနိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The combination of harsh war guilt, crushing reparations, and territorial losses created deep resentment and economic hardship that later political movements could exploit",
+            "The Treaty of Versailles had no actual long-term consequences of any kind",
+            "The treaty guaranteed permanent, unbreakable peace with no possibility of future conflict",
+            "Historians universally agree the treaty had no connection whatsoever to later events",
+          ],
+          optionsMy: [
+            "Harsh War Guilt, ကြေမွစေသော Reparation များနှင့် Territorial ဆုံးရှုံးမှုများ ပေါင်းစပ်ခြင်းသည် နောက်ပိုင်း နိုင်ငံရေး လှုပ်ရှားမှုများ Exploit ပြုလုပ်နိုင်မည့် နက်ရှိုင်းသော Resentment နှင့် စီးပွားရေး ဒုက္ခကို ဖန်တီးခဲ့သည်",
+            "Versailles စာချုပ်သည် Long-Term Consequence မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "စာချုပ်သည် ထာဝရ၊ မကျိုးမပေါက် ငြိမ်းချမ်းရေးကို အနာဂတ် Conflict ဖြစ်နိုင်ခြေ မည်သည်မှ မပါဘဲ အာမခံခဲ့ခြင်း",
+            "စာချုပ်သည် နောက်ပိုင်း Event များနှင့် ချိတ်ဆက်မှု မည်သည်မှ လုံးဝ မရှိကြောင်း သမိုင်းပညာရှင်များ ကမ္ဘာလုံးဆိုင်ရာ သဘောတူကြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This foreshadows Week 11's lesson: economic hardship and national humiliation created exactly the conditions extremist political movements would later exploit for support.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ သင်ခန်းစာကို ကြိုတင် ညွှန်ပြသည် - စီးပွားရေး ဒုက္ခနှင့် နိုင်ငံရေးအရ အရှက်ရမှုသည် Extremist နိုင်ငံရေး လှုပ်ရှားမှုများ နောက်ပိုင်း ထောက်ခံမှုအတွက် Exploit ပြုလုပ်မည့် အခြေအနေများကို အတိအကျ ဖန်တီးခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Treaty of Versailles Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Treaty of Versailles ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w9-dm-1",
+          termEn: "War guilt clause",
+          termMy: "War Guilt Clause",
+          matchEn:
+              "The treaty provision forcing Germany to accept sole responsibility for the war",
+          matchMy:
+              "စစ်ပွဲအတွက် တာဝန် တစ်ခုတည်းကို လက်ခံရန် Germany ကို တွန်းအားပေးသော စာချုပ် Provision",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w9-dm-2",
+          termEn: "Reparations",
+          termMy: "Reparations",
+          matchEn:
+              "Financial payments a defeated country is required to make for war damages",
+          matchMy:
+              "အနိုင်ရသူ နိုင်ငံအတွက် စစ်ပွဲ ပျက်စီးမှုများအတွက် ရှုံးနိမ့်သော နိုင်ငံ ပေးချေရန် လိုအပ်သော ငွေကြေး ပေးချေမှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w9-dm-3",
+          termEn: "Territorial loss",
+          termMy: "Territorial Loss",
+          matchEn:
+              "Land a defeated country is forced to surrender as part of a peace settlement",
+          matchMy:
+              "ငြိမ်းချမ်းရေး Settlement တစ်ခု၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် ရှုံးနိမ့်သော နိုင်ငံ လက်လွှတ်ရန် တွန်းအားခံရသော မြေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w9-dm-4",
+          termEn: "National humiliation",
+          termMy: "National Humiliation",
+          matchEn:
+              "A collective sense of shame and resentment felt by a nation after a harsh defeat or settlement",
+          matchMy:
+              "Harsh Defeat (သို့) Settlement တစ်ခုပြီးနောက် နိုင်ငံတစ်ခု ခံစားရသော စုပေါင်း အရှက်ရမှုနှင့် Resentment",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Treaty Provision or Its Long-Term Consequence?",
+      titleMy:
+          "စီစစ်ကြမည် - Treaty Provision (သို့) ၎င်း၏ Long-Term Consequence",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Treaty Provision", "Long-Term Consequence"],
+        bucketsMy: ["Treaty Provision", "Long-Term Consequence"],
+        items: [
+          SortingItem(
+            id: "igchum-w9-sort-1",
+            labelEn:
+                "Germany required to make ongoing reparations payments for years",
+            labelMy:
+                "Germany သည် နှစ်များစွာ ဆက်လက် Reparation ပေးချေမှုများ ပြုလုပ်ရန် တောင်းဆိုခံရခြင်း",
+            correctBucketEn: "Treaty Provision",
+            correctBucketMy: "Treaty Provision",
+          ),
+          SortingItem(
+            id: "igchum-w9-sort-2",
+            labelEn:
+                "Deep economic instability and resentment building through the 1920s",
+            labelMy:
+                "၁၉၂၀ ခုနှစ်များတစ်လျှောက် တည်ဆောက်လာသော နက်ရှိုင်းသော စီးပွားရေး Instability နှင့် Resentment",
+            correctBucketEn: "Long-Term Consequence",
+            correctBucketMy: "Long-Term Consequence",
+          ),
+          SortingItem(
+            id: "igchum-w9-sort-3",
+            labelEn:
+                "Germany forced to accept sole responsibility for causing the war",
+            labelMy:
+                "Germany သည် စစ်ပွဲ ဖြစ်ပွားစေရသည့်အတွက် တာဝန် တစ်ခုတည်းကို လက်ခံရန် တွန်းအားခံရခြင်း",
+            correctBucketEn: "Treaty Provision",
+            correctBucketMy: "Treaty Provision",
+          ),
+          SortingItem(
+            id: "igchum-w9-sort-4",
+            labelEn:
+                "Political movements later exploiting national humiliation for support",
+            labelMy:
+                "ထောက်ခံမှုအတွက် National Humiliation ကို နောက်ပိုင်း Exploit ပြုလုပ်သော နိုင်ငံရေး လှုပ်ရှားမှုများ",
+            correctBucketEn: "Long-Term Consequence",
+            correctBucketMy: "Long-Term Consequence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Versailles Perspectives Debate Prep",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ Versailles Perspectives Debate ပြင်ဆင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Versailles Perspectives Debate Prep",
+        titleMy: "Thiha Aung ၏ Versailles Perspectives Debate ပြင်ဆင်ခြင်း",
+        passageEn:
+            "Opening Term 3, Saya Tun Tun Win asked students to prepare for a debate representing two contrasting perspectives on the Treaty of Versailles: the Allied powers, who believed the harsh terms were justified given the devastation of the war just studied in Term 2, and German citizens of the 1920s, who experienced the treaty's consequences directly. Thiha Aung was assigned the German perspective.\n\nHis research uncovered specific details behind each treaty provision. The war guilt clause forced Germany to formally accept blame for a war Term 2's causation trial had shown resulted from multiple interacting MAIN causes across many nations -- a historical inconsistency Thiha Aung planned to raise directly. The reparations, he found, were not a one-time payment but a decades-long financial obligation that continuously strained the German economy, contributing to the currency crises of the early 1920s he read about in economic records from the period.\n\nWhen Thiha Aung practiced his opening argument with a classmate representing the Allied perspective, his counterpart pointed out that the Allied powers had genuine reasons to seek strong guarantees against future German aggression, given the devastation described in Week 7's trench warfare lessons. Thiha Aung acknowledged this was a fair point, but argued that the specific severity of the terms -- placing sole moral blame on one nation for a multi-causal war, combined with reparations large enough to guarantee ongoing hardship -- went beyond reasonable security guarantees into something that risked breeding future resentment rather than genuine peace.\n\nSaya Tun Tun Win closed the session by asking students to consider a forward-looking question without yet answering it fully: if a peace settlement creates deep, lasting resentment in the defeated nation, what political consequences might that create in the years that follow? Thiha Aung's tentative answer, connecting back to his own research on ongoing economic strain, was that hardship and humiliation together could become fertile ground for a political movement promising to restore both economic stability and national pride -- a prediction the class would test directly in the following weeks.",
+        passageMy:
+            "Term 3 ကို ဖွင့်လှစ်ရန် Versailles စာချုပ်အပေါ် ကွဲပြားသော ရှုထောင့်နှစ်ခုကို ကိုယ်စားပြုသော Debate တစ်ခုအတွက် ပြင်ဆင်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည် - Term 2 တွင် ယခုပင် လေ့လာခဲ့သော စစ်ပွဲ၏ ပျက်စီးမှုကို ထောက်ရှုပါက Harsh Term များ ခိုင်လုံသည်ဟု ယုံကြည်ခဲ့ကြသော Allied Power များနှင့် စာချုပ်၏ ရလဒ်များကို တိုက်ရိုက် ကြုံတွေ့ခဲ့ရသော ၁၉၂၀ ခုနှစ်များ German နိုင်ငံသားများ။ German ရှုထောင့်ကို Thiha Aung တာဝန်ပေးအပ်ခံခဲ့ရသည်။\n\n၎င်း၏ သုတေသနသည် Treaty Provision တစ်ခုစီ၏ နောက်ကွယ်ရှိ တိကျသော အသေးစိတ်ကို ဖော်ထုတ်ခဲ့သည်။ War Guilt Clause သည် Term 2 ၏ Causation Trial က နိုင်ငံများစွာတစ်လျှောက် Interacting MAIN Cause များစွာမှ ရလဒ်ဖြစ်ကြောင်း ပြသခဲ့သော စစ်ပွဲတစ်ခုအတွက် အပြစ်ကို တရားဝင် လက်ခံရန် Germany ကို တွန်းအားပေးခဲ့သည် -- Thiha Aung တိုက်ရိုက် ထုတ်ဆောင်ရန် Plan ပြုလုပ်ထားသော သမိုင်းဆိုင်ရာ Inconsistency တစ်ခု ဖြစ်သည်။ Reparation များသည် တစ်ကြိမ်တည်း ပေးချေမှုတစ်ခုမဟုတ်ဘဲ German စီးပွားရေးကို ဆက်တိုက် ဖိစီးစေသော ဆယ်စုနှစ်များစွာ ကာလကြာသော ငွေကြေးဆိုင်ရာ တာဝန်တစ်ခုဖြစ်ကြောင်း ၎င်း တွေ့ရှိခဲ့ပြီး ကာလ၏ စီးပွားရေး မှတ်တမ်းများမှ ၎င်း ဖတ်ရှုခဲ့သော ၁၉၂၀ ခုနှစ်များ အစောပိုင်း Currency Crisis များကို ပံ့ပိုးခဲ့သည်။\n\nAllied ရှုထောင့်ကို ကိုယ်စားပြုသော အတန်းဖော်တစ်ဦးနှင့် ၎င်း၏ Opening Argument ကို Thiha Aung Practice ပြုလုပ်ချိန် ၎င်း၏ Counterpart က Week 7 ၏ Trench Warfare သင်ခန်းစာများ ဖော်ပြခဲ့သော ပျက်စီးမှုကို ထောက်ရှုပါက အနာဂတ် German Aggression ကို ခိုင်မာသော အာမခံချက်များ ရှာဖွေရန် Allied Power များတွင် စစ်မှန်သော အကြောင်းရင်းများ ရှိသည်ဟု ညွှန်ပြခဲ့သည်။ ဤသည် တရားမျှတသော အချက်တစ်ခု ဖြစ်ကြောင်း Thiha Aung အသိအမှတ်ပြုခဲ့သော်လည်း Term အရေးကြီးမှု တိကျသော Severity -- Multi-Causal စစ်ပွဲတစ်ခုအတွက် နိုင်ငံတစ်ခုတည်းအပေါ် ကိုယ်ကျင့်တရားဆိုင်ရာ အပြစ် တစ်ခုတည်း ချထားခြင်း၊ ဆက်လက် ဒုက္ခကို အာမခံနိုင်လောက်အောင် ကြီးမားသော Reparation များနှင့် ပေါင်းစပ်ခြင်း -- သည် စစ်မှန်သော Security Guarantee များထက် ကျော်လွန်ကာ စစ်မှန်သော ငြိမ်းချမ်းရေးမဟုတ်ဘဲ အနာဂတ် Resentment ကို မွေးစားနိုင်ခြေ ရှိသော အရာတစ်ခုသို့ ရောက်ရှိကြောင်း ငြင်းခုံခဲ့သည်။\n\nအပြည့်အစုံ မဖြေဆိုမီ Forward-Looking မေးခွန်းတစ်ခုကို ထည့်သွင်းစဉ်းစားရန် ကျောင်းသားများကို တောင်းဆိုကာ Saya Tun Tun Win Session ကို ပိတ်ခဲ့သည် - ငြိမ်းချမ်းရေး Settlement တစ်ခုသည် ရှုံးနိမ့်သော နိုင်ငံတွင် နက်ရှိုင်း၊ ကြာရှည်သော Resentment ဖန်တီးပါက ဆက်လာမည့် နှစ်များတွင် မည်သည့် နိုင်ငံရေး ရလဒ်များ ဖန်တီးနိုင်သနည်း။ ဆက်လက် စီးပွားရေး ဖိစီးမှုအကြောင်း ၎င်းကိုယ်ပိုင် သုတေသနသို့ ပြန်ချိတ်ဆက်သော Thiha Aung ၏ Tentative အဖြေမှာ ဒုက္ခနှင့် အရှက်ရမှု အတူတကွသည် စီးပွားရေး တည်ငြိမ်မှုနှင့် နိုင်ငံရေးဆိုင်ရာ ဂုဏ်ယူမှု နှစ်ခုစလုံးကို ပြန်လည် ထူထောင်ရန် ကတိပြုသော နိုင်ငံရေး လှုပ်ရှားမှုတစ်ခုအတွက် မျိုးဆက် မြေကောင်း ဖြစ်နိုင်ကြောင်း ဖြစ်သည် -- Class က ဆက်လက် အပတ်များတွင် တိုက်ရိုက် Test ပြုလုပ်မည့် ခန့်မှန်းချက်တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thiha Aung consider the war guilt clause historically inconsistent?",
+            questionMy:
+                "War Guilt Clause ကို Thiha Aung သမိုင်းဆိုင်ရာ Inconsistent ဟု ယူဆခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's causation trial had shown multiple MAIN causes across many nations, not Germany alone, caused the war",
+              "He believed Germany had absolutely no role in the war whatsoever",
+              "The clause had no actual connection to Term 2's content",
+              "He agreed completely that Germany was solely responsible",
+            ],
+            optionsMy: [
+              "Term 2 ၏ Causation Trial သည် Germany တစ်ခုတည်းမဟုတ်ဘဲ နိုင်ငံများစွာတစ်လျှောက် MAIN Cause များစွာက စစ်ပွဲကို ဖြစ်စေခဲ့ကြောင်း ပြသခဲ့ခြင်း",
+              "Germany သည် စစ်ပွဲတွင် Role မည်သည်မှ လုံးဝ မရှိဟု ၎င်း ယုံကြည်ခဲ့ခြင်း",
+              "Clause သည် Term 2 ၏ Content နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Germany တစ်ခုတည်းသာ တာဝန်ရှိသည်ဟု ၎င်း လုံးဝ သဘောတူခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's connection to Term 2."],
+            hintsMy: [
+              "Term 2 နှင့် ချိတ်ဆက်ချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what fair point did Thiha Aung's classmate raise?",
+            questionMy:
+                "Thiha Aung ၏ အတန်းဖော် ထုတ်ဆောင်ခဲ့သော တရားမျှတသော အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Allied powers had genuine reasons to seek guarantees against future German aggression",
+              "Germany had suffered no consequences from the treaty at all",
+              "The reparations were actually beneficial to Germany's economy",
+              "There was no fair point raised of any kind",
+            ],
+            optionsMy: [
+              "Allied Power များတွင် အနာဂတ် German Aggression ကို အာမခံချက်များ ရှာဖွေရန် စစ်မှန်သော အကြောင်းရင်းများ ရှိခဲ့ခြင်း",
+              "Germany သည် စာချုပ်မှ ရလဒ် မည်သည်မှ ခံစားရခြင်း လုံးဝ မရှိခဲ့ခြင်း",
+              "Reparation များသည် Germany ၏ စီးပွားရေးအတွက် အမှန်တကယ် အကျိုးရှိခဲ့ခြင်း",
+              "ထုတ်ဆောင်ခဲ့သော တရားမျှတသော အချက် မည်သည်မှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's dialogue."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Dialogue ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what tentative prediction did Thiha Aung offer about future political consequences?",
+            questionMy:
+                "အနာဂတ် နိုင်ငံရေး ရလဒ်များအကြောင်း Thiha Aung ပေးအပ်ခဲ့သော Tentative ခန့်မှန်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Hardship and humiliation could become fertile ground for a movement promising to restore stability and pride",
+              "He predicted the treaty would have no political consequences whatsoever",
+              "He refused to make any prediction of any kind",
+              "He predicted Germany would remain economically strong indefinitely",
+            ],
+            optionsMy: [
+              "ဒုက္ခနှင့် အရှက်ရမှုသည် တည်ငြိမ်မှုနှင့် ဂုဏ်ယူမှုကို ပြန်လည် ထူထောင်ရန် ကတိပြုသော လှုပ်ရှားမှုတစ်ခုအတွက် မျိုးဆက် မြေကောင်း ဖြစ်နိုင်ခြင်း",
+              "စာချုပ်သည် နိုင်ငံရေးဆိုင်ရာ ရလဒ် မည်သည်မှ လုံးဝ ရှိမည် မဟုတ်ကြောင်း ခန့်မှန်းခဲ့ခြင်း",
+              "ခန့်မှန်းချက် မည်သည်မှ ပြုလုပ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Germany သည် စီးပွားရေးအရ အကန့်အသတ်မရှိ ခိုင်မာနေဦးမည်ဟု ခန့်မှန်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's tentative answer."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Tentative အဖြေကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w9-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Treaty of Versailles and Its Consequences",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Versailles စာချုပ်နှင့် ၎င်း၏ ရလဒ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The war guilt clause required Germany to...",
+          questionMy: "War Guilt Clause က Germany ကို ...တောင်းဆိုခဲ့သည်",
+          optionsEn: [
+            "Formally accept sole responsibility for causing the war",
+            "Receive an apology from every other country",
+            "Avoid any reparations payments entirely",
+            "Gain new territory rather than lose any",
+          ],
+          optionsMy: [
+            "စစ်ပွဲ ဖြစ်ပွားစေရသည့်အတွက် တာဝန် တစ်ခုတည်းကို တရားဝင် လက်ခံရန်",
+            "အခြား နိုင်ငံတိုင်းထံမှ တောင်းပန်ချက် ရရှိရန်",
+            "Reparation ပေးချေမှုများကို လုံးဝ ရှောင်ကြဉ်ရန်",
+            "မည်သည်ကိုမျှ မဆုံးရှုံးဘဲ နယ်မြေအသစ် ရရှိရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reparations contributed to long-term instability because...",
+          questionMy:
+              "Long-Term Instability ကို Reparation ပံ့ပိုးခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They were ongoing payments straining the economy over years",
+            "They were paid once with no further economic effect",
+            "They had no actual connection to Germany's economy",
+            "They immediately strengthened the German currency",
+          ],
+          optionsMy: [
+            "နှစ်များစွာ စီးပွားရေးကို ဖိစီးစေသော ဆက်လက် ပေးချေမှုများ ဖြစ်ခဲ့ခြင်း",
+            "တစ်ကြိမ်တည်း ပေးချေခဲ့ပြီး နောက်ထပ် စီးပွားရေး သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "Germany ၏ စီးပွားရေးနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "German Currency ကို ချက်ချင်း ခိုင်မာစေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Historians often argue the treaty's harsh terms...",
+          questionMy:
+              "စာချုပ်၏ Harsh Term များအကြောင်း သမိုင်းပညာရှင်များ မကြာခဏ ငြင်းခုံသည်မှာ...",
+          optionsEn: [
+            "Created resentment that later political movements could exploit",
+            "Guaranteed permanent peace with no future risk",
+            "Had no actual connection to any later historical events",
+            "Were universally welcomed by all Germans with no resentment",
+          ],
+          optionsMy: [
+            "နောက်ပိုင်း နိုင်ငံရေး လှုပ်ရှားမှုများ Exploit ပြုလုပ်နိုင်မည့် Resentment ဖန်တီးခဲ့ခြင်း",
+            "အနာဂတ် အန္တရာယ် မည်သည်မှ မပါဘဲ ထာဝရ ငြိမ်းချမ်းရေးကို အာမခံခဲ့ခြင်း",
+            "နောက်ပိုင်း သမိုင်းဆိုင်ရာ Event မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Resentment မည်သည်မှ မပါဘဲ German များအားလုံးက ကမ္ဘာလုံးဆိုင်ရာ ကြိုဆိုခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 3, Week 10: "The Great Depression's
+// Global Impact"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek10 = CourseWeekDef(
+  id: "course-igcse-hum-w10",
+  weekNumber: 10,
+  titleEn: "The Great Depression's Global Impact",
+  titleMy: "Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ သက်ရောက်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w10-d1",
+      dayNumber: 1,
+      titleEn: "From Wall Street Crash to Global Depression",
+      titleMy: "Wall Street Crash မှ ကမ္ဘာလုံးဆိုင်ရာ Depression သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the 1929 Wall Street stock market crash in the United States spread into a global economic depression rather than remaining a localized American problem?",
+          questionMy:
+              "အမေရိကန်ရှိ ၁၉၂၉ Wall Street Stock Market Crash သည် Localized American ပြဿနာတစ်ခုအဖြစ် ကျန်ရစ်မည့်အစား ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး Depression တစ်ခုအဖြစ် ပျံ့နှံ့သွားခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The global economy was deeply interconnected through international trade and loans, so American banks calling in loans and reduced American demand for imports hurt economies worldwide",
+            "The crash had no actual connection to any economy outside the United States",
+            "Every country's economy in this period operated in complete isolation from every other",
+            "The Great Depression only ever affected the United States and no other country",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ့ စီးပွားရေးသည် International ကုန်သွယ်ရေးနှင့် ချေးငွေများမှတစ်ဆင့် နက်ရှိုင်းစွာ ချိတ်ဆက်နေခဲ့ပြီး American Bank များ ချေးငွေများ ပြန်ခေါ်ခြင်းနှင့် Import များအတွက် American Demand လျော့ကျခြင်းသည် ကမ္ဘာတစ်ဝှမ်းရှိ စီးပွားရေးများကို ထိခိုက်စေခဲ့သည်",
+            "Crash သည် United States ပြင်ပရှိ စီးပွားရေး မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "ဤကာလအတွင်း နိုင်ငံတိုင်း၏ စီးပွားရေးသည် အခြားတိုင်းနှင့် Complete Isolation ၌ လည်ပတ်ခဲ့ခြင်း",
+            "Great Depression သည် United States ကိုသာ ဘယ်တော့မှ သက်ရောက်ပြီး အခြား နိုင်ငံ မည်သည်မှ မသက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same interconnection idea as an alliance system, but economically: countries linked by trade and finance experience shocks together, not in isolation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Alliance System တူတူ Interconnection Idea ကို စီးပွားရေးအရ အသုံးချသည် - ကုန်သွယ်ရေးနှင့် ဘဏ္ဍာရေးဖြင့် ချိတ်ဆက်ထားသော နိုင်ငံများသည် Isolation တွင်မဟုတ်ဘဲ Shock များကို အတူတကွ ကြုံတွေ့ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did mass unemployment during the Great Depression create fertile political conditions for extremist movements in several countries?",
+          questionMy:
+              "Great Depression အတွင်း Mass Unemployment သည် နိုင်ငံများစွာတွင် Extremist လှုပ်ရှားမှုများအတွက် နိုင်ငံရေးအရ Fertile Condition များကို ဖန်တီးခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Widespread economic hardship and hopelessness made desperate citizens more open to political movements promising radical solutions and national renewal",
+            "Unemployment had no actual connection to political developments in this period",
+            "Economic hardship always guaranteed continued support for existing democratic governments",
+            "Mass unemployment only ever affected countries with no political consequences whatsoever",
+          ],
+          optionsMy: [
+            "ကျယ်ပြန့်သော စီးပွားရေး ဒုက္ခနှင့် မျှော်လင့်ချက် ကုန်ဆုံးမှုသည် Radical ဖြေရှင်းချက်များနှင့် National Renewal ကတိပြုသော နိုင်ငံရေး လှုပ်ရှားမှုများသို့ စိတ်ပျက်နေသော နိုင်ငံသားများကို ပို၍ ဖွင့်လင်းစေခဲ့သည်",
+            "Unemployment သည် ဤကာလအတွင်း နိုင်ငံရေး ဖွံ့ဖြိုးတိုးတက်မှုများနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "စီးပွားရေး ဒုက္ခသည် ရှိပြီးသား Democratic အစိုးရများအတွက် ဆက်လက် ထောက်ခံမှုကို အမြဲ အာမခံခဲ့ခြင်း",
+            "Mass Unemployment သည် နိုင်ငံရေးဆိုင်ရာ ရလဒ် မည်သည်မှ မပါဘဲ နိုင်ငံများကို ဘယ်တော့မှ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects to Week 9's forward-looking prediction -- economic hardship and national humiliation together create exactly the conditions extremist movements can exploit for support.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ Forward-Looking ခန့်မှန်းချက်ကို တိုက်ရိုက် ချိတ်ဆက်သည် -- စီးပွားရေး ဒုက္ခနှင့် National Humiliation အတူတကွသည် Extremist လှုပ်ရှားမှုများ ထောက်ခံမှုအတွက် Exploit ပြုလုပ်နိုင်မည့် အခြေအနေများကို အတိအကျ ဖန်တီးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Germany's economy prove especially vulnerable to the Great Depression compared to some other countries?",
+          questionMy:
+              "Germany ၏ စီးပွားရေးသည် အခြားနိုင်ငံအချို့နှင့် နှိုင်းယှဉ်ပါက Great Depression ကို အထူးသဖြင့် Vulnerable ဖြစ်ကြောင်း သက်သေပြခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Germany's economy was already weakened by years of reparations payments and currency instability from the 1920s before the Depression hit, leaving it with little resilience",
+            "Germany's economy had no actual connection to the reparations discussed in Week 9",
+            "Germany's economy was completely unaffected by the Great Depression",
+            "Germany entered the Depression as the strongest, most stable economy in Europe",
+          ],
+          optionsMy: [
+            "Depression ထိခိုက်မီ Germany ၏ စီးပွားရေးသည် ၁၉၂၀ ခုနှစ်များ Reparation ပေးချေမှုများနှင့် Currency Instability နှစ်များစွာက ရှိပြီးသား အားနည်းစေခဲ့ပြီး Resilience အနည်းငယ်သာ ကျန်ရစ်ခဲ့သည်",
+            "Germany ၏ စီးပွားရေးသည် Week 9 ဆွေးနွေးခဲ့သော Reparation များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Germany ၏ စီးပွားရေးသည် Great Depression ကို လုံးဝ မသက်ရောက်ခဲ့ခြင်း",
+            "Germany သည် ဥရောပတွင် အခိုင်မာဆုံး၊ အတည်ငြိမ်ဆုံး စီးပွားရေးအဖြစ် Depression သို့ ဝင်ရောက်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 9's reparations lesson directly to Week 10's topic: an economy already weakened by ongoing financial strain has far less cushion to absorb a new global shock.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ Reparation သင်ခန်းစာကို Week 10 ခေါင်းစဉ်သို့ တိုက်ရိုက် ချိတ်ဆက်သည် - ဆက်တိုက် ငွေကြေးဆိုင်ရာ ဖိစီးမှုက ရှိပြီးသား အားနည်းသော စီးပွားရေးတစ်ခုတွင် Global Shock အသစ်တစ်ခုကို ခံစားရန် Cushion အလွန်နည်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Great Depression Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Great Depression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w10-dm-1",
+          termEn: "Stock market crash",
+          termMy: "Stock Market Crash",
+          matchEn:
+              "A sudden, severe drop in stock prices, wiping out investor wealth rapidly",
+          matchMy:
+              "Investor Wealth ကို လျင်မြန်စွာ ဖျက်ဆီးစေသော Stock ဈေးနှုန်းများ၏ ရုတ်တရက်၊ ပြင်းထန်သော ကျဆင်းမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w10-dm-2",
+          termEn: "Global interconnection",
+          termMy: "Global Interconnection",
+          matchEn:
+              "Economic linkages between countries through trade and lending",
+          matchMy:
+              "ကုန်သွယ်ရေးနှင့် ချေးငွေများမှတစ်ဆင့် နိုင်ငံများကြား စီးပွားရေးဆိုင်ရာ ဆက်စပ်မှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w10-dm-3",
+          termEn: "Mass unemployment",
+          termMy: "Mass Unemployment",
+          matchEn:
+              "A large-scale loss of jobs affecting a significant share of the workforce",
+          matchMy:
+              "Workforce ၏ သိသာသော ဝေစုကို သက်ရောက်စေသော Large-Scale အလုပ် ဆုံးရှုံးမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w10-dm-4",
+          termEn: "Economic resilience",
+          termMy: "Economic Resilience",
+          matchEn: "An economy's ability to absorb and recover from a shock",
+          matchMy:
+              "Shock တစ်ခုကို စုတ်ယူ၍ ပြန်လည်ကောင်းမွန်နိုင်သော စီးပွားရေးတစ်ခု၏ စွမ်းရည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause or Effect of the Great Depression?",
+      titleMy: "စီစစ်ကြမည် - Great Depression ၏ Cause (သို့) Effect",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Cause of the Depression Spreading",
+          "Effect of the Depression",
+        ],
+        bucketsMy: ["Depression ပျံ့နှံ့ခြင်း၏ Cause", "Depression ၏ Effect"],
+        items: [
+          SortingItem(
+            id: "igchum-w10-sort-1",
+            labelEn: "American banks calling in international loans",
+            labelMy:
+                "International ချေးငွေများကို ပြန်ခေါ်နေသော American Bank များ",
+            correctBucketEn: "Cause of the Depression Spreading",
+            correctBucketMy: "Depression ပျံ့နှံ့ခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w10-sort-2",
+            labelEn:
+                "Extremist political movements gaining support among unemployed citizens",
+            labelMy:
+                "အလုပ်လက်မဲ့ နိုင်ငံသားများကြား ထောက်ခံမှု ရရှိနေသော Extremist နိုင်ငံရေး လှုပ်ရှားမှုများ",
+            correctBucketEn: "Effect of the Depression",
+            correctBucketMy: "Depression ၏ Effect",
+          ),
+          SortingItem(
+            id: "igchum-w10-sort-3",
+            labelEn:
+                "Reduced American demand for imported goods from other countries",
+            labelMy:
+                "အခြားနိုင်ငံများမှ Imported ကုန်ပစ္စည်းများအတွက် လျော့ကျသော American Demand",
+            correctBucketEn: "Cause of the Depression Spreading",
+            correctBucketMy: "Depression ပျံ့နှံ့ခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w10-sort-4",
+            labelEn:
+                "Widespread poverty and hopelessness among ordinary families",
+            labelMy:
+                "သာမန် မိသားစုများကြား ကျယ်ပြန့်သော ဆင်းရဲမွဲတေမှုနှင့် မျှော်လင့်ချက် ကုန်ဆုံးမှု",
+            correctBucketEn: "Effect of the Depression",
+            correctBucketMy: "Depression ၏ Effect",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Two-Country Depression Comparison",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ နိုင်ငံနှစ်ခု Depression နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Two-Country Depression Comparison",
+        titleMy: "Thiha Aung ၏ နိုင်ငံနှစ်ခု Depression နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "For Week 10, Saya Tun Tun Win asked students to compare how two different countries experienced the Great Depression, testing whether they understood both the shared global mechanism and the specific local factors that made some countries suffer more than others. Thiha Aung compared Germany with a country that had entered the Depression on stronger economic footing.\n\nHis research confirmed the global interconnection mechanism directly: American banks, needing to cover their own domestic losses after the 1929 crash, called in loans that had been propping up Germany's fragile post-war economy, while collapsing American demand for imported goods hurt export-dependent economies worldwide almost simultaneously. This confirmed Monday's lesson that no major economy could remain isolated from the shock.\n\nBut his comparison also revealed why the impact varied so dramatically between countries. The country with stronger pre-Depression finances, having avoided the reparations burden and currency crises Germany experienced in the 1920s, had more resilience to absorb the shock -- unemployment rose but the political system remained relatively stable. Germany, already weakened by exactly the ongoing financial strain described in Week 9, had far less capacity to withstand the same global shock, and unemployment there reached catastrophic levels.\n\nThiha Aung's conclusion connected all three weeks of the term so far: the same global economic mechanism (Monday's lesson) affected every country, but Germany's specific vulnerability (Wednesday's comparative lesson) traced directly back to the treaty consequences studied in Week 9. Saya Tun Tun Win praised this as exactly the kind of comparative reasoning historians use -- explaining both the shared cause and the specific local conditions that produced different outcomes from the same global event, setting up the class perfectly to examine what political consequences this severe German crisis would produce.",
+        passageMy:
+            "Week 10 အတွက် နိုင်ငံနှစ်ခုသည် Great Depression ကို မည်သို့ ကြုံတွေ့ခဲ့ကြောင်း နှိုင်းယှဉ်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး မျှဝေထားသော ကမ္ဘာလုံးဆိုင်ရာ Mechanism နှင့် အချို့ နိုင်ငံများကို အခြားများထက် ပို၍ ဒုက္ခခံစားစေခဲ့သော တိကျသော Local Factor များ နှစ်ခုစလုံး နားလည်သည် ရှိမရှိ Test ပြုလုပ်ခဲ့သည်။ Depression သို့ ပို၍ ခိုင်မာသော စီးပွားရေး Footing ဖြင့် ဝင်ရောက်ခဲ့သော နိုင်ငံတစ်ခုနှင့် Germany ကို Thiha Aung နှိုင်းယှဉ်ခဲ့သည်။\n\n၎င်း၏ သုတေသနသည် Global Interconnection Mechanism ကို တိုက်ရိုက် အတည်ပြုခဲ့သည် - ၁၉၂၉ Crash ပြီးနောက် ၎င်းတို့ကိုယ်ပိုင် Domestic ဆုံးရှုံးမှုများ Cover ပြုလုပ်ရန် လိုအပ်သော American Bank များသည် Germany ၏ Fragile Post-War စီးပွားရေးကို Propping Up ပြုလုပ်ခဲ့သော ချေးငွေများကို ပြန်ခေါ်ခဲ့ပြီး Imported ကုန်ပစ္စည်းများအတွက် American Demand ကျဆင်းသွားခြင်းသည် Export-Dependent စီးပွားရေးများကို ကမ္ဘာတစ်ဝှမ်း တစ်ပြိုင်နက် နီးပါး ထိခိုက်စေခဲ့သည်။ Major စီးပွားရေး မည်သည်ကမျှ Shock မှ Isolation ၌ ဆက်လက် ရှိနေနိုင်ခြင်း မရှိကြောင်း တနင်္လာနေ့ သင်ခန်းစာကို ဤသည် အတည်ပြုခဲ့သည်။\n\nသို့သော် ၎င်း၏ နှိုင်းယှဉ်ချက်သည် သက်ရောက်မှု နိုင်ငံများကြား ဘာကြောင့် Dramatic ကွဲပြားခဲ့သည်ကိုလည်း ဖော်ထုတ်ခဲ့သည်။ Depression မတိုင်မီ ဘဏ္ဍာရေးအရ ပို၍ ခိုင်မာသော နိုင်ငံသည် ၁၉၂၀ ခုနှစ်များ Germany ကြုံတွေ့ခဲ့ရသော Reparation ဝန်ထုပ်ဝန်ပိုးနှင့် Currency Crisis များကို ရှောင်ရှားနိုင်ခဲ့ပြီး Shock ကို စုတ်ယူရန် Resilience ပို၍ ရှိခဲ့သည် -- Unemployment တက်လာသော်လည်း နိုင်ငံရေးစနစ် အတော်အသင့် တည်ငြိမ်နေခဲ့သည်။ Week 9 ဖော်ပြခဲ့သော ဆက်တိုက် ငွေကြေးဆိုင်ရာ ဖိစီးမှုက ယခင်ကပင် Germany ကို အားနည်းစေခဲ့ပြီး ကမ္ဘာလုံးဆိုင်ရာ Shock တူတူကို ခံနိုင်ရည် Capacity ပို၍ နည်းခဲ့ကာ ထိုနေရာရှိ Unemployment သည် ကပျက်စီးဆုံးရှုံးသော Level များသို့ ရောက်ရှိခဲ့သည်။\n\nThiha Aung ၏ ကောက်ချက်သည် Term ၏ လက်ရှိအထိ Week သုံးခုကို ချိတ်ဆက်ခဲ့သည် - ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး Mechanism တူတူ (တနင်္လာနေ့ သင်ခန်းစာ) သည် နိုင်ငံတိုင်းကို သက်ရောက်ခဲ့သော်လည်း Germany ၏ တိကျသော Vulnerability (ဗုဒ္ဓဟူးနေ့ Comparative သင်ခန်းစာ) သည် Week 9 တွင် လေ့လာခဲ့သော စာချုပ် ရလဒ်များသို့ တိုက်ရိုက် ပြန်လှမ်းသည်။ ကမ္ဘာလုံးဆိုင်ရာ Event တူတူမှ ကွဲပြားသော ရလဒ်များ ထုတ်လုပ်ပေးခဲ့သော မျှဝေထားသော Cause နှင့် တိကျသော Local Condition နှစ်ခုစလုံးကို ရှင်းပြသော သမိုင်းပညာရှင်များ အသုံးပြုသော Comparative Reasoning အမျိုးအစား အတိအကျအဖြစ် Saya Tun Tun Win ဤသည်ကို ချီးမွမ်းခဲ့ပြီး ဤ ပြင်းထန်သော German Crisis သည် နိုင်ငံရေးဆိုင်ရာ ရလဒ် မည်သည်ကို ထုတ်လုပ်ပေးမည်ဆိုသည်ကို စစ်ဆေးရန် Class ကို ပြီးပြည့်စုံစွာ Setup ပြုလုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did the crash spread globally?",
+            questionMy:
+                "Crash သည် ကမ္ဘာလုံးဆိုင်ရာ မည်သို့ ပျံ့နှံ့ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "American banks called in international loans and demand for imports collapsed",
+              "The crash remained completely contained within the United States",
+              "No countries had any economic connection to the United States",
+              "The crash had no effect on any country's economy whatsoever",
+            ],
+            optionsMy: [
+              "American Bank များသည် International ချေးငွေများကို ပြန်ခေါ်ကာ Import များအတွက် Demand ကျဆင်းသွားခဲ့ခြင်း",
+              "Crash သည် United States အတွင်း လုံးဝ ကန့်သတ်ထားခဲ့ခြင်း",
+              "နိုင်ငံ မည်သည်မှ United States နှင့် စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု မည်သည်မှ မရှိခဲ့ခြင်း",
+              "Crash သည် နိုင်ငံ မည်သည်၏ စီးပွားရေးကိုမျှ သက်ရောက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's mechanism explanation."],
+            hintsMy: [
+              "Mechanism ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was Germany less resilient than the comparison country?",
+            questionMy:
+                "Comparison နိုင်ငံထက် Germany ပို၍ Resilience နည်းခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Germany was already weakened by ongoing reparations and currency crises from the 1920s",
+              "Germany had no economic connection to the treaty consequences of Week 9",
+              "The comparison country was actually weaker than Germany",
+              "Both countries experienced identical levels of unemployment",
+            ],
+            optionsMy: [
+              "၁၉၂၀ ခုနှစ်များ ဆက်လက် Reparation များနှင့် Currency Crisis များက Germany ကို ယခင်ကပင် အားနည်းစေခဲ့ခြင်း",
+              "Germany သည် Week 9 ၏ Treaty Consequence များနှင့် စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Comparison နိုင်ငံသည် Germany ထက် အမှန်တကယ် အားနည်းခဲ့ခြင်း",
+              "နိုင်ငံနှစ်ခုစလုံးသည် Unemployment Level တူတူ ကြုံတွေ့ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's comparison."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Comparison ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win praise about Thiha Aung's conclusion?",
+            questionMy:
+                "Thiha Aung ၏ ကောက်ချက်အကြောင်း Saya Tun Tun Win ချီးမွမ်းခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It explained both the shared global cause and the specific local conditions producing different outcomes",
+              "It ignored every earlier week's content entirely",
+              "It claimed both countries experienced identical outcomes with no differences",
+              "It was the shortest conclusion submitted in the class",
+            ],
+            optionsMy: [
+              "မျှဝေထားသော ကမ္ဘာလုံးဆိုင်ရာ Cause နှင့် ကွဲပြားသော ရလဒ်များ ထုတ်လုပ်ပေးသော တိကျသော Local Condition နှစ်ခုစလုံးကို ရှင်းပြခဲ့ခြင်း",
+              "ယခင် Week တိုင်း၏ Content ကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "နိုင်ငံနှစ်ခုစလုံးသည် ခြားနားချက် မရှိဘဲ ရလဒ်တူတူကို ကြုံတွေ့ခဲ့ကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး ကောက်ချက် ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's praise."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ချီးမွမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w10-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Great Depression's Global Impact",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ သက်ရောက်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Depression spread globally because...",
+          questionMy:
+              "Depression ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့ခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Economies were interconnected through trade and loans",
+            "Every country's economy operated in complete isolation",
+            "The crash had no effect outside the United States",
+            "Global trade did not exist in this period",
+          ],
+          optionsMy: [
+            "စီးပွားရေးများသည် ကုန်သွယ်ရေးနှင့် ချေးငွေများမှတစ်ဆင့် ချိတ်ဆက်နေခြင်း",
+            "နိုင်ငံတိုင်း၏ စီးပွားရေးသည် Complete Isolation ၌ လည်ပတ်ခြင်း",
+            "United States ပြင်ပတွင် Crash ၏ သက်ရောက်မှု မရှိခြင်း",
+            "ဤကာလအတွင်း Global ကုန်သွယ်ရေး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Mass unemployment created political risk because...",
+          questionMy:
+              "Mass Unemployment သည် နိုင်ငံရေးဆိုင်ရာ အန္တရာယ်ကို ဖန်တီးခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Hardship made citizens more open to extremist political solutions",
+            "Unemployed citizens always support existing governments strongly",
+            "Economic hardship never affects political attitudes",
+            "Unemployment had no political consequences of any kind",
+          ],
+          optionsMy: [
+            "ဒုက္ခက Extremist နိုင်ငံရေး ဖြေရှင်းချက်များသို့ နိုင်ငံသားများကို ပို၍ ဖွင့်လင်းစေခြင်း",
+            "အလုပ်လက်မဲ့ နိုင်ငံသားများသည် ရှိပြီးသား အစိုးရများကို ခိုင်မာစွာ အမြဲ ထောက်ခံခြင်း",
+            "စီးပွားရေး ဒုက္ခသည် နိုင်ငံရေးဆိုင်ရာ သဘောထားများကို ဘယ်တော့မှ မသက်ရောက်ခြင်း",
+            "Unemployment သည် နိုင်ငံရေးဆိုင်ရာ ရလဒ် မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Germany was especially vulnerable to the Depression because...",
+          questionMy:
+              "Depression ကို Germany အထူးသဖြင့် Vulnerable ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Its economy was already weakened by ongoing reparations and currency crises",
+            "Its economy was the strongest in the world before the Depression",
+            "Reparations had no actual effect on its economy",
+            "It had no economic connection to the United States",
+          ],
+          optionsMy: [
+            "ဆက်လက် Reparation များနှင့် Currency Crisis များက ၎င်း၏ စီးပွားရေးကို ယခင်ကပင် အားနည်းစေခဲ့ခြင်း",
+            "Depression မတိုင်မီ ၎င်း၏ စီးပွားရေးသည် ကမ္ဘာပေါ်တွင် အခိုင်မာဆုံး ဖြစ်ခဲ့ခြင်း",
+            "Reparation များသည် ၎င်း၏ စီးပွားရေးအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "United States နှင့် စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု မည်သည်မှ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 3, Week 11: "The Rise of Hitler and Nazi
+// Germany"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek11 = CourseWeekDef(
+  id: "course-igcse-hum-w11",
+  weekNumber: 11,
+  titleEn: "The Rise of Hitler and Nazi Germany",
+  titleMy: "Hitler နှင့် Nazi Germany တက်လာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w11-d1",
+      dayNumber: 1,
+      titleEn: "How the Nazi Party Exploited Crisis to Gain Power",
+      titleMy: "Nazi Party သည် အာဏာ ရရှိရန် Crisis ကို Exploit ပြုလုပ်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the Nazi Party's promises of economic recovery and national restoration gain increasing support specifically during the Depression years?",
+          questionMy:
+              "စီးပွားရေး ပြန်လည်ကောင်းမွန်ခြင်းနှင့် နိုင်ငံရေးဆိုင်ရာ ပြန်လည် ထူထောင်ခြင်း Nazi Party ၏ ကတိကဝတ်များသည် Depression နှစ်များအတွင်း အထူးသဖြင့် ထောက်ခံမှု တိုးလာစေရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Nazi message directly addressed the specific economic hardship and national humiliation many Germans were experiencing, offering simple explanations and promised solutions during a period of desperation",
+            "The Nazi Party had no actual connection to the economic conditions of the period",
+            "Germans were universally prosperous and content during the Depression years",
+            "The timing of the Nazi Party's rise had no relationship to economic conditions whatsoever",
+          ],
+          optionsMy: [
+            "Nazi Message သည် Germans အများအပြား ကြုံတွေ့နေခဲ့ရသော တိကျသော စီးပွားရေး ဒုက္ခနှင့် National Humiliation ကို တိုက်ရိုက် ကိုင်တွယ်ခဲ့ပြီး စိတ်ပျက်နေသော ကာလတစ်ခုအတွင်း ရိုးရှင်းသော ရှင်းလင်းချက်များနှင့် ကတိပြုထားသော ဖြေရှင်းချက်များ ပေးအပ်ခဲ့သည်",
+            "Nazi Party သည် ကာလ၏ စီးပွားရေး အခြေအနေများနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Depression နှစ်များအတွင်း Germans များသည် ကမ္ဘာလုံးဆိုင်ရာ ချမ်းသာ၊ စိတ်ကျေနပ်နေခဲ့ခြင်း",
+            "Nazi Party တက်လာမှု၏ Timing သည် စီးပွားရေး အခြေအနေများနှင့် ဆက်စပ်မှု မည်သည်မှ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly tests Week 9's tentative prediction and Week 10's mass-unemployment lesson: the same hardship and humiliation created exactly the political opening extremist movements could exploit.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ Tentative ခန့်မှန်းချက်နှင့် Week 10 ၏ Mass-Unemployment သင်ခန်းစာကို တိုက်ရိုက် Test ပြုလုပ်သည် - ဒုက္ခနှင့် Humiliation တူတူသည် Extremist လှုပ်ရှားမှုများ Exploit ပြုလုပ်နိုင်မည့် နိုင်ငံရေးအရ ဖွင့်လင်းမှုကို အတိအကျ ဖန်တီးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the process by which Hitler became Chancellor through largely legal, constitutional means matter for understanding how democracies can be vulnerable?",
+          questionMy:
+              "Hitler သည် Chancellor ဖြစ်လာသော Process သည် အများအားဖြင့် တရားဝင်၊ ဖွဲ့စည်းပုံအခြေခံဥပဒေနည်းလမ်းများဖြင့် ဖြစ်ကြောင်း Democracy များ Vulnerable ဖြစ်နိုင်ကြောင်း နားလည်ရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It shows that democratic institutions can be undermined from within through legal political processes exploited during crisis, not only through violent overthrow",
+            "Hitler seized power exclusively through an illegal military coup with no constitutional process involved",
+            "This process has no actual relevance to understanding how democratic systems can fail",
+            "Democracies are always completely immune to this kind of internal political exploitation",
+          ],
+          optionsMy: [
+            "Democratic Institution များကို Violent Overthrow မှတစ်ဆင့်သာမက Crisis အတွင်း Exploit ပြုလုပ်ခံရသော တရားဝင် နိုင်ငံရေး Process များမှတစ်ဆင့် အတွင်းမှ ချိုးဖျက်နိုင်ကြောင်း ၎င်း ပြသသည်",
+            "Hitler သည် Constitutional Process မည်သည်မှ ပါဝင်ခြင်းမရှိဘဲ ဥပဒေမဲ့ Military Coup တစ်ခုမှတစ်ဆင့် အာဏာ တိတ်တဆိတ် ရယူခဲ့ခြင်း",
+            "ဤ Process သည် Democratic System များ ကျရှုံးနိုင်ကြောင်း နားလည်ရန် အမှန်တကယ် သက်ဆိုင်မှု မရှိခြင်း",
+            "Democracy များသည် ဤအမျိုးအစား Internal နိုင်ငံရေးဆိုင်ရာ Exploitation ကို အမြဲ လုံးဝ ကာကွယ်ခံနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a critical distinction Cambridge IGCSE examiners expect: Hitler's rise was largely achieved through elections and legal appointment, not a violent coup, which is precisely what makes it a cautionary lesson about democratic vulnerability.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Cambridge IGCSE Examiner များ မျှော်လင့်ထားသော အရေးကြီးသော ခွဲခြားချက် ဖြစ်သည် - Hitler တက်လာခြင်းသည် Violent Coup တစ်ခုမဟုတ်ဘဲ Election များနှင့် တရားဝင် ခန့်အပ်မှုမှတစ်ဆင့် အများအားဖြင့် ရရှိခဲ့ပြီး ၎င်းသည် Democratic Vulnerability အကြောင်း သတိပေးချက် သင်ခန်းစာတစ်ခု ဖြစ်စေသည့် အတိအကျ အချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to examine how the Nazi Party used propaganda and control of information as tools for consolidating power, rather than assuming power was gained through economic promises alone?",
+          questionMy:
+              "အာဏာ Economic ကတိကဝတ်များတစ်ခုတည်းအားဖြင့် ရရှိခဲ့သည်ဟု ယူဆမည့်အစား Nazi Party သည် အာဏာ ခိုင်မာစေရန် Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုကို Tool များအဖြစ် မည်သို့ အသုံးပြုခဲ့သည်ကို စစ်ဆေးရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Propaganda and information control worked alongside economic promises to actively shape public perception and suppress dissent, making Nazi rule more effective and harder to challenge",
+            "Propaganda had no actual role in how the Nazi Party maintained power",
+            "Economic promises alone, without any other tools, fully explain Nazi control of Germany",
+            "Nazi propaganda and information control had no effect on public opinion whatsoever",
+          ],
+          optionsMy: [
+            "Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုသည် Public Perception ကို တက်ကြွစွာ ပုံဖော်ရန်နှင့် Dissent ကို ဖိနှိပ်ရန် Economic ကတိကဝတ်များနှင့်အတူ အလုပ်လုပ်ခဲ့ပြီး Nazi Rule ကို ပို၍ ထိရောက်၊ ခုခံရန် ခက်ခဲစေခဲ့သည်",
+            "Nazi Party ၏ အာဏာ ထိန်းသိမ်းပုံတွင် Propaganda သည် Role မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "အခြား Tool မည်သည်မှ မပါဘဲ Economic ကတိကဝတ်တစ်ခုတည်းသည် Germany ၏ Nazi ထိန်းချုပ်မှုကို အပြည့်အစုံ ရှင်းပြခြင်း",
+            "Nazi Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုသည် Public Opinion ကို လုံးဝ သက်ရောက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A complete historical explanation requires multiple interacting factors, exactly like the MAIN causes from Term 2 -- economic desperation opened the door, but propaganda and control of information helped consolidate and maintain power once gained.",
+          ],
+          hintsMy: [
+            "ပြီးပြည့်စုံသော သမိုင်းဆိုင်ရာ ရှင်းလင်းချက် တစ်ခုသည် Term 2 ၏ MAIN Cause များကဲ့သို့ Interacting Factor များစွာ လိုအပ်သည် -- Economic Desperation သည် တံခါးကို ဖွင့်ပေးခဲ့ပြီး Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုသည် အာဏာ ရရှိပြီးနောက် ခိုင်မာ၍ ထိန်းသိမ်းရန် ကူညီပေးခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rise of Nazi Germany Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Rise of Nazi Germany ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w11-dm-1",
+          termEn: "Chancellor",
+          termMy: "Chancellor",
+          matchEn:
+              "The head of government position Hitler was legally appointed to in 1933",
+          matchMy:
+              "၁၉၃၃ ခုနှစ်တွင် Hitler တရားဝင် ခန့်အပ်ခံရသော အစိုးရ ခေါင်းဆောင် Position",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w11-dm-2",
+          termEn: "Propaganda",
+          termMy: "Propaganda",
+          matchEn:
+              "Information deliberately shaped to promote a particular political viewpoint",
+          matchMy:
+              "တိကျသော နိုင်ငံရေး ရှုထောင့်တစ်ခုကို မြှင့်တင်ရန် တမင် ပုံဖော်ထားသော သတင်းအချက်အလက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w11-dm-3",
+          termEn: "Democratic vulnerability",
+          termMy: "Democratic Vulnerability",
+          matchEn:
+              "The risk that democratic institutions can be undermined through legal political processes",
+          matchMy:
+              "Democratic Institution များကို တရားဝင် နိုင်ငံရေး Process များမှတစ်ဆင့် ချိုးဖျက်နိုင်ခြေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w11-dm-4",
+          termEn: "Consolidation of power",
+          termMy: "Consolidation of Power",
+          matchEn:
+              "The process of securing and strengthening control after initially gaining authority",
+          matchMy:
+              "အာဏာ ကနဦး ရရှိပြီးနောက် ထိန်းချုပ်မှုကို လုံခြုံ၍ ခိုင်မာစေသော Process",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Enabling Condition or Consolidation Tool?",
+      titleMy: "စီစစ်ကြမည် - Enabling Condition (သို့) Consolidation Tool",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Enabling Condition (Opened the Door)",
+          "Consolidation Tool (Kept the Power)",
+        ],
+        bucketsMy: [
+          "Enabling Condition (တံခါးကို ဖွင့်ပေးခဲ့)",
+          "Consolidation Tool (အာဏာ ထိန်းသိမ်း)",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w11-sort-1",
+            labelEn:
+                "Mass unemployment and economic desperation from the Depression",
+            labelMy:
+                "Depression မှ Mass Unemployment နှင့် Economic Desperation",
+            correctBucketEn: "Enabling Condition (Opened the Door)",
+            correctBucketMy: "Enabling Condition (တံခါးကို ဖွင့်ပေးခဲ့)",
+          ),
+          SortingItem(
+            id: "igchum-w11-sort-2",
+            labelEn:
+                "Propaganda shaping public opinion and suppressing dissent",
+            labelMy:
+                "Public Opinion ပုံဖော်ကာ Dissent ကို ဖိနှိပ်သော Propaganda",
+            correctBucketEn: "Consolidation Tool (Kept the Power)",
+            correctBucketMy: "Consolidation Tool (အာဏာ ထိန်းသိမ်း)",
+          ),
+          SortingItem(
+            id: "igchum-w11-sort-3",
+            labelEn:
+                "National humiliation and resentment from the Treaty of Versailles",
+            labelMy:
+                "Treaty of Versailles မှ National Humiliation နှင့် Resentment",
+            correctBucketEn: "Enabling Condition (Opened the Door)",
+            correctBucketMy: "Enabling Condition (တံခါးကို ဖွင့်ပေးခဲ့)",
+          ),
+          SortingItem(
+            id: "igchum-w11-sort-4",
+            labelEn:
+                "Control of information sources to suppress opposing political views",
+            labelMy:
+                "ဆန့်ကျင်ဘက် နိုင်ငံရေး အမြင်များကို ဖိနှိပ်ရန် သတင်းအချက်အလက် အရင်းအမြစ်များ ထိန်းချုပ်ခြင်း",
+            correctBucketEn: "Consolidation Tool (Kept the Power)",
+            correctBucketMy: "Consolidation Tool (အာဏာ ထိန်းသိမ်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Multi-Factor Rise-of-Hitler Essay",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Multi-Factor Rise-of-Hitler Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Multi-Factor Rise-of-Hitler Essay",
+        titleMy: "Thiha Aung ၏ Multi-Factor Rise-of-Hitler Essay",
+        passageEn:
+            "For Week 11, Saya Tun Tun Win asked students to write an essay explaining Hitler's rise to power, explicitly warning against reducing the explanation to any single factor. Thiha Aung's essay structured itself around three connected threads drawn from the whole term so far.\n\nHis first section traced the enabling conditions: the resentment created by the Treaty of Versailles's war guilt clause and reparations (Week 9), compounded by the catastrophic unemployment and economic desperation of the Great Depression (Week 10), together created a population increasingly desperate for radical solutions. He was careful to note this alone did not guarantee any specific outcome -- it created an opening, not an inevitability.\n\nHis second section addressed Tuesday's lesson on democratic vulnerability directly, tracing how Hitler was legally appointed Chancellor rather than seizing power through violent overthrow, using the existing constitutional system rather than destroying it outright. Thiha Aung argued this detail mattered enormously for understanding the broader lesson: democratic systems can fail not only through external attack but through legal processes exploited during moments of crisis and desperation.\n\nHis third section applied Wednesday's lesson on propaganda and consolidation, explaining that gaining the Chancellorship was only the beginning -- maintaining and expanding that power required actively controlling public perception and suppressing opposition once in office. Saya Tun Tun Win's feedback praised the essay specifically for weaving these three factors together into cause and consolidation rather than treating them as a simple list, noting that Thiha Aung had essentially applied the same MAIN-causes reasoning from Term 2 to an entirely new historical topic: multiple interacting factors, not one single explanation, produced the outcome.",
+        passageMy:
+            "Week 11 အတွက် Explanation ကို Factor တစ်ခုတည်းသို့ လျှော့ချခြင်းကို ရှင်းလင်းစွာ သတိပေးကာ Hitler ၏ အာဏာသို့ တက်လာခြင်းကို ရှင်းပြသော Essay တစ်ခု ရေးသားရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Essay သည် Term လက်ရှိအထိ Thread ချိတ်ဆက်ထားသော သုံးခုပတ်လည်တွင် ၎င်းကိုယ်ကို ဖွဲ့စည်းခဲ့သည်။\n\n၎င်း၏ ပထမ Section သည် Enabling Condition များကို ခြေရာခံခဲ့သည် - Treaty of Versailles ၏ War Guilt Clause နှင့် Reparation များ ဖန်တီးခဲ့သော Resentment (Week 9)၊ Great Depression ၏ ကပျက်စီးဆုံးရှုံးသော Unemployment နှင့် Economic Desperation (Week 10) ဖြင့် ပေါင်းစပ်ကာ Radical ဖြေရှင်းချက်များအတွက် တိုးတက် စိတ်ကျနေသော လူဦးရေတစ်ခုကို အတူတကွ ဖန်တီးခဲ့သည်။ ဤသည် တစ်ခုတည်းသည် ရလဒ်တိကျ မည်သည်ကိုမျှ အာမခံခဲ့ခြင်း မဟုတ်ကြောင်း -- Inevitability တစ်ခုမဟုတ်ဘဲ Opening တစ်ခုကိုသာ ဖန်တီးခဲ့ကြောင်း ၎င်း ဂရုတစိုက် မှတ်ချက်ပြုခဲ့သည်။\n\n၎င်း၏ ဒုတိယ Section သည် Democratic Vulnerability အကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို တိုက်ရိုက် ကိုင်တွယ်ခဲ့ပြီး Violent Overthrow မှတစ်ဆင့် အာဏာ တိတ်တဆိတ် ရယူမည့်အစား ရှိပြီးသား Constitutional System ကို အသုံးပြု၍ Hitler တရားဝင် Chancellor ခန့်အပ်ခံရသည်ကို ခြေရာခံခဲ့သည်။ ဤ Detail သည် ပို၍ ကျယ်ပြန့်သော သင်ခန်းစာ နားလည်ရန် အလွန် အရေးကြီးကြောင်း Thiha Aung ငြင်းခုံခဲ့သည် - Democratic System များသည် External တိုက်ခိုက်မှုတစ်ခုတည်းမှတစ်ဆင့်သာမက Crisis နှင့် Desperation အခိုက်အတန့်များအတွင်း Exploit ပြုလုပ်ခံရသော တရားဝင် Process များမှတစ်ဆင့်လည်း ကျရှုံးနိုင်သည်။\n\n၎င်း၏ တတိယ Section သည် Propaganda နှင့် Consolidation အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ Chancellorship ရရှိခြင်းသည် အစသာ ဖြစ်ကြောင်းနှင့် ထို အာဏာကို ထိန်းသိမ်း၍ ချဲ့ထွင်ရန် Office ၌ ရှိစဉ် Public Perception ကို တက်ကြွစွာ ထိန်းချုပ်ကာ ဆန့်ကျင်မှုများကို ဖိနှိပ်ရန် လိုအပ်ကြောင်း ရှင်းပြခဲ့သည်။ Factor သုံးခုကို ရိုးရှင်းသော Listing တစ်ခုအဖြစ် ဆက်ဆံမည့်အစား Cause နှင့် Consolidation ထဲသို့ ရက်ချစပ်ထားခဲ့သောကြောင့် Essay ကို Saya Tun Tun Win ၏ Feedback အထူးသဖြင့် ချီးမွမ်းခဲ့ပြီး Thiha Aung သည် Term 2 ၏ MAIN-Causes Reasoning တူတူကို လုံးဝ ခေါင်းစဉ်အသစ် သမိုင်းဆိုင်ရာသို့ အခြေခံအားဖြင့် အသုံးချခဲ့ကြောင်း မှတ်ချက်ပြုခဲ့သည် - Interacting Factor များစွာသည် ရှင်းလင်းချက် တစ်ခုတည်းမက ရလဒ်ကို ထုတ်လုပ်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung note the enabling conditions did NOT guarantee?",
+            questionMy:
+                "Enabling Condition များ အာမခံခြင်း မရှိကြောင်း Thiha Aung မှတ်ချက်ပြုခဲ့သည့် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any specific outcome -- they created an opening, not an inevitability",
+              "Nothing at all was noted about the conditions",
+              "That any economic hardship existed in Germany at all",
+              "That the Treaty of Versailles had any consequences whatsoever",
+            ],
+            optionsMy: [
+              "ရလဒ်တိကျ မည်သည်ကိုမျှ -- Inevitability တစ်ခုမဟုတ်ဘဲ Opening တစ်ခုကိုသာ ဖန်တီးခဲ့ခြင်း",
+              "Condition များအကြောင်း မည်သည်မှ မှတ်ချက်ပြုခဲ့ခြင်း မရှိခြင်း",
+              "Germany တွင် စီးပွားရေး ဒုက္ခ မည်သည်မှ ရှိခဲ့ခြင်း",
+              "Treaty of Versailles တွင် ရလဒ် မည်သည်မှ ရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's careful qualification."],
+            hintsMy: [
+              "ဒုတိယ စာပိုဒ်၏ ဂရုတစိုက် Qualification ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Hitler become Chancellor, according to Thiha Aung's essay?",
+            questionMy:
+                "Thiha Aung ၏ Essay အရ Hitler Chancellor မည်သို့ ဖြစ်လာခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He was legally appointed, using the existing constitutional system",
+              "He seized power exclusively through a violent military coup",
+              "He was elected by a unanimous vote with no opposition of any kind",
+              "The essay did not describe how he became Chancellor at all",
+            ],
+            optionsMy: [
+              "ရှိပြီးသား Constitutional System ကို အသုံးပြု၍ တရားဝင် ခန့်အပ်ခံရခြင်း",
+              "Violent Military Coup တစ်ခုမှတစ်ဆင့်သာ အာဏာ တိတ်တဆိတ် ရယူခဲ့ခြင်း",
+              "ဆန့်ကျင်မှု မည်သည်မှ မပါဘဲ Unanimous Vote ဖြင့် ရွေးချယ်တင်မြှောက်ခံခဲ့ခြင်း",
+              "Chancellor မည်သို့ ဖြစ်လာခဲ့သည်ကို Essay က လုံးဝ ဖော်ပြခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's account."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Account ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what earlier reasoning did Saya Tun Tun Win say Thiha Aung had applied to this new topic?",
+            questionMy:
+                "ခေါင်းစဉ်အသစ်သို့ Thiha Aung အသုံးချခဲ့ကြောင်း Saya Tun Tun Win ဆိုခဲ့သော ယခင် Reasoning ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The MAIN-causes reasoning from Term 2, where multiple interacting factors produced an outcome",
+              "A reasoning method that had never been taught anywhere in the course",
+              "A purely mathematical formula with no historical basis",
+              "The reasoning from a completely unrelated geography topic",
+            ],
+            optionsMy: [
+              "Interacting Factor များစွာက ရလဒ်ကို ထုတ်လုပ်ပေးခဲ့သော Term 2 ၏ MAIN-Causes Reasoning",
+              "Course တွင် နေရာမည်သည်တွင်မျှ ဘယ်တော့မှ သင်ကြားပေးခဲ့ခြင်း မရှိသော Reasoning Method တစ်ခု",
+              "သမိုင်းဆိုင်ရာ အခြေခံ မပါသော ဂဏန်းသင်္ချာဆိုင်ရာ Formula တစ်ခုသက်သက်",
+              "လုံးဝ မဆိုင်သော Geography ခေါင်းစဉ်တစ်ခုမှ Reasoning",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's comparison to Term 2."],
+            hintsMy: [
+              "Term 2 နှင့် နှိုင်းယှဉ်ချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w11-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Rise of Hitler and Nazi Germany",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Hitler နှင့် Nazi Germany တက်လာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Economic desperation and national humiliation together...",
+          questionMy:
+              "Economic Desperation နှင့် National Humiliation အတူတကွသည်...",
+          optionsEn: [
+            "Created a political opening extremist movements could exploit",
+            "Guaranteed no political change of any kind",
+            "Had no actual connection to political developments",
+            "Made democratic governments impossible to weaken",
+          ],
+          optionsMy: [
+            "Extremist လှုပ်ရှားမှုများ Exploit ပြုလုပ်နိုင်သော နိုင်ငံရေးဆိုင်ရာ ဖွင့်လင်းမှု ဖန်တီးခဲ့ခြင်း",
+            "နိုင်ငံရေးဆိုင်ရာ ပြောင်းလဲမှု မည်သည်မှ မရှိကြောင်း အာမခံခဲ့ခြင်း",
+            "နိုင်ငံရေး ဖွံ့ဖြိုးတိုးတက်မှုများနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Democratic အစိုးရများကို အားနည်းစေရန် မဖြစ်နိုင်စေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hitler became Chancellor through...",
+          questionMy: "Hitler သည် ...မှတစ်ဆင့် Chancellor ဖြစ်လာခဲ့သည်",
+          optionsEn: [
+            "Largely legal, constitutional means",
+            "A violent military coup exclusively",
+            "A process with no connection to Germany's constitution",
+            "Unanimous international agreement",
+          ],
+          optionsMy: [
+            "အများအားဖြင့် တရားဝင်၊ ဖွဲ့စည်းပုံအခြေခံဥပဒေနည်းလမ်းများ",
+            "Violent Military Coup တစ်ခုတည်း",
+            "Germany ၏ ဖွဲ့စည်းပုံအခြေခံဥပဒေနှင့် ချိတ်ဆက်မှု မရှိသော Process တစ်ခု",
+            "International Agreement တစ်ခုစုတ်စည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Propaganda and information control helped the Nazi Party...",
+          questionMy:
+              "Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုသည် Nazi Party ကို ...ကူညီခဲ့သည်",
+          optionsEn: [
+            "Consolidate and maintain power once gained",
+            "Have no actual role in politics whatsoever",
+            "Lose power immediately after gaining it",
+            "Avoid gaining any support at all",
+          ],
+          optionsMy: [
+            "အာဏာ ရရှိပြီးနောက် ခိုင်မာ၍ ထိန်းသိမ်းရန်",
+            "နိုင်ငံရေးတွင် Role မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "အာဏာ ရရှိပြီးနောက် ချက်ချင်း ဆုံးရှုံးခြင်း",
+            "ထောက်ခံမှု မည်သည်မှ ရရှိခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 3, Week 12 (Capstone/Boss Week): "Why Did
+// Democracy Fail in Germany?"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek12 = CourseWeekDef(
+  id: "course-igcse-hum-w12",
+  weekNumber: 12,
+  titleEn: "Why Did Democracy Fail in Germany?",
+  titleMy: "Germany တွင် Democracy ဘာကြောင့် ကျရှုံးခဲ့သနည်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w12-d1",
+      dayNumber: 1,
+      titleEn: "Constructing a Multi-Causal Explanation of Democratic Collapse",
+      titleMy:
+          "Democratic ကျရှုံးမှု၏ Multi-Causal ရှင်းလင်းချက်တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a strong essay answering 'why did democracy fail in Germany?' trace a chain connecting the Treaty of Versailles through the Depression to the Nazi rise, rather than treating each as separate, unrelated topics?",
+          questionMy:
+              "'Germany တွင် Democracy ဘာကြောင့် ကျရှုံးခဲ့သနည်း' ကို ဖြေဆိုသော ခိုင်မာသော Essay တစ်ခုသည် တစ်ခုစီကို ကွဲပြား၊ မဆိုင်သော ခေါင်းစဉ်များအဖြစ် ဆက်ဆံမည့်အစား Treaty of Versailles မှ Depression မှတစ်ဆင့် Nazi တက်လာခြင်းသို့ ချိတ်ဆက်သော Chain တစ်ခုကို ခြေရာခံသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each event created conditions that made the next more likely, so the full explanation requires showing how they built on each other over time rather than listing them as isolated facts",
+            "These three topics have no actual historical connection to each other whatsoever",
+            "Only the most recent event (the Nazi rise) actually matters, with earlier events irrelevant",
+            "A strong essay should always treat every historical topic as completely separate from every other",
+          ],
+          optionsMy: [
+            "Event တစ်ခုစီသည် နောက်တစ်ခုကို ဖြစ်လာနိုင်ခြေ ပို၍ များစေသော အခြေအနေများ ဖန်တီးခဲ့ပြီး ၎င်းတို့ကို Isolated Fact များအဖြစ် Listing ပြုလုပ်မည့်အစား ၎င်းတို့ အချိန်ကြာလာသည်နှင့်အမျှ တစ်ခုနှင့်တစ်ခု မည်သို့ တည်ဆောက်ခဲ့သည်ကို ပြသရန် ပြည့်စုံသော ရှင်းလင်းချက် လိုအပ်သည်",
+            "ခေါင်းစဉ်သုံးခုသည် တစ်ခုနှင့်တစ်ခု သမိုင်းဆိုင်ရာ ချိတ်ဆက်မှု မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "လတ်တလော Event (Nazi တက်လာခြင်း) တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးပြီး ယခင် Event များ မသက်ဆိုင်ခြင်း",
+            "ခိုင်မာသော Essay တစ်ခုသည် သမိုင်းဆိုင်ရာ ခေါင်းစဉ်တိုင်းကို အခြားတိုင်းနှင့် လုံးဝ သီးခြားအဖြစ် အမြဲ ဆက်ဆံသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects the whole term: Week 9's treaty consequences weakened the economy, Week 10's Depression made that weakness catastrophic, and Week 11's Nazi rise exploited the resulting desperation -- a genuine causal chain, not a list.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term တစ်ခုလုံးကို ချိတ်ဆက်သည် - Week 9 ၏ စာချုပ် ရလဒ်များသည် စီးပွားရေးကို အားနည်းစေခဲ့ပြီး Week 10 ၏ Depression သည် ထို အားနည်းမှုကို ကပျက်စီးဆုံးရှုံးစေခဲ့ကာ Week 11 ၏ Nazi တက်လာခြင်းသည် ရလဒ် Desperation ကို Exploit ပြုလုပ်ခဲ့သည် -- Listing တစ်ခုမဟုတ်ဘဲ စစ်မှန်သော Causal Chain တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an essay on democratic collapse also acknowledge that Hitler's rise was not inevitable, rather than presenting it as the only possible outcome of the conditions described?",
+          questionMy:
+              "ဖော်ပြထားသော Condition များ၏ ဖြစ်နိုင်တစ်ခုတည်းသော ရလဒ်အဖြစ် တင်ပြမည့်အစား Democratic ကျရှုံးမှုအကြောင်း Essay တစ်ခုသည် Hitler တက်လာခြင်းသည် Inevitable မဟုတ်ကြောင်းကိုလည်း အသိအမှတ်ပြုသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Historical explanation should distinguish between conditions that made an outcome more likely and a deterministic claim that only one outcome was possible, avoiding oversimplified historical determinism",
+            "Historical outcomes are always completely inevitable once conditions are in place",
+            "There is no meaningful difference between 'more likely' and 'certain to happen'",
+            "Acknowledging alternative possibilities has no actual analytical value in history",
+          ],
+          optionsMy: [
+            "Oversimplified Historical Determinism ကို ရှောင်ရှားကာ ရလဒ်တစ်ခု ဖြစ်နိုင်ခြေ ပို၍ များစေသော Condition များနှင့် ရလဒ်တစ်ခုတည်းသာ ဖြစ်နိုင်သည်ဟူသော Deterministic Claim တစ်ခုကြား သမိုင်းဆိုင်ရာ ရှင်းလင်းချက်တစ်ခု ခွဲခြားသင့်သည်",
+            "Condition များ ရှိပြီးသားနောက် သမိုင်းဆိုင်ရာ ရလဒ်များသည် အမြဲ လုံးဝ Inevitable ဖြစ်ခြင်း",
+            "'ဖြစ်နိုင်ခြေ ပို၍များသည်' နှင့် 'ဖြစ်မည်ဟု သေချာသည်' ကြား အဓိပ္ပာယ်ရှိသော ခြားနားချက် မရှိခြင်း",
+            "Alternative ဖြစ်နိုင်ချေများကို အသိအမှတ်ပြုခြင်းသည် သမိုင်းတွင် အမှန်တကယ် Analytical တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 11's careful qualification -- Thiha Aung's own essay noted that enabling conditions created an opening, not a guarantee, of any specific outcome.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ ဂရုတစိုက် Qualification ကို တိုက်ရိုက် ချိတ်ဆက်သည် -- Enabling Condition များသည် ရလဒ်တိကျ မည်သည်ကိုမျှ အာမခံခြင်းမဟုတ်ဘဲ Opening တစ်ခုကို ဖန်တီးခဲ့ကြောင်း Thiha Aung ကိုယ်ပိုင် Essay က မှတ်ချက်ပြုခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is this case study of Weimar Germany's democratic collapse considered relevant to understanding democracies more broadly, beyond this one specific historical example?",
+          questionMy:
+              "Weimar Germany ၏ Democratic ကျရှုံးမှု Case Study ကို ဤ တိကျသော သမိုင်းဆိုင်ရာ ဥပမာတစ်ခုကို ကျော်လွန်၍ Democracy များကို ကျယ်ပြန့်စွာ နားလည်ရန် သက်ဆိုင်သည်ဟု ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It illustrates general patterns -- economic crisis, national resentment, and exploitation of legal processes -- that could theoretically threaten any democracy under the right conditions",
+            "This case study is completely unique with no lessons applicable to any other country or time period",
+            "Democracies are always permanently immune to any risk once firmly established",
+            "The Weimar Germany case has no actual educational value beyond memorizing specific dates",
+          ],
+          optionsMy: [
+            "မှန်ကန်သော Condition များအောက်တွင် Democracy မည်သည်ကိုမဆို Theoretically ခြိမ်းခြောက်နိုင်သော General Pattern များ -- စီးပွားရေး Crisis, National Resentment နှင့် Legal Process များ Exploit ပြုလုပ်ခြင်း -- ကို ၎င်း သရုပ်ဖော်သည်",
+            "ဤ Case Study သည် အခြား နိုင်ငံ (သို့) ကာလ မည်သည်နှင့်မျှ သင်ခန်းစာ မသက်ဆိုင်သော လုံးဝ Unique ဖြစ်သည်",
+            "Democracy များသည် ခိုင်မာစွာ တည်ထောင်ပြီးသောအခါ အန္တရာယ် မည်သည်ကိုမျှ ထာဝရ လုံးဝ ကာကွယ်ခံနိုင်ခြင်း",
+            "Weimar Germany Case သည် တိကျသော ရက်စွဲများ အလွတ်ကျက်ရုံသက်သက်ကျော်လွန်၍ အမှန်တကယ် ပညာရေးဆိုင်ရာ တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 11's democratic-vulnerability lesson -- the pattern of legal exploitation during crisis is a general risk, not something unique to 1930s Germany alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Democratic-Vulnerability သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Crisis အတွင်း Legal Exploitation ၏ Pattern သည် ၁၉၃၀ ခုနှစ်များ Germany တစ်ခုတည်းနှင့်သာ Unique ဖြစ်သော အရာမဟုတ်ဘဲ General အန္တရာယ်တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Interwar Years Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Interwar Years ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w12-dm-1",
+          termEn: "Causal chain",
+          termMy: "Causal Chain",
+          matchEn:
+              "A sequence of events where each stage creates conditions making the next more likely",
+          matchMy:
+              "အဆင့်တစ်ခုစီသည် နောက်တစ်ခုကို ဖြစ်လာနိုင်ခြေ ပို၍များစေသော Condition ဖန်တီးသော Event Sequence",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w12-dm-2",
+          termEn: "Historical determinism",
+          termMy: "Historical Determinism",
+          matchEn:
+              "The oversimplified claim that only one outcome was ever possible given the conditions",
+          matchMy:
+              "Condition များပေါ်တွင် ရလဒ်တစ်ခုတည်းသာ ဖြစ်နိုင်ခဲ့သည်ဟူသော Oversimplified Claim",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w12-dm-3",
+          termEn: "Weimar Germany",
+          termMy: "Weimar Germany",
+          matchEn:
+              "The democratic German government that existed between WWI and the Nazi era",
+          matchMy: "WWI နှင့် Nazi ခေတ်ကြား ရှိခဲ့သော Democratic German အစိုးရ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w12-dm-4",
+          termEn: "General historical pattern",
+          termMy: "General Historical Pattern",
+          matchEn:
+              "A recurring dynamic that could theoretically apply beyond one specific case",
+          matchMy:
+              "Case တိကျတစ်ခုကို ကျော်လွန်၍ Theoretically သက်ဆိုင်နိုင်သော ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သော Dynamics",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w12-d3",
+      dayNumber: 3,
+      titleEn:
+          "Sort: Part of the Causal Chain or Historical Determinism Error?",
+      titleMy:
+          "စီစစ်ကြမည် - Causal Chain ၏ တစ်စိတ်တစ်ပိုင်း (သို့) Historical Determinism Error",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Part of the Causal Chain", "Historical Determinism Error"],
+        bucketsMy: [
+          "Causal Chain ၏ တစ်စိတ်တစ်ပိုင်း",
+          "Historical Determinism Error",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w12-sort-1",
+            labelEn:
+                "The Treaty of Versailles weakening the economy, which made the Depression's impact worse",
+            labelMy:
+                "Depression ၏ သက်ရောက်မှုကို ပို၍ ဆိုးရွားစေသော စီးပွားရေးကို အားနည်းစေသော Treaty of Versailles",
+            correctBucketEn: "Part of the Causal Chain",
+            correctBucketMy: "Causal Chain ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+          SortingItem(
+            id: "igchum-w12-sort-2",
+            labelEn:
+                "Claiming the Nazi rise was the only possible outcome once the Treaty was signed",
+            labelMy:
+                "စာချုပ် လက်မှတ်ရေးထိုးပြီးသည်နှင့် Nazi တက်လာခြင်းသည် ဖြစ်နိုင်တစ်ခုတည်းသော ရလဒ် ဖြစ်ခဲ့သည်ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Historical Determinism Error",
+            correctBucketMy: "Historical Determinism Error",
+          ),
+          SortingItem(
+            id: "igchum-w12-sort-3",
+            labelEn:
+                "The Depression's mass unemployment increasing support for extremist movements",
+            labelMy:
+                "Extremist လှုပ်ရှားမှုများအတွက် ထောက်ခံမှု တိုးလာစေသော Depression ၏ Mass Unemployment",
+            correctBucketEn: "Part of the Causal Chain",
+            correctBucketMy: "Causal Chain ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+          SortingItem(
+            id: "igchum-w12-sort-4",
+            labelEn:
+                "Asserting that democracy could never have survived in Weimar Germany under any circumstance",
+            labelMy:
+                "အခြေအနေ မည်သို့ပင်ရှိစေ Weimar Germany တွင် Democracy ဘယ်တော့မှ Survive မဖြစ်နိုင်ခဲ့ကြောင်း Assert ပြုလုပ်ခြင်း",
+            correctBucketEn: "Historical Determinism Error",
+            correctBucketMy: "Historical Determinism Error",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Term 3 Capstone Essay",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Term 3 Capstone Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Term 3 Capstone Essay",
+        titleMy: "Thiha Aung ၏ Term 3 Capstone Essay",
+        passageEn:
+            "For Term 3's capstone, Saya Tun Tun Win asked students to write a full essay answering 'why did democracy fail in Germany?' combining everything studied across the term into one coherent causal argument. Thiha Aung's essay opened by explicitly rejecting a single-cause explanation, stating clearly that no one factor alone was sufficient.\n\nHis essay then traced the causal chain precisely, applying Monday's lesson: the war guilt clause and reparations from the Treaty of Versailles created ongoing economic strain and national resentment throughout the 1920s; this pre-existing weakness meant Germany was especially vulnerable when the Great Depression struck, producing catastrophic unemployment far worse than in more resilient economies; and this economic desperation, combined with lingering national humiliation, created exactly the conditions the Nazi Party could exploit, both through legal political means and through propaganda once in power.\n\nApplying Tuesday's lesson on avoiding determinism, Thiha Aung explicitly wrote that these conditions made Hitler's rise significantly more likely, not certain -- other outcomes remained theoretically possible, and different political or economic choices at various points might have produced a different result. He argued that acknowledging this uncertainty made his historical argument more accurate, not weaker.\n\nHis final paragraph, applying Wednesday's lesson on broader relevance, argued that the Weimar case illustrates a general pattern worth understanding beyond 1930s Germany specifically: severe economic crisis combined with national grievance can create conditions where legal political processes are exploited to undermine democratic institutions from within. Saya Tun Tun Win's review praised the essay as a genuine synthesis of the entire term -- treating history not as an isolated set of facts to memorize, but as an interconnected chain of causation, appropriately hedged uncertainty, and a pattern with lessons extending beyond the single case studied.",
+        passageMy:
+            "Term 3 Capstone အတွက် Term တစ်ခုလုံးတွင် လေ့လာခဲ့သည်ကို Coherent Causal Argument တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ကာ 'Germany တွင် Democracy ဘာကြောင့် ကျရှုံးခဲ့သနည်း' ကို ဖြေဆိုသော Essay အပြည့်အစုံ ရေးသားရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Essay သည် Cause တစ်ခုတည်းသော ရှင်းလင်းချက်ကို ရှင်းလင်းစွာ ပယ်ချကာ ဖွင့်လှစ်ခဲ့ပြီး Factor တစ်ခုတည်းသည် လုံလောက်ခြင်း မရှိကြောင်း ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။\n\n၎င်း၏ Essay သည် တနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ Causal Chain ကို အတိအကျ ခြေရာခံခဲ့သည် - Treaty of Versailles မှ War Guilt Clause နှင့် Reparation များသည် ၁၉၂၀ ခုနှစ်များတစ်လျှောက် ဆက်လက် စီးပွားရေး ဖိစီးမှုနှင့် National Resentment ကို ဖန်တီးခဲ့သည်; ဤ ရှိပြီးသား အားနည်းချက်သည် Great Depression ရိုက်ခတ်ချိန် Germany ကို အထူးသဖြင့် Vulnerable ဖြစ်စေခဲ့ပြီး ပို၍ Resilient စီးပွားရေးများထက် အလွန် ဆိုးရွားသော ကပျက်စီးဆုံးရှုံးသော Unemployment ကို ထုတ်လုပ်ပေးခဲ့သည်; ဤ Economic Desperation သည် ဆက်လက် ရှိနေသော National Humiliation နှင့် ပေါင်းစပ်ကာ တရားဝင် နိုင်ငံရေး နည်းလမ်းများနှင့် အာဏာရရှိပြီးနောက် Propaganda နှစ်ခုစလုံးမှတစ်ဆင့် Nazi Party Exploit ပြုလုပ်နိုင်မည့် Condition များကို အတိအကျ ဖန်တီးခဲ့သည်။\n\nDeterminism ရှောင်ရှားခြင်းအကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ ဤ Condition များသည် Hitler တက်လာခြင်းကို သိသိသာသာ ပို၍ ဖြစ်နိုင်ခြေ များစေခဲ့သော်လည်း သေချာမှု မဟုတ်ကြောင်း Thiha Aung ရှင်းလင်းစွာ ရေးသားခဲ့သည် -- Theoretically ဖြစ်နိုင်သော ရလဒ်အခြားများ ဆက်လက် ရှိနေခဲ့ပြီး Point ကွဲပြားများတွင် မတူညီသော နိုင်ငံရေး (သို့) စီးပွားရေး ရွေးချယ်မှုများသည် ကွဲပြားသော ရလဒ်တစ်ခုကို ထုတ်လုပ်ပေးနိုင်ခဲ့သည်။ ဤ Uncertainty ကို အသိအမှတ်ပြုခြင်းသည် ၎င်း၏ သမိုင်းဆိုင်ရာ Argument ကို အားနည်းစေမည့်အစား ပို၍ တိကျစေခဲ့ကြောင်း ၎င်း ငြင်းခုံခဲ့သည်။\n\nကျယ်ပြန့်သော Relevance အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချသော ၎င်း၏ နောက်ဆုံး စာပိုဒ်သည် Weimar Case သည် ၁၉၃၀ ခုနှစ်များ Germany တစ်ခုတည်းကို ကျော်လွန်၍ နားလည်ရန် တန်ဖိုးရှိသော General Pattern တစ်ခုကို သရုပ်ဖော်ခြင်းဟု ငြင်းခုံခဲ့သည် - National Grievance နှင့် ပေါင်းစပ်ထားသော ပြင်းထန်သော စီးပွားရေး Crisis သည် Legal နိုင်ငံရေး Process များကို Democratic Institution များကို အတွင်းမှ ချိုးဖျက်ရန် Exploit ပြုလုပ်ခံရသော Condition များကို ဖန်တီးနိုင်သည်။ Isolated Fact အစုအဝေးတစ်ခုအဖြစ် မဟုတ်ဘဲ Interconnected Causation Chain, သင့်လျော်စွာ Hedged Uncertainty နှင့် လေ့လာခဲ့သော Case တစ်ခုတည်းကို ကျော်လွန်၍ ချဲ့ထွင်သော သင်ခန်းစာများပါသော Pattern တစ်ခုအဖြစ် သမိုင်းကို ဆက်ဆံခဲ့သောကြောင့် Essay ကို Term တစ်ခုလုံး၏ စစ်မှန်သော Synthesis တစ်ခုအဖြစ် Saya Tun Tun Win ၏ Review ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what causal chain did Thiha Aung's essay trace?",
+            questionMy:
+                "Thiha Aung ၏ Essay ခြေရာခံခဲ့သော Causal Chain ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Treaty consequences weakened the economy, the Depression made that weakness catastrophic, and desperation opened the door for Nazi exploitation",
+              "A single isolated event with no connection to any other factor",
+              "The Nazi rise happened before the Treaty of Versailles was even signed",
+              "There was no chain described in the essay at all",
+            ],
+            optionsMy: [
+              "စာချုပ် ရလဒ်များသည် စီးပွားရေးကို အားနည်းစေခဲ့ပြီး Depression သည် ထို အားနည်းမှုကို ကပျက်စီးဆုံးရှုံးစေခဲ့ကာ Desperation သည် Nazi Exploitation အတွက် တံခါးကို ဖွင့်ပေးခဲ့ခြင်း",
+              "အခြား Factor မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော Isolated Event တစ်ခုတည်း",
+              "Treaty of Versailles လက်မှတ်ရေးထိုးမီပင် Nazi တက်လာခြင်း ဖြစ်ပျက်ခဲ့ခြင်း",
+              "Essay တွင် Chain မည်သည်မှ ဖော်ပြခြင်း လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's causal chain."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Causal Chain ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung say the Nazi rise was likely but not certain?",
+            questionMy:
+                "Nazi တက်လာခြင်းသည် ဖြစ်နိုင်ခြေရှိသော်လည်း သေချာခြင်း မရှိကြောင်း Thiha Aung ဆိုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Other outcomes remained theoretically possible depending on different choices at various points",
+              "He believed the Nazi rise was completely impossible under any circumstance",
+              "He refused to discuss the likelihood of the outcome at all",
+              "He claimed the outcome was one hundred percent guaranteed with no alternative",
+            ],
+            optionsMy: [
+              "Point ကွဲပြားများတွင် ကွဲပြားသော ရွေးချယ်မှုများပေါ် မူတည်ပြီး Theoretically ဖြစ်နိုင်ချေ အခြားများ ဆက်လက် ရှိနေခဲ့ခြင်း",
+              "အခြေအနေ မည်သို့ပင်ရှိစေ Nazi တက်လာခြင်းသည် လုံးဝ မဖြစ်နိုင်ဟု ၎င်း ယုံကြည်ခဲ့ခြင်း",
+              "ရလဒ်၏ ဖြစ်နိုင်ခြေကို ဆွေးနွေးရန် လုံးဝ ငြင်းဆန်ခဲ့ခြင်း",
+              "Alternative မည်သည်မှ မပါဘဲ ရလဒ်သည် ရာခိုင်နှုန်း တစ်ရာ အာမခံထားကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win praise the essay as a synthesis of?",
+            questionMy:
+                "Essay ကို Synthesis တစ်ခုအဖြစ် Saya Tun Tun Win ချီးမွမ်းခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The entire term, treating history as interconnected causation with appropriate uncertainty and broader lessons",
+              "Only the very first week of the term, with nothing else included",
+              "A completely unrelated subject with no connection to history at all",
+              "A list of isolated facts with no causal connections drawn",
+            ],
+            optionsMy: [
+              "Term တစ်ခုလုံး၊ သမိုင်းကို သင့်လျော်သော Uncertainty နှင့် ကျယ်ပြန့်သော သင်ခန်းစာများပါသော Interconnected Causation အဖြစ် ဆက်ဆံခြင်း",
+              "Term ၏ ပထမဆုံး Week တစ်ခုတည်းသာ၊ အခြားမည်သည်မှ မပါဘဲ",
+              "သမိုင်းနှင့် လုံးဝ ချိတ်ဆက်မှု မရှိသော လုံးဝ မဆိုင်သော ဘာသာရပ်တစ်ခု",
+              "Causal ချိတ်ဆက်ချက် မည်သည်မှ ဆွဲမထားသော Isolated Fact စာရင်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: The Interwar Years Exam",
+      titleMy: "Term 3 Capstone - The Interwar Years စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong essay on democratic collapse should trace...",
+          questionMy:
+              "Democratic ကျရှုံးမှုအကြောင်း ခိုင်မာသော Essay တစ်ခုသည် ...ခြေရာခံသင့်သည်",
+          optionsEn: [
+            "A causal chain connecting multiple related events over time",
+            "Only one isolated fact with no connections",
+            "Events with no relationship to each other at all",
+            "A random list with no logical structure",
+          ],
+          optionsMy: [
+            "အချိန်ကြာလာသည်နှင့်အမျှ ဆက်စပ်သော Event များစွာကို ချိတ်ဆက်သော Causal Chain",
+            "ချိတ်ဆက်ချက် မပါသော Isolated Fact တစ်ခုတည်း",
+            "တစ်ခုနှင့်တစ်ခု ဆက်ဆံရေး မည်သည်မှ မရှိသော Event များ",
+            "Logical Structure မပါသော ကျပန်း စာရင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Avoiding historical determinism means...",
+          questionMy: "Historical Determinism ရှောင်ရှားခြင်း ဆိုသည်မှာ...",
+          optionsEn: [
+            "Distinguishing 'more likely' from 'certain to happen'",
+            "Claiming only one outcome was ever possible",
+            "Refusing to discuss any historical causes at all",
+            "Treating every outcome as completely random",
+          ],
+          optionsMy: [
+            "'ဖြစ်နိုင်ခြေ ပို၍များသည်' ကို 'ဖြစ်မည်ဟု သေချာသည်' မှ ခွဲခြားခြင်း",
+            "ရလဒ်တစ်ခုတည်းသာ ဖြစ်နိုင်ခဲ့ကြောင်း Claim ပြုလုပ်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Cause မည်သည်ကိုမျှ ဆွေးနွေးရန် ငြင်းဆန်ခြင်း",
+            "ရလဒ်တိုင်းကို လုံးဝ ကျပန်းအဖြစ် ဆက်ဆံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Weimar Germany case study is relevant beyond its specific time period because...",
+          questionMy:
+              "Weimar Germany Case Study သည် ၎င်း၏ တိကျသော ကာလကို ကျော်လွန်၍ သက်ဆိုင်သည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It illustrates a general pattern that could theoretically apply elsewhere",
+            "It has no lessons applicable to any other context",
+            "Democracies are always completely immune to any risk",
+            "It only matters for memorizing specific dates",
+          ],
+          optionsMy: [
+            "Theoretically အခြားနေရာတွင် သက်ဆိုင်နိုင်သော General Pattern တစ်ခုကို ၎င်း သရုပ်ဖော်ခြင်း",
+            "အခြား Context မည်သည်နှင့်မျှ သက်ဆိုင်သော သင်ခန်းစာ မရှိခြင်း",
+            "Democracy များသည် အန္တရာယ် မည်သည်ကိုမျှ အမြဲ လုံးဝ ကာကွယ်ခံနိုင်ခြင်း",
+            "တိကျသော ရက်စွဲများ အလွတ်ကျက်ရန်သာ အရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 3: "The Interwar Years and the Rise of
+// Dictatorships" (Weeks 9-12)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm3 = CourseTermDef(
+  id: "course-igcse-hum-t3",
+  termNumber: 3,
+  titleEn: "The Interwar Years and the Rise of Dictatorships",
+  titleMy: "Interwar Years နှင့် Dictatorship တက်လာခြင်း",
+  certificateTitleEn: "The Interwar Years and the Rise of Dictatorships",
+  certificateTitleMy: "Interwar Years နှင့် Dictatorship တက်လာခြင်း",
+  weeks: [_igcseHumWeek9, _igcseHumWeek10, _igcseHumWeek11, _igcseHumWeek12],
 );
 // __IGCSE_HUM_MARKER__
