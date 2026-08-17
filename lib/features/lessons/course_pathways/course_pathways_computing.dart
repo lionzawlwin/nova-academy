@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 6-9 not yet
+// IGCSE Computing -- full pathway definition. Terms 7-9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,9 +143906,9 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseComputingTerm1,
@@ -143916,6 +143916,7 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
     _igcseComputingTerm3,
     _igcseComputingTerm4,
     _igcseComputingTerm5,
+    _igcseComputingTerm6,
   ],
 );
 // =====================================================================
@@ -148061,6 +148062,1391 @@ const CourseTermDef _igcseComputingTerm5 = CourseTermDef(
     _igcseComputingWeek18,
     _igcseComputingWeek19,
     _igcseComputingWeek20,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 6, Week 21: "Programming Basics in Python"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek21 = CourseWeekDef(
+  id: "course-igcse-computing-w21",
+  weekNumber: 21,
+  titleEn: "Programming Basics in Python",
+  titleMy: "Python ဖြင့် ပရိုဂရမ်ရေးခြင်း အခြေခံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w21-d1",
+      dayNumber: 1,
+      titleEn: "Variables, Selection and Iteration in Python",
+      titleMy: "Python တွင် Variables, Selection နှင့် Iteration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In Python, what is the correct way to translate the pseudocode 'age = age + 1' directly?",
+          questionMy:
+              "Python တွင် Pseudocode 'age = age + 1' ကို တိုက်ရိုက် ဘာသာပြန်ဆိုသော မှန်ကန်သော နည်းလမ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "age = age + 1",
+            "age === age + 1",
+            "SET age TO age PLUS 1",
+            "age -> age + 1",
+          ],
+          optionsMy: [
+            "age = age + 1",
+            "age === age + 1",
+            "SET age TO age PLUS 1",
+            "age -> age + 1",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Python's assignment operator is a single equals sign, matching IGCSE pseudocode's assignment convention almost exactly.",
+          ],
+          hintsMy: [
+            "Python ၏ Assignment Operator သည် Equals Sign တစ်ခုတည်း ဖြစ်ပြီး IGCSE Pseudocode ၏ Assignment Convention နှင့် နီးပါး အတိအကျ ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What Python keyword introduces the alternative branch of an if statement when the first condition is false but a second condition should still be checked?",
+          questionMy:
+              "ပထမ Condition False ဖြစ်သော်လည်း ဒုတိယ Condition ကို ဆက်လက် စစ်ဆေးသင့်သောအခါ If Statement ၏ အခြားရွေးချယ်စရာ Branch ကို မိတ်ဆက်ပေးသော Python Keyword မှာ အဘယ်နည်း။",
+          optionsEn: ["elif", "elseif", "otherwise", "then"],
+          optionsMy: ["elif", "elseif", "otherwise", "then"],
+          correctIndex: 0,
+          hintsEn: [
+            "Python uses 'elif' (a contraction of 'else if') to check an additional condition, distinct from a final 'else' catch-all.",
+          ],
+          hintsMy: [
+            "Python သည် နောက်ဆုံး 'else' Catch-All နှင့် ကွဲပြားသော ထပ်ဆောင်း Condition ကို စစ်ဆေးရန် 'elif' ('else if' ၏ အတိုကောက်) ကို အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does the Python code 'for i in range(5):' cause a loop to do?",
+          questionMy:
+              "Python Code 'for i in range(5):' သည် Loop ကို အဘယ်အရာ လုပ်စေသနည်း။",
+          optionsEn: [
+            "Repeat the loop body 5 times, with i taking the values 0, 1, 2, 3, and 4",
+            "Repeat the loop body exactly once, with i always equal to 5",
+            "Repeat forever, with i never changing",
+            "Never run at all, since range() always fails",
+          ],
+          optionsMy: [
+            "Loop Body ကို 5 ကြိမ် ထပ်ခါထပ်ခါ လုပ်ဆောင်ပြီး i သည် 0, 1, 2, 3, 4 တန်ဖိုးများ ယူသည်",
+            "Loop Body ကို အတိအကျ တစ်ကြိမ်သာ ထပ်ခါထပ်ခါ လုပ်ဆောင်ပြီး i သည် 5 နှင့် အမြဲ ညီသည်",
+            "အဆက်မပြတ် ထပ်ခါထပ်ခါ လုပ်ဆောင်ပြီး i ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "range() သည် အမြဲ Fail ဖြစ်သောကြောင့် လုံးဝ Run မလုပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Python's range(5) generates 5 numbers starting from 0, exactly mirroring pseudocode's FOR i = 1 TO 5 in count but starting from a different number.",
+          ],
+          hintsMy: [
+            "Python ၏ range(5) သည် 0 မှ စတင်သော ဂဏန်း 5 ခု Generate လုပ်ပြီး Count တွင် Pseudocode ၏ FOR i = 1 TO 5 ကို အတိအကျ ရောင်ပြန်ဟပ်သော်လည်း မတူညီသော ဂဏန်းမှ စတင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Python Syntax Terms",
+      titleMy: "တွဲစပ်ကြမည် - Python Syntax ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w21-dm-1",
+          termEn: "Variable",
+          termMy: "Variable",
+          matchEn:
+              "A named location in memory that stores a value which can change while a program runs",
+          matchMy:
+              "Program Run နေစဉ် ပြောင်းလဲနိုင်သော တန်ဖိုးတစ်ခုကို သိမ်းဆည်းသော Memory ရှိ အမည်ပေးထားသော နေရာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w21-dm-2",
+          termEn: "Data type",
+          termMy: "Data Type",
+          matchEn:
+              "Categorises what kind of value a variable holds, such as integer, string, or boolean",
+          matchMy:
+              "Variable တစ်ခု၏ တန်ဖိုးသည် Integer, String (သို့) Boolean ကဲ့သို့ မည်သည့်အမျိုးအစား ဖြစ်ကြောင်း ခွဲခြားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w21-dm-3",
+          termEn: "Selection",
+          termMy: "Selection",
+          matchEn:
+              "Choosing between different paths of code using if/elif/else based on a condition",
+          matchMy:
+              "Condition တစ်ခုအပေါ် အခြေခံ၍ if/elif/else ကို အသုံးပြု၍ Code ၏ ကွဲပြားသော Path များကြား ရွေးချယ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w21-dm-4",
+          termEn: "Iteration",
+          termMy: "Iteration",
+          matchEn:
+              "Repeating a block of code multiple times using a for or while loop",
+          matchMy:
+              "For (သို့) While Loop ကို အသုံးပြု၍ Code Block တစ်ခုကို အကြိမ်ကြိမ် ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w21-dm-5",
+          termEn: "Boolean",
+          termMy: "Boolean",
+          matchEn: "A data type with only two possible values: True or False",
+          matchMy:
+              "ဖြစ်နိုင်သော တန်ဖိုး နှစ်ခုသာ ရှိသော Data Type - True (သို့) False",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Python Data Type?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Python Data Type လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Integer", "String", "Boolean"],
+        bucketsMy: ["Integer", "String", "Boolean"],
+        items: [
+          SortingItem(
+            id: "igcomp-w21-sort-1",
+            labelEn: "42",
+            labelMy: "42",
+            correctBucketEn: "Integer",
+            correctBucketMy: "Integer",
+          ),
+          SortingItem(
+            id: "igcomp-w21-sort-2",
+            labelEn: "'Zayar Lin'",
+            labelMy: "'Zayar Lin'",
+            correctBucketEn: "String",
+            correctBucketMy: "String",
+          ),
+          SortingItem(
+            id: "igcomp-w21-sort-3",
+            labelEn: "True",
+            labelMy: "True",
+            correctBucketEn: "Boolean",
+            correctBucketMy: "Boolean",
+          ),
+          SortingItem(
+            id: "igcomp-w21-sort-4",
+            labelEn: "False",
+            labelMy: "False",
+            correctBucketEn: "Boolean",
+            correctBucketMy: "Boolean",
+          ),
+          SortingItem(
+            id: "igcomp-w21-sort-5",
+            labelEn: "100",
+            labelMy: "100",
+            correctBucketEn: "Integer",
+            correctBucketMy: "Integer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's First Python Program",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ ပထမဆုံး Python Program",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's First Python Program",
+        titleMy: "Zayar Lin ၏ ပထမဆုံး Python Program",
+        passageEn:
+            "Sayar Ye Min gave the class a piece of pseudocode from an earlier term and asked them to translate it into real, runnable Python code, treating it as a direct bridge between the two skills rather than starting Python from nothing. The pseudocode read: INPUT score, IF score >= 50 THEN OUTPUT 'Pass' ELSE OUTPUT 'Fail' ENDIF. Zayar Lin recognised most of the structure immediately from the pseudocode term, and mapped each pseudocode keyword to its closest Python equivalent rather than trying to memorise Python syntax as something entirely new.\n\nHe translated INPUT into Python's input() function, remembering that input() always returns text, so he needed to wrap it in int() to treat the entered score as a number rather than a string of characters. He translated the IF/THEN/ELSE structure into Python's if/else syntax, being careful to end each header line with a colon and indent the code beneath it, since Python uses indentation rather than an explicit ENDIF keyword to show which lines belong inside which branch. His finished program read: score = int(input()), then on the next line if score >= 50: followed by an indented print('Pass'), then else: followed by an indented print('Fail').\n\nSayar Ye Min tested Zayar Lin's program with two inputs to check his understanding, not just whether the code happened to run. For an input of 75, the program correctly printed 'Pass', since 75 is greater than or equal to 50. For an input of 50 exactly, Zayar Lin traced through his own code before running it: the condition was score >= 50, using greater-than-or-equal-to rather than strictly greater-than, so 50 correctly satisfied the condition and the program printed 'Pass' rather than 'Fail' -- confirming he had carried the exact boundary logic from the pseudocode term into his first real Python program without introducing a subtle off-by-one bug.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Term ရှေ့ပိုင်းမှ Pseudocode အပိုင်းတစ်ခုကို Class ကို ပေးအပ်ပြီး Python ကို လုံးဝ အသစ်တစ်ခုအနေဖြင့် စတင်မည့်အစား ကျွမ်းကျင်မှု နှစ်ခုကြား တိုက်ရိုက် ချိတ်ဆက်ချက်အဖြစ် ဆက်ဆံလျက် Python Code အစစ်အမှန်၊ Run နိုင်သော Code သို့ ဘာသာပြန်ဆိုရန် တောင်းဆိုခဲ့သည်။ Pseudocode တွင် - INPUT score, IF score >= 50 THEN OUTPUT 'Pass' ELSE OUTPUT 'Fail' ENDIF ။ Pseudocode Term မှ ဖွဲ့စည်းပုံ အများစုကို Zayar Lin ချက်ချင်း အသိအမှတ်ပြုခဲ့ပြီး Python Syntax ကို လုံးဝ အသစ်တစ်ခုအဖြစ် အလွတ်ကျက်မှတ်ရန် ကြိုးစားမည့်အစား Pseudocode Keyword တစ်ခုစီကို ၎င်း၏ အနီးစပ်ဆုံး Python Equivalent သို့ Map လုပ်ခဲ့သည်။\n\nINPUT ကို Python ၏ input() Function သို့ သူ ဘာသာပြန်ဆိုခဲ့ပြီး input() သည် Text ကို အမြဲ Return ပြန်ကြောင်း သတိရလျက် ရိုက်ထည့်ထားသော Score ကို Character String အစား ဂဏန်းအဖြစ် ဆက်ဆံရန် int() ဖြင့် ၎င်းကို Wrap လုပ်ရန် လိုအပ်ခဲ့သည်။ IF/THEN/ELSE ဖွဲ့စည်းပုံကို Python ၏ if/else Syntax သို့ သူ ဘာသာပြန်ဆိုခဲ့ပြီး Header လိုင်းတစ်ခုစီကို Colon ဖြင့် အဆုံးသတ်ကာ ၎င်းအောက်ရှိ Code ကို Indent လုပ်ရန် သတိထားခဲ့သည် -- Python သည် ရှင်းလင်းသော ENDIF Keyword မဟုတ်ဘဲ လိုင်းများသည် Branch မည်သည်၏ အတွင်း ပါဝင်ကြောင်း ပြသရန် Indentation ကို အသုံးပြုသောကြောင့် ဖြစ်သည်။ သူ့ ပြီးဆုံးသော Program တွင် - score = int(input()), ထို့နောက် နောက်လိုင်းတွင် if score >= 50: ထို့နောက် Indent လုပ်ထားသော print('Pass'), ထို့နောက် else: ထို့နောက် Indent လုပ်ထားသော print('Fail') ။\n\nCode ၏ Run ဖြစ်ခြင်း ဖြစ်မဖြစ်သာမက Zayar Lin ၏ နားလည်မှုကို စစ်ဆေးရန် Input နှစ်ခုဖြင့် ဆရာရဲမင်း Program ကို Test လုပ်ခဲ့သည်။ 75 Input အတွက် 75 သည် 50 ထက် ကြီးသော (သို့) ညီသောကြောင့် Program သည် 'Pass' ကို မှန်ကန်စွာ Print ထုတ်ခဲ့သည်။ 50 Input အတိအကျအတွက် Run မလုပ်မီ သူ့ Code ကိုယ်တိုင်ကို Zayar Lin ခြေရာခံခဲ့သည် - Condition သည် score >= 50 ဖြစ်ပြီး Strictly-Greater-Than အစား Greater-Than-Or-Equal-To ကို အသုံးပြုထားသောကြောင့် 50 သည် Condition ကို မှန်ကန်စွာ ဖြည့်ဆည်းပေးပြီး Program သည် 'Fail' အစား 'Pass' ကို Print ထုတ်ခဲ့သည် -- Pseudocode Term မှ Boundary Logic အတိအကျကို ၎င်း၏ ပထမဆုံး Python Program အစစ်အမှန်ထဲသို့ Off-By-One Bug နူးညံ့စွာ မထည့်သွင်းဘဲ ယူဆောင်လာခဲ့ကြောင်း အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin wrap input() in int()?",
+            questionMy:
+                "Zayar Lin input() ကို int() ဖြင့် Wrap လုပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "input() always returns text, and he needed to treat the score as a number",
+              "int() makes the program run faster in every case",
+              "Python requires int() before every single line of code",
+              "input() cannot accept any numbers at all",
+            ],
+            optionsMy: [
+              "input() သည် Text ကို အမြဲ Return ပြန်ပြီး Score ကို ဂဏန်းအဖြစ် ဆက်ဆံရန် လိုအပ်ခဲ့ခြင်း",
+              "int() သည် အခြေအနေတိုင်းတွင် Program ကို ပို၍ မြန်စွာ Run စေခြင်း",
+              "Python သည် Code လိုင်းတိုင်း မတိုင်မီ int() လိုအပ်ခြင်း",
+              "input() သည် ဂဏန်းမည်သည်ကိုမျှ လက်ခံနိုင်ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about input() returning text."],
+            hintsMy: [
+              "input() Text Return ပြန်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does Python use instead of an ENDIF keyword?",
+            questionMy:
+                "Python သည် ENDIF Keyword အစား အဘယ်အရာကို အသုံးပြုသည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Indentation",
+              "A semicolon at the end of every line",
+              "Capital letters only",
+              "Double quotation marks",
+            ],
+            optionsMy: [
+              "Indentation",
+              "လိုင်းတိုင်း အဆုံးရှိ Semicolon",
+              "Capital Letter များသာ",
+              "Double Quotation Marks",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about indentation showing which lines belong where.",
+            ],
+            hintsMy: [
+              "Indentation က မည်သည့် လိုင်းများ မည်သည့်နေရာတွင် ပါဝင်ကြောင်း ပြသကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the output when the input was exactly 50?",
+            questionMy:
+                "Input သည် 50 အတိအကျ ဖြစ်ချိန် Output ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: ["Pass", "Fail", "No output at all", "An error message"],
+            optionsMy: [
+              "Pass",
+              "Fail",
+              "Output လုံးဝ မရှိခြင်း",
+              "Error Message",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the >= operator including 50.",
+            ],
+            hintsMy: [
+              ">= Operator က 50 ကို ထည့်သွင်းကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Python Basics",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Python Basics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Python's assignment operator is...",
+          questionMy: "Python ၏ Assignment Operator မှာ...",
+          optionsEn: [
+            "A single equals sign (=)",
+            "A colon (:)",
+            "A semicolon (;)",
+            "A double equals sign (==) always",
+          ],
+          optionsMy: [
+            "Equals Sign တစ်ခု (=)",
+            "Colon (:)",
+            "Semicolon (;)",
+            "Double Equals Sign (==) အမြဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Python uses indentation to...",
+          questionMy: "Python သည် Indentation ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Show which lines of code belong inside a block, such as an if branch",
+            "Make the program run faster",
+            "Replace all variable names",
+            "Delete unused code automatically",
+          ],
+          optionsMy: [
+            "If Branch ကဲ့သို့ Block တစ်ခု အတွင်း Code လိုင်းမည်သည် ပါဝင်ကြောင်း ပြသရန်",
+            "Program ကို ပို၍ မြန်စွာ Run စေရန်",
+            "Variable အမည်အားလုံးကို အစားထိုးရန်",
+            "အသုံးမပြုသော Code ကို အလိုအလျောက် ဖျက်ချရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A Boolean data type can hold...",
+          questionMy: "Boolean Data Type တစ်ခုသည် ...ကို ယူဆောင်နိုင်သည်",
+          optionsEn: [
+            "Only True or False",
+            "Any whole number",
+            "Any piece of text",
+            "A list of colours",
+          ],
+          optionsMy: [
+            "True (သို့) False သာ",
+            "ကိန်းပြည့် မည်သည်ကိုမဆို",
+            "Text အပိုင်း မည်သည်ကိုမဆို",
+            "အရောင် စာရင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 6, Week 22: "Arrays and Data Structures"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek22 = CourseWeekDef(
+  id: "course-igcse-computing-w22",
+  weekNumber: 22,
+  titleEn: "Arrays and Data Structures",
+  titleMy: "အေရေးများနှင့် ဒေတာ ဖွဲ့စည်းပုံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w22-d1",
+      dayNumber: 1,
+      titleEn: "Arrays, Searching and Sorting",
+      titleMy: "Arrays, Searching နှင့် Sorting",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a Python list called scores, what does scores[0] refer to?",
+          questionMy:
+              "scores ဟု ခေါ်သော Python List တစ်ခုတွင် scores[0] သည် အဘယ်အရာကို ရည်ညွှန်းသနည်း။",
+          optionsEn: [
+            "The very first item in the list, since indexing starts from 0",
+            "The last item in the list",
+            "The total number of items in the list",
+            "An error -- index 0 is never valid",
+          ],
+          optionsMy: [
+            "List ၏ ပထမဆုံး Item၊ Indexing သည် 0 မှ စတင်သောကြောင့်",
+            "List ၏ နောက်ဆုံး Item",
+            "List ရှိ Item စုစုပေါင်း အရေအတွက်",
+            "Error -- Index 0 သည် ဘယ်တော့မှ Valid မဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Python (and IGCSE pseudocode arrays) use zero-based indexing -- the first element is at position 0, not 1.",
+          ],
+          hintsMy: [
+            "Python (နှင့် IGCSE Pseudocode Array များ) သည် Zero-Based Indexing ကို အသုံးပြုသည် -- ပထမဆုံး Element သည် Position 1 တွင် မဟုတ်ဘဲ 0 တွင် ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the main advantage of a binary search over a linear search for a large sorted array?",
+          questionMy:
+              "ကြီးမားသော Sorted Array တစ်ခုအတွက် Linear Search ထက် Binary Search ၏ အဓိက အားသာချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Binary search repeatedly halves the search space, finding items much faster than checking every element one by one",
+            "Binary search works on unsorted arrays but linear search does not",
+            "Linear search can only be used on numbers, never text",
+            "Binary search always checks every single element in the array",
+          ],
+          optionsMy: [
+            "Binary Search သည် Search Space ကို ထပ်ခါထပ်ခါ ထက်ဝက် ပိုင်းခြားပြီး Element တစ်ခုချင်းစီ စစ်ဆေးခြင်းထက် Item များကို ပို၍ လျင်မြန်စွာ ရှာဖွေသည်",
+            "Binary Search သည် Sort မလုပ်ရသေးသော Array များတွင် အလုပ်လုပ်သော်လည်း Linear Search သည် မလုပ်ခြင်း",
+            "Linear Search ကို ဂဏန်းများအတွက်သာ အသုံးပြုနိုင်ပြီး Text အတွက် ဘယ်တော့မှ မသုံးနိုင်ခြင်း",
+            "Binary Search သည် Array ရှိ Element တစ်ခုချင်းစီ အားလုံးကို အမြဲ စစ်ဆေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Binary search requires a sorted array: it checks the middle element, then discards half the remaining items each time, based on whether the target is smaller or larger.",
+          ],
+          hintsMy: [
+            "Binary Search သည် Sort လုပ်ထားသော Array လိုအပ်သည် - အလယ် Element ကို စစ်ဆေးပြီး Target သည် ပို၍ သေး (သို့) ကြီးခြင်းအပေါ် အခြေခံ၍ ကျန်ရှိသော Item များ ထက်ဝက်ကို အကြိမ်တိုင်း ပယ်ချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In bubble sort, what happens during a single pass through the array?",
+          questionMy:
+              "Bubble Sort တွင် Array တစ်ခုလျှောက် Pass တစ်ကြိမ်အတွင်း အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "Adjacent elements are compared and swapped if they are in the wrong order, gradually bubbling the largest value toward the end",
+            "The entire array is deleted and rebuilt from scratch",
+            "Every element is compared to the array's middle element only",
+            "The array is instantly sorted in a single step with no comparisons at all",
+          ],
+          optionsMy: [
+            "အနီးကပ် Element များကို နှိုင်းယှဉ်ပြီး Order မှားနေပါက ချိန်းလဲသည်၊ အကြီးဆုံး တန်ဖိုးကို အဆုံးဆီသို့ ဖြည်းဖြည်းချင်း Bubble ပြုလုပ်သည်",
+            "Array တစ်ခုလုံးကို ဖျက်ချပြီး အစအဆုံးမှ ပြန်လည် တည်ဆောက်သည်",
+            "Element တိုင်းကို Array ၏ အလယ် Element နှင့်သာ နှိုင်းယှဉ်သည်",
+            "Array ကို Comparison လုံးဝ မပြုလုပ်ဘဲ Step တစ်ခုတည်းဖြင့် ချက်ချင်း Sort ပြုလုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Bubble sort compares each pair of neighbours in turn -- larger values gradually 'bubble' toward the end of the array with each full pass.",
+          ],
+          hintsMy: [
+            "Bubble Sort သည် အိမ်နီးချင်း အတွဲတစ်ခုစီကို အလှည့်ကျ နှိုင်းယှဉ်သည် -- Pass အပြည့်တစ်ကြိမ်စီနှင့်အတူ ကြီးမားသော တန်ဖိုးများသည် Array ၏ အဆုံးဆီသို့ ဖြည်းဖြည်းချင်း 'Bubble' ဖြစ်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Arrays and Algorithms Terms",
+      titleMy: "တွဲစပ်ကြမည် - Arrays နှင့် Algorithms ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w22-dm-1",
+          termEn: "1D array",
+          termMy: "1D Array",
+          matchEn:
+              "A single list of values, accessed by one index number, such as [10, 20, 30]",
+          matchMy:
+              "Index Number တစ်ခုဖြင့် ဝင်ရောက်ကြည့်ရှုနိုင်သော တန်ဖိုးများ List တစ်ခုတည်း၊ ဥပမာ [10, 20, 30]",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w22-dm-2",
+          termEn: "2D array",
+          termMy: "2D Array",
+          matchEn:
+              "A grid-like array accessed by two index numbers -- a row and a column",
+          matchMy:
+              "Index Number နှစ်ခု -- Row နှင့် Column ဖြင့် ဝင်ရောက်ကြည့်ရှုနိုင်သော ဇယားပုံစံ Array",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w22-dm-3",
+          termEn: "Linear search",
+          termMy: "Linear Search",
+          matchEn:
+              "Checking each element one by one from the start until the target is found or the array ends",
+          matchMy:
+              "Target ကို တွေ့ရှိသည်အထိ (သို့) Array အဆုံးအထိ Element တစ်ခုချင်းစီကို အစမှ တစ်ခုပြီးတစ်ခု စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w22-dm-4",
+          termEn: "Binary search",
+          termMy: "Binary Search",
+          matchEn:
+              "Repeatedly halving the search space of a sorted array to find a target much faster",
+          matchMy:
+              "Target ကို ပို၍ လျင်မြန်စွာ ရှာဖွေရန် Sort လုပ်ထားသော Array ၏ Search Space ကို ထပ်ခါထပ်ခါ ထက်ဝက် ပိုင်းခြားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w22-dm-5",
+          termEn: "Bubble sort",
+          termMy: "Bubble Sort",
+          matchEn:
+              "A sorting algorithm that repeatedly compares and swaps adjacent out-of-order elements",
+          matchMy:
+              "Order မှားနေသော အနီးကပ် Element များကို ထပ်ခါထပ်ခါ နှိုင်းယှဉ်ပြီး ချိန်းလဲသော Sorting Algorithm",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Linear or Binary Search Trait?",
+      titleMy: "စီစစ်ကြမည် - Linear (သို့) Binary Search ဂုဏ်သတ္တိ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Linear Search", "Binary Search"],
+        bucketsMy: ["Linear Search", "Binary Search"],
+        items: [
+          SortingItem(
+            id: "igcomp-w22-sort-1",
+            labelEn: "Works on both sorted and unsorted arrays",
+            labelMy:
+                "Sort လုပ်ထားသော နှင့် မလုပ်ရသေးသော Array နှစ်ခုစလုံးတွင် အလုပ်လုပ်သည်",
+            correctBucketEn: "Linear Search",
+            correctBucketMy: "Linear Search",
+          ),
+          SortingItem(
+            id: "igcomp-w22-sort-2",
+            labelEn: "Requires the array to be sorted first",
+            labelMy: "Array ကို ဦးစွာ Sort လုပ်ထားရန် လိုအပ်သည်",
+            correctBucketEn: "Binary Search",
+            correctBucketMy: "Binary Search",
+          ),
+          SortingItem(
+            id: "igcomp-w22-sort-3",
+            labelEn:
+                "Checks the middle element and discards half the remaining items",
+            labelMy:
+                "အလယ် Element ကို စစ်ဆေးပြီး ကျန်ရှိသော Item များ ထက်ဝက်ကို ပယ်ချသည်",
+            correctBucketEn: "Binary Search",
+            correctBucketMy: "Binary Search",
+          ),
+          SortingItem(
+            id: "igcomp-w22-sort-4",
+            labelEn: "Checks each element one after another from the start",
+            labelMy: "အစမှ Element တစ်ခုကို တစ်ခုပြီးတစ်ခု စစ်ဆေးသည်",
+            correctBucketEn: "Linear Search",
+            correctBucketMy: "Linear Search",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Search Algorithm Race",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Search Algorithm ပြိုင်ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Search Algorithm Race",
+        titleMy: "Zayar Lin ၏ Search Algorithm ပြိုင်ပွဲ",
+        passageEn:
+            "Sayar Ye Min set up a demonstration: a sorted array of 1000 numbers, and a challenge to find a specific target value using two different approaches, counting how many comparisons each approach needed in the worst case. Zayar Lin volunteered to trace through linear search first: starting at index 0, checking whether it matched the target, then moving to index 1 if not, and so on. He realised that in the worst case, where the target was the very last element or was not present at all, linear search would need to check all 1000 elements one by one before finishing.\n\nHe then traced through binary search on the same sorted array. Starting with the whole array of 1000 elements, he checked the middle element at index 500. Since the array was sorted, comparing the target to this middle value told him immediately which half of the array could safely be discarded -- if the target was smaller, the top half was eliminated entirely; if larger, the bottom half was eliminated. Either way, the search space halved from 1000 to roughly 500 after just one comparison. Repeating this halving process, the search space shrank to roughly 250, then 125, then about 63, then 32, then 16, then 8, then 4, then 2, then 1 -- reaching a single remaining element after only about 10 comparisons.\n\nSayar Ye Min asked Zayar Lin to explain the dramatic difference in his own words: why did binary search need roughly 10 comparisons where linear search might need up to 1000? Zayar Lin explained that each binary search comparison eliminated half of whatever remained, so the number of comparisons needed grew only logarithmically with the array size, while linear search's comparisons grew directly, one-to-one, with the number of elements. He noted the crucial trade-off, though: binary search's speed advantage only exists because the array must already be sorted -- if the data was not sorted, you would have to sort it first, and that sorting step itself takes real time and effort that a plain linear search never requires at all.",
+        passageMy:
+            "ဆရာရဲမင်းသည် သရုပ်ပြမှုတစ်ခု တည်ဆောက်ခဲ့သည် - ဂဏန်း 1000 Sort လုပ်ထားသော Array တစ်ခုနှင့် Approach ကွဲပြားနှစ်ခုကို အသုံးပြု၍ တိကျသော Target တန်ဖိုးကို ရှာဖွေမည့် စိန်ခေါ်မှုတစ်ခု၊ Approach တစ်ခုစီ Worst Case တွင် Comparison မည်မျှ လိုအပ်သည်ကို ရေတွက်ခြင်း။ Zayar Lin သည် Linear Search ကို ဦးစွာ ခြေရာခံရန် စေတနာ့ဝန်ထမ်း လုပ်ခဲ့သည် - Index 0 တွင် စတင်ပြီး Target နှင့် ကိုက်ညီခြင်း ရှိမရှိ စစ်ဆေးကာ ကိုက်ညီခြင်း မရှိပါက Index 1 သို့ ဆက်လက် ရွှေ့ခြင်း၊ ဤသို့ ဆက်လက်။ Worst Case တွင် Target သည် အဆုံးဆုံး Element ဖြစ်ခဲ့ (သို့) လုံးဝ မတွေ့ရှိခဲ့လျှင် Linear Search သည် ပြီးမြောက်မီ Element 1000 ခုလုံးကို တစ်ခုချင်းစီ စစ်ဆေးရန် လိုအပ်လိမ့်မည်ဟု သူ သိမြင်ခဲ့သည်။\n\nထို Sort လုပ်ထားသော Array တစ်ခုတည်းပေါ်တွင် Binary Search ကို ဆက်လက် ခြေရာခံခဲ့သည်။ Element 1000 ခု Array တစ်ခုလုံးဖြင့် စတင်ပြီး Index 500 ရှိ အလယ် Element ကို စစ်ဆေးခဲ့သည်။ Array သည် Sort လုပ်ထားသောကြောင့် Target ကို ဤ အလယ်တန်ဖိုးနှင့် နှိုင်းယှဉ်ခြင်းက Array ၏ မည်သည့် ထက်ဝက်ကို လုံခြုံစွာ ပယ်ချနိုင်သည်ကို ချက်ချင်း ပြောပြခဲ့သည် -- Target သည် ပို၍ သေးလျှင် ထိပ်ဝက်ကို လုံးဝ ဖယ်ရှားခဲ့ပြီး ပို၍ ကြီးလျှင် အောက်ဝက်ကို ဖယ်ရှားခဲ့သည်။ Comparison တစ်ကြိမ်ပြီးနောက် Search Space သည် 1000 မှ 500 ခန့်သို့ ထက်ဝက် ပိုင်းသွားခဲ့သည်။ ဤ ထက်ဝက်ပိုင်းခြင်း Process ကို ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းဖြင့် Search Space သည် 250 ခန့်၊ ထို့နောက် 125၊ ထို့နောက် 63 ခန့်၊ ထို့နောက် 32၊ ထို့နောက် 16၊ ထို့နောက် 8၊ ထို့နောက် 4၊ ထို့နောက် 2၊ ထို့နောက် 1 သို့ ကျုံ့ချခဲ့သည် -- Comparison ခန့် 10 ကြိမ်ပြီးနောက်သာ ကျန်ရှိသော Element တစ်ခုတည်းသို့ ရောက်ရှိခဲ့သည်။\n\nထူးခြားသော ကွာခြားချက်ကို သူ့ကိုယ်ပိုင် စကားလုံးများဖြင့် ရှင်းပြရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည် - Linear Search သည် 1000 အထိ လိုအပ်နိုင်သော နေရာတွင် Binary Search သည် အဘယ်ကြောင့် Comparison ခန့် 10 ကြိမ်သာ လိုအပ်သနည်း။ Binary Search Comparison တစ်ခုစီသည် ကျန်ရှိသမျှ၏ ထက်ဝက်ကို ဖယ်ရှားသောကြောင့် လိုအပ်သော Comparison အရေအတွက်သည် Array အရွယ်အစားနှင့်အတူ Logarithmic စွာသာ တိုးလာသော်လည်း Linear Search ၏ Comparison များသည် Element အရေအတွက်နှင့်အတူ Element တစ်ခုနှင့်တစ်ခု၊ တိုက်ရိုက် တိုးလာကြောင်း Zayar Lin ရှင်းပြခဲ့သည်။ သို့သော် အရေးကြီးသော ဖလှယ်ချက်ကို သူ မှတ်ချက်ချခဲ့သည် - Binary Search ၏ အမြန်နှုန်း အားသာချက်သည် Array ကို ကြိုတင် Sort လုပ်ထားရမည်သောကြောင့်သာ ရှိသည် -- Data ကို Sort မလုပ်ရသေးလျှင် ၎င်းကို ဦးစွာ Sort လုပ်ရမည်ဖြစ်ပြီး ထို Sort Step ကိုယ်တိုင်သည် ရိုးရှင်းသော Linear Search ဘယ်တော့မှ မလိုအပ်သော အချိန်နှင့် ကြိုးစားအားထုတ်မှု အစစ်အမှန်ကို ယူဆောင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how many elements might linear search need to check in the worst case?",
+            questionMy:
+                "Worst Case တွင် Linear Search Element မည်မျှ စစ်ဆေးရန် လိုအပ်နိုင်သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "All 1000 elements",
+              "Only 1 element",
+              "Exactly 10 elements",
+              "Exactly 500 elements",
+            ],
+            optionsMy: [
+              "Element 1000 ခုလုံး",
+              "Element 1 ခုသာ",
+              "Element 10 ခု အတိအကျ",
+              "Element 500 ခု အတိအကျ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, roughly how many comparisons did binary search need to reach a single element?",
+            questionMy:
+                "Element တစ်ခုတည်းသို့ ရောက်ရှိရန် Binary Search Comparison ခန့် မည်မျှ လိုအပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["About 10", "About 1000", "About 500", "About 1"],
+            optionsMy: ["ခန့် 10", "ခန့် 1000", "ခန့် 500", "ခန့် 1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what is the crucial trade-off of binary search's speed advantage?",
+            questionMy:
+                "Binary Search ၏ အမြန်နှုန်း အားသာချက်၏ အရေးကြီးသော ဖလှယ်ချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The array must already be sorted, and sorting itself takes real time and effort",
+              "Binary search never actually works on any array",
+              "Binary search always takes longer than linear search",
+              "There is no trade-off of any kind",
+            ],
+            optionsMy: [
+              "Array ကို ကြိုတင် Sort လုပ်ထားရမည်ဖြစ်ပြီး Sort ခြင်းကိုယ်တိုင်သည် အချိန်နှင့် ကြိုးစားအားထုတ်မှု အစစ်အမှန်ယူဆောင်ခြင်း",
+              "Binary Search သည် Array မည်သည့်ပေါ်တွင်မျှ အမှန်တကယ် အလုပ်မလုပ်ခြင်း",
+              "Binary Search သည် Linear Search ထက် အမြဲ ပို၍ ကြာမြင့်ခြင်း",
+              "ဖလှယ်ချက် မည်သည့်အမျိုးအစားမျှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Arrays and Algorithms",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Arrays and Algorithms",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A 2D array is best described as...",
+          questionMy: "2D Array ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A grid accessed by a row and column index",
+            "A single value with no index at all",
+            "Only usable for text, never numbers",
+            "A type of sorting algorithm",
+          ],
+          optionsMy: [
+            "Row နှင့် Column Index ဖြင့် ဝင်ရောက်ကြည့်ရှုနိုင်သော ဇယား",
+            "Index လုံးဝ မပါသော တန်ဖိုးတစ်ခုတည်း",
+            "ဂဏန်းများအတွက် ဘယ်တော့မှ မဟုတ်ဘဲ Text အတွက်သာ အသုံးဝင်ခြင်း",
+            "Sorting Algorithm အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Binary search requires the array to be...",
+          questionMy: "Binary Search သည် Array ကို ...ရန် တောင်းဆိုသည်",
+          optionsEn: [
+            "Sorted",
+            "Exactly 10 elements long",
+            "Filled only with text",
+            "Completely empty",
+          ],
+          optionsMy: [
+            "Sort လုပ်ထားရန်",
+            "Element 10 ခု အတိအကျ ရှည်ရန်",
+            "Text ဖြင့်သာ ဖြည့်ထားရန်",
+            "လုံးဝ ဗလာ ဖြစ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Python, the first item of a list called items is accessed using...",
+          questionMy:
+              "Python တွင် items ဟု ခေါ်သော List ၏ ပထမဆုံး Item ကို ...ဖြင့် ဝင်ရောက်ကြည့်ရှုသည်",
+          optionsEn: ["items[0]", "items[1]", "items[-1]", "items[first]"],
+          optionsMy: ["items[0]", "items[1]", "items[-1]", "items[first]"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 6, Week 23: "Functions and Procedures"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek23 = CourseWeekDef(
+  id: "course-igcse-computing-w23",
+  weekNumber: 23,
+  titleEn: "Functions and Procedures",
+  titleMy: "ဖန်ရှင်များနှင့် ပရိုစီဂျာများ (Subprograms)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w23-d1",
+      dayNumber: 1,
+      titleEn: "Parameters, Return Values and Scope",
+      titleMy: "Parameters, Return Values နှင့် Scope",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a function and a procedure in most programming contexts?",
+          questionMy:
+              "Programming Context အများစုတွင် Function နှင့် Procedure ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A function returns a value to the code that called it; a procedure performs actions but does not return a value",
+            "A function can never accept any parameters",
+            "A procedure always runs faster than a function",
+            "Functions and procedures are exactly identical with no meaningful difference",
+          ],
+          optionsMy: [
+            "Function သည် ၎င်းကို ခေါ်ယူသော Code သို့ တန်ဖိုးတစ်ခု ပြန်ပေးသော်လည်း Procedure သည် Action များ လုပ်ဆောင်သော်လည်း တန်ဖိုး မပြန်ပေးခြင်း",
+            "Function သည် Parameter မည်သည်ကိုမျှ ဘယ်တော့မှ လက်ခံ၍ မရနိုင်ခြင်း",
+            "Procedure သည် Function ထက် အမြဲ ပို၍ မြန်စွာ Run ခြင်း",
+            "Function နှင့် Procedure သည် အဓိပ္ပာယ်ရှိသော ကွာခြားချက် မရှိဘဲ အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a function like a calculator button that gives back an answer; a procedure is like a command that just does something, such as printing text to screen.",
+          ],
+          hintsMy: [
+            "Function ကို အဖြေတစ်ခု ပြန်ပေးသော Calculator Button တစ်ခုကဲ့သို့ စဉ်းစားကြည့်ပါ; Procedure သည် Screen ပေါ်တွင် Text Print ထုတ်ခြင်းကဲ့သို့ တစ်ခုခုကိုသာ လုပ်ဆောင်သော Command တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is a 'parameter' in the context of a subprogram?",
+          questionMy:
+              "Subprogram တစ်ခု၏ Context တွင် 'Parameter' ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A value passed into a function or procedure when it is called, letting it work with different inputs each time",
+            "The name of the subprogram itself",
+            "An error message produced when a subprogram fails",
+            "A comment explaining what the subprogram does",
+          ],
+          optionsMy: [
+            "Function (သို့) Procedure ကို ခေါ်ယူသောအခါ ၎င်းသို့ ဖြတ်သန်းပေးသော တန်ဖိုးတစ်ခု၊ အကြိမ်တိုင်း မတူညီသော Input များဖြင့် အလုပ်လုပ်နိုင်စေသည်",
+            "Subprogram ကိုယ်တိုင်၏ အမည်",
+            "Subprogram Fail ဖြစ်ချိန် ထုတ်ပေးသော Error Message",
+            "Subprogram က အဘယ်အရာ လုပ်ဆောင်ကြောင်း ရှင်းပြသော Comment",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In def calculateArea(length, width):, length and width are parameters -- placeholders the function fills in with whatever values are passed when it is called.",
+          ],
+          hintsMy: [
+            "def calculateArea(length, width): တွင် length နှင့် width သည် Parameter များ ဖြစ်သည် -- ခေါ်ယူချိန် ဖြတ်သန်းပေးသော မည်သည့် တန်ဖိုးဖြင့်မဆို Function က ဖြည့်စွက်ပေးသော Placeholder များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does 'local scope' mean for a variable defined inside a function?",
+          questionMy:
+              "Function တစ်ခု အတွင်းတွင် သတ်မှတ်ထားသော Variable တစ်ခုအတွက် 'Local Scope' ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The variable only exists and can only be accessed while that specific function is running",
+            "The variable can be accessed from anywhere in the entire program at any time",
+            "The variable is automatically deleted from the computer's hard drive",
+            "The variable becomes a global variable the moment the function ends",
+          ],
+          optionsMy: [
+            "ထို တိကျသော Function Run နေစဉ်သာ Variable ရှိနေပြီး ဝင်ရောက်ကြည့်ရှုနိုင်သည်",
+            "Variable ကို Program တစ်ခုလုံးရှိ မည်သည့်နေရာမှမဆို အချိန်မရွေး ဝင်ရောက်ကြည့်ရှုနိုင်သည်",
+            "Variable ကို ကွန်ပျူတာ၏ Hard Drive မှ အလိုအလျောက် ဖျက်ချသည်",
+            "Function ပြီးဆုံးသည့် ခဏတွင် Variable သည် Global Variable ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Local scope means the variable is 'private' to that function -- it cannot be seen or used by code outside it, and it disappears once the function finishes.",
+          ],
+          hintsMy: [
+            "Local Scope ဆိုသည်မှာ Variable သည် ထို Function အတွက် 'Private' ဖြစ်သည်ဟု ဆိုလိုသည် -- ၎င်းအပြင်ရှိ Code က ကြည့်ရှု (သို့) အသုံးပြု၍ မရနိုင်ဘဲ Function ပြီးဆုံးသည်နှင့် ပျောက်ကွယ်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Subprogram Terms",
+      titleMy: "တွဲစပ်ကြမည် - Subprogram ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w23-dm-1",
+          termEn: "Function",
+          termMy: "Function",
+          matchEn:
+              "A subprogram that performs a task and returns a value to the caller",
+          matchMy:
+              "Task တစ်ခု လုပ်ဆောင်ပြီး Caller သို့ တန်ဖိုးတစ်ခု ပြန်ပေးသော Subprogram",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w23-dm-2",
+          termEn: "Procedure",
+          termMy: "Procedure",
+          matchEn:
+              "A subprogram that performs a task but does not return a value",
+          matchMy:
+              "Task တစ်ခု လုပ်ဆောင်သော်လည်း တန်ဖိုး မပြန်ပေးသော Subprogram",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w23-dm-3",
+          termEn: "Parameter",
+          termMy: "Parameter",
+          matchEn: "A value passed into a subprogram when it is called",
+          matchMy:
+              "Subprogram ကို ခေါ်ယူသောအခါ ၎င်းသို့ ဖြတ်သန်းပေးသော တန်ဖိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w23-dm-4",
+          termEn: "Local scope",
+          termMy: "Local Scope",
+          matchEn:
+              "A variable that only exists and is accessible inside the subprogram where it was defined",
+          matchMy:
+              "သတ်မှတ်ထားသည့် Subprogram အတွင်းသာ ရှိနေပြီး ဝင်ရောက်ကြည့်ရှုနိုင်သော Variable",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w23-dm-5",
+          termEn: "Global scope",
+          termMy: "Global Scope",
+          matchEn: "A variable accessible from anywhere in the entire program",
+          matchMy:
+              "Program တစ်ခုလုံးရှိ မည်သည့်နေရာမှမဆို ဝင်ရောက်ကြည့်ရှုနိုင်သော Variable",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Function or Procedure Job?",
+      titleMy: "စီစစ်ကြမည် - Function (သို့) Procedure တာဝန်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Function (Returns a Value)",
+          "Procedure (No Return Value)",
+        ],
+        bucketsMy: [
+          "Function (တန်ဖိုး ပြန်ပေးသည်)",
+          "Procedure (တန်ဖိုး ပြန်မပေးပါ)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w23-sort-1",
+            labelEn: "calculateArea(length, width), giving back a number",
+            labelMy: "calculateArea(length, width), ဂဏန်းတစ်ခု ပြန်ပေးသည်",
+            correctBucketEn: "Function (Returns a Value)",
+            correctBucketMy: "Function (တန်ဖိုး ပြန်ပေးသည်)",
+          ),
+          SortingItem(
+            id: "igcomp-w23-sort-2",
+            labelEn:
+                "printWelcomeMessage(), which just displays text on screen",
+            labelMy: "printWelcomeMessage(), Screen ပေါ်တွင် Text ပြသရုံသာ",
+            correctBucketEn: "Procedure (No Return Value)",
+            correctBucketMy: "Procedure (တန်ဖိုး ပြန်မပေးပါ)",
+          ),
+          SortingItem(
+            id: "igcomp-w23-sort-3",
+            labelEn:
+                "convertCelsiusToFahrenheit(temp), giving back a converted number",
+            labelMy:
+                "convertCelsiusToFahrenheit(temp), ပြောင်းလဲထားသော ဂဏန်း ပြန်ပေးသည်",
+            correctBucketEn: "Function (Returns a Value)",
+            correctBucketMy: "Function (တန်ဖိုး ပြန်ပေးသည်)",
+          ),
+          SortingItem(
+            id: "igcomp-w23-sort-4",
+            labelEn: "clearScreen(), which just clears the display",
+            labelMy: "clearScreen(), Display ကို ရှင်းရုံသာ",
+            correctBucketEn: "Procedure (No Return Value)",
+            correctBucketMy: "Procedure (တန်ဖိုး ပြန်မပေးပါ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Scope Bug",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Scope Bug",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Scope Bug",
+        titleMy: "Zayar Lin ၏ Scope Bug",
+        passageEn:
+            "Zayar Lin wrote a function meant to double a number and return the result: def doubleValue(number): result = number times 2; return result. He called it in his main program with total = doubleValue(5), expecting total to hold 10 afterward, and printed total to check -- it correctly displayed 10, exactly as intended.\n\nCurious, he then tried printing the variable result directly in his main program, outside the function, expecting to also see the value 10 that had been calculated inside doubleValue. Instead, his program crashed with an error stating that result was not defined at all. Confused, he brought this to Sayar Ye Min, who asked him to recall the week's lesson on local scope before explaining anything further.\n\nZayar Lin worked through it himself: result was a variable created inside doubleValue, meaning it had local scope -- it only existed while doubleValue was actively running, and disappeared completely the moment the function finished and control returned to the main program. The value 10 itself had successfully been passed back out of the function through the return statement and stored in total, which was a separate variable in the main program's own scope, but the original result variable inside the function was already gone by the time his second print statement ran. Sayar Ye Min confirmed his reasoning was exactly right, and added the practical lesson: a function's return value is the sanctioned way to get a result out to the caller, while the function's own local variables remain permanently invisible and inaccessible from outside, no matter how tempting it might be to try reaching in and grabbing them directly.",
+        passageMy:
+            "Zayar Lin သည် ဂဏန်းတစ်ခုကို နှစ်ဆ တိုးမြှင့်ပြီး ရလဒ်ကို ပြန်ပေးရန် ရည်ရွယ်ထားသော Function တစ်ခု ရေးသားခဲ့သည် - def doubleValue(number): result = number times 2; return result ။ သူသည် ၎င်းကို ၎င်း၏ Main Program တွင် total = doubleValue(5) ဖြင့် ခေါ်ယူခဲ့ပြီး total သည် ထို့နောက် 10 ကို ယူဆောင်လိမ့်မည်ဟု မျှော်လင့်ကာ စစ်ဆေးရန် total ကို Print ထုတ်ခဲ့သည် -- ရည်ရွယ်ထားသည့်အတိုင်း 10 ကို မှန်ကန်စွာ ပြသခဲ့သည်။\n\nစိတ်ဝင်စားစွာ ၎င်းသည် doubleValue အတွင်း တွက်ချက်ထားသော တန်ဖိုး 10 ကိုပါ တွေ့မြင်ရလိမ့်မည်ဟု မျှော်လင့်ကာ Function ပြင်ပ၊ ၎င်း၏ Main Program တွင် Variable result ကို တိုက်ရိုက် Print ထုတ်ကြည့်ခဲ့သည်။ ယင်းအစား ၎င်း၏ Program သည် result ကို လုံးဝ သတ်မှတ်ထားခြင်း မရှိကြောင်း ဖော်ပြသော Error ဖြင့် Crash ဖြစ်ခဲ့သည်။ ရှုပ်ထွေးစွာ ၎င်းကို ဆရာရဲမင်းထံ ယူဆောင်ခဲ့ပြီး ဆက်လက် မရှင်းပြမီ Local Scope ဆိုင်ရာ အပတ်စဉ် သင်ခန်းစာကို ပြန်သတိရရန် သူ့ကို တောင်းဆိုခဲ့သည်။\n\nZayar Lin သည် ၎င်းကို ကိုယ်တိုင် ဖြေရှင်းခဲ့သည် - result သည် doubleValue အတွင်း ဖန်တီးထားသော Variable တစ်ခု ဖြစ်ပြီး Local Scope ရှိကြောင်း ဆိုလိုသည် -- doubleValue Active လုပ်ဆောင်နေချိန်သာ ၎င်း ရှိနေပြီး Function ပြီးဆုံးပြီး Control သည် Main Program သို့ ပြန်ရောက်သည့် ခဏတွင် လုံးဝ ပျောက်ကွယ်သွားသည်။ တန်ဖိုး 10 ကိုယ်တိုင်သည် Return Statement မှတစ်ဆင့် Function မှ အောင်မြင်စွာ ပြန်ဆက်သွားခဲ့ပြီး Main Program ကိုယ်ပိုင် Scope ရှိ ကွဲပြားသော Variable ဖြစ်သော total တွင် သိမ်းဆည်းခဲ့သော်လည်း ၎င်း၏ ဒုတိယ Print Statement Run ချိန်တွင် Function အတွင်းရှိ မူရင်း result Variable သည် ရှိပြီးသား ပျောက်သွားခဲ့သည်။ ၎င်း၏ ဆင်ခြင်တုံတရားသည် အတိအကျ မှန်ကန်ကြောင်း ဆရာရဲမင်း အတည်ပြုခဲ့ပြီး လက်တွေ့ သင်ခန်းစာကို ထပ်ဆောင်း ထည့်သွင်းခဲ့သည် - Function ၏ Return Value သည် Caller ထံသို့ ရလဒ်တစ်ခု ရရှိရန် ခွင့်ပြုထားသော နည်းလမ်း ဖြစ်ပြီး Function ကိုယ်ပိုင် Local Variable များသည် ပြင်ပမှ တိုက်ရိုက် ဝင်ရောက်ကြည့်ရှုပြီး ကိုင်တွယ်ရန် မည်မျှပင် ဆွဲဆောင်နေစေကာမူ အမြဲတမ်း မမြင်နိုင်ဘဲ ဝင်ရောက်ကြည့်ရှု၍ မရနိုင်ဘဲ ကျန်ရှိနေမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what value did total hold after the function call?",
+            questionMy:
+                "Function ခေါ်ယူပြီးနောက် total သည် မည်သည့် တန်ဖိုးကို ယူဆောင်ခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: ["10", "5", "0", "An error"],
+            optionsMy: ["10", "5", "0", "Error"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about printing total."],
+            hintsMy: [
+              "total ကို Print ထုတ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did printing result outside the function cause an error?",
+            questionMy:
+                "Function ပြင်ပတွင် result ကို Print ထုတ်ခြင်းသည် Error ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "result had local scope and no longer existed once the function finished",
+              "total was misspelled somewhere in the code",
+              "Python cannot print any numbers at all",
+              "The function was never actually called",
+            ],
+            optionsMy: [
+              "result သည် Local Scope ရှိပြီး Function ပြီးဆုံးသည့်အခါ ရှိတော့ခြင်း မရှိတော့ခြင်း",
+              "total ကို Code တစ်နေရာနေရာတွင် စာလုံးပေါင်း မှားယွင်းခဲ့ခြင်း",
+              "Python သည် ဂဏန်းမည်သည်ကိုမျှ လုံးဝ Print ထုတ်၍ မရနိုင်ခြင်း",
+              "Function ကို အမှန်တကယ် ဘယ်တော့မှ ခေါ်ယူခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining local scope."],
+            hintsMy: [
+              "Local Scope ကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what is the sanctioned way to get a result out of a function?",
+            questionMy:
+                "Function တစ်ခုမှ ရလဒ်တစ်ခု ရရှိရန် ခွင့်ပြုထားသော နည်းလမ်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The function's return value",
+              "Directly accessing the function's local variables from outside",
+              "Deleting the function entirely",
+              "Renaming the local variable to match the caller's variable",
+            ],
+            optionsMy: [
+              "Function ၏ Return Value",
+              "Function ၏ Local Variable များကို ပြင်ပမှ တိုက်ရိုက် ဝင်ရောက်ကြည့်ရှုခြင်း",
+              "Function ကို လုံးဝ ဖျက်ချခြင်း",
+              "Caller ၏ Variable နှင့် ကိုက်ညီရန် Local Variable ကို အမည်ပြန်ပေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Functions and Procedures",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Functions and Procedures",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A function differs from a procedure because a function...",
+          questionMy:
+              "Function ကို Procedure နှင့် ကွဲပြားစေသော အချက်မှာ Function သည်...",
+          optionsEn: [
+            "Returns a value to the code that called it",
+            "Can never accept parameters",
+            "Always runs before the main program starts",
+            "Cannot contain any loops",
+          ],
+          optionsMy: [
+            "ခေါ်ယူသော Code သို့ တန်ဖိုးတစ်ခု ပြန်ပေးခြင်း",
+            "Parameter မည်သည်ကိုမျှ ဘယ်တော့မှ လက်ခံ၍ မရနိုင်ခြင်း",
+            "Main Program မစတင်မီ အမြဲ Run ခြင်း",
+            "Loop မည်သည်ကိုမျှ ပါဝင်၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A locally-scoped variable...",
+          questionMy: "Local Scope ရှိသော Variable တစ်ခုသည်...",
+          optionsEn: [
+            "Only exists while its own subprogram is running",
+            "Is accessible from anywhere in the entire program forever",
+            "Is automatically saved to a file permanently",
+            "Never has an initial value",
+          ],
+          optionsMy: [
+            "၎င်း၏ Subprogram Run နေစဉ်သာ ရှိနေခြင်း",
+            "Program တစ်ခုလုံးရှိ မည်သည့်နေရာမှမဆို ထာဝရ ဝင်ရောက်ကြည့်ရှုနိုင်ခြင်း",
+            "File တစ်ခုသို့ အမြဲတမ်း အလိုအလျောက် သိမ်းဆည်းခြင်း",
+            "အစပိုင်း တန်ဖိုး ဘယ်တော့မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A parameter allows a subprogram to...",
+          questionMy: "Parameter တစ်ခုသည် Subprogram တစ်ခုကို ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Work with different input values each time it is called",
+            "Never be called more than once",
+            "Delete itself after running",
+            "Skip returning any value at all",
+          ],
+          optionsMy: [
+            "ခေါ်ယူတိုင်း မတူညီသော Input တန်ဖိုးများဖြင့် အလုပ်လုပ်ခြင်း",
+            "တစ်ကြိမ်ထက် ဘယ်တော့မှ ခေါ်ယူ၍ မရနိုင်ခြင်း",
+            "Run ပြီးနောက် ၎င်းကိုယ်တိုင် ဖျက်ချခြင်း",
+            "တန်ဖိုးမည်သည်ကိုမျှ ပြန်မပေးဘဲ ကျော်လွှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 6, Week 24 (Capstone/Boss Week): "Python
+// Programming Project"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek24 = CourseWeekDef(
+  id: "course-igcse-computing-w24",
+  weekNumber: 24,
+  titleEn: "Python Programming Project",
+  titleMy: "Python ပရိုဂရမ်ရေးဆွဲရေး ပရောဂျက်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w24-d1",
+      dayNumber: 1,
+      titleEn: "Application Build and Error Handling",
+      titleMy: "Application တည်ဆောက်ခြင်းနှင့် Error Handling",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A console application needs to search a list of 50 student names for a match. Which structure best combines this term's concepts?",
+          questionMy:
+              "Console Application တစ်ခုသည် ကျောင်းသားအမည် 50 List တွင် ကိုက်ညီသည့်အရာကို ရှာဖွေရန် လိုအပ်သည်။ ဤ Term ၏ သဘောတရားများကို မည်သည့် ဖွဲ့စည်းပုံက အကောင်းဆုံး ပေါင်းစပ်ပေးသနည်း။",
+          optionsEn: [
+            "A search function that takes the list and a target name as parameters, looping through the array and returning whether it was found",
+            "A single variable with no array, function, or loop at all",
+            "A function with no parameters that always searches the same fixed name",
+            "An array with no search logic whatsoever",
+          ],
+          optionsMy: [
+            "List နှင့် Target Name ကို Parameter များအဖြစ် ယူပြီး Array တစ်လျှောက် Loop လုပ်ကာ တွေ့ရှိခြင်း ရှိမရှိ ပြန်ပေးသော Search Function",
+            "Array, Function (သို့) Loop မည်သည်မှ မပါဘဲ Variable တစ်ခုတည်း",
+            "Parameter မပါဘဲ တည်ငြိမ်သော အမည်တစ်ခုတည်းကို အမြဲ ရှာဖွေသော Function",
+            "Search Logic မည်သည်မှ လုံးဝ မပါသော Array",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Combining a parameterised function with a loop over an array is exactly how a reusable, general-purpose search tool is built.",
+          ],
+          hintsMy: [
+            "Array တစ်ခုအပေါ် Loop နှင့် Parameter ပါသော Function ကို ပေါင်းစပ်ခြင်းသည် ပြန်လည်အသုံးပြုနိုင်သော၊ ယေဘုယျ ရည်ရွယ်ချက် Search Tool ကို တည်ဆောက်ပုံ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A program reads a number from the user, but the user might accidentally type letters instead. What testing category does this represent?",
+          questionMy:
+              "Program တစ်ခုသည် User ထံမှ ဂဏန်းတစ်ခု ဖတ်ရှုသော်လည်း User သည် အက္ခရာများကို မတော်တဆ ရိုက်ထည့်နိုင်သည်။ ၎င်းသည် Testing အမျိုးအစား မည်သည်ကို ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "Erroneous test data",
+            "Normal test data",
+            "Boundary test data",
+            "No test data is needed at all",
+          ],
+          optionsMy: [
+            "Erroneous Test Data",
+            "Normal Test Data",
+            "Boundary Test Data",
+            "Test Data မည်သည်မှ လုံးဝ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Erroneous data is deliberately invalid or unexpected input, used to check a program handles mistakes gracefully rather than crashing.",
+          ],
+          hintsMy: [
+            "Erroneous Data သည် ရည်ရွယ်ချက်ရှိရှိ Invalid (သို့) မမျှော်လင့်ထားသော Input ဖြစ်ပြီး Program သည် Crash ဖြစ်မည့်အစား အမှားများကို ချောမွေ့စွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးရန် အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a well-designed program, why should a search function's result be checked before using it, rather than assumed to always succeed?",
+          questionMy:
+              "ကောင်းစွာ ဒီဇိုင်းဆွဲထားသော Program တစ်ခုတွင် Search Function ၏ ရလဒ်ကို အမြဲ အောင်မြင်လိမ့်မည်ဟု ယူဆမည့်အစား အသုံးမပြုမီ အဘယ်ကြောင့် စစ်ဆေးသင့်သနည်း။",
+          optionsEn: [
+            "The target might not exist in the array, and using an unfound result without checking can cause the program to crash or behave incorrectly",
+            "Checking the result always makes the program run slower with no benefit",
+            "A search function can never actually fail under any circumstances",
+            "Only procedures need their results checked, never functions",
+          ],
+          optionsMy: [
+            "Target သည် Array တွင် မရှိနိုင်ပြီး မတွေ့ရှိသော ရလဒ်ကို မစစ်ဆေးဘဲ အသုံးပြုခြင်းသည် Program ကို Crash ဖြစ်စေခြင်း (သို့) မှားယွင်းစွာ ပြုမူစေနိုင်ခြင်း",
+            "ရလဒ်ကို စစ်ဆေးခြင်းသည် အကျိုးကျေးဇူး မရှိဘဲ Program ကို အမြဲ ပို၍ နှေးကွေးစေခြင်း",
+            "Search Function တစ်ခုသည် မည်သည့်အခြေအနေတွင်မဆို ဘယ်တော့မှ Fail မဖြစ်နိုင်ခြင်း",
+            "Procedure များသာ ၎င်းတို့၏ ရလဒ်ကို စစ်ဆေးရန် လိုအပ်ပြီး Function များ ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Good programs handle the 'not found' case explicitly, rather than assuming success and crashing when a search comes back empty.",
+          ],
+          hintsMy: [
+            "ကောင်းသော Program များသည် အောင်မြင်မှုကို ယူဆပြီး Search တစ်ခု ဗလာ ပြန်လာချိန် Crash ဖြစ်မည့်အစား 'Not Found' Case ကို ရှင်းလင်းစွာ ကိုင်တွယ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Python Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 Python ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w24-dm-1",
+          termEn: "Zero-based indexing",
+          termMy: "Zero-Based Indexing",
+          matchEn:
+              "The array/list convention where the first element is at position 0, not 1",
+          matchMy:
+              "ပထမဆုံး Element သည် Position 1 တွင် မဟုတ်ဘဲ 0 တွင် ရှိသော Array/List Convention",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w24-dm-2",
+          termEn: "Binary search",
+          termMy: "Binary Search",
+          matchEn:
+              "A fast search method requiring a sorted array, halving the search space each comparison",
+          matchMy:
+              "Sort လုပ်ထားသော Array လိုအပ်ပြီး Comparison တိုင်းတွင် Search Space ကို ထက်ဝက် ပိုင်းသော အမြန်နှုန်း Search နည်းလမ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w24-dm-3",
+          termEn: "Return value",
+          termMy: "Return Value",
+          matchEn:
+              "The result a function sends back to the code that called it",
+          matchMy: "Function က ၎င်းကို ခေါ်ယူသော Code သို့ ပြန်ပို့သော ရလဒ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w24-dm-4",
+          termEn: "Erroneous test data",
+          termMy: "Erroneous Test Data",
+          matchEn:
+              "Deliberately invalid or unexpected input used to test whether a program handles mistakes gracefully",
+          matchMy:
+              "Program သည် အမှားများကို ချောမွေ့စွာ ကိုင်တွယ်ခြင်း ရှိမရှိ Test လုပ်ရန် အသုံးပြုသော ရည်ရွယ်ချက်ရှိရှိ Invalid (သို့) မမျှော်လင့်ထားသော Input",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Normal, Boundary or Erroneous Data?",
+      titleMy: "စီစစ်ကြမည် - Normal, Boundary (သို့) Erroneous Data",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Normal Test Data",
+          "Boundary Test Data",
+          "Erroneous Test Data",
+        ],
+        bucketsMy: [
+          "Normal Test Data",
+          "Boundary Test Data",
+          "Erroneous Test Data",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w24-sort-1",
+            labelEn: "A test score of 75 out of a 0-100 range",
+            labelMy: "0-100 Range ရှိ Test Score 75",
+            correctBucketEn: "Normal Test Data",
+            correctBucketMy: "Normal Test Data",
+          ),
+          SortingItem(
+            id: "igcomp-w24-sort-2",
+            labelEn: "A test score of exactly 100 (the maximum allowed)",
+            labelMy: "Test Score 100 အတိအကျ (ခွင့်ပြုထားသော အများဆုံး)",
+            correctBucketEn: "Boundary Test Data",
+            correctBucketMy: "Boundary Test Data",
+          ),
+          SortingItem(
+            id: "igcomp-w24-sort-3",
+            labelEn: "Typing the letters 'abc' where a number was expected",
+            labelMy:
+                "ဂဏန်း မျှော်လင့်ထားသောနေရာတွင် အက္ခရာ 'abc' ရိုက်ထည့်ခြင်း",
+            correctBucketEn: "Erroneous Test Data",
+            correctBucketMy: "Erroneous Test Data",
+          ),
+          SortingItem(
+            id: "igcomp-w24-sort-4",
+            labelEn: "A test score of exactly 0 (the minimum allowed)",
+            labelMy: "Test Score 0 အတိအကျ (ခွင့်ပြုထားသော အနည်းဆုံး)",
+            correctBucketEn: "Boundary Test Data",
+            correctBucketMy: "Boundary Test Data",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Student Lookup Tool",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Student Lookup Tool",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Student Lookup Tool",
+        titleMy: "Zayar Lin ၏ Student Lookup Tool",
+        passageEn:
+            "For the Term 6 capstone, Sayar Ye Min asked every student to build a complete console application combining arrays, subprograms, and error handling: a student lookup tool that stored a list of student names and let a user search for one by typing a name, printing whether that student was found. Zayar Lin began by designing a function, findStudent, taking the list of names and a search term as parameters, looping through the array with a for loop and comparing each name to the search term, exactly the linear search pattern from earlier in the term.\n\nHe made findStudent return True if a match was found during the loop, and made sure the function only returned False after the loop had checked every single name without success, rather than returning False too early after just one non-match -- a bug he had made and fixed while testing, catching it by tracing his own code with a name he knew was later in the list. In his main program, he stored the function's return value in a variable called wasFound, and used an if statement to print 'Student found' or 'Student not found' depending on that value, rather than assuming the search had always succeeded.\n\nFor testing, Zayar Lin deliberately chose three categories of test data rather than only trying names he expected to work. Normal data was a name he knew existed partway through the list. Boundary data was the very first and very last names in the list, checking his loop correctly covered both ends rather than accidentally skipping one. Erroneous data was an empty string entered instead of a name, which he discovered initially caused his program to behave strangely, matching against blank entries in unexpected ways -- leading him to add a presence check before the search even began, rejecting an empty search term immediately rather than letting it reach the search logic at all. He noted in his final reflection that this three-category testing approach, learned across the whole term, was what actually caught the bugs his own assumptions had missed.",
+        passageMy:
+            "Term 6 Capstone အတွက် Array, Subprogram နှင့် Error Handling ကို ပေါင်းစပ်ထားသော Console Application အပြည့်အစုံ တည်ဆောက်ရန် ဆရာရဲမင်းက ကျောင်းသားတိုင်းကို တောင်းဆိုခဲ့သည် - ကျောင်းသား အမည် List တစ်ခုကို သိမ်းဆည်းပြီး User က အမည်တစ်ခု ရိုက်ထည့်၍ ရှာဖွေနိုင်စေပြီး ထို ကျောင်းသားကို တွေ့ရှိခြင်း ရှိမရှိ Print ထုတ်ပေးသော Student Lookup Tool ။ ကျောင်းသား အမည်များ List နှင့် Search Term ကို Parameter များအဖြစ် ယူသော findStudent Function တစ်ခု ဒီဇိုင်းဆွဲခြင်းဖြင့် Zayar Lin စတင်ခဲ့ပြီး For Loop ဖြင့် Array တစ်လျှောက် Loop လုပ်ကာ အမည်တစ်ခုစီကို Search Term နှင့် နှိုင်းယှဉ်ခဲ့သည်၊ Term ရှေ့ပိုင်းမှ Linear Search Pattern အတိအကျ ဖြစ်သည်။\n\nLoop အတွင်း ကိုက်ညီမှု တွေ့ရှိပါက True ပြန်ပေးရန် findStudent ကို သူ ပြုလုပ်ခဲ့ပြီး Match မတွေ့ခြင်း တစ်ကြိမ်ပြီးနောက် ချက်ချင်း False ပြန်ပေးမည့်အစား Loop က အမည်တိုင်းကို အောင်မြင်မှု မရှိဘဲ စစ်ဆေးပြီးမှသာ False ပြန်ပေးကြောင်း Function ကို သေချာစေခဲ့သည် -- ၎င်းသည် Testing လုပ်စဉ် သူ ပြုလုပ်မိပြီး ပြင်ဆင်ခဲ့သော Bug ဖြစ်ပြီး List ၏ နောက်ပိုင်းတွင် ရှိကြောင်း သိထားသော အမည်တစ်ခုဖြင့် သူ့ Code ကိုယ်တိုင်ကို Trace ခြင်းဖြင့် ဖမ်းဆီးခဲ့သည်။ ၎င်း၏ Main Program တွင် Function ၏ Return Value ကို wasFound ဟု ခေါ်သော Variable တွင် သိမ်းဆည်းခဲ့ပြီး Search သည် အမြဲ အောင်မြင်ခဲ့သည်ဟု ယူဆမည့်အစား ထို Value အပေါ် မူတည်၍ 'Student Found' (သို့) 'Student Not Found' ကို Print ထုတ်ရန် If Statement ကို အသုံးပြုခဲ့သည်။\n\nTesting အတွက် ၎င်း အလုပ်လုပ်လိမ့်မည်ဟု မျှော်လင့်ထားသော အမည်များကိုသာ ကြိုးစားမည့်အစား Test Data အမျိုးအစား သုံးခုကို Zayar Lin ရည်ရွယ်ချက်ရှိရှိ ရွေးချယ်ခဲ့သည်။ Normal Data သည် List ၏ ထက်ဝက်ခန့်တွင် ရှိကြောင်း သိထားသော အမည်တစ်ခု ဖြစ်သည်။ Boundary Data သည် List ၏ ပထမဆုံးနှင့် နောက်ဆုံး အမည်များ ဖြစ်ပြီး ၎င်း၏ Loop သည် တစ်ဖက်ဖက်ကို မတော်တဆ ကျော်လွှားခြင်း မရှိဘဲ နှစ်ဖက်စလုံးကို မှန်ကန်စွာ ဖုံးလွှမ်းခြင်း ရှိမရှိ စစ်ဆေးခဲ့သည်။ Erroneous Data သည် အမည်အစား ရိုက်ထည့်ခဲ့သော ဗလာ String တစ်ခု ဖြစ်ပြီး ၎င်း၏ Program သည် Blank Entry များကို မမျှော်လင့်ထားသော နည်းလမ်းများဖြင့် Match လုပ်ကာ ထူးဆန်းစွာ ပြုမူစေကြောင်း စတင် တွေ့ရှိခဲ့သည် -- ၎င်းက Search Logic သို့ လုံးဝ မရောက်ခင် ဗလာ Search Term ကို ချက်ချင်း ငြင်းပယ်ကာ Search မစတင်မီ Presence Check ထည့်သွင်းရန် ဦးဆောင်ခဲ့သည်။ Term တစ်ခုလုံးတစ်လျှောက် သင်ယူထားသော ဤ Category သုံးခု Testing Approach သည် သူ့ကိုယ်ပိုင် ယူဆချက်များ လွတ်သွားခဲ့သော Bug များကို အမှန်တကယ် ဖမ်းဆီးခဲ့ကြောင်း ၎င်း၏ နောက်ဆုံး ပြန်လည်သုံးသပ်ချက်တွင် သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what bug did Zayar Lin catch while testing findStudent?",
+            questionMy:
+                "findStudent ကို Test လုပ်စဉ် Zayar Lin ဖမ်းဆီးခဲ့သော Bug ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It returned False too early, after just one non-match, instead of checking every name",
+              "It never returned any value at all",
+              "It always returned True regardless of the search term",
+              "It deleted the list of names permanently",
+            ],
+            optionsMy: [
+              "Match မတွေ့ခြင်း တစ်ကြိမ်ပြီးနောက် အမည်တိုင်းကို မစစ်ဆေးဘဲ ချက်ချင်း False ပြန်ပေးခြင်း",
+              "တန်ဖိုးမည်သည်ကိုမျှ လုံးဝ ပြန်မပေးခြင်း",
+              "Search Term မည်သို့ပင်ရှိစေ True ကို အမြဲ ပြန်ပေးခြင်း",
+              "အမည် List ကို အမြဲတမ်း ဖျက်ချခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about returning False too early."],
+            hintsMy: [
+              "False ကို စောစီးစွာ ပြန်ပေးခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Zayar Lin use as boundary test data?",
+            questionMy:
+                "Boundary Test Data အဖြစ် Zayar Lin အသုံးပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The very first and very last names in the list",
+              "A completely random name from the middle",
+              "An empty string only",
+              "A number instead of a name",
+            ],
+            optionsMy: [
+              "List ၏ ပထမဆုံးနှင့် နောက်ဆုံး အမည်များ",
+              "အလယ်မှ လုံးလုံးလျားလျား ကျပန်း အမည်တစ်ခု",
+              "ဗလာ String တစ်ခုသာ",
+              "အမည်အစား ဂဏန်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about boundary data."],
+            hintsMy: ["Boundary Data အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what actually caught the bugs Zayar Lin's own assumptions had missed?",
+            questionMy:
+                "Zayar Lin ၏ ကိုယ်ပိုင် ယူဆချက်များ လွတ်သွားခဲ့သော Bug များကို အမှန်တကယ် ဖမ်းဆီးခဲ့သည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The three-category testing approach, learned across the whole term",
+              "Guessing randomly without any testing",
+              "Deleting the program and starting over",
+              "Ignoring all test data entirely",
+            ],
+            optionsMy: [
+              "Term တစ်ခုလုံးတစ်လျှောက် သင်ယူထားသော Category သုံးခု Testing Approach",
+              "Testing မည်သည်မှ မပါဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+              "Program ကို ဖျက်ချပြီး အသစ် ပြန်စတင်ခြင်း",
+              "Test Data အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Python Programming Exam",
+      titleMy: "Term 6 Capstone - Python Programming စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A search function should only return 'not found' after...",
+          questionMy:
+              "Search Function တစ်ခုသည် ...ပြီးနောက်မှသာ 'Not Found' ပြန်ပေးသင့်သည်",
+          optionsEn: [
+            "Checking every element in the array without success",
+            "Checking only the first element",
+            "Immediately, without checking anything",
+            "The program has already crashed",
+          ],
+          optionsMy: [
+            "Array ရှိ Element တိုင်းကို အောင်မြင်မှု မရှိဘဲ စစ်ဆေးပြီးမှသာ",
+            "ပထမဆုံး Element ကိုသာ စစ်ဆေးပြီးမှသာ",
+            "မည်သည်ကိုမျှ မစစ်ဆေးဘဲ ချက်ချင်း",
+            "Program ရှိပြီးသား Crash ဖြစ်ပြီးမှသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Boundary test data checks...",
+          questionMy: "Boundary Test Data သည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "The very edges of an acceptable range, such as the first and last valid values",
+            "Only values in the exact middle of a range",
+            "Values that are always guaranteed to be invalid",
+            "Nothing meaningful at all",
+          ],
+          optionsMy: [
+            "ပထမဆုံးနှင့် နောက်ဆုံး Valid တန်ဖိုးများကဲ့သို့ လက်ခံနိုင်သော Range ၏ အစွန်းများ",
+            "Range ၏ အလယ် အတိအကျရှိ တန်ဖိုးများသာ",
+            "အမြဲ Invalid ဖြစ်ကြောင်း အာမခံထားသော တန်ဖိုးများ",
+            "အဓိပ္ပာယ်ရှိသော မည်သည့်အရာမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Erroneous test data is used to check that a program...",
+          questionMy:
+              "Erroneous Test Data ကို Program တစ်ခု ...ကို စစ်ဆေးရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Handles invalid or unexpected input gracefully rather than crashing",
+            "Always runs faster with unexpected input",
+            "Never accepts any input at all",
+            "Automatically fixes itself with no error handling",
+          ],
+          optionsMy: [
+            "Crash ဖြစ်မည့်အစား Invalid (သို့) မမျှော်လင့်ထားသော Input ကို ချောမွေ့စွာ ကိုင်တွယ်ခြင်း",
+            "မမျှော်လင့်ထားသော Input ဖြင့် အမြဲ ပို၍ မြန်စွာ Run ခြင်း",
+            "Input မည်သည်ကိုမျှ လုံးဝ လက်မခံခြင်း",
+            "Error Handling မပါဘဲ ကိုယ်တိုင် အလိုအလျောက် ပြင်ဆင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 6: "Programming Concepts in Python"
+// (Weeks 21-24)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm6 = CourseTermDef(
+  id: "course-igcse-computing-t6",
+  termNumber: 6,
+  titleEn: "Programming Concepts in Python",
+  titleMy: "Python ဖြင့် ပရိုဂရမ်ရေးခြင်း သဘောတရားများ",
+  certificateTitleEn: "Programming Concepts in Python",
+  certificateTitleMy: "Python ဖြင့် ပရိုဂရမ်ရေးခြင်း သဘောတရားများ",
+  weeks: [
+    _igcseComputingWeek21,
+    _igcseComputingWeek22,
+    _igcseComputingWeek23,
+    _igcseComputingWeek24,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
