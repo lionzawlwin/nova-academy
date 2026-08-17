@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 7-9 not yet
+// IGCSE Computing -- full pathway definition. Terms 8-9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,9 +143906,9 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseComputingTerm1,
@@ -143917,6 +143917,7 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
     _igcseComputingTerm4,
     _igcseComputingTerm5,
     _igcseComputingTerm6,
+    _igcseComputingTerm7,
   ],
 );
 // =====================================================================
@@ -149447,6 +149448,1423 @@ const CourseTermDef _igcseComputingTerm6 = CourseTermDef(
     _igcseComputingWeek22,
     _igcseComputingWeek23,
     _igcseComputingWeek24,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 7, Week 25: "Database Concepts and
+// Structure"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek25 = CourseWeekDef(
+  id: "course-igcse-computing-w25",
+  weekNumber: 25,
+  titleEn: "Database Concepts and Structure",
+  titleMy: "ဒေတာဘေ့စ် သဘောတရားနှင့် ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w25-d1",
+      dayNumber: 1,
+      titleEn: "Tables, Records, Fields and Keys",
+      titleMy: "Tables, Records, Fields နှင့် Keys",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a database table, what is the difference between a record and a field?",
+          questionMy:
+              "ဒေတာဘေ့စ် Table တစ်ခုတွင် Record နှင့် Field ကြား ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A record is a single complete row of related data; a field is a single column representing one category of data",
+            "A record and a field are simply two different names for exactly the same thing",
+            "A field can only ever hold numbers, never text",
+            "A record must always contain exactly one field",
+          ],
+          optionsMy: [
+            "Record သည် ဆက်စပ်သော Data ၏ Row တစ်ခု ပြည့်စုံစွာ ဖြစ်ပြီး Field သည် Data အမျိုးအစားတစ်ခုကို ကိုယ်စားပြုသော Column တစ်ခု ဖြစ်သည်",
+            "Record နှင့် Field သည် အရာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+            "Field သည် ဂဏန်းများကိုသာ ယူဆောင်နိုင်ပြီး Text ကို ဘယ်တော့မှ ယူဆောင်၍ မရနိုင်ခြင်း",
+            "Record တစ်ခုသည် Field အတိအကျ တစ်ခုတည်းသာ ပါဝင်ရမည် ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a spreadsheet: each row (a student's full set of details) is a record, and each column (like 'Name' or 'Age') is a field.",
+          ],
+          hintsMy: [
+            "Spreadsheet တစ်ခုကို စဉ်းစားကြည့်ပါ - Row တစ်ခုစီ (ကျောင်းသားတစ်ဦး၏ အသေးစိတ် အစုံအလင်) သည် Record တစ်ခု ဖြစ်ပြီး Column တစ်ခုစီ ('Name' သို့မဟုတ် 'Age' ကဲ့သို့) သည် Field တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the purpose of a primary key in a database table?",
+          questionMy:
+              "ဒေတာဘေ့စ် Table တစ်ခုတွင် Primary Key ၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It uniquely identifies each record in the table, ensuring no two records are exactly the same in that field",
+            "It permanently deletes duplicate records automatically",
+            "It is a field that can be left blank for every record",
+            "It only exists to make the table load faster with no other function",
+          ],
+          optionsMy: [
+            "Table ရှိ Record တစ်ခုစီကို ထူးခြားစွာ ဖော်ထုတ်ပေးပြီး ထို Field တွင် Record နှစ်ခု အတိအကျ တူညီခြင်း မရှိကြောင်း သေချာစေသည်",
+            "Duplicate Record များကို အလိုအလျောက် အမြဲတမ်း ဖျက်ချသည်",
+            "Record တိုင်းအတွက် ဗလာ ထားနိုင်သော Field တစ်ခု ဖြစ်သည်",
+            "အခြား Function မရှိဘဲ Table ကို ပို၍ မြန်ဆန်စွာ Load ဖြစ်စေရန်သာ ရှိနေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A student ID number is a classic primary key -- every student has a different one, so it can be used to find exactly one record with certainty.",
+          ],
+          hintsMy: [
+            "ကျောင်းသား ID Number သည် ရိုးရာ Primary Key တစ်ခု ဖြစ်သည် -- ကျောင်းသားတိုင်းတွင် ကွဲပြားသော ID ရှိသောကြောင့် Record တစ်ခုတည်းကို သေချာစွာ ရှာဖွေရန် အသုံးပြုနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What role does a foreign key play in connecting two related database tables?",
+          questionMy:
+              "ဆက်စပ်နေသော ဒေတာဘေ့စ် Table နှစ်ခုကို ချိတ်ဆက်ရာတွင် Foreign Key ၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A field in one table that refers to the primary key of another table, linking related records together",
+            "A key used only to lock the database from being accessed at all",
+            "A field that must always contain a foreign country's name",
+            "A random value with no relationship to any other table",
+          ],
+          optionsMy: [
+            "Table တစ်ခုရှိ Field တစ်ခုသည် အခြား Table တစ်ခု၏ Primary Key ကို ရည်ညွှန်းပြီး ဆက်စပ်သော Record များကို အတူတကွ ချိတ်ဆက်ပေးသည်",
+            "ဒေတာဘေ့စ်ကို လုံးဝ ဝင်ရောက်ကြည့်ရှုခွင့် မရနိုင်ရန် လော့ခ်ချရန်သာ အသုံးပြုသော Key",
+            "နိုင်ငံခြား အမည်ကို အမြဲ ပါဝင်ရမည့် Field",
+            "အခြား Table မည်သည်နှင့်မျှ ဆက်နွယ်မှု မရှိသော ကျပန်း တန်ဖိုး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, a 'BookLoans' table might have a 'StudentID' field that is a foreign key referencing the primary key in a separate 'Students' table.",
+          ],
+          hintsMy: [
+            "ဥပမာအားဖြင့် 'BookLoans' Table တွင် ကွဲပြားသော 'Students' Table ၏ Primary Key ကို ရည်ညွှန်းသော Foreign Key ဖြစ်သော 'StudentID' Field တစ်ခု ရှိနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Database Structure Terms",
+      titleMy: "တွဲစပ်ကြမည် - Database Structure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w25-dm-1",
+          termEn: "Table",
+          termMy: "Table",
+          matchEn:
+              "A structured collection of related records, organised into rows and columns",
+          matchMy:
+              "Row နှင့် Column များအဖြစ် စီစဉ်ထားသော ဆက်စပ်သော Record များ၏ ဖွဲ့စည်းထားသော စုစည်းမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w25-dm-2",
+          termEn: "Record",
+          termMy: "Record",
+          matchEn: "One complete row of related data within a table",
+          matchMy:
+              "Table တစ်ခုအတွင်းရှိ ဆက်စပ်သော Data ၏ Row တစ်ခု ပြည့်စုံစွာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w25-dm-3",
+          termEn: "Field",
+          termMy: "Field",
+          matchEn:
+              "One column of a table, representing a single category of data",
+          matchMy:
+              "Data အမျိုးအစားတစ်ခုကို ကိုယ်စားပြုသော Table တစ်ခု၏ Column တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w25-dm-4",
+          termEn: "Primary key",
+          termMy: "Primary Key",
+          matchEn: "A field that uniquely identifies each record in a table",
+          matchMy:
+              "Table တစ်ခုရှိ Record တစ်ခုစီကို ထူးခြားစွာ ဖော်ထုတ်ပေးသော Field",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w25-dm-5",
+          termEn: "Foreign key",
+          termMy: "Foreign Key",
+          matchEn:
+              "A field linking to another table's primary key, connecting related tables together",
+          matchMy:
+              "အခြား Table တစ်ခု၏ Primary Key သို့ ချိတ်ဆက်ပြီး ဆက်စပ်သော Table များကို အတူတကွ ချိတ်ဆက်ပေးသော Field",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Table, Record or Field?",
+      titleMy: "စီစစ်ကြမည် - Table, Record (သို့) Field",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Table", "Record", "Field"],
+        bucketsMy: ["Table", "Record", "Field"],
+        items: [
+          SortingItem(
+            id: "igcomp-w25-sort-1",
+            labelEn: "The entire 'Students' collection of data",
+            labelMy: "'Students' Data စုစည်းမှု တစ်ခုလုံး",
+            correctBucketEn: "Table",
+            correctBucketMy: "Table",
+          ),
+          SortingItem(
+            id: "igcomp-w25-sort-2",
+            labelEn: "One student's complete row of details",
+            labelMy: "ကျောင်းသားတစ်ဦး၏ အသေးစိတ် Row တစ်ခု ပြည့်စုံစွာ",
+            correctBucketEn: "Record",
+            correctBucketMy: "Record",
+          ),
+          SortingItem(
+            id: "igcomp-w25-sort-3",
+            labelEn: "The 'DateOfBirth' column",
+            labelMy: "'DateOfBirth' Column",
+            correctBucketEn: "Field",
+            correctBucketMy: "Field",
+          ),
+          SortingItem(
+            id: "igcomp-w25-sort-4",
+            labelEn: "The 'Email' column",
+            labelMy: "'Email' Column",
+            correctBucketEn: "Field",
+            correctBucketMy: "Field",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Library Database Design",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Library Database ဒီဇိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Library Database Design",
+        titleMy: "Zayar Lin ၏ Library Database ဒီဇိုင်း",
+        passageEn:
+            "Sayar Ye Min asked Zayar Lin to design the structure for a school library database tracking which students had borrowed which books, and to justify every key he chose rather than adding fields arbitrarily. Zayar Lin started with two separate tables: a Students table holding each student's ID, name, and year group, and a Books table holding each book's ISBN, title, and author. For the Students table, he chose StudentID as the primary key, reasoning that while two students might share a name, their ID numbers were guaranteed unique by the school's enrolment system. For the Books table, he chose ISBN as the primary key for the same reason: while two books might share a title, their ISBN numbers were internationally guaranteed to be unique.\n\nHe then needed a way to record which student had borrowed which book, without duplicating all of a student's details or all of a book's details inside a third table. He designed a BookLoans table containing just three fields: LoanID as its own primary key, StudentID as a foreign key referencing the Students table, and ISBN as a foreign key referencing the Books table. This meant a single BookLoans record could represent 'this specific student borrowed this specific book' just by storing two short reference values, rather than repeating the student's full name and the book's full title inside every single loan record.\n\nSayar Ye Min asked why this mattered beyond just being tidy: what would go wrong if he had instead repeated the student's full name directly inside every BookLoans record? Zayar Lin reasoned through the consequence carefully: if a student's name was later corrected due to a spelling mistake, every single loan record containing that repeated name would need to be found and updated individually, and if even one was missed, the database would then contain contradictory information about the same real student. By using a foreign key referencing StudentID instead, the name only needed to be stored and corrected once, in the Students table, and every loan record automatically stayed connected to the correct, up-to-date name through that single shared ID -- precisely the redundancy problem the following week's lesson on database integrity would name directly.",
+        passageMy:
+            "ကျောင်းသားမည်သူက စာအုပ်မည်သည်ကို ငှားရှိထားကြောင်း ခြေရာခံသော ကျောင်း Library Database ၏ ဖွဲ့စည်းပုံကို ဒီဇိုင်းဆွဲပြီး Field များကို ကျပန်း ထည့်သွင်းမည့်အစား ရွေးချယ်သော Key တိုင်းကို ခိုင်လုံစေရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် ကွဲပြားသော Table နှစ်ခုဖြင့် စတင်ခဲ့သည် - ကျောင်းသားတစ်ဦးစီ၏ ID, Name နှင့် Year Group ကို ယူဆောင်ထားသော Students Table တစ်ခုနှင့် စာအုပ်တစ်အုပ်စီ၏ ISBN, Title နှင့် Author ကို ယူဆောင်ထားသော Books Table တစ်ခု။ Students Table အတွက် StudentID ကို Primary Key အဖြစ် သူ ရွေးချယ်ခဲ့ပြီး ကျောင်းသား နှစ်ဦးသည် အမည်တူနိုင်သော်လည်း ၎င်းတို့၏ ID Number များကို ကျောင်း၏ Enrolment System က ထူးခြားခြင်း အာမခံထားကြောင်း ဆင်ခြင်ခဲ့သည်။ Books Table အတွက် အလားတူ အကြောင်းပြချက်ဖြင့် ISBN ကို Primary Key အဖြစ် သူ ရွေးချယ်ခဲ့သည် - စာအုပ် နှစ်အုပ်သည် ခေါင်းစဉ်တူနိုင်သော်လည်း ၎င်းတို့၏ ISBN Number များကို နိုင်ငံတကာအရ ထူးခြားခြင်း အာမခံထားသည်။\n\nတတိယ Table အတွင်း ကျောင်းသားတစ်ဦး၏ အသေးစိတ်အားလုံး (သို့) စာအုပ်တစ်အုပ်၏ အသေးစိတ်အားလုံးကို Duplicate မလုပ်ဘဲ ကျောင်းသားမည်သူက စာအုပ်မည်သည်ကို ငှားရှိထားကြောင်း မှတ်တမ်းတင်ရန် နည်းလမ်းတစ်ခု ထို့နောက် သူ လိုအပ်ခဲ့သည်။ Field သုံးခုသာ ပါဝင်သော BookLoans Table တစ်ခုကို သူ ဒီဇိုင်းဆွဲခဲ့သည် - ၎င်းကိုယ်ပိုင် Primary Key အဖြစ် LoanID, Students Table ကို ရည်ညွှန်းသော Foreign Key အဖြစ် StudentID နှင့် Books Table ကို ရည်ညွှန်းသော Foreign Key အဖြစ် ISBN ။ ၎င်းသည် BookLoans Record တစ်ခုတည်းသည် Loan Record တိုင်းအတွင်း ကျောင်းသား၏ အမည်အပြည့်အစုံနှင့် စာအုပ်၏ ခေါင်းစဉ်အပြည့်အစုံကို ထပ်ခါထပ်ခါ ထည့်သွင်းမည့်အစား Reference တန်ဖိုးတိုတို နှစ်ခုကို သိမ်းဆည်းရုံဖြင့် 'ဤ တိကျသော ကျောင်းသားက ဤ တိကျသော စာအုပ်ကို ငှားရှိထားသည်' ဟု ကိုယ်စားပြုနိုင်ကြောင်း ဆိုလိုသည်။\n\nသန့်ရှင်းသန့်ရှင်းသန့်ရှင်းရုံမက ၎င်း အဘယ်ကြောင့် အရေးကြီးသနည်းဟု ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည် - BookLoans Record တိုင်းအတွင်း ကျောင်းသား၏ အမည်အပြည့်အစုံကို ယင်းအစား တိုက်ရိုက် ထပ်ခါထပ်ခါ ထည့်သွင်းခဲ့ပါက အဘယ်အရာ မှားယွင်းမည်နည်း။ ကျောင်းသားတစ်ဦး၏ အမည်ကို စာလုံးပေါင်း အမှားကြောင့် နောက်ပိုင်း ပြင်ဆင်ခဲ့ပါက ထပ်ခါထပ်ခါ ဤအမည် ပါဝင်သော Loan Record တစ်ခုစီကို ရှာဖွေပြီး တစ်ခုချင်းစီ Update လုပ်ရန် လိုအပ်ပြီး တစ်ခုမျှ လွတ်သွားခဲ့လျှင် Database သည် တူညီသော လက်တွေ့ ကျောင်းသားအကြောင်း ဆန့်ကျင်သော အချက်အလက် ပါဝင်လာလိမ့်မည်ဖြစ်ကြောင်း Zayar Lin ရလဒ်ကို သေချာစွာ ဆင်ခြင်ခဲ့သည်။ StudentID ကို ရည်ညွှန်းသော Foreign Key ကို ယင်းအစား အသုံးပြုခြင်းဖြင့် အမည်ကို Students Table တွင် တစ်ကြိမ်သာ သိမ်းဆည်းပြီး ပြင်ဆင်ရန် လိုအပ်ပြီး Loan Record တိုင်းသည် ထို Shared ID တစ်ခုတည်းမှတစ်ဆင့် မှန်ကန်၊ နောက်ဆုံးပေါ် အမည်နှင့် အလိုအလျောက် ချိတ်ဆက်ဆက်ရှိနေသည် -- နောက်အပတ်၏ Database Integrity သင်ခန်းစာက တိုက်ရိုက် အမည်ပေးမည့် Redundancy ပြဿနာ အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin choose StudentID rather than name as the primary key?",
+            questionMy:
+                "Zayar Lin Primary Key အဖြစ် Name အစား StudentID ကို ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two students might share a name, but ID numbers are guaranteed unique",
+              "Names are always shorter than ID numbers",
+              "The school does not allow names to be stored at all",
+              "ID numbers are always exactly four digits",
+            ],
+            optionsMy: [
+              "ကျောင်းသား နှစ်ဦးသည် အမည်တူနိုင်သော်လည်း ID Number များ ထူးခြားခြင်း အာမခံထားခြင်း",
+              "Name များသည် ID Number များထက် အမြဲ ပို၍ တိုသည်",
+              "ကျောင်းသည် Name များကို လုံးဝ မသိမ်းဆည်းခွင့်ပြုခြင်း",
+              "ID Number များသည် ဂဏန်း လေးလုံး အတိအကျ အမြဲ ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining the StudentID choice."],
+            hintsMy: [
+              "StudentID ရွေးချယ်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three fields did the BookLoans table contain?",
+            questionMy:
+                "BookLoans Table တွင် ပါဝင်သော Field သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "LoanID, StudentID, and ISBN",
+              "Only the student's full name",
+              "Only the book's full title",
+              "The school's address and phone number",
+            ],
+            optionsMy: [
+              "LoanID, StudentID နှင့် ISBN",
+              "ကျောင်းသား၏ အမည်အပြည့်အစုံသာ",
+              "စာအုပ်၏ ခေါင်းစဉ်အပြည့်အစုံသာ",
+              "ကျောင်း၏ လိပ်စာနှင့် ဖုန်းနံပါတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing the BookLoans table's three fields.",
+            ],
+            hintsMy: [
+              "BookLoans Table ၏ Field သုံးခုကို စာရင်းပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what problem would repeating a student's name in every loan record cause?",
+            questionMy:
+                "Loan Record တိုင်းအတွင်း ကျောင်းသားအမည်ကို ထပ်ခါထပ်ခါ ထည့်သွင်းခြင်းက အဘယ် ပြဿနာ ဖြစ်စေမည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A missed update could leave the database with contradictory information about the same student",
+              "The database would immediately delete itself",
+              "The primary key would automatically change every day",
+              "It would make the database run faster with no downside",
+            ],
+            optionsMy: [
+              "Update တစ်ခု လွတ်သွားခြင်းက တူညီသော ကျောင်းသားအကြောင်း ဆန့်ကျင်သော အချက်အလက်ဖြင့် Database ကျန်ရစ်စေနိုင်ခြင်း",
+              "Database သည် ချက်ချင်း ကိုယ်တိုင် ဖျက်ချသွားခြင်း",
+              "Primary Key သည် နေ့စဉ် အလိုအလျောက် ပြောင်းလဲသွားခြင်း",
+              "ဆိုးကျိုး မရှိဘဲ Database ကို ပို၍ မြန်ဆန်စွာ Run စေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about a missed update."],
+            hintsMy: [
+              "Update လွတ်သွားခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Database Structure",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Database Structure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A record in a database table is...",
+          questionMy: "ဒေတာဘေ့စ် Table တစ်ခုရှိ Record တစ်ခုမှာ...",
+          optionsEn: [
+            "One complete row of related data",
+            "One single column of data",
+            "The entire database with every table",
+            "A type of SQL command",
+          ],
+          optionsMy: [
+            "ဆက်စပ်သော Data ၏ Row တစ်ခု ပြည့်စုံစွာ",
+            "Data ၏ Column တစ်ခုတည်း",
+            "Table တိုင်း ပါဝင်သော ဒေတာဘေ့စ် တစ်ခုလုံး",
+            "SQL Command အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A primary key must...",
+          questionMy: "Primary Key တစ်ခုသည် ...ရမည်",
+          optionsEn: [
+            "Uniquely identify every record in the table",
+            "Always be left completely blank",
+            "Only ever contain the number zero",
+            "Be identical for every record",
+          ],
+          optionsMy: [
+            "Table ရှိ Record တိုင်းကို ထူးခြားစွာ ဖော်ထုတ်ပေးရမည်",
+            "အမြဲ လုံးဝ ဗလာ ထားရမည်",
+            "သုည ဂဏန်းကိုသာ ပါဝင်ရမည်",
+            "Record တိုင်းအတွက် တူညီရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A foreign key connects two tables by...",
+          questionMy:
+              "Foreign Key တစ်ခုသည် Table နှစ်ခုကို ...ဖြင့် ချိတ်ဆက်ပေးသည်",
+          optionsEn: [
+            "Referencing the primary key of another table",
+            "Deleting the other table entirely",
+            "Copying every field from the other table",
+            "Never actually linking to anything",
+          ],
+          optionsMy: [
+            "အခြား Table ၏ Primary Key ကို ရည်ညွှန်းခြင်း",
+            "အခြား Table ကို လုံးဝ ဖျက်ချခြင်း",
+            "အခြား Table မှ Field တိုင်းကို Copy ကူးယူခြင်း",
+            "မည်သည့်အရာကိုမျှ အမှန်တကယ် ချိတ်ဆက်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 7, Week 26: "SQL Query Writing"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek26 = CourseWeekDef(
+  id: "course-igcse-computing-w26",
+  weekNumber: 26,
+  titleEn: "SQL Query Writing",
+  titleMy: "SQL ညွှန်ကြားချက်များ ရေးသားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w26-d1",
+      dayNumber: 1,
+      titleEn: "SELECT, WHERE and ORDER BY",
+      titleMy: "SELECT, WHERE နှင့် ORDER BY",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does the SQL statement SELECT Name FROM Students WHERE YearGroup = 10 do?",
+          questionMy:
+              "SQL Statement SELECT Name FROM Students WHERE YearGroup = 10 သည် အဘယ်အရာ လုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Returns the Name field for every record in the Students table where YearGroup equals 10",
+            "Deletes every student in year group 10 permanently",
+            "Returns every field for every student regardless of year group",
+            "Creates a brand new table called Students",
+          ],
+          optionsMy: [
+            "Students Table ရှိ YearGroup 10 နှင့် ညီသော Record တိုင်းအတွက် Name Field ကို ပြန်ပေးသည်",
+            "Year Group 10 ရှိ ကျောင်းသားတိုင်းကို အမြဲတမ်း ဖျက်ချသည်",
+            "Year Group မည်သို့ပင်ရှိစေ ကျောင်းသားတိုင်းအတွက် Field တိုင်းကို ပြန်ပေးသည်",
+            "Students ဟု ခေါ်သော Table အသစ်တစ်ခု ဖန်တီးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "SELECT chooses which field(s) to return, FROM chooses the table, and WHERE filters which records qualify.",
+          ],
+          hintsMy: [
+            "SELECT သည် ပြန်ပေးမည့် Field(များ) ကို ရွေးချယ်ပြီး FROM သည် Table ကို ရွေးချယ်ကာ WHERE သည် မည်သည့် Record များ ကိုက်ညီသည်ကို စစ်ထုတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does ORDER BY Score DESC do at the end of a SELECT statement?",
+          questionMy:
+              "SELECT Statement တစ်ခု၏ အဆုံးရှိ ORDER BY Score DESC သည် အဘယ်အရာ လုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Sorts the results by the Score field from highest to lowest",
+            "Sorts the results by the Score field from lowest to highest",
+            "Deletes the Score field from the results entirely",
+            "Has no effect on the results whatsoever",
+          ],
+          optionsMy: [
+            "ရလဒ်များကို Score Field ဖြင့် အမြင့်ဆုံးမှ အနိမ့်ဆုံးအထိ Sort လုပ်သည်",
+            "ရလဒ်များကို Score Field ဖြင့် အနိမ့်ဆုံးမှ အမြင့်ဆုံးအထိ Sort လုပ်သည်",
+            "Score Field ကို ရလဒ်များမှ လုံးဝ ဖျက်ချသည်",
+            "ရလဒ်များအပေါ် မည်သည့် အကျိုးသက်ရောက်မှုမျှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "DESC stands for descending (high to low); its opposite, ASC, stands for ascending (low to high) and is often the default if left unspecified.",
+          ],
+          hintsMy: [
+            "DESC သည် Descending (မြင့်မှ နိမ့်) ကို ကိုယ်စားပြုသည်; ၎င်း၏ ဆန့်ကျင်ဘက် ASC သည် Ascending (နိမ့်မှ မြင့်) ကို ကိုယ်စားပြုပြီး သတ်မှတ်မထားပါက ပုံမှန်အားဖြင့် Default ဖြစ်လေ့ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does WHERE YearGroup = 10 AND Score >= 60 select?",
+          questionMy:
+              "WHERE YearGroup = 10 AND Score >= 60 သည် အဘယ်အရာကို ရွေးချယ်သနည်း။",
+          optionsEn: [
+            "Only records where both conditions are true: year group equals 10, and score is 60 or above",
+            "Records where either condition alone is enough to be true",
+            "Every record in the entire table with no filtering at all",
+            "Only records where score is exactly 10",
+          ],
+          optionsMy: [
+            "Condition နှစ်ခုစလုံး True ဖြစ်သော Record များသာ - Year Group သည် 10 နှင့် ညီပြီး Score သည် 60 (သို့) အထက် ဖြစ်ခြင်း",
+            "Condition တစ်ခုတည်းသာ True ဖြစ်ရန် လုံလောက်သော Record များ",
+            "Filter မလုပ်ဘဲ Table တစ်ခုလုံးရှိ Record တိုင်း",
+            "Score သည် 10 အတိအကျ ဖြစ်သော Record များသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "AND requires both conditions to be satisfied at once, exactly like the AND logic gate from an earlier term.",
+          ],
+          hintsMy: [
+            "AND သည် Term ရှေ့ပိုင်းမှ AND Logic Gate ကဲ့သို့ အတိအကျ Condition နှစ်ခုစလုံး တစ်ချိန်တည်း ဖြည့်ဆည်းရန် လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: SQL Keyword Terms",
+      titleMy: "တွဲစပ်ကြမည် - SQL Keyword ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w26-dm-1",
+          termEn: "SELECT",
+          termMy: "SELECT",
+          matchEn: "Chooses which field(s) to return in the query's results",
+          matchMy:
+              "Query ၏ ရလဒ်များတွင် ပြန်ပေးမည့် Field(များ) ကို ရွေးချယ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w26-dm-2",
+          termEn: "WHERE",
+          termMy: "WHERE",
+          matchEn: "Filters which records qualify based on a stated condition",
+          matchMy:
+              "ဖော်ပြထားသော Condition အပေါ် အခြေခံ၍ မည်သည့် Record များ ကိုက်ညီသည်ကို စစ်ထုတ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w26-dm-3",
+          termEn: "ORDER BY",
+          termMy: "ORDER BY",
+          matchEn:
+              "Sorts the query's results by a specified field, ascending or descending",
+          matchMy:
+              "Query ၏ ရလဒ်များကို သတ်မှတ်ထားသော Field ဖြင့် Ascending (သို့) Descending Sort လုပ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w26-dm-4",
+          termEn: "LIKE",
+          termMy: "LIKE",
+          matchEn:
+              "Matches records against a text pattern, often using a wildcard symbol",
+          matchMy:
+              "Record များကို Text Pattern တစ်ခုနှင့် နှိုင်းယှဉ်သည်၊ Wildcard Symbol ကို မကြာခဏ အသုံးပြုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w26-dm-5",
+          termEn: "FROM",
+          termMy: "FROM",
+          matchEn: "Specifies which table a query should retrieve data from",
+          matchMy:
+              "Query တစ်ခုသည် မည်သည့် Table မှ Data ကို ရယူသင့်ကြောင်း သတ်မှတ်ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: What Does the Query Return?",
+      titleMy: "စီစစ်ကြမည် - Query သည် အဘယ်အရာ ပြန်ပေးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Filters Records (WHERE)", "Sorts Records (ORDER BY)"],
+        bucketsMy: [
+          "Record များ စစ်ထုတ်သည် (WHERE)",
+          "Record များ Sort လုပ်သည် (ORDER BY)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w26-sort-1",
+            labelEn: "WHERE Score >= 50",
+            labelMy: "WHERE Score >= 50",
+            correctBucketEn: "Filters Records (WHERE)",
+            correctBucketMy: "Record များ စစ်ထုတ်သည် (WHERE)",
+          ),
+          SortingItem(
+            id: "igcomp-w26-sort-2",
+            labelEn: "ORDER BY Name ASC",
+            labelMy: "ORDER BY Name ASC",
+            correctBucketEn: "Sorts Records (ORDER BY)",
+            correctBucketMy: "Record များ Sort လုပ်သည် (ORDER BY)",
+          ),
+          SortingItem(
+            id: "igcomp-w26-sort-3",
+            labelEn: "WHERE YearGroup = 9",
+            labelMy: "WHERE YearGroup = 9",
+            correctBucketEn: "Filters Records (WHERE)",
+            correctBucketMy: "Record များ စစ်ထုတ်သည် (WHERE)",
+          ),
+          SortingItem(
+            id: "igcomp-w26-sort-4",
+            labelEn: "ORDER BY Score DESC",
+            labelMy: "ORDER BY Score DESC",
+            correctBucketEn: "Sorts Records (ORDER BY)",
+            correctBucketMy: "Record များ Sort လုပ်သည် (ORDER BY)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Top Scorers Query",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Top Scorers Query",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Top Scorers Query",
+        titleMy: "Zayar Lin ၏ Top Scorers Query",
+        passageEn:
+            "Sayar Ye Min asked Zayar Lin to write a single SQL query answering a specific real question: which Year 10 students scored 70 or above on the latest test, listed from the highest score down to the lowest? Zayar Lin broke the question into its separate pieces before writing a single line of SQL, exactly as he had learned to break pseudocode problems into steps in an earlier term. He identified three separate requirements hidden in the question: which fields to show, which records to filter for, and what order to display them in.\n\nFor the fields, he decided SELECT Name, Score was enough, since the question only cared about names and scores, not every field in the table. For filtering, he needed two conditions joined together, since both had to be true at once: WHERE YearGroup = 10 AND Score >= 70, correctly using AND rather than OR, since a record satisfying only one of the two conditions should not qualify. For the ordering, since the question asked for highest to lowest, he added ORDER BY Score DESC at the very end, remembering that leaving off DESC would default to ascending order, the opposite of what was actually needed.\n\nHis complete query read: SELECT Name, Score FROM Students WHERE YearGroup = 10 AND Score >= 70 ORDER BY Score DESC. Sayar Ye Min then asked a follow-up: what if the teacher instead wanted every Year 10 student regardless of score, but still sorted highest to lowest? Zayar Lin recognised only the WHERE clause needed to change, dropping the Score condition entirely while keeping YearGroup = 10 and the same ORDER BY clause, since the sorting requirement and the filtering requirement were genuinely independent pieces of the question that could be adjusted separately without touching each other.",
+        passageMy:
+            "တိကျသော လက်တွေ့ မေးခွန်းတစ်ခုကို ဖြေဆိုမည့် SQL Query တစ်ခုတည်းကို ရေးသားရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည် - နောက်ဆုံး Test တွင် 70 (သို့) အထက် ရမှတ်ရရှိသော Year 10 ကျောင်းသား မည်သူများနည်း၊ အမြင့်ဆုံး ရမှတ်မှ အနိမ့်ဆုံးအထိ စာရင်းပြုပါ။ SQL လိုင်းတစ်ကြောင်းမျှ မ ရေးမီ Zayar Lin သည် မေးခွန်းကို ကွဲပြားသော အပိုင်းများအဖြစ် ခွဲခဲ့သည်၊ Term ရှေ့ပိုင်းတွင် Pseudocode ပြဿနာများကို အဆင့်များအဖြစ် ခွဲခြားရန် သင်ယူထားသည့်အတိုင်း အတိအကျ ဖြစ်သည်။ မေးခွန်း အတွင်း ဖျောက်ထားသော လိုအပ်ချက် ကွဲပြား သုံးခုကို သူ ဖော်ထုတ်ခဲ့သည် - မည်သည့် Field များ ပြသရမည်၊ မည်သည့် Record များ စစ်ထုတ်ရမည်နှင့် မည်သည့် Order ဖြင့် ပြသရမည်။\n\nField များအတွက် SELECT Name, Score လုံလောက်ကြောင်း သူ ဆုံးဖြတ်ခဲ့သည်၊ အကြောင်းမှာ မေးခွန်းသည် Table ရှိ Field တိုင်းကို မဟုတ်ဘဲ Name နှင့် Score ကိုသာ ဂရုစိုက်သောကြောင့် ဖြစ်သည်။ Filtering အတွက် နှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရမည်ဖြစ်သောကြောင့် Condition နှစ်ခု ပေါင်းစပ်ရန် သူ လိုအပ်ခဲ့သည် - WHERE YearGroup = 10 AND Score >= 70, Condition နှစ်ခုအနက် တစ်ခုတည်းသာ ဖြည့်ဆည်းသော Record တစ်ခုသည် ကိုက်ညီသင့်ခြင်း မရှိသောကြောင့် OR အစား AND ကို မှန်ကန်စွာ အသုံးပြုခဲ့သည်။ Ordering အတွက် မေးခွန်းသည် အမြင့်ဆုံးမှ အနိမ့်ဆုံးကို တောင်းဆိုခဲ့သောကြောင့် DESC ကို ချန်ထားလျှင် Ascending Order (လိုအပ်ချက် အမှန်တကယ်၏ ဆန့်ကျင်ဘက်) သို့ Default ဖြစ်သွားမည်ဟု သတိရလျက် နောက်ဆုံးတွင် ORDER BY Score DESC ကို သူ ထည့်သွင်းခဲ့သည်။\n\n၎င်း၏ ပြည့်စုံသော Query တွင် - SELECT Name, Score FROM Students WHERE YearGroup = 10 AND Score >= 70 ORDER BY Score DESC ။ ဆရာက Score မည်သို့ပင်ရှိစေ Year 10 ကျောင်းသားတိုင်းကို လိုချင်သော်လည်း အမြင့်ဆုံးမှ အနိမ့်ဆုံးအထိ ဆက်လက် Sort လုပ်ပါက အဘယ်နည်းဟု ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည်။ WHERE Clause တစ်ခုတည်းသာ ပြောင်းလဲရန် လိုအပ်ကြောင်း Zayar Lin သိမြင်ခဲ့ပြီး YearGroup = 10 နှင့် ORDER BY Clause တူညီကို ထိန်းသိမ်းထားလျက် Score Condition ကို လုံးဝ ဖယ်ရှားခဲ့သည်၊ Sorting လိုအပ်ချက်နှင့် Filtering လိုအပ်ချက်သည် မေးခွန်း၏ တစ်ခုနှင့်တစ်ခု မထိခိုက်ဘဲ သီးခြား ချိန်ညှိနိုင်သော စစ်မှန်စွာ လွတ်လပ်သော အပိုင်းများ ဖြစ်သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three separate requirements did Zayar Lin identify in the question?",
+            questionMy:
+                "မေးခွန်းတွင် Zayar Lin ဖော်ထုတ်ခဲ့သော လိုအပ်ချက် ကွဲပြား သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Which fields to show, which records to filter for, and what order to display them in",
+              "Only how many records existed in the table",
+              "Only the table's primary key",
+              "Only the database's total file size",
+            ],
+            optionsMy: [
+              "မည်သည့် Field များ ပြသရမည်၊ မည်သည့် Record များ စစ်ထုတ်ရမည်နှင့် မည်သည့် Order ဖြင့် ပြသရမည်",
+              "Table တွင် Record မည်မျှ ရှိသည်သာ",
+              "Table ၏ Primary Key သာ",
+              "Database ၏ File Size စုစုပေါင်းသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin use AND rather than OR in the WHERE clause?",
+            questionMy:
+                "WHERE Clause တွင် Zayar Lin OR အစား AND ကို အသုံးပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A record satisfying only one of the two conditions should not qualify",
+              "AND always runs faster than OR in every query",
+              "OR cannot be used with the WHERE clause at all",
+              "The teacher simply told him to always use AND",
+            ],
+            optionsMy: [
+              "Condition နှစ်ခုအနက် တစ်ခုတည်းသာ ဖြည့်ဆည်းသော Record တစ်ခုသည် ကိုက်ညီသင့်ခြင်း မရှိခြင်း",
+              "AND သည် Query တိုင်းတွင် OR ထက် အမြဲ ပို၍ မြန်ခြင်း",
+              "OR ကို WHERE Clause နှင့် လုံးဝ အသုံးမပြု၍ ရနိုင်ခြင်း",
+              "AND ကို အမြဲ အသုံးပြုရန် ဆရာက ရိုးရိုးသာ ပြောကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining why AND was correct."],
+            hintsMy: [
+              "AND မှန်ကန်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what happened to the ORDER BY clause when the follow-up question changed the filter?",
+            questionMy:
+                "Follow-Up မေးခွန်းက Filter ကို ပြောင်းလဲလိုက်ချိန် ORDER BY Clause တွင် အဘယ်အရာ ဖြစ်ပျက်ခဲ့သည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It stayed the same, since sorting and filtering were independent",
+              "It was deleted entirely along with the WHERE clause",
+              "It was changed to ORDER BY Name instead",
+              "It automatically became ASC instead of DESC",
+            ],
+            optionsMy: [
+              "Sorting နှင့် Filtering သည် လွတ်လပ်ခြင်းကြောင့် တူညီစွာ ဆက်ရှိနေခဲ့ခြင်း",
+              "WHERE Clause နှင့်အတူ လုံးဝ ဖျက်ချခံခဲ့ရခြင်း",
+              "ORDER BY Name သို့ ယင်းအစား ပြောင်းလဲခဲ့ခြင်း",
+              "DESC အစား ASC အဖြစ် အလိုအလျောက် ပြောင်းလဲခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: SQL Query Writing",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - SQL Query Writing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "SELECT chooses...",
+          questionMy: "SELECT သည် ...ကို ရွေးချယ်သည်",
+          optionsEn: [
+            "Which field(s) to return in the results",
+            "Which table to permanently delete",
+            "The database's total storage size",
+            "The computer's clock speed",
+          ],
+          optionsMy: [
+            "ရလဒ်များတွင် ပြန်ပေးမည့် Field(များ)",
+            "အမြဲတမ်း ဖျက်ချမည့် Table",
+            "Database ၏ Storage Size စုစုပေါင်း",
+            "ကွန်ပျူတာ၏ Clock Speed",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "WHERE Score >= 60 AND YearGroup = 11 requires...",
+          questionMy:
+              "WHERE Score >= 60 AND YearGroup = 11 သည် ...ကို တောင်းဆိုသည်",
+          optionsEn: [
+            "Both conditions to be true at the same time",
+            "Only one of the two conditions to be true",
+            "Neither condition to be true",
+            "No conditions at all",
+          ],
+          optionsMy: [
+            "Condition နှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရန်",
+            "Condition နှစ်ခုအနက် တစ်ခုတည်း True ဖြစ်ရန်",
+            "Condition မည်သည်မှ True မဖြစ်ရန်",
+            "Condition မည်သည်မျှ မလိုအပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ORDER BY Score ASC sorts results from...",
+          questionMy: "ORDER BY Score ASC သည် ရလဒ်များကို ...မှ Sort လုပ်သည်",
+          optionsEn: [
+            "Lowest to highest",
+            "Highest to lowest",
+            "Alphabetically only",
+            "Randomly, with no order",
+          ],
+          optionsMy: [
+            "အနိမ့်ဆုံးမှ အမြင့်ဆုံး",
+            "အမြင့်ဆုံးမှ အနိမ့်ဆုံး",
+            "Alphabetical အစီအစဉ်ဖြင့်သာ",
+            "Order မရှိဘဲ ကျပန်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 7, Week 27: "Database Management and
+// Integrity"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek27 = CourseWeekDef(
+  id: "course-igcse-computing-w27",
+  weekNumber: 27,
+  titleEn: "Database Management and Integrity",
+  titleMy: "ဒေတာဘေ့စ် စီမံခန့်ခွဲမှုနှင့် လုံခြုံမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w27-d1",
+      dayNumber: 1,
+      titleEn: "Redundancy, Multi-Table Queries and Integrity",
+      titleMy: "Redundancy, ဇယားပေါင်းစုံ Query များနှင့် Integrity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is 'data redundancy' in the context of database design?",
+          questionMy:
+              "Database Design ၏ Context တွင် 'Data Redundancy' ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The same piece of data being unnecessarily stored in multiple places, risking inconsistency if only some copies are updated",
+            "A backup copy of the entire database kept in a secure location",
+            "A field that is always required to be filled in",
+            "The process of deleting old, unused records from a table",
+          ],
+          optionsMy: [
+            "Data အပိုင်းတစ်ခုတည်းကို နေရာများစွာတွင် မလိုအပ်ဘဲ သိမ်းဆည်းထားခြင်း၊ Copy အချို့သာ Update ဖြစ်ပါက Inconsistency အန္တရာယ် ရှိနေခြင်း",
+            "လုံခြုံသော နေရာတွင် ထားရှိသော Database တစ်ခုလုံး၏ Backup Copy",
+            "အမြဲတမ်း ဖြည့်စွက်ရန် လိုအပ်သော Field",
+            "Table တစ်ခုမှ ဟောင်းနွမ်း၊ အသုံးမပြုသော Record များကို ဖျက်ချသော Process",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly the problem the Term 7 library database example demonstrated: repeating a student's name in every loan record instead of using a foreign key.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Foreign Key ကို အသုံးမပြုဘဲ ကျောင်းသားအမည်ကို Loan Record တိုင်းတွင် ထပ်ခါထပ်ခါ ထည့်သွင်းခြင်း Term 7 Library Database ဥပမာက သရုပ်ပြခဲ့သည့် ပြဿနာ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does querying across multiple related tables (using foreign keys) help avoid redundancy?",
+          questionMy:
+              "ဆက်စပ်သော Table များစွာ တစ်လျှောက် (Foreign Key များကို အသုံးပြု၍) Query လုပ်ခြင်းသည် Redundancy ကို ရှောင်ရှားရန် အဘယ်ကြောင့် ကူညီသနည်း။",
+          optionsEn: [
+            "Each piece of information is stored once in its own table, and related tables can be joined together only when needed for a specific query",
+            "It requires every field to be duplicated in every table",
+            "It makes every table's primary key identical",
+            "It removes the need for primary keys entirely",
+          ],
+          optionsMy: [
+            "အချက်အလက် အပိုင်းတစ်ခုစီကို ၎င်းကိုယ်ပိုင် Table တွင် တစ်ကြိမ်သာ သိမ်းဆည်းထားပြီး ဆက်စပ်သော Table များကို တိကျသော Query တစ်ခုအတွက် လိုအပ်ချိန်တွင်သာ ပေါင်းစပ်နိုင်ခြင်း",
+            "Field တိုင်းကို Table တိုင်းတွင် Duplicate လုပ်ရန် တောင်းဆိုခြင်း",
+            "Table တိုင်း၏ Primary Key ကို တူညီစေခြင်း",
+            "Primary Key ကို လုံးဝ လိုအပ်မှု မရှိတော့စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Instead of storing a student's full name inside every loan record, a query can join the BookLoans table to the Students table via StudentID, pulling the name from its one true source.",
+          ],
+          hintsMy: [
+            "Loan Record တိုင်းအတွင်း ကျောင်းသားအမည်အပြည့်အစုံကို သိမ်းဆည်းမည့်အစား Query တစ်ခုသည် BookLoans Table ကို StudentID မှတစ်ဆင့် Students Table နှင့် Join လုပ်ပြီး ၎င်း၏ တစ်ခုတည်းသော စစ်မှန်သော Source မှ အမည်ကို ဆွဲထုတ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is one purpose of applying validation rules directly at the database table level, rather than only in an application's input form?",
+          questionMy:
+              "Application ၏ Input Form တွင်သာ မဟုတ်ဘဲ Database Table အဆင့်တွင် တိုက်ရိုက် Validation Rule များ အသုံးချခြင်း၏ ရည်ရွယ်ချက် တစ်ခုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It ensures data integrity is enforced consistently, even if data enters the database through a different route that bypasses the form",
+            "It makes the database run twice as fast in every situation",
+            "It permanently deletes all validation rules from the application",
+            "It removes the need for any primary keys at all",
+          ],
+          optionsMy: [
+            "Form ကို ကျော်လွှားသော ကွဲပြားသော လမ်းကြောင်းမှတစ်ဆင့် Data ဝင်ရောက်လာသော်ငြားလည်း Data Integrity ကို တသမတ်တည်း စည်းကမ်းအရ ကျင့်သုံးကြောင်း သေချာစေသည်",
+            "အခြေအနေတိုင်းတွင် Database ကို နှစ်ဆ ပို၍ မြန်စွာ Run စေသည်",
+            "Application မှ Validation Rule အားလုံးကို အမြဲတမ်း ဖျက်ချသည်",
+            "Primary Key မည်သည်ကိုမျှ လိုအပ်မှု လုံးဝ မရှိတော့စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If validation only lives in one app's form, a different program or a direct database edit could still insert invalid data -- table-level rules close that gap.",
+          ],
+          hintsMy: [
+            "Validation သည် App တစ်ခု၏ Form တွင်သာ ရှိနေပါက ကွဲပြားသော Program တစ်ခု (သို့) တိုက်ရိုက် Database Edit တစ်ခုသည် ဆက်လက် Invalid Data ထည့်သွင်းနိုင်သည် -- Table-Level Rule များက ထို ကွက်လပ်ကို ပိတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Database Integrity Terms",
+      titleMy: "တွဲစပ်ကြမည် - Database Integrity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w27-dm-1",
+          termEn: "Data redundancy",
+          termMy: "Data Redundancy",
+          matchEn:
+              "The same data unnecessarily stored in multiple places, risking inconsistency",
+          matchMy:
+              "Inconsistency အန္တရာယ် ရှိနေသော Data တူညီကို နေရာများစွာတွင် မလိုအပ်ဘဲ သိမ်းဆည်းထားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w27-dm-2",
+          termEn: "Data integrity",
+          termMy: "Data Integrity",
+          matchEn:
+              "The accuracy and consistency of data stored across a database over time",
+          matchMy:
+              "အချိန်နှင့်အမျှ Database တစ်ခုတစ်လျှောက် သိမ်းဆည်းထားသော Data ၏ တိကျမှုနှင့် Consistency",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w27-dm-3",
+          termEn: "Multi-table query",
+          termMy: "Multi-Table Query",
+          matchEn:
+              "A query that joins two or more related tables together via a shared key",
+          matchMy:
+              "မျှဝေထားသော Key တစ်ခုမှတစ်ဆင့် ဆက်စပ်သော Table နှစ်ခု (သို့) ထို့ထက်ပို၍ ပေါင်းစပ်ပေးသော Query",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w27-dm-4",
+          termEn: "Normalisation",
+          termMy: "Normalisation",
+          matchEn:
+              "Organising data into separate, related tables to reduce redundancy",
+          matchMy:
+              "Redundancy ကို လျှော့ချရန် Data ကို ကွဲပြား၊ ဆက်စပ်သော Table များအဖြစ် စီစဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w27-dm-5",
+          termEn: "Table-level validation",
+          termMy: "Table-Level Validation",
+          matchEn:
+              "Validation rules applied directly at the database, consistently enforced regardless of the entry route",
+          matchMy:
+              "Database တွင် တိုက်ရိုက် အသုံးချထားသော Validation Rule များ၊ Entry လမ်းကြောင်း မည်သို့ပင်ရှိစေ တသမတ်တည်း ကျင့်သုံးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reduces or Causes Redundancy?",
+      titleMy: "စီစစ်ကြမည် - Redundancy ကို လျှော့ချသလား ဖြစ်စေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Reduces Redundancy", "Causes Redundancy"],
+        bucketsMy: ["Redundancy ကို လျှော့ချသည်", "Redundancy ဖြစ်စေသည်"],
+        items: [
+          SortingItem(
+            id: "igcomp-w27-sort-1",
+            labelEn:
+                "Using a foreign key to reference a student's details instead of repeating them",
+            labelMy:
+                "ကျောင်းသား အသေးစိတ်ကို ထပ်ခါထပ်ခါ ထည့်သွင်းမည့်အစား ရည်ညွှန်းရန် Foreign Key အသုံးပြုခြင်း",
+            correctBucketEn: "Reduces Redundancy",
+            correctBucketMy: "Redundancy ကို လျှော့ချသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w27-sort-2",
+            labelEn:
+                "Storing a student's full name inside every single loan record",
+            labelMy:
+                "ကျောင်းသား၏ အမည်အပြည့်အစုံကို Loan Record တိုင်းအတွင်း သိမ်းဆည်းခြင်း",
+            correctBucketEn: "Causes Redundancy",
+            correctBucketMy: "Redundancy ဖြစ်စေသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w27-sort-3",
+            labelEn:
+                "Splitting data into separate, related tables joined by keys",
+            labelMy:
+                "Data ကို Key များဖြင့် ချိတ်ဆက်ထားသော ကွဲပြား၊ ဆက်စပ်သော Table များအဖြစ် ခွဲခြားခြင်း",
+            correctBucketEn: "Reduces Redundancy",
+            correctBucketMy: "Redundancy ကို လျှော့ချသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w27-sort-4",
+            labelEn:
+                "Copying a book's full title into every loan record instead of using ISBN",
+            labelMy:
+                "ISBN အသုံးပြုမည့်အစား စာအုပ်၏ ခေါင်းစဉ်အပြည့်အစုံကို Loan Record တိုင်းသို့ ကူးယူခြင်း",
+            correctBucketEn: "Causes Redundancy",
+            correctBucketMy: "Redundancy ဖြစ်စေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Join Query",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Join Query",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Join Query",
+        titleMy: "Zayar Lin ၏ Join Query",
+        passageEn:
+            "Sayar Ye Min returned to the library database from earlier in the term and posed a new problem: the librarian wanted a single report listing each currently borrowed book's title alongside the name of the student who borrowed it, but the BookLoans table only stored StudentID and ISBN, not the actual names or titles. Zayar Lin recognised this called for a multi-table query joining BookLoans to both the Students table and the Books table through their shared keys, rather than redesigning the database to store redundant copies of names and titles.\n\nHe reasoned through the join step by step. Since BookLoans.StudentID referenced the same values as Students.StudentID, a query could match rows between the two tables wherever those values were equal, pulling in the Students table's Name field alongside each loan without that name ever being stored inside BookLoans itself. Using the exact same logic, since BookLoans.ISBN referenced Books.ISBN, the query could simultaneously pull in the Books table's Title field. His finished query conceptually read: select Name and Title from BookLoans, joined to Students where BookLoans.StudentID equals Students.StudentID, and joined to Books where BookLoans.ISBN equals Books.ISBN.\n\nSayar Ye Min then asked why this approach was better than simply adding Name and Title as extra fields directly inside the BookLoans table itself, which would have made the join unnecessary. Zayar Lin connected this directly back to the redundancy problem: if Name and Title were duplicated inside BookLoans, correcting a spelling mistake in a student's name would require updating every single one of that student's loan records individually, and any record accidentally missed would then disagree with the corrected Students table -- exactly the inconsistency risk the join query avoided entirely, since it always pulled the current, single source of truth for each name and title at the moment the query ran, rather than trusting a potentially stale, duplicated copy.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Term ရှေ့ပိုင်းမှ Library Database သို့ ပြန်သွားပြီး ပြဿနာအသစ်တစ်ခု တင်ပြခဲ့သည် - Librarian သည် လက်ရှိ ငှားရှိထားသော စာအုပ်တစ်အုပ်စီ၏ ခေါင်းစဉ်ကို ငှားရှိသော ကျောင်းသား၏ အမည်နှင့်အတူ စာရင်းပြုသော Report တစ်ခုတည်း လိုချင်ခဲ့သော်လည်း BookLoans Table တွင် StudentID နှင့် ISBN ကိုသာ သိမ်းဆည်းထားပြီး အမည်များ (သို့) ခေါင်းစဉ်များ အစစ်အမှန် မသိမ်းဆည်းထားပါ။ Name များနှင့် Title များ၏ Redundant Copy များ သိမ်းဆည်းရန် Database ကို ပြန်လည် ဒီဇိုင်းဆွဲမည့်အစား ဤသည်က BookLoans ကို Students Table နှင့် Books Table နှစ်ခုစလုံးနှင့် ၎င်းတို့ Shared Key များမှတစ်ဆင့် ချိတ်ဆက်သော Multi-Table Query ကို တောင်းဆိုကြောင်း Zayar Lin သိမြင်ခဲ့သည်။\n\nJoin ကို သူ အဆင့်ဆင့် ဆင်ခြင်ခဲ့သည်။ BookLoans.StudentID သည် Students.StudentID နှင့် တန်ဖိုးတူညီကို ရည်ညွှန်းသောကြောင့် Query တစ်ခုသည် ထို တန်ဖိုးများ ညီသည့်နေရာတိုင်းတွင် Table နှစ်ခုကြား Row များကို ကိုက်ညီစေနိုင်ပြီး ထို Name ကို BookLoans ကိုယ်တိုင် အတွင်းတွင် ဘယ်တော့မှ မသိမ်းဆည်းဘဲ Loan တစ်ခုစီနှင့်အတူ Students Table ၏ Name Field ကို ဆွဲထုတ်နိုင်သည်။ အတိအကျ တူညီသော Logic ကို အသုံးပြု၍ BookLoans.ISBN သည် Books.ISBN ကို ရည်ညွှန်းသောကြောင့် Query သည် Books Table ၏ Title Field ကို တစ်ပြိုင်နက် ဆွဲထုတ်နိုင်သည်။ ၎င်း၏ ပြီးဆုံးသော Query တွင် သဘောတရားအားဖြင့် - BookLoans.StudentID သည် Students.StudentID နှင့် ညီသည့်နေရာတွင် Students သို့ Join လုပ်ထားပြီး BookLoans.ISBN သည် Books.ISBN နှင့် ညီသည့်နေရာတွင် Books သို့ Join လုပ်ထားသော BookLoans မှ Name နှင့် Title ကို Select လုပ်ခြင်း ဖြစ်သည်။\n\nJoin ကို မလိုအပ်စေမည့် BookLoans Table ကိုယ်တိုင် အတွင်းတွင် Name နှင့် Title ကို ရိုးရိုးရှင်းရှင်း Field ထပ်ဆောင်းအဖြစ် ထည့်သွင်းခြင်းထက် ဤ Approach ပို၍ ကောင်းရသည့် အကြောင်းရင်းကို ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည်။ Redundancy ပြဿနာသို့ ၎င်းကို Zayar Lin တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - Name နှင့် Title ကို BookLoans အတွင်း Duplicate လုပ်ခဲ့ပါက ကျောင်းသားတစ်ဦး၏ အမည်ရှိ စာလုံးပေါင်း အမှားကို ပြင်ဆင်ခြင်းသည် ထို ကျောင်းသား၏ Loan Record တိုင်းကို တစ်ခုချင်းစီ Update လုပ်ရန် လိုအပ်ပြီး မတော်တဆ လွတ်သွားသော Record မည်သည်သည် ပြင်ဆင်ပြီးသား Students Table နှင့် သဘောမတူဘဲ ကျန်ရှိနေလိမ့်မည် -- ၎င်းသည် Query Run ချိန်တွင် Name နှင့် Title တစ်ခုစီအတွက် Duplicate ဖြစ်နိုင်သော၊ ပျောက်ကွယ်သွားနိုင်သော Copy ကို ယုံကြည်မည့်အစား လက်ရှိ၊ တစ်ခုတည်းသော Source of Truth ကို အမြဲ ဆွဲထုတ်ခြင်းကြောင့် Join Query လုံးဝ ရှောင်ရှားခဲ့သော Inconsistency အန္တရာယ် အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did the librarian's request reveal about the BookLoans table?",
+            questionMy:
+                "Librarian ၏ တောင်းဆိုချက်က BookLoans Table အကြောင်း ဖော်ထုတ်ခဲ့သော ပြဿနာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It only stored StudentID and ISBN, not the actual names or titles",
+              "It had no fields at all",
+              "It stored every field from every other table",
+              "It could not be queried in any way",
+            ],
+            optionsMy: [
+              "StudentID နှင့် ISBN ကိုသာ သိမ်းဆည်းထားပြီး အမည်များ (သို့) ခေါင်းစဉ်များ အစစ်အမှန် မသိမ်းဆည်းထားခြင်း",
+              "Field မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "အခြား Table တိုင်းမှ Field တိုင်းကို သိမ်းဆည်းထားခြင်း",
+              "မည်သည့်နည်းလမ်းဖြင့်မျှ Query လုပ်၍ မရနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about what BookLoans stored."],
+            hintsMy: [
+              "BookLoans သိမ်းဆည်းထားသည့်အရာအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did the query pull in the Books table's Title field?",
+            questionMy:
+                "Query သည် Books Table ၏ Title Field ကို မည်သို့ ဆွဲထုတ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By joining where BookLoans.ISBN equals Books.ISBN",
+              "By copying the title into BookLoans permanently",
+              "By deleting the Books table entirely",
+              "By ignoring the ISBN field completely",
+            ],
+            optionsMy: [
+              "BookLoans.ISBN သည် Books.ISBN နှင့် ညီသည့်နေရာတွင် Join လုပ်ခြင်းဖြင့်",
+              "ခေါင်းစဉ်ကို BookLoans သို့ အမြဲတမ်း ကူးယူခြင်းဖြင့်",
+              "Books Table ကို လုံးဝ ဖျက်ချခြင်းဖြင့်",
+              "ISBN Field ကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the Books join condition."],
+            hintsMy: [
+              "Books Join Condition အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the join query avoid the inconsistency risk of duplicated data?",
+            questionMy:
+                "Join Query သည် Duplicate ဖြစ်ထားသော Data ၏ Inconsistency အန္တရာယ်ကို ရှောင်ရှားနိုင်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It always pulled the current, single source of truth at the moment the query ran, rather than a stale duplicated copy",
+              "It deleted the Students table entirely",
+              "It never actually connected to any other table",
+              "It stored a permanent, unchangeable copy of every name",
+            ],
+            optionsMy: [
+              "Query Run ချိန်တွင် ပျောက်ကွယ်သွားနိုင်သော Duplicate Copy မဟုတ်ဘဲ လက်ရှိ၊ တစ်ခုတည်းသော Source of Truth ကို အမြဲ ဆွဲထုတ်ခြင်း",
+              "Students Table ကို လုံးဝ ဖျက်ချခြင်း",
+              "အခြား Table မည်သည်နှင့်မျှ တကယ်တမ်း မချိတ်ဆက်ခြင်း",
+              "အမည်တိုင်း၏ ပြောင်းလဲမရနိုင်သော အမြဲတမ်း Copy ကို သိမ်းဆည်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Database Integrity",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Database Integrity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Data redundancy risks...",
+          questionMy: "Data Redundancy သည် ...အန္တရာယ် ရှိစေသည်",
+          optionsEn: [
+            "Inconsistency if only some duplicated copies are updated",
+            "Making the database impossible to query",
+            "Automatically fixing every typo",
+            "Deleting the primary key",
+          ],
+          optionsMy: [
+            "Duplicate ဖြစ်ထားသော Copy အချို့သာ Update ဖြစ်ပါက Inconsistency ဖြစ်ခြင်း",
+            "Database ကို Query လုပ်၍ မရနိုင်စေခြင်း",
+            "Typo တိုင်းကို အလိုအလျောက် ပြင်ဆင်ခြင်း",
+            "Primary Key ကို ဖျက်ချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A multi-table query typically joins tables using...",
+          questionMy:
+              "Multi-Table Query တစ်ခုသည် ပုံမှန်အားဖြင့် Table များကို ...ကို အသုံးပြု၍ ချိတ်ဆက်သည်",
+          optionsEn: [
+            "A shared key, such as a primary key matched to a foreign key",
+            "A completely random field with no relationship",
+            "Only the table's name",
+            "The database's file size",
+          ],
+          optionsMy: [
+            "Foreign Key နှင့် ကိုက်ညီသော Primary Key ကဲ့သို့ Shared Key",
+            "ဆက်နွယ်မှု မရှိသော လုံးလုံးလျားလျား ကျပန်း Field",
+            "Table ၏ အမည်သာ",
+            "Database ၏ File Size",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Applying validation rules at the table level ensures data integrity even if...",
+          questionMy:
+              "Table Level တွင် Validation Rule များ အသုံးချခြင်းသည် ...ဖြစ်သော်လည်း Data Integrity ကို သေချာစေသည်",
+          optionsEn: [
+            "Data enters through a different route that bypasses the usual application form",
+            "The database has no tables at all",
+            "The primary key is deleted entirely",
+            "No data is ever entered into the database",
+          ],
+          optionsMy: [
+            "Data သည် ပုံမှန် Application Form ကို ကျော်လွှားသော ကွဲပြားသော လမ်းကြောင်းမှတစ်ဆင့် ဝင်ရောက်လာခြင်း",
+            "Database တွင် Table မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "Primary Key ကို လုံးဝ ဖျက်ချခြင်း",
+            "Database သို့ Data မည်သည်ကိုမျှ ဘယ်တော့မှ မထည့်သွင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 7, Week 28 (Capstone/Boss Week): "SQL
+// Database Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek28 = CourseWeekDef(
+  id: "course-igcse-computing-w28",
+  weekNumber: 28,
+  titleEn: "SQL Database Studio",
+  titleMy: "SQL ဒေတာဘေ့စ် အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w28-d1",
+      dayNumber: 1,
+      titleEn: "Database Design and Advanced Queries",
+      titleMy: "Database ဒီဇိုင်းနှင့် အဆင့်မြင့် Query များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A school wants a database tracking which teachers teach which subjects, where a teacher can teach multiple subjects and a subject can be taught by multiple teachers. What should the primary key of a new 'Teaches' linking table be?",
+          questionMy:
+              "ကျောင်းတစ်ကျောင်းသည် ဆရာမည်သူက ဘာသာရပ်မည်သည်ကို သင်ကြားကြောင်း ခြေရာခံသော Database တစ်ခု လိုချင်သည် -- ဆရာတစ်ဦးသည် ဘာသာရပ်များစွာ သင်ကြားနိုင်ပြီး ဘာသာရပ်တစ်ခုကို ဆရာများစွာ သင်ကြားနိုင်သည်။ 'Teaches' Linking Table အသစ်တစ်ခု၏ Primary Key မည်သို့ ဖြစ်သင့်သနည်း။",
+          optionsEn: [
+            "A dedicated ID field for the linking table itself, alongside foreign keys referencing both the Teachers and Subjects tables",
+            "The teacher's name alone, with no other fields at all",
+            "No primary key is ever needed for a linking table",
+            "The subject's title alone, ignoring the teacher entirely",
+          ],
+          optionsMy: [
+            "Teachers နှင့် Subjects Table နှစ်ခုစလုံးကို ရည်ညွှန်းသော Foreign Key များနှင့်အတူ Linking Table ကိုယ်တိုင်အတွက် သီးသန့် ID Field",
+            "အခြား Field မည်သည်မှ မပါဘဲ ဆရာ၏ အမည်တစ်ခုတည်း",
+            "Linking Table တစ်ခုအတွက် Primary Key ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "ဆရာကို လုံးဝ လျစ်လျူရှုလျက် ဘာသာရပ်၏ ခေါင်းစဉ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This many-to-many relationship needs its own linking table with its own primary key, plus two foreign keys referencing the two related tables -- similar in spirit to the BookLoans table.",
+          ],
+          hintsMy: [
+            "ဤ Many-to-Many ဆက်စပ်မှုသည် ၎င်းကိုယ်ပိုင် Primary Key ပါသော ၎င်းကိုယ်ပိုင် Linking Table နှင့် ဆက်စပ်သော Table နှစ်ခုကို ရည်ညွှန်းသော Foreign Key နှစ်ခု လိုအပ်သည် -- BookLoans Table နှင့် သဘောသဘာဝ ဆင်တူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does WHERE Name LIKE 'A%' select in a Students table?",
+          questionMy:
+              "Students Table တစ်ခုတွင် WHERE Name LIKE 'A%' သည် အဘယ်အရာကို ရွေးချယ်သနည်း။",
+          optionsEn: [
+            "Every student whose name begins with the letter A",
+            "Only students whose name is exactly one letter long",
+            "Every student regardless of name",
+            "Only students whose name ends with the letter A",
+          ],
+          optionsMy: [
+            "အက္ခရာ A ဖြင့် အစပြုသော ကျောင်းသားတိုင်း",
+            "အက္ခရာ တစ်လုံးတည်း ရှည်လျားသော အမည်ရှိ ကျောင်းသားများသာ",
+            "အမည် မည်သို့ပင်ရှိစေ ကျောင်းသားတိုင်း",
+            "အက္ခရာ A ဖြင့် အဆုံးသတ်သော ကျောင်းသားများသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The % symbol is a wildcard matching any sequence of characters -- 'A%' means 'starts with A, followed by anything'.",
+          ],
+          hintsMy: [
+            "% Symbol သည် Character အစီအစဉ် မည်သည်ကိုမဆို ကိုက်ညီသော Wildcard ဖြစ်သည် -- 'A%' ဆိုသည်မှာ 'A ဖြင့် အစပြုပြီး ထို့နောက် မည်သည့်အရာမဆို လိုက်သည်' ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is storing a book's title inside a BookLoans record considered poor database design?",
+          questionMy:
+              "BookLoans Record တစ်ခုအတွင်း စာအုပ်၏ ခေါင်းစဉ်ကို သိမ်းဆည်းခြင်းကို Database ဒီဇိုင်း ညံ့ဖျင်းသည်ဟု ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It creates redundancy -- the title is already stored once in the Books table, accessible via a join",
+            "SQL cannot store text data of any kind",
+            "It is required by every database management system",
+            "Foreign keys are always illegal in database design",
+          ],
+          optionsMy: [
+            "Redundancy ဖန်တီးသည် -- ခေါင်းစဉ်ကို Books Table တွင် တစ်ကြိမ် ရှိပြီးသားဖြစ်ပြီး Join မှတစ်ဆင့် ဝင်ရောက်ကြည့်ရှုနိုင်သည်",
+            "SQL သည် Text Data မည်သည့်အမျိုးအစားကိုမျှ သိမ်းဆည်း၍ မရနိုင်ခြင်း",
+            "Database Management System တိုင်းက တောင်းဆိုခြင်း",
+            "Database Design တွင် Foreign Key များသည် အမြဲ တရားမဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall the Term 7 redundancy lesson -- duplicating data that already exists elsewhere is exactly the pattern that causes inconsistency risk.",
+          ],
+          hintsMy: [
+            "Term 7 Redundancy သင်ခန်းစာကို ပြန်သတိရပါ -- အခြားနေရာတွင် ရှိပြီးသား Data ကို Duplicate လုပ်ခြင်းသည် Inconsistency အန္တရာယ် ဖြစ်စေသော Pattern အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Databases Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Databases ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w28-dm-1",
+          termEn: "Primary key",
+          termMy: "Primary Key",
+          matchEn: "Uniquely identifies each record within its own table",
+          matchMy:
+              "၎င်းကိုယ်ပိုင် Table အတွင်း Record တစ်ခုစီကို ထူးခြားစွာ ဖော်ထုတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w28-dm-2",
+          termEn: "Foreign key",
+          termMy: "Foreign Key",
+          matchEn:
+              "Links to another table's primary key, enabling multi-table queries",
+          matchMy:
+              "Multi-Table Query များ ဖြစ်စေရန် အခြား Table တစ်ခု၏ Primary Key သို့ ချိတ်ဆက်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w28-dm-3",
+          termEn: "WHERE ... LIKE",
+          termMy: "WHERE ... LIKE",
+          matchEn:
+              "Filters records by matching a text pattern, often with a % wildcard",
+          matchMy:
+              "% Wildcard နှင့် မကြာခဏ Text Pattern တစ်ခု ကိုက်ညီခြင်းဖြင့် Record များကို စစ်ထုတ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w28-dm-4",
+          termEn: "Redundancy",
+          termMy: "Redundancy",
+          matchEn:
+              "Storing the same data unnecessarily in multiple places, risking inconsistency",
+          matchMy:
+              "Inconsistency အန္တရာယ် ရှိနေသော Data တူညီကို နေရာများစွာတွင် မလိုအပ်ဘဲ သိမ်းဆည်းခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: SQL Clause Function Check",
+      titleMy: "စီစစ်ကြမည် - SQL Clause Function စစ်ဆေးမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Chooses Fields (SELECT)", "Filters Records (WHERE)"],
+        bucketsMy: [
+          "Field များ ရွေးချယ်သည် (SELECT)",
+          "Record များ စစ်ထုတ်သည် (WHERE)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w28-sort-1",
+            labelEn: "SELECT Name, Score",
+            labelMy: "SELECT Name, Score",
+            correctBucketEn: "Chooses Fields (SELECT)",
+            correctBucketMy: "Field များ ရွေးချယ်သည် (SELECT)",
+          ),
+          SortingItem(
+            id: "igcomp-w28-sort-2",
+            labelEn: "WHERE Score >= 50 AND YearGroup = 9",
+            labelMy: "WHERE Score >= 50 AND YearGroup = 9",
+            correctBucketEn: "Filters Records (WHERE)",
+            correctBucketMy: "Record များ စစ်ထုတ်သည် (WHERE)",
+          ),
+          SortingItem(
+            id: "igcomp-w28-sort-3",
+            labelEn: "SELECT Title, Author",
+            labelMy: "SELECT Title, Author",
+            correctBucketEn: "Chooses Fields (SELECT)",
+            correctBucketMy: "Field များ ရွေးချယ်သည် (SELECT)",
+          ),
+          SortingItem(
+            id: "igcomp-w28-sort-4",
+            labelEn: "WHERE Name LIKE 'M%'",
+            labelMy: "WHERE Name LIKE 'M%'",
+            correctBucketEn: "Filters Records (WHERE)",
+            correctBucketMy: "Record များ စစ်ထုတ်သည် (WHERE)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Database Studio Report",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Database Studio Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Database Studio Report",
+        titleMy: "Zayar Lin ၏ Database Studio Report",
+        passageEn:
+            "For the Term 7 capstone, Sayar Ye Min asked every student to design a small database for a school sports day, then write three SQL queries answering real questions the sports coordinator would actually need answered, combining every concept from the term. Zayar Lin designed three tables: Athletes (AthleteID as primary key, Name, YearGroup), Events (EventID as primary key, EventName), and Results (ResultID as its own primary key, AthleteID and EventID as foreign keys, and a Position field recording where each athlete finished in each event).\n\nHis first query answered 'which athletes finished in the top 3 of the 100m sprint?': he needed a multi-table query joining Results to both Events and Athletes, filtering WHERE EventName = '100m Sprint' AND Position <= 3, then selecting the Name field from the joined Athletes table rather than storing names redundantly inside Results. His second query answered 'list every Year 9 athlete's name alphabetically': SELECT Name FROM Athletes WHERE YearGroup = 9 ORDER BY Name ASC, a single-table query needing no join at all since every required field already lived in the Athletes table.\n\nHis third and most demanding query answered 'find every athlete whose name starts with the letter K, sorted by year group': SELECT Name, YearGroup FROM Athletes WHERE Name LIKE 'K%' ORDER BY YearGroup ASC, correctly combining a LIKE wildcard filter with an ORDER BY clause in a single query. In his final written reflection, Zayar Lin explained why he had resisted the temptation to add a Name field directly inside the Results table to 'simplify' his first query: doing so would have reintroduced the exact redundancy problem from earlier in the term, since an athlete's name would then exist in two places that could eventually disagree, whereas the join-based approach guaranteed the name always came from its single authoritative source in the Athletes table.",
+        passageMy:
+            "Term 7 Capstone အတွက် ကျောင်းသား Sports Day တစ်ခုအတွက် Database ငယ်တစ်ခု ဒီဇိုင်းဆွဲပြီး Sports Coordinator က အမှန်တကယ် ဖြေဆိုစေချင်သော လက်တွေ့ မေးခွန်းများကို ဖြေဆိုမည့် SQL Query သုံးခု ရေးသားရန် Term တစ်ခုလုံးမှ သဘောတရားတိုင်းကို ပေါင်းစပ်၍ ဆရာရဲမင်းက ကျောင်းသားတိုင်းကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် Table သုံးခု ဒီဇိုင်းဆွဲခဲ့သည် - Athletes (AthleteID Primary Key အဖြစ်, Name, YearGroup), Events (EventID Primary Key အဖြစ်, EventName) နှင့် Results (ResultID ၎င်းကိုယ်ပိုင် Primary Key အဖြစ်, AthleteID နှင့် EventID Foreign Key များအဖြစ်, Athlete တစ်ဦးစီ Event တစ်ခုစီတွင် ရရှိသော Position ကို မှတ်တမ်းတင်သော Position Field) ။\n\n'100m Sprint တွင် ထိပ်ဆုံး 3 ဦးအတွင်း ရောက်ရှိသော Athlete များ မည်သူများနည်း' ဟူသော ၎င်း၏ ပထမ Query ကို ဖြေဆိုခဲ့သည် - Results ကို Events နှင့် Athletes နှစ်ခုစလုံးနှင့် ပေါင်းစပ်ကာ WHERE EventName = '100m Sprint' AND Position <= 3 ဖြင့် စစ်ထုတ်ပြီး Results အတွင်း Redundant အမည်များ သိမ်းဆည်းမည့်အစား ပေါင်းစပ်ထားသော Athletes Table မှ Name Field ကို ရွေးချယ်ရန် Multi-Table Query လိုအပ်ခဲ့သည်။ 'Year 9 Athlete တိုင်း၏ အမည်ကို Alphabetically စာရင်းပြုပါ' ဟူသော ၎င်း၏ ဒုတိယ Query ကို ဖြေဆိုခဲ့သည် - SELECT Name FROM Athletes WHERE YearGroup = 9 ORDER BY Name ASC, လိုအပ်သော Field တိုင်း Athletes Table တွင် ရှိပြီးသားဖြစ်သောကြောင့် Join လုံးဝ မလိုအပ်သော Single-Table Query ။\n\n'K အက္ခရာဖြင့် အစပြုသော အမည်ရှိ Athlete တိုင်းကို Year Group ဖြင့် Sort လုပ်၍ ရှာဖွေပါ' ဟူသော ၎င်း၏ တတိယနှင့် အခက်ခဲဆုံး Query ကို ဖြေဆိုခဲ့သည် - SELECT Name, YearGroup FROM Athletes WHERE Name LIKE 'K%' ORDER BY YearGroup ASC, Query တစ်ခုတည်းတွင် LIKE Wildcard Filter နှင့် ORDER BY Clause ကို မှန်ကန်စွာ ပေါင်းစပ်ခြင်း။ ၎င်း၏ နောက်ဆုံး ရေးသား ပြန်လည်သုံးသပ်ချက်တွင် ၎င်း၏ ပထမ Query ကို 'ရိုးရှင်းစေရန်' Results Table ကိုယ်တိုင် အတွင်း Name Field တစ်ခု တိုက်ရိုက် ထည့်သွင်းလိုသော သွေးဆောင်မှုကို Zayar Lin မည်သို့ ခုခံခဲ့ကြောင်း ရှင်းပြခဲ့သည် - ထိုသို့ ပြုလုပ်ခဲ့ပါက Term ရှေ့ပိုင်းမှ Redundancy ပြဿနာ အတိအကျကို ပြန်လည် ဖော်ဆောင်ခဲ့လိမ့်မည် ဖြစ်သည်၊ Athlete တစ်ဦး၏ အမည်သည် နောက်ဆုံးတွင် သဘောမတူနိုင်သော နေရာနှစ်ခုတွင် ရှိနေမည် ဖြစ်ပြီး Join-Based Approach သည် အမည်ကို Athletes Table ရှိ တစ်ခုတည်းသော အာဏာပိုင် Source မှ အမြဲ ရရှိကြောင်း အာမခံသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three tables did Zayar Lin design?",
+            questionMy:
+                "Zayar Lin ဒီဇိုင်းဆွဲခဲ့သော Table သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Athletes, Events, and Results",
+              "Students, Teachers, and Subjects",
+              "Books, Loans, and Authors",
+              "Only one table called Sports",
+            ],
+            optionsMy: [
+              "Athletes, Events နှင့် Results",
+              "Students, Teachers နှင့် Subjects",
+              "Books, Loans နှင့် Authors",
+              "Sports ဟု ခေါ်သော Table တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the three tables."],
+            hintsMy: [
+              "Table သုံးခုကို အမည်ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the second query need no join at all?",
+            questionMy:
+                "ဒုတိယ Query သည် Join လုံးဝ မလိုအပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every required field already lived in the Athletes table",
+              "SQL never allows joins of any kind",
+              "The query needed information from four different tables",
+              "Zayar Lin forgot to include a join",
+            ],
+            optionsMy: [
+              "လိုအပ်သော Field တိုင်း Athletes Table တွင် ရှိပြီးသားဖြစ်ခြင်း",
+              "SQL သည် Join မည်သည့်အမျိုးအစားကိုမျှ ဘယ်တော့မှ ခွင့်မပြုခြင်း",
+              "Query သည် ကွဲပြားသော Table လေးခုမှ အချက်အလက် လိုအပ်ခြင်း",
+              "Zayar Lin Join ထည့်သွင်းရန် မေ့သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining why no join was needed."],
+            hintsMy: [
+              "Join မလိုအပ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what did the join-based approach guarantee?",
+            questionMy:
+                "Join-Based Approach သည် အဘယ်အရာကို အာမခံကြောင်း နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The name always came from its single authoritative source in the Athletes table",
+              "The database would never need to be queried again",
+              "Every query would run in exactly one second",
+              "Redundancy would always increase over time",
+            ],
+            optionsMy: [
+              "အမည်ကို Athletes Table ရှိ တစ်ခုတည်းသော အာဏာပိုင် Source မှ အမြဲ ရရှိကြောင်း",
+              "Database ကို နောက်တစ်ကြိမ် ဘယ်တော့မှ Query လုပ်ရန် မလိုအပ်တော့ကြောင်း",
+              "Query တိုင်းသည် စက္ကန့် တစ်ခုတည်းအတွင်း အတိအကျ Run မည်ကြောင်း",
+              "Redundancy သည် အချိန်နှင့်အမျှ အမြဲ တိုးလာမည်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Databases and SQL Exam",
+      titleMy: "Term 7 Capstone - Databases and SQL စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A foreign key's main purpose is to...",
+          questionMy: "Foreign Key တစ်ခု၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Link to another table's primary key",
+            "Permanently delete a table",
+            "Encrypt an entire database",
+            "Store an image file",
+          ],
+          optionsMy: [
+            "အခြား Table တစ်ခု၏ Primary Key သို့ ချိတ်ဆက်ခြင်း",
+            "Table တစ်ခုကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "Database တစ်ခုလုံးကို Encrypt လုပ်ခြင်း",
+            "ပုံ File တစ်ခု သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "WHERE Name LIKE 'S%' matches names that...",
+          questionMy: "WHERE Name LIKE 'S%' သည် ...အမည်များနှင့် ကိုက်ညီသည်",
+          optionsEn: [
+            "Begin with the letter S",
+            "End with the letter S",
+            "Contain no letters at all",
+            "Are exactly one character long",
+          ],
+          optionsMy: [
+            "အက္ခရာ S ဖြင့် စတင်ခြင်း",
+            "အက္ခရာ S ဖြင့် အဆုံးသတ်ခြင်း",
+            "အက္ခရာ လုံးဝ မပါဝင်ခြင်း",
+            "Character တစ်လုံးတည်း ရှည်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Duplicating a piece of data across multiple tables instead of using a foreign key causes...",
+          questionMy:
+              "Foreign Key အသုံးမပြုဘဲ Data အပိုင်းတစ်ခုကို Table များစွာတစ်လျှောက် Duplicate လုပ်ခြင်းသည် ...ဖြစ်စေသည်",
+          optionsEn: [
+            "Redundancy and inconsistency risk",
+            "Faster query performance in every case",
+            "Automatic data validation",
+            "A smaller overall database file size",
+          ],
+          optionsMy: [
+            "Redundancy နှင့် Inconsistency အန္တရာယ်",
+            "အခြေအနေတိုင်းတွင် ပို၍ မြန်ဆန်သော Query Performance",
+            "Data Validation အလိုအလျောက်",
+            "Database File Size စုစုပေါင်း ငယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 7: "Databases and SQL" (Weeks 25-28)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm7 = CourseTermDef(
+  id: "course-igcse-computing-t7",
+  termNumber: 7,
+  titleEn: "Databases and SQL",
+  titleMy: "ဒေတာဘေ့စ်နှင့် SQL",
+  certificateTitleEn: "Databases and SQL",
+  certificateTitleMy: "ဒေတာဘေ့စ်နှင့် SQL",
+  weeks: [
+    _igcseComputingWeek25,
+    _igcseComputingWeek26,
+    _igcseComputingWeek27,
+    _igcseComputingWeek28,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
