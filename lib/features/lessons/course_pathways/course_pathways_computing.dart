@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 8-9 not yet
+// IGCSE Computing -- full pathway definition. Term 9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,9 +143906,9 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone. Term 8, Automated Systems and Robotics, covers microprocessors and feedback loops, robotics and machine learning fundamentals, and testing/verification strategies (test data categories, debugging), closing with an automated system design project.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Automated Systems and Robotics သည် Microprocessor များနှင့် Feedback Loop များ၊ Robotics နှင့် Machine Learning အခြေခံများ၊ Testing/Verification Strategy (Test Data အမျိုးအစားများ, Debugging) တို့ကို ဖုံးအုပ်ပြီး Automated System Design Project ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseComputingTerm1,
@@ -143918,6 +143918,7 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
     _igcseComputingTerm5,
     _igcseComputingTerm6,
     _igcseComputingTerm7,
+    _igcseComputingTerm8,
   ],
 );
 // =====================================================================
@@ -150865,6 +150866,1435 @@ const CourseTermDef _igcseComputingTerm7 = CourseTermDef(
     _igcseComputingWeek26,
     _igcseComputingWeek27,
     _igcseComputingWeek28,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 8, Week 29: "Automated Systems and Feedback
+// Loops"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek29 = CourseWeekDef(
+  id: "course-igcse-computing-w29",
+  weekNumber: 29,
+  titleEn: "Automated Systems and Feedback Loops",
+  titleMy: "အလိုအလျောက် စနစ်များနှင့် တုံ့ပြန်မှု စက်ဝန်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w29-d1",
+      dayNumber: 1,
+      titleEn: "Microprocessors and Feedback Loops",
+      titleMy: "Microprocessors နှင့် Feedback Loops",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In an automated control system, what role does the microprocessor play?",
+          questionMy:
+              "Automated Control System တစ်ခုတွင် Microprocessor ၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It receives sensor input, applies decision logic, and sends signals to actuators to produce the correct output response",
+            "It only stores data permanently and never processes anything",
+            "It physically moves as an actuator, replacing motors entirely",
+            "It exists only to display information on a screen",
+          ],
+          optionsMy: [
+            "Sensor Input ကို လက်ခံပြီး Decision Logic ကို အသုံးချကာ မှန်ကန်သော Output တုံ့ပြန်ချက် ထုတ်ပေးရန် Actuator များသို့ Signal များ ပို့လွှတ်သည်",
+            "Data ကို အမြဲတမ်း သိမ်းဆည်းရုံသာ ပြုလုပ်ပြီး မည်သည်ကိုမျှ Process မလုပ်ခြင်း",
+            "Motor များကို လုံးဝ အစားထိုးလျက် Actuator တစ်ခုအဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားခြင်း",
+            "Screen ပေါ်တွင် အချက်အလက် ပြသရန်သာ ရှိနေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects sensors (input) and actuators (output) from earlier in the course -- the microprocessor is the decision-making component in between.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား သင်တန်း ရှေ့ပိုင်းမှ Sensor (Input) နှင့် Actuator (Output) ကို ချိတ်ဆက်ပေးသည် -- Microprocessor သည် ကြားရှိ ဆုံးဖြတ်ချက်ချသော Component ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a 'feedback loop' in the context of an automated control system, such as a thermostat?",
+          questionMy:
+              "Thermostat ကဲ့သို့ Automated Control System ၏ Context တွင် 'Feedback Loop' ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The system continuously checks its output's effect (e.g. temperature) and adjusts its behaviour based on that ongoing measurement",
+            "A one-time action that never repeats or checks its own result",
+            "A type of database query used to sort records",
+            "A physical cable connecting a computer to a printer",
+          ],
+          optionsMy: [
+            "System သည် ၎င်း၏ Output ၏ အကျိုးသက်ရောက်မှု (ဥပမာ အပူချိန်) ကို အဆက်မပြတ် စစ်ဆေးပြီး ထို ဆက်လက် တိုင်းတာမှုအပေါ် အခြေခံ၍ ၎င်း၏ အပြုအမူကို ချိန်ညှိသည်",
+            "ဘယ်တော့မှ မထပ်ခါထပ်ခါ (သို့) ၎င်းကိုယ်ပိုင် ရလဒ်ကို မစစ်ဆေးသော တစ်ကြိမ်တည်း လုပ်ဆောင်ချက်",
+            "Record များ Sort လုပ်ရန် အသုံးပြုသော Database Query အမျိုးအစား",
+            "ကွန်ပျူတာကို Printer နှင့် ချိတ်ဆက်ပေးသော ရုပ်ပိုင်းဆိုင်ရာ Cable",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A thermostat measures the room's actual temperature (feedback), compares it to the target, and adjusts the heater accordingly -- then measures again, continuously.",
+          ],
+          hintsMy: [
+            "Thermostat တစ်ခုသည် အခန်း၏ အမှန်တကယ် အပူချိန် (Feedback) ကို တိုင်းတာပြီး Target နှင့် နှိုင်းယှဉ်ကာ Heater ကို ထိုအတိုင်း ချိန်ညှိသည် -- ထို့နောက် ထပ်မံ တိုင်းတာသည်၊ အဆက်မပြတ်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a monitoring system and a control system?",
+          questionMy:
+              "Monitoring System နှင့် Control System ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A monitoring system only observes and reports data; a control system observes data and also actively changes something in response",
+            "A control system can never use any sensors at all",
+            "A monitoring system always includes actuators, while a control system never does",
+            "Monitoring and control systems are simply two different names for exactly the same thing",
+          ],
+          optionsMy: [
+            "Monitoring System သည် Data ကို ကြည့်ရှု၍ Report ပြုလုပ်ရုံသာ ပြုလုပ်ပြီး Control System သည် Data ကို ကြည့်ရှုပြီး တုံ့ပြန်ချက်အနေဖြင့် တစ်ခုခုကို တက်ကြွစွာ ပြောင်းလဲစေသည်",
+            "Control System သည် Sensor မည်သည်ကိုမျှ ဘယ်တော့မှ အသုံးမပြုနိုင်ခြင်း",
+            "Monitoring System သည် Actuator များကို အမြဲ ပါဝင်ပြီး Control System သည် ဘယ်တော့မှ မပါဝင်ခြင်း",
+            "Monitoring နှင့် Control System သည် အရာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A weather station that only records rainfall is monitoring; an automatic irrigation system that turns on sprinklers based on rainfall is controlling.",
+          ],
+          hintsMy: [
+            "မိုးရေချိန်ကိုသာ မှတ်တမ်းတင်သော ရာသီဥတု Station သည် Monitoring ဖြစ်သည်; မိုးရေချိန်အပေါ် အခြေခံ၍ Sprinkler များ ဖွင့်ပေးသော Automatic Irrigation System သည် Controlling ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Automation Terms",
+      titleMy: "တွဲစပ်ကြမည် - Automation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w29-dm-1",
+          termEn: "Feedback loop",
+          termMy: "Feedback Loop",
+          matchEn:
+              "A cycle where a system continuously measures its output and adjusts behaviour accordingly",
+          matchMy:
+              "System တစ်ခုသည် ၎င်း၏ Output ကို အဆက်မပြတ် တိုင်းတာပြီး ထိုအတိုင်း အပြုအမူကို ချိန်ညှိသော Cycle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w29-dm-2",
+          termEn: "Microprocessor",
+          termMy: "Microprocessor",
+          matchEn:
+              "The decision-making component that processes sensor input and controls actuator output",
+          matchMy:
+              "Sensor Input ကို Process လုပ်ပြီး Actuator Output ကို ထိန်းချုပ်သော ဆုံးဖြတ်ချက်ချသော Component",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w29-dm-3",
+          termEn: "Monitoring system",
+          termMy: "Monitoring System",
+          matchEn:
+              "A system that observes and records data without taking any automated action",
+          matchMy:
+              "Automated Action မည်သည်ကိုမျှ မလုပ်ဘဲ Data ကို ကြည့်ရှု၍ မှတ်တမ်းတင်သော System",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w29-dm-4",
+          termEn: "Control system",
+          termMy: "Control System",
+          matchEn:
+              "A system that observes data and actively changes something in response, via actuators",
+          matchMy:
+              "Data ကို ကြည့်ရှုပြီး Actuator များမှတစ်ဆင့် တုံ့ပြန်ချက်အနေဖြင့် တစ်ခုခုကို တက်ကြွစွာ ပြောင်းလဲစေသော System",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w29-dm-5",
+          termEn: "Threshold value",
+          termMy: "Threshold Value",
+          matchEn:
+              "A target or trigger value a control system compares its sensor reading against",
+          matchMy:
+              "Control System သည် ၎င်း၏ Sensor Reading ကို နှိုင်းယှဉ်သော Target (သို့) Trigger တန်ဖိုး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Monitoring or Control System?",
+      titleMy: "စီစစ်ကြမည် - Monitoring (သို့) Control System",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Monitoring System", "Control System"],
+        bucketsMy: ["Monitoring System", "Control System"],
+        items: [
+          SortingItem(
+            id: "igcomp-w29-sort-1",
+            labelEn: "A weather station recording rainfall each hour",
+            labelMy: "နာရီစဉ် မိုးရေချိန် မှတ်တမ်းတင်သော ရာသီဥတု Station",
+            correctBucketEn: "Monitoring System",
+            correctBucketMy: "Monitoring System",
+          ),
+          SortingItem(
+            id: "igcomp-w29-sort-2",
+            labelEn: "An automatic thermostat turning a heater on and off",
+            labelMy: "Heater ကို ဖွင့်ပိတ် ပြုလုပ်ပေးသော Automatic Thermostat",
+            correctBucketEn: "Control System",
+            correctBucketMy: "Control System",
+          ),
+          SortingItem(
+            id: "igcomp-w29-sort-3",
+            labelEn:
+                "A heart rate monitor displaying a patient's pulse with no automated response",
+            labelMy:
+                "Automated Response မပါဘဲ လူနာ၏ Pulse ကို ပြသသော Heart Rate Monitor",
+            correctBucketEn: "Monitoring System",
+            correctBucketMy: "Monitoring System",
+          ),
+          SortingItem(
+            id: "igcomp-w29-sort-4",
+            labelEn:
+                "An automatic irrigation system switching sprinklers on based on soil moisture",
+            labelMy:
+                "မြေဆီလွှာ စိုစွတ်မှုအပေါ် အခြေခံ၍ Sprinkler များ ဖွင့်ပေးသော Automatic Irrigation System",
+            correctBucketEn: "Control System",
+            correctBucketMy: "Control System",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Greenhouse Feedback Loop",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Greenhouse Feedback Loop",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Greenhouse Feedback Loop",
+        titleMy: "Zayar Lin ၏ Greenhouse Feedback Loop",
+        passageEn:
+            "Sayar Ye Min returned to the automated greenhouse system from earlier in the course and asked Zayar Lin to trace its complete feedback loop step by step, connecting sensors, the microprocessor, and actuators into one continuous cycle rather than describing them as separate, disconnected parts. Zayar Lin began at the sensor: the temperature sensor continuously measured the greenhouse's actual air temperature and sent that reading to the microprocessor as input.\n\nThe microprocessor then compared this reading to a stored threshold value, the maximum acceptable temperature the greenhouse should reach. If the sensor reading exceeded the threshold, the microprocessor's decision logic determined the roof vent needed to open, and sent a signal to the vent motor, the actuator, to physically carry out that action. Crucially, Zayar Lin emphasised, the system did not stop there: after the vent opened, the temperature sensor kept measuring the (now hopefully cooling) greenhouse air and continued sending fresh readings back to the microprocessor, which continued comparing each new reading against the threshold and adjusting the vent's position accordingly.\n\nSayar Ye Min asked what would happen if this system were only a one-time check rather than a genuine loop -- if the microprocessor checked the temperature exactly once, opened the vent if needed, and then never checked again. Zayar Lin reasoned through the consequence: the vent might open correctly at first, but once the greenhouse cooled below the threshold, nothing would tell the microprocessor to close the vent again, and the greenhouse could become too cold overnight with no correction at all. He concluded that the defining feature of a genuine feedback loop was exactly this continuous, repeating cycle of measuring, deciding, and acting -- not a single measurement followed by a single action, but an unending cycle that kept the system correctly responsive to real, ongoing conditions.",
+        passageMy:
+            "သင်တန်း ရှေ့ပိုင်းမှ Automated Greenhouse System သို့ ဆရာရဲမင်း ပြန်သွားပြီး Sensor, Microprocessor နှင့် Actuator များကို ကွဲပြား၊ ချိတ်ဆက်မှု မရှိသော အစိတ်အပိုင်းများအဖြစ် ဖော်ပြမည့်အစား ဆက်တိုက် Cycle တစ်ခုအဖြစ် ချိတ်ဆက်လျက် ၎င်း၏ ပြည့်စုံသော Feedback Loop ကို အဆင့်ဆင့် ခြေရာခံရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် Sensor တွင် စတင်ခဲ့သည် - Temperature Sensor သည် Greenhouse ၏ လက်ရှိ လေထု အပူချိန်ကို အဆက်မပြတ် တိုင်းတာပြီး ထို ဖတ်ချက်ကို Microprocessor သို့ Input အဖြစ် ပို့လွှတ်ခဲ့သည်။\n\nMicroprocessor သည် ဤ ဖတ်ချက်ကို Greenhouse ရောက်ရှိသင့်သော အများဆုံး လက်ခံနိုင်သော အပူချိန်ဖြစ်သော သိမ်းဆည်းထားသော Threshold Value နှင့် နှိုင်းယှဉ်ခဲ့သည်။ Sensor ဖတ်ချက်သည် Threshold ထက် ကျော်လွန်ခဲ့ပါက Microprocessor ၏ Decision Logic သည် ခေါင်မိုး Vent ဖွင့်ရန် လိုအပ်ကြောင်း ဆုံးဖြတ်ခဲ့ပြီး Actuator ဖြစ်သော Vent Motor သို့ Signal ပို့လွှတ်ခဲ့ပြီး ထို Action ကို ရုပ်ပိုင်းဆိုင်ရာ ဆောင်ရွက်ခဲ့သည်။ အရေးကြီးသည်မှာ System သည် ထိုနေရာတွင် ရပ်တန့်ခြင်း မရှိကြောင်း Zayar Lin အလေးအနက် ထားခဲ့သည် - Vent ဖွင့်ပြီးနောက် Temperature Sensor သည် (ယခုအား လျော့ကျနေသော ဟု မျှော်လင့်ရသော) Greenhouse လေထုကို ဆက်လက် တိုင်းတာပြီး Microprocessor သို့ ဖတ်ချက်အသစ်များကို ဆက်လက် ပို့လွှတ်ခဲ့ပြီး ၎င်းသည် ဖတ်ချက်အသစ်တိုင်းကို Threshold နှင့် ဆက်လက် နှိုင်းယှဉ်ကာ Vent ၏ တည်နေရာကို ထိုအတိုင်း ချိန်ညှိခဲ့သည်။\n\nBoolean System သည် ခေတ္တစိတ်ကျန်းသော Check တစ်ခုတည်းသာ ဖြစ်ခဲ့ပါက စစ်မှန်သော Loop မဟုတ်ပါက -- Microprocessor သည် Temperature ကို တစ်ကြိမ်တည်း စစ်ဆေးပြီး လိုအပ်ပါက Vent ကို ဖွင့်ကာ ထို့နောက် ဘယ်တော့မှ ထပ်မံ မစစ်ဆေးတော့ပါက အဘယ်အရာ ဖြစ်ပျက်မည်နည်းဟု ဆရာရဲမင်း မေးမြန်းခဲ့သည်။ Zayar Lin သည် ရလဒ်ကို ဆင်ခြင်ခဲ့သည် - Vent သည် ပထမတွင် မှန်ကန်စွာ ဖွင့်နိုင်သော်လည်း Greenhouse သည် Threshold အောက်သို့ အအေးဓာတ် ကျသွားသောအခါ Vent ကို ပြန်ပိတ်ရန် Microprocessor ကို ဘယ်သူမျှ ပြောကြားမည် မဟုတ်ဘဲ Greenhouse သည် ညအချိန် ပြင်ဆင်မှု လုံးဝ မရှိဘဲ အလွန်ချမ်းအေးသွားနိုင်သည်။ တိုင်းတာခြင်း၊ ဆုံးဖြတ်ခြင်းနှင့် ဆောင်ရွက်ခြင်း၏ ဤ အဆက်မပြတ်၊ ထပ်ခါထပ်ခါ Cycle သည် စစ်မှန်သော Feedback Loop ၏ သတ်မှတ်ချက် ဂုဏ်သတ္တိ အတိအကျ ဖြစ်ကြောင်း သူ ကောက်ချက်ချခဲ့သည် -- တိုင်းတာခြင်း တစ်ခုတည်းနောက် Action တစ်ခုတည်း မဟုတ်ဘဲ System ကို လက်ရှိ၊ ဆက်လက်ဖြစ်ပေါ်နေသော အခြေအနေများကို မှန်ကန်စွာ တုံ့ပြန်မှု ရှိစေသော အဆုံးမဲ့ Cycle ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the temperature sensor send to the microprocessor?",
+            questionMy:
+                "Temperature Sensor သည် Microprocessor သို့ အဘယ်အရာ ပို့လွှတ်ခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its reading of the greenhouse's actual air temperature",
+              "A permanent shutdown command",
+              "A copy of the entire database",
+              "An image of the greenhouse",
+            ],
+            optionsMy: [
+              "Greenhouse ၏ လက်ရှိ လေထု အပူချိန် ဖတ်ချက်",
+              "အမြဲတမ်း Shutdown Command",
+              "Database တစ်ခုလုံး၏ Copy",
+              "Greenhouse ၏ ပုံ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the microprocessor do after the vent opened?",
+            questionMy:
+                "Vent ဖွင့်ပြီးနောက် Microprocessor မည်သို့ ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It continued receiving fresh readings and adjusting the vent's position accordingly",
+              "It permanently shut down and never checked again",
+              "It deleted the temperature sensor entirely",
+              "It immediately closed the vent regardless of temperature",
+            ],
+            optionsMy: [
+              "ဖတ်ချက်အသစ်များကို ဆက်လက် လက်ခံပြီး Vent ၏ တည်နေရာကို ထိုအတိုင်း ချိန်ညှိသည်",
+              "အမြဲတမ်း ပိတ်သွားပြီး ဘယ်တော့မှ ထပ်မံ မစစ်ဆေးခြင်း",
+              "Temperature Sensor ကို လုံးဝ ဖျက်ချသည်",
+              "အပူချိန် မည်သို့ပင်ရှိစေ Vent ကို ချက်ချင်း ပိတ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about continuing to measure and adjust.",
+            ],
+            hintsMy: [
+              "ဆက်လက် တိုင်းတာပြီး ချိန်ညှိခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what is the defining feature of a genuine feedback loop?",
+            questionMy:
+                "စစ်မှန်သော Feedback Loop တစ်ခု၏ သတ်မှတ်ချက် ဂုဏ်သတ္တိကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A continuous, repeating cycle of measuring, deciding, and acting",
+              "A single measurement followed by a single permanent action",
+              "No measurement of any kind",
+              "An action that never depends on any sensor",
+            ],
+            optionsMy: [
+              "တိုင်းတာခြင်း၊ ဆုံးဖြတ်ခြင်းနှင့် ဆောင်ရွက်ခြင်း၏ အဆက်မပြတ်၊ ထပ်ခါထပ်ခါ Cycle",
+              "တိုင်းတာခြင်း တစ်ခုတည်းနောက် အမြဲတမ်း Action တစ်ခုတည်း",
+              "တိုင်းတာခြင်း မည်သည့်အမျိုးအစားမျှ",
+              "Sensor မည်သည်နှင့်မျှ ဘယ်တော့မှ မမှီခိုသော Action",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Automated Systems",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Automated Systems",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A feedback loop is defined by...",
+          questionMy: "Feedback Loop တစ်ခုကို ...ဖြင့် သတ်မှတ်သည်",
+          optionsEn: [
+            "Continuously measuring output and adjusting behaviour",
+            "A single measurement with no repeat",
+            "Never using any sensors",
+            "Only occurring once per day",
+          ],
+          optionsMy: [
+            "Output ကို အဆက်မပြတ် တိုင်းတာပြီး အပြုအမူကို ချိန်ညှိခြင်း",
+            "ထပ်ခါထပ်ခါ မရှိသော တိုင်းတာခြင်း တစ်ကြိမ်တည်း",
+            "Sensor မည်သည်ကိုမျှ ဘယ်တော့မှ မသုံးခြင်း",
+            "တစ်နေ့လျှင် တစ်ကြိမ်တည်း ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A control system differs from a monitoring system because a control system...",
+          questionMy:
+              "Control System ကို Monitoring System နှင့် ကွဲပြားစေသော အချက်မှာ Control System သည်...",
+          optionsEn: [
+            "Actively changes something via an actuator in response to data",
+            "Can never observe any data at all",
+            "Always ignores every sensor reading",
+            "Never includes a microprocessor",
+          ],
+          optionsMy: [
+            "Data အပေါ် တုံ့ပြန်ချက်အနေဖြင့် Actuator မှတစ်ဆင့် တစ်ခုခုကို တက်ကြွစွာ ပြောင်းလဲစေခြင်း",
+            "Data မည်သည်ကိုမျှ ဘယ်တော့မှ ကြည့်ရှု၍ မရနိုင်ခြင်း",
+            "Sensor ဖတ်ချက်တိုင်းကို အမြဲ လျစ်လျူရှုခြင်း",
+            "Microprocessor တစ်ခုကို ဘယ်တော့မှ မထည့်သွင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A microprocessor in an automated system primarily...",
+          questionMy:
+              "Automated System တစ်ခုရှိ Microprocessor သည် အဓိကအားဖြင့်...",
+          optionsEn: [
+            "Processes sensor input and controls actuator output based on decision logic",
+            "Only stores permanent files with no processing",
+            "Replaces the need for any sensors",
+            "Physically moves as an actuator itself",
+          ],
+          optionsMy: [
+            "Decision Logic အပေါ် အခြေခံ၍ Sensor Input ကို Process လုပ်ပြီး Actuator Output ကို ထိန်းချုပ်ခြင်း",
+            "Process လုပ်ခြင်း မပါဘဲ Permanent File များကိုသာ သိမ်းဆည်းခြင်း",
+            "Sensor မည်သည့်အမျိုးအစား၏ လိုအပ်ချက်ကိုမျှ အစားထိုးခြင်း",
+            "Actuator ကိုယ်တိုင်အဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ရွေ့လျားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 8, Week 30: "Robotics and Artificial
+// Intelligence"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek30 = CourseWeekDef(
+  id: "course-igcse-computing-w30",
+  weekNumber: 30,
+  titleEn: "Robotics and Artificial Intelligence",
+  titleMy: "စက်ရုပ်ပညာနှင့် ဉာဏ်ရည်တု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w30-d1",
+      dayNumber: 1,
+      titleEn: "Robot Characteristics and Machine Learning",
+      titleMy: "Robot ဂုဏ်သတ္တိများနှင့် Machine Learning",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to IGCSE's definition, what characteristic distinguishes a robot from a simple automated machine?",
+          questionMy:
+              "IGCSE ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်အရ Robot ကို ရိုးရှင်းသော Automated Machine တစ်ခုနှင့် ကွဲပြားစေသော ဂုဏ်သတ္တိမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A robot typically combines sensors, actuators, and reprogrammable control logic, allowing it to be adapted for different tasks",
+            "A robot must always be shaped exactly like a human being",
+            "A robot can never contain a microprocessor of any kind",
+            "A robot must always be permanently connected to the internet",
+          ],
+          optionsMy: [
+            "Robot သည် ပုံမှန်အားဖြင့် Sensor, Actuator နှင့် Reprogrammable Control Logic ကို ပေါင်းစပ်ထားပြီး ကွဲပြားသော Task များအတွက် ပြောင်းလဲအသုံးပြုနိုင်စေသည်",
+            "Robot သည် လူသားနှင့် အတိအကျ တူညီသော ပုံသဏ္ဌာန် အမြဲ ရှိရမည် ဖြစ်ခြင်း",
+            "Robot သည် Microprocessor မည်သည့်အမျိုးအစားကိုမျှ ဘယ်တော့မှ ပါဝင်၍ မရနိုင်ခြင်း",
+            "Robot သည် အင်တာနက်နှင့် အမြဲတမ်း အမြဲ ချိတ်ဆက်ထားရမည် ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A simple thermostat is automated but not usually called a 'robot' -- robots typically add mechanical mobility or manipulation and reprogrammable behaviour.",
+          ],
+          hintsMy: [
+            "ရိုးရှင်းသော Thermostat သည် Automated ဖြစ်သော်လည်း ပုံမှန်အားဖြင့် 'Robot' ဟု ခေါ်လေ့ မရှိပါ -- Robot များသည် ပုံမှန်အားဖြင့် Mechanical Mobility (သို့) Manipulation နှင့် Reprogrammable Behaviour ကို ထပ်ဆောင်း ထည့်သွင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the basic idea behind machine learning, as distinct from traditional pre-programmed rules?",
+          questionMy:
+              "ရိုးရာ ကြိုတင် Program ရေးထားသော စည်းမျဉ်းများနှင့် ကွဲပြားသော Machine Learning နောက်ကွယ်ရှိ အခြေခံ အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A system learns patterns from large amounts of example data, rather than following rules explicitly written by a programmer in advance",
+            "Machine learning requires no data of any kind whatsoever",
+            "A machine learning system can never make an incorrect prediction",
+            "Machine learning is exactly identical to traditional if/else programming",
+          ],
+          optionsMy: [
+            "System သည် Programmer တစ်ဦးက ကြိုတင် ရှင်းလင်းစွာ ရေးသားထားသော စည်းမျဉ်းများ လိုက်နာမည့်အစား Example Data ပမာဏ များစွာမှ Pattern များကို သင်ယူသည်",
+            "Machine Learning သည် Data မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ မလိုအပ်ခြင်း",
+            "Machine Learning System တစ်ခုသည် မှားယွင်းသော ခန့်မှန်းချက် ဘယ်တော့မှ ပြုလုပ်၍ မရနိုင်ခြင်း",
+            "Machine Learning သည် ရိုးရာ If/Else Programming နှင့် အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A spam filter that improves by studying thousands of example emails, rather than following a fixed list of banned words, is a classic machine learning example.",
+          ],
+          hintsMy: [
+            "ပိတ်ပင်ထားသော Word များ၏ Fixed List ကို လိုက်နာမည့်အစား Email နမူနာ ထောင်ပေါင်းများစွာကို လေ့လာခြင်းဖြင့် တိုးတက်လာသော Spam Filter သည် ရိုးရာ Machine Learning ဥပမာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an industrial car manufacturing setting, why are robotic arms commonly used for welding tasks?",
+          questionMy:
+              "Industrial ကားထုတ်လုပ်ရေး Setting တစ်ခုတွင် Robotic Arm များကို Welding Task များအတွက် အဘယ်ကြောင့် အများသုံးသနည်း။",
+          optionsEn: [
+            "They can perform the same precise, repetitive action continuously with consistent accuracy, faster and more reliably than manual repetition",
+            "Robotic arms cannot ever be reprogrammed for a different task",
+            "Robotic arms are always slower than a human doing the same task",
+            "Robotic arms are used purely for decoration on the factory floor",
+          ],
+          optionsMy: [
+            "တူညီသော တိကျသော၊ ထပ်ခါထပ်ခါ Action ကို Consistent တိကျမှုဖြင့် အဆက်မပြတ် ပြုလုပ်နိုင်ပြီး လက်ဖြင့် ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းထက် ပို၍ မြန်ဆန်ပြီး ယုံကြည်ရသည်",
+            "Robotic Arm များကို ကွဲပြားသော Task အတွက် ဘယ်တော့မှ Reprogram မလုပ်၍ မရနိုင်ခြင်း",
+            "Robotic Arm များသည် တူညီသော Task ပြုလုပ်နေသော လူသားထက် အမြဲ ပို၍ နှေးကွေးခြင်း",
+            "Robotic Arm များကို Factory Floor ပေါ်တွင် အလှဆင်ရန်သာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Industrial automation typically favours tasks requiring extreme repeatability and precision -- fatigue-free, consistent performance over long production runs.",
+          ],
+          hintsMy: [
+            "Industrial Automation သည် ပုံမှန်အားဖြင့် Extreme Repeatability နှင့် တိကျမှု လိုအပ်သော Task များကို ဦးစားပေးသည် -- ထုတ်လုပ်မှု ကြာမြင့်စွာ ပြုလုပ်ချိန်တွင် ပင်ပန်းနွမ်းနယ်မှု မရှိသော၊ Consistent Performance ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Robotics and AI Terms",
+      titleMy: "တွဲစပ်ကြမည် - Robotics နှင့် AI ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w30-dm-1",
+          termEn: "Robot",
+          termMy: "Robot",
+          matchEn:
+              "A reprogrammable machine combining sensors, actuators, and control logic, adaptable to different tasks",
+          matchMy:
+              "Task ကွဲပြားများ၌ ချိန်ညှိနိုင်သော Sensor, Actuator နှင့် Control Logic ပေါင်းစပ်ထားသော Reprogrammable Machine",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w30-dm-2",
+          termEn: "Machine learning",
+          termMy: "Machine Learning",
+          matchEn:
+              "A system learning patterns from example data, rather than following explicitly pre-written rules",
+          matchMy:
+              "ကြိုတင် ရှင်းလင်းစွာ ရေးသားထားသော စည်းမျဉ်းများ လိုက်နာမည့်အစား Example Data မှ Pattern များ သင်ယူသော System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w30-dm-3",
+          termEn: "Artificial intelligence",
+          termMy: "Artificial Intelligence",
+          matchEn:
+              "The broader field of building systems that perform tasks normally requiring human-like intelligence",
+          matchMy:
+              "ပုံမှန်အားဖြင့် လူသားကဲ့သို့ ဉာဏ်ရည် လိုအပ်သော Task များ ပြုလုပ်ပေးသော System များ တည်ဆောက်သည့် ကျယ်ပြန့်သော နယ်ပယ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w30-dm-4",
+          termEn: "Industrial automation",
+          termMy: "Industrial Automation",
+          matchEn:
+              "Using robots or automated systems in manufacturing for repetitive, precise tasks",
+          matchMy:
+              "ထပ်ခါထပ်ခါ၊ တိကျသော Task များအတွက် ထုတ်လုပ်မှု၌ Robot (သို့) Automated System များကို အသုံးပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w30-dm-5",
+          termEn: "Training data",
+          termMy: "Training Data",
+          matchEn:
+              "The example data a machine learning system studies in order to learn patterns",
+          matchMy:
+              "Pattern များ သင်ယူရန် Machine Learning System လေ့လာသော Example Data",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Rule-Based or Machine Learning Approach?",
+      titleMy: "စီစစ်ကြမည် - Rule-Based (သို့) Machine Learning Approach",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rule-Based Approach", "Machine Learning Approach"],
+        bucketsMy: ["Rule-Based Approach", "Machine Learning Approach"],
+        items: [
+          SortingItem(
+            id: "igcomp-w30-sort-1",
+            labelEn: "A spam filter following a fixed list of banned words",
+            labelMy:
+                "ပိတ်ပင်ထားသော Word များ၏ Fixed List ကို လိုက်နာသော Spam Filter",
+            correctBucketEn: "Rule-Based Approach",
+            correctBucketMy: "Rule-Based Approach",
+          ),
+          SortingItem(
+            id: "igcomp-w30-sort-2",
+            labelEn:
+                "A spam filter that improves by studying thousands of example emails",
+            labelMy:
+                "Email နမူနာ ထောင်ပေါင်းများစွာကို လေ့လာခြင်းဖြင့် တိုးတက်လာသော Spam Filter",
+            correctBucketEn: "Machine Learning Approach",
+            correctBucketMy: "Machine Learning Approach",
+          ),
+          SortingItem(
+            id: "igcomp-w30-sort-3",
+            labelEn:
+                "A grading program that always assigns A for 80+ using a fixed IF condition",
+            labelMy:
+                "Fixed IF Condition ကို အသုံးပြု၍ 80+ အတွက် A ကို အမြဲ သတ်မှတ်ပေးသော Grading Program",
+            correctBucketEn: "Rule-Based Approach",
+            correctBucketMy: "Rule-Based Approach",
+          ),
+          SortingItem(
+            id: "igcomp-w30-sort-4",
+            labelEn:
+                "A photo app that learns to recognise faces from many labelled example photos",
+            labelMy:
+                "Label တပ်ထားသော နမူနာ ဓာတ်ပုံများစွာမှ မျက်နှာများကို ခွဲခြားသိရှိရန် သင်ယူသော Photo App",
+            correctBucketEn: "Machine Learning Approach",
+            correctBucketMy: "Machine Learning Approach",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Robot Sorter Debate",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Robot Sorter ဆွေးနွေးပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Robot Sorter Debate",
+        titleMy: "Zayar Lin ၏ Robot Sorter ဆွေးနွေးပွဲ",
+        passageEn:
+            "Sayar Ye Min described a factory task to the class: sorting fruit into 'ripe' and 'unripe' bins on a conveyor belt, and asked whether a simple rule-based system or a machine-learning-based system would be the better real-world approach, requiring Zayar Lin to argue both sides before settling on a recommendation. For the rule-based approach, Zayar Lin proposed a robotic arm guided by a colour sensor: if the fruit's measured colour value exceeded a fixed threshold associated with ripeness, sort it into the ripe bin, otherwise sort it into the unripe bin. He noted this would be simple to build, fast to run, and easy to understand exactly why any given decision was made, since the rule was explicit and fixed.\n\nHe then considered the machine-learning alternative: a system trained on thousands of labelled example photos of ripe and unripe fruit, learning to recognise the subtle visual patterns that separate the two categories, rather than relying on a single fixed colour threshold. Zayar Lin reasoned this could potentially handle cases the simple rule would get wrong -- fruit with unusual colouring, partial ripeness, or blemishes that a single colour threshold could not reliably distinguish, since the learned model could weigh many subtle visual features together rather than just one number.\n\nSayar Ye Min then pushed for a genuine recommendation rather than an endless list of pros and cons: which approach would Zayar Lin actually choose for this specific factory task, and why? Zayar Lin settled on the rule-based system, reasoning that if the fruit variety was consistent and colour reliably predicted ripeness for that specific fruit, the simpler, faster, cheaper, and more explainable rule-based approach was the better real-world engineering choice -- and that machine learning's real advantage only justified its added complexity and training cost when the task genuinely could not be solved reliably with simple, explicit rules, which was not clearly the case here. He noted this as the core lesson of the exercise: choosing between rule-based systems and machine learning is an engineering trade-off decision, not a rule that machine learning is always automatically the more 'advanced' or better choice.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Factory Task တစ်ခုကို Class ကို ဖော်ပြခဲ့သည် - Conveyor Belt ပေါ်ရှိ Fruit များကို 'Ripe' နှင့် 'Unripe' Bin များအဖြစ် Sort လုပ်ခြင်း၊ ရိုးရှင်းသော Rule-Based System (သို့) Machine-Learning-Based System သည် ပို၍ ကောင်းသော လက်တွေ့ Approach ဖြစ်မဖြစ် မေးမြန်းခဲ့ပြီး Zayar Lin ကို အကြံပြုချက်တစ်ခု ချမှတ်မီ ဘက်နှစ်ဖက်စလုံးကို ငြင်းခုံရန် တောင်းဆိုခဲ့သည်။ Rule-Based Approach အတွက် Colour Sensor ဖြင့် လမ်းညွှန်ထားသော Robotic Arm တစ်ခုကို Zayar Lin အဆိုပြုခဲ့သည် - Fruit ၏ တိုင်းတာထားသော အရောင် တန်ဖိုးသည် Ripeness နှင့် ဆက်စပ်ထားသော Fixed Threshold ကို ကျော်လွန်ပါက Ripe Bin သို့ Sort လုပ်ပြီး ထိုသို့ မဟုတ်ပါက Unripe Bin သို့ Sort လုပ်ပါ။ စည်းမျဉ်း ရှင်းလင်း၊ Fixed ဖြစ်နေသောကြောင့် ၎င်းသည် တည်ဆောက်ရန် ရိုးရှင်း၊ Run ရန် မြန်ဆန်ပြီး ဆုံးဖြတ်ချက်တိုင်း အဘယ်ကြောင့် ချမှတ်ကြောင်း တိကျစွာ နားလည်ရန် လွယ်ကူကြောင်း သူ မှတ်ချက်ချခဲ့သည်။\n\nMachine-Learning Alternative ကို ဆက်လက် သူ စဉ်းစားခဲ့သည် - Ripe နှင့် Unripe Fruit ၏ Label တပ်ထားသော နမူနာ ဓာတ်ပုံ ထောင်ပေါင်းများစွာဖြင့် Train လုပ်ထားသော System၊ Fixed Colour Threshold တစ်ခုတည်းကို အားကိုးမည့်အစား Category နှစ်ခုကို ခွဲခြားသော Visual Pattern နူးညံ့သည်များကို ခွဲခြားသိရှိရန် သင်ယူသည်။ Colour Threshold တစ်ခုတည်းက ယုံကြည်စွာ ခွဲခြား၍ မရနိုင်သော ပုံမှန်မဟုတ်သော အရောင်၊ တစ်စိတ်တစ်ပိုင်း Ripeness (သို့) အနာအဆာများ ရှိသော Fruit ကဲ့သို့ ရိုးရှင်းသော Rule မှားနိုင်သော Case များကို ဤသည် ဖြေရှင်းနိုင်ကောင်း ဖြေရှင်းနိုင်လိမ့်မည်ဟု Zayar Lin ဆင်ခြင်ခဲ့သည်၊ Learned Model သည် နံပါတ် တစ်ခုတည်းသာ မဟုတ်ဘဲ Visual Feature နူးညံ့သည်များစွာကို အတူတကွ ချိန်ခွင်လျှာညီ ထားနိုင်သောကြောင့် ဖြစ်သည်။\n\nအားသာချက် ချို့ယွင်းချက် စာရင်း အဆုံးမရှိမည့်အစား စစ်မှန်သော အကြံပြုချက်တစ်ခုကို ဆရာရဲမင်း ဆက်လက် တွန်းအားပေးခဲ့သည် - ဤ တိကျသော Factory Task အတွက် Zayar Lin သည် Approach မည်သည်ကို အမှန်တကယ် ရွေးချယ်မည်နည်း၊ အဘယ်ကြောင့်နည်း။ Fruit အမျိုးအစား Consistent ဖြစ်ပြီး ထို တိကျသော Fruit အတွက် အရောင်သည် Ripeness ကို ယုံကြည်စွာ ခန့်မှန်းနိုင်ပါက ပို၍ ရိုးရှင်း၊ ပို၍ မြန်ဆန်၊ ပို၍ ဈေးသက်သာပြီး ပို၍ ရှင်းလင်းနိုင်သော Rule-Based Approach သည် ပို၍ ကောင်းသော လက်တွေ့ Engineering ရွေးချယ်မှု ဖြစ်ကြောင်း ဆင်ခြင်ကာ Zayar Lin Rule-Based System ကို ဆုံးဖြတ်ခဲ့သည် -- Task သည် ရိုးရှင်း၊ ရှင်းလင်းသော Rule များဖြင့် ယုံကြည်စွာ ဖြေရှင်း၍ စစ်မှန်စွာ မရနိုင်ချိန်တွင်သာ Machine Learning ၏ စစ်မှန်သော အားသာချက်သည် ၎င်း၏ ထပ်ဆောင်း ရှုပ်ထွေးမှုနှင့် Training ကုန်ကျစရိတ်ကို တရားမျှတစေကြောင်း၊ ၎င်းသည် ဤနေရာတွင် ရှင်းလင်းစွာ ဖြစ်ခဲ့ခြင်း မဟုတ်ကြောင်းလည်း သူ ဆင်ခြင်ခဲ့သည်။ Rule-Based System များနှင့် Machine Learning ကြား ရွေးချယ်ခြင်းသည် Machine Learning သည် အမြဲ 'အဆင့်မြင့်' (သို့) ပို၍ ကောင်းသော ရွေးချယ်မှု ဖြစ်ကြောင်း စည်းမျဉ်းတစ်ခု မဟုတ်ဘဲ Engineering Trade-Off ဆုံးဖြတ်ချက် ဖြစ်ကြောင်းကို Exercise ၏ အဓိက သင်ခန်းစာအဖြစ် သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what advantage did Zayar Lin note for the rule-based approach?",
+            questionMy:
+                "Rule-Based Approach အတွက် Zayar Lin မှတ်ချက်ချခဲ့သော အားသာချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Simple to build, fast to run, and easy to understand exactly why a decision was made",
+              "It never requires a colour sensor",
+              "It is always more accurate than any machine learning system",
+              "It requires no fruit at all to be sorted",
+            ],
+            optionsMy: [
+              "တည်ဆောက်ရန် ရိုးရှင်း၊ Run ရန် မြန်ဆန်ပြီး ဆုံးဖြတ်ချက် အဘယ်ကြောင့် ချမှတ်ကြောင်း တိကျစွာ နားလည်ရန် လွယ်ကူခြင်း",
+              "Colour Sensor တစ်ခုကို ဘယ်တော့မှ မလိုအပ်ခြင်း",
+              "Machine Learning System မည်သည်ထက်မဆို အမြဲ ပို၍ တိကျခြင်း",
+              "Sort လုပ်ရန် Fruit မည်သည်ကိုမျှ လုံးဝ မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what cases might machine learning handle better than a single colour threshold?",
+            questionMy:
+                "Machine Learning သည် Colour Threshold တစ်ခုတည်းထက် ပို၍ ကောင်းစွာ ကိုင်တွယ်နိုင်သော Case များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fruit with unusual colouring, partial ripeness, or blemishes",
+              "Only perfectly average, typical fruit",
+              "Fruit that has already been sorted correctly",
+              "No cases at all -- rules always win",
+            ],
+            optionsMy: [
+              "ပုံမှန်မဟုတ်သော အရောင်၊ တစ်စိတ်တစ်ပိုင်း Ripeness (သို့) အနာအဆာများ ရှိသော Fruit",
+              "ပြီးပြည့်စုံစွာ ပျမ်းမျှ၊ ပုံမှန် Fruit များသာ",
+              "ရှိပြီးသား မှန်ကန်စွာ Sort လုပ်ပြီးသော Fruit",
+              "Case မည်သည်မှ -- Rule များက အမြဲ အနိုင်ရသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about unusual colouring and blemishes.",
+            ],
+            hintsMy: [
+              "ပုံမှန်မဟုတ်သော အရောင်နှင့် အနာအဆာများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what was the core lesson of the exercise?",
+            questionMy:
+                "Exercise ၏ အဓိက သင်ခန်းစာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Choosing between rule-based systems and machine learning is an engineering trade-off, not an automatic rule",
+              "Machine learning is always the better choice in every single situation",
+              "Rule-based systems can never be used in any factory",
+              "Fruit sorting is impossible with any computing approach",
+            ],
+            optionsMy: [
+              "Rule-Based System များနှင့် Machine Learning ကြား ရွေးချယ်ခြင်းသည် အလိုအလျောက် စည်းမျဉ်းတစ်ခု မဟုတ်ဘဲ Engineering Trade-Off ဖြစ်ခြင်း",
+              "Machine Learning သည် အခြေအနေတိုင်းတွင် အမြဲ ပို၍ ကောင်းသော ရွေးချယ်မှု ဖြစ်ခြင်း",
+              "Rule-Based System များကို Factory မည်သည့်ပေါ်တွင်မျှ ဘယ်တော့မှ အသုံးမပြု၍ ရနိုင်ခြင်း",
+              "Fruit Sorting ကို Computing Approach မည်သည့်အမျိုးအစားနှင့်မျှ မဖြစ်နိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Robotics and AI",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Robotics and AI",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A robot is typically characterised by...",
+          questionMy:
+              "Robot တစ်ခုကို ပုံမှန်အားဖြင့် ...ဖြင့် သတ်မှတ်လက္ခဏာပြုသည်",
+          optionsEn: [
+            "Sensors, actuators, and reprogrammable control logic",
+            "Only a fixed shape that can never change",
+            "The complete absence of any microprocessor",
+            "Permanent internet connectivity as its only feature",
+          ],
+          optionsMy: [
+            "Sensor, Actuator နှင့် Reprogrammable Control Logic",
+            "ဘယ်တော့မှ မပြောင်းလဲနိုင်သော Fixed ပုံသဏ္ဌာန်တစ်ခုတည်း",
+            "Microprocessor မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိခြင်း",
+            "၎င်း၏ Feature တစ်ခုတည်းအဖြစ် အမြဲတမ်း အင်တာနက် ချိတ်ဆက်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Machine learning systems learn primarily by...",
+          questionMy:
+              "Machine Learning System များသည် အဓိကအားဖြင့် ...ဖြင့် သင်ယူသည်",
+          optionsEn: [
+            "Studying patterns in large amounts of example data",
+            "Following a single fixed rule written by a programmer",
+            "Never processing any data whatsoever",
+            "Randomly guessing with no data at all",
+          ],
+          optionsMy: [
+            "Example Data ပမာဏ များစွာရှိ Pattern များကို လေ့လာခြင်း",
+            "Programmer တစ်ဦးက ရေးသားထားသော Fixed Rule တစ်ခုကို လိုက်နာခြင်း",
+            "Data မည်သည့်အမျိုးအစားကိုမျှ ဘယ်တော့မှ Process မလုပ်ခြင်း",
+            "Data မည်သည်မျှ မပါဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rule-based approach is often preferred over machine learning when...",
+          questionMy:
+              "Rule-Based Approach ကို Machine Learning ထက် မကြာခဏ ဦးစားပေးသည့်အခါမှာ...",
+          optionsEn: [
+            "The task can be reliably solved with simple, explicit rules",
+            "The task requires massive amounts of labelled training data",
+            "No fixed rule could ever describe the task correctly",
+            "Speed and explainability do not matter at all",
+          ],
+          optionsMy: [
+            "Task ကို ရိုးရှင်း၊ ရှင်းလင်းသော Rule များဖြင့် ယုံကြည်စွာ ဖြေရှင်းနိုင်ချိန်",
+            "Task သည် Label တပ်ထားသော Training Data ပမာဏ ကြီးမားစွာ လိုအပ်ချိန်",
+            "Fixed Rule မည်သည်မျှ Task ကို ဘယ်တော့မှ မှန်ကန်စွာ ဖော်ပြနိုင်ခြင်း",
+            "အမြန်နှုန်းနှင့် Explainability သည် လုံးဝ အရေးမကြီးချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 8, Week 31: "Testing and Verification
+// Strategies"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek31 = CourseWeekDef(
+  id: "course-igcse-computing-w31",
+  weekNumber: 31,
+  titleEn: "Testing and Verification Strategies",
+  titleMy: "စမ်းသပ်ခြင်းနှင့် အတည်ပြုခြင်း ဗျူဟာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w31-d1",
+      dayNumber: 1,
+      titleEn: "Test Data Categories and Debugging",
+      titleMy: "Test Data အမျိုးအစားများနှင့် Debugging",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For a program accepting an age between 0 and 120, what would be considered normal test data?",
+          questionMy:
+              "Age ကို 0 နှင့် 120 ကြား လက်ခံသော Program တစ်ခုအတွက် Normal Test Data ဟု ယူဆရမည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A typical, valid value like 25",
+            "The value -5",
+            "The value 121",
+            "The letter 'X'",
+          ],
+          optionsMy: [
+            "25 ကဲ့သို့ ပုံမှန်၊ Valid တန်ဖိုး",
+            "တန်ဖိုး -5",
+            "တန်ဖိုး 121",
+            "အက္ခရာ 'X'",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Normal data is a sensible, expected value comfortably within the valid range -- not at an edge, and not invalid.",
+          ],
+          hintsMy: [
+            "Normal Data သည် Valid Range အတွင်း သက်တောင့်သက်သာ ရှိသော ယုတ္တိတန်၊ မျှော်လင့်ထားသော တန်ဖိုး ဖြစ်သည် -- Edge တွင် မဟုတ်ဘဲ Invalid လည်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For that same age-input program (valid range 0-120), what would count as boundary test data?",
+          questionMy:
+              "ထို Age-Input Program တစ်ခုတည်းအတွက် (Valid Range 0-120) Boundary Test Data ဟု ရေတွက်ရမည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The values 0 and 120 -- exactly at the edges of the accepted range",
+            "The value 60, comfortably in the middle of the range",
+            "The letter 'Z'",
+            "A completely empty input",
+          ],
+          optionsMy: [
+            "တန်ဖိုး 0 နှင့် 120 -- လက်ခံထားသော Range ၏ အစွန်းတွင် အတိအကျ",
+            "Range ၏ အလယ်တွင် သက်တောင့်သက်သာ ရှိသော တန်ဖိုး 60",
+            "အက္ခရာ 'Z'",
+            "လုံးဝ ဗလာ Input",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Boundary data specifically tests the exact edges of a valid range, since off-by-one errors are most likely to appear precisely there.",
+          ],
+          hintsMy: [
+            "Boundary Data သည် Valid Range ၏ အစွန်းများကို အထူးသဖြင့် Test လုပ်သည်၊ Off-By-One အမှားများသည် ထိုနေရာတွင် အတိအကျ ပေါ်လာဖွယ်ရှိနေသောကြောင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a syntax error and a logic error when debugging a program?",
+          questionMy:
+              "Program တစ်ခုကို Debug လုပ်ရာတွင် Syntax Error နှင့် Logic Error ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A syntax error breaks the language's grammar rules and stops the program from running at all; a logic error lets the program run but produces the wrong result",
+            "A syntax error and a logic error are simply two different names for exactly the same problem",
+            "A logic error always prevents the program from running entirely",
+            "A syntax error only occurs in databases, never in programs",
+          ],
+          optionsMy: [
+            "Syntax Error သည် ဘာသာစကား၏ သဒ္ဒါစည်းမျဉ်းများကို ချိုးဖောက်ပြီး Program ကို လုံးဝ Run မလုပ်စေခြင်း; Logic Error သည် Program ကို Run စေသော်လည်း အဖြေ မှားယွင်းစွာ ထုတ်ပေးစေသည်",
+            "Syntax Error နှင့် Logic Error သည် ပြဿနာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+            "Logic Error သည် Program ကို လုံးလုံးလျားလျား Run ခြင်း မှ အမြဲ ကာကွယ်ခြင်း",
+            "Syntax Error သည် Database များတွင်သာ ဖြစ်ပေါ်ပြီး Program များတွင် ဘယ်တော့မှ မဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A missing colon in Python is a syntax error (nothing runs); calculating an average by adding numbers but forgetting to divide is a logic error (something runs, but wrong).",
+          ],
+          hintsMy: [
+            "Python တွင် Colon လွတ်သွားခြင်းသည် Syntax Error ဖြစ်သည် (မည်သည်မှ Run မဖြစ်ပါ); ဂဏန်းများ ပေါင်းထား၍ ပျမ်းမျှတွက်ချက်ရာတွင် စားရန် မေ့သွားခြင်းသည် Logic Error ဖြစ်သည် (တစ်ခုခု Run သော်လည်း မှားယွင်းသည်)။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Testing and Debugging Terms",
+      titleMy: "တွဲစပ်ကြမည် - Testing နှင့် Debugging ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w31-dm-1",
+          termEn: "Normal test data",
+          termMy: "Normal Test Data",
+          matchEn:
+              "A sensible, typical value comfortably within the valid range",
+          matchMy:
+              "Valid Range အတွင်း သက်တောင့်သက်သာ ရှိသော ယုတ္တိတန်၊ ပုံမှန် တန်ဖိုး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w31-dm-2",
+          termEn: "Boundary test data",
+          termMy: "Boundary Test Data",
+          matchEn:
+              "A value at the exact edge of a valid range, catching off-by-one errors",
+          matchMy:
+              "Off-By-One အမှားများကို ဖမ်းဆီးသော Valid Range ၏ အစွန်း အတိအကျရှိ တန်ဖိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w31-dm-3",
+          termEn: "Erroneous test data",
+          termMy: "Erroneous Test Data",
+          matchEn:
+              "Deliberately invalid input used to check a program handles mistakes gracefully",
+          matchMy:
+              "Program သည် အမှားများကို ချောမွေ့စွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးရန် အသုံးပြုသော ရည်ရွယ်ချက်ရှိရှိ Invalid Input",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w31-dm-4",
+          termEn: "Syntax error",
+          termMy: "Syntax Error",
+          matchEn: "A grammar mistake that stops a program from running at all",
+          matchMy: "Program ကို လုံးဝ Run မလုပ်စေသော သဒ္ဒါအမှား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w31-dm-5",
+          termEn: "Logic error",
+          termMy: "Logic Error",
+          matchEn:
+              "A mistake that lets a program run but produces an incorrect result",
+          matchMy:
+              "Program ကို Run စေသော်လည်း အဖြေ မှားယွင်းစွာ ထုတ်ပေးသော အမှား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Normal, Boundary or Erroneous?",
+      titleMy: "စီစစ်ကြမည် - Normal, Boundary (သို့) Erroneous",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Normal", "Boundary", "Erroneous"],
+        bucketsMy: ["Normal", "Boundary", "Erroneous"],
+        items: [
+          SortingItem(
+            id: "igcomp-w31-sort-1",
+            labelEn: "A percentage score of 45 in a 0-100 range",
+            labelMy: "0-100 Range ရှိ ရာခိုင်နှုန်း ရမှတ် 45",
+            correctBucketEn: "Normal",
+            correctBucketMy: "Normal",
+          ),
+          SortingItem(
+            id: "igcomp-w31-sort-2",
+            labelEn: "A percentage score of exactly 100",
+            labelMy: "ရာခိုင်နှုန်း ရမှတ် 100 အတိအကျ",
+            correctBucketEn: "Boundary",
+            correctBucketMy: "Boundary",
+          ),
+          SortingItem(
+            id: "igcomp-w31-sort-3",
+            labelEn: "A percentage score of -20",
+            labelMy: "ရာခိုင်နှုန်း ရမှတ် -20",
+            correctBucketEn: "Erroneous",
+            correctBucketMy: "Erroneous",
+          ),
+          SortingItem(
+            id: "igcomp-w31-sort-4",
+            labelEn: "A percentage score of exactly 0",
+            labelMy: "ရာခိုင်နှုန်း ရမှတ် 0 အတိအကျ",
+            correctBucketEn: "Boundary",
+            correctBucketMy: "Boundary",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Debugging Session",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Debugging Session",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Debugging Session",
+        titleMy: "Zayar Lin ၏ Debugging Session",
+        passageEn:
+            "Zayar Lin's grade-averaging program, meant to read five test scores and print their average, was producing a suspiciously low result every time he ran it. Before touching the code again, Sayar Ye Min made him first classify what kind of bug he was even dealing with: the program had run without crashing and had printed a number, so this ruled out a syntax error immediately -- the program's grammar was clearly valid Python, since it executed at all. This left a logic error as the only remaining explanation, meaning the code ran successfully but computed the wrong thing.\n\nRather than randomly changing lines and hoping for the best, Zayar Lin built a trace table exactly as he had learned earlier in the course, tracking the value of his total variable line by line as the program processed each of five test scores: 60, 70, 80, 90, and 100. He expected total to reach 400 after summing the first four scores and 500 after all five, then divide by 5 for a correct average of 100 -- wait, he corrected himself, the true average should be exactly (60+70+80+90+100)/5, which he recalculated properly as 80. Tracing the actual code, he discovered total was resetting to 0 inside the loop on every single pass, rather than only once before the loop began, so only the final score, 100, ever actually contributed to the average calculation, dividing 100 by 5 to get a suspiciously low 20 -- exactly matching the buggy output he had seen.\n\nSayar Ye Min confirmed the trace table had done its job: it did not just tell Zayar Lin that something was wrong, it pinpointed exactly which line reset total incorrectly and on which specific iteration the bug's effect first appeared. Zayar Lin moved the total = 0 line to before the loop started, ran the trace table through his corrected code by hand first to confirm the logic before even running the program again, and only then executed it -- confirming the correct average of 80 appeared. He noted this disciplined trace-first approach as the single most valuable debugging habit the whole term had taught him.",
+        passageMy:
+            "Test Score ငါးခုကို ဖတ်ရှုပြီး ၎င်းတို့၏ ပျမ်းမျှကို Print ထုတ်ရန် ရည်ရွယ်ထားသော Zayar Lin ၏ Grade-Averaging Program သည် Run လုပ်တိုင်း သံသယဖြစ်ဖွယ် နည်းသော ရလဒ်ကို ထုတ်ပေးနေခဲ့သည်။ Code ကို ထပ်မံ မထိတွေ့မီ သူ ကိုင်တွယ်ရနေသည့် Bug အမျိုးအစားကို ဦးစွာ ခွဲခြားရန် ဆရာရဲမင်းက သူ့ကို ပြုလုပ်စေခဲ့သည် - Program သည် Crash မဖြစ်ဘဲ Run လုပ်ပြီး ဂဏန်းတစ်ခု Print ထုတ်ခဲ့သောကြောင့် Syntax Error ကို ချက်ချင်း ဖယ်ရှားနိုင်ခဲ့သည် -- Program ၏ သဒ္ဒါသည် Valid Python ရှင်းရှင်းလင်းလင်း ဖြစ်ခဲ့ကြောင်း၊ လုံးဝ Execute ဖြစ်ခဲ့သောကြောင့် ဖြစ်သည်။ ဤသည်ကား ကျန်ရှိသော ရှင်းလင်းချက် တစ်ခုတည်း Logic Error ကို ချန်ထားခဲ့သည်၊ Code သည် အောင်မြင်စွာ Run သော်လည်း မှားယွင်းသော အရာကို တွက်ချက်သည် ဟု ဆိုလိုသည်။\n\nလိုင်းများကို ကျပန်း ပြောင်းလဲပြီး အကောင်းဆုံးကို မျှော်လင့်မည့်အစား Course ရှေ့ပိုင်းတွင် သင်ယူထားသည့်အတိုင်း Zayar Lin သည် Trace Table တစ်ခု တည်ဆောက်ခဲ့ပြီး Program က Test Score ငါးခု - 60, 70, 80, 90, 100 - တစ်ခုစီကို Process လုပ်နေစဉ် သူ့ total Variable ၏ တန်ဖိုးကို လိုင်းတစ်ကြောင်းချင်းစီ ခြေရာခံခဲ့သည်။ ပထမ ရမှတ်လေးခု ပေါင်းပြီးနောက် total သည် 400 ရောက်ရှိလိမ့်မည်ဟု၊ ငါးခုလုံးပြီးနောက် 500 ရောက်ရှိကာ ပျမ်းမျှ 100 မှန်ကန်ရန် 5 ဖြင့် စားလိမ့်မည်ဟု သူ မျှော်လင့်ခဲ့သည် -- ရပ်ဦး၊ သူ့ကိုယ်သူ ပြင်ဆင်ခဲ့သည်၊ စစ်မှန်သော ပျမ်းမျှသည် (60+70+80+90+100)/5 အတိအကျ ဖြစ်သင့်ပြီး ၎င်းကို 80 ဟု သင့်တင့်စွာ ပြန်တွက်ချက်ခဲ့သည်။ Code အစစ်အမှန်ကို Trace ခြင်းဖြင့် total သည် Loop မစတင်မီ တစ်ကြိမ်တည်း အစား Loop အတွင်း Pass တစ်ခုစီတိုင်း 0 သို့ Reset ပြန်နေကြောင်း သူ တွေ့ရှိခဲ့ပြီး ထို့ကြောင့် နောက်ဆုံး ရမှတ်၊ 100 သာ ပျမ်းမျှ တွက်ချက်မှုတွင် အမှန်တကယ် ပါဝင်ခဲ့ကာ 100 ကို 5 ဖြင့် စားလျှင် သူ တွေ့ခဲ့သော Bug ရလဒ်နှင့် အတိအကျ ကိုက်ညီသော သံသယဖြစ်ဖွယ် နည်းသော 20 ကို ရရှိခဲ့သည်။\n\nTrace Table သည် ၎င်း၏ တာဝန်ကို ပြီးမြောက်ခဲ့ကြောင်း ဆရာရဲမင်း အတည်ပြုခဲ့သည် - ၎င်းသည် တစ်ခုခု မှားယွင်းနေကြောင်း Zayar Lin ကို ရိုးရိုးမပြောပြီး total ကို မှားယွင်းစွာ Reset ပြုလုပ်သော လိုင်း အတိအကျနှင့် Bug ၏ အကျိုးသက်ရောက်မှု ပထမဆုံး ပေါ်လာသော တိကျသော Iteration ကို ညွှန်ပြခဲ့သည်။ total = 0 လိုင်းကို Loop မစတင်မီ Zayar Lin ရွှေ့ခဲ့ပြီး Program ကို ထပ်မံ Run မလုပ်မီပင် Logic ကို အတည်ပြုရန် သူ့ ပြင်ဆင်ထားသော Code ကို လက်ဖြင့် Trace Table တစ်ခု ဦးစွာ ဖြတ်ကာ ထို့နောက်မှသာ Execute လုပ်ခဲ့သည် -- မှန်ကန်သော ပျမ်းမျှ 80 ပေါ်လာကြောင်း အတည်ပြုခဲ့သည်။ ဤ စည်းကမ်းရှိသော Trace-First Approach ကို Term တစ်ခုလုံးက သင်ပေးခဲ့သော အထူးတန်ဖိုးရှိဆုံး Debugging အလေ့အထအဖြစ် သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin rule out a syntax error immediately?",
+            questionMy:
+                "Zayar Lin Syntax Error ကို ချက်ချင်း ဖယ်ရှားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The program ran without crashing and printed a number",
+              "The program deleted itself immediately",
+              "Sayar Ye Min told him syntax errors do not exist",
+              "The program never actually started running",
+            ],
+            optionsMy: [
+              "Program သည် Crash မဖြစ်ဘဲ Run လုပ်ပြီး ဂဏန်းတစ်ခု Print ထုတ်ခဲ့ခြင်း",
+              "Program သည် ကိုယ်တိုင် ချက်ချင်း ဖျက်ချသွားခဲ့ခြင်း",
+              "Syntax Error များ မရှိကြောင်း ဆရာရဲမင်းက ပြောကြားခဲ့ခြင်း",
+              "Program သည် Run စတင်ခြင်း အမှန်တကယ် လုံးဝ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about ruling out the syntax error."],
+            hintsMy: [
+              "Syntax Error ဖယ်ရှားခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what bug did the trace table reveal?",
+            questionMy:
+                "Trace Table ဖော်ထုတ်ခဲ့သော Bug ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "total was resetting to 0 inside the loop on every pass, instead of only once before the loop",
+              "The program had no variables at all",
+              "The five test scores were entered in the wrong order",
+              "The division symbol was missing entirely",
+            ],
+            optionsMy: [
+              "total သည် Loop မစတင်မီ တစ်ကြိမ်တည်း အစား Loop အတွင်း Pass တစ်ခုစီတိုင်း 0 သို့ Reset ပြန်နေခြင်း",
+              "Program တွင် Variable မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "Test Score ငါးခုကို လွဲမှားသော အစီအစဉ်ဖြင့် ရိုက်ထည့်ခဲ့ခြင်း",
+              "Division Symbol လုံးဝ လွတ်သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about total resetting inside the loop.",
+            ],
+            hintsMy: [
+              "Loop အတွင်း total Reset ပြန်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Zayar Lin do before running the corrected program again?",
+            questionMy:
+                "ပြင်ဆင်ထားသော Program ကို ထပ်မံ Run မလုပ်မီ Zayar Lin မည်သို့ ပြုလုပ်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He traced through the corrected code by hand first to confirm the logic",
+              "He deleted the entire program permanently",
+              "He immediately ran it without checking anything",
+              "He asked another student to guess the answer",
+            ],
+            optionsMy: [
+              "Logic ကို အတည်ပြုရန် ပြင်ဆင်ထားသော Code ကို လက်ဖြင့် ဦးစွာ Trace ခဲ့ခြင်း",
+              "Program တစ်ခုလုံးကို အမြဲတမ်း ဖျက်ချခဲ့ခြင်း",
+              "မည်သည်ကိုမျှ မစစ်ဆေးဘဲ ချက်ချင်း Run ခဲ့ခြင်း",
+              "အခြား ကျောင်းသားတစ်ဦးကို အဖြေ ခန့်မှန်းခိုင်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about tracing before running again.",
+            ],
+            hintsMy: [
+              "ထပ်မံ Run မလုပ်မီ Trace ပြုလုပ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Testing and Debugging",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Testing and Debugging",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A syntax error means...",
+          questionMy: "Syntax Error ဆိုသည်မှာ...",
+          optionsEn: [
+            "The program cannot run at all due to a grammar mistake",
+            "The program runs but produces the wrong answer",
+            "The program runs perfectly with no issues",
+            "The program deletes all data automatically",
+          ],
+          optionsMy: [
+            "Program သည် သဒ္ဒါအမှားကြောင့် လုံးဝ Run မလုပ်နိုင်ခြင်း",
+            "Program သည် Run သော်လည်း မှားယွင်းသော အဖြေ ထုတ်ပေးခြင်း",
+            "Program သည် ပြဿနာ မရှိဘဲ ပြီးပြည့်စုံစွာ Run ခြင်း",
+            "Program သည် Data အားလုံးကို အလိုအလျောက် ဖျက်ချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Boundary test data is chosen specifically to...",
+          questionMy: "Boundary Test Data ကို ...ရန် အထူးသဖြင့် ရွေးချယ်သည်",
+          optionsEn: [
+            "Test the exact edges of a valid range",
+            "Test only values in the middle of a range",
+            "Always cause the program to crash",
+            "Avoid testing anything at all",
+          ],
+          optionsMy: [
+            "Valid Range ၏ အစွန်း အတိအကျကို Test လုပ်ရန်",
+            "Range ၏ အလယ်ရှိ တန်ဖိုးများကိုသာ Test လုပ်ရန်",
+            "Program ကို အမြဲ Crash ဖြစ်စေရန်",
+            "မည်သည်ကိုမျှ Test မလုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trace table is especially useful for finding...",
+          questionMy: "Trace Table သည် ...ရှာဖွေရန် အထူးသဖြင့် အသုံးဝင်သည်",
+          optionsEn: [
+            "Logic errors, by showing exactly how variable values change",
+            "Only syntax errors, never logic errors",
+            "Hardware faults in the computer",
+            "Network connectivity issues",
+          ],
+          optionsMy: [
+            "Variable တန်ဖိုးများ မည်သို့ ပြောင်းလဲကြောင်း တိကျစွာ ပြသခြင်းဖြင့် Logic Error များ",
+            "Syntax Error များကိုသာ၊ Logic Error များ ဘယ်တော့မှ မဟုတ်ခြင်း",
+            "ကွန်ပျူတာရှိ Hardware အမှားများ",
+            "Network Connectivity ပြဿနာများ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 8, Week 32 (Capstone/Boss Week): "Automated
+// System Design Project"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek32 = CourseWeekDef(
+  id: "course-igcse-computing-w32",
+  weekNumber: 32,
+  titleEn: "Automated System Design Project",
+  titleMy: "အလိုအလျောက် စနစ် ဒီဇိုင်း ပရောဂျက်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w32-d1",
+      dayNumber: 1,
+      titleEn: "System Specification and Control Pseudocode",
+      titleMy: "System Specification နှင့် Control Pseudocode",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An automated car park barrier should open when a sensor detects a valid ticket AND the car park is not full. Which Boolean expression correctly models this?",
+          questionMy:
+              "Automated Car Park Barrier သည် Sensor တစ်ခုက Valid Ticket ကို ရှာဖွေတွေ့ရှိပြီး Car Park Full မဖြစ်ချိန် ဖွင့်သင့်သည်။ ၎င်းကို မှန်ကန်စွာ Model ပြုလုပ်သော Boolean Expression မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "ValidTicket AND (NOT Full)",
+            "ValidTicket OR Full",
+            "NOT ValidTicket AND Full",
+            "ValidTicket XOR Full",
+          ],
+          optionsMy: [
+            "ValidTicket AND (NOT Full)",
+            "ValidTicket OR Full",
+            "NOT ValidTicket AND Full",
+            "ValidTicket XOR Full",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Both conditions must hold simultaneously: a valid ticket, and the car park not being full -- this is exactly the AND-with-NOT pattern from the logic gates term.",
+          ],
+          hintsMy: [
+            "Condition နှစ်ခုစလုံး တစ်ချိန်တည်း ရှိရမည် - Valid Ticket နှင့် Car Park Full မဖြစ်ခြင်း -- ၎င်းသည် Logic Gates Term မှ AND-With-NOT Pattern အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which piece of pseudocode correctly models a feedback loop for a thermostat that keeps checking temperature continuously?",
+          questionMy:
+              "Temperature ကို အဆက်မပြတ် ဆက်လက် စစ်ဆေးနေသော Thermostat တစ်ခုအတွက် Feedback Loop ကို မှန်ကန်စွာ Model ပြုလုပ်သော Pseudocode အပိုင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "WHILE True; read temperature; IF temperature > threshold THEN turn heater off ELSE turn heater on; ENDWHILE",
+            "READ temperature once; turn heater on; STOP",
+            "IF temperature > threshold THEN STOP",
+            "FOR i = 1 TO 1; read temperature; ENDFOR",
+          ],
+          optionsMy: [
+            "WHILE True; Temperature ဖတ်ခြင်း; IF Temperature > Threshold THEN Heater ပိတ်ခြင်း ELSE Heater ဖွင့်ခြင်း; ENDWHILE",
+            "Temperature ကို တစ်ကြိမ်တည်း ဖတ်ခြင်း; Heater ဖွင့်ခြင်း; ရပ်တန့်ခြင်း",
+            "IF Temperature > Threshold THEN ရပ်တန့်ခြင်း",
+            "FOR i = 1 TO 1; Temperature ဖတ်ခြင်း; ENDFOR",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A genuine feedback loop never stops checking -- an infinite WHILE loop (or an equivalent) that repeatedly reads and reacts models this correctly, unlike a one-time check.",
+          ],
+          hintsMy: [
+            "စစ်မှန်သော Feedback Loop သည် စစ်ဆေးခြင်းကို ဘယ်တော့မှ မရပ်တန့်ပါ -- ထပ်ခါထပ်ခါ ဖတ်ရှုပြီး တုံ့ပြန်သော Infinite WHILE Loop (သို့) ညီမျှသောအရာသည် တစ်ကြိမ်တည်း Check နှင့် မတူဘဲ ၎င်းကို မှန်ကန်စွာ Model ပြုလုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For an automated system's design, why is it important to test the specification with erroneous data, such as a sensor reporting an impossible negative temperature?",
+          questionMy:
+              "Automated System ၏ Design အတွက် Sensor တစ်ခုက ဖြစ်မနိုင်သော Negative Temperature Report လုပ်ခြင်း ကဲ့သို့ Erroneous Data ဖြင့် Specification ကို Test လုပ်ခြင်း အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "It checks whether the system handles sensor faults or invalid readings safely, rather than assuming sensors are always perfectly reliable",
+            "Erroneous data testing is never actually necessary for automated systems",
+            "It guarantees the sensor itself will never physically break",
+            "It replaces the need for normal and boundary test data entirely",
+          ],
+          optionsMy: [
+            "Sensor များသည် အမြဲ ပြီးပြည့်စုံစွာ ယုံကြည်ရသည်ဟု ယူဆမည့်အစား System သည် Sensor Fault (သို့) Invalid Reading များကို လုံခြုံစွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးသည်",
+            "Erroneous Data Testing သည် Automated System များအတွက် အမှန်တကယ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Sensor ကိုယ်တိုင် ရုပ်ပိုင်းဆိုင်ရာ ဘယ်တော့မှ မပျက်စီးကြောင်း အာမခံခြင်း",
+            "Normal နှင့် Boundary Test Data ၏ လိုအပ်ချက်ကို လုံးဝ အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Real sensors can fail, be miscalibrated, or send corrupted readings -- a robust automated system should not blindly trust every value it receives.",
+          ],
+          hintsMy: [
+            "Sensor အစစ်အမှားများသည် Fail ဖြစ်နိုင်၊ Calibrate မှားနိုင် (သို့) ချို့ယွင်းသော Reading ပို့နိုင်သည် -- ခိုင်မာသော Automated System သည် ရရှိသော တန်ဖိုးတိုင်းကို မျက်စိမှိတ် မယုံကြည်သင့်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Automation Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Automation ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w32-dm-1",
+          termEn: "Feedback loop",
+          termMy: "Feedback Loop",
+          matchEn:
+              "A continuous cycle of measuring, deciding, and acting that never permanently stops",
+          matchMy:
+              "ဘယ်တော့မှ အမြဲတမ်း မရပ်တန့်သော တိုင်းတာခြင်း၊ ဆုံးဖြတ်ခြင်းနှင့် ဆောင်ရွက်ခြင်း၏ အဆက်မပြတ် Cycle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w32-dm-2",
+          termEn: "Rule-based system",
+          termMy: "Rule-Based System",
+          matchEn:
+              "Best suited to tasks reliably solvable with simple, explicit, pre-written rules",
+          matchMy:
+              "ရိုးရှင်း၊ ရှင်းလင်း၊ ကြိုတင် ရေးသားထားသော Rule များဖြင့် ယုံကြည်စွာ ဖြေရှင်းနိုင်သော Task များနှင့် ပို၍ ကိုက်ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w32-dm-3",
+          termEn: "Erroneous test data",
+          termMy: "Erroneous Test Data",
+          matchEn:
+              "Deliberately invalid input checking a system handles faults safely rather than crashing",
+          matchMy:
+              "Crash ဖြစ်မည့်အစား System သည် Fault များကို လုံခြုံစွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးသော ရည်ရွယ်ချက်ရှိရှိ Invalid Input",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w32-dm-4",
+          termEn: "Logic error",
+          termMy: "Logic Error",
+          matchEn:
+              "A bug where the program runs successfully but computes the wrong result",
+          matchMy:
+              "Program သည် အောင်မြင်စွာ Run သော်လည်း မှားယွင်းသော ရလဒ် တွက်ချက်သော Bug",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Boolean Expression Evaluation",
+      titleMy: "စီစစ်ကြမည် - Boolean Expression Evaluation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Evaluates to True", "Evaluates to False"],
+        bucketsMy: [
+          "True သို့ Evaluate ဖြစ်သည်",
+          "False သို့ Evaluate ဖြစ်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w32-sort-1",
+            labelEn:
+                "ValidTicket = True AND Full = False, expression: ValidTicket AND (NOT Full)",
+            labelMy:
+                "ValidTicket = True AND Full = False, Expression: ValidTicket AND (NOT Full)",
+            correctBucketEn: "Evaluates to True",
+            correctBucketMy: "True သို့ Evaluate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcomp-w32-sort-2",
+            labelEn:
+                "ValidTicket = False AND Full = False, expression: ValidTicket AND (NOT Full)",
+            labelMy:
+                "ValidTicket = False AND Full = False, Expression: ValidTicket AND (NOT Full)",
+            correctBucketEn: "Evaluates to False",
+            correctBucketMy: "False သို့ Evaluate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcomp-w32-sort-3",
+            labelEn:
+                "ValidTicket = True AND Full = True, expression: ValidTicket AND (NOT Full)",
+            labelMy:
+                "ValidTicket = True AND Full = True, Expression: ValidTicket AND (NOT Full)",
+            correctBucketEn: "Evaluates to False",
+            correctBucketMy: "False သို့ Evaluate ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Smart Parking System Design",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Smart Parking System ဒီဇိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Smart Parking System Design",
+        titleMy: "Zayar Lin ၏ Smart Parking System ဒီဇိုင်း",
+        passageEn:
+            "For the Term 8 capstone, Sayar Ye Min asked every student to fully specify an automated car park barrier system, combining feedback loops, control pseudocode, and rigorous testing into a single design document. Zayar Lin began with the specification: a ticket sensor detects whether a valid ticket has been inserted, a capacity sensor tracks how many cars are currently inside, and a barrier actuator physically raises or lowers the gate. The barrier should raise only when a valid ticket is inserted AND the car park is below its maximum capacity.\n\nHe wrote his control pseudocode as a continuous feedback loop rather than a one-time check, remembering the greenhouse system's core lesson from earlier in the term: WHILE True, read TicketValid and CurrentCount, IF TicketValid AND (CurrentCount < MaxCapacity) THEN raise barrier and increment CurrentCount, ELSE keep barrier lowered, ENDWHILE. He deliberately used a genuine infinite loop rather than a single IF statement, since the system needed to keep responding to every single car indefinitely, not just once.\n\nFor testing, Zayar Lin designed three categories exactly as the week's lesson had taught: normal data was a valid ticket with the car park at half capacity, which should correctly raise the barrier. Boundary data was a valid ticket with CurrentCount exactly equal to MaxCapacity minus one (the very last available space) and exactly equal to MaxCapacity (completely full), checking his less-than comparison handled both edges correctly rather than being off by one. Erroneous data was a capacity sensor reporting an impossible negative CurrentCount value, which he handled by adding a validation check rejecting any CurrentCount below zero before it ever reached the main decision logic, rather than trusting the sensor could never malfunction. He concluded his design document by explicitly stating which specific test case had caught each design decision, exactly the disciplined justification style the whole term had built toward.",
+        passageMy:
+            "Term 8 Capstone အတွက် Feedback Loop, Control Pseudocode နှင့် တင်းကျပ်သော Testing ကို Design Document တစ်ခုတည်းအဖြစ် ပေါင်းစပ်လျက် Automated Car Park Barrier System ကို အပြည့်အစုံ Specify ပြုလုပ်ရန် ဆရာရဲမင်းက ကျောင်းသားတိုင်းကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် Specification ဖြင့် စတင်ခဲ့သည် - Ticket Sensor သည် Valid Ticket ထည့်သွင်းထားခြင်း ရှိမရှိ ရှာဖွေတွေ့ရှိပြီး Capacity Sensor သည် လက်ရှိ အတွင်းရှိ ကား အရေအတွက်ကို ခြေရာခံကာ Barrier Actuator သည် တံခါးကို ရုပ်ပိုင်းဆိုင်ရာ မြှင့်တင် (သို့) ချလိုက်သည်။ Barrier သည် Valid Ticket ထည့်သွင်းထားပြီး Car Park သည် ၎င်း၏ အများဆုံး Capacity အောက်တွင် ရှိသည့်အခါသာ မြှင့်တင်သင့်သည်။\n\nTerm ရှေ့ပိုင်းမှ Greenhouse System ၏ အဓိက သင်ခန်းစာကို သတိရလျက် ၎င်း၏ Control Pseudocode ကို တစ်ကြိမ်တည်း Check အစား အဆက်မပြတ် Feedback Loop တစ်ခုအဖြစ် သူ ရေးသားခဲ့သည် - WHILE True, TicketValid နှင့် CurrentCount ကို ဖတ်ခြင်း, IF TicketValid AND (CurrentCount < MaxCapacity) THEN Barrier ကို မြှင့်တင်ပြီး CurrentCount ကို တိုးမြှင့်ခြင်း, ELSE Barrier ကို ဆက်ချထားခြင်း, ENDWHILE ။ System သည် ကားတစ်စီးတိုင်းအတွက် ဆက်လက် တုံ့ပြန်ရန် လိုအပ်ပြီး တစ်ကြိမ်တည်းသာ မဟုတ်ဘဲ ကာလ မကန့်သတ်ဘဲ လိုအပ်ခဲ့သောကြောင့် IF Statement တစ်ခုတည်း အစား စစ်မှန်သော Infinite Loop ကို ရည်ရွယ်ချက်ရှိရှိ သူ အသုံးပြုခဲ့သည်။\n\nTesting အတွက် အပတ်စဉ် သင်ခန်းစာက သင်ပေးခဲ့သည့်အတိုင်း Zayar Lin သည် Category သုံးခုကို ဒီဇိုင်းဆွဲခဲ့သည် - Normal Data သည် Car Park ထက်ဝက် Capacity ရှိချိန် Valid Ticket ဖြစ်ပြီး Barrier ကို မှန်ကန်စွာ မြှင့်တင်သင့်သည်။ Boundary Data သည် CurrentCount သည် MaxCapacity Minus One (နောက်ဆုံး ရရှိနိုင်သော နေရာ) နှင့် အတိအကျ ညီသော နှင့် MaxCapacity (လုံးဝ ပြည့်) နှင့် အတိအကျ ညီသော Valid Ticket ဖြစ်ပြီး ၎င်း၏ Less-Than Comparison သည် Off-By-One မဖြစ်ဘဲ Edge နှစ်ခုစလုံးကို မှန်ကန်စွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးခဲ့သည်။ Erroneous Data သည် ဖြစ်မနိုင်သော Negative CurrentCount တန်ဖိုးကို Report ပြုလုပ်သော Capacity Sensor ဖြစ်ပြီး Sensor ဘယ်တော့မှ Malfunction မဖြစ်နိုင်ဟု ယုံကြည်မည့်အစား Main Decision Logic သို့ မရောက်မီ Zero အောက်ရှိ CurrentCount မည်သည်ကိုမဆို ငြင်းပယ်သော Validation Check ထည့်သွင်းခြင်းဖြင့် ၎င်းကို သူ ကိုင်တွယ်ခဲ့သည်။ Design Decision တစ်ခုစီကို Test Case အတိအကျ မည်သည် ဖမ်းဆီးခဲ့ကြောင်း ရှင်းလင်းစွာ ဖော်ပြခြင်းဖြင့် Term တစ်ခုလုံး တည်ဆောက်လာခဲ့သော စည်းကမ်းရှိသော ခိုင်လုံမှု Style အတိအကျဖြင့် သူ့ Design Document ကို ပြီးဆုံးအောင် ရေးသားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, when should the barrier raise?",
+            questionMy:
+                "Barrier မည်သည့်အခါ မြှင့်တင်သင့်ကြောင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only when a valid ticket is inserted AND the car park is below maximum capacity",
+              "Whenever any car approaches, regardless of ticket or capacity",
+              "Only at a fixed time of day",
+              "Never, under any circumstances",
+            ],
+            optionsMy: [
+              "Valid Ticket ထည့်သွင်းထားပြီး Car Park သည် အများဆုံး Capacity အောက်တွင် ရှိသည့်အခါသာ",
+              "Ticket (သို့) Capacity မည်သို့ပင်ရှိစေ ကားမည်သည် ချဉ်းကပ်ချိန်တိုင်း",
+              "နေ့စဉ် Fixed အချိန်တစ်ခုတွင်သာ",
+              "မည်သည့်အခြေအနေတွင်မျှ ဘယ်တော့မှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin use an infinite WHILE loop rather than a single IF statement?",
+            questionMy:
+                "IF Statement တစ်ခုတည်း အစား Infinite WHILE Loop ကို Zayar Lin အသုံးပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The system needed to keep responding to every car indefinitely, not just once",
+              "WHILE loops are always faster to type than IF statements",
+              "IF statements cannot be used in pseudocode at all",
+              "Infinite loops always run exactly once",
+            ],
+            optionsMy: [
+              "System သည် ကားတစ်ကြိမ်တည်း မဟုတ်ဘဲ ကားတိုင်းအတွက် ကာလ မကန့်သတ်ဘဲ ဆက်လက် တုံ့ပြန်ရန် လိုအပ်ခြင်း",
+              "WHILE Loop များသည် IF Statement များထက် Type ရိုက်ရန် အမြဲ ပို၍ မြန်ခြင်း",
+              "IF Statement များကို Pseudocode တွင် လုံးဝ အသုံးမပြု၍ ရနိုင်ခြင်း",
+              "Infinite Loop များသည် အတိအကျ တစ်ကြိမ်တည်း အမြဲ Run ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Zayar Lin handle the erroneous negative CurrentCount case?",
+            questionMy:
+                "Erroneous Negative CurrentCount Case ကို Zayar Lin မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He added a validation check rejecting any CurrentCount below zero before the main logic",
+              "He deleted the capacity sensor entirely",
+              "He ignored the possibility completely",
+              "He assumed sensors could never malfunction",
+            ],
+            optionsMy: [
+              "Main Logic မတိုင်မီ Zero အောက်ရှိ CurrentCount မည်သည်ကိုမဆို ငြင်းပယ်သော Validation Check ထည့်သွင်းခဲ့ခြင်း",
+              "Capacity Sensor ကို လုံးဝ ဖျက်ချခဲ့ခြင်း",
+              "ဖြစ်နိုင်ခြေကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Sensor များ ဘယ်တော့မှ Malfunction မဖြစ်နိုင်ဟု ယူဆခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the validation check."],
+            hintsMy: ["Validation Check အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Automation and Testing Exam",
+      titleMy: "Term 8 Capstone - Automation and Testing စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A genuine feedback loop should be modelled in pseudocode using...",
+          questionMy:
+              "စစ်မှန်သော Feedback Loop ကို Pseudocode တွင် ...ကို အသုံးပြု၍ Model ပြုလုပ်သင့်သည်",
+          optionsEn: [
+            "A continuously repeating loop, not a single one-time check",
+            "A single IF statement with no loop at all",
+            "A comment with no executable code",
+            "A permanently empty function",
+          ],
+          optionsMy: [
+            "တစ်ကြိမ်တည်း Check မဟုတ်ဘဲ အဆက်မပြတ် ထပ်ခါထပ်ခါ Loop",
+            "Loop မည်သည်မှ မပါဘဲ IF Statement တစ်ခုတည်း",
+            "Executable Code မပါသော Comment",
+            "အမြဲတမ်း ဗလာ Function",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Erroneous test data for an automated system checks whether it...",
+          questionMy:
+              "Automated System တစ်ခုအတွက် Erroneous Test Data သည် ၎င်း ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "Handles sensor faults or invalid readings safely",
+            "Always crashes immediately",
+            "Never uses any sensors at all",
+            "Runs twice as fast as normal",
+          ],
+          optionsMy: [
+            "Sensor Fault (သို့) Invalid Reading များကို လုံခြုံစွာ ကိုင်တွယ်ခြင်း ရှိမရှိ",
+            "အမြဲ ချက်ချင်း Crash ဖြစ်ခြင်း",
+            "Sensor မည်သည့်အမျိုးအစားကိုမျှ ဘယ်တော့မှ မသုံးခြင်း",
+            "ပုံမှန်ထက် နှစ်ဆ မြန်ဆန်စွာ Run ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rule-based approach is generally preferred over machine learning when...",
+          questionMy:
+              "Rule-Based Approach ကို Machine Learning ထက် ယေဘုယျအားဖြင့် ဦးစားပေးသည့်အခါမှာ...",
+          optionsEn: [
+            "A task can be reliably solved with simple, explicit rules",
+            "Massive amounts of labelled training data are required",
+            "No fixed rule could ever describe the task",
+            "Explainability is completely unimportant",
+          ],
+          optionsMy: [
+            "Task တစ်ခုကို ရိုးရှင်း၊ ရှင်းလင်းသော Rule များဖြင့် ယုံကြည်စွာ ဖြေရှင်းနိုင်ချိန်",
+            "Label တပ်ထားသော Training Data ပမာဏ ကြီးမားစွာ လိုအပ်ချိန်",
+            "Fixed Rule မည်သည်မျှ Task ကို ဘယ်တော့မှ ဖော်ပြနိုင်ခြင်း",
+            "Explainability သည် လုံးဝ အရေးမကြီးချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 8: "Automated Systems and Robotics"
+// (Weeks 29-32)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm8 = CourseTermDef(
+  id: "course-igcse-computing-t8",
+  termNumber: 8,
+  titleEn: "Automated Systems and Robotics",
+  titleMy: "အလိုအလျောက် စနစ်များနှင့် စက်ရုပ်ပညာ",
+  certificateTitleEn: "Automated Systems and Robotics",
+  certificateTitleMy: "အလိုအလျောက် စနစ်များနှင့် စက်ရုပ်ပညာ",
+  weeks: [
+    _igcseComputingWeek29,
+    _igcseComputingWeek30,
+    _igcseComputingWeek31,
+    _igcseComputingWeek32,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
